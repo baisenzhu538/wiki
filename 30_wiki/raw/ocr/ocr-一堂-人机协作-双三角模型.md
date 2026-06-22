@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
 domain:
@@ -17,6 +18,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - '[[yt-model-dual-triangle-competitiveness]]'
+  - '[[ocr-一堂-科学决策-人机协作决策]]'
+  - '[[ocr-一堂-个人修炼-双三角模型]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
 ---
 
 

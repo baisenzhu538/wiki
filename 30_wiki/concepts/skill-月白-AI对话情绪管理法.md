@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI对话情绪管理法
 title: 技能：AI对话情绪管理法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI设计反馈萃取法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+  - '[[skill-月白-文创材质调研与精益选择]]'
+  - '[[skill-月白-Token效价比决策法]]'
+  - '[[skill-月白-AI课程内容深度梳理法]]'
 ---
 # 技能：AI对话情绪管理法
 

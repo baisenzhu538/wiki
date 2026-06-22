@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-truth-seeking
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '用户为了反对而反对，没有建设性', 'framework_lens': '红队滥用', 'follow_up_question': '你的反对是为了更接近真相，还是为了赢？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-liberate-thinking]]'
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
 ---
 # 实事求是
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-判断标准快速产出法
 title: 技能：判断标准快速产出法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-低置信度样本黄金漏斗处理]]'
+  - '[[skill-马易-痛点驱动的数字化]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
+  - '[[skill-马易-减少输入噪音法]]'
+  - '[[skill-马易-最小场景优先落地法]]'
 ---
 # 技能：判断标准快速产出法
 

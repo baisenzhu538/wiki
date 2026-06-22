@@ -1,4 +1,5 @@
 ---
+
 id: contradictions
 type: index
 status: draft
@@ -14,6 +15,12 @@ trust_level: low
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[plan_20260501_e1e150b9-improvement-plan]]'
+  - '[[plan_20260501_85a84b92-improvement-plan]]'
+  - '[[plan_20260501_ca61cdd7-improvement-plan]]'
+  - '[[plan_20260501_8001399c-improvement-plan]]'
 ---
 # Contradictions
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-代入场景推演要素法
 title: 技能：代入场景推演要素法
 type: "tool"
@@ -27,6 +28,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-对标借鉴他人决策维度]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
+  - '[[skill-复盘推演练习]]'
 ---
 # 技能：代入场景推演要素法
 

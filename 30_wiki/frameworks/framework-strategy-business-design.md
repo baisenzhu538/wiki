@@ -30,6 +30,8 @@ related:
 - '[[tool-strategy-control-points]]'
 - '[[tool-strategy-core-competence-matrix]]'
 - '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-logistics-cost-planning]]'
+- '[[tool-strategy-market-opportunity-matrix]]'
 - '[[tool-strategy-platform-business-map]]'
 - '[[tool-strategy-risk-management]]'
 - '[[tool-strategy-value-capture]]'

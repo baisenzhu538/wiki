@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-y-organization
 confidence: 0.85
 created_at: 2026-05-07
@@ -37,6 +38,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-entrepreneur-liberate-thinking]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-model-progress-map]]'
+  - '[[ocr-一堂-个人修炼-y模型]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # Y 型创业模型 (Y Model for Startups)
 

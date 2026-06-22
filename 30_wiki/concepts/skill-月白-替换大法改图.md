@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-替换大法改图
 title: 技能：替换大法改图
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-AI改图指令精细化]]'
+  - '[[skill-月白-批量生成多视角素材]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：替换大法改图
 

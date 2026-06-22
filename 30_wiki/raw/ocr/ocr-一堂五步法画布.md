@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂五步法画布"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[case-proya-betaine-skincare-benchmark]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-model-five-step-canvas]]'
 ---
 
 # OCR: 一堂五步法画布

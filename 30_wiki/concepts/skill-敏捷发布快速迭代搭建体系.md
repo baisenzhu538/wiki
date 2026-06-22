@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-敏捷发布快速迭代搭建体系
 title: 技能：敏捷发布快速迭代搭建体系
 type: "tool"
@@ -26,6 +27,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-用旗舰店替代纯招商投入]]'
+  - '[[skill-快招品牌总部模拟调研]]'
+  - '[[skill-城市合伙人模式复制能力]]'
+  - '[[skill-创始人二当家分工协作模式]]'
+  - '[[skill-通过请吃饭获取行业内部资料]]'
 ---
 # 技能：敏捷发布快速迭代搭建体系
 

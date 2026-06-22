@@ -1,5 +1,6 @@
 ---
 
+
 id: "轻量级诊所HIS调研全清单"
 created_at: 2026-05-03
 domain:
@@ -17,6 +18,12 @@ author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[HIS系统开发实现方案-架构师指南]]'
+  - '[[保达云诊所深度调研报告]]'
+  - '[[开源HIS系统代码深度分析报告]]'
+  - '[[EC工业化规范手册]]'
+  - '[[HIS系统深度调研]]'
 ---
 # 轻量级诊所HIS调研全清单
 

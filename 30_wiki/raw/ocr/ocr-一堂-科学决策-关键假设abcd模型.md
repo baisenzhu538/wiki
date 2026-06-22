@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-科学决策-关键假设abcd模型"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
+  - '[[yt-decision-abcd-model]]'
+  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[yt-unit-model-construction]]'
 ---
 
 # OCR: 一堂-科学决策-关键假设ABCD模型

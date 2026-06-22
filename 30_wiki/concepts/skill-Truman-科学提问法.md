@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-Truman-科学提问法
 title: 技能：科学提问法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-月白-AI设计反馈萃取法]]'
+  - '[[skill-Truman-职场异步协作提问法]]'
+  - '[[skill-Truman-技术社区严肃提问法]]'
+  - '[[skill-Truman-语义对齐沟通法]]'
+  - '[[skill-月白-文创材质调研与精益选择]]'
 ---
 # 技能：科学提问法
 

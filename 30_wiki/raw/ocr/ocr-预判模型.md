@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-预判模型"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,11 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[yt-model-prediction-model]]'
+  - '[[yt-foresight-model-taxonomy]]'
 ---
 
 # OCR: 预判模型

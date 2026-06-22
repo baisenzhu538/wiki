@@ -1,5 +1,6 @@
 ---
 
+
 id: agent-native-card-design
 title: Agent 原生知识卡设计规范 v2
 type: system
@@ -16,6 +17,12 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: medium
 updated_at: '2026-06-16'
+related:
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[graph-rag]]'
+  - '[[yt-model-pan-product-36-strategies]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 ---# Agent 原生知识卡设计规范 v2
 
 ## 定位

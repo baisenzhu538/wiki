@@ -1,4 +1,5 @@
 ---
+
 id: dk-truman-iteration-to-aesthetic-ceiling
 title: 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
 type: dark-knowledge
@@ -14,6 +15,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-月白-Token智甲比控制法]]'
+  - '[[dk-my-ai-landing-three-barriers]]'
+  - '[[dk-jh-llm-time-blindness]]'
+  - '[[dk-ai-judgment-human-responsibility]]'
+  - '[[dk-ai-judgment-programmer-paradox]]'
 ---
 # 迭代到审美上限：一张图的隐形成本远超显示器
 

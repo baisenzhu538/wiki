@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI图生图尺寸快速转换
 title: 技能：AI图生图尺寸快速转换
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI图片风格逆向提取（抄图法）]]'
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-AIGC文字大小精确控制]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
 ---
 # 技能：AI图生图尺寸快速转换
 

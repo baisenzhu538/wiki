@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-口述作图法（口喷设计）
 title: 技能：口述作图法（口喷设计）
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-RGB转CMYK印刷预检]]'
+  - '[[skill-月白-实物包装落地训练法]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
 ---
 # 技能：口述作图法（口喷设计）
 

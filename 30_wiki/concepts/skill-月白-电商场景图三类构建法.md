@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-电商场景图三类构建法
 title: 技能：电商场景图三类构建法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-卖点可视化海报设计法]]'
+  - '[[skill-月白-精准提示词撰写法]]'
+  - '[[skill-月白-实物包装落地训练法]]'
+  - '[[skill-月白-AI去字-稿定设计加字工作流]]'
+  - '[[skill-月白-电商场景图三类分类法]]'
 ---
 # 技能：电商场景图三类构建法
 

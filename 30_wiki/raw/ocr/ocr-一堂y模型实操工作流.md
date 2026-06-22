@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂y模型实操工作流"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-ai学习-提问进化路线图]]'
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[ocr-一堂-单元模型-象限分析法]]'
+  - '[[ocr-一堂-单元模型-壁垒预判]]'
 ---
 
 # OCR: 一堂Y模型实操工作流

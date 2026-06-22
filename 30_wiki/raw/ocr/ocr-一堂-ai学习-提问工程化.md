@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-AI学习-提问工程化"
 type: concept
 domain:
@@ -18,6 +19,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-truman的个人成长五步法]]'
+  - '[[ocr-一堂y模型-科学成事道理]]'
+  - '[[ocr-一堂-地图-管理地图_conv]]'
+  - '[[ocr-一堂-科学决策-深度-l3定量公式]]'
+  - '[[ocr-一堂-地图-创业地图_conv]]'
 ---
 
 

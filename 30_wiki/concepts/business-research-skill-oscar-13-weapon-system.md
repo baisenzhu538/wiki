@@ -1,5 +1,6 @@
 ---
 
+
 id: business-research-skill-oscar-13-weapon-system
 created_at: 2026-05-04
 domain:
@@ -15,6 +16,12 @@ type: concept
 updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.7
+related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[truman-perspective-skill]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[sk-ai-purpose-bias-check]]'
 ---# Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 
 > huanwang.org 出品，v2.1.0。将 一堂 OSCAR + 13 武器方法论完整编译为 Claude Code Skill 的生产级实现。

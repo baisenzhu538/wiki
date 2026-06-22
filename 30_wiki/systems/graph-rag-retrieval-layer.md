@@ -1,5 +1,6 @@
 ---
 
+
 title: Graph RAG 检索层技术说明
 author: 审查者欧阳锋
 role: 知识架构师 (Knowledge Architect)
@@ -20,6 +21,12 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[agent-ecosystem-design]]'
+  - '[[sprint-6-cli-gap-proposal]]'
+  - '[[proposal-graph-rag-star-fix]]'
+  - '[[graph-rag]]'
+  - '[[kdo-watch-health-check-layer]]'
 ---# Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**

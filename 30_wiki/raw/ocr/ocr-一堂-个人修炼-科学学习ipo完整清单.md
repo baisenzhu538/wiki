@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-个人修炼-科学学习ipo完整清单"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+  - '[[yt-model-ipo-complete-checklist]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
+  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
 ---
 
 # OCR: 一堂-个人修炼-科学学习IPO完整清单

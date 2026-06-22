@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI模型选择策略
 title: 技能：AI模型选择策略
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-关键要素提取改图法]]'
+  - '[[skill-月白-多语言提示词精准法]]'
+  - '[[skill-月白-PPT全AI生成工作流]]'
+  - '[[skill-月白-精准提示词消除模型幻觉]]'
+  - '[[skill-月白-AI设计严苛批评法]]'
 ---
 # 技能：AI模型选择策略
 

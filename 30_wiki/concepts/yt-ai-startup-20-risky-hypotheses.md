@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-ai-startup-20-risky-hypotheses
 confidence: 0.85
 created_at: 2026-06-10
@@ -40,6 +41,12 @@ diagnostic_signals:
   - {'signal': '团队只关注需求类假设，不验证商业模式和壁垒', 'framework_lens': '五维失衡——清单是系统性的，不能只挑熟悉的看', 'follow_up_question': '你的商业模式假设和壁垒假设分别列了几条？如果少于需求类的一半，分析是失衡的'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[dk-pseudo-demand-trap]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[skill-月白-风格不变局部调整]]'
+  - '[[yt-entrepreneur-business-growth]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
 ---
 # AI创业20个高风险假设清单
 

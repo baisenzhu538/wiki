@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI归纳共性描述法
 title: 技能：AI归纳共性描述法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-多语言提示词降幻觉法]]'
+  - '[[skill-月白-控制产品画面尺寸比例]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：AI归纳共性描述法
 

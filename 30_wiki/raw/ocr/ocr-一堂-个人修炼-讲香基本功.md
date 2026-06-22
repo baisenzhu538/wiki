@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-个人修炼-讲香基本功"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
+  - '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
+  - '[[ocr-一堂-科学决策-决策三角形]]'
 ---
 
 # OCR: 一堂-个人修炼-讲香基本功

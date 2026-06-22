@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-清单式笔记法
 title: 技能：清单式笔记法
 type: "tool"
@@ -24,6 +25,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-知识库团队管理]]'
+  - '[[skill-项目复盘基本功]]'
+  - '[[skill-逐字稿练习演讲]]'
+  - '[[skill-费曼学习法实践讲香课题]]'
+  - '[[skill-专家访谈十步法]]'
 ---
 # 技能：清单式笔记法
 

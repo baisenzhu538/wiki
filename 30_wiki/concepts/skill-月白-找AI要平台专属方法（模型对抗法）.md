@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-找AI要平台专属方法（模型对抗法）
 title: 技能：找AI要平台专属方法（模型对抗法）
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI平台算法咨询法]]'
+  - '[[skill-月白-多语言提示词降幻觉法]]'
+  - '[[skill-月白-AI生成棉花娃娃形象]]'
+  - '[[skill-月白-口喷式设计工作流]]'
+  - '[[skill-月白-基于基础形象做动作延展（1到10）]]'
 ---
 # 技能：找AI要平台专属方法（模型对抗法）
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-truman-career-routes
 confidence: 0.85
 created_at: 2026-05-11
@@ -37,6 +38,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-panproduct-demand-multi-perspective]]'
+  - '[[yt-skill-storyline-contrast-analysis]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[ocr-truman的选择两条职业成长路线]]'
 ---
 # 楚门的选择：两条职业成长路线 X vs Y
 

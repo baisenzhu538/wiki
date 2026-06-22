@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-spin-selling
 confidence: 0.8
 created_at: 2026-05-11
@@ -38,6 +39,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
+related:
+  - '[[yt-entrepreneur-liberate-thinking]]'
+  - '[[yt-personal-y-model-exploration-2]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # SPIN销售法：顾问式销售的奠基之作
 

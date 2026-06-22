@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-ai-p-role-not-c-role
 title: AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 type: dark-knowledge
@@ -16,6 +17,12 @@ source_refs:
   - source_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
+related:
+  - '[[yt-note-l4-internalization]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[truman-ai-partner-design-analysis]]'
+  - '[[yt-note-three-level-evolution]]'
 ---
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 

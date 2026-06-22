@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-AIGC模型选型决策法
 title: 技能：AIGC模型选型决策法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-关键要素提取改图法]]'
+  - '[[skill-月白-分层自洽海报生成法]]'
+  - '[[skill-月白-多语言提示词精准法]]'
+  - '[[skill-月白-AI设计三段式里程碑流程]]'
+  - '[[skill-月白-AI设计严苛批评法]]'
 ---
 # 技能：AIGC模型选型决策法
 

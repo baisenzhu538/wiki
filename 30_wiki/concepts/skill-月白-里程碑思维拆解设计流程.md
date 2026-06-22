@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-里程碑思维拆解设计流程
 title: 技能：里程碑思维拆解设计流程
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC产品白底图制作]]'
+  - '[[skill-月白-封面情绪转化法]]'
+  - '[[skill-月白-AI设计里程碑拆解法]]'
+  - '[[skill-月白-里程碑思维-找对标优先于做设计]]'
+  - '[[skill-月白-AI生成图片排版控制-尺寸优先法]]'
 ---
 # 技能：里程碑思维拆解设计流程
 

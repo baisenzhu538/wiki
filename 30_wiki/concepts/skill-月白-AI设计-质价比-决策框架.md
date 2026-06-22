@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI设计-质价比-决策框架
 title: 技能：AI设计'质价比'决策框架
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-课程问题预埋法]]'
+  - '[[skill-月白-提示词长度控制法]]'
+  - '[[skill-月白-背景消除与分辨率修复]]'
+  - '[[skill-月白-用一堂方法论找最佳实践并拉满执行]]'
+  - '[[skill-月白-三步作业反馈法]]'
 ---
 # 技能：AI设计'质价比'决策框架
 

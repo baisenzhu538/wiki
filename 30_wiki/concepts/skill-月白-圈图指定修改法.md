@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-圈图指定修改法
 title: 技能：圈图指定修改法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI生成IP表情包]]'
+  - '[[skill-月白-基于基础形象做动作延展（1到10）]]'
+  - '[[skill-月白-电商白底图生成与高清重绘]]'
+  - '[[skill-月白-AIGC生成人物证件照]]'
+  - '[[skill-月白-电商白底图生成与高清处理]]'
 ---
 # 技能：圈图指定修改法
 

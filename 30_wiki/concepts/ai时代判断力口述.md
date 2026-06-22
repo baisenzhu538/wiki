@@ -1,5 +1,6 @@
 ---
 
+
 id: "ai时代判断力口述"
 created_at: 2026-05-25
 domain:
@@ -17,6 +18,12 @@ author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[老朱的水感-2026年5月]]'
+  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
+  - '[[2026-05-17-深夜感想]]'
+  - '[[writing-content]]'
+  - '[[在设计小伙伴的反馈还挺好的]]'
 ---
 # AI时代判断力口述
 

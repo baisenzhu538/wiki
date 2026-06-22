@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-减少输入噪音法
 title: 技能：减少输入噪音法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-AI能力团队复制]]'
+  - '[[skill-马易-AI任务拆解提升控制度]]'
+  - '[[skill-马易-AI答疑运营风格适配]]'
+  - '[[skill-马易-隐私安全分层解决]]'
+  - '[[skill-马易-AIGC项目ROI评估]]'
 ---
 # 技能：减少输入噪音法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-thinking-models
 confidence: 0.8
 created_at: 2026-05-11
@@ -41,6 +42,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
+related:
+  - '[[yt-personal-y-model-exploration-2]]'
+  - '[[一堂]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-entrepreneur-research-camp]]'
+  - '[[yt-personal-knowledge-extraction]]'
 ---
 # 思维模型：从碎片经验到稳定模型
 

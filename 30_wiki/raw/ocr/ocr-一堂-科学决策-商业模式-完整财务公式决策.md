@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-科学决策-商业模式-完整财务公式决策"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-科学决策-深度-决策经验值]]'
+  - '[[yt-decision-full-process]]'
+  - '[[ocr-一堂-单元模型-基准值]]'
+  - '[[ocr-一堂-单元模型-动态预测]]'
+  - '[[ocr-一堂-单元模型-修炼地图]]'
 ---
 
 # OCR: 一堂-科学决策-商业模式-完整财务公式决策

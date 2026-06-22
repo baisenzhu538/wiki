@@ -38,15 +38,15 @@ updated: 2026-06-22
 - **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
 - 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
 
-**当前状态：_54 已完成，待用户指定下一张（2026-06-22 更新）**：
+**当前状态：战略域可选后续清单已完成，_269 跳过（2026-06-22 更新）**：
 - 主工单：`00_inbox/战略专题/_strategy_cards_implementation_status.md`
 - 已完成：
   - ✅ `_54` 国产零食出口 → `30_wiki/cases/case-strategy-snack-export-opportunity.md`
-- 待启动 4 个高潜幻灯片：
-  1. `_115` 价值获取 8 问 → 补充进 `tool-strategy-value-capture`
-  2. `_184` 物流费用节约三年计划模板 → `tool-strategy-logistics-cost-planning`
-  3. `_249` 各细分市场机会分析矩阵 → `tool-strategy-market-opportunity-matrix`
-  4. `_269` 深蓝海洋主题页 → 需先确认内容
+  - ✅ `_115` 价值获取 8 问 → 补充进 `30_wiki/tools/tool-strategy-value-capture.md`（Purpose/Protocol/核心洞察/When NOT to Use/Critique）
+  - ✅ `_184` 物流费用节约 → `30_wiki/tools/tool-strategy-logistics-cost-planning.md`
+  - ✅ `_249` 细分市场机会矩阵 → `30_wiki/tools/tool-strategy-market-opportunity-matrix.md`
+- 跳过：
+  - ⏭️ `_269` 深蓝海洋主题页 → 待用户/欧阳锋确认内容
 - 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2）
 - 素材路径：`00_inbox/战略专题/冉鹏PPT截图/`
 

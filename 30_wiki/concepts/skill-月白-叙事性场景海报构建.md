@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-叙事性场景海报构建
 title: 技能：叙事性场景海报构建
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-口喷作图工作流]]'
+  - '[[skill-月白-AIGC反向拆解法]]'
+  - '[[skill-月白-80分效率设计策略]]'
+  - '[[skill-月白-实物包装落地训练法]]'
 ---
 # 技能：叙事性场景海报构建
 

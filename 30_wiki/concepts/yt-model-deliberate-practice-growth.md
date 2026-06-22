@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-deliberate-practice-growth
 confidence: 0.85
 created_at: 2026-05-11
@@ -36,6 +37,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[ocr-一堂刻意练习十年成长指数]]'
+  - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
+  - '[[ocr-一堂提炼过的因果模型]]'
+  - '[[yt-note-deliberate-practice-four-elements]]'
+  - '[[yt-personal-checklist-notes]]'
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

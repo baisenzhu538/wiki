@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-基于需求拆解找设计参考
 title: 技能：基于需求拆解找设计参考
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-设计参考图精准定位法]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
 ---
 # 技能：基于需求拆解找设计参考
 

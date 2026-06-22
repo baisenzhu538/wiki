@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-视角替换专用提示法
 title: 技能：视角替换专用提示法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-PPT风格锁定工作流]]'
+  - '[[skill-月白-PPT内容框架AIGC生成法]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：视角替换专用提示法
 

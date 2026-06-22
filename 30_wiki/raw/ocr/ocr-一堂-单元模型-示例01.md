@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-单元模型-示例01"
 type: concept
 domain:
@@ -15,6 +16,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-单柜子模型]]'
+  - '[[ocr-一堂-单元模型-示例]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
+  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
 ---
 
 

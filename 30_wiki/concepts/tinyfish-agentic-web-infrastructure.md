@@ -1,5 +1,6 @@
 ---
 
+
 id: tinyfish-agentic-web-infrastructure
 created_at: 2026-05-06
 domain:
@@ -16,6 +17,12 @@ confidence: 0.7
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[paddleocr-skill]]'
+  - '[[plan_20260621_skill-iteration-standard]]'
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[tool-yitang-web-scraping-research]]'
+  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 ---
 # TinyFish — Agentic Web 基础设施建设层 Skill
 

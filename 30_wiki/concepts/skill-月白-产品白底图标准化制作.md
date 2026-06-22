@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-产品白底图标准化制作
 title: 技能：产品白底图标准化制作
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC产品白底图制作]]'
+  - '[[skill-月白-口喷作图工作流]]'
+  - '[[skill-月白-80分效率设计策略]]'
+  - '[[skill-月白-AIGC设计作业复盘法]]'
+  - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
 ---
 # 技能：产品白底图标准化制作
 

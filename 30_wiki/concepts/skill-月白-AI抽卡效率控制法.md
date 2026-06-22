@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI抽卡效率控制法
 title: 技能：AI抽卡效率控制法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-餐饮海报AB测试法]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-线下门店设计复杂度评估]]'
 ---
 # 技能：AI抽卡效率控制法
 

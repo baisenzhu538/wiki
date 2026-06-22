@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-research-camp
 confidence: 0.8
 created_at: 2026-05-11
@@ -38,6 +39,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
+related:
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-model-liberate-thinking-layers]]'
+  - '[[yt-personal-thinking-models]]'
 ---
 # 调研行动营：从调研认知到AI调研武器库
 

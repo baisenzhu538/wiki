@@ -1369,1850 +1369,1852 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - tools/tool-agent-research-supervisor.md|Supervisor：一主多Worker
 - tools/tool-agent-research-swarm.md|Swarm：多Agent自发协同
 - tools/tool-agent-research-pipeline.md|Pipeline：OSCAR的Agent实现
-- [[concepts/60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction.md|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — healthcare, pharmaceutical-retail, business-strategy, product, unit-economics
-- [[concepts/cases/case-ai-agent-milestone-design.md|case-ai-agent-milestone-design]]
-- [[concepts/cases/case-ai-assisted-review.md|案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己]] — Truman
-- [[concepts/cases/case-ai-time-management-tiered-growth.md|案例：AI时间管理App七级演进]] — yitang, ai
-- [[concepts/cases/case-ban-fei-mao-conversion-hacker-skill.md|案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程]] — 半肥猫
-- [[concepts/cases/case-ban-fei-mao-from-assignment-to-tool.md|案例：半肥猫把一堂课程作业变成可复用调研工具]] — 半肥猫
-- [[concepts/cases/case-ban-fei-mao-skill-ab-test.md|案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比]] — 半肥猫
-- [[concepts/cases/case-candy-problem-os-vpn.md|案例：VPN场景——一个低质量提问如何消耗双方关系]] — yitang, content-production
-- [[concepts/cases/case-child-drawing-rhyme.md|案例：孩子控笔「画画歌」——最小单元的建模实践]] — Truman
-- [[concepts/cases/case-coffee-shop-foresight.md|案例：咖啡馆创业预判]] — yitang
-- [[concepts/cases/case-course-milestone-model.md|案例：一堂课程里程碑模型——方法论级建模的六步生产流程]] — Truman
-- [[concepts/cases/case-demand-ai-fitness-four-forces.md|案例：AI健身四力——四种力量的博弈分析]] — yitang, five-step-method
-- [[concepts/cases/case-demand-dialer.md|案例：小胖猴拨号器——需求到方案的跳跃]] — yitang, five-step-method
-- [[concepts/cases/case-demand-elderly-smart-device.md|案例：老年智能设备——USP模型中的用户边界]] — yitang, five-step-method
-- [[concepts/cases/case-demand-equestrian-three-tasks.md|案例：马术三层任务——功能/情感/社交的完美展演]] — yitang, five-step-method
-- [[concepts/cases/case-demand-financial-literacy.md|案例：少儿财商教育——刚性误判]] — yitang, five-step-method
-- [[concepts/cases/case-demand-indonesia-insurance.md|案例：印尼寿险分支——场景错配]] — yitang, five-step-method
-- [[concepts/cases/case-demand-milkshake-jtbd.md|案例：奶昔JTBD——经典的任务洞察]] — yitang, five-step-method
-- [[concepts/cases/case-demand-pharma-bigdata.md|案例：大数据私有化在创新药领域的切入——评估三角形实战]] — yitang, five-step-method
-- [[concepts/cases/case-demand-restaurant-hiring.md|案例：麦家小馆人才选拔——频次高估]] — yitang, five-step-method
-- [[concepts/cases/case-demand-rural-5g.md|案例：偏远县域5G覆盖——普遍性误判]] — yitang, five-step-method
-- [[concepts/cases/case-demand-silver-parenting.md|案例：银发育儿——冰山模型的完整应用]] — yitang, five-step-method
-- [[concepts/cases/case-demand-tier4-housekeeping.md|案例：四线家政创业——天花板误判]] — yitang, five-step-method
-- [[concepts/cases/case-demand-travel-agent.md|案例：旅行攻略Agent——隐性需求被忽略]] — yitang, five-step-method
-- [[concepts/cases/case-dental-clinic-formula.md|ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式]] — 孔阳
-- [[concepts/cases/case-doris-2014-music-streaming-prediction.md|案例：2014年预判音乐流媒体趋势]] — yitang, research
-- [[concepts/cases/case-doris-beauty-ecommerce-channel.md|案例：美妆行业渠道效率发现]] — yitang, research
-- [[concepts/cases/case-doris-catering-chain-benchmark.md|案例：餐饮连锁对标调研]] — yitang, research
-- [[concepts/cases/case-doris-crossborder-ecommerce-opportunity.md|案例：跨境电商机会识别——从报告到行动]] — yitang, research
-- [[concepts/cases/case-doris-grab-industry-cognition.md|案例：Doris 7天从零建立行业认知]] — yitang, research
-- [[concepts/cases/case-doris-outbound-travel-community.md|案例：出境游产业链拆解]] — yitang, research
-- [[concepts/cases/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进]] — yitang
-- [[concepts/cases/case-essence-education-strategy.md|案例：教育本质与战略本质的提炼]] — Truman
-- [[concepts/cases/case-essence-entrepreneurship.md|案例：创业本质 = 小概率游戏]] — Truman 的早期领导
-- [[concepts/cases/case-essence-humanity-trap.md|案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质的陷阱]] — Truman
-- [[concepts/cases/case-ether-online-acquisition.md|case-ether-online-acquisition]]
-- [[concepts/cases/case-five-step-fake-vs-real-barriers.md|case-five-step-fake-vs-real-barriers]]
-- [[concepts/cases/case-five-step-growth-first-lever.md|case-five-step-growth-first-lever]]
-- [[concepts/cases/case-guang-leng-dian-zi-hx-smj.md|案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线]] — 黄药师
-- [[concepts/cases/case-gudong-tea-shop-foresight.md|case-gudong-tea-shop-foresight]]
-- [[concepts/cases/case-gym-membership-formula.md|线下连锁健身：把"到店频率"变成"到店习惯"才是续卡率抓手]] — 孔阳
-- [[concepts/cases/case-hr-saas-feature-usage-trap.md|case-hr-saas-feature-usage-trap]]
-- [[concepts/cases/case-jh-yitang-vs-sqlhelper.md|案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔]] — 纪浩
-- [[concepts/cases/case-ji-hao-ai-workspace-chaos.md|案例：AI工作空间混乱导致'行为退化'而重来]] — 纪浩
-- [[concepts/cases/case-ji-hao-skill-market-problem-validation.md|case-ji-hao-skill-market-problem-validation]]
-- [[concepts/cases/case-ji-hao-skills-market.md|案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助]] — 纪浩
-- [[concepts/cases/case-ji-hao-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代]] — 纪浩
-- [[concepts/cases/case-liutao-douyin-team-leader-9m.md|案例：刘涛——从信息碎片拼出抖音团长赛道真相]] — yitang, research
-- [[concepts/cases/case-liutao-electric-bike-localization.md|案例：电动车出海本地化——从0调研目标市场]] — yitang, research
-- [[concepts/cases/case-livestream-sop-modeling.md|case-livestream-sop-modeling]]
-- [[concepts/cases/case-milktea-five-step.md|case-milktea-five-step]]
-- [[concepts/cases/case-neworiental-prospectus-marketing.md|案例：新东方招股书——营销渠道全览]] — yitang, research
-- [[concepts/cases/case-nine-pm-livestream-survey.md|案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选]] — Truman
-- [[concepts/cases/case-offline-catering-formula.md|线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定]] — 孔阳
-- [[concepts/cases/case-personal-map-modeling.md|case-personal-map-modeling]]
-- [[concepts/cases/case-popmart-prospectus-pricing.md|案例：泡泡玛特招股书——IP产品毛利率60-70%]] — yitang, research
-- [[concepts/cases/case-private-domain-ecommerce-formula.md|私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径"]] — 孔阳
-- [[concepts/cases/case-proya-betaine-skincare-benchmark.md|案例：贝泰妮招股书——敏感肌市场的完整画像]] — yitang, research
-- [[concepts/cases/case-saas-renewal-formula.md|ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"]] — 孔阳
-- [[concepts/cases/case-shampoo-product-kernel.md|case-shampoo-product-kernel]]
-- [[concepts/cases/case-smart-medicine-cabinet-business-model-validation.md|case-smart-medicine-cabinet-business-model-validation]]
-- [[concepts/cases/case-smart-medicine-cabinet-corporate-risk.md|case-smart-medicine-cabinet-corporate-risk]]
-- [[concepts/cases/case-smart-medicine-cabinet-failure-patterns-library.md|case-smart-medicine-cabinet-failure-patterns-library]]
-- [[concepts/cases/case-strategy-cool-boiled-water.md|凉白开：细分垄断——从高考生切入，两年30亿]] — strategy
-- [[concepts/cases/case-strategy-edward-jones.md|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — strategy
-- [[concepts/cases/case-strategy-failure-01-cosmetics.md|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — strategy
-- [[concepts/cases/case-strategy-failure-02-supermarket.md|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — strategy
-- [[concepts/cases/case-strategy-failure-03-cleaning.md|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — strategy
-- [[concepts/cases/case-strategy-failure-04-appliance.md|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — strategy
-- [[concepts/cases/case-strategy-failure-05-it.md|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — strategy
-- [[concepts/cases/case-strategy-failure-06-phone-n.md|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — strategy
-- [[concepts/cases/case-strategy-failure-07-phone-l.md|案例：国产手机L——能力缺失。无软件生态致收购失败]] — strategy
-- [[concepts/cases/case-strategy-failure-08-video.md|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — strategy
-- [[concepts/cases/case-strategy-failure-09-boeing.md|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — strategy
-- [[concepts/cases/case-strategy-fangte-disney.md|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — strategy
-- [[concepts/cases/case-strategy-lekai-film.md|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — strategy
-- [[concepts/cases/case-strategy-li-ka-shing.md|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — strategy
-- [[concepts/cases/case-strategy-longzhong-plan.md|隆中对：中国最著名的战略规划——成功与失败四因]] — strategy
-- [[concepts/cases/case-strategy-m-brand-profit-model.md|M品牌：从直营到代理加盟的连锁扩张盈利模式选择]] — strategy
-- [[concepts/cases/case-strategy-model-selection-quiz.md|10情境战略模型选择练习：什么情境配什么工具]] — strategy
-- [[concepts/cases/case-strategy-practice-10-turnaround.md|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — strategy
-- [[concepts/cases/case-strategy-practice-11-third-place.md|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — strategy
-- [[concepts/cases/case-strategy-practice-12-zero-loss.md|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — strategy
-- [[concepts/cases/case-strategy-practice-ranpeng-crossborder.md|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — strategy
-- [[concepts/cases/case-strategy-practice-ranpeng-milk-powder.md|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — strategy
-- [[concepts/cases/case-strategy-retailer-activity-scope.md|零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐]] — strategy
-- [[concepts/cases/case-strategy-revival-13-bestore.md|案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张]] — strategy
-- [[concepts/cases/case-strategy-revival-14-gucci.md|案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代]] — strategy
-- [[concepts/cases/case-strategy-shell-oil.md|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — strategy
-- [[concepts/cases/case-strategy-snack-business-design.md|零食企业业务设计示例：从大众散货到家庭健康亲子零食专家]] — strategy
+- [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction.md|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — healthcare, pharmaceutical-retail, business-strategy, product, unit-economics
+- [[cases/case-ai-agent-milestone-design.md|case-ai-agent-milestone-design]]
+- [[cases/case-ai-assisted-review.md|案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己]] — Truman
+- [[cases/case-ai-time-management-tiered-growth.md|案例：AI时间管理App七级演进]] — yitang, ai
+- [[cases/case-ban-fei-mao-conversion-hacker-skill.md|案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程]] — 半肥猫
+- [[cases/case-ban-fei-mao-from-assignment-to-tool.md|案例：半肥猫把一堂课程作业变成可复用调研工具]] — 半肥猫
+- [[cases/case-ban-fei-mao-skill-ab-test.md|案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比]] — 半肥猫
+- [[cases/case-candy-problem-os-vpn.md|案例：VPN场景——一个低质量提问如何消耗双方关系]] — yitang, content-production
+- [[cases/case-child-drawing-rhyme.md|案例：孩子控笔「画画歌」——最小单元的建模实践]] — Truman
+- [[cases/case-coffee-shop-foresight.md|案例：咖啡馆创业预判]] — yitang
+- [[cases/case-course-milestone-model.md|案例：一堂课程里程碑模型——方法论级建模的六步生产流程]] — Truman
+- [[cases/case-demand-ai-fitness-four-forces.md|案例：AI健身四力——四种力量的博弈分析]] — yitang, five-step-method
+- [[cases/case-demand-dialer.md|案例：小胖猴拨号器——需求到方案的跳跃]] — yitang, five-step-method
+- [[cases/case-demand-elderly-smart-device.md|案例：老年智能设备——USP模型中的用户边界]] — yitang, five-step-method
+- [[cases/case-demand-equestrian-three-tasks.md|案例：马术三层任务——功能/情感/社交的完美展演]] — yitang, five-step-method
+- [[cases/case-demand-financial-literacy.md|案例：少儿财商教育——刚性误判]] — yitang, five-step-method
+- [[cases/case-demand-indonesia-insurance.md|案例：印尼寿险分支——场景错配]] — yitang, five-step-method
+- [[cases/case-demand-milkshake-jtbd.md|案例：奶昔JTBD——经典的任务洞察]] — yitang, five-step-method
+- [[cases/case-demand-pharma-bigdata.md|案例：大数据私有化在创新药领域的切入——评估三角形实战]] — yitang, five-step-method
+- [[cases/case-demand-restaurant-hiring.md|案例：麦家小馆人才选拔——频次高估]] — yitang, five-step-method
+- [[cases/case-demand-rural-5g.md|案例：偏远县域5G覆盖——普遍性误判]] — yitang, five-step-method
+- [[cases/case-demand-silver-parenting.md|案例：银发育儿——冰山模型的完整应用]] — yitang, five-step-method
+- [[cases/case-demand-tier4-housekeeping.md|案例：四线家政创业——天花板误判]] — yitang, five-step-method
+- [[cases/case-demand-travel-agent.md|案例：旅行攻略Agent——隐性需求被忽略]] — yitang, five-step-method
+- [[cases/case-dental-clinic-formula.md|ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式]] — 孔阳
+- [[cases/case-doris-2014-music-streaming-prediction.md|案例：2014年预判音乐流媒体趋势]] — yitang, research
+- [[cases/case-doris-beauty-ecommerce-channel.md|案例：美妆行业渠道效率发现]] — yitang, research
+- [[cases/case-doris-catering-chain-benchmark.md|案例：餐饮连锁对标调研]] — yitang, research
+- [[cases/case-doris-crossborder-ecommerce-opportunity.md|案例：跨境电商机会识别——从报告到行动]] — yitang, research
+- [[cases/case-doris-grab-industry-cognition.md|案例：Doris 7天从零建立行业认知]] — yitang, research
+- [[cases/case-doris-outbound-travel-community.md|案例：出境游产业链拆解]] — yitang, research
+- [[cases/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进]] — yitang
+- [[cases/case-essence-education-strategy.md|案例：教育本质与战略本质的提炼]] — Truman
+- [[cases/case-essence-entrepreneurship.md|案例：创业本质 = 小概率游戏]] — Truman 的早期领导
+- [[cases/case-essence-humanity-trap.md|案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质的陷阱]] — Truman
+- [[cases/case-ether-online-acquisition.md|case-ether-online-acquisition]]
+- [[cases/case-five-step-fake-vs-real-barriers.md|case-five-step-fake-vs-real-barriers]]
+- [[cases/case-five-step-growth-first-lever.md|case-five-step-growth-first-lever]]
+- [[cases/case-guang-leng-dian-zi-hx-smj.md|案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线]] — 黄药师
+- [[cases/case-gudong-tea-shop-foresight.md|case-gudong-tea-shop-foresight]]
+- [[cases/case-gym-membership-formula.md|线下连锁健身：把"到店频率"变成"到店习惯"才是续卡率抓手]] — 孔阳
+- [[cases/case-hr-saas-feature-usage-trap.md|case-hr-saas-feature-usage-trap]]
+- [[cases/case-jh-yitang-vs-sqlhelper.md|案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔]] — 纪浩
+- [[cases/case-ji-hao-ai-workspace-chaos.md|案例：AI工作空间混乱导致'行为退化'而重来]] — 纪浩
+- [[cases/case-ji-hao-skill-market-problem-validation.md|case-ji-hao-skill-market-problem-validation]]
+- [[cases/case-ji-hao-skills-market.md|案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助]] — 纪浩
+- [[cases/case-ji-hao-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代]] — 纪浩
+- [[cases/case-liutao-douyin-team-leader-9m.md|案例：刘涛——从信息碎片拼出抖音团长赛道真相]] — yitang, research
+- [[cases/case-liutao-electric-bike-localization.md|案例：电动车出海本地化——从0调研目标市场]] — yitang, research
+- [[cases/case-livestream-sop-modeling.md|case-livestream-sop-modeling]]
+- [[cases/case-milktea-five-step.md|case-milktea-five-step]]
+- [[cases/case-neworiental-prospectus-marketing.md|案例：新东方招股书——营销渠道全览]] — yitang, research
+- [[cases/case-nine-pm-livestream-survey.md|案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选]] — Truman
+- [[cases/case-offline-catering-formula.md|线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定]] — 孔阳
+- [[cases/case-personal-map-modeling.md|case-personal-map-modeling]]
+- [[cases/case-popmart-prospectus-pricing.md|案例：泡泡玛特招股书——IP产品毛利率60-70%]] — yitang, research
+- [[cases/case-private-domain-ecommerce-formula.md|私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径"]] — 孔阳
+- [[cases/case-proya-betaine-skincare-benchmark.md|案例：贝泰妮招股书——敏感肌市场的完整画像]] — yitang, research
+- [[cases/case-saas-renewal-formula.md|ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"]] — 孔阳
+- [[cases/case-shampoo-product-kernel.md|case-shampoo-product-kernel]]
+- [[cases/case-smart-medicine-cabinet-business-model-validation.md|case-smart-medicine-cabinet-business-model-validation]]
+- [[cases/case-smart-medicine-cabinet-corporate-risk.md|case-smart-medicine-cabinet-corporate-risk]]
+- [[cases/case-smart-medicine-cabinet-failure-patterns-library.md|case-smart-medicine-cabinet-failure-patterns-library]]
+- [[cases/case-strategy-cool-boiled-water.md|凉白开：细分垄断——从高考生切入，两年30亿]] — strategy
+- [[cases/case-strategy-edward-jones.md|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — strategy
+- [[cases/case-strategy-failure-01-cosmetics.md|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — strategy
+- [[cases/case-strategy-failure-02-supermarket.md|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — strategy
+- [[cases/case-strategy-failure-03-cleaning.md|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — strategy
+- [[cases/case-strategy-failure-04-appliance.md|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — strategy
+- [[cases/case-strategy-failure-05-it.md|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — strategy
+- [[cases/case-strategy-failure-06-phone-n.md|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — strategy
+- [[cases/case-strategy-failure-07-phone-l.md|案例：国产手机L——能力缺失。无软件生态致收购失败]] — strategy
+- [[cases/case-strategy-failure-08-video.md|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — strategy
+- [[cases/case-strategy-failure-09-boeing.md|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — strategy
+- [[cases/case-strategy-fangte-disney.md|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — strategy
+- [[cases/case-strategy-lekai-film.md|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — strategy
+- [[cases/case-strategy-li-ka-shing.md|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — strategy
+- [[cases/case-strategy-longzhong-plan.md|隆中对：中国最著名的战略规划——成功与失败四因]] — strategy
+- [[cases/case-strategy-m-brand-profit-model.md|M品牌：从直营到代理加盟的连锁扩张盈利模式选择]] — strategy
+- [[cases/case-strategy-model-selection-quiz.md|10情境战略模型选择练习：什么情境配什么工具]] — strategy
+- [[cases/case-strategy-practice-10-turnaround.md|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — strategy
+- [[cases/case-strategy-practice-11-third-place.md|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — strategy
+- [[cases/case-strategy-practice-12-zero-loss.md|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — strategy
+- [[cases/case-strategy-practice-ranpeng-crossborder.md|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — strategy
+- [[cases/case-strategy-practice-ranpeng-milk-powder.md|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — strategy
+- [[cases/case-strategy-retailer-activity-scope.md|零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐]] — strategy
+- [[cases/case-strategy-revival-13-bestore.md|案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张]] — strategy
+- [[cases/case-strategy-revival-14-gucci.md|案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代]] — strategy
+- [[cases/case-strategy-shell-oil.md|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — strategy
+- [[cases/case-strategy-snack-business-design.md|零食企业业务设计示例：从大众散货到家庭健康亲子零食专家]] — strategy
 - [国产零食出口220国：新区域机会的诱惑与风险预估](cases/case-strategy-snack-export-opportunity.md) — strategy
-- [[concepts/cases/case-strategy-snack-industry-chain.md|话梅果干产业链分析：从种植到零售的利润分布与竞争格局]] — strategy
-- [[concepts/cases/case-strategy-walmart-vs-costco-pyramid.md|沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔]] — strategy
-- [[concepts/cases/case-strategy-wuxi-suntech.md|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — strategy
-- [[concepts/cases/case-strategy-xiaobear.md|小熊电器：跳出行业范式——定位年轻单身男性]] — strategy
-- [[concepts/cases/case-thousand-people-square.md|案例：一堂'千人广场模型'——用统计建模心态做课]] — Truman
-- [[concepts/cases/case-toc-content-platform-correlation-trap.md|case-toc-content-platform-correlation-trap]]
-- [[concepts/cases/case-toc-ecommerce-formula-misjudgment.md|case-toc-ecommerce-formula-misjudgment]]
-- [[concepts/cases/case-toy-cabinet-barrier.md|案例：线下玩具柜的壁垒困局与突围路径]] — yitang
-- [[concepts/cases/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — yitang
-- [[concepts/cases/case-treadmill-demand-analysis.md|case-treadmill-demand-analysis]]
-- [[concepts/cases/case-truman-ai-partner.md|case-truman-ai-partner]]
-- [[concepts/cases/case-truman-ai-skill-engineering-guide.md|case-truman-ai-skill-engineering-guide]]
-- [[concepts/cases/case-truman-ai-skill-self-packaging.md|case-truman-ai-skill-self-packaging]]
-- [[concepts/cases/case-truman-livestream-sop-iteration.md|case-truman-livestream-sop-iteration]]
-- [[concepts/cases/case-truman-motivation-map-12-versions.md|case-truman-motivation-map-12-versions]]
-- [[concepts/cases/case-truman-personal-growth-map-creation.md|case-truman-personal-growth-map-creation]]
-- [[concepts/cases/case-truman-poker-deck-roi.md|case-truman-poker-deck-roi]]
-- [[concepts/cases/case-truman-prd-checklist-evolution.md|case-truman-prd-checklist-evolution]]
-- [[concepts/cases/case-truman-sales-report-structure.md|案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链]] — Truman
-- [[concepts/cases/case-truman-yitang-foresight.md|case-truman-yitang-foresight]]
-- [[concepts/cases/case-unit-model-gashapon.md|case-unit-model-gashapon]]
-- [[concepts/cases/case-wanghuan-education-sales-capability-extraction.md|王欢案例：教育机构销冠能力萃取系统]] — 王欢
-- [[concepts/cases/case-wanghuan-education-sales-paced.md|王欢案例：教育机构用 PACED 还原销冠决策链]] — 王欢
-- [[concepts/cases/case-wanghuan-shenyang-software-3x-efficiency.md|王欢案例：沈阳软件公司三层架构实现3倍效率]] — 王欢
-- [[concepts/cases/case-wanghuan-yiyu-qingji-medical-notes.md|王欢案例：医语轻记用语音录入缩短病历时间]] — 王欢
-- [[concepts/cases/case-xian-franchise-location-decision.md|案例：西安加盟选址——系统调研vs拍脑袋]] — yitang, research
-- [[concepts/cases/case-xiaolong-ecommerce-foresight.md|case-xiaolong-ecommerce-foresight]]
-- [[concepts/cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗]] — 一堂·Truman
-- [[concepts/cases/case-yitang-ai-time-management-coach.md|案例：AI辅助调研——时间管理教练产品验证]] — yitang, research, ai-collaboration
-- [[concepts/cases/case-yitang-beauty-device-overseas-sales.md|案例：美容仪出海——用行业报告判断海外市场]] — yitang, research
-- [[concepts/cases/case-yitang-competitor-pricing-intelligence.md|案例：假装订货套取竞品真实价格]] — yitang, research
-- [[concepts/cases/case-yitang-consumer-offline-channel-decision.md|案例：消费品线下渠道决策——先访谈再算账]] — yitang, research
-- [[concepts/cases/case-yitang-doorstep-nail-service-context.md|案例：上门美甲——在用户真实场景中访谈]] — yitang, research
-- [[concepts/cases/case-yitang-doorstep-pet-feeding-trust.md|案例：上门宠物喂养——用调研解决信任障碍]] — yitang, research
-- [[concepts/cases/case-yitang-double-triangle-confidence.md|case-yitang-double-triangle-confidence]]
-- [[concepts/cases/case-yitang-education-supply-chain.md|case-yitang-education-supply-chain]]
-- [[concepts/cases/case-yitang-elderly-home-roleplay.md|案例：假扮家属潜入养老院微信群]] — yitang, research
-- [[concepts/cases/case-yitang-fake-interview-intelligence.md|案例：假扮面试发现行业红利退潮]] — yitang, research
-- [[concepts/cases/case-yitang-hardware-factory-photo.md|案例：从朋友圈照片找到代工厂]] — yitang, research
-- [[concepts/cases/case-yitang-homestay-reception-design.md|案例：民宿接待方案——用调研优化服务体验设计]] — yitang, research
-- [[concepts/cases/case-yitang-jtbd-story-formula.md|案例：JTBD故事公式——从用户故事中提取需求]] — yitang, research
-- [[concepts/cases/case-yitang-luckin-field-research.md|案例：瑞幸做空——实地调研的教科书]] — yitang, research
-- [[concepts/cases/case-yitang-mahjong-machine-fake-order.md|案例：假装订货套取麻将机竞品数据]] — yitang, research
-- [[concepts/cases/case-yitang-model-asset-inventory.md|case-yitang-model-asset-inventory]]
-- [[concepts/cases/case-yitang-model-valuation-flywheel.md|case-yitang-model-valuation-flywheel]]
-- [[concepts/cases/case-yitang-mvp-reward-interview-waste.md|案例：MVP阶段花钱做用户访谈的浪费]] — yitang, research
-- [[concepts/cases/case-yitang-pet-fostering-user-research.md|案例：宠物寄养——观察现有替代方案]] — yitang, research
-- [[concepts/cases/case-yitang-radar-chart-selection.md|case-yitang-radar-chart-selection]]
-- [[concepts/cases/case-yitang-sanjieke-benchmark-failure.md|案例：对标三节课做C端，半年后发现对方已转型B端]] — yitang, research
-- [[concepts/cases/case-yitang-senior-university-product-design.md|案例：老年大学——用假设链逐层验证赛道可行性]] — yitang, research
-- [[concepts/cases/case-yitang-ski-project-user-as-expert.md|案例：滑雪项目——把用户当专家访谈]] — yitang, research
-- [[concepts/cases/case-yitang-supplier-security-guard.md|案例：通过保安打听到工厂收购价]] — yitang, research
-- [[concepts/cases/case-yitang-tob-artificial-bone.md|案例：人工骨医疗器械上市失败复盘]] — yitang, entrepreneurship, b2b, healthcare
-- [[concepts/cases/case-yitang-tob-career-planning.md|案例：新高考选科与生涯规划项目失败复盘]] — yitang, entrepreneurship, b2b, education
-- [[concepts/cases/case-yitang-tob-grinding-machine.md|案例：精密磨床自制项目失败复盘]] — yitang, entrepreneurship, b2b, manufacturing
-- [[concepts/cases/case-yitang-tob-smart-park.md|案例：智慧园区项目复盘]] — yitang, entrepreneurship, b2b, govtech
-- [[concepts/cases/case-yitang-track-selection-research.md|案例：一堂赛道选择——用调研方法论选创业方向]] — yitang, research
-- [[concepts/cases/case-yitang-travel-receipt-analysis.md|案例：旅行公司收据分析——从单据反推真实数据]] — yitang, research
-- [[concepts/cases/case-yitang-voice-robot-companion-design.md|案例：陪伴式语音机器人——声音设计如何调研]] — yitang, research
-- [[concepts/cases/case-yitang-weekly-modeling-engine.md|case-yitang-weekly-modeling-engine]]
-- [[concepts/cases/case-zhanglan-amusement-park-undercover.md|案例：张兰假扮游乐园店长卧底15天]] — yitang, research
-- [[concepts/cases/case-zhanglei-furniture-overseas-market-selection.md|案例：张磊——洗衣液蹲超市+假扮促销员]] — yitang, research
-- [[concepts/cases/case-zhanglei-nursing-home-family.md|案例：假扮孙子调研养老院真实状况]] — yitang, research
-- [[concepts/cases/case-zhanglei-twist-egg-machine-yogurt-nursing.md|案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业]] — yitang, research
-- [[concepts/cases/case-zhangyang-anchor-sop-three-locks.md|案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%]] — Truman
-- [[concepts/cases/case-zhihu-vs-degetao-network-effect.md|案例：知乎vs得到——网络效应壁垒的对比分析]] — yitang
-- [[concepts/cases/case-一堂-无人餐厅-hypothesis-failure.md|case-一堂-无人餐厅-hypothesis-failure]]
-- [[concepts/cases/case-一堂-陈贤敏汉堡-hypothesis-validation.md|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — 一堂·Truman
-- [[concepts/cases/case-半肥猫-course-to-skill.md|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — 半肥猫
-- [[concepts/cases/case-纪浩-focus-prompt-design.md|案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接]] — 纪浩
-- [[concepts/cases/case-纪浩-from-zip-to-five-layers.md|纪浩：从微信传 zip 到五层协作体系]] — 纪浩
-- [[concepts/cases/industrial-ai-ops-cases.md|industrial-ai-ops-cases]]
-- [[concepts/cases/smart-medicine-cabinet-clinic-risk-observation.md|smart-medicine-cabinet-clinic-risk-observation]]
-- [[concepts/cases/yt-demand-ai-knowledge-base-case.md|AI企业知识库案例：从"技术炫技"到"需求验证"]] — Truman
-- [[concepts/cases/yt-demand-treadmill-case.md|跑步机案例：需求分析全流程实战]] — Truman
-- [[concepts/cases/yt-lean-beauty-store-conversion.md|美业门店：200→4000转化链路才是关键假设]] — yitang, entrepreneurship, business-strategy
-- [[concepts/cases/yt-lean-daily-chemical-mvp.md|日化沐浴露MVP：不生产产品验证行业机会]] — 张磊
-- [[concepts/cases/yt-lean-flower-mom-group-leader.md|生活鲜花宝妈团长：拆C端与小B的分阶段验证]] — yitang, entrepreneurship, business-strategy
-- [[concepts/cases/yt-product-kernel-shampoo-case.md|洗发水案例：产品内核实战——从"去屑"到"专业形象"]] — Truman
-- [[concepts/concept-card-index-latest.md|concept-card-index-latest]]
-- [[concepts/concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — ai-saas
-- [[concepts/concepts/EC工业化规范手册.md|EC工业化规范手册]] — healthcare
-- [[concepts/concepts/HIS系统开发实现方案-架构师指南.md|HIS系统开发实现方案-架构师指南]] — healthcare
-- [[concepts/concepts/HIS系统深度调研.md|HIS系统深度调研]] — healthcare
-- [[concepts/concepts/ai-collaboration-mindset-shift.md|ai-collaboration-mindset-shift]]
-- [[concepts/concepts/ai-hackathon-pitches.md|AI 大航海项目路演：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/ai-landing-scene-selection.md|ai-landing-scene-selection]]
-- [[concepts/concepts/ai-learning-closed-loop.md|ai-learning-closed-loop]]
-- [[concepts/concepts/ai-native-im-multi-agent.md|ai-native-im-multi-agent]]
-- [[concepts/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|ai-native-五层进阶从答案到效率到作品到产品到系统]]
-- [[concepts/concepts/ai-short-drama-ice-fire-scripting-compass.md|冰火写本罗盘：AI短剧剧本策划全流程体系]] — 代俊隆
-- [[concepts/concepts/ai-short-drama-platform-policy-comparison.md|主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果]] — 代俊隆
-- [[concepts/concepts/ai-俱乐部人和-ai-协作-五层结构.md|AI 俱乐部·人和 AI 协作 — 五层结构]] — management, ai-saas, design, yitang, decision-making
-- [[concepts/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md|AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）]] — management, product, business-strategy, ai-saas, yitang
-- [[concepts/concepts/aigc文创案例设计课leo文创ip从0到1全流程.md|AIGC文创案例设计课：Leo文创IP从0到1全流程]] — ai-saas, design
-- [[concepts/concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — ai-saas, design
-- [[concepts/concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — ai-saas, design, business-strategy
-- [[concepts/concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — healthcare
-- [[concepts/concepts/ai单元模型口述蒋老师.md|ai单元模型口述蒋老师]]
-- [[concepts/concepts/ai数据理解第一课.md|ai数据理解第一课]]
-- [[concepts/concepts/ai时代判断力口述-3.md|ai时代判断力口述-3]]
-- [[concepts/concepts/ai时代判断力口述.md|AI时代判断力口述]] — healthcare
-- [[concepts/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — entrepreneur
-- [[concepts/concepts/business-analysis.md|Business Analysis]] — ai-saas
-- [[concepts/concepts/business-research-skill-oscar-13-weapon-system.md|business-research-skill-oscar-13-weapon-system]]
-- [[concepts/concepts/business-validation-models-collaboration.md|AI 时代的业务验证、商业模式与组织协作：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/concept-ai-native-organization-five-steps.md|concept ai native organization five steps]] — ai-native, management
-- [[concepts/concepts/concept-candy-ai-as-collaborator.md|Candy：AI是协作者而非代写工具]] — yitang, content-production, ai-collaboration
-- [[concepts/concepts/concept-ceo-must-do-user-research.md|CEO必须亲自做用户调研]] — yitang, research
-- [[concepts/concepts/concept-five-step-growth-to-barrier-transition.md|concept-five-step-growth-to-barrier-transition]]
-- [[concepts/concepts/concept-harness-cattle-not-pets.md|牲口而非宠物：每次迭代用全新Generator实例]] — yitang, ai-collaboration
-- [[concepts/concepts/concept-harness-scoring-anchors.md|评分锚定：1-5分制+语义锚点+取较低值]] — yitang, ai-collaboration
-- [[concepts/concepts/concept-ji-hao-ai-collaboration-methodology.md|纪浩 AI 协作方法论：从判断到规模复用的五层体系]] — 纪浩
-- [[concepts/concepts/concept-mckinsey-issue-tree.md|concept-mckinsey-issue-tree]]
-- [[concepts/concepts/concept-mckinsey-mece.md|concept-mckinsey-mece]]
-- [[concepts/concepts/concept-mcp-protocol.md|MCP协议：Agent调用外部工具的统一标准]] — yitang, research, ai-collaboration
-- [[concepts/concepts/concept-research-delegation-in-scaling.md|规模化中的调研委派：从"自己做"到"建机制"]] — yitang, research
-- [[concepts/concepts/concept-research-responsibility-boundary.md|调研责任边界：道德、法律与生存的平衡]] — yitang, research
-- [[concepts/concepts/concept-smart-medicine-cabinet-consumer-acceptance.md|concept-smart-medicine-cabinet-consumer-acceptance]]
-- [[concepts/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md|concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]
-- [[concepts/concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md|concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-- [[concepts/concepts/concept-smart-medicine-cabinet-international-models.md|concept-smart-medicine-cabinet-international-models]]
-- [[concepts/concepts/concept-smart-medicine-cabinet-platform-cooperation-validation.md|concept-smart-medicine-cabinet-platform-cooperation-validation]]
-- [[concepts/concepts/concept-smart-medicine-cabinet-supply-chain-validation.md|concept-smart-medicine-cabinet-supply-chain-validation]]
-- [[concepts/concepts/concept-strategy-2024-2026-supplement.md|2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区]] — strategy
-- [[concepts/concepts/concept-strategy-capability-pyramid.md|战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养]] — strategy
-- [[concepts/concepts/concept-strategy-evolution-cycle.md|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — strategy
-- [[concepts/concepts/concept-strategy-framework-landscape.md|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — strategy
-- [[concepts/concepts/concept-strategy-market-segmentation-yashili.md|细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）]] — strategy
-- [[concepts/concepts/concept-thousand-people-square.md|concept-thousand-people-square]]
-- [[concepts/concepts/concept-wanghuan-adversarial-generation.md|王欢概念：对抗式生成]] — 王欢
-- [[concepts/concepts/concept-wanghuan-ai-native-definition.md|王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程]] — 王欢
-- [[concepts/concepts/concept-wanghuan-flywheel-first-loop.md|王欢：AI 飞轮第一圈]] — 王欢
-- [[concepts/concepts/concept-wanghuan-power-of-standards.md|王欢：标准的力量——质量乘数]] — 王欢
-- [[concepts/concepts/concept-wanghuan-tacit-knowledge-examples.md|王欢：行业暗规则实例库（招聘/招投标/销售/培训）]] — 王欢
-- [[concepts/concepts/concept-yitang-ai-research-10-assumptions.md|AI调研十大假设：人机协作的底层原则]] — yitang, research, ai-collaboration
-- [[concepts/concepts/concept-yitang-ai-research-human-loop.md|AI调研中人机协作的判断节点]] — yitang, research, ai-collaboration
-- [[concepts/concepts/concept-yitang-facts-first.md|事实优先：调研的基本纪律]] — yitang, research
-- [[concepts/concepts/concept-yitang-ideal-research-goal.md|理想调研目标三原则：敏感·短期·支撑]] — yitang, research
-- [[concepts/concepts/concept-yitang-research-aesthetic.md|调研审美：判断"什么是好的调研"的能力]] — yitang, research
-- [[concepts/concepts/concept-yitang-research-facts-first.md|事实优先：区分事实与观点的认知纪律]] — yitang, research
-- [[concepts/concepts/concept-yitang-research-mindset.md|调研心态：从"找答案"到"拆假设"]] — yitang, research
-- [[concepts/concepts/concept-yitang-research-objective.md|调研目标锁定：从"了解"到"决策"的认知跃迁]] — yitang, research
-- [[concepts/concepts/concept-yitang-research-scope.md|调研范围缩小：专注·专业·剥离三原则]] — yitang, research
-- [[concepts/concepts/concept-一堂-hypothesis-driven-business-methodology.md|concept-一堂-hypothesis-driven-business-methodology]]
-- [[concepts/concepts/concept-一堂-kernel-iteration.md|concept-一堂-kernel-iteration]]
-- [[concepts/concepts/concept-一堂-kernel-validation.md|concept-一堂-kernel-validation]]
-- [[concepts/concepts/concept-一堂-key-assumptions.md|concept-一堂-key-assumptions]]
-- [[concepts/concepts/concept-一堂-product-kernel.md|concept-一堂-product-kernel]]
-- [[concepts/concepts/concept-半肥猫-ai-learning-toolification-methodology.md|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — 半肥猫
-- [[concepts/concepts/concept-纪浩-ai-collaboration-five-layer.md|概念：纪浩AI协作五层工作空间法]] — 纪浩
-- [[concepts/concepts/contingency-decision-making.md|contingency-decision-making]]
-- [[concepts/concepts/course-to-skill-conversion.md|course-to-skill-conversion]]
-- [[concepts/concepts/data-labeling-best-practices-report.md|数据标注最佳实践调研报告]] — master
-- [[concepts/concepts/deepseek-v4-在知识管理系统中的应用.md|DeepSeek V4 在知识管理系统中的应用]] — healthcare
-- [[concepts/concepts/design-ai-image-generation.md|Design / Ai Image Generation]] — yitang
-- [[concepts/concepts/ec工业化规范手册-v2.8.0.md|ec工业化规范手册-v2.8.0]]
-- [[concepts/concepts/fd-forward-deployment.md|fd-forward-deployment]]
-- [[concepts/concepts/finance-legal-business-operations.md|企业财务-法务-商务运营实务：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/find-old-do-small.md|find-old-do-small]]
-- [[concepts/concepts/graph-rag.md|graph-rag]]
-- [[concepts/concepts/industry-ai-cases.md|产业 AI 落地案例集（非药柜）：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/kdo-flywheel.md|kdo-flywheel]]
-- [[concepts/concepts/kdo-yaml-frontmatter-safety.md|kdo-yaml-frontmatter-safety]]
-- [[concepts/concepts/kdo_product_design_agent_final.md|Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)]] — ai-saas
-- [[concepts/concepts/kimi-深度调研集群方法论-deep-research-swarm.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — ai-saas
-- [[concepts/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md|Knowledge Delivery OS 快速体验指南 - 飞书云文档]] — master
-- [[concepts/concepts/knowledge-error-self-exposure.md|知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向]] — master
-- [[concepts/concepts/learning-thinking.md|Learning Thinking]] — master, personal-growth
-- [[concepts/concepts/master-ai-info-literacy.md|AI时代信息素养框架]] — Truman
-- [[concepts/concepts/master-antifragile-checklist.md|反脆弱决策检查清单]] — Truman
-- [[concepts/concepts/master-cognitive-bias-checklist.md|认知偏差快速诊断清单]] — Truman
-- [[concepts/concepts/master-decision-hygiene.md|决策卫生五步法]] — Truman
-- [[concepts/concepts/master-first-principles.md|第一性原理]] — Truman
-- [[concepts/concepts/master-knowledge-compound.md|知识复利：IPO+萃取+原子化复用]] — Truman
-- [[concepts/concepts/master-systems-thinking.md|系统思考：反馈循环与杠杆点]] — Truman
-- [[concepts/concepts/meta-prompt-eng.md|Meta Prompt Eng]] — ai-saas
-- [[concepts/concepts/modeling-capability-system.md|高阶建模能力体系：一堂从经验到规律的教研方法论]] — 楚门/Truman
-- [[concepts/concepts/modeling-three-values.md|modeling-three-values]]
-- [[concepts/concepts/paddleocr-skill.md|PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill]] — master
-- [[concepts/concepts/personal-growth-complex-systems.md|个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/pilot-atomic-chunk-comparison.md|Pilot：master-decision-hygiene 真原子切分对比]] — ai-saas, decision-making, master
-- [[concepts/concepts/prd-as-ai-instruction.md|prd-as-ai-instruction]]
-- [[concepts/concepts/product-business-strategy.md|产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/product-ux.md|Product Ux]] — ai-saas
-- [[concepts/concepts/skill-1视角升级思考法.md|技能：+1视角升级思考法]] — 一堂课程
-- [[concepts/concepts/skill-Truman-AI场景探索STAR模型.md|技能：AI场景探索STAR模型]] — yitang
-- [[concepts/concepts/skill-Truman-AI工具选型决策.md|技能：AI工具选型决策]] — yitang
-- [[concepts/concepts/skill-Truman-AI时代IPO模型重构.md|技能：AI时代IPO模型重构]] — yitang
-- [[concepts/concepts/skill-Truman-AI时代提示词优化法.md|技能：AI时代提示词优化法]] — yitang
-- [[concepts/concepts/skill-Truman-AI能力分层学习路径.md|技能：AI能力分层学习路径]] — yitang
-- [[concepts/concepts/skill-Truman-AI辅助思考伙伴养成.md|技能：AI辅助思考伙伴养成]] — yitang
-- [[concepts/concepts/skill-Truman-AI输出审慎判断与交付确认.md|技能：AI输出审慎判断与交付确认]] — yitang
-- [[concepts/concepts/skill-Truman-Feature特性层训练法.md|技能：Feature特性层训练法]] — yitang
-- [[concepts/concepts/skill-Truman-Skill全生命周期管理.md|技能：Skill全生命周期管理]] — yitang
-- [[concepts/concepts/skill-Truman-XY-Problem识别与真实问题定位.md|技能：XY Problem识别与真实问题定位]] — yitang
-- [[concepts/concepts/skill-Truman-上下文质量管理（AI协作）.md|技能：上下文质量管理（AI协作）]] — yitang
-- [[concepts/concepts/skill-Truman-个人判断力系统建设（达克效应应对）.md|技能：个人判断力系统建设（达克效应应对）]] — yitang
-- [[concepts/concepts/skill-Truman-人在环渐进自动化策略.md|技能：人在环渐进自动化策略]] — yitang
-- [[concepts/concepts/skill-Truman-低质量动作识别与拒绝.md|技能：低质量动作识别与拒绝]] — yitang
-- [[concepts/concepts/skill-Truman-信息输入持续补全（防AI错误累积）.md|技能：信息输入持续补全（防AI错误累积）]] — yitang
-- [[concepts/concepts/skill-Truman-判断力产品化与系统赋能.md|技能：判断力产品化与系统赋能]] — yitang
-- [[concepts/concepts/skill-Truman-双三角模型应用.md|技能：双三角模型应用]] — yitang
-- [[concepts/concepts/skill-Truman-复杂项目AI落地稳定性保障.md|技能：复杂项目AI落地稳定性保障]] — yitang
-- [[concepts/concepts/skill-Truman-多Agent通信协作方案.md|技能：多Agent通信协作方案]] — yitang
-- [[concepts/concepts/skill-Truman-开源模型与商业模型融合方案.md|技能：开源模型与商业模型融合方案]] — yitang
-- [[concepts/concepts/skill-Truman-技术社区严肃提问法.md|技能：技术社区严肃提问法]] — yitang
-- [[concepts/concepts/skill-Truman-提示词优化底层方法.md|技能：提示词优化底层方法]] — yitang
-- [[concepts/concepts/skill-Truman-数学题与语文题区分法.md|技能：数学题与语文题区分法]] — yitang
-- [[concepts/concepts/skill-Truman-本地记忆与云端记忆管理.md|技能：本地记忆与云端记忆管理]] — yitang
-- [[concepts/concepts/skill-Truman-知识库最佳实践构建.md|技能：知识库最佳实践构建]] — yitang
-- [[concepts/concepts/skill-Truman-短视频自动化上传工作流.md|技能：短视频自动化上传工作流]] — yitang
-- [[concepts/concepts/skill-Truman-科学提问法.md|技能：科学提问法]] — yitang
-- [[concepts/concepts/skill-Truman-职场异步协作提问法.md|技能：职场异步协作提问法]] — yitang
-- [[concepts/concepts/skill-Truman-语义对齐沟通法.md|技能：语义对齐沟通法]] — yitang
-- [[concepts/concepts/skill-Truman-问题定义澄清法.md|技能：问题定义澄清法]] — yitang
-- [[concepts/concepts/skill-ai-ai-workspace-setup.md|技能：结构化AI工作空间搭建]] — ai-saas
-- [[concepts/concepts/skill-ai-evidence-check.md|技能：AI输出证据核查三问法]] — ai-saas
-- [[concepts/concepts/skill-ai-four-elements-validation.md|skill-ai-four-elements-validation]]
-- [[concepts/concepts/skill-ai-info-literacy-three-layer.md|skill-ai-info-literacy-three-layer]]
-- [[concepts/concepts/skill-ai-landing-five-steps.md|技能：AI落地五步执行流程]] — 马易
-- [[concepts/concepts/skill-ai-narrative-test.md|技能：你的方案有叙事力吗？快速测试]] — ai-saas
-- [[concepts/concepts/skill-ai-old-small-checklist.md|技能："找老的干小的"场景评估清单]] — ai-saas
-- [[concepts/concepts/skill-ai-oral-spray-input.md|技能：用口喷输入法生成高质量 AI 提示词]] — ai-saas
-- [[concepts/concepts/skill-ai-parallel-validation.md|技能：平行运行验证法]] — ai-saas
-- [[concepts/concepts/skill-ai-prd-for-ai.md|技能：把PRD写成AI能执行的指令]] — ai-saas
-- [[concepts/concepts/skill-ai-problem-question-check.md|skill-ai-problem-question-check]]
-- [[concepts/concepts/skill-ai-problem-validation.md|技能：问题验证三维度法]] — ai-saas
-- [[concepts/concepts/skill-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — ai-saas
-- [[concepts/concepts/skill-ai-research-five-steps.md|技能：AI调研五步法]] — 半肥猫
-- [[concepts/concepts/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — 马易
-- [[concepts/concepts/skill-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — ai-saas
-- [[concepts/concepts/skill-ai-voice-input-doubao.md|技能：口喷式语音输入法]] — ai-saas
-- [[concepts/concepts/skill-ai辅助学习.md|技能：AI辅助学习]] — 一堂课程
-- [[concepts/concepts/skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md|技能：按语义切分文档做向量化]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md|技能：动态读取 + 向量化管理迭代知识]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md|技能：飞书多维表格 + 自建机器人做团队数据协同]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md|技能：告诉 AI 当前日期限制数据时效]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md|技能：将学习成果沉淀为 PRD 文档]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md|技能：判断课程是否值得做成Skill]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md|技能：清洗资料为 Markdown 格式喂给 AI]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md|技能：设计 Skill 的评分规则与风险边界]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md|技能：用 AI 做结构化用户调研]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md|技能：用 Skill 做对比测试验证效果]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md|技能：用 YAML 格式做知识库原子化标签]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md|技能：优先使用官方权威信源做证据]] — 半肥猫
-- [[concepts/concepts/skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md|技能：追问 AI 证据并标注信源]] — 半肥猫
-- [[concepts/concepts/skill-cognitive-bias-12-check.md|技能：12种认知偏差完整自检]] — 消化全库后提炼
-- [[concepts/concepts/skill-decision-delay-intuition.md|技能：延迟直觉法]] — 消化全库后提炼
-- [[concepts/concepts/skill-decision-outside-view.md|技能：团队决策外部视角法]] — 消化全库后提炼
-- [[concepts/concepts/skill-first-principles-assumption-classify.md|技能：假设分类法（第一性原理）]] — 消化全库后提炼
-- [[concepts/concepts/skill-mece体系框架法.md|技能：MECE体系框架法]] — 一堂课程
-- [[concepts/concepts/skill-react行动推理循环.md|技能：ReACT行动推理循环]] — Truman
-- [[concepts/concepts/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — Truman
-- [[concepts/concepts/skill-一堂-five-step-validation.md|技能：聊问查测盘五步验证法]] — Truman
-- [[concepts/concepts/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — Truman
-- [[concepts/concepts/skill-一堂-kernel-three-questions.md|技能：内核要素三问验证法]] — Truman
-- [[concepts/concepts/skill-一堂-product-kernel-add-subtract.md|技能：产品内核加减法]] — Truman
-- [[concepts/concepts/skill-一堂-product-kernel-canvas.md|一堂产品内核画布应用技能]] — 一堂·Truman
-- [[concepts/concepts/skill-一堂-spectrum-positioning.md|技能：光谱模型定位法]] — Truman
-- [[concepts/concepts/skill-三层目标对齐法.md|技能：三层目标对齐法]] — 一堂课程
-- [[concepts/concepts/skill-三阶追问法穷尽决策要素.md|技能：三阶追问法穷尽决策要素]] — 一堂课程
-- [[concepts/concepts/skill-专家访谈十步法.md|技能：专家访谈十步法]] — 一堂课程设计
-- [[concepts/concepts/skill-专家访谈学习.md|技能：专家访谈学习]] — 一堂课程
-- [[concepts/concepts/skill-专题笔记整理.md|技能：专题笔记整理]] — 一堂课程
-- [[concepts/concepts/skill-专题笔记脑图整理法.md|技能：专题笔记/脑图整理法]] — 一堂课程
-- [[concepts/concepts/skill-主动摘要压缩上下文.md|技能：主动摘要压缩上下文]] — Truman
-- [[concepts/concepts/skill-人生红点战略对齐.md|技能：人生红点战略对齐]] — 一堂课程
-- [[concepts/concepts/skill-从案例中学习.md|技能：从案例中学习]] — 一堂课程
-- [[concepts/concepts/skill-从案例中学习正反案例法.md|技能：从案例中学习（正反案例法）]] — 一堂课程
-- [[concepts/concepts/skill-代入场景推演要素法.md|技能：代入场景推演要素法]] — 一堂课程
-- [[concepts/concepts/skill-任务拆解为工作流.md|技能：任务拆解为工作流]] — Truman
-- [[concepts/concepts/skill-体系框架构建.md|技能：体系框架构建]] — 一堂课程
-- [[concepts/concepts/skill-使用一页纸速查卡快速调用框架.md|skill-使用一页纸速查卡快速调用框架]]
-- [[concepts/concepts/skill-使用优先级快筛卡锁定核心矛盾.md|技能：使用优先级快筛卡锁定核心矛盾]] — 课程设计者
-- [[concepts/concepts/skill-使用概念辨析卡区分易混淆概念.md|技能：使用概念辨析卡区分易混淆概念]] — 课程设计者
-- [[concepts/concepts/skill-六维窗口期扫描法.md|技能：六维窗口期扫描法]] — 一堂课程
-- [[concepts/concepts/skill-分享输出检验法.md|技能：分享输出检验法]] — 一堂课程（费曼学习法延伸）
-- [[concepts/concepts/skill-分层标注重点信息.md|技能：分层标注重点信息]] — Truman
-- [[concepts/concepts/skill-创始人二当家分工协作模式.md|技能：创始人+二当家分工协作模式]] — 案例讲述者
-- [[concepts/concepts/skill-制作行业化要素检查清单.md|技能：制作行业化要素检查清单]] — 课程设计者
-- [[concepts/concepts/skill-动手建模提炼.md|技能：动手建模提炼]] — 一堂课程
-- [[concepts/concepts/skill-动手建模法.md|技能：动手建模法]] — 一堂课程
-- [[concepts/concepts/skill-区分获客渠道计算单元roi.md|技能：区分获客渠道计算单元ROI]] — 一堂课程（未具名讲师）
-- [[concepts/concepts/skill-半肥猫-ai-research-validation.md|AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环]] — 半肥猫
-- [[concepts/concepts/skill-半肥猫-course-to-skill-workflow.md|课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化]] — 半肥猫
-- [[concepts/concepts/skill-半肥猫-课程Skill化的八步工作流.md|技能：课程Skill化的八步工作流]] — 半肥猫
-- [[concepts/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md|技能：边学边练边沉淀的 AI 学习法]] — 半肥猫
-- [[concepts/concepts/skill-反向提示获取优化建议.md|技能：反向提示获取优化建议]] — Truman
-- [[concepts/concepts/skill-反向教学深化理解.md|技能：反向教学深化理解]] — Truman
-- [[concepts/concepts/skill-反向记录整理思路.md|技能：反向记录整理思路]] — Truman
-- [[concepts/concepts/skill-反向采访挖掘深度.md|技能：反向采访挖掘深度]] — Truman
-- [[concepts/concepts/skill-四层联系建立法.md|技能：四层联系建立法]] — 一堂课程
-- [[concepts/concepts/skill-城市合伙人模式复制能力.md|技能：城市合伙人模式复制能力]] — 案例讲述者
-- [[concepts/concepts/skill-增强数据供给.md|技能：增强数据供给]] — Truman
-- [[concepts/concepts/skill-复盘推演法.md|技能：复盘推演法]] — 一堂课程
-- [[concepts/concepts/skill-复盘推演练习.md|技能：复盘推演练习]] — 一堂课程
-- [[concepts/concepts/skill-多模型对比抽卡.md|技能：多模型对比抽卡]] — Truman
-- [[concepts/concepts/skill-多源输入法.md|技能：多源输入法]] — 一堂课程
-- [[concepts/concepts/skill-多轮确认防偏差.md|技能：多轮确认防偏差]] — Truman
-- [[concepts/concepts/skill-对标借鉴他人决策维度.md|技能：对标借鉴他人决策维度]] — 一堂课程
-- [[concepts/concepts/skill-寻找学习教练法.md|技能：寻找学习教练法]] — 一堂课程
-- [[concepts/concepts/skill-封装可复用skill.md|技能：封装可复用Skill]] — Truman
-- [[concepts/concepts/skill-将未中标成本纳入循环计算真实投标成本.md|技能：将未中标成本纳入循环计算真实投标成本]] — 一堂课程（未具名讲师）
-- [[concepts/concepts/skill-应用人员降级公式实现标准化.md|技能：应用人员降级公式实现标准化]] — 课程设计者
-- [[concepts/concepts/skill-建立知识联系.md|技能：建立知识联系]] — 一堂课程
-- [[concepts/concepts/skill-建立策略-要素映射表设计对抗策略.md|技能：建立策略-要素映射表设计对抗策略]] — 课程设计者
-- [[concepts/concepts/skill-快招品牌总部模拟调研.md|技能：快招品牌总部模拟调研]] — 案例讲述者
-- [[concepts/concepts/skill-思维链显化推理.md|技能：思维链显化推理]] — Truman
-- [[concepts/concepts/skill-思维验证交叉检验.md|技能：思维验证交叉检验]] — Truman
-- [[concepts/concepts/skill-执行对标研究三步法.md|技能：执行对标研究三步法]] — 课程设计者
-- [[concepts/concepts/skill-按分阶练习路径渐进掌握方法.md|技能：按分阶练习路径渐进掌握方法]] — 课程设计者
-- [[concepts/concepts/skill-按图索骥改良外部模板.md|技能：按图索骥改良外部模板]] — 案例讲述者
-- [[concepts/concepts/skill-按月份摊销收入成本做计划.md|技能：按月份摊销收入成本做计划]] — 一堂课程（未具名讲师）
-- [[concepts/concepts/skill-推行分层标准化策略.md|技能：推行分层标准化策略]] — 课程设计者
-- [[concepts/concepts/skill-提升笔记练习频次的方法.md|技能：提升笔记练习频次的方法]] — 一堂
-- [[concepts/concepts/skill-提升笔记阅读舒适度.md|提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦]] — yitang, personal-growth
-- [[concepts/concepts/skill-提示词结构化迭代.md|技能：提示词结构化迭代]] — Truman
-- [[concepts/concepts/skill-敏捷发布快速迭代搭建体系.md|技能：敏捷发布快速迭代搭建体系]] — 案例讲述者
-- [[concepts/concepts/skill-数据分层供给.md|技能：数据分层供给]] — Truman
-- [[concepts/concepts/skill-月白-80分效率设计策略.md|技能：80分效率设计策略]] — 月白
-- [[concepts/concepts/skill-月白-A-B双轨反推模式选择.md|技能：A/B双轨反推模式选择]] — 月白
-- [[concepts/concepts/skill-月白-AIGC产品白底图制作.md|技能：AIGC产品白底图制作]] — 月白
-- [[concepts/concepts/skill-月白-AIGC人群画像驱动详情页规划.md|技能：AIGC人群画像驱动详情页规划]] — 月白
-- [[concepts/concepts/skill-月白-AIGC反向拆解法.md|技能：AIGC反向拆解法]] — 月白
-- [[concepts/concepts/skill-月白-AIGC文字大小精确控制.md|技能：AIGC文字大小精确控制]] — 月白
-- [[concepts/concepts/skill-月白-AIGC模型选型决策法.md|技能：AIGC模型选型决策法]] — 月白
-- [[concepts/concepts/skill-月白-AIGC橱窗陈列设计流程.md|技能：AIGC橱窗陈列设计流程]] — 月白
-- [[concepts/concepts/skill-月白-AIGC海报信息优先级排序法.md|技能：AIGC海报信息优先级排序法]] — 月白
-- [[concepts/concepts/skill-月白-AIGC生成人物证件照.md|技能：AIGC生成人物证件照]] — 月白
-- [[concepts/concepts/skill-月白-AIGC设计作业复盘法.md|技能：AIGC设计作业复盘法]] — 月白
-- [[concepts/concepts/skill-月白-AIGC餐饮海报优化一抽流.md|技能：AIGC餐饮海报优化一抽流]] — 月白
-- [[concepts/concepts/skill-月白-AI一句话改图尺寸.md|技能：AI一句话改图尺寸]] — 月白
-- [[concepts/concepts/skill-月白-AI人物特征精准描述法.md|技能：AI人物特征精准描述法]] — 月白
-- [[concepts/concepts/skill-月白-AI去字-稿定设计加字工作流.md|技能：AI去字+稿定设计加字工作流]] — 月白
-- [[concepts/concepts/skill-月白-AI去文字-稿定设计快速出图法.md|技能：AI去文字+稿定设计快速出图法]] — 月白
-- [[concepts/concepts/skill-月白-AI图片印刷落地预处理.md|技能：AI图片印刷落地预处理]] — 月白
-- [[concepts/concepts/skill-月白-AI图片去文字处理.md|技能：AI图片去文字处理]] — 月白
-- [[concepts/concepts/skill-月白-AI图片风格逆向提取（抄图法）.md|技能：AI图片风格逆向提取（抄图法）]] — 月白
-- [[concepts/concepts/skill-月白-AI图生图尺寸快速转换.md|技能：AI图生图尺寸快速转换]] — 月白
-- [[concepts/concepts/skill-月白-AI对话式海报修改（免PS）.md|技能：AI对话式海报修改（免PS）]] — 月白
-- [[concepts/concepts/skill-月白-AI对话情绪管理法.md|技能：AI对话情绪管理法]] — 月白
-- [[concepts/concepts/skill-月白-AI工艺图人工复核法.md|技能：AI工艺图人工复核法]] — 月白
-- [[concepts/concepts/skill-月白-AI平台算法咨询法.md|技能：AI平台算法咨询法]] — 月白
-- [[concepts/concepts/skill-月白-AI归纳共性描述法.md|技能：AI归纳共性描述法]] — 月白
-- [[concepts/concepts/skill-月白-AI抽卡效率控制法.md|技能：AI抽卡效率控制法]] — 月白
-- [[concepts/concepts/skill-月白-AI提示词精准约束法.md|技能：AI提示词精准约束法]] — 月白
-- [[concepts/concepts/skill-月白-AI改图指令精细化.md|技能：AI改图指令精细化]] — 月白
-- [[concepts/concepts/skill-月白-AI智价比评估决策.md|技能：AI智价比评估决策]] — 月白
-- [[concepts/concepts/skill-月白-AI模型选择决策法.md|技能：AI模型选择决策法]] — 月白
-- [[concepts/concepts/skill-月白-AI模型选择策略.md|技能：AI模型选择策略]] — 月白
-- [[concepts/concepts/skill-月白-AI海报快速生成法（15分钟无PS）.md|技能：AI海报快速生成法（15分钟无PS）]] — 月白
-- [[concepts/concepts/skill-月白-AI生图与图生图决策法.md|技能：AI生图与图生图决策法]] — 月白
-- [[concepts/concepts/skill-月白-AI生成IP表情包.md|技能：AI生成IP表情包]] — 月白
-- [[concepts/concepts/skill-月白-AI生成图小字控制法.md|技能：AI生成图小字控制法]] — 月白
-- [[concepts/concepts/skill-月白-AI生成图片排版控制-尺寸优先法.md|技能：AI生成图片排版控制-尺寸优先法]] — 月白
-- [[concepts/concepts/skill-月白-AI生成棉花娃娃形象.md|技能：AI生成棉花娃娃形象]] — 月白
-- [[concepts/concepts/skill-月白-AI生成电商白底图.md|技能：AI生成电商白底图]] — 月白
-- [[concepts/concepts/skill-月白-AI电商图人工过审处理.md|技能：AI电商图人工精修与平台合规发布]] — 月白
-- [[concepts/concepts/skill-月白-AI精准替换产品技巧.md|技能：AI精准替换产品技巧]] — 月白
-- [[concepts/concepts/skill-月白-AI自动生成多语种专业名词提示词.md|技能：AI自动生成多语种专业名词提示词]] — 月白
-- [[concepts/concepts/skill-月白-AI设计-质价比-决策框架.md|技能：AI设计'质价比'决策框架]] — 月白
-- [[concepts/concepts/skill-月白-AI设计三段式里程碑流程.md|技能：AI设计三段式里程碑流程]] — 月白
-- [[concepts/concepts/skill-月白-AI设计严苛批评法.md|技能：AI设计严苛批评法]] — 月白
-- [[concepts/concepts/skill-月白-AI设计反馈萃取法.md|技能：AI设计反馈萃取法]] — 月白
-- [[concepts/concepts/skill-月白-AI设计底层逻辑：从设计到作图到改图.md|技能：AI设计底层逻辑：从设计到作图到改图]] — 月白
-- [[concepts/concepts/skill-月白-AI设计落地文件标准生成.md|技能：AI设计落地文件标准生成]] — 月白
-- [[concepts/concepts/skill-月白-AI设计里程碑拆解法.md|技能：AI设计里程碑拆解法]] — 月白
-- [[concepts/concepts/skill-月白-AI课程内容深度梳理法.md|技能：AI课程内容深度梳理法]] — 月白
-- [[concepts/concepts/skill-月白-AI质价比评估方法.md|技能：AI质价比评估方法]] — 月白
-- [[concepts/concepts/skill-月白-AI逆向反推描述法.md|技能：AI逆向反推描述法]] — 月白
-- [[concepts/concepts/skill-月白-AI需求拆解咨询法.md|技能：AI需求拆解咨询法]] — 月白
-- [[concepts/concepts/skill-月白-AI高清重绘去模糊.md|技能：AI高清重绘去模糊]] — 月白
-- [[concepts/concepts/skill-月白-PPT全AI生成工作流.md|技能：PPT全AI生成工作流]] — 月白
-- [[concepts/concepts/skill-月白-PPT内容框架AIGC生成法.md|技能：PPT内容框架AIGC生成法]] — 月白
-- [[concepts/concepts/skill-月白-PPT风格锁定工作流.md|技能：PPT风格锁定工作流]] — 月白
-- [[concepts/concepts/skill-月白-PS图层规范管理.md|技能：PS图层规范管理]] — 月白
-- [[concepts/concepts/skill-月白-RGB转CMYK印刷预检.md|技能：RGB转CMYK印刷预检]] — 月白
-- [[concepts/concepts/skill-月白-RGB转CMYK色彩校准法.md|技能：RGB转CMYK色彩校准法]] — 月白
-- [[concepts/concepts/skill-月白-Token效价比决策公式.md|技能：Token效价比决策公式]] — 月白
-- [[concepts/concepts/skill-月白-Token效价比决策法.md|技能：Token效价比决策法]] — 月白
-- [[concepts/concepts/skill-月白-Token智甲比控制法.md|技能：Token智甲比控制法]] — 月白
-- [[concepts/concepts/skill-月白-一抽流改图法（自然语言精准许愿法）.md|技能：一抽流改图法（自然语言精准许愿法）]] — 月白
-- [[concepts/concepts/skill-月白-一抽流长提示词写作法.md|技能：一抽流长提示词写作法]] — 月白
-- [[concepts/concepts/skill-月白-三步作业反馈法.md|技能：三步作业反馈法]] — 月白
-- [[concepts/concepts/skill-月白-产品反光修复术.md|技能：产品反光修复术]] — 月白
-- [[concepts/concepts/skill-月白-产品替换式场景合成法.md|技能：产品替换式场景合成法]] — 月白
-- [[concepts/concepts/skill-月白-产品白底图标准化制作.md|技能：产品白底图标准化制作]] — 月白
-- [[concepts/concepts/skill-月白-产品风格选择：测而非定.md|技能：产品风格选择：测而非定]] — 月白
-- [[concepts/concepts/skill-月白-价格带视觉策略匹配.md|技能：价格带视觉策略匹配]] — 月白
-- [[concepts/concepts/skill-月白-供应商信息对齐清单法.md|技能：供应商信息对齐清单法]] — 月白
-- [[concepts/concepts/skill-月白-像素图高清重绘修复法.md|技能：像素图高清重绘修复法]] — 月白
-- [[concepts/concepts/skill-月白-光影灰度控制能力构建.md|技能：光影灰度控制能力构建]] — 月白
-- [[concepts/concepts/skill-月白-关键要素提取改图法.md|技能：关键要素提取改图法]] — 月白
-- [[concepts/concepts/skill-月白-具体化优点萃取与复用.md|技能：具体化优点萃取与复用]] — 月白
-- [[concepts/concepts/skill-月白-分层自洽海报生成法.md|技能：分层自洽海报生成法]] — 月白
-- [[concepts/concepts/skill-月白-分步迭代改图法.md|技能：分步迭代改图法]] — 月白
-- [[concepts/concepts/skill-月白-创作与执行双模式切换.md|技能：创作与执行双模式切换]] — 月白
-- [[concepts/concepts/skill-月白-包材工艺参数核对法.md|技能：包材工艺参数核对法]] — 月白
-- [[concepts/concepts/skill-月白-卖点可视化海报设计法.md|技能：卖点可视化海报设计法]] — 月白
-- [[concepts/concepts/skill-月白-印刷DPI标准设置.md|技能：印刷DPI标准设置]] — 月白
-- [[concepts/concepts/skill-月白-叙事性场景海报构建.md|技能：叙事性场景海报构建]] — 月白
-- [[concepts/concepts/skill-月白-口喷作图工作流.md|技能：口喷作图工作流]] — 月白
-- [[concepts/concepts/skill-月白-口喷式AIGC设计法.md|技能：口喷式AIGC设计法]] — 月白
-- [[concepts/concepts/skill-月白-口喷式设计工作流.md|技能：口喷式设计工作流]] — 月白
-- [[concepts/concepts/skill-月白-口述作图法（口喷设计）.md|技能：口述作图法（口喷设计）]] — 月白
-- [[concepts/concepts/skill-月白-后台数据AI诊断法.md|技能：后台数据AI诊断法]] — 月白
-- [[concepts/concepts/skill-月白-商业项目AI模型选型决策.md|技能：商业项目AI模型选型决策]] — 月白
-- [[concepts/concepts/skill-月白-图像信息逆向解析训练.md|技能：图像信息逆向解析训练]] — 月白
-- [[concepts/concepts/skill-月白-图片逆向反推提示词法.md|技能：图片逆向反推提示词法]] — 月白
-- [[concepts/concepts/skill-月白-图片逆向提示词提取.md|技能：图片逆向提示词提取]] — 月白
-- [[concepts/concepts/skill-月白-图生图产品替换与场景合成.md|技能：图生图产品替换与场景合成]] — 月白
-- [[concepts/concepts/skill-月白-圈图指定修改法.md|技能：圈图指定修改法]] — 月白
-- [[concepts/concepts/skill-月白-基于基础形象做动作延展（1到10）.md|技能：基于基础形象做动作延展（1到10）]] — 月白
-- [[concepts/concepts/skill-月白-基于白底图做动作延展.md|技能：基于白底图做动作延展]] — 月白
-- [[concepts/concepts/skill-月白-基于需求拆解找设计参考.md|技能：基于需求拆解找设计参考]] — 月白
-- [[concepts/concepts/skill-月白-多窗口并行工作法.md|技能：多窗口并行工作法]] — 月白
-- [[concepts/concepts/skill-月白-多语种专业名词提示词策略.md|技能：多语种专业名词提示词策略]] — 月白
-- [[concepts/concepts/skill-月白-多语言提示词精准法.md|技能：多语言提示词精准法]] — 月白
-- [[concepts/concepts/skill-月白-多语言提示词降幻觉法.md|技能：多语言提示词降幻觉法]] — 月白
-- [[concepts/concepts/skill-月白-官方提示词最佳实践迁移.md|技能：官方提示词最佳实践迁移]] — 月白
-- [[concepts/concepts/skill-月白-实物包装产业链实践.md|技能：实物包装产业链实践]] — 月白
-- [[concepts/concepts/skill-月白-实物包装落地训练法.md|技能：实物包装落地训练法]] — 月白
-- [[concepts/concepts/skill-月白-审美刻意练习法.md|技能：审美刻意练习法]] — 月白
-- [[concepts/concepts/skill-月白-封面情绪转化法.md|技能：封面情绪转化法]] — 月白
-- [[concepts/concepts/skill-月白-小红书双重搜索法.md|技能：小红书双重搜索法]] — 月白
-- [[concepts/concepts/skill-月白-小红书封面趋势判断法.md|技能：小红书封面趋势判断法]] — 月白
-- [[concepts/concepts/skill-月白-小红书平台内容策略：从美图经济到沙雕梗图.md|技能：小红书平台内容策略：从美图经济到沙雕梗图]] — 月白
-- [[concepts/concepts/skill-月白-工厂对接信息清单制作.md|技能：工厂对接信息清单制作]] — 月白
-- [[concepts/concepts/skill-月白-左手Cubox右手里程碑学习法.md|技能：左手Cubox右手里程碑学习法]] — 月白
-- [[concepts/concepts/skill-月白-左脑画面描述训练法.md|技能：左脑画面描述训练法]] — 月白
-- [[concepts/concepts/skill-月白-强约束画面尺寸比例.md|技能：强约束画面尺寸比例]] — 月白
-- [[concepts/concepts/skill-月白-微信公众号封面AI设计-尺寸强约束法.md|技能：微信公众号封面AI设计-尺寸强约束法]] — 月白
-- [[concepts/concepts/skill-月白-手机外设计逻辑切换法.md|技能：手机外设计逻辑切换法]] — 月白
-- [[concepts/concepts/skill-月白-手绘草稿AI转化工作流.md|技能：手绘草稿AI转化工作流]] — 月白
-- [[concepts/concepts/skill-月白-批量生成多视角素材.md|技能：批量生成多视角素材]] — 月白
-- [[concepts/concepts/skill-月白-找AI要平台专属方法（模型对抗法）.md|技能：找AI要平台专属方法（模型对抗法）]] — 月白
-- [[concepts/concepts/skill-月白-控制产品画面尺寸比例.md|技能：控制产品画面尺寸比例]] — 月白
-- [[concepts/concepts/skill-月白-提示词优化：信息流海报文字修复.md|技能：提示词优化：信息流海报文字修复]] — 月白
-- [[concepts/concepts/skill-月白-提示词长度控制法.md|技能：提示词长度控制法]] — 月白
-- [[concepts/concepts/skill-月白-文件命名与图层命名规范.md|技能：文件命名与图层命名规范]] — 月白
-- [[concepts/concepts/skill-月白-文件命名与存档规范（口述暗示）.md|技能：文件命名与存档规范（口述暗示）]] — 月白
-- [[concepts/concepts/skill-月白-文件命名与平台适配规范.md|技能：文件命名与平台适配规范]] — 月白
-- [[concepts/concepts/skill-月白-文创产品AI设计到生产的卡点预判.md|技能：文创产品AI设计到生产的卡点预判]] — 月白
-- [[concepts/concepts/skill-月白-文创材质成本调研与精益选择.md|技能：文创材质成本调研与精益选择]] — 月白
-- [[concepts/concepts/skill-月白-文创材质调研与精益选择.md|技能：文创材质调研与精益选择]] — 月白
-- [[concepts/concepts/skill-月白-新媒体平台流量逻辑-问平台亲儿子AI法.md|技能：新媒体平台流量逻辑-问平台亲儿子AI法]] — 月白
-- [[concepts/concepts/skill-月白-新媒体热点物料快速迭代法.md|技能：新媒体热点物料快速迭代法]] — 月白
-- [[concepts/concepts/skill-月白-新手设计师基本功训练法.md|技能：新手设计师基本功训练法]] — 月白
-- [[concepts/concepts/skill-月白-普通人AI快速上手法.md|技能：普通人AI快速上手法]] — 月白
-- [[concepts/concepts/skill-月白-普通人AI设计80分法则.md|技能：普通人AI设计80分法则]] — 月白
-- [[concepts/concepts/skill-月白-智能扩图-拓图双方案.md|技能：智能扩图/拓图双方案]] — 月白
-- [[concepts/concepts/skill-月白-替换大法改图.md|技能：替换大法改图]] — 月白
-- [[concepts/concepts/skill-月白-最佳实践素材收集法.md|技能：最佳实践素材收集法]] — 月白
-- [[concepts/concepts/skill-月白-服务体验类去AI感设计.md|技能：服务体验类去AI感设计]] — 月白
-- [[concepts/concepts/skill-月白-未知领域审美建构法.md|技能：未知领域审美建构法]] — 月白
-- [[concepts/concepts/skill-月白-模型性价比选型决策.md|技能：模型性价比选型决策]] — 月白
-- [[concepts/concepts/skill-月白-模型识别与边界测试法.md|技能：模型识别与边界测试法]] — 月白
-- [[concepts/concepts/skill-月白-正向反馈强化AI生成.md|技能：正向反馈强化AI生成]] — 月白
-- [[concepts/concepts/skill-月白-泛产品设计能力迁移法.md|技能：泛产品设计能力迁移法]] — 月白
-- [[concepts/concepts/skill-月白-海报二维码快速替换法.md|技能：海报二维码快速替换法]] — 月白
-- [[concepts/concepts/skill-月白-海报文字错误修复法.md|技能：海报文字错误修复法]] — 月白
-- [[concepts/concepts/skill-月白-灵感画布建立法.md|技能：灵感画布建立法]] — 月白
-- [[concepts/concepts/skill-月白-烧Token快速积累体感.md|技能：烧Token快速积累体感]] — 月白
-- [[concepts/concepts/skill-月白-用AIGC做设计专家批评复盘.md|技能：用AIGC做设计专家批评复盘]] — 月白
-- [[concepts/concepts/skill-月白-用一堂方法论找最佳实践并拉满执行.md|技能：用一堂方法论找最佳实践并拉满执行]] — 月白
-- [[concepts/concepts/skill-月白-电商场景图三类分类法.md|技能：电商场景图三类分类法]] — 月白
-- [[concepts/concepts/skill-月白-电商场景图三类构建法.md|技能：电商场景图三类构建法]] — 月白
-- [[concepts/concepts/skill-月白-电商白底图生成与场景图匹配.md|技能：电商白底图生成与场景图匹配]] — 月白
-- [[concepts/concepts/skill-月白-电商白底图生成与高清处理.md|技能：电商白底图生成与高清处理]] — 月白
-- [[concepts/concepts/skill-月白-电商白底图生成与高清重绘.md|技能：电商白底图生成与高清重绘]] — 月白
-- [[concepts/concepts/skill-月白-电商详情页起承转合架构法.md|技能：电商详情页起承转合架构法]] — 月白
-- [[concepts/concepts/skill-月白-眼高手低训练法.md|技能：眼高手低训练法]] — 月白
-- [[concepts/concepts/skill-月白-眼高手低转化法.md|技能：眼高手低转化法]] — 月白
-- [[concepts/concepts/skill-月白-短视频封面-音量战争-设计法.md|技能：短视频封面'音量战争'设计法]] — 月白
-- [[concepts/concepts/skill-月白-短视频封面一秒吸睛法.md|技能：短视频封面一秒吸睛法]] — 月白
-- [[concepts/concepts/skill-月白-短视频封面高亮吸睛法.md|技能：短视频封面高亮吸睛法]] — 月白
-- [[concepts/concepts/skill-月白-社群直播海报利益点提炼法.md|技能：社群直播海报利益点提炼法]] — 月白
-- [[concepts/concepts/skill-月白-竞品图精益替换法.md|技能：竞品图精益替换法]] — 月白
-- [[concepts/concepts/skill-月白-精准共用提示词撰写.md|技能：精准共用提示词撰写]] — 月白
-- [[concepts/concepts/skill-月白-精准提示词撰写法.md|技能：精准提示词撰写法]] — 月白
-- [[concepts/concepts/skill-月白-精准提示词消除模型幻觉.md|技能：精准提示词消除模型幻觉]] — 月白
-- [[concepts/concepts/skill-月白-精准改图提示词写法.md|技能：精准改图提示词写法]] — 月白
-- [[concepts/concepts/skill-月白-纳米级抄大师训练法.md|技能：纳米级抄大师训练法]] — 月白
-- [[concepts/concepts/skill-月白-线下实体门店设计真实体感验证.md|技能：线下实体门店设计真实体感验证]] — 月白
-- [[concepts/concepts/skill-月白-线下门店设计复杂度评估.md|技能：线下门店设计复杂度评估]] — 月白
-- [[concepts/concepts/skill-月白-背景消除与分辨率修复.md|技能：背景消除与分辨率修复]] — 月白
-- [[concepts/concepts/skill-月白-色块分区控制法.md|技能：色块分区控制法]] — 月白
-- [[concepts/concepts/skill-月白-薅AIGC羊毛资源法.md|技能：AIGC工具免费试用与入门资源整理]] — 月白
-- [[concepts/concepts/skill-月白-行业配色快速确定法.md|技能：行业配色快速确定法]] — 月白
-- [[concepts/concepts/skill-月白-表情包风格筛选与确定.md|技能：表情包风格筛选与确定]] — 月白
-- [[concepts/concepts/skill-月白-视角替换专用提示法.md|技能：视角替换专用提示法]] — 月白
-- [[concepts/concepts/skill-月白-设计参考图精准定位法.md|技能：设计参考图精准定位法]] — 月白
-- [[concepts/concepts/skill-月白-设计基本功回归法.md|技能：设计基本功回归法]] — 月白
-- [[concepts/concepts/skill-月白-设计师AI工具习惯切换.md|技能：设计师AI工具习惯切换]] — 月白
-- [[concepts/concepts/skill-月白-设计师AI资产四类型沉淀.md|技能：设计师AI资产四类型沉淀]] — 月白
-- [[concepts/concepts/skill-月白-设计文件八要素命名法.md|技能：设计文件八要素命名法]] — 月白
-- [[concepts/concepts/skill-月白-设计素材脱敏处理规范.md|技能：设计素材脱敏处理规范]] — 月白
-- [[concepts/concepts/skill-月白-设计能力蒸馏封装法.md|技能：设计能力蒸馏封装法]] — 月白
-- [[concepts/concepts/skill-月白-设计需求口头化表达法.md|技能：设计需求口头化表达法]] — 月白
-- [[concepts/concepts/skill-月白-设计项目MVP拆解法.md|技能：设计项目MVP拆解法]] — 月白
-- [[concepts/concepts/skill-月白-设计项目里程碑拆解法.md|技能：设计项目里程碑拆解法]] — 月白
-- [[concepts/concepts/skill-月白-课程资料文件命名规范.md|技能：课程资料文件命名规范]] — 月白
-- [[concepts/concepts/skill-月白-课程问题预埋法.md|技能：课程问题预埋法]] — 月白
-- [[concepts/concepts/skill-月白-资深设计师AI工具切换法.md|技能：资深设计师AI工具切换法]] — 月白
-- [[concepts/concepts/skill-月白-跨境电商产品图替换法.md|技能：跨境电商产品图替换法]] — 月白
-- [[concepts/concepts/skill-月白-醒图人脸精修法.md|技能：醒图人脸精修法]] — 月白
-- [[concepts/concepts/skill-月白-里程碑思维-找对标优先于做设计.md|技能：里程碑思维-找对标优先于做设计]] — 月白
-- [[concepts/concepts/skill-月白-里程碑思维拆解设计流程.md|技能：里程碑思维拆解设计流程]] — 月白
-- [[concepts/concepts/skill-月白-风格不变局部调整.md|技能：风格不变局部调整]] — 月白
-- [[concepts/concepts/skill-月白-风格探索试错法.md|技能：风格探索试错法]] — 月白
-- [[concepts/concepts/skill-月白-餐饮海报AB测试法.md|技能：餐饮海报AB测试法]] — 月白
-- [[concepts/concepts/skill-月白-餐饮类线下设计调性把控.md|技能：餐饮类线下设计调性把控]] — 月白
-- [[concepts/concepts/skill-李诞-个人IP的重新定义与输出策略.md|技能：个人IP的重新定义与输出策略]] — personal
-- [[concepts/concepts/skill-李诞-内容创作中的观察训练法.md|技能：内容创作中的观察训练法]] — design
-- [[concepts/concepts/skill-李诞-判断工作价值的交易成本视角.md|技能：判断工作价值的交易成本视角]] — decision-making
-- [[concepts/concepts/skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md|技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱]] — personal
-- [[concepts/concepts/skill-李诞-销售闭环验证：从0到1的重新定义.md|技能：销售闭环验证：从0到1的重新定义]] — marketing
-- [[concepts/concepts/skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md|技能：阅读重读机制：与书籍的'因缘'相遇]] — personal
-- [[concepts/concepts/skill-李诞-面对过去错误的平静心法.md|技能：面对过去错误的平静心法]] — decision-making
-- [[concepts/concepts/skill-模型匹配调度.md|技能：模型匹配调度]] — Truman
-- [[concepts/concepts/skill-模型组合调用.md|技能：模型组合调用]] — Truman
-- [[concepts/concepts/skill-水水-保持系统冗余.md|技能：保持系统冗余]] — management
-- [[concepts/concepts/skill-水水-利用叙事驱动决策.md|技能：利用叙事驱动决策]] — decision-making
-- [[concepts/concepts/skill-水水-利用基因漂变视角.md|技能：利用基因漂变视角]] — design
-- [[concepts/concepts/skill-水水-区分风险与不确定性.md|技能：区分风险与不确定性]] — decision-making
-- [[concepts/concepts/skill-水水-接受发散性世界观.md|技能：接受发散性世界观]] — decision-making
-- [[concepts/concepts/skill-水水-构建自利叙事.md|技能：构建自利叙事]] — healthcare
-- [[concepts/concepts/skill-水水-用感性维度构建溢价.md|技能：用感性维度构建溢价]] — design
-- [[concepts/concepts/skill-水水-管理决策权重偏差.md|skill-水水-管理决策权重偏差]]
-- [[concepts/concepts/skill-水水-练习坦然说不知道.md|技能：练习坦然说不知道]] — marketing
-- [[concepts/concepts/skill-水水-警惕概率虚妄安全感.md|技能：警惕概率虚妄安全感]] — yitang
-- [[concepts/concepts/skill-水水-警惕错误归因.md|技能：警惕错误归因]] — personal
-- [[concepts/concepts/skill-水水-识别关键偶然因素.md|技能：识别关键偶然因素]] — decision-making
-- [[concepts/concepts/skill-水水-识别数据折磨陷阱.md|技能：识别数据折磨陷阱]] — decision-making
-- [[concepts/concepts/skill-水水-识别模型局限性.md|技能：识别模型局限性]] — decision-making
-- [[concepts/concepts/skill-水水-识别自证预言陷阱.md|技能：识别自证预言陷阱]] — management
-- [[concepts/concepts/skill-水水-识别超级传播者风险.md|技能：识别超级传播者风险]] — management
-- [[concepts/concepts/skill-水水-识别饥饿效应.md|技能：识别饥饿效应]] — decision-making
-- [[concepts/concepts/skill-水水-避免原生家庭万能归因.md|技能：避免原生家庭万能归因]] — personal
-- [[concepts/concepts/skill-水水-降低故事逻辑要求.md|技能：降低故事逻辑要求]] — design
-- [[concepts/concepts/skill-深度分层学习.md|技能：深度分层学习]] — 一堂课程
-- [[concepts/concepts/skill-清单小抄制作.md|技能：清单小抄制作]] — 一堂课程
-- [[concepts/concepts/skill-清单小抄工具箱法.md|技能：清单小抄工具箱法]] — 一堂课程
-- [[concepts/concepts/skill-清单式笔记法.md|技能：清单式笔记法]] — 一堂课程设计
-- [[concepts/concepts/skill-渐进式披露上下文.md|技能：渐进式披露上下文]] — Truman
-- [[concepts/concepts/skill-现场建模式萃取笔记.md|技能：现场建模式萃取笔记]] — 一堂
-- [[concepts/concepts/skill-用topdown方式整理内化笔记.md|技能：用Topdown方式整理内化笔记]] — 一堂
-- [[concepts/concepts/skill-用旗舰店替代纯招商投入.md|技能：用旗舰店替代纯招商投入]] — 案例讲述者
-- [[concepts/concepts/skill-用清单体记备忘笔记.md|技能：用清单体记备忘笔记]] — 一堂
-- [[concepts/concepts/skill-知识库团队管理.md|技能：知识库团队管理]] — 一堂课程设计
-- [[concepts/concepts/skill-知识树存储记忆法.md|技能：知识树存储记忆法]] — 一堂课程
-- [[concepts/concepts/skill-稀缺资源机会成本比对法.md|技能：稀缺资源机会成本比对法]] — 一堂课程
-- [[concepts/concepts/skill-立即实践转化法.md|技能：立即实践转化法]] — 一堂课程
-- [[concepts/concepts/skill-纪浩-AI使用边界管理法.md|skill-纪浩-AI使用边界管理法]]
-- [[concepts/concepts/skill-纪浩-AI对话上下文隔离.md|skill-纪浩-AI对话上下文隔离]]
-- [[concepts/concepts/skill-纪浩-AI工作空间与导诊台设计法.md|技能：AI工作空间与导诊台设计法]] — 纪浩
-- [[concepts/concepts/skill-纪浩-AI工具脚本化约束.md|skill-纪浩-AI工具脚本化约束]]
-- [[concepts/concepts/skill-纪浩-Agent开工检查单制作法.md|skill-纪浩-Agent开工检查单制作法]]
-- [[concepts/concepts/skill-纪浩-Agent技能市场设计法.md|技能：Agent技能市场设计法]] — 纪浩
-- [[concepts/concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md|技能：Do-first PDCA渐进迭代法]] — 纪浩
-- [[concepts/concepts/skill-纪浩-Problem与Question区分法.md|skill-纪浩-Problem与Question区分法]]
-- [[concepts/concepts/skill-纪浩-problem-validation-four-checks.md|技能：四问验证法 —— 判断需求是真实Problem还是伪需求]] — 纪浩
-- [[concepts/concepts/skill-纪浩-任务交付物标准化.md|skill-纪浩-任务交付物标准化]]
-- [[concepts/concepts/skill-纪浩-低成本输出验证法.md|skill-纪浩-低成本输出验证法]]
-- [[concepts/concepts/skill-纪浩-处理AI生成代码运行异常.md|skill-纪浩-处理AI生成代码运行异常]]
-- [[concepts/concepts/skill-纪浩-多视角切换思考法.md|技能：多视角切换思考法]] — ai-saas
-- [[concepts/concepts/skill-纪浩-新手心态启动法.md|技能：新手心态启动法]] — ai-saas
-- [[concepts/concepts/skill-纪浩-日志驱动排查法.md|技能：日志驱动排查法]] — 纪浩
-- [[concepts/concepts/skill-纪浩-案例池构建法.md|技能：案例池构建法]] — ai-saas
-- [[concepts/concepts/skill-纪浩-真需求四要素验证法.md|技能：真需求四要素验证法]] — 纪浩
-- [[concepts/concepts/skill-纪浩-线上问题应急值守.md|技能：线上问题应急值守]] — ai-saas
-- [[concepts/concepts/skill-纪浩-评估AI从零写UI的可行性.md|技能：评估AI从零写UI的可行性]] — ai-saas
-- [[concepts/concepts/skill-纪浩-识别AI不可维护代码.md|技能：识别AI不可维护代码]] — ai-saas
-- [[concepts/concepts/skill-纪浩-里程碑验证法.md|技能：里程碑验证法]] — ai-saas
-- [[concepts/concepts/skill-纪浩-问题导向备课法.md|技能：问题导向备课法]] — ai-saas
-- [[concepts/concepts/skill-纪浩-项目启动五问法.md|技能：项目启动五问法]] — ai-saas
-- [[concepts/concepts/skill-自我反馈修正笔记姿势.md|技能：自我反馈修正笔记姿势]] — 一堂
-- [[concepts/concepts/skill-自我反馈检验.md|技能：自我反馈检验]] — 一堂课程
-- [[concepts/concepts/skill-获取他人反馈优化笔记.md|技能：获取他人反馈优化笔记]] — 一堂
-- [[concepts/concepts/skill-设定管理杠杆率指标评估效率.md|技能：设定管理杠杆率指标评估效率]] — 课程设计者
-- [[concepts/concepts/skill-设计对抗效果追踪看板.md|技能：设计对抗效果追踪看板]] — 课程设计者
-- [[concepts/concepts/skill-费曼学习法三句话提炼.md|技能：费曼学习法三句话提炼]] — 一堂课程（费曼学习法变体）
-- [[concepts/concepts/skill-费曼学习法实践讲香课题.md|技能：费曼学习法实践（讲香课题）]] — 一堂课程设计
-- [[concepts/concepts/skill-费曼简单提炼法.md|技能：费曼简单提炼法]] — 一堂课程（费曼学习法）
-- [[concepts/concepts/skill-辩证讨论法.md|技能：辩证讨论法]] — 一堂课程
-- [[concepts/concepts/skill-辩证讨论深化.md|技能：辩证讨论深化]] — 一堂课程
-- [[concepts/concepts/skill-逐字稿练习演讲.md|技能：逐字稿练习演讲]] — 一堂课程设计
-- [[concepts/concepts/skill-通过综合案例沙盘走通全流程.md|技能：通过综合案例沙盘走通全流程]] — 课程设计者
-- [[concepts/concepts/skill-通过请吃饭获取行业内部资料.md|技能：通过请吃饭获取行业内部资料]] — 案例讲述者
-- [[concepts/concepts/skill-遵循规模前倾原则设计组织架构.md|技能：遵循规模前倾原则设计组织架构]] — 课程设计者
-- [[concepts/concepts/skill-采用滚动预测机制.md|技能：采用滚动预测机制]] — 课程设计者
-- [[concepts/concepts/skill-问题驱动式深度思考笔记.md|问题驱动式深度思考笔记：用真问题取代真记录]] — yitang, personal-growth
-- [[concepts/concepts/skill-项目复盘基本功.md|技能：项目复盘基本功]] — 一堂课程设计
-- [[concepts/concepts/skill-马易-AIGC项目ROI评估.md|技能：AIGC项目ROI评估]] — 马易
-- [[concepts/concepts/skill-马易-AI任务拆解提升控制度.md|技能：AI任务拆解提升控制度]] — ai-saas
-- [[concepts/concepts/skill-马易-AI搜索公网数据增强（合规边界）.md|技能：AI搜索公网数据增强（合规边界）]] — ai-saas
-- [[concepts/concepts/skill-马易-AI答疑运营风格适配.md|技能：AI答疑运营风格适配]] — ai-saas
-- [[concepts/concepts/skill-马易-AI能力团队复制.md|技能：AI能力团队复制]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地前置条件验证.md|技能：AI落地前置条件验证]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地四阶段验证法.md|技能：AI落地四阶段验证法]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地场景筛选-四有新人法则.md|技能：AI落地场景筛选-四有新人法则]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地场景识别-拆工作流找场景.md|技能：AI落地场景识别-拆工作流找场景]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地场景识别与拆分.md|技能：AI落地场景识别与拆分]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地能力内化训练.md|技能：AI落地能力内化训练]] — ai-saas
-- [[concepts/concepts/skill-马易-AI落地认知速成-最佳实践学习法.md|技能：AI落地认知速成-最佳实践学习法]] — ai-saas
-- [[concepts/concepts/skill-马易-AI项目上线-先平行再独行.md|技能：AI项目上线-先平行再独行]] — ai-saas
-- [[concepts/concepts/skill-马易-AI项目需求拆解筛选.md|技能：AI项目需求拆解筛选]] — ai-saas
-- [[concepts/concepts/skill-马易-RPA数据整合法.md|技能：RPA数据整合法]] — ai-saas
-- [[concepts/concepts/skill-马易-业务为先的AI中台建设.md|skill-马易-业务为先的AI中台建设]]
-- [[concepts/concepts/skill-马易-业务问题AI化拆解-餐饮设计案例法.md|技能：业务问题AI化拆解-餐饮设计案例法]] — ai-saas
-- [[concepts/concepts/skill-马易-中国企业AI落地五步法.md|技能：中国企业AI落地五步法]] — ai-saas
-- [[concepts/concepts/skill-马易-低置信度样本黄金漏斗处理.md|技能：低置信度样本黄金漏斗处理]] — ai-saas
-- [[concepts/concepts/skill-马易-公寓获客自跑通原则.md|技能：公寓获客自跑通原则]] — marketing
-- [[concepts/concepts/skill-马易-关键假设识别与验证.md|技能：关键假设识别与验证]] — ai-saas
-- [[concepts/concepts/skill-马易-减少输入噪音法.md|技能：减少输入噪音法]] — ai-saas
-- [[concepts/concepts/skill-马易-判断标准快速产出法.md|技能：判断标准快速产出法]] — ai-saas
-- [[concepts/concepts/skill-马易-工作流优先于AIGC的决策方法.md|技能：工作流优先于AIGC的决策方法]] — 马易
-- [[concepts/concepts/skill-马易-工作流拆解找场景.md|技能：工作流拆解找场景]] — ai-saas
-- [[concepts/concepts/skill-马易-平台模式验证法.md|技能：平台模式验证法]] — ai-saas
-- [[concepts/concepts/skill-马易-成为首位F工程师.md|技能：成为首位F工程师]] — ai-saas
-- [[concepts/concepts/skill-马易-数字员工FD拆解落地.md|技能：数字员工FD拆解落地]] — ai-saas
-- [[concepts/concepts/skill-马易-数据存储架构选择.md|技能：数据存储架构选择]] — management
-- [[concepts/concepts/skill-马易-数据标注正确法.md|技能：数据标注正确法]] — ai-saas
-- [[concepts/concepts/skill-马易-时间序列大模型场景识别.md|技能：时间序列大模型场景识别]] — ai-saas
-- [[concepts/concepts/skill-马易-最小场景优先落地法.md|技能：最小场景优先落地法]] — ai-saas
-- [[concepts/concepts/skill-马易-深度沉浸需求挖掘.md|技能：深度沉浸需求挖掘]] — ai-saas
-- [[concepts/concepts/skill-马易-痛点驱动的数字化.md|技能：痛点驱动的数字化]] — ai-saas
-- [[concepts/concepts/skill-马易-知识库-回答技巧双建设.md|技能：知识库+回答技巧双建设]] — marketing
-- [[concepts/concepts/skill-马易-视频转化关键要素标注校验.md|技能：视频转化关键要素标注校验]] — marketing
-- [[concepts/concepts/skill-马易-销售智能体体系搭建路径.md|技能：销售智能体体系搭建路径]] — marketing
-- [[concepts/concepts/skill-马易-隐性知识萃取与模型化.md|技能：隐性知识萃取与模型化]] — ai-saas
-- [[concepts/concepts/skill-马易-隐私安全分层解决.md|技能：隐私安全分层解决]] — ai-saas
-- [[concepts/concepts/skill-马易-需求创造验证法.md|技能：需求创造验证法]] — ai-saas
-- [[concepts/concepts/skill-马易-风口痛点识别法.md|技能：风口痛点识别法]] — ai-saas
-- [[concepts/concepts/smart-medicine-cabinet-distribution.md|智能药柜分销业态洞察]] — 医药零售, 智能药柜, 分销系统
-- [[concepts/concepts/smart-medicine-cabinet-national-policy-redlines.md|smart-medicine-cabinet-national-policy-redlines]]
-- [[concepts/concepts/smart-medicine-cabinet-o2o-cost-structure.md|smart-medicine-cabinet-o2o-cost-structure]]
-- [[concepts/concepts/smart-medicine-cabinet-regional-policy-map.md|smart-medicine-cabinet-regional-policy-map]]
-- [[concepts/concepts/source-code-delivery-model.md|源码交付模式]] — SaaS, 商业模式, 软件交付
-- [[concepts/concepts/sprint-2-门禁举证验收.md|Sprint 2 门禁举证验收]] — master
-- [[concepts/concepts/structured-ai-workspace.md|structured-ai-workspace]]
-- [[concepts/concepts/supply-chain-beverage.md|餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡]] — 王语嫣
-- [[concepts/concepts/tinyfish-agentic-web-infrastructure.md|TinyFish — Agentic Web 基础设施建设层 Skill]] — master
-- [[concepts/concepts/tools-workflows.md|Tools Workflows]] — healthcare
-- [[concepts/concepts/truman-perspective-skill.md|truman-perspective-skill]]
-- [[concepts/concepts/voice-input-doubao.md|voice input doubao]] — product, ai-saas, decision-making, yitang
-- [[concepts/concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md|web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
-- [[concepts/concepts/writing-content.md|Writing Content]] — ai-saas
-- [[concepts/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md|YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN]] — ai-saas
-- [[concepts/concepts/yitang-course-map.md|yitang-course-map]]
-- [[concepts/concepts/yitang-huazong-ama-by-industry.md|yitang-huazong-ama-by-industry]]
-- [[concepts/concepts/yitang-huazong-ama-summary.md|yitang-huazong-ama-summary]]
-- [[concepts/concepts/yitang-methodology-system.md|yitang-methodology-system]]
-- [[concepts/concepts/yitang-qualitative-to-quantitative.md|一堂·从定性到定量：先证伪、后测量]] — yitang, entrepreneurship, business-strategy
-- [[concepts/concepts/yitang-strategy-canvas.md|战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线]] — yitang
-- [[concepts/concepts/yt-barrier-analysis-cheat-sheet.md|壁垒分析完整cheatsheet]] — yitang
-- [[concepts/concepts/yt-barrier-brand-equity.md|品牌资产：认知与信任]] — Truman
-- [[concepts/concepts/yt-barrier-culture-moat.md|文化护城河：难以复制]] — Truman
-- [[concepts/concepts/yt-barrier-data-assets.md|数据资产：数据网络效应]] — Truman
-- [[concepts/concepts/yt-barrier-defensive-strategy.md|防御策略：守住壁垒]] — Truman
-- [[concepts/concepts/yt-barrier-identification-skill.md|yt-barrier-identification-skill]]
-- [[concepts/concepts/yt-barrier-network-effects-deep.md|网络效应深度：同边、跨边、数据、生态]] — Truman
-- [[concepts/concepts/yt-barrier-offensive-strategy.md|进攻策略：突破竞品壁垒]] — Truman
-- [[concepts/concepts/yt-barrier-regulatory.md|监管壁垒：牌照与合规]] — Truman
-- [[concepts/concepts/yt-barrier-scale-economies.md|规模经济：成本优势]] — Truman
-- [[concepts/concepts/yt-barrier-supply-chain.md|供应链壁垒：资源独占]] — Truman
-- [[concepts/concepts/yt-barrier-switching-costs.md|转换成本：让用户离不开]] — Truman
-- [[concepts/concepts/yt-barrier-talent-density.md|人才密度：组织壁垒]] — Truman
-- [[concepts/concepts/yt-barrier-technology-moat.md|技术护城河：专利与研发]] — Truman
-- [[concepts/concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — yitang
-- [[concepts/concepts/yt-business-formula-l6-essence-formulas.md|yt-business-formula-l6-essence-formulas]]
-- [[concepts/concepts/yt-business-formula-parameter-iceberg.md|业务公式参数冰山（L1-L6）]] — 孔阳
-- [[concepts/concepts/yt-business-formula-six-level-logic.md|业务公式六层逻辑关系（L1 模糊 → L6 动态）]] — 孔阳
-- [[concepts/concepts/yt-business-formula-ten-paradigms.md|yt-business-formula-ten-paradigms]]
-- [[concepts/concepts/yt-business-model-asset-light.md|轻资产模式：资源杠杆]] — Truman
-- [[concepts/concepts/yt-business-model-b2b-pricing.md|B2B定价策略：从SMB到Enterprise]] — Truman
-- [[concepts/concepts/yt-business-model-cash-flow.md|现金流管理：商业模式的血液循环]] — Truman
-- [[concepts/concepts/yt-business-model-competitive-moat.md|商业模式护城河：持续竞争优势]] — Truman
-- [[concepts/concepts/yt-business-model-definition.md|商业模式定义：从内核到变现]] — Truman
-- [[concepts/concepts/yt-business-model-freemium.md|免费增值模式：获客与变现的平衡]] — Truman
-- [[concepts/concepts/yt-business-model-margin-structure.md|毛利率结构分析：钱从哪来，到哪去]] — Truman
-- [[concepts/concepts/yt-business-model-network-effects.md|网络效应：平台型商业模式的核心]] — Truman
-- [[concepts/concepts/yt-business-model-partnership.md|合作伙伴策略：生态与联盟]] — Truman
-- [[concepts/concepts/yt-business-model-pricing-psychology.md|定价心理学：让用户觉得值]] — Truman
-- [[concepts/concepts/yt-business-model-revenue-types.md|收入模式：6种典型变现方式]] — Truman
-- [[concepts/concepts/yt-business-model-subscription.md|订阅制商业模式：从一次性到持续收入]] — Truman
-- [[concepts/concepts/yt-case-mandatory-cases.md|一堂案例必修课]] — yitang
-- [[concepts/concepts/yt-composite-pan-product-methodology.md|yt-composite-pan-product-methodology]]
-- [[concepts/concepts/yt-concept-ai-guard-brain.md|yt-concept-ai-guard-brain]]
-- [[concepts/concepts/yt-concept-context-engineering.md|上下文工程：充分≠越多越好]] — yitang, ai
-- [[concepts/concepts/yt-concept-p-type-l-type.md|P型与L型创业者]] — yitang
-- [[concepts/concepts/yt-concept-peas-insight.md|PEAS核心洞察：决策系统的四槽诊断法]] — master
-- [[concepts/concepts/yt-concept-weapon-arsenal.md|yt-concept-weapon-arsenal]]
-- [[concepts/concepts/yt-customer-acquisition-toolkit.md|获客工具合集]] — yitang
-- [[concepts/concepts/yt-decision-ai-partner.md|yt-decision-ai-partner]]
-- [[concepts/concepts/yt-decision-canvas.md|yt-decision-canvas]]
-- [[concepts/concepts/yt-decision-consensus-iceberg.md|yt-decision-consensus-iceberg]]
-- [[concepts/concepts/yt-decision-depth-ladder.md|深度阶梯工具：L1-L4停车场模型 + 三点预测法]] — yitang
-- [[concepts/concepts/yt-decision-full-process.md|yt-decision-full-process]]
-- [[concepts/concepts/yt-decision-habit-shift.md|yt-decision-habit-shift]]
-- [[concepts/concepts/yt-decision-height-toolkit.md|yt-decision-height-toolkit]]
-- [[concepts/concepts/yt-decision-review.md|yt-decision-review]]
-- [[concepts/concepts/yt-decision-width-method.md|yt-decision-width-method]]
-- [[concepts/concepts/yt-decision-y-model.md|yt-decision-y-model]]
-- [[concepts/concepts/yt-demand-analysis-hiking-map.md|需求分析爬山地图]] — yitang
-- [[concepts/concepts/yt-demand-b2b-vs-b2c.md|ToB vs ToC需求分析差异：决策链、频率与验证方法]] — Truman
-- [[concepts/concepts/yt-demand-hierarchy-model.md|需求层次模型：真需求、伪需求与衍生需求]] — Truman
-- [[concepts/concepts/yt-demand-motivation-resistance.md|需求动机与阻力分析：为什么用户"需要"但"不用"]] — Truman
-- [[concepts/concepts/yt-demand-peak-end-rule.md|峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点]] — Truman
-- [[concepts/concepts/yt-demand-qualitative-analysis.md|需求定性分析框架：拆推评算四步法]] — Truman
-- [[concepts/concepts/yt-demand-user-segmentation.md|用户分层与需求差异：从"所有人"到"第一批100个"]] — Truman
-- [[concepts/concepts/yt-entrepreneur-259-milestone.md|259里程碑]] — yitang
-- [[concepts/concepts/yt-entrepreneur-barriers.md|项目壁垒]] — yitang
-- [[concepts/concepts/yt-entrepreneur-business-growth.md|业务增长]] — yitang
-- [[concepts/concepts/yt-entrepreneur-channel-exploration.md|渠道探索]] — yitang
-- [[concepts/concepts/yt-entrepreneur-concentration-analysis.md|集中度分析]] — yitang
-- [[concepts/concepts/yt-entrepreneur-five-step-method.md|yt-entrepreneur-five-step-method]]
-- [[concepts/concepts/yt-entrepreneur-fundraising.md|融资认知]] — yitang
-- [[concepts/concepts/yt-entrepreneur-growth-flywheel.md|yt-entrepreneur-growth-flywheel]]
-- [[concepts/concepts/yt-entrepreneur-industrial-production.md|工业化生产]] — yitang
-- [[concepts/concepts/yt-entrepreneur-industry-forecast.md|商业预判15字诀]] — yitang
-- [[concepts/concepts/yt-entrepreneur-key-hypotheses.md|yt-entrepreneur-key-hypotheses]]
-- [[concepts/concepts/yt-entrepreneur-lean-validation.md|yt-entrepreneur-lean-validation]]
-- [[concepts/concepts/yt-entrepreneur-liberate-thinking.md|yt-entrepreneur-liberate-thinking]]
-- [[concepts/concepts/yt-entrepreneur-needs-analysis.md|yt-entrepreneur-needs-analysis]]
-- [[concepts/concepts/yt-entrepreneur-opportunity-selection.md|机会选择]] — yitang
-- [[concepts/concepts/yt-entrepreneur-pragmatic-startup.md|务实创业]] — yitang
-- [[concepts/concepts/yt-entrepreneur-product-core.md|产品内核定义、迭代与验证方法论]] — yitang
-- [[concepts/concepts/yt-entrepreneur-research-camp.md|调研行动营：从调研认知到AI调研武器库]] — yitang
-- [[concepts/concepts/yt-entrepreneur-research-cognition.md|yt-entrepreneur-research-cognition]]
-- [[concepts/concepts/yt-entrepreneur-scientific-method.md|Y模型/科学方法]] — yitang
-- [[concepts/concepts/yt-entrepreneur-spin-selling.md|SPIN销售法：顾问式销售的奠基之作]] — yitang
-- [[concepts/concepts/yt-entrepreneur-truth-seeking.md|实事求是]] — yitang
-- [[concepts/concepts/yt-entrepreneur-unit-model.md|yt-entrepreneur-unit-model]]
-- [[concepts/concepts/yt-five-step-common-pitfalls.md|yt-five-step-common-pitfalls]]
-- [[concepts/concepts/yt-five-step-implementation.md|yt-five-step-implementation]]
-- [[concepts/concepts/yt-five-step-level-blindspots.md|暗知识：五步法的段位盲区与自评陷阱]] — yitang
-- [[concepts/concepts/yt-five-step-method.md|yt-five-step-method]]
-- [[concepts/concepts/yt-foresight-15-char-mantra.md|yt-foresight-15-char-mantra]]
-- [[concepts/concepts/yt-foresight-ab-steady-state.md|yt-foresight-ab-steady-state]]
-- [[concepts/concepts/yt-foresight-addition-subtraction.md|加法减法实操：从100个选项到3个高概率方向]] — yitang
-- [[concepts/concepts/yt-foresight-deliverables-four-levels.md|yt-foresight-deliverables-four-levels]]
-- [[concepts/concepts/yt-foresight-model-taxonomy.md|预判模型分类]] — yitang
-- [[concepts/concepts/yt-foresight-probability-engineering.md|yt-foresight-probability-engineering]]
-- [[concepts/concepts/yt-foresight-ten-fatal-flaws.md|十大硬伤：商业机会的致死缺陷清单]] — yitang
-- [[concepts/concepts/yt-growth-acquisition-channels.md|获客渠道：流量获取的6大类型]] — Truman
-- [[concepts/concepts/yt-growth-activation-rate.md|激活率：让用户第一次体验到价值]] — Truman
-- [[concepts/concepts/yt-growth-cycle-model.md|增长周期模型]] — yitang
-- [[concepts/concepts/yt-growth-growth-hacking.md|增长黑客：低成本快速实验]] — Truman
-- [[concepts/concepts/yt-growth-market-led-growth.md|市场驱动增长：MLG模式]] — Truman
-- [[concepts/concepts/yt-growth-monetization-optimization.md|变现优化：从免费到付费]] — Truman
-- [[concepts/concepts/yt-growth-product-led-growth.md|产品驱动增长：PLG模式]] — Truman
-- [[concepts/concepts/yt-growth-sales-led-growth.md|销售驱动增长：SLG模式]] — Truman
-- [[concepts/concepts/yt-growth-user-onboarding.md|用户 onboarding：第一印象设计]] — Truman
-- [[concepts/concepts/yt-growth-viral-mechanism.md|病毒传播：自增长机制设计]] — Truman
-- [[concepts/concepts/yt-lean-daily-probability-decision.md|假设驱动日常决策三问]] — yitang, entrepreneurship, business-strategy
-- [[concepts/concepts/yt-lean-essence.md|一堂张磊版精益测试的本质：用少量试错成本降低系统性风险]] — 张磊
-- [[concepts/concepts/yt-management-basic-skills.md|基本功认知]] — ai-saas, management, yitang
-- [[concepts/concepts/yt-management-business-formula.md|yt-management-business-formula]]
-- [[concepts/concepts/yt-management-company-culture.md|yt-management-company-culture]]
-- [[concepts/concepts/yt-management-conversion-hacking.md|yt-management-conversion-hacking]]
-- [[concepts/concepts/yt-management-finance-basics.md|yt-management-finance-basics]]
-- [[concepts/concepts/yt-management-founder-role.md|一号位]] — ai-saas, management, yitang
-- [[concepts/concepts/yt-management-goal-management.md|目标管理]] — ai-saas, management, yitang
-- [[concepts/concepts/yt-management-leadership-levels.md|管理段位]] — ai-saas, management, kdo, yitang
-- [[concepts/concepts/yt-management-onboarding.md|yt-management-onboarding]]
-- [[concepts/concepts/yt-management-partnership-equity.md|yt-management-partnership-equity]]
-- [[concepts/concepts/yt-management-project-management.md|项目管理]] — product, ai-saas, management, yitang
-- [[concepts/concepts/yt-management-scientific-decision.md|yt-management-scientific-decision]]
-- [[concepts/concepts/yt-management-scientific-hiring.md|yt-management-scientific-hiring]]
-- [[concepts/concepts/yt-management-scientific-meetings.md|科学开会]] — ai-saas, management, yitang
-- [[concepts/concepts/yt-management-strategy-meeting.md|战略会]] — ai-saas, management, decision-making, yitang
-- [[concepts/concepts/yt-management-team-knowledge.md|yt-management-team-knowledge]]
-- [[concepts/concepts/yt-management-toolkit-overview.md|yt-management-toolkit-overview]]
-- [[concepts/concepts/yt-market-size-estimation.md|市场规模估算四种方法]] — yitang
-- [[concepts/concepts/yt-model-aesthetic-progression.md|yt-model-aesthetic-progression]]
-- [[concepts/concepts/yt-model-agent-architecture.md|智能体架构：PEAS与五层Agent模型]] — ai-models
-- [[concepts/concepts/yt-model-cognitive-upgrade-framework.md|认知升级十步框架：从「读书」到「安装认知补丁」]] — master
-- [[concepts/concepts/yt-model-conversion-optimization.md|yt-model-conversion-optimization]]
-- [[concepts/concepts/yt-model-deep-review-iceberg.md|深度复盘冰山图：从主观感受到能力建设的五层穿透]] — yitang
-- [[concepts/concepts/yt-model-deliberate-practice-growth.md|刻意练习十年成长指数：为什么有人一年顶十年]] — yitang
-- [[concepts/concepts/yt-model-dual-triangle-competitiveness.md|yt-model-dual-triangle-competitiveness]]
-- [[concepts/concepts/yt-model-entrepreneur-map.md|yt-model-entrepreneur-map]]
-- [[concepts/concepts/yt-model-five-step-canvas.md|yt-model-five-step-canvas]]
-- [[concepts/concepts/yt-model-ipo-complete-checklist.md|IPO 科学学习完整清单]] — yitang
-- [[concepts/concepts/yt-model-ipo-learning-strategy.md|yt-model-ipo-learning-strategy]]
-- [[concepts/concepts/yt-model-liberate-thinking-layers.md|解放思想五层模型]] — yitang
-- [[concepts/concepts/yt-model-management-map.md|管理修炼地图]] — yitang
-- [[concepts/concepts/yt-model-muse-ai-framework.md|MUSE 人工智能全景图]] — yitang
-- [[concepts/concepts/yt-model-pan-product-36-strategies.md|yt-model-pan-product-36-strategies]]
-- [[concepts/concepts/yt-model-pan-product-aesthetic-toolkit.md|yt-model-pan-product-aesthetic-toolkit]]
-- [[concepts/concepts/yt-model-pan-product-climbing-map.md|yt-model-pan-product-climbing-map]]
-- [[concepts/concepts/yt-model-pan-product-demand-toolkit.md|yt-model-pan-product-demand-toolkit]]
-- [[concepts/concepts/yt-model-pan-product-execution-toolkit.md|yt-model-pan-product-execution-toolkit]]
-- [[concepts/concepts/yt-model-pan-product-three-virtues.md|yt-model-pan-product-three-virtues]]
-- [[concepts/concepts/yt-model-personal-map.md|yt-model-personal-map]]
-- [[concepts/concepts/yt-model-personal-pitch-toolkit.md|yt-model-personal-pitch-toolkit]]
-- [[concepts/concepts/yt-model-prediction-model.md|预判模型：从最糙版到复杂版的三种预判范式]] — yitang
-- [[concepts/concepts/yt-model-product-core-metrics.md|产品内核十大典型指标：从获客到推荐的度量框架]] — yitang
-- [[concepts/concepts/yt-model-product-excellence.md|顶级产品追求：品味、最佳实践与乔布斯的审美哲学]] — yitang
-- [[concepts/concepts/yt-model-progress-map.md|yt-model-progress-map]]
-- [[concepts/concepts/yt-model-prompt-engineering.md|yt-model-prompt-engineering]]
-- [[concepts/concepts/yt-model-questioning-practice-canvas.md|提问刻意练习提升画布]] — yitang
-- [[concepts/concepts/yt-model-scientific-questioning-map.md|科学提问刻意练习地图]] — yitang
-- [[concepts/concepts/yt-model-truman-career-routes.md|楚门的选择：两条职业成长路线 X vs Y]] — yitang
-- [[concepts/concepts/yt-model-truman-five-step-growth.md|Truman的个人成长五步法：用一页纸解释全部人生规划]] — yitang
-- [[concepts/concepts/yt-model-y-organization.md|Y 型创业模型]] — yitang
-- [[concepts/concepts/yt-note-ai-human-division.md|yt-note-ai-human-division]]
-- [[concepts/concepts/yt-note-checklist-concept.md|yt-note-checklist-concept]]
-- [[concepts/concepts/yt-note-deliberate-practice-four-elements.md|四要素诊断模型——刻意练习的笔记落地框架]] — yitang
-- [[concepts/concepts/yt-note-expert-interview-modeling.md|专家访谈式笔记：边聊边建模的高阶认知工作流]] — yitang, personal-growth
-- [[concepts/concepts/yt-note-extensive-research-input.md|广泛涉猎式笔记：以问题为入口的多源交叉认知法]] — yitang, personal-growth
-- [[concepts/concepts/yt-note-fact-pattern-insight.md|事实→规律→见解：深度思考笔记的三段论结构]] — yitang, personal-growth
-- [[concepts/concepts/yt-note-l4-internalization.md|清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃]] — yitang
-- [[concepts/concepts/yt-note-l6-extraction.md|清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品]] — yitang
-- [[concepts/concepts/yt-note-problem-solving-capability.md|笔记能力=解决问题能力：从备忘工具到问题解决系统]] — yitang, personal-growth
-- [[concepts/concepts/yt-panproduct-aesthetic-collection.md|yt-panproduct-aesthetic-collection]]
-- [[concepts/concepts/yt-panproduct-aesthetic-imagination.md|yt-panproduct-aesthetic-imagination]]
-- [[concepts/concepts/yt-panproduct-aesthetic-modeling.md|yt-panproduct-aesthetic-modeling]]
-- [[concepts/concepts/yt-panproduct-aesthetic-pool.md|yt-panproduct-aesthetic-pool]]
-- [[concepts/concepts/yt-panproduct-demand-five-step-method.md|yt-panproduct-demand-five-step-method]]
-- [[concepts/concepts/yt-panproduct-demand-industry-canvas.md|yt-panproduct-demand-industry-canvas]]
-- [[concepts/concepts/yt-panproduct-demand-motivation-resistance.md|yt-panproduct-demand-motivation-resistance]]
-- [[concepts/concepts/yt-panproduct-demand-multi-perspective.md|yt-panproduct-demand-multi-perspective]]
-- [[concepts/concepts/yt-panproduct-demand-need-discovery.md|yt-panproduct-demand-need-discovery]]
-- [[concepts/concepts/yt-panproduct-demand-peak-end-rule.md|yt-panproduct-demand-peak-end-rule]]
-- [[concepts/concepts/yt-panproduct-demand-project-background.md|yt-panproduct-demand-project-background]]
-- [[concepts/concepts/yt-panproduct-demand-scenario-walkthrough.md|yt-panproduct-demand-scenario-walkthrough]]
-- [[concepts/concepts/yt-panproduct-demand-surprise-formula.md|yt-panproduct-demand-surprise-formula]]
-- [[concepts/concepts/yt-panproduct-demand-user-perspective.md|yt-panproduct-demand-user-perspective]]
-- [[concepts/concepts/yt-panproduct-demand-user-segmentation.md|yt-panproduct-demand-user-segmentation]]
-- [[concepts/concepts/yt-panproduct-execution-10x-validation.md|yt-panproduct-execution-10x-validation]]
-- [[concepts/concepts/yt-panproduct-execution-business-modeling.md|yt-panproduct-execution-business-modeling]]
-- [[concepts/concepts/yt-panproduct-execution-core-and-boundary.md|yt-panproduct-execution-core-and-boundary]]
-- [[concepts/concepts/yt-panproduct-execution-design-principles.md|yt-panproduct-execution-design-principles]]
-- [[concepts/concepts/yt-panproduct-execution-good-tools.md|yt-panproduct-execution-good-tools]]
-- [[concepts/concepts/yt-panproduct-execution-hypothesis-decomposition.md|yt-panproduct-execution-hypothesis-decomposition]]
-- [[concepts/concepts/yt-panproduct-execution-idea-spark.md|yt-panproduct-execution-idea-spark]]
-- [[concepts/concepts/yt-panproduct-execution-incubation-polish.md|yt-panproduct-execution-incubation-polish]]
-- [[concepts/concepts/yt-panproduct-execution-liberate-thinking.md|yt-panproduct-execution-liberate-thinking]]
-- [[concepts/concepts/yt-panproduct-execution-logic-mece.md|yt-panproduct-execution-logic-mece]]
-- [[concepts/concepts/yt-panproduct-execution-low-cost-mvp.md|yt-panproduct-execution-low-cost-mvp]]
-- [[concepts/concepts/yt-panproduct-execution-management-trilogy.md|yt-panproduct-execution-management-trilogy]]
-- [[concepts/concepts/yt-panproduct-execution-milestone-breakdown.md|yt-panproduct-execution-milestone-breakdown]]
-- [[concepts/concepts/yt-panproduct-execution-realistic-simulation.md|yt-panproduct-execution-realistic-simulation]]
-- [[concepts/concepts/yt-panproduct-execution-review-iteration.md|yt-panproduct-execution-review-iteration]]
-- [[concepts/concepts/yt-panproduct-execution-risk-management.md|yt-panproduct-execution-risk-management]]
-- [[concepts/concepts/yt-panproduct-execution-roi-analysis.md|yt-panproduct-execution-roi-analysis]]
-- [[concepts/concepts/yt-panproduct-execution-war-room.md|yt-panproduct-execution-war-room]]
-- [[concepts/concepts/yt-personal-ai-capability.md|yt-personal-ai-capability]]
-- [[concepts/concepts/yt-personal-ai-thinking-card.md|AI思维卡：从「读书」到「安装认知补丁」]] — personal-methods
-- [[concepts/concepts/yt-personal-checklist-notes.md|清单体笔记（一堂笔记法）]] — yitang
-- [[concepts/concepts/yt-personal-deep-review.md|yt-personal-deep-review]]
-- [[concepts/concepts/yt-personal-deliberate-practice.md|科学成长（刻意练习）]] — yitang
-- [[concepts/concepts/yt-personal-inspiration-flash.md|灵感闪现（认知篇）]] — yitang
-- [[concepts/concepts/yt-personal-ipo-learning.md|yt-personal-ipo-learning]]
-- [[concepts/concepts/yt-personal-knowledge-extraction.md|yt-personal-knowledge-extraction]]
-- [[concepts/concepts/yt-personal-knowledge-management.md|知识管理]] — yitang
-- [[concepts/concepts/yt-personal-pan-product-02.md|yt-personal-pan-product-02]]
-- [[concepts/concepts/yt-personal-pan-product-aesthetics.md|yt-personal-pan-product-aesthetics]]
-- [[concepts/concepts/yt-personal-pan-product-concepts.md|yt-personal-pan-product-concepts]]
-- [[concepts/concepts/yt-personal-pan-product-exploration.md|yt-personal-pan-product-exploration]]
-- [[concepts/concepts/yt-personal-pan-product-practice.md|yt-personal-pan-product-practice]]
-- [[concepts/concepts/yt-personal-pan-product-tools.md|yt-personal-pan-product-tools]]
-- [[concepts/concepts/yt-personal-product-design.md|泛产品设计]] — yitang
-- [[concepts/concepts/yt-personal-scientific-expression.md|yt-personal-scientific-expression]]
-- [[concepts/concepts/yt-personal-thinking-models.md|思维模型：从碎片经验到稳定模型]] — yitang
-- [[concepts/concepts/yt-personal-time-management.md|时间管理]] — yitang
-- [[concepts/concepts/yt-personal-verbatim-script.md|逐字稿]] — yitang
-- [[concepts/concepts/yt-personal-y-model-exploration-2.md|yt-personal-y-model-exploration-2]]
-- [[concepts/concepts/yt-personal-y-model-practice.md|Y模型实操：科学成事的底层操作系统]] — yitang
-- [[concepts/concepts/yt-pitch-aphorism.md|yt-pitch-aphorism]]
-- [[concepts/concepts/yt-pitch-colloquialization.md|yt-pitch-colloquialization]]
-- [[concepts/concepts/yt-pitch-conflict.md|yt-pitch-conflict]]
-- [[concepts/concepts/yt-pitch-emotionalization.md|yt-pitch-emotionalization]]
-- [[concepts/concepts/yt-pitch-materialization.md|yt-pitch-materialization]]
-- [[concepts/concepts/yt-pitch-scenarization.md|yt-pitch-scenarization]]
-- [[concepts/concepts/yt-pitch-sublimation.md|yt-pitch-sublimation]]
-- [[concepts/concepts/yt-product-kernel-add-subtract.md|产品内核的加减法：什么该加，什么该减]] — Truman
-- [[concepts/concepts/yt-product-kernel-aesthetic.md|产品内核与审美：从"好用"到"美好"]] — Truman
-- [[concepts/concepts/yt-product-kernel-boundary.md|内核与边界：什么该做，什么不该做]] — Truman
-- [[concepts/concepts/yt-product-kernel-competitive-positioning.md|内核竞争定位：差异化策略]] — Truman
-- [[concepts/concepts/yt-product-kernel-cultivation.md|产品内核修炼段位图]] — yitang
-- [[concepts/concepts/yt-product-kernel-definition.md|产品内核定义：用户愿意选择你的最小解决方案]] — Truman
-- [[concepts/concepts/yt-product-kernel-evolution.md|内核演化：从V1到Vn]] — Truman
-- [[concepts/concepts/yt-product-kernel-key-conversion.md|关键转化率：产品内核的北极星指标]] — Truman
-- [[concepts/concepts/yt-product-kernel-user-perspective.md|用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"]] — Truman
-- [[concepts/concepts/yt-product-ten-metrics.md|产品内核十大典型指标]] — yitang
-- [[concepts/concepts/yt-prompt-anti-flattery.md|反谄媚机制：让AI说真话]] — yitang, ai
-- [[concepts/concepts/yt-prompt-brainstorming.md|AI头脑风暴工作流]] — yitang, ai
-- [[concepts/concepts/yt-prompt-engineering-andrew-ng.md|yt-prompt-engineering-andrew-ng]]
-- [[concepts/concepts/yt-prompt-iterative-prompting.md|迭代式提示词工作流（5步法）]] — yitang, ai
-- [[concepts/concepts/yt-prompt-writing-workflow.md|AI写作工作流：大纲→要点→全文]] — yitang, ai
-- [[concepts/concepts/yt-research-action-camp-launch.md|一堂调研行动营 · 启动课（LLM 精炼）]] — yitang
-- [[concepts/concepts/yt-research-competitor-toolkit.md|竞品拆解工具包：三层分类+内核边界+单元模型对标]] — yitang
-- [[concepts/concepts/yt-research-expert-interview.md|专家访谈工具：2小时获取行业共识的标准流程]] — yitang
-- [[concepts/concepts/yt-research-hypothesis-test.md|假设验证调研工具：关键假设→可证伪问题→最小实验]] — yitang
-- [[concepts/concepts/yt-research-industry-canvas.md|行业分析画布：五维快速扫描+二维定位]] — yitang
-- [[concepts/concepts/yt-research-intelligence-map.md|情报获取全景地图：13+渠道穷尽手段]] — yitang
-- [[concepts/concepts/yt-research-mindset.md|调研认知升级：从"找答案"到"拆解假设"]] — yitang
-- [[concepts/concepts/yt-research-osl-framework.md|OSL调研五步法：一堂通用商业调研框架]] — yitang
-- [[concepts/concepts/yt-research-user-jtbd.md|用户JTBD访谈工具：区分"说的"和"真正要的"]] — yitang
-- [[concepts/concepts/yt-research-weaponry-course.md|一堂调研武器库课程]] — yitang
-- [[concepts/concepts/yt-scale-economy-weapon-library.md|规模经济分析武器库]] — yitang
-- [[concepts/concepts/yt-skill-checklist-as-ai-protocol.md|清单体作为AI的I/O协议——用笔记替代prompt工程]] — yitang
-- [[concepts/concepts/yt-skill-p-role-prompt-design.md|P 角色 Prompt 设计——执行者型 AI 的交付规范]] — yitang
-- [[concepts/concepts/yt-skill-storyline-contrast-analysis.md|清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度]] — yitang
-- [[concepts/concepts/yt-skill-storyline-key-elements.md|清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的']] — yitang
-- [[concepts/concepts/yt-skill-storyline-problem-solving.md|清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链]] — yitang
-- [[concepts/concepts/yt-skill-storyline-target-tradeoff.md|清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架]] — yitang
-- [[concepts/concepts/yt-skill-storyline-timeline.md|清单体故事线①：严格时间线——用时间轴重构事件因果链]] — yitang
-- [[concepts/concepts/yt-system-course-catalog.md|一堂全课程目录索引]] — yitang
-- [[concepts/concepts/yt-system-course-map-lecture.md|一堂课程地图精华串讲]] — yitang
-- [[concepts/concepts/yt-tob-cash-flow.md|To B 现金流管理：自由现金流比账面利润更重要]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/concepts/yt-tob-revenue-is-customer-cost.md|To B 收入本质 = 客户成本]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/concepts/yt-tob-sales-unit-model.md|yt-tob-sales-unit-model]]
-- [[concepts/concepts/yt-tool-best-practice-learning.md|yt-tool-best-practice-learning]]
-- [[concepts/concepts/yt-tool-fab-persuasion.md|yt-tool-fab-persuasion]]
-- [[concepts/concepts/yt-tool-foresight-canvas.md|yt-tool-foresight-canvas]]
-- [[concepts/concepts/yt-tool-knowledge-extraction.md|团队知识萃取器]] — yitang
-- [[concepts/concepts/yt-tool-mental-model-refinement.md|yt-tool-mental-model-refinement]]
-- [[concepts/concepts/yt-tool-peas-agent-analysis.md|PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统]] — master
-- [[concepts/concepts/yt-tool-product-core-canvas.md|yt-tool-product-core-canvas]]
-- [[concepts/concepts/yt-tool-y-model-ruler.md|yt-tool-y-model-ruler]]
-- [[concepts/concepts/yt-unit-model-ai-assisted.md|AI+单元模型：TCP-R双导师与出口式咨询实践]] — entrepreneur, master, ai
-- [[concepts/concepts/yt-unit-model-benchmark.md|单元模型基准值：科学类比、三点预测与基准值共建]] — entrepreneur, master
-- [[concepts/concepts/yt-unit-model-build.md|yt-unit-model-build]]
-- [[concepts/concepts/yt-unit-model-concept.md|yt-unit-model-concept]]
-- [[concepts/concepts/yt-unit-model-construction.md|单元模型构建法：拆推评算与ABCD模型分类]] — entrepreneur, master
-- [[concepts/concepts/yt-unit-model-dynamic.md|动态单元模型：规模变量、拐点预判与规模经济对抗]] — entrepreneur, master
-- [[concepts/concepts/yt-unit-model-selection.md|yt-unit-model-selection]]
-- [[concepts/concepts/yt-unit-model-three-tools.md|单元模型三工具：斧子尺子梯子]] — yitang
-- [[concepts/concepts/互联网医院模式深度调研报告.md|互联网医院模式深度调研报告]]
-- [[concepts/concepts/人机协作决策-双三角模型.md|人机协作决策-双三角模型]]
-- [[concepts/concepts/保达云诊所深度调研报告.md|保达云诊所深度调研报告]] — healthcare
-- [[concepts/concepts/在设计小伙伴的反馈还挺好的.md|在设计小伙伴的反馈还挺好的。]] — ai-saas
-- [[concepts/concepts/存储策略.md|存储策略]] — master
-- [[concepts/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md|学会提问在信息洪流中锻造批判性思维的利刃]]
-- [[concepts/concepts/开源HIS系统代码深度分析报告.md|开源HIS系统代码深度分析报告]] — healthcare
-- [[concepts/concepts/数据标注维度最佳实践调研报告.md|数据标注维度最佳实践调研报告]] — kdo, ai-saas, design
-- [[concepts/concepts/紫鲸ai智能体工作流平台.md|紫鲸AI智能体工作流平台]] — ai-saas
-- [[concepts/concepts/老朱的水感-2026年5月.md|老朱的水感 — 2026年5月]] — ai-saas
-- [[concepts/concepts/街顺app全面调研报告.md|街顺APP全面调研报告]] — healthcare
-- [[concepts/concepts/视觉prompt三层操作系统-srom-visual-os.md|视觉Prompt三层操作系统 (SROM Visual OS)]] — ai-saas, design
-- [[concepts/concepts/诊所o2o外卖平台业务深度调研报告.md|诊所o2o外卖平台业务深度调研报告]]
-- [[concepts/concepts/轻量级诊所HIS调研全清单.md|轻量级诊所HIS调研全清单]] — healthcare
-- [[concepts/concepts/那今天不会.md|那今天不会。]] — ai-saas
-- [[concepts/concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾his系统分阶段整改报告]]
-- [[concepts/dark-knowledges/dk-ai-entrepreneur-technical-blindspot.md|暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个']] — 一堂
-- [[concepts/dark-knowledges/dk-ai-judgment-human-responsibility.md|人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果]] — ai-saas, yitang
-- [[concepts/dark-knowledges/dk-ai-judgment-programmer-paradox.md|程序员的AI悖论：写AI工具的人最晚享受到AI红利]] — ai-saas, yitang
-- [[concepts/dark-knowledges/dk-ban-fei-mao-atomic-no-standard.md|暗知识：原子化没有固定标准]] — 半肥猫
-- [[concepts/dark-knowledges/dk-ban-fei-mao-real-business-is-the-engine.md|暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁]] — 半肥猫
-- [[concepts/dark-knowledges/dk-ban-fei-mao-silky-answer-warning.md|暗知识：AI 回答越丝滑，问题越大]] — 半肥猫
-- [[concepts/dark-knowledges/dk-ban-fei-mao-silky-answers-are-dangerous.md|暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱]] — 半肥猫
-- [[concepts/dark-knowledges/dk-ban-fei-mao-skill-rejection-value.md|暗知识：Skill 的最大价值不是生成，是拒绝]] — 半肥猫
-- [[concepts/dark-knowledges/dk-c1-cjk-regex-silent-fail.md|C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败]] — Builder
-- [[concepts/dark-knowledges/dk-c10-batch-tool-no-dry-run.md|dk-c10-batch-tool-no-dry-run]]
-- [[concepts/dark-knowledges/dk-c11-hongqigong-skip-review.md|dk-c11-hongqigong-skip-review]]
-- [[concepts/dark-knowledges/dk-c2-dual-status-machine.md|C-2：Schema status 字段混用两个状态机→字段值互相污染]] — Builder
-- [[concepts/dark-knowledges/dk-c3-txt-ingest-skip.md|C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功]] — Builder
-- [[concepts/dark-knowledges/dk-c4-selfcheck-superseded.md|dk-c4-selfcheck-superseded]]
-- [[concepts/dark-knowledges/dk-c5-todo-false-positive.md|dk-c5-todo-false-positive]]
-- [[concepts/dark-knowledges/dk-c6-large-source-overflow.md|dk-c6-large-source-overflow]]
-- [[concepts/dark-knowledges/dk-c7-auto-backup-conflict.md|dk-c7-auto-backup-conflict]]
-- [[concepts/dark-knowledges/dk-c8-format-complete-mind-empty.md|dk-c8-format-complete-mind-empty]]
-- [[concepts/dark-knowledges/dk-c9-batch-trigger-garbage.md|dk-c9-batch-trigger-garbage]]
-- [[concepts/dark-knowledges/dk-decision-value-overrides-roi.md|Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用]] — 黄药师、老朱
-- [[concepts/dark-knowledges/dk-demand-feature-stacking.md|功能堆叠陷阱：加功能≠满足需求]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-hidden-need.md|隐性需求伪装：用户说的≠用户要的]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-misjudgment-rate.md|30-50%创业失败源于需求误判]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-dialer.md|踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-financial-literacy.md|踩坑：少儿财商——刚性误判。用户说重要≠会付费]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-indonesia-insurance.md|踩坑：印尼寿险——场景错配。Situation变了，需求不存在]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-restaurant-hiring.md|踩坑：麦家小馆——频次高估。需求强烈≠高频]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-rural-5g.md|踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-tier4-housekeeping.md|踩坑：四线家政——天花板误判。普遍性高≠能做大]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-pitfall-travel-agent.md|踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-premature-solution.md|过早进入解决方案空间——冰山模型的根本价值]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-demand-switching-cost.md|新体验-旧体验-切换成本=产品价值]] — yitang, five-step-method
-- [[concepts/dark-knowledges/dk-ef-001-sn74lvc2g07-open-drain.md|开漏输出的陷阱：上拉电阻太大导致信号边沿变缓]] — 黄药师
-- [[concepts/dark-knowledges/dk-ef-002-bom-version-async.md|BOM 多版本不同步：你手里的文件和产线手里的不是同一份]] — 黄药师
-- [[concepts/dark-knowledges/dk-ef-003-hand-soldering-bom-divergence.md|手焊板的隐性修改：原型调通了但量产就是不行]] — 黄药师
-- [[concepts/dark-knowledges/dk-ef-004-missing-diagnostic-firmware.md|没有诊断固件就是盲调：你不知道信号卡在哪一级]] — 黄药师
-- [[concepts/dark-knowledges/dk-f1-regex-on-cjk.md|F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched]] — system
-- [[concepts/dark-knowledges/dk-f10-broken-source-refs.md|dk-f10-broken-source-refs]]
-- [[concepts/dark-knowledges/dk-f11-encyclopedia-style.md|F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景]] — system
-- [[concepts/dark-knowledges/dk-f12-builder-context-deadlock.md|dk-f12-builder-context-deadlock]]
-- [[concepts/dark-knowledges/dk-f13-handwritten-yaml-parser.md|F-KDO-013：手写 YAML 解析器导致嵌套数据丢失]] — system
-- [[concepts/dark-knowledges/dk-f14-accuracy-measurement-mismatch.md|F-KDO-014：准确率声明的测量口径不一致]] — system
-- [[concepts/dark-knowledges/dk-f2-txt-ingest-skip.md|F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功]] — system
-- [[concepts/dark-knowledges/dk-f3-state-json-race-condition.md|dk-f3-state-json-race-condition]]
-- [[concepts/dark-knowledges/dk-f4-wrong-workdir.md|dk-f4-wrong-workdir]]
-- [[concepts/dark-knowledges/dk-f5-stale-feedback-ref.md|dk-f5-stale-feedback-ref]]
-- [[concepts/dark-knowledges/dk-f6-cjk-skeleton-corruption.md|dk-f6-cjk-skeleton-corruption]]
-- [[concepts/dark-knowledges/dk-f7-surface-translation.md|dk-f7-surface-translation]]
-- [[concepts/dark-knowledges/dk-f8-phony-wikilink.md|dk-f8-phony-wikilink]]
-- [[concepts/dark-knowledges/dk-f9-generic-critique.md|dk-f9-generic-critique]]
-- [[concepts/dark-knowledges/dk-five-step-framework-legitimizes-bias.md|暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析]] — Truman
-- [[concepts/dark-knowledges/dk-foresight-source-material-blindness.md|暗知识：素材命名不一致导致完整口述稿被遗漏]] — yitang
-- [[concepts/dark-knowledges/dk-foresight-tier-skip-illusion.md|暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快]] — yitang, business-strategy
-- [[concepts/dark-knowledges/dk-fundamentals-before-advanced-ops.md|基本功未内化就强上高阶操作——高阶工具失效的头号根因]] — Truman / 纪浩 / 老朱
-- [[concepts/dark-knowledges/dk-infrastructure-guardrails-over-checklist.md|dk-infrastructure-guardrails-over-checklist]]
-- [[concepts/dark-knowledges/dk-jh-llm-time-blindness.md|LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别]] — ai-saas
-- [[concepts/dark-knowledges/dk-ji-hao-ai-cant-design-structure.md|暗知识：AI不会自己搞结构设计]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-constraint-beats-talent.md|暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-logs-fastest-ignored.md|暗知识：日志增长最快但最容易被忽视]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-newbie-can-validate.md|暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-novice-mindset-advantage.md|暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-pdca-starts-from-do.md|暗知识：PDCA从Do开始不是从Plan开始]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-problem-vs-question.md|暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem]] — 纪浩
-- [[concepts/dark-knowledges/dk-ji-hao-simple-complex-routing.md|暗知识：简单系统跳过导诊台，复杂系统必须路由]] — 纪浩
-- [[concepts/dark-knowledges/dk-kdo-leaky-pipe-pressure.md|暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死]] — 黄药师
-- [[concepts/dark-knowledges/dk-level-blindspot-external-feedback.md|暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法]] — Truman
-- [[concepts/dark-knowledges/dk-lz-ai-native-organization.md|AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足]] — ai-saas, business-strategy
-- [[concepts/dark-knowledges/dk-lz-code-is-disposable.md|代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产]] — 老朱
-- [[concepts/dark-knowledges/dk-mckinsey-hypothesis-driven-pitfalls.md|dk-mckinsey-hypothesis-driven-pitfalls]]
-- [[concepts/dark-knowledges/dk-modeling-ai-compound-leverage.md|AI 加杠杆最大的场景是建模，因为好模型会被反复调用]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-ai-cross-validation.md|拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-ai-iterative-prompting.md|AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-ai-judgment-limit.md|AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-ai-self-retrospection.md|AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-ai-without-judgment.md|dk-modeling-ai-without-judgment]]
-- [[concepts/dark-knowledges/dk-modeling-business-visual-logic-match.md|dk-modeling-business-visual-logic-match]]
-- [[concepts/dark-knowledges/dk-modeling-case-explosion-confidence.md|案例大爆炸的底气：来自销冠广场，不是胆子大]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-checklist-formatting-rules.md|dk-modeling-checklist-formatting-rules]]
-- [[concepts/dark-knowledges/dk-modeling-counterexample-driven.md|dk-modeling-counterexample-driven]]
-- [[concepts/dark-knowledges/dk-modeling-course-rnd-ripe-fruit.md|dk-modeling-course-rnd-ripe-fruit]]
-- [[concepts/dark-knowledges/dk-modeling-essence-predictive.md|'解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-expert-consensus-five-percent.md|5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-explanatory-vs-predictive-essence.md|解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-logical-cleanliness-root.md|dk-modeling-logical-cleanliness-root]]
-- [[concepts/dark-knowledges/dk-modeling-model-arsenal-paradigms.md|99% 的模型跑不出二三十个范式：先装武器库再创新]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-question-scaffold-not-answer.md|模型是提问的脚手架，不是答案]] — yitang, modeling, business-strategy
-- [[concepts/dark-knowledges/dk-modeling-radar-model-not-result.md|复杂评选别让 CEO 拍结果，只让 CEO 审模型]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-sop-execution-locks.md|SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-timely-review-session-window.md|离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内]] — Truman
-- [[concepts/dark-knowledges/dk-modeling-unit-pairs-milestone.md|里程碑不是任务清单，是"成对单元模型"拼出来的]] — Truman
-- [[concepts/dark-knowledges/dk-my-ai-landing-three-barriers.md|AI落地三大壁垒：从"会用"到"用好"的黑洞]] — ai-saas
-- [[concepts/dark-knowledges/dk-note-maximum-common-divisor.md|清单体是人与AI的'最大公约数'：结构降级即认知升级]] — Truman
-- [[concepts/dark-knowledges/dk-note-rookie-disaster-veteran-heaven.md|“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机]] — Truman
-- [[concepts/dark-knowledges/dk-note-surplus-brainpower.md|“剩余脑力”：高阶笔记的唯一货币与分水岭]] — Truman
-- [[concepts/dark-knowledges/dk-p1-model-switch-env.md|dk-p1-model-switch-env]]
-- [[concepts/dark-knowledges/dk-p10-oral-ban.md|dk-p10-oral-ban]]
-- [[concepts/dark-knowledges/dk-p11-regex-cutoff.md|dk-p11-regex-cutoff]]
-- [[concepts/dark-knowledges/dk-p13-token-burn.md|dk-p13-token-burn]]
-- [[concepts/dark-knowledges/dk-p14-zombie.md|dk-p14-zombie]]
-- [[concepts/dark-knowledges/dk-p15-unverified.md|dk p15 unverified]] — product
-- [[concepts/dark-knowledges/dk-p16-validate-reads-state-json.md|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — system
-- [[concepts/dark-knowledges/dk-p17-accuracy-gap.md|P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度]] — system
-- [[concepts/dark-knowledges/dk-p18-yaml-parser.md|dk-p18-yaml-parser]]
-- [[concepts/dark-knowledges/dk-p19-quote-yaml.md|dk-p19-quote-yaml]]
-- [[concepts/dark-knowledges/dk-p2-tmux-cache.md|P-2：tmux session 缓存旧配置]] — system
-- [[concepts/dark-knowledges/dk-p20-bigram-fail.md|dk-p20-bigram-fail]]
-- [[concepts/dark-knowledges/dk-p3-auth-cache.md|P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env]] — system
-- [[concepts/dark-knowledges/dk-p4-batch-format-empty.md|P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)]] — system
-- [[concepts/dark-knowledges/dk-p5-cc-connect-config.md|dk-p5-cc-connect-config]]
-- [[concepts/dark-knowledges/dk-p6-session-resume-fail.md|dk-p6-session-resume-fail]]
-- [[concepts/dark-knowledges/dk-p7-ocr-skip.md|dk-p7-ocr-skip]]
-- [[concepts/dark-knowledges/dk-p8-toolkit-forget.md|dk-p8-toolkit-forget]]
-- [[concepts/dark-knowledges/dk-p9-glob-miss.md|dk-p9-glob-miss]]
-- [[concepts/dark-knowledges/dk-pseudo-demand-trap.md|暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地]] — yitang, business-strategy
-- [[concepts/dark-knowledges/dk-signal-cluster-illusion.md|暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕]] — yitang, ai
-- [[concepts/dark-knowledges/dk-skill-market-agent-self-install.md|暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述]] — 纪浩
-- [[concepts/dark-knowledges/dk-small-format-error-cascades-to-system-failure.md|dk-small-format-error-cascades-to-system-failure]]
-- [[concepts/dark-knowledges/dk-state-residue-is-the-silent-killer.md|dk-state-residue-is-the-silent-killer]]
-- [[concepts/dark-knowledges/dk-strategy-01-not-goal-setting.md|战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-02-three-paradoxes.md|战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-03-advantage-temporary.md|竞争优势难持久。30年前500强90%已消失——竞争优势≠永久]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-04-consulting-trap.md|战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-05-positioning-trap.md|定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-06-dividend-to-strategy.md|过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-07-strategy-vs-dividend.md|战略驱动 vs 红利驱动：前者创造路径，后者依赖环境]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-08-not-local-optimum.md|战略≠局部优化。战略是构建完整生态系统，不是单点提效]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-consulting-jokes.md|战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-essence-four-elements.md|战略内核四要素：细分市场+竞争优势+资源配置+范围经济]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-longzhong-four-failures.md|隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了]] — strategy
-- [[concepts/dark-knowledges/dk-strategy-three-must-do-moments.md|三种必做战略的时刻：快速扩张/业务平台期/行业下行期]] — strategy
-- [[concepts/dark-knowledges/dk-tool-as-answer-trap.md|把工具/框架当成答案，而不是提问的脚手架]] — 张磊 / Truman / 徐剑
-- [[concepts/dark-knowledges/dk-tool-as-phased-validator.md|把 AI/工具当成分阶段校验器，而不是一次性生成器]] — yitang, ai-collaboration, product, modeling
-- [[concepts/dark-knowledges/dk-tool-chain-naming-is-infrastructure.md|dk-tool-chain-naming-is-infrastructure]]
-- [[concepts/dark-knowledges/dk-truman-document-is-real-project-is-fake.md|文档是真的，项目是假的——面向过去建模型，面向未来解决问题]] — Truman
-- [[concepts/dark-knowledges/dk-truman-flag-note-taking.md|立flag记笔法：用量化目标倒逼笔记中的真实思考量]] — Truman
-- [[concepts/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md|迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则]] — product-design, yitang
-- [[concepts/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md|知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"]] — Truman
-- [[concepts/dark-knowledges/dk-wanghuan-agent-platform-director-mode.md|王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-ai-lifts-personal-ceiling.md|王欢暗知识：AI 拉升个人上限]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-creativity-in-description-and-taste.md|王欢暗知识：创造力重新分配到问题描述与验收审美]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-magic-defeats-magic.md|王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-output-equals-standard-times-iteration.md|王欢暗知识：输出质量 = 标准 × 迭代]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-paced-sales-decision.md|暗知识：复制销冠不是复制话术——是还原决策链]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-spec-trap.md|王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-standard-by-iteration.md|王欢暗知识：标准不清时，用AI对抗AI生成标准]] — 王欢
-- [[concepts/dark-knowledges/dk-wanghuan-tacit-decision-extraction-cross-domain.md|王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售]] — 王欢
-- [[concepts/dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md|暗知识：一堂真正的增长引擎是'周对周的建模能力增长']] — Truman
-- [[concepts/dark-knowledges/dk-yb1-aigc-mvp-before-ps.md|设计师AIGC工作流：先跑MVP再开PS]] — 月白
-- [[concepts/dark-knowledges/dk-yb10-theory-moat-designer.md|AI时代设计师的理论护城河]] — 月白
-- [[concepts/dark-knowledges/dk-yb11-visual-book-reverse.md|dk-yb11-visual-book-reverse]]
-- [[concepts/dark-knowledges/dk-yb12-ai-image-analysis-replace-training.md|AI图像分析替代模型训练：快速提取参考图共性]] — 月白
-- [[concepts/dark-knowledges/dk-yb13-zero-shot-style-transfer.md|零训练风格迁移：三要素描述法]] — 月白
-- [[concepts/dark-knowledges/dk-yb14-multi-image-commonality.md|AI生图：用多图共性替代语言描述]] — 月白
-- [[concepts/dark-knowledges/dk-yb15-reverse-image-description.md|AI逆向反推图片描述法]] — 月白
-- [[concepts/dark-knowledges/dk-yb16-ecommerce-product-image-vs-lucky-draw.md|AI电商产品图：抽卡图≠产品图，白底图才是交付标准]] — 月白
-- [[concepts/dark-knowledges/dk-yb17-product-lifestyle-photography.md|产品场景化拍摄：从商品到生活方式的升维]] — 月白
-- [[concepts/dark-knowledges/dk-yb18-small-shop-image-mismatch.md|dk-yb18-small-shop-image-mismatch]]
-- [[concepts/dark-knowledges/dk-yb19-visual-strategy-price-match.md|dk-yb19-visual-strategy-price-match]]
-- [[concepts/dark-knowledges/dk-yb2-llm-muddy-clear-muddy.md|大模型训练本质：浑水→清水→浑水的双向转换]] — 月白
-- [[concepts/dark-knowledges/dk-yb20-ai-eye-high-principle.md|AIGC眼高原则：审美先于技术]] — 月白
-- [[concepts/dark-knowledges/dk-yb21-ecommerce-pricing-independent-model.md|电商定价：线上价格带需独立建模]] — 月白
-- [[concepts/dark-knowledges/dk-yb22-visual-presentation-scene-match.md|视觉呈现方式与消费场景的匹配原则]] — 月白
-- [[concepts/dark-knowledges/dk-yb23-ai-pre-screen-three-minutes.md|dk-yb23-ai-pre-screen-three-minutes]]
-- [[concepts/dark-knowledges/dk-yb24-ai-poster-de-ai-feeling.md|AI海报去AI感：图标+质感人物双要素]] — 月白
-- [[concepts/dark-knowledges/dk-yb25-solution-driven-visual-design.md|解决方案驱动视觉设计，非门店风格导向]] — 月白
-- [[concepts/dark-knowledges/dk-yb26-chinese-food-photography-props.md|中式食物摄影低成本氛围道具搭配]] — 月白
-- [[concepts/dark-knowledges/dk-yb27-pseudo-layer-evasion.md|伪图层叠加规避平台图像识别]] — 月白
-- [[concepts/dark-knowledges/dk-yb28-prompt-expiration-management.md|提示词有效期预期管理]] — 月白
-- [[concepts/dark-knowledges/dk-yb29-prompt-migrate-copy-first.md|AIGC提示词迁移：先照搬再微调的务实策略]] — 月白
-- [[concepts/dark-knowledges/dk-yb3-diffusion-stepwise-vs-human-holistic.md|AI生图'抽卡'本质：逐步拆解 vs 人类整体构思]] — 月白
-- [[concepts/dark-knowledges/dk-yb30-ecommerce-channel-version.md|dk-yb30-ecommerce-channel-version]]
-- [[concepts/dark-knowledges/dk-yb31-style-first-controlnet.md|AI绘图工作流：先锁风格再开ControlNet]] — 月白
-- [[concepts/dark-knowledges/dk-yb32-doubao-size-composition.md|豆包AIGC生图：尺寸是唯一关键排版影响因素]] — 月白
-- [[concepts/dark-knowledges/dk-yb4-nano-banana-style-reproduction.md|Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o]] — 月白
-- [[concepts/dark-knowledges/dk-yb5-style-asset-archive.md|AI绘图降本的前提：风格资产工程化归档]] — 月白
-- [[concepts/dark-knowledges/dk-yb6-midjourney-chinese-text-fix.md|Midjourney中文文字修复极简提示词]] — 月白
-- [[concepts/dark-knowledges/dk-yb7-design-demand-80-10-10.md|中国设计需求的80-10-10分层法则]] — 月白
-- [[concepts/dark-knowledges/dk-yb8-file-naming-eight-elements.md|AI增效前置：文件命名八要素体系]] — 月白
-- [[concepts/dark-knowledges/dk-yb9-cubox-deployment-failure.md|Cubox及AI协作工具的团队部署失败模式]] — 月白
-- [[concepts/dark-knowledges/dk-yi-tang-wishful-thinking-kills-startups.md|暗知：'愿望思维'是创业最大的陷阱]] — 一堂·Truman
-- [[concepts/dark-knowledges/dk-yitang-business-formula-plus-times-trap.md|dk-yitang-business-formula-plus-times-trap]]
-- [[concepts/dark-knowledges/yt-business-model-pivot-signals.md|商业模式转型信号：何时该 pivot]] — Truman
-- [[concepts/dark-knowledges/yt-demand-competitive-displacement.md|需求替代陷阱：竞品不是敌人，替代方案才是]] — Truman
-- [[concepts/dark-knowledges/yt-demand-fake-demand-detection.md|伪需求识别：7个危险信号]] — Truman
-- [[concepts/dark-knowledges/yt-demand-market-size-pitfalls.md|市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"]] — Truman
-- [[concepts/dark-knowledges/yt-demand-scope-creep.md|需求蔓延：从MVP到全功能的陷阱]] — Truman
-- [[concepts/dark-knowledges/yt-growth-scaling-pitfalls.md|增长规模化陷阱]] — Truman
-- [[concepts/dark-knowledges/yt-note-ai-p-role-not-c-role.md|AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考]] — Truman
-- [[concepts/dark-knowledges/yt-note-p-c-role-boundary-realworld.md|P/C 角色真实场景边界与切换条件（基于聊天记录案例）]] — Truman
-- [[concepts/dark-knowledges/yt-note-three-level-evolution.md|碎片化→结构化→体系化：笔记认知的三级进化跃迁]] — Truman
-- [[concepts/dark-knowledges/yt-product-kernel-do-without-belief.md|"做而不信"陷阱：执行了流程，但不相信结果]] — Truman
-- [[concepts/dark-knowledges/yt-product-kernel-failure-modes.md|产品内核失败的5种模式]] — Truman
-- [[concepts/dark-knowledges/yt-product-kernel-premature-optimization.md|过早细化陷阱：在验证前追求完美]] — Truman
-- [[concepts/dk/dk-yitang-ai-research-prompt-craft.md|AI调研效果取决于问题拆解和人工判断——不是提示词技巧]] — yitang, research, ai-collaboration
-- [[concepts/dk/dk-yitang-cross-case-pattern-failure-premium.md|跨案例模式：失败者溢价——研究失败比研究成功的信息价值高10倍]] — yitang, research
-- [[concepts/dk/dk-yitang-cross-case-pattern-identity-escalation.md|跨案例模式：多重身份交叉验证——同一问题用3个以上身份从不同角度验证]] — yitang, research
-- [[concepts/dk/dk-yitang-digging-belief.md|破案式深挖的信念]] — yitang, research
-- [[concepts/dk/dk-yitang-expert-interview-5-traps.md|专家访谈五大陷阱]] — yitang, research
-- [[concepts/dk/dk-yitang-public-info-is-enough.md|多数情报可通过公开信息深挖获得]] — yitang, research
-- [[concepts/dk/dk-yitang-research-ai-hallucination.md|AI调研幻觉与浅尝辄止是双生子]] — yitang, research, ai-collaboration
-- [[concepts/dk/dk-yitang-research-best-practice-first.md|做重要设计前先摸行业最佳实践：认知套利]] — yitang, research
-- [[concepts/dk/dk-yitang-research-cost-value-match.md|调研投入必须与信息价值匹配]] — yitang, research
-- [[concepts/dk/dk-yitang-research-cross-validation-cost.md|交叉验证是成本也是护城河：信息质量的不对称优势]] — yitang, research
-- [[concepts/dk/dk-yitang-research-desperate-effort.md|调研决心比技巧重要]] — yitang, research
-- [[concepts/dk/dk-yitang-research-goal-before-efficiency.md|没有目标就不要谈效率]] — yitang, research
-- [[concepts/dk/dk-yitang-research-question-quality.md|好调研目标 vs 坏调研目标：决策可验证性]] — yitang, research
-- [[concepts/dk/dk-yitang-research-scale-vs-depth.md|调研深度决定决策质量：信息精度的边际价值]] — yitang, research
-- [[concepts/dk/dk-yitang-research-source-freshness.md|信源时效性：AI/监管/融资数据≤30天]] — yitang, research
-- [[concepts/dk/dk-yitang-research-starter-vs-veteran.md|新手重分析，老兵80%时间拿情报]] — yitang, research
-- [[concepts/dk/dk-yitang-survivor-bias-in-research.md|调研中的幸存者偏差]] — yitang, research
-- [[concepts/domains/five-step-domain-digest.md|域摘要：一堂五步法（80+张卡）]] — Truman
-- [[concepts/domains/human-ai-collaboration-double-triangle.md|域摘要：人机协作范式——双三角模型域]] — 王欢
-- [[concepts/domains/strategy-domain-digest.md|域摘要：企业战略（冉鹏 · 30年经验）]] — yitang
-- [[concepts/domains/yitang-research-domain-digest.md|域摘要：调研方法论（90+张卡）]] — yitang
-- [[concepts/entities/Kimi-月之暗面.md|Kimi-月之暗面]]
-- [[concepts/entities/YC-Y-Combinator.md|YC-Y-Combinator]]
-- [[concepts/entities/一堂.md|一堂]]
-- [[concepts/entities/七件事集团.md|七件事集团]] — 私域电商, SaaS, 分销系统
-- [[concepts/entities/紫鲸AI.md|紫鲸AI]]
-- [[concepts/entities/鑫港湾.md|鑫港湾]]
-- [[concepts/frameworks/ai-complex-communication.md|ai-complex-communication]]
-- [[concepts/frameworks/ai-methodology-tools.md|AI 方法论与工具栈：主题综合知识卡]] — 王语嫣
-- [[concepts/frameworks/ai-short-drama-ice-fire-dissection-compass.md|冰火拆本罗盘：短剧剧本逆向拆解五维模型]] — 代俊隆
-- [[concepts/frameworks/beverage-foodservice-channel.md|beverage-foodservice-channel]]
-- [[concepts/frameworks/business-formula-to-kdo-card-quality.md|business-formula-to-kdo-card-quality]]
-- [[concepts/frameworks/concept-maister-trusted-advisor.md|concept-maister-trusted-advisor]]
-- [[concepts/frameworks/concept-mckinsey-7s.md|concept-mckinsey-7s]]
-- [[concepts/frameworks/concept-mckinsey-hypothesis-driven.md|concept-mckinsey-hypothesis-driven]]
-- [[concepts/frameworks/concept-minto-pyramid-principle.md|金字塔原理：结论先行的结构化沟通框架]] — consulting, yitang
-- [[concepts/frameworks/framework-candy-transcript-workflow.md|Candy逐字稿九步法：从素材到可交付内容的生产流程]] — yitang, content-production
-- [[concepts/frameworks/framework-ci-operating-model.md|CI运营模型：从信息收集到决策改变的闭环]] — yitang, research
-- [[concepts/frameworks/framework-course-milestone-model.md|课程里程碑模型：一堂做课的七步生产流程]] — yitang, education, modeling
-- [[concepts/frameworks/framework-demand-iceberg.md|需求洞察冰山模型：L1-L6六层深度推演框架]] — yitang, five-step-method
-- [[concepts/frameworks/framework-demand-opportunity-spectrum.md|商业机会预判·终局光谱图]] — yitang, five-step-method
-- [[concepts/frameworks/framework-demand-usp-model.md|USP需求洞察模型：Demand = User × Situation × Problem]] — yitang, five-step-method
-- [[concepts/frameworks/framework-doris-industry-report-4step.md|行业报告调研四步法：7天快速建立行业认知]] — yitang, research
-- [[concepts/frameworks/framework-logic-cleanliness-five-levels.md|逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准]] — Truman
-- [[concepts/frameworks/framework-multi-agent-research-architecture.md|多智能体调研架构：四种模式的对比与选择]] — yitang, research, ai-collaboration
-- [[concepts/frameworks/framework-ouyangfeng-review-methodology.md|欧阳锋审查方法论：三阶段架构评审框架]] — master, kdo
-- [[concepts/frameworks/framework-strategy-ansoff.md|安索夫矩阵：产品-市场增长战略]] — strategy, growth
-- [[concepts/frameworks/framework-strategy-basics-01-core.md|定式（Core Foundation）：BRM框架为核心，战略肌肉记忆]] — strategy
-- [[concepts/frameworks/framework-strategy-basics-02-insight.md|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]] — strategy
-- [[concepts/frameworks/framework-strategy-basics-03-layout.md|布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事]] — strategy
-- [[concepts/frameworks/framework-strategy-basics-04-system.md|体系（Creation System）：丰田供应链生态+苹果iOS生态]] — strategy
-- [[concepts/frameworks/framework-strategy-basics-05-change.md|体系（Creation System）：生态体系——丰田供应链+苹果iOS]] — strategy
-- [[concepts/frameworks/framework-strategy-blm.md|IBM BLM 业务领导力模型 + 华为五看三定]] — strategy
-- [[concepts/frameworks/framework-strategy-brm.md|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — strategy
-- [[concepts/frameworks/framework-strategy-business-design.md|业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）]] — strategy
-- [[concepts/frameworks/framework-strategy-five-basics.md|冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革]] — strategy
-- [[concepts/frameworks/framework-strategy-five-forces.md|波特五力分析框架]] — strategy, market_analysis
-- [[concepts/frameworks/framework-strategy-kai-innovation-directions.md|凯纳创新方向分类框架]] — strategy, innovation
-- [[concepts/frameworks/framework-strategy-mckinsey-7s.md|麦肯锡 7S 模型：组织诊断与变革管理]] — strategy, organization, change_management
-- [[concepts/frameworks/framework-strategy-pyramid.md|企业战略金字塔：公司、业务与职能协同]] — strategy
-- [[concepts/frameworks/framework-strategy-six-stages.md|冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同]] — strategy
-- [[concepts/frameworks/framework-strategy-three-horizons.md|三个地平线：短中长期业务组合管理]] — strategy, portfolio
-- [[concepts/frameworks/framework-structured-analytic-techniques.md|SATs结构化分析技术：CIA情报分析的八类工具箱]] — yitang, research
-- [[concepts/frameworks/framework-wanghuan-actor-director-mode.md|王欢人机协作框架：从演员到导演]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-ai-five-level-ladder.md|王欢AI能力五层跃迁模型]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-bitcoe-prompt-framework.md|王欢BITCOE提示词框架]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-five-criteria-first-product.md|王欢：选第一个产品场景的五条标准]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-gan-three-roles.md|王欢GAN三角色架构：生成器/判别器/合成器]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-harness-seven-stages.md|王欢：Harness 七阶段 AI 构建流程]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-ooda-loop.md|王欢OODA闭环：人机协作的决策迭代框架]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-say-think-do-toolchain.md|王欢说→想→做工具链框架]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-task-product-system.md|王欢任务→产品→系统演进框架]] — 王欢
-- [[concepts/frameworks/framework-wanghuan-three-tier-dev-architecture.md|王欢三层开发架构：需求拆解→AI开发→哨兵质检]] — 王欢
-- [[concepts/frameworks/framework-yitang-18-strategy-cards.md|降龙十八掌：18张调研策略卡全景图]] — yitang, research
-- [[concepts/frameworks/framework-yitang-expert-interview-10steps.md|专家访谈黄金十步法：从盲区梳理到专家匹配]] — yitang, research
-- [[concepts/frameworks/framework-yitang-four-research-types.md|四类调研模型：挖掘式·系统式·爆炸式·自动式]] — yitang, research
-- [[concepts/frameworks/framework-yitang-high-level-execution.md|高水平执行 AR：获取情报·正确归因]] — yitang, research
-- [[concepts/frameworks/framework-yitang-high-level-plan.md|高水平计划 OSC：锁定目标·缩小范围·罗列清单]] — yitang, research
-- [[concepts/frameworks/framework-yitang-iterative-recursive-digging.md|迭代递归深挖法：从表层到内核的认知穿透]] — yitang, research
-- [[concepts/frameworks/framework-yitang-nine-layer-deep-dig.md|九层深挖法：商业分析的自我纠错式迭代框架]] — yitang, research, business-analysis
-- [[concepts/frameworks/framework-yitang-oscar-research.md|OSCAR调研模型：从目标锁定到正确归因的五步法]] — yitang, research
-- [[concepts/frameworks/framework-yitang-research-quality-gate.md|framework-yitang-research-quality-gate]]
-- [[concepts/frameworks/framework-yitang-research-radar.md|调研雷达图：四象限能力诊断与六种缺失识别]] — yitang, research
-- [[concepts/frameworks/framework-yitang-research-weapon-supplement-2026.md|调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术]] — yitang, research
-- [[concepts/frameworks/framework-yitang-research-weapon-system.md|调研超级武器库：三层八模块十四节点]] — yitang, research
-- [[concepts/frameworks/framework-yitang-six-layer-cross-validation.md|六层交叉验证：从单源到多源的信息可信度提升]] — yitang, research
-- [[concepts/frameworks/model-quality-four-levels.md|model-quality-four-levels]]
-- [[concepts/frameworks/modeling-personal-practice-loop.md|建模能力个人修炼闭环：刻意练习 × IPO × PDCA]] — yitang, personal-growth, modeling
-- [[concepts/frameworks/modeling-scientific-milestones.md|科学建模七步里程碑：从边界到封装的方法论生产流程]] — yitang, modeling, research
-- [[concepts/frameworks/modeling-three-stages.md|建模三段论：流程建模、抽象建模、本质提炼]] — 楚门/Truman
-- [[concepts/frameworks/modeling-to-kdo-toolchain.md|modeling-to-kdo-toolchain]]
-- [[concepts/frameworks/private-domain-saas-sales-funnel.md|私域 SaaS 销售四步法]] — SaaS, 私域电商, 销售流程
-- [[concepts/frameworks/sales-pitch-bias-patterns.md|sales-pitch-bias-patterns]]
-- [[concepts/frameworks/smart-device-foodservice-automation.md|smart-device-foodservice-automation]]
-- [[concepts/frameworks/xingangwan-pharma-business-formulas.md|鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量]] — healthcare, pharmaceutical-retail, business-strategy, product, unit-economics
-- [[concepts/frameworks/xingangwan-pharma-business-model-calc.md|鑫港湾医药零售商业模型计算框架]] — healthcare, pharmaceutical-retail, business-strategy, finance
-- [[concepts/frameworks/xingangwan-pharma-business-model-formulas.md|鑫港湾医药零售商业模式计算框架与业务公式]] — healthcare, pharmaceutical-retail, business-strategy, finance
-- [[concepts/frameworks/yt-barrier-ecosystem-lock-in.md|生态锁定：平台壁垒]] — Truman
-- [[concepts/frameworks/yt-barrier-moat-building.md|壁垒建设路线图]] — Truman
-- [[concepts/frameworks/yt-barrier-strategy-overview.md|壁垒策略总纲：从增长到可持续优势]] — Truman
-- [[concepts/frameworks/yt-barrier-sustainable-growth.md|可持续增长：壁垒驱动]] — Truman
-- [[concepts/frameworks/yt-business-formula-abc-model.md|业务公式 ABC 模型（Ambition-Basis-Connection）]] — 孔阳
-- [[concepts/frameworks/yt-business-formula-business-pattern-selector.md|yt-business-formula-business-pattern-selector]]
-- [[concepts/frameworks/yt-business-formula-qualitative-metrics-library.md|yt-business-formula-qualitative-metrics-library]]
-- [[concepts/frameworks/yt-business-model-channel-economics.md|渠道经济学：获客成本优化]] — Truman
-- [[concepts/frameworks/yt-business-model-platform-strategy.md|平台战略：从单边到双边]] — Truman
-- [[concepts/frameworks/yt-business-model-scalability.md|商业模式可规模化评估：从1到100万]] — Truman
-- [[concepts/frameworks/yt-business-model-to-growth.md|从商业模式到增长：承上启下]] — Truman
-- [[concepts/frameworks/yt-business-model-unit-economics.md|单元经济学：LTV > CAC]] — Truman
-- [[concepts/frameworks/yt-decision-abcd-model.md|yt-decision-abcd-model]]
-- [[concepts/frameworks/yt-decision-y-model-philosophical-roots.md|Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射]] — yitang, master, decision-making
-- [[concepts/frameworks/yt-demand-decision-chain.md|ToB决策链需求分析：多角色、多需求、多顾虑]] — Truman
-- [[concepts/frameworks/yt-demand-early-validation.md|需求早期验证：低成本测试法]] — Truman
-- [[concepts/frameworks/yt-demand-jtbd-application.md|JTBD需求分析实战应用：从"用户想要"到"用户雇佣"]] — Truman
-- [[concepts/frameworks/yt-demand-scenario-reconstruction.md|用户场景重构法：使用前中后的完整体验地图]] — Truman
-- [[concepts/frameworks/yt-five-step-cross-step-1.md|跨步一：从0到1的验证]] — Truman
-- [[concepts/frameworks/yt-five-step-cross-step-2.md|跨步二：从1到10的规模化]] — Truman
-- [[concepts/frameworks/yt-five-step-cross-step-3.md|跨步三：从10到100的壁垒]] — Truman
-- [[concepts/frameworks/yt-five-step-method-complete.md|五步法完整地图：从需求到壁垒]] — Truman
-- [[concepts/frameworks/yt-growth-data-driven-decision.md|数据驱动增长决策]] — Truman
-- [[concepts/frameworks/yt-growth-engagement-loop.md|参与循环：让用户持续回来]] — Truman
-- [[concepts/frameworks/yt-growth-funnel-optimization.md|漏斗优化：从认知到付费]] — Truman
-- [[concepts/frameworks/yt-growth-retention-metrics.md|留存指标：从流失到忠诚]] — Truman
-- [[concepts/frameworks/yt-growth-strategy-overview.md|增长策略总纲：从商业模式到增长飞轮]] — Truman
-- [[concepts/frameworks/yt-growth-to-barrier.md|从增长到壁垒：承上启下]] — Truman
-- [[concepts/frameworks/yt-lean-assumption-prioritization.md|关键假设排序：前置优先、风险高的优先]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-assumption-verification-3means.md|关键假设验证的三种手段：访谈调研、经验验证、实验验证]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-b2b-b2c-hardware-content-testing.md|ToB/ToC/硬件/内容产品的测试差异]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-consumer-deep-experience-testing.md|消费品深层体验测试：表层反馈 vs 深层体验]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-false-model-ai.md|FALSE模型在AI时代的加速应用]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-growth-stage-gate.md|增长阶段标志：单元模型成立 + 找到增长渠道]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-lean-qualitative-quantitative-research.md|定性调研与定量调研的边界：证伪优先、阶段匹配]] — yitang, entrepreneurship, business-strategy
-- [[concepts/frameworks/yt-product-kernel-hypothesis-test.md|内核假设测试：低成本验证方法]] — Truman
-- [[concepts/frameworks/yt-product-kernel-iteration.md|产品内核迭代：五种迭代方向]] — Truman
-- [[concepts/frameworks/yt-product-kernel-six-levels.md|产品内核六个段位：从缺价值意识到全面迁移]] — Truman
-- [[concepts/frameworks/yt-product-kernel-to-business-model.md|从内核到商业模式：承上启下]] — Truman
-- [[concepts/frameworks/yt-product-kernel-validation.md|产品内核验证：三维度验证法]] — Truman
-- [[concepts/frameworks/yt-tob-barriers.md|To B 业务壁垒：选择、强弱判断与规模不经济对抗]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-core-characteristics.md|To B 三大核心特性：角色分离、务实理性、周期较长]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-customer-tiering.md|To B 客户分层：头部、腰部、腿部]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-demand-metrics.md|To B 需求测算双指标：成本占有率 + 业务天花板]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-demand-scenarios.md|To B 需求场景四象限]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-growth-channel.md|To B 增长模式取舍：直销 vs 渠道]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-product-kernel.md|To B 产品内核：面向决策者研究付费，面向使用者夯实价值]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-tob-solution-model.md|yt-tob-solution-model]]
-- [[concepts/frameworks/yt-tob-unit-model.md|To B 单元模型选择与跑通]] — yitang, entrepreneurship, b2b, business-strategy
-- [[concepts/frameworks/yt-unit-model-ladder.md|yt-unit-model-ladder]]
-- [[concepts/frameworks/yt-unit-model-overview.md|yt-unit-model-overview]]
-- [[concepts/projects/parking-lot.md|停车场清单]] — healthcare, compliance, product-management
-- [[concepts/projects/shanxi-field-research-checklist-20260701.md|山西 7 月 1 日智慧药柜项目调研清单]] — healthcare, compliance, business-strategy, field-research
-- [[concepts/projects/互联网医院项目.md|互联网医院项目]]
-- [[concepts/projects/诊所O2O项目.md|诊所O2O项目]]
-- [[concepts/projects/鑫港湾HIS项目.md|鑫港湾HIS项目]]
-- [[concepts/prompt-methodology/prompt-demand-ai-coach.md|AI需求分析教练：冰山六层全流程推演提示词]] — yitang, five-step-method, prompt-engineering
-- [[concepts/raw/ocr/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md|OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01]] — ai-collaboration, yitang
-- [[concepts/raw/ocr/ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md|OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02]] — ai-collaboration, yitang
-- [[concepts/raw/ocr/ocr-ocr_screenshot2.md|OCR: ocr_screenshot2]] — healthcare
-- [[concepts/raw/ocr/ocr-ocr_snipaste_2026-05-15_21-39-40.md|OCR: ocr_Snipaste_2026-05-15_21-39-40]] — healthcare
-- [[concepts/raw/ocr/ocr-screenshot1.md|OCR: screenshot1]] — healthcare
-- [[concepts/raw/ocr/ocr-screenshot2.md|OCR: screenshot2]] — ai-saas
-- [[concepts/raw/ocr/ocr-truman的个人成长五步法.md|OCR: Truman的个人成长五步法]] — healthcare
-- [[concepts/raw/ocr/ocr-truman的选择两条职业成长路线.md|OCR: truman的选择：两条职业成长路线]] — ai-saas
-- [[concepts/raw/ocr/ocr-一堂-ai学习-truman自用的ai-featureset.md|OCR: 一堂-AI学习-truman自用的AI FeatureSet]] — yitang, ai-collaboration
-- [[concepts/raw/ocr/ocr-一堂-ai学习-提问工程化.md|OCR: 一堂-AI学习-提问工程化]] — product, needs-review, ai-saas, design, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-ai学习-提问进化路线图.md|OCR: 一堂-AI学习-提问进化路线图]] — ai-saas, needs-review, kdo, yitang
-- [[concepts/raw/ocr/ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md|OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01]] — yitang, ai-collaboration
-- [[concepts/raw/ocr/ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md|OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02]] — yitang, ai-collaboration
-- [[concepts/raw/ocr/ocr-一堂-tcpr模型-皇冠模型.md|OCR: 一堂-TCPR模型-皇冠模型]] — management, product, needs-review, finance-legal, design, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-y模型.md|OCR: 一堂-个人修炼-Y模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-全景图muse模型.md|OCR: 一堂-个人修炼-全景图MUSE模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-双三角模型.md|OCR: 一堂-个人修炼-双三角模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-提问刻意练习画布.md|OCR: 一堂-个人修炼-提问刻意练习画布]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-科学学习ipo-全景策略.md|OCR: 一堂-个人修炼-科学学习IPO-全景策略]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-科学学习ipo完整清单.md|OCR: 一堂-个人修炼-科学学习IPO完整清单]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-科学学习ipo模型.md|OCR: 一堂-个人修炼-科学学习IPO模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-科学提问刻意练习.md|OCR: 一堂-个人修炼-科学提问刻意练习]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-表达力火箭模型.md|OCR: 一堂-个人修炼-表达力火箭模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-解放思想.md|OCR: 一堂-个人修炼-解放思想]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-讲香基本功.md|OCR: 一堂-个人修炼-讲香基本功]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-个人修炼-课程清单.md|OCR: 一堂-个人修炼-课程清单]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-人机协作-双三角模型.md|OCR: 一堂-人机协作-双三角模型]] — management, product, needs-review, ai-saas, yitang
-- [[concepts/raw/ocr/ocr-一堂-创业必修-课程清单.md|OCR: 一堂-创业必修-课程清单]] — product, needs-review, business-strategy, yitang, entrepreneurship
-- [[concepts/raw/ocr/ocr-一堂-单元模型-abcd策略模型.md|OCR: 一堂-单元模型-ABCD策略模型]] — needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-tcpr底层网络协议.md|OCR: 一堂-单元模型-TCPR底层网络协议]] — management, product, needs-review, business-strategy, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-修炼地图.md|OCR: 一堂-单元模型-修炼地图]] — management, needs-review, finance-legal, ai-saas, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-动态预测.md|OCR: 一堂-单元模型-动态预测]] — product, needs-review, business-strategy, supply-chain, yitang, entrepreneurship, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单sku模型.md|OCR: 一堂-单元模型-单sku模型]] — product, needs-review, business-strategy, design, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单商圈模型.md|OCR: 一堂-单元模型-单商圈模型]] — needs-review, business-strategy, supply-chain, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单城市模型.md|OCR: 一堂-单元模型-单城市模型]] — needs-review, supply-chain, kdo, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单客户模型.md|OCR: 一堂-单元模型-单客户模型]] — needs-review, kdo, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单履约模型.md|OCR: 一堂-单元模型-单履约模型]] — needs-review, business-strategy, supply-chain, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单柜子模型.md|OCR: 一堂-单元模型-单柜子模型]] — needs-review, kdo, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单用户模型.md|OCR: 一堂-单元模型-单用户模型]] — product, needs-review, business-strategy, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单订单模型.md|OCR: 一堂-单元模型-单订单模型]] — needs-review, business-strategy, finance-legal, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单销售模型.md|OCR: 一堂-单元模型-单销售模型]] — product, needs-review, business-strategy, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-单门店模型.md|OCR: 一堂-单元模型-单门店模型]] — kdo, needs-review, healthcare, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-基准值.md|OCR: 一堂-单元模型-基准值]] — needs-review, kdo, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-壁垒预判.md|OCR: 一堂-单元模型-壁垒预判]] — needs-review, business-strategy, yitang, entrepreneurship, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-外部对抗地图.md|OCR: 一堂-单元模型-外部对抗地图]] — needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-多模型情况.md|OCR: 一堂-单元模型-多模型情况]] — management, product, needs-review, business-strategy, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-学练用.md|OCR: 一堂-单元模型-学练用]] — management, product, needs-review, ai-saas, yitang, kdo, decision-making
-- [[concepts/raw/ocr/ocr-一堂-单元模型-对抗小抄.md|OCR: 一堂-单元模型-对抗小抄]] — needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-对抗小抄01.md|OCR: 一堂-单元模型-对抗小抄01]] — management, needs-review, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-对抗小抄02.md|OCR: 一堂-单元模型-对抗小抄02]] — product, needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-扭蛋机案例.md|OCR: 一堂-单元模型-扭蛋机案例]] — needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-找全成本实操难点.md|OCR: 一堂-单元模型-找全成本实操难点]] — needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-找单元模型实操难点.md|OCR: 一堂-单元模型-找单元模型实操难点]] — product, ai-saas, needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-找基准值实操难点.md|OCR: 一堂-单元模型-找基准值实操难点]] — management, needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-斧子尺子梯子.md|OCR: 一堂-单元模型-斧子、尺子、梯子]] — needs-review, decision-making, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-斧子尺子梯子详解.md|OCR: 一堂-单元模型-斧子尺子梯子详解]] — product, needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-最简单元模型.md|OCR: 一堂-单元模型-最简单元模型]] — needs-review, kdo, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-段位专家.md|OCR: 一堂-单元模型-段位专家]] — product, needs-review, decision-making, business-strategy, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-单元模型-示例.md|OCR: 一堂-单元模型-示例]] — needs-review, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-示例01.md|OCR: 一堂-单元模型-示例01]] — needs-review, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂-单元模型-规模对抗实操难点.md|OCR: 一堂-单元模型-规模对抗实操难点]] — product, management, needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-规模经济对抗武器库.md|OCR: 一堂-单元模型-规模经济对抗武器库]] — product, needs-review, yitang
-- [[concepts/raw/ocr/ocr-一堂-单元模型-象限分析法.md|OCR: 一堂-单元模型-象限分析法]] — needs-review, business-strategy, yitang, entrepreneurship, kdo
-- [[concepts/raw/ocr/ocr-一堂-地图-个人地图.md|OCR: 一堂-地图-个人地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-地图-创业地图.md|OCR: 一堂-地图-创业地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-地图-创业地图_conv.md|OCR: 一堂-地图-创业地图_conv]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-地图-管理地图.md|OCR: 一堂-地图-管理地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-地图-管理地图_conv.md|OCR: 一堂-地图-管理地图_conv]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-案例拆解-课程清单.md|OCR: 一堂-案例拆解-课程清单]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例01.md|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例02.md|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例03.md|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi决策评估画布.md|OCR: 一堂-科学决策-ROI决策评估画布]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-roi高阶训练全景图.md|OCR: 一堂-科学决策-ROI高阶训练全景图]] — management, needs-review, ai-saas, yitang, decision-making
-- [[concepts/raw/ocr/ocr-一堂-科学决策-x型y型决策习惯对比.md|OCR: 一堂-科学决策-X型Y型决策习惯对比]] — needs-review, decision-making, finance-legal, yitang, kdo
-- [[concepts/raw/ocr/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md|OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-人机协作决策.md|OCR: 一堂-科学决策-人机协作决策]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md|OCR: 一堂-科学决策-关键假设ABCD模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-关键训练清单重要.md|OCR: 一堂-科学决策-关键训练清单（重要））]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-决策三角形.md|OCR: 一堂-科学决策-决策三角形]] — kdo, needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-发现决策.md|OCR: 一堂-科学决策-发现决策]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-商业模式-完整财务公式决策.md|OCR: 一堂-科学决策-商业模式-完整财务公式决策]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-宽度-个人.md|OCR: 一堂-科学决策-宽度-个人]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-宽度-企业.md|OCR: 一堂-科学决策-宽度-企业]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-宽度-团队.md|OCR: 一堂-科学决策-宽度-团队]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-l1优先级定性.md|OCR: 一堂-科学决策-深度-L1优先级定性]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-l2部分定量.md|OCR: 一堂-科学决策-深度-L2部分定量]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-l3定量公式.md|OCR: 一堂-科学决策-深度-L3定量公式]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md|OCR: 一堂-科学决策-深度-L4-案例01]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-l4严格财务公式.md|OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md|OCR: 一堂-科学决策-深度-你的业务是一次抽样实验]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-决策经验值.md|OCR: 一堂-科学决策-深度-决策经验值]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例01.md|OCR: 一堂-科学决策-深度-案例01]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例02.md|OCR: 一堂-科学决策-深度-案例02]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例03.md|OCR: 一堂-科学决策-深度-案例03]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例04.md|OCR: 一堂-科学决策-深度-案例04]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例05.md|OCR: 一堂-科学决策-深度-案例05]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-深度-案例06.md|OCR: 一堂-科学决策-深度-案例06]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-稀缺机会窗口.md|OCR: 一堂-科学决策-稀缺机会窗口]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-稀缺资源清单.md|OCR: 一堂-科学决策-稀缺资源清单]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-项目方案评估三角形.md|OCR: 一堂-科学决策-项目方案评估三角形]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-高度-两种典型的思考习惯.md|OCR: 一堂-科学决策-高度-两种典型的思考习惯]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-科学决策-高水平共识曲线重要.md|OCR: 一堂-科学决策-高水平共识曲线（重要）]] — product, needs-review, decision-making, yitang
-- [[concepts/raw/ocr/ocr-一堂-管理必修-课程清单.md|OCR: 一堂-管理必修-课程清单]] — yitang
-- [[concepts/raw/ocr/ocr-一堂-高阶体系探索营-三种咨询可能性.md|OCR: 一堂-高阶体系探索营-三种咨询可能性]] — needs-review, kdo, yitang
-- [[concepts/raw/ocr/ocr-一堂doc-单元模型-十大单元模型.md|OCR: 一堂DOC-单元模型-十大单元模型]] — needs-review, yitang, business-strategy
-- [[concepts/raw/ocr/ocr-一堂y模型-科学成事道理.md|OCR: 一堂Y模型-科学成事道理]] — healthcare
-- [[concepts/raw/ocr/ocr-一堂y模型steps策略集.md|OCR: 一堂Y模型steps策略集]] — yitang
-- [[concepts/raw/ocr/ocr-一堂y模型实操工作流.md|OCR: 一堂Y模型实操工作流]] — yitang
-- [[concepts/raw/ocr/ocr-一堂个人地图高潜力成长者修炼全景图.md|OCR: 一堂个人地图：高潜力成长者修炼全景图]] — healthcare
-- [[concepts/raw/ocr/ocr-一堂五步法-产品内核画布.md|OCR: 一堂五步法-产品内核画布]] — yitang
-- [[concepts/raw/ocr/ocr-一堂五步法画布.md|OCR: 一堂五步法画布]] — yitang
-- [[concepts/raw/ocr/ocr-一堂产品内核-十大典型指标.md|OCR: 一堂产品内核-十大典型指标]] — healthcare
-- [[concepts/raw/ocr/ocr-一堂刻意练习十年成长指数.md|OCR: 一堂刻意练习十年成长指数]] — ai-saas
-- [[concepts/raw/ocr/ocr-一堂提炼过的因果模型.md|OCR: 一堂提炼过的因果模型]] — yitang
-- [[concepts/raw/ocr/ocr-一堂最佳转化率动力曲线图.md|OCR: 一堂最佳转化率动力曲线图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂泛产品设计-十年修炼爬山地图.md|OCR: 一堂泛产品设计-十年修炼爬山地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂泛产品设计-多出牌多练习.md|OCR: 一堂泛产品设计-多出牌多练习]] — yitang
-- [[concepts/raw/ocr/ocr-一堂泛产品设计36计-全套地图.md|OCR: 一堂泛产品设计36计-全套地图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂深度复盘冰山图.md|OCR: 一堂深度复盘冰山图]] — yitang
-- [[concepts/raw/ocr/ocr-一堂转化率-10大容易浪费的触点.md|OCR: 一堂转化率-10大容易浪费的触点]] — healthcare
-- [[concepts/raw/ocr/ocr-一堂进步大地图.md|OCR: 一堂进步大地图]] — ai-saas
-- [[concepts/raw/ocr/ocr-一堂进步大地图_compressed.md|OCR: 一堂进步大地图_compressed]] — healthcare
-- [[concepts/raw/ocr/ocr-优秀泛产品设计者的自我修养.md|OCR: 优秀泛产品设计者的自我修养]] — healthcare
-- [[concepts/raw/ocr/ocr-婚礼操盘-用户和场景.md|OCR: 婚礼操盘-用户和场景]] — yitang
-- [[concepts/raw/ocr/ocr-婚礼规划.md|OCR: 婚礼规划]] — master
-- [[concepts/raw/ocr/ocr-审美提升的层级.md|OCR: 审美提升的层级]] — yitang
-- [[concepts/raw/ocr/ocr-微信图片_20260507004746_32_32.md|OCR: 微信图片_20260507004746_32_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004751_33_32.md|OCR: 微信图片_20260507004751_33_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004755_34_32.md|OCR: 微信图片_20260507004755_34_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004758_35_32.md|OCR: 微信图片_20260507004758_35_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004801_37_32.md|OCR: 微信图片_20260507004801_37_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004802_38_32.md|OCR: 微信图片_20260507004802_38_32]] — needs-review
-- [[concepts/raw/ocr/ocr-微信图片_20260507004804_39_32.md|OCR: 微信图片_20260507004804_39_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004806_40_32.md|OCR: 微信图片_20260507004806_40_32]] — healthcare
-- [[concepts/raw/ocr/ocr-微信图片_20260507004811_41_32.md|OCR: 微信图片_20260507004811_41_32]] — healthcare
-- [[concepts/raw/ocr/ocr-泛产品设计-审美卡片-最佳实践建模.md|OCR: 泛产品设计-审美卡片-最佳实践建模]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-审美卡片-最佳实践收集.md|OCR: 泛产品设计-审美卡片-最佳实践收集]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-审美卡片-最佳实践池子.md|OCR: 泛产品设计-审美卡片-最佳实践池子]] — master
-- [[concepts/raw/ocr/ocr-泛产品设计-审美卡片-美好作品想象.md|OCR: 泛产品设计-审美卡片-美好作品想象]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-审美工具箱指南.md|OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-一堂五步法.md|OCR: 泛产品设计-用户卡片-一堂五步法]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-动力阻力.md|OCR: 泛产品设计-用户卡片-动力阻力]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-场景推演.md|OCR: 泛产品设计-用户卡片-场景推演]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-多视角思考.md|OCR: 泛产品设计-用户卡片-多视角思考]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-峰终定律.md|OCR: 泛产品设计-用户卡片-峰终定律]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-惊喜公式.md|OCR: 泛产品设计-用户卡片-惊喜公式]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-用户分层.md|OCR: 泛产品设计-用户卡片-用户分层]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-用户视角.md|OCR: 泛产品设计-用户卡片-用户视角]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-行业分析画布.md|OCR: 泛产品设计-用户卡片-行业分析画布]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-需求挖掘.md|OCR: 泛产品设计-用户卡片-需求挖掘]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-用户卡片-项目背景分析.md|OCR: 泛产品设计-用户卡片-项目背景分析]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-roi分析.md|OCR: 泛产品设计-落地卡片-ROI分析]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-业务建模.md|OCR: 泛产品设计-落地卡片-业务建模]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-低成本测试mvp.md|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-假设拆解.md|OCR: 泛产品设计-落地卡片-假设拆解]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-内核和边界.md|OCR: 泛产品设计-落地卡片-内核和边界]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-努力仿真.md|OCR: 泛产品设计-落地卡片-努力仿真]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-十倍速验证.md|OCR: 泛产品设计-落地卡片-十倍速验证]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-善用佳软.md|OCR: 泛产品设计-落地卡片-善用佳软]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-复盘迭代.md|OCR: 泛产品设计-落地卡片-复盘迭代]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-攻坚会.md|OCR: 泛产品设计-落地卡片-攻坚会]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-灵感闪现.md|OCR: 泛产品设计-落地卡片-灵感闪现]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-管理三段论.md|OCR: 泛产品设计-落地卡片-管理三段论]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-解放思想.md|OCR: 泛产品设计-落地卡片-解放思想]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-设计原则.md|OCR: 泛产品设计-落地卡片-设计原则]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-逻辑mece.md|OCR: 泛产品设计-落地卡片-逻辑MECE]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-酝酿式打磨.md|OCR: 泛产品设计-落地卡片-酝酿式打磨]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-里程碑拆解.md|OCR: 泛产品设计-落地卡片-里程碑拆解]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-落地卡片-风险管理.md|OCR: 泛产品设计-落地卡片-风险管理]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计-需求工具箱指南.md|OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计的应用场景示意图.md|OCR: 泛产品设计的应用场景示意图]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计者的三大自我修养.md|OCR: 泛产品设计者的三大自我修养]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计者的自我修养.md|OCR: 泛产品设计者的自我修养]] — yitang
-- [[concepts/raw/ocr/ocr-泛产品设计落地工具篇指南.md|OCR: 泛产品设计落地工具篇指南]] — ai-saas
-- [[concepts/raw/ocr/ocr-泛产品设计落地篇.md|OCR: 泛产品设计落地篇]] — ai-saas
-- [[concepts/raw/ocr/ocr-萃取总结.md|OCR: 萃取总结]] — yitang
-- [[concepts/raw/ocr/ocr-顶级产品追求的方向-乔布斯.md|OCR: 顶级产品追求的方向-乔布斯]] — yitang
-- [[concepts/raw/ocr/ocr-项目背景问题思考的8个维度.md|OCR: 项目背景问题思考的8个维度]] — yitang
-- [[concepts/raw/ocr/ocr-预判模型.md|OCR: 预判模型]] — ai-saas
-- [[concepts/skills/yt-demand-insight-extraction.md|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — Truman
-- [[concepts/systems/agent-external-brain-design.md|agent-external-brain-design]]
-- [[concepts/systems/agent-native-card-design.md|agent-native-card-design]]
-- [[concepts/systems/graph-rag-retrieval-layer.md|graph-rag-retrieval-layer]]
-- [[concepts/systems/kdo-batch-produce-req014.md|kdo-batch-produce-req014]]
-- [[concepts/systems/kdo-protocol.md|kdo-protocol]]
-- [[concepts/systems/kdo-watch-health-check-layer.md|kdo watch 定时巡检层技术说明]] — kdo
-- [[concepts/systems/obsidian-git-sync-protocol.md|Obsidian Git Multi-Device Sync Protocol]] — kdo
-- [[concepts/systems/sprint-2-gate-enrich-evidence.md|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — kdo
-- [[concepts/systems/system-yitang-research-workflow.md|调研工作流：从问题到报告的端到端执行路径]] — yitang
-- [[concepts/systems/workflow-knowledge-collision.md|workflow-knowledge-collision]]
-- [[concepts/systems/一堂方法论体系总图.md|一堂方法论体系总图]] — yitang
-- [[concepts/tools/ai-short-drama-conflict-three-axes.md|矛盾冲突三板斧：短剧冲突分层设计工具]] — yitang, ai-collaboration, product
-- [[concepts/tools/ai-short-drama-framework-three-axes.md|框架三板斧：短剧英雄之旅结构工具]] — yitang, ai-collaboration, product
-- [[concepts/tools/ai-short-drama-plot-three-axes.md|剧情三板斧：短剧剧本的情节张力设计工具]] — yitang, ai-collaboration, product
-- [[concepts/tools/ai-short-drama-script-planning-three-axes.md|剧本策划三板斧：短剧从0到1的框架搭建工具]] — yitang, ai-collaboration, product
-- [[concepts/tools/concept-toyota-5-whys.md|concept-toyota-5-whys]]
-- [[concepts/tools/mineru-pdf-parsing-setup.md|MinerU (magic-pdf) PDF 解析工具安装与使用]] — kdo, infrastructure
-- [[concepts/tools/modeling-level-map.md|建模能力段位图：从 L1 到 L6 的十年爬山地图]] — 楚门/Truman
-- [[concepts/tools/modeling-weapon-library.md|常见模型武器库：按问题难度调用模型]] — 楚门/Truman
-- [[concepts/tools/process-modeling.md|流程建模：用 SOP 与清单把经验变成稳定产出]] — 楚门/Truman
-- [[concepts/tools/sk-ai-ai-workspace-setup.md|技能：结构化AI工作空间搭建]] — 纪浩
-- [[concepts/tools/sk-ai-evidence-check.md|技能：AI输出证据核查三问法]] — 半肥猫
-- [[concepts/tools/sk-ai-landing-five-steps.md|技能：AI落地五步执行清单]] — ai-collaboration
-- [[concepts/tools/sk-ai-narrative-test.md|技能：你的方案有叙事力吗？快速测试]] — 水水
-- [[concepts/tools/sk-ai-old-small-checklist.md|技能："找老的干小的"场景评估清单]] — 马易
-- [[concepts/tools/sk-ai-parallel-validation.md|技能：平行运行验证法]] — 马易
-- [[concepts/tools/sk-ai-prd-for-ai.md|技能：把PRD写成AI能执行的指令]] — 半肥猫
-- [[concepts/tools/sk-ai-problem-validation.md|技能：问题验证三维度法]] — 纪浩
-- [[concepts/tools/sk-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — 水水
-- [[concepts/tools/sk-ai-question-problem-checklist.md|技能：提问题转化三问清单]] — 纪浩
-- [[concepts/tools/sk-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — 水水
-- [[concepts/tools/sk-ai-voice-input-doubao.md|技能：口喷式语音输入法]] — 半肥猫
-- [[concepts/tools/skill-mckinsey-hypothesis-driven-workflow.md|skill-mckinsey-hypothesis-driven-workflow]]
-- [[concepts/tools/skill-note-keyword-bolding.md|关键词加粗三重结构：视觉重心即认知重心的标记法则]] — yitang, note-taking
-- [[concepts/tools/skill-note-layer-constraint.md|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — yitang, note-taking
-- [[concepts/tools/skill-note-one-line-one-point.md|一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作]] — yitang, note-taking
-- [[concepts/tools/smart-medicine-cabinet-financial-model.md|smart-medicine-cabinet-financial-model]]
-- [[concepts/tools/smart-medicine-cabinet-fraud-detection.md|smart-medicine-cabinet-fraud-detection]]
-- [[concepts/tools/tool-agent-crawl4ai.md|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-agent-firecrawl.md|Firecrawl：专为LLM设计的Web抓取API]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-agent-native-overview.md|Agent原生调研工具总览：2025-2026新范式]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-agent-research-pipeline.md|Pipeline模式：OSCAR五步法的Agent实现]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-agent-research-supervisor.md|Supervisor模式：一个主Agent调度多个Worker]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-agent-research-swarm.md|Swarm模式：多Agent自发协同与交叉验证]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-ai-skill-engineering-method.md|AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位]] — Truman
-- [[concepts/tools/tool-alt-data-free.md|免费替代数据：小团队的Hedge Fund武器]] — yitang, research
-- [[concepts/tools/tool-alt-data-overview.md|替代数据总览：Hedge Fund级别的调研武器]] — yitang, research
-- [[concepts/tools/tool-binary-quadrant-modeling.md|二分法/象限图建模法：用正交维度做分类与取舍]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-candy-oral-polish.md|Candy口语化润色：七条原则让文字"读出声来"]] — yitang, content-production
-- [[concepts/tools/tool-candy-positioning-canvas.md|Candy差异化定位画布：回答"这篇东西凭什么存在"]] — yitang, content-production
-- [[concepts/tools/tool-canvas-weapon-library-modeling.md|画布/武器库建模法：把工具箱变成可快速调用的系统]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-checklist-cheatsheet-modeling.md|清单/小抄建模法：把经验变成可执行的检查点]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-ci-define-phase.md|CI Define阶段：KITs和KIQs——从决策倒推信息需求]] — yitang, research
-- [[concepts/tools/tool-ci-implement-phase.md|CI Implement阶段：把洞察嵌入决策——最后一公里]] — yitang, research
-- [[concepts/tools/tool-clinic-cabinet-legal-contract-guide.md|tool-clinic-cabinet-legal-contract-guide]]
-- [[concepts/tools/tool-clinic-medical-shortvideo-compliance.md|tool-clinic-medical-shortvideo-compliance]]
-- [[concepts/tools/tool-demand-agent-auto-verify.md|Agent L6自动预验证：RAT的竞品数据+趋势快速验证]] — yitang, five-step-method, ai-collaboration
-- [[concepts/tools/tool-demand-agent-case-match.md|Agent L4案例匹配：以历史摩擦点为起点填充8步地图]] — yitang, five-step-method, ai-collaboration
-- [[concepts/tools/tool-demand-agent-l4-case-match.md|Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点]] — yitang
-- [[concepts/tools/tool-demand-agent-multi-hypothesis.md|Agent L3多假设并行：5个核心任务同时推演]] — yitang, five-step-method, ai-collaboration
-- [[concepts/tools/tool-demand-agent-signal-substitute.md|Agent L5信号提取：替代微观体感的非结构化数据分析]] — yitang, five-step-method, ai-collaboration
-- [[concepts/tools/tool-demand-agent-signals.md|Agent L1-L2信号聚合：替代"凭经验猜用户"]] — yitang, five-step-method, ai-collaboration
-- [[concepts/tools/tool-demand-assessment-triangle.md|需求评估三角形：普遍性×频次×刚性]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-blindspot-checklist.md|2B/2C盲区和机会清单：场景拆解的维度小抄]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-four-forces.md|四种力量建模：用户切换决策的博弈机制]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l1-user.md|L1粗拆用户标签：识别任务执行者的核心角色]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l2-scenario.md|L2粗拆场景问题：捕捉表层的痛点和需求]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l3-core-job.md|L3圈定核心任务：方案中立的动词+对象+语境]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l4-job-map.md|L4任务地图：全流程8步推演+摩擦点识别]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l5-forces.md|L5隐藏洞察：四种力量+三种任务+微观体感]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-iceberg-l6-hypothesis.md|L6需求假设：机会卡片+最危险假设(RAT)]] — yitang, five-step-method
-- [[concepts/tools/tool-demand-report-template.md|需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒]] — yitang
-- [[concepts/tools/tool-devils-advocacy.md|Devil's Advocacy：主动攻击自己的结论]] — yitang, research
-- [[concepts/tools/tool-dns-intelligence.md|DNS情报：从域名和网络基础设施反推竞对动态]] — yitang, research
-- [[concepts/tools/tool-doris-industry-report-search-tips.md|行业报告搜索七技：三级搜索能力+渠道清单]] — yitang, research
-- [[concepts/tools/tool-doris-industry-report-source-evaluation.md|行业报告可信度评估：多信数据，少信观点]] — yitang, research
-- [[concepts/tools/tool-essence-nfactor-modeling.md|本质/N要素建模法：提炼不可再约的核心变量]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-funnel-formula-modeling.md|漏斗图/公式建模法：量化流程与关键变量]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-google-dorking.md|Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息]] — yitang, research
-- [[concepts/tools/tool-harness-adversarial-tester.md|对抗测试员：成功标准是"找到bug"]] — yitang, ai-collaboration
-- [[concepts/tools/tool-iceberg-triangle-modeling.md|冰山图/三角图建模法：从表象深挖结构与本质]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-indicators-signposts.md|Indicators & Signposts：设置"重新评估"的触发信号]] — yitang, research
-- [[concepts/tools/tool-iterative-recursive-deep-dig.md|迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞]] — yitang, modeling, ai-collaboration
-- [[concepts/tools/tool-key-assumptions-check.md|Key Assumptions Check：审计你信以为真的东西]] — yitang, research
-- [[concepts/tools/tool-media-verification-overview.md|媒体验证技术总览：判断"对方说的是不是真的"]] — yitang, research
-- [[concepts/tools/tool-metadata-extraction.md|元数据提取：从文件中提取隐藏信息]] — yitang, research
-- [[concepts/tools/tool-osint-maltego.md|Maltego：实体关系图谱——画出目标公司的隐藏网络]] — yitang, research
-- [[concepts/tools/tool-osint-overview.md|OSINT工具总览：情报界的调研武器库]] — yitang, research
-- [[concepts/tools/tool-osint-sherlock.md|Sherlock：用户名跨平台追踪——找到一个人的所有社交账号]] — yitang, research
-- [[concepts/tools/tool-osint-shodan.md|Shodan：互联网设备搜索引擎——发现竞对的技术栈]] — yitang, research
-- [[concepts/tools/tool-osint-spiderfoot.md|SpiderFoot：一键自动化OSINT扫描]] — yitang, research
-- [[concepts/tools/tool-osint-wayback.md|Wayback Machine：网站时光机——看竞对的每一个历史版本]] — yitang, research
-- [[concepts/tools/tool-prompt-iceberg-demand-analysis.md|冰山图 L1-L6 需求深挖——多层引导提示词模板]] — yitang
-- [[concepts/tools/tool-prompt-jtbd-scenario-coach.md|JTBD 场景推演教练——六层需求深挖提示词模板]] — yitang
-- [[concepts/tools/tool-prompt-usp-demand-analysis.md|USP 深度洞察引擎——需求分析提示词模板]] — yitang
-- [[concepts/tools/tool-prompt-usp-quick-scan.md|USP 快速需求拆解——3分钟单轮提示词模板]] — yitang
-- [[concepts/tools/tool-radar-chart-modeling.md|雷达图建模法：多维度评估与筛选]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-red-team-analysis.md|Red Team Analysis：模拟竞对的最优策略]] — yitang, research
-- [[concepts/tools/tool-reverse-image-search.md|反向图片搜索：追踪图片来源和真实性]] — yitang, research
-- [[concepts/tools/tool-sabc-tier-modeling.md|SABC分级/段位图建模法：给事物排优先级与成长路径]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-scenario-selector-modeling.md|场景→工具选择器：根据需求快速匹配合适的建模工具]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-smart-medicine-cabinet-compliance-checklist.md|tool-smart-medicine-cabinet-compliance-checklist]]
-- [[concepts/tools/tool-smart-medicine-cabinet-site-selection-guide.md|tool-smart-medicine-cabinet-site-selection-guide]]
-- [[concepts/tools/tool-sop-template-modeling.md|SOP/模板建模法：把关键动作固化成标准工作流]] — yitang, product, ai-collaboration
-- [[concepts/tools/tool-strategy-12-word-test.md|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — strategy
-- [[concepts/tools/tool-strategy-activity-scope.md|活动范围设计工具：What × How × Where 三问]] — strategy, operations
-- [[concepts/tools/tool-strategy-blue-ocean-canvas.md|蓝海战略画布（价值曲线工具）]] — strategy, market_positioning
-- [[concepts/tools/tool-strategy-business-design-template.md|业务单元业务设计模板]] — strategy, business_design
-- [[concepts/tools/tool-strategy-business-summary.md|业务设计总结：战略蓝图输出+关键任务卡片]] — strategy
-- [[concepts/tools/tool-strategy-capability-matrix.md|核心能力评估矩阵：影响力×急迫性四象限]] — strategy
-- [[concepts/tools/tool-strategy-category-role-matrix.md|零售品类角色矩阵]] — strategy, retail
-- [[concepts/tools/tool-strategy-competition-traps.md|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — strategy
-- [[concepts/tools/tool-strategy-control-points.md|战略控制点设计工具：价值定位模型]] — strategy, competitive_advantage
-- [[concepts/tools/tool-strategy-core-competence-matrix.md|核心能力评估矩阵：影响力 × 急迫性]] — strategy, capability
-- [[concepts/tools/tool-strategy-customer-selection.md|客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环]] — strategy
-- [[concepts/tools/tool-strategy-fishbone.md|鱼骨图根因分析工具]] — strategy, problem_solving
-- [[concepts/tools/tool-strategy-five-see-three-set.md|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — strategy
-- [[concepts/tools/tool-strategy-four-layers.md|战略四层结构：集团→业务单元→职能→执行]] — strategy
-- [[concepts/tools/tool-strategy-four-moves.md|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — strategy
-- [[concepts/tools/tool-strategy-gap-analysis.md|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — strategy
-- [[concepts/tools/tool-strategy-industry-chain-analysis.md|产业链机会与行动计划分析工具]] — strategy, operations
-- [[concepts/tools/tool-strategy-ksf.md|关键成功因素（KSF）分析工具]] — strategy, competitive_analysis
-- [[concepts/tools/tool-strategy-lifecycle.md|企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0]] — strategy, entrepreneurship
-- [[concepts/tools/tool-strategy-map.md|战略地图——公司/各BU/业务单元的战略蓝图模板]] — strategy
-- [[concepts/tools/tool-strategy-nine-problems.md|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — strategy
-- [[concepts/tools/tool-strategy-pareto.md|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — strategy
-- [[concepts/tools/tool-strategy-platform-business-map.md|平台商业模式地图]] — strategy, platform
-- [[concepts/tools/tool-strategy-profit-model-comparison.md|盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策]] — strategy
-- [[concepts/tools/tool-strategy-risk-management.md|业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵]] — strategy, risk_management
-- [[concepts/tools/tool-strategy-sentence-formula.md|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — strategy
-- [[concepts/tools/tool-strategy-swot.md|SWOT 分析工具：从四象限到行动策略]] — strategy
-- [[concepts/tools/tool-strategy-three-horizons.md|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — strategy
-- [[concepts/tools/tool-strategy-value-capture.md|价值获取设计工具：8 问盈利模型]] — strategy, business_model
-- [[concepts/tools/tool-strategy-value-proposition.md|价值主张设计工具：三问 + 六维排序法]] — strategy, marketing
-- [[concepts/tools/tool-wanghuan-ai-business-profile.md|王欢AI业务档案5字段工具]] — 王欢
-- [[concepts/tools/tool-wanghuan-ai-dual-role-coach.md|王欢：AI 双角色教练对练工具]] — 王欢
-- [[concepts/tools/tool-yitang-18-strategy-tool-mapping.md|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — yitang
-- [[concepts/tools/tool-yitang-ai-assisted-analysis.md|AI辅助分析：用AI做数据分析和模式识别]] — yitang, research
-- [[concepts/tools/tool-yitang-ai-assisted-organize.md|AI辅助整理：把访谈录音/会议记录结构化]] — yitang, research
-- [[concepts/tools/tool-yitang-ai-monitoring-alert.md|AI监控/预警：自动化竞争情报跟踪]] — yitang, research
-- [[concepts/tools/tool-yitang-ai-report-drafting.md|AI草写报告：用AI生成调研初稿]] — yitang, research
-- [[concepts/tools/tool-yitang-ai-research-workflow.md|AI辅助调研工作流：七工具四层深度+十大假设]] — yitang, research, ai-collaboration
-- [[concepts/tools/tool-yitang-amazon-bestseller.md|亚马逊榜单：海外市场的品类趋势]] — yitang, research
-- [[concepts/tools/tool-yitang-anonymous-product-testing.md|匿名产品体验：以真实用户身份盲测竞品]] — yitang, research
-- [[concepts/tools/tool-yitang-anonymous-roundtable.md|匿名座谈：以第三方身份组织行业讨论]] — yitang, research
-- [[concepts/tools/tool-yitang-app-store-data.md|APP数据查询：应用商店排名与下载量估算]] — yitang, research
-- [[concepts/tools/tool-yitang-app-store-review.md|应用商店评论分析：功能请求+竞品对比的富矿]] — yitang, research
-- [[concepts/tools/tool-yitang-b2b-gov-research.md|To B/To G调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-baidu-index.md|百度指数：搜索需求趋势分析]] — yitang, research
-- [[concepts/tools/tool-yitang-behavioral-observation.md|行为观察法：不提问，只看用户怎么做]] — yitang, research
-- [[concepts/tools/tool-yitang-bidding-analysis.md|招投标分析：从政府采购反推客户和订单]] — yitang, research
-- [[concepts/tools/tool-yitang-bp-analysis.md|商业计划书分析：从竞对BP中提取商业模式]] — yitang, research
-- [[concepts/tools/tool-yitang-business-registration-check.md|工商查询：社保人数+股权穿透+关联公司]] — yitang, research
-- [[concepts/tools/tool-yitang-channel-agent-interview.md|渠道/代理商访谈：渠道端的情报获取]] — yitang, research
-- [[concepts/tools/tool-yitang-comparable-company-selection.md|对标公司选择三步法：加法·减法·三原则]] — yitang, research
-- [[concepts/tools/tool-yitang-competitor-financial-analysis.md|竞对财税分析：从社保/纳税/财报反推真实规模]] — yitang, research
-- [[concepts/tools/tool-yitang-conference-networking.md|行业会议/论坛情报：茶歇时的信息质量最高]] — yitang, research
-- [[concepts/tools/tool-yitang-consulting-business-research.md|咨询类业务调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-consumer-goods-research.md|消费品调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-content-ip-research.md|内容IP/MCN调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-court-record-search.md|裁判文书检索：从法律纠纷中挖掘商业情报]] — yitang, research
-- [[concepts/tools/tool-yitang-database-index.md|第三方数据库与行业报告来源索引]] — yitang, research
-- [[concepts/tools/tool-yitang-douyin-data.md|抖音数据：直播电商和短视频趋势追踪]] — yitang, research
-- [[concepts/tools/tool-yitang-employee-directory.md|员工公开名录：从通讯录取组织架构]] — yitang, research
-- [[concepts/tools/tool-yitang-executive-speech-analysis.md|高管公开发言分析：从CEO讲话中提取战略信号]] — yitang, research
-- [[concepts/tools/tool-yitang-expert-network-platform.md|专家网络付费平台：快速找到对的人]] — yitang, research
-- [[concepts/tools/tool-yitang-fake-complaint-research.md|假装客户投诉：以投诉之名获取内部信息]] — yitang, research
-- [[concepts/tools/tool-yitang-field-research.md|实地调研/蹲店：蹲店·谈话·数人头三板斧]] — yitang, research
-- [[concepts/tools/tool-yitang-financial-report-intelligence.md|财报/招股书情报：用上市公司公开报告做创业预判]] — yitang, research
-- [[concepts/tools/tool-yitang-financing-intelligence.md|融资信息分析：从融资事件反推竞对状态]] — yitang, research
-- [[concepts/tools/tool-yitang-forum-data.md|论坛/社区数据：知乎豆瓣贴吧的深度讨论]] — yitang, research
-- [[concepts/tools/tool-yitang-gossip-intelligence.md|三人八卦：饭局/聚会中的非正式情报]] — yitang, research
-- [[concepts/tools/tool-yitang-government-data-search.md|国家数据查询：最权威的宏观数据来源]] — yitang, research
-- [[concepts/tools/tool-yitang-hardware-product-disassembly.md|硬件产品拆解调研：BOM成本+工艺分析]] — yitang, research
-- [[concepts/tools/tool-yitang-in-home-experience-research.md|上门体验调研：去用户家里看真实使用场景]] — yitang, research
-- [[concepts/tools/tool-yitang-industry-report-search.md|行业报告搜索：拓宽关键词+多平台交叉]] — yitang, research
-- [[concepts/tools/tool-yitang-ipo-annual-report-cheat-sheet.md|上市公司报告价值Cheat Sheet：创业各阶段该读什么]] — yitang, research
-- [[concepts/tools/tool-yitang-job-intelligence-research.md|招聘渠道情报：五层递进挖掘竞对内部信息]] — yitang, research
-- [[concepts/tools/tool-yitang-news-monitoring.md|新闻媒体监控：从报道频率和角度追踪竞对]] — yitang, research
-- [[concepts/tools/tool-yitang-online-product-experience.md|线上产品完整体验：从注册到售后的全流程]] — yitang, research
-- [[concepts/tools/tool-yitang-organization-research.md|组织调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-overseas-research.md|出海调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-partner-data-analysis.md|合作方案数据：从合作方拿到的真实数字]] — yitang, research
-- [[concepts/tools/tool-yitang-patent-analysis.md|专利分析：从知识产权反推技术路线]] — yitang, research
-- [[concepts/tools/tool-yitang-pc-web-data.md|PC/Web端数据：传统互联网的数据来源]] — yitang, research
-- [[concepts/tools/tool-yitang-people-network-database.md|人脉库检索：系统化搜索目标公司的员工]] — yitang, research
-- [[concepts/tools/tool-yitang-product-full-experience.md|完整体验产品：从用户视角理解产品全貌]] — yitang, research
-- [[concepts/tools/tool-yitang-public-information-research.md|官方公开信息渠道：公司自己发布的信息最有价值]] — yitang, research
-- [[concepts/tools/tool-yitang-public-sentiment-research.md|舆情/口碑批量收集：好评决定内核，差评决定机会]] — yitang, research
-- [[concepts/tools/tool-yitang-recruit-user-interview.md|招募用户访谈：公开招募+激励设计]] — yitang, research
-- [[concepts/tools/tool-yitang-research-best-practice.md|最佳实践调研：找到行业标杆，复制成功因素]] — yitang, research
-- [[concepts/tools/tool-yitang-research-company-disassembly.md|公司拆解：深度分析竞争对手的六维框架]] — yitang, research
-- [[concepts/tools/tool-yitang-research-competitive-quadrant.md|竞争象限：用二维矩阵可视化竞争格局]] — yitang, research
-- [[concepts/tools/tool-yitang-research-competitor-tracking.md|竞对跟踪：持续监控竞争对手的动态与策略]] — yitang, research
-- [[concepts/tools/tool-yitang-research-continuous-tracking.md|持续跟踪：建立动态信息监控机制]] — yitang, research
-- [[concepts/tools/tool-yitang-research-cross-validation.md|交叉验证：多源印证的信息可信度提升]] — yitang, research
-- [[concepts/tools/tool-yitang-research-deep-attribution.md|深度归因：找到问题根因的5Why法]] — yitang, research
-- [[concepts/tools/tool-yitang-research-exhaust-means.md|穷尽手段：底线之上，努力拉满]] — yitang, research
-- [[concepts/tools/tool-yitang-research-follow-map.md|按图索骥：根据定位寻找对标案例]] — yitang, research
-- [[concepts/tools/tool-yitang-research-industry-scan.md|行业扫描：快速建立行业全貌认知]] — yitang, research
-- [[concepts/tools/tool-yitang-research-intelligence-map-in-hand.md|地图在手：建立全局信息获取体系]] — yitang, research
-- [[concepts/tools/tool-yitang-research-normalize-summary.md|归一总结：整合信息形成统一结论]] — yitang, research
-- [[concepts/tools/tool-yitang-research-quantitative-modeling.md|定量建模：用数字说话的分析框架]] — yitang, research
-- [[concepts/tools/tool-yitang-research-single-point-sniper.md|单点狙击：聚焦关键问题的深度验证]] — yitang, research
-- [[concepts/tools/tool-yitang-research-two-dimensional-positioning.md|二维定位：找到差异化竞争的坐标]] — yitang, research
-- [[concepts/tools/tool-yitang-research-unit-model.md|单元模型：找到业务最小单元的经济密码]] — yitang, research
-- [[concepts/tools/tool-yitang-research-validate-assumption.md|调研先行验证假设：在行动前杀死错误想法]] — yitang, research
-- [[concepts/tools/tool-yitang-reverse-data-analysis.md|逆向数据分析：从公开数据反推商业真相]] — yitang, research
-- [[concepts/tools/tool-yitang-review-analysis.md|差评分析：系统化提取竞品缺陷]] — yitang, research
-- [[concepts/tools/tool-yitang-securities-research.md|证券研报：券商分析师的行业深度报告]] — yitang, research
-- [[concepts/tools/tool-yitang-security-guard-intel.md|保安/门卫情报：非正式但有效的信息源]] — yitang, research
-- [[concepts/tools/tool-yitang-shareholder-analysis.md|股东信息穿透：从股权结构看利益格局]] — yitang, research
-- [[concepts/tools/tool-yitang-signup-statistics.md|线上签约统计：通过自增ID推算用户/订单量]] — yitang, research
-- [[concepts/tools/tool-yitang-social-engineering-research.md|社会工程学调研：身份设计与信息获取的合法边界]] — yitang, research
-- [[concepts/tools/tool-yitang-social-media-interview.md|社交媒体采访：在用户活跃的平台做轻量访谈]] — yitang, research
-- [[concepts/tools/tool-yitang-social-media-monitoring.md|社交媒体监控：持续追踪竞对的公开动态]] — yitang, research
-- [[concepts/tools/tool-yitang-stock-data.md|股票/上市公司数据：从二级市场看一级市场]] — yitang, research
-- [[concepts/tools/tool-yitang-store-franchise-research.md|门店加盟调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-supplier-interview.md|供应商访谈：从供应链端获取竞对数据]] — yitang, research
-- [[concepts/tools/tool-yitang-supply-chain-research.md|供应链/合作方情报：从合作方口中拿到竞对的水下数据]] — yitang, research
-- [[concepts/tools/tool-yitang-tech-project-research.md|科技型项目调研手段：浅中深三层10大评估法]] — yitang, research
-- [[concepts/tools/tool-yitang-trend-data.md|趋势数据查询：行业走向的定量判断]] — yitang, research
-- [[concepts/tools/tool-yitang-user-interview-5steps.md|用户访谈五步执行法：画像·场景·信任·提问·判断]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-ai-tools.md|武器库策略10：AI工具——七种AI辅助调研方式]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-anonymous-identity.md|武器库策略7：匿名身份访谈——社会工程学的四种方式]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-field-reconnaissance.md|武器库策略14：线下门店侦察——蹲店·数人头·看运营]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-former-employee-network.md|武器库策略6：前员工人脉网络——六度人脉的实战应用]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-full-product-experience.md|武器库策略3：完整体验产品——从购买到使用的全链路]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-industry-expert.md|武器库策略9：行业专家访谈——五步找到对的专家]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-insider-intelligence.md|武器库策略5：内部人情报——员工/离职员工的信息价值]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-media-search.md|武器库策略12：媒体/社区搜索——从业者观点和专业讨论]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-partner-research.md|武器库策略4：合作方调研——上下游的信息金矿]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-product-reputation.md|武器库策略2：收集产品口碑/舆情——批量获取用户声音]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-product-reverse.md|武器库策略13：产品逆向/拆解——从竞品实物反推技术和成本]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-public-official-info.md|武器库策略8：官方公开信息——公司的十大公开信息源]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-third-party-database.md|武器库策略11：第三方数据库——15+核心数据源]] — yitang, research
-- [[concepts/tools/tool-yitang-weapon-user-direct-interview.md|武器库策略1：直接访谈用户——四种接触方式]] — yitang, research
-- [[concepts/tools/tool-yitang-web-scraping-research.md|全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线]] — yitang
-- [[concepts/tools/tool-yitang-wechat-group-infiltration.md|微信群潜伏：加入竞对的用户/加盟商社群]] — yitang, research
-- [[concepts/tools/tool-yitang-wechat-index.md|微信指数：公众号内容热度追踪]] — yitang, research
-- [[concepts/tools/tool-yitang-weibo-index.md|微博指数：公共话题热度追踪]] — yitang, research
-- [[concepts/tools/tool-yitang-xiaohongshu-data.md|小红书数据：种草热度和用户口碑追踪]] — yitang, research
-- [[concepts/tools/yt-barrier-moat-assessment.md|护城河评估工具]] — Truman
-- [[concepts/tools/yt-business-model-cac-ltv.md|CAC与LTV的实战计算]] — Truman
-- [[concepts/tools/yt-business-model-canvas.md|商业模式画布：一堂版]] — Truman
-- [[concepts/tools/yt-demand-level-assessment.md|需求分析段位自评表：从L1到L6的进阶路径]] — Truman
-- [[concepts/tools/yt-demand-quantitative-estimation.md|市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值]] — Truman
-- [[concepts/tools/yt-demand-segmentation-canvas.md|需求分层画布：从"所有人"到"第一批100个"的结构化工具]] — Truman
-- [[concepts/tools/yt-growth-a-b-testing.md|A/B测试：增长实验的统计基础]] — Truman
-- [[concepts/tools/yt-growth-channel-roi.md|渠道ROI评估与优化]] — Truman
-- [[concepts/tools/yt-growth-cohort-analysis.md|同期群分析：用户行为追踪]] — Truman
-- [[concepts/tools/yt-growth-referral-system.md|推荐系统：老带新的设计框架]] — Truman
-- [[concepts/tools/yt-note-five-levels-training.md|清单体笔记五阶进阶训练法：从理论到现场的完整通关路径]] — yitang, note-taking
-- [[concepts/tools/yt-note-live-field-skill.md|现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册]] — yitang, note-taking
-- [[concepts/tools/yt-pitch-metaphor.md|yt-pitch-metaphor]]
-- [[concepts/tools/yt-pitch-quantification.md|yt-pitch-quantification]]
-- [[concepts/tools/yt-pitch-storytelling.md|yt-pitch-storytelling]]
-- [[concepts/tools/yt-product-kernel-canvas.md|产品内核画布：从问题到解决方案的结构化工具]] — Truman
-- [[concepts/tools/yt-product-kernel-mvp-design.md|内核MVP设计：最小可验证产品]] — Truman
-- [[concepts/tools/yt-product-kernel-ten-metrics.md|产品内核十大典型指标：从假设到验证的数据体系]] — Truman
-- [[concepts/tools/yt-tob-customer-sabc.md|yt-tob-customer-sabc]]
-- [[concepts/tools/yt-tool-ai-ppt-maker.md|AI对话式PPT生成器：把排版变成说话]] — Leo/一堂AI设计课讲师
-- [[concepts/tools/yt-tool-business-formula-metrics-checklist.md|yt-tool-business-formula-metrics-checklist]]
-- [[concepts/tools/yt-tool-equity-checklist.md|股权设计检查清单]] — yitang
-- [[concepts/tools/yt-tool-hiring-scorecard.md|结构化面试打分卡]] — yitang
-- [[concepts/tools/yt-tool-meeting-designer.md|会议设计师：一页纸会议蓝图]] — yitang
-- [[concepts/tools/yt-tool-okr-cycle.md|OKR 制定与复盘罗盘]] — yitang
-- [[concepts/tools/yt-tool-onboarding-90day.md|新人 90 天融入加速器]] — yitang
-- [[concepts/tools/yt-tool-project-health-radar.md|项目健康度雷达]] — yitang
-- [[concepts/tools/yt-tool-strategy-workshop.md|战略研讨会引导手册]] — yitang
-- [[concepts/tools/yt-tool-unit-model-ai-assisted.md|yt tool unit model ai assisted]] — master
-- [[concepts/tools/yt-tool-unit-model-benchmark.md|yt tool unit model benchmark]] — master
-- [[concepts/tools/yt-tool-unit-model-construction.md|yt tool unit model construction]] — master
-- [[concepts/tools/yt-tool-unit-model-dynamic.md|yt tool unit model dynamic]] — master
-- [[concepts/tools/yt-tool-unit-model-selection.md|yt tool unit model selection]] — master
+- [[cases/case-strategy-snack-industry-chain.md|话梅果干产业链分析：从种植到零售的利润分布与竞争格局]] — strategy
+- [[cases/case-strategy-walmart-vs-costco-pyramid.md|沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔]] — strategy
+- [[cases/case-strategy-wuxi-suntech.md|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — strategy
+- [[cases/case-strategy-xiaobear.md|小熊电器：跳出行业范式——定位年轻单身男性]] — strategy
+- [[cases/case-thousand-people-square.md|案例：一堂'千人广场模型'——用统计建模心态做课]] — Truman
+- [[cases/case-toc-content-platform-correlation-trap.md|case-toc-content-platform-correlation-trap]]
+- [[cases/case-toc-ecommerce-formula-misjudgment.md|case-toc-ecommerce-formula-misjudgment]]
+- [[cases/case-toy-cabinet-barrier.md|案例：线下玩具柜的壁垒困局与突围路径]] — yitang
+- [[cases/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — yitang
+- [[cases/case-treadmill-demand-analysis.md|case-treadmill-demand-analysis]]
+- [[cases/case-truman-ai-partner.md|case-truman-ai-partner]]
+- [[cases/case-truman-ai-skill-engineering-guide.md|case-truman-ai-skill-engineering-guide]]
+- [[cases/case-truman-ai-skill-self-packaging.md|case-truman-ai-skill-self-packaging]]
+- [[cases/case-truman-livestream-sop-iteration.md|case-truman-livestream-sop-iteration]]
+- [[cases/case-truman-motivation-map-12-versions.md|case-truman-motivation-map-12-versions]]
+- [[cases/case-truman-personal-growth-map-creation.md|case-truman-personal-growth-map-creation]]
+- [[cases/case-truman-poker-deck-roi.md|case-truman-poker-deck-roi]]
+- [[cases/case-truman-prd-checklist-evolution.md|case-truman-prd-checklist-evolution]]
+- [[cases/case-truman-sales-report-structure.md|案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链]] — Truman
+- [[cases/case-truman-yitang-foresight.md|case-truman-yitang-foresight]]
+- [[cases/case-unit-model-gashapon.md|case-unit-model-gashapon]]
+- [[cases/case-wanghuan-education-sales-capability-extraction.md|王欢案例：教育机构销冠能力萃取系统]] — 王欢
+- [[cases/case-wanghuan-education-sales-paced.md|王欢案例：教育机构用 PACED 还原销冠决策链]] — 王欢
+- [[cases/case-wanghuan-shenyang-software-3x-efficiency.md|王欢案例：沈阳软件公司三层架构实现3倍效率]] — 王欢
+- [[cases/case-wanghuan-yiyu-qingji-medical-notes.md|王欢案例：医语轻记用语音录入缩短病历时间]] — 王欢
+- [[cases/case-xian-franchise-location-decision.md|案例：西安加盟选址——系统调研vs拍脑袋]] — yitang, research
+- [[cases/case-xiaolong-ecommerce-foresight.md|case-xiaolong-ecommerce-foresight]]
+- [[cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗]] — 一堂·Truman
+- [[cases/case-yitang-ai-time-management-coach.md|案例：AI辅助调研——时间管理教练产品验证]] — yitang, research, ai-collaboration
+- [[cases/case-yitang-beauty-device-overseas-sales.md|案例：美容仪出海——用行业报告判断海外市场]] — yitang, research
+- [[cases/case-yitang-competitor-pricing-intelligence.md|案例：假装订货套取竞品真实价格]] — yitang, research
+- [[cases/case-yitang-consumer-offline-channel-decision.md|案例：消费品线下渠道决策——先访谈再算账]] — yitang, research
+- [[cases/case-yitang-doorstep-nail-service-context.md|案例：上门美甲——在用户真实场景中访谈]] — yitang, research
+- [[cases/case-yitang-doorstep-pet-feeding-trust.md|案例：上门宠物喂养——用调研解决信任障碍]] — yitang, research
+- [[cases/case-yitang-double-triangle-confidence.md|case-yitang-double-triangle-confidence]]
+- [[cases/case-yitang-education-supply-chain.md|case-yitang-education-supply-chain]]
+- [[cases/case-yitang-elderly-home-roleplay.md|案例：假扮家属潜入养老院微信群]] — yitang, research
+- [[cases/case-yitang-fake-interview-intelligence.md|案例：假扮面试发现行业红利退潮]] — yitang, research
+- [[cases/case-yitang-hardware-factory-photo.md|案例：从朋友圈照片找到代工厂]] — yitang, research
+- [[cases/case-yitang-homestay-reception-design.md|案例：民宿接待方案——用调研优化服务体验设计]] — yitang, research
+- [[cases/case-yitang-jtbd-story-formula.md|案例：JTBD故事公式——从用户故事中提取需求]] — yitang, research
+- [[cases/case-yitang-luckin-field-research.md|案例：瑞幸做空——实地调研的教科书]] — yitang, research
+- [[cases/case-yitang-mahjong-machine-fake-order.md|案例：假装订货套取麻将机竞品数据]] — yitang, research
+- [[cases/case-yitang-model-asset-inventory.md|case-yitang-model-asset-inventory]]
+- [[cases/case-yitang-model-valuation-flywheel.md|case-yitang-model-valuation-flywheel]]
+- [[cases/case-yitang-mvp-reward-interview-waste.md|案例：MVP阶段花钱做用户访谈的浪费]] — yitang, research
+- [[cases/case-yitang-pet-fostering-user-research.md|案例：宠物寄养——观察现有替代方案]] — yitang, research
+- [[cases/case-yitang-radar-chart-selection.md|case-yitang-radar-chart-selection]]
+- [[cases/case-yitang-sanjieke-benchmark-failure.md|案例：对标三节课做C端，半年后发现对方已转型B端]] — yitang, research
+- [[cases/case-yitang-senior-university-product-design.md|案例：老年大学——用假设链逐层验证赛道可行性]] — yitang, research
+- [[cases/case-yitang-ski-project-user-as-expert.md|案例：滑雪项目——把用户当专家访谈]] — yitang, research
+- [[cases/case-yitang-supplier-security-guard.md|案例：通过保安打听到工厂收购价]] — yitang, research
+- [[cases/case-yitang-tob-artificial-bone.md|案例：人工骨医疗器械上市失败复盘]] — yitang, entrepreneurship, b2b, healthcare
+- [[cases/case-yitang-tob-career-planning.md|案例：新高考选科与生涯规划项目失败复盘]] — yitang, entrepreneurship, b2b, education
+- [[cases/case-yitang-tob-grinding-machine.md|案例：精密磨床自制项目失败复盘]] — yitang, entrepreneurship, b2b, manufacturing
+- [[cases/case-yitang-tob-smart-park.md|案例：智慧园区项目复盘]] — yitang, entrepreneurship, b2b, govtech
+- [[cases/case-yitang-track-selection-research.md|案例：一堂赛道选择——用调研方法论选创业方向]] — yitang, research
+- [[cases/case-yitang-travel-receipt-analysis.md|案例：旅行公司收据分析——从单据反推真实数据]] — yitang, research
+- [[cases/case-yitang-voice-robot-companion-design.md|案例：陪伴式语音机器人——声音设计如何调研]] — yitang, research
+- [[cases/case-yitang-weekly-modeling-engine.md|case-yitang-weekly-modeling-engine]]
+- [[cases/case-zhanglan-amusement-park-undercover.md|案例：张兰假扮游乐园店长卧底15天]] — yitang, research
+- [[cases/case-zhanglei-furniture-overseas-market-selection.md|案例：张磊——洗衣液蹲超市+假扮促销员]] — yitang, research
+- [[cases/case-zhanglei-nursing-home-family.md|案例：假扮孙子调研养老院真实状况]] — yitang, research
+- [[cases/case-zhanglei-twist-egg-machine-yogurt-nursing.md|案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业]] — yitang, research
+- [[cases/case-zhangyang-anchor-sop-three-locks.md|案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%]] — Truman
+- [[cases/case-zhihu-vs-degetao-network-effect.md|案例：知乎vs得到——网络效应壁垒的对比分析]] — yitang
+- [[cases/case-一堂-无人餐厅-hypothesis-failure.md|case-一堂-无人餐厅-hypothesis-failure]]
+- [[cases/case-一堂-陈贤敏汉堡-hypothesis-validation.md|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — 一堂·Truman
+- [[cases/case-半肥猫-course-to-skill.md|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — 半肥猫
+- [[cases/case-纪浩-focus-prompt-design.md|案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接]] — 纪浩
+- [[cases/case-纪浩-from-zip-to-five-layers.md|纪浩：从微信传 zip 到五层协作体系]] — 纪浩
+- [[cases/industrial-ai-ops-cases.md|industrial-ai-ops-cases]]
+- [[cases/smart-medicine-cabinet-clinic-risk-observation.md|smart-medicine-cabinet-clinic-risk-observation]]
+- [[cases/yt-demand-ai-knowledge-base-case.md|AI企业知识库案例：从"技术炫技"到"需求验证"]] — Truman
+- [[cases/yt-demand-treadmill-case.md|跑步机案例：需求分析全流程实战]] — Truman
+- [[cases/yt-lean-beauty-store-conversion.md|美业门店：200→4000转化链路才是关键假设]] — yitang, entrepreneurship, business-strategy
+- [[cases/yt-lean-daily-chemical-mvp.md|日化沐浴露MVP：不生产产品验证行业机会]] — 张磊
+- [[cases/yt-lean-flower-mom-group-leader.md|生活鲜花宝妈团长：拆C端与小B的分阶段验证]] — yitang, entrepreneurship, business-strategy
+- [[cases/yt-product-kernel-shampoo-case.md|洗发水案例：产品内核实战——从"去屑"到"专业形象"]] — Truman
+- [[concept-card-index-latest.md|concept-card-index-latest]]
+- [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — ai-saas
+- [[concepts/EC工业化规范手册.md|EC工业化规范手册]] — healthcare
+- [[concepts/HIS系统开发实现方案-架构师指南.md|HIS系统开发实现方案-架构师指南]] — healthcare
+- [[concepts/HIS系统深度调研.md|HIS系统深度调研]] — healthcare
+- [[concepts/ai-collaboration-mindset-shift.md|ai-collaboration-mindset-shift]]
+- [[concepts/ai-hackathon-pitches.md|AI 大航海项目路演：主题综合索引卡]] — 王语嫣
+- [[concepts/ai-landing-scene-selection.md|ai-landing-scene-selection]]
+- [[concepts/ai-learning-closed-loop.md|ai-learning-closed-loop]]
+- [[concepts/ai-native-im-multi-agent.md|ai-native-im-multi-agent]]
+- [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|ai-native-五层进阶从答案到效率到作品到产品到系统]]
+- [[concepts/ai-short-drama-ice-fire-scripting-compass.md|冰火写本罗盘：AI短剧剧本策划全流程体系]] — 代俊隆
+- [[concepts/ai-short-drama-platform-policy-comparison.md|主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果]] — 代俊隆
+- [[concepts/ai-俱乐部人和-ai-协作-五层结构.md|AI 俱乐部·人和 AI 协作 — 五层结构]] — management, ai-saas, design, yitang, decision-making
+- [[concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md|AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）]] — management, product, business-strategy, ai-saas, yitang
+- [[concepts/aigc文创案例设计课leo文创ip从0到1全流程.md|AIGC文创案例设计课：Leo文创IP从0到1全流程]] — ai-saas, design
+- [[concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — ai-saas, design
+- [[concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — ai-saas, design, business-strategy
+- [[concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — healthcare
+- [[concepts/ai单元模型口述蒋老师.md|ai单元模型口述蒋老师]]
+- [[concepts/ai数据理解第一课.md|ai数据理解第一课]]
+- [[concepts/ai时代判断力口述-3.md|ai时代判断力口述-3]]
+- [[concepts/ai时代判断力口述.md|AI时代判断力口述]] — healthcare
+- [[concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — entrepreneur
+- [[concepts/business-analysis.md|Business Analysis]] — ai-saas
+- [[concepts/business-research-skill-oscar-13-weapon-system.md|business-research-skill-oscar-13-weapon-system]]
+- [[concepts/business-validation-models-collaboration.md|AI 时代的业务验证、商业模式与组织协作：主题综合索引卡]] — 王语嫣
+- [[concepts/concept-ai-native-organization-five-steps.md|concept ai native organization five steps]] — ai-native, management
+- [[concepts/concept-candy-ai-as-collaborator.md|Candy：AI是协作者而非代写工具]] — yitang, content-production, ai-collaboration
+- [[concepts/concept-ceo-must-do-user-research.md|CEO必须亲自做用户调研]] — yitang, research
+- [[concepts/concept-five-step-growth-to-barrier-transition.md|concept-five-step-growth-to-barrier-transition]]
+- [[concepts/concept-harness-cattle-not-pets.md|牲口而非宠物：每次迭代用全新Generator实例]] — yitang, ai-collaboration
+- [[concepts/concept-harness-scoring-anchors.md|评分锚定：1-5分制+语义锚点+取较低值]] — yitang, ai-collaboration
+- [[concepts/concept-ji-hao-ai-collaboration-methodology.md|纪浩 AI 协作方法论：从判断到规模复用的五层体系]] — 纪浩
+- [[concepts/concept-mckinsey-issue-tree.md|concept-mckinsey-issue-tree]]
+- [[concepts/concept-mckinsey-mece.md|concept-mckinsey-mece]]
+- [[concepts/concept-mcp-protocol.md|MCP协议：Agent调用外部工具的统一标准]] — yitang, research, ai-collaboration
+- [[concepts/concept-research-delegation-in-scaling.md|规模化中的调研委派：从"自己做"到"建机制"]] — yitang, research
+- [[concepts/concept-research-responsibility-boundary.md|调研责任边界：道德、法律与生存的平衡]] — yitang, research
+- [[concepts/concept-smart-medicine-cabinet-consumer-acceptance.md|concept-smart-medicine-cabinet-consumer-acceptance]]
+- [[concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md|concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]
+- [[concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md|concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[concepts/concept-smart-medicine-cabinet-international-models.md|concept-smart-medicine-cabinet-international-models]]
+- [[concepts/concept-smart-medicine-cabinet-platform-cooperation-validation.md|concept-smart-medicine-cabinet-platform-cooperation-validation]]
+- [[concepts/concept-smart-medicine-cabinet-supply-chain-validation.md|concept-smart-medicine-cabinet-supply-chain-validation]]
+- [[concepts/concept-strategy-2024-2026-supplement.md|2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区]] — strategy
+- [[concepts/concept-strategy-capability-pyramid.md|战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养]] — strategy
+- [[concepts/concept-strategy-evolution-cycle.md|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — strategy
+- [[concepts/concept-strategy-framework-landscape.md|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — strategy
+- [[concepts/concept-strategy-market-segmentation-yashili.md|细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）]] — strategy
+- [[concepts/concept-thousand-people-square.md|concept-thousand-people-square]]
+- [[concepts/concept-wanghuan-adversarial-generation.md|王欢概念：对抗式生成]] — 王欢
+- [[concepts/concept-wanghuan-ai-native-definition.md|王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程]] — 王欢
+- [[concepts/concept-wanghuan-flywheel-first-loop.md|王欢：AI 飞轮第一圈]] — 王欢
+- [[concepts/concept-wanghuan-power-of-standards.md|王欢：标准的力量——质量乘数]] — 王欢
+- [[concepts/concept-wanghuan-tacit-knowledge-examples.md|王欢：行业暗规则实例库（招聘/招投标/销售/培训）]] — 王欢
+- [[concepts/concept-yitang-ai-research-10-assumptions.md|AI调研十大假设：人机协作的底层原则]] — yitang, research, ai-collaboration
+- [[concepts/concept-yitang-ai-research-human-loop.md|AI调研中人机协作的判断节点]] — yitang, research, ai-collaboration
+- [[concepts/concept-yitang-facts-first.md|事实优先：调研的基本纪律]] — yitang, research
+- [[concepts/concept-yitang-ideal-research-goal.md|理想调研目标三原则：敏感·短期·支撑]] — yitang, research
+- [[concepts/concept-yitang-research-aesthetic.md|调研审美：判断"什么是好的调研"的能力]] — yitang, research
+- [[concepts/concept-yitang-research-facts-first.md|事实优先：区分事实与观点的认知纪律]] — yitang, research
+- [[concepts/concept-yitang-research-mindset.md|调研心态：从"找答案"到"拆假设"]] — yitang, research
+- [[concepts/concept-yitang-research-objective.md|调研目标锁定：从"了解"到"决策"的认知跃迁]] — yitang, research
+- [[concepts/concept-yitang-research-scope.md|调研范围缩小：专注·专业·剥离三原则]] — yitang, research
+- [[concepts/concept-一堂-hypothesis-driven-business-methodology.md|concept-一堂-hypothesis-driven-business-methodology]]
+- [[concepts/concept-一堂-kernel-iteration.md|concept-一堂-kernel-iteration]]
+- [[concepts/concept-一堂-kernel-validation.md|concept-一堂-kernel-validation]]
+- [[concepts/concept-一堂-key-assumptions.md|concept-一堂-key-assumptions]]
+- [[concepts/concept-一堂-product-kernel.md|concept-一堂-product-kernel]]
+- [[concepts/concept-半肥猫-ai-learning-toolification-methodology.md|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — 半肥猫
+- [[concepts/concept-纪浩-ai-collaboration-five-layer.md|概念：纪浩AI协作五层工作空间法]] — 纪浩
+- [[concepts/contingency-decision-making.md|contingency-decision-making]]
+- [[concepts/course-to-skill-conversion.md|course-to-skill-conversion]]
+- [[concepts/data-labeling-best-practices-report.md|数据标注最佳实践调研报告]] — master
+- [[concepts/deepseek-v4-在知识管理系统中的应用.md|DeepSeek V4 在知识管理系统中的应用]] — healthcare
+- [[concepts/design-ai-image-generation.md|Design / Ai Image Generation]] — yitang
+- [[concepts/ec工业化规范手册-v2.8.0.md|ec工业化规范手册-v2.8.0]]
+- [[concepts/fd-forward-deployment.md|fd-forward-deployment]]
+- [[concepts/finance-legal-business-operations.md|企业财务-法务-商务运营实务：主题综合索引卡]] — 王语嫣
+- [[concepts/find-old-do-small.md|find-old-do-small]]
+- [[concepts/graph-rag.md|graph-rag]]
+- [[concepts/industry-ai-cases.md|产业 AI 落地案例集（非药柜）：主题综合索引卡]] — 王语嫣
+- [[concepts/kdo-flywheel.md|kdo-flywheel]]
+- [[concepts/kdo-yaml-frontmatter-safety.md|kdo-yaml-frontmatter-safety]]
+- [[concepts/kdo_product_design_agent_final.md|Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)]] — ai-saas
+- [[concepts/kimi-深度调研集群方法论-deep-research-swarm.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — ai-saas
+- [[concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md|Knowledge Delivery OS 快速体验指南 - 飞书云文档]] — master
+- [[concepts/knowledge-error-self-exposure.md|知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向]] — master
+- [[concepts/learning-thinking.md|Learning Thinking]] — master, personal-growth
+- [[concepts/master-ai-info-literacy.md|AI时代信息素养框架]] — Truman
+- [[concepts/master-antifragile-checklist.md|反脆弱决策检查清单]] — Truman
+- [[concepts/master-cognitive-bias-checklist.md|认知偏差快速诊断清单]] — Truman
+- [[concepts/master-decision-hygiene.md|决策卫生五步法]] — Truman
+- [[concepts/master-first-principles.md|第一性原理]] — Truman
+- [[concepts/master-knowledge-compound.md|知识复利：IPO+萃取+原子化复用]] — Truman
+- [[concepts/master-systems-thinking.md|系统思考：反馈循环与杠杆点]] — Truman
+- [[concepts/meta-prompt-eng.md|Meta Prompt Eng]] — ai-saas
+- [[concepts/modeling-capability-system.md|高阶建模能力体系：一堂从经验到规律的教研方法论]] — 楚门/Truman
+- [[concepts/modeling-three-values.md|modeling-three-values]]
+- [[concepts/paddleocr-skill.md|PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill]] — master
+- [[concepts/personal-growth-complex-systems.md|个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡]] — 王语嫣
+- [[concepts/pilot-atomic-chunk-comparison.md|Pilot：master-decision-hygiene 真原子切分对比]] — ai-saas, decision-making, master
+- [[concepts/prd-as-ai-instruction.md|prd-as-ai-instruction]]
+- [[concepts/product-business-strategy.md|产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡]] — 王语嫣
+- [[concepts/product-ux.md|Product Ux]] — ai-saas
+- [[concepts/skill-1视角升级思考法.md|技能：+1视角升级思考法]] — 一堂课程
+- [[concepts/skill-Truman-AI场景探索STAR模型.md|技能：AI场景探索STAR模型]] — yitang
+- [[concepts/skill-Truman-AI工具选型决策.md|技能：AI工具选型决策]] — yitang
+- [[concepts/skill-Truman-AI时代IPO模型重构.md|技能：AI时代IPO模型重构]] — yitang
+- [[concepts/skill-Truman-AI时代提示词优化法.md|技能：AI时代提示词优化法]] — yitang
+- [[concepts/skill-Truman-AI能力分层学习路径.md|技能：AI能力分层学习路径]] — yitang
+- [[concepts/skill-Truman-AI辅助思考伙伴养成.md|技能：AI辅助思考伙伴养成]] — yitang
+- [[concepts/skill-Truman-AI输出审慎判断与交付确认.md|技能：AI输出审慎判断与交付确认]] — yitang
+- [[concepts/skill-Truman-Feature特性层训练法.md|技能：Feature特性层训练法]] — yitang
+- [[concepts/skill-Truman-Skill全生命周期管理.md|技能：Skill全生命周期管理]] — yitang
+- [[concepts/skill-Truman-XY-Problem识别与真实问题定位.md|技能：XY Problem识别与真实问题定位]] — yitang
+- [[concepts/skill-Truman-上下文质量管理（AI协作）.md|技能：上下文质量管理（AI协作）]] — yitang
+- [[concepts/skill-Truman-个人判断力系统建设（达克效应应对）.md|技能：个人判断力系统建设（达克效应应对）]] — yitang
+- [[concepts/skill-Truman-人在环渐进自动化策略.md|技能：人在环渐进自动化策略]] — yitang
+- [[concepts/skill-Truman-低质量动作识别与拒绝.md|技能：低质量动作识别与拒绝]] — yitang
+- [[concepts/skill-Truman-信息输入持续补全（防AI错误累积）.md|技能：信息输入持续补全（防AI错误累积）]] — yitang
+- [[concepts/skill-Truman-判断力产品化与系统赋能.md|技能：判断力产品化与系统赋能]] — yitang
+- [[concepts/skill-Truman-双三角模型应用.md|技能：双三角模型应用]] — yitang
+- [[concepts/skill-Truman-复杂项目AI落地稳定性保障.md|技能：复杂项目AI落地稳定性保障]] — yitang
+- [[concepts/skill-Truman-多Agent通信协作方案.md|技能：多Agent通信协作方案]] — yitang
+- [[concepts/skill-Truman-开源模型与商业模型融合方案.md|技能：开源模型与商业模型融合方案]] — yitang
+- [[concepts/skill-Truman-技术社区严肃提问法.md|技能：技术社区严肃提问法]] — yitang
+- [[concepts/skill-Truman-提示词优化底层方法.md|技能：提示词优化底层方法]] — yitang
+- [[concepts/skill-Truman-数学题与语文题区分法.md|技能：数学题与语文题区分法]] — yitang
+- [[concepts/skill-Truman-本地记忆与云端记忆管理.md|技能：本地记忆与云端记忆管理]] — yitang
+- [[concepts/skill-Truman-知识库最佳实践构建.md|技能：知识库最佳实践构建]] — yitang
+- [[concepts/skill-Truman-短视频自动化上传工作流.md|技能：短视频自动化上传工作流]] — yitang
+- [[concepts/skill-Truman-科学提问法.md|技能：科学提问法]] — yitang
+- [[concepts/skill-Truman-职场异步协作提问法.md|技能：职场异步协作提问法]] — yitang
+- [[concepts/skill-Truman-语义对齐沟通法.md|技能：语义对齐沟通法]] — yitang
+- [[concepts/skill-Truman-问题定义澄清法.md|技能：问题定义澄清法]] — yitang
+- [[concepts/skill-ai-ai-workspace-setup.md|技能：结构化AI工作空间搭建]] — ai-saas
+- [[concepts/skill-ai-evidence-check.md|技能：AI输出证据核查三问法]] — ai-saas
+- [[concepts/skill-ai-four-elements-validation.md|skill-ai-four-elements-validation]]
+- [[concepts/skill-ai-info-literacy-three-layer.md|skill-ai-info-literacy-three-layer]]
+- [[concepts/skill-ai-landing-five-steps.md|技能：AI落地五步执行流程]] — 马易
+- [[concepts/skill-ai-narrative-test.md|技能：你的方案有叙事力吗？快速测试]] — ai-saas
+- [[concepts/skill-ai-old-small-checklist.md|技能："找老的干小的"场景评估清单]] — ai-saas
+- [[concepts/skill-ai-oral-spray-input.md|技能：用口喷输入法生成高质量 AI 提示词]] — ai-saas
+- [[concepts/skill-ai-parallel-validation.md|技能：平行运行验证法]] — ai-saas
+- [[concepts/skill-ai-prd-for-ai.md|技能：把PRD写成AI能执行的指令]] — ai-saas
+- [[concepts/skill-ai-problem-question-check.md|skill-ai-problem-question-check]]
+- [[concepts/skill-ai-problem-validation.md|技能：问题验证三维度法]] — ai-saas
+- [[concepts/skill-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — ai-saas
+- [[concepts/skill-ai-research-five-steps.md|技能：AI调研五步法]] — 半肥猫
+- [[concepts/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — 马易
+- [[concepts/skill-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — ai-saas
+- [[concepts/skill-ai-voice-input-doubao.md|技能：口喷式语音输入法]] — ai-saas
+- [[concepts/skill-ai辅助学习.md|技能：AI辅助学习]] — 一堂课程
+- [[concepts/skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md|技能：按语义切分文档做向量化]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md|技能：动态读取 + 向量化管理迭代知识]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md|技能：飞书多维表格 + 自建机器人做团队数据协同]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md|技能：告诉 AI 当前日期限制数据时效]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md|技能：将学习成果沉淀为 PRD 文档]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md|技能：判断课程是否值得做成Skill]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md|技能：清洗资料为 Markdown 格式喂给 AI]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md|技能：设计 Skill 的评分规则与风险边界]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md|技能：用 AI 做结构化用户调研]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md|技能：用 Skill 做对比测试验证效果]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md|技能：用 YAML 格式做知识库原子化标签]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md|技能：优先使用官方权威信源做证据]] — 半肥猫
+- [[concepts/skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md|技能：追问 AI 证据并标注信源]] — 半肥猫
+- [[concepts/skill-cognitive-bias-12-check.md|技能：12种认知偏差完整自检]] — 消化全库后提炼
+- [[concepts/skill-decision-delay-intuition.md|技能：延迟直觉法]] — 消化全库后提炼
+- [[concepts/skill-decision-outside-view.md|技能：团队决策外部视角法]] — 消化全库后提炼
+- [[concepts/skill-first-principles-assumption-classify.md|技能：假设分类法（第一性原理）]] — 消化全库后提炼
+- [[concepts/skill-mece体系框架法.md|技能：MECE体系框架法]] — 一堂课程
+- [[concepts/skill-react行动推理循环.md|技能：ReACT行动推理循环]] — Truman
+- [[concepts/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — Truman
+- [[concepts/skill-一堂-five-step-validation.md|技能：聊问查测盘五步验证法]] — Truman
+- [[concepts/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — Truman
+- [[concepts/skill-一堂-kernel-three-questions.md|技能：内核要素三问验证法]] — Truman
+- [[concepts/skill-一堂-product-kernel-add-subtract.md|技能：产品内核加减法]] — Truman
+- [[concepts/skill-一堂-product-kernel-canvas.md|一堂产品内核画布应用技能]] — 一堂·Truman
+- [[concepts/skill-一堂-spectrum-positioning.md|技能：光谱模型定位法]] — Truman
+- [[concepts/skill-三层目标对齐法.md|技能：三层目标对齐法]] — 一堂课程
+- [[concepts/skill-三阶追问法穷尽决策要素.md|技能：三阶追问法穷尽决策要素]] — 一堂课程
+- [[concepts/skill-专家访谈十步法.md|技能：专家访谈十步法]] — 一堂课程设计
+- [[concepts/skill-专家访谈学习.md|技能：专家访谈学习]] — 一堂课程
+- [[concepts/skill-专题笔记整理.md|技能：专题笔记整理]] — 一堂课程
+- [[concepts/skill-专题笔记脑图整理法.md|技能：专题笔记/脑图整理法]] — 一堂课程
+- [[concepts/skill-主动摘要压缩上下文.md|技能：主动摘要压缩上下文]] — Truman
+- [[concepts/skill-人生红点战略对齐.md|技能：人生红点战略对齐]] — 一堂课程
+- [[concepts/skill-从案例中学习.md|技能：从案例中学习]] — 一堂课程
+- [[concepts/skill-从案例中学习正反案例法.md|技能：从案例中学习（正反案例法）]] — 一堂课程
+- [[concepts/skill-代入场景推演要素法.md|技能：代入场景推演要素法]] — 一堂课程
+- [[concepts/skill-任务拆解为工作流.md|技能：任务拆解为工作流]] — Truman
+- [[concepts/skill-体系框架构建.md|技能：体系框架构建]] — 一堂课程
+- [[concepts/skill-使用一页纸速查卡快速调用框架.md|skill-使用一页纸速查卡快速调用框架]]
+- [[concepts/skill-使用优先级快筛卡锁定核心矛盾.md|技能：使用优先级快筛卡锁定核心矛盾]] — 课程设计者
+- [[concepts/skill-使用概念辨析卡区分易混淆概念.md|技能：使用概念辨析卡区分易混淆概念]] — 课程设计者
+- [[concepts/skill-六维窗口期扫描法.md|技能：六维窗口期扫描法]] — 一堂课程
+- [[concepts/skill-分享输出检验法.md|技能：分享输出检验法]] — 一堂课程（费曼学习法延伸）
+- [[concepts/skill-分层标注重点信息.md|技能：分层标注重点信息]] — Truman
+- [[concepts/skill-创始人二当家分工协作模式.md|技能：创始人+二当家分工协作模式]] — 案例讲述者
+- [[concepts/skill-制作行业化要素检查清单.md|技能：制作行业化要素检查清单]] — 课程设计者
+- [[concepts/skill-动手建模提炼.md|技能：动手建模提炼]] — 一堂课程
+- [[concepts/skill-动手建模法.md|技能：动手建模法]] — 一堂课程
+- [[concepts/skill-区分获客渠道计算单元roi.md|技能：区分获客渠道计算单元ROI]] — 一堂课程（未具名讲师）
+- [[concepts/skill-半肥猫-ai-research-validation.md|AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环]] — 半肥猫
+- [[concepts/skill-半肥猫-course-to-skill-workflow.md|课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化]] — 半肥猫
+- [[concepts/skill-半肥猫-课程Skill化的八步工作流.md|技能：课程Skill化的八步工作流]] — 半肥猫
+- [[concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md|技能：边学边练边沉淀的 AI 学习法]] — 半肥猫
+- [[concepts/skill-反向提示获取优化建议.md|技能：反向提示获取优化建议]] — Truman
+- [[concepts/skill-反向教学深化理解.md|技能：反向教学深化理解]] — Truman
+- [[concepts/skill-反向记录整理思路.md|技能：反向记录整理思路]] — Truman
+- [[concepts/skill-反向采访挖掘深度.md|技能：反向采访挖掘深度]] — Truman
+- [[concepts/skill-四层联系建立法.md|技能：四层联系建立法]] — 一堂课程
+- [[concepts/skill-城市合伙人模式复制能力.md|技能：城市合伙人模式复制能力]] — 案例讲述者
+- [[concepts/skill-增强数据供给.md|技能：增强数据供给]] — Truman
+- [[concepts/skill-复盘推演法.md|技能：复盘推演法]] — 一堂课程
+- [[concepts/skill-复盘推演练习.md|技能：复盘推演练习]] — 一堂课程
+- [[concepts/skill-多模型对比抽卡.md|技能：多模型对比抽卡]] — Truman
+- [[concepts/skill-多源输入法.md|技能：多源输入法]] — 一堂课程
+- [[concepts/skill-多轮确认防偏差.md|技能：多轮确认防偏差]] — Truman
+- [[concepts/skill-对标借鉴他人决策维度.md|技能：对标借鉴他人决策维度]] — 一堂课程
+- [[concepts/skill-寻找学习教练法.md|技能：寻找学习教练法]] — 一堂课程
+- [[concepts/skill-封装可复用skill.md|技能：封装可复用Skill]] — Truman
+- [[concepts/skill-将未中标成本纳入循环计算真实投标成本.md|技能：将未中标成本纳入循环计算真实投标成本]] — 一堂课程（未具名讲师）
+- [[concepts/skill-应用人员降级公式实现标准化.md|技能：应用人员降级公式实现标准化]] — 课程设计者
+- [[concepts/skill-建立知识联系.md|技能：建立知识联系]] — 一堂课程
+- [[concepts/skill-建立策略-要素映射表设计对抗策略.md|技能：建立策略-要素映射表设计对抗策略]] — 课程设计者
+- [[concepts/skill-快招品牌总部模拟调研.md|技能：快招品牌总部模拟调研]] — 案例讲述者
+- [[concepts/skill-思维链显化推理.md|技能：思维链显化推理]] — Truman
+- [[concepts/skill-思维验证交叉检验.md|技能：思维验证交叉检验]] — Truman
+- [[concepts/skill-执行对标研究三步法.md|技能：执行对标研究三步法]] — 课程设计者
+- [[concepts/skill-按分阶练习路径渐进掌握方法.md|技能：按分阶练习路径渐进掌握方法]] — 课程设计者
+- [[concepts/skill-按图索骥改良外部模板.md|技能：按图索骥改良外部模板]] — 案例讲述者
+- [[concepts/skill-按月份摊销收入成本做计划.md|技能：按月份摊销收入成本做计划]] — 一堂课程（未具名讲师）
+- [[concepts/skill-推行分层标准化策略.md|技能：推行分层标准化策略]] — 课程设计者
+- [[concepts/skill-提升笔记练习频次的方法.md|技能：提升笔记练习频次的方法]] — 一堂
+- [[concepts/skill-提升笔记阅读舒适度.md|提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦]] — yitang, personal-growth
+- [[concepts/skill-提示词结构化迭代.md|技能：提示词结构化迭代]] — Truman
+- [[concepts/skill-敏捷发布快速迭代搭建体系.md|技能：敏捷发布快速迭代搭建体系]] — 案例讲述者
+- [[concepts/skill-数据分层供给.md|技能：数据分层供给]] — Truman
+- [[concepts/skill-月白-80分效率设计策略.md|技能：80分效率设计策略]] — 月白
+- [[concepts/skill-月白-A-B双轨反推模式选择.md|技能：A/B双轨反推模式选择]] — 月白
+- [[concepts/skill-月白-AIGC产品白底图制作.md|技能：AIGC产品白底图制作]] — 月白
+- [[concepts/skill-月白-AIGC人群画像驱动详情页规划.md|技能：AIGC人群画像驱动详情页规划]] — 月白
+- [[concepts/skill-月白-AIGC反向拆解法.md|技能：AIGC反向拆解法]] — 月白
+- [[concepts/skill-月白-AIGC文字大小精确控制.md|技能：AIGC文字大小精确控制]] — 月白
+- [[concepts/skill-月白-AIGC模型选型决策法.md|技能：AIGC模型选型决策法]] — 月白
+- [[concepts/skill-月白-AIGC橱窗陈列设计流程.md|技能：AIGC橱窗陈列设计流程]] — 月白
+- [[concepts/skill-月白-AIGC海报信息优先级排序法.md|技能：AIGC海报信息优先级排序法]] — 月白
+- [[concepts/skill-月白-AIGC生成人物证件照.md|技能：AIGC生成人物证件照]] — 月白
+- [[concepts/skill-月白-AIGC设计作业复盘法.md|技能：AIGC设计作业复盘法]] — 月白
+- [[concepts/skill-月白-AIGC餐饮海报优化一抽流.md|技能：AIGC餐饮海报优化一抽流]] — 月白
+- [[concepts/skill-月白-AI一句话改图尺寸.md|技能：AI一句话改图尺寸]] — 月白
+- [[concepts/skill-月白-AI人物特征精准描述法.md|技能：AI人物特征精准描述法]] — 月白
+- [[concepts/skill-月白-AI去字-稿定设计加字工作流.md|技能：AI去字+稿定设计加字工作流]] — 月白
+- [[concepts/skill-月白-AI去文字-稿定设计快速出图法.md|技能：AI去文字+稿定设计快速出图法]] — 月白
+- [[concepts/skill-月白-AI图片印刷落地预处理.md|技能：AI图片印刷落地预处理]] — 月白
+- [[concepts/skill-月白-AI图片去文字处理.md|技能：AI图片去文字处理]] — 月白
+- [[concepts/skill-月白-AI图片风格逆向提取（抄图法）.md|技能：AI图片风格逆向提取（抄图法）]] — 月白
+- [[concepts/skill-月白-AI图生图尺寸快速转换.md|技能：AI图生图尺寸快速转换]] — 月白
+- [[concepts/skill-月白-AI对话式海报修改（免PS）.md|技能：AI对话式海报修改（免PS）]] — 月白
+- [[concepts/skill-月白-AI对话情绪管理法.md|技能：AI对话情绪管理法]] — 月白
+- [[concepts/skill-月白-AI工艺图人工复核法.md|技能：AI工艺图人工复核法]] — 月白
+- [[concepts/skill-月白-AI平台算法咨询法.md|技能：AI平台算法咨询法]] — 月白
+- [[concepts/skill-月白-AI归纳共性描述法.md|技能：AI归纳共性描述法]] — 月白
+- [[concepts/skill-月白-AI抽卡效率控制法.md|技能：AI抽卡效率控制法]] — 月白
+- [[concepts/skill-月白-AI提示词精准约束法.md|技能：AI提示词精准约束法]] — 月白
+- [[concepts/skill-月白-AI改图指令精细化.md|技能：AI改图指令精细化]] — 月白
+- [[concepts/skill-月白-AI智价比评估决策.md|技能：AI智价比评估决策]] — 月白
+- [[concepts/skill-月白-AI模型选择决策法.md|技能：AI模型选择决策法]] — 月白
+- [[concepts/skill-月白-AI模型选择策略.md|技能：AI模型选择策略]] — 月白
+- [[concepts/skill-月白-AI海报快速生成法（15分钟无PS）.md|技能：AI海报快速生成法（15分钟无PS）]] — 月白
+- [[concepts/skill-月白-AI生图与图生图决策法.md|技能：AI生图与图生图决策法]] — 月白
+- [[concepts/skill-月白-AI生成IP表情包.md|技能：AI生成IP表情包]] — 月白
+- [[concepts/skill-月白-AI生成图小字控制法.md|技能：AI生成图小字控制法]] — 月白
+- [[concepts/skill-月白-AI生成图片排版控制-尺寸优先法.md|技能：AI生成图片排版控制-尺寸优先法]] — 月白
+- [[concepts/skill-月白-AI生成棉花娃娃形象.md|技能：AI生成棉花娃娃形象]] — 月白
+- [[concepts/skill-月白-AI生成电商白底图.md|技能：AI生成电商白底图]] — 月白
+- [[concepts/skill-月白-AI电商图人工过审处理.md|技能：AI电商图人工精修与平台合规发布]] — 月白
+- [[concepts/skill-月白-AI精准替换产品技巧.md|技能：AI精准替换产品技巧]] — 月白
+- [[concepts/skill-月白-AI自动生成多语种专业名词提示词.md|技能：AI自动生成多语种专业名词提示词]] — 月白
+- [[concepts/skill-月白-AI设计-质价比-决策框架.md|技能：AI设计'质价比'决策框架]] — 月白
+- [[concepts/skill-月白-AI设计三段式里程碑流程.md|技能：AI设计三段式里程碑流程]] — 月白
+- [[concepts/skill-月白-AI设计严苛批评法.md|技能：AI设计严苛批评法]] — 月白
+- [[concepts/skill-月白-AI设计反馈萃取法.md|技能：AI设计反馈萃取法]] — 月白
+- [[concepts/skill-月白-AI设计底层逻辑：从设计到作图到改图.md|技能：AI设计底层逻辑：从设计到作图到改图]] — 月白
+- [[concepts/skill-月白-AI设计落地文件标准生成.md|技能：AI设计落地文件标准生成]] — 月白
+- [[concepts/skill-月白-AI设计里程碑拆解法.md|技能：AI设计里程碑拆解法]] — 月白
+- [[concepts/skill-月白-AI课程内容深度梳理法.md|技能：AI课程内容深度梳理法]] — 月白
+- [[concepts/skill-月白-AI质价比评估方法.md|技能：AI质价比评估方法]] — 月白
+- [[concepts/skill-月白-AI逆向反推描述法.md|技能：AI逆向反推描述法]] — 月白
+- [[concepts/skill-月白-AI需求拆解咨询法.md|技能：AI需求拆解咨询法]] — 月白
+- [[concepts/skill-月白-AI高清重绘去模糊.md|技能：AI高清重绘去模糊]] — 月白
+- [[concepts/skill-月白-PPT全AI生成工作流.md|技能：PPT全AI生成工作流]] — 月白
+- [[concepts/skill-月白-PPT内容框架AIGC生成法.md|技能：PPT内容框架AIGC生成法]] — 月白
+- [[concepts/skill-月白-PPT风格锁定工作流.md|技能：PPT风格锁定工作流]] — 月白
+- [[concepts/skill-月白-PS图层规范管理.md|技能：PS图层规范管理]] — 月白
+- [[concepts/skill-月白-RGB转CMYK印刷预检.md|技能：RGB转CMYK印刷预检]] — 月白
+- [[concepts/skill-月白-RGB转CMYK色彩校准法.md|技能：RGB转CMYK色彩校准法]] — 月白
+- [[concepts/skill-月白-Token效价比决策公式.md|技能：Token效价比决策公式]] — 月白
+- [[concepts/skill-月白-Token效价比决策法.md|技能：Token效价比决策法]] — 月白
+- [[concepts/skill-月白-Token智甲比控制法.md|技能：Token智甲比控制法]] — 月白
+- [[concepts/skill-月白-一抽流改图法（自然语言精准许愿法）.md|技能：一抽流改图法（自然语言精准许愿法）]] — 月白
+- [[concepts/skill-月白-一抽流长提示词写作法.md|技能：一抽流长提示词写作法]] — 月白
+- [[concepts/skill-月白-三步作业反馈法.md|技能：三步作业反馈法]] — 月白
+- [[concepts/skill-月白-产品反光修复术.md|技能：产品反光修复术]] — 月白
+- [[concepts/skill-月白-产品替换式场景合成法.md|技能：产品替换式场景合成法]] — 月白
+- [[concepts/skill-月白-产品白底图标准化制作.md|技能：产品白底图标准化制作]] — 月白
+- [[concepts/skill-月白-产品风格选择：测而非定.md|技能：产品风格选择：测而非定]] — 月白
+- [[concepts/skill-月白-价格带视觉策略匹配.md|技能：价格带视觉策略匹配]] — 月白
+- [[concepts/skill-月白-供应商信息对齐清单法.md|技能：供应商信息对齐清单法]] — 月白
+- [[concepts/skill-月白-像素图高清重绘修复法.md|技能：像素图高清重绘修复法]] — 月白
+- [[concepts/skill-月白-光影灰度控制能力构建.md|技能：光影灰度控制能力构建]] — 月白
+- [[concepts/skill-月白-关键要素提取改图法.md|技能：关键要素提取改图法]] — 月白
+- [[concepts/skill-月白-具体化优点萃取与复用.md|技能：具体化优点萃取与复用]] — 月白
+- [[concepts/skill-月白-分层自洽海报生成法.md|技能：分层自洽海报生成法]] — 月白
+- [[concepts/skill-月白-分步迭代改图法.md|技能：分步迭代改图法]] — 月白
+- [[concepts/skill-月白-创作与执行双模式切换.md|技能：创作与执行双模式切换]] — 月白
+- [[concepts/skill-月白-包材工艺参数核对法.md|技能：包材工艺参数核对法]] — 月白
+- [[concepts/skill-月白-卖点可视化海报设计法.md|技能：卖点可视化海报设计法]] — 月白
+- [[concepts/skill-月白-印刷DPI标准设置.md|技能：印刷DPI标准设置]] — 月白
+- [[concepts/skill-月白-叙事性场景海报构建.md|技能：叙事性场景海报构建]] — 月白
+- [[concepts/skill-月白-口喷作图工作流.md|技能：口喷作图工作流]] — 月白
+- [[concepts/skill-月白-口喷式AIGC设计法.md|技能：口喷式AIGC设计法]] — 月白
+- [[concepts/skill-月白-口喷式设计工作流.md|技能：口喷式设计工作流]] — 月白
+- [[concepts/skill-月白-口述作图法（口喷设计）.md|技能：口述作图法（口喷设计）]] — 月白
+- [[concepts/skill-月白-后台数据AI诊断法.md|技能：后台数据AI诊断法]] — 月白
+- [[concepts/skill-月白-商业项目AI模型选型决策.md|技能：商业项目AI模型选型决策]] — 月白
+- [[concepts/skill-月白-图像信息逆向解析训练.md|技能：图像信息逆向解析训练]] — 月白
+- [[concepts/skill-月白-图片逆向反推提示词法.md|技能：图片逆向反推提示词法]] — 月白
+- [[concepts/skill-月白-图片逆向提示词提取.md|技能：图片逆向提示词提取]] — 月白
+- [[concepts/skill-月白-图生图产品替换与场景合成.md|技能：图生图产品替换与场景合成]] — 月白
+- [[concepts/skill-月白-圈图指定修改法.md|技能：圈图指定修改法]] — 月白
+- [[concepts/skill-月白-基于基础形象做动作延展（1到10）.md|技能：基于基础形象做动作延展（1到10）]] — 月白
+- [[concepts/skill-月白-基于白底图做动作延展.md|技能：基于白底图做动作延展]] — 月白
+- [[concepts/skill-月白-基于需求拆解找设计参考.md|技能：基于需求拆解找设计参考]] — 月白
+- [[concepts/skill-月白-多窗口并行工作法.md|技能：多窗口并行工作法]] — 月白
+- [[concepts/skill-月白-多语种专业名词提示词策略.md|技能：多语种专业名词提示词策略]] — 月白
+- [[concepts/skill-月白-多语言提示词精准法.md|技能：多语言提示词精准法]] — 月白
+- [[concepts/skill-月白-多语言提示词降幻觉法.md|技能：多语言提示词降幻觉法]] — 月白
+- [[concepts/skill-月白-官方提示词最佳实践迁移.md|技能：官方提示词最佳实践迁移]] — 月白
+- [[concepts/skill-月白-实物包装产业链实践.md|技能：实物包装产业链实践]] — 月白
+- [[concepts/skill-月白-实物包装落地训练法.md|技能：实物包装落地训练法]] — 月白
+- [[concepts/skill-月白-审美刻意练习法.md|技能：审美刻意练习法]] — 月白
+- [[concepts/skill-月白-封面情绪转化法.md|技能：封面情绪转化法]] — 月白
+- [[concepts/skill-月白-小红书双重搜索法.md|技能：小红书双重搜索法]] — 月白
+- [[concepts/skill-月白-小红书封面趋势判断法.md|技能：小红书封面趋势判断法]] — 月白
+- [[concepts/skill-月白-小红书平台内容策略：从美图经济到沙雕梗图.md|技能：小红书平台内容策略：从美图经济到沙雕梗图]] — 月白
+- [[concepts/skill-月白-工厂对接信息清单制作.md|技能：工厂对接信息清单制作]] — 月白
+- [[concepts/skill-月白-左手Cubox右手里程碑学习法.md|技能：左手Cubox右手里程碑学习法]] — 月白
+- [[concepts/skill-月白-左脑画面描述训练法.md|技能：左脑画面描述训练法]] — 月白
+- [[concepts/skill-月白-强约束画面尺寸比例.md|技能：强约束画面尺寸比例]] — 月白
+- [[concepts/skill-月白-微信公众号封面AI设计-尺寸强约束法.md|技能：微信公众号封面AI设计-尺寸强约束法]] — 月白
+- [[concepts/skill-月白-手机外设计逻辑切换法.md|技能：手机外设计逻辑切换法]] — 月白
+- [[concepts/skill-月白-手绘草稿AI转化工作流.md|技能：手绘草稿AI转化工作流]] — 月白
+- [[concepts/skill-月白-批量生成多视角素材.md|技能：批量生成多视角素材]] — 月白
+- [[concepts/skill-月白-找AI要平台专属方法（模型对抗法）.md|技能：找AI要平台专属方法（模型对抗法）]] — 月白
+- [[concepts/skill-月白-控制产品画面尺寸比例.md|技能：控制产品画面尺寸比例]] — 月白
+- [[concepts/skill-月白-提示词优化：信息流海报文字修复.md|技能：提示词优化：信息流海报文字修复]] — 月白
+- [[concepts/skill-月白-提示词长度控制法.md|技能：提示词长度控制法]] — 月白
+- [[concepts/skill-月白-文件命名与图层命名规范.md|技能：文件命名与图层命名规范]] — 月白
+- [[concepts/skill-月白-文件命名与存档规范（口述暗示）.md|技能：文件命名与存档规范（口述暗示）]] — 月白
+- [[concepts/skill-月白-文件命名与平台适配规范.md|技能：文件命名与平台适配规范]] — 月白
+- [[concepts/skill-月白-文创产品AI设计到生产的卡点预判.md|技能：文创产品AI设计到生产的卡点预判]] — 月白
+- [[concepts/skill-月白-文创材质成本调研与精益选择.md|技能：文创材质成本调研与精益选择]] — 月白
+- [[concepts/skill-月白-文创材质调研与精益选择.md|技能：文创材质调研与精益选择]] — 月白
+- [[concepts/skill-月白-新媒体平台流量逻辑-问平台亲儿子AI法.md|技能：新媒体平台流量逻辑-问平台亲儿子AI法]] — 月白
+- [[concepts/skill-月白-新媒体热点物料快速迭代法.md|技能：新媒体热点物料快速迭代法]] — 月白
+- [[concepts/skill-月白-新手设计师基本功训练法.md|技能：新手设计师基本功训练法]] — 月白
+- [[concepts/skill-月白-普通人AI快速上手法.md|技能：普通人AI快速上手法]] — 月白
+- [[concepts/skill-月白-普通人AI设计80分法则.md|技能：普通人AI设计80分法则]] — 月白
+- [[concepts/skill-月白-智能扩图-拓图双方案.md|技能：智能扩图/拓图双方案]] — 月白
+- [[concepts/skill-月白-替换大法改图.md|技能：替换大法改图]] — 月白
+- [[concepts/skill-月白-最佳实践素材收集法.md|技能：最佳实践素材收集法]] — 月白
+- [[concepts/skill-月白-服务体验类去AI感设计.md|技能：服务体验类去AI感设计]] — 月白
+- [[concepts/skill-月白-未知领域审美建构法.md|技能：未知领域审美建构法]] — 月白
+- [[concepts/skill-月白-模型性价比选型决策.md|技能：模型性价比选型决策]] — 月白
+- [[concepts/skill-月白-模型识别与边界测试法.md|技能：模型识别与边界测试法]] — 月白
+- [[concepts/skill-月白-正向反馈强化AI生成.md|技能：正向反馈强化AI生成]] — 月白
+- [[concepts/skill-月白-泛产品设计能力迁移法.md|技能：泛产品设计能力迁移法]] — 月白
+- [[concepts/skill-月白-海报二维码快速替换法.md|技能：海报二维码快速替换法]] — 月白
+- [[concepts/skill-月白-海报文字错误修复法.md|技能：海报文字错误修复法]] — 月白
+- [[concepts/skill-月白-灵感画布建立法.md|技能：灵感画布建立法]] — 月白
+- [[concepts/skill-月白-烧Token快速积累体感.md|技能：烧Token快速积累体感]] — 月白
+- [[concepts/skill-月白-用AIGC做设计专家批评复盘.md|技能：用AIGC做设计专家批评复盘]] — 月白
+- [[concepts/skill-月白-用一堂方法论找最佳实践并拉满执行.md|技能：用一堂方法论找最佳实践并拉满执行]] — 月白
+- [[concepts/skill-月白-电商场景图三类分类法.md|技能：电商场景图三类分类法]] — 月白
+- [[concepts/skill-月白-电商场景图三类构建法.md|技能：电商场景图三类构建法]] — 月白
+- [[concepts/skill-月白-电商白底图生成与场景图匹配.md|技能：电商白底图生成与场景图匹配]] — 月白
+- [[concepts/skill-月白-电商白底图生成与高清处理.md|技能：电商白底图生成与高清处理]] — 月白
+- [[concepts/skill-月白-电商白底图生成与高清重绘.md|技能：电商白底图生成与高清重绘]] — 月白
+- [[concepts/skill-月白-电商详情页起承转合架构法.md|技能：电商详情页起承转合架构法]] — 月白
+- [[concepts/skill-月白-眼高手低训练法.md|技能：眼高手低训练法]] — 月白
+- [[concepts/skill-月白-眼高手低转化法.md|技能：眼高手低转化法]] — 月白
+- [[concepts/skill-月白-短视频封面-音量战争-设计法.md|技能：短视频封面'音量战争'设计法]] — 月白
+- [[concepts/skill-月白-短视频封面一秒吸睛法.md|技能：短视频封面一秒吸睛法]] — 月白
+- [[concepts/skill-月白-短视频封面高亮吸睛法.md|技能：短视频封面高亮吸睛法]] — 月白
+- [[concepts/skill-月白-社群直播海报利益点提炼法.md|技能：社群直播海报利益点提炼法]] — 月白
+- [[concepts/skill-月白-竞品图精益替换法.md|技能：竞品图精益替换法]] — 月白
+- [[concepts/skill-月白-精准共用提示词撰写.md|技能：精准共用提示词撰写]] — 月白
+- [[concepts/skill-月白-精准提示词撰写法.md|技能：精准提示词撰写法]] — 月白
+- [[concepts/skill-月白-精准提示词消除模型幻觉.md|技能：精准提示词消除模型幻觉]] — 月白
+- [[concepts/skill-月白-精准改图提示词写法.md|技能：精准改图提示词写法]] — 月白
+- [[concepts/skill-月白-纳米级抄大师训练法.md|技能：纳米级抄大师训练法]] — 月白
+- [[concepts/skill-月白-线下实体门店设计真实体感验证.md|技能：线下实体门店设计真实体感验证]] — 月白
+- [[concepts/skill-月白-线下门店设计复杂度评估.md|技能：线下门店设计复杂度评估]] — 月白
+- [[concepts/skill-月白-背景消除与分辨率修复.md|技能：背景消除与分辨率修复]] — 月白
+- [[concepts/skill-月白-色块分区控制法.md|技能：色块分区控制法]] — 月白
+- [[concepts/skill-月白-薅AIGC羊毛资源法.md|技能：AIGC工具免费试用与入门资源整理]] — 月白
+- [[concepts/skill-月白-行业配色快速确定法.md|技能：行业配色快速确定法]] — 月白
+- [[concepts/skill-月白-表情包风格筛选与确定.md|技能：表情包风格筛选与确定]] — 月白
+- [[concepts/skill-月白-视角替换专用提示法.md|技能：视角替换专用提示法]] — 月白
+- [[concepts/skill-月白-设计参考图精准定位法.md|技能：设计参考图精准定位法]] — 月白
+- [[concepts/skill-月白-设计基本功回归法.md|技能：设计基本功回归法]] — 月白
+- [[concepts/skill-月白-设计师AI工具习惯切换.md|技能：设计师AI工具习惯切换]] — 月白
+- [[concepts/skill-月白-设计师AI资产四类型沉淀.md|技能：设计师AI资产四类型沉淀]] — 月白
+- [[concepts/skill-月白-设计文件八要素命名法.md|技能：设计文件八要素命名法]] — 月白
+- [[concepts/skill-月白-设计素材脱敏处理规范.md|技能：设计素材脱敏处理规范]] — 月白
+- [[concepts/skill-月白-设计能力蒸馏封装法.md|技能：设计能力蒸馏封装法]] — 月白
+- [[concepts/skill-月白-设计需求口头化表达法.md|技能：设计需求口头化表达法]] — 月白
+- [[concepts/skill-月白-设计项目MVP拆解法.md|技能：设计项目MVP拆解法]] — 月白
+- [[concepts/skill-月白-设计项目里程碑拆解法.md|技能：设计项目里程碑拆解法]] — 月白
+- [[concepts/skill-月白-课程资料文件命名规范.md|技能：课程资料文件命名规范]] — 月白
+- [[concepts/skill-月白-课程问题预埋法.md|技能：课程问题预埋法]] — 月白
+- [[concepts/skill-月白-资深设计师AI工具切换法.md|技能：资深设计师AI工具切换法]] — 月白
+- [[concepts/skill-月白-跨境电商产品图替换法.md|技能：跨境电商产品图替换法]] — 月白
+- [[concepts/skill-月白-醒图人脸精修法.md|技能：醒图人脸精修法]] — 月白
+- [[concepts/skill-月白-里程碑思维-找对标优先于做设计.md|技能：里程碑思维-找对标优先于做设计]] — 月白
+- [[concepts/skill-月白-里程碑思维拆解设计流程.md|技能：里程碑思维拆解设计流程]] — 月白
+- [[concepts/skill-月白-风格不变局部调整.md|技能：风格不变局部调整]] — 月白
+- [[concepts/skill-月白-风格探索试错法.md|技能：风格探索试错法]] — 月白
+- [[concepts/skill-月白-餐饮海报AB测试法.md|技能：餐饮海报AB测试法]] — 月白
+- [[concepts/skill-月白-餐饮类线下设计调性把控.md|技能：餐饮类线下设计调性把控]] — 月白
+- [[concepts/skill-李诞-个人IP的重新定义与输出策略.md|技能：个人IP的重新定义与输出策略]] — personal
+- [[concepts/skill-李诞-内容创作中的观察训练法.md|技能：内容创作中的观察训练法]] — design
+- [[concepts/skill-李诞-判断工作价值的交易成本视角.md|技能：判断工作价值的交易成本视角]] — decision-making
+- [[concepts/skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md|技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱]] — personal
+- [[concepts/skill-李诞-销售闭环验证：从0到1的重新定义.md|技能：销售闭环验证：从0到1的重新定义]] — marketing
+- [[concepts/skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md|技能：阅读重读机制：与书籍的'因缘'相遇]] — personal
+- [[concepts/skill-李诞-面对过去错误的平静心法.md|技能：面对过去错误的平静心法]] — decision-making
+- [[concepts/skill-模型匹配调度.md|技能：模型匹配调度]] — Truman
+- [[concepts/skill-模型组合调用.md|技能：模型组合调用]] — Truman
+- [[concepts/skill-水水-保持系统冗余.md|技能：保持系统冗余]] — management
+- [[concepts/skill-水水-利用叙事驱动决策.md|技能：利用叙事驱动决策]] — decision-making
+- [[concepts/skill-水水-利用基因漂变视角.md|技能：利用基因漂变视角]] — design
+- [[concepts/skill-水水-区分风险与不确定性.md|技能：区分风险与不确定性]] — decision-making
+- [[concepts/skill-水水-接受发散性世界观.md|技能：接受发散性世界观]] — decision-making
+- [[concepts/skill-水水-构建自利叙事.md|技能：构建自利叙事]] — healthcare
+- [[concepts/skill-水水-用感性维度构建溢价.md|技能：用感性维度构建溢价]] — design
+- [[concepts/skill-水水-管理决策权重偏差.md|skill-水水-管理决策权重偏差]]
+- [[concepts/skill-水水-练习坦然说不知道.md|技能：练习坦然说不知道]] — marketing
+- [[concepts/skill-水水-警惕概率虚妄安全感.md|技能：警惕概率虚妄安全感]] — yitang
+- [[concepts/skill-水水-警惕错误归因.md|技能：警惕错误归因]] — personal
+- [[concepts/skill-水水-识别关键偶然因素.md|技能：识别关键偶然因素]] — decision-making
+- [[concepts/skill-水水-识别数据折磨陷阱.md|技能：识别数据折磨陷阱]] — decision-making
+- [[concepts/skill-水水-识别模型局限性.md|技能：识别模型局限性]] — decision-making
+- [[concepts/skill-水水-识别自证预言陷阱.md|技能：识别自证预言陷阱]] — management
+- [[concepts/skill-水水-识别超级传播者风险.md|技能：识别超级传播者风险]] — management
+- [[concepts/skill-水水-识别饥饿效应.md|技能：识别饥饿效应]] — decision-making
+- [[concepts/skill-水水-避免原生家庭万能归因.md|技能：避免原生家庭万能归因]] — personal
+- [[concepts/skill-水水-降低故事逻辑要求.md|技能：降低故事逻辑要求]] — design
+- [[concepts/skill-深度分层学习.md|技能：深度分层学习]] — 一堂课程
+- [[concepts/skill-清单小抄制作.md|技能：清单小抄制作]] — 一堂课程
+- [[concepts/skill-清单小抄工具箱法.md|技能：清单小抄工具箱法]] — 一堂课程
+- [[concepts/skill-清单式笔记法.md|技能：清单式笔记法]] — 一堂课程设计
+- [[concepts/skill-渐进式披露上下文.md|技能：渐进式披露上下文]] — Truman
+- [[concepts/skill-现场建模式萃取笔记.md|技能：现场建模式萃取笔记]] — 一堂
+- [[concepts/skill-用topdown方式整理内化笔记.md|技能：用Topdown方式整理内化笔记]] — 一堂
+- [[concepts/skill-用旗舰店替代纯招商投入.md|技能：用旗舰店替代纯招商投入]] — 案例讲述者
+- [[concepts/skill-用清单体记备忘笔记.md|技能：用清单体记备忘笔记]] — 一堂
+- [[concepts/skill-知识库团队管理.md|技能：知识库团队管理]] — 一堂课程设计
+- [[concepts/skill-知识树存储记忆法.md|技能：知识树存储记忆法]] — 一堂课程
+- [[concepts/skill-稀缺资源机会成本比对法.md|技能：稀缺资源机会成本比对法]] — 一堂课程
+- [[concepts/skill-立即实践转化法.md|技能：立即实践转化法]] — 一堂课程
+- [[concepts/skill-纪浩-AI使用边界管理法.md|skill-纪浩-AI使用边界管理法]]
+- [[concepts/skill-纪浩-AI对话上下文隔离.md|skill-纪浩-AI对话上下文隔离]]
+- [[concepts/skill-纪浩-AI工作空间与导诊台设计法.md|技能：AI工作空间与导诊台设计法]] — 纪浩
+- [[concepts/skill-纪浩-AI工具脚本化约束.md|skill-纪浩-AI工具脚本化约束]]
+- [[concepts/skill-纪浩-Agent开工检查单制作法.md|skill-纪浩-Agent开工检查单制作法]]
+- [[concepts/skill-纪浩-Agent技能市场设计法.md|技能：Agent技能市场设计法]] — 纪浩
+- [[concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md|技能：Do-first PDCA渐进迭代法]] — 纪浩
+- [[concepts/skill-纪浩-Problem与Question区分法.md|skill-纪浩-Problem与Question区分法]]
+- [[concepts/skill-纪浩-problem-validation-four-checks.md|技能：四问验证法 —— 判断需求是真实Problem还是伪需求]] — 纪浩
+- [[concepts/skill-纪浩-任务交付物标准化.md|skill-纪浩-任务交付物标准化]]
+- [[concepts/skill-纪浩-低成本输出验证法.md|skill-纪浩-低成本输出验证法]]
+- [[concepts/skill-纪浩-处理AI生成代码运行异常.md|skill-纪浩-处理AI生成代码运行异常]]
+- [[concepts/skill-纪浩-多视角切换思考法.md|技能：多视角切换思考法]] — ai-saas
+- [[concepts/skill-纪浩-新手心态启动法.md|技能：新手心态启动法]] — ai-saas
+- [[concepts/skill-纪浩-日志驱动排查法.md|技能：日志驱动排查法]] — 纪浩
+- [[concepts/skill-纪浩-案例池构建法.md|技能：案例池构建法]] — ai-saas
+- [[concepts/skill-纪浩-真需求四要素验证法.md|技能：真需求四要素验证法]] — 纪浩
+- [[concepts/skill-纪浩-线上问题应急值守.md|技能：线上问题应急值守]] — ai-saas
+- [[concepts/skill-纪浩-评估AI从零写UI的可行性.md|技能：评估AI从零写UI的可行性]] — ai-saas
+- [[concepts/skill-纪浩-识别AI不可维护代码.md|技能：识别AI不可维护代码]] — ai-saas
+- [[concepts/skill-纪浩-里程碑验证法.md|技能：里程碑验证法]] — ai-saas
+- [[concepts/skill-纪浩-问题导向备课法.md|技能：问题导向备课法]] — ai-saas
+- [[concepts/skill-纪浩-项目启动五问法.md|技能：项目启动五问法]] — ai-saas
+- [[concepts/skill-自我反馈修正笔记姿势.md|技能：自我反馈修正笔记姿势]] — 一堂
+- [[concepts/skill-自我反馈检验.md|技能：自我反馈检验]] — 一堂课程
+- [[concepts/skill-获取他人反馈优化笔记.md|技能：获取他人反馈优化笔记]] — 一堂
+- [[concepts/skill-设定管理杠杆率指标评估效率.md|技能：设定管理杠杆率指标评估效率]] — 课程设计者
+- [[concepts/skill-设计对抗效果追踪看板.md|技能：设计对抗效果追踪看板]] — 课程设计者
+- [[concepts/skill-费曼学习法三句话提炼.md|技能：费曼学习法三句话提炼]] — 一堂课程（费曼学习法变体）
+- [[concepts/skill-费曼学习法实践讲香课题.md|技能：费曼学习法实践（讲香课题）]] — 一堂课程设计
+- [[concepts/skill-费曼简单提炼法.md|技能：费曼简单提炼法]] — 一堂课程（费曼学习法）
+- [[concepts/skill-辩证讨论法.md|技能：辩证讨论法]] — 一堂课程
+- [[concepts/skill-辩证讨论深化.md|技能：辩证讨论深化]] — 一堂课程
+- [[concepts/skill-逐字稿练习演讲.md|技能：逐字稿练习演讲]] — 一堂课程设计
+- [[concepts/skill-通过综合案例沙盘走通全流程.md|技能：通过综合案例沙盘走通全流程]] — 课程设计者
+- [[concepts/skill-通过请吃饭获取行业内部资料.md|技能：通过请吃饭获取行业内部资料]] — 案例讲述者
+- [[concepts/skill-遵循规模前倾原则设计组织架构.md|技能：遵循规模前倾原则设计组织架构]] — 课程设计者
+- [[concepts/skill-采用滚动预测机制.md|技能：采用滚动预测机制]] — 课程设计者
+- [[concepts/skill-问题驱动式深度思考笔记.md|问题驱动式深度思考笔记：用真问题取代真记录]] — yitang, personal-growth
+- [[concepts/skill-项目复盘基本功.md|技能：项目复盘基本功]] — 一堂课程设计
+- [[concepts/skill-马易-AIGC项目ROI评估.md|技能：AIGC项目ROI评估]] — 马易
+- [[concepts/skill-马易-AI任务拆解提升控制度.md|技能：AI任务拆解提升控制度]] — ai-saas
+- [[concepts/skill-马易-AI搜索公网数据增强（合规边界）.md|技能：AI搜索公网数据增强（合规边界）]] — ai-saas
+- [[concepts/skill-马易-AI答疑运营风格适配.md|技能：AI答疑运营风格适配]] — ai-saas
+- [[concepts/skill-马易-AI能力团队复制.md|技能：AI能力团队复制]] — ai-saas
+- [[concepts/skill-马易-AI落地前置条件验证.md|技能：AI落地前置条件验证]] — ai-saas
+- [[concepts/skill-马易-AI落地四阶段验证法.md|技能：AI落地四阶段验证法]] — ai-saas
+- [[concepts/skill-马易-AI落地场景筛选-四有新人法则.md|技能：AI落地场景筛选-四有新人法则]] — ai-saas
+- [[concepts/skill-马易-AI落地场景识别-拆工作流找场景.md|技能：AI落地场景识别-拆工作流找场景]] — ai-saas
+- [[concepts/skill-马易-AI落地场景识别与拆分.md|技能：AI落地场景识别与拆分]] — ai-saas
+- [[concepts/skill-马易-AI落地能力内化训练.md|技能：AI落地能力内化训练]] — ai-saas
+- [[concepts/skill-马易-AI落地认知速成-最佳实践学习法.md|技能：AI落地认知速成-最佳实践学习法]] — ai-saas
+- [[concepts/skill-马易-AI项目上线-先平行再独行.md|技能：AI项目上线-先平行再独行]] — ai-saas
+- [[concepts/skill-马易-AI项目需求拆解筛选.md|技能：AI项目需求拆解筛选]] — ai-saas
+- [[concepts/skill-马易-RPA数据整合法.md|技能：RPA数据整合法]] — ai-saas
+- [[concepts/skill-马易-业务为先的AI中台建设.md|skill-马易-业务为先的AI中台建设]]
+- [[concepts/skill-马易-业务问题AI化拆解-餐饮设计案例法.md|技能：业务问题AI化拆解-餐饮设计案例法]] — ai-saas
+- [[concepts/skill-马易-中国企业AI落地五步法.md|技能：中国企业AI落地五步法]] — ai-saas
+- [[concepts/skill-马易-低置信度样本黄金漏斗处理.md|技能：低置信度样本黄金漏斗处理]] — ai-saas
+- [[concepts/skill-马易-公寓获客自跑通原则.md|技能：公寓获客自跑通原则]] — marketing
+- [[concepts/skill-马易-关键假设识别与验证.md|技能：关键假设识别与验证]] — ai-saas
+- [[concepts/skill-马易-减少输入噪音法.md|技能：减少输入噪音法]] — ai-saas
+- [[concepts/skill-马易-判断标准快速产出法.md|技能：判断标准快速产出法]] — ai-saas
+- [[concepts/skill-马易-工作流优先于AIGC的决策方法.md|技能：工作流优先于AIGC的决策方法]] — 马易
+- [[concepts/skill-马易-工作流拆解找场景.md|技能：工作流拆解找场景]] — ai-saas
+- [[concepts/skill-马易-平台模式验证法.md|技能：平台模式验证法]] — ai-saas
+- [[concepts/skill-马易-成为首位F工程师.md|技能：成为首位F工程师]] — ai-saas
+- [[concepts/skill-马易-数字员工FD拆解落地.md|技能：数字员工FD拆解落地]] — ai-saas
+- [[concepts/skill-马易-数据存储架构选择.md|技能：数据存储架构选择]] — management
+- [[concepts/skill-马易-数据标注正确法.md|技能：数据标注正确法]] — ai-saas
+- [[concepts/skill-马易-时间序列大模型场景识别.md|技能：时间序列大模型场景识别]] — ai-saas
+- [[concepts/skill-马易-最小场景优先落地法.md|技能：最小场景优先落地法]] — ai-saas
+- [[concepts/skill-马易-深度沉浸需求挖掘.md|技能：深度沉浸需求挖掘]] — ai-saas
+- [[concepts/skill-马易-痛点驱动的数字化.md|技能：痛点驱动的数字化]] — ai-saas
+- [[concepts/skill-马易-知识库-回答技巧双建设.md|技能：知识库+回答技巧双建设]] — marketing
+- [[concepts/skill-马易-视频转化关键要素标注校验.md|技能：视频转化关键要素标注校验]] — marketing
+- [[concepts/skill-马易-销售智能体体系搭建路径.md|技能：销售智能体体系搭建路径]] — marketing
+- [[concepts/skill-马易-隐性知识萃取与模型化.md|技能：隐性知识萃取与模型化]] — ai-saas
+- [[concepts/skill-马易-隐私安全分层解决.md|技能：隐私安全分层解决]] — ai-saas
+- [[concepts/skill-马易-需求创造验证法.md|技能：需求创造验证法]] — ai-saas
+- [[concepts/skill-马易-风口痛点识别法.md|技能：风口痛点识别法]] — ai-saas
+- [[concepts/smart-medicine-cabinet-distribution.md|智能药柜分销业态洞察]] — 医药零售, 智能药柜, 分销系统
+- [[concepts/smart-medicine-cabinet-national-policy-redlines.md|smart-medicine-cabinet-national-policy-redlines]]
+- [[concepts/smart-medicine-cabinet-o2o-cost-structure.md|smart-medicine-cabinet-o2o-cost-structure]]
+- [[concepts/smart-medicine-cabinet-regional-policy-map.md|smart-medicine-cabinet-regional-policy-map]]
+- [[concepts/source-code-delivery-model.md|源码交付模式]] — SaaS, 商业模式, 软件交付
+- [[concepts/sprint-2-门禁举证验收.md|Sprint 2 门禁举证验收]] — master
+- [[concepts/structured-ai-workspace.md|structured-ai-workspace]]
+- [[concepts/supply-chain-beverage.md|餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡]] — 王语嫣
+- [[concepts/tinyfish-agentic-web-infrastructure.md|TinyFish — Agentic Web 基础设施建设层 Skill]] — master
+- [[concepts/tools-workflows.md|Tools Workflows]] — healthcare
+- [[concepts/truman-perspective-skill.md|truman-perspective-skill]]
+- [[concepts/voice-input-doubao.md|voice input doubao]] — product, ai-saas, decision-making, yitang
+- [[concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md|web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
+- [[concepts/writing-content.md|Writing Content]] — ai-saas
+- [[concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md|YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN]] — ai-saas
+- [[concepts/yitang-course-map.md|yitang-course-map]]
+- [[concepts/yitang-huazong-ama-by-industry.md|yitang-huazong-ama-by-industry]]
+- [[concepts/yitang-huazong-ama-summary.md|yitang-huazong-ama-summary]]
+- [[concepts/yitang-methodology-system.md|yitang-methodology-system]]
+- [[concepts/yitang-qualitative-to-quantitative.md|一堂·从定性到定量：先证伪、后测量]] — yitang, entrepreneurship, business-strategy
+- [[concepts/yitang-strategy-canvas.md|战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线]] — yitang
+- [[concepts/yt-barrier-analysis-cheat-sheet.md|壁垒分析完整cheatsheet]] — yitang
+- [[concepts/yt-barrier-brand-equity.md|品牌资产：认知与信任]] — Truman
+- [[concepts/yt-barrier-culture-moat.md|文化护城河：难以复制]] — Truman
+- [[concepts/yt-barrier-data-assets.md|数据资产：数据网络效应]] — Truman
+- [[concepts/yt-barrier-defensive-strategy.md|防御策略：守住壁垒]] — Truman
+- [[concepts/yt-barrier-identification-skill.md|yt-barrier-identification-skill]]
+- [[concepts/yt-barrier-network-effects-deep.md|网络效应深度：同边、跨边、数据、生态]] — Truman
+- [[concepts/yt-barrier-offensive-strategy.md|进攻策略：突破竞品壁垒]] — Truman
+- [[concepts/yt-barrier-regulatory.md|监管壁垒：牌照与合规]] — Truman
+- [[concepts/yt-barrier-scale-economies.md|规模经济：成本优势]] — Truman
+- [[concepts/yt-barrier-supply-chain.md|供应链壁垒：资源独占]] — Truman
+- [[concepts/yt-barrier-switching-costs.md|转换成本：让用户离不开]] — Truman
+- [[concepts/yt-barrier-talent-density.md|人才密度：组织壁垒]] — Truman
+- [[concepts/yt-barrier-technology-moat.md|技术护城河：专利与研发]] — Truman
+- [[concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — yitang
+- [[concepts/yt-business-formula-l6-essence-formulas.md|yt-business-formula-l6-essence-formulas]]
+- [[concepts/yt-business-formula-parameter-iceberg.md|业务公式参数冰山（L1-L6）]] — 孔阳
+- [[concepts/yt-business-formula-six-level-logic.md|业务公式六层逻辑关系（L1 模糊 → L6 动态）]] — 孔阳
+- [[concepts/yt-business-formula-ten-paradigms.md|yt-business-formula-ten-paradigms]]
+- [[concepts/yt-business-model-asset-light.md|轻资产模式：资源杠杆]] — Truman
+- [[concepts/yt-business-model-b2b-pricing.md|B2B定价策略：从SMB到Enterprise]] — Truman
+- [[concepts/yt-business-model-cash-flow.md|现金流管理：商业模式的血液循环]] — Truman
+- [[concepts/yt-business-model-competitive-moat.md|商业模式护城河：持续竞争优势]] — Truman
+- [[concepts/yt-business-model-definition.md|商业模式定义：从内核到变现]] — Truman
+- [[concepts/yt-business-model-freemium.md|免费增值模式：获客与变现的平衡]] — Truman
+- [[concepts/yt-business-model-margin-structure.md|毛利率结构分析：钱从哪来，到哪去]] — Truman
+- [[concepts/yt-business-model-network-effects.md|网络效应：平台型商业模式的核心]] — Truman
+- [[concepts/yt-business-model-partnership.md|合作伙伴策略：生态与联盟]] — Truman
+- [[concepts/yt-business-model-pricing-psychology.md|定价心理学：让用户觉得值]] — Truman
+- [[concepts/yt-business-model-revenue-types.md|收入模式：6种典型变现方式]] — Truman
+- [[concepts/yt-business-model-subscription.md|订阅制商业模式：从一次性到持续收入]] — Truman
+- [[concepts/yt-case-mandatory-cases.md|一堂案例必修课]] — yitang
+- [[concepts/yt-composite-pan-product-methodology.md|yt-composite-pan-product-methodology]]
+- [[concepts/yt-concept-ai-guard-brain.md|yt-concept-ai-guard-brain]]
+- [[concepts/yt-concept-context-engineering.md|上下文工程：充分≠越多越好]] — yitang, ai
+- [[concepts/yt-concept-p-type-l-type.md|P型与L型创业者]] — yitang
+- [[concepts/yt-concept-peas-insight.md|PEAS核心洞察：决策系统的四槽诊断法]] — master
+- [[concepts/yt-concept-weapon-arsenal.md|yt-concept-weapon-arsenal]]
+- [[concepts/yt-customer-acquisition-toolkit.md|获客工具合集]] — yitang
+- [[concepts/yt-decision-ai-partner.md|yt-decision-ai-partner]]
+- [[concepts/yt-decision-canvas.md|yt-decision-canvas]]
+- [[concepts/yt-decision-consensus-iceberg.md|yt-decision-consensus-iceberg]]
+- [[concepts/yt-decision-depth-ladder.md|深度阶梯工具：L1-L4停车场模型 + 三点预测法]] — yitang
+- [[concepts/yt-decision-full-process.md|yt-decision-full-process]]
+- [[concepts/yt-decision-habit-shift.md|yt-decision-habit-shift]]
+- [[concepts/yt-decision-height-toolkit.md|yt-decision-height-toolkit]]
+- [[concepts/yt-decision-review.md|yt-decision-review]]
+- [[concepts/yt-decision-width-method.md|yt-decision-width-method]]
+- [[concepts/yt-decision-y-model.md|yt-decision-y-model]]
+- [[concepts/yt-demand-analysis-hiking-map.md|需求分析爬山地图]] — yitang
+- [[concepts/yt-demand-b2b-vs-b2c.md|ToB vs ToC需求分析差异：决策链、频率与验证方法]] — Truman
+- [[concepts/yt-demand-hierarchy-model.md|需求层次模型：真需求、伪需求与衍生需求]] — Truman
+- [[concepts/yt-demand-motivation-resistance.md|需求动机与阻力分析：为什么用户"需要"但"不用"]] — Truman
+- [[concepts/yt-demand-peak-end-rule.md|峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点]] — Truman
+- [[concepts/yt-demand-qualitative-analysis.md|需求定性分析框架：拆推评算四步法]] — Truman
+- [[concepts/yt-demand-user-segmentation.md|用户分层与需求差异：从"所有人"到"第一批100个"]] — Truman
+- [[concepts/yt-entrepreneur-259-milestone.md|259里程碑]] — yitang
+- [[concepts/yt-entrepreneur-barriers.md|项目壁垒]] — yitang
+- [[concepts/yt-entrepreneur-business-growth.md|业务增长]] — yitang
+- [[concepts/yt-entrepreneur-channel-exploration.md|渠道探索]] — yitang
+- [[concepts/yt-entrepreneur-concentration-analysis.md|集中度分析]] — yitang
+- [[concepts/yt-entrepreneur-five-step-method.md|yt-entrepreneur-five-step-method]]
+- [[concepts/yt-entrepreneur-fundraising.md|融资认知]] — yitang
+- [[concepts/yt-entrepreneur-growth-flywheel.md|yt-entrepreneur-growth-flywheel]]
+- [[concepts/yt-entrepreneur-industrial-production.md|工业化生产]] — yitang
+- [[concepts/yt-entrepreneur-industry-forecast.md|商业预判15字诀]] — yitang
+- [[concepts/yt-entrepreneur-key-hypotheses.md|yt-entrepreneur-key-hypotheses]]
+- [[concepts/yt-entrepreneur-lean-validation.md|yt-entrepreneur-lean-validation]]
+- [[concepts/yt-entrepreneur-liberate-thinking.md|yt-entrepreneur-liberate-thinking]]
+- [[concepts/yt-entrepreneur-needs-analysis.md|yt-entrepreneur-needs-analysis]]
+- [[concepts/yt-entrepreneur-opportunity-selection.md|机会选择]] — yitang
+- [[concepts/yt-entrepreneur-pragmatic-startup.md|务实创业]] — yitang
+- [[concepts/yt-entrepreneur-product-core.md|产品内核定义、迭代与验证方法论]] — yitang
+- [[concepts/yt-entrepreneur-research-camp.md|调研行动营：从调研认知到AI调研武器库]] — yitang
+- [[concepts/yt-entrepreneur-research-cognition.md|yt-entrepreneur-research-cognition]]
+- [[concepts/yt-entrepreneur-scientific-method.md|Y模型/科学方法]] — yitang
+- [[concepts/yt-entrepreneur-spin-selling.md|SPIN销售法：顾问式销售的奠基之作]] — yitang
+- [[concepts/yt-entrepreneur-truth-seeking.md|实事求是]] — yitang
+- [[concepts/yt-entrepreneur-unit-model.md|yt-entrepreneur-unit-model]]
+- [[concepts/yt-five-step-common-pitfalls.md|yt-five-step-common-pitfalls]]
+- [[concepts/yt-five-step-implementation.md|yt-five-step-implementation]]
+- [[concepts/yt-five-step-level-blindspots.md|暗知识：五步法的段位盲区与自评陷阱]] — yitang
+- [[concepts/yt-five-step-method.md|yt-five-step-method]]
+- [[concepts/yt-foresight-15-char-mantra.md|yt-foresight-15-char-mantra]]
+- [[concepts/yt-foresight-ab-steady-state.md|yt-foresight-ab-steady-state]]
+- [[concepts/yt-foresight-addition-subtraction.md|加法减法实操：从100个选项到3个高概率方向]] — yitang
+- [[concepts/yt-foresight-deliverables-four-levels.md|yt-foresight-deliverables-four-levels]]
+- [[concepts/yt-foresight-model-taxonomy.md|预判模型分类]] — yitang
+- [[concepts/yt-foresight-probability-engineering.md|yt-foresight-probability-engineering]]
+- [[concepts/yt-foresight-ten-fatal-flaws.md|十大硬伤：商业机会的致死缺陷清单]] — yitang
+- [[concepts/yt-growth-acquisition-channels.md|获客渠道：流量获取的6大类型]] — Truman
+- [[concepts/yt-growth-activation-rate.md|激活率：让用户第一次体验到价值]] — Truman
+- [[concepts/yt-growth-cycle-model.md|增长周期模型]] — yitang
+- [[concepts/yt-growth-growth-hacking.md|增长黑客：低成本快速实验]] — Truman
+- [[concepts/yt-growth-market-led-growth.md|市场驱动增长：MLG模式]] — Truman
+- [[concepts/yt-growth-monetization-optimization.md|变现优化：从免费到付费]] — Truman
+- [[concepts/yt-growth-product-led-growth.md|产品驱动增长：PLG模式]] — Truman
+- [[concepts/yt-growth-sales-led-growth.md|销售驱动增长：SLG模式]] — Truman
+- [[concepts/yt-growth-user-onboarding.md|用户 onboarding：第一印象设计]] — Truman
+- [[concepts/yt-growth-viral-mechanism.md|病毒传播：自增长机制设计]] — Truman
+- [[concepts/yt-lean-daily-probability-decision.md|假设驱动日常决策三问]] — yitang, entrepreneurship, business-strategy
+- [[concepts/yt-lean-essence.md|一堂张磊版精益测试的本质：用少量试错成本降低系统性风险]] — 张磊
+- [[concepts/yt-management-basic-skills.md|基本功认知]] — ai-saas, management, yitang
+- [[concepts/yt-management-business-formula.md|yt-management-business-formula]]
+- [[concepts/yt-management-company-culture.md|yt-management-company-culture]]
+- [[concepts/yt-management-conversion-hacking.md|yt-management-conversion-hacking]]
+- [[concepts/yt-management-finance-basics.md|yt-management-finance-basics]]
+- [[concepts/yt-management-founder-role.md|一号位]] — ai-saas, management, yitang
+- [[concepts/yt-management-goal-management.md|目标管理]] — ai-saas, management, yitang
+- [[concepts/yt-management-leadership-levels.md|管理段位]] — ai-saas, management, kdo, yitang
+- [[concepts/yt-management-onboarding.md|yt-management-onboarding]]
+- [[concepts/yt-management-partnership-equity.md|yt-management-partnership-equity]]
+- [[concepts/yt-management-project-management.md|项目管理]] — product, ai-saas, management, yitang
+- [[concepts/yt-management-scientific-decision.md|yt-management-scientific-decision]]
+- [[concepts/yt-management-scientific-hiring.md|yt-management-scientific-hiring]]
+- [[concepts/yt-management-scientific-meetings.md|科学开会]] — ai-saas, management, yitang
+- [[concepts/yt-management-strategy-meeting.md|战略会]] — ai-saas, management, decision-making, yitang
+- [[concepts/yt-management-team-knowledge.md|yt-management-team-knowledge]]
+- [[concepts/yt-management-toolkit-overview.md|yt-management-toolkit-overview]]
+- [[concepts/yt-market-size-estimation.md|市场规模估算四种方法]] — yitang
+- [[concepts/yt-model-aesthetic-progression.md|yt-model-aesthetic-progression]]
+- [[concepts/yt-model-agent-architecture.md|智能体架构：PEAS与五层Agent模型]] — ai-models
+- [[concepts/yt-model-cognitive-upgrade-framework.md|认知升级十步框架：从「读书」到「安装认知补丁」]] — master
+- [[concepts/yt-model-conversion-optimization.md|yt-model-conversion-optimization]]
+- [[concepts/yt-model-deep-review-iceberg.md|深度复盘冰山图：从主观感受到能力建设的五层穿透]] — yitang
+- [[concepts/yt-model-deliberate-practice-growth.md|刻意练习十年成长指数：为什么有人一年顶十年]] — yitang
+- [[concepts/yt-model-dual-triangle-competitiveness.md|yt-model-dual-triangle-competitiveness]]
+- [[concepts/yt-model-entrepreneur-map.md|yt-model-entrepreneur-map]]
+- [[concepts/yt-model-five-step-canvas.md|yt-model-five-step-canvas]]
+- [[concepts/yt-model-ipo-complete-checklist.md|IPO 科学学习完整清单]] — yitang
+- [[concepts/yt-model-ipo-learning-strategy.md|yt-model-ipo-learning-strategy]]
+- [[concepts/yt-model-liberate-thinking-layers.md|解放思想五层模型]] — yitang
+- [[concepts/yt-model-management-map.md|管理修炼地图]] — yitang
+- [[concepts/yt-model-muse-ai-framework.md|MUSE 人工智能全景图]] — yitang
+- [[concepts/yt-model-pan-product-36-strategies.md|yt-model-pan-product-36-strategies]]
+- [[concepts/yt-model-pan-product-aesthetic-toolkit.md|yt-model-pan-product-aesthetic-toolkit]]
+- [[concepts/yt-model-pan-product-climbing-map.md|yt-model-pan-product-climbing-map]]
+- [[concepts/yt-model-pan-product-demand-toolkit.md|yt-model-pan-product-demand-toolkit]]
+- [[concepts/yt-model-pan-product-execution-toolkit.md|yt-model-pan-product-execution-toolkit]]
+- [[concepts/yt-model-pan-product-three-virtues.md|yt-model-pan-product-three-virtues]]
+- [[concepts/yt-model-personal-map.md|yt-model-personal-map]]
+- [[concepts/yt-model-personal-pitch-toolkit.md|yt-model-personal-pitch-toolkit]]
+- [[concepts/yt-model-prediction-model.md|预判模型：从最糙版到复杂版的三种预判范式]] — yitang
+- [[concepts/yt-model-product-core-metrics.md|产品内核十大典型指标：从获客到推荐的度量框架]] — yitang
+- [[concepts/yt-model-product-excellence.md|顶级产品追求：品味、最佳实践与乔布斯的审美哲学]] — yitang
+- [[concepts/yt-model-progress-map.md|yt-model-progress-map]]
+- [[concepts/yt-model-prompt-engineering.md|yt-model-prompt-engineering]]
+- [[concepts/yt-model-questioning-practice-canvas.md|提问刻意练习提升画布]] — yitang
+- [[concepts/yt-model-scientific-questioning-map.md|科学提问刻意练习地图]] — yitang
+- [[concepts/yt-model-truman-career-routes.md|楚门的选择：两条职业成长路线 X vs Y]] — yitang
+- [[concepts/yt-model-truman-five-step-growth.md|Truman的个人成长五步法：用一页纸解释全部人生规划]] — yitang
+- [[concepts/yt-model-y-organization.md|Y 型创业模型]] — yitang
+- [[concepts/yt-note-ai-human-division.md|yt-note-ai-human-division]]
+- [[concepts/yt-note-checklist-concept.md|yt-note-checklist-concept]]
+- [[concepts/yt-note-deliberate-practice-four-elements.md|四要素诊断模型——刻意练习的笔记落地框架]] — yitang
+- [[concepts/yt-note-expert-interview-modeling.md|专家访谈式笔记：边聊边建模的高阶认知工作流]] — yitang, personal-growth
+- [[concepts/yt-note-extensive-research-input.md|广泛涉猎式笔记：以问题为入口的多源交叉认知法]] — yitang, personal-growth
+- [[concepts/yt-note-fact-pattern-insight.md|事实→规律→见解：深度思考笔记的三段论结构]] — yitang, personal-growth
+- [[concepts/yt-note-l4-internalization.md|清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃]] — yitang
+- [[concepts/yt-note-l6-extraction.md|清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品]] — yitang
+- [[concepts/yt-note-problem-solving-capability.md|笔记能力=解决问题能力：从备忘工具到问题解决系统]] — yitang, personal-growth
+- [[concepts/yt-panproduct-aesthetic-collection.md|yt-panproduct-aesthetic-collection]]
+- [[concepts/yt-panproduct-aesthetic-imagination.md|yt-panproduct-aesthetic-imagination]]
+- [[concepts/yt-panproduct-aesthetic-modeling.md|yt-panproduct-aesthetic-modeling]]
+- [[concepts/yt-panproduct-aesthetic-pool.md|yt-panproduct-aesthetic-pool]]
+- [[concepts/yt-panproduct-demand-five-step-method.md|yt-panproduct-demand-five-step-method]]
+- [[concepts/yt-panproduct-demand-industry-canvas.md|yt-panproduct-demand-industry-canvas]]
+- [[concepts/yt-panproduct-demand-motivation-resistance.md|yt-panproduct-demand-motivation-resistance]]
+- [[concepts/yt-panproduct-demand-multi-perspective.md|yt-panproduct-demand-multi-perspective]]
+- [[concepts/yt-panproduct-demand-need-discovery.md|yt-panproduct-demand-need-discovery]]
+- [[concepts/yt-panproduct-demand-peak-end-rule.md|yt-panproduct-demand-peak-end-rule]]
+- [[concepts/yt-panproduct-demand-project-background.md|yt-panproduct-demand-project-background]]
+- [[concepts/yt-panproduct-demand-scenario-walkthrough.md|yt-panproduct-demand-scenario-walkthrough]]
+- [[concepts/yt-panproduct-demand-surprise-formula.md|yt-panproduct-demand-surprise-formula]]
+- [[concepts/yt-panproduct-demand-user-perspective.md|yt-panproduct-demand-user-perspective]]
+- [[concepts/yt-panproduct-demand-user-segmentation.md|yt-panproduct-demand-user-segmentation]]
+- [[concepts/yt-panproduct-execution-10x-validation.md|yt-panproduct-execution-10x-validation]]
+- [[concepts/yt-panproduct-execution-business-modeling.md|yt-panproduct-execution-business-modeling]]
+- [[concepts/yt-panproduct-execution-core-and-boundary.md|yt-panproduct-execution-core-and-boundary]]
+- [[concepts/yt-panproduct-execution-design-principles.md|yt-panproduct-execution-design-principles]]
+- [[concepts/yt-panproduct-execution-good-tools.md|yt-panproduct-execution-good-tools]]
+- [[concepts/yt-panproduct-execution-hypothesis-decomposition.md|yt-panproduct-execution-hypothesis-decomposition]]
+- [[concepts/yt-panproduct-execution-idea-spark.md|yt-panproduct-execution-idea-spark]]
+- [[concepts/yt-panproduct-execution-incubation-polish.md|yt-panproduct-execution-incubation-polish]]
+- [[concepts/yt-panproduct-execution-liberate-thinking.md|yt-panproduct-execution-liberate-thinking]]
+- [[concepts/yt-panproduct-execution-logic-mece.md|yt-panproduct-execution-logic-mece]]
+- [[concepts/yt-panproduct-execution-low-cost-mvp.md|yt-panproduct-execution-low-cost-mvp]]
+- [[concepts/yt-panproduct-execution-management-trilogy.md|yt-panproduct-execution-management-trilogy]]
+- [[concepts/yt-panproduct-execution-milestone-breakdown.md|yt-panproduct-execution-milestone-breakdown]]
+- [[concepts/yt-panproduct-execution-realistic-simulation.md|yt-panproduct-execution-realistic-simulation]]
+- [[concepts/yt-panproduct-execution-review-iteration.md|yt-panproduct-execution-review-iteration]]
+- [[concepts/yt-panproduct-execution-risk-management.md|yt-panproduct-execution-risk-management]]
+- [[concepts/yt-panproduct-execution-roi-analysis.md|yt-panproduct-execution-roi-analysis]]
+- [[concepts/yt-panproduct-execution-war-room.md|yt-panproduct-execution-war-room]]
+- [[concepts/yt-personal-ai-capability.md|yt-personal-ai-capability]]
+- [[concepts/yt-personal-ai-thinking-card.md|AI思维卡：从「读书」到「安装认知补丁」]] — personal-methods
+- [[concepts/yt-personal-checklist-notes.md|清单体笔记（一堂笔记法）]] — yitang
+- [[concepts/yt-personal-deep-review.md|yt-personal-deep-review]]
+- [[concepts/yt-personal-deliberate-practice.md|科学成长（刻意练习）]] — yitang
+- [[concepts/yt-personal-inspiration-flash.md|灵感闪现（认知篇）]] — yitang
+- [[concepts/yt-personal-ipo-learning.md|yt-personal-ipo-learning]]
+- [[concepts/yt-personal-knowledge-extraction.md|yt-personal-knowledge-extraction]]
+- [[concepts/yt-personal-knowledge-management.md|知识管理]] — yitang
+- [[concepts/yt-personal-pan-product-02.md|yt-personal-pan-product-02]]
+- [[concepts/yt-personal-pan-product-aesthetics.md|yt-personal-pan-product-aesthetics]]
+- [[concepts/yt-personal-pan-product-concepts.md|yt-personal-pan-product-concepts]]
+- [[concepts/yt-personal-pan-product-exploration.md|yt-personal-pan-product-exploration]]
+- [[concepts/yt-personal-pan-product-practice.md|yt-personal-pan-product-practice]]
+- [[concepts/yt-personal-pan-product-tools.md|yt-personal-pan-product-tools]]
+- [[concepts/yt-personal-product-design.md|泛产品设计]] — yitang
+- [[concepts/yt-personal-scientific-expression.md|yt-personal-scientific-expression]]
+- [[concepts/yt-personal-thinking-models.md|思维模型：从碎片经验到稳定模型]] — yitang
+- [[concepts/yt-personal-time-management.md|时间管理]] — yitang
+- [[concepts/yt-personal-verbatim-script.md|逐字稿]] — yitang
+- [[concepts/yt-personal-y-model-exploration-2.md|yt-personal-y-model-exploration-2]]
+- [[concepts/yt-personal-y-model-practice.md|Y模型实操：科学成事的底层操作系统]] — yitang
+- [[concepts/yt-pitch-aphorism.md|yt-pitch-aphorism]]
+- [[concepts/yt-pitch-colloquialization.md|yt-pitch-colloquialization]]
+- [[concepts/yt-pitch-conflict.md|yt-pitch-conflict]]
+- [[concepts/yt-pitch-emotionalization.md|yt-pitch-emotionalization]]
+- [[concepts/yt-pitch-materialization.md|yt-pitch-materialization]]
+- [[concepts/yt-pitch-scenarization.md|yt-pitch-scenarization]]
+- [[concepts/yt-pitch-sublimation.md|yt-pitch-sublimation]]
+- [[concepts/yt-product-kernel-add-subtract.md|产品内核的加减法：什么该加，什么该减]] — Truman
+- [[concepts/yt-product-kernel-aesthetic.md|产品内核与审美：从"好用"到"美好"]] — Truman
+- [[concepts/yt-product-kernel-boundary.md|内核与边界：什么该做，什么不该做]] — Truman
+- [[concepts/yt-product-kernel-competitive-positioning.md|内核竞争定位：差异化策略]] — Truman
+- [[concepts/yt-product-kernel-cultivation.md|产品内核修炼段位图]] — yitang
+- [[concepts/yt-product-kernel-definition.md|产品内核定义：用户愿意选择你的最小解决方案]] — Truman
+- [[concepts/yt-product-kernel-evolution.md|内核演化：从V1到Vn]] — Truman
+- [[concepts/yt-product-kernel-key-conversion.md|关键转化率：产品内核的北极星指标]] — Truman
+- [[concepts/yt-product-kernel-user-perspective.md|用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"]] — Truman
+- [[concepts/yt-product-ten-metrics.md|产品内核十大典型指标]] — yitang
+- [[concepts/yt-prompt-anti-flattery.md|反谄媚机制：让AI说真话]] — yitang, ai
+- [[concepts/yt-prompt-brainstorming.md|AI头脑风暴工作流]] — yitang, ai
+- [[concepts/yt-prompt-engineering-andrew-ng.md|yt-prompt-engineering-andrew-ng]]
+- [[concepts/yt-prompt-iterative-prompting.md|迭代式提示词工作流（5步法）]] — yitang, ai
+- [[concepts/yt-prompt-writing-workflow.md|AI写作工作流：大纲→要点→全文]] — yitang, ai
+- [[concepts/yt-research-action-camp-launch.md|一堂调研行动营 · 启动课（LLM 精炼）]] — yitang
+- [[concepts/yt-research-competitor-toolkit.md|竞品拆解工具包：三层分类+内核边界+单元模型对标]] — yitang
+- [[concepts/yt-research-expert-interview.md|专家访谈工具：2小时获取行业共识的标准流程]] — yitang
+- [[concepts/yt-research-hypothesis-test.md|假设验证调研工具：关键假设→可证伪问题→最小实验]] — yitang
+- [[concepts/yt-research-industry-canvas.md|行业分析画布：五维快速扫描+二维定位]] — yitang
+- [[concepts/yt-research-intelligence-map.md|情报获取全景地图：13+渠道穷尽手段]] — yitang
+- [[concepts/yt-research-mindset.md|调研认知升级：从"找答案"到"拆解假设"]] — yitang
+- [[concepts/yt-research-osl-framework.md|OSL调研五步法：一堂通用商业调研框架]] — yitang
+- [[concepts/yt-research-user-jtbd.md|用户JTBD访谈工具：区分"说的"和"真正要的"]] — yitang
+- [[concepts/yt-research-weaponry-course.md|一堂调研武器库课程]] — yitang
+- [[concepts/yt-scale-economy-weapon-library.md|规模经济分析武器库]] — yitang
+- [[concepts/yt-skill-checklist-as-ai-protocol.md|清单体作为AI的I/O协议——用笔记替代prompt工程]] — yitang
+- [[concepts/yt-skill-p-role-prompt-design.md|P 角色 Prompt 设计——执行者型 AI 的交付规范]] — yitang
+- [[concepts/yt-skill-storyline-contrast-analysis.md|清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度]] — yitang
+- [[concepts/yt-skill-storyline-key-elements.md|清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的']] — yitang
+- [[concepts/yt-skill-storyline-problem-solving.md|清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链]] — yitang
+- [[concepts/yt-skill-storyline-target-tradeoff.md|清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架]] — yitang
+- [[concepts/yt-skill-storyline-timeline.md|清单体故事线①：严格时间线——用时间轴重构事件因果链]] — yitang
+- [[concepts/yt-system-course-catalog.md|一堂全课程目录索引]] — yitang
+- [[concepts/yt-system-course-map-lecture.md|一堂课程地图精华串讲]] — yitang
+- [[concepts/yt-tob-cash-flow.md|To B 现金流管理：自由现金流比账面利润更重要]] — yitang, entrepreneurship, b2b, business-strategy
+- [[concepts/yt-tob-revenue-is-customer-cost.md|To B 收入本质 = 客户成本]] — yitang, entrepreneurship, b2b, business-strategy
+- [[concepts/yt-tob-sales-unit-model.md|yt-tob-sales-unit-model]]
+- [[concepts/yt-tool-best-practice-learning.md|yt-tool-best-practice-learning]]
+- [[concepts/yt-tool-fab-persuasion.md|yt-tool-fab-persuasion]]
+- [[concepts/yt-tool-foresight-canvas.md|yt-tool-foresight-canvas]]
+- [[concepts/yt-tool-knowledge-extraction.md|团队知识萃取器]] — yitang
+- [[concepts/yt-tool-mental-model-refinement.md|yt-tool-mental-model-refinement]]
+- [[concepts/yt-tool-peas-agent-analysis.md|PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统]] — master
+- [[concepts/yt-tool-product-core-canvas.md|yt-tool-product-core-canvas]]
+- [[concepts/yt-tool-y-model-ruler.md|yt-tool-y-model-ruler]]
+- [[concepts/yt-unit-model-ai-assisted.md|AI+单元模型：TCP-R双导师与出口式咨询实践]] — entrepreneur, master, ai
+- [[concepts/yt-unit-model-benchmark.md|单元模型基准值：科学类比、三点预测与基准值共建]] — entrepreneur, master
+- [[concepts/yt-unit-model-build.md|yt-unit-model-build]]
+- [[concepts/yt-unit-model-concept.md|yt-unit-model-concept]]
+- [[concepts/yt-unit-model-construction.md|单元模型构建法：拆推评算与ABCD模型分类]] — entrepreneur, master
+- [[concepts/yt-unit-model-dynamic.md|动态单元模型：规模变量、拐点预判与规模经济对抗]] — entrepreneur, master
+- [[concepts/yt-unit-model-selection.md|yt-unit-model-selection]]
+- [[concepts/yt-unit-model-three-tools.md|单元模型三工具：斧子尺子梯子]] — yitang
+- [[concepts/互联网医院模式深度调研报告.md|互联网医院模式深度调研报告]]
+- [[concepts/人机协作决策-双三角模型.md|人机协作决策-双三角模型]]
+- [[concepts/保达云诊所深度调研报告.md|保达云诊所深度调研报告]] — healthcare
+- [[concepts/在设计小伙伴的反馈还挺好的.md|在设计小伙伴的反馈还挺好的。]] — ai-saas
+- [[concepts/存储策略.md|存储策略]] — master
+- [[concepts/学会提问在信息洪流中锻造批判性思维的利刃.md|学会提问在信息洪流中锻造批判性思维的利刃]]
+- [[concepts/开源HIS系统代码深度分析报告.md|开源HIS系统代码深度分析报告]] — healthcare
+- [[concepts/数据标注维度最佳实践调研报告.md|数据标注维度最佳实践调研报告]] — kdo, ai-saas, design
+- [[concepts/紫鲸ai智能体工作流平台.md|紫鲸AI智能体工作流平台]] — ai-saas
+- [[concepts/老朱的水感-2026年5月.md|老朱的水感 — 2026年5月]] — ai-saas
+- [[concepts/街顺app全面调研报告.md|街顺APP全面调研报告]] — healthcare
+- [[concepts/视觉prompt三层操作系统-srom-visual-os.md|视觉Prompt三层操作系统 (SROM Visual OS)]] — ai-saas, design
+- [[concepts/诊所o2o外卖平台业务深度调研报告.md|诊所o2o外卖平台业务深度调研报告]]
+- [[concepts/轻量级诊所HIS调研全清单.md|轻量级诊所HIS调研全清单]] — healthcare
+- [[concepts/那今天不会.md|那今天不会。]] — ai-saas
+- [[concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾his系统分阶段整改报告]]
+- [[dark-knowledges/dk-ai-entrepreneur-technical-blindspot.md|暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个']] — 一堂
+- [[dark-knowledges/dk-ai-judgment-human-responsibility.md|人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果]] — ai-saas, yitang
+- [[dark-knowledges/dk-ai-judgment-programmer-paradox.md|程序员的AI悖论：写AI工具的人最晚享受到AI红利]] — ai-saas, yitang
+- [[dark-knowledges/dk-ban-fei-mao-atomic-no-standard.md|暗知识：原子化没有固定标准]] — 半肥猫
+- [[dark-knowledges/dk-ban-fei-mao-real-business-is-the-engine.md|暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁]] — 半肥猫
+- [[dark-knowledges/dk-ban-fei-mao-silky-answer-warning.md|暗知识：AI 回答越丝滑，问题越大]] — 半肥猫
+- [[dark-knowledges/dk-ban-fei-mao-silky-answers-are-dangerous.md|暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱]] — 半肥猫
+- [[dark-knowledges/dk-ban-fei-mao-skill-rejection-value.md|暗知识：Skill 的最大价值不是生成，是拒绝]] — 半肥猫
+- [[dark-knowledges/dk-c1-cjk-regex-silent-fail.md|C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败]] — Builder
+- [[dark-knowledges/dk-c10-batch-tool-no-dry-run.md|dk-c10-batch-tool-no-dry-run]]
+- [[dark-knowledges/dk-c11-hongqigong-skip-review.md|dk-c11-hongqigong-skip-review]]
+- [[dark-knowledges/dk-c2-dual-status-machine.md|C-2：Schema status 字段混用两个状态机→字段值互相污染]] — Builder
+- [[dark-knowledges/dk-c3-txt-ingest-skip.md|C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功]] — Builder
+- [[dark-knowledges/dk-c4-selfcheck-superseded.md|dk-c4-selfcheck-superseded]]
+- [[dark-knowledges/dk-c5-todo-false-positive.md|dk-c5-todo-false-positive]]
+- [[dark-knowledges/dk-c6-large-source-overflow.md|dk-c6-large-source-overflow]]
+- [[dark-knowledges/dk-c7-auto-backup-conflict.md|dk-c7-auto-backup-conflict]]
+- [[dark-knowledges/dk-c8-format-complete-mind-empty.md|dk-c8-format-complete-mind-empty]]
+- [[dark-knowledges/dk-c9-batch-trigger-garbage.md|dk-c9-batch-trigger-garbage]]
+- [[dark-knowledges/dk-decision-value-overrides-roi.md|Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用]] — 黄药师、老朱
+- [[dark-knowledges/dk-demand-feature-stacking.md|功能堆叠陷阱：加功能≠满足需求]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-hidden-need.md|隐性需求伪装：用户说的≠用户要的]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-misjudgment-rate.md|30-50%创业失败源于需求误判]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-dialer.md|踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-financial-literacy.md|踩坑：少儿财商——刚性误判。用户说重要≠会付费]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-indonesia-insurance.md|踩坑：印尼寿险——场景错配。Situation变了，需求不存在]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-restaurant-hiring.md|踩坑：麦家小馆——频次高估。需求强烈≠高频]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-rural-5g.md|踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-tier4-housekeeping.md|踩坑：四线家政——天花板误判。普遍性高≠能做大]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-pitfall-travel-agent.md|踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-premature-solution.md|过早进入解决方案空间——冰山模型的根本价值]] — yitang, five-step-method
+- [[dark-knowledges/dk-demand-switching-cost.md|新体验-旧体验-切换成本=产品价值]] — yitang, five-step-method
+- [[dark-knowledges/dk-ef-001-sn74lvc2g07-open-drain.md|开漏输出的陷阱：上拉电阻太大导致信号边沿变缓]] — 黄药师
+- [[dark-knowledges/dk-ef-002-bom-version-async.md|BOM 多版本不同步：你手里的文件和产线手里的不是同一份]] — 黄药师
+- [[dark-knowledges/dk-ef-003-hand-soldering-bom-divergence.md|手焊板的隐性修改：原型调通了但量产就是不行]] — 黄药师
+- [[dark-knowledges/dk-ef-004-missing-diagnostic-firmware.md|没有诊断固件就是盲调：你不知道信号卡在哪一级]] — 黄药师
+- [[dark-knowledges/dk-f1-regex-on-cjk.md|F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched]] — system
+- [[dark-knowledges/dk-f10-broken-source-refs.md|dk-f10-broken-source-refs]]
+- [[dark-knowledges/dk-f11-encyclopedia-style.md|F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景]] — system
+- [[dark-knowledges/dk-f12-builder-context-deadlock.md|dk-f12-builder-context-deadlock]]
+- [[dark-knowledges/dk-f13-handwritten-yaml-parser.md|F-KDO-013：手写 YAML 解析器导致嵌套数据丢失]] — system
+- [[dark-knowledges/dk-f14-accuracy-measurement-mismatch.md|F-KDO-014：准确率声明的测量口径不一致]] — system
+- [[dark-knowledges/dk-f2-txt-ingest-skip.md|F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功]] — system
+- [[dark-knowledges/dk-f3-state-json-race-condition.md|dk-f3-state-json-race-condition]]
+- [[dark-knowledges/dk-f4-wrong-workdir.md|dk-f4-wrong-workdir]]
+- [[dark-knowledges/dk-f5-stale-feedback-ref.md|dk-f5-stale-feedback-ref]]
+- [[dark-knowledges/dk-f6-cjk-skeleton-corruption.md|dk-f6-cjk-skeleton-corruption]]
+- [[dark-knowledges/dk-f7-surface-translation.md|dk-f7-surface-translation]]
+- [[dark-knowledges/dk-f8-phony-wikilink.md|dk-f8-phony-wikilink]]
+- [[dark-knowledges/dk-f9-generic-critique.md|dk-f9-generic-critique]]
+- [[dark-knowledges/dk-five-step-framework-legitimizes-bias.md|暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析]] — Truman
+- [[dark-knowledges/dk-foresight-source-material-blindness.md|暗知识：素材命名不一致导致完整口述稿被遗漏]] — yitang
+- [[dark-knowledges/dk-foresight-tier-skip-illusion.md|暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快]] — yitang, business-strategy
+- [[dark-knowledges/dk-fundamentals-before-advanced-ops.md|基本功未内化就强上高阶操作——高阶工具失效的头号根因]] — Truman / 纪浩 / 老朱
+- [[dark-knowledges/dk-infrastructure-guardrails-over-checklist.md|dk-infrastructure-guardrails-over-checklist]]
+- [[dark-knowledges/dk-jh-llm-time-blindness.md|LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别]] — ai-saas
+- [[dark-knowledges/dk-ji-hao-ai-cant-design-structure.md|暗知识：AI不会自己搞结构设计]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-constraint-beats-talent.md|暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-logs-fastest-ignored.md|暗知识：日志增长最快但最容易被忽视]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-newbie-can-validate.md|暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-novice-mindset-advantage.md|暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-pdca-starts-from-do.md|暗知识：PDCA从Do开始不是从Plan开始]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-problem-vs-question.md|暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem]] — 纪浩
+- [[dark-knowledges/dk-ji-hao-simple-complex-routing.md|暗知识：简单系统跳过导诊台，复杂系统必须路由]] — 纪浩
+- [[dark-knowledges/dk-kdo-leaky-pipe-pressure.md|暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死]] — 黄药师
+- [[dark-knowledges/dk-level-blindspot-external-feedback.md|暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法]] — Truman
+- [[dark-knowledges/dk-lz-ai-native-organization.md|AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足]] — ai-saas, business-strategy
+- [[dark-knowledges/dk-lz-code-is-disposable.md|代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产]] — 老朱
+- [[dark-knowledges/dk-mckinsey-hypothesis-driven-pitfalls.md|dk-mckinsey-hypothesis-driven-pitfalls]]
+- [[dark-knowledges/dk-modeling-ai-compound-leverage.md|AI 加杠杆最大的场景是建模，因为好模型会被反复调用]] — Truman
+- [[dark-knowledges/dk-modeling-ai-cross-validation.md|拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤]] — Truman
+- [[dark-knowledges/dk-modeling-ai-iterative-prompting.md|AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限]] — Truman
+- [[dark-knowledges/dk-modeling-ai-judgment-limit.md|AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响]] — Truman
+- [[dark-knowledges/dk-modeling-ai-self-retrospection.md|AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单]] — Truman
+- [[dark-knowledges/dk-modeling-ai-without-judgment.md|dk-modeling-ai-without-judgment]]
+- [[dark-knowledges/dk-modeling-business-visual-logic-match.md|dk-modeling-business-visual-logic-match]]
+- [[dark-knowledges/dk-modeling-case-explosion-confidence.md|案例大爆炸的底气：来自销冠广场，不是胆子大]] — Truman
+- [[dark-knowledges/dk-modeling-checklist-formatting-rules.md|dk-modeling-checklist-formatting-rules]]
+- [[dark-knowledges/dk-modeling-counterexample-driven.md|dk-modeling-counterexample-driven]]
+- [[dark-knowledges/dk-modeling-course-rnd-ripe-fruit.md|dk-modeling-course-rnd-ripe-fruit]]
+- [[dark-knowledges/dk-modeling-essence-predictive.md|'解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策]] — Truman
+- [[dark-knowledges/dk-modeling-expert-consensus-five-percent.md|5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感]] — Truman
+- [[dark-knowledges/dk-modeling-explanatory-vs-predictive-essence.md|解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践]] — Truman
+- [[dark-knowledges/dk-modeling-logical-cleanliness-root.md|dk-modeling-logical-cleanliness-root]]
+- [[dark-knowledges/dk-modeling-model-arsenal-paradigms.md|99% 的模型跑不出二三十个范式：先装武器库再创新]] — Truman
+- [[dark-knowledges/dk-modeling-question-scaffold-not-answer.md|模型是提问的脚手架，不是答案]] — yitang, modeling, business-strategy
+- [[dark-knowledges/dk-modeling-radar-model-not-result.md|复杂评选别让 CEO 拍结果，只让 CEO 审模型]] — Truman
+- [[dark-knowledges/dk-modeling-sop-execution-locks.md|SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%]] — Truman
+- [[dark-knowledges/dk-modeling-timely-review-session-window.md|离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内]] — Truman
+- [[dark-knowledges/dk-modeling-unit-pairs-milestone.md|里程碑不是任务清单，是"成对单元模型"拼出来的]] — Truman
+- [[dark-knowledges/dk-my-ai-landing-three-barriers.md|AI落地三大壁垒：从"会用"到"用好"的黑洞]] — ai-saas
+- [[dark-knowledges/dk-note-maximum-common-divisor.md|清单体是人与AI的'最大公约数'：结构降级即认知升级]] — Truman
+- [[dark-knowledges/dk-note-rookie-disaster-veteran-heaven.md|“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机]] — Truman
+- [[dark-knowledges/dk-note-surplus-brainpower.md|“剩余脑力”：高阶笔记的唯一货币与分水岭]] — Truman
+- [[dark-knowledges/dk-p1-model-switch-env.md|dk-p1-model-switch-env]]
+- [[dark-knowledges/dk-p10-oral-ban.md|dk-p10-oral-ban]]
+- [[dark-knowledges/dk-p11-regex-cutoff.md|dk-p11-regex-cutoff]]
+- [[dark-knowledges/dk-p13-token-burn.md|dk-p13-token-burn]]
+- [[dark-knowledges/dk-p14-zombie.md|dk-p14-zombie]]
+- [[dark-knowledges/dk-p15-unverified.md|dk p15 unverified]] — product
+- [[dark-knowledges/dk-p16-validate-reads-state-json.md|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — system
+- [[dark-knowledges/dk-p17-accuracy-gap.md|P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度]] — system
+- [[dark-knowledges/dk-p18-yaml-parser.md|dk-p18-yaml-parser]]
+- [[dark-knowledges/dk-p19-quote-yaml.md|dk-p19-quote-yaml]]
+- [[dark-knowledges/dk-p2-tmux-cache.md|P-2：tmux session 缓存旧配置]] — system
+- [[dark-knowledges/dk-p20-bigram-fail.md|dk-p20-bigram-fail]]
+- [[dark-knowledges/dk-p3-auth-cache.md|P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env]] — system
+- [[dark-knowledges/dk-p4-batch-format-empty.md|P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)]] — system
+- [[dark-knowledges/dk-p5-cc-connect-config.md|dk-p5-cc-connect-config]]
+- [[dark-knowledges/dk-p6-session-resume-fail.md|dk-p6-session-resume-fail]]
+- [[dark-knowledges/dk-p7-ocr-skip.md|dk-p7-ocr-skip]]
+- [[dark-knowledges/dk-p8-toolkit-forget.md|dk-p8-toolkit-forget]]
+- [[dark-knowledges/dk-p9-glob-miss.md|dk-p9-glob-miss]]
+- [[dark-knowledges/dk-pseudo-demand-trap.md|暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地]] — yitang, business-strategy
+- [[dark-knowledges/dk-signal-cluster-illusion.md|暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕]] — yitang, ai
+- [[dark-knowledges/dk-skill-market-agent-self-install.md|暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述]] — 纪浩
+- [[dark-knowledges/dk-small-format-error-cascades-to-system-failure.md|dk-small-format-error-cascades-to-system-failure]]
+- [[dark-knowledges/dk-state-residue-is-the-silent-killer.md|dk-state-residue-is-the-silent-killer]]
+- [[dark-knowledges/dk-strategy-01-not-goal-setting.md|战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是]] — strategy
+- [[dark-knowledges/dk-strategy-02-three-paradoxes.md|战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层]] — strategy
+- [[dark-knowledges/dk-strategy-03-advantage-temporary.md|竞争优势难持久。30年前500强90%已消失——竞争优势≠永久]] — strategy
+- [[dark-knowledges/dk-strategy-04-consulting-trap.md|战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环]] — strategy
+- [[dark-knowledges/dk-strategy-05-positioning-trap.md|定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训]] — strategy
+- [[dark-knowledges/dk-strategy-06-dividend-to-strategy.md|过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利]] — strategy
+- [[dark-knowledges/dk-strategy-07-strategy-vs-dividend.md|战略驱动 vs 红利驱动：前者创造路径，后者依赖环境]] — strategy
+- [[dark-knowledges/dk-strategy-08-not-local-optimum.md|战略≠局部优化。战略是构建完整生态系统，不是单点提效]] — strategy
+- [[dark-knowledges/dk-strategy-consulting-jokes.md|战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环]] — strategy
+- [[dark-knowledges/dk-strategy-essence-four-elements.md|战略内核四要素：细分市场+竞争优势+资源配置+范围经济]] — strategy
+- [[dark-knowledges/dk-strategy-longzhong-four-failures.md|隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了]] — strategy
+- [[dark-knowledges/dk-strategy-three-must-do-moments.md|三种必做战略的时刻：快速扩张/业务平台期/行业下行期]] — strategy
+- [[dark-knowledges/dk-tool-as-answer-trap.md|把工具/框架当成答案，而不是提问的脚手架]] — 张磊 / Truman / 徐剑
+- [[dark-knowledges/dk-tool-as-phased-validator.md|把 AI/工具当成分阶段校验器，而不是一次性生成器]] — yitang, ai-collaboration, product, modeling
+- [[dark-knowledges/dk-tool-chain-naming-is-infrastructure.md|dk-tool-chain-naming-is-infrastructure]]
+- [[dark-knowledges/dk-truman-document-is-real-project-is-fake.md|文档是真的，项目是假的——面向过去建模型，面向未来解决问题]] — Truman
+- [[dark-knowledges/dk-truman-flag-note-taking.md|立flag记笔法：用量化目标倒逼笔记中的真实思考量]] — Truman
+- [[dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md|迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则]] — product-design, yitang
+- [[dark-knowledges/dk-truman-knowledge-extraction-three-schools.md|知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"]] — Truman
+- [[dark-knowledges/dk-wanghuan-agent-platform-director-mode.md|王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜]] — 王欢
+- [[dark-knowledges/dk-wanghuan-ai-lifts-personal-ceiling.md|王欢暗知识：AI 拉升个人上限]] — 王欢
+- [[dark-knowledges/dk-wanghuan-creativity-in-description-and-taste.md|王欢暗知识：创造力重新分配到问题描述与验收审美]] — 王欢
+- [[dark-knowledges/dk-wanghuan-magic-defeats-magic.md|王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准]] — 王欢
+- [[dark-knowledges/dk-wanghuan-output-equals-standard-times-iteration.md|王欢暗知识：输出质量 = 标准 × 迭代]] — 王欢
+- [[dark-knowledges/dk-wanghuan-paced-sales-decision.md|暗知识：复制销冠不是复制话术——是还原决策链]] — 王欢
+- [[dark-knowledges/dk-wanghuan-spec-trap.md|王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限]] — 王欢
+- [[dark-knowledges/dk-wanghuan-standard-by-iteration.md|王欢暗知识：标准不清时，用AI对抗AI生成标准]] — 王欢
+- [[dark-knowledges/dk-wanghuan-tacit-decision-extraction-cross-domain.md|王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售]] — 王欢
+- [[dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md|暗知识：一堂真正的增长引擎是'周对周的建模能力增长']] — Truman
+- [[dark-knowledges/dk-yb1-aigc-mvp-before-ps.md|设计师AIGC工作流：先跑MVP再开PS]] — 月白
+- [[dark-knowledges/dk-yb10-theory-moat-designer.md|AI时代设计师的理论护城河]] — 月白
+- [[dark-knowledges/dk-yb11-visual-book-reverse.md|dk-yb11-visual-book-reverse]]
+- [[dark-knowledges/dk-yb12-ai-image-analysis-replace-training.md|AI图像分析替代模型训练：快速提取参考图共性]] — 月白
+- [[dark-knowledges/dk-yb13-zero-shot-style-transfer.md|零训练风格迁移：三要素描述法]] — 月白
+- [[dark-knowledges/dk-yb14-multi-image-commonality.md|AI生图：用多图共性替代语言描述]] — 月白
+- [[dark-knowledges/dk-yb15-reverse-image-description.md|AI逆向反推图片描述法]] — 月白
+- [[dark-knowledges/dk-yb16-ecommerce-product-image-vs-lucky-draw.md|AI电商产品图：抽卡图≠产品图，白底图才是交付标准]] — 月白
+- [[dark-knowledges/dk-yb17-product-lifestyle-photography.md|产品场景化拍摄：从商品到生活方式的升维]] — 月白
+- [[dark-knowledges/dk-yb18-small-shop-image-mismatch.md|dk-yb18-small-shop-image-mismatch]]
+- [[dark-knowledges/dk-yb19-visual-strategy-price-match.md|dk-yb19-visual-strategy-price-match]]
+- [[dark-knowledges/dk-yb2-llm-muddy-clear-muddy.md|大模型训练本质：浑水→清水→浑水的双向转换]] — 月白
+- [[dark-knowledges/dk-yb20-ai-eye-high-principle.md|AIGC眼高原则：审美先于技术]] — 月白
+- [[dark-knowledges/dk-yb21-ecommerce-pricing-independent-model.md|电商定价：线上价格带需独立建模]] — 月白
+- [[dark-knowledges/dk-yb22-visual-presentation-scene-match.md|视觉呈现方式与消费场景的匹配原则]] — 月白
+- [[dark-knowledges/dk-yb23-ai-pre-screen-three-minutes.md|dk-yb23-ai-pre-screen-three-minutes]]
+- [[dark-knowledges/dk-yb24-ai-poster-de-ai-feeling.md|AI海报去AI感：图标+质感人物双要素]] — 月白
+- [[dark-knowledges/dk-yb25-solution-driven-visual-design.md|解决方案驱动视觉设计，非门店风格导向]] — 月白
+- [[dark-knowledges/dk-yb26-chinese-food-photography-props.md|中式食物摄影低成本氛围道具搭配]] — 月白
+- [[dark-knowledges/dk-yb27-pseudo-layer-evasion.md|伪图层叠加规避平台图像识别]] — 月白
+- [[dark-knowledges/dk-yb28-prompt-expiration-management.md|提示词有效期预期管理]] — 月白
+- [[dark-knowledges/dk-yb29-prompt-migrate-copy-first.md|AIGC提示词迁移：先照搬再微调的务实策略]] — 月白
+- [[dark-knowledges/dk-yb3-diffusion-stepwise-vs-human-holistic.md|AI生图'抽卡'本质：逐步拆解 vs 人类整体构思]] — 月白
+- [[dark-knowledges/dk-yb30-ecommerce-channel-version.md|dk-yb30-ecommerce-channel-version]]
+- [[dark-knowledges/dk-yb31-style-first-controlnet.md|AI绘图工作流：先锁风格再开ControlNet]] — 月白
+- [[dark-knowledges/dk-yb32-doubao-size-composition.md|豆包AIGC生图：尺寸是唯一关键排版影响因素]] — 月白
+- [[dark-knowledges/dk-yb4-nano-banana-style-reproduction.md|Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o]] — 月白
+- [[dark-knowledges/dk-yb5-style-asset-archive.md|AI绘图降本的前提：风格资产工程化归档]] — 月白
+- [[dark-knowledges/dk-yb6-midjourney-chinese-text-fix.md|Midjourney中文文字修复极简提示词]] — 月白
+- [[dark-knowledges/dk-yb7-design-demand-80-10-10.md|中国设计需求的80-10-10分层法则]] — 月白
+- [[dark-knowledges/dk-yb8-file-naming-eight-elements.md|AI增效前置：文件命名八要素体系]] — 月白
+- [[dark-knowledges/dk-yb9-cubox-deployment-failure.md|Cubox及AI协作工具的团队部署失败模式]] — 月白
+- [[dark-knowledges/dk-yi-tang-wishful-thinking-kills-startups.md|暗知：'愿望思维'是创业最大的陷阱]] — 一堂·Truman
+- [[dark-knowledges/dk-yitang-business-formula-plus-times-trap.md|dk-yitang-business-formula-plus-times-trap]]
+- [[dark-knowledges/yt-business-model-pivot-signals.md|商业模式转型信号：何时该 pivot]] — Truman
+- [[dark-knowledges/yt-demand-competitive-displacement.md|需求替代陷阱：竞品不是敌人，替代方案才是]] — Truman
+- [[dark-knowledges/yt-demand-fake-demand-detection.md|伪需求识别：7个危险信号]] — Truman
+- [[dark-knowledges/yt-demand-market-size-pitfalls.md|市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"]] — Truman
+- [[dark-knowledges/yt-demand-scope-creep.md|需求蔓延：从MVP到全功能的陷阱]] — Truman
+- [[dark-knowledges/yt-growth-scaling-pitfalls.md|增长规模化陷阱]] — Truman
+- [[dark-knowledges/yt-note-ai-p-role-not-c-role.md|AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考]] — Truman
+- [[dark-knowledges/yt-note-p-c-role-boundary-realworld.md|P/C 角色真实场景边界与切换条件（基于聊天记录案例）]] — Truman
+- [[dark-knowledges/yt-note-three-level-evolution.md|碎片化→结构化→体系化：笔记认知的三级进化跃迁]] — Truman
+- [[dark-knowledges/yt-product-kernel-do-without-belief.md|"做而不信"陷阱：执行了流程，但不相信结果]] — Truman
+- [[dark-knowledges/yt-product-kernel-failure-modes.md|产品内核失败的5种模式]] — Truman
+- [[dark-knowledges/yt-product-kernel-premature-optimization.md|过早细化陷阱：在验证前追求完美]] — Truman
+- [[dk/dk-yitang-ai-research-prompt-craft.md|AI调研效果取决于问题拆解和人工判断——不是提示词技巧]] — yitang, research, ai-collaboration
+- [[dk/dk-yitang-cross-case-pattern-failure-premium.md|跨案例模式：失败者溢价——研究失败比研究成功的信息价值高10倍]] — yitang, research
+- [[dk/dk-yitang-cross-case-pattern-identity-escalation.md|跨案例模式：多重身份交叉验证——同一问题用3个以上身份从不同角度验证]] — yitang, research
+- [[dk/dk-yitang-digging-belief.md|破案式深挖的信念]] — yitang, research
+- [[dk/dk-yitang-expert-interview-5-traps.md|专家访谈五大陷阱]] — yitang, research
+- [[dk/dk-yitang-public-info-is-enough.md|多数情报可通过公开信息深挖获得]] — yitang, research
+- [[dk/dk-yitang-research-ai-hallucination.md|AI调研幻觉与浅尝辄止是双生子]] — yitang, research, ai-collaboration
+- [[dk/dk-yitang-research-best-practice-first.md|做重要设计前先摸行业最佳实践：认知套利]] — yitang, research
+- [[dk/dk-yitang-research-cost-value-match.md|调研投入必须与信息价值匹配]] — yitang, research
+- [[dk/dk-yitang-research-cross-validation-cost.md|交叉验证是成本也是护城河：信息质量的不对称优势]] — yitang, research
+- [[dk/dk-yitang-research-desperate-effort.md|调研决心比技巧重要]] — yitang, research
+- [[dk/dk-yitang-research-goal-before-efficiency.md|没有目标就不要谈效率]] — yitang, research
+- [[dk/dk-yitang-research-question-quality.md|好调研目标 vs 坏调研目标：决策可验证性]] — yitang, research
+- [[dk/dk-yitang-research-scale-vs-depth.md|调研深度决定决策质量：信息精度的边际价值]] — yitang, research
+- [[dk/dk-yitang-research-source-freshness.md|信源时效性：AI/监管/融资数据≤30天]] — yitang, research
+- [[dk/dk-yitang-research-starter-vs-veteran.md|新手重分析，老兵80%时间拿情报]] — yitang, research
+- [[dk/dk-yitang-survivor-bias-in-research.md|调研中的幸存者偏差]] — yitang, research
+- [[domains/five-step-domain-digest.md|域摘要：一堂五步法（80+张卡）]] — Truman
+- [[domains/human-ai-collaboration-double-triangle.md|域摘要：人机协作范式——双三角模型域]] — 王欢
+- [[domains/strategy-domain-digest.md|域摘要：企业战略（冉鹏 · 30年经验）]] — yitang
+- [[domains/yitang-research-domain-digest.md|域摘要：调研方法论（90+张卡）]] — yitang
+- [[entities/Kimi-月之暗面.md|Kimi-月之暗面]]
+- [[entities/YC-Y-Combinator.md|YC-Y-Combinator]]
+- [[entities/一堂.md|一堂]]
+- [[entities/七件事集团.md|七件事集团]] — 私域电商, SaaS, 分销系统
+- [[entities/紫鲸AI.md|紫鲸AI]]
+- [[entities/鑫港湾.md|鑫港湾]]
+- [[frameworks/ai-complex-communication.md|ai-complex-communication]]
+- [[frameworks/ai-methodology-tools.md|AI 方法论与工具栈：主题综合知识卡]] — 王语嫣
+- [[frameworks/ai-short-drama-ice-fire-dissection-compass.md|冰火拆本罗盘：短剧剧本逆向拆解五维模型]] — 代俊隆
+- [[frameworks/beverage-foodservice-channel.md|beverage-foodservice-channel]]
+- [[frameworks/business-formula-to-kdo-card-quality.md|business-formula-to-kdo-card-quality]]
+- [[frameworks/concept-maister-trusted-advisor.md|concept-maister-trusted-advisor]]
+- [[frameworks/concept-mckinsey-7s.md|concept-mckinsey-7s]]
+- [[frameworks/concept-mckinsey-hypothesis-driven.md|concept-mckinsey-hypothesis-driven]]
+- [[frameworks/concept-minto-pyramid-principle.md|金字塔原理：结论先行的结构化沟通框架]] — consulting, yitang
+- [[frameworks/framework-candy-transcript-workflow.md|Candy逐字稿九步法：从素材到可交付内容的生产流程]] — yitang, content-production
+- [[frameworks/framework-ci-operating-model.md|CI运营模型：从信息收集到决策改变的闭环]] — yitang, research
+- [[frameworks/framework-course-milestone-model.md|课程里程碑模型：一堂做课的七步生产流程]] — yitang, education, modeling
+- [[frameworks/framework-demand-iceberg.md|需求洞察冰山模型：L1-L6六层深度推演框架]] — yitang, five-step-method
+- [[frameworks/framework-demand-opportunity-spectrum.md|商业机会预判·终局光谱图]] — yitang, five-step-method
+- [[frameworks/framework-demand-usp-model.md|USP需求洞察模型：Demand = User × Situation × Problem]] — yitang, five-step-method
+- [[frameworks/framework-doris-industry-report-4step.md|行业报告调研四步法：7天快速建立行业认知]] — yitang, research
+- [[frameworks/framework-logic-cleanliness-five-levels.md|逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准]] — Truman
+- [[frameworks/framework-multi-agent-research-architecture.md|多智能体调研架构：四种模式的对比与选择]] — yitang, research, ai-collaboration
+- [[frameworks/framework-ouyangfeng-review-methodology.md|欧阳锋审查方法论：三阶段架构评审框架]] — master, kdo
+- [[frameworks/framework-strategy-ansoff.md|安索夫矩阵：产品-市场增长战略]] — strategy, growth
+- [[frameworks/framework-strategy-basics-01-core.md|定式（Core Foundation）：BRM框架为核心，战略肌肉记忆]] — strategy
+- [[frameworks/framework-strategy-basics-02-insight.md|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]] — strategy
+- [[frameworks/framework-strategy-basics-03-layout.md|布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事]] — strategy
+- [[frameworks/framework-strategy-basics-04-system.md|体系（Creation System）：丰田供应链生态+苹果iOS生态]] — strategy
+- [[frameworks/framework-strategy-basics-05-change.md|体系（Creation System）：生态体系——丰田供应链+苹果iOS]] — strategy
+- [[frameworks/framework-strategy-blm.md|IBM BLM 业务领导力模型 + 华为五看三定]] — strategy
+- [[frameworks/framework-strategy-brm.md|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — strategy
+- [[frameworks/framework-strategy-business-design.md|业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）]] — strategy
+- [[frameworks/framework-strategy-five-basics.md|冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革]] — strategy
+- [[frameworks/framework-strategy-five-forces.md|波特五力分析框架]] — strategy, market_analysis
+- [[frameworks/framework-strategy-kai-innovation-directions.md|凯纳创新方向分类框架]] — strategy, innovation
+- [[frameworks/framework-strategy-mckinsey-7s.md|麦肯锡 7S 模型：组织诊断与变革管理]] — strategy, organization, change_management
+- [[frameworks/framework-strategy-pyramid.md|企业战略金字塔：公司、业务与职能协同]] — strategy
+- [[frameworks/framework-strategy-six-stages.md|冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同]] — strategy
+- [[frameworks/framework-strategy-three-horizons.md|三个地平线：短中长期业务组合管理]] — strategy, portfolio
+- [[frameworks/framework-structured-analytic-techniques.md|SATs结构化分析技术：CIA情报分析的八类工具箱]] — yitang, research
+- [[frameworks/framework-wanghuan-actor-director-mode.md|王欢人机协作框架：从演员到导演]] — 王欢
+- [[frameworks/framework-wanghuan-ai-five-level-ladder.md|王欢AI能力五层跃迁模型]] — 王欢
+- [[frameworks/framework-wanghuan-bitcoe-prompt-framework.md|王欢BITCOE提示词框架]] — 王欢
+- [[frameworks/framework-wanghuan-five-criteria-first-product.md|王欢：选第一个产品场景的五条标准]] — 王欢
+- [[frameworks/framework-wanghuan-gan-three-roles.md|王欢GAN三角色架构：生成器/判别器/合成器]] — 王欢
+- [[frameworks/framework-wanghuan-harness-seven-stages.md|王欢：Harness 七阶段 AI 构建流程]] — 王欢
+- [[frameworks/framework-wanghuan-ooda-loop.md|王欢OODA闭环：人机协作的决策迭代框架]] — 王欢
+- [[frameworks/framework-wanghuan-say-think-do-toolchain.md|王欢说→想→做工具链框架]] — 王欢
+- [[frameworks/framework-wanghuan-task-product-system.md|王欢任务→产品→系统演进框架]] — 王欢
+- [[frameworks/framework-wanghuan-three-tier-dev-architecture.md|王欢三层开发架构：需求拆解→AI开发→哨兵质检]] — 王欢
+- [[frameworks/framework-yitang-18-strategy-cards.md|降龙十八掌：18张调研策略卡全景图]] — yitang, research
+- [[frameworks/framework-yitang-expert-interview-10steps.md|专家访谈黄金十步法：从盲区梳理到专家匹配]] — yitang, research
+- [[frameworks/framework-yitang-four-research-types.md|四类调研模型：挖掘式·系统式·爆炸式·自动式]] — yitang, research
+- [[frameworks/framework-yitang-high-level-execution.md|高水平执行 AR：获取情报·正确归因]] — yitang, research
+- [[frameworks/framework-yitang-high-level-plan.md|高水平计划 OSC：锁定目标·缩小范围·罗列清单]] — yitang, research
+- [[frameworks/framework-yitang-iterative-recursive-digging.md|迭代递归深挖法：从表层到内核的认知穿透]] — yitang, research
+- [[frameworks/framework-yitang-nine-layer-deep-dig.md|九层深挖法：商业分析的自我纠错式迭代框架]] — yitang, research, business-analysis
+- [[frameworks/framework-yitang-oscar-research.md|OSCAR调研模型：从目标锁定到正确归因的五步法]] — yitang, research
+- [[frameworks/framework-yitang-research-quality-gate.md|framework-yitang-research-quality-gate]]
+- [[frameworks/framework-yitang-research-radar.md|调研雷达图：四象限能力诊断与六种缺失识别]] — yitang, research
+- [[frameworks/framework-yitang-research-weapon-supplement-2026.md|调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术]] — yitang, research
+- [[frameworks/framework-yitang-research-weapon-system.md|调研超级武器库：三层八模块十四节点]] — yitang, research
+- [[frameworks/framework-yitang-six-layer-cross-validation.md|六层交叉验证：从单源到多源的信息可信度提升]] — yitang, research
+- [[frameworks/model-quality-four-levels.md|model-quality-four-levels]]
+- [[frameworks/modeling-personal-practice-loop.md|建模能力个人修炼闭环：刻意练习 × IPO × PDCA]] — yitang, personal-growth, modeling
+- [[frameworks/modeling-scientific-milestones.md|科学建模七步里程碑：从边界到封装的方法论生产流程]] — yitang, modeling, research
+- [[frameworks/modeling-three-stages.md|建模三段论：流程建模、抽象建模、本质提炼]] — 楚门/Truman
+- [[frameworks/modeling-to-kdo-toolchain.md|modeling-to-kdo-toolchain]]
+- [[frameworks/private-domain-saas-sales-funnel.md|私域 SaaS 销售四步法]] — SaaS, 私域电商, 销售流程
+- [[frameworks/sales-pitch-bias-patterns.md|sales-pitch-bias-patterns]]
+- [[frameworks/smart-device-foodservice-automation.md|smart-device-foodservice-automation]]
+- [[frameworks/xingangwan-pharma-business-formulas.md|鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量]] — healthcare, pharmaceutical-retail, business-strategy, product, unit-economics
+- [[frameworks/xingangwan-pharma-business-model-calc.md|鑫港湾医药零售商业模型计算框架]] — healthcare, pharmaceutical-retail, business-strategy, finance
+- [[frameworks/xingangwan-pharma-business-model-formulas.md|鑫港湾医药零售商业模式计算框架与业务公式]] — healthcare, pharmaceutical-retail, business-strategy, finance
+- [[frameworks/yt-barrier-ecosystem-lock-in.md|生态锁定：平台壁垒]] — Truman
+- [[frameworks/yt-barrier-moat-building.md|壁垒建设路线图]] — Truman
+- [[frameworks/yt-barrier-strategy-overview.md|壁垒策略总纲：从增长到可持续优势]] — Truman
+- [[frameworks/yt-barrier-sustainable-growth.md|可持续增长：壁垒驱动]] — Truman
+- [[frameworks/yt-business-formula-abc-model.md|业务公式 ABC 模型（Ambition-Basis-Connection）]] — 孔阳
+- [[frameworks/yt-business-formula-business-pattern-selector.md|yt-business-formula-business-pattern-selector]]
+- [[frameworks/yt-business-formula-qualitative-metrics-library.md|yt-business-formula-qualitative-metrics-library]]
+- [[frameworks/yt-business-model-channel-economics.md|渠道经济学：获客成本优化]] — Truman
+- [[frameworks/yt-business-model-platform-strategy.md|平台战略：从单边到双边]] — Truman
+- [[frameworks/yt-business-model-scalability.md|商业模式可规模化评估：从1到100万]] — Truman
+- [[frameworks/yt-business-model-to-growth.md|从商业模式到增长：承上启下]] — Truman
+- [[frameworks/yt-business-model-unit-economics.md|单元经济学：LTV > CAC]] — Truman
+- [[frameworks/yt-decision-abcd-model.md|yt-decision-abcd-model]]
+- [[frameworks/yt-decision-y-model-philosophical-roots.md|Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射]] — yitang, master, decision-making
+- [[frameworks/yt-demand-decision-chain.md|ToB决策链需求分析：多角色、多需求、多顾虑]] — Truman
+- [[frameworks/yt-demand-early-validation.md|需求早期验证：低成本测试法]] — Truman
+- [[frameworks/yt-demand-jtbd-application.md|JTBD需求分析实战应用：从"用户想要"到"用户雇佣"]] — Truman
+- [[frameworks/yt-demand-scenario-reconstruction.md|用户场景重构法：使用前中后的完整体验地图]] — Truman
+- [[frameworks/yt-five-step-cross-step-1.md|跨步一：从0到1的验证]] — Truman
+- [[frameworks/yt-five-step-cross-step-2.md|跨步二：从1到10的规模化]] — Truman
+- [[frameworks/yt-five-step-cross-step-3.md|跨步三：从10到100的壁垒]] — Truman
+- [[frameworks/yt-five-step-method-complete.md|五步法完整地图：从需求到壁垒]] — Truman
+- [[frameworks/yt-growth-data-driven-decision.md|数据驱动增长决策]] — Truman
+- [[frameworks/yt-growth-engagement-loop.md|参与循环：让用户持续回来]] — Truman
+- [[frameworks/yt-growth-funnel-optimization.md|漏斗优化：从认知到付费]] — Truman
+- [[frameworks/yt-growth-retention-metrics.md|留存指标：从流失到忠诚]] — Truman
+- [[frameworks/yt-growth-strategy-overview.md|增长策略总纲：从商业模式到增长飞轮]] — Truman
+- [[frameworks/yt-growth-to-barrier.md|从增长到壁垒：承上启下]] — Truman
+- [[frameworks/yt-lean-assumption-prioritization.md|关键假设排序：前置优先、风险高的优先]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-assumption-verification-3means.md|关键假设验证的三种手段：访谈调研、经验验证、实验验证]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-b2b-b2c-hardware-content-testing.md|ToB/ToC/硬件/内容产品的测试差异]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-consumer-deep-experience-testing.md|消费品深层体验测试：表层反馈 vs 深层体验]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-false-model-ai.md|FALSE模型在AI时代的加速应用]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-growth-stage-gate.md|增长阶段标志：单元模型成立 + 找到增长渠道]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-lean-qualitative-quantitative-research.md|定性调研与定量调研的边界：证伪优先、阶段匹配]] — yitang, entrepreneurship, business-strategy
+- [[frameworks/yt-product-kernel-hypothesis-test.md|内核假设测试：低成本验证方法]] — Truman
+- [[frameworks/yt-product-kernel-iteration.md|产品内核迭代：五种迭代方向]] — Truman
+- [[frameworks/yt-product-kernel-six-levels.md|产品内核六个段位：从缺价值意识到全面迁移]] — Truman
+- [[frameworks/yt-product-kernel-to-business-model.md|从内核到商业模式：承上启下]] — Truman
+- [[frameworks/yt-product-kernel-validation.md|产品内核验证：三维度验证法]] — Truman
+- [[frameworks/yt-tob-barriers.md|To B 业务壁垒：选择、强弱判断与规模不经济对抗]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-core-characteristics.md|To B 三大核心特性：角色分离、务实理性、周期较长]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-customer-tiering.md|To B 客户分层：头部、腰部、腿部]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-demand-metrics.md|To B 需求测算双指标：成本占有率 + 业务天花板]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-demand-scenarios.md|To B 需求场景四象限]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-growth-channel.md|To B 增长模式取舍：直销 vs 渠道]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-product-kernel.md|To B 产品内核：面向决策者研究付费，面向使用者夯实价值]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-tob-solution-model.md|yt-tob-solution-model]]
+- [[frameworks/yt-tob-unit-model.md|To B 单元模型选择与跑通]] — yitang, entrepreneurship, b2b, business-strategy
+- [[frameworks/yt-unit-model-ladder.md|yt-unit-model-ladder]]
+- [[frameworks/yt-unit-model-overview.md|yt-unit-model-overview]]
+- [[projects/parking-lot.md|停车场清单]] — healthcare, compliance, product-management
+- [[projects/shanxi-field-research-checklist-20260701.md|山西 7 月 1 日智慧药柜项目调研清单]] — healthcare, compliance, business-strategy, field-research
+- [[projects/互联网医院项目.md|互联网医院项目]]
+- [[projects/诊所O2O项目.md|诊所O2O项目]]
+- [[projects/鑫港湾HIS项目.md|鑫港湾HIS项目]]
+- [[prompt-methodology/prompt-demand-ai-coach.md|AI需求分析教练：冰山六层全流程推演提示词]] — yitang, five-step-method, prompt-engineering
+- [[raw/ocr/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md|OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01]] — ai-collaboration, yitang
+- [[raw/ocr/ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md|OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02]] — ai-collaboration, yitang
+- [[raw/ocr/ocr-ocr_screenshot2.md|OCR: ocr_screenshot2]] — healthcare
+- [[raw/ocr/ocr-ocr_snipaste_2026-05-15_21-39-40.md|OCR: ocr_Snipaste_2026-05-15_21-39-40]] — healthcare
+- [[raw/ocr/ocr-screenshot1.md|OCR: screenshot1]] — healthcare
+- [[raw/ocr/ocr-screenshot2.md|OCR: screenshot2]] — ai-saas
+- [[raw/ocr/ocr-truman的个人成长五步法.md|OCR: Truman的个人成长五步法]] — healthcare
+- [[raw/ocr/ocr-truman的选择两条职业成长路线.md|OCR: truman的选择：两条职业成长路线]] — ai-saas
+- [[raw/ocr/ocr-一堂-ai学习-truman自用的ai-featureset.md|OCR: 一堂-AI学习-truman自用的AI FeatureSet]] — yitang, ai-collaboration
+- [[raw/ocr/ocr-一堂-ai学习-提问工程化.md|OCR: 一堂-AI学习-提问工程化]] — product, needs-review, ai-saas, design, yitang, kdo
+- [[raw/ocr/ocr-一堂-ai学习-提问进化路线图.md|OCR: 一堂-AI学习-提问进化路线图]] — ai-saas, needs-review, kdo, yitang
+- [[raw/ocr/ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md|OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01]] — yitang, ai-collaboration
+- [[raw/ocr/ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md|OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02]] — yitang, ai-collaboration
+- [[raw/ocr/ocr-一堂-tcpr模型-皇冠模型.md|OCR: 一堂-TCPR模型-皇冠模型]] — management, product, needs-review, finance-legal, design, yitang, kdo
+- [[raw/ocr/ocr-一堂-个人修炼-y模型.md|OCR: 一堂-个人修炼-Y模型]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-全景图muse模型.md|OCR: 一堂-个人修炼-全景图MUSE模型]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-双三角模型.md|OCR: 一堂-个人修炼-双三角模型]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-提问刻意练习画布.md|OCR: 一堂-个人修炼-提问刻意练习画布]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-科学学习ipo-全景策略.md|OCR: 一堂-个人修炼-科学学习IPO-全景策略]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-科学学习ipo完整清单.md|OCR: 一堂-个人修炼-科学学习IPO完整清单]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-科学学习ipo模型.md|OCR: 一堂-个人修炼-科学学习IPO模型]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-科学提问刻意练习.md|OCR: 一堂-个人修炼-科学提问刻意练习]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-表达力火箭模型.md|OCR: 一堂-个人修炼-表达力火箭模型]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-解放思想.md|OCR: 一堂-个人修炼-解放思想]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-讲香基本功.md|OCR: 一堂-个人修炼-讲香基本功]] — yitang
+- [[raw/ocr/ocr-一堂-个人修炼-课程清单.md|OCR: 一堂-个人修炼-课程清单]] — yitang
+- [[raw/ocr/ocr-一堂-人机协作-双三角模型.md|OCR: 一堂-人机协作-双三角模型]] — management, product, needs-review, ai-saas, yitang
+- [[raw/ocr/ocr-一堂-创业必修-课程清单.md|OCR: 一堂-创业必修-课程清单]] — product, needs-review, business-strategy, yitang, entrepreneurship
+- [[raw/ocr/ocr-一堂-单元模型-abcd策略模型.md|OCR: 一堂-单元模型-ABCD策略模型]] — needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-tcpr底层网络协议.md|OCR: 一堂-单元模型-TCPR底层网络协议]] — management, product, needs-review, business-strategy, yitang
+- [[raw/ocr/ocr-一堂-单元模型-修炼地图.md|OCR: 一堂-单元模型-修炼地图]] — management, needs-review, finance-legal, ai-saas, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-动态预测.md|OCR: 一堂-单元模型-动态预测]] — product, needs-review, business-strategy, supply-chain, yitang, entrepreneurship, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单sku模型.md|OCR: 一堂-单元模型-单sku模型]] — product, needs-review, business-strategy, design, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单商圈模型.md|OCR: 一堂-单元模型-单商圈模型]] — needs-review, business-strategy, supply-chain, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单城市模型.md|OCR: 一堂-单元模型-单城市模型]] — needs-review, supply-chain, kdo, yitang
+- [[raw/ocr/ocr-一堂-单元模型-单客户模型.md|OCR: 一堂-单元模型-单客户模型]] — needs-review, kdo, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-单履约模型.md|OCR: 一堂-单元模型-单履约模型]] — needs-review, business-strategy, supply-chain, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单柜子模型.md|OCR: 一堂-单元模型-单柜子模型]] — needs-review, kdo, yitang
+- [[raw/ocr/ocr-一堂-单元模型-单用户模型.md|OCR: 一堂-单元模型-单用户模型]] — product, needs-review, business-strategy, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单订单模型.md|OCR: 一堂-单元模型-单订单模型]] — needs-review, business-strategy, finance-legal, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单销售模型.md|OCR: 一堂-单元模型-单销售模型]] — product, needs-review, business-strategy, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-单门店模型.md|OCR: 一堂-单元模型-单门店模型]] — kdo, needs-review, healthcare, yitang
+- [[raw/ocr/ocr-一堂-单元模型-基准值.md|OCR: 一堂-单元模型-基准值]] — needs-review, kdo, yitang
+- [[raw/ocr/ocr-一堂-单元模型-壁垒预判.md|OCR: 一堂-单元模型-壁垒预判]] — needs-review, business-strategy, yitang, entrepreneurship, kdo
+- [[raw/ocr/ocr-一堂-单元模型-外部对抗地图.md|OCR: 一堂-单元模型-外部对抗地图]] — needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-单元模型-多模型情况.md|OCR: 一堂-单元模型-多模型情况]] — management, product, needs-review, business-strategy, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-学练用.md|OCR: 一堂-单元模型-学练用]] — management, product, needs-review, ai-saas, yitang, kdo, decision-making
+- [[raw/ocr/ocr-一堂-单元模型-对抗小抄.md|OCR: 一堂-单元模型-对抗小抄]] — needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-对抗小抄01.md|OCR: 一堂-单元模型-对抗小抄01]] — management, needs-review, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-对抗小抄02.md|OCR: 一堂-单元模型-对抗小抄02]] — product, needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-扭蛋机案例.md|OCR: 一堂-单元模型-扭蛋机案例]] — needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-单元模型-找全成本实操难点.md|OCR: 一堂-单元模型-找全成本实操难点]] — needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-找单元模型实操难点.md|OCR: 一堂-单元模型-找单元模型实操难点]] — product, ai-saas, needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-找基准值实操难点.md|OCR: 一堂-单元模型-找基准值实操难点]] — management, needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-单元模型-斧子尺子梯子.md|OCR: 一堂-单元模型-斧子、尺子、梯子]] — needs-review, decision-making, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-斧子尺子梯子详解.md|OCR: 一堂-单元模型-斧子尺子梯子详解]] — product, needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-单元模型-最简单元模型.md|OCR: 一堂-单元模型-最简单元模型]] — needs-review, kdo, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-段位专家.md|OCR: 一堂-单元模型-段位专家]] — product, needs-review, decision-making, business-strategy, yitang, kdo
+- [[raw/ocr/ocr-一堂-单元模型-示例.md|OCR: 一堂-单元模型-示例]] — needs-review, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-示例01.md|OCR: 一堂-单元模型-示例01]] — needs-review, yitang, business-strategy
+- [[raw/ocr/ocr-一堂-单元模型-规模对抗实操难点.md|OCR: 一堂-单元模型-规模对抗实操难点]] — product, management, needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-规模经济对抗武器库.md|OCR: 一堂-单元模型-规模经济对抗武器库]] — product, needs-review, yitang
+- [[raw/ocr/ocr-一堂-单元模型-象限分析法.md|OCR: 一堂-单元模型-象限分析法]] — needs-review, business-strategy, yitang, entrepreneurship, kdo
+- [[raw/ocr/ocr-一堂-地图-个人地图.md|OCR: 一堂-地图-个人地图]] — yitang
+- [[raw/ocr/ocr-一堂-地图-创业地图.md|OCR: 一堂-地图-创业地图]] — yitang
+- [[raw/ocr/ocr-一堂-地图-创业地图_conv.md|OCR: 一堂-地图-创业地图_conv]] — yitang
+- [[raw/ocr/ocr-一堂-地图-管理地图.md|OCR: 一堂-地图-管理地图]] — yitang
+- [[raw/ocr/ocr-一堂-地图-管理地图_conv.md|OCR: 一堂-地图-管理地图_conv]] — yitang
+- [[raw/ocr/ocr-一堂-案例拆解-课程清单.md|OCR: 一堂-案例拆解-课程清单]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例01.md|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例02.md|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例03.md|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi决策评估画布.md|OCR: 一堂-科学决策-ROI决策评估画布]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-roi高阶训练全景图.md|OCR: 一堂-科学决策-ROI高阶训练全景图]] — management, needs-review, ai-saas, yitang, decision-making
+- [[raw/ocr/ocr-一堂-科学决策-x型y型决策习惯对比.md|OCR: 一堂-科学决策-X型Y型决策习惯对比]] — needs-review, decision-making, finance-legal, yitang, kdo
+- [[raw/ocr/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md|OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-人机协作决策.md|OCR: 一堂-科学决策-人机协作决策]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md|OCR: 一堂-科学决策-关键假设ABCD模型]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-关键训练清单重要.md|OCR: 一堂-科学决策-关键训练清单（重要））]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-决策三角形.md|OCR: 一堂-科学决策-决策三角形]] — kdo, needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-科学决策-发现决策.md|OCR: 一堂-科学决策-发现决策]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-商业模式-完整财务公式决策.md|OCR: 一堂-科学决策-商业模式-完整财务公式决策]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-宽度-个人.md|OCR: 一堂-科学决策-宽度-个人]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-宽度-企业.md|OCR: 一堂-科学决策-宽度-企业]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-宽度-团队.md|OCR: 一堂-科学决策-宽度-团队]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-l1优先级定性.md|OCR: 一堂-科学决策-深度-L1优先级定性]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-l2部分定量.md|OCR: 一堂-科学决策-深度-L2部分定量]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-l3定量公式.md|OCR: 一堂-科学决策-深度-L3定量公式]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md|OCR: 一堂-科学决策-深度-L4-案例01]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-l4严格财务公式.md|OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md|OCR: 一堂-科学决策-深度-你的业务是一次抽样实验]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-决策经验值.md|OCR: 一堂-科学决策-深度-决策经验值]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例01.md|OCR: 一堂-科学决策-深度-案例01]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例02.md|OCR: 一堂-科学决策-深度-案例02]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例03.md|OCR: 一堂-科学决策-深度-案例03]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例04.md|OCR: 一堂-科学决策-深度-案例04]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例05.md|OCR: 一堂-科学决策-深度-案例05]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-深度-案例06.md|OCR: 一堂-科学决策-深度-案例06]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-稀缺机会窗口.md|OCR: 一堂-科学决策-稀缺机会窗口]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-稀缺资源清单.md|OCR: 一堂-科学决策-稀缺资源清单]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-项目方案评估三角形.md|OCR: 一堂-科学决策-项目方案评估三角形]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-高度-两种典型的思考习惯.md|OCR: 一堂-科学决策-高度-两种典型的思考习惯]] — yitang
+- [[raw/ocr/ocr-一堂-科学决策-高水平共识曲线重要.md|OCR: 一堂-科学决策-高水平共识曲线（重要）]] — product, needs-review, decision-making, yitang
+- [[raw/ocr/ocr-一堂-管理必修-课程清单.md|OCR: 一堂-管理必修-课程清单]] — yitang
+- [[raw/ocr/ocr-一堂-高阶体系探索营-三种咨询可能性.md|OCR: 一堂-高阶体系探索营-三种咨询可能性]] — needs-review, kdo, yitang
+- [[raw/ocr/ocr-一堂doc-单元模型-十大单元模型.md|OCR: 一堂DOC-单元模型-十大单元模型]] — needs-review, yitang, business-strategy
+- [[raw/ocr/ocr-一堂y模型-科学成事道理.md|OCR: 一堂Y模型-科学成事道理]] — healthcare
+- [[raw/ocr/ocr-一堂y模型steps策略集.md|OCR: 一堂Y模型steps策略集]] — yitang
+- [[raw/ocr/ocr-一堂y模型实操工作流.md|OCR: 一堂Y模型实操工作流]] — yitang
+- [[raw/ocr/ocr-一堂个人地图高潜力成长者修炼全景图.md|OCR: 一堂个人地图：高潜力成长者修炼全景图]] — healthcare
+- [[raw/ocr/ocr-一堂五步法-产品内核画布.md|OCR: 一堂五步法-产品内核画布]] — yitang
+- [[raw/ocr/ocr-一堂五步法画布.md|OCR: 一堂五步法画布]] — yitang
+- [[raw/ocr/ocr-一堂产品内核-十大典型指标.md|OCR: 一堂产品内核-十大典型指标]] — healthcare
+- [[raw/ocr/ocr-一堂刻意练习十年成长指数.md|OCR: 一堂刻意练习十年成长指数]] — ai-saas
+- [[raw/ocr/ocr-一堂提炼过的因果模型.md|OCR: 一堂提炼过的因果模型]] — yitang
+- [[raw/ocr/ocr-一堂最佳转化率动力曲线图.md|OCR: 一堂最佳转化率动力曲线图]] — yitang
+- [[raw/ocr/ocr-一堂泛产品设计-十年修炼爬山地图.md|OCR: 一堂泛产品设计-十年修炼爬山地图]] — yitang
+- [[raw/ocr/ocr-一堂泛产品设计-多出牌多练习.md|OCR: 一堂泛产品设计-多出牌多练习]] — yitang
+- [[raw/ocr/ocr-一堂泛产品设计36计-全套地图.md|OCR: 一堂泛产品设计36计-全套地图]] — yitang
+- [[raw/ocr/ocr-一堂深度复盘冰山图.md|OCR: 一堂深度复盘冰山图]] — yitang
+- [[raw/ocr/ocr-一堂转化率-10大容易浪费的触点.md|OCR: 一堂转化率-10大容易浪费的触点]] — healthcare
+- [[raw/ocr/ocr-一堂进步大地图.md|OCR: 一堂进步大地图]] — ai-saas
+- [[raw/ocr/ocr-一堂进步大地图_compressed.md|OCR: 一堂进步大地图_compressed]] — healthcare
+- [[raw/ocr/ocr-优秀泛产品设计者的自我修养.md|OCR: 优秀泛产品设计者的自我修养]] — healthcare
+- [[raw/ocr/ocr-婚礼操盘-用户和场景.md|OCR: 婚礼操盘-用户和场景]] — yitang
+- [[raw/ocr/ocr-婚礼规划.md|OCR: 婚礼规划]] — master
+- [[raw/ocr/ocr-审美提升的层级.md|OCR: 审美提升的层级]] — yitang
+- [[raw/ocr/ocr-微信图片_20260507004746_32_32.md|OCR: 微信图片_20260507004746_32_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004751_33_32.md|OCR: 微信图片_20260507004751_33_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004755_34_32.md|OCR: 微信图片_20260507004755_34_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004758_35_32.md|OCR: 微信图片_20260507004758_35_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004801_37_32.md|OCR: 微信图片_20260507004801_37_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004802_38_32.md|OCR: 微信图片_20260507004802_38_32]] — needs-review
+- [[raw/ocr/ocr-微信图片_20260507004804_39_32.md|OCR: 微信图片_20260507004804_39_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004806_40_32.md|OCR: 微信图片_20260507004806_40_32]] — healthcare
+- [[raw/ocr/ocr-微信图片_20260507004811_41_32.md|OCR: 微信图片_20260507004811_41_32]] — healthcare
+- [[raw/ocr/ocr-泛产品设计-审美卡片-最佳实践建模.md|OCR: 泛产品设计-审美卡片-最佳实践建模]] — yitang
+- [[raw/ocr/ocr-泛产品设计-审美卡片-最佳实践收集.md|OCR: 泛产品设计-审美卡片-最佳实践收集]] — yitang
+- [[raw/ocr/ocr-泛产品设计-审美卡片-最佳实践池子.md|OCR: 泛产品设计-审美卡片-最佳实践池子]] — master
+- [[raw/ocr/ocr-泛产品设计-审美卡片-美好作品想象.md|OCR: 泛产品设计-审美卡片-美好作品想象]] — yitang
+- [[raw/ocr/ocr-泛产品设计-审美工具箱指南.md|OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）]] — yitang
+- [[raw/ocr/ocr-泛产品设计-用户卡片-一堂五步法.md|OCR: 泛产品设计-用户卡片-一堂五步法]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-动力阻力.md|OCR: 泛产品设计-用户卡片-动力阻力]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-场景推演.md|OCR: 泛产品设计-用户卡片-场景推演]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-多视角思考.md|OCR: 泛产品设计-用户卡片-多视角思考]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-峰终定律.md|OCR: 泛产品设计-用户卡片-峰终定律]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-惊喜公式.md|OCR: 泛产品设计-用户卡片-惊喜公式]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-用户分层.md|OCR: 泛产品设计-用户卡片-用户分层]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-用户视角.md|OCR: 泛产品设计-用户卡片-用户视角]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-行业分析画布.md|OCR: 泛产品设计-用户卡片-行业分析画布]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-需求挖掘.md|OCR: 泛产品设计-用户卡片-需求挖掘]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-用户卡片-项目背景分析.md|OCR: 泛产品设计-用户卡片-项目背景分析]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-落地卡片-roi分析.md|OCR: 泛产品设计-落地卡片-ROI分析]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-业务建模.md|OCR: 泛产品设计-落地卡片-业务建模]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-低成本测试mvp.md|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-假设拆解.md|OCR: 泛产品设计-落地卡片-假设拆解]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-内核和边界.md|OCR: 泛产品设计-落地卡片-内核和边界]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-努力仿真.md|OCR: 泛产品设计-落地卡片-努力仿真]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-十倍速验证.md|OCR: 泛产品设计-落地卡片-十倍速验证]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-落地卡片-善用佳软.md|OCR: 泛产品设计-落地卡片-善用佳软]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计-落地卡片-复盘迭代.md|OCR: 泛产品设计-落地卡片-复盘迭代]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-攻坚会.md|OCR: 泛产品设计-落地卡片-攻坚会]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-灵感闪现.md|OCR: 泛产品设计-落地卡片-灵感闪现]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-管理三段论.md|OCR: 泛产品设计-落地卡片-管理三段论]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-解放思想.md|OCR: 泛产品设计-落地卡片-解放思想]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-设计原则.md|OCR: 泛产品设计-落地卡片-设计原则]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-逻辑mece.md|OCR: 泛产品设计-落地卡片-逻辑MECE]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-酝酿式打磨.md|OCR: 泛产品设计-落地卡片-酝酿式打磨]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-里程碑拆解.md|OCR: 泛产品设计-落地卡片-里程碑拆解]] — yitang
+- [[raw/ocr/ocr-泛产品设计-落地卡片-风险管理.md|OCR: 泛产品设计-落地卡片-风险管理]] — yitang
+- [[raw/ocr/ocr-泛产品设计-需求工具箱指南.md|OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）]] — yitang
+- [[raw/ocr/ocr-泛产品设计的应用场景示意图.md|OCR: 泛产品设计的应用场景示意图]] — yitang
+- [[raw/ocr/ocr-泛产品设计者的三大自我修养.md|OCR: 泛产品设计者的三大自我修养]] — yitang
+- [[raw/ocr/ocr-泛产品设计者的自我修养.md|OCR: 泛产品设计者的自我修养]] — yitang
+- [[raw/ocr/ocr-泛产品设计落地工具篇指南.md|OCR: 泛产品设计落地工具篇指南]] — ai-saas
+- [[raw/ocr/ocr-泛产品设计落地篇.md|OCR: 泛产品设计落地篇]] — ai-saas
+- [[raw/ocr/ocr-萃取总结.md|OCR: 萃取总结]] — yitang
+- [[raw/ocr/ocr-顶级产品追求的方向-乔布斯.md|OCR: 顶级产品追求的方向-乔布斯]] — yitang
+- [[raw/ocr/ocr-项目背景问题思考的8个维度.md|OCR: 项目背景问题思考的8个维度]] — yitang
+- [[raw/ocr/ocr-预判模型.md|OCR: 预判模型]] — ai-saas
+- [[skills/yt-demand-insight-extraction.md|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — Truman
+- [[systems/agent-external-brain-design.md|agent-external-brain-design]]
+- [[systems/agent-native-card-design.md|agent-native-card-design]]
+- [[systems/graph-rag-retrieval-layer.md|graph-rag-retrieval-layer]]
+- [[systems/kdo-batch-produce-req014.md|kdo-batch-produce-req014]]
+- [[systems/kdo-protocol.md|kdo-protocol]]
+- [[systems/kdo-watch-health-check-layer.md|kdo watch 定时巡检层技术说明]] — kdo
+- [[systems/obsidian-git-sync-protocol.md|Obsidian Git Multi-Device Sync Protocol]] — kdo
+- [[systems/sprint-2-gate-enrich-evidence.md|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — kdo
+- [[systems/system-yitang-research-workflow.md|调研工作流：从问题到报告的端到端执行路径]] — yitang
+- [[systems/workflow-knowledge-collision.md|workflow-knowledge-collision]]
+- [[systems/一堂方法论体系总图.md|一堂方法论体系总图]] — yitang
+- [[tools/ai-short-drama-conflict-three-axes.md|矛盾冲突三板斧：短剧冲突分层设计工具]] — yitang, ai-collaboration, product
+- [[tools/ai-short-drama-framework-three-axes.md|框架三板斧：短剧英雄之旅结构工具]] — yitang, ai-collaboration, product
+- [[tools/ai-short-drama-plot-three-axes.md|剧情三板斧：短剧剧本的情节张力设计工具]] — yitang, ai-collaboration, product
+- [[tools/ai-short-drama-script-planning-three-axes.md|剧本策划三板斧：短剧从0到1的框架搭建工具]] — yitang, ai-collaboration, product
+- [[tools/concept-toyota-5-whys.md|concept-toyota-5-whys]]
+- [[tools/mineru-pdf-parsing-setup.md|MinerU (magic-pdf) PDF 解析工具安装与使用]] — kdo, infrastructure
+- [[tools/modeling-level-map.md|建模能力段位图：从 L1 到 L6 的十年爬山地图]] — 楚门/Truman
+- [[tools/modeling-weapon-library.md|常见模型武器库：按问题难度调用模型]] — 楚门/Truman
+- [[tools/process-modeling.md|流程建模：用 SOP 与清单把经验变成稳定产出]] — 楚门/Truman
+- [[tools/sk-ai-ai-workspace-setup.md|技能：结构化AI工作空间搭建]] — 纪浩
+- [[tools/sk-ai-evidence-check.md|技能：AI输出证据核查三问法]] — 半肥猫
+- [[tools/sk-ai-landing-five-steps.md|技能：AI落地五步执行清单]] — ai-collaboration
+- [[tools/sk-ai-narrative-test.md|技能：你的方案有叙事力吗？快速测试]] — 水水
+- [[tools/sk-ai-old-small-checklist.md|技能："找老的干小的"场景评估清单]] — 马易
+- [[tools/sk-ai-parallel-validation.md|技能：平行运行验证法]] — 马易
+- [[tools/sk-ai-prd-for-ai.md|技能：把PRD写成AI能执行的指令]] — 半肥猫
+- [[tools/sk-ai-problem-validation.md|技能：问题验证三维度法]] — 纪浩
+- [[tools/sk-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — 水水
+- [[tools/sk-ai-question-problem-checklist.md|技能：提问题转化三问清单]] — 纪浩
+- [[tools/sk-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — 水水
+- [[tools/sk-ai-voice-input-doubao.md|技能：口喷式语音输入法]] — 半肥猫
+- [[tools/skill-mckinsey-hypothesis-driven-workflow.md|skill-mckinsey-hypothesis-driven-workflow]]
+- [[tools/skill-note-keyword-bolding.md|关键词加粗三重结构：视觉重心即认知重心的标记法则]] — yitang, note-taking
+- [[tools/skill-note-layer-constraint.md|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — yitang, note-taking
+- [[tools/skill-note-one-line-one-point.md|一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作]] — yitang, note-taking
+- [[tools/smart-medicine-cabinet-financial-model.md|smart-medicine-cabinet-financial-model]]
+- [[tools/smart-medicine-cabinet-fraud-detection.md|smart-medicine-cabinet-fraud-detection]]
+- [[tools/tool-agent-crawl4ai.md|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — yitang, research, ai-collaboration
+- [[tools/tool-agent-firecrawl.md|Firecrawl：专为LLM设计的Web抓取API]] — yitang, research, ai-collaboration
+- [[tools/tool-agent-native-overview.md|Agent原生调研工具总览：2025-2026新范式]] — yitang, research, ai-collaboration
+- [[tools/tool-agent-research-pipeline.md|Pipeline模式：OSCAR五步法的Agent实现]] — yitang, research, ai-collaboration
+- [[tools/tool-agent-research-supervisor.md|Supervisor模式：一个主Agent调度多个Worker]] — yitang, research, ai-collaboration
+- [[tools/tool-agent-research-swarm.md|Swarm模式：多Agent自发协同与交叉验证]] — yitang, research, ai-collaboration
+- [[tools/tool-ai-skill-engineering-method.md|AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位]] — Truman
+- [[tools/tool-alt-data-free.md|免费替代数据：小团队的Hedge Fund武器]] — yitang, research
+- [[tools/tool-alt-data-overview.md|替代数据总览：Hedge Fund级别的调研武器]] — yitang, research
+- [[tools/tool-binary-quadrant-modeling.md|二分法/象限图建模法：用正交维度做分类与取舍]] — yitang, product, ai-collaboration
+- [[tools/tool-candy-oral-polish.md|Candy口语化润色：七条原则让文字"读出声来"]] — yitang, content-production
+- [[tools/tool-candy-positioning-canvas.md|Candy差异化定位画布：回答"这篇东西凭什么存在"]] — yitang, content-production
+- [[tools/tool-canvas-weapon-library-modeling.md|画布/武器库建模法：把工具箱变成可快速调用的系统]] — yitang, product, ai-collaboration
+- [[tools/tool-checklist-cheatsheet-modeling.md|清单/小抄建模法：把经验变成可执行的检查点]] — yitang, product, ai-collaboration
+- [[tools/tool-ci-define-phase.md|CI Define阶段：KITs和KIQs——从决策倒推信息需求]] — yitang, research
+- [[tools/tool-ci-implement-phase.md|CI Implement阶段：把洞察嵌入决策——最后一公里]] — yitang, research
+- [[tools/tool-clinic-cabinet-legal-contract-guide.md|tool-clinic-cabinet-legal-contract-guide]]
+- [[tools/tool-clinic-medical-shortvideo-compliance.md|tool-clinic-medical-shortvideo-compliance]]
+- [[tools/tool-demand-agent-auto-verify.md|Agent L6自动预验证：RAT的竞品数据+趋势快速验证]] — yitang, five-step-method, ai-collaboration
+- [[tools/tool-demand-agent-case-match.md|Agent L4案例匹配：以历史摩擦点为起点填充8步地图]] — yitang, five-step-method, ai-collaboration
+- [[tools/tool-demand-agent-l4-case-match.md|Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点]] — yitang
+- [[tools/tool-demand-agent-multi-hypothesis.md|Agent L3多假设并行：5个核心任务同时推演]] — yitang, five-step-method, ai-collaboration
+- [[tools/tool-demand-agent-signal-substitute.md|Agent L5信号提取：替代微观体感的非结构化数据分析]] — yitang, five-step-method, ai-collaboration
+- [[tools/tool-demand-agent-signals.md|Agent L1-L2信号聚合：替代"凭经验猜用户"]] — yitang, five-step-method, ai-collaboration
+- [[tools/tool-demand-assessment-triangle.md|需求评估三角形：普遍性×频次×刚性]] — yitang, five-step-method
+- [[tools/tool-demand-blindspot-checklist.md|2B/2C盲区和机会清单：场景拆解的维度小抄]] — yitang, five-step-method
+- [[tools/tool-demand-four-forces.md|四种力量建模：用户切换决策的博弈机制]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l1-user.md|L1粗拆用户标签：识别任务执行者的核心角色]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l2-scenario.md|L2粗拆场景问题：捕捉表层的痛点和需求]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l3-core-job.md|L3圈定核心任务：方案中立的动词+对象+语境]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l4-job-map.md|L4任务地图：全流程8步推演+摩擦点识别]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l5-forces.md|L5隐藏洞察：四种力量+三种任务+微观体感]] — yitang, five-step-method
+- [[tools/tool-demand-iceberg-l6-hypothesis.md|L6需求假设：机会卡片+最危险假设(RAT)]] — yitang, five-step-method
+- [[tools/tool-demand-report-template.md|需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒]] — yitang
+- [[tools/tool-devils-advocacy.md|Devil's Advocacy：主动攻击自己的结论]] — yitang, research
+- [[tools/tool-dns-intelligence.md|DNS情报：从域名和网络基础设施反推竞对动态]] — yitang, research
+- [[tools/tool-doris-industry-report-search-tips.md|行业报告搜索七技：三级搜索能力+渠道清单]] — yitang, research
+- [[tools/tool-doris-industry-report-source-evaluation.md|行业报告可信度评估：多信数据，少信观点]] — yitang, research
+- [[tools/tool-essence-nfactor-modeling.md|本质/N要素建模法：提炼不可再约的核心变量]] — yitang, product, ai-collaboration
+- [[tools/tool-funnel-formula-modeling.md|漏斗图/公式建模法：量化流程与关键变量]] — yitang, product, ai-collaboration
+- [[tools/tool-google-dorking.md|Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息]] — yitang, research
+- [[tools/tool-harness-adversarial-tester.md|对抗测试员：成功标准是"找到bug"]] — yitang, ai-collaboration
+- [[tools/tool-iceberg-triangle-modeling.md|冰山图/三角图建模法：从表象深挖结构与本质]] — yitang, product, ai-collaboration
+- [[tools/tool-indicators-signposts.md|Indicators & Signposts：设置"重新评估"的触发信号]] — yitang, research
+- [[tools/tool-iterative-recursive-deep-dig.md|迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞]] — yitang, modeling, ai-collaboration
+- [[tools/tool-key-assumptions-check.md|Key Assumptions Check：审计你信以为真的东西]] — yitang, research
+- [[tools/tool-media-verification-overview.md|媒体验证技术总览：判断"对方说的是不是真的"]] — yitang, research
+- [[tools/tool-metadata-extraction.md|元数据提取：从文件中提取隐藏信息]] — yitang, research
+- [[tools/tool-osint-maltego.md|Maltego：实体关系图谱——画出目标公司的隐藏网络]] — yitang, research
+- [[tools/tool-osint-overview.md|OSINT工具总览：情报界的调研武器库]] — yitang, research
+- [[tools/tool-osint-sherlock.md|Sherlock：用户名跨平台追踪——找到一个人的所有社交账号]] — yitang, research
+- [[tools/tool-osint-shodan.md|Shodan：互联网设备搜索引擎——发现竞对的技术栈]] — yitang, research
+- [[tools/tool-osint-spiderfoot.md|SpiderFoot：一键自动化OSINT扫描]] — yitang, research
+- [[tools/tool-osint-wayback.md|Wayback Machine：网站时光机——看竞对的每一个历史版本]] — yitang, research
+- [[tools/tool-prompt-iceberg-demand-analysis.md|冰山图 L1-L6 需求深挖——多层引导提示词模板]] — yitang
+- [[tools/tool-prompt-jtbd-scenario-coach.md|JTBD 场景推演教练——六层需求深挖提示词模板]] — yitang
+- [[tools/tool-prompt-usp-demand-analysis.md|USP 深度洞察引擎——需求分析提示词模板]] — yitang
+- [[tools/tool-prompt-usp-quick-scan.md|USP 快速需求拆解——3分钟单轮提示词模板]] — yitang
+- [[tools/tool-radar-chart-modeling.md|雷达图建模法：多维度评估与筛选]] — yitang, product, ai-collaboration
+- [[tools/tool-red-team-analysis.md|Red Team Analysis：模拟竞对的最优策略]] — yitang, research
+- [[tools/tool-reverse-image-search.md|反向图片搜索：追踪图片来源和真实性]] — yitang, research
+- [[tools/tool-sabc-tier-modeling.md|SABC分级/段位图建模法：给事物排优先级与成长路径]] — yitang, product, ai-collaboration
+- [[tools/tool-scenario-selector-modeling.md|场景→工具选择器：根据需求快速匹配合适的建模工具]] — yitang, product, ai-collaboration
+- [[tools/tool-smart-medicine-cabinet-compliance-checklist.md|tool-smart-medicine-cabinet-compliance-checklist]]
+- [[tools/tool-smart-medicine-cabinet-site-selection-guide.md|tool-smart-medicine-cabinet-site-selection-guide]]
+- [[tools/tool-sop-template-modeling.md|SOP/模板建模法：把关键动作固化成标准工作流]] — yitang, product, ai-collaboration
+- [[tools/tool-strategy-12-word-test.md|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — strategy
+- [[tools/tool-strategy-activity-scope.md|活动范围设计工具：What × How × Where 三问]] — strategy, operations
+- [[tools/tool-strategy-blue-ocean-canvas.md|蓝海战略画布（价值曲线工具）]] — strategy, market_positioning
+- [[tools/tool-strategy-business-design-template.md|业务单元业务设计模板]] — strategy, business_design
+- [[tools/tool-strategy-business-summary.md|业务设计总结：战略蓝图输出+关键任务卡片]] — strategy
+- [[tools/tool-strategy-capability-matrix.md|核心能力评估矩阵：影响力×急迫性四象限]] — strategy
+- [[tools/tool-strategy-category-role-matrix.md|零售品类角色矩阵]] — strategy, retail
+- [[tools/tool-strategy-competition-traps.md|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — strategy
+- [[tools/tool-strategy-control-points.md|战略控制点设计工具：价值定位模型]] — strategy, competitive_advantage
+- [[tools/tool-strategy-core-competence-matrix.md|核心能力评估矩阵：影响力 × 急迫性]] — strategy, capability
+- [[tools/tool-strategy-customer-selection.md|客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环]] — strategy
+- [[tools/tool-strategy-fishbone.md|鱼骨图根因分析工具]] — strategy, problem_solving
+- [[tools/tool-strategy-five-see-three-set.md|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — strategy
+- [[tools/tool-strategy-four-layers.md|战略四层结构：集团→业务单元→职能→执行]] — strategy
+- [[tools/tool-strategy-four-moves.md|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — strategy
+- [[tools/tool-strategy-gap-analysis.md|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — strategy
+- [[tools/tool-strategy-industry-chain-analysis.md|产业链机会与行动计划分析工具]] — strategy, operations
+- [[tools/tool-strategy-ksf.md|关键成功因素（KSF）分析工具]] — strategy, competitive_analysis
+- [[tools/tool-strategy-lifecycle.md|企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0]] — strategy, entrepreneurship
+- [[tools/tool-strategy-map.md|战略地图——公司/各BU/业务单元的战略蓝图模板]] — strategy
+- [[tools/tool-strategy-nine-problems.md|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — strategy
+- [[tools/tool-strategy-pareto.md|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — strategy
+- [[tools/tool-strategy-platform-business-map.md|平台商业模式地图]] — strategy, platform
+- [[tools/tool-strategy-profit-model-comparison.md|盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策]] — strategy
+- [[tools/tool-strategy-risk-management.md|业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵]] — strategy, risk_management
+- [[tools/tool-strategy-sentence-formula.md|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — strategy
+- [[tools/tool-strategy-swot.md|SWOT 分析工具：从四象限到行动策略]] — strategy
+- [[tools/tool-strategy-three-horizons.md|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — strategy
+- [价值获取设计工具：8 问盈利模型](tools/tool-strategy-value-capture.md) — strategy, business_model
+- [价值主张设计工具：三问 + 六维排序法](tools/tool-strategy-value-proposition.md) — strategy, marketing
+- [物流费用三年节约计划：从单吨运费到全链成本](tools/tool-strategy-logistics-cost-planning.md) — strategy, operations
+- [细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"](tools/tool-strategy-market-opportunity-matrix.md) — strategy
+- [[tools/tool-wanghuan-ai-business-profile.md|王欢AI业务档案5字段工具]] — 王欢
+- [[tools/tool-wanghuan-ai-dual-role-coach.md|王欢：AI 双角色教练对练工具]] — 王欢
+- [[tools/tool-yitang-18-strategy-tool-mapping.md|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — yitang
+- [[tools/tool-yitang-ai-assisted-analysis.md|AI辅助分析：用AI做数据分析和模式识别]] — yitang, research
+- [[tools/tool-yitang-ai-assisted-organize.md|AI辅助整理：把访谈录音/会议记录结构化]] — yitang, research
+- [[tools/tool-yitang-ai-monitoring-alert.md|AI监控/预警：自动化竞争情报跟踪]] — yitang, research
+- [[tools/tool-yitang-ai-report-drafting.md|AI草写报告：用AI生成调研初稿]] — yitang, research
+- [[tools/tool-yitang-ai-research-workflow.md|AI辅助调研工作流：七工具四层深度+十大假设]] — yitang, research, ai-collaboration
+- [[tools/tool-yitang-amazon-bestseller.md|亚马逊榜单：海外市场的品类趋势]] — yitang, research
+- [[tools/tool-yitang-anonymous-product-testing.md|匿名产品体验：以真实用户身份盲测竞品]] — yitang, research
+- [[tools/tool-yitang-anonymous-roundtable.md|匿名座谈：以第三方身份组织行业讨论]] — yitang, research
+- [[tools/tool-yitang-app-store-data.md|APP数据查询：应用商店排名与下载量估算]] — yitang, research
+- [[tools/tool-yitang-app-store-review.md|应用商店评论分析：功能请求+竞品对比的富矿]] — yitang, research
+- [[tools/tool-yitang-b2b-gov-research.md|To B/To G调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-baidu-index.md|百度指数：搜索需求趋势分析]] — yitang, research
+- [[tools/tool-yitang-behavioral-observation.md|行为观察法：不提问，只看用户怎么做]] — yitang, research
+- [[tools/tool-yitang-bidding-analysis.md|招投标分析：从政府采购反推客户和订单]] — yitang, research
+- [[tools/tool-yitang-bp-analysis.md|商业计划书分析：从竞对BP中提取商业模式]] — yitang, research
+- [[tools/tool-yitang-business-registration-check.md|工商查询：社保人数+股权穿透+关联公司]] — yitang, research
+- [[tools/tool-yitang-channel-agent-interview.md|渠道/代理商访谈：渠道端的情报获取]] — yitang, research
+- [[tools/tool-yitang-comparable-company-selection.md|对标公司选择三步法：加法·减法·三原则]] — yitang, research
+- [[tools/tool-yitang-competitor-financial-analysis.md|竞对财税分析：从社保/纳税/财报反推真实规模]] — yitang, research
+- [[tools/tool-yitang-conference-networking.md|行业会议/论坛情报：茶歇时的信息质量最高]] — yitang, research
+- [[tools/tool-yitang-consulting-business-research.md|咨询类业务调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-consumer-goods-research.md|消费品调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-content-ip-research.md|内容IP/MCN调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-court-record-search.md|裁判文书检索：从法律纠纷中挖掘商业情报]] — yitang, research
+- [[tools/tool-yitang-database-index.md|第三方数据库与行业报告来源索引]] — yitang, research
+- [[tools/tool-yitang-douyin-data.md|抖音数据：直播电商和短视频趋势追踪]] — yitang, research
+- [[tools/tool-yitang-employee-directory.md|员工公开名录：从通讯录取组织架构]] — yitang, research
+- [[tools/tool-yitang-executive-speech-analysis.md|高管公开发言分析：从CEO讲话中提取战略信号]] — yitang, research
+- [[tools/tool-yitang-expert-network-platform.md|专家网络付费平台：快速找到对的人]] — yitang, research
+- [[tools/tool-yitang-fake-complaint-research.md|假装客户投诉：以投诉之名获取内部信息]] — yitang, research
+- [[tools/tool-yitang-field-research.md|实地调研/蹲店：蹲店·谈话·数人头三板斧]] — yitang, research
+- [[tools/tool-yitang-financial-report-intelligence.md|财报/招股书情报：用上市公司公开报告做创业预判]] — yitang, research
+- [[tools/tool-yitang-financing-intelligence.md|融资信息分析：从融资事件反推竞对状态]] — yitang, research
+- [[tools/tool-yitang-forum-data.md|论坛/社区数据：知乎豆瓣贴吧的深度讨论]] — yitang, research
+- [[tools/tool-yitang-gossip-intelligence.md|三人八卦：饭局/聚会中的非正式情报]] — yitang, research
+- [[tools/tool-yitang-government-data-search.md|国家数据查询：最权威的宏观数据来源]] — yitang, research
+- [[tools/tool-yitang-hardware-product-disassembly.md|硬件产品拆解调研：BOM成本+工艺分析]] — yitang, research
+- [[tools/tool-yitang-in-home-experience-research.md|上门体验调研：去用户家里看真实使用场景]] — yitang, research
+- [[tools/tool-yitang-industry-report-search.md|行业报告搜索：拓宽关键词+多平台交叉]] — yitang, research
+- [[tools/tool-yitang-ipo-annual-report-cheat-sheet.md|上市公司报告价值Cheat Sheet：创业各阶段该读什么]] — yitang, research
+- [[tools/tool-yitang-job-intelligence-research.md|招聘渠道情报：五层递进挖掘竞对内部信息]] — yitang, research
+- [[tools/tool-yitang-news-monitoring.md|新闻媒体监控：从报道频率和角度追踪竞对]] — yitang, research
+- [[tools/tool-yitang-online-product-experience.md|线上产品完整体验：从注册到售后的全流程]] — yitang, research
+- [[tools/tool-yitang-organization-research.md|组织调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-overseas-research.md|出海调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-partner-data-analysis.md|合作方案数据：从合作方拿到的真实数字]] — yitang, research
+- [[tools/tool-yitang-patent-analysis.md|专利分析：从知识产权反推技术路线]] — yitang, research
+- [[tools/tool-yitang-pc-web-data.md|PC/Web端数据：传统互联网的数据来源]] — yitang, research
+- [[tools/tool-yitang-people-network-database.md|人脉库检索：系统化搜索目标公司的员工]] — yitang, research
+- [[tools/tool-yitang-product-full-experience.md|完整体验产品：从用户视角理解产品全貌]] — yitang, research
+- [[tools/tool-yitang-public-information-research.md|官方公开信息渠道：公司自己发布的信息最有价值]] — yitang, research
+- [[tools/tool-yitang-public-sentiment-research.md|舆情/口碑批量收集：好评决定内核，差评决定机会]] — yitang, research
+- [[tools/tool-yitang-recruit-user-interview.md|招募用户访谈：公开招募+激励设计]] — yitang, research
+- [[tools/tool-yitang-research-best-practice.md|最佳实践调研：找到行业标杆，复制成功因素]] — yitang, research
+- [[tools/tool-yitang-research-company-disassembly.md|公司拆解：深度分析竞争对手的六维框架]] — yitang, research
+- [[tools/tool-yitang-research-competitive-quadrant.md|竞争象限：用二维矩阵可视化竞争格局]] — yitang, research
+- [[tools/tool-yitang-research-competitor-tracking.md|竞对跟踪：持续监控竞争对手的动态与策略]] — yitang, research
+- [[tools/tool-yitang-research-continuous-tracking.md|持续跟踪：建立动态信息监控机制]] — yitang, research
+- [[tools/tool-yitang-research-cross-validation.md|交叉验证：多源印证的信息可信度提升]] — yitang, research
+- [[tools/tool-yitang-research-deep-attribution.md|深度归因：找到问题根因的5Why法]] — yitang, research
+- [[tools/tool-yitang-research-exhaust-means.md|穷尽手段：底线之上，努力拉满]] — yitang, research
+- [[tools/tool-yitang-research-follow-map.md|按图索骥：根据定位寻找对标案例]] — yitang, research
+- [[tools/tool-yitang-research-industry-scan.md|行业扫描：快速建立行业全貌认知]] — yitang, research
+- [[tools/tool-yitang-research-intelligence-map-in-hand.md|地图在手：建立全局信息获取体系]] — yitang, research
+- [[tools/tool-yitang-research-normalize-summary.md|归一总结：整合信息形成统一结论]] — yitang, research
+- [[tools/tool-yitang-research-quantitative-modeling.md|定量建模：用数字说话的分析框架]] — yitang, research
+- [[tools/tool-yitang-research-single-point-sniper.md|单点狙击：聚焦关键问题的深度验证]] — yitang, research
+- [[tools/tool-yitang-research-two-dimensional-positioning.md|二维定位：找到差异化竞争的坐标]] — yitang, research
+- [[tools/tool-yitang-research-unit-model.md|单元模型：找到业务最小单元的经济密码]] — yitang, research
+- [[tools/tool-yitang-research-validate-assumption.md|调研先行验证假设：在行动前杀死错误想法]] — yitang, research
+- [[tools/tool-yitang-reverse-data-analysis.md|逆向数据分析：从公开数据反推商业真相]] — yitang, research
+- [[tools/tool-yitang-review-analysis.md|差评分析：系统化提取竞品缺陷]] — yitang, research
+- [[tools/tool-yitang-securities-research.md|证券研报：券商分析师的行业深度报告]] — yitang, research
+- [[tools/tool-yitang-security-guard-intel.md|保安/门卫情报：非正式但有效的信息源]] — yitang, research
+- [[tools/tool-yitang-shareholder-analysis.md|股东信息穿透：从股权结构看利益格局]] — yitang, research
+- [[tools/tool-yitang-signup-statistics.md|线上签约统计：通过自增ID推算用户/订单量]] — yitang, research
+- [[tools/tool-yitang-social-engineering-research.md|社会工程学调研：身份设计与信息获取的合法边界]] — yitang, research
+- [[tools/tool-yitang-social-media-interview.md|社交媒体采访：在用户活跃的平台做轻量访谈]] — yitang, research
+- [[tools/tool-yitang-social-media-monitoring.md|社交媒体监控：持续追踪竞对的公开动态]] — yitang, research
+- [[tools/tool-yitang-stock-data.md|股票/上市公司数据：从二级市场看一级市场]] — yitang, research
+- [[tools/tool-yitang-store-franchise-research.md|门店加盟调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-supplier-interview.md|供应商访谈：从供应链端获取竞对数据]] — yitang, research
+- [[tools/tool-yitang-supply-chain-research.md|供应链/合作方情报：从合作方口中拿到竞对的水下数据]] — yitang, research
+- [[tools/tool-yitang-tech-project-research.md|科技型项目调研手段：浅中深三层10大评估法]] — yitang, research
+- [[tools/tool-yitang-trend-data.md|趋势数据查询：行业走向的定量判断]] — yitang, research
+- [[tools/tool-yitang-user-interview-5steps.md|用户访谈五步执行法：画像·场景·信任·提问·判断]] — yitang, research
+- [[tools/tool-yitang-weapon-ai-tools.md|武器库策略10：AI工具——七种AI辅助调研方式]] — yitang, research
+- [[tools/tool-yitang-weapon-anonymous-identity.md|武器库策略7：匿名身份访谈——社会工程学的四种方式]] — yitang, research
+- [[tools/tool-yitang-weapon-field-reconnaissance.md|武器库策略14：线下门店侦察——蹲店·数人头·看运营]] — yitang, research
+- [[tools/tool-yitang-weapon-former-employee-network.md|武器库策略6：前员工人脉网络——六度人脉的实战应用]] — yitang, research
+- [[tools/tool-yitang-weapon-full-product-experience.md|武器库策略3：完整体验产品——从购买到使用的全链路]] — yitang, research
+- [[tools/tool-yitang-weapon-industry-expert.md|武器库策略9：行业专家访谈——五步找到对的专家]] — yitang, research
+- [[tools/tool-yitang-weapon-insider-intelligence.md|武器库策略5：内部人情报——员工/离职员工的信息价值]] — yitang, research
+- [[tools/tool-yitang-weapon-media-search.md|武器库策略12：媒体/社区搜索——从业者观点和专业讨论]] — yitang, research
+- [[tools/tool-yitang-weapon-partner-research.md|武器库策略4：合作方调研——上下游的信息金矿]] — yitang, research
+- [[tools/tool-yitang-weapon-product-reputation.md|武器库策略2：收集产品口碑/舆情——批量获取用户声音]] — yitang, research
+- [[tools/tool-yitang-weapon-product-reverse.md|武器库策略13：产品逆向/拆解——从竞品实物反推技术和成本]] — yitang, research
+- [[tools/tool-yitang-weapon-public-official-info.md|武器库策略8：官方公开信息——公司的十大公开信息源]] — yitang, research
+- [[tools/tool-yitang-weapon-third-party-database.md|武器库策略11：第三方数据库——15+核心数据源]] — yitang, research
+- [[tools/tool-yitang-weapon-user-direct-interview.md|武器库策略1：直接访谈用户——四种接触方式]] — yitang, research
+- [[tools/tool-yitang-web-scraping-research.md|全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线]] — yitang
+- [[tools/tool-yitang-wechat-group-infiltration.md|微信群潜伏：加入竞对的用户/加盟商社群]] — yitang, research
+- [[tools/tool-yitang-wechat-index.md|微信指数：公众号内容热度追踪]] — yitang, research
+- [[tools/tool-yitang-weibo-index.md|微博指数：公共话题热度追踪]] — yitang, research
+- [[tools/tool-yitang-xiaohongshu-data.md|小红书数据：种草热度和用户口碑追踪]] — yitang, research
+- [[tools/yt-barrier-moat-assessment.md|护城河评估工具]] — Truman
+- [[tools/yt-business-model-cac-ltv.md|CAC与LTV的实战计算]] — Truman
+- [[tools/yt-business-model-canvas.md|商业模式画布：一堂版]] — Truman
+- [[tools/yt-demand-level-assessment.md|需求分析段位自评表：从L1到L6的进阶路径]] — Truman
+- [[tools/yt-demand-quantitative-estimation.md|市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值]] — Truman
+- [[tools/yt-demand-segmentation-canvas.md|需求分层画布：从"所有人"到"第一批100个"的结构化工具]] — Truman
+- [[tools/yt-growth-a-b-testing.md|A/B测试：增长实验的统计基础]] — Truman
+- [[tools/yt-growth-channel-roi.md|渠道ROI评估与优化]] — Truman
+- [[tools/yt-growth-cohort-analysis.md|同期群分析：用户行为追踪]] — Truman
+- [[tools/yt-growth-referral-system.md|推荐系统：老带新的设计框架]] — Truman
+- [[tools/yt-note-five-levels-training.md|清单体笔记五阶进阶训练法：从理论到现场的完整通关路径]] — yitang, note-taking
+- [[tools/yt-note-live-field-skill.md|现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册]] — yitang, note-taking
+- [[tools/yt-pitch-metaphor.md|yt-pitch-metaphor]]
+- [[tools/yt-pitch-quantification.md|yt-pitch-quantification]]
+- [[tools/yt-pitch-storytelling.md|yt-pitch-storytelling]]
+- [[tools/yt-product-kernel-canvas.md|产品内核画布：从问题到解决方案的结构化工具]] — Truman
+- [[tools/yt-product-kernel-mvp-design.md|内核MVP设计：最小可验证产品]] — Truman
+- [[tools/yt-product-kernel-ten-metrics.md|产品内核十大典型指标：从假设到验证的数据体系]] — Truman
+- [[tools/yt-tob-customer-sabc.md|yt-tob-customer-sabc]]
+- [[tools/yt-tool-ai-ppt-maker.md|AI对话式PPT生成器：把排版变成说话]] — Leo/一堂AI设计课讲师
+- [[tools/yt-tool-business-formula-metrics-checklist.md|yt-tool-business-formula-metrics-checklist]]
+- [[tools/yt-tool-equity-checklist.md|股权设计检查清单]] — yitang
+- [[tools/yt-tool-hiring-scorecard.md|结构化面试打分卡]] — yitang
+- [[tools/yt-tool-meeting-designer.md|会议设计师：一页纸会议蓝图]] — yitang
+- [[tools/yt-tool-okr-cycle.md|OKR 制定与复盘罗盘]] — yitang
+- [[tools/yt-tool-onboarding-90day.md|新人 90 天融入加速器]] — yitang
+- [[tools/yt-tool-project-health-radar.md|项目健康度雷达]] — yitang
+- [[tools/yt-tool-strategy-workshop.md|战略研讨会引导手册]] — yitang
+- [[tools/yt-tool-unit-model-ai-assisted.md|yt tool unit model ai assisted]] — master
+- [[tools/yt-tool-unit-model-benchmark.md|yt tool unit model benchmark]] — master
+- [[tools/yt-tool-unit-model-construction.md|yt tool unit model construction]] — master
+- [[tools/yt-tool-unit-model-dynamic.md|yt tool unit model dynamic]] — master
+- [[tools/yt-tool-unit-model-selection.md|yt tool unit model selection]] — master

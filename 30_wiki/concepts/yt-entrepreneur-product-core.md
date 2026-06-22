@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-product-core
 confidence: 0.85
 created_at: 2026-05-06
@@ -45,6 +46,12 @@ diagnostic_signals:
   - {'signal': '用户有产品功能但没验证关键转化率', 'framework_lens': '内核验证缺失', 'follow_up_question': '你的产品内核对应的关键转化率指标是什么？现在数字是多少？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-industry-forecast]]'
+  - '[[yt-concept-p-type-l-type]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 ---
 # 产品内核定义、迭代与验证方法论
 

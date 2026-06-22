@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
@@ -39,6 +40,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[ocr-预判模型]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[yt-foresight-model-taxonomy]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

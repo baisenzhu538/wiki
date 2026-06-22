@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-action-camp-launch
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: concept
@@ -31,6 +32,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 confidence: 0.85
 trust_level: high
+related:
+  - '[[yt-personal-pan-product-tools]]'
+  - '[[ocr-一堂-地图-创业地图]]'
+  - '[[yt-personal-thinking-models]]'
+  - '[[yt-personal-pan-product-exploration]]'
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

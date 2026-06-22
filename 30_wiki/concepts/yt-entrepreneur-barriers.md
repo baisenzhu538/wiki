@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-barriers
 confidence: 0.8
 created_at: 2026-05-06
@@ -43,6 +44,12 @@ diagnostic_signals:
   - {'signal': '用户把单一优势当护城河', 'framework_lens': '壁垒维度单一', 'follow_up_question': '如果竞争对手明天复制了你的这个优势，你还有什么？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
+  - '[[yt-entrepreneur-business-growth]]'
 ---
 # 项目壁垒
 

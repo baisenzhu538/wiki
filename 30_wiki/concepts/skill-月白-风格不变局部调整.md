@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-风格不变局部调整
 title: 技能：风格不变局部调整
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-线下门店设计复杂度评估]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：风格不变局部调整
 

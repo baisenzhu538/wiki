@@ -1,5 +1,6 @@
 ---
 
+
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
 domain:
@@ -17,6 +18,12 @@ pipeline:
 - confidence-source-cited
 author: unknown
 confidence: 0.8
+related:
+  - '[[concept-ai-native-organization-five-steps]]'
+  - '[[YC-Y-Combinator]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[skill-纪浩-AI对话上下文隔离]]'
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 ---
 # YC 放出一套「AI-NATIVE 公司」组织方法论
 

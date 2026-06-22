@@ -21,6 +21,7 @@ related:
 - '[[framework-strategy-blm]]'
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-ksf]]'
+- '[[tool-strategy-market-opportunity-matrix]]'
 - '[[tool-strategy-swot]]'
 ---
 

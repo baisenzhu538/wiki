@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-deliberate-practice-four-elements
 title: 四要素诊断模型——刻意练习的笔记落地框架
 domain:
@@ -22,6 +23,12 @@ type: concept
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[ocr-一堂刻意练习十年成长指数]]'
+  - '[[skill-自我反馈修正笔记姿势]]'
+  - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
+  - '[[dk-yitang-digging-belief]]'
+  - '[[yt-model-deliberate-practice-growth]]'
 ---
 # 四要素诊断模型——刻意练习的笔记落地框架
 

@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-泛产品设计者的三大自我修养"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂产品内核-十大典型指标]]'
+  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
+  - '[[ocr-一堂刻意练习十年成长指数]]'
+  - '[[ocr-泛产品设计者的自我修养]]'
+  - '[[ocr-泛产品设计的应用场景示意图]]'
 ---
 
 # OCR: 泛产品设计者的三大自我修养

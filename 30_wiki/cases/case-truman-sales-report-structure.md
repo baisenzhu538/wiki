@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-sales-report-structure
 title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 type: case
@@ -37,6 +38,12 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 domain: *id001
+related:
+  - '[[dk-modeling-logical-cleanliness-root]]'
+  - '[[dk-modeling-checklist-formatting-rules]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[tool-ai-skill-engineering-method]]'
 ---
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 

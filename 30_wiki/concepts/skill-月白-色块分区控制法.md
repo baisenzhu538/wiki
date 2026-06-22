@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-色块分区控制法
 title: 技能：色块分区控制法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-印刷DPI标准设置]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-AI图片印刷落地预处理]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-PS图层规范管理]]'
 ---
 # 技能：色块分区控制法
 

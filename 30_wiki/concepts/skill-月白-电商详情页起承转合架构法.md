@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-电商详情页起承转合架构法
 title: 技能：电商详情页起承转合架构法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC反向拆解法]]'
+  - '[[skill-月白-AI生成图小字控制法]]'
+  - '[[skill-月白-AIGC设计作业复盘法]]'
+  - '[[skill-月白-AI对话式海报修改（免PS）]]'
+  - '[[skill-月白-AI工艺图人工复核法]]'
 ---
 # 技能：电商详情页起承转合架构法
 

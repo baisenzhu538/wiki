@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-AI落地前置条件验证
 title: 技能：AI落地前置条件验证
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-低置信度样本黄金漏斗处理]]'
+  - '[[skill-马易-AI能力团队复制]]'
+  - '[[skill-马易-AI项目需求拆解筛选]]'
+  - '[[skill-马易-AI答疑运营风格适配]]'
+  - '[[skill-马易-RPA数据整合法]]'
 ---
 # 技能：AI落地前置条件验证
 

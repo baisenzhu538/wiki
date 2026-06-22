@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-context-engineering
 title: "上下文工程：充分≠越多越好"
 type: concept
@@ -37,6 +38,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
+related:
+  - '[[yt-prompt-brainstorming]]'
+  - '[[yt-concept-ai-guard-brain]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-note-ai-human-division]]'
 ---
 # 上下文工程：充分≠越多越好
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: "sprint-2-门禁举证验收"
 created_at: 2026-05-09
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[yt-case-mandatory-cases]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[dk-c4-selfcheck-superseded]]'
+  - '[[轻量级诊所HIS调研全清单]]'
 ---
 # Sprint 2 门禁举证验收
 

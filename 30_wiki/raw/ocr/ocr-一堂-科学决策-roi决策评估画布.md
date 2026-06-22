@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-科学决策-roi决策评估画布"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+  - '[[ocr-一堂-科学决策-决策三角形]]'
 ---
 
 # OCR: 一堂-科学决策-ROI决策评估画布

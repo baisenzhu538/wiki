@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-ten-metrics
 component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
@@ -45,6 +46,12 @@ diagnostic_signals:
   follow_up_question: 如果复购率下降5%，你的标准应对流程是什么？
 updated_at: '2026-06-16'
 author: 老顽童
+related:
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[yt-model-product-core-metrics]]'
+  - '[[yt-growth-cycle-model]]'
+  - '[[yt-scale-economy-weapon-library]]'
 ---
 # 产品内核十大典型指标
 

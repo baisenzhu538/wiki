@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-马易-AIGC项目ROI评估
 title: 技能：AIGC项目ROI评估
 type: "tool"
@@ -27,6 +28,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
+related:
+  - '[[skill-马易-AI能力团队复制]]'
+  - '[[skill-马易-AI任务拆解提升控制度]]'
+  - '[[skill-马易-AI项目需求拆解筛选]]'
+  - '[[skill-马易-隐私安全分层解决]]'
+  - '[[skill-马易-AI答疑运营风格适配]]'
 ---
 # 技能：AIGC项目ROI评估
 

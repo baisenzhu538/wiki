@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-中国企业AI落地五步法
 title: 技能：中国企业AI落地五步法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-深度沉浸需求挖掘]]'
+  - '[[skill-马易-数字员工FD拆解落地]]'
+  - '[[skill-马易-AIGC项目ROI评估]]'
+  - '[[skill-马易-最小场景优先落地法]]'
 ---
 # 技能：中国企业AI落地五步法
 

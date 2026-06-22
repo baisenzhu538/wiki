@@ -1,5 +1,6 @@
 ---
 
+
 plan_id: plan_20260501_8ecb74e3
 type: improvement-plan
 domain:
@@ -18,6 +19,12 @@ confidence: 0.6
 trust_level: low
 title: plan 20260501 8ecb74e3 improvement plan
 updated_at: '2026-06-16'
+related:
+  - '[[plan_20260501_47264869-improvement-plan]]'
+  - '[[plan_20260501_85a84b92-improvement-plan]]'
+  - '[[plan_20260501_97170532-improvement-plan]]'
+  - '[[plan_20260501_05858800-improvement-plan]]'
+  - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 ---
 # Improvement Plan plan_20260501_8ecb74e3
 

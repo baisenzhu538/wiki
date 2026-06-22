@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
@@ -46,6 +47,12 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+related:
+  - '[[skill-一堂-business-prediction-15-char]]'
+  - '[[yt-foresight-deliverables-four-levels]]'
+  - '[[yt-foresight-probability-engineering]]'
+  - '[[case-truman-yitang-foresight]]'
+  - '[[yt-foresight-addition-subtraction]]'
 ---# 十五字黄金法诀：机会预判的核心框架
 
 ## Core Claims

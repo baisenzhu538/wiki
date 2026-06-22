@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-verbatim-script
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '重要演讲会经过多次演练，直到可以不依赖稿件', 'framework_lens': '逐字稿是练习工具，不是拐杖', 'follow_up_question': '你能否在只带关键词提示的情况下完成这次演讲？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-deliberate-practice]]'
+  - '[[yt-personal-time-management]]'
+  - '[[yt-personal-inspiration-flash]]'
+  - '[[yt-personal-scientific-expression]]'
 ---
 # 逐字稿
 

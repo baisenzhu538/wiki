@@ -1,5 +1,6 @@
 ---
 
+
 id: "HIS系统深度调研"
 created_at: 2026-05-03
 domain:
@@ -18,6 +19,12 @@ pipeline:
   - confidence-verified-by-case
 author: unknown
 confidence: 0.85
+related:
+  - '[[紫鲸ai智能体工作流平台]]'
+  - '[[HIS系统开发实现方案-架构师指南]]'
+  - '[[街顺app全面调研报告]]'
+  - '[[保达云诊所深度调研报告]]'
+  - '[[鑫港湾his系统分阶段整改报告]]'
 ---
 # HIS系统深度调研
 

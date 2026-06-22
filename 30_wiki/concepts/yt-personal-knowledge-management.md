@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-knowledge-management
 confidence: 0.8
 created_at: 2026-05-06
@@ -45,6 +46,12 @@ diagnostic_signals:
   - {'signal': '会定期进行检索练习或知识复用，而不是只收集', 'framework_lens': '知识的价值在于调取', 'follow_up_question': '过去30天，你主动调取过多少张旧卡？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-time-management]]'
+  - '[[yt-personal-inspiration-flash]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-personal-scientific-expression]]'
 ---
 # 知识管理
 

@@ -1,4 +1,5 @@
 ---
+
 id: finance-legal-business-operations
 title: 企业财务-法务-商务运营实务：主题综合索引卡
 type: concept
@@ -27,6 +28,12 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
+related:
+  - '[[product-business-strategy]]'
+  - '[[supply-chain-beverage]]'
+  - '[[ai-hackathon-pitches]]'
+  - '[[business-validation-models-collaboration]]'
+  - '[[personal-growth-complex-systems]]'
 ---
 # 企业财务-法务-商务运营实务（听脑录音综合草稿）
 

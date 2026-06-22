@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-地图-创业地图"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-地图-个人地图]]'
+  - '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+  - '[[ocr-一堂-地图-管理地图]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[ocr-一堂进步大地图]]'
 ---
 
 # OCR: 一堂-地图-创业地图

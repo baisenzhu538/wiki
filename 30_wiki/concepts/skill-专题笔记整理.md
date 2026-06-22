@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-专题笔记整理
 title: 技能：专题笔记整理
 type: "tool"
@@ -25,6 +26,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-辩证讨论深化]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-费曼学习法三句话提炼]]'
+  - '[[skill-专家访谈学习]]'
 ---
 # 技能：专题笔记整理
 

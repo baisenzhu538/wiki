@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI去文字-稿定设计快速出图法
 title: 技能：AI去文字+稿定设计快速出图法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI一句话改图尺寸]]'
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
+  - '[[skill-月白-AI对话式海报修改（免PS）]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
 ---
 # 技能：AI去文字+稿定设计快速出图法
 

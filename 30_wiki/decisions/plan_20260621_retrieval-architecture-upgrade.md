@@ -1,4 +1,5 @@
 ---
+
 id: plan_20260621_retrieval-architecture-upgrade
 title: 检索架构升级 —— 从向量匹配到域路由 + 混合检索 + 工作流组装
 type: improvement-plan
@@ -14,6 +15,12 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
+related:
+  - '[[plan_20260621_domain-index-infrastructure]]'
+  - '[[framework-yitang-research-quality-gate]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[system-yitang-research-workflow]]'
 ---
 
 # 检索架构升级方案

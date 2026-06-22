@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-里程碑思维-找对标优先于做设计
 title: 技能：里程碑思维-找对标优先于做设计
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-AI生成图小字控制法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
+  - '[[skill-月白-文创材质成本调研与精益选择]]'
 ---
 # 技能：里程碑思维-找对标优先于做设计
 

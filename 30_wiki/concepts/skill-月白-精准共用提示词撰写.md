@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-精准共用提示词撰写
 title: 技能：精准共用提示词撰写
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-文创材质成本调研与精益选择]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
 ---
 # 技能：精准共用提示词撰写
 

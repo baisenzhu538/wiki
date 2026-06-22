@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-channel-exploration
 confidence: 0.8
 created_at: 2026-05-06
@@ -43,6 +44,12 @@ diagnostic_signals:
   - {'signal': '用户渠道很多，但不知道哪个有效', 'framework_lens': '没有渠道验证机制', 'follow_up_question': '每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-research-cognition]]'
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-fundraising]]'
 ---
 # 渠道探索
 

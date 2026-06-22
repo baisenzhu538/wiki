@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-Truman-AI时代提示词优化法
 title: 技能：AI时代提示词优化法
 type: "tool"
@@ -16,6 +17,12 @@ source_refs:
   - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-月白-短视频封面一秒吸睛法]]'
+  - '[[skill-Truman-技术社区严肃提问法]]'
+  - '[[skill-Truman-语义对齐沟通法]]'
+  - '[[skill-Truman-问题定义澄清法]]'
+  - '[[skill-Truman-职场异步协作提问法]]'
 ---
 # 技能：AI时代提示词优化法
 

@@ -1,5 +1,6 @@
 ---
 
+
 plan_id: plan_20260503_f3e9a2b1
 type: improvement-plan
 domain:
@@ -19,6 +20,12 @@ confidence: 0.6
 trust_level: low
 title: plan 20260503 f3e9a2b1 improvement plan
 updated_at: '2026-06-16'
+related:
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[kdo-batch-produce-req014]]'
+  - '[[dk-c2-dual-status-machine]]'
+  - '[[dk-kdo-leaky-pipe-pressure]]'
 ---# Improvement Plan plan_20260503_f3e9a2b1
 
 ## 来源

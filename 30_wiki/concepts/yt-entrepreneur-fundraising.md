@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-fundraising
 confidence: 0.8
 created_at: 2026-05-06
@@ -42,6 +43,12 @@ diagnostic_signals:
   - {'signal': '用户没有PMF就着急融资', 'framework_lens': '时机错配——融资加速验证过的东西', 'follow_up_question': '你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # 融资认知
 

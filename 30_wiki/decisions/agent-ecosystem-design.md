@@ -1,5 +1,6 @@
 ---
 
+
 title: KDO Agent 体系建设方案（草案）
 type: proposal
 status: draft
@@ -15,6 +16,12 @@ id: agent-ecosystem-design
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[proposal-prompt-injection-infrastructure]]'
+  - '[[case-ji-hao-skills-market]]'
+  - '[[ai-native-im-multi-agent]]'
 ---# KDO Agent 体系建设方案
 
 > 状态：**待欧阳锋裁决**。三个核心问题未定：agent 数量、分发机制、颗粒度。

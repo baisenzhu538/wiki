@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-scientific-questioning-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -36,6 +37,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+  - '[[ocr-一堂-个人修炼-科学提问刻意练习]]'
+  - '[[yt-entrepreneur-research-camp]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-model-questioning-practice-canvas]]'
 ---
 # 科学提问刻意练习地图
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-RGB转CMYK印刷预检
 title: 技能：RGB转CMYK印刷预检
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-印刷DPI标准设置]]'
+  - '[[skill-月白-口述作图法（口喷设计）]]'
+  - '[[skill-月白-AI图片印刷落地预处理]]'
+  - '[[skill-月白-PS图层规范管理]]'
 ---
 # 技能：RGB转CMYK印刷预检
 

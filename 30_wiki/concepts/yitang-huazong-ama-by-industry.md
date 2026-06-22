@@ -1,4 +1,5 @@
 ---
+
 id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
@@ -15,6 +16,8 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
+related:
+  - '[[yitang-huazong-ama-summary]]'
 ---# 花总AMA按行业分类整理
 
 > 原文：yitang-huazong-ama-20250526

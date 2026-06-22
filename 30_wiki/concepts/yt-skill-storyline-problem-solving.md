@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
@@ -27,6 +28,12 @@ type: "tool"
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[七件事集团]]'
+  - '[[yt-skill-storyline-key-elements]]'
+  - '[[yt-skill-storyline-contrast-analysis]]'
+  - '[[source-code-delivery-model]]'
+  - '[[yt-skill-storyline-timeline]]'
 ---
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 

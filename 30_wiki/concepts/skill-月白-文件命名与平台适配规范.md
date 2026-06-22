@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-文件命名与平台适配规范
 title: 技能：文件命名与平台适配规范
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-AIGC设计作业复盘法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+  - '[[skill-月白-实物包装落地训练法]]'
+  - '[[skill-月白-AI工艺图人工复核法]]'
 ---
 # 技能：文件命名与平台适配规范
 

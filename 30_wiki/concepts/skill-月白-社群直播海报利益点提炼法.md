@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-社群直播海报利益点提炼法
 title: 技能：社群直播海报利益点提炼法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC反向拆解法]]'
+  - '[[skill-月白-文创材质成本调研与精益选择]]'
+  - '[[skill-月白-PPT内容框架AIGC生成法]]'
+  - '[[skill-月白-Token效价比决策法]]'
+  - '[[skill-月白-PPT风格锁定工作流]]'
 ---
 # 技能：社群直播海报利益点提炼法
 

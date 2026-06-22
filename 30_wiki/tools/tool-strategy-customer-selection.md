@@ -22,6 +22,7 @@ related:
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-business-design-template]]'
 - '[[tool-strategy-category-role-matrix]]'
+- '[[tool-strategy-market-opportunity-matrix]]'
 - '[[tool-strategy-platform-business-map]]'
 - '[[tool-strategy-value-proposition]]'
 ---

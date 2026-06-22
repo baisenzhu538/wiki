@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-concept-p-type-l-type
 confidence: 0.8
 created_at: 2026-06-06
@@ -45,6 +46,12 @@ diagnostic_signals:
   - {'signal': 'L型创业者分析过度，永远不起步', 'framework_lens': '分析瘫痪——逻辑驱动也需要行动', 'follow_up_question': '你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-industry-forecast]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 ---
 # P型与L型创业者
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
@@ -27,6 +28,12 @@ type: "tool"
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[yt-skill-storyline-key-elements]]'
+  - '[[tool-yitang-research-two-dimensional-positioning]]'
+  - '[[yt-model-truman-career-routes]]'
+  - '[[ocr-truman的选择两条职业成长路线]]'
+  - '[[yt-skill-storyline-problem-solving]]'
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 

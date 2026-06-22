@@ -1,5 +1,6 @@
 ---
 
+
 id: learning-thinking
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[视觉prompt三层操作系统-srom-visual-os]]'
+  - '[[business-analysis]]'
+  - '[[meta-prompt-eng]]'
+  - '[[writing-content]]'
+  - '[[product-ux]]'
 ---
 # Learning Thinking
 

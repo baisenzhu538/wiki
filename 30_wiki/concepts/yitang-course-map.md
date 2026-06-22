@@ -1,4 +1,5 @@
 ---
+
 title: 一堂课程大地图
 type: concept
 subtype: hub
@@ -15,6 +16,12 @@ confidence: 0.7
 trust_level: medium
 source_refs: []
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[tool-yitang-research-follow-map]]'
+  - '[[tool-yitang-research-cross-validation]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[plan_20260621_retrieval-architecture-upgrade]]'
 ---# 一堂课程大地图
 
 > Dataview 驱动的课程列表页。方法论框架和体系解读见 30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图（权威 Hub）。

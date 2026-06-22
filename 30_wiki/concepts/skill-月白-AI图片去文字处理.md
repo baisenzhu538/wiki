@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI图片去文字处理
 title: 技能：AI图片去文字处理
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI图片风格逆向提取（抄图法）]]'
+  - '[[skill-月白-产品反光修复术]]'
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-控制产品画面尺寸比例]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：AI图片去文字处理
 

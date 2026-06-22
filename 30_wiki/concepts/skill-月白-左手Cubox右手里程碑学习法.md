@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-左手Cubox右手里程碑学习法
 title: 技能：左手Cubox右手里程碑学习法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-设计师AI资产四类型沉淀]]'
+  - '[[skill-月白-课程资料文件命名规范]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
+  - '[[skill-月白-AI课程内容深度梳理法]]'
 ---
 # 技能：左手Cubox右手里程碑学习法
 

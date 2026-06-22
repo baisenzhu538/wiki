@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-Truman-本地记忆与云端记忆管理
 title: 技能：本地记忆与云端记忆管理
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-AI落地场景识别与拆分]]'
+  - '[[skill-Truman-提示词优化底层方法]]'
+  - '[[skill-Truman-多Agent通信协作方案]]'
+  - '[[skill-月白-文件命名与存档规范（口述暗示）]]'
+  - '[[skill-Truman-复杂项目AI落地稳定性保障]]'
 ---
 # 技能：本地记忆与云端记忆管理
 

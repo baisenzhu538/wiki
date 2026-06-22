@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-time-management
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '每周会回顾时间使用情况，并调整下周计划', 'framework_lens': '时间管理需要反馈闭环', 'follow_up_question': '上周实际时间分配与计划差异最大的地方是什么？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-personal-checklist-notes]]'
 ---
 # 时间管理
 

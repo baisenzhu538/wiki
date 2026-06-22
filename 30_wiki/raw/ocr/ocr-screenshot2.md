@@ -1,4 +1,5 @@
 ---
+
 id: ocr-screenshot2
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-微信图片_20260507004811_41_32]]'
+  - '[[ocr-ocr_screenshot2]]'
+  - '[[ocr-微信图片_20260507004804_39_32]]'
+  - '[[ocr-一堂进步大地图_compressed]]'
+  - '[[ocr-ocr_snipaste_2026-05-15_21-39-40]]'
 ---
 
 # OCR: screenshot2

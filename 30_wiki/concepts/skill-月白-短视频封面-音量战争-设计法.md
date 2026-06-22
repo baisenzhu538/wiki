@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-短视频封面-音量战争-设计法
 title: 技能：短视频封面'音量战争'设计法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI图片风格逆向提取（抄图法）]]'
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-AIGC文字大小精确控制]]'
+  - '[[skill-月白-AI生成图小字控制法]]'
+  - '[[skill-月白-AI图生图尺寸快速转换]]'
 ---
 # 技能：短视频封面'音量战争'设计法
 

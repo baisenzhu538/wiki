@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-实物包装产业链实践
 title: 技能：实物包装产业链实践
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-设计参考图精准定位法]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
 ---
 # 技能：实物包装产业链实践
 

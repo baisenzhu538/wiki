@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-纳米级抄大师训练法
 title: 技能：纳米级抄大师训练法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-RGB转CMYK印刷预检]]'
+  - '[[skill-月白-口述作图法（口喷设计）]]'
+  - '[[skill-月白-AI生成图小字控制法]]'
+  - '[[skill-月白-普通人AI设计80分法则]]'
 ---
 # 技能：纳米级抄大师训练法
 

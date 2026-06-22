@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-Truman-复杂项目AI落地稳定性保障
 title: 技能：复杂项目AI落地稳定性保障
 type: "tool"
@@ -16,6 +17,12 @@ source_refs:
   - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-Truman-数学题与语文题区分法]]'
+  - '[[skill-Truman-提示词优化底层方法]]'
+  - '[[skill-Truman-多Agent通信协作方案]]'
+  - '[[skill-Truman-AI场景探索STAR模型]]'
+  - '[[skill-Truman-人在环渐进自动化策略]]'
 ---
 # 技能：复杂项目AI落地稳定性保障
 

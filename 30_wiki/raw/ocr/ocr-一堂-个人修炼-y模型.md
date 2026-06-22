@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-个人修炼-y模型"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂y模型-科学成事道理]]'
+  - '[[yt-model-y-organization]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[ocr-泛产品设计-落地卡片-解放思想]]'
+  - '[[ocr-一堂-个人修炼-解放思想]]'
 ---
 
 # OCR: 一堂-个人修炼-Y模型

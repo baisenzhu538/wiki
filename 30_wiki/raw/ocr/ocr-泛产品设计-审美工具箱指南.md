@@ -1,4 +1,5 @@
 ---
+
 id: ocr-泛产品设计-审美工具箱指南
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.35
 trust_level: low
+related:
+  - '[[ocr-一堂产品内核-十大典型指标]]'
+  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
+  - '[[ocr-一堂五步法-产品内核画布]]'
+  - '[[ocr-审美提升的层级]]'
+  - '[[ocr-顶级产品追求的方向-乔布斯]]'
 ---
 # OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）
 

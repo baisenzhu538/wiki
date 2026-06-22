@@ -1,5 +1,6 @@
 ---
 
+
 id: aigc设计基础01ai生图原理与提示词基本功
 created_at: 2026-05-28
 domain:
@@ -18,6 +19,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-月白-分层自洽海报生成法]]'
+  - '[[skill-月白-AI设计严苛批评法]]'
+  - '[[skill-月白-AIGC模型选型决策法]]'
+  - '[[skill-月白-AI模型选择策略]]'
+  - '[[skill-月白-精准提示词消除模型幻觉]]'
 ---
 # AIGC设计基础01：AI生图原理与提示词基本功
 

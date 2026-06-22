@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-product-excellence
 confidence: 0.85
 created_at: 2026-05-11
@@ -39,6 +40,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[一堂]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

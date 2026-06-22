@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-concentration-analysis
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '用户认为高集中度行业就不能进', 'framework_lens': '过度简化', 'follow_up_question': '高集中度行业里有没有被忽视的细分市场或差异化角度？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-barriers]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
 ---
 # 集中度分析
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-iterative-prompting
 title: "迭代式提示词工作流（5步法）"
 type: tool
@@ -39,6 +40,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
+related:
+  - '[[yt-prompt-anti-flattery]]'
+  - '[[yt-prompt-brainstorming]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-prompt-writing-workflow]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 ---
 # 迭代式提示词工作流（5步法）
 

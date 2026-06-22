@@ -1,4 +1,5 @@
 ---
+
 id: proposal-graph-rag-star-fix
 title: Graph RAG 放射状图谱修复提案
 type: improvement-plan
@@ -16,6 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
+related:
+  - '[[plan_20260621_domain-index-infrastructure]]'
+  - '[[sprint-6-cli-gap-proposal]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[graph-rag]]'
 ---
 # Graph RAG 放射状图谱修复提案
 

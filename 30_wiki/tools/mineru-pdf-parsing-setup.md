@@ -1,4 +1,5 @@
 ---
+
 id: mineru-pdf-parsing-setup
 title: MinerU (magic-pdf) PDF 解析工具安装与使用
 type: tool
@@ -15,7 +16,11 @@ updated_at: "2026-06-17"
 author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: "2026-06-17"
-related: []
+related:
+  - '[[tool-yitang-industry-report-search]]'
+  - '[[concept-wanghuan-power-of-standards]]'
+  - '[[paddleocr-skill]]'
+  - '[[tool-doris-industry-report-search-tips]]'
 tags:
   - "#infrastructure"
   - "#pdf"

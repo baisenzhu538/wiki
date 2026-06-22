@@ -18,6 +18,7 @@ reviewed_by: 欧阳锋
 related:
   - "[[case-strategy-snack-industry-chain]]"
   - "[[tool-strategy-activity-scope]]"
+  - "[[tool-strategy-logistics-cost-planning]]"
   - "[[tool-strategy-value-capture]]"
 ---
 

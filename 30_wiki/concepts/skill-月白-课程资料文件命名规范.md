@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-课程资料文件命名规范
 title: 技能：课程资料文件命名规范
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-左手Cubox右手里程碑学习法]]'
+  - '[[skill-月白-设计师AI资产四类型沉淀]]'
+  - '[[skill-月白-AIGC反向拆解法]]'
+  - '[[skill-月白-AI对话式海报修改（免PS）]]'
+  - '[[skill-月白-AI课程内容深度梳理法]]'
 ---
 # 技能：课程资料文件命名规范
 

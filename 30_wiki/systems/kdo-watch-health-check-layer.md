@@ -1,4 +1,5 @@
 ---
+
 title: kdo watch 定时巡检层技术说明
 author: 审查者欧阳锋
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
@@ -17,6 +18,12 @@ reviewed_by: pending
 confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
+related:
+  - '[[存储策略]]'
+  - '[[dk-c5-todo-false-positive]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 ---
 # kdo watch 定时巡检层技术说明
 

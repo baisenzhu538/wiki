@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-AI落地能力内化训练
 title: 技能：AI落地能力内化训练
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-平台模式验证法]]'
+  - '[[skill-马易-数字员工FD拆解落地]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
+  - '[[skill-马易-最小场景优先落地法]]'
 ---
 # 技能：AI落地能力内化训练
 

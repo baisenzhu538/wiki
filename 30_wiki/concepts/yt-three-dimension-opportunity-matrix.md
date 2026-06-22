@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -40,6 +41,12 @@ diagnostic_signals:
   follow_up_question: 机会筛选是否只停留在需求-能力-模式三档匹配？
 updated_at: '2026-06-16'
 author: 老顽童
+related:
+  - '[[yt-growth-scaling-pitfalls]]'
+  - '[[dk-ai-entrepreneur-technical-blindspot]]'
+  - '[[source-code-delivery-model]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[yt-foresight-addition-subtraction]]'
 ---# 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]

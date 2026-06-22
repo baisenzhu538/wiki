@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-foresight-model-taxonomy
 confidence: 0.85
 created_at: 2026-06-10
@@ -38,6 +39,12 @@ diagnostic_signals:
   - {'signal': '团队对‘什么时候该升级模型复杂度’有共同约定', 'framework_lens': '工具分层需要决策规则，否则因人而异', 'follow_up_question': '如果两个人分别用 N要素 和 Checklist 评估同一机会，你们会如何裁决？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[ocr-预判模型]]'
+  - '[[yt-model-prediction-model]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-personal-checklist-notes]]'
 ---
 # 预判模型分类
 

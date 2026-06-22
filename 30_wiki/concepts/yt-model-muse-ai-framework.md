@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-muse-ai-framework
 confidence: 0.85
 created_at: 2026-05-07
@@ -37,6 +38,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[yt-personal-ai-capability]]'
 ---
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 

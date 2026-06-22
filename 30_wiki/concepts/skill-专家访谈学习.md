@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-专家访谈学习
 title: 技能：专家访谈学习
 type: "tool"
@@ -26,6 +27,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-辩证讨论深化]]'
+  - '[[skill-对标借鉴他人决策维度]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-费曼学习法三句话提炼]]'
 ---
 # 技能：专家访谈学习
 

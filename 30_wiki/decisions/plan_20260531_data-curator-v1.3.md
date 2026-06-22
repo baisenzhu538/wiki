@@ -1,4 +1,5 @@
 ---
+
 id: plan_20260531_data-curator-v1.3
 title: Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.3
 type: improvement-plan
@@ -19,7 +20,12 @@ version: 1.3
 supersedes:
 - plan_20260531_data-curator-v1
 - plan_20260531_data-curator-v1.1
-related: []
+related:
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[case-ai-assisted-review]]'
+  - '[[case-ji-hao-skill-market-problem-validation]]'
+  - '[[ouyangfeng-data-alignment-response]]'
+  - '[[three-party-data-alignment]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7

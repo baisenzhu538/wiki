@@ -1,4 +1,5 @@
 ---
+
 id: yitang-strategy-canvas
 confidence: 0.90
 created_at: 2026-06-17
@@ -50,6 +51,9 @@ diagnostic_signals:
     framework_lens: "要素选择缺少买方视角——战略画布的横轴必须是目标买家真正在意的价值要素，而不是内部功能清单"
     follow_up_question: "你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？"
 author: "老顽童"
+related:
+  - '[[tool-strategy-blue-ocean-canvas]]'
+  - '[[yt-unit-model-build]]'
 ---
 
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线

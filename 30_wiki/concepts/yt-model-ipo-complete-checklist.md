@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-ipo-complete-checklist
 confidence: 0.85
 created_at: 2026-05-07
@@ -38,6 +39,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[ocr-一堂-个人修炼-科学学习ipo完整清单]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-entrepreneur-research-camp]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
 ---
 # IPO 科学学习完整清单 (Complete List)
 

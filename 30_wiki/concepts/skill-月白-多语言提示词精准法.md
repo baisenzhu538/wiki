@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-多语言提示词精准法
 title: 技能：多语言提示词精准法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI生图与图生图决策法]]'
+  - '[[skill-月白-多语言提示词降幻觉法]]'
+  - '[[skill-月白-关键要素提取改图法]]'
+  - '[[skill-月白-AI逆向反推描述法]]'
+  - '[[skill-月白-AI设计严苛批评法]]'
 ---
 # 技能：多语言提示词精准法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-escort-service-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -36,6 +37,12 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: "老顽童"
+related:
+  - '[[case-coffee-shop-foresight]]'
+  - '[[dk-foresight-tier-skip-illusion]]'
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[yt-foresight-business-spectrum]]'
 ---
 # 案例：陪诊业务七级演进
 

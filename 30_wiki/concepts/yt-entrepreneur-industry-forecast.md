@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-industry-forecast
 confidence: 0.85
 created_at: 2026-05-06
@@ -47,6 +48,12 @@ diagnostic_signals:
   - {'signal': '用户只做减法不做加法', 'framework_lens': '违背"充分做加法"', 'follow_up_question': '在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-concept-p-type-l-type]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 ---
 # 商业预判15字诀
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
 type: tool
@@ -42,6 +43,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
+related:
+  - '[[yt-prompt-brainstorming]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-prompt-iterative-prompting]]'
+  - '[[yt-prompt-writing-workflow]]'
+  - '[[yt-note-ai-human-division]]'
 ---
 # 反谄媚机制：让 AI 说真话
 

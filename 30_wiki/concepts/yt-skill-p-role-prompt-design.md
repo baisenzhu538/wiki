@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
@@ -28,6 +29,12 @@ type: "concept"
 source_refs:
   - src_20260522_38173b48-design-ai-image-generation
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+related:
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[yt-personal-ai-capability]]'
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

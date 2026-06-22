@@ -1,5 +1,6 @@
 ---
 
+
 title: 转化率黑客
 type: concept
 domain:
@@ -29,6 +30,12 @@ trust_level: medium-low
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260613_6b939d2b）
+related:
+  - '[[yt-decision-abcd-model]]'
+  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[tool-yitang-review-analysis]]'
+  - '[[tool-yitang-public-sentiment-research]]'
 ---# 转化率黑客
 
 > 来源：一堂管理必修课「管业务」模块，共5节系列课（认知篇/动力实操/阻力实操/触点实操/组合落地）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

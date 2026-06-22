@@ -1,5 +1,6 @@
 ---
 
+
 id: writing-content
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[business-analysis]]'
+  - '[[learning-thinking]]'
+  - '[[老朱的水感-2026年5月]]'
+  - '[[meta-prompt-eng]]'
+  - '[[product-ux]]'
 ---
 # Writing Content
 

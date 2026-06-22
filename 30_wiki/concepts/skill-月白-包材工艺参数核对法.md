@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-包材工艺参数核对法
 title: 技能：包材工艺参数核对法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-口喷作图工作流]]'
+  - '[[skill-月白-AI生成图小字控制法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
+  - '[[skill-月白-AI工艺图人工复核法]]'
 ---
 # 技能：包材工艺参数核对法
 

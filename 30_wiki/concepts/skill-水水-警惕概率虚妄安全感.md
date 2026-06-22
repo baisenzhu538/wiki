@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-水水-警惕概率虚妄安全感
 title: 技能：警惕概率虚妄安全感
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-水水-用感性维度构建溢价]]'
+  - '[[skill-水水-区分风险与不确定性]]'
+  - '[[skill-水水-识别关键偶然因素]]'
+  - '[[skill-水水-识别自证预言陷阱]]'
+  - '[[skill-水水-识别超级传播者风险]]'
 ---
 # 技能：警惕概率虚妄安全感
 

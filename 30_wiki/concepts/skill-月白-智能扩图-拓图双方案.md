@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-智能扩图-拓图双方案
 title: 技能：智能扩图/拓图双方案
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-AI图片去文字处理]]'
+  - '[[skill-月白-餐饮海报AB测试法]]'
+  - '[[skill-月白-线下门店设计复杂度评估]]'
+  - '[[skill-月白-控制产品画面尺寸比例]]'
 ---
 # 技能：智能扩图/拓图双方案
 

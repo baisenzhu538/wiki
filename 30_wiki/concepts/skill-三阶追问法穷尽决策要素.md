@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: "tool"
@@ -26,6 +27,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-稀缺资源机会成本比对法]]'
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
+  - '[[skill-1视角升级思考法]]'
 ---
 # 技能：三阶追问法穷尽决策要素
 

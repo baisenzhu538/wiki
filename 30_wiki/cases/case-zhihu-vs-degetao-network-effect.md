@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-zhihu-vs-degetao-network-effect
 confidence: 0.85
 created_at: 2026-06-11
@@ -37,6 +38,12 @@ yitang:
 pipeline:
   - confidence-source-cited
 author: "老顽童"
+related:
+  - '[[tool-yitang-forum-data]]'
+  - '[[case-toy-cabinet-barrier]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
+  - '[[yt-scale-economy-weapon-library]]'
 ---
 # 案例：知乎vs得到——网络效应壁垒的对比分析
 

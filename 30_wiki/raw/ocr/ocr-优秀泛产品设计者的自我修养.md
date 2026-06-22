@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-优秀泛产品设计者的自我修养"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - '[[ocr-泛产品设计-落地卡片-酝酿式打磨]]'
+  - '[[ocr-泛产品设计者的三大自我修养]]'
+  - '[[yt-panproduct-execution-incubation-polish]]'
 ---
 
 # OCR: 优秀泛产品设计者的自我修养

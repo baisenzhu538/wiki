@@ -1,4 +1,5 @@
 ---
+
 title: 'OCR: 一堂-AI学习-truman自用的AI FeatureSet'
 type: concept
 domain:
@@ -15,6 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
+related:
+  - '[[ocr-一堂-单元模型-找基准值实操难点]]'
+  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
+  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
 ---
 # OCR: 一堂-AI学习-truman自用的AI FeatureSet
 

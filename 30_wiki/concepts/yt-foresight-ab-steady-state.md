@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-ab-steady-state
 title: AB点稳态模型：行业预判的核心框架
 type: concept
@@ -44,6 +45,12 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+related:
+  - '[[yt-ai-trend-12-signals]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-foresight-deliverables-four-levels]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[yt-foresight-addition-subtraction]]'
 ---# AB点稳态模型：行业预判的核心框架
 
 ## Core Claims

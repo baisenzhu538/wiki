@@ -1,4 +1,5 @@
 ---
+
 title: 高密度素材编译策略（修订）
 type: decision
 domain:
@@ -16,6 +17,8 @@ created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
+related:
+  - '[[tool-osint-maltego]]'
 ---
 # 高密度素材编译策略 v2.0
 

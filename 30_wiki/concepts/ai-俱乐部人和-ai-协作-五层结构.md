@@ -1,5 +1,6 @@
 ---
 
+
 title: "AI 俱乐部·人和 AI 协作 — 五层结构"
 type: concept
 domain:
@@ -18,6 +19,12 @@ author: "纪浩"
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
 ---
 
 

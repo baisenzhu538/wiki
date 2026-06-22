@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-AI学习-提问进化路线图"
 type: concept
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - '[[ocr-一堂-单元模型-单sku模型]]'
+  - '[[ocr-一堂-单元模型-象限分析法]]'
 ---
 
 

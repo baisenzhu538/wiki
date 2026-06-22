@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-设计需求口头化表达法
 title: 技能：设计需求口头化表达法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI设计反馈萃取法]]'
+  - '[[skill-月白-AI对话情绪管理法]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-文创材质调研与精益选择]]'
+  - '[[skill-月白-控制产品画面尺寸比例]]'
 ---
 # 技能：设计需求口头化表达法
 

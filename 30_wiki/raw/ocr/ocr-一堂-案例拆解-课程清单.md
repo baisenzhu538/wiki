@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-案例拆解-课程清单"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - '[[ocr-一堂-个人修炼-课程清单]]'
+  - '[[ocr-一堂-管理必修-课程清单]]'
+  - '[[ocr-一堂-单元模型-象限分析法]]'
 ---
 
 # OCR: 一堂-案例拆解-课程清单

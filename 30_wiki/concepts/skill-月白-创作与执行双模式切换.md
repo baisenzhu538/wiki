@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-创作与执行双模式切换
 title: 技能：创作与执行双模式切换
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-多窗口并行工作法]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-线下门店设计复杂度评估]]'
+  - '[[skill-月白-控制产品画面尺寸比例]]'
 ---
 # 技能：创作与执行双模式切换
 

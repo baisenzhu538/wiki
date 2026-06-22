@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-y-model-practice
 confidence: 0.8
 created_at: 2026-05-11
@@ -39,6 +40,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
+related:
+  - '[[yt-personal-y-model-exploration-2]]'
+  - '[[yt-model-y-organization]]'
+  - '[[一堂]]'
+  - '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[yt-personal-thinking-models]]'
 ---
 # Y模型实操：科学成事的底层操作系统
 

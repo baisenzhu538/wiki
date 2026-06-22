@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-ai-purpose-bias-check]]'
+  - '[[sk-ai-system-redundancy]]'
+  - '[[skill-ai-narrative-test]]'
+  - '[[skill-ai-prd-for-ai]]'
+  - '[[sk-ai-purpose-bias-check]]'
 ---
 # 技能：系统冗余度快速检查清单
 

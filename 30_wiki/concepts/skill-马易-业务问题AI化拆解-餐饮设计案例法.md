@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-马易-业务问题AI化拆解-餐饮设计案例法
 title: 技能：业务问题AI化拆解-餐饮设计案例法
 type: "tool"
@@ -16,6 +17,12 @@ source_refs:
   - src_20260510_4bb17355-天花板
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-AI能力团队复制]]'
+  - '[[skill-马易-平台模式验证法]]'
+  - '[[skill-马易-数字员工FD拆解落地]]'
+  - '[[skill-马易-最小场景优先落地法]]'
 ---
 # 技能：业务问题AI化拆解-餐饮设计案例法
 

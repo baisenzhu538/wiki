@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-checklist-notes
 confidence: 0.85
 created_at: 2026-05-06
@@ -49,6 +50,12 @@ diagnostic_signals:
   - {'signal': '笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储', 'framework_lens': '笔记服务于决策和行动', 'follow_up_question': '这篇笔记不写，你的哪个行动会受影响？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
+  - '[[yt-personal-time-management]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-inspiration-flash]]'
 ---
 # 清单体笔记（一堂笔记法）
 

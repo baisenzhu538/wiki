@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-ai-parallel-validation]]'
+  - '[[skill-ai-ai-workspace-setup]]'
+  - '[[skill-ai-system-redundancy]]'
+  - '[[sk-ai-old-small-checklist]]'
+  - '[[skill-ai-prd-for-ai]]'
 ---
 # 技能：“找老的干小的”场景评估清单
 

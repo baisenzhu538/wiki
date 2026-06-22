@@ -1,5 +1,6 @@
 ---
 
+
 title: 科学招聘
 type: concept
 domain:
@@ -28,6 +29,9 @@ trust_level: medium-low
 source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
+related:
+  - '[[yt-business-model-scalability]]'
+  - '[[yt-tool-hiring-scorecard]]'
 ---# 科学招聘
 
 > 来源：一堂管理必修课「管团队」模块，含科学招聘四部曲+结构化面试+产品经理招聘专项。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

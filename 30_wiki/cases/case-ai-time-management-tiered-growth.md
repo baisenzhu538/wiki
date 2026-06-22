@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ai-time-management-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -36,6 +37,12 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: "老顽童"
+related:
+  - '[[case-coffee-shop-foresight]]'
+  - '[[yt-three-dimension-opportunity-matrix]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[dk-foresight-tier-skip-illusion]]'
 ---
 # 案例：AI时间管理App七级演进
 

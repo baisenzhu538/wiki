@@ -1,4 +1,5 @@
 ---
+
 id: product-business-strategy
 title: 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
 type: concept
@@ -24,6 +25,12 @@ reviewed_by: 欧阳锋
 confidence: 0.65
 trust_level: medium
 review_date: '2026-06-20'
+related:
+  - '[[finance-legal-business-operations]]'
+  - '[[industry-ai-cases]]'
+  - '[[supply-chain-beverage]]'
+  - '[[business-validation-models-collaboration]]'
+  - '[[personal-growth-complex-systems]]'
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发
 

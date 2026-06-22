@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-ai-trend-12-signals
 confidence: 0.85
 created_at: 2026-06-10
@@ -40,6 +41,12 @@ diagnostic_signals:
   - {'signal': '用户只关注需求层变化，忽视解决方案和基础设施层', 'framework_lens': '层级误判——趋势机会往往来自下层突破', 'follow_up_question': '你关注的需求变化，背后依赖的模型能力、算力成本、数据基础设施是否已经成熟？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[yt-ai-startup-20-risky-hypotheses]]'
+  - '[[dk-signal-cluster-illusion]]'
 ---
 # AI趋势12大变化模型
 

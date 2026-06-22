@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-pragmatic-startup
 confidence: 0.8
 created_at: 2026-05-06
@@ -43,6 +44,12 @@ diagnostic_signals:
   - {'signal': '用户过度保守，什么都不敢试', 'framework_lens': '务实≠不行动', 'follow_up_question': '你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-liberate-thinking]]'
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # 务实创业
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-图像信息逆向解析训练
 title: 技能：图像信息逆向解析训练
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI设计落地文件标准生成]]'
+  - '[[skill-月白-产品反光修复术]]'
+  - '[[skill-月白-供应商信息对齐清单法]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-眼高手低训练法]]'
 ---
 # 技能：图像信息逆向解析训练
 

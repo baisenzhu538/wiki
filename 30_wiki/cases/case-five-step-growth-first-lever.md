@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
@@ -52,6 +53,12 @@ wiki_refs:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
+related:
+  - '[[yt-growth-channel-roi]]'
+  - '[[yt-entrepreneur-unit-model]]'
+  - '[[tool-yitang-research-unit-model]]'
+  - '[[concept-five-step-growth-to-barrier-transition]]'
+  - '[[yt-business-model-unit-economics]]'
 ---# 案例：五步法中从产品内核到增长的第一次跨越
 
 > 五步法在"产品内核验证"和"开始增长"之间，存在一个多数创业者踩坑的盲区。本案例还原三个跨过这道坎的真实路径。

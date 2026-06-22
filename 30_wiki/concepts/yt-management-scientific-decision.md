@@ -1,5 +1,6 @@
 ---
 
+
 title: Y模型/科学决策
 type: concept
 domain:
@@ -27,6 +28,12 @@ trust_level: medium-low
 source_refs:
 - src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
+related:
+  - '[[yt-entrepreneur-research-cognition]]'
+  - '[[yt-decision-y-model]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
+  - '[[dk-yb25-solution-driven-visual-design]]'
+  - '[[yt-concept-peas-insight]]'
 ---# Y模型/科学决策
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（审美篇/宽度篇/深度篇/高度篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

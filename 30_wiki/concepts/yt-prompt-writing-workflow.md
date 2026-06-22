@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-writing-workflow
 title: "AI写作工作流：大纲→要点→全文"
 type: tool
@@ -39,6 +40,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
+related:
+  - '[[yt-prompt-anti-flattery]]'
+  - '[[yt-prompt-brainstorming]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-prompt-iterative-prompting]]'
+  - '[[yt-model-prompt-engineering]]'
 ---
 # AI 写作工作流：大纲→要点→全文
 

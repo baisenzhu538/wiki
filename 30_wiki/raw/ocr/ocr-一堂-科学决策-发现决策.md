@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-科学决策-发现决策"
 created_at: 2026-05-21
 domain:
@@ -16,6 +17,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-科学决策-宽度-团队]]'
+  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+  - '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
 ---
 
 # OCR: 一堂-科学决策-发现决策

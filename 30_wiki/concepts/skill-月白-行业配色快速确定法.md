@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-行业配色快速确定法
 title: 技能：行业配色快速确定法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
+  - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
+  - '[[skill-月白-线下实体门店设计真实体感验证]]'
+  - '[[skill-月白-实物包装落地训练法]]'
 ---
 # 技能：行业配色快速确定法
 

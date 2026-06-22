@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-AIGC海报信息优先级排序法
 title: 技能：AIGC海报信息优先级排序法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-实物包装落地训练法]]'
+  - '[[skill-月白-PPT风格锁定工作流]]'
+  - '[[skill-月白-PPT内容框架AIGC生成法]]'
+  - '[[skill-月白-社群直播海报利益点提炼法]]'
+  - '[[skill-月白-AI工艺图人工复核法]]'
 ---
 # 技能：AIGC海报信息优先级排序法
 

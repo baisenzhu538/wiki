@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-deep-review-iceberg
 confidence: 0.85
 created_at: 2026-05-11
@@ -36,6 +37,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[yt-five-step-level-blindspots]]'
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

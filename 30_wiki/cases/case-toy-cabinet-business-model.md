@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-toy-cabinet-business-model
 confidence: 0.85
 created_at: 2026-06-10
@@ -35,6 +36,12 @@ yitang:
 pipeline:
   - confidence-source-cited
 author: "老顽童"
+related:
+  - '[[case-toy-cabinet-barrier]]'
+  - '[[case-zhihu-vs-degetao-network-effect]]'
+  - '[[yt-growth-cycle-model]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
+  - '[[yt-scale-economy-weapon-library]]'
 ---
 # 案例：线下玩具柜商业模式
 

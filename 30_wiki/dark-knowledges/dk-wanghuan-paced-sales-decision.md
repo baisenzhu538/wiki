@@ -1,4 +1,5 @@
 ---
+
 id: "dk-wanghuan-paced-sales-decision"
 title: "暗知识：复制销冠不是复制话术——是还原决策链"
 type: "dark-knowledge"
@@ -44,6 +45,12 @@ diagnostic_signals:
   - signal: "话术库越堆越多，维护成本爆炸且互相冲突"
     lens: "策略与话术混在同一存储层"
     follow_up: "建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离"
+related:
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[case-wanghuan-education-sales-capability-extraction]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 ---
 
 # 暗知识：复制销冠不是复制话术——是还原决策链

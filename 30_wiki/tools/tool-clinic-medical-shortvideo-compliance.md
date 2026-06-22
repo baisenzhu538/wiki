@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-clinic-medical-shortvideo-compliance
 title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
@@ -17,7 +18,12 @@ reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
-related: []
+related:
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[tool-yitang-content-ip-research]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
 ------
 
 ## Purpose

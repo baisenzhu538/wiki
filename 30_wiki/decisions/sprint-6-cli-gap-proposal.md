@@ -1,5 +1,6 @@
 ---
 
+
 title: Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 Feedback
 type: improvement-plan
 status: draft
@@ -14,7 +15,12 @@ source_context: KDO infrastructure decision — internal design record （原 le
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs: []
 reviewer: 欧阳锋
-related: []
+related:
+  - '[[dk-p13-token-burn]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-马易-AI落地场景筛选-四有新人法则
 title: 技能：AI落地场景筛选-四有新人法则
 type: "tool"
@@ -16,6 +17,12 @@ source_refs:
   - src_20260510_4bb17355-天花板
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-低置信度样本黄金漏斗处理]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
+  - '[[skill-马易-数字员工FD拆解落地]]'
+  - '[[skill-马易-AI答疑运营风格适配]]'
+  - '[[skill-马易-减少输入噪音法]]'
 ---
 # 技能：AI落地场景筛选-四有新人法则
 

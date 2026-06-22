@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂最佳转化率动力曲线图"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - '[[ocr-婚礼操盘-用户和场景]]'
+  - '[[ocr-一堂转化率-10大容易浪费的触点]]'
+  - '[[yt-model-conversion-optimization]]'
 ---
 
 # OCR: 一堂最佳转化率动力曲线图

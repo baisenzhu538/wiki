@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-product-kernel-cultivation
 confidence: 0.9
 created_at: 2026-06-10
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '产品内核会指导功能取舍，而不是功能越多越好', 'framework_lens': '内核是取舍标准', 'follow_up_question': '最近有没有一个功能因为不符合内核而被砍掉？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-scale-economy-weapon-library]]'
+  - '[[yt-product-ten-metrics]]'
+  - '[[yt-demand-analysis-hiking-map]]'
+  - '[[yt-model-product-core-metrics]]'
 ---
 # 产品内核修炼段位图
 

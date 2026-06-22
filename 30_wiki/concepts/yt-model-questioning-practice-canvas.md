@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-questioning-practice-canvas
 confidence: 0.85
 created_at: 2026-05-07
@@ -36,6 +37,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-model-scientific-questioning-map]]'
+  - '[[yt-personal-y-model-exploration-2]]'
+  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+  - '[[yt-entrepreneur-research-camp]]'
+  - '[[yt-model-ipo-learning-strategy]]'
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

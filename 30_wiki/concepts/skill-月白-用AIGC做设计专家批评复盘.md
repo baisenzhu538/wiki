@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-用AIGC做设计专家批评复盘
 title: 技能：用AIGC做设计专家批评复盘
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI平台算法咨询法]]'
+  - '[[skill-月白-AI提示词精准约束法]]'
+  - '[[skill-月白-口喷式设计工作流]]'
+  - '[[skill-月白-PPT内容框架AIGC生成法]]'
+  - '[[skill-月白-PPT风格锁定工作流]]'
 ---
 # 技能：用AIGC做设计专家批评复盘
 

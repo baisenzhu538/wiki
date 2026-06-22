@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-product-core-metrics
 confidence: 0.85
 created_at: 2026-05-11
@@ -36,6 +37,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[ocr-一堂产品内核-十大典型指标]]'
+  - '[[一堂]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-product-ten-metrics]]'
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 

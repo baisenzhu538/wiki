@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-风口痛点识别法
 title: 技能：风口痛点识别法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-平台模式验证法]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
+  - '[[skill-马易-减少输入噪音法]]'
+  - '[[skill-马易-RPA数据整合法]]'
 ---
 # 技能：风口痛点识别法
 

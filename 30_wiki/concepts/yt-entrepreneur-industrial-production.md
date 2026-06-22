@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-industrial-production
 confidence: 0.8
 created_at: 2026-05-06
@@ -43,6 +44,12 @@ diagnostic_signals:
   - {'signal': '用户把一切都标准化，扼杀创新', 'framework_lens': '过度工业化', 'follow_up_question': '哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-research-cognition]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # 工业化生产
 

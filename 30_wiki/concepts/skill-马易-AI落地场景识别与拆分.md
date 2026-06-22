@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-AI落地场景识别与拆分
 title: 技能：AI落地场景识别与拆分
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-AI能力团队复制]]'
+  - '[[skill-马易-AI任务拆解提升控制度]]'
+  - '[[skill-马易-RPA数据整合法]]'
+  - '[[skill-马易-AI答疑运营风格适配]]'
+  - '[[skill-马易-判断标准快速产出法]]'
 ---
 # 技能：AI落地场景识别与拆分
 

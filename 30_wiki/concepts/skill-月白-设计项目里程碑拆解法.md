@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-设计项目里程碑拆解法
 title: 技能：设计项目里程碑拆解法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
+  - '[[skill-月白-产品替换式场景合成法]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
 ---
 # 技能：设计项目里程碑拆解法
 

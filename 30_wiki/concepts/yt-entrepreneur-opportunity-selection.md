@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-opportunity-selection
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '用户只看市场大小，不看自己和时机', 'framework_lens': '评估维度单一', 'follow_up_question': '这个市场大，但你的能力匹配吗？现在进入时机对吗？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-barriers]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-business-growth]]'
 ---
 # 机会选择
 

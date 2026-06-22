@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-设计师AI工具习惯切换
 title: 技能：设计师AI工具习惯切换
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-最佳实践素材收集法]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
+  - '[[skill-月白-文创材质成本调研与精益选择]]'
+  - '[[skill-月白-正向反馈强化AI生成]]'
 ---
 # 技能：设计师AI工具习惯切换
 

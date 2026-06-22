@@ -1,5 +1,6 @@
 ---
 
+
 id: product-ux
 created_at: 2026-05-21
 domain:
@@ -17,6 +18,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[design-ai-image-generation]]'
+  - '[[business-analysis]]'
+  - '[[learning-thinking]]'
+  - '[[meta-prompt-eng]]'
+  - '[[writing-content]]'
 ---
 # Product Ux
 

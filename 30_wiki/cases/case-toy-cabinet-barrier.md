@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-toy-cabinet-barrier
 confidence: 0.85
 created_at: 2026-06-11
@@ -36,6 +37,12 @@ yitang:
 pipeline:
   - confidence-source-cited
 author: "老顽童"
+related:
+  - '[[yt-barrier-identification-skill]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[case-zhihu-vs-degetao-network-effect]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
+  - '[[yt-scale-economy-weapon-library]]'
 ---
 # 案例：线下玩具柜的壁垒困局与突围路径
 

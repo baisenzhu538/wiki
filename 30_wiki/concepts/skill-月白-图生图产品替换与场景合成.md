@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-图生图产品替换与场景合成
 title: 技能：图生图产品替换与场景合成
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI生图与图生图决策法]]'
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-设计参考图精准定位法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+  - '[[skill-月白-实物包装落地训练法]]'
 ---
 # 技能：图生图产品替换与场景合成
 

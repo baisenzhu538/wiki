@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-口喷式AIGC设计法
 title: 技能：口喷式AIGC设计法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI生图与图生图决策法]]'
+  - '[[skill-月白-卖点可视化海报设计法]]'
+  - '[[skill-月白-关键要素提取改图法]]'
+  - '[[skill-月白-AI设计三段式里程碑流程]]'
+  - '[[skill-月白-AI去字-稿定设计加字工作流]]'
 ---
 # 技能：口喷式AIGC设计法
 

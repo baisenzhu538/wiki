@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI精准替换产品技巧
 title: 技能：AI精准替换产品技巧
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-海报二维码快速替换法]]'
+  - '[[skill-月白-跨境电商产品图替换法]]'
+  - '[[skill-月白-餐饮海报AB测试法]]'
+  - '[[skill-月白-替换大法改图]]'
+  - '[[skill-月白-AIGC橱窗陈列设计流程]]'
 ---
 # 技能：AI精准替换产品技巧
 

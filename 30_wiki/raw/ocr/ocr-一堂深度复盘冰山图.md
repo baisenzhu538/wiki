@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂深度复盘冰山图"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-泛产品设计-落地卡片-复盘迭代]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[ocr-一堂提炼过的因果模型]]'
+  - '[[yt-decision-review]]'
+  - '[[yt-panproduct-execution-review-iteration]]'
 ---
 
 # OCR: 一堂深度复盘冰山图

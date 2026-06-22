@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-复盘推演练习
 title: 技能：复盘推演练习
 type: "tool"
@@ -27,6 +28,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-辩证讨论深化]]'
+  - '[[skill-代入场景推演要素法]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-费曼学习法三句话提炼]]'
 ---
 # 技能：复盘推演练习
 

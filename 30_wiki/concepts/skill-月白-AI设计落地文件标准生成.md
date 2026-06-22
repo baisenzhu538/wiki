@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI设计落地文件标准生成
 title: 技能：AI设计落地文件标准生成
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-印刷DPI标准设置]]'
+  - '[[skill-月白-RGB转CMYK印刷预检]]'
+  - '[[skill-月白-供应商信息对齐清单法]]'
+  - '[[skill-月白-AI图片印刷落地预处理]]'
+  - '[[skill-月白-普通人AI设计80分法则]]'
 ---
 # 技能：AI设计落地文件标准生成
 

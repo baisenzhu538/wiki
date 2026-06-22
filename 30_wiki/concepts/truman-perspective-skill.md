@@ -1,5 +1,6 @@
 ---
 
+
 id: truman-perspective-skill
 created_at: 2026-05-06
 domain:
@@ -19,6 +20,12 @@ source_refs:
 - src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
 - src_20260510_4bb17355-天花板
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[plan_20260621_skill-iteration-standard]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[dk-skill-market-agent-self-install]]'
 ---# Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 
 > 基于 6 维度深度调研（著作/对话/表达DNA/他者视角/决策记录/时间线），将 许楚（Truman）的思维框架编译为 Claude Code 可调用的角色扮演 Skill。

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-weekly-modeling-engine
 title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
@@ -51,6 +52,12 @@ diagnostic_signals:
 - signal: 管理层要求提前半年排好详细课表/内容计划
   framework_lens: 研究型交付 vs 标准化交付
   follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
+related:
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
+  - '[[dk-modeling-sop-execution-locks]]'
 ---# 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 
 ## 原始表述

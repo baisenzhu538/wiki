@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: "tool"
@@ -25,6 +26,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-提升笔记练习频次的方法]]'
+  - '[[skill-现场建模式萃取笔记]]'
+  - '[[skill-获取他人反馈优化笔记]]'
+  - '[[skill-用清单体记备忘笔记]]'
+  - '[[skill-用topdown方式整理内化笔记]]'
 ---
 # 技能：自我反馈修正笔记姿势
 

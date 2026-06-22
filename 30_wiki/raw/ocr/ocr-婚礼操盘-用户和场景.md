@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-婚礼操盘-用户和场景"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[ocr-一堂最佳转化率动力曲线图]]'
+  - '[[ocr-一堂y模型steps策略集]]'
+  - '[[ocr-一堂转化率-10大容易浪费的触点]]'
+  - '[[ocr-婚礼规划]]'
 ---
 
 # OCR: 婚礼操盘-用户和场景

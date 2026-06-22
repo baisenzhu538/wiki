@@ -1,4 +1,5 @@
 ---
+
 type: dark-knowledge
 domain:
 - product
@@ -13,6 +14,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[ai-short-drama-script-planning-three-axes]]'
+  - '[[dk-p10-oral-ban]]'
+  - '[[dk-c7-auto-backup-conflict]]'
+  - '[[dk-yb25-solution-driven-visual-design]]'
+  - '[[dk-p17-accuracy-gap]]'
 ---
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 

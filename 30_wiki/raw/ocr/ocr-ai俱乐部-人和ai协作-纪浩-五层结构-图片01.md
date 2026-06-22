@@ -1,4 +1,5 @@
 ---
+
 title: 'OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01'
 type: concept
 domain:
@@ -15,6 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
+related:
+  - '[[视觉prompt三层操作系统-srom-visual-os]]'
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[learning-thinking]]'
+  - '[[ai-俱乐部人和-ai-协作-五层结构]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
 ---
 # OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 

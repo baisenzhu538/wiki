@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
@@ -27,6 +28,12 @@ type: "tool"
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[yt-note-l4-internalization]]'
+  - '[[source-code-delivery-model]]'
+  - '[[private-domain-saas-sales-funnel]]'
+  - '[[七件事集团]]'
+  - '[[yt-skill-storyline-problem-solving]]'
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
 

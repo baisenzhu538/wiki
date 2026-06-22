@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-parallel-validation
 title: 技能：平行运行验证法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-月白-纳米级抄大师训练法]]'
+  - '[[skill-马易-AI项目上线-先平行再独行]]'
+  - '[[skill-ai-evidence-check]]'
+  - '[[skill-ai-ai-workspace-setup]]'
+  - '[[skill-ai-old-small-checklist]]'
 ---
 # 技能：平行运行验证法
 

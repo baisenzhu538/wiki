@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-AI项目上线-先平行再独行
 title: 技能：AI项目上线-先平行再独行
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-低置信度样本黄金漏斗处理]]'
+  - '[[skill-马易-数字员工FD拆解落地]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
+  - '[[skill-马易-减少输入噪音法]]'
 ---
 # 技能：AI项目上线-先平行再独行
 

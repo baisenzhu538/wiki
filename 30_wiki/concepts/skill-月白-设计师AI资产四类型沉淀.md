@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-设计师AI资产四类型沉淀
 title: 技能：设计师AI资产四类型沉淀
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-课程问题预埋法]]'
+  - '[[skill-月白-左手Cubox右手里程碑学习法]]'
+  - '[[skill-月白-课程资料文件命名规范]]'
+  - '[[skill-月白-用一堂方法论找最佳实践并拉满执行]]'
+  - '[[skill-月白-三步作业反馈法]]'
 ---
 # 技能：设计师AI资产四类型沉淀
 

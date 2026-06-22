@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-Truman-个人判断力系统建设（达克效应应对）
 title: 技能：个人判断力系统建设（达克效应应对）
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-Truman-XY-Problem识别与真实问题定位]]'
+  - '[[skill-Truman-AI辅助思考伙伴养成]]'
+  - '[[skill-Truman-低质量动作识别与拒绝]]'
+  - '[[skill-Truman-信息输入持续补全（防AI错误累积）]]'
+  - '[[skill-Truman-上下文质量管理（AI协作）]]'
 ---
 # 技能：个人判断力系统建设（达克效应应对）
 

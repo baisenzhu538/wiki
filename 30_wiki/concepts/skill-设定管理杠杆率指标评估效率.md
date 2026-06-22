@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-设定管理杠杆率指标评估效率
 title: 技能：设定管理杠杆率指标评估效率
 type: "tool"
@@ -26,6 +27,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-使用概念辨析卡区分易混淆概念]]'
+  - '[[skill-建立策略-要素映射表设计对抗策略]]'
+  - '[[skill-遵循规模前倾原则设计组织架构]]'
+  - '[[skill-使用优先级快筛卡锁定核心矛盾]]'
+  - '[[skill-设计对抗效果追踪看板]]'
 ---
 # 技能：设定管理杠杆率指标评估效率
 

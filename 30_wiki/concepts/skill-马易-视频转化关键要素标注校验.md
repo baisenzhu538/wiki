@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-视频转化关键要素标注校验
 title: 技能：视频转化关键要素标注校验
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-马易-成为首位F工程师]]'
+  - '[[skill-马易-低置信度样本黄金漏斗处理]]'
+  - '[[skill-马易-平台模式验证法]]'
+  - '[[skill-马易-AIGC项目ROI评估]]'
+  - '[[skill-马易-公寓获客自跑通原则]]'
 ---
 # 技能：视频转化关键要素标注校验
 

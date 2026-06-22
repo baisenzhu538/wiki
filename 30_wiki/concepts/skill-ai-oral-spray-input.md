@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-oral-spray-input
 title: 技能：用口喷输入法生成高质量 AI 提示词
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[skill-纪浩-AI对话上下文隔离]]'
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词
 

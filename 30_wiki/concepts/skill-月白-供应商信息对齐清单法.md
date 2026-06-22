@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-供应商信息对齐清单法
 title: 技能：供应商信息对齐清单法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
+  - '[[skill-月白-80分效率设计策略]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
+  - '[[skill-月白-产品替换式场景合成法]]'
+  - '[[skill-月白-实物包装落地训练法]]'
 ---
 # 技能：供应商信息对齐清单法
 

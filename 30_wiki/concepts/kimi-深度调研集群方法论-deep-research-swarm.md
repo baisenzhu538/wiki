@@ -1,5 +1,6 @@
 ---
 
+
 id: kimi-深度调研集群方法论-deep-research-swarm
 created_at: 2026-05-01
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[Kimi-月之暗面]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[proposal-ai-domain-mastery-pipeline]]'
+  - '[[tool-agent-research-swarm]]'
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 ---
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 

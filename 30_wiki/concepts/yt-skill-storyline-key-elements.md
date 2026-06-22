@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
@@ -27,6 +28,11 @@ type: "tool"
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[yt-skill-storyline-target-tradeoff]]'
+  - '[[yt-skill-storyline-contrast-analysis]]'
+  - '[[yt-skill-storyline-problem-solving]]'
+  - '[[yt-tool-y-model-ruler]]'
 ---
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 

@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-个人修炼-全景图muse模型"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,8 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[yt-model-muse-ai-framework]]'
 ---
 
 # OCR: 一堂-个人修炼-全景图MUSE模型

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-多模型对比抽卡
 title: 技能：多模型对比抽卡
 type: "tool"
@@ -27,6 +28,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-反向提示获取优化建议]]'
+  - '[[skill-多轮确认防偏差]]'
+  - '[[skill-主动摘要压缩上下文]]'
+  - '[[skill-提示词结构化迭代]]'
+  - '[[skill-渐进式披露上下文]]'
 ---
 # 技能：多模型对比抽卡
 

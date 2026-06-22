@@ -1,5 +1,6 @@
 ---
 
+
 id: design-ai-image-generation
 created_at: 2026-05-21
 domain:
@@ -18,6 +19,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[product-ux]]'
+  - '[[business-analysis]]'
+  - '[[ocr-screenshot1]]'
+  - '[[ocr-微信图片_20260507004804_39_32]]'
+  - '[[ocr-一堂-地图-创业地图_conv]]'
 ---
 # Design / Ai Image Generation
 

@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-单元模型-修炼地图"
 type: concept
 domain:
@@ -18,6 +19,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[yt-decision-full-process]]'
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-单元模型-基准值]]'
+  - '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
 ---
 
 

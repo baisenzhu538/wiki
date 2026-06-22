@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-scientific-method
 confidence: 0.8
 created_at: 2026-05-06
@@ -42,6 +43,12 @@ diagnostic_signals:
   - {'signal': '用户只做验证自己假设的实验', 'framework_lens': '证实偏差', 'follow_up_question': '你最近设计的实验中，有几个是为了证伪而不是证实？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-entrepreneur-liberate-thinking]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
 ---
 # Y模型/科学方法
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-growth-cycle-model
 confidence: 0.9
 created_at: 2026-06-10
@@ -41,6 +42,12 @@ diagnostic_signals:
   - {'signal': '用户不知道当前处于哪个增长周期', 'framework_lens': '没有周期判断', 'follow_up_question': '你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-five-step-implementation]]'
+  - '[[case-toy-cabinet-barrier]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[yt-product-ten-metrics]]'
+  - '[[yt-scale-economy-weapon-library]]'
 ---
 # 增长周期模型
 

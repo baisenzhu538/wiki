@@ -1,5 +1,6 @@
 ---
 
+
 title: "一堂课程地图精华串讲"
 type: concept
 status: reviewed
@@ -28,6 +29,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 confidence: 0.85
 trust_level: high
+related:
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[yt-panproduct-demand-project-background]]'
 ---
 # 一堂课程地图精华串讲
 

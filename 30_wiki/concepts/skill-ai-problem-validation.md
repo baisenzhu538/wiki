@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-problem-validation
 title: 技能：问题验证三维度法
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[ai-collaboration-mindset-shift]]'
+  - '[[sk-ai-problem-validation]]'
+  - '[[skill-ai-four-elements-validation]]'
+  - '[[skill-ai-problem-question-check]]'
+  - '[[skill-ai-evidence-check]]'
 ---
 # 技能：问题验证三维度法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: "tool"
@@ -24,7 +25,12 @@ updated_at: '2026-06-16'
 tools_required:
 - 笔记本和笔
 prerequisite_skills: null
-related: []
+related:
+  - '[[skill-水水-接受发散性世界观]]'
+  - '[[skill-ai-purpose-bias-check]]'
+  - '[[skill-ai-system-redundancy]]'
+  - '[[skill-水水-识别自证预言陷阱]]'
+  - '[[skill-水水-识别超级传播者风险]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7

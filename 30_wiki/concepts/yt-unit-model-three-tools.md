@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-three-tools
 confidence: 0.9
 created_at: 2026-06-10
@@ -43,6 +44,12 @@ diagnostic_signals:
   - {'signal': '梯子阶段是否关注构造性壁垒和竞争复制', 'framework_lens': '护城河 / 规模经济对抗', 'follow_up_question': '是否只关注 ROI 而忽视竞争对手能否复制？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-scale-economy-weapon-library]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[yt-customer-acquisition-toolkit]]'
+  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
 ---
 # 单元模型三工具：斧子尺子梯子
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-smart-medicine-cabinet-supply-chain-validation
 title: 智能药柜供应链/技术方案交叉验证
 type: concept
@@ -16,7 +17,12 @@ reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.72
 trust_level: medium
-related: []
+related:
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-lean-beauty-store-conversion]]'
 ---# 智能药柜供应链/技术交叉验证（知识卡草稿）
 
 ## 1. 一句话摘要

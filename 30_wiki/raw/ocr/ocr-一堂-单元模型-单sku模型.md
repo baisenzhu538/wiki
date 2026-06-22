@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-单元模型-单sku模型"
 type: concept
 domain:
@@ -18,6 +19,12 @@ author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-一堂-单元模型-最简单元模型]]'
+  - '[[ocr-一堂-单元模型-基准值]]'
+  - '[[ocr-一堂-单元模型-abcd策略模型]]'
+  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - '[[ocr-一堂-单元模型-象限分析法]]'
 ---
 
 

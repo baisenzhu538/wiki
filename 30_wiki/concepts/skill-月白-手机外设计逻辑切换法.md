@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-手机外设计逻辑切换法
 title: 技能：手机外设计逻辑切换法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-小红书双重搜索法]]'
+  - '[[skill-月白-口喷作图工作流]]'
+  - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
+  - '[[skill-月白-商业项目AI模型选型决策]]'
 ---
 # 技能：手机外设计逻辑切换法
 

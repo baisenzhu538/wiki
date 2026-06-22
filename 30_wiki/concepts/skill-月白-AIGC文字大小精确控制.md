@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-AIGC文字大小精确控制
 title: 技能：AIGC文字大小精确控制
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI图片风格逆向提取（抄图法）]]'
+  - '[[skill-月白-新手设计师基本功训练法]]'
+  - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+  - '[[skill-月白-AI图生图尺寸快速转换]]'
+  - '[[skill-月白-AI工艺图人工复核法]]'
 ---
 # 技能：AIGC文字大小精确控制
 

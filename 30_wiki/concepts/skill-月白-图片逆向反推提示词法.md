@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-图片逆向反推提示词法
 title: 技能：图片逆向反推提示词法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-课程问题预埋法]]'
+  - '[[skill-月白-背景消除与分辨率修复]]'
+  - '[[skill-月白-AI需求拆解咨询法]]'
+  - '[[skill-月白-提示词优化：信息流海报文字修复]]'
+  - '[[skill-月白-三步作业反馈法]]'
 ---
 # 技能：图片逆向反推提示词法
 

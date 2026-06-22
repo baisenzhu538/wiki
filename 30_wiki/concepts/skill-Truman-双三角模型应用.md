@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-Truman-双三角模型应用
 title: 技能：双三角模型应用
 type: "tool"
@@ -15,6 +16,12 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
+related:
+  - '[[skill-Truman-提示词优化底层方法]]'
+  - '[[skill-Truman-开源模型与商业模型融合方案]]'
+  - '[[skill-Truman-Feature特性层训练法]]'
+  - '[[skill-Truman-AI场景探索STAR模型]]'
+  - '[[skill-Truman-数学题与语文题区分法]]'
 ---
 # 技能：双三角模型应用
 

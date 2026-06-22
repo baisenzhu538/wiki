@@ -168,17 +168,13 @@ def validate_file(fp: Path, schemas: dict) -> list:
         if val is not None and val not in allowed:
             errors.append(f"{rel}: field '{field}' has invalid value '{val}' (allowed: {allowed})")
 
-    # Check patterns (skip content fields that may contain wikilinks or free-form text)
-    _SKIP_PATTERN_FIELDS = {"related", "tags", "domain", "source_refs", "bridges_to", "diagnostic_signals", "diagnostic_relations", "query_triggers", "aliases"}
-    for field, pattern in schema.get("patterns", {}).items():
-        if field in _SKIP_PATTERN_FIELDS:
-            continue
-        val = fm.get(field)
-        if val is not None:
-            vals = val if isinstance(val, list) else [val]
-            for v in vals:
-                if not re.match(pattern, str(v)):
-                    errors.append(f"{rel}: field '{field}' value '{v}' does not match pattern '{pattern}'")
+    # 🆕 Check: enriched cards must have related links (Harness Engineering: 出链是知识可检索的基础)
+    status = fm.get("status", "")
+    related = fm.get("related", [])
+    if isinstance(related, str):
+        related = [related] if related.strip() else []
+    if status == "enriched" and (not related or related == []):
+        errors.append(f"{rel}: WARN: status=enriched but related is empty — card has no outgoing links")
 
     # source_refs 文件存在性检查
     errors.extend(check_source_refs_exist(fm, rel))

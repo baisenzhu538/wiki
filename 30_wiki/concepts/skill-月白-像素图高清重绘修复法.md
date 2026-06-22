@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-像素图高清重绘修复法
 title: 技能：像素图高清重绘修复法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI平台算法咨询法]]'
+  - '[[skill-月白-口喷式设计工作流]]'
+  - '[[skill-月白-电商白底图生成与高清重绘]]'
+  - '[[skill-月白-普通人AI设计80分法则]]'
+  - '[[skill-月白-电商白底图生成与高清处理]]'
 ---
 # 技能：像素图高清重绘修复法
 

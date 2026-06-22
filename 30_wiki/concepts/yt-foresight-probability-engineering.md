@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
@@ -43,6 +44,12 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+related:
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[yt-foresight-deliverables-four-levels]]'
+  - '[[case-truman-yitang-foresight]]'
+  - '[[yt-foresight-addition-subtraction]]'
+  - '[[yt-foresight-15-char-mantra]]'
 ---# 概率工程：把小概率变成大概率的方法论
 
 ## Core Claims

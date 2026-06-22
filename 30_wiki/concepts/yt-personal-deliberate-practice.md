@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-deliberate-practice
 confidence: 0.8
 created_at: 2026-05-06
@@ -44,6 +45,12 @@ diagnostic_signals:
   - {'signal': '练习内容处于舒适区边缘，既有挑战又可完成', 'framework_lens': '拉伸区最利于成长', 'follow_up_question': '这次练习有多难？如果轻松完成，是否该增加难度？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-inspiration-flash]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-scientific-expression]]'
 ---
 # 科学成长（刻意练习）
 

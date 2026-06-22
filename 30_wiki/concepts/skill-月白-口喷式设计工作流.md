@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-口喷式设计工作流
 title: 技能：口喷式设计工作流
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI平台算法咨询法]]'
+  - '[[skill-月白-AI生成IP表情包]]'
+  - '[[skill-月白-基于基础形象做动作延展（1到10）]]'
+  - '[[skill-月白-表情包风格筛选与确定]]'
+  - '[[skill-月白-电商白底图生成与高清重绘]]'
 ---
 # 技能：口喷式设计工作流
 

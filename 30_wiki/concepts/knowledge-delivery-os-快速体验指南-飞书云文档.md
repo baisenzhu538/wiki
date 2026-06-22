@@ -1,5 +1,6 @@
 ---
 
+
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain:
@@ -16,6 +17,12 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[kdo_product_design_agent_final]]'
+  - '[[graph-rag]]'
+  - '[[dk-f4-wrong-workdir]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 ---
 # Knowledge Delivery OS 快速体验指南
 

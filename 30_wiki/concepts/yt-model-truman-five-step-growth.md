@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-truman-five-step-growth
 confidence: 0.85
 created_at: 2026-05-11
@@ -37,6 +38,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
+related:
+  - '[[yt-panproduct-execution-management-trilogy]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-model-personal-map]]'
+  - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
+  - '[[skill-三层目标对齐法]]'
 ---
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 

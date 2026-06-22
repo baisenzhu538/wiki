@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-decision-outside-view
 title: 技能：团队决策外部视角法
 type: "tool"
@@ -30,6 +31,12 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-decision-delay-intuition]]'
+  - '[[pilot-atomic-chunk-comparison]]'
+  - '[[master-decision-hygiene]]'
+  - '[[skill-first-principles-assumption-classify]]'
+  - '[[skill-cognitive-bias-12-check]]'
 ---
 # 技能：团队决策外部视角法
 

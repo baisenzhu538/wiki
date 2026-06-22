@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-设计基本功回归法
 title: 技能：设计基本功回归法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-工厂对接信息清单制作]]'
+  - '[[skill-月白-卖点可视化海报设计法]]'
+  - '[[skill-月白-光影灰度控制能力构建]]'
+  - '[[skill-月白-精准提示词撰写法]]'
+  - '[[skill-月白-AI去字-稿定设计加字工作流]]'
 ---
 # 技能：设计基本功回归法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-RGB转CMYK色彩校准法
 title: 技能：RGB转CMYK色彩校准法
 type: "tool"
@@ -25,6 +26,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-包材工艺参数核对法]]'
+  - '[[skill-月白-Token效价比决策公式]]'
+  - '[[skill-月白-印刷DPI标准设置]]'
+  - '[[skill-月白-RGB转CMYK印刷预检]]'
+  - '[[skill-月白-PS图层规范管理]]'
 ---
 # 技能：RGB转CMYK色彩校准法
 

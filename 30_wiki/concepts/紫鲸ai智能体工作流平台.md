@@ -1,5 +1,6 @@
 ---
 
+
 id: 紫鲸ai智能体工作流平台
 created_at: 2026-04-28
 domain:
@@ -17,6 +18,12 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+related:
+  - '[[HIS系统开发实现方案-架构师指南]]'
+  - '[[街顺app全面调研报告]]'
+  - '[[保达云诊所深度调研报告]]'
+  - '[[EC工业化规范手册]]'
+  - '[[HIS系统深度调研]]'
 ---
 # 紫鲸AI智能体工作流平台
 

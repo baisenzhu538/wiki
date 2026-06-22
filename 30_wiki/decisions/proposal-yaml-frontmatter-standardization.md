@@ -1,4 +1,5 @@
 ---
+
 title: YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引
 type: improvement-plan
 domain:
@@ -14,6 +15,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+  - '[[dk-tool-chain-naming-is-infrastructure]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[data-curator-role-division]]'
+  - '[[dk-p19-quote-yaml]]'
 ---
 # YAML 标注对 KDO 知识库的启发
 

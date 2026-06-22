@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
@@ -41,6 +42,12 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+related:
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[yt-foresight-probability-engineering]]'
+  - '[[case-gudong-tea-shop-foresight]]'
+  - '[[case-xiaolong-ecommerce-foresight]]'
+  - '[[yt-foresight-15-char-mantra]]'
 ---
 # 加法减法实操：从100个选项到3个高概率方向
 

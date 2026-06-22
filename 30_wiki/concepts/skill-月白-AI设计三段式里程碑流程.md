@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI设计三段式里程碑流程
 title: 技能：AI设计三段式里程碑流程
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AIGC餐饮海报优化一抽流]]'
+  - '[[skill-月白-竞品图精益替换法]]'
+  - '[[skill-月白-关键要素提取改图法]]'
+  - '[[skill-月白-眼高手低训练法]]'
+  - '[[skill-月白-线下门店设计复杂度评估]]'
 ---
 # 技能：AI设计三段式里程碑流程
 

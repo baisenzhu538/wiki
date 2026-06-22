@@ -1,5 +1,6 @@
 ---
 
+
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -35,6 +36,12 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: "老顽童"
+related:
+  - '[[dk-foresight-tier-skip-illusion]]'
+  - '[[yt-five-step-method-complete]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-foresight-deliverables-four-levels]]'
+  - '[[case-ai-time-management-tiered-growth]]'
 ---
 # 案例：咖啡馆创业预判
 

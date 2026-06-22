@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-product-design
 confidence: 0.8
 created_at: 2026-05-06
@@ -45,6 +46,12 @@ diagnostic_signals:
   - {'signal': '方案会通过反馈迭代，而不是一次定稿', 'framework_lens': '设计是循环', 'follow_up_question': '这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[ocr-泛产品设计落地篇]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-inspiration-flash]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
 ---
 # 泛产品设计
 

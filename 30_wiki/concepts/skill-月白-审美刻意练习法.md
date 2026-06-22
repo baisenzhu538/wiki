@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-审美刻意练习法
 title: 技能：审美刻意练习法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-眼高手低转化法]]'
+  - '[[skill-月白-课程问题预埋法]]'
+  - '[[skill-月白-用一堂方法论找最佳实践并拉满执行]]'
+  - '[[skill-月白-AI去字-稿定设计加字工作流]]'
+  - '[[skill-月白-三步作业反馈法]]'
 ---
 # 技能：审美刻意练习法
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-清单小抄制作
 title: 技能：清单小抄制作
 type: "tool"
@@ -28,6 +29,12 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+related:
+  - '[[skill-区分获客渠道计算单元roi]]'
+  - '[[skill-辩证讨论深化]]'
+  - '[[skill-ai辅助学习]]'
+  - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
+  - '[[skill-费曼学习法三句话提炼]]'
 ---
 # 技能：清单小抄制作
 

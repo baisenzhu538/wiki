@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
@@ -52,6 +53,12 @@ diagnostic_signals:
   follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
 updated_at: '2026-06-16'
 author: 老顽童
+related:
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-barriers]]'
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
 ---
 # 259里程碑
 

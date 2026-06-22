@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-一堂-地图-创业地图_conv"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[ocr-truman的个人成长五步法]]'
+  - '[[ocr-一堂-地图-管理地图_conv]]'
+  - '[[ocr-微信图片_20260507004804_39_32]]'
+  - '[[ocr-一堂进步大地图_compressed]]'
+  - '[[ocr-ocr_snipaste_2026-05-15_21-39-40]]'
 ---
 
 # OCR: 一堂-地图-创业地图_conv

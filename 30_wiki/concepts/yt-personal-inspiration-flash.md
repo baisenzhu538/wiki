@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-inspiration-flash
 confidence: 0.8
 created_at: 2026-05-06
@@ -45,6 +46,12 @@ diagnostic_signals:
   - {'signal': '灵感会被主动与当前要解决的问题连接，而不是收藏起来', 'framework_lens': '灵感的价值在于解决问题', 'follow_up_question': '这个灵感能解决你当前哪个具体问题？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-deliberate-practice]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-product-design]]'
+  - '[[yt-personal-scientific-expression]]'
 ---
 # 灵感闪现（认知篇）
 

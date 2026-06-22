@@ -1,4 +1,5 @@
 ---
+
 id: "ocr-项目背景问题思考的8个维度"
 created_at: 2026-05-21
 domain:
@@ -15,6 +16,12 @@ author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[yt-decision-consensus-iceberg]]'
+  - '[[ocr-一堂-科学决策-深度-案例05]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+  - '[[ocr-一堂-科学决策-宽度-企业]]'
 ---
 
 # OCR: 项目背景问题思考的8个维度

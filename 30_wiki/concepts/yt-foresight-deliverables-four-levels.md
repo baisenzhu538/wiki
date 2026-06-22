@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
@@ -41,6 +42,12 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+related:
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-foresight-probability-engineering]]'
+  - '[[case-truman-yitang-foresight]]'
+  - '[[yt-foresight-addition-subtraction]]'
+  - '[[yt-five-step-level-blindspots]]'
 ---# 预判交付物四层级：从模糊想法到Plan ABC
 
 ## Core Claims

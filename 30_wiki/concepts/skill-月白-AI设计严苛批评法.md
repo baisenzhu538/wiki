@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-AI设计严苛批评法
 title: 技能：AI设计严苛批评法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-AI生图与图生图决策法]]'
+  - '[[skill-月白-AI生成IP表情包]]'
+  - '[[skill-月白-分层自洽海报生成法]]'
+  - '[[skill-月白-AIGC生成人物证件照]]'
+  - '[[skill-月白-精准提示词消除模型幻觉]]'
 ---
 # 技能：AI设计严苛批评法
 

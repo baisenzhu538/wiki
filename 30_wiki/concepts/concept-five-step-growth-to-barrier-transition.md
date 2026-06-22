@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
@@ -50,6 +51,12 @@ wiki_refs:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
+related:
+  - '[[case-five-step-growth-first-lever]]'
+  - '[[yt-growth-channel-roi]]'
+  - '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-business-model-pivot-signals]]'
+  - '[[yt-business-model-unit-economics]]'
 ---# 五步法衔接：什么时候从增长切换到壁垒建设
 
 > 五步法第四步"增长"和第五步"壁垒"之间存在一个隐蔽的切换点。多数创业者要么永远不建壁垒（"增长还不够大"），要么过早建壁垒（"增长还没跑通就开始想护城河"）。本卡定义这个切换标准。

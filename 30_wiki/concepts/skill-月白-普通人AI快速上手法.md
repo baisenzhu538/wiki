@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-月白-普通人AI快速上手法
 title: 技能：普通人AI快速上手法
 type: "tool"
@@ -26,6 +27,12 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+related:
+  - '[[skill-月白-课程问题预埋法]]'
+  - '[[skill-月白-三步作业反馈法]]'
+  - '[[skill-月白-电商白底图生成与场景图匹配]]'
+  - '[[skill-月白-用一堂方法论找最佳实践并拉满执行]]'
+  - '[[skill-月白-灵感画布建立法]]'
 ---
 # 技能：普通人AI快速上手法
 
