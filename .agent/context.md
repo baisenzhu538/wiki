@@ -1,19 +1,17 @@
 ---
 updated: 2026-06-22
 active_branch: main
-active_task: "老顽童已完成 _54/_115/_184/_249 四张可选后续卡，_269 跳过待确认。战略域可选后续清单清空。"
+active_task: "战略域 PPT 补强全部验收通过。76 张卡建制完整，23 张最近 2 天入库，平均置信度 0.88。"
 blockers:
   - "✅ CLI 王语嫣已完成冉鹏 PPT 视觉层重标 + 36 张卡片创建 + 质量收尾"
   - "✅ 113 张 VLM parse error (P-33) 已由黄药师修复，归零"
-  - "✅ 老顽童完成 _54 case-strategy-snack-export-opportunity"
-  - "✅ 老顽童完成 _115 tool-strategy-value-capture 补强"
-  - "✅ 老顽童完成 _184 tool-strategy-logistics-cost-planning"
-  - "✅ 老顽童完成 _249 tool-strategy-market-opportunity-matrix"
+  - "✅ 老顽童完成 _54/_115/_184/_249 四张可选后续卡，王语嫣验收 3/3 通过"
+  - "✅ 战略域收工：76 张卡，23 张最近 2 天入库，平均置信度 0.88"
   - "⏭️ _269 深蓝海洋主题页跳过，待用户/欧阳锋确认内容"
   - "🟡 shared/README.md 过期 — 只列 ~20% Skill，缺失调研域 13 子 Skill、kdo-self-attack、strategy 系列等"
   - "🟢 Y 模型决策域（66 张卡）Skill 化 — P0 候选，欧阳锋已批，黄药师排期中"
   - "🟢 调研域全线完工 — 100+ 张卡 + 7 Skill + 质量门 + 映射表"
-next_session_hint: "用户确认 _269 内容后老顽童启动；或老顽童回归历史工单 / 处理 lint 债务；黄药师继续 shared/README + Y 模型决策域 Skill 化"
+next_session_hint: "老顽童停车场见 laowantong/parking-lot.md；用户确认后从停车场取任务执行；黄药师继续 shared/README + Y 模型决策域 Skill 化"
 ---
 
 ## 📢 全厂通知（2026-06-19）
@@ -72,7 +70,7 @@ next_session_hint: "用户确认 _269 内容后老顽童启动；或老顽童回
 
 ### 各角色当前任务
 - **黄药师**：KF-020+021全修 + S4-1 aliases + kdo_lint(2344→85) + 决策域研究(2卡A级)
-- **老顽童**：已完成 _54/_115/_184/_249 四张可选后续卡，_269 跳过待确认；待命接新任务
+- **老顽童**：战略域 PPT 补强 3/3 验收通过；待命接新任务
 - **王语嫣**：已完成冉鹏战略域 36 张卡片创建 + 质量收尾，当前待命
 - **欧阳锋**：月度抽检模式
 - **洪七公**：待命

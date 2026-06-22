@@ -1,63 +1,75 @@
 ---
 id: index
-title: index
+title: AI for Business · 知识库总目
 type: index
-status: draft
+status: enriched
+confidence: 0.90
+trust_level: high
 domain:
-- master
-author: system
+  - master
+created_at: "2026-06-16"
+updated_at: "2026-06-23"
+author: 黄药师
 reviewed_by: pending
-confidence: 0.5
-trust_level: low
 source_refs:
-- system-index
-created_at: '2026-06-16'
-updated_at: '2026-06-17'
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+  - system-index
+related:
+  - "[[five-step-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[strategy-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
-# Wiki Index
-_Last updated: 2026-06-22T18:35:15+00:00_
-## 域入口（Domain Digests）
-| 域 | 入口卡 |
-|---|---|
-| Yitang | [[yitang-domain-digest]] |
-| Research | [[yitang-research-domain-digest]] |
-| Five Step | [[five-step-domain-digest]] |
-| Strategy | [[strategy-domain-digest]] |
-| AI Collaboration | [[ai-collaboration-domain-digest]] |
 
-## 域统计
-| 域 | 卡片数 | 入口 |
-|---|---|---|
-| - yitang | 675 | — |
-| - design | 241 | — |
-| yitang | 206 | — |
-| research | 156 | — |
-| - ai-saas | 122 | — |
-| - master | 104 | — |
-| - ai-collaboration | 71 | — |
-| - healthcare | 65 | — |
-| strategy | 59 | [[strategy-domain-digest]] |
-| - product | 58 | — |
-| five-step-method | 42 | — |
-| - management | 41 | — |
-| - strategy | 37 | — |
-| - kdo | 32 | — |
-| - human-ai-collaboration | 29 | — |
-| - needs-review | 23 | — |
-| ai-collaboration | 22 | — |
-| - personal | 16 | — |
-| - learning-methodology | 15 | — |
-| - decision-making | 12 | — |
-| - business-strategy | 9 | — |
-| - consulting | 8 | — |
-| - marketing | 7 | — |
-| - entrepreneur | 6 | — |
-| content-production | 5 | — |
-| - ai | 5 | — |
+# AI for Business 知识库
 
-## 控制面板
-- [[concept-card-index-latest]] — 卡片全量表（自动生成）
-- [[links/index|links/index]] — 反向链接索引
+> **使命**: 用 AI 增强商业判断力与商业审美。
+> **操作系统**: [[human-ai-collaboration-double-triangle|人机协作双三角]] — 人定方向，AI 做执行与交叉验证。
 
-> 详细卡片列表见各域入口卡。域入口卡是 Obsidian 图谱中的枢纽节点。
+---
+
+## 一、商业判断力
+
+| 能力域 | 核心问题 | 入口 |
+|:--|:--|:--|
+| **战略判断** | 往哪走？怎么赢？ | [[strategy-domain-digest]] |
+| **需求判断** | 用户真的要什么？市场多大？ | `/demand-analysis` |
+| **决策判断** | 怎么选？怎么不选错？ | `/decision` |
+| **市场洞察** | 对手在干什么？行业在怎么变？ | [[yitang-research-domain-digest]] |
+| **商业模型** | 怎么赚钱？单元模型成立吗？ | `/five-step-business-model` |
+| **增长设计** | 怎么放大？增长引擎是什么？ | `/five-step-growth` |
+| **壁垒构建** | 怎么守住？优势能持续多久？ | `/five-step-barrier` |
+| **产品内核** | 用户为什么选你？ | `/five-step-product` |
+
+> 五步法（[[five-step-domain-digest]]）是贯穿以上八项的操作系统——需求→产品内核→商业模式→增长→壁垒，按序执行。
+
+## 二、AI 商业能力
+
+| 能力域 | 核心问题 | 入口 |
+|:--|:--|:--|
+| **人机协作** | 怎么让 AI 成为商业判断的加速器？ | [[ai-collaboration-domain-digest]] |
+| **调研自动化** | 怎么用多 Agent 并行做市场调研？ | `/research` |
+| **知识自攻击** | 怎么让 AI 自动发现我的判断盲区？ | `/kdo-self-attack` |
+| **内容生产** | 怎么用 AI 把判断变成可交付的内容？ | `/content-production` |
+
+> [[human-ai-collaboration-double-triangle|双三角模型]] 定义人机分工：人 = 规划器（判断力 + 审美），AI = 执行器 + 判别器（GAN 对抗验证）。
+
+## 三、关键 Skill 入口
+
+| 场景 | 调用 |
+|:--|:--|
+| 分析一个项目的完整商业逻辑 | `/five-step` → 需求→产品→模型→增长→壁垒 |
+| 判断一个市场的机会大小 | `/research` → OSCAR + 13 武器 |
+| 做一次科学决策 | `/decision` → Y 模型 + 决策卫生 |
+| 让我自己的判断接受 AI 攻击 | `/kdo-self-attack` |
+| 把判断写成文章/课程 | `/content-production` |
+
+## 四、控制面板
+
+- [[concept-card-index-latest]] — 卡片全量表
+- [[90_control/vault-status.md|vault-status]] — 域×类型矩阵 + 最近变更
+- `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
+
+---
+
+*AI for Business · 人机协作双三角驱动 · 商业判断力 + 商业审美*
