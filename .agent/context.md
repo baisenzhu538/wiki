@@ -1,17 +1,18 @@
 ---
 updated: 2026-06-22
 active_branch: main
-active_task: "战略域 PPT 补强全部验收通过。76 张卡建制完整，23 张最近 2 天入库，平均置信度 0.88。"
+active_task: "老顽童执行精益创业专题完整卡片化：38 张卡分 P0/P1/P2 三批，来源 00_inbox/精益创业/ 52 张图 + 4 份课程稿 + 5 份张磊 AMA。当前完成 P0 1/7。"
 blockers:
   - "✅ CLI 王语嫣已完成冉鹏 PPT 视觉层重标 + 36 张卡片创建 + 质量收尾"
   - "✅ 113 张 VLM parse error (P-33) 已由黄药师修复，归零"
-  - "✅ 老顽童完成 _54/_115/_184/_249 四张可选后续卡，王语嫣验收 3/3 通过"
   - "✅ 战略域收工：76 张卡，23 张最近 2 天入库，平均置信度 0.88"
+  - "🆕 精益创业卡片化任务已下达：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`"
+  - "🆕 P0 核心框架：framework-lean-false-model 已完成"
   - "⏭️ _269 深蓝海洋主题页跳过，待用户/欧阳锋确认内容"
   - "🟡 shared/README.md 过期 — 只列 ~20% Skill，缺失调研域 13 子 Skill、kdo-self-attack、strategy 系列等"
   - "🟢 Y 模型决策域（66 张卡）Skill 化 — P0 候选，欧阳锋已批，黄药师排期中"
   - "🟢 调研域全线完工 — 100+ 张卡 + 7 Skill + 质量门 + 映射表"
-next_session_hint: "老顽童停车场见 laowantong/parking-lot.md；用户确认后从停车场取任务执行；黄药师继续 shared/README + Y 模型决策域 Skill 化"
+next_session_hint: "老顽童继续推进精益创业 P0 剩余 6 张框架卡；P0 完成后通知王语嫣验收，再进入 P1"
 ---
 
 ## 📢 全厂通知（2026-06-19）
