@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-21 18:08 UTC
+# Concept Card Index — 2026-06-22 18:10 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -702,14 +702,22 @@
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
 | framework-multi-agent-research-architecture | 多智能体调研架构：四种模式的对比与选择 | framework | yitang, research, ai-collaboration |
 | framework-ouyangfeng-review-methodology | 欧阳锋审查方法论：三阶段架构评审框架 | framework | master, kdo |
+| framework-strategy-ansoff | 安索夫矩阵：产品-市场增长战略 | framework | strategy, growth |
 | framework-strategy-basics-01-core | 定式（Core Foundation）：BRM框架为核心，战略肌肉记忆 | framework | strategy |
 | framework-strategy-basics-02-insight | 洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远 | framework | strategy |
+| framework-strategy-basics-03-layout | 布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事 | framework | strategy |
 | framework-strategy-basics-04-system | 体系（Creation System）：丰田供应链生态+苹果iOS生态 | framework | strategy |
 | framework-strategy-basics-04-system | 体系（Creation System）：生态体系——丰田供应链+苹果iOS | framework | strategy |
+| framework-strategy-blm | IBM BLM 业务领导力模型 + 华为五看三定 | framework | strategy |
 | framework-strategy-brm | 冉鹏版 BRM 框架（源于 IBM BLM 方法论） | framework | strategy |
 | framework-strategy-business-design | 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM） | framework | strategy |
 | framework-strategy-five-basics | 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革 | framework | strategy |
+| framework-strategy-five-forces | 波特五力分析框架 | framework | strategy, market_analysis |
+| framework-strategy-kai-innovation-directions | 凯纳创新方向分类框架 | framework | strategy, innovation |
+| framework-strategy-mckinsey-7s | 麦肯锡 7S 模型：组织诊断与变革管理 | framework | strategy, organization, change_management |
+| framework-strategy-pyramid | 企业战略金字塔：公司、业务与职能协同 | framework | strategy |
 | framework-strategy-six-stages | 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同 | framework | strategy |
+| framework-strategy-three-horizons | 三个地平线：短中长期业务组合管理 | framework | strategy, portfolio |
 | framework-structured-analytic-techniques | SATs结构化分析技术：CIA情报分析的八类工具箱 | framework | yitang, research |
 | framework-wanghuan-actor-director-mode | 王欢人机协作框架：从演员到导演 | framework | human-ai-collaboration, ai-collaboration, yitang |
 | framework-wanghuan-ai-five-level-ladder | 王欢AI能力五层跃迁模型 | framework | human-ai-collaboration, ai-collaboration, yitang |
@@ -871,26 +879,35 @@
 | tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool | yitang, product, ai-collaboration |
 | tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool | yitang, product, ai-collaboration |
 | tool-strategy-12-word-test | 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略 | tool | strategy |
-| tool-strategy-activity-scope | 活动范围：价值链分析+边界决策——做什么/不做什么 | tool | strategy |
+| tool-strategy-activity-scope | 活动范围设计工具：What × How × Where 三问 | tool | strategy, operations |
+| tool-strategy-blue-ocean-canvas | 蓝海战略画布（价值曲线工具） | tool | strategy, market_positioning |
+| tool-strategy-business-design-template | 业务单元业务设计模板 | tool | strategy, business_design |
 | tool-strategy-business-summary | 业务设计总结：战略蓝图输出+关键任务卡片 | tool | strategy |
 | tool-strategy-capability-matrix | 核心能力评估矩阵：影响力×急迫性四象限 | tool | strategy |
+| tool-strategy-category-role-matrix | 零售品类角色矩阵 | tool | strategy, retail |
 | tool-strategy-competition-traps | 竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有） | tool | strategy |
-| tool-strategy-control-points | 战略控制点：护城河的五锚点定位法 | tool | strategy |
+| tool-strategy-control-points | 战略控制点设计工具：价值定位模型 | tool | strategy, competitive_advantage |
+| tool-strategy-core-competence-matrix | 核心能力评估矩阵：影响力 × 急迫性 | tool | strategy, capability |
 | tool-strategy-customer-selection | 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环 | tool | strategy |
-| tool-strategy-fishbone | 鱼骨图拆解：按维度拆销售/利润/组织问题找到根因 | tool | strategy |
+| tool-strategy-fishbone | 鱼骨图根因分析工具 | tool | strategy, problem_solving |
 | tool-strategy-five-see-three-set | 华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径 | tool | strategy |
 | tool-strategy-four-layers | 战略四层结构：集团→业务单元→职能→执行 | tool | strategy |
 | tool-strategy-four-moves | 战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移 | tool | strategy |
 | tool-strategy-gap-analysis | 差距分析：战略的起点——业绩差距（内部）+机会差距（外部） | tool | strategy |
+| tool-strategy-industry-chain-analysis | 产业链机会与行动计划分析工具 | tool | strategy, operations |
+| tool-strategy-ksf | 关键成功因素（KSF）分析工具 | tool | strategy, competitive_analysis |
+| tool-strategy-lifecycle | 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0 | tool | strategy, entrepreneurship |
 | tool-strategy-map | 战略地图——公司/各BU/业务单元的战略蓝图模板 | tool | strategy |
 | tool-strategy-nine-problems | 九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制 | tool | strategy |
 | tool-strategy-pareto | 帕雷托图（80/20法则）：识别库存/客户/品类的关键少数 | tool | strategy |
+| tool-strategy-platform-business-map | 平台商业模式地图 | tool | strategy, platform |
 | tool-strategy-profit-model-comparison | 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策 | tool | strategy |
-| tool-strategy-risk-management | 风险管理：麦肯锡7S七维对齐诊断 | tool | strategy |
+| tool-strategy-risk-management | 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵 | tool | strategy, risk_management |
 | tool-strategy-sentence-formula | 战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动 | tool | strategy |
+| tool-strategy-swot | SWOT 分析工具：从四象限到行动策略 | tool | strategy |
 | tool-strategy-three-horizons | 三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年） | tool | strategy |
-| tool-strategy-value-capture | 价值获取：盈利模式八问——从价值主张到怎么赚钱 | tool | strategy |
-| tool-strategy-value-proposition | 价值主张：马斯洛金字塔交叉定位+排序方法 | tool | strategy |
+| tool-strategy-value-capture | 价值获取设计工具：8 问盈利模型 | tool | strategy, business_model |
+| tool-strategy-value-proposition | 价值主张设计工具：三问 + 六维排序法 | tool | strategy, marketing |
 | tool-wanghuan-ai-business-profile | 王欢AI业务档案5字段工具 | tool | human-ai-collaboration, ai-collaboration, yitang |
 | tool-wanghuan-ai-dual-role-coach | 王欢：AI 双角色教练对练工具 | tool |  |
 | tool-yitang-18-strategy-tool-mapping | 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill | tool | yitang |
@@ -1092,14 +1109,21 @@
 | case-strategy-lekai-film | 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活 | case | strategy |
 | case-strategy-li-ka-shing | 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨 | case | strategy |
 | case-strategy-longzhong-plan | 隆中对：中国最著名的战略规划——成功与失败四因 | case | strategy |
+| case-strategy-m-brand-profit-model | M品牌：从直营到代理加盟的连锁扩张盈利模式选择 | case | strategy |
+| case-strategy-model-selection-quiz | 10情境战略模型选择练习：什么情境配什么工具 | case | strategy |
 | case-strategy-practice-10-turnaround | 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿 | case | strategy |
 | case-strategy-practice-11-third-place | 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品 | case | strategy |
 | case-strategy-practice-12-zero-loss | 案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万 | case | strategy |
 | case-strategy-practice-ranpeng-crossborder | 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖 | case | strategy |
 | case-strategy-practice-ranpeng-milk-powder | 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断 | case | strategy |
+| case-strategy-retailer-activity-scope | 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐 | case | strategy |
 | case-strategy-revival-13-bestore | 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张 | case | strategy |
 | case-strategy-revival-14-gucci | 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代 | case | strategy |
 | case-strategy-shell-oil | 壳牌石油：价值链突变→市场规模预测→从生产转服务 | case | strategy |
+| case-strategy-snack-business-design | 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家 | case | strategy |
+| case-strategy-snack-export-opportunity | 国产零食出口220国：新区域机会的诱惑与风险预估 | case | strategy |
+| case-strategy-snack-industry-chain | 话梅果干产业链分析：从种植到零售的利润分布与竞争格局 | case | strategy |
+| case-strategy-walmart-vs-costco-pyramid | 沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔 | case | strategy |
 | case-strategy-wuxi-suntech | 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了 | case | strategy |
 | case-strategy-xiaobear | 小熊电器：跳出行业范式——定位年轻单身男性 | case | strategy |
 | case-thousand-people-square | 案例：一堂'千人广场模型'——用统计建模心态做课 | case | yitang, modeling, education |
