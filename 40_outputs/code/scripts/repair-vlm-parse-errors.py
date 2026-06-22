@@ -50,8 +50,18 @@ def extract_inner_json_from_description(desc_text: str) -> dict | None:
 
 
 def _try_parse(text: str) -> dict | None:
-    """尝试解析 JSON，优先 json5，回退 stdlib。"""
+    """尝试解析 JSON，含中文引号修复 + json5 兜底。"""
+    # 预处理：修复 JSON 字符串值内部的中文裸引号
+    fixed = _escape_chinese_context_quotes(text)
+
     if json5:
+        try:
+            parsed = json5.loads(fixed)
+            if isinstance(parsed, dict) and "category" in parsed:
+                return parsed
+        except Exception:
+            pass
+        # 原文本也试一次
         try:
             parsed = json5.loads(text)
             if isinstance(parsed, dict) and "category" in parsed:
@@ -59,14 +69,92 @@ def _try_parse(text: str) -> dict | None:
         except Exception:
             pass
 
-    try:
-        parsed = json.loads(text)
-        if isinstance(parsed, dict) and "category" in parsed:
-            return parsed
-    except json.JSONDecodeError:
-        pass
+    for candidate in [fixed, text]:
+        try:
+            parsed = json.loads(candidate)
+            if isinstance(parsed, dict) and "category" in parsed:
+                return parsed
+        except json.JSONDecodeError:
+            pass
 
     return None
+
+
+def _escape_chinese_context_quotes(text: str) -> str:
+    """修复 JSON 字符串值内中文语境下的裸双引号。
+
+    模式: 中文文字 " 中文文字  →  中文文字 \" 中文文字
+    如: 标题为"保密条款" → 标题为\"保密条款\"
+        称为"xxx" → 称为\"xxx\"
+    """
+    import re
+    result = []
+    i = 0
+    in_string = False
+    string_char = None
+    escape_next = False
+
+    while i < len(text):
+        ch = text[i]
+        if escape_next:
+            result.append(ch)
+            escape_next = False
+            i += 1
+            continue
+        if ch == '\\' and in_string:
+            result.append(ch)
+            escape_next = True
+            i += 1
+            continue
+        if ch == '"' and not in_string:
+            in_string = True
+            string_char = '"'
+            result.append(ch)
+            i += 1
+            continue
+        if ch == '"' and in_string:
+            # 消耗后续空白看是不是真正的 JSON 键/分隔符
+            after = i + 1
+            while after < len(text) and text[after] in ' \t\n\r':
+                after += 1
+            if after < len(text) and text[after] in ':,':
+                # 真正的 JSON 语法：字符串结束，后跟 : 或 ,
+                in_string = False
+                result.append(ch)
+            elif after < len(text) and text[after] == '"':
+                # 连续两个引号 → 下一个字符串开始（JSON 键值对之间）
+                in_string = False
+                result.append(ch)
+            elif i > 0 and _has_chinese_context(text, i):
+                # 中文语境下的裸引号 → 转义
+                result.append('\\"')
+            else:
+                in_string = False
+                result.append(ch)
+            i += 1
+            continue
+        result.append(ch)
+        i += 1
+
+    return ''.join(result)
+
+
+def _has_chinese_context(text: str, pos: int) -> bool:
+    """检查位置 pos 的引号是否夹在中文语境中。"""
+    # 向前找最近的中文字符
+    for j in range(pos - 1, max(pos - 30, -1), -1):
+        if '一' <= text[j] <= '鿿' or text[j] in '，。、；：！？）】》':
+            # 有中文在前 → 中文语境
+            return True
+        if text[j] in '"\n{}[]':
+            break
+    # 向后找最近的中文字符
+    for j in range(pos + 1, min(pos + 30, len(text))):
+        if '一' <= text[j] <= '鿿' or text[j] in '，。、；：！？（【《':
+            return True
+        if text[j] in '"\n{}[]':
+            break
+    return False
 
 
 def repair_file(desc_path: Path, dry_run: bool = False) -> bool:
