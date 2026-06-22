@@ -33,9 +33,12 @@ def parse_frontmatter(text: str) -> dict | None:
             key, _, val = line.partition(":")
             key = key.strip()
             val = val.strip().strip('"').strip("'")
-            # YAML list: key:\n  - item
-            if val == "":
-                result[key] = []
+            # Inline YAML list: [a, b, c]
+            if val.startswith("[") and val.endswith("]"):
+                items = [it.strip().strip('"').strip("'") for it in val[1:-1].split(",")]
+                result[key] = [it for it in items if it]
+            elif val == "":
+                result[key] = []  # multi-line list, scanned below
             else:
                 result[key] = val
     # Crude YAML list support: scan for indented "- " lines after key with empty value
@@ -47,6 +50,11 @@ def parse_frontmatter(text: str) -> dict | None:
             if m:
                 items = re.findall(r"^\s*-\s+(.+)$", m.group(1), re.MULTILINE)
                 result[lk] = [it.strip().strip('"').strip("'") for it in items]
+    # Also: single-item inline list like [strategy] gets split to just "strategy"
+    for lk in list_keys:
+        if lk in result and isinstance(result[lk], str) and result[lk].startswith("["):
+            items = [it.strip().strip('"').strip("'") for it in result[lk][1:-1].split(",")]
+            result[lk] = [it for it in items if it]
     return result
 
 

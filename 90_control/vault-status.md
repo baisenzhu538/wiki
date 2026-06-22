@@ -1,36 +1,29 @@
 # KDO Vault 状态快照
 
 > 自动生成：2026-06-23 00:48 UTC
-> 卡片总数：**1892** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 505 | 缺 source: 1188
+> 卡片总数：**1892** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 505 | 缺 source: 1234
 
 ## 域 × 类型 矩阵
 
 | 域 | 总计 | avg conf | case | concept | dark-knowledge | dark_knowledge | decision | framework | improvement-plan | index | prompt-methodology | prompt-template | skill | system | tool |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| strategy | 9 | 0.92 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
-| yitang | 400 | 0.76 | 19 | 203 | 17 | 0 | 0 | 53 | 0 | 3 | 0 | 4 | 1 | 1 | 99 |
+| strategy | 76 | 0.88 | 30 | 5 | 12 | 0 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
+| yitang | 601 | 0.80 | 71 | 216 | 17 | 29 | 0 | 61 | 0 | 3 | 1 | 4 | 1 | 1 | 197 |
+| research | 156 | 0.86 | 38 | 10 | 0 | 17 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 87 |
 | product | 80 | 0.78 | 3 | 40 | 7 | 0 | 0 | 12 | 0 | 0 | 0 | 0 | 1 | 0 | 17 |
 | design | 7 | 0.70 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | personal-growth | 5 | 0.77 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | *id001 | 1 | 0.80 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | SaaS | 2 | 0.82 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| [strategy] | 67 | 0.87 | 30 | 5 | 12 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
-| [yitang, ai-collaboration] | 3 | 0.89 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [yitang, content-production, ai-collaboration] | 1 | 0.90 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| [yitang, content-production] | 4 | 0.89 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [yitang, five-step-method, ai-collaboration] | 5 | 0.87 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [yitang, five-step-method, prompt-engineering] | 1 | 0.92 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| [yitang, five-step-method] | 31 | 0.87 | 13 | 0 | 0 | 12 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [yitang, research, ai-collaboration] | 13 | 0.86 | 1 | 3 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [yitang, research] | 143 | 0.86 | 37 | 7 | 0 | 15 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 81 |
 | ai | 13 | 0.81 | 2 | 4 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
-| ai-collaboration | 36 | 0.77 | 1 | 5 | 2 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 25 |
+| ai-collaboration | 58 | 0.80 | 2 | 11 | 2 | 2 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 37 |
 | ai-saas | 47 | 0.67 | 2 | 41 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | b2b | 3 | 0.68 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | business | 61 | 0.92 | 0 | 33 | 2 | 0 | 0 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
 | business-strategy | 35 | 0.68 | 5 | 28 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | business_design | 1 | 0.95 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | capability | 1 | 0.92 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| content-production | 5 | 0.89 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | decision-making | 18 | 0.68 | 0 | 14 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | e-commerce | 1 | 0.85 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | education | 2 | 0.72 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -38,6 +31,7 @@
 | entrepreneurship | 9 | 0.68 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | execution | 1 | 0.88 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | finance-legal | 4 | 0.60 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| five-step-method | 37 | 0.87 | 13 | 0 | 0 | 12 | 0 | 3 | 0 | 0 | 1 | 0 | 0 | 0 | 8 |
 | govtech | 1 | 0.68 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | healthcare | 31 | 0.68 | 2 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | human-ai-collaboration | 1 | 0.88 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -55,6 +49,7 @@
 | operations | 1 | 0.94 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | platform | 1 | 0.95 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | product-strategy | 1 | 0.75 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| prompt-engineering | 1 | 0.92 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | retail | 1 | 0.95 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | supply-chain | 4 | 0.60 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 分销系统 | 1 | 0.82 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -98,18 +93,18 @@
 - draft 卡: 612 张
 - needs-review: 62 张
 - 低置信度(<0.7): 505 张
-- 缺 source_refs: 1188 张
+- 缺 source_refs: 1234 张
 
 ### 最重的域
 
-- **yitang**: 400 张 (conf=0.76) — case=19 + concept=203 + dark-knowledge=17 + framework=53 + index=3 + prompt-template=4 + skill=1 + system=1 + tool=99
-- **[yitang, research]**: 143 张 (conf=0.86) — case=37 + concept=7 + dark_knowledge=15 + framework=3 + tool=81
+- **yitang**: 601 张 (conf=0.80) — case=71 + concept=216 + dark-knowledge=17 + dark_knowledge=29 + framework=61 + index=3 + prompt-methodology=1 + prompt-template=4 + skill=1 + system=1 + tool=197
+- **research**: 156 张 (conf=0.86) — case=38 + concept=10 + dark_knowledge=17 + framework=4 + tool=87
 - **product**: 80 张 (conf=0.78) — case=3 + concept=40 + dark-knowledge=7 + framework=12 + skill=1 + tool=17
-- **[strategy]**: 67 张 (conf=0.87) — case=30 + concept=5 + dark-knowledge=12 + framework=8 + tool=12
+- **strategy**: 76 张 (conf=0.88) — case=30 + concept=5 + dark-knowledge=12 + framework=9 + tool=20
 - **business**: 61 张 (conf=0.92) — concept=33 + dark-knowledge=2 + framework=19 + tool=7
+- **ai-collaboration**: 58 张 (conf=0.80) — case=2 + concept=11 + dark-knowledge=2 + dark_knowledge=2 + framework=4 + tool=37
 - **ai-saas**: 47 张 (conf=0.67) — case=2 + concept=41 + tool=4
 - **needs-review**: 45 张 (conf=0.60) — concept=45
-- **ai-collaboration**: 36 张 (conf=0.77) — case=1 + concept=5 + dark-knowledge=2 + framework=3 + tool=25
 
 ---
 *快照脚本: `90_control/scripts/vault-snapshot.py`*
