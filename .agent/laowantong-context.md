@@ -38,12 +38,16 @@ updated: 2026-06-22
 - **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
 - 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
 
-**当前状态：待命 ⏸️（2026-06-22 更新）**：
-- 主工单：`60_feedback/tasks/task_20260621_战略域PPT补强_黄药师标杆.md`
-- 等待：王语嫣完成 PPT 视觉层标记/确认
-- 待补 5 张 tool 卡（暂不启动）：`tool-strategy-value-proposition` / `tool-strategy-value-capture` / `tool-strategy-activity-scope` / `tool-strategy-control-points` / `tool-strategy-risk-management`
-- 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2 已升级）
-- 诊断记录：`60_feedback/diagnosis/diag_20260622_战略域PPT视觉层重标_CLI王语嫣.md`
+**当前状态：接手可选后续（2026-06-22 更新）**：
+- 主工单：`00_inbox/战略专题/_strategy_cards_implementation_status.md`
+- 已完成：王语嫣 36 张战略卡收尾 + 黄药师 parse error 修复
+- 待启动 5 个高潜幻灯片（按优先级/素材清晰度排序）：
+  1. `_54` 国产零食出口至 220 个国家和地区 → `case-strategy-snack-export-opportunity`
+  2. `_115` 价值获取 8 问 → 补充进 `tool-strategy-value-capture`
+  3. `_184` 物流费用节约三年计划模板 → `tool-strategy-logistics-cost-planning`
+  4. `_249` 各细分市场机会分析矩阵 → `tool-strategy-market-opportunity-matrix`
+  5. `_269` 深蓝海洋主题页 → 需先确认内容
+- 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2）
 - 素材路径：`00_inbox/战略专题/冉鹏PPT截图/`
 
 **已暂停/过期（不要继续）**：
