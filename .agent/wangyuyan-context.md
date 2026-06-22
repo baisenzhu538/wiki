@@ -241,7 +241,7 @@ status: "completed"
 
 - 2026-06-23：完成精益创业专题素材标注与任务指令下达
   - 素材：`00_inbox/精益创业/`（52 张图 + 4 份课程稿 + 5 份 AMA）
-  - 产出：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`（38 张卡任务清单）
+  - 产出：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`（39 张卡任务清单）
   - 产出：`60_feedback/audit/lean-startup-nine-layer-annotation.md`（9 层深挖）
   - 产出：`60_feedback/audit/lean-startup-six-layer-validation.md`（六层交叉验证）
   - 状态：老顽童待按 P0→P1→P2 分批生产；王语嫣待按 20% 抽样验收

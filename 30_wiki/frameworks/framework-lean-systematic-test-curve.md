@@ -13,10 +13,10 @@ domain:
 - yitang
 - product
 source_refs:
-- 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md §1-53
+- 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
-- 00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt §二、2-3
-- 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt §系统测试三种范式、§判断红点
+- 00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt
+- 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622213019_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md

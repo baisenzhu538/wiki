@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-23
 active_branch: main
-active_task: "王语嫣已完成精益创业素材 9 层深挖 + 六层交叉验证标注，38 张卡任务指令已下达老顽童。老顽童待按 P0→P1→P2 分批生产。"
+active_task: "王语嫣已完成精益创业素材 9 层深挖 + 六层交叉验证标注，39 张卡任务指令已下达老顽童。老顽童待按 P0→P1→P2 分批生产。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -10,7 +10,7 @@ blockers:
   - "✅ 知识库重新定位 AI for Business——index.md + CLAUDE.md + startup.md 已重写"
   - "✅ 战略域收工：76 张卡，平均置信度 0.88"
   - "✅ 精益创业素材标注完成：52 张图 + 4 份课程稿 + 5 份 AMA 的 9 层深挖 + 六层交叉验证"
-  - "🆕 老顽童待执行精益创业 38 张卡生产（P0 7 张优先，framework/tool/case 三类）"
+  - "🆕 老顽童待执行精益创业 39 张卡生产（P0 7 张优先，framework/tool/case 三类）"
   - "🆕 王语嫣待按 20% 抽样对老顽童产出做六层交叉验证"
   - "🟡 精益创业域待建 domain digest（老顽童 P0 完成后启动）"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
