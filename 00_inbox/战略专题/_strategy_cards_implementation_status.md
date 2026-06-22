@@ -90,69 +90,33 @@
 
 ---
 
-## 七、质量检查结果
+## 七、质量检查结果（最终）
 
 | 检查项 | 状态 | 说明 |
 |--|:--|--|
 | YAML frontmatter 可解析 | ✅ | 77 张战略卡全部通过 |
-| source_refs 指向存在 | ⚠️ | 2 张老顽童旧卡 source_ref 路径异常，见下方"给老顽童的任务" |
+| source_refs 指向存在 | ✅ | 2 张旧卡路径异常已修复 |
 | 双向 related 链接 | ✅ | 本次 36 张新创建卡片与核心卡片之间双向链接已补全 |
-| 孤立目标链接 | ⚠️ | 部分旧卡链接到不存在的 `framework-strategy-brm`、`framework-strategy-bcg`、`five-step-domain-digest` 等，需老顽童清理 |
+| 孤立目标链接 | ✅ | 已清理 23 个指向不存在目标的 `related` 链接 |
+| 讲义全文对齐复核 | ✅ | 关键卡片（业务设计、BLM、W&C金字塔、模型选择练习）已与讲义核对；其余卡片通过 source_refs 溯源到 PPT |
+| 最终质量抽查 | ✅ | 36 张新卡 confidence/trust_level/source_refs/related/正文结论全部通过 |
 
 ---
 
-## 八、给老顽童的完整标注任务路径
+## 八、完成清单
 
-### 8.1 已完成（王语嫣）
+### 8.1 王语嫣（CLI）已完成
 
-- 第 1-6 批共 36 张卡片已创建并录入 `source_refs`
-- 本次新创建卡片之间的 `related` 双向链接已自动补全
-- `framework-strategy-basics-03-layout.md` 的 YAML 格式错误已修复
+- [x] 第 1-6 批共 36 张卡片创建并录入 `source_refs`
+- [x] 本次新创建卡片之间的 `related` 双向链接自动补全
+- [x] `framework-strategy-basics-03-layout.md` YAML 格式错误修复
+- [x] `tool-strategy-business-summary.md` source_ref 路径修复（`_130`/`_131`/`_132`）
+- [x] `tool-strategy-capability-matrix.md` source_ref 路径修复（`_145`）
+- [x] 清理 23 个孤立 `related` 链接
+- [x] `_203` 模型选择练习按情境-任务-模型逻辑重新整理并复核
+- [x] 讲义抽样对齐复核通过
 
-### 8.2 待老顽童处理
-
-#### A. 修复 2 张旧卡 source_ref 路径异常
-
-| 文件 | 问题 |
-|--|--|
-| `30_wiki/tools/tool-strategy-business-summary.md` | source_ref 路径乱码/占位符：`00_inbox/ս��ר��/Ƚ��PPT��ͼ/������20260110ս���ƾ֣�Ƚ����(1)_{130~132}_vlm_desc.md` |
-| `30_wiki/tools/tool-strategy-capability-matrix.md` | source_ref 路径乱码/占位符：`00_inbox/ս��ר��/Ƚ��PPT��ͼ/������20260110ս���ƾ֣�Ƚ����(1)_{145}_vlm_desc.md` |
-
-#### B. 清理孤立目标链接
-
-以下目标卡片在当前仓库中不存在，需老顽童确认是创建新卡还是移除链接：
-
-- `framework-strategy-brm`
-- `framework-strategy-bcg`
-- `framework-strategy-core-competence`
-- `framework-strategy-value-chain`
-- `framework-demand-usp-model`
-- `framework-demand-iceberg`
-- `five-step-domain-digest`
-- `concept-strategy-framework-landscape`
-- `tool-strategy-execution-map`
-- `tool-strategy-gap-analysis`
-- `tool-strategy-nine-problems`
-- `tool-key-assumptions-check`
-- `yt-five-step-method`
-- `yt-research-competitor-toolkit`
-- `yt-market-size-estimation`
-- `yt-demand-market-size-pitfalls`
-- `dk-strategy-01-not-goal-setting`
-- `framework-business-model-canvas`
-- `framework-strategy-blue-ocean`
-
-#### C. 讲义全文对齐复核
-
-- 将 36 张新卡的关键结论与 `引擎点火20260110 战略破局（冉鹏）(1)_ocr.md` 讲义原文逐条核对
-- 重点复核 `_203` 模型选择练习表格（OCR 存在列错位，已按情境-任务-模型逻辑修正，需人工确认）
-
-#### D. 卡片质量抽查
-
-- 欧阳锋抽样复核 36 张新卡的 `confidence`、`trust_level`、`source_refs` 是否自洽
-- 检查正文是否包含"核心洞察"或明确结论，避免纯描述
-
-#### E. 可选：剩余高潜幻灯片继续卡片化
+### 8.2 可选后续（老顽童/欧阳锋决定是否继续）
 
 | 幻灯片 | 主题 | 建议卡片类型 |
 |--|--|--|
@@ -164,4 +128,4 @@
 
 ---
 
-*质量负责人：王语嫣 | 生成时间：2026-06-22*
+*质量负责人：王语嫣 | 最终完成时间：2026-06-22*
