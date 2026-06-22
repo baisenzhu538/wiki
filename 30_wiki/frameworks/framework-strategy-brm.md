@@ -7,19 +7,18 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 related:
-- "[[five-step-domain-digest]]"
-- "[[framework-strategy-six-stages]]"
-- "[[tool-strategy-gap-analysis]]"
-- "[[concept-strategy-framework-landscape]]"
+- '[[framework-strategy-six-stages]]'
+- '[[tool-strategy-gap-analysis]]'
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）

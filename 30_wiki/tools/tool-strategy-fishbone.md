@@ -19,7 +19,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[case-strategy-model-selection-quiz]]'
 - '[[framework-strategy-blm]]'
-- '[[tool-strategy-execution-map]]'
 ---
 
 # 鱼骨图根因分析工具

@@ -20,7 +20,6 @@ related:
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-business-design]]'
 - '[[framework-strategy-mckinsey-7s]]'
-- '[[tool-strategy-execution-map]]'
 ---
 
 # 企业战略金字塔：公司、业务与职能协同

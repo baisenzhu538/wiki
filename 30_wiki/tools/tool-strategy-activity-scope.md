@@ -24,7 +24,6 @@ related:
 - '[[case-strategy-retailer-activity-scope]]'
 - '[[case-strategy-snack-business-design]]'
 - '[[framework-strategy-business-design]]'
-- '[[framework-strategy-value-chain]]'
 - '[[tool-strategy-business-design-template]]'
 - '[[tool-strategy-control-points]]'
 - '[[tool-strategy-industry-chain-analysis]]'

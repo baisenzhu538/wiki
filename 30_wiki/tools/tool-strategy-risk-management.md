@@ -25,7 +25,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[framework-strategy-business-design]]'
 - '[[framework-strategy-mckinsey-7s]]'
-- '[[framework-strategy-risk-matrix]]'
 - '[[tool-strategy-control-points]]'
 ---
 

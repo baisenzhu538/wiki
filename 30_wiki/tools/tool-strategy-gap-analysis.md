@@ -7,15 +7,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §25-26
 related:
-- "[[framework-strategy-brm]]"
-- "[[tool-key-assumptions-check]]"
+- '[[framework-strategy-brm]]'
 ---
 
 # 差距分析

@@ -10,14 +10,14 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §24, §97
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-45
 related:
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-six-stages]]"
-- "[[framework-demand-iceberg]]"
+- '[[framework-strategy-brm]]'
+- '[[framework-strategy-six-stages]]'
 ---
 
 # 战略五基本功（5C）

@@ -24,7 +24,6 @@ related:
 - '[[case-strategy-retailer-activity-scope]]'
 - '[[case-strategy-snack-business-design]]'
 - '[[framework-strategy-blm]]'
-- '[[framework-strategy-blue-ocean]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-blue-ocean-canvas]]'
 - '[[tool-strategy-business-design-template]]'

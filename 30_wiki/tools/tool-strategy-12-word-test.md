@@ -7,11 +7,11 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §12
-related:
-- "[[dk-strategy-01-not-goal-setting]]"
+related: []
 ---
 **8个常见伪战略词**：份额/收入/ROI/预算/对标/SWOT/OKR/数字化——这些是"指标"和"工具"，不是战略
 **4个真战略词**：细分市场/竞争优势/资源配置/范围经济——缺任何一个都不是完整的战略

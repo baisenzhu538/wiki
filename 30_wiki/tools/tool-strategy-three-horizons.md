@@ -7,16 +7,16 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §67, §104
 related:
-- "[[framework-strategy-six-stages]]"
-- "[[framework-strategy-brm]]"
-- "[[framework-demand-iceberg]]"
+- '[[framework-strategy-six-stages]]'
+- '[[framework-strategy-brm]]'
 ---
 
 # 三个地平线

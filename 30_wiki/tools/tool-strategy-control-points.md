@@ -21,7 +21,6 @@ author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
 - '[[framework-strategy-business-design]]'
-- '[[framework-strategy-core-competence]]'
 - '[[tool-strategy-activity-scope]]'
 - '[[tool-strategy-risk-management]]'
 - '[[tool-strategy-value-proposition]]'

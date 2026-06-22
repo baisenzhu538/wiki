@@ -17,7 +17,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[case-strategy-retailer-activity-scope]]'
 - '[[case-strategy-snack-business-design]]'
-- '[[framework-demand-usp-model]]'
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-blue-ocean-canvas]]'

@@ -7,12 +7,12 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-36
 related:
-- "[[tool-strategy-gap-analysis]]"
-- "[[yt-market-size-estimation]]"
+- '[[tool-strategy-gap-analysis]]'
 ---
 ## 两大陷阱
 

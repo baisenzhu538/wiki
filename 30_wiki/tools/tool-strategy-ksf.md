@@ -17,7 +17,6 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[framework-strategy-core-competence]]'
 - '[[framework-strategy-five-forces]]'
 - '[[tool-strategy-core-competence-matrix]]'
 - '[[tool-strategy-swot]]'

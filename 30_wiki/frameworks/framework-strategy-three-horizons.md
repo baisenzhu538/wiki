@@ -17,7 +17,6 @@ author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
 - '[[framework-strategy-ansoff]]'
-- '[[framework-strategy-bcg]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-lifecycle]]'
 ---

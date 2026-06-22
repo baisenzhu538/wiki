@@ -18,7 +18,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[case-strategy-snack-business-design]]'
-- '[[five-step-domain-digest]]'
 - '[[framework-strategy-ansoff]]'
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-brm]]'
