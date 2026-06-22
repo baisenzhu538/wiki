@@ -193,20 +193,30 @@ def repair_directory(input_dir: str, dry_run: bool = False) -> tuple[int, int]:
 
     for desc_path in files:
         content = desc_path.read_text(encoding="utf-8")
-        # 检测 parse error：外层 confidence 0.3 且包含 _parse_error 或 title 为空且类型为未识别
         is_parse_error = (
             "_parse_error" in content
-            or re.search(r'- \*\*类型\*\*: 未识别', content)
-            and re.search(r'- \*\*置信度\*\*: 0\.3', content)
+            or (re.search(r'- \*\*类型\*\*: 未识别', content)
+                and re.search(r'- \*\*置信度\*\*: 0\.3', content))
         )
         if not is_parse_error:
             continue
 
-        # 尝试提取原图路径
         image_match = re.search(r"\*\*原图\*\*: `(.+?)`", content)
         image_path = image_match.group(1) if image_match else ""
 
-        # 尝试修复
+        # 优先：从 "原始 JSON" 段提取内嵌 JSON（旧版 fallback 模式）
+        inner = _extract_inner_from_raw_json(content)
+        if inner:
+            inner["_original_image_path"] = image_path
+            inner["_model"] = "MiniMax-M3"
+            inner = _normalize_parsed(inner)
+            if not dry_run:
+                _rewrite_desc_file(desc_path, inner)
+            repaired += 1
+            print(f"[FIXED:inner] {desc_path.name} -> {inner.get('category')} | {inner.get('title','')[:30]}")
+            continue
+
+        # 回退：全文解析
         parsed = _robust_json_parse(content)
         if parsed:
             parsed["_original_image_path"] = image_path
@@ -215,12 +225,44 @@ def repair_directory(input_dir: str, dry_run: bool = False) -> tuple[int, int]:
             if not dry_run:
                 _rewrite_desc_file(desc_path, parsed)
             repaired += 1
-            print(f"[FIXED] {desc_path.name} -> {parsed.get('category')} | {parsed.get('title')[:30]}")
+            print(f"[FIXED] {desc_path.name} -> {parsed.get('category')} | {parsed.get('title','')[:30]}")
         else:
             still_failed += 1
             print(f"[FAILED] {desc_path.name}")
 
     return repaired, still_failed
+
+
+def _extract_inner_from_raw_json(content: str) -> dict | None:
+    """从 原始 JSON 段的 description 字段中提取内嵌 JSON。
+
+    旧版 fallback 模式：外层 JSON 有 _parse_error=true，
+    description 字段内含 markdown fence + 有效 JSON。
+    """
+    raw_match = re.search(
+        r'## 原始 JSON\s*\n\s*```json\s*\n(.*?)\n```',
+        content, re.DOTALL
+    )
+    if not raw_match:
+        return None
+
+    try:
+        outer = json.loads(raw_match.group(1))
+    except json.JSONDecodeError:
+        # 外层的 JSON 本身可能损坏，尝试用 _robust_json_parse
+        outer = _robust_json_parse(raw_match.group(1))
+        if not outer:
+            return None
+
+    if not outer.get("_parse_error"):
+        return None  # 不是 parse error 文件，不需要此路径
+
+    desc = outer.get("description", "")
+    if not desc:
+        return None
+
+    # 从 description 中提取内嵌 JSON
+    return _robust_json_parse(desc)
 
 
 if __name__ == "__main__":
