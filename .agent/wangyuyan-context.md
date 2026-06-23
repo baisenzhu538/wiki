@@ -251,6 +251,11 @@ status: "completed"
 
 ## 当前状态
 
+- 2026-06-23：跨域融合计划（策略 A）已批准并下发任务
+  - 产出：`60_feedback/audit/cross-domain-bridge-design-specs.md`（5 张桥接卡 9 层深挖设计稿）
+  - 产出：`60_feedback/tasks/task_20260623_laowantong-cross-domain-bridge-cards.md`（老顽童任务：5 bridge + 10 枢纽 related + 2 跨域案例）
+  - 产出：`60_feedback/tasks/task_20260623_huangyaoshi-cross-domain-audit-script.md`（黄药师任务：跨域审计脚本）
+  - 状态：老顽童 P0 生产 2 张桥接卡；黄药师开发脚本
 - 2026-06-23：完成精益创业专题素材标注与任务指令下达
   - 素材：`00_inbox/精益创业/`（52 张图 + 4 份课程稿 + 5 份 AMA）
   - 产出：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`（39 张卡任务清单）

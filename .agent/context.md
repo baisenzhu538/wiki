@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-23
 active_branch: main
-active_task: "王语嫣已完成精益创业素材 9 层深挖 + 六层交叉验证标注，39 张卡任务指令已下达老顽童。老顽童待按 P0→P1→P2 分批生产。"
+active_task: "跨域融合计划（策略A）已批准：王语嫣已完成 5 张桥接卡设计稿，老顽童待生产桥接卡/枢纽 related/跨域案例，黄药师待开发跨域审计脚本。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -12,6 +12,8 @@ blockers:
   - "✅ 精益创业素材标注完成：52 张图 + 4 份课程稿 + 5 份 AMA 的 9 层深挖 + 六层交叉验证"
   - "✅ P0 核心框架 7/7 完成：framework-lean-false-model/four-principles/six-wastes/systematic-test-curve/abcd-model/tenx-formula + case-lean-electric-scooter-mvp"
   - "🆕 老顽童执行 P1 工具+案例卡（约 26 张）"
+  - "🆕 老顽童待执行跨域桥接卡生产：5 张 bridge framework + 10 张枢纽 related + 2 张跨域案例（P0 2 张 bridge 优先）"
+  - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
   - "🆕 王语嫣待按 20% 抽样对老顽童产出做六层交叉验证"
   - "🟡 精益创业 domain digest 待 P0/P1 完成后更新"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
@@ -19,7 +21,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "检查老顽童精益创业 P0 生产进度；验收时重点查重复创建、source_refs 精确性、related 跨域链接、可信度标注。"
+next_session_hint: "优先检查老顽童跨域桥接卡 P0 生产进度（framework-strategy-lean-validation、framework-five-step-lean-interface）；同步跟进精益创业 P1 卡和跨域审计脚本开发。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
