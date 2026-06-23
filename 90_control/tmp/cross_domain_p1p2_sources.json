@@ -1,0 +1,66 @@
+{
+  "framework-lean-pivot-decision": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "精益验证结果如何触发战略/产品 pivot",
+    "sources": [
+      "60_feedback/audit/cross-domain-bridge-design-specs.md",
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt"
+    ]
+  },
+  "framework-ai-accelerated-strategy-cycle": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "AI 加速的战略-验证闭环",
+    "sources": [
+      "60_feedback/audit/cross-domain-bridge-design-specs.md",
+      "00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md",
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt"
+    ]
+  },
+  "case-cross-yuanqi-forest": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "元气森林：战略定位与精益试错的跨域闭环",
+    "sources": [
+      "00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md",
+      "00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md",
+      "00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md",
+      "00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md",
+      "30_wiki/cases/case-lean-genki-forest-toolkit.md"
+    ]
+  },
+  "case-cross-xingangwan-pharma": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证",
+    "sources": [
+      "30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md",
+      "30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md",
+      "30_wiki/cases/case-smart-medicine-cabinet-failure-patterns-library.md",
+      "30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md",
+      "30_wiki/concepts/smart-medicine-cabinet-distribution.md",
+      "30_wiki/entities/鑫港湾.md"
+    ]
+  },
+  "framework-demand-lean-bridge": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "需求判断与精益验证的衔接",
+    "sources": [
+      "60_feedback/audit/cross-domain-bridge-design-specs.md",
+      "30_wiki/frameworks/framework-demand-iceberg.md",
+      "30_wiki/tools/tool-demand-iceberg-l1-user.md",
+      "30_wiki/tools/tool-demand-iceberg-l2-scenario.md",
+      "30_wiki/tools/tool-demand-iceberg-l3-job.md",
+      "30_wiki/tools/tool-demand-iceberg-l4-journey.md",
+      "30_wiki/tools/tool-demand-iceberg-l5-forces.md",
+      "30_wiki/tools/tool-demand-iceberg-l6-opportunity.md"
+    ]
+  }
+}
