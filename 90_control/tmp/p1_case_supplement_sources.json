@@ -1,0 +1,85 @@
+{
+  "case-lean-zhanglei-pivot-decision": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "张磊 AMA：创业者 pivot 决策案例",
+    "sources": [
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt"
+    ],
+    "qa_hints": [
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q6（老业务是否继续/放弃/换赛道）",
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q9（20年照明公司现金流紧张、多方向选择）"
+    ]
+  },
+  "case-lean-zhanglei-hypothesis-validation": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "张磊 AMA：假设验证实操案例",
+    "sources": [
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt"
+    ],
+    "qa_hints": [
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q3（动漫周边海外独立站假设拆解）",
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q4（沐浴露/内衣洗衣液产品内核验证）",
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q17/Q18（幼教行业获客转化假设拆解）"
+    ]
+  },
+  "case-lean-zhanglei-failure-counterfactual": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "张磊 AMA：失败案例与反事实推演",
+    "sources": [
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt",
+      "00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt"
+    ],
+    "qa_hints": [
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q9/Q10/Q11（传统业务、出海、企业服务类自媒体等困境）",
+      "张磊教练《精益测试关键问题》AMA精华 副本.md Q26/Q27（判断力训练产品 H5 验证陷阱）"
+    ]
+  },
+  "case-lean-gray-test-paradigm": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "灰度测试范式实操案例",
+    "sources": [
+      "00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt",
+      "00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt",
+      "00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md",
+      "00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md"
+    ],
+    "qa_hints": [
+      "一堂-低成本测试-系统测试-口述.txt 第 696-732 行、第 1054-1670 行"
+    ]
+  },
+  "case-lean-combination-test-paradigm": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "组合测试范式实操案例",
+    "sources": [
+      "00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt",
+      "00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt",
+      "00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md",
+      "00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md",
+      "00_inbox/精益创业/堕落小龙虾组合测试实验_ocr_text.md",
+      "00_inbox/精益创业/堕落小龙虾组合测试实验_vlm_desc.md",
+      "00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md",
+      "00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md"
+    ],
+    "qa_hints": [
+      "一堂-低成本测试-系统测试-口述.txt 第 732-754 行、第 1672-1824 行、第 1892-2086 行",
+      "堕落小龙虾组合测试实验_vlm_desc.md",
+      "洗发水案例卖点组合_vlm_desc.md"
+    ]
+  }
+}
