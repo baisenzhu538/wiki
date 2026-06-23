@@ -4,7 +4,7 @@ title: 超值服务：用 VIP 服务验证标准服务
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN

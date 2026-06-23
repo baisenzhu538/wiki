@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-23
 active_branch: main
-active_task: "王语嫣已采纳黄药师案例补完建议并下发新任务；老顽童当前待办：修正 4 张 reviewed_by=待审 + 1 张章节重复 → 跨域桥接卡 P0 → 精益创业 P1 案例补完 7 张；黄药师待开发跨域审计脚本。"
+active_task: "跨域融合计划 P0 已完成：2 张桥接卡 + 10 张枢纽 related 补全。老顽童当前待办：修正 4 张 reviewed_by=待审 + tool-lean-fake-marketing 章节重复 → 跨域桥接卡 P1/P2 → 精益创业 P1 案例补完 7 张；黄药师待开发跨域审计脚本。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -15,8 +15,9 @@ blockers:
   - "✅ 精益创业 domain digest 已更新：8 framework + 16 tool + 15 case 清单，P2 5 张标注为待生产"
   - "✅ 已有 concept/tool 卡（yt-entrepreneur-lean-validation、yt-entrepreneur-key-hypotheses、yt-panproduct-execution-low-cost-mvp、concept-一堂-kernel-validation）已补充反向 related"
   - "✅ 王语嫣 20% 抽样六层交叉验证完成：34 张卡有条件通过"
+  - "✅ 跨域融合 P0 完成：framework-strategy-lean-validation + framework-five-step-lean-interface + 10 张枢纽卡 related 补全（双向链接校验通过）"
   - "🆕 老顽童待修正 4 张 reviewed_by=待审 卡 + tool-lean-fake-marketing 章节重复"
-  - "🆕 老顽童待执行跨域桥接卡生产：5 张 bridge framework + 10 张枢纽 related + 2 张跨域案例（P0 2 张 bridge 优先）"
+  - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
   - "🆕 老顽童待执行精益创业 P1 案例补完批次：7 张新案例卡（张磊 AMA 3 张 + 系统测试 2 张 + PPT 案例 2 张）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
   - "🟡 精益创业 P2 补充框架（framework-lean-expert-roadmap）+ 窄行业案例（crayfish/shampoo/radish/adult-education）待生产"
