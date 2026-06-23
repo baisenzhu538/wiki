@@ -254,7 +254,8 @@ status: "completed"
 - 2026-06-23：采纳黄药师案例缺口诊断，追加 P1 案例补完批次
   - 决策文件：`60_feedback/decisions/dec_20260623_wangyuyan-lean-startup-case-supplement.md`
   - 任务指令：`60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
-  - 新增 7 张案例卡：张磊 AMA 3 张 + 系统测试曲线 2 张 + PPT 案例 2 张
+  - 新增案例卡从 7 张调整为 5 张：张磊 AMA 3 张 + 系统测试曲线 2 张
+  - 取消 2 张 PPT 案例卡：`case-lean-marketing-channel-comparison`（完美日记 vs 花西子）、`case-lean-b2b-sector-selection`（建材企业赛道选择），原因：源文件缺失
   - 优先级：跨域桥接卡 P0 之后执行
 - 2026-06-23：完成老顽童精益创业专题 34 张卡 20% 抽样验收
   - 验收报告：`60_feedback/audit/lean-startup-production-audit-20260623.md`
@@ -273,6 +274,10 @@ status: "completed"
   - 任务：`60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md`（P0 5 张 / P1 9 张 / P2 8 张）
   - 关键验证：Crawford / Mollick / Cambridge / 陈楸帆 / 李开复 80% 过滤器 / COMPAS / Apple Card / 荷兰育儿补贴 等核心引用已完成 WebSearch 交叉验证
   - 状态：老顽童待按 P0→P1→P2 分批生产；王语嫣待按 20% 抽样验收
+- 2026-06-24：处理精益创业 P1 案例补完批次源文件缺失问题
+  - 诊断：`60_feedback/diagnosis/diag_20260624_wangyuyan_lean-startup-source-missing.md`
+  - 决策：取消 `case-lean-marketing-channel-comparison`、`case-lean-b2b-sector-selection` 两张卡的生产
+  - 已更新：`60_feedback/decisions/dec_20260623_wangyuyan-lean-startup-case-supplement.md`、`60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
 - 2026-06-23：完成精益创业专题素材标注与任务指令下达
   - 素材：`00_inbox/精益创业/`（52 张图 + 4 份课程稿 + 5 份 AMA）
   - 产出：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`（39 张卡任务清单）

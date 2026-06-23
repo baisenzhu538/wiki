@@ -15,7 +15,8 @@
 **约束**：
 1. 不中断跨域融合计划 P0（2 张桥接卡优先）；
 2. 不降低已有案例卡的质量标准；
-3. 新增案例必须按王语嫣已有的可信度规范标注。
+3. 新增案例必须按王语嫣已有的可信度规范标注；
+4. 源文件缺失的卡片必须取消，不得凭标题臆造内容。
 
 ---
 
@@ -28,10 +29,17 @@
 | `case-lean-zhanglei-pivot-decision` | 张磊 AMA | 真实创业者 pivot 决策过程 |
 | `case-lean-zhanglei-hypothesis-validation` | 张磊 AMA | 张磊现场拆解假设验证实操 |
 | `case-lean-zhanglei-failure-counterfactual` | 张磊 AMA | 失败案例 + 反事实推演 |
-| `case-lean-marketing-channel-comparison` | 完美日记 vs 花西子 PPT | 创业路线选择 / 渠道验证对比 |
-| `case-lean-b2b-sector-selection` | 建材企业赛道选择 PPT | B2B 赛道验证案例 |
 | `case-lean-gray-test-paradigm` | 系统测试曲线口述 | 灰度测试范式实操案例 |
 | `case-lean-combination-test-paradigm` | 系统测试曲线口述 + 堕落小龙虾/洗发水 | 组合测试范式实操案例 |
+
+### 源文件缺失，取消生产
+
+| 新卡 id | 计划来源 | 取消原因 | 后续处理 |
+|:---|:---|:---|:---|
+| `case-lean-marketing-channel-comparison` | 完美日记 vs 花西子 PPT | `00_inbox/精益创业/` 中无对应 PPT/OCR/VLM | 若用户后续提供素材，可作为 P2/P3 批次追加 |
+| `case-lean-b2b-sector-selection` | 建材企业赛道选择 PPT | `00_inbox/精益创业/` 中无对应 PPT/OCR/VLM | 若用户后续提供素材，可作为 P2/P3 批次追加 |
+
+> 详见诊断：`60_feedback/diagnosis/diag_20260624_wangyuyan_lean-startup-source-missing.md`
 
 ### 延后到 P2
 

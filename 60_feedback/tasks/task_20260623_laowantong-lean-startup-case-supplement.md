@@ -25,21 +25,28 @@
 - 系统测试曲线口述（203KB）
 - 未被卡片化的 PPT 案例截图
 
-共生产 **7 张新案例卡**。
+共生产 **5 张新案例卡**（原 7 张中 2 张因源文件缺失取消，见第 1.1 节）。
 
 ---
 
-## 2. 必须生产的 7 张案例卡
+## 2. 必须生产的 5 张案例卡
 
 | id | 标题 | 来源素材 | 核心要求 |
 |:---|:---|:---|:---|
 | `case-lean-zhanglei-pivot-decision` | 张磊 AMA：创业者 pivot 决策案例 | `张磊-精益方法论-AMA-口述-01.txt`、`张磊-精益方法论-AMA-口述-02.txt` | 还原创业者困境 → 张磊拆解 → pivot/坚持决策 → 结果或反事实推演 |
 | `case-lean-zhanglei-hypothesis-validation` | 张磊 AMA：假设验证实操案例 | 同上 | 选择一个张磊现场演示如何拆假设、选工具、设通过标准的案例 |
 | `case-lean-zhanglei-failure-counterfactual` | 张磊 AMA：失败案例与反事实推演 | 同上 | 选择一个失败项目，还原「如果当时用 FALSE/ABCD 会怎样」 |
-| `case-lean-marketing-channel-comparison` | 完美日记 vs 花西子：渠道验证路线对比 | `完美日记 vs 花西子对比` PPT 截图（需从 00_inbox/精益创业/ 中定位） | 两家在渠道选择/验证策略上的差异与结果 |
-| `case-lean-b2b-sector-selection` | 建材企业赛道选择验证 | `建材企业赛道选择` PPT 截图 | B2B 企业如何验证新赛道是否值得进入 |
 | `case-lean-gray-test-paradigm` | 灰度测试范式实操案例 | `一堂-低成本验证-系统测试-口述.txt`、`一堂-低成本验证-系统测试-笔记.txt`、`低成本验证-系统测试曲线.png` | 选一个灰度测试案例，展示单变量逐步放量的过程 |
 | `case-lean-combination-test-paradigm` | 组合测试范式实操案例 | 系统测试曲线素材 + `堕落小龙虾组合测试实验.png` + `洗发水案例卖点组合.png` | 选一个组合测试案例，展示多变量组合如何筛选最优解 |
+
+### 2.1 已取消的 2 张案例卡
+
+| id | 标题 | 计划来源 | 取消原因 |
+|:---|:---|:---|:---|
+| `case-lean-marketing-channel-comparison` | 完美日记 vs 花西子：渠道验证路线对比 | 黄药师诊断的未利用 PPT 案例 | `00_inbox/精益创业/` 中无对应 PPT/OCR/VLM 文件 |
+| `case-lean-b2b-sector-selection` | 建材企业赛道选择验证 | 黄药师诊断的未利用 PPT 案例 | `00_inbox/精益创业/` 中无对应 PPT/OCR/VLM 文件 |
+
+> 详见诊断：`60_feedback/diagnosis/diag_20260624_wangyuyan_lean-startup-source-missing.md`
 
 ---
 
@@ -108,10 +115,10 @@ related:
 3. `case-lean-zhanglei-failure-counterfactual`
 4. `case-lean-gray-test-paradigm`
 5. `case-lean-combination-test-paradigm`
-6. `case-lean-marketing-channel-comparison`
-7. `case-lean-b2b-sector-selection`
 
 每完成 2-3 张通知王语嫣抽样验收。
+
+> 注：原第 6、7 项 `case-lean-marketing-channel-comparison`、`case-lean-b2b-sector-selection` 因源文件缺失已取消。
 
 ---
 
@@ -128,13 +135,15 @@ related:
 ## 8. 验收标准
 
 王语嫣/欧阳锋验收时检查：
-1. 7 张案例卡是否全部存在；
-2. 是否覆盖张磊 AMA、系统测试曲线、未利用 PPT 三类素材；
+1. 5 张案例卡是否全部存在；
+2. 是否覆盖张磊 AMA、系统测试曲线两类素材；
 3. 来源标注是否精确到 Q&A 或行号；
 4. 关键数字可信度标注是否规范；
 5. related 是否链接到对应框架卡；
 6. 是否出现与已有案例卡的重复；
 7. YAML/frontmatter 是否通过 `kdo lint`。
+
+> 注：原验收要求中的“未利用 PPT 两类素材”因源文件缺失已取消。
 
 ---
 
