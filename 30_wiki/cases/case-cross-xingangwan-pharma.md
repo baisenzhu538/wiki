@@ -20,10 +20,12 @@ source_refs:
 - 30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md
 - 30_wiki/concepts/smart-medicine-cabinet-distribution.md
 - 30_wiki/entities/鑫港湾.md
+- 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
 - "[[framework-strategy-lean-validation]]"
 - "[[framework-five-step-lean-interface]]"
-- "[[framework-lean-pivot-decision]]"
+- "[[framework-lean-abcd-model]]"
+- "[[framework-lean-false-model]]"
 - "[[framework-strategy-brm]]"
 - "[[yt-decision-y-model]]"
 - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
@@ -45,13 +47,13 @@ related:
 | 设备与方案输出 | 卖设备/卖方案/药品返点，小机器报价降到 3.5 万元以下 | 硬件供应链、代工厂整合 | 一次性收入 + 维护费 |
 | 加盟扩张与区域垄断 | 投资人投钱、总部输出运营，一年 500–1000 家、三年区域垄断 | 强资金、强合规、强运营 | 加盟费/分润 + 供应链抽成 |
 
-两条路线对“能力壁垒”与“合规边界”的假设截然不同。用 [[framework-strategy-brm]] 的语言说，赛道/定位/模式/增长/壁垒五类战略假设同时处于高不确定状态，必须先排序再验证，而不是在会议室里“拍方向” [conf=0.82, source=60_feedback/audit/cross-domain-bridge-design-specs.md §2.3]。
+两条路线对“能力壁垒”与“合规边界”的假设截然不同。用 [[framework-strategy-brm]] 的语言说，赛道/定位/模式/增长/壁垒五类战略假设同时处于高不确定状态，必须先排序再验证，而不是在会议室里“拍方向” [conf=0.82, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
 
 ---
 
 ## 关键假设拆解
 
-项目团队与外部顾问在录音中反复提到以下关键假设。按 [[framework-lean-abcd-model]] 与 [[yt-entrepreneur-key-hypotheses]] 的方法，可将其归类为商业成败假设（A 类）、非 A 但重要假设（B 类）等：
+项目团队与外部顾问在录音中反复提到以下关键假设。按 [[framework-lean-abcd-model]] 与 [[yt-lean-assumption-prioritization]] 的方法，可将其归类为商业成败假设（A 类）、非 A 但重要假设（B 类）等：
 
 | 假设类别 | 关键假设 | 失败后果 | 优先级 |
 |:---|:---|:---|:---|
@@ -74,22 +76,22 @@ related:
 
 | 验证动作 | 使用的方法论 | 关键发现 |
 |:---|:---|:---|
-| 4 条内部录音交叉验证商业模型、成本、收入、政策命题 | [[yt-entrepreneur-lean-validation]]、[[framework-strategy-lean-validation]] | 真正经多方确认的事实不足 30%；约 40% 为条件/观察层断言；超过 30% 存在夸大或与政策/商业逻辑冲突 [conf=0.60, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 单点经营数据复盘（郑总店日均约 100 单、客单价 35 元、毛利 20% 可保本） | [[yt-panproduct-execution-roi-analysis]]、[[framework-five-step-lean-interface]]（商业模式阶段） | 数据为自我报告，未经连续审计；且该模型能否复制到其他点位高度不确定 [conf=0.55, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 政策合规初筛（山西积极探索型 vs 全国严格保守型） | [[smart-medicine-cabinet-regional-policy-map]]、[[smart-medicine-cabinet-national-policy-redlines]] | 全国三档分化：严格保守型仅乙类 OTC；适度放开型可到甲类 OTC；积极探索型（山西等）可售处方药但需互联网医院/电子处方流转/远程审方 [conf=0.82, source=30_wiki/concepts/smart-medicine-cabinet-distribution.md] |
+| 4 条内部录音交叉验证商业模型、成本、收入、政策命题 | [[framework-lean-false-model]]、[[framework-strategy-lean-validation]] | 真正经多方确认的事实不足 30%；约 40% 为条件/观察层断言；超过 30% 存在夸大或与政策/商业逻辑冲突 [conf=0.60, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 单点经营数据复盘（郑总店日均约 100 单、客单价 35 元、毛利 20% 可保本） | [[yt-business-model-unit-economics]]、[[framework-five-step-lean-interface]]（商业模式阶段） | 数据为自我报告，未经连续审计；且该模型能否复制到其他点位高度不确定 [conf=0.55, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 政策合规初筛（山西积极探索型 vs 全国严格保守型） | [[smart-medicine-cabinet-distribution]]、[[case-smart-medicine-cabinet-failure-patterns-library]] | 全国三档分化：严格保守型仅乙类 OTC；适度放开型可到甲类 OTC；积极探索型（山西等）可售处方药但需互联网医院/电子处方流转/远程审方 [conf=0.82, source=30_wiki/concepts/smart-medicine-cabinet-distribution.md] |
 
 ### 阶段二：公司/股权/资金风险诊断（2025–2026）
 
 | 验证动作 | 使用的方法论 | 关键发现 |
 |:---|:---|:---|
-| 6 条录音交叉验证资金、股权、合作、法律风险 | [[yt-tob-cash-flow]]、[[yt-tob-customer-tiering]] | 现金流已临界：社保难缴、供应商欠款、维保收入仅 5–6 万/半年；新港湾 100 万元投资能否到位决定短期生死 [conf=0.75, source=30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md] |
+| 6 条录音交叉验证资金、股权、合作、法律风险 | [[yt-tob-unit-model]]、[[yt-business-model-unit-economics]] | 现金流已临界：社保难缴、供应商欠款、维保收入仅 5–6 万/半年；新港湾 100 万元投资能否到位决定短期生死 [conf=0.75, source=30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md] |
 | 扩张目标 vs 客户基础对照 | [[yt-decision-y-model]]（“事实-目标”差距分析） | 可联系客户约四五十家、新增订单零散（1–2 台/单），与“2026 下半年并购 100 家诊所、10 家药店”目标严重脱节 [conf=0.75, source=30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md] |
 
 ### 阶段三：失败模式外部对标（公开案例库）
 
 | 验证动作 | 使用的方法论 | 关键发现 |
 |:---|:---|:---|
-| 对照修正未来智慧药房、广西 92 台、叮当健康关城、艾隆/健麾收入下滑等公开失败案例 | [[case-smart-medicine-cabinet-failure-patterns-library]]、[[master-cognitive-bias-checklist]] | 五类共因：招商加盟骗局、点位质量差、SKU 受限、运营缺位、医保/合规违规。修正未来药房汉中 31 台机器 2022.4–2023.11 月均销售仅 151 元/台 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-failure-patterns-library.md] |
+| 对照修正未来智慧药房、广西 92 台、叮当健康关城、艾隆/健麾收入下滑等公开失败案例 | [[case-smart-medicine-cabinet-failure-patterns-library]]、[[framework-lean-false-model]] | 五类共因：招商加盟骗局、点位质量差、SKU 受限、运营缺位、医保/合规违规。修正未来药房汉中 31 台机器 2022.4–2023.11 月均销售仅 151 元/台 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-failure-patterns-library.md] |
 
 ---
 
@@ -97,12 +99,12 @@ related:
 
 | 假设 | 验证结果 | 证据 |
 |:---|:---|:---|
-| 小机器 4 万元市场可接受 | ❌ 证伪 | 市场明确不接受，需降到 3.5 万元以下 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 大机器 10 万元目标短期可达 | ⚠️ 未验证 | 需 5 台订单支撑研发，尚无报价单 [conf=0.55, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 维护费 900 元/月可覆盖运维成本 | ❌ 证伪 | 实际运维收入 400 元/月，还要分 200 元给合作方 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 高毛利品类可支撑整体盈利 | ⚠️ 待验证/高风险 | 伟哥毛利率宣称约 95%、独家贴牌成本 20–30 元零售价 298–398 元，均缺乏审计数据；且政策与广告法风险高 [conf=0.45, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
-| 慢病医保/处方流转可合规接入 | ❌ 高风险 | 实际操作是拍照/复制处方，而非电子处方流转；对外宣称可刷医保，对内主推自费原研药，两种说法矛盾 [conf=0.70, source=30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md] |
-| 一年 500–1000 家可实现 | ❌ 无依据 | 扩张目标与资金、客户基础、合规路径均不匹配 [conf=0.75, source=30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md] |
+| 小机器 4 万元市场可接受 | 证伪 | 市场明确不接受，需降到 3.5 万元以下 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 大机器 10 万元目标短期可达 | 未验证 | 需 5 台订单支撑研发，尚无报价单 [conf=0.55, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 维护费 900 元/月可覆盖运维成本 | 证伪 | 实际运维收入 400 元/月，还要分 200 元给合作方 [conf=0.82, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 高毛利品类可支撑整体盈利 | 待验证/高风险 | 伟哥毛利率宣称约 95%、独家贴牌成本 20–30 元零售价 298–398 元，均缺乏审计数据；且政策与广告法风险高 [conf=0.45, source=30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md] |
+| 慢病医保/处方流转可合规接入 | 高风险 | 实际操作是拍照/复制处方，而非电子处方流转；对外宣称可刷医保，对内主推自费原研药，两种说法矛盾 [conf=0.70, source=30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md] |
+| 一年 500–1000 家可实现 | 无依据 | 扩张目标与资金、客户基础、合规路径均不匹配 [conf=0.75, source=30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md] |
 
 ---
 
@@ -122,7 +124,7 @@ related:
 
 ## 决策/迭代建议
 
-基于 [[framework-lean-pivot-decision]] 的决策矩阵，当前项目状态更接近“需求/方案部分成立但模式与增长假设均不成立”，建议动作是：**pivot 商业模式 + 暂停规模扩张**。
+基于 [[framework-lean-abcd-model]] 的假设优先级与 [[yt-decision-y-model]] 的差距分析，当前项目状态更接近“需求/方案部分成立但模式与增长假设均不成立”，建议动作是：**pivot 商业模式 + 暂停规模扩张**。
 
 | 诊断 | 对战略假设的影响 | 建议动作 |
 |:---|:---|:---|
