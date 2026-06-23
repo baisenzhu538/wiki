@@ -155,9 +155,9 @@ related:
 
 ## Critique
 
-### 外部攻击：**Dave McClure** — "AARRR 海盗指标"
+### 外部攻击：**Eric Ries** — "指标必须服务于学习循环"
 
-**Dave McClure** 的 AARRR（Acquisition、Activation、Retention、Referral、Revenue）同样把用户生命周期拆成五个可测量环节 [conf=0.90, source=公开经典框架]。批评者可以认为，「产品内核十大典型指标」与 AARRR 在结构上高度重叠，只是把「Activation」拆成了服务环节的几个子指标，并把「Revenue」隐含在销转率/续费率之中。对于极早期团队，AARRR 五步可能比十个指标更容易记忆和执行；十大指标的价值不在于独创性，而在于它把「获客 / 服务 / 复购」三环节的最小观测集显式化，便于与一堂的假设验证语言对齐 [conf=0.75, source=一堂讲义+作者归纳]。
+**Eric Ries** 在《精益创业》中强调，Build-Measure-Learn 循环的核心不是「收集指标」，而是「用指标产生可行动的洞察并加速下一轮学习」[conf=0.90, source=Eric Ries《精益创业》]。从这个视角看，「产品内核十大典型指标」如果脱离了明确的假设和快速实验设计，很容易退化成只汇报不决策的仪表盘。此外，Dave McClure 的 AARRR 框架已经把用户生命周期拆成五个可测量环节 [conf=0.90, source=公开经典框架]，十大指标与 AARRR 在结构上高度重叠，只是把「Activation」进一步拆成了服务环节的子指标。十大指标的价值不在于独创性，而在于它把「获客 / 服务 / 复购」三环节的最小观测集显式化，便于与一堂的假设验证语言对齐 [conf=0.75, source=一堂讲义+作者归纳]。
 
 ### 其他局限
 
