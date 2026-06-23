@@ -36,7 +36,7 @@ related:
 | **需求判断** | 用户真的要什么？市场多大？ | [[five-step-domain-digest]] §Step 1 |
 | **决策判断** | 怎么选？怎么不选错？ | `/decision` |
 | **市场洞察** | 对手在干什么？行业在怎么变？ | [[yitang-research-domain-digest]] |
-| **精益验证** | 怎么做 MVP？怎么用最小成本验证假设？ | [[lean-startup-domain-digest]] |
+| **精益验证** | 怎么做 MVP？怎么用最小成本验证假设？ | [[lean-startup-domain-digest]] · [[case-lean-genki-forest-toolkit|案例]] |
 | **商业模式** | 怎么赚钱？单元模型成立吗？ | [[five-step-domain-digest]] §Step 3 |
 | **增长设计** | 怎么放大？增长引擎是什么？ | [[five-step-domain-digest]] §Step 4 |
 | **壁垒构建** | 怎么守住？优势能持续多久？ | [[five-step-domain-digest]] §Step 5 |

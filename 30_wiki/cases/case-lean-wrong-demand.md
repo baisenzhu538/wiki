@@ -9,6 +9,8 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain: [strategy, yitang, product]
+source_person: 一堂课程讲师与学员自述（教学案例）
+source_context: 一堂精益创业·低成本验证课程讲义
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_vlm_desc.md
@@ -106,7 +108,17 @@ related:
 
 > "这种错误极其普遍，几乎是所有项目失败最大的错误"属于经验断言，不宜作为事实引用 [conf=0.40, source=讲师经验判断]。
 
-## 失败原因
+## 关键证据
+
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| "需求找错"系列 8 个案例原始清单 | truman-精益创业-低成本验证-需求找错-01_ocr_text.md 第 6-15 行 | [conf=0.85] |
+| "需求没有剥离"系列 6 个案例原始清单 | truman-精益创业-需求没有剥离的案例_ocr_text.md 第 6-12 行 | [conf=0.85] |
+| "商业模式未剥离"系列 7 个案例原始清单 | 把商业模式从增长和收入目标剥离出来_ocr_text.md 第 6-14 行 | [conf=0.85] |
+| 六宗罪与典型案例映射 | framework-lean-six-wastes.md | [conf=0.85] |
+| FALSE 模型六阶段成本光谱 | framework-lean-false-model.md | [conf=0.85] |
+
+## 失败模式
 
 ### 按六宗罪拆解
 

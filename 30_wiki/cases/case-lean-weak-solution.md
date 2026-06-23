@@ -12,6 +12,8 @@ domain:
 - strategy
 - yitang
 - product
+source_person: 一堂课程讲师/学员案例（教学案例集）
+source_context: 一堂精益创业·低成本验证实操课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md
@@ -81,7 +83,19 @@ related:
 | 电商 AI 作图服务时间 | 2023 年 | [conf=0.70, source=讲师案例] |
 | 低价早教班/游学/声音培训/AI 志愿 | 报名率低、转化低、大规模退费、不买账 | [conf=0.70, source=讲师案例，定性描述] |
 
-## 失败原因
+## 关键证据
+
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| 方案做错案例集合计 8 个项目 | truman-精益创业-低成本验证-方案做错-01_ocr_text.md 第 6-23 行 | [conf=0.85] |
+| 低价早教/游学/AI 志愿/声音培训价值主张错位 | truman-精益创业-低成本验证-方案做错-01_ocr_text.md 第 8、19、21、22 行 | [conf=0.75] |
+| 电视盒子 2000 万、共享彩票机 400 万/半年 | truman-精益创业-低成本验证-方案做错-01_ocr_text.md 第 13、17 行 | [conf=0.70] |
+| 六宗罪中"方案做错"定义与定位 | framework-lean-six-wastes.md | [conf=0.85] |
+| FALSE 模型六阶段验证路径 | framework-lean-false-model.md | [conf=0.85] |
+
+> 注：本卡所有案例均为讲师/学员自述的教学案例，金额、周期、转化描述用于说明失败模式，非第三方审计数据。
+
+## 失败模式
 
 按六宗罪与 FALSE 模型拆解：
 
