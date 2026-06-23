@@ -1,13 +1,11 @@
 ---
+
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_person: 代俊隆
+  - ai-saassource_person: 代俊隆
 source_context: 一堂 2026-06-13 AI 短剧创作培训，写本罗盘方法论
 source_refs:
   - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
@@ -41,6 +39,7 @@ diagnostic_signals:
   - signal: 用户说"剧本写到一半跑题了，后期烂尾"
     framework_lens: 剧本基地→内容走向→剧情终局的闭环
     follow_up_question: 内容走向的15个关键节点是否提前锁定？
+
 ---
 # 冰火写本罗盘：AI短剧剧本策划全流程体系
 

@@ -2,11 +2,12 @@
 
 
 
+
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain:
-- yitang
+  - yitang- yitang
 source_refs:
   - source_unknown
 status: draft
@@ -48,6 +49,7 @@ related:
   - '[[case-gudong-tea-shop-foresight]]'
   - '[[case-xiaolong-ecommerce-foresight]]'
   - '[[yt-foresight-15-char-mantra]]'
+
 ---
 # 加法减法实操：从100个选项到3个高概率方向
 

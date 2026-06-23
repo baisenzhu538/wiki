@@ -1,10 +1,11 @@
 ---
+
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -64,6 +65,7 @@ diagnostic_signals:
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
 updated_at: '2026-06-17'
 author: 老顽童
+
 ---# 低成本验证/MVP
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

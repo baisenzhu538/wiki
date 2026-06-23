@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——平台战略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们平台用户很多，但活跃度低'"
     framework_lens: 平台战略——平台需要活跃度，不只是用户数量
     follow_up_question: "你的平台用户活跃度如何？如何提升匹配效率？"
+
 ---
 
 # 平台战略：从单边到双边

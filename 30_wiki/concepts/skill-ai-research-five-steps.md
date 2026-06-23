@@ -1,12 +1,14 @@
 ---
 
 
+
 id: skill-ai-research-five-steps
 title: 技能：AI调研五步法
 type: "tool"
 status: draft
 domain:
-- AI
+  - ai-collaboration
+  - yitang- AI
 - 调研
 - 信息素养
 source_person: 半肥猫
@@ -34,6 +36,7 @@ reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：AI调研五步法
 

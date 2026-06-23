@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——用户onboarding
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'用户onboarding完成了，但很快就不用了'"
     framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
     follow_up_question: "onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？"
+
 ---
 
 # 用户 onboarding：第一印象设计

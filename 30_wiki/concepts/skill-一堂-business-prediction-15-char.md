@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-business-prediction-15-char
 title: "技能：商业预判15字诀"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂商业预判课
 source_refs:
 - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "主选项失败后没有替代方案，被迫继续投入"
     lens: "Plan B缺失"
     follow_up: "Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分"
+
 ---
 # 技能：商业预判15字诀
 

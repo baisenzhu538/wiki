@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-concept-context-engineering
 title: "上下文工程：充分≠越多越好"
 type: concept
@@ -7,9 +8,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -44,6 +43,7 @@ related:
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[yt-model-prompt-engineering]]'
   - '[[yt-note-ai-human-division]]'
+
 ---
 # 上下文工程：充分≠越多越好
 

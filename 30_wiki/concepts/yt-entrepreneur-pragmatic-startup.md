@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-pragmatic-startup
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1843
+  - entrepreneurshipestimated_tokens: 1843
 language: zh-CN
 query_triggers:
   - "务实创业"
@@ -50,6 +50,7 @@ related:
   - '[[yt-entrepreneur-growth-flywheel]]'
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-truth-seeking]]'
+
 ---
 # 务实创业
 

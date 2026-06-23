@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-视频转化关键要素标注校验
 title: 技能：视频转化关键要素标注校验
 type: "tool"
 domain:
-- marketing
+  - ai-collaboration
+  - yitang- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-平台模式验证法]]'
   - '[[skill-马易-AIGC项目ROI评估]]'
   - '[[skill-马易-公寓获客自跑通原则]]'
+
 ---
 # 技能：视频转化关键要素标注校验
 

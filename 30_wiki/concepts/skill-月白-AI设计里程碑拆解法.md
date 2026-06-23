@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI设计里程碑拆解法
 title: 技能：AI设计里程碑拆解法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -34,6 +35,7 @@ related:
   - '[[skill-月白-产品白底图标准化制作]]'
   - '[[skill-月白-精准提示词撰写法]]'
   - '[[skill-月白-AI去字-稿定设计加字工作流]]'
+
 ---
 # 技能：AI设计里程碑拆解法
 

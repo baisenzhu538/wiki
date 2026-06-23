@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-中国企业AI落地五步法
 title: 技能：中国企业AI落地五步法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-数字员工FD拆解落地]]'
   - '[[skill-马易-AIGC项目ROI评估]]'
   - '[[skill-马易-最小场景优先落地法]]'
+
 ---
 # 技能：中国企业AI落地五步法
 

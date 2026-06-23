@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-识别关键偶然因素]]'
   - '[[skill-水水-识别超级传播者风险]]'
   - '[[sk-ai-purpose-bias-check]]'
+
 ---
 # 技能：目的论偏差快速识别法
 

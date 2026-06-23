@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-提升笔记练习频次的方法
 title: 技能：提升笔记练习频次的方法
 type: "tool"
 domain:
-- design
+  - learning-methodology- design
 - yitang
 status: draft
 source_person: 一堂
@@ -32,6 +33,7 @@ related:
   - '[[skill-现场建模式萃取笔记]]'
   - '[[skill-用清单体记备忘笔记]]'
   - '[[skill-用topdown方式整理内化笔记]]'
+
 ---
 # 技能：提升笔记练习频次的方法
 

@@ -1,10 +1,11 @@
 ---
+
 id: skill-note-keyword-bolding
 title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - note-taking
 language: zh-CN
 version: 1
@@ -36,6 +37,7 @@ diagnostic_signals:
 - 超过10行的列表经过标记后扫读效率显著提升
 - 团队协作文档有明确的最小标记规范且被实际执行
 - AI对加粗关键词的权重识别更敏感，输出更聚焦
+
 ---
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则
 

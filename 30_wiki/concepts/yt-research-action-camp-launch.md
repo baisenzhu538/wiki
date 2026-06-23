@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-research-action-camp-launch
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: concept
@@ -11,8 +12,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
 created_at: 2026-05-05
 domain:
-  - yitang
-yitang:
+  - researchyitang:
   map: entrepreneur
   module: "调研方法论"
   course_id: yt-research-camp-001
@@ -37,6 +37,7 @@ related:
   - '[[ocr-一堂-地图-创业地图]]'
   - '[[yt-personal-thinking-models]]'
   - '[[yt-personal-pan-product-exploration]]'
+
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

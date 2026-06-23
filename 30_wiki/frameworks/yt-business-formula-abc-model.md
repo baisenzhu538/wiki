@@ -1,13 +1,11 @@
 ---
+
 id: yt-business-formula-abc-model
 title: 业务公式 ABC 模型（Ambition-Basis-Connection）
 type: framework
 status: enriched
 domain:
-  - yitang
-  - master
-  - business-strategy
-source_person: 孔阳
+  - yitangsource_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ABC 模型框架
 source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
@@ -29,6 +27,7 @@ related:
   - yt-business-formula-qualitative-metrics-library
   - yt-unit-model-three-tools
   - yt-five-step-method
+
 ---
 # 业务公式 ABC 模型（Ambition-Basis-Connection）
 

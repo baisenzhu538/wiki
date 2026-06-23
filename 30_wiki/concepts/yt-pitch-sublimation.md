@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-pitch-sublimation
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-- personal
+  - content-production- personal
 - yitang
 estimated_tokens: 1600
 language: zh-CN
@@ -45,6 +46,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 讲香·升华化
 
 > 十指模型右手第五指——向上抽象。表层的价值不够强时，往上挖一到两层——把产品优势升华为用户的生命意义，用户就不再跟你算性价比了。

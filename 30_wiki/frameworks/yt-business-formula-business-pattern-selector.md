@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - master
 - business-strategy
 source_refs:
@@ -44,6 +45,7 @@ related:
 - '[[case-private-domain-ecommerce-formula]]'
 - '[[case-saas-renewal-formula]]'
 - '[[case-dental-clinic-formula]]'
+
 ---# 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 
 > 一堂业务公式拆解培训中的“前置选型器”：不要一上来就拆 `GMV = 流量 × 转化 × 客单价 × 复购`，而应先判断业务是**单次成交型**还是**持续复购型**，再选择对应的公式范式。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-y-model-ruler
 component_of:
 - yt-personal-y-model-exploration-2
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
@@ -57,6 +58,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---## Summary
 
 > **一句话**：“我觉得这个人不错”不是评估，是猜测。真正的评估是：**用一套“尺子”量化每个维度，用“刻度”确定打分标准，用“基准”找到参照系，用“权重”告诉你哪些维度值得花更多时间”。

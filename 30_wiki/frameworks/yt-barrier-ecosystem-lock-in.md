@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——生态锁定
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们想建生态，但不知道从哪里开始'"
     framework_lens: 生态锁定——生态建设需要种子用户和核心应用
     follow_up_question: "你的种子用户是谁？核心应用是什么？如何启动双边市场？"
+
 ---
 
 # 生态锁定：平台壁垒

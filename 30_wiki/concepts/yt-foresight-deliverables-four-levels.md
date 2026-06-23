@@ -2,11 +2,12 @@
 
 
 
+
 id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
 domain:
-- yitang
+  - yitang- yitang
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -48,6 +49,7 @@ related:
   - '[[case-truman-yitang-foresight]]'
   - '[[yt-foresight-addition-subtraction]]'
   - '[[yt-five-step-level-blindspots]]'
+
 ---# 预判交付物四层级：从模糊想法到Plan ABC
 
 ## Core Claims

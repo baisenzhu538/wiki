@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-oral-spray-input
 title: 技能：用口喷输入法生成高质量 AI 提示词
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[dk-modeling-ai-compound-leverage]]'
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[skill-纪浩-AI对话上下文隔离]]'
+
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词
 

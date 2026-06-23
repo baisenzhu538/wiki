@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-对标借鉴他人决策维度
 title: 技能：对标借鉴他人决策维度
 type: "tool"
 domain:
-- product
+  - decision- product
 - decision-making
 - yitang
 status: draft
@@ -35,6 +36,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-专家访谈学习]]'
+
 ---
 # 技能：对标借鉴他人决策维度
 

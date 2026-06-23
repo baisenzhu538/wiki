@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - yt-model-personal-map
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-- personal
+  - modeling- personal
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -46,6 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 十指讲香模型（框架）
 
 > 将干瘪的价值点转化为饱满的价值感的微观战术框架——用双手十指向下具象、向上抽象，双向拉伸。

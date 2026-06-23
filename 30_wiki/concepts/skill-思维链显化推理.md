@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-思维链显化推理
 title: 技能：思维链显化推理
 type: "tool"
 domain:
-- ai-saas
+  - learning-methodology- ai-saas
 - decision-making
 - yitang
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：思维链显化推理
 

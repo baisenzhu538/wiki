@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-prompt-writing-workflow
 title: "AI写作工作流：大纲→要点→全文"
 type: tool
@@ -7,9 +8,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -46,6 +45,7 @@ related:
   - '[[yt-note-ai-human-division]]'
   - '[[yt-prompt-iterative-prompting]]'
   - '[[yt-model-prompt-engineering]]'
+
 ---
 # AI 写作工作流：大纲→要点→全文
 

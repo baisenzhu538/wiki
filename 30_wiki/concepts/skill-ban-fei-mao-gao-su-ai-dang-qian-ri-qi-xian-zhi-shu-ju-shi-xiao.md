@@ -1,11 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: "技能：告诉 AI 当前日期限制数据时效"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-source_person: 半肥猫
+  - yitangsource_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
   - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
@@ -40,6 +41,7 @@ diagnostic_signals:
   - signal: "AI 对'最新'的理解与行业实际不符"
     lens: "行业时效标准未定义"
     follow_up: "补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）"
+
 ---
 # 技能：告诉 AI 当前日期限制数据时效
 

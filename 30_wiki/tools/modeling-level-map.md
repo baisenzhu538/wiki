@@ -1,13 +1,11 @@
 ---
+
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_person: 楚门/Truman
+  - modelingsource_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
 source_refs:
   - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
@@ -48,6 +46,7 @@ diagnostic_signals:
   - signal: 用户急于用 AI 直接生成高阶模型，跳过 L3-L4 的扎实训练
     framework_lens: 段位跃迁风险
     follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
+
 ---
 # 建模能力段位图：从 L1 到 L6 的十年爬山地图
 

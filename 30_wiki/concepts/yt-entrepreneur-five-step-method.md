@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
@@ -98,6 +99,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
+
 ---# 一堂五步法
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]

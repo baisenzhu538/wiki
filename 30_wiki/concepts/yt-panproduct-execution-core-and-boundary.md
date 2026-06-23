@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-execution-core-and-boundary
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1111
 language: zh-CN
 prerequisites:
@@ -54,6 +55,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 内核和边界：剥离中心思想和边界
 
 > 落地工具箱第 1 张卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

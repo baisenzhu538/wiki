@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-customer-acquisition-toolkit
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2600
+  - yitangestimated_tokens: 2600
 language: zh-CN
 query_triggers:
   - "获客渠道"
@@ -46,6 +46,7 @@ updated_at: 2026-06-16
 author: "老顽童"
 related:
   - "case-ether-online-acquisition"
+
 ---
 # 获客工具合集
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-prompt-iterative-prompting
 title: "迭代式提示词工作流（5步法）"
 type: tool
@@ -7,9 +8,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
@@ -46,6 +45,7 @@ related:
   - '[[yt-model-prompt-engineering]]'
   - '[[yt-prompt-writing-workflow]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
+
 ---
 # 迭代式提示词工作流（5步法）
 

@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - personal-growth
 language: zh-CN
 version: 1
@@ -45,6 +46,7 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 

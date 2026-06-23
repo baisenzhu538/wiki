@@ -1,12 +1,11 @@
 ---
+
 id: skill-提升笔记阅读舒适度
 title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
 type: concept
 status: enriched
 domain:
-  - yitang
-  - personal-growth
-language: zh-CN
+  - learning-methodologylanguage: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
@@ -51,6 +50,7 @@ diagnostic_signals:
   - signal: "团队成员丧失独立判断信息重要性的能力，只会问'这个标什么颜色'"
     lens: "认知依赖"
     follow_up: "颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间"
+
 ---
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 

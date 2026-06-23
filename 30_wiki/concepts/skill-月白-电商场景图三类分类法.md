@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-电商场景图三类分类法
 title: 技能：电商场景图三类分类法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-电商场景图三类构建法]]'
   - '[[skill-月白-封面情绪转化法]]'
   - '[[skill-月白-AI生成图片排版控制-尺寸优先法]]'
+
 ---
 # 技能：电商场景图三类分类法
 

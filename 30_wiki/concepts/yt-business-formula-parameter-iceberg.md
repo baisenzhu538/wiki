@@ -1,13 +1,11 @@
 ---
+
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）
 type: concept
 status: enriched
 domain:
-  - yitang
-  - master
-  - business-strategy
-source_person: 孔阳
+  - yitangsource_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，参数冰山模型
 source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
@@ -28,6 +26,7 @@ related:
   - yt-business-formula-qualitative-metrics-library
   - yt-entrepreneur-unit-model
   - yt-model-deep-review-iceberg
+
 ---
 # 业务公式参数冰山（L1-L6）
 

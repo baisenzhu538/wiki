@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——产品内核定义
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "团队内部对产品核心价值有分歧"
     framework_lens: 产品内核定义——内核必须是团队共识
     follow_up_question: "你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？"
+
 ---
 
 # 产品内核定义：用户愿意选择你的最小解决方案

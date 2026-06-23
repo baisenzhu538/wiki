@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
 status: draft
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: 业务增长越快，现金缺口越大，需要不断追加投入才能维持运转
   framework_lens: 自由现金流健康度 — 增长质量优于增长规模
   follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
+
 ---
 
 > “就算是单元模型早就算清楚了、跑通了，整个业务也非常辛苦，因为现金流难题。很多实体生意有大量的流水、稳定合理的利润率，但始终不赚钱——就是因为自由现金流是负的，负得越久、付得越多。” — 徐剑，To B 五步法口述稿（src_20260616_0e684368，~3124-3202）

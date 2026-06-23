@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-demand-peak-end-rule
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
@@ -53,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 峰终定律：用户体验的二八定律
 
 > 需求工具箱第 9 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

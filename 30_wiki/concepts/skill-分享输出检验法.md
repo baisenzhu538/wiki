@@ -1,12 +1,11 @@
 ---
+
 id: skill-分享输出检验法
 title: "技能：分享输出检验法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程（费曼学习法延伸）
+  - learning-methodologysource_person: 一堂课程（费曼学习法延伸）
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "分享完就走，只关心播放量不关心有没有被理解"
     lens: "无反馈回收"
     follow_up: "分享的价值在改变他人的行为或判断，不是数字。必须回收反馈并迭代"
+
 ---
 # 技能：分享输出检验法
 

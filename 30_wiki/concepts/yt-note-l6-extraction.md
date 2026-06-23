@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-l6-extraction
 title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 language: zh-CN
 version: 2
 confidence: 0.89
@@ -47,6 +48,7 @@ diagnostic_signals:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 

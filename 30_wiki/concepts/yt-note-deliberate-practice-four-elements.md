@@ -1,9 +1,10 @@
 ---
 
+
 id: yt-note-deliberate-practice-four-elements
 title: 四要素诊断模型——刻意练习的笔记落地框架
 domain:
-- yitang
+  - learning-methodology- yitang
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
@@ -29,6 +30,7 @@ related:
   - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
   - '[[dk-yitang-digging-belief]]'
   - '[[yt-model-deliberate-practice-growth]]'
+
 ---
 # 四要素诊断模型——刻意练习的笔记落地框架
 

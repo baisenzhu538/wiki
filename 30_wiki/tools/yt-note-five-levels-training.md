@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - note-taking
 language: zh-CN
 version: 1
@@ -66,6 +67,7 @@ diagnostic_signals:
 - signal: 同时学多个领域，但每个都浅尝辄止
   framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
+
 ---
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 

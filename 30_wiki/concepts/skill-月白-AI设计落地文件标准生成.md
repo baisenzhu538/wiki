@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI设计落地文件标准生成
 title: 技能：AI设计落地文件标准生成
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-供应商信息对齐清单法]]'
   - '[[skill-月白-AI图片印刷落地预处理]]'
   - '[[skill-月白-普通人AI设计80分法则]]'
+
 ---
 # 技能：AI设计落地文件标准生成
 

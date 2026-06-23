@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-strategy-workshop
 title: 战略研讨会引导手册
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260619_86ca05fb_30_wiki_concepts_yt_management_strategy_meeting.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -48,6 +49,7 @@ updated_at: '2026-06-16'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 author: 老顽童
+
 ---
 # 战略研讨会引导手册
 

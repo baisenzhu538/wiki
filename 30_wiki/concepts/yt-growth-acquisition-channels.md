@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-acquisition-channels
 title: 获客渠道：流量获取的6大类型
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——获客渠道
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们找到了一个低成本渠道'"
     framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
     follow_up_question: "这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？"
+
 ---
 
 # 获客渠道：流量获取的6大类型

@@ -1,5 +1,6 @@
 ---
 
+
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
@@ -7,7 +8,7 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
+  - modeling- yitang
 - personal-growth
 - modeling
 created_at: '2026-06-14'
@@ -31,6 +32,7 @@ source_context: 单一来源为一堂建模能力培训课程口述稿，内容�
 diagnostic_signals:
 - 单一 source（一堂 Truman 口述），尚未有第二独立来源交叉验证
 - L1-L6 修炼周期与量化指标来自经验归纳，缺乏大规模样本验证
+
 ---
 
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA

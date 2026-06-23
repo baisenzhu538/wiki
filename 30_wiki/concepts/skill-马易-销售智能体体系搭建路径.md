@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-销售智能体体系搭建路径
 title: 技能：销售智能体体系搭建路径
 type: "tool"
 domain:
-- marketing
+  - ai-collaboration
+  - yitang- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI项目需求拆解筛选]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
   - '[[skill-马易-RPA数据整合法]]'
+
 ---
 # 技能：销售智能体体系搭建路径
 

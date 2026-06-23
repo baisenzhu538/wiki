@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-oral-spray-input]]'
   - '[[skill-ai-prd-for-ai]]'
   - '[[skill-ai-evidence-check]]'
+
 ---
 # 技能：口喷式语音输入法
 

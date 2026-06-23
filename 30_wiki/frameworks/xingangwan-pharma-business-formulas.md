@@ -1,10 +1,11 @@
 ---
+
 id: xingangwan-pharma-business-formulas
 title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 type: framework
 status: enriched
 domain:
-- healthcare
+  - healthcare- healthcare
 - pharmaceutical-retail
 - business-strategy
 - product
@@ -36,6 +37,7 @@ tags:
 - 智慧药柜
 - 医药零售
 - 客户旅程
+
 ---
 
 # 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量

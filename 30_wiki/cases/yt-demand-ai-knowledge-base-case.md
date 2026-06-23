@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
 type: case
@@ -6,10 +7,7 @@ status: enriched
 confidence: 0.91
 trust_level: high
 domain:
-  - yitang
-  - product
-  - ai
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——AI企业知识库案例
 source_refs:
   - src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
@@ -41,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'AI能自动生成答案'，但答案准确率很低"
     framework_lens: AI知识库案例——技术能力≠用户价值
     follow_up_question: "用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？"
+
 ---
 
 # AI企业知识库案例：从"技术炫技"到"需求验证"

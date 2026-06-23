@@ -1,10 +1,11 @@
 ---
+
 id: concept-mckinsey-mece
 title: "MECE 原则：相互独立、完全穷尽"
 type: concept
 status: enriched
 domain:
-- consulting
+  - management- consulting
 - structured-thinking
 - business-strategy
 source_person: Barbara Minto / McKinsey & Company
@@ -42,6 +43,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
+
 ---# MECE 原则：相互独立、完全穷尽
 
 ## 核心定义

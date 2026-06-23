@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 language: zh-CN
 version: 1
 difficulty: advanced
@@ -45,6 +46,7 @@ updated_at: '2026-06-16'
 estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
+
 ---
 # 股权设计检查清单
 

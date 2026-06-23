@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——用户分层方法
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们比竞品服务更广'"
     framework_lens: 需求分层画布——广度≠深度
     follow_up_question: "竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？"
+
 ---
 
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具

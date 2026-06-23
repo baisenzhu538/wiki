@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——ToB决策链
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "用户说'我们的产品比竞品好用'，但客户选了竞品"
     framework_lens: ToB决策链——好用≠好卖，决策者可能看重其他因素
     follow_up_question: "竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？"
+
 ---
 
 # ToB决策链需求分析：多角色、多需求、多顾虑

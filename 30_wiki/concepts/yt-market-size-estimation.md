@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang
-estimated_tokens: 1800
+  - yitangestimated_tokens: 1800
 language: zh-CN
 query_triggers:
   - "市场规模"
@@ -45,6 +45,7 @@ diagnostic_signals:
   - {'signal': '用户把TAM当可获取市场', 'framework_lens': '混淆TAM/SAM/SOM', 'follow_up_question': 'TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆'}
 updated_at: 2026-06-13
 author: "老顽童"
+
 ---
 # 市场规模估算四种方法
 

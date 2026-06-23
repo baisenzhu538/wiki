@@ -1,11 +1,12 @@
 ---
 
 
+
 id: skill-李诞-面对过去错误的平静心法
 title: 技能：面对过去错误的平静心法
 type: "tool"
 domain:
-- decision-making
+  - content-production- decision-making
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +23,7 @@ related:
   - '[[skill-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
   - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
   - '[[skill-李诞-判断工作价值的交易成本视角]]'
+
 ---
 # 技能：面对过去错误的平静心法
 

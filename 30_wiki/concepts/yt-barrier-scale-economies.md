@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-scale-economies
 title: 规模经济：成本优势
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——规模经济
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的规模经济是成本优势，但用户不敏感'"
     framework_lens: 规模经济——成本优势需要转化为用户价值
     follow_up_question: "你的成本优势是否转化为价格优势或质量优势？用户是否感知？"
+
 ---
 
 # 规模经济：成本优势

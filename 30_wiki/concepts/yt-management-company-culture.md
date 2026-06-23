@@ -1,9 +1,10 @@
 ---
 
+
 title: 公司文化
 type: concept
 domain:
-- management
+  - management- management
 - business-strategy
 - ai-saas
 - design
@@ -40,6 +41,7 @@ related:
 - "[[yt-management-business-formula]]"
 - "[[yt-tool-hiring-scorecard]]"
 - "[[yt-model-management-map]]"
+
 ---# 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

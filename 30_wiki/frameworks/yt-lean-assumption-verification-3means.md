@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -41,6 +42,7 @@ diagnostic_signals:
 - signal: 个人/轻资产项目一上来就要自建渠道做投放测试
   framework_lens: 未优先使用低成本的调研与竞品对标
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
+
 ---
 
 > 精益不是不花钱、不花时间，而是用少量的试错成本，大幅降低当前最重要的系统性风险。验证关键假设时，优先使用左侧低成本手段：专家访谈/调研、经验验证，最后再自己做实验。——张磊《精益测试关键问题》AMA Q1

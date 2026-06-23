@@ -1,12 +1,12 @@
 ---
+
 id: skill-ai-four-elements-validation
 title: "技能：真需求四要素验证法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
@@ -51,6 +51,7 @@ diagnostic_signals:
   - signal: "过度验证导致paralysis，验证完不敢做了"
     lens: "验证瘫痪"
     follow_up: "设定验证时间上限（15分钟）。四要素是快速筛选工具，不是完美主义陷阱"
+
 ---# 技能：真需求四要素验证法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-competitor-toolkit
 confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-- yitang
+  - research- yitang
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
@@ -54,6 +55,7 @@ diagnostic_signals:
   follow_up_question: 基于竞品分析，你要调整自己的定位、功能还是商业模式？
 updated_at: '2026-06-18'
 author: 老顽童
+
 ---
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标
 

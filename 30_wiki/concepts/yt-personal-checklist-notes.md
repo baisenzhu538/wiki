@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-checklist-notes
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 4500
+  - personal-growthestimated_tokens: 4500
 language: zh-CN
 query_triggers:
   - "清单体笔记"
@@ -56,6 +56,7 @@ related:
   - '[[yt-personal-time-management]]'
   - '[[yt-personal-verbatim-script]]'
   - '[[yt-personal-inspiration-flash]]'
+
 ---
 # 清单体笔记（一堂笔记法）
 

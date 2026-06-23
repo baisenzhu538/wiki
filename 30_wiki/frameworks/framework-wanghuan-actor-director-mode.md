@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -48,6 +50,7 @@ diagnostic_signals:
 - signal: '管理者说“上 AI”，但一线员工抗拒、担心被取代'
   lens: '身份切换阻力'
   follow_up: '是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？'
+
 ---
 
 # 王欢人机协作框架：从演员到导演

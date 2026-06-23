@@ -2,12 +2,14 @@
 
 
 
+
 id: skill-马易-工作流优先于AIGC的决策方法
 title: 技能：工作流优先于AIGC的决策方法
 type: "tool"
 status: needs-review
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 - business-strategy
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
@@ -34,6 +36,7 @@ related:
   - '[[skill-马易-痛点驱动的数字化]]'
   - '[[skill-马易-AIGC项目ROI评估]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
+
 ---
 # 技能：工作流优先于AIGC的决策方法
 

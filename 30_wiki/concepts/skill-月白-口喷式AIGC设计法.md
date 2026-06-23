@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-口喷式AIGC设计法
 title: 技能：口喷式AIGC设计法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-关键要素提取改图法]]'
   - '[[skill-月白-AI设计三段式里程碑流程]]'
   - '[[skill-月白-AI去字-稿定设计加字工作流]]'
+
 ---
 # 技能：口喷式AIGC设计法
 

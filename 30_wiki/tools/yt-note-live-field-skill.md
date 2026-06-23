@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-live-field-skill
 title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册
 type: tool
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - note-taking
 language: zh-CN
 version: 2
@@ -51,6 +52,7 @@ estimated_tokens: 4500
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
 

@@ -1,9 +1,10 @@
 ---
 
+
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
-- yitang
+  - management- yitang
 estimated_tokens: 3300
 query_triggers:
 - 合伙股权分配
@@ -48,6 +49,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.75
+
 ---# 合伙股权
 
 > 来源：一堂课程体系 | 阶段：管公司。[[yitang-course-map]] | [[yt-system-course-catalog]]

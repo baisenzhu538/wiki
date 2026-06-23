@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-多轮确认防偏差
 title: 技能：多轮确认防偏差
 type: "tool"
 domain:
-- ai-saas
+  - learning-methodology- ai-saas
 - yitang
 status: draft
 source_person: Truman
@@ -31,6 +32,7 @@ related:
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：多轮确认防偏差
 

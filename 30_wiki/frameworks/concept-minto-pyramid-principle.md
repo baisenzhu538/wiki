@@ -1,10 +1,11 @@
 ---
+
 id: concept-minto-pyramid-principle
 title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
 status: enriched
 domain:
-- consulting
+  - management- consulting
 - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -53,6 +54,7 @@ author: 老顽童
 reviewed_by: laowantong
 confidence: 0.7
 trust_level: low
+
 ---
 # 金字塔原理：结论先行的结构化沟通框架
 

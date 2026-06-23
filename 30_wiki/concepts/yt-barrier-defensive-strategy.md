@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——防御策略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们防守成功，但失去了进攻机会'"
     framework_lens: 防御策略——防御和进攻需要平衡
     follow_up_question: "你的资源是否过度投入防御？进攻机会在哪里？"
+
 ---
 
 # 防御策略：守住壁垒

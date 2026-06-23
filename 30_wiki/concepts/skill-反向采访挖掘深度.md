@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-反向采访挖掘深度
 title: 技能：反向采访挖掘深度
 type: "tool"
 domain:
-- ai-saas
+  - learning-methodology- ai-saas
 - yitang
 status: draft
 source_person: Truman
@@ -31,6 +32,7 @@ related:
   - '[[skill-主动摘要压缩上下文]]'
   - '[[skill-提示词结构化迭代]]'
   - '[[skill-渐进式披露上下文]]'
+
 ---
 # 技能：反向采访挖掘深度
 

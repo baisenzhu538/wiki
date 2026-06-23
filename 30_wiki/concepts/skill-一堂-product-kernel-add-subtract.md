@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-product-kernel-add-subtract
 title: "技能：产品内核加减法"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
 - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
@@ -51,6 +50,7 @@ diagnostic_signals:
   - signal: "内核中穿插高成本低信息要素，拖累利润率"
     lens: "成本敏感缺失"
     follow_up: "默认不做高成本低信息项，除非有强劣数据支持"
+
 ---
 # 技能：产品内核加减法
 

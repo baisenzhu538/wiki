@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-识别模型局限性
 title: 技能：识别模型局限性
 type: "tool"
 domain:
-- decision-making
+  - personal-growth
+  - decision- decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-识别关键偶然因素]]'
   - '[[skill-水水-识别自证预言陷阱]]'
   - '[[skill-水水-识别超级传播者风险]]'
+
 ---
 # 技能：识别模型局限性
 

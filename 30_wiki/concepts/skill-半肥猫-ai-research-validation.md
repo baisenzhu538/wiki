@@ -1,12 +1,12 @@
 ---
+
 id: skill-半肥猫-ai-research-validation
 title: "AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 半肥猫
+  - yitangsource_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt
@@ -52,6 +52,7 @@ diagnostic_signals:
   - signal: "调研做完了但从未用于实际决策"
     lens: "业务脱节"
     follow_up: "检查是否有真实业务问题需要解答，没有真实问题=练习而非调研"
+
 ---
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 

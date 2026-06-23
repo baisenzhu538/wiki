@@ -1,11 +1,11 @@
 ---
+
 id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点
 type: concept
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——系统思考、反馈循环与杠杆点
 source_refs:
   - src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
@@ -25,6 +25,7 @@ related:
   - '[[master-decision-hygiene]]'
   - '[[master-first-principles]]'
   - '[[master-knowledge-compound]]'
+
 ---
 # 系统思考：反馈循环与杠杆点
 

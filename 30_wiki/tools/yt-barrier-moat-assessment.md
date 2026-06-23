@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-moat-assessment
 title: 护城河评估工具
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——护城河评估
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的护城河在减弱，但不知道多严重'"
     framework_lens: 护城河评估工具——需要定期评估护城河变化
     follow_up_question: "你的护城河减弱的速度和原因是什么？是否需要紧急修复？"
+
 ---
 
 # 护城河评估工具

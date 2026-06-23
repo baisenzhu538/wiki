@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-y-model-philosophical-roots
 title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
 type: framework
@@ -6,10 +7,7 @@ status: enriched
 confidence: 0.82
 trust_level: medium-high
 domain:
-  - yitang
-  - master
-  - decision-making
-source_refs:
+  - decisionsource_refs:
 - yt-decision-y-model
 academic_refs:
   - "戴国斌.基于知行合一的管理者战略素质理论模型与实证研究.管理学报,2012(5)"
@@ -35,6 +33,7 @@ diagnostic_signals:
   - signal: "我用Y模型分析不同业务，总觉得'宽度'清单长得不一样"
     framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
     follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
+
 ---
 # Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论
 

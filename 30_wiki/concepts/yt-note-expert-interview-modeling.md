@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - personal-growth
 language: zh-CN
 version: 1
@@ -51,6 +52,7 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 专家访谈式笔记：边聊边建模的高阶认知工作流
 

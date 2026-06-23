@@ -1,12 +1,13 @@
 ---
 
 
+
 id: yt-five-step-method
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -57,6 +58,7 @@ diagnostic_signals:
   follow_up_question: 如果用最近3个月的业务结果反推，你哪一步的实际验证得分最高？哪一步最低？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 一堂五步法总纲
 
 > 来源：一堂全员必修课程 | Truman口述 | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-three-tools]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

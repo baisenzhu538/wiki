@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-敏捷发布快速迭代搭建体系
 title: 技能：敏捷发布快速迭代搭建体系
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - finance-legal
 - business-strategy
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-城市合伙人模式复制能力]]'
   - '[[skill-创始人二当家分工协作模式]]'
   - '[[skill-通过请吃饭获取行业内部资料]]'
+
 ---
 # 技能：敏捷发布快速迭代搭建体系
 

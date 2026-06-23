@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
@@ -36,6 +38,7 @@ diagnostic_signals:
 - 团队讨论AI落地时，提出的场景大而全或过于新颖
 - 候选AI场景缺少历史数据或明确验收指标
 - 试点效果需要数月才能验证
+
 ---
 # 技能："找老的干小的"场景评估清单
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-best-practice-learning
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -7,7 +8,7 @@ confidence: 0.88
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -54,6 +55,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。

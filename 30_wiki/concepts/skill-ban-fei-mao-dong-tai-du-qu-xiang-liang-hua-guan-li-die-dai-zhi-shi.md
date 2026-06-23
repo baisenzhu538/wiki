@@ -1,11 +1,13 @@
 ---
 
+
 id: skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 title: 技能：动态读取 + 向量化管理迭代知识
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -26,6 +28,7 @@ updated_at: '2026-06-19'
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
+
 ---
 
 # 技能：动态读取 + 向量化管理迭代知识

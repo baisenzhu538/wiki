@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-纪浩-识别AI不可维护代码
 title: 技能：识别AI不可维护代码
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-纪浩-线上问题应急值守]]'
   - '[[skill-纪浩-评估AI从零写UI的可行性]]'
   - '[[skill-纪浩-问题导向备课法]]'
+
 ---
 # 技能：识别AI不可维护代码
 

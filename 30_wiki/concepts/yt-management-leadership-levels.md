@@ -1,10 +1,11 @@
 ---
 
 
+
 title: 管理段位
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - kdo
 - yitang
@@ -34,6 +35,7 @@ related:
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-management-finance-basics]]'
   - '[[yt-model-management-map]]'
+
 ---
 # 管理段位
 

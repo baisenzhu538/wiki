@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-prompt-brainstorming
 title: "AI头脑风暴工作流"
 type: tool
@@ -7,9 +8,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -46,6 +45,7 @@ related:
   - '[[yt-prompt-iterative-prompting]]'
   - '[[yt-prompt-writing-workflow]]'
   - '[[yt-model-prompt-engineering]]'
+
 ---
 # AI 头脑风暴工作流
 

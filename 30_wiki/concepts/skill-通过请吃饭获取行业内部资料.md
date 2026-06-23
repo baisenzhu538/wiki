@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-通过请吃饭获取行业内部资料
 title: 技能：通过请吃饭获取行业内部资料
 type: "tool"
 domain:
-- business-strategy
+  - learning-methodology- business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -30,6 +31,7 @@ related:
   - '[[skill-敏捷发布快速迭代搭建体系]]'
   - '[[skill-城市合伙人模式复制能力]]'
   - '[[skill-创始人二当家分工协作模式]]'
+
 ---
 # 技能：通过请吃饭获取行业内部资料
 

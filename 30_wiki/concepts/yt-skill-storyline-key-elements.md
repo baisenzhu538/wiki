@@ -1,10 +1,11 @@
 ---
 
 
+
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
-- yitang
+  - content-production- yitang
 diagnostic_signals:
 - signal: 是否穷尽列举 ≥8 个潜在因素后再做筛选排序
   framework_lens: 穷尽性 / 避免先下结论
@@ -33,6 +34,7 @@ related:
   - '[[yt-skill-storyline-contrast-analysis]]'
   - '[[yt-skill-storyline-problem-solving]]'
   - '[[yt-tool-y-model-ruler]]'
+
 ---
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 

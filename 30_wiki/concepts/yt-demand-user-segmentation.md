@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"人群定的太泛了"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "团队争论'应该做哪个功能'，各执一词"
     framework_lens: 用户分层不统一——不同功能服务不同层，未对齐
     follow_up_question: "这个功能主要服务哪一层用户？这一层用户占多大比例？"
+
 ---
 
 # 用户分层与需求差异：从"所有人"到"第一批100个"

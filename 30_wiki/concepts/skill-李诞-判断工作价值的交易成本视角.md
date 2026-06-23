@@ -1,11 +1,12 @@
 ---
 
 
+
 id: skill-李诞-判断工作价值的交易成本视角
 title: 技能：判断工作价值的交易成本视角
 type: "tool"
 domain:
-- decision-making
+  - content-production- decision-making
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +23,7 @@ related:
   - '[[skill-月白-AI对话式海报修改（免PS）]]'
   - '[[skill-月白-资深设计师AI工具切换法]]'
   - '[[skill-李诞-面对过去错误的平静心法]]'
+
 ---
 # 技能：判断工作价值的交易成本视角
 

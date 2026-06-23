@@ -1,11 +1,12 @@
 ---
 
+
 id: skill-decision-delay-intuition
 title: 技能：延迟直觉法
 type: "tool"
 status: draft
 domain:
-- 决策
+  - decision- 决策
 - 认知
 - 个人管理
 source_person: 消化全库后提炼
@@ -35,6 +36,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：延迟直觉法
 

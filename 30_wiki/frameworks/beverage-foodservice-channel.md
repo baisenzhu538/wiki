@@ -1,5 +1,6 @@
 ---
 
+
 id: beverage-foodservice-channel
 title: 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 type: framework
@@ -7,7 +8,7 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- business-strategy
+  - yitang- business-strategy
 - product
 - entrepreneur
 source_refs:
@@ -24,6 +25,7 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
+
 ---# 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 
 > 来源：听脑录音 3305831/3222718/2842325/1779825 + 公开信源六层交叉验证  

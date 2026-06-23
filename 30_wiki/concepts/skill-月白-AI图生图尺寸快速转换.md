@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI图生图尺寸快速转换
 title: 技能：AI图生图尺寸快速转换
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-AIGC文字大小精确控制]]'
   - '[[skill-月白-新手设计师基本功训练法]]'
   - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
+
 ---
 # 技能：AI图生图尺寸快速转换
 

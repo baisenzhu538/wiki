@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-项目复盘基本功
 title: 技能：项目复盘基本功
 type: "tool"
 domain:
-- management
+  - learning-methodology- management
 - business-strategy
 - design
 - yitang
@@ -34,6 +35,7 @@ related:
   - '[[skill-逐字稿练习演讲]]'
   - '[[skill-费曼学习法实践讲香课题]]'
   - '[[skill-专家访谈十步法]]'
+
 ---
 # 技能：项目复盘基本功
 

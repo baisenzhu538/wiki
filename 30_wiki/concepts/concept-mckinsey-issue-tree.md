@@ -1,10 +1,11 @@
 ---
+
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
 status: enriched
 domain:
-- consulting
+  - management- consulting
 - problem-solving
 - structured-thinking
 source_person: McKinsey & Company
@@ -41,6 +42,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
+
 ---# Issue Tree：问题树拆解
 
 ## 核心定义

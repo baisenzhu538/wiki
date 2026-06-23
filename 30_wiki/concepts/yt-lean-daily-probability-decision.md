@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -37,6 +38,7 @@ diagnostic_signals:
 - signal: 同时推进多条线，资源分散在低风险环节，高风险假设被延后
   framework_lens: 关键假设排序 / 分析概率
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
+
 ---
 
 > "三个每天的拷问：你在想这个事情做错了会不会死？这个事情是不是致命的假设？我能不能拿更低的成本来验证这个假设？"  

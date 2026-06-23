@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-y-organization
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1635
+  - modelingestimated_tokens: 1635
 language: zh-CN
 query_triggers:
   - "Y 型创业模型"
@@ -44,6 +44,7 @@ related:
   - '[[yt-model-progress-map]]'
   - '[[ocr-一堂-个人修炼-y模型]]'
   - '[[yt-entrepreneur-truth-seeking]]'
+
 ---
 # Y 型创业模型 (Y Model for Startups)
 

@@ -1,11 +1,12 @@
 ---
+
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 3400
 language: zh-CN
 prerequisites: []
@@ -56,6 +57,7 @@ related:
 - yt-growth-cycle-model
 - yt-barrier-analysis-cheat-sheet
 - yt-business-analysis-cognitive-biases
+
 ---
 # 暗知识：五步法的段位盲区与自评陷阱
 

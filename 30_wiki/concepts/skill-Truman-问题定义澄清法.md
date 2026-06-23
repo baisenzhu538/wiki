@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-问题定义澄清法
 title: 技能：问题定义澄清法
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-技术社区严肃提问法]]'
   - '[[skill-Truman-语义对齐沟通法]]'
   - '[[skill-Truman-职场异步协作提问法]]'
+
 ---
 # 技能：问题定义澄清法
 

@@ -1,10 +1,11 @@
 ---
 
+
 type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain:
-- 一堂·科学决策
+  - decision- 一堂·科学决策
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
@@ -22,6 +23,7 @@ related:
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-decision-full-process]]'
 updated_at: '2026-06-16'
+
 ---# 一堂·关键假设ABCD模型
 
 

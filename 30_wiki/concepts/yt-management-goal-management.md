@@ -1,9 +1,10 @@
 ---
 
+
 title: 目标管理
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - yitang
 status: enriched
@@ -43,6 +44,7 @@ trust_level: medium-high
 source_refs:
   - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
+
 ---
 # 目标管理
 

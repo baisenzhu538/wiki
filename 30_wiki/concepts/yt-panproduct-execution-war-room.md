@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-execution-war-room
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 2100
 language: zh-CN
 prerequisites:
@@ -59,6 +60,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 攻坚会：重点课题all-in攻坚
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

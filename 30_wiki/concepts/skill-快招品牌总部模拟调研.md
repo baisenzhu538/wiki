@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-快招品牌总部模拟调研
 title: 技能：快招品牌总部模拟调研
 type: "tool"
 domain:
-- product
+  - entrepreneurship- product
 - business-strategy
 status: draft
 source_person: 案例讲述者
@@ -32,6 +33,7 @@ related:
   - '[[skill-城市合伙人模式复制能力]]'
   - '[[skill-创始人二当家分工协作模式]]'
   - '[[skill-通过请吃饭获取行业内部资料]]'
+
 ---
 # 技能：快招品牌总部模拟调研
 

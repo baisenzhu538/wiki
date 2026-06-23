@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-模型匹配调度
 title: 技能：模型匹配调度
 type: "tool"
 domain:
-- yitang
+  - learning-methodology- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -32,6 +33,7 @@ related:
   - '[[skill-主动摘要压缩上下文]]'
   - '[[skill-提示词结构化迭代]]'
   - '[[skill-渐进式披露上下文]]'
+
 ---
 # 技能：模型匹配调度
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——进攻策略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们想攻击竞品的弱点，但找不到'"
     framework_lens: 进攻策略——竞品弱点需要深入分析
     follow_up_question: "竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？"
+
 ---
 
 # 进攻策略：突破竞品壁垒

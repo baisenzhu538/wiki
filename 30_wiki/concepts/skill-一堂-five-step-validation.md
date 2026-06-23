@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-five-step-validation
 title: "技能：聊问查测盘五步验证法"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
@@ -54,6 +53,7 @@ diagnostic_signals:
   - signal: "用户在MVP阶段的反馈被广告效果污染"
     lens: "假负当真负"
     follow_up: "区分产品价值验证和营销效果验证，是两件事"
+
 ---
 # 技能：聊问查测盘五步验证法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-fab-persuasion
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-06-06
 difficulty: foundational
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -53,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。

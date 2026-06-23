@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——增长黑客
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'增长黑客只适合互联网公司'"
     framework_lens: 增长黑客——增长黑客适用于任何需要增长的场景
     follow_up_question: "你的业务有增长假设吗？能否设计低成本实验验证？"
+
 ---
 
 # 增长黑客：低成本快速实验

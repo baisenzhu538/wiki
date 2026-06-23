@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-pan-product-climbing-map
 component_of:
 - yt-composite-pan-product-methodology
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - modeling- yitang
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
@@ -46,6 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---## Constraints & Boundaries
 
 ### 适用边界

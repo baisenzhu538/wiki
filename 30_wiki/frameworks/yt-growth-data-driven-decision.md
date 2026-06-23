@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——数据驱动决策
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'数据团队和业务团队脱节'"
     framework_lens: 数据驱动增长决策——数据团队需要嵌入业务，不是独立
     follow_up_question: "数据团队是否了解业务目标？是否参与了业务决策？"
+
 ---
 
 # 数据驱动增长决策

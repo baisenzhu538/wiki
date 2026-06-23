@@ -1,10 +1,12 @@
 ---
+
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -48,6 +50,7 @@ tags:
 - agent角色定义
 - 输出标准
 - 行业暗规则
+
 ---
 
 # 王欢AI业务档案5字段工具

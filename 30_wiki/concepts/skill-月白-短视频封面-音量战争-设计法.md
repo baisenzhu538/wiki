@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-短视频封面-音量战争-设计法
 title: 技能：短视频封面'音量战争'设计法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-AIGC文字大小精确控制]]'
   - '[[skill-月白-AI生成图小字控制法]]'
   - '[[skill-月白-AI图生图尺寸快速转换]]'
+
 ---
 # 技能：短视频封面'音量战争'设计法
 

@@ -1,12 +1,11 @@
 ---
+
 id: skill-复盘推演法
 title: "技能：复盘推演法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "只复盘失败不复盘成功，对成功一笔带过"
     lens: "成功忽视"
     follow_up: "成功的因果链同样需要萃取，成功中的可复制因素往往比失败教训更有价值"
+
 ---
 # 技能：复盘推演法
 

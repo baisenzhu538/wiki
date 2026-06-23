@@ -1,10 +1,11 @@
 ---
+
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
+  - yitang- entrepreneur
 - master
 estimated_tokens: 2500
 language: zh-CN
@@ -67,6 +68,7 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 # 单元模型基准值：科学类比、三点预测与基准值共建
 

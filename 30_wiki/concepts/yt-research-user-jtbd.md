@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-user-jtbd
 title: 用户JTBD访谈工具：区分"说的"和"真正要的"
 type: tool
 status: enriched
 domain:
-- yitang
+  - research- yitang
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -45,6 +46,7 @@ diagnostic_signals:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 
 # 用户JTBD访谈工具：区分"说的"和"真正要的"

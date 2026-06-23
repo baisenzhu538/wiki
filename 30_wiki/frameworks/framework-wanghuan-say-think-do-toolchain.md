@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-say-think-do-toolchain
 title: 王欢说→想→做工具链框架
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -45,6 +47,7 @@ tags:
 - 说想做
 - 人机协作
 - 输入推理执行
+
 ---
 
 # 王欢说→想→做工具链框架

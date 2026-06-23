@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——渠道ROI
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'渠道成本越来越高'"
     framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
     follow_up_question: "成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？"
+
 ---
 
 # 渠道ROI评估与优化

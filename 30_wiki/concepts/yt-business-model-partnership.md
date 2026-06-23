@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-partnership
 title: 合作伙伴策略：生态与联盟
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——合作伙伴策略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'合作伙伴越多越好'"
     framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
     follow_up_question: "你的核心合作伙伴有几个？是否形成了紧密协同？"
+
 ---
 
 # 合作伙伴策略：生态与联盟

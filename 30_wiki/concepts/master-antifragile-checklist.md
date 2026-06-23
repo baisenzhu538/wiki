@@ -1,11 +1,11 @@
 ---
+
 id: master-antifragile-checklist
 title: 反脆弱决策检查清单
 type: tool
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——反脆弱决策检查清单
 source_refs:
   - src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
@@ -28,6 +28,7 @@ related:
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-foresight-ten-fatal-flaws]]'
   - '[[yt-panproduct-execution-risk-management]]'
+
 ---
 # 反脆弱决策检查清单
 

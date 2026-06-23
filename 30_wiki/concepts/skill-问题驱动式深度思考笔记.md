@@ -1,12 +1,11 @@
 ---
+
 id: skill-问题驱动式深度思考笔记
 title: "问题驱动式深度思考笔记：用真问题取代真记录"
 type: concept
 status: enriched
 domain:
-  - yitang
-  - personal-growth
-language: zh-CN
+  - learning-methodologylanguage: zh-CN
 version: 1
 confidence: 0.75
 source_refs:
@@ -52,6 +51,7 @@ diagnostic_signals:
   - signal: "笔记被问题框架捆绑，信息强行套入不合适模板"
     lens: "表演性问题"
     follow_up: "问题必须是你真正关心的，不是为了'看起来在思考'而造问题"
+
 ---
 # 问题驱动式深度思考笔记：用真问题取代真记录
 

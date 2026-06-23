@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-inspiration-flash
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 3000
+  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "灵感闪现"
@@ -52,6 +52,7 @@ related:
   - '[[yt-personal-verbatim-script]]'
   - '[[yt-personal-product-design]]'
   - '[[yt-personal-scientific-expression]]'
+
 ---
 # 灵感闪现（认知篇）
 

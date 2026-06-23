@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-data-assets
 title: 数据资产：数据网络效应
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——数据资产
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的数据壁垒是算法，但算法被复制了'"
     framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
     follow_up_question: "算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？"
+
 ---
 
 # 数据资产：数据网络效应

@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-接受发散性世界观
 title: 技能：接受发散性世界观
 type: "tool"
 domain:
-- decision-making
+  - personal-growth
+  - decision- decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-利用基因漂变视角]]'
   - '[[skill-水水-利用叙事驱动决策]]'
   - '[[skill-水水-构建自利叙事]]'
+
 ---
 # 技能：接受发散性世界观
 

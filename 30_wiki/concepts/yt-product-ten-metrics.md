@@ -1,12 +1,13 @@
 ---
 
+
 id: yt-product-ten-metrics
 component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: '[[yt-product-kernel-cultivation]]'
@@ -52,6 +53,7 @@ related:
   - '[[yt-model-product-core-metrics]]'
   - '[[yt-growth-cycle-model]]'
   - '[[yt-scale-economy-weapon-library]]'
+
 ---
 # 产品内核十大典型指标
 

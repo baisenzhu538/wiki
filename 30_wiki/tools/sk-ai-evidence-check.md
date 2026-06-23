@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -32,6 +34,7 @@ definition_of_done:
 - 适用场景有正反例
 - 工具要求明确
 trust_level: medium
+
 ---
 # 技能：AI输出证据核查三问法
 

@@ -1,4 +1,5 @@
 ---
+
 id: framework-doris-industry-report-4step
 title: 行业报告调研四步法：7天快速建立行业认知
 type: framework
@@ -12,7 +13,7 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+  - research- yitang
 - research
 difficulty: intermediate
 estimated_tokens: 3500
@@ -40,6 +41,7 @@ related:
 - "[[dk-yitang-research-source-freshness]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[case-doris-grab-industry-cognition]]"
+
 ---
 
 # 行业报告调研四步法：7天快速建立行业认知

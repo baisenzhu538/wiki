@@ -1,12 +1,14 @@
 ---
 
 
+
 id: skill-马易-业务为先的AI中台建设
 title: 技能：业务为先的AI中台建设
 type: "tool"
 status: enriched
 domain:
-- ai-implementation
+  - ai-collaboration
+  - yitang- ai-implementation
 source_person: 马易
 source_context: AI落地场景识别 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 wiki_refs:
@@ -33,6 +35,7 @@ author: unknown
 trust_level: medium-high
 source_refs:
 - src_20260510_4bb17355-天花板
+
 ---# 技能：业务为先的AI中台建设
 
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。

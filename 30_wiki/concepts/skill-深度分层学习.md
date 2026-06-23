@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-深度分层学习
 title: 技能：深度分层学习
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - decision-making
 - yitang
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：深度分层学习
 

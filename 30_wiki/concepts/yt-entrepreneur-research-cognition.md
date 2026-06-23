@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 1821
 language: zh-CN
 query_triggers:
@@ -47,6 +48,7 @@ diagnostic_signals:
   follow_up_question: 你收集的信息中，有多少转化为了可指导决策的洞察？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 调研认知
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

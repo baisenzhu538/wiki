@@ -1,10 +1,11 @@
 ---
+
 id: skill-note-one-line-one-point
 title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 type: tool
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - note-taking
 language: zh-CN
 version: 1
@@ -36,6 +37,7 @@ diagnostic_signals:
 - 会议记录被反馈“看不懂”“像小作文”
 - AI对清单体输入的理解准确率明显下降
 - 复盘时无法在10秒内还原当时的核心判断
+
 ---
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 

@@ -122,7 +122,7 @@ related:
 
 ## Critique
 
-- 本工具本质上是对 Eric Ries“最小可行产品（MVP）”概念的操作化落地 [conf=0.90, source=Eric Ries《精益创业》]，一堂的贡献在于把“最小版本”细化为跨行业的 11 个具体场景 [conf=0.85, source=一堂DOC-20260622212406_ocr_text.md]。
+- 本工具本质上是对 **Eric Ries**“最小可行产品（MVP）”概念的操作化落地 [conf=0.90, source=Eric Ries《精益创业》]，一堂的贡献在于把“最小版本”细化为跨行业的 11 个具体场景 [conf=0.85, source=一堂DOC-20260622212406_ocr_text.md]。
 - 风险：过度强调“快”可能导致团队忽略合规、品牌和质量底线。
 - 风险：把“最小版本”教条化，可能让团队在不该验证的时候继续验证（例如市场窗口已过）。
 - 建议始终与 [[framework-lean-false-model]]、[[framework-lean-abcd-model]] 配合使用，先判断阶段和假设优先级，再决定最小版本的范围。

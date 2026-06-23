@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-time-management
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 3000
+  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "时间管理"
@@ -51,6 +51,7 @@ related:
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-deep-review]]'
   - '[[yt-personal-checklist-notes]]'
+
 ---
 # 时间管理
 

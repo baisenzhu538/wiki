@@ -1,11 +1,12 @@
 ---
+
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: []
@@ -48,6 +49,7 @@ author: 老顽童
 related:
 - master-cognitive-bias-checklist
 - case-five-step-fake-vs-real-barriers
+
 ---
 # 暗知识：五步法中的主要认知偏差
 

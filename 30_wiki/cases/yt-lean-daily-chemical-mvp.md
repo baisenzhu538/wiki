@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_person: 张磊
@@ -53,6 +54,7 @@ diagnostic_signals:
 - signal: 用"我觉得有市场"替代对标和一线调研
   framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
+
 ---
 
 # 日化沐浴露MVP：不生产产品验证行业机会

@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-眼高手低转化法
 title: 技能：眼高手低转化法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-用一堂方法论找最佳实践并拉满执行]]'
   - '[[skill-月白-AI去字-稿定设计加字工作流]]'
   - '[[skill-月白-三步作业反馈法]]'
+
 ---
 # 技能：眼高手低转化法
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——收入模式
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们尝试了很多收入模式，都不成功'"
     framework_lens: 收入模式——需要系统化选择，不是随机尝试
     follow_up_question: "你系统评估过每种收入模式与内核的匹配度吗？"
+
 ---
 
 # 收入模式：6种典型变现方式

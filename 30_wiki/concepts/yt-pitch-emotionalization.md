@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-pitch-emotionalization
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-- personal
+  - content-production- personal
 - yitang
 estimated_tokens: 1600
 language: zh-CN
@@ -44,6 +45,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 讲香·情绪化
 
 > 十指模型右手第三指——向上抽象。让用户从波澜不惊到涌现情绪——恐惧、向往、好奇、认同，一旦情绪被唤起，理性防线就不再坚固。

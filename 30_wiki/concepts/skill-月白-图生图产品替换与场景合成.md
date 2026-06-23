@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-图生图产品替换与场景合成
 title: 技能：图生图产品替换与场景合成
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-设计参考图精准定位法]]'
   - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
   - '[[skill-月白-实物包装落地训练法]]'
+
 ---
 # 技能：图生图产品替换与场景合成
 

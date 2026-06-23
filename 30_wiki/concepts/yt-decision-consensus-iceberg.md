@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-decision-consensus-iceberg
 component_of:
 - yt-decision-y-model
@@ -7,7 +8,7 @@ confidence: 0.82
 created_at: 2026-05-17
 difficulty: advanced
 domain:
-- yitang
+  - decision- yitang
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -73,6 +74,7 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-habit-shift]]'
 author: 老顽童
+
 ---# 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
 
 

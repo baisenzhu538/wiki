@@ -1,4 +1,5 @@
 ---
+
 id: framework-wanghuan-harness-seven-stages
 title: 王欢：Harness 七阶段 AI 构建流程
 type: framework
@@ -13,7 +14,8 @@ source_refs:
 - "10_raw/sources/src_20260619_1ffb2cef_wanghuan_harness的七个阶段_示意图.md"
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -45,6 +47,7 @@ tags:
 - 多智能体
 - 软件构建
 - 质量门控
+
 ---
 
 # 王欢：Harness 七阶段 AI 构建流程

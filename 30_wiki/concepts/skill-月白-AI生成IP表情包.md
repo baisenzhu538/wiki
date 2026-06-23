@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI生成IP表情包
 title: 技能：AI生成IP表情包
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -34,6 +35,7 @@ related:
   - '[[skill-月白-基于基础形象做动作延展（1到10）]]'
   - '[[skill-月白-风格探索试错法]]'
   - '[[skill-月白-AIGC生成人物证件照]]'
+
 ---
 # 技能：AI生成IP表情包
 

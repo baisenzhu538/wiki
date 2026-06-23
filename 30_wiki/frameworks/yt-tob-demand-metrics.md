@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: 客户决策链长、成交慢，但团队仍按 To C 的"情绪价值"逻辑推销
   framework_lens: To B 收入本质
   follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
+
 ---
 > "我们做 To B 的，你的收入就是你服务对象的成本。" ——徐剑，To B 五步法口述稿 §需求测算（oral ~1366-1577）；课堂笔记 §2 亦将"成本占有率 + 业务天花板"列为需求测算双指标。
 

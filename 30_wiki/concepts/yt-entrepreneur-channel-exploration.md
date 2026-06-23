@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-channel-exploration
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1822
+  - entrepreneurshipestimated_tokens: 1822
 language: zh-CN
 query_triggers:
   - "渠道探索"
@@ -50,6 +50,7 @@ related:
   - '[[yt-entrepreneur-growth-flywheel]]'
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-entrepreneur-fundraising]]'
+
 ---
 # 渠道探索
 

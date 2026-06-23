@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——加减法
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户功能越来越多，但核心功能体验下降"
     framework_lens: 产品内核加减法——资源分散，核心受损
     follow_up_question: "新增功能的开发资源，是否占用了核心功能的优化资源？"
+
 ---
 
 # 产品内核的加减法：什么该加，什么该减

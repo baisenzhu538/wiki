@@ -1,12 +1,11 @@
 ---
+
 id: skill-三层目标对齐法
 title: "技能：三层目标对齐法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "一年前定的三层目标，现在还在用"
     lens: "目标过时"
     follow_up: "每月/每季度检查一次对齐情况，超过3个月没更新可能已经完全不匹配了"
+
 ---
 # 技能：三层目标对齐法
 

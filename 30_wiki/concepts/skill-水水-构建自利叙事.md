@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-构建自利叙事
 title: 技能：构建自利叙事
 type: "tool"
 domain:
-- healthcare
+  - personal-growth
+  - decision- healthcare
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-区分风险与不确定性]]'
   - '[[skill-水水-利用基因漂变视角]]'
   - '[[skill-水水-利用叙事驱动决策]]'
+
 ---
 # 技能：构建自利叙事
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 title: "一堂案例必修课"
 type: concept
 status: reviewed
@@ -10,8 +11,7 @@ source_refs:
 id: yt-case-mandatory-cases
 created_at: 2026-05-05
 domain:
-  - yitang
-yitang:
+  - yitangyitang:
   map: entrepreneur
   module: "案例学习"
   course_id: yt-case-001
@@ -32,6 +32,7 @@ related:
   - '[[sprint-2-门禁举证验收]]'
   - '[[开源HIS系统代码深度分析报告]]'
   - '[[EC工业化规范手册]]'
+
 ---
 # 一堂案例必修课
 

@@ -1,12 +1,12 @@
 ---
 
+
 id: yt-model-management-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 2225
+  - modelingestimated_tokens: 2225
 language: zh-CN
 query_triggers:
   - "五阶成长路径"
@@ -41,6 +41,7 @@ author: "老顽童"
 trust_level: medium-high
 related:
   - "[[yt-management-business-formula]]"
+
 ---
 # 一堂管理地图：高潜力管理者修炼全景图
 

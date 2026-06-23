@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-产品白底图标准化制作
 title: 技能：产品白底图标准化制作
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-80分效率设计策略]]'
   - '[[skill-月白-AIGC设计作业复盘法]]'
   - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
+
 ---
 # 技能：产品白底图标准化制作
 

@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-entrepreneur-key-hypotheses
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 4200
 language: zh-CN
 prerequisites:
@@ -53,6 +54,7 @@ diagnostic_signals:
   follow_up_question: 你的验证计划中，价值假设和增长假设各占多少比例？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 关键假设259工具与假设验证三板斧
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。一堂报名听课人数超过11万人的第一节必修课。通过"2阶段划分+5步拆解法+9要素画布"将复杂商业逻辑结构化，帮助创业者从"美好愿望驱动"转向"假设驱动"，实现"先胜后战"。[[yitang-course-map]] | [[yt-system-course-catalog]]

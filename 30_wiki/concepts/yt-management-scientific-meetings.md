@@ -1,9 +1,10 @@
 ---
+
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - yitang
 status: enriched
@@ -40,6 +41,7 @@ related:
 - yt-decision-consensus-iceberg
 - yt-panproduct-execution-management-trilogy
 - yt-tool-meeting-designer
+
 ---
 
 # 科学开会

@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-hypothesis-validation-three-axe
 title: "技能：假设验证三板斧"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂关键假设课
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
@@ -55,6 +54,7 @@ diagnostic_signals:
   - signal: "产品没跑通就在验证能不能扩大"
     lens: "价值/增长假设混淆"
     follow_up: "先验证价值假设，再验证增长假设，顺序不可颠倒"
+
 ---
 # 技能：假设验证三板斧
 

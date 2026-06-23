@@ -1,4 +1,5 @@
 ---
+
 id: skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 title: 技能：清洗资料为 Markdown 格式喂给 AI
 type: tool
@@ -17,7 +18,7 @@ related:
   - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
 domain:
   - ai-collaboration
-source_person: 半肥猫
+  - yitangsource_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 tools_required:
   - 文本编辑工具
@@ -28,6 +29,7 @@ updated_at: '2026-06-19'
 diagnostic_signals:
   - source_refs 为空，原始来源未归档至 10_raw/sources/
   - 清洗成本与信息损失的量化证据不足
+
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

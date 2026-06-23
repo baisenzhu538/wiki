@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "竞品做了某个功能，我们也得做"
     framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
     follow_up_question: "竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？"
+
 ---
 
 # 需求层次模型：真需求、伪需求与衍生需求

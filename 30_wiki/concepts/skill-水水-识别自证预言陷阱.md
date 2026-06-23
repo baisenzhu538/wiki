@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-识别自证预言陷阱
 title: 技能：识别自证预言陷阱
 type: "tool"
 domain:
-- management
+  - personal-growth
+  - decision- management
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-利用基因漂变视角]]'
   - '[[skill-水水-利用叙事驱动决策]]'
   - '[[skill-水水-构建自利叙事]]'
+
 ---
 # 技能：识别自证预言陷阱
 

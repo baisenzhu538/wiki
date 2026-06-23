@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-qualitative-quantitative-research
 title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 author: 张磊
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: 只看泛化指标（如使用时长、点击率），不落到核心转化率/复购率
   framework_lens: 产品内核验证必须锚定业务公式的核心节点；指标只有放在单元模型的核心转化率上才有统计意义
   follow_up_question: 这个指标如果变好，能否直接推导出单元模型成立？它对应业务公式中的哪一个核心转化率或复购率？
+
 ---
 
 # 定性调研与定量调研的边界：证伪优先、阶段匹配

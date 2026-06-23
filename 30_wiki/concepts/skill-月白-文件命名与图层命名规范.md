@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-文件命名与图层命名规范
 title: 技能：文件命名与图层命名规范
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-AI图片印刷落地预处理]]'
   - '[[skill-月白-眼高手低训练法]]'
   - '[[skill-月白-PS图层规范管理]]'
+
 ---
 # 技能：文件命名与图层命名规范
 

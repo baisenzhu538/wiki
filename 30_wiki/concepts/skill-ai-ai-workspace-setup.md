@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-prd-for-ai]]'
   - '[[structured-ai-workspace]]'
   - '[[skill-ai-old-small-checklist]]'
+
 ---
 # 技能：结构化AI工作空间搭建
 

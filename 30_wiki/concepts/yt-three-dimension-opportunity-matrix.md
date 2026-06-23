@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -12,7 +13,7 @@ confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 1000
 language: zh-CN
 review_date: 2026-06-10
@@ -47,6 +48,7 @@ related:
   - '[[source-code-delivery-model]]'
   - '[[case-ai-time-management-tiered-growth]]'
   - '[[yt-foresight-addition-subtraction]]'
+
 ---# 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]

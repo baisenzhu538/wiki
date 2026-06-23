@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——增长规模化陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'我们复制了别人的增长策略，但没用'"
     framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
     follow_up_question: "别人的增长策略的前提条件是什么？你的条件是否匹配？"
+
 ---
 
 # 增长规模化陷阱

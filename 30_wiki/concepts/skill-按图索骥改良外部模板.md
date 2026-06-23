@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-按图索骥改良外部模板
 title: 技能：按图索骥改良外部模板
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -31,6 +32,7 @@ related:
   - '[[skill-敏捷发布快速迭代搭建体系]]'
   - '[[skill-城市合伙人模式复制能力]]'
   - '[[skill-通过请吃饭获取行业内部资料]]'
+
 ---
 # 技能：按图索骥改良外部模板
 

@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-复盘推演练习
 title: 技能：复盘推演练习
 type: "tool"
 domain:
-- kdo
+  - learning-methodology- kdo
 - decision-making
 - yitang
 status: draft
@@ -34,6 +35,7 @@ related:
   - '[[skill-代入场景推演要素法]]'
   - '[[skill-ai辅助学习]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：复盘推演练习
 

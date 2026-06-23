@@ -1,12 +1,11 @@
 ---
+
 id: skill-辩证讨论法
 title: "技能：辩证讨论法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "讨论得很热闹但结束后发现什么都没记录下来"
     lens: "无产出讨论"
     follow_up: "讨论必须有结论、分歧记录、下一步动作。没有产出的讨论只是社交"
+
 ---
 # 技能：辩证讨论法
 

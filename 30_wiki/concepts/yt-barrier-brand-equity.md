@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——品牌资产
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的品牌溢价能力弱'"
     framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
     follow_up_question: "你的品牌信任度如何？用户是否愿意为品牌付溢价？"
+
 ---
 
 # 品牌资产：认知与信任

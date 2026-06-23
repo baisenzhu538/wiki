@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - decision-making
 - yitang
 - business-strategy
@@ -34,6 +35,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：区分获客渠道计算单元ROI
 

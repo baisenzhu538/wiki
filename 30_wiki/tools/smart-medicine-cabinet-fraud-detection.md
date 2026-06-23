@@ -1,11 +1,12 @@
 ---
 
+
 id: smart-medicine-cabinet-fraud-detection
 title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
 status: enriched
 domain:
-- healthcare
+  - healthcare- healthcare
 - pharmaceutical-retail
 - risk-warning
 source_refs:
@@ -36,6 +37,7 @@ query_triggers:
 - 自助售药机投资陷阱
 - 药柜高收益承诺
 difficulty: intermediate
+
 ---# 智能药柜/智慧药房招商骗局识别清单
 
 > **核心定位**：智能药柜/智慧药房招商领域存在典型骗局模式。本卡以"修正未来智慧药房"等案例为镜鉴，提供招商合作前的风险识别 checklist。

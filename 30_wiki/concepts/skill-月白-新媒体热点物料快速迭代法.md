@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-新媒体热点物料快速迭代法
 title: 技能：新媒体热点物料快速迭代法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-正向反馈强化AI生成]]'
   - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
   - '[[skill-月白-AI生成图片排版控制-尺寸优先法]]'
+
 ---
 # 技能：新媒体热点物料快速迭代法
 

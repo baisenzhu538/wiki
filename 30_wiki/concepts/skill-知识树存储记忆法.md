@@ -1,12 +1,11 @@
 ---
+
 id: skill-知识树存储记忆法
 title: "技能：知识树存储记忆法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "所有东西都在一个文件夹里，靠搜索关键字找"
     lens: "结构混乱"
     follow_up: "任意一个枝干，10秒内能找到它的根（属于哪个主干）。结构混乱的知识树无法有效提取"
+
 ---
 # 技能：知识树存储记忆法
 

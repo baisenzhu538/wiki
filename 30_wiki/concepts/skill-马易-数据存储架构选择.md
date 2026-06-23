@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-数据存储架构选择
 title: 技能：数据存储架构选择
 type: "tool"
 domain:
-- management
+  - ai-collaboration
+  - yitang- management
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AIGC项目ROI评估]]'
   - '[[skill-马易-公寓获客自跑通原则]]'
   - '[[skill-马易-减少输入噪音法]]'
+
 ---
 # 技能：数据存储架构选择
 

@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-口喷式设计工作流
 title: 技能：口喷式设计工作流
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-基于基础形象做动作延展（1到10）]]'
   - '[[skill-月白-表情包风格筛选与确定]]'
   - '[[skill-月白-电商白底图生成与高清重绘]]'
+
 ---
 # 技能：口喷式设计工作流
 

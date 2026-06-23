@@ -1,11 +1,11 @@
 ---
+
 id: master-ai-info-literacy
 title: AI时代信息素养框架
 type: framework
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——AI时代信息素养三层防护框架
 source_refs:
   - src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md
@@ -25,6 +25,7 @@ related:
   - '[[master-first-principles]]'
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
+
 ---
 # AI时代信息素养框架
 

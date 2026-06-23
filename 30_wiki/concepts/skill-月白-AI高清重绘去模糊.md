@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI高清重绘去模糊
 title: 技能：AI高清重绘去模糊
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-口喷式设计工作流]]'
   - '[[skill-月白-表情包风格筛选与确定]]'
   - '[[skill-月白-AIGC生成人物证件照]]'
+
 ---
 # 技能：AI高清重绘去模糊
 

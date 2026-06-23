@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
@@ -9,7 +10,7 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-- yitang
+  - ai-saas- yitang
 - ai-collaboration
 - product
 created_at: '2026-06-13'
@@ -45,6 +46,7 @@ diagnostic_signals:
 - signal: 用户说"开头留不住人，3 秒就划走"
   framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 第一集前 30 秒是否让观众看到主角的欲望、日常被打破，以及不得不行动的理由？
+
 ---
 # 框架三板斧：短剧英雄之旅结构工具
 

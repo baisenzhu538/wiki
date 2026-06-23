@@ -1,10 +1,11 @@
 ---
+
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
+  - yitang- entrepreneur
 - master
 - ai
 estimated_tokens: 2600
@@ -55,6 +56,7 @@ diagnostic_signals:
   framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-18'
+
 ---
 # AI+单元模型：TCP-R双导师与出口式咨询实践
 

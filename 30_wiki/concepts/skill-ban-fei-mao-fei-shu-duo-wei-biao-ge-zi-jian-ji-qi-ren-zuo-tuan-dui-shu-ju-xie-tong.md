@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -33,6 +35,7 @@ diagnostic_signals:
 - signal: "机器人上线前未经过小范围灰度测试"
   lens: "风险控制"
   follow_up: "是否有试点用户、预期行为清单和一键停用/回滚方案？"
+
 ---
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 

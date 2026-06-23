@@ -1,10 +1,11 @@
 ---
+
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-- personal-methods
+  - personal-growth- personal-methods
 language: zh-CN
 query_triggers:
 - AI思维卡
@@ -45,6 +46,7 @@ diagnostic_signals:
   follow_up_question: 这张卡与已有哪张卡冲突或互补？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 # AI思维卡：从「读书」到「安装认知补丁」
 

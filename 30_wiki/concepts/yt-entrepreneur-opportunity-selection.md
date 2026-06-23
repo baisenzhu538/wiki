@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-opportunity-selection
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1849
+  - entrepreneurshipestimated_tokens: 1849
 language: zh-CN
 query_triggers:
   - "机会选择"
@@ -51,6 +51,7 @@ related:
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-business-growth]]'
+
 ---
 # 机会选择
 

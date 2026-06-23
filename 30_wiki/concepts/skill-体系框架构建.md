@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-体系框架构建
 title: 技能：体系框架构建
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - management
 - design
 - yitang
@@ -35,6 +36,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-费曼学习法三句话提炼]]'
   - '[[skill-专家访谈学习]]'
+
 ---
 # 技能：体系框架构建
 

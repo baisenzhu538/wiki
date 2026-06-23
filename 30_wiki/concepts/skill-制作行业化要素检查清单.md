@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-制作行业化要素检查清单
 title: 技能：制作行业化要素检查清单
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - design
 - business-strategy
 status: draft
@@ -32,6 +33,7 @@ related:
   - '[[skill-遵循规模前倾原则设计组织架构]]'
   - '[[skill-使用优先级快筛卡锁定核心矛盾]]'
   - '[[skill-设计对抗效果追踪看板]]'
+
 ---
 # 技能：制作行业化要素检查清单
 

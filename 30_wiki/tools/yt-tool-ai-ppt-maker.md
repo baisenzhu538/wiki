@@ -1,12 +1,11 @@
 ---
+
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
 type: tool
 status: enriched
 domain:
-  - design
-  - personal-growth
-source_person: Leo/一堂AI设计课讲师
+  - designsource_person: Leo/一堂AI设计课讲师
 source_context: 一堂 AI 设计-文创案例设计课口述，PPT 生成方法片段（txt:4532-4546）
 source_refs:
   - 10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt
@@ -51,6 +50,7 @@ diagnostic_signals:
     framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
     follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
+
 ---
 # AI对话式PPT生成器：把排版变成说话
 

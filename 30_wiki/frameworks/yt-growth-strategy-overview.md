@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——增长策略总纲
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们增长很快，但留不住用户'"
     framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
     follow_up_question: "你的留存率是多少？用户流失的原因是什么？"
+
 ---
 
 # 增长策略总纲：从商业模式到增长飞轮

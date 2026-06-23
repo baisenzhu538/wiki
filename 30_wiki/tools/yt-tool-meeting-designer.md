@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-meeting-designer
 title: 会议设计师：一页纸会议蓝图
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -53,6 +54,7 @@ diagnostic_signals:
   framework_lens: 设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制
   follow_up_question: 团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删
 author: 老顽童
+
 ---
 # 会议设计师：一页纸会议蓝图
 

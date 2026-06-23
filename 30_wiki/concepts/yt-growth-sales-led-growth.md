@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——销售驱动增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'销售成本太高'"
     framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
     follow_up_question: "你的销售CAC是多少？销售效率（人均产出）是多少？"
+
 ---
 
 # 销售驱动增长：SLG模式

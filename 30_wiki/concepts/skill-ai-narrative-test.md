@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-构建自利叙事]]'
   - '[[skill-水水-降低故事逻辑要求]]'
   - '[[sk-ai-purpose-bias-check]]'
+
 ---
 # 技能：你的方案有叙事力吗？快速测试
 

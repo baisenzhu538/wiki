@@ -1,12 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
@@ -59,6 +60,7 @@ related:
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
+
 ---
 # 259里程碑
 

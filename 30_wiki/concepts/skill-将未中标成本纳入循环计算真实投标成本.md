@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-将未中标成本纳入循环计算真实投标成本
 title: 技能：将未中标成本纳入循环计算真实投标成本
 type: "tool"
 domain:
-- management
+  - entrepreneurship- management
 - decision-making
 - yitang
 - business-strategy
@@ -34,6 +35,7 @@ related:
   - '[[skill-对标借鉴他人决策维度]]'
   - '[[skill-ai辅助学习]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：将未中标成本纳入循环计算真实投标成本
 

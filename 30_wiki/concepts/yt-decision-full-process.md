@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-decision-full-process
 component_of:
 - yt-decision-y-model
@@ -7,7 +8,7 @@ confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+  - decision- yitang
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -97,6 +98,7 @@ diagnostic_signals:
   framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
   follow_up_question: 最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地
 author: 老顽童
+
 ---# 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 
 

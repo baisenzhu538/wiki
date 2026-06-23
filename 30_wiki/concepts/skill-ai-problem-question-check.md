@@ -1,12 +1,12 @@
 ---
+
 id: skill-ai-problem-question-check
 title: "技能：Problem vs Question 区分法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
@@ -50,6 +50,7 @@ diagnostic_signals:
   - signal: "分类后没有后续行动，problem也停留在认知层面"
     lens: "分类即终点"
     follow_up: "分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类"
+
 ---# 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

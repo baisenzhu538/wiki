@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI一句话改图尺寸
 title: 技能：AI一句话改图尺寸
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-AIGC设计作业复盘法]]'
   - '[[skill-月白-商业项目AI模型选型决策]]'
   - '[[skill-月白-AI工艺图人工复核法]]'
+
 ---
 # 技能：AI一句话改图尺寸
 

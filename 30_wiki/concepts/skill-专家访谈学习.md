@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-专家访谈学习
 title: 技能：专家访谈学习
 type: "tool"
 domain:
-- yitang
+  - research- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -33,6 +34,7 @@ related:
   - '[[skill-对标借鉴他人决策维度]]'
   - '[[skill-ai辅助学习]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：专家访谈学习
 

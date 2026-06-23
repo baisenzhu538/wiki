@@ -1,12 +1,11 @@
 ---
+
 id: skill-动手建模法
 title: "技能：动手建模法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "模型里的分类，不同人/不同时间分类结果不一致"
     lens: "维度不客观"
     follow_up: "分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致"
+
 ---
 # 技能：动手建模法
 

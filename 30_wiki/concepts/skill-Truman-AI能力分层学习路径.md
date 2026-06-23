@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-Truman-AI能力分层学习路径
 title: 技能：AI能力分层学习路径
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-Truman-Feature特性层训练法]]'
   - '[[skill-Truman-AI场景探索STAR模型]]'
   - '[[skill-Truman-数学题与语文题区分法]]'
+
 ---
 # 技能：AI能力分层学习路径
 

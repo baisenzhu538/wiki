@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——技术护城河
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的技术投入大，但回报不明显'"
     framework_lens: 技术护城河——技术投入需要与商业目标对齐
     follow_up_question: "你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？"
+
 ---
 
 # 技术护城河：专利与研发

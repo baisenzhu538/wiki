@@ -1,12 +1,14 @@
 ---
 
 
+
 id: skill-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: "tool"
 status: draft
 domain:
-- AI
+  - ai-collaboration
+  - yitang- AI
 - 落地
 - 评估
 source_person: 马易
@@ -34,6 +36,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：AI落地场景四要素评估法
 

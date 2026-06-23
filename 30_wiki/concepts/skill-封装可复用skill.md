@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-封装可复用skill
 title: 技能：封装可复用Skill
 type: "tool"
 domain:
-- ai-saas
+  - learning-methodology- ai-saas
 - management
 - kdo
 - yitang
@@ -35,6 +36,7 @@ related:
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：封装可复用Skill
 

@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -43,6 +44,7 @@ diagnostic_signals:
 - signal: 入围进了客户供应商名单，但每次拿单仍要重新打价格战、拼关系，利润被长期侵蚀
   framework_lens: 采购方式矩阵
   follow_up_question: 客户采购属于入围型、一次性采购还是周期性采购？每种形态对应的销售投入、利润设计和现金流结构是什么？
+
 ---# To B 解决方案类型矩阵
 
 > "To B 业务不存在唯一的标准答案，关键是把业务按多个维度拆清楚：交付形式上是标品还是定制、履约周期上是一次性完成还是需要持续服务、采购方式上是入围型/一次性/周期性。这三个维度交叉组合，才能判断你真正的商业模式和单元模型。" ——徐剑《To B 五步法》口述稿（约 1906–2278 行）；课堂笔记 §3 将其归纳为"模式选择：根据标准化程度和履约方式选择产品型、服务型或项目型"。

@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-人生红点战略对齐
 title: 技能：人生红点战略对齐
 type: "tool"
 domain:
-- decision-making
+  - personal-growth- decision-making
 - yitang
 status: draft
 source_person: 一堂课程
@@ -32,6 +33,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：人生红点战略对齐
 

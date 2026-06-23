@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-线下实体门店设计真实体感验证
 title: 技能：线下实体门店设计真实体感验证
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-正向反馈强化AI生成]]'
   - '[[skill-月白-实物包装落地训练法]]'
   - '[[skill-月白-AI工艺图人工复核法]]'
+
 ---
 # 技能：线下实体门店设计真实体感验证
 

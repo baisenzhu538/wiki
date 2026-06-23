@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-quantitative-estimation
 title: 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.91
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"市场规模估算四种方法"
 source_refs:
   - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "用户说'市场很大，我们拿1%就够了'"
     framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
     follow_up_question: "为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？"
+
 ---
 
 # 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值

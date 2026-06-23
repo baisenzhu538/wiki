@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——从商业模式到增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户增长和商业模式脱节"
     framework_lens: 从商业模式到增长——增长策略必须服务商业模式
     follow_up_question: "你的增长策略是否强化了商业模式？还是削弱了？"
+
 ---
 
 # 从商业模式到增长：承上启下

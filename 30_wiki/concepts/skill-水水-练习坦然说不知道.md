@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-练习坦然说不知道
 title: 技能：练习坦然说不知道
 type: "tool"
 domain:
-- marketing
+  - personal-growth
+  - decision- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-利用叙事驱动决策]]'
   - '[[skill-水水-利用基因漂变视角]]'
   - '[[skill-水水-构建自利叙事]]'
+
 ---
 # 技能：练习坦然说不知道
 

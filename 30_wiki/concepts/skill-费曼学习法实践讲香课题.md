@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-费曼学习法实践讲香课题
 title: 技能：费曼学习法实践（讲香课题）
 type: "tool"
 domain:
-- design
+  - learning-methodology- design
 - yitang
 - decision-making
 status: draft
@@ -32,6 +33,7 @@ related:
   - '[[skill-清单式笔记法]]'
   - '[[skill-逐字稿练习演讲]]'
   - '[[skill-专家访谈十步法]]'
+
 ---
 # 技能：费曼学习法实践（讲香课题）
 

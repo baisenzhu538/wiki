@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
@@ -19,7 +20,7 @@ source_refs:
 - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 status: enriched
 domain:
-- yitang
+  - decision- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -74,6 +75,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
+
 ---
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 

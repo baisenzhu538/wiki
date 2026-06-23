@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-hypothesis-test
 confidence: 0.9
 created_at: 2026-05-18
 difficulty: advanced
 domain:
-- yitang
+  - research- yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -61,6 +62,7 @@ diagnostic_signals:
 updated_at: '2026-06-18'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 # 假设验证调研工具：关键假设→可证伪问题→最小实验
 

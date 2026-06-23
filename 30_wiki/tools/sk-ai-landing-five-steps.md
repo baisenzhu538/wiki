@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: "tool"
@@ -7,7 +8,8 @@ source_refs:
   - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -33,6 +35,7 @@ diagnostic_signals:
 - signal: 老板要求快速全量替换人工
   framework_lens: 慢上线与平行运行
   follow_up_question: 是否有3个月的平行运行计划和明确的回退方案？
+
 ---
 # 技能：AI落地五步执行清单
 

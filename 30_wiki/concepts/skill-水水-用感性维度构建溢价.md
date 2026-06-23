@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
 type: "tool"
 domain:
-- design
+  - personal-growth
+  - decision- design
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-利用基因漂变视角]]'
   - '[[skill-水水-利用叙事驱动决策]]'
   - '[[skill-水水-构建自利叙事]]'
+
 ---
 # 技能：用感性维度构建溢价
 

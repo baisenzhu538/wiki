@@ -1,10 +1,11 @@
 ---
+
 id: skill-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - note-taking
 language: zh-CN
 version: 2
@@ -65,6 +66,7 @@ diagnostic_signals:
   - signal: "AI无法正确解析笔记结构"
     lens: "机器可读性差"
     follow_up: "将4层及以上嵌套压缩到3层以内，并统一列表符号"
+
 ---
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 

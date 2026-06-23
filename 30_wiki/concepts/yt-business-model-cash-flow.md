@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——现金流管理
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们先烧钱，以后再盈利'"
     framework_lens: 现金流管理——烧钱需要计划，不是无限
     follow_up_question: "你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？"
+
 ---
 
 # 现金流管理：商业模式的血液循环

@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-market-size-pitfalls
 title: 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——市场规模估算的常见误区
 source_refs:
   - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户假设市场静态，忽视增长率和竞争进入"
     framework_lens: 静态假设——市场是会变化的
     follow_up_question: "这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？"
+
 ---
 
 # 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"

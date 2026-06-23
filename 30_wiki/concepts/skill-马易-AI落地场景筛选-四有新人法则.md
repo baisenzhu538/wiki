@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-马易-AI落地场景筛选-四有新人法则
 title: 技能：AI落地场景筛选-四有新人法则
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-马易-数字员工FD拆解落地]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
   - '[[skill-马易-减少输入噪音法]]'
+
 ---
 # 技能：AI落地场景筛选-四有新人法则
 

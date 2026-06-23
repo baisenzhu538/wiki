@@ -1,12 +1,12 @@
 ---
 
+
 id: yt-scale-economy-weapon-library
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2200
+  - yitangestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "规模经济"
@@ -42,6 +42,7 @@ updated_at: 2026-06-16
 author: "老顽童"
 related:
   - "case-ether-online-acquisition"
+
 ---
 # 规模经济分析武器库
 

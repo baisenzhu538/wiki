@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——漏斗优化
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们不知道用户在哪个环节流失'"
     framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
     follow_up_question: "你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？"
+
 ---
 
 # 漏斗优化：从认知到付费

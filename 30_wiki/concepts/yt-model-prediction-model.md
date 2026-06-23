@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2226
+  - modelingestimated_tokens: 2226
 language: zh-CN
 query_triggers:
   - "三种预判范式"
@@ -46,6 +46,7 @@ related:
   - '[[yt-foresight-model-taxonomy]]'
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
+
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

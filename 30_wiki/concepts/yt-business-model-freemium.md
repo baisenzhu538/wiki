@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——免费增值
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户免费用户增长快，但服务器成本高"
     framework_lens: 免费增值模式——免费用户也有成本
     follow_up_question: "你的免费用户成本是多少？是否被付费用户覆盖？"
+
 ---
 
 # 免费增值模式：获客与变现的平衡

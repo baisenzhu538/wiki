@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——轻资产模式
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户重资产模式，但核心竞争力不在资产"
     framework_lens: 轻资产模式——核心竞争力不在资产，应考虑轻资产
     follow_up_question: "你的核心竞争力是什么？是资产、品牌、技术、还是运营？"
+
 ---
 
 # 轻资产模式：资源杠杆

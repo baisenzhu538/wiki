@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-composite-pan-product-methodology
 component_of:
 - yt-model-personal-map
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -46,6 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---## Claims
 
 ### 定义与核心框架

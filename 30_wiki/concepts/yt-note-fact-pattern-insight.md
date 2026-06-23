@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - personal-growth
 language: zh-CN
 version: 1
@@ -44,6 +45,7 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 事实→规律→见解：深度思考笔记的三段论结构
 

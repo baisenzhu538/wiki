@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——十大典型指标
 source_refs:
   - src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户指标没有基准和目标，无法判断好坏"
     framework_lens: 产品内核指标——需要基准和目标
     follow_up_question: "这个指标的基准值是多少？目标值是多少？差距原因是什么？"
+
 ---
 
 # 产品内核十大典型指标：从假设到验证的数据体系

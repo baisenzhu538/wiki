@@ -1,12 +1,12 @@
 ---
+
 id: skill-半肥猫-边学边练边沉淀的AI学习法
 title: "技能：边学边练边沉淀的 AI 学习法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - learning
-source_person: 半肥猫
+  - yitangsource_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
@@ -52,6 +52,7 @@ diagnostic_signals:
   - signal: "沉淀的工具质量差，成为粗糙传声筒"
     lens: "沉淀者水平不足"
     follow_up: "沉淀前确保自己对课程理解深入，三轮检查通过后再固化"
+
 ---
 # 技能：边学边练边沉淀的 AI 学习法
 

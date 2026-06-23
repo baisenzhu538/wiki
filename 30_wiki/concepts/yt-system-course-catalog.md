@@ -1,4 +1,5 @@
 ---
+
 id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept
@@ -6,8 +7,7 @@ source_refs:
 - src_20260614_8f80cb0f
 status: enriched
 domain:
-  - yitang
-yitang:
+  - yitangyitang:
   map: system
   module: "课程体系"
   course_type: reference
@@ -28,6 +28,7 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
+
 ---
 
 # 一堂全课程目录索引

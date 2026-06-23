@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-pan-product-practice
 component_of:
 - yt-composite-pan-product-methodology
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - personal-growth- yitang
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
@@ -48,6 +49,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 泛产品设计实操篇：需求分析与用户洞察
 
 > 来源：一堂泛产品设计实操第一课·需求篇口述（Truman）。[[yt-model-pan-product-demand-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

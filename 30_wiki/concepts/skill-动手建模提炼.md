@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-动手建模提炼
 title: 技能：动手建模提炼
 type: "tool"
 domain:
-- yitang
+  - learning-methodology- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -32,6 +33,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：动手建模提炼
 

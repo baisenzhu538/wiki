@@ -1,11 +1,11 @@
 ---
+
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单
 type: tool
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——认知偏差识别与决策训练清单
 source_refs:
   - src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
@@ -25,6 +25,7 @@ related:
   - '[[master-first-principles]]'
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
+
 ---
 # 认知偏差快速诊断清单
 

@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -42,6 +44,7 @@ diagnostic_signals:
 - signal: 用户说"产品功能很强，但用户就是不买单"
   framework_lens: 叙事力五要素检查
   follow_up_question: 用户能否在3秒内说出"这个角色和我有什么关系、不做会失去什么"？
+
 ---
 # 技能：你的方案有叙事力吗？快速测试
 

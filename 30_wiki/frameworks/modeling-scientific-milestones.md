@@ -1,4 +1,5 @@
 ---
+
 id: modeling-scientific-milestones
 title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
@@ -6,7 +7,7 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
+  - modeling- yitang
 - modeling
 - research
 created_at: '2026-06-14'
@@ -30,6 +31,7 @@ source_context: 单一 source 为完整长文档，内容充分支撑 medium-hig
 diagnostic_signals:
 - 单一 source，无第二来源交叉验证
 - source_context 自评从 high 降级为 medium，需后续事实撞击与外部专家评审
+
 ---
 
 # 科学建模七步里程碑：从边界到封装的方法论生产流程

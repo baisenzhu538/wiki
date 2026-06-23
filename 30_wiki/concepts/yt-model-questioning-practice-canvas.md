@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-questioning-practice-canvas
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1832
+  - modelingestimated_tokens: 1832
 language: zh-CN
 query_triggers:
   - "使用场景矩阵"
@@ -43,6 +43,7 @@ related:
   - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
   - '[[yt-entrepreneur-research-camp]]'
   - '[[yt-model-ipo-learning-strategy]]'
+
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

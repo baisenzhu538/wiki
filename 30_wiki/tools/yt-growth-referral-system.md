@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——推荐系统
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'推荐系统成本太高'"
     framework_lens: 推荐系统——推荐成本需要低于CAC
     follow_up_question: "你的推荐成本是多少？是否低于其他渠道的CAC？"
+
 ---
 
 # 推荐系统：老带新的设计框架

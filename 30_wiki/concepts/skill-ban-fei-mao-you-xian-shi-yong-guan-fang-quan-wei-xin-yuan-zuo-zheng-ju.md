@@ -1,11 +1,13 @@
 ---
 
+
 id: skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju
 title: 技能：优先使用官方权威信源做证据
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -40,6 +42,7 @@ diagnostic_signals:
 - trigger: AI使用宏观数据回答中国本土小微经营者场景
   lens: 贴近真实业务场景
   follow_up: 要求补充中国地区、目标用户规模、行业真实案例等本地化权威数据
+
 ---
 # 技能：优先使用官方权威信源做证据
 

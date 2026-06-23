@@ -2,11 +2,12 @@
 
 
 
+
 id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain:
-- yitang
+  - yitang- yitang
 source_refs:
 - src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01
 - src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02
@@ -53,6 +54,7 @@ related:
   - '[[yt-foresight-probability-engineering]]'
   - '[[case-truman-yitang-foresight]]'
   - '[[yt-foresight-addition-subtraction]]'
+
 ---# 十五字黄金法诀：机会预判的核心框架
 
 ## Core Claims

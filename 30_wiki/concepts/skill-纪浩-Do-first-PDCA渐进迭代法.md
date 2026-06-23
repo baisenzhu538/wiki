@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-Do-first-PDCA渐进迭代法
 title: "技能：Do-first PDCA渐进迭代法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -46,6 +46,7 @@ diagnostic_signals:
   - signal: "在错误方向上迭代，检查纠偏都在加深错误"
     lens: "方向错误"
     follow_up: "四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证"
+
 ---
 # 技能：Do-first PDCA渐进迭代法
 

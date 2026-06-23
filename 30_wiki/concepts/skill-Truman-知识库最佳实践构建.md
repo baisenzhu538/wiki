@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-知识库最佳实践构建
 title: 技能：知识库最佳实践构建
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-开源模型与商业模型融合方案]]'
   - '[[skill-Truman-AI场景探索STAR模型]]'
   - '[[skill-Truman-数学题与语文题区分法]]'
+
 ---
 # 技能：知识库最佳实践构建
 

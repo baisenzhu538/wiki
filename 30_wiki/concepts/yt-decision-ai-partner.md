@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-decision-ai-partner
 component_of:
 - yt-decision-y-model
@@ -7,7 +8,7 @@ confidence: 0.75
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+  - decision- yitang
 estimated_tokens: 1950
 language: zh-CN
 prerequisites:
@@ -65,6 +66,7 @@ diagnostic_signals:
   framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
+
 ---# AI决策Partner对话法
 
 > 来源：一堂2026年AI决策行动营。与[[yt-decision-y-model]]配套的AI协作工具，将AI从"一次性出结论的工具"重新定位为"多轮对话中的协作伙伴"，通过结构化交互流程辅助人类完成高质量决策分析。

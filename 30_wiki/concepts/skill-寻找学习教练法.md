@@ -1,12 +1,11 @@
 ---
+
 id: skill-寻找学习教练法
 title: "技能：寻找学习教练法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "没教练就不会做，独立判断力缺失"
     lens: "依赖陷阱"
     follow_up: "教练是反馈镜不是拐杖，目标是培养独立判断力而非永久依赖"
+
 ---
 # 技能：寻找学习教练法
 

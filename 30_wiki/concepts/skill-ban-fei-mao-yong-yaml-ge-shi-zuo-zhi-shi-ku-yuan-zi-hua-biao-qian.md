@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian
 title: 技能：用 YAML 格式做知识库原子化标签
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -30,6 +32,7 @@ diagnostic_signals:
 pipeline:
 - confidence-draft
 - confidence-source-cited
+
 ---
 # 技能：用 YAML 格式做知识库原子化标签
 

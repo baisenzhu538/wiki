@@ -1,4 +1,5 @@
 ---
+
 id: framework-wanghuan-five-criteria-first-product
 title: 王欢：选第一个产品场景的五条标准
 type: framework
@@ -13,7 +14,8 @@ source_refs:
 - "10_raw/sources/src_20260619_9beb9572_wanghuan_选场景五条标准_示意图.md"
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -44,6 +46,7 @@ tags:
 - MVP
 - 产品化
 - 需求验证
+
 ---
 
 # 王欢：选第一个产品场景的五条标准

@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-short-drama-conflict-three-axes
 title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
@@ -9,7 +10,7 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-- yitang
+  - ai-saas- yitang
 - ai-collaboration
 - product
 created_at: '2026-06-13'
@@ -50,6 +51,7 @@ diagnostic_signals:
 - signal: 用户说"结局像口号，不真实"
   framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角的成长是否通过具体行动或牺牲体现，而非独白/旁白？
+
 ---
 # 矛盾冲突三板斧：短剧冲突分层设计工具
 

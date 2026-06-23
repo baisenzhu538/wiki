@@ -1,4 +1,5 @@
 ---
+
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - yitangsource_person: Truman
 source_context: 一堂五步法——跨步三：从10到100的壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'壁垒建设太慢，增长等不及'"
     framework_lens: 跨步三——壁垒和增长同步建设
     follow_up_question: "你的增长行为是否在积累壁垒？"
+
 ---
 
 # 跨步三：从10到100的壁垒

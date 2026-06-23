@@ -1,10 +1,11 @@
 ---
+
 id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
 status: enriched
 domain:
-- consulting
+  - management- consulting
 - yitang
 source_refs: []
 Press.
@@ -52,6 +53,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
+
 ---# Trusted Advisor：可信顾问信任模型
 
 > 来源：Maister, Green & Galford (2000). *The Trusted Advisor*

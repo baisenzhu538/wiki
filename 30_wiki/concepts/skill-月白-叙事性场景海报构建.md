@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-叙事性场景海报构建
 title: 技能：叙事性场景海报构建
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-AIGC反向拆解法]]'
   - '[[skill-月白-80分效率设计策略]]'
   - '[[skill-月白-实物包装落地训练法]]'
+
 ---
 # 技能：叙事性场景海报构建
 

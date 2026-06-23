@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-logic-cleanliness-five-levels
 title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 type: framework
@@ -7,7 +8,7 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: 别人问我“为什么 A 在 B 前面”，我答不上来
   framework_lens: 逻辑洁癖五段位
   follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
+
 ---
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 

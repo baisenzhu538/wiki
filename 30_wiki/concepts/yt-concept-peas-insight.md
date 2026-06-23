@@ -1,10 +1,11 @@
 ---
+
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-- master
+  - yitang- master
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -42,6 +43,7 @@ diagnostic_signals:
   follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 # PEAS核心洞察：决策系统的四槽诊断法
 

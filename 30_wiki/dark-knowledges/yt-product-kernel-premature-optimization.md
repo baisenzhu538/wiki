@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——过早细化陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,6 +41,7 @@ diagnostic_signals:
   - signal: "用户团队内部争论UI细节，但核心流程未确定"
     framework_lens: 过早细化——在错误的时间关注错误的事情
     follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
+
 ---
 
 # 过早细化陷阱：在验证前追求完美

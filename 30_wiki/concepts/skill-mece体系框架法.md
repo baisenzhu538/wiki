@@ -1,12 +1,11 @@
 ---
+
 id: skill-mece体系框架法
 title: "技能：MECE体系框架法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "花三天搭建完美MECE框架，机会窗口已关闭"
     lens: "过度分析"
     follow_up: "快速变化市场中，先行动再迭代，MECE框架可边用边完善"
+
 ---
 # 技能：MECE体系框架法
 

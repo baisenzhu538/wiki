@@ -1,11 +1,11 @@
 ---
+
 id: master-knowledge-compound
 title: 知识复利：IPO+萃取+原子化复用
 type: concept
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂知识萃取探索营——知识复利与IPO萃取框架
 source_refs:
   - src_20260614_239c9f4e-一堂-知识萃取探索营.md
@@ -28,6 +28,7 @@ related:
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-knowledge-extraction]]'
   - '[[yt-personal-knowledge-management]]'
+
 ---
 # 知识复利：IPO+萃取+管理的上位整合
 

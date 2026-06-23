@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-kernel-three-questions
 title: "技能：内核要素三问验证法"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
@@ -53,6 +52,7 @@ diagnostic_signals:
   - signal: "三问通过后停止验证，把三问当成终点"
     lens: "验证停止"
     follow_up: "三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整"
+
 ---
 # 技能：内核要素三问验证法
 

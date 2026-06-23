@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-数据分层供给
 title: 技能：数据分层供给
 type: "tool"
 domain:
-- kdo
+  - learning-methodology- kdo
 - product
 - design
 - yitang
@@ -35,6 +36,7 @@ related:
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：数据分层供给
 

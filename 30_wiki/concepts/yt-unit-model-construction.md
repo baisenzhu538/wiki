@@ -1,10 +1,11 @@
 ---
+
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
+  - yitang- entrepreneur
 - master
 estimated_tokens: 3200
 language: zh-CN
@@ -71,6 +72,7 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 # 单元模型构建法：拆推评算与ABCD模型分类
 

@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-demand-analysis-hiking-map
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang
-estimated_tokens: 2400
+  - demand-analysisestimated_tokens: 2400
 language: zh-CN
 query_triggers:
   - "需求分析"
@@ -48,6 +48,7 @@ related:
 - "[[tool-demand-iceberg-l1-user]]"
 - "[[tool-demand-iceberg-l2-scenario]]"
 - "[[tool-demand-assessment-triangle]]"
+
 ---
 # 需求分析爬山地图
 

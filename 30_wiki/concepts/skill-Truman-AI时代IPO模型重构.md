@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-Truman-AI时代IPO模型重构
 title: 技能：AI时代IPO模型重构
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-Truman-个人判断力系统建设（达克效应应对）]]'
   - '[[skill-Truman-XY-Problem识别与真实问题定位]]'
   - '[[skill-Truman-AI输出审慎判断与交付确认]]'
+
 ---
 # 技能：AI时代IPO模型重构
 

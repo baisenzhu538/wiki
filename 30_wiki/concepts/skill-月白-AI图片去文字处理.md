@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI图片去文字处理
 title: 技能：AI图片去文字处理
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-Token效价比决策公式]]'
   - '[[skill-月白-控制产品画面尺寸比例]]'
   - '[[skill-月白-AIGC橱窗陈列设计流程]]'
+
 ---
 # 技能：AI图片去文字处理
 

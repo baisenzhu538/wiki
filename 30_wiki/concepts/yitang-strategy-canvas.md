@@ -1,12 +1,12 @@
 ---
 
+
 id: yitang-strategy-canvas
 confidence: 0.90
 created_at: 2026-06-17
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2200
+  - yitangestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "战略画布"
@@ -54,6 +54,7 @@ author: "老顽童"
 related:
   - '[[tool-strategy-blue-ocean-canvas]]'
   - '[[yt-unit-model-build]]'
+
 ---
 
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线

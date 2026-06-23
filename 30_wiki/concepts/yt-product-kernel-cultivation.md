@@ -2,13 +2,13 @@
 
 
 
+
 id: yt-product-kernel-cultivation
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2400
+  - productestimated_tokens: 2400
 language: zh-CN
 query_triggers:
   - "产品内核"
@@ -51,6 +51,7 @@ related:
   - '[[yt-product-ten-metrics]]'
   - '[[yt-demand-analysis-hiking-map]]'
   - '[[yt-model-product-core-metrics]]'
+
 ---
 # 产品内核修炼段位图
 

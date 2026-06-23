@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -36,6 +38,7 @@ trust_level: medium
 diagnostic_signals:
   - 标题为「三维度法」，但正文使用四要素框架，存在命名与结构不一致
   - 失败模式与边界仅基于单一路源笔记，未经过多场景实证
+
 ---
 
 # 技能：问题验证三维度法

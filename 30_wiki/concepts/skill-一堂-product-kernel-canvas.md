@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-product-kernel-canvas
 title: "一堂产品内核画布应用技能"
 type: tool
 status: enriched
 domain:
-  - yitang
-  - product-strategy
-source_person: 一堂·Truman
+  - learning-methodologysource_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
 - 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
@@ -54,6 +53,7 @@ diagnostic_signals:
   - signal: "为了达到短期指标损害长期价值"
     lens: "指标游戏"
     follow_up: "内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率"
+
 ---
 # 一堂产品内核画布应用技能
 

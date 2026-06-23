@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-b2b-b2c-hardware-content-testing
 title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -43,6 +44,7 @@ diagnostic_signals:
 - signal: 内容产品还在用Landing Page测“用户感不感兴趣”，却没人判断“课到底好不好”
   framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
+
 ---
 # ToB/ToC/硬件/内容产品的测试差异
 

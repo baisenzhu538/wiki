@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-scenario-reconstruction
 title: 用户场景重构法：使用前中后的完整体验地图
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"描述用户使用场景的三个层次"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "用户流失率高，但不知道在哪个环节流失的"
     framework_lens: 场景断点——体验地图有缺口
     follow_up_question: "用户在'使用中'的哪个节点最容易放弃？为什么？"
+
 ---
 
 # 用户场景重构法：使用前中后的完整体验地图

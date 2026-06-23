@@ -1,10 +1,11 @@
 ---
+
 title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
 status: enriched
 domain:
-- decision-science
+  - yitang- decision-science
 id: yt-unit-model-ladder
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -23,6 +24,7 @@ related:
 - '[[yt-management-scientific-decision]]'
 - '[[yt-decision-review]]'
 - '[[dk-modeling-logical-cleanliness-root]]'
+
 ---## Reusable Knowledge
 
 ### 六段进阶路径

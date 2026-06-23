@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-scientific-questioning-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1667
+  - modelingestimated_tokens: 1667
 language: zh-CN
 query_triggers:
   - "关联卡片"
@@ -43,6 +43,7 @@ related:
   - '[[yt-entrepreneur-research-camp]]'
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-model-questioning-practice-canvas]]'
+
 ---
 # 科学提问刻意练习地图
 

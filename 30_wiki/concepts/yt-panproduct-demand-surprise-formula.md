@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-demand-surprise-formula
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1127
 language: zh-CN
 prerequisites:
@@ -52,6 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 惊喜公式：理解惊喜的本质
 
 > 需求工具箱第 8 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

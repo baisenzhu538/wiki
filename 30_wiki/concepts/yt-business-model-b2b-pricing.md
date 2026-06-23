@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-b2b-pricing
 title: B2B定价策略：从SMB到Enterprise
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——B2B定价
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'我们的B2B定价是拍脑袋定的'"
     framework_lens: B2B定价策略——B2B定价需要系统化方法
     follow_up_question: "你的B2B定价是基于客户价值、竞品、还是成本？"
+
 ---
 
 # B2B定价策略：从SMB到Enterprise

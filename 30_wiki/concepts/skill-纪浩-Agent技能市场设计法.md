@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-Agent技能市场设计法
 title: "技能：Agent技能市场设计法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -48,6 +48,7 @@ diagnostic_signals:
   - signal: "团队只有1-2个Agent和3-5个Skill，不是市场是共享文件夹"
     lens: "市场幻觉"
     follow_up: "真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹"
+
 ---
 # 技能：Agent技能市场设计法
 

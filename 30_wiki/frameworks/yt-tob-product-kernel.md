@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-product-kernel
 title: To B 产品内核：面向决策者研究付费，面向使用者夯实价值
 type: framework
 status: draft
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: 为了拿下订单过度承诺定制化，导致多客户多代码分支、交付和维护成本飙升
   framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
   follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
+
 ---
 
 > **"面向使用者夯实价值，面向决策者研究付费。"**  

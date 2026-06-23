@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-AI场景探索STAR模型]]'
   - '[[skill-月白-提示词优化：信息流海报文字修复]]'
   - '[[skill-Truman-数学题与语文题区分法]]'
+
 ---
 # 技能：开源模型与商业模型融合方案
 

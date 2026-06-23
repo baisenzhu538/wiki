@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-fake-demand-detection
 title: 伪需求识别：7个危险信号
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -46,6 +45,7 @@ diagnostic_signals:
   - signal: "用户活跃度低，但问卷满意度很高"
     framework_lens: 伪需求信号7——满意度≠使用意愿
     follow_up_question: "用户说满意，但为什么不用？是场景不匹配，还是替代方案更好？"
+
 ---
 
 # 伪需求识别：7个危险信号

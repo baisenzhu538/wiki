@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -48,6 +49,7 @@ diagnostic_signals:
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 需求分析
 
 > 来源：一堂创业五步法第一步实操课（拆推评算之推演篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-map-lecture]]

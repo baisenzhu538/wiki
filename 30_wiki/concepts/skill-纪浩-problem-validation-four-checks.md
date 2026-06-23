@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-problem-validation-four-checks
 title: "技能：四问验证法 —— 判断需求是真实Problem还是伪需求"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -54,6 +54,7 @@ diagnostic_signals:
   - signal: "上级强制指派的需求，团队被动执行"
     lens: "强制性任务"
     follow_up: "四问对强制需求可能走过场，改问：如果可以选择不做，这个需求还值得做吗？"
+
 ---
 # 技能：四问验证法
 

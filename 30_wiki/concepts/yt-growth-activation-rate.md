@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——激活率
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'用户激活了，但很快就不用了'"
     framework_lens: 激活率——激活≠留存，需要设计持续价值
     follow_up_question: "用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？"
+
 ---
 
 # 激活率：让用户第一次体验到价值

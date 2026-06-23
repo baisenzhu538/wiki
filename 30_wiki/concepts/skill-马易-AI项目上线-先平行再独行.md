@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-AI项目上线-先平行再独行
 title: 技能：AI项目上线-先平行再独行
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-数字员工FD拆解落地]]'
   - '[[skill-马易-公寓获客自跑通原则]]'
   - '[[skill-马易-减少输入噪音法]]'
+
 ---
 # 技能：AI项目上线-先平行再独行
 

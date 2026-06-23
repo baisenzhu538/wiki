@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-hypothesis-test
 title: 内核假设测试：低成本验证方法
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——假设测试
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'测试太麻烦了，直接做吧'"
     framework_lens: 内核假设测试——测试是降低风险的必要投入
     follow_up_question: "直接做的风险是什么？如果方向错误，损失有多大？"
+
 ---
 
 # 内核假设测试：低成本验证方法

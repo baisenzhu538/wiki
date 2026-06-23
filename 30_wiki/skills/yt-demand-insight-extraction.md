@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
 type: skill
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——用户访谈方法
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户访谈样本太少，只有3-5个"
     framework_lens: 访谈技巧——样本不足，结论不可靠
     follow_up_question: "至少访谈了多少个用户？是否覆盖了不同用户层？"
+
 ---
 
 # 从用户访谈中提取真实需求：访谈技巧与偏见规避

@@ -1,6 +1,7 @@
 ---
 
 
+
 title: "一堂课程地图精华串讲"
 type: concept
 status: reviewed
@@ -10,8 +11,7 @@ source_refs:
 id: yt-system-course-map-lecture
 created_at: 2026-05-05
 domain:
-  - yitang
-yitang:
+  - yitangyitang:
   module: "课程体系总览"
   course_type: method
   level: foundational
@@ -35,6 +35,7 @@ related:
   - '[[yt-panproduct-execution-good-tools]]'
   - '[[yt-panproduct-aesthetic-pool]]'
   - '[[yt-panproduct-demand-project-background]]'
+
 ---
 # 一堂课程地图精华串讲
 

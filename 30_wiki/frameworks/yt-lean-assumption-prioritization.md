@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -39,6 +40,7 @@ diagnostic_signals:
 - signal: 已经进入增长讨论，但需求侧是否成立仍不清晰
   framework_lens: 需求/产品侧假设先于增长
   follow_up_question: 在验证增长渠道之前，需求假设和产品内核是否已拿到初步肯定判断？是否有真实付费或复购信号？
+
 ---
 
 # 关键假设排序：前置优先、风险高的优先

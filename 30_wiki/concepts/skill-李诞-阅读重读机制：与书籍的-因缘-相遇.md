@@ -1,11 +1,12 @@
 ---
 
 
+
 id: skill-李诞-阅读重读机制：与书籍的-因缘-相遇
 title: 技能：阅读重读机制：与书籍的'因缘'相遇
 type: "tool"
 domain:
-- personal
+  - content-production- personal
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +23,7 @@ related:
   - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
   - '[[skill-月白-产品替换式场景合成法]]'
   - '[[skill-李诞-面对过去错误的平静心法]]'
+
 ---
 # 技能：阅读重读机制：与书籍的'因缘'相遇
 

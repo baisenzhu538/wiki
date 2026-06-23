@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -46,6 +48,7 @@ diagnostic_signals:
 - signal: 生成物结构完整但缺少真实经验或业务判断痕迹
   lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
+
 ---
 
 # 王欢GAN三角色架构：生成器/判别器/合成器

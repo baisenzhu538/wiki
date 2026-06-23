@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-demand-user-perspective
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1171
 language: zh-CN
 prerequisites:
@@ -52,6 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 用户视角：一秒转化用户视角
 
 > 需求工具箱第 1 张卡片（★建议第一张出牌）。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

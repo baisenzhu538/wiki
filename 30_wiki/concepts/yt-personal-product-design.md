@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-product-design
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 3000
+  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "泛产品设计"
@@ -52,6 +52,7 @@ related:
   - '[[yt-personal-verbatim-script]]'
   - '[[yt-personal-inspiration-flash]]'
   - '[[yt-personal-pan-product-aesthetics]]'
+
 ---
 # 泛产品设计
 

@@ -1,11 +1,11 @@
 ---
+
 id: master-first-principles
 title: 第一性原理
 type: tool
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
 source_refs:
   - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
@@ -25,6 +25,7 @@ related:
   - '[[master-decision-hygiene]]'
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
+
 ---
 # 第一性原理拆解器
 

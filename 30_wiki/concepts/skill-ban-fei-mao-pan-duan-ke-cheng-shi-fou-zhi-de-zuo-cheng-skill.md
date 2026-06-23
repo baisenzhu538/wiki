@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 title: 技能：判断课程是否值得做成Skill
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
@@ -30,6 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - 使用本技能后仍频繁将无方法论课程推进到八步工作流
 - 团队因过度评估导致决策成本高于后续开发收益
+
 ---
 # 技能：判断课程是否值得做成Skill
 

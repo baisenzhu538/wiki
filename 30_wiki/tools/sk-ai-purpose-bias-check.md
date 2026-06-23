@@ -1,12 +1,14 @@
 ---
 
 
+
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: "tool"
 status: draft
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -35,6 +37,7 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：目的论偏差快速识别法
 

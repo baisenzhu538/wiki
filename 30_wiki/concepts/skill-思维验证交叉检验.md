@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-思维验证交叉检验
 title: 技能：思维验证交叉检验
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - ai-saas
 - decision-making
 - yitang
@@ -34,6 +35,7 @@ related:
   - '[[skill-主动摘要压缩上下文]]'
   - '[[skill-提示词结构化迭代]]'
   - '[[skill-渐进式披露上下文]]'
+
 ---
 # 技能：思维验证交叉检验
 

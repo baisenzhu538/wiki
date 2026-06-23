@@ -46,6 +46,53 @@ diagnostic_signals:
 | `yt-five-step-common-pitfalls` | dk | 常见误区与认知陷阱 |
 | `yt-five-step-level-blindspots` | dk | 段位盲区与自评陷阱 |
 
+## 五阶段子域
+
+### Step 1：需求判断
+
+| 卡 | 用途 |
+|:--|:--|
+| `framework-demand-iceberg` | 冰山 L1-L6 总纲 |
+| `framework-demand-usp-model` | USP 快速拆解 |
+| `framework-demand-opportunity-spectrum` | 机会频谱 |
+| `yt-demand-analysis-hiking-map` | 需求分析爬山地图 |
+| 冰山六层工具链 | `tool-demand-iceberg-l1-user` ~ `l6-hypothesis`（6 张） |
+| Agent 原生工具 | `tool-demand-agent-signals` ~ `auto-verify`（5 张） |
+| `/demand-analysis` | Skill 入口 |
+
+### Step 2：产品内核
+
+| 卡 | 用途 |
+|:--|:--|
+| `framework-lean-product-kernel` | 产品内核：从需要细分到思考内核 |
+| `framework-lean-six-wastes` | 创业六宗罪/六大浪费 |
+| `/five-step-product` | Skill 入口 |
+| 精益验证 | 见 [[lean-startup-domain-digest]] — FALSE 模型 + BML 循环 + MVP 谱系 |
+
+### Step 3：商业模式
+
+| 卡 | 用途 |
+|:--|:--|
+| `yt-unit-model-overview` | 单元模型总览 |
+| `yt-unit-model-ladder` | 单元模型段位阶梯 |
+| 商业公式系列 | `yt-business-formula-*` |
+| `/five-step-business-model` | Skill 入口 |
+
+### Step 4：增长设计
+
+| 卡 | 用途 |
+|:--|:--|
+| `yt-customer-acquisition-toolkit` | 获客工具合集 |
+| `/five-step-growth` | Skill 入口 |
+
+### Step 5：壁垒构建
+
+| 卡 | 用途 |
+|:--|:--|
+| `yt-barrier-analysis-cheat-sheet` | 壁垒分析完整 cheatsheet |
+| `yt-tob-barriers` | ToB 壁垒 |
+| `/five-step-barrier` | Skill 入口 |
+
 ## 关键案例
 
 | 卡 | 行业 | 核心教训 |

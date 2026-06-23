@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——壁垒策略总纲
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'壁垒建设太慢，增长等不及'"
     framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
+
 ---
 
 # 壁垒策略总纲：从增长到可持续优势

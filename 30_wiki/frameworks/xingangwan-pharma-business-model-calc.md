@@ -1,10 +1,11 @@
 ---
+
 id: xingangwan-pharma-business-model-calc
 title: 鑫港湾医药零售商业模型计算框架
 type: framework
 status: enriched
 domain:
-- healthcare
+  - healthcare- healthcare
 - pharmaceutical-retail
 - business-strategy
 - finance
@@ -41,6 +42,7 @@ diagnostic_signals:
 - signal: 医保报销比例、集采目录、互联网医院审方政策存在地区差异与变动风险
   framework_lens: 医保支付与政策合规
   follow_up_question: 山西各地市门诊统筹起付线、报销比例、乙类先行自付比例及审方平台收费标准是否已逐一确认？政策变化对盈亏平衡日订单的影响边界是多少？
+
 ---
 
 # 鑫港湾医药零售商业模型计算框架

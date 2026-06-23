@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -41,6 +42,7 @@ diagnostic_signals:
 - signal: 测试只用一个版本，用户反馈"还行"但无法解释为什么
   framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
+
 ---
 
 # 消费品深层体验测试：表层反馈 vs 深层体验

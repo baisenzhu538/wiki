@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-deep-review-iceberg
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2454
+  - modelingestimated_tokens: 2454
 language: zh-CN
 query_triggers:
   - "与解放思想层级的关系"
@@ -43,6 +43,7 @@ related:
   - '[[case-modeling-essence-levels]]'
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[yt-five-step-level-blindspots]]'
+
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

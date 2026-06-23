@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五种迭代方向
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——迭代方法
 source_refs:
   - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户团队对迭代方向有分歧"
     framework_lens: 产品内核迭代——迭代方向需要团队共识
     follow_up_question: "你们团队对迭代方向有共识吗？是基于数据还是主观判断？"
+
 ---
 
 # 产品内核迭代：五种迭代方向

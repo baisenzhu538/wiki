@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - modeling- yitang
 estimated_tokens: 2330
 language: zh-CN
 query_triggers:
@@ -43,6 +44,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 审美提升的层级：从看不见到大胆想象的进化路径
 
 > 来源：一堂知识地图《审美提升的层级》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-product-excellence]] | [[一堂]]

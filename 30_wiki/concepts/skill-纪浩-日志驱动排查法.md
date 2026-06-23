@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-日志驱动排查法
 title: "技能：日志驱动排查法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -48,6 +48,7 @@ diagnostic_signals:
   - signal: "日志存在本地不共享，团队其他成员无法复用排查经验"
     lens: "信息孤岛"
     follow_up: "日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录"
+
 ---
 # 技能：日志驱动排查法
 

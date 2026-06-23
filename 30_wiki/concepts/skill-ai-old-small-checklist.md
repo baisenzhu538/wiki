@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-system-redundancy]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[skill-ai-prd-for-ai]]'
+
 ---
 # 技能：“找老的干小的”场景评估清单
 

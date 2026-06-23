@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-okr-cycle
 title: OKR 制定与复盘罗盘
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -53,6 +54,7 @@ diagnostic_signals:
   framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破
   follow_up_question: 完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？
 author: 老顽童
+
 ---
 # OKR 制定与复盘罗盘
 

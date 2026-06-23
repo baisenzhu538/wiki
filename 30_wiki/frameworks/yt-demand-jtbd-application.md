@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-jtbd-application
 title: JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.91
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——JTBD框架在需求挖掘中的应用
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -43,6 +42,7 @@ diagnostic_signals:
   - signal: "团队争论'应该加什么功能'"
     framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
     follow_up_question: "这个功能能帮助用户完成什么他们现在完成不了的任务？"
+
 ---
 
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"

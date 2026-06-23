@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——"做而不信"陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'我知道用户需要什么'，但数据说不需要"
     framework_lens: 做而不信——自我认知高于数据
     follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
+
 ---
 
 # "做而不信"陷阱：执行了流程，但不相信结果

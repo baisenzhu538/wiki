@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-用清单体记备忘笔记
 title: 技能：用清单体记备忘笔记
 type: "tool"
 domain:
-- management
+  - learning-methodology- management
 - decision-making
 - yitang
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-获取他人反馈优化笔记]]'
   - '[[skill-现场建模式萃取笔记]]'
   - '[[skill-用topdown方式整理内化笔记]]'
+
 ---
 # 技能：用清单体记备忘笔记
 

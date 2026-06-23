@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-short-drama-plot-three-axes
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
@@ -9,7 +10,7 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-- yitang
+  - ai-saas- yitang
 - ai-collaboration
 - product
 created_at: '2026-06-13'
@@ -45,6 +46,7 @@ diagnostic_signals:
 - signal: 用户说"开头很炸，后面塌了"
   framework_lens: 第二板斧·高能吸睛 → 第一板斧·极致对立
   follow_up_question: 前10秒的钩子是否与核心对立绑定，能否在中点、反转、结局中不断放大？
+
 ---
 # 剧情三板斧：短剧剧本的情节张力设计工具
 

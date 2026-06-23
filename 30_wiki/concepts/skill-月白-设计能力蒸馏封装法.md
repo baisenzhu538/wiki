@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-设计能力蒸馏封装法
 title: 技能：设计能力蒸馏封装法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-餐饮海报AB测试法]]'
   - '[[skill-月白-线下门店设计复杂度评估]]'
   - '[[skill-月白-控制产品画面尺寸比例]]'
+
 ---
 # 技能：设计能力蒸馏封装法
 

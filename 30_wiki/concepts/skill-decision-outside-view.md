@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-decision-outside-view
 title: 技能：团队决策外部视角法
 type: "tool"
 status: draft
 domain:
-- 决策
+  - decision- 决策
 - 团队
 - 噪声减少
 source_person: 消化全库后提炼
@@ -37,6 +38,7 @@ related:
   - '[[master-decision-hygiene]]'
   - '[[skill-first-principles-assumption-classify]]'
   - '[[skill-cognitive-bias-12-check]]'
+
 ---
 # 技能：团队决策外部视角法
 

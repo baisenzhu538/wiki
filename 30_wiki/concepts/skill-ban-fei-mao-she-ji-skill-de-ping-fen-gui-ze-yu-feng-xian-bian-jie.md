@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: '技能：设计 Skill 的评分规则与风险边界'
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -40,6 +42,7 @@ diagnostic_signals:
 - signal: 高风险场景下 Skill 没有触发额外审查或降级输出
   lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
+
 ---
 # 技能：设计 Skill 的评分规则与风险边界
 

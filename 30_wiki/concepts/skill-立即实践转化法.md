@@ -1,12 +1,11 @@
 ---
+
 id: skill-立即实践转化法
 title: "技能：立即实践转化法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "只是在脑子里想了想怎么应用，没有具体输出物"
     lens: "脑内实践"
     follow_up: "实践必须产出可展示的结果（文档/产品/代码片段），脑内实践是自我欺骗"
+
 ---
 # 技能：立即实践转化法
 

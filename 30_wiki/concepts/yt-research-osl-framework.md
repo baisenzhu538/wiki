@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-research-osl-framework
 title: OSL调研五步法：一堂通用商业调研框架
 type: framework
@@ -13,7 +14,7 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+  - research- yitang
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -64,6 +65,7 @@ diagnostic_signals:
 - signal: 团队调研了2周，报告写了50页，但说不出最关键的一个结论
   framework_lens: 调研广度过剩、深度不足——缺少关键假设上的收敛
   follow_up_question: 如果现在必须用一句话回答调研目标（OSL Step 1），你会说什么？
+
 ---
 # OSL调研五步法：一堂通用商业调研框架
 

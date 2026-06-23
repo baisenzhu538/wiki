@@ -1,5 +1,6 @@
 ---
 
+
 title: 业务公式
 type: concept
 source_refs:
@@ -9,7 +10,7 @@ source_refs:
 - src_20260614_6d9f7671-业务公式拆解培训
 status: enriched
 domain:
-- yitang
+  - management- yitang
 - master
 - business-strategy
 confidence: 0.92
@@ -43,6 +44,7 @@ id: yt-management-business-formula
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
+
 ---# 业务公式
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（导入篇/建立公式/参数探索/逻辑关系）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

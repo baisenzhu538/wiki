@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-AI工具脚本化约束
 title: "技能：AI工具脚本化约束"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
 - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
@@ -38,6 +38,7 @@ diagnostic_signals:
   - signal: "脚本维护成本高，改一处坏多处"
     lens: "脚本耦合"
     follow_up: "脚本模块化设计，每个脚本只做一件事。做好版本控制，变更前测试兼容性"
+
 ---# 技能：AI工具脚本化约束
 
 - **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-deliberate-practice
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 3000
+  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "刻意练习"
@@ -51,6 +51,7 @@ related:
   - '[[yt-personal-inspiration-flash]]'
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-scientific-expression]]'
+
 ---
 # 科学成长（刻意练习）
 

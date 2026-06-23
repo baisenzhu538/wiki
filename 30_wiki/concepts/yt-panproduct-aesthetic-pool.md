@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-aesthetic-pool
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1310
 language: zh-CN
 prerequisites:
@@ -53,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]

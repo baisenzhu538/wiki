@@ -1,10 +1,11 @@
 ---
 
 
+
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
-- yitang
+  - content-production- yitang
 diagnostic_signals:
 - signal: 是否用一句话精确描述问题（现状与期望 gap）
   framework_lens: 问题定义 / 诊断起点
@@ -34,6 +35,7 @@ related:
   - '[[yt-skill-storyline-contrast-analysis]]'
   - '[[source-code-delivery-model]]'
   - '[[yt-skill-storyline-timeline]]'
+
 ---
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 

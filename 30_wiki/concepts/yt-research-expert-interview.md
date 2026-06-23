@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-expert-interview
 confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-- yitang
+  - research- yitang
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
@@ -60,6 +61,7 @@ diagnostic_signals:
   follow_up_question: 专家的回答中，有哪些是「他说了但你之前不知道」的具体事实？
 updated_at: '2026-06-18'
 author: 老顽童
+
 ---
 # 专家访谈工具：2小时获取行业共识的标准流程
 

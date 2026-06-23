@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_person: 张磊
@@ -41,6 +42,7 @@ diagnostic_signals:
 - signal: 认为"AI 来了，可以直接做成品，不需要拆假设"
   framework_lens: 精益 AI 检查：AI 降低的是执行成本，不是战略拆解成本
   follow_up_question: AI 可以帮你生成测试素材，但你要测的假设清单是否清晰？哪些假设风险最高？
+
 ---
 
 # 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险

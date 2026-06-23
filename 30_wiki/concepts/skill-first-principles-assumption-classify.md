@@ -1,11 +1,12 @@
 ---
 
+
 id: skill-first-principles-assumption-classify
 title: 技能：假设分类法（第一性原理）
 type: "tool"
 status: draft
 domain:
-- 创新
+  - learning-methodology- 创新
 - 思维
 - 产品
 source_person: 消化全库后提炼
@@ -32,6 +33,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：假设分类法（第一性原理）
 

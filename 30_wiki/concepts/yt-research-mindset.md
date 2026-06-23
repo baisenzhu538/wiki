@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-mindset
 title: 调研认知升级：从"找答案"到"拆解假设"
 type: concept
 status: enriched
 domain:
-- yitang
+  - research- yitang
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -39,6 +40,7 @@ diagnostic_signals:
 - signal: 会为调研设定'够用就停'的阈值，而不是无限收集
   framework_lens: 决策效率
   follow_up_question: 多少信息足以支撑下一步行动？
+
 ---
 
 # 调研认知升级：从"找答案"到"拆解假设"

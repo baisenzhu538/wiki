@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——CAC与LTV计算
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们还没算过LTV和CAC'"
     framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
     follow_up_question: "没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。"
+
 ---
 
 # CAC与LTV的实战计算

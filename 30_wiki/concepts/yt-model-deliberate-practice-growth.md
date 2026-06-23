@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-deliberate-practice-growth
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 2397
+  - modelingestimated_tokens: 2397
 language: zh-CN
 query_triggers:
   - "与泛产品十年爬山地图的关系"
@@ -43,6 +43,7 @@ related:
   - '[[ocr-一堂提炼过的因果模型]]'
   - '[[yt-note-deliberate-practice-four-elements]]'
   - '[[yt-personal-checklist-notes]]'
+
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

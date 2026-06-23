@@ -1,13 +1,11 @@
 ---
+
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 type: concept
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_person: 代俊隆
+  - ai-saassource_person: 代俊隆
 source_context: 一堂 2026-06-13 AI 短剧创作培训，平台政策对比表
 source_refs:
   - 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md
@@ -40,6 +38,7 @@ diagnostic_signals:
   - signal: 用户说"新人想入局短剧，从哪个平台开始"
     framework_lens: 新人友好度与分成门槛
     follow_up_question: 你是否有成熟制作资源，还是个人或小团队从 0 开始？
+
 ---
 # 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 

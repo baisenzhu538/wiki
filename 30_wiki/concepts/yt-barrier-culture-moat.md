@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——文化护城河
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的文化阻碍了创新'"
     framework_lens: 文化护城河——文化需要平衡稳定和变革
     follow_up_question: "你的文化是否鼓励试错？是否容忍失败？"
+
 ---
 
 # 文化护城河：难以复制

@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——网络效应深度
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'网络效应是护城河，但我们不知道怎么强化'"
     framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
     follow_up_question: "你的网络效应在哪个维度？如何提升用户迁移成本？"
+
 ---
 
 # 网络效应深度：同边、跨边、数据、生态

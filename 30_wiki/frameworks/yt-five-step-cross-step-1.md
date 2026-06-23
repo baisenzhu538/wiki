@@ -1,4 +1,5 @@
 ---
+
 id: yt-five-step-cross-step-1
 title: 跨步一：从0到1的验证
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - yitangsource_person: Truman
 source_context: 一堂五步法——跨步一：从0到1的验证
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们在0到1阶段花了太长时间'"
     framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
     follow_up_question: "你的验证周期多长？是否过度打磨产品？"
+
 ---
 
 # 跨步一：从0到1的验证

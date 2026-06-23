@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-Truman-复杂项目AI落地稳定性保障
 title: 技能：复杂项目AI落地稳定性保障
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-Truman-多Agent通信协作方案]]'
   - '[[skill-Truman-AI场景探索STAR模型]]'
   - '[[skill-Truman-人在环渐进自动化策略]]'
+
 ---
 # 技能：复杂项目AI落地稳定性保障
 

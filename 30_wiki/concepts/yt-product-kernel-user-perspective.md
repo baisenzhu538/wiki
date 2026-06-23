@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-user-perspective
 title: 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——用户视角
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户团队内部争论'用户需要什么'，各执一词"
     framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
     follow_up_question: "你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？"
+
 ---
 
 # 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"

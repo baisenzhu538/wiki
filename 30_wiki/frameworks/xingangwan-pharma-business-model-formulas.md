@@ -1,10 +1,11 @@
 ---
+
 id: xingangwan-pharma-business-model-formulas
 title: 鑫港湾医药零售商业模式计算框架与业务公式
 type: framework
 status: enriched
 domain:
-- healthcare
+  - healthcare- healthcare
 - pharmaceutical-retail
 - business-strategy
 - finance
@@ -31,6 +32,7 @@ tags:
 - 业务公式
 - 智慧药柜
 - 医药零售
+
 ---
 
 # 鑫港湾医药零售商业模式计算框架与业务公式

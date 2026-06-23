@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: 规模化后人效下降、履约成本飙升，越扩张利润越薄。
   framework_lens: 规模不经济对抗
   follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
+
 ---
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》
 

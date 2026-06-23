@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.91
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——审美与内核
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们要做最好看的产品'，但功能不足"
     framework_lens: 产品内核与审美——审美不能替代功能
     follow_up_question: "如果产品很好看但功能不好用，用户会留存吗？"
+
 ---
 
 # 产品内核与审美：从"好用"到"美好"

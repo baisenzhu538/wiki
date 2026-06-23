@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-product-core
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 4800
+  - entrepreneurshipestimated_tokens: 4800
 language: zh-CN
 prerequisites:
   - yt-entrepreneur-five-step-method
@@ -52,6 +52,7 @@ related:
   - '[[yt-entrepreneur-industry-forecast]]'
   - '[[yt-concept-p-type-l-type]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
+
 ---
 # 产品内核定义、迭代与验证方法论
 

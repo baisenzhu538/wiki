@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-个人判断力系统建设（达克效应应对）
 title: 技能：个人判断力系统建设（达克效应应对）
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-低质量动作识别与拒绝]]'
   - '[[skill-Truman-信息输入持续补全（防AI错误累积）]]'
   - '[[skill-Truman-上下文质量管理（AI协作）]]'
+
 ---
 # 技能：个人判断力系统建设（达克效应应对）
 

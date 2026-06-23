@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-提示词结构化迭代
 title: 技能：提示词结构化迭代
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - ai-saas
 - management
 - yitang
@@ -34,6 +35,7 @@ related:
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-反向教学深化理解]]'
+
 ---
 # 技能：提示词结构化迭代
 

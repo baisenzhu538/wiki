@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-渐进式披露上下文
 title: 技能：渐进式披露上下文
 type: "tool"
 domain:
-- management
+  - learning-methodology- management
 - product
 - ai-saas
 - design
@@ -35,6 +36,7 @@ related:
   - '[[skill-反向教学深化理解]]'
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：渐进式披露上下文
 

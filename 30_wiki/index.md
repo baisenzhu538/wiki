@@ -33,14 +33,14 @@ related:
 | 能力域 | 核心问题 | 入口 |
 |:--|:--|:--|
 | **战略判断** | 往哪走？怎么赢？ | [[strategy-domain-digest]] |
-| **需求判断** | 用户真的要什么？市场多大？ | `/demand-analysis` |
+| **需求判断** | 用户真的要什么？市场多大？ | [[five-step-domain-digest]] §Step 1 |
 | **决策判断** | 怎么选？怎么不选错？ | `/decision` |
 | **市场洞察** | 对手在干什么？行业在怎么变？ | [[yitang-research-domain-digest]] |
 | **精益验证** | 怎么做 MVP？怎么用最小成本验证假设？ | [[lean-startup-domain-digest]] |
-| **商业模型** | 怎么赚钱？单元模型成立吗？ | `/five-step-business-model` |
-| **增长设计** | 怎么放大？增长引擎是什么？ | `/five-step-growth` |
-| **壁垒构建** | 怎么守住？优势能持续多久？ | `/five-step-barrier` |
-| **产品内核** | 用户为什么选你？ | `/five-step-product` |
+| **商业模式** | 怎么赚钱？单元模型成立吗？ | [[five-step-domain-digest]] §Step 3 |
+| **增长设计** | 怎么放大？增长引擎是什么？ | [[five-step-domain-digest]] §Step 4 |
+| **壁垒构建** | 怎么守住？优势能持续多久？ | [[five-step-domain-digest]] §Step 5 |
+| **产品内核** | 用户为什么选你？ | [[five-step-domain-digest]] §Step 2 |
 
 > 五步法（[[five-step-domain-digest]]）是贯穿以上八项的操作系统——需求→产品内核→商业模式→增长→壁垒，按序执行。
 

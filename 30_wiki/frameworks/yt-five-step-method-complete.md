@@ -1,4 +1,5 @@
 ---
+
 id: yt-five-step-method-complete
 title: 五步法完整地图：从需求到壁垒
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - yitangsource_person: Truman
 source_context: 一堂五步法完整地图——从需求到壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -44,6 +43,7 @@ diagnostic_signals:
   - signal: "用户说'五步法适用于什么场景？'"
     framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
     follow_up_question: "你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。"
+
 ---
 
 # 五步法完整地图：从需求到壁垒

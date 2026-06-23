@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-辩证讨论深化
 title: 技能：辩证讨论深化
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - management
 - master
 - yitang
@@ -35,6 +36,7 @@ related:
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
   - '[[skill-自我反馈检验]]'
+
 ---
 # 技能：辩证讨论深化
 

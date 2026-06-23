@@ -1,11 +1,13 @@
 ---
 
+
 id: skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan
 title: 技能：用 AI 做结构化用户调研
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -38,6 +40,7 @@ diagnostic_signals:
 - signal: 调研目标、范围或用户群体描述模糊
   lens: 约束缺失
   follow_up: 在提示词中写明目标、范围、用户画像、业务场景后再让 AI 生成框架
+
 ---
 # 技能：用 AI 做结构化用户调研
 

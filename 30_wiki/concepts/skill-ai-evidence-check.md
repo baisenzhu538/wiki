@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-voice-input-doubao]]'
   - '[[skill-ai-prd-for-ai]]'
   - '[[sk-ai-evidence-check]]'
+
 ---
 # 技能：AI输出证据核查三问法
 

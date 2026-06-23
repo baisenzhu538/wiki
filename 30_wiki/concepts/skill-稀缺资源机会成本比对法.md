@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-稀缺资源机会成本比对法
 title: 技能：稀缺资源机会成本比对法
 type: "tool"
 domain:
-- management
+  - decision- management
 - decision-making
 - yitang
 status: draft
@@ -34,6 +35,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-1视角升级思考法]]'
+
 ---
 # 技能：稀缺资源机会成本比对法
 

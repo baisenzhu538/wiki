@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -37,6 +39,7 @@ trust_level: medium
 diagnostic_signals:
 - question 与 problem 的区分标准已明确为 before/after 可验收性
 - 操作步骤已转化为可执行 Checklist，失败模式已整理为表格
+
 ---
 
 # 技能：提问题转化三问清单

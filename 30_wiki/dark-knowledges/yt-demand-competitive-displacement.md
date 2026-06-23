@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——替代方案分析
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -39,6 +38,7 @@ diagnostic_signals:
   - signal: "用户忽视'不解决'这个替代方案"
     framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
     follow_up_question: "用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。"
+
 ---
 
 # 需求替代陷阱：竞品不是敌人，替代方案才是

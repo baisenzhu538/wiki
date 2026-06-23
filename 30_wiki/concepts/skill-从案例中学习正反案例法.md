@@ -1,12 +1,11 @@
 ---
+
 id: skill-从案例中学习正反案例法
 title: "技能：从案例中学习（正反案例法）"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "案例是别人的故事，看完没有联系到自己的实际情况"
     lens: "自我对照缺失"
     follow_up: "每次看完案例必须思考'如果我在类似场景，我能做什么？有什么不同？'"
+
 ---
 # 技能：从案例中学习（正反案例法）
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——病毒传播
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们靠病毒传播获客，成本为0'"
     framework_lens: 病毒传播——病毒传播有隐性成本，不是真的0成本
     follow_up_question: "病毒传播的产品开发成本、运营成本、用户激励成本是多少？"
+
 ---
 
 # 病毒传播：自增长机制设计

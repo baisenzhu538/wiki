@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: 规模化后销售、履约成本占比不降反升，或现金流持续紧张
   framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
   follow_up_question: 当前业务应选用单订单、单 SKU、单客户、单销售、单履约中的哪几种模型？规模化后各成本项与回款周期如何变化？
+
 ---
 > **核心判断**：To B 业务能不能跑通，不是看单一订单或单一客户是否赚钱，而是看“业务单元的所有毛利能否覆盖所有成本”。
 > ——徐剑，口述稿 ~2452–3202；课堂笔记 §4

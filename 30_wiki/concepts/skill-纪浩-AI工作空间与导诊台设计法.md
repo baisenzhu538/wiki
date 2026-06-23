@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-AI工作空间与导诊台设计法
 title: "技能：AI工作空间与导诊台设计法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -51,6 +51,7 @@ diagnostic_signals:
   - signal: "AI接手任务变多后出现混乱，目录结构只能延缓膨胀不能解决膨胀"
     lens: "结构膨胀"
     follow_up: "定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简"
+
 ---
 # 技能：AI工作空间与导诊台设计法
 

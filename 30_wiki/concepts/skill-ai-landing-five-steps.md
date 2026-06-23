@@ -1,12 +1,14 @@
 ---
 
 
+
 id: skill-ai-landing-five-steps
 title: 技能：AI落地五步执行流程
 type: "tool"
 status: draft
 domain:
-- AI
+  - ai-collaboration
+  - yitang- AI
 - 落地
 - 执行
 source_person: 马易
@@ -35,6 +37,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：AI落地五步执行流程
 

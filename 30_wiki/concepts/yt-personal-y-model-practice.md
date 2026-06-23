@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-y-model-practice
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 2024
+  - personal-growthestimated_tokens: 2024
 language: zh-CN
 query_triggers:
   - "Y模型四最"
@@ -46,6 +46,7 @@ related:
   - '[[一堂]]'
   - '[[yt-panproduct-execution-liberate-thinking]]'
   - '[[yt-personal-thinking-models]]'
+
 ---
 # Y模型实操：科学成事的底层操作系统
 

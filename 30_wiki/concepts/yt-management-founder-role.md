@@ -1,8 +1,9 @@
 ---
+
 title: 一号位
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - yitang
 status: enriched
@@ -43,6 +44,7 @@ related:
 - "yt-model-personal-pitch-toolkit"
 - "yt-management-basic-skills"
 - "case-truman-yitang-foresight"
+
 ---
 # 一号位
 

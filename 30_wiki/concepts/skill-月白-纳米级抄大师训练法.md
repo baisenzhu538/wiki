@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-纳米级抄大师训练法
 title: 技能：纳米级抄大师训练法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-口述作图法（口喷设计）]]'
   - '[[skill-月白-AI生成图小字控制法]]'
   - '[[skill-月白-普通人AI设计80分法则]]'
+
 ---
 # 技能：纳米级抄大师训练法
 

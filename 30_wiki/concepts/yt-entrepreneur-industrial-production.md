@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-industrial-production
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1874
+  - entrepreneurshipestimated_tokens: 1874
 language: zh-CN
 query_triggers:
   - "工业化生产"
@@ -50,6 +50,7 @@ related:
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-truth-seeking]]'
+
 ---
 # 工业化生产
 

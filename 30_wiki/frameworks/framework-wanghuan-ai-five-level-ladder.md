@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -45,6 +47,7 @@ tags:
 - 五层跃迁
 - 人机协作
 - 成熟度模型
+
 ---
 
 # 王欢AI能力五层跃迁模型

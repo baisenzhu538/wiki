@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-- yitang
+  - personal-growth- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -53,6 +54,7 @@ diagnostic_signals:
   follow_up_question: 你为这次表达做了几次完整演练？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 科学表达（火箭模型）
 
 > 来源：一堂个人必修课"练能力"模块——科学表达必修课+公开演讲练习。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

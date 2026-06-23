@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-product-core-metrics
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2352
+  - modelingestimated_tokens: 2352
 language: zh-CN
 query_triggers:
   - "与产品内核的关系"
@@ -43,6 +43,7 @@ related:
   - '[[yt-product-kernel-cultivation]]'
   - '[[yt-tob-demand-scenarios]]'
   - '[[yt-product-ten-metrics]]'
+
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 

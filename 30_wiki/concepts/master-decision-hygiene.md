@@ -1,11 +1,11 @@
 ---
+
 id: master-decision-hygiene
 title: 决策卫生五步法
 type: framework
 status: enriched
 domain:
-  - master
-source_person: Truman
+  - mastersource_person: Truman
 source_context: 一堂科学决策课程——决策卫生五步法框架
 source_refs:
   - src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
@@ -25,6 +25,7 @@ related:
   - '[[master-first-principles]]'
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
+
 ---
 # 决策卫生五步法
 

@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-现场建模式萃取笔记
 title: 技能：现场建模式萃取笔记
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - management
 - yitang
 status: draft
@@ -32,6 +33,7 @@ related:
   - '[[skill-反向记录整理思路]]'
   - '[[skill-用清单体记备忘笔记]]'
   - '[[skill-用topdown方式整理内化笔记]]'
+
 ---
 # 技能：现场建模式萃取笔记
 

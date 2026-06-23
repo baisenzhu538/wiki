@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-foresight-model-taxonomy
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang
-estimated_tokens: 1200
+  - yitangestimated_tokens: 1200
 language: zh-CN
 query_triggers:
   - "预判模型"
@@ -45,6 +45,7 @@ related:
   - '[[yt-panproduct-aesthetic-modeling]]'
   - '[[case-escort-service-tiered-growth]]'
   - '[[yt-personal-checklist-notes]]'
+
 ---
 # 预判模型分类
 

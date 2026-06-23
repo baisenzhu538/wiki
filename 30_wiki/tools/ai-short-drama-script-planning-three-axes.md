@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
@@ -9,7 +10,7 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-- yitang
+  - ai-saas- yitang
 - ai-collaboration
 - product
 created_at: '2026-06-13'
@@ -47,6 +48,7 @@ diagnostic_signals:
 - signal: "写完发现不符合平台调性，抖音/红果看不下去"
   framework_lens: 第一板斧·剧本基地
   follow_up_question: 你的剧本基地里是否写清楚了目标平台、受众画像、节奏与钩子密度要求？
+
 ---
 # 剧本策划三板斧：短剧从0到1的框架搭建工具
 

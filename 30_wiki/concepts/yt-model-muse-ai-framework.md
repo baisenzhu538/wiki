@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-muse-ai-framework
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1476
+  - modelingestimated_tokens: 1476
 language: zh-CN
 query_triggers:
   - "MUSE 人工智能全景图"
@@ -44,6 +44,7 @@ related:
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[master-ai-info-literacy]]'
   - '[[yt-personal-ai-capability]]'
+
 ---
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 

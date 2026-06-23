@@ -1,10 +1,11 @@
 ---
+
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-- ai-models
+  - modeling- ai-models
 language: zh-CN
 query_triggers:
 - PEAS框架
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 # 智能体架构：PEAS与五层Agent模型
 

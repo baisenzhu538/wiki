@@ -2,10 +2,11 @@
 
 
 
+
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
-- yitang
+  - yitang- yitang
 diagnostic_signals:
 - signal: 用户收到 P 角色输出后，是否在 1 轮内直接可用，无需追问澄清
   framework_lens: I/O 协议 / 角色边界
@@ -35,6 +36,7 @@ related:
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[yt-personal-ai-capability]]'
+
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

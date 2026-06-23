@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-knowledge-extraction
 component_of:
 - yt-management-toolkit-overview
@@ -6,7 +7,7 @@ confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
@@ -65,6 +66,7 @@ diagnostic_signals:
 updated_at: '2026-06-18'
 author: unknown
 reviewed_by: laowantong
+
 ---
 # 团队知识萃取器
 

@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-revenue-is-customer-cost
 title: To B 收入本质 = 客户成本
 type: concept
 status: draft
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -44,6 +45,7 @@ diagnostic_signals:
 - signal: 销售把"帮客户省很多钱"当作核心卖点，但客户却不买单
   framework_lens: 成本占有率并非越高越好；高占比意味着进入客户核心成本区，需要更强信任与切换能力
   follow_up_question: 客户省下的钱里，我们真能切走多少？客户信任度、合规风险和切换成本是否允许？
+
 ---
 
 # To B 收入本质 = 客户成本

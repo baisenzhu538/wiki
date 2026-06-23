@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度验证法
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——验证方法
 source_refs:
   - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户验证后，忽视负面结果，继续投入"
     framework_lens: 产品内核验证——验证结果不被尊重
     follow_up_question: "如果验证结果不支持内核假设，你会调整方向吗？"
+
 ---
 
 # 产品内核验证：三维度验证法

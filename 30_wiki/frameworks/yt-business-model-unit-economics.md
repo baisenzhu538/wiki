@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——单元经济学
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的单元模型很好'，但计算错误"
     framework_lens: 单元经济学——单元模型计算需要完整
     follow_up_question: "你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？"
+
 ---
 
 # 单元经济学：LTV > CAC

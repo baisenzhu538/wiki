@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——竞争定位
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户频繁切换定位，今天A明天B"
     framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
     follow_up_question: "你们的定位持续多久了？用户是否形成了稳定认知？"
+
 ---
 
 # 内核竞争定位：差异化策略

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1426
 language: zh-CN
 prerequisites:
@@ -53,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]

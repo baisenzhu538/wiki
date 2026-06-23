@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
 type: tool
@@ -7,9 +8,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
@@ -49,6 +48,7 @@ related:
   - '[[yt-prompt-iterative-prompting]]'
   - '[[yt-prompt-writing-workflow]]'
   - '[[yt-note-ai-human-division]]'
+
 ---
 # 反谄媚机制：让 AI 说真话
 

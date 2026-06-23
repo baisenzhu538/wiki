@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-主动摘要压缩上下文
 title: 技能：主动摘要压缩上下文
 type: "tool"
 domain:
-- ai-saas
+  - learning-methodology- ai-saas
 - management
 - yitang
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-反向教学深化理解]]'
   - '[[skill-反向提示获取优化建议]]'
   - '[[skill-提示词结构化迭代]]'
+
 ---
 # 技能：主动摘要压缩上下文
 

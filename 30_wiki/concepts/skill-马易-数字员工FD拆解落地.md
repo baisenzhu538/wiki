@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-数字员工FD拆解落地
 title: 技能：数字员工FD拆解落地
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI答疑运营风格适配]]'
   - '[[skill-马易-隐私安全分层解决]]'
   - '[[skill-马易-AIGC项目ROI评估]]'
+
 ---
 # 技能：数字员工FD拆解落地
 

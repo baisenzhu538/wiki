@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: "tool"
 domain:
-- management
+  - decision- management
 - decision-making
 - yitang
 status: draft
@@ -33,6 +34,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-1视角升级思考法]]'
+
 ---
 # 技能：三阶追问法穷尽决策要素
 

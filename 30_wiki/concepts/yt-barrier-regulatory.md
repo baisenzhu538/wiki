@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——监管壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'监管壁垒让我们无法创新'"
     framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
     follow_up_question: "监管限制的具体是什么？是否有合规的创新路径？"
+
 ---
 
 # 监管壁垒：牌照与合规

@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-知识库团队管理
 title: 技能：知识库团队管理
 type: "tool"
 domain:
-- management
+  - content-production- management
 - design
 - yitang
 - entrepreneurship
@@ -34,6 +35,7 @@ related:
   - '[[skill-逐字稿练习演讲]]'
   - '[[skill-费曼学习法实践讲香课题]]'
   - '[[skill-专家访谈十步法]]'
+
 ---
 # 技能：知识库团队管理
 

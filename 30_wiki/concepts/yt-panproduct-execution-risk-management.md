@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-execution-risk-management
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1158
 language: zh-CN
 prerequisites:
@@ -56,6 +57,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 风险管理：把风险从意外变成确定性
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

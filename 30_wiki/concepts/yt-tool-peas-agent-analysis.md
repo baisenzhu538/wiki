@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-peas-agent-analysis
 component_of:
 - yt-model-cognitive-upgrade-framework
@@ -6,7 +7,7 @@ confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-- master
+  - yitang- master
 language: zh-CN
 prerequisites:
 - yt-model-agent-architecture
@@ -52,6 +53,7 @@ diagnostic_signals:
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
 

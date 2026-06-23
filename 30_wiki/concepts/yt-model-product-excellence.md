@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-product-excellence
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - yitang
-estimated_tokens: 2473
+  - modelingestimated_tokens: 2473
 language: zh-CN
 query_triggers:
   - "与泛产品审美工具箱的对应"
@@ -46,6 +46,7 @@ related:
   - '[[一堂]]'
   - '[[yt-panproduct-aesthetic-imagination]]'
   - '[[yt-model-pan-product-aesthetic-toolkit]]'
+
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

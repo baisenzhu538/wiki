@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-左手Cubox右手里程碑学习法
 title: 技能：左手Cubox右手里程碑学习法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-课程资料文件命名规范]]'
   - '[[skill-月白-正向反馈强化AI生成]]'
   - '[[skill-月白-AI课程内容深度梳理法]]'
+
 ---
 # 技能：左手Cubox右手里程碑学习法
 

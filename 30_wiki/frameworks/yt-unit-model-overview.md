@@ -1,11 +1,12 @@
 ---
 
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-05-24
 type: framework
 status: enriched
 domain:
-- decision-science
+  - yitang- decision-science
 - yitang
 - entrepreneurship
 id: yt-unit-model-overview
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: 单订单/单SKU模型算出来盈利，但公司总账还在亏钱
   framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
+
 ---## Reusable Knowledge
 
 ### 核心定义

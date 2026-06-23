@@ -1,10 +1,11 @@
 ---
 
 
+
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
-- yitang
+  - content-production- yitang
 diagnostic_signals:
 - signal: 对比前是否先列出可量化/可明确判断的维度，再引入对象
   framework_lens: 维度中立性 / 反偏见
@@ -34,6 +35,7 @@ related:
   - '[[yt-model-truman-career-routes]]'
   - '[[ocr-truman的选择两条职业成长路线]]'
   - '[[yt-skill-storyline-problem-solving]]'
+
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 

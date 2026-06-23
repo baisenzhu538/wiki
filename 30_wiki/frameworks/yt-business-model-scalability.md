@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-scalability
 title: 商业模式可规模化评估：从1到100万
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——可规模化
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们先做规模，再优化'"
     framework_lens: 商业模式可规模化——规模不解决根本问题
     follow_up_question: "规模化的瓶颈是什么？规模能突破瓶颈吗？"
+
 ---
 
 # 商业模式可规模化评估：从1到100万

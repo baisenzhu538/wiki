@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-liberate-thinking-layers
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1591
+  - modelingestimated_tokens: 1591
 language: zh-CN
 query_triggers:
   - "六层认知模型"
@@ -44,6 +44,7 @@ related:
   - '[[yt-entrepreneur-research-camp]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
   - '[[case-modeling-essence-levels]]'
+
 ---
 # 解放思想五层模型
 

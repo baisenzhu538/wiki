@@ -1,10 +1,11 @@
 ---
 
 
+
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
-- yitang
+  - content-production- yitang
 diagnostic_signals:
 - signal: 每个时间节点是否只记录事实和状态变化，无解释评价
   framework_lens: 事实-推断分离 / 因果暴露
@@ -34,6 +35,7 @@ related:
   - '[[private-domain-saas-sales-funnel]]'
   - '[[七件事集团]]'
   - '[[yt-skill-storyline-problem-solving]]'
+
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
 

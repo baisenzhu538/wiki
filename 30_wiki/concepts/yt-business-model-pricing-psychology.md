@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——定价心理学
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们定价是拍脑袋定的'"
     framework_lens: 定价心理学——定价需要数据支撑
     follow_up_question: "你做过定价测试吗？用户愿意为不同价格付费的比例是多少？"
+
 ---
 
 # 定价心理学：让用户觉得值

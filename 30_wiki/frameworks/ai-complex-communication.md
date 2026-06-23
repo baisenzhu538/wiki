@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-complex-communication
 title: AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 type: framework
@@ -7,7 +8,7 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-- ai
+  - ai-saas- ai
 - ai-collaboration
 - management
 source_refs:
@@ -20,6 +21,7 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
+
 ---# AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 
 > 来源：听脑录音 5641781 + 公开信源六层交叉验证  

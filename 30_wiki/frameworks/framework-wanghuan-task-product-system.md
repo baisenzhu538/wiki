@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-task-product-system
 title: 王欢任务→产品→系统演进框架
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -46,6 +48,7 @@ tags:
 - 产品化思维
 - 人机协作
 - 系统思维
+
 ---
 
 # 王欢任务→产品→系统演进框架

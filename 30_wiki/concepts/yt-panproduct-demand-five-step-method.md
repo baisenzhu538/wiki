@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-demand-five-step-method
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1228
 language: zh-CN
 prerequisites:
@@ -55,6 +56,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 一堂五步法：善于分析商业成败假设
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[一堂]]

@@ -1,13 +1,12 @@
 ---
 
+
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
 status: enriched
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - learning-methodologylanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.72
@@ -54,6 +53,7 @@ updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---# AI时代笔记分工边界：人在哪里，AI在哪里
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：AI时代不是不用练笔记，而是要练更高级的笔记。清单体是人类认知与AI处理之间的"最大公约数"——但前提是，人必须先走到L3以上。

@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——留存指标
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们靠补贴留住用户'"
     framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
     follow_up_question: "停止补贴后，用户还会回来吗？产品本身的价值是否足够？"
+
 ---
 
 # 留存指标：从流失到忠诚

@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——毛利率结构
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户毛利率高，但净利润低"
     framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
     follow_up_question: "毛利率高但净利润低，运营费用、营销费用占收入多少？"
+
 ---
 
 # 毛利率结构分析：钱从哪来，到哪去

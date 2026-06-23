@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-course-milestone-model
 title: 课程里程碑模型：一堂做课的七步生产流程
 type: framework
@@ -8,7 +9,7 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - education
 - modeling
 created_at: '2026-06-14'
@@ -39,6 +40,7 @@ diagnostic_signals:
 - signal: 模型自我感觉良好，但经不起用户或专家质疑
   lens: 撞击实验不足
   follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"
+
 ---
 # 课程里程碑模型：一堂做课的七步生产流程
 

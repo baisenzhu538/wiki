@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-metaphor
 title: 讲香·比喻化
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-- personal
+  - content-production- personal
 - yitang
 language: zh-CN
 version: 1
@@ -33,6 +34,7 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
+
 ---# 讲香·比喻化
 
 > 十指模型右手第一指——向上抽象。用已知解释未知，帮用户建立一个关联的心理锚点，让难理解的东西瞬间变清晰。

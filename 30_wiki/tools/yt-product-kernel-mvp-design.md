@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-mvp-design
 title: 内核MVP设计：最小可验证产品
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——MVP设计
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'我们先做MVP，但MVP和最终产品一样'"
     framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
     follow_up_question: "MVP和最终产品的区别是什么？MVP验证什么假设？"
+
 ---
 
 # 内核MVP设计：最小可验证产品

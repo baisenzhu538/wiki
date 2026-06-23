@@ -1,10 +1,11 @@
 ---
+
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
 status: draft
 domain:
-- yitang
+  - lean-startup- yitang
 - entrepreneurship
 - business-strategy
 source_refs:
@@ -41,6 +42,7 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
+
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 

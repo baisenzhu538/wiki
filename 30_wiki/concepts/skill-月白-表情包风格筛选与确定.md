@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-表情包风格筛选与确定
 title: 技能：表情包风格筛选与确定
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-基于白底图做动作延展]]'
   - '[[skill-月白-风格探索试错法]]'
   - '[[skill-月白-AIGC生成人物证件照]]'
+
 ---
 # 技能：表情包风格筛选与确定
 

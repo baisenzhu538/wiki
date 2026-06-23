@@ -1,13 +1,11 @@
 ---
+
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
 type: framework
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_person: 楚门/Truman
+  - modelingsource_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程，三阶段框架
 source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -52,6 +50,7 @@ diagnostic_signals:
   - signal: 团队产出的模型或 SOP 看起来完整，但一上线就发现大量例外和反例
     framework_lens: 边界工程 + 决定成熟
     follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
+
 ---
 # 建模三段论：流程建模、抽象建模、本质提炼
 

@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-建立知识联系
 title: 技能：建立知识联系
 type: "tool"
 domain:
-- yitang
+  - learning-methodology- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -31,6 +32,7 @@ related:
   - '[[skill-专题笔记整理]]'
   - '[[skill-ai辅助学习]]'
   - '[[skill-费曼学习法三句话提炼]]'
+
 ---
 # 技能：建立知识联系
 

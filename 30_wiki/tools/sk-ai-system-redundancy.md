@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -36,6 +38,7 @@ trust_level: medium
 diagnostic_signals:
 - 检查时被当作"增加成本"而非"降低崩溃风险"的保险
 - 只检查一次后束之高阁，没有定期复盘机制
+
 ---
 # 技能：系统冗余度快速检查清单
 

@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-research-camp
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1863
+  - entrepreneurshipestimated_tokens: 1863
 language: zh-CN
 query_triggers:
   - "三轮学习设计"
@@ -45,6 +45,7 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-model-liberate-thinking-layers]]'
   - '[[yt-personal-thinking-models]]'
+
 ---
 # 调研行动营：从调研认知到AI调研武器库
 

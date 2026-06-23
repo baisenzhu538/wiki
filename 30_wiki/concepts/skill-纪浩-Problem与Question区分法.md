@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-Problem与Question区分法
 title: "技能：Problem与Question区分法（纪浩版）"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
 - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
@@ -38,6 +38,7 @@ diagnostic_signals:
   - signal: "四层验证通过但执行失败，验证标准太松"
     lens: "验证宽松"
     follow_up: "四层验证必须严格：before/after可观察、锚点具体到时间地点、受益人可命名、可解性有因果链"
+
 ---# 技能：Problem与Question区分法
 
 - **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

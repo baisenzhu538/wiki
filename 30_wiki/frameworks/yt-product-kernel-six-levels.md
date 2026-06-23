@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——六个段位
 source_refs:
   - src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
@@ -44,6 +43,7 @@ diagnostic_signals:
   - signal: "用户团队对产品内核认知不一致"
     framework_lens: 产品内核段位——团队段位断层
     follow_up_question: "你们团队对内核的认知在哪个段位？是否一致？"
+
 ---
 
 # 产品内核六个段位：从缺价值意识到全面迁移

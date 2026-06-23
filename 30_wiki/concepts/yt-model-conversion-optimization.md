@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- yitang
+  - modeling- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -44,6 +45,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 转化率优化：动力三曲线 × 十大浪费触点
 
 > 来源：一堂知识地图《最佳转化率·动力三曲线》+《10大最易浪费触点》。[[yt-management-conversion-hacking]] | [[yt-entrepreneur-growth-flywheel]] | [[一堂]]

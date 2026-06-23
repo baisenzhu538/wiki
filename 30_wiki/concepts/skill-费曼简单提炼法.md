@@ -1,12 +1,11 @@
 ---
+
 id: skill-费曼简单提炼法
 title: "技能：费曼简单提炼法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程（费曼学习法）
+  - learning-methodologysource_person: 一堂课程（费曼学习法）
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "写完后非常满意，没有暴露盲区"
     lens: "盲区未暴露"
     follow_up: "提炼的价值是发现你不懂什么。写完后发现'这句话对吗？好像不太确定'才是好提炼"
+
 ---
 # 技能：费曼简单提炼法
 

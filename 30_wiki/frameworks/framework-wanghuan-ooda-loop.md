@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -46,6 +48,7 @@ diagnostic_signals:
 - signal: '做了很多动作，但不知道哪些有效，经验无法沉淀'
   lens: '行动不闭环'
   follow_up: '每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？'
+
 ---
 
 # 王欢OODA闭环：人机协作的决策迭代框架

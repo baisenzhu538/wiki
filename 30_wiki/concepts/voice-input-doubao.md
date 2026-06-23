@@ -1,9 +1,10 @@
 ---
+
 id: voice-input-doubao
 type: tool
 title: voice input doubao
 domain:
-- product
+  - ai-collaboration- product
 - ai-saas
 - decision-making
 - yitang
@@ -33,6 +34,7 @@ diagnostic_signals:
 - status=draft
 - confidence=0.7 below enrichment threshold
 - reviewed_by=null
+
 ---
 # 豆包输入法：语音输入的最低成本实践
 

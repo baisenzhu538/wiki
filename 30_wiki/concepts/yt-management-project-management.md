@@ -1,10 +1,11 @@
 ---
 
 
+
 title: 项目管理
 type: concept
 domain:
-- product
+  - management- product
 - ai-saas
 - management
 - yitang
@@ -32,6 +33,7 @@ related:
   - '[[ocr-一堂-管理必修-课程清单]]'
   - '[[yt-tool-project-health-radar]]'
   - '[[yt-model-management-map]]'
+
 ---
 # 项目管理
 

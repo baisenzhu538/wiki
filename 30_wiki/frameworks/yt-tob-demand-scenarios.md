@@ -1,10 +1,11 @@
 ---
+
 id: yt-tob-demand-scenarios
 title: To B 需求场景四象限
 type: framework
 status: draft
 domain:
-- yitang
+  - yitang- yitang
 - entrepreneurship
 - b2b
 - business-strategy
@@ -43,6 +44,7 @@ diagnostic_signals:
 - signal: 业务增长停滞时，团队直接喊"要创新"或"要获客"，但没有先判断老客老品的复购效率是否已被挖尽
   framework_lens: 经营重心误判
   follow_up_question: 在考虑新产品或新客之前，老客老品的复购率、续约率、单客产值还有多大提升空间？为什么当前象限不是最优解？
+
 ---
 
 # To B 需求场景四象限

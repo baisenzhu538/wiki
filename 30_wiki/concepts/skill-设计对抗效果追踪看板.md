@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-设计对抗效果追踪看板
 title: 技能：设计对抗效果追踪看板
 type: "tool"
 domain:
-- product
+  - decision- product
 - management
 - design
 - decision-making
@@ -34,6 +35,7 @@ related:
   - '[[skill-建立策略-要素映射表设计对抗策略]]'
   - '[[skill-遵循规模前倾原则设计组织架构]]'
   - '[[skill-使用优先级快筛卡锁定核心矛盾]]'
+
 ---
 # 技能：设计对抗效果追踪看板
 

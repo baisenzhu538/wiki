@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-ai辅助学习
 title: 技能：AI辅助学习
 type: "tool"
 domain:
-- product
+  - ai-collaboration
+  - yitang- product
 - ai-saas
 - design
 - yitang
@@ -37,6 +39,7 @@ related:
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-费曼学习法三句话提炼]]'
   - '[[skill-自我反馈检验]]'
+
 ---
 # 技能：AI辅助学习
 

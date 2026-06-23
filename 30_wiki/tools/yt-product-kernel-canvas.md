@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——产品内核画布
 source_refs:
   - src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
@@ -42,6 +41,7 @@ diagnostic_signals:
   - signal: "用户无法向客户清晰描述产品价值"
     framework_lens: 产品内核画布——画布输出就是价值描述
     follow_up_question: "你能用画布中的'一句话价值描述'向客户介绍产品吗？"
+
 ---
 
 # 产品内核画布：从问题到解决方案的结构化工具

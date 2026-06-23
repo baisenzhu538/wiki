@@ -2,12 +2,14 @@
 
 
 
+
 id: skill-纪浩-AI对话上下文隔离
 title: 技能：AI 对话上下文隔离
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI协作方法论
 source_refs:
@@ -32,6 +34,7 @@ pipeline:
 - confidence-source-cited
 author: 纪浩
 trust_level: medium-high
+
 ---# 技能：AI 对话上下文隔离
 
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。

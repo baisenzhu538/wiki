@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-AI落地场景识别与拆分
 title: 技能：AI落地场景识别与拆分
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-RPA数据整合法]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
   - '[[skill-马易-判断标准快速产出法]]'
+
 ---
 # 技能：AI落地场景识别与拆分
 

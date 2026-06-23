@@ -1,12 +1,12 @@
 ---
+
 id: skill-ai-info-literacy-three-layer
 title: "技能：AI输出三层防护检查法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 消化全库后提炼
+  - yitangsource_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
 source_refs: []
 wiki_refs:
@@ -51,6 +51,7 @@ diagnostic_signals:
   - signal: "验证为真就够了，不追到原始来源"
     lens: "追溯缺失"
     follow_up: "必须追到原始来源，防止综合后的信息丢失来源。第三层不可跳过"
+
 ---# 技能：AI输出三层防护检查法
 
 > **来源**：基于 master-ai-info-literacy 框架提炼

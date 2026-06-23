@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-PPT内容框架AIGC生成法
 title: 技能：PPT内容框架AIGC生成法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-AI自动生成多语种专业名词提示词]]'
   - '[[skill-月白-文创产品AI设计到生产的卡点预判]]'
   - '[[skill-月白-PPT风格锁定工作流]]'
+
 ---
 # 技能：PPT内容框架AIGC生成法
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-decision-width-method
 component_of:
 - yt-decision-y-model
@@ -7,7 +8,7 @@ confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+  - decision- yitang
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -90,6 +91,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 周伯通
+
 ---# 宽度分析工具：列推建查四步法+三层盲区清单
 
 

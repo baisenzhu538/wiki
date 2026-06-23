@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
@@ -42,6 +44,7 @@ diagnostic_signals:
 - signal: source_person（半肥猫）与来源文件演讲者（季浩/纪浩）不一致，作者归属存疑
   framework_lens: authorship-attribution
   follow_up_question: 是否需要将source_person更正为纪浩，或找到半肥猫对应分享的原始记录？
+
 ---
 # 技能：把PRD写成AI能执行的指令
 

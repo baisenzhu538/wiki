@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——订阅制
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户说'我们先一次性销售，以后考虑订阅'"
     framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
     follow_up_question: "你的产品是否适合订阅制？订阅价值是否持续？"
+
 ---
 
 # 订阅制商业模式：从一次性到持续收入

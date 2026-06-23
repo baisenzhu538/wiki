@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - entrepreneurship- yitang
 estimated_tokens: 1873
 language: zh-CN
 query_triggers:
@@ -47,6 +48,7 @@ diagnostic_signals:
   follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 解放思想
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]

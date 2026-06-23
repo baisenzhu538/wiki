@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 - personal-growth
 language: zh-CN
 version: 1
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: 同一个问题会被持续更新：新证据、新假设、新结论按时间或逻辑追加
   framework_lens: 笔记是活的迭代系统
   follow_up_question: 这篇笔记在最近一周内是否被修改或引用过？
+
 ---
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统
 

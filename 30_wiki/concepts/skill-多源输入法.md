@@ -1,12 +1,11 @@
 ---
+
 id: skill-多源输入法
 title: "技能：多源输入法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -51,6 +50,7 @@ diagnostic_signals:
   - signal: "多源搜索消耗大量时间，决策延迟"
     lens: "时间成本失控"
     follow_up: "时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉"
+
 ---
 # 技能：多源输入法
 

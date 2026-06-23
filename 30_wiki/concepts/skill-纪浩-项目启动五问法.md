@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-纪浩-项目启动五问法
 title: 技能：项目启动五问法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-纪浩-评估AI从零写UI的可行性]]'
   - '[[skill-纪浩-问题导向备课法]]'
   - '[[skill-纪浩-识别AI不可维护代码]]'
+
 ---
 # 技能：项目启动五问法
 

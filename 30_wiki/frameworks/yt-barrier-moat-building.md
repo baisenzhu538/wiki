@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——壁垒建设路线图
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'壁垒建设是长期的事，我们现在需要增长'"
     framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
+
 ---
 
 # 壁垒建设路线图

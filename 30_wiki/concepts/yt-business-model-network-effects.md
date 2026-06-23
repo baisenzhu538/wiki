@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-network-effects
 title: 网络效应：平台型商业模式的核心
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——网络效应
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户平台被竞品超越，网络效应失效"
     framework_lens: 网络效应——网络效应不是护城河，需要持续强化
     follow_up_question: "你的网络效应强度如何？用户迁移成本高吗？"
+
 ---
 
 # 网络效应：平台型商业模式的核心

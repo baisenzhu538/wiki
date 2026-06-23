@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-intelligence-map
 confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-- yitang
+  - research- yitang
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
@@ -55,6 +56,7 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 # 情报获取全景地图：13+渠道穷尽手段
 

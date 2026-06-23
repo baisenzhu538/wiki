@@ -1,10 +1,11 @@
 ---
+
 id: shanxi-field-research-checklist-20260701
 title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
 status: enriched
 domain:
-- healthcare
+  - research- healthcare
 - compliance
 - business-strategy
 - field-research
@@ -30,6 +31,7 @@ tags:
 diagnostic_signals:
 - author 未确认（unknown）
 - source_refs 为空，原始资料未归档到 10_raw/sources/
+
 ---
 
 # 山西 7 月 1 日智慧药柜项目调研清单

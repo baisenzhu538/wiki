@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-专家访谈十步法
 title: 技能：专家访谈十步法
 type: "tool"
 domain:
-- design
+  - research- design
 - yitang
 status: draft
 source_person: 一堂课程设计
@@ -31,6 +32,7 @@ related:
   - '[[skill-清单式笔记法]]'
   - '[[skill-逐字稿练习演讲]]'
   - '[[skill-费曼学习法实践讲香课题]]'
+
 ---
 # 技能：专家访谈十步法
 

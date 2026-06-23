@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——商业模式画布
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'商业模式太复杂，说不清楚'"
     framework_lens: 商业模式画布——画布简化复杂商业模式
     follow_up_question: "用画布的9个要素，每个要素写一句话，能描述清楚吗？"
+
 ---
 
 # 商业模式画布：一堂版

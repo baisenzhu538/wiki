@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-pan-product-exploration
 component_of:
 - yt-composite-pan-product-methodology
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - personal-growth- yitang
 estimated_tokens: 3100
 language: zh-CN
 query_triggers:
@@ -47,6 +48,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 泛产品设计探索营：案例启发与认知重构
 
 > 来源：一堂泛产品设计探索营（千人集体学习，Truman口述）。[[yt-personal-pan-product-concepts]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

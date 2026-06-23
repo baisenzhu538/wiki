@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
@@ -46,6 +48,7 @@ diagnostic_signals:
 - signal: '每次新对话都要重新交代身份和业务背景'
   lens: 上下文工程缺失
   follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
+
 ---
 
 # 王欢BITCOE提示词框架

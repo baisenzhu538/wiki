@@ -1,10 +1,11 @@
 ---
+
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
 difficulty: advanced
 domain:
-- entrepreneur
+  - yitang- entrepreneur
 - master
 estimated_tokens: 3200
 language: zh-CN
@@ -68,6 +69,7 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 # 动态单元模型：规模变量、拐点预判与规模经济对抗
 

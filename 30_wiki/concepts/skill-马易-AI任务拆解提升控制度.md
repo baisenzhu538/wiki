@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-AI任务拆解提升控制度
 title: 技能：AI任务拆解提升控制度
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI项目需求拆解筛选]]'
   - '[[skill-马易-隐私安全分层解决]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
+
 ---
 # 技能：AI任务拆解提升控制度
 

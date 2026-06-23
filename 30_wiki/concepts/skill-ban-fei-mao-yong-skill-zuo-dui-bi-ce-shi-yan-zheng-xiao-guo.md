@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo
 title: "技能：用 Skill 做对比测试验证效果"
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -38,6 +40,7 @@ diagnostic_signals:
 - signal: "团队内部对 Skill 价值争论不休，各说各话"
   framework_lens: "共识缺失"
   follow_up_question: "能否把评价标准事先和 AI/团队约定，用结构化评分替代主观争论？"
+
 ---
 # 技能：用 Skill 做对比测试验证效果
 

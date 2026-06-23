@@ -1,11 +1,12 @@
 ---
 
 
+
 id: skill-李诞-内容创作中的观察训练法
 title: 技能：内容创作中的观察训练法
 type: "tool"
 domain:
-- design
+  - content-production- design
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +23,7 @@ related:
   - '[[skill-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
   - '[[skill-月白-AIGC设计作业复盘法]]'
   - '[[skill-李诞-面对过去错误的平静心法]]'
+
 ---
 # 技能：内容创作中的观察训练法
 

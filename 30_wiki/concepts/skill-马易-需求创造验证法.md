@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-需求创造验证法
 title: 技能：需求创造验证法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI项目需求拆解筛选]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
   - '[[skill-马易-RPA数据整合法]]'
+
 ---
 # 技能：需求创造验证法
 

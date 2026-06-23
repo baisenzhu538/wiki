@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: "tool"
 domain:
-- management
+  - content-production- management
 - yitang
 status: draft
 source_person: 一堂
@@ -32,6 +33,7 @@ related:
   - '[[skill-获取他人反馈优化笔记]]'
   - '[[skill-用清单体记备忘笔记]]'
   - '[[skill-用topdown方式整理内化笔记]]'
+
 ---
 # 技能：自我反馈修正笔记姿势
 

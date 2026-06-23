@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——可持续增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的增长被竞品复制了'"
     framework_lens: 可持续增长——增长被复制说明壁垒不足
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
+
 ---
 
 # 可持续增长：壁垒驱动

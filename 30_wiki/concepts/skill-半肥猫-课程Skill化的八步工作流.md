@@ -1,12 +1,12 @@
 ---
+
 id: skill-半肥猫-课程Skill化的八步工作流
 title: "技能：课程Skill化的八步工作流"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 半肥猫
+  - yitangsource_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
@@ -51,6 +51,7 @@ diagnostic_signals:
   - signal: "通用AI总是鼓励做，但我的场景不该做"
     lens: "拒绝能力不足"
     follow_up: "检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界"
+
 ---
 # 技能：课程Skill化的八步工作流
 

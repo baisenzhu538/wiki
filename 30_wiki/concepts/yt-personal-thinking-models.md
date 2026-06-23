@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-personal-thinking-models
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 1853
+  - personal-growthestimated_tokens: 1853
 language: zh-CN
 query_triggers:
   - "一堂做课供应链模型"
@@ -48,6 +48,7 @@ related:
   - '[[yt-personal-y-model-practice]]'
   - '[[yt-entrepreneur-research-camp]]'
   - '[[yt-personal-knowledge-extraction]]'
+
 ---
 # 思维模型：从碎片经验到稳定模型
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
@@ -10,7 +11,7 @@ source_refs:
 status: enriched
 confidence: 0.8
 domain:
-- kdo
+  - yitang- kdo
 - yitang
 created_at: '2026-06-15'
 author: 黄药师
@@ -41,6 +42,7 @@ diagnostic_signals:
   framework_lens: 放量健康度诊断
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
+
 ---# 业务公式 ABC → KDO 卡片质量
 
 > **Burn line**: GMV = 线索×转化×客单价×复购 拆太粗 = 亏损。卡片质量 = id+title+type 凑齐 = 看着完整但用不了。

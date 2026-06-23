@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-system-redundancy]]'
   - '[[skill-ai-voice-input-doubao]]'
   - '[[skill-ai-old-small-checklist]]'
+
 ---
 # 技能：把PRD写成AI能执行的指令
 

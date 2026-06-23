@@ -2,13 +2,14 @@
 
 
 
+
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 2400
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -48,6 +49,7 @@ diagnostic_signals:
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 五步法落地实操：从故事版到分工版
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-concept]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

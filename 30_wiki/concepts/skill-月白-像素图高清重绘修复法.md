@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-像素图高清重绘修复法
 title: 技能：像素图高清重绘修复法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-电商白底图生成与高清重绘]]'
   - '[[skill-月白-普通人AI设计80分法则]]'
   - '[[skill-月白-电商白底图生成与高清处理]]'
+
 ---
 # 技能：像素图高清重绘修复法
 

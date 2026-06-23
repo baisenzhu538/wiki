@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-AI落地场景识别-拆工作流找场景
 title: 技能：AI落地场景识别-拆工作流找场景
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI项目需求拆解筛选]]'
   - '[[skill-马易-AIGC项目ROI评估]]'
   - '[[skill-马易-AI答疑运营风格适配]]'
+
 ---
 # 技能：AI落地场景识别-拆工作流找场景
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——同期群分析
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们不知道哪个渠道的用户质量最好'"
     framework_lens: 同期群分析——按渠道分群，对比留存
     follow_up_question: "不同渠道的用户 cohort 留存曲线对比如何？"
+
 ---
 
 # 同期群分析：用户行为追踪

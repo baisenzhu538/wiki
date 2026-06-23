@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-模型组合调用
 title: 技能：模型组合调用
 type: "tool"
 domain:
-- design
+  - learning-methodology- design
 - yitang
 status: draft
 source_person: Truman
@@ -32,6 +33,7 @@ related:
   - '[[skill-主动摘要压缩上下文]]'
   - '[[skill-提示词结构化迭代]]'
   - '[[skill-渐进式披露上下文]]'
+
 ---
 # 技能：模型组合调用
 

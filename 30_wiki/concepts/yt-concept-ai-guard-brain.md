@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 - ai
 language: zh-CN
 version: 1
@@ -41,6 +42,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
+
 ---# 守脑如玉：AI 时代保持大脑锋利
 
 > [[yt-model-prompt-engineering]] 的子概念。AI 越来越强但人不能越来越笨——AI 是磨刀石，不是拐杖。

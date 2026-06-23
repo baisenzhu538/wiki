@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-真需求四要素验证法
 title: "技能：真需求四要素验证法"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
@@ -46,6 +46,7 @@ diagnostic_signals:
   - signal: "新手觉得自己没资格做验证，不做判断盲目开干"
     lens: "验证逃避"
     follow_up: "新手的验证工具是假设、调研、访谈、问AI、做实验。不做验证就动手是赌博"
+
 ---
 # 技能：真需求四要素验证法
 

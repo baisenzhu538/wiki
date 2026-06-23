@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-科学提问法
 title: 技能：科学提问法
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-技术社区严肃提问法]]'
   - '[[skill-Truman-语义对齐沟通法]]'
   - '[[skill-月白-文创材质调研与精益选择]]'
+
 ---
 # 技能：科学提问法
 

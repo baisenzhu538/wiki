@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - productsource_person: Truman
 source_context: 一堂产品内核系列课——失败案例
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户团队对产品方向争论不休，无法决策"
     framework_lens: 产品内核失败模式——团队对内核无共识
     follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
+
 ---
 
 # 产品内核失败的5种模式

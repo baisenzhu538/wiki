@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-反向提示获取优化建议
 title: 技能：反向提示获取优化建议
 type: "tool"
 domain:
-- product
+  - learning-methodology- product
 - ai-saas
 - master
 - yitang
@@ -33,6 +34,7 @@ related:
   - '[[skill-提示词结构化迭代]]'
   - '[[skill-渐进式披露上下文]]'
   - '[[skill-反向教学深化理解]]'
+
 ---
 # 技能：反向提示获取优化建议
 

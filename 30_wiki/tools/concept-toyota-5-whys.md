@@ -1,4 +1,5 @@
 ---
+
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
@@ -8,7 +9,7 @@ Press.'
   Organization*. Doubleday.'
 status: enriched
 domain:
-- lean-manufacturing
+  - management- lean-manufacturing
 - yitang
 bridges_to:
 - target: skill-一堂-kernel-three-questions
@@ -39,6 +40,7 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
+
 ---# 5 Whys：追问到根本原因
 
 > 来源：Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*; Senge, P. M. (1990). *The Fifth Discipline*

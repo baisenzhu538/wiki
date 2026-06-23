@@ -1,10 +1,11 @@
 ---
+
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
 status: enriched
 domain:
-- yitang
+  - learning-methodology- yitang
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -45,6 +46,7 @@ diagnostic_signals:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 

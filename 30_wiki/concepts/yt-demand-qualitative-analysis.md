@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"需求分析先定性后定量"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户访谈做了很多，但结论模糊，无法指导决策"
     framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
     follow_up_question: "你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？"
+
 ---
 
 # 需求定性分析框架：拆推评算四步法

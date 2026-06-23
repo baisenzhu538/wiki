@@ -1,11 +1,12 @@
 ---
 
+
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-- yitang
+  - modeling- yitang
 estimated_tokens: 1881
 language: zh-CN
 query_triggers:
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
 trust_level: medium-high
+
 ---# 一堂无限进步大地图·十年收藏版
 
 > 来源：一堂《无限进步大地图》十年收藏版。[[一堂]] | [[yt-model-y-organization]] | [[yt-system-course-catalog]]

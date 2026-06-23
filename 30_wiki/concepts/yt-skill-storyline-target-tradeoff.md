@@ -1,10 +1,11 @@
 ---
 
 
+
 id: yt-skill-storyline-target-tradeoff
 title: 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 domain:
-- yitang
+  - content-production- yitang
 diagnostic_signals:
 - signal: 是否先穷尽因素、前置标准、分配显式权重再评估选项
   framework_lens: 理性决策 / 反合理化
@@ -34,6 +35,7 @@ related:
   - '[[yt-tool-y-model-ruler]]'
   - '[[dk-yb25-solution-driven-visual-design]]'
   - '[[dk-p15-unverified]]'
+
 ---
 # 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 

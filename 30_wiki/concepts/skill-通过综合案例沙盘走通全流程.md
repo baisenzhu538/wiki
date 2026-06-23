@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-通过综合案例沙盘走通全流程
 title: 技能：通过综合案例沙盘走通全流程
 type: "tool"
 domain:
-- product
+  - decision- product
 - design
 - business-strategy
 - decision-making
@@ -33,6 +34,7 @@ related:
   - '[[skill-遵循规模前倾原则设计组织架构]]'
   - '[[skill-使用优先级快筛卡锁定核心矛盾]]'
   - '[[skill-设计对抗效果追踪看板]]'
+
 ---
 # 技能：通过综合案例沙盘走通全流程
 

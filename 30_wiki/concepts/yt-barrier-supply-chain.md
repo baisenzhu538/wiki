@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——供应链壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的供应链优势是地理位置'"
     framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
     follow_up_question: "你的地理位置优势是否可持续？竞品是否也能获得类似位置？"
+
 ---
 
 # 供应链壁垒：资源独占

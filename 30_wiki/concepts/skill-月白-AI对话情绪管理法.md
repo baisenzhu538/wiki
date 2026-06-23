@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI对话情绪管理法
 title: 技能：AI对话情绪管理法
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-文创材质调研与精益选择]]'
   - '[[skill-月白-Token效价比决策法]]'
   - '[[skill-月白-AI课程内容深度梳理法]]'
+
 ---
 # 技能：AI对话情绪管理法
 

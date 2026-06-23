@@ -1,11 +1,13 @@
 ---
 
+
 id: skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 title: 技能：按语义切分文档做向量化
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -42,6 +44,7 @@ diagnostic_signals:
 - signal: 向量化后检索质量持续下降却未被发现
   lens: 缺乏检索质量监控
   follow_up: 建立定期检索测试集，覆盖边界问题与负例，监控召回率与答案可用性
+
 ---
 # 技能：按语义切分文档做向量化
 

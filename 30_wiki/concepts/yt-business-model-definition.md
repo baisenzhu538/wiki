@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-definition
 title: 商业模式定义：从内核到变现
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.93
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——商业模式定义
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们商业模式很创新'，但跑不通"
     framework_lens: 商业模式定义——创新≠可行，需要验证单元模型
     follow_up_question: "你的单元模型成立吗？LTV > CAC吗？有数据支撑吗？"
+
 ---
 
 # 商业模式定义：从内核到变现

@@ -1,12 +1,11 @@
 ---
+
 id: skill-一堂-spectrum-positioning
 title: "技能：光谱模型定位法"
 type: tool
 status: enriched
 domain:
-  - product
-  - yitang
-source_person: Truman
+  - learning-methodologysource_person: Truman
 source_context: 一堂商业预判课
 source_refs:
 - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
@@ -48,6 +47,7 @@ diagnostic_signals:
   - signal: "单店还没跑通就开始扩张"
     lens: "过渡过快"
     follow_up: "阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张"
+
 ---
 # 技能：光谱模型定位法
 

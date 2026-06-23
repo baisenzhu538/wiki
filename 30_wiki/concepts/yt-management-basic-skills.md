@@ -1,9 +1,10 @@
 ---
 
+
 title: 基本功认知
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - yitang
 status: enriched
@@ -39,6 +40,7 @@ related:
 - "yt-management-founder-role"
 - "yt-management-scientific-meetings"
 - "yt-management-business-formula"
+
 ---
 # 基本功认知
 

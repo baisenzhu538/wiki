@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.91
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂泛产品设计——需求工具箱指南
 source_refs:
   - src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'等我有空再用'，但一直没用"
     framework_lens: 动机阻力分析——动机不够强，被其他事情优先
     follow_up_question: "用户现在的优先级排序是什么？你的产品排在第几位？"
+
 ---
 
 # 需求动机与阻力分析：为什么用户"需要"但"不用"

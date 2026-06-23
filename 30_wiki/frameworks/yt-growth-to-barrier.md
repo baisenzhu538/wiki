@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-to-barrier
 title: 从增长到壁垒：承上启下
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——从增长到壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'从增长到壁垒怎么过渡'"
     framework_lens: 从增长到壁垒——增长和壁垒不是先后，而是同步建设
     follow_up_question: "你的增长是否在同时建设壁垒？哪些增长行为在积累壁垒？"
+
 ---
 
 # 从增长到壁垒：承上启下

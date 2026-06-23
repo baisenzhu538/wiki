@@ -2,11 +2,12 @@
 
 
 
+
 id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
 domain:
-- yitang
+  - yitang- yitang
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -50,6 +51,7 @@ related:
   - '[[case-truman-yitang-foresight]]'
   - '[[yt-foresight-addition-subtraction]]'
   - '[[yt-foresight-15-char-mantra]]'
+
 ---# 概率工程：把小概率变成大概率的方法论
 
 ## Core Claims

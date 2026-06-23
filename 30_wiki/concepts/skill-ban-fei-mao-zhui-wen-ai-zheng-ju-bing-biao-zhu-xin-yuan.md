@@ -1,10 +1,12 @@
 ---
+
 id: skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
 title: 技能：追问 AI 证据并标注信源
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -37,6 +39,7 @@ diagnostic_signals:
 - signal: '在低容错场景中直接采信 AI 回答并执行'
   lens: 风险分级
   follow_up: 这个场景的错误代价是什么？是否已经验证信源并标注不确定性？
+
 ---
 # 技能：追问 AI 证据并标注信源
 

@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-model-ipo-complete-checklist
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
-estimated_tokens: 2614
+  - modelingestimated_tokens: 2614
 language: zh-CN
 query_triggers:
   - "IPO 科学学习完整清单"
@@ -45,6 +45,7 @@ related:
   - '[[yt-entrepreneur-research-camp]]'
   - '[[yt-personal-ipo-learning]]'
   - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
+
 ---
 # IPO 科学学习完整清单 (Complete List)
 

@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-水水-保持系统冗余
 title: 技能：保持系统冗余
 type: "tool"
 domain:
-- management
+  - personal-growth
+  - decision- management
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-水水-识别关键偶然因素]]'
   - '[[skill-水水-识别自证预言陷阱]]'
   - '[[skill-水水-识别超级传播者风险]]'
+
 ---
 # 技能：保持系统冗余
 

@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-本地记忆与云端记忆管理
 title: 技能：本地记忆与云端记忆管理
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-多Agent通信协作方案]]'
   - '[[skill-月白-文件命名与存档规范（口述暗示）]]'
   - '[[skill-Truman-复杂项目AI落地稳定性保障]]'
+
 ---
 # 技能：本地记忆与云端记忆管理
 

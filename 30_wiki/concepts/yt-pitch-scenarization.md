@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-pitch-scenarization
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
 domain:
-- personal
+  - content-production- personal
 - yitang
 estimated_tokens: 1500
 language: zh-CN
@@ -45,6 +46,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---# 讲香·场景化
 
 > 十指模型左手第一指——向下具象。在产品/服务与用户之间架一座场景的桥，让用户从「与我无关」到「我正需要」。

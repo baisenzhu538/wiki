@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——渠道经济学
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户渠道之间互相 cannibalization"
     framework_lens: 渠道经济学——渠道之间可能互相蚕食
     follow_up_question: "你的渠道之间是否互相竞争？如何协调渠道策略？"
+
 ---
 
 # 渠道经济学：获客成本优化

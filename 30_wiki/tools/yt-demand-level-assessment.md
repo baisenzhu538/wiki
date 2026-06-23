@@ -1,4 +1,5 @@
 ---
+
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - product
-source_person: Truman
+  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——段位图与进阶路径
 source_refs:
   - src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户团队需求分析能力参差不齐，无法对齐"
     framework_lens: 段位评估——团队能力断层
     follow_up_question: "你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？"
+
 ---
 
 # 需求分析段位自评表：从L1到L6的进阶路径

@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-parallel-validation
 title: 技能：平行运行验证法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-evidence-check]]'
   - '[[skill-ai-ai-workspace-setup]]'
   - '[[skill-ai-old-small-checklist]]'
+
 ---
 # 技能：平行运行验证法
 

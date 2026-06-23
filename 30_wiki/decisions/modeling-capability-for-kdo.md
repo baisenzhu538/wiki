@@ -1,11 +1,12 @@
 ---
+
 id: modeling-capability-for-kdo
 title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
 status: enriched
 confidence: 0.78
 domain:
-- kdo
+  - modeling- kdo
 - yitang
 source_refs: []
 related:
@@ -47,6 +48,7 @@ diagnostic_signals:
 - signal: AI 生成的框架看起来完整，落地时每场景都要打补丁
   framework_lens: 人在环中建模五步法
   follow_up_question: AI 输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
+
 ---# KDO 内容路线决策：建模能力在知识库建设中的应用
 
 > **Burn line**: KDO/wiki 的建设不是整理资料，而是建立一条从原始素材到结构化知识的建模流水线。

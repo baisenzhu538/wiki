@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-判断标准快速产出法
 title: 技能：判断标准快速产出法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-公寓获客自跑通原则]]'
   - '[[skill-马易-减少输入噪音法]]'
   - '[[skill-马易-最小场景优先落地法]]'
+
 ---
 # 技能：判断标准快速产出法
 

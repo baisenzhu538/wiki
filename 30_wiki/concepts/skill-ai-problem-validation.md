@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-ai-problem-validation
 title: 技能：问题验证三维度法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-ai-four-elements-validation]]'
   - '[[skill-ai-problem-question-check]]'
   - '[[skill-ai-evidence-check]]'
+
 ---
 # 技能：问题验证三维度法
 

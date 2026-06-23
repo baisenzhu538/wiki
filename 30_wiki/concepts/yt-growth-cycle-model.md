@@ -2,13 +2,13 @@
 
 
 
+
 id: yt-growth-cycle-model
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2600
+  - growthestimated_tokens: 2600
 language: zh-CN
 query_triggers:
   - "增长周期"
@@ -48,6 +48,7 @@ related:
   - '[[case-toy-cabinet-business-model]]'
   - '[[yt-product-ten-metrics]]'
   - '[[yt-scale-economy-weapon-library]]'
+
 ---
 # 增长周期模型
 

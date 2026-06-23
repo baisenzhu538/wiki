@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-engagement-loop
 title: 参与循环：让用户持续回来
 type: framework
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——参与循环
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'用户参与度不高，但不知道怎么办'"
     framework_lens: 参与循环——参与度需要设计循环机制
     follow_up_question: "你的产品是否有触发机制、奖励机制、社交机制让用户持续参与？"
+
 ---
 
 # 参与循环：让用户持续回来

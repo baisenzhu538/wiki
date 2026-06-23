@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-ai-p-role-not-c-role
 title: AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 type: dark-knowledge
@@ -8,8 +9,7 @@ status: draft
 confidence: 0.75
 trust_level: medium
 domain:
-  - yitang
-author: 老顽童
+  - learning-methodologyauthor: 老顽童
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂AI Partner设计——P角色设计哲学
@@ -23,6 +23,7 @@ related:
   - '[[yt-note-five-levels-training]]'
   - '[[truman-ai-partner-design-analysis]]'
   - '[[yt-note-three-level-evolution]]'
+
 ---
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 

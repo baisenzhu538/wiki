@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-scientific-method
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1833
+  - entrepreneurshipestimated_tokens: 1833
 language: zh-CN
 query_triggers:
   - "Y模型"
@@ -49,6 +49,7 @@ related:
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
   - '[[yt-entrepreneur-truth-seeking]]'
+
 ---
 # Y模型/科学方法
 

@@ -1,12 +1,11 @@
 ---
+
 id: skill-四层联系建立法
 title: "技能：四层联系建立法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -49,6 +48,7 @@ diagnostic_signals:
   - signal: "联系只在自己脑子里，说不出来具体关联是什么"
     lens: "联系不可输出"
     follow_up: "联系必须能写成一段话讲给不懂的人听，说不出来等于没真正理解"
+
 ---
 # 技能：四层联系建立法
 

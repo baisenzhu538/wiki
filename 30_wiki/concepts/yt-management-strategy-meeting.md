@@ -1,10 +1,11 @@
 ---
 
 
+
 title: 战略会
 type: concept
 domain:
-- ai-saas
+  - management- ai-saas
 - management
 - decision-making
 - yitang
@@ -34,6 +35,7 @@ related:
   - '[[yt-management-basic-skills]]'
   - '[[ocr-一堂y模型steps策略集]]'
   - '[[yt-panproduct-demand-project-background]]'
+
 ---
 # 战略会
 

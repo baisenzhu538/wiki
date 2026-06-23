@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-concept-p-type-l-type
 confidence: 0.8
 created_at: 2026-06-06
 difficulty: beginner
 domain:
-  - yitang
-estimated_tokens: 2800
+  - yitangestimated_tokens: 2800
 language: zh-CN
 prerequisites:
   - yt-entrepreneur-industry-forecast
@@ -52,6 +52,7 @@ related:
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-entrepreneur-industry-forecast]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
+
 ---
 # P型与L型创业者
 

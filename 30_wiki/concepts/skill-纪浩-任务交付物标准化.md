@@ -1,12 +1,12 @@
 ---
+
 id: skill-纪浩-任务交付物标准化
 title: "技能：任务交付物标准化"
 type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - yitangsource_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
 - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
@@ -38,6 +38,7 @@ diagnostic_signals:
   - signal: "AI原地打转，输出大量内容但没有实际交付物"
     lens: "无效输出"
     follow_up: "任务开始前明确交付物定义。AI输出不是交付物，符合验收标准的输出才是"
+
 ---# 技能：任务交付物标准化
 
 - **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

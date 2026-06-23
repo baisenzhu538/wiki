@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
@@ -46,6 +48,7 @@ diagnostic_signals:
 - signal: 常见失败模式未表格化，修复动作不具体
   lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
+
 ---
 
 # 技能：平行运行验证法

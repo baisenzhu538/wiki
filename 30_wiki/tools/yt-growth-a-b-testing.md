@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-a-b-testing
 title: A/B测试：增长实验的统计基础
 type: tool
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——A/B测试
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们只做了一次A/B测试就决定了'"
     framework_lens: A/B测试——一次测试不足以得出结论，需要重复验证
     follow_up_question: "这个结果是否在其他场景重复验证？是否考虑了长期影响？"
+
 ---
 
 # A/B测试：增长实验的统计基础

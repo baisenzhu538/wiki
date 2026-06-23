@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-switching-costs
 title: 转换成本：让用户离不开
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——转换成本
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的用户习惯了我们的产品，但竞品更好用'"
     framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
     follow_up_question: "竞品的好用程度是否足以克服用户的习惯成本？"
+
 ---
 
 # 转换成本：让用户离不开

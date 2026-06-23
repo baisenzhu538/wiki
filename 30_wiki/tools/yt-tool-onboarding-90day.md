@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
 type: tool
@@ -6,7 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260619_7bc5c6f6_30_wiki_concepts_yt_management_team_knowledge.md
 status: enriched
 domain:
-- yitang
+  - yitang- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -45,6 +46,7 @@ updated_at: '2026-06-16'
 estimated_tokens: 3200
 reviewed_by: null
 author: 老顽童
+
 ---
 # 新人 90 天融入加速器
 

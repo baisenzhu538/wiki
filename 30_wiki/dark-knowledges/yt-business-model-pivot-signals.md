@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
 type: dark-knowledge
@@ -7,9 +8,7 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——转型信号
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,6 +40,7 @@ diagnostic_signals:
   - signal: "用户团队士气低落，对产品失去信心"
     framework_lens: 商业模式转型信号——团队信心是转型的重要信号
     follow_up_question: "团队为什么失去信心？是对产品、市场、还是商业模式失去信心？"
+
 ---
 
 # 商业模式转型信号：何时该 pivot

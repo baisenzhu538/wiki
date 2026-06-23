@@ -1,12 +1,11 @@
 ---
+
 id: skill-清单小抄工具箱法
 title: "技能：清单小抄工具箱法"
 type: tool
 status: enriched
 domain:
-  - learning-methodology
-  - yitang
-source_person: 一堂课程
+  - learning-methodologysource_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
   - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
@@ -50,6 +49,7 @@ diagnostic_signals:
   - signal: "没有清单就不会做，能力退化"
     lens: "过度依赖"
     follow_up: "清单是辅助不是拐杖，核心能力需内化，清单只用于防遗漏和标准化"
+
 ---
 # 技能：清单小抄工具箱法
 

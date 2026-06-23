@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-management-toolkit-overview
 component_of:
 - yt-model-management-map
@@ -7,7 +8,7 @@ confidence: 0.85
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-- yitang
+  - management- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -67,6 +68,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---# 管理工具箱总览
 
 > 来源：一堂管理地图工具化升级。管理域原有 16 张 concept 卡讲"应该做什么"，本框架及配套 8 张 tool 卡回答"怎么做"——从"知道"到"做到"的最后一公里。

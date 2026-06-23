@@ -1,11 +1,12 @@
 ---
+
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
 source_refs: []
 status: enriched
 domain:
-- consulting
+  - management- consulting
 - yitang
 bridges_to:
 - target: yt-entrepreneur-key-hypotheses
@@ -40,6 +41,7 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
+
 ---# Hypothesis-Driven Approach：假设驱动工作法
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Friga, P. N. (2003). *The McKinsey Mind*

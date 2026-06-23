@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-使用优先级快筛卡锁定核心矛盾
 title: 技能：使用优先级快筛卡锁定核心矛盾
 type: "tool"
 domain:
-- design
+  - learning-methodology- design
 - decision-making
 status: draft
 source_person: 课程设计者
@@ -31,6 +32,7 @@ related:
   - '[[skill-建立策略-要素映射表设计对抗策略]]'
   - '[[skill-遵循规模前倾原则设计组织架构]]'
   - '[[skill-设计对抗效果追踪看板]]'
+
 ---
 # 技能：使用优先级快筛卡锁定核心矛盾
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
@@ -10,7 +11,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 created_at: 2026-05-05
 domain:
-- yitang
+  - research- yitang
 yitang:
   map: entrepreneur
   module: 调研方法论
@@ -38,6 +39,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.85
 trust_level: high
+
 ---
 # 一堂调研武器库课程
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-talent-density
 title: 人才密度：组织壁垒
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——人才密度
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们的文化很好，但人才还是流失'"
     framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
     follow_up_question: "除了文化，薪酬、发展、挑战是否足够吸引人才？"
+
 ---
 
 # 人才密度：组织壁垒

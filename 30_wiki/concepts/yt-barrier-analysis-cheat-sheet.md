@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-barrier-analysis-cheat-sheet
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 2200
+  - barrierestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "壁垒分析"
@@ -48,6 +48,7 @@ diagnostic_signals:
   - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}
 updated_at: 2026-06-16
 author: "老顽童"
+
 ---
 # 壁垒分析完整cheatsheet
 

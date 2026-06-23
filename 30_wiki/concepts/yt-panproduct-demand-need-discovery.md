@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-panproduct-demand-need-discovery
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -7,7 +8,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-- yitang
+  - product- yitang
 estimated_tokens: 1167
 language: zh-CN
 prerequisites:
@@ -51,6 +52,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---# 需求挖掘：理解背后的深层原因
 
 > 需求工具箱基础卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

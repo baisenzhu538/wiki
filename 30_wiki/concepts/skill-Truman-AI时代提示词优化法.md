@@ -2,11 +2,13 @@
 
 
 
+
 id: skill-Truman-AI时代提示词优化法
 title: 技能：AI时代提示词优化法
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -23,6 +25,7 @@ related:
   - '[[skill-Truman-语义对齐沟通法]]'
   - '[[skill-Truman-问题定义澄清法]]'
   - '[[skill-Truman-职场异步协作提问法]]'
+
 ---
 # 技能：AI时代提示词优化法
 

@@ -2,12 +2,13 @@
 
 
 
+
 id: skill-月白-AI设计底层逻辑：从设计到作图到改图
 title: 技能：AI设计底层逻辑：从设计到作图到改图
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -33,6 +34,7 @@ related:
   - '[[skill-月白-口喷作图工作流]]'
   - '[[skill-月白-AIGC人群画像驱动详情页规划]]'
   - '[[skill-月白-实物包装落地训练法]]'
+
 ---
 # 技能：AI设计底层逻辑：从设计到作图到改图
 

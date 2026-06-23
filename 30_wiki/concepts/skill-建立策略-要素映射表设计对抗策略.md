@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-建立策略-要素映射表设计对抗策略
 title: 技能：建立策略-要素映射表设计对抗策略
 type: "tool"
 domain:
-- management
+  - learning-methodology- management
 - product
 - business-strategy
 - design
@@ -34,6 +35,7 @@ related:
   - '[[skill-遵循规模前倾原则设计组织架构]]'
   - '[[skill-使用优先级快筛卡锁定核心矛盾]]'
   - '[[skill-设计对抗效果追踪看板]]'
+
 ---
 # 技能：建立策略-要素映射表设计对抗策略
 

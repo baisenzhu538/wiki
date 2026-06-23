@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-Truman-XY-Problem识别与真实问题定位
 title: 技能：XY Problem识别与真实问题定位
 type: "tool"
 domain:
-- yitang
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-Truman-个人判断力系统建设（达克效应应对）]]'
   - '[[skill-Truman-信息输入持续补全（防AI错误累积）]]'
   - '[[skill-Truman-上下文质量管理（AI协作）]]'
+
 ---
 # 技能：XY Problem识别与真实问题定位
 

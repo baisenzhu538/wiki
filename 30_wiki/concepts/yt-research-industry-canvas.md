@@ -1,10 +1,11 @@
 ---
+
 id: yt-research-industry-canvas
 confidence: 0.82
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-- yitang
+  - research- yitang
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
@@ -59,6 +60,7 @@ updated_at: '2026-06-18'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
+
 ---
 # 行业分析画布：五维快速扫描+二维定位
 

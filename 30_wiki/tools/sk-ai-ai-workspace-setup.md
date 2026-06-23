@@ -1,11 +1,13 @@
 ---
 
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: "tool"
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -47,6 +49,7 @@ diagnostic_signals:
 - signal: AI 在复杂任务中越走越偏，最后只能放弃目录重来
   framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
+
 ---
 
 # 技能：结构化AI工作空间搭建

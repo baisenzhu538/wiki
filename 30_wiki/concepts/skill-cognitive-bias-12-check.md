@@ -1,11 +1,12 @@
 ---
 
+
 id: skill-cognitive-bias-12-check
 title: 技能：12种认知偏差完整自检
 type: "tool"
 status: draft
 domain:
-- 决策
+  - decision- 决策
 - 认知
 - 心理学
 source_person: 消化全库后提炼
@@ -33,6 +34,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+
 ---
 # 技能：12种认知偏差完整自检
 

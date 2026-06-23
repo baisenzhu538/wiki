@@ -1,10 +1,12 @@
 ---
+
 id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
 status: enriched
 domain:
-- human-ai-collaboration
+  - ai-collaboration
+  - yitang- human-ai-collaboration
 - ai-collaboration
 - software-engineering
 - yitang
@@ -46,6 +48,7 @@ tags:
 - 需求拆解
 - 质量守门
 - 人机协作
+
 ---
 
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检

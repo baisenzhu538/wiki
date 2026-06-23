@@ -1,10 +1,12 @@
 ---
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
@@ -42,6 +44,7 @@ diagnostic_signals:
 - signal: “比键盘输入快2-3倍”“长按空格键触发”等量化/设置细节在来源中未见出处
   framework_lens: evidence-gap
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
+
 ---
 
 # 技能：口喷式语音输入法

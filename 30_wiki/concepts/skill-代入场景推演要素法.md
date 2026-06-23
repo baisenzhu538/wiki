@@ -2,11 +2,12 @@
 
 
 
+
 id: skill-代入场景推演要素法
 title: 技能：代入场景推演要素法
 type: "tool"
 domain:
-- decision-making
+  - learning-methodology- decision-making
 - yitang
 - business-strategy
 status: draft
@@ -34,6 +35,7 @@ related:
   - '[[skill-ai辅助学习]]'
   - '[[skill-将未中标成本纳入循环计算真实投标成本]]'
   - '[[skill-复盘推演练习]]'
+
 ---
 # 技能：代入场景推演要素法
 

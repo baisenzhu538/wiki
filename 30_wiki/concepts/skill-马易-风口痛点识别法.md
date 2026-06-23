@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-风口痛点识别法
 title: 技能：风口痛点识别法
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-公寓获客自跑通原则]]'
   - '[[skill-马易-减少输入噪音法]]'
   - '[[skill-马易-RPA数据整合法]]'
+
 ---
 # 技能：风口痛点识别法
 

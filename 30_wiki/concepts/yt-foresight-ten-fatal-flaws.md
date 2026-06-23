@@ -1,9 +1,10 @@
 ---
+
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
-- yitang
+  - yitang- yitang
 status: enriched
 confidence: 0.88
 trust_level: medium-high
@@ -41,6 +42,7 @@ diagnostic_signals:
 language: zh-CN
 created_at: 2026-06-11
 updated_at: 2026-06-18
+
 ---
 # 十大硬伤：商业机会的致死缺陷清单
 

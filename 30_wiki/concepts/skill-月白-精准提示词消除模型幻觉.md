@@ -1,12 +1,13 @@
 ---
 
 
+
 id: skill-月白-精准提示词消除模型幻觉
 title: 技能：精准提示词消除模型幻觉
 type: "tool"
 status: draft
 domain:
-- design
+  - design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
@@ -32,6 +33,7 @@ related:
   - '[[skill-月白-分层自洽海报生成法]]'
   - '[[skill-月白-多语言提示词精准法]]'
   - '[[skill-月白-AI设计严苛批评法]]'
+
 ---
 # 技能：精准提示词消除模型幻觉
 

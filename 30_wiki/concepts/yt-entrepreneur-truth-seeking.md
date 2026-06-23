@@ -1,13 +1,13 @@
 ---
 
 
+
 id: yt-entrepreneur-truth-seeking
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
-estimated_tokens: 1817
+  - entrepreneurshipestimated_tokens: 1817
 language: zh-CN
 query_triggers:
   - "实事求是"
@@ -51,6 +51,7 @@ related:
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
+
 ---
 # 实事求是
 

@@ -1,13 +1,14 @@
 ---
 
 
+
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-- yitang
+  - yitang- yitang
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: []
@@ -50,6 +51,7 @@ diagnostic_signals:
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---# 暗知识：五步法常见误区与认知陷阱
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-implementation]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]]

@@ -1,11 +1,13 @@
 ---
 
 
+
 id: skill-马易-工作流拆解找场景
 title: 技能：工作流拆解找场景
 type: "tool"
 domain:
-- ai-saas
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -22,6 +24,7 @@ related:
   - '[[skill-马易-AI项目需求拆解筛选]]'
   - '[[skill-马易-公寓获客自跑通原则]]'
   - '[[skill-马易-RPA数据整合法]]'
+
 ---
 # 技能：工作流拆解找场景
 

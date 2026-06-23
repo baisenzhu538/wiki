@@ -1,11 +1,12 @@
 ---
 
+
 id: smart-medicine-cabinet-regional-policy-map
 title: 各省市自助售药机政策差异地图
 type: concept
 status: enriched
 domain:
-- healthcare
+  - healthcare- healthcare
 - pharmaceutical-retail
 - policy-compliance
 source_refs:
@@ -34,6 +35,7 @@ query_triggers:
 - 黑龙江自助售药机
 difficulty: intermediate
 prerequisites: []
+
 ---# 各省市自助售药机政策差异地图
 
 > **核心定位**：国家底线是"仅乙类 OTC"，但各省市在设置主体、设置地点、医保支付、远程药柜等方面存在差异。进入具体城市前，必须核实现行有效政策。

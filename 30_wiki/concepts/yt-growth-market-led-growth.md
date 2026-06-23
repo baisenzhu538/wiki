@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
 type: concept
@@ -6,9 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
-  - business
-source_person: Truman
+  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——市场驱动增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -40,6 +39,7 @@ diagnostic_signals:
   - signal: "用户说'我们靠展会和活动获客'"
     framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
     follow_up_question: "展会和活动的ROI是多少？是否有后续跟进流程？"
+
 ---
 
 # 市场驱动增长：MLG模式
