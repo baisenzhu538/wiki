@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-23
 active_branch: main
-active_task: "跨域融合计划 P0 已完成：2 张桥接卡 + 10 张枢纽 related 补全。老顽童当前待办：修正 4 张 reviewed_by=待审 + tool-lean-fake-marketing 章节重复 → 跨域桥接卡 P1/P2 → 精益创业 P1 案例补完 7 张；黄药师待开发跨域审计脚本。"
+active_task: "王语嫣验收报告要求：老顽童已修正 4 张 reviewed_by=待审 和 tool-lean-fake-marketing 章节重复；跨域融合 P0 已完成；待执行跨域 P1/P2 + 精益创业 P2 5 张 + 黄药师审计脚本。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -16,12 +16,12 @@ blockers:
   - "✅ 已有 concept/tool 卡（yt-entrepreneur-lean-validation、yt-entrepreneur-key-hypotheses、yt-panproduct-execution-low-cost-mvp、concept-一堂-kernel-validation）已补充反向 related"
   - "✅ 王语嫣 20% 抽样六层交叉验证完成：34 张卡有条件通过"
   - "✅ 跨域融合 P0 完成：framework-strategy-lean-validation + framework-five-step-lean-interface + 10 张枢纽卡 related 补全（双向链接校验通过）"
-  - "✅ 老顽童已修正 4 张 reviewed_by=待审 卡（tool-lean-fake-marketing/leverage-traffic/premium-service/stealth-service）并改为欧阳锋"
-  - "✅ tool-lean-fake-marketing 适用边界与 When NOT to Use 重复章节已合并"
+  - "✅ 老顽童已按王语嫣验收报告修正 4 张 reviewed_by=待审 卡：tool-lean-ai-accelerated-validation、tool-lean-fake-marketing、case-lean-genki-forest-toolkit、case-lean-wrong-demand → 欧阳锋"
+  - "✅ tool-lean-fake-marketing 文末重复 Purpose/When NOT to Use 已删除，保留 Critique"
+  - "✅ 跨域融合 P0 已完成（王语嫣验收报告标注时尚未生产，现已补完）：2 张桥接卡 + 10 张枢纽 related"
   - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
-  - "🆕 老顽童待执行精益创业 P1 案例补完批次：7 张新案例卡（张磊 AMA 3 张 + 系统测试 2 张 + PPT 案例 2 张）"
+  - "🆕 老顽童待执行精益创业 P2：framework-lean-expert-roadmap + 4 个窄行业案例（crayfish/shampoo/radish/adult-education）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
-  - "🟡 精益创业 P2 补充框架（framework-lean-expert-roadmap）+ 窄行业案例（crayfish/shampoo/radish/adult-education）待生产"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
