@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-24
 active_branch: main
-active_task: "精益创业 P1 案例补完批次已调整为 5 张（原 7 张中 2 张因源文件缺失取消）：张磊 AMA 3 张 + 系统测试曲线 2 张；跨域融合 P1/P2、精益创业 P2 5 张、黄药师审计脚本、王欢 AI 2041 并行待执行。"
+active_task: "跨域融合计划（策略 A）P0+P1+P2 全部完成：5 张桥接卡 + 10 张枢纽 related + 2 张跨域案例；待执行：精益创业 P2 4 张、黄药师审计脚本、王欢 AI 2041。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -15,13 +15,11 @@ blockers:
   - "✅ 精益创业 domain digest 已更新：8 framework + 16 tool + 15 case 清单，P2 5 张标注为待生产"
   - "✅ 已有 concept/tool 卡（yt-entrepreneur-lean-validation、yt-entrepreneur-key-hypotheses、yt-panproduct-execution-low-cost-mvp、concept-一堂-kernel-validation）已补充反向 related"
   - "✅ 王语嫣 20% 抽样六层交叉验证完成：34 张卡有条件通过"
-  - "✅ 跨域融合 P0 完成：framework-strategy-lean-validation + framework-five-step-lean-interface + 10 张枢纽卡 related 补全（双向链接校验通过）"
   - "✅ 老顽童已按王语嫣验收报告修正 4 张 reviewed_by=待审 卡：tool-lean-ai-accelerated-validation、tool-lean-fake-marketing、case-lean-genki-forest-toolkit、case-lean-wrong-demand → 欧阳锋"
   - "✅ tool-lean-fake-marketing 文末重复 Purpose/When NOT to Use 已删除，保留 Critique"
-  - "✅ 跨域融合 P0 已完成（王语嫣验收报告标注时尚未生产，现已补完）：2 张桥接卡 + 10 张枢纽 related"
+  - "✅ 跨域融合计划（策略 A）P0+P1+P2 全部完成：5 张桥接卡 + 10 张枢纽卡 related 补全 + 2 张跨域案例；双向链接校验通过"
   - "✅ 精益创业 P1 案例补完批次 5/5 全部完成：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
-  - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison（完美日记 vs 花西子 PPT）、case-lean-b2b-sector-selection（建材企业赛道选择 PPT）已取消；若用户后续提供素材可作为 P2/P3 追加"
-  - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
+  - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison、case-lean-b2b-sector-selection 已取消；若用户后续提供素材可作为 P2/P3 追加"
   - "🆕 老顽童待执行精益创业 P2：framework-lean-expert-roadmap + 4 个窄行业案例（crayfish/shampoo/radish/adult-education）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
   - "🆕 王欢《AI 2041》新素材待老顽童生产：P0 5 张 / P1 9 张 / P2 8 张，见 task_20260624_laowantong-ai2041-cards.md"
@@ -30,7 +28,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "先检查老顽童当前在执行的管线（跨域 P1/P2、精益创业 P2、AI 2041 P0），优先验收已完成的批次；跟进黄药师跨域审计脚本进度；待 AI 2041 P0 完成后安排王语嫣 20% 抽样验收。"
+next_session_hint: "跨域融合计划已全量完成，优先安排王语嫣对 5 张桥接卡 + 2 张跨域案例做 20% 抽样验收；然后继续精益创业 P2 4 张 / AI 2041 P0 / 黄药师审计脚本。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

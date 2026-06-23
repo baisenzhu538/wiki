@@ -38,7 +38,7 @@ related:
 └── 决策判断 → "什么时候坚持？什么时候 pivot？"（ABCD 模型）
 ```
 
-## 核心框架（8 张）
+## 核心框架（11 张）
 
 | 卡 | 一句话 | 可信度 |
 |:--|:--|:--:|
@@ -49,6 +49,9 @@ related:
 | `framework-lean-abcd-model` | 关键假设 ABCD 模型——宏观/微观 × 成败/效率的优先级矩阵 | 🟡 |
 | `framework-lean-tenx-formula` | 十倍速公式——常识 < 情报 << 实验 <<< 全量投入的投入-风险光谱 | 🟡 |
 | `framework-lean-product-kernel` | 产品内核——不要过早细化未经思考的内核 | 🟡 |
+| `framework-lean-pivot-decision` | 精益验证结果如何触发战略/产品 pivot | 🟡 |
+| `framework-ai-accelerated-strategy-cycle` | AI 加速的战略-验证闭环 | 🟡 |
+| `framework-demand-lean-bridge` | 需求判断与精益验证的衔接 | 🟡 |
 | `framework-lean-expert-roadmap` | 精益高手十年修炼地图——L1-L6 六段能力进阶（P2 待生产） | 🟡 |
 
 > 🟢 高可信度（国际通行方法论） 🟡 中可信度（一堂归纳/本土化，需标注来源）
@@ -75,7 +78,7 @@ related:
 | 内核指标 | `tool-lean-product-kernel-metrics` | 产品内核十大典型指标（获客/服务/复购） |
 | AI 加速 | `tool-lean-ai-accelerated-validation` | AI 对 FALSE/FLESAI 各环节的加速方式与边界 |
 
-## 案例卡（20 张）
+## 案例卡（22 张）
 
 | 卡 ID | 主题 | 失败类型/验证范式 |
 |:--|:--|:--|
@@ -95,6 +98,8 @@ related:
 | `case-lean-zhanglei-failure-counterfactual` | 张磊 AMA：失败案例与反事实推演 | 见澄明判断力训练产品验证陷阱 |
 | `case-lean-gray-test-paradigm` | 灰度测试范式实操案例 | 张磊扭蛋机三级放量验证 |
 | `case-lean-combination-test-paradigm` | 组合测试范式实操案例 | 洗发水卖点 × 堕落小龙虾选型组合测试 |
+| `case-cross-yuanqi-forest` | 元气森林跨域闭环 | 战略定位 + 精益试错 + 增长放大 |
+| `case-cross-xingangwan-pharma` | 鑫港湾智慧药柜跨域验证 | 战略选择 + 商业模式 + 合规假设验证 |
 | `case-lean-crayfish-combo-test` | 堕落小龙虾组合测试（P2 待生产） | 组合测试与价值热力图 |
 | `case-lean-shampoo-selling-points` | 洗发水卖点组合测试（P2 待生产） | 功效/成分/香味/背书四维度排列组合 |
 | `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘（P2 待生产） | 确定性/能力匹配/红利窗口三维度评估 |
@@ -132,4 +137,4 @@ related:
 ---
 
 *黄药师 · 2026-06-23 · 精益创业域建制（老顽童生产中）*
-*P0+P1 已入库 40 张：8 framework + 16 tool + 16 case；P2 4 张待生产；2 张 PPT 案例卡（完美日记 vs 花西子、建材企业赛道选择）已取消生产*
+*P0+P1 已入库 45 张：11 framework + 16 tool + 18 case；跨域融合 5 张桥接卡 + 2 张跨域案例已完成；P2 4 张待生产*

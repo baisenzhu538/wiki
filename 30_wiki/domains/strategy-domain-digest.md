@@ -74,6 +74,17 @@ related:
 
 > 更多案例见 `00_inbox/战略专题/` 冉鹏逐字稿
 
+## 跨域桥接（精益 · 五步法 · 决策 · AI 协作）
+
+| 卡 | 一句话 |
+|:--|:--|
+| `framework-strategy-lean-validation` | 把战略选择翻译成可验证的假设清单，并用精益工具按优先级排序验证 |
+| `framework-lean-pivot-decision` | 当精益实验结果不理想时，判断 pivot / persevere / kill |
+| `framework-ai-accelerated-strategy-cycle` | 用 AI 同时压缩战略分析和精益验证的周期 |
+| `framework-demand-lean-bridge` | 把需求分析冰山 L1-L6 的洞察转化为可验证实验 |
+| `case-cross-yuanqi-forest` | 元气森林：战略定位 + 精益试错 + 增长放大的跨域闭环 |
+| `case-cross-xingangwan-pharma` | 鑫港湾智慧药柜：战略选择 + 商业模式 + 合规假设验证 |
+
 ## 可调用 Skill
 
 | Skill | 用途 |
