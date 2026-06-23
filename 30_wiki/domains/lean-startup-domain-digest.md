@@ -42,37 +42,64 @@ related:
 
 | 卡 | 一句话 | 可信度 |
 |:--|:--|:--:|
-| `framework-lean-false-model` | FALSE 模型——Falsify/Assumption/Lean/System/Experiment 五步验证闭环 | 🟡 |
-| `framework-lean-six-sins` | 精益六宗罪——创业者最常见的六种假设错误 | 🟡 |
-| `framework-lean-three-paradigms` | 三范式——传统创业 vs 精益创业 vs AI 原生创业 | 🟡 |
-| `framework-lean-abcd-model` | ABCD 模型——Awareness/Belief/Commitment/Deployment 用户行为四阶段 | 🟡 |
-| `framework-lean-10x-formula` | 十倍速公式——从单点验证到规模化的增长方程 | 🟡 |
-| `framework-lean-bml-loop` | BML 循环——Build/Measure/Learn，最小可行产品的迭代引擎 | 🟢 |
-| `framework-lean-hypothesis-hierarchy` | 假设金字塔——从生存假设到增长假设的层级结构 | 🟢 |
-| `framework-lean-systematic-test-curve` | 系统测试曲线——X/Y 曲线与灰度/组合/里程碑三范式 | 🟡 |
+| `framework-lean-false-model` | FALSE/FLESAI 模型——从 F 直接测试到 All-in 的六阶段成本光谱 | 🟡 |
+| `framework-lean-four-principles` | 低成本验证四大原则——尽早发布、小步快跑、克制设计、拥抱变化 | 🟡 |
+| `framework-lean-six-wastes` | 创业六宗罪——问题找错、方案做错、过早细化、过早扩张、闭门造车、转型过慢 | 🟡 |
+| `framework-lean-systematic-test-curve` | 系统测试曲线——X 型幻想 vs Y 型螺旋，灰度/组合/里程碑三范式 | 🟡 |
+| `framework-lean-abcd-model` | 关键假设 ABCD 模型——宏观/微观 × 成败/效率的优先级矩阵 | 🟡 |
+| `framework-lean-tenx-formula` | 十倍速公式——常识 < 情报 << 实验 <<< 全量投入的投入-风险光谱 | 🟡 |
+| `framework-lean-product-kernel` | 产品内核——不要过早细化未经思考的内核 | 🟡 |
+| `framework-lean-expert-roadmap` | 精益高手十年修炼地图——L1-L6 六段能力进阶（P2 待生产） | 🟡 |
 
 > 🟢 高可信度（国际通行方法论） 🟡 中可信度（一堂归纳/本土化，需标注来源）
 > 🔴 低可信度声明（如"80%-90% 创业浪费""平台成功率 <<1%"）必须降级或标注待验证。
 
 ## 工具卡（16 张）
 
-| 类别 | 示例卡 | 用途 |
+| 类别 | 卡 ID | 用途 |
 |:--|:--|:--|
-| 假设验证 | `tool-lean-key-assumptions` | 识别和排序关键假设 |
-| MVP 设计 | `tool-lean-mvp-spectrum` | 从 concierge MVP 到 wizard-of-oz 的 MVP 谱系 |
-| 客户访谈 | `tool-lean-customer-interview` | 问题访谈 vs 解决方案访谈的结构化指南 |
-| 实验设计 | `tool-lean-experiment-design` | A/B 测试、假门测试、烟雾测试的设计模板 |
-| 规模控制 | `tool-lean-minimum-test-volume` | 只测试最小数量，控制单次实验的用户/采购/门店/SKU 规模 |
-| 数据判断 | `tool-lean-vanity-metrics` | 区分虚荣指标和可行动指标 |
-| 转型决策 | `tool-lean-pivot-framework` | 什么时候 pivot？什么时候 persevere？ |
+| F 直接测试 | `tool-lean-fake-marketing` | 用竞争故事/新闻稿/BP/视频 Demo 验证兴趣 |
+| F 直接测试 | `tool-lean-fake-product` | 用假电商页/假包装/假按钮/假海报验证需求 |
+| F 直接测试 | `tool-lean-presell` | 用预售/拼团/众筹验证付费意愿 |
+| A 人工服务 | `tool-lean-stealth-service` | 用真人后台模拟 AI/推荐/配对/BI 系统 |
+| A 人工服务 | `tool-lean-premium-service` | 用 CEO 跑腿/VIP 服务验证标准服务价值 |
+| L 借用现成 | `tool-lean-leverage-competitor` | 借竞品销售/测试验证市场认知 |
+| L 借用现成 | `tool-lean-leverage-resources` | 借工厂/门店/销售/供应商降低重投入 |
+| L 借用现成 | `tool-lean-leverage-tools` | 用 IM/表单/在线文档/无代码平台跑业务流 |
+| L 借用现成 | `tool-lean-leverage-traffic` | 借朋友圈/友商/交易平台/社区论坛测试流量 |
+| S 人工替代 | `tool-lean-human-replace-rnd` | 用人工替代 AI/推荐/搜索/供应链等高阶研发 |
+| S 人工替代 | `tool-lean-human-replace-system` | 用人工替代调度/订单/客服/支付等复杂系统 |
+| E 最小版本 | `tool-lean-minimum-version` | 只发布最小可用版本的 11 个场景做法 |
+| E 最小版本 | `tool-lean-cut-features` | 可砍模块清单——只开发一半、砍 VI/官网/精装修门店等 |
+| E 最小版本 | `tool-lean-minimum-test-volume` | 只测试最小数量——用户/采购/门店/SKU/规模五维度 |
+| 内核指标 | `tool-lean-product-kernel-metrics` | 产品内核十大典型指标（获客/服务/复购） |
+| AI 加速 | `tool-lean-ai-accelerated-validation` | AI 对 FALSE/FLESAI 各环节的加速方式与边界 |
 
 ## 案例卡（15 张）
 
+| 卡 ID | 主题 | 失败类型/验证范式 |
+|:--|:--|:--|
+| `case-lean-electric-scooter-mvp` | 共享电动滑板车 A/B/C/D 四级 MVP | 假设剥离与逐级升级 |
+| `case-lean-wrong-demand` | 需求找错案例集 | 伪需求、目标客户错配、需求与增长未剥离 |
+| `case-lean-building-in-vacuum` | 闭门造车案例集 | 未接触用户即全量投入 |
+| `case-lean-weak-solution` | 方案做错案例集 | 价值主张与用户决策要素错位 |
+| `case-lean-premature-refinement` | 过早细化案例集 | 在空间/履约/外观/流程上过度投入 |
+| `case-lean-premature-expansion` | 过早扩张案例集 | 未算清单位经济就扩规模/范围/杠杆 |
+| `case-lean-perfectionism-traps` | 完美心态踩坑案例集 | 完美主义/恐惧失败/害怕抄袭导致决策缺陷 |
+| `case-lean-medical-device-milestone` | 医疗器械项目里程碑测试 | 长周期硬件的里程碑拆解与二手设备 Demo |
+| `case-lean-genki-forest-toolkit` | 元气森林试错工具箱 | 消费品四阶段七工具渐进验证 |
+| `case-lean-shoe-mvp-evolution` | 鞋类产品 MVP 演进 | All-in → 聪明 MVP 的五版本演进 |
+| `case-lean-2b-gray-test` | 一堂 2B 内训灰度测试 | B2B 服务的六轮灰度迭代 |
+| `case-lean-crayfish-combo-test` | 堕落小龙虾组合测试（P2 待生产） | 组合测试与价值热力图 |
+| `case-lean-shampoo-selling-points` | 洗发水卖点组合测试（P2 待生产） | 功效/成分/香味/背书四维度排列组合 |
+| `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘（P2 待生产） | 确定性/能力匹配/红利窗口三维度评估 |
+| `case-lean-adult-education` | 成人技能教育精益验证（P2 待生产） | 传统重资产 vs 海报快速测试 |
+
 精选代表案例：
-- 电动滑板 —— 从 0 到 1 的完整假设验证链
-- 元气森林试错工具箱 —— 消费品四阶段七工具渐进验证
-- 陈贤敏汉堡 —— 单店 MVP 验证的经典范式
-- 张磊 AMA —— 精益在 AI 时代的演化
+- [[case-lean-electric-scooter-mvp|电动滑板车]] —— 从 0 到 1 的完整假设验证链
+- [[case-lean-genki-forest-toolkit|元气森林试错工具箱]] —— 消费品四阶段七工具渐进验证
+- [[case-一堂-陈贤敏汉堡-hypothesis-validation|陈贤敏汉堡]] —— 单店 MVP 验证的经典范式
+- [[tool-lean-ai-accelerated-validation|AI 加速 FALSE 模型验证]] —— 精益在 AI 时代的演化
 
 > 完整案例清单见 `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
 
@@ -96,4 +123,4 @@ related:
 ---
 
 *黄药师 · 2026-06-23 · 精益创业域建制（老顽童生产中）*
-*39 张卡 · 8 framework + 16 tool + 15 case*
+*P0+P1 已入库 34 张：8 framework + 16 tool + 10 case；P2 5 张待生产*
