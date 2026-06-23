@@ -69,7 +69,7 @@ related:
 
 - [[concept-card-index-latest]] — 卡片全量表
 - [[90_control/vault-status.md|vault-status]] — 域×类型矩阵 + 最近变更
-- [[case-lean-genki-forest-toolkit]] — 元气森林试错工具箱（本任务新增）
+- [[cases/case-lean-genki-forest-toolkit|元气森林试错工具箱]] — 精益创业案例（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---

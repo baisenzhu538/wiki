@@ -43,6 +43,7 @@ source_context: （原始 source 无法追溯，已标记为 source_unknown，�
 | 案例 | 来源 | 一句话 |
 |:---|:---|:---|
 | [[case-ether-online-acquisition]] | — | 以太在线获客案例 |
+| [[case-lean-genki-forest-toolkit]] | 一堂精益创业课程 | 元气森林用四阶段七工具渐进验证新品，降低量产前系统性风险 |
 
 ---
 
