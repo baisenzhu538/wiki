@@ -1,16 +1,16 @@
 # KDO Vault 状态快照
 
-> 自动生成：2026-06-23 02:55 UTC
-> 卡片总数：**1897** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 505 | 缺 source: 1239
+> 自动生成：2026-06-23 21:07 UTC
+> 卡片总数：**1914** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 505 | 缺 source: 1254
 
 ## 域 × 类型 矩阵
 
 | 域 | 总计 | avg conf | case | concept | dark-knowledge | dark_knowledge | decision | framework | improvement-plan | index | prompt-methodology | prompt-template | skill | system | tool |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| strategy | 67 | 0.87 | 31 | 5 | 12 | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
-| yitang | 603 | 0.80 | 71 | 216 | 17 | 29 | 0 | 61 | 0 | 5 | 1 | 4 | 1 | 1 | 197 |
+| strategy | 71 | 0.87 | 31 | 5 | 12 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
+| yitang | 608 | 0.80 | 71 | 216 | 17 | 29 | 0 | 63 | 0 | 6 | 1 | 4 | 1 | 1 | 199 |
 | research | 156 | 0.86 | 38 | 10 | 0 | 17 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 87 |
-| product | 80 | 0.78 | 3 | 40 | 7 | 0 | 0 | 12 | 0 | 0 | 0 | 0 | 1 | 0 | 17 |
+| product | 84 | 0.79 | 3 | 40 | 7 | 0 | 0 | 14 | 0 | 0 | 0 | 0 | 1 | 0 | 19 |
 | design | 7 | 0.70 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 | personal-growth | 5 | 0.77 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | *id001 | 1 | 0.80 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -38,6 +38,7 @@
 | infrastructure | 1 | 0.75 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | innovation | 1 | 0.88 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | kdo | 33 | 0.67 | 0 | 25 | 0 | 0 | 1 | 1 | 4 | 1 | 0 | 0 | 0 | 0 | 1 |
+| lean-startup | 1 | 0.90 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | learning | 1 | 0.75 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | learning-methodology | 18 | 0.73 | 0 | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
 | management | 18 | 0.68 | 0 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -59,11 +60,13 @@
 | 软件交付 | 1 | 0.85 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 销售流程 | 1 | 0.80 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## 最近 2 天变更（27 张）
+## 最近 2 天变更（29 张）
 
 ### 06-23
 
 - `ai-collaboration-domain-digest` [index] 域摘要：AI 协作方法论（王欢 · Harness Engineering）  (conf=0.85, domain=ai-collaboration,yitang)
+- `framework-lean-four-principles` [framework] 精益创业低成本验证四大原则  (conf=0.88, domain=)
+- `lean-startup-domain-digest` [index] 域摘要：精益创业方法论  (conf=0.90, domain=lean-startup,yitang)
 - `yitang-domain-digest` [index] 域摘要：一堂知识体系总目  (conf=0.90, domain=yitang)
 
 ### 06-22
@@ -99,14 +102,14 @@
 - draft 卡: 612 张
 - needs-review: 62 张
 - 低置信度(<0.7): 505 张
-- 缺 source_refs: 1239 张
+- 缺 source_refs: 1254 张
 
 ### 最重的域
 
-- **yitang**: 603 张 (conf=0.80) — case=71 + concept=216 + dark-knowledge=17 + dark_knowledge=29 + framework=61 + index=5 + prompt-methodology=1 + prompt-template=4 + skill=1 + system=1 + tool=197
+- **yitang**: 608 张 (conf=0.80) — case=71 + concept=216 + dark-knowledge=17 + dark_knowledge=29 + framework=63 + index=6 + prompt-methodology=1 + prompt-template=4 + skill=1 + system=1 + tool=199
 - **research**: 156 张 (conf=0.86) — case=38 + concept=10 + dark_knowledge=17 + framework=4 + tool=87
-- **product**: 80 张 (conf=0.78) — case=3 + concept=40 + dark-knowledge=7 + framework=12 + skill=1 + tool=17
-- **strategy**: 67 张 (conf=0.87) — case=31 + concept=5 + dark-knowledge=12 + framework=6 + tool=13
+- **product**: 84 张 (conf=0.79) — case=3 + concept=40 + dark-knowledge=7 + framework=14 + skill=1 + tool=19
+- **strategy**: 71 张 (conf=0.87) — case=31 + concept=5 + dark-knowledge=12 + framework=8 + tool=15
 - **business**: 61 张 (conf=0.92) — concept=33 + dark-knowledge=2 + framework=19 + tool=7
 - **ai-collaboration**: 59 张 (conf=0.80) — case=2 + concept=11 + dark-knowledge=2 + dark_knowledge=2 + framework=4 + index=1 + tool=37
 - **ai-saas**: 47 张 (conf=0.67) — case=2 + concept=41 + tool=4
