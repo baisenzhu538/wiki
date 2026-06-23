@@ -30,7 +30,13 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-four-principles]]'
 - '[[framework-lean-six-wastes]]'
+- '[[tool-lean-minimum-version]]'
+- '[[tool-lean-cut-features]]'
+- '[[tool-lean-stealth-service]]'
+- '[[case-lean-electric-scooter-mvp]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:

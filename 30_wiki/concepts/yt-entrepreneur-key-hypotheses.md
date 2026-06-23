@@ -26,7 +26,13 @@ related:
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 - '[[yt-entrepreneur-lean-validation]]'
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-lean-product-kernel]]'
 - '[[framework-lean-six-wastes]]'
+- '[[tool-lean-minimum-test-volume]]'
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[case-lean-medical-device-milestone]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-systems-thinking]]'
 review_date: 2026-06-06
