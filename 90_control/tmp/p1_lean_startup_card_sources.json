@@ -1,0 +1,265 @@
+{
+  "tool-lean-fake-marketing": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "假营销：用故事验证兴趣",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md"
+    ]
+  },
+  "tool-lean-fake-product": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "假产品：用前端仿真验证需求",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212131_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212131_vlm_desc.md",
+      "00_inbox/精益创业/一堂DOC-20260622212140_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212140_vlm_desc.md"
+    ]
+  },
+  "tool-lean-presell": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "做预售：用真实订单验证付费意愿",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212157_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212157_vlm_desc.md"
+    ]
+  },
+  "tool-lean-stealth-service": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "偷偷服务：用人工模拟产品后端",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md"
+    ]
+  },
+  "tool-lean-premium-service": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "超值服务：用 VIP 服务验证标准服务",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md"
+    ]
+  },
+  "tool-lean-leverage-competitor": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "借同行产品：用竞品认知验证假设",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md"
+    ]
+  },
+  "tool-lean-leverage-resources": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "借现成资源：降低重投入验证",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md"
+    ]
+  },
+  "tool-lean-leverage-tools": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "借搭建工具：用现成系统跑业务流",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md"
+    ]
+  },
+  "tool-lean-leverage-traffic": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "借流量工具：用现有流量测试",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md"
+    ]
+  },
+  "tool-lean-human-replace-rnd": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "人工替代高阶研发",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212341_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212341_vlm_desc.md"
+    ]
+  },
+  "tool-lean-human-replace-system": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "人工替代复杂系统",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md"
+    ]
+  },
+  "tool-lean-minimum-version": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "只发布最小版本",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md"
+    ]
+  },
+  "tool-lean-cut-features": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "太复杂就砍功能",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md"
+    ]
+  },
+  "tool-lean-minimum-test-volume": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "只测试最小数量",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212431_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212431_vlm_desc.md",
+      "00_inbox/精益创业/一堂DOC-20260622212440_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212440_vlm_desc.md"
+    ]
+  },
+  "tool-lean-product-kernel-metrics": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "产品内核十大典型指标",
+    "sources": [
+      "00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md",
+      "00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md"
+    ]
+  },
+  "tool-lean-ai-accelerated-validation": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "AI 加速 FALSE 模型验证",
+    "sources": [
+      "00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md",
+      "00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md",
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md",
+      "00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md"
+    ]
+  },
+  "framework-lean-product-kernel": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "产品内核：不要过早细化未经思考的内核",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_vlm_desc.md"
+    ]
+  },
+  "case-lean-wrong-demand": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "需求找错案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_vlm_desc.md",
+      "00_inbox/精益创业/truman-精益创业-需求没有剥离的案例_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-需求没有剥离的案例_vlm_desc.md",
+      "00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md",
+      "00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md"
+    ]
+  },
+  "case-lean-building-in-vacuum": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "闭门造车案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-weak-solution": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "方案做错案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-premature-refinement": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "过早细化案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-premature-expansion": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "过早扩张案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-perfectionism-traps": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "完美心态踩坑案例集",
+    "sources": [
+      "00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_ocr_text.md",
+      "00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_vlm_desc.md",
+      "00_inbox/精益创业/truman-精益创业-心态关-01_ocr_text.md",
+      "00_inbox/精益创业/truman-精益创业-心态关-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-medical-device-milestone": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "医疗器械项目里程碑测试",
+    "sources": [
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_ocr_text.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_vlm_desc.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-02_ocr_text.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-02_vlm_desc.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-03_ocr_text.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-03_vlm_desc.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_ocr_text.md",
+      "00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_vlm_desc.md"
+    ]
+  },
+  "case-lean-genki-forest-toolkit": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "元气森林试错工具箱",
+    "sources": [
+      "00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md",
+      "00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md"
+    ]
+  },
+  "case-lean-shoe-mvp-evolution": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "鞋类产品 MVP 演进",
+    "sources": [
+      "00_inbox/精益创业/Truman-精益创业-低成本验证-案例01_ocr_text.md",
+      "00_inbox/精益创业/Truman-精益创业-低成本验证-案例01_vlm_desc.md",
+      "00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md",
+      "00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md"
+    ]
+  },
+  "case-lean-2b-gray-test": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "一堂 2B 内训灰度测试",
+    "sources": [
+      "00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md",
+      "00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md"
+    ]
+  }
+}
