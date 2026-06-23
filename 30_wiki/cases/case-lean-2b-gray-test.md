@@ -9,6 +9,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain: [strategy, yitang, product]
+source_person: 一堂课程讲师（自身业务复盘）
+source_context: 一堂精益创业·低成本验证课程讲义
 source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
@@ -59,15 +61,27 @@ related:
 | 种子公司数量 | — | 1-3 家 | [conf=0.70, source=讲师案例] |
 | 成本降幅 | — | 约 1-2 个数量级 | [conf=0.70, source=基于讲师案例数字计算] |
 
-## 失败原因/成功原因
+## 关键证据
 
-### 原版方案对应的主要风险
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| 原版 vs 灰度测试路径对比表 | 一堂2B内训的灰度测试_ocr_text.md 第 6-9 行 | [conf=0.85, source=讲义原文] |
+| MVP 六轮迭代结构 | 一堂2B内训的灰度测试_vlm_desc.md 关键元素 | [conf=0.80, source=VLM 结构化描述] |
+| 假页面/内部测试/种子陪跑的成本与周期 | 一堂2B内训的灰度测试_ocr_text.md 第 8-9 行 | [conf=0.70, source=讲师案例] |
+| FALSE 模型对 F/A/L/S/E 阶段的定义 | framework-lean-false-model.md | [conf=0.85, source=已发布框架卡] |
+| 六宗罪中"过早细化/过早扩张/闭门造车"定义 | framework-lean-six-wastes.md | [conf=0.85, source=已发布框架卡] |
+
+## 失败模式
+
+原版方案体现了三类常见失败模式：
 
 1. **过早细化**：在需求、定价、交付形式尚未验证前，就投入完整产品服务和系统搭建 [conf=0.80, source=framework-lean-six-wastes]。
 2. **闭门造车**：3-5 个课题的打磨和系统开发可能长期处于内部循环，缺乏真实客户反馈 [conf=0.75, source=讲师案例 + framework-lean-six-wastes]。
 3. **过早扩张**：在单点模型未跑通时就组建交付/销售小分队并做全量发布，一旦方向错误，50-100 万投入难以回收 [conf=0.75, source=讲师案例]。
 
-### 灰度方案的成功原因
+## 成功原因
+
+灰度方案更精益的原因：
 
 1. **假设拆得 sharp**：把「企业是否愿意为内训付费」「定价是否可接受」「交付形式是否成立」拆成三轮独立验证，而非一次性 All-in [conf=0.80, source=讲师案例]。
 2. **按 FALSE 模型从左到右渐进**：

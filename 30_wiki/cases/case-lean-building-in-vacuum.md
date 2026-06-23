@@ -9,6 +9,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain: [strategy, yitang, product]
+source_person: 一堂课程讲师（教学案例）
+source_context: 一堂精益创业·低成本验证课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md
@@ -58,7 +60,18 @@ related:
 | 智能送水系统研发投入 | 150 万元 | [conf=0.70, source=讲师案例] |
 | 加热八宝粥投入 | 50 万元 | [conf=0.70, source=讲师案例] |
 
-## 失败原因
+## 关键证据
+
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| 六个闭门造车案例的原始枚举 | truman-精益创业-低成本验证-闭门造车-01_ocr_text.md 第 6-18 行 | [conf=0.85] |
+| 幻灯片类型与关键数字高亮说明 | truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md | [conf=0.80] |
+| 六宗罪中对"闭门造车"的定义与定位 | framework-lean-six-wastes.md | [conf=0.85] |
+| 从 F/A/L/S/E 到 All-in 的成本光谱解释 | framework-lean-false-model.md | [conf=0.85] |
+
+> 注：六个项目均无第三方审计数据，金额与周期属于讲师/学员自述的教学案例，用于说明"未验证即重投入"的数量级与模式。
+
+## 失败模式
 
 按 [[framework-lean-six-wastes|六宗罪]] 与 [[framework-lean-false-model|FALSE 模型]] 拆解，六个案例呈现三种典型组合：
 
