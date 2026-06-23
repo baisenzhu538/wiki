@@ -62,6 +62,7 @@ related:
 | MVP 设计 | `tool-lean-mvp-spectrum` | 从 concierge MVP 到 wizard-of-oz 的 MVP 谱系 |
 | 客户访谈 | `tool-lean-customer-interview` | 问题访谈 vs 解决方案访谈的结构化指南 |
 | 实验设计 | `tool-lean-experiment-design` | A/B 测试、假门测试、烟雾测试的设计模板 |
+| 规模控制 | `tool-lean-minimum-test-volume` | 只测试最小数量，控制单次实验的用户/采购/门店/SKU 规模 |
 | 数据判断 | `tool-lean-vanity-metrics` | 区分虚荣指标和可行动指标 |
 | 转型决策 | `tool-lean-pivot-framework` | 什么时候 pivot？什么时候 persevere？ |
 
