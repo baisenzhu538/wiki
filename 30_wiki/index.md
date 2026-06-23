@@ -72,6 +72,7 @@ related:
 - [[cases/case-lean-genki-forest-toolkit|元气森林试错工具箱]] — 精益创业案例（本任务新增）
 - [[cases/case-lean-gray-test-paradigm|灰度测试范式实操案例]] — 精益创业案例（本任务新增）
 - [[cases/case-lean-combination-test-paradigm|组合测试范式实操案例]] — 精益创业案例（本任务新增）
+- [[cases/case-lean-zhanglei-hypothesis-validation|张磊 AMA：假设验证实操案例]] — 精益创业案例（本任务新增）
 - [[cases/case-lean-zhanglei-failure-counterfactual|张磊 AMA：判断力训练产品的验证陷阱与反事实推演]] — 精益创业案例（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
