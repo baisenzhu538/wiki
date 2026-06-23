@@ -25,6 +25,7 @@ related:
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-lean-tenx-formula]]"
+- "[[framework-lean-six-wastes]]"
 - "[[yt-decision-y-model]]"
 - "[[framework-strategy-brm]]"
 - "[[strategy-domain-digest]]"
@@ -157,6 +158,7 @@ related:
 - 低成本验证框架：[[framework-lean-false-model]]
 - 假设排序：[[framework-lean-abcd-model]]
 - 十倍速放大：[[framework-lean-tenx-formula]]
+- 六类典型浪费：[[framework-lean-six-wastes]]
 - 决策框架：[[yt-decision-y-model]]
 - 战略BRM：[[framework-strategy-brm]]
 - 域图：[[strategy-domain-digest]]、[[lean-startup-domain-digest]]
