@@ -100,6 +100,8 @@ related:
 | `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘（P2 待生产） | 确定性/能力匹配/红利窗口三维度评估 |
 | `case-lean-adult-education` | 成人技能教育精益验证（P2 待生产） | 传统重资产 vs 海报快速测试 |
 
+> 注：`case-lean-marketing-channel-comparison`（完美日记 vs 花西子）与 `case-lean-b2b-sector-selection`（建材企业赛道选择）因素材缺失已取消生产。
+
 精选代表案例：
 - [[case-lean-electric-scooter-mvp|电动滑板车]] —— 从 0 到 1 的完整假设验证链
 - [[case-lean-genki-forest-toolkit|元气森林试错工具箱]] —— 消费品四阶段七工具渐进验证
@@ -130,4 +132,4 @@ related:
 ---
 
 *黄药师 · 2026-06-23 · 精益创业域建制（老顽童生产中）*
-*P0+P1 已入库 39 张：8 framework + 16 tool + 15 case；P2 5 张待生产；2 张 PPT 案例卡（完美日记 vs 花西子、建材企业赛道选择）素材缺失阻塞*
+*P0+P1 已入库 40 张：8 framework + 16 tool + 16 case；P2 4 张待生产；2 张 PPT 案例卡（完美日记 vs 花西子、建材企业赛道选择）已取消生产*

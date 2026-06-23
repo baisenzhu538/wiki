@@ -19,7 +19,7 @@ blockers:
   - "✅ 老顽童已按王语嫣验收报告修正 4 张 reviewed_by=待审 卡：tool-lean-ai-accelerated-validation、tool-lean-fake-marketing、case-lean-genki-forest-toolkit、case-lean-wrong-demand → 欧阳锋"
   - "✅ tool-lean-fake-marketing 文末重复 Purpose/When NOT to Use 已删除，保留 Critique"
   - "✅ 跨域融合 P0 已完成（王语嫣验收报告标注时尚未生产，现已补完）：2 张桥接卡 + 10 张枢纽 related"
-  - "✅ 精益创业 P1 案例补完批次调整为 5 张：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
+  - "✅ 精益创业 P1 案例补完批次 5/5 全部完成：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
   - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison（完美日记 vs 花西子 PPT）、case-lean-b2b-sector-selection（建材企业赛道选择 PPT）已取消；若用户后续提供素材可作为 P2/P3 追加"
   - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
   - "🆕 老顽童待执行精益创业 P2：framework-lean-expert-roadmap + 4 个窄行业案例（crayfish/shampoo/radish/adult-education）"

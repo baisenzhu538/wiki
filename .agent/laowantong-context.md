@@ -1,6 +1,6 @@
 ---
 role: 老顽童（Producer）
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## 你是谁
@@ -53,6 +53,40 @@ updated: 2026-06-22
 
 **已暂停/过期（不要继续）**：
 - `70_product/tasks/laowantong-batch-2026-06-20.md` waves 1-2 因战略域 PPT 补强插入而暂停，未取消；重启需欧阳锋/用户明确指令
+
+## 🆕 当前待办（2026-06-24 更新，优先级从高到低）
+
+> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。做完一件再开下一件，不准并行。
+
+1. **跨域融合计划 P1/P2**（`task_20260623_laowantong-cross-domain-bridge-cards.md`）
+   - `framework-lean-pivot-decision`
+   - `framework-ai-accelerated-strategy-cycle`
+   - `framework-demand-lean-bridge`
+   - 2 张跨域案例卡
+   - 10 张枢纽卡 related 补全
+
+2. **精益创业 P2 收尾**（`task_20260623_laowantong-lean-startup-cards.md`）
+   - `framework-lean-expert-roadmap`
+   - `case-lean-crayfish-combo-test`
+   - `case-lean-shampoo-selling-points`
+   - `case-lean-radish-channel-selection`
+   - `case-lean-adult-education`
+
+3. **精益创业 P1 案例补完批次**（`task_20260623_laowantong-lean-startup-case-supplement.md`）
+   - 共 **5 张**案例卡（原 7 张中 2 张因源文件缺失已取消）
+   - `case-lean-zhanglei-pivot-decision`
+   - `case-lean-zhanglei-hypothesis-validation`
+   - `case-lean-zhanglei-failure-counterfactual`
+   - `case-lean-gray-test-paradigm`
+   - `case-lean-combination-test-paradigm`
+
+4. **王欢《AI 2041》卡片化**（`task_20260624_laowantong-ai2041-cards.md`）
+   - P0：5 张（2 framework + 2 tool + 1 concept）
+   - P1：9 张（2 concept + 2 tool + 5 case）
+   - P2：8 张（1 concept + 4 case + 3 dk）
+   - 启动条件：建议在跨域融合 P1/P2 和精益创业 P2 有阶段性成果后再并行
+
+> 注：以上工单与黄药师审计脚本（`task_20260623_huangyaoshi-cross-domain-audit-script.md`）并行推进，互不阻塞。
 
 ## 铁律（执行前读一遍）
 
