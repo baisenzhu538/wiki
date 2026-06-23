@@ -12,6 +12,8 @@ domain:
 - strategy
 - lean-startup
 - yitang
+source_person: 一堂课程讲义/讲师案例
+source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略选择逻辑
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
@@ -96,6 +98,27 @@ related:
 如果每个阶段没有明确的通过标准，团队可能以“还在测试”为由拖延量产决策，导致机会窗口被竞品抢占 [conf=0.80, source=case-lean-genki-forest-toolkit.md]。
 
 纠正方法：用 [[framework-lean-abcd-model]] 对假设排序，明确哪些是必须验证的关键假设，哪些可以在规模化后迭代；用 [[yt-decision-y-model]] 设定硬性决策点 [conf=0.80, source=framework-strategy-lean-validation]。
+
+## 教训
+
+### 什么时候应该学这个案例
+
+- 你正在从战略方向进入具体产品/市场验证，但不知道如何把“战略选择”翻译成可执行的假设清单。
+- 团队内部存在“先All-in做品牌”和“先小步验证”的冲突，需要一套共同语言。
+- 你负责的新品上市流程过重，希望用渐进式、可回滚的实验降低系统性风险。
+
+### 核心 takeaway
+
+> 战略不是一次性拍板，而是一连串连贯的选择与验证。把战略方向拆成可证伪假设后，用 [[framework-lean-false-model]] 的成本光谱选择最低成本验证工具，用 [[framework-lean-abcd-model]] 排序假设优先级，用 [[yt-decision-y-model]] 在关键节点做 pivot/persevere/kill 决策，才能把战略优势转化为规模化增长。
+
+## 失败模式
+
+| 踩坑方式 | 表现 | 避免方法 |
+|:---|:---|:---|
+| **把内部试喝当市场验证** | 员工觉得好喝就认为产品能大卖 | 强制进入种子用户试喝和真实交易场景验证 [conf=0.85, source=元气森林-试错工具箱_ocr_text.md] |
+| **跳过试卖直接全国铺货** | 未验证便利店动销就大规模投产 | 按 FALSE 光谱先借用现成渠道做线下/线上试卖 [conf=0.80, source=case-lean-genki-forest-toolkit.md] |
+| **把渐进验证做成无限循环** | 每阶段没有通过标准，永远“还在测试” | 用 [[framework-lean-abcd-model]] 明确关键假设，设定硬性决策点 [conf=0.80, source=framework-strategy-lean-validation] |
+| **用增长放大未验证的卖点** | 线上信息流烧钱推广未经测试的包装/话术 | 先用信息流小预算测试卖点，验证后再加杠杆 [conf=0.80, source=framework-lean-tenx-formula] |
 
 ## 关键数字
 
