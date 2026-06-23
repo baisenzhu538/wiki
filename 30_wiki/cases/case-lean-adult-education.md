@@ -11,6 +11,8 @@ language: zh-CN
 domain:
 - lean-startup
 - yitang
+source_person: 一堂课程讲师（教学推演案例）
+source_context: 一堂精益创业·低成本验证课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_vlm_desc.md
