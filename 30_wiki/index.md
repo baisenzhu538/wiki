@@ -76,6 +76,7 @@ related:
 - [[cases/case-lean-zhanglei-failure-counterfactual|张磊 AMA：判断力训练产品的验证陷阱与反事实推演]] — 精益创业案例（本任务新增）
 - [[cases/case-lean-zhanglei-pivot-decision|张磊 AMA：创业者 pivot 决策案例]] — 精益创业案例（本任务新增）
 - [[frameworks/framework-ai-accelerated-strategy-cycle|AI 加速的战略-验证闭环]] — 跨域桥接 framework 卡（本任务新增）
+- [[cases/case-cross-yuanqi-forest|元气森林：战略定位与精益试错的跨域闭环]] — 跨域综合案例卡（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---

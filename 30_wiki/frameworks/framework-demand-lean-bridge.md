@@ -82,7 +82,7 @@ related:
 | L5 四种力量 | 推力+拉力 > 焦虑+习惯 | 量表问卷、A/B 测试、切换访谈 | 推力显著大于惯性，拉力足以抵消焦虑 | 用户表示“现在方案也够用，懒得换” |
 | L6 机会假设 | 这个组合值得做产品 | 假产品页面、预售、MVP | 付费转化或深度承诺（预购/推荐信） | 大量兴趣但无付费/承诺 |
 
-> 上表工具映射来自 [[framework-lean-false-model]] 与 [[framework-lean-abcd-model]] 的接口设计 [conf=0.82, source=60_feedback/audit/cross-domain-bridge-design-specs.md §6.3]。
+> 上表工具映射来自 [[framework-lean-false-model]] 与 [[framework-lean-abcd-model]] 的接口设计 [conf=0.82, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
 
 ## 与相邻卡的关系
 
@@ -105,7 +105,7 @@ related:
 ## 适用边界
 
 - **适合**：已完成或部分完成需求冰山分析，需要把洞察转化为可执行验证计划的团队；需要降低“需求自嗨”风险的新产品方向。
-- **不适合**：全新品类中用户无法表达未见过的东西，此时 L2/L3 的访谈/问卷可能失效，需用原型共创、情境模拟等探索性方法 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md §6.5]；已有大规模用户数据的成熟产品微调，可直接用 A/B 测试替代冰山分析。
+- **不适合**：全新品类中用户无法表达未见过的东西，此时 L2/L3 的访谈/问卷可能失效，需用原型共创、情境模拟等探索性方法 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md]；已有大规模用户数据的成熟产品微调，可直接用 A/B 测试替代冰山分析。
 
 ---
 
