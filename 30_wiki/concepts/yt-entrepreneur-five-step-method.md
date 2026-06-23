@@ -24,8 +24,8 @@ related:
 - '[[yt-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[framework-lean-false-model]]'
+- '[[framework-five-step-lean-interface]]'
 - '[[yt-decision-y-model]]'
-- '[[yt-model-five-step-canvas]]'
 - '[[yt-growth-cycle-model]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'
 reviewed_by: 王语嫣
