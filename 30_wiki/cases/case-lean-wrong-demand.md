@@ -4,7 +4,7 @@ title: 需求找错案例集
 type: case
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
