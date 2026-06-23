@@ -18,6 +18,8 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-03_vlm_desc.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_vlm_desc.md
+source_person: 一堂课程讲师（教学推演案例）
+source_context: 一堂精益创业·低成本验证课程·医疗器械案例
 related:
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"
@@ -70,7 +72,17 @@ related:
 
 > 注：表中金额为课程讲师/学员自述的教学推演数字，未经过第三方审计，仅用于说明数量级差异。
 
-## 失败原因/原方案风险
+## 关键证据
+
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| 医疗器械案例讲义图 01：原始方案、里程碑拆解与 B+D 风险定位 | `00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_ocr_text.md` / `_vlm_desc.md` | 0.80 |
+| 医疗器械案例讲义图 02：500 万元方案与全新设备假设 | `00_inbox/精益创业/truman-低成本验证-医疗器械案例-02_ocr_text.md` / `_vlm_desc.md` | 0.80 |
+| 医疗器械案例讲义图 03：二手设备 MVP Demo 与 6 万元成本 | `00_inbox/精益创业/truman-低成本验证-医疗器械案例-03_ocr_text.md` / `_vlm_desc.md` | 0.80 |
+| 医疗器械案例讲义图 04：医院试用反馈与投资人意向 | `00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_ocr_text.md` / `_vlm_desc.md` | 0.75 |
+| 课程 transcript 对里程碑测试、二手设备和六宗罪的口述上下文 | `00_inbox/精益创业/transcript_低成本验证认知篇.md` §827 / §830-831 | 0.75 |
+
+## 失败模式
 
 按最初“1.5 亿元全量开发”路径推进，本质上是在关键假设未验证前进入 All-in，对应六宗罪中的多重风险：
 
