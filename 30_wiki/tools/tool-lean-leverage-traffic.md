@@ -15,7 +15,6 @@ domain:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
-- 30_wiki/frameworks/framework-lean-false-model.md
 related:
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
