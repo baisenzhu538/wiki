@@ -14,7 +14,6 @@ domain:
 source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
-- https://ueberproduct.de/en/three-levels-of-maturity-the-invalidation-maturity-model/
 related:
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"
