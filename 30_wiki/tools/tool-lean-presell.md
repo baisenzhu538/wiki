@@ -26,7 +26,6 @@ related:
 - "[[yt-panproduct-execution-low-cost-mvp]]"
 - "[[concept-一堂-kernel-validation]]"
 - "[[case-lean-electric-scooter-mvp]]"
-- "[[case-lean-2b-gray-test]]"
 ---
 
 # 做预售：用真实订单验证付费意愿

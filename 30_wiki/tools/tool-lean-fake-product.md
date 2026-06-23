@@ -151,11 +151,11 @@ Dropbox 在产品尚未开发时，发布了一段 3 分钟的产品概念视频
 
 **Alberto Savoia**
 
-Pretotyping 方法论提出者、Google 前工程总监。他的批评是：即便是最小可行产品，很多团队仍然做得太贵、太慢。假产品应该进一步压缩到「大脑层面」的验证——用更极端的 fake door、视频、故事在几小时内获得信号，而不是花几天做页面 [conf=0.80, source=yt-entrepreneur-lean-validation.md §Critique]。
+Pretotyping 方法论提出者、Google 前工程总监。他的批评是：即便是最小可行产品，很多团队仍然做得太贵、太慢。假产品应该进一步压缩到「大脑层面」的验证——用更极端的 fake door、视频、故事在几小时内获得信号，而不是花几天做页面 [conf=0.80, source=yt-entrepreneur-lean-validation.md Critique 章节]。
 
 **Kent Beck**
 
-极限编程（XP）社区代表人物。他的批评是：实验代码和快速页面常常被团队直接当作产品基础，导致技术债务；而 subsidized/free 的实验信号（如免费内测）会被误读为真实需求。验证的「速度」不应以牺牲「实验设计信度」为代价 [conf=0.80, source=yt-entrepreneur-lean-validation.md §Critique]。
+极限编程（XP）社区代表人物。他的批评是：实验代码和快速页面常常被团队直接当作产品基础，导致技术债务；而 subsidized/free 的实验信号（如免费内测）会被误读为真实需求。验证的「速度」不应以牺牲「实验设计信度」为代价 [conf=0.80, source=yt-entrepreneur-lean-validation.md Critique 章节]。
 
 ---
 
