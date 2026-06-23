@@ -8,6 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 language: zh-CN
+source_person: 张磊
+source_context: 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
 domain:
 - lean-startup
 - yitang
