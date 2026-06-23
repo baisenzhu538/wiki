@@ -26,8 +26,8 @@ related:
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
 - "[[concept-一堂-kernel-validation]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
+- "[[case-lean-gray-test-paradigm]]"
+- "[[case-lean-combination-test-paradigm]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
 ---
 

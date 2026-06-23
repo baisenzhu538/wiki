@@ -75,7 +75,7 @@ related:
 | 内核指标 | `tool-lean-product-kernel-metrics` | 产品内核十大典型指标（获客/服务/复购） |
 | AI 加速 | `tool-lean-ai-accelerated-validation` | AI 对 FALSE/FLESAI 各环节的加速方式与边界 |
 
-## 案例卡（15 张）
+## 案例卡（20 张）
 
 | 卡 ID | 主题 | 失败类型/验证范式 |
 |:--|:--|:--|
@@ -90,6 +90,11 @@ related:
 | `case-lean-genki-forest-toolkit` | 元气森林试错工具箱 | 消费品四阶段七工具渐进验证 |
 | `case-lean-shoe-mvp-evolution` | 鞋类产品 MVP 演进 | All-in → 聪明 MVP 的五版本演进 |
 | `case-lean-2b-gray-test` | 一堂 2B 内训灰度测试 | B2B 服务的六轮灰度迭代 |
+| `case-lean-zhanglei-pivot-decision` | 张磊 AMA：创业者 pivot 决策案例 | 老业务去留 / 多方向选择的 pivot 决策 |
+| `case-lean-zhanglei-hypothesis-validation` | 张磊 AMA：假设验证实操案例 | 沐浴露/内衣洗衣液产品内核验证 |
+| `case-lean-zhanglei-failure-counterfactual` | 张磊 AMA：失败案例与反事实推演 | 见澄明判断力训练产品验证陷阱 |
+| `case-lean-gray-test-paradigm` | 灰度测试范式实操案例 | 张磊扭蛋机三级放量验证 |
+| `case-lean-combination-test-paradigm` | 组合测试范式实操案例 | 洗发水卖点 × 堕落小龙虾选型组合测试 |
 | `case-lean-crayfish-combo-test` | 堕落小龙虾组合测试（P2 待生产） | 组合测试与价值热力图 |
 | `case-lean-shampoo-selling-points` | 洗发水卖点组合测试（P2 待生产） | 功效/成分/香味/背书四维度排列组合 |
 | `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘（P2 待生产） | 确定性/能力匹配/红利窗口三维度评估 |
@@ -98,10 +103,12 @@ related:
 精选代表案例：
 - [[case-lean-electric-scooter-mvp|电动滑板车]] —— 从 0 到 1 的完整假设验证链
 - [[case-lean-genki-forest-toolkit|元气森林试错工具箱]] —— 消费品四阶段七工具渐进验证
+- [[case-lean-zhanglei-hypothesis-validation|张磊 AMA：假设验证实操]] —— 不生产产品先验证产品内核
+- [[case-lean-gray-test-paradigm|灰度测试范式]] —— 单变量逐步放量的经典路径
 - [[case-一堂-陈贤敏汉堡-hypothesis-validation|陈贤敏汉堡]] —— 单店 MVP 验证的经典范式
 - [[tool-lean-ai-accelerated-validation|AI 加速 FALSE 模型验证]] —— 精益在 AI 时代的演化
 
-> 完整案例清单见 `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
+> 完整案例清单见 `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md` 及 `60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
 
 ## 已有相关卡（必须双向链接）
 
@@ -123,4 +130,4 @@ related:
 ---
 
 *黄药师 · 2026-06-23 · 精益创业域建制（老顽童生产中）*
-*P0+P1 已入库 34 张：8 framework + 16 tool + 10 case；P2 5 张待生产*
+*P0+P1 已入库 39 张：8 framework + 16 tool + 15 case；P2 5 张待生产；2 张 PPT 案例卡（完美日记 vs 花西子、建材企业赛道选择）素材缺失阻塞*
