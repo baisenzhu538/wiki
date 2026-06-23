@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-23
 active_branch: main
-active_task: "精益创业 P1 批次已完成：34 张卡（P0 7 + P1 27）入库并通过 L1 lint，待王语嫣 20% 抽样六层交叉验证；跨域融合计划（策略A）P0 桥接卡仍待老顽童生产。"
+active_task: "王语嫣已完成精益创业专题 34 张卡 20% 抽样验收：有条件通过；老顽童需修正 4 张 reviewed_by=待审 + 1 张章节重复；跨域融合计划（策略A）P0 桥接卡仍待老顽童生产。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -14,7 +14,8 @@ blockers:
   - "✅ P1 工具+案例+产品内核框架 27/27 完成：16 张 tool-lean-* + framework-lean-product-kernel + 10 张 case-lean-*"
   - "✅ 精益创业 domain digest 已更新：8 framework + 16 tool + 15 case 清单，P2 5 张标注为待生产"
   - "✅ 已有 concept/tool 卡（yt-entrepreneur-lean-validation、yt-entrepreneur-key-hypotheses、yt-panproduct-execution-low-cost-mvp、concept-一堂-kernel-validation）已补充反向 related"
-  - "🆕 王语嫣待按 20% 抽样对老顽童 P1 产出做六层交叉验证"
+  - "✅ 王语嫣 20% 抽样六层交叉验证完成：34 张卡有条件通过"
+  - "🆕 老顽童待修正 4 张 reviewed_by=待审 卡 + tool-lean-fake-marketing 章节重复"
   - "🆕 老顽童待执行跨域桥接卡生产：5 张 bridge framework + 10 张枢纽 related + 2 张跨域案例（P0 2 张 bridge 优先）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
   - "🟡 精益创业 P2 补充框架（framework-lean-expert-roadmap）+ 窄行业案例（crayfish/shampoo/radish/adult-education）待生产"
@@ -23,7 +24,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "优先检查老顽童跨域桥接卡 P0 生产进度（framework-strategy-lean-validation、framework-five-step-lean-interface）；同步跟进精益创业 P1 卡和跨域审计脚本开发。"
+next_session_hint: "先督促老顽童修正 4 张 reviewed_by=待审 和 1 张章节重复；然后检查跨域桥接卡 P0 生产进度（framework-strategy-lean-validation、framework-five-step-lean-interface）；最后跟进精益创业 P2 5 张卡和跨域审计脚本。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

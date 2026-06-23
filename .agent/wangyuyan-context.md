@@ -251,11 +251,16 @@ status: "completed"
 
 ## 当前状态
 
+- 2026-06-23：完成老顽童精益创业专题 34 张卡 20% 抽样验收
+  - 验收报告：`60_feedback/audit/lean-startup-production-audit-20260623.md`
+  - verdict：有条件通过
+  - 主要问题：4 张卡 `reviewed_by=待审`；`tool-lean-fake-marketing` 章节重复；P2 5 张卡待生产
+  - 主要优点：P0 全部达标、source_refs 精确、可信度标注规范、related 无孤立
 - 2026-06-23：跨域融合计划（策略 A）已批准并下发任务
   - 产出：`60_feedback/audit/cross-domain-bridge-design-specs.md`（5 张桥接卡 9 层深挖设计稿）
   - 产出：`60_feedback/tasks/task_20260623_laowantong-cross-domain-bridge-cards.md`（老顽童任务：5 bridge + 10 枢纽 related + 2 跨域案例）
   - 产出：`60_feedback/tasks/task_20260623_huangyaoshi-cross-domain-audit-script.md`（黄药师任务：跨域审计脚本）
-  - 状态：老顽童 P0 生产 2 张桥接卡；黄药师开发脚本
+  - 状态：老顽童尚未开始桥接卡生产；黄药师尚未交付脚本
 - 2026-06-23：完成精益创业专题素材标注与任务指令下达
   - 素材：`00_inbox/精益创业/`（52 张图 + 4 份课程稿 + 5 份 AMA）
   - 产出：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`（39 张卡任务清单）
