@@ -9,6 +9,8 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: [strategy, yitang, product]
+source_person: 一堂课程讲师（匿名学员案例汇总）
+source_context: 一堂精益创业·低成本验证课程·过早细化专题
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md
@@ -72,7 +74,17 @@ related:
 
 > 说明：由于原始素材未给出财务数据，本卡不对损失金额做估算。如需量化复盘，应回到每个项目内部估算「过早细化部分占总试错成本的比例」[conf=0.60, source=教学推演]。
 
-## 失败原因
+## 关键证据
+
+| 证据 | 锚点 | 可信度 |
+|:---|:---|:---:|
+| 6 个过早细化案例原始描述 | `truman-精益创业-低成本验证-过早细化-01_ocr_text.md` 第 6-19 行 | [conf=0.85] |
+| 素材为教学幻灯片及案例归类 | `truman-精益创业-低成本验证-过早细化-01_vlm_desc.md` 结构化描述 | [conf=0.80] |
+| 过早细化在六宗罪中的定位 | `framework-lean-six-wastes.md` | [conf=0.85] |
+| 应先验证需求再进入 L/E 阶段的方法论 | `framework-lean-false-model.md` | [conf=0.85] |
+| 决定性细节 vs 优化性细节区分 | `framework-lean-product-kernel.md` | [conf=0.80] |
+
+## 失败模式
 
 ### 按六宗罪拆解
 
