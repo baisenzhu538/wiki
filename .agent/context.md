@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-23
+updated: 2026-06-24
 active_branch: main
-active_task: "王语嫣验收报告要求：老顽童已修正 4 张 reviewed_by=待审 和 tool-lean-fake-marketing 章节重复；跨域融合 P0 已完成；待执行跨域 P1/P2 + 精益创业 P2 5 张 + 黄药师审计脚本。"
+active_task: "王欢《AI 2041》逐字稿标注与任务指令已完成（diag + decision + task）；老顽童待按 P0→P1→P2 启动生产。当前并行的管线：跨域融合 P1/P2、精益创业 P2 5 张、黄药师审计脚本。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -22,12 +22,13 @@ blockers:
   - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
   - "🆕 老顽童待执行精益创业 P2：framework-lean-expert-roadmap + 4 个窄行业案例（crayfish/shampoo/radish/adult-education）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
+  - "🆕 王欢《AI 2041》新素材待老顽童生产：P0 5 张 / P1 9 张 / P2 8 张，见 task_20260624_laowantong-ai2041-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "先督促老顽童修正 4 张 reviewed_by=待审 和 1 张章节重复；然后检查跨域桥接卡 P0 生产进度；最后安排精益创业 P1 案例补完 7 张卡（张磊 AMA 3 张优先）和跨域审计脚本。"
+next_session_hint: "先检查老顽童当前在执行的管线（跨域 P1/P2、精益创业 P2、AI 2041 P0），优先验收已完成的批次；跟进黄药师跨域审计脚本进度；待 AI 2041 P0 完成后安排王语嫣 20% 抽样验收。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
