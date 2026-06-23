@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-24
 active_branch: main
-active_task: "王欢《AI 2041》逐字稿标注与任务指令已完成（diag + decision + task）；老顽童待按 P0→P1→P2 启动生产。当前并行的管线：跨域融合 P1/P2、精益创业 P2 5 张、黄药师审计脚本。"
+active_task: "精益创业 P1 案例补完批次 5/7 完成（张磊 AMA 3 张 + 系统测试曲线 2 张），2 张 PPT 案例卡素材缺失阻塞；跨域融合 P1/P2、精益创业 P2 5 张、黄药师审计脚本、王欢 AI 2041 并行待执行。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -19,6 +19,8 @@ blockers:
   - "✅ 老顽童已按王语嫣验收报告修正 4 张 reviewed_by=待审 卡：tool-lean-ai-accelerated-validation、tool-lean-fake-marketing、case-lean-genki-forest-toolkit、case-lean-wrong-demand → 欧阳锋"
   - "✅ tool-lean-fake-marketing 文末重复 Purpose/When NOT to Use 已删除，保留 Critique"
   - "✅ 跨域融合 P0 已完成（王语嫣验收报告标注时尚未生产，现已补完）：2 张桥接卡 + 10 张枢纽 related"
+  - "✅ 精益创业 P1 案例补完批次 5/7 完成：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
+  - "🟡 精益创业 P1 案例补完批次 2/7 素材缺失阻塞：case-lean-marketing-channel-comparison（完美日记 vs 花西子 PPT）、case-lean-b2b-sector-selection（建材企业赛道选择 PPT）在 00_inbox/精益创业/ 中未找到对应源文件"
   - "🆕 老顽童待执行跨域桥接卡 P1/P2：framework-lean-pivot-decision + framework-ai-accelerated-strategy-cycle + 2 张跨域案例 + framework-demand-lean-bridge"
   - "🆕 老顽童待执行精益创业 P2：framework-lean-expert-roadmap + 4 个窄行业案例（crayfish/shampoo/radish/adult-education）"
   - "🆕 黄药师待开发跨域 related 审计脚本（90_control/scripts/cross_domain_audit.py）"
