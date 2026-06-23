@@ -62,7 +62,7 @@ related:
   └── 人基于 AI 输出做 pivot / persevere / 放大决策
 ```
 
-> 阶段划分与人机分工来自 [[framework-multi-agent-research-architecture]] 与 [[framework-wanghuan-harness-seven-stages]] 的接口设计 [conf=0.85, source=60_feedback/audit/cross-domain-bridge-design-specs.md §5.3]。
+> 阶段划分与人机分工来自 [[framework-multi-agent-research-architecture]] 与 [[framework-wanghuan-harness-seven-stages]] 的接口设计 [conf=0.85, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
 
 ## 人机分工边界
 
@@ -75,7 +75,7 @@ related:
 | 数据分析 | 统计、聚类、可视化 | 业务意义解读 |
 | 决策 | 提供情景模拟 | 最终拍板 |
 
-> 分工原则：AI 降低信息收集和实验执行成本，但不能替代假设判断 [conf=0.85, source=60_feedback/audit/cross-domain-bridge-design-specs.md §5.6]。
+> 分工原则：AI 降低信息收集和实验执行成本，但不能替代假设判断 [conf=0.85, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
 
 ## AI 加速 FALSE 模型的方式
 
@@ -87,7 +87,7 @@ related:
 | S 人工替代 | 用人工模拟系统/算法 | AI 直接模拟系统，可自动迭代数百轮 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] | 效率提升约 10 倍 |
 | E 最小版本 | 只做核心功能集 | AI 写代码、AI 做设计、AI 自动分析行为并生成迭代方案 | 开发周期缩短到约 1/10 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] |
 
->  FALSE 模型本身见 [[framework-lean-false-model]]。AI 没有改变模型结构，而是把各环节成本降到原来的约 1/10 [conf=0.85, source=00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt §256-262]。
+>  FALSE 模型本身见 [[framework-lean-false-model]]。AI 没有改变模型结构，而是把各环节成本降到原来的约 1/10 [conf=0.85, source=00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt]。
 
 ## 与相邻卡的关系
 
@@ -112,7 +112,7 @@ related:
 ## 适用边界
 
 - **适合**：战略方向已初步形成、关键假设不确定性高、团队具备 AI 工具使用能力和批判性判断能力的业务。
-- **不适合**：高度依赖人际信任、政策敏感、数据稀缺的领域；团队没有业务判断能力而完全依赖 AI 输出的场景 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md §5.6]。
+- **不适合**：高度依赖人际信任、政策敏感、数据稀缺的领域；团队没有业务判断能力而完全依赖 AI 输出的场景 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
 
 ---
 
