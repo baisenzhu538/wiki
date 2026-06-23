@@ -21,7 +21,7 @@ related:
 - "[[tool-demand-iceberg-l4-job-map]]"
 - "[[tool-demand-iceberg-l5-forces]]"
 - "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[five-step-domain-digest]]"
+- "[[framework-demand-lean-bridge]]"
 ---
 
 # 需求洞察冰山模型

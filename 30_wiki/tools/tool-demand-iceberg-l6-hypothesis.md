@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
@@ -18,6 +18,8 @@ related:
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-iceberg-l5-forces]]"
 - "[[tool-demand-assessment-triangle]]"
+- "[[framework-demand-lean-bridge]]"
+- "[[framework-lean-false-model]]"
 ---
 
 # L6需求假设

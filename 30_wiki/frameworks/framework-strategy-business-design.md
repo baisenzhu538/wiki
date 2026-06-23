@@ -19,7 +19,6 @@ related:
 - '[[framework-strategy-brm]]'
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-five-basics]]'
-- '[[framework-strategy-ansoff]]'
 - '[[framework-strategy-pyramid]]'
 - '[[framework-strategy-three-horizons]]'
 - '[[framework-five-step-lean-interface]]'

@@ -23,7 +23,6 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
 - "[[concept-一堂-kernel-validation]]"
 - "[[framework-lean-systematic-test-curve]]"
 - "[[framework-lean-abcd-model]]"
