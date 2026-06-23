@@ -13,13 +13,14 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §5-9, §32-36
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §25-30
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 related:
 - '[[framework-strategy-brm]]'
 - '[[framework-strategy-five-basics]]'
 - '[[yt-decision-y-model]]'
 - '[[framework-ouyangfeng-review-methodology]]'
+- '[[framework-lean-pivot-decision]]'
 ---
 
 # 六阶段企业生命周期

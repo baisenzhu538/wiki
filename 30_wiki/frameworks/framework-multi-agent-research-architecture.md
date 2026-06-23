@@ -22,6 +22,7 @@ related:
 - "[[tool-agent-research-pipeline]]"
 - "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
 - "[[concept-harness-cattle-not-pets]]"
+- "[[framework-ai-accelerated-strategy-cycle]]"
 ---
 
 # 多智能体调研架构

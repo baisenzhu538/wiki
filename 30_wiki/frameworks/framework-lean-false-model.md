@@ -22,15 +22,13 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
-- "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
 - "[[yt-panproduct-execution-low-cost-mvp]]"
 - "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-four-principles]]"
-- "[[framework-lean-six-wastes]]"
 - "[[framework-lean-systematic-test-curve]]"
 - "[[framework-lean-abcd-model]]"
-- "[[framework-lean-tenx-formula]]"
+- "[[framework-strategy-lean-validation]]"
+- "[[framework-five-step-lean-interface]]"
 ---
 
 # 一堂 FALSE/FLESAI 低成本验证模型

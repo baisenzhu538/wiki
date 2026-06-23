@@ -21,6 +21,8 @@ related:
 - '[[tool-strategy-gap-analysis]]'
 - '[[five-step-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
+- '[[framework-strategy-lean-validation]]'
+- '[[yt-decision-y-model]]'
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）

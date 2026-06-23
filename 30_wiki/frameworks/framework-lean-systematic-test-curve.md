@@ -27,8 +27,8 @@ related:
 - "[[yt-entrepreneur-key-hypotheses]]"
 - "[[concept-一堂-kernel-validation]]"
 - "[[yt-panproduct-execution-low-cost-mvp]]"
-- "[[framework-yitang-nine-layer-deep-dig]]"
 - "[[framework-yitang-six-layer-cross-validation]]"
+- "[[framework-ai-accelerated-strategy-cycle]]"
 ---
 
 # 系统测试曲线与三大测试范式

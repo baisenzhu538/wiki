@@ -20,11 +20,11 @@ query_triggers:
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-panproduct-demand-five-step-method]]'
-- '[[dk-modeling-counterexample-driven]]'
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-implementation]]'
 - '[[yt-model-five-step-canvas]]'
-- '[[case-ai-time-management-tiered-growth]]'
+- '[[framework-five-step-lean-interface]]'
+- '[[framework-strategy-lean-validation]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:

@@ -16,26 +16,13 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
-- '[[case-strategy-m-brand-profit-model]]'
-- '[[case-strategy-snack-business-design]]'
-- '[[framework-strategy-ansoff]]'
-- '[[framework-strategy-blm]]'
 - '[[framework-strategy-brm]]'
+- '[[framework-strategy-blm]]'
 - '[[framework-strategy-five-basics]]'
+- '[[framework-strategy-ansoff]]'
 - '[[framework-strategy-pyramid]]'
 - '[[framework-strategy-three-horizons]]'
-- '[[tool-strategy-activity-scope]]'
-- '[[tool-strategy-blue-ocean-canvas]]'
-- '[[tool-strategy-business-design-template]]'
-- '[[tool-strategy-control-points]]'
-- '[[tool-strategy-core-competence-matrix]]'
-- '[[tool-strategy-customer-selection]]'
-- '[[tool-strategy-logistics-cost-planning]]'
-- '[[tool-strategy-market-opportunity-matrix]]'
-- '[[tool-strategy-platform-business-map]]'
-- '[[tool-strategy-risk-management]]'
-- '[[tool-strategy-value-capture]]'
-- '[[tool-strategy-value-proposition]]'
+- '[[framework-five-step-lean-interface]]'
 ---
 
 # 业务设计六要素×三步骤

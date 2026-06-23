@@ -251,6 +251,11 @@ status: "completed"
 
 ## 当前状态
 
+- 2026-06-23：采纳黄药师案例缺口诊断，追加 P1 案例补完批次
+  - 决策文件：`60_feedback/decisions/dec_20260623_wangyuyan-lean-startup-case-supplement.md`
+  - 任务指令：`60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
+  - 新增 7 张案例卡：张磊 AMA 3 张 + 系统测试曲线 2 张 + PPT 案例 2 张
+  - 优先级：跨域桥接卡 P0 之后执行
 - 2026-06-23：完成老顽童精益创业专题 34 张卡 20% 抽样验收
   - 验收报告：`60_feedback/audit/lean-startup-production-audit-20260623.md`
   - verdict：有条件通过

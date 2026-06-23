@@ -14,10 +14,9 @@ source_refs:
 - "10_raw/sources/src_20260619_1ffb2cef_wanghuan_harness的七个阶段_示意图.md"
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
 - ai-collaboration
 - yitang
+- human-ai-collaboration
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
@@ -38,9 +37,9 @@ related:
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[concept-wanghuan-power-of-standards]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[concept-harness-cattle-not-pets]]'
 - '[[concept-harness-scoring-anchors]]'
+- '[[framework-five-step-lean-interface]]'
 tags:
 - 王欢
 - Harness
