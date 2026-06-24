@@ -223,6 +223,7 @@ Roblox AI NPC 的结构——「游戏化环境 + 生成式 AI 陪伴 + 未成�
 - Roblox Developer Forum. (2026-04-10). "[Studio Beta] Studio Assistant & MCP Playtest Agent." https://devforum.roblox.com/t/studio-beta-studio-assistant-mcp-playtest-agent/4566767
 - Klover.ai. (2025-08-04). "Roblox's AI Strategy: Analysis of Dominance in Gaming AI." https://www.klover.ai/roblox-ai-strategy-analysis-of-dominance-in-gaming-ai/
 - PCMag. (2026-04-17). "Roblox Studio Goes Full Agentic as Nearly Half of Top Creators Already Use AI to Build Games." https://me.pcmag.com/en/gaming/36602/roblox-studio-goes-full-agentic-as-nearly-half-of-top-creators-already-use-ai-to-build-games
+- DemandSage. (2026-06-01). "How Many People Play Roblox 2026 [Active Player Count]." https://www.demandsage.com/how-many-people-play-roblox/
 - Grand View Research. (2026-05). "AI In Education Market Size, Share And Growth Report, 2033." https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-education-market-report
 - MarketsandMarkets. (2024-11). "AI in Education Market Report 2024-2030." https://www.marketsandmarkets.com/Market-Reports/ai-in-education-market-200371366.html
 - Tutorbase. (2026-02). "EdTech & AI in Education Statistics 2026." https://tutorbase.com/statistics/edtech-ai
