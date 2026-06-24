@@ -56,7 +56,7 @@ updated: 2026-06-25
 
 ## 🆕 当前待办（2026-06-25 更新，优先级从高到低）
 
-> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。**不需要等待黄药师修复审计脚本，直接启动 AI 2041 P0。**
+> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。**黄药师跨域审计脚本已修复并通过王语嫣验收（Rule 2=0），可直接启动 AI 2041 P0。**
 
 ### 当前最高优先级
 
@@ -71,6 +71,13 @@ updated: 2026-06-25
 2. **修复王语嫣验收报告轻微建议**（`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`）
    - `framework-ai-accelerated-strategy-cycle`：将张磊 AMA 中“成本降到约 1/10”等经验数字的置信度从 0.85 降至 0.75-0.80，并注明为讲师经验断言
    - 说明：此修复与 AI 2041 P0 并行，不阻塞启动
+
+### P2 小修（AI 2041 P0 完成后）
+
+3. **补充 domain digest 跨域链接**（`60_feedback/audit/cross-domain-audit-script-acceptance-20260625.md`）
+   - `five-step-domain-digest`：补充 2+ 个相关域 digest 链接
+   - `yitang-research-domain-digest`：当前仅链接 five-step-domain-digest，需再补 1+ 个
+   - 说明：跨域审计脚本 Rule 3 剩余 2 项，P2 级导航优化
 
 ### 已验收完成（不要再继续）
 
