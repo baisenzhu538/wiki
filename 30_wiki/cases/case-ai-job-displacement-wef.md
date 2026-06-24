@@ -108,7 +108,7 @@ WEF 2020 的就业预测最常被引用的是“净增 1200 万岗位”，但�
 | 计划扩大承包商使用的企业 | 41% | 计划用外包/零工替代部分员工的企业比例 [conf=0.90, source=WEF Future of Jobs Report 2020] |
 | 计划因技术整合扩招的企业 | 34% | 计划增加员工数量的企业比例 [conf=0.90, source=WEF Future of Jobs Report 2020] |
 | 计划加速自动化的雇主 | 50% | 受疫情与技术扩散影响，预期加速自动化的雇主比例 [conf=0.90, source=WEF Future of Jobs Report 2020] |
-| 需再培训的员工比例 | 50% | 到 2025 年预计需要 reskilling 的员工占比 [conf=0.90, source=WEF Future of Jobs Report 2020] |
+| 需再培训的员工比例 | 50% | 到 2025 年预计需要再培训/技能重塑的员工占比 [conf=0.90, source=WEF Future of Jobs Report 2020] |
 | 核心技能变化比例 | 40% | 到 2025 年员工核心技能预计发生变化的比例 [conf=0.90, source=WEF Future of Jobs Report 2020] |
 | WEF 2023 修订预测 | 8300 万消除 / 6900 万新增（2023–2027） | 净减少约 1400 万；受疫情后经济与技术扩散影响调整 [conf=0.85, source=WEF Future of Jobs Report 2023 / 第三方汇总] |
 | WEF 2025 修订预测 | 9200 万替代 / 1.70 亿新增（2025–2030） | 净增约 7800 万；AI 与信息处理技术成为最大岗位创造/破坏驱动因素之一 [conf=0.85, source=WEF Future of Jobs Report 2025 / 第三方汇总] |
@@ -240,10 +240,10 @@ WEF 就业预测的核心结构——“技术替代可编码任务 + 新增岗�
 
 ## 延伸阅读与来源
 
-- World Economic Forum. (2020-10). *The Future of Jobs Report 2020*. https://www.weforum.org/reports/the-future-of-jobs-report-2020/
+- World Economic Forum. (2020-10). *The Future of Jobs Report 2020*. https://www.weforum.org/reports/the-future-of-jobs-report-2020/ (PDF: https://www3.weforum.org/docs/WEF_Future_of_Jobs_2020.pdf)
 - World Economic Forum. (2020-10-21). Press release: *Recession and Automation Changes Our Future of Work, But there are Jobs Coming, Report Says*. https://www.weforum.org/press/2020/10/recession-and-automation-changes-our-future-of-work-but-there-are-jobs-coming-report-says-52c5162fce/
-- World Economic Forum. (2023). *The Future of Jobs Report 2023*. https://www.weforum.org/reports/the-future-of-jobs-report-2023/
-- World Economic Forum. (2025). *The Future of Jobs Report 2025*. https://www.weforum.org/reports/the-future-of-jobs-report-2025/
+- World Economic Forum. (2023). *The Future of Jobs Report 2023*. https://www.weforum.org/reports/the-future-of-jobs-report-2023/ (PDF: https://www3.weforum.org/docs/WEF_Future_of_Jobs_2023.pdf)
+- World Economic Forum. (2025). *The Future of Jobs Report 2025*. https://www.weforum.org/reports/the-future-of-jobs-report-2025/ (PDF: https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf)
 - McKinsey Global Institute. (2017-11). *Jobs lost, jobs gained: Workforce transitions in a time of automation*. https://www.mckinsey.com/capabilities/mgi/our-insights/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages
 - 王欢.《AI 2041：预见未来二十年》拆书会逐字稿（第八幕“职业救星”及相关工具讨论）.
 
