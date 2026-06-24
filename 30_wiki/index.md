@@ -85,10 +85,12 @@ related:
 - [[frameworks/framework-ai2041-critical-reading-os|AI 2041 批判性认知操作系统]] — 王欢 AI 2041 拆书会 framework 卡（本任务新增）
 - [[frameworks/framework-ai-deconstruction-methodology|王欢三层拆书法]] — 王欢 AI 2041 拆书会 framework 卡（本任务新增）
 - [[tools/tool-ai-critical-reading-three-layers|三层拆书批判法]] — 王欢 AI 2041 拆书会 tool 卡（本任务新增）
+- [[tools/tool-ai-cross-reading-method|交叉阅读法]] — 王欢 AI 2041 拆书会 tool 卡（本任务新增）
 - [[concepts/concept-ai-chair-determines-view|椅子决定视角]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
 - [[tools/tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — 王欢 AI 2041 拆书会 tool 卡（本任务新增）
 - [[concepts/concept-ai-neutrality-bias|中立的暴政]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
 - [[cases/case-compas-racial-bias|COMPAS 再犯算法种族偏见]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
+- [[cases/case-cambridge-novelists-survey|剑桥小说家对 AI 创作态度调查]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---

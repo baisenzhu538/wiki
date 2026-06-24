@@ -166,7 +166,7 @@ related:
 
 ---
 
-## 适用边界 / When NOT to Use
+## When NOT to Use
 
 | 适合场景 | 不适合场景 |
 |:---|:---|
