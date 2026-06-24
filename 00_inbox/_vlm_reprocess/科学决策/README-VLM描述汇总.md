@@ -2,20 +2,18 @@
 
 模型: `MiniMax-M3`
 
-图片数: 6
-成功: 5
-失败: 1
+图片数: 4
+成功: 0
+失败: 4
 
 ## 描述清单
 
 | 图片 | 类型 | 标题 | 置信度 | 描述文件 |
 |---|---|---|---|---|
-| 一堂-科学决策-ROI决策评估画布-案例01.png | 框架图 | ROI决策评估画布：参加纽约时装周（2018） | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\_vlm_reprocess\科学决策\一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md` |
-| 一堂-科学决策-ROI决策评估画布-案例02.png | 幻灯片 | 决策4：是否搭建虚拟影棚 — ROI决策评估画布 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\_vlm_reprocess\科学决策\一堂-科学决策-ROI决策评估画布-案例02_vlm_desc.md` |
-| 一堂-科学决策-ROI决策评估画布-案例03.png | 框架图 | ROI决策评估画布：自建招商体系 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\_vlm_reprocess\科学决策\一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md` |
-| 一堂-科学决策-ROI决策评估画布-案例04.png | 框架图 | ROI决策评估画布 - 学习决策（公司） | 0.93 | `C:\Users\Administrator\Desktop\wiki\00_inbox\_vlm_reprocess\科学决策\一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md` |
-| 一堂-科学决策-ROI决策评估画布.png | 框架图 | ROI决策评估画布 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\_vlm_reprocess\科学决策\一堂-科学决策-ROI决策评估画布_vlm_desc.md` |
 
 ## 失败列表
 
-- 一堂-科学决策-ROI高阶训练全景图.png: no such group
+- 一堂-科学决策-深度-L1优先级定性.png: no such group
+- 一堂-科学决策-深度-L2部分定量.png: no such group
+- 一堂-科学决策-深度-L3定量公式.png: no such group
+- 一堂-科学决策-深度-L4-案例01.png: no such group

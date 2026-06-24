@@ -15,7 +15,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 WIKI = Path('C:/Users/Administrator/Desktop/wiki')
 SCRIPT = WIKI / '40_outputs/code/scripts/describe-images-minimax.py'
 BASE = WIKI / '00_inbox/_vlm_reprocess'
-BATCH_SIZE = 6
+BATCH_SIZE = 4
 IMAGE_EXTS = {'.png', '.jpg', '.jpeg', '.webp', '.gif', '.bmp'}
 
 

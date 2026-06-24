@@ -1,0 +1,108 @@
+{
+  "case-deepfake-market-misuse": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "Deepfake 的商业机会与滥用风险",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第六幕 355-410"
+    ],
+    "web_search": true
+  },
+  "case-ai-companion-emotional": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "AI 情感陪伴的市场与伦理",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第六幕 411-500"
+    ],
+    "web_search": true
+  },
+  "case-roblox-ai-npc-education": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "Roblox AI NPC 与教育场景",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第六幕 501-620"
+    ],
+    "web_search": true
+  },
+  "case-ai-job-displacement-wef": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "WEF 对 AI 就业影响的预测",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第三幕 283-350"
+    ],
+    "web_search": true
+  },
+  "dk-ai-prediction-expiry-date": {
+    "type": "dk",
+    "dir": "30_wiki/dk",
+    "title": "AI 预言的保质期",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "开场 15-30",
+      "第二幕 163-195",
+      "终章 933-942",
+      "附录三 1163-1169"
+    ]
+  },
+  "dk-ai-social-progress-not-automatic": {
+    "type": "dk",
+    "dir": "30_wiki/dk",
+    "title": "社会进步不是自动的",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第七幕 779-793"
+    ]
+  },
+  "dk-ai-scarcest-resource-is-self": {
+    "type": "dk",
+    "dir": "30_wiki/dk",
+    "title": "最稀缺的是自我",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第七幕 795-818",
+      "第八幕 893-920"
+    ]
+  },
+  "concept-ai-information-quality-ladder": {
+    "type": "concept",
+    "dir": "30_wiki/concepts",
+    "title": "信息质量阶梯",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "开场 25-28",
+      "附录一 1002-1006",
+      "附录二 1044-1162"
+    ]
+  }
+}

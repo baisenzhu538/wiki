@@ -225,7 +225,7 @@ def _fix_unescaped_chinese_quotes(text: str) -> str:
         # Find patterns like Chinese_char"Chinese_char and escape the inner quote
         # Also handle cases like 称为"xxx" where quotes surround Chinese text
         fixed_value = re.sub(
-            r'(?<=[一-鿿])"(?=[一-鿿，。、；：！？）\)】\]""''、])',
+            r'(?<=[一-鿿])"(?=[一-鿿，。、；：！？）\)】\]"\'、])',
             r'\"',
             value
         )
