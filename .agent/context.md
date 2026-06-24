@@ -37,7 +37,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童按 task_20260625_laowantong-ai2041-p1.md 生产 AI 2041 P1 9 张卡；完成后通知王语嫣做 20% 抽样验收；P2 8 张与三域跨案例 synthesis dk 9 张作为后续批次；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口作为 P2 小批次处理。"
+next_session_hint: "王欢《AI 2041》P0+P1 已完成，通知王语嫣对 P1 9 张卡做 20% 抽样验收；继续推进 P2 8 张应用场景+暗知识卡与三域跨案例 synthesis dk 卡 9 张；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口作为 P2 小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
