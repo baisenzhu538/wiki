@@ -89,6 +89,7 @@ Roblox 在 2024-2026 年间连续推出基于生成式 AI 的创作者工具：
 | 指标 | 数值/区间 | 说明 |
 |:---|:---|:---|
 | Roblox 日活用户 | 约 9,780 万（2025 Q1） | Q4 2025 已达约 1.44 亿；平台未成年用户占比高 [conf=0.85, source=Roblox 股东信 / DemandSage 2026] |
+| Roblox 13 岁及以下用户 | 约 4,980 万（2025 Q3） | 年龄核验用户中 35% 小于 13 岁 [conf=0.85, source=Roblox 股东信 / DemandSage 2026] |
 | Top 1,000 创作者使用 AI 工具比例 | 44% | 使用 Roblox Assistant 或第三方 AI 工具 via MCP [conf=0.75, source=Roblox 团队 @ayyar on X, 2026-04] |
 | Text Generation API 初始速率限制 | 约 100 请求/秒/体验 | 官方 Beta 参数 [conf=0.85, source=Roblox Developer Forum] |
 | 全球 AI 教育市场规模 | 2024-2025 年约 $2.21B–$8.3B | 机构口径差异大；MarketsandMarkets 估 2024 $2.21B → 2030 $5.82B；Grand View Research 估 2025 $8.3B → 2033 $57.2B [conf=0.75, source=MarketsandMarkets 2024 / Grand View Research 2025 / Tutorbase 2026] |
