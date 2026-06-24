@@ -184,13 +184,13 @@ def run_audit(vault: Path, whitelist: set) -> dict:
         for rid in related_ids:
             if rid:
                 related_domains |= domain_of(rid, cards)
-        related_domains.discard(None)
         related_domains.discard("unknown")
 
         # 规则 1：framework/tool 卡必须跨域 ≥2
         if ctype in ("framework", "tool") and cid not in whitelist:
             if len(related_domains) < 2:
-                my_domain = domain_of(cid, cards) or "unknown"
+                my_domains = domain_of(cid, cards)
+                my_domain = sorted(my_domains)[0] if my_domains else "unknown"
                 issues["rule1"].append({
                     "id": cid,
                     "type": ctype,
