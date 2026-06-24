@@ -5,7 +5,7 @@ created_at: 2026-06-23
 domain: strategy
 case_count: 38
 assignee: 王语嫣
-status: pending
+status: completed
 ---
 
 # 跨案例合成任务: strategy 域
