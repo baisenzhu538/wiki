@@ -1,10 +1,10 @@
 # 跨域链接审计报告
 
-**执行时间**：2026-06-23 21:33
-**总检查卡数**：1927
-**异常卡数**：771
+**执行时间**：2026-06-24 20:29
+**总检查卡数**：1959
+**异常卡数**：784
 
-## 1. framework/tool 卡未跨域（769 张）
+## 1. framework/tool 卡未跨域（777 张）
 
 | 卡 ID | 类型 | 自身域 | 当前跨域 |
 |:--|:--|:--|:--|
@@ -18,16 +18,21 @@
 | `concept-mckinsey-hypothesis-driven` | framework | management- consulting | 无 |
 | `concept-minto-pyramid-principle` | framework | management- consulting | 无 |
 | `concept-toyota-5-whys` | tool | management- lean-manufacturing | 无 |
+| `framework-ai-accelerated-strategy-cycle` | framework | ai-collaboration | 无 |
 | `framework-candy-transcript-workflow` | framework | yitang | 无 |
 | `framework-ci-operating-model` | framework | yitang | 无 |
 | `framework-course-milestone-model` | framework | yitang- yitang | 无 |
 | `framework-demand-iceberg` | framework | yitang | 无 |
+| `framework-demand-lean-bridge` | framework | demand-analysis | 无 |
 | `framework-demand-opportunity-spectrum` | framework | yitang | 无 |
 | `framework-demand-usp-model` | framework | yitang | 无 |
 | `framework-doris-industry-report-4step` | framework | research- yitang | 无 |
+| `framework-five-step-lean-interface` | framework | five-step | 无 |
 | `framework-lean-abcd-model` | framework | strategy | 无 |
+| `framework-lean-expert-roadmap` | framework | lean-startup | 无 |
 | `framework-lean-false-model` | framework | lean-startup | 无 |
 | `framework-lean-four-principles` | framework | lean-startup | 无 |
+| `framework-lean-pivot-decision` | framework | lean-startup | 无 |
 | `framework-lean-product-kernel` | framework | strategy | 无 |
 | `framework-lean-systematic-test-curve` | framework | lean-startup | 无 |
 | `framework-lean-tenx-formula` | framework | lean-startup | 无 |
@@ -45,6 +50,7 @@
 | `framework-strategy-five-basics` | framework | strategy | 无 |
 | `framework-strategy-five-forces` | framework | strategy | 无 |
 | `framework-strategy-kai-innovation-directions` | framework | strategy | strategy |
+| `framework-strategy-lean-validation` | framework | strategy | 无 |
 | `framework-strategy-mckinsey-7s` | framework | strategy | 无 |
 | `framework-strategy-pyramid` | framework | strategy | 无 |
 | `framework-strategy-six-stages` | framework | strategy | 无 |
@@ -55,7 +61,7 @@
 | `framework-wanghuan-bitcoe-prompt-framework` | framework | ai-collaboration | 无 |
 | `framework-wanghuan-five-criteria-first-product` | framework | ai-collaboration | 无 |
 | `framework-wanghuan-gan-three-roles` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-harness-seven-stages` | framework | ai-collaboration | 无 |
+| `framework-wanghuan-harness-seven-stages` | framework | unknown | 无 |
 | `framework-wanghuan-ooda-loop` | framework | ai-collaboration | 无 |
 | `framework-wanghuan-say-think-do-toolchain` | framework | ai-collaboration | 无 |
 | `framework-wanghuan-task-product-system` | framework | ai-collaboration | 无 |
@@ -434,6 +440,7 @@
 | `tool-demand-assessment-triangle` | tool | yitang | 无 |
 | `tool-demand-blindspot-checklist` | tool | yitang | 无 |
 | `tool-demand-four-forces` | tool | yitang | 无 |
+| `tool-demand-iceberg-l6-hypothesis` | tool | yitang | 无 |
 | `tool-devils-advocacy` | tool | yitang | 无 |
 | `tool-dns-intelligence` | tool | yitang | 无 |
 | `tool-doris-industry-report-search-tips` | tool | unknown | 无 |
@@ -456,6 +463,7 @@
 | `tool-lean-leverage-resources` | tool | lean-startup | 无 |
 | `tool-lean-leverage-tools` | tool | lean-startup | 无 |
 | `tool-lean-leverage-traffic` | tool | lean-startup | 无 |
+| `tool-lean-minimum-test-volume` | tool | lean-startup | 无 |
 | `tool-lean-minimum-version` | tool | lean-startup | 无 |
 | `tool-lean-premium-service` | tool | strategy | 无 |
 | `tool-lean-presell` | tool | lean-startup | 无 |
@@ -778,10 +786,15 @@
 | `yt-unit-model-selection` | tool | yitang- entrepreneur | 无 |
 | `学会提问在信息洪流中锻造批判性思维的利刃` | framework | unknown | 无 |
 
-## 2. bridge 卡目标域覆盖（0 张不足）
+## 2. bridge 卡目标域覆盖（5 张不足）
 
-✅ 全部 bridge 卡目标域覆盖 ≥2
-
+| 卡 ID | 目标域 | 已覆盖 | 缺失 |
+|:--|:--|:--|:--|
+| `framework-ai-accelerated-strategy-cycle` | ai-collaboration, lean-startup, strategy | 无 | ai-collaboration, lean-startup, strategy |
+| `framework-demand-lean-bridge` | demand-analysis, lean-startup | 无 | demand-analysis, lean-startup |
+| `framework-five-step-lean-interface` | five-step, lean-startup | 无 | five-step, lean-startup |
+| `framework-lean-pivot-decision` | decision, lean-startup | 无 | decision, lean-startup |
+| `framework-strategy-lean-validation` | lean-startup, strategy | 无 | lean-startup, strategy |
 
 ## 3. domain digest 链接不足（2 个）
 
