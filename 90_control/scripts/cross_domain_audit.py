@@ -141,20 +141,21 @@ def load_cards(vault: Path) -> dict[str, dict]:
     return cards
 
 
-def domain_of(card_id: str, cards: dict) -> str | None:
-    """获取卡片的域：优先 frontmatter domain 字段，回退前缀启发式。"""
-    if card_id not in cards:
-        return id_to_domain(card_id)
-    fm = cards[card_id]
-    domains = fm.get("domain", [])
-    if isinstance(domains, str):
-        domains = [domains]
-    if domains:
-        # 过滤掉内部标签域
-        real = [d for d in domains if d not in ("master", "system", "", "[]")]
-        if real:
-            return real[0]
-    return id_to_domain(card_id)
+def domain_of(card_id: str, cards: dict) -> set[str]:
+    """获取卡片的所有域：YAML domain 字段 + 前缀推断（合并）。"""
+    result = set()
+    # 前缀推断总是在结果中
+    inferred = {id_to_domain(card_id)} if id_to_domain(card_id) != "unknown" else set()
+    if card_id in cards:
+        fm = cards[card_id]
+        domains = fm.get("domain", [])
+        if isinstance(domains, str):
+            domains = [domains]
+        if domains:
+            real = [d for d in domains if d not in ("master", "system", "", "[]")]
+            result.update(real)
+    result.update(inferred)
+    return result
 
 
 def extract_related_ids(fm: dict) -> list[str]:
@@ -179,7 +180,10 @@ def run_audit(vault: Path, whitelist: set) -> dict:
     for cid, fm in cards.items():
         ctype = fm.get("type", "?")
         related_ids = extract_related_ids(fm)
-        related_domains = {domain_of(rid, cards) for rid in related_ids if rid}
+        related_domains = set()
+        for rid in related_ids:
+            if rid:
+                related_domains |= domain_of(rid, cards)
         related_domains.discard(None)
         related_domains.discard("unknown")
 
