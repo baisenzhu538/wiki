@@ -218,10 +218,8 @@ def _fix_unescaped_chinese_quotes(text: str) -> str:
 
     def escape_inner_quotes(match):
         """Escape inner double quotes within a matched JSON string value pair."""
-        full = match.group(0)
-        key = match.group(1)
-        colon = match.group(2)
-        value = match.group(3)
+        prefix = match.group(1) + '"'  # key + colon + opening quote
+        value = match.group(2)[1:-1]   # value without outer quotes
         # Find patterns like Chinese_char"Chinese_char and escape the inner quote
         # Also handle cases like 称为"xxx" where quotes surround Chinese text
         fixed_value = re.sub(
@@ -235,7 +233,7 @@ def _fix_unescaped_chinese_quotes(text: str) -> str:
             r'\"',
             fixed_value
         )
-        return f'{key}{colon}{fixed_value}'
+        return f'{prefix}{fixed_value}"'
 
     # Match "key": "value with potentially bad quotes"
     # This handles the common case where description/etc contain unescaped quotes
