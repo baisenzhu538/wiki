@@ -37,7 +37,7 @@ def parse_frontmatter(text: str) -> dict | None:
     list_keys = ["domain", "related", "source_refs", "tags"]
     for lk in list_keys:
         if lk in result and result[lk] == []:
-            pat = re.compile(rf"^{lk}:\n((?:\s+-.+\n?)*)", re.MULTILINE)
+            pat = re.compile(rf"^{lk}:\n((?:\s*-+.+\n?)*)", re.MULTILINE)
             m = pat.search(text[3:end])
             if m:
                 items = re.findall(r"^\s*-+\s*(.+)$", m.group(1), re.MULTILINE)
