@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-25
 active_branch: main
-active_task: "老顽童优先生产 strategy/research/yitang 三域跨案例 synthesis dk 卡 9 张；同时按 task_20260624_laowantong-ai2041-cards.md 推进王欢《AI 2041》P1 9 张 / P2 8 张。"
+active_task: "老顽童执行王欢《AI 2041》P1 批次 9 张卡（见 task_20260625_laowantong-ai2041-p1.md）；P1 通过后再推进 P2 8 张与三域跨案例 synthesis dk 卡 9 张。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -28,14 +28,15 @@ blockers:
   - "🟡 跨域审计 Rule 3 剩余 2 项：five-step-domain-digest 和 yitang-research-domain-digest 需补充 2+ 个跨域 digest 链接（P2）"
   - "✅ 王欢《AI 2041》P0 5 张完成：framework-ai2041-critical-reading-os、framework-ai-deconstruction-methodology、tool-ai-critical-reading-three-layers、concept-ai-amara-law-business-judgment、tool-tech-probability-80-filter"
   - "✅ framework-ai-accelerated-strategy-cycle 成本数字置信度已修复：张磊 AMA 教学推演的成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60，卡片整体 confidence 从 0.85/high 调整为 0.75/medium"
-  - "🆕 王欢《AI 2041》P1 9 张 / P2 8 张待生产，见 task_20260624_laowantong-ai2041-cards.md"
+  - "✅ 王欢《AI 2041》P0 5 张通过王语嫣 20% 抽样验收；报告见 60_feedback/audit/ai2041-p0-production-audit-20260625.md"
+  - "🆕 王欢《AI 2041》P1 9 张待生产，见 task_20260625_laowantong-ai2041-p1.md；P2 8 张与三域跨案例 synthesis dk 9 张排队"
   - "🆕 跨案例合成任务已完成王语嫣诊断：strategy/research/yitang 三域共产出 9 个跨案例洞察，待老顽童生产 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童优先执行 task_20260625_laowantong-synthesis-dk-cards.md 生产 9 张跨案例 dk 卡；随后按 task_20260624_laowantong-ai2041-cards.md 推进 AI 2041 P1/P2；安排王语嫣对 AI 2041 P0 5 张卡做 20% 抽样验收；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口作为 P2 小批次处理。"
+next_session_hint: "老顽童按 task_20260625_laowantong-ai2041-p1.md 生产 AI 2041 P1 9 张卡；完成后通知王语嫣做 20% 抽样验收；P2 8 张与三域跨案例 synthesis dk 9 张作为后续批次；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口作为 P2 小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
