@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-25
 active_branch: main
-active_task: "老顽童执行王欢《AI 2041》P2 8 张卡（见 task_20260625_laowantong-ai2041-p2.md）；P2 通过后再推进三域跨案例 synthesis dk 卡 9 张。"
+active_task: "王欢《AI 2041》P2 8 张卡已完成；等待王语嫣 20% 抽样验收。下一步：三域跨案例 synthesis dk 卡 9 张（见 task_20260625_laowantong-synthesis-dk-cards.md）。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
