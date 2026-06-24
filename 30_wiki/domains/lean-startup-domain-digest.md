@@ -100,10 +100,10 @@ related:
 | `case-lean-combination-test-paradigm` | 组合测试范式实操案例 | 洗发水卖点 × 堕落小龙虾选型组合测试 |
 | `case-cross-yuanqi-forest` | 元气森林跨域闭环 | 战略定位 + 精益试错 + 增长放大 |
 | `case-cross-xingangwan-pharma` | 鑫港湾智慧药柜跨域验证 | 战略选择 + 商业模式 + 合规假设验证 |
-| `case-lean-crayfish-combo-test` | 堕落小龙虾组合测试（P2 待生产） | 组合测试与价值热力图 |
-| `case-lean-shampoo-selling-points` | 洗发水卖点组合测试（P2 待生产） | 功效/成分/香味/背书四维度排列组合 |
-| `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘（P2 待生产） | 确定性/能力匹配/红利窗口三维度评估 |
-| `case-lean-adult-education` | 成人技能教育精益验证（P2 待生产） | 传统重资产 vs 海报快速测试 |
+| `case-lean-crayfish-combo-test` | 堕落小龙虾组合测试 | 组合测试与价值热力图 |
+| `case-lean-shampoo-selling-points` | 洗发水卖点组合测试 | 功效/成分/香味/背书四维度排列组合 |
+| `case-lean-radish-channel-selection` | 萝卜干渠道选择预判复盘 | 确定性/能力匹配/红利窗口三维度评估 |
+| `case-lean-adult-education` | 成人技能教育精益验证 | 传统重资产 vs 海报快速测试 |
 
 > 注：`case-lean-marketing-channel-comparison`（完美日记 vs 花西子）与 `case-lean-b2b-sector-selection`（建材企业赛道选择）因素材缺失已取消生产。
 
@@ -137,4 +137,4 @@ related:
 ---
 
 *黄药师 · 2026-06-23 · 精益创业域建制（老顽童生产中）*
-*P0+P1 已入库 45 张：11 framework + 16 tool + 18 case；跨域融合 5 张桥接卡 + 2 张跨域案例已完成；P2 4 张待生产*
+*P0+P1+P2 已入库 45 张：11 framework + 16 tool + 18 case；跨域融合 5 张桥接卡 + 2 张跨域案例已完成；精益创业域建制完整*
