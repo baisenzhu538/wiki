@@ -55,6 +55,20 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 | `tool-ai-critical-reading-three-layers` | 三层拆书批判法——还原/审计/生长的操作清单 |
 | `tool-tech-probability-80-filter` | 李开复 80% 概率过滤器——把无限焦虑收敛为有限准备 |
 | `concept-ai-amara-law-business-judgment` | 阿马拉定律与商业判断校准——高估短期、低估长期 |
+| `concept-ai-chair-determines-view` | 椅子决定视角——作者的利益位置、技术立场、时代局限决定其 AI 判断 |
+| `concept-ai-neutrality-bias` | 中立的暴政——假装没有立场是最精明的立场 |
+| `tool-ai-cross-reading-method` | 交叉阅读法——用 2-3 本立场相反的书对撞 |
+| `tool-ai2041-source-verification-checklist` | AI 预测来源验证检查单——来源可信度五问 + 信息质量阶梯 |
+
+## 算法伦理案例（AI 2041）
+
+| 卡 | 一句话 |
+|:--|:--|
+| `case-compas-racial-bias` | COMPAS 再犯算法种族偏见——ProPublica 77.3% 数字与 Northpointe 辩护并置 |
+| `case-apple-card-gender-bias` | Apple Card 信用额度性别争议——NYDFS 未违法结论与公众伤害并置 |
+| `case-dutch-childcare-scandal` | 荷兰育儿补贴算法丑闻——26,000 家庭与内阁辞职 |
+| `case-cambridge-novelists-survey` | 剑桥小说家对 AI 创作态度调查——97% 反对整本书的英国样本 |
+| `case-chen-qiufan-ai-writing` | 陈楸帆对 AI 写作的态度转向——2017 拥抱到 2025 审慎 |
 
 ## AI 协作技能（Claude Code + Hermes 双可用）
 
