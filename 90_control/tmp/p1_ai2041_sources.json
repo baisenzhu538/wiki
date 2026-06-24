@@ -1,0 +1,126 @@
+{
+  "concept-ai-chair-determines-view": {
+    "type": "concept",
+    "dir": "30_wiki/concepts",
+    "title": "椅子决定视角",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "开场 55-67",
+      "第七幕 760-883",
+      "附录一 Q&A 974-978"
+    ]
+  },
+  "concept-ai-neutrality-bias": {
+    "type": "concept",
+    "dir": "30_wiki/concepts",
+    "title": "中立的暴政",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第四幕 673-700",
+      "第七幕 760-883",
+      "附录二 1100"
+    ]
+  },
+  "tool-ai-cross-reading-method": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "交叉阅读法",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "附录一 1002-1006",
+      "第七幕 857-883",
+      "附录二 1098-1100"
+    ]
+  },
+  "tool-ai2041-source-verification-checklist": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "AI 预测来源验证检查单",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "开场 25-28",
+      "第二幕 197-282",
+      "第八幕 885-966",
+      "附录二 1044-1162"
+    ]
+  },
+  "case-compas-racial-bias": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "COMPAS 再犯算法种族偏见",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第三幕/第四幕 291-348"
+    ],
+    "web_search": true
+  },
+  "case-apple-card-gender-bias": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "Apple Card 信用额度性别争议",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第三幕/第四幕 315-318"
+    ],
+    "web_search": true
+  },
+  "case-dutch-childcare-scandal": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "荷兰育儿补贴算法丑闻",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第三幕/第四幕 319-321"
+    ],
+    "web_search": true
+  },
+  "case-cambridge-novelists-survey": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "剑桥小说家对 AI 创作态度调查",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第二幕 163-181",
+      "第五幕 621-760"
+    ],
+    "web_search": true
+  },
+  "case-chen-qiufan-ai-writing": {
+    "type": "case",
+    "dir": "30_wiki/cases",
+    "title": "陈楸帆对 AI 写作的态度转向",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第二幕 163-181",
+      "第五幕 621-760"
+    ],
+    "web_search": true
+  }
+}
