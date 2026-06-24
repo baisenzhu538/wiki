@@ -1,0 +1,1332 @@
+[
+  {
+    "ocr_id": "ocr-一堂-单元模型-abcd策略模型",
+    "ocr_file": "ocr-一堂-单元模型-abcd策略模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_07b851fb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_07b851fb",
+        "src_file": "src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md",
+        "pattern": "一堂-单元模型-ABCD策略模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-ABCD策略模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-tcpr底层网络协议",
+    "ocr_file": "ocr-一堂-单元模型-tcpr底层网络协议.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_189cf93b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_189cf93b",
+        "src_file": "src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md",
+        "pattern": "一堂-单元模型-TCPR底层网络协议.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-TCPR底层网络协议.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-修炼地图",
+    "ocr_file": "ocr-一堂-单元模型-修炼地图.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_71152485"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_71152485",
+        "src_file": "src_20260609_71152485-ocr-一堂-单元模型-修炼地图.md",
+        "pattern": "一堂-单元模型-修炼地图.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-修炼地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-动态预测",
+    "ocr_file": "ocr-一堂-单元模型-动态预测.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_9fd664f5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_9fd664f5",
+        "src_file": "src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md",
+        "pattern": "一堂-单元模型-动态预测.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-动态预测.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单sku模型",
+    "ocr_file": "ocr-一堂-单元模型-单sku模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_70068960"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_70068960",
+        "src_file": "src_20260609_70068960-ocr-一堂-单元模型-单sku模型.md",
+        "pattern": "一堂-单元模型-单sku模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单sku模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单商圈模型",
+    "ocr_file": "ocr-一堂-单元模型-单商圈模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_d7fb11e1"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_d7fb11e1",
+        "src_file": "src_20260609_d7fb11e1-ocr-一堂-单元模型-单商圈模型.md",
+        "pattern": "一堂-单元模型-单商圈模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单商圈模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单城市模型",
+    "ocr_file": "ocr-一堂-单元模型-单城市模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_d0a5e9b4"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_d0a5e9b4",
+        "src_file": "src_20260609_d0a5e9b4-ocr-一堂-单元模型-单城市模型.md",
+        "pattern": "一堂-单元模型-单城市模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单城市模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单客户模型",
+    "ocr_file": "ocr-一堂-单元模型-单客户模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_59f0b2a5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_59f0b2a5",
+        "src_file": "src_20260609_59f0b2a5-ocr-一堂-单元模型-单客户模型.md",
+        "pattern": "一堂-单元模型-单客户模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单客户模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单履约模型",
+    "ocr_file": "ocr-一堂-单元模型-单履约模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_4244803c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_4244803c",
+        "src_file": "src_20260609_4244803c-ocr-一堂-单元模型-单履约模型.md",
+        "pattern": "一堂-单元模型-单履约模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单履约模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单柜子模型",
+    "ocr_file": "ocr-一堂-单元模型-单柜子模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_2e27ff75"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_2e27ff75",
+        "src_file": "src_20260609_2e27ff75-ocr-一堂-单元模型-单柜子模型.md",
+        "pattern": "一堂-单元模型-单柜子模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单柜子模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单用户模型",
+    "ocr_file": "ocr-一堂-单元模型-单用户模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_d193f920"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_d193f920",
+        "src_file": "src_20260609_d193f920-ocr-一堂-单元模型-单用户模型.md",
+        "pattern": "一堂-单元模型-单用户模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单用户模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单订单模型",
+    "ocr_file": "ocr-一堂-单元模型-单订单模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_285df010"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_285df010",
+        "src_file": "src_20260609_285df010-ocr-一堂-单元模型-单订单模型.md",
+        "pattern": "一堂-单元模型-单订单模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单订单模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单销售模型",
+    "ocr_file": "ocr-一堂-单元模型-单销售模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_dff0633d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_dff0633d",
+        "src_file": "src_20260609_dff0633d-ocr-一堂-单元模型-单销售模型.md",
+        "pattern": "一堂-单元模型-单销售模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单销售模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-单门店模型",
+    "ocr_file": "ocr-一堂-单元模型-单门店模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_f2aa0632"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_f2aa0632",
+        "src_file": "src_20260609_f2aa0632-ocr-一堂-单元模型-单门店模型.md",
+        "pattern": "一堂-单元模型-单门店模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-单门店模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-基准值",
+    "ocr_file": "ocr-一堂-单元模型-基准值.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_dd7075c2"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_dd7075c2",
+        "src_file": "src_20260609_dd7075c2-ocr-一堂-单元模型-基准值.md",
+        "pattern": "一堂-单元模型-基准值.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-基准值.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-壁垒预判",
+    "ocr_file": "ocr-一堂-单元模型-壁垒预判.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_1fa94850"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_1fa94850",
+        "src_file": "src_20260609_1fa94850-ocr-一堂-单元模型-壁垒预判.md",
+        "pattern": "一堂-单元模型-壁垒预判.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-壁垒预判.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-外部对抗地图",
+    "ocr_file": "ocr-一堂-单元模型-外部对抗地图.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_7dbbefd0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_7dbbefd0",
+        "src_file": "src_20260609_7dbbefd0-ocr-一堂-单元模型-外部对抗地图.md",
+        "pattern": "一堂-单元模型-外部对抗地图.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-外部对抗地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-多模型情况",
+    "ocr_file": "ocr-一堂-单元模型-多模型情况.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_a3880f88"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_a3880f88",
+        "src_file": "src_20260609_a3880f88-ocr-一堂-单元模型-多模型情况.md",
+        "pattern": "一堂-单元模型-多模型情况.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-多模型情况.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-学练用",
+    "ocr_file": "ocr-一堂-单元模型-学练用.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_bcbbb2ed"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_bcbbb2ed",
+        "src_file": "src_20260609_bcbbb2ed-ocr-一堂-单元模型-学练用.md",
+        "pattern": "一堂-单元模型-学练用.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-学练用.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-对抗小抄",
+    "ocr_file": "ocr-一堂-单元模型-对抗小抄.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_bf7b2da7"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_bf7b2da7",
+        "src_file": "src_20260609_bf7b2da7-ocr-一堂-单元模型-对抗小抄.md",
+        "pattern": "一堂-单元模型-对抗小抄.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-对抗小抄.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-对抗小抄01",
+    "ocr_file": "ocr-一堂-单元模型-对抗小抄01.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_624d303b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_624d303b",
+        "src_file": "src_20260609_624d303b-ocr-一堂-单元模型-对抗小抄01.md",
+        "pattern": "一堂-单元模型-对抗小抄01.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-对抗小抄01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-对抗小抄02",
+    "ocr_file": "ocr-一堂-单元模型-对抗小抄02.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_6f5c7abd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_6f5c7abd",
+        "src_file": "src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md",
+        "pattern": "一堂-单元模型-对抗小抄02.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-对抗小抄02.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-扭蛋机案例",
+    "ocr_file": "ocr-一堂-单元模型-扭蛋机案例.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_31712e1d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_31712e1d",
+        "src_file": "src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例.md",
+        "pattern": "一堂-单元模型-扭蛋机案例.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-扭蛋机案例.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-找全成本实操难点",
+    "ocr_file": "ocr-一堂-单元模型-找全成本实操难点.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_0770a578"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_0770a578",
+        "src_file": "src_20260609_0770a578-ocr-一堂-单元模型-找全成本实操难点.md",
+        "pattern": "一堂-单元模型-找全成本实操难点.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-找全成本实操难点.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-找单元模型实操难点",
+    "ocr_file": "ocr-一堂-单元模型-找单元模型实操难点.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_c1af5767"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_c1af5767",
+        "src_file": "src_20260609_c1af5767-ocr-一堂-单元模型-找单元模型实操难点.md",
+        "pattern": "一堂-单元模型-找单元模型实操难点.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-找单元模型实操难点.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-找基准值实操难点",
+    "ocr_file": "ocr-一堂-单元模型-找基准值实操难点.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_e79bff0e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_e79bff0e",
+        "src_file": "src_20260609_e79bff0e-ocr-一堂-单元模型-找基准值实操难点.md",
+        "pattern": "一堂-单元模型-找基准值实操难点.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-找基准值实操难点.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-斧子尺子梯子",
+    "ocr_file": "ocr-一堂-单元模型-斧子尺子梯子.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_e54e85be"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_e54e85be",
+        "src_file": "src_20260609_e54e85be-ocr-一堂-单元模型-斧子尺子梯子.md",
+        "pattern": "一堂-单元模型-斧子、尺子、梯子.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-斧子、尺子、梯子.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-斧子尺子梯子详解",
+    "ocr_file": "ocr-一堂-单元模型-斧子尺子梯子详解.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_3659a538"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_3659a538",
+        "src_file": "src_20260609_3659a538-ocr-一堂-单元模型-斧子尺子梯子详解.md",
+        "pattern": "一堂-单元模型-斧子尺子梯子详解.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-斧子尺子梯子详解.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-最简单元模型",
+    "ocr_file": "ocr-一堂-单元模型-最简单元模型.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_acdcf6e3"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_acdcf6e3",
+        "src_file": "src_20260609_acdcf6e3-ocr-一堂-单元模型-最简单元模型.md",
+        "pattern": "一堂-单元模型-最简单元模型.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-最简单元模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-段位专家",
+    "ocr_file": "ocr-一堂-单元模型-段位专家.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_c31a1173"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_c31a1173",
+        "src_file": "src_20260609_c31a1173-ocr-一堂-单元模型-段位专家.md",
+        "pattern": "一堂-单元模型-段位专家.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-段位专家.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-示例",
+    "ocr_file": "ocr-一堂-单元模型-示例.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_99032bf9"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_99032bf9",
+        "src_file": "src_20260609_99032bf9-ocr-一堂-单元模型-示例.md",
+        "pattern": "一堂-单元模型-示例.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-示例.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-示例01",
+    "ocr_file": "ocr-一堂-单元模型-示例01.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_0cfcfa9e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_0cfcfa9e",
+        "src_file": "src_20260609_0cfcfa9e-ocr-一堂-单元模型-示例01.md",
+        "pattern": "一堂-单元模型-示例01.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-示例01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-规模对抗实操难点",
+    "ocr_file": "ocr-一堂-单元模型-规模对抗实操难点.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_1c8b4d0e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_1c8b4d0e",
+        "src_file": "src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md",
+        "pattern": "一堂-单元模型-规模对抗实操难点.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-规模对抗实操难点.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-规模经济对抗武器库",
+    "ocr_file": "ocr-一堂-单元模型-规模经济对抗武器库.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_cef13c36"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_cef13c36",
+        "src_file": "src_20260609_cef13c36-ocr-一堂-单元模型-规模经济对抗武器库.md",
+        "pattern": "一堂-单元模型-规模经济对抗武器库.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-规模经济对抗武器库.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-单元模型-象限分析法",
+    "ocr_file": "ocr-一堂-单元模型-象限分析法.md",
+    "domain": "单元模型",
+    "source_refs": [
+      "src_20260609_e5bcd951"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_e5bcd951",
+        "src_file": "src_20260609_e5bcd951-ocr-一堂-单元模型-象限分析法.md",
+        "pattern": "一堂-单元模型-象限分析法.*",
+        "image": "00_inbox\\单元模型\\一堂-单元模型-象限分析法.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi决策评估画布-案例01",
+    "ocr_file": "ocr-一堂-科学决策-roi决策评估画布-案例01.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_6bb74b4e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_6bb74b4e",
+        "src_file": "src_20260522_6bb74b4e-ocr-一堂-科学决策-roi决策评估画布-案例01.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例01.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI决策评估画布-案例01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi决策评估画布-案例02",
+    "ocr_file": "ocr-一堂-科学决策-roi决策评估画布-案例02.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_bf298e46"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_bf298e46",
+        "src_file": "src_20260522_bf298e46-ocr-一堂-科学决策-roi决策评估画布-案例02.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例02.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI决策评估画布-案例02.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi决策评估画布-案例03",
+    "ocr_file": "ocr-一堂-科学决策-roi决策评估画布-案例03.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_01bac741"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_01bac741",
+        "src_file": "src_20260522_01bac741-ocr-一堂-科学决策-roi决策评估画布-案例03.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例03.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI决策评估画布-案例03.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi决策评估画布-案例04",
+    "ocr_file": "ocr-一堂-科学决策-roi决策评估画布-案例04.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_94699fa0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_94699fa0",
+        "src_file": "src_20260522_94699fa0-ocr-一堂-科学决策-roi决策评估画布-案例04.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例04.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI决策评估画布-案例04.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi决策评估画布",
+    "ocr_file": "ocr-一堂-科学决策-roi决策评估画布.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_c78c1f2e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c78c1f2e",
+        "src_file": "src_20260522_c78c1f2e-ocr-一堂-科学决策-roi决策评估画布.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI决策评估画布.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-roi高阶训练全景图",
+    "ocr_file": "ocr-一堂-科学决策-roi高阶训练全景图.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260609_60edc284"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_60edc284",
+        "src_file": "src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md",
+        "pattern": "一堂-科学决策-ROI高阶训练全景图.*",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-ROI高阶训练全景图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-x型y型决策习惯对比",
+    "ocr_file": "ocr-一堂-科学决策-x型y型决策习惯对比.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260609_c86cd9a0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_c86cd9a0",
+        "src_file": "src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md",
+        "pattern": "一堂-科学决策-X型Y型决策习惯对比.*",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-X型Y型决策习惯对比.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步",
+    "ocr_file": "ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_d96543bb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_d96543bb",
+        "src_file": "src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-人机协作决策",
+    "ocr_file": "ocr-一堂-科学决策-人机协作决策.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_33c40d41"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_33c40d41",
+        "src_file": "src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-人机协作决策.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-人机协作决策.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-关键假设abcd模型",
+    "ocr_file": "ocr-一堂-科学决策-关键假设abcd模型.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_3261e6bd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3261e6bd",
+        "src_file": "src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-关键假设ABCD模型.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-关键假设ABCD模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-关键训练清单重要",
+    "ocr_file": "ocr-一堂-科学决策-关键训练清单重要.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_ac7f8874"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_ac7f8874",
+        "src_file": "src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-关键训练清单（重要））.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-决策三角形",
+    "ocr_file": "ocr-一堂-科学决策-决策三角形.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260609_485bc00d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_485bc00d",
+        "src_file": "src_20260609_485bc00d-ocr-一堂-科学决策-决策三角形.md",
+        "pattern": "一堂-科学决策-决策三角形.*",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-决策三角形.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-发现决策",
+    "ocr_file": "ocr-一堂-科学决策-发现决策.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_1a2ffc3e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_1a2ffc3e",
+        "src_file": "src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-发现决策.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-发现决策.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
+    "ocr_file": "ocr-一堂-科学决策-商业模式-完整财务公式决策.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_c59acefd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c59acefd",
+        "src_file": "src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-商业模式-完整财务公式决策.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-商业模式-完整财务公式决策.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-宽度-个人",
+    "ocr_file": "ocr-一堂-科学决策-宽度-个人.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_45957066"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_45957066",
+        "src_file": "src_20260522_45957066-ocr-一堂-科学决策-宽度-个人.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-宽度-个人.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-宽度-个人.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-宽度-企业",
+    "ocr_file": "ocr-一堂-科学决策-宽度-企业.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_b4ebba42"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_b4ebba42",
+        "src_file": "src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-宽度-企业.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-宽度-企业.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-宽度-团队",
+    "ocr_file": "ocr-一堂-科学决策-宽度-团队.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_97242832"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_97242832",
+        "src_file": "src_20260522_97242832-ocr-一堂-科学决策-宽度-团队.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-宽度-团队.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-宽度-团队.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-l1优先级定性",
+    "ocr_file": "ocr-一堂-科学决策-深度-l1优先级定性.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_22cb5729"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_22cb5729",
+        "src_file": "src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-L1优先级定性.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-L1优先级定性.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-l2部分定量",
+    "ocr_file": "ocr-一堂-科学决策-深度-l2部分定量.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_ad937c9c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_ad937c9c",
+        "src_file": "src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-L2部分定量.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-L2部分定量.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-l3定量公式",
+    "ocr_file": "ocr-一堂-科学决策-深度-l3定量公式.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_80e1b943"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_80e1b943",
+        "src_file": "src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-L3定量公式.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-L3定量公式.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-l4-案例01",
+    "ocr_file": "ocr-一堂-科学决策-深度-l4-案例01.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_5323822f"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_5323822f",
+        "src_file": "src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-L4-案例01.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-L4-案例01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-l4严格财务公式",
+    "ocr_file": "ocr-一堂-科学决策-深度-l4严格财务公式.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_26271f58"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_26271f58",
+        "src_file": "src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-L4严格财务公式.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-L4严格财务公式.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-你的业务是一次抽样实验",
+    "ocr_file": "ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_3693c090"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3693c090",
+        "src_file": "src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-你的业务是一次抽样实验.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-决策经验值",
+    "ocr_file": "ocr-一堂-科学决策-深度-决策经验值.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_4f3415a1"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4f3415a1",
+        "src_file": "src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-决策经验值.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-决策经验值.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例01",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例01.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_9b437f93"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_9b437f93",
+        "src_file": "src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例01.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例02",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例02.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_e60022cc"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e60022cc",
+        "src_file": "src_20260522_e60022cc-ocr-一堂-科学决策-深度-案例02.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例02.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例02.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例03",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例03.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_3782f983"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3782f983",
+        "src_file": "src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例03.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例03.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例04",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例04.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_b4a26e00"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_b4a26e00",
+        "src_file": "src_20260522_b4a26e00-ocr-一堂-科学决策-深度-案例04.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例04.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例04.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例05",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例05.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_7344d957"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_7344d957",
+        "src_file": "src_20260522_7344d957-ocr-一堂-科学决策-深度-案例05.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例05.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例05.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-深度-案例06",
+    "ocr_file": "ocr-一堂-科学决策-深度-案例06.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_e70d298c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e70d298c",
+        "src_file": "src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-深度-案例06.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-深度-案例06.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-稀缺机会窗口",
+    "ocr_file": "ocr-一堂-科学决策-稀缺机会窗口.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_7fb2b9c1"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_7fb2b9c1",
+        "src_file": "src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-稀缺机会窗口.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-稀缺资源清单",
+    "ocr_file": "ocr-一堂-科学决策-稀缺资源清单.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_d067a6ba"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_d067a6ba",
+        "src_file": "src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-稀缺资源清单.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-项目方案评估三角形",
+    "ocr_file": "ocr-一堂-科学决策-项目方案评估三角形.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_e31b26dd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e31b26dd",
+        "src_file": "src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-项目方案评估三角形.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-项目方案评估三角形.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-高度-两种典型的思考习惯",
+    "ocr_file": "ocr-一堂-科学决策-高度-两种典型的思考习惯.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260522_23b5714d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_23b5714d",
+        "src_file": "src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md",
+        "pattern": "00_inbox/科学决策/一堂-科学决策-高度-两种典型的思考习惯.png",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-高度-两种典型的思考习惯.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-科学决策-高水平共识曲线重要",
+    "ocr_file": "ocr-一堂-科学决策-高水平共识曲线重要.md",
+    "domain": "科学决策",
+    "source_refs": [
+      "src_20260609_006cb9b3"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_006cb9b3",
+        "src_file": "src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md",
+        "pattern": "一堂-科学决策-高水平共识曲线（重要）.*",
+        "image": "00_inbox\\科学决策\\一堂-科学决策-高水平共识曲线（重要）.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  }
+]

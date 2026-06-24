@@ -16,6 +16,8 @@ source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+source_person: 王欢 / Parlementaire ondervragingscommissie Kinderopvangtoeslag (POK) / Nationale ombudsman / Autoriteit Persoonsgegevens (AP) / CBS
+source_context: 王欢《AI 2041》拆书会第208期逐字稿第四幕 §319-321；荷兰官方调查报告《Ongekend onrecht》、国家监察员报告、数据保护局报告及后续 CBS/司法部统计
 related:
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
@@ -113,6 +115,18 @@ related:
 | 组织层 | 人机问责断裂 | 官员把算法输出当作“客观证据”，未做实质人工复核 [conf=0.70, source=王欢原创] |
 | 制度层 | 早期警告被忽视 | 2017 年国家监察员报告已发出警示，但未触发制度改革 [conf=0.85, source=Nationale ombudsman 2017; Parlement.com] |
 | 政治层 | 反欺诈舆论压力 | 在“保加利亚福利欺诈”等舆论推动下，执法不断收紧 [conf=0.85, source=POK 2020] |
+
+---
+
+## 失败模式
+
+| 失败模式 | 表现 | 避免方法 |
+|:---|:---|:---|
+| **把“反欺诈”当成唯一 KPI** | 只考核追回金额与案件数量，误伤率被无视 | 同时考核“误伤率”“申诉成功率”“个案复核覆盖率” [conf=0.70, source=王欢原创] |
+| **敏感属性进入风险模型** | 国籍、双国籍、姓氏等成为算法特征，导致歧视性反馈循环 | 建立“禁止清单”，敏感属性与强代理变量不得入模；由独立伦理委员会审计 [conf=0.85, source=AP 2020] |
+| **算法输出直接触发剥夺性后果** | 系统一旦标记，补贴立即停发、工资扣押、儿童离家 | 高风险决策必须保留人工复核、可解释说明与上诉暂停机制 [conf=0.70, source=王欢原创] |
+| **把外部审计报告当装饰品** | 2017 年国家监察员报告已被忽视，系统继续运转三年 | 建立“红灯机制”：外部审计发现系统性问题后，必须暂停相关自动决策并限期整改 [conf=0.70, source=王欢原创] |
+| **单一叙事掩盖系统性失败** | 只归咎于“算法 bug”或“个别官员”，忽视法律、组织、政治压力 | 用系统思维拆解：目标、算法、执行、组织、制度、政治六层共同负责 [conf=0.70, source=王欢原创] |
 
 ---
 

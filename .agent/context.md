@@ -30,6 +30,7 @@ blockers:
   - "✅ framework-ai-accelerated-strategy-cycle 成本数字置信度已修复：张磊 AMA 教学推演的成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60，卡片整体 confidence 从 0.85/high 调整为 0.75/medium"
   - "✅ 王欢《AI 2041》P0 5 张通过王语嫣 20% 抽样验收；报告见 60_feedback/audit/ai2041-p0-production-audit-20260625.md"
   - "🆕 王欢《AI 2041》P1 9 张待生产，见 task_20260625_laowantong-ai2041-p1.md；P2 8 张与三域跨案例 synthesis dk 9 张排队"
+  - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
   - "🆕 跨案例合成任务已完成王语嫣诊断：strategy/research/yitang 三域共产出 9 个跨案例洞察，待老顽童生产 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
