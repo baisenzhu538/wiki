@@ -5,7 +5,7 @@ created_at: 2026-06-23
 domain: yitang
 case_count: 59
 assignee: 王语嫣
-status: pending
+status: completed
 ---
 
 # 跨案例合成任务: yitang 域

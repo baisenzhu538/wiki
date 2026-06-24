@@ -45,6 +45,16 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 | `concept-harness-scoring-anchors` | 评分锚定——1-5 分制 + 语义锚点，不用"感觉"衡量 |
 | `framework-multi-agent-research-architecture` | 多 Agent 调研架构——三种模式的对比与选择 |
 | `concept-mcp-protocol` | MCP 协议——Agent 调用外部工具的统一标准 |
+| `framework-ai2041-critical-reading-os` | AI 2041 批判性认知操作系统——概率→具体的人→选择点 |
+| `framework-ai-deconstruction-methodology` | 王欢三层拆书法——还原/审计/生长 |
+
+## 批判性阅读（AI 2041）
+
+| 卡 | 一句话 |
+|:--|:--|
+| `tool-ai-critical-reading-three-layers` | 三层拆书批判法——还原/审计/生长的操作清单 |
+| `tool-tech-probability-80-filter` | 李开复 80% 概率过滤器——把无限焦虑收敛为有限准备 |
+| `concept-ai-amara-law-business-judgment` | 阿马拉定律与商业判断校准——高估短期、低估长期 |
 
 ## AI 协作技能（Claude Code + Hermes 双可用）
 
@@ -105,5 +115,5 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 
 ---
 
-*黄药师 · 2026-06-23 · AI 协作域建制*
-*24 张卡 · 5 个 Skill · 3 个跨域桥接*
+*黄药师 · 2026-06-23 · AI 协作域建制（老顽童 P0 增补）*
+*29 张卡 · 5 个 Skill · 3 个跨域桥接 · P0 5/22 完成*
