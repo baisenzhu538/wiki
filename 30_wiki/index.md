@@ -90,6 +90,7 @@ related:
 - [[tools/tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — 王欢 AI 2041 拆书会 tool 卡（本任务新增）
 - [[concepts/concept-ai-neutrality-bias|中立的暴政]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
 - [[cases/case-compas-racial-bias|COMPAS 再犯算法种族偏见]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
+- [[cases/case-apple-card-gender-bias|Apple Card 信用额度性别争议]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - [[cases/case-cambridge-novelists-survey|剑桥小说家对 AI 创作态度调查]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
