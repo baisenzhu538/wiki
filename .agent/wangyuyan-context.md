@@ -268,6 +268,14 @@ status: "completed"
     - 诊断记录模板新增「案例候选」节
     - 铁律新增第 13 条：入口审计必须扫描 ≥200 字叙事段落
   - 试用约定：在下一个新域入口审计中试用，效果好的固化为标准步骤
+- 2026-06-25：完成王欢《AI 2041》P1 9 张卡 20% 抽样六层交叉验证
+  - 验收报告：`60_feedback/audit/ai2041-p1-production-audit-20260625.md`
+  - 抽样：3 张（`tool-ai2041-source-verification-checklist`、`case-compas-racial-bias`、`case-apple-card-gender-bias`）
+  - verdict：通过 ✅；发现 2 个轻微格式/schema 建议，0 张不合格
+  - 主要遗留：
+    - `tool-ai2041-source-verification-checklist` 的 `confidence` 字段为范围字符串，需改为单一数值
+    - 5 张 case 卡使用了自定义 frontmatter 字段 `source_person`/`source_context`，建议后续统一用正文表达
+  - 已下达 P2 任务：`60_feedback/tasks/task_20260625_laowantong-ai2041-p2.md`（8 张卡）
 - 2026-06-25：完成王欢《AI 2041》P0 5 张卡 20% 抽样六层交叉验证
   - 验收报告：`60_feedback/audit/ai2041-p0-production-audit-20260625.md`
   - 抽样：3 张（`framework-ai2041-critical-reading-os`、`tool-ai-critical-reading-three-layers`、`concept-ai-amara-law-business-judgment`）
