@@ -274,6 +274,11 @@ status: "completed"
   - 任务：`60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md`（P0 5 张 / P1 9 张 / P2 8 张）
   - 关键验证：Crawford / Mollick / Cambridge / 陈楸帆 / 李开复 80% 过滤器 / COMPAS / Apple Card / 荷兰育儿补贴 等核心引用已完成 WebSearch 交叉验证
   - 状态：老顽童待按 P0→P1→P2 分批生产；王语嫣待按 20% 抽样验收
+- 2026-06-25：黄药师跨域审计脚本修复完成并通过验收
+  - 验收报告：`60_feedback/audit/cross-domain-audit-script-acceptance-20260625.md`
+  - 修复结果：Rule 1 777→253，Rule 2 5→0，Rule 3 2→2
+  - 结论：脚本可恢复作为诊断工具；bridge 卡 5/5 全覆盖；Rule 3 剩余 2 项为 P2 级 digest 导航缺口
+  - 已更新：`wiki/.agent/context.md`
 - 2026-06-25：决定老顽童不等待，直接启动王欢《AI 2041》P0 生产
   - 决策：`60_feedback/decisions/dec_20260625_wangyuyan_laowantong-scheduling-ai2041.md`
   - 理由：AI 2041 是独立新域，不依赖跨域审计脚本；置信度微调仅需 5 分钟，可与 AI 2041 并行

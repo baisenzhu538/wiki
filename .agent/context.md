@@ -21,17 +21,18 @@ blockers:
   - "✅ 精益创业 P1 案例补完批次 5/5 全部完成：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
   - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison、case-lean-b2b-sector-selection 已取消；若用户后续提供素材可作为 P2/P3 追加"
   - "✅ 精益创业 P2 全部完成：framework-lean-expert-roadmap + case-lean-crayfish-combo-test/shampoo-selling-points/radish-channel-selection/adult-education；精益创业域建制完整 45 张卡"
-  - "🟡 黄药师跨域 related 审计脚本已交付但存在 frontmatter 解析 bug：自定义 YAML 解析器无法解析多行列表，导致 related/domain/source_refs 全部为空；报告中的 784 个异常几乎全部失真，详见 60_feedback/diagnosis/diag_20260625_wangyuyan_cross-domain-audit-script-bug.md"
-  - "✅ bridge 卡目标域覆盖已人工复核：5/5 全覆盖（strategy-lean-validation/five-step-lean-interface/lean-pivot-decision/ai-accelerated-strategy-cycle/demand-lean-bridge），脚本的 Rule 2=5 为假阳性"
+  - "✅ 黄药师跨域 related 审计脚本修复完成并通过王语嫣验收：Rule 1 777→253，Rule 2 5→0，Rule 3 2→2；报告见 60_feedback/audit/cross-domain-link-report.md 与 60_feedback/audit/cross-domain-audit-script-acceptance-20260625.md"
+  - "✅ bridge 卡目标域覆盖已确认：5/5 全覆盖"
   - "✅ 王语嫣 20% 抽样六层验收完成：跨域融合计划 + 精益创业近期产出 11 张新卡，verdict 有条件通过；报告见 60_feedback/audit/lean-cross-domain-production-audit-20260625.md"
   - "🟡 王语嫣验收报告轻微建议待处理：framework-ai-accelerated-strategy-cycle 中张磊 AMA 成本数字置信度建议从 0.85 降至 0.75-0.80"
+  - "🟡 跨域审计 Rule 3 剩余 2 项：five-step-domain-digest 和 yitang-research-domain-digest 需补充 2+ 个跨域 digest 链接（P2）"
   - "🆕 王欢《AI 2041》新素材待老顽童生产：P0 5 张 / P1 9 张 / P2 8 张，见 task_20260624_laowantong-ai2041-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童直接启动王欢《AI 2041》P0 生产，同时顺手修复 framework-ai-accelerated-strategy-cycle 成本数字置信度；黄药师独立修复跨域审计脚本 bug；AI 2041 P0 完成后王语嫣安排 20% 抽样验收。"
+next_session_hint: "老顽童直接启动王欢《AI 2041》P0 生产，同时顺手修复 framework-ai-accelerated-strategy-cycle 成本数字置信度；AI 2041 P0 完成后王语嫣安排 20% 抽样验收；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口可作为 P2 小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
