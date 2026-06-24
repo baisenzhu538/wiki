@@ -94,6 +94,8 @@ related:
 - [[cases/case-apple-card-gender-bias|Apple Card 信用额度性别争议]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - [[cases/case-cambridge-novelists-survey|剑桥小说家对 AI 创作态度调查]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - [[cases/case-deepfake-market-misuse|Deepfake 的商业机会与滥用风险]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
+- [[cases/case-roblox-ai-npc-education|Roblox AI NPC 与教育场景]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
+- [[cases/case-ai-job-displacement-wef|WEF 对 AI 就业影响的预测]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---

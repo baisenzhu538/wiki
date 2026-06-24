@@ -69,6 +69,10 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 | `case-dutch-childcare-scandal` | 荷兰育儿补贴算法丑闻——26,000 家庭与内阁辞职 |
 | `case-cambridge-novelists-survey` | 剑桥小说家对 AI 创作态度调查——97% 反对整本书的英国样本 |
 | `case-chen-qiufan-ai-writing` | 陈楸帆对 AI 写作的态度转向——2017 拥抱到 2025 审慎 |
+| `case-deepfake-market-misuse` | Deepfake 的商业机会与滥用风险——市场规模区间与检测监管张力 |
+| `case-ai-companion-emotional` | AI 情感陪伴的市场与伦理——Character.AI / Replika / 小冰数据与未成年人风险 |
+| `case-roblox-ai-npc-education` | Roblox AI NPC 与教育场景——游戏化教育中的人机协作边界 |
+| `case-ai-job-displacement-wef` | WEF 对 AI 就业影响的预测——8500 万替代 / 9700 万新增与分配盲区 |
 
 ## AI 协作技能（Claude Code + Hermes 双可用）
 
