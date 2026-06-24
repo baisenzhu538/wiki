@@ -12,8 +12,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢
-source_context: 王欢在《AI 2041》拆书会第四幕以 COMPAS 作为“AI 外部性”的现实对照；本卡补充 ProPublica 原文与 Northpointe 辩护要点，避免仅复制王欢说法。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -25,8 +23,7 @@ related:
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[concept-ai-amara-law-business-judgment]]"
 - "[[tool-tech-probability-80-filter]]"
-- "[[framework-wanghuan-ooda-loop]]"
----
+- "[[framework-wanghuan-ooda-loop]]"---
 
 # COMPAS 再犯算法种族偏见
 

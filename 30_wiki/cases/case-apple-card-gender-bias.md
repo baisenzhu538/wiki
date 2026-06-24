@@ -12,8 +12,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢
-source_context: 王欢在《AI 2041》拆书会第四幕以 Apple Card 作为“AI 外部性”的现实对照，用来说明算法如何在“无歧视意图”的情况下产生“歧视性效果”。本卡补充 NYDFS 2021 报告结论、DHH 推文与 Wozniak 回应，避免仅复制王欢说法。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -28,8 +26,7 @@ related:
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
----
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
 
 # Apple Card 信用额度性别争议
 

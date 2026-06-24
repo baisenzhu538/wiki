@@ -5,7 +5,7 @@ type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
@@ -23,8 +23,7 @@ related:
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[tool-tech-probability-80-filter]]"
 - "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
----
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
 
 # AI 预测来源验证检查单
 

@@ -5,15 +5,13 @@ type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢
-source_context: 王欢在《AI 2041》拆书会第六幕以《面具之后的神灵》引出 deepfake 的“骗子红利”与认识论危机；本卡补充至少三家机构的市场预测口径、WEF 风险排名与代表性现实事件，避免仅复制书中故事。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -28,8 +26,7 @@ related:
 - "[[case-compas-racial-bias]]"
 - "[[case-apple-card-gender-bias]]"
 - "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
----
+- "[[framework-wanghuan-harness-seven-stages]]"---
 
 # Deepfake 的商业机会与滥用风险
 

@@ -12,8 +12,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢（AI 协作域作者、拆书家）
-source_context: 王欢在《AI 2041》拆书会第五幕用陈楸帆从 2017 年拥抱 AI 到 2025 年转向审慎的案例，说明「技术预测有保质期」：写《AI 2041》时（2019-2021）陈楸帆尚持人机共生乐观，DeepSeek 后出现态度逆转。本卡在王欢逐字稿基础上补充中国作家网原文、《新周刊》采访、澳门科技大学讲座等独立来源。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -29,8 +27,7 @@ related:
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
----
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
 
 # 陈楸帆对 AI 写作的态度转向
 

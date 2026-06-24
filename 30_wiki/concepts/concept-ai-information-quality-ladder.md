@@ -5,7 +5,7 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
@@ -24,8 +24,7 @@ related:
 - "[[tool-ai2041-source-verification-checklist]]"
 - "[[concept-ai-chair-determines-view]]"
 - "[[concept-ai-neutrality-bias]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
----
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
 
 # 信息质量阶梯
 

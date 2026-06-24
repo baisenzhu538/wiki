@@ -6,15 +6,13 @@ dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢
-source_context: 王欢《AI 2041》拆书会逐字稿（第 208 期）第七幕，从"技术预言准了、社会承诺空了"的盲区中生长出来
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -28,8 +26,7 @@ related:
 - "[[tool-ai2041-source-verification-checklist]]"
 - "[[dk-ai-scarcest-resource-is-self]]"
 - "[[dk-ai-prediction-expiry-date]]"
-- "[[case-ai-job-displacement-wef]]"
----
+- "[[case-ai-job-displacement-wef]]"---
 
 # 社会进步不是自动的
 

@@ -16,8 +16,6 @@ source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
-source_person: 王欢 / Parlementaire ondervragingscommissie Kinderopvangtoeslag (POK) / Nationale ombudsman / Autoriteit Persoonsgegevens (AP) / CBS
-source_context: 王欢《AI 2041》拆书会第208期逐字稿第四幕 §319-321；荷兰官方调查报告《Ongekend onrecht》、国家监察员报告、数据保护局报告及后续 CBS/司法部统计
 related:
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
@@ -28,8 +26,7 @@ related:
 - "[[framework-ai-deconstruction-methodology]]"
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-tech-probability-80-filter]]"
----
+- "[[tool-tech-probability-80-filter]]"---
 
 # 荷兰育儿补贴算法丑闻
 

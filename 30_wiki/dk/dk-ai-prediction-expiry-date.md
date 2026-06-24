@@ -13,8 +13,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢
-source_context: 《AI 2041：预见未来二十年》拆书会逐字稿（开场、第二幕、终章、附录三）；王语嫣诊断与决策文件
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -30,8 +28,7 @@ related:
 - "[[case-ai-job-displacement-wef]]"
 - "[[case-deepfake-market-misuse]]"
 - "[[case-ai-companion-emotional]]"
-- "[[case-roblox-ai-npc-education]]"
----
+- "[[case-roblox-ai-npc-education]]"---
 
 # AI 预言的保质期
 

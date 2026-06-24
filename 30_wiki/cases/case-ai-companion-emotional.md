@@ -5,15 +5,13 @@ type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢（AI 协作域作者、拆书家）
-source_context: 王欢在《AI 2041》拆书会第六幕以《双子麻雀》为例，引出“前意识塑造”与“算法比父母更懂孩子”的伦理张力。本卡补充 Appfigures、Character.AI、Replika、小冰等外部市场数据与监管动态，避免仅复制王欢说法。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -28,8 +26,7 @@ related:
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
----
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
 
 # AI 情感陪伴的市场与伦理
 

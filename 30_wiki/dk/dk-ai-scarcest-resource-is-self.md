@@ -13,8 +13,6 @@ domain:
 - critical_thinking
 - business_judgment
 dark_knowledge_type: heuristic
-source_person: 王欢
-source_context: 王欢《AI 2041》拆书会逐字稿（第 208 期）第七幕、第八幕，从"幸福岛""双子麻雀"等故事及对三本书的对撞中生长出来
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -26,8 +24,7 @@ related:
 - "[[concept-ai-chair-determines-view]]"
 - "[[concept-ai-neutrality-bias]]"
 - "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"
----
+- "[[tool-ai2041-source-verification-checklist]]"---
 
 # 最稀缺的是自我
 

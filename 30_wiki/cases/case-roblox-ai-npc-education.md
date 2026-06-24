@@ -5,15 +5,13 @@ type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.75-0.85
+confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-source_person: 王欢（AI 协作域作者、拆书家）
-source_context: 王欢在《AI 2041》拆书会第三幕以「金麻雀/银麻雀」的 AI 教育伙伴故事为引，讨论 AI 个性化教育、情感陪伴与人格塑造之间的张力；本卡补充 Roblox 官方 Text Generation API、Studio Assistant 及教育 AI 市场数据，将游戏/教育场景中的 AI NPC 作为独立案例进行审计。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -30,8 +28,7 @@ related:
 - "[[case-chen-qiufan-ai-writing]]"
 - "[[case-cambridge-novelists-survey]]"
 - "[[case-ai-companion-emotional]]"
-- "[[dk-ai-scarcest-resource-is-self]]"
----
+- "[[dk-ai-scarcest-resource-is-self]]"---
 
 # Roblox AI NPC 与教育场景
 
