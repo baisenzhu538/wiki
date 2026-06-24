@@ -251,6 +251,16 @@ status: "completed"
 
 ## 当前状态
 
+- 2026-06-25：完成 strategy / research / yitang 三域跨案例合成诊断
+  - 报告：`60_feedback/audit/synthesis_strategy.md`、`synthesis_research.md`、`synthesis_yitang.md`
+  - 产出 9 个跨案例洞察（每域 3 个）
+  - 任务指令：`60_feedback/tasks/task_20260625_laowantong-synthesis-dk-cards.md`（9 张 dk 卡待老顽童生产）
+  - 优先级：P2，排在 AI 2041 P0 之后
+- 2026-06-25：确认王欢《AI 2041》P0 5 张卡已由老顽童完成生产
+  - 卡片：`framework-ai2041-critical-reading-os`、`framework-ai-deconstruction-methodology`、`tool-ai-critical-reading-three-layers`、`concept-ai-amara-law-business-judgment`、`tool-tech-probability-80-filter`
+  - 待执行：王语嫣 20% 抽样验收
+- 2026-06-25：确认 `framework-ai-accelerated-strategy-cycle` 成本数字置信度已微调
+  - 张磊 AMA 教学推演成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60；卡片整体 confidence 从 0.85 调整为 0.75
 - 2026-06-23：采纳黄药师案例缺口诊断，追加 P1 案例补完批次
   - 决策文件：`60_feedback/decisions/dec_20260623_wangyuyan-lean-startup-case-supplement.md`
   - 任务指令：`60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
