@@ -27,7 +27,8 @@ related:
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+---
 
 # WEF 对 AI 就业影响的预测
 

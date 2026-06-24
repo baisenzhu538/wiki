@@ -26,7 +26,8 @@ related:
 - "[[case-compas-racial-bias]]"
 - "[[case-apple-card-gender-bias]]"
 - "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-harness-seven-stages]]"---
+- "[[framework-wanghuan-harness-seven-stages]]"
+---
 
 # Deepfake 的商业机会与滥用风险
 

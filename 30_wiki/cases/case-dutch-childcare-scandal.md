@@ -26,7 +26,8 @@ related:
 - "[[framework-ai-deconstruction-methodology]]"
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-tech-probability-80-filter]]"---
+- "[[tool-tech-probability-80-filter]]"
+---
 
 # 荷兰育儿补贴算法丑闻
 

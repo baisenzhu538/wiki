@@ -26,7 +26,8 @@ related:
 - "[[tool-ai2041-source-verification-checklist]]"
 - "[[dk-ai-scarcest-resource-is-self]]"
 - "[[dk-ai-prediction-expiry-date]]"
-- "[[case-ai-job-displacement-wef]]"---
+- "[[case-ai-job-displacement-wef]]"
+---
 
 # 社会进步不是自动的
 

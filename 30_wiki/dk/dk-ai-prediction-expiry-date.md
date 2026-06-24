@@ -28,7 +28,8 @@ related:
 - "[[case-ai-job-displacement-wef]]"
 - "[[case-deepfake-market-misuse]]"
 - "[[case-ai-companion-emotional]]"
-- "[[case-roblox-ai-npc-education]]"---
+- "[[case-roblox-ai-npc-education]]"
+---
 
 # AI 预言的保质期
 

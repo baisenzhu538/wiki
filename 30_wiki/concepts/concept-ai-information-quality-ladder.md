@@ -24,7 +24,8 @@ related:
 - "[[tool-ai2041-source-verification-checklist]]"
 - "[[concept-ai-chair-determines-view]]"
 - "[[concept-ai-neutrality-bias]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+---
 
 # 信息质量阶梯
 

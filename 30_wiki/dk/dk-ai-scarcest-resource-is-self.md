@@ -24,7 +24,8 @@ related:
 - "[[concept-ai-chair-determines-view]]"
 - "[[concept-ai-neutrality-bias]]"
 - "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"---
+- "[[tool-ai2041-source-verification-checklist]]"
+---
 
 # 最稀缺的是自我
 

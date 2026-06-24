@@ -28,7 +28,8 @@ related:
 - "[[case-chen-qiufan-ai-writing]]"
 - "[[case-cambridge-novelists-survey]]"
 - "[[case-ai-companion-emotional]]"
-- "[[dk-ai-scarcest-resource-is-self]]"---
+- "[[dk-ai-scarcest-resource-is-self]]"
+---
 
 # Roblox AI NPC 与教育场景
 

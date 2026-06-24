@@ -23,7 +23,8 @@ related:
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[concept-ai-amara-law-business-judgment]]"
 - "[[tool-tech-probability-80-filter]]"
-- "[[framework-wanghuan-ooda-loop]]"---
+- "[[framework-wanghuan-ooda-loop]]"
+---
 
 # COMPAS 再犯算法种族偏见
 

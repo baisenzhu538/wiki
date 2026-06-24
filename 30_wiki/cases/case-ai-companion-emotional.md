@@ -26,7 +26,8 @@ related:
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+---
 
 # AI 情感陪伴的市场与伦理
 

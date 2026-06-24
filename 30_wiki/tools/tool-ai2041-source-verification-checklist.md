@@ -23,7 +23,8 @@ related:
 - "[[tool-ai-critical-reading-three-layers]]"
 - "[[tool-tech-probability-80-filter]]"
 - "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"---
+- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+---
 
 # AI 预测来源验证检查单
 
