@@ -1,109 +1,41 @@
 # 跨域链接审计报告
 
-**执行时间**：2026-06-24 20:57
+**执行时间**：2026-06-24 21:04
 **总检查卡数**：1959
-**异常卡数**：784
+**异常卡数**：522
 
-## 1. framework/tool 卡未跨域（777 张）
+## 1. framework/tool 卡未跨域（518 张）
 
 | 卡 ID | 类型 | 自身域 | 当前跨域 |
 |:--|:--|:--|:--|
-| `ai-complex-communication` | framework | ai-saas- ai | 无 |
-| `ai-native-五层进阶从答案到效率到作品到产品到系统` | framework | ai-saas- ai-saas | 无 |
 | `ai-short-drama-plot-three-axes` | tool | ai-saas- yitang | ai-saas- yitang |
-| `beverage-foodservice-channel` | framework | yitang- business-strategy | 无 |
-| `business-formula-to-kdo-card-quality` | framework | yitang- kdo | 无 |
-| `concept-maister-trusted-advisor` | framework | management- consulting | 无 |
-| `concept-mckinsey-7s` | framework | management- consulting | 无 |
-| `concept-mckinsey-hypothesis-driven` | framework | management- consulting | 无 |
-| `concept-minto-pyramid-principle` | framework | management- consulting | 无 |
-| `concept-toyota-5-whys` | tool | management- lean-manufacturing | 无 |
-| `framework-ai-accelerated-strategy-cycle` | framework | ai-collaboration | 无 |
-| `framework-candy-transcript-workflow` | framework | yitang | 无 |
-| `framework-ci-operating-model` | framework | yitang | 无 |
-| `framework-course-milestone-model` | framework | yitang- yitang | 无 |
-| `framework-demand-iceberg` | framework | yitang | 无 |
-| `framework-demand-lean-bridge` | framework | demand-analysis | 无 |
-| `framework-demand-opportunity-spectrum` | framework | yitang | 无 |
-| `framework-demand-usp-model` | framework | yitang | 无 |
-| `framework-doris-industry-report-4step` | framework | research- yitang | 无 |
-| `framework-five-step-lean-interface` | framework | five-step | 无 |
-| `framework-lean-abcd-model` | framework | strategy | 无 |
-| `framework-lean-expert-roadmap` | framework | lean-startup | 无 |
-| `framework-lean-false-model` | framework | lean-startup | 无 |
-| `framework-lean-four-principles` | framework | lean-startup | 无 |
-| `framework-lean-pivot-decision` | framework | lean-startup | 无 |
-| `framework-lean-product-kernel` | framework | strategy | 无 |
-| `framework-lean-systematic-test-curve` | framework | lean-startup | 无 |
-| `framework-lean-tenx-formula` | framework | lean-startup | 无 |
-| `framework-logic-cleanliness-five-levels` | framework | yitang- yitang | 无 |
-| `framework-multi-agent-research-architecture` | framework | yitang | 无 |
+| `framework-candy-transcript-workflow` | framework | yitang | yitang |
+| `framework-ci-operating-model` | framework | yitang | yitang |
+| `framework-demand-opportunity-spectrum` | framework | yitang | yitang |
 | `framework-ouyangfeng-review-methodology` | framework | kdo | yitang |
-| `framework-strategy-ansoff` | framework | strategy | 无 |
+| `framework-strategy-ansoff` | framework | strategy | strategy |
 | `framework-strategy-basics-01-core` | framework | strategy | 无 |
 | `framework-strategy-basics-02-insight` | framework | strategy | 无 |
-| `framework-strategy-basics-03-layout` | framework | strategy | 无 |
+| `framework-strategy-basics-03-layout` | framework | strategy | strategy |
 | `framework-strategy-basics-04-system` | framework | strategy | 无 |
-| `framework-strategy-blm` | framework | strategy | 无 |
-| `framework-strategy-brm` | framework | strategy | 无 |
-| `framework-strategy-business-design` | framework | strategy | 无 |
-| `framework-strategy-five-basics` | framework | strategy | 无 |
-| `framework-strategy-five-forces` | framework | strategy | 无 |
+| `framework-strategy-blm` | framework | strategy | strategy |
+| `framework-strategy-five-basics` | framework | strategy | strategy |
+| `framework-strategy-five-forces` | framework | strategy | strategy |
 | `framework-strategy-kai-innovation-directions` | framework | strategy | strategy |
-| `framework-strategy-lean-validation` | framework | strategy | 无 |
-| `framework-strategy-mckinsey-7s` | framework | strategy | 无 |
-| `framework-strategy-pyramid` | framework | strategy | 无 |
-| `framework-strategy-six-stages` | framework | strategy | 无 |
-| `framework-strategy-three-horizons` | framework | strategy | 无 |
-| `framework-structured-analytic-techniques` | framework | yitang | 无 |
-| `framework-wanghuan-actor-director-mode` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-ai-five-level-ladder` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-bitcoe-prompt-framework` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-five-criteria-first-product` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-gan-three-roles` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-harness-seven-stages` | framework | unknown | 无 |
-| `framework-wanghuan-ooda-loop` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-say-think-do-toolchain` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-task-product-system` | framework | ai-collaboration | 无 |
-| `framework-wanghuan-three-tier-dev-architecture` | framework | ai-collaboration | 无 |
-| `framework-yitang-18-strategy-cards` | framework | yitang | 无 |
-| `framework-yitang-expert-interview-10steps` | framework | yitang | 无 |
-| `framework-yitang-four-research-types` | framework | yitang | 无 |
-| `framework-yitang-high-level-execution` | framework | yitang | 无 |
-| `framework-yitang-high-level-plan` | framework | yitang | 无 |
-| `framework-yitang-iterative-recursive-digging` | framework | yitang | 无 |
-| `framework-yitang-nine-layer-deep-dig` | framework | yitang | 无 |
-| `framework-yitang-oscar-research` | framework | yitang | 无 |
+| `framework-strategy-mckinsey-7s` | framework | strategy | strategy |
+| `framework-strategy-pyramid` | framework | strategy | strategy |
+| `framework-strategy-three-horizons` | framework | strategy | strategy |
+| `framework-structured-analytic-techniques` | framework | yitang | yitang |
+| `framework-yitang-iterative-recursive-digging` | framework | yitang | yitang |
+| `framework-yitang-nine-layer-deep-dig` | framework | yitang | yitang |
 | `framework-yitang-research-quality-gate` | framework | yitang | yitang |
-| `framework-yitang-research-radar` | framework | yitang | 无 |
-| `framework-yitang-research-weapon-supplement-2026` | framework | yitang | 无 |
-| `framework-yitang-research-weapon-system` | framework | yitang | 无 |
-| `framework-yitang-six-layer-cross-validation` | framework | yitang | 无 |
+| `framework-yitang-research-weapon-supplement-2026` | framework | yitang | yitang |
+| `framework-yitang-six-layer-cross-validation` | framework | yitang | yitang |
 | `master-ai-info-literacy` | framework | mastersource_person: Truman | mastersource_person: Truman |
 | `master-cognitive-bias-checklist` | tool | mastersource_person: Truman | mastersource_person: Truman |
 | `master-decision-hygiene` | framework | mastersource_person: Truman | mastersource_person: Truman |
 | `master-first-principles` | tool | mastersource_person: Truman | mastersource_person: Truman |
-| `mineru-pdf-parsing-setup` | tool | kdo | yitang |
-| `model-quality-four-levels` | framework | modeling- yitang | 无 |
-| `modeling-level-map` | tool | modelingsource_person: 楚门/Truman | modelingsource_person: 楚门/Truman |
-| `modeling-personal-practice-loop` | framework | modeling- yitang | 无 |
-| `modeling-scientific-milestones` | framework | modeling- yitang | 无 |
-| `modeling-to-kdo-toolchain` | framework | modeling- kdo | 无 |
-| `modeling-weapon-library` | tool | modelingsource_person: 楚门/Truman | modelingsource_person: 楚门/Truman |
-| `process-modeling` | tool | yitang | modelingsource_person: 楚门/Truman |
-| `sales-pitch-bias-patterns` | framework | yitang- business-strategy | 无 |
-| `shanxi-field-research-checklist-20260701` | tool | research- healthcare | 无 |
-| `sk-ai-ai-workspace-setup` | tool | ai-collaboration | 无 |
-| `sk-ai-evidence-check` | tool | ai-collaboration | 无 |
-| `sk-ai-landing-five-steps` | tool | ai-collaboration | 无 |
-| `sk-ai-narrative-test` | tool | ai-collaboration | 无 |
-| `sk-ai-old-small-checklist` | tool | ai-collaboration | 无 |
-| `sk-ai-parallel-validation` | tool | ai-collaboration | 无 |
-| `sk-ai-prd-for-ai` | tool | ai-collaboration | 无 |
-| `sk-ai-problem-validation` | tool | ai-collaboration | 无 |
-| `sk-ai-question-problem-checklist` | tool | ai-collaboration | 无 |
-| `sk-ai-system-redundancy` | tool | ai-collaboration | 无 |
-| `sk-ai-voice-input-doubao` | tool | ai-collaboration | 无 |
+| `sk-ai-evidence-check` | tool | ai-collaboration | ai-collaboration |
 | `skill-Truman-AI场景探索STAR模型` | tool | ai-collaboration | ai-collaboration |
 | `skill-Truman-AI时代IPO模型重构` | tool | ai-collaboration | ai-collaboration |
 | `skill-Truman-AI能力分层学习路径` | tool | ai-collaboration | ai-collaboration |
@@ -130,38 +62,31 @@
 | `skill-Truman-语义对齐沟通法` | tool | ai-collaboration | ai-collaboration |
 | `skill-Truman-问题定义澄清法` | tool | ai-collaboration | ai-collaboration |
 | `skill-ai-evidence-check` | tool | ai-collaboration | ai-collaboration |
-| `skill-ai-info-literacy-three-layer` | tool | ai-collaboration | ai-collaboration |
 | `skill-ai-landing-five-steps` | tool | ai-collaboration | 无 |
 | `skill-ai-old-small-checklist` | tool | ai-collaboration | ai-collaboration |
-| `skill-ai-oral-spray-input` | tool | ai-collaboration | ai-collaboration |
 | `skill-ai-prd-for-ai` | tool | ai-collaboration | ai-collaboration |
 | `skill-ai-research-five-steps` | tool | ai-collaboration | 无 |
 | `skill-ai-scene-four-elements` | tool | ai-collaboration | 无 |
 | `skill-ai-system-redundancy` | tool | ai-collaboration | ai-collaboration |
 | `skill-ai-voice-input-doubao` | tool | ai-collaboration | ai-collaboration |
-| `skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong` | tool | ai-collaboration | 无 |
+| `skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong` | tool | ai-collaboration | ai-collaboration |
 | `skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao` | tool | ai-collaboration | ai-collaboration |
-| `skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill` | tool | ai-collaboration | 无 |
+| `skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill` | tool | ai-collaboration | ai-collaboration |
 | `skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai` | tool | ai-collaboration | ai-collaboration |
-| `skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju` | tool | ai-collaboration | 无 |
-| `skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan` | tool | ai-collaboration | 无 |
+| `skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju` | tool | ai-collaboration | ai-collaboration |
+| `skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan` | tool | ai-collaboration | ai-collaboration |
 | `skill-cognitive-bias-12-check` | tool | decision- 决策 | 无 |
 | `skill-decision-delay-intuition` | tool | decision- 决策 | 无 |
 | `skill-first-principles-assumption-classify` | tool | learning-methodology- 创新 | 无 |
-| `skill-mckinsey-hypothesis-driven-workflow` | tool | learning-methodology- consulting | 无 |
-| `skill-note-keyword-bolding` | tool | learning-methodology- yitang | 无 |
-| `skill-note-layer-constraint` | tool | learning-methodology- yitang | 无 |
-| `skill-note-one-line-one-point` | tool | learning-methodology- yitang | 无 |
-| `skill-使用一页纸速查卡快速调用框架` | tool | learning-methodology- knowledge-management | 无 |
+| `skill-note-one-line-one-point` | tool | learning-methodology- yitang | learning-methodology- yitang |
 | `skill-半肥猫-ai-research-validation` | tool | ai-collaboration | ai-collaboration |
-| `skill-半肥猫-course-to-skill-workflow` | tool | ai-collaboration | ai-collaboration |
 | `skill-半肥猫-边学边练边沉淀的AI学习法` | tool | ai-collaboration | ai-collaboration |
 | `skill-月白-80分效率设计策略` | tool | design- design | design- design |
 | `skill-月白-A-B双轨反推模式选择` | tool | design- design | design- design |
@@ -375,7 +300,7 @@
 | `skill-水水-避免原生家庭万能归因` | tool | personal-growth | personal-growth |
 | `skill-水水-降低故事逻辑要求` | tool | personal-growth | personal-growth |
 | `skill-纪浩-AI使用边界管理法` | tool | ai-collaboration | ai-collaboration |
-| `skill-纪浩-AI对话上下文隔离` | tool | ai-collaboration | 无 |
+| `skill-纪浩-AI对话上下文隔离` | tool | ai-collaboration | ai-saas |
 | `skill-纪浩-AI工作空间与导诊台设计法` | tool | ai-collaboration | ai-collaboration |
 | `skill-纪浩-AI工具脚本化约束` | tool | ai-collaboration | ai-collaboration |
 | `skill-纪浩-Agent开工检查单制作法` | tool | ai-collaboration | ai-collaboration |
@@ -402,7 +327,6 @@
 | `skill-马易-AI落地能力内化训练` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-AI落地认知速成-最佳实践学习法` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-AI项目上线-先平行再独行` | tool | ai-collaboration | ai-collaboration |
-| `skill-马易-业务为先的AI中台建设` | tool | ai-collaboration | 无 |
 | `skill-马易-业务问题AI化拆解-餐饮设计案例法` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-关键假设识别与验证` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-判断标准快速产出法` | tool | ai-collaboration | ai-collaboration |
@@ -412,389 +336,203 @@
 | `skill-马易-销售智能体体系搭建路径` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-需求创造验证法` | tool | ai-collaboration | ai-collaboration |
 | `skill-马易-风口痛点识别法` | tool | ai-collaboration | ai-collaboration |
-| `smart-device-foodservice-automation` | framework | yitang- business-strategy | 无 |
-| `smart-medicine-cabinet-financial-model` | tool | healthcare- healthcare | 无 |
-| `smart-medicine-cabinet-fraud-detection` | tool | healthcare- healthcare | 无 |
-| `tool-agent-native-overview` | tool | yitang | 无 |
-| `tool-agent-research-pipeline` | tool | yitang | 无 |
-| `tool-agent-research-supervisor` | tool | yitang | 无 |
-| `tool-agent-research-swarm` | tool | yitang | 无 |
-| `tool-ai-skill-engineering-guide` | tool | unknown | 无 |
-| `tool-ai-skill-engineering-method` | tool | unknown | 无 |
-| `tool-alt-data-free` | tool | yitang | 无 |
-| `tool-alt-data-overview` | tool | yitang | 无 |
-| `tool-binary-quadrant-modeling` | tool | unknown | 无 |
-| `tool-candy-oral-polish` | tool | yitang | 无 |
-| `tool-candy-positioning-canvas` | tool | yitang | 无 |
-| `tool-canvas-weapon-library-modeling` | tool | unknown | 无 |
-| `tool-checklist-cheatsheet-modeling` | tool | unknown | 无 |
-| `tool-ci-define-phase` | tool | yitang | 无 |
-| `tool-ci-implement-phase` | tool | yitang | 无 |
-| `tool-clinic-cabinet-legal-contract-guide` | tool | unknown | healthcare- healthcare |
-| `tool-clinic-medical-shortvideo-compliance` | tool | unknown | yitang |
-| `tool-demand-agent-auto-verify` | tool | yitang | 无 |
-| `tool-demand-agent-case-match` | tool | yitang | 无 |
-| `tool-demand-agent-multi-hypothesis` | tool | yitang | 无 |
-| `tool-demand-agent-signal-substitute` | tool | yitang | 无 |
-| `tool-demand-agent-signals` | tool | yitang | 无 |
-| `tool-demand-assessment-triangle` | tool | yitang | 无 |
-| `tool-demand-blindspot-checklist` | tool | yitang | 无 |
-| `tool-demand-four-forces` | tool | yitang | 无 |
-| `tool-demand-iceberg-l6-hypothesis` | tool | yitang | 无 |
-| `tool-devils-advocacy` | tool | yitang | 无 |
-| `tool-dns-intelligence` | tool | yitang | 无 |
-| `tool-doris-industry-report-search-tips` | tool | unknown | 无 |
-| `tool-doris-industry-report-source-evaluation` | tool | unknown | 无 |
-| `tool-essence-nfactor-modeling` | tool | unknown | 无 |
-| `tool-funnel-formula-modeling` | tool | unknown | 无 |
-| `tool-google-dorking` | tool | yitang | 无 |
-| `tool-harness-adversarial-tester` | tool | yitang | 无 |
-| `tool-iceberg-triangle-modeling` | tool | unknown | 无 |
-| `tool-indicators-signposts` | tool | yitang | 无 |
-| `tool-iterative-recursive-deep-dig` | tool | unknown | 无 |
-| `tool-key-assumptions-check` | tool | yitang | 无 |
-| `tool-lean-ai-accelerated-validation` | tool | lean-startup | 无 |
-| `tool-lean-cut-features` | tool | lean-startup | 无 |
-| `tool-lean-fake-marketing` | tool | lean-startup | 无 |
-| `tool-lean-fake-product` | tool | lean-startup | 无 |
-| `tool-lean-human-replace-rnd` | tool | lean-startup | 无 |
-| `tool-lean-human-replace-system` | tool | lean-startup | 无 |
-| `tool-lean-leverage-competitor` | tool | lean-startup | 无 |
-| `tool-lean-leverage-resources` | tool | lean-startup | 无 |
-| `tool-lean-leverage-tools` | tool | lean-startup | 无 |
-| `tool-lean-leverage-traffic` | tool | lean-startup | 无 |
-| `tool-lean-minimum-test-volume` | tool | lean-startup | 无 |
-| `tool-lean-minimum-version` | tool | lean-startup | 无 |
-| `tool-lean-premium-service` | tool | strategy | 无 |
-| `tool-lean-presell` | tool | lean-startup | 无 |
-| `tool-lean-product-kernel-metrics` | tool | lean-startup | 无 |
-| `tool-lean-stealth-service` | tool | strategy | 无 |
-| `tool-media-verification-overview` | tool | yitang | 无 |
-| `tool-metadata-extraction` | tool | yitang | 无 |
-| `tool-osint-maltego` | tool | yitang | 无 |
-| `tool-osint-overview` | tool | yitang | 无 |
-| `tool-osint-sherlock` | tool | yitang | 无 |
-| `tool-osint-shodan` | tool | yitang | 无 |
-| `tool-osint-spiderfoot` | tool | yitang | 无 |
-| `tool-osint-wayback` | tool | yitang | 无 |
-| `tool-radar-chart-modeling` | tool | unknown | 无 |
-| `tool-red-team-analysis` | tool | yitang | 无 |
-| `tool-reverse-image-search` | tool | yitang | 无 |
-| `tool-sabc-tier-modeling` | tool | unknown | 无 |
-| `tool-scenario-selector-modeling` | tool | unknown | 无 |
-| `tool-smart-medicine-cabinet-compliance-checklist` | tool | unknown | healthcare- healthcare |
-| `tool-smart-medicine-cabinet-site-selection-guide` | tool | unknown | healthcare- healthcare |
-| `tool-sop-template-modeling` | tool | unknown | 无 |
-| `tool-strategy-activity-scope` | tool | strategy | 无 |
-| `tool-strategy-blue-ocean-canvas` | tool | strategy | 无 |
+| `tool-agent-native-overview` | tool | yitang | yitang |
+| `tool-agent-research-pipeline` | tool | yitang | yitang |
+| `tool-agent-research-supervisor` | tool | yitang | yitang |
+| `tool-agent-research-swarm` | tool | yitang | yitang |
+| `tool-ai-skill-engineering-method` | tool | yitang | yitang |
+| `tool-alt-data-free` | tool | yitang | yitang |
+| `tool-alt-data-overview` | tool | yitang | yitang |
+| `tool-candy-oral-polish` | tool | yitang | yitang |
+| `tool-candy-positioning-canvas` | tool | yitang | yitang |
+| `tool-ci-define-phase` | tool | yitang | yitang |
+| `tool-ci-implement-phase` | tool | yitang | yitang |
+| `tool-demand-agent-auto-verify` | tool | yitang | yitang |
+| `tool-demand-agent-case-match` | tool | yitang | demand-analysis |
+| `tool-demand-agent-signal-substitute` | tool | yitang | demand-analysis |
+| `tool-demand-assessment-triangle` | tool | yitang | yitang |
+| `tool-demand-blindspot-checklist` | tool | yitang | demand-analysis |
+| `tool-devils-advocacy` | tool | yitang | yitang |
+| `tool-dns-intelligence` | tool | yitang | yitang |
+| `tool-google-dorking` | tool | yitang | yitang |
+| `tool-indicators-signposts` | tool | yitang | yitang |
+| `tool-key-assumptions-check` | tool | yitang | yitang |
+| `tool-media-verification-overview` | tool | yitang | yitang |
+| `tool-metadata-extraction` | tool | yitang | yitang |
+| `tool-osint-maltego` | tool | yitang | yitang |
+| `tool-osint-overview` | tool | yitang | yitang |
+| `tool-osint-sherlock` | tool | yitang | yitang |
+| `tool-osint-shodan` | tool | yitang | yitang |
+| `tool-osint-spiderfoot` | tool | yitang | yitang |
+| `tool-osint-wayback` | tool | yitang | yitang |
+| `tool-red-team-analysis` | tool | yitang | yitang |
+| `tool-reverse-image-search` | tool | yitang | yitang |
+| `tool-strategy-activity-scope` | tool | strategy | strategy |
+| `tool-strategy-blue-ocean-canvas` | tool | strategy | strategy |
 | `tool-strategy-business-design-template` | tool | strategy | strategy |
-| `tool-strategy-business-summary` | tool | strategy | 无 |
-| `tool-strategy-capability-matrix` | tool | strategy | 无 |
+| `tool-strategy-business-summary` | tool | strategy | strategy |
+| `tool-strategy-capability-matrix` | tool | strategy | strategy |
 | `tool-strategy-category-role-matrix` | tool | strategy | strategy |
-| `tool-strategy-competition-traps` | tool | strategy | 无 |
-| `tool-strategy-control-points` | tool | strategy | 无 |
-| `tool-strategy-core-competence-matrix` | tool | strategy | 无 |
-| `tool-strategy-customer-selection` | tool | strategy | 无 |
-| `tool-strategy-fishbone` | tool | strategy | 无 |
-| `tool-strategy-five-see-three-set` | tool | strategy | 无 |
-| `tool-strategy-four-layers` | tool | strategy | 无 |
-| `tool-strategy-four-moves` | tool | strategy | 无 |
+| `tool-strategy-competition-traps` | tool | strategy | strategy |
+| `tool-strategy-control-points` | tool | strategy | strategy |
+| `tool-strategy-core-competence-matrix` | tool | strategy | strategy |
+| `tool-strategy-customer-selection` | tool | strategy | strategy |
+| `tool-strategy-fishbone` | tool | strategy | strategy |
+| `tool-strategy-five-see-three-set` | tool | strategy | strategy |
+| `tool-strategy-four-layers` | tool | strategy | strategy |
+| `tool-strategy-four-moves` | tool | strategy | strategy |
 | `tool-strategy-industry-chain-analysis` | tool | strategy | strategy |
-| `tool-strategy-ksf` | tool | strategy | 无 |
+| `tool-strategy-ksf` | tool | strategy | strategy |
 | `tool-strategy-lifecycle` | tool | strategy | strategy |
-| `tool-strategy-logistics-cost-planning` | tool | strategy | 无 |
+| `tool-strategy-logistics-cost-planning` | tool | strategy | strategy |
 | `tool-strategy-map` | tool | strategy | strategy |
-| `tool-strategy-market-opportunity-matrix` | tool | strategy | 无 |
-| `tool-strategy-nine-problems` | tool | strategy | 无 |
-| `tool-strategy-pareto` | tool | strategy | 无 |
+| `tool-strategy-market-opportunity-matrix` | tool | strategy | strategy |
+| `tool-strategy-nine-problems` | tool | strategy | strategy |
+| `tool-strategy-pareto` | tool | strategy | strategy |
 | `tool-strategy-platform-business-map` | tool | strategy | strategy |
 | `tool-strategy-profit-model-comparison` | tool | strategy | strategy |
-| `tool-strategy-risk-management` | tool | strategy | 无 |
-| `tool-strategy-sentence-formula` | tool | strategy | 无 |
-| `tool-strategy-swot` | tool | strategy | 无 |
-| `tool-strategy-three-horizons` | tool | strategy | 无 |
-| `tool-strategy-value-capture` | tool | strategy | 无 |
-| `tool-strategy-value-proposition` | tool | strategy | 无 |
-| `tool-wanghuan-ai-business-profile` | tool | ai-collaboration | 无 |
-| `tool-wanghuan-ai-dual-role-coach` | tool | human-ai-collaboration;ai-collaboration;yitang | 无 |
+| `tool-strategy-risk-management` | tool | strategy | strategy |
+| `tool-strategy-sentence-formula` | tool | strategy | strategy |
+| `tool-strategy-swot` | tool | strategy | strategy |
+| `tool-strategy-value-capture` | tool | strategy | strategy |
+| `tool-strategy-value-proposition` | tool | strategy | strategy |
 | `tool-yitang-18-strategy-tool-mapping` | tool | yitang | yitang |
-| `tool-yitang-ai-assisted-analysis` | tool | yitang | 无 |
-| `tool-yitang-ai-assisted-organize` | tool | yitang | 无 |
-| `tool-yitang-ai-monitoring-alert` | tool | yitang | 无 |
-| `tool-yitang-ai-report-drafting` | tool | yitang | 无 |
-| `tool-yitang-ai-research-workflow` | tool | yitang | 无 |
-| `tool-yitang-amazon-bestseller` | tool | yitang | 无 |
-| `tool-yitang-anonymous-product-testing` | tool | yitang | 无 |
-| `tool-yitang-anonymous-roundtable` | tool | yitang | 无 |
-| `tool-yitang-app-store-data` | tool | yitang | 无 |
-| `tool-yitang-app-store-review` | tool | yitang | 无 |
-| `tool-yitang-b2b-gov-research` | tool | yitang | 无 |
-| `tool-yitang-baidu-index` | tool | yitang | 无 |
-| `tool-yitang-behavioral-observation` | tool | yitang | 无 |
-| `tool-yitang-bidding-analysis` | tool | yitang | 无 |
-| `tool-yitang-bp-analysis` | tool | yitang | 无 |
-| `tool-yitang-business-registration-check` | tool | yitang | 无 |
-| `tool-yitang-channel-agent-interview` | tool | yitang | 无 |
-| `tool-yitang-comparable-company-selection` | tool | yitang | 无 |
-| `tool-yitang-competitor-financial-analysis` | tool | yitang | 无 |
-| `tool-yitang-conference-networking` | tool | yitang | 无 |
-| `tool-yitang-consulting-business-research` | tool | yitang | 无 |
-| `tool-yitang-consumer-goods-research` | tool | yitang | 无 |
-| `tool-yitang-content-ip-research` | tool | yitang | 无 |
-| `tool-yitang-court-record-search` | tool | yitang | 无 |
-| `tool-yitang-database-index` | tool | yitang | 无 |
-| `tool-yitang-douyin-data` | tool | yitang | 无 |
-| `tool-yitang-employee-directory` | tool | yitang | 无 |
-| `tool-yitang-executive-speech-analysis` | tool | yitang | 无 |
-| `tool-yitang-expert-network-platform` | tool | yitang | 无 |
-| `tool-yitang-fake-complaint-research` | tool | yitang | 无 |
-| `tool-yitang-field-research` | tool | yitang | 无 |
-| `tool-yitang-financial-report-intelligence` | tool | yitang | 无 |
-| `tool-yitang-financing-intelligence` | tool | yitang | 无 |
-| `tool-yitang-forum-data` | tool | yitang | 无 |
-| `tool-yitang-gossip-intelligence` | tool | yitang | 无 |
-| `tool-yitang-government-data-search` | tool | yitang | 无 |
-| `tool-yitang-hardware-product-disassembly` | tool | yitang | 无 |
-| `tool-yitang-in-home-experience-research` | tool | yitang | 无 |
-| `tool-yitang-industry-report-search` | tool | yitang | 无 |
-| `tool-yitang-ipo-annual-report-cheat-sheet` | tool | yitang | 无 |
-| `tool-yitang-job-intelligence-research` | tool | yitang | 无 |
-| `tool-yitang-news-monitoring` | tool | yitang | 无 |
-| `tool-yitang-online-product-experience` | tool | yitang | 无 |
-| `tool-yitang-organization-research` | tool | yitang | 无 |
-| `tool-yitang-overseas-research` | tool | yitang | 无 |
-| `tool-yitang-partner-data-analysis` | tool | yitang | 无 |
-| `tool-yitang-patent-analysis` | tool | yitang | 无 |
-| `tool-yitang-pc-web-data` | tool | yitang | 无 |
-| `tool-yitang-people-network-database` | tool | yitang | 无 |
-| `tool-yitang-product-full-experience` | tool | yitang | 无 |
-| `tool-yitang-public-information-research` | tool | yitang | 无 |
-| `tool-yitang-public-sentiment-research` | tool | yitang | 无 |
-| `tool-yitang-recruit-user-interview` | tool | yitang | 无 |
-| `tool-yitang-research-best-practice` | tool | yitang | 无 |
-| `tool-yitang-research-company-disassembly` | tool | yitang | 无 |
-| `tool-yitang-research-competitive-quadrant` | tool | yitang | 无 |
-| `tool-yitang-research-competitor-tracking` | tool | yitang | 无 |
-| `tool-yitang-research-continuous-tracking` | tool | yitang | 无 |
-| `tool-yitang-research-cross-validation` | tool | yitang | 无 |
-| `tool-yitang-research-deep-attribution` | tool | yitang | 无 |
-| `tool-yitang-research-exhaust-means` | tool | yitang | 无 |
-| `tool-yitang-research-follow-map` | tool | yitang | 无 |
-| `tool-yitang-research-industry-scan` | tool | yitang | 无 |
-| `tool-yitang-research-intelligence-map-in-hand` | tool | yitang | 无 |
-| `tool-yitang-research-normalize-summary` | tool | yitang | 无 |
-| `tool-yitang-research-quantitative-modeling` | tool | yitang | 无 |
-| `tool-yitang-research-single-point-sniper` | tool | yitang | 无 |
-| `tool-yitang-research-two-dimensional-positioning` | tool | yitang | 无 |
-| `tool-yitang-research-unit-model` | tool | yitang | 无 |
-| `tool-yitang-research-validate-assumption` | tool | yitang | 无 |
-| `tool-yitang-reverse-data-analysis` | tool | yitang | 无 |
-| `tool-yitang-review-analysis` | tool | yitang | 无 |
-| `tool-yitang-securities-research` | tool | yitang | 无 |
-| `tool-yitang-security-guard-intel` | tool | yitang | 无 |
-| `tool-yitang-shareholder-analysis` | tool | yitang | 无 |
-| `tool-yitang-signup-statistics` | tool | yitang | 无 |
-| `tool-yitang-social-engineering-research` | tool | yitang | 无 |
-| `tool-yitang-social-media-interview` | tool | yitang | 无 |
-| `tool-yitang-social-media-monitoring` | tool | yitang | 无 |
-| `tool-yitang-stock-data` | tool | yitang | 无 |
-| `tool-yitang-store-franchise-research` | tool | yitang | 无 |
-| `tool-yitang-supplier-interview` | tool | yitang | 无 |
-| `tool-yitang-supply-chain-research` | tool | yitang | 无 |
-| `tool-yitang-tech-project-research` | tool | yitang | 无 |
-| `tool-yitang-trend-data` | tool | yitang | 无 |
-| `tool-yitang-user-interview-5steps` | tool | yitang | 无 |
-| `tool-yitang-weapon-ai-tools` | tool | yitang | 无 |
-| `tool-yitang-weapon-anonymous-identity` | tool | yitang | 无 |
-| `tool-yitang-weapon-field-reconnaissance` | tool | yitang | 无 |
-| `tool-yitang-weapon-former-employee-network` | tool | yitang | 无 |
-| `tool-yitang-weapon-full-product-experience` | tool | yitang | 无 |
-| `tool-yitang-weapon-industry-expert` | tool | yitang | 无 |
-| `tool-yitang-weapon-insider-intelligence` | tool | yitang | 无 |
-| `tool-yitang-weapon-media-search` | tool | yitang | 无 |
-| `tool-yitang-weapon-partner-research` | tool | yitang | 无 |
-| `tool-yitang-weapon-product-reputation` | tool | yitang | 无 |
-| `tool-yitang-weapon-product-reverse` | tool | yitang | 无 |
-| `tool-yitang-weapon-public-official-info` | tool | yitang | 无 |
-| `tool-yitang-weapon-third-party-database` | tool | yitang | 无 |
-| `tool-yitang-weapon-user-direct-interview` | tool | yitang | 无 |
+| `tool-yitang-ai-assisted-analysis` | tool | yitang | yitang |
+| `tool-yitang-ai-assisted-organize` | tool | yitang | yitang |
+| `tool-yitang-ai-monitoring-alert` | tool | yitang | yitang |
+| `tool-yitang-ai-report-drafting` | tool | yitang | yitang |
+| `tool-yitang-ai-research-workflow` | tool | yitang | yitang |
+| `tool-yitang-amazon-bestseller` | tool | yitang | yitang |
+| `tool-yitang-anonymous-product-testing` | tool | yitang | yitang |
+| `tool-yitang-anonymous-roundtable` | tool | yitang | yitang |
+| `tool-yitang-app-store-data` | tool | yitang | yitang |
+| `tool-yitang-app-store-review` | tool | yitang | yitang |
+| `tool-yitang-baidu-index` | tool | yitang | yitang |
+| `tool-yitang-behavioral-observation` | tool | yitang | yitang |
+| `tool-yitang-bidding-analysis` | tool | yitang | yitang |
+| `tool-yitang-bp-analysis` | tool | yitang | yitang |
+| `tool-yitang-business-registration-check` | tool | yitang | yitang |
+| `tool-yitang-channel-agent-interview` | tool | yitang | yitang |
+| `tool-yitang-comparable-company-selection` | tool | yitang | yitang |
+| `tool-yitang-competitor-financial-analysis` | tool | yitang | yitang |
+| `tool-yitang-conference-networking` | tool | yitang | yitang |
+| `tool-yitang-consulting-business-research` | tool | yitang | yitang |
+| `tool-yitang-content-ip-research` | tool | yitang | yitang |
+| `tool-yitang-court-record-search` | tool | yitang | yitang |
+| `tool-yitang-database-index` | tool | yitang | yitang |
+| `tool-yitang-douyin-data` | tool | yitang | yitang |
+| `tool-yitang-employee-directory` | tool | yitang | yitang |
+| `tool-yitang-executive-speech-analysis` | tool | yitang | yitang |
+| `tool-yitang-expert-network-platform` | tool | yitang | yitang |
+| `tool-yitang-fake-complaint-research` | tool | yitang | yitang |
+| `tool-yitang-financing-intelligence` | tool | yitang | yitang |
+| `tool-yitang-forum-data` | tool | yitang | yitang |
+| `tool-yitang-gossip-intelligence` | tool | yitang | yitang |
+| `tool-yitang-government-data-search` | tool | yitang | yitang |
+| `tool-yitang-hardware-product-disassembly` | tool | yitang | yitang |
+| `tool-yitang-in-home-experience-research` | tool | yitang | yitang |
+| `tool-yitang-industry-report-search` | tool | yitang | yitang |
+| `tool-yitang-ipo-annual-report-cheat-sheet` | tool | yitang | yitang |
+| `tool-yitang-news-monitoring` | tool | yitang | yitang |
+| `tool-yitang-online-product-experience` | tool | yitang | yitang |
+| `tool-yitang-organization-research` | tool | yitang | yitang |
+| `tool-yitang-partner-data-analysis` | tool | yitang | yitang |
+| `tool-yitang-patent-analysis` | tool | yitang | yitang |
+| `tool-yitang-pc-web-data` | tool | yitang | yitang |
+| `tool-yitang-people-network-database` | tool | yitang | yitang |
+| `tool-yitang-public-sentiment-research` | tool | yitang | yitang |
+| `tool-yitang-recruit-user-interview` | tool | yitang | yitang |
+| `tool-yitang-research-continuous-tracking` | tool | yitang | yitang |
+| `tool-yitang-research-cross-validation` | tool | yitang | yitang |
+| `tool-yitang-research-deep-attribution` | tool | yitang | yitang |
+| `tool-yitang-research-follow-map` | tool | yitang | yitang |
+| `tool-yitang-research-normalize-summary` | tool | yitang | yitang |
+| `tool-yitang-research-quantitative-modeling` | tool | yitang | yitang |
+| `tool-yitang-review-analysis` | tool | yitang | yitang |
+| `tool-yitang-securities-research` | tool | yitang | yitang |
+| `tool-yitang-security-guard-intel` | tool | yitang | yitang |
+| `tool-yitang-shareholder-analysis` | tool | yitang | yitang |
+| `tool-yitang-signup-statistics` | tool | yitang | yitang |
+| `tool-yitang-social-engineering-research` | tool | yitang | yitang |
+| `tool-yitang-social-media-interview` | tool | yitang | yitang |
+| `tool-yitang-social-media-monitoring` | tool | yitang | yitang |
+| `tool-yitang-stock-data` | tool | yitang | yitang |
+| `tool-yitang-supplier-interview` | tool | yitang | yitang |
+| `tool-yitang-supply-chain-research` | tool | yitang | yitang |
+| `tool-yitang-trend-data` | tool | yitang | yitang |
+| `tool-yitang-weapon-ai-tools` | tool | yitang | yitang |
+| `tool-yitang-weapon-anonymous-identity` | tool | yitang | yitang |
+| `tool-yitang-weapon-field-reconnaissance` | tool | yitang | yitang |
+| `tool-yitang-weapon-former-employee-network` | tool | yitang | yitang |
+| `tool-yitang-weapon-full-product-experience` | tool | yitang | yitang |
+| `tool-yitang-weapon-industry-expert` | tool | yitang | yitang |
+| `tool-yitang-weapon-insider-intelligence` | tool | yitang | yitang |
+| `tool-yitang-weapon-media-search` | tool | yitang | yitang |
+| `tool-yitang-weapon-partner-research` | tool | yitang | yitang |
+| `tool-yitang-weapon-product-reputation` | tool | yitang | yitang |
+| `tool-yitang-weapon-product-reverse` | tool | yitang | yitang |
+| `tool-yitang-weapon-public-official-info` | tool | yitang | yitang |
+| `tool-yitang-weapon-third-party-database` | tool | yitang | yitang |
+| `tool-yitang-weapon-user-direct-interview` | tool | yitang | yitang |
 | `tool-yitang-web-scraping-research` | tool | yitang | yitang |
-| `tool-yitang-wechat-group-infiltration` | tool | yitang | 无 |
-| `tool-yitang-wechat-index` | tool | yitang | 无 |
-| `tool-yitang-weibo-index` | tool | yitang | 无 |
-| `tool-yitang-xiaohongshu-data` | tool | yitang | 无 |
-| `voice-input-doubao` | tool | ai-collaboration- product | 无 |
-| `xingangwan-pharma-business-formulas` | framework | healthcare- healthcare | 无 |
-| `xingangwan-pharma-business-model-calc` | framework | healthcare- healthcare | 无 |
-| `xingangwan-pharma-business-model-formulas` | framework | healthcare- healthcare | 无 |
-| `yt-barrier-identification-skill` | tool | barrier- yitang | 无 |
-| `yt-business-formula-business-pattern-selector` | framework | yitang- yitang | 无 |
-| `yt-business-formula-qualitative-metrics-library` | framework | yitang- yitang | 无 |
-| `yt-composite-pan-product-methodology` | framework | yitang- yitang | 无 |
+| `tool-yitang-wechat-group-infiltration` | tool | yitang | yitang |
+| `tool-yitang-wechat-index` | tool | yitang | yitang |
+| `tool-yitang-weibo-index` | tool | yitang | yitang |
+| `tool-yitang-xiaohongshu-data` | tool | yitang | yitang |
 | `yt-customer-acquisition-toolkit` | tool | yitangestimated_tokens: 2600 | marketing |
-| `yt-decision-abcd-model` | framework | decision- 一堂·科学决策 | 无 |
-| `yt-decision-ai-partner` | tool | decision- yitang | 无 |
-| `yt-decision-canvas` | tool | decision- yitang | 无 |
-| `yt-decision-consensus-iceberg` | tool | decision- yitang | 无 |
-| `yt-decision-depth-ladder` | tool | decision- yitang | 无 |
-| `yt-decision-full-process` | framework | decision- yitang | 无 |
-| `yt-decision-habit-shift` | tool | decision- yitang | 无 |
-| `yt-decision-height-toolkit` | tool | decision- yitang | 无 |
-| `yt-decision-review` | tool | decision- yitang | 无 |
-| `yt-decision-width-method` | tool | decision- yitang | 无 |
-| `yt-decision-y-model` | framework | decision- yitang | 无 |
-| `yt-demand-analysis-hiking-map` | framework | demand-analysisestimated_tokens: 2400 | 无 |
-| `yt-entrepreneur-five-step-method` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-growth-flywheel` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-key-hypotheses` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-lean-validation` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-liberate-thinking` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-needs-analysis` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-research-cognition` | tool | entrepreneurship- yitang | 无 |
-| `yt-entrepreneur-unit-model` | tool | entrepreneurship- yitang | 无 |
-| `yt-five-step-implementation` | tool | yitang- yitang | 无 |
-| `yt-five-step-method` | framework | yitang- yitang | 无 |
-| `yt-foresight-business-spectrum` | framework | yitang- yitang | 无 |
-| `yt-foresight-ten-fatal-flaws` | tool | yitang- yitang | 无 |
-| `yt-lean-assumption-prioritization` | framework | lean-startup- yitang | 无 |
-| `yt-lean-assumption-verification-3means` | framework | lean-startup- yitang | 无 |
-| `yt-lean-b2b-b2c-hardware-content-testing` | framework | lean-startup- yitang | 无 |
-| `yt-lean-consumer-deep-experience-testing` | framework | lean-startup- yitang | 无 |
-| `yt-lean-false-model-ai` | framework | lean-startup- yitang | 无 |
-| `yt-lean-growth-stage-gate` | framework | lean-startup- yitang | 无 |
-| `yt-lean-qualitative-quantitative-research` | framework | lean-startup- yitang | 无 |
-| `yt-management-toolkit-overview` | framework | management- yitang | 无 |
-| `yt-market-size-estimation` | tool | yitangestimated_tokens: 1800 | 无 |
-| `yt-model-aesthetic-progression` | framework | modeling- yitang | 无 |
-| `yt-model-agent-architecture` | framework | modeling- ai-models | 无 |
-| `yt-model-cognitive-upgrade-framework` | framework | modeling- master | 无 |
-| `yt-model-conversion-optimization` | framework | modeling- yitang | 无 |
-| `yt-model-dual-triangle-competitiveness` | framework | modeling- yitang | 无 |
-| `yt-model-entrepreneur-map` | framework | modeling- yitang | 无 |
-| `yt-model-five-step-canvas` | framework | modeling- yitang | 无 |
-| `yt-model-ipo-learning-strategy` | framework | modeling- yitang | 无 |
+| `yt-decision-abcd-model` | framework | decision- 一堂·科学决策 | decision- yitang |
+| `yt-decision-consensus-iceberg` | tool | decision- yitang | decision- yitang |
+| `yt-decision-habit-shift` | tool | decision- yitang | decision- yitang |
+| `yt-entrepreneur-growth-flywheel` | tool | entrepreneurship- yitang | mastersource_person: Truman |
+| `yt-entrepreneur-liberate-thinking` | tool | entrepreneurship- yitang | mastersource_person: Truman |
+| `yt-entrepreneur-needs-analysis` | tool | entrepreneurship- yitang | design |
+| `yt-entrepreneur-research-cognition` | tool | entrepreneurship- yitang | mastersource_person: Truman |
+| `yt-five-step-implementation` | tool | yitang- yitang | yitang- yitang |
+| `yt-model-conversion-optimization` | framework | modeling- yitang | design |
 | `yt-model-management-map` | framework | modelingestimated_tokens: 2225 | management- yitang |
-| `yt-model-pan-product-36-strategies` | framework | modeling- yitang | 无 |
-| `yt-model-pan-product-aesthetic-toolkit` | framework | modeling- yitang | 无 |
-| `yt-model-pan-product-climbing-map` | framework | modeling- yitang | 无 |
-| `yt-model-pan-product-demand-toolkit` | framework | modeling- yitang | 无 |
-| `yt-model-pan-product-execution-toolkit` | framework | modeling- yitang | 无 |
-| `yt-model-pan-product-three-virtues` | framework | modeling- yitang | 无 |
-| `yt-model-personal-map` | framework | modeling- yitang | 无 |
-| `yt-model-personal-pitch-toolkit` | framework | modeling- personal | 无 |
-| `yt-model-progress-map` | framework | modeling- yitang | 无 |
-| `yt-model-prompt-engineering` | framework | modeling- yitang | 无 |
-| `yt-note-five-levels-training` | tool | learning-methodology- yitang | 无 |
-| `yt-note-live-field-skill` | tool | learning-methodology- yitang | 无 |
-| `yt-panproduct-aesthetic-collection` | tool | product- yitang | 无 |
-| `yt-panproduct-aesthetic-imagination` | tool | product- yitang | 无 |
-| `yt-panproduct-aesthetic-modeling` | tool | product- yitang | 无 |
-| `yt-panproduct-aesthetic-pool` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-five-step-method` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-industry-canvas` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-motivation-resistance` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-multi-perspective` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-need-discovery` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-peak-end-rule` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-project-background` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-scenario-walkthrough` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-surprise-formula` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-user-perspective` | tool | product- yitang | 无 |
-| `yt-panproduct-demand-user-segmentation` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-10x-validation` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-business-modeling` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-core-and-boundary` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-design-principles` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-good-tools` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-hypothesis-decomposition` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-idea-spark` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-incubation-polish` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-liberate-thinking` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-logic-mece` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-low-cost-mvp` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-management-trilogy` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-milestone-breakdown` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-realistic-simulation` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-review-iteration` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-risk-management` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-roi-analysis` | tool | product- yitang | 无 |
-| `yt-panproduct-execution-war-room` | tool | product- yitang | 无 |
-| `yt-personal-ai-capability` | tool | personal-growth- yitang | 无 |
-| `yt-personal-ai-thinking-card` | tool | personal-growth- personal-methods | 无 |
-| `yt-personal-deep-review` | tool | personal-growth- yitang | 无 |
-| `yt-personal-ipo-learning` | tool | personal-growth- yitang | 无 |
-| `yt-personal-knowledge-extraction` | tool | personal-growth- yitang | 无 |
-| `yt-personal-scientific-expression` | tool | personal-growth- yitang | 无 |
-| `yt-personal-y-model-exploration-2` | tool | personal-growth- yitang | 无 |
-| `yt-pitch-aphorism` | tool | content-production- personal | 无 |
-| `yt-pitch-colloquialization` | tool | content-production- personal | 无 |
-| `yt-pitch-conflict` | tool | content-production- personal | 无 |
-| `yt-pitch-emotionalization` | tool | content-production- personal | 无 |
-| `yt-pitch-materialization` | tool | content-production- personal | 无 |
-| `yt-pitch-metaphor` | tool | content-production- personal | 无 |
-| `yt-pitch-quantification` | tool | content-production- personal | 无 |
-| `yt-pitch-scenarization` | tool | content-production- personal | 无 |
-| `yt-pitch-storytelling` | tool | content-production- personal | 无 |
-| `yt-pitch-sublimation` | tool | content-production- personal | 无 |
-| `yt-research-competitor-toolkit` | tool | research- yitang | 无 |
-| `yt-research-expert-interview` | tool | research- yitang | 无 |
-| `yt-research-hypothesis-test` | tool | research- yitang | 无 |
-| `yt-research-industry-canvas` | tool | research- yitang | 无 |
-| `yt-research-intelligence-map` | framework | research- yitang | 无 |
-| `yt-research-osl-framework` | framework | research- yitang | 无 |
-| `yt-research-user-jtbd` | tool | research- yitang | 无 |
+| `yt-model-pan-product-36-strategies` | framework | modeling- yitang | modeling- yitang |
+| `yt-model-pan-product-aesthetic-toolkit` | framework | modeling- yitang | modeling- yitang |
+| `yt-model-pan-product-climbing-map` | framework | modeling- yitang | modeling- yitang |
+| `yt-model-pan-product-three-virtues` | framework | modeling- yitang | modeling- yitang |
+| `yt-panproduct-aesthetic-collection` | tool | product- yitang | modeling- yitang |
+| `yt-panproduct-demand-industry-canvas` | tool | product- yitang | product- yitang |
+| `yt-panproduct-demand-multi-perspective` | tool | product- yitang | product- yitang |
+| `yt-panproduct-demand-need-discovery` | tool | product- yitang | product- yitang |
+| `yt-panproduct-demand-project-background` | tool | product- yitang | product- yitang |
+| `yt-panproduct-demand-scenario-walkthrough` | tool | product- yitang | product- yitang |
+| `yt-panproduct-demand-user-segmentation` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-10x-validation` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-business-modeling` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-design-principles` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-good-tools` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-idea-spark` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-incubation-polish` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-management-trilogy` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-milestone-breakdown` | tool | product- yitang | product- yitang |
+| `yt-panproduct-execution-realistic-simulation` | tool | product- yitang | product- yitang |
+| `yt-personal-ai-capability` | tool | personal-growth- yitang | mastersource_person: Truman |
+| `yt-personal-ipo-learning` | tool | personal-growth- yitang | mastersource_person: Truman |
+| `yt-personal-y-model-exploration-2` | tool | personal-growth- yitang | mastersource_person: Truman |
+| `yt-pitch-aphorism` | tool | content-production- personal | yitang- master |
+| `yt-pitch-conflict` | tool | content-production- personal | yitang- master |
+| `yt-pitch-emotionalization` | tool | content-production- personal | yitang- master |
+| `yt-pitch-materialization` | tool | content-production- personal | yitang- master |
+| `yt-pitch-sublimation` | tool | content-production- personal | yitang- master |
 | `yt-scale-economy-weapon-library` | tool | yitangestimated_tokens: 2200 | marketing |
-| `yt-tob-barriers` | framework | yitang- yitang | 无 |
-| `yt-tob-core-characteristics` | framework | yitang- yitang | 无 |
-| `yt-tob-customer-sabc` | tool | yitang- yitang | 无 |
-| `yt-tob-customer-tiering` | framework | yitang- yitang | 无 |
-| `yt-tob-demand-metrics` | framework | yitang- yitang | 无 |
-| `yt-tob-demand-scenarios` | framework | yitang- yitang | 无 |
-| `yt-tob-growth-channel` | framework | yitang- yitang | 无 |
-| `yt-tob-product-kernel` | framework | yitang- yitang | 无 |
-| `yt-tob-solution-model` | framework | yitang- yitang | 无 |
-| `yt-tob-unit-model` | framework | yitang- yitang | 无 |
-| `yt-tool-best-practice-learning` | tool | yitang- yitang | 无 |
-| `yt-tool-business-formula-metrics-checklist` | tool | yitang- yitang | 无 |
-| `yt-tool-equity-checklist` | tool | yitang- yitang | 无 |
-| `yt-tool-fab-persuasion` | tool | yitang- yitang | 无 |
-| `yt-tool-foresight-canvas` | tool | yitang- yitang | 无 |
-| `yt-tool-hiring-scorecard` | tool | yitang- yitang | 无 |
-| `yt-tool-knowledge-extraction` | tool | yitang- yitang | 无 |
-| `yt-tool-meeting-designer` | tool | yitang- yitang | 无 |
-| `yt-tool-mental-model-refinement` | tool | yitang- yitang | 无 |
-| `yt-tool-okr-cycle` | tool | yitang- yitang | 无 |
-| `yt-tool-onboarding-90day` | tool | yitang- yitang | 无 |
-| `yt-tool-peas-agent-analysis` | tool | yitang- master | 无 |
-| `yt-tool-product-core-canvas` | tool | yitang- yitang | 无 |
-| `yt-tool-project-health-radar` | tool | yitang- yitang | 无 |
-| `yt-tool-strategy-workshop` | tool | yitang- yitang | 无 |
+| `yt-tool-foresight-canvas` | tool | yitang- yitang | yitang- yitang |
 | `yt-tool-unit-model-ai-assisted` | tool | yitang- master | 无 |
 | `yt-tool-unit-model-benchmark` | tool | yitang- master | 无 |
 | `yt-tool-unit-model-construction` | tool | yitang- master | 无 |
 | `yt-tool-unit-model-dynamic` | tool | yitang- master | 无 |
 | `yt-tool-unit-model-selection` | tool | yitang- master | 无 |
-| `yt-tool-y-model-ruler` | tool | yitang- yitang | 无 |
-| `yt-unit-model-ai-assisted` | tool | yitang- entrepreneur | 无 |
-| `yt-unit-model-benchmark` | tool | yitang- entrepreneur | 无 |
-| `yt-unit-model-build` | tool | yitang- yitang | 无 |
-| `yt-unit-model-concept` | framework | yitang- yitang | 无 |
-| `yt-unit-model-construction` | tool | yitang- entrepreneur | 无 |
-| `yt-unit-model-dynamic` | tool | yitang- entrepreneur | 无 |
-| `yt-unit-model-ladder` | framework | yitang- decision-science | 无 |
-| `yt-unit-model-overview` | framework | yitang- decision-science | 无 |
-| `yt-unit-model-selection` | tool | yitang- entrepreneur | 无 |
-| `学会提问在信息洪流中锻造批判性思维的利刃` | framework | unknown | 无 |
+| `学会提问在信息洪流中锻造批判性思维的利刃` | framework | ai-saas | mastersource_person: Truman |
 
-## 2. bridge 卡目标域覆盖（5 张不足）
+## 2. bridge 卡目标域覆盖（2 张不足）
 
 | 卡 ID | 目标域 | 已覆盖 | 缺失 |
 |:--|:--|:--|:--|
-| `framework-ai-accelerated-strategy-cycle` | ai-collaboration, lean-startup, strategy | 无 | ai-collaboration, lean-startup, strategy |
-| `framework-demand-lean-bridge` | demand-analysis, lean-startup | 无 | demand-analysis, lean-startup |
-| `framework-five-step-lean-interface` | five-step, lean-startup | 无 | five-step, lean-startup |
-| `framework-lean-pivot-decision` | decision, lean-startup | 无 | decision, lean-startup |
-| `framework-strategy-lean-validation` | lean-startup, strategy | 无 | lean-startup, strategy |
+| `framework-five-step-lean-interface` | five-step, lean-startup | lean-startup | five-step |
+| `framework-lean-pivot-decision` | decision, lean-startup | lean-startup | decision |
 
 ## 3. domain digest 链接不足（2 个）
 
