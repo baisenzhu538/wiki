@@ -1,0 +1,2282 @@
+[
+  {
+    "ocr_id": "ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01",
+    "ocr_file": "ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_8c00cb42"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_8c00cb42",
+        "src_file": "src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md",
+        "pattern": "AI俱乐部-人和AI协作-纪浩-五层结构-图片01.*",
+        "image": "00_inbox\\AI俱乐部-人和AI协作-纪浩-五层结构-图片01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02",
+    "ocr_file": "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_9223aac2"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_9223aac2",
+        "src_file": "src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md",
+        "pattern": "AI俱乐部-人和AI协作-纪浩-参考案例-图片02.*",
+        "image": "00_inbox\\AI俱乐部-人和AI协作-纪浩-参考案例-图片02.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-ocr_screenshot2",
+    "ocr_file": "ocr-ocr_screenshot2.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_4fa28ed8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4fa28ed8",
+        "src_file": "src_20260522_4fa28ed8-ocr-ocr_screenshot2.md",
+        "pattern": "00_inbox/ocr_screenshot2.png",
+        "image": "00_inbox\\ocr_screenshot2.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-ocr_snipaste_2026-05-15_21-39-40",
+    "ocr_file": "ocr-ocr_snipaste_2026-05-15_21-39-40.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_8b6b5cfe"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_8b6b5cfe",
+        "src_file": "src_20260522_8b6b5cfe-ocr-ocr_snipaste_2026-05-15_21-39-40.md",
+        "pattern": "00_inbox/ocr_Snipaste_2026-05-15_21-39-40.png",
+        "image": "00_inbox\\ocr_Snipaste_2026-05-15_21-39-40.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-screenshot1",
+    "ocr_file": "ocr-screenshot1.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_64727b82"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_64727b82",
+        "src_file": "src_20260522_64727b82-ocr-screenshot1.md",
+        "pattern": "00_inbox/screenshot1.png",
+        "image": "00_inbox\\screenshot1.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-screenshot2",
+    "ocr_file": "ocr-screenshot2.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_961e1d68"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_961e1d68",
+        "src_file": "src_20260522_961e1d68-ocr-screenshot2.md",
+        "pattern": "00_inbox/screenshot2.png",
+        "image": "00_inbox\\screenshot2.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-truman的个人成长五步法",
+    "ocr_file": "ocr-truman的个人成长五步法.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_074c72ae"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_074c72ae",
+        "src_file": "src_20260522_074c72ae-ocr-truman的个人成长五步法.md",
+        "pattern": "00_inbox/Truman的个人成长五步法.png",
+        "image": "00_inbox\\Truman的个人成长五步法.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-truman的选择两条职业成长路线",
+    "ocr_file": "ocr-truman的选择两条职业成长路线.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_9cbdf4fd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_9cbdf4fd",
+        "src_file": "src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md",
+        "pattern": "00_inbox/truman的选择：两条职业成长路线.png",
+        "image": "00_inbox\\truman的选择：两条职业成长路线.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-ai学习-truman自用的ai-featureset",
+    "ocr_file": "ocr-一堂-ai学习-truman自用的ai-featureset.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_03491271"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_03491271",
+        "src_file": "src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md",
+        "pattern": "一堂-AI学习-truman自用的AI FeatureSet.*",
+        "image": "00_inbox\\AI-study\\一堂-AI学习-truman自用的AI FeatureSet.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-ai学习-提问工程化",
+    "ocr_file": "ocr-一堂-ai学习-提问工程化.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_62f76551"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_62f76551",
+        "src_file": "src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md",
+        "pattern": "一堂-AI学习-提问工程化.*",
+        "image": "00_inbox\\AI-study\\一堂-AI学习-提问工程化.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-ai学习-提问进化路线图",
+    "ocr_file": "ocr-一堂-ai学习-提问进化路线图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_cb13ebc8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_cb13ebc8",
+        "src_file": "src_20260609_cb13ebc8-ocr-一堂-ai学习-提问进化路线图.md",
+        "pattern": "一堂-AI学习-提问进化路线图.*",
+        "image": "00_inbox\\AI-study\\一堂-AI学习-提问进化路线图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
+    "ocr_file": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_a7f2ae2e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_a7f2ae2e",
+        "src_file": "src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md",
+        "pattern": "一堂-AI清单体笔记（系统故事线）-truman-图片01.*",
+        "image": "00_inbox\\一堂-AI清单体笔记（系统故事线）-truman-图片01.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-ai清单体笔记训练段位图-truman-图片02",
+    "ocr_file": "ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_6809033f"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_6809033f",
+        "src_file": "src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md",
+        "pattern": "一堂-AI清单体笔记（训练段位图）-truman-图片02.*",
+        "image": "00_inbox\\一堂-AI清单体笔记（训练段位图）-truman-图片02.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-tcpr模型-皇冠模型",
+    "ocr_file": "ocr-一堂-tcpr模型-皇冠模型.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_818119f0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_818119f0",
+        "src_file": "src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md",
+        "pattern": "一堂-TCPR模型-皇冠模型.*",
+        "image": "00_inbox\\单元模型\\一堂-TCPR模型-皇冠模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-y模型",
+    "ocr_file": "ocr-一堂-个人修炼-y模型.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_3f5c76c0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3f5c76c0",
+        "src_file": "src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md",
+        "pattern": "00_inbox/一堂-个人修炼-Y模型.jpg",
+        "image": "00_inbox\\一堂-个人修炼-Y模型.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-全景图muse模型",
+    "ocr_file": "ocr-一堂-个人修炼-全景图muse模型.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_20c9fda8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_20c9fda8",
+        "src_file": "src_20260522_20c9fda8-ocr-一堂-个人修炼-全景图muse模型.md",
+        "pattern": "00_inbox/一堂-个人修炼-全景图MUSE模型.jpg",
+        "image": "00_inbox\\一堂-个人修炼-全景图MUSE模型.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-双三角模型",
+    "ocr_file": "ocr-一堂-个人修炼-双三角模型.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_1b95114b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_1b95114b",
+        "src_file": "src_20260522_1b95114b-ocr-一堂-个人修炼-双三角模型.md",
+        "pattern": "00_inbox/一堂-个人修炼-双三角模型.jpg",
+        "image": "00_inbox\\一堂-个人修炼-双三角模型.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-提问刻意练习画布",
+    "ocr_file": "ocr-一堂-个人修炼-提问刻意练习画布.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_a1a098d5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_a1a098d5",
+        "src_file": "src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md",
+        "pattern": "00_inbox/一堂-个人修炼-提问刻意练习画布.png",
+        "image": "00_inbox\\一堂-个人修炼-提问刻意练习画布.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-科学学习ipo-全景策略",
+    "ocr_file": "ocr-一堂-个人修炼-科学学习ipo-全景策略.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_dee56cff"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_dee56cff",
+        "src_file": "src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md",
+        "pattern": "00_inbox/一堂-个人修炼-科学学习IPO-全景策略.jpg",
+        "image": "00_inbox\\一堂-个人修炼-科学学习IPO-全景策略.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-科学学习ipo完整清单",
+    "ocr_file": "ocr-一堂-个人修炼-科学学习ipo完整清单.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_e139c9e9"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e139c9e9",
+        "src_file": "src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md",
+        "pattern": "00_inbox/一堂-个人修炼-科学学习IPO完整清单.jpg",
+        "image": "00_inbox\\一堂-个人修炼-科学学习IPO完整清单.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-科学学习ipo模型",
+    "ocr_file": "ocr-一堂-个人修炼-科学学习ipo模型.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_6199c6b7"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_6199c6b7",
+        "src_file": "src_20260522_6199c6b7-ocr-一堂-个人修炼-科学学习ipo模型.md",
+        "pattern": "00_inbox/一堂-个人修炼-科学学习IPO模型.jpg",
+        "image": "00_inbox\\一堂-个人修炼-科学学习IPO模型.jpg",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-科学提问刻意练习",
+    "ocr_file": "ocr-一堂-个人修炼-科学提问刻意练习.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_f70d7a7d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f70d7a7d",
+        "src_file": "src_20260522_f70d7a7d-ocr-一堂-个人修炼-科学提问刻意练习.md",
+        "pattern": "00_inbox/一堂-个人修炼-科学提问刻意练习.png",
+        "image": "00_inbox\\一堂-个人修炼-科学提问刻意练习.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-表达力火箭模型-执行武器库",
+    "ocr_file": "ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_e60a7ec8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e60a7ec8",
+        "src_file": "src_20260522_e60a7ec8-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md",
+        "pattern": "00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库.png",
+        "image": "00_inbox\\一堂-个人修炼-表达力火箭模型-执行武器库.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-表达力火箭模型",
+    "ocr_file": "ocr-一堂-个人修炼-表达力火箭模型.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_f6f8f8eb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f6f8f8eb",
+        "src_file": "src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md",
+        "pattern": "00_inbox/一堂-个人修炼-表达力火箭模型.png",
+        "image": "00_inbox\\一堂-个人修炼-表达力火箭模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-解放思想",
+    "ocr_file": "ocr-一堂-个人修炼-解放思想.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_33346186"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_33346186",
+        "src_file": "src_20260522_33346186-ocr-一堂-个人修炼-解放思想.md",
+        "pattern": "00_inbox/一堂-个人修炼-解放思想.png",
+        "image": "00_inbox\\一堂-个人修炼-解放思想.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-讲香十指模型-超级武器库",
+    "ocr_file": "ocr-一堂-个人修炼-讲香十指模型-超级武器库.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_ad373a9b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_ad373a9b",
+        "src_file": "src_20260522_ad373a9b-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md",
+        "pattern": "00_inbox/一堂-个人修炼-讲香十指模型-超级武器库.png",
+        "image": "00_inbox\\一堂-个人修炼-讲香十指模型-超级武器库.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图",
+    "ocr_file": "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_ecb6ee97"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_ecb6ee97",
+        "src_file": "src_20260522_ecb6ee97-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md",
+        "pattern": "00_inbox/一堂-个人修炼-讲香基本功-十指模型修炼地图.png",
+        "image": "00_inbox\\一堂-个人修炼-讲香基本功-十指模型修炼地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-讲香基本功",
+    "ocr_file": "ocr-一堂-个人修炼-讲香基本功.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_98db1d35"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_98db1d35",
+        "src_file": "src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md",
+        "pattern": "00_inbox/一堂-个人修炼-讲香基本功.webp",
+        "image": "00_inbox\\一堂-个人修炼-讲香基本功.webp",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-个人修炼-课程清单",
+    "ocr_file": "ocr-一堂-个人修炼-课程清单.md",
+    "domain": "个人修炼",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_a94d8057"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_a94d8057",
+        "src_file": "src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md",
+        "pattern": "00_inbox/一堂-个人修炼-课程清单.png",
+        "image": "00_inbox\\一堂-个人修炼-课程清单.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-人机协作-双三角模型",
+    "ocr_file": "ocr-一堂-人机协作-双三角模型.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_11f9c13b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_11f9c13b",
+        "src_file": "src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md",
+        "pattern": "一堂-人机协作-双三角模型.*",
+        "image": "00_inbox\\单元模型\\一堂-人机协作-双三角模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-创业必修-课程清单",
+    "ocr_file": "ocr-一堂-创业必修-课程清单.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_a8ead237"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_a8ead237",
+        "src_file": "src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md",
+        "pattern": "一堂-创业必修-课程清单.*",
+        "image": "00_inbox\\一堂-创业必修-课程清单.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-地图-个人地图",
+    "ocr_file": "ocr-一堂-地图-个人地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_40d2aee5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_40d2aee5",
+        "src_file": "src_20260522_40d2aee5-ocr-一堂-地图-个人地图.md",
+        "pattern": "00_inbox/一堂-地图-个人地图.webp",
+        "image": "00_inbox\\一堂-地图-个人地图.webp",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-地图-创业地图",
+    "ocr_file": "ocr-一堂-地图-创业地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_c1935261"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c1935261",
+        "src_file": "src_20260522_c1935261-ocr-一堂-地图-创业地图.md",
+        "pattern": "00_inbox/一堂-地图-创业地图.webp",
+        "image": "00_inbox\\一堂-地图-创业地图.webp",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-地图-创业地图_conv",
+    "ocr_file": "ocr-一堂-地图-创业地图_conv.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_2954d80a"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_2954d80a",
+        "src_file": "src_20260522_2954d80a-ocr-一堂-地图-创业地图_conv.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-一堂-地图-管理地图",
+    "ocr_file": "ocr-一堂-地图-管理地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_af67f9b0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_af67f9b0",
+        "src_file": "src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md",
+        "pattern": "00_inbox/一堂-地图-管理地图.webp",
+        "image": "00_inbox\\一堂-地图-管理地图.webp",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-地图-管理地图_conv",
+    "ocr_file": "ocr-一堂-地图-管理地图_conv.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_e2244f17"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e2244f17",
+        "src_file": "src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-一堂-案例拆解-课程清单",
+    "ocr_file": "ocr-一堂-案例拆解-课程清单.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_1e654244"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_1e654244",
+        "src_file": "src_20260522_1e654244-ocr-一堂-案例拆解-课程清单.md",
+        "pattern": "00_inbox/一堂-案例拆解-课程清单.png",
+        "image": "00_inbox\\一堂-案例拆解-课程清单.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-管理必修-课程清单",
+    "ocr_file": "ocr-一堂-管理必修-课程清单.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_4c9a911f"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4c9a911f",
+        "src_file": "src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md",
+        "pattern": "00_inbox/一堂-管理必修-课程清单.png",
+        "image": "00_inbox\\一堂-管理必修-课程清单.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂-高阶体系探索营-三种咨询可能性",
+    "ocr_file": "ocr-一堂-高阶体系探索营-三种咨询可能性.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_b32e7bb8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_b32e7bb8",
+        "src_file": "src_20260609_b32e7bb8-ocr-一堂-高阶体系探索营-三种咨询可能性.md",
+        "pattern": "一堂-高阶体系探索营-三种咨询可能性.*",
+        "image": "00_inbox\\单元模型\\一堂-高阶体系探索营-三种咨询可能性.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂doc-单元模型-十大单元模型",
+    "ocr_file": "ocr-一堂doc-单元模型-十大单元模型.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260609_112b88f7"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260609_112b88f7",
+        "src_file": "src_20260609_112b88f7-ocr-一堂doc-单元模型-十大单元模型.md",
+        "pattern": "一堂DOC-单元模型-十大单元模型.*",
+        "image": "00_inbox\\单元模型\\一堂DOC-单元模型-十大单元模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂y模型-科学成事道理",
+    "ocr_file": "ocr-一堂y模型-科学成事道理.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_32462c98"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_32462c98",
+        "src_file": "src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md",
+        "pattern": "00_inbox/一堂Y模型-科学成事道理.png",
+        "image": "00_inbox\\一堂Y模型-科学成事道理.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂y模型steps策略集",
+    "ocr_file": "ocr-一堂y模型steps策略集.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_0bb1cb6e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_0bb1cb6e",
+        "src_file": "src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md",
+        "pattern": "00_inbox/一堂Y模型steps策略集.png",
+        "image": "00_inbox\\一堂Y模型steps策略集.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂y模型实操工作流",
+    "ocr_file": "ocr-一堂y模型实操工作流.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_53341e5a"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_53341e5a",
+        "src_file": "src_20260522_53341e5a-ocr-一堂y模型实操工作流.md",
+        "pattern": "00_inbox/一堂Y模型实操工作流.png",
+        "image": "00_inbox\\一堂Y模型实操工作流.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂个人地图高潜力成长者修炼全景图",
+    "ocr_file": "ocr-一堂个人地图高潜力成长者修炼全景图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_9cb1d9d6"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_9cb1d9d6",
+        "src_file": "src_20260522_9cb1d9d6-ocr-一堂个人地图高潜力成长者修炼全景图.md",
+        "pattern": "00_inbox/一堂个人地图：高潜力成长者修炼全景图.png",
+        "image": "00_inbox\\一堂个人地图：高潜力成长者修炼全景图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂五步法-产品内核画布",
+    "ocr_file": "ocr-一堂五步法-产品内核画布.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_dc5c80df"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_dc5c80df",
+        "src_file": "src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md",
+        "pattern": "00_inbox/一堂五步法-产品内核画布.png",
+        "image": "00_inbox\\一堂五步法-产品内核画布.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂五步法画布",
+    "ocr_file": "ocr-一堂五步法画布.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_2a547df5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_2a547df5",
+        "src_file": "src_20260522_2a547df5-ocr-一堂五步法画布.md",
+        "pattern": "00_inbox/一堂五步法画布.png",
+        "image": "00_inbox\\一堂五步法画布.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂产品内核-十大典型指标",
+    "ocr_file": "ocr-一堂产品内核-十大典型指标.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_32e4318a"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_32e4318a",
+        "src_file": "src_20260522_32e4318a-ocr-一堂产品内核-十大典型指标.md",
+        "pattern": "00_inbox/一堂产品内核-十大典型指标.png",
+        "image": "00_inbox\\一堂产品内核-十大典型指标.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂刻意练习十年成长指数",
+    "ocr_file": "ocr-一堂刻意练习十年成长指数.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_e6cf558a"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e6cf558a",
+        "src_file": "src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md",
+        "pattern": "00_inbox/一堂刻意练习十年成长指数.png",
+        "image": "00_inbox\\一堂刻意练习十年成长指数.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂提炼过的因果模型",
+    "ocr_file": "ocr-一堂提炼过的因果模型.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_77b6cdaf"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_77b6cdaf",
+        "src_file": "src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md",
+        "pattern": "00_inbox/一堂提炼过的因果模型.png",
+        "image": "00_inbox\\一堂提炼过的因果模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂最佳转化率动力曲线图",
+    "ocr_file": "ocr-一堂最佳转化率动力曲线图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_9557e4cb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_9557e4cb",
+        "src_file": "src_20260522_9557e4cb-ocr-一堂最佳转化率动力曲线图.md",
+        "pattern": "00_inbox/一堂最佳转化率动力曲线图.png",
+        "image": "00_inbox\\一堂最佳转化率动力曲线图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂泛产品设计-十年修炼爬山地图",
+    "ocr_file": "ocr-一堂泛产品设计-十年修炼爬山地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_db09e70d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_db09e70d",
+        "src_file": "src_20260522_db09e70d-ocr-一堂泛产品设计-十年修炼爬山地图.md",
+        "pattern": "00_inbox/一堂泛产品设计-十年修炼爬山地图.png",
+        "image": "00_inbox\\一堂泛产品设计-十年修炼爬山地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂泛产品设计-多出牌多练习",
+    "ocr_file": "ocr-一堂泛产品设计-多出牌多练习.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_4754d8fd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4754d8fd",
+        "src_file": "src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md",
+        "pattern": "00_inbox/一堂泛产品设计-多出牌多练习.png",
+        "image": "00_inbox\\一堂泛产品设计-多出牌多练习.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂泛产品设计36计-全套地图",
+    "ocr_file": "ocr-一堂泛产品设计36计-全套地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_7e8d10c4"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_7e8d10c4",
+        "src_file": "src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md",
+        "pattern": "00_inbox/一堂泛产品设计36计-全套地图.png",
+        "image": "00_inbox\\一堂泛产品设计36计-全套地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂深度复盘冰山图",
+    "ocr_file": "ocr-一堂深度复盘冰山图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_c92a36ba"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c92a36ba",
+        "src_file": "src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md",
+        "pattern": "00_inbox/一堂深度复盘冰山图.png",
+        "image": "00_inbox\\一堂深度复盘冰山图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂转化率-10大容易浪费的触点",
+    "ocr_file": "ocr-一堂转化率-10大容易浪费的触点.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_037af20f"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_037af20f",
+        "src_file": "src_20260522_037af20f-ocr-一堂转化率-10大容易浪费的触点.md",
+        "pattern": "00_inbox/一堂转化率-10大容易浪费的触点.png",
+        "image": "00_inbox\\一堂转化率-10大容易浪费的触点.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂进步大地图",
+    "ocr_file": "ocr-一堂进步大地图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_d75f0a0d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_d75f0a0d",
+        "src_file": "src_20260522_d75f0a0d-ocr-一堂进步大地图.md",
+        "pattern": "00_inbox/一堂进步大地图.png",
+        "image": "00_inbox\\一堂进步大地图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-一堂进步大地图_compressed",
+    "ocr_file": "ocr-一堂进步大地图_compressed.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_2250865e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_2250865e",
+        "src_file": "src_20260522_2250865e-ocr-一堂进步大地图_compressed.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-优秀泛产品设计者的自我修养",
+    "ocr_file": "ocr-优秀泛产品设计者的自我修养.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_91948770"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_91948770",
+        "src_file": "src_20260522_91948770-ocr-优秀泛产品设计者的自我修养.md",
+        "pattern": "00_inbox/优秀泛产品设计者的自我修养.png",
+        "image": "00_inbox\\优秀泛产品设计者的自我修养.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-婚礼操盘-用户和场景",
+    "ocr_file": "ocr-婚礼操盘-用户和场景.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_94ee2a08"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_94ee2a08",
+        "src_file": "src_20260522_94ee2a08-ocr-婚礼操盘-用户和场景.md",
+        "pattern": "00_inbox/婚礼操盘-用户和场景.png",
+        "image": "00_inbox\\婚礼操盘-用户和场景.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-婚礼规划",
+    "ocr_file": "ocr-婚礼规划.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_b29a6b98"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_b29a6b98",
+        "src_file": "src_20260522_b29a6b98-ocr-婚礼规划.md",
+        "pattern": "00_inbox/婚礼规划.png",
+        "image": "00_inbox\\婚礼规划.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-审美提升的层级",
+    "ocr_file": "ocr-审美提升的层级.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_7d2a79f8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_7d2a79f8",
+        "src_file": "src_20260522_7d2a79f8-ocr-审美提升的层级.md",
+        "pattern": "00_inbox/审美提升的层级.png",
+        "image": "00_inbox\\审美提升的层级.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004746_32_32",
+    "ocr_file": "ocr-微信图片_20260507004746_32_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_dd3806c5"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_dd3806c5",
+        "src_file": "src_20260522_dd3806c5-ocr-微信图片_20260507004746_32_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004751_33_32",
+    "ocr_file": "ocr-微信图片_20260507004751_33_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_d38bb08e"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_d38bb08e",
+        "src_file": "src_20260522_d38bb08e-ocr-微信图片_20260507004751_33_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004755_34_32",
+    "ocr_file": "ocr-微信图片_20260507004755_34_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_0f690cad"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_0f690cad",
+        "src_file": "src_20260522_0f690cad-ocr-微信图片_20260507004755_34_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004758_35_32",
+    "ocr_file": "ocr-微信图片_20260507004758_35_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_c28367b2"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c28367b2",
+        "src_file": "src_20260522_c28367b2-ocr-微信图片_20260507004758_35_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004801_37_32",
+    "ocr_file": "ocr-微信图片_20260507004801_37_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_05b4de3c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_05b4de3c",
+        "src_file": "src_20260522_05b4de3c-ocr-微信图片_20260507004801_37_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004802_38_32",
+    "ocr_file": "ocr-微信图片_20260507004802_38_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_f0ec18a8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f0ec18a8",
+        "src_file": "src_20260522_f0ec18a8-ocr-微信图片_20260507004802_38_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004804_39_32",
+    "ocr_file": "ocr-微信图片_20260507004804_39_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_d694dfc8"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_d694dfc8",
+        "src_file": "src_20260522_d694dfc8-ocr-微信图片_20260507004804_39_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004806_40_32",
+    "ocr_file": "ocr-微信图片_20260507004806_40_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_db85a8da"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_db85a8da",
+        "src_file": "src_20260522_db85a8da-ocr-微信图片_20260507004806_40_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-微信图片_20260507004811_41_32",
+    "ocr_file": "ocr-微信图片_20260507004811_41_32.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_b64b7124"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_b64b7124",
+        "src_file": "src_20260522_b64b7124-ocr-微信图片_20260507004811_41_32.md",
+        "pattern": "unknown",
+        "image": null,
+        "reason": "image not found"
+      }
+    ],
+    "n_images": 1,
+    "n_found": 0
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-审美卡片-最佳实践建模",
+    "ocr_file": "ocr-泛产品设计-审美卡片-最佳实践建模.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_89529426"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_89529426",
+        "src_file": "src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md",
+        "pattern": "00_inbox/泛产品设计-审美卡片-最佳实践建模.png",
+        "image": "00_inbox\\泛产品设计-审美卡片-最佳实践建模.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-审美卡片-最佳实践收集",
+    "ocr_file": "ocr-泛产品设计-审美卡片-最佳实践收集.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_6373b1b1"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_6373b1b1",
+        "src_file": "src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集.md",
+        "pattern": "00_inbox/泛产品设计-审美卡片-最佳实践收集.png",
+        "image": "00_inbox\\泛产品设计-审美卡片-最佳实践收集.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-审美卡片-最佳实践池子",
+    "ocr_file": "ocr-泛产品设计-审美卡片-最佳实践池子.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_6a8b5755"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_6a8b5755",
+        "src_file": "src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md",
+        "pattern": "00_inbox/泛产品设计-审美卡片-最佳实践池子.png",
+        "image": "00_inbox\\泛产品设计-审美卡片-最佳实践池子.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-审美卡片-美好作品想象",
+    "ocr_file": "ocr-泛产品设计-审美卡片-美好作品想象.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_6697adcb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_6697adcb",
+        "src_file": "src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象.md",
+        "pattern": "00_inbox/泛产品设计-审美卡片-美好作品想象.png",
+        "image": "00_inbox\\泛产品设计-审美卡片-美好作品想象.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-审美工具箱指南",
+    "ocr_file": "ocr-泛产品设计-审美工具箱指南.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_65a78106"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_65a78106",
+        "src_file": "src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md",
+        "pattern": "00_inbox/泛产品设计-审美工具箱指南.png",
+        "image": "00_inbox\\泛产品设计-审美工具箱指南.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-一堂五步法",
+    "ocr_file": "ocr-泛产品设计-用户卡片-一堂五步法.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_a632cc1c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_a632cc1c",
+        "src_file": "src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-一堂五步法.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-一堂五步法.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-动力阻力",
+    "ocr_file": "ocr-泛产品设计-用户卡片-动力阻力.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_1ec27760"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_1ec27760",
+        "src_file": "src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-动力阻力.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-动力阻力.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-场景推演",
+    "ocr_file": "ocr-泛产品设计-用户卡片-场景推演.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_3bc67cbd"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3bc67cbd",
+        "src_file": "src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-场景推演.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-场景推演.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-多视角思考",
+    "ocr_file": "ocr-泛产品设计-用户卡片-多视角思考.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_f6cf4e83"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f6cf4e83",
+        "src_file": "src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-多视角思考.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-多视角思考.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-峰终定律",
+    "ocr_file": "ocr-泛产品设计-用户卡片-峰终定律.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_041b5a94"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_041b5a94",
+        "src_file": "src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-峰终定律.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-峰终定律.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-惊喜公式",
+    "ocr_file": "ocr-泛产品设计-用户卡片-惊喜公式.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_622b8a41"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_622b8a41",
+        "src_file": "src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-惊喜公式.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-惊喜公式.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-用户分层",
+    "ocr_file": "ocr-泛产品设计-用户卡片-用户分层.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_38ddd826"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_38ddd826",
+        "src_file": "src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-用户分层.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-用户分层.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-用户视角",
+    "ocr_file": "ocr-泛产品设计-用户卡片-用户视角.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_11d721ac"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_11d721ac",
+        "src_file": "src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-用户视角.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-用户视角.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-行业分析画布",
+    "ocr_file": "ocr-泛产品设计-用户卡片-行业分析画布.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_78d5f0a4"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_78d5f0a4",
+        "src_file": "src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-行业分析画布.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-行业分析画布.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-需求挖掘",
+    "ocr_file": "ocr-泛产品设计-用户卡片-需求挖掘.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_11af6cd2"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_11af6cd2",
+        "src_file": "src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-需求挖掘.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-需求挖掘.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-用户卡片-项目背景分析",
+    "ocr_file": "ocr-泛产品设计-用户卡片-项目背景分析.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_115e8827"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_115e8827",
+        "src_file": "src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md",
+        "pattern": "00_inbox/泛产品设计-用户卡片-项目背景分析.png",
+        "image": "00_inbox\\泛产品设计-用户卡片-项目背景分析.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-roi分析",
+    "ocr_file": "ocr-泛产品设计-落地卡片-roi分析.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_1b5af0b6"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_1b5af0b6",
+        "src_file": "src_20260522_1b5af0b6-ocr-泛产品设计-落地卡片-roi分析.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-ROI分析.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-ROI分析.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-业务建模",
+    "ocr_file": "ocr-泛产品设计-落地卡片-业务建模.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_f5a0f2e1"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f5a0f2e1",
+        "src_file": "src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-业务建模.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-业务建模.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-低成本测试mvp",
+    "ocr_file": "ocr-泛产品设计-落地卡片-低成本测试mvp.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_4d086230"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4d086230",
+        "src_file": "src_20260522_4d086230-ocr-泛产品设计-落地卡片-低成本测试mvp.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-低成本测试MVP.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-低成本测试MVP.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-假设拆解",
+    "ocr_file": "ocr-泛产品设计-落地卡片-假设拆解.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_eb90d179"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_eb90d179",
+        "src_file": "src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-假设拆解.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-假设拆解.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-内核和边界",
+    "ocr_file": "ocr-泛产品设计-落地卡片-内核和边界.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_f3072399"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_f3072399",
+        "src_file": "src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-内核和边界.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-内核和边界.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-努力仿真",
+    "ocr_file": "ocr-泛产品设计-落地卡片-努力仿真.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_bab48c61"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_bab48c61",
+        "src_file": "src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-努力仿真.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-努力仿真.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-十倍速验证",
+    "ocr_file": "ocr-泛产品设计-落地卡片-十倍速验证.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_5bd37e0d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_5bd37e0d",
+        "src_file": "src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-十倍速验证.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-十倍速验证.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-善用佳软",
+    "ocr_file": "ocr-泛产品设计-落地卡片-善用佳软.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_7ddf8bf2"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_7ddf8bf2",
+        "src_file": "src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-善用佳软.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-善用佳软.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-复盘迭代",
+    "ocr_file": "ocr-泛产品设计-落地卡片-复盘迭代.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_3b5c417d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3b5c417d",
+        "src_file": "src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-复盘迭代.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-复盘迭代.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-攻坚会",
+    "ocr_file": "ocr-泛产品设计-落地卡片-攻坚会.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_cbb3b77d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_cbb3b77d",
+        "src_file": "src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-攻坚会.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-攻坚会.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-灵感闪现",
+    "ocr_file": "ocr-泛产品设计-落地卡片-灵感闪现.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_e861d61d"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e861d61d",
+        "src_file": "src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-灵感闪现.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-灵感闪现.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-管理三段论",
+    "ocr_file": "ocr-泛产品设计-落地卡片-管理三段论.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_8d5cc8b0"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_8d5cc8b0",
+        "src_file": "src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-管理三段论.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-管理三段论.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-解放思想",
+    "ocr_file": "ocr-泛产品设计-落地卡片-解放思想.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_c2c6b487"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_c2c6b487",
+        "src_file": "src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-解放思想.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-解放思想.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-设计原则",
+    "ocr_file": "ocr-泛产品设计-落地卡片-设计原则.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_9eaf7399"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_9eaf7399",
+        "src_file": "src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-设计原则.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-设计原则.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-逻辑mece",
+    "ocr_file": "ocr-泛产品设计-落地卡片-逻辑mece.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_8d990f3c"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_8d990f3c",
+        "src_file": "src_20260522_8d990f3c-ocr-泛产品设计-落地卡片-逻辑mece.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-逻辑MECE.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-逻辑MECE.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-酝酿式打磨",
+    "ocr_file": "ocr-泛产品设计-落地卡片-酝酿式打磨.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_2bcc3531"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_2bcc3531",
+        "src_file": "src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-酝酿式打磨.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-酝酿式打磨.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-里程碑拆解",
+    "ocr_file": "ocr-泛产品设计-落地卡片-里程碑拆解.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_4be84945"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4be84945",
+        "src_file": "src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-里程碑拆解.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-里程碑拆解.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-落地卡片-风险管理",
+    "ocr_file": "ocr-泛产品设计-落地卡片-风险管理.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_3dd58dff"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_3dd58dff",
+        "src_file": "src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理.md",
+        "pattern": "00_inbox/泛产品设计-落地卡片-风险管理.png",
+        "image": "00_inbox\\泛产品设计-落地卡片-风险管理.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计-需求工具箱指南",
+    "ocr_file": "ocr-泛产品设计-需求工具箱指南.md",
+    "domain": "泛产品设计",
+    "priority": "P1",
+    "source_refs": [
+      "src_20260522_726a6a3b"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_726a6a3b",
+        "src_file": "src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md",
+        "pattern": "00_inbox/泛产品设计-需求工具箱指南.png",
+        "image": "00_inbox\\泛产品设计-需求工具箱指南.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计的应用场景示意图",
+    "ocr_file": "ocr-泛产品设计的应用场景示意图.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_e985ecdb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e985ecdb",
+        "src_file": "src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md",
+        "pattern": "00_inbox/泛产品设计的应用场景示意图.png",
+        "image": "00_inbox\\泛产品设计的应用场景示意图.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计者的三大自我修养",
+    "ocr_file": "ocr-泛产品设计者的三大自我修养.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_2a53b1eb"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_2a53b1eb",
+        "src_file": "src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md",
+        "pattern": "00_inbox/泛产品设计者的三大自我修养.png",
+        "image": "00_inbox\\泛产品设计者的三大自我修养.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计者的自我修养",
+    "ocr_file": "ocr-泛产品设计者的自我修养.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_8995f40a"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_8995f40a",
+        "src_file": "src_20260522_8995f40a-ocr-泛产品设计者的自我修养.md",
+        "pattern": "00_inbox/泛产品设计者的自我修养.png",
+        "image": "00_inbox\\泛产品设计者的自我修养.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计落地工具篇指南",
+    "ocr_file": "ocr-泛产品设计落地工具篇指南.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_8bdb2970"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_8bdb2970",
+        "src_file": "src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md",
+        "pattern": "00_inbox/泛产品设计落地工具篇指南.png",
+        "image": "00_inbox\\泛产品设计落地工具篇指南.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-泛产品设计落地篇",
+    "ocr_file": "ocr-泛产品设计落地篇.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_e4b635ac"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e4b635ac",
+        "src_file": "src_20260522_e4b635ac-ocr-泛产品设计落地篇.md",
+        "pattern": "00_inbox/泛产品设计落地篇.png",
+        "image": "00_inbox\\泛产品设计落地篇.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-萃取总结",
+    "ocr_file": "ocr-萃取总结.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_4310e409"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4310e409",
+        "src_file": "src_20260522_4310e409-ocr-萃取总结.md",
+        "pattern": "00_inbox/萃取总结.png",
+        "image": "00_inbox\\萃取总结.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-顶级产品追求的方向-乔布斯",
+    "ocr_file": "ocr-顶级产品追求的方向-乔布斯.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_ea933690"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_ea933690",
+        "src_file": "src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯.md",
+        "pattern": "00_inbox/顶级产品追求的方向-乔布斯.png",
+        "image": "00_inbox\\顶级产品追求的方向-乔布斯.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-项目背景问题思考的8个维度",
+    "ocr_file": "ocr-项目背景问题思考的8个维度.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_4af61500"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_4af61500",
+        "src_file": "src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md",
+        "pattern": "00_inbox/项目背景问题思考的8个维度.png",
+        "image": "00_inbox\\项目背景问题思考的8个维度.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  },
+  {
+    "ocr_id": "ocr-预判模型",
+    "ocr_file": "ocr-预判模型.md",
+    "domain": "其他",
+    "priority": "P2",
+    "source_refs": [
+      "src_20260522_e71d89ff"
+    ],
+    "patterns": [
+      {
+        "ref": "src_20260522_e71d89ff",
+        "src_file": "src_20260522_e71d89ff-ocr-预判模型.md",
+        "pattern": "00_inbox/预判模型.png",
+        "image": "00_inbox\\预判模型.png",
+        "reason": null
+      }
+    ],
+    "n_images": 1,
+    "n_found": 1
+  }
+]

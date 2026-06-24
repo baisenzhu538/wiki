@@ -268,6 +268,15 @@ status: "completed"
     - 诊断记录模板新增「案例候选」节
     - 铁律新增第 13 条：入口审计必须扫描 ≥200 字叙事段落
   - 试用约定：在下一个新域入口审计中试用，效果好的固化为标准步骤
+- 2026-06-25：完成王欢《AI 2041》P2 8 张卡 20% 抽样六层交叉验证
+  - 验收报告：`60_feedback/audit/ai2041-p2-production-audit-20260625.md`
+  - 抽样：3 张（`concept-ai-information-quality-ladder`、`dk-ai-social-progress-not-automatic`、`case-ai-job-displacement-wef`）
+  - verdict：有条件通过 ⚠️；0 张不合格，但 2 个 frontmatter schema 问题在 P1 已提出、P2 重复出现
+  - 主要遗留：
+    - 6 张 P2 卡 `confidence` 字段为范围字符串（如 `0.75-0.85`），需改为单一数值
+    - 6 张 P2 卡 + 2 张 P1 dk 卡在 frontmatter 中使用了自定义字段 `source_person`/`source_context`，需移除并迁移到正文
+  - 已下达整改任务：`60_feedback/tasks/task_20260625_laowantong-ai2041-frontmatter-fix.md`（全 22 张卡）
+  - 整改通过后下一任务：`60_feedback/tasks/task_20260625_laowantong-synthesis-dk-cards.md`（9 张跨案例 dk 卡）
 - 2026-06-25：完成王欢《AI 2041》P1 9 张卡 20% 抽样六层交叉验证
   - 验收报告：`60_feedback/audit/ai2041-p1-production-audit-20260625.md`
   - 抽样：3 张（`tool-ai2041-source-verification-checklist`、`case-compas-racial-bias`、`case-apple-card-gender-bias`）

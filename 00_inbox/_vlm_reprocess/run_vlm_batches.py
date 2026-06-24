@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Process VLM description in batches for P0 domains.
+Process VLM description in batches for P1/P2 domains.
 Copies up to BATCH_SIZE images from _temp_<domain> to _batch_<domain>,
 runs describe-images-minimax.py, then moves processed images to _done_<domain>.
-Processes both domains concurrently.
+Processes domains concurrently.
 """
 import os
 import sys
@@ -58,20 +58,25 @@ def process_domain(domain: str):
     if rc != 0:
         return {'domain': domain, 'processed': 0, 'status': f'script exit {rc}', 'batch': [p.name for p in batch]}
 
-    # mark processed
+    # mark processed only if output exists; keep failures in temp for retry
+    processed = 0
     for img in batch:
-        shutil.move(img, done_dir / img.name)
+        out_path = out_dir / f"{img.stem}_vlm_desc.md"
+        if out_path.exists():
+            shutil.move(img, done_dir / img.name)
+            processed += 1
 
     # cleanup batch dir
     shutil.rmtree(batch_dir)
 
-    return {'domain': domain, 'processed': len(batch), 'status': 'ok', 'batch': [p.name for p in batch]}
+    failed = [img.name for img in batch if not (out_dir / f"{img.stem}_vlm_desc.md").exists()]
+    return {'domain': domain, 'processed': processed, 'status': 'ok', 'batch': [p.name for p in batch], 'failed': failed}
 
 
 def main():
-    domains = ['单元模型', '科学决策']
+    domains = ['泛产品设计', '个人修炼', '其他']
     results = []
-    with ProcessPoolExecutor(max_workers=2) as executor:
+    with ProcessPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(process_domain, d): d for d in domains}
         for future in as_completed(futures):
             res = future.result()
