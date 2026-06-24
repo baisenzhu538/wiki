@@ -69,6 +69,20 @@ print(fm.get('domain'))   # → ['strategy', 'lean-startup', 'ai-collaboration',
 | Rule 1 数字夸大 | 777 张 framework/tool 卡中，绝大多数可能已有跨域 related，只是未被解析 |
 | 无法作为生产门禁 | 在修复前，该脚本不能用于阻断卡片入库 |
 
+## 人工复核：bridge 卡真实覆盖情况
+
+使用标准 `yaml.safe_load()` 重新解析 5 张 bridge 卡的 `related`，并用前缀启发式推断每张 related 卡的域，结果如下：
+
+| 卡 ID | 目标域 | related 覆盖到的目标域 | 是否全覆盖 |
+|:---|:---|:---|:---:|
+| `framework-strategy-lean-validation` | strategy, lean-startup | strategy, lean-startup | ✅ |
+| `framework-five-step-lean-interface` | five-step, lean-startup | five-step, lean-startup | ✅ |
+| `framework-lean-pivot-decision` | decision, lean-startup | decision, lean-startup | ✅ |
+| `framework-ai-accelerated-strategy-cycle` | strategy, lean-startup, ai-collaboration | strategy, lean-startup, ai-collaboration | ✅ |
+| `framework-demand-lean-bridge` | demand-analysis, lean-startup | demand-analysis, lean-startup | ✅ |
+
+**结论**：5 张 bridge 卡全部满足 Rule 2 的“目标域覆盖 ≥2”要求。脚本报告中的 Rule 2=5 是**解析 bug 导致的假阳性**，不是 bridge 卡质量问题。
+
 ---
 
 ## 修复建议
@@ -105,8 +119,9 @@ def parse_frontmatter(text: str) -> dict | None:
 
 1. **暂停将本脚本作为验收门禁**，直到修复完成并重新验证；
 2. **当前 `cross-domain-link-report.md` 应标注为“因解析 bug 失效，待重新生成”**；
-3. **bridge 卡的真实跨域覆盖情况**：在王语嫣人工抽检中，`framework-ai-accelerated-strategy-cycle` 和 `framework-lean-pivot-decision` 的 related 网络覆盖目标域，暂不因脚本误报而退回；
-4. 黄药师修复脚本后，重新运行并生成新报告，再由王语嫣复核一次 bridge 卡覆盖情况。
+3. **bridge 卡真实覆盖情况已人工复核：5/5 全覆盖目标域**，不因脚本误报而退回；
+4. 黄药师修复脚本后，重新运行并生成新报告，验证 Rule 1/Rule 2/Rule 3 数字是否回归合理区间；
+5. 修复后，可将 Rule 2 作为 bridge 卡验收的关键信号（从 0→5 的跳变确实说明“桥接卡已入库”，但当前数字本身不可信）。
 
 ---
 

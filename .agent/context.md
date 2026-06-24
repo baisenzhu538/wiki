@@ -22,6 +22,7 @@ blockers:
   - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison、case-lean-b2b-sector-selection 已取消；若用户后续提供素材可作为 P2/P3 追加"
   - "✅ 精益创业 P2 全部完成：framework-lean-expert-roadmap + case-lean-crayfish-combo-test/shampoo-selling-points/radish-channel-selection/adult-education；精益创业域建制完整 45 张卡"
   - "🟡 黄药师跨域 related 审计脚本已交付但存在 frontmatter 解析 bug：自定义 YAML 解析器无法解析多行列表，导致 related/domain/source_refs 全部为空；报告中的 784 个异常几乎全部失真，详见 60_feedback/diagnosis/diag_20260625_wangyuyan_cross-domain-audit-script-bug.md"
+  - "✅ bridge 卡目标域覆盖已人工复核：5/5 全覆盖（strategy-lean-validation/five-step-lean-interface/lean-pivot-decision/ai-accelerated-strategy-cycle/demand-lean-bridge），脚本的 Rule 2=5 为假阳性"
   - "✅ 王语嫣 20% 抽样六层验收完成：跨域融合计划 + 精益创业近期产出 11 张新卡，verdict 有条件通过；报告见 60_feedback/audit/lean-cross-domain-production-audit-20260625.md"
   - "🟡 王语嫣验收报告轻微建议待处理：framework-ai-accelerated-strategy-cycle 中张磊 AMA 成本数字置信度建议从 0.85 降至 0.75-0.80"
   - "🆕 王欢《AI 2041》新素材待老顽童生产：P0 5 张 / P1 9 张 / P2 8 张，见 task_20260624_laowantong-ai2041-cards.md"
