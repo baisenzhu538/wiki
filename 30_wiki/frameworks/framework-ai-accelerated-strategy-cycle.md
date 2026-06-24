@@ -5,8 +5,8 @@ type: framework
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.85
-trust_level: high
+confidence: 0.75
+trust_level: medium
 language: zh-CN
 domain:
 - strategy
@@ -82,13 +82,13 @@ related:
 
 | FALSE 阶段 | 传统做法 | AI 加速方式 | 成本变化 |
 |:---|:---|:---|:---|
-| F 直接测试 | 手动 P 海报、写文案、投流看反馈 | AI 生成多版素材；AI 模拟用户快速测试需求假设 | 从 1-2 天压缩到几分钟 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] |
-| A 人工服务 | CEO 跑腿、个性咨询、人工摆摊 | 一个人 + AI 工具完成原来 3-5 人的工作量 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] | 周期从几周压缩到几天 |
-| L 借用现成 | 借竞品、借平台、借专家内容 | AI 生成测试内容、AI 快速搭建原型 | 从几千块降到接近零 [conf=0.75, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] |
-| S 人工替代 | 用人工模拟系统/算法 | AI 直接模拟系统，可自动迭代数百轮 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] | 效率提升约 10 倍 |
-| E 最小版本 | 只做核心功能集 | AI 写代码、AI 做设计、AI 自动分析行为并生成迭代方案 | 开发周期缩短到约 1/10 [conf=0.80, source=00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md] |
+| F 直接测试 | 手动 P 海报、写文案、投流看反馈 | AI 生成多版素材；AI 模拟用户快速测试需求假设 | 从 1-2 天压缩到几分钟 [conf=0.60, source=张磊 AMA 教学推演] |
+| A 人工服务 | CEO 跑腿、个性咨询、人工摆摊 | 一个人 + AI 工具完成原来 3-5 人的工作量 [conf=0.60, source=张磊 AMA 教学推演] | 周期从几周压缩到几天 [conf=0.55, source=张磊 AMA 教学推演] |
+| L 借用现成 | 借竞品、借平台、借专家内容 | AI 生成测试内容、AI 快速搭建原型 | 从几千块降到接近零 [conf=0.55, source=张磊 AMA 教学推演] |
+| S 人工替代 | 用人工模拟系统/算法 | AI 直接模拟系统，可自动迭代数百轮 [conf=0.60, source=张磊 AMA 教学推演] | 效率提升约 10 倍 [conf=0.55, source=张磊 AMA 教学推演] |
+| E 最小版本 | 只做核心功能集 | AI 写代码、AI 做设计、AI 自动分析行为并生成迭代方案 | 开发周期缩短到约 1/10 [conf=0.55, source=张磊 AMA 教学推演] |
 
->  FALSE 模型本身见 [[framework-lean-false-model]]。AI 没有改变模型结构，而是把各环节成本降到原来的约 1/10 [conf=0.85, source=00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt]。
+>  FALSE 模型本身见 [[framework-lean-false-model]]。AI 没有改变模型结构，而是把各环节成本降到原来的约 1/10 [conf=0.55, source=张磊 AMA 教学推演]。
 
 ## 与相邻卡的关系
 
