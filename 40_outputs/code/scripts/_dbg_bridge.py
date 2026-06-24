@@ -1,21 +1,23 @@
-import sys
+import re, sys
 sys.path.insert(0, "90_control/scripts")
-from cross_domain_audit import load_cards, domain_of, extract_related_ids
+from cross_domain_audit import parse_frontmatter, extract_related_ids
 from pathlib import Path
 
-vault = Path(".")
-cards = load_cards(vault)
-cid = "framework-strategy-lean-validation"
-fm = cards.get(cid, {})
-print(f"{cid} in cards: {cid in cards}")
-rel_ids = extract_related_ids(fm)
-print(f"related IDs: {rel_ids}")
-for rid in rel_ids:
-    d = domain_of(rid, cards)
-    print(f"  {rid} -> domain={d} (in cards: {rid in cards})")
-print(f"")
-target = {"strategy", "lean-startup"}
-domains = {domain_of(r, cards) for r in rel_ids if r}
-print(f"Computed domains: {sorted(domains)}")
-print(f"Target: {sorted(target)}")
-print(f"Covered: {sorted(domains & target)}")
+fp = Path("30_wiki/frameworks/framework-strategy-lean-validation.md")
+text = fp.read_text(encoding="utf-8")
+fm = parse_frontmatter(text)
+if fm:
+    print("id:", fm.get("id"))
+    rel = fm.get("related")
+    print("related raw:", repr(rel))
+    ids = extract_related_ids(fm)
+    print("extracted IDs:", ids)
+else:
+    print("parse_frontmatter returned None")
+    end = text.find("---", 3)
+    fm_text = text[3:end]
+    # Show related section
+    idx = fm_text.find("related:")
+    if idx >= 0:
+        print("FM section around related:")
+        print(repr(fm_text[idx:idx+300]))

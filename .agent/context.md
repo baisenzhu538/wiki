@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-25
 active_branch: main
-active_task: "王语嫣已完成跨域融合计划 + 精益创业近期产出 20% 抽样验收（有条件通过）；黄药师跨域审计脚本已交付但存在 frontmatter 解析 bug 待修复；唯一待执行：王欢《AI 2041》卡片化（P0 5 张 / P1 9 张 / P2 8 张）。"
+active_task: "老顽童无需等待，直接启动王欢《AI 2041》P0 生产（5 张）；同时并行修复 framework-ai-accelerated-strategy-cycle 成本数字置信度微调。黄药师跨域审计脚本 bug 独立修复，不阻塞 AI 2041。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -31,7 +31,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "优先让黄药师修复跨域审计脚本的 frontmatter 解析 bug（改用 yaml.safe_load），修复后重新生成报告；同时让老顽童修复 framework-ai-accelerated-strategy-cycle 成本数字置信度，然后启动王欢《AI 2041》P0 生产；欧阳锋可安排终审。"
+next_session_hint: "老顽童直接启动王欢《AI 2041》P0 生产，同时顺手修复 framework-ai-accelerated-strategy-cycle 成本数字置信度；黄药师独立修复跨域审计脚本 bug；AI 2041 P0 完成后王语嫣安排 20% 抽样验收。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
