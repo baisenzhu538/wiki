@@ -274,6 +274,11 @@ status: "completed"
   - 任务：`60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md`（P0 5 张 / P1 9 张 / P2 8 张）
   - 关键验证：Crawford / Mollick / Cambridge / 陈楸帆 / 李开复 80% 过滤器 / COMPAS / Apple Card / 荷兰育儿补贴 等核心引用已完成 WebSearch 交叉验证
   - 状态：老顽童待按 P0→P1→P2 分批生产；王语嫣待按 20% 抽样验收
+- 2026-06-25：发现黄药师跨域审计脚本 frontmatter 解析 bug
+  - 诊断：`60_feedback/diagnosis/diag_20260625_wangyuyan_cross-domain-audit-script-bug.md`
+  - 问题：自定义 YAML 解析器无法解析多行列表，导致 related/domain/source_refs 全部为空
+  - 影响：当前 `60_feedback/audit/cross-domain-link-report.md` 中 784 个异常几乎全部失真
+  - 建议：改用 `yaml.safe_load()` 修复；修复后重新生成报告并复核 bridge 卡覆盖
 - 2026-06-25：完成老顽童近期产出 20% 抽样六层交叉验证
   - 验收报告：`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`
   - 抽样：6 张（跨域 framework 2 张 + lean framework 1 张 + 跨域 case 1 张 + lean case 2 张）
