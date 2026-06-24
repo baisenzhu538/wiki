@@ -22,13 +22,15 @@ blockers:
   - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison、case-lean-b2b-sector-selection 已取消；若用户后续提供素材可作为 P2/P3 追加"
   - "✅ 精益创业 P2 全部完成：framework-lean-expert-roadmap + case-lean-crayfish-combo-test/shampoo-selling-points/radish-channel-selection/adult-education；精益创业域建制完整 45 张卡"
   - "✅ 黄药师跨域 related 审计脚本已交付：90_control/scripts/cross_domain_audit.py（已运行，报告输出至 60_feedback/audit/cross-domain-link-report.md）"
+  - "✅ 王语嫣 20% 抽样六层验收完成：跨域融合计划 + 精益创业近期产出 11 张新卡，verdict 有条件通过；报告见 60_feedback/audit/lean-cross-domain-production-audit-20260625.md"
+  - "🟡 王语嫣验收报告轻微建议待处理：framework-ai-accelerated-strategy-cycle 中张磊 AMA 成本数字置信度建议从 0.85 降至 0.75-0.80"
   - "🆕 王欢《AI 2041》新素材待老顽童生产：P0 5 张 / P1 9 张 / P2 8 张，见 task_20260624_laowantong-ai2041-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "精益创业域、跨域融合计划、跨域审计脚本均已全量完成；优先安排王语嫣对 5 张桥接卡 + 2 张跨域案例做 20% 抽样验收；然后启动王欢《AI 2041》P0 生产。"
+next_session_hint: "王语嫣抽样验收已完成，优先让老顽童修复验收报告中的轻微建议（framework-ai-accelerated-strategy-cycle 成本数字置信度微调），然后启动王欢《AI 2041》P0 生产；欧阳锋可安排终审。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
