@@ -12,6 +12,8 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
+source_person: 王欢
+source_context: 王欢在《AI 2041》拆书会第四幕以 COMPAS 作为“AI 外部性”的现实对照；本卡补充 ProPublica 原文与 Northpointe 辩护要点，避免仅复制王欢说法。
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -116,6 +118,20 @@ COMPAS（Correctional Offender Management Profiling for Alternative Sanctions）
 1. **调查记者公开数据与方法**：ProPublica 不仅讲故事，还公布了数据集和分析代码，使结论可被复现和攻击 [conf=0.90, source=ProPublica 2016]。
 2. **法律案例制造公共议程**：Wisconsin v. Loomis 等案件把算法评分引入宪法讨论，让抽象公平问题变成可诉讼的权利问题 [conf=0.85, source=公开判例报道]。
 3. **学术共同体接力**：公平性机器学习研究迅速把 COMPAS 作为经典案例，提炼出公平性指标冲突、公平性不可能定理等通用框架 [conf=0.80, source=学术二手资料]。
+
+---
+
+## 失败模式
+
+在借鉴或审计 COMPAS 式算法系统时，常见的踩坑方式与避免方法：
+
+| 失败模式 | 表现 | 避免方法 |
+|:---|:---|:---|
+| **只看整体准确率** | 认为“模型整体 61% 准确率可接受”，忽视不同族群的错误率差异 | 强制拆分 false positive / false negative，并按受保护群体报告 |
+| **把公平性外包给供应商** | 直接采用 Northpointe 定义的“校准公平”，不做独立审计 | 采购前明确本组织的公平标准，要求供应商提供分群错误率 |
+| **混淆意图与效果** | 因代码里没有种族变量，就认为不存在歧视 | 检查 proxy 变量（邮编、教育、就业、社交关系）是否携带族群信息 |
+| **把统计辩护当道德辩护** | 用“算法只是辅助法官”淡化评分对实际判决的影响 | 做影响评估：法官在多大程度上依赖分数？被告是否有质证机制？ |
+| **只曝光不建设** | 批评算法偏见后没有给出替代流程 | 配套设计人工复核、申诉通道、模型下架触发条件 |
 
 ---
 
