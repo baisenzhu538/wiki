@@ -57,6 +57,7 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 | `concept-ai-amara-law-business-judgment` | 阿马拉定律与商业判断校准——高估短期、低估长期 |
 | `concept-ai-chair-determines-view` | 椅子决定视角——作者的利益位置、技术立场、时代局限决定其 AI 判断 |
 | `concept-ai-neutrality-bias` | 中立的暴政——假装没有立场是最精明的立场 |
+| `concept-ai-information-quality-ladder` | 信息质量阶梯——从短视频/二手评论到一手论文的升维路径 |
 | `tool-ai-cross-reading-method` | 交叉阅读法——用 2-3 本立场相反的书对撞 |
 | `tool-ai2041-source-verification-checklist` | AI 预测来源验证检查单——来源可信度五问 + 信息质量阶梯 |
 
@@ -116,6 +117,9 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 |:--|:--|
 | `dk-yitang-ai-research-prompt-craft` | AI 效果取决于人判断+提示词技巧 |
 | `dk-yitang-research-ai-hallucination` | AI 幻觉——浅尝辄止 vs 双重验证 |
+| `dk-ai-prediction-expiry-date` | AI 预测的保质期——再权威的预测也有保质期 |
+| `dk-ai-social-progress-not-automatic` | 社会进步不会自动发生——AI 不会天然让世界更好 |
+| `dk-ai-scarcest-resource-is-self` | 最稀缺的资源是「自己」——AI 时代注意力与人格主权 |
 
 ## 案例
 
@@ -134,4 +138,4 @@ AI 协作域是 KDO 的 **执行引擎层**——它不定义"做什么"（战�
 ---
 
 *黄药师 · 2026-06-23 · AI 协作域建制（老顽童 P0+P1 增补）*
-*38 张卡 · 5 个 Skill · 3 个跨域桥接 · P0+P1 14/22 完成*
+*46 张卡 · 5 个 Skill · 3 个跨域桥接 · P0+P1+P2 22/22 完成*

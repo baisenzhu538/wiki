@@ -96,6 +96,10 @@ related:
 - [[cases/case-deepfake-market-misuse|Deepfake 的商业机会与滥用风险]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
 - [[cases/case-roblox-ai-npc-education|Roblox AI NPC 与教育场景]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
 - [[cases/case-ai-job-displacement-wef|WEF 对 AI 就业影响的预测]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
+- [[cases/case-ai-companion-emotional|AI 情感陪伴的目标函数错配]] — 王欢 AI 2041 拆书会 case 卡（P2 批次新增）
+- [[dk/dk-ai-prediction-expiry-date|AI 预测的保质期]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
+- [[dk/dk-ai-social-progress-not-automatic|社会进步不会自动发生]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
+- [[dk/dk-ai-scarcest-resource-is-self|最稀缺的资源是「自己」]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---
