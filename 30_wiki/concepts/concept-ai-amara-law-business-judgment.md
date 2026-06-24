@@ -13,9 +13,7 @@ domain:
 - critical_thinking
 - business_judgment
 source_refs:
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md §41-43
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md §197-282
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md §1163-1169
+- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
 - "[[ai-collaboration-domain-digest]]"

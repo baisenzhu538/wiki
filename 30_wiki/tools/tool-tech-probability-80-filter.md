@@ -13,9 +13,10 @@ domain:
 - critical_thinking
 - business_judgment
 source_refs:
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md §197-282
-- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md §B.1
-- https://tianpan.co/zh/blog/tags/ai
+- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
+- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
+- 60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md
+- 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-ooda-loop]]"
@@ -167,6 +168,12 @@ related:
 - 李开复 80% 概率过滤器作为《AI 2041》的叙事/方法设定，在二手书评中可得到佐证，但未见一手页码，故统一标注为 `[conf=0.70, source=王欢拆书归纳/二手书评]`。
 - 王欢对「三步探针法」的提炼属于王欢原创方法论，标注为 `[conf=0.70, source=王欢原创]`。
 - 书中具体技术清单（深度学习、NLP、计算机视觉、自动驾驶、量子计算、XR）属于二手概括，未逐项核对原始书目，故采用同一可信度。
+- 逐字稿对应段落：00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md 第二幕 §197-282。
+- 二手书评佐证：TianPan.co 对《AI 2041》的系列读书笔记，提及「基于未来20年内有超过80%可能性实现的技术，构建出的现实场景」[conf=0.70, source=王欢拆书归纳/二手书评]。
+
+---
+
+*老顽童 · 2026-06-24 · 基于王欢《AI 2041》拆书会逐字稿整理*
 
 ---
 

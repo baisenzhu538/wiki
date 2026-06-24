@@ -13,8 +13,8 @@ domain:
 - critical_thinking
 - reading_methodology
 source_refs:
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md §1044-1162
-- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md §A.3
+- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
+- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 related:
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
@@ -29,13 +29,13 @@ related:
 
 > **Burn line**：拆书不是复述内容，而是在作者的盲区上长出你自己可行动的认知。
 >
-> **来源**：王欢《AI 2041》拆书会逐字稿附录二；王语嫣九层深挖诊断。
+> **来源**：王欢《AI 2041》拆书会逐字稿附录二（第 1044–1162 行）；王语嫣九层深挖诊断附录 A.3。
 
 ---
 
-## 一句话定义
+## Purpose
 
-三层拆书批判法是一套把阅读从“信息搬运”升级为“认知生产”的工具：通过**还原**作者真正在运行的底层逻辑、**审计**其证据与立场盲区、**生长**出书中没有但读者可行动的判断，完成一次可复用的批判性阅读[conf=0.70, source=王欢原创]。
+三层拆书批判法解决“读了很多书却留不下可行动判断”的问题：它把阅读从“信息搬运”升级为“认知生产”，通过**还原**作者真正在运行的底层逻辑、**审计**其证据与立场盲区、**生长**出书中没有但读者可行动的判断，完成一次可复用的批判性阅读[conf=0.70, source=王欢原创]。
 
 ---
 
@@ -51,7 +51,7 @@ related:
 
 ---
 
-## 操作步骤：六步拆书法
+## Protocol/Procedure
 
 ### 第一步：查椅子
 
@@ -142,7 +142,7 @@ related:
 
 ---
 
-## 适用边界
+## When NOT to Use
 
 | 适合场景 | 不适合场景 |
 |:---|:---|
