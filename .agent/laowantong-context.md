@@ -56,17 +56,21 @@ updated: 2026-06-25
 
 ## 🆕 当前待办（2026-06-25 更新，优先级从高到低）
 
-> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。做完一件再开下一件，不准并行。
+> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。**不需要等待黄药师修复审计脚本，直接启动 AI 2041 P0。**
 
 ### 当前最高优先级
 
-1. **修复王语嫣验收报告轻微建议**（`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`）
-   - `framework-ai-accelerated-strategy-cycle`：将张磊 AMA 中“成本降到约 1/10”等经验数字的置信度从 0.85 降至 0.75-0.80，并注明为讲师经验断言
-
-2. **王欢《AI 2041》卡片化**（`task_20260624_laowantong-ai2041-cards.md`）
+1. **王欢《AI 2041》卡片化**（`task_20260624_laowantong-ai2041-cards.md`）
    - P0：5 张（2 framework + 2 tool + 1 concept）
    - P1：9 张（2 concept + 2 tool + 5 case）
    - P2：8 张（1 concept + 4 case + 3 dk）
+   - 说明：AI 2041 是独立新域，不依赖跨域审计脚本；按 P0→P1→P2 顺序执行，每完成 2-3 张通知王语嫣验收
+
+### 与 AI 2041 并行（5 分钟修复）
+
+2. **修复王语嫣验收报告轻微建议**（`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`）
+   - `framework-ai-accelerated-strategy-cycle`：将张磊 AMA 中“成本降到约 1/10”等经验数字的置信度从 0.85 降至 0.75-0.80，并注明为讲师经验断言
+   - 说明：此修复与 AI 2041 P0 并行，不阻塞启动
 
 ### 已验收完成（不要再继续）
 

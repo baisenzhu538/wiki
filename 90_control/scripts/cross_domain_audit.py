@@ -40,7 +40,7 @@ def parse_frontmatter(text: str) -> dict | None:
             pat = re.compile(rf"^{lk}:\n((?:\s+-.+\n?)*)", re.MULTILINE)
             m = pat.search(text[3:end])
             if m:
-                items = re.findall(r"^\s*-\s+(.+)$", m.group(1), re.MULTILINE)
+                items = re.findall(r"^\s*-+\s*(.+)$", m.group(1), re.MULTILINE)
                 result[lk] = [it.strip().strip('"').strip("'") for it in items]
     return result
 
