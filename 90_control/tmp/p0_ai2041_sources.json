@@ -1,0 +1,69 @@
+{
+  "framework-ai2041-critical-reading-os": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "AI 2041 批判性认知操作系统",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "开场 1-30",
+      "第二幕 197-282",
+      "第七幕 760-883",
+      "第八幕 885-966",
+      "附录二 1044-1159"
+    ]
+  },
+  "framework-ai-deconstruction-methodology": {
+    "type": "framework",
+    "dir": "30_wiki/frameworks",
+    "title": "王欢三层拆书法",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "附录二 1044-1159"
+    ]
+  },
+  "tool-ai-critical-reading-three-layers": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "三层拆书批判法",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "附录二 1044-1159"
+    ]
+  },
+  "concept-ai-amara-law-business-judgment": {
+    "type": "concept",
+    "dir": "30_wiki/concepts",
+    "title": "阿马拉定律与商业判断校准",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第二幕 197-282",
+      "附录三 1163-1169"
+    ],
+    "web_search": true
+  },
+  "tool-tech-probability-80-filter": {
+    "type": "tool",
+    "dir": "30_wiki/tools",
+    "title": "李开复 80% 概率过滤器",
+    "sources": [
+      "00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md",
+      "60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md"
+    ],
+    "focus_ranges": [
+      "第二幕 197-282"
+    ],
+    "web_search": true
+  }
+}
