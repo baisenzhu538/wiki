@@ -187,9 +187,104 @@ def main(dry_run=False):
     print(f"\n{mode}写入: {written} | 跳过（无相似卡）: {skipped}")
 
 
+def verify():
+    """Spot-check recommendation quality by sampling 5 cards with related fields.
+
+    For each sampled card, prints: the card body snippet, each recommended related
+    card with its TF-IDF similarity score and body snippet.  No files are written.
+    A human reviews the output to judge whether the recommendations make sense.
+    """
+    import random
+    random.seed(42)  # reproducible
+
+    all_cards, no_outgoing, id_to_idx = _scan_cards()
+    print(f"卡片总数: {len(all_cards)} | 无出链: {len(no_outgoing)}")
+
+    # Only verify cards that already have related fields (written by a prior run)
+    with_related = [c for c in all_cards if get_related(c["fm"])]
+    if not with_related:
+        print("没有已写入 related 的卡片。先运行 auto-related.py 再 --verify。")
+        return
+
+    sample = random.sample(with_related, min(5, len(with_related)))
+    print(f"有 related 的卡片: {len(with_related)} | 抽检: {len(sample)}\n")
+
+    texts = [c["text"] for c in all_cards]
+    vectorizer = TfidfVectorizer(max_features=5000, stop_words=None, lowercase=False)
+    tfidf = vectorizer.fit_transform(texts)
+
+    for i, card in enumerate(sample, 1):
+        related_ids = get_related(card["fm"])
+        body_preview = card["text"][:200].replace("\n", " ").strip()
+        print(f"{'='*72}")
+        print(f"#{i}  {card['id']}  [{card['type']}]  {card.get('title','')[:60]}")
+        print(f"  正文预览: {body_preview}...")
+        print(f"  推荐 {len(related_ids)} 张关联卡:")
+
+        c_idx = id_to_idx[card["id"]]
+        query_vec = tfidf[c_idx]
+        sims = cosine_similarity(query_vec, tfidf).flatten()
+
+        for rid in related_ids:
+            if rid not in id_to_idx:
+                print(f"    [[{rid}]]  (卡片不在索引中)")
+                continue
+            r_idx = id_to_idx[rid]
+            r_card = all_cards[r_idx]
+            r_body = r_card["text"][:150].replace("\n", " ").strip()
+            score = sims[r_idx]
+            bar = "█" * max(1, int(score * 40))
+            print(f"    [[{rid}]]  [{r_card['type']}]  sim={score:.3f} {bar}")
+            print(f"      {r_card.get('title','')[:60]}")
+            print(f"      {r_body}...")
+            print()
+
+    print(f"{'='*72}")
+    print("抽检完毕。人工判断标准：")
+    print("  sim ≥ 0.30 → 通常合理")
+    print("  0.15 ≤ sim < 0.30 → 需要人工确认")
+    print("  sim < 0.15 → 大概率噪音（已过滤）")
+
+
+def _scan_cards():
+    """Shared card scanning logic used by both main() and verify()."""
+    all_cards = []
+    for f in sorted(WIKI.rglob("*.md")):
+        if any(p in str(f) for p in ["_archive", "raw/", ".git", "index.md", "log.md"]):
+            continue
+        try:
+            text = f.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        fm = parse_frontmatter(text)
+        if not fm or "id" not in fm:
+            continue
+        body = extract_text(f)
+        all_cards.append({
+            "id": fm["id"],
+            "title": fm.get("title", ""),
+            "type": fm.get("type", "?"),
+            "status": fm.get("status", "?"),
+            "domain": fm.get("domain", ""),
+            "text": body[:3000],
+            "path": str(f.relative_to(WIKI)).replace("\\", "/"),
+            "fpath": f,
+            "fm": fm,
+        })
+
+    id_to_idx = {c["id"]: i for i, c in enumerate(all_cards)}
+    no_outgoing = [c for c in all_cards if not get_related(c["fm"])]
+    return all_cards, no_outgoing, id_to_idx
+
+
 if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser()
-    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--dry-run", action="store_true", help="预览影响范围，不写入")
+    p.add_argument("--verify", action="store_true", help="随机抽检5张已有related的卡片，人工判断推荐质量")
     args = p.parse_args()
-    main(dry_run=args.dry_run)
+
+    if args.verify:
+        verify()
+    else:
+        main(dry_run=args.dry_run)
