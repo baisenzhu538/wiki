@@ -8,7 +8,7 @@ trust_level: high
 domain:
   - master
 created_at: "2026-06-16"
-updated_at: "2026-06-24"
+updated_at: "2026-06-25"
 author: 黄药师
 reviewed_by: pending
 source_refs:
@@ -104,6 +104,7 @@ related:
 - [[dk/dk-ai-prediction-expiry-date|AI 预测的保质期]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
 - [[dk/dk-ai-social-progress-not-automatic|社会进步不会自动发生]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
 - [[dk/dk-ai-scarcest-resource-is-self|最稀缺的资源是「自己」]] — 王欢 AI 2041 拆书会 DK 卡（P2 批次新增）
+- [[dk/dk-yitang-model-asset-capitalization|组织级模型资产的盘点、定价与迭代]] — yitang 域跨案例合成 DK 卡
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---
