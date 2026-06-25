@@ -206,6 +206,9 @@ related:
 | `dk-yitang-research-source-freshness` | 信源时效性：AI/监管/融资 ≤30 天 |
 | `dk-yitang-expert-interview-5-traps` | 专家访谈 5 大陷阱 |
 | `dk-yitang-survivor-bias-in-research` | 幸存者偏差：亏钱的人不会说话 |
+| `dk-research-identity-craft-for-closed-information` | 为获取封闭情报设计合法身份 |
+| `dk-research-triangulation-stop-rule` | 多源交叉验证的停止规则 |
+| `dk-research-decision-first-mapping` | 研究活动如何服务决策 |
 | `dk-research-multi-identity-validation` | ⏳ 待建：多重身份验证（欧阳锋建议） |
 | `dk-research-failure-premium` | ⏳ 待建：失败者溢价——关店比开店更值得调研（欧阳锋建议） |
 

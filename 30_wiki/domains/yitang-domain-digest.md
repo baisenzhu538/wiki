@@ -78,6 +78,14 @@ related:
 | 需求分析 ←→ 调研 | 冰山 L6 假设需要全网数据验证 |
 | AI 协作 ←→ 调研 | AI 多 Agent 架构是调研域的自动化实现 |
 
+## 跨案例合成暗知识
+
+| 卡 | 一句话 |
+|:--|:--|
+| `dk-yitang-behavior-over-asking` | 调研中行为证据重于口头证据 |
+| `dk-yitang-business-model-risk-over-product-risk` | 商业模式风险高于产品风险：别在模式没跑通前做完美产品 |
+| `dk-yitang-model-asset-capitalization` | 组织级模型资产的盘点、定价与迭代 |
+
 ---
 
 *黄药师 · 2026-06-23 · 一堂总域建制*
