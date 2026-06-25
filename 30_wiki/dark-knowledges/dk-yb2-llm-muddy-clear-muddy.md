@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb2-llm-muddy-clear-muddy
 title: 大模型训练本质：浑水→清水→浑水的双向转换
 type: dark-knowledge
@@ -13,6 +14,9 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
+  - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+  - '[[case-yitang-luckin-field-research]]'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 - '[[master-knowledge-compound]]'
 pipeline:

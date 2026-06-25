@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-revenue-is-customer-cost
 title: To B 收入本质 = 客户成本
 type: concept
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[case-yitang-tob-grinding-machine]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-solution-model]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

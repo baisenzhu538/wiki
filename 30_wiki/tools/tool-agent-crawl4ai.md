@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Crawl4AI GitHub (unclecode/crawl4ai)
 - web: Web scraping state 2026 (dev.to)
 related:
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-overview]]'
+  - '[[tool-osint-maltego]]'
+  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 - "[[tool-agent-native-overview]]"
 - "[[tool-agent-firecrawl]]"
 ---

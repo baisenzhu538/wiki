@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-expert-roadmap
 title: 精益高手十年修炼地图
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
+  - '[[modeling-level-map]]'
+  - '[[yt-business-formula-l6-essence-formulas]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"
 - "[[framework-lean-abcd-model]]"

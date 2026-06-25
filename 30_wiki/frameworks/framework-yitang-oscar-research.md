@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-oscar-research
 title: OSCAR调研模型：从目标锁定到正确归因的五步法
 type: framework
@@ -30,6 +31,11 @@ source_refs:
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
+  - '[[framework-yitang-high-level-execution]]'
+  - '[[framework-yitang-four-research-types]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[concept-yitang-research-scope]]'
+  - '[[framework-yitang-high-level-plan]]'
 - "[[framework-yitang-high-level-plan]]"
 - "[[framework-yitang-high-level-execution]]"
 - "[[framework-yitang-four-research-types]]"

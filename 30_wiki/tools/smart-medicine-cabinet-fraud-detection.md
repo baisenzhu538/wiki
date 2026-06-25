@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-fraud-detection
 title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
@@ -24,6 +25,11 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-decision-hygiene]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'

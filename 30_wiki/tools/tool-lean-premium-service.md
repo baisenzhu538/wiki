@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-premium-service
 title: 超值服务：用 VIP 服务验证标准服务
 type: tool
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
+  - '[[tool-lean-human-replace-system]]'
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-cut-features]]'
+  - '[[tool-lean-presell]]'
+  - '[[tool-lean-human-replace-rnd]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

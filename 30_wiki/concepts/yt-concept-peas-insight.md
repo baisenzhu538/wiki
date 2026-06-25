@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
@@ -19,6 +20,11 @@ query_triggers:
 - 什么是PEAS
 - 升级本质是换架构
 related:
+  - '[[yt-panproduct-demand-project-background]]'
+  - '[[yt-system-course-map-lecture]]'
+  - '[[yt-tool-peas-agent-analysis]]'
+  - '[[yt-model-agent-architecture]]'
+  - '[[诊所o2o外卖平台业务深度调研报告]]'
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[yt-model-agent-architecture]]'
 - '[[yt-model-cognitive-upgrade-framework]]'

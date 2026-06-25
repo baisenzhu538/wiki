@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
 type: dark-knowledge
@@ -12,6 +13,11 @@ source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
 source_refs: []
 related:
+  - '[[dk-small-format-error-cascades-to-system-failure]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[dk-f10-broken-source-refs]]'
 - '[[dk-f8-phony-wikilink]]'
 - '[[dk-p11-regex-cutoff]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-travel-receipt-analysis
 title: 案例：旅行公司收据分析——从单据反推真实数据
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-doris-outbound-travel-community]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[tool-yitang-reverse-data-analysis]]"
 - "[[tool-yitang-field-research]]"
 ---

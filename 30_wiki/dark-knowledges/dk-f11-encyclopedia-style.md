@@ -1,4 +1,5 @@
 ---
+
 id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[tool-strategy-lifecycle]]'
+  - '[[dk-f7-surface-translation]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
+  - '[[dk-f9-generic-critique]]'
+  - '[[dk-p4-batch-format-empty]]'
 - '[[master-first-principles]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[kdo-flywheel]]'

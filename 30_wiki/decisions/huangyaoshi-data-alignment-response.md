@@ -1,5 +1,6 @@
 ---
 
+
 id: huangyaoshi-data-alignment-response
 title: 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
 type: decision
@@ -16,6 +17,11 @@ target_roles:
 - 用户（决策者）
 supersedes: null
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
 - '[[three-party-data-alignment]]'
 - '[[ouyangfeng-data-alignment-response]]'
 - '[[plan_20260531_data-curator-v1.3]]'

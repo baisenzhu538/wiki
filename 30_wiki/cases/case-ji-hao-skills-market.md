@@ -1,4 +1,5 @@
 ---
+
 id: case-ji-hao-skills-market
 title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
 type: case
@@ -28,6 +29,11 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
+  - '[[case-truman-ai-skill-self-packaging]]'
+  - '[[agent-ecosystem-design]]'
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'

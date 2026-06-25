@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-consulting-jokes
 title: 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 type: dark-knowledge
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9
 related:
+  - '[[case-demand-dialer]]'
+  - '[[case-demand-tier4-housekeeping]]'
+  - '[[case-demand-milkshake-jtbd]]'
+  - '[[case-demand-travel-agent]]'
+  - '[[case-demand-indonesia-insurance]]'
 - "[[dk-strategy-04-consulting-trap]]"
 ---
 **笑话1（属羊）**：咨询公司报告"你的核心客户是属羊的"——花了200万，告诉了你早就知道的事

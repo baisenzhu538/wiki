@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
@@ -30,6 +31,11 @@ tools_required:
 - 麦克风（手机内置或蓝牙耳机）
 prerequisite_skills: []
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[sk-ai-ai-workspace-setup]]'
 - '[[course-to-skill-conversion]]'
 author: 半肥猫

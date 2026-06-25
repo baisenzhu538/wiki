@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.85
 trust_level: medium
 related:
+  - '[[yt-tob-barriers]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-cash-flow]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

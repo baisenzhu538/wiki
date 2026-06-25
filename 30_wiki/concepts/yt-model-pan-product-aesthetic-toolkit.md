@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-composite-pan-product-methodology
@@ -23,6 +24,11 @@ query_triggers:
 - 审美建模方法
 - 如何建立审美标准
 related:
+  - '[[yt-model-pan-product-three-virtues]]'
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-model-pan-product-36-strategies]]'
+  - '[[yt-composite-pan-product-methodology]]'
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'

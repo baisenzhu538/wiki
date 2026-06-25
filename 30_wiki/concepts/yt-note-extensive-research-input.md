@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
@@ -13,6 +14,11 @@ confidence: 0.84
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 related:
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-expert-interview-modeling]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[skill-问题驱动式深度思考笔记]]'
 - '[[skill-多源输入法]]'
 - '[[yt-note-l4-internalization]]'
 - '[[yt-note-checklist-concept]]'

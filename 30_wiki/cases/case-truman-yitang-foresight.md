@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
@@ -34,6 +35,11 @@ wiki_refs:
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[case-gudong-tea-shop-foresight]]'
 related:
+  - '[[yt-foresight-15-char-mantra]]'
+  - '[[case-gudong-tea-shop-foresight]]'
+  - '[[yt-foresight-probability-engineering]]'
+  - '[[skill-一堂-business-prediction-15-char]]'
+  - '[[yt-foresight-deliverables-four-levels]]'
 - "case-ether-online-acquisition"
 - "yt-management-founder-role"
 pipeline:

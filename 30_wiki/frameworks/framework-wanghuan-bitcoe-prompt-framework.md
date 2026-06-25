@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - '10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
 - '10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-say-think-do-toolchain]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[tool-wanghuan-ai-business-profile]]'

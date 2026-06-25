@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-job-intelligence-research
 title: 招聘渠道情报：五层递进挖掘竞对内部信息
 type: tool
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[tool-doris-industry-report-search-tips]]'
+  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+  - '[[framework-lean-expert-roadmap]]'
+  - '[[skill-按分阶练习路径渐进掌握方法]]'
+  - '[[proposal-prompt-injection-infrastructure]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-social-engineering-research]]"
 - "[[tool-yitang-organization-research]]"

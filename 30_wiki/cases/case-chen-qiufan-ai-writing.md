@@ -1,4 +1,5 @@
 ---
+
 id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[concept-ai-amara-law-business-judgment]]'
+  - '[[case-dutch-childcare-scandal]]'
+  - '[[case-ai-companion-emotional]]'
+  - '[[case-cambridge-novelists-survey]]'
+  - '[[dk-ai-prediction-expiry-date]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

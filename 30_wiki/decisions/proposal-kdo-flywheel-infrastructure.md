@@ -1,4 +1,5 @@
 ---
+
 title: 飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机制
 type: improvement-plan
 status: draft
@@ -14,6 +15,11 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - source_unknown
 related:
+  - '[[kdo-flywheel]]'
+  - '[[sprint-6-cli-gap-proposal]]'
+  - '[[dk-f5-stale-feedback-ref]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
 - '[[proposal-deep-synthesis-infrastructure]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[case-ai-agent-milestone-design]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[dk-modeling-ai-iterative-prompting]]'

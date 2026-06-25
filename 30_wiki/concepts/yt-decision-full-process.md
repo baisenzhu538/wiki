@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-full-process
 component_of:
 - yt-decision-y-model
@@ -25,6 +26,11 @@ query_triggers:
 - 复盘循环
 - 决策训练
 related:
+  - '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+  - '[[ocr-一堂-单元模型-修炼地图]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'

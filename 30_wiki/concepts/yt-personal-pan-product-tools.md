@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-tools
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计工具篇
 - 泛产品设计工具篇：出牌教学法与30张卡牌
 related:
+  - '[[ocr-一堂-地图-创业地图]]'
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[yt-research-action-camp-launch]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
+  - '[[yt-personal-thinking-models]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'

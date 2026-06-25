@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-incubation-polish
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地执行
 - 酝酿式打磨
 related:
+  - '[[yt-panproduct-execution-realistic-simulation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-execution-review-iteration]]'

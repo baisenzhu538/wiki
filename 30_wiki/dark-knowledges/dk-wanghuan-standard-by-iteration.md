@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-standard-by-iteration
 title: 王欢暗知识：标准不清时，用AI对抗AI生成标准
 type: dark-knowledge
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - human-ai-collaboration-double-triangle
 - framework-wanghuan-actor-director-mode
 - concept-wanghuan-adversarial-generation

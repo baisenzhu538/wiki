@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-financial-report-intelligence
 title: 财报/招股书情报：用上市公司公开报告做创业预判
 type: tool
@@ -29,6 +30,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-笔记.txt
 related:
+  - '[[tool-yitang-comparable-company-selection]]'
+  - '[[case-proya-betaine-skincare-benchmark]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[ocr-一堂五步法画布]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-comparable-company-selection]]"
 - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-ai-cross-validation
 title: 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 type: dark-knowledge
@@ -28,6 +29,11 @@ diagnostic_signals:
 - 手边能找到 2–3 份官方指南、专家报告或竞品实践作为参照
 - 团队内部对质量标准存在分歧，需要第三方尺度对齐
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-case-explosion-confidence]]'
+  - '[[dk-modeling-ai-iterative-prompting]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'

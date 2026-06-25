@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-funnel-formula-modeling
 title: 漏斗图/公式建模法：量化流程与关键变量
 type: tool
@@ -21,6 +22,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.89
 related:
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-radar-chart-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[tool-canvas-weapon-library-modeling]]'
+  - '[[tool-binary-quadrant-modeling]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'
 - '[[tool-radar-chart-modeling]]'

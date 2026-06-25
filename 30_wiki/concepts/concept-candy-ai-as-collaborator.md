@@ -1,4 +1,5 @@
 ---
+
 id: concept-candy-ai-as-collaborator
 title: Candy：AI是协作者而非代写工具
 type: concept
@@ -14,6 +15,11 @@ domain: [yitang, content-production, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[concept-yitang-ideal-research-goal]]'
+  - '[[concept-harness-cattle-not-pets]]'
+  - '[[tool-yitang-weapon-former-employee-network]]'
 - "[[framework-wanghuan-gan-three-roles]]"
 - "[[concept-harness-cattle-not-pets]]"
 - "[[framework-candy-transcript-workflow]]"

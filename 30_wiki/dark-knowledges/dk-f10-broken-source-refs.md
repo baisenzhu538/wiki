@@ -1,4 +1,5 @@
 ---
+
 id: dk-f10-broken-source-refs
 title: F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
+  - '[[proposal-ai-domain-mastery-pipeline]]'
+  - '[[dk-kdo-leaky-pipe-pressure]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[master-first-principles]]'
 - '[[master-ai-info-literacy]]'
 pipeline:

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-fab-persuasion
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,8 @@ query_triggers:
 - 转化文案怎么写
 - 用户价值描述
 related:
+  - '[[yt-model-conversion-optimization]]'
+  - '[[case-truman-motivation-map-12-versions]]'
 - '[[yt-model-conversion-optimization]]'
 - '[[yt-panproduct-demand-motivation-resistance]]'
 - '[[yt-entrepreneur-needs-analysis]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -18,6 +19,11 @@ query_triggers:
 - 迭代层的双螺旋
 - 领先层六大能力
 related:
+  - '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+  - '[[yt-model-management-map]]'
+  - '[[ocr-一堂-个人修炼-课程清单]]'
+  - '[[ocr-一堂-地图-个人地图]]'
+  - '[[yt-model-progress-map]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[case-personal-map-modeling]]'
 - '[[case-truman-personal-growth-map-creation]]'

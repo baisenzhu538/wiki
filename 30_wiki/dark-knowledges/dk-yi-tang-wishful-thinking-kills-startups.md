@@ -1,4 +1,5 @@
 ---
+
 id: dk-yi-tang-wishful-thinking-kills-startups
 title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
+  - '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
+  - '[[dk-demand-misjudgment-rate]]'
+  - '[[case-milktea-five-step]]'
+  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[yt-tool-product-core-canvas]]'

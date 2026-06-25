@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-framework-landscape
 title: 战略框架全景图：冉鹏覆盖了什么、没覆盖什么
 type: concept
@@ -14,6 +15,11 @@ domain: [strategy]
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
+  - '[[strategy-domain-digest]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[tool-strategy-four-moves]]'
+  - '[[framework-multi-agent-research-architecture]]'
+  - '[[framework-strategy-brm]]'
 - "[[framework-strategy-brm]]"
 - "[[framework-strategy-six-stages]]"
 ---

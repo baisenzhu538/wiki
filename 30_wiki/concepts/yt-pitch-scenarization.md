@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-pitch-scenarization
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -21,6 +22,11 @@ query_triggers:
 - 场景触发
 - 用户场景
 related:
+  - '[[yt-pitch-aphorism]]'
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb27-pseudo-layer-evasion
 title: 伪图层叠加规避平台图像识别
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb30-ecommerce-channel-version]]'
+  - '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
+  - '[[dk-yb29-prompt-migrate-copy-first]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-essence-humanity-trap
 title: 案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质的陷阱
 type: case
@@ -26,6 +27,11 @@ diagnostic_signals:
 - 讨论停留在解释过去失败，而不是预测下一步行动
 - 被要求推导具体方案时，专家开始绕圈或诉诸更多大词
 related:
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[dk-modeling-essence-predictive]]'
+  - '[[case-essence-education-strategy]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[case-essence-entrepreneurship]]'
 - '[[case-essence-education-strategy]]'
 - '[[dk-modeling-essence-predictive]]'

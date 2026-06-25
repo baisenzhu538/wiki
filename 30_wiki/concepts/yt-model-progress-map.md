@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -18,6 +19,11 @@ query_triggers:
 - 核心口号
 - 知识体系定位
 related:
+  - '[[yt-model-personal-map]]'
+  - '[[yt-model-y-organization]]'
+  - '[[yt-model-management-map]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[一堂]]'
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-model-management-map]]'
 - '[[yt-model-personal-map]]'

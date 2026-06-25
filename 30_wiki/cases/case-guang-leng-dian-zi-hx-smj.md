@@ -1,4 +1,5 @@
 ---
+
 id: case-guang-leng-dian-zi-hx-smj
 title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 type: case
@@ -25,6 +26,11 @@ review_date: 2026-06-19
 confidence: 0.89
 trust_level: high
 related:
+  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[dk-ef-002-bom-version-async]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
 - '[[dk-ef-002-bom-version-async]]'
 - '[[dk-ef-003-hand-soldering-bom-divergence]]'

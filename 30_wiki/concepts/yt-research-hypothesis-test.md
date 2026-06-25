@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-hypothesis-test
 confidence: 0.9
 created_at: 2026-05-18
@@ -19,6 +20,11 @@ query_triggers:
 - 可证伪
 - 假设测试
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[yt-research-competitor-toolkit]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[yt-product-kernel-hypothesis-test]]'
+  - '[[tool-yitang-research-validate-assumption]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-intelligence-map]]'
 - '[[yt-research-competitor-toolkit]]'

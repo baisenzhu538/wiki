@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
+  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'

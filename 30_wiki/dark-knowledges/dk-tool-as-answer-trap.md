@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-as-answer-trap
 title: 把工具/框架当成答案，而不是提问的脚手架
 type: dark-knowledge
@@ -16,6 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 related:
+  - '[[dk-fundamentals-before-advanced-ops]]'
+  - '[[dk-infrastructure-guardrails-over-checklist]]'
+  - '[[dk-modeling-question-scaffold-not-answer]]'
+  - '[[tool-scenario-selector-modeling]]'
+  - '[[dk-tool-as-phased-validator]]'
 - '[[yt-lean-assumption-prioritization]]'
 - '[[yt-tob-product-kernel]]'
 - '[[tool-checklist-cheatsheet-modeling]]'

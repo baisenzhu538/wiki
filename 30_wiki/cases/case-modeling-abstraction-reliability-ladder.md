@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-abstraction-reliability-ladder
 title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 type: case
@@ -22,6 +23,11 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[model-quality-four-levels]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 - '[[case-modeling-abstraction-yitang-models]]'

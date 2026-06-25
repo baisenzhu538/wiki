@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-three-horizons
 title: 三个地平线：短中长期业务组合管理
 type: framework
@@ -16,6 +17,8 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[tool-strategy-three-horizons]]'
+  - '[[yt-pitch-emotionalization]]'
 - '[[framework-strategy-ansoff]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-lifecycle]]'

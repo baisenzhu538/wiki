@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-exhaust-means
 title: 穷尽手段：底线之上，努力拉满
 type: tool
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[concept-yitang-research-scope]]'
+  - '[[tool-yitang-research-single-point-sniper]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-intelligence-map-in-hand]]"

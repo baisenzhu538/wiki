@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-five-forces
 title: 波特五力分析框架
 type: framework
@@ -16,6 +17,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-blue-ocean-canvas]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[case-strategy-snack-industry-chain]]'
 - '[[framework-strategy-blm]]'

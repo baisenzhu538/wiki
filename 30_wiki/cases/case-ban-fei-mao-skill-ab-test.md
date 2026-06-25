@@ -1,4 +1,5 @@
 ---
+
 id: case-ban-fei-mao-skill-ab-test
 title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比
 type: case
@@ -17,6 +18,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'

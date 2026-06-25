@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -24,6 +25,11 @@ query_triggers:
 - 美好作品想象
 - 设计标准
 related:
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
 - '[[yt-model-product-excellence]]'
 - '[[yt-model-aesthetic-progression]]'

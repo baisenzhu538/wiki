@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-silky-answers-are-dangerous
 title: '暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱'
 type: dk
@@ -12,6 +13,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[case-ban-fei-mao-from-assignment-to-tool]]'
+  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 - '[[skill-半肥猫-ai-research-validation]]'
 - '[[case-ban-fei-mao-from-assignment-to-tool]]'
 wiki_refs:

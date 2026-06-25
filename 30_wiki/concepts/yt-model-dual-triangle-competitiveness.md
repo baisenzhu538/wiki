@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
@@ -17,6 +18,11 @@ query_triggers:
 - 基础层
 - 知识体系定位
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[ocr-一堂-科学决策-人机协作决策]]'
+  - '[[ocr-一堂-个人修炼-双三角模型]]'
+  - '[[ocr-一堂-人机协作-双三角模型]]'
+  - '[[case-yitang-double-triangle-confidence]]'
 - '[[yt-model-muse-ai-framework]]'
 - '[[yt-personal-ai-capability]]'
 - '[[yt-personal-ipo-learning]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-dutch-childcare-scandal
 title: 荷兰育儿补贴算法丑闻
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[tool-lean-stealth-service]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[case-ai-companion-emotional]]'
+  - '[[dk-ai-prediction-expiry-date]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-ooda-loop]]"

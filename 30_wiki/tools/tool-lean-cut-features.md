@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-cut-features
 title: 太复杂就砍功能
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-presell]]'
+  - '[[tool-lean-minimum-version]]'
+  - '[[tool-lean-fake-product]]'
+  - '[[tool-lean-minimum-test-volume]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-four-principles]]"
 - "[[framework-lean-six-wastes]]"

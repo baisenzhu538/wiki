@@ -1,4 +1,5 @@
 ---
+
 id: huangyaoshi-extractor-upgrade-report
 title: 黄药师：暗知识萃取器 B+→A 升级报告
 type: decision
@@ -11,6 +12,11 @@ target_roles:
 - 欧阳锋（Architect）
 - 用户（决策者）
 related:
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[smart-device-foodservice-automation]]'
+  - '[[beverage-foodservice-channel]]'
 - '[[data-curator-role-division]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 author: unknown

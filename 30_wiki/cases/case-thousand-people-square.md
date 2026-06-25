@@ -1,5 +1,6 @@
 ---
 
+
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
+  - '[[dk-modeling-counterexample-driven]]'
+  - '[[case-course-milestone-model]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[case-essence-entrepreneurship]]'
+  - '[[concept-thousand-people-square]]'
 - '[[concept-thousand-people-square]]'
 - '[[case-personal-map-modeling]]'
 - '[[yt-five-step-method]]'

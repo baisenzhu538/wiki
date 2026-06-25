@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-shareholder-analysis
 title: 股东信息穿透：从股权结构看利益格局
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-bp-analysis]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 - "[[tool-yitang-business-registration-check]]"
 ---

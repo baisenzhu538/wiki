@@ -1,4 +1,5 @@
 ---
+
 id: tool-tech-probability-80-filter
 title: 李开复 80% 概率过滤器
 type: tool
@@ -18,6 +19,11 @@ source_refs:
 - 60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[concept-ai-amara-law-business-judgment]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[dk-ai-social-progress-not-automatic]]'
+  - '[[dk-ai-scarcest-resource-is-self]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-ooda-loop]]"
 - "[[framework-wanghuan-gan-three-roles]]"

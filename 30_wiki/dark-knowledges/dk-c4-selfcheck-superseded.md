@@ -1,4 +1,5 @@
 ---
+
 id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[dk-c2-dual-status-machine]]'
+  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+  - '[[sprint-2-门禁举证验收]]'
 - '[[dk-c5-todo-false-positive]]'
 - '[[dk-c2-dual-status-machine]]'
 - '[[master-cognitive-bias-checklist]]'

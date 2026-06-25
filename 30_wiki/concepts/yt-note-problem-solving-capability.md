@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
@@ -13,6 +14,11 @@ confidence: 0.88
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-expert-interview-modeling]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[skill-问题驱动式深度思考笔记]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-l4-internalization]]'
 - '[[dk-truman-flag-note-taking]]'

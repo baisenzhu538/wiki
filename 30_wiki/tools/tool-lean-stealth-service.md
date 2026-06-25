@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-stealth-service
 title: 偷偷服务：用人工模拟产品后端
 type: tool
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-presell]]'
+  - '[[tool-lean-leverage-competitor]]'
+  - '[[tool-lean-leverage-tools]]'
+  - '[[tool-lean-leverage-resources]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

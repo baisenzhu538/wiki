@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dark-knowledge
@@ -16,6 +17,11 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[process-modeling]]'
 - '[[modeling-three-stages]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-sherlock
 title: Sherlock：用户名跨平台追踪——找到一个人的所有社交账号
 type: tool
@@ -15,6 +16,10 @@ source_refs:
 - web: Sherlock GitHub (sherlock-project/sherlock)
 - web: OSINT tools comparison 2026
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-osint-maltego]]'
+  - '[[tool-osint-overview]]'
 - "[[tool-osint-overview]]"
 - "[[tool-yitang-people-network-database]]"
 ---

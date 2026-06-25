@@ -1,5 +1,6 @@
 ---
 
+
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
+  - '[[case-truman-personal-growth-map-creation]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[case-ai-agent-milestone-design]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[tool-radar-chart-modeling]]'
 - '[[tool-iterative-recursive-deep-dig]]'

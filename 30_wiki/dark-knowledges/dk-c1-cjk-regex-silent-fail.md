@@ -1,4 +1,5 @@
 ---
+
 id: dk-c1-cjk-regex-silent-fail
 title: C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[dk-f6-cjk-skeleton-corruption]]'
+  - '[[graph-rag-retrieval-layer]]'
+  - '[[fix-dark-knowledge-extractor-llm]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-f2-txt-ingest-skip]]'
 - '[[master-ai-info-literacy]]'

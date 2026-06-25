@@ -1,4 +1,5 @@
 ---
+
 id: framework-structured-analytic-techniques
 title: SATs结构化分析技术：CIA情报分析的八类工具箱
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - web: Richards Heuer & Pherson, Structured Analytic Techniques for Intelligence Analysis
 - web: CIA Tradecraft Primer
 related:
+  - '[[tool-key-assumptions-check]]'
+  - '[[tool-harness-adversarial-tester]]'
+  - '[[framework-ci-operating-model]]'
+  - '[[tool-red-team-analysis]]'
+  - '[[tool-devils-advocacy]]'
 - "[[framework-yitang-nine-layer-deep-dig]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-key-assumptions-check]]"

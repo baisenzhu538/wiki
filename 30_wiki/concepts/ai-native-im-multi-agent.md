@@ -1,6 +1,7 @@
 ---
 
 
+
 id: ai-native-im-multi-agent
 title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
@@ -14,6 +15,11 @@ domain:
 source_refs:
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
+  - '[[case-ji-hao-skills-market]]'
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[dk-f12-builder-context-deadlock]]'
+  - '[[ai-complex-communication]]'
 - '[[industrial-ai-ops-cases]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'

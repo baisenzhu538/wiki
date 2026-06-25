@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-business-formula-metrics-checklist
 title: 业务公式数据埋点设计清单
 type: tool
@@ -26,6 +27,11 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[case-offline-catering-formula]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-lekai-film
 title: 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39-40
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-li-ka-shing]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-practice-11-third-place]]'
+  - '[[case-strategy-cool-boiled-water]]'
 - "[[tool-strategy-four-moves]]"
 ---
 **困境**：数码相机毁灭胶卷行业→柯达倒闭

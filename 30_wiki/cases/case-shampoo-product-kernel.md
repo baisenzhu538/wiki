@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-shampoo-product-kernel
 title: 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
 type: case
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
+  - '[[case-lean-shampoo-selling-points]]'
+  - '[[yt-product-kernel-definition]]'
+  - '[[case-milktea-five-step]]'
+  - '[[case-treadmill-demand-analysis]]'
+  - '[[yt-product-kernel-cultivation]]'
 - '[[concept-一堂-product-kernel]]'
 - '[[yt-product-kernel-cultivation]]'
 wiki_refs:

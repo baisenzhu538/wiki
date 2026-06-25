@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-luckin-field-research
 title: 案例：瑞幸做空——实地调研的教科书
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-yitang-elderly-home-roleplay]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-doris-2014-music-streaming-prediction]]'
+  - '[[case-yitang-hardware-factory-photo]]'
 - "[[tool-yitang-field-research]]"
 - "[[framework-yitang-high-level-execution]]"
 ---

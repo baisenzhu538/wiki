@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 五步法框架
 - 关键假设优先
 related:
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-entrepreneur-259-milestone]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
+  - '[[yt-entrepreneur-business-growth]]'
 - '[[yt-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[framework-lean-false-model]]'

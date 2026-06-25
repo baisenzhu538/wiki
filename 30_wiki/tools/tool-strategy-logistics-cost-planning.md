@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-logistics-cost-planning
 title: 物流费用三年节约计划：从单吨运费到全链成本的结构化拆解
 type: tool
@@ -17,6 +18,11 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-market-opportunity-matrix]]'
+  - '[[framework-strategy-pyramid]]'
 - "[[case-strategy-snack-export-opportunity]]"
 - "[[tool-strategy-industry-chain-analysis]]"
 - "[[tool-strategy-value-capture]]"

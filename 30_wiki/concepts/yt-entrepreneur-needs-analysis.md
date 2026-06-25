@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 伪需求识别
 - 需求剥离法
 related:
+  - '[[tool-prompt-jtbd-scenario-coach]]'
+  - '[[tool-demand-four-forces]]'
+  - '[[framework-demand-iceberg]]'
+  - '[[tool-prompt-iceberg-demand-analysis]]'
+  - '[[case-demand-ai-fitness-four-forces]]'
 - '[[dk-yb7-design-demand-80-10-10]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师

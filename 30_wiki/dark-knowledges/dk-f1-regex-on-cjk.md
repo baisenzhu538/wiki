@@ -1,4 +1,5 @@
 ---
+
 id: dk-f1-regex-on-cjk
 title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[dk-f6-cjk-skeleton-corruption]]'
+  - '[[dk-c4-selfcheck-superseded]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-f2-txt-ingest-skip]]'
 - '[[dk-f6-cjk-skeleton-corruption]]'

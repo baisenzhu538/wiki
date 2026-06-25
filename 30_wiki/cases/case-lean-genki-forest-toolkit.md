@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-genki-forest-toolkit
 title: 元气森林试错工具箱
 type: case
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-presell]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-lean-2b-gray-test]]'
+  - '[[case-lean-premature-expansion]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[framework-lean-four-principles]]"

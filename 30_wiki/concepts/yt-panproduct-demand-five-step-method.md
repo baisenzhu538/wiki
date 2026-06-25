@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-five-step-method
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求分析
 - 需求洞察
 related:
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[ocr-一堂五步法画布]]'
 - '[[yt-model-five-step-canvas]]'
 - '[[yt-model-prediction-model]]'
 - '[[yt-five-step-method]]'

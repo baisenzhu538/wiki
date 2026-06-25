@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-business-registration-check
 title: 工商查询：社保人数+股权穿透+关联公司
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[dk-yitang-cross-case-pattern-failure-premium]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-weapon-third-party-database]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 ---
 

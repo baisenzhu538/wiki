@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-一堂-无人餐厅-hypothesis-failure
 title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
+  - '[[case-truman-poker-deck-roi]]'
+  - '[[yt-entrepreneur-259-milestone]]'
+  - '[[truman-perspective-skill]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'

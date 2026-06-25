@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-longzhong-four-failures
 title: 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
 type: dark-knowledge
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §19-20
 related:
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-05-it]]'
+  - '[[case-strategy-failure-04-appliance]]'
+  - '[[case-strategy-practice-ranpeng-crossborder]]'
+  - '[[case-strategy-walmart-vs-costco-pyramid]]'
 - "[[case-strategy-longzhong-plan]]"
 ---
 **四因速查**：

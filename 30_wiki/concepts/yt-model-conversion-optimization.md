@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
@@ -20,6 +21,9 @@ query_triggers:
 - 转化率优化
 - 转化率优化：动力三曲线 × 十大浪费触点
 related:
+  - '[[ocr-一堂最佳转化率动力曲线图]]'
+  - '[[case-truman-motivation-map-12-versions]]'
+  - '[[yt-tool-fab-persuasion]]'
 - '[[dk-yb19-visual-strategy-price-match]]'
 reviewed_by: 黄药师
 source_refs:

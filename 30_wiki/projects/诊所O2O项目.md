@@ -1,4 +1,5 @@
 ---
+
 title: 诊所O2O项目
 type: improvement-plan
 status: active
@@ -8,6 +9,8 @@ id: 诊所O2O项目
 created_at: 2026-05-04
 updated_at: '2026-06-16'
 related:
+  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
+  - '[[互联网医院项目]]'
 - '[[诊所o2o外卖平台业务深度调研报告]]'
 - '[[街顺app全面调研报告]]'
 - '[[互联网医院模式深度调研报告]]'

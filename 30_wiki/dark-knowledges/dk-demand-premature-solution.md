@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-premature-solution
 title: 过早进入解决方案空间——冰山模型的根本价值
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[framework-demand-iceberg]]"
 ---
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: shanxi-field-research-checklist-20260701
 title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
@@ -16,6 +17,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[xingangwan-pharma-business-model-formulas]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[parking-lot]]'
 source_refs:

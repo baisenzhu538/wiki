@@ -1,4 +1,5 @@
 ---
+
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
 - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[case-ban-fei-mao-skill-ab-test]]'

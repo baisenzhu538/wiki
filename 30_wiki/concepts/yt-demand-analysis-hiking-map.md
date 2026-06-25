@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-demand-analysis-hiking-map
 confidence: 0.9
 created_at: 2026-06-10
@@ -44,6 +45,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
+  - '[[yt-market-size-estimation]]'
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[five-step-domain-digest]]'
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-iceberg-l1-user]]"
 - "[[tool-demand-iceberg-l2-scenario]]"

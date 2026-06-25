@@ -1,4 +1,5 @@
 ---
+
 id: tool-metadata-extraction
 title: 元数据提取：从文件中提取隐藏信息
 type: tool
@@ -15,6 +16,9 @@ source_refs:
 - web: ExifTool official docs
 - web: OSINT metadata analysis techniques
 related:
+  - '[[tool-media-verification-overview]]'
+  - '[[tool-reverse-image-search]]'
+  - '[[tool-osint-maltego]]'
 - "[[tool-osint-overview]]"
 - "[[tool-reverse-image-search]]"
 ---

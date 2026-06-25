@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-zhanglei-pivot-decision
 title: 张磊 AMA：创业者 pivot 决策案例
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[case-lean-zhanglei-failure-counterfactual]]'
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[case-lean-adult-education]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-lean-systematic-test-curve]]"

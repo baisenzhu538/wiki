@@ -3,6 +3,7 @@
 
 
 
+
 id: skill-纪浩-AI对话上下文隔离
 title: 技能：AI 对话上下文隔离
 type: "tool"
@@ -25,6 +26,11 @@ tools_required:
 - AI对话工具（ChatGPT/Claude等）
 - 知识库片段管理
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[ai-collaboration-mindset-shift]]'
 created_at: 2026-06-07
 updated_at: '2026-06-16'

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: '技能：设计 Skill 的评分规则与风险边界'
 type: "tool"
@@ -18,6 +19,11 @@ prerequisite_skills:
 - skill-半肥猫-课程Skill化的八步工作流
 - skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 related:
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-skill-ab-test]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'

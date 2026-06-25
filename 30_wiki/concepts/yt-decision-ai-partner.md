@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-ai-partner
 component_of:
 - yt-decision-y-model
@@ -24,6 +25,11 @@ query_triggers:
 - 决策备忘录
 - AI幻觉识别
 related:
+  - '[[ocr-一堂-科学决策-人机协作决策]]'
+  - '[[ocr-一堂-个人修炼-双三角模型]]'
+  - '[[ocr-一堂-人机协作-双三角模型]]'
+  - '[[case-yitang-double-triangle-confidence]]'
+  - '[[yitang-huazong-ama-summary]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-decision-width-method]]'

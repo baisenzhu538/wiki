@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-app-store-data
 title: APP数据查询：应用商店排名与下载量估算
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-app-store-review]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 ---
 

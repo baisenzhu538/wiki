@@ -1,4 +1,5 @@
 ---
+
 id: case-candy-problem-os-vpn
 title: 案例：VPN场景——一个低质量提问如何消耗双方关系
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-yitang-mahjong-machine-fake-order]]'
+  - '[[case-xian-franchise-location-decision]]'
+  - '[[case-popmart-prospectus-pricing]]'
 - "[[framework-candy-transcript-workflow]]"
 - "[[concept-candy-ai-as-collaborator]]"
 ---

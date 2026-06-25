@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
 - '[[yt-tob-unit-model]]'
 - '[[yt-tob-cash-flow]]'
 - '[[yt-tob-growth-channel]]'

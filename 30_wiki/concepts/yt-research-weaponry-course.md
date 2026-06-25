@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
@@ -22,6 +23,7 @@ reviewed_by: 黄药师
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
+  - '[[skill-问题驱动式深度思考笔记]]'
 - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-source-cited

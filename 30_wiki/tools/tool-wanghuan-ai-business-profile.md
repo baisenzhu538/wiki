@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
@@ -35,6 +36,11 @@ diagnostic_signals:
   lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'

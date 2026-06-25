@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-key-hypotheses
 confidence: 0.85
 created_at: 2026-05-06
@@ -23,6 +24,11 @@ query_triggers:
 - 最小成本验证
 - 五步法
 related:
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-concept-p-type-l-type]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-entrepreneur-industry-forecast]]'
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 - '[[yt-entrepreneur-lean-validation]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 type: dark-knowledge
@@ -13,6 +14,10 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-p14-zombie]]'
+  - '[[dk-p15-unverified]]'
+  - '[[obsidian-git-sync-protocol]]'
+  - '[[EC工业化规范手册]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-knowledge-compound]]'
 - '[[dk-c8-format-complete-mind-empty]]'

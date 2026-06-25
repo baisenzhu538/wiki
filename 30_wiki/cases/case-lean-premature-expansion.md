@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-premature-expansion
 title: 过早扩张案例集
 type: case
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md
 related:
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-premature-refinement]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-2b-gray-test]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[framework-lean-abcd-model]]"

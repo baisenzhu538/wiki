@@ -1,4 +1,5 @@
 ---
+
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[dk-p13-token-burn]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-c6-large-source-overflow]]'
 - '[[dk-c6-large-source-overflow]]'
 - '[[master-first-principles]]'
 - '[[kdo-flywheel]]'

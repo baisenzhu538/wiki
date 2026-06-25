@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-10-turnaround
 title: 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2
 related:
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-practice-12-zero-loss]]'
+  - '[[case-strategy-practice-11-third-place]]'
+  - '[[dk-strategy-01-not-goal-setting]]'
+  - '[[case-strategy-lekai-film]]'
 - "[[framework-strategy-brm]]"
 - "[[tool-strategy-gap-analysis]]"
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-pan-product-climbing-map
 component_of:
 - yt-composite-pan-product-methodology
@@ -22,6 +23,11 @@ query_triggers:
 - 十年修炼
 - 产品设计进阶
 related:
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-model-pan-product-three-virtues]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-model-pan-product-three-virtues]]'
 - '[[yt-model-pan-product-demand-toolkit]]'

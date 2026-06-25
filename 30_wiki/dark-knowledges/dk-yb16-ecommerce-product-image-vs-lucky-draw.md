@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb16-ecommerce-product-image-vs-lucky-draw
 title: AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb30-ecommerce-channel-version]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb9-cubox-deployment-failure]]'
+  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 - '[[dk-yb26-chinese-food-photography-props]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:

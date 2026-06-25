@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
@@ -21,6 +22,11 @@ query_triggers:
 - 谄媚倾向
 - 七层工作流
 related:
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-model-ipo-learning-strategy]]'

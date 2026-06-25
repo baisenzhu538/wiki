@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-lean-validation
 title: 战略假设的精益验证流程
 type: framework
@@ -19,6 +20,11 @@ source_refs:
 - 00_inbox/精益创业/transcript_低成本验证认知篇.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
+  - '[[framework-lean-pivot-decision]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[framework-demand-lean-bridge]]'
+  - '[[case-cross-yuanqi-forest]]'
+  - '[[framework-five-step-lean-interface]]'
 - "[[framework-strategy-brm]]"
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"

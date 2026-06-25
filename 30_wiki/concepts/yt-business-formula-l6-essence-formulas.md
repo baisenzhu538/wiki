@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-business-formula-l6-essence-formulas
 title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
@@ -26,6 +27,11 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
+  - '[[framework-lean-expert-roadmap]]'
+  - '[[modeling-level-map]]'
+  - '[[framework-demand-lean-bridge]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'

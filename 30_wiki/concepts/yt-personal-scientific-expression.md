@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 公开演讲技巧
 - 如何做好演讲
 related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-personal-verbatim-script]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-inspiration-flash]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-model-prompt-engineering]]'
 review_date: 2026-05-08

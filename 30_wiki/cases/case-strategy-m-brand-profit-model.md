@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-m-brand-profit-model
 title: M品牌：从直营到代理加盟的连锁扩张盈利模式选择
 type: case
@@ -12,6 +13,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 related:
+  - '[[tool-yitang-wechat-group-infiltration]]'
+  - '[[tool-yitang-social-engineering-research]]'
+  - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
+  - '[[tool-strategy-profit-model-comparison]]'
 - "[[tool-strategy-value-capture]]"
 - "[[framework-strategy-business-design]]"
 ---

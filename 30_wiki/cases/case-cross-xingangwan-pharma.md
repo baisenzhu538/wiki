@@ -1,4 +1,5 @@
 ---
+
 id: case-cross-xingangwan-pharma
 title: 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
 type: case
@@ -24,6 +25,11 @@ source_refs:
 - 30_wiki/entities/鑫港湾.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[framework-strategy-lean-validation]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[case-cross-yuanqi-forest]]'
 - "[[framework-strategy-lean-validation]]"
 - "[[framework-five-step-lean-interface]]"
 - "[[framework-lean-abcd-model]]"

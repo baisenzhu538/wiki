@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -38,6 +39,11 @@ diagnostic_signals:
   framework_lens: SOP 颗粒度与场景化
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - "[[process-modeling]]"
 - "[[tool-sop-template-modeling]]"
 - "[[case-modeling-process-sop-evolution]]"

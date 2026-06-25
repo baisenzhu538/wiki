@@ -1,4 +1,5 @@
 ---
+
 title: 提案：AI 快速精通领域知识管线 — KDO 飞轮应用于学科速通
 type: improvement-plan
 status: draft
@@ -12,6 +13,11 @@ target_roles:
 - 用户（决策者）
 reviewer: 用户 + 欧阳锋
 related:
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+  - '[[dk-f10-broken-source-refs]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[kdo-flywheel]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'

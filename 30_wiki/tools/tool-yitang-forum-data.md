@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-forum-data
 title: 论坛/社区数据：知乎豆瓣贴吧的深度讨论
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-recruit-user-interview]]'
 - "[[tool-yitang-weapon-media-search]]"
 ---
 

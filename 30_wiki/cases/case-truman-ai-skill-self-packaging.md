@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
@@ -16,6 +17,11 @@ reviewed_by: 老顽童
 review_date: '2026-06-16'
 trust_level: medium
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[tool-ai-skill-engineering-guide]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[case-truman-livestream-sop-iteration]]'

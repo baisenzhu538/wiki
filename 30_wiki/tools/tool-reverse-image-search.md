@@ -1,4 +1,5 @@
 ---
+
 id: tool-reverse-image-search
 title: 反向图片搜索：追踪图片来源和真实性
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Google Images, TinEye, Yandex Images
 - web: OSINT media verification techniques
 related:
+  - '[[tool-media-verification-overview]]'
+  - '[[tool-alt-data-free]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-alt-data-overview]]'
 - "[[tool-osint-overview]]"
 - "[[tool-media-verification-overview]]"
 ---

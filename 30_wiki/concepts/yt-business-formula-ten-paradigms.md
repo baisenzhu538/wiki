@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-business-formula-ten-paradigms
 title: 一堂业务公式十大经典范式
 type: concept
@@ -25,6 +26,11 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-management-business-formula]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'

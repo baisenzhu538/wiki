@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-05-24
 type: framework
@@ -21,6 +22,11 @@ source_refs:
 source_context: 一堂 To B 五步法课程（徐剑口述稿、课堂笔记、图片 OCR 合集、优秀作业合集）关于单元模型与商业模式部分
 updated_at: '2026-06-16'
 related:
+  - '[[ocr-一堂-单元模型-单门店模型]]'
+  - '[[ocr-一堂-单元模型-单城市模型]]'
+  - '[[ocr-一堂-单元模型-多模型情况]]'
+  - '[[ocr-一堂doc-单元模型-十大单元模型]]'
+  - '[[ocr-一堂-单元模型-单用户模型]]'
 - '[[yt-unit-model-build]]'
 - '[[yt-unit-model-selection]]'
 - '[[yt-entrepreneur-five-step-method]]'

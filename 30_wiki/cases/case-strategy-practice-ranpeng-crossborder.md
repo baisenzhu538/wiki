@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-ranpeng-crossborder
 title: 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §17
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[dk-strategy-longzhong-four-failures]]'
+  - '[[case-strategy-lekai-film]]'
+  - '[[case-strategy-li-ka-shing]]'
 - "[[framework-strategy-brm]]"
 ---
 **事迹**：冉鹏亲自下场做美区 TikTok 店卖 T 恤。"我是一单都没卖出去啊"

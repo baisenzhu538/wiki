@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-crossborder-ecommerce-opportunity
 title: 案例：跨境电商机会识别——从报告到行动
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-yitang-travel-receipt-analysis]]'
+  - '[[case-popmart-prospectus-pricing]]'
+  - '[[case-doris-outbound-travel-community]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[framework-doris-industry-report-4step]]"
 ---
 

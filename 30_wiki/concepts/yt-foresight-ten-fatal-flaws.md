@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
@@ -14,6 +15,11 @@ author: 老顽童
 source_refs:
   - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
+  - '[[yt-foresight-15-char-mantra]]'
+  - '[[yt-foresight-ab-steady-state]]'
+  - '[[dk-pseudo-demand-trap]]'
+  - '[[yt-business-model-pivot-signals]]'
+  - '[[yt-foresight-addition-subtraction]]'
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-addition-subtraction]]'
 - '[[yt-ai-startup-20-risky-hypotheses]]'

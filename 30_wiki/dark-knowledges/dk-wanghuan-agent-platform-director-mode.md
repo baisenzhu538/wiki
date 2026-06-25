@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-agent-platform-director-mode
 title: 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 type: dark-knowledge
@@ -30,6 +31,11 @@ diagnostic_signals:
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
 related:
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[dk-wanghuan-spec-trap]]'

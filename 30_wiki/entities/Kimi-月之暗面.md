@@ -1,5 +1,6 @@
 ---
 
+
 title: Kimi（月之暗面）
 type: entity
 domain:
@@ -21,6 +22,11 @@ id: Kimi-月之暗面
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
+  - '[[kdo-input-channel-strategy-2026-06-16]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+  - '[[tool-agent-research-swarm]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[graph-rag]]'
 tags: []

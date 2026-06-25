@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-一堂-product-kernel
 title: 产品内核：用户愿意选择你的最小解决方案
 type: concept
@@ -18,6 +19,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
+  - '[[skill-一堂-product-kernel-add-subtract]]'
+  - '[[yt-product-kernel-definition]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[concept-一堂-kernel-validation]]'
+  - '[[yt-product-kernel-cultivation]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-foresight-15-char-mantra]]'

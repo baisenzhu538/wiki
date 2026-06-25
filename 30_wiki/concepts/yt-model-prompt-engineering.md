@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
@@ -14,6 +15,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.9
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[yt-prompt-brainstorming]]'
+  - '[[yt-prompt-anti-flattery]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 - '[[master-ai-info-literacy]]'
 query_triggers:

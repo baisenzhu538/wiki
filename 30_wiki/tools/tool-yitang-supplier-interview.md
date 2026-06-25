@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-supplier-interview
 title: 供应商访谈：从供应链端获取竞对数据
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-partner-research]]"
 - "[[tool-yitang-supply-chain-research]]"
 ---

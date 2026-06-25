@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb1-aigc-mvp-before-ps
 title: 设计师AIGC工作流：先跑MVP再开PS
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
+  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb8-file-naming-eight-elements]]'
 - '[[dk-yb7-design-demand-80-10-10]]'

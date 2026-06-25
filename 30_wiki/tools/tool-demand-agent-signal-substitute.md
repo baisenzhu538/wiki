@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
 - web: Qualz.ai 2026 LLM-based user interview analysis
 related:
+  - '[[tool-demand-agent-signals]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[tool-demand-agent-case-match]]'
+  - '[[tool-demand-four-forces]]'
+  - '[[tool-demand-agent-auto-verify]]'
 - "[[tool-demand-iceberg-l5-forces]]"
 ---
 

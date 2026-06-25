@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-grab-industry-cognition
 title: 案例：Doris 7天从零建立行业认知
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-yitang-travel-receipt-analysis]]'
+  - '[[case-zhanglan-amusement-park-undercover]]'
+  - '[[case-doris-outbound-travel-community]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[framework-doris-industry-report-4step]]"
 - "[[tool-doris-industry-report-search-tips]]"
 ---

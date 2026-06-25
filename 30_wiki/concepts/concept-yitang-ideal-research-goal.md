@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-ideal-research-goal
 title: 理想调研目标三原则：敏感·短期·支撑
 type: concept
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[yt-research-osl-framework]]"
 ---

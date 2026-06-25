@@ -1,4 +1,5 @@
 ---
+
 id: fix-data-curator-parse-bug
 title: Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 type: improvement-plan
@@ -11,6 +12,11 @@ target_roles:
 - 黄药师（Builder）
 reviewer: 欧阳锋（Architect）
 related:
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[ocr-微信图片_20260507004751_33_32]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[gold-standard-manual-labels]]'
 - '[[kdo-15-dimension-label-spec]]'
 author: unknown

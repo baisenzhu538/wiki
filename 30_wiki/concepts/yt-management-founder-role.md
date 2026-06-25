@@ -1,5 +1,6 @@
 ---
 
+
 title: 一号位
 type: concept
 domain:
@@ -35,6 +36,8 @@ trust_level: medium-high
 source_refs:
   - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 related:
+  - '[[yt-management-company-culture]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
 - "yt-management-leadership-levels"
 - "yt-management-company-culture"
 - "yt-management-strategy-meeting"

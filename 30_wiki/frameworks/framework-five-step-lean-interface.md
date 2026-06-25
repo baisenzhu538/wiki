@@ -1,4 +1,5 @@
 ---
+
 id: framework-five-step-lean-interface
 title: 五步法与精益验证的接口
 type: framework
@@ -19,6 +20,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[framework-strategy-lean-validation]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[framework-lean-pivot-decision]]'
+  - '[[framework-demand-lean-bridge]]'
 - "[[yt-five-step-method]]"
 - "[[yt-entrepreneur-five-step-method]]"
 - "[[framework-lean-false-model]]"

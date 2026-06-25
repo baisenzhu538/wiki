@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-tenx-formula
 title: 十倍速公式：避免系统性失败
 type: framework
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
+  - '[[framework-lean-six-wastes]]'
+  - '[[tool-lean-stealth-service]]'
+  - '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
+  - '[[yt-panproduct-execution-10x-validation]]'
+  - '[[tool-lean-fake-product]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

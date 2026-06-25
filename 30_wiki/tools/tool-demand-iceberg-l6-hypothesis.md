@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
@@ -15,6 +16,9 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
+  - '[[framework-demand-lean-bridge]]'
+  - '[[framework-demand-iceberg]]'
+  - '[[tool-prompt-jtbd-scenario-coach]]'
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-iceberg-l5-forces]]"
 - "[[tool-demand-assessment-triangle]]"

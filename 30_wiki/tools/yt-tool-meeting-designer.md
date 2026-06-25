@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-meeting-designer
 title: 会议设计师：一页纸会议蓝图
 type: tool
@@ -16,6 +17,11 @@ prerequisites: null
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[yt-tool-hiring-scorecard]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-management-project-management]]'

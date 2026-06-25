@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb3-diffusion-stepwise-vs-human-holistic
 title: AI生图'抽卡'本质：逐步拆解 vs 人类整体构思
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[skill-月白-AI人物特征精准描述法]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[skill-月白-AI抽卡效率控制法]]'
+  - '[[dk-yb2-llm-muddy-clear-muddy]]'
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[dk-yb2-llm-muddy-clear-muddy]]'
 - '[[dk-yb14-multi-image-commonality]]'
 - '[[dk-yb29-prompt-migrate-copy-first]]'

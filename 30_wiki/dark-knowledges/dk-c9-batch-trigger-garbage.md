@@ -1,4 +1,5 @@
 ---
+
 id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dark-knowledge
@@ -13,6 +14,8 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[framework-ci-operating-model]]'
+  - '[[tool-ci-implement-phase]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
 pipeline:

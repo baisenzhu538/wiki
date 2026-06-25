@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-peas-agent-analysis
 component_of:
 - yt-model-cognitive-upgrade-framework
@@ -23,6 +24,11 @@ query_triggers:
 - 架构错配诊断
 - 理性决策框架
 related:
+  - '[[tool-yitang-job-intelligence-research]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[yt-concept-peas-insight]]'
+  - '[[yt-model-agent-architecture]]'
 - '[[yt-model-agent-architecture]]'
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-personal-ai-capability]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-objective
 title: 调研目标锁定：从"了解"到"决策"的认知跃迁
 type: concept
@@ -27,6 +28,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[framework-yitang-iterative-recursive-digging]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[tool-yitang-research-exhaust-means]]'
+  - '[[tool-yitang-research-single-point-sniper]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-high-level-plan]]"
 - "[[concept-yitang-research-scope]]"

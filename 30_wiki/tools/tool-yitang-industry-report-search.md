@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-industry-report-search
 title: 行业报告搜索：拓宽关键词+多平台交叉
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-doris-industry-report-search-tips]]'
+  - '[[tool-yitang-weapon-media-search]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-google-dorking]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-doris-industry-report-search-tips]]"
 - "[[tool-yitang-database-index]]"
 ---

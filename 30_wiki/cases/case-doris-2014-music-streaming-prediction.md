@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-2014-music-streaming-prediction
 title: 案例：2014年预判音乐流媒体趋势
 type: case
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-doris-beauty-ecommerce-channel]]'
+  - '[[case-yitang-hardware-factory-photo]]'
+  - '[[case-doris-outbound-travel-community]]'
 - "[[framework-doris-industry-report-4step]]"
 ---
 

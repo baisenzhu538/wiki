@@ -1,4 +1,5 @@
 ---
+
 id: workflow-knowledge-collision
 title: 知识碰撞工作流：产出前先碰撞知识库
 type: system
@@ -18,6 +19,11 @@ query_triggers:
 - 先搜wiki
 - 知识库工作流
 related:
+  - '[[dk-f4-wrong-workdir]]'
+  - '[[three-party-data-alignment]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[modeling-capability-for-kdo]]'
 - '[[yt-decision-ai-partner]]'
 - '[[agent-external-brain-design]]'
 tags:

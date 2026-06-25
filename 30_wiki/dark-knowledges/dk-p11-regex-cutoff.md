@@ -1,4 +1,5 @@
 ---
+
 id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[dk-small-format-error-cascades-to-system-failure]]'
+  - '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+  - '[[dk-p18-yaml-parser]]'
 - '[[master-first-principles]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[dk-f1-regex-on-cjk]]'

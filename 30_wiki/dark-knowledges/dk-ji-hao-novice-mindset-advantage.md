@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-novice-mindset-advantage
 title: 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[case-ji-hao-ai-workspace-chaos]]'
 pipeline:

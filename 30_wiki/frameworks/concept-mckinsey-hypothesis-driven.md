@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
@@ -28,6 +29,11 @@ diagnostic_signals:
   framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
+  - '[[yt-entrepreneur-scientific-method]]'
+  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
+  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 - '[[concept-mckinsey-mece]]'
 - '[[concept-mckinsey-issue-tree]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

@@ -1,4 +1,5 @@
 ---
+
 id: framework-demand-lean-bridge
 title: 需求判断与精益验证的衔接
 type: framework
@@ -24,6 +25,11 @@ source_refs:
 - 30_wiki/tools/tool-demand-iceberg-l5-forces.md
 - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 related:
+  - '[[framework-strategy-lean-validation]]'
+  - '[[framework-lean-pivot-decision]]'
+  - '[[case-cross-yuanqi-forest]]'
+  - '[[framework-five-step-lean-interface]]'
+  - '[[five-step-domain-digest]]'
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-iceberg-l1-user]]"
 - "[[tool-demand-iceberg-l2-scenario]]"

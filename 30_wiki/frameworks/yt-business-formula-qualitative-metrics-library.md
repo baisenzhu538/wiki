@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-business-formula-qualitative-metrics-library
 title: 业务公式定性参数行为化指标库
 type: framework
@@ -26,6 +27,10 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
+  - '[[yt-business-formula-l6-essence-formulas]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[yt-tool-business-formula-metrics-checklist]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'

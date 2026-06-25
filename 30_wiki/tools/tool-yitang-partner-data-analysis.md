@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-partner-data-analysis
 title: 合作方案数据：从合作方拿到的真实数字
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
 - "[[tool-yitang-weapon-partner-research]]"
 - "[[tool-yitang-supplier-interview]]"
 ---

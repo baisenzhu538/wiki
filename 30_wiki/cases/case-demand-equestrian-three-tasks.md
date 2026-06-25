@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-equestrian-three-tasks
 title: 案例：马术三层任务——功能/情感/社交的完美展演
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-yitang-mahjong-machine-fake-order]]'
+  - '[[case-popmart-prospectus-pricing]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[tool-demand-iceberg-l5-forces]]"
 ---
 

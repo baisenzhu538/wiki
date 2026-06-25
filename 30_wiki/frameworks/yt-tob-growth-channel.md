@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-growth-channel
 title: To B 增长模式取舍：直销 vs 渠道
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
+  - '[[yt-business-model-margin-structure]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-growth-acquisition-channels]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-business-formula-business-pattern-selector]]'

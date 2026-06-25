@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
@@ -17,6 +18,11 @@ prerequisites:
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[dk-modeling-radar-model-not-result]]'
 - '[[yt-management-business-formula]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-management-goal-management]]'

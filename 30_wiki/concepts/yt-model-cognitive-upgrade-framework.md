@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
@@ -19,6 +20,9 @@ query_triggers:
 - 认知补丁
 - ICAP学习层级
 related:
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[kdo_product_design_agent_final]]'
+  - '[[yt-personal-ai-thinking-card]]'
 - '[[yt-model-agent-architecture]]'
 - '[[yt-model-ipo-learning-strategy]]'
 - '[[yt-personal-ai-thinking-card]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
@@ -26,6 +27,11 @@ tags:
 - '#topic/hypothesis-validation'
 - '#topic/research-method'
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
 - '[[yt-lean-qualitative-quantitative-research]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yitang-methodology-system]]'

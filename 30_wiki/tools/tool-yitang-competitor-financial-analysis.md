@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-competitor-financial-analysis
 title: 竞对财税分析：从社保/纳税/财报反推真实规模
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 - "[[tool-yitang-business-registration-check]]"
 ---

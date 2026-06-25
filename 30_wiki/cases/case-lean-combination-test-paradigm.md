@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-combination-test-paradigm
 title: 组合测试范式实操案例
 type: case
@@ -23,6 +24,11 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 related:
+  - '[[framework-lean-systematic-test-curve]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[case-lean-shampoo-selling-points]]'
+  - '[[case-lean-gray-test-paradigm]]'
+  - '[[case-lean-crayfish-combo-test]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-lean-systematic-test-curve]]"

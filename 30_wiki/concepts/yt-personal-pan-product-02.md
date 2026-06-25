@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-02
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计落地篇
 - 泛产品设计落地篇：无限进步与持续打磨
 related:
+  - '[[yt-model-pan-product-three-virtues]]'
+  - '[[ocr-泛产品设计-审美卡片-最佳实践池子]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[ocr-truman的选择两条职业成长路线]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[yt-personal-pan-product-practice]]'
 - '[[yt-personal-pan-product-aesthetics]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: '案例：AI高考志愿填报产品因内核错位而失敗'
 type: case
@@ -24,6 +25,11 @@ review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[skill-一堂-product-kernel-canvas]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'

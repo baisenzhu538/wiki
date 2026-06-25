@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian
 title: 技能：用 YAML 格式做知识库原子化标签
 type: tool
@@ -17,6 +18,11 @@ tools_required:
 prerequisite_skills:
 - skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 related:
+  - '[[dk-p19-quote-yaml]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
 - '[[dk-ban-fei-mao-atomic-no-standard]]'

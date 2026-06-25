@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-research-weapon-system
 title: 调研超级武器库：三层八模块十四节点
 type: framework
@@ -30,6 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-yitang-weapon-media-search]]'
+  - '[[tool-yitang-tech-project-research]]'
+  - '[[tool-yitang-research-exhaust-means]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-organization-research]]'
 - "[[framework-yitang-four-research-types]]"
 - "[[framework-yitang-high-level-plan]]"
 - "[[framework-yitang-high-level-execution]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-cross-reading-method
 title: 交叉阅读法
 type: tool
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[dk-ai-prediction-expiry-date]]'
+  - '[[concept-ai-information-quality-ladder]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[dk-ai-social-progress-not-automatic]]'
+  - '[[concept-ai-chair-determines-view]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-expert-network-platform
 title: 专家网络付费平台：快速找到对的人
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-industry-expert]]"
 ---
 

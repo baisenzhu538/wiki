@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-iterative-recursive-digging
 title: 迭代递归深挖法：从表层到内核的认知穿透
 type: framework
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-yitang-research-deep-attribution]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[framework-yitang-nine-layer-deep-dig]]"

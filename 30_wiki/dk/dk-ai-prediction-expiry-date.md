@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-prediction-expiry-date
 title: AI 预言的保质期
 type: dk
@@ -18,6 +19,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[concept-ai-chair-determines-view]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[tool-ai-cross-reading-method]]'
+  - '[[dk-ai-social-progress-not-automatic]]'
+  - '[[dk-ai-scarcest-resource-is-self]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

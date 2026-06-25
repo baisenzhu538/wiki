@@ -1,5 +1,6 @@
 ---
 
+
 id: industrial-ai-ops-cases
 title: 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
 type: case
@@ -15,6 +16,11 @@ source_refs:
 - src_20260614_b85c364e-贝壳-云管家AI外呼案例
 - src_20260614_4b3b6427-阿豪-自动选品系统案例
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[fd-forward-deployment]]'
 source_person: 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）
 source_context: 酒店/房产/电商 AI 运营落地案例分享

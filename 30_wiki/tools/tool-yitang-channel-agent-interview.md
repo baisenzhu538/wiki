@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-agent-interview
 title: 渠道/代理商访谈：渠道端的情报获取
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-weapon-insider-intelligence]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-partner-research]]"
 - "[[tool-yitang-supply-chain-research]]"
 ---

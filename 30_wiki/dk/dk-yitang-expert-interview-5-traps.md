@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-expert-interview-5-traps
 title: 专家访谈五大陷阱
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-demand-feature-stacking]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[framework-yitang-expert-interview-10steps]]"
 ---
 

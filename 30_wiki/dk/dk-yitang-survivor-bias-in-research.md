@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-survivor-bias-in-research
 title: 调研中的幸存者偏差
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-yitang-research-starter-vs-veteran]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[dk-yitang-expert-interview-5-traps]]"
 ---
 

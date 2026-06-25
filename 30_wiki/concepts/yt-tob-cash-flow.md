@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
@@ -27,6 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-management-business-formula]]'

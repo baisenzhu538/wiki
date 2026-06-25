@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-bp-analysis
 title: 商业计划书分析：从竞对BP中提取商业模式
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 - "[[tool-yitang-financial-report-intelligence]]"
 ---

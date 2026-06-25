@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 半肥猫

@@ -1,4 +1,5 @@
 ---
+
 id: dk-lz-code-is-disposable
 title: 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
 related:
+  - '[[structured-ai-workspace]]'
+  - '[[dk-modeling-case-explosion-confidence]]'
+  - '[[dk-lz-ai-native-organization]]'
+  - '[[dk-yb9-cubox-deployment-failure]]'
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[dk-lz-ai-native-organization]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[dk-jh-llm-time-blindness]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-toc-ecommerce-formula-misjudgment
 title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
@@ -28,6 +29,11 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[case-offline-catering-formula]]'
+  - '[[case-toc-content-platform-correlation-trap]]'
+  - '[[yt-management-business-formula]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-management-business-formula]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'

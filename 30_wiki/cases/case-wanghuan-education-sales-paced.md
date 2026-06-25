@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-education-sales-paced
 title: '王欢案例：教育机构用 PACED 还原销冠决策链'
 type: case
@@ -19,6 +20,11 @@ source_refs:
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[case-wanghuan-education-sales-capability-extraction]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[framework-wanghuan-actor-director-mode]]'

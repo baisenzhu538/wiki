@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
@@ -13,6 +14,11 @@ confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
+  - '[[skill-一堂-spectrum-positioning]]'
+  - '[[yt-note-extensive-research-input]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[skill-问题驱动式深度思考笔记]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-problem-solving-capability]]'
 - '[[skill-问题驱动式深度思考笔记]]'

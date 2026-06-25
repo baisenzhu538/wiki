@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
@@ -33,6 +34,11 @@ diagnostic_signals:
   lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-five-criteria-first-product]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[concept-wanghuan-ai-native-definition]]'

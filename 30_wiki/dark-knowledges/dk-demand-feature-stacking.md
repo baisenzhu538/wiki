@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-feature-stacking
 title: 功能堆叠陷阱：加功能≠满足需求
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
+  - '[[dk-yitang-expert-interview-5-traps]]'
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[framework-demand-iceberg]]"
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-newbie-can-validate
 title: '暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光'
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 related:
+  - '[[dk-ji-hao-simple-complex-routing]]'
+  - '[[dk-ji-hao-novice-mindset-advantage]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 纪浩
 reviewed_by: 欧阳锋

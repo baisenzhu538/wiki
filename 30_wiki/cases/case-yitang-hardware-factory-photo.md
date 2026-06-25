@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-hardware-factory-photo
 title: 案例：从朋友圈照片找到代工厂
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-yitang-fake-interview-intelligence]]'
+  - '[[case-yitang-competitor-pricing-intelligence]]'
+  - '[[case-zhanglan-amusement-park-undercover]]'
+  - '[[case-yitang-supplier-security-guard]]'
 - "[[tool-yitang-supply-chain-research]]"
 - "[[dk-yitang-digging-belief]]"
 ---

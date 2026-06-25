@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 title: 技能：判断课程是否值得做成Skill
 type: tool
@@ -17,6 +18,11 @@ tools_required:
 - 课程资料
 prerequisite_skills: []
 related:
+  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[skill-半肥猫-课程Skill化的八步工作流]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[ocr-一堂-科学决策-深度-案例03]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 created_at: 2026-06-07

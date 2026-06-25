@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-scenario-selector-modeling
 title: 场景→工具选择器：根据需求快速匹配合适的建模工具
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.90
 related:
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[case-modeling-essence-schools]]'
+  - '[[dk-modeling-question-scaffold-not-answer]]'
+  - '[[dk-tool-as-answer-trap]]'
+  - '[[dk-modeling-unit-pairs-milestone]]'
 - '[[modeling-weapon-library]]'
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[modeling-three-stages]]'

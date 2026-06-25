@@ -1,4 +1,5 @@
 ---
+
 id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-c7-auto-backup-conflict]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[obsidian-git-sync-protocol]]'
 - '[[master-systems-thinking]]'
 - '[[master-decision-hygiene]]'
 - '[[dk-p13-token-burn]]'

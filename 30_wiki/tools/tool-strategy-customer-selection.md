@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-customer-selection
 title: 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环
 type: tool
@@ -15,6 +16,11 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97 补强 v2）
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-category-role-matrix]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-retailer-activity-scope]]'
 - '[[case-strategy-snack-business-design]]'
 - '[[framework-strategy-blm]]'

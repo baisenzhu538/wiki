@@ -1,4 +1,5 @@
 ---
+
 id: dk-pseudo-demand-trap
 title: 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 type: dk
@@ -18,6 +19,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
+  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+  - '[[yt-foresight-ten-fatal-flaws]]'
+  - '[[yt-ai-trend-12-signals]]'
+  - '[[dk-signal-cluster-illusion]]'
+  - '[[dk-ai-entrepreneur-technical-blindspot]]'
 - '[[yt-ai-startup-20-risky-hypotheses]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-entrepreneur-needs-analysis]]'

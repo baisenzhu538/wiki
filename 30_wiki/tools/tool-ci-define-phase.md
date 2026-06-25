@@ -1,4 +1,5 @@
 ---
+
 id: tool-ci-define-phase
 title: CI Define阶段：KITs和KIQs——从决策倒推信息需求
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - web: Competitive Intelligence Alliance KIT/KIQ methodology
 related:
+  - '[[tool-key-assumptions-check]]'
+  - '[[tool-devils-advocacy]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[tool-candy-oral-polish]]'
+  - '[[tool-indicators-signposts]]'
 - "[[framework-ci-operating-model]]"
 - "[[dk-yitang-research-question-quality]]"
 ---

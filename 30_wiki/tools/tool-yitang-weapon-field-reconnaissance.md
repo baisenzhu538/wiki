@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-field-reconnaissance
 title: 武器库策略14：线下门店侦察——蹲店·数人头·看运营
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-weapon-insider-intelligence]]'
+  - '[[tool-yitang-weapon-partner-research]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-weapon-user-direct-interview]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-field-research]]"
 - "[[tool-yitang-store-franchise-research]]"

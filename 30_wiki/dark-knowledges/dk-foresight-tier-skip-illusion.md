@@ -1,4 +1,5 @@
 ---
+
 id: dk-foresight-tier-skip-illusion
 title: 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快
 type: dk
@@ -21,6 +22,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
+  - '[[case-coffee-shop-foresight]]'
+  - '[[dk-level-blindspot-external-feedback]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[dk-signal-cluster-illusion]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[case-coffee-shop-foresight]]'

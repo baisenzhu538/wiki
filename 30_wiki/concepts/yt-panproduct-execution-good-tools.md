@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-good-tools
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-panproduct-execution-realistic-simulation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-panproduct-execution-realistic-simulation]]'
 reviewed_by: 黄药师

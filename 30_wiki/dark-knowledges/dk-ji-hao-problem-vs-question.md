@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-problem-vs-question
 title: 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
+  - '[[framework-candy-transcript-workflow]]'
+  - '[[dk-ji-hao-novice-mindset-advantage]]'
+  - '[[case-ai-assisted-review]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 wiki_refs:

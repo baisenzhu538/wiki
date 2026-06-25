@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-revival-14-gucci
 title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代
 type: case
@@ -12,6 +13,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §22
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §42-48
 related:
+  - '[[case-strategy-edward-jones]]'
+  - '[[dk-strategy-06-dividend-to-strategy]]'
+  - '[[dk-modeling-radar-model-not-result]]'
+  - '[[case-doris-2014-music-streaming-prediction]]'
+  - '[[case-strategy-cool-boiled-water]]'
 - "[[framework-strategy-brm]]"
 ---
 **背景**：CEO Bizzarri 2015年就任，收入€39亿

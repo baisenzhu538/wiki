@@ -1,4 +1,5 @@
 ---
+
 id: session-20260619-xingangwan-business-formula-reconstruction
 title: 对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）
 type: report
@@ -15,6 +16,11 @@ author: Kimi Code CLI
 confidence: 0.84
 trust_level: medium
 related:
+  - '[[case-cross-xingangwan-pharma]]'
+  - '[[contradictions]]'
+  - '[[鑫港湾]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
+  - '[[parking-lot]]'
 - '[[xingangwan-pharma-business-formulas]]'
 - '[[xingangwan-pharma-business-model-calc]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'

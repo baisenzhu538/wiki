@@ -1,6 +1,7 @@
 ---
 
 
+
 id: model-quality-four-levels
 title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
 type: framework
@@ -17,6 +18,11 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: medium
 related:
+  - '[[case-modeling-abstraction-reliability-ladder]]'
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[business-formula-to-kdo-card-quality]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[modeling-capability-for-kdo]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-to-kdo-toolchain]]'

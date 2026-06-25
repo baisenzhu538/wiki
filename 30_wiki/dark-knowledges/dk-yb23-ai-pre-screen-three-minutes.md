@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb23-ai-pre-screen-three-minutes
 title: AI出图前置筛选：三分钟十套方案定风格
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb29-prompt-migrate-copy-first]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb31-style-first-controlnet]]'
 pipeline:

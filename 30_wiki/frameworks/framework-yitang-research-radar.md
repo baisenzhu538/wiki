@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-research-radar
 title: 调研雷达图：四象限能力诊断与六种缺失识别
 type: framework
@@ -29,6 +30,7 @@ source_refs:
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[framework-yitang-four-research-types]]'
 - "[[framework-yitang-four-research-types]]"
 - "[[framework-yitang-high-level-plan]]"
 - "[[framework-yitang-high-level-execution]]"

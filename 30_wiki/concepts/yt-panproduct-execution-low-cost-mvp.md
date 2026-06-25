@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-low-cost-mvp
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-lean-assumption-verification-3means]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[case-essence-entrepreneurship]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[skill-马易-关键假设识别与验证]]'
 - '[[yt-panproduct-execution-10x-validation]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 - '[[yt-model-personal-pitch-toolkit]]'

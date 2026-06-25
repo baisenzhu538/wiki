@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-mindset
 title: 调研认知升级：从"找答案"到"拆解假设"
 type: concept
@@ -15,6 +16,7 @@ source_refs:
   - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
   - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 related:
+  - '[[concept-yitang-research-mindset]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-research-intelligence-map]]'

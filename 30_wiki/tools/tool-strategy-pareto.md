@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-pareto
 title: 帕雷托图（80/20法则）：识别库存/客户/品类的关键少数
 type: tool
@@ -14,6 +15,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §64
 related:
+  - '[[feishu-docx-pagination-extraction]]'
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-strategy-nine-problems]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[concept-feishu-api-pagination-trap]]'
 - "[[tool-strategy-fishbone]]"
 ---
 

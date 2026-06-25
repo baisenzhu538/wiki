@@ -1,5 +1,6 @@
 ---
 
+
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
@@ -11,6 +12,11 @@ query_triggers:
 - 个人AI系统搭建
 - AI工作流
 related:
+  - '[[master-ai-info-literacy]]'
+  - '[[yt-unit-model-ai-assisted]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[master-knowledge-compound]]'
 - '[[master-systems-thinking]]'
 - '[[yt-panproduct-execution-core-and-boundary]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-indonesia-insurance
 title: 案例：印尼寿险分支——场景错配
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[case-demand-restaurant-hiring]]'
+  - '[[case-demand-rural-5g]]'
+  - '[[case-demand-tier4-housekeeping]]'
+  - '[[case-demand-dialer]]'
+  - '[[case-demand-travel-agent]]'
 - "[[dk-demand-pitfall-indonesia-insurance]]"
 - "[[framework-demand-usp-model]]"
 ---

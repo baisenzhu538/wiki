@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-essence-nfactor-modeling
 title: 本质/N要素建模法：提炼不可再约的核心变量
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.88
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[tool-radar-chart-modeling]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-essence-predictive]]'

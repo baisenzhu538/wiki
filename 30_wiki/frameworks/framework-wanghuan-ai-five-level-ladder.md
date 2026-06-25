@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
@@ -35,6 +36,11 @@ diagnostic_signals:
   lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-say-think-do-toolchain]]'

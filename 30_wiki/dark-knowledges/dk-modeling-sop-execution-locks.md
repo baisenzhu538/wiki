@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dark-knowledge
@@ -18,6 +19,11 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 related:
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[process-modeling]]'

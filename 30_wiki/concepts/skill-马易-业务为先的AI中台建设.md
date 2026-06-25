@@ -2,6 +2,7 @@
 
 
 
+
 id: skill-马易-业务为先的AI中台建设
 title: 技能：业务为先的AI中台建设
 type: "tool"
@@ -23,6 +24,11 @@ tools_required:
 - 现有业务系统
 - 简单自动化脚本
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[skill-纪浩-AI对话上下文隔离]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[yt-model-prompt-engineering]]'
 - '[[skill-马易-数据存储架构选择]]'
 - '[[yt-entrepreneur-pragmatic-startup]]'
 created_at: 2026-06-07

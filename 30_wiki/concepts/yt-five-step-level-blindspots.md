@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -48,6 +49,11 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 related:
+  - '[[case-modeling-essence-levels]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[yt-demand-level-assessment]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - yt-five-step-method
 - yt-five-step-common-pitfalls
 - yt-research-mindset

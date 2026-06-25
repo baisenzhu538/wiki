@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-resources
 title: 借现成资源：降低重投入验证
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-stealth-service]]'
+  - '[[tool-lean-leverage-competitor]]'
+  - '[[tool-lean-leverage-tools]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

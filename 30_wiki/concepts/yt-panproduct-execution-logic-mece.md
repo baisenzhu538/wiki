@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-logic-mece
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地执行
 - 逻辑MECE
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[yt-panproduct-execution-realistic-simulation]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-panproduct-execution-core-and-boundary]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 - '[[yt-model-prediction-model]]'

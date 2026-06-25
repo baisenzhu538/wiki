@@ -1,5 +1,6 @@
 ---
 
+
 id: labeling-final-consolidation
 title: 数据标注方案最终汇总 — 三方调研 + 独立判断
 type: decision
@@ -13,6 +14,11 @@ target_roles:
 - 欧阳锋（Architect）
 reviewer: 用户 + 欧阳锋
 related:
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[kdo-15-dimension-label-spec]]'
+  - '[[ouyangfeng-labeling-research-review]]'
+  - '[[labeling-research-alignment]]'
+  - '[[data-labeling-best-practices-report]]'
 - '[[data-labeling-best-practices-report]]'
 - '[[kdo-15-dimension-label-spec]]'
 - '[[labeling-research-alignment]]'

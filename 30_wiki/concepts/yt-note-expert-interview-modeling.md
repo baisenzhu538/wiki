@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
@@ -14,6 +15,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
+  - '[[yt-note-problem-solving-capability]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-extensive-research-input]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-live-field-skill]]'
 - '[[yt-note-l4-internalization]]'

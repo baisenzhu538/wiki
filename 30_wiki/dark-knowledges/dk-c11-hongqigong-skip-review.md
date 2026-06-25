@@ -1,4 +1,5 @@
 ---
+
 id: dk-c11-hongqigong-skip-review
 title: C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-f12-builder-context-deadlock]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-c6-large-source-overflow]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-decision-hygiene]]'
 pipeline:

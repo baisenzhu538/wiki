@@ -1,4 +1,5 @@
 ---
+
 id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[dk-f5-stale-feedback-ref]]'
+  - '[[dk-f4-wrong-workdir]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-systems-thinking]]'
 pipeline:

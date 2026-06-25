@@ -1,4 +1,5 @@
 ---
+
 id: dk-p4-batch-format-empty
 title: P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
+  - '[[dk-f11-encyclopedia-style]]'
+  - '[[dk-f8-phony-wikilink]]'
+  - '[[kdo_product_design_agent_final]]'
+  - '[[dk-f9-generic-critique]]'
+  - '[[ouyangfeng-data-alignment-response]]'
 - '[[master-knowledge-compound]]'
 - '[[kdo-flywheel]]'
 - '[[master-ai-info-literacy]]'

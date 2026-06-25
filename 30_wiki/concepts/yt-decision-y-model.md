@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-y-model
 confidence: 0.85
 created_at: 2026-05-17
@@ -22,6 +23,11 @@ query_triggers:
 - 机会成本
 - 时间窗口
 related:
+  - '[[yt-management-scientific-decision]]'
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-entrepreneur-industry-forecast]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-model-entrepreneur-map]]'

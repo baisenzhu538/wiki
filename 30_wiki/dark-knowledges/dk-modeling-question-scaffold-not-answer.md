@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-question-scaffold-not-answer
 title: 模型是提问的脚手架，不是答案
 type: dark-knowledge
@@ -15,6 +16,11 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[dk-tool-as-answer-trap]]'
+  - '[[tool-scenario-selector-modeling]]'
+  - '[[dk-modeling-case-explosion-confidence]]'
+  - '[[dk-tool-as-phased-validator]]'
 - dk-modeling-radar-model-not-result
 - dk-modeling-explanatory-vs-predictive-essence
 - yt-lean-assumption-prioritization

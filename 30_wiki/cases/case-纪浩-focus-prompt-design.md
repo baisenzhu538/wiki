@@ -1,4 +1,5 @@
 ---
+
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -36,6 +37,7 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
+  - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[case-ji-hao-skills-market]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'

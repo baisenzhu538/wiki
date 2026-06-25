@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-wrong-demand
 title: 需求找错案例集
 type: case
@@ -19,6 +20,11 @@ source_refs:
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
 related:
+  - '[[case-lean-perfectionism-traps]]'
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-2b-gray-test]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[yt-entrepreneur-lean-validation]]"

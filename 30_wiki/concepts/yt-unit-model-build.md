@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-unit-model-build
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -19,6 +20,11 @@ query_triggers:
 - 成本清单
 - 三点预测
 related:
+  - '[[yitang-strategy-canvas]]'
+  - '[[yt-unit-model-concept]]'
+  - '[[yt-tool-unit-model-construction]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[case-unit-model-gashapon]]'
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-overview]]'
 - '[[yt-unit-model-ladder]]'

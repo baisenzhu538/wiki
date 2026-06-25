@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-aesthetics
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计审美篇
 - 泛产品设计审美篇：最佳实践与审美建模
 related:
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[yt-personal-product-design]]'
+  - '[[yt-model-product-excellence]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-model-liberate-thinking-layers]]'

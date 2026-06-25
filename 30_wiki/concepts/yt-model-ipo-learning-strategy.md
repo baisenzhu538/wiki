@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
@@ -19,6 +20,11 @@ query_triggers:
 - 科学学习全景策略
 - 输入质量六维度
 related:
+  - '[[master-knowledge-compound]]'
+  - '[[yt-entrepreneur-research-camp]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
+  - '[[yt-personal-ipo-learning]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-model-prompt-engineering]]'

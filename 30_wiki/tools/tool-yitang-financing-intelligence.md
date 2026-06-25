@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-financing-intelligence
 title: 融资信息分析：从融资事件反推竞对状态
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-bp-analysis]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 ---
 

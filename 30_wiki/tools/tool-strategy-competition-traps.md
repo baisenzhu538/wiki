@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-competition-traps
 title: 竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）
 type: tool
@@ -12,6 +13,10 @@ domain:
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-36
 related:
+  - '[[tool-yitang-research-company-disassembly]]'
+  - '[[tool-yitang-research-best-practice]]'
+  - '[[dk-strategy-05-positioning-trap]]'
+  - '[[concept-strategy-evolution-cycle]]'
 - '[[tool-strategy-gap-analysis]]'
 ---
 ## 两大陷阱

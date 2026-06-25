@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-一堂-hypothesis-driven-business-methodology
 title: 一堂假设驱动型创业分析方法论
 type: concept
@@ -19,6 +20,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
+  - '[[yt-five-step-method]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[ocr-一堂五步法画布]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[skill-一堂-product-kernel-canvas]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
 - "[[yitang-research-domain-digest]]"
 - "[[framework-yitang-six-layer-cross-validation]]"
 - "[[tool-yitang-research-cross-validation]]"

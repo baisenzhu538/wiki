@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-perfectionism-traps
 title: 完美心态踩坑案例集
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-心态关-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_vlm_desc.md
 related:
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-wrong-demand]]'
+  - '[[case-lean-premature-refinement]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[framework-lean-four-principles]]"

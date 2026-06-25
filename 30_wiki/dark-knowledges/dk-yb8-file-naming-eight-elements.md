@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb31-style-first-controlnet]]'
+  - '[[那今天不会]]'
+  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb7-design-demand-80-10-10]]'

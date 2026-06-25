@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 aliases:
@@ -23,6 +24,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-category-role-matrix]]'
+  - '[[tool-strategy-activity-scope]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[framework-strategy-business-design]]'
 - '[[framework-strategy-mckinsey-7s]]'
 - '[[tool-strategy-control-points]]'

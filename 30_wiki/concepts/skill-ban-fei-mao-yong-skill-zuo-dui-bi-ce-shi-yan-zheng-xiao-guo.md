@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo
 title: "技能：用 Skill 做对比测试验证效果"
 type: tool
@@ -16,6 +17,11 @@ tools_required:
 prerequisite_skills:
 - skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 related:
+  - '[[plan_20260621_skill-iteration-standard]]'
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - "[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 - "[[case-ban-fei-mao-skill-ab-test]]"
 - "[[dk-ban-fei-mao-skill-rejection-value]]"

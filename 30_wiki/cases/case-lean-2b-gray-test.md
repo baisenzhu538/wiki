@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-2b-gray-test
 title: 一堂 2B 内训灰度测试
 type: case
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
 related:
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-premature-refinement]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
+  - '[[case-lean-premature-expansion]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[yt-entrepreneur-lean-validation]]"

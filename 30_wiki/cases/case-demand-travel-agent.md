@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-travel-agent
 title: 案例：旅行攻略Agent——隐性需求被忽略
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[case-demand-restaurant-hiring]]'
+  - '[[case-demand-rural-5g]]'
+  - '[[case-demand-tier4-housekeeping]]'
+  - '[[case-demand-dialer]]'
+  - '[[case-demand-indonesia-insurance]]'
 - "[[dk-demand-pitfall-travel-agent]]"
 - "[[framework-demand-iceberg]]"
 ---

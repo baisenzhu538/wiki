@@ -1,4 +1,5 @@
 ---
+
 id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 type: dark-knowledge
@@ -13,6 +14,10 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-p5-cc-connect-config]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 pipeline:

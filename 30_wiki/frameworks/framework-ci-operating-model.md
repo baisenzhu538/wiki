@@ -1,4 +1,5 @@
 ---
+
 id: framework-ci-operating-model
 title: CI运营模型：从信息收集到决策改变的闭环
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - web: Competitive Intelligence Alliance CI Operating Model
 - web: BestBootcamps CI Framework Guide 2026
 related:
+  - '[[tool-ci-implement-phase]]'
+  - '[[tool-key-assumptions-check]]'
+  - '[[dk-c9-batch-trigger-garbage]]'
+  - '[[tool-devils-advocacy]]'
+  - '[[framework-structured-analytic-techniques]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-ci-define-phase]]"
 - "[[tool-ci-implement-phase]]"

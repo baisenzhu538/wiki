@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-financial-literacy
 title: 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 type: dark_knowledge
@@ -11,6 +12,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[dk-demand-pitfall-indonesia-insurance]]'
+  - '[[case-demand-financial-literacy]]'
+  - '[[dk-demand-pitfall-tier4-housekeeping]]'
+  - '[[dk-demand-pitfall-travel-agent]]'
+  - '[[dk-strategy-05-positioning-trap]]'
 - "[[case-demand-financial-literacy]]"
 ---
 **坑**：家长说财商教育重要→据此判断刚性高→开发课程→发现没人付费。

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
@@ -26,6 +27,11 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-modeling-process-sop-evolution]]'
 - "process-modeling"
 - "case-modeling-process-livestream-roles"
 - "case-modeling-process-sop-evolution"

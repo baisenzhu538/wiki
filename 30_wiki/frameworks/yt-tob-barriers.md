@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-customer-sabc]]'
 - '[[yt-tob-unit-model]]'
 - '[[yt-tob-growth-channel]]'
 - '[[yt-tob-customer-sabc]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-fake-marketing
 title: 假营销：用故事验证兴趣
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-stealth-service]]'
+  - '[[tool-lean-leverage-competitor]]'
+  - '[[tool-lean-fake-product]]'
+  - '[[tool-lean-human-replace-rnd]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p6-session-resume-fail
 title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-c6-large-source-overflow]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-p5-cc-connect-config]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 - '[[dk-p5-cc-connect-config]]'

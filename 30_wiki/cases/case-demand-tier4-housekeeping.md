@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-tier4-housekeeping
 title: 案例：四线家政创业——天花板误判
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[case-demand-restaurant-hiring]]'
+  - '[[case-demand-rural-5g]]'
+  - '[[case-demand-dialer]]'
+  - '[[case-demand-travel-agent]]'
+  - '[[case-demand-indonesia-insurance]]'
 - "[[dk-demand-pitfall-tier4-housekeeping]]"
 - "[[framework-demand-opportunity-spectrum]]"
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 公司文化
 type: concept
 domain:
@@ -36,6 +37,11 @@ source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 related:
+  - '[[yt-management-founder-role]]'
+  - '[[yt-management-basic-skills]]'
+  - '[[skill-一堂-product-kernel-canvas]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[yt-tob-sales-unit-model]]'
 - "[[yt-management-founder-role]]"
 - "[[yt-management-goal-management]]"
 - "[[yt-management-business-formula]]"

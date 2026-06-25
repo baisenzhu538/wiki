@@ -1,4 +1,5 @@
 ---
+
 id: gold-standard-manual-labels
 title: Gold Standard — 欧阳锋手工标注 15 条 chunk
 type: decision
@@ -12,6 +13,11 @@ label_version: tag-registry@v1.1
 target_roles:
 - 黄药师（Builder）
 related:
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[skill-decision-outside-view]]'
+  - '[[pilot-atomic-chunk-comparison]]'
+  - '[[label-accuracy-standard-alignment]]'
+  - '[[labeling-research-alignment]]'
 - '[[labeling-final-consolidation]]'
 - '[[kdo-15-dimension-label-spec]]'
 - '[[ouyangfeng-labeling-research-review]]'

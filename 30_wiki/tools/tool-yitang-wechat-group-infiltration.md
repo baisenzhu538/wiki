@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-wechat-group-infiltration
 title: 微信群潜伏：加入竞对的用户/加盟商社群
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-bp-analysis]]'
 - "[[tool-yitang-weapon-insider-intelligence]]"
 - "[[case-yitang-elderly-home-roleplay]]"
 ---

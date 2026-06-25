@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-exploration
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计探索营
 - 泛产品设计探索营：案例启发与认知重构
 related:
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[ocr-一堂-地图-个人地图]]'
+  - '[[yt-research-action-camp-launch]]'
+  - '[[yt-personal-inspiration-flash]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-personal-pan-product-tools]]'
 reviewed_by: 黄药师

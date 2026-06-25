@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-scale-vs-depth
 title: 调研深度决定决策质量：信息精度的边际价值
 type: dark_knowledge
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[tool-yitang-weapon-partner-research]]'
+  - '[[dk-yitang-research-question-quality]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[framework-yitang-six-layer-cross-validation]]"
 ---

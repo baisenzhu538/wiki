@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-swot
 title: SWOT 分析工具：从四象限到行动策略
 type: tool
@@ -15,6 +16,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-ksf]]'
+  - '[[dk-strategy-three-must-do-moments]]'
+  - '[[framework-strategy-blm]]'
+  - '[[tool-strategy-12-word-test]]'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-five-forces]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-c6-large-source-overflow]]'
+  - '[[dk-modeling-timely-review-session-window]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 - '[[dk-p1-model-switch-env]]'

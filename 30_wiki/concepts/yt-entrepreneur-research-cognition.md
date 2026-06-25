@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 竞争情报搜集
 - 上市报告分析
 related:
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
 - '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师

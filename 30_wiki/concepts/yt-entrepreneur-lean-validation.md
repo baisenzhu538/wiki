@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,6 +21,11 @@ query_triggers:
 - 数据驱动决策
 - 关键假设测试
 related:
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
+  - '[[yt-entrepreneur-research-cognition]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-lean-essence]]'

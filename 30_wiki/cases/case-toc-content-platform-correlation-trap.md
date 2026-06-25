@@ -1,5 +1,6 @@
 ---
 
+
 id: case-toc-content-platform-correlation-trap
 title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 type: case
@@ -28,6 +29,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[case-offline-catering-formula]]'
+  - '[[case-dental-clinic-formula]]'
+  - '[[yt-management-business-formula]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[yt-business-formula-parameter-iceberg]]'

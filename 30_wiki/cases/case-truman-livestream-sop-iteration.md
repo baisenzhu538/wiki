@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
@@ -17,6 +18,11 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-kdo-leaky-pipe-pressure
 title: "暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死"
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs: []
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[sprint-2-gate-enrich-evidence]]'
+  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+  - '[[dk-f10-broken-source-refs]]'
 - '[[kdo-ec-industrialization-migration-proposal]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[dk-f7-surface-translation]]'

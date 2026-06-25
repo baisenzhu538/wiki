@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-pitch-storytelling
 title: 讲香·故事化
 type: tool
@@ -18,6 +19,11 @@ prerequisites:
 component_of:
 - yt-model-personal-pitch-toolkit
 related:
+  - '[[yt-pitch-metaphor]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-pitch-quantification]]'
+  - '[[system-yitang-research-workflow]]'
 - '[[yt-concept-weapon-arsenal]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 contradicts: null

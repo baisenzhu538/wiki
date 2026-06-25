@@ -1,5 +1,6 @@
 ---
 
+
 id: kdo-15-dimension-label-spec
 title: KDO 标签体系：15 维度完整定义 v1.0
 type: decision
@@ -16,6 +17,11 @@ target_roles:
 - 欧阳锋（Architect）
 - 黄药师（Builder）
 related:
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[dk-modeling-ai-iterative-prompting]]'
+  - '[[labeling-research-alignment]]'
 - '[[data-labeling-best-practices-report]]'
 - '[[huangyaoshi-tagging-and-scope-proposal]]'
 - '[[plan_20260531_data-curator-v1.3]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[tool-ai-skill-engineering-guide]]'
+  - '[[case-ai-assisted-review]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[dk-modeling-ai-iterative-prompting]]'

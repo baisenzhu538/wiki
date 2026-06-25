@@ -1,4 +1,5 @@
 ---
+
 id: concept-harness-cattle-not-pets
 title: 牲口而非宠物：每次迭代用全新Generator实例
 type: concept
@@ -14,6 +15,11 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[tool-yitang-behavioral-observation]]'
+  - '[[concept-yitang-ideal-research-goal]]'
+  - '[[concept-candy-ai-as-collaborator]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[framework-wanghuan-gan-three-roles]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-multi-agent-research-architecture]]"

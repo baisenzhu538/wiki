@@ -1,4 +1,5 @@
 ---
+
 id: dk-ef-004-missing-diagnostic-firmware
 title: 没有诊断固件就是盲调：你不知道信号卡在哪一级
 type: dark-knowledge
@@ -12,6 +13,7 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
+  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
 - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
 - '[[dk-ef-002-bom-version-async]]'
 - '[[dk-ef-003-hand-soldering-bom-divergence]]'

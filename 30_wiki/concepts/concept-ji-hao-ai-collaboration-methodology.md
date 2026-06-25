@@ -1,4 +1,5 @@
 ---
+
 id: concept-ji-hao-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
@@ -15,6 +16,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
+  - '[[case-truman-ai-partner]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[skill-纪浩-日志驱动排查法]]'
 - '[[dk-ji-hao-ai-cant-design-structure]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-trend-data
 title: 趋势数据查询：行业走向的定量判断
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-douyin-data]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 - "[[tool-yitang-database-index]]"
 ---

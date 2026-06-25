@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 如何与AI协作
 - 提示词怎么写
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师

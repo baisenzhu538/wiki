@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-surplus-brainpower
 title: “剩余脑力”：高阶笔记的唯一货币与分水岭
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 related:
+  - '[[dk-note-maximum-common-divisor]]'
+  - '[[dk-fundamentals-before-advanced-ops]]'
+  - '[[yt-note-live-field-skill]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - '[[dk-truman-flag-note-taking]]'
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-maximum-common-divisor]]'
 - '[[dk-note-rookie-disaster-veteran-heaven]]'

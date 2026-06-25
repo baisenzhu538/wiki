@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
@@ -14,6 +15,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.85
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 prerequisites:
 - yt-model-prompt-engineering

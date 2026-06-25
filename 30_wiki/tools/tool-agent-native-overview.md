@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-native-overview
 title: Agent原生调研工具总览：2025-2026新范式
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - web: Firecrawl, Crawl4AI, ScrapeGraphAI docs
 - web: MCP protocol specification (modelcontextprotocol.io)
 related:
+  - '[[tool-agent-firecrawl]]'
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-osint-wayback]]'
+  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 - "[[tool-osint-overview]]"
 - "[[tool-yitang-ai-research-workflow]]"
 ---

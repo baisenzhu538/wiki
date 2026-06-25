@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
@@ -30,6 +31,11 @@ tools_required:
 - 笔记本和笔
 prerequisite_skills: null
 related:
+  - '[[skill-ai-problem-question-check]]'
+  - '[[sk-ai-problem-validation]]'
+  - '[[ai-collaboration-mindset-shift]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[skill-纪浩-Problem与Question区分法]]'
 - '[[sk-ai-problem-validation]]'
 - '[[ai-collaboration-mindset-shift]]'
 author: 纪浩

@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-shampoo-selling-points
 title: 洗发水卖点组合测试
 type: case
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 related:
+  - '[[framework-lean-systematic-test-curve]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[case-lean-gray-test-paradigm]]'
+  - '[[case-lean-combination-test-paradigm]]'
+  - '[[case-lean-crayfish-combo-test]]'
 - "[[case-lean-combination-test-paradigm]]"
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"

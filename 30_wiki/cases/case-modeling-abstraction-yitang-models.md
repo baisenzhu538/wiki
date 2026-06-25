@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-abstraction-yitang-models
 title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 type: case
@@ -31,6 +32,11 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
 related:
+  - '[[case-yitang-model-asset-inventory]]'
+  - '[[dk-modeling-model-arsenal-paradigms]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[modeling-weapon-library]]'
 - '[[case-yitang-model-asset-inventory]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb30-ecommerce-channel-version
 title: 电商渠道专版区分：淘宝≠拼多多
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb17-product-lifestyle-photography]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 pipeline:

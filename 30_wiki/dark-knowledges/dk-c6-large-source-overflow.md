@@ -1,4 +1,5 @@
 ---
+
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-f12-builder-context-deadlock]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-modeling-timely-review-session-window]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-first-principles]]'
 pipeline:

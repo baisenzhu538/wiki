@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-case-match
 title: Agent L4案例匹配：以历史摩擦点为起点填充8步地图
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
 - web: ODI framework cross-case comparison
 related:
+  - '[[agent-external-brain-design]]'
+  - '[[tool-demand-agent-multi-hypothesis]]'
+  - '[[tool-demand-agent-auto-verify]]'
+  - '[[tool-demand-agent-signal-substitute]]'
+  - '[[five-step-domain-digest]]'
 - "[[tool-demand-iceberg-l4-job-map]]"
 ---
 

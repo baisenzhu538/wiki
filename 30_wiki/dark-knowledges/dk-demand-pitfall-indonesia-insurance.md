@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-indonesia-insurance
 title: 踩坑：印尼寿险——场景错配。Situation变了，需求不存在
 type: dark_knowledge
@@ -11,6 +12,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[dk-demand-pitfall-dialer]]'
+  - '[[dk-demand-pitfall-travel-agent]]'
+  - '[[dk-strategy-05-positioning-trap]]'
+  - '[[dk-demand-pitfall-financial-literacy]]'
+  - '[[dk-demand-pitfall-rural-5g]]'
 - "[[case-demand-indonesia-insurance]]"
 ---
 **坑**：中国模式复制到印尼→需求不成立。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-public-info-is-enough
 title: 多数情报可通过公开信息深挖获得
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-yitang-research-starter-vs-veteran]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
 - "[[tool-yitang-public-information-research]]"
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 id: human-ai-collaboration-double-triangle
 title: 域摘要：人机协作范式——双三角模型域
 type: index
@@ -21,6 +22,11 @@ updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: pending
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'

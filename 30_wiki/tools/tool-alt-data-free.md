@@ -1,4 +1,5 @@
 ---
+
 id: tool-alt-data-free
 title: 免费替代数据：小团队的Hedge Fund武器
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Alternative data sources accessible to individuals
 - web: Google Trends, Reddit, Glassdoor, App Store APIs
 related:
+  - '[[tool-media-verification-overview]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-alt-data-overview]]'
 - "[[tool-alt-data-overview]]"
 - "[[tool-yitang-database-index]]"
 ---

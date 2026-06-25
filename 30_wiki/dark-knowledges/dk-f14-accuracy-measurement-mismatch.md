@@ -1,4 +1,5 @@
 ---
+
 id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dark-knowledge
@@ -13,6 +14,10 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[skill-马易-AI落地场景筛选-四有新人法则]]'
+  - '[[label-accuracy-standard-alignment]]'
+  - '[[dk-p17-accuracy-gap]]'
+  - '[[labeling-research-alignment]]'
 - '[[dk-p15-unverified]]'
 - '[[master-decision-hygiene]]'
 - '[[master-ai-info-literacy]]'

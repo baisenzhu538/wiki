@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-o2o-cost-structure
 title: 医药 O2O 成本与毛利结构
 type: concept
@@ -24,6 +25,11 @@ review_date: '2026-06-14'
 confidence: 0.85
 trust_level: medium
 related:
+  - '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+  - '[[七件事集团]]'
+  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
 - '[[master-antifragile-checklist]]'
 - '[[smart-medicine-cabinet-distribution]]'
 - '[[smart-medicine-cabinet-financial-model]]'

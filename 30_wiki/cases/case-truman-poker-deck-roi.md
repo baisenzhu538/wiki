@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
@@ -14,6 +15,11 @@ source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
 source_refs:
 - src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04
 related:
+  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - '[[dk-decision-value-overrides-roi]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[tool-yitang-expert-network-platform]]'
+  - '[[case-unit-model-gashapon]]'
 - '[[yt-decision-height-toolkit]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'

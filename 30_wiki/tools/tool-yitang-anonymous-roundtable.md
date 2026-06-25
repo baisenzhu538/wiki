@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-anonymous-roundtable
 title: 匿名座谈：以第三方身份组织行业讨论
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-bp-analysis]]'
 - "[[tool-yitang-weapon-anonymous-identity]]"
 - "[[tool-yitang-conference-networking]]"
 ---

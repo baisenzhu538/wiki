@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[case-yitang-tob-grinding-machine]]'
+  - '[[case-truman-prd-checklist-evolution]]'
+  - '[[case-yitang-tob-smart-park]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 创业思维转换
 - 从零到一思维方式
 related:
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
+  - '[[yt-entrepreneur-growth-flywheel]]'
 - '[[master-first-principles]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师

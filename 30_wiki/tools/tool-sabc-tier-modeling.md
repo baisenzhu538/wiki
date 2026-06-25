@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-sabc-tier-modeling
 title: SABC分级/段位图建模法：给事物排优先级与成长路径
 type: tool
@@ -21,6 +22,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-canvas-weapon-library-modeling]]'
+  - '[[tool-radar-chart-modeling]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[modeling-weapon-library]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-level-map]]'
 - '[[tool-checklist-cheatsheet-modeling]]'

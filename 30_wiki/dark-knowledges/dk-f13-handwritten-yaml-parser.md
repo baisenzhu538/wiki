@@ -1,4 +1,5 @@
 ---
+
 id: dk-f13-handwritten-yaml-parser
 title: F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[master-first-principles]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'

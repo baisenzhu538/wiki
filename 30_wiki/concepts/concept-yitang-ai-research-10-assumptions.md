@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-ai-research-10-assumptions
 title: AI调研十大假设：人机协作的底层原则
 type: concept
@@ -14,6 +15,11 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[concept-yitang-ideal-research-goal]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[tool-yitang-ai-research-workflow]]'
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[concept-yitang-ai-research-human-loop]]"
 ---

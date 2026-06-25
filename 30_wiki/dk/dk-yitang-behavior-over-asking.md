@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
 - "[[yitang-domain-digest]]"
 - "[[yitang-research-domain-digest]]"
 - "[[tool-yitang-user-interview-5steps]]"
@@ -134,6 +140,7 @@ related:
 - [ ] 团队把「访谈对象点头」当成「需求被验证」，没有追问替代方案和付费行为。[conf=0.80, source=王语嫣 synthesis_yitang.md]
 - [ ] 用户口头表达的需求强度很高，但现实中没有任何替代方案使用痕迹或付费记录。[conf=0.80, source=王语嫣 synthesis_yitang.md]
 - [ ] 远程访谈结束后，你无法复述用户最近一次遇到该问题的具体场景。[conf=0.80, source=王语嫣 synthesis_yitang.md]
+- [ ] 调研报告里用「用户群体」「典型用户」概括结论，却缺少 2-3 个具体用户的行为链和反例。[conf=0.80, source=王语嫣 synthesis_yitang.md]
 
 ---
 

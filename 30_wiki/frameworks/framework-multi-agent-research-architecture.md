@@ -1,4 +1,5 @@
 ---
+
 id: framework-multi-agent-research-architecture
 title: 多智能体调研架构：四种模式的对比与选择
 type: framework
@@ -16,6 +17,10 @@ source_refs:
 - web: Paiteq multi-agent architecture guide
 - web: Lushbinary agent architecture patterns
 related:
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-agent-research-supervisor]]'
+  - '[[concept-strategy-framework-landscape]]'
+  - '[[tool-agent-research-swarm]]'
 - "[[tool-agent-native-overview]]"
 - "[[tool-agent-research-supervisor]]"
 - "[[tool-agent-research-swarm]]"

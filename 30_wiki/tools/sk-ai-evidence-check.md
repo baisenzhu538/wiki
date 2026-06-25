@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
@@ -18,6 +19,11 @@ wiki_refs:
 - '[[sk-ai-question-problem-checklist]]'
 - '[[sk-ai-parallel-validation]]'
 related:
+  - '[[skill-ai-problem-validation]]'
+  - '[[skill-ai-prd-for-ai]]'
+  - '[[skill-ai-evidence-check]]'
+  - '[[sk-ai-old-small-checklist]]'
+  - '[[sk-ai-prd-for-ai]]'
 - '[[sk-ai-question-problem-checklist]]'
 - '[[sk-ai-parallel-validation]]'
 tags:

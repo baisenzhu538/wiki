@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-critical-reading-three-layers
 title: 三层拆书批判法
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 related:
+  - '[[concept-ai-information-quality-ladder]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[tool-ai-cross-reading-method]]'
+  - '[[framework-ai-deconstruction-methodology]]'
+  - '[[concept-ai-chair-determines-view]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-ooda-loop]]"

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-ai-judgment-limit
 title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 type: dark-knowledge
@@ -21,6 +22,11 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[case-truman-ai-skill-engineering-guide]]'

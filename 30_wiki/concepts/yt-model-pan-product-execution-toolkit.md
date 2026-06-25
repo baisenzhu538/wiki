@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-pan-product-execution-toolkit
 component_of:
 - yt-composite-pan-product-methodology
@@ -24,6 +25,11 @@ query_triggers:
 - 如何做好产品执行
 - 产品交付方法论
 related:
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-36-strategies]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'

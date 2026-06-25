@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
@@ -29,6 +30,11 @@ tools_required:
 - 数据管理工具（Notion / Airtable 等）
 prerequisite_skills: []
 related:
+  - '[[skill-ai-narrative-test]]'
+  - '[[skill-ai-prd-for-ai]]'
+  - '[[skill-ai-purpose-bias-check]]'
+  - '[[sk-ai-old-small-checklist]]'
+  - '[[skill-ai-system-redundancy]]'
 - '[[sk-ai-purpose-bias-check]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 author: unknown

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-stock-data
 title: 股票/上市公司数据：从二级市场看一级市场
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-amazon-bestseller]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 - "[[tool-yitang-financial-report-intelligence]]"
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-essence-schools
 title: 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 type: case
@@ -25,6 +26,11 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
+  - '[[case-yitang-education-supply-chain]]'
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-modeling-abstraction-reliability-ladder]]'
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[dk-modeling-timely-review-session-window]]'
 - "[[modeling-three-stages]]"
 - "[[case-modeling-essence-levels]]"
 - "[[yt-note-expert-interview-modeling]]"

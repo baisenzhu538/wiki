@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[yt-lean-beauty-store-conversion]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-key-assumptions]]'

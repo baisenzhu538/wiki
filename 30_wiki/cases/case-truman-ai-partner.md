@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -35,6 +36,11 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[truman-ai-partner-design-analysis]]'
+  - '[[case-ji-hao-skills-market]]'
 - '[[case-ji-hao-skills-market]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-personal-checklist-notes]]'

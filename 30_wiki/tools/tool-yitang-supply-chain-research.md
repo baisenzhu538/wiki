@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-supply-chain-research
 title: 供应链/合作方情报：从合作方口中拿到竞对的水下数据
 type: tool
@@ -27,6 +28,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[tool-yitang-public-sentiment-research]]'
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
+  - '[[tool-yitang-comparable-company-selection]]'
+  - '[[tool-yitang-weapon-former-employee-network]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-social-engineering-research]]"
 - "[[tool-yitang-reverse-data-analysis]]"

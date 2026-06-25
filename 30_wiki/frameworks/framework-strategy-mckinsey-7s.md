@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-mckinsey-7s
 title: 麦肯锡 7S 模型：组织诊断与变革管理
 type: framework
@@ -18,6 +19,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[concept-mckinsey-7s]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[framework-strategy-blm]]'
 - '[[framework-strategy-pyramid]]'

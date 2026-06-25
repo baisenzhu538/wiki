@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-three-horizons
 title: 三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）
 type: tool
@@ -15,6 +16,11 @@ domain:
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §67, §104
 related:
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-strategy-gap-analysis]]'
+  - '[[tool-strategy-four-layers]]'
+  - '[[framework-strategy-three-horizons]]'
+  - '[[framework-strategy-five-basics]]'
 - '[[framework-strategy-six-stages]]'
 - '[[framework-strategy-brm]]'
 - '[[framework-demand-iceberg]]'

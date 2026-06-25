@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-social-engineering-research
 title: 社会工程学调研：身份设计与信息获取的合法边界
 type: tool
@@ -29,6 +30,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[case-strategy-m-brand-profit-model]]'
+  - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
+  - '[[tool-yitang-wechat-group-infiltration]]'
+  - '[[tool-strategy-profit-model-comparison]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-field-research]]"
 - "[[tool-yitang-job-intelligence-research]]"

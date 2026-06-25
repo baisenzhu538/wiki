@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-binary-quadrant-modeling
 title: 二分法/象限图建模法：用正交维度做分类与取舍
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.91
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[tool-canvas-weapon-library-modeling]]'
+  - '[[tool-radar-chart-modeling]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'
 - '[[tool-radar-chart-modeling]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-nine-problems
 title: 九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制
 type: tool
@@ -15,6 +16,11 @@ domain:
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §11-20
 related:
+  - '[[case-strategy-failure-01-cosmetics]]'
+  - '[[case-strategy-failure-07-phone-l]]'
+  - '[[case-strategy-failure-06-phone-n]]'
+  - '[[tool-strategy-four-moves]]'
+  - '[[ocr-一堂-ai学习-提问工程化]]'
 - '[[framework-strategy-brm]]'
 ---
 

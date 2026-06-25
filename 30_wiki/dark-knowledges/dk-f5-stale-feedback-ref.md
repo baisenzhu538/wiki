@@ -1,4 +1,5 @@
 ---
+
 id: dk-f5-stale-feedback-ref
 title: F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[dk-c4-selfcheck-superseded]]'
 - '[[master-systems-thinking]]'
 - '[[dk-f10-broken-source-refs]]'

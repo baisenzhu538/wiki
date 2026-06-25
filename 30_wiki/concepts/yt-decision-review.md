@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-review
 component_of:
 - yt-decision-y-model
@@ -24,6 +25,11 @@ query_triggers:
 - 无限进步
 - ROI改进
 related:
+  - '[[yt-decision-consensus-iceberg]]'
+  - '[[yt-research-industry-canvas]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-note-fact-pattern-insight]]'
+  - '[[ocr-一堂深度复盘冰山图]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'

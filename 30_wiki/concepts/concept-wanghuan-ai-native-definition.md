@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-ai-native-definition
 title: '王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程'
 type: concept
@@ -32,6 +33,11 @@ diagnostic_signals:
   lens: 只纳不沉
   follow_up: 建立 Prompt 模板库或 AI 业务档案，把高频输出固化为可复用资产
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'

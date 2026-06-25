@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-cross-validation-cost
 title: 交叉验证是成本也是护城河：信息质量的不对称优势
 type: dark_knowledge
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-starter-vs-veteran]]'
+  - '[[dk-yitang-research-question-quality]]'
+  - '[[dk-yitang-ai-research-prompt-craft]]'
+  - '[[dk-yitang-research-ai-hallucination]]'
 - "[[tool-doris-industry-report-source-evaluation]]"
 - "[[dk-yitang-research-scale-vs-depth]]"
 - "[[framework-yitang-six-layer-cross-validation]]"

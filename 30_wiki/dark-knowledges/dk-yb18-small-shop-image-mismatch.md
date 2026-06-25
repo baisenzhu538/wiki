@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb18-small-shop-image-mismatch
 title: 小店图片错配陷阱：精致摄影反而吓跑客户
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb26-chinese-food-photography-props]]'
+  - '[[dk-yb30-ecommerce-channel-version]]'
+  - '[[dk-yb17-product-lifestyle-photography]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
 - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 - '[[dk-yb19-visual-strategy-price-match]]'
 - '[[yt-foresight-ten-fatal-flaws]]'

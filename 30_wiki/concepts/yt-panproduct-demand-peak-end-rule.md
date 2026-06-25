@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-peak-end-rule
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求分析
 - 需求洞察
 related:
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-panproduct-demand-surprise-formula]]'
 - '[[yt-panproduct-demand-motivation-resistance]]'
 - '[[yt-model-conversion-optimization]]'

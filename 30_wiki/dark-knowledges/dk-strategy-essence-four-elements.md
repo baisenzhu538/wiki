@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-essence-four-elements
 title: 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
 type: dark-knowledge
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §12, §18
 related:
+  - '[[case-strategy-shell-oil]]'
+  - '[[case-strategy-revival-14-gucci]]'
+  - '[[dk-demand-pitfall-dialer]]'
+  - '[[case-strategy-practice-10-turnaround]]'
+  - '[[dk-demand-pitfall-travel-agent]]'
 - "[[tool-strategy-12-word-test]]"
 ---
 **四要素检测**：

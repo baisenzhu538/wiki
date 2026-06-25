@@ -1,4 +1,5 @@
 ---
+
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
+  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
 - '[[case-半肥猫-course-to-skill]]'
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
@@ -17,6 +18,11 @@ query_triggers:
 - 产品内核画布（三栏结构）
 - 从假设到壁垒的实操工具
 related:
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-five-step-method]]'
+  - '[[case-proya-betaine-skincare-benchmark]]'
+  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[ocr-一堂五步法画布]]'
 - '[[yt-five-step-method]]'
 - '[[yt-tool-product-core-canvas]]'
 - '[[case-modeling-abstraction-yitang-models]]'

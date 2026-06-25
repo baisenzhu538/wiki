@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-radar-chart-modeling
 title: 雷达图建模法：多维度评估与筛选
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.9
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[tool-iterative-recursive-deep-dig]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb10-theory-moat-designer
 title: AI时代设计师的理论护城河
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb20-ai-eye-high-principle]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'
 - '[[dk-yb22-visual-presentation-scene-match]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'

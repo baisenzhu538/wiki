@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-digging-belief
 title: 破案式深挖的信念
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-ai-research-prompt-craft]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[dk-yitang-research-desperate-effort]]"
 ---
 

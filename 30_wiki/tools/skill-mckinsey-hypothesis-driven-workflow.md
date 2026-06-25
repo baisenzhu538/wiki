@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
@@ -28,6 +29,11 @@ diagnostic_signals:
   framework_lens: 假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准
   follow_up_question: 如果这5个假设中只有1个是对的，哪个假设被证伪后会对你的决策产生最大影响？优先验证那个
 related:
+  - '[[yt-prompt-iterative-prompting]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[concept-mckinsey-issue-tree]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-canvas
 component_of:
 - yt-decision-y-model
@@ -24,6 +25,11 @@ query_triggers:
 - L0-L4深度
 - 停车场模型
 related:
+  - '[[case-modeling-essence-levels]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布]]'
+  - '[[yt-decision-height-toolkit]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+  - '[[yt-decision-y-model]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'

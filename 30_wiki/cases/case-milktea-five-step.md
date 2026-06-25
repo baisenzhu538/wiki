@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
+  - '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[case-shampoo-product-kernel]]'
+  - '[[case-treadmill-demand-analysis]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-model-entrepreneur-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_204_vlm_desc.md
 related:
+  - '[[case-strategy-failure-08-video]]'
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-02-supermarket]]'
+  - '[[case-strategy-failure-05-it]]'
+  - '[[case-strategy-failure-04-appliance]]'
 - "[[framework-strategy-pyramid]]"
 - "[[framework-strategy-five-forces]]"
 - "[[framework-strategy-blm]]"

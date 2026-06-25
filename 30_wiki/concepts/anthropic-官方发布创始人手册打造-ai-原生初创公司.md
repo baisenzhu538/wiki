@@ -1,4 +1,5 @@
 ---
+
 id: anthropic-官方发布创始人手册打造-ai-原生初创公司
 confidence: 0.8
 created_at: 2026-05-19
@@ -14,6 +15,11 @@ query_triggers:
 - 创始人角色演变
 - 产品市场契合度
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-model-dual-triangle-competitiveness]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

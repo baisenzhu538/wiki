@@ -1,5 +1,6 @@
 ---
 
+
 id: case-essence-entrepreneurship
 title: 案例：创业本质 = 小概率游戏
 type: case
@@ -26,6 +27,11 @@ diagnostic_signals:
 - 失败后只会归因“运气不好”或“不够坚持”
 - 讨论停留在“做不做”，而非“如何提高成功概率”
 related:
+  - '[[case-personal-map-modeling]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[case-essence-humanity-trap]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[case-essence-education-strategy]]'
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-explanatory-vs-predictive-essence]]'
 - '[[concept-一堂-key-assumptions]]'

@@ -1,4 +1,5 @@
 ---
+
 id: framework-ai-deconstruction-methodology
 title: 王欢三层拆书法
 type: framework
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[dk-ai-prediction-expiry-date]]'
+  - '[[concept-ai-information-quality-ladder]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[tool-ai-critical-reading-three-layers]]'
+  - '[[concept-ai-chair-determines-view]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-wanghuan-ooda-loop]]"

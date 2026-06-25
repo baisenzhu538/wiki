@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signals
 title: Agent L1-L2信号聚合：替代"凭经验猜用户"
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: thrv 2025 segmentation methods
 - web: Reddit/Glassdoor public data analysis
 related:
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[tool-demand-agent-case-match]]'
+  - '[[tool-alt-data-overview]]'
+  - '[[tool-demand-agent-auto-verify]]'
+  - '[[tool-demand-agent-signal-substitute]]'
 - "[[tool-demand-iceberg-l1-user]]"
 - "[[tool-demand-iceberg-l2-scenario]]"
 - "[[tool-demand-blindspot-checklist]]"

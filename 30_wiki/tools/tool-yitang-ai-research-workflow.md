@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-research-workflow
 title: AI辅助调研工作流：七工具四层深度+十大假设
 type: tool
@@ -30,6 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[concept-yitang-ai-research-10-assumptions]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[yt-personal-ai-capability]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[concept-yitang-ai-research-10-assumptions]]"
 - "[[concept-yitang-ai-research-human-loop]]"

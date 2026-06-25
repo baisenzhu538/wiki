@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-expert-consensus-five-percent
 title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 type: dark-knowledge
@@ -21,6 +22,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[framework-course-milestone-model]]'
+  - '[[dk-modeling-case-explosion-confidence]]'
+  - '[[case-thousand-people-square]]'
+  - '[[sk-ai-question-problem-checklist]]'
+  - '[[concept-thousand-people-square]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-counterexample-driven]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
@@ -29,6 +30,11 @@ tools_required:
 - 笔记本和笔
 prerequisite_skills: null
 related:
+  - '[[sk-ai-voice-input-doubao]]'
+  - '[[skill-ai-prd-for-ai]]'
+  - '[[sk-ai-evidence-check]]'
+  - '[[voice-input-doubao]]'
+  - '[[sk-ai-question-problem-checklist]]'
 - '[[sk-ai-problem-validation]]'
 - '[[prd-as-ai-instruction]]'
 - '[[sk-ai-question-problem-checklist]]'

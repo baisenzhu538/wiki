@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 related:
+  - '[[case-demand-financial-literacy]]'
+  - '[[case-demand-restaurant-hiring]]'
+  - '[[case-demand-rural-5g]]'
+  - '[[dk-demand-pitfall-tier4-housekeeping]]'
+  - '[[dk-demand-misjudgment-rate]]'
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-iceberg-l6-hypothesis]]"
 ---

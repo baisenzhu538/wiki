@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-expert-interview
 confidence: 0.8
 created_at: 2026-05-18
@@ -19,6 +20,7 @@ query_triggers:
 - 访谈技巧
 - 访谈提纲
 related:
+  - '[[yt-research-industry-canvas]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-intelligence-map]]'
 - '[[yt-research-hypothesis-test]]'

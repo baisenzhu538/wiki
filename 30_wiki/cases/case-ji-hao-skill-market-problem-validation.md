@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-ji-hao-skill-market-problem-validation
 title: 案例：一堂Skill市场从伪需求到真实需求的四问验证
 type: case
@@ -16,6 +17,11 @@ created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
 related:
+  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[dk-ji-hao-problem-vs-question]]'
+  - '[[case-ai-assisted-review]]'
+  - '[[case-truman-prd-checklist-evolution]]'
+  - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[dk-ji-hao-problem-vs-question]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'

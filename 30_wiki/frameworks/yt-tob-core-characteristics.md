@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-core-characteristics
 title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
@@ -27,6 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-product-kernel]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb6-midjourney-chinese-text-fix
 title: Midjourney中文文字修复极简提示词
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb12-ai-image-analysis-replace-training]]'
+  - '[[dk-yb4-nano-banana-style-reproduction]]'
+  - '[[dk-yb9-cubox-deployment-failure]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb4-nano-banana-style-reproduction]]'
 - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 pipeline:

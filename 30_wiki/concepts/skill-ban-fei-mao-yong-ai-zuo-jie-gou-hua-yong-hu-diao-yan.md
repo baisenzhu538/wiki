@@ -1,6 +1,7 @@
 ---
 
 
+
 id: skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan
 title: 技能：用 AI 做结构化用户调研
 type: "tool"
@@ -18,6 +19,11 @@ tools_required:
 prerequisite_skills:
 - skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
 - '[[dk-ban-fei-mao-silky-answer-warning]]'

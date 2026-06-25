@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb22-visual-presentation-scene-match
 title: 视觉呈现方式与消费场景的匹配原则
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb26-chinese-food-photography-props]]'
+  - '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb19-visual-strategy-price-match]]'
 pipeline:

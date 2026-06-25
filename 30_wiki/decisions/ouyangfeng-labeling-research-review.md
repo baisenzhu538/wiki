@@ -1,4 +1,5 @@
 ---
+
 id: ouyangfeng-labeling-research-review
 title: 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 type: decision
@@ -11,6 +12,11 @@ target_roles:
 - 用户（决策者）
 - 黄药师（Builder）
 related:
+  - '[[graph-rag]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[case-chen-qiufan-ai-writing]]'
+  - '[[labeling-research-alignment]]'
+  - '[[data-labeling-best-practices-report]]'
 - '[[kdo-15-dimension-label-spec]]'
 - '[[labeling-research-alignment]]'
 - '[[data-labeling-best-practices-report]]'

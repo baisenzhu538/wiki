@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-outbound-travel-community
 title: 案例：出境游产业链拆解
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-doris-beauty-ecommerce-channel]]'
+  - '[[case-yitang-travel-receipt-analysis]]'
+  - '[[case-doris-2014-music-streaming-prediction]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[framework-doris-industry-report-4step]]"
 ---
 

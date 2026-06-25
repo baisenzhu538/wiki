@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-wuxi-suntech
 title: 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37
 related:
+  - '[[case-strategy-li-ka-shing]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-practice-11-third-place]]'
+  - '[[case-strategy-lekai-film]]'
+  - '[[case-strategy-cool-boiled-water]]'
 - "[[framework-strategy-six-stages]]"
 ---
 **轨迹**：全球光伏第一→行业进入绝望之谷→资金链断裂→外资低价收购

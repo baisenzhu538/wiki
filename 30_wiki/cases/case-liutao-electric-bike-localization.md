@@ -1,4 +1,5 @@
 ---
+
 id: case-liutao-electric-bike-localization
 title: 案例：电动车出海本地化——从0调研目标市场
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-yitang-consumer-offline-channel-decision]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-ski-project-user-as-expert]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[framework-yitang-high-level-execution]]"
 - "[[tool-yitang-overseas-research]]"
 ---

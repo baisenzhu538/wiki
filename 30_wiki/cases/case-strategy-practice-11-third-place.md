@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-11-third-place
 title: 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-practice-12-zero-loss]]'
+  - '[[case-strategy-practice-10-turnaround]]'
+  - '[[case-strategy-lekai-film]]'
 - "[[framework-strategy-brm]]"
 ---
 **冉鹏实操**：行业老三→2个月减亏7000万→10个月电商超竞品→日均销售额同行7倍

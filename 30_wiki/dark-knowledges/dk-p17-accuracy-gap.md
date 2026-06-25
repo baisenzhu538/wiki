@@ -1,4 +1,5 @@
 ---
+
 id: dk-p17-accuracy-gap
 title: 'P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度'
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[gold-standard-manual-labels]]'
+  - '[[dk-f14-accuracy-measurement-mismatch]]'
+  - '[[label-accuracy-standard-alignment]]'
+  - '[[dk-p15-unverified]]'
+  - '[[labeling-research-alignment]]'
 - '[[dk-p15-unverified]]'
 - '[[dk-f14-accuracy-measurement-mismatch]]'
 - '[[master-decision-hygiene]]'

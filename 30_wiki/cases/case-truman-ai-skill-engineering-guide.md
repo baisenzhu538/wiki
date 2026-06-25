@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -20,6 +21,11 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-truman-prd-checklist-evolution]]'

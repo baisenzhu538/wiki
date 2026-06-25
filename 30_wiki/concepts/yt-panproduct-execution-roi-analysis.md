@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-roi-analysis
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-execution-milestone-breakdown]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-panproduct-execution-management-trilogy]]'
 - '[[yt-panproduct-execution-milestone-breakdown]]'
 - '[[yt-panproduct-execution-business-modeling]]'

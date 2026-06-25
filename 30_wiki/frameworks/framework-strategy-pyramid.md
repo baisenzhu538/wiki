@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-pyramid
 title: 企业战略金字塔：公司、业务与职能协同
 type: framework
@@ -15,6 +16,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-logistics-cost-planning]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[case-strategy-walmart-vs-costco-pyramid]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-model-selection-quiz]]'
 - '[[case-strategy-walmart-vs-costco-pyramid]]'
 - '[[framework-strategy-blm]]'

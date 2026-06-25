@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-wayback
 title: Wayback Machine：网站时光机——看竞对的每一个历史版本
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Internet Archive Wayback Machine (web.archive.org)
 - web: OSINT tools comparison 2026
 related:
+  - '[[tool-agent-firecrawl]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-overview]]'
+  - '[[tool-osint-shodan]]'
 - "[[tool-osint-overview]]"
 - "[[tool-yitang-weapon-public-official-info]]"
 ---

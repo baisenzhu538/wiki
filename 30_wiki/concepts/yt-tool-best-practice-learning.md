@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-best-practice-learning
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -24,6 +25,11 @@ query_triggers:
 - 如何提升审美
 - 设计感培养
 related:
+  - '[[yt-prompt-iterative-prompting]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[yt-tool-mental-model-refinement]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-personal-pan-product-aesthetics]]'
 - '[[yt-tool-mental-model-refinement]]'

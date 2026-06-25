@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
@@ -16,6 +17,11 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
+  - '[[case-personal-map-modeling]]'
+  - '[[case-ai-agent-milestone-design]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[case-truman-livestream-sop-iteration]]'

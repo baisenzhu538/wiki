@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
@@ -16,6 +17,11 @@ wiki_refs:
 - '[[sk-ai-problem-validation]]'
 - '[[ai-collaboration-mindset-shift]]'
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[sk-ai-landing-five-steps]]'
 - '[[sk-ai-problem-validation]]'
 - '[[ai-collaboration-mindset-shift]]'

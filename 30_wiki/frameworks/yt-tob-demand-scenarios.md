@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-demand-scenarios
 title: To B 需求场景四象限
 type: framework
@@ -27,6 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-model-product-core-metrics]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-product-kernel]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

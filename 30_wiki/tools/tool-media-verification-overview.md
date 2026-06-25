@@ -1,4 +1,5 @@
 ---
+
 id: tool-media-verification-overview
 title: 媒体验证技术总览：判断"对方说的是不是真的"
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: OSINT media verification best practices (Defcon Level)
 - web: Chronolocation and geolocation verification techniques
 related:
+  - '[[tool-agent-firecrawl]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-metadata-extraction]]'
+  - '[[tool-reverse-image-search]]'
 - "[[tool-reverse-image-search]]"
 - "[[tool-metadata-extraction]]"
 - "[[framework-yitang-six-layer-cross-validation]]"

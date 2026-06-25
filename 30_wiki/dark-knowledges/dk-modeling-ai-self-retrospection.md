@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-ai-self-retrospection
 title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 type: dark-knowledge
@@ -16,6 +17,11 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[tool-ai-skill-engineering-guide]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-capability-system]]'
 - '[[dk-modeling-ai-without-judgment]]'

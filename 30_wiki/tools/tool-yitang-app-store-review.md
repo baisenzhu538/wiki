@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-app-store-review
 title: 应用商店评论分析：功能请求+竞品对比的富矿
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
 - "[[tool-yitang-weapon-product-reputation]]"
 - "[[tool-yitang-review-analysis]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
@@ -35,6 +36,11 @@ diagnostic_signals:
   lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'

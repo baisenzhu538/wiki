@@ -1,5 +1,6 @@
 ---
 
+
 id: modeling-capability-for-kdo
 title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
@@ -10,6 +11,11 @@ domain:
 - yitang
 source_refs: []
 related:
+  - '[[case-modeling-essence-levels]]'
+  - '[[modeling-level-map]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'
 - '[[modeling-level-map]]'

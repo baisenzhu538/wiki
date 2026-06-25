@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-rookie-disaster-veteran-heaven
 title: “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 type: dark-knowledge
@@ -19,6 +20,11 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
+  - '[[dk-note-maximum-common-divisor]]'
+  - '[[dk-fundamentals-before-advanced-ops]]'
+  - '[[yt-skill-checklist-as-ai-protocol]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[dk-truman-flag-note-taking]]'
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-surplus-brainpower]]'
 - '[[dk-note-maximum-common-divisor]]'

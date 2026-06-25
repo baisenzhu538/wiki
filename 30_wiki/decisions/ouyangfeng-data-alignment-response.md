@@ -1,4 +1,5 @@
 ---
+
 id: ouyangfeng-data-alignment-response
 title: 欧阳锋对齐回应：6+1 框架理解 + 补充意见
 type: decision
@@ -15,6 +16,11 @@ target_roles:
 - 用户（决策者）
 supersedes: null
 related:
+  - '[[plan_20260531_data-curator-v1.3]]'
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[three-party-data-alignment]]'
+  - '[[kdo_product_design_agent_final]]'
+  - '[[kdo-protocol]]'
 - '[[three-party-data-alignment]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 author: unknown

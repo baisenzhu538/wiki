@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
@@ -31,6 +32,11 @@ prerequisites:
 component_of:
 - yt-decision-y-model
 related:
+  - '[[ocr-一堂-科学决策-深度-l3定量公式]]'
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[ocr-一堂-科学决策-深度-l2部分定量]]'
+  - '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
+  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-canvas]]'

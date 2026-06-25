@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb19-visual-strategy-price-match
 title: 餐饮图片视觉策略与价格定位的匹配法则
 type: dark-knowledge
@@ -16,6 +17,11 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb30-ecommerce-channel-version]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb9-cubox-deployment-failure]]'
+  - '[[dk-yb22-visual-presentation-scene-match]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[yt-model-conversion-optimization]]'

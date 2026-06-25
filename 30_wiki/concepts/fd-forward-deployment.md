@@ -1,5 +1,6 @@
 ---
 
+
 id: fd-forward-deployment
 title: Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 type: concept
@@ -12,6 +13,11 @@ domain:
 source_refs:
 - src_20260614_ab09af1c-多人-FD模式解析
 related:
+  - '[[tool-media-verification-overview]]'
+  - '[[business-validation-models-collaboration]]'
+  - '[[smart-device-foodservice-automation]]'
+  - '[[beverage-foodservice-channel]]'
+  - '[[ai-complex-communication]]'
 - '[[source-code-delivery-model]]'
 - '[[private-domain-saas-sales-funnel]]'
 - '[[yt-entrepreneur-channel-exploration]]'

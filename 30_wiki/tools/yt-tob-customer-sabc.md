@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium
 related:
+  - '[[yt-tob-barriers]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[tool-sabc-tier-modeling]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
 - '[[yt-tob-customer-tiering]]'
 - '[[yt-tob-demand-scenarios]]'
 - '[[yt-tob-demand-metrics]]'

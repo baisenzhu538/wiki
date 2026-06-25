@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-goal-before-efficiency
 title: 没有目标就不要谈效率
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-research-cost-value-match]]'
+  - '[[dk-demand-premature-solution]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[framework-doris-industry-report-4step]]"
 ---
 

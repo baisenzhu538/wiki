@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-practice
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计实操篇：需求分析与用户洞察
 - 需求分析与用户洞察
 related:
+  - '[[yt-research-user-jtbd]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[yt-demand-jtbd-application]]'
+  - '[[tool-prompt-iceberg-demand-analysis]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师

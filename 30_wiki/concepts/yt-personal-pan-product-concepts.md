@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-pan-product-concepts
 component_of:
 - yt-composite-pan-product-methodology
@@ -19,6 +20,11 @@ query_triggers:
 - 泛产品设计认知篇：重新理解泛化产品能力
 - 重新理解泛化产品能力
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'

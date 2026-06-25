@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
@@ -12,6 +13,11 @@ confidence: 0.88
 source_refs:
   - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
+  - '[[yt-note-l6-extraction]]'
+  - '[[yt-note-problem-solving-capability]]'
+  - '[[yt-note-ai-p-role-not-c-role]]'
+  - '[[yt-skill-checklist-as-ai-protocol]]'
+  - '[[yt-note-three-level-evolution]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-surplus-brainpower]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-core-competence-matrix
 title: 核心能力评估矩阵：影响力 × 急迫性
 type: tool
@@ -16,6 +17,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[tool-strategy-lifecycle]]'
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-customer-selection]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-ksf]]'
 ---

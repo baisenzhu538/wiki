@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-aesthetic-modeling
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -24,6 +25,11 @@ query_triggers:
 - 泛产品设计·审美卡片：最佳实践建模
 - 设计标准
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-aesthetic-imagination]]'
 - '[[yt-model-prediction-model]]'

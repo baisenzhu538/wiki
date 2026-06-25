@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-note-one-line-one-point
 title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 type: tool
@@ -12,6 +13,9 @@ version: 1
 difficulty: beginner
 confidence: 0.88
 related:
+  - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
+  - '[[skill-note-layer-constraint]]'
+  - '[[skill-note-keyword-bolding]]'
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-layer-constraint]]'
 - '[[skill-note-keyword-bolding]]'

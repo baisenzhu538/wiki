@@ -1,5 +1,6 @@
 ---
 
+
 date: 2026-06-07
 author: 黄药师（Builder）
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
@@ -11,6 +12,11 @@ domain:
 - ai
 - yitang
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-checklist-concept]]'
 id: truman-ai-partner-design-analysis

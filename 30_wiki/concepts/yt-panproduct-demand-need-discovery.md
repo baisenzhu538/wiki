@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-need-discovery
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求挖掘
 - 需求洞察
 related:
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 - '[[yt-panproduct-demand-user-perspective]]'
 reviewed_by: 黄药师

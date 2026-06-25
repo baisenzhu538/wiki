@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-shodan
 title: Shodan：互联网设备搜索引擎——发现竞对的技术栈
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Shodan official docs (shodan.io)
 - web: OSINT tools comparison 2026
 related:
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-google-dorking]]'
 - "[[tool-osint-overview]]"
 - "[[tool-yitang-tech-project-research]]"
 ---

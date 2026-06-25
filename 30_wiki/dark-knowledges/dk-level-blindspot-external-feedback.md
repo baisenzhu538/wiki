@@ -1,4 +1,5 @@
 ---
+
 id: dk-level-blindspot-external-feedback
 title: "暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法"
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
+  - '[[dk-modeling-course-rnd-ripe-fruit]]'
+  - '[[dk-five-step-framework-legitimizes-bias]]'
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[yt-five-step-implementation]]'
 - '[[yt-five-step-level-blindspots]]'
 - '[[yt-model-truman-five-step-growth]]'
 - '[[modeling-level-map]]'

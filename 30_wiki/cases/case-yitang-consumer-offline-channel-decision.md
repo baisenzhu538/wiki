@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-consumer-offline-channel-decision
 title: 案例：消费品线下渠道决策——先访谈再算账
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-liutao-electric-bike-localization]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-ski-project-user-as-expert]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[tool-yitang-user-interview-5steps]]"
 - "[[tool-yitang-consumer-goods-research]]"
 ---

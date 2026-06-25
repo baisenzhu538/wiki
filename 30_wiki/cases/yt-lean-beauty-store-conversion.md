@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-beauty-store-conversion
 title: 美业门店：200→4000转化链路才是关键假设
 type: case
@@ -26,6 +27,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
+  - '[[yt-lean-assumption-prioritization]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-key-assumptions]]'

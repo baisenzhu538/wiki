@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-shell-oil
 title: 壳牌石油：价值链突变→市场规模预测→从生产转服务
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-practice-ranpeng-milk-powder]]'
+  - '[[dk-strategy-essence-four-elements]]'
+  - '[[case-strategy-lekai-film]]'
 - "[[framework-strategy-six-stages]]"
 ---
 **转型**：原油价值链突变→预测未来市场规模萎缩→提前从生产转向服务

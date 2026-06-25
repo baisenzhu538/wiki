@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
 - "[[strategy-domain-digest]]"
 - "[[framework-strategy-brm]]"
 - "[[framework-strategy-mckinsey-7s]]"

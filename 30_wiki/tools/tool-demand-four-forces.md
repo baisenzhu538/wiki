@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-four-forces
 title: 四种力量建模：用户切换决策的博弈机制
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
+  - '[[dk-demand-switching-cost]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
+  - '[[case-demand-ai-fitness-four-forces]]'
+  - '[[framework-demand-iceberg]]'
+  - '[[tool-demand-agent-signal-substitute]]'
 - "[[tool-demand-iceberg-l5-forces]]"
 - "[[framework-demand-iceberg]]"
 ---

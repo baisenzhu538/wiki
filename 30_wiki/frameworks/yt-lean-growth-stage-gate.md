@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-growth-stage-gate
 title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[yt-lean-essence]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
+  - '[[yt-lean-assumption-prioritization]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-entrepreneur-five-step-method]]'

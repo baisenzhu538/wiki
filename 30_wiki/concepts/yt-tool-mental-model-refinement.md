@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-mental-model-refinement
 component_of:
 - yt-model-personal-map
@@ -24,6 +25,11 @@ query_triggers:
 - 以周为单位的迭代模型
 - 躬身入局建模
 related:
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 - '[[yt-model-deliberate-practice-growth]]'
 - '[[yt-composite-pan-product-methodology]]'

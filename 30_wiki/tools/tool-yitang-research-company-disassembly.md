@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-company-disassembly
 title: 公司拆解：深度分析竞争对手的六维框架
 type: tool
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-strategy-competition-traps]]'
+  - '[[tool-yitang-research-best-practice]]'
+  - '[[yt-business-model-asset-light]]'
+  - '[[tool-yitang-research-industry-scan]]'
+  - '[[tool-yitang-research-competitor-tracking]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-industry-scan]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-maximum-common-divisor
 title: "清单体是人与AI的'最大公约数'：结构降级即认知升级"
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
+  - '[[dk-fundamentals-before-advanced-ops]]'
+  - '[[yt-skill-checklist-as-ai-protocol]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[truman-ai-partner-design-analysis]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-ai-human-division]]'
 - '[[dk-note-surplus-brainpower]]'

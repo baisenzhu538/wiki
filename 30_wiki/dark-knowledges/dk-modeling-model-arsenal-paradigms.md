@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dark-knowledge
@@ -23,6 +24,11 @@ diagnostic_signals:
   - 为了追求“创新”硬造新框架，事后发现只是某个旧范式的变形。
   - 几百个模型散落在各处，缺少武器库和调用标准，复用率极低。
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-truman-knowledge-extraction-three-schools]]'
+  - '[[case-yitang-model-asset-inventory]]'
+  - '[[case-modeling-abstraction-yitang-models]]'
+  - '[[dk-modeling-business-visual-logic-match]]'
 - '[[dk-modeling-business-visual-logic-match]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-level-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-tools
 title: 借搭建工具：用现成系统跑业务流
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[tool-lean-stealth-service]]'
+  - '[[tool-lean-presell]]'
+  - '[[tool-lean-leverage-competitor]]'
+  - '[[tool-lean-leverage-resources]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

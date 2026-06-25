@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-public-information-research
 title: 官方公开信息渠道：公司自己发布的信息最有价值
 type: tool
@@ -27,6 +28,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[tool-yitang-weapon-public-official-info]]'
+  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
+  - '[[tool-yitang-supply-chain-research]]'
+  - '[[yt-research-intelligence-map]]'
+  - '[[skill-执行对标研究三步法]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-financial-report-intelligence]]"
 - "[[tool-yitang-database-index]]"

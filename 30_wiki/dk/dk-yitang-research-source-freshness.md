@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-source-freshness
 title: 信源时效性：AI/监管/融资数据≤30天
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-demand-hidden-need]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[tool-doris-industry-report-source-evaluation]]"
 ---
 

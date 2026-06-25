@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-amazon-bestseller
 title: 亚马逊榜单：海外市场的品类趋势
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 - "[[tool-yitang-overseas-research]]"
 ---

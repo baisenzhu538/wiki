@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

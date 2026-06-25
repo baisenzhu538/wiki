@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-overview
 title: OSINT工具总览：情报界的调研武器库
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: OSINT tools 2025-2026 comparison
 - web: OSINT Framework (osintframework.com)
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[framework-yitang-research-weapon-supplement-2026]]'
+  - '[[tool-osint-wayback]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[framework-yitang-research-weapon-supplement-2026]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-medical-device-milestone
 title: 医疗器械项目里程碑测试
 type: case
@@ -21,6 +22,11 @@ source_refs:
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程·医疗器械案例
 related:
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-premature-refinement]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
+  - '[[case-lean-premature-expansion]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"
 - "[[framework-lean-abcd-model]]"

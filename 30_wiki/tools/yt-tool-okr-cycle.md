@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-okr-cycle
 title: OKR 制定与复盘罗盘
 type: tool
@@ -16,6 +17,11 @@ prerequisites: null
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-management-goal-management]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-management-toolkit-overview]]'
+  - '[[tool-strategy-12-word-test]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-project-management]]'

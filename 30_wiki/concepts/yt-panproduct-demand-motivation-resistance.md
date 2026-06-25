@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-motivation-resistance
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求分析
 - 需求洞察
 related:
+  - '[[tool-yitang-review-analysis]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-management-conversion-hacking]]'
+  - '[[yt-panproduct-demand-peak-end-rule]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-conversion-optimization]]'
 - '[[yt-panproduct-demand-peak-end-rule]]'
 - '[[yt-panproduct-demand-surprise-formula]]'

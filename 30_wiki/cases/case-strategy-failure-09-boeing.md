@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-09-boeing
 title: 案例：飞机制造公司——机制背离。激励偏财务致安全事故
 type: case
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §20
 related:
+  - '[[case-strategy-failure-08-video]]'
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-02-supermarket]]'
+  - '[[case-strategy-failure-05-it]]'
+  - '[[case-strategy-failure-04-appliance]]'
 - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：737 MAX安全事故

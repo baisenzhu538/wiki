@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-ksf
 title: 关键成功因素（KSF）分析工具
 type: tool
@@ -17,6 +18,9 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-swot]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[framework-strategy-five-forces]]'
 - '[[tool-strategy-core-competence-matrix]]'
 - '[[tool-strategy-swot]]'

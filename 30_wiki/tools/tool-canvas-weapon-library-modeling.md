@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-canvas-weapon-library-modeling
 title: 画布/武器库建模法：把工具箱变成可快速调用的系统
 type: tool
@@ -39,6 +40,11 @@ diagnostic_signals:
   framework_lens: 武器库迭代
   follow_up_question: 是否定期淘汰失效工具、合并重复工具、补充新场景？
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[modeling-weapon-library]]'
 - '[[modeling-weapon-library]]'
 - '[[tool-scenario-selector-modeling]]'
 - '[[modeling-three-stages]]'

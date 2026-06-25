@@ -1,4 +1,5 @@
 ---
+
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
+  - '[[存储策略]]'
+  - '[[dk-f6-cjk-skeleton-corruption]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[dk-c3-txt-ingest-skip]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-f1-regex-on-cjk]]'

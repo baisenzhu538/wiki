@@ -1,5 +1,6 @@
 ---
 
+
 id: ai单元模型口述蒋老师
 confidence: 0.85
 created_at: 2026-05-25
@@ -9,6 +10,11 @@ domain:
 event: 一堂AI落地行动营第三期（最后一期内测），2026-05
 language: zh-CN
 related:
+  - '[[yt-tool-unit-model-ai-assisted]]'
+  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
+  - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
+  - '[[ocr-一堂-单元模型-扭蛋机案例]]'
+  - '[[yt-unit-model-three-tools]]'
 - '[[yt-unit-model-overview]]'
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-ladder]]'

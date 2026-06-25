@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-maltego
 title: Maltego：实体关系图谱——画出目标公司的隐藏网络
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Maltego official docs
 - web: OSINT tools comparison 2026
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-osint-sherlock]]'
+  - '[[high-density-composite-compilation-strategy]]'
+  - '[[tool-metadata-extraction]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-osint-overview]]"
 - "[[tool-yitang-people-network-database]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: tool-google-dorking
 title: Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Google advanced search operators
 - web: OSINT search techniques
 related:
+  - '[[tool-doris-industry-report-search-tips]]'
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-yitang-industry-report-search]]'
 - "[[tool-yitang-weapon-media-search]]"
 - "[[tool-doris-industry-report-search-tips]]"
 ---

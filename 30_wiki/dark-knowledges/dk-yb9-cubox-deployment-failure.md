@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
+  - '[[dk-yb5-style-asset-archive]]'
 - '[[dk-yb27-pseudo-layer-evasion]]'
 - '[[dk-yb7-design-demand-80-10-10]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-unit-model-gashapon
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -39,6 +40,11 @@ pipeline:
 - confidence-source-cited
 author: 老顽童
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[case-truman-poker-deck-roi]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-build]]'
+  - '[[xingangwan-pharma-business-model-formulas]]'
 - '[[yt-unit-model-concept]]'
 - '[[yt-unit-model-build]]'
 - '[[yt-unit-model-ladder]]'

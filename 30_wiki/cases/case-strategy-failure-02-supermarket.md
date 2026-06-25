@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-02-supermarket
 title: 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长
 type: case
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §13
 related:
+  - '[[case-strategy-failure-08-video]]'
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-05-it]]'
+  - '[[case-strategy-failure-04-appliance]]'
+  - '[[case-strategy-failure-09-boeing]]'
 - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：增长停滞，利润也下降

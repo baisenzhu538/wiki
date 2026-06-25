@@ -1,5 +1,6 @@
 ---
 
+
 id: xingangwan-pharma-business-model-calc
 title: 鑫港湾医药零售商业模型计算框架
 type: framework
@@ -17,6 +18,11 @@ review_date: '2026-06-19'
 confidence: 0.89
 trust_level: medium
 related:
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[xingangwan-pharma-business-model-formulas]]'
+  - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
 - '[[xingangwan-pharma-business-formulas]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[shanxi-field-research-checklist-20260701]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-blue-ocean-canvas
 title: 蓝海战略画布（价值曲线工具）
 type: tool
@@ -16,6 +17,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[yitang-strategy-canvas]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[framework-strategy-five-forces]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[framework-strategy-business-design]]'
 - '[[framework-strategy-five-forces]]'
 - '[[framework-strategy-kai-innovation-directions]]'

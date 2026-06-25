@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
@@ -18,6 +19,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[yt-lean-assumption-verification-3means]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[yt-lean-essence]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

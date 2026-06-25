@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
@@ -17,6 +18,11 @@ query_triggers:
 - 审美提升的层级：从看不见到大胆想象的进化路径
 - 核心公式解读
 related:
+  - '[[yt-model-product-excellence]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[ocr-泛产品设计-审美工具箱指南]]'
+  - '[[ocr-审美提升的层级]]'
+  - '[[yt-composite-pan-product-methodology]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-three-virtues]]'
 - '[[yt-model-product-excellence]]'

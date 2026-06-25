@@ -1,4 +1,5 @@
 ---
+
 id: data-curator-role-division
 title: Data Curator Skill — 五角色分工方案
 type: decision
@@ -18,6 +19,11 @@ target_roles:
 - 洪七公（Multimodal）
 supersedes: null
 related:
+  - '[[huangyaoshi-tagging-and-scope-proposal]]'
+  - '[[three-party-data-alignment]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
+  - '[[dk-p7-ocr-skip]]'
+  - '[[ouyangfeng-data-alignment-response]]'
 - '[[three-party-data-alignment]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 - '[[huangyaoshi-data-alignment-response]]'

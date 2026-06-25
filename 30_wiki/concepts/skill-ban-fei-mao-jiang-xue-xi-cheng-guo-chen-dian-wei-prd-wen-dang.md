@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 title: "技能：将学习成果沉淀为 PRD 文档"
 type: tool
@@ -18,6 +19,11 @@ tools_required:
 prerequisite_skills:
 - skill-半肥猫-边学边练边沉淀的AI学习法
 related:
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-半肥猫-课程Skill化的八步工作流]]'
 - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'

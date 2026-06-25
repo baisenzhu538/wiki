@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-project-health-radar
 title: 项目健康度雷达
 type: tool
@@ -17,6 +18,11 @@ prerequisites:
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[yt-tool-onboarding-90day]]'
+  - '[[yt-tool-equity-checklist]]'
+  - '[[system-yitang-research-workflow]]'
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-management-scientific-meetings]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-employee-directory
 title: 员工公开名录：从通讯录取组织架构
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-people-network-database]]'
 - "[[tool-yitang-weapon-public-official-info]]"
 - "[[tool-yitang-organization-research]]"
 ---

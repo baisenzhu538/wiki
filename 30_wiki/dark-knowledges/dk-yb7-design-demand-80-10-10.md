@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb30-ecommerce-channel-version]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[dk-yb10-theory-moat-designer]]'
+  - '[[dk-yb25-solution-driven-visual-design]]'
+  - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[dk-yb25-solution-driven-visual-design]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'

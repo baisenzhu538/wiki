@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-auto-verify
 title: Agent L6自动预验证：RAT的竞品数据+趋势快速验证
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
 - web: CRV 2026 time-boxed hypothesis testing
 related:
+  - '[[tool-demand-agent-signals]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[tool-demand-agent-case-match]]'
+  - '[[tool-demand-agent-signal-substitute]]'
 - "[[tool-demand-iceberg-l6-hypothesis]]"
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
@@ -19,6 +20,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[modeling-level-map]]'
 - '[[modeling-three-values]]'
 - '[[modeling-scientific-milestones]]'

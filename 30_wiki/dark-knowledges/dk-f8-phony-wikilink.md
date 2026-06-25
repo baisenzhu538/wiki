@@ -1,4 +1,5 @@
 ---
+
 id: dk-f8-phony-wikilink
 title: F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
+  - '[[graph-rag]]'
+  - '[[dk-tool-chain-naming-is-infrastructure]]'
+  - '[[dk-f11-encyclopedia-style]]'
+  - '[[dk-f9-generic-critique]]'
+  - '[[dk-p4-batch-format-empty]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
 pipeline:

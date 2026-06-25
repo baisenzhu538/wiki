@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-model-asset-capitalization
 title: 组织级模型资产的盘点、定价与迭代
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
+  - '[[dk-yitang-behavior-over-asking]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-research-decision-first-mapping]]'
 - "[[yitang-domain-digest]]"
 - "[[modeling-weapon-library]]"
 - "[[tool-radar-chart-modeling]]"
@@ -63,6 +69,16 @@ related:
 
 1. **盘点 10 个你最常用的模型/清单/SOP**：写下它们的名字、适用问题、上次更新时间、过去 30 天被复用了几次。如果超过一半答不上来，说明资产化缺口已经存在。
 2. **给下一个要打磨的模型贴一个价格标签**：从“5000 元”起步，列出它升级到 1 万元、10 万元、10 万美金分别还需要补什么（边界案例？可迁移包装？真实业务结果？），并把升级条件写进任务系统。
+
+## 支撑案例
+
+| 案例 | 机制 | 对本模式的支撑 |
+|:---|:---|:---|
+| [[case-yitang-weekly-modeling-engine]] | 周对周交付—复盘—迭代闭环 | 把周五课程逼成公司增长引擎，证明固定交付节点能驱动模型进化 |
+| [[case-yitang-model-valuation-flywheel]] | 内部模型定价 | 从 5000 元到 10 万美金的价值飞轮，说明价格锚点可统一质量预期 |
+| [[case-yitang-model-asset-inventory]] | AI 扫描内容资产 | 三四百个模型归集到二三十个范式，说明盘点能让散落资产可发现 |
+| [[case-yitang-radar-chart-selection]] | 雷达图对象化评选 | 从 Truman 拍板到“只聊模型不聊结果”，说明对象化标准能减少隐性权威 |
+| [[case-yitang-double-triangle-confidence]] | 双三角模型底盘化 | AI 难题的通用解题底盘，说明个人模型可升级为组织级基础设施 |
 
 ## 适用边界
 

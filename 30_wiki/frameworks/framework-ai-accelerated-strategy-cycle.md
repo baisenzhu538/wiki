@@ -1,4 +1,5 @@
 ---
+
 id: framework-ai-accelerated-strategy-cycle
 title: AI 加速的战略-验证闭环
 type: framework
@@ -21,6 +22,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - "[[framework-multi-agent-research-architecture]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-lean-false-model]]"

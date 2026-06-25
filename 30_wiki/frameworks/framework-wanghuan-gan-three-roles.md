@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[concept-wanghuan-adversarial-generation]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'

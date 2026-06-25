@@ -1,4 +1,5 @@
 ---
+
 title: KDO 飞轮 — 建造→使用→反思→实验
 type: concept
 status: stable
@@ -7,6 +8,11 @@ domain:
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 related:
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
+  - '[[proposal-ai-domain-mastery-pipeline]]'
+  - '[[knowledge-error-self-exposure]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
 query_triggers:

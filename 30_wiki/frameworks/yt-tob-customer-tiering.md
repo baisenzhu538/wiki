@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-customer-sabc]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-business-formula-business-pattern-selector]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-explanatory-vs-predictive-essence
 title: 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 type: dark-knowledge
@@ -33,6 +34,11 @@ diagnostic_signals:
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[case-essence-humanity-trap]]'
+  - '[[dk-modeling-essence-predictive]]'
+  - '[[dk-modeling-ai-cross-validation]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-essence-predictive]]'

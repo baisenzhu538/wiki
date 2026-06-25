@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-y-model-ruler
 component_of:
 - yt-personal-y-model-exploration-2
@@ -26,6 +27,10 @@ query_triggers:
 - Y模型实操
 - 因果规律
 related:
+  - '[[tool-yitang-product-full-experience]]'
+  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
+  - '[[yt-skill-storyline-key-elements]]'
+  - '[[yt-skill-storyline-target-tradeoff]]'
 - '[[yt-personal-y-model-exploration-2]]'
 - '[[yt-personal-y-model-practice]]'
 - '[[yt-entrepreneur-needs-analysis]]'

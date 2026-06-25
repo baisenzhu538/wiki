@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: medium
 related:
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-product-kernel]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

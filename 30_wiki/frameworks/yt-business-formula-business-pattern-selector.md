@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
@@ -36,6 +37,11 @@ diagnostic_signals:
   framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
+  - '[[yt-business-formula-ten-paradigms]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[case-toc-content-platform-correlation-trap]]'
+  - '[[yt-management-business-formula]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'

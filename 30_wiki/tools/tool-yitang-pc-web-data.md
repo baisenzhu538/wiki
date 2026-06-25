@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-pc-web-data
 title: PC/Web端数据：传统互联网的数据来源
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-amazon-bestseller]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 ---
 

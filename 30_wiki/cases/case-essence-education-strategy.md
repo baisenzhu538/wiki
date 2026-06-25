@@ -1,5 +1,6 @@
 ---
 
+
 id: case-essence-education-strategy
 title: 案例：教育本质与战略本质的提炼
 type: case
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[case-personal-map-modeling]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[case-essence-humanity-trap]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-explanatory-vs-predictive-essence]]'
 - '[[dk-modeling-essence-predictive]]'

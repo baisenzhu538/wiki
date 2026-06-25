@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-review-iteration
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-model-deep-review-iceberg]]'
 - '[[yt-panproduct-execution-milestone-breakdown]]'
 - '[[yt-model-deliberate-practice-growth]]'

@@ -1,4 +1,5 @@
 ---
+
 id: framework-demand-iceberg
 title: 需求洞察冰山模型：L1-L6六层深度推演框架
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
+  - '[[prompt-demand-ai-coach]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
+  - '[[case-demand-silver-parenting]]'
+  - '[[tool-prompt-jtbd-scenario-coach]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - "[[tool-demand-iceberg-l1-user]]"
 - "[[tool-demand-iceberg-l2-scenario]]"
 - "[[tool-demand-iceberg-l3-core-job]]"

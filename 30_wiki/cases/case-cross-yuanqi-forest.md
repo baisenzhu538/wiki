@@ -1,4 +1,5 @@
 ---
+
 id: case-cross-yuanqi-forest
 title: 元气森林：战略定位与精益试错的跨域闭环
 type: case
@@ -21,6 +22,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 30_wiki/cases/case-lean-genki-forest-toolkit.md
 related:
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[framework-lean-pivot-decision]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[lean-startup-domain-digest]]'
 - "[[framework-strategy-lean-validation]]"
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"

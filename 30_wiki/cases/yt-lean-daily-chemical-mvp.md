@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
@@ -27,6 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[yt-lean-essence]]'
+  - '[[yt-lean-beauty-store-conversion]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

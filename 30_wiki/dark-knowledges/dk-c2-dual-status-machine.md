@@ -1,4 +1,5 @@
 ---
+
 id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[kdo-protocol-implementation-roadmap]]'
+  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+  - '[[dk-f10-broken-source-refs]]'
+  - '[[dk-c4-selfcheck-superseded]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-p18-yaml-parser]]'
 - '[[kdo-yaml-frontmatter-safety]]'

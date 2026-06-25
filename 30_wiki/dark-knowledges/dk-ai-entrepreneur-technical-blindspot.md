@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-entrepreneur-technical-blindspot
 title: 暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个'
 type: dk
@@ -21,6 +22,8 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
+  - '[[yt-three-dimension-opportunity-matrix]]'
+  - '[[dk-pseudo-demand-trap]]'
 - '[[yt-three-dimension-opportunity-matrix]]'
 - '[[yt-ai-startup-20-risky-hypotheses]]'
 - '[[case-ai-time-management-tiered-growth]]'

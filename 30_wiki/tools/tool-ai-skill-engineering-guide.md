@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
@@ -26,6 +27,11 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: high
 related:
+  - '[[case-truman-ai-skill-self-packaging]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-weapon-library]]'
 - '[[dk-modeling-ai-without-judgment]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-pitch-quantification
 title: 讲香·数字化
 type: tool
@@ -18,6 +19,11 @@ prerequisites:
 component_of:
 - yt-model-personal-pitch-toolkit
 related:
+  - '[[yt-pitch-metaphor]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
 - '[[yt-concept-weapon-arsenal]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 query_triggers:

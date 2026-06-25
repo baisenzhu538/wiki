@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-surprise-formula
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求分析
 - 需求洞察
 related:
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-panproduct-demand-peak-end-rule]]'
 - '[[yt-model-product-excellence]]'
 - '[[yt-panproduct-aesthetic-imagination]]'

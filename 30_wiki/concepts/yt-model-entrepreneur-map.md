@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -20,6 +21,11 @@ query_triggers:
 - 科学专项工具箱
 - 起盘阶段双轨并行
 related:
+  - '[[ocr-一堂-地图-创业地图]]'
+  - '[[yt-model-y-organization]]'
+  - '[[yt-entrepreneur-259-milestone]]'
+  - '[[yt-model-management-map]]'
+  - '[[yt-model-progress-map]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-model-progress-map]]'

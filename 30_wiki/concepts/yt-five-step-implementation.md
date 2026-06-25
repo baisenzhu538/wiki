@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -20,6 +21,11 @@ query_triggers:
 - 故事版 取舍版 定量版 分工版
 - 五步法迭代
 related:
+  - '[[yt-product-ten-metrics]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[yt-growth-cycle-model]]'
+  - '[[一堂]]'
+  - '[[five-step-domain-digest]]'
 - '[[yt-five-step-method]]'
 - '[[yt-tool-product-core-canvas]]'
 review_date: 2026-06-11

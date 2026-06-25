@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-composite-pan-product-methodology
 component_of:
 - yt-model-personal-map
@@ -19,6 +20,11 @@ query_triggers:
 - 产品经理能力泛化
 - 怎么做产品
 related:
+  - '[[yt-model-pan-product-three-virtues]]'
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-model-pan-product-36-strategies]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-model-pan-product-three-virtues]]'
 - '[[yt-model-pan-product-climbing-map]]'

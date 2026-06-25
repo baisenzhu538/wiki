@@ -1,5 +1,6 @@
 ---
 
+
 id: voice-input-doubao
 type: tool
 title: voice input doubao
@@ -14,6 +15,11 @@ source_refs:
 component_of:
 - ai-learning-closed-loop
 related:
+  - '[[sk-ai-voice-input-doubao]]'
+  - '[[course-to-skill-conversion]]'
+  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[sk-ai-prd-for-ai]]'
 - '[[course-to-skill-conversion]]'
 - '[[prd-as-ai-instruction]]'
 query_triggers:

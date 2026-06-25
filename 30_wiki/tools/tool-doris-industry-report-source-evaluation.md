@@ -1,4 +1,5 @@
 ---
+
 id: tool-doris-industry-report-source-evaluation
 title: 行业报告可信度评估：多信数据，少信观点
 type: tool
@@ -26,6 +27,11 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
+  - '[[tool-doris-industry-report-search-tips]]'
+  - '[[concept-yitang-research-facts-first]]'
+  - '[[dk-yitang-research-source-freshness]]'
+  - '[[tool-yitang-supply-chain-research]]'
+  - '[[tool-yitang-research-cross-validation]]'
 - "[[framework-doris-industry-report-4step]]"
 - "[[tool-doris-industry-report-search-tips]]"
 - "[[concept-yitang-ai-research-10-assumptions]]"

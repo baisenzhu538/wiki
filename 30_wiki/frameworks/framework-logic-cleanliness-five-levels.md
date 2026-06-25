@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-logic-cleanliness-five-levels
 title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 type: framework
@@ -20,6 +21,11 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[case-truman-sales-report-structure]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[modeling-scientific-milestones]]'
 - '[[modeling-three-stages]]'
 - '[[model-quality-four-levels]]'

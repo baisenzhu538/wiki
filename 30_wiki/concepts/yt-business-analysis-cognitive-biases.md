@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -47,6 +48,10 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 related:
+  - '[[dk-five-step-framework-legitimizes-bias]]'
+  - '[[yt-five-step-method-complete]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[five-step-domain-digest]]'
 - master-cognitive-bias-checklist
 - case-five-step-fake-vs-real-barriers
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 - "10_raw/sources/src_20260619_4e57265e_wanghuan_导演的工作方式_图_01.md"
 related:
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
 - '[[framework-wanghuan-task-product-system]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-iterative-recursive-deep-dig
 title: 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 type: tool
@@ -18,6 +19,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[case-personal-map-modeling]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[tool-radar-chart-modeling]]'
 - '[[modeling-scientific-milestones]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[dk-modeling-ai-iterative-prompting]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-assisted-analysis
 title: AI辅助分析：用AI做数据分析和模式识别
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
 - "[[tool-yitang-weapon-ai-tools]]"
 - "[[tool-yitang-ai-research-workflow]]"
 ---

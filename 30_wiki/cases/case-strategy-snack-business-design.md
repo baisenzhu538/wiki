@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-snack-business-design
 title: 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家
 type: case
@@ -14,6 +15,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_104_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
 related:
+  - '[[tool-strategy-business-design-template]]'
+  - '[[case-strategy-retailer-activity-scope]]'
+  - '[[tool-strategy-map]]'
+  - '[[tool-strategy-business-summary]]'
+  - '[[framework-strategy-business-design]]'
 - "[[framework-strategy-business-design]]"
 - "[[tool-strategy-customer-selection]]"
 - "[[tool-strategy-value-proposition]]"

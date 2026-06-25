@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
@@ -23,6 +24,11 @@ query_triggers:
 - 搭建个人
 - 操作步骤
 related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[modeling-personal-practice-loop]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-scientific-expression]]'
 - '[[yt-entrepreneur-scientific-method]]'
 - '[[yt-personal-deliberate-practice]]'
 - '[[master-first-principles]]'

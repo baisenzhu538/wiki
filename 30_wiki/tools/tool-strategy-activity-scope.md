@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 aliases:
@@ -21,6 +22,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[case-strategy-retailer-activity-scope]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-risk-management]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-retailer-activity-scope]]'
 - '[[case-strategy-snack-business-design]]'
 - '[[framework-strategy-business-design]]'

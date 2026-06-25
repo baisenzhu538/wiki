@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-course-milestone-model
 title: 课程里程碑模型：一堂做课的七步生产流程
 type: framework
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[modeling-scientific-milestones]]'
+  - '[[case-course-milestone-model]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[case-thousand-people-square]]'
+  - '[[concept-thousand-people-square]]'
 - '[[modeling-scientific-milestones]]'
 - '[[concept-thousand-people-square]]'
 - '[[case-personal-map-modeling]]'

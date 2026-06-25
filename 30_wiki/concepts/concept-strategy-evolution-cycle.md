@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-evolution-cycle
 title: 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期
 type: concept
@@ -11,6 +12,10 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37
 related:
+  - '[[skill-稀缺资源机会成本比对法]]'
+  - '[[yt-barrier-technology-moat]]'
+  - '[[yt-business-model-asset-light]]'
+  - '[[tool-strategy-competition-traps]]'
 - "[[framework-strategy-six-stages]]"
 - "[[tool-strategy-four-moves]]"
 ---

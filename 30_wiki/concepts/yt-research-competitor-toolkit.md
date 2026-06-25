@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-competitor-toolkit
 confidence: 0.8
 created_at: 2026-05-18
@@ -18,6 +19,11 @@ query_triggers:
 - 竞争格局
 - 竞争象限
 related:
+  - '[[yt-research-hypothesis-test]]'
+  - '[[yt-panproduct-execution-core-and-boundary]]'
+  - '[[skill-复盘推演法]]'
+  - '[[skill-辩证讨论法]]'
+  - '[[skill-分享输出检验法]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-intelligence-map]]'
 - '[[yt-research-hypothesis-test]]'

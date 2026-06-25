@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-traffic
 title: 借流量工具：用现有流量测试
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
 related:
+  - '[[tool-lean-presell]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[tool-lean-fake-product]]'
+  - '[[tool-lean-human-replace-rnd]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

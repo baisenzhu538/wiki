@@ -1,4 +1,5 @@
 ---
+
 id: tool-wanghuan-ai-dual-role-coach
 title: 王欢：AI 双角色教练对练工具
 type: tool
@@ -30,6 +31,11 @@ diagnostic_signals:
   lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
 - '[[framework-wanghuan-actor-director-mode]]'

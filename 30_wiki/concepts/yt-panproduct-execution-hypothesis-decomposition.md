@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-hypothesis-decomposition
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
 - '[[yt-panproduct-execution-10x-validation]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-comparable-company-selection
 title: 对标公司选择三步法：加法·减法·三原则
 type: tool
@@ -25,6 +26,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
+  - '[[tool-yitang-public-sentiment-research]]'
+  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
+  - '[[tool-yitang-supply-chain-research]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[tool-yitang-financial-report-intelligence]]'
 - "[[tool-yitang-financial-report-intelligence]]"
 - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
 ---

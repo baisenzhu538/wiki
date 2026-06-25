@@ -1,4 +1,5 @@
 ---
+
 id: case-半肥猫-course-to-skill
 title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
 type: case
@@ -33,6 +34,11 @@ tags:
 created_at: 2026-06-08
 updated_at: '2026-06-17'
 related:
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[case-ji-hao-skills-market]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-纪浩-focus-prompt-design]]'

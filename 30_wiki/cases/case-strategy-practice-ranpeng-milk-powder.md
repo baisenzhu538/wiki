@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-ranpeng-milk-powder
 title: 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39
 related:
+  - '[[case-strategy-shell-oil]]'
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-revival-13-bestore]]'
+  - '[[case-strategy-edward-jones]]'
+  - '[[case-strategy-cool-boiled-water]]'
 - "[[tool-strategy-nine-problems]]"
 - "[[framework-strategy-six-stages]]"
 ---

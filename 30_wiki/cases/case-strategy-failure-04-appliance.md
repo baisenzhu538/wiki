@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-04-appliance
 title: 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
 type: case
@@ -13,6 +14,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §6-7
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §15
 related:
+  - '[[case-strategy-failure-08-video]]'
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-02-supermarket]]'
+  - '[[case-strategy-failure-05-it]]'
+  - '[[case-strategy-failure-09-boeing]]'
 - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：空调之外的新品类全部失败

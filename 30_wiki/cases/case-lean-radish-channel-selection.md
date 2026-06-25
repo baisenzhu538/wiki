@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-radish-channel-selection
 title: 萝卜干渠道选择预判复盘
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
 related:
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[framework-lean-abcd-model]]'
+  - '[[case-lean-medical-device-milestone]]'
+  - '[[tool-lean-leverage-tools]]'
+  - '[[case-lean-premature-expansion]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-systematic-test-curve]]"
 - "[[framework-lean-abcd-model]]"

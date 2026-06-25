@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-user-interview-5steps
 title: 用户访谈五步执行法：画像·场景·信任·提问·判断
 type: tool
@@ -27,6 +28,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
+  - '[[tool-yitang-research-deep-attribution]]'
+  - '[[tool-yitang-weapon-anonymous-identity]]'
+  - '[[dk-strategy-07-strategy-vs-dividend]]'
+  - '[[skill-月白-里程碑思维拆解设计流程]]'
+  - '[[tool-yitang-weapon-user-direct-interview]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-field-research]]"
 - "[[yt-research-user-jtbd]]"

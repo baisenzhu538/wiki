@@ -1,4 +1,5 @@
 ---
+
 id: dk-five-step-framework-legitimizes-bias
 title: "暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析"
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[dk-level-blindspot-external-feedback]]'
+  - '[[yt-business-analysis-cognitive-biases]]'
+  - '[[five-step-domain-digest]]'
 - '[[yt-five-step-method]]'
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-level-blindspots]]'

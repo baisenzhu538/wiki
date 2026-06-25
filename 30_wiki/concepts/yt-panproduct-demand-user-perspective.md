@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-user-perspective
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求分析
 - 需求洞察
 related:
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-demand-multi-perspective]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
 - '[[yt-panproduct-demand-user-segmentation]]'
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 - '[[yt-model-aesthetic-progression]]'

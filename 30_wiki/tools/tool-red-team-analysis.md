@@ -1,4 +1,5 @@
 ---
+
 id: tool-red-team-analysis
 title: Red Team Analysis：模拟竞对的最优策略
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - web: CIA Tradecraft Primer - Red Team Analysis
 related:
+  - '[[tool-key-assumptions-check]]'
+  - '[[tool-harness-adversarial-tester]]'
+  - '[[tool-candy-oral-polish]]'
+  - '[[framework-structured-analytic-techniques]]'
+  - '[[tool-devils-advocacy]]'
 - "[[framework-structured-analytic-techniques]]"
 - "[[tool-yitang-research-competitor-tracking]]"
 - "[[tool-harness-adversarial-tester]]"

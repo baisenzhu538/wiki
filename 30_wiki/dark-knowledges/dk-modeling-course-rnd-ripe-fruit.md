@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-course-rnd-ripe-fruit
 title: 研究型课程无法提前排课表：只能等菜熟了再摘
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
+  - '[[case-modeling-abstraction-reliability-ladder]]'
+  - '[[dk-modeling-timely-review-session-window]]'
+  - '[[dk-modeling-unit-pairs-milestone]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[dk-modeling-counterexample-driven]]'
 - '[[framework-course-milestone-model]]'
 - '[[case-yitang-weekly-modeling-engine]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 type: dark-knowledge
@@ -20,6 +21,11 @@ reviewed_by: 老顽童
 review_date: 2026-06-16
 trust_level: high
 related:
+  - '[[case-offline-catering-formula]]'
+  - '[[case-dental-clinic-formula]]'
+  - '[[case-toc-content-platform-correlation-trap]]'
+  - '[[yt-management-business-formula]]'
+  - '[[case-private-domain-ecommerce-formula]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-parameter-iceberg]]'

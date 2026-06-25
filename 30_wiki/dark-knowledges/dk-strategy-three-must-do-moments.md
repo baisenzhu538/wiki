@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-three-must-do-moments
 title: 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
 type: dark-knowledge
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §23
 related:
+  - '[[skill-马易-中国企业AI落地五步法]]'
+  - '[[concept-mckinsey-7s]]'
+  - '[[dk-strategy-08-not-local-optimum]]'
+  - '[[case-essence-education-strategy]]'
+  - '[[tool-strategy-swot]]'
 - "[[framework-strategy-six-stages]]"
 ---
 **三种时刻**：

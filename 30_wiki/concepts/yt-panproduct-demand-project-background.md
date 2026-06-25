@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-demand-project-background
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -23,6 +24,11 @@ query_triggers:
 - 需求洞察
 - 项目背景分析
 related:
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-demand-multi-perspective]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-demand-industry-canvas]]'
+  - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-demand-user-perspective]]'
 - '[[yt-panproduct-demand-multi-perspective]]'
 - '[[yt-panproduct-demand-industry-canvas]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-research-pipeline
 title: Pipeline模式：OSCAR五步法的Agent实现
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - web: LangChain SequentialChain pipeline pattern
 related:
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[tool-agent-research-swarm]]'
 - "[[framework-multi-agent-research-architecture]]"
 - "[[framework-yitang-oscar-research]]"
 ---

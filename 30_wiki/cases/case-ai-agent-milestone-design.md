@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ai-agent-milestone-design
 title: 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[case-ai-assisted-review]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[framework-course-milestone-model]]'

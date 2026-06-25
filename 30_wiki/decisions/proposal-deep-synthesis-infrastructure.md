@@ -1,4 +1,5 @@
 ---
+
 title: 基础设施升级提案：深度合成产线 — 解决文章'不够深刻'的工厂级根因
 type: improvement-plan
 status: draft
@@ -14,6 +15,11 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - source_unknown
 related:
+  - '[[kdo-flywheel]]'
+  - '[[dk-f11-encyclopedia-style]]'
+  - '[[dk-f7-surface-translation]]'
+  - '[[three-party-data-alignment]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[labeling-final-consolidation]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-deep-synthesis-infrastructure

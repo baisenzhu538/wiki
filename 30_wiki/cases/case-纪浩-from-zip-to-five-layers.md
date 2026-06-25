@@ -1,4 +1,5 @@
 ---
+
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
@@ -13,6 +14,11 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[case-ai-assisted-review]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[case-ji-hao-skills-market]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[skill-纪浩-日志驱动排查法]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[fix-data-curator-parse-bug]]'
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[dk-c2-dual-status-machine]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[master-first-principles]]'

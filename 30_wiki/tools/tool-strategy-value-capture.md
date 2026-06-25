@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 aliases:
@@ -21,6 +22,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-business-design-template]]'
+  - '[[tool-strategy-customer-selection]]'
+  - '[[tool-strategy-category-role-matrix]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[case-strategy-snack-export-opportunity]]'
 - '[[case-strategy-snack-industry-chain]]'

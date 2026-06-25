@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-intelligence-map-in-hand
 title: 地图在手：建立全局信息获取体系
 type: tool
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-yitang-research-normalize-summary]]'
+  - '[[tool-yitang-research-continuous-tracking]]'
+  - '[[tool-yitang-research-competitor-tracking]]'
+  - '[[tool-yitang-research-exhaust-means]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-exhaust-means]]"

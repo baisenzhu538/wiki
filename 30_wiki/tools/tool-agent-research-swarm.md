@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-research-swarm
 title: Swarm模式：多Agent自发协同与交叉验证
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: LangGraph Swarm pattern
 - concepts: kimi-深度调研集群方法论-deep-research-swarm
 related:
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[tool-agent-research-pipeline]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[tool-demand-agent-multi-hypothesis]]'
 - "[[framework-multi-agent-research-architecture]]"
 - "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-validate-assumption
 title: 调研先行验证假设：在行动前杀死错误想法
 type: tool
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[framework-doris-industry-report-4step]]'
+  - '[[tool-yitang-research-industry-scan]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[tool-yitang-research-single-point-sniper]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "（tool-yitang-research-hypothesis-test，待补）"

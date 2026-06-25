@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dark-knowledge
@@ -32,6 +33,11 @@ diagnostic_signals:
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[tool-wanghuan-ai-business-profile]]'

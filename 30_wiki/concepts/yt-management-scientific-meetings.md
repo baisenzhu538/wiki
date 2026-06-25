@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
@@ -31,6 +32,11 @@ diagnostic_signals:
   framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
+  - '[[yt-panproduct-execution-war-room]]'
+  - '[[case-strategy-revival-14-gucci]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[dk-modeling-radar-model-not-result]]'
+  - '[[tool-yitang-executive-speech-analysis]]'
 - yt-management-basic-skills
 - yt-management-project-management
 - yt-management-goal-management

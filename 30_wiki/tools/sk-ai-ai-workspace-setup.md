@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: "tool"
@@ -31,6 +32,11 @@ tools_required:
 - 任务管理工具（可选）
 prerequisite_skills: []
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[case-ji-hao-ai-workspace-chaos]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[case-ji-hao-ai-workspace-chaos]]'
 - '[[structured-ai-workspace]]'

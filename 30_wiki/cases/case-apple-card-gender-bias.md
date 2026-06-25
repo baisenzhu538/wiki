@@ -1,4 +1,5 @@
 ---
+
 id: case-apple-card-gender-bias
 title: Apple Card 信用额度性别争议
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[case-dutch-childcare-scandal]]'
+  - '[[dk-ai-prediction-expiry-date]]'
+  - '[[case-chen-qiufan-ai-writing]]'
+  - '[[dk-ai-social-progress-not-automatic]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

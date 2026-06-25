@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yitang-qualitative-to-quantitative]]'
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[yt-lean-essence]]'
+  - '[[yt-lean-beauty-store-conversion]]'
+  - '[[yt-lean-assumption-prioritization]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-key-assumptions]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-pet-fostering-user-research
 title: 案例：宠物寄养——观察现有替代方案
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
+  - '[[case-liutao-electric-bike-localization]]'
+  - '[[case-yitang-consumer-offline-channel-decision]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-ski-project-user-as-expert]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[tool-yitang-user-interview-5steps]]"
 ---
 

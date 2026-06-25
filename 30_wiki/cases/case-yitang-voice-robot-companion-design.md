@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-voice-robot-companion-design
 title: 案例：陪伴式语音机器人——声音设计如何调研
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
+  - '[[case-yitang-doorstep-pet-feeding-trust]]'
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-yitang-ai-time-management-coach]]'
+  - '[[case-yitang-homestay-reception-design]]'
 - "[[tool-yitang-user-interview-5steps]]"
 ---
 

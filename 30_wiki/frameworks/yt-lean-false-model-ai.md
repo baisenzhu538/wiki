@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
@@ -34,6 +35,11 @@ diagnostic_signals:
   framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

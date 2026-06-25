@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-height-toolkit
 component_of:
 - yt-decision-y-model
@@ -25,6 +26,11 @@ query_triggers:
 - 共识曲线
 - 团队对齐
 related:
+  - '[[yt-decision-consensus-iceberg]]'
+  - '[[ocr-一堂-科学决策-roi决策评估画布]]'
+  - '[[yt-decision-canvas]]'
+  - '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
+  - '[[ocr-一堂-科学决策-高度-两种典型的思考习惯]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-decision-ai-partner]]'

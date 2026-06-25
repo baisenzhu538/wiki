@@ -1,4 +1,5 @@
 ---
+
 id: framework-candy-transcript-workflow
 title: Candy逐字稿九步法：从素材到可交付内容的生产流程
 type: framework
@@ -14,6 +15,11 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
+  - '[[tool-candy-positioning-canvas]]'
+  - '[[dk-strategy-07-strategy-vs-dividend]]'
+  - '[[framework-demand-usp-model]]'
+  - '[[dk-ji-hao-problem-vs-question]]'
+  - '[[case-candy-problem-os-vpn]]'
 - "[[concept-candy-ai-as-collaborator]]"
 - "[[tool-candy-positioning-canvas]]"
 - "[[tool-candy-oral-polish]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-skill-market-agent-self-install
 title: "暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述"
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[plan_20260621_skill-iteration-standard]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'

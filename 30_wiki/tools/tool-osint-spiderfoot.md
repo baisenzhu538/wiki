@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-spiderfoot
 title: SpiderFoot：一键自动化OSINT扫描
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: SpiderFoot GitHub (smicallef/spiderfoot)
 - web: OSINT tools comparison 2026
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-osint-overview]]'
+  - '[[tool-google-dorking]]'
 - "[[tool-osint-overview]]"
 ---
 

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
+  - '[[case-modeling-essence-levels]]'
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[yt-model-deep-review-iceberg]]'
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[dk-modeling-checklist-formatting-rules]]'
 - '[[modeling-capability-system]]'

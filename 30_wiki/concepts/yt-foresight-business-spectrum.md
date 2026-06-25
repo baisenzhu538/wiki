@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -20,6 +21,11 @@ query_triggers:
 - 终局预判
 - 创业段位
 related:
+  - '[[skill-一堂-spectrum-positioning]]'
+  - '[[case-escort-service-tiered-growth]]'
+  - '[[yt-entrepreneur-opportunity-selection]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[framework-demand-opportunity-spectrum]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-tool-foresight-canvas]]'
 - '[[yt-foresight-model-taxonomy]]'

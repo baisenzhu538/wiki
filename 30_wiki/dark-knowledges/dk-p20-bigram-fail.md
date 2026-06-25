@@ -1,4 +1,5 @@
 ---
+
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dark-knowledge
@@ -13,6 +14,9 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb32-doubao-size-composition]]'
+  - '[[ouyangfeng-labeling-research-review]]'
+  - '[[data-labeling-best-practices-report]]'
 - '[[dk-p7-ocr-skip]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[master-ai-info-literacy]]'

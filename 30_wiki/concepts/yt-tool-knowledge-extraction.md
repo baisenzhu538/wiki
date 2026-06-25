@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-knowledge-extraction
 component_of:
 - yt-management-toolkit-overview
@@ -24,6 +25,11 @@ query_triggers:
 - 复盘知识化
 - 新人FAQ沉淀
 related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[case-truman-sales-report-structure]]'
+  - '[[dk-modeling-checklist-formatting-rules]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[case-livestream-sop-modeling]]'
 - '[[yt-management-team-knowledge]]'
 - '[[yt-management-project-management]]'
 - '[[yt-management-onboarding]]'

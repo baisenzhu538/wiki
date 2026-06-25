@@ -1,5 +1,6 @@
 ---
 
+
 id: case-child-drawing-rhyme
 title: '案例：孩子控笔「画画歌」——最小单元的建模实践'
 type: case
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[case-personal-map-modeling]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[modeling-three-stages]]'
+  - '[[case-essence-entrepreneurship]]'
 - "[[framework-logic-cleanliness-five-levels]]"
 - "[[modeling-scientific-milestones]]"
 - "[[tool-iterative-recursive-deep-dig]]"

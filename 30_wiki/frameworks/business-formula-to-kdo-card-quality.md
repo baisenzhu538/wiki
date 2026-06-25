@@ -1,6 +1,7 @@
 ---
 
 
+
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
@@ -19,6 +20,11 @@ reviewed_by: 老顽童
 review_date: '2026-06-17'
 trust_level: high
 related:
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[model-quality-four-levels]]'
+  - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'

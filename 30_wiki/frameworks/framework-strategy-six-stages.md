@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-six-stages
 title: 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同
 type: framework
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 related:
+  - '[[tool-strategy-four-moves]]'
+  - '[[dk-strategy-03-advantage-temporary]]'
+  - '[[case-strategy-practice-ranpeng-milk-powder]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - '[[framework-strategy-basics-04-system]]'
 - '[[framework-strategy-brm]]'
 - '[[framework-strategy-five-basics]]'
 - '[[yt-decision-y-model]]'

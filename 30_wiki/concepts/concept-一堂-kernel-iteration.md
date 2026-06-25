@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-一堂-kernel-iteration
 title: 产品内核迭代：从静态到动态的五方向演化
 type: concept
@@ -16,6 +17,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
+  - '[[yt-product-kernel-six-levels]]'
+  - '[[framework-lean-expert-roadmap]]'
+  - '[[modeling-level-map]]'
+  - '[[concept-一堂-kernel-validation]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[concept-一堂-product-kernel]]'
 - '[[concept-一堂-kernel-validation]]'
 wiki_refs:

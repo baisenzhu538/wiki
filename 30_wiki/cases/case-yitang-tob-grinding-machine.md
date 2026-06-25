@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-grinding-machine
 title: 案例：精密磨床自制项目失败复盘
 type: case
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-unit-model]]'
 - '[[yt-tob-demand-metrics]]'
 - '[[yt-tob-customer-sabc]]'
 - '[[yt-tob-unit-model]]'

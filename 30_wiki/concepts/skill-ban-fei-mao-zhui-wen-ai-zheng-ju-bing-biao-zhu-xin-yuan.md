@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
 title: 技能：追问 AI 证据并标注信源
 type: "tool"
@@ -16,6 +17,11 @@ tools_required:
 prerequisite_skills:
 - skill-半肥猫-边学边练边沉淀的AI学习法
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
+  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+  - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
 - '[[dk-ban-fei-mao-silky-answer-warning]]'

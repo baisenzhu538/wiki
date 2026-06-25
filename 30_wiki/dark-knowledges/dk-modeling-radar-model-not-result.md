@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[case-strategy-revival-14-gucci]]'
+  - '[[ocr-一堂-科学决策-宽度-企业]]'
+  - '[[yt-management-scientific-meetings]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[tool-yitang-executive-speech-analysis]]'
 - '[[dk-modeling-counterexample-driven]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'
 - '[[tool-radar-chart-modeling]]'

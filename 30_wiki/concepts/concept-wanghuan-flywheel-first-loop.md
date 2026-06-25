@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
@@ -32,6 +33,11 @@ diagnostic_signals:
   lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[tool-wanghuan-ai-business-profile]]'
 - '[[framework-wanghuan-ooda-loop]]'

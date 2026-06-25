@@ -1,4 +1,5 @@
 ---
+
 id: dk-c8-format-complete-mind-empty
 title: C-8：批处理格式升级产生格式完整但思维空洞的卡片
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[dk-small-format-error-cascades-to-system-failure]]'
+  - '[[dk-infrastructure-guardrails-over-checklist]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-decision-hygiene]]'
 pipeline:

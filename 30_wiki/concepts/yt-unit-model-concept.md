@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -24,6 +25,11 @@ source_refs:
 - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
 - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[yt-decision-full-process]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-build]]'
+  - '[[case-unit-model-gashapon]]'
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-build]]'
 - '[[yt-market-size-estimation]]'

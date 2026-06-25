@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
@@ -23,6 +24,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[yt-lean-essence]]'
+  - '[[yt-lean-beauty-store-conversion]]'
+  - '[[yt-lean-assumption-prioritization]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[skill-一堂-hypothesis-validation-three-axe]]'

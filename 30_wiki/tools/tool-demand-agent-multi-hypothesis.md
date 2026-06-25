@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-multi-hypothesis
 title: Agent L3多假设并行：5个核心任务同时推演
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
 - web: Swarm multi-agent architecture (LangGraph)
 related:
+  - '[[tool-demand-agent-case-match]]'
+  - '[[framework-demand-lean-bridge]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[tool-agent-research-swarm]]'
+  - '[[five-step-domain-digest]]'
 - "[[tool-demand-iceberg-l3-core-job]]"
 - "[[tool-agent-research-swarm]]"
 ---

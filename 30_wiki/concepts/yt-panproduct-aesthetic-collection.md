@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-aesthetic-collection
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -24,6 +25,11 @@ query_triggers:
 - 泛产品设计·审美卡片：最佳实践收集
 - 设计标准
 related:
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:

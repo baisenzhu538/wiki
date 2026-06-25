@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-stage-leverage-mismatch
 title: 战略阶段与杠杆错配
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-strategy-organization-strategy-mismatch]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[dk-research-decision-first-mapping]]'
 - "[[strategy-domain-digest]]"
 - "[[framework-strategy-six-stages]]"
 - "[[framework-strategy-brm]]"

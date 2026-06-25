@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-pitch-conflict
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -22,6 +23,11 @@ query_triggers:
 - 竞争反差
 - 塑造对手
 related:
+  - '[[yt-pitch-scenarization]]'
+  - '[[yt-pitch-aphorism]]'
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:

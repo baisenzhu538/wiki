@@ -1,5 +1,6 @@
 ---
 
+
 id: ai时代判断力口述-3
 confidence: 0.75
 created_at: 2026-05-25
@@ -9,6 +10,11 @@ domain:
 event: 一堂AI俱乐部第77场，2026-05-20
 language: zh-CN
 related:
+  - '[[master-knowledge-compound]]'
+  - '[[skill-Truman-AI时代IPO模型重构]]'
+  - '[[ai数据理解第一课]]'
+  - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
+  - '[[ai时代判断力口述]]'
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'
 source_refs:

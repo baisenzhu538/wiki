@@ -1,4 +1,5 @@
 ---
+
 id: dk-fundamentals-before-advanced-ops
 title: 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 type: dark-knowledge
@@ -16,6 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 related:
+  - '[[dk-note-maximum-common-divisor]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-surplus-brainpower]]'
 - '[[modeling-level-map]]'

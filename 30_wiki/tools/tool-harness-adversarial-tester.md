@@ -1,4 +1,5 @@
 ---
+
 id: tool-harness-adversarial-tester
 title: 对抗测试员：成功标准是"找到bug"
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
+  - '[[tool-devils-advocacy]]'
+  - '[[case-strategy-xiaobear]]'
+  - '[[tool-candy-oral-polish]]'
+  - '[[framework-structured-analytic-techniques]]'
+  - '[[tool-red-team-analysis]]'
 - "[[tool-red-team-analysis]]"
 - "[[tool-devils-advocacy]]"
 - "[[framework-wanghuan-gan-three-roles]]"

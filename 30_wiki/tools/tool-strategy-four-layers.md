@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-four-layers
 title: 战略四层结构：集团→业务单元→职能→执行
 type: tool
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §20-22
 related:
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-strategy-nine-problems]]'
+  - '[[tool-strategy-three-horizons]]'
+  - '[[framework-strategy-pyramid]]'
+  - '[[framework-strategy-five-basics]]'
 - "[[framework-strategy-brm]]"
 - "[[framework-strategy-five-basics]]"
 ---

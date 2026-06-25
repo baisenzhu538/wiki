@@ -1,4 +1,5 @@
 ---
+
 id: case-cambridge-novelists-survey
 title: 剑桥小说家对 AI 创作态度调查
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[concept-ai-amara-law-business-judgment]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[case-ai-companion-emotional]]'
+  - '[[dk-ai-prediction-expiry-date]]'
+  - '[[case-chen-qiufan-ai-writing]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

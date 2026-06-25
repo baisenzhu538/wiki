@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-habit-shift
 component_of:
 - yt-decision-y-model
@@ -25,6 +26,8 @@ query_triggers:
 - 广义ROI
 - 直觉决策
 related:
+  - '[[ocr-一堂-科学决策-决策三角形]]'
+  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-depth-ladder]]'
 source_refs:

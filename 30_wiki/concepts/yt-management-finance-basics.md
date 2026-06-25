@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 财务入门
 type: concept
 domain:
@@ -23,6 +24,11 @@ diagnostic_signals:
   framework_lens: 毛利率≠现金流/净利
   follow_up_question: 高毛利产品的现金回笼周期是多久？营销/研发/管理费用是否吃掉毛利？应收账款和库存是否占用现金？
 related:
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-entrepreneur-truth-seeking]]'
+  - '[[yt-business-model-margin-structure]]'
+  - '[[yt-management-leadership-levels]]'
 - yt-unit-model-build
 - yt-entrepreneur-key-hypotheses
 updated_at: '2026-06-16'

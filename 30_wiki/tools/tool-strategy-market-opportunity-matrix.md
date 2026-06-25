@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-market-opportunity-matrix
 title: 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
 type: tool
@@ -16,6 +17,11 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-logistics-cost-planning]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-value-proposition]]'
 - "[[tool-strategy-customer-selection]]"
 - "[[tool-strategy-value-proposition]]"
 - "[[tool-strategy-activity-scope]]"

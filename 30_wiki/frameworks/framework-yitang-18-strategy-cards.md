@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-18-strategy-cards
 title: 降龙十八掌：18张调研策略卡全景图
 type: framework
@@ -29,6 +30,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[yt-management-company-culture]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-research-weapon-system]]"
 - "[[framework-yitang-research-weapon-supplement-2026]]"

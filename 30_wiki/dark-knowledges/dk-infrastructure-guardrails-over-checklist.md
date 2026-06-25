@@ -1,4 +1,5 @@
 ---
+
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dark-knowledge
@@ -12,6 +13,11 @@ source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs: []
 related:
+  - '[[dk-small-format-error-cascades-to-system-failure]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-tool-as-answer-trap]]'
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-p16-validate-reads-state-json]]'

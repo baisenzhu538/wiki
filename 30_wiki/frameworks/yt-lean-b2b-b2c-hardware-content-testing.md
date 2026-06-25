@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-b2b-b2c-hardware-content-testing
 title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[framework-lean-systematic-test-curve]]'
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-demand-b2b-vs-b2c]]'
+  - '[[dk-tool-as-answer-trap]]'
+  - '[[dk-tool-as-phased-validator]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-intelligence-map
 confidence: 0.8
 created_at: 2026-05-18
@@ -16,6 +17,11 @@ query_triggers:
 - 行业调研
 - 情报地图
 related:
+  - '[[tool-yitang-reverse-data-analysis]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[tool-yitang-research-cross-validation]]'
+  - '[[skill-一堂-five-step-validation]]'
+  - '[[tool-yitang-public-information-research]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-competitor-toolkit]]'
 - '[[yt-research-expert-interview]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-ai-fitness-four-forces
 title: 案例：AI健身四力——四种力量的博弈分析
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-yitang-mahjong-machine-fake-order]]'
+  - '[[tool-demand-four-forces]]'
+  - '[[case-popmart-prospectus-pricing]]'
 - "[[tool-demand-four-forces]]"
 ---
 

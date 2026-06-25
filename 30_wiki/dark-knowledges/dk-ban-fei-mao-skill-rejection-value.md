@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-skill-rejection-value
 title: '暗知识：Skill 的最大价值不是生成，是拒绝'
 type: dark-knowledge
@@ -15,6 +16,11 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-skill-ab-test]]'
 - '[[concept-ji-hao-ai-collaboration-methodology]]'

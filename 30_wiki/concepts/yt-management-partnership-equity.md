@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
@@ -17,6 +18,7 @@ query_triggers:
 - 股权架构设计
 - 创始团队分股
 related:
+  - '[[yt-tool-equity-checklist]]'
 - '[[yt-management-basic-skills]]'
 - '[[yt-management-scientific-hiring]]'
 - '[[yt-management-scientific-meetings]]'

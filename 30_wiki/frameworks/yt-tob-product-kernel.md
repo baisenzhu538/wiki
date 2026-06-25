@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-product-kernel
 title: To B 产品内核：面向决策者研究付费，面向使用者夯实价值
 type: framework
@@ -27,6 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-core-characteristics]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-unit-model-three-tools]]'

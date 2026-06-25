@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-strategy-workshop
 title: 战略研讨会引导手册
 type: tool
@@ -16,6 +17,11 @@ prerequisites: null
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-panproduct-execution-war-room]]'
+  - '[[private-domain-saas-sales-funnel]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[yt-tool-onboarding-90day]]'
 - '[[yt-management-strategy-meeting]]'
 - '[[yt-management-scientific-decision]]'
 - '[[yt-management-goal-management]]'

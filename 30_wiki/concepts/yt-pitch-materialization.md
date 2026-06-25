@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-pitch-materialization
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -22,6 +23,11 @@ query_triggers:
 - 夸张测试
 - 一图胜千言
 related:
+  - '[[yt-pitch-scenarization]]'
+  - '[[yt-pitch-aphorism]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:

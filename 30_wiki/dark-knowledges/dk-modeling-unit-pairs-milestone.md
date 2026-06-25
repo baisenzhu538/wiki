@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
+  - '[[dk-modeling-course-rnd-ripe-fruit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-question-scaffold-not-answer]]'
+  - '[[dk-modeling-case-explosion-confidence]]'
+  - '[[dk-modeling-timely-review-session-window]]'
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[tool-sop-template-modeling]]'
 - '[[modeling-three-stages]]'

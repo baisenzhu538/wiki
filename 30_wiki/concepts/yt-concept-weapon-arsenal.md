@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
@@ -19,6 +20,11 @@ query_triggers:
 - 即查即用
 - 战术集合
 related:
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-model-prompt-engineering]]'

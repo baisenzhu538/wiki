@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-track-selection-research
 title: 案例：一堂赛道选择——用调研方法论选创业方向
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-ai-time-management-coach]]'
+  - '[[case-yitang-ski-project-user-as-expert]]'
+  - '[[case-yitang-homestay-reception-design]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[yt-research-osl-framework]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: concept-mcp-protocol
 title: MCP协议：Agent调用外部工具的统一标准
 type: concept
@@ -15,6 +16,11 @@ source_refs:
 - web: MCP specification (modelcontextprotocol.io)
 - web: Anthropic MCP documentation
 related:
+  - '[[tool-agent-firecrawl]]'
+  - '[[紫鲸AI]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[framework-yitang-research-weapon-supplement-2026]]'
+  - '[[tool-yitang-web-scraping-research]]'
 - "[[tool-agent-native-overview]]"
 - "[[tool-yitang-ai-research-workflow]]"
 ---

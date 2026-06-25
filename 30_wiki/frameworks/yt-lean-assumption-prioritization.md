@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
@@ -24,6 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[yt-lean-assumption-verification-3means]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[yt-lean-essence]]'
+  - '[[yt-lean-beauty-store-conversion]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-entrepreneur-lean-validation]]'

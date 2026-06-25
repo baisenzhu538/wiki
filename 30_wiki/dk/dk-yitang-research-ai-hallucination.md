@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-ai-hallucination
 title: AI调研幻觉与浅尝辄止是双生子
 type: dark_knowledge
@@ -14,6 +15,11 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-research-goal-before-efficiency]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-ai-research-prompt-craft]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[concept-yitang-ai-research-human-loop]]"
 ---

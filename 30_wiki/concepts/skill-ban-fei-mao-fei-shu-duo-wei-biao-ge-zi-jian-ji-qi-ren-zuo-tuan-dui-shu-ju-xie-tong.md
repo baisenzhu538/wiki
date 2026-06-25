@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: "tool"
@@ -17,6 +18,11 @@ tools_required:
 prerequisite_skills:
 - skill-半肥猫-边学边练边沉淀的AI学习法
 related:
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
+  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[dk-ban-fei-mao-atomic-no-standard]]'
 created_at: 2026-06-07

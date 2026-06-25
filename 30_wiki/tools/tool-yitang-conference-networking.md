@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-conference-networking
 title: 行业会议/论坛情报：茶歇时的信息质量最高
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-signup-statistics]]'
+  - '[[tool-yitang-bidding-analysis]]'
+  - '[[tool-yitang-shareholder-analysis]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
 - "[[tool-yitang-weapon-industry-expert]]"
 ---
 

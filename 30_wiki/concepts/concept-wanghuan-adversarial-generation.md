@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
@@ -19,6 +20,11 @@ source_refs:
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 related:
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-say-think-do-toolchain]]'

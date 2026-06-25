@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 业务公式
 type: concept
 source_refs:
@@ -28,6 +29,11 @@ diagnostic_signals:
   framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
 related:
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[case-offline-catering-formula]]'
+  - '[[case-toc-content-platform-correlation-trap]]'
+  - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yt-business-formula-abc-model]]'

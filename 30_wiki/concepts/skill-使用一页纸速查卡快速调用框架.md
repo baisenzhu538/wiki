@@ -2,6 +2,7 @@
 
 
 
+
 id: skill-使用一页纸速查卡快速调用框架
 title: 技能：使用一页纸速查卡快速调用框架
 type: "tool"
@@ -24,6 +25,11 @@ tools_required:
 - 打印机
 - 核心框架的原始素材
 related:
+  - '[[yt-pitch-scenarization]]'
+  - '[[yt-note-extensive-research-input]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[yt-five-step-method]]'
 created_at: 2026-06-09

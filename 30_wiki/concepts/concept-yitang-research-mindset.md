@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-mindset
 title: 调研心态：从"找答案"到"拆假设"
 type: concept
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[concept-yitang-ideal-research-goal]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[yt-research-mindset]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[concept-research-responsibility-boundary]]"
 - "[[yt-research-mindset]]"

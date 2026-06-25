@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
+  - '[[case-yitang-education-supply-chain]]'
+  - '[[case-personal-map-modeling]]'
+  - '[[dk-modeling-radar-model-not-result]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[tool-radar-chart-modeling]]'
 - '[[framework-logic-cleanliness-five-levels]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'

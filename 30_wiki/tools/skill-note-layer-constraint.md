@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
@@ -12,6 +13,8 @@ version: 2
 difficulty: beginner
 confidence: 0.88
 related:
+  - '[[skill-note-keyword-bolding]]'
+  - '[[skill-note-one-line-one-point]]'
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-keyword-bolding]]'
 - '[[skill-note-one-line-one-point]]'

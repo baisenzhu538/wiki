@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-lean-qualitative-quantitative-research
 title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
@@ -26,6 +27,11 @@ tags:
 - '#topic/hypothesis-validation'
 - '#topic/research-method'
 related:
+  - '[[yt-lean-flower-mom-group-leader]]'
+  - '[[yitang-qualitative-to-quantitative]]'
+  - '[[case-lean-zhanglei-hypothesis-validation]]'
+  - '[[yt-lean-essence]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

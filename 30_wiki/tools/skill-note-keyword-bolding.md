@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-note-keyword-bolding
 title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
@@ -12,6 +13,10 @@ version: 1
 difficulty: beginner
 confidence: 0.88
 related:
+  - '[[skill-note-layer-constraint]]'
+  - '[[dk-tool-as-phased-validator]]'
+  - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
+  - '[[skill-note-one-line-one-point]]'
 - '[[skill-note-layer-constraint]]'
 - '[[skill-note-one-line-one-point]]'
 - '[[dk-note-surplus-brainpower]]'

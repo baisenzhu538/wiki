@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-industry-canvas
 confidence: 0.82
 created_at: 2026-05-18
@@ -19,6 +20,11 @@ query_triggers:
 - 行业画布
 - 行业扫描
 related:
+  - '[[yt-decision-review]]'
+  - '[[tool-yitang-securities-research]]'
+  - '[[yt-research-competitor-toolkit]]'
+  - '[[yt-note-fact-pattern-insight]]'
+  - '[[yt-research-expert-interview]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-intelligence-map]]'
 - '[[yt-research-competitor-toolkit]]'

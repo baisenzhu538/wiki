@@ -1,5 +1,6 @@
 ---
 
+
 id: labeling-research-alignment
 title: 两份标注调研的对齐：黄药师 × 老顽童
 type: analysis
@@ -13,6 +14,11 @@ target_roles:
 - 黄药师（Builder）
 - 老顽童（Producer）
 related:
+  - '[[gold-standard-manual-labels]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[ouyangfeng-labeling-research-review]]'
+  - '[[label-accuracy-standard-alignment]]'
+  - '[[data-labeling-best-practices-report]]'
 - '[[data-labeling-best-practices-report]]'
 - '[[kdo-15-dimension-label-spec]]'
 author: unknown

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
@@ -22,6 +23,11 @@ query_triggers:
 - 解释
 - 预测
 related:
+  - '[[yt-model-progress-map]]'
+  - '[[yt-panproduct-execution-review-iteration]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-personal-thinking-models]]'
+  - '[[yt-entrepreneur-research-cognition]]'
 - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:

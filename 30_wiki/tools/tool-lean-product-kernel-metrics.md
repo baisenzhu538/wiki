@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-product-kernel-metrics
 title: 产品内核十大典型指标
 type: tool
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
 related:
+  - '[[yt-product-ten-metrics]]'
+  - '[[yt-model-product-core-metrics]]'
+  - '[[tool-lean-leverage-competitor]]'
+  - '[[ocr-一堂产品内核-十大典型指标]]'
+  - '[[yt-product-kernel-cultivation]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

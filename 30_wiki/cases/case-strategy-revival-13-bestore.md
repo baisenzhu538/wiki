@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-revival-13-bestore
 title: 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张
 type: case
@@ -12,6 +13,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §21
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38-42
 related:
+  - '[[case-strategy-wuxi-suntech]]'
+  - '[[case-strategy-li-ka-shing]]'
+  - '[[case-strategy-practice-11-third-place]]'
+  - '[[case-strategy-lekai-film]]'
+  - '[[case-strategy-cool-boiled-water]]'
 - "[[framework-strategy-six-stages]]"
 ---
 **挫败**：涨价→销售额暴跌

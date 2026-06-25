@@ -1,4 +1,5 @@
 ---
+
 title: 提案：提示词自动注入体系 — 从手动Read到运行时自动加载
 type: improvement-plan
 status: draft
@@ -11,6 +12,11 @@ target_roles:
 - 欧阳锋（Architect）
 reviewer: 待定
 related:
+  - '[[tool-yitang-job-intelligence-research]]'
+  - '[[agent-ecosystem-design]]'
+  - '[[meta-prompt-eng]]'
+  - '[[design-ai-image-generation]]'
+  - '[[ai-short-drama-framework-three-axes]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-prompt-injection-infrastructure
 author: unknown

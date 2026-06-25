@@ -1,4 +1,5 @@
 ---
+
 id: concept-ai-neutrality-bias
 title: 中立的暴政
 type: concept
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[concept-ai-information-quality-ladder]]'
+  - '[[framework-ai2041-critical-reading-os]]'
+  - '[[tool-ai-cross-reading-method]]'
+  - '[[concept-ai-chair-determines-view]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-gap-analysis
 title: 差距分析：战略的起点——业绩差距（内部）+机会差距（外部）
 type: tool
@@ -15,6 +16,11 @@ domain:
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §25-26
 related:
+  - '[[framework-strategy-brm]]'
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-strategy-three-horizons]]'
+  - '[[framework-strategy-five-basics]]'
 - '[[framework-strategy-brm]]'
 ---
 

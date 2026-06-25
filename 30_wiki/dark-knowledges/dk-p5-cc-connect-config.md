@@ -1,4 +1,5 @@
 ---
+
 id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-p3-auth-cache]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 - '[[dk-p1-model-switch-env]]'

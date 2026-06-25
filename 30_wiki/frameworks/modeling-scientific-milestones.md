@@ -1,5 +1,6 @@
 ---
 
+
 id: modeling-scientific-milestones
 title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
@@ -18,6 +19,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[framework-course-milestone-model]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[case-course-milestone-model]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-counterexample-driven]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'

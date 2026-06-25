@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
@@ -21,6 +22,11 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
+  - '[[case-personal-map-modeling]]'
+  - '[[case-modeling-essence-schools]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[case-child-drawing-rhyme]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[case-course-milestone-model]]'
 - '[[dk-weekly-modeling-iteration-growth-engine]]'
 - '[[concept-thousand-people-square]]'

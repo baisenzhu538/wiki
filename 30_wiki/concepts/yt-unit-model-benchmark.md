@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
@@ -20,6 +21,9 @@ query_triggers:
 - 基准值共建
 - 预测准确性
 related:
+  - '[[ocr-一堂y模型steps策略集]]'
+  - '[[yt-tool-unit-model-construction]]'
+  - '[[yt-tool-unit-model-benchmark]]'
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-dynamic]]'

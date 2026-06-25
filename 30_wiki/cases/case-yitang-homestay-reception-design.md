@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-homestay-reception-design
 title: 案例：民宿接待方案——用调研优化服务体验设计
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
+  - '[[case-yitang-doorstep-pet-feeding-trust]]'
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-yitang-voice-robot-companion-design]]'
+  - '[[case-yitang-ai-time-management-coach]]'
 - "[[tool-yitang-user-interview-5steps]]"
 ---
 

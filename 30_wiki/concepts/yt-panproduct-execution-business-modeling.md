@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-panproduct-execution-business-modeling
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -25,6 +26,11 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
+  - '[[yt-panproduct-execution-realistic-simulation]]'
+  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-panproduct-execution-roi-analysis]]'
 - '[[yt-panproduct-execution-logic-mece]]'
 - '[[yt-panproduct-demand-five-step-method]]'

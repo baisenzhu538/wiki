@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-public-sentiment-research
 title: 舆情/口碑批量收集：好评决定内核，差评决定机会
 type: tool
@@ -27,6 +28,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[tool-yitang-social-media-monitoring]]'
+  - '[[tool-yitang-review-analysis]]'
+  - '[[tool-yitang-supply-chain-research]]'
+  - '[[yt-management-conversion-hacking]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[tool-yitang-consumer-goods-research]]"

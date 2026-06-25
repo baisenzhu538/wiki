@@ -1,4 +1,5 @@
 ---
+
 id: tool-dns-intelligence
 title: DNS情报：从域名和网络基础设施反推竞对动态
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: DNSDumpster, crt.sh, whois.domaintools.com
 - web: OSINT DNS analysis techniques
 related:
+  - '[[tool-agent-firecrawl]]'
+  - '[[tool-osint-spiderfoot]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-google-dorking]]'
 - "[[tool-osint-overview]]"
 - "[[tool-osint-shodan]]"
 ---

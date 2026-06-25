@@ -1,4 +1,5 @@
 ---
+
 id: tool-indicators-signposts
 title: Indicators & Signposts：设置"重新评估"的触发信号
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - web: CIA Tradecraft Primer - Indicators
 related:
+  - '[[tool-key-assumptions-check]]'
+  - '[[tool-devils-advocacy]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[tool-candy-oral-polish]]'
 - "[[framework-structured-analytic-techniques]]"
 - "[[tool-yitang-ai-monitoring-alert]]"
 ---

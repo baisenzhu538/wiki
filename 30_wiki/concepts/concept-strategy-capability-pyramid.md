@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-capability-pyramid
 title: 战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养
 type: concept
@@ -11,6 +12,8 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{30}_vlm_desc.md
 related:
+  - '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[framework-strategy-five-basics]]'
 - "[[framework-strategy-five-basics]]"
 ---
 **冉鹏自创框架**：战略统帅的四层能力金字塔

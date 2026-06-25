@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 created_at: 2026-05-24
@@ -21,6 +22,11 @@ query_triggers:
 - 咨询教练
 - AI 商业分析
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-dynamic]]'
 - '[[master-systems-thinking]]'

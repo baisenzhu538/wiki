@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-control-points
 title: 战略控制点设计工具：价值定位模型
 aliases:
@@ -20,6 +21,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+  - '[[framework-strategy-ansoff]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[framework-strategy-five-forces]]'
+  - '[[tool-strategy-value-proposition]]'
 - '[[framework-strategy-business-design]]'
 - '[[tool-strategy-activity-scope]]'
 - '[[tool-strategy-risk-management]]'

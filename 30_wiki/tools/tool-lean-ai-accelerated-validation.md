@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-ai-accelerated-validation
 title: AI 加速 FALSE 模型验证
 type: tool
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md
 related:
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

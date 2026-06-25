@@ -1,4 +1,5 @@
 ---
+
 id: concept-ai-native-organization-five-steps
 type: concept
 component_of: null
@@ -27,6 +28,11 @@ diagnostic_signals:
 - 客服/运营话术和经验无法系统化复用
 - 夜间或节假日业务循环基本停滞
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[skill-纪浩-AI对话上下文隔离]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[ai时代判断力口述]]'
 - '[[ai时代判断力口述-3]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'

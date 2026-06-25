@@ -1,4 +1,5 @@
 ---
+
 id: dk-p1-model-switch-env
 title: P-1：切模型改环境变量无效——Claude Code 走全局设置
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-p14-zombie]]'
+  - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-p5-cc-connect-config]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 pipeline:

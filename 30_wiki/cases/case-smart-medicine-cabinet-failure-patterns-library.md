@@ -1,5 +1,6 @@
 ---
 
+
 id: case-smart-medicine-cabinet-failure-patterns-library
 title: 智能药柜失败模式案例库
 type: case
@@ -22,6 +23,11 @@ review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
 related:
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - '[[concept-smart-medicine-cabinet-international-models]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-panproduct-execution-roi-analysis]]'
 - '[[yt-barrier-identification-skill]]'

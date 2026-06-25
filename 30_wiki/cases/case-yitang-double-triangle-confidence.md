@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-double-triangle-confidence
 title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
@@ -30,6 +31,11 @@ related_concepts:
 - '[[yt-model-dual-triangle-competitiveness]]'
 related_cases: []
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - yt-model-dual-triangle-competitiveness
 - skill-Truman-双三角模型应用
 - yt-five-step-method

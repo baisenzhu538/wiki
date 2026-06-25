@@ -1,4 +1,5 @@
 ---
+
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dark-knowledge
@@ -12,6 +13,11 @@ source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
 source_refs: []
 related:
+  - '[[dk-tool-chain-naming-is-infrastructure]]'
+  - '[[dk-infrastructure-guardrails-over-checklist]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-p11-regex-cutoff]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[dk-p11-regex-cutoff]]'
 - '[[dk-p18-yaml-parser]]'
 - '[[dk-p19-quote-yaml]]'

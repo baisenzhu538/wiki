@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: "tool"
@@ -29,6 +30,11 @@ tools_required:
 - 数据管理工具（Notion / Airtable 等）
 prerequisite_skills: []
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[skill-ai-problem-validation]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
 - '[[sk-ai-question-problem-checklist]]'
 - '[[ai-collaboration-mindset-shift]]'
 author: 纪浩

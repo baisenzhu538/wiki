@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-entrepreneur-unit-model
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,6 +21,11 @@ query_triggers:
 - 毛利分析
 - 单客经济模型
 related:
+  - '[[yt-business-model-unit-economics]]'
+  - '[[yt-entrepreneur-barriers]]'
+  - '[[yt-entrepreneur-259-milestone]]'
+  - '[[case-five-step-growth-first-lever]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[yt-management-business-formula]]'
 - '[[yt-unit-model-selection]]'

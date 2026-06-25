@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Firecrawl official docs (firecrawl.dev)
 - web: Web scraping APIs for AI agents (Grokipedia)
 related:
+  - '[[tool-media-verification-overview]]'
+  - '[[tool-dns-intelligence]]'
+  - '[[tool-agent-native-overview]]'
+  - '[[tool-osint-wayback]]'
+  - '[[tool-google-dorking]]'
 - "[[tool-agent-native-overview]]"
 ---
 

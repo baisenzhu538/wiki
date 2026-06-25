@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-job-displacement-wef
 title: WEF 对 AI 就业影响的预测
 type: case
@@ -17,6 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+  - '[[case-deepfake-market-misuse]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
+  - '[[case-dutch-childcare-scandal]]'
+  - '[[case-ai-companion-emotional]]'
+  - '[[case-chen-qiufan-ai-writing]]'
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai2041-critical-reading-os]]"
 - "[[framework-ai-deconstruction-methodology]]"

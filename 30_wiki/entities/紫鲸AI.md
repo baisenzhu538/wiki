@@ -1,5 +1,6 @@
 ---
 
+
 title: 紫鲸AI
 type: entity
 domain:
@@ -17,6 +18,11 @@ id: 紫鲸AI
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
+  - '[[dk-skill-market-agent-self-install]]'
+  - '[[ai-native-im-multi-agent]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[concept-mcp-protocol]]'
+  - '[[case-ji-hao-skills-market]]'
 - '[[紫鲸ai智能体工作流平台]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 tags: []

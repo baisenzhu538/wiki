@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-task-product-system
 title: 王欢任务→产品→系统演进框架
 type: framework
@@ -21,6 +22,11 @@ source_refs:
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 related:
+  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
 - '[[framework-wanghuan-say-think-do-toolchain]]'

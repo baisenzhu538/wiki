@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
@@ -30,6 +31,11 @@ query_triggers:
 - 加法减法模板
 - 预判工具
 related:
+  - '[[yt-foresight-15-char-mantra]]'
+  - '[[case-truman-yitang-foresight]]'
+  - '[[yt-business-model-cac-ltv]]'
+  - '[[process-modeling]]'
+  - '[[yt-foresight-probability-engineering]]'
 - '[[yt-foresight-business-spectrum]]'
 wiki_refs:
 - '[[yt-foresight-15-char-mantra]]'

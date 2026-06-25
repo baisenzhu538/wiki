@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -25,6 +26,11 @@ source_refs:
 - src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
 status: reviewed
 related:
+  - '[[yt-market-size-estimation]]'
+  - '[[yt-five-step-implementation]]'
+  - '[[一堂]]'
+  - '[[yt-business-analysis-cognitive-biases]]'
+  - '[[five-step-domain-digest]]'
 - '[[yt-five-step-method]]'
 - '[[yt-five-step-implementation]]'
 - '[[yt-demand-analysis-hiking-map]]'

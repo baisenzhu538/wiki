@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-live-field-skill
 title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册
 type: tool
@@ -12,6 +13,11 @@ version: 2
 difficulty: advanced
 confidence: 0.9
 related:
+  - '[[yt-note-expert-interview-modeling]]'
+  - '[[skill-知识树存储记忆法]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[tool-yitang-weapon-full-product-experience]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-five-levels-training]]'

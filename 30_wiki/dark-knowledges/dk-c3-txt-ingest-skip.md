@@ -1,4 +1,5 @@
 ---
+
 id: dk-c3-txt-ingest-skip
 title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[存储策略]]'
+  - '[[dk-f5-stale-feedback-ref]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[dk-p16-validate-reads-state-json]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-f2-txt-ingest-skip]]'
 - '[[dk-p16-validate-reads-state-json]]'

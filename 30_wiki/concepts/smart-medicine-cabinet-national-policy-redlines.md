@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-national-policy-redlines
 title: 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 type: concept
@@ -22,6 +23,11 @@ review_date: '2026-06-14'
 confidence: 0.95
 trust_level: high
 related:
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - '[[concept-smart-medicine-cabinet-international-models]]'
 - '[[master-decision-hygiene]]'
 - '[[master-systems-thinking]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'

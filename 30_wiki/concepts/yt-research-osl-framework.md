@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-research-osl-framework
 title: OSL调研五步法：一堂通用商业调研框架
 type: framework
@@ -30,6 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-笔记.txt
 related:
+  - '[[ocr-婚礼操盘-用户和场景]]'
+  - '[[framework-yitang-oscar-research]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[一堂]]'
 - "[[yt-research-intelligence-map]]"
 - "[[yt-research-competitor-toolkit]]"
 - "[[yt-research-expert-interview]]"

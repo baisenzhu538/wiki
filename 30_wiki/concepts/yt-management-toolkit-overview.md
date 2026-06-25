@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-management-toolkit-overview
 component_of:
 - yt-model-management-map
@@ -33,6 +34,11 @@ query_triggers:
 - 管理场景对应工具
 - 管理基本功工具化
 related:
+  - '[[yt-management-goal-management]]'
+  - '[[ocr-一堂-地图-管理地图]]'
+  - '[[yt-tool-okr-cycle]]'
+  - '[[yt-model-management-map]]'
+  - '[[tool-yitang-supplier-interview]]'
 - '[[yt-tool-meeting-designer]]'
 - '[[yt-tool-hiring-scorecard]]'
 - '[[yt-tool-okr-cycle]]'

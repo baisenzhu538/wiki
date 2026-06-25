@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-pivot-decision
 title: 精益验证结果如何触发战略/产品 pivot
 type: framework
@@ -21,6 +22,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[framework-strategy-lean-validation]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[case-cross-yuanqi-forest]]'
+  - '[[framework-five-step-lean-interface]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-lean-systematic-test-curve]]"

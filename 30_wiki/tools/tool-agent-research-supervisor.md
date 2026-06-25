@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-research-supervisor
 title: Supervisor模式：一个主Agent调度多个Worker
 type: tool
@@ -14,6 +15,9 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - web: LangGraph Supervisor pattern (LangChain)
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-agent-research-swarm]]'
+  - '[[framework-multi-agent-research-architecture]]'
 - "[[framework-multi-agent-research-architecture]]"
 ---
 

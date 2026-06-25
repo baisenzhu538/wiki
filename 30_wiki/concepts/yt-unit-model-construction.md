@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
@@ -20,6 +21,10 @@ query_triggers:
 - 成本收入项清单
 - 单元模型公式
 related:
+  - '[[yt-unit-model-build]]'
+  - '[[ocr-一堂-科学决策-关键假设abcd模型]]'
+  - '[[yt-unit-model-concept]]'
+  - '[[yt-tool-unit-model-construction]]'
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-benchmark]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-alt-data-overview
 title: 替代数据总览：Hedge Fund级别的调研武器
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - web: Alternative data for hedge funds (ExtractAlpha, Greenwich Associates, Neudata 2025)
 - web: Exploding Topics - How Hedge Funds Use Alternative Data
 related:
+  - '[[tool-agent-crawl4ai]]'
+  - '[[tool-demand-agent-signals]]'
+  - '[[tool-alt-data-free]]'
+  - '[[tool-osint-overview]]'
+  - '[[tool-reverse-image-search]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-alt-data-free]]"
 ---

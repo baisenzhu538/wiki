@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-dialer
 title: 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 type: dark_knowledge
@@ -11,6 +12,11 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
+  - '[[dk-demand-pitfall-indonesia-insurance]]'
+  - '[[dk-demand-pitfall-travel-agent]]'
+  - '[[dk-strategy-05-positioning-trap]]'
+  - '[[dk-demand-pitfall-financial-literacy]]'
+  - '[[dk-demand-pitfall-rural-5g]]'
 - "[[case-demand-dialer]]"
 ---
 **坑**：销售需要打电话→做拨号器→用户不用。

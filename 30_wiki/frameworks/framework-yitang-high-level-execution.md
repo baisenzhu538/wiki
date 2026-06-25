@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-high-level-execution
 title: 高水平执行 AR：获取情报·正确归因
 type: framework
@@ -30,6 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[framework-yitang-oscar-research]]'
+  - '[[tool-yitang-research-industry-scan]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[tool-yitang-research-validate-assumption]]'
 - "[[framework-yitang-high-level-plan]]"
 - "[[framework-yitang-four-research-types]]"
 - "[[framework-yitang-research-radar]]"

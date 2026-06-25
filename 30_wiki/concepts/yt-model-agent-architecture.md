@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
@@ -19,6 +20,8 @@ query_triggers:
 - 任务环境分类
 - 智能体设计
 related:
+  - '[[yt-tool-peas-agent-analysis]]'
+  - '[[yt-concept-peas-insight]]'
 - '[[yt-concept-ai-guard-brain]]'
 - '[[yt-personal-ai-capability]]'
 - '[[yt-model-prompt-engineering]]'

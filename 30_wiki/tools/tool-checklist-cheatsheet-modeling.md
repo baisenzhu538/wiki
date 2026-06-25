@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-checklist-cheatsheet-modeling
 title: 清单/小抄建模法：把经验变成可执行的检查点
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-iceberg-triangle-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[tool-canvas-weapon-library-modeling]]'
+  - '[[tool-radar-chart-modeling]]'
 - '[[modeling-weapon-library]]'
 - '[[process-modeling]]'
 - '[[modeling-three-stages]]'

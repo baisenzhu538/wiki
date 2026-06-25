@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,6 +21,11 @@ query_triggers:
 - 输入
 - 输出
 related:
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-personal-time-management]]'
+  - '[[yt-personal-scientific-expression]]'
 - '[[master-systems-thinking]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师

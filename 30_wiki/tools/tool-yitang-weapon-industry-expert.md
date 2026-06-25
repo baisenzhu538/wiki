@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-industry-expert
 title: 武器库策略9：行业专家访谈——五步找到对的专家
 type: tool
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-yitang-channel-agent-interview]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[tool-yitang-partner-data-analysis]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[framework-yitang-expert-interview-10steps]]"
 ---

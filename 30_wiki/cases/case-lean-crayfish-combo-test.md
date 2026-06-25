@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-crayfish-combo-test
 title: 案例：堕落小龙虾组合测试
 type: case
@@ -19,6 +20,11 @@ source_refs:
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 related:
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[case-lean-shampoo-selling-points]]'
+  - '[[case-lean-gray-test-paradigm]]'
+  - '[[case-lean-combination-test-paradigm]]'
+  - '[[case-lean-2b-gray-test]]'
 - "[[framework-lean-systematic-test-curve]]"
 - "[[case-lean-combination-test-paradigm]]"
 - "[[framework-lean-false-model]]"

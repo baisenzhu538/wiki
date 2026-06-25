@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
@@ -24,6 +25,11 @@ source_refs:
 - src_20260610_2a188b41-一堂-一堂五步法-需求-口述
 status: reviewed
 related:
+  - '[[yt-demand-analysis-hiking-map]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[yt-demand-quantitative-estimation]]'
+  - '[[yt-demand-market-size-pitfalls]]'
+  - '[[tool-demand-report-template]]'
 - "[[framework-demand-iceberg]]"
 - "[[tool-demand-assessment-triangle]]"
 - "[[framework-demand-opportunity-spectrum]]"

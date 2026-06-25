@@ -1,4 +1,5 @@
 ---
+
 id: dk-f7-surface-translation
 title: F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
+  - '[[dk-f11-encyclopedia-style]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
+  - '[[dk-f9-generic-critique]]'
+  - '[[dk-jh-llm-time-blindness]]'
+  - '[[dk-my-ai-landing-three-barriers]]'
 - '[[master-first-principles]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[dk-f11-encyclopedia-style]]'

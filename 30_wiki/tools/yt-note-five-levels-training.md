@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
@@ -12,6 +13,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.89
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[case-modeling-essence-levels]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-live-field-skill]]'

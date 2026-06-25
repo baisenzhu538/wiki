@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
@@ -25,6 +26,11 @@ review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
 related:
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[process-modeling]]'
 - '[[tool-sop-template-modeling]]'
 - '[[case-modeling-process-livestream-prep]]'

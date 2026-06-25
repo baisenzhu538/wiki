@@ -1,5 +1,6 @@
 ---
 
+
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
@@ -24,6 +25,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+  - '[[framework-course-milestone-model]]'
+  - '[[modeling-scientific-milestones]]'
+  - '[[case-yitang-radar-chart-selection]]'
+  - '[[case-thousand-people-square]]'
+  - '[[case-essence-entrepreneurship]]'
 - '[[framework-course-milestone-model]]'
 - '[[case-thousand-people-square]]'
 - '[[case-personal-map-modeling]]'

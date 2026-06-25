@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-ai-research-prompt-craft
 title: AI调研效果取决于问题拆解和人工判断——不是提示词技巧
 type: dark_knowledge
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[dk-yitang-research-ai-hallucination]]'
+  - '[[dk-yitang-research-desperate-effort]]'
+  - '[[dk-yitang-survivor-bias-in-research]]'
+  - '[[dk-yitang-digging-belief]]'
+  - '[[dk-yitang-public-info-is-enough]]'
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[concept-yitang-ai-research-human-loop]]"
 - "[[dk-yitang-research-ai-hallucination]]"

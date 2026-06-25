@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-decision-consensus-iceberg
 component_of:
 - yt-decision-y-model
@@ -66,6 +67,11 @@ diagnostic_signals:
   framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
   follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
 related:
+  - '[[yt-decision-review]]'
+  - '[[dk-strategy-07-strategy-vs-dividend]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
+  - '[[yt-decision-height-toolkit]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-height-toolkit]]'
 - '[[yt-decision-review]]'

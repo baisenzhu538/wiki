@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
+  - '[[case-truman-sales-report-structure]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[case-livestream-sop-modeling]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[process-modeling]]'

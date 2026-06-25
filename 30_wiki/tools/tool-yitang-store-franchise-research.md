@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-store-franchise-research
 title: 门店加盟调研手段：浅中深三层10大评估法
 type: tool
@@ -29,6 +30,11 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡1（门店）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[tool-yitang-content-ip-research]]'
+  - '[[tool-yitang-tech-project-research]]'
+  - '[[tool-yitang-overseas-research]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-organization-research]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-field-research]]"
 - "[[tool-yitang-reverse-data-analysis]]"

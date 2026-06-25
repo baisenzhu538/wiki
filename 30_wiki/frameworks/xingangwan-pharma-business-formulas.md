@@ -1,5 +1,6 @@
 ---
 
+
 id: xingangwan-pharma-business-formulas
 title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 type: framework
@@ -17,6 +18,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[xingangwan-pharma-business-model-formulas]]'
+  - '[[case-offline-catering-formula]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[xingangwan-pharma-business-model-calc]]'
 - '[[shanxi-field-research-checklist-20260701]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: huangyaoshi-tagging-and-scope-proposal
 title: 黄药师：数据标签方案 + 暗知识全量范围
 type: decision
@@ -12,6 +13,11 @@ target_roles:
 - 欧阳锋（Architect）
 - 用户（决策者）
 related:
+  - '[[kdo-15-dimension-label-spec]]'
+  - '[[gold-standard-manual-labels]]'
+  - '[[huangyaoshi-data-alignment-response]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[data-curator-role-division]]'
 - '[[plan_20260531_data-curator-v1.3]]'
 - '[[data-curator-role-division]]'
 author: unknown

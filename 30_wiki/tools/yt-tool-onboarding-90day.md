@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
 type: tool
@@ -17,6 +18,11 @@ prerequisites:
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[yt-tool-equity-checklist]]'
 - '[[yt-management-team-knowledge]]'
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-management-goal-management]]'

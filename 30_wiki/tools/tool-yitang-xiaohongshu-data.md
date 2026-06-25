@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-xiaohongshu-data
 title: 小红书数据：种草热度和用户口碑追踪
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-amazon-bestseller]]'
+  - '[[tool-yitang-anonymous-roundtable]]'
+  - '[[tool-yitang-court-record-search]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 - "[[tool-yitang-public-sentiment-research]]"
 ---

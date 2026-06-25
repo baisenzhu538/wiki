@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
@@ -21,6 +22,8 @@ query_triggers:
 - 单元模型动态预测
 - 规模化盈利
 related:
+  - '[[ai单元模型口述蒋老师]]'
+  - '[[yt-tool-unit-model-dynamic]]'
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-ai-assisted]]'
 - '[[master-systems-thinking]]'

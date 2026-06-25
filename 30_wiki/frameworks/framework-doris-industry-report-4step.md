@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-doris-industry-report-4step
 title: 行业报告调研四步法：7天快速建立行业认知
 type: framework
@@ -31,6 +32,11 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-doris-industry-report-search-tips]]'
+  - '[[framework-yitang-expert-interview-10steps]]'
+  - '[[tool-yitang-research-industry-scan]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
 - "[[framework-yitang-high-level-plan]]"
 - "[[framework-yitang-high-level-execution]]"
 - "[[yt-research-industry-canvas]]"

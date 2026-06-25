@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-counterexample-driven
 title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 type: dark-knowledge
@@ -18,6 +19,11 @@ updated_at: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
+  - '[[case-modeling-abstraction-reliability-ladder]]'
+  - '[[case-course-milestone-model]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[case-thousand-people-square]]'
+  - '[[concept-thousand-people-square]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'

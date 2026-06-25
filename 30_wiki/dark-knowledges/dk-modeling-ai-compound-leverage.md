@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[modeling-three-values]]'

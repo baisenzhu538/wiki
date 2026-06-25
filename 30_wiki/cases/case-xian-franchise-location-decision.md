@@ -1,4 +1,5 @@
 ---
+
 id: case-xian-franchise-location-decision
 title: 案例：西安加盟选址——系统调研vs拍脑袋
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
+  - '[[case-demand-equestrian-three-tasks]]'
+  - '[[case-demand-pharma-bigdata]]'
+  - '[[case-yitang-mahjong-machine-fake-order]]'
+  - '[[case-popmart-prospectus-pricing]]'
+  - '[[case-candy-problem-os-vpn]]'
 - "[[tool-yitang-store-franchise-research]]"
 - "[[tool-yitang-field-research]]"
 ---

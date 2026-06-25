@@ -1,5 +1,6 @@
 ---
 
+
 id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - '10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
 - '10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
 related:
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[concept-wanghuan-flywheel-first-loop]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'

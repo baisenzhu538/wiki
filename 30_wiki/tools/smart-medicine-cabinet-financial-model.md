@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-financial-model
 title: 智能药柜单点财务模型与回本测算表
 type: tool
@@ -24,6 +25,11 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
+  - '[[case-lean-perfectionism-traps]]'
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[case-lean-wrong-demand]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
+  - '[[case-yitang-tob-smart-park]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'

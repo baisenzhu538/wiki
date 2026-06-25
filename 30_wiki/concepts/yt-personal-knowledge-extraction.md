@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
@@ -21,6 +22,11 @@ query_triggers:
 - PRD自查清单
 - 知识体系搭建
 related:
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[七件事集团]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-personal-thinking-models]]'
+  - '[[yt-personal-y-model-exploration-2]]'
 - '[[yt-personal-deep-review]]'
 - '[[master-systems-thinking]]'
 reviewed_by: 黄药师

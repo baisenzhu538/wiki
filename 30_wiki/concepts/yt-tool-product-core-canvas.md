@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
@@ -23,6 +24,11 @@ query_triggers:
 - 螺旋拆解
 - 独立交付
 related:
+  - '[[yt-entrepreneur-industry-forecast]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-concept-p-type-l-type]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-five-step-implementation]]'
 - '[[yt-model-five-step-canvas]]'
 - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'

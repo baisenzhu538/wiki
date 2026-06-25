@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -56,6 +57,11 @@ diagnostic_signals:
   lens: 伪创新
   follow_up: 新模型上线前做一次“范式匹配审查”，要求证明它无法被已有 20-30 个范式表达
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-model-arsenal-paradigms]]'
+  - '[[case-modeling-abstraction-yitang-models]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[case-modeling-abstraction-yitang-models]]'
 - '[[modeling-weapon-library]]'
 - '[[dk-modeling-model-arsenal-paradigms]]'

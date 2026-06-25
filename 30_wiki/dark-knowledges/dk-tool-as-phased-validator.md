@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-as-phased-validator
 title: 把 AI/工具当成分阶段校验器，而不是一次性生成器
 type: dark-knowledge
@@ -16,6 +17,11 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-question-scaffold-not-answer]]'
+  - '[[dk-modeling-ai-iterative-prompting]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
 - yt-lean-false-model-ai
 - yt-tob-barriers
 - ai-short-drama-conflict-three-axes

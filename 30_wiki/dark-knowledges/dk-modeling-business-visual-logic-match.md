@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-modeling-business-visual-logic-match
 title: 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 type: dark-knowledge
@@ -25,6 +26,11 @@ diagnostic_signals:
     framework_lens: AI 出图人审
     follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-modeling-ai-compound-leverage]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
 - '[[dk-modeling-model-arsenal-paradigms]]'
 - '[[tool-iceberg-triangle-modeling]]'
 - '[[tool-binary-quadrant-modeling]]'

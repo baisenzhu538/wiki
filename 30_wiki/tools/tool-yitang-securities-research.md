@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-securities-research
 title: 证券研报：券商分析师的行业深度报告
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-hardware-product-disassembly]]'
+  - '[[tool-strategy-five-see-three-set]]'
+  - '[[tool-yitang-security-guard-intel]]'
+  - '[[tool-yitang-court-record-search]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 - "[[tool-yitang-financial-report-intelligence]]"
 ---

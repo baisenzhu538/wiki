@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
 type: dark-knowledge
@@ -14,6 +15,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb29-prompt-migrate-copy-first]]'
+  - '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb8-file-naming-eight-elements]]'
 - '[[dk-yb7-design-demand-80-10-10]]'

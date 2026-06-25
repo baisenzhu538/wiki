@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-pitch-colloquialization
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -21,6 +22,11 @@ query_triggers:
 - 对象感
 - 逐字稿
 related:
+  - '[[yt-pitch-scenarization]]'
+  - '[[yt-pitch-aphorism]]'
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-pitch-sublimation]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师

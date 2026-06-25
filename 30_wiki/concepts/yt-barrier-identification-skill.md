@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-barrier-identification-skill
 confidence: 0.85
 created_at: 2026-06-11
@@ -20,6 +21,11 @@ query_triggers:
 - 一堂壁垒
 - 壁垒评估
 related:
+  - '[[yt-growth-cycle-model]]'
+  - '[[case-toy-cabinet-barrier]]'
+  - '[[case-toy-cabinet-business-model]]'
+  - '[[yt-barrier-strategy-overview]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[dk-yb7-design-demand-80-10-10]]'
 - '[[dk-yb10-theory-moat-designer]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'

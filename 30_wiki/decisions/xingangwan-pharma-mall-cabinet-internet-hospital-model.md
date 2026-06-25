@@ -1,5 +1,6 @@
 ---
 
+
 id: xingangwan-pharma-mall-cabinet-internet-hospital-model
 title: 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 type: decision
@@ -26,6 +27,11 @@ reviewed_by: pending
 confidence: 0.84
 trust_level: medium
 related:
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[互联网医院项目]]'
 - '[[鑫港湾HIS项目]]'
 - '[[诊所O2O项目]]'

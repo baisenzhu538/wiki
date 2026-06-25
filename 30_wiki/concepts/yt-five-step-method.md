@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-five-step-method
 confidence: 0.9
 created_at: 2026-06-10
@@ -18,6 +19,11 @@ query_triggers:
 - 创业分析工具
 - 全局分析
 related:
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[ocr-一堂五步法画布]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-panproduct-demand-five-step-method]]'
 - '[[yt-five-step-common-pitfalls]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-fangte-disney
 title: 方特vs迪士尼：集团战略的范围经济——有IP也打不过
 type: case
@@ -11,6 +12,11 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §21-22
 related:
+  - '[[case-ether-online-acquisition]]'
+  - '[[yt-tool-unit-model-dynamic]]'
+  - '[[case-doris-2014-music-streaming-prediction]]'
+  - '[[case-strategy-walmart-vs-costco-pyramid]]'
+  - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 - "[[tool-strategy-four-layers]]"
 ---
 **对比**：方特（范围经济——IP复用，熊出没IP用到多个场景）vs 迪士尼（规模经济——单一IP多次变现）

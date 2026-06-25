@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-tacit-knowledge-examples
 title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
@@ -29,6 +30,11 @@ diagnostic_signals:
   lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[tool-wanghuan-ai-business-profile]]'
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-wanghuan-spec-trap]]'

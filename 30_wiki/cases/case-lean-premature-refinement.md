@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-premature-refinement
 title: 过早细化案例集
 type: case
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md
 related:
+  - '[[case-lean-weak-solution]]'
+  - '[[case-lean-adult-education]]'
+  - '[[case-lean-2b-gray-test]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
+  - '[[case-lean-premature-expansion]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-six-wastes]]"
 - "[[framework-lean-product-kernel]]"

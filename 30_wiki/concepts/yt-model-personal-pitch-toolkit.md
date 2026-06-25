@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - yt-model-personal-map
@@ -23,6 +24,11 @@ query_triggers:
 - 具象化
 - 抽象化
 related:
+  - '[[yt-pitch-aphorism]]'
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-pitch-sublimation]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-concept-weapon-arsenal]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'

@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-nine-layer-deep-dig
 title: 九层深挖法：商业分析的自我纠错式迭代框架
 type: framework
@@ -29,6 +30,11 @@ source_refs:
 - 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
 - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
+  - '[[yt-five-step-level-blindspots]]'
+  - '[[framework-lean-expert-roadmap]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - "[[framework-yitang-iterative-recursive-digging]]"
 - "[[framework-yitang-six-layer-cross-validation]]"
 - "[[framework-yitang-research-weapon-system]]"

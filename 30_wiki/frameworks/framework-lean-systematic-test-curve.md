@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-systematic-test-curve
 title: 系统测试曲线与三大测试范式
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
+  - '[[case-lean-zhanglei-failure-counterfactual]]'
+  - '[[case-lean-shampoo-selling-points]]'
+  - '[[case-lean-gray-test-paradigm]]'
+  - '[[case-lean-combination-test-paradigm]]'
+  - '[[case-lean-crayfish-combo-test]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"

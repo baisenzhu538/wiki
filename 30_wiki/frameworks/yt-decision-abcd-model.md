@@ -1,6 +1,7 @@
 ---
 
 
+
 type: framework
 id: yt-decision-abcd-model
 status: enriched
@@ -16,6 +17,11 @@ source_refs:
 - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
 related:
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[ocr-一堂-科学决策-关键假设abcd模型]]'
+  - '[[ocr-一堂-科学决策-宽度-个人]]'
+  - '[[yt-management-conversion-hacking]]'
+  - '[[yt-decision-y-model]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-height-toolkit]]'

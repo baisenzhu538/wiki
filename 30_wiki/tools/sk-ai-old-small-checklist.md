@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
@@ -28,6 +29,11 @@ tools_required:
 - 数据管理工具（Notion / Airtable 等）
 prerequisite_skills: null
 related:
+  - '[[sk-ai-system-redundancy]]'
+  - '[[skill-ai-prd-for-ai]]'
+  - '[[skill-ai-old-small-checklist]]'
+  - '[[skill-ai-ai-workspace-setup]]'
+  - '[[skill-ai-parallel-validation]]'
 - '[[sk-ai-landing-five-steps]]'
 - '[[ai-landing-scene-selection]]'
 author: 马易

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-cross-validation
 title: 交叉验证：多源印证的信息可信度提升
 type: tool
@@ -27,6 +28,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[tool-yitang-research-normalize-summary]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[tool-yitang-research-quantitative-modeling]]'
+  - '[[concept-yitang-research-facts-first]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "（tool-yitang-research-facts-first，待补）"

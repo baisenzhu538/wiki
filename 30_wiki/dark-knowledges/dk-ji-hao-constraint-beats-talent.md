@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-constraint-beats-talent
 title: 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计
 type: dark-knowledge
@@ -15,6 +16,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
+  - '[[dk-ji-hao-logs-fastest-ignored]]'
+  - '[[dk-ji-hao-simple-complex-routing]]'
+  - '[[skill-纪浩-AI工具脚本化约束]]'
+  - '[[skill-纪浩-处理AI生成代码运行异常]]'
+  - '[[skill-纪浩-Agent开工检查单制作法]]'
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 wiki_refs:

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ai-time-management-coach
 title: 案例：AI辅助调研——时间管理教练产品验证
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-doris-catering-chain-benchmark]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-homestay-reception-design]]'
+  - '[[case-yitang-beauty-device-overseas-sales]]'
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[dk-yitang-ai-research-prompt-craft]]"
 ---

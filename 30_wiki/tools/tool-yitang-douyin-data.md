@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-douyin-data
 title: 抖音数据：直播电商和短视频趋势追踪
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
+  - '[[tool-yitang-pc-web-data]]'
+  - '[[tool-yitang-stock-data]]'
+  - '[[tool-yitang-xiaohongshu-data]]'
+  - '[[tool-yitang-amazon-bestseller]]'
+  - '[[tool-yitang-supplier-interview]]'
 - "[[tool-yitang-weapon-third-party-database]]"
 ---
 

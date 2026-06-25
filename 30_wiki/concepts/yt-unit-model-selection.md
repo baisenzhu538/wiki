@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
@@ -18,6 +19,11 @@ query_triggers:
 - 单元模型选择
 - 十大单元模型
 related:
+  - '[[yt-management-scientific-decision]]'
+  - '[[skill-ai-purpose-bias-check]]'
+  - '[[yt-tool-unit-model-selection]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[sk-ai-purpose-bias-check]]'
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-benchmark]]'

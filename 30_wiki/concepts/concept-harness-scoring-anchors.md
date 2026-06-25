@@ -1,4 +1,5 @@
 ---
+
 id: concept-harness-scoring-anchors
 title: 评分锚定：1-5分制+语义锚点+取较低值
 type: concept
@@ -14,6 +15,10 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
+  - '[[skill-马易-判断标准快速产出法]]'
+  - '[[tool-yitang-supplier-interview]]'
+  - '[[concept-research-responsibility-boundary]]'
+  - '[[concept-yitang-ideal-research-goal]]'
 - "[[framework-yitang-research-quality-gate]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
@@ -18,6 +19,11 @@ query_triggers:
 - 从读到用的方法
 - 读书怎么变成行动
 related:
+  - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-panproduct-demand-project-background]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
+  - '[[yt-panproduct-execution-good-tools]]'
 - '[[yt-model-agent-architecture]]'
 - '[[yt-personal-knowledge-extraction]]'
 - '[[yt-personal-deep-review]]'

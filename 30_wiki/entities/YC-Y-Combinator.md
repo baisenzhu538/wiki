@@ -1,5 +1,6 @@
 ---
 
+
 title: Y Combinator
 type: entity
 domain:
@@ -20,6 +21,11 @@ id: YC-Y-Combinator
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[kdo-protocol]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'

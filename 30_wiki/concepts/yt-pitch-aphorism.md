@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-pitch-aphorism
 component_of:
 - yt-model-personal-pitch-toolkit
@@ -22,6 +23,11 @@ query_triggers:
 - 押韵文案
 - 洞察对比
 related:
+  - '[[yt-pitch-scenarization]]'
+  - '[[yt-pitch-materialization]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:

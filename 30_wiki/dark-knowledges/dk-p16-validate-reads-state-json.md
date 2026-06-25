@@ -1,4 +1,5 @@
 ---
+
 id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[dk-f5-stale-feedback-ref]]'
+  - '[[dk-infrastructure-guardrails-over-checklist]]'
+  - '[[dk-f3-state-json-race-condition]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[master-first-principles]]'
 - '[[master-systems-thinking]]'
 - '[[dk-c3-txt-ingest-skip]]'

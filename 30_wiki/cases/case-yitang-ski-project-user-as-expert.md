@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ski-project-user-as-expert
 title: 案例：滑雪项目——把用户当专家访谈
 type: case
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
+  - '[[case-yitang-pet-fostering-user-research]]'
+  - '[[case-yitang-track-selection-research]]'
+  - '[[case-yitang-doorstep-nail-service-context]]'
+  - '[[case-yitang-ai-time-management-coach]]'
+  - '[[case-yitang-mvp-reward-interview-waste]]'
 - "[[framework-yitang-expert-interview-10steps]]"
 - "[[tool-yitang-user-interview-5steps]]"
 ---

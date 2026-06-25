@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-iceberg-triangle-modeling
 title: 冰山图/三角图建模法：从表象深挖结构与本质
 type: tool
@@ -20,6 +21,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.90
 related:
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[tool-canvas-weapon-library-modeling]]'
+  - '[[tool-radar-chart-modeling]]'
 - '[[modeling-weapon-library]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-essence-predictive]]'

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
@@ -13,6 +14,11 @@ version: 1
 difficulty: beginner
 confidence: 0.75
 related:
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-pitch-sublimation]]'
+  - '[[yt-pitch-conflict]]'
+  - '[[yt-prompt-engineering-andrew-ng]]'
+  - '[[yt-pitch-colloquialization]]'
 - '[[yt-note-five-levels-training]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-live-field-skill]]'

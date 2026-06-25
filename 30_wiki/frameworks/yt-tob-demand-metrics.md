@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
@@ -25,6 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-barriers]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-panproduct-demand-five-step-method]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-business-formula-business-pattern-selector]]'

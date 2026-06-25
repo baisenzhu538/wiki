@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-zhanglei-hypothesis-validation
 title: 张磊 AMA：假设验证实操案例
 type: case
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 related:
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[tool-lean-ai-accelerated-validation]]'
+  - '[[case-lean-zhanglei-pivot-decision]]'
+  - '[[case-lean-zhanglei-failure-counterfactual]]'
+  - '[[case-lean-shoe-mvp-evolution]]'
 - "[[framework-lean-false-model]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-lean-systematic-test-curve]]"

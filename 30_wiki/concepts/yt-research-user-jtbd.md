@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-user-jtbd
 title: 用户JTBD访谈工具：区分"说的"和"真正要的"
 type: tool
@@ -14,6 +15,11 @@ source_refs:
   - 00_inbox/调研专题/一堂-用户调研实操课-口述.txt
   - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
+  - '[[yitang-research-domain-digest]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
+  - '[[yt-personal-pan-product-practice]]'
+  - '[[yt-demand-jtbd-application]]'
+  - '[[tool-prompt-iceberg-demand-analysis]]'
 - '[[yt-research-osl-framework]]'
 - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-research-hypothesis-test]]'

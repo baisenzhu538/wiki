@@ -1,4 +1,5 @@
 ---
+
 id: tool-devils-advocacy
 title: Devil's Advocacy：主动攻击自己的结论
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - web: CIA Tradecraft Primer - Devil's Advocacy
 related:
+  - '[[tool-key-assumptions-check]]'
+  - '[[tool-harness-adversarial-tester]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[tool-candy-oral-polish]]'
+  - '[[tool-indicators-signposts]]'
 - "[[framework-structured-analytic-techniques]]"
 - "（concept-半肥猫-ai-research-validation，待补）"
 - "[[tool-harness-adversarial-tester]]"

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - yt-composite-pan-product-methodology
@@ -21,6 +22,11 @@ query_triggers:
 - 用户场景分析
 - 需求洞察方法
 related:
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-model-pan-product-36-strategies]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'

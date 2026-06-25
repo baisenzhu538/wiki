@@ -1,6 +1,7 @@
 ---
 
 
+
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
@@ -19,6 +20,11 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 trust_level: high
 related:
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[dk-f4-wrong-workdir]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[model-quality-four-levels]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'

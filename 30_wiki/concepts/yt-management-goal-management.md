@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 目标管理
 type: concept
 domain:
@@ -30,6 +31,9 @@ diagnostic_signals:
   framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
+  - '[[yt-tool-okr-cycle]]'
+  - '[[yt-management-toolkit-overview]]'
+  - '[[tool-strategy-12-word-test]]'
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-management-project-management]]'
 - '[[yt-management-scientific-decision]]'

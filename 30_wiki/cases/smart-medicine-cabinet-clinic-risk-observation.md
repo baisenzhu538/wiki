@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-clinic-risk-observation
 title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
@@ -26,6 +27,11 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
+  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
+  - '[[tool-clinic-cabinet-legal-contract-guide]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-decision-hygiene]]'
 - '[[smart-medicine-cabinet-distribution]]'

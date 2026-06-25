@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-false-model
 title: 一堂 FALSE/FLESAI 低成本验证模型
 type: framework
@@ -22,6 +23,11 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
+  - '[[framework-lean-six-wastes]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[framework-lean-tenx-formula]]'
+  - '[[yt-lean-daily-probability-decision]]'
+  - '[[framework-lean-four-principles]]'
 - "[[yt-entrepreneur-key-hypotheses]]"
 - "[[concept-一堂-kernel-validation]]"
 - "[[framework-lean-systematic-test-curve]]"

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-tool-hiring-scorecard
 title: 结构化面试打分卡
 type: tool
@@ -16,6 +17,11 @@ prerequisites: null
 component_of:
 - yt-management-toolkit-overview
 related:
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-project-health-radar]]'
+  - '[[yt-management-scientific-hiring]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[system-yitang-research-workflow]]'
 - '[[yt-management-scientific-hiring]]'
 - '[[yt-management-onboarding]]'
 - '[[yt-management-company-culture]]'

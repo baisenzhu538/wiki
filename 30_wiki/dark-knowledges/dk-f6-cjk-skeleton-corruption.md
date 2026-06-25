@@ -1,4 +1,5 @@
 ---
+
 id: dk-f6-cjk-skeleton-corruption
 title: F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 type: dark-knowledge
@@ -13,6 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[dk-c3-txt-ingest-skip]]'
 - '[[dk-f1-regex-on-cjk]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[master-ai-info-literacy]]'

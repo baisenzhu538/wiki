@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-five-basics
 title: 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革
 type: framework
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §24, §97
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-45
 related:
+  - '[[tool-strategy-four-moves]]'
+  - '[[tool-strategy-gap-analysis]]'
+  - '[[tool-strategy-three-horizons]]'
+  - '[[dk-strategy-01-not-goal-setting]]'
+  - '[[framework-strategy-basics-04-system]]'
 - '[[framework-strategy-brm]]'
 - '[[framework-strategy-six-stages]]'
 ---

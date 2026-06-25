@@ -1,5 +1,6 @@
 ---
 
+
 id: case-modeling-essence-levels
 title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
@@ -39,6 +40,11 @@ diagnostic_signals:
   lens: 对 L4 本质与 L5 学科经典的适用边界不清
   follow_up: 明确当前决策是商业管理问题还是基础科学研究问题，再决定是否需要回到学科经典
 related:
+  - '[[yt-model-liberate-thinking-layers]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[framework-logic-cleanliness-five-levels]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[modeling-three-stages]]'
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-essence-predictive]]'

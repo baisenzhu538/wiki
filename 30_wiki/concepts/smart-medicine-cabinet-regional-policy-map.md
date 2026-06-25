@@ -1,6 +1,7 @@
 ---
 
 
+
 id: smart-medicine-cabinet-regional-policy-map
 title: 各省市自助售药机政策差异地图
 type: concept
@@ -22,6 +23,11 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: medium
 related:
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[concept-smart-medicine-cabinet-international-models]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[master-decision-hygiene]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
 - '[[smart-medicine-cabinet-distribution]]'

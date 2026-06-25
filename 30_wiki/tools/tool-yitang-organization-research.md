@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-organization-research
 title: 组织调研手段：浅中深三层10大评估法
 type: tool
@@ -29,6 +30,11 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡8（组织调研）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
+  - '[[tool-yitang-tech-project-research]]'
+  - '[[tool-yitang-overseas-research]]'
+  - '[[tool-yitang-store-franchise-research]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-b2b-gov-research]]'
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-job-intelligence-research]]"
 - "[[tool-yitang-social-engineering-research]]"

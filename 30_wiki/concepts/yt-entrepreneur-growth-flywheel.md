@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-growth-flywheel
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,6 +22,11 @@ query_triggers:
 - 投入产出再投入
 - 增长结构
 related:
+  - '[[yt-entrepreneur-fundraising]]'
+  - '[[yt-entrepreneur-concentration-analysis]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[yt-entrepreneur-industrial-production]]'
+  - '[[yt-entrepreneur-research-cognition]]'
 - '[[master-systems-thinking]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师

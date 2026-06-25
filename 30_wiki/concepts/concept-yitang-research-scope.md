@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-scope
 title: 调研范围缩小：专注·专业·剥离三原则
 type: concept
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+  - '[[yitang-research-domain-digest]]'
+  - '[[tool-yitang-research-two-dimensional-positioning]]'
+  - '[[tool-yitang-research-exhaust-means]]'
+  - '[[tool-yitang-research-single-point-sniper]]'
+  - '[[tool-yitang-research-follow-map]]'
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-high-level-plan]]"
 - "[[concept-yitang-research-objective]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ci-implement-phase
 title: CI Implement阶段：把洞察嵌入决策——最后一公里
 type: tool
@@ -14,6 +15,11 @@ domain: [yitang, research]
 source_refs:
 - web: CI distribution best practices (CI Alliance)
 related:
+  - '[[dk-c9-batch-trigger-garbage]]'
+  - '[[tool-ci-define-phase]]'
+  - '[[framework-ci-operating-model]]'
+  - '[[tool-yitang-ai-assisted-analysis]]'
+  - '[[tool-indicators-signposts]]'
 - "[[framework-ci-operating-model]]"
 - "[[tool-yitang-research-continuous-tracking]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-shenyang-software-3x-efficiency
 title: '王欢案例：沈阳软件公司三层架构实现3倍效率'
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 - "10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt"
 related:
+  - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-three-tier-dev-architecture]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
