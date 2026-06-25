@@ -108,4 +108,10 @@ related:
 - [[dk/dk-yitang-model-asset-capitalization|组织级模型资产的盘点、定价与迭代]] — yitang 域跨案例合成 DK 卡
 - [[dk/dk-research-identity-craft-for-closed-information|为获取封闭情报设计合法身份]] — research 域跨案例合成 DK 卡
 - [[dk/dk-research-triangulation-stop-rule|多源交叉验证的停止规则]] — research 域跨案例合成 DK 卡
-- `python 90_control/scripts/vault-backup.py bac
+- [[dk/dk-yitang-business-model-risk-over-product-risk|商业模式风险高于产品风险]] — yitang 域跨案例合成 DK 卡
+- [[dk/dk-strategy-correlation-vs-causation-leverage|相关指标 vs 因果抓手]] — strategy 域跨案例合成 DK 卡
+- `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
+
+---
+
+*AI for Business · 人机协作双三角驱动 · 商业判断力 + 商业审美*
