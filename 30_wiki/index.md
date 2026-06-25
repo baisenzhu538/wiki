@@ -89,6 +89,8 @@ related:
 - [[concepts/concept-ai-chair-determines-view|椅子决定视角]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
 - [[tools/tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — 王欢 AI 2041 拆书会 tool 卡（本任务新增）
 - [[concepts/concept-ai-neutrality-bias|中立的暴政]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
+- [[concepts/concept-ai-amara-law-business-judgment|阿马拉定律与商业判断校准]] — 王欢 AI 2041 拆书会 concept 卡（P0 批次新增）
+- [[tools/tool-tech-probability-80-filter|李开复 80% 概率过滤器]] — 王欢 AI 2041 拆书会 tool 卡（P0 批次新增）
 - [[concepts/concept-ai-information-quality-ladder|信息质量阶梯]] — 王欢 AI 2041 拆书会 concept 卡（本任务新增）
 - [[cases/case-compas-racial-bias|COMPAS 再犯算法种族偏见]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
 - [[cases/case-apple-card-gender-bias|Apple Card 信用额度性别争议]] — 王欢 AI 2041 拆书会 case 卡（本任务新增）
