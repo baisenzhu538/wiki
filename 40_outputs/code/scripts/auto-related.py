@@ -6,6 +6,7 @@
     python auto-related.py             # 实际写入
 """
 
+import argparse
 import re, json, sys
 from collections import defaultdict
 from pathlib import Path
@@ -283,7 +284,6 @@ def _scan_cards():
 
 
 if __name__ == "__main__":
-    import argparse
     p = argparse.ArgumentParser()
     p.add_argument("--dry-run", action="store_true", help="预览影响范围，不写入")
     p.add_argument("--verify", action="store_true", help="随机抽检5张已有related的卡片，人工判断推荐质量")
