@@ -98,9 +98,9 @@ related:
 4. **[[case-yitang-hardware-factory-photo]]**：创业者从朋友圈照片角落的工厂铭牌找到代工厂，用“照片 + 供应链访谈”两源验证[conf=0.88, source=case-yitang-hardware-factory-photo]。在找到铭牌并完成供应链确认后即可停止继续社交工程。
 5. **[[case-yitang-pet-fostering-user-research]]**：通过观察用户在没有产品时的替代方案（朋友、宠物店、寄养平台），用“行为证据”校正“用户口头需求”[conf=0.85, source=case-yitang-pet-fostering-user-research]。当替代方案图谱完整且矛盾消失时，即可停止访谈。
 
-## 与现有框架的关系
+## 与其他知识的关联
 
-以下卡片已覆盖部分内容：
+以下框架/工具卡已覆盖部分内容：
 
 - **[[tool-yitang-research-cross-validation]]**：提供“识别关键信息 → 寻找独立来源 → 评估一致性”的三步法，强调必须多源验证。
 - **[[framework-yitang-six-layer-cross-validation]]**：从来源、时间、逻辑、数据、反例、行动六个维度提升信息可信度。
