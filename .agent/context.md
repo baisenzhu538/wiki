@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-26
 active_branch: main
-active_task: "王语嫣完成洪七公 VLM 重提取入口审计；洪七公按 task_20260625_hongqigong-vlm-case-mining-pass.md 对单元模型+科学决策 70 张图做二轮 case-mining VLM 提取；同步等待王语嫣抽查 2 张 AI 2041 P2 整改卡。"
+active_task: "老顽童按 task_20260625_laowantong-vlm-to-cards.md，基于王语嫣标注的 VLM 价值表生产成品卡；P0-A 单元模型域优先，P0-B 科学决策域次之；同步等待王语嫣抽查 2 张 AI 2041 P2 整改卡。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -32,7 +32,7 @@ blockers:
   - "✅ 王欢《AI 2041》全 22 张卡 frontmatter 整改完成：confidence 统一为单一数值（case/tool 0.80，concept/dk 0.78），case/dk 卡 frontmatter 中 source_person/source_context 已移除并迁移到正文；index.md 补齐 4 张遗漏卡；确认文件见 60_feedback/corrections/corr_20260625_laowantong-ai2041-frontmatter-fix.md"
   - "🆕 三域跨案例 synthesis dk 卡 9 张待生产，见 task_20260625_laowantong-synthesis-dk-cards.md；等待王语嫣抽查 2 张确认后启动"
   - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
-  - "🆕 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引，暗知识/案例未充分提取；已发 P0 二轮 case-mining 任务（单元模型 35 + 科学决策 35），见 task_20260625_hongqigong-vlm-case-mining-pass.md 与 diag_20260625_wangyuyan_vlm-reprocess-intake.md"
+  - "🆕 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引；王语嫣已完成独立框架价值标注（见 00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md）；已发老顽童成品卡生产任务 task_20260625_laowantong-vlm-to-cards.md（P0-A 单元模型域优先）"
   - "🆕 跨案例合成任务已完成王语嫣诊断：strategy/research/yitang 三域共产出 9 个跨案例洞察，待老顽童生产 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
