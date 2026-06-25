@@ -39,6 +39,13 @@ related:
 
 ---
 
+## 来源人与来源语境
+
+| 字段 | 内容 |
+|:---|:---|
+| source_person | 王欢（AI 协作域作者、拆书家） / Roblox Developer Forum / 行业报道 |
+| source_context | 本卡以王欢《AI 2041》拆书会第三幕“AI 教育 companion”议题为起点，将 Roblox Text Generation API、Roblox Studio Assistant / MCP Playtest Agent 与教育 AI 市场数据作为独立外部案例，映射到“前意识塑造”“目标函数错配”等王欢框架，避免仅复制书中故事。 |
+
 ## 核心洞察
 
 Roblox 作为覆盖大量未成年用户的 UGC 游戏平台，正在把大语言模型驱动的 AI NPC（Text Generation API）、代码助手（Assistant / Code Assist）和自动化测试代理（Playtest Agent）变成创作者基础设施 [conf=0.85, source=Roblox Developer Forum 2025]。这看起来是「游戏化教育」的加速器，但王欢在拆书会中提出的警告同样适用：**AI 教育伙伴的核心风险不是知识错误，而是「前意识塑造」**——在孩子尚未形成独立判断之前，算法已通过语气、奖励、陪伴方式和人设悄悄塑造其情感模式与价值取向 [conf=0.70, source=王欢原创]。

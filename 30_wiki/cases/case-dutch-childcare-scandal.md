@@ -35,6 +35,13 @@ related:
 
 ---
 
+## 来源人与来源语境
+
+| 字段 | 内容 |
+|:---|:---|
+| source_person | 王欢 / Parlementaire ondervragingscommissie Kinderopvangtoeslag (POK) / Nationale ombudsman / Autoriteit Persoonsgegevens (AP) / CBS |
+| source_context | 王欢《AI 2041》拆书会第208期逐字稿第四幕 §319-321；荷兰官方调查报告《Ongekend onrecht》、国家监察员报告、数据保护局报告及后续 CBS/司法部统计。本卡在王欢逐字稿基础上补充荷兰官方调查结论、CBS 赔偿统计与制度后续修订，避免仅复制书中故事。 |
+
 ## 核心洞察
 
 荷兰税务局（Belastingdienst/Toeslagen）在 2013–2019 年间使用包含“国籍/双国籍”等敏感指标的算法风险模型来识别育儿补贴（kinderopvangtoeslag）欺诈，导致约 26,000 名家长被错误地标记为欺诈者并遭到全额追缴 [conf=0.85, source=Parlementaire ondervragingscommissie Kinderopvangtoeslag, Ongekend onrecht, 2020-12-17]。事件最终促使时任首相马克·吕特（Mark Rutte）领导的第三届内阁于 2021 年 1 月 15 日集体辞职 [conf=0.90, source=Rijksoverheid persconferentie 2021-01-15; Parlement.com]。
