@@ -113,6 +113,7 @@ related:
 - [[dk/dk-strategy-correlation-vs-causation-leverage|相关指标 vs 因果抓手]] — strategy 域跨案例合成 DK 卡
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — strategy 域跨案例合成 DK 卡
 - [[dk/dk-strategy-stage-leverage-mismatch|战略阶段与杠杆错配]] — strategy 域跨案例合成 DK 卡（本任务新增）
+- [[tools/tool-单元模型-单商圈|单商圈模型]] — 一堂单元模型域 tool 卡（本任务新增）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---
