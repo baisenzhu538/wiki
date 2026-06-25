@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-26
 active_branch: main
-active_task: "老顽童按 task_20260625_laowantong-ai2041-frontmatter-fix.md 整改 AI 2041 全 22 张卡 frontmatter；整改通过后启动三域跨案例 synthesis dk 卡 9 张（见 task_20260625_laowantong-synthesis-dk-cards.md）。"
+active_task: "王欢《AI 2041》P2 frontmatter 整改已完成；等待王语嫣抽查 2 张确认。确认后启动三域跨案例 synthesis dk 卡 9 张（见 task_20260625_laowantong-synthesis-dk-cards.md）。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -29,8 +29,8 @@ blockers:
   - "✅ 王欢《AI 2041》P0+P1 14 张完成：P0 5 张 + P1 9 张"
   - "✅ framework-ai-accelerated-strategy-cycle 成本数字置信度已修复：张磊 AMA 教学推演的成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60，卡片整体 confidence 从 0.85/high 调整为 0.75/medium"
   - "✅ 王欢《AI 2041》P1 9 张通过王语嫣 20% 抽样验收；报告见 60_feedback/audit/ai2041-p1-production-audit-20260625.md"
-  - "⚠️ 王欢《AI 2041》P2 8 张有条件通过：2 个 frontmatter schema 问题需整改，见 60_feedback/audit/ai2041-p2-production-audit-20260625.md 与 task_20260625_laowantong-ai2041-frontmatter-fix.md"
-  - "🆕 三域跨案例 synthesis dk 卡 9 张待生产，见 task_20260625_laowantong-synthesis-dk-cards.md；在 AI 2041 frontmatter 整改通过后启动"
+  - "✅ 王欢《AI 2041》P2 8 张 frontmatter 整改完成：confidence 统一为单一数值（case/tool 0.80，concept/dk 0.78），case/dk 卡 frontmatter 中 source_person/source_context 已移除；index.md 补齐 P1 两张遗漏 case 卡；kdo lint 已同步移除对这两个字段的强制检查"
+  - "🆕 三域跨案例 synthesis dk 卡 9 张待生产，见 task_20260625_laowantong-synthesis-dk-cards.md；等待王语嫣抽查 2 张确认后启动"
   - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
   - "🆕 跨案例合成任务已完成王语嫣诊断：strategy/research/yitang 三域共产出 9 个跨案例洞察，待老顽童生产 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
@@ -38,7 +38,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童按 task_20260625_laowantong-ai2041-frontmatter-fix.md 完成 AI 2041 全 22 张卡 frontmatter 整改；王语嫣抽查 2 张确认后，启动三域跨案例 synthesis dk 卡 9 张；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口另排小批次处理。"
+next_session_hint: "王语嫣抽查 2 张 AI 2041 P2 整改卡确认无范围字符串、无自定义 frontmatter 字段后，老顽童启动三域跨案例 synthesis dk 卡 9 张；five-step-domain-digest 和 yitang-research-domain-digest 的 Rule 3 缺口另排小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
