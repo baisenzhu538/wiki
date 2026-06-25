@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-model-asset-capitalization
 title: 组织级模型资产的盘点、定价与迭代
 type: dk
@@ -14,11 +13,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-research-decision-first-mapping]]'
+- '[[dk-yitang-behavior-over-asking]]'
+- '[[dk-yitang-business-model-risk-over-product-risk]]'
+- '[[dk-research-identity-craft-for-closed-information]]'
+- '[[dk-research-triangulation-stop-rule]]'
+- '[[dk-research-decision-first-mapping]]'
 - "[[yitang-domain-digest]]"
 - "[[modeling-weapon-library]]"
 - "[[tool-radar-chart-modeling]]"

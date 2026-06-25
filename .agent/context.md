@@ -30,7 +30,7 @@ blockers:
   - "✅ framework-ai-accelerated-strategy-cycle 成本数字置信度已修复：张磊 AMA 教学推演的成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60，卡片整体 confidence 从 0.85/high 调整为 0.75/medium"
   - "✅ 王欢《AI 2041》P1 9 张通过王语嫣 20% 抽样验收；报告见 60_feedback/audit/ai2041-p1-production-audit-20260625.md"
   - "✅ 王欢《AI 2041》全 22 张卡 frontmatter 整改完成：confidence 统一为单一数值（case/tool 0.80，concept/dk 0.78），case/dk 卡 frontmatter 中 source_person/source_context 已移除并迁移到正文；index.md 补齐 4 张遗漏卡；确认文件见 60_feedback/corrections/corr_20260625_laowantong-ai2041-frontmatter-fix.md"
-  - "✅ 三域跨案例 synthesis dk 卡 9 张完成：strategy 3 张 + research 3 张 + yitang 3 张；已入 30_wiki/index.md 与三域 domain digest；等待王语嫣审核"
+  - "✅ 三域跨案例 synthesis dk 卡 9 张返工完成：补产/确认 dk-strategy-stage-leverage-mismatch；移除 9 张卡 frontmatter 中 dark_knowledge_type；dk-yitang-behavior-over-asking 预警信号补到 5 条；dk-yitang-model-asset-capitalization 支撑案例单独成节；lint 与 YAML 自检通过；等待王语嫣复核"
   - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
   - "🆕 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引；王语嫣已完成独立框架价值标注（见 00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md）；已发老顽童成品卡生产任务 task_20260625_laowantong-vlm-to-cards.md（P0-A 单元模型域优先）"
   - "✅ 跨案例合成任务已完成：strategy/research/yitang 三域 9 个洞察已沉淀为 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
