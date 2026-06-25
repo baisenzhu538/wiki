@@ -50,7 +50,7 @@ def parse_frontmatter(text: str) -> dict | None:
                 fm[k] = v
     # Multi-line YAML lists
     for lk in ["related", "domain", "source_refs", "tags"]:
-        if lk in fm and fm[lk] == []:
+        if lk in fm and (fm[lk] == [] or fm[lk] == ""):
             pat = re.compile(rf"^{lk}:\n((?:\s+-.+\n?)*)", re.MULTILINE)
             m = pat.search(text[3:end])
             if m:
@@ -65,11 +65,14 @@ def get_related(fm: dict) -> set:
         rel = [rel]
     ids = set()
     for r in rel:
+        r = r.strip()
+        if not r:
+            continue
         m = re.search(r'\[\[([^\]|]+)', r)
         if m:
             ids.add(m.group(1).strip())
         else:
-            ids.add(r.strip())
+            ids.add(r)
     return ids
 
 
