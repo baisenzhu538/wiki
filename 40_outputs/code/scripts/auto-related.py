@@ -221,7 +221,7 @@ def verify():
         body_preview = card["text"][:200].replace("\n", " ").strip()
         print(f"{'='*72}")
         print(f"#{i}  {card['id']}  [{card['type']}]  {card.get('title','')[:60]}")
-        print(f"  正文预览: {body_preview}...")
+        print(f"  正文预览: {body_preview}...".encode(sys.stdout.encoding, errors="replace").decode(sys.stdout.encoding))
         print(f"  推荐 {len(related_ids)} 张关联卡:")
 
         c_idx = id_to_idx[card["id"]]
@@ -237,9 +237,11 @@ def verify():
             r_body = r_card["text"][:150].replace("\n", " ").strip()
             score = sims[r_idx]
             bar = "█" * max(1, int(score * 40))
-            print(f"    [[{rid}]]  [{r_card['type']}]  sim={score:.3f} {bar}")
-            print(f"      {r_card.get('title','')[:60]}")
-            print(f"      {r_body}...")
+            line1 = f"    [[{rid}]]  [{r_card['type']}]  sim={score:.3f} {bar}"
+            line2 = f"      {r_card.get('title','')[:60]}"
+            line3 = f"      {r_body}..."
+            for line in [line1, line2, line3]:
+                print(line.encode(sys.stdout.encoding, errors="replace").decode(sys.stdout.encoding))
             print()
 
     print(f"{'='*72}")
