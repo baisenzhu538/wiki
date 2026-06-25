@@ -74,6 +74,14 @@ related:
 
 > 更多案例见 `00_inbox/战略专题/` 冉鹏逐字稿
 
+## 跨案例合成暗知识
+
+| 卡 | 一句话 |
+|:--|:--|
+| `dk-strategy-stage-leverage-mismatch` | 战略阶段与杠杆错配——在错误的时间追求错误的杠杆 |
+| `dk-strategy-correlation-vs-causation-leverage` | 相关指标 vs 因果抓手——不要把容易观测的指标当成增长抓手 |
+| `dk-strategy-organization-strategy-mismatch` | 组织能力与战略方向不匹配——完美规划也可能被执行摧毁 |
+
 ## 跨域桥接（精益 · 五步法 · 决策 · AI 协作）
 
 | 卡 | 一句话 |
