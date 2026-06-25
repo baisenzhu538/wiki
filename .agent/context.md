@@ -39,7 +39,7 @@ blockers:
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童优先执行 task_20260625_laowantong-vlm-to-cards.md P0-A 单元模型域成品卡；完成后王语嫣 20% 抽样验收；王语嫣同步抽查 2 张 AI 2041 P2 整改卡；VLM 任务与 synthesis dk 9 张、Rule 3 缺口按队列推进。"
+next_session_hint: "老顽童优先执行 task_20260625_laowantong-vlm-to-cards.md P0-A 单元模型域成品卡；完成后王语嫣 20% 抽样验收；王语嫣同步抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张；Rule 3 缺口另排小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

@@ -20,37 +20,29 @@ for root,dirs,files in os.walk(wiki):
 
 triage_path=os.path.join(base,'_triage','vlm_framework_value_triage.md')
 with open(triage_path,'r',encoding='utf-8') as fh:
-    triage=fh.read()
+    lines=fh.readlines()
 
-sections = re.split(r'\n##\s+', triage)
 rows=[]
 current_domain=''
-for sec in sections:
-    if not sec.strip():
+for line in lines:
+    line=line.rstrip('\n')
+    if line.startswith('## '):
+        current_domain=line[3:].strip()
+        # remove count suffix like （35 张）
+        current_domain=re.sub(r'[（(]\d+[^）)]*[）)]','',current_domain).strip()
         continue
-    lines=sec.splitlines()
-    header=lines[0].strip()
-    in_table=False
-    for line in lines:
-        if line.startswith('| 文件名'):
-            in_table=True
-            continue
-        if in_table and line.startswith('|'):
-            if re.match(r'\|\s*[:-]+\s*\|', line):
-                continue
-            cells=[c.strip() for c in line.strip('|').split('|')]
-            if len(cells)>=4:
-                rows.append({
-                    'domain': current_domain,
-                    'filename': cells[0],
-                    'title': cells[1],
-                    'action': cells[2],
-                    'target': cells[3]
-                })
-        else:
-            in_table=False
-    if not any(line.startswith('| 文件名') for line in lines):
-        current_domain=header
+    if line.startswith('| 文件名'):
+        continue
+    if line.startswith('|') and not re.match(r'\|\s*[:-]+\s*\|', line):
+        cells=[c.strip() for c in line.strip('|').split('|')]
+        if len(cells)>=4 and cells[0] and cells[0]!='文件名':
+            rows.append({
+                'domain': current_domain,
+                'filename': cells[0],
+                'title': cells[1],
+                'action': cells[2],
+                'target': cells[3]
+            })
 
 relevant_actions={'new-framework','new-tool','new-concept','new-dk','case','dk','enrich','enrich-case','new_or_enrich','review'}
 records=[r for r in rows if any(a in r['action'] for a in relevant_actions)]
