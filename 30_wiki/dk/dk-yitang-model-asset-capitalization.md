@@ -2,7 +2,6 @@
 id: dk-yitang-model-asset-capitalization
 title: 组织级模型资产的盘点、定价与迭代
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

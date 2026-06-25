@@ -2,7 +2,6 @@
 id: dk-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -2,7 +2,6 @@
 id: dk-yitang-business-model-risk-over-product-risk
 title: 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -2,7 +2,6 @@
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

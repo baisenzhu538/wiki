@@ -2,7 +2,6 @@
 id: dk-research-decision-first-mapping
 title: 研究活动如何服务决策
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

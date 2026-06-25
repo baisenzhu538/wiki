@@ -2,7 +2,6 @@
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

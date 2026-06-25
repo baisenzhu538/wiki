@@ -2,7 +2,6 @@
 id: dk-research-identity-craft-for-closed-information
 title: 为获取封闭情报设计合法身份
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋

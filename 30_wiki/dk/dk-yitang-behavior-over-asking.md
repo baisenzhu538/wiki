@@ -2,7 +2,6 @@
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
-dark_knowledge_type: heuristic
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
