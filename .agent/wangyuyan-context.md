@@ -268,14 +268,16 @@ status: "completed"
     - 诊断记录模板新增「案例候选」节
     - 铁律新增第 13 条：入口审计必须扫描 ≥200 字叙事段落
   - 试用约定：在下一个新域入口审计中试用，效果好的固化为标准步骤
-- 2026-06-25：完成洪七公 VLM 结构化重提取入口审计
+- 2026-06-25：完成洪七公 VLM 结构化重提取入口审计与价值标注
   - 诊断报告：`60_feedback/diagnosis/diag_20260625_wangyuyan_vlm-reprocess-intake.md`
+  - 价值标注表：`00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md`
   - 素材：172 张 VLM 描述（单元模型 35 + 科学决策 35 + 泛产品设计 35 + 个人修炼 15 + 其他 52）
   - 核心发现：
     - 一轮 VLM prompt 只做视觉描述，未提取暗知识、案例、失败模式、操作步骤
     - 单元模型域尤其吃亏：35 张图多数被压缩为「表格结构说明」
     - 已有 wiki 卡片与 VLM 主题大量重叠，直接生产会重复
-  - 已下达任务：`60_feedback/tasks/task_20260625_hongqigong-vlm-case-mining-pass.md`（二轮 case-mining 提取，P0：单元模型+科学决策 70 张）
+  - 已下达任务：`60_feedback/tasks/task_20260625_laowantong-vlm-to-cards.md`（老顽童基于标注表生产成品卡；P0-A 单元模型域优先）
+  - 案例挖掘规则已嵌入该任务：每张 case 卡生产前必须对原图/OCR/VLM 描述做 ≥200 字叙事段落扫描，完整度 ≥4 分方可立项
 - 2026-06-25：完成王欢《AI 2041》P2 8 张卡 20% 抽样六层交叉验证
   - 验收报告：`60_feedback/audit/ai2041-p2-production-audit-20260625.md`
   - 抽样：3 张（`concept-ai-information-quality-ladder`、`dk-ai-social-progress-not-automatic`、`case-ai-job-displacement-wef`）

@@ -1,7 +1,7 @@
 # KDO Vault 状态快照
 
-> 自动生成：2026-06-24 20:26 UTC
-> 卡片总数：**1953** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 506 | 缺 source: 1290
+> 自动生成：2026-06-25 22:24 UTC
+> 卡片总数：**1979** | draft: 612 | needs-review: 62 | 低置信度(<0.7): 506 | 缺 source: 1316
 
 ## 域 × 类型 矩阵
 
@@ -202,28 +202,14 @@
 | 软件交付 | 1 | 0.85 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 销售流程 | 1 | 0.80 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## 最近 2 天变更（11 张）
-
-### 06-23
-
-- `ai-collaboration-domain-digest` [index] 域摘要：AI 协作方法论（王欢 · Harness Engineering）  (conf=0.85, domain=ai-collaboration,yitang)
-- `concept-feishu-api-pagination-trap` [concept] 飞书API分页陷阱——静默截断比报错更危险  (conf=0.95, domain=feishu,content-extraction,publishing,yitang)
-- `concept-streaming-extraction-pattern` [concept] 流式提取模式——浏览器虚拟滚动到API分页的映射  (conf=0.90, domain=feishu,content-extraction,publishing,architecture)
-- `feishu-docx-pagination-extraction` [skill] 飞书 Docx API 分页安全提取 + 流式处理模式  (conf=0.95, domain=feishu,content-extraction,publishing)
-- `framework-demand-lean-bridge` [framework] 需求判断与精益验证的衔接  (conf=0.82, domain=)
-- `framework-five-step-lean-interface` [framework] 五步法与精益验证的接口  (conf=0.85, domain=)
-- `framework-lean-four-principles` [framework] 精益创业低成本验证四大原则  (conf=0.88, domain=)
-- `framework-lean-pivot-decision` [framework] 精益验证结果如何触发战略/产品 pivot  (conf=0.85, domain=)
-- `framework-strategy-lean-validation` [framework] 战略假设的精益验证流程  (conf=0.85, domain=)
-- `lean-startup-domain-digest` [index] 域摘要：精益创业方法论  (conf=0.90, domain=lean-startup,yitang)
-- `yitang-domain-digest` [index] 域摘要：一堂知识体系总目  (conf=0.90, domain=yitang)
+## 最近 2 天变更（0 张）
 
 ## 质量提示
 
 - draft 卡: 612 张
 - needs-review: 62 张
 - 低置信度(<0.7): 506 张
-- 缺 source_refs: 1290 张
+- 缺 source_refs: 1316 张
 
 ### 最重的域
 
