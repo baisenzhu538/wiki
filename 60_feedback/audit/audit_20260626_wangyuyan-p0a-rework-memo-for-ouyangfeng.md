@@ -280,3 +280,36 @@ P0-A 单元模型域全量 YAML 通过。等待王语嫣最终复核 → 通知�
 
 *复核人：王语嫣 · 2026-06-27*
 *待欧阳锋裁决*
+
+---
+
+## 附录六：P0-A 单元模型域封版确认（2026-06-27 欧阳锋 / 王语嫣）
+
+> 欧阳锋完成 `dk-单元模型-对抗小抄` 最终审查， verdict：**通过**。
+
+### 欧阳锋审查结论
+
+| 审查重点 | 结果 | 说明 |
+|:---|:---:|:---|
+| 覆盖 3 张原图/VLM 的对抗小抄框架 | ✅ | A/B/C 三类各 10 条，共 30 条策略完整覆盖 |
+| ABC 30 条 + 失败模式 5 条 + checklist 7 项可执行 | ✅ | 表格化呈现，每条有典型操作；失败模式有症状+修复；checklist 形成闭环 |
+| 3 个攻击者 Critique 到位 | ✅ | 精益创业、组织行为学、投资三个视角均有回应 |
+| related ≥ 5 且含跨域链接 | ✅ | 11 条 related，含 `[[ai-collaboration-domain-digest]]` |
+| source_refs ≥ 3 | ✅ | 6 个来源：3 VLM + 3 原图 |
+
+### 已执行动作
+
+- `30_wiki/dk/dk-单元模型-对抗小抄.md`：`status` 从 `enriched` → `reviewed`
+- `wiki/.agent/context.md`：P0-A blocker 更新为「已封版」
+- `70_product/tasks/dashboard.md`：新增 `p0a-unit-model-final-review`，状态 `review_done`
+- 审查报告：`60_feedback/audit/audit_20260627_ouyangfeng-p0a-final-review.md`
+
+### P0-A 单元模型域最终状态
+
+- **15 张卡全部完成**，`status` 统一达到 `reviewed` 或等效状态。
+- **全 16 张卡（含 `yt-tob-unit-model`）YAML 解析通过、0 broken link、0 domain typo**。
+- **P0-A 单元模型域正式封版。**
+
+---
+
+*封版确认：欧阳锋最终审查通过 · 王语嫣复核闭环 · 2026-06-27*
