@@ -24,12 +24,13 @@ related:
   - '[[ocr-一堂-单元模型-对抗小抄]]'
   - '[[ocr-一堂-单元模型-对抗小抄02]]'
   - '[[case-modeling-process-sop-examples]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[dk-单元模型-规模对抗实操难点]]"
-- "[[tool-单元模型-壁垒预判]]"
-- "[[framework-单元模型-外部对抗地图]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[dk-单元模型-规模对抗实操难点]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[framework-单元模型-外部对抗地图]]"
+review_date: "2026-06-27"
 ---
 
 # 单元模型对抗小抄

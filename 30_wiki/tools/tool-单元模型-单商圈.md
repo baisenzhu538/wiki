@@ -21,10 +21,10 @@ related:
   - '[[concept-最简单元模型]]'
   - '[[tool-单元模型-单城市]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-lean-abcd-model]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-lean-abcd-model]]"
 ---
 
 # 单元模型：单商圈模型
