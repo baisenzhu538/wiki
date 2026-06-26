@@ -2767,6 +2767,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-multi-agent-research-architecture]]
 - [[tools/tool-agent-research-swarm]]
 
+## [[concepts/bad/link.md|test]]
+- [[_test_backslash]]
+
 ## [[contingency-decision-making]]
 - [[concepts/ai-learning-closed-loop]]
 - [[concepts/tool-一堂-hypothesis-validation-three-axe]]

@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-26T20:05:39+00:00_
+_Last updated: 2026-06-26T20:18:01+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `30_wiki/frameworks/xingangwan-pharma-business-formulas.md`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
@@ -30,6 +30,7 @@ _Last updated: 2026-06-26T20:05:39+00:00_
 - [[README|README]] — source no source
 - [[research_methodology|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source `src_20260502_7d7c1b7c`
 - [[紫鲸ai_智能体工作流平台_深度分析与产品设计|紫鲸AI_智能体工作流平台_深度分析与产品设计]] — source `src_20260501_4eee4e95`
+- [[test|_test_backslash]] — source no source
 - [[case-ai-agent-milestone-design|case-ai-agent-milestone-design]] — source no source
 - [[case-ai-assisted-review|案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[case-ai-companion-emotional|AI 情感陪伴的市场与伦理]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
