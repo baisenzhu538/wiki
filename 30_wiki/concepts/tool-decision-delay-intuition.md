@@ -4,7 +4,7 @@ title: 技能：延迟直觉法
 type: tool
 status: draft
 domain:
-- decision- 决策
+- decision-making
 - 认知
 - 个人管理
 source_person: 消化全库后提炼

@@ -4,7 +4,7 @@ title: 技能：团队决策外部视角法
 type: tool
 status: draft
 domain:
-- decision- 决策
+- decision-making
 - 团队
 - 噪声减少
 source_person: 消化全库后提炼

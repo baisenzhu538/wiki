@@ -4,7 +4,7 @@ title: 技能：12种认知偏差完整自检
 type: tool
 status: draft
 domain:
-- decision- 决策
+- decision-making
 - 认知
 - 心理学
 source_person: 消化全库后提炼
