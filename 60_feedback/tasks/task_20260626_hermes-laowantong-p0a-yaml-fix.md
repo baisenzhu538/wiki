@@ -155,3 +155,43 @@ sys.exit(1 if fail else 0)
 - 审计备忘已更新：`60_feedback/audit/audit_20260626_wangyuyan-p0a-rework-memo-for-ouyangfeng.md`
 - `.agent/context.md` 已同步更新。
 - **下一步**：王语嫣复核 YAML + broken link → 通知欧阳锋审查 `dk-单元模型-对抗小抄` → 封版。
+
+---
+
+## 复核记录（2026-06-27 王语嫣）
+
+> 王语嫣独立运行 Python 脚本（`90_control/scripts/check_p0a_yaml.py`）复核，结果：**未全部通过**。
+
+### 复核结果
+
+| 检查项 | 通过数 | 失败数 | 说明 |
+|:---|:---:|:---:|:---|
+| YAML 解析 | 14/16 | 2 | `framework-TCPR底层网络协议`、`case-unit-model-gashapon` 仍有 related 列表缩进断裂 |
+| Broken link | 16/16 | 0 | 无死链 |
+| Domain typo | — | 1 | `yt-tob-unit-model.md` 的 `domain: yitang- yitang` 确认是 typo，应改为 `yitang` |
+
+### 仍失败的 2 张卡详情
+
+**`framework-TCPR底层网络协议.md`**
+- 失败位置：第 24 行 `- "[[yitang-domain-digest]]"`
+- 原因：前 5 个 related 项正确缩进，第 6 项起未缩进，YAML 解析失败
+- 修复：将第 24-29 行的相关项统一缩进 2 个空格
+
+**`case-unit-model-gashapon.md`**
+- 失败位置：第 24 行 `- "[[yitang-domain-digest]]"`
+- 原因：同上，related 列表缩进断裂
+- 修复：将第 24-29 行的相关项统一缩进 2 个空格
+
+### 待确认/修复项
+
+1. **修复 2 张卡 YAML 缩进**（老顽童）
+2. **确认并修复 `yt-tob-unit-model.md` 的 domain typo**：`yitang- yitang` → `yitang`（老顽童修改后由王语嫣复核）
+
+### 复核结论
+
+- **P0-A 单元模型域暂不能通知欧阳锋审查**，需等上述 3 项（2 YAML + 1 typo）修复后再复核。
+- 其余 14 张卡 YAML 通过、broken link 全清，质量状态良好。
+
+---
+
+*复核人：王语嫣 | 日期：2026-06-27*
