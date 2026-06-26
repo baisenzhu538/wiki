@@ -6,7 +6,7 @@ title: To B 单元模型选择与跑通
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
+  - yitang
   - entrepreneurship
   - b2b
   - business-strategy

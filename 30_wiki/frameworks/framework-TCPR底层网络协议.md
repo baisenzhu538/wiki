@@ -21,12 +21,12 @@ related:
   - '[[concept-最简单元模型]]'
   - '[[framework-单元模型-外部对抗地图]]'
   - '[[framework-TCPR皇冠模型]]'
-- "[[yitang-domain-digest]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[case-yitang-weekly-modeling-engine]]"
+  - "[[yitang-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[case-yitang-weekly-modeling-engine]]"
 ---
 
 # TCP-R 模型：商业管理世界的底层网络协议

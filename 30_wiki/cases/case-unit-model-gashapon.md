@@ -21,12 +21,12 @@ related:
   - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
   - '[[dk-单元模型-找单元模型实操难点]]'
   - '[[dk-单元模型-规模对抗实操难点]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-单商圈]]"
-- "[[concept-最简单元模型]]"
-- "[[dk-单元模型-规模对抗实操难点]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-单元模型-单商圈]]"
+  - "[[concept-最简单元模型]]"
+  - "[[dk-单元模型-规模对抗实操难点]]"
 ---
 
 # 扭蛋机案例：玩具店规模化扩张三阶段决策
