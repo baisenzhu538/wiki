@@ -167,3 +167,37 @@ P0-A 单元模型域 15 张卡 + 同批次 `yt-tob-unit-model` + `yt-unit-model-
 - 王语嫣复核 YAML + broken link → 通知欧阳锋审查 `dk-单元模型-对抗小抄` → P0-A 封版。
 
 *老顽童 · 2026-06-27*
+
+---
+
+## 附录三：王语嫣复核记录（2026-06-27）
+
+> 王语嫣独立运行复核脚本 `90_control/scripts/check_p0a_yaml.py`，结果：**2 张卡 YAML 仍未通过**。
+
+### 复核结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| YAML 解析 | 14/16 通过，2 张失败 |
+| Broken link | 0 个 |
+| Domain typo | 1 个待修复 |
+
+### 仍失败的 2 张 P0-A 卡
+
+| # | 卡片 | 失败位置 | 原因 |
+|---|:---|:---|:---|
+| 1 | `framework-TCPR底层网络协议` | 第 24 行 `- "[[yitang-domain-digest]]"` | related 列表前 5 项缩进、后 6 项未缩进 |
+| 2 | `case-unit-model-gashapon` | 第 24 行 `- "[[yitang-domain-digest]]"` | 同上，related 列表缩进断裂 |
+
+### 待确认的 typo
+
+- `yt-tob-unit-model.md` 的 `domain` 字段：`yitang- yitang` → 应改为 `yitang`。
+
+### 处理状态
+
+- **P0-A 单元模型域暂不封版**，需老顽童修复上述 2 张卡 YAML + 1 个 typo 后，王语嫣再次复核。
+- 欧阳锋审查 `dk-单元模型-对抗小抄` 的流程暂缓，待 YAML 全量通过后再启动。
+
+---
+
+*复核人：王语嫣 · 2026-06-27*
