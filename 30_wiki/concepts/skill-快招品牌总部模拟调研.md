@@ -8,7 +8,7 @@ title: 技能：快招品牌总部模拟调研
 type: "tool"
 domain:
   - entrepreneurship- product
-- business-strategy
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2

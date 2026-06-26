@@ -8,8 +8,8 @@ title: 技能：敏捷发布快速迭代搭建体系
 type: "tool"
 domain:
   - learning-methodology- product
-- finance-legal
-- business-strategy
+  - finance-legal
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2

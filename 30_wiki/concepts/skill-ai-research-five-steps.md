@@ -9,8 +9,8 @@ status: draft
 domain:
   - ai-collaboration
   - yitang- AI
-- 调研
-- 信息素养
+  - 调研
+  - 信息素养
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地-口述，2026-06-06
 source_refs:

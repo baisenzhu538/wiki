@@ -6,9 +6,9 @@ title: 项目管理
 type: concept
 domain:
   - management- product
-- ai-saas
-- management
-- yitang
+  - ai-saas
+  - management
+  - yitang
 status: draft
 pipeline:
 - confidence-source-cited

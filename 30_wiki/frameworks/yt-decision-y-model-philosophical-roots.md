@@ -8,7 +8,7 @@ confidence: 0.82
 trust_level: medium-high
 domain:
   - decisionsource_refs:
-- yt-decision-y-model
+  - yt-decision-y-model
 academic_refs:
   - "戴国斌.基于知行合一的管理者战略素质理论模型与实证研究.管理学报,2012(5)"
   - "车汉澍.求理于心的知行合一——阳明心学企业管理实践.2025"

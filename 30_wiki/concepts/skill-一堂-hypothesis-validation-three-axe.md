@@ -5,7 +5,8 @@ title: "技能：假设验证三板斧"
 type: tool
 status: enriched
 domain:
-  - learning-methodologysource_person: Truman
+  - learning-methodology
+source_person: Truman
 source_context: 一堂关键假设课
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt

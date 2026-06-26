@@ -5,7 +5,8 @@ title: "技能：光谱模型定位法"
 type: tool
 status: enriched
 domain:
-  - learning-methodologysource_person: Truman
+  - learning-methodology
+source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
 - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt

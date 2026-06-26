@@ -6,10 +6,10 @@ title: 团队知识管理
 type: concept
 domain:
   - management- management
-- product
-- ai-saas
-- yitang
-- kdo
+  - product
+  - ai-saas
+  - yitang
+  - kdo
 status: enriched
 pipeline:
 - confidence-source-cited

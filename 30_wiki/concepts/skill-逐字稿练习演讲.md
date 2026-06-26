@@ -8,7 +8,7 @@ title: 技能：逐字稿练习演讲
 type: "tool"
 domain:
   - content-production- design
-- yitang
+  - yitang
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9

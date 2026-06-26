@@ -8,7 +8,7 @@ title: 技能：自我反馈修正笔记姿势
 type: "tool"
 domain:
   - content-production- management
-- yitang
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f

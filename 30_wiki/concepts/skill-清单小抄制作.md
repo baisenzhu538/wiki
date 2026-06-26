@@ -8,9 +8,9 @@ title: 技能：清单小抄制作
 type: "tool"
 domain:
   - learning-methodology- management
-- kdo
-- yitang
-- business-strategy
+  - kdo
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

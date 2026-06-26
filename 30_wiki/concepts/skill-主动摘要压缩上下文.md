@@ -8,8 +8,8 @@ title: 技能：主动摘要压缩上下文
 type: "tool"
 domain:
   - learning-methodology- ai-saas
-- management
-- yitang
+  - management
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

@@ -8,8 +8,8 @@ title: 技能：制作行业化要素检查清单
 type: "tool"
 domain:
   - learning-methodology- product
-- design
-- business-strategy
+  - design
+  - business-strategy
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

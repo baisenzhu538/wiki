@@ -8,10 +8,10 @@ title: 技能：建立策略-要素映射表设计对抗策略
 type: "tool"
 domain:
   - learning-methodology- management
-- product
-- business-strategy
-- design
-- decision-making
+  - product
+  - business-strategy
+  - design
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

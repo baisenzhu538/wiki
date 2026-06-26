@@ -8,8 +8,8 @@ title: 技能：获取他人反馈优化笔记
 type: "tool"
 domain:
   - content-production- entrepreneurship
-- yitang
-- business-strategy
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f

@@ -8,7 +8,7 @@ title: 技能：ReACT行动推理循环
 type: "tool"
 domain:
   - ai-collaboration- ai-saas
-- yitang
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

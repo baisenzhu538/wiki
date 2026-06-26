@@ -8,7 +8,7 @@ title: 技能：使用优先级快筛卡锁定核心矛盾
 type: "tool"
 domain:
   - learning-methodology- design
-- decision-making
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

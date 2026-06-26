@@ -8,8 +8,8 @@ title: 技能：三阶追问法穷尽决策要素
 type: "tool"
 domain:
   - decision- management
-- decision-making
-- yitang
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a

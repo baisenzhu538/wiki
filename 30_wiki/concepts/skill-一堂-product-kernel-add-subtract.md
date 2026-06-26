@@ -5,7 +5,8 @@ title: "技能：产品内核加减法"
 type: tool
 status: enriched
 domain:
-  - learning-methodologysource_person: Truman
+  - learning-methodology
+source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
 - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt

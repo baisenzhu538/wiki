@@ -8,8 +8,8 @@ title: 技能：用清单体记备忘笔记
 type: "tool"
 domain:
   - learning-methodology- management
-- decision-making
-- yitang
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f

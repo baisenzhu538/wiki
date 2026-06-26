@@ -8,8 +8,8 @@ title: 技能：复盘推演练习
 type: "tool"
 domain:
   - learning-methodology- kdo
-- decision-making
-- yitang
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

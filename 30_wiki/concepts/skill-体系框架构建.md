@@ -8,9 +8,9 @@ title: 技能：体系框架构建
 type: "tool"
 domain:
   - learning-methodology- product
-- management
-- design
-- yitang
+  - management
+  - design
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

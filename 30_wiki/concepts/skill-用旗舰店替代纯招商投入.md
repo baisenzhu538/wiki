@@ -8,8 +8,8 @@ title: 技能：用旗舰店替代纯招商投入
 type: "tool"
 domain:
   - entrepreneurship- product
-- design
-- business-strategy
+  - design
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2

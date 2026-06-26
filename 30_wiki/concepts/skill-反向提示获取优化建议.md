@@ -8,9 +8,9 @@ title: 技能：反向提示获取优化建议
 type: "tool"
 domain:
   - learning-methodology- product
-- ai-saas
-- master
-- yitang
+  - ai-saas
+  - master
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

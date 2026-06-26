@@ -8,7 +8,7 @@ title: 技能：人生红点战略对齐
 type: "tool"
 domain:
   - personal-growth- decision-making
-- yitang
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

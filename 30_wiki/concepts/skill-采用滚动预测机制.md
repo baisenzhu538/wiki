@@ -8,10 +8,10 @@ title: 技能：采用滚动预测机制
 type: "tool"
 domain:
   - entrepreneurship- management
-- product
-- business-strategy
-- design
-- decision-making
+  - product
+  - business-strategy
+  - design
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

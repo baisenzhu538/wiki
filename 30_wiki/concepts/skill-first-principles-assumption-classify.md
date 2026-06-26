@@ -7,8 +7,8 @@ type: "tool"
 status: draft
 domain:
   - learning-methodology- 创新
-- 思维
-- 产品
+  - 思维
+  - 产品
 source_person: 消化全库后提炼
 source_context: 基于master-first-principles框架提炼，2026-05-18
 source_refs:

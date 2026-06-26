@@ -8,9 +8,9 @@ title: 技能：通过综合案例沙盘走通全流程
 type: "tool"
 domain:
   - decision- product
-- design
-- business-strategy
-- decision-making
+  - design
+  - business-strategy
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

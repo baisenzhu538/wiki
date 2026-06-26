@@ -8,8 +8,8 @@ title: 技能：稀缺资源机会成本比对法
 type: "tool"
 domain:
   - decision- management
-- decision-making
-- yitang
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a

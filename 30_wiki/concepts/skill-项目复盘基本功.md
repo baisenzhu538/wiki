@@ -8,10 +8,10 @@ title: 技能：项目复盘基本功
 type: "tool"
 domain:
   - learning-methodology- management
-- business-strategy
-- design
-- yitang
-- entrepreneurship
+  - business-strategy
+  - design
+  - yitang
+  - entrepreneurship
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9

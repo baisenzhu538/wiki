@@ -8,10 +8,10 @@ title: 技能：渐进式披露上下文
 type: "tool"
 domain:
   - learning-methodology- management
-- product
-- ai-saas
-- design
-- yitang
+  - product
+  - ai-saas
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

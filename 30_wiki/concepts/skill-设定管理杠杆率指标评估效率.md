@@ -8,8 +8,8 @@ title: 技能：设定管理杠杆率指标评估效率
 type: "tool"
 domain:
   - decision- management
-- design
-- business-strategy
+  - design
+  - business-strategy
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

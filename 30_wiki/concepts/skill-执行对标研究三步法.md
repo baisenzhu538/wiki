@@ -8,7 +8,7 @@ title: 技能：执行对标研究三步法
 type: "tool"
 domain:
   - entrepreneurship- product
-- design
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

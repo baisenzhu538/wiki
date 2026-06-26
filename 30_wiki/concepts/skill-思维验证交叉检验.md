@@ -8,9 +8,9 @@ title: 技能：思维验证交叉检验
 type: "tool"
 domain:
   - learning-methodology- product
-- ai-saas
-- decision-making
-- yitang
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

@@ -9,8 +9,8 @@ status: draft
 domain:
   - ai-collaboration
   - yitang- AI
-- 落地
-- 评估
+  - 落地
+  - 评估
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:

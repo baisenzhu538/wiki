@@ -18,7 +18,8 @@ related:
   - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
 domain:
   - ai-collaboration
-  - yitangsource_person: 半肥猫
+  - yitang
+source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 tools_required:
   - 文本编辑工具

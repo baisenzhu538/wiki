@@ -8,9 +8,9 @@ title: 技能：区分获客渠道计算单元ROI
 type: "tool"
 domain:
   - learning-methodology- product
-- decision-making
-- yitang
-- business-strategy
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9

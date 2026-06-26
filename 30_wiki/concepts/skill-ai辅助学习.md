@@ -9,11 +9,11 @@ type: "tool"
 domain:
   - ai-collaboration
   - yitang- product
-- ai-saas
-- design
-- yitang
-- entrepreneurship
-- decision-making
+  - ai-saas
+  - design
+  - yitang
+  - entrepreneurship
+  - decision-making
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

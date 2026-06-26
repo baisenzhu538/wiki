@@ -5,7 +5,8 @@ title: "一堂产品内核画布应用技能"
 type: tool
 status: enriched
 domain:
-  - learning-methodologysource_person: 一堂·Truman
+  - learning-methodology
+source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
 - 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt

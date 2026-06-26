@@ -8,9 +8,9 @@ title: 技能：提示词结构化迭代
 type: "tool"
 domain:
   - learning-methodology- product
-- ai-saas
-- management
-- yitang
+  - ai-saas
+  - management
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

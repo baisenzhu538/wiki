@@ -6,7 +6,8 @@ type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitangsource_person: 消化全库后提炼
+  - yitang
+source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
 source_refs: []
 wiki_refs:

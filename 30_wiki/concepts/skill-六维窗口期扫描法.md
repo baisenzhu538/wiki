@@ -8,12 +8,12 @@ title: 技能：六维窗口期扫描法
 type: "tool"
 domain:
   - learning-methodology- management
-- product
-- business-strategy
-- ai-saas
-- yitang
-- supply-chain
-- decision-making
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
+  - supply-chain
+  - decision-making
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a

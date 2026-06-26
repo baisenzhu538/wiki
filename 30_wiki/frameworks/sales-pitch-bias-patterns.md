@@ -7,8 +7,8 @@ type: framework
 status: enriched
 domain:
   - yitang- business-strategy
-- due-diligence
-- vendor-assessment
+  - due-diligence
+  - vendor-assessment
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 tags:

@@ -7,8 +7,8 @@ type: "tool"
 status: draft
 domain:
   - decision- 决策
-- 认知
-- 心理学
+  - 认知
+  - 心理学
 source_person: 消化全库后提炼
 source_context: 基于master-cognitive-bias-checklist框架提炼，2026-05-18
 source_refs:

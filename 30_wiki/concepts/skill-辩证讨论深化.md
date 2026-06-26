@@ -8,9 +8,9 @@ title: 技能：辩证讨论深化
 type: "tool"
 domain:
   - learning-methodology- product
-- management
-- master
-- yitang
+  - management
+  - master
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

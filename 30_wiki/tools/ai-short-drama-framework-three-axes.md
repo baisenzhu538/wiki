@@ -11,8 +11,8 @@ source_refs:
 status: enriched
 domain:
   - ai-saas- yitang
-- ai-collaboration
-- product
+  - ai-collaboration
+  - product
 created_at: '2026-06-13'
 updated_at: '2026-06-20'
 author: 老顽童

@@ -6,9 +6,9 @@ title: 管理段位
 type: concept
 domain:
   - management- ai-saas
-- management
-- kdo
-- yitang
+  - management
+  - kdo
+  - yitang
 status: draft
 pipeline:
 - confidence-source-cited

@@ -8,7 +8,7 @@ title: 技能：自我反馈检验
 type: "tool"
 domain:
   - content-production- master
-- yitang
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff

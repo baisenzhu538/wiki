@@ -8,8 +8,8 @@ title: 技能：费曼学习法实践（讲香课题）
 type: "tool"
 domain:
   - learning-methodology- design
-- yitang
-- decision-making
+  - yitang
+  - decision-making
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9

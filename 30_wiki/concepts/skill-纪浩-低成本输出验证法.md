@@ -6,7 +6,8 @@ type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitangsource_person: 纪浩
+  - yitang
+source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
 - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01

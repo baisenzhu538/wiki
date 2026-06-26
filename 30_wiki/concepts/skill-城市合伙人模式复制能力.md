@@ -8,8 +8,8 @@ title: 技能：城市合伙人模式复制能力
 type: "tool"
 domain:
   - entrepreneurship- management
-- design
-- business-strategy
+  - design
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2

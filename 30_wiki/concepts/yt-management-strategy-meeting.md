@@ -6,9 +6,9 @@ title: 战略会
 type: concept
 domain:
   - management- ai-saas
-- management
-- decision-making
-- yitang
+  - management
+  - decision-making
+  - yitang
 status: draft
 pipeline:
 - confidence-source-cited

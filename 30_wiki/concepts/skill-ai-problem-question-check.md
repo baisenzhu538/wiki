@@ -6,7 +6,8 @@ type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitangsource_person: 纪浩
+  - yitang
+source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记

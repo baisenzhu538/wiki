@@ -8,8 +8,8 @@ title: 技能：现场建模式萃取笔记
 type: "tool"
 domain:
   - learning-methodology- product
-- management
-- yitang
+  - management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f

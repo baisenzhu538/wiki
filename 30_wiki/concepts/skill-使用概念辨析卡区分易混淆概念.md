@@ -8,7 +8,7 @@ title: 技能：使用概念辨析卡区分易混淆概念
 type: "tool"
 domain:
   - learning-methodology- design
-- business-strategy
+  - business-strategy
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e

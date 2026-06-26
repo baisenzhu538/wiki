@@ -8,9 +8,9 @@ title: 技能：+1视角升级思考法
 type: "tool"
 domain:
   - learning-methodology- management
-- decision-making
-- yitang
-- business-strategy
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a

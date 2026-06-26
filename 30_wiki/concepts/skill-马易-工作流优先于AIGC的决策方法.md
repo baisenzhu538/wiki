@@ -10,7 +10,7 @@ status: needs-review
 domain:
   - ai-collaboration
   - yitang- ai-collaboration
-- business-strategy
+  - business-strategy
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 source_refs:

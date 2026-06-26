@@ -5,7 +5,8 @@ title: "技能：聊问查测盘五步验证法"
 type: tool
 status: enriched
 domain:
-  - learning-methodologysource_person: Truman
+  - learning-methodology
+source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt

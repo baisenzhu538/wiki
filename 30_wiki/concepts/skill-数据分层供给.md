@@ -8,9 +8,9 @@ title: 技能：数据分层供给
 type: "tool"
 domain:
   - learning-methodology- kdo
-- product
-- design
-- yitang
+  - product
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

@@ -6,7 +6,8 @@ type: tool
 status: enriched
 domain:
   - ai-collaboration
-  - yitangsource_person: 半肥猫
+  - yitang
+source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
   - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md

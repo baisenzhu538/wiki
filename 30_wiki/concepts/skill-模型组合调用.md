@@ -8,7 +8,7 @@ title: 技能：模型组合调用
 type: "tool"
 domain:
   - learning-methodology- design
-- yitang
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

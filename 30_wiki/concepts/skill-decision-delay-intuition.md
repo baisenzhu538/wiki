@@ -7,8 +7,8 @@ type: "tool"
 status: draft
 domain:
   - decision- 决策
-- 认知
-- 个人管理
+  - 认知
+  - 个人管理
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
