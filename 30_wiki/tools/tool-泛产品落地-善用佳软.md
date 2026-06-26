@@ -14,6 +14,8 @@ source_refs:
 related:
 - "[[framework-科学决策三角形]]"
 - "[[tool-ROI决策评估画布]]"
+- "[[yt-unit-model-overview]]"
+- "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"
 ---
 

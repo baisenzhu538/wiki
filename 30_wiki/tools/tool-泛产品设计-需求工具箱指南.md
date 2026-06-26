@@ -14,6 +14,8 @@ source_refs:
 related:
 - "[[framework-科学决策三角形]]"
 - "[[framework-一堂五步法-泛产品设计]]"
+- "[[yt-unit-model-overview]]"
+- "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"
 ---
 
