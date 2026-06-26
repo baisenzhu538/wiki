@@ -1,4 +1,5 @@
 ---
+
 id: concept-两种典型思考习惯
 title: 两种典型思考习惯：效率导向 vs 效果导向
 type: concept
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高度-两种典型的思考习惯_vlm_desc.md
 related:
+  - '[[tool-最佳实践池子]]'
+  - '[[tool-科学提问刻意练习]]'
+  - '[[tool-审美工具箱]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[concept-X型Y型决策习惯]]"
 - "[[framework-科学决策三角形]]"
 - "[[framework-高水平共识曲线]]"

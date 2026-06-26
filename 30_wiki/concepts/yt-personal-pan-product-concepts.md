@@ -20,11 +20,11 @@ query_triggers:
 - 泛产品设计认知篇：重新理解泛化产品能力
 - 重新理解泛化产品能力
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-execution-liberate-thinking]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[tool-泛产品落地-解放思想]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'

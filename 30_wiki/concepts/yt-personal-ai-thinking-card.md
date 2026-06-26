@@ -23,7 +23,7 @@ related:
   - '[[yt-panproduct-demand-project-background]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-善用佳软]]'
 - '[[yt-model-agent-architecture]]'
 - '[[yt-personal-knowledge-extraction]]'
 - '[[yt-personal-deep-review]]'

@@ -59,6 +59,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-demand-multi-perspective
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 多视角思考：综合内部/外部/角色考量
 
 > 需求工具箱第 6 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

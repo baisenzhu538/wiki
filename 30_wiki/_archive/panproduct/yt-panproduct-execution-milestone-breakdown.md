@@ -27,15 +27,15 @@ query_triggers:
 - 里程碑拆解
 related:
   - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-management-trilogy]]'
-- '[[yt-panproduct-execution-risk-management]]'
-- '[[yt-panproduct-execution-review-iteration]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
-- '[[yt-panproduct-execution-10x-validation]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-管理三段论]]'
+- '[[tool-泛产品落地-风险管理]]'
+- '[[tool-泛产品落地-复盘迭代]]'
+- '[[tool-泛产品落地-假设拆解]]'
+- '[[tool-泛产品落地-十倍速验证]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
@@ -67,6 +67,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-里程碑拆解
+status: superseded
 ---# 里程碑拆解：主动设定交付中间节点
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -159,11 +162,11 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-management-trilogy]] | 管理三段论（路径拆解=里程碑拆解） |
-| 相关工具 | [[yt-panproduct-execution-risk-management]] | 风险管理（里程碑是风险的前置探测点） |
-| 相关工具 | [[yt-panproduct-execution-review-iteration]] | 复盘迭代（每个里程碑后复盘） |
-| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（里程碑是假设验证的容器） |
-| 相关工具 | [[yt-panproduct-execution-10x-validation]] | 10 倍验证（关键里程碑后做放大验证） |
+| 相关工具 | [[tool-泛产品落地-管理三段论]] | 管理三段论（路径拆解=里程碑拆解） |
+| 相关工具 | [[tool-泛产品落地-风险管理]] | 风险管理（里程碑是风险的前置探测点） |
+| 相关工具 | [[tool-泛产品落地-复盘迭代]] | 复盘迭代（每个里程碑后复盘） |
+| 相关工具 | [[tool-泛产品落地-假设拆解]] | 假设拆解（里程碑是假设验证的容器） |
+| 相关工具 | [[tool-泛产品落地-十倍速验证]] | 10 倍验证（关键里程碑后做放大验证） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

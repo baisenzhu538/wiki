@@ -61,6 +61,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-demand-motivation-resistance
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 动力阻力：理解转化率的本质
 
 > 需求工具箱第 7 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

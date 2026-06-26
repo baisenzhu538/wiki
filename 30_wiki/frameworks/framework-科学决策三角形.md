@@ -1,4 +1,5 @@
 ---
+
 id: framework-科学决策三角形
 title: 科学决策三角形：宽度×高度×深度三维决策框架
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 - 00_inbox/_vlm_reprocess/_batch_科学决策/一堂-科学决策-决策三角形.png
 related:
+  - '[[concept-稀缺机会窗口]]'
+  - '[[tool-ROI决策评估画布]]'
+  - '[[yt-decision-height-toolkit]]'
+  - '[[tool-科学决策关键训练清单]]'
+  - '[[framework-单元模型-外部对抗地图]]'
 - "[[tool-ROI决策评估画布]]"
 - "[[tool-完整财务公式决策]]"
 - "[[tool-决策深度-L1优先级定性]]"

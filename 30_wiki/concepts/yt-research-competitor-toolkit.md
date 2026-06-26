@@ -20,7 +20,7 @@ query_triggers:
 - 竞争象限
 related:
   - '[[yt-research-hypothesis-test]]'
-  - '[[yt-panproduct-execution-core-and-boundary]]'
+  - '[[tool-泛产品落地-内核和边界]]'
   - '[[skill-复盘推演法]]'
   - '[[skill-辩证讨论法]]'
   - '[[skill-分享输出检验法]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-提问刻意练习画布_vlm_desc.md
 related:
+  - '[[dk-modeling-logical-cleanliness-root]]'
+  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+  - '[[yt-model-questioning-practice-canvas]]'
+  - '[[yt-model-scientific-questioning-map]]'
+  - '[[tool-完整财务公式决策]]'
 - "[[framework-TCPR底层网络协议]]"
 - "[[tool-科学提问刻意练习]]"
 - "[[concept-思考深度分级]]"

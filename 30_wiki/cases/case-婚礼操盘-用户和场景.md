@@ -1,4 +1,5 @@
 ---
+
 id: case-婚礼操盘-用户和场景
 title: 案例：婚礼操盘——用户和场景分析
 type: case
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/相关VLM描述
 related:
+  - '[[case-科学决策-L4案例01]]'
+  - '[[case-科学决策-ROI案例01]]'
+  - '[[case-婚礼规划]]'
+  - '[[case-科学决策-深度案例01]]'
+  - '[[case-科学决策-深度案例05]]'
 - "[[framework-科学决策三角形]]"
 - "[[tool-ROI决策评估画布]]"
 - "[[case-婚礼规划]]"

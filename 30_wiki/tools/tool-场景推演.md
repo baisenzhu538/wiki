@@ -1,4 +1,5 @@
 ---
+
 id: tool-场景推演
 title: 场景推演：还原用户真实使用场景
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-场景推演-还原用户真实使用场景_vlm_desc.md
 related:
+  - '[[tool-项目背景分析]]'
+  - '[[tool-用户视角]]'
+  - '[[tool-动力阻力分析]]'
+  - '[[tool-用户分层]]'
+  - '[[tool-行业分析画布]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"

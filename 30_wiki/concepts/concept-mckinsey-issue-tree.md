@@ -24,7 +24,7 @@ related:
 wiki_refs:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[yt-panproduct-execution-idea-spark]]'
+- '[[tool-泛产品落地-灵感闪现]]'
 created_at: 2026-06-11
 updated_at: '2026-06-17'
 diagnostic_signals:
@@ -143,7 +143,7 @@ Issue Tree 解决的是三个问题：
 |:-----------|:-----|:---------|
 | [[yt-entrepreneur-five-step-method]] | 五步法第一步"充分做加法" | 一堂的充分做加法本质上就是 Issue Tree 的创业场景应用：把“如何做成这个事业”拆解为需求层/产品层/商业模式层/增长层/壁垒层。本卡提供了更通用的拆解原则，不限于创业场景。 |
 | [[concept-一堂-hypothesis-driven-business-methodology]] | 创业分析方法论 | 一堂的 259 工具是 Issue Tree 在创业场景下的具体化——它已经给出了一个现成的树结构。本卡提供了"如何自己画树"的方法，让你在一堂体系之外的场景中也能拆。 |
-| [[yt-panproduct-execution-idea-spark]] | 创意闪现 | 一堂提醒在“问题边界不清”时先用“看和聚”做发散思维，而非直接上 MECE。本卡补充：当你对问题的可能维度有了 ≥3 个候选理解后，才用 Issue Tree 做结构化拆解。 |
+| [[tool-泛产品落地-灵感闪现]] | 创意闪现 | 一堂提醒在“问题边界不清”时先用“看和聚”做发散思维，而非直接上 MECE。本卡补充：当你对问题的可能维度有了 ≥3 个候选理解后，才用 Issue Tree 做结构化拆解。 |
 | [[yt-decision-y-model]] | 科学决策框架 | Y 模型与 Issue Tree 都回答“从问题到原因/子问题”的拆解，但 Y 模型更强调广义 ROI 与决策三维度。本卡提供通用 MECE 拆解原则，Y 模型提供决策优先级判断。 |
 | [[yt-research-osl-framework]] | 通用商业调研框架 | OSL 调研的“范围（S）”和“清单（L）”可与 Issue Tree 对接：先画 2 层 Issue Tree 确定调研范围，再把叶节转化为 OSL 的待验证清单。 |
 

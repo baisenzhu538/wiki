@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-model-risk-over-product-risk
 title: 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
+  - '[[case-lean-genki-forest-toolkit]]'
+  - '[[tool-lean-presell]]'
+  - '[[case-cross-yuanqi-forest]]'
+  - '[[tool-lean-leverage-traffic]]'
+  - '[[case-lean-premature-expansion]]'
 - '[[tool-lean-leverage-traffic]]'
 - '[[tool-lean-presell]]'
 - '[[case-lean-genki-forest-toolkit]]'

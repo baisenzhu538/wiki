@@ -1,4 +1,5 @@
 ---
+
 id: skill-research-behavior-over-asking
 title: 行为证据重于口头证据
 type: skill
@@ -20,6 +21,11 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[tool-yitang-research-cross-validation]]'
+  - '[[skill-research-triangulation-stop-rule]]'
 - "[[dk-yitang-behavior-over-asking]]"
 - "[[yitang-research-domain-digest]]"
 - "[[tool-yitang-user-interview-5steps]]"

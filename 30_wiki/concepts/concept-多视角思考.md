@@ -1,4 +1,5 @@
 ---
+
 id: concept-多视角思考
 title: 多视角思考：用不同角色审视产品
 type: concept
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-多视角思考-用不同角色审视产品_vlm_desc.md
 related:
+  - '[[tool-项目背景分析]]'
+  - '[[concept-峰终定律]]'
+  - '[[tool-用户视角]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
+  - '[[tool-用户分层]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"

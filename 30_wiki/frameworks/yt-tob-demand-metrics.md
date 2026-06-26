@@ -30,7 +30,7 @@ related:
   - '[[yt-tob-barriers]]'
   - '[[yt-tob-revenue-is-customer-cost]]'
   - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-business-formula-business-pattern-selector]]'

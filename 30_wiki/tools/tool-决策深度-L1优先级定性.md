@@ -1,4 +1,5 @@
 ---
+
 id: tool-决策深度-L1优先级定性
 title: 决策深度L1：优先级定性
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L1优先级定性_vlm_desc.md
 related:
+  - '[[concept-稀缺机会窗口]]'
+  - '[[tool-决策深度-L2部分定量]]'
+  - '[[dk-demand-pitfall-financial-literacy]]'
+  - '[[case-demand-financial-literacy]]'
+  - '[[dk-决策经验值]]'
 - "[[framework-科学决策三角形]]"
 - "[[tool-完整财务公式决策]]"
 - "[[tool-决策深度-L2部分定量]]"

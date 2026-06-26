@@ -22,7 +22,7 @@ related:
   - "[[yt-entrepreneur-lean-validation]]"
   - "[[yt-entrepreneur-key-hypotheses]]"
   - "[[concept-一堂-kernel-validation]]"
-  - "[[yt-panproduct-execution-low-cost-mvp]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
 ---
 
 # 创业六宗罪 / 六大浪费

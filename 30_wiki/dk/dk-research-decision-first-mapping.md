@@ -1,4 +1,5 @@
 ---
+
 id: dk-research-decision-first-mapping
 title: 研究活动如何服务决策
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-yitang-behavior-over-asking]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-yitang-behavior-over-asking]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-research-identity-craft-for-closed-information]]'

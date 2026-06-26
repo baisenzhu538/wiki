@@ -14,7 +14,7 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[tool-泛产品落地-假设拆解]]'
   - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
   - '[[dk-demand-misjudgment-rate]]'
   - '[[case-milktea-five-step]]'

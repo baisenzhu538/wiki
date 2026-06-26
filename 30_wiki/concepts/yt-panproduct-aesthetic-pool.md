@@ -26,10 +26,10 @@ query_triggers:
 - 设计标准
 related:
   - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
 - '[[yt-panproduct-aesthetic-collection]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
 - '[[yt-model-aesthetic-progression]]'
@@ -61,6 +61,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-aesthetic-pool
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]

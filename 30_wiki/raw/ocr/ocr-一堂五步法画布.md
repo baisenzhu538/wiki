@@ -19,7 +19,7 @@ trust_level: low
 related:
   - '[[case-proya-betaine-skincare-benchmark]]'
   - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
   - '[[yt-five-step-method]]'
   - '[[yt-model-five-step-canvas]]'
 ---

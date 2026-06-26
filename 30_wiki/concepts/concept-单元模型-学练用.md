@@ -1,4 +1,5 @@
 ---
+
 id: concept-单元模型-学练用
 title: 学练用：知识内化的三阶模型
 type: concept
@@ -16,6 +17,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-学练用.png
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-学练用.md
 related:
+  - '[[truman-ai-partner-design-analysis]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-wanghuan-standard-by-iteration]]'
+  - '[[ocr-一堂-单元模型-学练用]]'
+  - '[[dk-modeling-ai-judgment-limit]]'
 - "[[yt-unit-model-ladder]]"
 - "[[concept-最简单元模型]]"
 - "[[framework-TCPR底层网络协议]]"

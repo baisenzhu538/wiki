@@ -26,14 +26,14 @@ query_triggers:
 - 落地执行
 - 设计原则
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
 - '[[yt-panproduct-aesthetic-pool]]'
-- '[[yt-panproduct-execution-realistic-simulation]]'
+- '[[tool-泛产品落地-努力仿真]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则
@@ -63,6 +63,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-设计原则
+status: superseded
 ---# 设计原则：掌握基本的UI/UE审美原则
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -153,7 +156,7 @@ trust_level: medium
 |------|---------|------|
 | 相关工具 | [[yt-panproduct-aesthetic-modeling]] | 最佳实践建模（设计原则是UI领域的最佳实践建模） |
 | 相关工具 | [[yt-panproduct-aesthetic-pool]] | 最佳实践池子（设计原则来自大量案例的共性提炼） |
-| 相关工具 | [[yt-panproduct-execution-realistic-simulation]] | 努力仿真（原则指导下进行真实场景验证） |
+| 相关工具 | [[tool-泛产品落地-努力仿真]] | 努力仿真（原则指导下进行真实场景验证） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

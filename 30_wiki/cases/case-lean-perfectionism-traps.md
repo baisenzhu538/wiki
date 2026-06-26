@@ -32,7 +32,7 @@ related:
 - "[[framework-lean-abcd-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[concept-一堂-kernel-validation]]"
 - "[[tool-lean-ai-accelerated-validation]]"
 - "[[case-demand-indonesia-insurance]]"
@@ -196,7 +196,7 @@ related:
 - 四大原则：[[framework-lean-four-principles]]
 - 关键假设拆解：[[yt-entrepreneur-key-hypotheses]]
 - 精益验证概念：[[yt-entrepreneur-lean-validation]]
-- MVP 落地工具：[[yt-panproduct-execution-low-cost-mvp]]
+- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
 - 产品内核验证：[[concept-一堂-kernel-validation]]
 - AI 加速验证：[[tool-lean-ai-accelerated-validation]]
 - 印尼寿险跨市场错配：[[case-demand-indonesia-insurance]]

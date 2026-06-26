@@ -39,7 +39,7 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-panproduct-execution-management-trilogy]]'
+  - '[[tool-泛产品落地-管理三段论]]'
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-model-personal-map]]'
   - '[[ocr-泛产品设计-落地卡片-管理三段论]]'

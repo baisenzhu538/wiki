@@ -1,4 +1,5 @@
 ---
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-06-26
 type: framework
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单城市模型.png
 updated_at: '2026-06-26'
 related:
+  - '[[ocr-一堂-单元模型-单用户模型]]'
+  - '[[ocr-一堂-单元模型-单城市模型]]'
+  - '[[yt-personal-pan-product-practice]]'
+  - '[[ocr-一堂-单元模型-多模型情况]]'
+  - '[[yt-unit-model-selection]]'
 - "[[yitang-domain-digest]]"
 - "[[ai-collaboration-domain-digest]]"
 - "[[tool-单元模型-单商圈]]"

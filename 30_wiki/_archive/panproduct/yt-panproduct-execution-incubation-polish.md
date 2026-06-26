@@ -26,14 +26,14 @@ query_triggers:
 - 落地执行
 - 酝酿式打磨
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-demand-need-discovery]]'
-- '[[yt-panproduct-execution-review-iteration]]'
+- '[[tool-泛产品落地-复盘迭代]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨
@@ -63,6 +63,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-酝酿式打磨
+status: superseded
 ---# 酝酿式打磨：科学式的灵感管理
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -152,7 +155,7 @@ trust_level: medium
 |------|---------|------|
 | 相关工具 | [[yt-panproduct-aesthetic-pool]] | 最佳实践池子（拉审美的素材来源） |
 | 相关工具 | [[yt-panproduct-demand-need-discovery]] | 需求挖掘（挖需求的具体方法） |
-| 相关工具 | [[yt-panproduct-execution-review-iteration]] | 复盘迭代（酝酿式打磨的迭代周期） |
+| 相关工具 | [[tool-泛产品落地-复盘迭代]] | 复盘迭代（酝酿式打磨的迭代周期） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

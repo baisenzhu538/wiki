@@ -32,7 +32,7 @@ trust_level: high
 related:
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-善用佳软]]'
   - '[[yt-panproduct-aesthetic-pool]]'
   - '[[yt-panproduct-demand-project-background]]'
 

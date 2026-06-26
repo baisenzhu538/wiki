@@ -35,7 +35,7 @@ related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-product-kernel-cultivation]]'
-- '[[yt-panproduct-demand-five-step-method]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk

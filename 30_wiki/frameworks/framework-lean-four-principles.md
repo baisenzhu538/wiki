@@ -28,7 +28,7 @@ related:
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[concept-一堂-kernel-validation]]"
 ---
 
@@ -150,7 +150,7 @@ related:
 | 上游框架 | [[yt-entrepreneur-lean-validation]] | 精益验证方法论：四原则是精益验证在日常决策中的行为守则 |
 | 上游工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设 259 工具：四原则回答的是"如何验证"，259 回答的是"验证什么" |
 | 同级框架 | [[framework-lean-false-model]] | FALSE/FLESAI 模型是四原则的武器库：每个原则对应一组低成本验证手段 |
-| 关联工具 | [[yt-panproduct-execution-low-cost-mvp]] | MVP 武器库：四原则是选择 MVP 形态时的决策标准 |
+| 关联工具 | [[tool-泛产品落地-低成本测试MVP]] | MVP 武器库：四原则是选择 MVP 形态时的决策标准 |
 | 下游概念 | [[concept-一堂-kernel-validation]] | 产品内核验证：克制设计的具体落点——不要过早细化未经思考的内核 |
 | 延伸框架 | [[framework-lean-six-wastes]] | 六宗罪是四原则的反面：问题找错、方案做错、过早细化、过早扩张、闭门造车、盲目坚持 |
 

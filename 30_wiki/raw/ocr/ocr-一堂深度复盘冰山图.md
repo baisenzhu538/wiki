@@ -21,7 +21,7 @@ related:
   - '[[yt-model-deep-review-iceberg]]'
   - '[[ocr-一堂提炼过的因果模型]]'
   - '[[yt-decision-review]]'
-  - '[[yt-panproduct-execution-review-iteration]]'
+  - '[[tool-泛产品落地-复盘迭代]]'
 ---
 
 # OCR: 一堂深度复盘冰山图

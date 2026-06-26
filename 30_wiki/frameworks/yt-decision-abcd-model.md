@@ -1,37 +1,32 @@
 ---
-
-
-
 type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain:
-  - decision- 一堂·科学决策
+  - yitang
+  - decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
+updated_at: 2026-06-26
 confidence: 0.75
 trust_level: medium-low
-title: yt decision abcd model
+title: 关键假设 ABCD 模型
 source_refs:
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
-- src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
+  - 30_wiki/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md
 related:
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[ocr-一堂-科学决策-关键假设abcd模型]]'
-  - '[[ocr-一堂-科学决策-宽度-个人]]'
-  - '[[yt-management-conversion-hacking]]'
-  - '[[yt-decision-y-model]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-consensus-iceberg]]'
-- '[[yt-decision-full-process]]'
-updated_at: '2026-06-16'
+  - "[[yt-decision-y-model]]"
+  - "[[yt-decision-width-method]]"
+  - "[[yt-decision-height-toolkit]]"
+  - "[[yt-decision-depth-ladder]]"
+  - "[[yt-decision-consensus-iceberg]]"
+  - "[[yt-decision-full-process]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[strategy-domain-digest]]"
+---
 
----# 一堂·关键假设ABCD模型
+# 一堂·关键假设ABCD模型
 
 
 

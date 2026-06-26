@@ -26,10 +26,10 @@ query_triggers:
 related:
   - '[[yt-panproduct-demand-user-segmentation]]'
   - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-业务建模]]'
   - '[[yt-panproduct-demand-need-discovery]]'
-- '[[yt-panproduct-demand-five-step-method]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 - '[[yt-panproduct-demand-project-background]]'
 reviewed_by: 黄药师
 source_refs:
@@ -60,6 +60,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-demand-industry-canvas
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 行业分析画布：分析行业赛道的变化和机会
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -148,7 +154,7 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-demand-five-step-method]] | 一堂五步法（行业分析是五步法中"机会选择"的前置） |
+| 相关工具 | [[framework-一堂五步法-泛产品设计]] | 一堂五步法（行业分析是五步法中"机会选择"的前置） |
 | 相关工具 | [[yt-panproduct-demand-project-background]] | 项目背景分析（宏观维度的扩���版） |
 | 关联 | [[yt-entrepreneur-research-camp]] | 调研行动营（行业分析的方法论来源） |
 | 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |

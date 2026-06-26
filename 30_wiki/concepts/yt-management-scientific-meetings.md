@@ -32,7 +32,7 @@ diagnostic_signals:
   framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
-  - '[[yt-panproduct-execution-war-room]]'
+  - '[[tool-泛产品落地-攻坚会]]'
   - '[[case-strategy-revival-14-gucci]]'
   - '[[case-yitang-radar-chart-selection]]'
   - '[[dk-modeling-radar-model-not-result]]'
@@ -202,7 +202,7 @@ related:
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：会议是管理武器库中最矛盾的一件武器——它是唯一一个"过度使用会钝化自身效果"的武器。大多数武器用得多会变锋利（决策、OKR、复盘），但会议开得越多，每个会议的边际价值越低。Useem 的数据说：你的武器不是太少，是太多了——科学开会的最高境界不是开得更好，是只开真正必要的。
 - [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Doyle & Straus 的互动方法揭示了一个反直觉的真相——会议不是"做事"的工具，而是"讲香"的空间。每个会议都是一场小型叙事竞赛——谁的议题被讨论了、谁的观点被采纳了、谁被要求提供预读材料——这些不是"会议效率"的问题，是"谁的香被听到了"的问题。最好的会议主持人不守护议程——ta 守护"最值得被听到的那个声音"。
 - [[yt-decision-consensus-iceberg]] — 共识冰山：当会议出现"大家点头但执行走样"或"纪要写满'一致认为'但私下理解不同"时，用四层共识模型（行动→判断→逻辑→信息）深挖真实分歧，替代表面共识。
-- [[yt-panproduct-execution-management-trilogy]] — 管理三段论：当会议讨论中"有人在讲目标、有人在讲路径、有人在抱怨资源不够"时，用"目标→路径→资源"三段论重新对齐发言层级，先关掉路径和资源讨论，只对齐目标。
+- [[tool-泛产品落地-管理三段论]] — 管理三段论：当会议讨论中"有人在讲目标、有人在讲路径、有人在抱怨资源不够"时，用"目标→路径→资源"三段论重新对齐发言层级，先关掉路径和资源讨论，只对齐目标。
 - [[yt-tool-meeting-designer]] — 会议设计师：本概念卡的一页纸落地工具，一张纸、五分钟，让每次会议都有存在的理由、清晰的议程时间盒和可追踪的行动项。
 
 ## Critique

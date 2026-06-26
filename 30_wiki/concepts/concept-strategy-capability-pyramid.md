@@ -12,7 +12,7 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{30}_vlm_desc.md
 related:
-  - '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[tool-泛产品落地-解放思想]]'
   - '[[framework-strategy-five-basics]]'
 - "[[framework-strategy-five-basics]]"
 ---

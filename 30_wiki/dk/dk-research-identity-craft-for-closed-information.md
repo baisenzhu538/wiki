@@ -1,4 +1,5 @@
 ---
+
 id: dk-research-identity-craft-for-closed-information
 title: 为获取封闭情报设计合法身份
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-decision-first-mapping]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-research-triangulation-stop-rule]]'
 - '[[dk-research-decision-first-mapping]]'

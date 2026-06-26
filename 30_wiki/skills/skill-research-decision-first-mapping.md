@@ -1,4 +1,5 @@
 ---
+
 id: skill-research-decision-first-mapping
 title: 决策优先映射：让研究动作直接服务决策
 type: skill
@@ -20,6 +21,11 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
+  - '[[skill-research-behavior-over-asking]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[skill-research-triangulation-stop-rule]]'
+  - '[[concept-yitang-research-objective]]'
 - "[[dk-research-decision-first-mapping]]"
 - "[[yitang-research-domain-digest]]"
 - "[[concept-一堂-hypothesis-driven-business-methodology]]"

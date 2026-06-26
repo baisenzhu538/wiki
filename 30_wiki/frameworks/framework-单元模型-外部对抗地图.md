@@ -1,4 +1,5 @@
 ---
+
 id: framework-单元模型-外部对抗地图
 title: 外部对抗地图
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-外部对抗地图.png
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-外部对抗地图.md
 related:
+  - '[[tool-单元模型-象限分析法]]'
+  - '[[tool-单元模型-单商圈]]'
+  - '[[tool-单元模型-壁垒预判]]'
+  - '[[concept-最简单元模型]]'
+  - '[[tool-单元模型-单城市]]'
 - "[[yitang-domain-digest]]"
 - "[[yt-unit-model-overview]]"
 - "[[ai-collaboration-domain-digest]]"

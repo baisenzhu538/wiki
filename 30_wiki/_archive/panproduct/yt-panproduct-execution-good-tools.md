@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
-- '[[yt-panproduct-execution-realistic-simulation]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
+- '[[tool-泛产品落地-努力仿真]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-善用佳软
+status: superseded
 ---# 善用佳软：多学习一些简单产品工具
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -150,8 +153,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（工具是低成本验证的支撑） |
-| 相关工具 | [[yt-panproduct-execution-realistic-simulation]] | 努力仿真（工具帮助提高仿真度） |
+| 相关工具 | [[tool-泛产品落地-低成本测试MVP]] | 低成本测试MVP（工具是低成本验证的支撑） |
+| 相关工具 | [[tool-泛产品落地-努力仿真]] | 努力仿真（工具帮助提高仿真度） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

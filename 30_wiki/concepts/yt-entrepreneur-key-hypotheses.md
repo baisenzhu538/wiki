@@ -30,7 +30,7 @@ related:
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-entrepreneur-industry-forecast]]'
 - '[[yt-model-entrepreneur-map]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
+- '[[tool-泛产品落地-假设拆解]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[framework-lean-false-model]]'
 - '[[framework-lean-abcd-model]]'

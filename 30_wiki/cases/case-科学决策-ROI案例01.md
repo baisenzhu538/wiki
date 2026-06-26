@@ -1,20 +1,31 @@
 ---
+
 id: case-科学决策-ROI案例01
 title: 案例：ROI案例01：基础ROI维度填写实践
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.70
+confidence: 0.7
 trust_level: low
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI案例01_vlm_desc.md
 related:
-- "[[framework-科学决策三角形]]"
-- "[[tool-ROI决策评估画布]]"
-- "[[tool-完整财务公式决策]]"
+  - '[[case-科学决策-ROI案例03]]'
+  - '[[case-科学决策-深度案例06]]'
+  - '[[case-科学决策-深度案例02]]'
+  - '[[case-科学决策-深度案例03]]'
+  - '[[case-科学决策-ROI案例04]]'
+- '[[framework-科学决策三角形]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-完整财务公式决策]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[tool-决策深度-L2部分定量]]'
+updated_at: '2026-06-26'
 ---
 
 # 案例：ROI案例01：基础ROI维度填写实践

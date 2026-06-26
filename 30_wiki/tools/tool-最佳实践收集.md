@@ -1,4 +1,5 @@
 ---
+
 id: tool-最佳实践收集
 title: 最佳实践收集：系统性收集团队/行业的最佳做法
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践收集-系统性收集团队/行业的最佳做法_vlm_desc.md
 related:
+  - '[[tool-最佳实践池子]]'
+  - '[[concept-美好作品想象]]'
+  - '[[concept-最佳实践建模]]'
+  - '[[tool-审美工具箱]]'
+  - '[[concept-稀缺机会窗口]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"

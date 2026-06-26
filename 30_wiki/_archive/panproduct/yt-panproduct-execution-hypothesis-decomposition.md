@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
   - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-10x-validation]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-十倍速验证]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
@@ -64,6 +64,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-假设拆解
+status: superseded
 ---# 假设拆解：拆解出影响产品成败的关键假设
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -169,8 +172,8 @@ trust_level: medium
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
 | 关联 | [[yt-entrepreneur-five-step-method]] | 五步法（关键假设对应五步法第3步） |
-| 相关工具 | [[yt-panproduct-execution-10x-validation]] | 十倍速验证（验证假设的具体方法） |
-| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（验证假设的MVP武器库） |
+| 相关工具 | [[tool-泛产品落地-十倍速验证]] | 十倍速验证（验证假设的具体方法） |
+| 相关工具 | [[tool-泛产品落地-低成本测试MVP]] | 低成本测试MVP（验证假设的MVP武器库） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

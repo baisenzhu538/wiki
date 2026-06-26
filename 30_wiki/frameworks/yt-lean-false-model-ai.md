@@ -47,7 +47,7 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-five-step-common-pitfalls]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用

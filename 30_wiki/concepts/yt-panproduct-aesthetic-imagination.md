@@ -26,8 +26,8 @@ query_triggers:
 - 设计标准
 related:
   - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
@@ -61,6 +61,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-aesthetic-imagination
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]

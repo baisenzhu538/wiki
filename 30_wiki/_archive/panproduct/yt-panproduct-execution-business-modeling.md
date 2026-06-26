@@ -26,14 +26,14 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
-- '[[yt-panproduct-execution-logic-mece]]'
-- '[[yt-panproduct-demand-five-step-method]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-ROI分析]]'
+- '[[tool-泛产品落地-逻辑MECE]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-业务建模
+status: superseded
 ---# 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -147,9 +150,9 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-roi-analysis]] | ROI分析（业务建模是ROI的定量基础） |
-| 相关工具 | [[yt-panproduct-execution-logic-mece]] | 逻辑MECE（MECE是业务建模的第一原则） |
-| 相关工具 | [[yt-panproduct-demand-five-step-method]] | 一堂五步法（商业模式步需要业务建模） |
+| 相关工具 | [[tool-泛产品落地-ROI分析]] | ROI分析（业务建模是ROI的定量基础） |
+| 相关工具 | [[tool-泛产品落地-逻辑MECE]] | 逻辑MECE（MECE是业务建模的第一原则） |
+| 相关工具 | [[framework-一堂五步法-泛产品设计]] | 一堂五步法（商业模式步需要业务建模） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

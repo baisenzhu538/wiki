@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
-- '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
+- '[[tool-泛产品落地-设计原则]]'
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 reviewed_by: 黄药师
 source_refs:
@@ -63,6 +63,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-努力仿真
+status: superseded
 ---# 努力仿真：在真实场景做真东西
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -152,8 +155,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（MVP也需要在仿真环境中测试） |
-| 相关工具 | [[yt-panproduct-execution-design-principles]] | 设计原则（原则需要在真实场景中验证） |
+| 相关工具 | [[tool-泛产品落地-低成本测试MVP]] | 低成本测试MVP（MVP也需要在仿真环境中测试） |
+| 相关工具 | [[tool-泛产品落地-设计原则]] | 设计原则（原则需要在真实场景中验证） |
 | 相关工具 | [[yt-panproduct-demand-scenario-walkthrough]] | 场景推演（仿真就是场景推演的执行版） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |

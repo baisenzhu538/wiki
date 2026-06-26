@@ -26,13 +26,13 @@ query_triggers:
 - 落地执行
 - 逻辑MECE
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-core-and-boundary]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-内核和边界]]'
+- '[[tool-泛产品落地-假设拆解]]'
 - '[[yt-model-prediction-model]]'
 reviewed_by: 黄药师
 source_refs:
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-逻辑MECE
+status: superseded
 ---# 逻辑MECE：做个有逻辑的人
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -152,8 +155,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-core-and-boundary]] | 内核和边界（先定边界再MECE拆解） |
-| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（MECE在假设分析中的应用） |
+| 相关工具 | [[tool-泛产品落地-内核和边界]] | 内核和边界（先定边界再MECE拆解） |
+| 相关工具 | [[tool-泛产品落地-假设拆解]] | 假设拆解（MECE在假设分析中的应用） |
 | 关联框架 | [[yt-model-prediction-model]] | 预判模型（Checklist版是MECE的极致应用） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
@@ -162,7 +165,7 @@ trust_level: medium
 
 | 场景 | 为什么失效 | 替代方案 |
 |------|-----------|---------|
-| 面对高度不确定/模糊的探索性问题——问题本身都还没定义清楚，边界在哪都不知道 | MECE的前提是你知道要拆解什么。如果问题边界不清，强行MECE拆解会产生"虚假完备感"——拆出来的框架看起来很完整，但漏掉了真正的关键维度因为你还没意识到那些维度的存在。此时MECE给你的不是"我已完备"的安全感而是"我已完备"的幻觉 | 先用发散思维拓宽认知边界——通过[[yt-panproduct-execution-idea-spark]]的"看"和"聚"两字诀大量输入跨领域素材。等对问题的"可能维度"有了≥3个候选理解后，再选择最有解释力的维度做MECE结构 |
+| 面对高度不确定/模糊的探索性问题——问题本身都还没定义清楚，边界在哪都不知道 | MECE的前提是你知道要拆解什么。如果问题边界不清，强行MECE拆解会产生"虚假完备感"——拆出来的框架看起来很完整，但漏掉了真正的关键维度因为你还没意识到那些维度的存在。此时MECE给你的不是"我已完备"的安全感而是"我已完备"的幻觉 | 先用发散思维拓宽认知边界——通过[[tool-泛产品落地-灵感闪现]]的"看"和"聚"两字诀大量输入跨领域素材。等对问题的"可能维度"有了≥3个候选理解后，再选择最有解释力的维度做MECE结构 |
 | 面对人的体验/情感/审美问题——如品牌感知、用户体验的情感层面、视觉设计的感染力 | MECE假设问题可以被分解为独立互斥的要素然后逐项优化，但情感体验是整体的、涌现的——用户感受到的"这个产品很舒服"不能被拆解为"舒适A+B+C"然后分别优化再拼回去。拼回去的东西往往失去了原来的整体感 | 用[[yt-panproduct-aesthetic-imagination]]的整体感知方法替代MECE分解——先感知"这个体验整体上给人的感觉是什么"，再反推"哪些要素在共同支撑这个整体感觉"，但保持承认这些要素不是独立的（它们的关系本身才是体验） |
 
 

@@ -26,10 +26,10 @@ query_triggers:
 - 设计标准
 related:
   - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-善用佳软]]'
 - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
@@ -60,6 +60,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-aesthetic-collection
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 最佳实践收集：积极搜集最佳案例
 
 > 审美工具箱第 1 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

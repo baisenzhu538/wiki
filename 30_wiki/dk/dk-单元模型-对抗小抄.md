@@ -1,4 +1,5 @@
 ---
+
 id: dk-单元模型-对抗小抄
 title: 单元模型对抗小抄
 type: dk
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-对抗小抄01.png
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-对抗小抄02.png
 related:
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-sop-evolution]]'
+  - '[[ocr-一堂-单元模型-对抗小抄]]'
+  - '[[ocr-一堂-单元模型-对抗小抄02]]'
+  - '[[case-modeling-process-sop-examples]]'
 - "[[yitang-domain-digest]]"
 - "[[yt-unit-model-overview]]"
 - "[[ai-collaboration-domain-digest]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
+  - '[[dk-strategy-organization-strategy-mismatch]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-yitang-behavior-over-asking]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - '[[dk-research-decision-first-mapping]]'
 - '[[dk-strategy-organization-strategy-mismatch]]'
 - '[[dk-yitang-business-model-risk-over-product-risk]]'
 - '[[case-lean-genki-forest-toolkit]]'

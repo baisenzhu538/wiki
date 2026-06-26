@@ -1,4 +1,5 @@
 ---
+
 id: tool-讲香十指模型-超级武器库
 title: 讲香十指模型：超级武器库——表达力的十种武器
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香十指模型-超级武器库_vlm_desc.md
 related:
+  - '[[tool-稀缺资源清单]]'
+  - '[[framework-高水平共识曲线]]'
+  - '[[tool-用户视角]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[tool-用户分层]]'
 - "[[tool-讲香基本功-十指模型]]"
 - "[[framework-TCPR底层网络协议]]"
 - "[[concept-单元模型-学练用]]"

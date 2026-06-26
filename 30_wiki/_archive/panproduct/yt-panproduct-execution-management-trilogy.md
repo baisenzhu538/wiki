@@ -26,14 +26,14 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-core-and-boundary]]'
-- '[[yt-panproduct-execution-milestone-breakdown]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-内核和边界]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
+- '[[tool-泛产品落地-ROI分析]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论
@@ -63,6 +63,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-管理三段论
+status: superseded
 ---# 管理三段论：业务管理有章可循
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -150,9 +153,9 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-core-and-boundary]] | 内核和边界（目标即内核的具体表达） |
-| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（路径拆解的具体方法） |
-| 相关工具 | [[yt-panproduct-execution-roi-analysis]] | ROI分析（资源维度的定量评估） |
+| 相关工具 | [[tool-泛产品落地-内核和边界]] | 内核和边界（目标即内核的具体表达） |
+| 相关工具 | [[tool-泛产品落地-里程碑拆解]] | 里程碑拆解（路径拆解的具体方法） |
+| 相关工具 | [[tool-泛产品落地-ROI分析]] | ROI分析（资源维度的定量评估） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 跨模块连接 | [[yt-management-scientific-meetings]] | 科学开会：当团队会议中"各说各话"时，先用科学开会的议程时间盒把讨论框定在三段论的"目标→路径→资源"框架内 |
 | 实体页 | [[一堂]] | 一堂实体页 |

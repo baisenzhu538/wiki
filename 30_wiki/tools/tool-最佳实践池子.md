@@ -1,4 +1,5 @@
 ---
+
 id: tool-最佳实践池子
 title: 最佳实践池子：建立你的最佳实践知识库
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践池子-建立你的最佳实践知识库_vlm_desc.md
 related:
+  - '[[concept-稀缺机会窗口]]'
+  - '[[concept-美好作品想象]]'
+  - '[[tool-最佳实践收集]]'
+  - '[[concept-最佳实践建模]]'
+  - '[[tool-审美工具箱]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"

@@ -1,4 +1,5 @@
 ---
+
 id: concept-思考深度分级
 title: 思考深度分级：从表象到本质的认知阶梯
 type: concept
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/相关VLM描述
 related:
+  - '[[concept-稀缺机会窗口]]'
+  - '[[tool-单元模型-单商圈]]'
+  - '[[tool-单元模型-壁垒预判]]'
+  - '[[framework-问题边界与Problem澄清五层结构]]'
+  - '[[framework-单元模型-外部对抗地图]]'
 - "[[framework-科学决策三角形]]"
 - "[[tool-决策深度-L1优先级定性]]"
 - "[[concept-X型Y型决策习惯]]"

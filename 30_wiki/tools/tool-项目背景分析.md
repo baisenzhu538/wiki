@@ -1,4 +1,5 @@
 ---
+
 id: tool-项目背景分析
 title: 项目背景分析：启动前的环境扫描
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-项目背景分析-启动前的环境扫描_vlm_desc.md
 related:
+  - '[[tool-用户视角]]'
+  - '[[tool-动力阻力分析]]'
+  - '[[tool-行业分析画布]]'
+  - '[[tool-用户分层]]'
+  - '[[tool-需求挖掘]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-发现决策]]"
 - "[[ai-collaboration-domain-digest]]"

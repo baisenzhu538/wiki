@@ -26,13 +26,13 @@ query_triggers:
 - 落地执行
 - 解放思想
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
 - '[[yt-model-liberate-thinking-layers]]'
-- '[[yt-panproduct-execution-idea-spark]]'
+- '[[tool-泛产品落地-灵感闪现]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想
@@ -61,6 +61,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-解放思想
+status: superseded
 ---# 解放思想：敢于提出新解法/挑战新问题
 
 > 落地工具箱第 19 张卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -151,7 +154,7 @@ trust_level: medium
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
 | 关联框架 | [[yt-model-liberate-thinking-layers]] | 解放思想层级（L0-L5的完整框架） |
-| 相关工具 | [[yt-panproduct-execution-idea-spark]] | 灵感闪现（解放思想的创意生成端） |
+| 相关工具 | [[tool-泛产品落地-灵感闪现]] | 灵感闪现（解放思想的创意生成端） |
 | 关联 | [[yt-personal-y-model-practice]] | Y模型（解放思想=Y模型的"解放思想→知行合一"） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
@@ -161,7 +164,7 @@ trust_level: medium
 
 | 场景 | 为什么失效 | 替代方案 |
 |------|-----------|---------|
-| 团队刚进入一个全新领域——对基础事实和行业常识都不了解 | 解放思想的前提是你已有足够的"底层规律"知识储备供你"向下找"。如果连领域的基础事实（谁在做什么、用户的基本行为模式、行业的基本经济逻辑）都不清楚，"向下找"找到的所谓"底层规律"很可能是错的——你是在错误的前提下做深度思考，深度只会放大错误 | 先用[[yt-panproduct-execution-hypothesis-decomposition]]做快速学习和假设验证——花1-2周时间建立对领域的基本事实认知。积累了足够的事实"原材料"后，再启动"向下找规律"的深度思考 |
+| 团队刚进入一个全新领域——对基础事实和行业常识都不了解 | 解放思想的前提是你已有足够的"底层规律"知识储备供你"向下找"。如果连领域的基础事实（谁在做什么、用户的基本行为模式、行业的基本经济逻辑）都不清楚，"向下找"找到的所谓"底层规律"很可能是错的——你是在错误的前提下做深度思考，深度只会放大错误 | 先用[[tool-泛产品落地-假设拆解]]做快速学习和假设验证——花1-2周时间建立对领域的基本事实认知。积累了足够的事实"原材料"后，再启动"向下找规律"的深度思考 |
 | 产品已找到PMF——当前瓶颈是规模化执行的一致性和效率而非创新力 | 解放思想的核心产出是"新解法/新问题"，但PMF后的规模化阶段需要的是执行纪律和一致性——不断提出新方向会分散团队注意力，破坏好不容易建立起来的执行节奏。此时"解放思想"容易变成"不断换方向"的借口 | 将"向下找规律"的能量从"找新方向"转移到"在现有方向上找到更深层的执行杠杆"——不是改变做什么，而是更深刻地理解当前做的事情中哪个环节是最关键的约束，然后用底层规律突破那个约束 |
 
 

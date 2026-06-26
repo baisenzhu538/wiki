@@ -1,4 +1,5 @@
 ---
+
 id: concept-发现决策
 title: 发现决策：决策不是「做」出来的，是「发现」出来的
 type: concept
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-发现决策_vlm_desc.md
 related:
+  - '[[tool-最佳实践池子]]'
+  - '[[tool-科学提问刻意练习]]'
+  - '[[tool-审美工具箱]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-X型Y型决策习惯]]"
 - "[[concept-稀缺机会窗口]]"

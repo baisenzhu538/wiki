@@ -26,13 +26,13 @@ query_triggers:
 - 落地执行
 - 风险管理
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-milestone-breakdown]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
+- '[[tool-泛产品落地-假设拆解]]'
 - '[[yt-model-deep-review-iceberg]]'
 - '[[master-antifragile-checklist]]'
 reviewed_by: 黄药师
@@ -64,6 +64,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-风险管理
+status: superseded
 ---# 风险管理：把风险从意外变成确定性
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -151,8 +154,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（每个里程碑都是风险检查点） |
-| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（风险来自假设被推翻） |
+| 相关工具 | [[tool-泛产品落地-里程碑拆解]] | 里程碑拆解（每个里程碑都是风险检查点） |
+| 相关工具 | [[tool-泛产品落地-假设拆解]] | 假设拆解（风险来自假设被推翻） |
 | 关联框架 | [[yt-model-deep-review-iceberg]] | 深度复盘冰山（复盘识别被忽视的风险） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |

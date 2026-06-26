@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
@@ -13,6 +14,11 @@ domain:
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[dk-yitang-business-model-risk-over-product-risk]]'
 - '[[dk-research-decision-first-mapping]]'

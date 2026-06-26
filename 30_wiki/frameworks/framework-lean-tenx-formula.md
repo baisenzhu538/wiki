@@ -20,7 +20,7 @@ related:
   - '[[framework-lean-six-wastes]]'
   - '[[tool-lean-stealth-service]]'
   - '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
-  - '[[yt-panproduct-execution-10x-validation]]'
+  - '[[tool-泛产品落地-十倍速验证]]'
   - '[[tool-lean-fake-product]]'
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"

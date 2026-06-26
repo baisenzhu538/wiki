@@ -22,7 +22,7 @@ related:
 - '[[yt-personal-pan-product-tools]]'
 - '[[yt-panproduct-demand-motivation-resistance]]'
 - '[[case-truman-personal-growth-map-creation]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[tool-泛产品落地-ROI分析]]'
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 王语嫣

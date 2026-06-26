@@ -1,4 +1,5 @@
 ---
+
 id: framework-高水平共识曲线
 title: 高水平共识曲线：决策质量的团队对齐模型
 type: framework
@@ -14,6 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高水平共识曲线（重要）_vlm_desc.md
 related:
+  - '[[tool-稀缺资源清单]]'
+  - '[[tool-最佳实践池子]]'
+  - '[[tool-审美工具箱]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-X型Y型决策习惯]]"
 - "[[concept-两种典型思考习惯]]"

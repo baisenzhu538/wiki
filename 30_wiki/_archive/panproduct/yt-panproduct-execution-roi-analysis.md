@@ -26,14 +26,14 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-milestone-breakdown]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-management-trilogy]]'
-- '[[yt-panproduct-execution-milestone-breakdown]]'
-- '[[yt-panproduct-execution-business-modeling]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-里程碑拆解]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-管理三段论]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
+- '[[tool-泛产品落地-业务建模]]'
 - '[[case-truman-poker-deck-roi]]'
 - '[[case-ether-online-acquisition]]'
 - '[[case-truman-prd-checklist-evolution]]'
@@ -73,6 +73,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-ROI分析
+status: superseded
 ---# ROI分析：擅做投产比分析
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -175,9 +178,9 @@ ROI分析强调投产比思维——从关键收益项和关键成本项两个�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-management-trilogy]] | 管理三段论（资源维度需要ROI评估） |
-| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（每个里程碑需要ROI判断） |
-| 相关工具 | [[yt-panproduct-execution-business-modeling]] | 业务建模（业务公式是ROI的定量基础） |
+| 相关工具 | [[tool-泛产品落地-管理三段论]] | 管理三段论（资源维度需要ROI评估） |
+| 相关工具 | [[tool-泛产品落地-里程碑拆解]] | 里程碑拆解（每个里程碑需要ROI判断） |
+| 相关工具 | [[tool-泛产品落地-业务建模]] | 业务建模（业务公式是ROI的定量基础） |
 | 相关案例 | [[case-truman-poker-deck-roi]] | 真实成本、长期复用性、反从众判断 |
 | 相关案例 | [[case-ether-online-acquisition]] | 调研能力重定义为获客投资：真实成本的重新框定 |
 | 相关案例 | [[case-truman-prd-checklist-evolution]] | "不再二错"机制：执行锁与长期复用性 |

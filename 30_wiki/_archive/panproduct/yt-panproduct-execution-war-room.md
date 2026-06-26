@@ -26,15 +26,15 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-milestone-breakdown]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-里程碑拆解]]'
   - '[[yt-tool-strategy-workshop]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-idea-spark]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
-- '[[yt-panproduct-execution-logic-mece]]'
-- '[[yt-panproduct-execution-milestone-breakdown]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-假设拆解]]'
+- '[[tool-泛产品落地-逻辑MECE]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
 - '[[yt-decision-consensus-iceberg]]'
 reviewed_by: 黄药师
 source_refs:
@@ -67,6 +67,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-攻坚会
+status: superseded
 ---# 攻坚会：重点课题all-in攻坚
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -147,7 +150,7 @@ trust_level: medium
 | 80-100 min | 收敛决策 | 评估候选方案，决策人拍板 | 明确决策和负责人 |
 | 100-120 min | 落地闭环 | 输出下一步行动和验收标准 | 会后可执行的任务清单 |
 
-> 120 分钟无法收敛 → 拆分为两场，中场给 24 小时补充信息，避免疲劳决策。攻坚会的决策应接入 [[yt-panproduct-execution-milestone-breakdown]] 的里程碑，并在 [[yt-panproduct-execution-review-iteration]] 中复盘执行结果。
+> 120 分钟无法收敛 → 拆分为两场，中场给 24 小时补充信息，避免疲劳决策。攻坚会的决策应接入 [[tool-泛产品落地-里程碑拆解]] 的里程碑，并在 [[tool-泛产品落地-复盘迭代]] 中复盘执行结果。
 
 ## Claims
 
@@ -201,10 +204,10 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-idea-spark]] | 灵感闪现（攻坚会是灵感闪现后的集中碰撞） |
-| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（攻坚会常用于拆解关键假设） |
-| 相关工具 | [[yt-panproduct-execution-logic-mece]] | 逻辑MECE（攻坚会需要MECE结构化思考） |
-| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（攻坚会决策需接入可验证的里程碑） |
+| 相关工具 | [[tool-泛产品落地-灵感闪现]] | 灵感闪现（攻坚会是灵感闪现后的集中碰撞） |
+| 相关工具 | [[tool-泛产品落地-假设拆解]] | 假设拆解（攻坚会常用于拆解关键假设） |
+| 相关工具 | [[tool-泛产品落地-逻辑MECE]] | 逻辑MECE（攻坚会需要MECE结构化思考） |
+| 相关工具 | [[tool-泛产品落地-里程碑拆解]] | 里程碑拆解（攻坚会决策需接入可验证的里程碑） |
 | 相关工具 | [[yt-decision-consensus-iceberg]] | 共识冰山（识别"伪共识"和深层分歧） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |

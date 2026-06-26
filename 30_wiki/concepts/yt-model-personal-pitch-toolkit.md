@@ -31,7 +31,7 @@ related:
   - '[[yt-pitch-sublimation]]'
 - '[[yt-personal-scientific-expression]]'
 - '[[yt-concept-weapon-arsenal]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[yt-composite-pan-product-methodology]]'
 - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
@@ -181,7 +181,7 @@ trust_level: medium-high
 | 关联框架 | [[yt-personal-scientific-expression]] | 火箭模型——短表达vs长表达，共享底层逻辑 |
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO模型——讲香属输出环节L4-L5 |
 | 关联概念 | [[yt-concept-weapon-arsenal]] | 超级武器库——40战术速查的跨域元概念 |
-| 关联工具 | [[yt-panproduct-execution-low-cost-mvp]] | 十指模型是泛产品落地的表达工具 |
+| 关联工具 | [[tool-泛产品落地-低成本测试MVP]] | 十指模型是泛产品落地的表达工具 |
 | 关联框架 | [[yt-model-personal-map]] | 个人地图——讲香张力在迭代层 |
 | 关联工具 | [[yt-composite-pan-product-methodology]] | 泛产品设计的表达维度 |
 

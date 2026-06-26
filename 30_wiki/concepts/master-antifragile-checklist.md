@@ -27,7 +27,7 @@ related:
   - '[[master-systems-thinking]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-foresight-ten-fatal-flaws]]'
-  - '[[yt-panproduct-execution-risk-management]]'
+  - '[[tool-泛产品落地-风险管理]]'
 
 ---
 # 反脆弱决策检查清单

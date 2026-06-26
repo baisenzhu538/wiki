@@ -40,7 +40,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-panproduct-demand-industry-canvas]]'
-- '[[yt-panproduct-demand-five-step-method]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-demand-user-segmentation]]'
 - '[[case-coffee-shop-foresight]]'
@@ -255,7 +255,7 @@ Paul Graham（Y Combinator）的"How to Get Startup Ideas"对所有机会评估�
 | 关联框架 | [[yt-decision-y-model]] | Y型决策模型为光谱定位后的落地决策提供结构化方法 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 光谱图"保A争B"区间选择背后需澄清的关键假设清单 |
 | 关联框架 | [[yt-panproduct-demand-industry-canvas]] | 行业画布是光谱L5行业预判层的核心分析工具 |
-| 关联框架 | [[yt-panproduct-demand-five-step-method]] | 光谱图左端"短期利润"方向的需求调研方法支撑 |
+| 关联框架 | [[framework-一堂五步法-泛产品设计]] | 光谱图左端"短期利润"方向的需求调研方法支撑 |
 | 关联框架 | [[yt-panproduct-demand-need-discovery]] | 需求发现方法论帮助验证光谱不同层级的目标市场假设 |
 | 关联框架 | [[yt-panproduct-demand-user-segmentation]] | 用户分层模型辅助光谱图各层级的目标用户定位与规模估算 |
 

@@ -21,7 +21,7 @@ related:
   - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
   - '[[ocr-泛产品设计-落地卡片-酝酿式打磨]]'
   - '[[ocr-泛产品设计者的三大自我修养]]'
-  - '[[yt-panproduct-execution-incubation-polish]]'
+  - '[[tool-泛产品落地-酝酿式打磨]]'
 ---
 
 # OCR: 优秀泛产品设计者的自我修养

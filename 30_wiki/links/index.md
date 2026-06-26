@@ -4003,7 +4003,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## yt-panproduct-execution-risk-management|风险管理
 - 30_wiki\entities\一堂.md
 
-## [[yt-panproduct-execution-roi-analysis]]
+## [[tool-泛产品落地-ROI分析]]
 - 30_wiki\concepts\yt-panproduct-execution-business-modeling.md
 - 30_wiki\concepts\yt-panproduct-execution-management-trilogy.md
 

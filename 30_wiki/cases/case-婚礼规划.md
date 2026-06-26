@@ -1,4 +1,5 @@
 ---
+
 id: case-婚礼规划
 title: 案例：婚礼规划——完整决策流程
 type: case
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/相关VLM描述
 related:
+  - '[[case-科学决策-L4案例01]]'
+  - '[[case-科学决策-深度案例02]]'
+  - '[[case-科学决策-深度案例03]]'
+  - '[[case-科学决策-深度案例01]]'
+  - '[[case-科学决策-深度案例04]]'
 - "[[case-婚礼操盘-用户和场景]]"
 - "[[framework-科学决策三角形]]"
 - "[[tool-Y模型实操工作流]]"

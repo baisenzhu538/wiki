@@ -17,7 +17,7 @@ prerequisites: null
 component_of:
 - yt-management-toolkit-overview
 related:
-  - '[[yt-panproduct-execution-war-room]]'
+  - '[[tool-泛产品落地-攻坚会]]'
   - '[[private-domain-saas-sales-funnel]]'
   - '[[yt-tool-project-health-radar]]'
   - '[[yt-pitch-storytelling]]'

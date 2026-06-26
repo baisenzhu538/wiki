@@ -19,7 +19,7 @@ trust_level: low
 related:
   - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
   - '[[case-smart-medicine-cabinet-corporate-risk]]'
-  - '[[yt-panproduct-execution-roi-analysis]]'
+  - '[[tool-泛产品落地-ROI分析]]'
   - '[[yt-barrier-identification-skill]]'
   - '[[yt-entrepreneur-lean-validation]]'
 source_person: 王语嫣

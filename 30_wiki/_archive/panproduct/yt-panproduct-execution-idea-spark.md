@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-war-room]]'
-- '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-攻坚会]]'
+- '[[tool-泛产品落地-解放思想]]'
 - '[[yt-panproduct-aesthetic-imagination]]'
 reviewed_by: 黄药师
 source_refs:
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-灵感闪现
+status: superseded
 ---# 灵感闪现：如何激发大量idea
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -149,8 +152,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-war-room]] | 攻坚会（灵感闪现后的集中攻坚） |
-| 相关工具 | [[yt-panproduct-execution-liberate-thinking]] | 解放思想（灵感到创新的深度跃迁） |
+| 相关工具 | [[tool-泛产品落地-攻坚会]] | 攻坚会（灵感闪现后的集中攻坚） |
+| 相关工具 | [[tool-泛产品落地-解放思想]] | 解放思想（灵感到创新的深度跃迁） |
 | 相关工具 | [[yt-panproduct-aesthetic-imagination]] | 美好作品想象（审美维度的灵感激发） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |

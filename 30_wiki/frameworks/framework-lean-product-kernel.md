@@ -23,7 +23,7 @@ related:
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[case-lean-electric-scooter-mvp]]"
 ---
 

@@ -28,7 +28,7 @@ related:
 - "[[framework-lean-six-wastes]]"
 - "[[framework-lean-four-principles]]"
 - "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[concept-一堂-kernel-validation]]"
 ---
 
@@ -128,5 +128,5 @@ related:
 - 六类典型浪费：[[framework-lean-six-wastes]]
 - 低成本验证四大原则：[[framework-lean-four-principles]]
 - 精益验证概念：[[yt-entrepreneur-lean-validation]]
-- MVP 落地工具：[[yt-panproduct-execution-low-cost-mvp]]
+- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
 - 产品内核验证：[[concept-一堂-kernel-validation]]

@@ -1,20 +1,31 @@
 ---
+
 id: case-科学决策-深度案例01
 title: 案例：科学决策深度案例01
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.70
+confidence: 0.7
 trust_level: low
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
 related:
-- "[[framework-科学决策三角形]]"
-- "[[tool-决策深度-L1优先级定性]]"
-- "[[concept-X型Y型决策习惯]]"
+  - '[[case-科学决策-L4案例01]]'
+  - '[[case-科学决策-深度案例06]]'
+  - '[[case-科学决策-深度案例02]]'
+  - '[[case-科学决策-深度案例03]]'
+  - '[[case-婚礼规划]]'
+- '[[framework-科学决策三角形]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[concept-X型Y型决策习惯]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-完整财务公式决策]]'
+updated_at: '2026-06-26'
 ---
 
 # 案例：科学决策深度案例01

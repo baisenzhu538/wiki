@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-realistic-simulation]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
-- '[[yt-panproduct-execution-logic-mece]]'
-- '[[yt-panproduct-execution-management-trilogy]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-努力仿真]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
+- '[[tool-泛产品落地-逻辑MECE]]'
+- '[[tool-泛产品落地-管理三段论]]'
 - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-内核和边界
+status: superseded
 ---# 内核和边界：剥离中心思想和边界
 
 > 落地工具箱第 1 张卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -148,8 +151,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-logic-mece]] | 逻辑MECE（厘清边界后的结构化拆解） |
-| 相关工具 | [[yt-panproduct-execution-management-trilogy]] | 管理三段论（目标对应内核） |
+| 相关工具 | [[tool-泛产品落地-逻辑MECE]] | 逻辑MECE（厘清边界后的结构化拆解） |
+| 相关工具 | [[tool-泛产品落地-管理三段论]] | 管理三段论（目标对应内核） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
 | 实体页 | [[一堂]] | 一堂实体页 |

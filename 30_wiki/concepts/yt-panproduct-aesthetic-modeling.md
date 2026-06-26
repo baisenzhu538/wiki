@@ -25,11 +25,11 @@ query_triggers:
 - 泛产品设计·审美卡片：最佳实践建模
 - 设计标准
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-善用佳软]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-aesthetic-imagination]]'
 - '[[yt-model-prediction-model]]'
@@ -63,6 +63,12 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+title: yt-panproduct-aesthetic-modeling
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
 ---# 最佳实践建模：用评价维度打磨产品
 
 > 审美工具箱第 3 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-pool]] | [[一堂]]

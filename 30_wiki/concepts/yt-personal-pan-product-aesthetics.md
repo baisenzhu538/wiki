@@ -23,7 +23,7 @@ related:
   - '[[yt-personal-pan-product-concepts]]'
   - '[[yt-personal-product-design]]'
   - '[[yt-model-product-excellence]]'
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-aesthetic-collection]]'
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'

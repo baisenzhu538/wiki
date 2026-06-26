@@ -27,7 +27,7 @@ related:
 - "[[framework-lean-tenx-formula]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[concept-一堂-kernel-validation]]"
 ---
 
@@ -188,7 +188,7 @@ ABCD 模型中，扩张属于 A 象限（商业成败）问题，应在 A 象限
 - 认知投入光谱：[[framework-lean-tenx-formula]]
 - 低成本验证概念：[[yt-entrepreneur-lean-validation]]
 - 关键假设：[[yt-entrepreneur-key-hypotheses]]
-- MVP 落地：[[yt-panproduct-execution-low-cost-mvp]]
+- MVP 落地：[[tool-泛产品落地-低成本测试MVP]]
 - 产品内核验证：[[concept-一堂-kernel-validation]]
 
 ---

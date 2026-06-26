@@ -1,4 +1,5 @@
 ---
+
 id: framework-TCPR底层网络协议
 title: TCP-R 模型：商业管理世界的底层网络协议
 type: framework
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-TCPR底层网络协议.png
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-TCPR底层网络协议.md
 related:
+  - '[[tool-单元模型-单商圈]]'
+  - '[[tool-单元模型-壁垒预判]]'
+  - '[[concept-最简单元模型]]'
+  - '[[framework-单元模型-外部对抗地图]]'
+  - '[[framework-TCPR皇冠模型]]'
 - "[[yitang-domain-digest]]"
 - "[[ai-collaboration-domain-digest]]"
 - "[[framework-ai-deconstruction-methodology]]"

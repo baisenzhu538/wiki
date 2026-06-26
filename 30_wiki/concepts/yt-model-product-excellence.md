@@ -41,7 +41,7 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
+  - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[一堂]]'
   - '[[yt-panproduct-aesthetic-imagination]]'

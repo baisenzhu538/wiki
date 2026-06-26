@@ -31,8 +31,8 @@ related:
   - '[[case-essence-entrepreneurship]]'
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[skill-马易-关键假设识别与验证]]'
-- '[[yt-panproduct-execution-10x-validation]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
+- '[[tool-泛产品落地-十倍速验证]]'
+- '[[tool-泛产品落地-假设拆解]]'
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
@@ -73,6 +73,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-低成本测试MVP
+status: superseded
 ---# 低成本测试MVP：用实验思维10倍速验证假设
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -181,8 +184,8 @@ trust_level: medium
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 相关工具 | [[yt-panproduct-execution-10x-validation]] | 十倍速验证（MVP是十倍速验证的具体执行） |
-| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（先拆解假设再选MVP层级） |
+| 相关工具 | [[tool-泛产品落地-十倍速验证]] | 十倍速验证（MVP是十倍速验证的具体执行） |
+| 相关工具 | [[tool-泛产品落地-假设拆解]] | 假设拆解（先拆解假设再选MVP层级） |
 | 关联 | [[yt-entrepreneur-five-step-method]] | 五步法（精益验证对应五步法第4步） |
 | 关联 | [[yt-entrepreneur-lean-validation]] | 精益验证方法论（MVP是精益验证的核心手段） |
 | 关联 | [[yt-research-hypothesis-test]] | 假设测试（MVP设计与假设测试配套使用） |

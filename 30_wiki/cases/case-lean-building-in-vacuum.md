@@ -25,7 +25,7 @@ related:
 - "[[framework-lean-six-wastes]]"
 - "[[yt-entrepreneur-lean-validation]]"
 - "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[concept-一堂-kernel-validation]]"
 ---
 

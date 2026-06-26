@@ -1,4 +1,5 @@
 ---
+
 id: tool-决策深度-L4严格财务公式
 title: 决策深度L4：严格财务公式
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4严格财务公式_vlm_desc.md
 related:
+  - '[[dk-你的业务是一次抽样实验]]'
+  - '[[tool-科学提问刻意练习]]'
+  - '[[tool-科学决策关键训练清单]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[tool-决策深度-L3定量公式]]"
 - "[[tool-完整财务公式决策]]"
 - "[[framework-科学决策三角形]]"

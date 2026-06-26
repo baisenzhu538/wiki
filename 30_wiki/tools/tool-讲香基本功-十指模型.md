@@ -1,4 +1,5 @@
 ---
+
 id: tool-讲香基本功-十指模型
 title: 讲香基本功：十指模型修炼地图
 type: tool
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香基本功-十指模型修炼地图_vlm_desc.md
 related:
+  - '[[tool-最佳实践池子]]'
+  - '[[tool-科学提问刻意练习]]'
+  - '[[concept-思考深度分级]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[tool-讲香十指模型-超级武器库]]"
 - "[[concept-单元模型-学练用]]"
 - "[[framework-TCPR底层网络协议]]"

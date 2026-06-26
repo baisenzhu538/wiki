@@ -13,7 +13,7 @@ source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理�
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 related:
-  - '[[yt-panproduct-execution-roi-analysis]]'
+  - '[[tool-泛产品落地-ROI分析]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[case-truman-prd-checklist-evolution]]'
   - '[[dk-truman-knowledge-extraction-three-schools]]'

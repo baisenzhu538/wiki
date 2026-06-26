@@ -1,4 +1,5 @@
 ---
+
 id: framework-个人成长五步法
 title: 个人成长五步法：Truman的个人版本
 type: framework
@@ -12,6 +13,11 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/Truman的个人成长五步法_vlm_desc.md
 related:
+  - '[[tool-最佳实践池子]]'
+  - '[[yt-model-truman-five-step-growth]]'
+  - '[[tool-审美工具箱]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[dk-决策经验值]]'
 - "[[framework-科学决策三角形]]"
 - "[[concept-单元模型-学练用]]"
 - "[[framework-TCPR底层网络协议]]"

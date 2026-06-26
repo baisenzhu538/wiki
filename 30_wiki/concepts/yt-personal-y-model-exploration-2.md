@@ -24,7 +24,7 @@ query_triggers:
 - 预测
 related:
   - '[[yt-model-progress-map]]'
-  - '[[yt-panproduct-execution-review-iteration]]'
+  - '[[tool-泛产品落地-复盘迭代]]'
   - '[[yt-personal-y-model-practice]]'
   - '[[yt-personal-thinking-models]]'
   - '[[yt-entrepreneur-research-cognition]]'

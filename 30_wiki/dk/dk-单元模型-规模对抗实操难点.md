@@ -1,4 +1,5 @@
 ---
+
 id: dk-单元模型-规模对抗实操难点
 title: 规模对抗实操难点
 type: dk
@@ -15,6 +16,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-规模对抗实操难点.png
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-规模对抗实操难点.md
 related:
+  - '[[dk-单元模型-找基准值实操难点]]'
+  - '[[tool-单元模型-壁垒预判]]'
+  - '[[dk-单元模型-找单元模型实操难点]]'
+  - '[[dk-单元模型-找全成本实操难点]]'
+  - '[[case-unit-model-gashapon]]'
 - "[[yitang-domain-digest]]"
 - "[[yt-unit-model-overview]]"
 - "[[ai-collaboration-domain-digest]]"

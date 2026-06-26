@@ -1,4 +1,5 @@
 ---
+
 id: tool-项目方案评估三角形
 title: 项目方案评估三角形：收益×成本×风险三维对比
 type: tool
@@ -14,6 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-项目方案评估三角形_vlm_desc.md
 related:
+  - '[[concept-稀缺机会窗口]]'
+  - '[[tool-决策深度-L2部分定量]]'
+  - '[[yt-decision-review]]'
+  - '[[tool-Y模型实操工作流]]'
+  - '[[dk-你的业务是一次抽样实验]]'
 - "[[framework-科学决策三角形]]"
 - "[[tool-ROI决策评估画布]]"
 - "[[tool-完整财务公式决策]]"

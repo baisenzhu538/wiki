@@ -26,13 +26,13 @@ query_triggers:
 - 落地卡片
 - 落地执行
 related:
-  - '[[yt-panproduct-execution-design-principles]]'
-  - '[[yt-panproduct-execution-idea-spark]]'
-  - '[[yt-panproduct-execution-risk-management]]'
-  - '[[yt-panproduct-execution-business-modeling]]'
-  - '[[yt-panproduct-execution-good-tools]]'
+  - '[[tool-泛产品落地-设计原则]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-风险管理]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[tool-泛产品落地-善用佳软]]'
 - '[[yt-model-deep-review-iceberg]]'
-- '[[yt-panproduct-execution-milestone-breakdown]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
 - '[[yt-model-deliberate-practice-growth]]'
 reviewed_by: 黄药师
 source_refs:
@@ -62,6 +62,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
+
+superseded_by: tool-泛产品落地-复盘迭代
+status: superseded
 ---# 复盘迭代：善于向自己的经验学习
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
@@ -150,7 +153,7 @@ trust_level: medium
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
 | 关联框架 | [[yt-model-deep-review-iceberg]] | 深度复盘冰山图（完整的五层方法论） |
-| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（每完成一个里程碑复盘一次） |
+| 相关工具 | [[tool-泛产品落地-里程碑拆解]] | 里程碑拆解（每完成一个里程碑复盘一次） |
 | 关联框架 | [[yt-model-deliberate-practice-growth]] | 刻意练习成长指数（复盘是刻意练习的反馈环节） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |

@@ -44,7 +44,7 @@ related:
   - '[[yt-personal-y-model-exploration-2]]'
   - '[[yt-model-y-organization]]'
   - '[[一堂]]'
-  - '[[yt-panproduct-execution-liberate-thinking]]'
+  - '[[tool-泛产品落地-解放思想]]'
   - '[[yt-personal-thinking-models]]'
 
 ---

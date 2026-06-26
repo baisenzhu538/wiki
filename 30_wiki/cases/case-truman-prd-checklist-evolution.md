@@ -26,7 +26,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-personal-pan-product-tools]]'
 - '[[dk-modeling-checklist-formatting-rules]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[tool-泛产品落地-ROI分析]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 author: 老顽童

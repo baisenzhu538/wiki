@@ -29,7 +29,7 @@ related:
 - "[[yt-entrepreneur-five-step-method]]"
 - "[[framework-lean-false-model]]"
 - "[[concept-一堂-kernel-validation]]"
-- "[[yt-panproduct-execution-low-cost-mvp]]"
+- "[[tool-泛产品落地-低成本测试MVP]]"
 - "[[framework-strategy-business-design]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[five-step-domain-digest]]"
@@ -61,7 +61,7 @@ related:
 ## 与相邻卡的关系
 
 - 上游框架：[[yt-five-step-method]]（总纲）、[[yt-entrepreneur-five-step-method]]（创业者实操版）给出五步法的完整逻辑；本卡只回答“每一步用什么精益工具验证”。
-- 内核验证：[[concept-一堂-kernel-validation]] 与 [[yt-panproduct-execution-low-cost-mvp]] 聚焦第二步“产品内核”的验证细节。
+- 内核验证：[[concept-一堂-kernel-validation]] 与 [[tool-泛产品落地-低成本测试MVP]] 聚焦第二步“产品内核”的验证细节。
 - 战略接口：[[framework-strategy-business-design]] 在战略层定义“为谁创造什么价值”，五步法在业务层验证这些选择。
 - AI 构建接口：[[framework-wanghuan-harness-seven-stages]] 把五步法思想落地到 AI 原生复杂产品构建流程中，强调生成者与验收者分离。
 - 域图：[[five-step-domain-digest]]、[[lean-startup-domain-digest]] 提供两个域的完整索引。

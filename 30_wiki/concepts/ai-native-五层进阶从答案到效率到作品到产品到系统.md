@@ -19,7 +19,7 @@ related:
   - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[master-knowledge-compound]]'
 - '[[master-systems-thinking]]'
-- '[[yt-panproduct-execution-core-and-boundary]]'
+- '[[tool-泛产品落地-内核和边界]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-research-osl-framework]]'
@@ -107,7 +107,7 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 **与现有知识库的关联**：
 - [[master-knowledge-compound]]：知识复利框架强调”IPO+萃取+管理”的正循环，五层框架的L2（项目化Wiki）和L5（回写知识库）直接落地了这一循环的技术实现路径。知识复利是”为什么”，AI Native五层是”怎么做”。
 - [[master-systems-thinking]]：L5的”工程底座”本质上是一个反馈系统——触发→处理→校验→回写→监控。系统思考中的”反馈循环”和”杠杆点”概念可以用来诊断为什么某些AI自动化链路会失控。
-- [[yt-panproduct-execution-core-and-boundary]]：五层框架中”Demo ≠ Product”的判断标准（8条验收清单）与泛产品方法论中”内核与边界”的思维框架互补——L4产品的8条都是”边界”问题（安全、维护、合规），不是”内核”问题（功能、体验）。
+- [[tool-泛产品落地-内核和边界]]：五层框架中”Demo ≠ Product”的判断标准（8条验收清单）与泛产品方法论中”内核与边界”的思维框架互补——L4产品的8条都是”边界”问题（安全、维护、合规），不是”内核”问题（功能、体验）。
 - [[yt-note-ai-human-division]]：L2-L3 的核心不是把笔记丢给 AI，而是划定人与 AI 的分工边界——人负责判断、品味和待验证假设，AI 负责转录、重构和格式标准化。
 - [[yt-research-osl-framework]]：OSL 调研的「目标→范围→逻辑」三步法，为 L1/L2 的问答与重构提供了研究质量控制标准，避免海绵式吸收。
 - [[case-纪浩-from-zip-to-five-layers]]：纪浩从微信传 zip 到 Skills Market 的真实演化，是 L3→L5 跃迁的工程化对照——尤其是「四要素验证」和「PDCA 从 Do 开始」两条约束。

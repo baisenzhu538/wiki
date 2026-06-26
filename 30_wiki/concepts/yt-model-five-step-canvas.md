@@ -21,7 +21,7 @@ related:
   - '[[concept-一堂-key-assumptions]]'
   - '[[yt-five-step-method]]'
   - '[[case-proya-betaine-skincare-benchmark]]'
-  - '[[yt-panproduct-demand-five-step-method]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
   - '[[ocr-一堂五步法画布]]'
 - '[[yt-five-step-method]]'
 - '[[yt-tool-product-core-canvas]]'

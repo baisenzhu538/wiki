@@ -33,7 +33,7 @@ related:
 - '[[yt-research-industry-canvas]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-decision-y-model]]'
-- '[[yt-panproduct-execution-hypothesis-decomposition]]'
+- '[[tool-泛产品落地-假设拆解]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[skill-一堂-hypothesis-validation-three-axe]]'
 - '[[skill-mckinsey-hypothesis-driven-workflow]]'

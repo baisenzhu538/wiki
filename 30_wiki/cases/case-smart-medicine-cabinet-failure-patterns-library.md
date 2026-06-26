@@ -29,7 +29,7 @@ related:
   - '[[concept-smart-medicine-cabinet-international-models]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[tool-泛产品落地-ROI分析]]'
 - '[[yt-barrier-identification-skill]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-antifragile-checklist]]'
@@ -229,7 +229,7 @@ diagnostic_signals:
 **使用建议**：
 - 任何一项红灯，项目不投/不加盟。
 - 黄灯超过 3 项，要求补充证据后再决策。
-- 绿灯全部满足，仍需用 [[yt-entrepreneur-lean-validation]] 做最小成本验证，用 [[yt-panproduct-execution-roi-analysis]] 算清真实 ROI。
+- 绿灯全部满足，仍需用 [[yt-entrepreneur-lean-validation]] 做最小成本验证，用 [[tool-泛产品落地-ROI分析]] 算清真实 ROI。
 
 ---
 
@@ -246,14 +246,14 @@ diagnostic_signals:
 - **认知偏差视角**：失败案例是对"幸存者偏差"和"故事偏误"的重要纠正。参考 [[master-cognitive-bias-checklist]]。
 - **反脆弱视角**：通过研究失败模式，可以设计更具韧性的商业模式。参考 [[master-antifragile-checklist]]。
 - **精益验证视角**：药柜项目应在重资产投入前，用最小成本验证点位需求、政策边界、O2O 替代。参考 [[yt-entrepreneur-lean-validation]]。
-- **ROI 分析视角**：设备投资的真实成本包括机会成本和长期复用性。参考 [[yt-panproduct-execution-roi-analysis]]。
+- **ROI 分析视角**：设备投资的真实成本包括机会成本和长期复用性。参考 [[tool-泛产品落地-ROI分析]]。
 - **壁垒识别视角**：药柜项目的"便利性"和"品牌授权"都不是真壁垒。参考 [[yt-barrier-identification-skill]]。
 
 ### 使用建议
 
 - 在投资或合作前，用本卡的"失败模式共因"逐项自检。
 - 对每个新项目追问："这个项目与已失败的案例有何不同？不同之处是否足以避免失败？"
-- 将本卡与 [[yt-entrepreneur-lean-validation]]、[[yt-panproduct-execution-roi-analysis]] 联用，形成完整的风险评估框架。
+- 将本卡与 [[yt-entrepreneur-lean-validation]]、[[tool-泛产品落地-ROI分析]] 联用，形成完整的风险评估框架。
 
 ---
 

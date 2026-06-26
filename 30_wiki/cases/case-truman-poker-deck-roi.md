@@ -24,7 +24,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-y-model]]'
-- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[tool-泛产品落地-ROI分析]]'
 - '[[yt-decision-canvas]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 created_at: '2026-06-09'
@@ -198,7 +198,7 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 - 工具：[[yt-decision-height-toolkit]] —— 同学 2 的评估胜在"高度"：长期视角、机会成本、时间窗口。
 - 工具：[[yt-decision-width-method]] —— 同学 2 没有漏掉"教研人日""版本混乱"等宽度变量。
 - 工具：[[yt-decision-depth-ladder]] —— 同学 2 从 L1 定性判断深入到 L2/L3 的部分定量估算。
-- 工具：[[yt-panproduct-execution-roi-analysis]] —— ROI 分析在泛产品设计落地中的通用方法。
+- 工具：[[tool-泛产品落地-ROI分析]] —— ROI 分析在泛产品设计落地中的通用方法。
 - 工具：[[yt-decision-canvas]] —— 两个同学的评估本质上是在同一张 ROI 决策画布上填入了不同深度的内容。
 - 暗知识：[[dk-truman-iteration-to-aesthetic-ceiling]] —— 扑克牌案例中的"版本管理问题"与迭代到审美上限的暗知识形成对照。
 

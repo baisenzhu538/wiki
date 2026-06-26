@@ -29,7 +29,7 @@ related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-lean-essence]]'
-- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[framework-lean-false-model]]'
 - '[[framework-lean-four-principles]]'
@@ -234,7 +234,7 @@ author: 老顽童
 
 - **[[case-一堂-无人餐厅-hypothesis-failure]]** — 本案例是MVP思维的反面教材：团队在投入数千万之前，完全可以用更小的实验验证关键假设。
 - **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]** — 本案例是MVP思维的正面典范：用"开一家店"这个最小行为实验，验证了核心假设，成本仅为规模化的1%。
-- **[[yt-panproduct-execution-low-cost-mvp]]** — 泛产品视角的 MVP 武器库，与本卡共享"低成本验证"核心逻辑。
+- **[[tool-泛产品落地-低成本测试MVP]]** — 泛产品视角的 MVP 武器库，与本卡共享"低成本验证"核心逻辑。
 - **[[yt-entrepreneur-key-hypotheses]]** — 一堂 259 工具：识别关键假设是精益验证四步循环的第一步。
 
 ---

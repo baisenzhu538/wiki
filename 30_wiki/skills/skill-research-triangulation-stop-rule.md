@@ -1,4 +1,5 @@
 ---
+
 id: skill-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: skill
@@ -20,6 +21,11 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
+  - '[[system-yitang-research-workflow]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[skill-research-behavior-over-asking]]'
 - "[[dk-research-triangulation-stop-rule]]"
 - "[[yitang-research-domain-digest]]"
 - "[[framework-yitang-six-layer-cross-validation]]"

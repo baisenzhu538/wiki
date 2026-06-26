@@ -17,7 +17,7 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - '[[yt-panproduct-execution-hypothesis-decomposition]]'
+  - '[[tool-泛产品落地-假设拆解]]'
   - '[[case-shampoo-product-kernel]]'
   - '[[case-treadmill-demand-analysis]]'
   - '[[yt-product-kernel-cultivation]]'
