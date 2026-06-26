@@ -17,8 +17,8 @@ related:
   - "[[case-ji-hao-ai-workspace-chaos]]"
   - "[[dk-ji-hao-constraint-beats-talent]]"
   - "[[structured-ai-workspace]]"
-  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
-  - "[[skill-纪浩-Agent技能市场设计法]]"
+  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
 wiki_refs:
   - "[[case-ji-hao-ai-workspace-chaos]]"
   - "[[dk-ji-hao-constraint-beats-talent]]"

@@ -21,8 +21,8 @@ trust_level: low
 updated_at: '2026-06-16'
 related:
   - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[skill-decision-delay-intuition]]'
-  - '[[skill-decision-outside-view]]'
+  - '[[tool-decision-delay-intuition]]'
+  - '[[tool-decision-outside-view]]'
   - '[[master-decision-hygiene]]'
   - '[[gold-standard-manual-labels]]'
 ---

@@ -18,7 +18,7 @@ related:
   - '[[plan_20260621_skill-iteration-standard]]'
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
-  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
   - '[[case-ji-hao-skill-market-problem-validation]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'

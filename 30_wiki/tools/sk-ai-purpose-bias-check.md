@@ -28,11 +28,11 @@ tools_required:
 - 笔记本和笔
 prerequisite_skills: null
 related:
-  - '[[skill-水水-接受发散性世界观]]'
-  - '[[skill-ai-purpose-bias-check]]'
-  - '[[skill-ai-system-redundancy]]'
-  - '[[skill-水水-识别自证预言陷阱]]'
-  - '[[skill-水水-识别超级传播者风险]]'
+  - '[[tool-水水-接受发散性世界观]]'
+  - '[[tool-ai-purpose-bias-check]]'
+  - '[[tool-ai-system-redundancy]]'
+  - '[[tool-水水-识别自证预言陷阱]]'
+  - '[[tool-水水-识别超级传播者风险]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7

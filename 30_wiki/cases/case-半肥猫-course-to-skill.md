@@ -35,9 +35,9 @@ created_at: 2026-06-08
 updated_at: '2026-06-17'
 related:
   - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
   - '[[case-ji-hao-skills-market]]'
   - '[[case-truman-ai-partner]]'

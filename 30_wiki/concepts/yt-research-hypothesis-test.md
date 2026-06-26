@@ -35,8 +35,8 @@ related:
   - '[[yt-decision-y-model]]'
   - '[[tool-泛产品落地-假设拆解]]'
   - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
 source_refs:
 - 10_raw/sources/src_20260508_f7f9670e-一堂-创业必修-调研行动营.md
 - 10_raw/sources/src_20260510_f42dfdc2-一堂-创业-调研行动营口述01.md
@@ -270,8 +270,8 @@ reviewed_by: 欧阳锋
 | 关联框架 | [[yt-decision-y-model]] | 科学决策框架中的验证环节 |
 | 关联工具 | [[yt-research-expert-interview]] | 2小时获取行业共识的标准流程 |
 | 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
-| 关联工具 | [[skill-一堂-hypothesis-validation-three-axe]] | 一堂假设验证"三斧"工具 |
-| 关联工具 | [[skill-mckinsey-hypothesis-driven-workflow]] | 麦肯锡假设驱动工作流 |
+| 关联工具 | [[tool-一堂-hypothesis-validation-three-axe]] | 一堂假设验证"三斧"工具 |
+| 关联工具 | [[tool-mckinsey-hypothesis-driven-workflow]] | 麦肯锡假设驱动工作流 |
 
 ## Action Triggers
 
@@ -288,5 +288,5 @@ reviewed_by: 欧阳锋
 - [[yt-entrepreneur-key-hypotheses]] — 关键假设识别的前置框架
 - [[yt-research-intelligence-map]] — 验证需要情报获取渠道支撑
 - [[yt-research-expert-interview]] — 2 小时获取行业共识的标准流程
-- [[skill-一堂-hypothesis-validation-three-axe]] — 一堂假设验证"三斧"工具
-- [[skill-mckinsey-hypothesis-driven-workflow]] — 麦肯锡假设驱动工作流
+- [[tool-一堂-hypothesis-validation-three-axe]] — 一堂假设验证"三斧"工具
+- [[tool-mckinsey-hypothesis-driven-workflow]] — 麦肯锡假设驱动工作流

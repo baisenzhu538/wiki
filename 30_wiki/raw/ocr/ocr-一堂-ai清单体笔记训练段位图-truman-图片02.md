@@ -18,7 +18,7 @@ trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_6809033f）
 related:
   - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[skill-自我反馈修正笔记姿势]]'
+  - '[[tool-自我反馈修正笔记姿势]]'
   - '[[ocr-一堂-单元模型-abcd策略模型]]'
   - '[[ocr-一堂-单元模型-外部对抗地图]]'
   - '[[yt-note-deliberate-practice-four-elements]]'

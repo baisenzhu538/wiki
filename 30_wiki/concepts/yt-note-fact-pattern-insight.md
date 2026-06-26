@@ -14,7 +14,7 @@ confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - '[[skill-一堂-spectrum-positioning]]'
+  - '[[tool-一堂-spectrum-positioning]]'
   - '[[yt-note-extensive-research-input]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'

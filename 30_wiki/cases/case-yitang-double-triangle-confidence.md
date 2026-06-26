@@ -166,7 +166,7 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 
 - 技能：[[tool-binary-quadrant-modeling]]
 - 概念：[[dk-modeling-business-visual-logic-match]]、[[yt-model-dual-triangle-competitiveness]]
-- 方法：[[skill-Truman-双三角模型应用]]、[[yt-five-step-method]]
+- 方法：[[tool-Truman-双三角模型应用]]、[[yt-five-step-method]]
 - 案例：无
 
 ## 来源

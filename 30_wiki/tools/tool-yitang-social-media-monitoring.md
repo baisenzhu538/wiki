@@ -19,7 +19,7 @@ related:
   - '[[tool-yitang-social-media-interview]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-  - '[[skill-月白-普通人AI快速上手法]]'
+  - '[[tool-月白-普通人AI快速上手法]]'
   - "[[tool-yitang-weapon-media-search]]"
   - "[[tool-yitang-public-sentiment-research]]"
 ---

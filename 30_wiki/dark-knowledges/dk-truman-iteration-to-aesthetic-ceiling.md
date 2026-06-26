@@ -16,7 +16,7 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[skill-月白-Token智甲比控制法]]'
+  - '[[tool-月白-Token智甲比控制法]]'
   - '[[dk-my-ai-landing-three-barriers]]'
   - '[[dk-jh-llm-time-blindness]]'
   - '[[dk-ai-judgment-human-responsibility]]'

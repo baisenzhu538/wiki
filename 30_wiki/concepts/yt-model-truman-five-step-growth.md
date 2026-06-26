@@ -43,7 +43,7 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-model-personal-map]]'
   - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
-  - '[[skill-三层目标对齐法]]'
+  - '[[tool-三层目标对齐法]]'
 
 ---# Truman的个人成长五步法：用一页纸解释全部人生规划
 

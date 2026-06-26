@@ -20,7 +20,7 @@ query_triggers:
 - 十大单元模型
 related:
   - '[[yt-management-scientific-decision]]'
-  - '[[skill-ai-purpose-bias-check]]'
+  - '[[tool-ai-purpose-bias-check]]'
   - '[[yt-tool-unit-model-selection]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[sk-ai-purpose-bias-check]]'

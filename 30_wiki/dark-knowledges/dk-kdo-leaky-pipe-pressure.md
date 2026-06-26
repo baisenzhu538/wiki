@@ -10,7 +10,8 @@ domain:
 - master
 source_person: 黄药师
 source_context: KDO EC工业化迁移提案讨论，第二十二节批次4精修，2026-06-17
-source_refs: []
+source_refs:
+  - src_unknown
 confidence: 0.88
 trust_level: medium
 related:

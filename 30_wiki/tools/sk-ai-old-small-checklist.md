@@ -30,10 +30,10 @@ tools_required:
 prerequisite_skills: null
 related:
   - '[[sk-ai-system-redundancy]]'
-  - '[[skill-ai-prd-for-ai]]'
-  - '[[skill-ai-old-small-checklist]]'
-  - '[[skill-ai-ai-workspace-setup]]'
-  - '[[skill-ai-parallel-validation]]'
+  - '[[tool-ai-prd-for-ai]]'
+  - '[[tool-ai-old-small-checklist]]'
+  - '[[tool-ai-ai-workspace-setup]]'
+  - '[[tool-ai-parallel-validation]]'
   - '[[sk-ai-landing-five-steps]]'
   - '[[ai-landing-scene-selection]]'
 author: 马易

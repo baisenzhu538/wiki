@@ -12,7 +12,7 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37
 related:
-  - '[[skill-稀缺资源机会成本比对法]]'
+  - '[[tool-稀缺资源机会成本比对法]]'
   - '[[yt-barrier-technology-moat]]'
   - '[[yt-business-model-asset-light]]'
   - '[[tool-strategy-competition-traps]]'

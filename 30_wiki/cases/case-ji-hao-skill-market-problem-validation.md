@@ -17,19 +17,19 @@ created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
 related:
-  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[tool-纪浩-problem-validation-four-checks]]'
   - '[[dk-ji-hao-problem-vs-question]]'
   - '[[case-ai-assisted-review]]'
   - '[[case-truman-prd-checklist-evolution]]'
-  - '[[skill-纪浩-真需求四要素验证法]]'
+  - '[[tool-纪浩-真需求四要素验证法]]'
   - '[[dk-ji-hao-problem-vs-question]]'
-  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[tool-纪浩-problem-validation-four-checks]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 wiki_refs:
 - '[[dk-ji-hao-problem-vs-question]]'
-- '[[skill-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'

@@ -22,7 +22,7 @@ related:
   - '[[yt-model-cognitive-upgrade-framework]]'
   - '[[yt-panproduct-demand-project-background]]'
   - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
+  - '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
   - '[[tool-泛产品落地-善用佳软]]'
   - '[[yt-model-agent-architecture]]'
   - '[[yt-personal-knowledge-extraction]]'

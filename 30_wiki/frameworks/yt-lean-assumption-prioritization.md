@@ -33,7 +33,7 @@ related:
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-entrepreneur-lean-validation]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
   - '[[yt-decision-abcd-model]]'
   - '[[case-jh-yitang-vs-sqlhelper]]'
 diagnostic_signals:
@@ -175,7 +175,7 @@ diagnostic_signals:
 - [[yt-entrepreneur-five-step-method]]：本框架的坐标系，用于给假设定位阶段。
 - [[yt-entrepreneur-key-hypotheses]]：关键假设的识别方法，是本框架的输入。
 - [[yt-entrepreneur-lean-validation]]：精益验证的整体方法论，本框架是其假设排序环节的具体规则。
-- [[skill-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证三种手段，用于落地本框架排序后的验证动作。
+- [[tool-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证三种手段，用于落地本框架排序后的验证动作。
 - [[yt-decision-abcd-model]]：用于判断当前问题是生死问题（A 类）还是效率问题（C/D 类），避免用错误层级的方法验证。
 
 ---

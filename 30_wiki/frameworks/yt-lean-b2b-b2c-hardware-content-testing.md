@@ -33,7 +33,7 @@ related:
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-lean-assumption-verification-3means]]'
   - '[[yt-lean-consumer-deep-experience-testing]]'

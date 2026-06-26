@@ -18,7 +18,7 @@ related:
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
+  - '[[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[yt-management-toolkit-overview]]'
   - '[[yt-model-dual-triangle-competitiveness]]'

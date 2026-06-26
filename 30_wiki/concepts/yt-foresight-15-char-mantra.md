@@ -49,7 +49,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[skill-一堂-business-prediction-15-char]]'
+  - '[[tool-一堂-business-prediction-15-char]]'
   - '[[yt-foresight-deliverables-four-levels]]'
   - '[[yt-foresight-probability-engineering]]'
   - '[[case-truman-yitang-foresight]]'

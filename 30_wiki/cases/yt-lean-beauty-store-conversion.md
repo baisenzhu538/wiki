@@ -36,7 +36,7 @@ related:
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[concept-一堂-key-assumptions]]'
   - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
 diagnostic_signals:
 - signal: 200元体验用户中极少有人询问或升级到3980元套餐
   framework_lens: 产品内核假设 / 关键转化链路

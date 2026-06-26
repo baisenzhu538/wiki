@@ -88,4 +88,4 @@ diagnostic_signals:
 ## 相关卡/互链
 
 - [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是五层体系中“何时需要导诊台”的判断基准
-- [[skill-纪浩-AI工作空间与导诊台设计法]] —— 导诊台的具体搭建方法，包含路由规则的设计和维护
+- [[tool-纪浩-AI工作空间与导诊台设计法]] —— 导诊台的具体搭建方法，包含路由规则的设计和维护

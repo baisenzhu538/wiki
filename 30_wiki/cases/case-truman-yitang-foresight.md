@@ -38,7 +38,7 @@ related:
   - '[[yt-foresight-15-char-mantra]]'
   - '[[case-gudong-tea-shop-foresight]]'
   - '[[yt-foresight-probability-engineering]]'
-  - '[[skill-一堂-business-prediction-15-char]]'
+  - '[[tool-一堂-business-prediction-15-char]]'
   - '[[yt-foresight-deliverables-four-levels]]'
   - "case-ether-online-acquisition"
   - "yt-management-founder-role"

@@ -16,15 +16,15 @@ updated_at: '2026-06-19'
 related:
   - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
   - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
+  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
   - '[[case-半肥猫-course-to-skill]]'
-  - '[[skill-纪浩-真需求四要素验证法]]'
+  - '[[tool-纪浩-真需求四要素验证法]]'
   - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 wiki_refs:
 - '[[case-半肥猫-course-to-skill]]'
-- '[[skill-纪浩-真需求四要素验证法]]'
+- '[[tool-纪浩-真需求四要素验证法]]'
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
@@ -145,7 +145,7 @@ diagnostic_signals:
 ## 相关卡/互链
 
 - **[[case-半肥猫-course-to-skill]]** —— 另一个半肥猫案例，展示了从课程到Skill的八步工作流。与本案例共同说明：课程学习的终点不是作业，而是可复用工具。
-- **[[skill-纪浩-真需求四要素验证法]]** —— 确保工具化的前提是真实需求。半肥猫用真实业务做练习，正是"真实锚点"的落地。
+- **[[tool-纪浩-真需求四要素验证法]]** —— 确保工具化的前提是真实需求。半肥猫用真实业务做练习，正是"真实锚点"的落地。
 - **[[dk-ban-fei-mao-silky-answers-are-dangerous]]** —— 为什么必须连续纠偏AI的回答。本案例中的四轮纠偏是该暗知识的具体操作实例。
 
 ---

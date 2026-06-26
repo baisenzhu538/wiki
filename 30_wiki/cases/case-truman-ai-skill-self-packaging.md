@@ -30,7 +30,7 @@ related:
   - '[[dk-modeling-ai-self-retrospection]]'
   - '[[tool-iterative-recursive-deep-dig]]'
   - '[[case-truman-prd-checklist-evolution]]'
-  - '[[skill-封装可复用skill]]'
+  - '[[tool-封装可复用skill]]'
 tags:
 - '#domain/skill-engineering'
 - '#content-format/case-study'
@@ -223,7 +223,7 @@ AI 扫描完所有纠偏记录后，自动：
 - [[dk-modeling-ai-self-retrospection]] —— 暗知识：AI 自己复盘自己，把一次成功交付变成下次基础。本案例是该暗知识的完整落地实例。
 - [[tool-iterative-recursive-deep-dig]] —— 方法论工具：Truman 的 skill 质量来自"喷—撞—改"循环，本案例的 AI 自封装是迭代递归深挖的自动化实现。
 - [[case-truman-prd-checklist-evolution]] —— 同构案例：从"反复被打回"到"不再二错"，Truman 早期用人工清单实现的经验固化，在本案例中升级为 AI 自动封装。
-- [[skill-封装可复用skill]] —— 技能卡：封装可复用 Skill 的通用步骤，可作为本案例方法论的简化版快速入口。
+- [[tool-封装可复用skill]] —— 技能卡：封装可复用 Skill 的通用步骤，可作为本案例方法论的简化版快速入口。
 - [[modeling-capability-for-kdo]] / [[modeling-three-stages]] / [[case-truman-livestream-sop-iteration]] / [[modeling-to-kdo-toolchain]] —— 建模能力体系与 KDO 工具链。
 
 ---

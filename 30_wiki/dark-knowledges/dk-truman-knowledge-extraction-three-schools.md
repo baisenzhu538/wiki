@@ -18,7 +18,7 @@ related:
   - '[[dk-modeling-model-arsenal-paradigms]]'
   - '[[case-modeling-essence-schools]]'
   - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
-  - '[[skill-一堂-product-kernel-canvas]]'
+  - '[[tool-一堂-product-kernel-canvas]]'
   - '[[dk-truman-document-is-real-project-is-fake]]'
   - '[[yt-personal-pan-product-tools]]'
   - '[[yt-note-checklist-concept]]'

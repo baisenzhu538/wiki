@@ -18,7 +18,7 @@ related:
   - '[[sk-ai-voice-input-doubao]]'
   - '[[course-to-skill-conversion]]'
   - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
   - '[[sk-ai-prd-for-ai]]'
   - '[[course-to-skill-conversion]]'
   - '[[prd-as-ai-instruction]]'

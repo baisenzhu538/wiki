@@ -18,8 +18,8 @@ created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
   - '[[concept-一堂-kernel-iteration]]'
-  - '[[skill-一堂-five-step-validation]]'
-  - '[[skill-对标借鉴他人决策维度]]'
+  - '[[tool-一堂-five-step-validation]]'
+  - '[[tool-对标借鉴他人决策维度]]'
   - '[[concept-一堂-key-assumptions]]'
   - '[[concept-一堂-product-kernel]]'
   - '[[concept-一堂-product-kernel]]'

@@ -14,7 +14,7 @@ target_roles:
 - 黄药师（Builder）
 related:
   - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[skill-decision-outside-view]]'
+  - '[[tool-decision-outside-view]]'
   - '[[pilot-atomic-chunk-comparison]]'
   - '[[label-accuracy-standard-alignment]]'
   - '[[labeling-research-alignment]]'

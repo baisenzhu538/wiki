@@ -30,11 +30,11 @@ tools_required:
 - 数据管理工具（Notion / Airtable 等）
 prerequisite_skills: []
 related:
-  - '[[skill-ai-narrative-test]]'
-  - '[[skill-ai-prd-for-ai]]'
-  - '[[skill-ai-purpose-bias-check]]'
+  - '[[tool-ai-narrative-test]]'
+  - '[[tool-ai-prd-for-ai]]'
+  - '[[tool-ai-purpose-bias-check]]'
   - '[[sk-ai-old-small-checklist]]'
-  - '[[skill-ai-system-redundancy]]'
+  - '[[tool-ai-system-redundancy]]'
   - '[[sk-ai-purpose-bias-check]]'
   - '[[tool-checklist-cheatsheet-modeling]]'
 author: unknown

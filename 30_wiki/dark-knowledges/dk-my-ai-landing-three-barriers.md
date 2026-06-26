@@ -15,7 +15,7 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[skill-纪浩-处理AI生成代码运行异常]]'
+  - '[[tool-纪浩-处理AI生成代码运行异常]]'
   - '[[tool-ai-skill-engineering-guide]]'
   - '[[dk-jh-llm-time-blindness]]'
   - '[[dk-ai-judgment-human-responsibility]]'
@@ -57,5 +57,5 @@ related:
 
 ## Synthesis
 
-- [[skill-马易-风口痛点识别法]] —— 第一层壁垒的突破方法：先找到高价值场景。
-- [[skill-纪浩-里程碑验证法]] —— 第三层壁垒的突破方法：建立可持续的验证机制。
+- [[tool-马易-风口痛点识别法]] —— 第一层壁垒的突破方法：先找到高价值场景。
+- [[tool-纪浩-里程碑验证法]] —— 第三层壁垒的突破方法：建立可持续的验证机制。

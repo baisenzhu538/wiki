@@ -19,9 +19,9 @@ wiki_refs:
 - '[[sk-ai-question-problem-checklist]]'
 - '[[sk-ai-parallel-validation]]'
 related:
-  - '[[skill-ai-problem-validation]]'
-  - '[[skill-ai-prd-for-ai]]'
-  - '[[skill-ai-evidence-check]]'
+  - '[[tool-ai-problem-validation]]'
+  - '[[tool-ai-prd-for-ai]]'
+  - '[[tool-ai-evidence-check]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[sk-ai-prd-for-ai]]'
   - '[[sk-ai-question-problem-checklist]]'

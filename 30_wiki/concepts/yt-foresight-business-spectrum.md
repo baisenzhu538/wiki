@@ -21,7 +21,7 @@ query_triggers:
 - 终局预判
 - 创业段位
 related:
-  - '[[skill-一堂-spectrum-positioning]]'
+  - '[[tool-一堂-spectrum-positioning]]'
   - '[[case-escort-service-tiered-growth]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
   - '[[case-ai-time-management-tiered-growth]]'

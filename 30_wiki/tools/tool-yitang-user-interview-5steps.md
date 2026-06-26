@@ -31,7 +31,7 @@ related:
   - '[[tool-yitang-research-deep-attribution]]'
   - '[[tool-yitang-weapon-anonymous-identity]]'
   - '[[dk-strategy-07-strategy-vs-dividend]]'
-  - '[[skill-月白-里程碑思维拆解设计流程]]'
+  - '[[tool-月白-里程碑思维拆解设计流程]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
   - "[[framework-yitang-research-weapon-system]]"
   - "[[tool-yitang-field-research]]"

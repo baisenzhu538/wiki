@@ -31,7 +31,7 @@ related:
   - '[[yt-lean-assumption-prioritization]]'
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
   - '[[concept-一堂-key-assumptions]]'
   - '[[yt-entrepreneur-five-step-method]]'
 diagnostic_signals:
@@ -147,7 +147,7 @@ diagnostic_signals:
 
 - [[yt-entrepreneur-lean-validation]]：三问是精益验证在日常决策中的落地习惯。
 - [[yt-entrepreneur-key-hypotheses]] / [[concept-一堂-key-assumptions]]：三问的前提是能够拆出关键假设。
-- [[skill-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证是三问中"更低成本验证"的手段来源。
+- [[tool-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证是三问中"更低成本验证"的手段来源。
 - [[yt-entrepreneur-five-step-method]]：前置假设优先原则与五步法阶段判断相呼应。
 
 ## 置信度说明

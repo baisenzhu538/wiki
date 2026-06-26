@@ -13,7 +13,7 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §18
 related:
   - '[[dk-yb15-reverse-image-description]]'
-  - '[[skill-ai-narrative-test]]'
+  - '[[tool-ai-narrative-test]]'
   - '[[case-xian-franchise-location-decision]]'
   - "[[framework-strategy-brm]]"
 ---

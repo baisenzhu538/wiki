@@ -19,7 +19,7 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - '[[skill-一堂-product-kernel-add-subtract]]'
+  - '[[tool-一堂-product-kernel-add-subtract]]'
   - '[[yt-product-kernel-definition]]'
   - '[[concept-一堂-key-assumptions]]'
   - '[[concept-一堂-kernel-validation]]'
@@ -29,7 +29,7 @@ related:
   - '[[yt-foresight-15-char-mantra]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-product-kernel-canvas]]'
+- '[[tool-一堂-product-kernel-canvas]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

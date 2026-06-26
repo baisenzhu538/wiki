@@ -27,7 +27,7 @@ related:
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-lean-false-model-ai]]'
   - '[[yt-lean-qualitative-quantitative-research]]'
@@ -151,7 +151,7 @@ diagnostic_signals:
 ## 与其他卡片的关系
 
 - 与 [[yt-entrepreneur-lean-validation]]：深层体验测试是精益验证在产品内核阶段的具体落地。
-- 与 [[skill-一堂-hypothesis-validation-three-axe]]：行为观察、完整场景、对照组对应三种验证手段的交叉使用。
+- 与 [[tool-一堂-hypothesis-validation-three-axe]]：行为观察、完整场景、对照组对应三种验证手段的交叉使用。
 - 与 [[yt-entrepreneur-five-step-method]]：本方法主要服务于"解决方案 / 产品内核"阶段的验证，前置假设（需求）未验证时不宜直接套用。
 
 ## 置信度说明

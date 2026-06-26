@@ -19,7 +19,7 @@ related:
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[skill-问题驱动式深度思考笔记]]'
-  - '[[skill-多源输入法]]'
+  - '[[tool-多源输入法]]'
   - '[[yt-note-l4-internalization]]'
   - '[[yt-note-checklist-concept]]'
   - '[[dk-truman-flag-note-taking]]'
@@ -192,7 +192,7 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 
 ## Synthesis
 
-- [[skill-多源输入法]] —— 该skill卡从学习方法论角度讲广泛涉猎，本概念卡则聚焦于**笔记场景**中的广泛涉猎——特别是如何利用剩余脑力、如何将多源信息汲取形成可复用的笔记结构。
+- [[tool-多源输入法]] —— 该skill卡从学习方法论角度讲广泛涉猎，本概念卡则聚焦于**笔记场景**中的广泛涉猎——特别是如何利用剩余脑力、如何将多源信息汲取形成可复用的笔记结构。
 
 - [[yt-note-l4-internalization]] —— L4的"广泛涉猎"和"问题驱动"在本卡中得到具体化：不是抽象地说"要多看书"，而是给出了可操作的比例、时机和质量门槛。
 

@@ -30,11 +30,11 @@ updated_at: '2026-06-18'
 tools_required: []
 prerequisite_skills: null
 related:
-  - '[[skill-ai-narrative-test]]'
+  - '[[tool-ai-narrative-test]]'
   - '[[sk-ai-system-redundancy]]'
   - '[[case-yitang-sanjieke-benchmark-failure]]'
-  - '[[skill-月白-电商场景图三类分类法]]'
-  - '[[skill-ai-system-redundancy]]'
+  - '[[tool-月白-电商场景图三类分类法]]'
+  - '[[tool-ai-system-redundancy]]'
   - '[[sk-ai-purpose-bias-check]]'
   - '[[yt-pitch-storytelling]]'
   - '[[concept-minto-pyramid-principle]]'

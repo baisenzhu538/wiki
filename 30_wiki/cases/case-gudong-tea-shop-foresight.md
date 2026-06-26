@@ -39,7 +39,7 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[skill-按分阶练习路径渐进掌握方法]]'
+  - '[[tool-按分阶练习路径渐进掌握方法]]'
   - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
   - '[[case-xiaolong-ecommerce-foresight]]'
   - '[[case-truman-yitang-foresight]]'

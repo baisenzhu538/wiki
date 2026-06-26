@@ -39,7 +39,7 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 related:
   - '[[yt-management-founder-role]]'
   - '[[yt-management-basic-skills]]'
-  - '[[skill-一堂-product-kernel-canvas]]'
+  - '[[tool-一堂-product-kernel-canvas]]'
   - '[[case-truman-livestream-sop-iteration]]'
   - '[[yt-tob-sales-unit-model]]'
   - "[[yt-management-founder-role]]"

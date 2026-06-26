@@ -25,7 +25,7 @@ related:
   - '[[yt-five-step-common-pitfalls]]'
   - '[[yt-five-step-level-blindspots]]'
   - '[[yt-business-analysis-cognitive-biases]]'
-  - '[[skill-cognitive-bias-12-check]]'
+  - '[[tool-cognitive-bias-12-check]]'
 tags:
 - '#chunk-type/anti-pattern'
 - '#domain/yitang'
@@ -143,4 +143,4 @@ diagnostic_signals:
 - [[yt-five-step-common-pitfalls]] —— 五步法的常见误区，这条是对"框架合法化偏见"的更深层补充。
 - [[yt-five-step-level-blindspots]] —— 段位盲区与自评陷阱，与"框架合法化偏见"形成两个维度的认知陷阱。
 - [[yt-business-analysis-cognitive-biases]] —— 商业分析中的认知偏差清单，覆盖确认偏误、群体思维等。
-- [[skill-cognitive-bias-12-check]] —— 认知偏差快速自检工具，可用于框架分析后的反偏差检查。
+- [[tool-cognitive-bias-12-check]] —— 认知偏差快速自检工具，可用于框架分析后的反偏差检查。

@@ -9,7 +9,7 @@ related:
   - "[[kdo-flywheel]]"
   - "[[dk-c8-format-complete-mind-empty]]"
   - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[skill-纪浩-日志驱动排查法]]"
+  - "[[tool-纪浩-日志驱动排查法]]"
 query_triggers:
   - 错误自暴露
   - 矛盾检测

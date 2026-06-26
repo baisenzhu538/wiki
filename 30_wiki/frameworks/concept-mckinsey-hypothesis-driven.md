@@ -31,7 +31,7 @@ diagnostic_signals:
 related:
   - '[[yt-entrepreneur-scientific-method]]'
   - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[concept-mckinsey-mece]]'
@@ -87,7 +87,7 @@ Hypothesis-Driven Approach（假设驱动工作法）是麦肯锡咨询的核心
 | [[yt-entrepreneur-key-hypotheses]] | Hypothesis-Driven 是"关键假设"概念的底层工作流 | 一堂有259工具帮你拆解假设，但缺少"如何形成初始假设"和"如何围绕假设设计验证实验"的方法论。这张卡补齐从"识别假设"到"验证假设"的闭环 |
 | [[concept-一堂-hypothesis-driven-business-methodology]] | 麦肯锡版本与一堂版本同源但场景不同 | 一堂版本聚焦创业场景（需求→产品→商业模式→增长→壁垒），麦肯锡版本聚焦通用商业分析问题诊断。创业者在完成0-1验证后，进入规模化运营阶段时，麦肯锡版本更有用 |
 | [[yt-entrepreneur-five-step-method]] | 五步法的每一步都可以嵌入假设驱动循环 | 在"需求分析"步骤中，用假设驱动快速验证"用户是否有真实痛点"；在"验证/实验"步骤中，用假设驱动设计最小成本实验 |
-| [[skill-一堂-hypothesis-validation-three-axe]] | 三板斧是假设驱动在创业场景中的具体化 | 三板斧的"做加法→做减法→快速验证"是假设驱动工作法在创业假设验证中的特化版本。理解假设驱动的通用框架后，三板斧的操作逻辑会更清晰 |
+| [[tool-一堂-hypothesis-validation-three-axe]] | 三板斧是假设驱动在创业场景中的具体化 | 三板斧的"做加法→做减法→快速验证"是假设驱动工作法在创业假设验证中的特化版本。理解假设驱动的通用框架后，三板斧的操作逻辑会更清晰 |
 
 ## Critique
 
@@ -135,7 +135,7 @@ Hypothesis-Driven Approach（假设驱动工作法）是麦肯锡咨询的核心
 | 下游工具 | [[concept-mckinsey-issue-tree]] | Issue Tree 是假设驱动中"拆解假设"的具体工具——把核心假设拆成可独立验证的子假设树，每个节点都是一个小假设 |
 | 同域概念 | [[yt-entrepreneur-key-hypotheses]] | 一堂的关键假设概念是假设驱动在创业场景中的特化——聚焦"业务成功所依赖的前提条件"，与麦肯锡的通用假设驱动方法论同源 |
 | 同域框架 | [[concept-一堂-hypothesis-driven-business-methodology]] | 一堂假设驱动方法论聚焦创业全链路（需求→产品→商业模式→增长→壁垒），麦肯锡版本聚焦通用问题诊断，两者互补 |
-| 同域技能 | [[skill-一堂-hypothesis-validation-three-axe]] | 三板斧是假设驱动在创业验证中的实操化——"做加法"对应形成假设，"做减法"对应优先级排序，"快速验证"对应验证路径设计 |
+| 同域技能 | [[tool-一堂-hypothesis-validation-three-axe]] | 三板斧是假设驱动在创业验证中的实操化——"做加法"对应形成假设，"做减法"对应优先级排序，"快速验证"对应验证路径设计 |
 | 同域案例 | [[case-一堂-陈贤敏汉堡-hypothesis-validation]] | 陈贤敏中式汉堡的案例体现了假设驱动核心逻辑：先形成"需求+产品+单店模型"假设，用1家实验店低成本验证，确认后再扩张 |
 | 同域案例 | [[case-一堂-无人餐厅-hypothesis-failure]] | 无人餐厅的反面教材：在未验证"机器人经营价值"假设前就大规模投入，违背了假设驱动"先验证后投入"的核心原则 |
 | 跨域对比 | [[yt-entrepreneur-lean-validation]] | 精益验证强调"快速实验获取反馈"，假设驱动强调"围绕假设设计验证路径"——两者互补：精益验证提供速度，假设驱动提供方向 |

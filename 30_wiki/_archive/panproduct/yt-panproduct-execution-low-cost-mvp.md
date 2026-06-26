@@ -30,7 +30,7 @@ related:
   - '[[yt-tob-core-characteristics]]'
   - '[[case-essence-entrepreneurship]]'
   - '[[yt-entrepreneur-lean-validation]]'
-  - '[[skill-马易-关键假设识别与验证]]'
+  - '[[tool-马易-关键假设识别与验证]]'
   - '[[tool-泛产品落地-十倍速验证]]'
   - '[[tool-泛产品落地-假设拆解]]'
   - '[[yt-model-personal-pitch-toolkit]]'

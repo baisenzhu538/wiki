@@ -19,9 +19,9 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[skill-ai-landing-five-steps]]'
-  - '[[skill-ai-old-small-checklist]]'
-  - '[[skill-马易-AI落地四阶段验证法]]'
+  - '[[tool-ai-landing-five-steps]]'
+  - '[[tool-ai-old-small-checklist]]'
+  - '[[tool-马易-AI落地四阶段验证法]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[ai-landing-scene-selection]]'
   - '[[sk-ai-old-small-checklist]]'

@@ -12,7 +12,7 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §23
 related:
-  - '[[skill-马易-中国企业AI落地五步法]]'
+  - '[[tool-马易-中国企业AI落地五步法]]'
   - '[[concept-mckinsey-7s]]'
   - '[[dk-strategy-08-not-local-optimum]]'
   - '[[case-essence-education-strategy]]'

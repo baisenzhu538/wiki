@@ -27,12 +27,12 @@ related:
   - '[[ocr-一堂五步法画布]]'
   - '[[case-一堂-无人餐厅-hypothesis-failure]]'
   - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[skill-一堂-product-kernel-canvas]]'
+  - '[[tool-一堂-product-kernel-canvas]]'
   - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 wiki_refs:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[skill-一堂-product-kernel-canvas]]'
+- '[[tool-一堂-product-kernel-canvas]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 definition_of_done:
 - 核心定义、与其他概念的区别、典型场景已清晰

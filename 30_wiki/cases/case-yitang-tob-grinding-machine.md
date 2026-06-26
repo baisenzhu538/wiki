@@ -9,7 +9,8 @@ domain:
 - entrepreneurship
 - b2b
 - manufacturing
-source_refs: []
+source_refs:
+  - src_unknown
 tags:
 - '#domain/yitang'
 - '#domain/b2b'

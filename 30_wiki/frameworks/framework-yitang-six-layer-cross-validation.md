@@ -32,7 +32,7 @@ related:
   - '[[case-yitang-senior-university-product-design]]'
   - '[[framework-yitang-iterative-recursive-digging]]'
   - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[skill-深度分层学习]]'
+  - '[[tool-深度分层学习]]'
   - '[[tool-yitang-research-exhaust-means]]'
   - "[[framework-yitang-oscar-research]]"
   - "[[framework-yitang-18-strategy-cards]]"

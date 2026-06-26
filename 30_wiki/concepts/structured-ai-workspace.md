@@ -16,7 +16,7 @@ related:
   - "[[prd-as-ai-instruction]]"
   - "[[ai-learning-closed-loop]]"
   - "[[concept-纪浩-ai-collaboration-five-layer]]"
-  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
 query_triggers:
   - AI工作空间怎么搭建
   - 和AI协作文件怎么管理

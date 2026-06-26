@@ -18,9 +18,9 @@ updated_at: '2026-06-19'
 related:
   - '[[dk-ji-hao-logs-fastest-ignored]]'
   - '[[dk-ji-hao-simple-complex-routing]]'
-  - '[[skill-纪浩-AI工具脚本化约束]]'
-  - '[[skill-纪浩-处理AI生成代码运行异常]]'
-  - '[[skill-纪浩-Agent开工检查单制作法]]'
+  - '[[tool-纪浩-AI工具脚本化约束]]'
+  - '[[tool-纪浩-处理AI生成代码运行异常]]'
+  - '[[tool-纪浩-Agent开工检查单制作法]]'
   - '[[case-ji-hao-ui-design-constraint-evolution]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
 wiki_refs:
@@ -90,4 +90,4 @@ diagnostic_signals:
 
 - [[case-ji-hao-ui-design-constraint-evolution]] — 约束文档如何从0到1100行、如何在每个阶段产生中间产物、如何用约束驱动最终输出。关键转折点是从“单点纠偏”转向“中间产物驱动”。
 - [[concept-纪浩-ai-collaboration-five-layer]] — 约束文档属于第三层（Agent服务文档）中的“工作手册”部分。当多个任务共享一套约束时，它会沉淀为经验与模式库。
-- [[skill-纪浩-problem-validation-four-checks]] — 在写约束文档之前，先用四问法确认你要解决的是真问题还是伪需求。
+- [[tool-纪浩-problem-validation-four-checks]] — 在写约束文档之前，先用四问法确认你要解决的是真问题还是伪需求。

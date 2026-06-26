@@ -15,7 +15,7 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - '[[skill-马易-判断标准快速产出法]]'
+  - '[[tool-马易-判断标准快速产出法]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[concept-research-responsibility-boundary]]'
   - '[[concept-yitang-ideal-research-goal]]'

@@ -58,4 +58,4 @@ related:
 ## Synthesis
 
 - [[dk-ai-judgment-human-responsibility]] —— 时间盲症是AI需要人类判断兜底的典型场景之一。
-- [[skill-马易-风口痛点识别法]] —— 在识别风口痛点时，时间敏感度是关键判断维度。
+- [[tool-马易-风口痛点识别法]] —— 在识别风口痛点时，时间敏感度是关键判断维度。

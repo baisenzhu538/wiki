@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 related:
-  - '[[skill-纪浩-任务交付物标准化]]'
-  - '[[skill-纪浩-Agent开工检查单制作法]]'
-  - '[[skill-纪浩-AI工具脚本化约束]]'
-  - '[[skill-纪浩-处理AI生成代码运行异常]]'
-  - '[[skill-纪浩-AI使用边界管理法]]'
+  - '[[tool-纪浩-任务交付物标准化]]'
+  - '[[tool-纪浩-Agent开工检查单制作法]]'
+  - '[[tool-纪浩-AI工具脚本化约束]]'
+  - '[[tool-纪浩-处理AI生成代码运行异常]]'
+  - '[[tool-纪浩-AI使用边界管理法]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[ai-collaboration-mindset-shift]]'

@@ -31,7 +31,7 @@ tools_required:
 prerequisite_skills: []
 related:
   - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[skill-ai-problem-validation]]'
+  - '[[tool-ai-problem-validation]]'
   - '[[dk-modeling-ai-compound-leverage]]'
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'

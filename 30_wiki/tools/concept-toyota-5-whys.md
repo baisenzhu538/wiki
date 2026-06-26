@@ -29,10 +29,10 @@ diagnostic_signals:
   framework_lens: 5 Whys 检查：'问题是X'是否已经是经过根因分析的结论，还是只是表象描述
   follow_up_question: 你说的'X'是第几次'为什么'之后的结论？如果还没问到第3层，你可能只是在解决表象
 related:
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-mckinsey-issue-tree]]'
   - '[[concept-mckinsey-issue-tree]]'
-  - '[[skill-一堂-kernel-three-questions]]'
+  - '[[tool-一堂-kernel-three-questions]]'
   - '[[yt-product-kernel-cultivation]]'
   - '[[yt-entrepreneur-five-step-method]]'
 tags: []
@@ -77,7 +77,7 @@ claim:03 [conf=0.85] **每一步都需要事实支撑，不能纯粹推理。** 
 
 | 桥接目标 | 桥接关系 | 使用场景 |
 |:---------|:---------|:---------|
-| [[skill-一堂-kernel-three-questions]] | 5 Whys 是内核三问中"根因追问"精神的最轻量级工具 | 在用户转化率下降时，内核三问要求问"用户为什么不选我们"——5 Whys 帮你追问到真正的根因而不是表象 |
+| [[tool-一堂-kernel-three-questions]] | 5 Whys 是内核三问中"根因追问"精神的最轻量级工具 | 在用户转化率下降时，内核三问要求问"用户为什么不选我们"——5 Whys 帮你追问到真正的根因而不是表象 |
 | [[yt-product-kernel-cultivation]] | 产品内核迭代中需要根因分析来识别真正的用户痛点 | 内核迭代时团队常误解表象为原因（5 Whys 强迫再往下探索两层） |
 | [[yt-entrepreneur-five-step-method]] | 五步法的"需求分析"步骤中需要根因分析来确认用户痛点 | 在需求分析阶段，5 Whys 帮你区分"用户说的痛点"和"用户真正的痛点"——表象 vs 根本原因 |
 | [[concept-mckinsey-issue-tree]] | Issue Tree 中的 Why Tree 是 5 Whys 的结构化版本 | 当问题复杂到需要多个并行分支分析时，用 Why Tree 替代 5 Whys |
@@ -182,7 +182,7 @@ claim:03 [conf=0.85] **每一步都需要事实支撑，不能纯粹推理。** 
 
 | 关系 | 目标节点 | 说明 |
 |:------|:---------|:-----|
-| 同域技能 | [[skill-一堂-kernel-three-questions]] | 内核三问中的"用户为什么选我们"本质上是根因追问——5 Whys 提供了系统性的根因分析工具，让内核三问从"直觉式问题"升级为"结构化追问" |
+| 同域技能 | [[tool-一堂-kernel-three-questions]] | 内核三问中的"用户为什么选我们"本质上是根因追问——5 Whys 提供了系统性的根因分析工具，让内核三问从"直觉式问题"升级为"结构化追问" |
 | 同域框架 | [[yt-product-kernel-cultivation]] | 产品内核迭代时往往需要根因分析来识别真正的用户痛点——5 Whys 是迭代前的"病因诊断"工具 |
 | 同域框架 | [[yt-entrepreneur-five-step-method]] | 五步法的需求分析步骤需要区分"用户说的痛点"和"用户真正的痛点"——5 Whys 帮你逐层探索到真正的根本痛点 |
 | 协同工具 | [[concept-mckinsey-issue-tree]] | Issue Tree 中的 Why Tree 是 5 Whys 的结构化升级——当问题复杂到需要多个并行分支时，用 Why Tree 替代 5 Whys |

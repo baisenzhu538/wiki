@@ -16,9 +16,9 @@ related:
   - "[[yt-note-checklist-concept]]"
   - "[[dk-truman-flag-note-taking]]"
   - "[[yt-note-extensive-research-input]]"
-  - "[[skill-多源输入法]]"
-  - "[[skill-一堂-hypothesis-validation-three-axe]]"
-  - "[[skill-复盘推演法]]"
+  - "[[tool-多源输入法]]"
+  - "[[tool-一堂-hypothesis-validation-three-axe]]"
+  - "[[tool-复盘推演法]]"
 query_triggers:
   - 问题驱动式笔记
   - 用问题驱动学习
@@ -176,7 +176,7 @@ Truman在分析一个视频号爆款案例时，没有从"这个视频有哪些�
 
 - [[yt-note-extensive-research-input]] —— 问题驱动和广泛涉猎是同一枚硬币的两面：问题决定你去哪里找，广泛涉猎决定你找到了什么。二者缺一不可。
 
-- [[skill-多源输入法]] —— 多源输入为问题驱动式笔记提供了候选答案库。问题是"箭头"，多源输入是"箭羽"，二者共同决定笔记的射程和精度。
+- [[tool-多源输入法]] —— 多源输入为问题驱动式笔记提供了候选答案库。问题是"箭头"，多源输入是"箭羽"，二者共同决定笔记的射程和精度。
 
 ## Action Triggers
 

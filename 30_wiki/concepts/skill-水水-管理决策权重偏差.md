@@ -18,8 +18,8 @@ related:
   - "[[master-decision-hygiene]]"
   - "[[master-cognitive-bias-checklist]]"
   - "[[yt-decision-y-model]]"
-  - "[[skill-decision-delay-intuition]]"
-  - "[[skill-decision-outside-view]]"
+  - "[[tool-decision-delay-intuition]]"
+  - "[[tool-decision-outside-view]]"
 definition_of_done:
   - 操作步骤清晰可执行
   - 适用场景有正反例

@@ -14,7 +14,7 @@ source_context: McKinsey 问题解决方法论核心工具，用于将复杂商�
 source_refs: []
 related:
   - '[[concept-mckinsey-mece]]'
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-toyota-5-whys]]'
   - '[[concept-mckinsey-mece]]'
   - '[[concept-mckinsey-hypothesis-driven]]'

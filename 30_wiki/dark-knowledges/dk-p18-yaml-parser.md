@@ -16,7 +16,7 @@ updated_at: '2026-06-18'
 related:
   - '[[kdo-yaml-frontmatter-safety]]'
   - '[[fix-data-curator-parse-bug]]'
-  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
   - '[[dk-p19-quote-yaml]]'
   - '[[dk-f13-handwritten-yaml-parser]]'
   - '[[dk-c2-dual-status-machine]]'

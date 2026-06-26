@@ -24,7 +24,7 @@ related:
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
   - '[[dk-modeling-ai-without-judgment]]'
-  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
   - '[[tool-ai-skill-engineering-guide]]'
   - '[[case-truman-ai-skill-self-packaging]]'

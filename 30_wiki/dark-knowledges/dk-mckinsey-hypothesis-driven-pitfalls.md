@@ -17,13 +17,13 @@ related:
   - '[[tool-泛产品落地-假设拆解]]'
   - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
   - '[[case-milktea-five-step]]'
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-mckinsey-hypothesis-driven]]'
   - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -43,7 +43,7 @@ trust_level: medium-high
 | 桥接目标 | 桥接关系 | 使用场景 |
 |:---------|:---------|:---------|
 | [[concept-一堂-hypothesis-driven-business-methodology]] | 假设驱动方法论的黑暗面 | 一堂课程强调"假设驱动的优势"，但未深度讨论其中的认知陷阱。这张暗知卡补齐这个视角——知道方法论的陷阱才能避免成为方法论的囚徒 |
-| [[skill-一堂-hypothesis-validation-three-axe]] | 三板斧的"快速验证"是防止走偏的关键约束 | 三板斧要求假设在形成后必须用最小成本快速验证，暗知卡揭示了"最小成本"很难定义——团队往往会无意识地抬高门槛，从而推迟验证 |
+| [[tool-一堂-hypothesis-validation-three-axe]] | 三板斧的"快速验证"是防止走偏的关键约束 | 三板斧要求假设在形成后必须用最小成本快速验证，暗知卡揭示了"最小成本"很难定义——团队往往会无意识地抬高门槛，从而推迟验证 |
 | [[yt-entrepreneur-key-hypotheses]] | 关键假设的质量判断 | 一堂的关键假设概念提供了"识别假设"的方法，暗知卡补充了"假设质量判断"的暗知——假设驱动有效的前提是你愿意接受假设是错的 |
 
 ## 走偏模式
@@ -98,10 +98,10 @@ trust_level: medium-high
 ## Synthesis
 
 - **[[concept-mckinsey-hypothesis-driven]]** — 这张暗知卡是假设驱动框架概念的阴影面。框架卡告诉你"怎么做"，暗知卡告诉你"会踩什么坑"。两者必须配合使用——只知道怎么做不知道坑在哪里，等于往坑里跳。
-- **[[skill-mckinsey-hypothesis-driven-workflow]]** — 技能卡的"判断标准"节是这张暗知卡的警报器——"假设可证伪"、"验证路径清晰"、"实验设计中立"三条标准直接对应走偏模式1/2/3的防御措施。
+- **[[tool-mckinsey-hypothesis-driven-workflow]]** — 技能卡的"判断标准"节是这张暗知卡的警报器——"假设可证伪"、"验证路径清晰"、"实验设计中立"三条标准直接对应走偏模式1/2/3的防御措施。
 - **[[concept-一堂-hypothesis-driven-business-methodology]]** — 一堂的假设驱动方法论强调"先胜后战"的价值，但没有深入讨论"如果假设错了会怎么样"。这张暗知卡补齐了这个视角——假设驱动有效的前提是你愿意接受假设是错的，并且有机制确保这一点。
 - **[[case-一堂-无人餐厅-hypothesis-failure]]** — 无人餐厅案例是走偏模式1的典型案例——假设形成后未验证就开始执行，违背了假设驱动"先验证后投入"的核心原则。这个案例说明：假设驱动有效的前提是"假设只是假设，不是结论"。
-- **[[skill-一堂-hypothesis-validation-three-axe]]** — 三板斧的"快速验证"步骤是防止走偏模式1的关键——它强制要求假设在形成后必须用最小成本快速验证。但这个"最小成本"很难定义，暗知卡揭示了这个困难——很多团队会无意识地抬高"最小成本"的门槛，从而推迟验证。
+- **[[tool-一堂-hypothesis-validation-three-axe]]** — 三板斧的"快速验证"步骤是防止走偏模式1的关键——它强制要求假设在形成后必须用最小成本快速验证。但这个"最小成本"很难定义，暗知卡揭示了这个困难——很多团队会无意识地抬高"最小成本"的门槛，从而推迟验证。
 - **[[yt-entrepreneur-key-hypotheses]]** — 一堂的关键假设概念提供了"识别假设"的方法，但假设质量的好坏很大程度上取决于这个假设是否可证伪、是否有明确的验证路径。这张暗知卡补充了"假设质量判断"的暗知。
 
 ## Feedback Path

@@ -30,7 +30,7 @@ diagnostic_signals:
 related:
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[skill-纪浩-AI对话上下文隔离]]'
+  - '[[tool-纪浩-AI对话上下文隔离]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[ai时代判断力口述]]'

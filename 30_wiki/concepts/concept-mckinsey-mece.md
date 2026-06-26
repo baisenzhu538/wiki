@@ -14,7 +14,7 @@ source_context: McKinsey 问题解决方法论核心原则，最早系统化呈�
 source_refs: []
 related:
   - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[skill-mece体系框架法]]'
+  - '[[tool-mece体系框架法]]'
   - '[[dk-modeling-ai-iterative-prompting]]'
   - '[[concept-minto-pyramid-principle]]'
   - '[[framework-logic-cleanliness-five-levels]]'
@@ -24,7 +24,7 @@ related:
   - '[[concept-mckinsey-7s]]'
   - '[[case-yitang-radar-chart-selection]]'
 wiki_refs:
-- '[[skill-mece体系框架法]]'
+- '[[tool-mece体系框架法]]'
 - '[[tool-泛产品落地-逻辑MECE]]'
 - '[[yt-foresight-model-taxonomy]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
@@ -131,7 +131,7 @@ McKinsey 在为一家中国消费品公司做市场进入策略时，初始的 M
 
 | 一堂卡片 | 位置 | 桥接方式 |
 |:-----------|:-----|:---------|
-| [[skill-mece体系框架法]] | 科学学习 IPO 输出层 | 一堂版聚焦"学习时如何构建知识框架"，本卡聚焦"决策时如何检查思维遗漏"。学习时用一堂版确定结构，商业决策时用经典版检查遗漏。 |
+| [[tool-mece体系框架法]] | 科学学习 IPO 输出层 | 一堂版聚焦"学习时如何构建知识框架"，本卡聚焦"决策时如何检查思维遗漏"。学习时用一堂版确定结构，商业决策时用经典版检查遗漏。 |
 | [[tool-泛产品落地-逻辑MECE]] | 泛产品设计落地卡片 | 一堂版提供了 L1→L4 四层递进的具体操作路径，本卡提供了更原始的原理表述。当你在泛产品设计中做逻辑拆解时，先用一堂版确定层级，再用经典版检查"不重不漏"。 |
 | [[yt-foresight-model-taxonomy]] | 终局预判模型分类 | 一堂预判模型的维度选择隐含使用了 MECE 原则，但未显式命名。本卡提供了“维度选择时如何检查 MECE”的具体方法论——当你在做终局预判时，用这张卡检查你的维度列表是否“不重不漏”。 |
 | [[concept-一堂-hypothesis-driven-business-methodology]] | 创业分析方法论 | 一堂的 259 工具是创业场景下的 MECE 应用。本卡提供了更原始的、不依赖特定课程的 MECE 原理表述——当你离开一堂框架处理其他商业问题时，这张卡仍然适用。 |
@@ -143,7 +143,7 @@ McKinsey 在为一家中国消费品公司做市场进入策略时，初始的 M
 
 | 关系 | 目标节点 | 说明 |
 |:------|:---------|:------|
-| 一堂对照版 | [[skill-mece体系框架法]] | 一堂将 MECE 定位为"科学学习 IPO"中的体系框架工具，聚焦于学习与知识输出。本卡是经典咨询版本，聚焦于问题拆解与决策。两者可以互补使用——学习时用一堂版确定结构，商业决策时用经典版检查遗漏。 |
+| 一堂对照版 | [[tool-mece体系框架法]] | 一堂将 MECE 定位为"科学学习 IPO"中的体系框架工具，聚焦于学习与知识输出。本卡是经典咨询版本，聚焦于问题拆解与决策。两者可以互补使用——学习时用一堂版确定结构，商业决策时用经典版检查遗漏。 |
 | 一堂对照版 | [[tool-泛产品落地-逻辑MECE]] | 一堂将 MECE 定位为泛产品设计的“落地卡片”，强调从 L1 碎片到 L4 逻辑链的四层递进。本卡与之关联：泛产品设计版提供了更具体的操作层级，经典版提供了更通用的原理层级。 |
 | 下游工具 | [[concept-mckinsey-issue-tree]] | Issue Tree 是 MECE 原则的主要应用场景——将复杂问题逐层拆解为 MECE 的子问题。没有 MECE 检查的 Issue Tree 只是一个随意的思维导图，不是结构化分析。 |
 | 下游工具 | [[concept-minto-pyramid-principle]] | 金字塔原理中的每一层支撑论点之间也必须满足 MECE——你不能用两个互相重叠的论点来支撑同一个上层结论。金字塔是 MECE 在沟通场景中的具体应用。 |

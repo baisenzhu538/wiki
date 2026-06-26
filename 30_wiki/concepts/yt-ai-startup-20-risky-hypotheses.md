@@ -43,7 +43,7 @@ author: "老顽童"
 related:
   - '[[dk-pseudo-demand-trap]]'
   - '[[case-ai-time-management-tiered-growth]]'
-  - '[[skill-月白-风格不变局部调整]]'
+  - '[[tool-月白-风格不变局部调整]]'
   - '[[yt-entrepreneur-business-growth]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
 

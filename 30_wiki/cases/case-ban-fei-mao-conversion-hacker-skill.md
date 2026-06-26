@@ -16,10 +16,10 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
   - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
-  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[case-ban-fei-mao-skill-ab-test]]'
 pipeline:

@@ -35,7 +35,7 @@ related:
   - '[[yt-entrepreneur-lean-validation]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[tool-一堂-hypothesis-validation-three-axe]]'
   - '[[yt-entrepreneur-five-step-method]]'
 diagnostic_signals:
 - signal: 团队一上来就问"要做多少份问卷、多少个访谈"，却说不清产品形态

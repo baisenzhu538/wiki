@@ -14,7 +14,7 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[skill-月白-一抽流长提示词写作法]]'
+  - '[[tool-月白-一抽流长提示词写作法]]'
   - '[[dk-yb13-zero-shot-style-transfer]]'
   - '[[dk-yb17-product-lifestyle-photography]]'
   - '[[dk-yb14-multi-image-commonality]]'

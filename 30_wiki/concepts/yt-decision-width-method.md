@@ -27,7 +27,7 @@ query_triggers:
 - 团队盲区
 - 公司盲区
 related:
-  - '[[skill-三阶追问法穷尽决策要素]]'
+  - '[[tool-三阶追问法穷尽决策要素]]'
   - '[[ocr-一堂-科学决策-宽度-团队]]'
   - '[[yt-decision-canvas]]'
   - '[[yt-decision-habit-shift]]'

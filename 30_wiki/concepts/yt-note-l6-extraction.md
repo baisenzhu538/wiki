@@ -15,7 +15,7 @@ source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
   - '[[yt-note-problem-solving-capability]]'
-  - '[[skill-现场建模式萃取笔记]]'
+  - '[[tool-现场建模式萃取笔记]]'
   - '[[yt-note-l4-internalization]]'
   - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'

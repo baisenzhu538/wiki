@@ -1,0 +1,85 @@
+---
+id: tool-ai-voice-input-doubao
+title: 技能：口喷式语音输入法
+type: tool
+domain:
+- ai-collaboration
+- yitang- ai-saas
+status: needs-review
+author: unknown
+reviewed_by: pending
+created_at: '2026-06-15'
+confidence: 0.7
+trust_level: medium-low
+source_refs:
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+updated_at: '2026-06-16'
+related:
+- '[[sk-ai-voice-input-doubao]]'
+- '[[tool-ai-ai-workspace-setup]]'
+- '[[tool-ai-oral-spray-input]]'
+- '[[tool-ai-prd-for-ai]]'
+- '[[tool-ai-evidence-check]]'
+---
+# 技能：口喷式语音输入法
+
+## 原始表述
+
+半肥猫在AI学习落地分享中提到了这个方法：用豆包输入法的语音输入功能，想到什么直接说，说完后语音转文字整理。关键是"不要等到电脑前才记，有想法立即口喷"。
+
+## 操作步骤
+
+1. 安装配置
+1. 手机下载安装豆包输入法
+2. 设置中开启语音输入功能
+3. 3. 设置快捷触发（建议：长按空格键）
+4. 日常使用
+1. 有想法时，长按空格键触发语音输入
+2. 直接说，不要等待"组织好语言"——先说再修
+3. 3. 说完后自动转文字，快速校对识别错误
+4. 4. 复制文本到目标应用（微信/飞书/AI对话框）
+5. 与AI工具联动
+1. 在AI对话框中切换为豆包输入法
+2. 用语音输入复杂提示词（比键盘输入快2-3倍）
+3. 3. 检查AI转换后的文本，确认意图未被改变
+4. 4. 如果识别错误率高，改用键盘输入关键词段落
+5. 建议的日常流程
+6. 早上到工位前的路上：用语音记录今天要做的事
+7. 开会时有灵感：用语音记下，会后整理
+8. 睡前脑子里有想法：用语音记录，第二天再处理
+
+## 适用场景
+
+- 路上突然有个想法，手上没电脑
+- 睡前脑子里有个点子，但不想坐起来开电脑
+- 开会/吃饭/散步时有灵感，需要快速捕捉
+- 需要给AI写一段复杂描述，但手机键盘输入太慢
+
+## 工具/环境
+
+- 豆包输入法 App（iOS/Android）
+- 任意 AI 对话工具（ChatGPT / Claude / Kimi 等）
+- 麦克风（手机内置或蓝牙耳机）
+
+## 常见失败模式
+
+- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
+- 赶时间/赶节奏 → 结果草率 → **给足充足时间，不要缩短步骤**
+
+## 为什么有效
+
+大多数人的好想法都消失在"等到有空再记"的过程中。这个方法让你在想法出现的当下就捕捉它，不给遗忘机会。
+
+## 关联技能
+
+- [[sk-ai-ai-workspace-setup]]
+- [[course-to-skill-conversion]]
+
+## 来源
+
+- 半肥猫，AI俱乐部-AI学习落地分享，2026-06
+
+## Feedback Path
+
+- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里

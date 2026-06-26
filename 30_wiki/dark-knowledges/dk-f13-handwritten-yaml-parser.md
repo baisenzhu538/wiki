@@ -15,7 +15,7 @@ created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
   - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
   - '[[dk-p18-yaml-parser]]'
   - '[[dk-p19-quote-yaml]]'
   - '[[proposal-yaml-frontmatter-standardization]]'

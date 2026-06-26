@@ -32,7 +32,7 @@ related:
   - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
   - '[[tool-yitang-supply-chain-research]]'
   - '[[yt-research-intelligence-map]]'
-  - '[[skill-执行对标研究三步法]]'
+  - '[[tool-执行对标研究三步法]]'
   - "[[framework-yitang-research-weapon-system]]"
   - "[[tool-yitang-financial-report-intelligence]]"
   - "[[tool-yitang-database-index]]"

@@ -14,7 +14,7 @@ difficulty: advanced
 confidence: 0.9
 related:
   - '[[yt-note-expert-interview-modeling]]'
-  - '[[skill-知识树存储记忆法]]'
+  - '[[tool-知识树存储记忆法]]'
   - '[[yt-note-five-levels-training]]'
   - '[[dk-note-surplus-brainpower]]'
   - '[[tool-yitang-weapon-full-product-experience]]'

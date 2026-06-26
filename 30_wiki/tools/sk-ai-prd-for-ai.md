@@ -31,7 +31,7 @@ tools_required:
 prerequisite_skills: null
 related:
   - '[[sk-ai-voice-input-doubao]]'
-  - '[[skill-ai-prd-for-ai]]'
+  - '[[tool-ai-prd-for-ai]]'
   - '[[sk-ai-evidence-check]]'
   - '[[voice-input-doubao]]'
   - '[[sk-ai-question-problem-checklist]]'

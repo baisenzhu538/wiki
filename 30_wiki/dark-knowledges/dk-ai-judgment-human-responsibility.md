@@ -16,7 +16,7 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[skill-纪浩-处理AI生成代码运行异常]]'
+  - '[[tool-纪浩-处理AI生成代码运行异常]]'
   - '[[dk-my-ai-landing-three-barriers]]'
   - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
   - '[[dk-ai-judgment-programmer-paradox]]'
@@ -70,4 +70,4 @@ related:
 
 - [[concept-纪浩-ai-collaboration-five-layer]] —— 五层结构中"项目层"是人的判断层，与本暗知识同源。
 - [[dk-jh-llm-time-blindness]] —— LLM时间盲症说明AI的推理有内在局限，需要人的判断来兜底。
-- [[skill-纪浩-里程碑验证法]] —— 里程碑验证是"敢不敢点头"的具体操作流程。
+- [[tool-纪浩-里程碑验证法]] —— 里程碑验证是"敢不敢点头"的具体操作流程。

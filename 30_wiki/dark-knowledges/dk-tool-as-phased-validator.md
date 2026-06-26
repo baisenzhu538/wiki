@@ -124,7 +124,7 @@ tags:
 - [[yt-tob-barriers]]：ToB 域中组织阻力被工具概率掩盖的案例。
 - [[ai-short-drama-conflict-three-axes]]：短剧域中冲突设计需要分阶段校验情绪曲线。
 - [[dk-modeling-ai-judgment-limit]]：建模域中判断节点必须留在人手里的边界。
-- [[skill-note-one-line-one-point]]：笔记域中格式化只是第一阶段，后续复用才是价值所在。
+- [[tool-note-one-line-one-point]]：笔记域中格式化只是第一阶段，后续复用才是价值所在。
 
 ---
 

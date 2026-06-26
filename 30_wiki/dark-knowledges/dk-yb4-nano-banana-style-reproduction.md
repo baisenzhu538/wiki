@@ -14,8 +14,8 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[skill-月白-AI模型选择策略]]'
-  - '[[skill-月白-PPT全AI生成工作流]]'
+  - '[[tool-月白-AI模型选择策略]]'
+  - '[[tool-月白-PPT全AI生成工作流]]'
   - '[[dk-yb1-aigc-mvp-before-ps]]'
   - '[[dk-yb12-ai-image-analysis-replace-training]]'
   - '[[dk-yb6-midjourney-chinese-text-fix]]'

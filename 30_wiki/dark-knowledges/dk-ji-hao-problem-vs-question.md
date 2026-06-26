@@ -21,10 +21,10 @@ related:
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
   - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[tool-纪浩-problem-validation-four-checks]]'
 wiki_refs:
 - '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[skill-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
 pipeline:
 - confidence-published
 - confidence-source-cited
@@ -84,7 +84,7 @@ AI 时代的大部分人在用 AI 回答 Question（满足好奇心），而非�
 - [ ] 找到真实场景：把"如果有一个 XX 就好了"转成"我每次都要花 X 时间做 Y"
 - [ ] 定义 Before/After：明确现状与理想状态，能量化尽量量化
 - [ ] 检查因果链：确认解决方案路径可执行，没有"靠 AI 自己发挥"的断点
-- [ ] 用四问法快速验证（详见 [[skill-纪浩-problem-validation-four-checks]]）：
+- [ ] 用四问法快速验证（详见 [[tool-纪浩-problem-validation-four-checks]]）：
   1. Before & After：解决前后是什么状态？
   2. 真实锚点：具体场景在哪？
   3. 受益人：谁会觉得开心？
@@ -93,6 +93,6 @@ AI 时代的大部分人在用 AI 回答 Question（满足好奇心），而非�
 ## 相关卡 / 互链
 
 - [[case-ji-hao-skill-market-problem-validation]] — 展示了如何用四问法将模糊需求转化为可验证的真实 Problem。关键转折点是找到了"微信传 zip 的痛点"这个真实场景
-- [[skill-纪浩-problem-validation-four-checks]] — 可复制的检查清单，用于快速判断需求是 Question 还是 Problem
+- [[tool-纪浩-problem-validation-four-checks]] — 可复制的检查清单，用于快速判断需求是 Question 还是 Problem
 - [[case-ji-hao-ui-design-constraint-evolution]] — 纪浩从 Question（"AI 能帮我做 UI 吗？"）转到 Problem（"每次做 UI 花极高成本，怎么把设计规范沉淀为可复用资产？"），最终产出可复用方案
 - [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

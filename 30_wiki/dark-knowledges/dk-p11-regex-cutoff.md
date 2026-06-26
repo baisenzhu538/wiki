@@ -17,7 +17,7 @@ related:
   - '[[dk-c1-cjk-regex-silent-fail]]'
   - '[[dk-f1-regex-on-cjk]]'
   - '[[dk-small-format-error-cascades-to-system-failure]]'
-  - '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+  - '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
   - '[[dk-p18-yaml-parser]]'
   - '[[master-first-principles]]'
   - '[[kdo-yaml-frontmatter-safety]]'

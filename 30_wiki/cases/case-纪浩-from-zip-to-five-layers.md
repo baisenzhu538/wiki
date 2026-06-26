@@ -20,8 +20,8 @@ related:
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[case-ji-hao-skills-market]]'
   - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[skill-纪浩-真需求四要素验证法]]'
-  - '[[skill-纪浩-日志驱动排查法]]'
+  - '[[tool-纪浩-真需求四要素验证法]]'
+  - '[[tool-纪浩-日志驱动排查法]]'
   - '[[case-纪浩-focus-prompt-design]]'
   - '[[case-半肥猫-course-to-skill]]'
   - '[[dk-ji-hao-pdca-starts-from-do]]'
@@ -184,4 +184,4 @@ L5 Skills Market（规模复用的基础设施）
 - **同作者案例**：[[case-纪浩-focus-prompt-design]] — `/focus` 功能中四要素验证与导诊台的具体应用
 - **Skill 工程对照**：[[case-半肥猫-course-to-skill]] — 课程转 Skill 的八步工程化流程，与 Skills Market 形成复用基础设施的互补视角
 - **暗知识**：[[dk-ji-hao-pdca-starts-from-do]] — "PDCA 从 Do 开始不是从 Plan 开始"
-- **技能落地**：[[skill-纪浩-真需求四要素验证法]]、[[skill-纪浩-日志驱动排查法]]
+- **技能落地**：[[tool-纪浩-真需求四要素验证法]]、[[tool-纪浩-日志驱动排查法]]

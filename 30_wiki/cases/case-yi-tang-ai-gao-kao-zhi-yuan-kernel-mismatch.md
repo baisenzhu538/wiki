@@ -28,17 +28,17 @@ related:
   - '[[dk-modeling-ai-judgment-limit]]'
   - '[[dk-modeling-ai-compound-leverage]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[skill-一堂-product-kernel-canvas]]'
+  - '[[tool-一堂-product-kernel-canvas]]'
   - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
   - '[[yt-tool-product-core-canvas]]'
   - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
   - '[[case-shampoo-product-kernel]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-product-kernel-canvas]]'
+- '[[tool-一堂-product-kernel-canvas]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[yt-tool-product-core-canvas]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
@@ -135,7 +135,7 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 ## 相关卡/互链
 
 - **[[concept-一堂-hypothesis-driven-business-methodology]]** — 假设驱动：先验证"用户选择逻辑"再定内核。
-- **[[skill-一堂-product-kernel-canvas]]** — 产品内核画布：把"用户为什么选你"显性化。
+- **[[tool-一堂-product-kernel-canvas]]** — 产品内核画布：把"用户为什么选你"显性化。
 - **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 愿望思维警示：不要从技术优势出发假设市场需要。
 - **[[yt-tool-product-core-canvas]]** — 工具：用画布定位内核与边界。
 - **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]** — 对照：先验证用户真需求再规模化，避免愿望驱动。

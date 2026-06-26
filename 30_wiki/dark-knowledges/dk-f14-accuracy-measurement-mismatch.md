@@ -14,7 +14,7 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[skill-马易-AI落地场景筛选-四有新人法则]]'
+  - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
   - '[[label-accuracy-standard-alignment]]'
   - '[[dk-p17-accuracy-gap]]'
   - '[[labeling-research-alignment]]'

@@ -15,18 +15,18 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[tool-纪浩-problem-validation-four-checks]]'
   - '[[dk-ji-hao-novice-mindset-advantage]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[skill-纪浩-Problem与Question区分法]]'
+  - '[[tool-纪浩-Problem与Question区分法]]'
   - '[[dk-ji-hao-constraint-beats-talent]]'
   - '[[dk-ji-hao-constraint-beats-talent]]'
   - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[tool-纪浩-problem-validation-four-checks]]'
 wiki_refs:
 - '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
-- '[[skill-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -127,7 +127,7 @@ pipeline:
 
 - [[dk-ji-hao-constraint-beats-talent]]
 - [[dk-ji-hao-novice-mindset-advantage]]
-- [[skill-纪浩-problem-validation-four-checks]]
+- [[tool-纪浩-problem-validation-four-checks]]
 
 ---
 

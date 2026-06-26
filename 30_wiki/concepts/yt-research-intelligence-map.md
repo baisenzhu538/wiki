@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-reverse-data-analysis]]'
   - '[[yt-research-osl-framework]]'
   - '[[tool-yitang-research-cross-validation]]'
-  - '[[skill-一堂-five-step-validation]]'
+  - '[[tool-一堂-five-step-validation]]'
   - '[[tool-yitang-public-information-research]]'
   - '[[yt-research-osl-framework]]'
   - '[[yt-research-competitor-toolkit]]'

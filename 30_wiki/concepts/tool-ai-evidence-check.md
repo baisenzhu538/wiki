@@ -1,0 +1,76 @@
+---
+id: tool-ai-evidence-check
+title: 技能：AI输出证据核查三问法
+type: tool
+domain:
+- ai-collaboration
+- yitang- ai-saas
+status: draft
+author: unknown
+reviewed_by: pending
+created_at: '2026-06-15'
+confidence: 0.6
+trust_level: low
+source_refs:
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+updated_at: '2026-06-16'
+related:
+- '[[tool-ai-problem-validation]]'
+- '[[tool-ai-ai-workspace-setup]]'
+- '[[tool-ai-voice-input-doubao]]'
+- '[[tool-ai-prd-for-ai]]'
+- '[[sk-ai-evidence-check]]'
+---
+# 技能：AI输出证据核查三问法
+
+## 原始表述
+
+半肥猫在反复强调：AI输出不能直接信任，必须做证据核查。他的方法是：看结论时先问"这个结论的依据是什么？有没有对应的数据或例子支撑？"如果AI给不出，说明可能在"编造"。
+
+## 操作步骤
+
+1. 每次AI给出结论后，问这三个问题
+| 编号 | 问题 | 目的 | 如果答不出来 |
+|------|------|------|------------|
+| **Q1** | 这个结论的依据是什么？ | 检查论据是否存在 | 说明AI可能在"感觉对"，而非"有证据" |
+| **Q2** | 有没有具体的数据或案例支撑？ | 检查证据质量 | 如果只是模糊描述没有具体案例，可能是编造的 |
+| **Q3** | 这个依据是否来源于我给的上下文，还是AI自己补充的？ | 区分真实信息和流幻 | 如果是AI自己补充的，必须单独验证 |
+7. 三问后的动作
+8. 如果Q1答不出 → 让AI重新回答，要求给出依据
+9. 如果Q2的案例是编造的 → 让AI在你提供的上下文内寻找，不要"自己想"
+10. 如果Q3是AI自己补充的 → 要求AI标注哪些部分来源于输入上下文，哪些是AI的补充
+11. 提高效率的技巧
+12. 在给AI的初始指令中就加上这句：
+13. > "给出结论时，必须同时列出支撑这个结论的具体依据，包括数据、案例或逻辑推导。如果依据不是来自于我提供的上下文，请明确标注。"
+
+## 适用场景
+
+- AI给出一个看起来很对的结论，但你不确定是否真的对
+- AI提供了一些数据或案例，你想验证真假
+- 需要用AI输出做出重要决策，但担心出错
+
+## 工具/环境
+
+- 数据管理工具（Notion / Airtable 等）
+
+## 常见失败模式
+
+- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
+
+## 为什么有效
+
+AI的骗局不在于"说错话"——而在于"说的好像很对"。这个三问法能让你在被"似乎有道理"的回答骗之前检查一下依据。
+
+## 关联技能
+
+- ai-coaching-loop
+- [[sk-ai-question-problem-checklist]]
+
+## 来源
+
+- 半肥猫，AI俱乐部-AI学习落地分享，2026-06
+
+## Feedback Path
+
+- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里

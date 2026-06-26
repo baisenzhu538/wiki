@@ -25,7 +25,7 @@ wiki_refs:
   - "[[yt-scale-economy-weapon-library]]"
   - "[[yt-customer-acquisition-toolkit]]"
   - "[[case-truman-yitang-foresight]]"
-  - "[[skill-ai-evidence-check]]"
+  - "[[tool-ai-evidence-check]]"
 definition_of_done:
   - 问题描述清晰
   - 方案可理解
@@ -172,7 +172,7 @@ diagnostic_signals:
 - 框架：[[yt-scale-economy-weapon-library]] — 规模经济武器库，解释调研能力复用为何是规模经济
 - 工具：[[yt-customer-acquisition-toolkit]] — 获客工具合集，覆盖线上获客渠道分类
 - 案例：[[case-truman-yitang-foresight]] — Truman在以太内部创业的背景
-- 技能：[[skill-ai-evidence-check]] — AI时代做全网调研需要证据核查
+- 技能：[[tool-ai-evidence-check]] — AI时代做全网调研需要证据核查
 
 ## 来源
 

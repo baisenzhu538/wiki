@@ -153,7 +153,7 @@ Agent 定义层：
 
 ## 相关
 
-- [[skill-一堂-product-kernel-canvas]]
+- [[tool-一堂-product-kernel-canvas]]
 - [[concept-一堂-product-kernel]]
 - concept-一堂-business-prediction
 - [[concept-一堂-key-assumptions]]

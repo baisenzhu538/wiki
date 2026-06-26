@@ -1,0 +1,83 @@
+---
+id: tool-月白-模型识别与边界测试法
+title: 技能：模型识别与边界测试法
+type: tool
+status: draft
+domain:
+- design- design
+source_person: 月白
+source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+source_refs:
+- src_20260522_38173b48-design-ai-image-generation
+wiki_refs: null
+definition_of_done:
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required: null
+prerequisite_skills: null
+created_at: 2026-06-07
+updated_at: '2026-06-16'
+pipeline:
+- confidence-draft
+author: 月白
+reviewed_by: pending
+confidence: 0.6
+trust_level: low
+related:
+- '[[tool-月白-分层自洽海报生成法]]'
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-AI设计严苛批评法]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-月白-精准提示词消除模型幻觉]]'
+---
+# 技能：模型识别与边界测试法
+
+## 原始表述
+
+模型识别与边界测试法是月白在AI设计师实操中提出的实操方法。
+
+## 操作步骤
+
+1. 系统学习艺术史、设计史、人文史
+2. 大量测试各AIGC模型（DALL·E系列、SD各版本等）
+3. 记录各模型的风格指纹和生成特征
+4. 建立模型-风格-适用场景的对应数据库
+
+## 适用场景
+
+- 需要精准选择生成模型时
+- 分析竞品AI图片出处时
+- 深入研究AI设计原理时
+
+## 不适用场景
+
+- 日常快速出图有固定工具时
+- 对模型底层无研究兴趣时
+
+## 工具/环境
+
+- DALL·E 1/2/Pro
+- Stable Diffusion 2.1/3.0/4.0
+- 模型特征对比笔记
+
+## 常见失败模式
+
+- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
+- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+
+## 为什么有效
+
+AI模型本质是压缩的人类艺术史，理解其训练源头才能预判其能力边界
+
+## 关联技能
+
+- 待补充
+
+## 来源
+
+- 月白，AI设计师实操
+
+## Feedback Path
+
+- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里

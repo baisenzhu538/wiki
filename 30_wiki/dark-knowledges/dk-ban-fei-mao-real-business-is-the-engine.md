@@ -12,10 +12,10 @@ source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
-  - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
+  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
+  - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
   - [[case-ban-fei-mao-from-assignment-to-tool]]
   - [[concept-半肥猫-ai-learning-toolification-methodology]]

@@ -21,8 +21,8 @@ related:
   - '[[yt-model-prompt-engineering]]'
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[skill-纪浩-真需求四要素验证法]]'
-  - '[[skill-纪浩-日志驱动排查法]]'
+  - '[[tool-纪浩-真需求四要素验证法]]'
+  - '[[tool-纪浩-日志驱动排查法]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[dk-ji-hao-simple-complex-routing]]'
   - '[[dk-ji-hao-pdca-starts-from-do]]'
@@ -146,11 +146,11 @@ trust_level: low
 
 | 关系 | 目标节点 | 说明 |
 |---|---|---|
-| 技能落地 | [[skill-纪浩-真需求四要素验证法]] | L1 四要素验证——真需求的判断门禁 |
-| 技能落地 | [[skill-纪浩-AI工作空间与导诊台设计法]] | L2 Agent Workspace 搭建——五大模块的搭建方法 |
-| 技能落地 | [[skill-纪浩-Do-first-PDCA渐进迭代法]] | L3 Do-first PDCA——从行动开始的迭代流程 |
-| 技能落地 | [[skill-纪浩-Agent技能市场设计法]] | L5 Skills Market——给 Agent 用的分发平台 |
-| 技能落地 | [[skill-纪浩-日志驱动排查法]] | L5 日志驱动排查——规模复用的排查方法 |
+| 技能落地 | [[tool-纪浩-真需求四要素验证法]] | L1 四要素验证——真需求的判断门禁 |
+| 技能落地 | [[tool-纪浩-AI工作空间与导诊台设计法]] | L2 Agent Workspace 搭建——五大模块的搭建方法 |
+| 技能落地 | [[tool-纪浩-Do-first-PDCA渐进迭代法]] | L3 Do-first PDCA——从行动开始的迭代流程 |
+| 技能落地 | [[tool-纪浩-Agent技能市场设计法]] | L5 Skills Market——给 Agent 用的分发平台 |
+| 技能落地 | [[tool-纪浩-日志驱动排查法]] | L5 日志驱动排查——规模复用的排查方法 |
 | 暗知识 | [[dk-ji-hao-ai-cant-design-structure]] | "AI 不会自己搞结构设计，必须帮它搭" |
 | 暗知识 | [[dk-ji-hao-simple-complex-routing]] | "简单系统跳过导诊台，复杂系统必须路由" |
 | 暗知识 | [[dk-ji-hao-pdca-starts-from-do]] | "PDCA 从 Do 开始不是从 Plan 开始" |

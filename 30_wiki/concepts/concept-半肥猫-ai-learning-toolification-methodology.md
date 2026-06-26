@@ -20,9 +20,9 @@ related:
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
   - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+  - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
   - '[[case-ban-fei-mao-skill-ab-test]]'
   - '[[case-ban-fei-mao-from-assignment-to-tool]]'
@@ -211,15 +211,15 @@ diagnostic_signals:
 
 | 关系 | 目标节点 | 说明 |
 |------|----------|------|
-| 技能落地 | [[skill-半肥猫-边学边练边沉淀的AI学习法]] | L1 学习落地法的完整操作流程 |
-| 技能落地 | [[skill-半肥猫-课程Skill化的八步工作流]] | L2 课程 Skill 化的工程化路径 |
-| 技能落地 | [[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]] | L1 三轮检查的核心技能——追问证据 |
-| 技能落地 | [[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]] | L1 信源纪律的具体操作 |
-| 技能落地 | [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | L3 知识库管理——资料预处理 |
-| 技能落地 | [[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] | L3 知识库管理——原子化与标签体系 |
-| 技能落地 | [[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]] | L3 知识库管理——动态更新机制 |
-| 技能落地 | [[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]] | L2 八步中的第7步——测试验证 |
-| 技能落地 | [[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]] | L2 八步中的第4步——诊断协议设计 |
+| 技能落地 | [[tool-半肥猫-边学边练边沉淀的AI学习法]] | L1 学习落地法的完整操作流程 |
+| 技能落地 | [[tool-半肥猫-课程Skill化的八步工作流]] | L2 课程 Skill 化的工程化路径 |
+| 技能落地 | [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]] | L1 三轮检查的核心技能——追问证据 |
+| 技能落地 | [[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]] | L1 信源纪律的具体操作 |
+| 技能落地 | [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | L3 知识库管理——资料预处理 |
+| 技能落地 | [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] | L3 知识库管理——原子化与标签体系 |
+| 技能落地 | [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]] | L3 知识库管理——动态更新机制 |
+| 技能落地 | [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]] | L2 八步中的第7步——测试验证 |
+| 技能落地 | [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]] | L2 八步中的第4步——诊断协议设计 |
 | 案例 | [[case-ban-fei-mao-conversion-hacker-skill]] | L2 的完整实例——转化率黑客 Skill 制作 |
 | 案例 | [[case-ban-fei-mao-skill-ab-test]] | L2 测试阶段的 A/B 对比实例 |
 | 暗知识 | [[dk-ban-fei-mao-silky-answer-warning]] | "AI 回答越丝滑越有问题"——L1 的底层警觉 |

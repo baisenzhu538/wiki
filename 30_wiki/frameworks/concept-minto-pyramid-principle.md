@@ -35,7 +35,7 @@ diagnostic_signals:
   follow_up_question: 如果你是投资人，看完你的PPT后必须带走一个决策点，你应该让他们带走什么？
 related:
   - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[skill-mece体系框架法]]'
+  - '[[tool-mece体系框架法]]'
   - '[[yt-personal-ai-thinking-card]]'
   - '[[concept-mckinsey-mece]]'
   - '[[dk-modeling-ai-iterative-prompting]]'
@@ -43,7 +43,7 @@ related:
   - '[[concept-mckinsey-issue-tree]]'
   - '[[concept-mckinsey-hypothesis-driven]]'
   - '[[concept-mckinsey-7s]]'
-  - '[[skill-一堂-kernel-three-questions]]'
+  - '[[tool-一堂-kernel-three-questions]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-pitch-storytelling]]'
@@ -125,7 +125,7 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 
 | 桥接目标 | 桥接关系 | 使用场景 |
 |:---------|:---------|:---------|
-| [[skill-一堂-kernel-three-questions]] | 金字塔原理是内核三问结构化输出的底层原则 | 在完成产品内核诊断后，将"你的用户是谁、痛点是什么、方案是什么"三问的答案组织成金字塔结构向团队汇报——先说"我们的核心结论是……"，再用"原因是……"展开 |
+| [[tool-一堂-kernel-three-questions]] | 金字塔原理是内核三问结构化输出的底层原则 | 在完成产品内核诊断后，将"你的用户是谁、痛点是什么、方案是什么"三问的答案组织成金字塔结构向团队汇报——先说"我们的核心结论是……"，再用"原因是……"展开 |
 | [[yt-entrepreneur-five-step-method]] | 五步法各步骤的输出需要用金字塔结构呈现 | 五步法做完充分做加法和减法后，输出不是"这里列了 20 个选项"而是"经过分析和筛选，我们认为优先级最高的三个选项是……"——这就是金字塔的结论先行 |
 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证过程天然形成金字塔结构 | 假设驱动工作的完整输出：核心假设（顶层）→ 子假设（中层）→ 验证结果/证据（底层）。将这个结构"倒过来"呈现给 听众——先说结论（核心假设成立与否），再展开支撑证据 |
 
@@ -261,7 +261,7 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 
 | 关系 | 目标节点 | 说明 |
 |:-----|:---------|:-----|
-| 同域横向 | [[skill-一堂-kernel-three-questions]] | 内核三问的结构化输出需要金字塔原理——先说核心结论，再分层展开 |
+| 同域横向 | [[tool-一堂-kernel-three-questions]] | 内核三问的结构化输出需要金字塔原理——先说核心结论，再分层展开 |
 | 同域横向 | [[yt-entrepreneur-five-step-method]] | 五步法每一阶段的输出都可以用金字塔结构重新组织，提升沟通效率 |
 | 同域横向 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证的结果天然形成金字塔结构——核心假设(顶层)→子假设(中层)→验证证据(底层) |
 | 跨域桥接 | [[concept-mckinsey-mece]] | MECE 是金字塔每一层的横向逻辑基础——同一层的论点必须相互独立、完全穷尽 |

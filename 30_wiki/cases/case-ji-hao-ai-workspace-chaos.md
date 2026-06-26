@@ -16,7 +16,7 @@ created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
   - '[[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]'
-  - '[[skill-纪浩-AI工作空间与导诊台设计法]]'
+  - '[[tool-纪浩-AI工作空间与导诊台设计法]]'
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[structured-ai-workspace]]'
   - '[[sk-ai-ai-workspace-setup]]'

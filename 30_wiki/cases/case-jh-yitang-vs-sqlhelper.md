@@ -25,7 +25,7 @@ related:
   - "[[concept-纪浩-ai-collaboration-five-layer]]"
   - "[[dk-ji-hao-ai-cant-design-structure]]"
   - "[[case-ji-hao-ai-workspace-chaos]]"
-  - "[[skill-纪浩-真需求四要素验证法]]"
+  - "[[tool-纪浩-真需求四要素验证法]]"
   - "[[yt-lean-assumption-prioritization]]"
 tags:
   - "#case"
@@ -253,7 +253,7 @@ diagnostic_signals:
 
 - [[case-ji-hao-ai-workspace-chaos]] —— 反面案例：当复杂系统缺少五层结构时，Agent 会行为退化到"重新投胎"。一堂数据库的"专业深井"路线正是为了避免这个结局。
 
-- [[skill-纪浩-真需求四要素验证法]] —— 在选型前先验证：Before/After 是什么？真实锚点在哪里？受益人是谁？可解性如何？避免把通用/专业之争变成意识形态之争。
+- [[tool-纪浩-真需求四要素验证法]] —— 在选型前先验证：Before/After 是什么？真实锚点在哪里？受益人是谁？可解性如何？避免把通用/专业之争变成意识形态之争。
 
 - [[yt-lean-assumption-prioritization]] —— 产品策略分歧的背后是一组待验证假设。用"前置假设优先、风险高的优先"排序，可以判断当前最该验证的是"复杂度假设"还是"市场假设"。
 

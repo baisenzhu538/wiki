@@ -19,7 +19,7 @@ related:
   - "[[modeling-three-stages]]"
   - "[[modeling-level-map]]"
   - "[[master-knowledge-compound]]"
-  - "[[skill-一堂-hypothesis-validation-three-axe]]"
+  - "[[tool-一堂-hypothesis-validation-three-axe]]"
 tags:
   - "#method/modeling"
   - "#chunk-type/definition"

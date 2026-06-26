@@ -21,9 +21,9 @@ query_triggers:
 related:
   - '[[yt-research-hypothesis-test]]'
   - '[[tool-泛产品落地-内核和边界]]'
-  - '[[skill-复盘推演法]]'
-  - '[[skill-辩证讨论法]]'
-  - '[[skill-分享输出检验法]]'
+  - '[[tool-复盘推演法]]'
+  - '[[tool-辩证讨论法]]'
+  - '[[tool-分享输出检验法]]'
   - '[[yt-research-osl-framework]]'
   - '[[yt-research-intelligence-map]]'
   - '[[yt-research-hypothesis-test]]'

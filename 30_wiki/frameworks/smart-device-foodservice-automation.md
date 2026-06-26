@@ -17,7 +17,7 @@ source_refs:
 related:
   - '[[ai-native-im-multi-agent]]'
   - '[[dk-strategy-06-dividend-to-strategy]]'
-  - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+  - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
   - '[[beverage-foodservice-channel]]'
   - '[[ai-complex-communication]]'
   - '[[beverage-foodservice-channel]]'

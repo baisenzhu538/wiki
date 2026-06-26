@@ -19,7 +19,7 @@ related:
   - '[[dk-ji-hao-constraint-beats-talent]]'
   - '[[dk-ji-hao-newbie-can-validate]]'
   - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[skill-纪浩-日志驱动排查法]]'
+  - '[[tool-纪浩-日志驱动排查法]]'
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
@@ -85,5 +85,5 @@ diagnostic_signals:
 
 ## 相关卡 / 互链
 
-- [[skill-纪浩-日志驱动排查法]] —— 日志驱动排查的具体执行方法，包含日志规范、定期审查和反馈闭环
+- [[tool-纪浩-日志驱动排查法]] —— 日志驱动排查的具体执行方法，包含日志规范、定期审查和反馈闭环
 - [[concept-ji-hao-ai-collaboration-methodology]] —— 日志是五层体系的最底层，是所有上层活动的"事实基座"

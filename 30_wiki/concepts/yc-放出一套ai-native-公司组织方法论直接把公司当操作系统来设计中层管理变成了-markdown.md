@@ -22,7 +22,7 @@ related:
   - '[[concept-ai-native-organization-five-steps]]'
   - '[[YC-Y-Combinator]]'
   - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[skill-纪浩-AI对话上下文隔离]]'
+  - '[[tool-纪浩-AI对话上下文隔离]]'
   - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 ---
 # YC 放出一套「AI-NATIVE 公司」组织方法论

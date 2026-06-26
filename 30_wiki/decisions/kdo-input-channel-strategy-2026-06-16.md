@@ -18,7 +18,7 @@ related:
   - '[[Kimi-月之暗面]]'
   - '[[dk-p5-cc-connect-config]]'
   - '[[dk-p1-model-switch-env]]'
-  - '[[skill-ai-voice-input-doubao]]'
+  - '[[tool-ai-voice-input-doubao]]'
   - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 ---
 
