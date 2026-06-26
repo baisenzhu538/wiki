@@ -16,22 +16,18 @@ updated: 2026-06-26
 ## 工作流
 
 ```
-Hermes 老顽童批量产出（结构+related+基础内容）
+Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
   → 欧阳锋审查
-    → 浅卡 → 欧阳锋深挖重写（读取原素材，九层深挖，补 Critique/Synthesis/失败模式）
-    → 深卡 → 直接通过
+    → 仍有深度不足的 → 欧阳锋接手深挖重写（读原素材，九层深挖）
+    → 已达标的 → 直接通过
   → 入库
 ```
 
 ## 审查标准
 
-Hermes 老顽童的卡片只需要满足：
-- YAML frontmatter 完整
-- `source_refs` 全部存在且路径正确
-- `related ≥ 3` 且至少 1 条跨域
-- 卡片结构完整（Claims/Evidence/Critique/Synthesis/Action Triggers 六个 section 都有，内容可以是占位）
+**Hermes 老顽童有自己的质量闸门**（见 `laowantong-context.md`）。他能深就深，你只补他尽力之后仍达不到的部分。
 
-**不需要 Hermes 老顽童做到深度**——那是你的工作。
+你审查时判断的是**剩余差距**：哪些是他已经深到的，哪些是 VLM/OCR 里有但卡片没覆盖的。
 
 ## 启动步骤
 
