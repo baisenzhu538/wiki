@@ -4,7 +4,7 @@ active_branch: main
 active_task: "P0-A 等待老顽童返工；P0-B 等待欧阳锋最终审查；泛产品设计35张卡已迁移归档，20张新卡related已补全"
 blockers:
   - "🟡 P0-A 单元模型域：王语嫣入口把关发现 1 空文件(dk-单元模型-对抗小抄) + 1 frontmatter 解析错误(yt-unit-model-overview) + 2 broken link；返工任务 task_20260626_hermes-laowantong-p0a-fix.md 已下达，等待老顽童返工"
-  - "🟡 P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)王语嫣已完成入口把关抽查，问题清单见 audit_20260626_wangyuyan-p0b-remaining-cards.md；发现 case 卡自述'叙事较薄'——根因是生产未做9层深挖，素材实际不薄；等待欧阳锋最终审查"
+  - "✅ P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)已全部重写；王语嫣抽样复核5张(3 case+1 dk+1 enrich)全部结构达标，数字回填准确，Critique推理扎实；报告见 audit_20260626_wangyuyan-p0b-remaining-cards-re-review.md；建议提交欧阳锋做最终审查"
   - "🟡 case-科学决策-深度案例01：根因诊断完成，VLM/OCR素材确有完整数字+Critique+Synthesis，当前44行case卡未使用原料；建议重写而非合并"
   - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
   - "✅ 角色重组：欧阳锋从Obsidian Claude迁至Kimi Code CLI(审查为主+深挖重写为辅)；王语嫣收拢为入口把关+咨询+成品验收(砍跨域)；Hermes老顽童独挑生产大梁(API切至Kimi)"
