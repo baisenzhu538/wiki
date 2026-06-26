@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-26
 active_branch: main
-active_task: "P0-A 等待老顽童返工；P0-B 科学决策域剩余14张卡已由欧阳锋最终审查通过；泛产品设计35张卡已迁移归档，20张新卡related已补全"
+active_task: "P0-A 单元模型域老顽童已完成原4项返工，但全量YAML扫描新增10张卡frontmatter解析失败，已下达新返工任务；P0-B科学决策域剩余14张卡已由欧阳锋最终审查通过；泛产品设计35张卡已迁移归档，20张新卡related已补全"
 blockers:
-  - "🟡 P0-A 单元模型域：王语嫣入口把关发现 1 空文件(dk-单元模型-对抗小抄) + 1 frontmatter 解析错误(yt-unit-model-overview) + 2 broken link；返工任务 task_20260626_hermes-laowantong-p0a-fix.md 已下达，等待老顽童返工"
+  - "🟡 P0-A 单元模型域：原4项返工已完成（dk-对抗小抄补产13KB、yt-unit-model-overview frontmatter修复、3个broken link移除），但王语嫣全量YAML扫描发现新增10张卡related列表缩进断裂导致解析失败；新返工任务 task_20260626_hermes-laowantong-p0a-yaml-fix.md 已下达；P0-A暂不封版"
   - "✅ P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)已全部审查通过；欧阳锋最终审查发现 ROI案例01 仍为27行薄卡，已九层深挖重写；其余13张结构达标，status 已更新为 reviewed；报告见 audit_20260626_ouyangfeng-p0b-final-review.md"
   - "✅ case-科学决策-深度案例01：已由老顽童九层深挖重写，欧阳锋最终审查通过，status 更新为 reviewed"
   - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
@@ -12,7 +12,7 @@ blockers:
   - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
   - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
   - "🟡 决策域(66卡)待建domain digest；需求分析域待建；五步法子域待建"
-next_session_hint: "老顽童完成P0-A返工后通知王语嫣复核；黄药师跑kdo index --rebuild+kdo lint收尾；决策域(66卡)domain digest待建。"
+next_session_hint: "老顽童完成P0-A新增10张卡YAML修复后通知王语嫣复核；复核通过后通知欧阳锋审查dk-单元模型-对抗小抄；黄药师跑kdo index --rebuild+kdo lint收尾；决策域(66卡)domain digest待建。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
