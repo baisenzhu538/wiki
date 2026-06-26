@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-26
 active_branch: main
-active_task: "老顽童按 task_20260625_laowantong-vlm-to-cards.md，基于王语嫣标注的 VLM 价值表生产成品卡；P0-A 单元模型域优先，P0-B 科学决策域次之；同步等待王语嫣抽查 2 张 AI 2041 P2 整改卡。"
+active_task: "老顽童已完成 task_20260625_laowantong-vlm-to-cards.md P0-A 单元模型域 15 张成品卡；等待王语嫣 20% 抽样验收。验收通过后启动 P0-B 科学决策域成品卡生产；同步等待王语嫣抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张。"
 blockers:
   - "✅ 113 张 VLM parse error 归零"
   - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
@@ -32,14 +32,15 @@ blockers:
   - "✅ 王欢《AI 2041》全 22 张卡 frontmatter 整改完成：confidence 统一为单一数值（case/tool 0.80，concept/dk 0.78），case/dk 卡 frontmatter 中 source_person/source_context 已移除并迁移到正文；index.md 补齐 4 张遗漏卡；确认文件见 60_feedback/corrections/corr_20260625_laowantong-ai2041-frontmatter-fix.md"
   - "✅ 三域跨案例 synthesis dk 卡 9 张返工完成：补产/确认 dk-strategy-stage-leverage-mismatch；移除 9 张卡 frontmatter 中 dark_knowledge_type；dk-yitang-behavior-over-asking 预警信号补到 5 条；dk-yitang-model-asset-capitalization 支撑案例单独成节；lint 与 YAML 自检通过；等待王语嫣复核"
   - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
-  - "🆕 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引；王语嫣已完成独立框架价值标注（见 00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md）；已发老顽童成品卡生产任务 task_20260625_laowantong-vlm-to-cards.md（P0-A 单元模型域优先）"
+  - "✅ 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引；王语嫣已完成独立框架价值标注（见 00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md）"
+  - "✅ 老顽童已完成 P0-A 单元模型域 15 张成品卡：4 tool + 2 framework + 2 concept + 5 dk + 1 case + yt-unit-model-overview enrich；基于原图+VLM描述+OCR 补挖；lint 与 YAML 自检通过；等待王语嫣 20% 抽样验收"
   - "✅ 跨案例合成任务已完成：strategy/research/yitang 三域 9 个洞察已沉淀为 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
   - "🟡 决策域（Y模型，66卡）待建 domain digest"
   - "🟡 需求分析域待建 domain digest"
   - "🟡 五步法子域待建独立 digest"
   - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
   - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "老顽童优先执行 task_20260625_laowantong-vlm-to-cards.md P0-A 单元模型域成品卡；完成后王语嫣 20% 抽样验收；王语嫣同步抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张；Rule 3 缺口另排小批次处理。"
+next_session_hint: "等待王语嫣对 P0-A 单元模型域 15 张成品卡做 20% 抽样验收；验收通过后启动 P0-B 科学决策域成品卡生产；王语嫣同步抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张；Rule 3 缺口另排小批次处理。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
