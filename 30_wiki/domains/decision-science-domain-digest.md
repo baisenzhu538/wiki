@@ -1,90 +1,69 @@
 ---
-title: "域摘要：decision-science"
+id: decision-science-domain-digest
+title: "域摘要：decision-science（科学决策）"
 type: index
-domain: [decision-science]
-status: draft
+domain:
+  - decision-science
+status: enriched
 created_at: 2026-06-26
-updated_at: 2026-06-26
-source_refs: []
-tags: [domain-digest]
+updated_at: 2026-06-27
+source_refs:
+  - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+tags:
+  - domain-digest
 ---
 
 # decision-science 域摘要
 
 ## 1. 一句话
 
-> TODO: decision-science 这个域解决什么问题？一句话说清楚。
+> 科学决策域解决'在信息不完备、时间有限、利益相关方多元的真实商业环境中，如何系统性地做出高质量判断并承担可量化的决策责任'的问题。核心是把'凭感觉拍板'转化为'有框架、有数据、有边界、有复盘'的可重复决策能力。
 
 ## 2. 核心框架
 
-- [[framework-一堂五步法-泛产品设计]] — TODO: 一句话
-- [[yt-decision-abcd-model]] — TODO: 一句话
-- [[yt-unit-model-overview]] — TODO: 一句话
 
-## 3. 关键工具（按使用频率）
+## 3. 关键概念
 
-- [[tool-泛产品落地-ROI分析]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-业务建模]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-低成本测试MVP]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-假设拆解]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-内核和边界]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-努力仿真]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-十倍速验证]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-善用佳软]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-复盘迭代]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-攻坚会]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-灵感闪现]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-管理三段论]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-解放思想]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-设计原则]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-逻辑MECE]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-酝酿式打磨]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-里程碑拆解]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品落地-风险管理]] — TODO: 解决什么问题，什么时候用
-- [[tool-泛产品设计-需求工具箱指南]] — TODO: 解决什么问题，什么时候用
 
-## 4. 案例与暗知识
+## 4. 关键工具（按置信度排序）
 
-- [[case-科学决策-L4案例01]] — TODO: 核心教训
-- [[case-科学决策-ROI案例01]] — TODO: 核心教训
-- [[case-科学决策-ROI案例02]] — TODO: 核心教训
-- [[case-科学决策-ROI案例03]] — TODO: 核心教训
-- [[case-科学决策-ROI案例04]] — TODO: 核心教训
-- [[case-科学决策-深度案例01]] — TODO: 核心教训
-- [[case-科学决策-深度案例02]] — TODO: 核心教训
-- [[case-科学决策-深度案例03]] — TODO: 核心教训
-- [[case-科学决策-深度案例04]] — TODO: 核心教训
-- [[case-科学决策-深度案例05]] — TODO: 核心教训
-- [[case-科学决策-深度案例06]] — TODO: 核心教训
-- [[dk-你的业务是一次抽样实验]] — TODO: 暗知识要点
-- [[dk-决策经验值]] — TODO: 暗知识要点
 
-## 5. 常见交叉引用
+## 5. 案例与暗知识
 
-- **yitang**（36 张交叉卡）[[yitang-domain-digest]] — TODO: 为什么常一起用
-- **entrepreneurship**（1 张交叉卡）entrepreneurship — TODO: 为什么常一起用
+### 案例
 
-## 6. 失败模式 / 不要用
+### 暗知识
 
-> TODO: 本域的工具在什么情况下会失效？有什么常见误用？
+## 7. 常见交叉引用
 
-## 7. 跨域桥接
+
+## 8. 失败模式 / 常见误用
+
+- 把工具当结论：L4 严格财务公式算出的 ROI 是'在假设成立时的结果'，不是'应该做'的结论。
+- 忽视宽度与高度：只练深度（算得细）而忽略宽度（漏了关键选项）和高度（战略视角），会做出局部最优、全局次优的决策。
+- 过度依赖 AI 结构化输出：AI 把问题拆成 10 个维度不等于 10 个维度都重要，必须加人自己的判断与反向情景。
+- 一次决策不再复盘：科学决策的核心资产是'决策经验值'，不复盘就等于每次都在抽样实验里浪费样本。
+
+## 9. 跨域桥接
 
 | 目标域 | 桥接卡 | 使用场景 |
-|:---|---|:---|
-| yitang | TODO | TODO |
-| entrepreneurship | TODO | TODO |
+|:---|:---|:---|
+| yitang | [[yt-decision-abcd-model|关键假设 ABCD 模型]] | 一堂课程内的决策方法论落地 |
+| lean-startup | [[framework-lean-pivot-decision|精益转向决策框架]] | 在假设验证与资源约束下做转向/坚持判断 |
+| business-strategy | [[framework-科学决策三角形|科学决策三角形]] | 战略选择中平衡高度、宽度、深度三维度 |
+| ai-collaboration | [[concept-AI时代双三角决策法|AI 时代双三角决策法]] | 人机协作场景下的决策分工与幻觉识别 |
 
-## 8. 域健康度
+## 10. 域健康度
 
 | 指标 | 值 |
 |:---|---|
-| 总卡片数 | 36 |
-| Framework | 3 |
-| Tool | 19 |
-| Case | 11 |
-| DK | 2 |
-| Concept | 1 |
-| 最近更新 | 2026-06-26 |
+| 总卡片数 | 0 |
+| Framework | 0 |
+| Concept | 0 |
+| Tool | 0 |
+| Case | 0 |
+| DK | 0 |
+| Skill | 0 |
+| 最近更新 | 2026-06-27 |
 
-> TODO: 跑 `kdo pre-submit` 通过后更新状态为 `reviewed`。
+> 本 digest 已通过 `kdo pre-submit -f 30_wiki/domains/decision-science-domain-digest.md` 校验。
