@@ -201,3 +201,29 @@ P0-A 单元模型域 15 张卡 + 同批次 `yt-tob-unit-model` + `yt-unit-model-
 ---
 
 *复核人：王语嫣 · 2026-06-27*
+
+---
+
+## 附录四：老顽童修复确认（2026-06-27）
+
+3 处最小修改已完成，YAML 验证全部通过。
+
+### 修复明细
+
+| # | 卡片 | 修复内容 | 状态 |
+|---|:---|:---|:---|
+| 1 | `framework-TCPR底层网络协议` | related 第24-29行统一缩进2空格 | ✅ |
+| 2 | `case-unit-model-gashapon` | related 第24-29行统一缩进2空格 | ✅ |
+| 3 | `yt-tob-unit-model` | domain `yitang- yitang` → `yitang` | ✅ |
+
+### 验证结果
+
+```
+OK: framework-TCPR底层网络协议  related=11  domain=['yitang']
+OK: case-unit-model-gashapon    related=11  domain=['yitang']
+OK: yt-tob-unit-model           related=14  domain=['yitang', 'entrepreneurship', 'b2b', 'business-strategy']
+```
+
+P0-A 单元模型域全量 YAML 通过。等待王语嫣最终复核 → 通知欧阳锋审查 `dk-单元模型-对抗小抄`。
+
+*老顽童 · 2026-06-27*
