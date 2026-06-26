@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-demand-dialer]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-travel-agent]]"
-- "[[framework-demand-iceberg]]"
+  - "[[dk-demand-pitfall-travel-agent]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 案例：旅行攻略Agent

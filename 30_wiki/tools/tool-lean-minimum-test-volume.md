@@ -24,13 +24,13 @@ related:
   - '[[tool-lean-minimum-version]]'
   - '[[tool-lean-cut-features]]'
   - '[[tool-lean-presell]]'
-- "[[framework-lean-false-model]]"
-- "[[tool-lean-minimum-version]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[tool-lean-minimum-version]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 只测试最小数量

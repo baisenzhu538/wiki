@@ -36,7 +36,7 @@ related:
   - '[[yt-business-model-cac-ltv]]'
   - '[[process-modeling]]'
   - '[[yt-foresight-probability-engineering]]'
-- '[[yt-foresight-business-spectrum]]'
+  - '[[yt-foresight-business-spectrum]]'
 wiki_refs:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-addition-subtraction]]'

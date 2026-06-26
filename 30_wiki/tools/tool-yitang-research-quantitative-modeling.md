@@ -33,14 +33,14 @@ related:
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "（tool-yitang-research-facts-first，待补）"
-- "[[tool-yitang-research-unit-model]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "（tool-yitang-research-facts-first，待补）"
+  - "[[tool-yitang-research-unit-model]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 定量建模：用数字说话的分析框架

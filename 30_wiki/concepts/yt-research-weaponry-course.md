@@ -24,7 +24,7 @@ review_date: 2026-05-06
 estimated_tokens: 3300
 related:
   - '[[skill-问题驱动式深度思考笔记]]'
-- '[[master-ai-info-literacy]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-source-cited
 diagnostic_signals:

@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-demand-usp-model]]"
+  - "[[framework-demand-usp-model]]"
 ---
 
 # 案例：老年智能设备

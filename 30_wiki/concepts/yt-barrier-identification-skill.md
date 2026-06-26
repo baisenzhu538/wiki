@@ -26,12 +26,12 @@ related:
   - '[[case-toy-cabinet-business-model]]'
   - '[[yt-barrier-strategy-overview]]'
   - '[[yt-barrier-analysis-cheat-sheet]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
-- '[[dk-yb10-theory-moat-designer]]'
-- '[[yt-barrier-analysis-cheat-sheet]]'
-- '[[case-toy-cabinet-barrier]]'
-- '[[case-ai-time-management-tiered-growth]]'
-- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb10-theory-moat-designer]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
+  - '[[case-toy-cabinet-barrier]]'
+  - '[[case-ai-time-management-tiered-growth]]'
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:

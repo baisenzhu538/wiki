@@ -21,12 +21,12 @@ related:
   - '[[yt-decision-height-toolkit]]'
   - '[[tool-科学决策关键训练清单]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[tool-ROI决策评估画布]]"
-- "[[tool-完整财务公式决策]]"
-- "[[tool-决策深度-L1优先级定性]]"
-- "[[framework-lean-abcd-model]]"
-- "[[yt-decision-y-model]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[tool-ROI决策评估画布]]"
+  - "[[tool-完整财务公式决策]]"
+  - "[[tool-决策深度-L1优先级定性]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-decision-y-model]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 科学决策三角形

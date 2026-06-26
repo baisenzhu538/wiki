@@ -29,10 +29,10 @@ related:
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[yt-model-five-step-canvas]]'
   - '[[ocr-一堂五步法画布]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[yt-model-prediction-model]]'
-- '[[yt-five-step-method]]'
-- '[[yt-five-step-common-pitfalls]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[yt-model-prediction-model]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-five-step-common-pitfalls]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法

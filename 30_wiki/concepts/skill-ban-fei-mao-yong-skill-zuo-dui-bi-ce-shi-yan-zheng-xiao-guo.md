@@ -22,9 +22,9 @@ related:
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- "[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
-- "[[case-ban-fei-mao-skill-ab-test]]"
-- "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[case-ban-fei-mao-skill-ab-test]]"
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
 created_at: "2026-06-07"
 updated_at: "2026-06-19"
 pipeline:

@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-yitang-supplier-security-guard]]'
-- "[[tool-yitang-job-intelligence-research]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 案例：假扮面试发现行业红利退潮

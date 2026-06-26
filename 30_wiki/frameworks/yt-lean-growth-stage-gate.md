@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -31,15 +31,15 @@ related:
   - '[[yt-lean-essence]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
   - '[[yt-lean-assumption-prioritization]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-unit-model-overview]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[yt-lean-assumption-verification-3means]]'
-- '[[yt-growth-cycle-model]]'
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-foresight-business-spectrum]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[yt-lean-assumption-verification-3means]]'
+  - '[[yt-growth-cycle-model]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[yt-foresight-business-spectrum]]'
 diagnostic_signals:
 - signal: 团队只看总指标（如GMV、总用户数）增长就决定放大
   framework_lens: 指标脱离单元模型

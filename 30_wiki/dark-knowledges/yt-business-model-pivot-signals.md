@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot

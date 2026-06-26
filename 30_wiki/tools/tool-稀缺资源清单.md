@@ -20,10 +20,10 @@ related:
   - '[[concept-最佳实践建模]]'
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-稀缺机会窗口]]"
-- "[[tool-ROI决策评估画布]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-稀缺机会窗口]]"
+  - "[[tool-ROI决策评估画布]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 稀缺资源清单

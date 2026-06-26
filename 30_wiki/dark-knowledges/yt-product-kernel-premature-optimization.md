@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美

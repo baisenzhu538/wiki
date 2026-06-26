@@ -22,11 +22,11 @@ related:
   - '[[case-strategy-practice-ranpeng-milk-powder]]'
   - '[[dk-strategy-stage-leverage-mismatch]]'
   - '[[framework-strategy-basics-04-system]]'
-- '[[framework-strategy-brm]]'
-- '[[framework-strategy-five-basics]]'
-- '[[yt-decision-y-model]]'
-- '[[framework-ouyangfeng-review-methodology]]'
-- '[[framework-lean-pivot-decision]]'
+  - '[[framework-strategy-brm]]'
+  - '[[framework-strategy-five-basics]]'
+  - '[[yt-decision-y-model]]'
+  - '[[framework-ouyangfeng-review-methodology]]'
+  - '[[framework-lean-pivot-decision]]'
 ---
 
 # 六阶段企业生命周期

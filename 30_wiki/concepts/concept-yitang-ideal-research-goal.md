@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[yt-research-osl-framework]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[yt-research-osl-framework]]"
 ---
 
 # 理想调研目标三原则

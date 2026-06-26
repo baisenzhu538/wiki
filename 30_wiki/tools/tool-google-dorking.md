@@ -21,8 +21,8 @@ related:
   - '[[tool-dns-intelligence]]'
   - '[[tool-osint-wayback]]'
   - '[[tool-yitang-industry-report-search]]'
-- "[[tool-yitang-weapon-media-search]]"
-- "[[tool-doris-industry-report-search-tips]]"
+  - "[[tool-yitang-weapon-media-search]]"
+  - "[[tool-doris-industry-report-search-tips]]"
 ---
 
 # Google Dorking：高级搜索语法

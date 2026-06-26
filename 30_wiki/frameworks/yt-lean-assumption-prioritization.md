@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -30,12 +30,12 @@ related:
   - '[[yt-lean-daily-probability-decision]]'
   - '[[yt-lean-essence]]'
   - '[[yt-lean-beauty-store-conversion]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-decision-abcd-model]]'
-- '[[case-jh-yitang-vs-sqlhelper]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-decision-abcd-model]]'
+  - '[[case-jh-yitang-vs-sqlhelper]]'
 diagnostic_signals:
 - signal: 团队同时想测需求、产品、定价、渠道，但说不清先测哪一个
   framework_lens: 前置假设优先 + 五步法阶段判断

@@ -24,12 +24,12 @@ related:
   - '[[yt-lean-false-model-ai]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # AI 加速 FALSE 模型验证

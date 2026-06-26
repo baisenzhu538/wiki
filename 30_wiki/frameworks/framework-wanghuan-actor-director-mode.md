@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -28,14 +28,14 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-ooda-loop]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
 tags:
 - 王欢
 - 人机协作

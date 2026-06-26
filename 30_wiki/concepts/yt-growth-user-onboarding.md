@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计

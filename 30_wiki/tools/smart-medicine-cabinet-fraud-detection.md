@@ -8,8 +8,8 @@ type: tool
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- risk-warning
+  - pharmaceutical-retail
+  - risk-warning
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -30,12 +30,12 @@ related:
   - '[[smart-medicine-cabinet-regional-policy-map]]'
   - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
-- '[[smart-medicine-cabinet-clinic-risk-observation]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-financial-model]]'
-- '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-financial-model]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 query_triggers:
 - 修正未来药房骗局
 - 智能药柜招商骗局

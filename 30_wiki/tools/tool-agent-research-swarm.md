@@ -21,8 +21,8 @@ related:
   - '[[ai-native-im-multi-agent]]'
   - '[[case-truman-ai-partner]]'
   - '[[tool-demand-agent-multi-hypothesis]]'
-- "[[framework-multi-agent-research-architecture]]"
-- "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
 ---
 
 # Swarm模式

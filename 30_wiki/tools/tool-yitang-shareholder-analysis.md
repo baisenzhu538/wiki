@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-signup-statistics]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-business-registration-check]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-business-registration-check]]"
 ---
 
 # 股东信息穿透

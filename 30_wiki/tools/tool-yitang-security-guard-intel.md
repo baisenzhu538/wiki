@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-app-store-review]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-insider-intelligence]]"
-- "[[case-yitang-supplier-security-guard]]"
+  - "[[tool-yitang-weapon-insider-intelligence]]"
+  - "[[case-yitang-supplier-security-guard]]"
 ---
 
 # 保安/门卫情报

@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑

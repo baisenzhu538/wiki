@@ -25,11 +25,11 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-say-think-do-toolchain]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-say-think-do-toolchain]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-task-product-system]]'
 diagnostic_signals:
 - signal: 单一模型输出反复在同类错误上打转，人工挑刺后改一轮又出新问题
   lens: 生成与评审视角未分离，模型在用同一套偏见自我确认

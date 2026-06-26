@@ -19,7 +19,7 @@ related:
   - '[[case-strategy-failure-02-supermarket]]'
   - '[[case-strategy-failure-05-it]]'
   - '[[case-strategy-failure-04-appliance]]'
-- "[[tool-strategy-nine-problems]]"
+  - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：737 MAX安全事故
 **战略根因**：机制背离——内部激励机制优先财务指标而非安全。MCAS单传感器设计被批评为成本妥协

@@ -20,8 +20,8 @@ related:
   - '[[tool-strategy-four-moves]]'
   - '[[framework-multi-agent-research-architecture]]'
   - '[[framework-strategy-brm]]'
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-six-stages]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-six-stages]]"
 ---
 
 # 战略框架全景图

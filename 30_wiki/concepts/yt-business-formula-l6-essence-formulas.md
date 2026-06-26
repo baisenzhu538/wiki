@@ -8,8 +8,8 @@ type: concept
 status: enriched
 domain:
   - yitang- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -32,12 +32,12 @@ related:
   - '[[framework-demand-lean-bridge]]'
   - '[[yt-business-formula-parameter-iceberg]]'
   - '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[yt-business-formula-ten-paradigms]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
 
 ---# 业务公式 L6 魔法参数：跨行业本质公式集锦
 

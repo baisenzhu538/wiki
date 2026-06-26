@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 
 id: yt-prompt-anti-flattery

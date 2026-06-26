@@ -34,10 +34,10 @@ related:
   - '[[framework-lean-expert-roadmap]]'
   - '[[skill-按分阶练习路径渐进掌握方法]]'
   - '[[proposal-prompt-injection-infrastructure]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-organization-research]]"
-- "[[yt-research-competitor-toolkit]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-organization-research]]"
+  - "[[yt-research-competitor-toolkit]]"
 ---
 
 # 招聘渠道情报：五层递进挖掘竞对内部信息

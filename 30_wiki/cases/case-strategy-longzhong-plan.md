@@ -17,8 +17,8 @@ related:
   - '[[case-strategy-practice-11-third-place]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-li-ka-shing]]'
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-six-stages]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-six-stages]]"
 ---
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）
 **失败四因**：

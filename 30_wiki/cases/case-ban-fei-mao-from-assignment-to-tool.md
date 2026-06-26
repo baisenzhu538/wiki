@@ -19,9 +19,9 @@ related:
   - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
-- '[[case-半肥猫-course-to-skill]]'
-- '[[skill-纪浩-真需求四要素验证法]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[skill-纪浩-真需求四要素验证法]]'
+  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 wiki_refs:
 - '[[case-半肥猫-course-to-skill]]'
 - '[[skill-纪浩-真需求四要素验证法]]'

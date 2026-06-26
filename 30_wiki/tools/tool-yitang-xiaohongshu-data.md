@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-amazon-bestseller]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-public-sentiment-research]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-public-sentiment-research]]"
 ---
 
 # 小红书数据

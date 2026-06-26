@@ -24,8 +24,8 @@ related:
   - '[[skill-ai-evidence-check]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[sk-ai-prd-for-ai]]'
-- '[[sk-ai-question-problem-checklist]]'
-- '[[sk-ai-parallel-validation]]'
+  - '[[sk-ai-question-problem-checklist]]'
+  - '[[sk-ai-parallel-validation]]'
 tags:
 - '#method/prompt-engineering'
 - '#domain/ai-saas'

@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-pet-fostering-user-research]]'
   - '[[case-yitang-ai-time-management-coach]]'
   - '[[case-yitang-homestay-reception-design]]'
-- "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-user-interview-5steps]]"
 ---
 
 # 案例：陪伴式语音机器人设计

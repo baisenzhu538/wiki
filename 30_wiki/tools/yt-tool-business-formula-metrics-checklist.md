@@ -8,8 +8,8 @@ type: tool
 status: enriched
 domain:
   - yitang- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -32,11 +32,11 @@ related:
   - '[[case-saas-renewal-formula]]'
   - '[[case-offline-catering-formula]]'
   - '[[case-private-domain-ecommerce-formula]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[dk-yitang-business-formula-plus-times-trap]]'
-- '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
 
 ---# 业务公式数据埋点设计清单
 

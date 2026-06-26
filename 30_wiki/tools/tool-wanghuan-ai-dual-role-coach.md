@@ -36,9 +36,9 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[framework-wanghuan-actor-director-mode]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
 tags:
 - 王欢
 - 双角色教练

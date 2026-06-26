@@ -6,8 +6,8 @@ title: 科学开会
 type: concept
 domain:
   - management- ai-saas
-- management
-- yitang
+  - management
+  - yitang
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -37,16 +37,16 @@ related:
   - '[[case-yitang-radar-chart-selection]]'
   - '[[dk-modeling-radar-model-not-result]]'
   - '[[tool-yitang-executive-speech-analysis]]'
-- yt-management-basic-skills
-- yt-management-project-management
-- yt-management-goal-management
-- yt-management-strategy-meeting
-- yt-management-scientific-decision
-- yt-concept-weapon-arsenal
-- yt-model-personal-pitch-toolkit
-- yt-decision-consensus-iceberg
-- yt-panproduct-execution-management-trilogy
-- yt-tool-meeting-designer
+  - yt-management-basic-skills
+  - yt-management-project-management
+  - yt-management-goal-management
+  - yt-management-strategy-meeting
+  - yt-management-scientific-decision
+  - yt-concept-weapon-arsenal
+  - yt-model-personal-pitch-toolkit
+  - yt-decision-consensus-iceberg
+  - yt-panproduct-execution-management-trilogy
+  - yt-tool-meeting-designer
 
 ---
 

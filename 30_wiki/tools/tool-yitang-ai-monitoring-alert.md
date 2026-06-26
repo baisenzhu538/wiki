@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-ai-tools]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-yitang-weapon-ai-tools]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # AI监控/预警

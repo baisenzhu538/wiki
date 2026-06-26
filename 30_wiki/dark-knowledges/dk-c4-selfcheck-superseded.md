@@ -19,9 +19,9 @@ related:
   - '[[dk-c2-dual-status-machine]]'
   - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
   - '[[sprint-2-门禁举证验收]]'
-- '[[dk-c5-todo-false-positive]]'
-- '[[dk-c2-dual-status-machine]]'
-- '[[master-cognitive-bias-checklist]]'
+  - '[[dk-c5-todo-false-positive]]'
+  - '[[dk-c2-dual-status-machine]]'
+  - '[[master-cognitive-bias-checklist]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

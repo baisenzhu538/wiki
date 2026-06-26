@@ -26,10 +26,10 @@ related:
   - '[[framework-wanghuan-bitcoe-prompt-framework]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-creativity-in-description-and-taste]]'
-- human-ai-collaboration-double-triangle
-- dk-wanghuan-standard-by-iteration
-- framework-wanghuan-actor-director-mode
-- framework-wanghuan-ooda-loop
+  - human-ai-collaboration-double-triangle
+  - dk-wanghuan-standard-by-iteration
+  - framework-wanghuan-actor-director-mode
+  - framework-wanghuan-ooda-loop
 diagnostic_signals:
 - signal: "用户写了很详细的prompt，但只看一版结果"
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高

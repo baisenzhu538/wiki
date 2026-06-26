@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-ai-research-workflow]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[concept-yitang-ai-research-human-loop]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[concept-yitang-ai-research-human-loop]]"
 ---
 
 # AI调研十大假设

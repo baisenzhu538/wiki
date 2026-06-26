@@ -31,9 +31,9 @@ related:
   - '[[tool-泛产品落地-风险管理]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[yt-panproduct-aesthetic-pool]]'
-- '[[yt-panproduct-demand-need-discovery]]'
-- '[[tool-泛产品落地-复盘迭代]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[yt-panproduct-demand-need-discovery]]'
+  - '[[tool-泛产品落地-复盘迭代]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨

@@ -19,10 +19,10 @@ related:
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-c6-large-source-overflow]]'
   - '[[dk-modeling-timely-review-session-window]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
-- '[[dk-p1-model-switch-env]]'
-- '[[dk-p5-cc-connect-config]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-p5-cc-connect-config]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

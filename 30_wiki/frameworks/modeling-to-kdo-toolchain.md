@@ -13,7 +13,7 @@ status: enriched
 confidence: 0.8
 domain:
   - modeling- kdo
-- yitang
+  - yitang
 created_at: '2026-06-14'
 author: 黄药师
 reviewed_by: 老顽童
@@ -25,12 +25,12 @@ related:
   - '[[modeling-capability-for-kdo]]'
   - '[[model-quality-four-levels]]'
   - '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[modeling-capability-for-kdo]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-capability-system]]'
-- '[[modeling-level-map]]'
-- '[[dk-modeling-ai-without-judgment]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[modeling-three-stages]]'
+  - '[[modeling-capability-system]]'
+  - '[[modeling-level-map]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
 tags:
 - '#method/modeling'
 - '#kdo'

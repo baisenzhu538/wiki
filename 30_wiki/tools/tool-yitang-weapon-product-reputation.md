@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-app-store-review]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-weapon-industry-expert]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-public-sentiment-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-public-sentiment-research]]"
 ---
 
 # 武器库策略2：收集产品口碑/舆情

@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[tool-yitang-consumer-goods-research]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-consumer-goods-research]]"
 ---
 
 # 案例：消费品线下渠道决策

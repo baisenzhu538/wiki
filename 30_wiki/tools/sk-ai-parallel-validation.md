@@ -22,10 +22,10 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[sk-ai-landing-five-steps]]'
-- '[[sk-ai-problem-validation]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[sk-ai-system-redundancy]]'
+  - '[[sk-ai-landing-five-steps]]'
+  - '[[sk-ai-problem-validation]]'
+  - '[[ai-collaboration-mindset-shift]]'
+  - '[[sk-ai-system-redundancy]]'
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

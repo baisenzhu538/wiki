@@ -33,14 +33,14 @@ related:
   - '[[tool-yitang-research-quantitative-modeling]]'
   - '[[concept-yitang-research-facts-first]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "（tool-yitang-research-facts-first，待补）"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "（tool-yitang-research-facts-first，待补）"
+  - "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 交叉验证：多源印证的信息可信度提升

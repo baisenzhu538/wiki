@@ -36,16 +36,16 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[sk-ai-purpose-bias-check]]'
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[yt-research-expert-interview]]"
-- "[[yt-research-intelligence-map]]"
-- "[[yt-research-mindset]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-expert-network-platform]]"
-- "（tool-yitang-linkedin-expert，待补）"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[yt-research-expert-interview]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[yt-research-mindset]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-expert-network-platform]]"
+  - "（tool-yitang-linkedin-expert，待补）"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
 ---
 
 # 专家访谈黄金十步法：从盲区梳理到专家匹配

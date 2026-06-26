@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-yitang-research-starter-vs-veteran]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
-- "[[tool-yitang-public-information-research]]"
+  - "[[tool-yitang-public-information-research]]"
 ---
 
 # 多数情报可通过公开信息深挖获得

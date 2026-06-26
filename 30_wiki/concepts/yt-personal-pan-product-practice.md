@@ -25,8 +25,8 @@ related:
   - '[[yt-panproduct-aesthetic-imagination]]'
   - '[[yt-demand-jtbd-application]]'
   - '[[tool-prompt-iceberg-demand-analysis]]'
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-personal-pan-product-aesthetics]]'
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6241b565-个人修身-泛产品设计实操

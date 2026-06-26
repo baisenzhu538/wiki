@@ -9,7 +9,7 @@ source_refs:
 status: enriched
 domain:
   - content-production- personal
-- yitang
+  - yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -24,8 +24,8 @@ related:
   - '[[yt-pitch-storytelling]]'
   - '[[yt-tool-project-health-radar]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
 query_triggers:
 - 数字化
 - 数字策略

@@ -15,8 +15,8 @@ related:
   - '[[ai数据理解第一课]]'
   - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
   - '[[ai时代判断力口述]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[master-knowledge-compound]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[master-knowledge-compound]]'
 source_refs:
 - src_20260525_66059442-ai时代判断力口述
 speaker: 国帅（胡帅），一堂联合创始人兼CTO

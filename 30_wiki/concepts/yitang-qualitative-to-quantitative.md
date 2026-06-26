@@ -32,10 +32,10 @@ related:
   - '[[case-lean-zhanglei-hypothesis-validation]]'
   - '[[yt-lean-qualitative-quantitative-research]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
-- '[[yt-lean-qualitative-quantitative-research]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yitang-methodology-system]]'
-- '[[case-yitang-weekly-modeling-engine]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[yitang-methodology-system]]'
+  - '[[case-yitang-weekly-modeling-engine]]'
 diagnostic_signals:
 - signal: 团队纠结"要做多少份问卷、多少个访谈"，却不说清产品形态
   framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题

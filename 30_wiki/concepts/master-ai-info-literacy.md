@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-ai-info-literacy
 title: AI时代信息素养框架

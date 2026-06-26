@@ -8,9 +8,9 @@ type: case
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
-- risk-warning
+  - pharmaceutical-retail
+  - policy-compliance
+  - risk-warning
 source_refs:
 - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
@@ -32,14 +32,14 @@ related:
   - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
   - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
   - '[[tool-clinic-cabinet-legal-contract-guide]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-financial-model]]'
-- '[[smart-medicine-cabinet-fraud-detection]]'
-- '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[smart-medicine-cabinet-o2o-cost-structure]]'
-- '[[smart-medicine-cabinet-regional-policy-map]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-financial-model]]'
+  - '[[smart-medicine-cabinet-fraud-detection]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - '[[smart-medicine-cabinet-regional-policy-map]]'
 query_triggers:
 - 诊所药柜合作模式
 - 智能药柜放在诊所

@@ -7,9 +7,9 @@ type: framework
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -33,13 +33,13 @@ related:
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-cash-flow]]'
   - '[[yt-tob-product-kernel]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-tob-demand-metrics]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-tob-demand-metrics]]'
 diagnostic_signals:
 - signal: 团队描述需求时只讲"客户需要这个"，说不清客户当前经营重心和老客/新客、老品/新品组合
   framework_lens: 四象限定位缺失

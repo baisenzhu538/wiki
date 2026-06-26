@@ -8,7 +8,7 @@ type: concept
 status: enriched
 domain:
   - learning-methodology- yitang
-- personal-growth
+  - personal-growth
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -19,12 +19,12 @@ related:
   - '[[yt-pitch-conflict]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-pitch-colloquialization]]'
-- '[[yt-note-five-levels-training]]'
-- '[[yt-note-ai-human-division]]'
-- '[[yt-note-live-field-skill]]'
-- '[[dk-modeling-checklist-formatting-rules]]'
-- '[[yt-skill-checklist-as-ai-protocol]]'
-- '[[yt-note-fact-pattern-insight]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-live-field-skill]]'
+  - '[[dk-modeling-checklist-formatting-rules]]'
+  - '[[yt-skill-checklist-as-ai-protocol]]'
+  - '[[yt-note-fact-pattern-insight]]'
 prerequisites:
 - yt-model-ipo-learning-strategy
 source_refs:

@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-hypothesis-test
 title: 内核假设测试：低成本验证方法

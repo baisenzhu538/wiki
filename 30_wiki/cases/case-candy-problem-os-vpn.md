@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-xian-franchise-location-decision]]'
   - '[[case-popmart-prospectus-pricing]]'
-- "[[framework-candy-transcript-workflow]]"
-- "[[concept-candy-ai-as-collaborator]]"
+  - "[[framework-candy-transcript-workflow]]"
+  - "[[concept-candy-ai-as-collaborator]]"
 ---
 
 # 案例：VPN场景

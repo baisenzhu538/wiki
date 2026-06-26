@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -28,13 +28,13 @@ related:
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[concept-wanghuan-flywheel-first-loop]]'
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[framework-yitang-nine-layer-deep-dig]]'
 tags:
 - 王欢
 - OODA

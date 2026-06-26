@@ -7,9 +7,9 @@ type: framework
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -31,15 +31,15 @@ related:
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-unit-model]]'
   - '[[yt-tob-customer-sabc]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-lean-assumption-prioritization]]'
-- '[[yt-tob-revenue-is-customer-cost]]'
-- '[[yt-tob-solution-model]]'
-- '[[yt-tob-demand-metrics]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-demand-metrics]]'
 diagnostic_signals:
 - signal: 同一产品试图同时满足大企业、中型企业和小微企业，销售与交付流程反复打架
   framework_lens: 客户分层（头部/腰部/腿部）

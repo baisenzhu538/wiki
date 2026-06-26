@@ -20,8 +20,8 @@ related:
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[yt-research-user-jtbd]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[yt-research-user-jtbd]]"
 ---
 
 # 案例：JTBD故事公式——从故事中提取真实需求

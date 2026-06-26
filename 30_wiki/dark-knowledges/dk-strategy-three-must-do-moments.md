@@ -17,7 +17,7 @@ related:
   - '[[dk-strategy-08-not-local-optimum]]'
   - '[[case-essence-education-strategy]]'
   - '[[tool-strategy-swot]]'
-- "[[framework-strategy-six-stages]]"
+  - "[[framework-strategy-six-stages]]"
 ---
 **三种时刻**：
 1. **快速扩张时**——管理复杂度爆炸，没战略=乱打

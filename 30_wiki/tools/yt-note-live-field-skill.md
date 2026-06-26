@@ -7,7 +7,7 @@ type: tool
 status: enriched
 domain:
   - learning-methodology- yitang
-- note-taking
+  - note-taking
 language: zh-CN
 version: 2
 difficulty: advanced
@@ -18,9 +18,9 @@ related:
   - '[[yt-note-five-levels-training]]'
   - '[[dk-note-surplus-brainpower]]'
   - '[[tool-yitang-weapon-full-product-experience]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-ai-human-division]]'
-- '[[yt-note-five-levels-training]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-five-levels-training]]'
 prerequisites:
 - yt-note-checklist-concept
 - yt-note-five-levels-training

@@ -19,8 +19,8 @@ related:
   - '[[dk-p8-toolkit-forget]]'
   - '[[ocr-一堂-单元模型-abcd策略模型]]'
   - '[[ocr-screenshot2]]'
-- '[[master-decision-hygiene]]'
-- '[[master-ai-info-literacy]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

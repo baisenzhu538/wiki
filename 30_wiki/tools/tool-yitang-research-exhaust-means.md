@@ -34,16 +34,16 @@ related:
   - '[[concept-yitang-research-scope]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-intelligence-map-in-hand]]"
-- "[[yt-research-intelligence-map]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-intelligence-map-in-hand]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 穷尽手段：底线之上，努力拉满

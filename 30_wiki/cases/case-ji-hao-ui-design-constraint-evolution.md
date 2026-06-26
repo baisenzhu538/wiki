@@ -20,9 +20,9 @@ related:
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[skill-纪浩-Problem与Question区分法]]'
   - '[[dk-ji-hao-constraint-beats-talent]]'
-- '[[dk-ji-hao-constraint-beats-talent]]'
-- '[[dk-ji-hao-novice-mindset-advantage]]'
-- '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[dk-ji-hao-constraint-beats-talent]]'
+  - '[[dk-ji-hao-novice-mindset-advantage]]'
+  - '[[skill-纪浩-problem-validation-four-checks]]'
 wiki_refs:
 - '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'

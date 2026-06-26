@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-signup-statistics]]'
   - '[[tool-yitang-amazon-bestseller]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 股票/上市公司数据

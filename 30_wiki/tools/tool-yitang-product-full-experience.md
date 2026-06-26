@@ -33,12 +33,12 @@ related:
   - '[[tool-yitang-research-two-dimensional-positioning]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-online-product-experience]]"
-- "（tool-yitang-offline-product-experience，待补）"
-- "[[tool-yitang-hardware-product-disassembly]]"
-- "[[yt-research-competitor-toolkit]]"
-- "（case-yitang-haidilao-service-research，待补）"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-online-product-experience]]"
+  - "（tool-yitang-offline-product-experience，待补）"
+  - "[[tool-yitang-hardware-product-disassembly]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "（case-yitang-haidilao-service-research，待补）"
 ---
 
 # 完整体验产品：从用户视角理解产品全貌

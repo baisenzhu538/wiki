@@ -32,9 +32,9 @@ related:
   - '[[framework-doris-industry-report-4step]]'
   - '[[tool-google-dorking]]'
   - '[[tool-yitang-industry-report-search]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-doris-industry-report-source-evaluation]]"
-- "[[tool-yitang-database-index]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-doris-industry-report-source-evaluation]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 行业报告搜索七技：三级搜索能力+渠道清单

@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-fake-demand-detection
 title: 伪需求识别：7个危险信号

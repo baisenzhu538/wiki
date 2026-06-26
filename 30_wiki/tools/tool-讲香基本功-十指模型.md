@@ -18,10 +18,10 @@ related:
   - '[[concept-思考深度分级]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[tool-讲香十指模型-超级武器库]]"
-- "[[concept-单元模型-学练用]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[tool-讲香十指模型-超级武器库]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 讲香基本功：十指模型修炼地图

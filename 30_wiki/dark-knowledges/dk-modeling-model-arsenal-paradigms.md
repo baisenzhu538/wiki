@@ -29,9 +29,9 @@ related:
   - '[[case-yitang-model-asset-inventory]]'
   - '[[case-modeling-abstraction-yitang-models]]'
   - '[[dk-modeling-business-visual-logic-match]]'
-- '[[dk-modeling-business-visual-logic-match]]'
-- '[[modeling-weapon-library]]'
-- '[[modeling-level-map]]'
+  - '[[dk-modeling-business-visual-logic-match]]'
+  - '[[modeling-weapon-library]]'
+  - '[[modeling-level-map]]'
 tags:
 - '#chunk-type/synthesis'
 - '#domain/yitang'

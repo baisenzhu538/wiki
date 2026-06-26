@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-yitang-research-starter-vs-veteran]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
 ---
 
 # 调研中的幸存者偏差

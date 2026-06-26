@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-xiaohongshu-data]]'
   - '[[tool-yitang-amazon-bestseller]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
 ---
 
 # 抖音数据

@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计

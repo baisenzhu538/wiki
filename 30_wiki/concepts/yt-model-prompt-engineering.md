@@ -9,7 +9,7 @@ source_refs:
 status: enriched
 domain:
   - modeling- yitang
-- ai
+  - ai
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -20,8 +20,8 @@ related:
   - '[[yt-prompt-anti-flattery]]'
   - '[[yt-note-ai-human-division]]'
   - '[[yt-concept-ai-guard-brain]]'
-- '[[yt-model-cognitive-upgrade-framework]]'
-- '[[master-ai-info-literacy]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[master-ai-info-literacy]]'
 query_triggers:
 - 提示词工程
 - 人机协作

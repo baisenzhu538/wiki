@@ -19,11 +19,11 @@ related:
   - '[[dk-f6-cjk-skeleton-corruption]]'
   - '[[graph-rag-retrieval-layer]]'
   - '[[fix-dark-knowledge-extractor-llm]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[dk-f2-txt-ingest-skip]]'
-- '[[master-ai-info-literacy]]'
-- '[[dk-f1-regex-on-cjk]]'
-- '[[dk-f6-cjk-skeleton-corruption]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[dk-f6-cjk-skeleton-corruption]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

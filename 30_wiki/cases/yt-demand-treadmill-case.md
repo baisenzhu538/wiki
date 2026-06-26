@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战

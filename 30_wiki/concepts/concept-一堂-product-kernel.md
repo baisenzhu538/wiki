@@ -24,9 +24,9 @@ related:
   - '[[concept-一堂-key-assumptions]]'
   - '[[concept-一堂-kernel-validation]]'
   - '[[yt-product-kernel-cultivation]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yt-foresight-15-char-mantra]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-foresight-15-char-mantra]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[skill-一堂-product-kernel-canvas]]'

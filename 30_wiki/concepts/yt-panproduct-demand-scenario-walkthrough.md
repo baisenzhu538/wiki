@@ -29,9 +29,9 @@ related:
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[yt-panproduct-demand-need-discovery]]'
-- '[[yt-panproduct-demand-user-perspective]]'
-- '[[yt-panproduct-demand-user-segmentation]]'
-- '[[yt-panproduct-demand-need-discovery]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-demand-need-discovery]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演

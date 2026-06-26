@@ -20,7 +20,7 @@ related:
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

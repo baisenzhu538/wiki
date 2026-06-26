@@ -19,10 +19,10 @@ related:
   - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
   - '[[dk-f10-broken-source-refs]]'
   - '[[dk-c4-selfcheck-superseded]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[dk-p18-yaml-parser]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[master-systems-thinking]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[master-systems-thinking]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆

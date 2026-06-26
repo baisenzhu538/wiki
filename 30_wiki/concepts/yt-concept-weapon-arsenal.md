@@ -25,9 +25,9 @@ related:
   - '[[yt-pitch-conflict]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-pitch-colloquialization]]'
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-personal-scientific-expression]]'
-- '[[yt-model-prompt-engineering]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-personal-scientific-expression]]'
+  - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库

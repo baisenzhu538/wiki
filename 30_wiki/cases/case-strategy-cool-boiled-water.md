@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-edward-jones]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-li-ka-shing]]'
-- "[[tool-strategy-four-moves]]"
+  - "[[tool-strategy-four-moves]]"
 ---
 **切入**：农夫山泉/怡宝/康师傅三分天下→凉白开从"高考生"这个被所有人忽略的场景切入
 **结果**：2年30亿

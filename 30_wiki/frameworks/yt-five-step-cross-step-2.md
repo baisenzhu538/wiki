@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 id: yt-five-step-cross-step-2
 title: 跨步二：从1到10的规模化

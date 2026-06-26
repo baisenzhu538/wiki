@@ -34,9 +34,9 @@ related:
   - '[[dk-skill-market-agent-self-install]]'
   - '[[ai-native-im-multi-agent]]'
   - '[[case-truman-ai-partner]]'
-- '[[case-truman-ai-partner]]'
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[case-ji-hao-skill-market-problem-validation]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -8,8 +8,8 @@ type: concept
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
+  - pharmaceutical-retail
+  - policy-compliance
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -28,10 +28,10 @@ related:
   - '[[smart-medicine-cabinet-distribution]]'
   - '[[concept-smart-medicine-cabinet-international-models]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[master-decision-hygiene]]'
-- '[[smart-medicine-cabinet-clinic-risk-observation]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - '[[master-decision-hygiene]]'
+  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
 query_triggers:
 - 各省市自助售药机政策
 - 药柜地方政策差异

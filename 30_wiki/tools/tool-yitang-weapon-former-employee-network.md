@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-weapon-insider-intelligence]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-weapon-insider-intelligence]]"
 ---
 
 # 武器库策略6：前员工人脉网络

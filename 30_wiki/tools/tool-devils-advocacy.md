@@ -20,9 +20,9 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[tool-candy-oral-polish]]'
   - '[[tool-indicators-signposts]]'
-- "[[framework-structured-analytic-techniques]]"
-- "（concept-半肥猫-ai-research-validation，待补）"
-- "[[tool-harness-adversarial-tester]]"
+  - "[[framework-structured-analytic-techniques]]"
+  - "（concept-半肥猫-ai-research-validation，待补）"
+  - "[[tool-harness-adversarial-tester]]"
 ---
 
 # Devil's Advocacy

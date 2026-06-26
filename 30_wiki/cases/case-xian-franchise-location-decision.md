@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-candy-problem-os-vpn]]'
-- "[[tool-yitang-store-franchise-research]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-store-franchise-research]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 案例：西安加盟选址——避免"想当然"式调研

@@ -39,13 +39,13 @@ related:
   - '[[dk-wanghuan-spec-trap]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[yt-tool-onboarding-90day]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[concept-wanghuan-ai-native-definition]]'
-- '[[concept-wanghuan-power-of-standards]]'
-- '[[concept-harness-cattle-not-pets]]'
-- '[[concept-harness-scoring-anchors]]'
-- '[[framework-five-step-lean-interface]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[concept-wanghuan-power-of-standards]]'
+  - '[[concept-harness-cattle-not-pets]]'
+  - '[[concept-harness-scoring-anchors]]'
+  - '[[framework-five-step-lean-interface]]'
 tags:
 - 王欢
 - Harness

@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
 ---
 
 # 裁判文书检索

@@ -30,19 +30,19 @@ related:
   - '[[case-cross-yuanqi-forest]]'
   - '[[framework-five-step-lean-interface]]'
   - '[[five-step-domain-digest]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-iceberg-l3-core-job]]"
-- "[[tool-demand-iceberg-l4-job-map]]"
-- "[[tool-demand-iceberg-l5-forces]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[framework-strategy-lean-validation]]"
-- "[[five-step-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-demand-iceberg-l4-job-map]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[five-step-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
 ---
 
 # 需求判断与精益验证的衔接

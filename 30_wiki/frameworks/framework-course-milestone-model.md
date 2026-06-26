@@ -11,8 +11,8 @@ source_refs:
 status: enriched
 domain:
   - yitang- yitang
-- education
-- modeling
+  - education
+  - modeling
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -26,10 +26,10 @@ related:
   - '[[dk-modeling-expert-consensus-five-percent]]'
   - '[[case-thousand-people-square]]'
   - '[[concept-thousand-people-square]]'
-- '[[modeling-scientific-milestones]]'
-- '[[concept-thousand-people-square]]'
-- '[[case-personal-map-modeling]]'
-- '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[modeling-scientific-milestones]]'
+  - '[[concept-thousand-people-square]]'
+  - '[[case-personal-map-modeling]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
 - '#method/modeling'
 - '#content-format/framework'

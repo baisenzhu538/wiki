@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-hardware-factory-photo]]'
   - '[[case-liutao-douyin-team-leader-9m]]'
-- "[[tool-yitang-supply-chain-research]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-supply-chain-research]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 案例：通过保安打听到工厂收购价

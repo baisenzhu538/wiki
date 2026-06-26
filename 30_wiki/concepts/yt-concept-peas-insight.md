@@ -25,11 +25,11 @@ related:
   - '[[yt-tool-peas-agent-analysis]]'
   - '[[yt-model-agent-architecture]]'
   - '[[诊所o2o外卖平台业务深度调研报告]]'
-- '[[yt-tool-peas-agent-analysis]]'
-- '[[yt-model-agent-architecture]]'
-- '[[yt-model-cognitive-upgrade-framework]]'
-- '[[yt-decision-habit-shift]]'
-- '[[yt-decision-y-model]]'
+  - '[[yt-tool-peas-agent-analysis]]'
+  - '[[yt-model-agent-architecture]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-decision-habit-shift]]'
+  - '[[yt-decision-y-model]]'
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html

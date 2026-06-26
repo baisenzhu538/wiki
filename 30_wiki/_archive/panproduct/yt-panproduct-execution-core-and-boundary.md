@@ -31,9 +31,9 @@ related:
   - '[[tool-泛产品落地-努力仿真]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[tool-泛产品落地-逻辑MECE]]'
-- '[[tool-泛产品落地-管理三段论]]'
-- '[[master-first-principles]]'
+  - '[[tool-泛产品落地-逻辑MECE]]'
+  - '[[tool-泛产品落地-管理三段论]]'
+  - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界

@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -40,14 +40,14 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yt-five-step-common-pitfalls]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[tool-泛产品落地-低成本测试MVP]]'
 
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用

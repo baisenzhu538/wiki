@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-a-b-testing
 title: A/B测试：增长实验的统计基础

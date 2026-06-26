@@ -19,8 +19,8 @@ related:
   - '[[modeling-capability-for-kdo]]'
   - '[[proposal-kdo-flywheel-infrastructure]]'
   - '[[workflow-knowledge-collision]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

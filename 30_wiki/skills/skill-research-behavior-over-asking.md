@@ -26,11 +26,11 @@ related:
   - '[[dk-research-triangulation-stop-rule]]'
   - '[[tool-yitang-research-cross-validation]]'
   - '[[skill-research-triangulation-stop-rule]]'
-- "[[dk-yitang-behavior-over-asking]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[yt-research-user-jtbd]]"
-- "[[framework-demand-iceberg]]"
+  - "[[dk-yitang-behavior-over-asking]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[yt-research-user-jtbd]]"
+  - "[[framework-demand-iceberg]]"
 diagnostic_signals:
   - signal: "访谈总结里全是'用户说''用户认为'，很少出现'用户做了什么'"
     framework_lens: 行为证据优先

@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任

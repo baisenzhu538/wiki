@@ -24,13 +24,13 @@ related:
   - '[[yt-model-five-step-canvas]]'
   - '[[framework-一堂五步法-泛产品设计]]'
   - '[[ocr-一堂五步法画布]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-five-step-common-pitfalls]]'
-- '[[yt-five-step-implementation]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[framework-five-step-lean-interface]]'
-- '[[framework-strategy-lean-validation]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
+  - '[[yt-five-step-common-pitfalls]]'
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[framework-five-step-lean-interface]]'
+  - '[[framework-strategy-lean-validation]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:

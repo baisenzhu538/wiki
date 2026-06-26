@@ -30,9 +30,9 @@ related:
   - '[[case-yitang-radar-chart-selection]]'
   - '[[case-thousand-people-square]]'
   - '[[case-essence-entrepreneurship]]'
-- '[[framework-course-milestone-model]]'
-- '[[case-thousand-people-square]]'
-- '[[case-personal-map-modeling]]'
+  - '[[framework-course-milestone-model]]'
+  - '[[case-thousand-people-square]]'
+  - '[[case-personal-map-modeling]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

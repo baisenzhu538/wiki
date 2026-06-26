@@ -12,13 +12,13 @@ created_at: '2026-06-13'
 updated_at: '2026-06-19'
 related:
   - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
-- '[[互联网医院项目]]'
-- '[[鑫港湾HIS项目]]'
-- '[[诊所O2O项目]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[shanxi-field-research-checklist-20260701]]'
-- '[[xingangwan-pharma-business-formulas]]'
-- '[[xingangwan-pharma-business-model-calc]]'
+  - '[[互联网医院项目]]'
+  - '[[鑫港湾HIS项目]]'
+  - '[[诊所O2O项目]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
 tags:
 - backlog
 - parking-lot

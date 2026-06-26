@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-moat-building
 title: 壁垒建设路线图

@@ -10,7 +10,7 @@ source_refs:
 status: enriched
 domain:
   - yitang- yitang
-- modeling
+  - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
 created_at: '2026-06-14'
@@ -26,12 +26,12 @@ related:
   - '[[case-truman-sales-report-structure]]'
   - '[[yt-model-deep-review-iceberg]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[modeling-scientific-milestones]]'
-- '[[modeling-three-stages]]'
-- '[[model-quality-four-levels]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
-- '[[tool-essence-nfactor-modeling]]'
-- '[[dk-modeling-essence-predictive]]'
+  - '[[modeling-scientific-milestones]]'
+  - '[[modeling-three-stages]]'
+  - '[[model-quality-four-levels]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[dk-modeling-essence-predictive]]'
 tags:
 - '#method/modeling'
 - '#content-format/framework'

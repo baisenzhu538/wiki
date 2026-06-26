@@ -17,7 +17,7 @@ related:
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[dk-demand-pitfall-financial-literacy]]'
   - '[[dk-demand-pitfall-rural-5g]]'
-- "[[case-demand-indonesia-insurance]]"
+  - "[[case-demand-indonesia-insurance]]"
 ---
 **坑**：中国模式复制到印尼→需求不成立。
 **真相**：USP模型中Situation（场景）变了——宗教、家庭结构、支付习惯完全不同。

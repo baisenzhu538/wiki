@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-xiaohongshu-data]]'
   - '[[tool-yitang-douyin-data]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-database-index]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 趋势数据查询

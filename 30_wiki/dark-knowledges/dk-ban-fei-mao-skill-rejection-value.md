@@ -21,9 +21,9 @@ related:
   - '[[case-半肥猫-course-to-skill]]'
   - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

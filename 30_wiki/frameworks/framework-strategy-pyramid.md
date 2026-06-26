@@ -21,11 +21,11 @@ related:
   - '[[tool-strategy-industry-chain-analysis]]'
   - '[[case-strategy-walmart-vs-costco-pyramid]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[case-strategy-model-selection-quiz]]'
-- '[[case-strategy-walmart-vs-costco-pyramid]]'
-- '[[framework-strategy-blm]]'
-- '[[framework-strategy-business-design]]'
-- '[[framework-strategy-mckinsey-7s]]'
+  - '[[case-strategy-model-selection-quiz]]'
+  - '[[case-strategy-walmart-vs-costco-pyramid]]'
+  - '[[framework-strategy-blm]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[framework-strategy-mckinsey-7s]]'
 ---
 
 # 企业战略金字塔：公司、业务与职能协同

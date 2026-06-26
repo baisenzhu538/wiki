@@ -29,13 +29,13 @@ related:
   - '[[case-lean-shampoo-selling-points]]'
   - '[[case-lean-gray-test-paradigm]]'
   - '[[case-lean-crayfish-combo-test]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-six-wastes]]"
-- "[[framework-lean-product-kernel]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-product-kernel]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
 ---
 
 # 组合测试范式实操案例

@@ -25,11 +25,11 @@ related:
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[tool-泛产品落地-解放思想]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-pan-product-execution-toolkit]]'
-- '[[yt-model-pan-product-climbing-map]]'
-- '[[yt-model-pan-product-three-virtues]]'
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-model-pan-product-climbing-map]]'
+  - '[[yt-model-pan-product-three-virtues]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary

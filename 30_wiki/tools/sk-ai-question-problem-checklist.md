@@ -36,8 +36,8 @@ related:
   - '[[ai-collaboration-mindset-shift]]'
   - '[[dk-modeling-expert-consensus-five-percent]]'
   - '[[skill-纪浩-Problem与Question区分法]]'
-- '[[sk-ai-problem-validation]]'
-- '[[ai-collaboration-mindset-shift]]'
+  - '[[sk-ai-problem-validation]]'
+  - '[[ai-collaboration-mindset-shift]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.90

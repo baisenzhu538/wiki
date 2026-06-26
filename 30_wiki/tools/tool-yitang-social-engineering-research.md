@@ -35,10 +35,10 @@ related:
   - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
   - '[[tool-yitang-wechat-group-infiltration]]'
   - '[[tool-strategy-profit-model-comparison]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-job-intelligence-research]]"
-- "[[concept-research-responsibility-boundary]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "[[concept-research-responsibility-boundary]]"
 ---
 
 # 社会工程学调研：身份设计与信息获取的合法边界

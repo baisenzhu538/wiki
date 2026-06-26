@@ -10,7 +10,7 @@ created_at: 2026-05-13
 difficulty: foundational
 domain:
   - content-production- personal
-- yitang
+  - yitang
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
@@ -27,8 +27,8 @@ related:
   - '[[yt-pitch-sublimation]]'
   - '[[yt-pitch-conflict]]'
   - '[[yt-pitch-colloquialization]]'
-- '[[yt-panproduct-demand-scenario-walkthrough]]'
-- '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-panproduct-demand-scenario-walkthrough]]'
+  - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库

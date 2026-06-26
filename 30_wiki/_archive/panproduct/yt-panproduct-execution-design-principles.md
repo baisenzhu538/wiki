@@ -31,9 +31,9 @@ related:
   - '[[tool-泛产品落地-风险管理]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[yt-panproduct-aesthetic-modeling]]'
-- '[[yt-panproduct-aesthetic-pool]]'
-- '[[tool-泛产品落地-努力仿真]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[tool-泛产品落地-努力仿真]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则

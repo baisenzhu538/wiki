@@ -7,8 +7,8 @@ type: concept
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -29,11 +29,11 @@ related:
   - '[[yt-lean-essence]]'
   - '[[yt-lean-beauty-store-conversion]]'
   - '[[yt-lean-assumption-prioritization]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 diagnostic_signals:
 - signal: 每天早上列待办时，分不清哪些任务对应致命假设、哪些只是优化项
   framework_lens: 假设驱动日常决策三问 / 敬畏概率

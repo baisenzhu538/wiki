@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 证券研报

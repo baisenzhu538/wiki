@@ -24,10 +24,10 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
-- '[[dk-ban-fei-mao-silky-answer-warning]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+  - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

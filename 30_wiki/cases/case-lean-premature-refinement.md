@@ -21,16 +21,16 @@ related:
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-shoe-mvp-evolution]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[framework-lean-product-kernel]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[tool-lean-minimum-version]]"
-- "[[tool-lean-cut-features]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-product-kernel]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[tool-lean-minimum-version]]"
+  - "[[tool-lean-cut-features]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 过早细化案例集

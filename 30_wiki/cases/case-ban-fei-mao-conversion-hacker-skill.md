@@ -20,8 +20,8 @@ related:
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[case-半肥猫-course-to-skill]]'
   - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[case-ban-fei-mao-skill-ab-test]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

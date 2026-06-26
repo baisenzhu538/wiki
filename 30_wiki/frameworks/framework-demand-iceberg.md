@@ -21,13 +21,13 @@ related:
   - '[[case-demand-silver-parenting]]'
   - '[[tool-prompt-jtbd-scenario-coach]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-iceberg-l3-core-job]]"
-- "[[tool-demand-iceberg-l4-job-map]]"
-- "[[tool-demand-iceberg-l5-forces]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[framework-demand-lean-bridge]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-demand-iceberg-l4-job-map]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[framework-demand-lean-bridge]]"
 ---
 
 # 需求洞察冰山模型

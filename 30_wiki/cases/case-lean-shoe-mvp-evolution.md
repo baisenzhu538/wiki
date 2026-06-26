@@ -23,11 +23,11 @@ related:
   - '[[case-lean-adult-education]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[tool-lean-fake-product]]"
-- "[[tool-lean-minimum-version]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[case-lean-electric-scooter-mvp]]"
+  - "[[tool-lean-fake-product]]"
+  - "[[tool-lean-minimum-version]]"
 ---
 
 # 鞋类产品 MVP 演进

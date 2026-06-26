@@ -6,10 +6,10 @@ title: 公司文化
 type: concept
 domain:
   - management- management
-- business-strategy
-- ai-saas
-- design
-- yitang
+  - business-strategy
+  - ai-saas
+  - design
+  - yitang
 status: enriched
 pipeline:
 - confidence-source-cited
@@ -42,11 +42,11 @@ related:
   - '[[skill-一堂-product-kernel-canvas]]'
   - '[[case-truman-livestream-sop-iteration]]'
   - '[[yt-tob-sales-unit-model]]'
-- "[[yt-management-founder-role]]"
-- "[[yt-management-goal-management]]"
-- "[[yt-management-business-formula]]"
-- "[[yt-tool-hiring-scorecard]]"
-- "[[yt-model-management-map]]"
+  - "[[yt-management-founder-role]]"
+  - "[[yt-management-goal-management]]"
+  - "[[yt-management-business-formula]]"
+  - "[[yt-tool-hiring-scorecard]]"
+  - "[[yt-model-management-map]]"
 
 ---# 公司文化
 

@@ -24,7 +24,7 @@ related:
   - '[[ocr-一堂最佳转化率动力曲线图]]'
   - '[[case-truman-motivation-map-12-versions]]'
   - '[[yt-tool-fab-persuasion]]'
-- '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb19-visual-strategy-price-match]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂

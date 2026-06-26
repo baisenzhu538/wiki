@@ -26,9 +26,9 @@ related:
   - '[[case-essence-humanity-trap]]'
   - '[[case-child-drawing-rhyme]]'
   - '[[case-essence-entrepreneurship]]'
-- '[[tool-essence-nfactor-modeling]]'
-- '[[dk-modeling-explanatory-vs-predictive-essence]]'
-- '[[dk-modeling-essence-predictive]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[dk-modeling-essence-predictive]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

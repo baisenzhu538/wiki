@@ -23,16 +23,16 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[dk-ai-social-progress-not-automatic]]'
   - '[[concept-ai-chair-determines-view]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-tech-probability-80-filter]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[tool-tech-probability-80-filter]]"
 ---
 
 # 交叉阅读法

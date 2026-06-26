@@ -29,10 +29,10 @@ related:
   - '[[yt-concept-p-type-l-type]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-five-step-implementation]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+  - '[[yt-five-step-implementation]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
+  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 review_date: 2026-06-06
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas

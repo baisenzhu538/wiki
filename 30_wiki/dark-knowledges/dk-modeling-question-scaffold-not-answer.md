@@ -21,11 +21,11 @@ related:
   - '[[tool-scenario-selector-modeling]]'
   - '[[dk-modeling-case-explosion-confidence]]'
   - '[[dk-tool-as-phased-validator]]'
-- dk-modeling-radar-model-not-result
-- dk-modeling-explanatory-vs-predictive-essence
-- yt-lean-assumption-prioritization
-- dk-modeling-ai-iterative-prompting
-- modeling-three-stages
+  - dk-modeling-radar-model-not-result
+  - dk-modeling-explanatory-vs-predictive-essence
+  - yt-lean-assumption-prioritization
+  - dk-modeling-ai-iterative-prompting
+  - modeling-three-stages
 bridges_to:
 - target: yt-lean-assumption-prioritization
   relation: provides_foundation_for

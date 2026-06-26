@@ -7,9 +7,9 @@ type: concept
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
 - '#method/evaluation-method'
@@ -30,14 +30,14 @@ related:
   - '[[yt-tob-core-characteristics]]'
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-unit-model]]'
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-cash-flow]]'
-- '[[yt-tob-growth-channel]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-tob-demand-metrics]]'
-- '[[yt-tob-customer-sabc]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-customer-sabc]]'
 diagnostic_signals:
 - signal: 销售团队扩张后，人均产出下降，但公司只盯着总营收增长。
   framework_lens: 缺少单销售模型视角，无法判断“招一个销售是否划算”。

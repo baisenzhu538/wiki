@@ -22,7 +22,7 @@ related:
   - '[[case-milktea-five-step]]'
   - '[[case-shampoo-product-kernel]]'
   - '[[case-demand-silver-parenting]]'
-- '[[yt-foresight-15-char-mantra]]'
+  - '[[yt-foresight-15-char-mantra]]'
 wiki_refs:
 - '[[yt-foresight-15-char-mantra]]'
 pipeline:

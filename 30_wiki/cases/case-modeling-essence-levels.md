@@ -45,11 +45,11 @@ related:
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[yt-model-deep-review-iceberg]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[modeling-three-stages]]'
-- '[[tool-essence-nfactor-modeling]]'
-- '[[dk-modeling-essence-predictive]]'
-- '[[dk-modeling-explanatory-vs-predictive-essence]]'
-- '[[case-modeling-essence-schools]]'
+  - '[[modeling-three-stages]]'
+  - '[[tool-essence-nfactor-modeling]]'
+  - '[[dk-modeling-essence-predictive]]'
+  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
+  - '[[case-modeling-essence-schools]]'
 ---
 # 本质建模案例：从盲目创新到学科经典的五层思维深度
 

@@ -20,8 +20,8 @@ related:
   - '[[case-demand-ai-fitness-four-forces]]'
   - '[[framework-demand-iceberg]]'
   - '[[tool-demand-agent-signal-substitute]]'
-- "[[tool-demand-iceberg-l5-forces]]"
-- "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 四种力量建模

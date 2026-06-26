@@ -21,8 +21,8 @@ related:
   - '[[case-zhanglei-furniture-overseas-market-selection]]'
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
-- "[[framework-yitang-expert-interview-10steps]]"
-- "[[concept-ceo-must-do-user-research]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
+  - "[[concept-ceo-must-do-user-research]]"
 ---
 
 # 案例：重金做用户访谈但方向全错

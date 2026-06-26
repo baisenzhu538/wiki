@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡

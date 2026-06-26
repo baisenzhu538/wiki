@@ -33,12 +33,12 @@ related:
   - '[[tool-yitang-research-quantitative-modeling]]'
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-exhaust-means]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "（tool-yitang-id-increment-analysis，待补）"
-- "（tool-yitang-web-crawler-research，待补）"
-- "（tool-yitang-product-reverse-engineering，待补）"
-- "（tool-yitang-offline-store-reconnaissance，待补）"
-- "[[yt-research-competitor-toolkit]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "（tool-yitang-id-increment-analysis，待补）"
+  - "（tool-yitang-web-crawler-research，待补）"
+  - "（tool-yitang-product-reverse-engineering，待补）"
+  - "（tool-yitang-offline-store-reconnaissance，待补）"
+  - "[[yt-research-competitor-toolkit]]"
 ---
 
 # 逆向数据分析：从公开数据反推商业真相

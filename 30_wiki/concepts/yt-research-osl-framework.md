@@ -36,17 +36,17 @@ related:
   - '[[yitang-research-domain-digest]]'
   - '[[tool-yitang-18-strategy-tool-mapping]]'
   - '[[一堂]]'
-- "[[yt-research-intelligence-map]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[yt-research-expert-interview]]"
-- "[[yt-research-industry-canvas]]"
-- "[[yt-research-hypothesis-test]]"
-- "[[yt-research-user-jtbd]]"
-- "[[yt-research-mindset]]"
-- "[[yt-research-action-camp-launch]]"
-- "[[yt-decision-y-model]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-case-mandatory-cases]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[yt-research-expert-interview]]"
+  - "[[yt-research-industry-canvas]]"
+  - "[[yt-research-hypothesis-test]]"
+  - "[[yt-research-user-jtbd]]"
+  - "[[yt-research-mindset]]"
+  - "[[yt-research-action-camp-launch]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-case-mandatory-cases]]"
 yitang:
   map: entrepreneur
   module: 调研方法论

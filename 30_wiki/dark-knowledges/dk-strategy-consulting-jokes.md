@@ -17,7 +17,7 @@ related:
   - '[[case-demand-milkshake-jtbd]]'
   - '[[case-demand-travel-agent]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-strategy-04-consulting-trap]]"
+  - "[[dk-strategy-04-consulting-trap]]"
 ---
 **笑话1（属羊）**：咨询公司报告"你的核心客户是属羊的"——花了200万，告诉了你早就知道的事
 **笑话2（勺子）**：咨询公司方案"你需要一把勺子"——正确但毫无用处，你真正需要的是"怎么用勺子吃到饭"

@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式

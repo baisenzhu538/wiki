@@ -33,13 +33,13 @@ related:
   - '[[tool-yitang-research-quantitative-modeling]]'
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 事实优先：区分事实与观点的认知纪律

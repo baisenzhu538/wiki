@@ -20,8 +20,8 @@ related:
   - '[[yt-demand-decision-chain]]'
   - '[[case-demand-silver-parenting]]'
   - '[[five-step-domain-digest]]'
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-iceberg-l1-user]]"
 ---
 
 # 盲区和机会清单

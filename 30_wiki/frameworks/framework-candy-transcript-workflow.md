@@ -20,10 +20,10 @@ related:
   - '[[framework-demand-usp-model]]'
   - '[[dk-ji-hao-problem-vs-question]]'
   - '[[case-candy-problem-os-vpn]]'
-- "[[concept-candy-ai-as-collaborator]]"
-- "[[tool-candy-positioning-canvas]]"
-- "[[tool-candy-oral-polish]]"
-- "[[case-candy-problem-os-vpn]]"
+  - "[[concept-candy-ai-as-collaborator]]"
+  - "[[tool-candy-positioning-canvas]]"
+  - "[[tool-candy-oral-polish]]"
+  - "[[case-candy-problem-os-vpn]]"
 ---
 
 # Candy逐字稿九步法

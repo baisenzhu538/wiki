@@ -7,7 +7,7 @@ type: tool
 status: enriched
 domain:
   - learning-methodology- yitang
-- note-taking
+  - note-taking
 language: zh-CN
 version: 2
 difficulty: beginner
@@ -15,12 +15,12 @@ confidence: 0.88
 related:
   - '[[skill-note-keyword-bolding]]'
   - '[[skill-note-one-line-one-point]]'
-- '[[yt-note-checklist-concept]]'
-- '[[skill-note-keyword-bolding]]'
-- '[[skill-note-one-line-one-point]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[yt-management-scientific-meetings]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[skill-note-keyword-bolding]]'
+  - '[[skill-note-one-line-one-point]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[case-truman-prd-checklist-evolution]]'
+  - '[[yt-management-scientific-meetings]]'
 wiki_refs:
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-keyword-bolding]]'

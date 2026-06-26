@@ -34,16 +34,16 @@ related:
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[skill-深度分层学习]]'
   - '[[tool-yitang-research-exhaust-means]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "（tool-yitang-research-facts-first，待补）"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "（tool-yitang-research-facts-first，待补）"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
 ---
 
 # 六层交叉验证：从单源到多源的信息可信度提升

@@ -18,11 +18,11 @@ related:
   - '[[tool-单元模型-壁垒预判]]'
   - '[[concept-思考深度分级]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[concept-思考深度分级]]"
-- "[[framework-高水平共识曲线]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[concept-思考深度分级]]"
+  - "[[framework-高水平共识曲线]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 问题边界与Problem澄清五层结构

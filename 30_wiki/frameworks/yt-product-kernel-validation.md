@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度验证法

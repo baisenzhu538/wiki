@@ -31,16 +31,16 @@ source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
   - '[[framework-yitang-four-research-types]]'
-- "[[framework-yitang-four-research-types]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[yt-research-osl-framework]]"
-- "[[yt-research-mindset]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-desperate-effort]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-field-research]]"
+  - "[[framework-yitang-four-research-types]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-mindset]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-desperate-effort]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

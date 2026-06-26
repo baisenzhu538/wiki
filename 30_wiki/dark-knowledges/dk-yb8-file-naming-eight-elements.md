@@ -19,9 +19,9 @@ related:
   - '[[那今天不会]]'
   - '[[dk-yb23-ai-pre-screen-three-minutes]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb5-style-asset-archive]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
 pipeline:
 - confidence-source-cited
 author: 月白

@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-competitive-moat
 title: 商业模式护城河：持续竞争优势

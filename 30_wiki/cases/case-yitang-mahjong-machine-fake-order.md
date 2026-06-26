@@ -20,8 +20,8 @@ related:
   - '[[case-demand-pharma-bigdata]]'
   - '[[case-yitang-competitor-pricing-intelligence]]'
   - '[[tool-yitang-security-guard-intel]]'
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 案例：假装订货套取麻将机竞品数据

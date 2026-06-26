@@ -22,12 +22,12 @@ related:
   - '[[framework-strategy-brm]]'
   - '[[framework-strategy-blm]]'
   - '[[tool-strategy-map]]'
-- '[[framework-strategy-brm]]'
-- '[[framework-strategy-blm]]'
-- '[[framework-strategy-five-basics]]'
-- '[[framework-strategy-pyramid]]'
-- '[[framework-strategy-three-horizons]]'
-- '[[framework-five-step-lean-interface]]'
+  - '[[framework-strategy-brm]]'
+  - '[[framework-strategy-blm]]'
+  - '[[framework-strategy-five-basics]]'
+  - '[[framework-strategy-pyramid]]'
+  - '[[framework-strategy-three-horizons]]'
+  - '[[framework-five-step-lean-interface]]'
 ---
 
 # 业务设计六要素×三步骤

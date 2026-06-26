@@ -23,9 +23,9 @@ related:
   - '[[case-ai-time-management-tiered-growth]]'
   - '[[yt-ai-trend-12-signals]]'
   - '[[dk-foresight-tier-skip-illusion]]'
-- '[[yt-ai-trend-12-signals]]'
-- '[[yt-three-dimension-opportunity-matrix]]'
-- '[[yt-foresight-probability-engineering]]'
+  - '[[yt-ai-trend-12-signals]]'
+  - '[[yt-three-dimension-opportunity-matrix]]'
+  - '[[yt-foresight-probability-engineering]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

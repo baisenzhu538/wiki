@@ -21,8 +21,8 @@ related:
   - '[[skill-纪浩-AI工具脚本化约束]]'
   - '[[skill-纪浩-处理AI生成代码运行异常]]'
   - '[[skill-纪浩-Agent开工检查单制作法]]'
-- '[[case-ji-hao-ui-design-constraint-evolution]]'
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - '[[case-ji-hao-ui-design-constraint-evolution]]'
+  - '[[concept-纪浩-ai-collaboration-five-layer]]'
 wiki_refs:
 - '[[case-ji-hao-ui-design-constraint-evolution]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'

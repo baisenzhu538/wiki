@@ -22,12 +22,12 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[yt-tool-hiring-scorecard]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-strategy-meeting]]'
-- '[[yt-decision-y-model]]'
-- '[[master-decision-hygiene]]'
+  - '[[yt-management-scientific-meetings]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-project-management]]'
+  - '[[yt-management-strategy-meeting]]'
+  - '[[yt-decision-y-model]]'
+  - '[[master-decision-hygiene]]'
 contradicts: null
 query_triggers:
 - 会议设计

@@ -21,9 +21,9 @@ related:
   - '[[dk-c9-batch-trigger-garbage]]'
   - '[[tool-devils-advocacy]]'
   - '[[framework-structured-analytic-techniques]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-ci-define-phase]]"
-- "[[tool-ci-implement-phase]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-ci-define-phase]]"
+  - "[[tool-ci-implement-phase]]"
 ---
 
 # CI运营模型：从信息收集到决策改变的闭环

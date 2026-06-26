@@ -33,12 +33,12 @@ related:
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-deep-attribution]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 归一总结：整合信息形成统一结论

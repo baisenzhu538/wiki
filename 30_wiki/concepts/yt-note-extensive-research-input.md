@@ -7,7 +7,7 @@ type: concept
 status: enriched
 domain:
   - learning-methodology- yitang
-- personal-growth
+  - personal-growth
 language: zh-CN
 version: 1
 confidence: 0.84
@@ -19,13 +19,13 @@ related:
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[skill-问题驱动式深度思考笔记]]'
-- '[[skill-多源输入法]]'
-- '[[yt-note-l4-internalization]]'
-- '[[yt-note-checklist-concept]]'
-- '[[dk-truman-flag-note-taking]]'
-- '[[yt-note-expert-interview-modeling]]'
-- '[[yt-research-mindset]]'
-- '[[yt-note-fact-pattern-insight]]'
+  - '[[skill-多源输入法]]'
+  - '[[yt-note-l4-internalization]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[dk-truman-flag-note-taking]]'
+  - '[[yt-note-expert-interview-modeling]]'
+  - '[[yt-research-mindset]]'
+  - '[[yt-note-fact-pattern-insight]]'
 query_triggers:
 - 广泛涉猎式笔记
 - 多源输入笔记

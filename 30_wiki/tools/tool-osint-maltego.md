@@ -21,8 +21,8 @@ related:
   - '[[high-density-composite-compilation-strategy]]'
   - '[[tool-metadata-extraction]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-osint-overview]]"
-- "[[tool-yitang-people-network-database]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-people-network-database]]"
 ---
 
 # Maltego：实体关系图谱

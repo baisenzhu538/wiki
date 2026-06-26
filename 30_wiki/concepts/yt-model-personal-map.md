@@ -24,9 +24,9 @@ related:
   - '[[ocr-一堂-个人修炼-课程清单]]'
   - '[[ocr-一堂-地图-个人地图]]'
   - '[[yt-model-progress-map]]'
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[case-personal-map-modeling]]'
-- '[[case-truman-personal-growth-map-creation]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[case-personal-map-modeling]]'
+  - '[[case-truman-personal-growth-map-creation]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary

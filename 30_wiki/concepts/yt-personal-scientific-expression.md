@@ -27,8 +27,8 @@ related:
   - '[[yt-personal-verbatim-script]]'
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-inspiration-flash]]'
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-model-prompt-engineering]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-model-prompt-engineering]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

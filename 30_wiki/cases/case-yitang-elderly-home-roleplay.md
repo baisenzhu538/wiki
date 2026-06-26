@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-yitang-competitor-pricing-intelligence]]'
   - '[[case-yitang-hardware-factory-photo]]'
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 案例：假扮家属潜入养老院微信群

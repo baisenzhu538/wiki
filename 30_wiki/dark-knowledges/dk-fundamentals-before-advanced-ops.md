@@ -22,11 +22,11 @@ related:
   - '[[dk-note-surplus-brainpower]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yt-note-five-levels-training]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[modeling-level-map]]'
-- '[[sk-ai-ai-workspace-setup]]'
-- '[[dk-modeling-question-scaffold-not-answer]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[modeling-level-map]]'
+  - '[[sk-ai-ai-workspace-setup]]'
+  - '[[dk-modeling-question-scaffold-not-answer]]'
 bridges_to:
 - yt-note-five-levels-training
 - modeling-level-map

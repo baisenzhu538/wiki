@@ -35,9 +35,9 @@ related:
   - '[[sk-ai-evidence-check]]'
   - '[[voice-input-doubao]]'
   - '[[sk-ai-question-problem-checklist]]'
-- '[[sk-ai-problem-validation]]'
-- '[[prd-as-ai-instruction]]'
-- '[[sk-ai-question-problem-checklist]]'
+  - '[[sk-ai-problem-validation]]'
+  - '[[prd-as-ai-instruction]]'
+  - '[[sk-ai-question-problem-checklist]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

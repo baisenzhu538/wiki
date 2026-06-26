@@ -19,8 +19,8 @@ related:
   - '[[dk-f4-wrong-workdir]]'
   - '[[dk-p16-validate-reads-state-json]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-systems-thinking]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-systems-thinking]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

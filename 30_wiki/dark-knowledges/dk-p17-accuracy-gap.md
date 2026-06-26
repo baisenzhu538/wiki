@@ -19,11 +19,11 @@ related:
   - '[[label-accuracy-standard-alignment]]'
   - '[[dk-p15-unverified]]'
   - '[[labeling-research-alignment]]'
-- '[[dk-p15-unverified]]'
-- '[[dk-f14-accuracy-measurement-mismatch]]'
-- '[[master-decision-hygiene]]'
-- '[[master-ai-info-literacy]]'
-- '[[gold-standard-manual-labels]]'
+  - '[[dk-p15-unverified]]'
+  - '[[dk-f14-accuracy-measurement-mismatch]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[gold-standard-manual-labels]]'
 pipeline:
 - confidence-enriched
 - confidence-source-cited

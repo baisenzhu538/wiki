@@ -21,9 +21,9 @@ related:
   - '[[concept-research-responsibility-boundary]]'
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[concept-yitang-research-mindset]]"
-- "[[dk-yitang-research-scale-vs-depth]]"
-- "[[framework-yitang-research-weapon-system]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[dk-yitang-research-scale-vs-depth]]"
+  - "[[framework-yitang-research-weapon-system]]"
 ---
 
 # 事实优先

@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-demand-travel-agent]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- "[[framework-demand-iceberg]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 案例：银发育儿

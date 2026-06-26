@@ -21,9 +21,9 @@ related:
   - '[[tool-strategy-four-layers]]'
   - '[[framework-strategy-three-horizons]]'
   - '[[framework-strategy-five-basics]]'
-- '[[framework-strategy-six-stages]]'
-- '[[framework-strategy-brm]]'
-- '[[framework-demand-iceberg]]'
+  - '[[framework-strategy-six-stages]]'
+  - '[[framework-strategy-brm]]'
+  - '[[framework-demand-iceberg]]'
 ---
 
 # 三个地平线

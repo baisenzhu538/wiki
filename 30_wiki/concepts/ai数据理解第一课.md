@@ -13,10 +13,10 @@ updated_at: '2026-06-16'
 related:
   - '[[ai时代判断力口述-3]]'
   - '[[three-party-data-alignment]]'
-- '[[人机协作决策-双三角模型]]'
-- '[[数据标注维度最佳实践调研报告]]'
-- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
-- '[[yt-unit-model-ai-assisted]]'
+  - '[[人机协作决策-双三角模型]]'
+  - '[[数据标注维度最佳实践调研报告]]'
+  - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+  - '[[yt-unit-model-ai-assisted]]'
 query_triggers:
 - 数据使用层次
 - AI数据类型

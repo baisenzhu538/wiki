@@ -20,8 +20,8 @@ related:
   - '[[tool-dns-intelligence]]'
   - '[[tool-google-dorking]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-doris-industry-report-search-tips]]"
-- "[[tool-yitang-database-index]]"
+  - "[[tool-doris-industry-report-search-tips]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 行业报告搜索技巧

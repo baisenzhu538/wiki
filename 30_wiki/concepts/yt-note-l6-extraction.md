@@ -19,10 +19,10 @@ related:
   - '[[yt-note-l4-internalization]]'
   - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-l4-internalization]]'
-- '[[yt-model-prediction-model]]'
-- '[[dk-note-surplus-brainpower]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-l4-internalization]]'
+  - '[[yt-model-prediction-model]]'
+  - '[[dk-note-surplus-brainpower]]'
 query_triggers:
 - 清单体L6
 - 萃取阶段

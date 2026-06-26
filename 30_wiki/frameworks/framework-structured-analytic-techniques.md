@@ -21,10 +21,10 @@ related:
   - '[[framework-ci-operating-model]]'
   - '[[tool-red-team-analysis]]'
   - '[[tool-devils-advocacy]]'
-- "[[framework-yitang-nine-layer-deep-dig]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-key-assumptions-check]]"
-- "[[tool-devils-advocacy]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-key-assumptions-check]]"
+  - "[[tool-devils-advocacy]]"
 ---
 
 # SATs结构化分析技术

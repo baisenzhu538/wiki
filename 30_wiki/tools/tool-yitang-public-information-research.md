@@ -33,10 +33,10 @@ related:
   - '[[tool-yitang-supply-chain-research]]'
   - '[[yt-research-intelligence-map]]'
   - '[[skill-执行对标研究三步法]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-yitang-database-index]]"
-- "[[yt-research-intelligence-map]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-database-index]]"
+  - "[[yt-research-intelligence-map]]"
 ---
 
 # 官方公开信息渠道：公司自己发布的信息最有价值

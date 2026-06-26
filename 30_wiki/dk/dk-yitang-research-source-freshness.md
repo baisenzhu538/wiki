@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[tool-doris-industry-report-source-evaluation]]"
+  - "[[tool-doris-industry-report-source-evaluation]]"
 ---
 
 # 信源时效性

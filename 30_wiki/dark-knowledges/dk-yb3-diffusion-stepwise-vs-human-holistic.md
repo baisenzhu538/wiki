@@ -19,9 +19,9 @@ related:
   - '[[skill-月白-AI抽卡效率控制法]]'
   - '[[dk-yb2-llm-muddy-clear-muddy]]'
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
-- '[[dk-yb2-llm-muddy-clear-muddy]]'
-- '[[dk-yb14-multi-image-commonality]]'
-- '[[dk-yb29-prompt-migrate-copy-first]]'
+  - '[[dk-yb2-llm-muddy-clear-muddy]]'
+  - '[[dk-yb14-multi-image-commonality]]'
+  - '[[dk-yb29-prompt-migrate-copy-first]]'
 pipeline:
 - confidence-source-cited
 author: 月白

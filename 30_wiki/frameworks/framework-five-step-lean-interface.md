@@ -25,15 +25,15 @@ related:
   - '[[dk-yitang-business-model-risk-over-product-risk]]'
   - '[[framework-lean-pivot-decision]]'
   - '[[framework-demand-lean-bridge]]'
-- "[[yt-five-step-method]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[framework-lean-false-model]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[framework-strategy-business-design]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[five-step-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
+  - "[[yt-five-step-method]]"
+  - "[[yt-entrepreneur-five-step-method]]"
+  - "[[framework-lean-false-model]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[framework-strategy-business-design]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[five-step-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
 ---
 
 # 五步法与精益验证的接口

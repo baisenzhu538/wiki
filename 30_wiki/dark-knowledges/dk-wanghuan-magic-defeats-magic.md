@@ -36,10 +36,10 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[concept-wanghuan-tacit-knowledge-examples]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[framework-wanghuan-gan-three-roles]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
 tags:
 - 王欢
 - 标准建立

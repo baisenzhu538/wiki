@@ -1,5 +1,6 @@
 ---
-domain: - learning-methodology
+domain:
+  - learning-methodology
 
 id: skill-提升笔记阅读舒适度
 title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"

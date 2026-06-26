@@ -17,10 +17,10 @@ source_refs:
   - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 related:
   - '[[concept-yitang-research-mindset]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[yt-research-intelligence-map]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[yt-research-intelligence-map]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 query_triggers:
 - 调研认知
 - 找答案到拆解假设

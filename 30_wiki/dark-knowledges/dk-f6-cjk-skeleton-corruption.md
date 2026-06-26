@@ -19,9 +19,9 @@ related:
   - '[[dk-f1-regex-on-cjk]]'
   - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-f1-regex-on-cjk]]'
-- '[[dk-c1-cjk-regex-silent-fail]]'
-- '[[master-ai-info-literacy]]'
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -7,9 +7,9 @@ type: concept
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -33,12 +33,12 @@ related:
   - '[[yt-tob-customer-tiering]]'
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-unit-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-lean-growth-stage-gate]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[case-yitang-tob-grinding-machine]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[case-yitang-tob-grinding-machine]]'
 diagnostic_signals:
 - signal: 账面利润为正，但经营现金净流入持续为负或长期靠融资/垫资维持
   framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径

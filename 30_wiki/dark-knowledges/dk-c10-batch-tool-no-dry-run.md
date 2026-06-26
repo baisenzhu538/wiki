@@ -19,8 +19,8 @@ related:
   - '[[dk-infrastructure-guardrails-over-checklist]]'
   - '[[dk-c8-format-complete-mind-empty]]'
   - '[[modeling-to-kdo-toolchain]]'
-- '[[dk-c8-format-complete-mind-empty]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

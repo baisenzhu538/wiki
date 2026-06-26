@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规

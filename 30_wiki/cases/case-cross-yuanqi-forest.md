@@ -27,15 +27,15 @@ related:
   - '[[dk-yitang-business-model-risk-over-product-risk]]'
   - '[[case-lean-genki-forest-toolkit]]'
   - '[[lean-startup-domain-digest]]'
-- "[[framework-strategy-lean-validation]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-tenx-formula]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-decision-y-model]]"
-- "[[framework-strategy-brm]]"
-- "[[strategy-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-tenx-formula]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-decision-y-model]]"
+  - "[[framework-strategy-brm]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
 ---
 
 # 元气森林：战略定位与精益试错的跨域闭环

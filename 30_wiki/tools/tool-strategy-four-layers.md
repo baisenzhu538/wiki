@@ -17,8 +17,8 @@ related:
   - '[[tool-strategy-three-horizons]]'
   - '[[framework-strategy-pyramid]]'
   - '[[framework-strategy-five-basics]]'
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-five-basics]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-five-basics]]"
 ---
 ## 四层定义
 

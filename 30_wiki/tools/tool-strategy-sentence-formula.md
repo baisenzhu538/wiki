@@ -15,7 +15,7 @@ related:
   - '[[dk-yb15-reverse-image-description]]'
   - '[[skill-ai-narrative-test]]'
   - '[[case-xian-franchise-location-decision]]'
-- "[[framework-strategy-brm]]"
+  - "[[framework-strategy-brm]]"
 ---
 **造句公式**：聚焦X市场→通过Y达到竞争优势→选择不做Z→采取连贯活动A/B/C
 **能写出来的才是真战略**。如果填不完这个公式的四个空——你的战略还停留在"感觉"层面

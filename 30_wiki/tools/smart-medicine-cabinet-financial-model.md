@@ -8,8 +8,8 @@ type: tool
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- financial-model
+  - pharmaceutical-retail
+  - financial-model
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -30,14 +30,14 @@ related:
   - '[[case-lean-wrong-demand]]'
   - '[[case-lean-shoe-mvp-evolution]]'
   - '[[case-yitang-tob-smart-park]]'
-- '[[master-antifragile-checklist]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[smart-medicine-cabinet-clinic-risk-observation]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[smart-medicine-cabinet-o2o-cost-structure]]'
-- '[[yt-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-unit-model-three-tools]]'
 query_triggers:
 - 智能药柜回本周期
 - 药柜单点财务模型

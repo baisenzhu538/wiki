@@ -24,14 +24,14 @@ related:
   - '[[case-lean-zhanglei-pivot-decision]]'
   - '[[case-lean-zhanglei-failure-counterfactual]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-six-wastes]]"
-- "[[framework-lean-product-kernel]]"
-- "[[concept-yt-entrepreneur-lean-validation]]"
-- "[[concept-yt-entrepreneur-key-hypotheses]]"
-- "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-product-kernel]]"
+  - "[[concept-yt-entrepreneur-lean-validation]]"
+  - "[[concept-yt-entrepreneur-key-hypotheses]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
 ---
 
 # 张磊 AMA：假设验证实操案例

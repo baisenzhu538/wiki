@@ -18,11 +18,11 @@ related:
   - '[[case-truman-prd-checklist-evolution]]'
   - '[[tool-strategy-core-competence-matrix]]'
   - '[[yt-tool-fab-persuasion]]'
-- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-- '[[yt-personal-pan-product-tools]]'
-- '[[yt-panproduct-demand-motivation-resistance]]'
-- '[[case-truman-personal-growth-map-creation]]'
-- '[[tool-泛产品落地-ROI分析]]'
+  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+  - '[[yt-personal-pan-product-tools]]'
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[case-truman-personal-growth-map-creation]]'
+  - '[[tool-泛产品落地-ROI分析]]'
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 王语嫣

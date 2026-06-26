@@ -21,9 +21,9 @@ related:
   - '[[dk-yb10-theory-moat-designer]]'
   - '[[dk-yb25-solution-driven-visual-design]]'
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
-- '[[dk-yb21-ecommerce-pricing-independent-model]]'
-- '[[dk-yb25-solution-driven-visual-design]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[dk-yb25-solution-driven-visual-design]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
 pipeline:
 - confidence-source-cited
 author: 月白

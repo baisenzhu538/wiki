@@ -1,5 +1,6 @@
 ---
-domain: - modeling
+domain:
+  - modeling
 
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼

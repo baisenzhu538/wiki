@@ -29,11 +29,11 @@ related:
   - '[[yt-pitch-conflict]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-pitch-sublimation]]'
-- '[[yt-personal-scientific-expression]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[yt-model-prompt-engineering]]'
+  - '[[yt-personal-scientific-expression]]'
+  - '[[yt-concept-weapon-arsenal]]'
+  - '[[tool-泛产品落地-低成本测试MVP]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary

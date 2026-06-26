@@ -8,9 +8,9 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- software-engineering
-- yitang
+  - ai-collaboration
+  - software-engineering
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -29,11 +29,11 @@ related:
   - '[[human-ai-collaboration-double-triangle]]'
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[concept-wanghuan-adversarial-generation]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-gan-three-roles]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
 diagnostic_signals:
 - signal: 团队已经使用 AI 工具，但效率仅提升 30% 左右，无法突破线性增长
   lens: 系统瓶颈 vs. 工具瓶颈

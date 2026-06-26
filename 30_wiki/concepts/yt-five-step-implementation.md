@@ -26,8 +26,8 @@ related:
   - '[[yt-growth-cycle-model]]'
   - '[[一堂]]'
   - '[[five-step-domain-digest]]'
-- '[[yt-five-step-method]]'
-- '[[yt-tool-product-core-canvas]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-tool-product-core-canvas]]'
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:

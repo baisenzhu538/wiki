@@ -31,10 +31,10 @@ related:
   - '[[yt-model-deep-review-iceberg]]'
   - '[[dk-ef-002-bom-version-async]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-- '[[dk-ef-002-bom-version-async]]'
-- '[[dk-ef-003-hand-soldering-bom-divergence]]'
-- '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
+  - '[[dk-ef-002-bom-version-async]]'
+  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - '[[dk-ef-004-missing-diagnostic-firmware]]'
 diagnostic_signals:
 - 文件命名出现"最终版""真的最终版"且版本关系不明
 - 原理图/BOM/PCB 之间存在多处不一致，无法判断哪个版本可投产

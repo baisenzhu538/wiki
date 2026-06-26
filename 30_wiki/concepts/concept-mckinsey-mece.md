@@ -7,8 +7,8 @@ type: concept
 status: enriched
 domain:
   - management- consulting
-- structured-thinking
-- business-strategy
+  - structured-thinking
+  - business-strategy
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
 source_refs: []
@@ -18,11 +18,11 @@ related:
   - '[[dk-modeling-ai-iterative-prompting]]'
   - '[[concept-minto-pyramid-principle]]'
   - '[[framework-logic-cleanliness-five-levels]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[concept-minto-pyramid-principle]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-mckinsey-7s]]'
-- '[[case-yitang-radar-chart-selection]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[concept-minto-pyramid-principle]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[concept-mckinsey-7s]]'
+  - '[[case-yitang-radar-chart-selection]]'
 wiki_refs:
 - '[[skill-mece体系框架法]]'
 - '[[tool-泛产品落地-逻辑MECE]]'

@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[dk-demand-pitfall-financial-literacy]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-financial-literacy]]"
-- "[[tool-demand-assessment-triangle]]"
+  - "[[dk-demand-pitfall-financial-literacy]]"
+  - "[[tool-demand-assessment-triangle]]"
 ---
 
 # 案例：少儿财商教育

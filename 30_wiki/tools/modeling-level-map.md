@@ -1,5 +1,6 @@
 ---
-domain: - modeling
+domain:
+  - modeling
 
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图

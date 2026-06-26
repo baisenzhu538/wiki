@@ -7,8 +7,8 @@ type: case
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
@@ -31,12 +31,12 @@ related:
   - '[[yt-lean-qualitative-quantitative-research]]'
   - '[[yt-lean-beauty-store-conversion]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[case-yitang-weekly-modeling-engine]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[case-yitang-weekly-modeling-engine]]'
 diagnostic_signals:
 - signal: 把"主理人妈妈"既当C端消费者又当小B分销者混为一谈，只测总订单量。
   framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。

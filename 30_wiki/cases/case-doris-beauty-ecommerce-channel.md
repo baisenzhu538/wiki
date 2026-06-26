@@ -20,8 +20,8 @@ related:
   - '[[case-doris-2014-music-streaming-prediction]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-doris-outbound-travel-community]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-doris-industry-report-search-tips]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-doris-industry-report-search-tips]]"
 ---
 
 # 案例：美妆行业渠道效率发现

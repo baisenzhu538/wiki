@@ -18,7 +18,7 @@ related:
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:

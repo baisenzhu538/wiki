@@ -34,16 +34,16 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-single-point-sniper]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "（tool-yitang-research-hypothesis-test，待补）"
-- "[[yt-research-hypothesis-test]]"
-- "[[concept-yitang-research-objective]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "（tool-yitang-research-hypothesis-test，待补）"
+  - "[[yt-research-hypothesis-test]]"
+  - "[[concept-yitang-research-objective]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 调研先行验证假设：在行动前杀死错误想法

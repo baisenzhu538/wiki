@@ -29,9 +29,9 @@ related:
   - '[[yt-pitch-conflict]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
   - '[[yt-pitch-colloquialization]]'
-- '[[yt-panproduct-demand-surprise-formula]]'
-- '[[yt-panproduct-demand-motivation-resistance]]'
-- '[[yt-model-conversion-optimization]]'
+  - '[[yt-panproduct-demand-surprise-formula]]'
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[yt-model-conversion-optimization]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律

@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费

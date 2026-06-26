@@ -7,8 +7,8 @@ type: case
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
 source_refs:
@@ -33,14 +33,14 @@ related:
   - '[[yt-lean-essence]]'
   - '[[yt-lean-beauty-store-conversion]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[case-yitang-weekly-modeling-engine]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+  - '[[case-yitang-weekly-modeling-engine]]'
 wiki_refs:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

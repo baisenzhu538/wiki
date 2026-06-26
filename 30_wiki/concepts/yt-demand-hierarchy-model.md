@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求

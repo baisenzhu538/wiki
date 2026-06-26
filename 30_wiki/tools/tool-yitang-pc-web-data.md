@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-amazon-bestseller]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
 ---
 
 # PC/Web端数据

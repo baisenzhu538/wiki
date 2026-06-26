@@ -19,11 +19,11 @@ related:
   - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
   - '[[dk-p19-quote-yaml]]'
   - '[[dk-f13-handwritten-yaml-parser]]'
-- '[[dk-c2-dual-status-machine]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[master-first-principles]]'
-- '[[dk-f13-handwritten-yaml-parser]]'
-- '[[dk-p11-regex-cutoff]]'
+  - '[[dk-c2-dual-status-machine]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[master-first-principles]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
+  - '[[dk-p11-regex-cutoff]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

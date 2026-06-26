@@ -24,11 +24,11 @@ related:
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[yt-model-agent-architecture]]'
-- '[[yt-personal-knowledge-extraction]]'
-- '[[yt-personal-deep-review]]'
-- '[[yt-personal-checklist-notes]]'
-- '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-model-agent-architecture]]'
+  - '[[yt-personal-knowledge-extraction]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-personal-checklist-notes]]'
+  - '[[yt-model-deep-review-iceberg]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

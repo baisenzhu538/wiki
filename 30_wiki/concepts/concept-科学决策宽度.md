@@ -20,9 +20,9 @@ related:
   - '[[concept-稀缺机会窗口]]'
   - '[[concept-思考深度分级]]'
   - '[[concept-X型Y型决策习惯]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-稀缺机会窗口]]"
-- "[[framework-高水平共识曲线]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-稀缺机会窗口]]"
+  - "[[framework-高水平共识曲线]]"
 ---
 
 # 科学决策宽度：个人·企业·团队

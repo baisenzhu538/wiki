@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算

@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-business-registration-check]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-business-registration-check]]"
 ---
 
 # 竞对财税分析

@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-weapon-third-party-database]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-database-index]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 国家数据查询

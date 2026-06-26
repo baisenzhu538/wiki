@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单

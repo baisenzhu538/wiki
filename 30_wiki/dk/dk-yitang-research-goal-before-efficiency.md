@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-research-cost-value-match]]'
   - '[[dk-demand-premature-solution]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[framework-doris-industry-report-4step]]"
+  - "[[framework-doris-industry-report-4step]]"
 ---
 
 # 没有目标就不要谈效率

@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 id: yt-five-step-cross-step-1
 title: 跨步一：从0到1的验证

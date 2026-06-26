@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-consumer-offline-channel-decision]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-doris-catering-chain-benchmark]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[dk-yitang-research-scale-vs-depth]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[dk-yitang-research-scale-vs-depth]]"
 ---
 
 # 案例：上门美甲——在真实场景中访谈

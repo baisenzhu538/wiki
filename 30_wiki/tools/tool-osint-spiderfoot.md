@@ -21,7 +21,7 @@ related:
   - '[[tool-osint-wayback]]'
   - '[[tool-osint-overview]]'
   - '[[tool-google-dorking]]'
-- "[[tool-osint-overview]]"
+  - "[[tool-osint-overview]]"
 ---
 
 # SpiderFoot：自动化OSINT扫描

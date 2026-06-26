@@ -20,11 +20,11 @@ related:
   - '[[yt-personal-pan-product-practice]]'
   - '[[yt-demand-jtbd-application]]'
   - '[[tool-prompt-iceberg-demand-analysis]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-panproduct-demand-need-discovery]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[yt-research-expert-interview]]'
-- '[[yt-research-intelligence-map]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[yt-panproduct-demand-need-discovery]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[yt-research-expert-interview]]'
+  - '[[yt-research-intelligence-map]]'
 query_triggers:
 - JTBD
 - 用户访谈

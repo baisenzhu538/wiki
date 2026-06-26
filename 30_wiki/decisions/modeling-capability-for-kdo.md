@@ -8,7 +8,7 @@ status: enriched
 confidence: 0.78
 domain:
   - modeling- kdo
-- yitang
+  - yitang
 source_refs: []
 related:
   - '[[case-modeling-essence-levels]]'
@@ -16,20 +16,20 @@ related:
   - '[[modeling-to-kdo-toolchain]]'
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-capability-system]]'
-- '[[modeling-level-map]]'
-- '[[modeling-to-kdo-toolchain]]'
-- '[[model-quality-four-levels]]'
-- '[[case-truman-livestream-sop-iteration]]'
-- '[[case-truman-ai-skill-self-packaging]]'
-- '[[case-truman-personal-growth-map-creation]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[kdo-ec-industrialization-migration-proposal]]'
-- '[[dk-modeling-ai-without-judgment]]'
-- '[[dk-modeling-counterexample-driven]]'
-- '[[dk-modeling-essence-predictive]]'
-- '[[dk-modeling-sop-execution-locks]]'
+  - '[[modeling-three-stages]]'
+  - '[[modeling-capability-system]]'
+  - '[[modeling-level-map]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[model-quality-four-levels]]'
+  - '[[case-truman-livestream-sop-iteration]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
+  - '[[case-truman-personal-growth-map-creation]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-modeling-counterexample-driven]]'
+  - '[[dk-modeling-essence-predictive]]'
+  - '[[dk-modeling-sop-execution-locks]]'
 tags:
 - '#method/modeling'
 - '#kdo'

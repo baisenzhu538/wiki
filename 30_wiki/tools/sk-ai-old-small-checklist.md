@@ -34,8 +34,8 @@ related:
   - '[[skill-ai-old-small-checklist]]'
   - '[[skill-ai-ai-workspace-setup]]'
   - '[[skill-ai-parallel-validation]]'
-- '[[sk-ai-landing-five-steps]]'
-- '[[ai-landing-scene-selection]]'
+  - '[[sk-ai-landing-five-steps]]'
+  - '[[ai-landing-scene-selection]]'
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88

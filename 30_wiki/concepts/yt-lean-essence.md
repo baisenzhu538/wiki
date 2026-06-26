@@ -7,8 +7,8 @@ type: concept
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
 source_refs:
@@ -30,11 +30,11 @@ related:
   - '[[tool-lean-ai-accelerated-validation]]'
   - '[[yt-lean-false-model-ai]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[concept-一堂-key-assumptions]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[concept-一堂-key-assumptions]]'
 pipeline:
 - confidence-source-cited
 - enriched

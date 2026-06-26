@@ -20,8 +20,8 @@ related:
   - '[[framework-ci-operating-model]]'
   - '[[tool-yitang-ai-assisted-analysis]]'
   - '[[tool-indicators-signposts]]'
-- "[[framework-ci-operating-model]]"
-- "[[tool-yitang-research-continuous-tracking]]"
+  - "[[framework-ci-operating-model]]"
+  - "[[tool-yitang-research-continuous-tracking]]"
 ---
 
 # CI Implement阶段：最后一公里

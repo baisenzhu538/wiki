@@ -38,11 +38,11 @@ related:
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[case-wanghuan-education-sales-paced]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[case-wanghuan-education-sales-paced]]'
 tags:
 - 王欢
 - spec陷阱

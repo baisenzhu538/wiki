@@ -21,12 +21,12 @@ related:
   - '[[case-lean-wrong-demand]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
 ---
 
 # 闭门造车案例集

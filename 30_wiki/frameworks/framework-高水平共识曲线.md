@@ -20,10 +20,10 @@ related:
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-X型Y型决策习惯]]"
-- "[[concept-两种典型思考习惯]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[concept-两种典型思考习惯]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 高水平共识曲线

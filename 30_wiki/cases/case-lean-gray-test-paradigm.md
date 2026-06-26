@@ -25,12 +25,12 @@ related:
   - '[[case-lean-shampoo-selling-points]]'
   - '[[case-lean-combination-test-paradigm]]'
   - '[[case-lean-crayfish-combo-test]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
 ---
 
 # 灰度测试范式实操案例

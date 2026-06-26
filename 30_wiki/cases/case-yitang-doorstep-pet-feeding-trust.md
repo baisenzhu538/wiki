@@ -21,8 +21,8 @@ related:
   - '[[case-yitang-voice-robot-companion-design]]'
   - '[[case-yitang-ai-time-management-coach]]'
   - '[[case-yitang-homestay-reception-design]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[case-yitang-pet-fostering-user-research]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[case-yitang-pet-fostering-user-research]]"
 ---
 
 # 案例：上门宠物喂养——调研如何消除信任顾虑

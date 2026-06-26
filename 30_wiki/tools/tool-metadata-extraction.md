@@ -19,8 +19,8 @@ related:
   - '[[tool-media-verification-overview]]'
   - '[[tool-reverse-image-search]]'
   - '[[tool-osint-maltego]]'
-- "[[tool-osint-overview]]"
-- "[[tool-reverse-image-search]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-reverse-image-search]]"
 ---
 
 # 元数据提取

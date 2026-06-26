@@ -34,16 +34,16 @@ related:
   - '[[tool-yitang-research-exhaust-means]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[concept-yitang-research-objective]]"
-- "（tool-yitang-research-checklist，待补）"
-- "[[yt-research-osl-framework]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "（dk-yitang-research-cost-match，待补）"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-research-competitive-quadrant]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[concept-yitang-research-objective]]"
+  - "（tool-yitang-research-checklist，待补）"
+  - "[[yt-research-osl-framework]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "（dk-yitang-research-cost-match，待补）"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-research-competitive-quadrant]]"
 ---
 
 # 调研范围缩小：专注·专业·剥离三原则

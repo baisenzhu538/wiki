@@ -19,22 +19,22 @@ related:
   - '[[dk-research-decision-first-mapping]]'
   - '[[dk-yitang-model-asset-capitalization]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-yitang-business-model-risk-over-product-risk]]'
-- '[[dk-research-decision-first-mapping]]'
-- '[[dk-yitang-model-asset-capitalization]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- "[[yitang-domain-digest]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[tool-yitang-behavioral-observation]]"
-- "[[yt-research-user-jtbd]]"
-- "[[framework-demand-iceberg]]"
-- "[[case-yitang-pet-fostering-user-research]]"
-- "[[case-yitang-doorstep-nail-service-context]]"
-- "[[case-yitang-jtbd-story-formula]]"
-- "[[case-yitang-consumer-offline-channel-decision]]"
-- "[[case-yitang-ski-project-user-as-expert]]"
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-behavioral-observation]]"
+  - "[[yt-research-user-jtbd]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[case-yitang-pet-fostering-user-research]]"
+  - "[[case-yitang-doorstep-nail-service-context]]"
+  - "[[case-yitang-jtbd-story-formula]]"
+  - "[[case-yitang-consumer-offline-channel-decision]]"
+  - "[[case-yitang-ski-project-user-as-expert]]"
 ---
 
 # 调研中行为证据重于口头证据

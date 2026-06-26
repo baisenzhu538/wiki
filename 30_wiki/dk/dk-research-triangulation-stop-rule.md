@@ -19,20 +19,20 @@ related:
   - '[[dk-research-decision-first-mapping]]'
   - '[[dk-yitang-model-asset-capitalization]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-research-identity-craft-for-closed-information]]'
-- '[[dk-research-decision-first-mapping]]'
-- '[[dk-yitang-model-asset-capitalization]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- "[[yitang-research-domain-digest]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[dk-yitang-research-cross-validation-cost]]"
-- "[[case-yitang-travel-receipt-analysis]]"
-- "[[case-yitang-luckin-field-research]]"
-- "[[case-liutao-douyin-team-leader-9m]]"
-- "[[case-yitang-hardware-factory-photo]]"
-- "[[case-yitang-pet-fostering-user-research]]"
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - "[[yitang-research-domain-digest]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[dk-yitang-research-cross-validation-cost]]"
+  - "[[case-yitang-travel-receipt-analysis]]"
+  - "[[case-yitang-luckin-field-research]]"
+  - "[[case-liutao-douyin-team-leader-9m]]"
+  - "[[case-yitang-hardware-factory-photo]]"
+  - "[[case-yitang-pet-fostering-user-research]]"
 ---
 
 # 多源交叉验证的停止规则

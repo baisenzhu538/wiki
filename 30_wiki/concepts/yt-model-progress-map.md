@@ -24,9 +24,9 @@ related:
   - '[[yt-model-management-map]]'
   - '[[yt-model-entrepreneur-map]]'
   - '[[一堂]]'
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-model-management-map]]'
-- '[[yt-model-personal-map]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[yt-model-management-map]]'
+  - '[[yt-model-personal-map]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版

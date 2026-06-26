@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-practice-12-zero-loss]]'
   - '[[case-strategy-practice-10-turnaround]]'
   - '[[case-strategy-lekai-film]]'
-- "[[framework-strategy-brm]]"
+  - "[[framework-strategy-brm]]"
 ---
 **冉鹏实操**：行业老三→2个月减亏7000万→10个月电商超竞品→日均销售额同行7倍
 **方法**：不做行业老大做的事——找到自己的差异化路径（电商而非线下）

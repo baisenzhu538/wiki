@@ -22,11 +22,11 @@ related:
   - '[[dk-modeling-question-scaffold-not-answer]]'
   - '[[dk-modeling-ai-iterative-prompting]]'
   - '[[dk-modeling-ai-self-retrospection]]'
-- yt-lean-false-model-ai
-- yt-tob-barriers
-- ai-short-drama-conflict-three-axes
-- dk-modeling-ai-judgment-limit
-- skill-note-one-line-one-point
+  - yt-lean-false-model-ai
+  - yt-tob-barriers
+  - ai-short-drama-conflict-three-axes
+  - dk-modeling-ai-judgment-limit
+  - skill-note-one-line-one-point
 bridges_to:
 - target: yt-lean-false-model-ai
   relation: applies_when

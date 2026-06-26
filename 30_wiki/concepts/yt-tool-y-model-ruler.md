@@ -31,10 +31,10 @@ related:
   - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
   - '[[yt-skill-storyline-key-elements]]'
   - '[[yt-skill-storyline-target-tradeoff]]'
-- '[[yt-personal-y-model-exploration-2]]'
-- '[[yt-personal-y-model-practice]]'
-- '[[yt-entrepreneur-needs-analysis]]'
-- '[[yt-tool-best-practice-learning]]'
+  - '[[yt-personal-y-model-exploration-2]]'
+  - '[[yt-personal-y-model-practice]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
+  - '[[yt-tool-best-practice-learning]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

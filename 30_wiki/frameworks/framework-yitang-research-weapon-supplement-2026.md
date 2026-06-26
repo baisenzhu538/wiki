@@ -23,10 +23,10 @@ related:
   - '[[tool-osint-overview]]'
   - '[[tool-yitang-web-scraping-research]]'
   - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[tool-yitang-database-index]]"
-- "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-yitang-database-index]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
 ---
 
 # 调研武器库补充：2025-2026年新武器

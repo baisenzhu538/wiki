@@ -36,8 +36,8 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[sk-ai-ai-workspace-setup]]'
-- '[[course-to-skill-conversion]]'
+  - '[[sk-ai-ai-workspace-setup]]'
+  - '[[course-to-skill-conversion]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

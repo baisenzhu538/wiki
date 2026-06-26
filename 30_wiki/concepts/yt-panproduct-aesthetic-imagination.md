@@ -30,9 +30,9 @@ related:
   - '[[tool-泛产品落地-灵感闪现]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[yt-panproduct-demand-need-discovery]]'
-- '[[yt-panproduct-aesthetic-modeling]]'
-- '[[yt-model-product-excellence]]'
-- '[[yt-model-aesthetic-progression]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[yt-model-product-excellence]]'
+  - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象

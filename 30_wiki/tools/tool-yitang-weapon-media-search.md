@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-weapon-insider-intelligence]]'
   - '[[tool-yitang-forum-data]]'
   - '[[tool-yitang-industry-report-search]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-database-index]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 武器库策略12：媒体/社区搜索

@@ -36,12 +36,12 @@ related:
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[dk-wanghuan-spec-trap]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
+  - '[[dk-wanghuan-spec-trap]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
 tags:
 - 王欢
 - Agent平台

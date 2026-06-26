@@ -23,17 +23,17 @@ related:
   - '[[case-ai-companion-emotional]]'
   - '[[case-cambridge-novelists-survey]]'
   - '[[dk-ai-prediction-expiry-date]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-tech-probability-80-filter]]"
-- "[[case-cambridge-novelists-survey]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[case-cambridge-novelists-survey]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 
 # 陈楸帆对 AI 写作的态度转向

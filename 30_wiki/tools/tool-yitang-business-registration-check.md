@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-weapon-third-party-database]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
 ---
 
 # 工商查询

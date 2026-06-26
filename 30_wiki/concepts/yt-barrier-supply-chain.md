@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占

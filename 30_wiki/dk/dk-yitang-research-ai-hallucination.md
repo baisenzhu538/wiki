@@ -20,8 +20,8 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-ai-research-prompt-craft]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[concept-yitang-ai-research-human-loop]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[concept-yitang-ai-research-human-loop]]"
 ---
 
 # AI调研幻觉与浅尝辄止是双生子

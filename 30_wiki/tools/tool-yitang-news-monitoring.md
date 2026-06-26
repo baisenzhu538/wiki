@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-social-media-monitoring]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-social-media-monitoring]]"
 ---
 
 # 新闻媒体监控

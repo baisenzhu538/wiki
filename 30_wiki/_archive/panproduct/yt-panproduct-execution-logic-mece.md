@@ -31,9 +31,9 @@ related:
   - '[[tool-泛产品落地-努力仿真]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[tool-泛产品落地-内核和边界]]'
-- '[[tool-泛产品落地-假设拆解]]'
-- '[[yt-model-prediction-model]]'
+  - '[[tool-泛产品落地-内核和边界]]'
+  - '[[tool-泛产品落地-假设拆解]]'
+  - '[[yt-model-prediction-model]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece

@@ -21,10 +21,10 @@ related:
   - '[[dk-strategy-three-must-do-moments]]'
   - '[[framework-strategy-blm]]'
   - '[[tool-strategy-12-word-test]]'
-- '[[case-strategy-model-selection-quiz]]'
-- '[[framework-strategy-blm]]'
-- '[[framework-strategy-five-forces]]'
-- '[[tool-strategy-ksf]]'
+  - '[[case-strategy-model-selection-quiz]]'
+  - '[[framework-strategy-blm]]'
+  - '[[framework-strategy-five-forces]]'
+  - '[[tool-strategy-ksf]]'
 ---
 
 # SWOT 分析工具：从四象限到行动策略

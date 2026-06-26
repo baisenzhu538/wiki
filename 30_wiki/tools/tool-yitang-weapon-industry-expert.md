@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-channel-agent-interview]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-partner-data-analysis]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[framework-yitang-expert-interview-10steps]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
 ---
 
 # 武器库策略9：行业专家访谈

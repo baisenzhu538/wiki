@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是

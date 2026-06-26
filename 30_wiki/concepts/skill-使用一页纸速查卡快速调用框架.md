@@ -30,8 +30,8 @@ related:
   - '[[yt-note-checklist-concept]]'
   - '[[yt-pitch-conflict]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[yt-five-step-method]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[yt-five-step-method]]'
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 黄药师

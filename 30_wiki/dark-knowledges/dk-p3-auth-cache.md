@@ -18,8 +18,8 @@ related:
   - '[[dk-p16-validate-reads-state-json]]'
   - '[[dk-p1-model-switch-env]]'
   - '[[dk-p5-cc-connect-config]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -21,9 +21,9 @@ related:
   - '[[tool-alt-data-overview]]'
   - '[[tool-demand-agent-auto-verify]]'
   - '[[tool-demand-agent-signal-substitute]]'
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-blindspot-checklist]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-blindspot-checklist]]"
 ---
 
 # Agent L1-L2信号聚合

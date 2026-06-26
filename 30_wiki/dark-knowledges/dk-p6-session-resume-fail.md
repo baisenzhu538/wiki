@@ -19,10 +19,10 @@ related:
   - '[[dk-c6-large-source-overflow]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-p5-cc-connect-config]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
-- '[[dk-p5-cc-connect-config]]'
-- '[[dk-p2-tmux-cache]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
+  - '[[dk-p5-cc-connect-config]]'
+  - '[[dk-p2-tmux-cache]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -19,20 +19,20 @@ related:
   - '[[dk-yitang-behavior-over-asking]]'
   - '[[dk-research-triangulation-stop-rule]]'
   - '[[dk-research-decision-first-mapping]]'
-- '[[dk-yitang-behavior-over-asking]]'
-- '[[dk-yitang-business-model-risk-over-product-risk]]'
-- '[[dk-research-identity-craft-for-closed-information]]'
-- '[[dk-research-triangulation-stop-rule]]'
-- '[[dk-research-decision-first-mapping]]'
-- "[[yitang-domain-digest]]"
-- "[[modeling-weapon-library]]"
-- "[[tool-radar-chart-modeling]]"
-- "[[framework-course-milestone-model]]"
-- "[[case-yitang-weekly-modeling-engine]]"
-- "[[case-yitang-model-valuation-flywheel]]"
-- "[[case-yitang-model-asset-inventory]]"
-- "[[case-yitang-radar-chart-selection]]"
-- "[[case-yitang-double-triangle-confidence]]"
+  - '[[dk-yitang-behavior-over-asking]]'
+  - '[[dk-yitang-business-model-risk-over-product-risk]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - "[[yitang-domain-digest]]"
+  - "[[modeling-weapon-library]]"
+  - "[[tool-radar-chart-modeling]]"
+  - "[[framework-course-milestone-model]]"
+  - "[[case-yitang-weekly-modeling-engine]]"
+  - "[[case-yitang-model-valuation-flywheel]]"
+  - "[[case-yitang-model-asset-inventory]]"
+  - "[[case-yitang-radar-chart-selection]]"
+  - "[[case-yitang-double-triangle-confidence]]"
 ---
 
 # 组织级模型资产的盘点、定价与迭代

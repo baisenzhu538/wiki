@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-yitang-high-level-execution]]"
-- "[[tool-yitang-overseas-research]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[tool-yitang-overseas-research]]"
 ---
 
 # 案例：电动车出海本地化调研

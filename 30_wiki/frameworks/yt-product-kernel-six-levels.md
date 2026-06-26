@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移

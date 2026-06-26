@@ -22,11 +22,11 @@ query_triggers:
 related:
   - '[[yt-tool-peas-agent-analysis]]'
   - '[[yt-concept-peas-insight]]'
-- '[[yt-concept-ai-guard-brain]]'
-- '[[yt-personal-ai-capability]]'
-- '[[yt-model-prompt-engineering]]'
-- '[[yt-personal-deliberate-practice]]'
-- '[[yt-model-deep-review-iceberg]]'
+  - '[[yt-concept-ai-guard-brain]]'
+  - '[[yt-personal-ai-capability]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-personal-deliberate-practice]]'
+  - '[[yt-model-deep-review-iceberg]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

@@ -25,10 +25,10 @@ related:
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[dk-note-surplus-brainpower]]'
   - '[[dk-truman-flag-note-taking]]'
-- '[[yt-note-five-levels-training]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[dk-note-maximum-common-divisor]]'
-- '[[yt-note-ai-human-division]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[dk-note-maximum-common-divisor]]'
+  - '[[yt-note-ai-human-division]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

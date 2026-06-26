@@ -9,7 +9,7 @@ source_refs:
 status: enriched
 domain:
   - yitang- yitang
-- ai
+  - ai
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -20,7 +20,7 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[yt-model-prompt-engineering]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
 prerequisites:
 - yt-model-prompt-engineering
 query_triggers:

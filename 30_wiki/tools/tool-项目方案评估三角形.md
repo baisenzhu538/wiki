@@ -20,10 +20,10 @@ related:
   - '[[yt-decision-review]]'
   - '[[tool-Y模型实操工作流]]'
   - '[[dk-你的业务是一次抽样实验]]'
-- "[[framework-科学决策三角形]]"
-- "[[tool-ROI决策评估画布]]"
-- "[[tool-完整财务公式决策]]"
-- "[[framework-lean-abcd-model]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-ROI决策评估画布]]"
+  - "[[tool-完整财务公式决策]]"
+  - "[[framework-lean-abcd-model]]"
 ---
 
 # 项目方案评估三角形

@@ -33,13 +33,13 @@ related:
   - '[[tool-yitang-research-two-dimensional-positioning]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "（dk-yitang-research-determination，待补）"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "（dk-yitang-research-determination，待补）"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 深度归因：找到问题根因的5Why法

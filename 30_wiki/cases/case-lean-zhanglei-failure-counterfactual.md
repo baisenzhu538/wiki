@@ -24,13 +24,13 @@ related:
   - '[[case-lean-adult-education]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[framework-lean-pivot-decision]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[framework-lean-pivot-decision]]"
 ---
 
 # 张磊 AMA：判断力训练产品的验证陷阱与反事实推演

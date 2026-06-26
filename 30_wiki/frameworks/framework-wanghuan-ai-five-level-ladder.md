@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -41,12 +41,12 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-say-think-do-toolchain]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-say-think-do-toolchain]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
 tags:
 - 王欢
 - AI能力分层

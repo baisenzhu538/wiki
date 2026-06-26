@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-demand-travel-agent]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-restaurant-hiring]]"
-- "[[tool-demand-assessment-triangle]]"
+  - "[[dk-demand-pitfall-restaurant-hiring]]"
+  - "[[tool-demand-assessment-triangle]]"
 ---
 
 # 案例：麦家小馆人才选拔

@@ -21,8 +21,8 @@ related:
   - '[[tool-alt-data-free]]'
   - '[[tool-osint-overview]]'
   - '[[tool-reverse-image-search]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-alt-data-free]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-alt-data-free]]"
 ---
 
 # 替代数据总览

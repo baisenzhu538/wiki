@@ -5,8 +5,8 @@ title: 一号位
 type: concept
 domain:
   - management- ai-saas
-- management
-- yitang
+  - management
+  - yitang
 status: enriched
 pipeline:
 - confidence-source-cited
@@ -38,15 +38,15 @@ source_refs:
 related:
   - '[[yt-management-company-culture]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
-- "yt-management-leadership-levels"
-- "yt-management-company-culture"
-- "yt-management-strategy-meeting"
-- "yt-management-partnership-equity"
-- "yt-management-goal-management"
-- "yt-concept-weapon-arsenal"
-- "yt-model-personal-pitch-toolkit"
-- "yt-management-basic-skills"
-- "case-truman-yitang-foresight"
+  - "yt-management-leadership-levels"
+  - "yt-management-company-culture"
+  - "yt-management-strategy-meeting"
+  - "yt-management-partnership-equity"
+  - "yt-management-goal-management"
+  - "yt-concept-weapon-arsenal"
+  - "yt-model-personal-pitch-toolkit"
+  - "yt-management-basic-skills"
+  - "case-truman-yitang-foresight"
 
 ---
 # 一号位

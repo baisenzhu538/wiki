@@ -19,8 +19,8 @@ related:
   - '[[dk-yb17-product-lifestyle-photography]]'
   - '[[dk-yb14-multi-image-commonality]]'
   - '[[dk-yb27-pseudo-layer-evasion]]'
-- '[[dk-yb13-zero-shot-style-transfer]]'
-- '[[dk-yb12-ai-image-analysis-replace-training]]'
+  - '[[dk-yb13-zero-shot-style-transfer]]'
+  - '[[dk-yb12-ai-image-analysis-replace-training]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

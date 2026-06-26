@@ -20,8 +20,8 @@ related:
   - '[[tool-osint-spiderfoot]]'
   - '[[tool-osint-maltego]]'
   - '[[tool-osint-overview]]'
-- "[[tool-osint-overview]]"
-- "[[tool-yitang-people-network-database]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-people-network-database]]"
 ---
 
 # Sherlock：用户名跨平台追踪

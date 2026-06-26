@@ -7,8 +7,8 @@ type: case
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
@@ -32,11 +32,11 @@ related:
   - '[[yt-lean-daily-probability-decision]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
   - '[[yt-lean-assumption-prioritization]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
 diagnostic_signals:
 - signal: 200元体验用户中极少有人询问或升级到3980元套餐
   framework_lens: 产品内核假设 / 关键转化链路

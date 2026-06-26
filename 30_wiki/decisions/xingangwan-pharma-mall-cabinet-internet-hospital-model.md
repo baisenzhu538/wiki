@@ -8,9 +8,9 @@ status: proposed
 decision_date: '2026-06-18'
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- compliance
-- business-strategy
+  - pharmaceutical-retail
+  - compliance
+  - business-strategy
 source_refs:
 - "30_wiki/projects/单柜财务测算.json"
 - "https://m.ciopharma.com/supervise/60951"
@@ -32,18 +32,18 @@ related:
   - '[[shanxi-field-research-checklist-20260701]]'
   - '[[smart-medicine-cabinet-distribution]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[互联网医院项目]]'
-- '[[鑫港湾HIS项目]]'
-- '[[诊所O2O项目]]'
-- '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[smart-medicine-cabinet-regional-policy-map]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-o2o-cost-structure]]'
-- '[[互联网医院模式深度调研报告]]'
-- '[[诊所o2o外卖平台业务深度调研报告]]'
-- '[[shanxi-field-research-checklist-20260701]]'
-- '[[xingangwan-pharma-business-formulas]]'
-- '[[xingangwan-pharma-business-model-calc]]'
+  - '[[互联网医院项目]]'
+  - '[[鑫港湾HIS项目]]'
+  - '[[诊所O2O项目]]'
+  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - '[[互联网医院模式深度调研报告]]'
+  - '[[诊所o2o外卖平台业务深度调研报告]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
 tags:
 - 鑫港湾
 - 小程序医药商城

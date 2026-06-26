@@ -23,12 +23,12 @@ related:
   - '[[case-lean-medical-device-milestone]]'
   - '[[tool-lean-leverage-tools]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[case-lean-combination-test-paradigm]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[case-lean-combination-test-paradigm]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 萝卜干渠道选择预判复盘

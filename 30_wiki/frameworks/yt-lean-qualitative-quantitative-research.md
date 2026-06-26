@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
@@ -32,11 +32,11 @@ related:
   - '[[case-lean-zhanglei-hypothesis-validation]]'
   - '[[yt-lean-essence]]'
   - '[[case-lean-zhanglei-pivot-decision]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 diagnostic_signals:
 - signal: 团队一上来就问"要做多少份问卷、多少个访谈"，却说不清产品形态
   framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同

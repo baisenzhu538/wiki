@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五种迭代方向

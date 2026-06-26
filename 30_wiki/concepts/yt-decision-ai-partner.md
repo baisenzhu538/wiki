@@ -30,11 +30,11 @@ related:
   - '[[ocr-一堂-人机协作-双三角模型]]'
   - '[[case-yitang-double-triangle-confidence]]'
   - '[[yitang-huazong-ama-summary]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-prompt-anti-flattery]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-prompt-anti-flattery]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02

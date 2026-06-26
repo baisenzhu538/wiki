@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式

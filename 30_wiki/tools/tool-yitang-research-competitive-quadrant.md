@@ -34,16 +34,16 @@ related:
   - '[[tool-yitang-research-two-dimensional-positioning]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-two-dimensional-positioning]]"
+  - "[[tool-yitang-research-follow-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 竞争象限：用二维矩阵可视化竞争格局

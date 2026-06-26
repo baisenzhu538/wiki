@@ -8,7 +8,7 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- ai-collaboration
-- yitang
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -23,8 +23,8 @@ related:
   - '[[skill-半肥猫-课程Skill化的八步工作流]]'
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[ocr-一堂-科学决策-深度-案例03]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

@@ -34,16 +34,16 @@ related:
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitive-quadrant]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-competitive-quadrant]]"
+  - "[[tool-yitang-research-follow-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 二维定位：找到差异化竞争的坐标

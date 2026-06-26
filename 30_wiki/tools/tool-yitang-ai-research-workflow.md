@@ -36,10 +36,10 @@ related:
   - '[[yt-note-five-levels-training]]'
   - '[[yt-personal-ai-capability]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[concept-yitang-ai-research-10-assumptions]]"
-- "[[concept-yitang-ai-research-human-loop]]"
-- "[[concept-research-responsibility-boundary]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[concept-yitang-ai-research-10-assumptions]]"
+  - "[[concept-yitang-ai-research-human-loop]]"
+  - "[[concept-research-responsibility-boundary]]"
 ---
 
 # AI辅助调研工作流：七工具四层深度+十大假设

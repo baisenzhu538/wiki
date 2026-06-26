@@ -20,7 +20,7 @@ related:
   - '[[tool-demand-agent-auto-verify]]'
   - '[[tool-demand-agent-signal-substitute]]'
   - '[[five-step-domain-digest]]'
-- "[[tool-demand-iceberg-l4-job-map]]"
+  - "[[tool-demand-iceberg-l4-job-map]]"
 ---
 
 # Agent L4案例匹配

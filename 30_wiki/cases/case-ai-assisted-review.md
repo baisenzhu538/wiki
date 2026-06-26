@@ -27,9 +27,9 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-modeling-ai-without-judgment]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[case-ai-agent-milestone-design]]'
-- '[[case-truman-ai-skill-engineering-guide]]'
-- '[[dk-modeling-ai-iterative-prompting]]'
+  - '[[case-ai-agent-milestone-design]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[dk-modeling-ai-iterative-prompting]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

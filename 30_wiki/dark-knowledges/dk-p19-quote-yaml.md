@@ -19,9 +19,9 @@ related:
   - '[[dk-p18-yaml-parser]]'
   - '[[proposal-yaml-frontmatter-standardization]]'
   - '[[dk-f13-handwritten-yaml-parser]]'
-- '[[dk-p18-yaml-parser]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[master-first-principles]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

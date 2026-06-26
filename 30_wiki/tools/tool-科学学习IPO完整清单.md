@@ -18,11 +18,11 @@ related:
   - '[[concept-最佳实践建模]]'
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
-- "[[tool-科学提问刻意练习]]"
-- "[[concept-单元模型-学练用]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[concept-思考深度分级]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[tool-科学提问刻意练习]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[concept-思考深度分级]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 科学学习IPO完整清单

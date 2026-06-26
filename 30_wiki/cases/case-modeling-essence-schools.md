@@ -31,11 +31,11 @@ related:
   - '[[case-modeling-abstraction-reliability-ladder]]'
   - '[[dk-modeling-explanatory-vs-predictive-essence]]'
   - '[[dk-modeling-timely-review-session-window]]'
-- "[[modeling-three-stages]]"
-- "[[case-modeling-essence-levels]]"
-- "[[yt-note-expert-interview-modeling]]"
-- "[[dk-modeling-essence-predictive]]"
-- "[[dk-modeling-counterexample-driven]]"
+  - "[[modeling-three-stages]]"
+  - "[[case-modeling-essence-levels]]"
+  - "[[yt-note-expert-interview-modeling]]"
+  - "[[dk-modeling-essence-predictive]]"
+  - "[[dk-modeling-counterexample-driven]]"
 diagnostic_signals:
 - signal: 团队验收课程/方法论时，不同成员的质量标准互相冲突
   lens: 三派混用

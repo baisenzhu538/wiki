@@ -20,8 +20,8 @@ related:
   - '[[case-ai-time-management-tiered-growth]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-expert-network-platform]]'
-- "[[tool-demand-assessment-triangle]]"
-- "[[framework-demand-iceberg]]"
+  - "[[tool-demand-assessment-triangle]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 商业机会预判·终局光谱图

@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值

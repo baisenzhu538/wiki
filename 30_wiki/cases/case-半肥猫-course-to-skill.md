@@ -39,14 +39,14 @@ related:
   - '[[dk-ban-fei-mao-skill-rejection-value]]'
   - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[case-truman-ai-partner]]'
-- '[[case-纪浩-focus-prompt-design]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[kdo-ec-industrialization-migration-proposal]]'
-- '[[modeling-capability-for-kdo]]'
-- '[[yt-business-analysis-cognitive-biases]]'
-- '[[yt-five-step-level-blindspots]]'
+  - '[[case-ji-hao-skills-market]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[case-纪浩-focus-prompt-design]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[kdo-ec-industrialization-migration-proposal]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[yt-business-analysis-cognitive-biases]]'
+  - '[[yt-five-step-level-blindspots]]'
 author: 半肥猫
 reviewed_by: 老顽童
 confidence: 0.7

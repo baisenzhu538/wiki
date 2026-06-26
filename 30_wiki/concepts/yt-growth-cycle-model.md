@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 
 

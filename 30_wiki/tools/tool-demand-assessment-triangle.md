@@ -20,8 +20,8 @@ related:
   - '[[case-demand-rural-5g]]'
   - '[[dk-demand-pitfall-tier4-housekeeping]]'
   - '[[dk-demand-misjudgment-rate]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
 ---
 
 # 需求评估三角形

@@ -16,8 +16,8 @@ related:
   - '[[yt-barrier-technology-moat]]'
   - '[[yt-business-model-asset-light]]'
   - '[[tool-strategy-competition-traps]]'
-- "[[framework-strategy-six-stages]]"
-- "[[tool-strategy-four-moves]]"
+  - "[[framework-strategy-six-stages]]"
+  - "[[tool-strategy-four-moves]]"
 ---
 **四阶段**：
 1. **适者生存期**：大量玩家涌入，只有最适合的活下来

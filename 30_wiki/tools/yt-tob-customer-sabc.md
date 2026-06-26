@@ -7,9 +7,9 @@ type: tool
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
 - '#method/evaluation-method'
@@ -30,15 +30,15 @@ related:
   - '[[tool-sabc-tier-modeling]]'
   - '[[yt-tob-customer-tiering]]'
   - '[[yt-personal-pan-product-aesthetics]]'
-- '[[yt-tob-customer-tiering]]'
-- '[[yt-tob-demand-scenarios]]'
-- '[[yt-tob-demand-metrics]]'
-- '[[yt-tob-growth-channel]]'
-- '[[yt-tob-solution-model]]'
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-barriers]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[yt-tob-demand-scenarios]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-solution-model]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-barriers]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 diagnostic_signals:
 - signal: 直接套用“头部/腰部/腿部”或行业通用分层，结果 sales 和交付团队对“谁才是我们的 S 类客户”争论不休。
   framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。

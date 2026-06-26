@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-key-conversion
 title: 关键转化率：产品内核的北极星指标

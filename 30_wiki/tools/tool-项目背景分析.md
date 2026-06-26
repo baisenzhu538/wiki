@@ -18,9 +18,9 @@ related:
   - '[[tool-行业分析画布]]'
   - '[[tool-用户分层]]'
   - '[[tool-需求挖掘]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 项目背景分析：启动前的环境扫描

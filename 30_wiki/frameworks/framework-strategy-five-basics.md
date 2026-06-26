@@ -22,8 +22,8 @@ related:
   - '[[tool-strategy-three-horizons]]'
   - '[[dk-strategy-01-not-goal-setting]]'
   - '[[framework-strategy-basics-04-system]]'
-- '[[framework-strategy-brm]]'
-- '[[framework-strategy-six-stages]]'
+  - '[[framework-strategy-brm]]'
+  - '[[framework-strategy-six-stages]]'
 ---
 
 # 战略五基本功（5C）

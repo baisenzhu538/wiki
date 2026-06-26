@@ -19,9 +19,9 @@ related:
   - '[[proposal-deep-synthesis-infrastructure]]'
   - '[[dk-f9-generic-critique]]'
   - '[[dk-p4-batch-format-empty]]'
-- '[[master-first-principles]]'
-- '[[dk-c8-format-complete-mind-empty]]'
-- '[[kdo-flywheel]]'
+  - '[[master-first-principles]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[kdo-flywheel]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

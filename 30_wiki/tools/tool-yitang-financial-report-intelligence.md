@@ -35,10 +35,10 @@ related:
   - '[[yt-model-five-step-canvas]]'
   - '[[concept-一堂-key-assumptions]]'
   - '[[ocr-一堂五步法画布]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-comparable-company-selection]]"
-- "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
-- "[[yt-research-intelligence-map]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-comparable-company-selection]]"
+  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
+  - "[[yt-research-intelligence-map]]"
 ---
 
 # 财报/招股书情报：用上市公司公开报告做创业预判

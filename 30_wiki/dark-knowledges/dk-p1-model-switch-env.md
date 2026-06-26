@@ -19,8 +19,8 @@ related:
   - '[[dk-p14-zombie]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-p5-cc-connect-config]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

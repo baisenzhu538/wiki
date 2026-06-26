@@ -29,8 +29,8 @@ related:
   - '[[skill-纪浩-AI对话上下文隔离]]'
   - '[[master-ai-info-literacy]]'
   - '[[yt-model-prompt-engineering]]'
-- '[[skill-马易-数据存储架构选择]]'
-- '[[yt-entrepreneur-pragmatic-startup]]'
+  - '[[skill-马易-数据存储架构选择]]'
+  - '[[yt-entrepreneur-pragmatic-startup]]'
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师

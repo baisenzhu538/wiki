@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-agent-research-swarm]]'
   - '[[five-step-domain-digest]]'
-- "[[tool-demand-iceberg-l3-core-job]]"
-- "[[tool-agent-research-swarm]]"
+  - "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-agent-research-swarm]]"
 ---
 
 # Agent L3多假设并行

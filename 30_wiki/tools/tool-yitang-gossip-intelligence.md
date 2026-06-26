@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-insider-intelligence]]"
-- "[[tool-yitang-conference-networking]]"
+  - "[[tool-yitang-weapon-insider-intelligence]]"
+  - "[[tool-yitang-conference-networking]]"
 ---
 
 # 三人八卦：非正式情报

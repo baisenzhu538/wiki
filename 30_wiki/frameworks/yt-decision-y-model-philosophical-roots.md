@@ -1,5 +1,6 @@
 ---
-domain: - decision
+domain:
+  - decision
 
 id: yt-decision-y-model-philosophical-roots
 title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射

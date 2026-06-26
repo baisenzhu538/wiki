@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-cool-boiled-water]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-li-ka-shing]]'
-- "[[tool-strategy-four-moves]]"
+  - "[[tool-strategy-four-moves]]"
 ---
 **模式**：每个小镇只招一个经纪人→没有办公位→在家里办公→只做小镇客户
 **结果**：全美最大的券商之一，比高盛的网点还多

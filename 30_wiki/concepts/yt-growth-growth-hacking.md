@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验

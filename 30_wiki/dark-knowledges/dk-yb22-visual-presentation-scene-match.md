@@ -19,8 +19,8 @@ related:
   - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
   - '[[dk-yb21-ecommerce-pricing-independent-model]]'
   - '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
+  - '[[dk-yb19-visual-strategy-price-match]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

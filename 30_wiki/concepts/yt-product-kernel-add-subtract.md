@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减

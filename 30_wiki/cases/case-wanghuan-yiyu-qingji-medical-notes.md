@@ -39,11 +39,11 @@ related:
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-five-criteria-first-product]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[concept-wanghuan-ai-native-definition]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-five-criteria-first-product]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
 tags:
 - 王欢
 - 医语轻记

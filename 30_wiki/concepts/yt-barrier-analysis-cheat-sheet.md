@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 
 

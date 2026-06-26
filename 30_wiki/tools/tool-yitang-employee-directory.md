@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-people-network-database]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-organization-research]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-organization-research]]"
 ---
 
 # 员工公开名录分析

@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值

@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制

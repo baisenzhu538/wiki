@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒

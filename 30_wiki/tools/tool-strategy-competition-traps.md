@@ -17,7 +17,7 @@ related:
   - '[[tool-yitang-research-best-practice]]'
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[concept-strategy-evolution-cycle]]'
-- '[[tool-strategy-gap-analysis]]'
+  - '[[tool-strategy-gap-analysis]]'
 ---
 ## 两大陷阱
 

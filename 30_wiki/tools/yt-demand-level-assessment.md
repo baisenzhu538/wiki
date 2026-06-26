@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径

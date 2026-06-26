@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -28,14 +28,14 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[concept-wanghuan-adversarial-generation]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[concept-wanghuan-adversarial-generation]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-three-tier-dev-architecture]]'
-- '[[framework-wanghuan-say-think-do-toolchain]]'
-- '[[concept-harness-cattle-not-pets]]'
-- '[[tool-harness-adversarial-tester]]'
-- '[[concept-candy-ai-as-collaborator]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-say-think-do-toolchain]]'
+  - '[[concept-harness-cattle-not-pets]]'
+  - '[[tool-harness-adversarial-tester]]'
+  - '[[concept-candy-ai-as-collaborator]]'
 tags:
 - 王欢
 - GAN

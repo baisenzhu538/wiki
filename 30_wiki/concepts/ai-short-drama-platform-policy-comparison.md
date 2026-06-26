@@ -1,5 +1,6 @@
 ---
-domain: - ai-saas
+domain:
+  - ai-saas
 
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果

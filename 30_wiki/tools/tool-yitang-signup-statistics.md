@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-weapon-product-reverse]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-weapon-product-reverse]]"
 ---
 
 # 线上签约统计

@@ -7,7 +7,7 @@ type: tool
 status: enriched
 domain:
   - learning-methodology- yitang
-- note-taking
+  - note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -16,9 +16,9 @@ related:
   - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
   - '[[skill-note-layer-constraint]]'
   - '[[skill-note-keyword-bolding]]'
-- '[[yt-note-checklist-concept]]'
-- '[[skill-note-layer-constraint]]'
-- '[[skill-note-keyword-bolding]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[skill-note-layer-constraint]]'
+  - '[[skill-note-keyword-bolding]]'
 source_refs:
   - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:

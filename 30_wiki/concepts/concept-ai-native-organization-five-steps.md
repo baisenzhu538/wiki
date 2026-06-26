@@ -33,10 +33,10 @@ related:
   - '[[skill-纪浩-AI对话上下文隔离]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[ai时代判断力口述]]'
-- '[[ai时代判断力口述-3]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+  - '[[ai时代判断力口述]]'
+  - '[[ai时代判断力口述-3]]'
+  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md

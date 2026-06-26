@@ -22,9 +22,9 @@ related:
   - '[[dk-yb27-pseudo-layer-evasion]]'
   - '[[dk-yb9-cubox-deployment-failure]]'
   - '[[dk-yb22-visual-presentation-scene-match]]'
-- '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[dk-yb21-ecommerce-pricing-independent-model]]'
-- '[[yt-model-conversion-optimization]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[yt-model-conversion-optimization]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

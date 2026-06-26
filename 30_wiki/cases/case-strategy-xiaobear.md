@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-practice-11-third-place]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-li-ka-shing]]'
-- "[[tool-strategy-four-moves]]"
+  - "[[tool-strategy-four-moves]]"
 ---
 **反常识**：家电品牌定位年轻单身男性——"最穷最没消费欲的人群"
 **成功**：别人都在抢家庭主妇，小熊电器选了被所有人忽略的群体——年轻人租房，需要便宜的小家电

@@ -32,8 +32,8 @@ related:
   - '[[tool-yitang-supply-chain-research]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-public-information-research]]'
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-yitang-comparable-company-selection]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-comparable-company-selection]]"
 ---
 
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么

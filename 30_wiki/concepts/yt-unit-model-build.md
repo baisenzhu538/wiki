@@ -25,11 +25,11 @@ related:
   - '[[yt-tool-unit-model-construction]]'
   - '[[case-toy-cabinet-business-model]]'
   - '[[case-unit-model-gashapon]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-unit-model-ladder]]'
-- '[[case-unit-model-gashapon]]'
-- '[[yt-unit-model-concept]]'
+  - '[[yt-unit-model-selection]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[case-unit-model-gashapon]]'
+  - '[[yt-unit-model-concept]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:

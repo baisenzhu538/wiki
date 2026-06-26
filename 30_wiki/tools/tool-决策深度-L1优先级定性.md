@@ -18,9 +18,9 @@ related:
   - '[[dk-demand-pitfall-financial-literacy]]'
   - '[[case-demand-financial-literacy]]'
   - '[[dk-决策经验值]]'
-- "[[framework-科学决策三角形]]"
-- "[[tool-完整财务公式决策]]"
-- "[[tool-决策深度-L2部分定量]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-完整财务公式决策]]"
+  - "[[tool-决策深度-L2部分定量]]"
 ---
 
 # 决策深度L1：优先级定性

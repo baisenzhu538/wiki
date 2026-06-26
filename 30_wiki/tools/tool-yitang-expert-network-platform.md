@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-industry-expert]]"
+  - "[[tool-yitang-weapon-industry-expert]]"
 ---
 
 # 专家网络付费平台

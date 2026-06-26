@@ -20,8 +20,8 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[tool-agent-research-swarm]]'
-- "[[framework-multi-agent-research-architecture]]"
-- "[[framework-yitang-oscar-research]]"
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[framework-yitang-oscar-research]]"
 ---
 
 # Pipeline模式

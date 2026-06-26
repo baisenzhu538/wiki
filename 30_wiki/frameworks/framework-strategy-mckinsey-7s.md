@@ -24,10 +24,10 @@ related:
   - '[[tool-strategy-core-competence-matrix]]'
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[case-strategy-model-selection-quiz]]'
-- '[[framework-strategy-blm]]'
-- '[[framework-strategy-pyramid]]'
-- '[[tool-strategy-risk-management]]'
+  - '[[case-strategy-model-selection-quiz]]'
+  - '[[framework-strategy-blm]]'
+  - '[[framework-strategy-pyramid]]'
+  - '[[tool-strategy-risk-management]]'
 ---
 
 # 麦肯锡 7S 模型：组织诊断与变革管理

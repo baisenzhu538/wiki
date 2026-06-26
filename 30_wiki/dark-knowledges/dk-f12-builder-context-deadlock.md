@@ -19,10 +19,10 @@ related:
   - '[[dk-p13-token-burn]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-c6-large-source-overflow]]'
-- '[[dk-c6-large-source-overflow]]'
-- '[[master-first-principles]]'
-- '[[kdo-flywheel]]'
-- '[[master-systems-thinking]]'
+  - '[[dk-c6-large-source-overflow]]'
+  - '[[master-first-principles]]'
+  - '[[kdo-flywheel]]'
+  - '[[master-systems-thinking]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -23,14 +23,14 @@ related:
   - '[[concept-ai-chair-determines-view]]'
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[tool-ai-cross-reading-method]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[concept-ai-neutrality-bias]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[concept-ai-neutrality-bias]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 
 # 信息质量阶梯

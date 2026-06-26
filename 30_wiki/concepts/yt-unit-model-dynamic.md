@@ -7,7 +7,7 @@ created_at: 2026-05-24
 difficulty: advanced
 domain:
   - yitang- entrepreneur
-- master
+  - master
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -24,10 +24,10 @@ query_triggers:
 related:
   - '[[ai单元模型口述蒋老师]]'
   - '[[yt-tool-unit-model-dynamic]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-ai-assisted]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-ai-assisted]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
 source_refs:
   - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: enriched

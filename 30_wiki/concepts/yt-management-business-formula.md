@@ -12,8 +12,8 @@ source_refs:
 status: enriched
 domain:
   - management- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 confidence: 0.92
 trust_level: high
 pipeline:
@@ -34,17 +34,17 @@ related:
   - '[[case-offline-catering-formula]]'
   - '[[case-toc-content-platform-correlation-trap]]'
   - '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-entrepreneur-unit-model]]'
-- '[[yt-model-management-map]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-basic-skills]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[yt-business-formula-ten-paradigms]]'
+  - '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-model-management-map]]'
+  - '[[yt-management-scientific-decision]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-basic-skills]]'
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童

@@ -21,8 +21,8 @@ related:
   - '[[tool-osint-wayback]]'
   - '[[tool-agent-native-overview]]'
   - '[[tool-alt-data-overview]]'
-- "[[tool-alt-data-overview]]"
-- "[[tool-yitang-database-index]]"
+  - "[[tool-alt-data-overview]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 免费替代数据

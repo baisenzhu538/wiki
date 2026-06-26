@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法

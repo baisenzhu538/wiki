@@ -44,11 +44,11 @@ related:
   - '[[tool-sop-template-modeling]]'
   - '[[case-modeling-process-sop-evolution]]'
   - '[[case-zhangyang-anchor-sop-three-locks]]'
-- "[[process-modeling]]"
-- "[[tool-sop-template-modeling]]"
-- "[[case-modeling-process-sop-evolution]]"
-- "[[dk-modeling-logical-cleanliness-root]]"
-- "[[dk-modeling-sop-execution-locks]]"
+  - "[[process-modeling]]"
+  - "[[tool-sop-template-modeling]]"
+  - "[[case-modeling-process-sop-evolution]]"
+  - "[[dk-modeling-logical-cleanliness-root]]"
+  - "[[dk-modeling-sop-execution-locks]]"
 ---# 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）

@@ -19,9 +19,9 @@ related:
   - '[[dk-yb1-aigc-mvp-before-ps]]'
   - '[[dk-yb12-ai-image-analysis-replace-training]]'
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
-- '[[dk-yb11-visual-book-reverse]]'
-- '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb11-visual-book-reverse]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
+  - '[[dk-yb31-style-first-controlnet]]'
 pipeline:
 - confidence-source-cited
 author: 月白

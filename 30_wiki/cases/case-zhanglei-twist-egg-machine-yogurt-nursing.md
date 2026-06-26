@@ -21,9 +21,9 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-zhanglei-furniture-overseas-market-selection]]'
   - '[[case-zhanglei-nursing-home-family]]'
-- "[[framework-yitang-high-level-execution]]"
-- "[[case-zhanglei-furniture-overseas-market-selection]]"
-- "[[case-zhanglei-nursing-home-family]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[case-zhanglei-furniture-overseas-market-selection]]"
+  - "[[case-zhanglei-nursing-home-family]]"
 ---
 
 # 案例：张磊——调研先行的连续创业者

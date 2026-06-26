@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-signup-statistics]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-ai-tools]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-yitang-weapon-ai-tools]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # AI辅助分析

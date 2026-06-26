@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-signup-statistics]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-user-direct-interview]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-weapon-user-direct-interview]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 行为观察法

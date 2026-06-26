@@ -7,7 +7,8 @@ source_refs:
 - src_20260614_8f80cb0f
 status: enriched
 domain:
-  - yitangyitang:
+- yitang
+yitang:
   map: system
   module: "课程体系"
   course_type: reference

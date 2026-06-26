@@ -20,9 +20,9 @@ related:
   - '[[tool-candy-oral-polish]]'
   - '[[framework-structured-analytic-techniques]]'
   - '[[tool-red-team-analysis]]'
-- "[[tool-red-team-analysis]]"
-- "[[tool-devils-advocacy]]"
-- "[[framework-wanghuan-gan-three-roles]]"
+  - "[[tool-red-team-analysis]]"
+  - "[[tool-devils-advocacy]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
 ---
 
 # 对抗测试员

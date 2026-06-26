@@ -21,8 +21,8 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[tool-osint-overview]]'
   - '[[tool-osint-shodan]]'
-- "[[tool-osint-overview]]"
-- "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
 ---
 
 # Wayback Machine：网站时光机

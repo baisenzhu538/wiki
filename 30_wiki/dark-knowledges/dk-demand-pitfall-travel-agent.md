@@ -17,7 +17,7 @@ related:
   - '[[dk-demand-pitfall-financial-literacy]]'
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[dk-demand-pitfall-rural-5g]]'
-- "[[case-demand-travel-agent]]"
+  - "[[case-demand-travel-agent]]"
 ---
 **坑**：AI生成旅行攻略→用户觉得有用但不付费。
 **真相**：用户要的是"帮我做决策"，不是"给我信息"。情感和社交任务被忽略（L5跳过）。

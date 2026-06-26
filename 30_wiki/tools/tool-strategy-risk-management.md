@@ -29,9 +29,9 @@ related:
   - '[[tool-strategy-category-role-matrix]]'
   - '[[tool-strategy-activity-scope]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-business-design]]'
-- '[[framework-strategy-mckinsey-7s]]'
-- '[[tool-strategy-control-points]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[framework-strategy-mckinsey-7s]]'
+  - '[[tool-strategy-control-points]]'
 ---
 
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵

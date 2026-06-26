@@ -21,15 +21,15 @@ query_triggers:
 - 访谈提纲
 related:
   - '[[yt-research-industry-canvas]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-research-intelligence-map]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[yt-research-industry-canvas]]'
-- '[[yt-research-user-jtbd]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-research-mindset]]'
-- '[[yt-note-expert-interview-modeling]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[yt-research-intelligence-map]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[yt-research-competitor-toolkit]]'
+  - '[[yt-research-industry-canvas]]'
+  - '[[yt-research-user-jtbd]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-research-mindset]]'
+  - '[[yt-note-expert-interview-modeling]]'
 source_refs:
 - 10_raw/sources/一堂调研武器库课程原文润色.md
 - 10_raw/sources/一堂-创业-调研行动营口述01.md

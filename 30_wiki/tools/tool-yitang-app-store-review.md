@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-product-reputation]]"
-- "[[tool-yitang-review-analysis]]"
+  - "[[tool-yitang-weapon-product-reputation]]"
+  - "[[tool-yitang-review-analysis]]"
 ---
 
 # 应用商店评论分析

@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-insider-intelligence]]"
-- "[[case-yitang-elderly-home-roleplay]]"
+  - "[[tool-yitang-weapon-insider-intelligence]]"
+  - "[[case-yitang-elderly-home-roleplay]]"
 ---
 
 # 微信群潜伏

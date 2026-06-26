@@ -19,12 +19,12 @@ related:
   - '[[tool-lean-cut-features]]'
   - '[[tool-lean-presell]]'
   - '[[tool-lean-human-replace-rnd]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 超值服务：用 VIP 服务验证标准服务

@@ -12,7 +12,8 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
 created_at: 2026-05-05
 domain:
-  - researchyitang:
+- research
+yitang:
   map: entrepreneur
   module: "调研方法论"
   course_id: yt-research-camp-001

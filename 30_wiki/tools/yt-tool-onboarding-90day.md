@@ -23,10 +23,10 @@ related:
   - '[[yt-pitch-storytelling]]'
   - '[[framework-wanghuan-harness-seven-stages]]'
   - '[[yt-tool-equity-checklist]]'
-- '[[yt-management-team-knowledge]]'
-- '[[yt-tool-okr-cycle]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-scientific-meetings]]'
+  - '[[yt-management-team-knowledge]]'
+  - '[[yt-tool-okr-cycle]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-scientific-meetings]]'
 contradicts: null
 query_triggers:
 - 新人融入

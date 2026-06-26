@@ -25,13 +25,13 @@ related:
   - '[[framework-demand-lean-bridge]]'
   - '[[case-cross-yuanqi-forest]]'
   - '[[framework-five-step-lean-interface]]'
-- "[[framework-strategy-brm]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-decision-y-model]]"
-- "[[strategy-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-decision-y-model]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
 ---
 
 # 战略假设的精益验证流程

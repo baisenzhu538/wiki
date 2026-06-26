@@ -31,10 +31,10 @@ related:
   - '[[yt-decision-canvas]]'
   - '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
   - '[[ocr-一堂-科学决策-高度-两种典型的思考习惯]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-consensus-iceberg]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-model-liberate-thinking-layers]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-consensus-iceberg]]'
+  - '[[yt-decision-ai-partner]]'
+  - '[[yt-model-liberate-thinking-layers]]'
 source_refs:
 - src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要
 status: enriched

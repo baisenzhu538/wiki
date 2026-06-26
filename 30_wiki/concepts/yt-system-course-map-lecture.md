@@ -11,7 +11,8 @@ source_refs:
 id: yt-system-course-map-lecture
 created_at: 2026-05-05
 domain:
-  - yitangyitang:
+- yitang
+yitang:
   module: "课程体系总览"
   course_type: method
   level: foundational

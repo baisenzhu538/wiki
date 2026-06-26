@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚

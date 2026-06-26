@@ -18,11 +18,11 @@ related:
   - '[[tool-单元模型-壁垒预判]]'
   - '[[framework-问题边界与Problem澄清五层结构]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[framework-科学决策三角形]]"
-- "[[tool-决策深度-L1优先级定性]]"
-- "[[concept-X型Y型决策习惯]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-决策深度-L1优先级定性]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 思考深度分级

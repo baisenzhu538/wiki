@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 id: yt-five-step-method-complete
 title: 五步法完整地图：从需求到壁垒

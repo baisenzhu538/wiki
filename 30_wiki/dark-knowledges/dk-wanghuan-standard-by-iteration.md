@@ -26,10 +26,10 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- human-ai-collaboration-double-triangle
-- framework-wanghuan-actor-director-mode
-- concept-wanghuan-adversarial-generation
-- framework-wanghuan-bitcoe-prompt-framework
+  - human-ai-collaboration-double-triangle
+  - framework-wanghuan-actor-director-mode
+  - concept-wanghuan-adversarial-generation
+  - framework-wanghuan-bitcoe-prompt-framework
 diagnostic_signals:
 - signal: "用户说'我不知道这件事的标准是什么'"
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的

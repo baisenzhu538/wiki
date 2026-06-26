@@ -20,7 +20,7 @@ related:
   - '[[case-demand-pharma-bigdata]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 案例：新东方招股书中的营销渠道

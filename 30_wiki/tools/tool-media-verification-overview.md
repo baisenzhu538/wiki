@@ -21,9 +21,9 @@ related:
   - '[[tool-osint-wayback]]'
   - '[[tool-metadata-extraction]]'
   - '[[tool-reverse-image-search]]'
-- "[[tool-reverse-image-search]]"
-- "[[tool-metadata-extraction]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[tool-reverse-image-search]]"
+  - "[[tool-metadata-extraction]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 ---
 
 # 媒体验证技术总览

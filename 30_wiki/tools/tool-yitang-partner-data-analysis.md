@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-signup-statistics]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-partner-research]]"
-- "[[tool-yitang-supplier-interview]]"
+  - "[[tool-yitang-weapon-partner-research]]"
+  - "[[tool-yitang-supplier-interview]]"
 ---
 
 # 合作方案数据

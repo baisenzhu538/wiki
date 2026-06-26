@@ -28,12 +28,12 @@ related:
   - '[[framework-lean-tenx-formula]]'
   - '[[yt-lean-daily-probability-decision]]'
   - '[[framework-lean-four-principles]]'
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-strategy-lean-validation]]"
-- "[[framework-five-step-lean-interface]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[framework-five-step-lean-interface]]"
 ---
 
 # 一堂 FALSE/FLESAI 低成本验证模型

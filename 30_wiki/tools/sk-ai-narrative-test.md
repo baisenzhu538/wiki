@@ -35,9 +35,9 @@ related:
   - '[[case-yitang-sanjieke-benchmark-failure]]'
   - '[[skill-月白-电商场景图三类分类法]]'
   - '[[skill-ai-system-redundancy]]'
-- '[[sk-ai-purpose-bias-check]]'
-- '[[yt-pitch-storytelling]]'
-- '[[concept-minto-pyramid-principle]]'
+  - '[[sk-ai-purpose-bias-check]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[concept-minto-pyramid-principle]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

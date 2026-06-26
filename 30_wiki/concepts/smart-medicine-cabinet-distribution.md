@@ -1,5 +1,6 @@
 ---
-domain: - healthcare
+domain:
+  - healthcare
 
 
 id: smart-medicine-cabinet-distribution

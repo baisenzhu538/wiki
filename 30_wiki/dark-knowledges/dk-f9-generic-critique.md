@@ -19,9 +19,9 @@ related:
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-f8-phony-wikilink]]'
   - '[[dk-p4-batch-format-empty]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-first-principles]]'
-- '[[dk-c8-format-complete-mind-empty]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-first-principles]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

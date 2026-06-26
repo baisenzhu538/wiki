@@ -19,12 +19,12 @@ related:
   - '[[case-strategy-failure-02-supermarket]]'
   - '[[case-strategy-failure-05-it]]'
   - '[[case-strategy-failure-04-appliance]]'
-- "[[framework-strategy-pyramid]]"
-- "[[framework-strategy-five-forces]]"
-- "[[framework-strategy-blm]]"
-- "[[framework-strategy-mckinsey-7s]]"
-- "[[tool-strategy-fishbone]]"
-- "[[tool-strategy-swot]]"
+  - "[[framework-strategy-pyramid]]"
+  - "[[framework-strategy-five-forces]]"
+  - "[[framework-strategy-blm]]"
+  - "[[framework-strategy-mckinsey-7s]]"
+  - "[[tool-strategy-fishbone]]"
+  - "[[tool-strategy-swot]]"
 ---
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 

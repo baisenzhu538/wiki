@@ -28,8 +28,8 @@ query_triggers:
 related:
   - '[[ocr-一堂-科学决策-决策三角形]]'
   - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-depth-ladder]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-depth-ladder]]'
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched

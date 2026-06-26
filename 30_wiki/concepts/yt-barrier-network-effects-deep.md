@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态

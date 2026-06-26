@@ -23,14 +23,14 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[tool-ai-cross-reading-method]]'
   - '[[concept-ai-chair-determines-view]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
 ---
 
 # 中立的暴政

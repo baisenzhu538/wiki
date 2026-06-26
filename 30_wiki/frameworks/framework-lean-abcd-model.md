@@ -20,13 +20,13 @@ related:
   - '[[case-lean-premature-refinement]]'
   - '[[case-lean-medical-device-milestone]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[concept-一堂-key-assumptions]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-- "[[framework-strategy-lean-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[framework-strategy-lean-validation]]"
 ---
 
 # 关键假设 ABCD 模型

@@ -19,8 +19,8 @@ related:
   - '[[proposal-ai-domain-mastery-pipeline]]'
   - '[[dk-kdo-leaky-pipe-pressure]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[master-first-principles]]'
-- '[[master-ai-info-literacy]]'
+  - '[[master-first-principles]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

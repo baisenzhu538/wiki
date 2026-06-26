@@ -21,9 +21,9 @@ related:
   - '[[tool-yitang-news-monitoring]]'
   - '[[tool-yitang-business-registration-check]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[case-yitang-fake-interview-intelligence]]"
-- "[[case-yitang-supplier-security-guard]]"
+  - "[[dk-yitang-survivor-bias-in-research]]"
+  - "[[case-yitang-fake-interview-intelligence]]"
+  - "[[case-yitang-supplier-security-guard]]"
 ---
 
 # 跨案例模式：失败者溢价

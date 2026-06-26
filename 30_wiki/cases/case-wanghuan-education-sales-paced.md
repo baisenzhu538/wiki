@@ -25,13 +25,13 @@ related:
   - '[[dk-wanghuan-paced-sales-decision]]'
   - '[[case-wanghuan-education-sales-capability-extraction]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[concept-wanghuan-adversarial-generation]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
 tags:
 - 王欢
 - 案例

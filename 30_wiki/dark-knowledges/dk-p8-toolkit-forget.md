@@ -19,9 +19,9 @@ related:
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-c6-large-source-overflow]]'
-- '[[master-knowledge-compound]]'
-- '[[kdo-flywheel]]'
-- '[[master-first-principles]]'
+  - '[[master-knowledge-compound]]'
+  - '[[kdo-flywheel]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

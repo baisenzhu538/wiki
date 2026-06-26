@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势

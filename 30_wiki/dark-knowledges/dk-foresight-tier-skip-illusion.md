@@ -27,10 +27,10 @@ related:
   - '[[case-escort-service-tiered-growth]]'
   - '[[case-ai-time-management-tiered-growth]]'
   - '[[dk-signal-cluster-illusion]]'
-- '[[yt-foresight-business-spectrum]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[case-coffee-shop-foresight]]'
-- '[[case-escort-service-tiered-growth]]'
+  - '[[yt-foresight-business-spectrum]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[case-coffee-shop-foresight]]'
+  - '[[case-escort-service-tiered-growth]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -22,8 +22,8 @@ related:
   - '[[case-milktea-five-step]]'
   - '[[case-treadmill-demand-analysis]]'
   - '[[yt-product-kernel-cultivation]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[yt-product-kernel-cultivation]]'
+  - '[[concept-一堂-product-kernel]]'
+  - '[[yt-product-kernel-cultivation]]'
 wiki_refs:
 - '[[concept-一堂-product-kernel]]'
 - '[[yt-product-kernel-cultivation]]'

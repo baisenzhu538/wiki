@@ -1,5 +1,6 @@
 ---
-domain: - ai-saas
+domain:
+  - ai-saas
 
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型

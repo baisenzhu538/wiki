@@ -20,8 +20,8 @@ related:
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[framework-strategy-brm]]"
-- "[[concept-strategy-framework-landscape]]"
+  - "[[framework-strategy-brm]]"
+  - "[[concept-strategy-framework-landscape]]"
 ---
 
 # 2024-2026战略新变量

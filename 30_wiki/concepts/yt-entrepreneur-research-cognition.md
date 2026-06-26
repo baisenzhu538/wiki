@@ -27,7 +27,7 @@ related:
   - '[[yt-entrepreneur-channel-exploration]]'
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-entrepreneur-growth-flywheel]]'
-- '[[master-ai-info-literacy]]'
+  - '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

@@ -32,9 +32,9 @@ related:
   - '[[dk-yitang-research-source-freshness]]'
   - '[[tool-yitang-supply-chain-research]]'
   - '[[tool-yitang-research-cross-validation]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-doris-industry-report-search-tips]]"
-- "[[concept-yitang-ai-research-10-assumptions]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-doris-industry-report-search-tips]]"
+  - "[[concept-yitang-ai-research-10-assumptions]]"
 ---
 
 # 行业报告可信度评估：多信数据，少信观点

@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化

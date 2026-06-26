@@ -31,8 +31,8 @@ related:
   - '[[tool-yitang-supply-chain-research]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-financial-report-intelligence]]'
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
 ---
 
 # 对标公司选择三步法：加法·减法·三原则

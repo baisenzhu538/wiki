@@ -20,9 +20,9 @@ related:
   - '[[dk-yb7-design-demand-80-10-10]]'
   - '[[dk-yb20-ai-eye-high-principle]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb13-zero-shot-style-transfer]]'
-- '[[dk-yb22-visual-presentation-scene-match]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb13-zero-shot-style-transfer]]'
+  - '[[dk-yb22-visual-presentation-scene-match]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
 pipeline:
 - confidence-source-cited
 author: 月白

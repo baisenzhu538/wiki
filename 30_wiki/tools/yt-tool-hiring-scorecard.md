@@ -22,12 +22,12 @@ related:
   - '[[yt-management-scientific-hiring]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
-- '[[yt-management-scientific-hiring]]'
-- '[[yt-management-onboarding]]'
-- '[[yt-management-company-culture]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-decision-width-method]]'
-- '[[master-decision-hygiene]]'
+  - '[[yt-management-scientific-hiring]]'
+  - '[[yt-management-onboarding]]'
+  - '[[yt-management-company-culture]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-decision-width-method]]'
+  - '[[master-decision-hygiene]]'
 contradicts: null
 query_triggers:
 - 结构化面试

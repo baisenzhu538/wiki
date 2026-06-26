@@ -18,11 +18,11 @@ related:
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[tool-提问刻意练习画布]]"
-- "[[concept-X型Y型决策习惯]]"
-- "[[concept-发现决策]]"
-- "[[framework-科学决策三角形]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[tool-提问刻意练习画布]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[concept-发现决策]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 科学提问刻意练习

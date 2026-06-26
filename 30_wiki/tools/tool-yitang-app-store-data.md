@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-xiaohongshu-data]]'
   - '[[tool-yitang-app-store-review]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
 ---
 
 # APP数据查询

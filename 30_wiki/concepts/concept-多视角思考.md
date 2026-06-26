@@ -18,9 +18,9 @@ related:
   - '[[tool-用户视角]]'
   - '[[framework-一堂五步法-泛产品设计]]'
   - '[[tool-用户分层]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 多视角思考：用不同角色审视产品

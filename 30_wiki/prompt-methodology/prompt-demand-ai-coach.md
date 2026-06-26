@@ -20,14 +20,14 @@ related:
   - '[[system-yitang-research-workflow]]'
   - '[[framework-demand-iceberg]]'
   - '[[tool-prompt-jtbd-scenario-coach]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-iceberg-l3-core-job]]"
-- "[[tool-demand-iceberg-l4-job-map]]"
-- "[[tool-demand-iceberg-l5-forces]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[framework-demand-usp-model]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-demand-iceberg-l4-job-map]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[framework-demand-usp-model]]"
 ---
 
 # AI需求分析教练提示词

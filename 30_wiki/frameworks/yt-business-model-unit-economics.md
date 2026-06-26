@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC

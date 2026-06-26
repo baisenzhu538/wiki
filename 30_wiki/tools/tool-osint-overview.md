@@ -21,8 +21,8 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[framework-yitang-research-weapon-supplement-2026]]'
   - '[[tool-osint-wayback]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[framework-yitang-research-weapon-supplement-2026]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[framework-yitang-research-weapon-supplement-2026]]"
 ---
 
 # OSINT工具总览

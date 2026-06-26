@@ -35,10 +35,10 @@ related:
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[tool-wanghuan-ai-business-profile]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[dk-wanghuan-spec-trap]]'
-- '[[concept-wanghuan-flywheel-first-loop]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-spec-trap]]'
+  - '[[concept-wanghuan-flywheel-first-loop]]'
 tags:
 - 王欢
 - 行业暗规则

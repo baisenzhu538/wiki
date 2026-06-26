@@ -27,9 +27,9 @@ related:
   - '[[case-thousand-people-square]]'
   - '[[sk-ai-question-problem-checklist]]'
   - '[[concept-thousand-people-square]]'
-- '[[modeling-capability-for-kdo]]'
-- '[[modeling-three-stages]]'
-- '[[dk-modeling-counterexample-driven]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[modeling-three-stages]]'
+  - '[[dk-modeling-counterexample-driven]]'
 tags:
 - '#method/modeling'
 - '#industry/education'

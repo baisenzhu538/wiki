@@ -34,16 +34,16 @@ related:
   - '[[yitang-research-domain-digest]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[framework-yitang-nine-layer-deep-dig]]"
-- "[[tool-yitang-research-deep-attribution]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "（dk-yitang-research-determination，待补）"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "（dk-yitang-research-determination，待补）"
+  - "[[dk-yitang-survivor-bias-in-research]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
 ---
 
 # 迭代递归深挖法：从表层到内核的认知穿透

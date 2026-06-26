@@ -21,8 +21,8 @@ related:
   - '[[tool-osint-overview]]'
   - '[[tool-osint-maltego]]'
   - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-- "[[tool-agent-native-overview]]"
-- "[[tool-agent-firecrawl]]"
+  - "[[tool-agent-native-overview]]"
+  - "[[tool-agent-firecrawl]]"
 ---
 
 # Crawl4AI

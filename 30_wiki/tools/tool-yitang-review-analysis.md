@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[yt-management-conversion-hacking]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-product-reputation]]"
-- "[[tool-yitang-public-sentiment-research]]"
+  - "[[tool-yitang-weapon-product-reputation]]"
+  - "[[tool-yitang-public-sentiment-research]]"
 ---
 
 # 差评分析

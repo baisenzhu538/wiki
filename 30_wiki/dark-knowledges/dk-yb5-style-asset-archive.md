@@ -20,9 +20,9 @@ related:
   - '[[dk-yb31-style-first-controlnet]]'
   - '[[dk-yb27-pseudo-layer-evasion]]'
   - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
-- '[[dk-yb8-file-naming-eight-elements]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb8-file-naming-eight-elements]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
 pipeline:
 - confidence-source-cited
 author: 月白

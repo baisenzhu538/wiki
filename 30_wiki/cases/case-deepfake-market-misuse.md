@@ -23,16 +23,16 @@ related:
   - '[[case-ai-companion-emotional]]'
   - '[[dk-ai-prediction-expiry-date]]'
   - '[[dk-ai-social-progress-not-automatic]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[case-compas-racial-bias]]"
-- "[[case-apple-card-gender-bias]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[case-compas-racial-bias]]"
+  - "[[case-apple-card-gender-bias]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
 ---
 
 # Deepfake 的商业机会与滥用风险

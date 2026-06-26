@@ -21,9 +21,9 @@ related:
   - '[[concept-research-responsibility-boundary]]'
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[dk-yitang-research-question-quality]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[concept-yitang-ai-research-10-assumptions]]"
-- "[[concept-yitang-research-aesthetic]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[concept-yitang-ai-research-10-assumptions]]"
+  - "[[concept-yitang-research-aesthetic]]"
 ---
 
 # AI调研中人机协作的判断节点

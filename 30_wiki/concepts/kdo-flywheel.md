@@ -13,8 +13,8 @@ related:
   - '[[proposal-ai-domain-mastery-pipeline]]'
   - '[[knowledge-error-self-exposure]]'
   - '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[proposal-kdo-flywheel-infrastructure]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[proposal-kdo-flywheel-infrastructure]]'
 query_triggers:
 - 飞轮
 - 建造使用反思实验

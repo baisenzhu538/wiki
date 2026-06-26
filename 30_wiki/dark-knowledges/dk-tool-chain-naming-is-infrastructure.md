@@ -18,11 +18,11 @@ related:
   - '[[dk-p19-quote-yaml]]'
   - '[[proposal-yaml-frontmatter-standardization]]'
   - '[[dk-f13-handwritten-yaml-parser]]'
-- '[[dk-f10-broken-source-refs]]'
-- '[[dk-f8-phony-wikilink]]'
-- '[[dk-p11-regex-cutoff]]'
-- '[[dk-p19-quote-yaml]]'
-- '[[dk-f13-handwritten-yaml-parser]]'
+  - '[[dk-f10-broken-source-refs]]'
+  - '[[dk-f8-phony-wikilink]]'
+  - '[[dk-p11-regex-cutoff]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[dk-f13-handwritten-yaml-parser]]'
 bridges_to:
 - dk-f10-broken-source-refs
 - dk-f8-phony-wikilink

@@ -21,8 +21,8 @@ related:
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[concept-research-delegation-in-scaling]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[concept-research-delegation-in-scaling]]"
 ---
 
 # CEO必须亲自做用户调研

@@ -6,10 +6,10 @@ title: 财务入门
 type: concept
 domain:
   - management- management
-- business-strategy
-- finance-legal
-- ai-saas
-- yitang
+  - business-strategy
+  - finance-legal
+  - ai-saas
+  - yitang
 status: enriched
 pipeline:
 - confidence-source-cited
@@ -29,8 +29,8 @@ related:
   - '[[yt-entrepreneur-truth-seeking]]'
   - '[[yt-business-model-margin-structure]]'
   - '[[yt-management-leadership-levels]]'
-- yt-unit-model-build
-- yt-entrepreneur-key-hypotheses
+  - yt-unit-model-build
+  - yt-entrepreneur-key-hypotheses
 updated_at: '2026-06-16'
 id: yt-management-finance-basics
 author: 老顽童

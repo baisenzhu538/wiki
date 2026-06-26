@@ -8,7 +8,7 @@ source_refs: []
 status: enriched
 domain:
   - management- consulting
-- yitang
+  - yitang
 bridges_to:
 - target: yt-entrepreneur-key-hypotheses
   relation: provides_foundation_for
@@ -34,11 +34,11 @@ related:
   - '[[skill-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-一堂-hypothesis-driven-business-methodology]]'
   - '[[yt-entrepreneur-five-step-method]]'
-- '[[concept-mckinsey-mece]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[concept-mckinsey-mece]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 tags: []
 version: 1
 created_at: 2026-06-11

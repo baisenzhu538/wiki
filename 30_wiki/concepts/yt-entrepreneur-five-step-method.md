@@ -27,13 +27,13 @@ related:
   - '[[yt-entrepreneur-259-milestone]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
   - '[[yt-entrepreneur-business-growth]]'
-- '[[yt-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[framework-lean-false-model]]'
-- '[[framework-five-step-lean-interface]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-growth-cycle-model]]'
-- '[[yt-barrier-analysis-cheat-sheet]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[framework-lean-false-model]]'
+  - '[[framework-five-step-lean-interface]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-growth-cycle-model]]'
+  - '[[yt-barrier-analysis-cheat-sheet]]'
 reviewed_by: 王语嫣
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲

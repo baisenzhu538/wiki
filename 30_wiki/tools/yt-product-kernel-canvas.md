@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具

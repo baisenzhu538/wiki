@@ -17,7 +17,7 @@ related:
   - '[[dk-strategy-longzhong-four-failures]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-li-ka-shing]]'
-- "[[framework-strategy-brm]]"
+  - "[[framework-strategy-brm]]"
 ---
 **事迹**：冉鹏亲自下场做美区 TikTok 店卖 T 恤。"我是一单都没卖出去啊"
 **教训**：超出自身资源和能力的边界→战略的动态适配有边界。顶尖战略顾问≠万能创业者

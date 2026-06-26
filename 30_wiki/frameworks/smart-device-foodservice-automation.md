@@ -10,8 +10,8 @@ confidence: 0.7
 trust_level: medium
 domain:
   - yitang- business-strategy
-- product
-- entrepreneur
+  - product
+  - entrepreneur
 source_refs:
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
@@ -20,9 +20,9 @@ related:
   - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
   - '[[beverage-foodservice-channel]]'
   - '[[ai-complex-communication]]'
-- '[[beverage-foodservice-channel]]'
-- '[[yt-entrepreneur-channel-exploration]]'
-- '[[source-code-delivery-model]]'
+  - '[[beverage-foodservice-channel]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[source-code-delivery-model]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

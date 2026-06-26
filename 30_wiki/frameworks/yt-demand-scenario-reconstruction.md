@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-scenario-reconstruction
 title: 用户场景重构法：使用前中后的完整体验地图

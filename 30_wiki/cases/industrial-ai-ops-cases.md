@@ -21,7 +21,7 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[fd-forward-deployment]]'
+  - '[[fd-forward-deployment]]'
 source_person: 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）
 source_context: 酒店/房产/电商 AI 运营落地案例分享
 created_at: 2026-06-14

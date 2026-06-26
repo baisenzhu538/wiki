@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[concept-yitang-ideal-research-goal]]"
+  - "[[concept-yitang-ideal-research-goal]]"
 ---
 
 # 调研投入必须与信息价值匹配

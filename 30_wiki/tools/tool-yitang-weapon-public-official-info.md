@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-public-information-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-public-information-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-public-information-research]]"
 ---
 
 # 武器库策略8：官方公开信息

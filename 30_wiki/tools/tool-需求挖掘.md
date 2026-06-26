@@ -18,9 +18,9 @@ related:
   - '[[tool-动力阻力分析]]'
   - '[[tool-用户分层]]'
   - '[[tool-行业分析画布]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 需求挖掘：从用户身上挖出真实需求

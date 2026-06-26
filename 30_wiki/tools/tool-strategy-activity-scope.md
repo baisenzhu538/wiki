@@ -27,13 +27,13 @@ related:
   - '[[tool-strategy-industry-chain-analysis]]'
   - '[[tool-strategy-risk-management]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[case-strategy-retailer-activity-scope]]'
-- '[[case-strategy-snack-business-design]]'
-- '[[framework-strategy-business-design]]'
-- '[[tool-strategy-business-design-template]]'
-- '[[tool-strategy-control-points]]'
-- '[[tool-strategy-industry-chain-analysis]]'
-- '[[tool-strategy-value-capture]]'
+  - '[[case-strategy-retailer-activity-scope]]'
+  - '[[case-strategy-snack-business-design]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[tool-strategy-business-design-template]]'
+  - '[[tool-strategy-control-points]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-value-capture]]'
 ---
 
 # 活动范围设计工具：What × How × Where 三问

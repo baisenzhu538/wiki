@@ -24,13 +24,13 @@ related:
   - '[[case-lean-gray-test-paradigm]]'
   - '[[case-lean-combination-test-paradigm]]'
   - '[[case-lean-crayfish-combo-test]]'
-- "[[case-lean-combination-test-paradigm]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-abcd-model]]"
-- "[[tool-lean-fake-product]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[case-lean-combination-test-paradigm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[tool-lean-fake-product]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
 ---
 
 # 洗发水卖点组合测试

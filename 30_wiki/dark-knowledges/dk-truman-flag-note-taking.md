@@ -18,11 +18,11 @@ related:
   - '[[dk-yb28-prompt-expiration-management]]'
   - '[[dk-truman-document-is-real-project-is-fake]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
-- '[[yt-note-l4-internalization]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-ai-human-division]]'
-- '[[skill-问题驱动式深度思考笔记]]'
-- '[[skill-自我反馈修正笔记姿势]]'
+  - '[[yt-note-l4-internalization]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[skill-自我反馈修正笔记姿势]]'
 query_triggers:
 - 怎么逼自己思考
 - 笔记没有自己的东西

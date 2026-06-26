@@ -1,5 +1,6 @@
 ---
-domain: - learning-methodology
+domain:
+  - learning-methodology
 
 id: skill-问题驱动式深度思考笔记
 title: "问题驱动式深度思考笔记：用真问题取代真记录"

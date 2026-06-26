@@ -22,8 +22,8 @@ related:
   - '[[tool-strategy-customer-selection]]'
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-business-design]]'
-- '[[tool-strategy-ksf]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[tool-strategy-ksf]]'
 ---
 
 # 核心能力评估矩阵：影响力 × 急迫性

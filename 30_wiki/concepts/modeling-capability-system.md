@@ -1,5 +1,6 @@
 ---
-domain: - modeling
+domain:
+  - modeling
 
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论

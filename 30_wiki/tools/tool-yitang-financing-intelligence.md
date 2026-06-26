@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
 ---
 
 # 融资信息分析

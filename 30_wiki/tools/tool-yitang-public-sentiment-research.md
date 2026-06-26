@@ -33,9 +33,9 @@ related:
   - '[[tool-yitang-review-analysis]]'
   - '[[tool-yitang-supply-chain-research]]'
   - '[[yt-management-conversion-hacking]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[tool-yitang-consumer-goods-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-yitang-consumer-goods-research]]"
 ---
 
 # 舆情/口碑批量收集：好评决定内核，差评决定机会

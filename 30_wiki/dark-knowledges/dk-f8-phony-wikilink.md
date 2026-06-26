@@ -19,8 +19,8 @@ related:
   - '[[dk-f11-encyclopedia-style]]'
   - '[[dk-f9-generic-critique]]'
   - '[[dk-p4-batch-format-empty]]'
-- '[[dk-c8-format-complete-mind-empty]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

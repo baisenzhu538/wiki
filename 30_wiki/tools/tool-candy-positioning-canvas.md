@@ -20,7 +20,7 @@ related:
   - '[[framework-demand-usp-model]]'
   - '[[dk-ji-hao-problem-vs-question]]'
   - '[[tool-candy-oral-polish]]'
-- "[[framework-candy-transcript-workflow]]"
+  - "[[framework-candy-transcript-workflow]]"
 ---
 
 # 差异化定位画布

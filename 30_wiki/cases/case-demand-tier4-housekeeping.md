@@ -20,8 +20,8 @@ related:
   - '[[case-demand-dialer]]'
   - '[[case-demand-travel-agent]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-tier4-housekeeping]]"
-- "[[framework-demand-opportunity-spectrum]]"
+  - "[[dk-demand-pitfall-tier4-housekeeping]]"
+  - "[[framework-demand-opportunity-spectrum]]"
 ---
 
 # 案例：四线家政创业

@@ -31,9 +31,9 @@ related:
   - '[[tool-泛产品落地-灵感闪现]]'
   - '[[tool-泛产品落地-风险管理]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[tool-泛产品落地-ROI分析]]'
-- '[[tool-泛产品落地-逻辑MECE]]'
-- '[[framework-一堂五步法-泛产品设计]]'
+  - '[[tool-泛产品落地-ROI分析]]'
+  - '[[tool-泛产品落地-逻辑MECE]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模

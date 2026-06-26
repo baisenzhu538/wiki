@@ -18,8 +18,8 @@ related:
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[case-ban-fei-mao-from-assignment-to-tool]]'
   - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-- '[[skill-半肥猫-ai-research-validation]]'
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
+  - '[[skill-半肥猫-ai-research-validation]]'
+  - '[[case-ban-fei-mao-from-assignment-to-tool]]'
 wiki_refs:
 - '[[skill-半肥猫-ai-research-validation]]'
 - '[[case-ban-fei-mao-from-assignment-to-tool]]'

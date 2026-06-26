@@ -8,8 +8,8 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -31,16 +31,16 @@ related:
   - '[[case-saas-renewal-formula]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
   - '[[yt-tool-business-formula-metrics-checklist]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[dk-yitang-business-formula-plus-times-trap]]'
-- '[[case-private-domain-ecommerce-formula]]'
-- '[[case-saas-renewal-formula]]'
-- '[[case-dental-clinic-formula]]'
-- '[[case-offline-catering-formula]]'
-- '[[case-gym-membership-formula]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[dk-yitang-business-formula-plus-times-trap]]'
+  - '[[case-private-domain-ecommerce-formula]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[case-dental-clinic-formula]]'
+  - '[[case-offline-catering-formula]]'
+  - '[[case-gym-membership-formula]]'
 
 ---# 业务公式定性参数行为化指标库
 

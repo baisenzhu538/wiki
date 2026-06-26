@@ -27,8 +27,8 @@ related:
   - '[[yt-personal-y-model-practice]]'
   - '[[yt-personal-thinking-models]]'
   - '[[yt-personal-y-model-exploration-2]]'
-- '[[yt-personal-deep-review]]'
-- '[[master-systems-thinking]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[master-systems-thinking]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary

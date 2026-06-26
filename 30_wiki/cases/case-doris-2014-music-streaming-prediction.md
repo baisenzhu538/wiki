@@ -21,7 +21,7 @@ related:
   - '[[case-doris-beauty-ecommerce-channel]]'
   - '[[case-yitang-hardware-factory-photo]]'
   - '[[case-doris-outbound-travel-community]]'
-- "[[framework-doris-industry-report-4step]]"
+  - "[[framework-doris-industry-report-4step]]"
 ---
 
 # 案例：预判音乐流媒体趋势

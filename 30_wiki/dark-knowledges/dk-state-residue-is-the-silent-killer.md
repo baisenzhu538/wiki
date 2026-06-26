@@ -18,11 +18,11 @@ related:
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-c6-large-source-overflow]]'
   - '[[dk-modeling-timely-review-session-window]]'
-- '[[dk-p1-model-switch-env]]'
-- '[[dk-p2-tmux-cache]]'
-- '[[dk-p3-auth-cache]]'
-- '[[dk-p6-session-resume-fail]]'
-- '[[dk-p14-zombie]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p3-auth-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
+  - '[[dk-p14-zombie]]'
 bridges_to:
 - dk-p1-model-switch-env
 - dk-p2-tmux-cache

@@ -38,11 +38,11 @@ related:
   - '[[tool-wanghuan-ai-business-profile]]'
   - '[[concept-wanghuan-ai-native-definition]]'
   - '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[concept-wanghuan-ai-native-definition]]'
-- '[[framework-wanghuan-five-criteria-first-product]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-ooda-loop]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[framework-wanghuan-five-criteria-first-product]]'
 tags:
 - 王欢
 - 飞轮

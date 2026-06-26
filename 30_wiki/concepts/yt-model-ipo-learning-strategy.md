@@ -25,9 +25,9 @@ related:
   - '[[yt-personal-deep-review]]'
   - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
   - '[[yt-personal-ipo-learning]]'
-- '[[yt-model-cognitive-upgrade-framework]]'
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-model-prompt-engineering]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型

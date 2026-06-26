@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-hardware-factory-photo]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-yitang-supplier-security-guard]]'
-- "[[framework-yitang-expert-interview-10steps]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
+  - "[[dk-yitang-expert-interview-5-traps]]"
 ---
 
 # 案例：对标三节课做C端

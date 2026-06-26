@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-bp-analysis]]'
   - '[[dk-yitang-research-ai-hallucination]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # 武器库策略10：AI工具

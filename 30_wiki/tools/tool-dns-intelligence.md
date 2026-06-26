@@ -21,8 +21,8 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[tool-osint-wayback]]'
   - '[[tool-google-dorking]]'
-- "[[tool-osint-overview]]"
-- "[[tool-osint-shodan]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-osint-shodan]]"
 ---
 
 # DNS情报

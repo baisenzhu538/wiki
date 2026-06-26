@@ -26,7 +26,7 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-personal-time-management]]'
   - '[[yt-personal-scientific-expression]]'
-- '[[master-systems-thinking]]'
+  - '[[master-systems-thinking]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:

@@ -20,9 +20,9 @@ related:
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[structured-ai-workspace]]'
   - '[[sk-ai-ai-workspace-setup]]'
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[dk-ji-hao-novice-mindset-advantage]]'
-- '[[case-jh-yitang-vs-sqlhelper]]'
+  - '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - '[[dk-ji-hao-novice-mindset-advantage]]'
+  - '[[case-jh-yitang-vs-sqlhelper]]'
 wiki_refs:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'

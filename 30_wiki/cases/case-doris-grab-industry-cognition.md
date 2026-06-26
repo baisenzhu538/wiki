@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-doris-industry-report-search-tips]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-doris-industry-report-search-tips]]"
 ---
 
 # 案例：7天建立行业认知

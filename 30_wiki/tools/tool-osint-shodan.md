@@ -21,8 +21,8 @@ related:
   - '[[tool-dns-intelligence]]'
   - '[[tool-osint-wayback]]'
   - '[[tool-google-dorking]]'
-- "[[tool-osint-overview]]"
-- "[[tool-yitang-tech-project-research]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-tech-project-research]]"
 ---
 
 # Shodan：互联网设备搜索引擎

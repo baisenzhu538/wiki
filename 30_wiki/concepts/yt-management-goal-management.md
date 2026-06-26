@@ -6,8 +6,8 @@ title: 目标管理
 type: concept
 domain:
   - management- ai-saas
-- management
-- yitang
+  - management
+  - yitang
 status: enriched
 pipeline:
 - confidence-source-cited
@@ -34,10 +34,10 @@ related:
   - '[[yt-tool-okr-cycle]]'
   - '[[yt-management-toolkit-overview]]'
   - '[[tool-strategy-12-word-test]]'
-- '[[yt-tool-okr-cycle]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-management-business-formula]]'
+  - '[[yt-tool-okr-cycle]]'
+  - '[[yt-management-project-management]]'
+  - '[[yt-management-scientific-decision]]'
+  - '[[yt-management-business-formula]]'
 updated_at: '2026-06-17'
 id: yt-management-goal-management
 author: 老顽童

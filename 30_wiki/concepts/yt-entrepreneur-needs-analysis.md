@@ -27,7 +27,7 @@ related:
   - '[[framework-demand-iceberg]]'
   - '[[tool-prompt-iceberg-demand-analysis]]'
   - '[[case-demand-ai-fitness-four-forces]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:

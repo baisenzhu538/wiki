@@ -22,9 +22,9 @@ related:
   - '[[dk-yitang-research-question-quality]]'
   - '[[dk-yitang-ai-research-prompt-craft]]'
   - '[[dk-yitang-research-ai-hallucination]]'
-- "[[tool-doris-industry-report-source-evaluation]]"
-- "[[dk-yitang-research-scale-vs-depth]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[tool-doris-industry-report-source-evaluation]]"
+  - "[[dk-yitang-research-scale-vs-depth]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 ---
 
 # 交叉验证是成本也是护城河

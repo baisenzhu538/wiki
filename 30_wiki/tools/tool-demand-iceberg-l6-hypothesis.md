@@ -19,11 +19,11 @@ related:
   - '[[framework-demand-lean-bridge]]'
   - '[[framework-demand-iceberg]]'
   - '[[tool-prompt-jtbd-scenario-coach]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l5-forces]]"
-- "[[tool-demand-assessment-triangle]]"
-- "[[framework-demand-lean-bridge]]"
-- "[[framework-lean-false-model]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-assessment-triangle]]"
+  - "[[framework-demand-lean-bridge]]"
+  - "[[framework-lean-false-model]]"
 ---
 
 # L6需求假设

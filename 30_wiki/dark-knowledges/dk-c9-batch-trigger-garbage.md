@@ -16,8 +16,8 @@ updated_at: '2026-06-18'
 related:
   - '[[framework-ci-operating-model]]'
   - '[[tool-ci-implement-phase]]'
-- '[[dk-c8-format-complete-mind-empty]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

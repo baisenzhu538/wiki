@@ -19,20 +19,20 @@ related:
   - '[[dk-research-triangulation-stop-rule]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
   - '[[dk-research-decision-first-mapping]]'
-- '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-research-identity-craft-for-closed-information]]'
-- '[[dk-research-triangulation-stop-rule]]'
-- '[[dk-research-decision-first-mapping]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- "[[strategy-domain-digest]]"
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-mckinsey-7s]]"
-- "[[tool-strategy-nine-problems]]"
-- "[[case-strategy-failure-05-it]]"
-- "[[case-strategy-failure-06-phone-n]]"
-- "[[case-strategy-failure-07-phone-l]]"
-- "[[case-strategy-failure-08-video]]"
-- "[[case-strategy-failure-09-boeing]]"
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - "[[strategy-domain-digest]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-mckinsey-7s]]"
+  - "[[tool-strategy-nine-problems]]"
+  - "[[case-strategy-failure-05-it]]"
+  - "[[case-strategy-failure-06-phone-n]]"
+  - "[[case-strategy-failure-07-phone-l]]"
+  - "[[case-strategy-failure-08-video]]"
+  - "[[case-strategy-failure-09-boeing]]"
 ---
 
 # 组织能力与战略方向不匹配

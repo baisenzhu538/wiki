@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[framework-demand-iceberg]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 过早进入解决方案空间

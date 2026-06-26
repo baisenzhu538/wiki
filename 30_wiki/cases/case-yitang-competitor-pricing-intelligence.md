@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-yitang-supplier-security-guard]]'
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 案例：假装订货套取竞品真实价格

@@ -22,9 +22,9 @@ related:
   - '[[dk-modeling-ai-compound-leverage]]'
   - '[[dk-modeling-ai-without-judgment]]'
   - '[[dk-modeling-ai-self-retrospection]]'
-- '[[three-party-data-alignment]]'
-- '[[ouyangfeng-data-alignment-response]]'
-- '[[plan_20260531_data-curator-v1.3]]'
+  - '[[three-party-data-alignment]]'
+  - '[[ouyangfeng-data-alignment-response]]'
+  - '[[plan_20260531_data-curator-v1.3]]'
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）

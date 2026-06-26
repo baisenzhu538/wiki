@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-demand-assessment-triangle]]"
-- "[[framework-demand-usp-model]]"
+  - "[[tool-demand-assessment-triangle]]"
+  - "[[framework-demand-usp-model]]"
 ---
 
 # 案例：大数据私有化创新药

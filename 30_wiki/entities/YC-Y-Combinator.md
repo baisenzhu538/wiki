@@ -26,9 +26,9 @@ related:
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[concept-wanghuan-ai-native-definition]]'
   - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[kdo-protocol]]'
-- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - '[[kdo-protocol]]'
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags: []
 trust_level: medium
 reviewed_by: 黄药师

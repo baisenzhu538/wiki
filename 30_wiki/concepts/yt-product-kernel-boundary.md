@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做

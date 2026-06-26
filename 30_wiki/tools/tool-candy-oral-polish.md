@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-indicators-signposts]]'
   - '[[tool-devils-advocacy]]'
-- "[[framework-candy-transcript-workflow]]"
+  - "[[framework-candy-transcript-workflow]]"
 ---
 
 # 口语化润色七条原则

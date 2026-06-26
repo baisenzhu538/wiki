@@ -24,13 +24,13 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[dk-ai-social-progress-not-automatic]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[concept-ai-amara-law-business-judgment]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
 ---
 
 # 李开复 80% 概率过滤器

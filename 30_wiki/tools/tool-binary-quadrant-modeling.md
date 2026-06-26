@@ -26,9 +26,9 @@ related:
   - '[[tool-essence-nfactor-modeling]]'
   - '[[tool-canvas-weapon-library-modeling]]'
   - '[[tool-radar-chart-modeling]]'
-- '[[modeling-weapon-library]]'
-- '[[modeling-three-stages]]'
-- '[[tool-radar-chart-modeling]]'
+  - '[[modeling-weapon-library]]'
+  - '[[modeling-three-stages]]'
+  - '[[tool-radar-chart-modeling]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'

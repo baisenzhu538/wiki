@@ -29,12 +29,12 @@ related:
   - '[[case-lean-adult-education]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-six-wastes]]"
 ---
 
 # 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证

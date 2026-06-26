@@ -20,11 +20,11 @@ related:
   - '[[tool-strategy-map]]'
   - '[[tool-strategy-business-summary]]'
   - '[[framework-strategy-business-design]]'
-- "[[framework-strategy-business-design]]"
-- "[[tool-strategy-customer-selection]]"
-- "[[tool-strategy-value-proposition]]"
-- "[[tool-strategy-activity-scope]]"
-- "[[case-strategy-snack-export-opportunity]]"
+  - "[[framework-strategy-business-design]]"
+  - "[[tool-strategy-customer-selection]]"
+  - "[[tool-strategy-value-proposition]]"
+  - "[[tool-strategy-activity-scope]]"
+  - "[[case-strategy-snack-export-opportunity]]"
 ---
 **案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 

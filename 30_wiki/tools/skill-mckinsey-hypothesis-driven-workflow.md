@@ -4,14 +4,14 @@
 id: skill-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
-source_refs: []
-Analysis.'''
-- 'Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill. Part II: ''The McKinsey
-  Problem-Solving Method.'''
+source_refs:
+  - Analysis.'''
+  - 'Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill. Part II: ''The McKinsey
+  - Problem-Solving Method.'''
 status: enriched
 domain:
   - learning-methodology- consulting
-- yitang
+  - yitang
 bridges_to:
 - target: skill-一堂-hypothesis-validation-three-axe
   relation: provides_foundation_for
@@ -34,11 +34,11 @@ related:
   - '[[system-yitang-research-workflow]]'
   - '[[concept-mckinsey-hypothesis-driven]]'
   - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 tags: []
 version: 1
 created_at: 2026-06-11

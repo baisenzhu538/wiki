@@ -19,11 +19,11 @@ related:
   - '[[tool-lean-leverage-competitor]]'
   - '[[tool-lean-leverage-tools]]'
   - '[[tool-lean-leverage-resources]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
 diagnostic_signals:
 - signal: 想验证一个 AI/智能服务，但算法或系统还没开发
   framework_lens: 一堂 FALSE 模型 A 阶段（人工服务）

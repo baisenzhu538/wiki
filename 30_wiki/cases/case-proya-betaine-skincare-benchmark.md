@@ -20,8 +20,8 @@ related:
   - '[[concept-一堂-key-assumptions]]'
   - '[[ocr-一堂五步法画布]]'
   - '[[tool-yitang-financial-report-intelligence]]'
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-yitang-comparable-company-selection]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-comparable-company-selection]]"
 ---
 
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解

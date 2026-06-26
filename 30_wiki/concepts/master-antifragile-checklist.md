@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-antifragile-checklist
 title: 反脆弱决策检查清单

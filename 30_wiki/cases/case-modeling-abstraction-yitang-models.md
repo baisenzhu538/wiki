@@ -37,11 +37,11 @@ related:
   - '[[modeling-capability-for-kdo]]'
   - '[[case-modeling-process-sop-evolution]]'
   - '[[modeling-weapon-library]]'
-- '[[case-yitang-model-asset-inventory]]'
-- '[[modeling-weapon-library]]'
-- '[[modeling-three-stages]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[case-yitang-radar-chart-selection]]'
+  - '[[case-yitang-model-asset-inventory]]'
+  - '[[modeling-weapon-library]]'
+  - '[[modeling-three-stages]]'
+  - '[[yt-model-five-step-canvas]]'
+  - '[[case-yitang-radar-chart-selection]]'
 diagnostic_signals:
 - signal: 团队在不同业务线各自沉淀了一堆"方法论"，但彼此不知道对方做过什么
   lens: 模型孤岛——组织内模型资产重复建设，缺少抽象归纳与共享机制

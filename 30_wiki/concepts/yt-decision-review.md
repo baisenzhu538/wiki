@@ -30,12 +30,12 @@ related:
   - '[[yt-model-deep-review-iceberg]]'
   - '[[yt-note-fact-pattern-insight]]'
   - '[[ocr-一堂深度复盘冰山图]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-personal-deep-review]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-benchmark]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-personal-deep-review]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-benchmark]]'
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched

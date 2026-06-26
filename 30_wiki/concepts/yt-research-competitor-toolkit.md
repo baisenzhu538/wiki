@@ -24,14 +24,14 @@ related:
   - '[[skill-复盘推演法]]'
   - '[[skill-辩证讨论法]]'
   - '[[skill-分享输出检验法]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-research-intelligence-map]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[yt-research-expert-interview]]'
-- '[[yt-research-industry-canvas]]'
-- '[[yt-research-user-jtbd]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-research-weaponry-course]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[yt-research-intelligence-map]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[yt-research-expert-interview]]'
+  - '[[yt-research-industry-canvas]]'
+  - '[[yt-research-user-jtbd]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-research-weaponry-course]]'
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

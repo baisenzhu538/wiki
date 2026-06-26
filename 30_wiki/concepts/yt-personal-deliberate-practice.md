@@ -1,5 +1,6 @@
 ---
-domain: - personal-growth
+domain:
+  - personal-growth
 
 
 

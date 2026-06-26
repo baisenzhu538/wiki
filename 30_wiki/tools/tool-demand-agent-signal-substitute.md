@@ -20,7 +20,7 @@ related:
   - '[[tool-demand-agent-case-match]]'
   - '[[tool-demand-four-forces]]'
   - '[[tool-demand-agent-auto-verify]]'
-- "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
 ---
 
 # Agent L5信号提取

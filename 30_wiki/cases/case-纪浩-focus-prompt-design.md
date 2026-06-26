@@ -38,12 +38,12 @@ created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
   - '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[case-truman-ai-partner]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[dk-ji-hao-ai-cant-design-structure]]'
-- '[[dk-ji-hao-pdca-starts-from-do]]'
-- '[[case-ji-hao-ui-design-constraint-evolution]]'
+  - '[[case-ji-hao-skills-market]]'
+  - '[[case-truman-ai-partner]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - '[[dk-ji-hao-pdca-starts-from-do]]'
+  - '[[case-ji-hao-ui-design-constraint-evolution]]'
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75

@@ -28,7 +28,7 @@ related:
   - '[[yt-personal-y-model-practice]]'
   - '[[yt-personal-thinking-models]]'
   - '[[yt-entrepreneur-research-cognition]]'
-- '[[master-first-principles]]'
+  - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6d771b2a-个人修身-y模型探索营2

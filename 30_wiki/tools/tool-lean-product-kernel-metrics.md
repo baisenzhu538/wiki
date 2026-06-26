@@ -22,12 +22,12 @@ related:
   - '[[tool-lean-leverage-competitor]]'
   - '[[ocr-一堂产品内核-十大典型指标]]'
   - '[[yt-product-kernel-cultivation]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 产品内核十大典型指标

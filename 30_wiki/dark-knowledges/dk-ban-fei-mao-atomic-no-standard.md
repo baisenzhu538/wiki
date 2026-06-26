@@ -19,9 +19,9 @@ related:
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

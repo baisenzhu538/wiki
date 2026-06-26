@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-b2b-gov-research]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-b2b-gov-research]]"
 ---
 
 # 招投标分析

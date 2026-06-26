@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-zhanglei-nursing-home-family]]'
   - '[[case-yitang-doorstep-nail-service-context]]'
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 案例：洗衣液市场调研——蹲超市+假扮促销员

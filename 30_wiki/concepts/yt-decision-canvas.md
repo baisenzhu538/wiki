@@ -30,14 +30,14 @@ related:
   - '[[yt-decision-height-toolkit]]'
   - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
   - '[[yt-decision-y-model]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[case-truman-poker-deck-roi]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-decision-ai-partner]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-tool-hiring-scorecard]]'
+  - '[[case-truman-poker-deck-roi]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas

@@ -19,10 +19,10 @@ related:
   - '[[yt-note-l4-internalization]]'
   - '[[yt-prompt-iterative-prompting]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-personal-ai-capability]]'
-- '[[yt-model-prompt-engineering]]'
-- '[[yt-personal-checklist-notes]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-personal-ai-capability]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-personal-checklist-notes]]'
 query_triggers:
 - 清单体
 - AI协议

@@ -72,13 +72,13 @@ related:
   - '[[yt-note-five-levels-training]]'
   - '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
   - '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-review]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-habit-shift]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-height-toolkit]]'
+  - '[[yt-decision-review]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-decision-habit-shift]]'
 author: 老顽童
 
 ---# 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

@@ -26,9 +26,9 @@ query_triggers:
 related:
   - '[[yt-model-conversion-optimization]]'
   - '[[case-truman-motivation-map-12-versions]]'
-- '[[yt-model-conversion-optimization]]'
-- '[[yt-panproduct-demand-motivation-resistance]]'
-- '[[yt-entrepreneur-needs-analysis]]'
+  - '[[yt-model-conversion-optimization]]'
+  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

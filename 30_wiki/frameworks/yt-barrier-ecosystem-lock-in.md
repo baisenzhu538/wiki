@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒

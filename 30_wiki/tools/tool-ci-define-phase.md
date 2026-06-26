@@ -20,8 +20,8 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[tool-candy-oral-polish]]'
   - '[[tool-indicators-signposts]]'
-- "[[framework-ci-operating-model]]"
-- "[[dk-yitang-research-question-quality]]"
+  - "[[framework-ci-operating-model]]"
+  - "[[dk-yitang-research-question-quality]]"
 ---
 
 # CI Define阶段：KITs和KIQs

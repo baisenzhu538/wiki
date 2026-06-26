@@ -20,8 +20,8 @@ related:
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 案例：餐饮连锁对标调研

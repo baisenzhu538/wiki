@@ -38,14 +38,14 @@ related:
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[dk-wanghuan-spec-trap]]'
-- '[[case-wanghuan-education-sales-capability-extraction]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-harness-seven-stages]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-spec-trap]]'
+  - '[[case-wanghuan-education-sales-capability-extraction]]'
 tags:
 - 王欢
 - 标准

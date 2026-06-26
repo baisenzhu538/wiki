@@ -25,12 +25,12 @@ related:
   - '[[case-lean-gray-test-paradigm]]'
   - '[[case-lean-combination-test-paradigm]]'
   - '[[case-lean-2b-gray-test]]'
-- "[[framework-lean-systematic-test-curve]]"
-- "[[case-lean-combination-test-paradigm]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[case-lean-combination-test-paradigm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
 ---
 
 # 案例：堕落小龙虾组合测试

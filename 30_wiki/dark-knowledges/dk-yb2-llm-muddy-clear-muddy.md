@@ -17,8 +17,8 @@ related:
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
   - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
   - '[[case-yitang-luckin-field-research]]'
-- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
-- '[[master-knowledge-compound]]'
+  - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+  - '[[master-knowledge-compound]]'
 pipeline:
 - confidence-source-cited
 author: 月白

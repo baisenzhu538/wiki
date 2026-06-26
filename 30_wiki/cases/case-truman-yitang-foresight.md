@@ -40,8 +40,8 @@ related:
   - '[[yt-foresight-probability-engineering]]'
   - '[[skill-一堂-business-prediction-15-char]]'
   - '[[yt-foresight-deliverables-four-levels]]'
-- "case-ether-online-acquisition"
-- "yt-management-founder-role"
+  - "case-ether-online-acquisition"
+  - "yt-management-founder-role"
 pipeline:
 - confidence-source-cited
 - confidence-verified-by-outcome

@@ -24,9 +24,9 @@ related:
   - '[[skill-马易-AI落地四阶段验证法]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[ai-landing-scene-selection]]'
-- '[[sk-ai-old-small-checklist]]'
-- '[[sk-ai-parallel-validation]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[sk-ai-old-small-checklist]]'
+  - '[[sk-ai-parallel-validation]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
 tags:
 - '#method/workflow'
 - '#domain/ai-saas'

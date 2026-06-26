@@ -31,13 +31,13 @@ related:
   - '[[tool-sop-template-modeling]]'
   - '[[case-modeling-process-sop-examples]]'
   - '[[case-zhangyang-anchor-sop-three-locks]]'
-- '[[process-modeling]]'
-- '[[tool-sop-template-modeling]]'
-- '[[case-modeling-process-livestream-prep]]'
-- '[[case-modeling-process-sop-examples]]'
-- '[[modeling-three-stages]]'
-- '[[dk-modeling-sop-execution-locks]]'
-- '[[modeling-level-map]]'
+  - '[[process-modeling]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-livestream-prep]]'
+  - '[[case-modeling-process-sop-examples]]'
+  - '[[modeling-three-stages]]'
+  - '[[dk-modeling-sop-execution-locks]]'
+  - '[[modeling-level-map]]'
 diagnostic_signals:
 - signal: "团队反复说'每次做这件事都踩同样的坑'"
   framework_lens: 流程建模 / SOP

@@ -15,7 +15,7 @@ trust_level: medium
 language: zh-CN
 domain:
   - research- yitang
-- research
+  - research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -37,16 +37,16 @@ related:
   - '[[tool-yitang-research-industry-scan]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[yt-research-industry-canvas]]"
-- "[[yt-research-intelligence-map]]"
-- "[[tool-yitang-database-index]]"
-- "[[tool-doris-industry-report-search-tips]]"
-- "[[tool-doris-industry-report-source-evaluation]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[case-doris-grab-industry-cognition]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[yt-research-industry-canvas]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[tool-yitang-database-index]]"
+  - "[[tool-doris-industry-report-search-tips]]"
+  - "[[tool-doris-industry-report-source-evaluation]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[case-doris-grab-industry-cognition]]"
 
 ---
 

@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-weapon-field-reconnaissance]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-supply-chain-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-supply-chain-research]]"
 ---
 
 # 武器库策略4：合作方调研

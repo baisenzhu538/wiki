@@ -7,8 +7,8 @@ created_at: 2026-05-24
 difficulty: intermediate
 domain:
   - yitang- entrepreneur
-- master
-- ai
+  - master
+  - ai
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -27,11 +27,11 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[master-systems-thinking]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-decision-ai-partner]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-dynamic]]'
+  - '[[master-systems-thinking]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-decision-ai-partner]]'
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md

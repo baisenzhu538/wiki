@@ -22,12 +22,12 @@ related:
   - '[[yt-tool-project-health-radar]]'
   - '[[yt-management-toolkit-overview]]'
   - '[[tool-strategy-12-word-test]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-scientific-meetings]]'
+  - '[[yt-management-project-management]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-concept-weapon-arsenal]]'
 contradicts: null
 query_triggers:
 - OKR 制定

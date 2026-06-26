@@ -23,11 +23,11 @@ related:
   - '[[tool-ai-cross-reading-method]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
   - '[[concept-ai-chair-determines-view]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 
 # AI 2041 批判性认知操作系统

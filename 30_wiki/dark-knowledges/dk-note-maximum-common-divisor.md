@@ -20,10 +20,10 @@ related:
   - '[[dk-note-surplus-brainpower]]'
   - '[[truman-ai-partner-design-analysis]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-ai-human-division]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

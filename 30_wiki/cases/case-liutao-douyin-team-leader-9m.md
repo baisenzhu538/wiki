@@ -20,9 +20,9 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-hardware-factory-photo]]'
   - '[[case-yitang-supplier-security-guard]]'
-- "[[framework-yitang-high-level-execution]]"
-- "[[dk-yitang-digging-belief]]"
-- "[[tool-yitang-job-intelligence-research]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[dk-yitang-digging-belief]]"
+  - "[[tool-yitang-job-intelligence-research]]"
 ---
 
 # 案例：从信息碎片拼出赛道真相

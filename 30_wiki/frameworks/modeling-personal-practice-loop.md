@@ -10,8 +10,8 @@ source_refs:
 status: enriched
 domain:
   - modeling- yitang
-- personal-growth
-- modeling
+  - personal-growth
+  - modeling
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -25,10 +25,10 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-personal-ipo-learning]]'
   - '[[case-zhangyang-anchor-sop-three-locks]]'
-- '[[modeling-level-map]]'
-- '[[modeling-three-values]]'
-- '[[modeling-scientific-milestones]]'
-- '[[tool-iterative-recursive-deep-dig]]'
+  - '[[modeling-level-map]]'
+  - '[[modeling-three-values]]'
+  - '[[modeling-scientific-milestones]]'
+  - '[[tool-iterative-recursive-deep-dig]]'
 tags:
 - '#method/modeling'
 - '#content-format/framework'

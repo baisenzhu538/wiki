@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-ai-research-prompt-craft]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-research-desperate-effort]]"
+  - "[[dk-yitang-research-desperate-effort]]"
 ---
 
 # 破案式深挖的信念

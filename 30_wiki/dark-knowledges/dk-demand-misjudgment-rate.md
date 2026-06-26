@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[tool-demand-assessment-triangle]]'
   - '[[case-demand-rural-5g]]'
-- "[[tool-demand-assessment-triangle]]"
+  - "[[tool-demand-assessment-triangle]]"
 ---
 
 # 30-50%创业失败源于需求误判

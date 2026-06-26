@@ -22,11 +22,11 @@ related:
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[framework-strategy-five-forces]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-business-design]]'
-- '[[framework-strategy-five-forces]]'
-- '[[framework-strategy-kai-innovation-directions]]'
-- '[[tool-strategy-customer-selection]]'
-- '[[tool-strategy-value-proposition]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[framework-strategy-five-forces]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[tool-strategy-customer-selection]]'
+  - '[[tool-strategy-value-proposition]]'
 ---
 
 # 蓝海战略画布（价值曲线工具）

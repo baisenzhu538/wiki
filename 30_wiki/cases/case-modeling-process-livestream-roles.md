@@ -33,11 +33,11 @@ related:
   - '[[case-truman-livestream-sop-iteration]]'
   - '[[case-livestream-sop-modeling]]'
   - '[[case-modeling-process-sop-evolution]]'
-- '[[process-modeling]]'
-- '[[tool-sop-template-modeling]]'
-- '[[case-modeling-process-livestream-prep]]'
-- '[[case-livestream-sop-modeling]]'
-- '[[dk-modeling-sop-execution-locks]]'
+  - '[[process-modeling]]'
+  - '[[tool-sop-template-modeling]]'
+  - '[[case-modeling-process-livestream-prep]]'
+  - '[[case-livestream-sop-modeling]]'
+  - '[[dk-modeling-sop-execution-locks]]'
 diagnostic_signals:
 - signal: 团队说"这件事大家一起注意"，但重复性任务仍频频出错
   framework_lens: 流程建模中的角色分工

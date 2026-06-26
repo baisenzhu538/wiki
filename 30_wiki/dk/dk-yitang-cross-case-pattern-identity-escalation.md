@@ -21,10 +21,10 @@ related:
   - '[[case-strategy-m-brand-profit-model]]'
   - '[[tool-yitang-wechat-group-infiltration]]'
   - '[[case-zhanglei-nursing-home-family]]'
-- "[[tool-yitang-social-engineering-research]]"
-- "[[case-liutao-douyin-team-leader-9m]]"
-- "[[case-yitang-elderly-home-roleplay]]"
-- "[[case-zhanglei-nursing-home-family]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[case-liutao-douyin-team-leader-9m]]"
+  - "[[case-yitang-elderly-home-roleplay]]"
+  - "[[case-zhanglei-nursing-home-family]]"
 ---
 
 # 跨案例模式：多重身份交叉验证

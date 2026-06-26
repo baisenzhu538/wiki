@@ -1,5 +1,6 @@
 ---
-domain: - modeling
+domain:
+  - modeling
 
 
 id: yt-model-management-map

@@ -21,11 +21,11 @@ related:
   - '[[鑫港湾]]'
   - '[[xingangwan-pharma-business-model-calc]]'
   - '[[parking-lot]]'
-- '[[xingangwan-pharma-business-formulas]]'
-- '[[xingangwan-pharma-business-model-calc]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[tool-funnel-formula-modeling]]'
-- '[[yt-unit-model-construction]]'
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[yt-unit-model-construction]]'
 source_refs:
 - "30_wiki/frameworks/xingangwan-pharma-business-formulas.md"
 - "30_wiki/frameworks/xingangwan-pharma-business-model-calc.md"

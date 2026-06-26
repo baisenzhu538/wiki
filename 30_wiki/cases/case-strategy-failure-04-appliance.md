@@ -19,7 +19,7 @@ related:
   - '[[case-strategy-failure-02-supermarket]]'
   - '[[case-strategy-failure-05-it]]'
   - '[[case-strategy-failure-09-boeing]]'
-- "[[tool-strategy-nine-problems]]"
+  - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：空调之外的新品类全部失败
 **战略根因**：路径错误——靠渠道优势推新品，但缺乏核心研发能力。渠道能卖空调，不代表能卖其他家电

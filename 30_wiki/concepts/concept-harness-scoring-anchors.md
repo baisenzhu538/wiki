@@ -19,8 +19,8 @@ related:
   - '[[tool-yitang-supplier-interview]]'
   - '[[concept-research-responsibility-boundary]]'
   - '[[concept-yitang-ideal-research-goal]]'
-- "[[framework-yitang-research-quality-gate]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
 ---
 
 # 评分锚定

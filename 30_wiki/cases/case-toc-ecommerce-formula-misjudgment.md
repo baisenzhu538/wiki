@@ -34,11 +34,11 @@ related:
   - '[[case-toc-content-platform-correlation-trap]]'
   - '[[yt-management-business-formula]]'
   - '[[case-private-domain-ecommerce-formula]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[yt-entrepreneur-unit-model]]'
 ---# ToC 消费品电商：业务公式拆解误判导致放量亏损
 
 > 一堂业务公式拆解培训的核心案例：一个创始人有 10 年经验的 ToC 消费品品牌，因为把「GMV = 流量 × 转化 × 客单价 × 复购」拆得太粗，误判核心矛盾，追加 200 万投放只增长 100 万营收，最终亏损。  

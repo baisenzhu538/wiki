@@ -24,9 +24,9 @@ updated_at: '2026-06-18'
 related:
   - '[[yt-three-dimension-opportunity-matrix]]'
   - '[[dk-pseudo-demand-trap]]'
-- '[[yt-three-dimension-opportunity-matrix]]'
-- '[[yt-ai-startup-20-risky-hypotheses]]'
-- '[[case-ai-time-management-tiered-growth]]'
+  - '[[yt-three-dimension-opportunity-matrix]]'
+  - '[[yt-ai-startup-20-risky-hypotheses]]'
+  - '[[case-ai-time-management-tiered-growth]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

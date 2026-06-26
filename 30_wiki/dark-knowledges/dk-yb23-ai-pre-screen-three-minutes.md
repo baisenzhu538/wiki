@@ -19,8 +19,8 @@ related:
   - '[[dk-yb27-pseudo-layer-evasion]]'
   - '[[dk-yb29-prompt-migrate-copy-first]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
-- '[[dk-yb31-style-first-controlnet]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb31-style-first-controlnet]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

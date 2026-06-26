@@ -21,8 +21,8 @@ related:
   - '[[concept-research-responsibility-boundary]]'
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[concept-ceo-must-do-user-research]]"
-- "[[concept-research-responsibility-boundary]]"
+  - "[[concept-ceo-must-do-user-research]]"
+  - "[[concept-research-responsibility-boundary]]"
 ---
 
 # 规模化中的调研委派

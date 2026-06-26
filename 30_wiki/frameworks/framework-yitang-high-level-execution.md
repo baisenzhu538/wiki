@@ -36,16 +36,16 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-validate-assumption]]'
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[framework-yitang-research-radar]]"
-- "[[yt-research-osl-framework]]"
-- "[[yt-research-intelligence-map]]"
-- "（tool-yitang-research-acquisition，待补）"
-- "（tool-yitang-research-reasoning，待补）"
-- "[[concept-yitang-research-facts-first]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-four-research-types]]"
+  - "[[framework-yitang-research-radar]]"
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-intelligence-map]]"
+  - "（tool-yitang-research-acquisition，待补）"
+  - "（tool-yitang-research-reasoning，待补）"
+  - "[[concept-yitang-research-facts-first]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
 ---
 
 # 高水平执行 AR：获取情报·正确归因

@@ -19,8 +19,8 @@ related:
   - '[[dk-yb4-nano-banana-style-reproduction]]'
   - '[[dk-yb9-cubox-deployment-failure]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb4-nano-banana-style-reproduction]]'
-- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+  - '[[dk-yb4-nano-banana-style-reproduction]]'
+  - '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 pipeline:
 - confidence-source-cited
 author: 月白

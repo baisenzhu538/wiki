@@ -24,9 +24,9 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
-- '[[dk-ban-fei-mao-silky-answer-warning]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
+  - '[[dk-ban-fei-mao-silky-answer-warning]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

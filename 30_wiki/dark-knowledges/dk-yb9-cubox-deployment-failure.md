@@ -21,9 +21,9 @@ related:
   - '[[dk-yb1-aigc-mvp-before-ps]]'
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb27-pseudo-layer-evasion]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
-- '[[dk-yb18-small-shop-image-mismatch]]'
+  - '[[dk-yb27-pseudo-layer-evasion]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:
 - confidence-source-cited
 author: 月白

@@ -17,7 +17,7 @@ related:
   - '[[dk-demand-pitfall-travel-agent]]'
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[dk-demand-pitfall-financial-literacy]]'
-- "[[case-demand-rural-5g]]"
+  - "[[case-demand-rural-5g]]"
 ---
 **坑**：5G是国家战略→偏远县域覆盖是巨大市场→实际需求极少。
 **真相**：政策推动≠用户需求。评估三角形是市场视角，不是政策视角。

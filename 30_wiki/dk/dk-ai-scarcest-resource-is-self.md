@@ -24,13 +24,13 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[tool-ai-cross-reading-method]]'
   - '[[dk-ai-social-progress-not-automatic]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[concept-ai-neutrality-bias]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-ai2041-source-verification-checklist]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[concept-ai-neutrality-bias]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
 ---
 
 # 最稀缺的是自我

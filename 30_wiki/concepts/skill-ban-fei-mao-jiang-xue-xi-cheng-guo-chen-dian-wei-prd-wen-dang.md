@@ -8,7 +8,7 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- ai-collaboration
-- learning
+  - learning
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -24,11 +24,11 @@ related:
   - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[skill-半肥猫-边学边练边沉淀的AI学习法]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[skill-半肥猫-课程Skill化的八步工作流]]'
-- '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-- '[[dk-ban-fei-mao-atomic-no-standard]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[skill-半肥猫-课程Skill化的八步工作流]]'
+  - '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[dk-ban-fei-mao-atomic-no-standard]]'
+  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

@@ -22,13 +22,13 @@ related:
   - '[[tool-lean-leverage-competitor]]'
   - '[[tool-lean-fake-product]]'
   - '[[tool-lean-human-replace-rnd]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-abcd-model]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 假营销：用故事验证兴趣

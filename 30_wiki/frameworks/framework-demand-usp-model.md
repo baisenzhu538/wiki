@@ -20,9 +20,9 @@ related:
   - '[[tool-prompt-usp-demand-analysis]]'
   - '[[case-demand-indonesia-insurance]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
 ---
 
 # USP需求洞察模型

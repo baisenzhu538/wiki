@@ -26,11 +26,11 @@ related:
   - '[[dk-research-decision-first-mapping]]'
   - '[[skill-research-triangulation-stop-rule]]'
   - '[[concept-yitang-research-objective]]'
-- "[[dk-research-decision-first-mapping]]"
-- "[[yitang-research-domain-digest]]"
-- "[[concept-一堂-hypothesis-driven-business-methodology]]"
-- "[[yt-lean-assumption-verification-3means]]"
-- "[[framework-yitang-high-level-execution]]"
+  - "[[dk-research-decision-first-mapping]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[yt-lean-assumption-verification-3means]]"
+  - "[[framework-yitang-high-level-execution]]"
 diagnostic_signals:
   - signal: "研究做了很久，但决策还是没变"
     framework_lens: 决策优先映射

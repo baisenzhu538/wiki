@@ -36,16 +36,16 @@ related:
   - '[[concept-yitang-research-scope]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-validate-assumption]]'
-- "[[framework-yitang-high-level-execution]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[framework-yitang-research-radar]]"
-- "[[yt-research-osl-framework]]"
-- "[[yt-research-intelligence-map]]"
-- "（tool-yitang-research-checklist，待补）"
-- "[[concept-yitang-research-scope]]"
-- "[[concept-yitang-research-objective]]"
-- "[[tool-yitang-research-competitive-quadrant]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[framework-yitang-four-research-types]]"
+  - "[[framework-yitang-research-radar]]"
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-intelligence-map]]"
+  - "（tool-yitang-research-checklist，待补）"
+  - "[[concept-yitang-research-scope]]"
+  - "[[concept-yitang-research-objective]]"
+  - "[[tool-yitang-research-competitive-quadrant]]"
+  - "[[tool-yitang-research-two-dimensional-positioning]]"
 ---
 
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单

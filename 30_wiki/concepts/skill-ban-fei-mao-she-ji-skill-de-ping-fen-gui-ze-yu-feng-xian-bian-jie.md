@@ -24,9 +24,9 @@ related:
   - '[[case-半肥猫-course-to-skill]]'
   - '[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - '[[dk-ban-fei-mao-skill-rejection-value]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

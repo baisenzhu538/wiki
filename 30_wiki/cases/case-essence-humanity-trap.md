@@ -32,9 +32,9 @@ related:
   - '[[dk-modeling-essence-predictive]]'
   - '[[case-essence-education-strategy]]'
   - '[[case-essence-entrepreneurship]]'
-- '[[case-essence-entrepreneurship]]'
-- '[[case-essence-education-strategy]]'
-- '[[dk-modeling-essence-predictive]]'
+  - '[[case-essence-entrepreneurship]]'
+  - '[[case-essence-education-strategy]]'
+  - '[[dk-modeling-essence-predictive]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

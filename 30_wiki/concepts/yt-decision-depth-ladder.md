@@ -37,13 +37,13 @@ related:
   - '[[ocr-一堂-科学决策-深度-l2部分定量]]'
   - '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
   - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-decision-abcd-model]]'
-- '[[case-truman-poker-deck-roi]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-height-toolkit]]'
+  - '[[yt-decision-ai-partner]]'
+  - '[[yt-decision-abcd-model]]'
+  - '[[case-truman-poker-deck-roi]]'
 query_triggers:
 - ROI深度
 - 停车场模型

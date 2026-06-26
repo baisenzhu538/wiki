@@ -34,16 +34,16 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-yitang-research-industry-scan]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-survivor-bias-in-research]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 最佳实践调研：找到行业标杆，复制成功因素

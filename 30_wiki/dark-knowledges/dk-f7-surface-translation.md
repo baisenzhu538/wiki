@@ -19,9 +19,9 @@ related:
   - '[[dk-f9-generic-critique]]'
   - '[[dk-jh-llm-time-blindness]]'
   - '[[dk-my-ai-landing-three-barriers]]'
-- '[[master-first-principles]]'
-- '[[dk-c8-format-complete-mind-empty]]'
-- '[[dk-f11-encyclopedia-style]]'
+  - '[[master-first-principles]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[dk-f11-encyclopedia-style]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

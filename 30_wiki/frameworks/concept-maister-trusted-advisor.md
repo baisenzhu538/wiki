@@ -6,10 +6,10 @@ type: framework
 status: enriched
 domain:
   - management- consulting
-- yitang
-source_refs: []
-Press.
-- Maister, D. H. (1997). 'True Professionalism'. Free Press.
+  - yitang
+source_refs:
+  - Press.
+  - Maister, D. H. (1997). 'True Professionalism'. Free Press.
 bridges_to:
 - target: diag_20250611_consulting-skills-research
   relation: provides_foundation_for

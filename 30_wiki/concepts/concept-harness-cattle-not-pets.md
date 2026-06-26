@@ -20,10 +20,10 @@ related:
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[concept-candy-ai-as-collaborator]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-multi-agent-research-architecture]]"
-- "[[concept-candy-ai-as-collaborator]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[concept-candy-ai-as-collaborator]]"
 ---
 
 # 牲口而非宠物

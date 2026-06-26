@@ -7,10 +7,10 @@ type: framework
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- business-strategy
-- product
-- unit-economics
+  - pharmaceutical-retail
+  - business-strategy
+  - product
+  - unit-economics
 created_at: '2026-06-19'
 updated_at: '2026-06-18'
 author: unknown
@@ -23,11 +23,11 @@ related:
   - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
   - '[[xingangwan-pharma-business-model-formulas]]'
   - '[[case-offline-catering-formula]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[xingangwan-pharma-business-model-calc]]'
-- '[[shanxi-field-research-checklist-20260701]]'
-- '[[tool-funnel-formula-modeling]]'
-- '[[yt-unit-model-construction]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[xingangwan-pharma-business-model-calc]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[tool-funnel-formula-modeling]]'
+  - '[[yt-unit-model-construction]]'
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:

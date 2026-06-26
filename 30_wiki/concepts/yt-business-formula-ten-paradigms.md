@@ -8,8 +8,8 @@ type: concept
 status: enriched
 domain:
   - yitang- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 source_refs:
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
@@ -31,13 +31,13 @@ related:
   - '[[case-saas-renewal-formula]]'
   - '[[yt-business-formula-abc-model]]'
   - '[[case-private-domain-ecommerce-formula]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-entrepreneur-unit-model]]'
-- '[[yt-growth-cycle-model]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-growth-cycle-model]]'
 
 ---# 一堂业务公式十大经典范式
 

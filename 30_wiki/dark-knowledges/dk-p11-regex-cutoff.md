@@ -19,9 +19,9 @@ related:
   - '[[dk-small-format-error-cascades-to-system-failure]]'
   - '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
   - '[[dk-p18-yaml-parser]]'
-- '[[master-first-principles]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[dk-f1-regex-on-cjk]]'
+  - '[[master-first-principles]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[dk-f1-regex-on-cjk]]'
 diagnostic_signals:
 - 非空 Draft 被 validate 报告为 "0 words" 或极低字数
 - word count 总是停在文章第一个 `###` 三级标题处

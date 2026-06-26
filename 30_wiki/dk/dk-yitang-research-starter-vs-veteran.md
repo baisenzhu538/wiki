@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-research-goal-before-efficiency]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[concept-yitang-research-mindset]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 新手重分析，老兵80%时间拿情报

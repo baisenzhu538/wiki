@@ -7,7 +7,7 @@ type: concept
 status: enriched
 domain:
   - learning-methodology- yitang
-- personal-growth
+  - personal-growth
 language: zh-CN
 version: 1
 confidence: 0.82
@@ -20,14 +20,14 @@ related:
   - '[[yt-note-extensive-research-input]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-live-field-skill]]'
-- '[[yt-note-l4-internalization]]'
-- '[[dk-truman-flag-note-taking]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[yt-research-expert-interview]]'
-- '[[yt-note-extensive-research-input]]'
-- '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-live-field-skill]]'
+  - '[[yt-note-l4-internalization]]'
+  - '[[dk-truman-flag-note-taking]]'
+  - '[[yt-tool-meeting-designer]]'
+  - '[[yt-research-expert-interview]]'
+  - '[[yt-note-extensive-research-input]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
 query_triggers:
 - 专家访谈怎么记笔记
 - 一边访谈一边建模

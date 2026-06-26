@@ -26,12 +26,12 @@ related:
   - '[[tool-lean-minimum-version]]'
   - '[[tool-lean-fake-product]]'
   - '[[tool-lean-minimum-test-volume]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 做预售：用真实订单验证付费意愿

@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒

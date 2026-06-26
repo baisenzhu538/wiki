@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式

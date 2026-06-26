@@ -35,11 +35,11 @@ related:
   - '[[tool-yitang-overseas-research]]'
   - '[[tool-yitang-consulting-business-research]]'
   - '[[tool-yitang-organization-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[yt-research-competitor-toolkit]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[yt-research-competitor-toolkit]]"
 ---
 
 # 门店加盟调研手段：浅中深三层10大评估法

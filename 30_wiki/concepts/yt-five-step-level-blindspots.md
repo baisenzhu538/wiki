@@ -54,15 +54,15 @@ related:
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[yt-demand-level-assessment]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- yt-five-step-method
-- yt-five-step-common-pitfalls
-- yt-research-mindset
-- yt-five-step-implementation
-- yt-unit-model-concept
-- yt-demand-analysis-hiking-map
-- yt-growth-cycle-model
-- yt-barrier-analysis-cheat-sheet
-- yt-business-analysis-cognitive-biases
+  - yt-five-step-method
+  - yt-five-step-common-pitfalls
+  - yt-research-mindset
+  - yt-five-step-implementation
+  - yt-unit-model-concept
+  - yt-demand-analysis-hiking-map
+  - yt-growth-cycle-model
+  - yt-barrier-analysis-cheat-sheet
+  - yt-business-analysis-cognitive-biases
 
 ---
 # 暗知识：五步法的段位盲区与自评陷阱

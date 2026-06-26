@@ -17,12 +17,12 @@ related:
   - '[[framework-wanghuan-ai-five-level-ladder]]'
   - '[[concept-wanghuan-ai-native-definition]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[master-knowledge-compound]]'
-- '[[master-systems-thinking]]'
-- '[[tool-泛产品落地-内核和边界]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[yt-note-ai-human-division]]'
-- '[[yt-research-osl-framework]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
+  - '[[tool-泛产品落地-内核和边界]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-research-osl-framework]]'
 source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

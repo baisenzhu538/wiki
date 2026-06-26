@@ -18,9 +18,9 @@ related:
   - '[[concept-最佳实践建模]]'
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 美好作品想象：先看到终局再倒推路径

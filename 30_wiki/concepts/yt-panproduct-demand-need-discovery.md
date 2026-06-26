@@ -29,8 +29,8 @@ related:
   - '[[tool-泛产品落地-设计原则]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
-- '[[yt-panproduct-demand-scenario-walkthrough]]'
-- '[[yt-panproduct-demand-user-perspective]]'
+  - '[[yt-panproduct-demand-scenario-walkthrough]]'
+  - '[[yt-panproduct-demand-user-perspective]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘

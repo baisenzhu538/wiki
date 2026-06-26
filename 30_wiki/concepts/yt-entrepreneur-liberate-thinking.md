@@ -27,7 +27,7 @@ related:
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-truth-seeking]]'
   - '[[yt-entrepreneur-growth-flywheel]]'
-- '[[master-first-principles]]'
+  - '[[master-first-principles]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-demand-travel-agent]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-rural-5g]]"
-- "[[tool-demand-assessment-triangle]]"
+  - "[[dk-demand-pitfall-rural-5g]]"
+  - "[[tool-demand-assessment-triangle]]"
 ---
 
 # 案例：偏远县域5G覆盖

@@ -19,22 +19,22 @@ related:
   - '[[dk-yitang-model-asset-capitalization]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
   - '[[dk-research-decision-first-mapping]]'
-- '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-research-triangulation-stop-rule]]'
-- '[[dk-research-decision-first-mapping]]'
-- '[[dk-yitang-model-asset-capitalization]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-job-intelligence-research]]"
-- "[[dk-yitang-research-cross-validation-cost]]"
-- "[[dk-research-triangulation-stop-rule]]"
-- "[[case-yitang-competitor-pricing-intelligence]]"
-- "[[case-yitang-elderly-home-roleplay]]"
-- "[[case-yitang-fake-interview-intelligence]]"
-- "[[case-yitang-supplier-security-guard]]"
-- "[[case-zhanglan-amusement-park-undercover]]"
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-research-decision-first-mapping]]'
+  - '[[dk-yitang-model-asset-capitalization]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - "[[yitang-research-domain-digest]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "[[dk-yitang-research-cross-validation-cost]]"
+  - "[[dk-research-triangulation-stop-rule]]"
+  - "[[case-yitang-competitor-pricing-intelligence]]"
+  - "[[case-yitang-elderly-home-roleplay]]"
+  - "[[case-yitang-fake-interview-intelligence]]"
+  - "[[case-yitang-supplier-security-guard]]"
+  - "[[case-zhanglan-amusement-park-undercover]]"
 ---
 
 # 为获取封闭情报设计合法身份

@@ -10,8 +10,8 @@ confidence: 0.9
 trust_level: high
 domain:
   - yitang- business-strategy
-- product
-- entrepreneur
+  - product
+  - entrepreneur
 source_refs:
 - src_20260614_8a0317f1-产品-市场分析讨论
 - src_20260614_16c4bf0d-双柚汁产品成本沟通
@@ -23,9 +23,9 @@ related:
   - '[[鑫港湾]]'
   - '[[smart-device-foodservice-automation]]'
   - '[[ai-complex-communication]]'
-- '[[yt-entrepreneur-channel-exploration]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[source-code-delivery-model]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[source-code-delivery-model]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
 ---
 
 # 案例：马术三层任务

@@ -17,10 +17,10 @@ related:
   - '[[dk-yb32-doubao-size-composition]]'
   - '[[ouyangfeng-labeling-research-review]]'
   - '[[data-labeling-best-practices-report]]'
-- '[[dk-p7-ocr-skip]]'
-- '[[dk-c1-cjk-regex-silent-fail]]'
-- '[[master-ai-info-literacy]]'
-- '[[master-first-principles]]'
+  - '[[dk-p7-ocr-skip]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -20,10 +20,10 @@ related:
   - '[[dk-pseudo-demand-trap]]'
   - '[[yt-business-model-pivot-signals]]'
   - '[[yt-foresight-addition-subtraction]]'
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[yt-ai-startup-20-risky-hypotheses]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-foresight-15-char-mantra]]'
+  - '[[yt-foresight-addition-subtraction]]'
+  - '[[yt-ai-startup-20-risky-hypotheses]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 query_triggers:
 - 十大硬伤
 - 硬伤清单

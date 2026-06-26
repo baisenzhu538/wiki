@@ -18,7 +18,7 @@ related:
   - '[[case-strategy-practice-11-third-place]]'
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-cool-boiled-water]]'
-- "[[framework-strategy-six-stages]]"
+  - "[[framework-strategy-six-stages]]"
 ---
 **挫败**：涨价→销售额暴跌
 **起死回生四连击**：换代言人（年轻化）+新媒体投放+品类拓展+区域扩张

@@ -1,5 +1,6 @@
 ---
-domain: - barrier
+domain:
+  - barrier
 
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动

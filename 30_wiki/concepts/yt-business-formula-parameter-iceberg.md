@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）

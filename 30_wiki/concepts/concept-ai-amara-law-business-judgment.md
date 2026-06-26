@@ -22,11 +22,11 @@ related:
   - '[[concept-ai-chair-determines-view]]'
   - '[[dk-ai-social-progress-not-automatic]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 
 # 阿马拉定律与商业判断校准

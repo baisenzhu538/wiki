@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-travel-receipt-analysis]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[dk-yitang-research-question-quality]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[dk-yitang-research-question-quality]]"
 ---
 
 # 案例：老年大学——用假设链验证赛道

@@ -22,8 +22,8 @@ related:
   - '[[modeling-level-map]]'
   - '[[concept-一堂-kernel-validation]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[concept-一堂-kernel-validation]]'
+  - '[[concept-一堂-product-kernel]]'
+  - '[[concept-一堂-kernel-validation]]'
 wiki_refs:
 - '[[concept-一堂-product-kernel]]'
 - '[[concept-一堂-kernel-validation]]'

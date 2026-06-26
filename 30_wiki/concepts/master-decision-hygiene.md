@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-decision-hygiene
 title: 决策卫生五步法

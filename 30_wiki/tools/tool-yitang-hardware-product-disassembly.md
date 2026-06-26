@@ -20,9 +20,9 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-weapon-industry-expert]]'
-- "[[tool-yitang-weapon-product-reverse]]"
-- "[[tool-yitang-consumer-goods-research]]"
-- "[[tool-yitang-tech-project-research]]"
+  - "[[tool-yitang-weapon-product-reverse]]"
+  - "[[tool-yitang-consumer-goods-research]]"
+  - "[[tool-yitang-tech-project-research]]"
 ---
 
 # 硬件产品拆解调研

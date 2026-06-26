@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-weapon-insider-intelligence]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-employee-directory]]'
-- "[[tool-yitang-weapon-former-employee-network]]"
+  - "[[tool-yitang-weapon-former-employee-network]]"
 ---
 
 # 人脉库检索

@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-competitor-pricing-intelligence]]'
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-supplier-security-guard]]'
-- "[[tool-yitang-supply-chain-research]]"
-- "[[dk-yitang-digging-belief]]"
+  - "[[tool-yitang-supply-chain-research]]"
+  - "[[dk-yitang-digging-belief]]"
 ---
 
 # 案例：从朋友圈照片找到代工厂

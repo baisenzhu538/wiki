@@ -34,16 +34,16 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-yitang-research-validate-assumption]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-company-disassembly]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[yt-research-industry-canvas]]"
-- "[[framework-doris-industry-report-4step]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-company-disassembly]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[yt-research-industry-canvas]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 行业扫描：快速建立行业全貌认知

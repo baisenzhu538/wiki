@@ -19,15 +19,15 @@ related:
   - '[[dk-yitang-behavior-over-asking]]'
   - '[[dk-research-decision-first-mapping]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
-- "[[strategy-domain-digest]]"
-- "[[framework-strategy-six-stages]]"
-- "[[framework-strategy-brm]]"
-- "[[case-strategy-failure-02-supermarket]]"
-- "[[case-lean-premature-expansion]]"
-- "[[case-strategy-practice-12-zero-loss]]"
-- "[[case-strategy-shell-oil]]"
-- "[[case-strategy-wuxi-suntech]]"
-- "[[case-strategy-revival-13-bestore]]"
+  - "[[strategy-domain-digest]]"
+  - "[[framework-strategy-six-stages]]"
+  - "[[framework-strategy-brm]]"
+  - "[[case-strategy-failure-02-supermarket]]"
+  - "[[case-lean-premature-expansion]]"
+  - "[[case-strategy-practice-12-zero-loss]]"
+  - "[[case-strategy-shell-oil]]"
+  - "[[case-strategy-wuxi-suntech]]"
+  - "[[case-strategy-revival-13-bestore]]"
 ---
 
 # 战略阶段与杠杆错配

@@ -6,8 +6,8 @@ title: 基本功认知
 type: concept
 domain:
   - management- ai-saas
-- management
-- yitang
+  - management
+  - yitang
 status: enriched
 pipeline:
 - confidence-source-cited
@@ -43,9 +43,9 @@ related:
   - '[[yt-management-scientific-decision]]'
   - '[[yt-personal-time-management]]'
   - '[[yt-management-business-formula]]'
-- "yt-management-founder-role"
-- "yt-management-scientific-meetings"
-- "yt-management-business-formula"
+  - "yt-management-founder-role"
+  - "yt-management-scientific-meetings"
+  - "yt-management-business-formula"
 
 ---
 # 基本功认知

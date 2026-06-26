@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 
 
@@ -49,10 +50,10 @@ related:
   - '[[yt-unit-model-three-tools]]'
   - '[[yt-product-kernel-cultivation]]'
   - '[[five-step-domain-digest]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-assessment-triangle]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-iceberg-l1-user]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-demand-assessment-triangle]]"
 
 ---# 需求分析爬山地图
 

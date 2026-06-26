@@ -19,11 +19,11 @@ related:
   - '[[dk-p3-auth-cache]]'
   - '[[dk-p1-model-switch-env]]'
   - '[[kdo-input-channel-strategy-2026-06-16]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
-- '[[dk-p1-model-switch-env]]'
-- '[[dk-p2-tmux-cache]]'
-- '[[dk-p6-session-resume-fail]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-first-principles]]'
+  - '[[dk-p1-model-switch-env]]'
+  - '[[dk-p2-tmux-cache]]'
+  - '[[dk-p6-session-resume-fail]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

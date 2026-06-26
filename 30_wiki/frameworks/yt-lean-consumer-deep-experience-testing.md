@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 created_at: '2026-06-16'
@@ -24,13 +24,13 @@ related:
   - '[[yt-lean-qualitative-quantitative-research]]'
   - '[[yt-lean-daily-probability-decision]]'
   - '[[yt-lean-essence]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-lean-false-model-ai]]'
-- '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-lean-false-model-ai]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

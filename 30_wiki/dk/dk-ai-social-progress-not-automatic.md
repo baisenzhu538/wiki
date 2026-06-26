@@ -24,15 +24,15 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[tool-ai-cross-reading-method]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[concept-ai-neutrality-bias]]"
-- "[[tool-ai2041-source-verification-checklist]]"
-- "[[dk-ai-scarcest-resource-is-self]]"
-- "[[dk-ai-prediction-expiry-date]]"
-- "[[case-ai-job-displacement-wef]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[concept-ai-neutrality-bias]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[dk-ai-scarcest-resource-is-self]]"
+  - "[[dk-ai-prediction-expiry-date]]"
+  - "[[case-ai-job-displacement-wef]]"
 ---
 
 # 社会进步不是自动的

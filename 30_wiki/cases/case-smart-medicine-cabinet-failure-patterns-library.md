@@ -28,11 +28,11 @@ related:
   - '[[smart-medicine-cabinet-regional-policy-map]]'
   - '[[concept-smart-medicine-cabinet-international-models]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[tool-泛产品落地-ROI分析]]'
-- '[[yt-barrier-identification-skill]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-antifragile-checklist]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[tool-泛产品落地-ROI分析]]'
+  - '[[yt-barrier-identification-skill]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-antifragile-checklist]]'
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:

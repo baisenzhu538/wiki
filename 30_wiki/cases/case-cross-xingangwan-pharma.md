@@ -30,14 +30,14 @@ related:
   - '[[dk-yitang-business-model-risk-over-product-risk]]'
   - '[[case-lean-genki-forest-toolkit]]'
   - '[[case-cross-yuanqi-forest]]'
-- "[[framework-strategy-lean-validation]]"
-- "[[framework-five-step-lean-interface]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-strategy-brm]]"
-- "[[yt-decision-y-model]]"
-- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
-- "[[case-smart-medicine-cabinet-business-model-validation]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[framework-five-step-lean-interface]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-strategy-brm]]"
+  - "[[yt-decision-y-model]]"
+  - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+  - "[[case-smart-medicine-cabinet-business-model-validation]]"
 ---
 
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证

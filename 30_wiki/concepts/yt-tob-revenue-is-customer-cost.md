@@ -7,9 +7,9 @@ type: concept
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -31,16 +31,16 @@ related:
   - '[[yt-tob-demand-metrics]]'
   - '[[yt-tob-sales-unit-model]]'
   - '[[yt-tob-solution-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-tob-demand-metrics]]'
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-customer-tiering]]'
-- '[[case-yitang-tob-career-planning]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[case-yitang-tob-career-planning]]'
 diagnostic_signals:
 - signal: 团队描述需求时只用"客户需要XX功能/服务"，从不量化客户为此付出的成本
   framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨

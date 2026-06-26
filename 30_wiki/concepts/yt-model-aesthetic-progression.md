@@ -23,10 +23,10 @@ related:
   - '[[ocr-泛产品设计-审美工具箱指南]]'
   - '[[ocr-审美提升的层级]]'
   - '[[yt-composite-pan-product-methodology]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-pan-product-three-virtues]]'
-- '[[yt-model-product-excellence]]'
-- '[[yt-personal-pan-product-aesthetics]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - '[[yt-model-pan-product-three-virtues]]'
+  - '[[yt-model-product-excellence]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_7d2a79f8-ocr-审美提升的层级

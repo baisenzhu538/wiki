@@ -30,14 +30,14 @@ related:
   - '[[yt-tob-revenue-is-customer-cost]]'
   - '[[yt-tob-sales-unit-model]]'
   - '[[yt-tob-unit-model]]'
-- '[[yt-tob-demand-metrics]]'
-- '[[yt-tob-customer-sabc]]'
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-barriers]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[case-yitang-tob-artificial-bone]]'
-- '[[yt-tob-cash-flow]]'
+  - '[[yt-tob-demand-metrics]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-barriers]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[yt-tob-cash-flow]]'
 diagnostic_signals:
 - signal: 项目初期设定“每年 5-15 台、1200 万欧元收入、10% 净利润”的宏大目标。
   framework_lens: 需求测算与天花板

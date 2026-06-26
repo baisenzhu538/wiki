@@ -9,8 +9,8 @@ source_refs:
 status: enriched
 domain:
   - modeling- yitang
-- modeling
-- research
+  - modeling
+  - research
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -24,10 +24,10 @@ related:
   - '[[case-course-milestone-model]]'
   - '[[dk-modeling-expert-consensus-five-percent]]'
   - '[[case-essence-entrepreneurship]]'
-- '[[modeling-three-stages]]'
-- '[[dk-modeling-counterexample-driven]]'
-- '[[dk-modeling-expert-consensus-five-percent]]'
-- '[[tool-ai-skill-engineering-method]]'
+  - '[[modeling-three-stages]]'
+  - '[[dk-modeling-counterexample-driven]]'
+  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - '[[tool-ai-skill-engineering-method]]'
 tags:
 - '#method/modeling'
 - '#content-format/framework'

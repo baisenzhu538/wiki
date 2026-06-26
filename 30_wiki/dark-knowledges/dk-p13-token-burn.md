@@ -19,8 +19,8 @@ related:
   - '[[framework-wanghuan-harness-seven-stages]]'
   - '[[dk-p8-toolkit-forget]]'
   - '[[dk-f12-builder-context-deadlock]]'
-- '[[master-systems-thinking]]'
-- '[[master-decision-hygiene]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

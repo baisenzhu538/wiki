@@ -23,16 +23,16 @@ related:
   - '[[case-lean-genki-forest-toolkit]]'
   - '[[case-ai-companion-emotional]]'
   - '[[dk-ai-prediction-expiry-date]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[tool-tech-probability-80-filter]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[tool-tech-probability-80-filter]]"
 ---
 
 # 荷兰育儿补贴算法丑闻

@@ -26,14 +26,14 @@ related:
   - '[[case-lean-zhanglei-failure-counterfactual]]'
   - '[[case-lean-zhanglei-hypothesis-validation]]'
   - '[[case-lean-adult-education]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[case-lean-zhanglei-hypothesis-validation]]"
-- "[[case-lean-zhanglei-failure-counterfactual]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[case-lean-zhanglei-hypothesis-validation]]"
+  - "[[case-lean-zhanglei-failure-counterfactual]]"
 ---
 
 # 张磊 AMA：创业者 pivot 决策案例

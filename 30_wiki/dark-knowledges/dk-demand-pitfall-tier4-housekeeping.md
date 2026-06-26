@@ -17,7 +17,7 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[dk-demand-pitfall-travel-agent]]'
   - '[[dk-demand-pitfall-financial-literacy]]'
-- "[[case-demand-tier4-housekeeping]]"
+  - "[[case-demand-tier4-housekeeping]]"
 ---
 **坑**：需求旺盛→市场空白→实际单价起不来，天花板很低。
 **真相**：评估三角形的刚性维度必须细化到"愿意付多少钱"。四线城市"愿意付"的上限可能是20元/小时。

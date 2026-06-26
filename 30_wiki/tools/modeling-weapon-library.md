@@ -1,5 +1,6 @@
 ---
-domain: - modeling
+domain:
+  - modeling
 
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型

@@ -20,8 +20,8 @@ related:
   - '[[dk-f7-surface-translation]]'
   - '[[three-party-data-alignment]]'
   - '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[labeling-final-consolidation]]'
-- '[[plan_20260531_data-curator-v1.3]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6

@@ -7,9 +7,9 @@ type: framework
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- business-strategy
-- finance
+  - pharmaceutical-retail
+  - business-strategy
+  - finance
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown
@@ -23,11 +23,11 @@ related:
   - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
   - '[[xingangwan-pharma-business-model-formulas]]'
   - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
-- '[[xingangwan-pharma-business-formulas]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[shanxi-field-research-checklist-20260701]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-benchmark]]'
+  - '[[xingangwan-pharma-business-formulas]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-benchmark]]'
 source_refs:
 - "10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
 - "10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md"

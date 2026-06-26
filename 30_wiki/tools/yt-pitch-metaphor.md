@@ -9,7 +9,7 @@ source_refs:
 status: enriched
 domain:
   - content-production- personal
-- yitang
+  - yitang
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -24,8 +24,8 @@ related:
   - '[[yt-tool-project-health-radar]]'
   - '[[yt-pitch-quantification]]'
   - '[[system-yitang-research-workflow]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
 contradicts: null
 query_triggers:
 - 比喻化

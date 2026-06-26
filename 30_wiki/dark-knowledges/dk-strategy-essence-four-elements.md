@@ -17,7 +17,7 @@ related:
   - '[[dk-demand-pitfall-dialer]]'
   - '[[case-strategy-practice-10-turnaround]]'
   - '[[dk-demand-pitfall-travel-agent]]'
-- "[[tool-strategy-12-word-test]]"
+  - "[[tool-strategy-12-word-test]]"
 ---
 **四要素检测**：
 1. **细分市场**明确了吗？不是"中国市场"，是具体的谁

@@ -1,5 +1,6 @@
 ---
-domain: - design
+domain:
+  - design
 
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话

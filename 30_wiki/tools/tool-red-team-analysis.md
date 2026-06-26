@@ -20,9 +20,9 @@ related:
   - '[[tool-candy-oral-polish]]'
   - '[[framework-structured-analytic-techniques]]'
   - '[[tool-devils-advocacy]]'
-- "[[framework-structured-analytic-techniques]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[tool-harness-adversarial-tester]]"
+  - "[[framework-structured-analytic-techniques]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-harness-adversarial-tester]]"
 ---
 
 # Red Team Analysis

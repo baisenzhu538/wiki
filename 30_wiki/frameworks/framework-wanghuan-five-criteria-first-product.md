@@ -17,8 +17,8 @@ source_refs:
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 diagnostic_signals:
@@ -40,12 +40,12 @@ related:
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[concept-wanghuan-flywheel-first-loop]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[concept-wanghuan-flywheel-first-loop]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[case-wanghuan-education-sales-capability-extraction]]'
+  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[concept-wanghuan-flywheel-first-loop]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[case-wanghuan-education-sales-capability-extraction]]'
 tags:
 - 王欢
 - 选场景

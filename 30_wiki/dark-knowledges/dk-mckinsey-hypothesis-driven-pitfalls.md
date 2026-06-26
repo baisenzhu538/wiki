@@ -19,11 +19,11 @@ related:
   - '[[case-milktea-five-step]]'
   - '[[skill-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[skill-mckinsey-hypothesis-driven-workflow]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[skill-mckinsey-hypothesis-driven-workflow]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
 tags: []
 version: 1
 created_at: 2026-06-11

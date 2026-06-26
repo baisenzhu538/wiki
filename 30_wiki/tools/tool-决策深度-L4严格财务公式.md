@@ -18,10 +18,10 @@ related:
   - '[[tool-科学决策关键训练清单]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[tool-决策深度-L3定量公式]]"
-- "[[tool-完整财务公式决策]]"
-- "[[framework-科学决策三角形]]"
-- "[[yt-tool-unit-model-benchmark]]"
+  - "[[tool-决策深度-L3定量公式]]"
+  - "[[tool-完整财务公式决策]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[yt-tool-unit-model-benchmark]]"
 ---
 
 # 决策深度L4：严格财务公式

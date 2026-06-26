@@ -20,8 +20,8 @@ related:
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-doris-catering-chain-benchmark]]'
-- "[[framework-doris-industry-report-4step]]"
-- "[[tool-yitang-overseas-research]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[tool-yitang-overseas-research]]"
 ---
 
 # 案例：美容仪出海市场判断

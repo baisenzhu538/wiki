@@ -35,10 +35,10 @@ related:
   - '[[tool-yitang-store-franchise-research]]'
   - '[[tool-yitang-organization-research]]'
   - '[[tool-yitang-b2b-gov-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-job-intelligence-research]]"
-- "（tool-yitang-expert-interview-10steps，待补）"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "（tool-yitang-expert-interview-10steps，待补）"
 ---
 
 # 咨询类业务调研手段：浅中深三层10大评估法

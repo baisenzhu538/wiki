@@ -33,10 +33,10 @@ related:
   - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
   - '[[tool-yitang-comparable-company-selection]]'
   - '[[tool-yitang-weapon-former-employee-network]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-consumer-goods-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-consumer-goods-research]]"
 ---
 
 # 供应链/合作方情报：从合作方口中拿到竞对的水下数据

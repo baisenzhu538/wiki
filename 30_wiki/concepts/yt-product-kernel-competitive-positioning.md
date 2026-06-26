@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略

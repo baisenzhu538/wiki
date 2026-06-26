@@ -32,16 +32,16 @@ related:
   - '[[tool-yitang-research-company-disassembly]]'
   - '[[tool-yitang-research-intelligence-map-in-hand]]'
   - '[[tool-yitang-research-continuous-tracking]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-company-disassembly]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-company-disassembly]]"
+  - "[[tool-yitang-research-industry-scan]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 竞对跟踪：持续监控竞争对手的动态与策略

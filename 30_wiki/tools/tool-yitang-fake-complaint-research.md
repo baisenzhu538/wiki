@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-anonymous-identity]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-weapon-anonymous-identity]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 假装客户投诉

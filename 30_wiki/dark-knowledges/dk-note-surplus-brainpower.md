@@ -21,10 +21,10 @@ related:
   - '[[yt-note-live-field-skill]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
   - '[[dk-truman-flag-note-taking]]'
-- '[[yt-note-five-levels-training]]'
-- '[[dk-note-maximum-common-divisor]]'
-- '[[dk-note-rookie-disaster-veteran-heaven]]'
-- '[[yt-note-live-field-skill]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-maximum-common-divisor]]'
+  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - '[[yt-note-live-field-skill]]'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

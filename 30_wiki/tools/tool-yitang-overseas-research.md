@@ -35,10 +35,10 @@ related:
   - '[[tool-yitang-consulting-business-research]]'
   - '[[tool-yitang-organization-research]]'
   - '[[tool-yitang-b2b-gov-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-store-franchise-research]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[yt-research-industry-canvas]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-store-franchise-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[yt-research-industry-canvas]]"
 ---
 
 # 出海调研手段：浅中深三层10大评估法

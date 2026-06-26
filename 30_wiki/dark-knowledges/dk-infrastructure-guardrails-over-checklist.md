@@ -18,11 +18,11 @@ related:
   - '[[dk-p16-validate-reads-state-json]]'
   - '[[dk-c10-batch-tool-no-dry-run]]'
   - '[[dk-tool-as-answer-trap]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[dk-c11-hongqigong-skip-review]]'
-- '[[dk-p16-validate-reads-state-json]]'
-- '[[dk-p8-toolkit-forget]]'
-- '[[dk-tool-as-phased-validator]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-c11-hongqigong-skip-review]]'
+  - '[[dk-p16-validate-reads-state-json]]'
+  - '[[dk-p8-toolkit-forget]]'
+  - '[[dk-tool-as-phased-validator]]'
 bridges_to:
 - dk-c10-batch-tool-no-dry-run
 - dk-c11-hongqigong-skip-review

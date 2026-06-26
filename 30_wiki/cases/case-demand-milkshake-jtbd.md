@@ -20,7 +20,7 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-popmart-prospectus-pricing]]'
-- "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-demand-iceberg-l3-core-job]]"
 ---
 
 # 案例：奶昔JTBD

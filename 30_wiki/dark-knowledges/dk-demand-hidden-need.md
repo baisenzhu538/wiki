@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-demand-feature-stacking]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[tool-demand-iceberg-l5-forces]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
 ---
 
 # 隐性需求伪装

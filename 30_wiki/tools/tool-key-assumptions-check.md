@@ -20,9 +20,9 @@ related:
   - '[[tool-candy-oral-polish]]'
   - '[[tool-indicators-signposts]]'
   - '[[tool-devils-advocacy]]'
-- "[[framework-structured-analytic-techniques]]"
-- "[[tool-yitang-research-validate-assumption]]"
-- "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-structured-analytic-techniques]]"
+  - "[[tool-yitang-research-validate-assumption]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
 ---
 
 # Key Assumptions Check

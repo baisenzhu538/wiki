@@ -23,8 +23,8 @@ related:
   - '[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
   - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
   - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[dk-ban-fei-mao-atomic-no-standard]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[dk-ban-fei-mao-atomic-no-standard]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

@@ -7,9 +7,9 @@ type: tool
 status: enriched
 domain:
   - research- healthcare
-- compliance
-- business-strategy
-- field-research
+  - compliance
+  - business-strategy
+  - field-research
 created_at: '2026-06-18'
 updated_at: '2026-06-18'
 author: unknown
@@ -22,8 +22,8 @@ related:
   - '[[xingangwan-pharma-business-model-calc]]'
   - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
   - '[[xingangwan-pharma-business-model-formulas]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[parking-lot]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[parking-lot]]'
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-18'

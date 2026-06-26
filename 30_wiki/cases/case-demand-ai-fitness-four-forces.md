@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[tool-demand-four-forces]]'
   - '[[case-popmart-prospectus-pricing]]'
-- "[[tool-demand-four-forces]]"
+  - "[[tool-demand-four-forces]]"
 ---
 
 # 案例：AI健身四力分析

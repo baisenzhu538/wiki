@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-xiaohongshu-data]]'
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-court-record-search]]'
-- "[[tool-yitang-weapon-third-party-database]]"
-- "[[tool-yitang-overseas-research]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
+  - "[[tool-yitang-overseas-research]]"
 ---
 
 # 亚马逊榜单

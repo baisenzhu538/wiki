@@ -30,12 +30,12 @@ related:
   - '[[yt-model-pan-product-execution-toolkit]]'
   - '[[yt-composite-pan-product-methodology]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-- '[[yt-model-cognitive-upgrade-framework]]'
-- '[[yt-model-deliberate-practice-growth]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[yt-concept-peas-insight]]'
-- '[[master-first-principles]]'
-- '[[yt-decision-habit-shift]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
+  - '[[yt-model-deliberate-practice-growth]]'
+  - '[[yt-composite-pan-product-methodology]]'
+  - '[[yt-concept-peas-insight]]'
+  - '[[master-first-principles]]'
+  - '[[yt-decision-habit-shift]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

@@ -34,16 +34,16 @@ related:
   - '[[case-five-step-growth-first-lever]]'
   - '[[yt-business-model-definition]]'
   - '[[yt-growth-channel-roi]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-company-disassembly]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "（dk-yitang-research-cost-match，待补）"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-company-disassembly]]"
+  - "[[tool-yitang-research-industry-scan]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "（dk-yitang-research-cost-match，待补）"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 单元模型：找到业务最小单元的经济密码

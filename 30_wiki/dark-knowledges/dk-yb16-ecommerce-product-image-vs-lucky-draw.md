@@ -19,8 +19,8 @@ related:
   - '[[dk-yb27-pseudo-layer-evasion]]'
   - '[[dk-yb9-cubox-deployment-failure]]'
   - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-- '[[dk-yb26-chinese-food-photography-props]]'
-- '[[dk-yb18-small-shop-image-mismatch]]'
+  - '[[dk-yb26-chinese-food-photography-props]]'
+  - '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

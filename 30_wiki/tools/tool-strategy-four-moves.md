@@ -17,8 +17,8 @@ related:
   - '[[framework-multi-agent-research-architecture]]'
   - '[[tool-strategy-four-layers]]'
   - '[[tool-strategy-three-horizons]]'
-- "[[framework-strategy-six-stages]]"
-- "[[tool-strategy-nine-problems]]"
+  - "[[framework-strategy-six-stages]]"
+  - "[[tool-strategy-nine-problems]]"
 ---
 ## 四招
 

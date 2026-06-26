@@ -19,8 +19,8 @@ related:
   - '[[ouyangfeng-labeling-research-review]]'
   - '[[label-accuracy-standard-alignment]]'
   - '[[data-labeling-best-practices-report]]'
-- '[[data-labeling-best-practices-report]]'
-- '[[kdo-15-dimension-label-spec]]'
+  - '[[data-labeling-best-practices-report]]'
+  - '[[kdo-15-dimension-label-spec]]'
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）

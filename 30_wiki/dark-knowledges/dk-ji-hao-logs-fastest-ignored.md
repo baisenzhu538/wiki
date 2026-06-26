@@ -18,8 +18,8 @@ related:
   - '[[dk-ji-hao-pdca-starts-from-do]]'
   - '[[dk-ji-hao-constraint-beats-talent]]'
   - '[[dk-ji-hao-newbie-can-validate]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[skill-纪浩-日志驱动排查法]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[skill-纪浩-日志驱动排查法]]'
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:

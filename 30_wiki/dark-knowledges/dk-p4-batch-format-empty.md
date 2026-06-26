@@ -19,10 +19,10 @@ related:
   - '[[kdo_product_design_agent_final]]'
   - '[[dk-f9-generic-critique]]'
   - '[[ouyangfeng-data-alignment-response]]'
-- '[[master-knowledge-compound]]'
-- '[[kdo-flywheel]]'
-- '[[master-ai-info-literacy]]'
-- '[[dk-c8-format-complete-mind-empty]]'
+  - '[[master-knowledge-compound]]'
+  - '[[kdo-flywheel]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

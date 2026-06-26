@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 
 
@@ -29,10 +30,10 @@ related:
   - '[[yt-demand-quantitative-estimation]]'
   - '[[yt-demand-market-size-pitfalls]]'
   - '[[tool-demand-report-template]]'
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-assessment-triangle]]"
-- "[[framework-demand-opportunity-spectrum]]"
-- "[[framework-strategy-brm]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[tool-demand-assessment-triangle]]"
+  - "[[framework-demand-opportunity-spectrum]]"
+  - "[[framework-strategy-brm]]"
 title: "市场规模估算四种方法"
 trust_level: medium
 type: tool

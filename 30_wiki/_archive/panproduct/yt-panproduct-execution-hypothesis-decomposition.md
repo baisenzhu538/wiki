@@ -31,11 +31,11 @@ related:
   - '[[tool-泛产品落地-业务建模]]'
   - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-十倍速验证]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[tool-泛产品落地-十倍速验证]]'
+  - '[[tool-泛产品落地-低成本测试MVP]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-research-hypothesis-test]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解

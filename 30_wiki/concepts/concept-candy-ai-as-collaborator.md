@@ -20,9 +20,9 @@ related:
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[concept-harness-cattle-not-pets]]'
   - '[[tool-yitang-weapon-former-employee-network]]'
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[concept-harness-cattle-not-pets]]"
-- "[[framework-candy-transcript-workflow]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[concept-harness-cattle-not-pets]]"
+  - "[[framework-candy-transcript-workflow]]"
 ---
 
 # AI是协作者而非代写工具

@@ -18,7 +18,7 @@ related:
   - '[[tool-agent-crawl4ai]]'
   - '[[tool-agent-research-swarm]]'
   - '[[framework-multi-agent-research-architecture]]'
-- "[[framework-multi-agent-research-architecture]]"
+  - "[[framework-multi-agent-research-architecture]]"
 ---
 
 # Supervisor模式

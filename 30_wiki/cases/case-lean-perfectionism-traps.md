@@ -26,16 +26,16 @@ related:
   - '[[case-lean-premature-refinement]]'
   - '[[case-lean-adult-education]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[framework-lean-four-principles]]"
-- "[[framework-lean-abcd-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[tool-lean-ai-accelerated-validation]]"
-- "[[case-demand-indonesia-insurance]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-four-principles]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[tool-lean-ai-accelerated-validation]]"
+  - "[[case-demand-indonesia-insurance]]"
 ---
 
 # 完美心态踩坑案例集

@@ -8,9 +8,9 @@ type: concept
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- o2o
-- financial-model
+  - pharmaceutical-retail
+  - o2o
+  - financial-model
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -30,10 +30,10 @@ related:
   - '[[smart-medicine-cabinet-clinic-risk-observation]]'
   - '[[七件事集团]]'
   - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-- '[[master-antifragile-checklist]]'
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[smart-medicine-cabinet-financial-model]]'
-- '[[yt-unit-model-three-tools]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[smart-medicine-cabinet-distribution]]'
+  - '[[smart-medicine-cabinet-financial-model]]'
+  - '[[yt-unit-model-three-tools]]'
 query_triggers:
 - 医药 O2O 毛利率
 - 美团买药抽成

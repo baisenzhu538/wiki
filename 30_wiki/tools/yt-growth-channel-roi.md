@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化

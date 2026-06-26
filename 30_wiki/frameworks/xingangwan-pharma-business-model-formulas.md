@@ -7,9 +7,9 @@ type: framework
 status: enriched
 domain:
   - healthcare- healthcare
-- pharmaceutical-retail
-- business-strategy
-- finance
+  - pharmaceutical-retail
+  - business-strategy
+  - finance
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown
@@ -22,8 +22,8 @@ related:
   - '[[case-five-step-growth-first-lever]]'
   - '[[xingangwan-pharma-business-formulas]]'
   - '[[xingangwan-pharma-business-model-calc]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[shanxi-field-research-checklist-20260701]]'
+  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+  - '[[shanxi-field-research-checklist-20260701]]'
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-19'

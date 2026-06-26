@@ -18,10 +18,10 @@ related:
   - '[[smart-device-foodservice-automation]]'
   - '[[beverage-foodservice-channel]]'
   - '[[ai-complex-communication]]'
-- '[[source-code-delivery-model]]'
-- '[[private-domain-saas-sales-funnel]]'
-- '[[yt-entrepreneur-channel-exploration]]'
-- '[[yt-entrepreneur-product-core]]'
+  - '[[source-code-delivery-model]]'
+  - '[[private-domain-saas-sales-funnel]]'
+  - '[[yt-entrepreneur-channel-exploration]]'
+  - '[[yt-entrepreneur-product-core]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

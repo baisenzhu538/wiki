@@ -33,16 +33,16 @@ related:
   - '[[tool-yitang-research-exhaust-means]]'
   - '[[tool-yitang-research-single-point-sniper]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[concept-yitang-research-scope]]"
-- "（tool-yitang-research-checklist，待补）"
-- "[[yt-research-osl-framework]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[concept-yitang-research-scope]]"
+  - "（tool-yitang-research-checklist，待补）"
+  - "[[yt-research-osl-framework]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁

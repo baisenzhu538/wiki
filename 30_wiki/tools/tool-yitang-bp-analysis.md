@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-public-official-info]]"
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 商业计划书分析

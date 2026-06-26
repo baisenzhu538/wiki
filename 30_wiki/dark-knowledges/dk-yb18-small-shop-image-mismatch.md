@@ -21,9 +21,9 @@ related:
   - '[[dk-yb17-product-lifestyle-photography]]'
   - '[[dk-yb21-ecommerce-pricing-independent-model]]'
   - '[[dk-yb27-pseudo-layer-evasion]]'
-- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-- '[[dk-yb19-visual-strategy-price-match]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb19-visual-strategy-price-match]]'
+  - '[[yt-foresight-ten-fatal-flaws]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

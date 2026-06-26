@@ -26,9 +26,9 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- human-ai-collaboration-double-triangle
-- framework-wanghuan-actor-director-mode
-- tool-wanghuan-ai-business-profile
+  - human-ai-collaboration-double-triangle
+  - framework-wanghuan-actor-director-mode
+  - tool-wanghuan-ai-business-profile
 diagnostic_signals:
 - signal: "用户说'我不知道怎么跟AI描述需求'"
   framework_lens: 创造力重新分配——问题描述是核心创造力

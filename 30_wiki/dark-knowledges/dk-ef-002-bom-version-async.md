@@ -16,9 +16,9 @@ related:
   - '[[dk-ef-003-hand-soldering-bom-divergence]]'
   - '[[case-guang-leng-dian-zi-hx-smj]]'
   - '[[concept-smart-medicine-cabinet-supply-chain-validation]]'
-- '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-- '[[dk-ef-003-hand-soldering-bom-divergence]]'
-- '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
+  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - '[[dk-ef-004-missing-diagnostic-firmware]]'
 pipeline:
 - confidence-source-cited
 author: 黄药师

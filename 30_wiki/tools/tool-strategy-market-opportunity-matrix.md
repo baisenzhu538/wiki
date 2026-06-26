@@ -22,12 +22,12 @@ related:
   - '[[tool-strategy-logistics-cost-planning]]'
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[tool-strategy-value-proposition]]'
-- "[[tool-strategy-customer-selection]]"
-- "[[tool-strategy-value-proposition]]"
-- "[[tool-strategy-activity-scope]]"
-- "[[tool-strategy-blue-ocean-canvas]]"
-- "[[framework-strategy-business-design]]"
-- "[[framework-strategy-five-forces]]"
+  - "[[tool-strategy-customer-selection]]"
+  - "[[tool-strategy-value-proposition]]"
+  - "[[tool-strategy-activity-scope]]"
+  - "[[tool-strategy-blue-ocean-canvas]]"
+  - "[[framework-strategy-business-design]]"
+  - "[[framework-strategy-five-forces]]"
 ---
 
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"

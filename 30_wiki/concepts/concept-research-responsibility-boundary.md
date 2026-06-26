@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[concept-ceo-must-do-user-research]]'
-- "[[tool-yitang-social-engineering-research]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 调研责任边界

@@ -19,9 +19,9 @@ related:
   - '[[dk-p16-validate-reads-state-json]]'
   - '[[proposal-kdo-flywheel-infrastructure]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-c4-selfcheck-superseded]]'
-- '[[master-systems-thinking]]'
-- '[[dk-f10-broken-source-refs]]'
+  - '[[dk-c4-selfcheck-superseded]]'
+  - '[[master-systems-thinking]]'
+  - '[[dk-f10-broken-source-refs]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

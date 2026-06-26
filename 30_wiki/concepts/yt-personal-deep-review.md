@@ -29,14 +29,14 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-scientific-expression]]'
-- '[[yt-entrepreneur-scientific-method]]'
-- '[[yt-personal-deliberate-practice]]'
-- '[[master-first-principles]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-personal-knowledge-extraction]]'
-- '[[yt-personal-knowledge-management]]'
-- '[[yt-personal-time-management]]'
-- '[[yt-system-course-map-lecture]]'
+  - '[[yt-entrepreneur-scientific-method]]'
+  - '[[yt-personal-deliberate-practice]]'
+  - '[[master-first-principles]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-knowledge-extraction]]'
+  - '[[yt-personal-knowledge-management]]'
+  - '[[yt-personal-time-management]]'
+  - '[[yt-system-course-map-lecture]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:

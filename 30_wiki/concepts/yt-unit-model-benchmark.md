@@ -7,7 +7,7 @@ created_at: 2026-05-24
 difficulty: intermediate
 domain:
   - yitang- entrepreneur
-- master
+  - master
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
@@ -24,13 +24,13 @@ related:
   - '[[ocr-一堂y模型steps策略集]]'
   - '[[yt-tool-unit-model-construction]]'
   - '[[yt-tool-unit-model-benchmark]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[master-systems-thinking]]'
-- '[[yt-unit-model-concept]]'
+  - '[[yt-unit-model-selection]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-dynamic]]'
+  - '[[yt-decision-y-model]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[master-systems-thinking]]'
+  - '[[yt-unit-model-concept]]'
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md

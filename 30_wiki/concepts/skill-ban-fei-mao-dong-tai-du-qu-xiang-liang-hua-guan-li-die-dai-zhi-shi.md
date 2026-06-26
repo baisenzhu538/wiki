@@ -26,8 +26,8 @@ related:
   - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
   - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
   - '[[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[dk-ban-fei-mao-atomic-no-standard]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[dk-ban-fei-mao-atomic-no-standard]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

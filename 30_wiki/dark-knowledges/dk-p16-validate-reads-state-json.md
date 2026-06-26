@@ -19,10 +19,10 @@ related:
   - '[[dk-infrastructure-guardrails-over-checklist]]'
   - '[[dk-f3-state-json-race-condition]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[master-first-principles]]'
-- '[[master-systems-thinking]]'
-- '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-p15-unverified]]'
+  - '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
+  - '[[dk-c3-txt-ingest-skip]]'
+  - '[[dk-p15-unverified]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

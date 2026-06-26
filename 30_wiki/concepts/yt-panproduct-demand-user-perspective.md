@@ -29,9 +29,9 @@ related:
   - '[[yt-panproduct-demand-multi-perspective]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[yt-panproduct-aesthetic-collection]]'
-- '[[yt-panproduct-demand-user-segmentation]]'
-- '[[yt-panproduct-demand-scenario-walkthrough]]'
-- '[[yt-model-aesthetic-progression]]'
+  - '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-demand-scenario-walkthrough]]'
+  - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角

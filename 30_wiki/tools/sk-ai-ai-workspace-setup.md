@@ -37,9 +37,9 @@ related:
   - '[[concept-纪浩-ai-collaboration-five-layer]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[case-ji-hao-ai-workspace-chaos]]'
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[case-ji-hao-ai-workspace-chaos]]'
-- '[[structured-ai-workspace]]'
+  - '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - '[[case-ji-hao-ai-workspace-chaos]]'
+  - '[[structured-ai-workspace]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

@@ -35,11 +35,11 @@ related:
   - '[[tool-yitang-consulting-business-research]]'
   - '[[tool-yitang-organization-research]]'
   - '[[yt-management-business-formula]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-store-franchise-research]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[yt-research-osl-framework]]"
-- "[[case-yitang-luckin-field-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-store-franchise-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[yt-research-osl-framework]]"
+  - "[[case-yitang-luckin-field-research]]"
 ---
 
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧

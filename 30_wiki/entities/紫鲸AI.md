@@ -23,8 +23,8 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[concept-mcp-protocol]]'
   - '[[case-ji-hao-skills-market]]'
-- '[[紫鲸ai智能体工作流平台]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - '[[紫鲸ai智能体工作流平台]]'
+  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 tags: []
 trust_level: medium
 reviewed_by: 黄药师

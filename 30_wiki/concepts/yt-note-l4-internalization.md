@@ -18,10 +18,10 @@ related:
   - '[[yt-note-ai-p-role-not-c-role]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[yt-note-three-level-evolution]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-five-levels-training]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[yt-note-problem-solving-capability]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-five-levels-training]]'
+  - '[[dk-note-surplus-brainpower]]'
+  - '[[yt-note-problem-solving-capability]]'
 query_triggers:
 - 清单体L4
 - 内化阶段

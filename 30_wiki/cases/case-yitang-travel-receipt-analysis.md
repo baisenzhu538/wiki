@@ -20,8 +20,8 @@ related:
   - '[[case-demand-pharma-bigdata]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 案例：从收据/小票反推真实经营数据

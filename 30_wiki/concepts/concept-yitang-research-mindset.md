@@ -21,9 +21,9 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[yt-research-mindset]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[concept-research-responsibility-boundary]]"
-- "[[yt-research-mindset]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[concept-research-responsibility-boundary]]"
+  - "[[yt-research-mindset]]"
 ---
 
 # 调研心态：从"找答案"到"拆假设"

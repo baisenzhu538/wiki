@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-demand-travel-agent]]'
   - '[[case-demand-indonesia-insurance]]'
-- "[[dk-demand-pitfall-dialer]]"
-- "[[framework-demand-iceberg]]"
+  - "[[dk-demand-pitfall-dialer]]"
+  - "[[framework-demand-iceberg]]"
 ---
 
 # 案例：小胖猴拨号器

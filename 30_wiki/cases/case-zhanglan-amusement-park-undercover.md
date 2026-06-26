@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-competitor-pricing-intelligence]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-liutao-douyin-team-leader-9m]]'
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-field-research]]"
 ---
 
 # 案例：假扮游乐园店长卧底15天

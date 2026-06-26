@@ -28,14 +28,14 @@ related:
   - '[[yt-entrepreneur-product-core]]'
   - '[[yt-decision-canvas]]'
   - '[[yt-entrepreneur-industry-forecast]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-full-process]]'
-- '[[yt-five-step-method]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-ai-partner]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-decision-width-method]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-decision-full-process]]'
+  - '[[yt-five-step-method]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02

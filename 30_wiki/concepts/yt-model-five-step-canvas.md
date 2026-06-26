@@ -23,9 +23,9 @@ related:
   - '[[case-proya-betaine-skincare-benchmark]]'
   - '[[framework-一堂五步法-泛产品设计]]'
   - '[[ocr-一堂五步法画布]]'
-- '[[yt-five-step-method]]'
-- '[[yt-tool-product-core-canvas]]'
-- '[[case-modeling-abstraction-yitang-models]]'
+  - '[[yt-five-step-method]]'
+  - '[[yt-tool-product-core-canvas]]'
+  - '[[case-modeling-abstraction-yitang-models]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas

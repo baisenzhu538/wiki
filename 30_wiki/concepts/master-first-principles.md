@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-first-principles
 title: 第一性原理

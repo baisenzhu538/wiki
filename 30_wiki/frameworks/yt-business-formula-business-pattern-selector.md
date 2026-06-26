@@ -8,8 +8,8 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- master
-- business-strategy
+  - master
+  - business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -42,15 +42,15 @@ related:
   - '[[case-toc-content-platform-correlation-trap]]'
   - '[[yt-management-business-formula]]'
   - '[[case-private-domain-ecommerce-formula]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-entrepreneur-business-growth]]'
-- '[[case-toc-ecommerce-formula-misjudgment]]'
-- '[[case-private-domain-ecommerce-formula]]'
-- '[[case-saas-renewal-formula]]'
-- '[[case-dental-clinic-formula]]'
+  - '[[yt-business-formula-ten-paradigms]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[yt-entrepreneur-business-growth]]'
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[case-private-domain-ecommerce-formula]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[case-dental-clinic-formula]]'
 
 ---# 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 

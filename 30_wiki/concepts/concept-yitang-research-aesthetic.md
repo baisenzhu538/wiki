@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[concept-ceo-must-do-user-research]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[concept-yitang-ai-research-human-loop]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[concept-yitang-ai-research-human-loop]]"
 ---
 
 # 调研审美

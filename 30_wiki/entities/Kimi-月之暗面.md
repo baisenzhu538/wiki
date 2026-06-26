@@ -27,8 +27,8 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
   - '[[tool-agent-research-swarm]]'
-- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-- '[[graph-rag]]'
+  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+  - '[[graph-rag]]'
 tags: []
 trust_level: medium
 reviewed_by: 黄药师

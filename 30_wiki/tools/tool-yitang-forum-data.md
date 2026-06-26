@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-xiaohongshu-data]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-recruit-user-interview]]'
-- "[[tool-yitang-weapon-media-search]]"
+  - "[[tool-yitang-weapon-media-search]]"
 ---
 
 # 论坛/社区数据

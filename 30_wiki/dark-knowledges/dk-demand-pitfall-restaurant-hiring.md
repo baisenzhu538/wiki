@@ -17,7 +17,7 @@ related:
   - '[[dk-demand-pitfall-travel-agent]]'
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[dk-demand-pitfall-rural-5g]]'
-- "[[case-demand-restaurant-hiring]]"
+  - "[[case-demand-restaurant-hiring]]"
 ---
 **坑**："招错店长代价很大"→判断频次高→实际一年只用2-3次。
 **真相**：脉冲式需求的频次要看时间分布，不能只看"用的时候多重要"。

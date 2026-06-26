@@ -7,9 +7,9 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
 - '#method/evaluation-method'
@@ -30,15 +30,15 @@ related:
   - '[[yt-tob-demand-metrics]]'
   - '[[yt-tob-unit-model]]'
   - '[[yt-tob-customer-sabc]]'
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-growth-channel]]'
-- '[[yt-tob-customer-sabc]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[case-yitang-tob-artificial-bone]]'
-- '[[case-yitang-tob-smart-park]]'
-- '[[case-yitang-tob-career-planning]]'
-- '[[yt-barrier-identification-skill]]'
+  - '[[yt-tob-unit-model]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[case-yitang-tob-artificial-bone]]'
+  - '[[case-yitang-tob-smart-park]]'
+  - '[[case-yitang-tob-career-planning]]'
+  - '[[yt-barrier-identification-skill]]'
 diagnostic_signals:
 - signal: 团队讲不清壁垒是什么，只会说“产品好”“技术领先”。
   framework_lens: 壁垒类型选择

@@ -15,9 +15,9 @@ related:
   - '[[kdo_product_design_agent_final]]'
   - '[[kdo-priority-checklist]]'
   - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[kdo-protocol]]'
-- '[[index]]'
-- '[[business-research-skill-oscar-13-weapon-system]]'
+  - '[[kdo-protocol]]'
+  - '[[index]]'
+  - '[[business-research-skill-oscar-13-weapon-system]]'
 tags: []
 trust_level: medium
 reviewed_by: Claude

@@ -20,8 +20,8 @@ related:
   - '[[case-zhanglan-amusement-park-undercover]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-zhanglei-furniture-overseas-market-selection]]'
-- "[[tool-yitang-social-engineering-research]]"
-- "[[case-yitang-elderly-home-roleplay]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[case-yitang-elderly-home-roleplay]]"
 ---
 
 # 案例：假扮家属获取养老院真实运营信息

@@ -4,14 +4,14 @@
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
-source_refs: []
-Press.'
-- 'Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning
-  Organization*. Doubleday.'
+source_refs:
+  - Press.'
+  - 'Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning
+  - Organization*. Doubleday.'
 status: enriched
 domain:
   - management- lean-manufacturing
-- yitang
+  - yitang
 bridges_to:
 - target: skill-一堂-kernel-three-questions
   relation: provides_foundation_for
@@ -31,10 +31,10 @@ diagnostic_signals:
 related:
   - '[[skill-mckinsey-hypothesis-driven-workflow]]'
   - '[[concept-mckinsey-issue-tree]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[skill-一堂-kernel-three-questions]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[yt-entrepreneur-five-step-method]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[skill-一堂-kernel-three-questions]]'
+  - '[[yt-product-kernel-cultivation]]'
+  - '[[yt-entrepreneur-five-step-method]]'
 tags: []
 version: 1
 created_at: 2026-06-11

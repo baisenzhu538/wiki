@@ -36,9 +36,9 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- yt-model-dual-triangle-competitiveness
-- skill-Truman-双三角模型应用
-- yt-five-step-method
+  - yt-model-dual-triangle-competitiveness
+  - skill-Truman-双三角模型应用
+  - yt-five-step-method
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童

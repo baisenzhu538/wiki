@@ -19,8 +19,8 @@ related:
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-c6-large-source-overflow]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

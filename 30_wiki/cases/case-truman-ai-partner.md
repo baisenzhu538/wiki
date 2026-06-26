@@ -41,10 +41,10 @@ related:
   - '[[ai-native-im-multi-agent]]'
   - '[[truman-ai-partner-design-analysis]]'
   - '[[case-ji-hao-skills-market]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-personal-checklist-notes]]'
-- '[[yt-note-checklist-concept]]'
+  - '[[case-ji-hao-skills-market]]'
+  - '[[yt-decision-ai-partner]]'
+  - '[[yt-personal-checklist-notes]]'
+  - '[[yt-note-checklist-concept]]'
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8

@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-homestay-reception-design]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[dk-yitang-ai-research-prompt-craft]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[dk-yitang-ai-research-prompt-craft]]"
 ---
 
 # 案例：AI辅助调研——产品验证

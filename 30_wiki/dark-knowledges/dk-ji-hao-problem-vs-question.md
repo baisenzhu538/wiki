@@ -20,8 +20,8 @@ related:
   - '[[case-ai-assisted-review]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[skill-纪浩-problem-validation-four-checks]]'
+  - '[[case-ji-hao-skill-market-problem-validation]]'
+  - '[[skill-纪浩-problem-validation-four-checks]]'
 wiki_refs:
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'

@@ -20,8 +20,8 @@ related:
   - '[[case-demand-tier4-housekeeping]]'
   - '[[case-demand-dialer]]'
   - '[[case-demand-travel-agent]]'
-- "[[dk-demand-pitfall-indonesia-insurance]]"
-- "[[framework-demand-usp-model]]"
+  - "[[dk-demand-pitfall-indonesia-insurance]]"
+  - "[[framework-demand-usp-model]]"
 ---
 
 # 案例：印尼寿险分支

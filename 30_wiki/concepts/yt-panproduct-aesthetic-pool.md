@@ -30,9 +30,9 @@ related:
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[yt-panproduct-aesthetic-collection]]'
-- '[[yt-panproduct-aesthetic-modeling]]'
-- '[[yt-model-aesthetic-progression]]'
+  - '[[yt-panproduct-aesthetic-collection]]'
+  - '[[yt-panproduct-aesthetic-modeling]]'
+  - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子

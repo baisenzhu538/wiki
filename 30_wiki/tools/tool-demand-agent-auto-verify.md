@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-18-strategy-tool-mapping]]'
   - '[[tool-demand-agent-case-match]]'
   - '[[tool-demand-agent-signal-substitute]]'
-- "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
 ---
 
 # Agent L6自动预验证

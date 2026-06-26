@@ -18,9 +18,9 @@ related:
   - '[[dk-p15-unverified]]'
   - '[[obsidian-git-sync-protocol]]'
   - '[[EC工业化规范手册]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-knowledge-compound]]'
-- '[[dk-c8-format-complete-mind-empty]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-knowledge-compound]]'
+  - '[[dk-c8-format-complete-mind-empty]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

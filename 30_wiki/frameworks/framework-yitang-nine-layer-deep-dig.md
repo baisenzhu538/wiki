@@ -35,10 +35,10 @@ related:
   - '[[yt-model-deep-review-iceberg]]'
   - '[[yt-business-formula-parameter-iceberg]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[dk-yitang-research-scale-vs-depth]]"
+  - "[[framework-yitang-iterative-recursive-digging]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[dk-yitang-research-scale-vs-depth]]"
 ---
 
 # 九层深挖法：商业分析的自我纠错式迭代框架

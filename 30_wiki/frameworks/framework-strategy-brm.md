@@ -23,12 +23,12 @@ related:
   - '[[tool-strategy-five-see-three-set]]'
   - '[[framework-strategy-blm]]'
   - '[[framework-strategy-business-design]]'
-- '[[framework-strategy-six-stages]]'
-- '[[tool-strategy-gap-analysis]]'
-- '[[five-step-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[framework-strategy-lean-validation]]'
-- '[[yt-decision-y-model]]'
+  - '[[framework-strategy-six-stages]]'
+  - '[[tool-strategy-gap-analysis]]'
+  - '[[five-step-domain-digest]]'
+  - '[[yitang-research-domain-digest]]'
+  - '[[framework-strategy-lean-validation]]'
+  - '[[yt-decision-y-model]]'
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）

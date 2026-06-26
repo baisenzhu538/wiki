@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"

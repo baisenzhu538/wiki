@@ -22,12 +22,12 @@ related:
   - '[[tool-lean-stealth-service]]'
   - '[[tool-lean-cut-features]]'
   - '[[tool-lean-presell]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-six-wastes]]"
 ---
 
 # 人工替代高阶研发

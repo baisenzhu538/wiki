@@ -7,9 +7,9 @@ type: framework
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -33,15 +33,15 @@ related:
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-unit-model]]'
   - '[[yt-tob-product-kernel]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-lean-assumption-prioritization]]'
-- '[[yt-lean-growth-stage-gate]]'
-- '[[yt-tob-product-kernel]]'
-- '[[yt-tob-revenue-is-customer-cost]]'
-- '[[yt-tob-customer-tiering]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[yt-tob-product-kernel]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-tob-customer-tiering]]'
 diagnostic_signals:
 - signal: 试用反馈很好，但客户始终不愿买单
   framework_lens: 角色分离 / 决策者与使用者分离

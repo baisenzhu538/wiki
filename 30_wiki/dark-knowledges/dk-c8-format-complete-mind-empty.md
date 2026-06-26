@@ -19,8 +19,8 @@ related:
   - '[[dk-infrastructure-guardrails-over-checklist]]'
   - '[[modeling-to-kdo-toolchain]]'
   - '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

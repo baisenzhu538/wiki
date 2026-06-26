@@ -35,8 +35,8 @@ related:
   - '[[skill-ai-purpose-bias-check]]'
   - '[[sk-ai-old-small-checklist]]'
   - '[[skill-ai-system-redundancy]]'
-- '[[sk-ai-purpose-bias-check]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[sk-ai-purpose-bias-check]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

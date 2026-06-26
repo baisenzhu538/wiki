@@ -26,14 +26,14 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-three-tier-dev-architecture]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[concept-wanghuan-adversarial-generation]]'
-- '[[human-ai-collaboration-double-triangle]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[concept-wanghuan-adversarial-generation]]'
+  - '[[human-ai-collaboration-double-triangle]]'
 tags:
 - 王欢
 - 案例

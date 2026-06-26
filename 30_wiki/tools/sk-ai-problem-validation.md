@@ -35,8 +35,8 @@ related:
   - '[[dk-modeling-ai-compound-leverage]]'
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[sk-ai-question-problem-checklist]]'
-- '[[ai-collaboration-mindset-shift]]'
+  - '[[sk-ai-question-problem-checklist]]'
+  - '[[ai-collaboration-mindset-shift]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

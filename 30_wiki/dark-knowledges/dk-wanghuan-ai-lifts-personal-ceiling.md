@@ -26,9 +26,9 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- human-ai-collaboration-double-triangle
-- framework-wanghuan-actor-director-mode
-- framework-wanghuan-ai-five-level-ladder
+  - human-ai-collaboration-double-triangle
+  - framework-wanghuan-actor-director-mode
+  - framework-wanghuan-ai-five-level-ladder
 diagnostic_signals:
 - signal: "用户说'我不会做这件事，所以做不了'"
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

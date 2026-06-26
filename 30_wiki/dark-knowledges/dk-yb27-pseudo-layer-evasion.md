@@ -19,9 +19,9 @@ related:
   - '[[dk-yb23-ai-pre-screen-three-minutes]]'
   - '[[dk-yb29-prompt-migrate-copy-first]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-- '[[dk-yb1-aigc-mvp-before-ps]]'
-- '[[dk-yb13-zero-shot-style-transfer]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - '[[dk-yb13-zero-shot-style-transfer]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

@@ -21,9 +21,9 @@ related:
   - '[[proposal-prompt-injection-infrastructure]]'
   - '[[dk-p17-accuracy-gap]]'
   - '[[labeling-research-alignment]]'
-- '[[gold-standard-manual-labels]]'
-- '[[labeling-final-consolidation]]'
-- '[[kdo-15-dimension-label-spec]]'
+  - '[[gold-standard-manual-labels]]'
+  - '[[labeling-final-consolidation]]'
+  - '[[kdo-15-dimension-label-spec]]'
 id: label-accuracy-standard-alignment
 reviewed_by: pending
 confidence: 0.6

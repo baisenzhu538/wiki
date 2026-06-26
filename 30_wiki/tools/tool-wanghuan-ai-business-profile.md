@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 王语嫣
@@ -41,15 +41,15 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[concept-wanghuan-tacit-knowledge-examples]]'
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[concept-wanghuan-tacit-knowledge-examples]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[dk-wanghuan-spec-trap]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[human-ai-collaboration-double-triangle]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[dk-wanghuan-magic-defeats-magic]]'
+  - '[[dk-wanghuan-spec-trap]]'
 tags:
 - 王欢
 - AI业务档案

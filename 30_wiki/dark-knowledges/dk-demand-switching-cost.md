@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[tool-demand-four-forces]]'
   - '[[case-demand-ai-fitness-four-forces]]'
-- "[[tool-demand-four-forces]]"
+  - "[[tool-demand-four-forces]]"
 ---
 
 # 新体验-旧体验-切换成本=产品价值

@@ -23,12 +23,12 @@ related:
   - '[[case-lean-premature-refinement]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[case-lean-combination-test-paradigm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[case-lean-combination-test-paradigm]]"
 ---
 
 # 成人技能教育精益验证

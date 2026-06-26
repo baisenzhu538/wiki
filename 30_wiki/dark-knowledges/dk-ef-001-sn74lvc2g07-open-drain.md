@@ -15,9 +15,9 @@ created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
   - '[[dk-ef-004-missing-diagnostic-firmware]]'
-- '[[dk-ef-002-bom-version-async]]'
-- '[[dk-ef-003-hand-soldering-bom-divergence]]'
-- '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - '[[dk-ef-002-bom-version-async]]'
+  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - '[[dk-ef-004-missing-diagnostic-firmware]]'
 pipeline:
 - confidence-source-cited
 author: 黄药师

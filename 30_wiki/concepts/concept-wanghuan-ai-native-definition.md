@@ -38,11 +38,11 @@ related:
   - '[[dk-wanghuan-magic-defeats-magic]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[concept-wanghuan-flywheel-first-loop]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-task-product-system]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
+  - '[[concept-wanghuan-flywheel-first-loop]]'
 tags:
 - 王欢
 - AI Native

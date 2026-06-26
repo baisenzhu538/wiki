@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环

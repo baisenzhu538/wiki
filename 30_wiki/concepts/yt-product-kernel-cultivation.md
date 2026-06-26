@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 
 

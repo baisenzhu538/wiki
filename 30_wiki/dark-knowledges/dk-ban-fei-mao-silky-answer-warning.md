@@ -19,8 +19,8 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

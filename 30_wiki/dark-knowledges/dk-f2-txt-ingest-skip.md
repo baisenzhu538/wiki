@@ -19,10 +19,10 @@ related:
   - '[[dk-f3-state-json-race-condition]]'
   - '[[dk-p16-validate-reads-state-json]]'
   - '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-c3-txt-ingest-skip]]'
-- '[[dk-c1-cjk-regex-silent-fail]]'
-- '[[dk-f1-regex-on-cjk]]'
-- '[[master-ai-info-literacy]]'
+  - '[[dk-c3-txt-ingest-skip]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[dk-f1-regex-on-cjk]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

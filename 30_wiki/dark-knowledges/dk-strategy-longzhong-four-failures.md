@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-failure-04-appliance]]'
   - '[[case-strategy-practice-ranpeng-crossborder]]'
   - '[[case-strategy-walmart-vs-costco-pyramid]]'
-- "[[case-strategy-longzhong-plan]]"
+  - "[[case-strategy-longzhong-plan]]"
 ---
 **四因速查**：
 1. 资源不对等——2州 vs 9州，怎么打？

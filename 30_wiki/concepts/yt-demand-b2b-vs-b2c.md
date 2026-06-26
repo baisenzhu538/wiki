@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-b2b-vs-b2c
 title: ToB vs ToC需求分析差异：决策链、频率与验证方法

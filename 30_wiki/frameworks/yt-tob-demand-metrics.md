@@ -7,9 +7,9 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
 - '#method/evaluation-method'
@@ -31,14 +31,14 @@ related:
   - '[[yt-tob-revenue-is-customer-cost]]'
   - '[[yt-tob-sales-unit-model]]'
   - '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-lean-assumption-prioritization]]'
-- '[[yt-lean-growth-stage-gate]]'
-- '[[yt-tob-revenue-is-customer-cost]]'
-- '[[yt-tob-demand-scenarios]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-tob-demand-scenarios]]'
 diagnostic_signals:
 - signal: 讲不清目标客户每年在类似事项上花多少钱，只能用"行业很大"说服自己
   framework_lens: 成本占有率

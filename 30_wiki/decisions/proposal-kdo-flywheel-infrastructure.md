@@ -20,7 +20,7 @@ related:
   - '[[dk-f5-stale-feedback-ref]]'
   - '[[sprint-2-gate-enrich-evidence]]'
   - '[[proposal-deep-synthesis-infrastructure]]'
-- '[[proposal-deep-synthesis-infrastructure]]'
+  - '[[proposal-deep-synthesis-infrastructure]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6

@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具

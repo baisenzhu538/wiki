@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-scope-creep
 title: 需求蔓延：从MVP到全功能的陷阱

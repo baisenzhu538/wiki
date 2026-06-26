@@ -31,11 +31,11 @@ related:
   - '[[tool-泛产品落地-里程碑拆解]]'
   - '[[yt-tool-strategy-workshop]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-假设拆解]]'
-- '[[tool-泛产品落地-逻辑MECE]]'
-- '[[tool-泛产品落地-里程碑拆解]]'
-- '[[yt-decision-consensus-iceberg]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
+  - '[[tool-泛产品落地-假设拆解]]'
+  - '[[tool-泛产品落地-逻辑MECE]]'
+  - '[[tool-泛产品落地-里程碑拆解]]'
+  - '[[yt-decision-consensus-iceberg]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会

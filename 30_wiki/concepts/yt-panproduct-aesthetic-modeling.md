@@ -30,10 +30,10 @@ related:
   - '[[yt-panproduct-aesthetic-collection]]'
   - '[[yt-panproduct-aesthetic-pool]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[yt-panproduct-aesthetic-pool]]'
-- '[[yt-panproduct-aesthetic-imagination]]'
-- '[[yt-model-prediction-model]]'
-- '[[yt-model-aesthetic-progression]]'
+  - '[[yt-panproduct-aesthetic-pool]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[yt-model-prediction-model]]'
+  - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模

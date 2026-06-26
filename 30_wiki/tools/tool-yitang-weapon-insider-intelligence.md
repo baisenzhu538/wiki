@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-people-network-database]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-job-intelligence-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-job-intelligence-research]]"
 ---
 
 # 武器库策略5：内部人情报

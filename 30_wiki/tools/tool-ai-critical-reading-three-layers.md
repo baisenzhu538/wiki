@@ -22,13 +22,13 @@ related:
   - '[[tool-ai-cross-reading-method]]'
   - '[[framework-ai-deconstruction-methodology]]'
   - '[[concept-ai-chair-determines-view]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-gan-three-roles]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
-- "[[tool-wanghuan-ai-business-profile]]"
-- "[[concept-candy-ai-as-collaborator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[tool-wanghuan-ai-business-profile]]"
+  - "[[concept-candy-ai-as-collaborator]]"
 ---
 
 # 三层拆书批判法

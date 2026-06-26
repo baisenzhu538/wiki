@@ -21,7 +21,7 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[tool-osint-wayback]]'
   - '[[tool-google-dorking]]'
-- "[[tool-agent-native-overview]]"
+  - "[[tool-agent-native-overview]]"
 ---
 
 # Firecrawl

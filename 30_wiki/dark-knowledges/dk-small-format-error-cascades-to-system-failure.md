@@ -18,11 +18,11 @@ related:
   - '[[dk-c10-batch-tool-no-dry-run]]'
   - '[[dk-p11-regex-cutoff]]'
   - '[[dk-f13-handwritten-yaml-parser]]'
-- '[[dk-p11-regex-cutoff]]'
-- '[[dk-p18-yaml-parser]]'
-- '[[dk-p19-quote-yaml]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[dk-f10-broken-source-refs]]'
+  - '[[dk-p11-regex-cutoff]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[dk-f10-broken-source-refs]]'
 bridges_to:
 - dk-p11-regex-cutoff
 - dk-p18-yaml-parser

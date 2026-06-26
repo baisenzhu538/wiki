@@ -21,11 +21,11 @@ related:
   - '[[tool-单元模型-壁垒预判]]'
   - '[[tool-单元模型-单城市]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[framework-科学决策三角形]]"
-- "[[tool-完整财务公式决策]]"
-- "[[yt-unit-model-overview]]"
-- "[[framework-lean-abcd-model]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-完整财务公式决策]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # ROI决策评估画布

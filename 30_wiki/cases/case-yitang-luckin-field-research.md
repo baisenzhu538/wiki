@@ -20,8 +20,8 @@ related:
   - '[[case-demand-pharma-bigdata]]'
   - '[[case-doris-2014-music-streaming-prediction]]'
   - '[[case-yitang-hardware-factory-photo]]'
-- "[[tool-yitang-field-research]]"
-- "[[framework-yitang-high-level-execution]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[framework-yitang-high-level-execution]]"
 ---
 
 # 案例：瑞幸做空——实地调研的教科书

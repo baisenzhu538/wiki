@@ -26,10 +26,10 @@ related:
   - '[[tool-essence-nfactor-modeling]]'
   - '[[modeling-three-stages]]'
   - '[[case-essence-entrepreneurship]]'
-- "[[framework-logic-cleanliness-five-levels]]"
-- "[[modeling-scientific-milestones]]"
-- "[[tool-iterative-recursive-deep-dig]]"
-- "[[case-modeling-process-sop-examples]]"
+  - "[[framework-logic-cleanliness-five-levels]]"
+  - "[[modeling-scientific-milestones]]"
+  - "[[tool-iterative-recursive-deep-dig]]"
+  - "[[case-modeling-process-sop-examples]]"
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

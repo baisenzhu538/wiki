@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-weapon-full-product-experience]]'
-- "[[tool-yitang-weapon-full-product-experience]]"
-- "[[tool-yitang-consumer-goods-research]]"
+  - "[[tool-yitang-weapon-full-product-experience]]"
+  - "[[tool-yitang-consumer-goods-research]]"
 ---
 
 # 线上产品完整体验

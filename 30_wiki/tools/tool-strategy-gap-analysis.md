@@ -21,7 +21,7 @@ related:
   - '[[tool-strategy-four-moves]]'
   - '[[tool-strategy-three-horizons]]'
   - '[[framework-strategy-five-basics]]'
-- '[[framework-strategy-brm]]'
+  - '[[framework-strategy-brm]]'
 ---
 
 # 差距分析

@@ -25,8 +25,8 @@ related:
   - '[[yt-research-action-camp-launch]]'
   - '[[yt-personal-inspiration-flash]]'
   - '[[yt-personal-pan-product-aesthetics]]'
-- '[[yt-personal-pan-product-concepts]]'
-- '[[yt-personal-pan-product-tools]]'
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[yt-personal-pan-product-tools]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_fab64a96-个人修炼-泛产品设计探索营

@@ -52,8 +52,8 @@ related:
   - '[[yt-five-step-method-complete]]'
   - '[[yt-five-step-common-pitfalls]]'
   - '[[five-step-domain-digest]]'
-- master-cognitive-bias-checklist
-- case-five-step-fake-vs-real-barriers
+  - master-cognitive-bias-checklist
+  - case-five-step-fake-vs-real-barriers
 
 ---
 # 暗知识：五步法中的主要认知偏差

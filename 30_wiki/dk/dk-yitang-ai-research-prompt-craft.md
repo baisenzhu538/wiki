@@ -21,9 +21,9 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-digging-belief]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[tool-yitang-ai-research-workflow]]"
-- "[[concept-yitang-ai-research-human-loop]]"
-- "[[dk-yitang-research-ai-hallucination]]"
+  - "[[tool-yitang-ai-research-workflow]]"
+  - "[[concept-yitang-ai-research-human-loop]]"
+  - "[[dk-yitang-research-ai-hallucination]]"
 ---
 
 # AI调研效果取决于问题拆解和人工判断

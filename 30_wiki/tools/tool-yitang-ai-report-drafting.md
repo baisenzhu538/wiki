@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[dk-yitang-research-ai-hallucination]]'
-- "[[tool-yitang-weapon-ai-tools]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-yitang-weapon-ai-tools]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # AI草写报告

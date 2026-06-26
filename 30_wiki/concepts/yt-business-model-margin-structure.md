@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去

@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-online-product-experience]]'
   - '[[tool-yitang-weapon-insider-intelligence]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-consumer-goods-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-consumer-goods-research]]"
 ---
 
 # 武器库策略3：完整体验产品

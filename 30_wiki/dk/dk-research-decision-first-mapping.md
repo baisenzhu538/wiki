@@ -19,20 +19,20 @@ related:
   - '[[dk-strategy-stage-leverage-mismatch]]'
   - '[[dk-research-triangulation-stop-rule]]'
   - '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-yitang-behavior-over-asking]]'
-- '[[dk-strategy-correlation-vs-causation-leverage]]'
-- '[[dk-research-identity-craft-for-closed-information]]'
-- '[[dk-research-triangulation-stop-rule]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- "[[yitang-research-domain-digest]]"
-- "[[concept-一堂-hypothesis-driven-business-methodology]]"
-- "[[yt-lean-assumption-verification-3means]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[case-yitang-mvp-reward-interview-waste]]"
-- "[[case-一堂-无人餐厅-hypothesis-failure]]"
-- "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-- "[[case-yitang-senior-university-product-design]]"
-- "[[case-xian-franchise-location-decision]]"
+  - '[[dk-yitang-behavior-over-asking]]'
+  - '[[dk-strategy-correlation-vs-causation-leverage]]'
+  - '[[dk-research-identity-craft-for-closed-information]]'
+  - '[[dk-research-triangulation-stop-rule]]'
+  - '[[dk-strategy-stage-leverage-mismatch]]'
+  - "[[yitang-research-domain-digest]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[yt-lean-assumption-verification-3means]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[case-yitang-mvp-reward-interview-waste]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[case-yitang-senior-university-product-design]]"
+  - "[[case-xian-franchise-location-decision]]"
 ---
 
 # 研究活动如何服务决策

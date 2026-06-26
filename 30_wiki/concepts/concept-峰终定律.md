@@ -18,9 +18,9 @@ related:
   - '[[framework-一堂五步法-泛产品设计]]'
   - '[[concept-多视角思考]]'
   - '[[tool-用户分层]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 峰终定律：用户体验的二八定律

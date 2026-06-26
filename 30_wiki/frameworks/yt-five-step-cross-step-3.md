@@ -1,5 +1,6 @@
 ---
-domain: - yitang
+domain:
+  - yitang
 
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒

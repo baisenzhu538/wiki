@@ -24,9 +24,9 @@ related:
   - '[[yt-ai-trend-12-signals]]'
   - '[[dk-signal-cluster-illusion]]'
   - '[[dk-ai-entrepreneur-technical-blindspot]]'
-- '[[yt-ai-startup-20-risky-hypotheses]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-entrepreneur-needs-analysis]]'
+  - '[[yt-ai-startup-20-risky-hypotheses]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-entrepreneur-needs-analysis]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -40,14 +40,14 @@ related:
   - '[[framework-strategy-pyramid]]'
   - '[[case-wanghuan-education-sales-capability-extraction]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[case-wanghuan-education-sales-capability-extraction]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[yt-demand-b2b-vs-b2c]]'
-- '[[yt-tob-customer-sabc]]'
-- '[[private-domain-saas-sales-funnel]]'
-- '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[case-wanghuan-education-sales-capability-extraction]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[yt-demand-b2b-vs-b2c]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[private-domain-saas-sales-funnel]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
 tags:
 - 王欢
 - 隐性决策

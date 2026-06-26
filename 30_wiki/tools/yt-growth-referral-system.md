@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架

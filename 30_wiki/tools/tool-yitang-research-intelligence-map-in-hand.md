@@ -34,15 +34,15 @@ related:
   - '[[tool-yitang-research-competitor-tracking]]'
   - '[[tool-yitang-research-exhaust-means]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-exhaust-means]]"
-- "[[yt-research-intelligence-map]]"
-- "[[tool-yitang-database-index]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-exhaust-means]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[tool-yitang-database-index]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 地图在手：建立全局信息获取体系

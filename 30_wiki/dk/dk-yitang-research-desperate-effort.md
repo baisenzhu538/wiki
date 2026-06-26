@@ -20,7 +20,7 @@ related:
   - '[[dk-yitang-research-starter-vs-veteran]]'
   - '[[dk-yitang-survivor-bias-in-research]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
 ---
 
 # 调研决心比技巧重要

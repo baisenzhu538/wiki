@@ -17,8 +17,8 @@ related:
   - '[[case-strategy-practice-11-third-place]]'
   - '[[dk-strategy-01-not-goal-setting]]'
   - '[[case-strategy-lekai-film]]'
-- "[[framework-strategy-brm]]"
-- "[[tool-strategy-gap-analysis]]"
+  - "[[framework-strategy-brm]]"
+  - "[[tool-strategy-gap-analysis]]"
 ---
 **冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行

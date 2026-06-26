@@ -22,8 +22,8 @@ related:
   - '[[tool-dns-intelligence]]'
   - '[[tool-osint-wayback]]'
   - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-- "[[tool-osint-overview]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # Agent原生调研工具总览

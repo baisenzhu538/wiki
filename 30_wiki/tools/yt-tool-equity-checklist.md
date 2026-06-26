@@ -23,10 +23,10 @@ related:
   - '[[yt-pitch-storytelling]]'
   - '[[case-yitang-radar-chart-selection]]'
   - '[[dk-modeling-radar-model-not-result]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-tool-strategy-workshop]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-tool-strategy-workshop]]'
 contradicts: null
 query_triggers:
 - 股权设计

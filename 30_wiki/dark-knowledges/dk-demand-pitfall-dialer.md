@@ -17,7 +17,7 @@ related:
   - '[[dk-strategy-05-positioning-trap]]'
   - '[[dk-demand-pitfall-financial-literacy]]'
   - '[[dk-demand-pitfall-rural-5g]]'
-- "[[case-demand-dialer]]"
+  - "[[case-demand-dialer]]"
 ---
 **坑**：销售需要打电话→做拨号器→用户不用。
 **真相**：用户要的是"高效触达客户"，不是"拨号器"。跳到方案前没定义核心任务（L3）。

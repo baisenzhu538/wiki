@@ -11,7 +11,8 @@ source_refs:
 id: yt-case-mandatory-cases
 created_at: 2026-05-05
 domain:
-  - yitangyitang:
+- yitang
+yitang:
   map: entrepreneur
   module: "案例学习"
   course_id: yt-case-001

@@ -13,7 +13,7 @@ status: enriched
 confidence: 0.8
 domain:
   - yitang- kdo
-- yitang
+  - yitang
 created_at: '2026-06-15'
 author: 黄药师
 reviewed_by: 老顽童
@@ -25,14 +25,14 @@ related:
   - '[[modeling-to-kdo-toolchain]]'
   - '[[model-quality-four-levels]]'
   - '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[case-toc-ecommerce-formula-misjudgment]]'
-- '[[modeling-to-kdo-toolchain]]'
-- '[[modeling-three-stages]]'
-- '[[yt-research-osl-framework]]'
-- '[[concept-mckinsey-mece]]'
+  - '[[yt-business-formula-abc-model]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[modeling-three-stages]]'
+  - '[[yt-research-osl-framework]]'
+  - '[[concept-mckinsey-mece]]'
 tags:
 - '#method/evaluation-method'
 - '#kdo'

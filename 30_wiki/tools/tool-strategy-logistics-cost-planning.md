@@ -23,10 +23,10 @@ related:
   - '[[tool-strategy-industry-chain-analysis]]'
   - '[[tool-strategy-market-opportunity-matrix]]'
   - '[[framework-strategy-pyramid]]'
-- "[[case-strategy-snack-export-opportunity]]"
-- "[[tool-strategy-industry-chain-analysis]]"
-- "[[tool-strategy-value-capture]]"
-- "[[framework-strategy-business-design]]"
+  - "[[case-strategy-snack-export-opportunity]]"
+  - "[[tool-strategy-industry-chain-analysis]]"
+  - "[[tool-strategy-value-capture]]"
+  - "[[framework-strategy-business-design]]"
 ---
 
 # 物流费用三年节约计划：从单吨运费到全链成本

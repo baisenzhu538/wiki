@@ -22,10 +22,10 @@ related:
   - '[[tool-strategy-category-role-matrix]]'
   - '[[tool-strategy-fishbone]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-business-design]]'
-- '[[framework-strategy-kai-innovation-directions]]'
-- '[[framework-strategy-three-horizons]]'
-- '[[tool-strategy-lifecycle]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[framework-strategy-kai-innovation-directions]]'
+  - '[[framework-strategy-three-horizons]]'
+  - '[[tool-strategy-lifecycle]]'
 ---
 
 # 安索夫矩阵：产品-市场增长战略

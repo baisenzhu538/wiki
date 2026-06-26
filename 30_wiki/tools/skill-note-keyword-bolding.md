@@ -7,7 +7,7 @@ type: tool
 status: enriched
 domain:
   - learning-methodology- yitang
-- note-taking
+  - note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -17,9 +17,9 @@ related:
   - '[[dk-tool-as-phased-validator]]'
   - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
   - '[[skill-note-one-line-one-point]]'
-- '[[skill-note-layer-constraint]]'
-- '[[skill-note-one-line-one-point]]'
-- '[[dk-note-surplus-brainpower]]'
+  - '[[skill-note-layer-constraint]]'
+  - '[[skill-note-one-line-one-point]]'
+  - '[[dk-note-surplus-brainpower]]'
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:

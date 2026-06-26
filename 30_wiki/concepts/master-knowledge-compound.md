@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-knowledge-compound
 title: 知识复利：IPO+萃取+原子化复用

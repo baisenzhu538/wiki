@@ -26,11 +26,11 @@ related:
   - '[[yt-entrepreneur-259-milestone]]'
   - '[[case-five-step-growth-first-lever]]'
   - '[[yt-entrepreneur-five-step-method]]'
-- '[[dk-yb21-ecommerce-pricing-independent-model]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-unit-model-selection]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

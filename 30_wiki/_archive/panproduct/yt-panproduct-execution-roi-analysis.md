@@ -31,14 +31,14 @@ related:
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-里程碑拆解]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-管理三段论]]'
-- '[[tool-泛产品落地-里程碑拆解]]'
-- '[[tool-泛产品落地-业务建模]]'
-- '[[case-truman-poker-deck-roi]]'
-- '[[case-ether-online-acquisition]]'
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[case-truman-motivation-map-12-versions]]'
-- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[tool-泛产品落地-管理三段论]]'
+  - '[[tool-泛产品落地-里程碑拆解]]'
+  - '[[tool-泛产品落地-业务建模]]'
+  - '[[case-truman-poker-deck-roi]]'
+  - '[[case-ether-online-acquisition]]'
+  - '[[case-truman-prd-checklist-evolution]]'
+  - '[[case-truman-motivation-map-12-versions]]'
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 reviewed_by: 王语嫣
 source_refs:
 - src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析

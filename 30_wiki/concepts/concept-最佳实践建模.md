@@ -18,9 +18,9 @@ related:
   - '[[tool-最佳实践收集]]'
   - '[[tool-审美工具箱]]'
   - '[[tool-最佳实践池子]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 最佳实践建模：把别人的成功拆成可复制的模型

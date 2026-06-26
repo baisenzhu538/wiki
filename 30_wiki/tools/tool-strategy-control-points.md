@@ -26,10 +26,10 @@ related:
   - '[[framework-strategy-kai-innovation-directions]]'
   - '[[framework-strategy-five-forces]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-business-design]]'
-- '[[tool-strategy-activity-scope]]'
-- '[[tool-strategy-risk-management]]'
-- '[[tool-strategy-value-proposition]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[tool-strategy-activity-scope]]'
+  - '[[tool-strategy-risk-management]]'
+  - '[[tool-strategy-value-proposition]]'
 ---
 
 # 战略控制点设计工具：价值定位模型

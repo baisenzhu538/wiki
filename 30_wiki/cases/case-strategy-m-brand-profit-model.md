@@ -17,8 +17,8 @@ related:
   - '[[tool-yitang-social-engineering-research]]'
   - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
   - '[[tool-strategy-profit-model-comparison]]'
-- "[[tool-strategy-value-capture]]"
-- "[[framework-strategy-business-design]]"
+  - "[[tool-strategy-value-capture]]"
+  - "[[framework-strategy-business-design]]"
 ---
 **背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式
 

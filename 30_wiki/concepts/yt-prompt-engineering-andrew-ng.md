@@ -8,7 +8,7 @@ created_at: 2026-05-13
 difficulty: intermediate
 domain:
   - yitang- yitang
-- ai
+  - ai
 estimated_tokens: 3600
 language: zh-CN
 prerequisites:
@@ -27,10 +27,10 @@ related:
   - '[[yt-note-checklist-concept]]'
   - '[[yt-pitch-conflict]]'
   - '[[yt-pitch-colloquialization]]'
-- '[[yt-model-prompt-engineering]]'
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-model-ipo-learning-strategy]]'
-- '[[yt-panproduct-demand-motivation-resistance]]'
+  - '[[yt-model-prompt-engineering]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-panproduct-demand-motivation-resistance]]'
 reviewed_by: 黄药师
 source_of:
 - yt-model-prompt-engineering

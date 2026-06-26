@@ -30,7 +30,7 @@ related:
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-aesthetic-pool]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[yt-model-aesthetic-progression]]'
+  - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集

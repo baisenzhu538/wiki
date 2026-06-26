@@ -29,9 +29,9 @@ related:
   - '[[yt-management-conversion-hacking]]'
   - '[[yt-panproduct-demand-peak-end-rule]]'
   - '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-conversion-optimization]]'
-- '[[yt-panproduct-demand-peak-end-rule]]'
-- '[[yt-panproduct-demand-surprise-formula]]'
+  - '[[yt-model-conversion-optimization]]'
+  - '[[yt-panproduct-demand-peak-end-rule]]'
+  - '[[yt-panproduct-demand-surprise-formula]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力

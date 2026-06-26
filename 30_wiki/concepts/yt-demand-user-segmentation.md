@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"

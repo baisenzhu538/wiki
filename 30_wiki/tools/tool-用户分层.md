@@ -18,9 +18,9 @@ related:
   - '[[tool-动力阻力分析]]'
   - '[[tool-行业分析画布]]'
   - '[[tool-需求挖掘]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 用户分层：按价值和行为细分用户群

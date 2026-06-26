@@ -7,9 +7,9 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
 - '#method/evaluation-method'
@@ -31,15 +31,15 @@ related:
   - '[[yt-tob-sales-unit-model]]'
   - '[[yt-tob-cash-flow]]'
   - '[[yt-tob-product-kernel]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tob-customer-tiering]]'
-- '[[yt-tob-customer-sabc]]'
-- '[[yt-tob-product-kernel]]'
-- '[[yt-tob-unit-model]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[yt-tob-product-kernel]]'
+  - '[[yt-tob-unit-model]]'
 diagnostic_signals:
 - signal: 团队说不清自己是在卖标品、做项目还是卖服务，销售话术与交付成本反复对不上
   framework_lens: 解决方案类型矩阵

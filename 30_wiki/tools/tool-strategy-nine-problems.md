@@ -21,7 +21,7 @@ related:
   - '[[case-strategy-failure-06-phone-n]]'
   - '[[tool-strategy-four-moves]]'
   - '[[ocr-一堂-ai学习-提问工程化]]'
-- '[[framework-strategy-brm]]'
+  - '[[framework-strategy-brm]]'
 ---
 
 # 九个常见战略问题

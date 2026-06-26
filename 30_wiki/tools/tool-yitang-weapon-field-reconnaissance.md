@@ -21,9 +21,9 @@ related:
   - '[[tool-yitang-weapon-partner-research]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-field-research]]"
-- "[[tool-yitang-store-franchise-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[tool-yitang-store-franchise-research]]"
 ---
 
 # 武器库策略14：线下门店侦察

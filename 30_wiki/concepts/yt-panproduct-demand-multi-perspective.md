@@ -29,8 +29,8 @@ related:
   - '[[yt-panproduct-demand-user-perspective]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[yt-panproduct-aesthetic-collection]]'
-- '[[yt-panproduct-demand-project-background]]'
-- '[[yt-panproduct-demand-user-segmentation]]'
+  - '[[yt-panproduct-demand-project-background]]'
+  - '[[yt-panproduct-demand-user-segmentation]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考

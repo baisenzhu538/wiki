@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮

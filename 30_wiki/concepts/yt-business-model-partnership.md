@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-partnership
 title: 合作伙伴策略：生态与联盟

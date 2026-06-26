@@ -29,11 +29,11 @@ query_triggers:
 related:
   - '[[skill-三阶追问法穷尽决策要素]]'
   - '[[ocr-一堂-科学决策-宽度-团队]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-habit-shift]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-y-model]]'
-- '[[case-truman-poker-deck-roi]]'
+  - '[[yt-decision-canvas]]'
+  - '[[yt-decision-habit-shift]]'
+  - '[[yt-decision-depth-ladder]]'
+  - '[[yt-decision-y-model]]'
+  - '[[case-truman-poker-deck-roi]]'
 source_refs:
 - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched

@@ -19,12 +19,12 @@ related:
   - '[[yt-product-kernel-mvp-design]]'
   - '[[yt-product-kernel-definition]]'
   - '[[tool-lean-leverage-resources]]'
-- "[[concept-一堂-kernel-validation]]"
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[case-lean-electric-scooter-mvp]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[case-lean-electric-scooter-mvp]]"
 ---
 
 # 产品内核：不要过早细化未经思考的内核

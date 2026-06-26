@@ -1,5 +1,6 @@
 ---
-domain: - demand-analysis
+domain:
+  - demand-analysis
 
 id: yt-demand-market-size-pitfalls
 title: 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"

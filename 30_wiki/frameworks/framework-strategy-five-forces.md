@@ -22,13 +22,13 @@ related:
   - '[[tool-strategy-industry-chain-analysis]]'
   - '[[tool-strategy-blue-ocean-canvas]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[case-strategy-model-selection-quiz]]'
-- '[[case-strategy-snack-industry-chain]]'
-- '[[framework-strategy-blm]]'
-- '[[tool-strategy-blue-ocean-canvas]]'
-- '[[tool-strategy-ksf]]'
-- '[[tool-strategy-market-opportunity-matrix]]'
-- '[[tool-strategy-swot]]'
+  - '[[case-strategy-model-selection-quiz]]'
+  - '[[case-strategy-snack-industry-chain]]'
+  - '[[framework-strategy-blm]]'
+  - '[[tool-strategy-blue-ocean-canvas]]'
+  - '[[tool-strategy-ksf]]'
+  - '[[tool-strategy-market-opportunity-matrix]]'
+  - '[[tool-strategy-swot]]'
 ---
 
 # 波特五力分析框架

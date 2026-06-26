@@ -26,11 +26,11 @@ related:
   - '[[yitang-research-domain-digest]]'
   - '[[dk-research-triangulation-stop-rule]]'
   - '[[skill-research-behavior-over-asking]]'
-- "[[dk-research-triangulation-stop-rule]]"
-- "[[yitang-research-domain-digest]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[dk-yitang-research-cross-validation-cost]]"
+  - "[[dk-research-triangulation-stop-rule]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[dk-yitang-research-cross-validation-cost]]"
 diagnostic_signals:
   - signal: "每次快结束时都发现还需要再多一个来源"
     framework_lens: 边际收益规则

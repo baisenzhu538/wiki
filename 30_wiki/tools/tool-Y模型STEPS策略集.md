@@ -18,10 +18,10 @@ related:
   - '[[case-truman-yitang-foresight]]'
   - '[[concept-思考深度分级]]'
   - '[[concept-稀缺机会窗口]]'
-- "[[yt-decision-y-model]]"
-- "[[framework-科学决策三角形]]"
-- "[[tool-Y模型实操工作流]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[yt-decision-y-model]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-Y模型实操工作流]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # Y模型STEPS策略集

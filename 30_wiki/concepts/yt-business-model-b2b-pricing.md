@@ -1,5 +1,6 @@
 ---
-domain: - business-model
+domain:
+  - business-model
 
 id: yt-business-model-b2b-pricing
 title: B2B定价策略：从SMB到Enterprise

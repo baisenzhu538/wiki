@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱

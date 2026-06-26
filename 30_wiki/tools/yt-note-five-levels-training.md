@@ -7,7 +7,7 @@ type: tool
 status: enriched
 domain:
   - learning-methodology- yitang
-- note-taking
+  - note-taking
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -18,12 +18,12 @@ related:
   - '[[yt-model-deep-review-iceberg]]'
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-ai-human-division]]'
-- '[[yt-note-live-field-skill]]'
-- '[[yt-model-ipo-learning-strategy]]'
-- '[[yt-note-deliberate-practice-four-elements]]'
-- '[[yt-note-l4-internalization]]'
+  - '[[yt-note-checklist-concept]]'
+  - '[[yt-note-ai-human-division]]'
+  - '[[yt-note-live-field-skill]]'
+  - '[[yt-model-ipo-learning-strategy]]'
+  - '[[yt-note-deliberate-practice-four-elements]]'
+  - '[[yt-note-l4-internalization]]'
 prerequisites:
 - yt-note-checklist-concept
 - yt-note-ai-human-division

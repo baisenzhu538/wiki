@@ -22,14 +22,14 @@ related:
   - '[[yt-tool-project-health-radar]]'
   - '[[yt-pitch-storytelling]]'
   - '[[yt-tool-onboarding-90day]]'
-- '[[yt-management-strategy-meeting]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[yt-management-founder-role]]'
-- '[[yt-management-company-culture]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-management-strategy-meeting]]'
+  - '[[yt-management-scientific-decision]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-scientific-meetings]]'
+  - '[[yt-management-founder-role]]'
+  - '[[yt-management-company-culture]]'
+  - '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
 contradicts: null
 query_triggers:
 - 战略会怎么开

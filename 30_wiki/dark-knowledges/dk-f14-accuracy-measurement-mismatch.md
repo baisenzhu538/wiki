@@ -18,10 +18,10 @@ related:
   - '[[label-accuracy-standard-alignment]]'
   - '[[dk-p17-accuracy-gap]]'
   - '[[labeling-research-alignment]]'
-- '[[dk-p15-unverified]]'
-- '[[master-decision-hygiene]]'
-- '[[master-ai-info-literacy]]'
-- '[[master-systems-thinking]]'
+  - '[[dk-p15-unverified]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-ai-info-literacy]]'
+  - '[[master-systems-thinking]]'
 pipeline:
 - confidence-enriched
 - confidence-source-cited

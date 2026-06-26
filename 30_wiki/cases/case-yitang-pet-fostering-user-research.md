@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-user-interview-5steps]]"
 ---
 
 # 案例：宠物寄养——观察替代方案

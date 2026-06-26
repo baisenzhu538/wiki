@@ -25,14 +25,14 @@ related:
   - '[[case-lean-adult-education]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-shoe-mvp-evolution]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[tool-lean-fake-product]]"
-- "[[tool-lean-fake-marketing]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[tool-lean-fake-product]]"
+  - "[[tool-lean-fake-marketing]]"
 ---
 
 # 需求找错案例集

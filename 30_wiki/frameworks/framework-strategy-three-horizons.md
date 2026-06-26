@@ -19,9 +19,9 @@ reviewed_by: 欧阳锋
 related:
   - '[[tool-strategy-three-horizons]]'
   - '[[yt-pitch-emotionalization]]'
-- '[[framework-strategy-ansoff]]'
-- '[[framework-strategy-business-design]]'
-- '[[tool-strategy-lifecycle]]'
+  - '[[framework-strategy-ansoff]]'
+  - '[[framework-strategy-business-design]]'
+  - '[[tool-strategy-lifecycle]]'
 ---
 
 # 三个地平线：短中长期业务组合管理

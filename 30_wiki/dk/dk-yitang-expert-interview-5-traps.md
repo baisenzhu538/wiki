@@ -20,7 +20,7 @@ related:
   - '[[dk-demand-hidden-need]]'
   - '[[dk-demand-feature-stacking]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[framework-yitang-expert-interview-10steps]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
 ---
 
 # 专家访谈五大陷阱

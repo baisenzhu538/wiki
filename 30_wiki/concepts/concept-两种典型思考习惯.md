@@ -18,9 +18,9 @@ related:
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[concept-X型Y型决策习惯]]"
-- "[[framework-科学决策三角形]]"
-- "[[framework-高水平共识曲线]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[framework-高水平共识曲线]]"
 ---
 
 # 两种典型思考习惯

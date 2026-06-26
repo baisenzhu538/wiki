@@ -32,13 +32,13 @@ related:
   - '[[tool-ai-skill-engineering-method]]'
   - '[[dk-modeling-ai-without-judgment]]'
   - '[[dk-modeling-ai-self-retrospection]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-weapon-library]]'
-- '[[dk-modeling-ai-without-judgment]]'
-- '[[dk-modeling-counterexample-driven]]'
-- '[[case-modeling-abstraction-reliability-ladder]]'
-- '[[case-truman-ai-skill-engineering-guide]]'
-- '[[case-truman-ai-skill-self-packaging]]'
+  - '[[modeling-three-stages]]'
+  - '[[modeling-weapon-library]]'
+  - '[[dk-modeling-ai-without-judgment]]'
+  - '[[dk-modeling-counterexample-driven]]'
+  - '[[case-modeling-abstraction-reliability-ladder]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
 diagnostic_signals:
 - signal: 封装的 AI skill 运行不稳定、触发条件缺失、示例模板丢失
   framework_lens: 缺少工程化标准和自我审计

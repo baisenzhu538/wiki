@@ -21,15 +21,15 @@ related:
   - '[[yt-business-formula-parameter-iceberg]]'
   - '[[yt-business-formula-six-level-logic]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-product-kernel]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[case-lean-combination-test-paradigm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-product-kernel]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[case-lean-electric-scooter-mvp]]"
+  - "[[case-lean-combination-test-paradigm]]"
 ---
 
 # 精益高手十年修炼地图

@@ -23,13 +23,13 @@ related:
   - '[[framework-ai2041-critical-reading-os]]'
   - '[[tool-ai-cross-reading-method]]'
   - '[[concept-ai-chair-determines-view]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-tech-probability-80-filter]]"
-- "[[framework-wanghuan-ooda-loop]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 
 # AI 预测来源验证检查单

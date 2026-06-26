@@ -1,5 +1,6 @@
 ---
-domain: - entrepreneurship
+domain:
+  - entrepreneurship
 
 
 id: yt-entrepreneur-business-growth

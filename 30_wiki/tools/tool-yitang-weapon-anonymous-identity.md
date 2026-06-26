@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-weapon-field-reconnaissance]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-social-engineering-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-social-engineering-research]]"
 ---
 
 # 武器库策略7：匿名身份访谈

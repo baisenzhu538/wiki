@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-user-direct-interview]]"
-- "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-weapon-user-direct-interview]]"
+  - "[[tool-yitang-user-interview-5steps]]"
 ---
 
 # 招募用户访谈

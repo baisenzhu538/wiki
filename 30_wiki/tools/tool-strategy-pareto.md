@@ -20,7 +20,7 @@ related:
   - '[[tool-strategy-nine-problems]]'
   - '[[tool-yitang-supplier-interview]]'
   - '[[concept-feishu-api-pagination-trap]]'
-- "[[tool-strategy-fishbone]]"
+  - "[[tool-strategy-fishbone]]"
 ---
 
 # 帕雷托图

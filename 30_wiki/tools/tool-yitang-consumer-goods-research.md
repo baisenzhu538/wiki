@@ -35,11 +35,11 @@ related:
   - '[[tool-yitang-store-franchise-research]]'
   - '[[tool-yitang-consulting-business-research]]'
   - '[[tool-yitang-organization-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "（tool-yitang-product-reverse-engineering，待补）"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-field-research]]"
-- "[[yt-research-competitor-toolkit]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "（tool-yitang-product-reverse-engineering，待补）"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[yt-research-competitor-toolkit]]"
 ---
 
 # 消费品调研手段：浅中深三层10大评估法

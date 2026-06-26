@@ -19,8 +19,8 @@ related:
   - '[[dk-yb17-product-lifestyle-photography]]'
   - '[[dk-yb27-pseudo-layer-evasion]]'
   - '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[dk-yb21-ecommerce-pricing-independent-model]]'
-- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

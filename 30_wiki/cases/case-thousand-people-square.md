@@ -27,9 +27,9 @@ related:
   - '[[dk-modeling-expert-consensus-five-percent]]'
   - '[[case-essence-entrepreneurship]]'
   - '[[concept-thousand-people-square]]'
-- '[[concept-thousand-people-square]]'
-- '[[case-personal-map-modeling]]'
-- '[[yt-five-step-method]]'
+  - '[[concept-thousand-people-square]]'
+  - '[[case-personal-map-modeling]]'
+  - '[[yt-five-step-method]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

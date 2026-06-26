@@ -25,11 +25,11 @@ related:
   - '[[yt-research-action-camp-launch]]'
   - '[[yt-personal-pan-product-aesthetics]]'
   - '[[yt-personal-thinking-models]]'
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-pan-product-execution-toolkit]]'
-- '[[yt-personal-pan-product-concepts]]'
-- '[[case-truman-prd-checklist-evolution]]'
+  - '[[yt-model-pan-product-demand-toolkit]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[case-truman-prd-checklist-evolution]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_e6643d52-个人修炼-泛产品设计工具篇

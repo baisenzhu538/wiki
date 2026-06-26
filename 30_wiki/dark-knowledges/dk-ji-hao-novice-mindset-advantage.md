@@ -20,8 +20,8 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-ji-hao-ai-cant-design-structure]]'
   - '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[case-ji-hao-ui-design-constraint-evolution]]'
-- '[[case-ji-hao-ai-workspace-chaos]]'
+  - '[[case-ji-hao-ui-design-constraint-evolution]]'
+  - '[[case-ji-hao-ai-workspace-chaos]]'
 pipeline:
 - confidence-published
 - confidence-source-cited

@@ -1,5 +1,6 @@
 ---
-domain: - learning-methodology
+domain:
+  - learning-methodology
 
 
 id: yt-note-three-level-evolution

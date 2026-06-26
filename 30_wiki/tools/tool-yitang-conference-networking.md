@@ -20,7 +20,7 @@ related:
   - '[[tool-yitang-bidding-analysis]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[tool-yitang-weapon-industry-expert]]"
+  - "[[tool-yitang-weapon-industry-expert]]"
 ---
 
 # 行业会议/论坛情报

@@ -21,9 +21,9 @@ related:
   - '[[tool-strategy-core-competence-matrix]]'
   - '[[tool-strategy-swot]]'
   - '[[tool-strategy-value-proposition]]'
-- '[[framework-strategy-five-forces]]'
-- '[[tool-strategy-core-competence-matrix]]'
-- '[[tool-strategy-swot]]'
+  - '[[framework-strategy-five-forces]]'
+  - '[[tool-strategy-core-competence-matrix]]'
+  - '[[tool-strategy-swot]]'
 ---
 
 # 关键成功因素（KSF）分析工具

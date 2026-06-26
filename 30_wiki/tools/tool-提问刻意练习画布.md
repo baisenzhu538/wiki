@@ -18,11 +18,11 @@ related:
   - '[[yt-model-questioning-practice-canvas]]'
   - '[[yt-model-scientific-questioning-map]]'
   - '[[tool-完整财务公式决策]]'
-- "[[framework-TCPR底层网络协议]]"
-- "[[tool-科学提问刻意练习]]"
-- "[[concept-思考深度分级]]"
-- "[[concept-X型Y型决策习惯]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[tool-科学提问刻意练习]]"
+  - "[[concept-思考深度分级]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 提问刻意练习画布

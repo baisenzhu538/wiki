@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -30,14 +30,14 @@ related:
   - '[[yt-lean-essence]]'
   - '[[yt-lean-beauty-store-conversion]]'
   - '[[yt-lean-assumption-prioritization]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-lean-assumption-prioritization]]'
-- '[[yt-lean-qualitative-quantitative-research]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-key-assumptions]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 diagnostic_signals:
 - signal: 团队还没做访谈调研就要直接开发完整产品或跑大规模实验
   framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序

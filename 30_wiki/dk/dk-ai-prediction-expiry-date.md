@@ -24,17 +24,17 @@ related:
   - '[[tool-ai-cross-reading-method]]'
   - '[[dk-ai-social-progress-not-automatic]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-tech-probability-80-filter]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[tool-ai2041-source-verification-checklist]]"
-- "[[case-ai-job-displacement-wef]]"
-- "[[case-deepfake-market-misuse]]"
-- "[[case-ai-companion-emotional]]"
-- "[[case-roblox-ai-npc-education]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[case-ai-job-displacement-wef]]"
+  - "[[case-deepfake-market-misuse]]"
+  - "[[case-ai-companion-emotional]]"
+  - "[[case-roblox-ai-npc-education]]"
 ---
 
 # AI 预言的保质期

@@ -6,9 +6,9 @@ type: tool
 title: voice input doubao
 domain:
   - ai-collaboration- product
-- ai-saas
-- decision-making
-- yitang
+  - ai-saas
+  - decision-making
+  - yitang
 status: enriched
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
@@ -20,8 +20,8 @@ related:
   - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
   - '[[skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
   - '[[sk-ai-prd-for-ai]]'
-- '[[course-to-skill-conversion]]'
-- '[[prd-as-ai-instruction]]'
+  - '[[course-to-skill-conversion]]'
+  - '[[prd-as-ai-instruction]]'
 query_triggers:
 - 语音输入怎么用
 - 豆包输入法

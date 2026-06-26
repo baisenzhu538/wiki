@@ -19,9 +19,9 @@ related:
   - '[[dk-demand-misjudgment-rate]]'
   - '[[case-milktea-five-step]]'
   - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[yt-tool-product-core-canvas]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+  - '[[yt-tool-product-core-canvas]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'

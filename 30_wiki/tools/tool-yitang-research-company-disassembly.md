@@ -34,16 +34,16 @@ related:
   - '[[yt-business-model-asset-light]]'
   - '[[tool-yitang-research-industry-scan]]'
   - '[[tool-yitang-research-competitor-tracking]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-industry-scan]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-survivor-bias-in-research]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 公司拆解：深度分析竞争对手的六维框架

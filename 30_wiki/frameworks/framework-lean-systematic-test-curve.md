@@ -28,13 +28,13 @@ related:
   - '[[case-lean-gray-test-paradigm]]'
   - '[[case-lean-combination-test-paradigm]]'
   - '[[case-lean-crayfish-combo-test]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[concept-一堂-kernel-validation]]"
-- "[[case-lean-gray-test-paradigm]]"
-- "[[case-lean-combination-test-paradigm]]"
-- "[[framework-ai-accelerated-strategy-cycle]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-lean-gray-test-paradigm]]"
+  - "[[case-lean-combination-test-paradigm]]"
+  - "[[framework-ai-accelerated-strategy-cycle]]"
 ---
 
 # 系统测试曲线与三大测试范式

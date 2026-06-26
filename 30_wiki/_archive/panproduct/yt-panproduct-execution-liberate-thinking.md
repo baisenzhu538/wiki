@@ -31,8 +31,8 @@ related:
   - '[[tool-泛产品落地-风险管理]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[yt-model-liberate-thinking-layers]]'
-- '[[tool-泛产品落地-灵感闪现]]'
+  - '[[yt-model-liberate-thinking-layers]]'
+  - '[[tool-泛产品落地-灵感闪现]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想

@@ -7,7 +7,7 @@ created_at: 2026-05-24
 difficulty: intermediate
 domain:
   - yitang- entrepreneur
-- master
+  - master
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -24,18 +24,18 @@ related:
   - '[[yt-tool-unit-model-selection]]'
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[sk-ai-purpose-bias-check]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-benchmark]]'
-- '[[yt-unit-model-build]]'
-- '[[case-unit-model-gashapon]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-decision-y-model]]'
-- '[[master-systems-thinking]]'
-- '[[yt-unit-model-concept]]'
-- '[[yt-entrepreneur-unit-model]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-benchmark]]'
+  - '[[yt-unit-model-build]]'
+  - '[[case-unit-model-gashapon]]'
+  - '[[yt-unit-model-dynamic]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-decision-y-model]]'
+  - '[[master-systems-thinking]]'
+  - '[[yt-unit-model-concept]]'
+  - '[[yt-entrepreneur-unit-model]]'
 source_refs: []
 status: enriched
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元

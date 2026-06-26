@@ -21,8 +21,8 @@ related:
   - '[[tool-yitang-weapon-partner-research]]'
   - '[[dk-yitang-research-question-quality]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 ---
 
 # 调研深度决定决策质量

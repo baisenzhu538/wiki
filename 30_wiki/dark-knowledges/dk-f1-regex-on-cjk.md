@@ -19,11 +19,11 @@ related:
   - '[[sprint-2-gate-enrich-evidence]]'
   - '[[dk-f6-cjk-skeleton-corruption]]'
   - '[[dk-c4-selfcheck-superseded]]'
-- '[[dk-c1-cjk-regex-silent-fail]]'
-- '[[dk-f2-txt-ingest-skip]]'
-- '[[dk-f6-cjk-skeleton-corruption]]'
-- '[[dk-p11-regex-cutoff]]'
-- '[[master-ai-info-literacy]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[dk-f2-txt-ingest-skip]]'
+  - '[[dk-f6-cjk-skeleton-corruption]]'
+  - '[[dk-p11-regex-cutoff]]'
+  - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

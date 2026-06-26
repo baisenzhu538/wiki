@@ -17,7 +17,7 @@ related:
   - '[[case-strategy-revival-13-bestore]]'
   - '[[case-strategy-practice-11-third-place]]'
   - '[[case-strategy-cool-boiled-water]]'
-- "[[tool-strategy-four-moves]]"
+  - "[[tool-strategy-four-moves]]"
 ---
 **困境**：数码相机毁灭胶卷行业→柯达倒闭
 **转机**：乐凯的核心技术是"光学薄膜涂层"→迁移到液晶面板/光伏薄膜→新赛道存活

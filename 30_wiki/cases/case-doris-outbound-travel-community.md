@@ -20,7 +20,7 @@ related:
   - '[[case-yitang-travel-receipt-analysis]]'
   - '[[case-doris-2014-music-streaming-prediction]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-doris-industry-report-4step]]"
+  - "[[framework-doris-industry-report-4step]]"
 ---
 
 # 案例：出境游产业链拆解

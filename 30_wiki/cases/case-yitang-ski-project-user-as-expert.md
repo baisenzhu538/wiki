@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-doorstep-nail-service-context]]'
   - '[[case-yitang-ai-time-management-coach]]'
   - '[[case-yitang-mvp-reward-interview-waste]]'
-- "[[framework-yitang-expert-interview-10steps]]"
-- "[[tool-yitang-user-interview-5steps]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
+  - "[[tool-yitang-user-interview-5steps]]"
 ---
 
 # 案例：滑雪项目——把重度用户当专家

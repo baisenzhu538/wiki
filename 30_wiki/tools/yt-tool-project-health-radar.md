@@ -23,11 +23,11 @@ related:
   - '[[yt-tool-onboarding-90day]]'
   - '[[yt-tool-equity-checklist]]'
   - '[[system-yitang-research-workflow]]'
-- '[[yt-tool-okr-cycle]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[yt-management-project-management]]'
-- '[[tool-泛产品落地-风险管理]]'
+  - '[[yt-tool-okr-cycle]]'
+  - '[[yt-management-goal-management]]'
+  - '[[yt-management-scientific-meetings]]'
+  - '[[yt-management-project-management]]'
+  - '[[tool-泛产品落地-风险管理]]'
 contradicts: null
 query_triggers:
 - 项目健康度检查

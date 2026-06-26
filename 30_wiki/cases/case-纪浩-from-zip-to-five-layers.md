@@ -19,12 +19,12 @@ related:
   - '[[case-ai-assisted-review]]'
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[case-ji-hao-skills-market]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[skill-纪浩-真需求四要素验证法]]'
-- '[[skill-纪浩-日志驱动排查法]]'
-- '[[case-纪浩-focus-prompt-design]]'
-- '[[case-半肥猫-course-to-skill]]'
-- '[[dk-ji-hao-pdca-starts-from-do]]'
+  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - '[[skill-纪浩-真需求四要素验证法]]'
+  - '[[skill-纪浩-日志驱动排查法]]'
+  - '[[case-纪浩-focus-prompt-design]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[dk-ji-hao-pdca-starts-from-do]]'
 created_at: 2026-06-08
 updated_at: '2026-06-17'
 pipeline:

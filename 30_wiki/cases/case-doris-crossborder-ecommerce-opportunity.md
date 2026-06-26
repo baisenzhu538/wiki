@@ -20,7 +20,7 @@ related:
   - '[[case-popmart-prospectus-pricing]]'
   - '[[case-doris-outbound-travel-community]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[framework-doris-industry-report-4step]]"
+  - "[[framework-doris-industry-report-4step]]"
 ---
 
 # 案例：跨境电商机会识别

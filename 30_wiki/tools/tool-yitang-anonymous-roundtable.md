@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-anonymous-identity]]"
-- "[[tool-yitang-conference-networking]]"
+  - "[[tool-yitang-weapon-anonymous-identity]]"
+  - "[[tool-yitang-conference-networking]]"
 ---
 
 # 匿名座谈

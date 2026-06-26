@@ -30,9 +30,9 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[yt-tool-mental-model-refinement]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-personal-pan-product-aesthetics]]'
-- '[[yt-tool-mental-model-refinement]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
+  - '[[yt-tool-mental-model-refinement]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

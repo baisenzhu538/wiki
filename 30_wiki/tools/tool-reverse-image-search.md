@@ -21,8 +21,8 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[tool-osint-wayback]]'
   - '[[tool-alt-data-overview]]'
-- "[[tool-osint-overview]]"
-- "[[tool-media-verification-overview]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-media-verification-overview]]"
 ---
 
 # 反向图片搜索

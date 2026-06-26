@@ -18,10 +18,10 @@ related:
   - '[[yt-skill-storyline-problem-solving]]'
   - '[[tool-Y模型实操工作流]]'
   - '[[dk-你的业务是一次抽样实验]]'
-- "[[tool-决策深度-L2部分定量]]"
-- "[[tool-决策深度-L4严格财务公式]]"
-- "[[framework-科学决策三角形]]"
-- "[[yt-unit-model-overview]]"
+  - "[[tool-决策深度-L2部分定量]]"
+  - "[[tool-决策深度-L4严格财务公式]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[yt-unit-model-overview]]"
 ---
 
 # 决策深度L3：定量公式

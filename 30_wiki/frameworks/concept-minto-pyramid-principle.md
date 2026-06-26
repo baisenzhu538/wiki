@@ -7,7 +7,7 @@ type: framework
 status: enriched
 domain:
   - management- consulting
-- yitang
+  - yitang
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 bridges_to:
@@ -39,15 +39,15 @@ related:
   - '[[yt-personal-ai-thinking-card]]'
   - '[[concept-mckinsey-mece]]'
   - '[[dk-modeling-ai-iterative-prompting]]'
-- '[[concept-mckinsey-mece]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-mckinsey-7s]]'
-- '[[skill-一堂-kernel-three-questions]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-pitch-storytelling]]'
-- '[[case-truman-sales-report-structure]]'
+  - '[[concept-mckinsey-mece]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[concept-mckinsey-7s]]'
+  - '[[skill-一堂-kernel-three-questions]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-pitch-storytelling]]'
+  - '[[case-truman-sales-report-structure]]'
 tags:
 - '#scene/business-analysis'
 - '#scene/communication'

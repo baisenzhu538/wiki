@@ -24,12 +24,12 @@ related:
   - '[[dk-yitang-business-model-risk-over-product-risk]]'
   - '[[case-lean-2b-gray-test]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[framework-lean-four-principles]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[framework-lean-four-principles]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
 ---
 
 # 元气森林试错工具箱

@@ -31,7 +31,7 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[ai-collaboration-mindset-shift]]'
+  - '[[ai-collaboration-mindset-shift]]'
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师

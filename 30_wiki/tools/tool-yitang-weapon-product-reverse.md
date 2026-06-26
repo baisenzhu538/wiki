@@ -21,10 +21,10 @@ related:
   - '[[tool-yitang-weapon-insider-intelligence]]'
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-consumer-goods-research]]"
-- "[[tool-yitang-tech-project-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-consumer-goods-research]]"
+  - "[[tool-yitang-tech-project-research]]"
 ---
 
 # 武器库策略13：产品逆向/拆解

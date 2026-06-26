@@ -19,10 +19,10 @@ related:
   - '[[dk-p1-model-switch-env]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[obsidian-git-sync-protocol]]'
-- '[[master-systems-thinking]]'
-- '[[master-decision-hygiene]]'
-- '[[dk-p13-token-burn]]'
-- '[[dk-p6-session-resume-fail]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-decision-hygiene]]'
+  - '[[dk-p13-token-burn]]'
+  - '[[dk-p6-session-resume-fail]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

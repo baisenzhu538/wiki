@@ -11,7 +11,7 @@ status: enriched
 confidence: 0.7
 domain:
   - modeling- yitang
-- kdo
+  - kdo
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
@@ -23,10 +23,10 @@ related:
   - '[[business-formula-to-kdo-card-quality]]'
   - '[[modeling-to-kdo-toolchain]]'
   - '[[modeling-capability-for-kdo]]'
-- '[[modeling-capability-for-kdo]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-to-kdo-toolchain]]'
-- '[[case-truman-personal-growth-map-creation]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[modeling-three-stages]]'
+  - '[[modeling-to-kdo-toolchain]]'
+  - '[[case-truman-personal-growth-map-creation]]'
 tags:
 - '#method/modeling'
 - '#content-format/framework'

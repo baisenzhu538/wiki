@@ -21,8 +21,8 @@ related:
   - '[[concept-yitang-ideal-research-goal]]'
   - '[[dk-yitang-ai-research-prompt-craft]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-public-info-is-enough]]"
-- "[[tool-yitang-financial-report-intelligence]]"
+  - "[[dk-yitang-public-info-is-enough]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
 ---
 
 # 做重要设计前先摸行业最佳实践

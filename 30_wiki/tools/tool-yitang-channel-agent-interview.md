@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'
   - '[[tool-yitang-supplier-interview]]'
-- "[[tool-yitang-weapon-partner-research]]"
-- "[[tool-yitang-supply-chain-research]]"
+  - "[[tool-yitang-weapon-partner-research]]"
+  - "[[tool-yitang-supply-chain-research]]"
 ---
 
 # 渠道/代理商访谈

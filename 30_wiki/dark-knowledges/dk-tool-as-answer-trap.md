@@ -22,11 +22,11 @@ related:
   - '[[dk-modeling-question-scaffold-not-answer]]'
   - '[[tool-scenario-selector-modeling]]'
   - '[[dk-tool-as-phased-validator]]'
-- '[[yt-lean-assumption-prioritization]]'
-- '[[yt-tob-product-kernel]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[dk-modeling-radar-model-not-result]]'
+  - '[[yt-lean-assumption-prioritization]]'
+  - '[[yt-tob-product-kernel]]'
+  - '[[tool-checklist-cheatsheet-modeling]]'
+  - '[[dk-tool-as-phased-validator]]'
+  - '[[dk-modeling-radar-model-not-result]]'
 bridges_to:
 - yt-lean-assumption-prioritization
 - yt-tob-product-kernel

@@ -22,10 +22,10 @@ related:
   - '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
   - '[[tool-泛产品落地-十倍速验证]]'
   - '[[tool-lean-fake-product]]'
-- "[[framework-lean-false-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[concept-一堂-kernel-validation]]"
 ---
 
 # 十倍速公式：避免系统性失败

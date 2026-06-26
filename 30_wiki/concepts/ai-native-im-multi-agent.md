@@ -10,8 +10,8 @@ confidence: 0.85
 trust_level: medium-high
 domain:
   - ai-saas- ai
-- product
-- ai-collaboration
+  - product
+  - ai-collaboration
 source_refs:
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
@@ -20,7 +20,7 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[ai-complex-communication]]'
-- '[[industrial-ai-ops-cases]]'
+  - '[[industrial-ai-ops-cases]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

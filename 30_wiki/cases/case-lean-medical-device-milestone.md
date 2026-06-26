@@ -27,14 +27,14 @@ related:
   - '[[case-lean-adult-education]]'
   - '[[case-lean-shoe-mvp-evolution]]'
   - '[[case-lean-premature-expansion]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-six-wastes]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[tool-泛产品落地-低成本测试MVP]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[concept-一堂-kernel-validation]]"
 ---
 
 # 医疗器械项目里程碑测试

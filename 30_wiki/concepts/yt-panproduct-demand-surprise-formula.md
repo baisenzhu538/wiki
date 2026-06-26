@@ -29,9 +29,9 @@ related:
   - '[[tool-泛产品落地-业务建模]]'
   - '[[yt-panproduct-demand-industry-canvas]]'
   - '[[tool-泛产品落地-灵感闪现]]'
-- '[[yt-panproduct-demand-peak-end-rule]]'
-- '[[yt-model-product-excellence]]'
-- '[[yt-panproduct-aesthetic-imagination]]'
+  - '[[yt-panproduct-demand-peak-end-rule]]'
+  - '[[yt-model-product-excellence]]'
+  - '[[yt-panproduct-aesthetic-imagination]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式

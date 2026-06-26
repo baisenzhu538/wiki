@@ -21,8 +21,8 @@ related:
   - '[[tool-agent-native-overview]]'
   - '[[framework-yitang-research-weapon-supplement-2026]]'
   - '[[tool-yitang-web-scraping-research]]'
-- "[[tool-agent-native-overview]]"
-- "[[tool-yitang-ai-research-workflow]]"
+  - "[[tool-agent-native-overview]]"
+  - "[[tool-yitang-ai-research-workflow]]"
 ---
 
 # MCP协议

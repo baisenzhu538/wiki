@@ -18,9 +18,9 @@ related:
   - '[[tool-最佳实践收集]]'
   - '[[concept-最佳实践建模]]'
   - '[[concept-稀缺机会窗口]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 审美工具箱：产品审美的诊断和提升工具集合

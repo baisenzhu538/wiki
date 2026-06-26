@@ -32,11 +32,11 @@ related:
   - '[[tool-sop-template-modeling]]'
   - '[[case-modeling-process-sop-examples]]'
   - '[[case-modeling-process-sop-evolution]]'
-- "process-modeling"
-- "case-modeling-process-livestream-roles"
-- "case-modeling-process-sop-evolution"
-- "case-modeling-process-sop-examples"
-- "dk-modeling-sop-execution-locks"
+  - "process-modeling"
+  - "case-modeling-process-livestream-roles"
+  - "case-modeling-process-sop-evolution"
+  - "case-modeling-process-sop-examples"
+  - "dk-modeling-sop-execution-locks"
 diagnostic_signals:
 - signal: 用户说"每次重要演讲/直播/会议前都靠临场发挥，状态忽好忽坏"
   framework_lens: 流程建模 + 个人状态 SOP

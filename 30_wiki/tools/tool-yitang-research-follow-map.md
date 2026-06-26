@@ -34,16 +34,16 @@ related:
   - '[[tool-yitang-research-two-dimensional-positioning]]'
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-single-point-sniper]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitive-quadrant]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-research-best-practice]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "（case-yitang-haidilao-service-research，待补）"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-competitive-quadrant]]"
+  - "[[tool-yitang-research-two-dimensional-positioning]]"
+  - "[[tool-yitang-research-best-practice]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "（case-yitang-haidilao-service-research，待补）"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-survivor-bias-in-research]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 按图索骥：根据定位寻找对标案例

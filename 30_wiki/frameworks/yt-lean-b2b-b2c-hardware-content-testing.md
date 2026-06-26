@@ -7,8 +7,8 @@ type: framework
 status: draft
 domain:
   - lean-startup- yitang
-- entrepreneurship
-- business-strategy
+  - entrepreneurship
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -30,13 +30,13 @@ related:
   - '[[yt-demand-b2b-vs-b2c]]'
   - '[[dk-tool-as-answer-trap]]'
   - '[[dk-tool-as-phased-validator]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-lean-assumption-verification-3means]]'
-- '[[yt-lean-consumer-deep-experience-testing]]'
+  - '[[yt-entrepreneur-lean-validation]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-lean-assumption-verification-3means]]'
+  - '[[yt-lean-consumer-deep-experience-testing]]'
 diagnostic_signals:
 - signal: 团队用同一套灰度/A/B测试方法同时跑ToC、ToB、硬件、内容四个业务
   framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配

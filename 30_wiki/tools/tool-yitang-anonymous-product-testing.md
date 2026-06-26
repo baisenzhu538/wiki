@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-shareholder-analysis]]'
   - '[[tool-yitang-anonymous-roundtable]]'
   - '[[tool-yitang-bp-analysis]]'
-- "[[tool-yitang-weapon-full-product-experience]]"
-- "[[tool-yitang-online-product-experience]]"
+  - "[[tool-yitang-weapon-full-product-experience]]"
+  - "[[tool-yitang-online-product-experience]]"
 ---
 
 # 匿名产品体验

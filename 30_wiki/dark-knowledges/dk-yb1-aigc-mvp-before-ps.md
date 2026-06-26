@@ -20,9 +20,9 @@ related:
   - '[[dk-yb6-midjourney-chinese-text-fix]]'
   - '[[dk-yb23-ai-pre-screen-three-minutes]]'
   - '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb5-style-asset-archive]]'
-- '[[dk-yb8-file-naming-eight-elements]]'
-- '[[dk-yb7-design-demand-80-10-10]]'
+  - '[[dk-yb5-style-asset-archive]]'
+  - '[[dk-yb8-file-naming-eight-elements]]'
+  - '[[dk-yb7-design-demand-80-10-10]]'
 pipeline:
 - confidence-source-cited
 author: 月白

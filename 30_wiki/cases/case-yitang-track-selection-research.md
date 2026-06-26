@@ -20,8 +20,8 @@ related:
   - '[[case-yitang-ai-time-management-coach]]'
   - '[[case-yitang-ski-project-user-as-expert]]'
   - '[[case-yitang-homestay-reception-design]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[yt-research-osl-framework]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[yt-research-osl-framework]]"
 ---
 
 # 案例：一堂赛道选择——自己用调研方法论选方向

@@ -25,9 +25,9 @@ related:
   - '[[yt-model-product-excellence]]'
   - '[[tool-泛产品落地-设计原则]]'
   - '[[yt-panproduct-aesthetic-collection]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-personal-pan-product-concepts]]'
-- '[[yt-model-liberate-thinking-layers]]'
+  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - '[[yt-personal-pan-product-concepts]]'
+  - '[[yt-model-liberate-thinking-layers]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_d7218337-泛产品设计审美卡片

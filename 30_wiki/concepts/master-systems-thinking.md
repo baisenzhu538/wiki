@@ -1,5 +1,6 @@
 ---
-domain: - master
+domain:
+  - master
 
 id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点

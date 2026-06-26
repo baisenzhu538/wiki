@@ -23,18 +23,18 @@ related:
   - '[[case-ai-companion-emotional]]'
   - '[[dk-ai-social-progress-not-automatic]]'
   - '[[dk-ai-scarcest-resource-is-self]]'
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-ai2041-critical-reading-os]]"
-- "[[framework-ai-deconstruction-methodology]]"
-- "[[tool-ai-critical-reading-three-layers]]"
-- "[[tool-tech-probability-80-filter]]"
-- "[[concept-ai-amara-law-business-judgment]]"
-- "[[concept-ai-chair-determines-view]]"
-- "[[concept-ai-neutrality-bias]]"
-- "[[case-chen-qiufan-ai-writing]]"
-- "[[case-cambridge-novelists-survey]]"
-- "[[case-ai-companion-emotional]]"
-- "[[dk-ai-scarcest-resource-is-self]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[concept-ai-neutrality-bias]]"
+  - "[[case-chen-qiufan-ai-writing]]"
+  - "[[case-cambridge-novelists-survey]]"
+  - "[[case-ai-companion-emotional]]"
+  - "[[dk-ai-scarcest-resource-is-self]]"
 ---
 
 # Roblox AI NPC 与教育场景

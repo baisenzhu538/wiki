@@ -7,9 +7,9 @@ type: framework
 status: draft
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -33,12 +33,12 @@ related:
   - '[[yt-tob-cash-flow]]'
   - '[[yt-tob-solution-model]]'
   - '[[yt-tob-unit-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-lean-growth-stage-gate]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-lean-growth-stage-gate]]'
+  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 diagnostic_signals:
 - signal: 团队内部十个销售写卖点，写出的核心卖点各不相同
   framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿

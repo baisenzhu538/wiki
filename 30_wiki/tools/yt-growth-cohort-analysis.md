@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪

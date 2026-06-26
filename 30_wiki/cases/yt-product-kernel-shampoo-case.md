@@ -1,5 +1,6 @@
 ---
-domain: - product
+domain:
+  - product
 
 id: yt-product-kernel-shampoo-case
 title: 洗发水案例：产品内核实战——从"去屑"到"专业形象"

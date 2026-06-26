@@ -19,9 +19,9 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-p15-unverified]]'
-- '[[dk-p15-unverified]]'
-- '[[dk-f9-generic-critique]]'
-- '[[master-decision-hygiene]]'
+  - '[[dk-p15-unverified]]'
+  - '[[dk-f9-generic-critique]]'
+  - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

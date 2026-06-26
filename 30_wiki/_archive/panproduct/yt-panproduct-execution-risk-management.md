@@ -31,10 +31,10 @@ related:
   - '[[tool-泛产品落地-努力仿真]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[tool-泛产品落地-善用佳软]]'
-- '[[tool-泛产品落地-里程碑拆解]]'
-- '[[tool-泛产品落地-假设拆解]]'
-- '[[yt-model-deep-review-iceberg]]'
-- '[[master-antifragile-checklist]]'
+  - '[[tool-泛产品落地-里程碑拆解]]'
+  - '[[tool-泛产品落地-假设拆解]]'
+  - '[[yt-model-deep-review-iceberg]]'
+  - '[[master-antifragile-checklist]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理

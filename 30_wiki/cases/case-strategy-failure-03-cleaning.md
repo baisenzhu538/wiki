@@ -19,7 +19,7 @@ related:
   - '[[case-strategy-failure-05-it]]'
   - '[[case-strategy-failure-04-appliance]]'
   - '[[case-strategy-failure-09-boeing]]'
-- "[[tool-strategy-nine-problems]]"
+  - "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：销售额持续下滑
 **战略根因**：定位错误——为了利润做高端，结果低端市场被竞品蚕食，高端又没有品牌支撑

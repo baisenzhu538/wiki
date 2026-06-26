@@ -17,12 +17,12 @@ source_refs:
 related:
   - '[[case-strategy-snack-business-design]]'
   - '[[framework-strategy-business-design]]'
-- "[[framework-strategy-business-design]]"
-- "[[tool-strategy-customer-selection]]"
-- "[[tool-strategy-value-proposition]]"
-- "[[tool-strategy-activity-scope]]"
-- "[[case-strategy-snack-business-design]]"
-- "[[case-strategy-snack-industry-chain]]"
+  - "[[framework-strategy-business-design]]"
+  - "[[tool-strategy-customer-selection]]"
+  - "[[tool-strategy-value-proposition]]"
+  - "[[tool-strategy-activity-scope]]"
+  - "[[case-strategy-snack-business-design]]"
+  - "[[case-strategy-snack-industry-chain]]"
 ---
 **案例**：国产零食已借助跨境电商与海外渠道网络进入 220 个国家和地区，美、英、澳、德为最受欢迎市场。数据来自亿邦动力。
 

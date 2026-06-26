@@ -33,12 +33,12 @@ related:
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-competitor-tracking]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[tool-yitang-research-intelligence-map-in-hand]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-yitang-research-intelligence-map-in-hand]]"
+  - "[[dk-yitang-research-source-freshness]]"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 持续跟踪：建立动态信息监控机制

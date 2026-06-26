@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-monetization-optimization
 title: 变现优化：从免费到付费

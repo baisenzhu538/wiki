@@ -27,15 +27,15 @@ related:
   - '[[dk-yitang-business-model-risk-over-product-risk]]'
   - '[[case-cross-yuanqi-forest]]'
   - '[[framework-five-step-lean-interface]]'
-- "[[framework-lean-false-model]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[yt-decision-y-model]]"
-- "[[yt-tool-y-model-ruler]]"
-- "[[framework-strategy-brm]]"
-- "[[framework-strategy-six-stages]]"
-- "[[strategy-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-tool-y-model-ruler]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-six-stages]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
 ---
 
 # 精益验证结果如何触发战略/产品 pivot

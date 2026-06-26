@@ -18,11 +18,11 @@ related:
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-单元模型-学练用]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[framework-问题边界与Problem澄清五层结构]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[framework-问题边界与Problem澄清五层结构]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 个人成长五步法

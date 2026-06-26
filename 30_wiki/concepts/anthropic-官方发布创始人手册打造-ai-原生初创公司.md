@@ -20,10 +20,10 @@ related:
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[yt-management-toolkit-overview]]'
-- '[[yt-model-dual-triangle-competitiveness]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tool-meeting-designer]]'
+  - '[[yt-management-toolkit-overview]]'
+  - '[[yt-model-dual-triangle-competitiveness]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-tool-meeting-designer]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md

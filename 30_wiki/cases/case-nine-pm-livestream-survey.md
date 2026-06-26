@@ -32,8 +32,8 @@ related:
   - '[[case-yitang-weekly-modeling-engine]]'
   - '[[case-essence-entrepreneurship]]'
   - '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-- '[[concept-thousand-people-square]]'
-- '[[case-yitang-radar-chart-selection]]'
+  - '[[concept-thousand-people-square]]'
+  - '[[case-yitang-radar-chart-selection]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

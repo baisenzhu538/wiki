@@ -41,13 +41,13 @@ related:
   - '[[dk-wanghuan-paced-sales-decision]]'
   - '[[case-wanghuan-education-sales-paced]]'
   - '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[tool-wanghuan-ai-dual-role-coach]]'
-- '[[concept-wanghuan-tacit-knowledge-examples]]'
-- '[[framework-wanghuan-task-product-system]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[dk-wanghuan-paced-sales-decision]]'
+  - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[tool-wanghuan-ai-dual-role-coach]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[framework-wanghuan-task-product-system]]'
 tags:
 - 王欢
 - 案例

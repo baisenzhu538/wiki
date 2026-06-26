@@ -35,10 +35,10 @@ related:
   - '[[tool-yitang-consulting-business-research]]'
   - '[[tool-yitang-organization-research]]'
   - '[[tool-yitang-b2b-gov-research]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "（tool-yitang-product-reverse-engineering，待补）"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[yt-research-competitor-toolkit]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "（tool-yitang-product-reverse-engineering，待补）"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[yt-research-competitor-toolkit]]"
 ---
 
 # 科技型项目调研手段：浅中深三层10大评估法

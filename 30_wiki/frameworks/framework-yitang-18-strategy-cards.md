@@ -31,19 +31,19 @@ source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
   - '[[yt-management-company-culture]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[framework-yitang-research-weapon-supplement-2026]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[yt-research-intelligence-map]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[yt-research-mindset]]"
-- "[[tool-yitang-research-validate-assumption]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[tool-yitang-research-company-disassembly]]"
-- "[[tool-key-assumptions-check]]"
-- "[[tool-devils-advocacy]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[framework-yitang-research-weapon-supplement-2026]]"
+  - "[[framework-yitang-four-research-types]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[yt-research-mindset]]"
+  - "[[tool-yitang-research-validate-assumption]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-yitang-research-industry-scan]]"
+  - "[[tool-yitang-research-company-disassembly]]"
+  - "[[tool-key-assumptions-check]]"
+  - "[[tool-devils-advocacy]]"
 ---
 
 # 降龙十八掌：18张调研策略卡全景图

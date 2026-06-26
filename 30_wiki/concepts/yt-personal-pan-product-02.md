@@ -25,12 +25,12 @@ related:
   - '[[yt-panproduct-aesthetic-modeling]]'
   - '[[ocr-truman的选择两条职业成长路线]]'
   - '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-pan-product-execution-toolkit]]'
-- '[[yt-personal-pan-product-practice]]'
-- '[[yt-personal-pan-product-aesthetics]]'
-- '[[yt-model-y-organization]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[yt-model-personal-pitch-toolkit]]'
+  - '[[yt-model-pan-product-execution-toolkit]]'
+  - '[[yt-personal-pan-product-practice]]'
+  - '[[yt-personal-pan-product-aesthetics]]'
+  - '[[yt-model-y-organization]]'
+  - '[[yt-concept-weapon-arsenal]]'
+  - '[[yt-model-personal-pitch-toolkit]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_e4b635ac-ocr-泛产品设计落地篇

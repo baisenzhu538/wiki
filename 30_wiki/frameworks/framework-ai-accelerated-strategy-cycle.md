@@ -27,15 +27,15 @@ related:
   - '[[yt-lean-false-model-ai]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[dk-wanghuan-magic-defeats-magic]]'
-- "[[framework-multi-agent-research-architecture]]"
-- "[[framework-wanghuan-harness-seven-stages]]"
-- "[[framework-lean-false-model]]"
-- "[[framework-strategy-brm]]"
-- "[[framework-lean-systematic-test-curve]]"
-- "[[yt-decision-y-model]]"
-- "[[strategy-domain-digest]]"
-- "[[lean-startup-domain-digest]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[yt-decision-y-model]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # AI 加速的战略-验证闭环

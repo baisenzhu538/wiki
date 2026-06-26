@@ -33,9 +33,9 @@ related:
   - '[[dk-strategy-07-strategy-vs-dividend]]'
   - '[[skill-月白-里程碑思维拆解设计流程]]'
   - '[[tool-yitang-weapon-user-direct-interview]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-field-research]]"
-- "[[yt-research-user-jtbd]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-field-research]]"
+  - "[[yt-research-user-jtbd]]"
 ---
 
 # 用户访谈五步执行法：画像·场景·信任·提问·判断

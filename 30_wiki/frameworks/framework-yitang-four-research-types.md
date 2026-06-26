@@ -35,16 +35,16 @@ related:
   - '[[framework-yitang-high-level-plan]]'
   - '[[framework-yitang-research-radar]]'
   - '[[framework-yitang-high-level-execution]]'
-- "[[framework-yitang-research-radar]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[yt-research-osl-framework]]"
-- "[[yt-research-mindset]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-desperate-effort]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-reverse-data-analysis]]"
+  - "[[framework-yitang-research-radar]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-mindset]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "[[dk-yitang-research-desperate-effort]]"
+  - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
 ---
 
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式

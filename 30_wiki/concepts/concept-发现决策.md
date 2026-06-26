@@ -18,9 +18,9 @@ related:
   - '[[tool-审美工具箱]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-X型Y型决策习惯]]"
-- "[[concept-稀缺机会窗口]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[concept-稀缺机会窗口]]"
 ---
 
 # 发现决策

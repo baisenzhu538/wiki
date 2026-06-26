@@ -18,11 +18,11 @@ related:
   - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
   - '[[concept-单元模型-学练用]]'
   - '[[ocr-一堂-tcpr模型-皇冠模型]]'
-- "[[framework-TCPR底层网络协议]]"
-- "[[concept-单元模型-学练用]]"
-- "[[framework-个人成长五步法]]"
-- "[[tool-讲香十指模型-超级武器库]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[framework-个人成长五步法]]"
+  - "[[tool-讲香十指模型-超级武器库]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # TCP-R皇冠模型

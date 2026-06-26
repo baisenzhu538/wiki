@@ -36,16 +36,16 @@ related:
   - '[[yt-research-osl-framework]]'
   - '[[concept-yitang-research-scope]]'
   - '[[framework-yitang-high-level-plan]]'
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[framework-yitang-research-radar]]"
-- "[[concept-yitang-research-objective]]"
-- "[[concept-yitang-research-scope]]"
-- "（tool-yitang-research-checklist，待补）"
-- "（tool-yitang-research-acquisition，待补）"
-- "（tool-yitang-research-reasoning，待补）"
-- "[[yt-research-osl-framework]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[framework-yitang-four-research-types]]"
+  - "[[framework-yitang-research-radar]]"
+  - "[[concept-yitang-research-objective]]"
+  - "[[concept-yitang-research-scope]]"
+  - "（tool-yitang-research-checklist，待补）"
+  - "（tool-yitang-research-acquisition，待补）"
+  - "（tool-yitang-research-reasoning，待补）"
+  - "[[yt-research-osl-framework]]"
 ---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法

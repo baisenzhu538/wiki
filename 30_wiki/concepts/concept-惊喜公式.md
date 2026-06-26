@@ -18,9 +18,9 @@ related:
   - '[[tool-用户视角]]'
   - '[[tool-动力阻力分析]]'
   - '[[tool-用户分层]]'
-- "[[framework-科学决策三角形]]"
-- "[[concept-发现决策]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[concept-发现决策]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 惊喜公式：超越预期的用户体验设计

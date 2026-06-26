@@ -18,11 +18,11 @@ related:
   - '[[yt-decision-ai-partner]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[dk-决策经验值]]'
-- "[[framework-科学决策三角形]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[concept-单元模型-学练用]]"
-- "[[人机协作决策-双三角模型]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[人机协作决策-双三角模型]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # AI时代的双三角竞争力

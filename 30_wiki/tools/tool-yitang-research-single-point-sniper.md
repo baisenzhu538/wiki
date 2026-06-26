@@ -33,15 +33,15 @@ related:
   - '[[concept-yitang-research-scope]]'
   - '[[tool-yitang-research-cross-validation]]'
   - '[[tool-yitang-research-follow-map]]'
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-validate-assumption]]"
-- "（tool-yitang-research-hypothesis-test，待补）"
-- "[[yt-research-hypothesis-test]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "（dk-yitang-research-determination，待补）"
-- "[[concept-yitang-research-mindset]]"
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-yitang-research-validate-assumption]]"
+  - "（tool-yitang-research-hypothesis-test，待补）"
+  - "[[yt-research-hypothesis-test]]"
+  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - "（dk-yitang-research-determination，待补）"
+  - "[[concept-yitang-research-mindset]]"
 ---
 
 # 单点狙击：聚焦关键问题的深度验证

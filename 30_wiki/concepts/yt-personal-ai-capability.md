@@ -27,7 +27,7 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
   - '[[dk-wanghuan-standard-by-iteration]]'
-- '[[master-ai-info-literacy]]'
+  - '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

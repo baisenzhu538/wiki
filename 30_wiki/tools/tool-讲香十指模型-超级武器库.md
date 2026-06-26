@@ -18,10 +18,10 @@ related:
   - '[[tool-用户视角]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[tool-用户分层]]'
-- "[[tool-讲香基本功-十指模型]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[concept-单元模型-学练用]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[tool-讲香基本功-十指模型]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 讲香十指模型：超级武器库

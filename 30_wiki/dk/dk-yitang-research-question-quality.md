@@ -21,8 +21,8 @@ related:
   - '[[dk-yitang-research-starter-vs-veteran]]'
   - '[[concept-yitang-ai-research-human-loop]]'
   - '[[dk-yitang-public-info-is-enough]]'
-- "[[dk-yitang-research-goal-before-efficiency]]"
-- "[[concept-yitang-ideal-research-goal]]"
+  - "[[dk-yitang-research-goal-before-efficiency]]"
+  - "[[concept-yitang-ideal-research-goal]]"
 ---
 
 # 好调研目标 vs 坏调研目标

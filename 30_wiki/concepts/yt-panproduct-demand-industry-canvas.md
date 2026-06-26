@@ -29,8 +29,8 @@ related:
   - '[[tool-泛产品落地-设计原则]]'
   - '[[tool-泛产品落地-业务建模]]'
   - '[[yt-panproduct-demand-need-discovery]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-panproduct-demand-project-background]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
+  - '[[yt-panproduct-demand-project-background]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布

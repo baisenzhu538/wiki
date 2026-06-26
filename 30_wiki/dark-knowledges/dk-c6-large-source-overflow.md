@@ -19,8 +19,8 @@ related:
   - '[[dk-f12-builder-context-deadlock]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-modeling-timely-review-session-window]]'
-- '[[dk-c10-batch-tool-no-dry-run]]'
-- '[[master-first-principles]]'
+  - '[[dk-c10-batch-tool-no-dry-run]]'
+  - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

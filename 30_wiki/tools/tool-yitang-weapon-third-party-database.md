@@ -20,8 +20,8 @@ related:
   - '[[tool-yitang-supplier-interview]]'
   - '[[tool-yitang-business-registration-check]]'
   - '[[tool-yitang-government-data-search]]'
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-database-index]]"
+  - "[[framework-yitang-research-weapon-system]]"
+  - "[[tool-yitang-database-index]]"
 ---
 
 # 武器库策略11：第三方数据库

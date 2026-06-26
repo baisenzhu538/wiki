@@ -21,7 +21,7 @@ related:
   - '[[tool-yitang-court-record-search]]'
   - '[[framework-strategy-blm]]'
   - '[[tool-yitang-supplier-interview]]'
-- '[[framework-strategy-brm]]'
+  - '[[framework-strategy-brm]]'
 ---
 
 # 华为五看三定

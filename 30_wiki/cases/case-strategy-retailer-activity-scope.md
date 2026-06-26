@@ -17,10 +17,10 @@ related:
   - '[[tool-strategy-activity-scope]]'
   - '[[case-strategy-snack-business-design]]'
   - '[[dk-yb22-visual-presentation-scene-match]]'
-- '[[tool-strategy-activity-scope]]'
-- '[[tool-strategy-category-role-matrix]]'
-- '[[tool-strategy-customer-selection]]'
-- '[[tool-strategy-value-proposition]]'
+  - '[[tool-strategy-activity-scope]]'
+  - '[[tool-strategy-category-role-matrix]]'
+  - '[[tool-strategy-customer-selection]]'
+  - '[[tool-strategy-value-proposition]]'
 ---
 **对比矩阵**：
 

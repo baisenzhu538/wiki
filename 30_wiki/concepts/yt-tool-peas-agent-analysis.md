@@ -29,9 +29,9 @@ related:
   - '[[case-truman-ai-partner]]'
   - '[[yt-concept-peas-insight]]'
   - '[[yt-model-agent-architecture]]'
-- '[[yt-model-agent-architecture]]'
-- '[[yt-concept-ai-guard-brain]]'
-- '[[yt-personal-ai-capability]]'
+  - '[[yt-model-agent-architecture]]'
+  - '[[yt-concept-ai-guard-brain]]'
+  - '[[yt-personal-ai-capability]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

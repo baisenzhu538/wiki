@@ -20,8 +20,8 @@ related:
   - '[[case-demand-pharma-bigdata]]'
   - '[[case-yitang-mahjong-machine-fake-order]]'
   - '[[case-yitang-beauty-device-overseas-sales]]'
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
 ---
 
 # 案例：泡泡玛特招股书中的定价基准

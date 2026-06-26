@@ -23,9 +23,9 @@ related:
   - '[[ocr-一堂-个人修炼-双三角模型]]'
   - '[[ocr-一堂-人机协作-双三角模型]]'
   - '[[case-yitang-double-triangle-confidence]]'
-- '[[yt-model-muse-ai-framework]]'
-- '[[yt-personal-ai-capability]]'
-- '[[yt-personal-ipo-learning]]'
+  - '[[yt-model-muse-ai-framework]]'
+  - '[[yt-personal-ai-capability]]'
+  - '[[yt-personal-ipo-learning]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model

@@ -1,5 +1,6 @@
 ---
-domain: - learning-methodology
+domain:
+  - learning-methodology
 
 
 id: yt-note-p-c-role-boundary-realworld

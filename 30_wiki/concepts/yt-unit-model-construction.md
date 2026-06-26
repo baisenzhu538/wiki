@@ -7,7 +7,7 @@ created_at: 2026-05-24
 difficulty: intermediate
 domain:
   - yitang- entrepreneur
-- master
+  - master
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -25,14 +25,14 @@ related:
   - '[[ocr-一堂-科学决策-关键假设abcd模型]]'
   - '[[yt-unit-model-concept]]'
   - '[[yt-tool-unit-model-construction]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-unit-model-benchmark]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-decision-y-model]]'
-- '[[master-first-principles]]'
-- '[[master-systems-thinking]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-selection]]'
+  - '[[yt-unit-model-benchmark]]'
+  - '[[yt-unit-model-dynamic]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-decision-y-model]]'
+  - '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md

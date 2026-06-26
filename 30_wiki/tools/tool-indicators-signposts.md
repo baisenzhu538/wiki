@@ -20,8 +20,8 @@ related:
   - '[[business-research-skill-oscar-13-weapon-system]]'
   - '[[system-yitang-research-workflow]]'
   - '[[tool-candy-oral-polish]]'
-- "[[framework-structured-analytic-techniques]]"
-- "[[tool-yitang-ai-monitoring-alert]]"
+  - "[[framework-structured-analytic-techniques]]"
+  - "[[tool-yitang-ai-monitoring-alert]]"
 ---
 
 # Indicators & Signposts

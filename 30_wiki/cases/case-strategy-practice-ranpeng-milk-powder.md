@@ -17,8 +17,8 @@ related:
   - '[[case-strategy-revival-13-bestore]]'
   - '[[case-strategy-edward-jones]]'
   - '[[case-strategy-cool-boiled-water]]'
-- "[[tool-strategy-nine-problems]]"
-- "[[framework-strategy-six-stages]]"
+  - "[[tool-strategy-nine-problems]]"
+  - "[[framework-strategy-six-stages]]"
 ---
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）
 **转型**：弃益生菌（合生元垄断）→ 身高方向 → 命名"一米八八"

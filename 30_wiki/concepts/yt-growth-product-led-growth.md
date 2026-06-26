@@ -1,5 +1,6 @@
 ---
-domain: - growth
+domain:
+  - growth
 
 id: yt-growth-product-led-growth
 title: 产品驱动增长：PLG模式

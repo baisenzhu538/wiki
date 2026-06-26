@@ -8,8 +8,8 @@ status: enriched
 domain:
   - ai-collaboration
   - yitang- human-ai-collaboration
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -27,14 +27,14 @@ related:
   - '[[framework-wanghuan-three-tier-dev-architecture]]'
   - '[[framework-wanghuan-actor-director-mode]]'
   - '[[concept-wanghuan-adversarial-generation]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-ai-five-level-ladder]]'
-- '[[framework-wanghuan-say-think-do-toolchain]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[framework-wanghuan-three-tier-dev-architecture]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[tool-wanghuan-ai-business-profile]]'
+  - '[[framework-wanghuan-actor-director-mode]]'
+  - '[[framework-wanghuan-ai-five-level-ladder]]'
+  - '[[framework-wanghuan-say-think-do-toolchain]]'
+  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[framework-wanghuan-three-tier-dev-architecture]]'
+  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+  - '[[case-wanghuan-education-sales-paced]]'
+  - '[[tool-wanghuan-ai-business-profile]]'
 diagnostic_signals:
 - signal: '同一个 AI 请求本周内重复出现 3 次以上'
   lens: '任务层→产品层的跃迁信号'
