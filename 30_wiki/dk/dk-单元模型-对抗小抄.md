@@ -2,7 +2,7 @@
 id: dk-单元模型-对抗小抄
 title: 单元模型对抗小抄
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78
