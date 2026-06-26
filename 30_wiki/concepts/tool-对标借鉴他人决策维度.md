@@ -3,7 +3,7 @@ id: tool-对标借鉴他人决策维度
 title: 技能：对标借鉴他人决策维度
 type: tool
 domain:
-- decision- product
+- product
 - decision-making
 - yitang
 status: draft

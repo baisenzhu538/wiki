@@ -3,7 +3,8 @@ id: tool-代入场景推演要素法
 title: 技能：代入场景推演要素法
 type: tool
 domain:
-- learning-methodology- decision-making
+- learning-methodology
+- decision-making
 - yitang
 - business-strategy
 status: draft

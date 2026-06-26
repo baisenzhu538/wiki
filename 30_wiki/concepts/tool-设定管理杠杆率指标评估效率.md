@@ -3,7 +3,7 @@ id: tool-设定管理杠杆率指标评估效率
 title: 技能：设定管理杠杆率指标评估效率
 type: tool
 domain:
-- decision- management
+- management
 - design
 - business-strategy
 status: draft

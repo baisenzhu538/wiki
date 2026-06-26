@@ -3,7 +3,8 @@ id: tool-人生红点战略对齐
 title: 技能：人生红点战略对齐
 type: tool
 domain:
-- personal-growth- decision-making
+- personal-growth
+- decision-making
 - yitang
 status: draft
 source_person: 一堂课程

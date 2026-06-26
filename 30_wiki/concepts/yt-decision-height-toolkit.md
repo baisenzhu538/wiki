@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-decision-height-toolkit
 component_of:
 - yt-decision-y-model
@@ -9,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-17
 difficulty: advanced
 domain:
-  - decision- yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -26,15 +23,15 @@ query_triggers:
 - 共识曲线
 - 团队对齐
 related:
-  - '[[yt-decision-consensus-iceberg]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布]]'
-  - '[[yt-decision-canvas]]'
-  - '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
-  - '[[ocr-一堂-科学决策-高度-两种典型的思考习惯]]'
-  - '[[yt-decision-canvas]]'
-  - '[[yt-decision-consensus-iceberg]]'
-  - '[[yt-decision-ai-partner]]'
-  - '[[yt-model-liberate-thinking-layers]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布]]'
+- '[[yt-decision-canvas]]'
+- '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
+- '[[ocr-一堂-科学决策-高度-两种典型的思考习惯]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-model-liberate-thinking-layers]]'
 source_refs:
 - src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要
 status: enriched
@@ -89,7 +86,6 @@ diagnostic_signals:
   framework_lens: 加一思考的信息天花板——工具假设信息透明，但组织中信息天然分层
   follow_up_question: 员工能做加一思考所需的关键信息，目前能获取多少？如果<50%，工具只能退回到'个人/项目视角'使用
 author: 老顽童
-
 ---# 高度分析工具：上帝视角四维提升法 + 高水平共识曲线
 
 ## Summary

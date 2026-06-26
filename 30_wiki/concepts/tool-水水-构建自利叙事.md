@@ -4,7 +4,7 @@ title: 技能：构建自利叙事
 type: tool
 domain:
 - personal-growth
-- decision- healthcare
+- healthcare
 status: needs-review
 author: unknown
 reviewed_by: pending

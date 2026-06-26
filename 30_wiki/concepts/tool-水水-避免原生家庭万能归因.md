@@ -4,7 +4,6 @@ title: 技能：避免原生家庭万能归因
 type: tool
 domain:
 - personal-growth
-- decision- personal
 status: needs-review
 author: unknown
 reviewed_by: pending

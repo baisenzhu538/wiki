@@ -4,7 +4,7 @@ title: 技能：警惕概率虚妄安全感
 type: tool
 domain:
 - personal-growth
-- decision- yitang
+- yitang
 status: needs-review
 author: unknown
 reviewed_by: pending

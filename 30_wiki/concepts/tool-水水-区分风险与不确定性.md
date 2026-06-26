@@ -4,7 +4,7 @@ title: 技能：区分风险与不确定性
 type: tool
 domain:
 - personal-growth
-- decision- decision-making
+- decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending

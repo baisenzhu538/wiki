@@ -3,7 +3,7 @@ id: tool-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: tool
 domain:
-- decision- management
+- management
 - decision-making
 - yitang
 status: draft

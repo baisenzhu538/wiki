@@ -3,7 +3,7 @@ id: tool-设计对抗效果追踪看板
 title: 技能：设计对抗效果追踪看板
 type: tool
 domain:
-- decision- product
+- product
 - management
 - design
 - decision-making

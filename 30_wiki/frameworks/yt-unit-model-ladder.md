@@ -1,12 +1,11 @@
 ---
-
-
 title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
 status: enriched
 domain:
-  - yitang- decision-science
+- yitang
+- decision-science
 id: yt-unit-model-ladder
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -17,20 +16,19 @@ source_refs: []
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-tool-unit-model-ai-assisted]]'
-  - '[[yt-tool-unit-model-benchmark]]'
-  - '[[yt-tool-unit-model-construction]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-build]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[yt-decision-review]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-
+- '[[yt-five-step-level-blindspots]]'
+- '[[yt-tool-unit-model-ai-assisted]]'
+- '[[yt-tool-unit-model-benchmark]]'
+- '[[yt-tool-unit-model-construction]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
+- '[[yt-unit-model-overview]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-unit-model-selection]]'
+- '[[case-unit-model-gashapon]]'
+- '[[yt-management-scientific-decision]]'
+- '[[yt-decision-review]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
 ---## Reusable Knowledge
 
 ### 六段进阶路径

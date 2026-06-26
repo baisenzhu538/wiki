@@ -4,7 +4,7 @@ title: 技能：利用基因漂变视角
 type: tool
 domain:
 - personal-growth
-- decision- design
+- design
 status: needs-review
 author: unknown
 reviewed_by: pending

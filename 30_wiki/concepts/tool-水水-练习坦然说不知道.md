@@ -4,7 +4,7 @@ title: 技能：练习坦然说不知道
 type: tool
 domain:
 - personal-growth
-- decision- marketing
+- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending

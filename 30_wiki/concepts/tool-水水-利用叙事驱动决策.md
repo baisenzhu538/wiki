@@ -4,7 +4,7 @@ title: 技能：利用叙事驱动决策
 type: tool
 domain:
 - personal-growth
-- decision- decision-making
+- decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending

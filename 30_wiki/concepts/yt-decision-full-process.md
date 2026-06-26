@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-decision-full-process
 component_of:
 - yt-decision-y-model
@@ -9,7 +6,7 @@ confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-  - decision- yitang
+- yitang
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -26,27 +23,27 @@ query_triggers:
 - 复盘循环
 - 决策训练
 related:
-  - '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-  - '[[ocr-一堂-单元模型-修炼地图]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[yt-decision-habit-shift]]'
-  - '[[yt-decision-width-method]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[yt-decision-height-toolkit]]'
-  - '[[yt-decision-consensus-iceberg]]'
-  - '[[yt-decision-review]]'
-  - '[[yt-decision-canvas]]'
-  - '[[yt-decision-ai-partner]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-benchmark]]'
-  - '[[yt-unit-model-dynamic]]'
-  - '[[yt-unit-model-ai-assisted]]'
+- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+- '[[yt-five-step-level-blindspots]]'
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[ocr-一堂-单元模型-修炼地图]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-review]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-five-step-method]]'
+- '[[yt-unit-model-overview]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-ai-assisted]]'
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -104,7 +101,6 @@ diagnostic_signals:
   framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
   follow_up_question: 最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地
 author: 老顽童
-
 ---# 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 
 

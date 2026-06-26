@@ -4,7 +4,7 @@ title: 技能：保持系统冗余
 type: tool
 domain:
 - personal-growth
-- decision- management
+- management
 status: needs-review
 author: unknown
 reviewed_by: pending

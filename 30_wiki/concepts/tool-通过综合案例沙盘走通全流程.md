@@ -3,7 +3,7 @@ id: tool-通过综合案例沙盘走通全流程
 title: 技能：通过综合案例沙盘走通全流程
 type: tool
 domain:
-- decision- product
+- product
 - design
 - business-strategy
 - decision-making

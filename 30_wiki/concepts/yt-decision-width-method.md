@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-decision-width-method
 component_of:
 - yt-decision-y-model
@@ -9,7 +6,7 @@ confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-  - decision- yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -27,13 +24,13 @@ query_triggers:
 - 团队盲区
 - 公司盲区
 related:
-  - '[[tool-三阶追问法穷尽决策要素]]'
-  - '[[ocr-一堂-科学决策-宽度-团队]]'
-  - '[[yt-decision-canvas]]'
-  - '[[yt-decision-habit-shift]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[yt-decision-y-model]]'
-  - '[[case-truman-poker-deck-roi]]'
+- '[[tool-三阶追问法穷尽决策要素]]'
+- '[[ocr-一堂-科学决策-宽度-团队]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-y-model]]'
+- '[[case-truman-poker-deck-roi]]'
 source_refs:
 - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
@@ -94,7 +91,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 周伯通
-
 ---# 宽度分析工具：列推建查四步法+三层盲区清单
 
 

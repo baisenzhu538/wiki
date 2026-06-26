@@ -4,7 +4,7 @@ title: 技能：识别超级传播者风险
 type: tool
 domain:
 - personal-growth
-- decision- management
+- management
 status: needs-review
 author: unknown
 reviewed_by: pending

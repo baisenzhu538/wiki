@@ -3,7 +3,8 @@ id: tool-李诞-面对过去错误的平静心法
 title: 技能：面对过去错误的平静心法
 type: tool
 domain:
-- content-production- decision-making
+- content-production
+- decision-making
 status: draft
 author: unknown
 reviewed_by: pending

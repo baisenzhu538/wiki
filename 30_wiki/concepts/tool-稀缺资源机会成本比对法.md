@@ -3,7 +3,7 @@ id: tool-稀缺资源机会成本比对法
 title: 技能：稀缺资源机会成本比对法
 type: tool
 domain:
-- decision- management
+- management
 - decision-making
 - yitang
 status: draft

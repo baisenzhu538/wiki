@@ -4,7 +4,7 @@ title: 技能：识别关键偶然因素
 type: tool
 domain:
 - personal-growth
-- decision- decision-making
+- decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending

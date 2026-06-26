@@ -4,7 +4,7 @@ title: 技能：用感性维度构建溢价
 type: tool
 domain:
 - personal-growth
-- decision- design
+- design
 status: needs-review
 author: unknown
 reviewed_by: pending
