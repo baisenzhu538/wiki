@@ -21,12 +21,12 @@ related:
   - '[[tool-单元模型-壁垒预判]]'
   - '[[concept-最简单元模型]]'
   - '[[tool-单元模型-单城市]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-壁垒预判]]"
-- "[[framework-strategy-brm]]"
-- "[[concept-ai-amara-law-business-judgment]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[framework-strategy-brm]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
 ---
 
 # 外部对抗地图

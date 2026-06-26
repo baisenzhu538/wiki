@@ -22,14 +22,14 @@ related:
   - '[[yt-tool-unit-model-benchmark]]'
   - '[[yt-tool-unit-model-construction]]'
   - '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-build]]'
-- '[[yt-unit-model-selection]]'
-- '[[case-unit-model-gashapon]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-decision-review]]'
-- '[[dk-modeling-logical-cleanliness-root]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-build]]'
+  - '[[yt-unit-model-selection]]'
+  - '[[case-unit-model-gashapon]]'
+  - '[[yt-management-scientific-decision]]'
+  - '[[yt-decision-review]]'
+  - '[[dk-modeling-logical-cleanliness-root]]'
 
 ---## Reusable Knowledge
 

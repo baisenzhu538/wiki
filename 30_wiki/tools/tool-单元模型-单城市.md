@@ -21,12 +21,12 @@ related:
   - '[[tool-单元模型-壁垒预判]]'
   - '[[concept-最简单元模型]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-单商圈]]"
-- "[[framework-lean-abcd-model]]"
-- "[[case-strategy-failure-04-appliance]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-单元模型-单商圈]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[case-strategy-failure-04-appliance]]"
 ---
 
 # 单元模型：单城市模型

@@ -22,11 +22,11 @@ related:
   - '[[dk-wanghuan-standard-by-iteration]]'
   - '[[ocr-一堂-单元模型-学练用]]'
   - '[[dk-modeling-ai-judgment-limit]]'
-- "[[yt-unit-model-ladder]]"
-- "[[concept-最简单元模型]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
+  - "[[yt-unit-model-ladder]]"
+  - "[[concept-最简单元模型]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # 学练用：知识内化的三阶模型

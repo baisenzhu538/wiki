@@ -15,13 +15,13 @@ related:
   - '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
   - '[[ocr-一堂-单元模型-扭蛋机案例]]'
   - '[[yt-unit-model-three-tools]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[yt-model-dual-triangle-competitiveness]]'
-- '[[yt-decision-y-model]]'
-- '[[ai时代判断力口述-3]]'
+  - '[[yt-unit-model-overview]]'
+  - '[[yt-unit-model-construction]]'
+  - '[[yt-unit-model-ladder]]'
+  - '[[yt-unit-model-dynamic]]'
+  - '[[yt-model-dual-triangle-competitiveness]]'
+  - '[[yt-decision-y-model]]'
+  - '[[ai时代判断力口述-3]]'
 source_refs:
 - src_20260525_92ea6173-ai单元模型口述蒋老师
 speaker: 蒋老师（磊哥），一堂合伙人、教练

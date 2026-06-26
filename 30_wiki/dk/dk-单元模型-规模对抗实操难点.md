@@ -21,12 +21,12 @@ related:
   - '[[dk-单元模型-找单元模型实操难点]]'
   - '[[dk-单元模型-找全成本实操难点]]'
   - '[[case-unit-model-gashapon]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-壁垒预判]]"
-- "[[framework-单元模型-外部对抗地图]]"
-- "[[dk-单元模型-找单元模型实操难点]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[framework-单元模型-外部对抗地图]]"
+  - "[[dk-单元模型-找单元模型实操难点]]"
 ---
 
 # 规模对抗实操难点

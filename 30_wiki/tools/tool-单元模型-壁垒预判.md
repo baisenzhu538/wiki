@@ -21,12 +21,12 @@ related:
   - '[[tool-单元模型-单城市]]'
   - '[[concept-最简单元模型]]'
   - '[[framework-单元模型-外部对抗地图]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[framework-单元模型-外部对抗地图]]"
-- "[[tool-单元模型-象限分析法]]"
-- "[[concept-ai-chair-determines-view]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-单元模型-外部对抗地图]]"
+  - "[[tool-单元模型-象限分析法]]"
+  - "[[concept-ai-chair-determines-view]]"
 ---
 
 # 单元模型：壁垒预判

@@ -21,12 +21,12 @@ related:
   - '[[dk-单元模型-找全成本实操难点]]'
   - '[[concept-最简单元模型]]'
   - '[[dk-单元模型-规模对抗实操难点]]'
-- "[[yitang-domain-digest]]"
-- "[[yt-unit-model-overview]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[concept-最简单元模型]]"
-- "[[tool-单元模型-单商圈]]"
-- "[[dk-单元模型-找全成本实操难点]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[concept-最简单元模型]]"
+  - "[[tool-单元模型-单商圈]]"
+  - "[[dk-单元模型-找全成本实操难点]]"
 ---
 
 # 找单元模型实操难点

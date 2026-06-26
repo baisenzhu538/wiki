@@ -7,17 +7,17 @@ type: framework
 status: enriched
 domain:
   - yitang- yitang
-- entrepreneurship
-- b2b
-- business-strategy
+  - entrepreneurship
+  - b2b
+  - business-strategy
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/unit-model'
-- '#topic/business-model'
+  - '#method/evaluation-method'
+  - '#domain/yitang'
+  - '#domain/b2b'
+  - '#content-format/framework'
+  - '#topic/unit-model'
+  - '#topic/business-model'
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -31,15 +31,15 @@ related:
   - '[[yt-tob-core-characteristics]]'
   - '[[yt-tob-sales-unit-model]]'
   - '[[yt-tob-cash-flow]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-tob-growth-channel]]'
-- '[[yt-tob-customer-sabc]]'
-- '[[yt-tob-revenue-is-customer-cost]]'
+  - '[[yt-entrepreneur-five-step-method]]'
+  - '[[yt-entrepreneur-product-core]]'
+  - '[[yt-unit-model-three-tools]]'
+  - '[[yt-business-formula-business-pattern-selector]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-management-business-formula]]'
+  - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-customer-sabc]]'
+  - '[[yt-tob-revenue-is-customer-cost]]'
 diagnostic_signals:
 - signal: 公司只算单一订单或单一客户毛利为正，却未分摊总部、研发、履约、销售培养等隐性成本
   framework_lens: 业务单元总毛利覆盖所有成本
