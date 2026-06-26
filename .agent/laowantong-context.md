@@ -20,13 +20,25 @@ updated: 2026-06-25
 
 ## ⚠️ 每件工单启动后、动手前（强制检查点）
 
-**在写任何一张卡之前，必须完成以下三步，缺一不可：**
+**在写任何一张卡之前，必须完成以下四步，缺一不可：**
 
 1. **查路由**：本域是否已有同主题卡片？→ `kdo cards --domain <domain>`。本素材是否需要外部交叉验证？→ 查下方「调研 Skill 路由」表，Read 对应 Skill 文件。
 2. **WebSearch**：本域核心框架在国际上有没有通行标准？名称是否与国际术语冲突？（如 BRM = Business Relationship Management ≠ 冉鹏的战略框架缩写）——搜完再写，不搜不写。
-3. **自攻击预留**：本批卡完成后，调用 `Read 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照 SKILL.md 流程执行四路攻击。
+3. **全量素材消费检查**：每张卡生产前，列出该卡对应的全部原始素材（VLM/OCR/逐字稿），逐条确认每段关键信息已被卡片使用。素材里有数字但卡里没数字 → 还没写完。素材里有 Critique/Synthesis/Action Triggers 但卡里没有 → 还没写完。
+4. **自攻击预留**：本批卡完成后，调用 `Read 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照 SKILL.md 流程执行四路攻击。
 
-> **如果前三步没做就开始写卡 → 老顽童本批交付无效。** 欧阳锋审查时第一步就查这个。
+> **如果前四步没做就开始写卡 → 老顽童本批交付无效。** 欧阳锋审查时第一步就查这个。
+
+## ⚠️ 每张卡提交前（质量闸门）
+
+**不通过不交。每张卡必须满足：**
+
+1. **深挖达标**：case 卡必须通过至少 L1-L5 层深挖（业务公式→假设审计→政策/边界→失败模式→隐性成本）。每层有新信息增量，不能凑层数。
+2. **素材消费率 ≥80%**：VLM/OCR/逐字稿中的关键数据点、学者 Critique、Synthesis、Action Triggers 必须被卡片使用。不能只提取标题。
+3. **卡片 ≥100 行**（不含 frontmatter）：44 行的 case 卡是半成品。正文必须有完整 Claims/Evidence/Critique/Synthesis/Action Triggers/Failure Modes。
+4. **失败模式必须具体**：不写"步骤跳过→严格按步骤"这种模板话。每条失败模式对应一个真实信号和一个可执行的修复动作。
+
+> **深挖方法**：调用 `Read 40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md` 并逐层执行。交叉验证用 `six-layer-cross-validation/SKILL.md`。
 
 ## ⚠️ 当前待办（优先级从高到低）
 
@@ -136,7 +148,10 @@ updated: 2026-06-25
 | 需要多 Agent 并行调研 | `research-multi-agent` |
 | 需要 SATs 结构化攻击测试 | `research-sats` |
 | 需要 CI 框架持续监控 | `research-ci-framework` |
+| 卡片质量需要深挖 | `nine-layer-deep-dig` |
+| 关键信息需要交叉验证 | `six-layer-cross-validation` |
 | 调研结果需要质量把关 | `research-quality-gate` |
+| 卡片完成后需要自攻击 | `kdo-self-attack` |
 7. **KF-025 域完成三问自检**（v1.9）：每个域完成前必须自答——① 案例够了吗（每个框架至少配 1 张真实案例卡）？② 暗知识在哪里（讲师随口说的心法/失败模式/判断口诀是否已提取为 dk 卡）？③ 这些案例有共同模式吗（跨案例共性根因是否已写成 synthesis 卡）？三问答不上来→域未完成，不得标记为收工。
 
 ## 产出标准
