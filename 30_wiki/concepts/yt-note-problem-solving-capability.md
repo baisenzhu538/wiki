@@ -18,11 +18,11 @@ related:
   - '[[yt-note-expert-interview-modeling]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[concept-问题驱动式深度思考笔记]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-note-l4-internalization]]'
   - '[[dk-truman-flag-note-taking]]'
-  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[concept-问题驱动式深度思考笔记]]'
 query_triggers:
 - 笔记能力
 - 解决问题能力
@@ -189,7 +189,7 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 
 - [[dk-truman-flag-note-taking]] —— 立flag是解决问题的"强制执行机制"。没有flag，人会自然地逃避困难问题。flag让"解决问题"从"可选项"变成"必须完成的任务"。
 
-- [[skill-问题驱动式深度思考笔记]] —— 问题驱动是"遇到问题就开篇笔记"的起点。没有好问题，就不会有好笔记；没有好笔记，问题就不会被解决。
+- [[concept-问题驱动式深度思考笔记]] —— 问题驱动是"遇到问题就开篇笔记"的起点。没有好问题，就不会有好笔记；没有好笔记，问题就不会被解决。
 
 - [[yt-note-expert-interview-modeling]] —— 专家访谈式笔记是"解决问题"的极限形态：在2小时内完成"记录→整理→建模→升华→反向输出"的完整问题解决闭环。
 
@@ -215,4 +215,4 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 - [[yt-note-checklist-concept]]：清单体四特征降低开笔记的摩擦，是问题解决能力落地的基础。
 - [[yt-note-l4-internalization]]：L4内化阶段把笔记从信息整理工具升级为认知引擎。
 - [[dk-truman-flag-note-taking]]：立flag机制让“解决问题”从可选项变成必须完成的任务。
-- [[skill-问题驱动式深度思考笔记]]：问题驱动是“遇到问题就开篇笔记”的起点与筛选器。
+- [[concept-问题驱动式深度思考笔记]]：问题驱动是“遇到问题就开篇笔记”的起点与筛选器。

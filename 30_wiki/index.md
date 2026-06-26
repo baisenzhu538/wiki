@@ -378,7 +378,7 @@ _Last updated: 2026-06-26T19:33:34+00:00_
 - [[concepts/product-business-strategy.md|产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡]] — source `10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md`
 - [[concepts/product-ux.md|Product Ux]] — source `src_20260522_404f58a2-product-ux`
 - [[concepts/skill-提升笔记阅读舒适度.md|skill-提升笔记阅读舒适度]] — source no source
-- [[concepts/skill-水水-管理决策权重偏差.md|skill-水水-管理决策权重偏差]] — source no source
+- [[concepts/tool-水水-管理决策权重偏差.md|tool-水水-管理决策权重偏差]] — source no source
 - [[concepts/skill-问题驱动式深度思考笔记.md|skill-问题驱动式深度思考笔记]] — source no source
 - [[concepts/smart-medicine-cabinet-distribution.md|smart-medicine-cabinet-distribution]] — source no source
 - [[concepts/smart-medicine-cabinet-national-policy-redlines.md|smart-medicine-cabinet-national-policy-redlines]] — source no source

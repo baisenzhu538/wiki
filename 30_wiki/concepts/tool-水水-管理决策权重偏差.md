@@ -1,56 +1,55 @@
 ---
----
-id: skill-水水-管理决策权重偏差
-title: "技能：管理决策权重偏差"
+id: tool-水水-管理决策权重偏差
+title: 技能：管理决策权重偏差
 type: tool
 status: enriched
 domain:
-  - decision-making
+- decision-making
 source_person: 水水
 source_context: 拆书会-偶然
 source_refs:
 - source_unknown
 wiki_refs:
-  - "[[yt-decision-y-model]]"
-  - "[[master-decision-hygiene]]"
-  - "[[master-cognitive-bias-checklist]]"
+- '[[yt-decision-y-model]]'
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
 related:
-  - "[[master-decision-hygiene]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[yt-decision-y-model]]"
-  - "[[tool-decision-delay-intuition]]"
-  - "[[tool-decision-outside-view]]"
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-decision-delay-intuition]]'
+- '[[tool-decision-outside-view]]'
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 有真实失败案例
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 有真实失败案例
 tools_required:
-  - 决策矩阵（纸笔或电子表格）
-  - 外部咨询（信任的朋友/导师）
-created_at: "2026-06-07"
-updated_at: "2026-06-17"
+- 决策矩阵（纸笔或电子表格）
+- 外部咨询（信任的朋友/导师）
+created_at: '2026-06-07'
+updated_at: '2026-06-17'
 reviewed_by: 欧阳锋
 confidence: 0.85
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: 老顽童
 trust_level: medium-high
 diagnostic_signals:
-  - signal: "列出决策因素但权重分配明显偏向短期收益"
-    lens: "权重偏差"
-    follow_up: "执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准"
-  - signal: "做了分析但最后还是凭直觉选"
-    lens: "分析替代直觉"
-    follow_up: "分析的价值不在替代直觉而在让直觉被充分检视，只要发现之前没看到的偏见就有价值"
-  - signal: "直觉版、年长版、十年后版权重几乎相同"
-    lens: "视角切换失败"
-    follow_up: "第三次（十年后）时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权"
-  - signal: "只列了3-4个显而易见的因素，遗漏隐性因素"
-    lens: "因素遗漏"
-    follow_up: "强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素"
-  - signal: "薪资和意义感被强行放在同一个1-10量表上衡量"
-    lens: "不可通约量化"
-    follow_up: "对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'"
+- signal: 列出决策因素但权重分配明显偏向短期收益
+  lens: 权重偏差
+  follow_up: 执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准
+- signal: 做了分析但最后还是凭直觉选
+  lens: 分析替代直觉
+  follow_up: 分析的价值不在替代直觉而在让直觉被充分检视，只要发现之前没看到的偏见就有价值
+- signal: 直觉版、年长版、十年后版权重几乎相同
+  lens: 视角切换失败
+  follow_up: 第三次（十年后）时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权
+- signal: 只列了3-4个显而易见的因素，遗漏隐性因素
+  lens: 因素遗漏
+  follow_up: 强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素
+- signal: 薪资和意义感被强行放在同一个1-10量表上衡量
+  lens: 不可通约量化
+  follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
 ---# 技能：管理决策权重偏差
 
 > 水水在拆书会中提出的决策改进方法。解决"明明列出了所有决策因素，但权重分配完全是自我服务"这个普遍但少有人正视的问题。

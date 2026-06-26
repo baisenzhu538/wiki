@@ -18,10 +18,10 @@ related:
   - '[[yt-note-extensive-research-input]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[concept-问题驱动式深度思考笔记]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-note-problem-solving-capability]]'
-  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[concept-问题驱动式深度思考笔记]]'
   - '[[yt-note-deliberate-practice-four-elements]]'
   - '[[yt-note-l4-internalization]]'
   - '[[yt-note-extensive-research-input]]'
@@ -182,7 +182,7 @@ Truman看完《流浪地球》后，觉得"浪费时间"，于是逼自己做深
 
 - [[yt-note-problem-solving-capability]] —— 三段论是"笔记能力=解决问题能力"的具体操作框架。一篇只有事实的笔记只能"记录问题"，一篇有事实+规律+见解的笔记才能"解决问题"。
 
-- [[skill-问题驱动式深度思考笔记]] —— 问题驱动式笔记决定"思考什么"，三段论决定"如何组织思考"。好问题+好结构=高价值笔记。
+- [[concept-问题驱动式深度思考笔记]] —— 问题驱动式笔记决定"思考什么"，三段论决定"如何组织思考"。好问题+好结构=高价值笔记。
 
 - [[yt-note-deliberate-practice-four-elements]] —— 三段论的练习需要刻意练习的"固定套路"（每次都按事实→规律→见解写）和"大量重复"（积累足够多的事实才能浮现规律）。
 

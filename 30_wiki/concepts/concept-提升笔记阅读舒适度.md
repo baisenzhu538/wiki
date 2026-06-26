@@ -1,56 +1,53 @@
 ---
 domain:
-  - learning-methodology
-
-id: skill-提升笔记阅读舒适度
-title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
+- learning-methodology
+id: concept-提升笔记阅读舒适度
+title: 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 type: concept
 status: enriched
 version: 1
 confidence: 0.85
 source_refs:
-- 10_raw/sources/src_20260619_3a55a2eb_00_inbox_一堂_AI时代清单体笔记_Truman_口述_01.txt
-  - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 10_raw/sources/src_20260619_3a55a2eb_00_inbox_一堂_AI时代清单体笔记_Truman_口述_01.txt - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-  - "[[yt-note-checklist-concept]]"
-  - "[[yt-note-l4-internalization]]"
-  - "[[dk-truman-flag-note-taking]]"
-  - "[[yt-note-expert-interview-modeling]]"
-  - "[[yt-note-ai-human-division]]"
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-l4-internalization]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-note-expert-interview-modeling]]'
+- '[[yt-note-ai-human-division]]'
 query_triggers:
-  - 笔记怎么排版
-  - 笔记阅读舒适度
-  - 笔记产品意识
-  - 视觉美化笔记
-  - 笔记分层
-  - 笔记标颜色
-  - 思维导图 vs 清单体
-created_at: "2026-06-10"
-updated_at: "2026-06-17"
+- 笔记怎么排版
+- 笔记阅读舒适度
+- 笔记产品意识
+- 视觉美化笔记
+- 笔记分层
+- 笔记标颜色
+- 思维导图 vs 清单体
+created_at: '2026-06-10'
+updated_at: '2026-06-17'
 estimated_tokens: 4200
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-  - signal: "笔记好认真但是很难受，长长短短没有分担"
-    lens: "完整度≠舒适度"
-    follow_up: "完整度是底线，舒适度才是竞争力。一份完整但难读的笔记，价值远低于有选择地完整但极其易读的笔记"
-  - signal: "笔记分层超过3层，像串糖葫芦，理解不了"
-    lens: "分层过度"
-    follow_up: "2-3层为最佳，层少了理解不了，层多了也理解不了。分层是为了降低认知摩擦不是制造认知迷宫"
-  - signal: "笔记没有视觉重点，看麻了"
-    lens: "视觉编码缺失"
-    follow_up: "标黄(亮点)、标绿(课程延展)、标红(关键决策)，让内容重心与形式重心统一"
-  - signal: "笔记三个月内阅读次数为零"
-    lens: "可发现性缺失"
-    follow_up: "真正决定笔记是否被使用的是'可发现性'和'可提取性'，不是阅读舒适度。确保笔记出现在正确的时间地点"
-  - signal: "团队成员丧失独立判断信息重要性的能力，只会问'这个标什么颜色'"
-    lens: "认知依赖"
-    follow_up: "颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间"
-
+- signal: 笔记好认真但是很难受，长长短短没有分担
+  lens: 完整度≠舒适度
+  follow_up: 完整度是底线，舒适度才是竞争力。一份完整但难读的笔记，价值远低于有选择地完整但极其易读的笔记
+- signal: 笔记分层超过3层，像串糖葫芦，理解不了
+  lens: 分层过度
+  follow_up: 2-3层为最佳，层少了理解不了，层多了也理解不了。分层是为了降低认知摩擦不是制造认知迷宫
+- signal: 笔记没有视觉重点，看麻了
+  lens: 视觉编码缺失
+  follow_up: 标黄(亮点)、标绿(课程延展)、标红(关键决策)，让内容重心与形式重心统一
+- signal: 笔记三个月内阅读次数为零
+  lens: 可发现性缺失
+  follow_up: 真正决定笔记是否被使用的是'可发现性'和'可提取性'，不是阅读舒适度。确保笔记出现在正确的时间地点
+- signal: 团队成员丧失独立判断信息重要性的能力，只会问'这个标什么颜色'
+  lens: 认知依赖
+  follow_up: 颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间
 ---# 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：**笔记不是写给自己看的，而是写给别人（包括未来的自己）用的产品。** 舒适度≠完整度——"在全的基础上最好让别人容易读"。它要求笔记作者具备产品意识（预判使用者、场景、价值）和视觉编码能力（用颜色、分层、格式让内容重心与形式重心统一）。

@@ -1,57 +1,54 @@
 ---
 domain:
-  - learning-methodology
-
-id: skill-问题驱动式深度思考笔记
-title: "问题驱动式深度思考笔记：用真问题取代真记录"
+- learning-methodology
+id: concept-问题驱动式深度思考笔记
+title: 问题驱动式深度思考笔记：用真问题取代真记录
 type: concept
 status: enriched
 version: 1
 confidence: 0.75
 source_refs:
-- 10_raw/sources/src_20260619_12c87c06_00_inbox_一堂_AI时代请单体笔记_Truman_口述_02.txt
-  - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
+- 10_raw/sources/src_20260619_12c87c06_00_inbox_一堂_AI时代请单体笔记_Truman_口述_02.txt - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - "[[yt-note-l4-internalization]]"
-  - "[[yt-note-checklist-concept]]"
-  - "[[dk-truman-flag-note-taking]]"
-  - "[[yt-note-extensive-research-input]]"
-  - "[[tool-多源输入法]]"
-  - "[[tool-一堂-hypothesis-validation-three-axe]]"
-  - "[[tool-复盘推演法]]"
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-note-extensive-research-input]]'
+- '[[tool-多源输入法]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[tool-复盘推演法]]'
 query_triggers:
-  - 问题驱动式笔记
-  - 用问题驱动学习
-  - 不要被带着走
-  - 笔记怎么提升思考量
-  - 学完课没有自己的东西
-  - 3到5个问题
-created_at: "2026-06-10"
-updated_at: "2026-06-17"
+- 问题驱动式笔记
+- 用问题驱动学习
+- 不要被带着走
+- 笔记怎么提升思考量
+- 学完课没有自己的东西
+- 3到5个问题
+created_at: '2026-06-10'
+updated_at: '2026-06-17'
 estimated_tokens: 4800
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-  - signal: "笔记只是摘录讲师内容，没有自己的思考"
-    lens: "输入驱动"
-    follow_up: "在笔记顶部写下3-5个真正想解决的问题，用问题驱动学习而非被讲师带着走"
-  - signal: "学完课后感觉没有自己的东西"
-    lens: "认知产权缺失"
-    follow_up: "检查笔记是否有'因为我的问题X，这个点意味着...'的格式，确保认知原创生产"
-  - signal: "提出的问题在课程前5分钟就被回答了"
-    lens: "假问题"
-    follow_up: "好问题不能在第一课就被回答，需要能在学习过程中不断生长产生子问题"
-  - signal: "基础技能学习时强行问题驱动导致效率低下"
-    lens: "阶段错配"
-    follow_up: "问题驱动是高阶技能非入门技能，基础学习先沉浸掌握再质疑"
-  - signal: "笔记被问题框架捆绑，信息强行套入不合适模板"
-    lens: "表演性问题"
-    follow_up: "问题必须是你真正关心的，不是为了'看起来在思考'而造问题"
-
+- signal: 笔记只是摘录讲师内容，没有自己的思考
+  lens: 输入驱动
+  follow_up: 在笔记顶部写下3-5个真正想解决的问题，用问题驱动学习而非被讲师带着走
+- signal: 学完课后感觉没有自己的东西
+  lens: 认知产权缺失
+  follow_up: 检查笔记是否有'因为我的问题X，这个点意味着...'的格式，确保认知原创生产
+- signal: 提出的问题在课程前5分钟就被回答了
+  lens: 假问题
+  follow_up: 好问题不能在第一课就被回答，需要能在学习过程中不断生长产生子问题
+- signal: 基础技能学习时强行问题驱动导致效率低下
+  lens: 阶段错配
+  follow_up: 问题驱动是高阶技能非入门技能，基础学习先沉浸掌握再质疑
+- signal: 笔记被问题框架捆绑，信息强行套入不合适模板
+  lens: 表演性问题
+  follow_up: 问题必须是你真正关心的，不是为了'看起来在思考'而造问题
 ---# 问题驱动式深度思考笔记：用真问题取代真记录
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心方法：**最简单的记笔记提升思考量的方式，是给自己提一个真正的问题。**不是"讲师讲什么我记什么"，而是"我有3-5个问题要解决，这堂课是解决问题的候选答案之一"。这种方式让笔记从"信息的二次加工"跳跃到"认知的原创生产"。

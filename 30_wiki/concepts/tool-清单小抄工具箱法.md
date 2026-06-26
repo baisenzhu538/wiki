@@ -17,7 +17,7 @@ related:
 - '[[tool-mece体系框架法]]'
 - '[[tool-费曼简单提炼法]]'
 - '[[tool-立即实践转化法]]'
-- '[[skill-问题驱动式深度思考笔记]]'
+- '[[concept-问题驱动式深度思考笔记]]'
 - '[[tool-复盘推演法]]'
 definition_of_done:
 - 操作步骤清晰可执行

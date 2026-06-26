@@ -18,7 +18,7 @@ related:
   - '[[yt-note-expert-interview-modeling]]'
   - '[[yt-note-checklist-concept]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[skill-问题驱动式深度思考笔记]]'
+  - '[[concept-问题驱动式深度思考笔记]]'
   - '[[tool-多源输入法]]'
   - '[[yt-note-l4-internalization]]'
   - '[[yt-note-checklist-concept]]'
