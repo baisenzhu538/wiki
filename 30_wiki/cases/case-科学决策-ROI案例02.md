@@ -2,7 +2,7 @@
 id: case-科学决策-ROI案例02
 title: 案例：是否搭建虚拟影棚
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.70

@@ -1,7 +1,7 @@
 ---
 type: framework
 id: yt-decision-abcd-model
-status: enriched
+status: reviewed
 domain:
   - yitang
   - decision-science

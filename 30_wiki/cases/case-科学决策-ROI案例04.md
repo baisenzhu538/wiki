@@ -2,7 +2,7 @@
 id: case-科学决策-ROI案例04
 title: 案例：员工共学项目的ROI决策
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.68

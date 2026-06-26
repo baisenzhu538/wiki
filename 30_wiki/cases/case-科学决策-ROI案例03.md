@@ -2,7 +2,7 @@
 id: case-科学决策-ROI案例03
 title: 案例：自建招商体系的低成本启动
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.70

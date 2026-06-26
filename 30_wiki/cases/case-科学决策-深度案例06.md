@@ -2,7 +2,7 @@
 id: case-科学决策-深度案例06
 title: 案例：电话外呼的ROI分析
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.70

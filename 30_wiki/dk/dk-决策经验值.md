@@ -2,7 +2,7 @@
 id: dk-决策经验值
 title: 暗知识：决策经验值——老手和新手的隐性差距
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

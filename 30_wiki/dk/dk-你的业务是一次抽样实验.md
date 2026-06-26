@@ -2,7 +2,7 @@
 id: dk-你的业务是一次抽样实验
 title: 暗知识：你的业务是一次抽样实验
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
