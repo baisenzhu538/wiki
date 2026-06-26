@@ -40,6 +40,23 @@ updated: 2026-06-25
 
 > **深挖方法**：调用 `Read 40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md` 并逐层执行。交叉验证用 `six-layer-cross-validation/SKILL.md`。
 
+## ⚠️ 每张卡提交前（pre-submit 强制门禁）
+
+**欧阳锋裁定（2026-06-27）：pre-submit 从「建议」升级为「强制门禁」。**
+
+**任何文件提交前，必须执行以下三步，缺一不可：**
+
+1. **跑门禁**：`kdo pre-submit -f <文件路径>`
+2. **贴输出**：将 pre-submit 完整输出粘贴到提交消息中
+3. **等验关**：王语嫣复核时先验 pre-submit 输出，未附者直接退回
+
+**pre-submit 三道机械检查：**
+- YAML frontmatter 语法合法性（拦截 domain 污染、引号断裂、列表粘连）
+- 必需字段完整性（id / type / status / author / reviewed_by / confidence / trust_level / source_refs / related）
+- 类型专属结构检查（tool/framework 必须有操作步骤 / When NOT to Use / 失败模式；case 必须有关键数字 + 证据表）
+
+> **未跑 pre-submit 就提交 → 欧阳锋/王语嫣直接退回，不审内容。**
+
 ## ⚠️ 当前待办（优先级从高到低）
 
 **全部完成 ✅**（2026-06-16 批次）：
@@ -129,6 +146,7 @@ updated: 2026-06-25
 7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
 8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`）——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
 9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
+10. **🆕 pre-submit 强制门禁（2026-06-27 欧阳锋裁定）：任何文件提交前必须跑 `kdo pre-submit -f <文件>` 并贴输出，未附者王语嫣直接退回。**
 
 ## 🆕 调研 Skill 路由（接到新域/新素材时用）
 
@@ -161,7 +179,7 @@ updated: 2026-06-25
 ## 下一阶段改进承诺（基于第十九、二十节评估反馈）
 
 1. **执行前核对目标卡 ID**：批量精修前先逐卡确认 `id` 与文件存在；遇到任务文件 ID 与库中不匹配，先暂停确认，不擅自推断替换。
-2. **单卡收尾检查清单**：每张卡改完后立即检查——`status` 是否 enriched、`reviewed_by` 是否非 pending/非 author、`updated_at` 是否更新、`diagnostic_signals` 是否 ≥3、是否新增 ≥1 落地模板/案例、是否新增 ≥2 互链、是否跑过门禁。
+2. **单卡收尾检查清单**：每张卡改完后立即检查——`status` 是否 enriched、`reviewed_by` 是否非 pending/非 author、`updated_at` 是否更新、`diagnostic_signals` 是否 ≥3、是否新增 ≥1 落地模板/案例、是否新增 ≥2 互链、**是否已跑 `kdo pre-submit` 并贴输出**。
 3. **KF-025 三问前置到域内**：不再等一个域全部改完才回答三问，而是每改一批就回头扫一眼：这个框架卡有没有 case 支撑？有没有可提取的 dk？跨案例模式要不要写 synthesis？
 4. **主动修复系统性盲区**：进入新域时，先扫描该域框架/概念卡，主动发现"框架丰满、案例空缺"的债务，优先补 case 和 dk，而不是等审计催。
 5. **失败模式必须自带"症状+修复"**：不再写"步骤跳过→严格按步骤"这种模板话；每条失败模式都要对应一个老顽童能识别的真实信号和一个今晚就能执行的修复动作。

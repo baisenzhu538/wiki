@@ -31,7 +31,7 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - signal: "批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split(\"---\")` 拆分，而非 `yaml.safe_load()`"---")` 拆分，而非 `yaml.safe_load()`'
+  - signal: "批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split(\\"---\\\")` 拆分，而非 `yaml.safe_load()`"
   framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
   follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
 - signal: '批量修改后某些卡片的 `related:` 列表项合并/丢失，或 `domain:` 层级被抹平'

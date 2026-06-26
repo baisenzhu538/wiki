@@ -7,56 +7,56 @@ type: framework
 status: enriched
 domain:
   - management- consulting
-- yitang
-source_refs: []
-*Business Horizons*, 23(3), 14-26.
+  - yitang
+source_refs:
+  - '*Business Horizons*, 23(3), 14-26.'
 bridges_to:
-- target: yt-model-entrepreneur-map
-  relation: provides_foundation_for
-  description: 7-S 提供了组织诊断的完整维度框架
-  context: 一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口
-- target: yt-management-toolkit-overview
-  relation: complements
-  description: 管理工具箱中的 tool 卡可以与 7-S 各维度对应
-  context: 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统
-- target: concept-mckinsey-mece
-  relation: uses
-  description: 7-S 是 MECE 原则在组织诊断中的具体应用
-  context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
+  - target: yt-model-entrepreneur-map
+    relation: provides_foundation_for
+    description: 7-S 提供了组织诊断的完整维度框架
+    context: 一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口
+  - target: yt-management-toolkit-overview
+    relation: complements
+    description: 管理工具箱中的 tool 卡可以与 7-S 各维度对应
+    context: 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统
+  - target: concept-mckinsey-mece
+    relation: uses
+    description: 7-S 是 MECE 原则在组织诊断中的具体应用
+    context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
 diagnostic_signals:
-- signal: 用户说'我们团队好像出了问题，但不知道是哪里'
-  framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
-  follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？
-- signal: 用户说'我们做了组织调整但问题还在'
-  framework_lens: 7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素
-  follow_up_question: 你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？
-- signal: 用户说'我们公司战略很清晰，但执行总是变形'
-  framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
-  follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
-- signal: 用户说'我们准备从 0 到 1 规模化，但不知道组织能不能跟上'
-  framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
-  follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
+  - signal: 用户说'我们团队好像出了问题，但不知道是哪里'
+    framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
+    follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？
+  - signal: 用户说'我们做了组织调整但问题还在'
+    framework_lens: 7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素
+    follow_up_question: 你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？
+  - signal: 用户说'我们公司战略很清晰，但执行总是变形'
+    framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
+    follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
+  - signal: 用户说'我们准备从 0 到 1 规模化，但不知道组织能不能跟上'
+    framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
+    follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
 related:
   - '[[skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
   - '[[yt-management-toolkit-overview]]'
   - '[[dk-strategy-three-must-do-moments]]'
   - '[[framework-strategy-mckinsey-7s]]'
-- '[[concept-mckinsey-mece]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-minto-pyramid-principle]]'
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-management-toolkit-overview]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[yt-tool-okr-cycle]]'
-- '[[case-yitang-weekly-modeling-engine]]'
-- '[[dk-lz-ai-native-organization]]'
+  - '[[concept-mckinsey-mece]]'
+  - '[[concept-mckinsey-issue-tree]]'
+  - '[[concept-mckinsey-hypothesis-driven]]'
+  - '[[concept-minto-pyramid-principle]]'
+  - '[[yt-model-entrepreneur-map]]'
+  - '[[yt-management-toolkit-overview]]'
+  - '[[yt-tool-hiring-scorecard]]'
+  - '[[yt-tool-okr-cycle]]'
+  - '[[case-yitang-weekly-modeling-engine]]'
+  - '[[dk-lz-ai-native-organization]]'
 tags:
-- '#scene/business-analysis'
-- '#scene/entrepreneurship'
-- '#scene/team-management'
-- '#industry/consulting'
-- '#method/checklist'
+  - '#scene/business-analysis'
+  - '#scene/entrepreneurship'
+  - '#scene/team-management'
+  - '#industry/consulting'
+  - '#method/checklist'
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 author: 老顽童
