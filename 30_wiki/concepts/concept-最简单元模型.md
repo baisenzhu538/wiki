@@ -24,9 +24,7 @@ related:
   - "[[yitang-domain-digest]]"
   - "[[yt-unit-model-overview]]"
   - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-象限分析法]]"
   - "[[framework-lean-abcd-model]]"
-  - "[[tool-单元模型-单商圈]]"
 ---
 
 # 最简化的单元模型
