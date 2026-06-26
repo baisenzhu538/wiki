@@ -14,6 +14,7 @@ confidence: 0.75
 trust_level: medium-low
 title: yt decision abcd model
 source_refs:
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
 - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
 related:
