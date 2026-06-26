@@ -1,30 +1,12 @@
 ---
-
-id: dk-决策经验值
-title: 暗知识：决策经验值——老手和新手的隐性差距
-type: dk
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-language: zh-CN
-domain:
-- yitang
-- decision-science
-source_refs:
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-决策经验值_vlm_desc.md
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[dk-你的业务是一次抽样实验]]'
-  - '[[tool-审美工具箱]]'
-  - '[[tool-最佳实践池子]]'
 - '[[framework-科学决策三角形]]'
 - '[[dk-你的业务是一次抽样实验]]'
 - '[[dk-单元模型-找基准值实操难点]]'
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-完整财务公式决策]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[strategy-domain-digest]]'
 updated_at: '2026-06-26'
 ---
 

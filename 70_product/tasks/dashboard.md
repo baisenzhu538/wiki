@@ -1,9 +1,18 @@
 # Task Dashboard
 
-Generated: 2026-06-15T15:00:00+00:00
+Generated: 2026-06-26T21:00:00+00:00
+updated: 2026-06-26
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
+| panproduct-35-cards | 泛产品设计 35 张卡：老顽童生产完成 | review_done | 欧阳锋 | P0 | audit_20260626_ouyangfeng-panproduct-review.md |
+| panproduct-migrate-19 | 19 张落地卡旧→新迁移（concept→tool，引用替换，归档） | done | 黄药师 | P0 | — |
+| panproduct-upgrade-14 | 14 张需求/审美概念卡 frontmatter 升级 | done | 黄药师 | P0 | — |
+| panproduct-related-fix | 20 张新卡 related 补全（≥5条） | done | 黄药师 | P0 | — |
+| nine-layer-skill | 九层深挖 Skill 双桥接（Claude Code + Hermes） | done | 黄药师 | P0 | — |
+| six-layer-skill | 六层交叉验证 Skill 双桥接（Claude Code + Hermes） | done | 黄药师 | P0 | — |
+| ouyangfeng-context | 欧阳锋 context 重写（Obsidian Claude → Kimi Code CLI） | done | 黄药师 | P0 | — |
+| wangyuyan-context | 王语嫣 context 精简（370→103行，砍跨域职责） | done | 黄药师 | P0 | — |
 | s4-1-aliases-field | S4-1：卡片增加 aliases 字段，提升搜索体验 | done | 黄药师 | P0 | huangyaoshi-next-tasks.md |
 | kf-021-source-refs-hash-completion | KF-021：705 张 source_refs hash 前缀补全为完整文件名 | done | 黄药师 | P1 | kf021-spot-check-report-2026-06-15.md |
 | section-22-30-cards | 第二十二节 30 张卡深度精修 | A- 通过 | 老顽童 | P0 | section-22-laowantong-acceptance-2026-06-17.md |
@@ -38,7 +47,8 @@ Generated: 2026-06-15T15:00:00+00:00
 
 ## Summary
 
-- **Total**: 24
-- **Done**: 10
-- **In Progress**: 0
+- **Total**: 30
+- **Done**: 23
+- **In Progress**: 1 (laowantong-batch)
 - **Pending**: 2
+- **Review Done**: 1 (panproduct-35)
