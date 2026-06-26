@@ -12,7 +12,7 @@ blockers:
   - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
   - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
   - "🟡 决策域(66卡)待建domain digest；需求分析域待建；五步法子域待建"
-next_session_hint: "老顽童完成P0-A新增10张卡YAML修复后通知王语嫣复核；复核通过后通知欧阳锋审查dk-单元模型-对抗小抄；黄药师跑kdo index --rebuild+kdo lint收尾；决策域(66卡)domain digest待建。"
+next_session_hint: "P0-A单元模型域10张卡YAML已修复。王语嫣复核YAML+broken link → 通过后通知欧阳锋审查dk-单元模型-对抗小抄 → 欧阳锋通过后P0-A封版。老顽童待命接science域或P0-A收尾任务。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

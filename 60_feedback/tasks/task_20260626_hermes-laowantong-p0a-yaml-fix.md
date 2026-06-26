@@ -143,3 +143,15 @@ sys.exit(1 if fail else 0)
 ---
 
 *任务下达：王语嫣 | 日期：2026-06-26*
+
+---
+
+## 完成记录（2026-06-27 老顽童）
+
+- 10 张卡 `related` 缩进全部修复，`yaml.safe_load` 验证通过。
+- 同批次扫描额外发现 `yt-tob-unit-model.md` 的 `domain`/`tags`/`related` 三个字段缩进断裂，一并修复。
+- P0-A 单元模型域全 16 张卡 YAML 解析通过。
+- `yt-tob-unit-model.md` 的 `domain` 字段有疑似 typo `yitang- yitang`（应为 `yitang`），需王语嫣确认。
+- 审计备忘已更新：`60_feedback/audit/audit_20260626_wangyuyan-p0a-rework-memo-for-ouyangfeng.md`
+- `.agent/context.md` 已同步更新。
+- **下一步**：王语嫣复核 YAML + broken link → 通知欧阳锋审查 `dk-单元模型-对抗小抄` → 封版。
