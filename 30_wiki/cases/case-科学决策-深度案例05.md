@@ -101,9 +101,11 @@ updated_at: 2026-06-26
 
 ## Critique
 
-- **Kahneman（规划谬误）**：人类系统性地低估项目成本和周期，高估收益。案例中装修、创新实验等数字很可能过于乐观，实际首年成本可能高于 100 万，创新实验收益可能远低于 66 万。[conf=0.80, source=Kahneman & Tversky, planning fallacy]
-- **Taleb（黑天鹅）**："3 年测出千万利润级业务"是极端厚尾事件，用期望值线性折算为 66 万/年，忽略了失败概率和尾部风险。办公室租金是固定的，创新收益是不确定的，这种不对称性未被充分讨论。[conf=0.75, source=Nassim Taleb, Antifragile]
+> 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
+
+- **March（探索与利用的矛盾）**：租办公室和搭建创新实验空间是"探索"逻辑，但很多组织的奖励机制实际上是"利用"导向的。如果组织奖励短期盈利，团队不会有动力做长期研发跟进。[conf=0.75, source=James March, Exploration and Exploitation in Organizational Learning]
+- **Orwell（决策语言的政治）**：案例中"市场不确定性""收益不确定性"被列为隐性成本，但这些不确定性可能是系统性的而非个别的。用列出隐性成本来掩盖整个系统的不确定性，可能让决策者误以为自己已经充分考虑了风险。[conf=0.75, source=George Orwell, Politics and the English Language]
 
 ---
 
-*2026-06-26 重写：基于 VLM 描述与 OCR 文本补充 9 层案例结构。*
+*2026-06-26 重写：基于 VLM 描述、OCR 文本与一堂框架推理补充 9 层案例结构。*
