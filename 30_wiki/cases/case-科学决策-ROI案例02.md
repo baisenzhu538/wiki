@@ -100,9 +100,11 @@ updated_at: 2026-06-26
 
 ## Critique
 
+> 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
+
 - **Klein（专家直觉边界）**：最终决策可能基于决策者对虚拟拍摄行业的直觉判断，但如果决策者缺乏该领域深度经验，直觉可能错误。你是在学习决策逻辑，还是在复制一个看似成功的结果？[conf=0.75, source=Gary Klein, Sources of Power]
 - **March（探索与利用的矛盾）**：搭建影棚是"探索"逻辑，但很多组织的 KPI 是"利用"导向的。如果组织奖励短期盈利，团队不会有动力做长期研发跟进。[conf=0.75, source=James March, Exploration and Exploitation in Organizational Learning]
 
 ---
 
-*2026-06-26 重写：基于 VLM 描述与 OCR 文本补充 9 层案例结构。*
+*2026-06-26 重写：基于 VLM 描述、OCR 文本与一堂框架推理补充 9 层案例结构。*

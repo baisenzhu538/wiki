@@ -98,9 +98,11 @@ updated_at: 2026-06-26
 
 ## Critique
 
+> 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
+
 - **Simon（有限理性）**："人数 × 人力成本 × 时间占比 × 效率提升"假设效率与成本节约是线性关系。但实际上，效率提升可能导致工作重新分配、团队结构调整甚至裁员。如果实际效率只提升 50%，决策还值得吗？[conf=0.75, source=Herbert Simon, Administrative Behavior]
 - **Christensen（能力陷阱）**：企业常常因为"能做"而选择自研，忽略外部更优方案。"维护成本较低但难定量"本身就是警示——难以定量的成本往往最高。[conf=0.80, source=Clayton Christensen, The Innovator's Dilemma]
 
 ---
 
-*2026-06-26 重写：基于 VLM 描述与 OCR 文本补充 9 层案例结构。*
+*2026-06-26 重写：基于 VLM 描述、OCR 文本与一堂框架推理补充 9 层案例结构。*
