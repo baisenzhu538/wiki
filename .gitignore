@@ -22,3 +22,11 @@ desktop.ini
 _tmp/
 .tmp/
 node_modules/
+
+# Temporary PCB / PDF / OCR outputs at vault root (B类：一次性临时文件)
+temp_pcb_*.json
+pcba_v22_*.json
+temp_design.pdf
+temp_sch_*.pdf
+temp_*_paddle_ocr.txt
+%TEMP%upgrade_plan.json

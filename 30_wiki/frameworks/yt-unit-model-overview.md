@@ -1,42 +1,47 @@
 ---
-
-
-
 title: 单元模型概览：十大单元模型与三角色分工
-date: 2026-05-24
+date: 2026-06-26
 type: framework
 status: enriched
 domain:
-  - yitang- decision-science
 - yitang
+- decision-science
 - entrepreneurship
 id: yt-unit-model-overview
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
-confidence: 0.8
+confidence: 0.80
 trust_level: medium
 source_refs:
-- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
-source_context: 一堂 To B 五步法课程（徐剑口述稿、课堂笔记、图片 OCR 合集、优秀作业合集）关于单元模型与商业模式部分
-updated_at: '2026-06-16'
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单客户模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单履约模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单柜子模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单用户模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单订单模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单销售模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单门店模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单sku模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单商圈模型.png
+- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单城市模型.png
+updated_at: '2026-06-26'
 related:
-  - '[[ocr-一堂-单元模型-单门店模型]]'
-  - '[[ocr-一堂-单元模型-单城市模型]]'
-  - '[[ocr-一堂-单元模型-多模型情况]]'
-  - '[[ocr-一堂doc-单元模型-十大单元模型]]'
-  - '[[ocr-一堂-单元模型-单用户模型]]'
-- '[[yt-unit-model-build]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tob-sales-unit-model]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[master-decision-hygiene]]'
-- '[[master-first-principles]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- "[[yitang-domain-digest]]"
+- "[[ai-collaboration-domain-digest]]"
+- "[[tool-单元模型-单商圈]]"
+- "[[tool-单元模型-单城市]]"
+- "[[tool-单元模型-象限分析法]]"
+- "[[tool-单元模型-壁垒预判]]"
+- "[[framework-单元模型-外部对抗地图]]"
+- "[[framework-TCPR底层网络协议]]"
+- "[[concept-单元模型-学练用]]"
+- "[[concept-最简单元模型]]"
+- "[[dk-单元模型-找全成本实操难点]]"
+- "[[dk-单元模型-找单元模型实操难点]]"
+- "[[dk-单元模型-规模对抗实操难点]]"
+- "[[case-unit-model-gashapon]]"
 diagnostic_signals:
 - signal: 团队能算清公司整体账，但说不清"复制一个单元"到底赚不赚钱
   framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
