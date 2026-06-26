@@ -141,7 +141,7 @@ tags:
 | yitang | [[yt-decision-abcd-model|关键假设 ABCD 模型]] | 一堂课程内的决策方法论落地 |
 | lean-startup | [[framework-lean-pivot-decision|精益转向决策框架]] | 在假设验证与资源约束下做转向/坚持判断 |
 | business-strategy | [[framework-科学决策三角形|科学决策三角形]] | 战略选择中平衡高度、宽度、深度三维度 |
-| ai-collaboration | [[concept-AI时代双三角决策法|AI 时代双三角决策法]] | 人机协作场景下的决策分工与幻觉识别 |
+| ai-collaboration | [[concept-AI时代双三角竞争力|AI 时代双三角竞争力]] | 人机协作场景下的决策分工与幻觉识别 |
 
 ## 10. 域健康度
 
