@@ -6,11 +6,11 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+  - master
 source_person: system
 source_context: failure-modes.md F-KDO-013
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
+  - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -19,19 +19,19 @@ related:
   - '[[dk-p18-yaml-parser]]'
   - '[[dk-p19-quote-yaml]]'
   - '[[proposal-yaml-frontmatter-standardization]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[master-first-principles]]'
-- '[[dk-c1-cjk-regex-silent-fail]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[master-first-principles]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-reviewed
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split("---")` 拆分，而非 `yaml.safe_load()`'
+  - signal: "批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split(\"---\")` 拆分，而非 `yaml.safe_load()`"---")` 拆分，而非 `yaml.safe_load()`'
   framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
   follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
 - signal: '批量修改后某些卡片的 `related:` 列表项合并/丢失，或 `domain:` 层级被抹平'
