@@ -1,46 +1,18 @@
 ---
 updated: 2026-06-26
 active_branch: main
-active_task: "老顽童已完成 task_20260625_laowantong-vlm-to-cards.md P0-A 单元模型域 15 张成品卡；等待王语嫣 20% 抽样验收。验收通过后启动 P0-B 科学决策域成品卡生产；同步等待王语嫣抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张。"
+active_task: "P0-A 等待老顽童返工；P0-B 等待欧阳锋最终审查；泛产品设计35张卡已迁移归档，20张新卡related已补全"
 blockers:
-  - "✅ 113 张 VLM parse error 归零"
-  - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
-  - "✅ 四层验收管线落地（L1 lint → L2 自攻击 → L3 王语嫣 20% → L4 欧阳锋例外）"
-  - "✅ 备份与恢复体系上线（坚果云 + vault-backup.py + 每日 9:03 自动巡检）"
-  - "✅ 知识库重新定位 AI for Business——index.md + CLAUDE.md + startup.md 已重写"
-  - "✅ 战略域收工：76 张卡，平均置信度 0.88"
-  - "✅ 精益创业素材标注完成：52 张图 + 4 份课程稿 + 5 份 AMA 的 9 层深挖 + 六层交叉验证"
-  - "✅ P0 核心框架 7/7 完成：framework-lean-false-model/four-principles/six-wastes/systematic-test-curve/abcd-model/tenx-formula + case-lean-electric-scooter-mvp"
-  - "✅ P1 工具+案例+产品内核框架 27/27 完成：16 张 tool-lean-* + framework-lean-product-kernel + 10 张 case-lean-*"
-  - "✅ 精益创业 domain digest 已更新：8 framework + 16 tool + 15 case 清单，P2 5 张标注为待生产"
-  - "✅ 已有 concept/tool 卡（yt-entrepreneur-lean-validation、yt-entrepreneur-key-hypotheses、yt-panproduct-execution-low-cost-mvp、concept-一堂-kernel-validation）已补充反向 related"
-  - "✅ 王语嫣 20% 抽样六层交叉验证完成：34 张卡有条件通过"
-  - "✅ 老顽童已按王语嫣验收报告修正 4 张 reviewed_by=待审 卡：tool-lean-ai-accelerated-validation、tool-lean-fake-marketing、case-lean-genki-forest-toolkit、case-lean-wrong-demand → 欧阳锋"
-  - "✅ tool-lean-fake-marketing 文末重复 Purpose/When NOT to Use 已删除，保留 Critique"
-  - "✅ 跨域融合计划（策略 A）P0+P1+P2 全部完成：5 张桥接卡 + 10 张枢纽卡 related 补全 + 2 张跨域案例；双向链接校验通过"
-  - "✅ 精益创业 P1 案例补完批次 5/5 全部完成：case-lean-zhanglei-pivot-decision/hypothesis-validation/failure-counterfactual + case-lean-gray-test-paradigm/combination-test-paradigm"
-  - "✅ 精益创业 P1 案例补完批次 2 张卡源文件缺失已处理：case-lean-marketing-channel-comparison、case-lean-b2b-sector-selection 已取消；若用户后续提供素材可作为 P2/P3 追加"
-  - "✅ 精益创业 P2 全部完成：framework-lean-expert-roadmap + case-lean-crayfish-combo-test/shampoo-selling-points/radish-channel-selection/adult-education；精益创业域建制完整 45 张卡"
-  - "✅ 黄药师跨域 related 审计脚本修复完成并通过王语嫣验收：Rule 1 777→253，Rule 2 5→0，Rule 3 2→2；报告见 60_feedback/audit/cross-domain-link-report.md 与 60_feedback/audit/cross-domain-audit-script-acceptance-20260625.md"
-  - "✅ bridge 卡目标域覆盖已确认：5/5 全覆盖"
-  - "✅ 王语嫣 20% 抽样六层验收完成：跨域融合计划 + 精益创业近期产出 11 张新卡，verdict 有条件通过；报告见 60_feedback/audit/lean-cross-domain-production-audit-20260625.md"
-  - "🟡 王语嫣验收报告轻微建议待处理：framework-ai-accelerated-strategy-cycle 中张磊 AMA 成本数字置信度建议从 0.85 降至 0.75-0.80"
-  - "🟡 跨域审计 Rule 3 剩余 2 项：five-step-domain-digest 和 yitang-research-domain-digest 需补充 2+ 个跨域 digest 链接（P2）"
-  - "✅ 王欢《AI 2041》P0+P1 14 张完成：P0 5 张 + P1 9 张"
-  - "✅ framework-ai-accelerated-strategy-cycle 成本数字置信度已修复：张磊 AMA 教学推演的成本压缩数字从 conf=0.80 降级到 conf=0.55-0.60，卡片整体 confidence 从 0.85/high 调整为 0.75/medium"
-  - "✅ 王欢《AI 2041》P1 9 张通过王语嫣 20% 抽样验收；报告见 60_feedback/audit/ai2041-p1-production-audit-20260625.md"
-  - "✅ 王欢《AI 2041》全 22 张卡 frontmatter 整改完成：confidence 统一为单一数值（case/tool 0.80，concept/dk 0.78），case/dk 卡 frontmatter 中 source_person/source_context 已移除并迁移到正文；index.md 补齐 4 张遗漏卡；确认文件见 60_feedback/corrections/corr_20260625_laowantong-ai2041-frontmatter-fix.md"
-  - "✅ 三域跨案例 synthesis dk 卡 9 张返工完成：补产/确认 dk-strategy-stage-leverage-mismatch；移除 9 张卡 frontmatter 中 dark_knowledge_type；dk-yitang-behavior-over-asking 预警信号补到 5 条；dk-yitang-model-asset-capitalization 支撑案例单独成节；lint 与 YAML 自检通过；等待王语嫣复核"
-  - "✅ 王语嫣入口审计流程升级：采纳黄药师案例挖掘检测维度；强制检查点从 3 步扩展为 4 步，诊断记录新增「案例候选」节；决策见 60_feedback/decisions/dec_20260625_wangyuyan-case-mining-intake.md"
-  - "✅ 洪七公 VLM 重提取入口审计完成：172 张 VLM 描述为视觉索引；王语嫣已完成独立框架价值标注（见 00_inbox/_vlm_reprocess/_triage/vlm_framework_value_triage.md）"
-  - "✅ 老顽童已完成 P0-A 单元模型域 15 张成品卡：4 tool + 2 framework + 2 concept + 5 dk + 1 case + yt-unit-model-overview enrich；基于原图+VLM描述+OCR 补挖；lint 与 YAML 自检通过；等待王语嫣 20% 抽样验收"
-  - "✅ 跨案例合成任务已完成：strategy/research/yitang 三域 9 个洞察已沉淀为 9 张 dk 卡，见 task_20260625_laowantong-synthesis-dk-cards.md"
-  - "🟡 决策域（Y模型，66卡）待建 domain digest"
-  - "🟡 需求分析域待建 domain digest"
-  - "🟡 五步法子域待建独立 digest"
-  - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
-  - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
-next_session_hint: "等待王语嫣对 P0-A 单元模型域 15 张成品卡做 20% 抽样验收；验收通过后启动 P0-B 科学决策域成品卡生产；王语嫣同步抽查 2 张 AI 2041 P2 整改卡与三域 synthesis dk 卡 9 张；Rule 3 缺口另排小批次处理。"
+  - "🟡 P0-A 单元模型域：王语嫣入口把关发现 1 空文件(dk-单元模型-对抗小抄) + 1 frontmatter 解析错误(yt-unit-model-overview) + 2 broken link；返工任务 task_20260626_hermes-laowantong-p0a-fix.md 已下达，等待老顽童返工"
+  - "🟡 P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)王语嫣已完成入口把关抽查，问题清单见 audit_20260626_wangyuyan-p0b-remaining-cards.md；发现 case 卡自述'叙事较薄'——根因是生产未做9层深挖，素材实际不薄；等待欧阳锋最终审查"
+  - "🟡 case-科学决策-深度案例01：根因诊断完成，VLM/OCR素材确有完整数字+Critique+Synthesis，当前44行case卡未使用原料；建议重写而非合并"
+  - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
+  - "✅ 角色重组：欧阳锋从Obsidian Claude迁至Kimi Code CLI(审查为主+深挖重写为辅)；王语嫣收拢为入口把关+咨询+成品验收(砍跨域)；Hermes老顽童独挑生产大梁(API切至Kimi)"
+  - "✅ 九层深挖+六层交叉验证→Skill双桥接(Claude Code+Hermes)；laowantong-context加质量闸门(100行底线/素材消费率/六段齐全/失败模式具体)"
+  - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
+  - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
+  - "🟡 决策域(66卡)待建domain digest；需求分析域待建；五步法子域待建"
+next_session_hint: "老顽童完成P0-A返工后通知王语嫣复核；欧阳锋审查P0-B剩余14张卡(注意素材不薄，需九层深挖重写浅卡)；黄药师跑kdo index --rebuild+kdo lint收尾。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
@@ -58,7 +30,7 @@ next_session_hint: "等待王语嫣对 P0-A 单元模型域 15 张成品卡做 2
 | 洪七公 | hermes-gateway-beikai | oc_71fc... | deepseek-v4-pro |
 | 段王爷 | hermes-gateway-duanwangye | oc_f3a9... | deepseek-v4-pro |
 | 王语嫣 | hermes-gateway-wangyuyan 🆕 | oc_b8bf... | deepseek-v4-pro |
-| 老顽童 | CLI `hermes` | 无 | deepseek-v4-pro |
+| 老顽童 | CLI `hermes` | 无 | kimi-for-coding |
 
 ### 关键教训
 - P-27: Provider迁移先查 models_dev_cache 确认 SDK 协议
@@ -73,10 +45,10 @@ next_session_hint: "等待王语嫣对 P0-A 单元模型域 15 张成品卡做 2
 
 | 角色 | 运行位置 | 工具 |
 |------|---------|------|
-| 欧阳锋（Architect） | Obsidian Claudian 插件 | 协调/审查/拍板 |
-| 黄药师（Builder） | Windows 终端（PowerShell） | KDO CLI 开发 |
-| 王语嫣（Consultant） | Hermes agent → 飞书 | 诊断咨询/反馈 |
-| 老顽童（Producer） | **WSL tmux claude（主力）** / Hermes 备用 | 卡片/文章量产 |
+| 欧阳锋（Architect） | Kimi Code CLI | 审查/深挖重写/协调/拍板 |
+| 黄药师（Builder） | Claude Code（Windows 终端） | KDO CLI 开发/基建/lint |
+| 王语嫣（Consultant） | Kimi Code CLI | 入口把关/诊断咨询/成品验收 |
+| 老顽童（Producer） | **Hermes CLI（Kimi API）** | 卡片/文章量产 |
 | 洪七公（Multimodal） | Hermes agent → 飞书 | 视觉/设计/prompt |
 | 段王爷（Publisher） | Hermes agent → 飞书 | 发布/反馈/版本 |
 
@@ -91,7 +63,7 @@ next_session_hint: "等待王语嫣对 P0-A 单元模型域 15 张成品卡做 2
 
 ## 模型与环境
 
-- **模型**：DeepSeek V4 Pro（直连 `api.deepseek.com/anthropic`）
+- **模型**：Kimi（kimi-for-coding，老顽童/欧阳锋/王语嫣/洪七公/段王爷共用 Kimi 订阅）
 - **飞书 WebSocket**：cc-connect 和 Hermes 均出现 keepalive ping timeout。重启即修复。P-6 已记录。
 - **切模型**：涉及五层配置（`.bashrc` / 注册表 / systemd drop-in / `cc-connect config.toml` / session 缓存）。详见 `pitfalls.md`
 

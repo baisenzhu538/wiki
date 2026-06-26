@@ -125,7 +125,7 @@ updated: 2026-06-25
 3. 常见失败模式不能写"步骤跳过→严格按步骤执行"——那是模板话，必须写这个技能特有的。
 4. 写新卡前先 `kdo cards --domain <domain>` 查同域已有卡。
 5. 新域素材第一步：扫描图片→OCR→读文本。搜索不能只靠文件名，要全文搜主题词。
-6. 产新卡后跑 `kdo index --rebuild`。
+6. 产新卡后通知黄药师跑 `kdo index --rebuild`（你不要自己跑——全库扫描会阻塞）。
 7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
 8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`）——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
 9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
