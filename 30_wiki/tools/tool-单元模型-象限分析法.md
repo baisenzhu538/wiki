@@ -20,7 +20,7 @@ related:
 - "[[ai-collaboration-domain-digest]]"
 - "[[tool-单元模型-单商圈]]"
 - "[[tool-单元模型-单城市]]"
-- "[[framework-lean-unit-economics]]"
+- "[[framework-lean-abcd-model]]"
 ---
 
 # 单元模型：象限分析法

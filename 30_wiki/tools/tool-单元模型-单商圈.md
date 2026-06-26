@@ -19,7 +19,7 @@ related:
 - "[[yt-unit-model-overview]]"
 - "[[ai-collaboration-domain-digest]]"
 - "[[tool-单元模型-单城市]]"
-- "[[tool-单元模型-单门店]]"
+- "[[yt-unit-model-overview]]"
 - "[[framework-lean-abcd-model]]"
 ---
 
