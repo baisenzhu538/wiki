@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——激活率
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？"
 
 ---
-
 # 激活率：让用户第一次体验到价值
 
 > 一堂五步法：激活是留存的前提。用户第一次体验到价值的时间越短，留存率越高。

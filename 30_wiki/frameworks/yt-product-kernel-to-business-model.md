@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-to-business-model
 title: 从内核到商业模式：承上启下
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——内核与商业模式
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "市场不认可的是定价、付费方式，还是价值感知？"
 
 ---
-
 # 从内核到商业模式：承上启下
 
 > 一堂五步法：产品内核是价值，商业模式是变现。内核验证成功≠商业模式成功，需要承上启下的设计。

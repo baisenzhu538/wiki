@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-liberate-thinking-layers
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 1591
 language: zh-CN
 query_triggers:
   - "六层认知模型"
@@ -45,8 +44,7 @@ related:
   - '[[dk-modeling-logical-cleanliness-root]]'
   - '[[case-modeling-essence-levels]]'
 
----
-# 解放思想五层模型
+---# 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
 

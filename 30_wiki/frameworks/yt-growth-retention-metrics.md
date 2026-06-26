@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——留存指标
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "停止补贴后，用户还会回来吗？产品本身的价值是否足够？"
 
 ---
-
 # 留存指标：从流失到忠诚
 
 > 一堂五步法：留存是增长的基础。获客不留存，是漏斗漏水。留存率每提升5%，利润提升25-95%。

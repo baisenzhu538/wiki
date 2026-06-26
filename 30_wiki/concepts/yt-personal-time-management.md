@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-time-management
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "时间管理"
@@ -52,8 +51,7 @@ related:
   - '[[yt-personal-deep-review]]'
   - '[[yt-personal-checklist-notes]]'
 
----
-# 时间管理
+---# 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

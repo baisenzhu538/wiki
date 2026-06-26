@@ -1,11 +1,10 @@
 ---
+domain: - learning-methodology
 
 id: skill-提升笔记阅读舒适度
 title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
 type: concept
 status: enriched
-domain:
-  - learning-methodologylanguage: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
@@ -51,8 +50,7 @@ diagnostic_signals:
     lens: "认知依赖"
     follow_up: "颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间"
 
----
-# 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
+---# 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：**笔记不是写给自己看的，而是写给别人（包括未来的自己）用的产品。** 舒适度≠完整度——"在全的基础上最好让别人容易读"。它要求笔记作者具备产品意识（预判使用者、场景、价值）和视觉编码能力（用颜色、分层、格式让内容重心与形式重心统一）。
 

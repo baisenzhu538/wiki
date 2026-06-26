@@ -1,11 +1,10 @@
 ---
+domain: - yitang
 
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 type: concept
 status: enriched
-domain:
-  - yitangsource_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，六层逻辑关系框架
 source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
@@ -27,8 +26,7 @@ related:
   - yt-decision-depth-ladder
   - yt-model-deep-review-iceberg
 
----
-# 业务公式六层逻辑关系（L1 模糊 → L6 动态）
+---# 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
 > 一堂把人对业务公式的理解深度分为 6 层：从 L1「模糊」的安慰剂，到 L6「动态」的导航仪。每一层不仅对应公式的复杂度，更对应管理者的决策能力。  
 > 来源：一堂 2026-06-13 业务公式拆解培训（孔阳），「一堂业务公式·6层逻辑关系」图。

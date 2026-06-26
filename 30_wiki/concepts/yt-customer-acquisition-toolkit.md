@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -6,8 +7,6 @@ id: yt-customer-acquisition-toolkit
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2600
 language: zh-CN
 query_triggers:
   - "获客渠道"
@@ -47,8 +46,7 @@ author: "老顽童"
 related:
   - "case-ether-online-acquisition"
 
----
-# 获客工具合集
+---# 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

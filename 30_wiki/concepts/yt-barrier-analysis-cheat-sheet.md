@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 
 
@@ -6,8 +7,6 @@ id: yt-barrier-analysis-cheat-sheet
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - barrierestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "壁垒分析"
@@ -49,8 +48,7 @@ diagnostic_signals:
 updated_at: 2026-06-16
 author: "老顽童"
 
----
-# 壁垒分析完整cheatsheet
+---# 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]
 

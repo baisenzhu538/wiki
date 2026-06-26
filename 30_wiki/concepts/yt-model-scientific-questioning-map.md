@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-scientific-questioning-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 1667
 language: zh-CN
 query_triggers:
   - "关联卡片"
@@ -44,8 +43,7 @@ related:
   - '[[yt-model-ipo-learning-strategy]]'
   - '[[yt-model-questioning-practice-canvas]]'
 
----
-# 科学提问刻意练习地图
+---# 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]
 

@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-truman-career-routes
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
-domain:
-  - modelingestimated_tokens: 2777
 language: zh-CN
 query_triggers:
   - "X vs Y 七维对比"
@@ -45,8 +44,7 @@ related:
   - '[[yt-panproduct-demand-user-segmentation]]'
   - '[[ocr-truman的选择两条职业成长路线]]'
 
----
-# 楚门的选择：两条职业成长路线 X vs Y
+---# 楚门的选择：两条职业成长路线 X vs Y
 
 > 来源：Truman（许楚）的《楚门的选择：两条职业成长路线》。[[一堂]] | [[yt-model-truman-five-step-growth]] | [[yt-model-pan-product-36-strategies]]
 

@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-key-conversion
 title: 关键转化率：产品内核的北极星指标
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——关键转化率
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "如果只能看一个指标来判断内核健康度，你会选哪个？为什么？"
 
 ---
-
 # 关键转化率：产品内核的北极星指标
 
 > 一堂五步法：产品内核的北极星指标是"关键转化率"——从"了解产品"到"选择产品"的转化率。内核清晰，转化率就高；内核模糊，转化率就低。

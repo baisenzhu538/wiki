@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——增长策略总纲
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的留存率是多少？用户流失的原因是什么？"
 
 ---
-
 # 增长策略总纲：从商业模式到增长飞轮
 
 > 一堂五步法：增长不是单一动作，而是系统优化。增长飞轮 = 获客 × 激活 × 留存 × 变现 × 推荐。

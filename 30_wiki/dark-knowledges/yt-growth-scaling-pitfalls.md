@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱
@@ -7,8 +8,6 @@ dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——增长规模化陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "别人的增长策略的前提条件是什么？你的条件是否匹配？"
 
 ---
-
 # 增长规模化陷阱
 
 > 一堂五步法：增长规模化不是简单的放大，而是系统性的挑战。增长快，死得也快。

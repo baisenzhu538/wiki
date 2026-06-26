@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——订阅制
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "你的产品是否适合订阅制？订阅价值是否持续？"
 
 ---
-
 # 订阅制商业模式：从一次性到持续收入
 
 > 一堂五步法：订阅制是最健康的商业模式之一，提供可预测、可持续的收入。但订阅制需要从产品设计之初考虑。

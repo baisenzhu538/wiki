@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单
 type: tool
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂科学决策课程——认知偏差识别与决策训练清单
 source_refs:
   - src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
@@ -26,8 +25,7 @@ related:
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
 
----
-# 认知偏差快速诊断清单
+---# 认知偏差快速诊断清单
 
 > **核心定位**：做重要决策前，用 12 个问题的"认知体检"扫描自己的大脑有没有 bug。不是消除偏差（不可能），是把"不知道自己有偏差"变成"知道自己可能有偏差"。**使用顺序**：在选项评估阶段使用，位于反脆弱检查（#5）之后、拍板之前。
 

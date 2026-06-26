@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - yitangsource_person: Truman
 source_context: 一堂五步法——跨步三：从10到100的壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的增长行为是否在积累壁垒？"
 
 ---
-
 # 跨步三：从10到100的壁垒
 
 > 一堂五步法：从10到100不是增长，而是壁垒。没有壁垒的增长，是为别人做嫁衣。

@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——收入模式
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你系统评估过每种收入模式与内核的匹配度吗？"
 
 ---
-
 # 收入模式：6种典型变现方式
 
 > 一堂五步法：收入模式是商业模式的核心，需要与内核匹配，不是随机选择。

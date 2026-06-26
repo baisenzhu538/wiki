@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-thinking-models
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 1853
 language: zh-CN
 query_triggers:
   - "一堂做课供应链模型"
@@ -49,8 +48,7 @@ related:
   - '[[yt-entrepreneur-research-camp]]'
   - '[[yt-personal-knowledge-extraction]]'
 
----
-# 思维模型：从碎片经验到稳定模型
+---# 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

@@ -1,12 +1,11 @@
 ---
+domain: - modeling
 
 
 id: yt-model-management-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 2225
 language: zh-CN
 query_triggers:
   - "五阶成长路径"
@@ -42,8 +41,7 @@ trust_level: medium-high
 related:
   - "[[yt-management-business-formula]]"
 
----
-# 一堂管理地图：高潜力管理者修炼全景图
+---# 一堂管理地图：高潜力管理者修炼全景图
 
 > 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#管理必修
 

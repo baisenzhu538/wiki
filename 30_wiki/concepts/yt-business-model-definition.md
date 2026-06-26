@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-definition
 title: 商业模式定义：从内核到变现
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——商业模式定义
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的单元模型成立吗？LTV > CAC吗？有数据支撑吗？"
 
 ---
-
 # 商业模式定义：从内核到变现
 
 > 一堂五步法：商业模式是产品内核的变现路径。内核是价值，商业模式是让用户为这个价值付费的方式。

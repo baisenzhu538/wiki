@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 id: yt-prompt-writing-workflow
@@ -7,8 +8,6 @@ type: tool
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain:
-  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -46,8 +45,7 @@ related:
   - '[[yt-prompt-iterative-prompting]]'
   - '[[yt-model-prompt-engineering]]'
 
----
-# AI 写作工作流：大纲→要点→全文
+---# AI 写作工作流：大纲→要点→全文
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 写作最高频（24.5%），但也是最容易出"看起来完整、实际上空洞"的垃圾的地方。正确的流程从大纲开始——大纲有杠杆效应。
 

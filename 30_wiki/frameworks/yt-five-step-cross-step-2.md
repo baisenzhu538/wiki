@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 id: yt-five-step-cross-step-2
 title: 跨步二：从1到10的规模化
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - yitangsource_person: Truman
 source_context: 一堂五步法——跨步二：从1到10的规模化
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的单元模型是否成立？产品体验是否稳定？团队是否ready？"
 
 ---
-
 # 跨步二：从1到10的规模化
 
 > 一堂五步法：从1到10不是简单放大，而是系统性的规模化。单元模型、组织能力、产品体验，缺一不可。

@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 id: yt-concept-context-engineering
@@ -7,8 +8,6 @@ type: concept
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain:
-  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -44,8 +43,7 @@ related:
   - '[[yt-model-prompt-engineering]]'
   - '[[yt-note-ai-human-division]]'
 
----
-# 上下文工程：充分≠越多越好
+---# 上下文工程：充分≠越多越好
 
 > [[yt-model-prompt-engineering]] 的子概念。提示词的刀刃不在技巧在上下文——但上下文的质量由"相关度"而非"数量"决定。
 

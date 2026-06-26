@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -6,8 +7,6 @@ id: yt-concept-p-type-l-type
 confidence: 0.8
 created_at: 2026-06-06
 difficulty: beginner
-domain:
-  - yitangestimated_tokens: 2800
 language: zh-CN
 prerequisites:
   - yt-entrepreneur-industry-forecast
@@ -53,8 +52,7 @@ related:
   - '[[yt-entrepreneur-industry-forecast]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
 
----
-# P型与L型创业者
+---# P型与L型创业者
 
 > 来源：一堂商业预判课 | 阶段：预判阶段。一堂创业者类型学的核心概念，通过对比热情驱动（Passion）与逻辑驱动（Logic）两种创业者的认知模式、行为特征和失败路径，帮助创业者识别自身类型并实现认知跃迁。这是一堂老学员特别喜欢的模型之一。[[yitang-course-map]]
 

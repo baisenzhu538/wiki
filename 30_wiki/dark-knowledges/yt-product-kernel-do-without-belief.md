@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
@@ -7,8 +8,6 @@ dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——"做而不信"陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
 
 ---
-
 # "做而不信"陷阱：执行了流程，但不相信结果
 
 > 一堂五步法：最大的危险不是不做验证，而是做了验证但不相信结果。

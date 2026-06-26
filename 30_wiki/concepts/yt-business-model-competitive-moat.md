@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-competitive-moat
 title: 商业模式护城河：持续竞争优势
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——护城河
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的护城河强度如何量化？竞品突破的难度有多大？"
 
 ---
-
 # 商业模式护城河：持续竞争优势
 
 > 一堂五步法：护城河不是单一优势，而是多层次防御体系。没有护城河，商业模式不可持续。

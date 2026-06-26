@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-y-model-practice
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 2024
 language: zh-CN
 query_triggers:
   - "Y模型四最"
@@ -47,8 +46,7 @@ related:
   - '[[tool-泛产品落地-解放思想]]'
   - '[[yt-personal-thinking-models]]'
 
----
-# Y模型实操：科学成事的底层操作系统
+---# Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]
 

@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——生态锁定
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的种子用户是谁？核心应用是什么？如何启动双边市场？"
 
 ---
-
 # 生态锁定：平台壁垒
 
 > 一堂五步法：生态是最强的壁垒。生态越丰富，用户越离不开；用户越多，生态越丰富。

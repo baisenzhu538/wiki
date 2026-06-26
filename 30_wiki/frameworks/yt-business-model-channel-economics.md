@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——渠道经济学
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的渠道之间是否互相竞争？如何协调渠道策略？"
 
 ---
-
 # 渠道经济学：获客成本优化
 
 > 一堂五步法：获客渠道不是越多越好，而是需要优化组合。理解每个渠道的CAC、LTV、可规模化，才能优化获客成本。

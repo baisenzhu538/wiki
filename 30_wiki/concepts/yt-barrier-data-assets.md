@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-data-assets
 title: 数据资产：数据网络效应
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——数据资产
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？"
 
 ---
-
 # 数据资产：数据网络效应
 
 > 一堂五步法：数据资产是新时代的壁垒。数据越多，产品越好；产品越好，用户越多；用户越多，数据越多。

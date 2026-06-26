@@ -1,12 +1,11 @@
 ---
+domain: - yitang
 
 
 id: yt-scale-economy-weapon-library
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "规模经济"
@@ -43,8 +42,7 @@ author: "老顽童"
 related:
   - "case-ether-online-acquisition"
 
----
-# 规模经济分析武器库
+---# 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

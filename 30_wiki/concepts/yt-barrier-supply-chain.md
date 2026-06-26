@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——供应链壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的地理位置优势是否可持续？竞品是否也能获得类似位置？"
 
 ---
-
 # 供应链壁垒：资源独占
 
 > 一堂五步法：供应链壁垒不是成本低，而是资源独占、关系锁定、难以复制。

@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-industrial-production
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1874
 language: zh-CN
 query_triggers:
   - "工业化生产"
@@ -51,8 +50,7 @@ related:
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-truth-seeking]]'
 
----
-# 工业化生产
+---# 工业化生产
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

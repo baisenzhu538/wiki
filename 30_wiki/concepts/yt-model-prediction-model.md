@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-  - modelingestimated_tokens: 2226
 language: zh-CN
 query_triggers:
   - "三种预判范式"
@@ -47,8 +46,7 @@ related:
   - '[[yt-entrepreneur-fundraising]]'
   - '[[yt-entrepreneur-pragmatic-startup]]'
 
----
-# 预判模型：从最糙版到复杂版的三种预判范式
+---# 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
 >

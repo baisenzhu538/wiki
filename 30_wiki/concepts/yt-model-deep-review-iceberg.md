@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-deep-review-iceberg
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-  - modelingestimated_tokens: 2454
 language: zh-CN
 query_triggers:
   - "与解放思想层级的关系"
@@ -44,8 +43,7 @@ related:
   - '[[framework-logic-cleanliness-five-levels]]'
   - '[[yt-five-step-level-blindspots]]'
 
----
-# 深度复盘冰山图：从主观感受到能力建设的五层穿透
+---# 深度复盘冰山图：从主观感受到能力建设的五层穿透
 
 > 来源：一堂知识地图《深度复盘冰山图》。[[yt-personal-deep-review]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——销售驱动增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的销售CAC是多少？销售效率（人均产出）是多少？"
 
 ---
-
 # 销售驱动增长：SLG模式
 
 > 一堂五步法：高客单价产品需要销售驱动。销售不是打电话，而是价值传递和信任建立。

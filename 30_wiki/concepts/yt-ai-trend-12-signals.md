@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -6,8 +7,6 @@ id: yt-ai-trend-12-signals
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "AI趋势"
@@ -47,8 +46,7 @@ related:
   - '[[yt-ai-startup-20-risky-hypotheses]]'
   - '[[dk-signal-cluster-illusion]]'
 
----
-# AI趋势12大变化模型
+---# AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]
 

@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-first-principles
 title: 第一性原理
 type: tool
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
 source_refs:
   - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
@@ -26,8 +25,7 @@ related:
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
 
----
-# 第一性原理拆解器
+---# 第一性原理拆解器
 
 > **核心定位**：当你觉得"这个行业只能这么做"时，**不从"别人怎么做"出发，而是从最基本的物理事实、数学约束、经济规律重新推导**。不是"换一个角度想"，是"把别人的角度全部归零，从第一行开始重新写代码"。**使用顺序**：位于反脆弱检查（#5）之后、认知偏差自检（#1）之前——先生成选项，再检查选项。
 

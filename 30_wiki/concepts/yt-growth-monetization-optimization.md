@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-monetization-optimization
 title: 变现优化：从免费到付费
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——变现优化
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的定价是基于成本、竞争、还是价值？用户感知价值是多少？"
 
 ---
-
 # 变现优化：从免费到付费
 
 > 一堂五步法：变现不是最后一步，而是贯穿增长飞轮。免费用户是付费用户的基础。

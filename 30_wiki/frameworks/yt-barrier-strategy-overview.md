@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——壁垒策略总纲
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
 ---
-
 # 壁垒策略总纲：从增长到可持续优势
 
 > 一堂五步法：壁垒是第五步，但不是最后一步。壁垒保护增长成果，增长强化壁垒。两者循环。

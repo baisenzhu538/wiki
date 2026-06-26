@@ -1,12 +1,11 @@
 ---
+domain: - entrepreneurship
 
 
 id: yt-entrepreneur-business-growth
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1878
 language: zh-CN
 query_triggers:
   - "业务增长"
@@ -48,8 +47,7 @@ related:
 updated_at: 2026-06-16
 author: "老顽童"
 
----
-# 业务增长
+---# 业务增长
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

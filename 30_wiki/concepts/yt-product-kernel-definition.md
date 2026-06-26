@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——产品内核定义
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？"
 
 ---
-
 # 产品内核定义：用户愿意选择你的最小解决方案
 
 > 一堂五步法第二步：产品内核是用户愿意选择你的**最小解决方案**，不是功能越多越好，而是找到决定用户选择的**核心因果关系**。

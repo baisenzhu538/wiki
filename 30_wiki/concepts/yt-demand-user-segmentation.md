@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"人群定的太泛了"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,7 +39,6 @@ diagnostic_signals:
     follow_up_question: "这个功能主要服务哪一层用户？这一层用户占多大比例？"
 
 ---
-
 # 用户分层与需求差异：从"所有人"到"第一批100个"
 
 > 一堂五步法：超过50%的需求分析失败，根源是"人群定的太泛了"。

@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-opportunity-selection
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1849
 language: zh-CN
 query_triggers:
   - "机会选择"
@@ -52,8 +51,7 @@ related:
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-business-growth]]'
 
----
-# 机会选择
+---# 机会选择
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

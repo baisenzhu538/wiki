@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——漏斗优化
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？"
 
 ---
-
 # 漏斗优化：从认知到付费
 
 > 一堂五步法：漏斗不是静态的，而是动态优化的。每个环节的流失都是机会。

@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -7,8 +8,6 @@ id: yt-unit-model-three-tools
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2600
 language: zh-CN
 query_triggers:
   - "单元模型"
@@ -51,8 +50,7 @@ related:
   - '[[yt-customer-acquisition-toolkit]]'
   - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
 
----
-# 单元模型三工具：斧子尺子梯子
+---# 单元模型三工具：斧子尺子梯子
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-growth-cycle-model]] | [[case-toy-cabinet-business-model]]
 

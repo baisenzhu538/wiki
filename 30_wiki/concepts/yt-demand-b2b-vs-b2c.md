@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-b2b-vs-b2c
 title: ToB vs ToC需求分析差异：决策链、频率与验证方法
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——ToB vs ToC差异
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？"
 
 ---
-
 # ToB vs ToC需求分析差异：决策链、频率与验证方法
 
 > 一堂五步法：ToB和ToC的需求分析，底层逻辑相同，但方法论差异巨大。

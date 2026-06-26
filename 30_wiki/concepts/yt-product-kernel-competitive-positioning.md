@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——竞争定位
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你们的定位持续多久了？用户是否形成了稳定认知？"
 
 ---
-
 # 内核竞争定位：差异化策略
 
 > 一堂五步法：产品内核必须有清晰的竞争定位——差异化不是"做得更好"，而是"做得不同"。

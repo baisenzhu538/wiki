@@ -1,4 +1,5 @@
 ---
+domain: - learning-methodology
 
 
 id: yt-note-p-c-role-boundary-realworld
@@ -8,8 +9,6 @@ dark_knowledge_type: insight
 status: draft
 confidence: 0.75
 trust_level: medium
-domain:
-  - learning-methodologyauthor: 老顽童
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂AI Partner设计——P/C角色边界真实案例
@@ -24,8 +23,7 @@ related:
   - '[[tool-wanghuan-ai-dual-role-coach]]'
   - '[[yt-skill-p-role-prompt-design]]'
 
----
-# P/C 角色真实场景边界与切换条件（基于聊天记录案例）
+---# P/C 角色真实场景边界与切换条件（基于聊天记录案例）
 
 ## Condense
 

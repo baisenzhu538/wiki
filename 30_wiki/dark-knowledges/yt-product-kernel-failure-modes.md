@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式
@@ -7,8 +8,6 @@ dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——失败案例
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
 
 ---
-
 # 产品内核失败的5种模式
 
 > 一堂五步法：产品内核失败不是偶然，而是有模式。识别模式，避免踩坑。

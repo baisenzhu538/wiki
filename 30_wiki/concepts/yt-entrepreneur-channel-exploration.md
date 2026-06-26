@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-channel-exploration
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1822
 language: zh-CN
 query_triggers:
   - "渠道探索"
@@ -51,8 +50,7 @@ related:
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-entrepreneur-fundraising]]'
 
----
-# 渠道探索
+---# 渠道探索
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

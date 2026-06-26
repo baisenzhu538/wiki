@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度验证法
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——验证方法
 source_refs:
   - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "如果验证结果不支持内核假设，你会调整方向吗？"
 
 ---
-
 # 产品内核验证：三维度验证法
 
 > 一堂五步法：产品内核不是"定义了就完了"，而是必须通过三维度验证：用户愿意用、愿意付、愿意推荐。

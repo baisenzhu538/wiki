@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——渠道ROI
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？"
 
 ---
-
 # 渠道ROI评估与优化
 
 > 一堂五步法：渠道ROI不是CAC越低越好，而是LTV/CAC越高越好。渠道优化 = 增量预算给ROI高的渠道。

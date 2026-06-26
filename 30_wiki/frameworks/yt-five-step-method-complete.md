@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 id: yt-five-step-method-complete
 title: 五步法完整地图：从需求到壁垒
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - yitangsource_person: Truman
 source_context: 一堂五步法完整地图——从需求到壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -45,7 +44,6 @@ diagnostic_signals:
     follow_up_question: "你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。"
 
 ---
-
 # 五步法完整地图：从需求到壁垒
 
 > 一堂五步法：五步法不是线性流程，而是循环。从需求到壁垒，再从壁垒到新需求。

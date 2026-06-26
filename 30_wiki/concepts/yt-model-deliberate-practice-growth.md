@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-deliberate-practice-growth
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 2397
 language: zh-CN
 query_triggers:
   - "与泛产品十年爬山地图的关系"
@@ -44,8 +43,7 @@ related:
   - '[[yt-note-deliberate-practice-four-elements]]'
   - '[[yt-personal-checklist-notes]]'
 
----
-# 刻意练习十年成长指数：为什么有人一年顶十年
+---# 刻意练习十年成长指数：为什么有人一年顶十年
 
 > 来源：一堂知识地图《刻意练习·十年成长指数》。[[yt-personal-deliberate-practice]] | [[yt-model-pan-product-climbing-map]] | [[一堂]]
 

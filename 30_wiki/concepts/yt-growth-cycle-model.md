@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 
 
@@ -7,8 +8,6 @@ id: yt-growth-cycle-model
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - growthestimated_tokens: 2600
 language: zh-CN
 query_triggers:
   - "增长周期"
@@ -49,8 +48,7 @@ related:
   - '[[yt-product-ten-metrics]]'
   - '[[yt-scale-economy-weapon-library]]'
 
----
-# 增长周期模型
+---# 增长周期模型
 
 > 来源：一堂五步法·增长篇 | [[yt-five-step-method]] | [[yt-unit-model-three-tools]] | [[yt-customer-acquisition-toolkit]]
 

@@ -1,12 +1,11 @@
 ---
+domain: - healthcare
 
 
 id: smart-medicine-cabinet-distribution
 title: "智能药柜分销业态洞察"
 type: concept
 status: stable
-domain:
-  - healthcareconfidence: 0.82
 trust_level: medium
 diagnostic_signals:
   - {'signal': '目标省份是否属于允许智慧药房售处方药的积极探索型政策区', 'framework_lens': '政策地域 / 合规边界', 'follow_up_question': '是否用山西模式直接套用到严格保守型省份？'}
@@ -33,8 +32,7 @@ related:
   - '[[smart-medicine-cabinet-regional-policy-map]]'
   - '[[smart-medicine-cabinet-national-policy-redlines]]'
 
----
-# 智能药柜分销业态洞察
+---# 智能药柜分销业态洞察
 
 > 从七件事集团招商录音与山西省药品零售政策调研中提炼出的智能药柜/智慧药房分销业态关键事实与瓶颈。绿色内容可复用，黄色内容需进一步验证。
 

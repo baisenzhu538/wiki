@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
@@ -7,8 +8,6 @@ dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——过早细化陷阱
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -43,7 +42,6 @@ diagnostic_signals:
     follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
 
 ---
-
 # 过早细化陷阱：在验证前追求完美
 
 > 一堂五步法：最大的浪费不是做错了，而是在验证前把错误的事情做到极致。

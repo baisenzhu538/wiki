@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-spin-selling
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 2236
 language: zh-CN
 query_triggers:
   - "SPIN四步法"
@@ -46,8 +45,7 @@ related:
   - '[[yt-entrepreneur-industrial-production]]'
   - '[[yt-entrepreneur-truth-seeking]]'
 
----
-# SPIN销售法：顾问式销售的奠基之作
+---# SPIN销售法：顾问式销售的奠基之作
 
 > 来源：一堂读书会·SPIN销售法口述（2小时解读，Truman主讲）。[[yt-entrepreneur-scientific-method]] | [[一堂]]
 

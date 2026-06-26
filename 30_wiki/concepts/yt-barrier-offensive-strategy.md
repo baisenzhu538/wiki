@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——进攻策略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？"
 
 ---
-
 # 进攻策略：突破竞品壁垒
 
 > 一堂五步法：最好的进攻是找到竞品壁垒的弱点，差异化突破。不是硬碰硬，而是侧翼包抄。

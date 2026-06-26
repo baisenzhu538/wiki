@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——可持续增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
 
 ---
-
 # 可持续增长：壁垒驱动
 
 > 一堂五步法：可持续增长 = 增长飞轮 × 壁垒保护 × 持续迭代。不是一次性的增长，而是循环往复。

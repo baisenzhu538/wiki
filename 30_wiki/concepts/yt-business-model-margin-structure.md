@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——毛利率结构
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "毛利率高但净利润低，运营费用、营销费用占收入多少？"
 
 ---
-
 # 毛利率结构分析：钱从哪来，到哪去
 
 > 一堂五步法：毛利率不是单一数字，需要拆解结构。知道钱从哪来、到哪去，才能优化。

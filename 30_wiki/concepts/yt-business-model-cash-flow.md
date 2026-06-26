@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——现金流管理
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？"
 
 ---
-
 # 现金流管理：商业模式的血液循环
 
 > 一堂五步法：现金流是商业模式的血液循环。利润高但现金流断裂，企业照样死。

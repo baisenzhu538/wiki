@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 id: yt-prompt-iterative-prompting
@@ -7,8 +8,6 @@ type: tool
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain:
-  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
@@ -46,8 +45,7 @@ related:
   - '[[yt-prompt-writing-workflow]]'
   - '[[yt-prompt-engineering-andrew-ng]]'
 
----
-# 迭代式提示词工作流（5步法）
+---# 迭代式提示词工作流（5步法）
 
 > [[yt-model-prompt-engineering]] 的子工具。迭代是提示词工程的第一性原理——好的提示词在对话中自然涌现。
 

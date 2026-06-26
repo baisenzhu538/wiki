@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-product-led-growth
 title: 产品驱动增长：PLG模式
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——产品驱动增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的PLG飞轮是否形成了？病毒系数K是多少？"
 
 ---
-
 # 产品驱动增长：PLG模式
 
 > 一堂五步法：PLG不是免费试用，而是产品本身驱动获客、激活、留存、变现。产品是最好的销售员。

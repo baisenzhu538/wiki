@@ -1,11 +1,10 @@
 ---
+domain: - modeling
 
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 status: enriched
-domain:
-  - modelingsource_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程
 source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -43,8 +42,7 @@ diagnostic_signals:
     framework_lens: 人在环中建模五步法
     follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
 
----
-# 高阶建模能力体系：一堂从经验到规律的教研方法论
+---# 高阶建模能力体系：一堂从经验到规律的教研方法论
 
 > **Burn line**: 建模不是总结过去，是把碎片经验变成可复用的决策武器。
 

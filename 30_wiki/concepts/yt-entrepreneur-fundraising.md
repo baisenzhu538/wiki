@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-fundraising
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1826
 language: zh-CN
 query_triggers:
   - "融资认知"
@@ -50,8 +49,7 @@ related:
   - '[[yt-entrepreneur-pragmatic-startup]]'
   - '[[yt-entrepreneur-truth-seeking]]'
 
----
-# 融资认知
+---# 融资认知
 
 > 来源：一堂课程体系 | 阶段：增长阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

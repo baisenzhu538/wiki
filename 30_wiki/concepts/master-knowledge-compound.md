@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-knowledge-compound
 title: 知识复利：IPO+萃取+原子化复用
 type: concept
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂知识萃取探索营——知识复利与IPO萃取框架
 source_refs:
   - src_20260614_239c9f4e-一堂-知识萃取探索营.md
@@ -29,8 +28,7 @@ related:
   - '[[yt-personal-knowledge-extraction]]'
   - '[[yt-personal-knowledge-management]]'
 
----
-# 知识复利：IPO+萃取+管理的上位整合
+---# 知识复利：IPO+萃取+管理的上位整合
 
 > **核心定位**：当发现"学了但用不上"或"知识碎片化无法整合"时，检查你的知识是否在产生复利。**不是"学得多"，是"学得能互相放大"**。**使用顺序**：位于#3第一性原理和#4系统思考之后——先理解本质和连接，再建立复利循环。
 

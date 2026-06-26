@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——网络效应深度
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的网络效应在哪个维度？如何提升用户迁移成本？"
 
 ---
-
 # 网络效应深度：同边、跨边、数据、生态
 
 > 一堂五步法：网络效应不是单一概念，而是4个层次。层次越高，壁垒越强。

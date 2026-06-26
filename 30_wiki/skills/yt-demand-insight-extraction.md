@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
@@ -6,8 +7,6 @@ type: skill
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——用户访谈方法
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "至少访谈了多少个用户？是否覆盖了不同用户层？"
 
 ---
-
 # 从用户访谈中提取真实需求：访谈技巧与偏见规避
 
 > 一堂五步法：用户访谈不是"聊天"，而是结构化的需求挖掘过程。

@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-research-camp
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1863
 language: zh-CN
 query_triggers:
   - "三轮学习设计"
@@ -46,8 +45,7 @@ related:
   - '[[yt-model-liberate-thinking-layers]]'
   - '[[yt-personal-thinking-models]]'
 
----
-# 调研行动营：从调研认知到AI调研武器库
+---# 调研行动营：从调研认知到AI调研武器库
 
 > 来源：一堂调研行动营第0期口述（Truman）。[[yt-entrepreneur-research-cognition]] | [[yt-model-ipo-learning-strategy]] | [[一堂]]
 

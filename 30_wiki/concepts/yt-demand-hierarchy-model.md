@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,7 +39,6 @@ diagnostic_signals:
     follow_up_question: "竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？"
 
 ---
-
 # 需求层次模型：真需求、伪需求与衍生需求
 
 > 一堂五步法第一步的核心认知：超过30%甚至50%的项目失败，标签最终贴在了"需求"这一列。

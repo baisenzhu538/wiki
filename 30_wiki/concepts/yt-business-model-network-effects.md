@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-network-effects
 title: 网络效应：平台型商业模式的核心
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——网络效应
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的网络效应强度如何？用户迁移成本高吗？"
 
 ---
-
 # 网络效应：平台型商业模式的核心
 
 > 一堂五步法：网络效应是平台型商业模式的核心。理解网络效应类型，设计启动策略，才能做平台。

@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-scientific-method
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1833
 language: zh-CN
 query_triggers:
   - "Y模型"
@@ -50,8 +49,7 @@ related:
   - '[[yt-entrepreneur-opportunity-selection]]'
   - '[[yt-entrepreneur-truth-seeking]]'
 
----
-# Y模型/科学方法
+---# Y模型/科学方法
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

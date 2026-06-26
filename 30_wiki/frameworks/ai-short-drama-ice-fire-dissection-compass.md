@@ -1,11 +1,10 @@
 ---
+domain: - ai-saas
 
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
 status: enriched
-domain:
-  - ai-saassource_person: 代俊隆
 source_context: 一堂 2026-06-13 AI 短剧创作培训，拆本罗盘方法论
 source_refs:
   - 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md
@@ -44,8 +43,7 @@ diagnostic_signals:
     framework_lens: 拆本→写本的转译闭环
     follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
 
----
-# 冰火拆本罗盘：短剧剧本逆向拆解五维模型
+---# 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 
 > **Burn line**: 看懂爆款不是复述剧情，是拆出它为什么让人上头。
 

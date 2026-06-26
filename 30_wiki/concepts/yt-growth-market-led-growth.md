@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——市场驱动增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "展会和活动的ROI是多少？是否有后续跟进流程？"
 
 ---
-
 # 市场驱动增长：MLG模式
 
 > 一堂五步法：市场驱动增长不是做广告，而是系统化的品牌建设和需求生成。市场为销售提供弹药。

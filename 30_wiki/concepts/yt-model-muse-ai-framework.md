@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-muse-ai-framework
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 1476
 language: zh-CN
 query_triggers:
   - "MUSE 人工智能全景图"
@@ -45,8 +44,7 @@ related:
   - '[[master-ai-info-literacy]]'
   - '[[yt-personal-ai-capability]]'
 
----
-# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
+---# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
 > 来源：一堂《人工智能全景图·MUSE 模型》V3.0（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]
 

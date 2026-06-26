@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——六个段位
 source_refs:
   - src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
@@ -45,7 +44,6 @@ diagnostic_signals:
     follow_up_question: "你们团队对内核的认知在哪个段位？是否一致？"
 
 ---
-
 # 产品内核六个段位：从缺价值意识到全面迁移
 
 > 一堂五步法：产品内核有段位，从"不重视价值"到"能跨领域迁移"。

@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -6,8 +7,6 @@ id: yt-ai-startup-20-risky-hypotheses
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2400
 language: zh-CN
 query_triggers:
   - "AI创业风险"
@@ -47,8 +46,7 @@ related:
   - '[[yt-entrepreneur-business-growth]]'
   - '[[yt-entrepreneur-opportunity-selection]]'
 
----
-# AI创业20个高风险假设清单
+---# AI创业20个高风险假设清单
 
 > 来源：一堂2025《重新理解人工智能》| 烧掉数亿元、几百个AI项目的关键假设总结 | [[yt-ai-trend-12-signals]] | [[yt-entrepreneur-key-hypotheses]]
 

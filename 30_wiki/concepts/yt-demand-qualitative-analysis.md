@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析口述——"需求分析先定性后定量"
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？"
 
 ---
-
 # 需求定性分析框架：拆推评算四步法
 
 > 一堂五步法需求分析的核心工具：先定性（拆推评），再定量（算）。顺序不能颠倒。

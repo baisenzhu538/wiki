@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-y-organization
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-  - modelingestimated_tokens: 1635
 language: zh-CN
 query_triggers:
   - "Y 型创业模型"
@@ -45,8 +44,7 @@ related:
   - '[[ocr-一堂-个人修炼-y模型]]'
   - '[[yt-entrepreneur-truth-seeking]]'
 
----
-# Y 型创业模型 (Y Model for Startups)
+---# Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
 

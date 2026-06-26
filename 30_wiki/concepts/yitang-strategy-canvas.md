@@ -1,12 +1,11 @@
 ---
+domain: - yitang
 
 
 id: yitang-strategy-canvas
 confidence: 0.90
 created_at: 2026-06-17
 difficulty: intermediate
-domain:
-  - yitangestimated_tokens: 2200
 language: zh-CN
 query_triggers:
   - "战略画布"
@@ -56,7 +55,6 @@ related:
   - '[[yt-unit-model-build]]'
 
 ---
-
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线
 
 > 来源：蓝海战略核心工具，与一堂「做替代者而非进入者」「避免同质化竞争」的战略观高度契合。常与[[yt-entrepreneur-opportunity-selection]]、[[concept-一堂-product-kernel]]配合使用。

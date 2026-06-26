@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -6,8 +7,6 @@ id: yt-foresight-model-taxonomy
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-  - yitangestimated_tokens: 1200
 language: zh-CN
 query_triggers:
   - "预判模型"
@@ -46,8 +45,7 @@ related:
   - '[[case-escort-service-tiered-growth]]'
   - '[[yt-personal-checklist-notes]]'
 
----
-# 预判模型分类
+---# 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

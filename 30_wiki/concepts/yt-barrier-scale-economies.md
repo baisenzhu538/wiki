@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-scale-economies
 title: 规模经济：成本优势
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——规模经济
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的成本优势是否转化为价格优势或质量优势？用户是否感知？"
 
 ---
-
 # 规模经济：成本优势
 
 > 一堂五步法：规模经济是成本壁垒。规模越大，单位成本越低，价格越有竞争力。

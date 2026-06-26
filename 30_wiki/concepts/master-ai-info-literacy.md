@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-ai-info-literacy
 title: AI时代信息素养框架
 type: framework
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂科学决策课程——AI时代信息素养三层防护框架
 source_refs:
   - src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md
@@ -26,8 +25,7 @@ related:
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
 
----
-# AI时代信息素养框架
+---# AI时代信息素养框架
 
 > **核心定位**：用 AI 做调研时的三层防护网——先辨别是不是幻觉，再验证是不是真的，最后追溯到原始来源。不是"不用 AI"，是"用 AI 的同时不被 AI 骗"。
 

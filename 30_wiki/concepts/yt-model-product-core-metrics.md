@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-product-core-metrics
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-  - modelingestimated_tokens: 2352
 language: zh-CN
 query_triggers:
   - "与产品内核的关系"
@@ -44,8 +43,7 @@ related:
   - '[[yt-tob-demand-scenarios]]'
   - '[[yt-product-ten-metrics]]'
 
----
-# 产品内核十大典型指标：从获客到推荐的度量框架
+---# 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
 

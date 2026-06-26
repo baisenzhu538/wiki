@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——壁垒建设路线图
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
 ---
-
 # 壁垒建设路线图
 
 > 一堂五步法：壁垒建设不是一蹴而就，而是基于现有优势，逐步积累。路线图 = 现状评估 → 目标设定 → 路径规划 → 执行监控。

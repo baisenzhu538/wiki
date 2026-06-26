@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
@@ -7,8 +8,6 @@ dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——转型信号
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "团队为什么失去信心？是对产品、市场、还是商业模式失去信心？"
 
 ---
-
 # 商业模式转型信号：何时该 pivot
 
 > 一堂五步法：转型不是失败，而是学习后的调整。识别转型信号，及时转型，比坚持错误方向更明智。

@@ -1,4 +1,5 @@
 ---
+domain: - learning-methodology
 
 
 id: yt-note-three-level-evolution
@@ -8,8 +9,6 @@ dark_knowledge_type: insight
 status: draft
 confidence: 0.75
 trust_level: medium
-domain:
-  - learning-methodologyauthor: 老顽童
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂笔记训练体系——认知三级跃迁
@@ -24,8 +23,7 @@ related:
   - '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
   - '[[dk-note-rookie-disaster-veteran-heaven]]'
 
----
-# 碎片化→结构化→体系化：笔记认知的三级进化跃迁
+---# 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 
 ## Condense
 

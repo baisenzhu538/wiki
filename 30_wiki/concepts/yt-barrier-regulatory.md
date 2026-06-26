@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——监管壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "监管限制的具体是什么？是否有合规的创新路径？"
 
 ---
-
 # 监管壁垒：牌照与合规
 
 > 一堂五步法：监管壁垒是双刃剑。对新进入者是障碍，对在位者是保护。但需要持续合规，否则牌照变废纸。

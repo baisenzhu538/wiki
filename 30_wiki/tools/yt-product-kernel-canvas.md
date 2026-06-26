@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——产品内核画布
 source_refs:
   - src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
@@ -43,7 +42,6 @@ diagnostic_signals:
     follow_up_question: "你能用画布中的'一句话价值描述'向客户介绍产品吗？"
 
 ---
-
 # 产品内核画布：从问题到解决方案的结构化工具
 
 > 一堂五步法：产品内核画布是把"用户问题→解决方案→验证指标"结构化的工具，帮助团队对齐认知、指导迭代。

@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 id: yt-prompt-brainstorming
@@ -7,8 +8,6 @@ type: tool
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain:
-  - yitanglanguage: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
@@ -46,8 +45,7 @@ related:
   - '[[yt-prompt-writing-workflow]]'
   - '[[yt-model-prompt-engineering]]'
 
----
-# AI 头脑风暴工作流
+---# AI 头脑风暴工作流
 
 > [[yt-model-prompt-engineering]] 的子工具。写作是 AI 最高频场景（24.5%），但头脑风暴（仅 3.9%）才是 AI 最强的用法。AI 应该用来拔高你的上限，而不是抬高你的下限。
 

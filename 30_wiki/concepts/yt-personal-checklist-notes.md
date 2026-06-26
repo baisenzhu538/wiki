@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-checklist-notes
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 4500
 language: zh-CN
 query_triggers:
   - "清单体笔记"
@@ -57,8 +56,7 @@ related:
   - '[[yt-personal-verbatim-script]]'
   - '[[yt-personal-inspiration-flash]]'
 
----
-# 清单体笔记（一堂笔记法）
+---# 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

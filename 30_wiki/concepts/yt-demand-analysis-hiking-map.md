@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 
 
@@ -7,8 +8,6 @@ id: yt-demand-analysis-hiking-map
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-  - demand-analysisestimated_tokens: 2400
 language: zh-CN
 query_triggers:
   - "需求分析"
@@ -55,8 +54,7 @@ related:
 - "[[tool-demand-iceberg-l2-scenario]]"
 - "[[tool-demand-assessment-triangle]]"
 
----
-# 需求分析爬山地图
+---# 需求分析爬山地图
 
 > 来源：一堂五步法·需求篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[case-treadmill-demand-analysis]]
 

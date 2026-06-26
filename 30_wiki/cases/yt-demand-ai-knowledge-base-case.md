@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
@@ -6,8 +7,6 @@ type: case
 status: enriched
 confidence: 0.91
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——AI企业知识库案例
 source_refs:
   - src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？"
 
 ---
-
 # AI企业知识库案例：从"技术炫技"到"需求验证"
 
 > 一堂五步法需求分析案例：AI企业知识库——技术很炫，但需求验证不足。

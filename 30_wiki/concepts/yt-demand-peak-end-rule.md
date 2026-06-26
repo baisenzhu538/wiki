@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-peak-end-rule
 title: 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.91
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂泛产品设计——需求工具箱指南
 source_refs:
   - src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
@@ -40,7 +39,6 @@ diagnostic_signals:
     follow_up_question: "竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？"
 
 ---
-
 # 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
 
 > 一堂泛产品设计：用户对产品体验的记忆，不是平均值，而是峰值（最好或最坏的时刻）和终点（结束时的感受）。

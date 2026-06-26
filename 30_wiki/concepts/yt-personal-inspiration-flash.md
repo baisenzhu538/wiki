@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-inspiration-flash
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "灵感闪现"
@@ -53,8 +52,7 @@ related:
   - '[[yt-personal-product-design]]'
   - '[[yt-personal-scientific-expression]]'
 
----
-# 灵感闪现（认知篇）
+---# 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

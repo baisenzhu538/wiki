@@ -1,4 +1,5 @@
 ---
+domain: - yitang
 
 
 
@@ -7,8 +8,6 @@ id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-  - yitangestimated_tokens: 1800
 language: zh-CN
 query_triggers:
   - "市场规模"
@@ -52,8 +51,7 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 
----
-# 市场规模估算四种方法
+---# 市场规模估算四种方法
 
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]
 

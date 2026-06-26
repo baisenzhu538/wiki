@@ -1,4 +1,5 @@
 ---
+domain: - entrepreneurship
 
 
 
@@ -6,8 +7,6 @@ id: yt-entrepreneur-barriers
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-  - entrepreneurshipestimated_tokens: 1845
 language: zh-CN
 query_triggers:
   - "项目壁垒"
@@ -51,8 +50,7 @@ related:
   - '[[yt-entrepreneur-opportunity-selection]]'
   - '[[yt-entrepreneur-business-growth]]'
 
----
-# 项目壁垒
+---# 项目壁垒
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

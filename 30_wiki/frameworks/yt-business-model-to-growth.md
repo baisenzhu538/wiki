@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——从商业模式到增长
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "你的增长策略是否强化了商业模式？还是削弱了？"
 
 ---
-
 # 从商业模式到增长：承上启下
 
 > 一堂五步法：商业模式是增长的基础，增长是商业模式的放大。两者需要协同，不是割裂。

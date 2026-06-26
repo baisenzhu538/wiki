@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-antifragile-checklist
 title: 反脆弱决策检查清单
 type: tool
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂科学决策课程——反脆弱决策检查清单
 source_refs:
   - src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
@@ -29,8 +28,7 @@ related:
   - '[[yt-foresight-ten-fatal-flaws]]'
   - '[[tool-泛产品落地-风险管理]]'
 
----
-# 反脆弱决策检查清单
+---# 反脆弱决策检查清单
 
 > **核心定位**：在做重要决策前，检查"如果计划失败，我能不能从不确定性中获益"。**不是"避免风险"，是"让不确定性为我所用"**。**使用顺序**：位于所有分析之后、拍板之前——先用#5做结构性脆弱检查，再用#1做认知自检，最后拍板。
 

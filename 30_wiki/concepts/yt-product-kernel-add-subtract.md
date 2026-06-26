@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——加减法
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "新增功能的开发资源，是否占用了核心功能的优化资源？"
 
 ---
-
 # 产品内核的加减法：什么该加，什么该减
 
 > 一堂五步法：产品内核需要持续做加减法——加的是强化内核的功能，减的是稀释内核的功能。

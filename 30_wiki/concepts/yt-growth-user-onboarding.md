@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——用户onboarding
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？"
 
 ---
-
 # 用户 onboarding：第一印象设计
 
 > 一堂五步法：onboarding不是教程，而是让用户快速体验到价值的旅程。第一印象决定留存。

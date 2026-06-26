@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-b2b-pricing
 title: B2B定价策略：从SMB到Enterprise
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——B2B定价
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "你的B2B定价是基于客户价值、竞品、还是成本？"
 
 ---
-
 # B2B定价策略：从SMB到Enterprise
 
 > 一堂五步法：B2B定价不是单一价格，而是分层定价体系。从SMB到Enterprise，定价策略完全不同。

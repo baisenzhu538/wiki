@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——品牌资产
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的品牌信任度如何？用户是否愿意为品牌付溢价？"
 
 ---
-
 # 品牌资产：认知与信任
 
 > 一堂五步法：品牌是长期的壁垒。品牌资产 = 认知度 × 信任度 × 联想度。

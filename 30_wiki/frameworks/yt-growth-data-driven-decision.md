@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——数据驱动决策
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "数据团队是否了解业务目标？是否参与了业务决策？"
 
 ---
-
 # 数据驱动增长决策
 
 > 一堂五步法：数据不是答案，而是假设的验证工具。数据驱动 = 假设 → 实验 → 数据 → 决策。

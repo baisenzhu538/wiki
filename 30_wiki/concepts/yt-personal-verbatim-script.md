@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-verbatim-script
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "逐字稿"
@@ -52,8 +51,7 @@ related:
   - '[[yt-personal-inspiration-flash]]'
   - '[[yt-personal-scientific-expression]]'
 
----
-# 逐字稿
+---# 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

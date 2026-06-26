@@ -1,4 +1,5 @@
 ---
+domain: - modeling
 
 
 
@@ -6,8 +7,6 @@ id: yt-model-truman-five-step-growth
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
-domain:
-  - modelingestimated_tokens: 2678
 language: zh-CN
 query_triggers:
   - "Truman的个人成长五步法"
@@ -45,8 +44,7 @@ related:
   - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
   - '[[skill-三层目标对齐法]]'
 
----
-# Truman的个人成长五步法：用一页纸解释全部人生规划
+---# Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]
 

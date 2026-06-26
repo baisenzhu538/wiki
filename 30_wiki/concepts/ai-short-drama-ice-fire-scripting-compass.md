@@ -1,11 +1,10 @@
 ---
+domain: - ai-saas
 
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: enriched
-domain:
-  - ai-saassource_person: 代俊隆
 source_context: 一堂 2026-06-13 AI 短剧创作培训，写本罗盘方法论
 source_refs:
   - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
@@ -40,8 +39,7 @@ diagnostic_signals:
     framework_lens: 剧本基地→内容走向→剧情终局的闭环
     follow_up_question: 内容走向的15个关键节点是否提前锁定？
 
----
-# 冰火写本罗盘：AI短剧剧本策划全流程体系
+---# 冰火写本罗盘：AI短剧剧本策划全流程体系
 
 > **Burn line**: 不是让AI瞎写，是用专业剧本思维驾驭AI这个"超级执笔"。
 

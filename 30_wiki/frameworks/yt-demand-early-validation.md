@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-early-validation
 title: 需求早期验证：低成本测试法
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.78
 trust_level: medium
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——需求验证方法
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,7 +39,6 @@ diagnostic_signals:
     follow_up_question: "你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？"
 
 ---
-
 # 需求早期验证：低成本测试法
 
 > 一堂五步法：在投入大量资源前，用低成本方法验证需求是否真实存在。

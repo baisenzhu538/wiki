@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——单元经济学
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？"
 
 ---
-
 # 单元经济学：LTV > CAC
 
 > 一堂五步法：单元经济学是商业模式的验证标准。LTV（用户生命周期价值）> CAC（获客成本），单元模型才成立。

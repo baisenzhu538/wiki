@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五种迭代方向
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——迭代方法
 source_refs:
   - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你们团队对迭代方向有共识吗？是基于数据还是主观判断？"
 
 ---
-
 # 产品内核迭代：五种迭代方向
 
 > 一堂五步法：产品内核不是静态的，需要随市场变化而迭代。迭代有五种方向，不是随机尝试。

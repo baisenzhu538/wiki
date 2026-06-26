@@ -1,11 +1,10 @@
 ---
+domain: - yitang
 
 id: yt-business-formula-abc-model
 title: 业务公式 ABC 模型（Ambition-Basis-Connection）
 type: framework
 status: enriched
-domain:
-  - yitangsource_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ABC 模型框架
 source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
@@ -28,8 +27,7 @@ related:
   - yt-unit-model-three-tools
   - yt-five-step-method
 
----
-# 业务公式 ABC 模型（Ambition-Basis-Connection）
+---# 业务公式 ABC 模型（Ambition-Basis-Connection）
 
 > 一堂业务公式拆解培训的极简框架：**目标（Ambition）+ 参数（Basis）+ 逻辑关系（Connection）= 业务公式**。  
 > 来源：一堂 2026-06-13 业务公式拆解培训（孔阳），素材包括逐字稿、培训笔记与 ABC 模型图。

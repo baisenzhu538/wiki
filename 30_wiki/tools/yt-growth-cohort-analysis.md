@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——同期群分析
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "不同渠道的用户 cohort 留存曲线对比如何？"
 
 ---
-
 # 同期群分析：用户行为追踪
 
 > 一堂五步法：同期群分析是留存分析的利器。把用户按时间分群，看留存曲线变化，找到问题 cohort。

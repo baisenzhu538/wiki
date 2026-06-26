@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——轻资产模式
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的核心竞争力是什么？是资产、品牌、技术、还是运营？"
 
 ---
-
 # 轻资产模式：资源杠杆
 
 > 一堂五步法：轻资产模式不是不投入，而是用别人的资产做自己的事。核心竞争力不在资产，而在品牌、技术、运营。

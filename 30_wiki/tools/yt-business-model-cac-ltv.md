@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.93
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——CAC与LTV计算
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。"
 
 ---
-
 # CAC与LTV的实战计算
 
 > 一堂五步法：CAC和LTV不是估算，而是需要精确计算。计算错误，决策就错误。

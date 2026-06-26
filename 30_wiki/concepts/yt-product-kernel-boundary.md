@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——边界
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "'试试看'的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？"
 
 ---
-
 # 内核与边界：什么该做，什么不该做
 
 > 一堂五步法：产品内核需要清晰的边界——边界保护内核，边界不清则内核被稀释。

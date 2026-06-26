@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略系列课——技术护城河
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？"
 
 ---
-
 # 技术护城河：专利与研发
 
 > 一堂五步法：技术护城河不是技术领先，而是持续领先的能力。专利保护，研发迭代。

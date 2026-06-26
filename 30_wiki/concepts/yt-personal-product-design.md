@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-product-design
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "泛产品设计"
@@ -53,8 +52,7 @@ related:
   - '[[yt-personal-inspiration-flash]]'
   - '[[yt-personal-pan-product-aesthetics]]'
 
----
-# 泛产品设计
+---# 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

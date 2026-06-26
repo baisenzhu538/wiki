@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-hypothesis-test
 title: 内核假设测试：低成本验证方法
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——假设测试
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "直接做的风险是什么？如果方向错误，损失有多大？"
 
 ---
-
 # 内核假设测试：低成本验证方法
 
 > 一堂五步法：产品内核基于假设，假设必须通过低成本方法测试，不是"我觉得"。

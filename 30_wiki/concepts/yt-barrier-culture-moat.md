@@ -1,4 +1,5 @@
 ---
+domain: - barrier
 
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - barriersource_person: Truman
 source_context: 一堂壁垒策略课——文化护城河
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的文化是否鼓励试错？是否容忍失败？"
 
 ---
-
 # 文化护城河：难以复制
 
 > 一堂五步法：文化是最难复制的壁垒。文化不是口号，是行为模式。

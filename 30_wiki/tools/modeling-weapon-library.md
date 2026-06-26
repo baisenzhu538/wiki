@@ -1,11 +1,10 @@
 ---
+domain: - modeling
 
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型
 type: tool
 status: enriched
-domain:
-  - modelingsource_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程，常见模型武器库
 source_refs:
   - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
@@ -48,8 +47,7 @@ diagnostic_signals:
     framework_lens: 数据先行
     follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
 
----
-# 常见模型武器库：按问题难度调用模型
+---# 常见模型武器库：按问题难度调用模型
 
 > **Burn line**: 建模高手不是会很多模型，而是知道什么问题用什么模型。
 

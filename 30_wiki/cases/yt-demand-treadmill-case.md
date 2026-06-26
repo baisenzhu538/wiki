@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
@@ -6,8 +7,6 @@ type: case
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——跑步机案例
 source_refs:
   - src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？"
 
 ---
-
 # 跑步机案例：需求分析全流程实战
 
 > 一堂五步法需求分析经典案例：跑步机——从"所有人想健身"到"特定人群的特定场景"。

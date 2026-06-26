@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——推荐系统
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的推荐成本是多少？是否低于其他渠道的CAC？"
 
 ---
-
 # 推荐系统：老带新的设计框架
 
 > 一堂五步法：推荐系统是低成本获客的核心。设计好双边激励，让老用户成为获客渠道。

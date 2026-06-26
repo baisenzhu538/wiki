@@ -1,11 +1,10 @@
 ---
+domain: - master
 
 id: master-decision-hygiene
 title: 决策卫生五步法
 type: framework
 status: enriched
-domain:
-  - mastersource_person: Truman
 source_context: 一堂科学决策课程——决策卫生五步法框架
 source_refs:
   - src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
@@ -26,8 +25,7 @@ related:
   - '[[master-knowledge-compound]]'
   - '[[master-systems-thinking]]'
 
----
-# 决策卫生五步法
+---# 决策卫生五步法
 
 > **核心定位**：团队对同一问题需要做出独立判断时，用五个步骤减少判断噪声（noise），不是消除偏差（bias），是让"不同的人对同一问题做出更一致的判断"。**使用顺序**：位于认知偏差自检（#1）之后、团队拍板之前。
 

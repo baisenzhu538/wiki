@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
@@ -6,8 +7,6 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——商业模式画布
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "用画布的9个要素，每个要素写一句话，能描述清楚吗？"
 
 ---
-
 # 商业模式画布：一堂版
 
 > 一堂五步法：商业模式画布是梳理商业模式的工具，9个要素缺一不可，帮助发现矛盾和对齐团队。

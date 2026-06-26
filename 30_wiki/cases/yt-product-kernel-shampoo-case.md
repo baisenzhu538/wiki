@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-shampoo-case
 title: 洗发水案例：产品内核实战——从"去屑"到"专业形象"
@@ -6,8 +7,6 @@ type: case
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——洗发水案例
 source_refs:
   - src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
@@ -42,7 +41,6 @@ diagnostic_signals:
     follow_up_question: "用户选择你们，是因为去屑效果好，还是因为品牌形象？"
 
 ---
-
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 
 > 一堂五步法：产品内核案例——高端洗发水，内核不是"去屑功能"，而是"有效去屑+专业形象"。

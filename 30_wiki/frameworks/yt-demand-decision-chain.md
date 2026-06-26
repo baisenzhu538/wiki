@@ -1,4 +1,5 @@
 ---
+domain: - demand-analysis
 
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - demand-analysissource_person: Truman
 source_context: 一堂五步法需求分析——ToB决策链
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -40,7 +39,6 @@ diagnostic_signals:
     follow_up_question: "竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？"
 
 ---
-
 # ToB决策链需求分析：多角色、多需求、多顾虑
 
 > 一堂五步法：ToB需求分析不是分析"用户"，而是分析"决策链上的每个角色"。

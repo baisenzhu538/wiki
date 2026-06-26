@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——病毒传播
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "病毒传播的产品开发成本、运营成本、用户激励成本是多少？"
 
 ---
-
 # 病毒传播：自增长机制设计
 
 > 一堂五步法：病毒传播不是运气，而是机制设计。K因子 > 1，增长自循环。

@@ -1,4 +1,5 @@
 ---
+domain: - business-model
 
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - business-modelsource_person: Truman
 source_context: 一堂商业模式系列课——平台战略
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的平台用户活跃度如何？如何提升匹配效率？"
 
 ---
-
 # 平台战略：从单边到双边
 
 > 一堂五步法：双边平台是最难做的商业模式。从单边启动，逐步演化到双边，是平台战略的核心。

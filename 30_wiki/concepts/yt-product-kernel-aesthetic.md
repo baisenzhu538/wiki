@@ -1,4 +1,5 @@
 ---
+domain: - product
 
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"
@@ -6,8 +7,6 @@ type: concept
 status: enriched
 confidence: 0.91
 trust_level: high
-domain:
-  - productsource_person: Truman
 source_context: 一堂产品内核系列课——审美与内核
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "如果产品很好看但功能不好用，用户会留存吗？"
 
 ---
-
 # 产品内核与审美：从"好用"到"美好"
 
 > 一堂五步法：产品内核不仅是功能价值，在某些品类，审美和体验是内核的核心组成部分。

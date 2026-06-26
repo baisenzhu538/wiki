@@ -1,4 +1,5 @@
 ---
+domain: - growth
 
 id: yt-growth-to-barrier
 title: 从增长到壁垒：承上启下
@@ -6,8 +7,6 @@ type: framework
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - growthsource_person: Truman
 source_context: 一堂增长策略系列课——从增长到壁垒
 source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
@@ -41,7 +40,6 @@ diagnostic_signals:
     follow_up_question: "你的增长是否在同时建设壁垒？哪些增长行为在积累壁垒？"
 
 ---
-
 # 从增长到壁垒：承上启下
 
 > 一堂五步法：增长是攻城，壁垒是守城。没有壁垒的增长，是为别人做嫁衣。

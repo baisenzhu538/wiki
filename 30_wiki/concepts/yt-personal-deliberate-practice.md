@@ -1,4 +1,5 @@
 ---
+domain: - personal-growth
 
 
 
@@ -6,8 +7,6 @@ id: yt-personal-deliberate-practice
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-  - personal-growthestimated_tokens: 3000
 language: zh-CN
 query_triggers:
   - "刻意练习"
@@ -52,8 +51,7 @@ related:
   - '[[yt-personal-ipo-learning]]'
   - '[[yt-personal-scientific-expression]]'
 
----
-# 科学成长（刻意练习）
+---# 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
