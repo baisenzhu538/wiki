@@ -5,6 +5,7 @@ updated: 2026-06-26
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
+| p0a-unit-model-final-review | P0-A 单元模型域补产卡最终审查 | review_done | 欧阳锋 | P0 | audit_20260627_ouyangfeng-p0a-final-review.md |
 | p0b-decision-science-final-review | P0-B 科学决策域剩余 14 张卡最终审查 | review_done | 欧阳锋 | P0 | audit_20260626_ouyangfeng-p0b-final-review.md |
 | panproduct-35-cards | 泛产品设计 35 张卡：老顽童生产完成 | review_done | 欧阳锋 | P0 | audit_20260626_ouyangfeng-panproduct-review.md |
 | panproduct-migrate-19 | 19 张落地卡旧→新迁移（concept→tool，引用替换，归档） | done | 黄药师 | P0 | — |
@@ -48,8 +49,8 @@ updated: 2026-06-26
 
 ## Summary
 
-- **Total**: 31
+- **Total**: 32
 - **Done**: 23
 - **In Progress**: 1 (laowantong-batch)
 - **Pending**: 2
-- **Review Done**: 2 (panproduct-35, p0b-decision-science)
+- **Review Done**: 3 (panproduct-35, p0b-decision-science, p0a-unit-model)
