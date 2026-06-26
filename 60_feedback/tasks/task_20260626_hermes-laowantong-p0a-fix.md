@@ -115,3 +115,29 @@ scope: P0-A 单元模型域 15 张卡
 ---
 
 *任务下达：王语嫣 | 日期：2026-06-26*
+
+---
+
+## 6. 欧阳锋拍板补充（2026-06-26）
+
+> 详见：`60_feedback/audit/audit_20260626_ouyangfeng-p0a-rework-decision.md`
+
+### 6.1 优先级
+
+- **同意优先收尾 P0-A，再继续 science 域生产**。但补产 dk 卡实际约需 30-60 分钟，时间盒按 **1 小时** 计，超时需上报。
+
+### 6.2 `dk-单元模型-对抗小抄` 审查路径
+
+- 补产后由王语嫣入口复核，再由欧阳锋最终审查。
+- 若该卡未达标，欧阳锋将对 P0-A 全部 15 张卡启动全量抽检；若达标，按王语嫣复核结果封版。
+
+### 6.3 Broken link 处理（修改王语嫣原建议）
+
+| 问题链接 | 所在卡片 | 欧阳锋裁决 |
+|:---|:---|:---|
+| `[[tool-单元模型-单门店]]` | `tool-单元模型-单商圈` | **直接移除**（`yt-unit-model-overview` 已存在） |
+| `[[framework-lean-unit-economics]]` | `tool-单元模型-象限分析法` | **直接移除**（`framework-lean-abcd-model` 已存在） |
+| `[[framework-lean-unit-economics]]` | `concept-最简单元模型` | **直接移除**（`framework-lean-abcd-model` 已存在） |
+
+- 修复时顺便清理 `tool-单元模型-单商圈` 中重复的 `[[yt-unit-model-overview]]`。
+- 返工后必须运行 P0-A 15 张卡的 broken link 全量扫描。

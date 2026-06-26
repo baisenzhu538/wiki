@@ -24,8 +24,6 @@ related:
 - "[[yitang-domain-digest]]"
 - "[[yt-unit-model-overview]]"
 - "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-单城市]]"
-- "[[yt-unit-model-overview]]"
 - "[[framework-lean-abcd-model]]"
 ---
 

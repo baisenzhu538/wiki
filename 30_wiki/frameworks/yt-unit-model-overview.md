@@ -34,20 +34,20 @@ related:
   - '[[yt-personal-pan-product-practice]]'
   - '[[ocr-一堂-单元模型-多模型情况]]'
   - '[[yt-unit-model-selection]]'
-- "[[yitang-domain-digest]]"
-- "[[ai-collaboration-domain-digest]]"
-- "[[tool-单元模型-单商圈]]"
-- "[[tool-单元模型-单城市]]"
-- "[[tool-单元模型-象限分析法]]"
-- "[[tool-单元模型-壁垒预判]]"
-- "[[framework-单元模型-外部对抗地图]]"
-- "[[framework-TCPR底层网络协议]]"
-- "[[concept-单元模型-学练用]]"
-- "[[concept-最简单元模型]]"
-- "[[dk-单元模型-找全成本实操难点]]"
-- "[[dk-单元模型-找单元模型实操难点]]"
-- "[[dk-单元模型-规模对抗实操难点]]"
-- "[[case-unit-model-gashapon]]"
+  - "[[yitang-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-单元模型-单商圈]]"
+  - "[[tool-单元模型-单城市]]"
+  - "[[tool-单元模型-象限分析法]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[framework-单元模型-外部对抗地图]]"
+  - "[[framework-TCPR底层网络协议]]"
+  - "[[concept-单元模型-学练用]]"
+  - "[[concept-最简单元模型]]"
+  - "[[dk-单元模型-找全成本实操难点]]"
+  - "[[dk-单元模型-找单元模型实操难点]]"
+  - "[[dk-单元模型-规模对抗实操难点]]"
+  - "[[case-unit-model-gashapon]]"
 diagnostic_signals:
 - signal: 团队能算清公司整体账，但说不清"复制一个单元"到底赚不赚钱
   framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
