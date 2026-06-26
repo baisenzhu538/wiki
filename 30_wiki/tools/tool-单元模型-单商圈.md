@@ -6,13 +6,14 @@ type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: "2026-06-27"
 confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
 - yitang
 source_refs:
-- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈_vlm_desc.md
 - 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单商圈模型.png
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单商圈模型.md
 related:
