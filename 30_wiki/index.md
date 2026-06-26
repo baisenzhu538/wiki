@@ -114,7 +114,20 @@ related:
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — strategy 域跨案例合成 DK 卡
 - [[dk/dk-strategy-stage-leverage-mismatch|战略阶段与杠杆错配]] — strategy 域跨案例合成 DK 卡（本任务新增）
 - [[tools/tool-单元模型-单商圈|单商圈模型]] — 一堂单元模型域 tool 卡（本任务新增）
+- [[tools/tool-单元模型-单城市|单城市模型]] — 一堂单元模型域 tool 卡（本任务新增）
+- [[tools/tool-单元模型-壁垒预判|壁垒预判]] — 一堂单元模型域 tool 卡（本任务新增）
+- [[tools/tool-单元模型-象限分析法|象限分析法]] — 一堂单元模型域 tool 卡（本任务新增）
+- [[frameworks/framework-单元模型-外部对抗地图|外部对抗地图]] — 一堂单元模型域 framework 卡（本任务新增）
+- [[frameworks/framework-TCPR底层网络协议|TCP-R 模型]] — 一堂单元模型域 framework 卡（本任务新增）
 - [[concepts/concept-最简单元模型|最简单元模型]] — 一堂单元模型域 concept 卡（本任务新增）
+- [[concepts/concept-单元模型-学练用|学练用]] — 一堂单元模型域 concept 卡（本任务新增）
+- [[dk/dk-单元模型-找全成本实操难点|找全成本实操难点]] — 一堂单元模型域 dk 卡（本任务新增）
+- [[dk/dk-单元模型-找单元模型实操难点|找单元模型实操难点]] — 一堂单元模型域 dk 卡（本任务新增）
+- [[dk/dk-单元模型-找基准值实操难点|找基准值实操难点]] — 一堂单元模型域 dk 卡（本任务新增）
+- [[dk/dk-单元模型-规模对抗实操难点|规模对抗实操难点]] — 一堂单元模型域 dk 卡（本任务新增）
+- [[dk/dk-单元模型-对抗小抄|对抗小抄]] — 一堂单元模型域 dk 卡（本任务新增）
+- [[cases/case-unit-model-gashapon|扭蛋机案例]] — 一堂单元模型域 case 卡（本任务新增）
+- [[frameworks/yt-unit-model-overview|单元模型概览]] — 一堂单元模型域 framework 卡（P0-A enrich）
 - `python 90_control/scripts/vault-backup.py backup` — 备份到坚果云
 
 ---
