@@ -36,7 +36,7 @@ A8  自 🌈 😂 🌈    47a 8 9ara 10 11 12 努力仿真 顶层文档 管理�
 
 ## Source Refs
 
-- `src_20260522_8bdb2970` -> `10_raw/sources/src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md`
+- 10_raw/sources/src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md`
 
 ## Reusable Knowledge
 

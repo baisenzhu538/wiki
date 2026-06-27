@@ -36,7 +36,7 @@ png` 堂五步法实操·产品内核画布 堂 YitangFive-stepPracticalOperatio
 
 ## Source Refs
 
-- `src_20260522_dc5c80df` -> `10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md`
+- 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md`
 
 ## Reusable Knowledge
 

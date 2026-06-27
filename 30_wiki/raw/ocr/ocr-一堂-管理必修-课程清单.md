@@ -34,7 +34,7 @@ png` 一堂课程清单2/4(管理必修方向) YitangCourseSystemListbyManagemen
 
 ## Source Refs
 
-- `src_20260522_4c9a911f` -> `10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md`
+- 10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md`
 
 ## Reusable Knowledge
 

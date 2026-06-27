@@ -36,7 +36,7 @@ png` 婚礼操盘：用户与场景分析 传统方式 我们的设计 我们列
 
 ## Source Refs
 
-- `src_20260522_94ee2a08` -> `10_raw/sources/src_20260522_94ee2a08-ocr-婚礼操盘-用户和场景.md`
+- 10_raw/sources/src_20260522_94ee2a08-ocr-婚礼操盘-用户和场景.md`
 
 ## Reusable Knowledge
 

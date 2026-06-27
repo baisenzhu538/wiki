@@ -27,7 +27,7 @@ trust_level: medium-low
 
 ## Source Refs
 
-- `src_20260501_4eee4e95` -> `10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md`
+- 10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md`
 ## Critique
 
 #### Nassim Taleb — 过度结构化与黑天鹅风险

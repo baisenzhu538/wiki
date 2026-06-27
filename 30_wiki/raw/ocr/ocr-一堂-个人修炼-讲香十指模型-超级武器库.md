@@ -36,7 +36,7 @@ png` 一堂讲香土指模型 超级武器库 堂 A1.
 
 ## Source Refs
 
-- `src_20260522_ad373a9b` -> `10_raw/sources/src_20260522_ad373a9b-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md`
+- 10_raw/sources/src_20260522_ad373a9b-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md`
 
 ## Reusable Knowledge
 

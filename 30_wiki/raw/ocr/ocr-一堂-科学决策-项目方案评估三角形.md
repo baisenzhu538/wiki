@@ -34,7 +34,7 @@ png` 一堂项目管理-方案评估三角形 Yitang PY0j  ect Management Toolki
 
 ## Source Refs
 
-- `src_20260522_e31b26dd` -> `10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md`
+- 10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md`
 
 ## Reusable Knowledge
 

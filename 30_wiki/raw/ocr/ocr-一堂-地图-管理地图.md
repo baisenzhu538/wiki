@@ -36,7 +36,7 @@ webp` 向两侧拖动可放大查看 一堂管理地图：高潜力管理者修�
 
 ## Source Refs
 
-- `src_20260522_af67f9b0` -> `10_raw/sources/src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md`
+- 10_raw/sources/src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md`
 
 ## Reusable Knowledge
 

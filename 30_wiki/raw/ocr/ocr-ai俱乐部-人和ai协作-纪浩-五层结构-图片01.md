@@ -33,7 +33,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_8c00cb42` -> `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
+- 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 
 ## Reusable Knowledge
 

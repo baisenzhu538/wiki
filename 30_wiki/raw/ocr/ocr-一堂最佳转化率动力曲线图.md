@@ -36,7 +36,7 @@ png` 一堂最佳转化率·动力三曲线 堂 YitangMotivationBoosting·Three-
 
 ## Source Refs
 
-- `src_20260522_9557e4cb` -> `10_raw/sources/src_20260522_9557e4cb-ocr-一堂最佳转化率动力曲线图.md`
+- 10_raw/sources/src_20260522_9557e4cb-ocr-一堂最佳转化率动力曲线图.md`
 
 ## Reusable Knowledge
 

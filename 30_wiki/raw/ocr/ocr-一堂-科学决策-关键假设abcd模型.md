@@ -36,7 +36,7 @@ png` 一堂·关键假设ABC口模型 yitangABCDStrategyModel 成败问题 A.
 
 ## Source Refs
 
-- `src_20260522_3261e6bd` -> `10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md`
+- 10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md`
 
 ## Reusable Knowledge
 

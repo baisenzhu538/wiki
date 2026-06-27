@@ -36,7 +36,7 @@ png` 泛产品设计·用户卡片 需求挖掘 理解背后的深层原因 理�
 
 ## Source Refs
 
-- `src_20260522_11af6cd2` -> `10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md`
+- 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md`
 
 ## Reusable Knowledge
 

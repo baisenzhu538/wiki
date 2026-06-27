@@ -37,7 +37,7 @@ png` 关键决策ROI分析：是否全员涨薪20% 周期：以年为单位看�
 
 ## Source Refs
 
-- `src_20260522_9b437f93` -> `10_raw/sources/src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md`
+- 10_raw/sources/src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md`
 
 ## Reusable Knowledge
 

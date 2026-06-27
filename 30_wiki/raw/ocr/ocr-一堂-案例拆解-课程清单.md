@@ -35,7 +35,7 @@ png` 堂课程清单4/4(案例拆解方向) YitangCourseSystemListbyCaseDisassem
 
 ## Source Refs
 
-- `src_20260522_1e654244` -> `10_raw/sources/src_20260522_1e654244-ocr-一堂-案例拆解-课程清单.md`
+- 10_raw/sources/src_20260522_1e654244-ocr-一堂-案例拆解-课程清单.md`
 
 ## Reusable Knowledge
 

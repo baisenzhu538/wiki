@@ -37,7 +37,7 @@ png` 堂泛产品设计·十年峰炼爬山地图 堂 YitangTenYears'ClimbingRoa
 
 ## Source Refs
 
-- `src_20260522_db09e70d` -> `10_raw/sources/src_20260522_db09e70d-ocr-一堂泛产品设计-十年修炼爬山地图.md`
+- 10_raw/sources/src_20260522_db09e70d-ocr-一堂泛产品设计-十年修炼爬山地图.md`
 
 ## Reusable Knowledge
 

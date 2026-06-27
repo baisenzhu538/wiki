@@ -40,7 +40,7 @@ png` 一堂科学決策宽度·个人篇 堂 TheBreadthofScientificDecision:Pers
 
 ## Source Refs
 
-- `src_20260522_45957066` -> `10_raw/sources/src_20260522_45957066-ocr-一堂-科学决策-宽度-个人.md`
+- 10_raw/sources/src_20260522_45957066-ocr-一堂-科学决策-宽度-个人.md`
 
 
 

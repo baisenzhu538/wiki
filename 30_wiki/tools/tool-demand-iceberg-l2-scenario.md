@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-demand-iceberg-l2-scenario
 title: L2粗拆场景问题：捕捉表层的痛点和需求
 type: tool

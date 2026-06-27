@@ -41,7 +41,7 @@ png` 常见的稀缺机会窗口 1.
 
 ## Source Refs
 
-- `src_20260522_7fb2b9c1` -> `10_raw/sources/src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md`
+- 10_raw/sources/src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md`
 
 
 

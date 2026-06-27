@@ -238,13 +238,13 @@ diagnostic_signals:
 
 ### 原始素材
 
-- `10_raw/assets/modeling-capability/Truman-高阶建模-段位图-01.png` — 段位图原图
+- 10_raw/assets/modeling-capability/Truman-高阶建模-段位图-01.png` — 段位图原图
 
 ### 归档 source
 
-- `10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
-- `10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:103-110`
-- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:103-110`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 
 ---
 

@@ -36,7 +36,7 @@ png` 泛产品设计·落地卡片 里程碑拆解 主动设定交付中间节�
 
 ## Source Refs
 
-- `src_20260522_4be84945` -> `10_raw/sources/src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解.md`
+- 10_raw/sources/src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解.md`
 
 ## Reusable Knowledge
 

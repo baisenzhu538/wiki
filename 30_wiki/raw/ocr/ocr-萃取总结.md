@@ -35,7 +35,7 @@ png` 萃取总结 爆炸式研究 尽量充分 饱和式研究：找到足够多
 
 ## Source Refs
 
-- `src_20260522_4310e409` -> `10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md`
+- 10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md`
 
 ## Reusable Knowledge
 

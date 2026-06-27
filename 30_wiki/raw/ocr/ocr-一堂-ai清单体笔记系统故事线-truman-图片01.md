@@ -33,7 +33,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_a7f2ae2e` -> `10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md`
+- 10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md`
 
 ## Reusable Knowledge
 

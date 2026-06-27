@@ -36,7 +36,7 @@ png` 一堂深度复盘冰山图 堂 思考：这一轮复盘，你能挖到第�
 
 ## Source Refs
 
-- `src_20260522_c92a36ba` -> `10_raw/sources/src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md`
+- 10_raw/sources/src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md`
 
 ## Reusable Knowledge
 

@@ -42,7 +42,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_bcbbb2ed` -> `10_raw/sources/src_20260609_bcbbb2ed-ocr-一堂-单元模型-学练用.md`
+- 10_raw/sources/src_20260609_bcbbb2ed-ocr-一堂-单元模型-学练用.md`
 
 ## Reusable Knowledge
 

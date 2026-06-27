@@ -34,7 +34,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_a8ead237` -> `10_raw/sources/src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md`
+- 10_raw/sources/src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md`
 
 ## Reusable Knowledge
 

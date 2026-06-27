@@ -34,7 +34,7 @@ png` 预判模型 N要素 最糙版 一般范式：2-3个基本的要素 常见�
 
 ## Source Refs
 
-- `src_20260522_e71d89ff` -> `10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md`
+- 10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md`
 
 ## Visual Analysis
 

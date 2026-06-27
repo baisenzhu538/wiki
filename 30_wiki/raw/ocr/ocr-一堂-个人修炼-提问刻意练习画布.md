@@ -36,7 +36,7 @@ png` 提问刻意练习提升画布ByYITANG 维度 Level1.
 
 ## Source Refs
 
-- `src_20260522_a1a098d5` -> `10_raw/sources/src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md`
+- 10_raw/sources/src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md`
 
 ## Reusable Knowledge
 

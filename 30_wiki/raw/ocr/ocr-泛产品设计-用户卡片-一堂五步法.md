@@ -37,7 +37,7 @@ png` 11 泛产品设计·用户卡片 一堂五步法 善于分析商业成败�
 
 ## Source Refs
 
-- `src_20260522_a632cc1c` -> `10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md`
+- 10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md`
 
 ## Reusable Knowledge
 

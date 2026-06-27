@@ -37,7 +37,7 @@ png` 小18 泛产品设计·落地卡片 十倍速验证 训练用1块钱学到1
 
 ## Source Refs
 
-- `src_20260522_5bd37e0d` -> `10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md`
+- 10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md`
 
 ## Reusable Knowledge
 

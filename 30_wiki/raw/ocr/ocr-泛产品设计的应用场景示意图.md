@@ -37,7 +37,7 @@ png` 泛产品设计的应用场景示意图 堂 sketchmapofproductdesignapplica
 
 ## Source Refs
 
-- `src_20260522_e985ecdb` -> `10_raw/sources/src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md`
+- 10_raw/sources/src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md`
 
 ## Reusable Knowledge
 

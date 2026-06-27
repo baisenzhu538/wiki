@@ -36,7 +36,7 @@ png` 10 泛产品设计·用户卡片 行业分析画布 分析行业赛道的�
 
 ## Source Refs
 
-- `src_20260522_78d5f0a4` -> `10_raw/sources/src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md`
+- 10_raw/sources/src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md`
 
 ## Reusable Knowledge
 

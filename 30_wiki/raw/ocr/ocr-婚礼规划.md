@@ -37,7 +37,7 @@ png` 婚礼操盘：婚礼环节规划 传统方式 (郊区) 我们的设计 1.
 
 ## Source Refs
 
-- `src_20260522_b29a6b98` -> `10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md`
+- 10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md`
 
 ## Reusable Knowledge
 

@@ -36,7 +36,7 @@ png` 1 泛产品设计·落地卡片 内核和边界 剥离中心思想和边界
 
 ## Source Refs
 
-- `src_20260522_f3072399` -> `10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md`
+- 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md`
 
 ## Reusable Knowledge
 

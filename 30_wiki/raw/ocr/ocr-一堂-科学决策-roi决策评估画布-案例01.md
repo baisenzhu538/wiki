@@ -37,7 +37,7 @@ png` ROI决策评估画布：参加纽约时装周（2018） 维度 收益项 �
 
 ## Source Refs
 
-- `src_20260522_6bb74b4e` -> `10_raw/sources/src_20260522_6bb74b4e-ocr-一堂-科学决策-roi决策评估画布-案例01.md`
+- 10_raw/sources/src_20260522_6bb74b4e-ocr-一堂-科学决策-roi决策评估画布-案例01.md`
 
 ## Reusable Knowledge
 

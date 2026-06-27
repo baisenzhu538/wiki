@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_cef13c36` -> `10_raw/sources/src_20260609_cef13c36-ocr-一堂-单元模型-规模经济对抗武器库.md`
+- 10_raw/sources/src_20260609_cef13c36-ocr-一堂-单元模型-规模经济对抗武器库.md`
 
 ## Reusable Knowledge
 

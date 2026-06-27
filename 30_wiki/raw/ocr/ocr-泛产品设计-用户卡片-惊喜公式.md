@@ -36,7 +36,7 @@ png` 泛产品设计·用户卡片 惊喜公式 理解惊喜的本质 惊喜的�
 
 ## Source Refs
 
-- `src_20260522_622b8a41` -> `10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md`
+- 10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md`
 
 ## Reusable Knowledge
 

@@ -34,7 +34,7 @@ png` 一堂·泛产品设计看的三大自我修养 堂 Yitang·TheWayofGeneral
 
 ## Source Refs
 
-- `src_20260522_2a53b1eb` -> `10_raw/sources/src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md`
+- 10_raw/sources/src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md`
 
 ## Reusable Knowledge
 

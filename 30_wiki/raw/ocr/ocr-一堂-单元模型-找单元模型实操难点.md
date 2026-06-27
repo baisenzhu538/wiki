@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_c1af5767` -> `10_raw/sources/src_20260609_c1af5767-ocr-一堂-单元模型-找单元模型实操难点.md`
+- 10_raw/sources/src_20260609_c1af5767-ocr-一堂-单元模型-找单元模型实操难点.md`
 
 ## Reusable Knowledge
 

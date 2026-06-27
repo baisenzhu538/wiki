@@ -36,7 +36,7 @@ webp` 向两侧拖动可放大查看 一堂创业地图：高潜力创业者修�
 
 ## Source Refs
 
-- `src_20260522_c1935261` -> `10_raw/sources/src_20260522_c1935261-ocr-一堂-地图-创业地图.md`
+- 10_raw/sources/src_20260522_c1935261-ocr-一堂-地图-创业地图.md`
 
 ## Reusable Knowledge
 

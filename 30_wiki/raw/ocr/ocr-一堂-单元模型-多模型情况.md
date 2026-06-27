@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_a3880f88` -> `10_raw/sources/src_20260609_a3880f88-ocr-一堂-单元模型-多模型情况.md`
+- 10_raw/sources/src_20260609_a3880f88-ocr-一堂-单元模型-多模型情况.md`
 
 ## Reusable Knowledge
 

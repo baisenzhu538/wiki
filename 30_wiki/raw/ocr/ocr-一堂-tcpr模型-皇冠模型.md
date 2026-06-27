@@ -41,7 +41,7 @@ R研究   T教学 C咨询 P实践 R研究 TEACH CONSULT PRACTICE RESEARCH 科学
 
 ## Source Refs
 
-- `src_20260609_818119f0` -> `10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md`
+- 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md`
 
 ## Reusable Knowledge
 

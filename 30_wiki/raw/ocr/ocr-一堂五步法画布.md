@@ -34,7 +34,7 @@ png` 一堂五步法画布YitangFive-stepCanvas 假设 需求 解决方案 商�
 
 ## Source Refs
 
-- `src_20260522_2a547df5` -> `10_raw/sources/src_20260522_2a547df5-ocr-一堂五步法画布.md`
+- 10_raw/sources/src_20260522_2a547df5-ocr-一堂五步法画布.md`
 
 ## Reusable Knowledge
 

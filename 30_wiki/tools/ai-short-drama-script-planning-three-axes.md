@@ -249,8 +249,8 @@ diagnostic_signals:
 
 | 锚点 | 来源 | 用途 |
 |---|---|---|
-| **《我在80年代当后妈》可作为基地七要素填充案例** | `src_20260613_687c4ec0-transcript.md` 口述 | 题材=年代逆袭；核心欲望=女主摆脱困境；核心阻碍=时代与家庭双重束缚；可用于训练 AI 的"剧本基地"理解 |
-| **30+ 剧本、签约 2 部** | `src_20260613_687c4ec0-transcript.md:605-613` | 说明"基地→走向→终局"三段式策划可降低 AI 跑题率 |
+| **《我在80年代当后妈》可作为基地七要素填充案例** | 10_raw/sources/src_20260613_687c4ec0-transcript.md` 口述 | 题材=年代逆袭；核心欲望=女主摆脱困境；核心阻碍=时代与家庭双重束缚；可用于训练 AI 的"剧本基地"理解 |
+| **30+ 剧本、签约 2 部** | 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613` | 说明"基地→走向→终局"三段式策划可降低 AI 跑题率 |
 
 > ⚠️ 案例说明：本卡未完整还原《我在80年代当后妈》的 15 个关键节点，仅提示可作为训练样本；具体节点需用户自行拆解。
 
@@ -260,16 +260,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.png` — 原始信息图
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.png` — 原始信息图
 - `00_inbox/AI短剧创作/代俊隆-AI短剧-剧本策划三板斧-图片-01.json` — OCR 结构化 JSON
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧本策划三板斧-图片-01.md` — OCR 识别文本
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.md` — OCR 识别文本
 
 ### 归档 source
 
 - `src_20260613_61c0cd80-ai-short-drama-script-planning-three-axes.md:11-14` — 归档后的原图摘要
 
-- `src_20260613_61c0cd80-script-planning-three-axes.md:11-14` — 剧本策划三板斧原图（剧本基地/内容走向/剧情终局）
-- `src_20260613_687c4ec0-transcript.md` — 口述中关于剧本基地与内容走向的讲解
-- `src_20260613_12d63c1c-notes.md:50-76` — 剧本策划三板斧结构化笔记
+- 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md:11-14` — 剧本策划三板斧原图（剧本基地/内容走向/剧情终局）
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md` — 口述中关于剧本基地与内容走向的讲解
+- 10_raw/sources/src_20260613_12d63c1c-notes.md:50-76` — 剧本策划三板斧结构化笔记
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧本策划三板斧图片*

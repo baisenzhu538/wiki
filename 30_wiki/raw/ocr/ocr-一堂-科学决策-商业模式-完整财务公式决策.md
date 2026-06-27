@@ -38,7 +38,7 @@ png` 一堂五步法：需求解决方案 商业模式 增长壁垒 + 及格线 
 
 ## Source Refs
 
-- `src_20260522_c59acefd` -> `10_raw/sources/src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md`
+- 10_raw/sources/src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md`
 
 
 

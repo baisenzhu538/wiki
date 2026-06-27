@@ -37,7 +37,7 @@ jpg` 一堂科学学习P口·全景策略图第二版 堂 YitangScientificLearni
 
 ## Source Refs
 
-- `src_20260522_dee56cff` -> `10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 
 ## Visual Analysis
 

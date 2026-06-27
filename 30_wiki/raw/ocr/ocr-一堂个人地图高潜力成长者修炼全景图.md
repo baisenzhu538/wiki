@@ -37,7 +37,7 @@ png` 一堂个人地图：高潜力成长者修炼全景地图 YITANGPERSONALGRO
 
 ## Source Refs
 
-- `src_20260522_9cb1d9d6` -> `10_raw/sources/src_20260522_9cb1d9d6-ocr-一堂个人地图高潜力成长者修炼全景图.md`
+- 10_raw/sources/src_20260522_9cb1d9d6-ocr-一堂个人地图高潜力成长者修炼全景图.md`
 
 ## Reusable Knowledge
 

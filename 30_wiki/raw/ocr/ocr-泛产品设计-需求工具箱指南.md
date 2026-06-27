@@ -39,7 +39,7 @@ png` 堂泛产品设计·需求工具箱指南 堂 YitangGeneralProductDesignToo
 
 ## Source Refs
 
-- `src_20260522_726a6a3b` -> `10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md`
+- 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md`
 
 ## Reusable Knowledge
 

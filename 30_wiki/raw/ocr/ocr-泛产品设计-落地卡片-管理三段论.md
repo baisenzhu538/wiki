@@ -36,7 +36,7 @@ png` 6 泛产品设计·落地卡片 管理三段论 业务管理有章可循 �
 
 ## Source Refs
 
-- `src_20260522_8d5cc8b0` -> `10_raw/sources/src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md`
+- 10_raw/sources/src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md`
 
 ## Reusable Knowledge
 

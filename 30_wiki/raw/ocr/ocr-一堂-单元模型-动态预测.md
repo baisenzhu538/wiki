@@ -42,7 +42,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_9fd664f5` -> `10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md`
+- 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md`
 
 ## Reusable Knowledge
 

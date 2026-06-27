@@ -9,7 +9,7 @@ source_person: Truman
 source_context: 一堂关键假设课
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
-- 10_raw/sources/src_20260619_ecbf72a3_00_inbox_一堂_关键假设课_truman_笔记.txt - 00_inbox/一堂-关键假设课-truman-口述.txt
+- 00_inbox/一堂-关键假设课-truman-口述.txt
   - 00_inbox/一堂-关键假设课-truman-笔记.txt
 tools_required:
 - 259商业分析画布（可用纸笔/文档代替）

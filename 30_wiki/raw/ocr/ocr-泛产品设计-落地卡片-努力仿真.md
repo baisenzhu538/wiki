@@ -37,7 +37,7 @@ png` 65 n 泛产品设计・落地卡片  努力仿真 在真实场景做真东�
 
 ## Source Refs
 
-- `src_20260522_bab48c61` -> `10_raw/sources/src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真.md`
+- 10_raw/sources/src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真.md`
 
 ## Reusable Knowledge
 

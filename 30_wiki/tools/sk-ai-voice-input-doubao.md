@@ -140,7 +140,7 @@ diagnostic_signals:
 
 ## 来源
 
-- `10_raw/sources/src_20260606_90b44191-没有人呀现在.md:430-435`
+- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md:430-435`
 
 ## Feedback Path
 

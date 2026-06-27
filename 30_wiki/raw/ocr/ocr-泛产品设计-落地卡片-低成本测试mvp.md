@@ -34,7 +34,7 @@ png` 13 泛产品设计·落地卡片 低成本测试MVP 用实验思维10倍速
 
 ## Source Refs
 
-- `src_20260522_4d086230` -> `10_raw/sources/src_20260522_4d086230-ocr-泛产品设计-落地卡片-低成本测试mvp.md`
+- 10_raw/sources/src_20260522_4d086230-ocr-泛产品设计-落地卡片-低成本测试mvp.md`
 
 ## Reusable Knowledge
 

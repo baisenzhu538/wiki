@@ -11,9 +11,9 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
-- "10_raw/sources/src_20260619_2ec9f157_wanghuan_AI双角色教练训练_示例图.md"
-- "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- 10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
+- 10_raw/sources/src_20260619_2ec9f157_wanghuan_AI双角色教练训练_示例图.md"
+- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
 domain: human-ai-collaboration;ai-collaboration;yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'

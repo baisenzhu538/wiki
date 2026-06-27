@@ -39,7 +39,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_acdcf6e3` -> `10_raw/sources/src_20260609_acdcf6e3-ocr-一堂-单元模型-最简单元模型.md`
+- 10_raw/sources/src_20260609_acdcf6e3-ocr-一堂-单元模型-最简单元模型.md`
 
 ## Reusable Knowledge
 

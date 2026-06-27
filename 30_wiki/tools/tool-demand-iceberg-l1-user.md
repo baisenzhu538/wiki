@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-demand-iceberg-l1-user
 title: L1粗拆用户标签：识别任务执行者的核心角色
 type: tool

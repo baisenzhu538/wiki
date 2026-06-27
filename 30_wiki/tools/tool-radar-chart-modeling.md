@@ -187,7 +187,7 @@ diagnostic_signals:
 
 ## Sources
 
-- `10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
+- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
 - `src_20260614_8269ccdb#1282-1396`
 - `src_20260614_42f1e977#58-66`
 

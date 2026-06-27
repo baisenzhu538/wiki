@@ -38,7 +38,7 @@ png` 一堂泛产品设计·审美工具箱指南 堂 YitangGeneralProductDesign
 
 ## Source Refs
 
-- `src_20260522_65a78106` -> `10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md`
+- 10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md`
 
 ## Reusable Knowledge
 

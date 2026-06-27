@@ -109,7 +109,7 @@ diagnostic_signals:
 
 ## 来源
 
-- `10_raw/sources/src_20260606_90b44191-没有人呀现在.md:438-568`
+- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md:438-568`
 
 ## Feedback Path
 

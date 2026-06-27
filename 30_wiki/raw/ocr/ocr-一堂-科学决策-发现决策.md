@@ -35,7 +35,7 @@ png` 发现决策 决策类型 √个人决策 ①个人职业发展：是否跳
 
 ## Source Refs
 
-- `src_20260522_1a2ffc3e` -> `10_raw/sources/src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md`
+- 10_raw/sources/src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md`
 
 ## Reusable Knowledge
 

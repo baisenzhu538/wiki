@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_e79bff0e` -> `10_raw/sources/src_20260609_e79bff0e-ocr-一堂-单元模型-找基准值实操难点.md`
+- 10_raw/sources/src_20260609_e79bff0e-ocr-一堂-单元模型-找基准值实操难点.md`
 
 ## Reusable Knowledge
 

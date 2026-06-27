@@ -35,7 +35,7 @@ png` 一堂Y模型：科学成事道路 堂 YitangYModel:ScientificPathToSuccess
 
 ## Source Refs
 
-- `src_20260522_32462c98` -> `10_raw/sources/src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md`
+- 10_raw/sources/src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md`
 
 ## Reusable Knowledge
 

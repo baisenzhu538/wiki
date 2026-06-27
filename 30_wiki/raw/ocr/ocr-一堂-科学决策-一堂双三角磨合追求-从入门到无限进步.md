@@ -39,7 +39,7 @@ png`  一堂双三角磨合追求·从入门到无限进步 宝 YitangDouble-Tri
 
 ## Source Refs
 
-- `src_20260522_d96543bb` -> `10_raw/sources/src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md`
+- 10_raw/sources/src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md`
 
 
 

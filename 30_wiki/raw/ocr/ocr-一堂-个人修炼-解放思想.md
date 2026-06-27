@@ -37,7 +37,7 @@ png` 目 难度最低(min) 难度最高(max) 普遍总结 底层规律总结 脱
 
 ## Source Refs
 
-- `src_20260522_33346186` -> `10_raw/sources/src_20260522_33346186-ocr-一堂-个人修炼-解放思想.md`
+- 10_raw/sources/src_20260522_33346186-ocr-一堂-个人修炼-解放思想.md`
 
 ## Reusable Knowledge
 

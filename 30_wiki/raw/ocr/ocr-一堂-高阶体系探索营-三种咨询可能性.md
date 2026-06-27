@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_b32e7bb8` -> `10_raw/sources/src_20260609_b32e7bb8-ocr-一堂-高阶体系探索营-三种咨询可能性.md`
+- 10_raw/sources/src_20260609_b32e7bb8-ocr-一堂-高阶体系探索营-三种咨询可能性.md`
 
 ## Reusable Knowledge
 

@@ -36,7 +36,7 @@ png` 当有了这个逻辑以后，就可以用一页纸， 解释我所有的�
 
 ## Source Refs
 
-- `src_20260522_074c72ae` -> `10_raw/sources/src_20260522_074c72ae-ocr-truman的个人成长五步法.md`
+- 10_raw/sources/src_20260522_074c72ae-ocr-truman的个人成长五步法.md`
 
 ## Reusable Knowledge
 

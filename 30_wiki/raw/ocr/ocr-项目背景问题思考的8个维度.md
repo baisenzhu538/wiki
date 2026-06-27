@@ -36,7 +36,7 @@ png` 项目背景问题思考的8个维度清单 层级 思考维度 落差 解�
 
 ## Source Refs
 
-- `src_20260522_4af61500` -> `10_raw/sources/src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md`
+- 10_raw/sources/src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md`
 
 ## Reusable Knowledge
 

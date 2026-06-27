@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_1c8b4d0e` -> `10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md`
+- 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md`
 
 ## Reusable Knowledge
 

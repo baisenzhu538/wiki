@@ -36,7 +36,7 @@ jpg` 一堂AI时代的竞争力·双三角模型 YitangCompetitivenessintheAIEra
 
 ## Source Refs
 
-- `src_20260522_1b95114b` -> `10_raw/sources/src_20260522_1b95114b-ocr-一堂-个人修炼-双三角模型.md`
+- 10_raw/sources/src_20260522_1b95114b-ocr-一堂-个人修炼-双三角模型.md`
 
 ## Reusable Knowledge
 

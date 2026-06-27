@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_624d303b` -> `10_raw/sources/src_20260609_624d303b-ocr-一堂-单元模型-对抗小抄01.md`
+- 10_raw/sources/src_20260609_624d303b-ocr-一堂-单元模型-对抗小抄01.md`
 
 ## Reusable Knowledge
 

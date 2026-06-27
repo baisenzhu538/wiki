@@ -9,7 +9,7 @@ source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
-- 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 tools_required:
 - 用户访谈或问卷工具

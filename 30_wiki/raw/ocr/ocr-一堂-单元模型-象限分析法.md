@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_e5bcd951` -> `10_raw/sources/src_20260609_e5bcd951-ocr-一堂-单元模型-象限分析法.md`
+- 10_raw/sources/src_20260609_e5bcd951-ocr-一堂-单元模型-象限分析法.md`
 
 ## Reusable Knowledge
 

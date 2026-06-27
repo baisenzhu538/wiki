@@ -34,7 +34,7 @@ jpg` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - �
 
 ## Source Refs
 
-- `src_20260522_6199c6b7` -> `10_raw/sources/src_20260522_6199c6b7-ocr-一堂-个人修炼-科学学习ipo模型.md`
+- 10_raw/sources/src_20260522_6199c6b7-ocr-一堂-个人修炼-科学学习ipo模型.md`
 
 ## Reusable Knowledge
 

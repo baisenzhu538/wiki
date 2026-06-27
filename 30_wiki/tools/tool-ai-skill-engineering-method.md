@@ -246,7 +246,7 @@ diagnostic_signals:
 
 ## Sources
 
-- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
 
 ---
 

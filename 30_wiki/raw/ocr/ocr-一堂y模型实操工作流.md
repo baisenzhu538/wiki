@@ -35,7 +35,7 @@ png` Y模型实操工作流 像一个顶级科学家一样创业 第一步 第�
 
 ## Source Refs
 
-- `src_20260522_53341e5a` -> `10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md`
+- 10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md`
 
 ## Reusable Knowledge
 

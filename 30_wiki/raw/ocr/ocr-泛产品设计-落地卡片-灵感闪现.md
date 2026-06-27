@@ -36,7 +36,7 @@ png` 小14 泛产品设计·落地卡片 灵感闪现 如何激发大量idea 灵
 
 ## Source Refs
 
-- `src_20260522_e861d61d` -> `10_raw/sources/src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现.md`
+- 10_raw/sources/src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现.md`
 
 ## Reusable Knowledge
 

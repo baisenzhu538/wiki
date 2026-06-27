@@ -37,7 +37,7 @@ png` 一堂科学決策宽度・团队篇 堂 TheBreadthofScientificDecision:Tea
 
 ## Source Refs
 
-- `src_20260522_97242832` -> `10_raw/sources/src_20260522_97242832-ocr-一堂-科学决策-宽度-团队.md`
+- 10_raw/sources/src_20260522_97242832-ocr-一堂-科学决策-宽度-团队.md`
 
 ## Reusable Knowledge
 

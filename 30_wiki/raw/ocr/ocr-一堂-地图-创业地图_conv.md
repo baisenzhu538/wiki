@@ -32,7 +32,7 @@ related:
 
 ## Source Refs
 
-- `src_20260522_2954d80a` -> `10_raw/sources/src_20260522_2954d80a-ocr-一堂-地图-创业地图_conv.md`
+- 10_raw/sources/src_20260522_2954d80a-ocr-一堂-地图-创业地图_conv.md`
 
 ## Reusable Knowledge
 

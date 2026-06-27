@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_70068960` -> `10_raw/sources/src_20260609_70068960-ocr-一堂-单元模型-单sku模型.md`
+- 10_raw/sources/src_20260609_70068960-ocr-一堂-单元模型-单sku模型.md`
 
 ## Reusable Knowledge
 

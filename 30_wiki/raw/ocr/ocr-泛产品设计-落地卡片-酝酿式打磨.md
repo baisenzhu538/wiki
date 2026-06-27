@@ -34,7 +34,7 @@ png` 泛产品设计·落地卡片 酝酿式打磨 科学式的灵感管理 最�
 
 ## Source Refs
 
-- `src_20260522_2bcc3531` -> `10_raw/sources/src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md`
+- 10_raw/sources/src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md`
 
 ## Reusable Knowledge
 

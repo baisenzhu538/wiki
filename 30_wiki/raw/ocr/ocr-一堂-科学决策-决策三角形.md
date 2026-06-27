@@ -39,7 +39,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_485bc00d` -> `10_raw/sources/src_20260609_485bc00d-ocr-一堂-科学决策-决策三角形.md`
+- 10_raw/sources/src_20260609_485bc00d-ocr-一堂-科学决策-决策三角形.md`
 
 ## Reusable Knowledge
 

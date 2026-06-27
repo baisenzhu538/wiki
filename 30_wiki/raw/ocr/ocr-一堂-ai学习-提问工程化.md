@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_62f76551` -> `10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md`
+- 10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md`
 
 ## Reusable Knowledge
 

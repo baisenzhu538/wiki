@@ -9,7 +9,7 @@ source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
 - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
-- 10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tools_required:
 - 产品内核画布（纸笔/白板/文档均可）

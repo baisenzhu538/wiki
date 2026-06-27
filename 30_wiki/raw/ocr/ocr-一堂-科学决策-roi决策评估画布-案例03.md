@@ -41,7 +41,7 @@ png` ROI决策评估画布：自建招商体系 维度 收益项 成本项 1、�
 
 ## Source Refs
 
-- `src_20260522_01bac741` -> `10_raw/sources/src_20260522_01bac741-ocr-一堂-科学决策-roi决策评估画布-案例03.md`
+- 10_raw/sources/src_20260522_01bac741-ocr-一堂-科学决策-roi决策评估画布-案例03.md`
 
 
 

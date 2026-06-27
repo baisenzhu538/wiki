@@ -10,8 +10,8 @@ source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
 - 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
 - 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt
-- 10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
-  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+- 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
+  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:

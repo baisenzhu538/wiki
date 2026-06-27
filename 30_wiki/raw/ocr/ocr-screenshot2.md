@@ -36,7 +36,7 @@ DeepseekV4Pro Thinking: Ultra 63% YOLO 56条反向链接 23个笔记属性 2,146
 
 ## Source Refs
 
-- `src_20260522_961e1d68` -> `10_raw/sources/src_20260522_961e1d68-ocr-screenshot2.md`
+- 10_raw/sources/src_20260522_961e1d68-ocr-screenshot2.md`
 
 ## Reusable Knowledge
 

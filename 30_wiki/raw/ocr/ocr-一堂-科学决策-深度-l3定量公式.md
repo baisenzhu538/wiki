@@ -38,7 +38,7 @@ png` 单元模型ROI深度：L3定量公式 A+B+C+D X C 定量 定钱 - 本文�
 
 ## Source Refs
 
-- `src_20260522_80e1b943` -> `10_raw/sources/src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md`
+- 10_raw/sources/src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md`
 
 
 

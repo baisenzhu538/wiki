@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_e54e85be` -> `10_raw/sources/src_20260609_e54e85be-ocr-一堂-单元模型-斧子尺子梯子.md`
+- 10_raw/sources/src_20260609_e54e85be-ocr-一堂-单元模型-斧子尺子梯子.md`
 
 ## Reusable Knowledge
 

@@ -34,7 +34,7 @@ jpg` Y型创业： 堂科学型组织 YModelforStartups:YitangScientificOrganiza
 
 ## Source Refs
 
-- `src_20260522_3f5c76c0` -> `10_raw/sources/src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md`
+- 10_raw/sources/src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md`
 
 ## Reusable Knowledge
 

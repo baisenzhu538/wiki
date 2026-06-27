@@ -34,7 +34,7 @@ png` - 堂泛产品设计实操：多出牌多练  堂 CultivateProductSense:Des
 
 ## Source Refs
 
-- `src_20260522_4754d8fd` -> `10_raw/sources/src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md`
+- 10_raw/sources/src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md`
 
 ## Reusable Knowledge
 

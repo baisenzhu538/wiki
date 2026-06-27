@@ -41,7 +41,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_c31a1173` -> `10_raw/sources/src_20260609_c31a1173-ocr-一堂-单元模型-段位专家.md`
+- 10_raw/sources/src_20260609_c31a1173-ocr-一堂-单元模型-段位专家.md`
 
 ## Reusable Knowledge
 

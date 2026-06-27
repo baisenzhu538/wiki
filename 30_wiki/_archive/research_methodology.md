@@ -29,8 +29,8 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ## Source Refs
 
-- `src_20260503_5dc58ec8` -> `10_raw/sources/src_20260503_5dc58ec8-research_methodology.md`
-- 关联版本: `src_20260502_7d7c1b7c` -> `10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
+- 10_raw/sources/src_20260503_5dc58ec8-research_methodology.md`
+- 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
 
 ## Reusable Knowledge
 

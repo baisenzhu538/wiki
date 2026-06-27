@@ -36,7 +36,7 @@ png` - 泛产品设计·用户卡片 项目背景分析 综合用户/场景/商�
 
 ## Source Refs
 
-- `src_20260522_115e8827` -> `10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md`
+- 10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md`
 
 ## Reusable Knowledge
 

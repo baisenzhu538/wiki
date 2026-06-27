@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-demand-iceberg-l5-forces
 title: L5隐藏洞察：四种力量+三种任务+微观体感
 type: tool

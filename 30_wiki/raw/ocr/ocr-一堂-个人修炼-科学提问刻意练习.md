@@ -34,7 +34,7 @@ png` 辅导 咨询 业务分析 团队 萃取经验 Analysis 教练 Teaching Soc
 
 ## Source Refs
 
-- `src_20260522_f70d7a7d` -> `10_raw/sources/src_20260522_f70d7a7d-ocr-一堂-个人修炼-科学提问刻意练习.md`
+- 10_raw/sources/src_20260522_f70d7a7d-ocr-一堂-个人修炼-科学提问刻意练习.md`
 
 ## Reusable Knowledge
 

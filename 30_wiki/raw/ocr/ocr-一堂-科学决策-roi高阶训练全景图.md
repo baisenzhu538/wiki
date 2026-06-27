@@ -42,7 +42,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_60edc284` -> `10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md`
+- 10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md`
 
 ## Reusable Knowledge
 

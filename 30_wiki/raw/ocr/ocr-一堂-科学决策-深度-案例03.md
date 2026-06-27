@@ -37,7 +37,7 @@ png` 公司要不要自研IM+CRM系统 具体项 能否定量 补充解释 关�
 
 ## Source Refs
 
-- `src_20260522_3782f983` -> `10_raw/sources/src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md`
+- 10_raw/sources/src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md`
 
 ## Reusable Knowledge
 

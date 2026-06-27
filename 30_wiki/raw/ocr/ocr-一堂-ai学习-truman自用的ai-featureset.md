@@ -35,7 +35,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_03491271` -> `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 
 ## Reusable Knowledge
 

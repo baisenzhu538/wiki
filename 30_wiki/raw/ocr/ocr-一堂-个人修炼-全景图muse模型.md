@@ -32,7 +32,7 @@ jpg` 一堂人工智能全景图·MUSE模型 YitangAIMUSEFrameworkVersion3.
 
 ## Source Refs
 
-- `src_20260522_20c9fda8` -> `10_raw/sources/src_20260522_20c9fda8-ocr-一堂-个人修炼-全景图muse模型.md`
+- 10_raw/sources/src_20260522_20c9fda8-ocr-一堂-个人修炼-全景图muse模型.md`
 
 ## Visual Analysis
 

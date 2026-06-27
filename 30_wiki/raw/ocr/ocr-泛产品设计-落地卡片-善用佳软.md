@@ -36,7 +36,7 @@ png` - 泛产品设计·落地卡片 善用佳软 多学习一些简单产品工
 
 ## Source Refs
 
-- `src_20260522_7ddf8bf2` -> `10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md`
+- 10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md`
 
 ## Reusable Knowledge
 

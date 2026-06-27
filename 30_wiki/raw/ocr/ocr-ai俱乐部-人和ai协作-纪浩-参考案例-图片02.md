@@ -35,7 +35,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_9223aac2` -> `10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md`
+- 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md`
 
 ## Reusable Knowledge
 

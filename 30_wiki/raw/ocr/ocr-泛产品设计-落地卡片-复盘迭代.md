@@ -36,7 +36,7 @@ png` 10 泛产品设计·落地卡片 复盘迭代 善于向自己的经验学�
 
 ## Source Refs
 
-- `src_20260522_3b5c417d` -> `10_raw/sources/src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代.md`
+- 10_raw/sources/src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代.md`
 
 ## Reusable Knowledge
 

@@ -36,7 +36,7 @@ png` 8 泛产品设计·落地卡片 逻辑MECE 做个有逻辑的人 面对长�
 
 ## Source Refs
 
-- `src_20260522_8d990f3c` -> `10_raw/sources/src_20260522_8d990f3c-ocr-泛产品设计-落地卡片-逻辑mece.md`
+- 10_raw/sources/src_20260522_8d990f3c-ocr-泛产品设计-落地卡片-逻辑mece.md`
 
 ## Reusable Knowledge
 

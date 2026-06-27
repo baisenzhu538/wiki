@@ -103,7 +103,7 @@ diagnostic_signals:
 ## 来源
 
 - 纪浩，AI俱乐部-AI协作方法论分享，2026-06
-- 原始笔记：10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 
 ## Feedback Path
 

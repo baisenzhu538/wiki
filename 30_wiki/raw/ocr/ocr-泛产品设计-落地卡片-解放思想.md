@@ -37,7 +37,7 @@ png` 小19 泛产品设计·落地卡片 解放思想 敢于提出新解法/挑�
 
 ## Source Refs
 
-- `src_20260522_c2c6b487` -> `10_raw/sources/src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md`
+- 10_raw/sources/src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md`
 
 ## Reusable Knowledge
 

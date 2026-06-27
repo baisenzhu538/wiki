@@ -34,7 +34,7 @@ png` 泛产品设计・落地卡片 ROI分析 擅做投产比分析  关键收�
 
 ## Source Refs
 
-- `src_20260522_1b5af0b6` -> `10_raw/sources/src_20260522_1b5af0b6-ocr-泛产品设计-落地卡片-roi分析.md`
+- 10_raw/sources/src_20260522_1b5af0b6-ocr-泛产品设计-落地卡片-roi分析.md`
 
 ## Reusable Knowledge
 

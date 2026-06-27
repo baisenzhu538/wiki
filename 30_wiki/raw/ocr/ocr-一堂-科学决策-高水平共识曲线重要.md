@@ -39,7 +39,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_006cb9b3` -> `10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md`
+- 10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md`
 
 ## Reusable Knowledge
 

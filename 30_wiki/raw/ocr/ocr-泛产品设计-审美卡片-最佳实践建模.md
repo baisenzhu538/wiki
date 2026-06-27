@@ -36,7 +36,7 @@ png` 泛产品设计·审美卡片 最佳实践建模 用评价维度打磨产�
 
 ## Source Refs
 
-- `src_20260522_89529426` -> `10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md`
+- 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md`
 
 ## Reusable Knowledge
 

@@ -40,7 +40,7 @@ png` 科学决策ROI·关键训练清单Checklist ROI决策维度 关键思考�
 
 ## Source Refs
 
-- `src_20260522_ac7f8874` -> `10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md`
+- 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md`
 
 
 

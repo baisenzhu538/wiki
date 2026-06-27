@@ -250,10 +250,10 @@ S 级给最多资源和时间，C 级原则上不做。
 
 ## Sources
 
-- `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- `10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`
-- `10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`
+- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
 
 ---
 

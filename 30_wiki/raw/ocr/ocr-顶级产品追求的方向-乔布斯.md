@@ -36,7 +36,7 @@ png` 最终还是看你个人的品味 7 它归结于尝试让自己 69 接触�
 
 ## Source Refs
 
-- `src_20260522_ea933690` -> `10_raw/sources/src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯.md`
+- 10_raw/sources/src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯.md`
 
 ## Reusable Knowledge
 

@@ -32,7 +32,7 @@ png` 一堂提炼过的因果模型 果(范围/目标) 因(基本框架) 商业�
 
 ## Source Refs
 
-- `src_20260522_77b6cdaf` -> `10_raw/sources/src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md`
+- 10_raw/sources/src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md`
 
 ## Reusable Knowledge
 

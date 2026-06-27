@@ -36,7 +36,7 @@ png` -堂课程清单3/4（个人必修方向） YitangCourseSystemListbyPersona
 
 ## Source Refs
 
-- `src_20260522_a94d8057` -> `10_raw/sources/src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md`
+- 10_raw/sources/src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md`
 
 ## Reusable Knowledge
 

@@ -38,7 +38,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_cb13ebc8` -> `10_raw/sources/src_20260609_cb13ebc8-ocr-一堂-ai学习-提问进化路线图.md`
+- 10_raw/sources/src_20260609_cb13ebc8-ocr-一堂-ai学习-提问进化路线图.md`
 
 ## Reusable Knowledge
 

@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_6f5c7abd` -> `10_raw/sources/src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md`
+- 10_raw/sources/src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md`
 
 ## Reusable Knowledge
 

@@ -41,7 +41,7 @@ png` 一堂科学決策宽度·企业篇 堂 TheBreadthofScientificDecision:Ente
 
 ## Source Refs
 
-- `src_20260522_b4ebba42` -> `10_raw/sources/src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md`
+- 10_raw/sources/src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md`
 
 
 

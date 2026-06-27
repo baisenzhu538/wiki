@@ -37,7 +37,7 @@ png` ROI决策评估画布-学习决策(公司) 维度 收益项 成本项 基�
 
 ## Source Refs
 
-- `src_20260522_94699fa0` -> `10_raw/sources/src_20260522_94699fa0-ocr-一堂-科学决策-roi决策评估画布-案例04.md`
+- 10_raw/sources/src_20260522_94699fa0-ocr-一堂-科学决策-roi决策评估画布-案例04.md`
 
 ## Reusable Knowledge
 

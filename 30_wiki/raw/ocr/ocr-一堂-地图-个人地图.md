@@ -36,7 +36,7 @@ webp` 向两侧拖动可放大查看 一堂个人地图：高潜力成长者修�
 
 ## Source Refs
 
-- `src_20260522_40d2aee5` -> `10_raw/sources/src_20260522_40d2aee5-ocr-一堂-地图-个人地图.md`
+- 10_raw/sources/src_20260522_40d2aee5-ocr-一堂-地图-个人地图.md`
 
 ## Reusable Knowledge
 

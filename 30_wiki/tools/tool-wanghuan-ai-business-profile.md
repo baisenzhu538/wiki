@@ -19,9 +19,9 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- '10_raw/sources/src_20260619_9b85f229_wanghuan_AI业务档案的五个字段.md'
-- '10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
-- '10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
+- 10_raw/sources/src_20260619_9b85f229_wanghuan_AI业务档案的五个字段.md'
+- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
 diagnostic_signals:
 - signal: '每次新对话都要重复交代"我是谁/我做什么行业"'
   lens: context-loss

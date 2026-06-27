@@ -39,7 +39,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_07b851fb` -> `10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md`
+- 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md`
 
 ## Reusable Knowledge
 

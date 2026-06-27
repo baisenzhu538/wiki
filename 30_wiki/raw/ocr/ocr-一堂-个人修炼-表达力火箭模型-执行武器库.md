@@ -34,7 +34,7 @@ png` 一堂表达力火箭模型：执行武器库 堂 YITANGEXPRESSIVEROCKETMOD
 
 ## Source Refs
 
-- `src_20260522_e60a7ec8` -> `10_raw/sources/src_20260522_e60a7ec8-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md`
+- 10_raw/sources/src_20260522_e60a7ec8-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md`
 
 ## Visual Analysis
 

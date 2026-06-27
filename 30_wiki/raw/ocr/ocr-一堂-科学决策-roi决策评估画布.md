@@ -38,7 +38,7 @@ png` ROI决策评估画布 维度 收益项 成本项 基础ROI 长期视角 公
 
 ## Source Refs
 
-- `src_20260522_c78c1f2e` -> `10_raw/sources/src_20260522_c78c1f2e-ocr-一堂-科学决策-roi决策评估画布.md`
+- 10_raw/sources/src_20260522_c78c1f2e-ocr-一堂-科学决策-roi决策评估画布.md`
 
 
 

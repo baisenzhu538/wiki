@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_112b88f7` -> `10_raw/sources/src_20260609_112b88f7-ocr-一堂doc-单元模型-十大单元模型.md`
+- 10_raw/sources/src_20260609_112b88f7-ocr-一堂doc-单元模型-十大单元模型.md`
 
 ## Reusable Knowledge
 

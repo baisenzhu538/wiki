@@ -38,7 +38,7 @@ png` 单元模型ROI深度：L1优先级定性 定量 定钱 - 本文件由 Padd
 
 ## Source Refs
 
-- `src_20260522_22cb5729` -> `10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md`
+- 10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md`
 
 
 

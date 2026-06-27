@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_c86cd9a0` -> `10_raw/sources/src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md`
+- 10_raw/sources/src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md`
 
 ## Reusable Knowledge
 

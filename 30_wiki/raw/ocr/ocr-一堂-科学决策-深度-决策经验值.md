@@ -41,7 +41,7 @@ png` bｅnchmark 参考行业常识 我的 经验值 竞争数据 过去数据 �
 
 ## Source Refs
 
-- `src_20260522_4f3415a1` -> `10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md`
+- 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md`
 
 
 

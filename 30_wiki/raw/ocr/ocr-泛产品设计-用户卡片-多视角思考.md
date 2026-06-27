@@ -36,7 +36,7 @@ png` 6 泛产品设计·用户卡片 多视角思考 综合内部/外部/角色�
 
 ## Source Refs
 
-- `src_20260522_f6cf4e83` -> `10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md`
+- 10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md`
 
 ## Reusable Knowledge
 

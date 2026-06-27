@@ -36,7 +36,7 @@ png` 刻意练习·一堂10年成长指数 堂 DeliberatePractice:Yitang10-YearG
 
 ## Source Refs
 
-- `src_20260522_e6cf558a` -> `10_raw/sources/src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md`
+- 10_raw/sources/src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md`
 
 ## Reusable Knowledge
 

@@ -35,7 +35,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_6809033f` -> `10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md`
+- 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md`
 
 ## Reusable Knowledge
 

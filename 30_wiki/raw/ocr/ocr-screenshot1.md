@@ -36,7 +36,7 @@ png` KimiCodeAPI同时兼容OpenAl和Anthropic两种协议。
 
 ## Source Refs
 
-- `src_20260522_64727b82` -> `10_raw/sources/src_20260522_64727b82-ocr-screenshot1.md`
+- 10_raw/sources/src_20260522_64727b82-ocr-screenshot1.md`
 
 ## Reusable Knowledge
 

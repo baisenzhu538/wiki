@@ -36,7 +36,7 @@ png` 堂泛产品36计·全套官方工具箱 堂 YitangGeneralProductDesignTool
 
 ## Source Refs
 
-- `src_20260522_7e8d10c4` -> `10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md`
+- 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md`
 
 ## Reusable Knowledge
 

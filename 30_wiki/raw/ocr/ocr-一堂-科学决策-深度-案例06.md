@@ -41,7 +41,7 @@ png` 电话外呼的ROI分析(v3.
 
 ## Source Refs
 
-- `src_20260522_e70d298c` -> `10_raw/sources/src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md`
+- 10_raw/sources/src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md`
 
 
 

@@ -39,7 +39,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_0770a578` -> `10_raw/sources/src_20260609_0770a578-ocr-一堂-单元模型-找全成本实操难点.md`
+- 10_raw/sources/src_20260609_0770a578-ocr-一堂-单元模型-找全成本实操难点.md`
 
 ## Reusable Knowledge
 

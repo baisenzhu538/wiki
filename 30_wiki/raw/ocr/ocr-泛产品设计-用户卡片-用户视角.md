@@ -36,7 +36,7 @@ png` 泛产品设计·用户卡片 用户视角 善于瞬间代入视角 一秒�
 
 ## Source Refs
 
-- `src_20260522_11d721ac` -> `10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md`
+- 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md`
 
 ## Reusable Knowledge
 

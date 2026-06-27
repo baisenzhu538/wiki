@@ -34,7 +34,7 @@ png` 泛产品设计·用户卡片 峰终定律 用户体验的二八定律 PEAK
 
 ## Source Refs
 
-- `src_20260522_041b5a94` -> `10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md`
+- 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md`
 
 ## Reusable Knowledge
 

@@ -36,7 +36,7 @@ png` 15 泛产品设计·落地卡片 假设拆解 拆解出影响产品成败�
 
 ## Source Refs
 
-- `src_20260522_eb90d179` -> `10_raw/sources/src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md`
+- 10_raw/sources/src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md`
 
 ## Reusable Knowledge
 

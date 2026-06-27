@@ -41,7 +41,7 @@ png` 决策4：是否搭建虚拟影棚 ROI决策评估画布 维度 收益项 �
 
 ## Source Refs
 
-- `src_20260522_bf298e46` -> `10_raw/sources/src_20260522_bf298e46-ocr-一堂-科学决策-roi决策评估画布-案例02.md`
+- 10_raw/sources/src_20260522_bf298e46-ocr-一堂-科学决策-roi决策评估画布-案例02.md`
 
 
 

@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_7dbbefd0` -> `10_raw/sources/src_20260609_7dbbefd0-ocr-一堂-单元模型-外部对抗地图.md`
+- 10_raw/sources/src_20260609_7dbbefd0-ocr-一堂-单元模型-外部对抗地图.md`
 
 ## Reusable Knowledge
 

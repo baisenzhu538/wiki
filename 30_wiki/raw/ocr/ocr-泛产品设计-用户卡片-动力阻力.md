@@ -34,7 +34,7 @@ png` 泛产品设计·用户卡片 动力阻力 理解转化率的本质 未转�
 
 ## Source Refs
 
-- `src_20260522_1ec27760` -> `10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md`
+- 10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md`
 
 ## Reusable Knowledge
 

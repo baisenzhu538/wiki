@@ -36,7 +36,7 @@ png` 泛产品设计·落地卡片 设计原则 掌握基本的UI/UE审美原则
 
 ## Source Refs
 
-- `src_20260522_9eaf7399` -> `10_raw/sources/src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md`
+- 10_raw/sources/src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md`
 
 ## Reusable Knowledge
 

@@ -36,7 +36,7 @@ png` 一堂Y模型STEPS策略集VO.
 
 ## Source Refs
 
-- `src_20260522_0bb1cb6e` -> `10_raw/sources/src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md`
+- 10_raw/sources/src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md`
 
 ## Reusable Knowledge
 

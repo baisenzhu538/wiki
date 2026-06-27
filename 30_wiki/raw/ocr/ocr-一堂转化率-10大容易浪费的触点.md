@@ -34,7 +34,7 @@ png` 一堂最佳转化率·10大最易浪费触点 YiTangBestConversionRate·To
 
 ## Source Refs
 
-- `src_20260522_037af20f` -> `10_raw/sources/src_20260522_037af20f-ocr-一堂转化率-10大容易浪费的触点.md`
+- 10_raw/sources/src_20260522_037af20f-ocr-一堂转化率-10大容易浪费的触点.md`
 
 ## Reusable Knowledge
 

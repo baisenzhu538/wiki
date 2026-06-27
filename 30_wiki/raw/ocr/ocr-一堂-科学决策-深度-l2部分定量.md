@@ -38,7 +38,7 @@ png` 单元模型ROI深度：L2部分定量 A B X 定量 定钱 - 本文件由 P
 
 ## Source Refs
 
-- `src_20260522_ad937c9c` -> `10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md`
+- 10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md`
 
 
 

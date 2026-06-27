@@ -36,7 +36,7 @@ png` 泛产品设计·用户卡片 用户分层 分层理解用户差异 永远�
 
 ## Source Refs
 
-- `src_20260522_38ddd826` -> `10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md`
+- 10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md`
 
 ## Reusable Knowledge
 

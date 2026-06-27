@@ -10,7 +10,7 @@ source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
-- 10_raw/sources/src_20260619_71c86250_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_结构化.md - 00_inbox/纪浩-AI协作方法论-口述.md
+- 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 tools_required:
 - 日志系统或文件

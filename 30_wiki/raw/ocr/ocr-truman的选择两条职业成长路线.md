@@ -36,7 +36,7 @@ Y路线：泛产品设计 见过模型--看人用过--自己用过--少量刻意
 
 ## Source Refs
 
-- `src_20260522_9cbdf4fd` -> `10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md`
+- 10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md`
 
 ## Reusable Knowledge
 

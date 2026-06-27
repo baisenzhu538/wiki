@@ -34,7 +34,7 @@ png` 一堂产品内核・十大典型指标 环节 指标 一句话说明 销�
 
 ## Source Refs
 
-- `src_20260522_32e4318a` -> `10_raw/sources/src_20260522_32e4318a-ocr-一堂产品内核-十大典型指标.md`
+- 10_raw/sources/src_20260522_32e4318a-ocr-一堂产品内核-十大典型指标.md`
 
 ## Reusable Knowledge
 

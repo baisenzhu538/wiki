@@ -42,7 +42,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_11f9c13b` -> `10_raw/sources/src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md`
+- 10_raw/sources/src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md`
 
 ## Reusable Knowledge
 

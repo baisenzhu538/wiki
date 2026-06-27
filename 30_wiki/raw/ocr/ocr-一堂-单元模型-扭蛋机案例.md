@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_31712e1d` -> `10_raw/sources/src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例.md`
+- 10_raw/sources/src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例.md`
 
 ## Reusable Knowledge
 

@@ -35,7 +35,7 @@ png` 从看得见到磨得透  丹具象 打座  于道 问 理 中 RO分析 1  
 
 ## Source Refs
 
-- `src_20260522_e4b635ac` -> `10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md`
+- 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md`
 
 ## Visual Analysis
 

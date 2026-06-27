@@ -35,7 +35,7 @@ webp` 一堂十指模型·营销文案工具箱 堂 YitangTen-FingerModel:Market
 
 ## Source Refs
 
-- `src_20260522_98db1d35` -> `10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md`
+- 10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md`
 
 ## Reusable Knowledge
 

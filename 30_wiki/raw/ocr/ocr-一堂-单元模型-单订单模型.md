@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260609_285df010` -> `10_raw/sources/src_20260609_285df010-ocr-一堂-单元模型-单订单模型.md`
+- 10_raw/sources/src_20260609_285df010-ocr-一堂-单元模型-单订单模型.md`
 
 ## Reusable Knowledge
 

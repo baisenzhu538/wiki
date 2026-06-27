@@ -238,9 +238,9 @@ Truman 的"逻辑洁癖"在清单中体现为：
 
 ## Sources
 
-- `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:319-333、716-758、907-934`
-- `10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:319-333、716-758、907-934`
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
 
 ---
 

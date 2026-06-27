@@ -35,7 +35,7 @@ png` 一堂表达力火箭模型 YITANGEXPRESSIVEROCKETMODEL 有卖点 有 剪 �
 
 ## Source Refs
 
-- `src_20260522_f6f8f8eb` -> `10_raw/sources/src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md`
+- 10_raw/sources/src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md`
 
 ## Reusable Knowledge
 

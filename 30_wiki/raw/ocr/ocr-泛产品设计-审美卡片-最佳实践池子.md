@@ -36,7 +36,7 @@ png` 泛产品设计·审美卡片 最佳实践池子 用一堆最佳实践打�
 
 ## Source Refs
 
-- `src_20260522_6a8b5755` -> `10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md`
+- 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md`
 
 ## Reusable Knowledge
 

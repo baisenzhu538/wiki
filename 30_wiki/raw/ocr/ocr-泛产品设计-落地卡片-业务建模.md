@@ -35,7 +35,7 @@ png` 小12 泛产品设计·落地卡片 业务建模 学习拆解业务公式 �
 
 ## Source Refs
 
-- `src_20260522_f5a0f2e1` -> `10_raw/sources/src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md`
+- 10_raw/sources/src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md`
 
 ## Reusable Knowledge
 

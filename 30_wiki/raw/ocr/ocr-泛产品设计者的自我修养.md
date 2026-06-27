@@ -34,7 +34,7 @@ png` ❤ 泛产品设计者的自我修养 的创业课 永远以"用户价值"�
 
 ## Source Refs
 
-- `src_20260522_8995f40a` -> `10_raw/sources/src_20260522_8995f40a-ocr-泛产品设计者的自我修养.md`
+- 10_raw/sources/src_20260522_8995f40a-ocr-泛产品设计者的自我修养.md`
 
 ## Reusable Knowledge
 

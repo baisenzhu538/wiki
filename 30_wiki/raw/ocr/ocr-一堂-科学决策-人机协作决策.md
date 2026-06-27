@@ -41,7 +41,7 @@ png` 堂 一堂AI时代的竞争力·双三角模型 YitangCompetitivenessintheA
 
 ## Source Refs
 
-- `src_20260522_33c40d41` -> `10_raw/sources/src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md`
+- 10_raw/sources/src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md`
 
 
 

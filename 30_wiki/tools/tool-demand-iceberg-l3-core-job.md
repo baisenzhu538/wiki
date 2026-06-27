@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-demand-iceberg-l3-core-job
 title: L3圈定核心任务：方案中立的动词+对象+语境
 type: tool

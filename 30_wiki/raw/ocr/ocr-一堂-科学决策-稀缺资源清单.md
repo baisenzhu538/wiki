@@ -41,7 +41,7 @@ CEO时间和注意力 2.
 
 ## Source Refs
 
-- `src_20260522_d067a6ba` -> `10_raw/sources/src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md`
+- 10_raw/sources/src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md`
 
 
 

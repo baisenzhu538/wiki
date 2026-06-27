@@ -34,7 +34,7 @@ png` 天花板 无限 " 你执行力的上限 探索 进步 解放思想 超越 
 
 ## Source Refs
 
-- `src_20260522_7d2a79f8` -> `10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md`
+- 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md`
 
 ## Reusable Knowledge
 

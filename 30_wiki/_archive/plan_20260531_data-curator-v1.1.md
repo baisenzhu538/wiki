@@ -34,7 +34,7 @@ trust_level: medium-low
 ## 来源
 
 - v1.0：黄药师+用户架构讨论
-- **v1.1 新输入**：`00_inbox/AI-study/一堂-AI数据第一课口述01.txt`（Truman，一堂AI数据必修课·认知篇）
+- 00_inbox/AI-study/AI数据/一堂-AI数据第一课口述01.txt`（Truman，一堂AI数据必修课·认知篇）
 
 ---
 

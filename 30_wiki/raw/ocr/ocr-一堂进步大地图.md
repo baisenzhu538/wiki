@@ -36,7 +36,7 @@ png` 堂 堂无限进步大地图『十年收藏版 - 不要急不要停：人�
 
 ## Source Refs
 
-- `src_20260522_d75f0a0d` -> `10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md`
+- 10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md`
 
 ## Reusable Knowledge
 

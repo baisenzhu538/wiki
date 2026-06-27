@@ -36,7 +36,7 @@ png` 泛产品设计·用户卡片 场景推演 细颗粒度推演 脱离了场�
 
 ## Source Refs
 
-- `src_20260522_3bc67cbd` -> `10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md`
+- 10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md`
 
 ## Reusable Knowledge
 

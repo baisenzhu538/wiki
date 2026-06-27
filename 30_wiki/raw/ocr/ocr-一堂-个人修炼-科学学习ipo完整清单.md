@@ -37,7 +37,7 @@ jpg` -堂科学学习IPO·完整清单 YitangScientificLearningIPOModel·Complet
 
 ## Source Refs
 
-- `src_20260522_e139c9e9` -> `10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md`
+- 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md`
 
 ## Reusable Knowledge
 

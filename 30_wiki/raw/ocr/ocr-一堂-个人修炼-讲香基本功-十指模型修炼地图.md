@@ -34,7 +34,7 @@ png` 一堂讲香基本功·土指模型修炼地图 堂 YitangHikingRoadmapforT
 
 ## Source Refs
 
-- `src_20260522_ecb6ee97` -> `10_raw/sources/src_20260522_ecb6ee97-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md`
+- 10_raw/sources/src_20260522_ecb6ee97-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md`
 
 ## Reusable Knowledge
 

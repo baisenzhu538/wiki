@@ -36,7 +36,7 @@ png` 小11 泛产品设计·落地卡片 风险管理 把风险从意外变成�
 
 ## Source Refs
 
-- `src_20260522_3dd58dff` -> `10_raw/sources/src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理.md`
+- 10_raw/sources/src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理.md`
 
 ## Reusable Knowledge
 

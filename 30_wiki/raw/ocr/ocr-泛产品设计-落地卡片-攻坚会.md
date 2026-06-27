@@ -36,7 +36,7 @@ png` 小15 泛产品设计·落地卡片 攻坚会 重点课题all-in攻坚 在�
 
 ## Source Refs
 
-- `src_20260522_cbb3b77d` -> `10_raw/sources/src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会.md`
+- 10_raw/sources/src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会.md`
 
 ## Reusable Knowledge
 
