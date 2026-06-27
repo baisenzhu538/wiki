@@ -438,17 +438,24 @@
 
 ---
 
-## 第 3 波进展（2026-06-28，阶段 A 门禁清零完成，阶段 B 待续）
+## 第 3 波进展（2026-06-28，3.1 建模 5 张完成，3.2 综合卡待续）
 
-- 阶段 A（门禁清零）：5 张建模卡 pre-submit 全绿
-  - 5 张卡都是 CRLF 换行 + diagnostic_signals 断行（`  - \nframework_lens:`）+ `---# 标题` 粘连
-  - 用 Edit 工具逐张修复（perl/sed -i 被沙箱拦临时文件）
-  - 5 张 pre-submit 全 PASS
-- 阶段 B（内容返工）：未启动
-  - 3.1 建模 5 张：Claims 全 src_unknown（每张 5-6 条待填）+ Critique 缺失或待补 + 内容区 src_unknown 30-51 个/张
-  - 3.2 综合卡 9 张：格式转换/拆分（重活）
-  - 3.3 口述数据标注 + 3.4 药柜分离：依赖 3.2
-- 状态：wave3 `claimed-workbuddy`，阶段 A 完成，阶段 B 待续
+- 阶段 A（门禁清零）：5 张建模卡 pre-submit 全绿（CRLF + diagnostic_signals 断行 + ---# 粘连修复）
+- 阶段 B 3.1（建模 5 张内容返工）：✅ 完成
+  - 每张 Claims 填 6 条（从 Purpose/Protocol/失败模式反推，每条可被 Critique 攻击）
+  - capability-system：Reusable Knowledge 4 项 + Open Questions 4 条 + 可交付物 3 项 + 关联卡片 5 张 + Sources 填具体文件名
+  - three-stages：Visual Analysis 段位图描述 3 层 + Reusable Knowledge 决策树 3 分支 + Open Questions 4 条 + 关联卡片 4 张 + Sources 填
+  - level-map：Visual Analysis 段位图 6 段+跃迁周期 + Protocol 步骤 2-3 填实质 + 行动 Checklist 6 项 + 关联卡片 3 张 + Sources 填
+  - weapon-library：Visual Analysis 三层模型 12 项 + Critique 内部局限性 3 条 + 反事实测试 2 条 + 行动 Checklist 9 项 + 关联卡片 4 张 + Sources 填
+  - process-modeling：Claims 6 条 + 识别建模点判据 3 项 + 清单检查点 2 项 + 迭代触发器 2 项 + 9 问检查清单 + Critique 内部局限性 3 条 + 反事实 2 条 + 单卡收尾检查 9 项 + 关联卡片 5 张 + Sources 填
+  - 全 5 张内容区 src_unknown 清零（capability-system 36→0, three-stages 30→0, level-map 37→0, weapon-library 45→0, process-modeling 51→0）
+  - pre-submit 5 passed/0 failed
+- 阶段 B 3.2（综合卡 9 张格式转换）：未启动
+  - 9 张卡规模 283-353 行/张，src_unknown 47-97 个/张
+  - 任务单要求"拆分为 concept 卡或建立子卡映射"——需逐张读、判断拆分边界、重写或建立映射
+  - 4 张需剥离药柜/医疗内容（finance-legal-business-operations/product-business-strategy/ai-methodology-tools/yitang-methodology-system）
+- 阶段 B 3.3（口述数据标注）+ 3.4（药柜分离）：依赖 3.2
+- 状态：wave3 `claimed-workbuddy`，3.1 完成，3.2/3.3/3.4 待续
 
 ---
 
