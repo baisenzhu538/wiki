@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：Kimi 负责兰毅泛产品组织化；WorkBuddy 负责 wave3 已 pending_review + 第八批 dk 清零；Hermes 负责 wave4 素材准备 + 10 张 case + 1 张 dk section 标准化；黄药师已完成渠道增长域遗留清理；队列锁已上线"
+active_task: "综合安排（2026-06-28）：欧阳锋完成兰毅泛产品组织化 12 张卡终审；WorkBuddy 负责 wave3 已 pending_review + 第八批 dk 清零；Hermes 负责 wave4 素材准备；渠道增长域遗留清理 P1 已拆分给老顽童；队列锁已上线"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -9,6 +9,7 @@ blockers:
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "✅ 欧阳锋完成渠道增长域 25 张卡终审（2026-06-28）：25/25 通过，`kdo pre-submit` 抽查 6/6 通过；P0 framework、跨域桥接公式、案例数字标注、工具可执行性均达标；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已知遗留：13 张 case 卡缺 lint 标准 section（全局 case section 债务）、1 张 dk 卡在 `30_wiki/dk/` 目录需移到 `dark-knowledges/`、1 张 concept 卡在 `frameworks/` 目录需移到 `concepts/`，已记录不阻塞 wave1"
+  - "✅ 欧阳锋完成兰毅泛产品组织化 12 张卡终审（2026-06-28）：12/12 通过，`kdo pre-submit` 全量通过，4 张 P0 卡自攻击报告 status: fixed；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；审查中修复 3 张 case 卡 section 标题（关键证据/可迁移场景/教训/失败模式）、5 个文件目录移动（dk→dark-knowledges/，concept→concepts/，3 个 framework 从 concepts/→frameworks/）；全库 lint ERROR 从 618 降至 557"
   - "🆕 王语嫣已写渠道增长域遗留问题清理任务单（2026-06-28）：`60_feedback/tasks/task_20260628_wangyuyan-cleanup-channel-growth-residuals.md`，含 13 张 case section 标准化 + dk/concept 目录对齐；已入 `production-queue.md` 队列第 10 项，状态 queued，P2 优先级；已分配给黄药师执行"
   - "🆕 人员调整更新（2026-06-28）：Kimi 老顽童临时实例不关闭，继续负责兰毅泛产品组织化任务；Hermes 老顽童已领取 wave4（P2 清理）+ 新任务 `task_20260628_laowantong-case-section-standardization`（10 张 case section 标准化 + 1 张 dk section 结构调整）；WorkBuddy 老顽童 wave3 已完成并 pending_review，继续第八批 dk 清零；黄药师已完成渠道增长域遗留清理"
   - "🆕 wave3 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave3.md`，14 张卡待欧阳锋终审；wave3 reviewed 后将解锁 wave4 正式生产"
