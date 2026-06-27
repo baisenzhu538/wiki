@@ -73,23 +73,23 @@ diagnostic_signals:
 
 原图为三栏矩阵式信息图，标题为「常见模型武器库：从简单到深入 / 已提炼、整理，可按问题难度调用」。
 
-- src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 基础模型（简单）
+  - 清单：列举要素，保证不遗漏
+  - 排序表：按优先级/权重排序
+  - 对比矩阵：多维度横向对比
+  - 分类树：按层级分类信息
 
-- src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 进阶模型（更难）
+  - 雷达图：多维度可视化评分
+  - 冰山图：表象→结构→本质分层
+  - 流程图：步骤与决策节点
+  - 矩阵图：二维定位（如重要-紧急）
 
-- src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 深度模型（最难）
+  - 因果链：变量间的因果关系
+  - 系统图：反馈回路与延迟效应
+  - 本质公式：1-4 个关键词概括
+  - 范式迁移：跨领域模型借用
 
 底部补充了多种图形示意：花瓣图、字母图、卡牌等。整体强调**模型难度与问题难度匹配**。
 

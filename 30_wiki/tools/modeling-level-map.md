@@ -121,16 +121,15 @@ diagnostic_signals:
 
 ### 步骤 2：确定当前段位
 
-- src_unknown
-- src_unknown
+- 取自评分数最低的段位作为"当前瓶颈段位"（不是最高分段位）
+- 确认该段位是否有 10+ 案例支撑（无案例 = 未稳定，不能算到达该段位）
 
 ### 步骤 3：制定提升计划
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 聚焦当前瓶颈段位，设定 3-6 个月的具体里程碑（如"L3：每月写 1 个 SOP，3 个月共 3 个"）
+- 指定 owner 和复盘节奏（如每月自评一次，季度团队 heatmap 一次）
+- 预设跃迁信号（如"L3 SOP 执行率 ≥90% 持续 3 个月 → 可尝试 L4 抽象建模"）
+- 每次跃迁前确认案例数量达标（L3→L4 需 10+ SOP 案例，L4→L5 需 10+ 跨场景模型调用记录）
 
 ---
 
@@ -205,20 +204,20 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [ ] 已对照 L1-L6 六段位逐条自评（0-10 分），找到当前瓶颈段位
+- [ ] 瓶颈段位有 10+ 案例支撑（无案例 = 未稳定，不算到达）
+- [ ] 已设定 3-6 个月的具体里程碑（如"每月写 1 个 SOP"而非"提升建模能力"）
+- [ ] 已指定 owner 和复盘节奏（每月自评、季度团队 heatmap）
+- [ ] 已预设跃迁信号（如"执行率 ≥90% 持续 3 个月 → 可尝试下一段位"）
+- [ ] 段位图仅用于自评/团队诊断，未作为个人 KPI 考核依据
 
 ---
 
 ## 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[modeling-capability-system]]（高阶建模能力体系——本卡段位图是其能力分级的工具）
+- [[modeling-three-stages]]（建模三段论——三阶段对应 L3-L5 段位）
+- [[modeling-weapon-library]]（模型武器库——L4 抽象建模的选型工具）
 
 ---
 
@@ -236,13 +235,13 @@ diagnostic_signals:
 
 ### 原始素材
 
-- src_unknown
+- `10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`（段位图原始文档）
+- `10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`（培训笔记，段位定义）
+- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`（培训口述逐字稿）
 
 ### 归档 source
 
-- src_unknown
-- src_unknown
-- src_unknown
+- `00_inbox/` 下对应素材已归档至 `10_raw/sources/`（详见上方三项）
 
 ---
 

@@ -38,6 +38,7 @@ updated: 2026-06-27
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 欧阳锋终审通过：25/25 卡 status 更新为 reviewed；遗留 case section / dk 目录 / concept 目录债务已记录 |
 | task_20260627-lanyi-panproduct-organization | 兰毅泛产品组织化 + 泛产品设计域升级（按规律执行，完成刻意练习域后按序领取） | queued | 老顽童（Kimi） | P0-P1 | task_20260627_laowantong-lanyi-panproduct-organization.md |
+| task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理 | queued | 待定 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | case section 标准化 + dk/concept 目录对齐；不阻塞入库 |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
