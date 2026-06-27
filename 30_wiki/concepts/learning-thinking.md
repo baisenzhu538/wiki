@@ -36,7 +36,7 @@ md` > 条目数：10 **Ling·复盘大师提示词** Role: 项目复盘 Profile 
 
 ## Source Refs
 
-- `src_20260522_0af1f6dd` -> `10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md`
+- 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md`
 
 ## Reusable Knowledge
 

@@ -37,7 +37,7 @@ md` > 条目数：15 **Lisa同学·资深财务分析师提示词** 您是一位
 
 ## Source Refs
 
-- `src_20260522_9d98d526` -> `10_raw/sources/src_20260522_9d98d526-business-analysis.md`
+- 10_raw/sources/src_20260522_9d98d526-business-analysis.md`
 
 ## Reusable Knowledge
 

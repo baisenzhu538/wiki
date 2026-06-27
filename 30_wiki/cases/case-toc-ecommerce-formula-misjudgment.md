@@ -227,9 +227,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ## 验证与参考
 
-- 逐字稿：`10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
-- 口述稿：`10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md`
-- 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md`
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
 
 ---
 

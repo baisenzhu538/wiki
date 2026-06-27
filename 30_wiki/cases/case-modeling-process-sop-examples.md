@@ -158,8 +158,8 @@ Truman 在口述中强调，这些案例的共性不是"行业相同"，而是**
 
 ## 来源
 
-- `10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`（OCR 识别出 10 个学员 SOP 案例）
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:250-3534`（流程建模段位、SOP 加锁、张阳主播 SOP 等口述内容）
+- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`（OCR 识别出 10 个学员 SOP 案例）
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:250-3534`（流程建模段位、SOP 加锁、张阳主播 SOP 等口述内容）
 
 ---
 

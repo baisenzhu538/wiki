@@ -36,7 +36,7 @@ edu](https://aima.
 
 ## Source Refs
 
-- `src_20260522_a8e05d98` -> `10_raw/sources/src_20260522_a8e05d98-aima-ai思维卡-外部链接归档.md`
+- 10_raw/sources/src_20260522_a8e05d98-aima-ai思维卡-外部链接归档.md`
 
 ## Reusable Knowledge
 

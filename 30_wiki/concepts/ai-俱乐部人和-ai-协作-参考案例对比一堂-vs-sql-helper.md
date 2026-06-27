@@ -41,7 +41,7 @@ png > 提取方式：PaddleOCR (JS/ONNX) + 人工校对 > 分享者：纪浩 | �
 
 ## Source Refs
 
-- `src_20260609_dade3353` -> `10_raw/sources/src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md`
+- 10_raw/sources/src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md`
 
 ## Reusable Knowledge
 

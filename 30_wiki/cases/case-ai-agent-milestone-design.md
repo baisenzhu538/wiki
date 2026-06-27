@@ -249,7 +249,7 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 
 ## Sources
 
-- `00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:2608-2814`
+- 00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:2608-2814`
 
 ---
 

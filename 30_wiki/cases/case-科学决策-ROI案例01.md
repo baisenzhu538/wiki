@@ -28,9 +28,9 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- **原图位置**：`00_inbox/_vlm_reprocess/_batch_科学决策/一堂-科学决策-ROI决策评估画布-案例01.png`
+- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-ROI决策评估画布-案例01.png`
 - **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例01.md`
-- **VLM 描述**：`00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md`
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md`
 - **叙事完整度评分**：4/5（VLM 提供标题与五维框架；OCR 提供具体收益/成本项与攻击者视角；缺少原始财务数字与教学口述细节）
 - **独立成卡理由**：展示了 ROI 画布在大型市场活动决策中的五维应用，含明确的机会成本与时间窗口约束。
 

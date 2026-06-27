@@ -115,7 +115,7 @@ diagnostic_signals:
 
 ## Sources
 
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3332-3356`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3332-3356`
 
 ## Constraints & Boundaries
 

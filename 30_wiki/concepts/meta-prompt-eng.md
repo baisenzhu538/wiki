@@ -37,7 +37,7 @@ md` > 条目数：5 你是一个智能助理，你需要帮用户结构化提取
 
 ## Source Refs
 
-- `src_20260522_a89ab860` -> `10_raw/sources/src_20260522_a89ab860-meta-prompt-eng.md`
+- 10_raw/sources/src_20260522_a89ab860-meta-prompt-eng.md`
 
 ## Reusable Knowledge
 

@@ -38,8 +38,8 @@ related:
 
 ## Source Refs
 
-- `src_20260503_52ae08ba` -> `10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md`
-- 关联版本: `src_20260501_58b6edef` -> `10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md`
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md`
+- 10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md`
 
 ## Reusable Knowledge
 

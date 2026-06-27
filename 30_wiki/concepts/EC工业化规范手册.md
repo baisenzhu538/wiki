@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- `src_20260503_dadc7838` -> `10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md`
+- 10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md`
 
 ## Reusable Knowledge
 

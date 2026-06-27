@@ -1,0 +1,29 @@
+扫描文件数: 2103
+总 wikilink 数: 37126
+死链数: 10
+死链率: 0.03%
+涉及文件数: 4
+======================================================================
+
+死链最多的 20 个文件：
+  index: 5 个死链
+    - [[test]] -> 目标不存在: test
+    - [[wikilink]] -> 目标不存在: wikilink
+    - [[concept-yt-entrepreneur-key-hypotheses]] -> 目标不存在: concept-yt-entrepreneur-key-hypotheses
+    - [[concept-yt-entrepreneur-lean-validation]] -> 目标不存在: concept-yt-entrepreneur-lean-validation
+    - [[concepts/bad/link.md]] -> 目标不存在: link
+  case-lean-zhanglei-hypothesis-validation: 2 个死链
+    - [[concept-yt-entrepreneur-lean-validation]] -> 目标不存在: concept-yt-entrepreneur-lean-validation
+    - [[concept-yt-entrepreneur-key-hypotheses]] -> 目标不存在: concept-yt-entrepreneur-key-hypotheses
+  plan_20260621_domain-index-infrastructure: 2 个死链
+    - [[check-source-refs.py]] -> 目标不存在: check-source-refs.py
+    - [[track-production-progress.py]] -> 目标不存在: track-production-progress.py
+  _test_backslash: 1 个死链
+    - [[concepts\bad\link.md]] -> 目标不存在: concepts\bad\link
+
+index.md 死链详情（共 5 个）：
+  - [[test]] -> test
+  - [[wikilink]] -> wikilink
+  - [[concept-yt-entrepreneur-key-hypotheses]] -> concept-yt-entrepreneur-key-hypotheses
+  - [[concept-yt-entrepreneur-lean-validation]] -> concept-yt-entrepreneur-lean-validation
+  - [[concepts/bad/link.md]] -> link

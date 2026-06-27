@@ -37,7 +37,7 @@ md` > 条目数：8 **张同学·招聘JD提示词** 你是一个优秀的招聘
 
 ## Source Refs
 
-- `src_20260522_404f58a2` -> `10_raw/sources/src_20260522_404f58a2-product-ux.md`
+- 10_raw/sources/src_20260522_404f58a2-product-ux.md`
 
 ## Reusable Knowledge
 

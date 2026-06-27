@@ -165,9 +165,9 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 ## Sources
 
-- `10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-开播准备-图-02.png`
-- `src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-开播准备-图-02.png`
+- 10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 
 ---
 

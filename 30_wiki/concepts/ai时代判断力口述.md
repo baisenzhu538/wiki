@@ -37,7 +37,7 @@ related:
 
 ## Source Refs
 
-- `src_20260525_6748cc27` -> `10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md`
+- 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md`
 
 ## Reusable Knowledge
 

@@ -61,12 +61,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.85]**: 平台选择应优先匹配题材偏好，而非只看分成比例。女频甜宠/都市逆袭更适合抖音/红果，男频爽文更适合快手，悬疑/古装更适合腾讯视频。——依据：`src_20260613_500dbed8-platform-policy-comparison.md:11-14`（平台政策对比原图表格）。
-- **C2 [conf=0.85]**: 短视频平台（抖音/红果、快手）新人友好度更高，投稿门槛低、分成灵活，适合个人创作者或小团队首试。——依据：`src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
-- **C3 [conf=0.8]**: 长视频平台（腾讯、爱奇艺、优酷、芒果）更依赖会员分账和定制合作，适合有成熟制作能力或已有爆款经验的团队。——依据：`src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
-- **C4 [conf=0.8]**: 同一剧本需要根据目标平台调整钩子密度、集数、时长和台词风格，不能一稿多投。——依据：`src_20260613_12d63c1c-notes.md:117-133`（平台适配检查清单）。
-- **C5 [conf=0.75]**: 平台政策变化快（题材审核、分账比例、投稿入口），创作者需要建立"每季度复核"机制。——推断：`src_20260613_500dbed8-platform-policy-comparison.md:11-14` + 行业常识。
-- **C6 [conf=0.75]**: 该对比表可转化为 AI prompt 模板，用于生成平台适配版剧本策划或投稿方案。——依据：`src_20260613_12d63c1c-notes.md:128-133`。
+- **C1 [conf=0.85]**: 平台选择应优先匹配题材偏好，而非只看分成比例。女频甜宠/都市逆袭更适合抖音/红果，男频爽文更适合快手，悬疑/古装更适合腾讯视频。——依据：10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`（平台政策对比原图表格）。
+- **C2 [conf=0.85]**: 短视频平台（抖音/红果、快手）新人友好度更高，投稿门槛低、分成灵活，适合个人创作者或小团队首试。——依据：10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
+- **C3 [conf=0.8]**: 长视频平台（腾讯、爱奇艺、优酷、芒果）更依赖会员分账和定制合作，适合有成熟制作能力或已有爆款经验的团队。——依据：10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
+- **C4 [conf=0.8]**: 同一剧本需要根据目标平台调整钩子密度、集数、时长和台词风格，不能一稿多投。——依据：10_raw/sources/src_20260613_12d63c1c-notes.md:117-133`（平台适配检查清单）。
+- **C5 [conf=0.75]**: 平台政策变化快（题材审核、分账比例、投稿入口），创作者需要建立"每季度复核"机制。——推断：10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14` + 行业常识。
+- **C6 [conf=0.75]**: 该对比表可转化为 AI prompt 模板，用于生成平台适配版剧本策划或投稿方案。——依据：10_raw/sources/src_20260613_12d63c1c-notes.md:128-133`。
 
 ---
 
@@ -175,17 +175,17 @@ diagnostic_signals:
 
 ### 原始素材
 
-- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.png` — 原始平台政策对比表图片
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.png` — 原始平台政策对比表图片
 - `00_inbox/AI短剧创作/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.json` — OCR 结构化 JSON（含表格单元格与置信度）
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.md` — OCR 识别文本
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.md` — OCR 识别文本
 
 ### 归档 source
 
-- `src_20260613_500dbed8-platform-policy-comparison.md:11-14` — 归档后的平台政策对比表摘要
+- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14` — 归档后的平台政策对比表摘要
 
 ### 加工 source
 
-- `src_20260613_12d63c1c-notes.md:117-133` — 平台适配检查清单与 Prompt 模板
+- 10_raw/sources/src_20260613_12d63c1c-notes.md:117-133` — 平台适配检查清单与 Prompt 模板
 
 > 注：平台政策变化快，投稿前请以各平台官方最新公告为准。本表仅反映代俊隆培训时所呈现的即时信息。
 

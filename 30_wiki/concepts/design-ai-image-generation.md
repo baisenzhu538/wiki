@@ -38,7 +38,7 @@ com/zh-CN/nano-banana-pro-prompts
 
 ## Source Refs
 
-- `src_20260522_38173b48` -> `10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md`
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md`
 
 ## Reusable Knowledge
 

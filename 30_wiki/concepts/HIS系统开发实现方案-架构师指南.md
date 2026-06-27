@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- `src_20260503_1a1f0312` -> `10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md`
+- 10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md`
 
 ## Reusable Knowledge
 

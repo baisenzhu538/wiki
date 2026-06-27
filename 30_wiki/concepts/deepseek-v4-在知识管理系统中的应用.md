@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- `src_20260505_7766e197` -> `10_raw/sources/src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用.md`
+- 10_raw/sources/src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用.md`
 
 ## Reusable Knowledge
 

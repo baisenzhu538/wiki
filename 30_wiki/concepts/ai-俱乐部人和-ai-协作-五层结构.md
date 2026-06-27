@@ -41,7 +41,7 @@ png > 提取方式：PaddleOCR (JS/ONNX) + 人工校对 > 分享者：纪浩 人
 
 ## Source Refs
 
-- `src_20260609_8e64b361` -> `10_raw/sources/src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构.md`
+- 10_raw/sources/src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构.md`
 
 ## Reusable Knowledge
 

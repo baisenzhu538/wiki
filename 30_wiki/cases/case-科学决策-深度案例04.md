@@ -28,9 +28,9 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- **原图位置**：`00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-深度-案例04.png`
+- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-深度-案例04.png`
 - **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例04.md`
-- **VLM 描述**：`00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md`
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md`
 - **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
 - **独立成卡理由**：展示了团队福利决策中时间成本与生活方式价值的权衡。
 

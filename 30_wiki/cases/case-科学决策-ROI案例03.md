@@ -28,9 +28,9 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- **原图位置**：`00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-ROI决策评估画布-案例03.png`
+- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-ROI决策评估画布-案例03.png`
 - **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例03.md`
-- **VLM 描述**：`00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md`
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md`
 - **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
 - **独立成卡理由**：展示了自建体系低成本启动中的隐性成本识别。
 

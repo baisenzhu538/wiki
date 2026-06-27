@@ -5,7 +5,7 @@ id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
 source_refs:
-  - "10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md"
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md"
 status: enriched
 domain:
 - yitang
@@ -214,7 +214,7 @@ diagnostic_signals:
 
 ## Sources
 
-- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1148-1218`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1148-1218`
 
 ---
 

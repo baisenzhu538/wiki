@@ -10,7 +10,7 @@ trust_level: medium
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{30}_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_30_vlm_desc.md
 related:
   - '[[tool-泛产品落地-解放思想]]'
   - '[[framework-strategy-five-basics]]'

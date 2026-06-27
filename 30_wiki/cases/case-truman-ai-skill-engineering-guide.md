@@ -237,7 +237,7 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 
 ## Sources
 
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
 
 ---
 

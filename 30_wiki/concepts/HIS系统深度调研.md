@@ -37,7 +37,7 @@ related:
 
 ## Source Refs
 
-- `src_20260503_968e0210` -> `10_raw/sources/src_20260503_968e0210-HIS系统深度调研.md`
+- 10_raw/sources/src_20260503_968e0210-HIS系统深度调研.md`
 
 ## Reusable Knowledge
 

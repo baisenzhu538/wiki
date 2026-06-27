@@ -105,7 +105,7 @@ edges:
 - [ ] Build graph index (JSON/GraphML format)
 - [ ] Define edge semantics (enables, requires, contradicts, derives-from)
 - [ ] Integrate with `kdo query` command: graph traversal + vector search hybrid
-- [ ] Visualize graph in `30_wiki/index.md` (replace static Mermaid with dynamic graph)
+- 00_inbox/调研专题/node_modules/paddleocr/dist/index.cjs` (replace static Mermaid with dynamic graph)
 
 ---
 

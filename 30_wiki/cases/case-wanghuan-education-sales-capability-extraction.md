@@ -11,11 +11,11 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- "10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt"
-- "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- "10_raw/sources/src_20260619_fd84eda0_wanghuan_PACED框架_图_01.md"
-- "10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
+- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt"
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
+- 10_raw/sources/src_20260619_fd84eda0_wanghuan_PACED框架_图_01.md"
+- 10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
 domain:
 - human-ai-collaboration
 - ai-collaboration

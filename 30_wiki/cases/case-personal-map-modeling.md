@@ -242,8 +242,8 @@ Truman 发挥最大价值：**一直没认怂**，不断说“不行，明天接
 
 ## Sources
 
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1432-1747`
-- `10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-案例-个人地图-图-01.png`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1432-1747`
+- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-案例-个人地图-图-01.png`
 
 ---
 

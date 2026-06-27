@@ -170,7 +170,7 @@ Truman 把一堂比喻成一家"做菜"的公司，与 [[dk-modeling-course-rnd-
 
 ## Sources
 
-- `00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:3624-3730`
+- 00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:3624-3730`
 
 ---
 

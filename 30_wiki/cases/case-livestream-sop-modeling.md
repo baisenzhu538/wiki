@@ -228,9 +228,9 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 
 ## Sources
 
-- `10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:428-446、760-776`
-- `src_20260614_623cfbfd-高阶建模-流程建模.md`
+- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:428-446、760-776`
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
 
 ---
 

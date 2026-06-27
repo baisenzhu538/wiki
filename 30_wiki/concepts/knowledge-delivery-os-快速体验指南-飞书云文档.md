@@ -84,7 +84,7 @@ related:
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Source Refs
 
-- `src_20260501_6a491b80` -> `10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md`
+- 10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md`
 
 ## Open Questions
 

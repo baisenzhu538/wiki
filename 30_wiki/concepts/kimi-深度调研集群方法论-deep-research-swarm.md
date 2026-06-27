@@ -103,7 +103,7 @@ related:
 
 ## Source Refs
 
-- `src_20260502_7d7c1b7c` -> `10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
+- 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
 
 ## Open Questions
 

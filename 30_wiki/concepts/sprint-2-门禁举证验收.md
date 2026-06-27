@@ -34,7 +34,7 @@ KDO 管线的 ingest → enrich → gate 三阶段需要端到端验证。
 
 ## Source Refs
 
-- `src_20260510_9e98a292` -> `10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md`
+- 10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md`
 
 ## Reusable Knowledge
 

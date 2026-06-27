@@ -65,7 +65,7 @@ AI Native 不是”会用很多AI工具”，而是”遇到信息获取、思�
 
 ## Source Refs
 
-- `src_20260524_3cadf228` -> `10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md`
+- 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md`
 
 ## Reusable Knowledge
 
