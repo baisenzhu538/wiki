@@ -27,7 +27,7 @@ updated: 2026-06-27
 1. **查路由**：本域是否已有同主题卡片？→ `kdo cards --domain <domain>`。本素材是否需要外部交叉验证？→ 查下方「调研 Skill 路由」表，Read 对应 Skill 文件。
 2. **WebSearch**：本域核心框架在国际上有没有通行标准？名称是否与国际术语冲突？（如 BRM = Business Relationship Management ≠ 冉鹏的战略框架缩写）——搜完再写，不搜不写。
 3. **全量素材消费检查**：每张卡生产前，列出该卡对应的全部原始素材（VLM/OCR/逐字稿），逐条确认每段关键信息已被卡片使用。素材里有数字但卡里没数字 → 还没写完。素材里有 Critique/Synthesis/Action Triggers 但卡里没有 → 还没写完。
-4. **自攻击预留**：本批卡完成后，调用 `Read 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照 SKILL.md 流程执行四路攻击。
+4. **自攻击预留**：本批卡完成后，调用 `Read 30_wiki/frameworks/framework-kdo-self-attack.md` 和 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照四路攻击流程执行。
 
 > **如果前四步没做就开始写卡 → 老顽童本批交付无效。** 欧阳锋审查时第一步就查这个。
 
@@ -138,7 +138,7 @@ updated: 2026-06-27
 5. 新域素材第一步：扫描图片→OCR→读文本。搜索不能只靠文件名，要全文搜主题词。
 6. 产新卡后通知黄药师跑 `kdo index --rebuild`（你不要自己跑——全库扫描会阻塞）。
 7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
-8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`）——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
+8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`），方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
 9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
 10. **🆕 pre-submit 强制门禁（2026-06-27 欧阳锋裁定）：任何文件提交前必须跑 `kdo pre-submit -f <文件>` 并贴输出，未附者王语嫣直接退回。**
 

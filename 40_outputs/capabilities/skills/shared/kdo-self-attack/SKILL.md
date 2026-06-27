@@ -1,4 +1,4 @@
-﻿---
+---
 name: kdo-self-attack
 description: KDO知识自攻击——用对抗Agent主动找出知识卡片的弱点，在用户发现之前自我修复
 version: 1.0.0
@@ -153,10 +153,11 @@ Agent/老顽童 读取攻击报告
 
 自攻击和其他反馈的区别：**不等人发现问题——Agent 主动找问题。**
 
-## 相关 Skill
+## 相关 Skill / 框架
 
-| Skill | 关系 |
+| Skill / 框架 | 关系 |
 |:--|:--|
+| `[[framework-kdo-self-attack]]` | 本 Skill 的正式知识库框架卡——方法定义、操作流程、失败模式 |
 | `/research-sats` | SATs Devil's Advocacy 在知识域的应用 |
 | `/ai-collaboration-gan` | GAN 三角色——本 Skill 的架构原型 |
 | `/demand-analysis-synthetic` | 合成调研——同样的"对抗+交叉验证"逻辑，应用于需求假设 |

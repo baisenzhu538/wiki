@@ -34,6 +34,7 @@ related:
 ## Pre-Phase：生产者自攻击（Producer Pre-Review）
 
 > 欧阳锋开始审查之前，生产者必须先跑自攻击。欧阳锋看到的不是裸卡，是"卡 + 攻击报告 + 修复记录"。
+> 自攻击的完整方法见 `[[framework-kdo-self-attack]]`。
 
 ### P.1 必选前置条件
 
