@@ -24,23 +24,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求蔓延——MVP不够M，在伪需求上堆叠功能
     follow_up_question: "去掉最近新增的3个功能，核心需求还能验证吗？如果能，说明是蔓延。"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求蔓延——用户用假设功能作为付费条件，但可能加了也不付
     follow_up_question: "用户愿意为现有功能付费吗？如果不愿意，新增功能可能不是真需求。"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求蔓延——团队假设用户需求，未验证
     follow_up_question: "这个'必须'有数据支撑吗？多少用户因为缺少这个功能而流失？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求蔓延——功能多≠价值大，核心功能被淹没
     follow_up_question: "用户实际使用最多的功能是什么？占总使用量的比例？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求蔓延——只加不减，产品臃肿
     follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
 
----# 需求蔓延：从MVP到全功能的陷阱
+---
+# 需求蔓延：从MVP到全功能的陷阱
 
 > 一堂五步法：最大的危险不是没功能，而是在伪需求上无限膨胀，淹没核心功能。
 

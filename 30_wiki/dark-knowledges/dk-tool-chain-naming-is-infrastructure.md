@@ -1,8 +1,7 @@
 ---
-
 id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -13,16 +12,16 @@ source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
 source_refs: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 bridges_to:
 - src_unknown
 - src_unknown
@@ -34,13 +33,13 @@ review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 命名超出正则
   follow_up_question: 这个命名能否被当前工具链的正则/解析器唯一识别？如果不能，是否需要改名或改规则？
-- src_unknown
+- signal: src_unknown
   framework_lens: 命名边界不一致
   follow_up_question: 失效卡片的命名是否与有效卡片存在字符长度、分隔符、编码差异？
-- src_unknown
+- signal: src_unknown
   framework_lens: 人眼与机器解析不一致
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？
 ---# 命名不规范会让整条工具链"失明"

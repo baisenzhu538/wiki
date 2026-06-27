@@ -37,13 +37,13 @@ review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 工具当答案
   follow_up_question: 如果把这个工具生成的结果全部删掉，你还能不能独立说出核心判断和依据？
-- src_unknown
+- signal: src_unknown
   framework_lens: 形式替代实质
   follow_up_question: 过去一周，这个框架有没有帮你提出一个你原本不会提的问题？
-- src_unknown
+- signal: src_unknown
   framework_lens: 答案压迫提问
   follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？
 ---# 把工具/框架当成答案，而不是提问的脚手架

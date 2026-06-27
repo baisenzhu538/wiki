@@ -31,16 +31,16 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 同一个 `status` 字段名被两个独立状态机共用：wiki 页面用编译进度状态机，decision.yaml 用审批流程状态机
   follow_up_question: 先确认文件类型：若是 `.md` 则 `enriched/superseded` 合法；若是 `decision.yaml` 则属违规。是否在 schema 注释中显式声明了双状态机？
-- src_unknown
+- signal: src_unknown
   framework_lens: 脚本把单一状态语义硬编码到所有文件类型，没有区分 frontmatter 与 decision 文件的状态机
   follow_up_question: 把脚本改为按文件类型分支；为两种状态机分别定义枚举常量；为过滤逻辑补单元测试，覆盖 enriched、superseded、stable、needs-review 等边界值
-- src_unknown
+- signal: src_unknown
   framework_lens: 这是归因偏差：把设计冲突（两个状态机共用字段名）误判为执行松懈（schema 写了但没严格执行）
   follow_up_question: 重新审视系统中是否真的只有一个状态机；若存在两条流水线，必须拆分字段名或在 schema 中显式保留双枚举并注明适用范围
-- src_unknown
+- signal: src_unknown
   framework_lens: 外部集成未被告知 `status` 字段的双重语义，按单一枚举解析必然报错
   follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）
 ---# C-2：Schema status 字段混用两个状态机→字段值互相污染

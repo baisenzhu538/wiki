@@ -1,8 +1,7 @@
 ---
-
 id: dk-yb19-visual-strategy-price-match
 title: 餐饮图片视觉策略与价格定位的匹配法则
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -17,14 +16,14 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown

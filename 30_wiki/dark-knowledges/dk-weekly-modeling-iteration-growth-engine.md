@@ -21,13 +21,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
     follow_up_question: 如果明天预算砍掉一半，还有哪些增长指标不会随之崩塌？
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 交付即训练视角：外部 deadline 是建模能力的反拖延机制
     follow_up_question: 如果取消本周交付，我们会失去哪一次建模迭代机会？
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 能力资产视角：每次交付的副产品应是可复用的模型资产
     follow_up_question: 这次交付产出的哪个模型可以进入下一轮迭代的起点？
 author: 老顽童

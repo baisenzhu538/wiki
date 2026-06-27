@@ -19,16 +19,16 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 解释性本质 vs 预测性本质
     follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 可证伪性与预测力
     follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 决策可推导性
     follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
@@ -55,7 +55,8 @@ tags:
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
----# “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
+---
+# “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 
 ## 原始表述
 

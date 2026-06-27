@@ -26,23 +26,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 过早细化——在验证前投入大量资源完善产品
     follow_up_question: "产品开发前，你用什么方法验证了内核假设？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 过早细化——追求完美，忽视验证
     follow_up_question: "如果砍掉一半功能，核心需求还能验证吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 过早细化——关注细节，忽视核心
     follow_up_question: "用户选择你们，是因为细节完美，还是因为核心功能解决了问题？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 过早细化——竞品驱动，未验证自身需求
     follow_up_question: "竞品的这些功能，用户真的在用吗？你的用户有同样的需求吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 过早细化——在错误的时间关注错误的事情
     follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
 
----# 过早细化陷阱：在验证前追求完美
+---
+# 过早细化陷阱：在验证前追求完美
 
 > 一堂五步法：最大的浪费不是做错了，而是在验证前把错误的事情做到极致。
 

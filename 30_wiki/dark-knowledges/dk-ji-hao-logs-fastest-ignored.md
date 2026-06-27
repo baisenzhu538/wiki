@@ -30,13 +30,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 日志层被忽视
   follow_up_question: 我是否已经把日志当作一个需要主动设计和维护的层，而不是AI自动生成的副产品？
-- src_unknown
+- signal: src_unknown
   lens: 事实基座缺失
   follow_up_question: 我是否记录了足够的提示词、上下文、模型版本和中间输出，以便事后复盘？
-- src_unknown
+- signal: src_unknown
   lens: 日志失控
   follow_up_question: 我是否定期审查日志结构、清理噪声，并建立命名/归档规范？
 ---

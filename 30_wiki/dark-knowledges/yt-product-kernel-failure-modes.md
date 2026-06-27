@@ -25,23 +25,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 产品内核失败模式——需求假设错误
     follow_up_question: "产品开发前，需求验证了吗？用户真的需要这个解决方案吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 产品内核失败模式——内核不清晰
     follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？用户能说出来吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 产品内核失败模式——差异化不足或用户不感知
     follow_up_question: "用户选择竞品的原因是什么？你们的好，用户感知到了吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 产品内核失败模式——内核未迭代
     follow_up_question: "市场变化后，内核调整了吗？还是一直在用初始内核？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 产品内核失败模式——团队对内核无共识
     follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
 
----# 产品内核失败的5种模式
+---
+# 产品内核失败的5种模式
 
 > 一堂五步法：产品内核失败不是偶然，而是有模式。识别模式，避免踩坑。
 

@@ -31,13 +31,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 信号簇幻觉
   follow_up_question: 这N个信号是否来自同一底层趋势？如果去掉重复计数的信号，还剩几个独立证据？
-- src_unknown
+- signal: src_unknown
   framework_lens: 共识压迫感
   follow_up_question: 假设18个月后这个方向失败，最可能的原因是什么？有没有"信号亮起但项目失败"的历史案例？
-- src_unknown
+- signal: src_unknown
   framework_lens: 时效性衰减
   follow_up_question: 这个信号的有效期还有多久？哪些关键变量可能在3个月内推翻它？
 ---

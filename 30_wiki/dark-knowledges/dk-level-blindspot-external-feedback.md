@@ -36,16 +36,16 @@ review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 邓宁-克鲁格效应——低能力者缺乏评估自己能力的元认知
   follow_up_question: 你能说出 3 个比你高 2 个段位的具体打法吗？如果不能，你对段位的认知还停在模糊图像阶段。
-- src_unknown
+- signal: src_unknown
   framework_lens: 回音壁校准——内部互评只会强化群体盲区
   follow_up_question: 最近一次外部专家/客户/同行给你的核心技能打分是什么时候？得分是多少？
-- src_unknown
+- signal: src_unknown
   framework_lens: 自反馈平台期——初期的快速进步来自"知道自己不知道什么"，之后缺少新的外部刺激
   follow_up_question: 你最近一次感到"原来还能这样"的瞬间是什么时候？如果超过 3 个月没有，你已经进入了自反馈平台期。
-- src_unknown
+- signal: src_unknown
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
 ---

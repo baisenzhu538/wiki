@@ -1,9 +1,7 @@
 ---
-
-
 id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -16,17 +14,17 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -37,16 +35,16 @@ reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 逻辑洁癖——看到 L1/L2 低水平逻辑必须生理不适
   follow_up_question: 能否把它压到 L3（分优先级）或 L4（MECE）？如果重要，能不能推到 L5（逻辑链）？
-- src_unknown
+- signal: src_unknown
   framework_lens: 模型停在 L2/L3，缺少 L4/L5 的完备性和逻辑链
   follow_up_question: 请团队指出哪些条目缺了、哪些条目之间有因果关系；如果说不出来，退回重构。
-- src_unknown
+- signal: src_unknown
   framework_lens: AI 能生成 L2/L3，但 L4/L5 需要人的逻辑洁癖把关
   follow_up_question: 用"MECE 检查 + 反例攻击"各过一遍，找出 AI 遗漏的 3 个以上场景。
-- src_unknown
+- signal: src_unknown
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。
 ---# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑

@@ -68,10 +68,10 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 知识萃取"两头大中间空"——中间层建模缺失
   follow_up_question: 如果新成员入职，除了SOP和价值观，他能否拿到一张图或一个段位标准来判断自己处于什么水平？
-- src_unknown
+- signal: src_unknown
   framework_lens: A流派（知识付费派）商品属性凌驾于可迁移性
   follow_up_question: 这个结论是出自单人单案例，还是从大量案例中抽象出的共性解法？换到我的场景中是否还成立？
 ---

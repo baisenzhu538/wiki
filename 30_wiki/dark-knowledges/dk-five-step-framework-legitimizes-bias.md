@@ -37,16 +37,16 @@ review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 确认偏误放大——框架被用作"证明已知结论"的工具，而非"发现未知答案"的工具
   follow_up_question: 这一轮分析中，有哪一步让你对原有假设产生了怀疑？如果没有，你可能只是在给直觉穿西装。
-- src_unknown
+- signal: src_unknown
   framework_lens: 群体确认偏误——快速一致不是分析充分，而是所有人都陷入了同一个盲区
   follow_up_question: 指定某人扮演"魔鬼代言人"，强制用一个反例或一组对立数据攻击当前结论。
-- src_unknown
+- signal: src_unknown
   framework_lens: '"框完成"≠"框验证"——填满动作无法替代数据溯源'
   follow_up_question: 在每个框的数字旁边加一个标注：这个数据从哪来？有多可信？如果错了后果是什么？
-- src_unknown
+- signal: src_unknown
   framework_lens: 学习信号缺失——真正的科学方法会不断推翻旧假设，稳定的结论往往是方法论停滞的信号
   follow_up_question: 上一次你团队用五步法得出和预期相反的结论是什么时候？如果从不发生，方法论可能已经沦为仪式。
 ---

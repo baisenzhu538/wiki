@@ -1,8 +1,7 @@
 ---
-
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -29,15 +28,16 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: '这是跨语言文本匹配中的"词典-语料语言不一致"故障：英文 bigram/keyword 对中文语料天然无覆盖'
-  follow_up_question: '检查 tag-registry 中对应维度的 includes 是否包含中文关键词；若匹配率为 0，立即禁用 pre-screen 或切换为 LLM/Embedding 预筛'
-- src_unknown
-  framework_lens: '症状随语言切换而变化，说明匹配规则带有英语中心主义偏见，不是内容质量问题'
-  follow_up_question: '分别用中英两种语料的 chunk 做匹配实验；若只有英文命中，确认需要双语词典或语言无关的匹配策略'
-- src_unknown
-  framework_lens: '自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外'
-  follow_up_question: '在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding'
+- signal: src_unknown
+  framework_lens: 这是跨语言文本匹配中的"词典-语料语言不一致"故障：英文 bigram/keyword 对中文语料天然无覆盖
+  follow_up_question: 检查 tag-registry 中对应维度的 includes 是否包含中文关键词；若匹配率为 0，立即禁用 pre-screen
+    或切换为 LLM/Embedding 预筛
+- signal: src_unknown
+  framework_lens: 症状随语言切换而变化，说明匹配规则带有英语中心主义偏见，不是内容质量问题
+  follow_up_question: 分别用中英两种语料的 chunk 做匹配实验；若只有英文命中，确认需要双语词典或语言无关的匹配策略
+- signal: src_unknown
+  framework_lens: 自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外
+  follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding
 ---# P-20：pre-screen bigram 匹配对中文文本完全失效
 
 ## 原始表述

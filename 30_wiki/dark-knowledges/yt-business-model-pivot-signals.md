@@ -25,23 +25,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 商业模式转型信号——单元模型不成立是转型信号
     follow_up_question: "你的单元模型不成立多久了？优化过哪些变量？是否该考虑转型？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 商业模式转型信号——市场变化需要重新评估商业模式
     follow_up_question: "市场变化后，你的商业模式是否还成立？核心竞争力是否还在？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 商业模式转型信号——尝试所有方法都不行，说明方向可能错误
     follow_up_question: "你尝试的方法是否都在同一个方向？是否该考虑完全不同的方向？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 商业模式转型信号——内核验证失败需要转型
     follow_up_question: "你的内核验证失败了吗？失败的原因是什么？转型方向是什么？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 商业模式转型信号——团队信心是转型的重要信号
     follow_up_question: "团队为什么失去信心？是对产品、市场、还是商业模式失去信心？"
 
----# 商业模式转型信号：何时该 pivot
+---
+# 商业模式转型信号：何时该 pivot
 
 > 一堂五步法：转型不是失败，而是学习后的调整。识别转型信号，及时转型，比坚持错误方向更明智。
 

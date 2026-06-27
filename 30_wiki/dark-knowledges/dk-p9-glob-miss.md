@@ -1,7 +1,7 @@
 ---
 id: dk-p9-glob-miss
 title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:

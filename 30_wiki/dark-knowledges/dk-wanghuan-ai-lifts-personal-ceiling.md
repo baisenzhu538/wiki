@@ -30,19 +30,19 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维
   follow_up_question: "这件事能不能拆成'AI执行+你验收'？你负责定义和判断，AI负责执行。"
-- src_unknown
+- signal: src_unknown
   framework_lens: AI拉升个人上限——不只是效率，是能做以前做不到的事
   follow_up_question: "有没有以前完全不敢做的任务，现在可以做了？AI让你跨越了哪些能力边界？"
-- src_unknown
+- signal: src_unknown
   framework_lens: AI拉升个人上限——AI放大的是人的判断力，不是替代判断
   follow_up_question: "你验收了吗？你的验收标准是什么？如果标准不清，AI输出自然不行。"
-- src_unknown
+- signal: src_unknown
   framework_lens: AI拉升个人上限——能力幻觉，把AI输出当成自己的专业能力
   follow_up_question: "关掉AI，你能独立完成吗？人的价值是判断和决策，不是生成。"
-- src_unknown
+- signal: src_unknown
   framework_lens: AI拉升个人上限——竞争力来自把行业暗规则注入AI系统
   follow_up_question: "你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？"
 tags:

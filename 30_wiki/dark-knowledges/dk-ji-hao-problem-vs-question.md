@@ -33,16 +33,17 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: Question 替代 Problem
   follow_up_question: 这件事解决前后，具体场景里的 Before/After 是什么？谁会因为解决而开心？
-- src_unknown
+- signal: src_unknown
   lens: 问题定义前置
   follow_up_question: 这个需求是我想知道/试试（Question），还是每次花 X 时间做 Y（Problem）？
-- src_unknown
+- signal: src_unknown
   lens: 伪需求加速
   follow_up_question: 有没有真实受益人和从头讲到尾的因果链？如果中间靠 AI 自己发挥，链是否断裂？
----# 暗知识：Problem vs Question
+---
+# 暗知识：Problem vs Question
 
 ## 用一句话讲清楚
 

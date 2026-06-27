@@ -34,10 +34,10 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 提示词/约束资产化
   follow_up: '是否已经把"好"的标准写成可检查的约束条目，而非停留在口头评价？'
-- src_unknown
+- signal: src_unknown
   lens: 标准化/可复用中间产物
   follow_up: '是否已经存在一份共享约束文档，并被当作迭代的基线？'
 ---

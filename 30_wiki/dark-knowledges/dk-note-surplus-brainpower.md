@@ -31,10 +31,10 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 基本功未内化导致CPU满载，没有剩余脑力执行高阶操作
   follow_up_question: 在不使用AI辅助的情况下，你能否独立完成一次全程记录且留出30%脑力用于思考？
-- src_unknown
+- signal: src_unknown
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
 ---# “剩余脑力”：高阶笔记的唯一货币与分水岭

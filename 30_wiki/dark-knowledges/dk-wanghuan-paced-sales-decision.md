@@ -1,18 +1,17 @@
 ---
-
-id: "dk-wanghuan-paced-sales-decision"
-title: "暗知识：复制销冠不是复制话术——是还原决策链"
-type: "dark-knowledge"
+id: dk-wanghuan-paced-sales-decision
+title: 暗知识：复制销冠不是复制话术——是还原决策链
+type: dk
 dark_knowledge_type: insight
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 confidence: 0.88
 author: 王语嫣
-difficulty: "intermediate"
-language: "zh-CN"
+difficulty: intermediate
+language: zh-CN
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 review_date: '2026-06-19'
@@ -22,35 +21,35 @@ source_refs:
 - src_unknown
 - src_unknown
 source_person: 王欢
-source_context: '王欢 AI 实战分享（2026-06-18 授课）"'
+source_context: 王欢 AI 实战分享（2026-06-18 授课）"
 query_triggers: []
 aliases: []
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - src_unknown
-    lens: "工具升级但系统未重构"
-    follow_up: "检查是否只是把 AI 塞进旧流程，还是重新设计了工作流与角色"
-  - src_unknown
-    lens: "隐性决策知识未被提取"
-    follow_up: "用 PACED 反向工程关键选择点，区分『说了什么』与『为何在此时说』"
-  - src_unknown
-    lens: "评分维度缺少策略判断"
-    follow_up: "在评分顶层加入策略判断维度，权重高于话术与异议处理"
-  - src_unknown
-    lens: "策略与话术混在同一存储层"
-    follow_up: "建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离"
+- signal: src_unknown
+  lens: 工具升级但系统未重构
+  follow_up: 检查是否只是把 AI 塞进旧流程，还是重新设计了工作流与角色
+- signal: src_unknown
+  lens: 隐性决策知识未被提取
+  follow_up: 用 PACED 反向工程关键选择点，区分『说了什么』与『为何在此时说』
+- signal: src_unknown
+  lens: 评分维度缺少策略判断
+  follow_up: 在评分顶层加入策略判断维度，权重高于话术与异议处理
+- signal: src_unknown
+  lens: 策略与话术混在同一存储层
+  follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 暗知识：复制销冠不是复制话术——是还原决策链

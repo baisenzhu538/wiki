@@ -29,13 +29,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 复杂度假设
   follow_up: 当前任务类型是否超过3种？是否存在多步骤跳转？
-- src_unknown
+- signal: src_unknown
   lens: 流程摩擦
   follow_up: 去掉导诊台后，任务是否仍能被准确分类和定位？
-- src_unknown
+- signal: src_unknown
   lens: 路由能力上限
   follow_up: 是否需要自动化路由或工作流引擎替代人工导诊台？
 ---

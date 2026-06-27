@@ -30,10 +30,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 执行冗余、判断缺失——AI抹平了执行差距，放大了"为什么这样排/配/选"的理论决策差距
   follow_up_question: 你能不借助AI，用版式/配色/字体理论解释为什么某张图"好看"吗？如果不能，AI出的图你也判断不了好坏。
-- src_unknown
+- signal: src_unknown
   framework_lens: 投资错位——在AI抹平执行差距的时代，理论判断力反而升值
   follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？
 ---# AI时代设计师的理论护城河

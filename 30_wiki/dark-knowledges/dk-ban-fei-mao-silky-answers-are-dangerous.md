@@ -37,13 +37,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 生成合理文本 ≠ 事实可靠
   follow_up: '请用具体数据支撑这个结论；若无数据，请明确说"这是推理，缺乏证据"。'
-- src_unknown
+- signal: src_unknown
   lens: 模型对不确定性毫无自觉
   follow_up: '请用条件性表述替代绝对表述，并标注已知限制。'
-- src_unknown
+- signal: src_unknown
   lens: 训练数据存在截止日期
   follow_up: '请标注数据时间范围；若训练数据早于该时间，请明确告知。'
 ---

@@ -30,10 +30,10 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 执行模式
   follow_up_question: '这个任务是否有经过验证的SOP或极高的失败成本？'
-- src_unknown
+- signal: src_unknown
   lens: 计划有效性
   follow_up_question: '计划里的关键假设是否已经在真实场景中做过最小验证？'
 ---

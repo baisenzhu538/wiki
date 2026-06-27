@@ -30,16 +30,17 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 高预期陷阱 / 新手保护期流失
   follow_up_question: '我是否把"第一版"的目标设定为发现问题，而不是产出终稿？'
-- src_unknown
+- signal: src_unknown
   lens: 新手心态红利
   follow_up_question: 我是否还在用旧经验路径约束 AI，而不是让它先给出不受约束的方案？
-- src_unknown
+- signal: src_unknown
   lens: 保护期阈值
   follow_up_question: 我是否已经把任务拆到足够小，并允许每天只比昨天好一点？
----# 暗知识：新手心态的五个保护期
+---
+# 暗知识：新手心态的五个保护期
 
 ## 用一句话讲清楚
 

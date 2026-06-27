@@ -31,19 +31,19 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高
   follow_up_question: "你强制至少3轮迭代了吗？每轮迭代都有明确的验收标准吗？"
-- src_unknown
+- signal: src_unknown
   framework_lens: 输出=标准×迭代——迭代多但标准不提升，输出质量不高
   follow_up_question: "每轮迭代前，你明确验收标准了吗？标准是否在迭代中提升？"
-- src_unknown
+- signal: src_unknown
   framework_lens: 输出=标准×迭代——检查是标准不够还是迭代不够
   follow_up_question: "你的标准维度有几个？迭代次数是多少？两个乘数哪个更低？"
-- src_unknown
+- signal: src_unknown
   framework_lens: 输出=标准×迭代——迭代成本失控，需要设定终止条件
   follow_up_question: "你设定迭代上限了吗？连续两轮无重大问题就应该终止。"
-- src_unknown
+- signal: src_unknown
   framework_lens: 输出=标准×迭代——团队需要统一最低迭代次数和验收标准
   follow_up_question: "团队有统一的最低迭代次数和验收标准吗？"
 tags:

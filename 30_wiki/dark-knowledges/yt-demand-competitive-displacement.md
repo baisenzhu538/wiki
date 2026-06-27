@@ -23,23 +23,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
     follow_up_question: "用户完成这个任务时，除了同类产品，还用过什么方案？Excel？人工？不解决？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求替代陷阱——忽视间接竞争和替代方案
     follow_up_question: "用户现在怎么解决这个问题的？为什么现在的方式不够好？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求替代陷阱——竞品在某个维度上更好
     follow_up_question: "竞品在哪个维度上比你的方案好？是价格、便捷性、还是信任？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求替代陷阱——价格不是唯一决策因素
     follow_up_question: "用户选竞品，除了价格，还考虑了什么？社交、品牌、服务？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
     follow_up_question: "用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。"
 
----# 需求替代陷阱：竞品不是敌人，替代方案才是
+---
+# 需求替代陷阱：竞品不是敌人，替代方案才是
 
 > 一堂五步法：最大的竞争不是同类产品，而是用户现在的替代方案——包括"不解决"。
 

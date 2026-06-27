@@ -23,13 +23,13 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: over-specification
   follow_up: 把 spec 拆成"方向 + 约束 + 验收"，删掉具体执行步骤
-- src_unknown
+- signal: src_unknown
   lens: implicit-freeze
   follow_up: 在文档里显式标注"哪些不能改"，而不是"哪些必须按我说的做"
-- src_unknown
+- signal: src_unknown
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:

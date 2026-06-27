@@ -37,13 +37,13 @@ review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 基本功未内化
   follow_up_question: 成员能否在不看模板的情况下独立完成一次标准清单体记录？错误率是多少？
-- src_unknown
+- signal: src_unknown
   framework_lens: 段位错配
   follow_up_question: 如果去掉这个高阶框架，他还能不能用大白话把问题讲清楚？
-- src_unknown
+- signal: src_unknown
   framework_lens: 外包了思考
   follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？
 ---# 基本功未内化就强上高阶操作——高阶工具失效的头号根因

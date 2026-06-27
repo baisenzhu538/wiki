@@ -54,10 +54,10 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 记录者模式锁定——缺少flag时，人默认进入"你说啥我记啥"的低能耗状态
   follow_up_question: 如果强制要求笔记中30%是自己的东西，你现在能立刻标出哪些内容？
-- src_unknown
+- signal: src_unknown
   framework_lens: 指标表演化——flag从"倒逼思考"退化为"完成指标"
   follow_up_question: 这些"个人观点"如果删掉，是否会影响后续复用？三个月后你还会看吗？
 ---

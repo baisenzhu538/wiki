@@ -29,13 +29,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 结构缺失
   follow_up_question: 我是否已经先定义了输出框架、层级和判断标准？
-- src_unknown
+- signal: src_unknown
   lens: 结构不稳定
   follow_up_question: 我是否把工作空间模板化、导诊台化，让 AI 只负责填充？
-- src_unknown
+- signal: src_unknown
   lens: 协作结构未对齐
   follow_up_question: 是否在开始协作前约定好了统一的结构/字段/输出规范？
 ---

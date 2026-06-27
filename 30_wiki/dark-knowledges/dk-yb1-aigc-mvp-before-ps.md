@@ -30,10 +30,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 肌肉记忆陷阱——传统工具的使用习惯阻碍AIGC工作流落地
   follow_up_question: 最近3次设计任务中，有几次是先收集参考图跑AI验证方向，再打开传统工具的？比例低于1/3说明工作流未转变。
-- src_unknown
+- signal: src_unknown
   framework_lens: 改稿成本错位——方向级问题应该在MVP阶段解决，而非在执行层反复修改
   follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。
 ---# 设计师AIGC工作流：先跑MVP再开PS

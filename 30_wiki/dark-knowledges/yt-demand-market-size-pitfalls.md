@@ -24,23 +24,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 1%陷阱——没有论证为什么能拿到1%
     follow_up_question: "为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 报告迷信——把第三方数据当事实
     follow_up_question: "这份报告是什么时候发布的？样本范围是什么？用的什么估算方法？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: TAM幻觉——把天花板当可触达市场
     follow_up_question: "你的TAM、SAM、SOM分别是多少？今年实际能触达多少用户？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 单一方法偏差——缺乏交叉验证
     follow_up_question: "如果用另一种方法估算，结果差异多大？差异原因是什么？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 静态假设——市场是会变化的
     follow_up_question: "这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？"
 
----# 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
+---
+# 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 
 > 一堂五步法：市场规模估算不是"拍数字"，而是有方法、有逻辑、有交叉验证的结构化过程。
 

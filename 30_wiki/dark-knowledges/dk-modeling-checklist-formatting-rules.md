@@ -1,9 +1,7 @@
 ---
-
-
 id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -16,17 +14,17 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -37,16 +35,16 @@ reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 清单体格式四规则至少一条失效
   follow_up_question: 逐条审计：是否一行一点？超过7条是否分层？决策点是否分级？建模目标是否完备？
-- src_unknown
+- signal: src_unknown
   framework_lens: 信息揉在一起，行动项与责任人未分行
   follow_up_question: 按"换行即分点+决策必分级"重写，把结论、行动项、负责人、截止时间分行列出
-- src_unknown
+- signal: src_unknown
   framework_lens: AI容易生成"有形式无分级/无完备性"的伪清单
   follow_up_question: 人工检查是否有优先级分级、是否MECE、是否每个条目对应一个可执行动作
-- src_unknown
+- signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识
 ---# 清单体写不好，模型就建不好：换行、分层、优先级、完备

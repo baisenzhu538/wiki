@@ -1,8 +1,7 @@
 ---
-
 id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,10 +13,10 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -27,12 +26,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: "脚本把 `### ` 标题当作搜索词，不区分语义；这些词是文章结构标记，不是真实用户搜索意图"
-  follow_up_question: "这条 trigger 是否对应一个真实用户会输入的中文搜索词？如果不会，删除并手动重写"
-- src_unknown
-  framework_lens: "格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger 直接降低卡片可发现性"
-  follow_up_question: "抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工"
+- signal: src_unknown
+  framework_lens: 脚本把 `### ` 标题当作搜索词，不区分语义；这些词是文章结构标记，不是真实用户搜索意图
+  follow_up_question: 这条 trigger 是否对应一个真实用户会输入的中文搜索词？如果不会，删除并手动重写
+- signal: src_unknown
+  framework_lens: 格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger
+    直接降低卡片可发现性
+  follow_up_question: 抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工
 ---# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 
 ## 原始表述/核心洞察

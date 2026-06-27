@@ -1,8 +1,7 @@
 ---
-
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,15 +29,16 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: '大文件编译已耗尽当前 session 的 context window，produce 阶段没有足够 token 填充内容'
-  follow_up_question: '检查源文件大小是否超过 100KB；如是，启动新 session 仅执行 produce，并将编译结果结构化传入'
-- src_unknown
-  framework_lens: '混淆了"骨架生成"与"内容填充完成"两个不同里程碑'
-  follow_up_question: '人工检查 draft 是否有案例、数字、关联说明；如只有标题/模板，则回到新 session 重新 produce'
-- src_unknown
-  framework_lens: 'Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限'
-  follow_up_question: '强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce 填充'
+- signal: src_unknown
+  framework_lens: 大文件编译已耗尽当前 session 的 context window，produce 阶段没有足够 token 填充内容
+  follow_up_question: 检查源文件大小是否超过 100KB；如是，启动新 session 仅执行 produce，并将编译结果结构化传入
+- signal: src_unknown
+  framework_lens: 混淆了"骨架生成"与"内容填充完成"两个不同里程碑
+  follow_up_question: 人工检查 draft 是否有案例、数字、关联说明；如只有标题/模板，则回到新 session 重新 produce
+- signal: src_unknown
+  framework_lens: Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限
+  follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
+    填充
 ---# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 
 ## 原始表述

@@ -28,23 +28,23 @@ related:
   - src_unknown
   - src_unknown
 bridges_to:
-- src_unknown
+- target: src_unknown
   relation: applies_when
   description: 精益验证中把 AI 预测当成最终结论，跳过真实用户验证
-- src_unknown
+- target: src_unknown
   relation: applies_when
   description: 短剧工具一次生成分镜/剧情后不再做情绪曲线校验
-- src_unknown
+- target: src_unknown
   relation: contrasts_with
   description: 笔记格式化只是输入阶段，后续还需复用、对话与迭代
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 分阶段校验视角：输出只是第一阶段，后续必须有验证闭环
   follow_up_question: 这个输出在哪些节点需要人工或真实数据二次确认？
-- src_unknown
+- signal: src_unknown
   framework_lens: 杠杆与判断分离：工具放大杠杆，判断节点必须留在人手里
   follow_up_question: 哪些判断节点被我们错误地外包给了工具？
-- src_unknown
+- signal: src_unknown
   framework_lens: 跨域模式：把工具当一次性生成器的失效是跨域共通的
   follow_up_question: 这个失效模式在其它域是否也有对应案例？
 query_triggers:

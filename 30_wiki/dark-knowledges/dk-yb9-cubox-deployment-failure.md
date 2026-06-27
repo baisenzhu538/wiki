@@ -31,10 +31,10 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 部署≠落地——发账号是最简单的步骤，把工具嵌入工作流才是最难的
   follow_up_question: 团队里有没有一个明确的人负责工具的配置、培训和流程嵌入？如果没有，任何工具都会在两周后闲置。
-- src_unknown
+- signal: src_unknown
   framework_lens: 孤岛采购——各部门独立选型导致协作断裂
   follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？
 ---# Cubox及AI协作工具的团队部署失败模式

@@ -1,8 +1,7 @@
 ---
-
 id: dk-yb30-ecommerce-channel-version
 title: 电商渠道专版区分：淘宝≠拼多多
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,10 +29,10 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 渠道专版被隐藏为统一货源，导致定价策略与供应链版本管理脱钩
   follow_up_question: 各平台销售的产品在材质、配件、包装或售后条款上是否存在未标注的差异？
-- src_unknown
+- signal: src_unknown
   framework_lens: 技术版本命名与渠道版本命名未做隔离，易引发库存、客服与合规混乱
   follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？
 ---# 电商渠道专版区分：淘宝≠拼多多

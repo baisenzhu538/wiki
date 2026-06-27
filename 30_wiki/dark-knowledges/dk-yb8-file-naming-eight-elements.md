@@ -29,10 +29,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 输入侧负债——AI增效的前提是文件可检索、可调用，混乱的输入产生混乱的输出
   follow_up_question: 找一个3个月前的项目素材，需要多长时间？超过30秒说明文件体系需要重建。
-- src_unknown
+- signal: src_unknown
   framework_lens: 标准缺失——没有统一的八要素命名，AI的批处理能力无法发挥
   follow_up_question: 你的团队有统一的文件命名规范吗？随机抽查3个设计师最近的文件名，一致性多高？
 ---# AI增效前置：文件命名八要素体系

@@ -31,10 +31,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 需求分层缺失——80%模板化需求、10%强创意需求、10%弹性缓冲需要完全不同的工具和人力策略
   follow_up_question: 过去一个月的设计需求中，有多少比例是节日海报/朋友圈素材/日常运营物料？这些是否已模板化或AI化？
-- src_unknown
+- signal: src_unknown
   framework_lens: 人力资源错配——高端人才被低端需求消耗
   follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？
 ---# 中国设计需求的80-10-10分层法则

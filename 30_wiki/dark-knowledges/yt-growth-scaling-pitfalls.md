@@ -25,23 +25,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 增长规模化陷阱——增长快≠健康，需要单元模型支撑
     follow_up_question: "你的LTV/CAC是多少？增长是否基于健康的单元模型？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 增长规模化陷阱——规模化可能稀释用户质量
     follow_up_question: "规模化前后的用户LTV对比如何？渠道是否变化？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 增长规模化陷阱——组织能力是增长的瓶颈
     follow_up_question: "你的团队人效是多少？关键岗位是否有人？组织能力是否匹配增长？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 增长规模化陷阱——增长天花板需要突破，不是硬撞
     follow_up_question: "你的增长天花板是什么？市场、产品、还是组织能力？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
     follow_up_question: "别人的增长策略的前提条件是什么？你的条件是否匹配？"
 
----# 增长规模化陷阱
+---
+# 增长规模化陷阱
 
 > 一堂五步法：增长规模化不是简单的放大，而是系统性的挑战。增长快，死得也快。
 

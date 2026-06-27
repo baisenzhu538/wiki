@@ -1,8 +1,7 @@
 ---
-
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -13,16 +12,16 @@ source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 bridges_to:
 - src_unknown
 - src_unknown
@@ -33,13 +32,13 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 工具只有软约束
   follow_up_question: 如果执行者完全跳过这步，工具/系统能否物理上阻止他？
-- src_unknown
+- signal: src_unknown
   framework_lens: 危险操作无二次确认
   follow_up_question: --write 是否需要显式确认目标范围、影响卡数、备份状态？
-- src_unknown
+- signal: src_unknown
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？
 ---# 基础设施工具不能只有检查清单，还必须有硬护栏

@@ -1,8 +1,7 @@
 ---
-
 id: dk-f6-cjk-skeleton-corruption
 title: F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,12 +30,12 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: "regex 的 `\\b` 词边界对 CJK 字符不生效，extractor 在随机位置切分中文，导致摘要不可读"
-  follow_up_question: "不要尝试修复骨架，直接对中文页面执行 Agent 三步编译（浓缩→质疑→对标）并更新 status=enriched"
-- src_unknown
-  framework_lens: "KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug"
-  follow_up_question: "确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006"
+- signal: src_unknown
+  framework_lens: regex 的 `\b` 词边界对 CJK 字符不生效，extractor 在随机位置切分中文，导致摘要不可读
+  follow_up_question: 不要尝试修复骨架，直接对中文页面执行 Agent 三步编译（浓缩→质疑→对标）并更新 status=enriched
+- signal: src_unknown
+  framework_lens: KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug
+  follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006
 ---# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 
 ## 原始表述

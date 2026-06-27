@@ -27,23 +27,23 @@ related:
   - src_unknown
   - src_unknown-three-stages
 bridges_to:
-- src_unknown
+- target: src_unknown
   relation: provides_foundation_for
   description: 精益假设排序依赖模型提出可证伪问题，而不是给出排序答案
-- src_unknown
+- target: src_unknown
   relation: applies_when
   description: 组织把模型结果当成决策终点，忘记模型只是提问工具
-- src_unknown
+- target: src_unknown
   relation: provides_foundation_for
   description: 解释型模型与预测型模型都服务于提出更好的问题
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 模型即问题视角：模型的价值在于暴露假设，而不是提供结论
   follow_up_question: 如果模型是错的，它会带我们问出哪个更有价值的问题？
-- src_unknown
+- signal: src_unknown
   framework_lens: 脚手架视角：模型输出应转化为可验证问题，再进入执行
   follow_up_question: 这个模型输出能拆解成几个必须回答的子问题？
-- src_unknown
+- signal: src_unknown
   framework_lens: 边界视角：模型的有效性取决于问题边界，不能跨边界复用
   follow_up_question: 这个模型在当前场景的边界条件是什么？
 query_triggers:

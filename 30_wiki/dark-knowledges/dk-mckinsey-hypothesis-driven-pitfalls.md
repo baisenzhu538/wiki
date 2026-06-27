@@ -9,7 +9,7 @@ domain:
 - src_unknown
 - src_unknown
 bridges_to:
-- src_unknown
+- target: src_unknown
   relation: warns_against
   description: 假设驱动方法论的黑暗面——这些陷阱在一堂创业课程中被淡化
   context: 一堂课程强调'假设驱动的优势'，但未深度讨论其中的认知陷阱。这张暗知卡补齐这个视角——知道方法论的陷阱才能避免成为方法论的囚徒
@@ -32,7 +32,8 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.85
 trust_level: medium-high
----# 暗知：假设驱动方法论的三个反直觉陷阱
+---
+# 暗知：假设驱动方法论的三个反直觉陷阱
 
 ## 核心本质
 

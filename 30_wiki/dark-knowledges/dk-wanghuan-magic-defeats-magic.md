@@ -21,13 +21,13 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: standard-deficit
   follow_up: 先让 AI 调研行业最佳实践并输出 5-7 条可检查的质量标准，再进入迭代
-- src_unknown
+- signal: src_unknown
   lens: goal-standard-misalignment
   follow_up: 把业务目标转译成"必须满足/绝对不能"的验收标准，而不是审美形容词
-- src_unknown
+- signal: src_unknown
   lens: implicit-standard-drift
   follow_up: 用多模型/多角色对同一标准打分，取交集作为团队共享标准
 related:

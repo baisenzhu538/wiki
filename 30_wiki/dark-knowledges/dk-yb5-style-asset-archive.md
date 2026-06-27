@@ -30,10 +30,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 资产债——AI降本的前提是可结构化的风格资产，没有这个前提，AI反而会放大风格混乱
   follow_up_question: 在引入AI之前，你的历史风格规范文档、PS工程文件、配色/笔触/构图规则是否已整理？如果没有，AI降本是一句空话。
-- src_unknown
+- signal: src_unknown
   framework_lens: 资产复用缺失——不逆向工程历史项目就无法建立可复用的结构体系
   follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。
 ---# AI绘图降本的前提：风格资产工程化归档

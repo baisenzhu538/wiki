@@ -36,13 +36,13 @@ review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 受众错位——Skill 的消费者是 Agent，不是人
   follow_up_question: 拿一条 Skill 出来，让 Agent 纯读这份 Skill 后独立执行一次任务，能跑通吗？不能的话，缺失了什么？
-- src_unknown
+- signal: src_unknown
   framework_lens: 重心倒置——自描述的核心是协议，不是说明
   follow_up_question: 你的 Skill 里有这些吗：输入格式约束、输出格式约束、评分规则、拒绝条件、边界声明？缺了任何一个，Agent 就是在猜。
-- src_unknown
+- signal: src_unknown
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。
 ---# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述

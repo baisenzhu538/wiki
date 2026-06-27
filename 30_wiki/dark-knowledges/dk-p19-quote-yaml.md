@@ -1,8 +1,7 @@
 ---
-
 id: dk-p19-quote-yaml
 title: P-19：花引号被YAML误解析为字符串定界符
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,10 +31,10 @@ review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: YAML 流式解析陷阱
   follow_up_question: 报错的值是否包含 `"内容"=tail` 或 `"内容":tail` 模式？是否最近做过引号统一化？
-- src_unknown
+- signal: src_unknown
   framework_lens: 字符集兼容性/批量替换风险
   follow_up_question: 替换前是否做了 round-trip 校验？含双引号的值是否已用单引号包裹？
 tags:

@@ -33,10 +33,10 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 技术可行性幻觉——把能力可见性误当成需求真实性
   follow_up_question: 如果这个AI功能明天消失，用户会因为失去什么而取消订阅？
-- src_unknown
+- signal: src_unknown
   framework_lens: "新能力\"维度权重过高，\"新行业/新模式\"需求验证被系统性跳过"
   follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
 ---

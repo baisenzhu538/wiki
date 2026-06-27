@@ -25,13 +25,13 @@ source_refs:
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 隐性决策知识未被萃取
   follow_up: 用 PACED/PECED 反向工程关键选择点，区分“说了什么”与“为何此时说”
-- src_unknown
+- signal: src_unknown
   lens: 把 AI 当演员工具而非导演系统
   follow_up: 检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器
-- src_unknown
+- signal: src_unknown
   lens: 个人隐性经验未转化为组织资产
   follow_up: 把专家的“判断链”而非“输出文本”萃取为可模拟、可评分的规则库
 related:

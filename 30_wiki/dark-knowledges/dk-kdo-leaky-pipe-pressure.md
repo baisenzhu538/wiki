@@ -36,16 +36,16 @@ review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 基础链路优先——左腿（基础链路）没站稳，右腿（高级功能）迈出去必摔
   follow_up_question: 先列出当前管线的基础链路指标（broken links 数、source 缺失率、artifact validate 通过率），这些归零之前，高级功能讨论暂停。
-- src_unknown
+- signal: src_unknown
   framework_lens: 在漏水处加压——lint 规则本身依赖不完整数据，规则越严误报越多
   follow_up_question: 暂停新增 lint 规则。先修好导致数据不完整的根源（ingest 跳过、source 缺失、frontmatter 残缺），再评估需要哪些 lint。
-- src_unknown
+- signal: src_unknown
   framework_lens: 绕过根因分析——被跳过说明该环节成本太高或价值不清晰，硬加审批只是把阻力的皮球踢给别人
   follow_up_question: 统计该环节的跳过率和跳过原因。如果是"太慢"，优化自动化；如果是"不知道要做什么"，先做最小可用模板。
-- src_unknown
+- signal: src_unknown
   framework_lens: 政策前置于基建——在没有干净数据的情况下定义标准，如在没有地基的沙地上画建筑图
   follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。
 ---# 暗知识：在漏水的管子上加压

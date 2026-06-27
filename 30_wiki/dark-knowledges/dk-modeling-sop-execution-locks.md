@@ -38,16 +38,16 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: SOP 写出来≠被执行，缺的是检查层而不是执行层自觉性
   follow_up_question: 这个 SOP 有没有一个独立的“检查者”角色？检查者自己是否也有 checklist 和反馈闭环？
-- src_unknown
+- signal: src_unknown
   framework_lens: 单点执行是概率失效，多层检查才能把单点失败变成串联失效
   follow_up_question: 如果执行者今天状态差，督导能否兜底？督导松懈时，品控能否兜底？
-- src_unknown
+- signal: src_unknown
   framework_lens: 问题被错误归因到人的自觉性，而机制设计缺了一层 SOP
   follow_up_question: 除了责备执行者，我们能不能补一个监控 SOP，让检查成为流程本身？
-- src_unknown
+- signal: src_unknown
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？
 ---# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%

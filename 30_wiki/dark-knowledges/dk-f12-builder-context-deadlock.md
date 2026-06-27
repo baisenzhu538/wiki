@@ -1,8 +1,7 @@
 ---
-
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,15 +13,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,15 +31,16 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: "入职规范（CLAUDE.md）要求读取 5+ 个规范文件，加上多任务上下文和被操作文件，总上下文消耗突破 50% 窗口，剩余空间不足以完成推理+输出"
-  follow_up_question: "立即停止当前 session，用 `/new` 重开；将原指令拆成单轮单任务，并删除对 PROTOCOL.md / 工业化手册 / failure-modes.md 的引用"
-- src_unknown
-  framework_lens: "LLM 进入过度分析循环：上下文窗口被规范和任务目标占满，无法有效生成输出，表现为 token 零跳动"
-  follow_up_question: "检查当前上下文消耗比例；若 >50%，强制 `/new` 接力，并在新 session 中只带一个子任务和必要的最小上下文"
-- src_unknown
-  framework_lens: "多轮累积导致上下文碎片化和规范文件重复加载， session 在最后一步被压垮"
-  follow_up_question: "将大任务按文件或按步骤切分，每个子任务用独立 session，通过文件系统传递中间结果"
+- signal: src_unknown
+  framework_lens: 入职规范（CLAUDE.md）要求读取 5+ 个规范文件，加上多任务上下文和被操作文件，总上下文消耗突破 50% 窗口，剩余空间不足以完成推理+输出
+  follow_up_question: 立即停止当前 session，用 `/new` 重开；将原指令拆成单轮单任务，并删除对 PROTOCOL.md / 工业化手册
+    / failure-modes.md 的引用
+- signal: src_unknown
+  framework_lens: LLM 进入过度分析循环：上下文窗口被规范和任务目标占满，无法有效生成输出，表现为 token 零跳动
+  follow_up_question: 检查当前上下文消耗比例；若 >50%，强制 `/new` 接力，并在新 session 中只带一个子任务和必要的最小上下文
+- signal: src_unknown
+  framework_lens: 多轮累积导致上下文碎片化和规范文件重复加载， session 在最后一步被压垮
+  follow_up_question: 将大任务按文件或按步骤切分，每个子任务用独立 session，通过文件系统传递中间结果
 tags:
 - src_unknown
 - src_unknown

@@ -25,23 +25,24 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 做而不信——访谈了，但不相信负面结果
     follow_up_question: "访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 做而不信——验证了，但不尊重结果
     follow_up_question: "如果验证结果不支持假设，你会调整方向吗？还是继续投入？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 做而不信——执行了流程，但不相信流程需要调整
     follow_up_question: "流程执行了，但结果不好，是流程问题还是执行问题？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 做而不信——有数据，但不相信数据
     follow_up_question: "你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？"
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 做而不信——自我认知高于数据
     follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
 
----# "做而不信"陷阱：执行了流程，但不相信结果
+---
+# "做而不信"陷阱：执行了流程，但不相信结果
 
 > 一堂五步法：最大的危险不是不做验证，而是做了验证但不相信结果。
 

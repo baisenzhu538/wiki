@@ -36,16 +36,16 @@ review_date: '2026-06-17'
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 复利差异——一次性任务 vs 可反复调用的模型资产
   follow_up_question: 列出过去 30 天所有 AI 任务，区分一次性/可资产化；把重复出现 3 次以上的任务封装成模型或模板。
-- src_unknown
+- signal: src_unknown
   framework_lens: 经验资产化——建模是把经验压缩成可反复调用的结构
   follow_up_question: 识别团队最高频的 3 个重复场景，用 AI 辅助建一个最小可用模型，并绑定到具体工作流。
-- src_unknown
+- signal: src_unknown
   framework_lens: 杠杆效应——好模型会被反复调用，调用次数决定 ROI
   follow_up_question: 给每个候选模型估算年调用次数和单次价值，用资产化视角比较投入优先级。
-- src_unknown
+- signal: src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。
 ---# AI 加杠杆最大的场景是建模，因为好模型会被反复调用

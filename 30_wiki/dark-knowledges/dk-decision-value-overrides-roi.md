@@ -29,10 +29,11 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
+  - signal: src_unknown
     framework_lens: 价值观权重检测
     follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
----# Y 模型失效场景：当价值观权重超过经济理性时
+---
+# Y 模型失效场景：当价值观权重超过经济理性时
 
 ## 原始表述
 

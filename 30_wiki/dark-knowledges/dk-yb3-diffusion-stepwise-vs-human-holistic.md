@@ -29,10 +29,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 架构局限——扩散模型的逐步去噪与人类"先整体后局部"存在根本差异
   follow_up_question: 你的需求是"控制画面内容"还是"控制画面构图"？后者需要ControlNet/区域提示，不是改prompt。
-- src_unknown
+- signal: src_unknown
   framework_lens: 工具选择错位——问题可能不在提示词质量，而在工具本身的架构局限
   follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。
 ---# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思

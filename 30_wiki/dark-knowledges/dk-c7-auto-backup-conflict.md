@@ -1,8 +1,7 @@
 ---
-
 id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,15 +29,15 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: "Obsidian Git 的 auto-backup 约每 20 分钟触发一次，会提交所有已 staged 的变更"
-  follow_up_question: "检查提交内容是否跨类型混合；若已混合，评估是否需要 `git reset` 或 `git rebase -i` 重新拆分"
-- src_unknown
-  framework_lens: "auto-backup 不识别用户的 commit 拆分意图，只识别 staged 状态"
-  follow_up_question: "下次拆分 commit 时，是否先 stage 一组立即 commit，再处理下一组？"
-- src_unknown
-  framework_lens: "commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效"
-  follow_up_question: "该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？"
+- signal: src_unknown
+  framework_lens: Obsidian Git 的 auto-backup 约每 20 分钟触发一次，会提交所有已 staged 的变更
+  follow_up_question: 检查提交内容是否跨类型混合；若已混合，评估是否需要 `git reset` 或 `git rebase -i` 重新拆分
+- signal: src_unknown
+  framework_lens: auto-backup 不识别用户的 commit 拆分意图，只识别 staged 状态
+  follow_up_question: 下次拆分 commit 时，是否先 stage 一组立即 commit，再处理下一组？
+- signal: src_unknown
+  framework_lens: commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效
+  follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？
 ---# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 
 ## 原始表述 / 核心洞察

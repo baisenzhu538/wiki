@@ -1,9 +1,7 @@
 ---
-
-
 id: dk-modeling-business-visual-logic-match
 title: 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -16,28 +14,28 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 业务逻辑与视觉形态匹配
-    follow_up_question: 如果遮住所有文字，读者能否仅凭图形形态猜出核心逻辑关系？
-  - src_unknown
-    framework_lens: 形态-逻辑映射
-    follow_up_question: 这个业务关系的本质到底是分类、累加、深挖、辩证还是复利？
-  - src_unknown
-    framework_lens: AI 出图人审
-    follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
+- signal: src_unknown
+  framework_lens: 业务逻辑与视觉形态匹配
+  follow_up_question: 如果遮住所有文字，读者能否仅凭图形形态猜出核心逻辑关系？
+- signal: src_unknown
+  framework_lens: 形态-逻辑映射
+  follow_up_question: 这个业务关系的本质到底是分类、累加、深挖、辩证还是复利？
+- signal: src_unknown
+  framework_lens: AI 出图人审
+  follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -47,7 +45,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
----# 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
+---
+# 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
 ## 原始表述
 

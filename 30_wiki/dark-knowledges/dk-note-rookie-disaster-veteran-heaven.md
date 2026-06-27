@@ -39,10 +39,10 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 能力替代幻觉——把AI产出效率误当成个人能力
   follow_up_question: 如果关闭AI，你能不能独立完成同样质量的笔记？
-- src_unknown
+- signal: src_unknown
   framework_lens: 审美未内化——AI提供了形式，但没提供判断
   follow_up_question: 这份笔记里如果只能保留3个要点，你会怎么选？为什么？
 ---# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机

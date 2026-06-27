@@ -32,16 +32,16 @@ reviewed_by: 王语嫣
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: '这是 regex 模式对 CJK 内容静默失败的典型症状：\b 词边界、英文关键词、长度阈值三重排斥同时触发'
   follow_up_question: '检查 ~/.kdo/config.yaml 是否配置了有效 LLM API key；若无，禁止对中文页面使用 enrich，改走 Agent 三步编译（浓缩→质疑→对标）'
-- src_unknown
+- signal: src_unknown
   framework_lens: '可能 LLM 路径未真正启用，或 regex 路径返回空导致 enrich 只更新了 frontmatter/status'
   follow_up_question: '人读输出，确认是否出现“浓缩→质疑→对标”三段加工；如没有，手动重跑 Agent 三步编译并检查日志中的处理路径'
-- src_unknown
+- signal: src_unknown
   framework_lens: '流水线把 exit code 0 当成功信号，静默失败被淹没；CJK 内容在自动化管线中被系统性遗漏'
   follow_up_question: '在脚本中加入 enrich 前后未 enrich 中文页面计数校验，或改用 LLM-based 路径，并将告警接入通知渠道'
-- src_unknown
+- signal: src_unknown
   framework_lens: '脚本复制了 extractors.py 的 \b / 英文 keyword / 长度阈值逻辑，继承了同样的 CJK 盲区'
   follow_up_question: '审查脚本 regex，将 \b 替换为 CJK-aware 分词或改用 LLM/NLP 库；参考 F-KDO-001 防御模式'
 ---# C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败

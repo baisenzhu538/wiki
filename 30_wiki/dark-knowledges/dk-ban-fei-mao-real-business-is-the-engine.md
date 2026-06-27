@@ -29,13 +29,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 真实问题缺失
   follow_up_question: 这个练习是为了完成课程作业，还是为了解决我真实业务中的具体问题？
-- src_unknown
+- signal: src_unknown
   lens: 假需求工具化
   follow_up_question: '这个工具解决的是我的真问题，还是"为了用 AI 而想出来的问题"？'
-- src_unknown
+- signal: src_unknown
   lens: 边界条件错配
   follow_up_question: 我练习时的任务边界、判断标准和真实业务是否一致？
 ---

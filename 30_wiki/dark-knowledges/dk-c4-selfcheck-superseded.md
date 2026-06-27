@@ -1,8 +1,7 @@
 ---
-
 id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,15 +29,16 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: '终态状态被错误地纳入未 enrich 检查：superseded 表示已被替代/废弃，不应参与 enrich 统计'
-  follow_up_question: '检查 `_check_unenriched_wiki` 函数的 skip 集合是否包含 superseded；确认 schema 中终态 status 的完整列表'
-- src_unknown
-  framework_lens: 'skip 集合作为跨函数约定，必须与状态机终态保持同步；复制逻辑会继承缺陷'
-  follow_up_question: '梳理所有读取 status 做过滤/跳过的函数，统一 skip 集合或抽取公共常量；为新增 status 建立同步 checklist'
-- src_unknown
-  framework_lens: '新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因'
-  follow_up_question: '每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合'
+- signal: src_unknown
+  framework_lens: 终态状态被错误地纳入未 enrich 检查：superseded 表示已被替代/废弃，不应参与 enrich 统计
+  follow_up_question: 检查 `_check_unenriched_wiki` 函数的 skip 集合是否包含 superseded；确认 schema
+    中终态 status 的完整列表
+- signal: src_unknown
+  framework_lens: skip 集合作为跨函数约定，必须与状态机终态保持同步；复制逻辑会继承缺陷
+  follow_up_question: 梳理所有读取 status 做过滤/跳过的函数，统一 skip 集合或抽取公共常量；为新增 status 建立同步 checklist
+- signal: src_unknown
+  framework_lens: 新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因
+  follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合
 ---# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 
 ## 原始表述

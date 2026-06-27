@@ -26,10 +26,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 隐喻缺失——技术术语没有转化为可感知的类比
   follow_up_question: 你的解释是否让听众能用自己的话复述一遍？如果不能，换一个更贴近日常经验的隐喻。
-- src_unknown
+- signal: src_unknown
   framework_lens: 推理阶段误解——提示词是"污染清水"而非"精确控制"
   follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。
 ---# 大模型训练本质：浑水→清水→浑水的双向转换

@@ -21,13 +21,13 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: autonomy-illusion
   follow_up: 把人的角色重新定义为“目标 + 验收标准”，而不是彻底退出
-- src_unknown
+- signal: src_unknown
   lens: multi-window-friction
   follow_up: 改用支持多模型聚合的平台，在一个工作区内完成生成-校验闭环
-- src_unknown
+- signal: src_unknown
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
 related:

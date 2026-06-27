@@ -29,23 +29,24 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 边界感缺失——模型被训练成满足用户，而不是在不确定时拒绝
   follow_up_question: '你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？'
-- src_unknown
+- signal: src_unknown
   lens: '低容错场景中的"错误行动"比"不行动"更危险'
   follow_up_question: '如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？'
-- src_unknown
+- signal: src_unknown
   lens: '生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"'
   follow_up_question: 过去一周，你的团队有多少次主动终止或回退了一个 AI 任务，因为判断它不适合做？
-- src_unknown
+- signal: src_unknown
   lens: '过度顺从——把用户满意度凌驾于结果正确性之上'
   follow_up_question: '你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？'
 pipeline:
 - src_unknown
 - src_unknown
 - src_unknown
----# 暗知识：Skill 的最大价值不是生成，是拒绝
+---
+# 暗知识：Skill 的最大价值不是生成，是拒绝
 
 ## 用一句话讲清楚
 

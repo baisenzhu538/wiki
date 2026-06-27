@@ -28,10 +28,10 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 提示词权重稀释——冗余描述竞争注意力权重，关键指令被淹没
   follow_up_question: 在加任何描述词之前，先只用"用最高分辨率重新生成，修改中文文字错误"跑一次。效果好于堆砌版本吗？
-- src_unknown
+- signal: src_unknown
   framework_lens: 工具策略错位——问题不在模型而在提示词的精准度和冗余度
   follow_up_question: 同样的修复目标，在不同模型（MJ/SD/DALL-E）上试过同一句极简提示词吗？
 ---# Midjourney中文文字修复极简提示词

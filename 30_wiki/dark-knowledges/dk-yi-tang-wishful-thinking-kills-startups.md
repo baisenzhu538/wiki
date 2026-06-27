@@ -32,13 +32,13 @@ review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 愿望思维——把情感上的必然当成逻辑上的必然
   follow_up_question: 这是我们自己的愿望，还是已被5个以上真实用户验证过的付费原因？
-- src_unknown
+- signal: src_unknown
   framework_lens: 把功能可行当成商业必然
   follow_up_question: 如果去掉这个技术亮点，用户还会选择我们吗？他们愿意多付多少钱？
-- src_unknown
+- signal: src_unknown
   framework_lens: 把执行力当成验证
   follow_up_question: 在为这个假设全力以赴之前，我们愿意承受的最大验证成本是多少？有没有更小的实验可以证伪它？
 ---

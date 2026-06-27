@@ -30,10 +30,10 @@ review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 副驾驶模式陷阱——把AI当个人效率工具而非组织结构变量
   follow_up_question: 如果去掉AI助手，员工的工作方式会和三个月前一模一样吗？
-- src_unknown
+- signal: src_unknown
   framework_lens: 罗马军团结构幻觉——忽视中层存在的真实原因是人脑带宽不足
   follow_up_question: 谁来确保CEO的意图能被1000人准确执行？是人脑层级还是AI中枢？
 ---# AI原生组织：罗马军团正在被自进化有机体取代

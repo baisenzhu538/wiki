@@ -31,16 +31,16 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 这是 KDO ingest 的"静默跳过"模式：扩展名白名单只包含 `.md`，非 `.md` 文件被设计为不报错、不处理
   follow_up_question: 立即执行 `find 00_inbox -type f ! -name '*.md'` 列出所有非 .md 文件；对 .txt 执行 `cp file.txt file.md` 后重跑 ingest，并再次检查 state.json 计数
-- src_unknown
+- signal: src_unknown
   framework_lens: 批量管线中"返回成功"被脚本视为完成信号，但扩展名白名单过滤导致实质数据未进入处理流程
   follow_up_question: 在脚本里加入"ingest 前后 state.json 计数校验"，若 inbox 中仍有非 .md 文件但 state 计数未增加，则判定为静默跳过并告警
-- src_unknown
+- signal: src_unknown
   framework_lens: 简单改扩展名只是绕过白名单，ingest 后系统仍按 Markdown 规范要求结构化元数据
   follow_up_question: 转换后是否为文件注入了最小 frontmatter（id/type/title/created_at/updated_at/source_refs）？运行 `kdo validate` 是否通过？
-- src_unknown
+- signal: src_unknown
   framework_lens: 这是组织知识沉淀流程中的"格式盲区"：贡献者不知道 KDO ingest 的扩展名白名单，系统也不会主动反馈
   follow_up_question: 是否在 inbox 入口有 CONTRIBUTING/README 说明？是否在 CI/预提交钩子中跑 `find 00_inbox -type f ! -name '*.md'` 并阻塞合并？
 ---

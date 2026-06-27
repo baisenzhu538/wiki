@@ -1,8 +1,7 @@
 ---
-
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -13,16 +12,16 @@ source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
 source_refs: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 bridges_to:
 - src_unknown
 - src_unknown
@@ -33,13 +32,13 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 小错误级联
   follow_up_question: 这个解析/格式错误如果在1000倍数据量下会放大成什么后果？
-- src_unknown
+- signal: src_unknown
   framework_lens: validator 只查格式不查语义
   follow_up_question: validator 是否检查了内容质量，还是只检查了标题/字段存在？
-- src_unknown
+- signal: src_unknown
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？
 ---# 小格式错误在批量系统中引发级联失效

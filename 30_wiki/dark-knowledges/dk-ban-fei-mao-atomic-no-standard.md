@@ -30,13 +30,14 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   lens: 原子化粒度
   follow_up: 这个文档是否能被单独理解、单独用、单独更新？
-- src_unknown
+- signal: src_unknown
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
----# 暗知识：原子化没有固定标准
+---
+# 暗知识：原子化没有固定标准
 
 ## 用一句话讲清楚
 

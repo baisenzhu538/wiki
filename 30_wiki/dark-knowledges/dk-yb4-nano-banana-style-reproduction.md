@@ -29,10 +29,10 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 模型匹配盲区——"新=好"不适用于细分场景
   follow_up_question: 你的任务在"风格稳定性"和"通用能力"之间更偏哪个？前者可能老模型更优，后者用最新模型。
-- src_unknown
+- signal: src_unknown
   framework_lens: 模型选择错位——稳定复现特定风格不是所有模型的强项
   follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。
 ---# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o

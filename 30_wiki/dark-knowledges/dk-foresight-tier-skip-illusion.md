@@ -36,10 +36,10 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
+- signal: src_unknown
   framework_lens: 跳级幻觉
   follow_up_question: 在讨论第7级之前，团队能否先明确说出当前处于第几级、下一个质变点是什么？
-- src_unknown
+- signal: src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
 ---

@@ -31,16 +31,17 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-  framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
-  follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
-- src_unknown
-  framework_lens: 'YAML 的缩进、引号、列表标记 `-`、多行字符串规则被忽略，结构已损坏但文件看起来仍像合法 YAML'
-  follow_up_question: '立即用 `git diff` 检查变更，对异常文件做 round-trip 校验（读取→dump→比对）确认结构是否一致'
-- src_unknown
-  framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
-  follow_up_question: '批量修改前是否输出到临时目录并抽检 3-5 个文件的列表、字典、多行字符串是否完好？'
----# F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
+  - signal: src_unknown
+    framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
+    follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
+  - signal: src_unknown
+    framework_lens: 'YAML 的缩进、引号、列表标记 `-`、多行字符串规则被忽略，结构已损坏但文件看起来仍像合法 YAML'
+    follow_up_question: '立即用 `git diff` 检查变更，对异常文件做 round-trip 校验（读取→dump→比对）确认结构是否一致'
+  - signal: src_unknown
+    framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
+    follow_up_question: ''
+---
+# F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 
 ## 原始表述/核心洞察
 
