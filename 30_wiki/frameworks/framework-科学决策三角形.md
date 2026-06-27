@@ -14,7 +14,7 @@ domain:
 - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-决策三角形.png
+- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
   - '[[concept-稀缺机会窗口]]'
   - '[[tool-ROI决策评估画布]]'

@@ -14,7 +14,7 @@ domain:
 - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-学练用.png
+- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-学练用.md
 related:
   - '[[truman-ai-partner-design-analysis]]'

@@ -14,7 +14,7 @@ domain:
 - yitang
 source_refs:
 - 00_inbox/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单商圈模型.png
+- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单商圈模型.md
 related:
   - '[[tool-单元模型-象限分析法]]'
