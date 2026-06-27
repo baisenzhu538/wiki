@@ -289,6 +289,7 @@ related:
 | domain | yitang, growth, b2b |
 | confidence | 0.78 |
 | trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`, `truman-渠道探索方法论-案例-云电脑-渠道扫描.png`, `truman-渠道探索方法论-案例-云电脑-渠道选择.png` |
 
 **内容要求**：
 - 60+ 渠道扫描 → 矩阵模型 → 联想等标准化渠道
@@ -296,11 +297,135 @@ related:
 - 渠道特性维度应用
 - related ≥ 5
 
+#### 2.14 `case-yitang-topcity-growth-flywheel`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：Top City 如何用六大要素搭建内容-商户双端飞轮 |
+| domain | yitang, growth, strategy |
+| confidence | 0.78 |
+| trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city.png`, `truman-渠道增长飞轮-口述.txt` |
+
+**内容要求**：
+- 六大要素：高质量社区消费内容、C端用户、B端商户、收入、社交算法、推荐算法
+- 因果链：内容 → 用户 → 商户/广告 → 收入 → 更优算法 → 更好内容
+- 与亚马逊飞轮对比：双边平台 vs 单边规模经济
+- related ≥ 5
+
+#### 2.15 `case-yitang-redburger-selection-industrialization`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：熊猫现烤汉堡如何用工业化流程破解选品难题 |
+| domain | yitang, growth, operations |
+| confidence | 0.80 |
+| trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`, `truman-渠道工业化生产-案例-汉堡难点.png` |
+
+**内容要求**：
+- 背景：新式汉堡连锁，每 1.5 个月需上新 3-4 款，选品靠经验失败率高
+- 关键数字：基准值每 1000 次购买 200 次（20% 转化率参考）
+- 工作流：建立选品池 → 行业信息/大会/报告/美团 → 内部头脑风暴 → 初筛 → 测试 → 上架/淘汰
+- 三大难点：竞争与差异化平衡、标准化与地域化平衡、缺乏数据验证
+- related ≥ 5
+
+#### 2.16 `case-yitang-lianjia-site-selection-industrialization`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：链家如何用 IBM 咨询实现选址工业化 |
+| domain | yitang, growth, operations |
+| confidence | 0.82 |
+| trust_level | medium-high |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt` |
+
+**内容要求**：
+- 背景：早期 200-300 家门店按板块由区域经理就近选址，成功率低
+- 关键决策：2008 年投入全年利润 5000 万购买 IBM 咨询，启动科学化管理转型
+- 工作流：建楼盘字典 → 拆分市场（供需/绩优度 25 宫格） → 选区域 → 选板块 → 选点位
+- 关键数字：年选 100-200 个址，资源集中在 20-30% 重点区域
+- related ≥ 5
+
+#### 2.17 `case-yitang-yitu-lead-industrialization`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索 |
+| domain | yitang, growth, b2b |
+| confidence | 0.82 |
+| trust_level | medium-high |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`, `truman-渠道工业化生产-案例-益涂-线索模型.png` |
+
+**内容要求**：
+- 背景：工程涂料 To B 销售周期长，海量线索难筛选
+- 关键数字：10万+（各大平台） → 4000+（市场部初筛） → 500（销售电话） → 100（见面） → 20（精选）
+- 工作流：零级数据源 → 壹级初筛 → 贰级电话 → 叁级见面 → S 级精选
+- related ≥ 5
+
+#### 2.18 `case-yitang-xujian-invoice-saas-channel`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手 |
+| domain | yitang, growth, b2b, saas |
+| confidence | 0.80 |
+| trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt` |
+
+**内容要求**：
+- 背景：为生活服务商家提供开票服务，行业前三
+- 关键洞察：「懂发票」不是必要条件，「发票能直接提升其本业效率」才是
+- 渠道演变：100+ 方向 → 酒水/米面/跑腿/消防/代账/美团 BD 等被否 → 百望金融/支付公司/收银软件公司通过
+- 关键决策：第一波找 IT 化程度高、已有用户信任、本身就在做发票的渠道合作
+- related ≥ 5
+
+#### 2.19 `case-yitang-shuzu-channel-scan-test`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：数族如何扫描 100+ 渠道并跑通支付合作 |
+| domain | yitang, growth, b2b, fintech |
+| confidence | 0.78 |
+| trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`, `truman-渠道探索方法论-案例-数族-渠道扫描.png`, `truman-渠道探索方法论-案例-数族-渠道测试.png` |
+
+**内容要求**：
+- 背景：面向中小商户的支付/金融服务
+- 关键数字：团队头脑风暴 + 朋友推荐想出不下 100 种方向
+- 工作流：100+ 方向 → 9 个候选 → 预判/测试 → 3 个通过（百望金融、支付公司、收银软件公司）
+- 失败渠道原因：对商家没有把控力、利润太低、不会演示产品、同意的量比较小、稳定性差
+- related ≥ 5
+
+#### 2.20 `case-yitang-yitang-self-growth-channel`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：一堂自身如何三年增长十倍 |
+| domain | yitang, growth |
+| confidence | 0.80 |
+| trust_level | medium-high |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`, `truman-渠道探索方法论-案例-一堂-渠道探索分析图.png` |
+
+**内容要求**：
+- 背景：2021 年以来新用户增长规模涨近十倍
+- 三阶段映射：模式测试期 → 增长早期 → 快速增长期
+- 渠道清单：知乎、公众号、抖音、小红书、私域、KOL 推广等测试结果标注
+- 关键洞察：几乎以每周为单位提假设、做实验、复盘认知
+- related ≥ 5
+
 ---
 
 ### P2：索引与暗知识（2 张）
 
-#### 2.14 `tool-yitang-industry-channel-arsenal-index`
+#### 2.21 `tool-yitang-industry-channel-arsenal-index`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -318,7 +443,7 @@ related:
 - 给出使用说明：如何结合自身业务迁移
 - related ≥ 5
 
-#### 2.15 `dk-yitang-channel-exploration-traps`
+#### 2.22 `dk-yitang-channel-exploration-traps`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -340,7 +465,7 @@ related:
 
 > 追加依据：`diag_20260627_wangyuyan-cross-domain-bridge-supplement`
 
-#### 2.16 `framework-yitang-channel-unit-economics`
+#### 2.23 `framework-yitang-channel-unit-economics`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -364,7 +489,7 @@ related:
 - Critique：归因模型局限（last-touch 偏差）、渠道间相互 cannibalization、短期回收与长期品牌投入的冲突；
 - related ≥ 7：`framework-yitang-channel-exploration-4step`, `yt-unit-model-concept`, `yt-unit-model-overview`, `tool-区分获客渠道计算单元roi`, `framework-yitang-growth-flywheel`, `tool-yitang-channel-scoring-matrix`, `case-yitang-maiyi-cloud-computer-channel`。
 
-#### 2.17 `concept-yitang-channel-lean-validation-bridge`
+#### 2.24 `concept-yitang-channel-lean-validation-bridge`
 
 | 字段 | 要求 |
 |:---|:---|

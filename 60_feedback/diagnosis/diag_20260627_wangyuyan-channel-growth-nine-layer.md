@@ -197,9 +197,16 @@ related:
 
 - **亚马逊飞轮**：用户体验 → 流量 → 卖家 → 选品 → 规模经济 → 更低价格 → 更好体验
 - **小说 app 飞轮**：流量 → 下载 → 用户 → 创作者 → 内容 → SEO 流量
+- **Top City 飞轮**：高质量社区内容 → C端用户 → B端商户 → 收入 → 算法推荐 → 更优内容
 - **一堂做课工业化**：10 环节流程使 NPS 稳定在 80+
+- **汉堡选品工业化**：建立选品池 → 初筛 → 测试 → 上架/淘汰
+- **链家选址工业化**：楼盘字典 → 二十五宫格 → 重点区域 → 精准点位
+- **益涂线索工业化**：10万+ 线索 → 4000+ 初筛 → 500 电话 → 100 见面 → 20 精选
 - **固体红牛**：加油站渠道 → 司机群体 → 网吧/台球厅复制
+- **徐建发票 SaaS**：100+ 方向 → 9 候选 → 3 个通过（百望金融/支付公司/收银软件公司）
 - **马毅云电脑**：60+ 渠道扫描 → 矩阵模型 → 年营收 3.7 亿
+- **数族渠道扫描/测试**：100+ 方向 → 预判/测试 → 跑通支付合作
+- **一堂自身增长**：2021 年以来新用户规模涨近十倍，三阶段渠道探索
 
 ### 8.2 反例 / 边界
 
@@ -229,15 +236,22 @@ related:
 | `tool-yitang-referral-channel-optimization` | tool | 客户介绍动力/触点/阻力分析 3 张 |
 | `tool-yitang-channel-industrialization-node-design` | tool | 工业化生产节点类型 + 一堂做课流程 |
 
-### 9.3 P1 案例（4-5 张）
+### 9.3 P1 案例（11-12 张）
 
 | 卡片 ID | 类型 | 内容来源 |
 |:---|:---:|:---|
 | `case-yitang-amazon-growth-flywheel` | case | 亚马逊增长飞轮图 |
 | `case-yitang-novel-app-flywheel` | case | 小说 app 飞轮案例 |
+| `case-yitang-topcity-growth-flywheel` | case | Top City 增长飞轮图 |
 | `case-yitang-yitang-course-industrialization` | case | 一堂做课工业化 |
+| `case-yitang-redburger-selection-industrialization` | case | 熊猫现烤汉堡选品工业化 |
+| `case-yitang-lianjia-site-selection-industrialization` | case | 链家选址工业化 |
+| `case-yitang-yitu-lead-industrialization` | case | 益涂销售线索工业化 |
 | `case-yitang-solid-redbull-channel` | case | 固体红牛渠道探索 |
+| `case-yitang-xujian-invoice-saas-channel` | case | 徐建发票 SaaS 渠道探索 |
 | `case-yitang-maiyi-cloud-computer-channel` | case | 马毅云电脑渠道扫描 |
+| `case-yitang-shuzu-channel-scan-test` | case | 数族渠道扫描与测试 |
+| `case-yitang-yitang-self-growth-channel` | case | 一堂自身渠道增长探索 |
 
 ### 9.4 P2 索引与暗知识（2 张）
 
@@ -246,7 +260,7 @@ related:
 | `tool-yitang-industry-channel-arsenal-index` | tool | 24 张案例武器库 |
 | `dk-yitang-channel-exploration-traps` | dk | 反案例 + 常见坑 |
 
-### 9.5 总产出：约 14-15 张卡
+### 9.5 总产出：约 21-22 张卡
 
 ---
 
