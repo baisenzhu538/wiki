@@ -29,7 +29,7 @@ related:
 | 优先级 | P1 |
 | 质量负责人 | 王语嫣（CLI） |
 | 生产方 | Hermes 老顽童 |
-| 预计产出 | 16-17 张卡（含 2 张跨域桥接卡） |
+| 预计产出 | 23-24 张卡（含 2 张跨域桥接卡） |
 
 ---
 
@@ -67,10 +67,11 @@ related:
 - 四步法：列要素 → 找因果 → 测闭环 → 狂拉动
 - 亚马逊飞轮五层逻辑：表象层 → 因果链 → 核心价值 → 模式壁垒 → 启动点
 - 小说 app 飞轮案例：流量 → 下载 → 用户 → 创作者 → 内容 → SEO 流量
+- Top City 飞轮案例：高质量社区内容 → C端用户 → B端商户 → 收入 → 算法推荐 → 更优内容
 - When NOT to Use：业务价值未验证、要素间无真实因果关系、资源不足以推动飞轮
 - 失败模式：强行画圈、要素过多、忽视启动点、飞轮与业务脱节
 - Critique：系统动力学视角、线性增长论者、资源约束论者
-- related ≥ 5：链回 `framework-yitang-channel-exploration-4step`、`framework-yitang-channel-industrialization`、`case-yitang-amazon-growth-flywheel`、`case-yitang-novel-app-flywheel`、`tool-yitang-growth-flywheel-design`
+- related ≥ 5：链回 `framework-yitang-channel-exploration-4step`、`framework-yitang-channel-industrialization`、`case-yitang-amazon-growth-flywheel`、`case-yitang-novel-app-flywheel`、`case-yitang-topcity-growth-flywheel`、`tool-yitang-growth-flywheel-design`
 
 #### 2.2 `framework-yitang-channel-industrialization`
 
@@ -90,6 +91,9 @@ related:
 - 五步法：定目标 → 建节点 → 做加法 → 做减法 → 迭代优化
 - 节点类型：门槛节点、检查节点、评审节点、动手节点
 - 一堂做课案例：10 个环节，通过率 50%→95%，NPS 80+
+- 汉堡选品工业化案例：陈先敏/熊猫现烤汉堡，建立选品池 → 初筛 → 测试 → 上架/淘汰
+- 链家选址工业化案例：楼盘字典 → 二十五宫格 → 重点区域 → 精准点位
+- 益涂线索工业化案例：10万+线索 → 4000+初筛 → 500电话 → 100见面 → 20精选
 - When NOT to Use：一次性项目、高度标准化工作、创意需完全自由发挥
 - 失败模式：把 SOP 当工业化、流程过 rigid、忽视人的创造力
 - related ≥ 5
@@ -113,7 +117,7 @@ related:
   - 测试：低成本验证，拿数据说话
   - 建模：持续化、工业化，延长渠道生命周期
 - 核心洞察：可持续获客是项目生存标志，比商业模式验证更重要
-- 四案例映射：固体红牛、徐建发票 SaaS、马毅云电脑、一堂自身增长
+- 七案例映射：固体红牛、徐建发票 SaaS、马毅云电脑、一堂自身增长、数族渠道扫描/测试、云电脑渠道扫描/选择、Top City 飞轮
 - When NOT to Use：产品价值未验证、无基本资源、团队无测试能力
 - 失败模式：依赖手感、跳过扫描预判、单渠道依赖、混淆人事
 - related ≥ 5
