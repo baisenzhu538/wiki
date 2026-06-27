@@ -37,7 +37,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
----# “剩余脑力”：高阶笔记的唯一货币与分水岭
+---
+# “剩余脑力”：高阶笔记的唯一货币与分水岭
 
 ## 原始表述
 
