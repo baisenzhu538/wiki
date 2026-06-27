@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
 type: dk
@@ -11,36 +10,35 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂商业模式系列课——转型信号
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 商业模式转型信号——单元模型不成立是转型信号
-    follow_up_question: "你的单元模型不成立多久了？优化过哪些变量？是否该考虑转型？"
-  - signal: src_unknown
-    framework_lens: 商业模式转型信号——市场变化需要重新评估商业模式
-    follow_up_question: "市场变化后，你的商业模式是否还成立？核心竞争力是否还在？"
-  - signal: src_unknown
-    framework_lens: 商业模式转型信号——尝试所有方法都不行，说明方向可能错误
-    follow_up_question: "你尝试的方法是否都在同一个方向？是否该考虑完全不同的方向？"
-  - signal: src_unknown
-    framework_lens: 商业模式转型信号——内核验证失败需要转型
-    follow_up_question: "你的内核验证失败了吗？失败的原因是什么？转型方向是什么？"
-  - signal: src_unknown
-    framework_lens: 商业模式转型信号——团队信心是转型的重要信号
-    follow_up_question: "团队为什么失去信心？是对产品、市场、还是商业模式失去信心？"
-
+- signal: src_unknown
+  framework_lens: 商业模式转型信号——单元模型不成立是转型信号
+  follow_up_question: 你的单元模型不成立多久了？优化过哪些变量？是否该考虑转型？
+- signal: src_unknown
+  framework_lens: 商业模式转型信号——市场变化需要重新评估商业模式
+  follow_up_question: 市场变化后，你的商业模式是否还成立？核心竞争力是否还在？
+- signal: src_unknown
+  framework_lens: 商业模式转型信号——尝试所有方法都不行，说明方向可能错误
+  follow_up_question: 你尝试的方法是否都在同一个方向？是否该考虑完全不同的方向？
+- signal: src_unknown
+  framework_lens: 商业模式转型信号——内核验证失败需要转型
+  follow_up_question: 你的内核验证失败了吗？失败的原因是什么？转型方向是什么？
+- signal: src_unknown
+  framework_lens: 商业模式转型信号——团队信心是转型的重要信号
+  follow_up_question: 团队为什么失去信心？是对产品、市场、还是商业模式失去信心？
 ---
 # 商业模式转型信号：何时该 pivot
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
 type: dk
@@ -11,36 +10,35 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——"做而不信"陷阱
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 做而不信——访谈了，但不相信负面结果
-    follow_up_question: "访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？"
-  - signal: src_unknown
-    framework_lens: 做而不信——验证了，但不尊重结果
-    follow_up_question: "如果验证结果不支持假设，你会调整方向吗？还是继续投入？"
-  - signal: src_unknown
-    framework_lens: 做而不信——执行了流程，但不相信流程需要调整
-    follow_up_question: "流程执行了，但结果不好，是流程问题还是执行问题？"
-  - signal: src_unknown
-    framework_lens: 做而不信——有数据，但不相信数据
-    follow_up_question: "你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？"
-  - signal: src_unknown
-    framework_lens: 做而不信——自我认知高于数据
-    follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
-
+- signal: src_unknown
+  framework_lens: 做而不信——访谈了，但不相信负面结果
+  follow_up_question: 访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？
+- signal: src_unknown
+  framework_lens: 做而不信——验证了，但不尊重结果
+  follow_up_question: 如果验证结果不支持假设，你会调整方向吗？还是继续投入？
+- signal: src_unknown
+  framework_lens: 做而不信——执行了流程，但不相信流程需要调整
+  follow_up_question: 流程执行了，但结果不好，是流程问题还是执行问题？
+- signal: src_unknown
+  framework_lens: 做而不信——有数据，但不相信数据
+  follow_up_question: 你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？
+- signal: src_unknown
+  framework_lens: 做而不信——自我认知高于数据
+  follow_up_question: 如果数据和你对用户的认知不一致，你更相信哪个？
 ---
 # "做而不信"陷阱：执行了流程，但不相信结果
 

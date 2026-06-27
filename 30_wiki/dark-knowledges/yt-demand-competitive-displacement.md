@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
 type: dk
@@ -11,34 +10,33 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——替代方案分析
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
-    follow_up_question: "用户完成这个任务时，除了同类产品，还用过什么方案？Excel？人工？不解决？"
-  - signal: src_unknown
-    framework_lens: 需求替代陷阱——忽视间接竞争和替代方案
-    follow_up_question: "用户现在怎么解决这个问题的？为什么现在的方式不够好？"
-  - signal: src_unknown
-    framework_lens: 需求替代陷阱——竞品在某个维度上更好
-    follow_up_question: "竞品在哪个维度上比你的方案好？是价格、便捷性、还是信任？"
-  - signal: src_unknown
-    framework_lens: 需求替代陷阱——价格不是唯一决策因素
-    follow_up_question: "用户选竞品，除了价格，还考虑了什么？社交、品牌、服务？"
-  - signal: src_unknown
-    framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
-    follow_up_question: "用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。"
-
+- signal: src_unknown
+  framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
+  follow_up_question: 用户完成这个任务时，除了同类产品，还用过什么方案？Excel？人工？不解决？
+- signal: src_unknown
+  framework_lens: 需求替代陷阱——忽视间接竞争和替代方案
+  follow_up_question: 用户现在怎么解决这个问题的？为什么现在的方式不够好？
+- signal: src_unknown
+  framework_lens: 需求替代陷阱——竞品在某个维度上更好
+  follow_up_question: 竞品在哪个维度上比你的方案好？是价格、便捷性、还是信任？
+- signal: src_unknown
+  framework_lens: 需求替代陷阱——价格不是唯一决策因素
+  follow_up_question: 用户选竞品，除了价格，还考虑了什么？社交、品牌、服务？
+- signal: src_unknown
+  framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
+  follow_up_question: 用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。
 ---
 # 需求替代陷阱：竞品不是敌人，替代方案才是
 

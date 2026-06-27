@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式
 type: dk
@@ -11,36 +10,35 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——失败案例
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 产品内核失败模式——需求假设错误
-    follow_up_question: "产品开发前，需求验证了吗？用户真的需要这个解决方案吗？"
-  - signal: src_unknown
-    framework_lens: 产品内核失败模式——内核不清晰
-    follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？用户能说出来吗？"
-  - signal: src_unknown
-    framework_lens: 产品内核失败模式——差异化不足或用户不感知
-    follow_up_question: "用户选择竞品的原因是什么？你们的好，用户感知到了吗？"
-  - signal: src_unknown
-    framework_lens: 产品内核失败模式——内核未迭代
-    follow_up_question: "市场变化后，内核调整了吗？还是一直在用初始内核？"
-  - signal: src_unknown
-    framework_lens: 产品内核失败模式——团队对内核无共识
-    follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
-
+- signal: src_unknown
+  framework_lens: 产品内核失败模式——需求假设错误
+  follow_up_question: 产品开发前，需求验证了吗？用户真的需要这个解决方案吗？
+- signal: src_unknown
+  framework_lens: 产品内核失败模式——内核不清晰
+  follow_up_question: 你能用一句话说清楚用户为什么选择你们吗？用户能说出来吗？
+- signal: src_unknown
+  framework_lens: 产品内核失败模式——差异化不足或用户不感知
+  follow_up_question: 用户选择竞品的原因是什么？你们的好，用户感知到了吗？
+- signal: src_unknown
+  framework_lens: 产品内核失败模式——内核未迭代
+  follow_up_question: 市场变化后，内核调整了吗？还是一直在用初始内核？
+- signal: src_unknown
+  framework_lens: 产品内核失败模式——团队对内核无共识
+  follow_up_question: 你们团队对内核的定义一致吗？写下来，看是否相同？
 ---
 # 产品内核失败的5种模式
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-fake-demand-detection
 title: 伪需求识别：7个危险信号
 type: dk
@@ -11,41 +10,40 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 伪需求信号1——兴趣≠需求
-    follow_up_question: "用户说'不需要'时，是现在不需要，还是永远不需要？有没有替代方案？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号2——口头需求≠付费意愿
-    follow_up_question: "如果明天这个产品上线，用户会立刻付费吗？如果不会，阻碍是什么？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号3——自我投射≠用户真实需求
-    follow_up_question: "创始人之外，至少访谈了10个真实用户吗？有没有和创始人假设相反的证据？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号4——竞品驱动≠需求验证
-    follow_up_question: "竞品的这个功能服务的是他们的核心用户，还是边缘功能？你的用户有同样的需求吗？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号5——技术能力≠用户需求
-    follow_up_question: "这个功能解决的是用户的什么问题？不用这个功能，用户现在怎么解决？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号6——报告数据≠真实需求
-    follow_up_question: "报告中的'需求'是用户自述的，还是行为数据验证的？"
-  - signal: src_unknown
-    framework_lens: 伪需求信号7——满意度≠使用意愿
-    follow_up_question: "用户说满意，但为什么不用？是场景不匹配，还是替代方案更好？"
-
+- signal: src_unknown
+  framework_lens: 伪需求信号1——兴趣≠需求
+  follow_up_question: 用户说'不需要'时，是现在不需要，还是永远不需要？有没有替代方案？
+- signal: src_unknown
+  framework_lens: 伪需求信号2——口头需求≠付费意愿
+  follow_up_question: 如果明天这个产品上线，用户会立刻付费吗？如果不会，阻碍是什么？
+- signal: src_unknown
+  framework_lens: 伪需求信号3——自我投射≠用户真实需求
+  follow_up_question: 创始人之外，至少访谈了10个真实用户吗？有没有和创始人假设相反的证据？
+- signal: src_unknown
+  framework_lens: 伪需求信号4——竞品驱动≠需求验证
+  follow_up_question: 竞品的这个功能服务的是他们的核心用户，还是边缘功能？你的用户有同样的需求吗？
+- signal: src_unknown
+  framework_lens: 伪需求信号5——技术能力≠用户需求
+  follow_up_question: 这个功能解决的是用户的什么问题？不用这个功能，用户现在怎么解决？
+- signal: src_unknown
+  framework_lens: 伪需求信号6——报告数据≠真实需求
+  follow_up_question: 报告中的'需求'是用户自述的，还是行为数据验证的？
+- signal: src_unknown
+  framework_lens: 伪需求信号7——满意度≠使用意愿
+  follow_up_question: 用户说满意，但为什么不用？是场景不匹配，还是替代方案更好？
 ---
 # 伪需求识别：7个危险信号
 

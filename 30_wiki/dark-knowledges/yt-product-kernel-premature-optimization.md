@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
 type: dk
@@ -11,37 +10,36 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——过早细化陷阱
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- src_unknown
+- src_unknown
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 过早细化——在验证前投入大量资源完善产品
-    follow_up_question: "产品开发前，你用什么方法验证了内核假设？"
-  - signal: src_unknown
-    framework_lens: 过早细化——追求完美，忽视验证
-    follow_up_question: "如果砍掉一半功能，核心需求还能验证吗？"
-  - signal: src_unknown
-    framework_lens: 过早细化——关注细节，忽视核心
-    follow_up_question: "用户选择你们，是因为细节完美，还是因为核心功能解决了问题？"
-  - signal: src_unknown
-    framework_lens: 过早细化——竞品驱动，未验证自身需求
-    follow_up_question: "竞品的这些功能，用户真的在用吗？你的用户有同样的需求吗？"
-  - signal: src_unknown
-    framework_lens: 过早细化——在错误的时间关注错误的事情
-    follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
-
+- signal: src_unknown
+  framework_lens: 过早细化——在验证前投入大量资源完善产品
+  follow_up_question: 产品开发前，你用什么方法验证了内核假设？
+- signal: src_unknown
+  framework_lens: 过早细化——追求完美，忽视验证
+  follow_up_question: 如果砍掉一半功能，核心需求还能验证吗？
+- signal: src_unknown
+  framework_lens: 过早细化——关注细节，忽视核心
+  follow_up_question: 用户选择你们，是因为细节完美，还是因为核心功能解决了问题？
+- signal: src_unknown
+  framework_lens: 过早细化——竞品驱动，未验证自身需求
+  follow_up_question: 竞品的这些功能，用户真的在用吗？你的用户有同样的需求吗？
+- signal: src_unknown
+  framework_lens: 过早细化——在错误的时间关注错误的事情
+  follow_up_question: 核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？
 ---
 # 过早细化陷阱：在验证前追求完美
 
