@@ -36,6 +36,7 @@ updated: 2026-06-27
 | laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | queued | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md |
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | queued | 老顽童 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | queued | 老顽童 | P1 | task_20260627_laowantong-channel-growth-cards.md |
+| review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | pending_review | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
 | domain-xiang-jiang-deep-digestion | 讲香域深度消化 + 架构重建 | completed | 黄药师 | P0 | domain-xiang-jiang-deep-digestion.md |
@@ -53,11 +54,11 @@ updated: 2026-06-27
 
 ## Summary
 
-- **Total**: 34
+- **Total**: 35
 - **Done**: 23
 - **In Progress**: 0
 - **Queued**: 7（详见 `production-queue.md`）
-- **Pending**: 2
+- **Pending**: 3
 - **Review Done**: 3 (panproduct-35, p0b-decision-science, p0a-unit-model)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。

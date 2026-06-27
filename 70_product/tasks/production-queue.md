@@ -16,7 +16,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 ## 队列规则
 
-1. **单线程领取**：老顽童每次只能领取队列最前面的 `queued` 任务，把状态改为 `claimed`。
+1. **单线程领取**：老顽童每次只能领取队列最前面的 `queued` 任务，把状态改为 `claimed`。`pending_review` 状态的条目为审阅项，由欧阳锋直接审核，老顽童不领取。
 2. **完成后提交**：老顽童完成生产并把 `kdo pre-submit` 输出贴到任务文件后，将状态改为 `pending_review`。
 3. **按序审核**：欧阳锋按队列顺序审核 `pending_review` 任务，通过后改为 `reviewed`；王语嫣最终验收后改为 `done`。
 4. **阻塞处理**：若任务被阻塞，在「状态」列标注 `blocked` 并写明阻塞原因；阻塞解决后恢复为 `queued`。
@@ -36,6 +36,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 5 | `laowantong-batch-2026-06-20-wave3` | 老顽童批量工单第 3 波：P1 深度补全 | queued | - | ~15 | 依赖 wave2 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
 | 6 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：P2 清理 | queued | - | ~12 | 依赖 wave3 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
 | 7 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：新域建设 | queued | - | ~11 | 依赖 wave4 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
+| 8 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | pending_review | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
