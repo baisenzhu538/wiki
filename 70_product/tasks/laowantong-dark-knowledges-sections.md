@@ -1,11 +1,11 @@
 ---
 id: task-20260627-laowantong-dark-knowledges-sections
-title: 老顽童任务：补齐 dark-knowledges 标准 section（试点 5 张）
+title: 老顽童任务：补齐 dark-knowledges 标准 section（批量阶段）
 type: task
 domain: [kdo, content-production]
 status: in_progress
 author: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
@@ -83,12 +83,64 @@ trust_level: medium
 - `kdo pre-submit` 通过
 - `kdo lint` 中该卡的 missing section ERROR 消失
 
-## 批量阶段（试点审过后再执行）
+## 试点结果
 
-试点通过后，欧阳锋会给出批量规则。预计剩余约 **72 张卡**需要处理，产生约 **877 个 section 缺失 ERROR**。
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-ai-entrepreneur-technical-blindspot` | ✅ 通过 | 补齐 6 section，修复断链 |
+| 2 | `dk-ef-001-sn74lvc2g07-open-drain` | ✅ 通过 | 补齐 section，修复 frontmatter 闭合 |
+| 3 | `dk-demand-pitfall-indonesia-insurance` | ✅ 通过 | 补齐 6 section，修复 frontmatter 闭合 |
+| 4 | `dk-strategy-02-three-paradoxes` | ✅ 通过 | 补齐 6 section，修复 frontmatter 闭合 |
+| 5 | `dk-jh-llm-time-blindness` | ✅ 通过 | 重写为 6 标准 section |
+
+试点全部通过，质量达标，进入批量阶段。
+
+## 批量阶段规则
+
+### 范围
+
+剩余约 **72 张** dark-knowledges 卡片，当前产生 **862 个 section 缺失 ERROR**。
+
+### 分批策略
+
+- 每批 **10 张**卡
+- 每批处理完跑 `kdo pre-submit -f <file>`（每张单独跑）
+- 一批全部通过后，汇报本批文件列表和 lint ERROR 下降数
+- 不需要每张卡都等我审，但我保留抽查权
+
+### 处理优先级建议
+
+优先处理以下卡片（收益最高）：
+
+1. **内容基础好**：已有正文、案例、洞察，只需整理进 6 个 section
+2. **关联度高**：与一堂五步法、战略、需求分析等核心域相关的卡
+3. **缺 section 少**：只差 1-2 个 section 的卡（快速清零）
+
+最后处理：
+- 完全空 body 的卡（需要大量重写）
+- 内容你不懂的卡（标出来问我，不要 vague 填充）
+
+### 质量标准（与试点一致）
+
+1. **6 个标准 section 标题必须正确**：原始表述 / 使用场景 / 操作方法 / 适用边界 / 为什么值钱 / 关联
+2. **每卡总字数 ≥ 300 字**
+3. **关联 section 写真实存在的 wikilink**
+4. **可以保留原有有价值 section**（如"常见失败模式""外部攻击"），但 6 个标准 section 必须存在
+5. ** frontmatter 不要改**（id/title/type/domain/source_refs/related 保持原样，除非修复闭合错误）
+6. **每张卡单独跑 `kdo pre-submit -f`**，不通过不准提交
+
+### 验收标准
+
+- 每批 10 张全部 `kdo pre-submit` 通过
+- `kdo lint` 中本批卡片的 missing section ERROR 消失
+- 欧阳锋随机抽查：如发现质量不合格，整批退回返工
+
+### 目标
+
+把 dark-knowledges missing section ERROR 从 **862** 逐步降到 **0**。
 
 ## 注意
 
-- 不要一次性处理所有卡，先完成 5 张试点。
-- 如果遇到内容不懂的卡，不要做 vague 的填充，直接标出来问欧阳锋。
-- 这是内容债，不是格式债，不能靠脚本批量生成。
+- 这是内容债，不能靠脚本批量生成。
+- 遇到不懂的卡，直接标出来问欧阳锋，不要 vague 填充。
+- 如果某张卡内容实在太少、无法补齐，单独汇报，由欧阳锋决定是否降级为 `draft` 或删除。
