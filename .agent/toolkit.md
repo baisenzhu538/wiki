@@ -4,6 +4,30 @@
 
 ---
 
+## 〇、队列锁（Queue Lock）
+
+多实例同时更新 `production-queue.md` / `dashboard.md` 时的防竞态机制。
+
+| 操作 | 命令 |
+|------|------|
+| 获取锁 | `python 90_control/scripts/queue_lock.py acquire production-queue` |
+| 释放锁 | `python 90_control/scripts/queue_lock.py release production-queue` |
+| 查看状态 | `python 90_control/scripts/queue_lock.py status` |
+
+Python API：
+```python
+from queue_lock import QueueLock
+with QueueLock("production-queue"):
+    # safely read/write queue
+    ...
+```
+
+> 位置：`90_control/scripts/queue_lock.py`
+> 锁文件：`90_control/.queue-locks/<name>.lock`
+> 超时：300s 自动过期（stale lock 可被后来的实例打破）
+
+---
+
 ## 一、OCR / 图片文字提取
 
 ### 首选：PaddleOCR v5（已部署，纯本地）
