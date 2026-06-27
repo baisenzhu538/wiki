@@ -35,20 +35,20 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 流程类建模
+  - 
+framework_lens: 流程类建模
     follow_up_question: 这个任务重复发生吗？失败成本高吗？
-  - src_unknown
-    framework_lens: 抽象建模
+  - 
+framework_lens: 抽象建模
     follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
-  - src_unknown
-    framework_lens: 本质提炼
+  - 
+framework_lens: 本质提炼
     follow_up_question: 你能不能用一句话或一个公式概括它的本质？
-  - src_unknown
-    framework_lens: 人在环中建模五步法
+  - 
+framework_lens: 人在环中建模五步法
     follow_up_question: 你是否已经先定义了模型的适用边界、挑错标准、上锁格式和成熟标准？
-  - src_unknown
-    framework_lens: 边界工程 + 决定成熟
+  - 
+framework_lens: 边界工程 + 决定成熟
     follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
 
 ---# 建模三段论：流程建模、抽象建模、本质提炼

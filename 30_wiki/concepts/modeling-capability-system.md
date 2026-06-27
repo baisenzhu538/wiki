@@ -30,17 +30,17 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 流程类建模
+  - 
+framework_lens: 流程类建模
     follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
-  - src_unknown
-    framework_lens: 抽象建模
+  - 
+framework_lens: 抽象建模
     follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
-  - src_unknown
-    framework_lens: 本质提炼
+  - 
+framework_lens: 本质提炼
     follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
-  - src_unknown
-    framework_lens: 人在环中建模五步法
+  - 
+framework_lens: 人在环中建模五步法
     follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
 
 ---# 高阶建模能力体系：一堂从经验到规律的教研方法论

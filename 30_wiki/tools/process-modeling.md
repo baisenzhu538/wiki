@@ -37,17 +37,17 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 流程建模
+  - 
+framework_lens: 流程建模
     follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
-  - src_unknown
-    framework_lens: SOP + 检查清单
+  - 
+framework_lens: SOP + 检查清单
     follow_up_question: 你是否有一份新人可独立执行的步骤文档？
-  - src_unknown
-    framework_lens: 稳定使用
+  - 
+framework_lens: 稳定使用
     follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
-  - src_unknown
-    framework_lens: 分解 × 锁 × 边界 × 迭代
+  - 
+framework_lens: 分解 × 锁 × 边界 × 迭代
     follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
 ---
 # 流程建模：用 SOP 与清单把经验变成稳定产出

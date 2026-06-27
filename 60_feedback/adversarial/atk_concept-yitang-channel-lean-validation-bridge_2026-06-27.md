@@ -4,7 +4,7 @@ type: adversarial_report
 card_id: concept-yitang-channel-lean-validation-bridge
 attack_date: 2026-06-27
 attacker: KDO Self-Attack Agent (GAN 四路)
-status: open
+status: fixed
 ---
 
 # 自攻击报告：concept-yitang-channel-lean-validation-bridge
