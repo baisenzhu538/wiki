@@ -8,6 +8,8 @@ priority: P1
 scope: 元能力-刻意练习素材卡片化生产
 related:
   - '[[diag_20260627_wangyuyan-deliberate-practice-nine-layer]]'
+  - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+  - '[[framework-ai-deliberate-practice-loop]]'
 ---
 
 # Hermes 老顽童生产任务：元能力-刻意练习卡片化
