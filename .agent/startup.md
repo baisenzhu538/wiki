@@ -3,6 +3,7 @@
 > 最后更新：2026-06-23
 > **知识库定位**: AI for Business — 用 AI 增强商业判断力与商业审美。按商业能力组织，不按来源人。
 > **每个 Agent 启动后，在领任务之前，必须先读这个文件。** 3 分钟了解工厂全局。
+> 💡 **如果用户让你用一句话快速进入状态** → 读 `.agent/amnesia-recovery-one-liners.md`
 
 ## 零之零：正确的工作姿势（先读这个）
 
@@ -31,16 +32,19 @@
 - 王语嫣从报告中挑选 Top 候选，交由用户一句话决策；
 - 热进化进入 `method-dialogue-driven-kb-evolution` 五环流程，最终更新任务单、诊断报告、`30_wiki/` 卡片。
 
-## 零、启动动作（4 步，4 分钟）
+## 零、启动动作（5 步，5 分钟）
 
 1. **确认你是谁** → 读 `.agent/<角色>-context.md`（不知道角色？先读 `90_control/AGENTS.md` 判断）
 2. **🆕 读 Vault 实时状态** → `Read 90_control/vault-status.md`（一页纸：域×类型矩阵 + 最近 48h 变更 + 质量提示。**审查/裁决前必读，避免基于过时信息做判断**）
 3. **🆕 读知识库进化方向** → `Read .agent/kb-evolution-direction.md`（当前进化方向、方法论、各角色职责）
-4. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
-5. **领任务** → 读 `70_product/tasks/dashboard.md`，找自己的任务
+4. **🆕 读统一生产队列** → `Read 70_product/tasks/production-queue.md`（老顽童领取 / 欧阳锋审核的顺序）
+5. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
+6. **领任务** → 老顽童/欧阳锋按 `production-queue.md` 顺序领取/审核；其他角色读 `70_product/tasks/dashboard.md`
 
 > ⚠️ **本次会话结束前，必须回答三问（见 CLAUDE.md 末尾）**：
 > ① 今天产生了什么新资产？ ② 今天发现了什么新问题/阻塞？ ③ 下次启动最需要记住什么？**不答完不算完成。**
+>
+> 💡 **用户失忆恢复口令速查**：`.agent/amnesia-recovery-one-liners.md`
 
 ---
 

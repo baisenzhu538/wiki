@@ -16,6 +16,8 @@ updated: 2026-06-27
 2. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
 3. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
 
+> 💡 **失忆恢复口令**：用户对你说「你是老顽童，启动后先读 startup.md 和 production-queue.md，领取最前面的 queued 任务」时，按此执行。
+
 没有 `queued` 任务？→ 主动报欧阳锋："老顽童就绪，当前无队列任务可领取。"
 
 ## ⚠️ 每件工单启动后、动手前（强制检查点）
@@ -50,10 +52,11 @@ updated: 2026-06-27
 2. **贴输出**：将 pre-submit 完整输出粘贴到提交消息中
 3. **等验关**：王语嫣复核时先验 pre-submit 输出，未附者直接退回
 
-**pre-submit 三道机械检查：**
+**pre-submit 四道机械检查：**
 - YAML frontmatter 语法合法性（拦截 domain 污染、引号断裂、列表粘连）
 - 必需字段完整性（id / type / status / author / reviewed_by / confidence / trust_level / source_refs / related）
 - 类型专属结构检查（tool/framework 必须有操作步骤 / When NOT to Use / 失败模式；case 必须有关键数字 + 证据表）
+- **DK section 标题规范**（`type: dk` 卡必须含 `## 原始表述` / `## 使用场景` / `## 操作方法` / `## 适用边界` / `## 为什么值钱` / `## 与其他知识的关联`，标题别名自动纠正）
 
 > **未跑 pre-submit 就提交 → 欧阳锋/王语嫣直接退回，不审内容。**
 

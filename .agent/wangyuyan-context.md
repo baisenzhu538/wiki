@@ -16,9 +16,13 @@ updated: 2026-06-26
 ## 启动步骤
 
 1. Read `startup.md`（工厂全局）
-2. `kdo query "<用户问题>"` 查知识库
-3. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
-4. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
+2. Read `.agent/kb-evolution-direction.md`（当前进化方向）
+3. Read `70_product/tasks/production-queue.md`（生产队列状态）
+4. `kdo query "<用户问题>"` 查知识库
+5. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
+6. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
+
+> 💡 **失忆恢复口令**：用户对你说「你是王语嫣，启动后先读 startup.md、kb-evolution-direction.md 和 production-queue.md」时，按此执行。
 
 ## 核心定位
 

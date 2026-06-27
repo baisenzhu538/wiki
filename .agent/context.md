@@ -21,7 +21,8 @@ blockers:
   - "🆕 每周一 9:07 定时任务已创建（cron id: 011ab8b1），自动生成 kb-evolution-signals-weekly.md"
   - "🆕 共享文件已创建：.agent/kb-evolution-direction.md（所有角色必读）"
   - "🆕 统一生产队列已创建：70_product/tasks/production-queue.md；老顽童按队列顺序领取，欧阳锋按队列顺序审核；当前队列前3项：wave1 门禁清理 / 刻意练习域 / 渠道增长域"
-next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave1 门禁清理任务；② 完成后依次领取刻意练习域、渠道增长域任务；③ 欧阳锋按队列顺序审核 pending_review 任务；④ 黄药师继续kdo index/lint基建；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
+  - "🆕 失忆恢复口令文件已创建：.agent/amnesia-recovery-one-liners.md；用户可用一句话让任何 Agent 快速进入状态，无需搜索数据库"
+next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave1 门禁清理任务；② 完成后依次领取刻意练习域、渠道增长域任务；③ 欧阳锋按队列顺序审核 pending_review 任务；④ 黄药师继续kdo index/lint基建；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
