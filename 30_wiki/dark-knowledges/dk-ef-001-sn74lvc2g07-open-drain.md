@@ -74,7 +74,7 @@ trust_level: medium
 
 ## 关联
 
-- [[tool-electronics-oscilloscope-signal-check]]——示波器信号检查方法
-- [[concept-open-drain-vs-push-pull]]——开漏 vs 推挽输出概念辨析
-- [[case-ef-001-hx-smj-infrared-board-debug]]——广冷红外板调试案例
-- [[dk-ef-002-mcu-drive-5v-peripheral]]——MCU 驱动 5V 外设通用方案
+- [[case-guang-leng-dian-zi-hx-smj]]——广冷电子红外板调试案例
+- [[dk-ef-001-sn74lvc2g07-open-drain]]——本卡：开漏输出陷阱详解
+- [[concept-five-step-growth-to-barrier-transition]]——五步法增长到壁垒的过渡概念
+- [[yt-five-step-method]]——一堂五步法核心概念
