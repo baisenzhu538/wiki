@@ -10,8 +10,8 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §18
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 related: "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：斥巨资收购后整合失败

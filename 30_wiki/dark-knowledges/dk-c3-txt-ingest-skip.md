@@ -10,7 +10,7 @@ domain:
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-3
+- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:

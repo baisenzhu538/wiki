@@ -10,7 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 related:
   - '[[case-demand-dialer]]'
   - '[[case-demand-tier4-housekeeping]]'

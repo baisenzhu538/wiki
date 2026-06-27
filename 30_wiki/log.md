@@ -6,7 +6,7 @@ title: log
 domain:
 - master
 source_refs:
-- system-log
+- src_unknown
 author: system
 reviewed_by: pending
 confidence: 0.5

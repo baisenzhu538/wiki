@@ -9,7 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §37
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 related: "[[framework-strategy-brm]]"
 ---**悖论1**：80%的管理培训讲"执行力"，但执行力差往往是因为战略本身不清晰
 **悖论2**：90%的中国公司没有独立的战略部门

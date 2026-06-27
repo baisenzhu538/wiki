@@ -11,7 +11,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-36
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 related:
   - '[[tool-yitang-research-company-disassembly]]'
   - '[[tool-yitang-research-best-practice]]'

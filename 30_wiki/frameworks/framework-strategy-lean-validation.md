@@ -16,7 +16,7 @@ domain:
 - lean-startup
 - yitang
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - 00_inbox/精益创业/transcript_低成本验证认知篇.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:

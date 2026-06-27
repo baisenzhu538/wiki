@@ -10,8 +10,8 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3-4
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §19
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 related: "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：转型内容平台后用户流失

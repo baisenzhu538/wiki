@@ -17,7 +17,7 @@ diagnostic_signals:
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-- "七件事集团深度调研综合报告"
+- "src_unknown"
 - "七件事集团业务模式深度解读"
 created_at: 2026-06-13
 updated_at: 2026-06-13

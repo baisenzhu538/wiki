@@ -131,38 +131,38 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[case-smart-medicine-cabinet-business-model-validation|case-smart-medicine-cabinet-business-model-validation]] — source no source
 - [[case-smart-medicine-cabinet-corporate-risk|case-smart-medicine-cabinet-corporate-risk]] — source no source
 - [[case-smart-medicine-cabinet-failure-patterns-library|case-smart-medicine-cabinet-failure-patterns-library]] — source no source
-- [[case-strategy-cool-boiled-water|凉白开：细分垄断——从高考生切入，两年30亿]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38-39`
-- [[case-strategy-edward-jones|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38`
-- [[case-strategy-failure-01-cosmetics|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §4-5`
-- [[case-strategy-failure-02-supermarket|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5`
-- [[case-strategy-failure-03-cleaning|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5-6`
-- [[case-strategy-failure-04-appliance|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §6-7`
-- [[case-strategy-failure-05-it|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §7`
-- [[case-strategy-failure-06-phone-n|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §7-8`
-- [[case-strategy-failure-07-phone-l|案例：国产手机L——能力缺失。无软件生态致收购失败]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9`
-- [[case-strategy-failure-08-video|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3-4`
-- [[case-strategy-failure-09-boeing|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3`
-- [[case-strategy-fangte-disney|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §21-22`
-- [[case-strategy-lekai-film|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39-40`
-- [[case-strategy-li-ka-shing|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §23`
-- [[case-strategy-longzhong-plan|隆中对：中国最著名的战略规划——成功与失败四因]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §19-20`
+- [[case-strategy-cool-boiled-water|凉白开：细分垄断——从高考生切入，两年30亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-edward-jones|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-01-cosmetics|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-02-supermarket|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-03-cleaning|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-04-appliance|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-05-it|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-06-phone-n|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-07-phone-l|案例：国产手机L——能力缺失。无软件生态致收购失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-08-video|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-failure-09-boeing|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-fangte-disney|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-lekai-film|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-li-ka-shing|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-longzhong-plan|隆中对：中国最著名的战略规划——成功与失败四因]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[case-strategy-m-brand-profit-model|M品牌：从直营到代理加盟的连锁扩张盈利模式选择]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
 - [[case-strategy-model-selection-quiz|10情境战略模型选择练习：什么情境配什么工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_vlm_desc.md`
-- [[case-strategy-practice-10-turnaround|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2`
-- [[case-strategy-practice-11-third-place|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2`
-- [[case-strategy-practice-12-zero-loss|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2`
-- [[case-strategy-practice-ranpeng-crossborder|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §17`
-- [[case-strategy-practice-ranpeng-milk-powder|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39`
+- [[case-strategy-practice-10-turnaround|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-practice-11-third-place|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-practice-12-zero-loss|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-practice-ranpeng-crossborder|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-practice-ranpeng-milk-powder|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[case-strategy-retailer-activity-scope|零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md`
-- [[case-strategy-revival-13-bestore|案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §21`
-- [[case-strategy-revival-14-gucci|案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §22`
-- [[case-strategy-shell-oil|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35`
+- [[case-strategy-revival-13-bestore|案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[case-strategy-revival-14-gucci|案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[case-strategy-shell-oil|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[case-strategy-snack-business-design|零食企业业务设计示例：从大众散货到家庭健康亲子零食专家]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md`
 - [[case-strategy-snack-export-opportunity|国产零食出口220国：新区域机会的诱惑与风险预估]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md`
 - [[case-strategy-snack-industry-chain|话梅果干产业链分析：从种植到零售的利润分布与竞争格局]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_vlm_desc.md`
 - [[case-strategy-walmart-vs-costco-pyramid|沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_vlm_desc.md`
-- [[case-strategy-wuxi-suntech|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37`
-- [[case-strategy-xiaobear|小熊电器：跳出行业范式——定位年轻单身男性]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38`
+- [[case-strategy-wuxi-suntech|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[case-strategy-xiaobear|小熊电器：跳出行业范式——定位年轻单身男性]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[case-thousand-people-square|案例：一堂'千人广场模型'——用统计建模心态做课]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[case-toc-content-platform-correlation-trap|case-toc-content-platform-correlation-trap]] — source no source
 - [[case-toc-ecommerce-formula-misjudgment|case-toc-ecommerce-formula-misjudgment]] — source no source
@@ -283,14 +283,14 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[concept-AI时代双三角竞争力|AI时代的双三角竞争力：人+AI协作决策]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md`
 - [[concept-candy-ai-as-collaborator|Candy：AI是协作者而非代写工具]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[concept-ceo-must-do-user-research|CEO必须亲自做用户调研]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
-- [[concept-feishu-api-pagination-trap|飞书API分页陷阱——静默截断比报错更危险]] — source `feishu-publishing (段王爷 SKILL.md)`
+- [[concept-feishu-api-pagination-trap|飞书API分页陷阱——静默截断比报错更危险]] — source `src_unknown`
 - [[concept-five-step-growth-to-barrier-transition|concept-five-step-growth-to-barrier-transition]] — source no source
 - [[concept-harness-cattle-not-pets|牲口而非宠物：每次迭代用全新Generator实例]] — source `10_raw/sources/src_20260621_harness-engineering-wanghuan.md`
 - [[concept-harness-scoring-anchors|评分锚定：1-5分制+语义锚点+取较低值]] — source `10_raw/sources/src_20260621_harness-engineering-wanghuan.md`
 - [[concept-ji-hao-ai-collaboration-methodology|纪浩 AI 协作方法论：从判断到规模复用的五层体系]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
 - [[concept-mckinsey-issue-tree|concept-mckinsey-issue-tree]] — source no source
 - [[concept-mckinsey-mece|concept-mckinsey-mece]] — source no source
-- [[concept-mcp-protocol|MCP协议：Agent调用外部工具的统一标准]] — source `{'web': 'MCP specification (modelcontextprotocol.io)'}`
+- [[concept-mcp-protocol|MCP协议：Agent调用外部工具的统一标准]] — source `src_unknown`
 - [[concept-research-delegation-in-scaling|规模化中的调研委派：从"自己做"到"建机制"]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[concept-research-responsibility-boundary|调研责任边界：道德、法律与生存的平衡]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[concept-smart-medicine-cabinet-consumer-acceptance|concept-smart-medicine-cabinet-consumer-acceptance]] — source no source
@@ -301,10 +301,10 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[concept-smart-medicine-cabinet-supply-chain-validation|concept-smart-medicine-cabinet-supply-chain-validation]] — source no source
 - [[concept-strategy-2024-2026-supplement|2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - [[concept-strategy-capability-pyramid|战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_30_vlm_desc.md`
-- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37`
+- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[concept-strategy-framework-landscape|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - [[concept-strategy-market-segmentation-yashili|细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md`
-- [[concept-streaming-extraction-pattern|流式提取模式——浏览器虚拟滚动到API分页的映射]] — source `老板老朱 2026-06-23 口述："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"`
+- [[concept-streaming-extraction-pattern|流式提取模式——浏览器虚拟滚动到API分页的映射]] — source `src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"`
 - [[concept-thousand-people-square|concept-thousand-people-square]] — source no source
 - [[concept-wanghuan-adversarial-generation|王欢概念：对抗式生成]] — source `10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"`
 - [[concept-wanghuan-ai-native-definition|王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程]] — source `10_raw/sources/src_20260619_524dbe20_wanghuan_AI native定义_示意图.md"`
@@ -344,7 +344,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[concept-问题驱动式深度思考笔记|concept-问题驱动式深度思考笔记]] — source no source
 - [[contingency-decision-making|contingency-decision-making]] — source no source
 - [[course-to-skill-conversion|course-to-skill-conversion]] — source no source
-- [[data-labeling-best-practices-report|数据标注最佳实践调研报告]] — source `HILTS框架（ScienceDirect, 2026）`
+- [[data-labeling-best-practices-report|数据标注最佳实践调研报告]] — source `src_unknown`
 - [[deepseek-v4-在知识管理系统中的应用|DeepSeek V4 在知识管理系统中的应用]] — source `src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用`
 - [[design-ai-image-generation|Design / Ai Image Generation]] — source `src_20260522_38173b48-design-ai-image-generation`
 - [[ec工业化规范手册-v2.8.0|ec工业化规范手册-v2.8.0]] — source no source
@@ -690,7 +690,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[dk-c10-batch-tool-no-dry-run|dk-c10-batch-tool-no-dry-run]] — source no source
 - [[dk-c11-hongqigong-skip-review|dk-c11-hongqigong-skip-review]] — source no source
 - [[dk-c2-dual-status-machine|dk-c2-dual-status-machine]] — source no source
-- [[dk-c3-txt-ingest-skip|C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功]] — source `10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-3`
+- [[dk-c3-txt-ingest-skip|C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功]] — source `10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md`
 - [[dk-c4-selfcheck-superseded|dk-c4-selfcheck-superseded]] — source no source
 - [[dk-c5-todo-false-positive|dk-c5-todo-false-positive]] — source no source
 - [[dk-c6-large-source-overflow|dk-c6-large-source-overflow]] — source no source
@@ -778,7 +778,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[dk-p13-token-burn|dk-p13-token-burn]] — source no source
 - [[dk-p14-zombie|dk-p14-zombie]] — source no source
 - [[dk-p15-unverified|dk-p15-unverified]] — source no source
-- [[dk-p16-validate-reads-state-json|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-16`
+- [[dk-p16-validate-reads-state-json|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md`
 - [[dk-p17-accuracy-gap|dk-p17-accuracy-gap]] — source no source
 - [[dk-p18-yaml-parser|dk-p18-yaml-parser]] — source no source
 - [[dk-p19-quote-yaml|dk-p19-quote-yaml]] — source no source
@@ -912,7 +912,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[five-step-domain-digest|域摘要：一堂五步法（80+张卡）]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
 - [[human-ai-collaboration-double-triangle|域摘要：人机协作范式——双三角模型域]] — source `00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"`
 - [[lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
-- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md`
+- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[yitang-domain-digest|域摘要：一堂知识体系总目]] — source no source
 - [[yitang-research-domain-digest|域摘要：调研方法论（90+张卡）]] — source `60_feedback/diagnosis/diag_20260620_调研专题素材验收.md`
 - [[Kimi-月之暗面|Kimi-月之暗面]] — source no source
@@ -934,7 +934,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[framework-ai-deconstruction-methodology|王欢三层拆书法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[framework-ai2041-critical-reading-os|AI 2041 批判性认知操作系统]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[framework-candy-transcript-workflow|Candy逐字稿九步法：从素材到可交付内容的生产流程]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
-- [[framework-ci-operating-model|CI运营模型：从信息收集到决策改变的闭环]] — source `{'web': 'Competitive Intelligence Alliance CI Operating Model'}`
+- [[framework-ci-operating-model|CI运营模型：从信息收集到决策改变的闭环]] — source `src_unknown`
 - [[framework-course-milestone-model|课程里程碑模型：一堂做课的七步生产流程]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[framework-demand-iceberg|需求洞察冰山模型：L1-L6六层深度推演框架]] — source `00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md`
 - [[framework-demand-lean-bridge|需求判断与精益验证的衔接]] — source `60_feedback/audit/cross-domain-bridge-design-specs.md`
@@ -952,26 +952,26 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[framework-lean-systematic-test-curve|系统测试曲线与三大测试范式]] — source `00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md`
 - [[framework-lean-tenx-formula|十倍速公式：避免系统性失败]] — source `00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md`
 - [[framework-logic-cleanliness-five-levels|逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[framework-multi-agent-research-architecture|多智能体调研架构：四种模式的对比与选择]] — source `{'web': 'LangGraph multi-agent patterns (LangChain docs)'}`
-- [[framework-ouyangfeng-review-methodology|欧阳锋审查方法论：三阶段架构评审框架]] — source `{'web': 'ATAM (Architecture Trade-off Analysis Method) — SEI/CMU'}`
+- [[framework-multi-agent-research-architecture|多智能体调研架构：四种模式的对比与选择]] — source `src_unknown`
+- [[framework-ouyangfeng-review-methodology|欧阳锋审查方法论：三阶段架构评审框架]] — source `src_unknown`
 - [[framework-strategy-ansoff|安索夫矩阵：产品-市场增长战略]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_ocr_text.md`
-- [[framework-strategy-basics-01-core|定式（Core Foundation）：BRM框架为核心，战略肌肉记忆]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §45-46`
-- [[framework-strategy-basics-02-insight|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §65-66`
-- [[framework-strategy-basics-03-layout|布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §47`
-- [[framework-strategy-basics-04-system|体系（Creation System）：丰田供应链生态+苹果iOS生态]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §48`
-- [[framework-strategy-basics-04-system|体系（Creation System）：生态体系——丰田供应链+苹果iOS]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §48`
+- [[framework-strategy-basics-01-core|定式（Core Foundation）：BRM框架为核心，战略肌肉记忆]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[framework-strategy-basics-02-insight|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[framework-strategy-basics-03-layout|布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[framework-strategy-basics-04-system|体系（Creation System）：丰田供应链生态+苹果iOS生态]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[framework-strategy-basics-04-system|体系（Creation System）：生态体系——丰田供应链+苹果iOS]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[framework-strategy-blm|IBM BLM 业务领导力模型 + 华为五看三定]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md`
-- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md`
+- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[framework-strategy-business-design|业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
-- [[framework-strategy-five-basics|冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §24, §97`
+- [[framework-strategy-five-basics|冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[framework-strategy-five-forces|波特五力分析框架]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md`
 - [[framework-strategy-kai-innovation-directions|凯纳创新方向分类框架]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md`
-- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md`
+- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[framework-strategy-mckinsey-7s|麦肯锡 7S 模型：组织诊断与变革管理]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md`
 - [[framework-strategy-pyramid|企业战略金字塔：公司、业务与职能协同]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md`
-- [[framework-strategy-six-stages|冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md`
+- [[framework-strategy-six-stages|冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[framework-strategy-three-horizons|三个地平线：短中长期业务组合管理]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md`
-- [[framework-structured-analytic-techniques|SATs结构化分析技术：CIA情报分析的八类工具箱]] — source `{'web': 'Richards Heuer & Pherson, Structured Analytic Techniques for Intelligence Analysis'}`
+- [[framework-structured-analytic-techniques|SATs结构化分析技术：CIA情报分析的八类工具箱]] — source `src_unknown`
 - [[framework-TCPR底层网络协议|TCP-R 模型：商业管理世界的底层网络协议]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md`
 - [[framework-TCPR皇冠模型|TCP-R皇冠模型：教学·咨询·实践·研究的统一框架]] — source `00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md`
 - [[framework-wanghuan-actor-director-mode|王欢人机协作框架：从演员到导演]] — source `10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"`
@@ -994,7 +994,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[framework-yitang-oscar-research|OSCAR调研模型：从目标锁定到正确归因的五步法]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[framework-yitang-research-quality-gate|调研质量自检框架：六维门禁——判断调研是否"足够好"]] — source `30_wiki/domains/yitang-research-domain-digest.md`
 - [[framework-yitang-research-radar|调研雷达图：四象限能力诊断与六种缺失识别]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
-- [[framework-yitang-research-weapon-supplement-2026|调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术]] — source `{'web': 'OSINT tools 2025-2026 comparison (Defcon Level, Cyble, Kali Linux Tutorials)'}`
+- [[framework-yitang-research-weapon-supplement-2026|调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术]] — source `src_unknown`
 - [[framework-yitang-research-weapon-system|调研超级武器库：三层八模块十四节点]] — source `00_inbox/调研专题/调研超级武器库_vlm_desc.md`
 - [[framework-yitang-six-layer-cross-validation|六层交叉验证：从单源到多源的信息可信度提升]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[framework-一堂五步法-泛产品设计|一堂五步法在泛产品设计中的应用]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-一堂五步法在泛产品设计中的应用_vlm_desc.md`
@@ -1255,7 +1255,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[ocr-顶级产品追求的方向-乔布斯|OCR: 顶级产品追求的方向-乔布斯]] — source `src_20260522_ea933690`
 - [[ocr-项目背景问题思考的8个维度|OCR: 项目背景问题思考的8个维度]] — source `src_20260522_4af61500`
 - [[ocr-预判模型|OCR: 预判模型]] — source `src_20260522_e71d89ff`
-- [[feishu-docx-pagination-extraction|飞书 Docx API 分页安全提取 + 流式处理模式]] — source `feishu-publishing (段王爷 SKILL.md)`
+- [[feishu-docx-pagination-extraction|飞书 Docx API 分页安全提取 + 流式处理模式]] — source `src_unknown`
 - [[skill-research-behavior-over-asking|行为证据重于口头证据]] — source `60_feedback/audit/synthesis_yitang.md`
 - [[skill-research-decision-first-mapping|决策优先映射：让研究动作直接服务决策]] — source `60_feedback/audit/synthesis_research.md`
 - [[skill-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
@@ -1276,7 +1276,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[ai-short-drama-plot-three-axes|剧情三板斧：短剧剧本的情节张力设计工具]] — source `10_raw/sources/src_20260613_083395df-plot-three-axes.md`
 - [[ai-short-drama-script-planning-three-axes|剧本策划三板斧：短剧从0到1的框架搭建工具]] — source `10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md`
 - [[concept-toyota-5-whys|concept-toyota-5-whys]] — source no source
-- [[mineru-pdf-parsing-setup|MinerU (magic-pdf) PDF 解析工具安装与使用]] — source `mineru-docs`
+- [[mineru-pdf-parsing-setup|MinerU (magic-pdf) PDF 解析工具安装与使用]] — source `src_unknown`
 - [[modeling-level-map|modeling-level-map]] — source no source
 - [[modeling-weapon-library|modeling-weapon-library]] — source no source
 - [[process-modeling|流程建模：用 SOP 与清单把经验变成稳定产出]] — source `10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
@@ -1295,12 +1295,12 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[smart-medicine-cabinet-financial-model|smart-medicine-cabinet-financial-model]] — source no source
 - [[smart-medicine-cabinet-fraud-detection|smart-medicine-cabinet-fraud-detection]] — source no source
 - [[tool-1视角升级思考法|技能：+1视角升级思考法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-agent-crawl4ai|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — source `{'web': 'Crawl4AI GitHub (unclecode/crawl4ai)'}`
-- [[tool-agent-firecrawl|Firecrawl：专为LLM设计的Web抓取API]] — source `{'web': 'Firecrawl official docs (firecrawl.dev)'}`
-- [[tool-agent-native-overview|Agent原生调研工具总览：2025-2026新范式]] — source `{'web': 'Web scraping APIs for AI agents (Grokipedia, 2026)'}`
-- [[tool-agent-research-pipeline|Pipeline模式：OSCAR五步法的Agent实现]] — source `{'web': 'LangChain SequentialChain pipeline pattern'}`
-- [[tool-agent-research-supervisor|Supervisor模式：一个主Agent调度多个Worker]] — source `{'web': 'LangGraph Supervisor pattern (LangChain)'}`
-- [[tool-agent-research-swarm|Swarm模式：多Agent自发协同与交叉验证]] — source `{'web': 'LangGraph Swarm pattern'}`
+- [[tool-agent-crawl4ai|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — source `src_unknown`
+- [[tool-agent-firecrawl|Firecrawl：专为LLM设计的Web抓取API]] — source `src_unknown`
+- [[tool-agent-native-overview|Agent原生调研工具总览：2025-2026新范式]] — source `src_unknown`
+- [[tool-agent-research-pipeline|Pipeline模式：OSCAR五步法的Agent实现]] — source `src_unknown`
+- [[tool-agent-research-supervisor|Supervisor模式：一个主Agent调度多个Worker]] — source `src_unknown`
+- [[tool-agent-research-swarm|Swarm模式：多Agent自发协同与交叉验证]] — source `src_unknown`
 - [[tool-ai-ai-workspace-setup|技能：结构化AI工作空间搭建]] — source `src_unknown`
 - [[tool-ai-critical-reading-three-layers|三层拆书批判法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tool-ai-cross-reading-method|交叉阅读法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -1324,8 +1324,8 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[tool-ai-voice-input-doubao|技能：口喷式语音输入法]] — source `src_unknown`
 - [[tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tool-ai辅助学习|技能：AI辅助学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-alt-data-free|免费替代数据：小团队的Hedge Fund武器]] — source `{'web': 'Alternative data sources accessible to individuals'}`
-- [[tool-alt-data-overview|替代数据总览：Hedge Fund级别的调研武器]] — source `{'web': 'Alternative data for hedge funds (ExtractAlpha, Greenwich Associates, Neudata 2025)'}`
+- [[tool-alt-data-free|免费替代数据：小团队的Hedge Fund武器]] — source `src_unknown`
+- [[tool-alt-data-overview|替代数据总览：Hedge Fund级别的调研武器]] — source `src_unknown`
 - [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua|技能：按语义切分文档做向量化]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi|技能：动态读取 + 向量化管理迭代知识]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong|技能：飞书多维表格 + 自建机器人做团队数据协同]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
@@ -1344,19 +1344,19 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[tool-candy-positioning-canvas|Candy差异化定位画布：回答"这篇东西凭什么存在"]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[tool-canvas-weapon-library-modeling|画布/武器库建模法：把工具箱变成可快速调用的系统]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-checklist-cheatsheet-modeling|清单/小抄建模法：把经验变成可执行的检查点]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- [[tool-ci-define-phase|CI Define阶段：KITs和KIQs——从决策倒推信息需求]] — source `{'web': 'Competitive Intelligence Alliance KIT/KIQ methodology'}`
-- [[tool-ci-implement-phase|CI Implement阶段：把洞察嵌入决策——最后一公里]] — source `{'web': 'CI distribution best practices (CI Alliance)'}`
+- [[tool-ci-define-phase|CI Define阶段：KITs和KIQs——从决策倒推信息需求]] — source `src_unknown`
+- [[tool-ci-implement-phase|CI Implement阶段：把洞察嵌入决策——最后一公里]] — source `src_unknown`
 - [[tool-clinic-cabinet-legal-contract-guide|tool-clinic-cabinet-legal-contract-guide]] — source no source
 - [[tool-clinic-medical-shortvideo-compliance|tool-clinic-medical-shortvideo-compliance]] — source no source
 - [[tool-cognitive-bias-12-check|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
 - [[tool-decision-delay-intuition|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
 - [[tool-decision-outside-view|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
-- [[tool-demand-agent-auto-verify|Agent L6自动预验证：RAT的竞品数据+趋势快速验证]] — source `{'web': 'CRV 2026 time-boxed hypothesis testing'}`
-- [[tool-demand-agent-case-match|Agent L4案例匹配：以历史摩擦点为起点填充8步地图]] — source `{'web': 'ODI framework cross-case comparison'}`
+- [[tool-demand-agent-auto-verify|Agent L6自动预验证：RAT的竞品数据+趋势快速验证]] — source `src_unknown`
+- [[tool-demand-agent-case-match|Agent L4案例匹配：以历史摩擦点为起点填充8步地图]] — source `src_unknown`
 - [[tool-demand-agent-l4-case-match|Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点]] — source `60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md`
-- [[tool-demand-agent-multi-hypothesis|Agent L3多假设并行：5个核心任务同时推演]] — source `{'web': 'Swarm multi-agent architecture (LangGraph)'}`
-- [[tool-demand-agent-signal-substitute|Agent L5信号提取：替代微观体感的非结构化数据分析]] — source `{'web': 'Qualz.ai 2026 LLM-based user interview analysis'}`
-- [[tool-demand-agent-signals|Agent L1-L2信号聚合：替代"凭经验猜用户"]] — source `{'web': 'thrv 2025 segmentation methods'}`
+- [[tool-demand-agent-multi-hypothesis|Agent L3多假设并行：5个核心任务同时推演]] — source `src_unknown`
+- [[tool-demand-agent-signal-substitute|Agent L5信号提取：替代微观体感的非结构化数据分析]] — source `src_unknown`
+- [[tool-demand-agent-signals|Agent L1-L2信号聚合：替代"凭经验猜用户"]] — source `src_unknown`
 - [[tool-demand-assessment-triangle|需求评估三角形：普遍性×频次×刚性]] — source `00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md`
 - [[tool-demand-blindspot-checklist|2B/2C盲区和机会清单：场景拆解的维度小抄]] — source `00_inbox/五步法之需求分析/一堂-需求分析-盲区和机会清单-图-01_ocr_text.md`
 - [[tool-demand-four-forces|四种力量建模：用户切换决策的博弈机制]] — source `00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md`
@@ -1368,18 +1368,18 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[tool-demand-iceberg-l6-hypothesis|L6需求假设：机会卡片+最危险假设(RAT)]] — source `00_inbox/五步法之需求分析/AI场景推演教练提示词.txt`
 - [[tool-demand-report-template|需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒]] — source `https://www.coze.cn/s/434bq-dCV6c/（一堂Agent输出的智慧药柜报告）`
 - [[tool-devils-advocacy|Devil's Advocacy：主动攻击自己的结论]] — source `{'web': "CIA Tradecraft Primer - Devil's Advocacy"}`
-- [[tool-dns-intelligence|DNS情报：从域名和网络基础设施反推竞对动态]] — source `{'web': 'DNSDumpster, crt.sh, whois.domaintools.com'}`
+- [[tool-dns-intelligence|DNS情报：从域名和网络基础设施反推竞对动态]] — source `src_unknown`
 - [[tool-doris-industry-report-search-tips|行业报告搜索七技：三级搜索能力+渠道清单]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[tool-doris-industry-report-source-evaluation|行业报告可信度评估：多信数据，少信观点]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[tool-essence-nfactor-modeling|本质/N要素建模法：提炼不可再约的核心变量]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-first-principles-assumption-classify|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
 - [[tool-funnel-formula-modeling|漏斗图/公式建模法：量化流程与关键变量]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- [[tool-google-dorking|Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息]] — source `{'web': 'Google advanced search operators'}`
+- [[tool-google-dorking|Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息]] — source `src_unknown`
 - [[tool-harness-adversarial-tester|对抗测试员：成功标准是"找到bug"]] — source `10_raw/sources/src_20260621_harness-engineering-wanghuan.md`
 - [[tool-iceberg-triangle-modeling|冰山图/三角图建模法：从表象深挖结构与本质]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- [[tool-indicators-signposts|Indicators & Signposts：设置"重新评估"的触发信号]] — source `{'web': 'CIA Tradecraft Primer - Indicators'}`
+- [[tool-indicators-signposts|Indicators & Signposts：设置"重新评估"的触发信号]] — source `src_unknown`
 - [[tool-iterative-recursive-deep-dig|迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[tool-key-assumptions-check|Key Assumptions Check：审计你信以为真的东西]] — source `{'web': 'CIA Tradecraft Primer - Key Assumptions Check'}`
+- [[tool-key-assumptions-check|Key Assumptions Check：审计你信以为真的东西]] — source `src_unknown`
 - [[tool-lean-ai-accelerated-validation|AI 加速 FALSE 模型验证]] — source `00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md`
 - [[tool-lean-cut-features|太复杂就砍功能]] — source `00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md`
 - [[tool-lean-fake-marketing|假营销：用故事验证兴趣]] — source `00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md`
@@ -1398,61 +1398,61 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[tool-lean-stealth-service|偷偷服务：用人工模拟产品后端]] — source `00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md`
 - [[tool-mckinsey-hypothesis-driven-workflow|tool-mckinsey-hypothesis-driven-workflow]] — source no source
 - [[tool-mece体系框架法|技能：MECE体系框架法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-media-verification-overview|媒体验证技术总览：判断"对方说的是不是真的"]] — source `{'web': 'OSINT media verification best practices (Defcon Level)'}`
-- [[tool-metadata-extraction|元数据提取：从文件中提取隐藏信息]] — source `{'web': 'ExifTool official docs'}`
+- [[tool-media-verification-overview|媒体验证技术总览：判断"对方说的是不是真的"]] — source `src_unknown`
+- [[tool-metadata-extraction|元数据提取：从文件中提取隐藏信息]] — source `src_unknown`
 - [[tool-note-keyword-bolding|关键词加粗三重结构：视觉重心即认知重心的标记法则]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
 - [[tool-note-layer-constraint|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
 - [[tool-note-one-line-one-point|一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
-- [[tool-osint-maltego|Maltego：实体关系图谱——画出目标公司的隐藏网络]] — source `{'web': 'Maltego official docs'}`
-- [[tool-osint-overview|OSINT工具总览：情报界的调研武器库]] — source `{'web': 'OSINT tools 2025-2026 comparison'}`
-- [[tool-osint-sherlock|Sherlock：用户名跨平台追踪——找到一个人的所有社交账号]] — source `{'web': 'Sherlock GitHub (sherlock-project/sherlock)'}`
-- [[tool-osint-shodan|Shodan：互联网设备搜索引擎——发现竞对的技术栈]] — source `{'web': 'Shodan official docs (shodan.io)'}`
-- [[tool-osint-spiderfoot|SpiderFoot：一键自动化OSINT扫描]] — source `{'web': 'SpiderFoot GitHub (smicallef/spiderfoot)'}`
-- [[tool-osint-wayback|Wayback Machine：网站时光机——看竞对的每一个历史版本]] — source `{'web': 'Internet Archive Wayback Machine (web.archive.org)'}`
+- [[tool-osint-maltego|Maltego：实体关系图谱——画出目标公司的隐藏网络]] — source `src_unknown`
+- [[tool-osint-overview|OSINT工具总览：情报界的调研武器库]] — source `src_unknown`
+- [[tool-osint-sherlock|Sherlock：用户名跨平台追踪——找到一个人的所有社交账号]] — source `src_unknown`
+- [[tool-osint-shodan|Shodan：互联网设备搜索引擎——发现竞对的技术栈]] — source `src_unknown`
+- [[tool-osint-spiderfoot|SpiderFoot：一键自动化OSINT扫描]] — source `src_unknown`
+- [[tool-osint-wayback|Wayback Machine：网站时光机——看竞对的每一个历史版本]] — source `src_unknown`
 - [[tool-prompt-iceberg-demand-analysis|冰山图 L1-L6 需求深挖——多层引导提示词模板]] — source `00_inbox/五步法之需求分析/优秀提示词合集.md`
 - [[tool-prompt-jtbd-scenario-coach|JTBD 场景推演教练——六层需求深挖提示词模板]] — source `00_inbox/五步法之需求分析/AI场景推演教练提示词.txt`
 - [[tool-prompt-usp-demand-analysis|USP 深度洞察引擎——需求分析提示词模板]] — source `00_inbox/五步法之需求分析/需求分析提示词.txt`
 - [[tool-prompt-usp-quick-scan|USP 快速需求拆解——3分钟单轮提示词模板]] — source `00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md`
 - [[tool-radar-chart-modeling|雷达图建模法：多维度评估与筛选]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-react行动推理循环|技能：ReACT行动推理循环]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-red-team-analysis|Red Team Analysis：模拟竞对的最优策略]] — source `{'web': 'CIA Tradecraft Primer - Red Team Analysis'}`
-- [[tool-reverse-image-search|反向图片搜索：追踪图片来源和真实性]] — source `{'web': 'Google Images, TinEye, Yandex Images'}`
+- [[tool-red-team-analysis|Red Team Analysis：模拟竞对的最优策略]] — source `src_unknown`
+- [[tool-reverse-image-search|反向图片搜索：追踪图片来源和真实性]] — source `src_unknown`
 - [[tool-ROI决策评估画布|ROI决策评估画布：三维度投资回报评估模板]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md`
 - [[tool-sabc-tier-modeling|SABC分级/段位图建模法：给事物排优先级与成长路径]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-smart-medicine-cabinet-compliance-checklist|tool-smart-medicine-cabinet-compliance-checklist]] — source no source
 - [[tool-smart-medicine-cabinet-site-selection-guide|tool-smart-medicine-cabinet-site-selection-guide]] — source no source
 - [[tool-sop-template-modeling|SOP/模板建模法：把关键动作固化成标准工作流]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §12`
+- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[tool-strategy-activity-scope|活动范围设计工具：What × How × Where 三问]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md`
 - [[tool-strategy-blue-ocean-canvas|蓝海战略画布（价值曲线工具）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_vlm_desc.md`
 - [[tool-strategy-business-design-template|业务单元业务设计模板]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md`
 - [[tool-strategy-business-summary|业务设计总结：战略蓝图输出+关键任务卡片]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_130_vlm_desc.md`
 - [[tool-strategy-capability-matrix|核心能力评估矩阵：影响力×急迫性四象限]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md`
 - [[tool-strategy-category-role-matrix|零售品类角色矩阵]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md`
-- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-36`
+- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[tool-strategy-control-points|战略控制点设计工具：价值定位模型]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md`
 - [[tool-strategy-core-competence-matrix|核心能力评估矩阵：影响力 × 急迫性]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_ocr_text.md`
 - [[tool-strategy-customer-selection|客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
 - [[tool-strategy-fishbone|鱼骨图根因分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md`
-- [[tool-strategy-five-see-three-set|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §71`
-- [[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §20-22`
-- [[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37-40`
-- [[tool-strategy-gap-analysis|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §25-26`
+- [[tool-strategy-five-see-three-set|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- [[tool-strategy-gap-analysis|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[tool-strategy-industry-chain-analysis|产业链机会与行动计划分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md`
 - [[tool-strategy-ksf|关键成功因素（KSF）分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_82_ocr_text.md`
 - [[tool-strategy-lifecycle|企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md`
 - [[tool-strategy-logistics-cost-planning|物流费用三年节约计划：从单吨运费到全链成本的结构化拆解]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md`
 - [[tool-strategy-map|战略地图——公司/各BU/业务单元的战略蓝图模板]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md`
 - [[tool-strategy-market-opportunity-matrix|细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md`
-- [[tool-strategy-nine-problems|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §11-20`
-- [[tool-strategy-pareto|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §64`
+- [[tool-strategy-nine-problems|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[tool-strategy-pareto|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[tool-strategy-platform-business-map|平台商业模式地图]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_vlm_desc.md`
 - [[tool-strategy-profit-model-comparison|盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
 - [[tool-strategy-risk-management|业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md`
-- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §18`
+- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - [[tool-strategy-swot|SWOT 分析工具：从四象限到行动策略]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md`
-- [[tool-strategy-three-horizons|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §67, §104`
+- [[tool-strategy-three-horizons|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - [[tool-strategy-value-capture|价值获取设计工具：8 问盈利模型]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md`
 - [[tool-strategy-value-proposition|价值主张设计工具：三问 + 六维排序法]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md`
 - [[tool-tech-probability-80-filter|李开复 80% 概率过滤器]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`

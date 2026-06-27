@@ -14,8 +14,8 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §24, §97
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-45
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 related:
   - '[[tool-strategy-four-moves]]'
   - '[[tool-strategy-gap-analysis]]'

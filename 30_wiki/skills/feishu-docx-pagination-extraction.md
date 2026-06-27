@@ -12,7 +12,7 @@ domain:
 source_person: 段王爷
 source_context: 拆书会第208期《AI 2041》逐字稿提取——因API分页遗漏导致内容静默截断，用户纠偏后定位+修复+固化
 source_refs:
-  - feishu-publishing (段王爷 SKILL.md)
+  - src_unknown
   - duanwangye 2026-06-23 复盘
 created_at: "2026-06-23"
 updated_at: "2026-06-23"

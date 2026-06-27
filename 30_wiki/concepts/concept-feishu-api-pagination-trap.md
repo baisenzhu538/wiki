@@ -12,7 +12,7 @@ trust_level: high
 language: zh-CN
 domain: [feishu, content-extraction, publishing, yitang]
 source_refs:
-  - feishu-publishing (段王爷 SKILL.md)
+  - src_unknown
   - 拆书会第208期《AI 2041》逐字稿提取实战
 related:
   - "[[feishu-docx-pagination-extraction]]"

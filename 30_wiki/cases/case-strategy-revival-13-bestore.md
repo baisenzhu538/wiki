@@ -10,8 +10,8 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §21
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38-42
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 related:
   - '[[case-strategy-wuxi-suntech]]'
   - '[[case-strategy-li-ka-shing]]'

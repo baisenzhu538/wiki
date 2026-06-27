@@ -12,8 +12,8 @@ trust_level: high
 language: zh-CN
 domain: [feishu, content-extraction, publishing, architecture]
 source_refs:
-  - 老板老朱 2026-06-23 口述："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
-  - feishu-publishing (段王爷 SKILL.md)
+  - src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
+  - src_unknown
 related:
   - "[[concept-feishu-api-pagination-trap]]"
   - "[[feishu-docx-pagination-extraction]]"

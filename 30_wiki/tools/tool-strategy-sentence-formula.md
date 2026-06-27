@@ -10,7 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §18
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 related:
   - '[[dk-yb15-reverse-image-description]]'
   - '[[tool-ai-narrative-test]]'

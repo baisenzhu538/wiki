@@ -10,7 +10,7 @@ domain:
   - kdo
   - infrastructure
 source_refs:
-- mineru-docs
+- src_unknown
 created_at: "2026-06-17"
 updated_at: "2026-06-17"
 author: 黄药师

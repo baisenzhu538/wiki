@@ -18,7 +18,7 @@ source_context: 一堂精益创业·低成本验证课程（元气森林试错�
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
-- 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 30_wiki/cases/case-lean-genki-forest-toolkit.md
 related:
