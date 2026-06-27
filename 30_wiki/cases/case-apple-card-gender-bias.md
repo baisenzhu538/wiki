@@ -174,7 +174,7 @@ Apple Card 是 Apple Inc. 与 Goldman Sachs Bank USA 于 2019 年 8 月在美国
 ### 正方：算法歧视叙事
 
 - **代表人物**：David Heinemeier Hansson、Steve Wozniak、部分算法公平研究者。
-- **核心论点**：即使算法没有明确使用性别变量，也可能通过收入、信用历史、账户独立状态等代理变量复制现实中的性别不平等；黑箱和客服失灵使受害者无从申诉 [conf=0.85, source=王欢逐字稿 / DHH Twitter 2019-11-07]。
+- src_unknown
 - **证据**：DHH 与妻子共享资产、妻子信用评分更高却额度更低；Wozniak 夫妇无分开账户却出现 10 倍差。
 
 ### 反方：法律合规与统计无歧视
@@ -203,9 +203,9 @@ Apple Card 是 Apple Inc. 与 Goldman Sachs Bank USA 于 2019 年 8 月在美国
 
 ## 延伸阅读与来源
 
-- NYDFS 2021 报告原文：https://www.dfs.ny.gov/reports_and_publications/202103_report_apple_card_investigation [conf=0.90, source=NYDFS 2021]
-- DHH 原始推文（2019-11-07）：https://twitter.com/dhh/status/1192540628658630656 [conf=0.90, source=DHH Twitter]
-- Wozniak 回应（2019-11-10）：https://twitter.com/stevewoz/status/1193583545070555136 [conf=0.90, source=Steve Wozniak Twitter]
+- src_unknown
+- src_unknown
+- src_unknown
 - TechCrunch 报道 NYDFS 结论（2021-03-23）：https://techcrunch.com/2021/03/23/new-yorks-department-of-financial-services-says-apple-card-program-didnt-violate-fair-lending-laws/ [conf=0.85, source=TechCrunch]
 - CFPB 2024 处罚（2024-10-23）：https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-apple-and-goldman-sachs-to-pay-over-89-million-for-apple-card-failures/ [conf=0.85, source=CFPB]
 

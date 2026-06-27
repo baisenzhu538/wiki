@@ -5,7 +5,7 @@ id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md"
+  - src_unknown
 status: enriched
 domain:
 - yitang
@@ -31,11 +31,11 @@ related:
   - '[[case-truman-ai-skill-engineering-guide]]'
   - '[[dk-modeling-ai-iterative-prompting]]'
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#domain/ai'
-- '#method/evaluation-method'
-- '#method/learning-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
 - signal: 团队有大量反馈、纠偏、复盘工作，人工整理慢且容易遗漏
   framework_lens: AI 辅助对比与合并可显著降低复盘成本
@@ -183,7 +183,7 @@ diagnostic_signals:
 
 ### 准备阶段
 - [ ] 明确复盘主题和边界
-- [ ] 收集 Before/After 版本或协作记录
+- src_unknown
 - [ ] 确认 AI 可访问的数据源
 
 ### AI 帮助人复盘
@@ -192,14 +192,14 @@ diagnostic_signals:
 - [ ] 人基于 AI 输出二次总结、建模、写 checklist
 
 ### AI 自己复盘自己
-- [ ] 指定 AI 扫描的工具/数据库和关键词范围
+- src_unknown
 - [ ] 让 AI 合并同类项反馈
 - [ ] 要求 AI 封装成 Skill：场景、审美底盘、协作流程、评审表、注意事项、硬性坑
 - [ ] 人做审美判断，修正边界和优先级
 
 ### 收尾阶段
 - [ ] 当天或隔天完成复盘
-- [ ] 把 Skill/checklist 写入可复用库
+- src_unknown
 - [ ] 下次同类任务先调用 Skill 再执行
 
 ---
@@ -214,7 +214,7 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1148-1218`
+- src_unknown
 
 ---
 

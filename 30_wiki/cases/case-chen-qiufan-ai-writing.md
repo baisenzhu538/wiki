@@ -226,13 +226,13 @@ related:
 
 ## 延伸阅读与来源
 
-- 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网. http://www.chinawriter.com.cn/n1/2025/0318/c460052-40441372.html
-- 《新周刊》. (2025-03). 《作家陈楸帆：留给人类创作者的时间不多了》. https://www.huxiu.com/article/4135447.html
-- 陈楸帆. (2025-02-23). 《共执火把，照亮彼此——我与 AI「人机协作」这些年》. 南方日报. https://epaper.nfnews.com/nfdaily/html/202502/23/content_10127492.html
-- 澳门科技大学. (2025-04-23). 《科幻作家陈楸帆澳科大谈 AI 时代创意写作》. https://www.must.edu.mo/id-13630/article/view/id-33718.html
-- 《中国科学报》. (2024-02-02). 《陈楸帆：我和 AI 合著的小说「打败」了莫言》. https://news.sciencenet.cn/sbhtmlnews/2024/2/378273.shtm
-- 中国作家网. (2020-10-28). 《首次 AI 人机共创写作实验启动》. https://www.chinawriter.com.cn/n1/2020/1028/c404079-31908738.html
-- Collett, C. (2025). *The Impact of Generative AI and the Novel*. Minderoo Centre for Technology & Democracy, University of Cambridge. https://www.mctd.ac.uk/wp-content/uploads/2025/11/MCTD-AIAndTheNovel-Report-Web.pdf
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

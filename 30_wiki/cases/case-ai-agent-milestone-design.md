@@ -33,11 +33,11 @@ related:
   - '[[dk-modeling-unit-pairs-milestone]]'
   - '[[tool-iterative-recursive-deep-dig]]'
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#domain/ai'
-- '#method/execution-method'
-- '#domain/ai-saas'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。
@@ -231,11 +231,11 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 ### 与 AI 协作阶段
 - [ ] 开两个 Agent 窗口：一个主建模，一个辅助翻译/解读/交叉验证
 - [ ] 第一轮：让 AI 输出方法论草稿（预期会被喷）
-- [ ] 第二轮：指出具体缺陷（步骤太多/顺序不清/边界不明/缺少逻辑链），要求重写
+- src_unknown
 - [ ] 第三轮：要求"保五争十"，让 AI 给出 5–10 个候选方案并对比
 - [ ] 第四轮：选定最优方案，依次起名、修边界、讲 ROI、做解读
 - [ ] 组件库：让 AI 把方法论拆成"成对单元"，合并到不能再合并，编号并标注类型与来源
-- [ ] 撞击：拿现有 Partner/标杆案例交叉验证，补漏
+- src_unknown
 - [ ] 封装：写对外讲法 + 配图 + AI 可用 Markdown 标签版
 
 ### 收尾阶段
@@ -249,7 +249,7 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 
 ## Sources
 
-- 00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:2608-2814`
+- src_unknown
 
 ---
 

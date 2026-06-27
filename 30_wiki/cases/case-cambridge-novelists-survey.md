@@ -70,7 +70,7 @@ related:
 - **Dr Clementine Collett**：报告作者，BRAID Fellow，同时是已出版小说家。
 - **258 位英国已出版小说家**：核心样本，占全部 332 位受访文学创意者的 78%。
 - **74 位行业内部人士**：包括文学代理人、委托编辑、出版从业者等。
-- **英国出版业**：年产值约 £110 亿、全球最大图书出口国之一 [conf=0.90, source=Collett 2025 / UK publishing industry data]。
+- src_unknown
 
 ### 时间线
 
@@ -229,9 +229,9 @@ related:
 
 ## 延伸阅读与来源
 
-- Collett, C. (2025). *The Impact of Generative AI and the Novel*. Minderoo Centre for Technology & Democracy, University of Cambridge. PDF: https://www.mctd.ac.uk/wp-content/uploads/2025/11/MCTD-AIAndTheNovel-Report-Web.pdf
-- University of Cambridge. (2025-11-20). "Half of UK novelists believe AI is likely to replace their work entirely." https://www.cam.ac.uk/stories/generative-ai-novelists
-- EurekAlert! (2025-11-20). "Half of novelists believe AI is likely to replace their work entirely, research finds." https://www.eurekalert.org/news-releases/1105954
+- src_unknown
+- src_unknown
+- src_unknown
 - Thomas, A., Battisti, M., & Kretschmer, M. (2022). *UK Authors' Earnings and Contracts 2022*.
 - 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网.
 

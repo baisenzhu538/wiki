@@ -31,8 +31,8 @@ wiki_refs:
 - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 definition_of_done:
-- 一句话摘要、背景、关键事件/决策点、结果、复盘与洞察、可迁移模式、失败模式/教训、相关卡/互链均已填写
-- source_refs 指向 10_raw/sources/ 下有效源文件
+- src_unknown
+- src_unknown
 - 关键测试数据与评分维度已记录
 - 可迁移条件和失败模式已明确
 pipeline:
@@ -156,12 +156,12 @@ pipeline:
 **什么时候不应该用这个测试方法**：
 
 - 仅仅做"生成"任务（如写文案、调整格式）的 Skill —— 这套评估维度是为"诊断+分析+决策"型 Skill 设计的，不适合纯执行型任务。
-- 没有明确的"不用 Skill"对照组 —— A/B 测试的前提是有两个可比的组。
+- src_unknown
 - 评分者自己对评分维度的定义不清楚 —— 评分标准需要在测试前先和 AI 约定好。
 - 把 12 维度当作"万能 checklist" —— 维度是为转化率黑客这类商业诊断 Skill 设计的，直接套用到技术型、创意型 Skill 上会失真。
 
 ## 相关卡/互链
 
 - **[[concept-半肥猫-ai-learning-toolification-methodology]]** — 半肥猫"课程→Skill 化"的方法论底座，本案例是该方法论中"验证"环节的具体实践。
-- **[[case-ban-fei-mao-conversion-hacker-skill]]** — 本 A/B 测试的前置案例，记录转化率黑客 Skill 从课程到封装的全过程。
+- src_unknown
 - **[[dk-ban-fei-mao-skill-rejection-value]]** — 解释为什么"拒绝能力"是 Skill 价值的核心维度，本案例用数据验证了这一点。

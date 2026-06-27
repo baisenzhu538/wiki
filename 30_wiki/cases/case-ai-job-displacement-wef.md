@@ -232,23 +232,23 @@ WEF 就业预测的核心结构——“技术替代可编码任务 + 新增岗�
 
 ## 行动 Checklist
 
-- [ ] 审查你所在组织：哪些岗位/任务属于 WEF 列出的“十大减少职业”或高度可编码任务？
+- src_unknown
 - [ ] 对高风险岗位，制定 6–12 个月的再培训路径，而不是等裁员后再补救。
 - [ ] 把“岗位替代”拆分为“任务替代”：哪些任务可以被 AI 接管，哪些任务因此变得更有价值？
 - [ ] 在团队内部建立“人机分工表”，但标注王欢提醒：很多工作是左右交缠的，不能非此即彼。
 - [ ] 评估你的职业安全区：你的工作里，“左列成分”（AI 擅长）与“右列成分”（人擅长）的浓度配比是多少？
-- [ ] 引用 WEF 就业数字时，必须标注年份（2020/2023/2025）、时间窗口和技术代际，避免用过期地图导航。
+- src_unknown
 - [ ] 如果你是政策或产品决策者，思考“社会投资津贴”思路：能否把部分资源从“救济失业者”转向“投资有意义的工作”？
 
 ---
 
 ## 延伸阅读与来源
 
-- World Economic Forum. (2020-10). *The Future of Jobs Report 2020*. https://www.weforum.org/reports/the-future-of-jobs-report-2020/ (PDF: https://www3.weforum.org/docs/WEF_Future_of_Jobs_2020.pdf)
-- World Economic Forum. (2020-10-21). Press release: *Recession and Automation Changes Our Future of Work, But there are Jobs Coming, Report Says*. https://www.weforum.org/press/2020/10/recession-and-automation-changes-our-future-of-work-but-there-are-jobs-coming-report-says-52c5162fce/
-- World Economic Forum. (2023). *The Future of Jobs Report 2023*. https://www.weforum.org/reports/the-future-of-jobs-report-2023/ (PDF: https://www3.weforum.org/docs/WEF_Future_of_Jobs_2023.pdf)
-- World Economic Forum. (2025). *The Future of Jobs Report 2025*. https://www.weforum.org/reports/the-future-of-jobs-report-2025/ (PDF: https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf)
-- McKinsey Global Institute. (2017-11). *Jobs lost, jobs gained: Workforce transitions in a time of automation*. https://www.mckinsey.com/capabilities/mgi/our-insights/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 - 王欢.《AI 2041：预见未来二十年》拆书会逐字稿（第八幕“职业救星”及相关工具讨论）.
 
 ---

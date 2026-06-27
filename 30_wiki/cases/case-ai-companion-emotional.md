@@ -227,7 +227,7 @@ AI 情感陪伴案例的核心结构——“完美拟人化交互 + 目标函�
 
 ## 行动 Checklist
 
-- [ ] 审查家中/课堂中使用的 AI 陪伴产品：它的成功指标是“学习效果”还是“使用时长”？
+- src_unknown
 - [ ] 对儿童使用的 AI 产品，检查是否有年龄验证、未成年人独立模型、情感依赖风险提示。
 - [ ] 评估产品是否把“让孩子舒服”当作核心优化目标，而牺牲了不确定性和挫败容忍空间。
 - [ ] 与孩子讨论 AI 伴侣的本质：它可以表现得像朋友，但它不会真正被触动、不会真正成长。
@@ -238,13 +238,13 @@ AI 情感陪伴案例的核心结构——“完美拟人化交互 + 目标函�
 
 ## 延伸阅读与来源
 
-- TechCrunch / Appfigures. (2025-08-12). *AI companion apps on track to pull in $120M in 2025*. https://techcrunch.com/2025/08/12/ai-companion-apps-on-track-to-pull-in-120m-in-2025/
-- Common Sense Media. (2025-07). *AI companions and teens* 调研结果（via Prinsessa 2026-06-11 汇总）. https://prinsessa.com/staysocial/ai-companion-human-ai-market-forecast-2026-the-real-size-of-relational-ai/
-- Prinsessa. (2026-06-11). *AI Companion & Human AI Market Forecast 2026 — The real size of relational AI*. https://prinsessa.com/staysocial/ai-companion-human-ai-market-forecast-2026-the-real-size-of-relational-ai/
-- Sacra. (2026-06-05). *Character.AI revenue, funding & news*. https://sacra.com/c/character-ai/
-- Business of Apps. (2026-04-20). *character.ai Revenue and Usage Statistics (2026)*. https://www.businessofapps.com/data/character-ai-statistics/
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 - 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网.
-- Microsoft Stories Asia. (2019-02-28). *Much more than a chatbot: China's Xiaoice mixes AI with emotions and wins over millions of fans*. https://news.microsoft.com/apac/features/much-more-than-a-chatbot-chinas-xiaoice-mixes-ai-with-emotions-and-wins-over-millions-of-fans/
+- src_unknown
 
 ---
 

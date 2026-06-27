@@ -152,4 +152,4 @@ diagnostic_signals:
 
 ## Feedback Path
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-ban-fei-mao-from-assignment-to-tool`。
+- src_unknown
