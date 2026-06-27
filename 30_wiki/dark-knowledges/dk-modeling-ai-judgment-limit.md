@@ -42,7 +42,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----# AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
+---
+
 
 ## 原始表述 / 核心洞察
 
