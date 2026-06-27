@@ -28,23 +28,23 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 第一板斧·极致对立
+- 
+framework_lens: 第一板斧·极致对立
   follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？
-- src_unknown
-  framework_lens: 第二板斧·高能吸睛
+- 
+framework_lens: 第二板斧·高能吸睛
   follow_up_question: 第一集前10秒是否出现危机、悬念或强情绪？
-- src_unknown
-  framework_lens: 第三板斧·立意升华
+- 
+framework_lens: 第三板斧·立意升华
   follow_up_question: 结局除了报仇/在一起，是否传递了一个让观众共鸣的价值点？
-- src_unknown
-  framework_lens: 第一板斧·极致对立（对手维度）
+- 
+framework_lens: 第一板斧·极致对立（对手维度）
   follow_up_question: 核心对手是否在资源、权力、信息或价值观上至少有一处碾压主角，并形成持续威胁？
-- src_unknown
-  framework_lens: 第三板斧·立意升华
+- 
+framework_lens: 第三板斧·立意升华
   follow_up_question: 价值主张是否由主角在关键选择中付出代价后自然得出，而不是旁白或台词直接宣讲？
-- src_unknown
-  framework_lens: 第二板斧·高能吸睛 → 第一板斧·极致对立
+- 
+framework_lens: 第二板斧·高能吸睛 → 第一板斧·极致对立
   follow_up_question: 前10秒的钩子是否与核心对立绑定，能否在中点、反转、结局中不断放大？
 
 ---
