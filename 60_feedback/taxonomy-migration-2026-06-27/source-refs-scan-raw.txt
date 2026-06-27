@@ -1,0 +1,388 @@
+Total broken source_refs: 383
+typo: 20, missing: 363
+
+Card                                                    Source Ref                                                        Category Suggestion
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+30_wiki/contradictions.md                               source_unknown                                                    missing  
+30_wiki/log.md                                          system-log                                                        missing  
+30_wiki/cases/case-strategy-cool-boiled-water.md        00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38-39                              missing  
+30_wiki/cases/case-strategy-edward-jones.md             00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38                                 missing  
+30_wiki/cases/case-strategy-failure-01-cosmetics.md     00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §4-5                                missing  
+30_wiki/cases/case-strategy-failure-01-cosmetics.md     00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §12                              missing  
+30_wiki/cases/case-strategy-failure-02-supermarket.md   00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5                                  missing  
+30_wiki/cases/case-strategy-failure-02-supermarket.md   00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §13                              missing  
+30_wiki/cases/case-strategy-failure-03-cleaning.md      00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5-6                                missing  
+30_wiki/cases/case-strategy-failure-03-cleaning.md      00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §14                              missing  
+30_wiki/cases/case-strategy-failure-04-appliance.md     00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §6-7                                missing  
+30_wiki/cases/case-strategy-failure-04-appliance.md     00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §15                              missing  
+30_wiki/cases/case-strategy-failure-05-it.md            00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §7                                  missing  
+30_wiki/cases/case-strategy-failure-05-it.md            00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §16                              missing  
+30_wiki/cases/case-strategy-failure-06-phone-n.md       00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §7-8                                missing  
+30_wiki/cases/case-strategy-failure-06-phone-n.md       00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §17                              missing  
+30_wiki/cases/case-strategy-failure-07-phone-l.md       00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9                                missing  
+30_wiki/cases/case-strategy-failure-07-phone-l.md       00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §18                              missing  
+30_wiki/cases/case-strategy-failure-08-video.md         00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3-4                                missing  
+30_wiki/cases/case-strategy-failure-08-video.md         00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §19                              missing  
+30_wiki/cases/case-strategy-failure-09-boeing.md        00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §3                                  missing  
+30_wiki/cases/case-strategy-failure-09-boeing.md        00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §20                              missing  
+30_wiki/cases/case-strategy-fangte-disney.md            00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §21-22                              missing  
+30_wiki/cases/case-strategy-lekai-film.md               00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39-40                              missing  
+30_wiki/cases/case-strategy-li-ka-shing.md              00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §23                                 missing  
+30_wiki/cases/case-strategy-longzhong-plan.md           00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §19-20                              missing  
+30_wiki/cases/case-strategy-practice-10-turnaround.md   00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2                                  missing  
+30_wiki/cases/case-strategy-practice-11-third-place.md  00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2                                  missing  
+30_wiki/cases/case-strategy-practice-12-zero-loss.md    00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §2                                  missing  
+30_wiki/cases/case-strategy-practice-ranpeng-crossborder.md 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §17                                 missing  
+30_wiki/cases/case-strategy-practice-ranpeng-milk-powder.md 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §39                                 missing  
+30_wiki/cases/case-strategy-revival-13-bestore.md       00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §21                              missing  
+30_wiki/cases/case-strategy-revival-13-bestore.md       00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38-42                              missing  
+30_wiki/cases/case-strategy-revival-14-gucci.md         00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §22                              missing  
+30_wiki/cases/case-strategy-revival-14-gucci.md         00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §42-48                              missing  
+30_wiki/cases/case-strategy-shell-oil.md                00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35                                 missing  
+30_wiki/cases/case-strategy-wuxi-suntech.md             00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37                                 missing  
+30_wiki/cases/case-strategy-xiaobear.md                 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §38                                 missing  
+30_wiki/cases/case-婚礼操盘-用户和场景.md                        00_inbox/_vlm_reprocess/相关VLM描述                                   missing  
+30_wiki/cases/case-婚礼规划.md                              00_inbox/_vlm_reprocess/相关VLM描述                                   missing  
+30_wiki/cases/index.md                                  source_unknown                                                    missing  
+30_wiki/concepts/concept-feishu-api-pagination-trap.md  feishu-publishing (段王爷 SKILL.md)                                  missing  
+30_wiki/concepts/concept-feishu-api-pagination-trap.md  拆书会第208期《AI 2041》逐字稿提取实战                                          missing  
+30_wiki/concepts/concept-mcp-protocol.md                {'web': 'MCP specification (modelcontextprotocol.io)'}            missing  
+30_wiki/concepts/concept-mcp-protocol.md                {'web': 'Anthropic MCP documentation'}                            missing  
+30_wiki/concepts/concept-strategy-capability-pyramid.md 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{30}_vlm_desc.md    missing  
+30_wiki/concepts/concept-strategy-evolution-cycle.md    00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37                                 missing  
+30_wiki/concepts/concept-strategy-market-segmentation-yashili.md 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{70}_vlm_desc.md    missing  
+30_wiki/concepts/concept-streaming-extraction-pattern.md 老板老朱 2026-06-23 口述："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"                    missing  
+30_wiki/concepts/concept-streaming-extraction-pattern.md feishu-publishing (段王爷 SKILL.md)                                  missing  
+30_wiki/concepts/concept-多视角思考.md                       00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-多视角思考-用不同角色审视产品_vlm_desc.md missing  
+30_wiki/concepts/concept-峰终定律.md                        00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-峰终定律-用户体验的二八定律_vlm_desc.md missing  
+30_wiki/concepts/concept-思考深度分级.md                      00_inbox/_vlm_reprocess/个人修炼/相关VLM描述                              missing  
+30_wiki/concepts/concept-惊喜公式.md                        00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-惊喜公式-超越预期的用户体验设计_vlm_desc.md missing  
+30_wiki/concepts/concept-最佳实践建模.md                      00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践建模-把别人的成功拆成可复制的模型_vlm_desc.md missing  
+30_wiki/concepts/concept-纪浩-ai-collaboration-five-layer.md 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md typo     00_inbox/纪浩-AI协作方法论-口述.md
+30_wiki/concepts/concept-美好作品想象.md                      00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-美好作品想象-先看到终局再倒推路径_vlm_desc.md missing  
+30_wiki/concepts/data-labeling-best-practices-report.md HILTS框架（ScienceDirect, 2026）                                      missing  
+30_wiki/concepts/data-labeling-best-practices-report.md NVIDIA分块策略基准（2025）                                                missing  
+30_wiki/concepts/data-labeling-best-practices-report.md KGC 2022 Taxonomy Design Tutorial                                 missing  
+30_wiki/concepts/data-labeling-best-practices-report.md Gruber本体设计五原则                                                     missing  
+30_wiki/concepts/paddleocr-skill.md                     source_unknown                                                    missing  
+30_wiki/concepts/source-code-delivery-model.md          七件事集团深度调研综合报告                                                     missing  
+30_wiki/concepts/source-code-delivery-model.md          七件事集团业务模式深度解读                                                     missing  
+30_wiki/concepts/tinyfish-agentic-web-infrastructure.md source_unknown                                                    missing  
+30_wiki/concepts/yt-demand-b2b-vs-b2c.md                xujian-tob-fivestep-oral.md                                       typo     10_raw/sources/xujian-tob-fivestep-oral.md
+30_wiki/concepts/yt-foresight-addition-subtraction.md   source_unknown                                                    missing  
+30_wiki/concepts/yt-management-leadership-levels.md     source_unknown                                                    missing  
+30_wiki/concepts/yt-management-project-management.md    source_unknown                                                    missing  
+30_wiki/concepts/yt-management-strategy-meeting.md      source_unknown                                                    missing  
+30_wiki/concepts/yt-note-deliberate-practice-four-elements.md source_unknown                                                    missing  
+30_wiki/concepts/yt-research-user-jtbd.md               00_inbox/调研专题/一堂-用户调研实操课-口述.txt                                   missing  
+30_wiki/concepts/yt-skill-storyline-contrast-analysis.md source_unknown                                                    missing  
+30_wiki/concepts/yt-skill-storyline-key-elements.md     source_unknown                                                    missing  
+30_wiki/concepts/yt-skill-storyline-problem-solving.md  source_unknown                                                    missing  
+30_wiki/concepts/yt-skill-storyline-target-tradeoff.md  source_unknown                                                    missing  
+30_wiki/concepts/yt-skill-storyline-timeline.md         source_unknown                                                    missing  
+30_wiki/dark-knowledges/dk-c3-txt-ingest-skip.md        10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-3 missing  
+30_wiki/dark-knowledges/dk-p16-validate-reads-state-json.md 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-16      missing  
+30_wiki/frameworks/framework-ci-operating-model.md      {'web': 'Competitive Intelligence Alliance CI Operating Model'}   missing  
+30_wiki/frameworks/framework-ci-operating-model.md      {'web': 'BestBootcamps CI Framework Guide 2026'}                  missing  
+30_wiki/frameworks/framework-multi-agent-research-architecture.md {'web': 'LangGraph multi-agent patterns (LangChain docs)'}        missing  
+30_wiki/frameworks/framework-multi-agent-research-architecture.md {'web': 'Paiteq multi-agent architecture guide'}                  missing  
+30_wiki/frameworks/framework-multi-agent-research-architecture.md {'web': 'Lushbinary agent architecture patterns'}                 missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md {'web': 'ATAM (Architecture Trade-off Analysis Method) — SEI/CMU'} missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md {'web': 'SARA (Software Architecture Review & Assessment) — Philippe Kruchten'} missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md {'web': 'NHS Digital Software Engineering Quality Framework'}     missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md {'web': 'dycke-gurevych-2025 counterfactual evaluation framework'} missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md .agent/pitfalls.md §P-35                                          missing  
+30_wiki/frameworks/framework-ouyangfeng-review-methodology.md .agent/daily-review/错误模式库.md §E009                                missing  
+30_wiki/frameworks/framework-strategy-basics-01-core.md 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §45-46                           missing  
+30_wiki/frameworks/framework-strategy-basics-02-insight.md 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §65-66                           missing  
+30_wiki/frameworks/framework-strategy-basics-03-layout.md 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §47                              missing  
+30_wiki/frameworks/framework-strategy-basics-04-system.md 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §48                              missing  
+30_wiki/frameworks/framework-strategy-basics-05-change.md 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §48                              missing  
+30_wiki/frameworks/framework-strategy-five-basics.md    00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §24, §97                         missing  
+30_wiki/frameworks/framework-strategy-five-basics.md    00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-45                              missing  
+30_wiki/frameworks/framework-structured-analytic-techniques.md {'web': 'Richards Heuer & Pherson, Structured Analytic Techniques for Intelligence Analysis'} missing  
+30_wiki/frameworks/framework-structured-analytic-techniques.md {'web': 'CIA Tradecraft Primer'}                                  missing  
+30_wiki/frameworks/framework-yitang-research-weapon-supplement-2026.md {'web': 'OSINT tools 2025-2026 comparison (Defcon Level, Cyble, Kali Linux Tutorials)'} missing  
+30_wiki/frameworks/framework-yitang-research-weapon-supplement-2026.md {'web': 'Web scraping APIs for AI agents (Grokipedia, Firecrawl, Crawl4AI docs)'} missing  
+30_wiki/frameworks/framework-yitang-research-weapon-supplement-2026.md {'web': 'Alternative data sources for hedge funds (ExtractAlpha, Greenwich Associates, Neudata)'} missing  
+30_wiki/frameworks/framework-yitang-research-weapon-supplement-2026.md {'web': 'Structured analytic techniques for intelligence analysis (Richards & Randolph)'} missing  
+30_wiki/frameworks/framework-一堂五步法-泛产品设计.md             00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-一堂五步法在泛产品设计中的应用_vlm_desc.md   missing  
+30_wiki/frameworks/framework-科学决策三角形.md                 00_inbox/_vlm_reprocess/_batch_科学决策/一堂-科学决策-决策三角形.png             typo     00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-决策三角形.png
+30_wiki/frameworks/framework-问题边界与Problem澄清五层结构.md      00_inbox/_vlm_reprocess/其他/相关VLM描述                                missing  
+30_wiki/frameworks/private-domain-saas-sales-funnel.md  智能药柜-招商合作沟通录音 (2026-06-13)                                        missing  
+30_wiki/frameworks/yt-demand-decision-chain.md          xujian-tob-fivestep-oral.md                                       typo     10_raw/sources/xujian-tob-fivestep-oral.md
+30_wiki/skills/feishu-docx-pagination-extraction.md     feishu-publishing (段王爷 SKILL.md)                                  missing  
+30_wiki/skills/feishu-docx-pagination-extraction.md     duanwangye 2026-06-23 复盘                                          missing  
+30_wiki/systems/kdo-watch-health-check-layer.md         source_unknown                                                    missing  
+30_wiki/tools/mineru-pdf-parsing-setup.md               mineru-docs                                                       missing  
+30_wiki/tools/tool-agent-crawl4ai.md                    {'web': 'Crawl4AI GitHub (unclecode/crawl4ai)'}                   missing  
+30_wiki/tools/tool-agent-crawl4ai.md                    {'web': 'Web scraping state 2026 (dev.to)'}                       missing  
+30_wiki/tools/tool-agent-firecrawl.md                   {'web': 'Firecrawl official docs (firecrawl.dev)'}                missing  
+30_wiki/tools/tool-agent-firecrawl.md                   {'web': 'Web scraping APIs for AI agents (Grokipedia)'}           missing  
+30_wiki/tools/tool-agent-native-overview.md             {'web': 'Web scraping APIs for AI agents (Grokipedia, 2026)'}     missing  
+30_wiki/tools/tool-agent-native-overview.md             {'web': 'Firecrawl, Crawl4AI, ScrapeGraphAI docs'}                missing  
+30_wiki/tools/tool-agent-native-overview.md             {'web': 'MCP protocol specification (modelcontextprotocol.io)'}   missing  
+30_wiki/tools/tool-agent-research-pipeline.md           {'web': 'LangChain SequentialChain pipeline pattern'}             missing  
+30_wiki/tools/tool-agent-research-supervisor.md         {'web': 'LangGraph Supervisor pattern (LangChain)'}               missing  
+30_wiki/tools/tool-agent-research-swarm.md              {'web': 'LangGraph Swarm pattern'}                                missing  
+30_wiki/tools/tool-agent-research-swarm.md              {'concepts': 'kimi-深度调研集群方法论-deep-research-swarm'}                missing  
+30_wiki/tools/tool-ai-ai-workspace-setup.md             source_unknown                                                    missing  
+30_wiki/tools/tool-ai-evidence-check.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-ai-narrative-test.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-ai-old-small-checklist.md            source_unknown                                                    missing  
+30_wiki/tools/tool-ai-oral-spray-input.md               source_unknown                                                    missing  
+30_wiki/tools/tool-ai-parallel-validation.md            source_unknown                                                    missing  
+30_wiki/tools/tool-ai-prd-for-ai.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-ai-problem-validation.md             source_unknown                                                    missing  
+30_wiki/tools/tool-ai-purpose-bias-check.md             source_unknown                                                    missing  
+30_wiki/tools/tool-ai-system-redundancy.md              source_unknown                                                    missing  
+30_wiki/tools/tool-ai-voice-input-doubao.md             source_unknown                                                    missing  
+30_wiki/tools/tool-alt-data-free.md                     {'web': 'Alternative data sources accessible to individuals'}     missing  
+30_wiki/tools/tool-alt-data-free.md                     {'web': 'Google Trends, Reddit, Glassdoor, App Store APIs'}       missing  
+30_wiki/tools/tool-alt-data-overview.md                 {'web': 'Alternative data for hedge funds (ExtractAlpha, Greenwich Associates, Neudata 2025)'} missing  
+30_wiki/tools/tool-alt-data-overview.md                 {'web': 'Exploding Topics - How Hedge Funds Use Alternative Data'} missing  
+30_wiki/tools/tool-ci-define-phase.md                   {'web': 'Competitive Intelligence Alliance KIT/KIQ methodology'}  missing  
+30_wiki/tools/tool-ci-implement-phase.md                {'web': 'CI distribution best practices (CI Alliance)'}           missing  
+30_wiki/tools/tool-cognitive-bias-12-check.md           {'来源': '消化全库后提炼'}                                                 missing  
+30_wiki/tools/tool-decision-delay-intuition.md          {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}          missing  
+30_wiki/tools/tool-decision-outside-view.md             {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}          missing  
+30_wiki/tools/tool-demand-agent-auto-verify.md          {'web': 'CRV 2026 time-boxed hypothesis testing'}                 missing  
+30_wiki/tools/tool-demand-agent-case-match.md           {'web': 'ODI framework cross-case comparison'}                    missing  
+30_wiki/tools/tool-demand-agent-l4-case-match.md        30_wiki/cases/case-demand-*.md                                    missing  
+30_wiki/tools/tool-demand-agent-multi-hypothesis.md     {'web': 'Swarm multi-agent architecture (LangGraph)'}             missing  
+30_wiki/tools/tool-demand-agent-signal-substitute.md    {'web': 'Qualz.ai 2026 LLM-based user interview analysis'}        missing  
+30_wiki/tools/tool-demand-agent-signals.md              {'web': 'thrv 2025 segmentation methods'}                         missing  
+30_wiki/tools/tool-demand-agent-signals.md              {'web': 'Reddit/Glassdoor public data analysis'}                  missing  
+30_wiki/tools/tool-demand-report-template.md            https://www.coze.cn/s/434bq-dCV6c/（一堂Agent输出的智慧药柜报告）              missing  
+30_wiki/tools/tool-devils-advocacy.md                   {'web': "CIA Tradecraft Primer - Devil's Advocacy"}               missing  
+30_wiki/tools/tool-dns-intelligence.md                  {'web': 'DNSDumpster, crt.sh, whois.domaintools.com'}             missing  
+30_wiki/tools/tool-dns-intelligence.md                  {'web': 'OSINT DNS analysis techniques'}                          missing  
+30_wiki/tools/tool-first-principles-assumption-classify.md {'来源': 'Aristotle, Elon Musk'}                                    missing  
+30_wiki/tools/tool-google-dorking.md                    {'web': 'Google advanced search operators'}                       missing  
+30_wiki/tools/tool-google-dorking.md                    {'web': 'OSINT search techniques'}                                missing  
+30_wiki/tools/tool-indicators-signposts.md              {'web': 'CIA Tradecraft Primer - Indicators'}                     missing  
+30_wiki/tools/tool-key-assumptions-check.md             {'web': 'CIA Tradecraft Primer - Key Assumptions Check'}          missing  
+30_wiki/tools/tool-media-verification-overview.md       {'web': 'OSINT media verification best practices (Defcon Level)'} missing  
+30_wiki/tools/tool-media-verification-overview.md       {'web': 'Chronolocation and geolocation verification techniques'} missing  
+30_wiki/tools/tool-metadata-extraction.md               {'web': 'ExifTool official docs'}                                 missing  
+30_wiki/tools/tool-metadata-extraction.md               {'web': 'OSINT metadata analysis techniques'}                     missing  
+30_wiki/tools/tool-osint-maltego.md                     {'web': 'Maltego official docs'}                                  missing  
+30_wiki/tools/tool-osint-maltego.md                     {'web': 'OSINT tools comparison 2026'}                            missing  
+30_wiki/tools/tool-osint-overview.md                    {'web': 'OSINT tools 2025-2026 comparison'}                       missing  
+30_wiki/tools/tool-osint-overview.md                    {'web': 'OSINT Framework (osintframework.com)'}                   missing  
+30_wiki/tools/tool-osint-sherlock.md                    {'web': 'Sherlock GitHub (sherlock-project/sherlock)'}            missing  
+30_wiki/tools/tool-osint-sherlock.md                    {'web': 'OSINT tools comparison 2026'}                            missing  
+30_wiki/tools/tool-osint-shodan.md                      {'web': 'Shodan official docs (shodan.io)'}                       missing  
+30_wiki/tools/tool-osint-shodan.md                      {'web': 'OSINT tools comparison 2026'}                            missing  
+30_wiki/tools/tool-osint-spiderfoot.md                  {'web': 'SpiderFoot GitHub (smicallef/spiderfoot)'}               missing  
+30_wiki/tools/tool-osint-spiderfoot.md                  {'web': 'OSINT tools comparison 2026'}                            missing  
+30_wiki/tools/tool-osint-wayback.md                     {'web': 'Internet Archive Wayback Machine (web.archive.org)'}     missing  
+30_wiki/tools/tool-osint-wayback.md                     {'web': 'OSINT tools comparison 2026'}                            missing  
+30_wiki/tools/tool-red-team-analysis.md                 {'web': 'CIA Tradecraft Primer - Red Team Analysis'}              missing  
+30_wiki/tools/tool-reverse-image-search.md              {'web': 'Google Images, TinEye, Yandex Images'}                   missing  
+30_wiki/tools/tool-reverse-image-search.md              {'web': 'OSINT media verification techniques'}                    missing  
+30_wiki/tools/tool-ROI决策评估画布.md                         00_inbox/_vlm_reprocess/_batch_科学决策/一堂-科学决策-ROI决策评估画布.png         typo     00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-ROI决策评估画布.png
+30_wiki/tools/tool-strategy-12-word-test.md             00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §12                                 missing  
+30_wiki/tools/tool-strategy-competition-traps.md        00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §35-36                              missing  
+30_wiki/tools/tool-strategy-five-see-three-set.md       00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §71                              missing  
+30_wiki/tools/tool-strategy-four-layers.md              00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §20-22                              missing  
+30_wiki/tools/tool-strategy-four-moves.md               00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §37-40                              missing  
+30_wiki/tools/tool-strategy-gap-analysis.md             00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §25-26                           missing  
+30_wiki/tools/tool-strategy-nine-problems.md            00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §11-20                           missing  
+30_wiki/tools/tool-strategy-pareto.md                   00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §64                              missing  
+30_wiki/tools/tool-strategy-sentence-formula.md         00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §18                                 missing  
+30_wiki/tools/tool-strategy-three-horizons.md           00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §67, §104                        missing  
+30_wiki/tools/tool-Truman-Feature特性层训练法.md              source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-Skill全生命周期管理.md               source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-XY-Problem识别与真实问题定位.md        source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-个人判断力系统建设（达克效应应对）.md          source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-人在环渐进自动化策略.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-低质量动作识别与拒绝.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-判断力产品化与系统赋能.md                source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-双三角模型应用.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-多Agent通信协作方案.md               source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-开源模型与商业模型融合方案.md              source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-技术社区严肃提问法.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-提示词优化底层方法.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-数学题与语文题区分法.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-本地记忆与云端记忆管理.md                source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-知识库最佳实践构建.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-短视频自动化上传工作流.md                source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-科学提问法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-职场异步协作提问法.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-语义对齐沟通法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-Truman-问题定义澄清法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-yitang-web-scraping-research.md      https://github.com/h4ckf0r0day/awesome-ai-web-scraping            missing  
+30_wiki/tools/tool-yitang-web-scraping-research.md      https://www.clay.com/blog/web-scraper-best-tools                  missing  
+30_wiki/tools/tool-yitang-web-scraping-research.md      https://blog.apify.com/firecrawl-vs-apify/                        missing  
+30_wiki/tools/tool-yitang-web-scraping-research.md      https://www.ropesgray.com/en/insights/alerts/2026/05/web-scraping-in-the-age-of-ai-guidance-for-data-owners-and-scrapers missing  
+30_wiki/tools/tool-yitang-web-scraping-research.md      https://cnil.fr/en/legal-basis-legitimate-interest-focus-sheet-measures-implement-case-data-collection-web-scraping missing  
+30_wiki/tools/tool-一堂-business-prediction-15-char.md    10_raw/sources/src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt - 00_inbox/一堂-商业预判课-Truman-口述.txt - 00_inbox/一堂-商业预判课-truman-笔记.txt missing  
+30_wiki/tools/tool-一堂-five-step-validation.md           10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt - 00_inbox/一堂-产品内核验证课-Truman-口述.txt - 00_inbox/一堂-产品内核验证课-truman-笔记.txt typo     00_inbox/一堂-产品内核验证课-truman-笔记.txt
+30_wiki/tools/tool-一堂-hypothesis-validation-three-axe.md 10_raw/sources/src_20260619_ecbf72a3_00_inbox_一堂_关键假设课_truman_笔记.txt - 00_inbox/一堂-关键假设课-truman-口述.txt - 00_inbox/一堂-关键假设课-truman-笔记.txt typo     00_inbox/一堂-关键假设课-truman-笔记.txt
+30_wiki/tools/tool-一堂-kernel-three-questions.md         10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt - 00_inbox/一堂-产品内核验证课-Truman-口述.txt - 00_inbox/一堂-产品内核验证课-truman-笔记.txt typo     00_inbox/一堂-产品内核验证课-truman-笔记.txt
+30_wiki/tools/tool-一堂-product-kernel-add-subtract.md    10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt - 00_inbox/一堂-产品内核实操课-Truman-口述.txt - 00_inbox/一堂-产品内核实操课-truman-笔记.txt typo     00_inbox/一堂-产品内核实操课-truman-笔记.txt
+30_wiki/tools/tool-一堂-product-kernel-canvas.md          10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt - 00_inbox/一堂-产品内核验证课-truman-笔记.txt - 00_inbox/一堂-产品内核实操课-truman-笔记.txt typo     00_inbox/一堂-产品内核实操课-truman-笔记.txt
+30_wiki/tools/tool-一堂-spectrum-positioning.md           10_raw/sources/src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt - 00_inbox/一堂-商业预判课-Truman-口述.txt - 00_inbox/一堂-商业预判课-truman-笔记.txt missing  
+30_wiki/tools/tool-动力阻力分析.md                            00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-动力阻力分析-用户行为的推拉模型_vlm_desc.md missing  
+30_wiki/tools/tool-半肥猫-ai-research-validation.md        10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt typo     00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+30_wiki/tools/tool-半肥猫-course-to-skill-workflow.md      10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt typo     00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+30_wiki/tools/tool-半肥猫-课程Skill化的八步工作流.md                10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md typo     00_inbox/半肥猫-AI学习落地-口述.md
+30_wiki/tools/tool-半肥猫-边学边练边沉淀的AI学习法.md                 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md typo     00_inbox/半肥猫-AI学习落地-口述.md
+30_wiki/tools/tool-单元模型-单商圈.md                          00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈_vlm_desc.md              missing  
+30_wiki/tools/tool-场景推演.md                              00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-场景推演-还原用户真实使用场景_vlm_desc.md missing  
+30_wiki/tools/tool-审美工具箱.md                             00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-审美工具箱-产品审美的诊断和提升工具集合_vlm_desc.md missing  
+30_wiki/tools/tool-最佳实践收集.md                            00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践收集-系统性收集团队/行业的最佳做法_vlm_desc.md missing  
+30_wiki/tools/tool-最佳实践池子.md                            00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践池子-建立你的最佳实践知识库_vlm_desc.md missing  
+30_wiki/tools/tool-月白-AIGC产品白底图制作.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC人群画像驱动详情页规划.md                source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC反向拆解法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC文字大小精确控制.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC模型选型决策法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC海报信息优先级排序法.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC生成人物证件照.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-AIGC设计作业复盘法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-PPT内容框架AIGC生成法.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-月白-PPT风格锁定工作流.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-RGB转CMYK印刷预检.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-RGB转CMYK色彩校准法.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-月白-Token效价比决策公式.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-Token效价比决策法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-产品替换式场景合成法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-产品白底图标准化制作.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-产品风格选择：测而非定.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-供应商信息对齐清单法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-像素图高清重绘修复法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-光影灰度控制能力构建.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-具体化优点萃取与复用.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-分层自洽海报生成法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-包材工艺参数核对法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-印刷DPI标准设置.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-叙事性场景海报构建.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-口喷作图工作流.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-月白-口喷式设计工作流.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-月白-口述作图法（口喷设计）.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-图生图产品替换与场景合成.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-基于白底图做动作延展.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-基于需求拆解找设计参考.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-多语种专业名词提示词策略.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-多语言提示词精准法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-多语言提示词降幻觉法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-实物包装产业链实践.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-实物包装落地训练法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-封面情绪转化法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-月白-小红书双重搜索法.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-月白-小红书封面趋势判断法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-小红书平台内容策略：从美图经济到沙雕梗图.md           source_unknown                                                    missing  
+30_wiki/tools/tool-月白-工厂对接信息清单制作.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-左手Cubox右手里程碑学习法.md                source_unknown                                                    missing  
+30_wiki/tools/tool-月白-手机外设计逻辑切换法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-文件命名与平台适配规范.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-文创材质成本调研与精益选择.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-月白-文创材质调研与精益选择.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-新媒体热点物料快速迭代法.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-新手设计师基本功训练法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-最佳实践素材收集法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-模型性价比选型决策.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-用AIGC做设计专家批评复盘.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-月白-电商场景图三类分类法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-电商场景图三类构建法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-电商白底图生成与高清处理.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-电商白底图生成与高清重绘.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-电商详情页起承转合架构法.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-短视频封面-音量战争-设计法.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-月白-短视频封面一秒吸睛法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-短视频封面高亮吸睛法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-社群直播海报利益点提炼法.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-月白-精准共用提示词撰写.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-精准提示词撰写法.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-月白-精准提示词消除模型幻觉.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-精准改图提示词写法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-纳米级抄大师训练法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-线下实体门店设计真实体感验证.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-月白-行业配色快速确定法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-月白-表情包风格筛选与确定.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-设计参考图精准定位法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-设计基本功回归法.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-月白-设计项目里程碑拆解法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-课程资料文件命名规范.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-月白-里程碑思维-找对标优先于做设计.md                source_unknown                                                    missing  
+30_wiki/tools/tool-月白-里程碑思维拆解设计流程.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-月白-风格探索试错法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-个人IP的重新定义与输出策略.md                 source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-内容创作中的观察训练法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-判断工作价值的交易成本视角.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md     source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-阅读重读机制：与书籍的-因缘-相遇.md              source_unknown                                                    missing  
+30_wiki/tools/tool-李诞-面对过去错误的平静心法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-水水-保持系统冗余.md                         source_unknown                                                    missing  
+30_wiki/tools/tool-水水-利用叙事驱动决策.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-利用基因漂变视角.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-区分风险与不确定性.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-水水-接受发散性世界观.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-构建自利叙事.md                         source_unknown                                                    missing  
+30_wiki/tools/tool-水水-用感性维度构建溢价.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-水水-练习坦然说不知道.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-警惕概率虚妄安全感.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-水水-警惕错误归因.md                         source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别关键偶然因素.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别数据折磨陷阱.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别模型局限性.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别自证预言陷阱.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别超级传播者风险.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-水水-识别饥饿效应.md                         source_unknown                                                    missing  
+30_wiki/tools/tool-水水-避免原生家庭万能归因.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-水水-降低故事逻辑要求.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-用户分层.md                              00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-用户分层-按价值和行为细分用户群_vlm_desc.md missing  
+30_wiki/tools/tool-用户视角.md                              00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-用户视角-跳出产品思维看用户_vlm_desc.md missing  
+30_wiki/tools/tool-纪浩-Agent技能市场设计法.md                   10_raw/sources/src_20260619_e7b6aca7_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_结构化.md - 00_inbox/纪浩-AI协作方法论-口述.md - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md typo     00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
+30_wiki/tools/tool-纪浩-AI工作空间与导诊台设计法.md                  10_raw/sources/src_20260619_e7b6aca7_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_结构化.md - 00_inbox/纪浩-AI协作方法论-口述.md - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md typo     00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
+30_wiki/tools/tool-纪浩-Do-first-PDCA渐进迭代法.md             10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md typo     00_inbox/纪浩-AI协作方法论-口述.md
+30_wiki/tools/tool-纪浩-problem-validation-four-checks.md 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md typo     00_inbox/纪浩-AI协作方法论-口述.md
+30_wiki/tools/tool-纪浩-日志驱动排查法.md                        10_raw/sources/src_20260619_71c86250_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_结构化.md - 00_inbox/纪浩-AI协作方法论-口述.md - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md typo     00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
+30_wiki/tools/tool-纪浩-真需求四要素验证法.md                      10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md typo     00_inbox/纪浩-AI协作方法论-口述.md
+30_wiki/tools/tool-行业分析画布.md                            00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-行业分析画布-系统性理解行业结构_vlm_desc.md missing  
+30_wiki/tools/tool-需求挖掘.md                              00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-需求挖掘-从用户身上挖出真实需求_vlm_desc.md missing  
+30_wiki/tools/tool-项目背景分析.md                            00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-项目背景分析-启动前的环境扫描_vlm_desc.md missing  
+30_wiki/tools/tool-马易-AI任务拆解提升控制度.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI搜索公网数据增强（合规边界）.md               source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI答疑运营风格适配.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI能力团队复制.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地前置条件验证.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地四阶段验证法.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地场景识别-拆工作流找场景.md               source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地场景识别与拆分.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地能力内化训练.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI落地认知速成-最佳实践学习法.md               source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI项目上线-先平行再独行.md                  source_unknown                                                    missing  
+30_wiki/tools/tool-马易-AI项目需求拆解筛选.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-RPA数据整合法.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-中国企业AI落地五步法.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-低置信度样本黄金漏斗处理.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-马易-公寓获客自跑通原则.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-马易-关键假设识别与验证.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-马易-减少输入噪音法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-马易-判断标准快速产出法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-马易-工作流拆解找场景.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-平台模式验证法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-马易-成为首位F工程师.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-数字员工FD拆解落地.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-数据存储架构选择.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-数据标注正确法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-马易-时间序列大模型场景识别.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-最小场景优先落地法.md                      source_unknown                                                    missing  
+30_wiki/tools/tool-马易-深度沉浸需求挖掘.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-痛点驱动的数字化.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-知识库-回答技巧双建设.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-视频转化关键要素标注校验.md                   source_unknown                                                    missing  
+30_wiki/tools/tool-马易-销售智能体体系搭建路径.md                    source_unknown                                                    missing  
+30_wiki/tools/tool-马易-隐性知识萃取与模型化.md                     source_unknown                                                    missing  
+30_wiki/tools/tool-马易-隐私安全分层解决.md                       source_unknown                                                    missing  
+30_wiki/tools/tool-马易-需求创造验证法.md                        source_unknown                                                    missing  
+30_wiki/tools/tool-马易-风口痛点识别法.md                        source_unknown                                                    missing  
+30_wiki/tools/yt-tool-unit-model-ai-assisted.md         source_unknown                                                    missing  
+30_wiki/tools/yt-tool-unit-model-benchmark.md           source_unknown                                                    missing  
+30_wiki/tools/yt-tool-unit-model-construction.md        source_unknown                                                    missing  
+30_wiki/tools/yt-tool-unit-model-dynamic.md             source_unknown                                                    missing  
+30_wiki/tools/yt-tool-unit-model-selection.md           source_unknown                                                    missing  
+30_wiki/_archive/concept-一堂-business-prediction.md      00_inbox/一堂-商业预判课-Truman-口述.txt                                   missing  
