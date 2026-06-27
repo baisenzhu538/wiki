@@ -20,6 +20,8 @@ related:
   - src_unknown
   - src_unknown
   - src_unknown
+---
+
 ## 原始表述
 
 > "LLM没有时间概念，它不知道现在是2026年还是2024年，也不知道某个事件是否已经发生。"——纪浩在AI共创社分享中提出的一个被大多数人忽视的隐形风险。
@@ -62,7 +64,7 @@ related:
 
 ## 关联
 
-- [[skill-ai-info-literacy-three-layer]]——AI信息素养三层模型，识别信息时效性
-- [[concept-llm-training-data-cutoff]]——LLM训练数据截止时间概念
-- [[tool-rag-temporal-filtering]]——RAG时间过滤工具
-- [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区，技术与需求的混淆
+- [[yt-five-step-method]]——一堂五步法核心概念
+- [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区
+- [[dk-demand-pitfall-indonesia-insurance]]——印尼寿险场景错配案例
+- [[dk-strategy-02-three-paradoxes]]——战略三悖论，战略与执行的断层
