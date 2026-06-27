@@ -121,7 +121,7 @@ tags:
 | 跨阶段信息丢失 | 前一阶段失败原因没有记录 | 没有失败模式库 | 每次校验失败都写入卡片或 checklist |
 | 过度校验扼杀创新 | 每个想法都要跑完五步 | 没有区分高 stakes 与低 stakes | 用 stakes 大小决定校验深度 |
 
-## 关联
+## 与其他知识的关联
 
 - [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区，技术能力≠市场需求
 - [[dk-modeling-ai-without-judgment]]——AI建模中判断力缺失问题

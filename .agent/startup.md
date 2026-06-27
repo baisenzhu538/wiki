@@ -17,12 +17,27 @@
 
 > 反面教材：黄药师 2026-06-21 建检索方案时直接写代码，浪费一个版本。补调研后发现 MOC+BM25+RRF 才是正解。
 
-## 零、启动动作（3 步，3 分钟）
+## 零之一：知识库进化方法论（2026-06-27 新增）
+
+本厂知识库不是静态仓库，而是持续进化的系统。所有 Agent 必须理解以下两个方法论：
+
+| 模型 | 文件 | 一句话 |
+|:---|:---|:---|
+| 对话驱动知识库进化 | `60_feedback/methods/method-dialogue-driven-kb-evolution.md` | 用户的元反馈触发跨域桥接补深挖 |
+| 冷热混合进化 | `60_feedback/methods/method-systematic-dialogue-kb-evolution-hybrid.md` | 系统扫描发现机会，对话创造高价值桥接 |
+
+**当前机制**：
+- 每周一 9:07 自动生成 `60_feedback/auto/kb-evolution-signals-weekly.md`；
+- 王语嫣从报告中挑选 Top 候选，交由用户一句话决策；
+- 热进化进入 `method-dialogue-driven-kb-evolution` 五环流程，最终更新任务单、诊断报告、`30_wiki/` 卡片。
+
+## 零、启动动作（4 步，4 分钟）
 
 1. **确认你是谁** → 读 `.agent/<角色>-context.md`（不知道角色？先读 `90_control/AGENTS.md` 判断）
 2. **🆕 读 Vault 实时状态** → `Read 90_control/vault-status.md`（一页纸：域×类型矩阵 + 最近 48h 变更 + 质量提示。**审查/裁决前必读，避免基于过时信息做判断**）
-3. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
-4. **领任务** → 读 `70_product/tasks/dashboard.md`，找自己的任务
+3. **🆕 读知识库进化方向** → `Read .agent/kb-evolution-direction.md`（当前进化方向、方法论、各角色职责）
+4. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
+5. **领任务** → 读 `70_product/tasks/dashboard.md`，找自己的任务
 
 > ⚠️ **本次会话结束前，必须回答三问（见 CLAUDE.md 末尾）**：
 > ① 今天产生了什么新资产？ ② 今天发现了什么新问题/阻塞？ ③ 下次启动最需要记住什么？**不答完不算完成。**
@@ -87,16 +102,16 @@
 
 ---
 
-## 三、当前谁在做什么？（2026-06-19）
+## 三、当前谁在做什么？（2026-06-27）
 
 | 角色 | 代号 | 运行位置 | 当前任务 | 状态 |
 |:--|:--|:--|:--|:--:|
-| 架构师 | 欧阳锋 | Obsidian | 月度抽检模式 | ✅ |
-| 构建者 | 黄药师 | WSL tmux | KF-020+021 全修 / S4-1 aliases / 决策域研究 / 待命 | ✅ |
-| 生产者 | 老顽童 | WSL tmux | 第二十四节 5 张卡返工 diagnostic_signals | 🔴 阻塞 |
-| 顾问 | 王语嫣 | Hermes → 飞书 | 六阶段全库审计闭环 | ⏳ |
-| 多模态 | 洪七公 | Hermes → 飞书 | 待命 | ⏸️ |
-| 发布者 | 段王爷 | Hermes → 飞书 | 待命 | ⏸️ |
+| 架构师 | 欧阳锋 | Kimi Code CLI | 月度抽检模式；按需终审 P0 级 framework 卡 | ✅ |
+| 构建者 | 黄药师 | Claude Code（Windows 终端） | KDO 基建 / kdo index --rebuild / kdo lint / 决策域+需求分析域+五步法子域 domain digest 待建 | 🟡 |
+| 生产者 | 老顽童 | Hermes CLI（Kimi API） | 生产刻意练习域 12 张卡 + 渠道增长域 16-17 张卡（含 3 张跨域桥接卡） | 🟡 生产中 |
+| 顾问 | 王语嫣 | Kimi Code CLI | 入口把关 / 跨域桥接设计 / 每周进化信号报告 / 成品验收 | 🟢 活跃 |
+| 多模态 | 洪七公 | Hermes agent → 飞书 | 待命 | ⏸️ |
+| 发布者 | 段王爷 | Hermes agent → 飞书 | 待命 | ⏸️ |
 
 ### 当前阻塞项
 

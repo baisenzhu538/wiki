@@ -102,7 +102,7 @@ Y 模型教人怎么科学决策——但没教人识别"不该用科学方法�
 
 ---
 
-## 关联
+## 与其他知识的关联
 
 - [[dk-ai-judgment-human-responsibility]]——人做判断AI做生产，判断力是核心
 - [[dk-ai-judgment-programmer-paradox]]——程序员的AI悖论，达克效应与时机判断

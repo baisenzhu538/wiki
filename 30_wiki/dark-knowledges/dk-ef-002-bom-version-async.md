@@ -71,7 +71,7 @@ trust_level: medium
 - **README.md 版本对照表**：项目根目录维护一张"当前正确版本"清单，新接手的人第一眼就能看到
 - **改版同步检查清单**：改了原理图 → 检查 BOM → 检查固件 pin define → 检查 Gerber，不能漏任何一环
 
-## 关联
+## 与其他知识的关联
 
 - [[dk-ef-001-sn74lvc2g07-open-drain]]——开漏输出陷阱，广冷红外板调试系列
 - [[dk-ef-003-hand-soldering-bom-divergence]]——手工焊接BOM偏差，生产调试陷阱

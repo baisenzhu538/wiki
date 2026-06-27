@@ -18,7 +18,9 @@ blockers:
   - "🆕 任务单已追加3张跨域桥接卡：framework-yitang-channel-unit-economics、concept-yitang-channel-lean-validation-bridge、framework-ai-deliberate-practice-loop；待老顽童生产"
   - "🆕 王语嫣与用户共同提炼方法论模型：method-dialogue-driven-kb-evolution（对话驱动知识库进化五环模型），已写入 60_feedback/methods/"
   - "🆕 王语嫣与用户共同提炼第二方法论模型：method-systematic-dialogue-kb-evolution-hybrid（冷热混合进化模型），明确系统扫描负责发现机会、对话负责创造高价值桥接"
-next_session_hint: "下一步：① 老顽童按更新后任务单生产刻意练习域12张卡+渠道增长域16-17张卡（含3张跨域桥接卡）；② 王语嫣按九层深挖+跨域桥接标准验收；③ 黄药师继续kdo index/lint基建；④ 欧阳锋按需终审P0级framework卡；⑤ 王语嫣设计并试运行 kb-evolution-signals 周报机制；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
+  - "🆕 每周一 9:07 定时任务已创建（cron id: 011ab8b1），自动生成 kb-evolution-signals-weekly.md"
+  - "🆕 共享文件已创建：.agent/kb-evolution-direction.md（所有角色必读）"
+next_session_hint: "下一步：① 老顽童按更新后任务单生产刻意练习域12张卡+渠道增长域16-17张卡（含3张跨域桥接卡）；② 王语嫣按九层深挖+跨域桥接标准验收；③ 黄药师继续kdo index/lint基建；④ 欧阳锋按需终审P0级framework卡；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

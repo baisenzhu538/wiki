@@ -32,12 +32,14 @@ trust_level: medium
 
 | # | 标准 section 标题 | 内容要求 |
 |---:|:---|:---|
-| 1 | 原始表述 | 这个暗知识最初是在什么场景、由谁、以什么方式说出来的？还原一句或一段话。 |
-| 2 | 使用场景 | 在什么业务/决策/协作场景下，这个暗知识最容易被触发？ |
-| 3 | 操作方法 | 如果要把这个暗知识用起来，具体步骤是什么？可以 checklist 化。 |
-| 4 | 适用边界 | 这个暗知识在什么情况下会失效？反面情况是什么？ |
-| 5 | 为什么值钱 | 掌握这个暗知识能带来什么实际收益？为什么不是常识？ |
-| 6 | 关联 | 链接到相关的 concept、framework、tool、case（至少 1–3 个）。 |
+| 1 | `## 原始表述` | 这个暗知识最初是在什么场景、由谁、以什么方式说出来的？还原一句或一段话。 |
+| 2 | `## 使用场景` | 在什么业务/决策/协作场景下，这个暗知识最容易被触发？ |
+| 3 | `## 操作方法` | 如果要把这个暗知识用起来，具体步骤是什么？可以 checklist 化。 |
+| 4 | `## 适用边界` | 这个暗知识在什么情况下会失效？反面情况是什么？ |
+| 5 | `## 为什么值钱` | 掌握这个暗知识能带来什么实际收益？为什么不是常识？ |
+| 6 | `## 与其他知识的关联` | 链接到相关的 concept、framework、tool、case（至少 1–3 个）。 |
+
+**⚠️ 标题必须一字不差。** lint 只认这 6 个标题。`## 关联`、`## 核心洞察`、`## Condense` 等都不能通过 lint。
 
 ## 当前问题
 
@@ -99,7 +101,24 @@ trust_level: medium
 
 ### 范围
 
-剩余约 **72 张** dark-knowledges 卡片，当前产生 **862 个 section 缺失 ERROR**。
+剩余约 **62 张** dark-knowledges 卡片，当前产生 **824 个 section 缺失 ERROR**（试点+第一批 15 张修复后）。
+
+### 第一批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-tool-as-phased-validator` | ✅ 通过 | 补使用场景、适用边界、关联 |
+| 2 | `dk-modeling-question-scaffold-not-answer` | ✅ 通过 | 补使用场景、适用边界、关联 |
+| 3 | `dk-ef-004-missing-diagnostic-firmware` | ✅ 通过 | 补使用场景、适用边界、关联 |
+| 4 | `dk-ef-003-hand-soldering-bom-divergence` | ✅ 通过 | 补使用场景、适用边界、关联 |
+| 5 | `dk-ef-002-bom-version-async` | ✅ 通过 | 补使用场景、适用边界、关联 |
+| 6 | `dk-ai-judgment-human-responsibility` | ✅ 通过 | 重写 6 标准 section |
+| 7 | `dk-ai-judgment-programmer-paradox` | ✅ 通过 | 重写 6 标准 section |
+| 8 | `dk-decision-value-overrides-roi` | ✅ 通过 | 补使用场景、操作方法、适用边界、关联 |
+| 9 | `dk-my-ai-landing-three-barriers` | ✅ 通过 | 重写 6 标准 section |
+| 10 | `dk-truman-iteration-to-aesthetic-ceiling` | ✅ 通过 | 重写 6 标准 section |
+
+第一批 10 张 + 试点 5 张共 15 张已修复，lint ERROR 从 **862 降到 824**。
 
 ### 分批策略
 

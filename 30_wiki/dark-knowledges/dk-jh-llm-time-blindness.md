@@ -62,7 +62,7 @@ related:
 - **RAG系统优化**：理解LLM的时间盲症，可以更好地设计RAG系统的时效性过滤机制。
 - **提示工程效率**：在prompt中注入时间信息，可以显著提高时间敏感查询的准确性。
 
-## 关联
+## 与其他知识的关联
 
 - [[yt-five-step-method]]——一堂五步法核心概念
 - [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区
