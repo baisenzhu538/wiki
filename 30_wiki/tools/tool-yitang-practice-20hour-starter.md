@@ -2,14 +2,15 @@
 id: tool-yitang-practice-20hour-starter
 type: tool
 title: 20 小时刻意练习入门法：快速达到够用水平
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
 confidence: 0.75
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:

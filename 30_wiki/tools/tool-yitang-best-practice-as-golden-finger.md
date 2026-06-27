@@ -2,14 +2,15 @@
 id: tool-yitang-best-practice-as-golden-finger
 type: tool
 title: 最佳实践临摹法：早期快速提升的「金手指」
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
 confidence: 0.78
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
@@ -38,7 +39,7 @@ related:
 
 ## 核心逻辑
 
-Truman 在带课和自我训练时发现一个反直觉现象：**多数人在动手前并不看市场头部作品，因此只要你能把最佳实践找出来、稍微建个模、临摹几遍，第一次出手就能超过 80% 的同行。**
+Truman 在带课和自我训练时发现一个反直觉现象：**多数人在动手前并不看市场头部作品，因此只要你能把最佳实践找出来、稍微建个模、临摹几遍，第一次出手就能超过 80% 的同行 `[conf=0.75, source=Truman 口述/经验估算]`。**
 
 这背后的机制是：
 

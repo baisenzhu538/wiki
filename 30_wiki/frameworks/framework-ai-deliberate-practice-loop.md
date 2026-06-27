@@ -2,7 +2,7 @@
 id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
@@ -10,7 +10,8 @@ domain:
 confidence: 0.78
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:

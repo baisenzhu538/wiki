@@ -2,7 +2,7 @@
 id: case-yitang-ai-painting-commercialization
 type: case
 title: 案例：崔磊如何通过 AI 绘画练习实现商业化交付
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
@@ -10,7 +10,8 @@ domain:
 confidence: 0.72
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:

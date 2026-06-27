@@ -2,14 +2,15 @@
 id: framework-yitang-three-ring-ability-focus
 type: framework
 title: 三环能力聚焦法：从 30 个能力中锁定 3 个重点
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
 confidence: 0.82
 trust_level: medium-high
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
@@ -58,6 +59,8 @@ related:
 - 内圈最多 3 个核心能力
 - 每个核心能力最多 3-5 个子能力
 - 当下重点练习点 ≤ 15 个
+
+> 这些数量约束来自 Truman 基于个人教学与职业规划的实践经验，属于经验法则，用于限制练习焦点的扩散，并非严格实验结论。
 
 三环不是能力分类表，而是**投资决策模型**：把练习时间当作资本，只投向回报率最高的标的。
 

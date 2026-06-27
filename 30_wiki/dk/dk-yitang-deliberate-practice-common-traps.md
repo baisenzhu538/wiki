@@ -2,14 +2,15 @@
 id: dk-yitang-deliberate-practice-common-traps
 type: dk
 title: 刻意练习常见陷阱：老学员最容易踩的 7 个坑
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
 confidence: 0.80
 trust_level: medium-high
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
@@ -66,7 +67,7 @@ Truman 在口述中用 Leo 的案例说明：一个人三年里只有前半年�
 
 **症状**
 
-- 做一件事超过 6-12 个月，质量没有明显提升。
+- 做一件事超过 6-12 个月 `[conf=0.80, source=Truman 口述/经验观察]`，质量没有明显提升。
 - 凭直觉就能完成，越做越顺手，但能力边界没有外扩。
 - 被评价「你这两年就是把第一年的经验重复了三遍」。
 
@@ -218,7 +219,7 @@ Truman 在口述中用 Leo 的案例说明：一个人三年里只有前半年�
 2. **修复动作假设学习者具备基础元认知能力**，能判断自己「会不会」。若基础概念尚未建立，需先补认知，再进非舒适区。
 3. **身心疲惫期不适合强行进入非舒适区**，此时应降低目标、恢复能量，而不是继续堆练习量。
 4. **带人无章法的前提是你已有可传授的套路**，若管理者自己也没有稳定方法，应先练自己，再带别人。
-5. **7 个坑的修复动作都是短期触发器**，真正的改变需要连续 2-4 周的重复，直到新习惯替代旧习惯。
+5. **7 个坑的修复动作都是短期触发器**，真正的改变需要连续 2-4 周的重复 `[conf=0.75, source=Truman 口述/经验估算]`，直到新习惯替代旧习惯。
 
 ## 与其他知识的关联
 

@@ -2,14 +2,15 @@
 id: framework-yitang-deliberate-practice-1plus4
 type: framework
 title: 刻意练习 1+4 模型：科学成长的操作系统
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
 confidence: 0.85
 trust_level: medium-high
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
