@@ -1,26 +1,21 @@
 ---
-
 id: finance-legal-business-operations
 title: 企业财务-法务-商务运营实务：主题综合索引卡
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- finance
+- business
 source_person: 王语嫣
 source_context: 听脑财务-法务-商务主题摘要综合（6 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_ccba327a-多人-系统费用沟通.md
-  - 10_raw/sources/src_20260614_d1166483-朱总-项目履约沟通.md
-  - 10_raw/sources/src_20260614_83ed5758-多人-进项税处理沟通.md
-  - 10_raw/sources/src_20260614_6e91528d-项目分账与支付对接方案.md
-  - 10_raw/sources/src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划.md
-  - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_ccba327a-多人-系统费用沟通.md
+- 10_raw/sources/src_20260614_d1166483-朱总-项目履约沟通.md
+- 10_raw/sources/src_20260614_83ed5758-多人-进项税处理沟通.md
+- 10_raw/sources/src_20260614_6e91528d-项目分账与支付对接方案.md
+- 10_raw/sources/src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划.md
+- 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -28,12 +23,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
-related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+related: []
 ---
 # 企业财务-法务-商务运营实务（听脑录音综合草稿）
 

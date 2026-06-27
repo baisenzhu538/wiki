@@ -4,30 +4,22 @@ title: 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综�
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- supply-chain
+- beverage
 source_person: 王语嫣
 source_context: 听脑餐饮渠道饮料主题摘要综合（3 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_16c4bf0d-双柚汁产品成本沟通.md
-  - 10_raw/sources/src_20260614_d6ab6fb6-产品调配-口感与成本讨论.md
-  - 10_raw/sources/src_20260614_9b574611-金银花浓缩汁餐饮产品方案.md
-  - 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_16c4bf0d-双柚汁产品成本沟通.md
+- 10_raw/sources/src_20260614_d6ab6fb6-产品调配-口感与成本讨论.md
+- 10_raw/sources/src_20260614_9b574611-金银花浓缩汁餐饮产品方案.md
+- 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-related:
-  - src_unknown
-  - src_unknown
+related: []
 confidence: 0.65
 trust_level: medium
 ---

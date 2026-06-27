@@ -1,23 +1,19 @@
 ---
-
 id: product-business-strategy
 title: 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- product
+- business
 source_person: 王语嫣
 source_context: 听脑产品-商业战略主题摘要综合（3 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md
-  - 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
-  - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
-  - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
-tags:
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md
+- 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
+- 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
+- 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -25,12 +21,7 @@ reviewed_by: 欧阳锋
 confidence: 0.65
 trust_level: medium
 review_date: '2026-06-20'
-related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+related: []
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发
 

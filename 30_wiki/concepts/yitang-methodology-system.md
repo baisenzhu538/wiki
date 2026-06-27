@@ -4,34 +4,30 @@ title: 一堂方法论体系：从科学做事到无限进步
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang
+- methodology
 source_person: 王语嫣
 source_context: 听脑 AI 一堂方法论主题摘要综合提炼
 source_refs:
-  - 10_raw/sources/src_20260614_1be3d76f-一堂-思维模型案例分享.md
-  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
-  - 10_raw/sources/src_20260614_3501eb39-一堂-PCPR模型课程.md
-  - 10_raw/sources/src_20260614_610cbfc3-一堂-新人落地必修课.md
-  - 10_raw/sources/src_20260614_64015d4d-AI数据第一课闲聊篇.mp4.md
-  - 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
-  - 10_raw/sources/src_20260614_70cde3fb-一堂-需求评估方法论.md
-  - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
-  - 10_raw/sources/src_20260614_842be4c9-一堂-Y模型实操探索营.md
-  - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
-  - 10_raw/sources/src_20260614_93ffa2b0-一堂-公司AI转型.md
-  - 10_raw/sources/src_20260614_a25ca678-一堂-AI数据必修课.md
-  - 10_raw/sources/src_20260614_b23e9ae3-波特五力模型-商业分析.md
-  - 10_raw/sources/src_20260614_b65be94b-一堂-IPO模型实操课.md
-  - 10_raw/sources/src_20260614_c944bda5-一堂-案例必修课.md
-  - 10_raw/sources/src_20260614_f2578dfb-一堂-世总会0到1实践.md
-  - 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
-  - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_1be3d76f-一堂-思维模型案例分享.md
+- 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+- 10_raw/sources/src_20260614_3501eb39-一堂-PCPR模型课程.md
+- 10_raw/sources/src_20260614_610cbfc3-一堂-新人落地必修课.md
+- 10_raw/sources/src_20260614_64015d4d-AI数据第一课闲聊篇.mp4.md
+- 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
+- 10_raw/sources/src_20260614_70cde3fb-一堂-需求评估方法论.md
+- 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
+- 10_raw/sources/src_20260614_842be4c9-一堂-Y模型实操探索营.md
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
+- 10_raw/sources/src_20260614_93ffa2b0-一堂-公司AI转型.md
+- 10_raw/sources/src_20260614_a25ca678-一堂-AI数据必修课.md
+- 10_raw/sources/src_20260614_b23e9ae3-波特五力模型-商业分析.md
+- 10_raw/sources/src_20260614_b65be94b-一堂-IPO模型实操课.md
+- 10_raw/sources/src_20260614_c944bda5-一堂-案例必修课.md
+- 10_raw/sources/src_20260614_f2578dfb-一堂-世总会0到1实践.md
+- 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
+- 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -39,13 +35,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
-related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+related: []
 ---
 
 

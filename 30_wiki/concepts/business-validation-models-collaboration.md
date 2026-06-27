@@ -4,27 +4,23 @@ title: AI 时代的业务验证、商业模式与组织协作：主题综合索�
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- business
+- validation
 source_person: 王语嫣
 source_context: 听脑 other 主题摘要综合（11 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
-  - 10_raw/sources/src_20260614_cb61aeca-外卖平台-智能分单系统沟通.md
-  - 10_raw/sources/src_20260614_fd0f5a00-多人-项目联调问题沟通.md
-  - 10_raw/sources/src_20260614_ab09af1c-多人-FD模式解析.md
-  - 10_raw/sources/src_20260614_909802bd-智能设备-外卖对接方案讨论.md
-  - 10_raw/sources/src_20260614_d79b42d1-D同学-AI技术落地案例.md
-  - 10_raw/sources/src_20260614_e38d86d9-一起引擎-由来与初心介绍.md
-  - 10_raw/sources/src_20260614_350272ef-阿瑞老师-AI自习室共学.md
-  - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
-  - 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
-  - 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
+- 10_raw/sources/src_20260614_cb61aeca-外卖平台-智能分单系统沟通.md
+- 10_raw/sources/src_20260614_fd0f5a00-多人-项目联调问题沟通.md
+- 10_raw/sources/src_20260614_ab09af1c-多人-FD模式解析.md
+- 10_raw/sources/src_20260614_909802bd-智能设备-外卖对接方案讨论.md
+- 10_raw/sources/src_20260614_d79b42d1-D同学-AI技术落地案例.md
+- 10_raw/sources/src_20260614_e38d86d9-一起引擎-由来与初心介绍.md
+- 10_raw/sources/src_20260614_350272ef-阿瑞老师-AI自习室共学.md
+- 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
+- 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
+- 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -33,11 +29,8 @@ review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-collaboration-mindset-shift
-  - src_unknown-landing-scene-selection
+- src_unknown-collaboration-mindset-shift
+- src_unknown-landing-scene-selection
 ---
 # 非药柜主题综合知识卡
 

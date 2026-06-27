@@ -1,16 +1,16 @@
 ---
 domain:
-  - src_unknown
-
+- modeling
+- yitang
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 status: enriched
 source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
 source_refs:
-  - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -19,29 +19,21 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 related:
-  - src_unknown-capability-system
-  - src_unknown-three-stages
-  - src_unknown-weapon-library
-  - src_unknown
-  - src_unknown
-  - src_unknown
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown-capability-system
+- '[[modeling-three-stages]]'
+- src_unknown-weapon-library
+tags: []
 diagnostic_signals:
-  - framework_lens: 六段能力段位图
-    follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
-  - framework_lens: 提升路径
-    follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
-  - framework_lens: 段位瓶颈诊断
-    follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
-  - framework_lens: 团队能力分布
-    follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
-  - framework_lens: 段位跃迁风险
-    follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
-
+- framework_lens: 六段能力段位图
+  follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
+- framework_lens: 提升路径
+  follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
+- framework_lens: 段位瓶颈诊断
+  follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
+- framework_lens: 团队能力分布
+  follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
+- framework_lens: 段位跃迁风险
+  follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
 ---
 
 

@@ -4,28 +4,24 @@ title: AI 大航海项目路演：主题综合索引卡
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- ai
+- ' entrepreneurship'
 source_person: 王语嫣
 source_context: 听脑 AI 大航海项目路演主题摘要综合（11 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md
-  - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
-  - 10_raw/sources/src_20260614_852f9158-唐三超-奶糖项目汇报.md
-  - 10_raw/sources/src_20260614_67a2b760-科创号1301-AI应用落地汇报.md
-  - 10_raw/sources/src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md
-  - 10_raw/sources/src_20260614_32622548-无限进步战队-AI内容营销路演.md
-  - 10_raw/sources/src_20260614_cc542987-个人-AI航海成果汇报.md
-  - 10_raw/sources/src_20260614_507e4b9a-AI博客项目-经验分享.md
-  - 10_raw/sources/src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md
-  - 10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md
-  - 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
-  - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
-tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md
+- 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
+- 10_raw/sources/src_20260614_852f9158-唐三超-奶糖项目汇报.md
+- 10_raw/sources/src_20260614_67a2b760-科创号1301-AI应用落地汇报.md
+- 10_raw/sources/src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md
+- 10_raw/sources/src_20260614_32622548-无限进步战队-AI内容营销路演.md
+- 10_raw/sources/src_20260614_cc542987-个人-AI航海成果汇报.md
+- 10_raw/sources/src_20260614_507e4b9a-AI博客项目-经验分享.md
+- 10_raw/sources/src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md
+- 10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md
+- 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
+- 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -34,14 +30,8 @@ review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-collaboration-mindset-shift
-  - src_unknown-landing-scene-selection
-  - src_unknown
+- src_unknown-collaboration-mindset-shift
+- src_unknown-landing-scene-selection
 ---
 # AI 大航海项目路演：主题综合知识卡
 

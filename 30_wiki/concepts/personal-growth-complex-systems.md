@@ -4,35 +4,29 @@ title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- personal-growth
+- complex-systems
 source_person: 王语嫣
 source_context: 听脑个人成长主题摘要综合（6 条录音 meetingSummary）
 source_refs:
-  - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
-  - 10_raw/sources/src_20260614_8d349c5b-超级个体-百万美元架构师.md
-  - 10_raw/sources/src_20260614_82a4fdb9-凯文凯利-必然趋势分享.md
-  - 10_raw/sources/src_20260614_6fb509a4-自我提升-消除模糊.md
-  - 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
-  - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
-tags:
-  - src_unknown
-  - src_unknown
+- 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
+- 10_raw/sources/src_20260614_8d349c5b-超级个体-百万美元架构师.md
+- 10_raw/sources/src_20260614_82a4fdb9-凯文凯利-必然趋势分享.md
+- 10_raw/sources/src_20260614_6fb509a4-自我提升-消除模糊.md
+- 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
+- 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
+tags: []
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 related:
-  - src_unknown-systems-thinking
-  - src_unknown-cognitive-bias-checklist
-  - src_unknown-decision-hygiene
-  - src_unknown-antifragile-checklist
-  - src_unknown-first-principles
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown-systems-thinking
+- src_unknown-cognitive-bias-checklist
+- src_unknown-decision-hygiene
+- src_unknown-antifragile-checklist
+- src_unknown-first-principles
 confidence: 0.65
 trust_level: medium
 ---
