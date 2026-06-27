@@ -60,4 +60,4 @@ updated: 2026-06-27
 - **Pending**: 2
 - **Review Done**: 3 (panproduct-35, p0b-decision-science, p0a-unit-model)
 
-> 老顽童当前待生产任务约 90 张卡：历史批量工单 62 张 + 新域任务 28-29 张。统一队列见 `production-queue.md`。
+> 老顽童当前待生产任务约 97-98 张卡：历史批量工单 62 张 + 新域任务 35-36 张。统一队列见 `production-queue.md`。

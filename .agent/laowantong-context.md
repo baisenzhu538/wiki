@@ -67,9 +67,9 @@ updated: 2026-06-27
 当前队列前 3 项：
 1. `laowantong-batch-2026-06-20-wave1`：门禁快速清理（11 张卡）
 2. `task_20260627_laowantong-deliberate-practice-cards`：刻意练习域 12 张卡（含 1 张 AI 协作桥接 framework）
-3. `task_20260627_laowantong-channel-growth-cards`：渠道增长域 16-17 张卡（含 2 张跨域桥接卡）
+3. `task_20260627_laowantong-channel-growth-cards`：渠道增长域 23-24 张卡（含 2 张跨域桥接卡；案例审计后追加 7 张 case 卡）
 
-**总待生产卡数**：约 90 张（历史批量工单 62 张 + 新任务 28-29 张）。
+**总待生产卡数**：约 97-98 张（历史批量工单 62 张 + 新任务 35-36 张）。
 
 > 旧文件 `70_product/tasks/laowantong-next-tasks.md` 和 `laowantong-batch-2026-06-20.md` 仍保留详细规格，但**领取顺序以 production-queue.md 为准**。
 - **老顽童停车场**：`laowantong/parking-lot.md`（LW-PL-001/002/003）
