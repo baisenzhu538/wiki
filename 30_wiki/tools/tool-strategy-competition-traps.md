@@ -11,8 +11,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
   - '[[tool-yitang-research-company-disassembly]]'
   - '[[tool-yitang-research-best-practice]]'
   - '[[dk-strategy-05-positioning-trap]]'

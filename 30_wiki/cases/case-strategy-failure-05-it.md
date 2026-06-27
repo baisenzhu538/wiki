@@ -10,9 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[tool-strategy-nine-problems]]"
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：市值持续下降
 **战略根因**：共识不足——高层在战略方向上反复横跳，每次换方向都耗费组织资源和市场信心

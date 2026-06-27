@@ -14,8 +14,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
   - '[[tool-yitang-securities-research]]'
   - '[[tool-yitang-security-guard-intel]]'
   - '[[tool-yitang-court-record-search]]'

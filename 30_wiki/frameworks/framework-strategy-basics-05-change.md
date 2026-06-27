@@ -9,8 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[framework-strategy-five-basics]]"
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-five-basics]]"
 ---
 **三种变革方式**（对应不同阶段）：
 - 加外挂：增加新业务模块，不影响旧业务

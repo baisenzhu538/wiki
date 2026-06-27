@@ -10,9 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[tool-strategy-nine-problems]]"
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[tool-strategy-nine-problems]]"
 ---
 **表面问题**：产品迭代速度远慢于对手
 **战略根因**：组织僵化——大公司病。组织架构不适配快速变化的市场，流程成为创新的障碍

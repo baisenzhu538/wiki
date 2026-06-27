@@ -9,8 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[framework-strategy-five-basics]]"
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-five-basics]]"
 ---
 **核心**：BRM（差距→规划→执行）不是一次性的项目，是需要形成肌肉记忆的日常习惯
 **战略洞察两大要素**：速度（多快发现机会和威胁）+ 视野（看多宽——行业/跨行业/全球）

@@ -9,8 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[framework-strategy-brm]]"
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-brm]]"
 ---**三大陷阱**：
 1. 花几百万买来你已经知道的东西（用漂亮的PPT包装）
 2. 方案理论上完美但落地需要你根本不具备的能力

@@ -9,8 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related: "[[framework-strategy-five-basics]]"
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-five-basics]]"
 ---
 **不是做产品，是建生态**：丰田不只造车——供应链伙伴形成深度绑定，对手难以复制
 **竞争优势三层**：

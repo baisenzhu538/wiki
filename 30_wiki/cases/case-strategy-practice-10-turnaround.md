@@ -10,8 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
   - '[[case-strategy-revival-13-bestore]]'
   - '[[case-strategy-practice-12-zero-loss]]'
   - '[[case-strategy-practice-11-third-place]]'

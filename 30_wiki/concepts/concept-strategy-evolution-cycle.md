@@ -10,8 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
   - '[[tool-稀缺资源机会成本比对法]]'
   - '[[yt-barrier-technology-moat]]'
   - '[[yt-business-model-asset-light]]'

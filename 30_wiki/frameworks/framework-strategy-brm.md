@@ -14,10 +14,8 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
   - '[[strategy-domain-digest]]'
   - '[[tool-strategy-gap-analysis]]'
   - '[[tool-strategy-five-see-three-set]]'

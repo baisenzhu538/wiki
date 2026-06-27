@@ -14,8 +14,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-related:
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
   - '[[case-strategy-failure-01-cosmetics]]'
   - '[[case-strategy-failure-07-phone-l]]'
   - '[[case-strategy-failure-06-phone-n]]'

@@ -131,39 +131,15 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[case-smart-medicine-cabinet-business-model-validation|case-smart-medicine-cabinet-business-model-validation]] — source no source
 - [[case-smart-medicine-cabinet-corporate-risk|case-smart-medicine-cabinet-corporate-risk]] — source no source
 - [[case-smart-medicine-cabinet-failure-patterns-library|case-smart-medicine-cabinet-failure-patterns-library]] — source no source
-- [[case-strategy-cool-boiled-water|凉白开：细分垄断——从高考生切入，两年30亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-edward-jones|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-01-cosmetics|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-02-supermarket|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-03-cleaning|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-04-appliance|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-05-it|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-06-phone-n|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-07-phone-l|案例：国产手机L——能力缺失。无软件生态致收购失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-08-video|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-failure-09-boeing|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-fangte-disney|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-lekai-film|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-li-ka-shing|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-longzhong-plan|隆中对：中国最著名的战略规划——成功与失败四因]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
+- [[case-strategy-cool-boiled-water|凉白开：细分垄断——从高考生切入，两年30亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-edward-jones|爱德华琼斯：每个小镇只招一人——0办公位的券商模式]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-01-cosmetics|案例：长尾品类化妆品——方向错误。天花板低+营销浪费]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-02-supermarket|案例：精品超市O——目标错误。高速增长期追求盈利反噬增长]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-03-cleaning|案例：清洁用品L——定位错误。盲目高端丢低端市场]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-04-appliance|案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-05-it|案例：IT公司H——共识不足。高层反复横跳致市值下降]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-06-phone-n|案例：手机公司N——组织僵化。组织不适致迭代缓慢]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-07-phone-l|案例：国产手机L——能力缺失。无软件生态致收购失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-08-video|案例：视频平台B——资源短缺。版权库太弱致转型失败]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-failure-09-boeing|案例：飞机制造公司——机制背离。激励偏财务致安全事故]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-fangte-disney|方特vs迪士尼：集团战略的范围经济——有IP也打不过]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-lekai-film|乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-li-ka-shing|李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-longzhong-plan|隆中对：中国最著名的战略规划——成功与失败四因]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_vlm_desc.md`
-- [[case-strategy-practice-10-turnaround|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-practice-11-third-place|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-practice-12-zero-loss|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-practice-ranpeng-crossborder|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-practice-ranpeng-milk-powder|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- [[case-strategy-shell-oil|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md`
+- [[case-strategy-practice-10-turnaround|案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-practice-11-third-place|案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-practice-12-zero-loss|案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-practice-ranpeng-crossborder|冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-practice-ranpeng-milk-powder|冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- [[case-strategy-shell-oil|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_vlm_desc.md`
-- [[case-strategy-wuxi-suntech|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[case-strategy-xiaobear|小熊电器：跳出行业范式——定位年轻单身男性]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[case-strategy-wuxi-suntech|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[case-strategy-xiaobear|小熊电器：跳出行业范式——定位年轻单身男性]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[case-toc-content-platform-correlation-trap|case-toc-content-platform-correlation-trap]] — source no source
 - [[case-toc-ecommerce-formula-misjudgment|case-toc-ecommerce-formula-misjudgment]] — source no source
 - [[case-toy-cabinet-barrier|案例：线下玩具柜的壁垒困局与突围路径]] — source `src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例`
@@ -301,8 +277,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[concept-smart-medicine-cabinet-supply-chain-validation|concept-smart-medicine-cabinet-supply-chain-validation]] — source no source
 - [[concept-strategy-2024-2026-supplement|2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_30_vlm_desc.md`
-- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[concept-strategy-framework-landscape|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
+- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[concept-strategy-framework-landscape|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md`
 - [[concept-streaming-extraction-pattern|流式提取模式——浏览器虚拟滚动到API分页的映射]] — source `src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"`
 - [[concept-thousand-people-square|concept-thousand-people-square]] — source no source
@@ -912,8 +887,7 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
 - 00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"`
 - [[lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
-- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[yitang-domain-digest|域摘要：一堂知识体系总目]] — source no source
+- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[yitang-domain-digest|域摘要：一堂知识体系总目]] — source no source
 - [[yitang-research-domain-digest|域摘要：调研方法论（90+张卡）]] — source `60_feedback/diagnosis/diag_20260620_调研专题素材验收.md`
 - [[Kimi-月之暗面|Kimi-月之暗面]] — source no source
 - [[YC-Y-Combinator|YC-Y-Combinator]] — source no source
@@ -955,22 +929,15 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[framework-multi-agent-research-architecture|多智能体调研架构：四种模式的对比与选择]] — source `src_unknown`
 - [[framework-ouyangfeng-review-methodology|欧阳锋审查方法论：三阶段架构评审框架]] — source `src_unknown`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_ocr_text.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md`
-- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md`
+- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md`
-- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md`
+- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md`
 - [[framework-structured-analytic-techniques|SATs结构化分析技术：CIA情报分析的八类工具箱]] — source `src_unknown`
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md`
 - 00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md`
@@ -1423,37 +1390,28 @@ _Last updated: 2026-06-27T03:27:57+00:00_
 - [[tool-smart-medicine-cabinet-compliance-checklist|tool-smart-medicine-cabinet-compliance-checklist]] — source no source
 - [[tool-smart-medicine-cabinet-site-selection-guide|tool-smart-medicine-cabinet-site-selection-guide]] — source no source
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md`
+- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_130_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md`
-- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md`
+- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- [[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- [[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md[[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md[[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_82_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md`
-- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md`
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md`
+- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md`
+- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md`
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md`
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tool-Truman-AI场景探索STAR模型|技能：AI场景探索STAR模型]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
