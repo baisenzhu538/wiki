@@ -66,8 +66,9 @@ updated: 2026-06-27
 
 - 每个实例一次只领一件，把状态改为 `claimed-<实例标识>`（如 `claimed-hermes`、`claimed-kimi`）。
 - 当队列中有多个无依赖的 `queued` 任务时，可启动多个老顽童实例并行生产。
+- **临时分流（2026-06-27）**：Hermes 负责历史批量工单 waves 1-5；Kimi 负责 2026-06-27 新标注任务（刻意练习域、渠道增长域、兰毅泛产品组织）及跨域桥接卡。欧阳锋/黄药师无感知。
 
-当前队列前 3 项：
+当前队列前 4 项：
 1. `laowantong-batch-2026-06-20-wave1`：门禁快速清理（11 张卡）
 2. `task_20260627_laowantong-deliberate-practice-cards`：刻意练习域 12 张卡（含 1 张 AI 协作桥接 framework）
 3. `task_20260627_laowantong-channel-growth-cards`：渠道增长域 24-25 张卡（含 2 张跨域桥接卡；案例审计后追加 8 张 case 卡）
