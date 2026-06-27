@@ -11,28 +11,23 @@ ROOT = Path(r"C:\Users\Administrator\Desktop\wiki")
 WIKI = ROOT / "30_wiki"
 
 
-def find_best_match(target: str, candidates: list[str]) -> str:
-    """Return the closest-matching file in candidates, or '' if no good match."""
-    best, best_r = "", 0.0
-    tn = Path(target).name
-    for c in candidates:
-        cn = Path(c).name
-        r = difflib.SequenceMatcher(None, tn, cn).ratio()
-        if r > best_r:
-            best_r = r
-            best = c
-    return best if best_r >= 0.75 else ""
-
-
 def scan():
-    # Build disk file index
-    all_files: set[str] = set()
+    # Build fast index — only source directories where source_refs point
+    src_files: set[str] = set()
+    src_dir_index: dict[str, str] = {}  # filename -> full path
+    for d in ["00_inbox", "10_raw"]:
+        for f in (ROOT / d).rglob("*"):
+            if f.is_file() and ".trash" not in f.parts:
+                rel = str(f.relative_to(ROOT)).replace("\\", "/")
+                src_files.add(rel)
+                src_dir_index[f.name] = rel
+    # Also index vault itself for source_refs that point within wiki
+    vault_files: set[str] = set()
     for f in ROOT.rglob("*"):
         if ".trash" in f.parts or ".obsidian" in f.parts or ".git" in f.parts:
             continue
         if f.is_file():
-            rel = str(f.relative_to(ROOT)).replace("\\", "/")
-            all_files.add(rel)
+            vault_files.add(str(f.relative_to(ROOT)).replace("\\", "/"))
 
     results: list[dict] = []
 
@@ -62,24 +57,37 @@ def scan():
             ref = str(ref).strip()
             if not ref or ref.startswith("src_"):
                 continue
-            if ref in all_files:
+            ref_norm = ref.replace("\\", "/")
+
+            # Check exact match
+            if ref_norm in vault_files or (ROOT / ref_norm).exists():
                 continue
-            # Try as-is
-            if (ROOT / ref).exists():
+
+            # Check filename match in source dirs
+            fn = Path(ref_norm).name
+            if fn in src_dir_index:
+                actual = src_dir_index[fn]
+                results.append({
+                    "card": rel_md, "source_ref": ref,
+                    "category": "typo", "suggestion": actual,
+                })
                 continue
-            # Check without .md suffix
-            if ref.endswith(".md"):
-                alt = ref[:-3]
-                if alt in all_files or (ROOT / alt).exists():
+
+            # Check without .md extension
+            if ref_norm.endswith(".md"):
+                fn2 = fn[:-3]
+                if fn2 in src_dir_index:
+                    actual = src_dir_index[fn2]
+                    results.append({
+                        "card": rel_md, "source_ref": ref,
+                        "category": "typo", "suggestion": actual,
+                    })
                     continue
 
-            suggestion = find_best_match(ref, list(all_files))
-            cat = "typo" if suggestion else "missing"
+            # No match found
             results.append({
-                "card": rel_md,
-                "source_ref": ref,
-                "category": cat,
-                "suggestion": suggestion,
+                "card": rel_md, "source_ref": ref,
+                "category": "missing", "suggestion": "",
             })
 
     return results
