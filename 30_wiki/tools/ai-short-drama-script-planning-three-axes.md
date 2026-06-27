@@ -190,9 +190,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- src_unknown
-- src_unknown
-- src_unknown
+1. **七要素填空易产出"标签化主角"**：七要素表要求"身份、核心欲望、初始劣势"，但若填得笼统（如"赘婿，渴望证明自己"），AI 会套用同题材已有主角模板，人物弧光趋同。框架约束结构，不约束独特性。
+2. **10-15 节点锁定限制即兴钩子**：提前锁定节点能防跑题，但短剧爆款常有"中段配角爆红后临时加戏"的反超预设节点的情况。过度依赖预设节点会错过这类尾部机会。
+3. **"先定终局再倒推"假设结局可独立设计**：实际上结局的"价值主张"应从主角的选择中生长（参见 plot-three-axes 的立意升华 Claim），先定结局再倒推易导致价值观与剧情脱节——终局应是"提炼"而非"设计"。
 
 ### 外部攻击：John Truby — "节点清单不能替代人物欲望"
 
@@ -204,9 +204,9 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- src_unknown
-- src_unknown
-- src_unknown
+1. **去掉七要素前置，直接让 AI 写 30 集**：若产出仍是爆款结构 → 七要素非必要；实际无基地输入的 AI 剧本普遍第 5-10 集跑题，证明基地是必要前置。
+2. **用同一七要素让 3 个不同 AI 写**：若产出高度相似 → 框架决定论成立；实际产出差异主要在台词质感而非结构，说明框架锁结构、AI 决定质感——分工边界成立。
+3. **先写正文再回填三段式**：若回填后与正向策划质量相当 → 三段式顺序非必要；实际先写再回填常出现"终局与前期铺垫矛盾"，证明"先终局再倒推"是必要顺序。
 
 ---
 
@@ -214,18 +214,18 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[ai-short-drama-ice-fire-scripting-compass]]（冰火写本罗盘——本卡"剧本基地"是其子系统）
+- [[ai-short-drama-ice-fire-dissection-compass]]（冰火拆本罗盘——拆本结论喂给本卡"基地"做题材校准）
+- [[ai-short-drama-plot-three-axes]]（剧情三板斧——本卡"剧情终局"需配合"立意升华"）
 
 ---
 
 ## 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[ai-short-drama-framework-three-axes]]（框架三板斧——本卡"内容走向"的节点设计依赖框架）
+- [[ai-short-drama-conflict-three-axes]]（冲突三板斧——本卡"核心阻碍"需用冲突三维设计）
+- [[ai-short-drama-platform-policy-comparison]]（平台政策——本卡"目标平台"选择依赖）
+- [[ai-short-drama-ice-fire-scripting-compass]]（写本罗盘）
 
 ---
 
@@ -243,8 +243,9 @@ diagnostic_signals:
 
 | 锚点 | 来源 | 用途 |
 |---|---|---|
-| **《我在80年代当后妈》可作为基地七要素填充案例** | 10_raw/sources/src_20260613_687c4ec0-transcript.md` 口述 | 题材=年代逆袭；核心欲望=女主摆脱困境；核心阻碍=时代与家庭双重束缚；可用于训练 AI 的"剧本基地"理解 |
-| **30+ 剧本、签约 2 部** | 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613` | 说明"基地→走向→终局"三段式策划可降低 AI 跑题率 |
+| **《我在80年代当后妈》可作为基地七要素填充案例** | `10_raw/sources/src_20260613_687c4ec0-transcript.md` 口述 | 题材=年代逆袭；核心欲望=女主摆脱困境；核心阻碍=时代与家庭双重束缚；可用于训练 AI 的"剧本基地"理解 |
+| **30+ 剧本、签约 2 部** | `10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613` | 说明"基地→走向→终局"三段式策划可降低 AI 跑题率 |
+| **《朱雀堂》2025 年度爆款（外部交叉验证）** | 搜狐/新浪 2026-01 报道 | 2025 年分账 4500 万；可对照本卡三段式拆解其"基地-走向-终局"——但缺原片策划文档，仅作外部锚点 |
 
 > ⚠️ 案例说明：本卡未完整还原《我在80年代当后妈》的 15 个关键节点，仅提示可作为训练样本；具体节点需用户自行拆解。
 
@@ -254,16 +255,15 @@ diagnostic_signals:
 
 ### 原始素材
 
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md`（剧本策划三板斧方法论原始文档，与冰火罗盘共用）
+- `10_raw/sources/src_20260613_687c4ec0-transcript.md`（一堂 2026-06-13 AI 短剧创作培训逐字稿，行号见案例锚点）
+- `10_raw/sources/src_20260613_12d63c1c-notes.md`（培训结构化笔记）
 
 ### 归档 source
 
-- src_unknown
+- `00_inbox/` 下对应素材已归档至 `10_raw/sources/`（详见上方三项）
 
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md`
+- `10_raw/sources/src_20260613_687c4ec0-transcript.md`
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧本策划三板斧图片*
