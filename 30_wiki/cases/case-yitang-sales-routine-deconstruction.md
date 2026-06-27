@@ -2,7 +2,7 @@
 id: case-yitang-sales-routine-deconstruction
 type: case
 title: 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
-status: enriched
+status: reviewed
 domain:
   - yitang
   - personal-growth
@@ -10,7 +10,8 @@ domain:
 confidence: 0.75
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt

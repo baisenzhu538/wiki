@@ -4,8 +4,8 @@ type: tool
 title: 20 小时刻意练习入门法：快速达到够用水平
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 confidence: 0.75
 trust_level: medium
 author: 老顽童
@@ -14,18 +14,19 @@ review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt（L1926-L2058）
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
-  - Josh Kaufman, The First 20 Hours: How to Learn Anything... Fast, Portfolio/Penguin, ISBN 978-1-101-62304-6
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- Josh Kaufman, The First 20 Hours: How to Learn Anything... Fast, Portfolio/Penguin,
+    ISBN 978-1-101-62304-6
 related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[tool-yitang-feedback-self-check]]'
-  - '[[tool-yitang-best-practice-as-golden-finger]]'
-  - '[[case-yitang-poker-parameterized-practice]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[case-yitang-poker-parameterized-practice]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
+- '[[framework-ai-deliberate-practice-loop]]'
 ---
 
 # 20 小时刻意练习入门法：快速达到够用水平

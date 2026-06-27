@@ -4,9 +4,9 @@ type: dk
 title: 刻意练习常见陷阱：老学员最容易踩的 7 个坑
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
-confidence: 0.80
+- yitang
+- personal-growth
+confidence: 0.8
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -14,18 +14,18 @@ review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt（L1146-L1820）
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[tool-yitang-feedback-self-check]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
-  - '[[yt-model-deliberate-practice-growth]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[yt-model-deliberate-practice-growth]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
 ---
 
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑

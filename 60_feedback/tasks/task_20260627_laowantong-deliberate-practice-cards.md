@@ -5,6 +5,7 @@ created_at: 2026-06-27
 author: 王语嫣
 assignee: Hermes 老顽童
 priority: P1
+status: reviewed
 scope: 元能力-刻意练习素材卡片化生产
 related:
   - '[[diag_20260627_wangyuyan-deliberate-practice-nine-layer]]'
@@ -359,7 +360,7 @@ related:
 
 > 生产人：老顽童（Kimi 实例）
 > 完成时间：2026-06-27
-> 任务状态：pending_review
+> 任务状态：reviewed
 
 ### 产出清单
 
