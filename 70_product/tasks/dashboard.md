@@ -53,8 +53,11 @@ updated: 2026-06-27
 
 ## Summary
 
-- **Total**: 32
+- **Total**: 34
 - **Done**: 23
-- **In Progress**: 1 (laowantong-batch)
+- **In Progress**: 0
+- **Queued**: 7（详见 `production-queue.md`）
 - **Pending**: 2
 - **Review Done**: 3 (panproduct-35, p0b-decision-science, p0a-unit-model)
+
+> 老顽童当前待生产任务约 90 张卡：历史批量工单 62 张 + 新域任务 28-29 张。统一队列见 `production-queue.md`。

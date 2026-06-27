@@ -33,8 +33,9 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 
 1. Read `startup.md`（工厂全局）
 2. Read `context.md`（共享状态）
-3. Read `70_product/tasks/dashboard.md` → 找到待审查批次
-4. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
+3. Read `70_product/tasks/production-queue.md` → **统一生产队列，按顺序审核 `pending_review` 任务**
+4. Read `70_product/tasks/dashboard.md` → 历史任务全景（备用）
+5. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 
 ## 深挖重写 SOP
 

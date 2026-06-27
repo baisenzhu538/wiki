@@ -12,11 +12,11 @@ updated: 2026-06-27
 ## 启动后只做四件事
 
 0. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
-1. `Read 70_product/tasks/dashboard.md` — 看老顽童任务区
-2. `Read 70_product/tasks/laowantong-next-tasks.md` — 看详细工单（如果有）
-3. **按工单优先级顺序执行，做完一件再开下一件。不准并行。**
+1. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
+2. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
+3. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
 
-没有工单？→ 主动报欧阳锋："老顽童就绪，当前无工单。五步法域已完成，可接新活。"
+没有 `queued` 任务？→ 主动报欧阳锋："老顽童就绪，当前无队列任务可领取。"
 
 ## ⚠️ 每件工单启动后、动手前（强制检查点）
 
@@ -57,27 +57,18 @@ updated: 2026-06-27
 
 > **未跑 pre-submit 就提交 → 欧阳锋/王语嫣直接退回，不审内容。**
 
-## ⚠️ 当前待办（优先级从高到低）
+## ⚠️ 当前待办：统一生产队列
 
-**全部完成 ✅**（2026-06-16 批次）：
-- P0: 扫描器批量 skill 卡审核精选 → 已复核，13 张加 reviewed_by
-- P1: 课转技能卡补判断标准 → 12 张课转技能卡全量补充判断标准+表格+自检问题
-- P1: 机会预判域11张卡（黄药师代补的）检查质量 → 全量审查通过，加 reviewed_by
-- P2: 五步法域缺口→ 单元模型-AI落地行动口述稿（196KB）分析确认已有卡完整覆盖
-- **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
-- 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
+**所有生产任务已集中到 `70_product/tasks/production-queue.md`，按队列顺序领取。**
 
-**当前状态：战略域 PPT 补强已验收收工（2026-06-23）**：
-- 主工单：`00_inbox/战略专题/_strategy_cards_implementation_status.md`
-- 已验收：
-  - ✅ `_115` 价值获取 8 问 → `tool-strategy-value-capture.md`（王语嫣验收通过）
-  - ✅ `_184` 物流费用节约 → `tool-strategy-logistics-cost-planning.md`（王语嫣验收通过）
-  - ✅ `_249` 细分市场机会矩阵 → `tool-strategy-market-opportunity-matrix.md`（王语嫣验收通过）
-- 已完成未单独验收：
-  - ✅ `_54` 国产零食出口 → `case-strategy-snack-export-opportunity.md`
-- 跳过：
-  - ⏭️ `_269` 深蓝海洋主题页 → 待用户/欧阳锋确认内容
-- 域状态：76 张卡，23 张最近 2 天入库，平均置信度 0.88
+当前队列前 3 项：
+1. `laowantong-batch-2026-06-20-wave1`：门禁快速清理（11 张卡）
+2. `task_20260627_laowantong-deliberate-practice-cards`：刻意练习域 12 张卡（含 1 张 AI 协作桥接 framework）
+3. `task_20260627_laowantong-channel-growth-cards`：渠道增长域 16-17 张卡（含 2 张跨域桥接卡）
+
+**总待生产卡数**：约 90 张（历史批量工单 62 张 + 新任务 28-29 张）。
+
+> 旧文件 `70_product/tasks/laowantong-next-tasks.md` 和 `laowantong-batch-2026-06-20.md` 仍保留详细规格，但**领取顺序以 production-queue.md 为准**。
 - **老顽童停车场**：`laowantong/parking-lot.md`（LW-PL-001/002/003）
 
 **已暂停/过期（不要继续）**：

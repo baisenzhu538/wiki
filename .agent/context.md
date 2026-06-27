@@ -20,7 +20,8 @@ blockers:
   - "🆕 王语嫣与用户共同提炼第二方法论模型：method-systematic-dialogue-kb-evolution-hybrid（冷热混合进化模型），明确系统扫描负责发现机会、对话负责创造高价值桥接"
   - "🆕 每周一 9:07 定时任务已创建（cron id: 011ab8b1），自动生成 kb-evolution-signals-weekly.md"
   - "🆕 共享文件已创建：.agent/kb-evolution-direction.md（所有角色必读）"
-next_session_hint: "下一步：① 老顽童按更新后任务单生产刻意练习域12张卡+渠道增长域16-17张卡（含3张跨域桥接卡）；② 王语嫣按九层深挖+跨域桥接标准验收；③ 黄药师继续kdo index/lint基建；④ 欧阳锋按需终审P0级framework卡；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
+  - "🆕 统一生产队列已创建：70_product/tasks/production-queue.md；老顽童按队列顺序领取，欧阳锋按队列顺序审核；当前队列前3项：wave1 门禁清理 / 刻意练习域 / 渠道增长域"
+next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave1 门禁清理任务；② 完成后依次领取刻意练习域、渠道增长域任务；③ 欧阳锋按队列顺序审核 pending_review 任务；④ 黄药师继续kdo index/lint基建；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
