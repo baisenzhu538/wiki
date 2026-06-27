@@ -1,11 +1,13 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave2 B2 全 7 张 AI 短剧卡深度返工（Claims/Critique/反事实/案例锚点/Sources 全填，pre-submit 7 passed/0 failed，待欧阳锋一次性审查）；wave2 阶段 B3(AI PPT) 和阶段 C(5 张新案例卡抽查) 未启动"
+active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave2 全部（B2 7张+B3 1张+C 5张）+ wave3 阶段A 门禁清零（5 张建模卡 YAML 修复）；wave1 reviewed by 欧阳锋；wave2 pending_review 待欧阳锋审；wave3 阶段B（建模 5 张 Claims/Critique 填充 + 综合卡 9 张格式转换）待续"
 blockers:
-  - "🆕 老顽童(WorkBuddy) 完成 wave2 B2 全 7 张 AI 短剧卡深度返工（2026-06-28）：每张填 Claims 6 条/Critique 内部局限性 3 条/反事实测试 2-3 条/真实案例锚点补《朱雀堂》/Sources 填具体文件名/关联卡片填同域互链；ice-fire 2 张 confidence 0.78→0.65；pre-submit 7 passed/0 failed；待欧阳锋上线一次性审查 B2 全 7 张"
+  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡（modeling-capability-system/three-stages/level-map/weapon-library/process-modeling）CRLF 换行 + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed；阶段 B 内容返工未启动（Claims 全 src_unknown + Critique 缺失 + 内容区 src_unknown 30-51 个/张 + 9 张综合卡格式转换）"
+  - "🆕 老顽童(WorkBuddy) 完成 wave2 全部（2026-06-28）：阶段 A 门禁清零 16 张 + B1 业务公式 3 张 + B2 AI 短剧 7 张深度返工 + B3 AI PPT draft 升级 + C 5 张案例卡防模板化；全 16 张 pre-submit 通过，pending_review 待欧阳锋终审"
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
+  - "🆕 渠道增长域 25 张卡已完成生产（2026-06-28）：Kimi 老顽童产出 3 P0 framework + 2 跨域桥接 + 6 P1/P2 tool + 13 case + 1 dk；全量 `kdo pre-submit` 25 passed/0 failed；5 张核心卡四路自攻击已完成并修复（含 `framework-yitang-channel-unit-economics` 公式错误修正）；王语嫣已写专门审查任务单 `60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md`，`production-queue.md` 任务 #3 来源文件已指向该任务单"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"

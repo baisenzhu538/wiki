@@ -29,26 +29,23 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - 
-framework_lens: 模型武器库
+  - framework_lens: 模型武器库
     follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
-  - 
-framework_lens: 难度分层
+  - framework_lens: 难度分层
     follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
-  - 
-framework_lens: 模型选型
+  - framework_lens: 模型选型
     follow_up_question: 先判断问题难度，再从武器库对应层级挑选 1 个主模型。
-  - 
-framework_lens: 结构化映射
+  - framework_lens: 结构化映射
     follow_up_question: 信息之间是并列、流程、对比、因果还是层级关系？
-  - 
-framework_lens: 难度校准
+  - framework_lens: 难度校准
     follow_up_question: 当前模型处于哪一层？是否需要升维到深度模型或降维到基础模型？
-  - 
-framework_lens: 数据先行
+  - framework_lens: 数据先行
     follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
 
----# 常见模型武器库：按问题难度调用模型
+---
+
+
+# 常见模型武器库：按问题难度调用模型
 
 > **Burn line**: 建模高手不是会很多模型，而是知道什么问题用什么模型。
 
