@@ -85,12 +85,12 @@ diagnostic_signals:
 
 ## Claims
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+1. **流程建模的产出是 SOP/清单，不是文档**：把高频重复任务焊进组织肌肉记忆——SOP 是可执行步骤+检查点+验收标准，不是一大段说明文字。
+2. **识别建模点的判据是"高频+失败成本高"**：任务每周发生 ≥3 次 且 失败会损失时间/金钱/信任——一次性任务或低风险任务不需建模。
+3. **趁热复盘必须在 30 分钟内**：任务结束后 30 分钟内复盘能还原踩坑细节，超过 30 分钟记忆衰减、临时解决方案被遗忘。
+4. **加锁三版本递进：自觉→督导→品控**：V1 靠自觉执行率 50-70%，V2 加督导达 70-90%，V3 加品控接近 100%——不加锁的 SOP 等于没发布。
+5. **清单体四规则是上锁的格式标准**：换行分点、分层、分级、MECE——不合规式的清单新人无法独立执行。
+6. **SOP 解决特殊原因变异，不解决系统原因**：流程建模打补丁只能解决执行波动，系统本身的问题需升级到抽象建模或本质提炼。
 
 ---
 
@@ -106,9 +106,9 @@ diagnostic_signals:
 
 一个任务值得流程建模，当且仅当满足：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 高频重复（每周发生 ≥3 次，或每月 ≥10 次）
+- 失败成本高（出错会损失时间/金钱/信任/客户）
+- 现有执行靠老人经验，新人无法独立完成
 
 ### 步骤 2：趁热复盘
 
@@ -130,8 +130,8 @@ diagnostic_signals:
 2. ____
 3. ____
 检查点：
-- src_unknown
-- src_unknown
+- 每步完成后如何确认做对了（如"截图存档""双人复核"）
+- 关键节点的验收标准（如"数据导入成功率 100%""客户确认签字"）
 常见错误：____
 ```
 
@@ -159,8 +159,8 @@ SOP 格式：
 
 ### 步骤 5：定期迭代
 
-- src_unknown
-- src_unknown
+- 设定迭代触发器：执行率连续 2 周 <80%、异常率上升、或业务流程变更时触发复盘
+- 每季度统计 SOP 调用率和命中率，淘汰低使用率 SOP（<5 次/季度且无强制场景）
 
 ---
 
@@ -168,15 +168,15 @@ SOP 格式：
 
 综合 `case-modeling-process-sop-examples`、`case-modeling-process-sop-evolution`、`case-modeling-process-livestream-prep`、`case-modeling-process-livestream-roles` 等案例，得出以下落地检查清单：
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+1. 任务是否高频重复（≥3 次/周）？否 → 不需建模
+2. 失败成本是否高于建模成本？否 → 不值得建模
+3. 复盘是否在任务后 30 分钟内完成？否 → 记忆衰减，细节丢失
+4. SOP 是否包含步骤+检查点+验收标准？否 → 只是文档不是 SOP
+5. 是否已加锁（V2 督导/V3 品控）？否 → 执行率仅 50-70%
+6. 新人能否按 SOP 独立执行？否 → 清单不符合四规则
+7. 是否设定了迭代触发器？否 → SOP 写完即过时
+8. 是否季度统计调用率？否 → 武器库变收藏库
+9. 系统性问题是否升级到抽象建模？否 → 永远在流程层打补丁
 
 ---
 
@@ -228,9 +228,9 @@ SOP 格式：
 
 ### 内部局限性
 
-- src_unknown
-- src_unknown
-- src_unknown
+1. **"30 分钟复盘"是经验数字非理论推导**：30 分钟来自记忆衰减的经验观察，但不同复杂度任务的复盘窗口不同——简单任务 10 分钟够，复杂任务可能需 2 小时。硬套 30 分钟会让复杂任务复盘不充分。
+2. **加锁三版本的执行率数字（50-70%/70-90%/接近100%）是教学示例**：实际执行率受团队文化、督导力度、品控资源影响——小团队可能 V2 都难配齐督导人，执行率达不到 70-90%。
+3. **9 问检查清单假设"高频=值得建模"**：但某些高频任务（如日常沟通）难以结构化为 SOP——建模成本高于收益时，9 问第 1 题会误判。
 
 ### 外部攻击：Edwards Deming — "SOP 不能替代系统思考"
 
@@ -238,8 +238,8 @@ SOP 格式：
 
 ### 反事实测试
 
-- src_unknown
-- src_unknown
+1. **不加锁（只有 V1 自觉版）看执行率**：若执行率仍 ≥90% → 加锁非必要；实际 V1 执行率普遍 50-70%，证明加锁是必要的。
+2. **用 SOP 解决系统性问题（如团队协作低效）**：若 SOP 能解决 → 系统思考非必要；实际 SOP 只能规范动作无法改变协作结构，证明系统性问题需升级到抽象建模。
 
 ---
 
@@ -247,11 +247,11 @@ SOP 格式：
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[modeling-capability-system]]（高阶建模能力体系——本卡流程建模是其第一阶段）
+- [[modeling-three-stages]]（建模三段论——本卡对应第一阶段"流程类建模 60 分"）
+- [[modeling-level-map]]（段位图——本卡对应 L3 段位"稳定输出"）
+- [[modeling-weapon-library]]（模型武器库——本卡 SOP/清单是基础层模型）
+- [[framework-kdo-self-attack]]（自攻击方法论——本卡步骤 4"加锁"需配合撞击实验）
 
 ---
 
@@ -269,33 +269,33 @@ SOP 格式：
 
 ### 原始素材
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`（流程建模方法论文档）
+- `10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md`（流程建模图）
+- `10_raw/sources/src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01.md`（开播准备图 1）
+- `10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`（开播准备图 2）
+- `10_raw/sources/src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md`（识别建模点图）
 
 ### 归档 source
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`（培训笔记，案例行号见失败教训表）
+- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`（培训口述逐字稿）
+- `00_inbox/` 下对应素材已归档至 `10_raw/sources/`
+- 开播准备/识别建模点图见 `src_20260614_9aca19bd` / `src_20260614_c62e0e61` / `src_20260614_50b37986`
+- 流程建模总图见 `src_20260614_4efd4e88`
 
 ---
 
 ## 单卡收尾检查
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [ ] Claims 已填 6 条且每条可被 Critique 攻击
+- [ ] 识别建模点判据明确（高频≥3 次/周 + 失败成本高 + 新人无法独立）
+- [ ] 趁热复盘 30 分钟窗口已写入 Protocol
+- [ ] 清单格式含步骤+检查点+验收标准（非纯文档）
+- [ ] 加锁三版本（V1/V2/V3）执行率数字已标注为教学示例
+- [ ] 9 问检查清单已逐条对应落地判据
+- [ ] Critique 含 Deming 系统思考攻击 + 反事实测试 2 条
+- [ ] Sources 已填具体文件名（5 份原始 + 6 项归档）
+- [ ] 关联卡片已链接 5 张同域卡
 
 ---
 

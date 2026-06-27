@@ -4,7 +4,7 @@ type: production_task
 created_at: 2026-06-27
 updated_at: 2026-06-28
 author: 王语嫣
-assignee: Kimi 老顽童临时实例
+assignee: Hermes 老顽童（原 Kimi 老顽童临时实例已关闭，转由 Hermes 接手）
 priority: P0-P1
 scope: 兰毅「用泛产品思维做组织」深挖 + 泛产品设计域核心概念升级
 related:

@@ -1,13 +1,15 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "欧阳锋 2026-06-28 完成渠道增长域 25 张卡终审（25/25 通过，status→reviewed）；wave3 阶段B（建模 5 张 Claims/Critique 填充 + 综合卡 9 张格式转换）待老顽童继续"
+active_task: "人员调整（2026-06-28）：Kimi 老顽童临时实例关闭，兰毅泛产品组织化任务转由 Hermes 老顽童负责；黄药师负责渠道增长域遗留清理任务；WorkBuddy 老顽童继续 wave3；欧阳锋当前无 pending_review 任务"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡（modeling-capability-system/three-stages/level-map/weapon-library/process-modeling）CRLF 换行 + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed；阶段 B 内容返工未启动（Claims 全 src_unknown + Critique 缺失 + 内容区 src_unknown 30-51 个/张 + 9 张综合卡格式转换）"
   - "✅ 欧阳锋子代理完成 wave2 终审（2026-06-28）：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；已知遗留：frontmatter domain/related/tags/query_triggers `src_unknown` 占位（系统性债务）+ `yt-business-formula-parameter-iceberg` 与 B2 部分卡内容区占位 + `ai-short-drama-platform-policy-comparison` 缺 Critique/反事实，建议后续清理任务补齐"
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "✅ 欧阳锋完成渠道增长域 25 张卡终审（2026-06-28）：25/25 通过，`kdo pre-submit` 抽查 6/6 通过；P0 framework、跨域桥接公式、案例数字标注、工具可执行性均达标；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已知遗留：13 张 case 卡缺 lint 标准 section（全局 case section 债务）、1 张 dk 卡在 `30_wiki/dk/` 目录需移到 `dark-knowledges/`、1 张 concept 卡在 `frameworks/` 目录需移到 `concepts/`，已记录不阻塞 wave1"
+  - "🆕 王语嫣已写渠道增长域遗留问题清理任务单（2026-06-28）：`60_feedback/tasks/task_20260628_wangyuyan-cleanup-channel-growth-residuals.md`，含 13 张 case section 标准化 + dk/concept 目录对齐；已入 `production-queue.md` 队列第 10 项，状态 queued，P2 优先级；已分配给黄药师执行"
+  - "🆕 人员调整（2026-06-28）：Kimi 老顽童临时实例关闭（刻意练习域、渠道增长域已完成），兰毅泛产品组织化任务转由 Hermes 老顽童负责；WorkBuddy 老顽童继续 wave3；黄药师负责渠道增长域遗留清理"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"

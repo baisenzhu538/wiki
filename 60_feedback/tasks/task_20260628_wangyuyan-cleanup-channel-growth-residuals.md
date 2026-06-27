@@ -4,7 +4,7 @@ type: cleanup_task
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 王语嫣
-assignee: 待定（建议黄药师或老顽童）
+assignee: 黄药师
 priority: P2
 scope: 渠道增长域终审遗留问题清理
 related:

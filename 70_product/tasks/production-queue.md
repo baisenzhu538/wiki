@@ -33,13 +33,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 1 | `laowantong-batch-2026-06-20-wave1` | 老顽童批量工单第 1 波：门禁快速清理 | reviewed | 老顽童(WorkBuddy) | 18 | 无 | `review_20260628_ouyangfeng-wave1.md` | 欧阳锋终审通过：18/18 张卡 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28 |
 | 2 | `task_20260627_laowantong-deliberate-practice-cards` | 元能力-刻意练习域卡片化（含 AI 协作桥接卡） | reviewed | - | 11 | 无（可与 wave1 并行） | `60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md` | 欧阳锋终审通过，11 张卡 status 更新为 reviewed，frontmatter 已补 review_date |
 | 3 | `task_20260627_laowantong-channel-growth-cards` | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | - | 25 | 无（可与 wave1 并行） | `review_20260628_ouyangfeng-channel-growth.md` | 欧阳锋终审通过：25/25 张卡 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已知遗留：13 张 case 卡缺 lint 标准 section（全局 case section 债务）、1 张 dk 目录未对齐、1 张 concept 目录未对齐，已记录为后续清理任务 |
-| 4 | `task_20260627_laowantong-lanyi-panproduct-organization` | 兰毅泛产品组织化 + 泛产品设计域升级 | queued | - | 10-12 | 无 | `task_20260627_laowantong-lanyi-panproduct-organization.md` | P0-P1；Kimi 负责；按规律执行，完成刻意练习域后按序领取，不插队 |
+| 4 | `task_20260627_laowantong-lanyi-panproduct-organization` | 兰毅泛产品组织化 + 泛产品设计域升级 | queued | Hermes 老顽童 | 10-12 | 无 | `task_20260627_laowantong-lanyi-panproduct-organization.md` | P0-P1；Kimi 老顽童临时实例已关闭，转由 Hermes 老顽童负责；完成当前 wave3 后可按序领取（或不等待 wave3，Hermes 与 WorkBuddy 并行） |
 | 5 | `laowantong-batch-2026-06-20-wave2` | 老顽童批量工单第 2 波：P0 返工 | reviewed | 老顽童(WorkBuddy) | 16 | 无 | `laowantong-batch-2026-06-20.md` | 欧阳锋子代理终审通过：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；仍有 frontmatter domain/related/tags/query_triggers `src_unknown` 占位及少量内容区占位，已记录为 wave2 残留项，建议由王语嫣/老顽童在后续清理任务中补齐 |
 | 6 | `laowantong-batch-2026-06-20-wave3` | 老顽童批量工单第 3 波：P1 深度补全 | claimed-workbuddy | 老顽童(WorkBuddy) | ~15 | 依赖 wave2 完成（已解锁，wave2 pending_review） | `laowantong-batch-2026-06-20.md` | 原注 Hermes 负责；用户 2026-06-28 指令 WorkBuddy 老顽童接着领；建模能力域 5 张 + 王语嫣综合卡格式转换 9 张 + 2 项清理 |
 | 7 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：P2 清理 | queued | - | ~12 | 依赖 wave3 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
 | 8 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：新域建设 | queued | - | ~11 | 依赖 wave4 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
 | 9 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过；欧阳锋审查结论：deep 通过 |
-| 10 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理 | queued | - | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | P2；不阻塞入库；含 case section 标准化 + dk/concept 目录对齐；建议黄药师或老顽童执行 |
+| 10 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理 | queued | 黄药师 | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | P2；不阻塞入库；黄药师负责目录移动 + 全库 related 链接更新；case section 标准化可后续拆分给老顽童 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
