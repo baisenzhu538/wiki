@@ -1,36 +1,34 @@
 ---
-
 id: case-panproduct-lanyi-dahanghui-team
 title: 案例：兰毅——大航海战队如何被设计成组织产品
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: pending
-review_date: 2026-06-28
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN
 domain:
-  - panproduct
-  - organization
-  - yitang
+- panproduct
+- organization
+- yitang
 source_person: 兰毅 / 一堂
 source_context: 兰毅在一堂开放麦分享「用产品思维做组织」，以大航海战队为亲历案例
 source_refs:
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 related:
-  - '[[framework-pan-product-organization]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[case-panproduct-lanyi-shidonghui-npc]]'
-  - '[[case-panproduct-lanyi-intern-flywheel]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-
+- '[[framework-pan-product-organization]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[case-panproduct-lanyi-intern-flywheel]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
 ---
 
 # 案例：兰毅——大航海战队如何被设计成组织产品

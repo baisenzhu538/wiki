@@ -161,6 +161,7 @@ P0-1 framework-pan-product-organization（先建框架，后续卡引用它）
 | 2026-06-28 | 素材到位，任务单扩展为正式生产任务 | 王语嫣 |
 | 2026-06-28 | 老顽童（Kimi）领取任务，状态改为 claimed-kimi | 老顽童 |
 | 2026-06-28 | 12 张卡全部生产/升级完成，全量 pre-submit 通过，P0 卡自攻击修复完成，状态改为 pending_review | 老顽童 |
+| 2026-06-28 | 欧阳锋终审通过：12/12 张卡 status 更新为 reviewed；审查中修复 3 张 case 卡 section 标题、移动 5 个文件到正确 taxonomy 目录 | 欧阳锋 |
 
 ---
 
@@ -222,4 +223,62 @@ P0-1 framework-pan-product-organization（先建框架，后续卡引用它）
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 10. 欧阳锋终审结论
+
+**Verdict：通过**
+
+### 审查动作
+
+- 抽查 6 张卡 `kdo pre-submit -f`：全部通过
+- 全量 12 张卡 `kdo pre-submit`：12 passed / 0 failed
+- 跑 `kdo lint`：12 张卡无新增 ERROR；全库 lint ERROR 从 618 降至 557
+- 检查 4 份自攻击报告：status 均为 `fixed`，0 致命问题
+
+### 审查结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| 12 张卡 `kdo pre-submit` 全通过 | ✅ 通过 |
+| P0 framework ≥150 行、case ≥100 行 | ✅ 通过 |
+| P0 卡四路自攻击完成并修复 | ✅ 通过 |
+| 兰毅口述数字已降级 confidence 并标注待独立核实 | ✅ 通过 |
+| P0 卡 L5 单源已通过 trust_level/confidence/note 处理 | ✅ 通过 |
+| 旧卡升级保留原 id 和 created_at，更新 updated_at | ✅ 通过 |
+| 跨域链接全部指向真实存在的卡片 | ✅ 通过 |
+| 3 张 case 卡 section 标题对齐 lint 标准 | ✅ 审查中已修复 |
+| 5 个文件目录/type 对齐 taxonomy | ✅ 审查中已修复 |
+
+### 审查中修复的问题
+
+1. **3 张 case 卡 section 标题未对齐 lint 标准**
+   - `case-panproduct-lanyi-shidonghui-npc`：`关键数字` → `关键证据`；`Synthesis` → `可迁移场景`；新增 `教训`；`Failure Modes` → `失败模式`
+   - `case-panproduct-lanyi-dahanghui-team`：`关键数字` → `关键证据`；`失败模式与边界` → `失败模式`；`Synthesis` → `可迁移场景`；新增 `教训`
+   - `case-panproduct-lanyi-intern-flywheel`：`关键数字与关键事实` → `关键证据`；`失败模式/边界` → `失败模式`；新增 `可迁移场景` 和 `教训`
+
+2. **5 个文件目录/type 不一致**
+   - `dk-panproduct-org-linear-to-circular`：`30_wiki/dk/` → `30_wiki/dark-knowledges/`
+   - `dk-panproduct-org-serve-the-lowest`：`30_wiki/dk/` → `30_wiki/dark-knowledges/`
+   - `concept-pan-product-vs-traditional-management`：`30_wiki/frameworks/` → `30_wiki/concepts/`
+   - `yt-composite-pan-product-methodology`：`30_wiki/concepts/` → `30_wiki/frameworks/`
+   - `yt-model-pan-product-three-virtues`：`30_wiki/concepts/` → `30_wiki/frameworks/`
+   - `yt-model-pan-product-climbing-map`：`30_wiki/concepts/` → `30_wiki/frameworks/`
+
+### 已执行动作
+
+1. 12 张卡片 frontmatter 更新：
+   - `status: enriched` → `reviewed`
+   - `reviewed_by:` → `欧阳锋`
+   - `review_date:` → `2026-06-28`
+   - `updated_at:` → `2026-06-28`
+2. `70_product/tasks/production-queue.md` 任务 #4 状态改为 `reviewed`
+3. `70_product/tasks/dashboard.md` 中本任务状态改为 `reviewed`，Summary Review Done +1
+4. `.agent/context.md` 追加兰毅泛产品组织化任务终审完成记录
+
+### 遗留说明
+
+- 兰毅口述数字仍为 L5 单源，已按要求降级并标注「待独立核实」，后续可由用户/团队独立验证后更新
+- `framework-lean-startup`、`framework-panproduct-domain-digest` 等任务单原列跨域卡不存在，老顽童已替换为真实存在的相近卡片，本次审查接受
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 终审：欧阳锋*

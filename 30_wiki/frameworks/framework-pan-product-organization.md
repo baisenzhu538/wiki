@@ -2,32 +2,33 @@
 id: framework-pan-product-organization
 type: framework
 title: 泛产品组织设计：把团队当成产品来打磨
-status: enriched
+status: reviewed
 domain:
-  - panproduct
-  - organization
-  - yitang
+- panproduct
+- organization
+- yitang
 confidence: 0.72
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
-updated_at: 2026-06-28
+reviewed_by: 欧阳锋
+updated_at: '2026-06-28'
 note: 本卡核心案例与数字主要来自兰毅对世董会/NPC 实践的单源口述，数字已按任务单要求标注「待独立核实」；关键主张需结合传统管理、雇佣关系与组织成本视角审慎使用。
 source_refs:
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
-  - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
 source_person: 兰毅 / 一堂
 related:
-  - '[[case-panproduct-lanyi-shidonghui-npc]]'
-  - '[[dk-panproduct-org-linear-to-circular]]'
-  - '[[dk-panproduct-org-serve-the-lowest]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[dk-panproduct-org-linear-to-circular]]'
+- '[[dk-panproduct-org-serve-the-lowest]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+review_date: '2026-06-28'
 ---
 
 # 泛产品组织设计：把团队当成产品来打磨

@@ -2,31 +2,32 @@
 id: yt-model-pan-product-climbing-map
 type: framework
 title: 泛产品十年爬山地图：L1-L6 成长路径（升级版）
-status: enriched
+status: reviewed
 domain:
-  - panproduct
-  - yitang
-  - deliberate-practice
-  - personal-growth
+- panproduct
+- yitang
+- deliberate-practice
+- personal-growth
 confidence: 0.82
 trust_level: medium-high
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-05-11
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
 related:
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+review_date: '2026-06-28'
 ---
 
 # 泛产品十年爬山地图：L1-L6 成长路径（升级版）

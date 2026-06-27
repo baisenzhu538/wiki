@@ -2,32 +2,34 @@
 id: dk-panproduct-org-serve-the-lowest
 type: dk
 title: 组织领导心法：最高服务最低
-status: enriched
+status: reviewed
 domain:
-  - panproduct
-  - organization
-  - yitang
-  - leadership
-confidence: 0.70
+- panproduct
+- organization
+- yitang
+- leadership
+confidence: 0.7
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 source_person: 兰毅
-source_level_note: 本卡核心主张与案例数字全部来自兰毅个人一堂分享（单源口述/L5），未经过独立第三方验证或学术文献交叉。已按规范对兰毅口述数字标注「待独立核实」，并将 confidence/trust_level 下调以反映证据层级限制。
+source_level_note: 本卡核心主张与案例数字全部来自兰毅个人一堂分享（单源口述/L5），未经过独立第三方验证或学术文献交叉。已按规范对兰毅口述数字标注「待独立核实」，并将
+  confidence/trust_level 下调以反映证据层级限制。
 related:
-  - '[[framework-pan-product-organization]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-yitang-growth-flywheel]]'
+- '[[framework-pan-product-organization]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-yitang-growth-flywheel]]'
+review_date: '2026-06-28'
 ---
 
 # 组织领导心法：最高服务最低

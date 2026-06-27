@@ -2,32 +2,32 @@
 id: framework-一堂五步法-泛产品设计
 title: 一堂五步法在泛产品设计中的应用
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: pending
-review_date: 2026-06-26
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
 created_at: 2026-06-26
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN
 domain:
-  - panproduct
-  - yitang
-  - methodology
+- panproduct
+- yitang
+- methodology
 source_refs:
-  - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
-  - 00_inbox/泛产品设计/一堂-泛产品设计实操-笔记.txt
-  - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-笔记.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[framework-pan-product-organization]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[framework-pan-product-organization]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
 ---
 
 # 一堂五步法在泛产品设计中的应用
