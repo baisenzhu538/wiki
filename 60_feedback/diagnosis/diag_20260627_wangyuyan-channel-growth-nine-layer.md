@@ -10,6 +10,9 @@ related:
   - '[[framework-yitang-nine-layer-deep-dig]]'
   - '[[framework-yitang-six-layer-cross-validation]]'
   - '[[tool-区分获客渠道计算单元roi]]'
+  - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+  - '[[framework-yitang-channel-unit-economics]]'
+  - '[[concept-yitang-channel-lean-validation-bridge]]'
 ---
 
 # 「一堂五步法之增长」渠道增长域诊断：九层深挖 + 六层交叉验证
@@ -244,6 +247,30 @@ related:
 | `dk-yitang-channel-exploration-traps` | dk | 反案例 + 常见坑 |
 
 ### 9.5 总产出：约 14-15 张卡
+
+---
+
+## L9.5 跨域桥接补深挖（追加）
+
+> 基于用户反馈「跨域链接挖得不够深」，王语嫣补做一轮跨域文献与方法论挖掘，完整细节见 `diag_20260627_wangyuyan-cross-domain-bridge-supplement`。
+
+### 桥接一：渠道增长 × 单元模型
+
+- **外部证据**：MCP Analytics 2026 白皮书（47 家 B2B SaaS、24 个月队列）显示不同渠道 CAC payback 中位数差异 3 倍；GrowthSpree 2026 指出 GTM motion 错配是 60-75% payback 问题的根因；Inturact 提出以 3:1 LTV/CAC 为 backbone 的渠道测试流程。
+- **桥接卡**：`framework-yitang-channel-unit-economics`
+- **核心主张**：每个渠道都是独立经济单元，必须单独核算 CAC、转化率、LTV、回收周期；混合计算会掩盖低效渠道。
+- **双向价值**：让单元模型域的「单用户/单客户模型」获得渠道应用场景；让渠道增长域的「建模」步骤获得财务语言。
+
+### 桥接二：渠道增长 × 精益创业
+
+- **外部证据**：Eric Ries / Steve Blank 的精益创业方法论；Landing Page Smoke Test / MVO Smoke Test 是渠道验证的经典工具；Alexander Cowan 的 Sales MVP 专门验证需求与渠道组合。
+- **桥接卡**：`concept-yitang-channel-lean-validation-bridge`
+- **核心主张**：渠道 0→1 测试本质上是渠道 MVP，与产品 MVP 并行；0→1 用精益验证，1→N 用工业化生产。
+- **双向价值**：让精益创业域的工具卡（fake marketing、presell、leverage traffic）获得渠道场景；让渠道增长域明确与工业化的阶段边界。
+
+### 总产出更新
+
+原 14-15 张 → **16-17 张**（追加 2 张跨域桥接卡）。
 
 ---
 

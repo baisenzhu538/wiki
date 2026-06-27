@@ -8,6 +8,9 @@ priority: P1
 scope: 一堂五步法之增长（渠道增长域）卡片化生产
 related:
   - '[[diag_20260627_wangyuyan-channel-growth-nine-layer]]'
+  - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+  - '[[framework-yitang-channel-unit-economics]]'
+  - '[[concept-yitang-channel-lean-validation-bridge]]'
 ---
 
 # Hermes 老顽童生产任务：渠道增长域卡片化

@@ -12,6 +12,8 @@ related:
   - '[[modeling-personal-practice-loop]]'
   - '[[framework-yitang-nine-layer-deep-dig]]'
   - '[[framework-yitang-six-layer-cross-validation]]'
+  - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+  - '[[framework-ai-deliberate-practice-loop]]'
 ---
 
 # 「元能力-刻意练习」素材诊断：九层深挖 + 六层交叉验证
@@ -225,6 +227,28 @@ related:
 
 ---
 
+## L9.5 跨域桥接补深挖（追加）
+
+> 基于用户反馈「跨域链接挖得不够深」，王语嫣补做一轮跨域文献与方法论挖掘，完整细节见 `diag_20260627_wangyuyan-cross-domain-bridge-supplement`。
+
+### 桥接：刻意练习 × AI 协作
+
+- **外部证据**：
+  - Ethan Mollick《The Machines of Mastery》(2023)：LLM 可按需生成谈判等场景的 deliberate practice，提供对手、评分、反馈、难度调整；
+  - Mollick & Mollett (2023) AI 学习角色框架：AI 作为 **Simulator** 角色直接支持刻意练习；
+  - Tegero et al. (2025) 教师培训研究：AI chatbot 模拟真实教学场景，被试通过反复练习获得 six competencies，研究明确将 AI simulations 与 deliberate practice 关联；
+  - Bodyswaps (2026) / Pupil.cloud (2026)：AI roleplay 提供一致反馈、安全环境、无限重复，核心机制即 deliberate practice + immediate feedback；
+  - 2024-2026 多篇 ZPD / scaffolding 研究：GenAI 可通过脚手架式提问支持最近发展区，但需警惕 spoonfeeding 与 over-reliance。
+- **桥接卡**：`framework-ai-deliberate-practice-loop`（由原计划 `concept-yitang-ai-era-deliberate-practice` 升级为 framework）
+- **核心主张**：AI 刻意练习闭环 = 目标 → AI 生成场景 → 学习者输出 → AI 反馈 → AI 调整难度 → 循环；AI 对应 1+4 模型的「固定套路/非舒适区/即时反馈/大量重复」。
+- **双向价值**：让刻意练习域获得 AI 时代的练习基础设施；让 AI 协作域从「效率工具」升级为「能力建构工具」。
+
+### 总产出更新
+
+原 11 张 → **12 张**（`concept-yitang-ai-era-deliberate-practice` 升级为 `framework-ai-deliberate-practice-loop`）。
+
+---
+
 ## 六层交叉验证：关键声明可信度评估
 
 | 关键声明 | 来源 | 时间 | 逻辑 | 数据 | 反例 | 行动 | 评级 |
@@ -235,7 +259,7 @@ related:
 | 固定套路 + 非舒适区 + 反馈 + 重复 = 四要素 | 一堂课程总结 | 2024 | ✅ | ⚠️ 基于教学经验 | ⚠️ 与 Ericsson 三要素/四要素表述略有差异 | ✅ 作为 framework 使用 | **B+** |
 | 长期追求是刻意练习前提 | 一堂新版课程 | 2024 | ✅ | ⚠️ 动机心理学支持 | ❌ 无 | ✅ 纳入 1+4 模型 | **B+** |
 | 最佳实践早期是金手指 | Truman 个人经验 | 2024 | ⚠️ | ⚠️ 案例支持 | ⚠️ 过度临摹可能抑制创新 | ✅ 作为 tool 使用，标注边界 | **B** |
-| AI 时代更需要刻意练习 | 盈盈口述推断 | 2024 | ⚠️ | ⚠️ 趋势推断 | ⚠️ AI 也可能降低某些练习门槛 | ⚠️ 标注 conf=0.70 | **B** |
+| AI 时代更需要刻意练习 | 盈盈口述推断 + Mollick 等研究 | 2024 | ⚠️ | ⚠️ 趋势推断 + 早期证据 | ⚠️ AI 也可能降低某些练习门槛 | ⚠️ 标注 conf=0.78，升级为 framework | **B+** |
 
 ---
 
@@ -247,9 +271,10 @@ related:
 4. 必须标注 `confidence` 和 `trust_level`：
    - 直接来自 Truman 口述的框架：conf=0.85, trust=medium-high
    - 20 小时定律：conf=0.75, trust=medium
-   - AI 时代适配：conf=0.70, trust=medium
+   - AI 刻意练习闭环桥接卡：conf=0.78, trust=medium
 5. 每张卡必须含 `When NOT to Use` 或 `Constraints & Boundaries`；
-6. `related ≥ 5`，且至少链回 1 张旧版刻意练习卡和 1 张跨域卡（如 decision-science、ai-collaboration）。
+6. `related ≥ 5`，且至少链回 1 张旧版刻意练习卡和 1 张跨域卡（如 decision-science、ai-collaboration）；
+7. 跨域桥接卡 `framework-ai-deliberate-practice-loop` 要求 `related ≥ 8`，必须同时链回刻意练习核心卡与 AI 协作域核心卡。
 
 ---
 
