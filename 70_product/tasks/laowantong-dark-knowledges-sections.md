@@ -154,6 +154,25 @@ trust_level: medium
 
 第三批 10 张修复后，lint ERROR 从 **788 降到 728**。
 
+### 第四批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-ban-fei-mao-atomic-no-standard` | ✅ 通过 | 重写 6 标准 section |
+| 2 | `dk-ban-fei-mao-real-business-is-the-engine` | ✅ 通过 | 重写 6 标准 section |
+| 3 | `dk-ji-hao-newbie-can-validate` | ✅ 通过 | 重写 6 标准 section |
+| 4 | `dk-ji-hao-logs-fastest-ignored` | ✅ 通过 | 重写 6 标准 section |
+| 5 | `dk-ji-hao-ai-cant-design-structure` | ✅ 通过 | 重写 6 标准 section |
+| 6 | `dk-ji-hao-simple-complex-routing` | ✅ 通过 | 重写 6 标准 section |
+| 7 | `dk-ji-hao-pdca-starts-from-do` | ✅ 通过 | 重写 6 标准 section |
+| 8 | `dk-ji-hao-constraint-beats-talent` | ✅ 通过 | 重写 6 标准 section |
+| 9 | `dk-demand-premature-solution` | ✅ 通过 | 重写 6 标准 section + 补标题 |
+| 10 | `dk-demand-switching-cost` | ✅ 通过 | 重写 6 标准 section + 补标题 |
+
+第四批 10 张修复后，lint ERROR 从 **728 降到 668**。
+
+累计：已修复 **45 张**卡（试点 5 + 四批 40），剩余约 **42 张**。
+
 ### 分批策略
 
 - 每批 **10 张**卡
@@ -190,7 +209,7 @@ trust_level: medium
 
 ### 目标
 
-把 dark-knowledges missing section ERROR 从 **728** 逐步降到 **0**。
+把 dark-knowledges missing section ERROR 从 **668** 逐步降到 **0**。
 
 ## 注意
 
