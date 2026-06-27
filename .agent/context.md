@@ -1,8 +1,9 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave1 门禁清理收尾（18 张 pre-submit 全绿，pending_review 待欧阳锋终审）；下一步欧阳锋终审 wave1，王语嫣完成兰毅泛产品组织化任务标注（Kimi 老顽童完成刻意练习域后按序领取）；Hermes 负责历史批量工单 waves 2-5"
+active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave2 B2 全 7 张 AI 短剧卡深度返工（Claims/Critique/反事实/案例锚点/Sources 全填，pre-submit 7 passed/0 failed，待欧阳锋一次性审查）；wave2 阶段 B3(AI PPT) 和阶段 C(5 张新案例卡抽查) 未启动；wave1 pending_review 待欧阳锋终审"
 blockers:
+  - "🆕 老顽童(WorkBuddy) 完成 wave2 B2 全 7 张 AI 短剧卡深度返工（2026-06-28）：每张填 Claims 6 条/Critique 内部局限性 3 条/反事实测试 2-3 条/真实案例锚点补《朱雀堂》/Sources 填具体文件名/关联卡片填同域互链；ice-fire 2 张 confidence 0.78→0.65；pre-submit 7 passed/0 failed；待欧阳锋上线一次性审查 B2 全 7 张"
   - "🆕 老顽童(WorkBuddy) 完成 wave1 门禁清理收尾（2026-06-28）：Hermes 2026-06-27 晚做 1.1+1.2（7 张王欢 dk）；WorkBuddy 收尾 1.3+1.4+结构修复（7 张 yt 卡 YAML 粘连修复 + 3 张 dk 卡 6 段重组 + market-size-pitfalls confidence 对齐）；全 18 张 `kdo pre-submit` 通过（18 passed/0 failed），任务 #1 状态 queued→pending_review，待欧阳锋终审；遗留：多卡 related/domain 仍 src_unknown（域系统性债务，建议另立任务）"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"

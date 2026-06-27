@@ -19,7 +19,24 @@ NUTSTORE.mkdir(parents=True, exist_ok=True)
 # ── 备份 ──
 
 def backup(output_dir: Path = None):
-    """创建 timestamped 完整备份到坚果云 + 本地。"""
+    """创建 timestamped 完整备份到坚果云 + 本地（仅在有 git 变更时）。"""
+    # 检查自上次备份以来是否有 git 变更
+    os.chdir(VAULT)
+    existing = sorted(NUTSTORE.glob("kdo-vault-*.zip"))
+    if existing:
+        last_ts = existing[-1].stem.replace("kdo-vault-", "")
+        try:
+            last_dt = datetime.strptime(last_ts, "%Y%m%d-%H%M%S")
+            r = subprocess.run(
+                ["git", "log", "--oneline", "--since", last_dt.strftime("%Y-%m-%d %H:%M:%S"), "--", "."],
+                capture_output=True, text=True
+            )
+            if not r.stdout.strip():
+                print(f"跳过备份：自 {last_ts} 以来无 git 变更")
+                return
+        except ValueError:
+            pass
+
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
     out = (output_dir or NUTSTORE) / f"kdo-vault-{ts}.zip"
 
@@ -37,12 +54,12 @@ def backup(output_dir: Path = None):
     print(f"备份完成: {out}")
     print(f"  {count} 文件, {sz_mb:.1f} MB")
 
-    # 清理旧备份（保留最近 14 天）
+    # 清理旧备份（保留最近 7 天，从 14 天缩短以减少流量）
     for old in sorted(NUTSTORE.glob("kdo-vault-*.zip")):
         try:
             date_str = old.stem.replace("kdo-vault-", "")
             d = datetime.strptime(date_str, "%Y%m%d-%H%M%S")
-            if d < datetime.now() - timedelta(days=14):
+            if d < datetime.now() - timedelta(days=7):
                 old.unlink()
                 print(f"  清理旧备份: {old.name}")
         except ValueError:

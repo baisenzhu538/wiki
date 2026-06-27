@@ -411,6 +411,33 @@
 
 ---
 
+## 第 2 波完成小结（2026-06-28，B2 完成待审）
+
+- 阶段 A（门禁清零）：16 张卡 pre-submit 全绿
+- 阶段 B1（业务公式既有卡返工）：3 张——abc-model 补暗知识实质内容；six-level-logic/parameter-iceberg 验过无需返工
+- 阶段 B2（AI 短剧 7 张深度返工）：7 张全完成
+  - 每张填 Claims 6 条（从已有失败模式/边界/模板反推，每条可被 Critique 攻击）
+  - 每张 Critique 内部局限性 3 条（针对具体 Claims，如"七要素填空易套路化主角""五维表维度非正交""3-5 部门槛是幸存者偏差"）
+  - 每张外部攻击保留原引用（麦基/Polti/Truby/Snyder/Campbell/Propp/Egri/Field），但脚本/拆本 2 张补"针对 Claim N 的攻击"格式
+  - 每张反事实测试 2-3 条（去掉某要素/改样本量看产出是否变）
+  - 每张真实案例锚点补《朱雀堂》2025 年度爆款（4500 万分账 + 8 成未回本，外部交叉验证"爆款是尾部事件"）
+  - 每张 Sources 填具体文件名（src_20260613_41aceaf5/687c4ec0/12d63c1c + 行号）
+  - 每张关联卡片填 3-5 张同域互链
+  - ice-fire 2 张 confidence 0.78→0.65（任务单"无真实案例支撑 ≤0.65"——虽有代俊隆案例但样本小 6% 过稿率）
+- 阶段 B3（AI PPT 1 张 draft 升级）：未启动
+- 阶段 C（5 张新案例卡防模板化检查）：未启动
+
+- pre-submit 结果：
+  - 16 张 wave2 卡全 PASS
+  - 7 张 B2 卡批量复跑：7 files checked, 7 passed, 0 failed — All gates passed. Ready for human review.
+- 已知遗留（非本波范围）：
+  - 多张卡 frontmatter `related`/`domain`/`tags` 仍为 `src_unknown` 占位（pre-submit 容忍，属该域系统性债务）
+  - AI 短剧 7 张 src_unknown 残留 12-28 个（均为 frontmatter 系统性债务，内容区已清零）
+- 状态：wave2 `claimed-workbuddy`，B2 全 7 张完成待欧阳锋审查；B3/C 未启动
+- 阻塞/需用户确认：无；待欧阳锋上线一次性审查 B2 全 7 张
+
+---
+
 *工单创建：2026-06-20*  
 *创建者：王语嫣*  
 *执行者：老顽童*
