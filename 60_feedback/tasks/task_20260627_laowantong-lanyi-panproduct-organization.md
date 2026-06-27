@@ -13,7 +13,7 @@ related:
   - '[[yt-model-pan-product-three-virtues]]'
   - '[[yt-model-pan-product-climbing-map]]'
   - '[[framework-一堂五步法-泛产品设计]]'
-status: pending_review
+status: reviewed
 ---
 
 # Kimi 老顽童生产任务：兰毅「用泛产品思维做组织」+ 泛产品设计域升级
