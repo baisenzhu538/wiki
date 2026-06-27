@@ -38,7 +38,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 6 | `laowantong-batch-2026-06-20-wave3` | 老顽童批量工单第 3 波：P1 深度补全 | queued | - | ~15 | 依赖 wave2 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
 | 7 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：P2 清理 | queued | - | ~12 | 依赖 wave3 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
 | 8 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：新域建设 | queued | - | ~11 | 依赖 wave4 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
-| 9 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | pending_review | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过 |
+| 9 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过；欧阳锋审查结论：deep 通过 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。

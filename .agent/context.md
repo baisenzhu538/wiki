@@ -3,6 +3,7 @@ updated: 2026-06-27
 active_branch: main
 active_task: "王语嫣角色边界最终确认 + 临时生产分流：保留咨询服务与任务标注，审查终审归欧阳锋；Kimi 老顽童临时实例负责新标注任务（刻意练习/渠道增长/兰毅泛产品），Hermes 老顽童负责历史批量工单；跟踪生产队列"
 blockers:
+  - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"
   - "✅ P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)已全部审查通过；欧阳锋最终审查发现 ROI案例01 仍为27行薄卡，已九层深挖重写；其余13张结构达标，status 已更新为 reviewed；报告见 audit_20260626_ouyangfeng-p0b-final-review.md"

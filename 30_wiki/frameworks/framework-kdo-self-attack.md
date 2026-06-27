@@ -202,3 +202,23 @@ related:
 4. 引用的方法/工具/数据是否有可能在 2025-2026 年已经过时？
 
 如果四个问题答不上来，先跑 `/kdo-self-attack`。
+
+---
+
+## 欧阳锋审查结论
+
+**审查日期**：2026-06-27  
+**审查结果**：✅ 通过（deep）
+
+**审查依据**：
+- 正文 174 行（>120 行），结构完整；
+- 具备 Critique（第 7 节）、失败模式（第 6 节）、行动触发器（第 9 节）；
+- 数字极少且主要为方法论，无来源缺失风险；
+- 四路攻击 Agent 定义清晰、可执行；
+- When NOT to Use 覆盖 4 个合理场景；
+- 失败模式具体，每条含症状 + 修复，无模板话；
+- 与 `framework-ouyangfeng-review-methodology`、`framework-yitang-research-quality-gate` 等框架逻辑自洽，互为补充；
+- `related` 中 5 个 wikilink 全部有效；
+- `kdo pre-submit` 检查通过（1 file, 1 passed, 0 failed）。
+
+**状态变更**：`status: enriched` → `reviewed`，`reviewed_by: pending` → `欧阳锋`。
