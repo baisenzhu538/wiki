@@ -2,7 +2,7 @@
 
 id: dk-yitang-ai-research-prompt-craft
 title: AI调研效果取决于问题拆解和人工判断——不是提示词技巧
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -25,7 +25,6 @@ related:
   - "[[concept-yitang-ai-research-human-loop]]"
   - "[[dk-yitang-research-ai-hallucination]]"
 ---
-
 # AI调研效果取决于问题拆解和人工判断
 
 > "人越强，AI越强。你啥也不会，AI也使不上劲儿。" ——Truman，行动营课上反复强调

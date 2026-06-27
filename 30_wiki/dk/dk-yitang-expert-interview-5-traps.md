@@ -2,7 +2,7 @@
 
 id: dk-yitang-expert-interview-5-traps
 title: 专家访谈五大陷阱
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[framework-yitang-expert-interview-10steps]]"
 ---
-
 # 专家访谈五大陷阱
 
 1. **专家偏见**：专家在自己的领域有强烈观点，会不自觉贬低其他方向

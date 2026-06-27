@@ -1,7 +1,7 @@
 ---
 id: dk-yb14-multi-image-commonality
 title: AI生图：用多图共性替代语言描述
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AI生图：用多图共性替代语言描述
+---# AI生图：用多图共性替代语言描述
 
 ## 原始表述
 

@@ -2,7 +2,7 @@
 
 id: dk-ai-judgment-human-responsibility
 title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
-type: dark-knowledge
+type: dk
 status: draft
 domain:
 - ai-saas
@@ -21,8 +21,7 @@ related:
   - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
   - '[[dk-ai-judgment-programmer-paradox]]'
   - '[[dk-jh-llm-time-blindness]]'
----
-# 人做判断AI做生产：核心不是会不会用AI
+---# 人做判断AI做生产：核心不是会不会用AI
 
 > 一堂CTO国帅在AI时代判断力课上提出：**“我们到底能不能点这个头？我们到底能不能点这个头承担这个后果？”** 这是AI协作中唯一不可替代的人类职责。
 

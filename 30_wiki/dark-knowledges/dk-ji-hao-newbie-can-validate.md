@@ -2,7 +2,7 @@
 
 id: dk-ji-hao-newbie-can-validate
 title: '暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -33,8 +33,7 @@ diagnostic_signals:
 - signal: '创始人凭直觉拍板，回头才发现是“兴奋的幻想”'
   lens: 新手验证工具箱
   follow_up_question: 这个判断能否在 48 小时内通过一次用户访谈或一个最小实验得到证据？
----
-# 暗知识：新手也可以用四要素验证
+---# 暗知识：新手也可以用四要素验证
 
 > **用一句话讲清楚**：新手不需要先成为专家，只要用对验证工具，就能对“四要素”做出足够好的判断。
 

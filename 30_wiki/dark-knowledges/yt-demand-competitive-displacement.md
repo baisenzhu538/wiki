@@ -4,7 +4,7 @@ domain:
 
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -39,8 +39,7 @@ diagnostic_signals:
     framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
     follow_up_question: "用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。"
 
----
-# 需求替代陷阱：竞品不是敌人，替代方案才是
+---# 需求替代陷阱：竞品不是敌人，替代方案才是
 
 > 一堂五步法：最大的竞争不是同类产品，而是用户现在的替代方案——包括"不解决"。
 

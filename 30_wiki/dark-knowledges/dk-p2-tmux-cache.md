@@ -2,7 +2,7 @@
 
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -33,8 +33,7 @@ trust_level: medium
 diagnostic_signals:
 - 修改 shell 配置文件后进程行为未立即改变
 - 长期 tmux session 中的环境变量与当前 shell 不一致
----
-# P-2：tmux session 缓存旧配置
+---# P-2：tmux session 缓存旧配置
 
 ## 原始表述 / 核心洞察
 

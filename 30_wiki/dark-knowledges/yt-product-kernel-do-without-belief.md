@@ -4,7 +4,7 @@ domain:
 
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -41,8 +41,7 @@ diagnostic_signals:
     framework_lens: 做而不信——自我认知高于数据
     follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
 
----
-# "做而不信"陷阱：执行了流程，但不相信结果
+---# "做而不信"陷阱：执行了流程，但不相信结果
 
 > 一堂五步法：最大的危险不是不做验证，而是做了验证但不相信结果。
 

@@ -2,7 +2,7 @@
 
 id: dk-note-maximum-common-divisor
 title: "清单体是人与AI的'最大公约数'：结构降级即认知升级"
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -35,8 +35,7 @@ trust_level: medium
 diagnostic_signals:
 - 仅依赖单一口述来源，未经过跨来源或实验数据验证
 - '"显著更好"等效果描述来自主观对比，缺乏量化指标（token消耗、准确率、迭代轮数）'
----
-# 清单体是人与AI的"最大公约数"：结构降级即认知升级
+---# 清单体是人与AI的"最大公约数"：结构降级即认知升级
 
 ## 原始表述 / 核心洞察
 

@@ -3,7 +3,7 @@
 
 id: dk-modeling-ai-self-retrospection
 title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -44,8 +44,7 @@ diagnostic_signals:
 - 同一任务的反馈散落在多个对话窗口或平台，难以追溯
 - AI 输出质量在不同次任务之间波动很大
 - 成功经验的复盘只停留在人的笔记里，AI 下一次还是从头开始
----
-# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
+---# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 
 ## 原始表述 / 核心洞察
 

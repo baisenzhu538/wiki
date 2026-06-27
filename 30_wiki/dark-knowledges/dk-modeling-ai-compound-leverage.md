@@ -3,7 +3,7 @@
 
 id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -48,8 +48,7 @@ diagnostic_signals:
 - signal: 建好的模型沉淀在文档里没人调用，复用率接近零
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。
----
-# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
+---# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 
 ## 原始表述
 

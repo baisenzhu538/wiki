@@ -1,7 +1,7 @@
 ---
 id: dk-yb28-prompt-expiration-management
 title: 提示词有效期预期管理
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# 提示词有效期预期管理
+---# 提示词有效期预期管理
 
 ## 原始表述
 

@@ -4,7 +4,7 @@ domain:
 
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -42,8 +42,7 @@ diagnostic_signals:
     framework_lens: 过早细化——在错误的时间关注错误的事情
     follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
 
----
-# 过早细化陷阱：在验证前追求完美
+---# 过早细化陷阱：在验证前追求完美
 
 > 一堂五步法：最大的浪费不是做错了，而是在验证前把错误的事情做到极致。
 

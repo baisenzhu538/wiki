@@ -3,7 +3,7 @@
 
 id: dk-modeling-essence-predictive
 title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -55,8 +55,7 @@ tags:
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
----
-# “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
+---# “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 
 ## 原始表述
 

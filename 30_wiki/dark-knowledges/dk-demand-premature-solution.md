@@ -2,7 +2,7 @@
 
 id: dk-demand-premature-solution
 title: 过早进入解决方案空间——冰山模型的根本价值
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[framework-demand-iceberg]]"
 ---
-
 # 过早进入解决方案空间
 
 > "在彻底理解问题空间之前跳进解决方案空间，是创业的大忌。" ——一堂冰山图底部警告

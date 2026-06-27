@@ -2,7 +2,7 @@
 
 id: dk-demand-feature-stacking
 title: 功能堆叠陷阱：加功能≠满足需求
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[framework-demand-iceberg]]"
 ---
-
 # 功能堆叠陷阱
 
 > 用户说"如果再加个XX功能就好了"→你加了→用户还是不用。功能堆叠是需求分析不到位的典型症状——每一次"加个功能"的请求背后，都是一个没被正确定义的核心任务。

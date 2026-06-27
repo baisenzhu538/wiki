@@ -2,7 +2,7 @@
 
 id: dk-modeling-question-scaffold-not-answer
 title: 模型是提问的脚手架，不是答案
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -61,7 +61,6 @@ tags:
 - '#scene/business-strategy'
 - '#scene/strategy'
 ---
-
 ## 原始表述 / 核心洞察
 
 > **核心洞察**：模型的价值不在于它给出了什么答案，而在于它能把模糊的业务问题拆成一组可验证、可讨论、可迭代的小问题。一旦把模型当答案，团队就会停止追问，把“算出来”当成“做对了”。

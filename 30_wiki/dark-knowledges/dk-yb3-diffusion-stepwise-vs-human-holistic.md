@@ -2,7 +2,7 @@
 
 id: dk-yb3-diffusion-stepwise-vs-human-holistic
 title: AI生图'抽卡'本质：逐步拆解 vs 人类整体构思
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -35,8 +35,7 @@ diagnostic_signals:
 - signal: 团队对AI生图效果不满意时，第一反应是"提示词写得不够好"，不断加细节描述
   framework_lens: 工具选择错位——问题可能不在提示词质量，而在工具本身的架构局限
   follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。
----
-# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思
+---# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思
 
 ## 原始表述
 

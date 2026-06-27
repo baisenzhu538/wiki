@@ -2,7 +2,7 @@
 
 id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -37,8 +37,7 @@ diagnostic_signals:
 - signal: 企划部用企划部的AI，商务部用商务部的AI，各部门工具和数据不互通
   framework_lens: 孤岛采购——各部门独立选型导致协作断裂
   follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？
----
-# Cubox及AI协作工具的团队部署失败模式
+---# Cubox及AI协作工具的团队部署失败模式
 
 ## 原始表述
 

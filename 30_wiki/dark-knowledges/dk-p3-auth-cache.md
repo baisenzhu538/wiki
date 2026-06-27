@@ -2,7 +2,7 @@
 
 id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -34,8 +34,7 @@ diagnostic_signals:
 - ~/.hermes/.env 与 profiles/*/.env 中的 Key 不一致
 - config.yaml provider 名与 auth.json 的 credential_pool 键名不一致
 - credential_pool 条目的 last_status 为 exhausted 或 last_error_code 为 401
----
-# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
+---# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 
 ## 原始表述/核心洞察
 

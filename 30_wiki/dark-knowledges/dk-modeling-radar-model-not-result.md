@@ -3,7 +3,7 @@
 
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -35,8 +35,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
----
-# 复杂评选别让 CEO 拍结果，只让 CEO 审模型
+---# 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 
 ## 原始表述
 

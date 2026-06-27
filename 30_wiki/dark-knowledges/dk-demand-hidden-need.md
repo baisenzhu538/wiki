@@ -2,7 +2,7 @@
 
 id: dk-demand-hidden-need
 title: 隐性需求伪装：用户说的≠用户要的
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[tool-demand-iceberg-l5-forces]]"
 ---
-
 # 隐性需求伪装
 
 > 用户说"我需要更快的马"，他真正需要的是"更快的交通工具"。用户表达的需求往往是他们已经知道的解决方案，而非问题本身。

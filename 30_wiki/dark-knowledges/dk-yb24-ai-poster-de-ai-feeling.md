@@ -1,7 +1,7 @@
 ---
 id: dk-yb24-ai-poster-de-ai-feeling
 title: AI海报去AI感：图标+质感人物双要素
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AI海报去AI感：图标+质感人物双要素
+---# AI海报去AI感：图标+质感人物双要素
 
 ## 原始表述
 

@@ -2,7 +2,7 @@
 
 id: dk-lz-code-is-disposable
 title: 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -33,8 +33,7 @@ trust_level: medium
 diagnostic_signals:
 - source_refs empty: 原始来源未迁移至 10_raw/sources/，溯源链待补
 - author unknown: 口述来源作者信息未确认
----
-# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
+---# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 
 ## 原始表述 / 核心洞察
 

@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-question-quality
 title: 好调研目标 vs 坏调研目标：决策可验证性
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -24,7 +24,6 @@ related:
   - "[[dk-yitang-research-goal-before-efficiency]]"
   - "[[concept-yitang-ideal-research-goal]]"
 ---
-
 # 好调研目标 vs 坏调研目标
 
 > 差的调研目标是"我想了解XX"。好的调研目标是一个可以被验证或证伪的陈述。

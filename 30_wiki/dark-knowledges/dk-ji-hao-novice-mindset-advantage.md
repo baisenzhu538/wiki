@@ -2,7 +2,7 @@
 
 id: dk-ji-hao-novice-mindset-advantage
 title: 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口
-type: dark-knowledge
+type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
@@ -39,8 +39,7 @@ diagnostic_signals:
 - signal: 任务变复杂后，你开始害怕失败、诱导 AI 而不是做假设检验
   lens: 保护期阈值
   follow_up_question: 我是否已经把任务拆到足够小，并允许每天只比昨天好一点？
----
-# 暗知识：新手心态的五个保护期
+---# 暗知识：新手心态的五个保护期
 
 ## 用一句话讲清楚
 

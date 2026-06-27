@@ -2,7 +2,7 @@
 
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
-type: dark-knowledge
+type: dk
 status: enriched
 domain:
 - ai-collaboration
@@ -36,8 +36,7 @@ diagnostic_signals:
 - signal: 'AI在调用某张卡片时经常丢失上下文或索引关系'
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
----
-# 暗知识：原子化没有固定标准
+---# 暗知识：原子化没有固定标准
 
 ## 用一句话讲清楚
 

@@ -4,7 +4,7 @@ domain:
 
 id: yt-demand-scope-creep
 title: 需求蔓延：从MVP到全功能的陷阱
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -40,8 +40,7 @@ diagnostic_signals:
     framework_lens: 需求蔓延——只加不减，产品臃肿
     follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
 
----
-# 需求蔓延：从MVP到全功能的陷阱
+---# 需求蔓延：从MVP到全功能的陷阱
 
 > 一堂五步法：最大的危险不是没功能，而是在伪需求上无限膨胀，淹没核心功能。
 

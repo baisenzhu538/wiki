@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-cross-validation-cost
 title: 交叉验证是成本也是护城河：信息质量的不对称优势
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -26,7 +26,6 @@ related:
   - "[[dk-yitang-research-scale-vs-depth]]"
   - "[[framework-yitang-six-layer-cross-validation]]"
 ---
-
 # 交叉验证是成本也是护城河
 
 > 大多数人看到一份报告上写着"市场规模500亿"就引用了。而你做了一件事：溯源→找第二来源→检查统计口径→时间序列验证。你做这件事多花了2小时——但你的决策质量从此和大多数人不在一个量级。

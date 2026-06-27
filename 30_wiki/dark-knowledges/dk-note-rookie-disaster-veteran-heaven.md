@@ -2,7 +2,7 @@
 
 id: dk-note-rookie-disaster-veteran-heaven
 title: “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -45,8 +45,7 @@ diagnostic_signals:
 - signal: 培训考核中新人笔记结构漂亮但讲不清重点
   framework_lens: 审美未内化——AI提供了形式，但没提供判断
   follow_up_question: 这份笔记里如果只能保留3个要点，你会怎么选？为什么？
----
-# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
+---# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 
 ## 原始表述/核心洞察
 

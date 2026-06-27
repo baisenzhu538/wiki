@@ -1,161 +1,104 @@
-"""Taxonomy migration: Step 1 (type unification) + Step 2 (directory migration).
-
-Step 1: dark-knowledge / dark_knowledge -> dk  (frontmatter only, no path change)
-Step 2: concepts/tool-*.md -> tools/           (path change + wikilink update)
+"""Taxonomy migration — optimized single-pass.
+Step 1: dark-knowledge/dark_knowledge -> dk
+Step 2: concepts/tool-*.md -> tools/ + wikilink update (single pass)
 """
-
-import re
-import sys
+import re, sys
 from pathlib import Path
 
 ROOT = Path(r"C:\Users\Administrator\Desktop\wiki")
 WIKI = ROOT / "30_wiki"
-DRY_RUN = "--apply" not in sys.argv
+APPLY = "--apply" in sys.argv
+STEP = "step2" if "--step2" in sys.argv else "step1" if "--step1" in sys.argv else "all"
 
-INTERNAL_LINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 
-
-def step1_unify_types():
-    """Unify dark-knowledge / dark_knowledge -> dk in frontmatter type field."""
-    count = 0
+def step1():
+    """dark-knowledge / dark_knowledge -> dk"""
+    n = 0
     for md in WIKI.rglob("*.md"):
-        if ".trash" in md.parts:
-            continue
+        if ".trash" in md.parts: continue
         raw = md.read_text(encoding="utf-8", errors="replace")
-        raw_unix = raw.replace("\r\n", "\n")
-        if not raw_unix.startswith("---\n"):
+        text = raw.replace("\r\n", "\n")
+        if not text.startswith("---\n"): continue
+        end = text.find("\n---\n", 4)
+        if end == -1: continue
+        fm = text[4:end]
+        if "type: dark-knowledge" not in fm and "type: dark_knowledge" not in fm:
             continue
-        end = raw_unix.find("\n---\n", 4)
-        if end == -1:
-            continue
-        fm_text = raw_unix[4:end]
-        body = raw_unix[end + 5:]
-
-        # Check if type field needs unification
-        new_fm_lines = []
-        changed = False
-        for line in fm_text.split("\n"):
-            stripped = line.strip()
-            if stripped in ("type: dark-knowledge", "type: dark_knowledge"):
-                new_fm_lines.append("type: dk")
-                changed = True
-            else:
-                new_fm_lines.append(line)
-
-        if not changed:
-            continue
-
-        new_content = "---\n" + "\n".join(new_fm_lines) + "\n---" + body
-        if not DRY_RUN:
-            md.write_text(new_content, encoding="utf-8")
-        count += 1
-
-    return count
+        new_fm = re.sub(r"^type: dark[_\-]knowledge$", "type: dk", fm, flags=re.MULTILINE)
+        if new_fm == fm: continue
+        if APPLY:
+            md.write_text("---\n" + new_fm + "\n---" + text[end+5:], encoding="utf-8")
+        n += 1
+    return n
 
 
-def step2_migrate_files():
-    """Move concepts/tool-*.md -> tools/ and update all wikilinks."""
-    concepts_dir = WIKI / "concepts"
-    tools_dir = WIKI / "tools"
-    tools_dir.mkdir(parents=True, exist_ok=True)
+def step2():
+    """Move concepts/tool-*.md -> tools/, update wikilinks."""
+    concepts = WIKI / "concepts"
+    tools = WIKI / "tools"
+    tools.mkdir(parents=True, exist_ok=True)
 
-    # Collect files to move, sorted by id length descending for safe replacement
-    moves = []
-    for md in concepts_dir.glob("tool-*.md"):
-        moves.append((md.name, md.stem, md))
+    tool_files = sorted(concepts.glob("tool-*.md"), key=lambda p: -len(p.stem))
 
-    # Sort by stem length descending to prevent partial match
-    moves.sort(key=lambda x: -len(x[1]))
+    # Build stem->path map, sorted by key length descending
+    stem_to_filename = {p.stem: p.name for p in tool_files}
 
-    # Build replacement map: old_target -> new_target
-    # old_target can be: concepts/tool-xxx.md, 30_wiki/concepts/tool-xxx.md, tool-xxx
-    replacements = {}
-    for filename, stem, _ in moves:
-        old_patterns = [
-            f"concepts/{filename}",
-            f"30_wiki/concepts/{filename}",
-            f"concepts/{stem}",
-            f"30_wiki/concepts/{stem}",
-            f"{stem}",  # bare id
-        ]
-        for old in old_patterns:
-            replacements[old] = stem  # new target = bare id
-        # Also handle backslash variants
-        for old in list(replacements.keys()):
-            replacements[old.replace("/", "\\")] = stem
+    # Build replacement: old_text -> new_text (for in-wikilink replacement)
+    replace = {}
+    for p in tool_files:
+        s, fn = p.stem, p.name
+        for old in [f"concepts/{fn}", f"30_wiki/concepts/{fn}",
+                     f"concepts/{s}", f"30_wiki/concepts/{s}", s]:
+            replace[old] = s
+            replace[old.replace("/", "\\")] = s
 
-    # Move files first
+    def _sub_link(m):
+        target = m.group(1)
+        pipe = m.group(2) or ""
+        clean = target.replace("\\", "/")
+        if clean in replace:
+            return f"[[{replace[clean]}{pipe}]]"
+        return m.group(0)
+
+    link_re = re.compile(r"\[\[([^\]|]+)(\|[^\]]+)?\]\]")
+
+    # Move files
     moved = 0
-    for filename, stem, md in moves:
-        dst = tools_dir / filename
+    for p in tool_files:
+        dst = tools / p.name
         if dst.exists():
-            print(f"  CONFLICT: {md.name} already exists in tools/ — skipping")
+            print(f"  SKIP (exists): {p.name}")
             continue
-        if not DRY_RUN:
-            md.rename(dst)
+        if APPLY:
+            p.rename(dst)
         moved += 1
 
-    # Update wikilinks in all remaining files
+    # Update wikilinks — iterate ALL vault files
     updated_files = 0
-    updated_refs = 0
-    for md in ROOT.rglob("*.md"):
-        if ".trash" in md.parts or ".obsidian" in md.parts or ".git" in md.parts:
-            continue
-        raw = md.read_text(encoding="utf-8", errors="replace")
-        original = raw
-
-        for old_target, new_target in replacements.items():
-            # Match [[old_target]] or [[old_target|alias]]
-            pattern = re.escape(old_target)
-            raw = re.sub(
-                rf"\[\[{pattern}(\|.*?)?\]\]",
-                lambda m, nt=new_target: f"[[{nt}{m.group(1) or ''}]]",
-                raw,
-            )
-
-        if raw != original:
-            updated_files += 1
-            updated_refs += len(re.findall(r"\[\[([^\]]+)\]\]", original)) - len(
-                re.findall(r"\[\[([^\]]+)\]\]", raw)
-            )
-            updated_refs = abs(updated_refs)  # avoid negative
-            if not DRY_RUN:
-                md.write_text(raw, encoding="utf-8")
+    if APPLY:
+        for md in ROOT.rglob("*.md"):
+            if ".trash" in md.parts or ".obsidian" in md.parts or ".git" in md.parts:
+                continue
+            raw = md.read_text(encoding="utf-8", errors="replace")
+            new_raw = link_re.sub(_sub_link, raw)
+            if new_raw != raw:
+                md.write_text(new_raw, encoding="utf-8")
+                updated_files += 1
 
     return moved, updated_files
 
 
-def main():
-    step = "all"
-    for a in sys.argv[1:]:
-        if a in ("step1", "step2"):
-            step = a
-    mode = "DRY RUN" if DRY_RUN else "APPLY"
+m = "APPLY" if APPLY else "DRY RUN"
 
-    if step in ("step1", "all"):
-        print(f"\n{'='*60}")
-        print(f"  STEP 1: Type unification (dark-knowledge/dark_knowledge -> dk)")
-        print(f"  Mode: {mode}")
-        print(f"{'='*60}")
-        n = step1_unify_types()
-        print(f"  Cards modified: {n}")
-        if DRY_RUN:
-            print(f"  (dry run — no changes written)")
+if STEP in ("step1", "all"):
+    n = step1()
+    print(f"Step 1 [{m}]: {n} cards type-unified (dark-knowledge/dark_knowledge -> dk)")
+    if not APPLY: print("  (dry run — no changes)")
 
-    if step in ("step2", "all"):
-        print(f"\n{'='*60}")
-        print(f"  STEP 2: Directory migration (concepts/tool-*.md -> tools/)")
-        print(f"  Mode: {mode}")
-        print(f"{'='*60}")
-        moved, updated = step2_migrate_files()
-        print(f"  Files moved: {moved}")
-        print(f"  Files with updated wikilinks: {updated}")
-        if DRY_RUN:
-            print(f"  (dry run — no changes written)")
+if STEP in ("step2", "all"):
+    moved, updated = step2()
+    print(f"Step 2 [{m}]: {moved} files moved, {updated} files wikilink-updated")
+    if not APPLY: print("  (dry run — no changes)")
 
-    if DRY_RUN:
-        print(f"\n  To apply: python _taxonomy_migrate.py --apply")
-
-
-if __name__ == "__main__":
-    main()
+if not APPLY:
+    print("\n  To apply: python _taxonomy_migrate.py --apply")

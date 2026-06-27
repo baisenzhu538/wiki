@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-source-freshness
 title: 信源时效性：AI/监管/融资数据≤30天
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[tool-doris-industry-report-source-evaluation]]"
 ---
-
 # 信源时效性
 
 > 不是所有信息都"不过期"。不同领域的信息衰减速度完全不同。

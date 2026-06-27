@@ -1,7 +1,7 @@
 ---
 id: dk-yb32-doubao-size-composition
 title: 豆包AIGC生图：尺寸是唯一关键排版影响因素
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# 豆包AIGC生图：尺寸是唯一关键排版影响因素
+---# 豆包AIGC生图：尺寸是唯一关键排版影响因素
 
 ## 原始表述
 

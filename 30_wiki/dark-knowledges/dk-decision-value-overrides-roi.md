@@ -1,7 +1,7 @@
 ---
 id: dk-decision-value-overrides-roi
 title: Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.88
@@ -32,8 +32,7 @@ diagnostic_signals:
   - signal: 算了ROI是负的但团队还是想干
     framework_lens: 价值观权重检测
     follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
----
-# Y 模型失效场景：当价值观权重超过经济理性时
+---# Y 模型失效场景：当价值观权重超过经济理性时
 
 ## 原始表述
 

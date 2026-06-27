@@ -2,7 +2,7 @@
 
 id: dk-skill-market-agent-self-install
 title: "暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述"
-type: dark-knowledge
+type: dk
 dark_knowledge_type: paradigm-shift
 status: enriched
 domain:
@@ -45,8 +45,7 @@ diagnostic_signals:
 - signal: 有人提需求说"这个 Skill 的说明不够详细"，团队的反应是加更多文字描述
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。
----
-# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
+---# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
 
 > 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。
 

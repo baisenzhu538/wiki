@@ -4,7 +4,7 @@ domain:
 
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -41,8 +41,7 @@ diagnostic_signals:
     framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
     follow_up_question: "别人的增长策略的前提条件是什么？你的条件是否匹配？"
 
----
-# 增长规模化陷阱
+---# 增长规模化陷阱
 
 > 一堂五步法：增长规模化不是简单的放大，而是系统性的挑战。增长快，死得也快。
 

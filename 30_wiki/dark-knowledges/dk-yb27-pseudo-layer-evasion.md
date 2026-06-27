@@ -2,7 +2,7 @@
 
 id: dk-yb27-pseudo-layer-evasion
 title: 伪图层叠加规避平台图像识别
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
@@ -35,7 +35,6 @@ diagnostic_signals:
 - 使用“加水印”“加图层”等常规方法后仍被识别
 - 需要保留画面主体信息，但又要让机器识别失败
 ---
-
 # 伪图层叠加规避平台图像识别
 
 ## 原始表述/核心洞察

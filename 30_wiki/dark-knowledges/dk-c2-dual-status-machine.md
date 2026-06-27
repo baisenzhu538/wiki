@@ -2,7 +2,7 @@
 
 id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -43,8 +43,7 @@ diagnostic_signals:
 - signal: "第三方工具/外部集成读取 KDO frontmatter 后报告 `status` 值异常"
   framework_lens: 外部集成未被告知 `status` 字段的双重语义，按单一枚举解析必然报错
   follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）
----
-# C-2：Schema status 字段混用两个状态机→字段值互相污染
+---# C-2：Schema status 字段混用两个状态机→字段值互相污染
 
 ## 原始表述
 

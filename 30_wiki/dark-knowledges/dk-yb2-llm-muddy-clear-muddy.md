@@ -2,7 +2,7 @@
 
 id: dk-yb2-llm-muddy-clear-muddy
 title: 大模型训练本质：浑水→清水→浑水的双向转换
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -32,8 +32,7 @@ diagnostic_signals:
 - signal: 团队成员写提示词时，把prompt当成"精准指令"而非"定向扰动"，导致对不可控结果感到挫败
   framework_lens: 推理阶段误解——提示词是"污染清水"而非"精确控制"
   follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。
----
-# 大模型训练本质：浑水→清水→浑水的双向转换
+---# 大模型训练本质：浑水→清水→浑水的双向转换
 
 ## 原始表述
 

@@ -2,7 +2,7 @@
 
 id: dk-fundamentals-before-advanced-ops
 title: 基本功未内化就强上高阶操作——高阶工具失效的头号根因
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -46,8 +46,7 @@ diagnostic_signals:
 - signal: AI工具上线后，成员生成内容变快了，但判断质量没有提升
   framework_lens: 外包了思考
   follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？
----
-# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
+---# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 
 ## 原始表述 / 核心洞察
 

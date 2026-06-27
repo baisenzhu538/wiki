@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -50,7 +50,6 @@ tags:
 - 只定方向不定细节
 - 暗知识
 ---
-
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 
 > **Burn line**：导演的工作不是写满每一步，而是说清方向、划好红线、验收结果。

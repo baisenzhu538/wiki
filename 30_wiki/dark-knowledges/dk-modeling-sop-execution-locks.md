@@ -3,7 +3,7 @@
 
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -50,8 +50,7 @@ diagnostic_signals:
 - signal: SOP 越写越细、越改越多，但执行率没有明显提升
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？
----
-# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+---# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 
 ## 原始表述
 

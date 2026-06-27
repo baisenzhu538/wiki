@@ -2,7 +2,7 @@
 
 id: dk-yb10-theory-moat-designer
 title: AI时代设计师的理论护城河
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -36,8 +36,7 @@ diagnostic_signals:
 - signal: 团队培训预算全投在AI工具培训上，经典设计理论培训被砍掉
   framework_lens: 投资错位——在AI抹平执行差距的时代，理论判断力反而升值
   follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？
----
-# AI时代设计师的理论护城河
+---# AI时代设计师的理论护城河
 
 ## 原始表述
 

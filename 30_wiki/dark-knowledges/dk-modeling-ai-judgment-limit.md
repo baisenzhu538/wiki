@@ -3,7 +3,7 @@
 
 id: dk-modeling-ai-judgment-limit
 title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
-type: dark-knowledge
+type: dk
 dark_knowledge_type: principle
 source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -42,8 +42,7 @@ diagnostic_signals:
 - 你把“要不要继续迭代”“哪个维度更重要”“什么时候停止”交给 AI 决定。
 - 和 AI 交叉对话多轮后，仍然无法收敛到一个稳定、可复现的判断。
 
----
-# AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
+---# AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 
 ## 原始表述 / 核心洞察
 

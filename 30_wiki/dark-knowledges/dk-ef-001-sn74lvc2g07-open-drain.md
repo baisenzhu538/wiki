@@ -2,7 +2,7 @@
 
 id: dk-ef-001-sn74lvc2g07-open-drain
 title: 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
-type: dark-knowledge
+type: dk
 domain:
 - entrepreneurship
 - ai-saas
@@ -24,8 +24,7 @@ author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
----
-# 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
+---# 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 
 ## 原始表述
 

@@ -3,7 +3,7 @@
 
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -41,8 +41,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
----
-# 99% 的模型跑不出二三十个范式：先装武器库再创新
+---# 99% 的模型跑不出二三十个范式：先装武器库再创新
 
 ## 原始表述/核心洞察
 

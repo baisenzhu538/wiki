@@ -2,7 +2,7 @@
 
 id: dk-yitang-survivor-bias-in-research
 title: 调研中的幸存者偏差
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[dk-yitang-expert-interview-5-traps]]"
 ---
-
 # 调研中的幸存者偏差
 
 > 网上能搜到的都是"活下来的"。关掉的店、亏钱的人、失败的项目——这些信息很少出现在公开渠道里，但它们恰恰是你最需要的。

@@ -2,7 +2,7 @@
 
 id: dk-f13-handwritten-yaml-parser
 title: F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -40,8 +40,7 @@ diagnostic_signals:
 - signal: 'dry-run 输出目录中抽检发现嵌套结构异常'
   framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
   follow_up_question: '批量修改前是否输出到临时目录并抽检 3-5 个文件的列表、字典、多行字符串是否完好？'
----
-# F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
+---# F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 
 ## 原始表述/核心洞察
 

@@ -1,7 +1,7 @@
 ---
 id: dk-yb20-ai-eye-high-principle
 title: AIGC眼高原则：审美先于技术
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
@@ -21,8 +21,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AIGC眼高原则：审美先于技术
+---# AIGC眼高原则：审美先于技术
 
 ## 原始表述
 

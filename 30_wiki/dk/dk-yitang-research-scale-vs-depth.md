@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-scale-vs-depth
 title: 调研深度决定决策质量：信息精度的边际价值
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -24,7 +24,6 @@ related:
   - "[[dk-yitang-research-starter-vs-veteran]]"
   - "[[framework-yitang-six-layer-cross-validation]]"
 ---
-
 # 调研深度决定决策质量
 
 > 浅调研给你"感觉"，中调研给你"数据"，深调研给你"可决策的证据"。

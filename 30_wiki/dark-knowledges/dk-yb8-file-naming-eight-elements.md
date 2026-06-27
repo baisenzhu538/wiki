@@ -2,7 +2,7 @@
 
 id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -35,8 +35,7 @@ diagnostic_signals:
 - signal: 不同设计师命名文件的方式完全不同，同一个项目的素材散落各处无法拼合
   framework_lens: 标准缺失——没有统一的八要素命名，AI的批处理能力无法发挥
   follow_up_question: 你的团队有统一的文件命名规范吗？随机抽查3个设计师最近的文件名，一致性多高？
----
-# AI增效前置：文件命名八要素体系
+---# AI增效前置：文件命名八要素体系
 
 ## 原始表述
 

@@ -2,7 +2,7 @@
 
 id: dk-tool-as-phased-validator
 title: 把 AI/工具当成分阶段校验器，而不是一次性生成器
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -63,7 +63,6 @@ tags:
 - '#scene/product-design'
 - '#scene/modeling'
 ---
-
 ## 原始表述 / 核心洞察
 
 > **核心洞察**：AI 和工具的真正价值不是“一次给出正确答案”，而是把原来集中在一个大脑里的判断拆成多个可校验的阶段。一旦把工具输出当成终点，就会在不同的域重复同一种失败：把杠杆当成判断力。

@@ -2,7 +2,7 @@
 
 id: dk-truman-document-is-real-project-is-fake
 title: 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - source_refs empty: 原始来源未迁移至 10_raw/sources/，溯源链待补
 - trust_level low: 内容基于单次口述分享，缺乏独立验证
----
-# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
+---# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 
 ## 原始表述 / 核心洞察
 

@@ -2,7 +2,7 @@
 
 id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -33,8 +33,7 @@ trust_level: medium
 diagnostic_signals:
 - 卡片标题或正文出现「XX 的定义」「XX 的分类」「XX 的应用」等百科词条式结构
 - 正文缺少 [Condense]/[Critique]/[Synthesis] 三步编译区块标记
----
-# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
+---# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 
 ## 原始表述
 

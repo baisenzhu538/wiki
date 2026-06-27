@@ -2,7 +2,7 @@
 
 id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -33,8 +33,7 @@ tags:
   - '#method/modeling'
   - '#content-format/case-study'
   - '#confidence'
----
-# 案例大爆炸的底气：来自销冠广场，不是胆子大
+---# 案例大爆炸的底气：来自销冠广场，不是胆子大
 
 ## 原始表述/核心洞察
 

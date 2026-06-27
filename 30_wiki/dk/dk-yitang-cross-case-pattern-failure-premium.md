@@ -2,7 +2,7 @@
 
 id: dk-yitang-cross-case-pattern-failure-premium
 title: 跨案例模式：失败者溢价——研究失败比研究成功的信息价值高10倍
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -25,7 +25,6 @@ related:
   - "[[case-yitang-fake-interview-intelligence]]"
   - "[[case-yitang-supplier-security-guard]]"
 ---
-
 # 跨案例模式：失败者溢价
 
 > 关店调研比开店调研重要十倍。访谈赔了钱的店=深层调研，访谈赚了钱的店=中层调研。这不是夸张——跨10+案例统计后，这是调研信息质量的铁律。

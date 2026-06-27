@@ -2,7 +2,7 @@
 
 id: dk-yb22-visual-presentation-scene-match
 title: 视觉呈现方式与消费场景的匹配原则
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -31,8 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - 决策者常把"图片质量"与"拍摄成本"混为一谈，忽视"质感信号"与"价格锚点"的对应关系
 - 高端场景误用 amateur 视觉后，转化率或客单价下降，但团队往往归因于"流量"或"产品"
----
-# 视觉呈现方式与消费场景的匹配原则
+---# 视觉呈现方式与消费场景的匹配原则
 
 ## 原始表述 / 核心洞察
 

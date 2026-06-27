@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-creativity-in-description-and-taste
 title: 王欢暗知识：创造力重新分配到问题描述与验收审美
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -53,7 +53,6 @@ tags:
 - 验收审美
 - 人机协作
 ---
-
 # 王欢暗知识：创造力重新分配到问题描述与验收审美
 
 > **Burn line**: 未来人的创造力，不再主要放在执行上，而是放在“把问题描述清楚”和“判断结果好不好”上。

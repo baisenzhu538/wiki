@@ -2,7 +2,7 @@
 
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -31,8 +31,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
----
-# F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
+---# F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 
 ## 原始表述
 

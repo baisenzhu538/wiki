@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-goal-before-efficiency
 title: 没有目标就不要谈效率
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[framework-doris-industry-report-4step]]"
 ---
-
 # 没有目标就不要谈效率
 
 > Doris的核心原则："没有目标，就不要谈效率。"

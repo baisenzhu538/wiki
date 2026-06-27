@@ -2,7 +2,7 @@
 
 id: dk-jh-llm-time-blindness
 title: LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别
-type: dark-knowledge
+type: dk
 status: draft
 domain:
 - ai-saas
@@ -20,8 +20,7 @@ related:
   - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
   - '[[dk-ai-judgment-human-responsibility]]'
   - '[[dk-ai-judgment-programmer-paradox]]'
----
-# LLM时间盲症：AI不知道现在是什么时候
+---# LLM时间盲症：AI不知道现在是什么时候
 
 > 纪浩在AI共创社分享中提出：**LLM没有时间概念**，它不知道现在是2026年还是2024年，也不知道某个事件是否已经发生。这是一个被大多数人忽视的隐形风险。
 

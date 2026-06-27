@@ -2,7 +2,7 @@
 
 id: dk-yb16-ecommerce-product-image-vs-lucky-draw
 title: AI电商产品图：抽卡图≠产品图，白底图才是交付标准
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -33,8 +33,7 @@ diagnostic_signals:
 - 团队把 AI 抽卡场景图直接当跨境电商主图使用
 - 追求"图好看"但忽略了平台白底图合规要求
 - 国内电商经验直接套用到亚马逊/速卖通导致审核被拒
----
-# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+---# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 
 ## 原始表述/核心洞察
 

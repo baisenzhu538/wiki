@@ -2,7 +2,7 @@
 
 id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -36,7 +36,6 @@ diagnostic_signals:
 - 文件 frontmatter、`.kdo/state.json`、`90_control/artifact-registry.yaml` 三处同一字段值不一致
 - 用户反复确认文件已改，但验证结果未变，产生"系统是否坏了"的怀疑
 ---
-
 # P-16：validate 优先读取 state.json 而非文件 frontmatter
 
 ## 原始表述 / 核心洞察

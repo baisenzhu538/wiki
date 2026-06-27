@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-standard-by-iteration
 title: 王欢暗知识：标准不清时，用AI对抗AI生成标准
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -54,7 +54,6 @@ tags:
 - 对抗式生成
 - 人机协作
 ---
-
 # 王欢暗知识：标准不清时，用AI对抗AI生成标准
 
 > **Burn line**: 当你不知道“好”的标准是什么，不要空想，先让 AI 出一版，再用另一个 AI 按最高标准挑毛病，反复迭代，标准自然浮现。

@@ -2,7 +2,7 @@
 
 id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -36,8 +36,7 @@ diagnostic_signals:
 - signal: 每次做新项目都从零开始写prompt，不利用历史项目的完整工程文件
   framework_lens: 资产复用缺失——不逆向工程历史项目就无法建立可复用的结构体系
   follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。
----
-# AI绘图降本的前提：风格资产工程化归档
+---# AI绘图降本的前提：风格资产工程化归档
 
 ## 原始表述
 

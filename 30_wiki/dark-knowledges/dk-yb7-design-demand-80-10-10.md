@@ -2,7 +2,7 @@
 
 id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -37,8 +37,7 @@ diagnostic_signals:
 - signal: 团队引入AI工具后，资深设计师被拉去做大量运营素材，创意产出反而下降
   framework_lens: 人力资源错配——高端人才被低端需求消耗
   follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？
----
-# 中国设计需求的80-10-10分层法则
+---# 中国设计需求的80-10-10分层法则
 
 ## 原始表述
 

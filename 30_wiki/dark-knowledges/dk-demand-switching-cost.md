@@ -2,7 +2,7 @@
 
 id: dk-demand-switching-cost
 title: 新体验-旧体验-切换成本=产品价值
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,7 +22,6 @@ related:
   - '[[case-demand-ai-fitness-four-forces]]'
   - "[[tool-demand-four-forces]]"
 ---
-
 # 新体验-旧体验-切换成本=产品价值
 
 > 用户不选你，不一定是你不好。可能是切换成本太高——学习新工具、迁移数据、改变习惯。产品价值公式：V = (新体验 - 旧体验) - 切换成本。如果V≤0，产品再好也没用。

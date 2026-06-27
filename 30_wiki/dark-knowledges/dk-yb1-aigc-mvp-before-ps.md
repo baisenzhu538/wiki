@@ -2,7 +2,7 @@
 
 id: dk-yb1-aigc-mvp-before-ps
 title: 设计师AIGC工作流：先跑MVP再开PS
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -36,8 +36,7 @@ diagnostic_signals:
 - signal: 设计产出被反复推翻，每次改稿都在PS里重新做，而不是回到提示词/方向层调整
   framework_lens: 改稿成本错位——方向级问题应该在MVP阶段解决，而非在执行层反复修改
   follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。
----
-# 设计师AIGC工作流：先跑MVP再开PS
+---# 设计师AIGC工作流：先跑MVP再开PS
 
 ## 原始表述
 

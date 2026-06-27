@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-26T20:18:01+00:00_
+_Last updated: 2026-06-27T01:46:55+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `30_wiki/frameworks/xingangwan-pharma-business-formulas.md`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
@@ -389,454 +389,6 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[structured-ai-workspace|structured-ai-workspace]] — source no source
 - [[supply-chain-beverage|餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡]] — source `10_raw/sources/src_20260614_16c4bf0d-双柚汁产品成本沟通.md`
 - [[tinyfish-agentic-web-infrastructure|TinyFish — Agentic Web 基础设施建设层 Skill]] — source `source_unknown`
-- [[tool-1视角升级思考法|技能：+1视角升级思考法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-ai-ai-workspace-setup|技能：结构化AI工作空间搭建]] — source `source_unknown`
-- [[tool-ai-evidence-check|技能：AI输出证据核查三问法]] — source `source_unknown`
-- [[tool-ai-four-elements-validation|tool-ai-four-elements-validation]] — source no source
-- [[tool-ai-info-literacy-three-layer|tool-ai-info-literacy-three-layer]] — source no source
-- [[tool-ai-landing-five-steps|技能：AI落地五步执行流程]] — source `src_20260606_ef4877d0-所以90的核心问题`
-- [[tool-ai-narrative-test|技能：你的方案有叙事力吗？快速测试]] — source `source_unknown`
-- [[tool-ai-old-small-checklist|技能："找老的干小的"场景评估清单]] — source `source_unknown`
-- [[tool-ai-oral-spray-input|技能：用口喷输入法生成高质量 AI 提示词]] — source `source_unknown`
-- [[tool-ai-parallel-validation|技能：平行运行验证法]] — source `source_unknown`
-- [[tool-ai-prd-for-ai|技能：把PRD写成AI能执行的指令]] — source `source_unknown`
-- [[tool-ai-problem-question-check|tool-ai-problem-question-check]] — source no source
-- [[tool-ai-problem-validation|技能：问题验证三维度法]] — source `source_unknown`
-- [[tool-ai-purpose-bias-check|技能：目的论偏差快速识别法]] — source `source_unknown`
-- [[tool-ai-research-five-steps|技能：AI调研五步法]] — source `src_20260606_90b44191-没有人呀现在`
-- [[tool-ai-scene-four-elements|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0-所以90的核心问题`
-- [[tool-ai-system-redundancy|技能：系统冗余度快速检查清单]] — source `source_unknown`
-- [[tool-ai-voice-input-doubao|技能：口喷式语音输入法]] — source `source_unknown`
-- [[tool-ai辅助学习|技能：AI辅助学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua|技能：按语义切分文档做向量化]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi|技能：动态读取 + 向量化管理迭代知识]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong|技能：飞书多维表格 + 自建机器人做团队数据协同]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao|技能：告诉 AI 当前日期限制数据时效]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md`
-- [[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang|技能：将学习成果沉淀为 PRD 文档]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill|技能：判断课程是否值得做成Skill]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai|技能：清洗资料为 Markdown 格式喂给 AI]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie|技能：设计 Skill 的评分规则与风险边界]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan|技能：用 AI 做结构化用户调研]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo|技能：用 Skill 做对比测试验证效果]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md`
-- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian|技能：用 YAML 格式做知识库原子化标签]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju|技能：优先使用官方权威信源做证据]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan|技能：追问 AI 证据并标注信源]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[tool-cognitive-bias-12-check|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
-- [[tool-decision-delay-intuition|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
-- [[tool-decision-outside-view|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
-- [[tool-first-principles-assumption-classify|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
-- [[tool-mece体系框架法|技能：MECE体系框架法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-react行动推理循环|技能：ReACT行动推理循环]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI场景探索STAR模型|技能：AI场景探索STAR模型]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI工具选型决策|技能：AI工具选型决策]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI时代IPO模型重构|技能：AI时代IPO模型重构]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI时代提示词优化法|技能：AI时代提示词优化法]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI能力分层学习路径|技能：AI能力分层学习路径]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI辅助思考伙伴养成|技能：AI辅助思考伙伴养成]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-AI输出审慎判断与交付确认|技能：AI输出审慎判断与交付确认]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-Feature特性层训练法|技能：Feature特性层训练法]] — source `source_unknown`
-- [[tool-Truman-Skill全生命周期管理|技能：Skill全生命周期管理]] — source `source_unknown`
-- [[tool-Truman-XY-Problem识别与真实问题定位|技能：XY Problem识别与真实问题定位]] — source `source_unknown`
-- [[tool-Truman-上下文质量管理（AI协作）|技能：上下文质量管理（AI协作）]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-个人判断力系统建设（达克效应应对）|技能：个人判断力系统建设（达克效应应对）]] — source `source_unknown`
-- [[tool-Truman-人在环渐进自动化策略|技能：人在环渐进自动化策略]] — source `source_unknown`
-- [[tool-Truman-低质量动作识别与拒绝|技能：低质量动作识别与拒绝]] — source `source_unknown`
-- [[tool-Truman-信息输入持续补全（防AI错误累积）|技能：信息输入持续补全（防AI错误累积）]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-判断力产品化与系统赋能|技能：判断力产品化与系统赋能]] — source `source_unknown`
-- [[tool-Truman-双三角模型应用|技能：双三角模型应用]] — source `source_unknown`
-- [[tool-Truman-复杂项目AI落地稳定性保障|技能：复杂项目AI落地稳定性保障]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-Truman-多Agent通信协作方案|技能：多Agent通信协作方案]] — source `source_unknown`
-- [[tool-Truman-开源模型与商业模型融合方案|技能：开源模型与商业模型融合方案]] — source `source_unknown`
-- [[tool-Truman-技术社区严肃提问法|技能：技术社区严肃提问法]] — source `source_unknown`
-- [[tool-Truman-提示词优化底层方法|技能：提示词优化底层方法]] — source `source_unknown`
-- [[tool-Truman-数学题与语文题区分法|技能：数学题与语文题区分法]] — source `source_unknown`
-- [[tool-Truman-本地记忆与云端记忆管理|技能：本地记忆与云端记忆管理]] — source `source_unknown`
-- [[tool-Truman-知识库最佳实践构建|技能：知识库最佳实践构建]] — source `source_unknown`
-- [[tool-Truman-短视频自动化上传工作流|技能：短视频自动化上传工作流]] — source `source_unknown`
-- [[tool-Truman-科学提问法|技能：科学提问法]] — source `source_unknown`
-- [[tool-Truman-职场异步协作提问法|技能：职场异步协作提问法]] — source `source_unknown`
-- [[tool-Truman-语义对齐沟通法|技能：语义对齐沟通法]] — source `source_unknown`
-- [[tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source `source_unknown`
-- [[tool-一堂-business-prediction-15-char|技能：商业预判15字诀]] — source `10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt`
-- [[tool-一堂-five-step-validation|技能：聊问查测盘五步验证法]] — source `10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt`
-- [[tool-一堂-hypothesis-validation-three-axe|技能：假设验证三板斧]] — source `10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt`
-- [[tool-一堂-kernel-three-questions|技能：内核要素三问验证法]] — source `10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt`
-- [[tool-一堂-product-kernel-add-subtract|技能：产品内核加减法]] — source `10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt`
-- [[tool-一堂-product-kernel-canvas|一堂产品内核画布应用技能]] — source `10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt`
-- [[tool-一堂-spectrum-positioning|技能：光谱模型定位法]] — source `10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt`
-- [[tool-三层目标对齐法|技能：三层目标对齐法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-三阶追问法穷尽决策要素|技能：三阶追问法穷尽决策要素]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-专家访谈十步法|技能：专家访谈十步法]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-专家访谈学习|技能：专家访谈学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-专题笔记整理|技能：专题笔记整理]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-专题笔记脑图整理法|技能：专题笔记/脑图整理法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-主动摘要压缩上下文|技能：主动摘要压缩上下文]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-人生红点战略对齐|技能：人生红点战略对齐]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-从案例中学习|技能：从案例中学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-从案例中学习正反案例法|技能：从案例中学习（正反案例法）]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-代入场景推演要素法|技能：代入场景推演要素法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-任务拆解为工作流|技能：任务拆解为工作流]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-体系框架构建|技能：体系框架构建]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-使用一页纸速查卡快速调用框架|tool-使用一页纸速查卡快速调用框架]] — source no source
-- [[tool-使用优先级快筛卡锁定核心矛盾|技能：使用优先级快筛卡锁定核心矛盾]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-使用概念辨析卡区分易混淆概念|技能：使用概念辨析卡区分易混淆概念]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-六维窗口期扫描法|技能：六维窗口期扫描法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-分享输出检验法|技能：分享输出检验法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-分层标注重点信息|技能：分层标注重点信息]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-创始人二当家分工协作模式|技能：创始人+二当家分工协作模式]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-制作行业化要素检查清单|技能：制作行业化要素检查清单]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-动手建模提炼|技能：动手建模提炼]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-动手建模法|技能：动手建模法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-区分获客渠道计算单元roi|技能：区分获客渠道计算单元ROI]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
-- [[tool-半肥猫-ai-research-validation|AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环]] — source `10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- [[tool-半肥猫-course-to-skill-workflow|课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化]] — source `10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- [[tool-半肥猫-课程Skill化的八步工作流|技能：课程Skill化的八步工作流]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md`
-- [[tool-半肥猫-边学边练边沉淀的AI学习法|技能：边学边练边沉淀的 AI 学习法]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md`
-- [[tool-反向提示获取优化建议|技能：反向提示获取优化建议]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-反向教学深化理解|技能：反向教学深化理解]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-反向记录整理思路|技能：反向记录整理思路]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-反向采访挖掘深度|技能：反向采访挖掘深度]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-四层联系建立法|技能：四层联系建立法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-城市合伙人模式复制能力|技能：城市合伙人模式复制能力]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-增强数据供给|技能：增强数据供给]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-复盘推演法|技能：复盘推演法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-复盘推演练习|技能：复盘推演练习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-多模型对比抽卡|技能：多模型对比抽卡]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-多源输入法|技能：多源输入法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-多轮确认防偏差|技能：多轮确认防偏差]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-对标借鉴他人决策维度|技能：对标借鉴他人决策维度]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-寻找学习教练法|技能：寻找学习教练法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-封装可复用skill|技能：封装可复用Skill]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-将未中标成本纳入循环计算真实投标成本|技能：将未中标成本纳入循环计算真实投标成本]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
-- [[tool-应用人员降级公式实现标准化|技能：应用人员降级公式实现标准化]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-建立知识联系|技能：建立知识联系]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-建立策略-要素映射表设计对抗策略|技能：建立策略-要素映射表设计对抗策略]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-快招品牌总部模拟调研|技能：快招品牌总部模拟调研]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-思维链显化推理|技能：思维链显化推理]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-思维验证交叉检验|技能：思维验证交叉检验]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-执行对标研究三步法|技能：执行对标研究三步法]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-按分阶练习路径渐进掌握方法|技能：按分阶练习路径渐进掌握方法]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-按图索骥改良外部模板|技能：按图索骥改良外部模板]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-按月份摊销收入成本做计划|技能：按月份摊销收入成本做计划]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
-- [[tool-推行分层标准化策略|技能：推行分层标准化策略]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-提升笔记练习频次的方法|技能：提升笔记练习频次的方法]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-提示词结构化迭代|技能：提示词结构化迭代]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-敏捷发布快速迭代搭建体系|技能：敏捷发布快速迭代搭建体系]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-数据分层供给|技能：数据分层供给]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-月白-80分效率设计策略|技能：80分效率设计策略]] — source `src_20260510_4bb17355-天花板`
-- [[tool-月白-A-B双轨反推模式选择|技能：A/B双轨反推模式选择]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AIGC产品白底图制作|技能：AIGC产品白底图制作]] — source `source_unknown`
-- [[tool-月白-AIGC人群画像驱动详情页规划|技能：AIGC人群画像驱动详情页规划]] — source `source_unknown`
-- [[tool-月白-AIGC反向拆解法|技能：AIGC反向拆解法]] — source `source_unknown`
-- [[tool-月白-AIGC文字大小精确控制|技能：AIGC文字大小精确控制]] — source `source_unknown`
-- [[tool-月白-AIGC模型选型决策法|技能：AIGC模型选型决策法]] — source `source_unknown`
-- [[tool-月白-AIGC橱窗陈列设计流程|技能：AIGC橱窗陈列设计流程]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AIGC海报信息优先级排序法|技能：AIGC海报信息优先级排序法]] — source `source_unknown`
-- [[tool-月白-AIGC生成人物证件照|技能：AIGC生成人物证件照]] — source `source_unknown`
-- [[tool-月白-AIGC设计作业复盘法|技能：AIGC设计作业复盘法]] — source `source_unknown`
-- [[tool-月白-AIGC餐饮海报优化一抽流|技能：AIGC餐饮海报优化一抽流]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI一句话改图尺寸|技能：AI一句话改图尺寸]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI人物特征精准描述法|技能：AI人物特征精准描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI去字-稿定设计加字工作流|技能：AI去字+稿定设计加字工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI去文字-稿定设计快速出图法|技能：AI去文字+稿定设计快速出图法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI图片印刷落地预处理|技能：AI图片印刷落地预处理]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI图片去文字处理|技能：AI图片去文字处理]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI图片风格逆向提取（抄图法）|技能：AI图片风格逆向提取（抄图法）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI图生图尺寸快速转换|技能：AI图生图尺寸快速转换]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI对话式海报修改（免PS）|技能：AI对话式海报修改（免PS）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI对话情绪管理法|技能：AI对话情绪管理法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI工艺图人工复核法|技能：AI工艺图人工复核法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI平台算法咨询法|技能：AI平台算法咨询法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI归纳共性描述法|技能：AI归纳共性描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI抽卡效率控制法|技能：AI抽卡效率控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI提示词精准约束法|技能：AI提示词精准约束法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI改图指令精细化|技能：AI改图指令精细化]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI智价比评估决策|技能：AI智价比评估决策]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI模型选择决策法|技能：AI模型选择决策法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI模型选择策略|技能：AI模型选择策略]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI海报快速生成法（15分钟无PS）|技能：AI海报快速生成法（15分钟无PS）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生图与图生图决策法|技能：AI生图与图生图决策法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生成IP表情包|技能：AI生成IP表情包]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生成图小字控制法|技能：AI生成图小字控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生成图片排版控制-尺寸优先法|技能：AI生成图片排版控制-尺寸优先法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生成棉花娃娃形象|技能：AI生成棉花娃娃形象]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI生成电商白底图|技能：AI生成电商白底图]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI电商图人工过审处理|技能：AI电商图人工精修与平台合规发布]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI精准替换产品技巧|技能：AI精准替换产品技巧]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI自动生成多语种专业名词提示词|技能：AI自动生成多语种专业名词提示词]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计-质价比-决策框架|技能：AI设计'质价比'决策框架]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计三段式里程碑流程|技能：AI设计三段式里程碑流程]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计严苛批评法|技能：AI设计严苛批评法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计反馈萃取法|技能：AI设计反馈萃取法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计底层逻辑：从设计到作图到改图|技能：AI设计底层逻辑：从设计到作图到改图]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计落地文件标准生成|技能：AI设计落地文件标准生成]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI设计里程碑拆解法|技能：AI设计里程碑拆解法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI课程内容深度梳理法|技能：AI课程内容深度梳理法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI质价比评估方法|技能：AI质价比评估方法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI逆向反推描述法|技能：AI逆向反推描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI需求拆解咨询法|技能：AI需求拆解咨询法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-AI高清重绘去模糊|技能：AI高清重绘去模糊]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-PPT全AI生成工作流|技能：PPT全AI生成工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-PPT内容框架AIGC生成法|技能：PPT内容框架AIGC生成法]] — source `source_unknown`
-- [[tool-月白-PPT风格锁定工作流|技能：PPT风格锁定工作流]] — source `source_unknown`
-- [[tool-月白-PS图层规范管理|技能：PS图层规范管理]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-RGB转CMYK印刷预检|技能：RGB转CMYK印刷预检]] — source `source_unknown`
-- [[tool-月白-RGB转CMYK色彩校准法|技能：RGB转CMYK色彩校准法]] — source `source_unknown`
-- [[tool-月白-Token效价比决策公式|技能：Token效价比决策公式]] — source `source_unknown`
-- [[tool-月白-Token效价比决策法|技能：Token效价比决策法]] — source `source_unknown`
-- [[tool-月白-Token智甲比控制法|技能：Token智甲比控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-一抽流改图法（自然语言精准许愿法）|技能：一抽流改图法（自然语言精准许愿法）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-一抽流长提示词写作法|技能：一抽流长提示词写作法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-三步作业反馈法|技能：三步作业反馈法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-产品反光修复术|技能：产品反光修复术]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-产品替换式场景合成法|技能：产品替换式场景合成法]] — source `source_unknown`
-- [[tool-月白-产品白底图标准化制作|技能：产品白底图标准化制作]] — source `source_unknown`
-- [[tool-月白-产品风格选择：测而非定|技能：产品风格选择：测而非定]] — source `source_unknown`
-- [[tool-月白-价格带视觉策略匹配|技能：价格带视觉策略匹配]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-供应商信息对齐清单法|技能：供应商信息对齐清单法]] — source `source_unknown`
-- [[tool-月白-像素图高清重绘修复法|技能：像素图高清重绘修复法]] — source `source_unknown`
-- [[tool-月白-光影灰度控制能力构建|技能：光影灰度控制能力构建]] — source `source_unknown`
-- [[tool-月白-关键要素提取改图法|技能：关键要素提取改图法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-具体化优点萃取与复用|技能：具体化优点萃取与复用]] — source `source_unknown`
-- [[tool-月白-分层自洽海报生成法|技能：分层自洽海报生成法]] — source `source_unknown`
-- [[tool-月白-分步迭代改图法|技能：分步迭代改图法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-创作与执行双模式切换|技能：创作与执行双模式切换]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-包材工艺参数核对法|技能：包材工艺参数核对法]] — source `source_unknown`
-- [[tool-月白-卖点可视化海报设计法|技能：卖点可视化海报设计法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-印刷DPI标准设置|技能：印刷DPI标准设置]] — source `source_unknown`
-- [[tool-月白-叙事性场景海报构建|技能：叙事性场景海报构建]] — source `source_unknown`
-- [[tool-月白-口喷作图工作流|技能：口喷作图工作流]] — source `source_unknown`
-- [[tool-月白-口喷式AIGC设计法|技能：口喷式AIGC设计法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-口喷式设计工作流|技能：口喷式设计工作流]] — source `source_unknown`
-- [[tool-月白-口述作图法（口喷设计）|技能：口述作图法（口喷设计）]] — source `source_unknown`
-- [[tool-月白-后台数据AI诊断法|技能：后台数据AI诊断法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-商业项目AI模型选型决策|技能：商业项目AI模型选型决策]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-图像信息逆向解析训练|技能：图像信息逆向解析训练]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-图片逆向反推提示词法|技能：图片逆向反推提示词法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-图片逆向提示词提取|技能：图片逆向提示词提取]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-图生图产品替换与场景合成|技能：图生图产品替换与场景合成]] — source `source_unknown`
-- [[tool-月白-圈图指定修改法|技能：圈图指定修改法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-基于基础形象做动作延展（1到10）|技能：基于基础形象做动作延展（1到10）]] — source `src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程`
-- [[tool-月白-基于白底图做动作延展|技能：基于白底图做动作延展]] — source `source_unknown`
-- [[tool-月白-基于需求拆解找设计参考|技能：基于需求拆解找设计参考]] — source `source_unknown`
-- [[tool-月白-多窗口并行工作法|技能：多窗口并行工作法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-多语种专业名词提示词策略|技能：多语种专业名词提示词策略]] — source `source_unknown`
-- [[tool-月白-多语言提示词精准法|技能：多语言提示词精准法]] — source `source_unknown`
-- [[tool-月白-多语言提示词降幻觉法|技能：多语言提示词降幻觉法]] — source `source_unknown`
-- [[tool-月白-官方提示词最佳实践迁移|技能：官方提示词最佳实践迁移]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-实物包装产业链实践|技能：实物包装产业链实践]] — source `source_unknown`
-- [[tool-月白-实物包装落地训练法|技能：实物包装落地训练法]] — source `source_unknown`
-- [[tool-月白-审美刻意练习法|技能：审美刻意练习法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-封面情绪转化法|技能：封面情绪转化法]] — source `source_unknown`
-- [[tool-月白-小红书双重搜索法|技能：小红书双重搜索法]] — source `source_unknown`
-- [[tool-月白-小红书封面趋势判断法|技能：小红书封面趋势判断法]] — source `source_unknown`
-- [[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图|技能：小红书平台内容策略：从美图经济到沙雕梗图]] — source `source_unknown`
-- [[tool-月白-工厂对接信息清单制作|技能：工厂对接信息清单制作]] — source `source_unknown`
-- [[tool-月白-左手Cubox右手里程碑学习法|技能：左手Cubox右手里程碑学习法]] — source `source_unknown`
-- [[tool-月白-左脑画面描述训练法|技能：左脑画面描述训练法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-强约束画面尺寸比例|技能：强约束画面尺寸比例]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-微信公众号封面AI设计-尺寸强约束法|技能：微信公众号封面AI设计-尺寸强约束法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-手机外设计逻辑切换法|技能：手机外设计逻辑切换法]] — source `source_unknown`
-- [[tool-月白-手绘草稿AI转化工作流|技能：手绘草稿AI转化工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-批量生成多视角素材|技能：批量生成多视角素材]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-找AI要平台专属方法（模型对抗法）|技能：找AI要平台专属方法（模型对抗法）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-控制产品画面尺寸比例|技能：控制产品画面尺寸比例]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-提示词优化：信息流海报文字修复|技能：提示词优化：信息流海报文字修复]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-提示词长度控制法|技能：提示词长度控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-文件命名与图层命名规范|技能：文件命名与图层命名规范]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-文件命名与存档规范（口述暗示）|技能：文件命名与存档规范（口述暗示）]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-文件命名与平台适配规范|技能：文件命名与平台适配规范]] — source `source_unknown`
-- [[tool-月白-文创产品AI设计到生产的卡点预判|技能：文创产品AI设计到生产的卡点预判]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-文创材质成本调研与精益选择|技能：文创材质成本调研与精益选择]] — source `source_unknown`
-- [[tool-月白-文创材质调研与精益选择|技能：文创材质调研与精益选择]] — source `source_unknown`
-- [[tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法|技能：新媒体平台流量逻辑-问平台亲儿子AI法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-新媒体热点物料快速迭代法|技能：新媒体热点物料快速迭代法]] — source `source_unknown`
-- [[tool-月白-新手设计师基本功训练法|技能：新手设计师基本功训练法]] — source `source_unknown`
-- [[tool-月白-普通人AI快速上手法|技能：普通人AI快速上手法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-普通人AI设计80分法则|技能：普通人AI设计80分法则]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-智能扩图-拓图双方案|技能：智能扩图/拓图双方案]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-替换大法改图|技能：替换大法改图]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-最佳实践素材收集法|技能：最佳实践素材收集法]] — source `source_unknown`
-- [[tool-月白-服务体验类去AI感设计|技能：服务体验类去AI感设计]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-未知领域审美建构法|技能：未知领域审美建构法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-模型性价比选型决策|技能：模型性价比选型决策]] — source `source_unknown`
-- [[tool-月白-模型识别与边界测试法|技能：模型识别与边界测试法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-正向反馈强化AI生成|技能：正向反馈强化AI生成]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-泛产品设计能力迁移法|技能：泛产品设计能力迁移法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-海报二维码快速替换法|技能：海报二维码快速替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-海报文字错误修复法|技能：海报文字错误修复法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-灵感画布建立法|技能：灵感画布建立法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-烧Token快速积累体感|技能：烧Token快速积累体感]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-用AIGC做设计专家批评复盘|技能：用AIGC做设计专家批评复盘]] — source `source_unknown`
-- [[tool-月白-用一堂方法论找最佳实践并拉满执行|技能：用一堂方法论找最佳实践并拉满执行]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-电商场景图三类分类法|技能：电商场景图三类分类法]] — source `source_unknown`
-- [[tool-月白-电商场景图三类构建法|技能：电商场景图三类构建法]] — source `source_unknown`
-- [[tool-月白-电商白底图生成与场景图匹配|技能：电商白底图生成与场景图匹配]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-电商白底图生成与高清处理|技能：电商白底图生成与高清处理]] — source `source_unknown`
-- [[tool-月白-电商白底图生成与高清重绘|技能：电商白底图生成与高清重绘]] — source `source_unknown`
-- [[tool-月白-电商详情页起承转合架构法|技能：电商详情页起承转合架构法]] — source `source_unknown`
-- [[tool-月白-眼高手低训练法|技能：眼高手低训练法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-眼高手低转化法|技能：眼高手低转化法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-短视频封面-音量战争-设计法|技能：短视频封面'音量战争'设计法]] — source `source_unknown`
-- [[tool-月白-短视频封面一秒吸睛法|技能：短视频封面一秒吸睛法]] — source `source_unknown`
-- [[tool-月白-短视频封面高亮吸睛法|技能：短视频封面高亮吸睛法]] — source `source_unknown`
-- [[tool-月白-社群直播海报利益点提炼法|技能：社群直播海报利益点提炼法]] — source `source_unknown`
-- [[tool-月白-竞品图精益替换法|技能：竞品图精益替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-精准共用提示词撰写|技能：精准共用提示词撰写]] — source `source_unknown`
-- [[tool-月白-精准提示词撰写法|技能：精准提示词撰写法]] — source `source_unknown`
-- [[tool-月白-精准提示词消除模型幻觉|技能：精准提示词消除模型幻觉]] — source `source_unknown`
-- [[tool-月白-精准改图提示词写法|技能：精准改图提示词写法]] — source `source_unknown`
-- [[tool-月白-纳米级抄大师训练法|技能：纳米级抄大师训练法]] — source `source_unknown`
-- [[tool-月白-线下实体门店设计真实体感验证|技能：线下实体门店设计真实体感验证]] — source `source_unknown`
-- [[tool-月白-线下门店设计复杂度评估|技能：线下门店设计复杂度评估]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-背景消除与分辨率修复|技能：背景消除与分辨率修复]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-色块分区控制法|技能：色块分区控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-薅AIGC羊毛资源法|技能：AIGC工具免费试用与入门资源整理]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-行业配色快速确定法|技能：行业配色快速确定法]] — source `source_unknown`
-- [[tool-月白-表情包风格筛选与确定|技能：表情包风格筛选与确定]] — source `source_unknown`
-- [[tool-月白-视角替换专用提示法|技能：视角替换专用提示法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计参考图精准定位法|技能：设计参考图精准定位法]] — source `source_unknown`
-- [[tool-月白-设计基本功回归法|技能：设计基本功回归法]] — source `source_unknown`
-- [[tool-月白-设计师AI工具习惯切换|技能：设计师AI工具习惯切换]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计师AI资产四类型沉淀|技能：设计师AI资产四类型沉淀]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计文件八要素命名法|技能：设计文件八要素命名法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计素材脱敏处理规范|技能：设计素材脱敏处理规范]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计能力蒸馏封装法|技能：设计能力蒸馏封装法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计需求口头化表达法|技能：设计需求口头化表达法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计项目MVP拆解法|技能：设计项目MVP拆解法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-设计项目里程碑拆解法|技能：设计项目里程碑拆解法]] — source `source_unknown`
-- [[tool-月白-课程资料文件命名规范|技能：课程资料文件命名规范]] — source `source_unknown`
-- [[tool-月白-课程问题预埋法|技能：课程问题预埋法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-资深设计师AI工具切换法|技能：资深设计师AI工具切换法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-跨境电商产品图替换法|技能：跨境电商产品图替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-醒图人脸精修法|技能：醒图人脸精修法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-里程碑思维-找对标优先于做设计|技能：里程碑思维-找对标优先于做设计]] — source `source_unknown`
-- [[tool-月白-里程碑思维拆解设计流程|技能：里程碑思维拆解设计流程]] — source `source_unknown`
-- [[tool-月白-风格不变局部调整|技能：风格不变局部调整]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-风格探索试错法|技能：风格探索试错法]] — source `source_unknown`
-- [[tool-月白-餐饮海报AB测试法|技能：餐饮海报AB测试法]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-月白-餐饮类线下设计调性把控|技能：餐饮类线下设计调性把控]] — source `src_20260522_38173b48-design-ai-image-generation`
-- [[tool-李诞-个人IP的重新定义与输出策略|技能：个人IP的重新定义与输出策略]] — source `source_unknown`
-- [[tool-李诞-内容创作中的观察训练法|技能：内容创作中的观察训练法]] — source `source_unknown`
-- [[tool-李诞-判断工作价值的交易成本视角|技能：判断工作价值的交易成本视角]] — source `source_unknown`
-- [[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱|技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱]] — source `source_unknown`
-- [[tool-李诞-销售闭环验证：从0到1的重新定义|技能：销售闭环验证：从0到1的重新定义]] — source `src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程`
-- [[tool-李诞-阅读重读机制：与书籍的-因缘-相遇|技能：阅读重读机制：与书籍的'因缘'相遇]] — source `source_unknown`
-- [[tool-李诞-面对过去错误的平静心法|技能：面对过去错误的平静心法]] — source `source_unknown`
-- [[tool-模型匹配调度|技能：模型匹配调度]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-模型组合调用|技能：模型组合调用]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-水水-保持系统冗余|技能：保持系统冗余]] — source `source_unknown`
-- [[tool-水水-利用叙事驱动决策|技能：利用叙事驱动决策]] — source `source_unknown`
-- [[tool-水水-利用基因漂变视角|技能：利用基因漂变视角]] — source `source_unknown`
-- [[tool-水水-区分风险与不确定性|技能：区分风险与不确定性]] — source `source_unknown`
-- [[tool-水水-接受发散性世界观|技能：接受发散性世界观]] — source `source_unknown`
-- [[tool-水水-构建自利叙事|技能：构建自利叙事]] — source `source_unknown`
-- [[tool-水水-用感性维度构建溢价|技能：用感性维度构建溢价]] — source `source_unknown`
-- [[tool-水水-管理决策权重偏差|tool-水水-管理决策权重偏差]] — source no source
-- [[tool-水水-练习坦然说不知道|技能：练习坦然说不知道]] — source `source_unknown`
-- [[tool-水水-警惕概率虚妄安全感|技能：警惕概率虚妄安全感]] — source `source_unknown`
-- [[tool-水水-警惕错误归因|技能：警惕错误归因]] — source `source_unknown`
-- [[tool-水水-识别关键偶然因素|技能：识别关键偶然因素]] — source `source_unknown`
-- [[tool-水水-识别数据折磨陷阱|技能：识别数据折磨陷阱]] — source `source_unknown`
-- [[tool-水水-识别模型局限性|技能：识别模型局限性]] — source `source_unknown`
-- [[tool-水水-识别自证预言陷阱|技能：识别自证预言陷阱]] — source `source_unknown`
-- [[tool-水水-识别超级传播者风险|技能：识别超级传播者风险]] — source `source_unknown`
-- [[tool-水水-识别饥饿效应|技能：识别饥饿效应]] — source `source_unknown`
-- [[tool-水水-避免原生家庭万能归因|技能：避免原生家庭万能归因]] — source `source_unknown`
-- [[tool-水水-降低故事逻辑要求|技能：降低故事逻辑要求]] — source `source_unknown`
-- [[tool-深度分层学习|技能：深度分层学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-清单小抄制作|技能：清单小抄制作]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-清单小抄工具箱法|技能：清单小抄工具箱法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-清单式笔记法|技能：清单式笔记法]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-渐进式披露上下文|技能：渐进式披露上下文]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
-- [[tool-现场建模式萃取笔记|技能：现场建模式萃取笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-用topdown方式整理内化笔记|技能：用Topdown方式整理内化笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-用旗舰店替代纯招商投入|技能：用旗舰店替代纯招商投入]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-用清单体记备忘笔记|技能：用清单体记备忘笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-知识库团队管理|技能：知识库团队管理]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-知识树存储记忆法|技能：知识树存储记忆法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-稀缺资源机会成本比对法|技能：稀缺资源机会成本比对法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
-- [[tool-立即实践转化法|技能：立即实践转化法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-纪浩-Agent开工检查单制作法|tool-纪浩-Agent开工检查单制作法]] — source no source
-- [[tool-纪浩-Agent技能市场设计法|技能：Agent技能市场设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
-- [[tool-纪浩-AI使用边界管理法|tool-纪浩-AI使用边界管理法]] — source no source
-- [[tool-纪浩-AI对话上下文隔离|tool-纪浩-AI对话上下文隔离]] — source no source
-- [[tool-纪浩-AI工作空间与导诊台设计法|技能：AI工作空间与导诊台设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
-- [[tool-纪浩-AI工具脚本化约束|tool-纪浩-AI工具脚本化约束]] — source no source
-- [[tool-纪浩-Do-first-PDCA渐进迭代法|技能：Do-first PDCA渐进迭代法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
-- [[tool-纪浩-problem-validation-four-checks|技能：四问验证法 —— 判断需求是真实Problem还是伪需求]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
-- [[tool-纪浩-Problem与Question区分法|tool-纪浩-Problem与Question区分法]] — source no source
-- [[tool-纪浩-任务交付物标准化|tool-纪浩-任务交付物标准化]] — source no source
-- [[tool-纪浩-低成本输出验证法|tool-纪浩-低成本输出验证法]] — source no source
-- [[tool-纪浩-处理AI生成代码运行异常|tool-纪浩-处理AI生成代码运行异常]] — source no source
-- [[tool-纪浩-多视角切换思考法|技能：多视角切换思考法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-新手心态启动法|技能：新手心态启动法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-日志驱动排查法|技能：日志驱动排查法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
-- [[tool-纪浩-案例池构建法|技能：案例池构建法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-真需求四要素验证法|技能：真需求四要素验证法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
-- [[tool-纪浩-线上问题应急值守|技能：线上问题应急值守]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-评估AI从零写UI的可行性|技能：评估AI从零写UI的可行性]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-识别AI不可维护代码|技能：识别AI不可维护代码]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-里程碑验证法|技能：里程碑验证法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-问题导向备课法|技能：问题导向备课法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-纪浩-项目启动五问法|技能：项目启动五问法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
-- [[tool-自我反馈修正笔记姿势|技能：自我反馈修正笔记姿势]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-自我反馈检验|技能：自我反馈检验]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-获取他人反馈优化笔记|技能：获取他人反馈优化笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
-- [[tool-设定管理杠杆率指标评估效率|技能：设定管理杠杆率指标评估效率]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-设计对抗效果追踪看板|技能：设计对抗效果追踪看板]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-费曼学习法三句话提炼|技能：费曼学习法三句话提炼]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-费曼学习法实践讲香课题|技能：费曼学习法实践（讲香课题）]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-费曼简单提炼法|技能：费曼简单提炼法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-辩证讨论法|技能：辩证讨论法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
-- [[tool-辩证讨论深化|技能：辩证讨论深化]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
-- [[tool-逐字稿练习演讲|技能：逐字稿练习演讲]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-通过综合案例沙盘走通全流程|技能：通过综合案例沙盘走通全流程]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-通过请吃饭获取行业内部资料|技能：通过请吃饭获取行业内部资料]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
-- [[tool-遵循规模前倾原则设计组织架构|技能：遵循规模前倾原则设计组织架构]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-采用滚动预测机制|技能：采用滚动预测机制]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
-- [[tool-项目复盘基本功|技能：项目复盘基本功]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
-- [[tool-马易-AIGC项目ROI评估|技能：AIGC项目ROI评估]] — source `src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程`
-- [[tool-马易-AI任务拆解提升控制度|技能：AI任务拆解提升控制度]] — source `source_unknown`
-- [[tool-马易-AI搜索公网数据增强（合规边界）|技能：AI搜索公网数据增强（合规边界）]] — source `source_unknown`
-- [[tool-马易-AI答疑运营风格适配|技能：AI答疑运营风格适配]] — source `source_unknown`
-- [[tool-马易-AI能力团队复制|技能：AI能力团队复制]] — source `source_unknown`
-- [[tool-马易-AI落地前置条件验证|技能：AI落地前置条件验证]] — source `source_unknown`
-- [[tool-马易-AI落地四阶段验证法|技能：AI落地四阶段验证法]] — source `source_unknown`
-- [[tool-马易-AI落地场景筛选-四有新人法则|技能：AI落地场景筛选-四有新人法则]] — source `src_20260510_4bb17355-天花板`
-- [[tool-马易-AI落地场景识别-拆工作流找场景|技能：AI落地场景识别-拆工作流找场景]] — source `source_unknown`
-- [[tool-马易-AI落地场景识别与拆分|技能：AI落地场景识别与拆分]] — source `source_unknown`
-- [[tool-马易-AI落地能力内化训练|技能：AI落地能力内化训练]] — source `source_unknown`
-- [[tool-马易-AI落地认知速成-最佳实践学习法|技能：AI落地认知速成-最佳实践学习法]] — source `source_unknown`
-- [[tool-马易-AI项目上线-先平行再独行|技能：AI项目上线-先平行再独行]] — source `source_unknown`
-- [[tool-马易-AI项目需求拆解筛选|技能：AI项目需求拆解筛选]] — source `source_unknown`
-- [[tool-马易-RPA数据整合法|技能：RPA数据整合法]] — source `source_unknown`
-- [[tool-马易-业务为先的AI中台建设|tool-马易-业务为先的AI中台建设]] — source no source
-- [[tool-马易-业务问题AI化拆解-餐饮设计案例法|技能：业务问题AI化拆解-餐饮设计案例法]] — source `src_20260510_4bb17355-天花板`
-- [[tool-马易-中国企业AI落地五步法|技能：中国企业AI落地五步法]] — source `source_unknown`
-- [[tool-马易-低置信度样本黄金漏斗处理|技能：低置信度样本黄金漏斗处理]] — source `source_unknown`
-- [[tool-马易-公寓获客自跑通原则|技能：公寓获客自跑通原则]] — source `source_unknown`
-- [[tool-马易-关键假设识别与验证|技能：关键假设识别与验证]] — source `source_unknown`
-- [[tool-马易-减少输入噪音法|技能：减少输入噪音法]] — source `source_unknown`
-- [[tool-马易-判断标准快速产出法|技能：判断标准快速产出法]] — source `source_unknown`
-- [[tool-马易-工作流优先于AIGC的决策方法|技能：工作流优先于AIGC的决策方法]] — source `src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程`
-- [[tool-马易-工作流拆解找场景|技能：工作流拆解找场景]] — source `source_unknown`
-- [[tool-马易-平台模式验证法|技能：平台模式验证法]] — source `source_unknown`
-- [[tool-马易-成为首位F工程师|技能：成为首位F工程师]] — source `source_unknown`
-- [[tool-马易-数字员工FD拆解落地|技能：数字员工FD拆解落地]] — source `source_unknown`
-- [[tool-马易-数据存储架构选择|技能：数据存储架构选择]] — source `source_unknown`
-- [[tool-马易-数据标注正确法|技能：数据标注正确法]] — source `source_unknown`
-- [[tool-马易-时间序列大模型场景识别|技能：时间序列大模型场景识别]] — source `source_unknown`
-- [[tool-马易-最小场景优先落地法|技能：最小场景优先落地法]] — source `source_unknown`
-- [[tool-马易-深度沉浸需求挖掘|技能：深度沉浸需求挖掘]] — source `source_unknown`
-- [[tool-马易-痛点驱动的数字化|技能：痛点驱动的数字化]] — source `source_unknown`
-- [[tool-马易-知识库-回答技巧双建设|技能：知识库+回答技巧双建设]] — source `source_unknown`
-- [[tool-马易-视频转化关键要素标注校验|技能：视频转化关键要素标注校验]] — source `source_unknown`
-- [[tool-马易-销售智能体体系搭建路径|技能：销售智能体体系搭建路径]] — source `source_unknown`
-- [[tool-马易-隐性知识萃取与模型化|技能：隐性知识萃取与模型化]] — source `source_unknown`
-- [[tool-马易-隐私安全分层解决|技能：隐私安全分层解决]] — source `source_unknown`
-- [[tool-马易-需求创造验证法|技能：需求创造验证法]] — source `source_unknown`
-- [[tool-马易-风口痛点识别法|技能：风口痛点识别法]] — source `source_unknown`
 - [[tools-workflows|Tools Workflows]] — source `src_20260522_9d322e81-tools-workflows`
 - [[truman-perspective-skill|truman-perspective-skill]] — source no source
 - [[voice-input-doubao|voice input doubao]] — source `10_raw/sources/src_20260606_90b44191-没有人呀现在.md`
@@ -1128,17 +680,17 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[那今天不会|那今天不会。]] — source `src_20260522_642ab512-那今天不会`
 - [[鑫港湾his系统分阶段整改报告|鑫港湾his系统分阶段整改报告]] — source no source
 - [[dk-ai-entrepreneur-technical-blindspot|暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个']] — source `10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md`
-- [[dk-ai-judgment-human-responsibility|人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
-- [[dk-ai-judgment-programmer-paradox|程序员的AI悖论：写AI工具的人最晚享受到AI红利]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
-- [[dk-ban-fei-mao-atomic-no-standard|暗知识：原子化没有固定标准]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[dk-ai-judgment-human-responsibility|dk-ai-judgment-human-responsibility]] — source no source
+- [[dk-ai-judgment-programmer-paradox|dk-ai-judgment-programmer-paradox]] — source no source
+- [[dk-ban-fei-mao-atomic-no-standard|dk-ban-fei-mao-atomic-no-standard]] — source no source
 - [[dk-ban-fei-mao-real-business-is-the-engine|暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[dk-ban-fei-mao-silky-answer-warning|暗知识：AI 回答越丝滑，问题越大]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[dk-ban-fei-mao-silky-answer-warning|dk-ban-fei-mao-silky-answer-warning]] — source no source
 - [[dk-ban-fei-mao-silky-answers-are-dangerous|暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[dk-ban-fei-mao-skill-rejection-value|暗知识：Skill 的最大价值不是生成，是拒绝]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
-- [[dk-c1-cjk-regex-silent-fail|C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败]] — source `10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-1`
+- [[dk-ban-fei-mao-skill-rejection-value|dk-ban-fei-mao-skill-rejection-value]] — source no source
+- [[dk-c1-cjk-regex-silent-fail|dk-c1-cjk-regex-silent-fail]] — source no source
 - [[dk-c10-batch-tool-no-dry-run|dk-c10-batch-tool-no-dry-run]] — source no source
 - [[dk-c11-hongqigong-skip-review|dk-c11-hongqigong-skip-review]] — source no source
-- [[dk-c2-dual-status-machine|C-2：Schema status 字段混用两个状态机→字段值互相污染]] — source `10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-2`
+- [[dk-c2-dual-status-machine|dk-c2-dual-status-machine]] — source no source
 - [[dk-c3-txt-ingest-skip|C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功]] — source `10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-3`
 - [[dk-c4-selfcheck-superseded|dk-c4-selfcheck-superseded]] — source no source
 - [[dk-c5-todo-false-positive|dk-c5-todo-false-positive]] — source no source
@@ -1146,30 +698,30 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[dk-c7-auto-backup-conflict|dk-c7-auto-backup-conflict]] — source no source
 - [[dk-c8-format-complete-mind-empty|dk-c8-format-complete-mind-empty]] — source no source
 - [[dk-c9-batch-trigger-garbage|dk-c9-batch-trigger-garbage]] — source no source
-- [[dk-decision-value-overrides-roi|Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用]] — source `yt-decision-y-model`
+- [[dk-decision-value-overrides-roi|dk-decision-value-overrides-roi]] — source no source
 - [[dk-demand-feature-stacking|功能堆叠陷阱：加功能≠满足需求]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
 - [[dk-demand-hidden-need|隐性需求伪装：用户说的≠用户要的]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
 - [[dk-demand-misjudgment-rate|30-50%创业失败源于需求误判]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
-- [[dk-demand-pitfall-dialer|踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-financial-literacy|踩坑：少儿财商——刚性误判。用户说重要≠会付费]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-indonesia-insurance|踩坑：印尼寿险——场景错配。Situation变了，需求不存在]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-restaurant-hiring|踩坑：麦家小馆——频次高估。需求强烈≠高频]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-rural-5g|踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-tier4-housekeeping|踩坑：四线家政——天花板误判。普遍性高≠能做大]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
-- [[dk-demand-pitfall-travel-agent|踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
+- [[dk-demand-pitfall-dialer|dk-demand-pitfall-dialer]] — source no source
+- [[dk-demand-pitfall-financial-literacy|dk-demand-pitfall-financial-literacy]] — source no source
+- [[dk-demand-pitfall-indonesia-insurance|dk-demand-pitfall-indonesia-insurance]] — source no source
+- [[dk-demand-pitfall-restaurant-hiring|dk-demand-pitfall-restaurant-hiring]] — source no source
+- [[dk-demand-pitfall-rural-5g|dk-demand-pitfall-rural-5g]] — source no source
+- [[dk-demand-pitfall-tier4-housekeeping|dk-demand-pitfall-tier4-housekeeping]] — source no source
+- [[dk-demand-pitfall-travel-agent|dk-demand-pitfall-travel-agent]] — source no source
 - [[dk-demand-premature-solution|过早进入解决方案空间——冰山模型的根本价值]] — source `00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md`
 - [[dk-demand-switching-cost|新体验-旧体验-切换成本=产品价值]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
-- [[dk-ef-001-sn74lvc2g07-open-drain|开漏输出的陷阱：上拉电阻太大导致信号边沿变缓]] — source `90_control/electronics-practice/failure-modes-electronics.md`
-- [[dk-ef-002-bom-version-async|BOM 多版本不同步：你手里的文件和产线手里的不是同一份]] — source `90_control/electronics-practice/failure-modes-electronics.md`
-- [[dk-ef-003-hand-soldering-bom-divergence|手焊板的隐性修改：原型调通了但量产就是不行]] — source `90_control/electronics-practice/failure-modes-electronics.md`
-- [[dk-ef-004-missing-diagnostic-firmware|没有诊断固件就是盲调：你不知道信号卡在哪一级]] — source `90_control/electronics-practice/failure-modes-electronics.md`
-- [[dk-f1-regex-on-cjk|F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched]] — source `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-001`
+- [[dk-ef-001-sn74lvc2g07-open-drain|dk-ef-001-sn74lvc2g07-open-drain]] — source no source
+- [[dk-ef-002-bom-version-async|dk-ef-002-bom-version-async]] — source no source
+- [[dk-ef-003-hand-soldering-bom-divergence|dk-ef-003-hand-soldering-bom-divergence]] — source no source
+- [[dk-ef-004-missing-diagnostic-firmware|dk-ef-004-missing-diagnostic-firmware]] — source no source
+- [[dk-f1-regex-on-cjk|dk-f1-regex-on-cjk]] — source no source
 - [[dk-f10-broken-source-refs|dk-f10-broken-source-refs]] — source no source
-- [[dk-f11-encyclopedia-style|F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景]] — source `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-011`
+- [[dk-f11-encyclopedia-style|dk-f11-encyclopedia-style]] — source no source
 - [[dk-f12-builder-context-deadlock|dk-f12-builder-context-deadlock]] — source no source
 - [[dk-f13-handwritten-yaml-parser|dk-f13-handwritten-yaml-parser]] — source no source
-- [[dk-f14-accuracy-measurement-mismatch|F-KDO-014：准确率声明的测量口径不一致]] — source `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-014`
-- [[dk-f2-txt-ingest-skip|F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功]] — source `10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-002`
+- [[dk-f14-accuracy-measurement-mismatch|dk-f14-accuracy-measurement-mismatch]] — source no source
+- [[dk-f2-txt-ingest-skip|dk-f2-txt-ingest-skip]] — source no source
 - [[dk-f3-state-json-race-condition|dk-f3-state-json-race-condition]] — source no source
 - [[dk-f4-wrong-workdir|dk-f4-wrong-workdir]] — source no source
 - [[dk-f5-stale-feedback-ref|dk-f5-stale-feedback-ref]] — source no source
@@ -1178,63 +730,63 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[dk-f8-phony-wikilink|dk-f8-phony-wikilink]] — source no source
 - [[dk-f9-generic-critique|dk-f9-generic-critique]] — source no source
 - [[dk-five-step-framework-legitimizes-bias|暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
-- [[dk-foresight-source-material-blindness|暗知识：素材命名不一致导致完整口述稿被遗漏]] — source `10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md`
+- [[dk-foresight-source-material-blindness|dk-foresight-source-material-blindness]] — source no source
 - [[dk-foresight-tier-skip-illusion|暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快]] — source `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md`
-- [[dk-fundamentals-before-advanced-ops|基本功未内化就强上高阶操作——高阶工具失效的头号根因]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
+- [[dk-fundamentals-before-advanced-ops|dk-fundamentals-before-advanced-ops]] — source no source
 - [[dk-infrastructure-guardrails-over-checklist|dk-infrastructure-guardrails-over-checklist]] — source no source
-- [[dk-jh-llm-time-blindness|LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别]] — source `00_inbox/AI俱乐部/纪浩-AI实操落地工具籍和案例分享（第六期AI共创社）.md`
+- [[dk-jh-llm-time-blindness|dk-jh-llm-time-blindness]] — source no source
 - [[dk-ji-hao-ai-cant-design-structure|暗知识：AI不会自己搞结构设计]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
 - [[dk-ji-hao-constraint-beats-talent|暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
 - [[dk-ji-hao-logs-fastest-ignored|暗知识：日志增长最快但最容易被忽视]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
-- [[dk-ji-hao-newbie-can-validate|暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
-- [[dk-ji-hao-novice-mindset-advantage|暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
+- [[dk-ji-hao-newbie-can-validate|dk-ji-hao-newbie-can-validate]] — source no source
+- [[dk-ji-hao-novice-mindset-advantage|dk-ji-hao-novice-mindset-advantage]] — source no source
 - [[dk-ji-hao-pdca-starts-from-do|暗知识：PDCA从Do开始不是从Plan开始]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
-- [[dk-ji-hao-problem-vs-question|暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
+- [[dk-ji-hao-problem-vs-question|dk-ji-hao-problem-vs-question]] — source no source
 - [[dk-ji-hao-simple-complex-routing|暗知识：简单系统跳过导诊台，复杂系统必须路由]] — source `10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md`
-- [[dk-kdo-leaky-pipe-pressure|暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死]] — source `src_unknown`
+- [[dk-kdo-leaky-pipe-pressure|dk-kdo-leaky-pipe-pressure]] — source no source
 - [[dk-level-blindspot-external-feedback|暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
-- [[dk-lz-ai-native-organization|AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足]] — source `10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md`
-- [[dk-lz-code-is-disposable|代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产]] — source `10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md`
+- [[dk-lz-ai-native-organization|dk-lz-ai-native-organization]] — source no source
+- [[dk-lz-code-is-disposable|dk-lz-code-is-disposable]] — source no source
 - [[dk-mckinsey-hypothesis-driven-pitfalls|dk-mckinsey-hypothesis-driven-pitfalls]] — source no source
-- [[dk-modeling-ai-compound-leverage|AI 加杠杆最大的场景是建模，因为好模型会被反复调用]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-ai-cross-validation|拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-ai-iterative-prompting|AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-ai-judgment-limit|AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-ai-self-retrospection|AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[dk-modeling-ai-compound-leverage|dk-modeling-ai-compound-leverage]] — source no source
+- [[dk-modeling-ai-cross-validation|dk-modeling-ai-cross-validation]] — source no source
+- [[dk-modeling-ai-iterative-prompting|dk-modeling-ai-iterative-prompting]] — source no source
+- [[dk-modeling-ai-judgment-limit|dk-modeling-ai-judgment-limit]] — source no source
+- [[dk-modeling-ai-self-retrospection|dk-modeling-ai-self-retrospection]] — source no source
 - [[dk-modeling-ai-without-judgment|dk-modeling-ai-without-judgment]] — source no source
 - [[dk-modeling-business-visual-logic-match|dk-modeling-business-visual-logic-match]] — source no source
-- [[dk-modeling-case-explosion-confidence|案例大爆炸的底气：来自销冠广场，不是胆子大]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[dk-modeling-case-explosion-confidence|dk-modeling-case-explosion-confidence]] — source no source
 - [[dk-modeling-checklist-formatting-rules|dk-modeling-checklist-formatting-rules]] — source no source
 - [[dk-modeling-counterexample-driven|dk-modeling-counterexample-driven]] — source no source
 - [[dk-modeling-course-rnd-ripe-fruit|dk-modeling-course-rnd-ripe-fruit]] — source no source
-- [[dk-modeling-essence-predictive|'解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-expert-consensus-five-percent|5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-explanatory-vs-predictive-essence|解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[dk-modeling-essence-predictive|dk-modeling-essence-predictive]] — source no source
+- [[dk-modeling-expert-consensus-five-percent|dk-modeling-expert-consensus-five-percent]] — source no source
+- [[dk-modeling-explanatory-vs-predictive-essence|dk-modeling-explanatory-vs-predictive-essence]] — source no source
 - [[dk-modeling-logical-cleanliness-root|dk-modeling-logical-cleanliness-root]] — source no source
-- [[dk-modeling-model-arsenal-paradigms|99% 的模型跑不出二三十个范式：先装武器库再创新]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[dk-modeling-model-arsenal-paradigms|dk-modeling-model-arsenal-paradigms]] — source no source
 - [[dk-modeling-question-scaffold-not-answer|模型是提问的脚手架，不是答案]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-radar-model-not-result|复杂评选别让 CEO 拍结果，只让 CEO 审模型]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-sop-execution-locks|SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-timely-review-session-window|离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-modeling-unit-pairs-milestone|里程碑不是任务清单，是"成对单元模型"拼出来的]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-my-ai-landing-three-barriers|AI落地三大壁垒：从"会用"到"用好"的黑洞]] — source `00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md`
-- [[dk-note-maximum-common-divisor|清单体是人与AI的'最大公约数'：结构降级即认知升级]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
-- [[dk-note-rookie-disaster-veteran-heaven|“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机]] — source `10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt`
-- [[dk-note-surplus-brainpower|“剩余脑力”：高阶笔记的唯一货币与分水岭]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
+- [[dk-modeling-radar-model-not-result|dk-modeling-radar-model-not-result]] — source no source
+- [[dk-modeling-sop-execution-locks|dk-modeling-sop-execution-locks]] — source no source
+- [[dk-modeling-timely-review-session-window|dk-modeling-timely-review-session-window]] — source no source
+- [[dk-modeling-unit-pairs-milestone|dk-modeling-unit-pairs-milestone]] — source no source
+- [[dk-my-ai-landing-three-barriers|dk-my-ai-landing-three-barriers]] — source no source
+- [[dk-note-maximum-common-divisor|dk-note-maximum-common-divisor]] — source no source
+- [[dk-note-rookie-disaster-veteran-heaven|dk-note-rookie-disaster-veteran-heaven]] — source no source
+- [[dk-note-surplus-brainpower|dk-note-surplus-brainpower]] — source no source
 - [[dk-p1-model-switch-env|dk-p1-model-switch-env]] — source no source
 - [[dk-p10-oral-ban|dk-p10-oral-ban]] — source no source
 - [[dk-p11-regex-cutoff|dk-p11-regex-cutoff]] — source no source
 - [[dk-p13-token-burn|dk-p13-token-burn]] — source no source
 - [[dk-p14-zombie|dk-p14-zombie]] — source no source
-- [[dk-p15-unverified|dk p15 unverified]] — source `source_unknown`
+- [[dk-p15-unverified|dk-p15-unverified]] — source no source
 - [[dk-p16-validate-reads-state-json|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-16`
-- [[dk-p17-accuracy-gap|P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-17`
+- [[dk-p17-accuracy-gap|dk-p17-accuracy-gap]] — source no source
 - [[dk-p18-yaml-parser|dk-p18-yaml-parser]] — source no source
 - [[dk-p19-quote-yaml|dk-p19-quote-yaml]] — source no source
-- [[dk-p2-tmux-cache|P-2：tmux session 缓存旧配置]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-2`
+- [[dk-p2-tmux-cache|dk-p2-tmux-cache]] — source no source
 - [[dk-p20-bigram-fail|dk-p20-bigram-fail]] — source no source
-- [[dk-p3-auth-cache|P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-3`
-- [[dk-p4-batch-format-empty|P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)]] — source `10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-4`
+- [[dk-p3-auth-cache|dk-p3-auth-cache]] — source no source
+- [[dk-p4-batch-format-empty|dk-p4-batch-format-empty]] — source no source
 - [[dk-p5-cc-connect-config|dk-p5-cc-connect-config]] — source no source
 - [[dk-p6-session-resume-fail|dk-p6-session-resume-fail]] — source no source
 - [[dk-p7-ocr-skip|dk-p7-ocr-skip]] — source no source
@@ -1242,27 +794,27 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[dk-p9-glob-miss|dk-p9-glob-miss]] — source no source
 - [[dk-pseudo-demand-trap|暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地]] — source `10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md`
 - [[dk-signal-cluster-illusion|暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕]] — source `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md`
-- [[dk-skill-market-agent-self-install|暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述]] — source `src_20260606_6ea91aa8-纪浩-AI协作方法论-口述`
+- [[dk-skill-market-agent-self-install|dk-skill-market-agent-self-install]] — source no source
 - [[dk-small-format-error-cascades-to-system-failure|dk-small-format-error-cascades-to-system-failure]] — source no source
 - [[dk-state-residue-is-the-silent-killer|dk-state-residue-is-the-silent-killer]] — source no source
-- [[dk-strategy-01-not-goal-setting|战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §2`
-- [[dk-strategy-02-three-paradoxes|战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §37`
-- [[dk-strategy-03-advantage-temporary|竞争优势难持久。30年前500强90%已消失——竞争优势≠永久]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §40`
-- [[dk-strategy-04-consulting-trap|战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §38, §90`
-- [[dk-strategy-05-positioning-trap|定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §5-6`
-- [[dk-strategy-06-dividend-to-strategy|过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §61-62`
-- [[dk-strategy-07-strategy-vs-dividend|战略驱动 vs 红利驱动：前者创造路径，后者依赖环境]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §44-46`
-- [[dk-strategy-08-not-local-optimum|战略≠局部优化。战略是构建完整生态系统，不是单点提效]] — source `00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §31`
-- [[dk-strategy-consulting-jokes|战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §8-9`
-- [[dk-strategy-essence-four-elements|战略内核四要素：细分市场+竞争优势+资源配置+范围经济]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §12, §18`
-- [[dk-strategy-longzhong-four-failures|隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §19-20`
-- [[dk-strategy-three-must-do-moments|三种必做战略的时刻：快速扩张/业务平台期/行业下行期]] — source `00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md §23`
-- [[dk-tool-as-answer-trap|把工具/框架当成答案，而不是提问的脚手架]] — source `10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md`
+- [[dk-strategy-01-not-goal-setting|dk-strategy-01-not-goal-setting]] — source no source
+- [[dk-strategy-02-three-paradoxes|dk-strategy-02-three-paradoxes]] — source no source
+- [[dk-strategy-03-advantage-temporary|dk-strategy-03-advantage-temporary]] — source no source
+- [[dk-strategy-04-consulting-trap|dk-strategy-04-consulting-trap]] — source no source
+- [[dk-strategy-05-positioning-trap|dk-strategy-05-positioning-trap]] — source no source
+- [[dk-strategy-06-dividend-to-strategy|dk-strategy-06-dividend-to-strategy]] — source no source
+- [[dk-strategy-07-strategy-vs-dividend|dk-strategy-07-strategy-vs-dividend]] — source no source
+- [[dk-strategy-08-not-local-optimum|dk-strategy-08-not-local-optimum]] — source no source
+- [[dk-strategy-consulting-jokes|dk-strategy-consulting-jokes]] — source no source
+- [[dk-strategy-essence-four-elements|dk-strategy-essence-four-elements]] — source no source
+- [[dk-strategy-longzhong-four-failures|dk-strategy-longzhong-four-failures]] — source no source
+- [[dk-strategy-three-must-do-moments|dk-strategy-three-must-do-moments]] — source no source
+- [[dk-tool-as-answer-trap|dk-tool-as-answer-trap]] — source no source
 - [[dk-tool-as-phased-validator|把 AI/工具当成分阶段校验器，而不是一次性生成器]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[dk-tool-chain-naming-is-infrastructure|dk-tool-chain-naming-is-infrastructure]] — source no source
-- [[dk-truman-document-is-real-project-is-fake|文档是真的，项目是假的——面向过去建模型，面向未来解决问题]] — source `10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md`
+- [[dk-truman-document-is-real-project-is-fake|dk-truman-document-is-real-project-is-fake]] — source no source
 - [[dk-truman-flag-note-taking|立flag记笔法：用量化目标倒逼笔记中的真实思考量]] — source `10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md`
-- [[dk-truman-iteration-to-aesthetic-ceiling|迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则]] — source `00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md`
+- [[dk-truman-iteration-to-aesthetic-ceiling|dk-truman-iteration-to-aesthetic-ceiling]] — source no source
 - [[dk-truman-knowledge-extraction-three-schools|知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"]] — source `10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md`
 - [[dk-wanghuan-agent-platform-director-mode|王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜]] — source `10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt`
 - [[dk-wanghuan-ai-lifts-personal-ceiling|王欢暗知识：AI 拉升个人上限]] — source `10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt`
@@ -1274,52 +826,52 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[dk-wanghuan-standard-by-iteration|王欢暗知识：标准不清时，用AI对抗AI生成标准]] — source `10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt`
 - [[dk-wanghuan-tacit-decision-extraction-cross-domain|王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售]] — source `10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt`
 - [[dk-weekly-modeling-iteration-growth-engine|暗知识：一堂真正的增长引擎是'周对周的建模能力增长']] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[dk-yb1-aigc-mvp-before-ps|设计师AIGC工作流：先跑MVP再开PS]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb10-theory-moat-designer|AI时代设计师的理论护城河]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
+- [[dk-yb1-aigc-mvp-before-ps|dk-yb1-aigc-mvp-before-ps]] — source no source
+- [[dk-yb10-theory-moat-designer|dk-yb10-theory-moat-designer]] — source no source
 - [[dk-yb11-visual-book-reverse|dk-yb11-visual-book-reverse]] — source no source
-- [[dk-yb12-ai-image-analysis-replace-training|AI图像分析替代模型训练：快速提取参考图共性]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb13-zero-shot-style-transfer|零训练风格迁移：三要素描述法]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb14-multi-image-commonality|AI生图：用多图共性替代语言描述]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb15-reverse-image-description|AI逆向反推图片描述法]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw|AI电商产品图：抽卡图≠产品图，白底图才是交付标准]] — source `10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt`
-- [[dk-yb17-product-lifestyle-photography|产品场景化拍摄：从商品到生活方式的升维]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[dk-yb12-ai-image-analysis-replace-training|dk-yb12-ai-image-analysis-replace-training]] — source no source
+- [[dk-yb13-zero-shot-style-transfer|dk-yb13-zero-shot-style-transfer]] — source no source
+- [[dk-yb14-multi-image-commonality|dk-yb14-multi-image-commonality]] — source no source
+- [[dk-yb15-reverse-image-description|dk-yb15-reverse-image-description]] — source no source
+- [[dk-yb16-ecommerce-product-image-vs-lucky-draw|dk-yb16-ecommerce-product-image-vs-lucky-draw]] — source no source
+- [[dk-yb17-product-lifestyle-photography|dk-yb17-product-lifestyle-photography]] — source no source
 - [[dk-yb18-small-shop-image-mismatch|dk-yb18-small-shop-image-mismatch]] — source no source
 - [[dk-yb19-visual-strategy-price-match|dk-yb19-visual-strategy-price-match]] — source no source
-- [[dk-yb2-llm-muddy-clear-muddy|大模型训练本质：浑水→清水→浑水的双向转换]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb20-ai-eye-high-principle|AIGC眼高原则：审美先于技术]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb21-ecommerce-pricing-independent-model|电商定价：线上价格带需独立建模]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb22-visual-presentation-scene-match|视觉呈现方式与消费场景的匹配原则]] — source `10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt`
+- [[dk-yb2-llm-muddy-clear-muddy|dk-yb2-llm-muddy-clear-muddy]] — source no source
+- [[dk-yb20-ai-eye-high-principle|dk-yb20-ai-eye-high-principle]] — source no source
+- [[dk-yb21-ecommerce-pricing-independent-model|dk-yb21-ecommerce-pricing-independent-model]] — source no source
+- [[dk-yb22-visual-presentation-scene-match|dk-yb22-visual-presentation-scene-match]] — source no source
 - [[dk-yb23-ai-pre-screen-three-minutes|dk-yb23-ai-pre-screen-three-minutes]] — source no source
-- [[dk-yb24-ai-poster-de-ai-feeling|AI海报去AI感：图标+质感人物双要素]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb25-solution-driven-visual-design|解决方案驱动视觉设计，非门店风格导向]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb26-chinese-food-photography-props|中式食物摄影低成本氛围道具搭配]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[dk-yb24-ai-poster-de-ai-feeling|dk-yb24-ai-poster-de-ai-feeling]] — source no source
+- [[dk-yb25-solution-driven-visual-design|dk-yb25-solution-driven-visual-design]] — source no source
+- [[dk-yb26-chinese-food-photography-props|dk-yb26-chinese-food-photography-props]] — source no source
 - [[dk-yb27-pseudo-layer-evasion|伪图层叠加规避平台图像识别]] — source `10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt`
-- [[dk-yb28-prompt-expiration-management|提示词有效期预期管理]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
-- [[dk-yb29-prompt-migrate-copy-first|AIGC提示词迁移：先照搬再微调的务实策略]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
-- [[dk-yb3-diffusion-stepwise-vs-human-holistic|AI生图'抽卡'本质：逐步拆解 vs 人类整体构思]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
+- [[dk-yb28-prompt-expiration-management|dk-yb28-prompt-expiration-management]] — source no source
+- [[dk-yb29-prompt-migrate-copy-first|dk-yb29-prompt-migrate-copy-first]] — source no source
+- [[dk-yb3-diffusion-stepwise-vs-human-holistic|dk-yb3-diffusion-stepwise-vs-human-holistic]] — source no source
 - [[dk-yb30-ecommerce-channel-version|dk-yb30-ecommerce-channel-version]] — source no source
-- [[dk-yb31-style-first-controlnet|AI绘图工作流：先锁风格再开ControlNet]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
-- [[dk-yb32-doubao-size-composition|豆包AIGC生图：尺寸是唯一关键排版影响因素]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
-- [[dk-yb4-nano-banana-style-reproduction|Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb5-style-asset-archive|AI绘图降本的前提：风格资产工程化归档]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb6-midjourney-chinese-text-fix|Midjourney中文文字修复极简提示词]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb7-design-demand-80-10-10|中国设计需求的80-10-10分层法则]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb8-file-naming-eight-elements|AI增效前置：文件命名八要素体系]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
-- [[dk-yb9-cubox-deployment-failure|Cubox及AI协作工具的团队部署失败模式]] — source `10_raw/sources/src_20260604_design-ai-basics-01.md`
+- [[dk-yb31-style-first-controlnet|dk-yb31-style-first-controlnet]] — source no source
+- [[dk-yb32-doubao-size-composition|dk-yb32-doubao-size-composition]] — source no source
+- [[dk-yb4-nano-banana-style-reproduction|dk-yb4-nano-banana-style-reproduction]] — source no source
+- [[dk-yb5-style-asset-archive|dk-yb5-style-asset-archive]] — source no source
+- [[dk-yb6-midjourney-chinese-text-fix|dk-yb6-midjourney-chinese-text-fix]] — source no source
+- [[dk-yb7-design-demand-80-10-10|dk-yb7-design-demand-80-10-10]] — source no source
+- [[dk-yb8-file-naming-eight-elements|dk-yb8-file-naming-eight-elements]] — source no source
+- [[dk-yb9-cubox-deployment-failure|dk-yb9-cubox-deployment-failure]] — source no source
 - [[dk-yi-tang-wishful-thinking-kills-startups|暗知：'愿望思维'是创业最大的陷阱]] — source `10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt`
 - [[dk-yitang-business-formula-plus-times-trap|dk-yitang-business-formula-plus-times-trap]] — source no source
-- [[yt-business-model-pivot-signals|商业模式转型信号：何时该 pivot]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
-- [[yt-demand-competitive-displacement|需求替代陷阱：竞品不是敌人，替代方案才是]] — source `src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
-- [[yt-demand-fake-demand-detection|伪需求识别：7个危险信号]] — source `src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
-- [[yt-demand-market-size-pitfalls|市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"]] — source `src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md`
-- [[yt-demand-scope-creep|需求蔓延：从MVP到全功能的陷阱]] — source `src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
-- [[yt-growth-scaling-pitfalls|增长规模化陷阱]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
+- [[yt-business-model-pivot-signals|yt-business-model-pivot-signals]] — source no source
+- [[yt-demand-competitive-displacement|yt-demand-competitive-displacement]] — source no source
+- [[yt-demand-fake-demand-detection|yt-demand-fake-demand-detection]] — source no source
+- [[yt-demand-market-size-pitfalls|yt-demand-market-size-pitfalls]] — source no source
+- [[yt-demand-scope-creep|yt-demand-scope-creep]] — source no source
+- [[yt-growth-scaling-pitfalls|yt-growth-scaling-pitfalls]] — source no source
 - [[yt-note-ai-p-role-not-c-role|yt-note-ai-p-role-not-c-role]] — source no source
 - [[yt-note-p-c-role-boundary-realworld|yt-note-p-c-role-boundary-realworld]] — source no source
 - [[yt-note-three-level-evolution|yt-note-three-level-evolution]] — source no source
-- [[yt-product-kernel-do-without-belief|"做而不信"陷阱：执行了流程，但不相信结果]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
-- [[yt-product-kernel-failure-modes|产品内核失败的5种模式]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
-- [[yt-product-kernel-premature-optimization|过早细化陷阱：在验证前追求完美]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
+- [[yt-product-kernel-do-without-belief|yt-product-kernel-do-without-belief]] — source no source
+- [[yt-product-kernel-failure-modes|yt-product-kernel-failure-modes]] — source no source
+- [[yt-product-kernel-premature-optimization|yt-product-kernel-premature-optimization]] — source no source
 - [[dk-ai-prediction-expiry-date|AI 预言的保质期]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[dk-ai-scarcest-resource-is-self|最稀缺的是自我]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[dk-ai-social-progress-not-automatic|社会进步不是自动的]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -1357,7 +909,7 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[dk-单元模型-找基准值实操难点|找基准值实操难点]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md`
 - [[dk-单元模型-规模对抗实操难点|规模对抗实操难点]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-规模对抗实操难点_vlm_desc.md`
 - [[ai-collaboration-domain-digest|域摘要：AI 协作方法论（王欢 · Harness Engineering）]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
-- [[decision-science-domain-digest|域摘要：decision-science]] — source no source
+- [[decision-science-domain-digest|域摘要：decision-science（科学决策）]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[five-step-domain-digest|域摘要：一堂五步法（80+张卡）]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
 - [[human-ai-collaboration-double-triangle|域摘要：人机协作范式——双三角模型域]] — source `00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md`
 - [[lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
@@ -1743,19 +1295,51 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[sk-ai-voice-input-doubao|技能：口喷式语音输入法]] — source `10_raw/sources/src_20260606_90b44191-没有人呀现在.md`
 - [[smart-medicine-cabinet-financial-model|smart-medicine-cabinet-financial-model]] — source no source
 - [[smart-medicine-cabinet-fraud-detection|smart-medicine-cabinet-fraud-detection]] — source no source
+- [[tool-1视角升级思考法|技能：+1视角升级思考法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
 - [[tool-agent-crawl4ai|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — source `{'web': 'Crawl4AI GitHub (unclecode/crawl4ai)'}`
 - [[tool-agent-firecrawl|Firecrawl：专为LLM设计的Web抓取API]] — source `{'web': 'Firecrawl official docs (firecrawl.dev)'}`
 - [[tool-agent-native-overview|Agent原生调研工具总览：2025-2026新范式]] — source `{'web': 'Web scraping APIs for AI agents (Grokipedia, 2026)'}`
 - [[tool-agent-research-pipeline|Pipeline模式：OSCAR五步法的Agent实现]] — source `{'web': 'LangChain SequentialChain pipeline pattern'}`
 - [[tool-agent-research-supervisor|Supervisor模式：一个主Agent调度多个Worker]] — source `{'web': 'LangGraph Supervisor pattern (LangChain)'}`
 - [[tool-agent-research-swarm|Swarm模式：多Agent自发协同与交叉验证]] — source `{'web': 'LangGraph Swarm pattern'}`
+- [[tool-ai-ai-workspace-setup|技能：结构化AI工作空间搭建]] — source `source_unknown`
 - [[tool-ai-critical-reading-three-layers|三层拆书批判法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tool-ai-cross-reading-method|交叉阅读法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[tool-ai-evidence-check|技能：AI输出证据核查三问法]] — source `source_unknown`
+- [[tool-ai-four-elements-validation|tool-ai-four-elements-validation]] — source no source
+- [[tool-ai-info-literacy-three-layer|tool-ai-info-literacy-three-layer]] — source no source
+- [[tool-ai-landing-five-steps|技能：AI落地五步执行流程]] — source `src_20260606_ef4877d0-所以90的核心问题`
+- [[tool-ai-narrative-test|技能：你的方案有叙事力吗？快速测试]] — source `source_unknown`
+- [[tool-ai-old-small-checklist|技能："找老的干小的"场景评估清单]] — source `source_unknown`
+- [[tool-ai-oral-spray-input|技能：用口喷输入法生成高质量 AI 提示词]] — source `source_unknown`
+- [[tool-ai-parallel-validation|技能：平行运行验证法]] — source `source_unknown`
+- [[tool-ai-prd-for-ai|技能：把PRD写成AI能执行的指令]] — source `source_unknown`
+- [[tool-ai-problem-question-check|tool-ai-problem-question-check]] — source no source
+- [[tool-ai-problem-validation|技能：问题验证三维度法]] — source `source_unknown`
+- [[tool-ai-purpose-bias-check|技能：目的论偏差快速识别法]] — source `source_unknown`
+- [[tool-ai-research-five-steps|技能：AI调研五步法]] — source `src_20260606_90b44191-没有人呀现在`
+- [[tool-ai-scene-four-elements|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0-所以90的核心问题`
 - [[tool-ai-skill-engineering-guide|tool-ai-skill-engineering-guide]] — source no source
 - [[tool-ai-skill-engineering-method|AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[tool-ai-system-redundancy|技能：系统冗余度快速检查清单]] — source `source_unknown`
+- [[tool-ai-voice-input-doubao|技能：口喷式语音输入法]] — source `source_unknown`
 - [[tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[tool-ai辅助学习|技能：AI辅助学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
 - [[tool-alt-data-free|免费替代数据：小团队的Hedge Fund武器]] — source `{'web': 'Alternative data sources accessible to individuals'}`
 - [[tool-alt-data-overview|替代数据总览：Hedge Fund级别的调研武器]] — source `{'web': 'Alternative data for hedge funds (ExtractAlpha, Greenwich Associates, Neudata 2025)'}`
+- [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua|技能：按语义切分文档做向量化]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi|技能：动态读取 + 向量化管理迭代知识]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong|技能：飞书多维表格 + 自建机器人做团队数据协同]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao|技能：告诉 AI 当前日期限制数据时效]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md`
+- [[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang|技能：将学习成果沉淀为 PRD 文档]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill|技能：判断课程是否值得做成Skill]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai|技能：清洗资料为 Markdown 格式喂给 AI]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie|技能：设计 Skill 的评分规则与风险边界]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan|技能：用 AI 做结构化用户调研]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo|技能：用 Skill 做对比测试验证效果]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md`
+- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian|技能：用 YAML 格式做知识库原子化标签]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju|技能：优先使用官方权威信源做证据]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
+- [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan|技能：追问 AI 证据并标注信源]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[tool-binary-quadrant-modeling|二分法/象限图建模法：用正交维度做分类与取舍]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-candy-oral-polish|Candy口语化润色：七条原则让文字"读出声来"]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[tool-candy-positioning-canvas|Candy差异化定位画布：回答"这篇东西凭什么存在"]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
@@ -1765,6 +1349,9 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-ci-implement-phase|CI Implement阶段：把洞察嵌入决策——最后一公里]] — source `{'web': 'CI distribution best practices (CI Alliance)'}`
 - [[tool-clinic-cabinet-legal-contract-guide|tool-clinic-cabinet-legal-contract-guide]] — source no source
 - [[tool-clinic-medical-shortvideo-compliance|tool-clinic-medical-shortvideo-compliance]] — source no source
+- [[tool-cognitive-bias-12-check|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
+- [[tool-decision-delay-intuition|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
+- [[tool-decision-outside-view|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
 - [[tool-demand-agent-auto-verify|Agent L6自动预验证：RAT的竞品数据+趋势快速验证]] — source `{'web': 'CRV 2026 time-boxed hypothesis testing'}`
 - [[tool-demand-agent-case-match|Agent L4案例匹配：以历史摩擦点为起点填充8步地图]] — source `{'web': 'ODI framework cross-case comparison'}`
 - [[tool-demand-agent-l4-case-match|Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点]] — source `60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md`
@@ -1786,6 +1373,7 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-doris-industry-report-search-tips|行业报告搜索七技：三级搜索能力+渠道清单]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[tool-doris-industry-report-source-evaluation|行业报告可信度评估：多信数据，少信观点]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[tool-essence-nfactor-modeling|本质/N要素建模法：提炼不可再约的核心变量]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- [[tool-first-principles-assumption-classify|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
 - [[tool-funnel-formula-modeling|漏斗图/公式建模法：量化流程与关键变量]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-google-dorking|Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息]] — source `{'web': 'Google advanced search operators'}`
 - [[tool-harness-adversarial-tester|对抗测试员：成功标准是"找到bug"]] — source `10_raw/sources/src_20260621_harness-engineering-wanghuan.md`
@@ -1810,6 +1398,7 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-lean-product-kernel-metrics|产品内核十大典型指标]] — source `00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md`
 - [[tool-lean-stealth-service|偷偷服务：用人工模拟产品后端]] — source `00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md`
 - [[tool-mckinsey-hypothesis-driven-workflow|tool-mckinsey-hypothesis-driven-workflow]] — source no source
+- [[tool-mece体系框架法|技能：MECE体系框架法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tool-media-verification-overview|媒体验证技术总览：判断"对方说的是不是真的"]] — source `{'web': 'OSINT media verification best practices (Defcon Level)'}`
 - [[tool-metadata-extraction|元数据提取：从文件中提取隐藏信息]] — source `{'web': 'ExifTool official docs'}`
 - [[tool-note-keyword-bolding|关键词加粗三重结构：视觉重心即认知重心的标记法则]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
@@ -1826,6 +1415,7 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-prompt-usp-demand-analysis|USP 深度洞察引擎——需求分析提示词模板]] — source `00_inbox/五步法之需求分析/需求分析提示词.txt`
 - [[tool-prompt-usp-quick-scan|USP 快速需求拆解——3分钟单轮提示词模板]] — source `00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md`
 - [[tool-radar-chart-modeling|雷达图建模法：多维度评估与筛选]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- [[tool-react行动推理循环|技能：ReACT行动推理循环]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
 - [[tool-red-team-analysis|Red Team Analysis：模拟竞对的最优策略]] — source `{'web': 'CIA Tradecraft Primer - Red Team Analysis'}`
 - [[tool-reverse-image-search|反向图片搜索：追踪图片来源和真实性]] — source `{'web': 'Google Images, TinEye, Yandex Images'}`
 - [[tool-ROI决策评估画布|ROI决策评估画布：三维度投资回报评估模板]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md`
@@ -1867,6 +1457,36 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-strategy-value-capture|价值获取设计工具：8 问盈利模型]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md`
 - [[tool-strategy-value-proposition|价值主张设计工具：三问 + 六维排序法]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md`
 - [[tool-tech-probability-80-filter|李开复 80% 概率过滤器]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[tool-Truman-AI场景探索STAR模型|技能：AI场景探索STAR模型]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI工具选型决策|技能：AI工具选型决策]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI时代IPO模型重构|技能：AI时代IPO模型重构]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI时代提示词优化法|技能：AI时代提示词优化法]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI能力分层学习路径|技能：AI能力分层学习路径]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI辅助思考伙伴养成|技能：AI辅助思考伙伴养成]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-AI输出审慎判断与交付确认|技能：AI输出审慎判断与交付确认]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-Feature特性层训练法|技能：Feature特性层训练法]] — source `source_unknown`
+- [[tool-Truman-Skill全生命周期管理|技能：Skill全生命周期管理]] — source `source_unknown`
+- [[tool-Truman-XY-Problem识别与真实问题定位|技能：XY Problem识别与真实问题定位]] — source `source_unknown`
+- [[tool-Truman-上下文质量管理（AI协作）|技能：上下文质量管理（AI协作）]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-个人判断力系统建设（达克效应应对）|技能：个人判断力系统建设（达克效应应对）]] — source `source_unknown`
+- [[tool-Truman-人在环渐进自动化策略|技能：人在环渐进自动化策略]] — source `source_unknown`
+- [[tool-Truman-低质量动作识别与拒绝|技能：低质量动作识别与拒绝]] — source `source_unknown`
+- [[tool-Truman-信息输入持续补全（防AI错误累积）|技能：信息输入持续补全（防AI错误累积）]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-判断力产品化与系统赋能|技能：判断力产品化与系统赋能]] — source `source_unknown`
+- [[tool-Truman-双三角模型应用|技能：双三角模型应用]] — source `source_unknown`
+- [[tool-Truman-复杂项目AI落地稳定性保障|技能：复杂项目AI落地稳定性保障]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-Truman-多Agent通信协作方案|技能：多Agent通信协作方案]] — source `source_unknown`
+- [[tool-Truman-开源模型与商业模型融合方案|技能：开源模型与商业模型融合方案]] — source `source_unknown`
+- [[tool-Truman-技术社区严肃提问法|技能：技术社区严肃提问法]] — source `source_unknown`
+- [[tool-Truman-提示词优化底层方法|技能：提示词优化底层方法]] — source `source_unknown`
+- [[tool-Truman-数学题与语文题区分法|技能：数学题与语文题区分法]] — source `source_unknown`
+- [[tool-Truman-本地记忆与云端记忆管理|技能：本地记忆与云端记忆管理]] — source `source_unknown`
+- [[tool-Truman-知识库最佳实践构建|技能：知识库最佳实践构建]] — source `source_unknown`
+- [[tool-Truman-短视频自动化上传工作流|技能：短视频自动化上传工作流]] — source `source_unknown`
+- [[tool-Truman-科学提问法|技能：科学提问法]] — source `source_unknown`
+- [[tool-Truman-职场异步协作提问法|技能：职场异步协作提问法]] — source `source_unknown`
+- [[tool-Truman-语义对齐沟通法|技能：语义对齐沟通法]] — source `source_unknown`
+- [[tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source `source_unknown`
 - [[tool-wanghuan-ai-business-profile|王欢AI业务档案5字段工具]] — source `10_raw/sources/src_20260619_9b85f229_wanghuan_AI业务档案的五个字段.md`
 - [[tool-wanghuan-ai-dual-role-coach|王欢：AI 双角色教练对练工具]] — source `10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md`
 - [[tool-yitang-18-strategy-tool-mapping|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — source `30_wiki/frameworks/framework-yitang-18-strategy-cards.md`
@@ -1977,21 +1597,308 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-yitang-xiaohongshu-data|小红书数据：种草热度和用户口碑追踪]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tool-Y模型STEPS策略集|Y模型STEPS策略集：五步策略框架]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-Y模型_vlm_desc.md`
 - [[tool-Y模型实操工作流|Y模型实操工作流：从分析到决策的完整路径]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-Y模型_vlm_desc.md`
+- [[tool-一堂-business-prediction-15-char|技能：商业预判15字诀]] — source `10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt`
+- [[tool-一堂-five-step-validation|技能：聊问查测盘五步验证法]] — source `10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt`
+- [[tool-一堂-hypothesis-validation-three-axe|技能：假设验证三板斧]] — source `10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt`
+- [[tool-一堂-kernel-three-questions|技能：内核要素三问验证法]] — source `10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt`
+- [[tool-一堂-product-kernel-add-subtract|技能：产品内核加减法]] — source `10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt`
+- [[tool-一堂-product-kernel-canvas|一堂产品内核画布应用技能]] — source `10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt`
+- [[tool-一堂-spectrum-positioning|技能：光谱模型定位法]] — source `10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt`
+- [[tool-三层目标对齐法|技能：三层目标对齐法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-三阶追问法穷尽决策要素|技能：三阶追问法穷尽决策要素]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
+- [[tool-专家访谈十步法|技能：专家访谈十步法]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
+- [[tool-专家访谈学习|技能：专家访谈学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-专题笔记整理|技能：专题笔记整理]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-专题笔记脑图整理法|技能：专题笔记/脑图整理法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-主动摘要压缩上下文|技能：主动摘要压缩上下文]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-人生红点战略对齐|技能：人生红点战略对齐]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-从案例中学习|技能：从案例中学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-从案例中学习正反案例法|技能：从案例中学习（正反案例法）]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-代入场景推演要素法|技能：代入场景推演要素法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
+- [[tool-任务拆解为工作流|技能：任务拆解为工作流]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-体系框架构建|技能：体系框架构建]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-使用一页纸速查卡快速调用框架|tool-使用一页纸速查卡快速调用框架]] — source no source
+- [[tool-使用优先级快筛卡锁定核心矛盾|技能：使用优先级快筛卡锁定核心矛盾]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-使用概念辨析卡区分易混淆概念|技能：使用概念辨析卡区分易混淆概念]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-六维窗口期扫描法|技能：六维窗口期扫描法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
 - [[tool-决策深度-L1优先级定性|决策深度L1：优先级定性]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L1优先级定性_vlm_desc.md`
 - [[tool-决策深度-L2部分定量|决策深度L2：部分定量]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L2部分定量_vlm_desc.md`
 - [[tool-决策深度-L3定量公式|决策深度L3：定量公式]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L3定量公式_vlm_desc.md`
 - [[tool-决策深度-L4严格财务公式|决策深度L4：严格财务公式]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4严格财务公式_vlm_desc.md`
+- [[tool-分享输出检验法|技能：分享输出检验法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-分层标注重点信息|技能：分层标注重点信息]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-创始人二当家分工协作模式|技能：创始人+二当家分工协作模式]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-制作行业化要素检查清单|技能：制作行业化要素检查清单]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
 - [[tool-动力阻力分析|动力阻力分析：用户行为的推拉模型]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-动力阻力分析-用户行为的推拉模型_vlm_desc.md`
+- [[tool-动手建模提炼|技能：动手建模提炼]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-动手建模法|技能：动手建模法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-区分获客渠道计算单元roi|技能：区分获客渠道计算单元ROI]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
+- [[tool-半肥猫-ai-research-validation|AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环]] — source `10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- [[tool-半肥猫-course-to-skill-workflow|课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化]] — source `10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- [[tool-半肥猫-课程Skill化的八步工作流|技能：课程Skill化的八步工作流]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md`
+- [[tool-半肥猫-边学边练边沉淀的AI学习法|技能：边学边练边沉淀的 AI 学习法]] — source `10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md`
 - [[tool-单元模型-单商圈|单元模型：单商圈模型]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈_vlm_desc.md`
 - [[tool-单元模型-单城市|单元模型：单城市模型]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md`
 - [[tool-单元模型-壁垒预判|单元模型：壁垒预判]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md`
 - [[tool-单元模型-象限分析法|单元模型：象限分析法]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md`
+- [[tool-反向提示获取优化建议|技能：反向提示获取优化建议]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-反向教学深化理解|技能：反向教学深化理解]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-反向记录整理思路|技能：反向记录整理思路]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-反向采访挖掘深度|技能：反向采访挖掘深度]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-四层联系建立法|技能：四层联系建立法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tool-场景推演|场景推演：还原用户真实使用场景]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-场景推演-还原用户真实使用场景_vlm_desc.md`
+- [[tool-城市合伙人模式复制能力|技能：城市合伙人模式复制能力]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-增强数据供给|技能：增强数据供给]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-复盘推演法|技能：复盘推演法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-复盘推演练习|技能：复盘推演练习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-多模型对比抽卡|技能：多模型对比抽卡]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-多源输入法|技能：多源输入法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-多轮确认防偏差|技能：多轮确认防偏差]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
 - [[tool-完整财务公式决策|完整财务公式：商业模式决策的L1-L6认知分级]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md`
 - [[tool-审美工具箱|审美工具箱：产品审美的诊断和提升工具集合]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-审美工具箱-产品审美的诊断和提升工具集合_vlm_desc.md`
+- [[tool-对标借鉴他人决策维度|技能：对标借鉴他人决策维度]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
+- [[tool-寻找学习教练法|技能：寻找学习教练法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-封装可复用skill|技能：封装可复用Skill]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-将未中标成本纳入循环计算真实投标成本|技能：将未中标成本纳入循环计算真实投标成本]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
+- [[tool-应用人员降级公式实现标准化|技能：应用人员降级公式实现标准化]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-建立知识联系|技能：建立知识联系]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-建立策略-要素映射表设计对抗策略|技能：建立策略-要素映射表设计对抗策略]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-快招品牌总部模拟调研|技能：快招品牌总部模拟调研]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-思维链显化推理|技能：思维链显化推理]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-思维验证交叉检验|技能：思维验证交叉检验]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-执行对标研究三步法|技能：执行对标研究三步法]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-按分阶练习路径渐进掌握方法|技能：按分阶练习路径渐进掌握方法]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-按图索骥改良外部模板|技能：按图索骥改良外部模板]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-按月份摊销收入成本做计划|技能：按月份摊销收入成本做计划]] — source `src_20260609_99032bf9-ocr-一堂-单元模型-示例`
+- [[tool-推行分层标准化策略|技能：推行分层标准化策略]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-提升笔记练习频次的方法|技能：提升笔记练习频次的方法]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
+- [[tool-提示词结构化迭代|技能：提示词结构化迭代]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
 - [[tool-提问刻意练习画布|提问刻意练习画布：L1-L4四级提问能力进阶]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-提问刻意练习画布_vlm_desc.md`
+- [[tool-敏捷发布快速迭代搭建体系|技能：敏捷发布快速迭代搭建体系]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-数据分层供给|技能：数据分层供给]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
 - [[tool-最佳实践收集|最佳实践收集：系统性收集团队/行业的最佳做法]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践收集-系统性收集团队/行业的最佳做法_vlm_desc.md`
 - [[tool-最佳实践池子|最佳实践池子：建立你的最佳实践知识库]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-最佳实践池子-建立你的最佳实践知识库_vlm_desc.md`
+- [[tool-月白-80分效率设计策略|技能：80分效率设计策略]] — source `src_20260510_4bb17355-天花板`
+- [[tool-月白-A-B双轨反推模式选择|技能：A/B双轨反推模式选择]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AIGC产品白底图制作|技能：AIGC产品白底图制作]] — source `source_unknown`
+- [[tool-月白-AIGC人群画像驱动详情页规划|技能：AIGC人群画像驱动详情页规划]] — source `source_unknown`
+- [[tool-月白-AIGC反向拆解法|技能：AIGC反向拆解法]] — source `source_unknown`
+- [[tool-月白-AIGC文字大小精确控制|技能：AIGC文字大小精确控制]] — source `source_unknown`
+- [[tool-月白-AIGC模型选型决策法|技能：AIGC模型选型决策法]] — source `source_unknown`
+- [[tool-月白-AIGC橱窗陈列设计流程|技能：AIGC橱窗陈列设计流程]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AIGC海报信息优先级排序法|技能：AIGC海报信息优先级排序法]] — source `source_unknown`
+- [[tool-月白-AIGC生成人物证件照|技能：AIGC生成人物证件照]] — source `source_unknown`
+- [[tool-月白-AIGC设计作业复盘法|技能：AIGC设计作业复盘法]] — source `source_unknown`
+- [[tool-月白-AIGC餐饮海报优化一抽流|技能：AIGC餐饮海报优化一抽流]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI一句话改图尺寸|技能：AI一句话改图尺寸]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI人物特征精准描述法|技能：AI人物特征精准描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI去字-稿定设计加字工作流|技能：AI去字+稿定设计加字工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI去文字-稿定设计快速出图法|技能：AI去文字+稿定设计快速出图法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI图片印刷落地预处理|技能：AI图片印刷落地预处理]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI图片去文字处理|技能：AI图片去文字处理]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI图片风格逆向提取（抄图法）|技能：AI图片风格逆向提取（抄图法）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI图生图尺寸快速转换|技能：AI图生图尺寸快速转换]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI对话式海报修改（免PS）|技能：AI对话式海报修改（免PS）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI对话情绪管理法|技能：AI对话情绪管理法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI工艺图人工复核法|技能：AI工艺图人工复核法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI平台算法咨询法|技能：AI平台算法咨询法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI归纳共性描述法|技能：AI归纳共性描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI抽卡效率控制法|技能：AI抽卡效率控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI提示词精准约束法|技能：AI提示词精准约束法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI改图指令精细化|技能：AI改图指令精细化]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI智价比评估决策|技能：AI智价比评估决策]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI模型选择决策法|技能：AI模型选择决策法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI模型选择策略|技能：AI模型选择策略]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI海报快速生成法（15分钟无PS）|技能：AI海报快速生成法（15分钟无PS）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生图与图生图决策法|技能：AI生图与图生图决策法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生成IP表情包|技能：AI生成IP表情包]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生成图小字控制法|技能：AI生成图小字控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生成图片排版控制-尺寸优先法|技能：AI生成图片排版控制-尺寸优先法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生成棉花娃娃形象|技能：AI生成棉花娃娃形象]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI生成电商白底图|技能：AI生成电商白底图]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI电商图人工过审处理|技能：AI电商图人工精修与平台合规发布]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI精准替换产品技巧|技能：AI精准替换产品技巧]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI自动生成多语种专业名词提示词|技能：AI自动生成多语种专业名词提示词]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计-质价比-决策框架|技能：AI设计'质价比'决策框架]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计三段式里程碑流程|技能：AI设计三段式里程碑流程]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计严苛批评法|技能：AI设计严苛批评法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计反馈萃取法|技能：AI设计反馈萃取法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计底层逻辑：从设计到作图到改图|技能：AI设计底层逻辑：从设计到作图到改图]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计落地文件标准生成|技能：AI设计落地文件标准生成]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI设计里程碑拆解法|技能：AI设计里程碑拆解法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI课程内容深度梳理法|技能：AI课程内容深度梳理法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI质价比评估方法|技能：AI质价比评估方法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI逆向反推描述法|技能：AI逆向反推描述法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI需求拆解咨询法|技能：AI需求拆解咨询法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-AI高清重绘去模糊|技能：AI高清重绘去模糊]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-PPT全AI生成工作流|技能：PPT全AI生成工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-PPT内容框架AIGC生成法|技能：PPT内容框架AIGC生成法]] — source `source_unknown`
+- [[tool-月白-PPT风格锁定工作流|技能：PPT风格锁定工作流]] — source `source_unknown`
+- [[tool-月白-PS图层规范管理|技能：PS图层规范管理]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-RGB转CMYK印刷预检|技能：RGB转CMYK印刷预检]] — source `source_unknown`
+- [[tool-月白-RGB转CMYK色彩校准法|技能：RGB转CMYK色彩校准法]] — source `source_unknown`
+- [[tool-月白-Token效价比决策公式|技能：Token效价比决策公式]] — source `source_unknown`
+- [[tool-月白-Token效价比决策法|技能：Token效价比决策法]] — source `source_unknown`
+- [[tool-月白-Token智甲比控制法|技能：Token智甲比控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-一抽流改图法（自然语言精准许愿法）|技能：一抽流改图法（自然语言精准许愿法）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-一抽流长提示词写作法|技能：一抽流长提示词写作法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-三步作业反馈法|技能：三步作业反馈法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-产品反光修复术|技能：产品反光修复术]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-产品替换式场景合成法|技能：产品替换式场景合成法]] — source `source_unknown`
+- [[tool-月白-产品白底图标准化制作|技能：产品白底图标准化制作]] — source `source_unknown`
+- [[tool-月白-产品风格选择：测而非定|技能：产品风格选择：测而非定]] — source `source_unknown`
+- [[tool-月白-价格带视觉策略匹配|技能：价格带视觉策略匹配]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-供应商信息对齐清单法|技能：供应商信息对齐清单法]] — source `source_unknown`
+- [[tool-月白-像素图高清重绘修复法|技能：像素图高清重绘修复法]] — source `source_unknown`
+- [[tool-月白-光影灰度控制能力构建|技能：光影灰度控制能力构建]] — source `source_unknown`
+- [[tool-月白-关键要素提取改图法|技能：关键要素提取改图法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-具体化优点萃取与复用|技能：具体化优点萃取与复用]] — source `source_unknown`
+- [[tool-月白-分层自洽海报生成法|技能：分层自洽海报生成法]] — source `source_unknown`
+- [[tool-月白-分步迭代改图法|技能：分步迭代改图法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-创作与执行双模式切换|技能：创作与执行双模式切换]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-包材工艺参数核对法|技能：包材工艺参数核对法]] — source `source_unknown`
+- [[tool-月白-卖点可视化海报设计法|技能：卖点可视化海报设计法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-印刷DPI标准设置|技能：印刷DPI标准设置]] — source `source_unknown`
+- [[tool-月白-叙事性场景海报构建|技能：叙事性场景海报构建]] — source `source_unknown`
+- [[tool-月白-口喷作图工作流|技能：口喷作图工作流]] — source `source_unknown`
+- [[tool-月白-口喷式AIGC设计法|技能：口喷式AIGC设计法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-口喷式设计工作流|技能：口喷式设计工作流]] — source `source_unknown`
+- [[tool-月白-口述作图法（口喷设计）|技能：口述作图法（口喷设计）]] — source `source_unknown`
+- [[tool-月白-后台数据AI诊断法|技能：后台数据AI诊断法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-商业项目AI模型选型决策|技能：商业项目AI模型选型决策]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-图像信息逆向解析训练|技能：图像信息逆向解析训练]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-图片逆向反推提示词法|技能：图片逆向反推提示词法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-图片逆向提示词提取|技能：图片逆向提示词提取]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-图生图产品替换与场景合成|技能：图生图产品替换与场景合成]] — source `source_unknown`
+- [[tool-月白-圈图指定修改法|技能：圈图指定修改法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-基于基础形象做动作延展（1到10）|技能：基于基础形象做动作延展（1到10）]] — source `src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程`
+- [[tool-月白-基于白底图做动作延展|技能：基于白底图做动作延展]] — source `source_unknown`
+- [[tool-月白-基于需求拆解找设计参考|技能：基于需求拆解找设计参考]] — source `source_unknown`
+- [[tool-月白-多窗口并行工作法|技能：多窗口并行工作法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-多语种专业名词提示词策略|技能：多语种专业名词提示词策略]] — source `source_unknown`
+- [[tool-月白-多语言提示词精准法|技能：多语言提示词精准法]] — source `source_unknown`
+- [[tool-月白-多语言提示词降幻觉法|技能：多语言提示词降幻觉法]] — source `source_unknown`
+- [[tool-月白-官方提示词最佳实践迁移|技能：官方提示词最佳实践迁移]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-实物包装产业链实践|技能：实物包装产业链实践]] — source `source_unknown`
+- [[tool-月白-实物包装落地训练法|技能：实物包装落地训练法]] — source `source_unknown`
+- [[tool-月白-审美刻意练习法|技能：审美刻意练习法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-封面情绪转化法|技能：封面情绪转化法]] — source `source_unknown`
+- [[tool-月白-小红书双重搜索法|技能：小红书双重搜索法]] — source `source_unknown`
+- [[tool-月白-小红书封面趋势判断法|技能：小红书封面趋势判断法]] — source `source_unknown`
+- [[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图|技能：小红书平台内容策略：从美图经济到沙雕梗图]] — source `source_unknown`
+- [[tool-月白-工厂对接信息清单制作|技能：工厂对接信息清单制作]] — source `source_unknown`
+- [[tool-月白-左手Cubox右手里程碑学习法|技能：左手Cubox右手里程碑学习法]] — source `source_unknown`
+- [[tool-月白-左脑画面描述训练法|技能：左脑画面描述训练法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-强约束画面尺寸比例|技能：强约束画面尺寸比例]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-微信公众号封面AI设计-尺寸强约束法|技能：微信公众号封面AI设计-尺寸强约束法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-手机外设计逻辑切换法|技能：手机外设计逻辑切换法]] — source `source_unknown`
+- [[tool-月白-手绘草稿AI转化工作流|技能：手绘草稿AI转化工作流]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-批量生成多视角素材|技能：批量生成多视角素材]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-找AI要平台专属方法（模型对抗法）|技能：找AI要平台专属方法（模型对抗法）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-控制产品画面尺寸比例|技能：控制产品画面尺寸比例]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-提示词优化：信息流海报文字修复|技能：提示词优化：信息流海报文字修复]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-提示词长度控制法|技能：提示词长度控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-文件命名与图层命名规范|技能：文件命名与图层命名规范]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-文件命名与存档规范（口述暗示）|技能：文件命名与存档规范（口述暗示）]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-文件命名与平台适配规范|技能：文件命名与平台适配规范]] — source `source_unknown`
+- [[tool-月白-文创产品AI设计到生产的卡点预判|技能：文创产品AI设计到生产的卡点预判]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-文创材质成本调研与精益选择|技能：文创材质成本调研与精益选择]] — source `source_unknown`
+- [[tool-月白-文创材质调研与精益选择|技能：文创材质调研与精益选择]] — source `source_unknown`
+- [[tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法|技能：新媒体平台流量逻辑-问平台亲儿子AI法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-新媒体热点物料快速迭代法|技能：新媒体热点物料快速迭代法]] — source `source_unknown`
+- [[tool-月白-新手设计师基本功训练法|技能：新手设计师基本功训练法]] — source `source_unknown`
+- [[tool-月白-普通人AI快速上手法|技能：普通人AI快速上手法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-普通人AI设计80分法则|技能：普通人AI设计80分法则]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-智能扩图-拓图双方案|技能：智能扩图/拓图双方案]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-替换大法改图|技能：替换大法改图]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-最佳实践素材收集法|技能：最佳实践素材收集法]] — source `source_unknown`
+- [[tool-月白-服务体验类去AI感设计|技能：服务体验类去AI感设计]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-未知领域审美建构法|技能：未知领域审美建构法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-模型性价比选型决策|技能：模型性价比选型决策]] — source `source_unknown`
+- [[tool-月白-模型识别与边界测试法|技能：模型识别与边界测试法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-正向反馈强化AI生成|技能：正向反馈强化AI生成]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-泛产品设计能力迁移法|技能：泛产品设计能力迁移法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-海报二维码快速替换法|技能：海报二维码快速替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-海报文字错误修复法|技能：海报文字错误修复法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-灵感画布建立法|技能：灵感画布建立法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-烧Token快速积累体感|技能：烧Token快速积累体感]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-用AIGC做设计专家批评复盘|技能：用AIGC做设计专家批评复盘]] — source `source_unknown`
+- [[tool-月白-用一堂方法论找最佳实践并拉满执行|技能：用一堂方法论找最佳实践并拉满执行]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-电商场景图三类分类法|技能：电商场景图三类分类法]] — source `source_unknown`
+- [[tool-月白-电商场景图三类构建法|技能：电商场景图三类构建法]] — source `source_unknown`
+- [[tool-月白-电商白底图生成与场景图匹配|技能：电商白底图生成与场景图匹配]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-电商白底图生成与高清处理|技能：电商白底图生成与高清处理]] — source `source_unknown`
+- [[tool-月白-电商白底图生成与高清重绘|技能：电商白底图生成与高清重绘]] — source `source_unknown`
+- [[tool-月白-电商详情页起承转合架构法|技能：电商详情页起承转合架构法]] — source `source_unknown`
+- [[tool-月白-眼高手低训练法|技能：眼高手低训练法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-眼高手低转化法|技能：眼高手低转化法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-短视频封面-音量战争-设计法|技能：短视频封面'音量战争'设计法]] — source `source_unknown`
+- [[tool-月白-短视频封面一秒吸睛法|技能：短视频封面一秒吸睛法]] — source `source_unknown`
+- [[tool-月白-短视频封面高亮吸睛法|技能：短视频封面高亮吸睛法]] — source `source_unknown`
+- [[tool-月白-社群直播海报利益点提炼法|技能：社群直播海报利益点提炼法]] — source `source_unknown`
+- [[tool-月白-竞品图精益替换法|技能：竞品图精益替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-精准共用提示词撰写|技能：精准共用提示词撰写]] — source `source_unknown`
+- [[tool-月白-精准提示词撰写法|技能：精准提示词撰写法]] — source `source_unknown`
+- [[tool-月白-精准提示词消除模型幻觉|技能：精准提示词消除模型幻觉]] — source `source_unknown`
+- [[tool-月白-精准改图提示词写法|技能：精准改图提示词写法]] — source `source_unknown`
+- [[tool-月白-纳米级抄大师训练法|技能：纳米级抄大师训练法]] — source `source_unknown`
+- [[tool-月白-线下实体门店设计真实体感验证|技能：线下实体门店设计真实体感验证]] — source `source_unknown`
+- [[tool-月白-线下门店设计复杂度评估|技能：线下门店设计复杂度评估]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-背景消除与分辨率修复|技能：背景消除与分辨率修复]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-色块分区控制法|技能：色块分区控制法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-薅AIGC羊毛资源法|技能：AIGC工具免费试用与入门资源整理]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-行业配色快速确定法|技能：行业配色快速确定法]] — source `source_unknown`
+- [[tool-月白-表情包风格筛选与确定|技能：表情包风格筛选与确定]] — source `source_unknown`
+- [[tool-月白-视角替换专用提示法|技能：视角替换专用提示法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计参考图精准定位法|技能：设计参考图精准定位法]] — source `source_unknown`
+- [[tool-月白-设计基本功回归法|技能：设计基本功回归法]] — source `source_unknown`
+- [[tool-月白-设计师AI工具习惯切换|技能：设计师AI工具习惯切换]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计师AI资产四类型沉淀|技能：设计师AI资产四类型沉淀]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计文件八要素命名法|技能：设计文件八要素命名法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计素材脱敏处理规范|技能：设计素材脱敏处理规范]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计能力蒸馏封装法|技能：设计能力蒸馏封装法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计需求口头化表达法|技能：设计需求口头化表达法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计项目MVP拆解法|技能：设计项目MVP拆解法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-设计项目里程碑拆解法|技能：设计项目里程碑拆解法]] — source `source_unknown`
+- [[tool-月白-课程资料文件命名规范|技能：课程资料文件命名规范]] — source `source_unknown`
+- [[tool-月白-课程问题预埋法|技能：课程问题预埋法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-资深设计师AI工具切换法|技能：资深设计师AI工具切换法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-跨境电商产品图替换法|技能：跨境电商产品图替换法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-醒图人脸精修法|技能：醒图人脸精修法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-里程碑思维-找对标优先于做设计|技能：里程碑思维-找对标优先于做设计]] — source `source_unknown`
+- [[tool-月白-里程碑思维拆解设计流程|技能：里程碑思维拆解设计流程]] — source `source_unknown`
+- [[tool-月白-风格不变局部调整|技能：风格不变局部调整]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-风格探索试错法|技能：风格探索试错法]] — source `source_unknown`
+- [[tool-月白-餐饮海报AB测试法|技能：餐饮海报AB测试法]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-月白-餐饮类线下设计调性把控|技能：餐饮类线下设计调性把控]] — source `src_20260522_38173b48-design-ai-image-generation`
+- [[tool-李诞-个人IP的重新定义与输出策略|技能：个人IP的重新定义与输出策略]] — source `source_unknown`
+- [[tool-李诞-内容创作中的观察训练法|技能：内容创作中的观察训练法]] — source `source_unknown`
+- [[tool-李诞-判断工作价值的交易成本视角|技能：判断工作价值的交易成本视角]] — source `source_unknown`
+- [[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱|技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱]] — source `source_unknown`
+- [[tool-李诞-销售闭环验证：从0到1的重新定义|技能：销售闭环验证：从0到1的重新定义]] — source `src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程`
+- [[tool-李诞-阅读重读机制：与书籍的-因缘-相遇|技能：阅读重读机制：与书籍的'因缘'相遇]] — source `source_unknown`
+- [[tool-李诞-面对过去错误的平静心法|技能：面对过去错误的平静心法]] — source `source_unknown`
+- [[tool-模型匹配调度|技能：模型匹配调度]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-模型组合调用|技能：模型组合调用]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-水水-保持系统冗余|技能：保持系统冗余]] — source `source_unknown`
+- [[tool-水水-利用叙事驱动决策|技能：利用叙事驱动决策]] — source `source_unknown`
+- [[tool-水水-利用基因漂变视角|技能：利用基因漂变视角]] — source `source_unknown`
+- [[tool-水水-区分风险与不确定性|技能：区分风险与不确定性]] — source `source_unknown`
+- [[tool-水水-接受发散性世界观|技能：接受发散性世界观]] — source `source_unknown`
+- [[tool-水水-构建自利叙事|技能：构建自利叙事]] — source `source_unknown`
+- [[tool-水水-用感性维度构建溢价|技能：用感性维度构建溢价]] — source `source_unknown`
+- [[tool-水水-管理决策权重偏差|tool-水水-管理决策权重偏差]] — source no source
+- [[tool-水水-练习坦然说不知道|技能：练习坦然说不知道]] — source `source_unknown`
+- [[tool-水水-警惕概率虚妄安全感|技能：警惕概率虚妄安全感]] — source `source_unknown`
+- [[tool-水水-警惕错误归因|技能：警惕错误归因]] — source `source_unknown`
+- [[tool-水水-识别关键偶然因素|技能：识别关键偶然因素]] — source `source_unknown`
+- [[tool-水水-识别数据折磨陷阱|技能：识别数据折磨陷阱]] — source `source_unknown`
+- [[tool-水水-识别模型局限性|技能：识别模型局限性]] — source `source_unknown`
+- [[tool-水水-识别自证预言陷阱|技能：识别自证预言陷阱]] — source `source_unknown`
+- [[tool-水水-识别超级传播者风险|技能：识别超级传播者风险]] — source `source_unknown`
+- [[tool-水水-识别饥饿效应|技能：识别饥饿效应]] — source `source_unknown`
+- [[tool-水水-避免原生家庭万能归因|技能：避免原生家庭万能归因]] — source `source_unknown`
+- [[tool-水水-降低故事逻辑要求|技能：降低故事逻辑要求]] — source `source_unknown`
 - [[tool-泛产品落地-ROI分析|落地卡片：ROI分析]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-ROI分析_vlm_desc.md`
 - [[tool-泛产品落地-业务建模|落地卡片：业务建模]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-业务建模_vlm_desc.md`
 - [[tool-泛产品落地-低成本测试MVP|落地卡片：低成本测试MVP]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-低成本测试MVP_vlm_desc.md`
@@ -2011,18 +1918,111 @@ _Last updated: 2026-06-26T20:18:01+00:00_
 - [[tool-泛产品落地-里程碑拆解|落地卡片：里程碑拆解]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-里程碑拆解_vlm_desc.md`
 - [[tool-泛产品落地-风险管理|落地卡片：风险管理]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-风险管理_vlm_desc.md`
 - [[tool-泛产品设计-需求工具箱指南|需求工具箱指南]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-需求工具箱指南_vlm_desc.md`
+- [[tool-深度分层学习|技能：深度分层学习]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-清单小抄制作|技能：清单小抄制作]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-清单小抄工具箱法|技能：清单小抄工具箱法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-清单式笔记法|技能：清单式笔记法]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
+- [[tool-渐进式披露上下文|技能：渐进式披露上下文]] — source `src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset`
+- [[tool-现场建模式萃取笔记|技能：现场建模式萃取笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
+- [[tool-用topdown方式整理内化笔记|技能：用Topdown方式整理内化笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
 - [[tool-用户分层|用户分层：按价值和行为细分用户群]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-用户分层-按价值和行为细分用户群_vlm_desc.md`
 - [[tool-用户视角|用户视角：跳出产品思维看用户]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-用户视角-跳出产品思维看用户_vlm_desc.md`
+- [[tool-用旗舰店替代纯招商投入|技能：用旗舰店替代纯招商投入]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-用清单体记备忘笔记|技能：用清单体记备忘笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
+- [[tool-知识库团队管理|技能：知识库团队管理]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
+- [[tool-知识树存储记忆法|技能：知识树存储记忆法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tool-科学决策关键训练清单|科学决策ROI·关键训练清单]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键训练清单（重要））_vlm_desc.md`
 - [[tool-科学学习IPO完整清单|科学学习IPO完整清单：Input-Process-Output学习系统]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md`
 - [[tool-科学提问刻意练习|科学提问刻意练习：提问即思考]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md`
+- [[tool-稀缺资源机会成本比对法|技能：稀缺资源机会成本比对法]] — source `src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要`
 - [[tool-稀缺资源清单|稀缺资源清单：识别和配置决策中的关键约束]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md`
+- [[tool-立即实践转化法|技能：立即实践转化法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-纪浩-Agent开工检查单制作法|tool-纪浩-Agent开工检查单制作法]] — source no source
+- [[tool-纪浩-Agent技能市场设计法|技能：Agent技能市场设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
+- [[tool-纪浩-AI使用边界管理法|tool-纪浩-AI使用边界管理法]] — source no source
+- [[tool-纪浩-AI对话上下文隔离|tool-纪浩-AI对话上下文隔离]] — source no source
+- [[tool-纪浩-AI工作空间与导诊台设计法|技能：AI工作空间与导诊台设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
+- [[tool-纪浩-AI工具脚本化约束|tool-纪浩-AI工具脚本化约束]] — source no source
+- [[tool-纪浩-Do-first-PDCA渐进迭代法|技能：Do-first PDCA渐进迭代法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
+- [[tool-纪浩-problem-validation-four-checks|技能：四问验证法 —— 判断需求是真实Problem还是伪需求]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
+- [[tool-纪浩-Problem与Question区分法|tool-纪浩-Problem与Question区分法]] — source no source
+- [[tool-纪浩-任务交付物标准化|tool-纪浩-任务交付物标准化]] — source no source
+- [[tool-纪浩-低成本输出验证法|tool-纪浩-低成本输出验证法]] — source no source
+- [[tool-纪浩-处理AI生成代码运行异常|tool-纪浩-处理AI生成代码运行异常]] — source no source
+- [[tool-纪浩-多视角切换思考法|技能：多视角切换思考法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-新手心态启动法|技能：新手心态启动法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-日志驱动排查法|技能：日志驱动排查法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
+- [[tool-纪浩-案例池构建法|技能：案例池构建法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-真需求四要素验证法|技能：真需求四要素验证法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md - 00_inbox/纪浩-AI协作方法论-口述.md`
+- [[tool-纪浩-线上问题应急值守|技能：线上问题应急值守]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-评估AI从零写UI的可行性|技能：评估AI从零写UI的可行性]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-识别AI不可维护代码|技能：识别AI不可维护代码]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-里程碑验证法|技能：里程碑验证法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-问题导向备课法|技能：问题导向备课法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-纪浩-项目启动五问法|技能：项目启动五问法]] — source `src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01`
+- [[tool-自我反馈修正笔记姿势|技能：自我反馈修正笔记姿势]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
+- [[tool-自我反馈检验|技能：自我反馈检验]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-获取他人反馈优化笔记|技能：获取他人反馈优化笔记]] — source `src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02`
 - [[tool-行业分析画布|行业分析画布：系统性理解行业结构]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-行业分析画布-系统性理解行业结构_vlm_desc.md`
 - [[tool-讲香十指模型-超级武器库|讲香十指模型：超级武器库——表达力的十种武器]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香十指模型-超级武器库_vlm_desc.md`
 - [[tool-讲香基本功-十指模型|讲香基本功：十指模型修炼地图]] — source `00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香基本功-十指模型修炼地图_vlm_desc.md`
+- [[tool-设定管理杠杆率指标评估效率|技能：设定管理杠杆率指标评估效率]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-设计对抗效果追踪看板|技能：设计对抗效果追踪看板]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-费曼学习法三句话提炼|技能：费曼学习法三句话提炼]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-费曼学习法实践讲香课题|技能：费曼学习法实践（讲香课题）]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
+- [[tool-费曼简单提炼法|技能：费曼简单提炼法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-辩证讨论法|技能：辩证讨论法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tool-辩证讨论深化|技能：辩证讨论深化]] — source `src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略`
+- [[tool-逐字稿练习演讲|技能：逐字稿练习演讲]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
+- [[tool-通过综合案例沙盘走通全流程|技能：通过综合案例沙盘走通全流程]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-通过请吃饭获取行业内部资料|技能：通过请吃饭获取行业内部资料]] — source `src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03`
+- [[tool-遵循规模前倾原则设计组织架构|技能：遵循规模前倾原则设计组织架构]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
+- [[tool-采用滚动预测机制|技能：采用滚动预测机制]] — source `src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点`
 - [[tool-需求挖掘|需求挖掘：从用户身上挖出真实需求]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-需求挖掘-从用户身上挖出真实需求_vlm_desc.md`
+- [[tool-项目复盘基本功|技能：项目复盘基本功]] — source `src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单`
 - [[tool-项目方案评估三角形|项目方案评估三角形：收益×成本×风险三维对比]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-项目方案评估三角形_vlm_desc.md`
 - [[tool-项目背景分析|项目背景分析：启动前的环境扫描]] — source `00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-项目背景分析-启动前的环境扫描_vlm_desc.md`
+- [[tool-马易-AIGC项目ROI评估|技能：AIGC项目ROI评估]] — source `src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程`
+- [[tool-马易-AI任务拆解提升控制度|技能：AI任务拆解提升控制度]] — source `source_unknown`
+- [[tool-马易-AI搜索公网数据增强（合规边界）|技能：AI搜索公网数据增强（合规边界）]] — source `source_unknown`
+- [[tool-马易-AI答疑运营风格适配|技能：AI答疑运营风格适配]] — source `source_unknown`
+- [[tool-马易-AI能力团队复制|技能：AI能力团队复制]] — source `source_unknown`
+- [[tool-马易-AI落地前置条件验证|技能：AI落地前置条件验证]] — source `source_unknown`
+- [[tool-马易-AI落地四阶段验证法|技能：AI落地四阶段验证法]] — source `source_unknown`
+- [[tool-马易-AI落地场景筛选-四有新人法则|技能：AI落地场景筛选-四有新人法则]] — source `src_20260510_4bb17355-天花板`
+- [[tool-马易-AI落地场景识别-拆工作流找场景|技能：AI落地场景识别-拆工作流找场景]] — source `source_unknown`
+- [[tool-马易-AI落地场景识别与拆分|技能：AI落地场景识别与拆分]] — source `source_unknown`
+- [[tool-马易-AI落地能力内化训练|技能：AI落地能力内化训练]] — source `source_unknown`
+- [[tool-马易-AI落地认知速成-最佳实践学习法|技能：AI落地认知速成-最佳实践学习法]] — source `source_unknown`
+- [[tool-马易-AI项目上线-先平行再独行|技能：AI项目上线-先平行再独行]] — source `source_unknown`
+- [[tool-马易-AI项目需求拆解筛选|技能：AI项目需求拆解筛选]] — source `source_unknown`
+- [[tool-马易-RPA数据整合法|技能：RPA数据整合法]] — source `source_unknown`
+- [[tool-马易-业务为先的AI中台建设|tool-马易-业务为先的AI中台建设]] — source no source
+- [[tool-马易-业务问题AI化拆解-餐饮设计案例法|技能：业务问题AI化拆解-餐饮设计案例法]] — source `src_20260510_4bb17355-天花板`
+- [[tool-马易-中国企业AI落地五步法|技能：中国企业AI落地五步法]] — source `source_unknown`
+- [[tool-马易-低置信度样本黄金漏斗处理|技能：低置信度样本黄金漏斗处理]] — source `source_unknown`
+- [[tool-马易-公寓获客自跑通原则|技能：公寓获客自跑通原则]] — source `source_unknown`
+- [[tool-马易-关键假设识别与验证|技能：关键假设识别与验证]] — source `source_unknown`
+- [[tool-马易-减少输入噪音法|技能：减少输入噪音法]] — source `source_unknown`
+- [[tool-马易-判断标准快速产出法|技能：判断标准快速产出法]] — source `source_unknown`
+- [[tool-马易-工作流优先于AIGC的决策方法|技能：工作流优先于AIGC的决策方法]] — source `src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程`
+- [[tool-马易-工作流拆解找场景|技能：工作流拆解找场景]] — source `source_unknown`
+- [[tool-马易-平台模式验证法|技能：平台模式验证法]] — source `source_unknown`
+- [[tool-马易-成为首位F工程师|技能：成为首位F工程师]] — source `source_unknown`
+- [[tool-马易-数字员工FD拆解落地|技能：数字员工FD拆解落地]] — source `source_unknown`
+- [[tool-马易-数据存储架构选择|技能：数据存储架构选择]] — source `source_unknown`
+- [[tool-马易-数据标注正确法|技能：数据标注正确法]] — source `source_unknown`
+- [[tool-马易-时间序列大模型场景识别|技能：时间序列大模型场景识别]] — source `source_unknown`
+- [[tool-马易-最小场景优先落地法|技能：最小场景优先落地法]] — source `source_unknown`
+- [[tool-马易-深度沉浸需求挖掘|技能：深度沉浸需求挖掘]] — source `source_unknown`
+- [[tool-马易-痛点驱动的数字化|技能：痛点驱动的数字化]] — source `source_unknown`
+- [[tool-马易-知识库-回答技巧双建设|技能：知识库+回答技巧双建设]] — source `source_unknown`
+- [[tool-马易-视频转化关键要素标注校验|技能：视频转化关键要素标注校验]] — source `source_unknown`
+- [[tool-马易-销售智能体体系搭建路径|技能：销售智能体体系搭建路径]] — source `source_unknown`
+- [[tool-马易-隐性知识萃取与模型化|技能：隐性知识萃取与模型化]] — source `source_unknown`
+- [[tool-马易-隐私安全分层解决|技能：隐私安全分层解决]] — source `source_unknown`
+- [[tool-马易-需求创造验证法|技能：需求创造验证法]] — source `source_unknown`
+- [[tool-马易-风口痛点识别法|技能：风口痛点识别法]] — source `source_unknown`
 - [[yt-barrier-moat-assessment|护城河评估工具]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[yt-business-model-cac-ltv|CAC与LTV的实战计算]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[yt-business-model-canvas|商业模式画布：一堂版]] — source `src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`

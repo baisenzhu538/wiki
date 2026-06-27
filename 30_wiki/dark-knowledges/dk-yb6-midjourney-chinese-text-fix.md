@@ -2,7 +2,7 @@
 
 id: dk-yb6-midjourney-chinese-text-fix
 title: Midjourney中文文字修复极简提示词
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
@@ -34,8 +34,7 @@ diagnostic_signals:
 - signal: 团队把AI中文文字修复问题当作"模型能力不足"，反复换模型而非换策略
   framework_lens: 工具策略错位——问题不在模型而在提示词的精准度和冗余度
   follow_up_question: 同样的修复目标，在不同模型（MJ/SD/DALL-E）上试过同一句极简提示词吗？
----
-# Midjourney中文文字修复极简提示词
+---# Midjourney中文文字修复极简提示词
 
 ## 原始表述
 

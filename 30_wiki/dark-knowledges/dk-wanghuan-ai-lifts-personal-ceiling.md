@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-ai-lifts-personal-ceiling
 title: 王欢暗知识：AI 拉升个人上限
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -52,7 +52,6 @@ tags:
 - 个人上限
 - 人机协作
 ---
-
 # 王欢暗知识：AI 拉升个人上限
 
 > **Burn line**: AI 这一轮给我们最大的感受是，它可以拉升个人的上限——你完全可以做出以前根本做不出来的东西，只要你有导演思维。

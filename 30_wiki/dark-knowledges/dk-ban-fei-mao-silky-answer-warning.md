@@ -2,7 +2,7 @@
 
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
-type: dark-knowledge
+type: dk
 status: enriched
 domain:
 - ai-collaboration
@@ -36,8 +36,7 @@ diagnostic_signals:
 - signal: 团队因为 AI 回答"看起来很完整"而直接采纳，没有独立验证
   framework_lens: '认知偏差——人倾向于把"结构完整"误认为"正确"'
   follow_up_question: 在采纳前，先用三轮检查法验证一遍：这是推理还是证据？有没有更好的数据？有没有贴近业务场景的可验证信息？
----
-# 暗知识：AI 回答越丝滑，问题越大
+---# 暗知识：AI 回答越丝滑，问题越大
 
 > AI 回答越丝滑、越结构完整，越可能是在用"看起来对"包装未经检验的推理或编造。
 

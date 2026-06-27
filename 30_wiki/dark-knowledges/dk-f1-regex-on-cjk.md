@@ -2,7 +2,7 @@
 
 id: dk-f1-regex-on-cjk
 title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -42,8 +42,7 @@ diagnostic_signals:
 - signal: "自定义 extractor 或脚本复制了 `extractors.py` 的 regex 逻辑，对中文文档返回空列表或错误关键词"
   framework_lens: 缺陷会通过“复制代码”传播到任何继承 `\\b` 或英文关键词假设的正则逻辑
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
----
-# F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
+---# F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 
 ## 原始表述
 

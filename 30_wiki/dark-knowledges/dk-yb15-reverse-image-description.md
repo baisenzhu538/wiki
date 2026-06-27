@@ -1,7 +1,7 @@
 ---
 id: dk-yb15-reverse-image-description
 title: AI逆向反推图片描述法
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AI逆向反推图片描述法
+---# AI逆向反推图片描述法
 
 ## 原始表述
 

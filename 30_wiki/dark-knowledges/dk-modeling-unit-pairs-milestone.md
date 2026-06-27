@@ -3,7 +3,7 @@
 
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -34,8 +34,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
----
-# 里程碑不是任务清单，是“成对单元模型”拼出来的
+---# 里程碑不是任务清单，是“成对单元模型”拼出来的
 
 ## diagnostic_signals
 

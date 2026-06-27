@@ -2,7 +2,7 @@
 
 id: dk-demand-misjudgment-rate
 title: 30-50%创业失败源于需求误判
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -22,7 +22,6 @@ related:
   - '[[case-demand-rural-5g]]'
   - "[[tool-demand-assessment-triangle]]"
 ---
-
 # 30-50%创业失败源于需求误判
 
 > 一堂方法论核心数据：30-50%创业失败的根本原因是需求判断错误——做了一个"没人要"或"不值得付费"的产品。

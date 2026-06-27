@@ -2,7 +2,7 @@
 
 id: dk-p17-accuracy-gap
 title: 'P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -35,8 +35,7 @@ diagnostic_signals:
 - 听到高准确率声明但缺少数据集、覆盖维度、计算公式与缺标维度处理说明
 - 调优前后数字对比时没有独立的 Gold Standard 基线测量
 - 报告中只展示部分维度或成功样本的准确率
----
-# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
+---# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 
 ## 原始表述/核心洞察
 

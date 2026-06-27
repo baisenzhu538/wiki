@@ -2,7 +2,7 @@
 
 id: dk-yitang-digging-belief
 title: 破案式深挖的信念
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[dk-yitang-research-desperate-effort]]"
 ---
-
 # 破案式深挖的信念
 
 > "只要给我一个线头，我就能把整件毛衣拆开。"

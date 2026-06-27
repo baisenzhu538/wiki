@@ -3,7 +3,7 @@
 
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -41,8 +41,7 @@ diagnostic_signals:
 - 团队复盘会上只能讲出"加强沟通""下次注意"等正确废话，没人能说出当时具体发生了什么
 - SOP/清单里写满无关痛痒的条款，真正决定成败的操作细节（如直播前是否吃饭、PPT哪页让观众困惑）全部遗漏
 - 周期型工作（每周做课、每周销售）的复盘会被一再推迟，等到开会时关键体感已经衰减
----
-# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
+---# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 
 ## 原始表述/核心洞察
 

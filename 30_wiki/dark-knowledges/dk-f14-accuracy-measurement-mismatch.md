@@ -2,7 +2,7 @@
 
 id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -33,8 +33,7 @@ diagnostic_signals:
 - 听到"准确率95%"但追问不出数据集、覆盖维度与计算公式
 - 不同时间/人/场景报告的准确率数字无法复现或相互矛盾
 - 比较两个版本时发现测试集、配置或测量脚本不一致
----
-# F-KDO-014：准确率声明的测量口径不一致
+---# F-KDO-014：准确率声明的测量口径不一致
 
 ## 原始表述/核心洞察
 

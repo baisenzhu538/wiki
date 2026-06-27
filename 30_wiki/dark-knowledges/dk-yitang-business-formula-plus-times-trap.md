@@ -3,7 +3,7 @@
 
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
@@ -50,7 +50,6 @@ confidence: 0.85
 ——孔阳，一堂 2026-06-13 业务公式拆解培训
 
 ---
-
 ## 使用场景
 
 - 你把业务拆成 `GMV = 流量 × 转化率 × 客单价 × 复购率` 后，团队仍然不知道先动哪个。

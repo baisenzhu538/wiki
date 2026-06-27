@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-cost-value-match
 title: 调研投入必须与信息价值匹配
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[concept-yitang-ideal-research-goal]]"
 ---
-
 # 调研投入必须与信息价值匹配
 
 > 为省5000块钱的调研费做了个500万的错误决策。反过来，花50万调研一个可能只值10万的机会——也是蠢。

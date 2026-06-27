@@ -1,7 +1,7 @@
 ---
 id: dk-yb29-prompt-migrate-copy-first
 title: AIGC提示词迁移：先照搬再微调的务实策略
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AIGC提示词迁移：先照搬再微调的务实策略
+---# AIGC提示词迁移：先照搬再微调的务实策略
 
 ## 原始表述
 

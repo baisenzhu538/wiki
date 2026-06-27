@@ -1,7 +1,7 @@
 ---
 id: dk-yb12-ai-image-analysis-replace-training
 title: AI图像分析替代模型训练：快速提取参考图共性
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# AI图像分析替代模型训练：快速提取参考图共性
+---# AI图像分析替代模型训练：快速提取参考图共性
 
 ## 原始表述
 

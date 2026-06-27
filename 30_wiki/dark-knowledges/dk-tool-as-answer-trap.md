@@ -2,7 +2,7 @@
 
 id: dk-tool-as-answer-trap
 title: 把工具/框架当成答案，而不是提问的脚手架
-type: dark-knowledge
+type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
@@ -46,8 +46,7 @@ diagnostic_signals:
 - signal: 建模工具输出一个预测数字后，团队围绕数字争论，不再检查输入假设
   framework_lens: 答案压迫提问
   follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？
----
-# 把工具/框架当成答案，而不是提问的脚手架
+---# 把工具/框架当成答案，而不是提问的脚手架
 
 ## 原始表述 / 核心洞察
 

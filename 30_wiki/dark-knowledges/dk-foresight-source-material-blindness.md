@@ -2,7 +2,7 @@
 
 id: dk-foresight-source-material-blindness
 title: 暗知识：素材命名不一致导致完整口述稿被遗漏
-type: dark-knowledge
+type: dk
 dark_knowledge_type: process-failure
 domain:
 - yitang
@@ -39,8 +39,7 @@ related:
   - '[[tool-yitang-public-sentiment-research]]'
   - '[[dk-c3-txt-ingest-skip]]'
   - '[[tool-yitang-supply-chain-research]]'
----
-# 暗知识：素材命名不一致导致完整口述稿被遗漏
+---# 暗知识：素材命名不一致导致完整口述稿被遗漏
 
 ## 症状
 

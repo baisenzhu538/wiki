@@ -2,7 +2,7 @@
 
 id: dk-yb4-nano-banana-style-reproduction
 title: Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
-type: dark-knowledge
+type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
@@ -35,8 +35,7 @@ diagnostic_signals:
 - signal: 同一艺术风格每次产出的风格偏差明显，团队认为是"prompt没写好"
   framework_lens: 模型选择错位——稳定复现特定风格不是所有模型的强项
   follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。
----
-# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
+---# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
 
 ## 原始表述
 

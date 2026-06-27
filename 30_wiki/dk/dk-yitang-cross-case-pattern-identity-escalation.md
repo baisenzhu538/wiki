@@ -2,7 +2,7 @@
 
 id: dk-yitang-cross-case-pattern-identity-escalation
 title: 跨案例模式：多重身份交叉验证——同一问题用3个以上身份从不同角度验证
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -26,7 +26,6 @@ related:
   - "[[case-yitang-elderly-home-roleplay]]"
   - "[[case-zhanglei-nursing-home-family]]"
 ---
-
 # 跨案例模式：多重身份交叉验证
 
 > 横跨10+案例的最强模式——同一目标问题，用3个以上不同身份从不同角度获取信息，然后交叉比对。

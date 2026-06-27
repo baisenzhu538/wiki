@@ -2,7 +2,7 @@
 
 id: dk-kdo-leaky-pipe-pressure
 title: "暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死"
-type: dark-knowledge
+type: dk
 dark_knowledge_type: anti-pattern
 status: enriched
 domain:
@@ -48,8 +48,7 @@ diagnostic_signals:
 - signal: 团队花大量时间讨论门禁标准，但基础数据质量（卡片 status 漂移、related 指向不存在的卡）没人修
   framework_lens: 政策前置于基建——在没有干净数据的情况下定义标准，如在没有地基的沙地上画建筑图
   follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。
----
-# 暗知识：在漏水的管子上加压
+---# 暗知识：在漏水的管子上加压
 
 > 基础链路没跑通时，硬门禁不是质量控制，而是流程卡死。更多控制 ≠ 更高质量。
 

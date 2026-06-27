@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-best-practice-first
 title: 做重要设计前先摸行业最佳实践：认知套利
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -24,7 +24,6 @@ related:
   - "[[dk-yitang-public-info-is-enough]]"
   - "[[tool-yitang-financial-report-intelligence]]"
 ---
-
 # 做重要设计前先摸行业最佳实践
 
 > "大多数情况下，你面对的问题，别人已经解决过了。而且解决了5年、10年、20年。你不需要重新发明——你只需要找到那个已经解决了问题的人，理解他们是怎么解决的。" ——Truman

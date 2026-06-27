@@ -4,7 +4,7 @@ domain:
 
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.78
@@ -41,8 +41,7 @@ diagnostic_signals:
     framework_lens: 产品内核失败模式——团队对内核无共识
     follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
 
----
-# 产品内核失败的5种模式
+---# 产品内核失败的5种模式
 
 > 一堂五步法：产品内核失败不是偶然，而是有模式。识别模式，避免踩坑。
 

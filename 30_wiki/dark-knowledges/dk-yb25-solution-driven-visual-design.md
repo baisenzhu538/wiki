@@ -1,7 +1,7 @@
 ---
 id: dk-yb25-solution-driven-visual-design
 title: 解决方案驱动视觉设计，非门店风格导向
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# 解决方案驱动视觉设计，非门店风格导向
+---# 解决方案驱动视觉设计，非门店风格导向
 
 ## 原始表述
 

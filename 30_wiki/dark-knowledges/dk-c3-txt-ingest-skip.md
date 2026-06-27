@@ -2,7 +2,7 @@
 
 id: dk-c3-txt-ingest-skip
 title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
@@ -44,7 +44,6 @@ diagnostic_signals:
   framework_lens: 这是组织知识沉淀流程中的"格式盲区"：贡献者不知道 KDO ingest 的扩展名白名单，系统也不会主动反馈
   follow_up_question: 是否在 inbox 入口有 CONTRIBUTING/README 说明？是否在 CI/预提交钩子中跑 `find 00_inbox -type f ! -name '*.md'` 并阻塞合并？
 ---
-
 # C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 
 ## 原始表述

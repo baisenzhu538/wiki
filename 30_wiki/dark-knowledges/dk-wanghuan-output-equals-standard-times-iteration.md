@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-output-equals-standard-times-iteration
 title: 王欢暗知识：输出质量 = 标准 × 迭代
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -54,7 +54,6 @@ tags:
 - 迭代
 - 人机协作
 ---
-
 # 王欢暗知识：输出质量 = 标准 × 迭代
 
 > **Burn line**: 不要追求一次写对。输出的追踪指标 = 你的标准 × 迭代次数。

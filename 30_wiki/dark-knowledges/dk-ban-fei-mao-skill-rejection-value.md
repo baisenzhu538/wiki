@@ -2,7 +2,7 @@
 
 id: dk-ban-fei-mao-skill-rejection-value
 title: '暗知识：Skill 的最大价值不是生成，是拒绝'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -45,8 +45,7 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-test
----
-# 暗知识：Skill 的最大价值不是生成，是拒绝
+---# 暗知识：Skill 的最大价值不是生成，是拒绝
 
 ## 用一句话讲清楚
 

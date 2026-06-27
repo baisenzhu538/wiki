@@ -1,7 +1,7 @@
 ---
 id: dk-weekly-modeling-iteration-growth-engine
 title: 暗知识：一堂真正的增长引擎是'周对周的建模能力增长'
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -40,7 +40,6 @@ tags:
   - '#method/execution-method'
   - '#method/management-tool'
 ---
-
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
 > **Burn line**: 收入增长、利润增长、流量增长都能用钱买；但周对周的建模能力增长，是花钱买不到的。

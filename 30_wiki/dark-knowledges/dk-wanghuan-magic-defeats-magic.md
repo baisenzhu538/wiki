@@ -2,7 +2,7 @@
 
 id: dk-wanghuan-magic-defeats-magic
 title: 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
@@ -47,7 +47,6 @@ tags:
 - 验收标准
 - 暗知识
 ---
-
 # 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 
 > **Burn line**：没有标准时，别急着让 AI 给答案，先让 AI 帮你把标准长出来。

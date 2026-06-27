@@ -2,7 +2,7 @@
 
 id: dk-note-surplus-brainpower
 title: “剩余脑力”：高阶笔记的唯一货币与分水岭
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
@@ -37,8 +37,7 @@ diagnostic_signals:
 - signal: 团队用AI做笔记后，成员记录速度变快，但现场判断和建模能力没有提升
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
----
-# “剩余脑力”：高阶笔记的唯一货币与分水岭
+---# “剩余脑力”：高阶笔记的唯一货币与分水岭
 
 ## 核心洞察
 

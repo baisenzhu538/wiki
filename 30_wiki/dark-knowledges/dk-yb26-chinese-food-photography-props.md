@@ -1,7 +1,7 @@
 ---
 id: dk-yb26-chinese-food-photography-props
 title: 中式食物摄影低成本氛围道具搭配
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
@@ -20,8 +20,7 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----
-# 中式食物摄影低成本氛围道具搭配
+---# 中式食物摄影低成本氛围道具搭配
 
 ## 原始表述
 

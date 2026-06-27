@@ -2,7 +2,7 @@
 
 id: dk-my-ai-landing-three-barriers
 title: AI落地三大壁垒：从"会用"到"用好"的黑洞
-type: dark-knowledge
+type: dk
 status: draft
 domain:
 - ai-saas
@@ -20,8 +20,7 @@ related:
   - '[[dk-jh-llm-time-blindness]]'
   - '[[dk-ai-judgment-human-responsibility]]'
   - '[[dk-ai-judgment-programmer-paradox]]'
----
-# AI落地三大壁垒
+---# AI落地三大壁垒
 
 > 马易在AI共创社分享中提出：AI工具从“会用”到“用好”之间存在三大壁垒，大多数人卡在第一层。
 

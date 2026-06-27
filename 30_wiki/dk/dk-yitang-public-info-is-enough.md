@@ -2,7 +2,7 @@
 
 id: dk-yitang-public-info-is-enough
 title: 多数情报可通过公开信息深挖获得
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-survivor-bias-in-research]]'
   - "[[tool-yitang-public-information-research]]"
 ---
-
 # 多数情报可通过公开信息深挖获得
 
 > 你以为需要"内线"才能拿到的信息，80%其实在公开渠道里——只是你没有深挖。

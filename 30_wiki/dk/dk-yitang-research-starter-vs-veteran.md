@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-starter-vs-veteran
 title: 新手重分析，老兵80%时间拿情报
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[concept-yitang-research-mindset]]"
 ---
-
 # 新手重分析，老兵80%时间拿情报
 
 > 新手花80%时间分析问题、讨论策略；老兵花80%时间在市场上拿信息。新手还在想"用户痛点是什么"的时候，老兵已经靠一两通电话拿到了同行现成的答案。

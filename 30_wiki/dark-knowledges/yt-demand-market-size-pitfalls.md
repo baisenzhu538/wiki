@@ -4,7 +4,7 @@ domain:
 
 id: yt-demand-market-size-pitfalls
 title: 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: enriched
 confidence: 0.92
@@ -40,8 +40,7 @@ diagnostic_signals:
     framework_lens: 静态假设——市场是会变化的
     follow_up_question: "这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？"
 
----
-# 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
+---# 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 
 > 一堂五步法：市场规模估算不是"拍数字"，而是有方法、有逻辑、有交叉验证的结构化过程。
 

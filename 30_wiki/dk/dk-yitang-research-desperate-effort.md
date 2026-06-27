@@ -2,7 +2,7 @@
 
 id: dk-yitang-research-desperate-effort
 title: 调研决心比技巧重要
-type: dark_knowledge
+type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 待审
@@ -22,7 +22,6 @@ related:
   - '[[dk-yitang-public-info-is-enough]]'
   - "[[dk-yitang-research-starter-vs-veteran]]"
 ---
-
 # 调研决心比技巧重要
 
 > "投资人为了验证数据，可以每天啃三个包子从早蹲到晚。投资人能蹲，我们还有啥面子挂不住的？"
