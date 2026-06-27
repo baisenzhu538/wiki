@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-scenario-reconstruction
 title: 用户场景重构法：使用前中后的完整体验地图
 type: framework
@@ -10,30 +9,29 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"描述用户使用场景的三个层次"
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
-    follow_up_question: "你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？"
-  - framework_lens: 场景碎片化——只有片段，没有完整旅程
-    follow_up_question: "用户使用你的产品前，在做什么？使用中遇到什么？使用后得到什么？"
-  - framework_lens: 场景未结构化——缺乏统一的分析框架
-    follow_up_question: "你能把不同用户的描述填进'使用前中后'三个阶段的框架吗？"
-  - framework_lens: 场景假设错误——设计场景≠实际场景
-    follow_up_question: "你有观察过真实用户实际使用产品的过程吗？和你设计的场景一致吗？"
-  - framework_lens: 场景断点——体验地图有缺口
-    follow_up_question: "用户在'使用中'的哪个节点最容易放弃？为什么？"
-
+- framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
+  follow_up_question: 你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？
+- framework_lens: 场景碎片化——只有片段，没有完整旅程
+  follow_up_question: 用户使用你的产品前，在做什么？使用中遇到什么？使用后得到什么？
+- framework_lens: 场景未结构化——缺乏统一的分析框架
+  follow_up_question: 你能把不同用户的描述填进'使用前中后'三个阶段的框架吗？
+- framework_lens: 场景假设错误——设计场景≠实际场景
+  follow_up_question: 你有观察过真实用户实际使用产品的过程吗？和你设计的场景一致吗？
+- framework_lens: 场景断点——体验地图有缺口
+  follow_up_question: 用户在'使用中'的哪个节点最容易放弃？为什么？
 ---
 # 用户场景重构法：使用前中后的完整体验地图
 

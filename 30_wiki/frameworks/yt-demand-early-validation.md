@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-early-validation
 title: 需求早期验证：低成本测试法
 type: framework
@@ -10,30 +9,29 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——需求验证方法
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 需求早期验证——未验证就投入开发
-    follow_up_question: "在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？"
-  - framework_lens: 需求早期验证——假设未验证
-    follow_up_question: "你的'觉得'有数据支撑吗？至少访谈了多少个目标用户？"
-  - framework_lens: 需求早期验证——MVP不够M
-    follow_up_question: "你的MVP去掉了哪些功能？剩下的功能是否只验证核心需求？"
-  - framework_lens: 需求早期验证——口头验证≠行为验证
-    follow_up_question: "用户说'想要'后，有没有让他们实际使用或付费？"
-  - framework_lens: 需求早期验证——样本偏差
-    follow_up_question: "你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？"
-
+- framework_lens: 需求早期验证——未验证就投入开发
+  follow_up_question: 在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？
+- framework_lens: 需求早期验证——假设未验证
+  follow_up_question: 你的'觉得'有数据支撑吗？至少访谈了多少个目标用户？
+- framework_lens: 需求早期验证——MVP不够M
+  follow_up_question: 你的MVP去掉了哪些功能？剩下的功能是否只验证核心需求？
+- framework_lens: 需求早期验证——口头验证≠行为验证
+  follow_up_question: 用户说'想要'后，有没有让他们实际使用或付费？
+- framework_lens: 需求早期验证——样本偏差
+  follow_up_question: 你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？
 ---
 # 需求早期验证：低成本测试法
 

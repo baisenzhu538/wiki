@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"
 type: concept
@@ -10,30 +9,29 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"人群定的太泛了"
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 用户分层缺失——需求定义太泛，无法聚焦
-    follow_up_question: "如果只能服务100个用户，这100个人是谁？他们在什么场景下必须用你的方案？"
-  - framework_lens: 目标用户错位——产品匹配了非核心用户
-    follow_up_question: "现在付费的用户和说'不需要'的用户，他们的差异是什么？"
-  - framework_lens: 需求差异未识别——把不同用户当成同一群体
-    follow_up_question: "这些用户属于同一层吗？他们的场景、痛点、付费意愿差异有多大？"
-  - framework_lens: 分层维度错误——按人口统计分层，未按需求分层
-    follow_up_question: "你是按年龄/地域分层，还是按需求强度/场景/付费意愿分层？"
-  - framework_lens: 用户分层不统一——不同功能服务不同层，未对齐
-    follow_up_question: "这个功能主要服务哪一层用户？这一层用户占多大比例？"
-
+- framework_lens: 用户分层缺失——需求定义太泛，无法聚焦
+  follow_up_question: 如果只能服务100个用户，这100个人是谁？他们在什么场景下必须用你的方案？
+- framework_lens: 目标用户错位——产品匹配了非核心用户
+  follow_up_question: 现在付费的用户和说'不需要'的用户，他们的差异是什么？
+- framework_lens: 需求差异未识别——把不同用户当成同一群体
+  follow_up_question: 这些用户属于同一层吗？他们的场景、痛点、付费意愿差异有多大？
+- framework_lens: 分层维度错误——按人口统计分层，未按需求分层
+  follow_up_question: 你是按年龄/地域分层，还是按需求强度/场景/付费意愿分层？
+- framework_lens: 用户分层不统一——不同功能服务不同层，未对齐
+  follow_up_question: 这个功能主要服务哪一层用户？这一层用户占多大比例？
 ---
 # 用户分层与需求差异：从"所有人"到"第一批100个"
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑
 type: framework
@@ -10,30 +9,29 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——ToB决策链
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-  - 10_raw/sources/xujian-tob-fivestep-oral.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+- 10_raw/sources/xujian-tob-fivestep-oral.md
+created_at: '2026-06-19'
+updated_at: '2026-06-19'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: ToB决策链——每个角色需求不同，必须分别分析
-    follow_up_question: "决策者采购时最关注什么？ROI、合规、风险，还是效率？"
-  - framework_lens: ToB决策链——使用者需求≠决策者需求
-    follow_up_question: "决策者续费的决策标准是什么？是否达到了？"
-  - framework_lens: ToB决策链——某个角色的顾虑未解决
-    follow_up_question: "卡在哪个角色？他的顾虑是什么？需要什么样的证据或承诺？"
-  - framework_lens: ToB决策链——采购流程未优化
-    follow_up_question: "客户的采购流程涉及哪些部门？每个部门的审批标准是什么？"
-  - framework_lens: ToB决策链——好用≠好卖，决策者可能看重其他因素
-    follow_up_question: "竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？"
-
+- framework_lens: ToB决策链——每个角色需求不同，必须分别分析
+  follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？
+- framework_lens: ToB决策链——使用者需求≠决策者需求
+  follow_up_question: 决策者续费的决策标准是什么？是否达到了？
+- framework_lens: ToB决策链——某个角色的顾虑未解决
+  follow_up_question: 卡在哪个角色？他的顾虑是什么？需要什么样的证据或承诺？
+- framework_lens: ToB决策链——采购流程未优化
+  follow_up_question: 客户的采购流程涉及哪些部门？每个部门的审批标准是什么？
+- framework_lens: ToB决策链——好用≠好卖，决策者可能看重其他因素
+  follow_up_question: 竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？
 ---
 # ToB决策链需求分析：多角色、多需求、多顾虑
 

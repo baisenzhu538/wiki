@@ -92,16 +92,16 @@ author: 老顽童
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [ ] 内容框架已冻结：故事线（[[yt-pitch-storytelling]]）和数据论证（[[yt-pitch-quantification]]）已梳理完成，再进入视觉生成
+- [ ] 风格提示词已输出：配色、字体气质、图片风格、页面布局类型四要素齐备
+- [ ] 已开专属 AI 窗口装载风格提示词，不与内容混聊
+- [ ] 页面规模 ≤30 页；超过 50 页已分段开新风格窗口
+- [ ] 每次只丢一页内容，逐页生成逐页迭代
+- [ ] 复杂数据图表（GIS/统计图）用 Excel/Tableau/Python 先做图，AI 只做风格包装
+- [ ] 法律/医学等高精度场景：AI 只生成底图，文字用 PPT 软件手动添加
+- [ ] 融资路演等高风险场景：已安排人工事实核查与数据来源标注
+- [ ] AI 出图已导入 PPT 软件组装：文字修改、动画交互在 PPT 中人工完成
+- [ ] 完成后自查：论点是否独立于视觉支撑？去掉漂亮排版，逻辑是否仍成立？
 
 ## 真实使用案例
 

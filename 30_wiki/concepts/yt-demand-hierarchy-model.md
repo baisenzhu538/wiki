@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
 type: concept
@@ -10,30 +9,29 @@ confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-20"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 需求层次模型——停留在假设层，未验证真需求
-    follow_up_question: "你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？"
-  - framework_lens: 衍生需求膨胀——在伪需求上堆叠功能
-    follow_up_question: "你的产品解决的是用户的'止痛药'还是'维生素'？用户不用的代价是什么？"
-  - framework_lens: 真需求误判——把'有兴趣'当成'有需求'
-    follow_up_question: "用户现在是怎么解决这个问题的？你的方案比现有方案好10倍吗？"
-  - framework_lens: 需求层次不统一——有人在说真需求，有人在说衍生需求
-    follow_up_question: "你们团队对'用户真正要解决的核心问题'有共识吗？能写下来吗？"
-  - framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
-    follow_up_question: "竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？"
-
+- framework_lens: 需求层次模型——停留在假设层，未验证真需求
+  follow_up_question: 你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？
+- framework_lens: 衍生需求膨胀——在伪需求上堆叠功能
+  follow_up_question: 你的产品解决的是用户的'止痛药'还是'维生素'？用户不用的代价是什么？
+- framework_lens: 真需求误判——把'有兴趣'当成'有需求'
+  follow_up_question: 用户现在是怎么解决这个问题的？你的方案比现有方案好10倍吗？
+- framework_lens: 需求层次不统一——有人在说真需求，有人在说衍生需求
+  follow_up_question: 你们团队对'用户真正要解决的核心问题'有共识吗？能写下来吗？
+- framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
+  follow_up_question: 竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？
 ---
 # 需求层次模型：真需求、伪需求与衍生需求
 

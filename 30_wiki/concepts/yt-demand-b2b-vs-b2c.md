@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-b2b-vs-b2c
 title: ToB vs ToC需求分析差异：决策链、频率与验证方法
 type: concept
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——ToB vs ToC差异
 source_refs:
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md
-  - 10_raw/sources/xujian-tob-fivestep-oral.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+- pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md
+- 10_raw/sources/xujian-tob-fivestep-oral.md
+created_at: '2026-06-19'
+updated_at: '2026-06-19'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: ToB vs ToC差异——ToB必须分析决策链
-    follow_up_question: "你的目标用户中，谁是使用者？谁是决策者？谁是采购者？他们的需求分别是什么？"
-  - framework_lens: ToB vs ToC差异——忽视决策链、频率、验证方法的差异
-    follow_up_question: "ToB的决策链有多长？涉及多少人？决策周期多久？"
-  - framework_lens: ToB vs ToC差异——ToB使用频率天然低于ToC
-    follow_up_question: "ToB产品的使用频率预期是多少？是每天、每周还是每月？低频是否等于低价值？"
-  - framework_lens: ToB vs ToC差异——决策者需求≠使用者需求
-    follow_up_question: "决策者采购时最关注什么？ROI、合规、风险，还是效率？"
-  - framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
-    follow_up_question: "ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？"
-
+- framework_lens: ToB vs ToC差异——ToB必须分析决策链
+  follow_up_question: 你的目标用户中，谁是使用者？谁是决策者？谁是采购者？他们的需求分别是什么？
+- framework_lens: ToB vs ToC差异——忽视决策链、频率、验证方法的差异
+  follow_up_question: ToB的决策链有多长？涉及多少人？决策周期多久？
+- framework_lens: ToB vs ToC差异——ToB使用频率天然低于ToC
+  follow_up_question: ToB产品的使用频率预期是多少？是每天、每周还是每月？低频是否等于低价值？
+- framework_lens: ToB vs ToC差异——决策者需求≠使用者需求
+  follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？
+- framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
+  follow_up_question: ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？
 ---
 # ToB vs ToC需求分析差异：决策链、频率与验证方法
 
