@@ -4,7 +4,7 @@ domain:
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——ToB决策链
@@ -15,7 +15,7 @@ created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-19'
+review_date: '2026-06-28'
 related:
 - src_unknown
 - src_unknown

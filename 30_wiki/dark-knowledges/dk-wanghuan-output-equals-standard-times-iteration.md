@@ -1,10 +1,9 @@
 ---
-
 id: dk-wanghuan-output-equals-standard-times-iteration
 title: 王欢暗知识：输出质量 = 标准 × 迭代
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
@@ -21,31 +20,31 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-double-triangle
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown-double-triangle
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高
-  follow_up_question: "你强制至少3轮迭代了吗？每轮迭代都有明确的验收标准吗？"
+  follow_up_question: 你强制至少3轮迭代了吗？每轮迭代都有明确的验收标准吗？
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——迭代多但标准不提升，输出质量不高
-  follow_up_question: "每轮迭代前，你明确验收标准了吗？标准是否在迭代中提升？"
+  follow_up_question: 每轮迭代前，你明确验收标准了吗？标准是否在迭代中提升？
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——检查是标准不够还是迭代不够
-  follow_up_question: "你的标准维度有几个？迭代次数是多少？两个乘数哪个更低？"
+  follow_up_question: 你的标准维度有几个？迭代次数是多少？两个乘数哪个更低？
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——迭代成本失控，需要设定终止条件
-  follow_up_question: "你设定迭代上限了吗？连续两轮无重大问题就应该终止。"
+  follow_up_question: 你设定迭代上限了吗？连续两轮无重大问题就应该终止。
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——团队需要统一最低迭代次数和验收标准
-  follow_up_question: "团队有统一的最低迭代次数和验收标准吗？"
+  follow_up_question: 团队有统一的最低迭代次数和验收标准吗？
 tags:
 - src_unknown
 - src_unknown
@@ -53,6 +52,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+review_date: '2026-06-28'
 ---
 # 王欢暗知识：输出质量 = 标准 × 迭代
 

@@ -31,23 +31,21 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - 
-framework_lens: 六段能力段位图
+  - framework_lens: 六段能力段位图
     follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
-  - 
-framework_lens: 提升路径
+  - framework_lens: 提升路径
     follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
-  - 
-framework_lens: 段位瓶颈诊断
+  - framework_lens: 段位瓶颈诊断
     follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
-  - 
-framework_lens: 团队能力分布
+  - framework_lens: 团队能力分布
     follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
-  - 
-framework_lens: 段位跃迁风险
+  - framework_lens: 段位跃迁风险
     follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
 
----# 建模能力段位图：从 L1 到 L6 的十年爬山地图
+---
+
+
+# 建模能力段位图：从 L1 到 L6 的十年爬山地图
 
 > **Burn line**: 建模能力不是天赋，是可以按段位逐步修炼的十年爬山路。
 

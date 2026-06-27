@@ -4,7 +4,7 @@ domain:
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"
 type: concept
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂产品内核系列课——审美与内核
@@ -14,8 +14,8 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
 related:
 - src_unknown
 - src_unknown

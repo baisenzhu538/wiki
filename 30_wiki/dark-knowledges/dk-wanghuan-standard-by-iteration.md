@@ -1,10 +1,9 @@
 ---
-
 id: dk-wanghuan-standard-by-iteration
 title: 王欢暗知识：标准不清时，用AI对抗AI生成标准
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
@@ -21,31 +20,31 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-double-triangle
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown-double-triangle
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的
-  follow_up_question: "让AI先生成一版，再让另一个AI调研最佳实践来评审，迭代7-8轮标准自然浮现。"
+  follow_up_question: 让AI先生成一版，再让另一个AI调研最佳实践来评审，迭代7-8轮标准自然浮现。
 - signal: src_unknown
   framework_lens: 标准来自迭代——用AI按最高标准挑毛病，把模糊直觉具象化
-  follow_up_question: "请AI自己按最高标准找问题，它能帮你把'感觉不对'翻译成具体标准。"
+  follow_up_question: 请AI自己按最高标准找问题，它能帮你把'感觉不对'翻译成具体标准。
 - signal: src_unknown
   framework_lens: 标准来自迭代——AI对抗AI，在迭代中建立标准
-  follow_up_question: "用AI对抗AI的方法：生成初版→调研最佳实践→评审→修改→迭代到成熟。"
+  follow_up_question: 用AI对抗AI的方法：生成初版→调研最佳实践→评审→修改→迭代到成熟。
 - signal: src_unknown
   framework_lens: 标准来自迭代——设定终止条件
-  follow_up_question: "设定'连续两轮无重大问题'终止条件，避免无限迭代。"
+  follow_up_question: 设定'连续两轮无重大问题'终止条件，避免无限迭代。
 - signal: src_unknown
   framework_lens: 标准来自迭代——用不同模型/视角做评审，避免互相附和
-  follow_up_question: "评审者和生成者用不同模型了吗？同模型容易互相附和。"
+  follow_up_question: 评审者和生成者用不同模型了吗？同模型容易互相附和。
 tags:
 - src_unknown
 - src_unknown
@@ -53,6 +52,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+review_date: '2026-06-28'
 ---
 # 王欢暗知识：标准不清时，用AI对抗AI生成标准
 

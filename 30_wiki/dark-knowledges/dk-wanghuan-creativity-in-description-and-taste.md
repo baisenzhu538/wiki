@@ -1,10 +1,9 @@
 ---
-
 id: dk-wanghuan-creativity-in-description-and-taste
 title: 王欢暗知识：创造力重新分配到问题描述与验收审美
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
@@ -21,30 +20,30 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-double-triangle
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown-double-triangle
+- src_unknown
+- src_unknown
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 创造力重新分配——问题描述是核心创造力
-  follow_up_question: "你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？"
+  follow_up_question: 你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？
 - signal: src_unknown
   framework_lens: 创造力重新分配——验收审美是核心创造力
-  follow_up_question: "'差点意思'具体是什么？能用三个维度描述吗？颜色、排版、语气？"
+  follow_up_question: '''差点意思''具体是什么？能用三个维度描述吗？颜色、排版、语气？'
 - signal: src_unknown
   framework_lens: 创造力重新分配——执行交给AI，人专注描述和验收
-  follow_up_question: "这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。"
+  follow_up_question: 这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。
 - signal: src_unknown
   framework_lens: 创造力重新分配——审美需要显性化，才能被AI学习
-  follow_up_question: "你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？"
+  follow_up_question: 你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？
 - signal: src_unknown
   framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
-  follow_up_question: "告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。"
+  follow_up_question: 告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。
 tags:
 - src_unknown
 - src_unknown
@@ -52,6 +51,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+review_date: '2026-06-28'
 ---
 # 王欢暗知识：创造力重新分配到问题描述与验收审美
 

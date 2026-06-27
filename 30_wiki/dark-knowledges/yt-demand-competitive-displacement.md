@@ -5,7 +5,7 @@ id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——替代方案分析
@@ -15,7 +15,7 @@ created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-19'
+review_date: '2026-06-28'
 related:
 - src_unknown
 - src_unknown

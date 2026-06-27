@@ -1,10 +1,9 @@
 ---
-
 id: dk-wanghuan-ai-lifts-personal-ceiling
 title: 王欢暗知识：AI 拉升个人上限
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
@@ -21,36 +20,37 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown-double-triangle
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown-double-triangle
+- src_unknown
+- src_unknown
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维
-  follow_up_question: "这件事能不能拆成'AI执行+你验收'？你负责定义和判断，AI负责执行。"
+  follow_up_question: 这件事能不能拆成'AI执行+你验收'？你负责定义和判断，AI负责执行。
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不只是效率，是能做以前做不到的事
-  follow_up_question: "有没有以前完全不敢做的任务，现在可以做了？AI让你跨越了哪些能力边界？"
+  follow_up_question: 有没有以前完全不敢做的任务，现在可以做了？AI让你跨越了哪些能力边界？
 - signal: src_unknown
   framework_lens: AI拉升个人上限——AI放大的是人的判断力，不是替代判断
-  follow_up_question: "你验收了吗？你的验收标准是什么？如果标准不清，AI输出自然不行。"
+  follow_up_question: 你验收了吗？你的验收标准是什么？如果标准不清，AI输出自然不行。
 - signal: src_unknown
   framework_lens: AI拉升个人上限——能力幻觉，把AI输出当成自己的专业能力
-  follow_up_question: "关掉AI，你能独立完成吗？人的价值是判断和决策，不是生成。"
+  follow_up_question: 关掉AI，你能独立完成吗？人的价值是判断和决策，不是生成。
 - signal: src_unknown
   framework_lens: AI拉升个人上限——竞争力来自把行业暗规则注入AI系统
-  follow_up_question: "你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？"
+  follow_up_question: 你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+review_date: '2026-06-28'
 ---
 # 王欢暗知识：AI 拉升个人上限
 

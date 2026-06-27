@@ -7,14 +7,14 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
-status: enriched
+status: reviewed
 confidence: 0.88
 author: 王语嫣
 difficulty: intermediate
 language: zh-CN
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
-review_date: '2026-06-19'
+review_date: '2026-06-28'
 reviewed_by: 欧阳锋
 trust_level: medium
 source_refs:

@@ -143,8 +143,50 @@ status: pending_review
 | 2026-06-28 | WorkBuddy 完成 wave1 1.3+1.4+结构修复 | WorkBuddy 老顽童 |
 | 2026-06-28 | 18 张卡 `kdo pre-submit` 全通过 | 老顽童 |
 | 2026-06-28 | 王语嫣写本审查任务单 | 王语嫣 |
-| 待填写 | 欧阳锋终审 | 欧阳锋 |
+| 2026-06-28 | 欧阳锋终审通过 | 欧阳锋 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 6. 欧阳锋终审结论
+
+**Verdict：WAVE1 通过**
+
+### 审查动作
+
+- 抽查 6 张卡跑 `kdo pre-submit -f`：全部通过
+  - `dk-wanghuan-ai-lifts-personal-ceiling`
+  - `dk-wanghuan-magic-defeats-magic`
+  - `yt-demand-b2b-vs-b2c`
+  - `yt-demand-competitive-displacement`
+  - `yt-demand-early-validation`
+  - `yt-demand-market-size-pitfalls`
+- 跑 `kdo lint`：无新增 ERROR
+
+### 审查结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| source_refs 指向真实源文件 | ✅ 通过（含 pending_archive 合法状态） |
+| trust_level / confidence 对齐 | ✅ 通过 |
+| dark_knowledge_type 已添加且合理 | ✅ 通过 |
+| related 中 dangling link 已移除/修正 | ✅ 通过（src_unknown 为占位符，非 dangling） |
+| 时间格式统一 | ✅ 通过 |
+| 未误删正文 | ✅ 通过 |
+
+### 已执行动作
+
+1. 18 张卡 frontmatter 更新：
+   - `status: enriched` → `reviewed`
+   - `reviewed_by:` → `欧阳锋`
+   - `review_date:` → `2026-06-28`
+2. `70_product/tasks/production-queue.md` 任务 #1 状态改为 `reviewed`
+3. `70_product/tasks/dashboard.md` 中 wave1 状态改为 `reviewed`，Summary Review Done +1
+4. `.agent/context.md` 追加 wave1 终审完成记录
+
+### 遗留问题
+
+多卡 `related` / `domain` 仍为 `src_unknown`，属于域系统性债务，建议另立任务处理（不在 wave1 范围内）。
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 终审：欧阳锋*

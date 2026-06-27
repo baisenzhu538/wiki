@@ -4,7 +4,7 @@ domain:
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
 type: concept
-status: enriched
+status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
@@ -14,7 +14,7 @@ created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-19'
+review_date: '2026-06-28'
 related:
 - src_unknown
 - src_unknown
