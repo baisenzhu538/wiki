@@ -2,32 +2,33 @@
 id: case-yitang-shuzu-channel-scan-test
 type: case
 title: 案例：数族如何扫描 100+ 渠道并跑通支付合作
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - b2b
-  - fintech
+- yitang
+- growth
+- b2b
+- fintech
 confidence: 0.78
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道扫描.png
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道测试.png
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道扫描.png
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道测试.png
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[case-yitang-xujian-invoice-saas-channel]]'
-  - '[[case-yitang-maiyi-cloud-computer-channel]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[concept-yitang-channel-lean-validation-bridge]]'
-  - '[[framework-yitang-growth-flywheel]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[framework-yitang-growth-flywheel]]'
+review_date: '2026-06-28'
 ---
 
 # 案例：数族如何扫描 100+ 渠道并跑通支付合作

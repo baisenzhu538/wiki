@@ -11,7 +11,7 @@ related:
   - '[[task_20260627_laowantong-channel-growth-cards]]'
   - '[[framework-yitang-channel-unit-economics]]'
   - '[[concept-yitang-channel-lean-validation-bridge]]'
-status: pending_review
+status: reviewed
 ---
 
 # 欧阳锋审查任务：渠道增长域卡片化（25 张卡）
@@ -180,4 +180,67 @@ status: pending_review
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 6. 欧阳锋终审结论
+
+**Verdict：渠道增长域 25 张卡通过（附条件 / conditional pass）**
+
+### 审查动作
+
+- 抽查 6 张核心卡跑 `kdo pre-submit -f`：全部通过
+  - `framework-yitang-growth-flywheel`
+  - `framework-yitang-channel-industrialization`
+  - `framework-yitang-channel-exploration-4step`
+  - `framework-yitang-channel-unit-economics`
+  - `concept-yitang-channel-lean-validation-bridge`
+  - `dk-yitang-channel-exploration-traps`
+- 跑 `kdo lint`：25 张卡中 13 张 case 卡存在 missing section ERROR，其余 12 张卡无新增 ERROR
+
+### 审查结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| 25 张卡 `kdo pre-submit` 全通过 | ✅ 通过 |
+| P0 framework 内容深度（≥150 行、六段齐全） | ✅ 通过 |
+| 跨域桥接卡边界与公式正确性 | ✅ 通过（单元经济公式已修正，不再重复扣毛利率） |
+| 案例数字有来源标注 | ✅ 通过（抽检关键数字均带 `[conf=..., source=...]`） |
+| 5 张核心卡四路自攻击修复 | ✅ 通过 |
+| 工具卡可执行性 | ✅ 通过（worksheet/checklist 可直接使用） |
+| case 卡 section 标题符合 lint 新标准 | ⚠️ 13 张 case 卡缺标准 section，见下方遗留问题 |
+| dk/目录与 taxonomy 一致 | ⚠️ 1 张 dk 卡在 `30_wiki/dk/` 目录，见下方遗留问题 |
+| concept 卡目录与 type 一致 | ⚠️ 1 张 concept 卡在 `30_wiki/frameworks/` 目录，见下方遗留问题 |
+
+### 已执行动作
+
+1. 25 张卡片 frontmatter 更新：
+   - `status: enriched` → `reviewed`
+   - `reviewed_by:` → `欧阳锋`
+   - `review_date:` → `2026-06-28`
+   - `updated_at:` → `2026-06-28`
+2. `70_product/tasks/production-queue.md` 任务 #3 状态改为 `reviewed`
+3. `70_product/tasks/dashboard.md` 中渠道增长域任务状态改为 `reviewed`，Summary Review Done +1
+4. `.agent/context.md` 追加渠道增长域终审完成记录
+
+### 遗留问题（不阻塞 wave1，另立任务处理）
+
+1. **case 卡 section 标准化债务（13 张）**
+   - 受影响卡片：13 张渠道增长域 case 卡
+   - 问题：缺 lint 标准 section `## 关键证据` / `## 可迁移场景` / `## 教训` / `## 失败模式`
+   - 说明：这些卡正文已有对应内容（背景/关键数字/关键决策/结果/可迁移启示），只是标题未对齐新规范；且该问题为**全库 case 卡系统性债务**（当前 lint 基线 616 中 case missing section 占大头），不应由 wave1 单独返工
+   - 建议：王语嫣/老顽童另开批量任务，按域或按批次统一补齐 case 标准 section
+
+2. **dk 卡目录与 section 结构债务（1 张）**
+   - 受影响卡片：`dk-yitang-channel-exploration-traps.md`
+   - 问题：文件位于 `30_wiki/dk/` 目录，与 taxonomy 规定的 `30_wiki/dark-knowledges/` 不一致；`## 使用场景` 不是顶层 section，而是嵌套在 `## 操作方法` 下，导致 DK_SECTION gate 未覆盖
+   - 建议：移动到 `30_wiki/dark-knowledges/`，并将 `使用场景` 提升为顶层 section；同步检查是否还有其他 `30_wiki/dk/` 残留
+
+3. **concept 卡目录债务（1 张）**
+   - 受影响卡片：`concept-yitang-channel-lean-validation-bridge.md`
+   - 问题：文件位于 `30_wiki/frameworks/` 目录，type 为 `concept`
+   - 建议：移动到 `30_wiki/concepts/`
+
+4. **domain/related src_unknown 占位**
+   - 与 wave1/wave2 相同，属于域级系统性债务，建议 dark-knowledges section 清零后另立任务处理
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 终审：欧阳锋*

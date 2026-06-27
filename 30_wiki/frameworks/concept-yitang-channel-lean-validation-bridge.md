@@ -2,33 +2,34 @@
 id: concept-yitang-channel-lean-validation-bridge
 type: concept
 title: 渠道精益验证：把渠道 0→1 测试当作一种 MVP
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - lean-startup
-confidence: 0.80
+- yitang
+- growth
+- lean-startup
+confidence: 0.8
 trust_level: medium-high
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-  - lean-startup-domain-digest
-  - diag_20260627_wangyuyan-cross-domain-bridge-supplement
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- lean-startup-domain-digest
+- diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-channel-industrialization]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-lean-false-model]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[tool-lean-fake-marketing]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[lean-startup-domain-digest]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-abcd-model]]'
+- '[[tool-lean-fake-marketing]]'
+- '[[tool-lean-presell]]'
+- '[[tool-lean-leverage-traffic]]'
+- '[[lean-startup-domain-digest]]'
+review_date: '2026-06-28'
 ---
 
 # 渠道精益验证：把渠道 0→1 测试当作一种 MVP

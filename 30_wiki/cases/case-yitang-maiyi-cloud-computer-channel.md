@@ -2,31 +2,32 @@
 id: case-yitang-maiyi-cloud-computer-channel
 type: case
 title: 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - b2b
+- yitang
+- growth
+- b2b
 confidence: 0.78
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道扫描.png
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择.png
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道扫描.png
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择.png
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[case-yitang-shuzu-channel-scan-test]]'
-  - '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[yt-unit-model-overview]]'
+- '[[framework-lean-abcd-model]]'
+- '[[case-yitang-shuzu-channel-scan-test]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+review_date: '2026-06-28'
 ---
 
 # 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收

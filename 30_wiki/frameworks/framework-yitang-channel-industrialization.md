@@ -2,36 +2,37 @@
 id: framework-yitang-channel-industrialization
 type: framework
 title: 渠道工业化生产：让高不确定工作持续高质量交付
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - operations
-confidence: 0.80
+- yitang
+- growth
+- operations
+confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-定义01_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-通用型框架_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-全策略集-极其重要_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂-工业化生产_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-定义01_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-通用型框架_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-全策略集-极其重要_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂-工业化生产_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点_vlm_desc.md
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[concept-yitang-channel-lean-validation-bridge]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[tool-yitang-channel-industrialization-node-design]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[case-yitang-yitang-course-industrialization]]'
-  - '[[case-yitang-yitu-lead-industrialization]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[case-yitang-yitang-course-industrialization]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+review_date: '2026-06-28'
 ---
 
 # 渠道工业化生产：让高不确定工作持续高质量交付

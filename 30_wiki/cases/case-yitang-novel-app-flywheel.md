@@ -2,27 +2,28 @@
 id: case-yitang-novel-app-flywheel
 type: case
 title: 案例：小说 app 如何用 SEO 补全增长飞轮
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-confidence: 0.80
+- yitang
+- growth
+confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 source_person: Truman
 related:
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[case-yitang-amazon-growth-flywheel]]'
-  - '[[case-yitang-topcity-growth-flywheel]]'
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[concept-yitang-channel-lean-validation-bridge]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[case-yitang-amazon-growth-flywheel]]'
+- '[[case-yitang-topcity-growth-flywheel]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+review_date: '2026-06-28'
 ---
 
 # 案例：小说 app 如何用 SEO 补全增长飞轮

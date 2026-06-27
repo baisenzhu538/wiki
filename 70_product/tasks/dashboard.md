@@ -36,7 +36,7 @@ updated: 2026-06-27
 | laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | reviewed (wave2 done, waves 3-5 queued) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；waves 3-5 仍由老顽童生产 |
 | review_20260628_ouyangfeng-wave1 | 欧阳锋审核：wave1 门禁快速清理 18 张卡 | reviewed | 欧阳锋 | P0 | review_20260628_ouyangfeng-wave1.md | 欧阳锋终审通过：18/18 卡 status 更新为 reviewed |
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
-| task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | pending_review | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 25 张卡已生产并通过 pre-submit；欧阳锋按审查任务单终审 |
+| task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 欧阳锋终审通过：25/25 卡 status 更新为 reviewed；遗留 case section / dk 目录 / concept 目录债务已记录 |
 | task_20260627-lanyi-panproduct-organization | 兰毅泛产品组织化 + 泛产品设计域升级（按规律执行，完成刻意练习域后按序领取） | queued | 老顽童（Kimi） | P0-P1 | task_20260627_laowantong-lanyi-panproduct-organization.md |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
@@ -61,6 +61,6 @@ updated: 2026-06-27
 - **In Progress**: 0
 - **Queued**: 6（详见 `production-queue.md`）
 - **Pending**: 1
-- **Review Done**: 7 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2)
+- **Review Done**: 8 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。

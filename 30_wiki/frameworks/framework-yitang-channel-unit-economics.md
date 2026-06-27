@@ -2,34 +2,35 @@
 id: framework-yitang-channel-unit-economics
 type: framework
 title: 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - unit-model
-confidence: 0.80
+- yitang
+- growth
+- unit-model
+confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
-  - yt-unit-model-concept
-  - yt-unit-model-overview
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
+- yt-unit-model-concept
+- yt-unit-model-overview
 source_person: Truman
 note: 本框架核心公式与案例来自 Truman 口述/笔记及一堂内部案例（L5 单源），单元经济概念跨域引自 yt-unit-model-concept/overview；外部基准阈值未找到独立验证来源，已删除或改为业务自定口径。
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[yt-unit-model-concept]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[case-yitang-maiyi-cloud-computer-channel]]'
-  - '[[framework-yitang-channel-industrialization]]'
-  - '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[yt-unit-model-concept]]'
+- '[[yt-unit-model-overview]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+review_date: '2026-06-28'
 ---
 
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算

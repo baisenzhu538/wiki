@@ -2,30 +2,31 @@
 id: tool-yitang-growth-flywheel-design
 type: tool
 title: 增长飞轮设计工具：从业务要素到增强回路
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
+- yitang
+- growth
 confidence: 0.82
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-设计流程图_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-四步法_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
+- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-设计流程图_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-四步法_vlm_desc.md
 source_person: Truman
 related:
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[case-yitang-amazon-growth-flywheel]]'
-  - '[[case-yitang-novel-app-flywheel]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-lean-abcd-model]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[case-yitang-amazon-growth-flywheel]]'
+- '[[case-yitang-novel-app-flywheel]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-lean-abcd-model]]'
+review_date: '2026-06-28'
 ---
 
 # 增长飞轮设计工具：从业务要素到增强回路

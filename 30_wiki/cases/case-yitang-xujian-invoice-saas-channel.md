@@ -2,29 +2,30 @@
 id: case-yitang-xujian-invoice-saas-channel
 type: case
 title: 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - b2b
-  - saas
-confidence: 0.80
+- yitang
+- growth
+- b2b
+- saas
+confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-channel-unit-economics]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[case-yitang-shuzu-channel-scan-test]]'
-  - '[[case-yitang-maiyi-cloud-computer-channel]]'
-  - '[[framework-lean-abcd-model]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[case-yitang-shuzu-channel-scan-test]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[framework-lean-abcd-model]]'
+review_date: '2026-06-28'
 ---
 
 # 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手

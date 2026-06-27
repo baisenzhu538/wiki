@@ -2,50 +2,51 @@
 id: tool-yitang-industry-channel-arsenal-index
 type: tool
 title: 24 行业获客清单索引：跨行业渠道灵感库
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
+- yitang
+- growth
 confidence: 0.75
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-02_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-03_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-04_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-05_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-06_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-07_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-08_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-09_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-10_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-11_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-12_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-13_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-14_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-15_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-16_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-17_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-18_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-19_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-20_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-21_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-22_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-23_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-24_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-02_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-03_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-04_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-05_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-06_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-07_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-08_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-09_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-10_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-11_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-12_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-13_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-14_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-15_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-16_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-17_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-18_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-19_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-20_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-21_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-22_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-23_vlm_desc.md
+- 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-24_vlm_desc.md
 related:
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[tool-yitang-channel-scan-cheat-sheet]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[framework-yitang-channel-industrialization]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[concept-yitang-channel-lean-validation-bridge]]'
-  - '[[dk-yitang-channel-exploration-traps]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[tool-yitang-channel-scan-cheat-sheet]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[dk-yitang-channel-exploration-traps]]'
+review_date: '2026-06-28'
 ---
 
 # 24 行业获客清单索引：跨行业渠道灵感库

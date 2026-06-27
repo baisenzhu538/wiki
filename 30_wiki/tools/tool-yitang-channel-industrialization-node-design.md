@@ -2,33 +2,34 @@
 id: tool-yitang-channel-industrialization-node-design
 type: tool
 title: 工业化生产节点设计工具：把复杂交付变成可控流程
-status: enriched
+status: reviewed
 domain:
-  - yitang
-  - growth
-  - operations
-confidence: 0.80
+- yitang
+- growth
+- operations
+confidence: 0.8
 trust_level: medium
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-28'
 source_refs:
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-通用型框架_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-全策略集-极其重要_vlm_desc.md
-  - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂做课工业化_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-通用型框架_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-全策略集-极其重要_vlm_desc.md
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂做课工业化_vlm_desc.md
 source_person: Truman
 related:
-  - '[[framework-yitang-channel-industrialization]]'
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-growth-flywheel]]'
-  - '[[tool-区分获客渠道计算单元roi]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[case-yitang-yitang-course-industrialization]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-lean-abcd-model]]'
+- '[[yt-unit-model-overview]]'
+- '[[case-yitang-yitang-course-industrialization]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+review_date: '2026-06-28'
 ---
 
 # 工业化生产节点设计工具：把复杂交付变成可控流程
