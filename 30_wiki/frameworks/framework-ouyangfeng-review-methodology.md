@@ -16,8 +16,8 @@ source_refs:
   - web: NHS Digital Software Engineering Quality Framework
   - web: dycke-gurevych-2025 counterfactual evaluation framework
   - 30_wiki/decisions/plan_20260621_skill-iteration-standard.md
-  - .agent/pitfalls.md §P-35
-  - .agent/daily-review/错误模式库.md §E009
+  - .agent/pitfalls.md
+  - .agent/daily-review/错误模式库.md
 related:
   - "[[framework-yitang-research-quality-gate]]"
   - "[[framework-yitang-six-layer-cross-validation]]"
