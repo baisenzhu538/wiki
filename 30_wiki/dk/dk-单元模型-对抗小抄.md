@@ -14,9 +14,9 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-对抗小抄_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
 related:
   - '[[tool-sop-template-modeling]]'
   - '[[case-modeling-process-sop-evolution]]'

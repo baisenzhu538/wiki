@@ -13,7 +13,7 @@ domain:
 - yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
-- 00_inbox/_vlm_reprocess/_done_单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
+- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找基准值实操难点.md
 related:
   - '[[dk-单元模型-找全成本实操难点]]'
