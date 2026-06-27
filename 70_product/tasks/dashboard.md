@@ -1,7 +1,9 @@
+> ⚠️ **2026-06-27 重要更新**：老顽童生产任务已统一进入 `70_product/tasks/production-queue.md`，按队列顺序领取和审核。本 dashboard 仍保留历史任务全景，但**当前待生产/待审核任务请以 production-queue.md 为准**。
+
 # Task Dashboard
 
 Generated: 2026-06-26T21:00:00+00:00
-updated: 2026-06-26
+updated: 2026-06-27
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
@@ -31,7 +33,9 @@ updated: 2026-06-26
 | validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
 | huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
 | proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
-| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md |
+| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | queued | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md |
+| task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | queued | 老顽童 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
+| task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | queued | 老顽童 | P1 | task_20260627_laowantong-channel-growth-cards.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
 | domain-xiang-jiang-deep-digestion | 讲香域深度消化 + 架构重建 | completed | 黄药师 | P0 | domain-xiang-jiang-deep-digestion.md |
