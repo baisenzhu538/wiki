@@ -64,6 +64,9 @@ updated: 2026-06-27
 
 **所有生产任务已集中到 `70_product/tasks/production-queue.md`，按队列顺序领取。**
 
+- 每个实例一次只领一件，把状态改为 `claimed-<实例标识>`（如 `claimed-hermes`、`claimed-kimi`）。
+- 当队列中有多个无依赖的 `queued` 任务时，可启动多个老顽童实例并行生产。
+
 当前队列前 3 项：
 1. `laowantong-batch-2026-06-20-wave1`：门禁快速清理（11 张卡）
 2. `task_20260627_laowantong-deliberate-practice-cards`：刻意练习域 12 张卡（含 1 张 AI 协作桥接 framework）
