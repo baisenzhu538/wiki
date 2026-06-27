@@ -188,7 +188,24 @@ trust_level: medium
 
 第五批 10 张修复后，dark-knowledges missing section ERROR 从 **668 降到 631**（ lint 总数从 668 降到 631，期间顺手修复了 3 个 source_refs 行号范围问题）。
 
-累计：已修复 **55 张**卡（试点 5 + 五批 50），剩余约 **20 张**。
+### 第六批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-demand-pitfall-tier4-housekeeping` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 2 | `dk-demand-pitfall-rural-5g` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 3 | `dk-strategy-06-dividend-to-strategy` | ✅ 通过 | 重写 6 标准 section |
+| 4 | `dk-demand-pitfall-travel-agent` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 5 | `dk-demand-pitfall-dialer` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 6 | `dk-demand-pitfall-restaurant-hiring` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 7 | `dk-demand-pitfall-financial-literacy` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 8 | `dk-strategy-07-strategy-vs-dividend` | ✅ 通过 | 重写 6 标准 section |
+| 9 | `dk-strategy-05-positioning-trap` | ✅ 通过 | 重写 6 标准 section |
+| 10 | `dk-strategy-08-not-local-optimum` | ✅ 通过 | 重写 6 标准 section |
+
+第六批 10 张修复后，dark-knowledges missing section ERROR 从 **631 降到 623**（同时 9 个中文路径 source_refs 改为 `pending_archive`，source_refs 再次清零）。
+
+累计：已修复 **65 张**卡（试点 5 + 六批 60），剩余约 **10 张**。
 
 ### 分批策略
 
@@ -226,7 +243,7 @@ trust_level: medium
 
 ### 目标
 
-把 dark-knowledges missing section ERROR 从 **631** 逐步降到 **0**。
+把 dark-knowledges missing section ERROR 从 **623** 逐步降到 **0**。
 
 ## 注意
 

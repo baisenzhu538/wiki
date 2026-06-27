@@ -15,6 +15,8 @@ created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
   - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+  - lean-startup-domain-digest
+  - diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman
 related:
   - '[[framework-yitang-channel-exploration-4step]]'
@@ -33,7 +35,7 @@ related:
 
 ## 一句话定义
 
-渠道探索四步法中的「扫描 → 预判 → 测试」三步，本质上是把「某个渠道能否低成本、可持续地触达目标客户」当作一个独立假设，用 MVP 的方式快速、低成本验证；它验证的不是产品有没有价值，而是**获客路径是否成立** `[conf=0.85, source=00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt §268-349]`。
+渠道探索四步法中的「扫描 → 预判 → 测试」三步，本质上是把「某个渠道能否低成本地触达目标客户并产生可观测的转化信号」当作一个独立假设，用 MVP 的方式快速、低成本验证；它验证的不是产品有没有价值，而是**获客路径是否成立** `[conf=0.85, source=00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt §268-349]`。「可持续」是第四步「建模」才追求的目标 `[conf=0.82, source=00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt §304-314]`。
 
 ## 1. 核心概念：渠道本身也是一个需要验证的假设
 
