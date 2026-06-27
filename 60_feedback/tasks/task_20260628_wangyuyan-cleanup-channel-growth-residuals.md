@@ -4,9 +4,9 @@ type: cleanup_task
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 王语嫣
-assignee: 黄药师
+assignee: 黄药师（P2+P3 已完成）
 priority: P2
-scope: 渠道增长域终审遗留问题清理
+scope: 渠道增长域终审遗留问题清理（P2+P3 已完成，P1 已拆分为独立任务）
 related:
   - '[[review_20260628_ouyangfeng-channel-growth]]'
 status: queued
@@ -15,7 +15,7 @@ status: queued
 # 清理任务：渠道增长域终审遗留问题
 
 > **来源**：欧阳锋 2026-06-28 渠道增长域 25 张卡终审结论（conditional pass）。
-> 这些问题不阻塞卡片入库，但属于结构性债务，需要专项清理。
+> **状态更新**：黄药师已完成 P2（dk 目录移动）+ P3（concept 目录移动）。P1（13 张 case section 标准化）已拆分为独立任务 `task_20260628_laowantong-case-section-standardization`，由 Hermes 老顽童负责。
 
 ---
 
