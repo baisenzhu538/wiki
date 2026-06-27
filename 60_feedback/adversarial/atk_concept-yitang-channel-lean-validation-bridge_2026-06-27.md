@@ -48,4 +48,17 @@ status: fixed
 7. 在时效性章节（可新增或在 Critique 中）简要说明 2025-2026 年归因收紧与 AI 测试工具对渠道 MVP 的影响。
 
 ## 修复记录
-- 待修复
+- [已修复] 补全 `source_refs`：新增 `lean-startup-domain-digest` 与 `diag_20260627_wangyuyan-cross-domain-bridge-supplement`（frontmatter）。
+- [已修复] 解决 ABCD 术语冲突：删除 Lean Analytics 的 Actionable/Believable/Critical/Data-informed 解释，改为采用 `framework-lean-abcd-model` 一堂定义（A 商业成败 / B 关键决策 / C 业务提升 / D 关键转化），并给出渠道假设在四象限中的落位表（第 5.2 节）。
+- [已修复] 修正「测试」阶段定义漂移：一句话定义中移除「可持续」，改为「低成本地触达目标客户并产生可观测的转化信号」，并注明「可持续」是第四步「建模」的目标。
+- [已修复] 补充 FALSE 模型到渠道 MVP 的逐阶段映射表（第 5.1 节），说明 F/A/L/E 各阶段与 Smoke Test / Concierge / Borrowed Traffic / Micro-Spend Ads 的对应关系。
+- [已修复] 补充合规与平台政策边界：新增 When NOT to Use 7.5，提示 Smoke Test / Borrowed Traffic / Micro-Spend Ads 可能涉及的广告法、消费者保护法、反垃圾信息规则与数据合规风险。
+- [已修复] 补充 B2B 周期差异：Micro-Spend Ads 时间框由通用「7-14 天」改为区分 B2C（7-14 天，待独立核实）与 B2B / 高客单价（3 个月或 3 倍销售周期，来源 Inturact 框架）；执行 Checklist 同步更新。
+- [已修复] 补充团队能力边界：新增 When NOT to Use 7.6，继承 `framework-yitang-channel-exploration-4step` 第 4.1 节关于实验设计、数据归因、快速迭代能力的边界。
+- [已修复] 补充竞争动态视角：新增失败模式 6「忽视竞争动态抬高 CAC」，说明同一平台大量团队同时测试会抬高成本、缩短红利窗口。
+- [已修复] 补全来源标注：为 1.1 对比表、2.3 Borrowed Traffic、2.4 Micro-Spend Ads 的金额与样本量、3 三种顺序选择标准补充 `[conf=..., source=...]`；对未找到直接素材支撑的「7-14 天」「几百次曝光/几十次点击」标注为作者推断/待独立核实。
+- [已修复] 新增 Critique 章节（第 10 节），说明 2024-2026 归因与隐私政策变化、2025-2026 AI 辅助测试工具边界、跨域术语冲突的自我提示。
+- [已修复] 卡片结构完整性：保留一句话定义、核心概念/结构、操作映射、When NOT to Use、失败模式、Critique、related；未破坏原有结构。
+- [未修复/已标注] 平台案例示例停留在抖音、小红书、广点通、百度：本卡为概念/桥接卡，案例平台仅作示例；新流量入口（视频号电商、AI 搜索等）可在后续案例卡或工具卡中补充，未在概念卡中展开，避免喧宾夺主。
+- [未修复/已标注] 核心跨域主张仍主要依赖单一诊断报告：已按要求补入 `source_refs` 并降低部分数字的 confidence/标注待核实；多源交叉验证受素材限制，后续可随外部文献/案例卡补入后升级。
+- [pre-submit] `kdo pre-submit --files 30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 通过（1 file, 1 passed, 0 failed）。

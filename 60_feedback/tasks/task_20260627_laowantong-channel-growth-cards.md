@@ -583,25 +583,75 @@ related:
 
 ## 4. 提交与验收
 
-### 4.1 提交格式
+### 4.1 渠道增长域卡片生产完成汇报
 
-```markdown
-## 渠道增长域卡片生产完成汇报
+#### 产出清单
 
-### 产出清单
 | 卡片 | 类型 | 状态 |
 |:---|:---|:---|
 | framework-yitang-growth-flywheel | framework | enriched |
-| ... | ... | ... |
+| framework-yitang-channel-industrialization | framework | enriched |
+| framework-yitang-channel-exploration-4step | framework | enriched |
+| framework-yitang-channel-unit-economics | framework | enriched |
+| concept-yitang-channel-lean-validation-bridge | concept | enriched |
+| tool-yitang-growth-flywheel-design | tool | enriched |
+| tool-yitang-channel-scan-cheat-sheet | tool | enriched |
+| tool-yitang-channel-scoring-matrix | tool | enriched |
+| tool-yitang-referral-channel-optimization | tool | enriched |
+| tool-yitang-channel-industrialization-node-design | tool | enriched |
+| tool-yitang-industry-channel-arsenal-index | tool | enriched |
+| case-yitang-amazon-growth-flywheel | case | enriched |
+| case-yitang-novel-app-flywheel | case | enriched |
+| case-yitang-yitang-course-industrialization | case | enriched |
+| case-yitang-solid-redbull-channel | case | enriched |
+| case-yitang-maiyi-cloud-computer-channel | case | enriched |
+| case-yitang-topcity-growth-flywheel | case | enriched |
+| case-yitang-redburger-selection-industrialization | case | enriched |
+| case-yitang-lianjia-site-selection-industrialization | case | enriched |
+| case-yitang-yitu-lead-industrialization | case | enriched |
+| case-yitang-xujian-invoice-saas-channel | case | enriched |
+| case-yitang-yitang-shortvideo-industrialization | case | enriched |
+| case-yitang-shuzu-channel-scan-test | case | enriched |
+| case-yitang-yitang-self-growth-channel | case | enriched |
+| dk-yitang-channel-exploration-traps | dk | enriched |
 
-### pre-submit 输出
+**合计：25 张卡**（原任务单预计 24-25 张，实际产出 25 张：3 P0 framework + 2 桥接 + 6 P1 tool + 13 case + 1 P2 tool + 1 dk）。
+
+#### pre-submit 输出
+
 ```text
-[粘贴 kdo pre-submit 输出]
+====================================================================
+  Pre-Submit Gate Report
+====================================================================
+  Files checked: 25
+  Passed:        25
+  Failed:        0
+
+  All gates passed. Ready for human review.
 ```
 
-### 需要王语嫣重点审查的项
-- ...
-```
+#### 自攻击执行与修复
+
+对 3 张 P0 framework 卡 + 2 张跨域桥接卡执行四路自攻击，生成 5 份攻击报告：
+
+| 卡片 | 致命 | 严重 | 轻微 | 修复状态 |
+|:---|:---:|:---:|:---:|:---|
+| framework-yitang-growth-flywheel | 0 | 5 | 7 | 已修复，报告 status: fixed |
+| framework-yitang-channel-industrialization | 0 | 3 | 5 | 已修复，报告 status: fixed |
+| framework-yitang-channel-exploration-4step | 0 | 7 | 7 | 已修复，报告 status: fixed |
+| framework-yitang-channel-unit-economics | 1 | 4 | 10 | 已修复，报告 status: fixed |
+| concept-yitang-channel-lean-validation-bridge | 0 | 4 | 6 | 已修复，报告 status: fixed |
+
+攻击报告路径：`60_feedback/adversarial/atk_<card-id>_2026-06-27.md`
+
+#### 需要王语嫣重点审查的项
+
+1. **跨域桥接卡链接完整性**：`framework-yitang-channel-unit-economics` 与 `concept-yitang-channel-lean-validation-bridge` 的 related 已链回渠道增长域、单元模型域、精益创业域，请抽检跨域边界描述是否准确。
+2. **公式正确性**：`framework-yitang-channel-unit-economics` 中「单渠道单元利润」已修正为贡献毛利口径，回收周期不再重复扣除毛利率，请复核。
+3. **来源层级**：P0 framework 卡与桥接卡核心主张仍以 Truman 口述/笔记（L5 单源）为主，confidence/trust_level 已调整为 medium，请确认是否接受。
+4. **案例数字**：13 张案例卡关键数字均来自素材并标注 `[conf=X, source=..., 待独立核实]`，请抽检 3-5 张。
+5. **时效性**：渠道探索/工业化相关案例多为 2024 年及更早素材，卡片已补充时效性说明，请确认是否充分。
+6. **工具卡可执行性**：`tool-yitang-channel-industrialization-node-design`、`tool-yitang-channel-scoring-matrix`、`tool-yitang-referral-channel-optimization` 含 worksheet/checklist，请抽检是否可直接使用。
 
 ### 4.2 验收流程
 
