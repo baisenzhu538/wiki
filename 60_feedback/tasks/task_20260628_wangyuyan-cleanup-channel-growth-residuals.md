@@ -9,13 +9,13 @@ priority: P2
 scope: 渠道增长域终审遗留问题清理（P2+P3 已完成，P1 已拆分为独立任务）
 related:
   - '[[review_20260628_ouyangfeng-channel-growth]]'
-status: queued
+status: done
 ---
 
-# 清理任务：渠道增长域终审遗留问题
+# 清理任务：渠道增长域终审遗留问题（已完成）
 
 > **来源**：欧阳锋 2026-06-28 渠道增长域 25 张卡终审结论（conditional pass）。
-> **状态更新**：黄药师已完成 P2（dk 目录移动）+ P3（concept 目录移动）。P1（13 张 case section 标准化）已拆分为独立任务 `task_20260628_laowantong-case-section-standardization`，由 Hermes 老顽童负责。
+> **状态更新**：本任务已完成。黄药师已完成 P2（dk 目录移动）+ P3（concept 目录移动），并顺手修复 amazon/novel-app/topcity 3 张 case 卡。P1 剩余 10 张 case + 1 张 dk section 调整已拆分为独立任务 `task_20260628_laowantong-case-section-standardization`，由 Hermes 老顽童负责。
 
 ---
 

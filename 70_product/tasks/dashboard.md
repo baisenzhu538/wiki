@@ -39,8 +39,8 @@ updated: 2026-06-27
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 欧阳锋终审通过：25/25 卡 status 更新为 reviewed；遗留 case section / dk 目录 / concept 目录债务已记录 |
 | task_20260627-lanyi-panproduct-organization | 兰毅泛产品组织化 + 泛产品设计域升级 | queued | 老顽童（Kimi） | P0-P1 | task_20260627_laowantong-lanyi-panproduct-organization.md | Kimi 临时实例继续负责 |
 | task_20260628_laowantong-dark-knowledges-batch8 | dark-knowledges 第八批清零：补齐 10 张问题 dk 卡 | queued | 老顽童（WorkBuddy） | P0 | task_20260628_laowantong-dark-knowledges-batch8.md | WorkBuddy 老顽童 wave3 收尾；补齐 10 张 dk 卡缺失 section |
-| task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理（P2+P3 已完成） | paused | 黄药师 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新；P1 已拆分 |
-| task_20260628_laowantong-case-section-standardization | 渠道增长域 13 张 case 卡 section 标准化 | queued | Hermes 老顽童 | P1 | task_20260628_laowantong-case-section-standardization.md | Hermes 负责；13 张 case 卡 section 标题统一 |
+| task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理（已完成） | done | 黄药师 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 已拆分 |
+| task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | queued | Hermes 老顽童 | P1 | task_20260628_laowantong-case-section-standardization.md | Hermes 负责；10 张剩余 case 卡 section 标题 + dk 卡 `使用场景` 提升为顶层 |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |

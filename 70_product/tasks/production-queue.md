@@ -40,8 +40,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 8 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：P2 清理 | claimed-hermes | Hermes 老顽童 | ~12 | 依赖 wave3 + 第八批完成（未解锁） | `laowantong-batch-2026-06-20.md` | Hermes 负责；队列锁已上线，可先读素材做准备，等 wave3+第八批 reviewed 后正式生产 |
 | 9 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：新域建设 | queued | - | ~11 | 依赖 wave4 完成 | `laowantong-batch-2026-06-20.md` | Hermes 负责；具体卡数见源文件 |
 | 10 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过；欧阳锋审查结论：deep 通过 |
-| 11 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理（P2+P3 已完成） | paused | 黄药师 | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新；P1（13 张 case section 标准化）已拆分为独立任务 #12 |
-| 12 | `task_20260628_laowantong-case-section-standardization` | 渠道增长域 13 张 case 卡 section 标准化 | queued | Hermes 老顽童 | 13 | 无 | `task_20260628_laowantong-case-section-standardization.md` | P1；Hermes 老顽童负责；与 wave4 素材准备可并行；13 张 case 卡 section 标题统一为 lint 新标准 |
+| 11 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理（P2+P3 已完成，P1 已拆分） | done | 黄药师 | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 剩余 10 张 case + 1 张 dk section 调整已拆分为独立任务 #12 |
+| 12 | `task_20260628_laowantong-case-section-standardization` | 渠道增长域 10 张 case + 1 张 dk section 标准化 | queued | Hermes 老顽童 | 11 | 无 | `task_20260628_laowantong-case-section-standardization.md` | P1；Hermes 老顽童负责；与 wave4 素材准备可并行；10 张剩余 case 卡 section 标题 + dk 卡 `使用场景` 提升为顶层 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
