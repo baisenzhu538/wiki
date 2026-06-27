@@ -23,20 +23,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 需求层次模型——停留在假设层，未验证真需求
+  - framework_lens: 需求层次模型——停留在假设层，未验证真需求
     follow_up_question: "你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？"
-  - src_unknown
-    framework_lens: 衍生需求膨胀——在伪需求上堆叠功能
+  - framework_lens: 衍生需求膨胀——在伪需求上堆叠功能
     follow_up_question: "你的产品解决的是用户的'止痛药'还是'维生素'？用户不用的代价是什么？"
-  - src_unknown
-    framework_lens: 真需求误判——把'有兴趣'当成'有需求'
+  - framework_lens: 真需求误判——把'有兴趣'当成'有需求'
     follow_up_question: "用户现在是怎么解决这个问题的？你的方案比现有方案好10倍吗？"
-  - src_unknown
-    framework_lens: 需求层次不统一——有人在说真需求，有人在说衍生需求
+  - framework_lens: 需求层次不统一——有人在说真需求，有人在说衍生需求
     follow_up_question: "你们团队对'用户真正要解决的核心问题'有共识吗？能写下来吗？"
-  - src_unknown
-    framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
+  - framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
     follow_up_question: "竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？"
 
 ---

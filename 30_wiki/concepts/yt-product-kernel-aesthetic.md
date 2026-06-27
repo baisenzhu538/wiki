@@ -24,20 +24,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核与审美——功能好≠体验好，审美是内核的一部分
+  - framework_lens: 产品内核与审美——功能好≠体验好，审美是内核的一部分
     follow_up_question: "用户选择你们，是因为功能好，还是因为体验好？审美是否影响了选择？"
-  - src_unknown
-    framework_lens: 产品内核与审美——审美是差异化的一部分
+  - framework_lens: 产品内核与审美——审美是差异化的一部分
     follow_up_question: "竞品的功能和你们差不多，用户为什么选择你们？审美和体验是否是关键差异？"
-  - src_unknown
-    framework_lens: 产品内核与审美——审美在某些品类是核心
+  - framework_lens: 产品内核与审美——审美在某些品类是核心
     follow_up_question: "你的目标用户是谁？对这群用户，审美是否影响购买决策？"
-  - src_unknown
-    framework_lens: 产品内核与审美——审美需要用户视角
+  - framework_lens: 产品内核与审美——审美需要用户视角
     follow_up_question: "你们团队对产品的审美评价，和目标用户一致吗？"
-  - src_unknown
-    framework_lens: 产品内核与审美——审美不能替代功能
+  - framework_lens: 产品内核与审美——审美不能替代功能
     follow_up_question: "如果产品很好看但功能不好用，用户会留存吗？"
 
 ---

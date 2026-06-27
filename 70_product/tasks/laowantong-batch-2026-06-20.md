@@ -1,7 +1,7 @@
 > # 老顽童批量工单：全库待办一次性打包
 >
-> **状态**：⏸️ 已暂停（2026-06-22）。waves 1-2 未开始，因战略域 PPT 补强任务插入而挂起。  
-> **当前优先任务**：`60_feedback/tasks/task_20260621_战略域PPT补强_黄药师标杆.md` —— 补完 5 张战略域 tool 卡 v2。  
+> **状态**：第 1 波 ✅ 已完成（2026-06-28，pending_review 待欧阳锋终审）；waves 2-5 仍 queued。  
+> **第 1 波执行情况**：Hermes 2026-06-27 晚完成 1.1+1.2（7 张王欢 dk 卡字段修复）；WorkBuddy 老顽童 2026-06-28 收尾 1.3+1.4+结构修复（详见文末「第 1 波完成小结」）。  
 > **来源**：王语嫣 2026-06-20 全库待办梳理 + 2026-06-14 深度审计报告 + parking-lot PL-012  
 > **总目标**：把老顽童能修的问题一次性修完，先清门禁、再做深度返工、最后新域建设。
 
@@ -389,6 +389,25 @@
 - lint 结果：PASS（无新增 ERROR）
 - 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
 - 阻塞/需用户确认：无
+
+---
+
+## 第 1 波完成小结（2026-06-28）
+
+- 完成卡片：18 张（任务单标题写"11 张"为低估，实际 1.1+1.2+1.3+1.4 共 18 张目标卡）
+- 新增卡片：0 张（纯门禁清理，无新建）
+- 执行分工：
+  - **Hermes（2026-06-27 晚）**：1.1+1.2 共 7 张王欢 dk 卡——source_refs 替换、trust_level high→medium、dark_knowledge_type 补全、paced-sales-decision 时间格式标准化
+  - **WorkBuddy 老顽童（2026-06-28）**：1.3+1.4+结构修复共 11 张 yt 卡
+    - A 类（7 张 YAML 粘连修复）：`yt-demand-b2b-vs-b2c`、`yt-demand-decision-chain`、`yt-product-kernel-aesthetic`、`yt-demand-hierarchy-model`、`yt-demand-user-segmentation`、`yt-demand-early-validation`、`yt-demand-scenario-reconstruction`——清理 `diagnostic_signals` 中 `- src_unknown` 标量+mapping 粘连（YAML "mapping values are not allowed"）
+    - B 类（3 张 dk 卡 6 段标准重组）：`yt-demand-competitive-displacement`、`yt-demand-scope-creep`、`yt-demand-market-size-pitfalls`——补 `## 原始表述`/`## 使用场景`/`## 操作方法`/`## 为什么值钱`，`## 关联卡片`→`## 与其他知识的关联`，删除全 src_unknown 的 `## 行动触发器`/`## 来源与验证`，并把报告迷信/动态市场等 src_unknown 占位列表补为实质内容
+    - 1.4 confidence/trust 对齐：`yt-demand-market-size-pitfalls` 0.92/high→0.78/medium（与同级 dk 卡一致；原 1.4 列表未含此卡，按同源一致性补齐并注明）
+- pre-submit 结果：**PASS**（18 files checked, 18 passed, 0 failed — All gates passed. Ready for human review.）
+- 已知遗留（非本波范围）：
+  - 多张卡 frontmatter `related`/`domain` 仍为 `src_unknown` 占位（pre-submit 容忍，但属该域系统性债务，建议另立任务补互链）
+  - `dk-wanghuan-paced-sales-decision` 的 `source_refs` 仍为 `src_unknown`（不在 wave1 原始范围）
+  - `dk-wanghuan-standard-by-iteration` dark_knowledge_type=workflow（原 1.1 spec 写 insight，按语义保留 workflow）
+- 阻塞/需用户确认：无；待欧阳锋按队列终审
 
 ---
 

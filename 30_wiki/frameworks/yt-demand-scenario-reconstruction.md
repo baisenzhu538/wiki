@@ -23,20 +23,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
+  - framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
     follow_up_question: "你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？"
-  - src_unknown
-    framework_lens: 场景碎片化——只有片段，没有完整旅程
+  - framework_lens: 场景碎片化——只有片段，没有完整旅程
     follow_up_question: "用户使用你的产品前，在做什么？使用中遇到什么？使用后得到什么？"
-  - src_unknown
-    framework_lens: 场景未结构化——缺乏统一的分析框架
+  - framework_lens: 场景未结构化——缺乏统一的分析框架
     follow_up_question: "你能把不同用户的描述填进'使用前中后'三个阶段的框架吗？"
-  - src_unknown
-    framework_lens: 场景假设错误——设计场景≠实际场景
+  - framework_lens: 场景假设错误——设计场景≠实际场景
     follow_up_question: "你有观察过真实用户实际使用产品的过程吗？和你设计的场景一致吗？"
-  - src_unknown
-    framework_lens: 场景断点——体验地图有缺口
+  - framework_lens: 场景断点——体验地图有缺口
     follow_up_question: "用户在'使用中'的哪个节点最容易放弃？为什么？"
 
 ---
