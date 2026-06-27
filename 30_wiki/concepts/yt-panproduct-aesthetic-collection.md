@@ -4,33 +4,33 @@
 
 id: yt-panproduct-aesthetic-collection
 component_of:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1309
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品审美
-- 审美
-- 审美卡片
-- 最佳实践
-- 最佳实践收集
-- 泛产品设计
-- 泛产品设计·审美卡片：最佳实践收集
-- 设计标准
+- src_unknown
+- src_unknown
+- src_unknown卡片
+- src_unknown
+- src_unknown收集
+- src_unknown
+- src_unknown·审美卡片：最佳实践收集
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[yt-model-aesthetic-progression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集
@@ -44,16 +44,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 为每个设计任务主动建立参考集，且参考来源跨越≥2个行业或场景
+- src_unknown
   framework_lens: 泛产品：可迁移的最佳实践
   follow_up_question: 你收集的案例中，有没有一个来自完全不相干的领域却能启发当前设计？
-- signal: 每个案例都标注了'好在哪里'和'适用什么情境'，而不是只留截图
+- src_unknown
   framework_lens: 收集不是囤积，是为后续建模准备素材
   follow_up_question: 如果半年后再看这个案例，你还能快速判断它是否适合当前问题吗？
-- signal: 参考集会定期清理过时或低质量案例，保持池子活性
+- src_unknown
   framework_lens: 最佳实践有半衰期
   follow_up_question: 最近3个月有没有删除过不再值得参考的案例？为什么？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **收藏夹越来越大，但做方案时还是凭感觉**
-   - **原因**：只收集不复用，没有建立到当前问题的链接
-   - **修复**：每次收集时写明：‘这个案例能解决当前设计中的哪个具体问题？’
+   - src_unknown
+   - src_unknown
 
 2. **直接照搬竞品界面，结果水土不服**
-   - **原因**：忽视上下文差异，把最佳实践当模板
-   - **修复**：使用‘上下文迁移表’：列出原案例的目标用户、场景、约束，再对比当前项目
+   - src_unknown
+   - src_unknown
 
 3. **只收集本行业案例，视野狭窄**
-   - **原因**：行业隧道效应
-   - **修复**：强制要求30%案例来自非本行业，并说明可迁移的抽象原则
+   - src_unknown
+   - src_unknown
 
 4. **池子长期不更新，被过时设计拖累**
-   - **原因**：把最佳实践当作永久真理
-   - **修复**：每季度做‘参考集审计’，删除不再代表当前最佳水准的案例
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -118,17 +118,17 @@ reviewed_by: 欧阳锋
 
 ### 搜集渠道
 
-- **人工搜集**：定期跟进/落实到人
-- **系统搜集**：利用平台/找第三方/自己开发
-- **日常偶遇**：养成随手沉淀亮点的习惯（世界学习法）
-- **专家推荐**：找相关人/专家推荐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 行动要点
 
-- 尽量充分搜集，持续跟进
-- 整理工具：飞书/印象笔记/Notion，效率高
-- 持续搜集，建立一个案例池子
-- 流程化，持续跟进
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 适合场景：所有渴望追求最好的产品设计场景
 > 进步方式：养成"凡设计，必找最佳实践"的习惯
@@ -140,9 +140,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Henry Petroski的"失败教设计" + Ellen Lupton的"拆解教品味"
 

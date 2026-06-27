@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,41 +21,41 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.90
 diagnostic_signals:
-- signal: 遇到复杂主题时总是漏掉关键维度，讨论反复回到原点
+- src_unknown
   framework_lens: 画布建模
   follow_up_question: 这个主题能否拆成 6–10 个必须同时考虑的维度？
-- signal: 团队工具很多，但遇到问题时不知道用哪个
+- src_unknown
   framework_lens: 武器库建模
   follow_up_question: 现有工具能否按场景/任务类型快速索引，30 秒内找到候选？
-- signal: 新人面对问题无从下手，老手靠经验随手选工具
+- src_unknown
   framework_lens: 武器库 + 场景选择器
   follow_up_question: 工具的适用场景、输入、输出、难度是否都被写清楚了？
-- signal: 每次讨论都从头搭建框架，而不是调用成熟工具
+- src_unknown
   framework_lens: 画布/武器库
   follow_up_question: 这个主题是否已有标准画布或武器库可以直接复用？
-- signal: 画了一个很漂亮的画布或武器库，但后续没有行动
+- src_unknown
   framework_lens: 画布/武器库 → 行动转化
   follow_up_question: 画布/武器库的产出是否链接到了具体决策、SOP 或检查清单？
-- signal: 武器库里的工具越来越多，但常用的一直只有两三个
+- src_unknown
   framework_lens: 武器库迭代
   follow_up_question: 是否定期淘汰失效工具、合并重复工具、补充新场景？
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-weapon-library]]'
-  - '[[tool-scenario-selector-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[tool-sop-template-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/canvas'
-- '#weapon-library'
-- '#domain/master'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 画布/武器库建模法：把工具箱变成可快速调用的系统
 
@@ -67,12 +67,12 @@ tags:
 
 ## 核心要点
 
-- **画布的价值在“完整性”和“一致性”**：所有关键维度同时呈现，才能发现缺口、矛盾和机会。
-- **武器库的价值在“场景 → 工具”的快速匹配**：降低选择成本，避免每次都从头翻找。
-- **画布不是填完即止**：填写的目的是导出决策、行动或进一步诊断，而不是产出一张漂亮的图。
-- **武器库不是工具堆砌**：每个工具必须有明确的适用场景、不适用场景、输入、输出和难度等级。
-- **两者都需要维护机制**：画布要随主题演化更新，武器库要定期淘汰失效工具、补充新场景。
-- **匹配粒度要适中**：太粗会所有场景都推荐同一个工具，太细会变成 50 个场景 50 个工具。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -84,18 +84,18 @@ tags:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 画布适用于需要“完整扫描”一个复杂主题的场景，防止遗漏关键维度。——依据：`src_20260614_73352fa5` 武器库“基础：案例包、清单/小抄、模板/SOP、画布/武器库”。
-- **C2 [conf=0.85]**: 武器库的核心价值是“快速匹配”：根据场景/需求推荐合适工具。——推断：基于用户对“将来我说一个场景，你能协助我选择合适工具”的需求。
-- **C3 [conf=0.85]**: 一堂的“常见模型武器库”把模型按难度分层：基础、进阶、深度，并按用途分类。——依据：`src_20260614_73352fa5`。
-- **C4 [conf=0.8]**: 画布必须所有区块同时填完才有价值，否则只是好看的分区。——推断：基于画布工具特性。
-- **C5 [conf=0.75]**: 武器库需要持续补充新工具和淘汰失效工具，否则会变成博物馆。——推断：基于工具迭代逻辑。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Purpose
 
-- **画布**：强迫系统性思考，避免遗漏。
-- **武器库**：建立工具与场景之间的快速匹配关系，降低选择成本。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -110,15 +110,15 @@ tags:
 #### 步骤 2：确定关键维度
 
 把主题拆成 6–10 个关键维度。例如商业模式画布：
-- 客户细分
-- 价值主张
-- 渠道
-- 客户关系
-- 收入来源
-- 核心资源
-- 关键活动
-- 合作伙伴
-- 成本结构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：每个区块独立填写
 
@@ -141,18 +141,18 @@ tags:
 #### 步骤 2：按场景分类
 
 常见分类维度：
-- 任务类型：筛选、排序、诊断、设计、执行、复盘
-- 复杂度：简单、进阶、深度
-- 目标：理解、决策、沟通、执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：建立匹配规则
 
 为每个工具写清楚：
-- 适用场景
-- 不适用场景
-- 需要的数据/前提
-- 输出物
-- 难度等级
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 4：持续迭代
 
@@ -202,9 +202,9 @@ tags:
 
 ### 内部局限性
 
-- 画布容易变成形式主义填空，填完没人看
-- 武器库容易变成工具堆砌，没有真正的匹配逻辑
-- 两者都需要持续维护，否则迅速过时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Russell Ackoff — "坏系统比坏元素更危险"
 
@@ -212,8 +212,8 @@ tags:
 
 ### 反事实测试
 
-- 如果画布少一个区块，还能完整描述主题吗？如果不能，说明这个区块是必要的。
-- 如果武器库没有分类，只有工具列表，选择效率会下降多少？
+- src_unknown
+- src_unknown
 
 ---
 
@@ -221,10 +221,10 @@ tags:
 
 ### 关联卡片
 
-- [[modeling-weapon-library]] —— 一堂常见模型武器库总览
-- [[tool-scenario-selector-modeling]] —— 场景→工具选择器
-- [[modeling-three-stages]] —— 画布/武器库在基础模型中的定位
-- [[tool-checklist-cheatsheet-modeling]] —— 武器库中常见基础工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -240,24 +240,24 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 明确画布主题或武器库要服务的核心场景
-- [ ] 确定 6–10 个关键维度（画布）或 4–8 个高频场景（武器库）
-- [ ] 每个区块/工具填写适用场景、不适用场景、输入、输出、难度
-- [ ] 检查画布区块间一致性，或武器库匹配粒度和覆盖度
-- [ ] 将画布/武器库产出链接到具体决策、SOP 或检查清单
-- [ ] 建立定期 review 机制：每季度或每次新增/淘汰工具后更新
-- [ ] 试运行 3 次，记录偏差并修正匹配规则
-- [ ] 在团队内共享并收集反馈，持续迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-weapon-library]] —— 一堂常见模型武器库总览与难度分层
-- [[tool-scenario-selector-modeling]] —— 场景→工具选择器，武器库的动态入口
-- [[modeling-three-stages]] —— 画布/武器库在基础模型中的定位
-- [[tool-checklist-cheatsheet-modeling]] —— 武器库中常见基础工具
-- [[tool-sop-template-modeling]] —— 把画布/武器库的结论固化成可执行流程
+- src_unknown与难度分层
+- src_unknown，武器库的动态入口
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -265,9 +265,9 @@ tags:
 
 ### 原始素材
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md` — 常见模型武器库原图摘要
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md` — 建模能力培训口述稿
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md` — 建模能力培训笔记
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

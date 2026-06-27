@@ -5,32 +5,32 @@
 title: 财务入门
 type: concept
 domain:
-  - management- management
-  - business-strategy
-  - finance-legal
-  - ai-saas
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 创始人只看利润不看现金
+- src_unknown
   framework_lens: 利润≠现金
   follow_up_question: 按当前烧钱速度，你的跑道还有几个月？如果<6个月，利润好看也没用
-- signal: 财务完全外包，自己不看报表
+- src_unknown
   framework_lens: 外包论
   follow_up_question: 你最近一次亲自看过三表并理解数字含义是什么时候？
-- signal: 把"毛利率高"等同于"公司赚钱/可以扩张"
+- src_unknown
   framework_lens: 毛利率≠现金流/净利
   follow_up_question: 高毛利产品的现金回笼周期是多久？营销/研发/管理费用是否吃掉毛利？应收账款和库存是否占用现金？
 related:
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
-  - '[[yt-business-model-margin-structure]]'
-  - '[[yt-management-leadership-levels]]'
-  - yt-unit-model-build
-  - yt-entrepreneur-key-hypotheses
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: '2026-06-16'
 id: yt-management-finance-basics
 author: 老顽童
@@ -94,9 +94,9 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 3. **真实跑道** 通常落在两者之间；若差距 > 3 个月，说明回款不确定或支出控制弱
 
 **决策阈值**：
-- 跑道 > 12 个月：可规划战略性投入
-- 跑道 6-12 个月：优先提升回款/削减可变支出
-- 跑道 < 6 个月：进入生存模式，立刻启动融资或收缩计划
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出物**：一张 A4 纸，写下余额、月烧、跑道、Top 3 现金消耗项、Top 3 可追回款，贴在创始人桌面。
 
@@ -109,9 +109,9 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 ### 创始人为什么需要懂财务
 
 常见误区：
-- **外包论**："财务交给会计/CFO就行" —— 财务报表是经营结果的事后快照，外人只能看到数字，创始人才能看到数字背后发生了什么
-- **数学恐惧论**："我数学不好，学不会财务" —— 财务入门需要的是逻辑思维而非数学能力，加减乘除足矣
-- **早期无用论**："公司还小，没到需要看报表的阶段" —— 越早期越需要财务意识，避免"看着在赚钱、实际在烧钱"的陷阱
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三张报表的核心逻辑
 
@@ -144,10 +144,10 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ### 财务管理的节奏建议
 
-- **每日**：现金余额
-- **每周**：应收账款回款情况（谁欠你钱、欠了多久）
-- **每月**：损益表 + 简要经营分析（收入为什么涨跌、成本为什么变化）
-- **每季度**：完整三表 + 关键比率回顾
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -204,15 +204,15 @@ Jensen 的代理框架指出，当管理者（创始人）和股东（投资人�
 
 ### 关联卡片
 
-- [[yt-management-business-formula]] — 业务公式：业务公式的"营收端"与财务损益表直接对接——公式里的每一个变量最终都体现在财务数字上
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：财务数据是投资决策和 ROI 评估的基础输入
-- [[yt-management-goal-management]] — 目标管理：OKR 中的财务类 Key Results 需要有基本的财务素养才能正确定义
-- [[yt-management-strategy-meeting]] — 战略会：战略决策的质量受限于创始团队对财务状况的理解深度
-- [[yt-entrepreneur-unit-model]] — 单元模型：单元模型是最小颗粒度的业务经济学，聚合后就是整盘财务
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：财务是武器库中最"冷"的一件武器——不像OKR那样能直接驱动执行，不像文化那样能感染人心。但它冷到了极致就变成了热：当你用数字而非感觉做资源分配决策时，你的每一颗子弹都打在要害上。Johnson & Kaplan 的警告是这把武器的校准说明书
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Jensen 的代理理论指向一个反直觉的结论——数字不是中性的沟通工具。你给投资人看的财务数据、给团队看的经营指标、给自己看的真实数字——三套数字传递三种不同的"香"。财务入门最高的段位不是"看得懂数字"，而是"知道什么时候该用哪套数字来讲哪套故事，且不让自己混淆"
-- [[yt-unit-model-build]] — 单元模型搭建：财务三表是聚合结果，而单元模型是最小颗粒度的业务经济学。先把一个客户、一个订单、一个 SKU 的经济账算清楚，再向上聚合到损益表，才能避免"合并数字看起来对，但经营动作错"的陷阱
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设验证：财务数据是验证商业模式假设的终极裁判。无论是定价假设、获客成本假设还是复购假设，最终都要在现金流和利润表上留下痕迹。用关键假设框架提出问题，用财务数字回答问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -233,7 +233,7 @@ Jensen 的代理框架指出，当管理者（创始人）和股东（投资人�
 
 ### 跨学科锚点
 
-- 三张报表体系源自会计学的基本框架，一堂将其简化为创业者视角的"三问"：赚钱了没？值多少钱？钱去哪了？
-- "利润不等于现金"是权责发生制会计的核心悖论——亚马逊早期多年不盈利但现金流健康，就是用经营性负债（应付账款）支撑了高速增长。
-- Johnson & Kaplan《Relevance Lost》（1987）对管理会计的批判引发了此后三十年的"管理会计变革"运动——Activity-Based Costing (ABC) 和 Balanced Scorecard 都是对此书的回应。一堂财务课的核心主张"看透数字背后的经营真相"与 Johnson 的思想一脉相承，但 Johnson 会要求走得更远——不只是"看透"，而是要质疑数字本身的构造方式。
-- Runway 概念是创业财务管理的核心指标，硅谷 VC 普遍要求被投企业在 runway < 6 个月时预警融资。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

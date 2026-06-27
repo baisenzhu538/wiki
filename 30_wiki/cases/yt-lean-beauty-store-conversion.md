@@ -6,19 +6,19 @@ title: 美业门店：200→4000转化链路才是关键假设
 type: case
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/case'
-- '#topic/lean-startup'
-- '#topic/key-hypothesis'
-- '#topic/conversion-funnel'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -27,21 +27,21 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 200元体验用户中极少有人询问或升级到3980元套餐
+- src_unknown
   framework_lens: 产品内核假设 / 关键转化链路
   follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？
-- signal: 团队过早开始打磨2万元加盟政策、选址或新媒体投放方案
+- src_unknown
   framework_lens: 里程碑依赖 / 过早固化
   follow_up_question: 200→4000转化率是否已拿到初步肯定判断？加盟意愿测试是否应放在第三里程碑而非现在就做？
 
@@ -67,9 +67,9 @@ diagnostic_signals:
 
 张磊指出，200元引流本身相对容易，但如果 200→4000 的转化不成立，前面的引流就是"赔本赚吆喝"，后面的 2万元加盟政策也失去根基。因此：
 
-- **高风险假设**：200元体验用户升级到 3980元套餐的转化率。
-- **低风险假设**：200元体验品本身好不好卖、2万元加盟政策有没有吸引力。
-- **测什么**：不是测"200元产品能否卖出去"，而是测"用户是否愿意从 200元再往前走一步"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 里程碑测试设计
 
@@ -91,8 +91,8 @@ diagnostic_signals:
 
 两类目标客户的付费逻辑可能完全不同：
 
-- **宝妈副业群体**：更关注"学会技术自己赚钱"，对 3980元的价值感知来自"能否带来副业收入"。
-- **传统社区美容店主**：更关注"帮我盘活存量生意"，对 3980元的价值感知来自"能否提升门店业绩"。
+- src_unknown
+- src_unknown
 
 前期测试时应分别记录两群的转化数据，否则会把"人群不匹配"误判为"产品不行"。
 
@@ -124,7 +124,7 @@ diagnostic_signals:
 
 本卡置信度为 **0.82**，依据如下：
 
-- 张磊在 AMA 精华稿（Q7）中对本案例有完整、结构化的回答，逻辑自洽。
-- 口述稿（oral-02）和笔记稿（notes-02）对 Q7 有补充复述，多源交叉印证核心结论。
-- 但该案例为 AMA 现场的学员项目，无公开可验证的业务数据或后续结果，外部可验证性有限。
-- 因此置信度未进入 0.90 以上区间，定为 0.82（high trust，因有 ≥2 个独立来源）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

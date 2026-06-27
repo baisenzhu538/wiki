@@ -4,25 +4,25 @@ title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+- src_unknown
+- yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- 飞书多维表格
-- 飞书开发平台
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-半肥猫-边学边练边沉淀的AI学习法
+- src_unknown
 related:
-- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
-- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[dk-ban-fei-mao-atomic-no-standard]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
@@ -30,13 +30,13 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 机器人可读写的字段和命令集无法清晰列出
+- src_unknown
   lens: 权限边界
   follow_up: 能否用一张表列出机器人可读写字段、可响应命令及对应触发条件？
-- signal: 团队仍并行使用 Excel/微信群等其他数据通路
+- src_unknown
   lens: 协同统一性
   follow_up: 如果停用飞书多维表格，当前协同流程是否还能跑通？
-- signal: 机器人上线前未经过小范围灰度测试
+- src_unknown
   lens: 风险控制
   follow_up: 是否有试点用户、预期行为清单和一键停用/回滚方案？
 ---
@@ -48,10 +48,10 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **多维表格是轻量数据库，不是 Excel 的翻版**。它的价值在于可定义字段类型、建立记录关联、配置多视图和自动化规则，比传统表格更适合团队协同。
-- **自建机器人的核心是权限边界，不是功能丰富**。能做什么不重要，不能做什么才重要；必须严格限定可读写字段、可响应命令和数据类型。
-- **协同效率提升主要来自减少沟通摩擦**。团队数据问题的根源往往是工具、格式、习惯不统一，统一平台的价值远大于堆叠功能。
-- **上线前必须小范围试点**。机器人一旦出错可能批量破坏数据，先在低风险场景验证行为，再扩大使用范围。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -75,27 +75,27 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 梳理团队当前数据协同流程，定位高频摩擦点和错误高发环节
-- [ ] 在飞书多维表格中设计字段类型、记录关联、视图和自动化规则
-- [ ] 在飞书开发平台创建自定义机器人，明确其职责范围
-- [ ] 配置机器人读写权限白名单，限定可操作字段和命令集
-- [ ] 定义机器人响应命令清单，避免自然语言泛化解释
-- [ ] 准备沙盒数据，安排小范围试点并记录预期行为
-- [ ] 验证机器人行为符合预期后，制定回滚/停用方案再推广
-- [ ] 建立定期审计机制：检查权限、操作日志和数据一致性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[concept-半肥猫-ai-learning-toolification-methodology]] — 课程/经验 AI 工具化的整体方法论
-- [[dk-ban-fei-mao-atomic-no-standard]] — “原子化没有固定标准”，多维表格的结构需要按场景灵活设计
-- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] — 多维表格与 YAML 原子化标签是两种不同的知识组织方式，可互补
-- [[case-ban-fei-mao-conversion-hacker-skill]] — 团队协作中 Skill 应用的具体实例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 半肥猫，AI俱学乐部 AI 学习落地分享
+- src_unknown
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

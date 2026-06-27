@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- research
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - "[[yitang-research-domain-digest]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[yt-lean-assumption-verification-3means]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[case-yitang-mvp-reward-interview-waste]]"
-  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-  - "[[case-yitang-senior-university-product-design]]"
-  - "[[case-xian-franchise-location-decision]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 研究活动如何服务决策
@@ -80,15 +80,15 @@ related:
 
 ## 支撑案例
 
-- **[[case-yitang-mvp-reward-interview-waste]]**：MVP 阶段花钱做正式访谈，却因未先做用户画像而访谈了错误人群 [conf=0.82, source=case-yitang-mvp-reward-interview-waste]。这是典型的「研究动作先于决策准备」——如果先定义「要验证谁才是真用户」这个决策，就不会把预算浪费在泛化访谈上。
+- src_unknown
 
-- **[[case-一堂-无人餐厅-hypothesis-failure]]**：京东天津无人餐厅在「机器人经营价值」这一前置假设未验证前就大举投入，最终维护成本高于传统餐厅、体验不及预期 [conf=0.75, source=case-一堂-无人餐厅-hypothesis-failure]。若先用一家实验店验证核心假设，可能避免数千万级损失。
+- src_unknown
 
-- **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]**：陈贤敏本可一次性开 2-3 家店，却选择先开 1 家实验店，用需求、产品、单店模型三个假设的通过标准来决定是否扩张 [conf=0.75, source=case-一堂-陈贤敏汉堡-hypothesis-validation]。这是决策优先映射的正面范本：研究动作完全服务于「是否复制」这一决策。
+- src_unknown
 
-- **[[case-yitang-senior-university-product-design]]**：Truman 用「L1 商业模式是否成立 → L2 产品是什么 → L3 我能切入的细分是什么」的假设链，逐层验证老年大学赛道 [conf=0.80, source=case-yitang-senior-university-product-design]。L1 不成立，L2/L3 无需再看，避免在错误赛道上过度研究。
+- src_unknown
 
-- **[[case-xian-franchise-location-decision]]**：西安加盟选址案例中，正确做法是先通过企查查、美团、加盟商口碑等做前置筛选，再决定实地考察哪些门店 [conf=0.82, source=case-xian-franchise-location-decision]。若跳过筛选直接蹲店，会浪费大量时间在低价值样本上。
+- src_unknown
 
 ## 预警信号
 
@@ -99,10 +99,10 @@ related:
 
 ## 适用边界
 
-- **决策可拆分**：如果决策无法拆成可验证的前置假设，本模式难以落地。
-- **验证成本可控**：若验证一个假设的代价接近错误本身的代价，需重新设计最小验证动作。
-- **组织容忍证伪**：如果团队文化要求「研究必须支撑原定结论」，映射表会失效。
-- **信息充分度 ≥ 中**：对完全陌生的领域，先补充基础认知，否则连「什么假设值得验证」都提不出来 [conf=0.85, source=concept-一堂-hypothesis-driven-business-methodology]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -121,9 +121,9 @@ related:
 
 ## 与其他知识的关联
 
-- **[[concept-一堂-hypothesis-driven-business-methodology]]**：提供 259 工具和「做加法 → 做减法 → 快速验证」的假设思维，帮助把业务拆成可验证假设 [conf=0.85, source=concept-一堂-hypothesis-driven-business-methodology]。
-- **[[yt-lean-assumption-verification-3means]]**：提供访谈调研、经验验证、实验验证三种手段，帮助选择验证方式 [conf=0.65, source=yt-lean-assumption-verification-3means]。
-- **[[framework-yitang-high-level-execution]]**：提供「获取情报 → 正确归因」的执行框架，帮助保证研究质量 [conf=0.85, source=framework-yitang-high-level-execution]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 现有框架未覆盖的缺口
 

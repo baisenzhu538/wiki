@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -11,13 +11,13 @@ created_at: 2026-06-10
 difficulty: beginner
 language: zh-CN
 query_triggers:
-  - "市场规模"
-  - "市场估算"
-  - "TAM SAM SOM"
-  - "自顶向下"
-  - "自底向上"
-  - "对标估算"
-  - "第三方数据"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -25,15 +25,15 @@ source_refs:
 - src_20260610_2a188b41-一堂-一堂五步法-需求-口述
 status: reviewed
 related:
-  - '[[yt-demand-analysis-hiking-map]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[yt-demand-quantitative-estimation]]'
-  - '[[yt-demand-market-size-pitfalls]]'
-  - '[[tool-demand-report-template]]'
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-demand-assessment-triangle]]"
-  - "[[framework-demand-opportunity-spectrum]]"
-  - "[[framework-strategy-brm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 title: "市场规模估算四种方法"
 trust_level: medium
 type: tool
@@ -45,7 +45,7 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户只用一种方法估算市场规模', 'framework_lens': '缺乏交叉验证', 'follow_up_question': '你用了几种方法估算？如果只有一种，数字可信度低'}
   - {'signal': '用户把TAM当可获取市场', 'framework_lens': '混淆TAM/SAM/SOM', 'follow_up_question': 'TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆'}

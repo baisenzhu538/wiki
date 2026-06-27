@@ -6,48 +6,48 @@ title: 技能：把PRD写成AI能执行的指令
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- '[[sk-ai-problem-validation]]'
-- '[[prd-as-ai-instruction]]'
-- '[[sk-ai-question-problem-checklist]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/prompt'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 笔记本和笔
+- src_unknown
 prerequisite_skills: null
 related:
-  - '[[sk-ai-voice-input-doubao]]'
-  - '[[tool-ai-prd-for-ai]]'
-  - '[[sk-ai-evidence-check]]'
-  - '[[voice-input-doubao]]'
-  - '[[sk-ai-question-problem-checklist]]'
-  - '[[sk-ai-problem-validation]]'
-  - '[[prd-as-ai-instruction]]'
-  - '[[sk-ai-question-problem-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 原始来源未明确支持"PRD不是给人看的，是给AI看的"及"3-5倍输出质量提升"等核心表述
+- src_unknown
   framework_lens: source-fidelity
   follow_up_question: 请提供半肥猫分享中关于PRD作为AI可执行指令的具体原文，或补充另一份来源以支撑该主张？
-- signal: source_person（半肥猫）与来源文件演讲者（季浩/纪浩）不一致，作者归属存疑
+- src_unknown
   framework_lens: authorship-attribution
   follow_up_question: 是否需要将source_person更正为纪浩，或找到半肥猫对应分享的原始记录？
 
@@ -92,25 +92,25 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已明确产品背景、市场需求与业务目标
-- [ ] 已定义目标用户和核心使用场景
-- [ ] 已把需求拆分为可执行的步骤/用户流程
-- [ ] 每步都写明了验收标准（什么算对）
-- [ ] 已列出成功指标、潜在风险和验证计划
-- [ ] 已用Markdown/表格结构化呈现PRD
-- [ ] 已和关键利益方对齐PRD边界（避免第一版过大）
-- [ ] 已让AI按PRD执行并对比输出是否符合预期
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[sk-ai-problem-validation]] —— 先验证问题是否值得交给AI
-- [[prd-as-ai-instruction]] —— PRD作为AI指令的专门卡片
-- [[sk-ai-question-problem-checklist]] —— 把模糊需求澄清为可执行问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md:438-568`
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

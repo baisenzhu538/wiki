@@ -7,8 +7,8 @@ title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
 status: enriched
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
 source_refs:
@@ -17,48 +17,48 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[case-yitang-tob-grinding-machine]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[case-yitang-tob-smart-park]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[yt-unit-model-overview]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-research-hypothesis-test]]'
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[yt-unit-model-overview]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 原始表述、问题、方案、可迁移、Feedback Path 均已填写
-- 关键假设验证过程和数据已记录
-- 可迁移条件和不可复制场景已明确
-- 实际应用后收集反馈并更新案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 黄药师
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 创业者有资源开多家店，却决定先开1家实验店验证关键假设
+- src_unknown
   framework_lens: 假设驱动 vs 愿望驱动
   follow_up_question: 你计划中的前3家店，是为了验证假设还是为了"抢占风口"？如果第一家店数据不理想，你会停还是继续开？
-- signal: 团队能把"能不能成"拆成"哪几个前提必须成立"
+- src_unknown
   framework_lens: 关键假设拆解
   follow_up_question: 这个业务如果失败，最可能是因为哪2-3个前提不成立？每个前提有没有对应的最小验证实验？
-- signal: 实验店跑通后，团队仍追问"这是单店成功还是模式成功"
+- src_unknown
   framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
 ---
@@ -90,17 +90,17 @@ diagnostic_signals:
 
 这个实验店的设计特点：
 
-- **规模小**：只开1家，损失可控制。
-- **反馈快**：每天都能收到顾客反馈和营业数据。
-- **可比较**：可以与周边类似店铺做对比。
-- **可撤退**：如果假设不成立，损失远小于直接开3家店。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 结果
 
 陈贤敏没有公布具体实验数据，但案例传递的决策结果是：**实验店成为复制前的"必经之路"**。
 
-- 如果实验店的**需求假设+产品假设+商业模式假设**同时成立，则进入下一阶段的选址复制。
-- 如果其中任一假设不成立，则调整产品、选址或终止项目，避免把错误放大到3家店。
+- src_unknown
+- src_unknown
 
 这个结果的真正价值不是"实验店赚了多少钱"，而是**用一家店的小成本，换取了"是否值得规模化"的决策权**。
 
@@ -161,23 +161,23 @@ diagnostic_signals:
 
 关键假设验证记录：
 1. 需求假设
-   - 日均自然客流：____
-   - 进店率：____
-   - 首单转化率：____
-   - 结论：成立 / 不成立 / 需调整
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. 产品假设
-   - 客单价：____
-   - 月复购率：____
-   - TOP3 差评原因：____
-   - 结论：成立 / 不成立 / 需调整
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. 商业模式假设
-   - 月营收：____
-   - 月毛利：____
-   - 月固定成本：____
-   - 月净利润：____
-   - 结论：成立 / 不成立 / 需调整
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 下一步决策：扩张 / 调整产品 / 调整选址 / 终止
 ```
@@ -201,15 +201,15 @@ diagnostic_signals:
 4. 实验结果是否支持扩张？还需要什么附加验证？
 5. 如果实验结果不理想，我的Plan B是什么？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-一堂-陈贤敏汉堡-hypothesis-validation`。
+- src_unknown
 
 ## 关联卡牌
 
-- **[[case-一堂-无人餐厅-hypothesis-failure]]** — 反面案例：无人餐厅在"机器人经营价值"假设未验证前all in，最终成本高于传统餐厅、口味差、复购下滑。与陈贤敏形成"先验证再复制"vs"先复制再验证"的对照。
-- **[[concept-一堂-hypothesis-driven-business-methodology]]** — 本案例是该方法论在餐饮连锁场景的具体应用：用259工具拆假设、做减法、快速验证。
-- **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 陈贤敏克制了"资源充足就想多开店"的愿望思维，用实验数据替代美好设想。
-- **[[yt-entrepreneur-lean-validation]]** — 本案例是"低成本验证/MVP"工具的正面典范：陈贤敏用"开一家店"这个最小行为实验，验证了"中式汉堡能否在目标市场跑通"这个核心假设，而不是先冒风险规模化。
-- **[[yt-research-hypothesis-test]]** — 陈贤敏的验证过程对应"假设验证调研工具"的三步设计：关键假设（中式汉堡能否跑通）→可证伪问题（实验店用户复购率、价格弹性接受度）→最小实验（单店测试）。
-- **[[case-ji-hao-skill-market-problem-validation]]** — 跨域对照：纪浩用四问验证法识别"伪需求"，陈贤敏用实验店验证"真需求"，两者共同说明"验证先于规模化"在不同业态中的落地形态。
-- **[[tool-泛产品落地-低成本测试MVP]]** — 实验店本质上是实体业态的"低成本MVP"：用一家真实门店的最小版本，验证核心假设后再决定是否全量投入。
-- **[[yt-unit-model-overview]]** — 本案例的核心是"单店模型"验证：把复制问题拆到最小经济单元，确认一个门店成立后再谈规模化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

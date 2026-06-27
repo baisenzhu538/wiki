@@ -1,38 +1,38 @@
 ---
 id: yt-decision-review
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: advanced
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
-- yt-decision-consensus-iceberg
+- src_unknown
+- src_unknown
 query_triggers:
-- 决策复盘
-- 假设验证
-- 后见之明
-- 决策迭代
-- 认知迁移
-- 能力缺失
-- 无限进步
-- ROI改进
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[yt-decision-consensus-iceberg]]'
-- '[[yt-research-industry-canvas]]'
-- '[[yt-model-deep-review-iceberg]]'
-- '[[yt-note-fact-pattern-insight]]'
-- '[[ocr-一堂深度复盘冰山图]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-personal-deep-review]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-benchmark]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -42,13 +42,13 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-ROI高阶训练全景图.png
+- src_unknown
   dimensions:
-  - 色彩语义: 绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应
-  - 空间结构: 五阶段流程的末端，从复盘指向"变聪明"的循环箭头
-  - 信息层级: L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产
-  - 负形利用: 循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"
-  - 视觉隐喻: 螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-review
   course_type: tool
@@ -56,12 +56,12 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队复盘时所有人都在说'当时信息不足'、'运气不好'，没有任何人承认自己分析有缺陷
+- src_unknown
   framework_lens: 外部化偏差——复盘变成了自我辩护，没有进入L4能力层
   follow_up_question: 如果当时信息确实不足，为什么我们没建立信息收集机制？这个能力缺失对应到谁、什么时候补上？
-- signal: 复盘产出了十几条'经验教训'，但三个月后同样错误又犯
+- src_unknown
   framework_lens: 迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点
   follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
 author: 老顽童
@@ -100,10 +100,10 @@ author: 老顽童
 > **关键区别**：L4能力层问的是"当时缺了什么"，复盘姿势问的是"下次怎么练"。前者是对过去的诊断，后者是对未来的行动。很多团队停在L4就以为复盘结束了，但没有"是否可练"的行动计划，复盘就只是"发现问题"而不是"解决问题"。
 
 **与一堂复盘模型的对应**：
-- L1 结果层 ≈ 一堂复盘模型的"主观感受"+"客观事实"
-- L2 过程层 ≈ 一堂复盘模型的"原因分析"
-- L3 迁移层 ≈ 一堂复盘模型的"模型迁移"
-- L4 能力层 ≈ 一堂复盘模型的"能力缺失"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 假设验证闭环
 
@@ -121,18 +121,18 @@ author: 老顽童
 ```
 
 **一堂实例**：
-- 第一次马拉松：粗糙、认知很差，但清晰记录了哪些参数错了
-- 第二次大航海：基于马拉松的复盘，调整了规模与运营参数
-- 第三次AI大航海：创新性提出"一页纸"机制，收到1300份一页纸，整体ROI已经非常高
-- 每一次的进步都来自上一次的复盘积累，而不是凭空的灵感
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **后见之明偏差（Hindsight Bias）的影响**：即使有预判快照，复盘时人们仍然会高估"当初本应该想到"的概率。快照只能记录了"当时写下的想法"，但无法记录"当时没写下但潜意识里有过的念头"——复盘者会在事后声称"我当时也觉得不对劲，只是没写下来"，让复盘变得不可验证。
-- **快照本身的质量不稳定**：同样的决策、同样的团队，在不同能量状态下写出的快照质量可能相差很大。紧张时可能过度乐观或过度悲观，导致复盘时的"偏差分析"本质上是对"当时情绪状态"的分析，而非对"客观决策质量"的分析。
-- **复盘产生的"规则胡同"风险**：当多个复盘产生的规则之间互相矛盾时，工具没有提供决策机制。比如复盘A决策说"新业务要小步试错"，复盘B决策说"大买大卖才能形成规模效应"——两条规则都被验证了，但互相矛盾，工具不能帮你决定下一次该用哪一条。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

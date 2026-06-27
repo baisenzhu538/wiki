@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-activation-rate
-  - yt-growth-retention-metrics
-  - yt-growth-data-driven-decision
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'流量很多，但转化很低'"
+  - src_unknown
     framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
     follow_up_question: "你的漏斗每个环节的转化率是多少？哪个环节流失最多？"
-  - signal: "用户说'用户到了付费页面，但不付款'"
+  - src_unknown
     framework_lens: 漏斗优化——付费环节流失需要分析 friction
     follow_up_question: "付费页面的 friction 是什么？价格、支付方式、信任？"
-  - signal: "用户说'我们的漏斗很长，用户中途流失'"
+  - src_unknown
     framework_lens: 漏斗优化——漏斗太长需要简化或分段优化
     follow_up_question: "漏斗的每个步骤是否必要？能不能合并或跳过？"
-  - signal: "用户说'我们优化了漏斗，但总体转化没提升'"
+  - src_unknown
     framework_lens: 漏斗优化——局部优化不等于整体优化，需要看全局
     follow_up_question: "你优化的是哪个环节？其他环节是否恶化？"
-  - signal: "用户说'我们不知道用户在哪个环节流失'"
+  - src_unknown
     framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
     follow_up_question: "你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当转化低时 → 分析漏斗，找到流失点
-- 当优化时 → 全局视角，避免局部优化
-- 当数据异常时 → 检查漏斗数据准确性
-- 当长期流失时 → 关注用户体验
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-activation-rate`：激活率
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 漏斗优化研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

@@ -7,16 +7,16 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: []
 query_triggers:
-- 商业分析认知偏差
-- 证实性偏差 商业
-- 常见认知陷阱
-- 一堂五步法 偏差
-- 创业者认知盲区
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
 source_refs:
@@ -34,26 +34,26 @@ yitang:
   course_type: dk
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户用五步法做了完整分析，但结论和最初直觉一模一样
+- src_unknown
   framework_lens: 框架被偏差绑架——五步法不能自动克服认知偏差
   follow_up_question: 如果这个结论最终被证明是错的，你会看到哪些证据？这些证据你认真找过吗？
-- signal: 用户只收集支持自己假设的证据，回避反面信息
+- src_unknown
   framework_lens: 证实性偏差——分析成了自我证明
   follow_up_question: 你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化
-- signal: 团队讨论后高度一致，无人提出反对意见
+- src_unknown
   framework_lens: 群体确认偏差+过度自信叠加
   follow_up_question: 这次讨论前是否要求每个人独立写判断？有没有指定"恶魔辩护人"专门挑刺？
 updated_at: '2026-06-17'
 author: 老顽童
 related:
-  - '[[dk-five-step-framework-legitimizes-bias]]'
-  - '[[yt-five-step-method-complete]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[five-step-domain-digest]]'
-  - master-cognitive-bias-checklist
-  - case-five-step-fake-vs-real-barriers
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 暗知识：五步法中的主要认知偏差
@@ -68,9 +68,9 @@ Truman 在课上做过一个实验：讲课前让学员给自己的五步法水�
 
 Truman 的原话大意是："五步法不是万能药。很多人觉得把五个步骤填完就叫科学分析，其实最大的风险是，你用五步法把自己的偏见重新写了一遍。" 课程中反复出现的警示包括：
 
-- "80% 的人高估自己的五步法水平。"
-- "需求分析里最大的坑不是信息不够，是你只想听你爱听的声音。"
-- "壁垒那一步，创始人最容易把自己做的每件事都当成壁垒。"
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些表述指向同一个暗知识：**框架提供的是结构，不是免疫力；分析质量取决于使用者能否识别并对抗自身的认知偏差。**
 
@@ -119,66 +119,66 @@ Truman 的原话大意是："五步法不是万能药。很多人觉得把五个
 
 **表现**：只看到支持自己假设的证据，忽视反对证据。  
 **在五步法中的体现**：
-- 需求分析时只采访赞成自己观点的用户
-- 产品内核设计时只收集"用户很喜欢"的反馈
-- 单元模型中只使用"最好情况"的数据
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 主动寻找"反例"——有哪些证据能证明我是错的？
-- 为每个假设设立"独立验证者"
-- 在团队中强制"恶魔的拥护"角色（专门挑毛病）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 偏差二：先入为主（Anchoring Effect）
 
 **表现**：过度依赖第一个得到的信息，后续信息都被其锚定。  
 **在五步法中的体现**：
-- 最早接触到的"行业数据"成为一切估算基准
-- 第一个用户反馈决定了对需求的理解
-- 第一个竞品定位成为自己的定位
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 多渠道采集信息，避免单一来源
-- 在团队讨论前先让每个人独立写出自己的估算
-- 使用"三点预测"冲淡锚定效应
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 偏差三：幸存者偏差（Survivorship Bias）
 
 **表现**：只看到成功案例，忽视沉默的失败大多数。  
 **在五步法中的体现**：
-- 用明星公司的路径来规划自己
-- 只研究成功的获客渠道，不研究失败的
-- 忽视行业基准比较（最多企业其实不赚钱）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 主动搜集"失败案例"——同类业务为什么死了？
-- 用"行业平均水平"替代"行业顶尖"作为参照
-- 研究"非用户"为什么不选择自己
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 偏差四：现在偏误（Present Bias）
 
 **表现**：过度重视短期收益，忽视长期后果。  
 **在五步法中的体现**：
-- 增长步骤中为了快速获客而损害品牌
-- 单元模型中为了降低短期成本而忽视设备折旧
-- 壁垒分析中不愿意投入长期建设
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 在每个决策中追问"这个决策三年后看是否依然正确"
-- 强制计入"机会成本"——不做某事的代价
-- 设立"未来自己"角色来审查当下决策
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 偏差五：过度自信（Overconfidence Bias）
 
 **表现**：高估自己的能力和判断准确性。  
 **在五步法中的体现**：
-- "我一眼就能看清这个业务"
-- 不愿意花时间填写框架
-- 觉得自己的特殊性超越行业常规
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 用"独立验证"暴露自己的偏见
-- 记录自己过去的判断，定期回顾准确率
-- 在团队中欣赏"被证明错了"的人
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 新增：认知偏差快速自查 Checklist
 

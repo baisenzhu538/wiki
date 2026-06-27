@@ -10,24 +10,24 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
 query_triggers:
-- 五步法怎么落地
-- 五步法画布
-- 五步法实施步骤
-- 故事版 取舍版 定量版 分工版
-- 五步法迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-product-ten-metrics]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[一堂]]'
-  - '[[five-step-domain-digest]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-tool-product-core-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
@@ -45,12 +45,12 @@ yitang:
   course_type: skill
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户停在故事版，永远讲不清楚取舍
+- src_unknown
   framework_lens: 落地阶段停滞
   follow_up_question: 你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版
-- signal: 用户直接跳到定量版，但故事都没讲清楚
+- src_unknown
   framework_lens: 跳级
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
@@ -86,9 +86,9 @@ author: 老顽童
 ### 迭代方法论
 
 **迭代频率**：
-- 早期项目：每周迭代一次
-- 成熟项目：每月复盘一次
-- 优秀案例：可达数十甚至上百版
+- src_unknown
+- src_unknown
+- src_unknown
 
 **迭代触发点**：
 1. 业务转型
@@ -98,9 +98,9 @@ author: 老顽童
 5. 竞争对手出现
 
 **迭代方向**：
-- 从模糊到具体
-- 从定性到定量
-- 从个人使用到团队协同
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 画布使用原则
 
@@ -166,13 +166,13 @@ Bezos 的"Day 1"理念强调公司必须永远保持创业第一天的敏捷和�
 
 ## diagnostic_signals
 
-- signal: "团队画了五步法画布，但做完故事版后卡住了，不知道下一步该做什么"
+- src_unknown
   framework_lens: "落地断裂检查——故事版做完了但团队没有'下一步方向'，说明缺少从故事版到取舍版的过渡"
   follow_up_question: "你的故事版里，哪个部分让你觉得'这个可能不是最优的'——那个部分就是取舍版应该开始的地方"
-- signal: "创始人说'我们已经在做取合作版了，但每次都是同样的讨论结果'"
+- src_unknown
   framework_lens: "落地断裂检查——取舍版陷入重复讨论意味着团队在'已知选项'里绕圈子，缺少新信息输入"
   follow_up_question: "你们最近一周有没有去和用户聊、去跑市场、去验证某个关键假设？如果没有，先停下来补充信息再继续取舍"
-- signal: "定量版的数字做出来了，但团队只是把数字贴在墙上，没人用它做决策"
+- src_unknown
   framework_lens: "落地断裂检查——数字做出来但不影响决策，说明定量版和决策之间缺少桥梁"
   follow_up_question: "你的定量版里哪个数字变了的话，团队的选择会改变？如果答案是没有，那定量版只是数字装饰"
 

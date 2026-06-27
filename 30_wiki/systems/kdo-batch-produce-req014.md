@@ -10,7 +10,7 @@ role: Knowledge Builder
 created_at: '2026-05-04'
 status: proposed
 domain:
-- kdo
+- src_unknown
 reviewer: 欧阳锋 (Architect)
 dependency: 22 篇 wiki 页面已完成 enrich，其中 12 篇尚无产出物
 id: kdo-batch-produce-req014
@@ -20,11 +20,11 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[plan_20260501_8ecb74e3-improvement-plan]]'
-  - '[[plan_20260501_47264869-improvement-plan]]'
-  - '[[plan_20260501_05858800-improvement-plan]]'
-  - '[[plan_20260501_97170532-improvement-plan]]'
-  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# REQ-014 批量 Produce 12 篇 Enriched 页面
 
 > 将 12 篇已 enrich 但尚未 produce 的 wiki 页面，每篇生成一个交付级产出物（article），写入 `40_outputs/content/articles/`，更新 state.json，记录到 delivery-registry。
@@ -93,10 +93,10 @@ Body 结构：
 4. **Source Map**（源页面链接）
 
 ### 质量要求
-- Core Thesis 明确、无 TODO 占位符
-- Draft 不低于 500 字
-- 引用源 wiki 页面关键数据/观点
-- 中文撰写
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -116,10 +116,10 @@ Body 结构：
 
 ## 三、验收标准
 
-- [ ] 12 篇 article 文件全部写入 `40_outputs/content/articles/`
-- [ ] 每篇 Core Thesis 无 TODO 占位符
-- [ ] 每篇 Draft >= 500 字
-- [ ] state.json artifacts 新增 12 条记录
-- [ ] delivery-registry.md 新增 12 条记录
-- [ ] `kdo lint` 无新生错误
-- [ ] backlog.md REQ-014 标记完成
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

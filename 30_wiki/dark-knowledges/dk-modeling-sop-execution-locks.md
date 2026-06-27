@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- master
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模案例），2026-06-12
 source_refs:
@@ -19,35 +19,35 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 related:
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[process-modeling]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[case-modeling-process-livestream-prep]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/sop'
-- '#method/execution-management'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
 diagnostic_signals:
-- signal: 团队里反复出现“SOP 写了但没人看”“清单贴在墙上但执行忽好忽坏”
+- src_unknown
   framework_lens: SOP 写出来≠被执行，缺的是检查层而不是执行层自觉性
   follow_up_question: 这个 SOP 有没有一个独立的“检查者”角色？检查者自己是否也有 checklist 和反馈闭环？
-- signal: 关键环节的质量严重依赖个人当天状态，换人或忙季就掉链子
+- src_unknown
   framework_lens: 单点执行是概率失效，多层检查才能把单点失败变成串联失效
   follow_up_question: 如果执行者今天状态差，督导能否兜底？督导松懈时，品控能否兜底？
-- signal: 复盘时大家都在说“执行的人不认真”，但没有人追问“谁负责检查执行”
+- src_unknown
   framework_lens: 问题被错误归因到人的自觉性，而机制设计缺了一层 SOP
   follow_up_question: 除了责备执行者，我们能不能补一个监控 SOP，让检查成为流程本身？
-- signal: SOP 越写越细、越改越多，但执行率没有明显提升
+- src_unknown
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？
 ---# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
@@ -75,11 +75,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你写了一个流程/清单/SOP，但团队总是“有时用、有时不用”，质量忽高忽低。
-- 关键业务环节（直播、销售、交付、生产）需要稳定输出，不能依赖个人当天状态。
-- 你想把“最佳实践”固化成组织习惯，而不是停留在纸面上。
-- 你正在设计一个需要多人协同、节点明确的运营体系。
-- 你发现复盘总在重复“执行不到位”，却没人承担“检查执行”的职责。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -88,13 +88,13 @@ diagnostic_signals:
 
 2. **加第一层锁：督导 SOP（检查层）**
    指定一个“督导”角色，他的工作不是执行，而是检查执行者是否按 SOP 做了。
-   - 督导自己也要有一份 SOP：什么时候检查、检查哪些节点、记录什么、发现偏差怎么办。
-   - 这一步通常能把执行率从 50–70% 提升到 70–90%。
+   - src_unknown
+   - src_unknown
 
 3. **加第二层锁：品控 SOP（质量层）**
    再指定一个“品控”角色，他的工作是检查督导的工作质量。
-   - 品控关注的是：督导有没有漏检、记录是否真实、反馈是否闭环。
-   - 三层都到位后，执行率可以接近 100%。
+   - src_unknown
+   - src_unknown
 
 4. **按 ROI 决定锁的层数**
    不是每个 SOP 都需要三层锁。低价值环节一层就够了；高价值、高风险、高频环节才值得上三层。
@@ -113,13 +113,13 @@ diagnostic_signals:
 
 张扬的回答是：加了两层锁。
 
-- **版本 1：只有主播 SOP**
+- src_unknown
   靠主播自觉拿着单子执行，执行率大约 50%–70%。
 
-- **版本 2：加一个督导角色**
+- src_unknown
   督导在旁边记录：这儿做了、这儿没做。一堆主播配几个督导，督导用来督促主播。执行率瞬间提升到 70%–90%。
 
-- **版本 3：再加一个总品控督导**
+- src_unknown
   总品控督导检查督导的工作质量。执行率几乎接近 100%。
 
 张扬的逻辑是：加了两层锁之后，SOP 很难再失手。除非主播不靠谱、督导不靠谱、品控不靠谱，三个人同时不靠谱，才会漏掉。否则一定会在某个链路被挑出来。
@@ -133,11 +133,11 @@ Truman 的习惯是：当 SOP 没执行好的时候，不先去骂执行者，�
 ### 案例 3：Truman 自己的工作习惯
 
 Truman 后来很多经验也是从张扬这里开始学的。他的原则是：
-- 保证 SOP 的执行本身也是一套 SOP；
-- 当 SOP 没执行好时，先补一个监控 SOP；
-- 每件事都要评估 ROI，不是无限细化；
-- 绝大部分工作做到 L2/L3 就够了，因为简单；
-- 一旦开始建模，尤其是要当成“江湖地位”的模型，一定奔着 L5 去拉满。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例 4：一堂直播前热身 SOP 的“督促员”锁
 
@@ -147,12 +147,12 @@ Truman 后来很多经验也是从张扬这里开始学的。他的原则是：
 
 ## 适用边界
 
-- **适用于确定性高、可标准化的工作**。如果工作本身需要大量即兴发挥（如创意发散、危机公关），锁太多会扼杀灵活性。
-- **需要持续投入人力**。督导和品控都是成本，必须评估 ROI。
-- **不能替代 SOP 本身的质量**。如果第一版 SOP 逻辑混乱、脱离现场，加再多锁也只是把错误执行得更稳定。
-- **锁的层数必须按 ROI 决策**。低价值环节一层锁就够了，只有高价值、高风险、高频环节才值得上三层锁。
-- **不适用于文化尚未成型的团队**。如果团队本身不信任流程、不认可复盘，锁会变成形式主义。
-- **检查者需要独立汇报线**。督导如果完全隶属于执行者，检查容易流于形式；品控如果无法向上反馈，锁会失效。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -166,16 +166,16 @@ Truman 后来很多经验也是从张扬这里开始学的。他的原则是：
 
 ## 为什么值钱
 
-- 多数团队把“写 SOP”当成终点，结果 SOP 成了抽屉里的废纸。真正的难点不是写，而是**稳定执行**。
-- “给 SOP 加 SOP”是一个反直觉的解法：你以为问题是执行者不自觉，其实问题是**没有人负责检查执行**。
-- 这套机制把单点失败变成了“三层串联失效”才会失败，系统可靠性指数级提升。
-- 任何公开的最佳实践、管理书籍都不会告诉你“一堂直播前热身清单”从 10 条迭代到 50 条的背后，是因为加了督导和品控两层锁。这是从真实业务现场磨出来的 Know-How。
-- 它和“逻辑洁癖”是一体两面：写 SOP 是流程建模，加锁是流程执行的再建模。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[process-modeling]] —— 流程建模工具卡，包含 SOP/清单的建模方法。
-- [[modeling-three-stages]] —— SOP 属于 60 分流程建模阶段；本暗知识解释了“稳定使用”这一步的关键机制。
-- [[case-zhangyang-anchor-sop-three-locks]] —— 张扬主播培训 SOP 三层锁的完整案例。
-- [[modeling-capability-for-kdo]] —— 一堂建模能力体系，理解 SOP 在建模段位中的位置。
-- `src_20260614_8269ccdb#1074-1129` —— Truman 口述原文：主播培训 SOP 的三层锁与 ROI 原则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

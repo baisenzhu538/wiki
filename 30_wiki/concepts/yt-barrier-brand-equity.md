@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-culture-moat
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的品牌知名度不高'"
+  - src_unknown
     framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
     follow_up_question: "你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？"
-  - signal: "用户说'用户说我们的产品好，但记不住品牌'"
+  - src_unknown
     framework_lens: 品牌资产——产品好≠品牌强，需要品牌记忆点
     follow_up_question: "你的品牌记忆点是什么？品牌符号、口号、颜色是否一致？"
-  - signal: "用户说'我们的品牌老化了，年轻人不认识'"
+  - src_unknown
     framework_lens: 品牌资产——品牌需要持续更新，不能老化
     follow_up_question: "你的品牌是否跟上了时代？年轻用户如何认知你的品牌？"
-  - signal: "用户说'竞品抄袭我们的品牌'"
+  - src_unknown
     framework_lens: 品牌资产——品牌被抄袭说明品牌有价值，需要法律保护
     follow_up_question: "你的品牌是否有商标保护？品牌差异化是否足够？"
-  - signal: "用户说'我们的品牌溢价能力弱'"
+  - src_unknown
     framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
     follow_up_question: "你的品牌信任度如何？用户是否愿意为品牌付溢价？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当品牌知名度低时 → 品牌曝光
-- 当品牌信任度低时 → 质量和服务
-- 当品牌老化时 → 品牌更新
-- 当品牌被抄袭时 → 法律保护
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-culture-moat`：文化护城河
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 品牌资产研究（Keller）
-- 品牌管理实践
+- src_unknown
+- src_unknown
+- src_unknown

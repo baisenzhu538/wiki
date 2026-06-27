@@ -13,20 +13,20 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: OSINT tools 2025-2026 comparison (Defcon Level, Cyble, Kali Linux Tutorials)
-- web: Web scraping APIs for AI agents (Grokipedia, Firecrawl, Crawl4AI docs)
-- web: Alternative data sources for hedge funds (ExtractAlpha, Greenwich Associates, Neudata)
-- web: Structured analytic techniques for intelligence analysis (Richards & Randolph)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-alt-data-free]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-overview]]'
-  - '[[tool-yitang-web-scraping-research]]'
-  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[tool-yitang-database-index]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研武器库补充：2025-2026年新武器
@@ -137,9 +137,9 @@ OSINT（Open Source Intelligence）是情报界的"调研方法论"——专业�
 
 ### 4.2 域名/DNS/SSL情报
 
-- **WHOIS历史查询**：域名什么时候注册的？持有者变过吗？（whois.domaintools.com）
-- **DNS记录分析**：竞对用了什么邮件服务、CDN、云服务商？（dnsdumpster.com）
-- **SSL证书透明度日志**：竞对什么时候申请了新的SSL证书？新证书=新域名=新项目/新产品（crt.sh）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4.3 媒体验证技术（来自OSINT的最佳实践）
 
@@ -173,10 +173,10 @@ Agent模式：   想问题 → 自主选择武器库策略 → 自主调用API/M
 
 ## Constraints & Boundaries
 
-- **适用**：Agent需要Web/API访问权限
-- **替代数据**：部分替代数据源昂贵（年费数万到数百万美元），需要评估ROI
-- **OSINT工具**：部分工具需要技术能力（命令行/脚本），Agent天然适配
-- **法律边界**：Web抓取需遵守robots.txt和ToS；替代数据需注意隐私合规
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

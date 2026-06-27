@@ -5,9 +5,9 @@ date: 2026-06-26
 type: framework
 status: enriched
 domain:
-- yitang
-- decision-science
-- entrepreneurship
+- src_unknown
+- src_unknown
+- src_unknown
 id: yt-unit-model-overview
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -30,33 +30,33 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 updated_at: '2026-06-26'
 related:
-  - '[[ocr-一堂-单元模型-单用户模型]]'
-  - '[[ocr-一堂-单元模型-单城市模型]]'
-  - '[[yt-personal-pan-product-practice]]'
-  - '[[ocr-一堂-单元模型-多模型情况]]'
-  - '[[yt-unit-model-selection]]'
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-单商圈]]"
-  - "[[tool-单元模型-单城市]]"
-  - "[[tool-单元模型-象限分析法]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[framework-单元模型-外部对抗地图]]"
-  - "[[framework-TCPR底层网络协议]]"
-  - "[[concept-单元模型-学练用]]"
-  - "[[concept-最简单元模型]]"
-  - "[[dk-单元模型-找全成本实操难点]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[dk-单元模型-规模对抗实操难点]]"
-  - "[[case-unit-model-gashapon]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队能算清公司整体账，但说不清"复制一个单元"到底赚不赚钱
+- src_unknown
   framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？
-- signal: 面对单订单、单客户、单门店、单销售等多个可能单元，团队争论不休
+- src_unknown
   framework_lens: 单元口径不统一——不同单元会呈现不同的"商业真相"
   follow_up_question: 我们争论的是"哪个单元更本质"还是"哪个单元更容易算"？当前阶段最需要盯紧的是哪个？
-- signal: 单订单/单SKU模型算出来盈利，但公司总账还在亏钱
+- src_unknown
   framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
 
@@ -115,9 +115,9 @@ Christensen 在《The Innovator's Dilemma》(1997) 中证明，当颠覆性技�
 
 ### 不要用的场景
 
-- **创新业务起盘期**：单元模型需要稳定的业务流程才能精算。在产品-Market Fit 未达成前，过早精算会因为数据波动大而导致错误结论
-- **平台级业务的初期**：平台业务的单元模型通常是双边或多边市场，单一的"单用户模型"可能忽视了网络效应与跨边价值
-- **依赖关系型业务**：如咨询服务、B2B大客户管理，每个单元的差异化极大，难以用统一模型覆盖
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -165,32 +165,32 @@ Christensen 在《The Innovator's Dilemma》(1997) 中证明，当颠覆性技�
 ### 计算过程
 
 1. **销售全周期成本**（按评估周期 12 个月）
-   - 前 2 个月：培训期成本 = 18,000 × 2 = 36,000 元
-   - 后 10 个月：正式期成本 = 18,000 × 10 = 180,000 元
-   - 12 个月基础人力成本 = 216,000 元
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **销售创造毛利**（按 12 个月内回款情况）
-   - 入职第 5 个月开始成单（2 个月培训 + 3 个月成单周期）
-   - 第 5-12 个月可完成约 4 单（假设成单节奏前低后高）
-   - 回款集中在第 11-17 个月，**12 个月评估周期内实际回款可能只有 1-2 单**
-   - 12 个月内实际回款毛利 ≈ 1.5 单 × 60,000 × 70% = 63,000 元
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **现金流视角**
-   - 12 个月内投入：216,000 元（工资）+ 提成 1.5 单 × 60,000 × 8% = 7,200 元
-   - 12 个月内回款毛利：63,000 元
-   - **12 个月现金流缺口：约 160,000 元**
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **18 个月视角**
-   - 第 13-18 个月再回款 3-4 单
-   - 累计回款毛利 ≈ 6 单 × 60,000 × 70% = 252,000 元
-   - 累计成本 ≈ 18,000 × 18 + 6 × 60,000 × 8% = 324,000 + 28,800 = 352,800 元
-   - **18 个月仍亏损约 100,000 元**
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ### 诊断结论
 
-- 只看"单订单模型"：每单毛利 42,000 元，很赚钱。
-- 补上"单销售模型"：招一个销售，18 个月内可能都回不了本。
-- 修复方向：提高客单价、缩短成单周期、降低销售成本，或重新评估"规模扩张"节奏。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 参考：徐剑课堂笔记指出"单销售模型是很多公司的盲区，忽略销售培养的隐形成本"；To B 五步法图片 OCR 亦强调"To B 业务一定要算的是单销售模型，这也是最容易忽视、犯错的单元模型"。
 
@@ -198,33 +198,33 @@ Christensen 在《The Innovator's Dilemma》(1997) 中证明，当颠覆性技�
 
 ### 与本库其他概念的关联
 
-- [[yt-entrepreneur-five-step-method]] — 单元模型是五步法的核心验证工具——每一步重大决策都应该先算清楚单元模型
-- [[yt-decision-y-model]] — Y模型提供了成本、收益、时间、空间的维度，单元模型是Y模型在具体业务中的落地工具
-- [[yt-entrepreneur-key-hypotheses]] — 每个单元模型的核心假设都是ABCD模型中需要验证的关键假设
-- [[master-decision-hygiene]] — 决策卫生要求“先算小账再算大账”，单元模型是这一原则的工具化实现
-- [[master-first-principles]] — 第一性原理要求拆到不可再拆，单元模型正是商业分析的第一性原理层
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- SaaS产品的单客户ARR模型与单销售AE模型
-- 线下零售的单门店模型与单商圈模型
-- 内容创业的单用户生命周期价值与单篇内容生产成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 当一个业务同时存在多个可能的单元模型时（如共享单车既有单车模型也有单用户模型），如何判断哪个是“主模型”？
-- 单元模型在跨国拓展时，文化、法规、消费习惯的差异会如何影响同一个模型的可复制性？
-- AI时代，当数据收集和分析变得极其容易时，单元模型的三角色分工是否会被AI重构？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- 开发一个“单元模型计算器”的互动工具，输入业务参数自动生成十大模型的初步估算
-- 为不同行业（电商、SaaS、线下零售、服务业）构建行业化的单元模型检查清单
-- 将单元模型与财务报表对接，建立“从单元到总账”的自动聚合机制
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- [ ] 当你要分析一个新业务时，先问自己：这个业务的“最小可独立运作单元”是什么？
-- [ ] 当你发现公司总账不赚钱时，用“十大模型检查清单”逐个排查，而不是看总账
-- [ ] 当你决定扩张新城市/新店面时，先算清楚“复制哪个”的单元模型，而不是直接复制整个城市模型
-- [ ] 当你发现团队成员只会看总账时，强制要求他们提交至少一个单元模型的精算表
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

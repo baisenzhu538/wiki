@@ -3,8 +3,8 @@ id: tool-Truman-AI工具选型决策
 title: 技能：AI工具选型决策
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-月白-口喷式设计工作流]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-开源模型与商业模型融合方案]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI工具选型决策
 
@@ -37,26 +37,26 @@ AI工具选型决策是Truman在AI工具应用AMA中提出的实操方法。
 
 ## 适用场景
 
-- 面对多个AI工具不知如何选择
-- 频繁纠结工具切换导致效率低下
-- 需要稳定产出而非测试对比时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 需要特定功能某单一工具无法提供
-- 处于能力训练阶段需要对比学习feature特性时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Cloud
-- 豆包
-- 橙子
-- 各类AI工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AI工具选型决策是Truman在AI工具应用AMA中提出的实操方法。
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

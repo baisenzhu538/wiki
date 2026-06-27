@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-hypothesis-test
 title: 内核假设测试：低成本验证方法
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-ten-metrics
-  - yt-demand-early-validation
-  - yt-five-step-method
-  - yt-entrepreneur-key-hypotheses
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我觉得用户会喜欢'，但没有测试"
+  - src_unknown
     framework_lens: 内核假设测试——假设未测试
     follow_up_question: "你的内核假设是什么？用什么方法测试？测试结果是什么？"
-  - signal: "用户测试了假设，但测试方法太弱"
+  - src_unknown
     framework_lens: 内核假设测试——测试方法需要足够强
     follow_up_question: "你的测试是口头验证还是行为验证？行为验证的可信度更高。"
-  - signal: "用户测试了假设，但只测试了一个维度"
+  - src_unknown
     framework_lens: 内核假设测试——需要多维度测试
     follow_up_question: "你测试了'用户愿意用'，但测试了'愿意付'和'愿意推荐'吗？"
-  - signal: "用户测试后，不根据结果调整"
+  - src_unknown
     framework_lens: 内核假设测试——测试结果需要指导行动
     follow_up_question: "如果测试结果不支持假设，你会调整方向吗？"
-  - signal: "用户说'测试太麻烦了，直接做吧'"
+  - src_unknown
     framework_lens: 内核假设测试——测试是降低风险的必要投入
     follow_up_question: "直接做的风险是什么？如果方向错误，损失有多大？"
 
@@ -124,22 +124,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当提出假设时 → 转化为可测试的指标
-- 当设计测试时 → 选择低成本、快速的方法
-- 当执行测试时 → 记录数据，不加工
-- 当分析结果时 → 尊重数据，调整方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-demand-early-validation`：需求早期验证低成本测试法
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-key-hypotheses`：关键假设验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 精益创业（Eric Ries）：假设驱动开发
+- src_unknown
+- src_unknown
+- src_unknown

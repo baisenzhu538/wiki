@@ -13,26 +13,26 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: basic
 estimated_tokens: 1500
 version: 1
 query_triggers:
-- 对标公司
-- 竞对选择
-- 对标分析
-- 可比公司
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - '[[tool-yitang-public-sentiment-research]]'
-  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
-  - '[[tool-yitang-supply-chain-research]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-financial-report-intelligence]]'
-  - "[[tool-yitang-financial-report-intelligence]]"
-  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 对标公司选择三步法：加法·减法·三原则
@@ -84,7 +84,7 @@ related:
 
 ## 来源
 
-- 三步法框架来源：徐鱼上市公司报告解读课，`一堂-上市公司报告解读-口述.txt`
+- src_unknown
 
 ---
 

@@ -6,24 +6,24 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- ai-saas
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 老朱
 source_context: YC口述/AI时代组织与代码价值判断
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
 related:
-  - '[[structured-ai-workspace]]'
-  - '[[dk-modeling-case-explosion-confidence]]'
-  - '[[dk-lz-ai-native-organization]]'
-  - '[[dk-yb9-cubox-deployment-failure]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-lz-ai-native-organization]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[dk-jh-llm-time-blindness]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: unknown
@@ -31,8 +31,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- source_refs empty: 原始来源未迁移至 10_raw/sources/，溯源链待补
-- author unknown: 口述来源作者信息未确认
+- src_unknown
+- src_unknown
 ---# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 
 ## 原始表述 / 核心洞察
@@ -47,11 +47,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- **AI原生组织的资产盘点**：判断公司里哪些代码应该被当作消耗品，哪些业务上下文应该被沉淀为永恒资产。
-- **传统SaaS公司的战略转型**：当代码护城河被AI抹平时，重新定位公司的核心壁垒。
-- **投资人评估软件公司估值**：区分"代码量"和"上下文资产"，避免高估即将被AI重构的业务系统。
-- **技术团队的"重写 or 迁移"决策**：判断一个老系统是AI重写，还是把业务规则迁移到新系统上。
-- **企业AI落地优先级判断**：决定是先买/造一个AI生成代码的工具，还是先建立业务上下文的积累体系。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -67,13 +67,13 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **仅适用于AI能够高效生成的代码类型**：业务系统、管理后台、数据处理脚本等。嵌入式系统、实时操作系统、安全关键系统仍需要人工精确设计。
+- src_unknown
 
-- **代码虽易生成，但测试、部署、运维的隐性成本仍然存在**：生成代码只是第一步，生产环境中的稳定性、安全性、性能优化仍需要人工干预。
+- src_unknown
 
-- **业务上下文的"抽象"和"存储"本身需要方法论**：很多公司知道上下文重要，但不知道如何系统性地抽象和存储。缺乏方法论可能导致"知道重要但做不到"。
+- src_unknown
 
-- **金融、医疗等强监管行业中，代码的合规性和审计追溯价值远超上下文**：这些行业不能随意重写代码，因为每一行代码都需要可审计。
+- src_unknown
 
 ### 外部攻击（不同范式视角）
 
@@ -99,19 +99,19 @@ diagnostic_signals:
 
 这条暗知识值钱，因为它直接戳中了AI时代企业资产观的致命转移：
 
-- **它预示了软件公司估值逻辑的根本变化**。当AI能以小时为单位生成业务系统时，"代码量"不再构成护城河，投资人需要新的估值锚点。
-- **它帮助企业避免在错误的资产上持续投入**。传统软件公司如果继续把资源堆在代码上，而不转向上下文资产，会在AI浪潮中被抹平。
-- **它给出了AI原生组织的资产积累方向**。不是积累代码，而是积累业务上下文、业务窍门、失败模式——这些才是AI越强大反而越值钱的东西。
-- **它提供了一个清晰的决策框架**。区分"消耗品"和"永恒资产"，让技术团队在"重写"和"迁移"之间做出更理性的选择。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-lz-ai-native-organization]] —— 中层消失与代码消耗品化是同一个趋势的两个面向：AI能力爆发正在重构组织的"人"的结构和"代码"的价值。两者共同构成AI原生组织的资产观革命。
+- src_unknown
 
-- [[concept-纪浩-ai-collaboration-five-layer]] —— 五层结构中的"日志"层就是业务上下文的积累。老朱的洞察是：日志不仅是系统运行记录，更是企业最珍贵的永恒资产。
+- src_unknown
 
-- [[dk-jh-llm-time-blindness]] —— LLM时间盲症说明模型本身有局限，但老朱的洞察是：即使模型有局限，它仍然足以重构组织——因为重构的核心不是模型的完美，而是上下文的积累。
+- src_unknown
 
-- [[dk-truman-iteration-to-aesthetic-ceiling]] —— 知识产品需要迭代到审美上限，但代码不需要——因为代码是消耗品。这是两种产品在AI时代的根本性分叉。
+- src_unknown
 
-- [[dk-my-ai-landing-three-barriers]] —— 大多数公司落不了地AI的根本原因是：他们的核心资产是代码，但代码正在变成消耗品。如果不能及时转向上下文资产的积累，这些公司将在AI浪潮中被抹平。
+- src_unknown

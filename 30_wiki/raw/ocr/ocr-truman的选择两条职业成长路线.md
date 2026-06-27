@@ -3,7 +3,7 @@
 id: "ocr-truman的选择两条职业成长路线"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_9cbdf4fd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: truman的选择：两条职业成长路线"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[yt-skill-storyline-contrast-analysis]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[yt-model-truman-career-routes]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: truman的选择：两条职业成长路线
@@ -36,33 +36,33 @@ Y路线：泛产品设计 见过模型--看人用过--自己用过--少量刻意
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- X路线（传统产品设计）遵循"见过模型→看人用过→自己用过→少量刻意练习"的学习路径，Y路线（泛产品设计）遵循"思考底层→看大量迁移→自己迁移→大量刻意练习"的学习路径。
-- X路线掌握难度相对简单，需掌握百量级知识，使用频率偏低，可迁移性较弱，练习周期为月/季度/年；Y路线掌握难度相对困难，仅需掌握十量级知识，使用频率偏高，可迁移性较强，练习周期长达10年。
-- 职业成长的关键选择在于：是否愿意用更底层、更难的学习，换取更长期、更强迁移、更笃定的核心能力。
-- 底层能力的投资回报周期更长（10年 vs 月/年），但知识掌握数量更少（十量级 vs 百量级），使用频率和可迁移性更高。
-- 刻意练习的"量"是区分两条路线的核心变量：X路线"少量"，Y路线"大量"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该模型声称Y路线"仅需掌握十量级知识"，但未说明这"十量级"具体指什么类型的知识单元（概念、模型、原则？），以及如何在实践中界定和计数这些单元
-- "练习周期"对比（月/季度/年 vs 10年）存在时间维度混淆：前者是复习/应用周期，后者似乎是能力养成总时长，这种不对称比较是否合理？
-- 模型隐含假设"可迁移性"与"使用频率"正相关且均为越高越好，但未论证为何低频、弱迁移的知识组合一定劣于高频、强迁移的组合——是否存在某些职业场景恰恰需要大量专用知识的深度组合？
-- "底层/难的学习"与"更笃定的核心能力"之间的因果机制未被解释：为什么更难的学习过程必然导致更笃定的心理状态？是否存在认知负荷过高导致放弃的风险？
-- 模型将"刻意练习的量"作为核心区分变量，但未界定"少量"与"大量"的具体标准，也未考虑学习者个体差异（先验知识、认知风格、可用时间资源）对最优练习量的调节作用
-- "两条路线"的二分框架是否过度简化了实际职业路径？是否存在混合路线或动态切换策略，以及何时从X转向Y（或反向）的决策依据是什么
-- The two routes appear to assume a binary choice—is there room for hybrid models or sequential transitions between them?
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **二元对立的假设：两条路线被设定为非此即彼的二元选择，但未考虑混合模式或在两者之间转换的可能性。
-- **"强化主业"的倾向性："强化主业"被预设为更安全、更实用的选择，但未论证为什么"扩展副业"不能成为主业。
-- **时间维度的缺失：未说明这两条路线是否会随时间变化——例如，一个人是否可以先走路线A再转到路线B？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Seth Godin 在《Linchpin》中主张：真正的艺术家不做"选择题"，�
 
 ### 不要用的场景
 
-- **创业或自由职业者：这些人可能无法被简单分类为"主业"或"副业"。
-- **需要快速转行或跨领域发展的人：二元框架不适合需要多次转型的人。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-ai-partner]] — 职业路径选择与两条路线的二元框架形成对照
-- yt-decision-portfolio-career — 组合职业是对两条路线的突破
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 职业规划咨询：用两条路线帮助客户理解自己的偏好
-- 组织人才发展：为员工设计"主业+副业"的双轨发展路径
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

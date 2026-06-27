@@ -4,38 +4,38 @@
 
 id: yt-panproduct-execution-milestone-breakdown
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1070
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：里程碑拆解
-- 落地卡片
-- 落地执行
-- 里程碑拆解
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：里程碑拆解
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-管理三段论]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-复盘迭代]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[tool-泛产品落地-十倍速验证]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
@@ -49,18 +49,18 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 每个里程碑都有可验证的交付物和通过标准
+- src_unknown
   framework_lens: 里程碑是可验证的中间节点
   follow_up_question: 到达这个里程碑时，谁能仅凭交付物判断它是否完成？
-- signal: 里程碑之间的依赖关系被显式标注
+- src_unknown
   framework_lens: 顺序背后是约束
   follow_up_question: 如果前一个里程碑延迟，哪些后续里程碑必须顺延？
-- signal: 在关键里程碑处设置了风险缓冲或检查点
+- src_unknown
   framework_lens: 不确定性需要缓冲
   follow_up_question: 这个里程碑的日期是乐观估计还是包含缓冲？
-- signal: 里程碑的完成标准可以被写成一个第三方能独立判断的"是/否"问题
+- src_unknown
   framework_lens: 可验证性=降低争议和自欺欺人
   follow_up_question: 这个里程碑完成后，你能用一句话让投资人或客户相信它真的完成了吗？
 updated_at: '2026-06-16'
@@ -102,8 +102,8 @@ status: superseded
 
 > "尽量避免推翻重来和一蹴而就的幻想，把一个重要的交付，分解成一个个循序渐进的里程碑。"
 
-- 关键动作：识别关键交付节点 → 设定可验证标准 → 逐个推进交付
-- 核心原则：每一步都有明确的"完成"标准
+- src_unknown
+- src_unknown
 
 > 适合场景：所有重要投入的、容易失败的、容易推翻的产品设计
 > 进步方式：学一堂课《项目管理2：计划拆解基本功》
@@ -122,8 +122,8 @@ status: superseded
 | 是否预留缓冲 | 关键路径上的 M 包含 ≥20% 时间或质量缓冲 | 按"一切顺利"的乐观估计排期 |
 
 **改写示例**：
-- ❌ 原表述："M2：完成用户调研"
-- ✅ 精修后："M2：完成 15 场目标用户访谈，输出 5 条可验证需求假设，由产品经理与业务负责人共同验收，截止日期 6 月 30 日。"
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 
@@ -132,9 +132,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Eliyahu Goldratt的"约束理论" + Bent Flyvbjerg的"巨型项目铁律"
 

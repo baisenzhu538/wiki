@@ -6,7 +6,7 @@ title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复�
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
+  - src_unknown
 language: zh-CN
 version: 2
 confidence: 0.89
@@ -14,41 +14,41 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - '[[yt-note-problem-solving-capability]]'
-  - '[[tool-现场建模式萃取笔记]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
-  - '[[yt-skill-checklist-as-ai-protocol]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[yt-model-prediction-model]]'
-  - '[[dk-note-surplus-brainpower]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 清单体L6
-- 萃取阶段
-- 笔记即资产
-- 现场建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-10
 updated_at: '2026-06-18'
 estimated_tokens: 3500
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- enrichment
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 在信息输入的同时就能提取结构，而不是听完/读完再整理
+- src_unknown
   framework_lens: 剩余脑力足够支撑接收+提取+建模三重任务
   follow_up_question: 你能否在5分钟内把一场1小时的分享压缩成一个可复用的最小模型？
-- signal: 萃取出的模型能被他人直接调用，而不需要作者在场解释
+- src_unknown
   framework_lens: 知识产品化：上下文解耦
   follow_up_question: 一个不熟悉背景的人拿着你的模型，能否在类似场景下做出一致判断？
-- signal: 同一份萃取物在3个以上不同情境中被复用并产生价值
+- src_unknown
   framework_lens: 资产价值=复用次数×每次收益
   follow_up_question: 这个模型最近一次被调用是什么时候？解决了什么问题？
-- signal: 萃取出的模型对新情境具有预测或解释力，而不是只能描述已发生的事实
+- src_unknown
   framework_lens: 从描述性知识跃迁到生成性模型
   follow_up_question: 用这个模型能否在事情发生前做出判断？误差主要来自模型本身还是信息不足？
-- signal: 萃取过程本身可被复盘、传授或工具化，形成可复用的萃取工作流
+- src_unknown
   framework_lens: 元能力：萃取的萃取
   follow_up_question: 你能否把这次萃取的方法教给另一个人，并让他在不同主题上复现？
 author: unknown
@@ -77,9 +77,9 @@ L6萃取阶段是清单体笔记的"产品化"跃迁：在现场把个人理解�
 **核心跳跃**：从"笔记是我用的工具"到"笔记是别人也能用的产品"。
 
 **关键能力**：
-- 现场建模（在信息输入的同时完成结构提取）
-- 快速建模（5分钟内完成一个领域的最小认知框架）
-- 一次到位（现场直接产出可交付的萃取物）
+- src_unknown（在信息输入的同时完成结构提取）
+- src_unknown
+- src_unknown
 
 **训练要点**：
 1. 现场提问：在信息输入的当下就提出萃取性问题
@@ -136,13 +136,13 @@ L6的本质是**笔记从"消费行为"变成"生产行为"**。 [[yt-note-check
 
 ## 行动 Checklist
 
-- [ ] 选定一个反复出现的高价值场景，明确萃取要解决的一类问题。
-- [ ] 在下次听课/阅读/会议中，尝试在5分钟内提取一个最小可复用模型。
-- [ ] 用"陌生人测试"：把萃取物交给一个不熟悉背景的人，看他能否独立使用。
-- [ ] 用"删除测试"检查每个维度：去掉它，模型是否明显变弱？
-- [ ] 记录模型的最近一次调用时间、场景和结果，验证复用价值。
-- [ ] 为模型设定48小时复核窗口和保质期，建立迭代机制。
-- [ ] 把萃取过程本身复盘成可传授的步骤，形成自己的萃取工作流。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
@@ -178,7 +178,7 @@ Truman能做到是因为他已经把前三步内化为自动化过程（System 1
 
 ## 相关卡/互链
 
-- [[yt-note-checklist-concept]]：清单体笔记的分层与分点，是L6生产知识产品的"模具"。
-- [[yt-note-l4-internalization]]：L4的问题驱动是L6模型驱动的基础。
-- [[yt-model-prediction-model]]：L6萃取物的验收标准之一是具有可验证的预测力。
-- [[dk-note-surplus-brainpower]]：解释为何L6的现场建模需要L1-L5内化为自动化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

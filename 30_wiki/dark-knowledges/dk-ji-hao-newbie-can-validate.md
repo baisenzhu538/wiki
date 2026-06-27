@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: 'AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明'
 source_refs:
@@ -15,22 +15,22 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 related:
-  - '[[dk-ji-hao-simple-complex-routing]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '团队里有人说“我们是新手，判断不准”而迟迟不验证'
+- src_unknown
   lens: 四要素验证法
   follow_up_question: 你手头有五种验证工具中的哪几种可用？缺的是工具，还是启动验证的许可？
-- signal: '创始人凭直觉拍板，回头才发现是“兴奋的幻想”'
+- src_unknown
   lens: 新手验证工具箱
   follow_up_question: 这个判断能否在 48 小时内通过一次用户访谈或一个最小实验得到证据？
 ---# 暗知识：新手也可以用四要素验证
@@ -80,13 +80,13 @@ KDO 的 lint 规则就是这个哲学的基础设施化——不是让 Builder �
 
 ## 行动 Checklist
 
-- [ ] 写出一句 Before-After 假设：我猜现在的问题是 X，解决后是 Y
-- [ ] 做一次快速调研：有没有人做过类似的事？结果如何？为什么不做了？
-- [ ] 访谈 3-5 个目标用户：如果有这个，你会用吗？你现在怎么解决的？
-- [ ] 用 AI 分析因果链：如果我要解决 X，需要哪些条件？哪些我目前不具备？
-- [ ] 设计一个最小实验：截图、描述或原型，观察真实反应
-- [ ] 汇总证据：够就继续，不够就停止或调整假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-ji-hao-ai-collaboration-methodology]]
+- src_unknown

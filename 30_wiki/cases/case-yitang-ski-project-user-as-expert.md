@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-yitang-track-selection-research]]'
-  - '[[case-yitang-doorstep-nail-service-context]]'
-  - '[[case-yitang-ai-time-management-coach]]'
-  - '[[case-yitang-mvp-reward-interview-waste]]'
-  - "[[framework-yitang-expert-interview-10steps]]"
-  - "[[tool-yitang-user-interview-5steps]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：滑雪项目——把重度用户当专家

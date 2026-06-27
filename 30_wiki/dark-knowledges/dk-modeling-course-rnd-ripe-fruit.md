@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,21 +16,21 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[case-modeling-abstraction-reliability-ladder]]'
-  - '[[dk-modeling-timely-review-session-window]]'
-  - '[[dk-modeling-unit-pairs-milestone]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[framework-course-milestone-model]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[dk-modeling-unit-pairs-milestone]]'
-  - '[[dk-modeling-timely-review-session-window]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/course-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -47,10 +47,10 @@ updated_at: '2026-06-16'
 
 ## 使用场景
 
-- 你在做原创方法论、研究型课程、研究型内容。
-- 管理层要求你提前半年给出详细交付计划。
-- 你想在“稳定交付”和“研究质量”之间找平衡。
-- 你在评估一堂为什么有时“开天窗”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -79,20 +79,20 @@ updated_at: '2026-06-16'
 
 在研究型课程/内容启动前，逐条确认：
 
-- [ ] **1. 识别产品类型**：本次内容是“微波炉产品”（可标准化、确定性高）还是“研究型产品”（需原创、不确定性高）？
-- [ ] **2. 定义成熟度标准**：明确 L1-L5 各级的验收标准，尤其是“可摘果”的 L4/L5 标准。
-- [ ] **3. 用成对单元模型切里程碑**：把“输入→输出”“发散→收敛”“假设→验证”等单元拼成阶段评审点，而不是按周排课。
-- [ ] **4. 设置品控红线**：存在可见反例、关键假设未验证、讲师自己都没说服自己的内容，宁可不开。
-- [ ] **5. 设定研究截止线和退出标准**：每个研究方向必须有最大投入上限和“不成熟就放弃/合并”的退出机制。
-- [ ] **6. 管理外部预期**：在宣传页、用户沟通、内部汇报中明确“研究型内容按成熟度交付，不承诺固定课表”。
-- [ ] **7. 建立及时复盘窗口**：每次“摘果”或“养菜”后，在 session 窗口内复盘，把新认知趁热写成 SOP/清单补丁。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
-- **仅适用于研究型、原创型内容**。标准化培训课仍可提前排期。
-- **需要组织有“研究耐心”**。如果现金流压力巨大，很难执行。
-- **不能变成拖延借口**。每次“养着”都要有明确的研究下一步。
-- **需要高质量品控人**。否则“没熟”会无限期推迟。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -105,15 +105,15 @@ updated_at: '2026-06-16'
 
 ## 为什么值钱
 
-- 公开教育机构不会承认“我们无法提前排课表”，一堂公开承认这一点，本身就是暗知识。
-- 它揭示了研究型内容生产的真实约束：质量与确定性不可兼得。
-- 对任何做原创方法论、研究型产品、深度内容的团队都有参考意义。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-counterexample-driven]] —— 研究型内容需要以推翻为目标验证。
-- [[framework-course-milestone-model]] —— 一堂课程里程碑模型。
-- [[case-yitang-weekly-modeling-engine]] —— 用周对周迭代保证研究持续推进。
-- [[dk-modeling-unit-pairs-milestone]] —— 用“成对单元模型”切分研究里程碑，替代精确课表。
-- [[dk-modeling-timely-review-session-window]] —— 研究内容必须卡在 session 窗口内及时复盘，否则细节和体感快速衰减。
-- `src_20260614_8269ccdb#3694-3719` —— Truman 口述原文：研究型课程无法提前排课表。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

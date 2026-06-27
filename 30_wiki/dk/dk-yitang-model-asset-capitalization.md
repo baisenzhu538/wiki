@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - "[[yitang-domain-digest]]"
-  - "[[modeling-weapon-library]]"
-  - "[[tool-radar-chart-modeling]]"
-  - "[[framework-course-milestone-model]]"
-  - "[[case-yitang-weekly-modeling-engine]]"
-  - "[[case-yitang-model-valuation-flywheel]]"
-  - "[[case-yitang-model-asset-inventory]]"
-  - "[[case-yitang-radar-chart-selection]]"
-  - "[[case-yitang-double-triangle-confidence]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 组织级模型资产的盘点、定价与迭代
@@ -89,17 +89,17 @@ related:
 
 ✅ **适合**：
 
-- 主要产出是模型、方法论、课程、SOP 的知识型组织；
-- 已沉淀 50+ 个模型/清单，样本量足够做盘点 [conf=0.85, source=case-yitang-model-asset-inventory]；
-- 有数字化知识库或课程资料可供 AI 扫描；
-- 管理层愿意为质量牺牲确定性，允许临时取消/调课并向用户解释；
-- 团队能区分“人没做好”和“模型没覆盖”，复盘不变成批斗会 [conf=0.85, source=case-yitang-weekly-modeling-engine]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ❌ **不适合**：
 
-- 标准化实物产品制造或高度流程化、无需持续建模的业务；
-- 组织把“创新数量”当 KPI，难以接受“95% 都是旧范式变形”的结论 [conf=0.85, source=case-yitang-model-asset-inventory]；
-- 只有 1–2 个关键维度重要的简单决策场景（雷达图会造成虚假精确感）[conf=0.85, source=case-yitang-radar-chart-selection]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
@@ -111,10 +111,10 @@ related:
 
 模型资产的复利效应是“拿钱买不到的增长”[conf=0.85, source=case-yitang-weekly-modeling-engine]。当组织把个人经验封装成可复用范式后：
 
-- 新人不必重新踩坑，复用已有模型即可达到 60 分以上的基线；
-- 高手可以把时间花在“推两层”和打磨 10 万美金级别的核心模型上，而不是重复讲解基础概念；
-- 决策从“谁拍板”变成“模型怎么说”，减少政治、印象和隐性权威带来的噪声 [conf=0.85, source=case-yitang-radar-chart-selection]；
-- AI 盘点和范式归集让组织清楚自己到底拥有什么，避免为“伪创新”支付额外的认知和维护成本 [conf=0.85, source=case-yitang-model-asset-inventory]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 一句话：模型资产资本化，是把组织从“依赖个体手感”升级为“依赖可积累基础设施”的关键跃迁 [conf=0.80, source=王语嫣 synthesis_yitang.md]。
 
@@ -122,9 +122,9 @@ related:
 
 本暗知识与以下框架/工具卡部分重叠：
 
-- **[[modeling-weapon-library]]**：提供常见模型武器库与按问题难度调用模型的思路，解决“有什么模型可用”；
-- **[[tool-radar-chart-modeling]]**：提供雷达图建模的通用协议，解决“多维评选怎么画”；
-- **[[framework-course-milestone-model]]**：提供课程从想法到交付的七步生产流程，解决“单个课程怎么做”。
+- src_unknown
+- src_unknown
+- src_unknown
 
 但这些框架未覆盖的缺口正是本卡存在的理由：
 

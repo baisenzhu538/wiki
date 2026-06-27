@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计者的三大自我修养"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_2a53b1eb
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计者的三大自我修养"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂刻意练习十年成长指数]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-泛产品设计的应用场景示意图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计者的三大自我修养
@@ -34,35 +34,35 @@ png` 一堂·泛产品设计看的三大自我修养 堂 Yitang·TheWayofGeneral
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计者的三大核心修养：审美工具箱（练审美）、落地工具箱（练酝酿）、需求工具箱（练洞察）。
-- 审美追求：永远以"最佳实践"为目标，识别GAP（进步空间），持续打磨从粗糙到美好。
-- 落地迭代：永远以"无限进步"为迭代原则，理解用户，将设计从凑合提升至专业作品。
-- 需求洞察：永远以"用户价值"为中心，通过练洞察把握真实需求。
-- 成长心态：用10年的心态修炼真本事，以长期主义打造"美好作品"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- "泛产品设计者"的具体定义和边界是什么？与UX设计师、产品经理、全栈设计师等角色有何区分？
-- "最佳实践"作为审美追求的目标，其标准由谁定义、如何验证？是否存在行业偏见或文化局限性？
-- "GAP（进步空间）"的识别方法论未说明：是主观判断还是基于用户测试/数据反馈？有无具体评估框架？
-- "无限进步"的迭代原则与资源约束（时间/成本/机会成本）之间的张力如何平衡？何时应停止迭代？
-- "理解用户"与"用户价值"之间的关系未厘清：理解用户是否必然导向用户价值？是否存在用户说想要但实际无价值的情况？
-- "10年的心态"作为长期主义宣言，缺乏阶段性里程碑设计——如何避免沦为空洞口号或导致早期放弃？
-- 三个工具箱（审美/落地/需求）之间的优先级和交互关系未说明：是否存在依赖顺序或动态权重调整机制？
-- "必修课"定位与"扫码学3天"的短期交付承诺之间存在矛盾：3天课程如何支撑10年修炼的宣称？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

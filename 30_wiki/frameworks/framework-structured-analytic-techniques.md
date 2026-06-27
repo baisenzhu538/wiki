@@ -13,18 +13,18 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Richards Heuer & Pherson, Structured Analytic Techniques for Intelligence Analysis
-- web: CIA Tradecraft Primer
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-harness-adversarial-tester]]'
-  - '[[framework-ci-operating-model]]'
-  - '[[tool-red-team-analysis]]'
-  - '[[tool-devils-advocacy]]'
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-key-assumptions-check]]"
-  - "[[tool-devils-advocacy]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # SATs结构化分析技术
@@ -68,9 +68,9 @@ def recommend_sat(decision_type, confidence_level, stakes):
 
 ## 适用边界
 
-- **适用**：高风险决策、需要对抗认知偏差的分析场景
-- **不适用**：日常小额决策、信息充分且无争议的判断
-- **来源**：CIA Tradecraft Primer + Heuer & Pherson SATs文献
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

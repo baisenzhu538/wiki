@@ -15,12 +15,12 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-ci-define-phase]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-indicators-signposts]]'
-  - '[[tool-devils-advocacy]]'
-  - "[[framework-candy-transcript-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 口语化润色七条原则
@@ -68,8 +68,8 @@ prompt = """对以下文本执行口语化润色。严格遵循：
 
 ## 适用边界
 
-- **适用**：逐字稿、演讲稿、课程稿、任何"人说给人听"的内容
-- **不适用**：学术论文、技术文档、法律合同
+- src_unknown
+- src_unknown
 
 ---
 

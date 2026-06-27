@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-007
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-007
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[dk-f11-encyclopedia-style]]'
-  - '[[proposal-deep-synthesis-infrastructure]]'
-  - '[[dk-f9-generic-critique]]'
-  - '[[dk-jh-llm-time-blindness]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
-  - '[[master-first-principles]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[dk-f11-encyclopedia-style]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- Condense 段出现"本课程属于""在一堂知识地图中的位置""与同模块其他课程并列"等目录定位语言
-- 读完 Condense 仍说不出该课程独有的 3 条核心方法或洞见
-- Condense 内容可直接从课程目录或章节标题改写得到，无实质增量
+- src_unknown
+- src_unknown
+- src_unknown
 ---# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 
 ## 原始表述/核心洞察
@@ -54,16 +54,16 @@ diagnostic_signals:
 
 核心洞察：
 
-- Condense 的目标是提取课程的**核心洞见**，而不是复述课程在知识体系中的**目录位置**。
-- 表层翻译式提炼极具迷惑性：卡片格式完整、结构正确，但内容只是目录改写，没有增加认知价值。
-- 根因通常是 Builder 的阅读深度不够——没有真正消化源材料，只能用"结构信息"（目录、章节标题）填充卡片。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你正在执行三步编译法的 Condense 阶段， tempted 直接复制课程目录或章节标题作为核心结论
-- 你审查别人写的概念卡，发现 Condense 段读完仍不知道"这门课到底教了什么独特方法"
-- 你设计 L2 Lint 规则时，需要检测 Condense 段是否含足够的课程特有方法论
-- 你评估卡片质量时，需要区分"信息整理"和"知识萃取"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -75,11 +75,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有执行三步编译法 Condense 阶段的场景
-- 不适用于已经充分消化过源材料的快速复习——如果 Builder 确实深入理解了内容，Condense 可以高效产出
-- **与 F-KDO-011（百科词条化）有交叉**：表层翻译式提炼的卡片往往同时有百科词条化的结构（定义→分类→特征）
-- 如果源材料本身质量差（没有独特洞见，只是信息拼凑），Condense 段可能确实提炼不出有价值的内容——此时应标记源材料为"低价值"而非强行填充
-- 不同学科的课程差异很大：方法论课程（如一堂）容易识别核心洞见，而概论课程（如"互联网发展简史"）可能确实只有目录级信息
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -92,15 +92,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是知识萃取 vs 信息整理的经典陷阱：**"看起来完整"不等于"经过批判性加工"**
-- 表层翻译式提炼极具迷惑性——卡片有 Condense 段、有结构、有标题，但内容只是目录的翻译改写，没有增加任何认知价值
-- 揭示了"阅读深度"对知识生产的影响：Builder 如果没有真正理解源材料，只能用"结构信息"（目录、章节标题）填充卡片，因为"实质内容"需要理解才能提取
-- 任何 AI 训练语料中都不会有"KDO 的 Condense 段容易出现表层翻译式提炼"这条知识——这是具体工作流和方法论碰撞的产物
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-f11-encyclopedia-style]] — 交叉模式：表层翻译式提炼的卡片往往同时有百科词条化的结构，两者都是"用信息整理替代知识萃取"
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是批处理升级导致的内容空洞，F-KDO-007 是人工编译时因阅读深度不足导致的内容空洞——两者都是"有结构无实质"
-- [[master-first-principles]] — 第一性原理：回到源材料的核心洞见，而非其组织结构。Condense 的目标是提取"本质"，而非"目录"
-- `90_control/failure-modes.md` → F-KDO-007（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #6（不准用目录结构替代核心结论提取）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

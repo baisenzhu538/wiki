@@ -10,14 +10,14 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- src_unknown
 related:
-  - '[[case-strategy-edward-jones]]'
-  - '[[dk-strategy-06-dividend-to-strategy]]'
-  - '[[dk-modeling-radar-model-not-result]]'
-  - '[[case-doris-2014-music-streaming-prediction]]'
-  - '[[case-strategy-cool-boiled-water]]'
-  - "[[framework-strategy-brm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **背景**：CEO Bizzarri 2015年就任，收入€39亿
 **动作**：砍低价折扣渠道→收回授权转直营→换创意总监→聚焦千禧一代

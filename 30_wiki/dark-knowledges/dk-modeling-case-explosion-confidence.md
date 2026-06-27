@@ -8,8 +8,8 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - yitang
-  - modeling
+  - src_unknown
+  - src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
 created_at: '2026-06-14'
@@ -20,19 +20,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-  - 你设计了一个让学员/用户自由提交案例的环节，但担心现场失控
-  - 你需要向别人证明一个通用模型能覆盖真实世界的复杂情况
-  - 你收集了大量案例，但不确定是否足以支撑模型的边界判断
-  - 你遇到反例时第一反应是“这是特例”而不是“模型需要修正”
-  - 你的模型长期没有更新，却还在被用于解释新案例
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#method/modeling'
-  - '#content-format/case-study'
-  - '#confidence'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例大爆炸的底气：来自销冠广场，不是胆子大
 
 ## 原始表述/核心洞察
@@ -43,9 +43,9 @@ tags:
 
 ## 使用场景
 
-- 你做了一个通用模型，担心它覆盖不了真实世界的复杂情况
-- 你要设计一个让学员大量贴案例的活动
-- 你需要判断一个模型的边界是否足够清晰
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -57,9 +57,9 @@ tags:
 
 ## 适用边界
 
-- 前提是已经做过大量案例研究
-- 只适用于有统计意义的规律建模，不适用于个案解释
-- 需要持续维护广场
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -77,8 +77,8 @@ tags:
 
 ## 与其他知识的关联
 
-- [[dk-modeling-expert-consensus-five-percent]] —— 5% 专家决定广场质量
-- [[modeling-three-stages]] —— 本质建模阶段的统计建模心态
+- src_unknown
+- src_unknown
 
 ---
 

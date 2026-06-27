@@ -6,44 +6,44 @@ title: 技能："找老的干小的"场景评估清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 wiki_refs:
-- '[[sk-ai-landing-five-steps]]'
-- '[[ai-landing-scene-selection]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 prerequisite_skills: null
 related:
-  - '[[sk-ai-system-redundancy]]'
-  - '[[tool-ai-prd-for-ai]]'
-  - '[[tool-ai-old-small-checklist]]'
-  - '[[tool-ai-ai-workspace-setup]]'
-  - '[[tool-ai-parallel-validation]]'
-  - '[[sk-ai-landing-five-steps]]'
-  - '[[ai-landing-scene-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 团队讨论AI落地时，提出的场景大而全或过于新颖
-- 候选AI场景缺少历史数据或明确验收指标
-- 试点效果需要数月才能验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 # 技能："找老的干小的"场景评估清单
@@ -54,16 +54,16 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **找老的**：优先选择你熟悉的业务场景，能写出SOP，才能判断AI做得对不对。
-- **干小的**：选择影响范围小、2周内可验证的子任务，降低试错成本。
-- **你会的**：AI只能干你会的事，不要指望AI解决你也没搞懂的问题。
-- **可拆分**：大而全的场景必须拆成3步以内的小任务，才能快速迭代。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
-- **适用**：AI落地初期的场景筛选、团队头脑风暴后的优先级排序、老板要求快速试点时。
-- **不适用**：已经明确的成熟AI项目、需要全链路重构的复杂场景、缺乏任何业务背景判断的新领域。
-- **规模**：适合1-3人小组在1小时内完成初步评估。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -76,11 +76,11 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 列出所有候选AI落地场景
-- [ ] 对每个场景按5个维度逐项打分（+1/0/-1）
-- [ ] 选择总分最高的1-2个场景作为首批试点
-- [ ] 记录"为什么选这个"的决策理由
-- [ ] 在2周内完成试点并验证before/after指标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 场景评估表
 
@@ -94,13 +94,13 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- [[sk-ai-landing-five-steps]]
-- [[ai-landing-scene-selection]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

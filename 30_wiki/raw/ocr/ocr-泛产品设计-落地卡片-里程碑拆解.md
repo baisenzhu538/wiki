@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-里程碑拆解"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_4be84945
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-里程碑拆解"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-里程碑拆解
@@ -36,32 +36,32 @@ png` 泛产品设计·落地卡片 里程碑拆解 主动设定交付中间节�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 重要交付应分解为循序渐进的里程碑，避免推翻重来或一蹴而就的幻想。
-- 里程碑拆解适用于所有重要投入、容易失败、容易推翻的产品设计场景。
-- 主动设定中间交付节点是控制复杂产品设计风险的核心方法。
-- 计划拆解能力可通过系统性学习获得，属于可迁移的项目管理基本功。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文声称"没有什么不是一堂课解决不了的"，这一绝对化表述是否忽略了实践中的情境复杂性、组织阻力或个体差异因素？
-- "所有重要投入、容易失败、容易推翻的产品设计"均适用此方法的断言，是否有反例或边界条件未被检验（如极短周期、极高不确定性项目）？
-- "尽量避免推翻重来"与"容易推翻的产品设计"之间存在张力：前者作为目标，后者作为适用场景，但未说明如何区分"必要的方向修正"与"应避免的推翻重来"？
-- 提取知识中将"计划拆解能力"归为"可迁移的项目管理基本功"，但原文仅指向单一课程来源，该能力是否经过多源验证或存在替代学习路径？
-- OCR备注提示"可能存在连字/误识"，其中"Ⅱ：里程碑型"的编号体系是否完整？是否存在其他类型（如Ⅰ、Ⅲ）在原图中被遗漏，导致方法论呈现不完整？
-- "主动设定"中的"主动"具体指由谁发起（产品经理、团队、管理层）？不同发起主体是否影响方法有效性，原文未作区分？
-- "循序渐进"的粒度标准缺失：里程碑数量、时间跨度、验收标准等关键操作参数未定义，是否存在过度拆解或拆解不足的风险？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

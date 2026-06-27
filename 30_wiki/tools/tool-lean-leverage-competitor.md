@@ -10,24 +10,24 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
 related:
-  - '[[tool-lean-human-replace-system]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-leverage-resources]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 借同行产品：用竞品认知验证假设
@@ -45,27 +45,27 @@ related:
 
 2. **找到可借用的同行产品**
    选择满足以下条件的产品：
-   - 目标用户与你的产品高度重叠；
-   - 产品形态、使用场景与你想做的方向接近；
-   - 你可以合法地临时代理、转售、试用或演示。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **设计最小测试**
    根据假设选择测试形态：
-   - 验证渠道/转化：在自己的直播间、社群或客户群上架竞品，用真实流量测点击、咨询、下单；
-   - 验证线下场景：在友商的柜子、门店或投放点放置自己的产品信息或样品，观察用户行为；
-   - 验证 B2B 需求：用竞对的系统做演示或试用，收集企业客户的反馈 [conf=0.85, source=一堂讲义]。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **收集真实转化数据**
    重点记录可量化的行为数据，而非主观评价：
-   - 点击率、咨询率、下单率、客单价；
-   - 用户主动提及的痛点、犹豫点、替代方案；
-   - 复购意向、退货/投诉原因。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **推演到自有产品**
    把从竞品身上获得的数据映射回自己的产品假设：
-   - 如果竞品转化率高，说明需求存在，接下来验证「我能做出什么差异化价值」；
-   - 如果竞品转化率低，需要判断是品类问题、渠道问题，还是用户匹配问题；
-   - 如果用户频繁抱怨竞品的某个缺点，这可能就是你自研产品的切入点。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 成本/周期/样本量
 
@@ -84,17 +84,17 @@ related:
 
 **适合**
 
-- 已有成熟竞品的市场，如电商、消费品、本地生活、SaaS 等；
-- 0-1 阶段，尚未确定产品形态或渠道效率；
-- 需要快速回答「用户是否愿意为某类价值付费」的场景；
-- 团队资源有限，无法支撑自研产品+MVP 双轨并行。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合或需调整**
 
-- **全新品类无竞品可借**：没有同行产品时，应回归假营销、假产品、人工服务等更前置的工具。
-- **强监管行业（医疗、金融、教培、博彩）**：借竞品做测试可能涉及资质、广告法或监管红线，应转为专家访谈、合规调研、小规模观察 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：在自己的官方渠道售卖竞品可能稀释品牌或引发用户信任困惑，需明确标注「测试/调研」属性，或使用独立测试账号。
-- **B2B 长决策链**：单纯卖竞品无法还原企业采购的复杂决策流程，应结合深度访谈、试用协议和 POC 验证 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -115,20 +115,20 @@ related:
 **做法**：团队在自有直播间上架 2-3 款头部竞品的功能性运动单品，用与后续自有产品相近的人群包和话术，连续跑 3 场直播。
 
 **验证假设**：
-- 目标人群对「功能性运动服饰」是否感兴趣；
-- 直播渠道能否有效触达并转化该人群；
-- 用户更关注价格、功能、设计还是品牌。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **结果推演**：
-- 若点击率与转化率显著高于普通服饰，说明需求存在，可进入差异化设计；
-- 若用户频繁询问「有没有更便宜的同款」或「能否定制」，说明存在差异化空间；
-- 若几乎无转化，需要判断是品类问题、人群问题还是直播场景不匹配。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **启示**：借同行产品验证了需求与渠道后，再投入设计与生产，避免在方向未明时押注供应链 [conf=0.60, source=基于讲义方法的教学推演]。
 
 ### 可迁移案例
 
-- [[case-lean-electric-scooter-mvp]]：共享电动滑板车项目本可以先观察国外已有玩家的公开数据与用户反馈，进一步降低 D/C 阶段的验证成本；在已有竞品的市场中，「借同行产品」是比「假页面」更贴近真实用户行为的补充手段。
+- src_unknown
 
 ## Critique
 
@@ -136,16 +136,16 @@ related:
 
 **内部限制**
 
-- 只能验证「需求是否存在」，不能验证「我能否比竞品做得更好」。竞品卖得好不代表你能卖得好 [conf=0.85, source=一堂讲义推演]。
-- 数据可迁移性有限：竞品的定价、品牌、渠道能力会扭曲用户的真实偏好，直接套用可能误判。
-- 依赖竞品的可得性与合法性，若竞品不允许代理、试用或演示，工具即失效。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击论点**
 
-- **Michael Porter** 的质疑：借同行产品本质上是利用已有竞争者的市场信号，容易让创业者陷入跟随策略而非建立真正的差异化优势；如果测试结果只告诉你「需求存在」，却无法导出「我能做得更好」，这个工具会强化同质化竞争 [conf=0.50, source=基于竞争战略理论的推演]。
-- 「这是抄袭/寄生」：借同行产品不是让你复制竞品，而是用它作为对照实验。若测试结果用于直接模仿而非差异化，确实会滑向抄袭 [conf=0.60, source=经验判断]。
-- 「法律与渠道冲突」：在自有渠道售卖竞品可能违反平台规则或与竞品渠道协议冲突，需提前确认授权边界 [conf=0.80, source=合规常识]。
-- 「品牌损伤」：用户可能困惑「你为什么在卖别人的东西」，损伤品牌专业形象。建议明确测试属性，或在独立测试账号中运行 [conf=0.60, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -8,38 +8,38 @@ source_refs:
 - 10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-tool-hiring-scorecard]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-project-management]]'
-  - '[[yt-management-strategy-meeting]]'
-  - '[[yt-decision-y-model]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 会议设计
-- 会议议程模板
-- 高效会议
-- 会前三问
-- 会议角色分工
-- 会议纪要模板
-- 决策会怎么开
-- 会议时间盒
-- 减少无效会议
-- 会议设计师
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown师
 tags: []
 trust_level: medium
 yitang:
@@ -53,10 +53,10 @@ updated_at: '2026-06-16'
 estimated_tokens: 3200
 reviewed_by: 周伯通
 diagnostic_signals:
-- signal: 团队严格按蓝图开了一次会，议程完美、时间精准、行动项明确——但2周后行动项完成率<30%
+- src_unknown
   framework_lens: 设计了但没人执行——会议设计解决了'会议本身的问题'，但没解决'会后动力的问题'。完美的议程是最精致的逃避——把'执行力问题'包装成'会议效率问题'
   follow_up_question: 行动项没有被执行的真正原因是什么？是没时间、忘记了、还是内心觉得这个行动项不重要？如果是后者，会议本身可能就讨论错了方向
-- signal: CEO用会议设计师开了三次会后说'形式感太重了，我们团队不需要这个'
+- src_unknown
   framework_lens: 设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制
   follow_up_question: 团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删
 author: 老顽童
@@ -202,9 +202,9 @@ Kahneman 的核心发现：人在进行复杂决策时，工作记忆容量极�
 
 Perrow 的核心洞见：复杂系统中，多个组件的交互会产生"不可预期的耦合失效"——而且这类失效在足够复杂的系统中是不可避免的（ hence "normal"）。会议设计师把会议拆成了 4 个组件（蓝图、时间盒、角色、跟进），并预设它们能协同工作。但 Perrow 的分析表明：
 
-- **紧密耦合**：时间盒和参与平衡是紧密耦合的——为了确保时间盒，主持人不得不打断一个正在深入讨论的人（参与平衡失效）
-- **复杂交互**：蓝图、预读材料、角色分工三个组件的任何一处出错（预读没发、角色没明确、蓝图填错了），都会导致整个系统失效
-- **防御性设计的悖论**：你增加更多检查点来防止失效（如"最后 5 分钟确认结论"），但这些检查点本身增加了系统的复杂度和交互点——根据 Perrow，这反而增加了新的失效模式
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Perrow 的拷问**："你设计了一个四层防护的会议系统。但 Perrow 会问：当 CEO 在会议中接到一个电话、临时改变议程、宣布一个与蓝图无关的决定时——你的四层防护是保护了会议质量，还是让参会者陷入了'系统失效后的混乱'？一个在失效后没有优雅降级路径的系统，比一个简单但灵活的系统更危险。你的会议设计师有'紧急模式'吗——当蓝图被撕掉时，会议怎么继续？"
 

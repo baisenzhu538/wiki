@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-five-step-method-complete
 title: 五步法完整地图：从需求到壁垒
@@ -18,29 +18,29 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-five-step-method
-  - yt-five-step-cross-step-1
-  - yt-five-step-cross-step-2
-  - yt-five-step-cross-step-3
-  - yt-demand-insight-extraction
-  - yt-product-kernel-definition
-  - yt-business-model-definition
-  - yt-growth-strategy-overview
-  - yt-barrier-strategy-overview
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'一堂五步法是什么？'"
+  - src_unknown
     framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
     follow_up_question: "你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？"
-  - signal: "用户说'五步法的第一步和第二步怎么区分？'"
+  - src_unknown
     framework_lens: 五步法完整地图——需求是用户要什么，内核是你给什么
     follow_up_question: "需求是用户的问题，内核是你的解决方案。需求验证了吗？内核验证了吗？"
-  - signal: "用户说'五步法的第三步和第四步怎么衔接？'"
+  - src_unknown
     framework_lens: 五步法完整地图——商业模式是变现方式，增长是放大方式
     follow_up_question: "你的商业模式成立了吗？单元模型是否健康？增长策略是否匹配商业模式？"
-  - signal: "用户说'五步法的第五步是不是最后一步？'"
+  - src_unknown
     framework_lens: 五步法完整地图——第五步不是最后一步，是循环的开始
     follow_up_question: "壁垒建设后，是否回到第一步寻找新的需求？五步法是一个循环。"
-  - signal: "用户说'五步法适用于什么场景？'"
+  - src_unknown
     framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
     follow_up_question: "你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。"
 
@@ -149,25 +149,25 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当创业时 → 五步法从0到1
-- 当规模化时 → 五步法从1到10
-- 当成熟后 → 五步法从10到100
-- 当循环时 → 五步法循环
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-five-step-method`：五步法总纲
-- `yt-five-step-cross-step-1`：跨步一：从0到1
-- `yt-five-step-cross-step-2`：跨步二：从1到10
-- `yt-five-step-cross-step-3`：跨步三：从10到100
-- `yt-demand-insight-extraction`：需求洞察提取
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-business-model-definition`：商业模式定义
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-barrier-strategy-overview`：壁垒策略总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法课
-- 一堂完整课程
-- 创业方法论研究
+- src_unknown
+- src_unknown
+- src_unknown

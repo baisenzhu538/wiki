@@ -3,45 +3,45 @@ id: ai-landing-scene-selection
 title: "AI落地场景识别：从找老的干小的开始"
 type: concept
 domain:
-  - product
-  - ai-saas
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_ef4877d0-所以90的核心问题
 component_of: null
 related:
-  - "[[find-old-do-small]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[course-to-skill-conversion]]"
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[yt-entrepreneur-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - AI怎么落地
-  - 什么场景适合AI
-  - AI项目为什么失败
-  - 业务人员怎么用AI
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "想用AI但不知道从哪里开始"
+  - src_unknown
     lens: "找老的干小的"
     follow_up: "列出最熟悉的3个业务流程，选规模最小的"
-  - signal: "AI项目上线后效果不达预期"
+  - src_unknown
     lens: "是否跳过平行运行阶段"
     follow_up: "确认已平行运行至少30天，对比人工与AI结果"
-  - signal: "业务人员说不懂AI技术"
+  - src_unknown
     lens: "四要素检查"
     follow_up: "用有容错/有方法/有数据/有判断筛选场景，不讨论技术"
-  - signal: "AI效率提升但业务结果没变"
+  - src_unknown
     lens: "结果导向验证"
     follow_up: "把评估指标从效率改为订单/转化率/收入"
 ---# AI落地场景识别：从"找老的干小的"开始
@@ -62,10 +62,10 @@ AI落地失败的90%根源不是"技术不行"，而是"场景选错了"。马�
 
 ### claim:03 [conf=0.75] 评估场景的四要素是"有容错、有方法、有数据、有判断"
 一个场景适合AI落地的前提是：
-- **有容错**：允许一定错误
-- **有方法**：你知道怎么做
-- **有数据**：有历史数据可供训练
-- **有判断**：能判断结果好坏，最后由人类负责纠偏
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **暗知识**：这四要素是一个循环，而非简单检查清单。如果"有方法"但"没有数据"，需要先用人工积累数据——这意味着AI落地往往需要"先做一段时间的人工工作"。
 
@@ -98,9 +98,9 @@ AI是"交结果"的。评估标准不是"效率提升了多少"，而是"订单�
 ## Critique
 
 ### 内部局限
-- 本框架对"业务结果"的强调可能导致用户忽略中长期的系统性价值，如数据积累、流程优化等。
-- "先平行再独行"在实践中很难执行，因为组织往往有"上线压力"，不愿意等待3个月。
-- 四要素中的"有判断"假设人类可以准确判断结果好坏，但很多业务场景中人类自己的判断也不可靠。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -134,4 +134,4 @@ Drucker强调"做正确的事"比"正确地做事"更重要。马易的框架强
 | 业务人员说"不懂AI" | 用四要素检查他的场景，不要讨论AI技术 | 找到1个符合四要素的场景 |
 
 ## contradicts
-- [[ai-collaboration-mindset-shift]]: 马易强调"先平行再独行"需要3个月，纪浩强调"每天用3-4小时AI"——二者对时间投入的理解不同：马易是项目级投入，纪浩是日常级投入
+- src_unknown

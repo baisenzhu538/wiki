@@ -4,46 +4,46 @@
 
 id: yt-panproduct-execution-low-cost-mvp
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1131
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 低成本测试MVP
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：低成本测试MVP
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：低成本测试MVP
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-lean-assumption-verification-3means]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[tool-马易-关键假设识别与验证]]'
-  - '[[tool-泛产品落地-十倍速验证]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[framework-lean-false-model]]'
-  - '[[framework-lean-four-principles]]'
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-minimum-version]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[case-lean-electric-scooter-mvp]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
@@ -57,16 +57,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: MVP 只验证一个最关键、最危险的假设
+- src_unknown
   framework_lens: MVP 是学习工具，不是缩小版产品
   follow_up_question: 如果只能验证一个假设，这个 MVP 验证的是哪一个？
-- signal: MVP 的开发周期以天/周计，而不是月
+- src_unknown
   framework_lens: 低成本 = 快速迭代
   follow_up_question: 这个 MVP 能否在2周内上线并收集到真实反馈？
-- signal: MVP 有明确的通过/不通过标准，而不是'看看用户反应'
+- src_unknown
   framework_lens: 实验必须有 kill 条件
   follow_up_question: 多少用户采取什么行为，才算验证成功？
 updated_at: '2026-06-16'
@@ -139,13 +139,13 @@ status: superseded
 
 ### MVP 设计自检清单
 
-- [ ] 这个 MVP 只验证 **1 个**最关键、最危险的假设
-- [ ] 能在 **2 周内**上线并触达真实用户/客户
-- [ ] 已写下通过阈值（多少用户、什么行为、什么数值算成功）
-- [ ] 已写下 kill 条件（什么情况下必须停止或 pivot）
-- [ ] 早期测试者中，熟人/粉丝占比 ≤30%，或已补充冷用户
-- [ ] 每个定量指标都配有至少 1 个定性用户访谈
-- [ ] 团队能在 1 句话内说清"这个 MVP 要证明什么"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 
@@ -154,9 +154,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Clayton Christensen的"颠覆性创新无法被现有客户验证" + Phil Rosenzweig的"光环效应"
 

@@ -7,16 +7,16 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites: []
 query_triggers:
-- 五步法段位
-- 五步法自评
-- 商业分析水平
-- 认知盲区
-- 我们不知道我们不知道
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
 source_refs:
@@ -35,34 +35,34 @@ yitang:
   course_type: dk
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户给自己打8分，但实际只有3分
+- src_unknown
   framework_lens: 邓宁克鲁格效应
   follow_up_question: 你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里
-- signal: 用户不知道高段位长什么样
+- src_unknown
   framework_lens: 目标模糊
   follow_up_question: 你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰
-- signal: 团队用五步法分析总是得出和直觉一致的结论
+- src_unknown
   framework_lens: 确认偏误/群体盲区
   follow_up_question: 最近一次有成员用反例推翻过你的核心假设吗？如果没有，你们可能在用框架自证
 updated_at: '2026-06-17'
 author: 老顽童
 related:
-  - '[[case-modeling-essence-levels]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[yt-demand-level-assessment]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - yt-five-step-method
-  - yt-five-step-common-pitfalls
-  - yt-research-mindset
-  - yt-five-step-implementation
-  - yt-unit-model-concept
-  - yt-demand-analysis-hiking-map
-  - yt-growth-cycle-model
-  - yt-barrier-analysis-cheat-sheet
-  - yt-business-analysis-cognitive-biases
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 暗知识：五步法的段位盲区与自评陷阱
@@ -101,11 +101,11 @@ Truman 在课上做过一个令人震惊的实验：讲课前让学员给自己�
 
 ## 使用场景
 
-- **个人自评校准**：学完五步法后判断自己真实段位，避免"7-8 分幻觉"。
-- **团队/部门段位盘点**：识别团队在每个模块的分布，找到最短木板。
-- **招聘案例面试**：通过"段位地图"设计面试题，区分 L2 与 L4 候选人。
-- **教练/导师辅导学员**：判断学员下一步该突破的盲区，而不是泛泛提醒"再多练"。
-- **年度训练规划**：把"提升五步法水平"转化为"把 X 模块从 L3 拉到 L4"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 

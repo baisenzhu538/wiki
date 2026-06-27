@@ -6,7 +6,7 @@ id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -18,33 +18,33 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 source_person: Truman（一堂创始人）
 source_context: Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
 query_triggers:
-- Truman预判
-- 一堂创立
-- 创业服务预判
-- 内部创业
-- Plan ABC
-- 六方向三选项
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-probability-engineering]]'
-- '[[yt-foresight-deliverables-four-levels]]'
-- '[[case-gudong-tea-shop-foresight]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[case-gudong-tea-shop-foresight]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[tool-一堂-business-prediction-15-char]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - "case-ether-online-acquisition"
-  - "yt-management-founder-role"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-outcome
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
@@ -74,10 +74,10 @@ updated_at: '2026-06-16'
 
 把散乱的信息合并成同类项，画出创业服务市场需求图谱：
 
-- 找钱（融资FA/投资人连接）
-- 找人（合伙人匹配/人才招聘）
-- 找信息（行业研报/数据服务）
-- 找学习（培训/课程/社群/咨询）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 在每个分类下标注了当时的主要玩家、规模、竞争激烈程度。
 
@@ -86,15 +86,15 @@ updated_at: '2026-06-16'
 从需求图谱中筛选出6个初步方向：**培训学习、找合伙人、创业社群、模块咨询、服务黄页、付费研报。**
 
 然后用商业逻辑做第一轮减法：
-- **付费研报** → "大家白给我愿意要，让我付钱就不行了"。付费意愿太弱。砍掉。
-- **服务黄页** → 市面上已有玩家（腾讯/36氪都做过），数据都很一般。"To B不缺线索，缺信任和转化。"砍掉。
+- src_unknown
+- src_unknown
 
 剩下4个方向，进一步深入调研：
-- 把市场上相关产品全部买平（体验一遍）
-- 培训赛道：大课vs小课、线上vs线下、通用vs垂直，逐层分析
-- 找合伙人赛道：拆了头部公司的获客层/流量层/产品层
-- 社群赛道：重点看各城市落地模式
-- 模块咨询赛道：聚焦标准化可规模化的咨询产品
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最后每个赛道里锁定一个相对有机会的细分方向。
 
@@ -139,18 +139,18 @@ updated_at: '2026-06-16'
 
 ## 可迁移场景
 
-- **内部创业/新业务孵化**：在大公司内部做新业务时，这套流程比外部创业更适用（因为你有更多时间做预判而不用立刻产生收入）。
-- **多方向并行试错的项目管理**：Plan A/B/C不是乱试，每个都需要独立的完整预判和硬伤检查。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- [[yt-foresight-probability-engineering]] — 这是概率工程的最完整实战案例
-- [[yt-foresight-deliverables-four-levels]] — Truman的交付物达到了L4（1个Plan A + 2个Plan B，都有Priority）
-- [[yt-management-founder-role]] — 一号位：本案例是创始人"方向决策"不可委托职责的实战参照——从市场扫描到 Plan ABC 最终拍板
-- [[case-gudong-tea-shop-foresight]] — 对照：古董是"只能赌一次"所以预判极深，Truman是"可以试多次"所以预判+快试错组合
-- [[yt-five-step-method]] — 每个Plan都需要填一张五步法画布
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
-- **在找合伙人方向"先做做看"**：这是最危险的妥协。需求旺盛容易让人忽略产品核做不出来这个致命硬伤。Truman在纸面上就识别了这个问题，没有浪费2个月去试错。
-- **"优先级的假象"**：如果三个方向没有真正的Priority排序，试错时就容易哪个都放不下、哪个都试不深。Truman明确"先A再B再C"，一次只认真做一个。
+- src_unknown
+- src_unknown

@@ -10,27 +10,27 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[tool-lean-presell]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[case-lean-premature-expansion]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-presell]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[yitang-domain-digest]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-false-model]]"
-  - "[[yt-business-model-definition]]"
-  - "[[case-lean-electric-scooter-mvp]]"
-  - "[[case-lean-premature-expansion]]"
-  - "[[case-smart-medicine-cabinet-business-model-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 商业模式风险高于产品风险：别在模式没跑通前做完美产品
@@ -47,10 +47,10 @@ related:
 
 这条暗知识在以下场景最常出现：
 
-- **技术/产品背景强的创始人团队**：擅长做产品，但默认"好东西自然有人买"，对获客成本、定价、付费转化关注不足 [conf=0.75, source=case-lean-building-in-vacuum]。
-- **资金相对充裕的项目**：因为有预算，团队倾向于把产品做完整、做精美，而不是先做小实验验证商业模式 [conf=0.80, source=case-lean-premature-expansion]。
-- **商业模式被隐含假设覆盖**：例如"我们先用免费版攒用户，再考虑变现""等大客户多了自然能收费"——这些说法通常意味着商业模式风险从未被正面验证 [conf=0.78, source=yt-business-model-definition]。
-- **B2B/平台/硬件类项目**：产品复杂度高，团队容易陷入方案细节，忽视"谁付费、付多少、为什么付给你"这一核心问题 [conf=0.80, source=case-smart-medicine-cabinet-business-model-validation]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -79,9 +79,9 @@ related:
 
 ### 现有框架已覆盖的部分
 
-- **[[framework-lean-abcd-model]]**：明确把"商业模式是否成立"归入 A 象限（商业成败），并给出 A >> B > C/D 的验证优先级 [conf=0.88, source=framework-lean-abcd-model]。
-- **[[framework-lean-false-model]]**：提供从 F 直接测试到 All-in 的成本光谱，强调在重投入前先用低成本手段验证需求与商业模式 [conf=0.90, source=framework-lean-false-model]。
-- **[[yt-business-model-definition]]**：系统定义商业模式与内核、单元模型、增长的关系，提出"商业模式是内核的变现路径" [conf=0.93, source=yt-business-model-definition]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 现有框架未覆盖的缺口
 
@@ -107,9 +107,9 @@ related:
 
 ## 可迁移场景
 
-- **SaaS/B2B 创业**：产品功能再完整，如果目标客户错配（大企业自研、小企业付不起），商业模式同样不成立 [conf=0.80, source=case-lean-wrong-demand]。
-- **消费品/硬件创业**：在打磨外观、材料、包装之前，先用预售/众筹验证定价和卖点是否被接受 [conf=0.85, source=framework-lean-false-model]。
-- **平台/双边市场**：先验证一边是否愿意付费或高度参与，再投入技术平台建设，避免"建好后没人来" [conf=0.80, source=case-lean-premature-expansion]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 行动建议
 

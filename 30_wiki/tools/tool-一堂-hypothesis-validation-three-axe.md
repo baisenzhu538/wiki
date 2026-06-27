@@ -4,7 +4,7 @@ title: 技能：假设验证三板斧
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂关键假设课
 source_refs:
@@ -12,45 +12,45 @@ source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt
   - 00_inbox/一堂-关键假设课-truman-笔记.txt
 tools_required:
-- 259商业分析画布（可用纸笔/文档代替）
-- 用户访谈或问卷工具（可选）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- concept-一堂-key-assumptions
-- skill-一堂-five-step-validation
+- src_unknown
+- src_unknown
 related:
-- '[[concept-一堂-key-assumptions]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[tool-一堂-five-step-validation]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[master-antifragile-checklist]]'
-- '[[contingency-decision-making]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-key-assumptions]]'
-- '[[tool-一堂-five-step-validation]]'
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 创业启动前不知道验证什么
+- src_unknown
   lens: 加法缺失
   follow_up: 用259工具逐层拆解业务全要素，确保没有漏网
-- signal: 验证了很多假设但业务还是失败
+- src_unknown
   lens: 减法排序错误
   follow_up: 检查排序标准是否按前置性+风险而非个人关心度
-- signal: 验证成本太高，团队负担不起
+- src_unknown
   lens: 验证成本失控
   follow_up: 验证成本必须≤失败损失的1/10，用问卷/访谈/假产品替代完整产品
-- signal: 发现前置假设不成立但还在继续投入
+- src_unknown
   lens: 否定信号被忽略
   follow_up: 前置假设被否定=业务需终止或重大调整，立即复盘
-- signal: 产品没跑通就在验证能不能扩大
+- src_unknown
   lens: 价值/增长假设混淆
   follow_up: 先验证价值假设，再验证增长假设，顺序不可颠倒
 ---
@@ -62,10 +62,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.91] **三板斧的第一板——做加法，是为了避免"漏掉关键假设"。** 很多团队一开始就跟着感觉走，只验证自己最关心的那个假设，结果忽略了真正决定生死的前置假设。做加法强迫团队系统性地拆解业务的每一个环节，确保没有漏网
-- claim:02 [conf=0.88] **减法的排序标准是"前置性+风险高低"，而非"我关心什么"。** 前置假设是指位于逻辑链条前端的假设（如需求假设在产品假设之前），风险高的假设是指一旦不成立会导致整个业务失败的假设。Truman强调："前置假设优先，风险高的优先，不要一次性验证所有假设"
-- claim:03 [conf=0.85] **快速验证的核心是"置换检验"——用最小成本测试最脆弱的假设。** 不是做完整产品再测试，而是用问卷、访谈、落地页、假产品等最低成本方式验证。验证周期越短，迭代次数越多，成功概率越高
-- claim:04 [conf=0.82] **三板斧的隐含假设是"创业本质是乘法，不是加法"。** 五步法是乘法关系，任何一个环节为零，整体为零。三板斧的目标是尽早找到那个"最可能是零"的环节，避免在注定失败的方向上持续投入
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -103,10 +103,10 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 259商业分析画布（可用纸笔/白板/文档代替）
-- 用户访谈或问卷工具
-- MVP快速搭建工具（如墨刀、即时设计、有赞小程序）
-- 数据分析看板（用于"盘"的阶段）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -119,11 +119,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **加法不彻底** → 只拆解了自己关心的那一层，漏掉其他环节的前提假设 → **必须用框架系统性地拆解，不能只拆自己熟悉的部分**
-- **减法排序不对** → 按"我关心的"而非"前置性+风险"排序，验证了不重要的假设 → **排序时必须问"这个假设不成立，整个业务会倒吗"、"它在逻辑链的前端还是后端"
-- **验证成本过高** → 一上来就做完整产品来验证假设 → **验证成本必须是失败损失的1/10以下**
-- **忽略已否定假设的行动启示** → 发现前置假设不成立还继续投入 → **前置假设被否定 = 业务需要终止或重大调整**
-- **混淆价值假设与增长假设** → 在产品还没跑通前就验证"能不能扩大"假设 → **先验证价值假设，再验证增长假设**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -133,9 +133,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **加法依赖框架的完整性。** 如果用的框架本身有缺陷（如259工具未覆盖某些行业特有的商业环节），那么加法阶段就会遗漏关键假设。框架的局限就是三板斧的局限
-- **减法的"风险评估"本身就是主观的。** 两个团队可能对"哪个假设风险更高"得出完全不同的结论。这个排序过程可能被团队内部的权力结构污染，而非真正的风险判断
-- **快速验证的"最小成本"定义困难。** 对于某些假设（如"品牌信任假设"），很难做到"失败损失的1/10"。这种假设可能需要较长时间和较高成本来验证，三板斧的"快速"原则在这里可能失效
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -143,8 +143,8 @@ diagnostic_signals:
 
 **Nassim Taleb** (*反脆弱*作者) 从非对称风险角度攻击三板斧：
 
-- **三板斧假设"假设是可识别的"。** Taleb 会质疑：大多数创业失败不是因为"关键假设不成立"，而是因为"从未被识别出的未知未知出现了"。你可以用三板斧验证所有已知假设，但真正杀死你的可能是一个从未出现在你的列表中的事件。**你以为在管理风险，其实只是在管理你能想象到的风险**
-- **三板斧可能增加"假设骗局"。** 当你花大量时间做加减法时，你会产生一种"我已经考虑得很全面"的虚假自信。这种自信会让你对未知风险更加脆弱，因为你不会再去想"还有什么是我没想到的"
+- src_unknown
+- src_unknown
 
 > **Taleb 的诊断**："你的三板斧是一个精致的'已知风险管理工具'。但创业中最大的杀手是未知未知，而不是已知风险。你的加法列表越长，你对未知的盲点就越大。你以为在降低不确定性，其实在增加脆弱性。"
 
@@ -152,8 +152,8 @@ diagnostic_signals:
 
 **Peter Thiel** (*零到一*作者，PayPal联合创始人) 从竞争策略角度攻击：
 
-- **三板斧假设"竞争是可以分析的"。** Thiel 的核心观点是：真正有价值的创业公司创造了垄断，而不是在已有市场中做更好的分析。三板斧强调的是"在现有框架内验证假设"，但如果你的业务需要完全重新定义一个市场，那么"假设"本身就是不确定的
-- **三板斧适用于"从1到n"，不适用于"从0到1"。** Thiel 会质疑：如果你的创业是革命性的（如Google搜索引擎、Facebook社交网络），那么用户需求、产品内核、商业模式都是未知数。三板斧假设"我们可以拆解这个业务"，但革命性业务的特点正是"无法被预先拆解"
+- src_unknown
+- src_unknown
 
 > **Thiel 的质疑**："你的三板斧是一个优秀的'竞争分析工具'，但它只适用于已经存在的市场。如果你想创造一个新市场，你的假设列表就是张空白纸。你以为在做风险管理，其实在做竞争模仿。"
 
@@ -169,8 +169,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂关键假设课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

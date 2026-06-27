@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- master
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模原则），2026-06-12
 source_refs:
@@ -17,30 +17,30 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[process-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[dk-modeling-course-rnd-ripe-fruit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/retrospective'
-- '#method/modeling'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 author: 老顽童
 confidence: 0.9
 diagnostic_signals:
-- 团队复盘会上只能讲出"加强沟通""下次注意"等正确废话，没人能说出当时具体发生了什么
-- SOP/清单里写满无关痛痒的条款，真正决定成败的操作细节（如直播前是否吃饭、PPT哪页让观众困惑）全部遗漏
-- 周期型工作（每周做课、每周销售）的复盘会被一再推迟，等到开会时关键体感已经衰减
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 
 ## 原始表述/核心洞察
@@ -49,31 +49,31 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你刚完成一次直播、培训、销售、交付，感觉有很多经验可以总结。
-- 团队总是说“下周再复盘”，结果下周什么都想不起来了。
-- 你发现 SOP/清单里写了很多无关痛痒的点，真正关键的细节漏掉了。
-- 你在做咨询或研究，依赖访谈对象回忆几个月前的事情。
-- 你想把孩子的控笔、踢球、学习习惯变成口诀/SOP。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **定义 session 窗口**
    对应当次任务或场景的记忆保鲜期。通常：
-   - 高频小任务：30 分钟–2 小时
-   - 项目里程碑：当天或次日
-   - 周度工作：下周一上班第一件事
+   - src_unknown
+   - src_unknown
+   - src_unknown
    超过这个窗口，细节和体感会快速衰减。
 
 2. **固定三种及时复盘动作**
-   - **及时复盘会**：周期型工作（如每周做课、每周销售）在周期结束后的第一个工作单元开会，趁着还没进入下一周期。
-   - **及时反思**：遇到错误、意外、高光时刻，当场或当天写补丁，不要等。
-   - **现场回顾**：在交付/执行现场抽 5–15 分钟记要点，比会后回忆 2 小时更有效。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **先抓“可变成 SOP/清单”的事实**
    复盘时强制问自己：
-   - 这次做对了什么？下次能不能照做？
-   - 这次出了什么意外？能不能加一条检查项避免？
-   - 哪个动作是随机发挥的？能不能固化成口诀/步骤？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **用清单体记录，不要写散文**
    一条一个信息点，超过 7 条就分层。参见 [[dk-note-maximum-common-divisor]]。
@@ -83,10 +83,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用于有重复价值的场景**。一次性事件复盘 ROI 低。
-- **不适用于情绪未平复的冲突场景**。先冷却，再复盘。
-- **需要有人负责记录和跟进**。口头复盘等于没复盘，必须落到文字和责任人。
-- **不能替代深度研究**。session 窗口内复盘得到的是“现场颗粒”，要升级为方法论还需要二次抽象。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -101,14 +101,14 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 多数团队把复盘当周会甚至月会，结果参加者只能讲出“我们下次要注意沟通”这类正确的废话。真正值钱的细节（为什么这次直播前没吃饭、为什么那页 PPT 让观众 confusion）只有在现场还记得。
-- Truman 给孩子写四句控笔口诀，就是现场观察、现场提炼、现场验证。这个最小模型一旦错过窗口就再也写不出来。
-- 这是一条“知道了也做不到”的知识：人人都知道要及时复盘，但很少有组织真的把复盘会安排在周一上午第一件事、真的在现场抽时间记、真的把补丁当天塞进 SOP。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[process-modeling]] —— 流程建模工具卡，SOP/清单的建模方法。
-- [[dk-modeling-sop-execution-locks]] —— 复盘出来的 SOP 要保证执行，还需要两层锁。
-- [[modeling-three-stages]] —— 及时复盘是 60 分流程建模阶段的核心习惯。
-- [[dk-modeling-course-rnd-ripe-fruit]] —— 研究型课程“菜熟才摘”，每次摘果/养菜后都需在 session 窗口内复盘。
-- `src_20260614_8269ccdb#716-758` —— Truman 口述原文：及时复盘的三个习惯。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

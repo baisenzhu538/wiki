@@ -3,8 +3,8 @@
 title: 'OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01'
 type: concept
 domain:
-- yitang
-- ai-collaboration
+- src_unknown
+- src_unknown
 status: draft
 source_refs:
 - src_20260609_a7f2ae2e
@@ -17,11 +17,11 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_a7f2ae2e）
 related:
-  - '[[ocr-一堂-ai学习-提问进化路线图]]'
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
-  - '[[yt-note-three-level-evolution]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01
 
@@ -33,31 +33,31 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 笔记重构存在从"碎片化记录"到"结构化重构"再到"体系化升华"的三层递进，分别对应杂乱无序的信息堆积、梳理整合建立联系、提炼模型形成方法。
-- 低重构笔记遵循严格时间线或执行流程线，以时间轴或步骤顺序组织信息；高重构笔记则采用原创方法论或经典方法论线，强调模型提炼与体系构建。
-- 执行流程线采用步骤分解结构（步骤1→步骤2→步骤3），配合工具、验证与落地环节，适用于操作性内容的记录。
-- 案例复盘线遵循STAR框架：S情境→T任务→A行动→R结果，是经验萃取的标准化叙事结构。
-- 问题解决线以"问题→分析原因→解决方案→验证结果"为轴，核心在于Q分析原因环节对理据、资源、核心、方法的拆解。
-- 对比分析线采用"旧方案VS新方案"或"选项A/选项B"的双轨结构，最终导向决策与取舍（❤/x/$符号标记偏好）。
-- 关键要素线围绕目标D展开，提取腰素（关键要素）、环境等变量，形成可复用的框架与原则体系。
-- 事实洞察线从"事实/现象→观察/发现→洞察/结论"递进，强调基于实证的认知升级与迭代应用。
-- 目标取舍线以"精"为核心，在多个选项间进行决策与取舍，最终指向方法选择与迭代应用。
-- 高重构笔记的终极形态是原创方法论线，需经历"碎片化→结构化→体系化"的完整升华路径，输出可迁移的原则、体系与框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 低重构与高重构的划分标准是什么？是否存在中间态或混合形态，还是二元对立？
-- "腰素"是否为"要素"的OCR误识，还是特定术语？其在关键要素线中的具体含义与操作方式不明确
-- 对比分析线中的符号系统（❤/x/$）缺乏统一释义，不同符号是否代表固定的评估维度？
-- 目标取舍线中的"精"具体指什么标准——精简、精准、精华，还是其他？与关键要素线的"目标D"如何区分应用场景？
-- 10种故事线是否穷尽所有笔记类型？是否存在未覆盖的场景（如情感记录、灵感捕捉、文献综述）？
-- "事实洞察线"强调实证，但"事实/现象"与"观察/发现"的边界模糊，如何防止主观投射伪装成客观洞察？
-- 三层递进模型（碎片化→结构化→体系化）是否预设了单向升级路径？是否存在"体系化"后仍需回归"碎片化"捕捉新信号的情况？
-- 原创方法论线的"可迁移性"如何验证？是否存在方法论过度抽象、脱离具体情境的风险？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

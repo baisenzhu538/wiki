@@ -3,22 +3,22 @@ id: tool-按月份摊销收入成本做计划
 title: 技能：按月份摊销收入成本做计划
 type: tool
 domain:
-- entrepreneurship- finance-legal
-- decision-making
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
 source_refs:
 - src_20260609_99032bf9-ocr-一堂-单元模型-示例
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 电子表格（Excel/Sheets）
-- 财务软件
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:04:59+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-对标借鉴他人决策维度]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-将未中标成本纳入循环计算真实投标成本]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：按月份摊销收入成本做计划
 
@@ -44,25 +44,25 @@ related:
 4. 避免被首月大额收入误导判断
 
 ## 适用场景
-- ✅ 预收款/会员制/订阅制业务（健身房、SaaS、教育年卡等）
-- ✅ 需要判断商业模式可持续性的场景
-- ❌ 一次性交付即完成的现货交易
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 预收款业务存在收入确认与成本发生的时间错配，按月摊销能暴露后续月份的成本压力，避免早期虚盈实亏
 
 ## 工具/环境
-- 电子表格（Excel/Sheets）
-- 财务软件
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程（未具名讲师），src_20260609_99032bf9，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

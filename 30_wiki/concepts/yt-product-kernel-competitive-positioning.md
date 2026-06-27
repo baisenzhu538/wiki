@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-shampoo-case
-  - yt-demand-competitive-displacement
-  - yt-product-kernel-add-subtract
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们和竞品差不多'"
+  - src_unknown
     framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
     follow_up_question: "用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。"
-  - signal: "用户说'我们比竞品便宜'"
+  - src_unknown
     framework_lens: 内核竞争定位——价格不是可持续的差异化
     follow_up_question: "如果竞品也降价，你们还有什么差异化？"
-  - signal: "用户的产品功能和竞品高度重叠"
+  - src_unknown
     framework_lens: 内核竞争定位——功能同质化，内核被稀释
     follow_up_question: "去掉和竞品重叠的功能，你们还剩下什么独特价值？"
-  - signal: "用户说'我们要做行业第一'，但没说清楚怎么做"
+  - src_unknown
     framework_lens: 内核竞争定位——目标清晰，但路径不清晰
     follow_up_question: "行业第一的定位是什么？在哪个维度上第一？"
-  - signal: "用户频繁切换定位，今天A明天B"
+  - src_unknown
     framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
     follow_up_question: "你们的定位持续多久了？用户是否形成了稳定认知？"
 
@@ -82,9 +82,9 @@ diagnostic_signals:
 
 差异化必须用户认可：
 
-- 用户是否感知到差异化？
-- 用户是否愿意为差异化付费？
-- 差异化是否可持续？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 定位的稳定性
 
@@ -118,21 +118,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定位产品时 → 找到差异化维度
-- 当和竞品比较时 → 问"我们哪里不同？"
-- 当用户说"差不多"时 → 强化差异化认知
-- 当考虑扩展时 → 评估是否影响差异化定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-shampoo-case`：洗发水案例（差异化定位）
-- `yt-demand-competitive-displacement`：需求替代陷阱
-- `yt-product-kernel-add-subtract`：产品内核的加减法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
-- 一堂案例大爆炸：差异化定位案例
+- src_unknown
+- src_unknown
+- src_unknown

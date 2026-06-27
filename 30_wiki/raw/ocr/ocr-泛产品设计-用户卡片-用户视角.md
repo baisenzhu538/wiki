@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-用户视角"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_11d721ac
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-用户视角"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-用户视角
@@ -36,31 +36,31 @@ png` 泛产品设计·用户卡片 用户视角 善于瞬间代入视角 一秒�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 优秀产品设计者的核心能力是"一秒转化用户视角"的瞬间代入能力。
-- "瞬间带入用户视角"应作为产品设计中的持续习惯来培养。
-- 用户视角代入适用于所有产品设计场景，而非特定领域。
-- 该设计原则被定位为可通过刻意练习（如课程学习）掌握的技能。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该文本声称"一秒转化用户视角"是"必备能力"，但未提供任何实证依据或案例说明这一时间阈值（一秒）的科学性，这一具体数字是如何得出的？
-- "适用于所有产品设计场景"这一全称判断是否存在过度泛化？B2B复杂系统、安全关键系统等产品是否同样适用"瞬间代入"而非需要更结构化的用户研究方法？
-- 将"用户视角"简化为可"瞬间代入"的能力，是否忽视了用户群体的异质性（如新手/专家、不同文化背景）以及系统性用户研究的必要性？
-- "没有什么不是一堂课解决不了的"这一口号式表述，是否隐含了将复杂设计能力过度商业化为标准化培训产品的假设？
-- OCR文本中的"心备能力"应为"必备能力"的误识，但原文"堂"字单独成行及底部标语的排版关系不明——这是否意味着存在视觉分层信息（如页眉/注释/广告）被OCR扁平化处理，从而影响内容性质的判断？
-- 该文本未界定"用户视角"的操作性定义：是指认知同理心、行为观察、还是需求推断？不同理解将导致截然不同的培养路径。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -74,20 +74,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

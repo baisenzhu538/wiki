@@ -7,52 +7,52 @@ title: 技能：结构化AI工作空间搭建
 type: "tool"
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
   - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[case-ji-hao-ai-workspace-chaos]]'
-- '[[structured-ai-workspace]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 笔记/文档工具（Obsidian / Notion / 飞书文档等）
-- 任务管理工具（可选）
+- src_unknown
+- src_unknown
 prerequisite_skills: []
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[case-ji-hao-ai-workspace-chaos]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[case-ji-hao-ai-workspace-chaos]]'
-  - '[[structured-ai-workspace]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI 任务变多后输出质量下降、理解偏差、流程错乱
+- src_unknown
   framework_lens: 结构化AI工作空间——五类知识分层
   follow_up_question: 你的项目文档、领域知识、任务上下文、约束文档是否混在同一个目录里？能否按 L1-L5 拆开放置？
-- signal: 每次开新对话都要重新给 AI 解释项目背景
+- src_unknown
   framework_lens: 上下文管理缺失
   follow_up_question: 是否已有一份独立的系统自述 + 领域知识库，能在新任务开始时直接加载给 AI？
-- signal: AI 在复杂任务中越走越偏，最后只能放弃目录重来
+- src_unknown
   framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
 
@@ -109,9 +109,9 @@ diagnostic_signals:
 
 ### Step 4：定期维护
 
-- 系统自述和领域知识增长慢，人工定期更新即可。
-- Agent 服务前期增长快，任务稳定后趋于稳定。
-- 任务管理和日志增长最快，需要独立管理、定期归档/清理。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,52 +147,52 @@ diagnostic_signals:
 ## 行动 Checklist
 
 ### 开始搭建前
-- [ ] 已明确让 AI 做什么事情、会产出什么交付物
-- [ ] 已判断任务是否复杂到需要分层管理（≥3 个重复任务或 ≥1 个多步骤任务建议分层）
-- [ ] 已选择至少一个文档工具（Obsidian / Notion / 飞书文档等）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 初始化工作空间
-- [ ] 已建立 L1-L5 五个独立目录/区域
-- [ ] 已写 1 页系统自述（项目是什么、模块、技术栈、目录说明）
-- [ ] 已写 1 份工作手册（最常见任务的 SOP + 输出格式）
-- [ ] 已建 1 张任务跟踪表（名称 / 状态 / 输入 / 输出 / 验收标准 / 问题）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 任务执行流程
-- [ ] 新任务来了先在 `04-tasks/` 建立任务卡片
-- [ ] 已将相关背景从 `01-system/` 和 `02-domain/` 加载到当前对话
-- [ ] 常见任务已按 `03-agent/` 工作手册执行
-- [ ] 任务结束后更新了状态、记录了问题
-- [ ] 有价值的经验已沉淀到 `03-agent/经验库/`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 维护与迭代
-- [ ] 每周/每迭代检查一次目录是否仍然五类分明
-- [ ] 定期归档或清理 `05-logs/`
-- [ ] 任务稳定后将重复流程沉淀为新的工作手册
-- [ ] 团队关键人对齐了工作空间结构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[concept-纪浩-ai-collaboration-five-layer]] —— 五层工作空间法的完整概念定义
-- [[case-ji-hao-ai-workspace-chaos]] —— 目录混乱导致 AI 行为退化、只能“重新投胎”的真实案例
-- [[structured-ai-workspace]] —— 结构化工作空间相关概念与模板
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Claims
 
-- **C1 [conf=0.9]**: 让 AI 执行任务前，应先搭建结构化工作空间，否则任务增多后易出现理解偏差、流程变异、原地打转。——依据：`src_20260606_42e11f09#468-518`。
-- **C2 [conf=0.85]**: 工作空间至少应包含五类知识：系统自述、领域知识、Agent 服务、任务管理、日志。——依据：`src_20260606_42e11f09#526-538`。
-- **C3 [conf=0.85]**: AI 不会创造结构，只会从预训练中匹配相似结构；因此结构设计必须由人主导。——依据：`src_20260606_42e11f09#512-518`。
-- **C4 [conf=0.8]**: 五类知识增长速度不同，应分层管理：系统自述和领域知识增长慢，任务管理迅速变更，日志增长最快。——依据：`src_20260606_42e11f09#746-756`。
-- **C5 [conf=0.8]**: 复杂任务应按“导诊台 → 工作手册 → 经验库 → 领域知识”渐进式披露，避免一次性给 AI 全部信息。——依据：`src_20260606_42e11f09#794-804`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md:468-538、686-708、746-756、794-818`
+- src_unknown
 
 ---
 

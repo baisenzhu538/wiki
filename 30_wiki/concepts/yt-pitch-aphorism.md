@@ -4,31 +4,31 @@
 
 id: yt-pitch-aphorism
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 金句化
-- 金句
-- slogan
-- 断言
-- 押韵文案
-- 洞察对比
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-scenarization]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,16 +37,16 @@ title: 讲香·金句化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 金句背后有一个清晰的核心观点，而不是空洞的口号
+- src_unknown
   framework_lens: 金句是观点的压缩包
   follow_up_question: 如果删掉这个金句，你想表达的核心观点会损失多少？
-- signal: 金句出现在最关键的位置（结尾、标题、转折点），而不是到处撒
+- src_unknown
   framework_lens: 金句是注意力的钉子
   follow_up_question: 这段内容里最适合放金句的位置在哪里？
-- signal: 金句让人想传播，但传播后不会扭曲原意
+- src_unknown
   framework_lens: 金句是可传播的锚点
   follow_up_question: 用户只记住这句话，能否代表你的整体立场？
 updated_at: '2026-06-16'
@@ -69,40 +69,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **金句很多，但观众记不起真正观点**
-   - **原因**：金句替代内容
-   - **修复**：限制金句数量：一篇内容不超过3句，每句必须锚定一个核心观点
+   - src_unknown
+   - src_unknown
 
 2. **金句是陈词滥调，如‘时间就是金钱’**
-   - **原因**：缺乏原创性
-   - **修复**：用具体数字、反差或行动改写陈词滥调
+   - src_unknown
+   - src_unknown
 
 3. **金句与整体内容无关，为了金句而金句**
-   - **原因**：装饰化
-   - **修复**：金句必须能从正文逻辑中自然推导出来
+   - src_unknown
+   - src_unknown
 
 4. **金句过于绝对，引发理性反感**
-   - **原因**：过度简化
-   - **修复**：在金句后补充边界条件或限定词
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 金句化是把你的核心观点变成一句有冲击力、好记、想传播的话。用户一旦被金句击中，就不再跟你理性辩论了——「有道理，我想记下来，我想发朋友圈」
-- claim:02 [conf=0.85] 金句特别适合放在页面的关键位置、演讲的结尾、短视频的前三秒——它是注意力的「钉子」，一锤定音。阿蕊示范稿中至少用了 1 个金句化策略点在整个爆款脚本中
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **G1 金句临摹**：从已有的好金句出发进行改造——改造歌词、改造诗句、改造已有的知名金句。这是入门最快的方法：先临摹再原创。例如「不扫弯路走三年」临摹自「不扫一屋何以扫天下」的句式
-- claim:04 [conf=0.85] **G2 勇下断言**：斩钉截铁地给出结论、做出判断。不用「可能」「大概」「也许」——直接断言。例如：「你执行力的上限不会超过你对最佳实践理解的下限」「决定一个人决策质量和速度的，是体系有没有建立起来」
-- claim:05 [conf=0.80] **G3 合辙押韵**：尾字押韵、尾字重复、排比重复。让文字有韵律感，读起来朗朗上口，好记。例如：「把产品打磨得有价值是本分，把产品呈现得有价值感是本事」——对偶 + 押韵
-- claim:06 [conf=0.80] **G4 洞察对比**：重新定义一个概念、概括一组要素、回望一个初心。例如：方太「做好产品是本分，做好营销是本事」→ 阿蕊改造为「把产品打磨得有价值是本分，把产品呈现得有价值感是本事」——在原文基础上增加了「价值感」这个新维度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **课程核心金句**：「把产品打磨得有价值是本分，把产品呈现得有价值感是本事」——这不仅是金句本身，更是整节课的核心命题。来源：方太品牌理念「做好产品是本分，做好营销是本事」→ 阿蕊加入了「价值 vs 价值感」的区分，让金句从品牌层面落到产品层面
-- claim:08 [conf=0.85] **执行力的上限**：「你执行力的上限不会超过你对最佳实践理解的下限」——这句话让听众瞬间觉得「我一定要理解最佳实践」。金句用了一个逻辑反转（上限 vs 下限）来制造冲击
-- claim:09 [conf=0.80] **一堂扫码文案**：「扫码辛苦学3天，不扫弯路走3年」——押韵 + 对比（3天 vs 3年）+ 痛点（走弯路），一行字完成了多重策略叠加
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -117,10 +117,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：金句化是抽象化第二指，四层修炼之进阶层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库中的 G1-G4 金句化战术
+- src_unknown
 
 ## Synthesis
 

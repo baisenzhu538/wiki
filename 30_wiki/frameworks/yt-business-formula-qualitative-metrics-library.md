@@ -7,18 +7,18 @@ title: 业务公式定性参数行为化指标库
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#content-format/framework'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -27,20 +27,20 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
-  - '[[yt-business-formula-l6-essence-formulas]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[yt-tool-business-formula-metrics-checklist]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[case-dental-clinic-formula]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[case-gym-membership-formula]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式定性参数行为化指标库
 
@@ -215,15 +215,15 @@ related:
 
 ## 常见错误
 
-- **只列指标不设阈值**：团队不知道当前是健康还是异常。
-- **指标与动作脱节**：指标变了，但没人知道该做什么。
-- **过度追求 L5-L6**：如果某个参数提不出可验证假设，停在 L3-L4 就够了。
-- **把相关当因果**：指标上升不等于目标一定改善，需要验证因果链。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：信任度、使用深度、价值感知、切换成本、满意度、复购触发、危机感知、到店习惯的具体行为指标（直接来自培训逐字稿与案例）
-- **中置信度**：健康阈值参考（基于案例和行业惯例的合理推断，实际业务需校准）
-- **待复核**：课程匹配度、场景情绪匹配度等较抽象参数的指标完备性
+- src_unknown
+- src_unknown
+- src_unknown

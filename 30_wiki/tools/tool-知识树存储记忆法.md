@@ -4,28 +4,28 @@ title: 技能：知识树存储记忆法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-专题笔记脑图整理法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-动手建模法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-专题笔记脑图整理法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-动手建模法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 知识管理工具（Notion/印象笔记/飞书文档等）
-- 知识树结构
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 每个碎片知识都是一片叶子，知识树变成知识灌木
+- src_unknown
   lens: 树种太细
   follow_up: 树的价值在主干和枝干，不在叶子。必须提炼3-5个核心概念作为主干，碎片信息挂在枝干下
-- signal: 花了大量时间构建完美的知识树，但从不检索
+- src_unknown
   lens: 只存不取
   follow_up: 存储是为了检索，不是为了好看。过去一周检索过0次的知识树是信息囤积
-- signal: 新知识和旧知识矛盾时，选择忽略新知识
+- src_unknown
   lens: 知识树不更新
   follow_up: 知识树需要修剪和嫁接，定期删除不再相关的内容，有明确的'淘汰'记录
-- signal: 枝干很茂盛但底层原理没吃透
+- src_unknown
   lens: 树根太浅
   follow_up: 树的高度取决于根的深度。不看笔记就说不清楚核心，说明那不是你的知识树
-- signal: 所有东西都在一个文件夹里，靠搜索关键字找
+- src_unknown
   lens: 结构混乱
   follow_up: 任意一个枝干，10秒内能找到它的根（属于哪个主干）。结构混乱的知识树无法有效提取
 ---
@@ -89,8 +89,8 @@ diagnostic_signals:
 | **完美结构陷阱** | 追求完美的分类体系，但内容本身浅薄 | 先确保内容有深度、有判断，再考虑结构。结构是放大器不是替代品 |
 
 ## 工具/环境
-- 知识管理工具（Notion/印象笔记/飞书文档等）
-- 知识树结构
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -109,15 +109,15 @@ diagnostic_signals:
 3. 最近一次修剪/更新知识树是什么时候？超过一个月没更新，说明树在枯萎。
 
 ## 常见失败模式
-- 树种太细：每个碎片知识都是一片叶子，知识树变成知识灌木——树的价值在主干和枝干，不在叶子
-- 只存不取：花了大量时间构建完美的知识树，但从不检索——存储是为了检索，不是为了好看
-- 知识树不更新：新知识和旧知识矛盾时，选择忽略新知识——知识树需要修剪和嫁接
-- 树根太浅：枝干很茂盛但底层原理没吃透——树的高度取决于根的深度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-专题笔记脑图整理法]] — 专题笔记是知识树上的一根枝干
-- [[tool-四层联系建立法]] — 树干之间的连线就是四层联系
-- [[tool-动手建模法]] — 知识树是存储结构，模型是加工结构，两者互补
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 处理(Process)层 L1.存储记忆：记录/筛选/保存/记忆，整理/梳理内容/结构

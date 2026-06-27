@@ -7,40 +7,40 @@ confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 4200
 language: zh-CN
 prerequisites:
-- yt-entrepreneur-five-step-method
+- src_unknown
 query_triggers:
-- 关键假设
-- 假设验证
-- 假设驱动
-- 259工具
-- X型创业者
-- Y型创业者
-- 价值假设
-- 增长假设
-- 最小成本验证
-- 五步法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-concept-p-type-l-type]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-entrepreneur-industry-forecast]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[framework-lean-false-model]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[framework-lean-product-kernel]]'
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-minimum-test-volume]]'
-  - '[[case-lean-electric-scooter-mvp]]'
-  - '[[case-lean-medical-device-milestone]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-06
 source_refs:
 - src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型
@@ -56,12 +56,12 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户列了很多假设，但分不清哪个最关键
+- src_unknown
   framework_lens: 假设没有优先级
   follow_up_question: 如果只能验证一个假设，你选哪个？为什么它对项目生死影响最大？
-- signal: 用户只验证价值假设，不验证增长假设
+- src_unknown
   framework_lens: 两类假设失衡
   follow_up_question: 你的验证计划中，价值假设和增长假设各占多少比例？
 updated_at: '2026-06-16'
@@ -121,13 +121,13 @@ claim:boundary-11 [conf=0.78] **增长假设**：验证业务是否具备可复�
 
 ## diagnostic_signals
 
-- signal: "创业者画了完整的 259 画布，列了 30 个假设，但一个都没验证"
+- src_unknown
   framework_lens: "假设验证的常见误区——把画布当成了终点，把\"列清单\"当成了\"做验证\""
   follow_up_question: "这 30 个假设里，如果只能选 3 个去验证，你会选哪 3 个？为什么？"
-- signal: "验证结果出来了，和预期不一致，但团队说'再试一次'"
+- src_unknown
   framework_lens: "假设验证的核心失败模式——把假设验证当成了找证据，而不是挑战假设"
   follow_up_question: "如果这个结果不是偶然，而是一定的——你的原始方案需要调整多少？有 Plan B 吗？"
-- signal: "创业者说'我们验证过了，用户说需要'——但验证方式是问了 3 个朋友"
+- src_unknown
   framework_lens: "假设验证的样本偏见——验证的置信度取决于验证方法的严格程度，不是'有人说了是'"
   follow_up_question: "你验证的样本量是多少？这群人是不是你的目标用户？验证的问题是否引导了答案？"
 
@@ -240,4 +240,4 @@ Popper在《科学发现的逻辑》中提出核心挑战：科学理论无法�
 
 ## Related Cards
 
-- **[[concept-一堂-hypothesis-driven-business-methodology]]** — 本工具是"假设驱动型创业分析方法论"做加法层的核心组件。该概念卡在此基础上扩展了乘法、验证节奏和走偏防御，形成更完整的操作系统。
+- src_unknown

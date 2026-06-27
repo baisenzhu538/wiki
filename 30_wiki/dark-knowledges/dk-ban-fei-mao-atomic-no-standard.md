@@ -5,8 +5,8 @@ title: 暗知识：原子化没有固定标准
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -14,26 +14,26 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '文档被反复要求"再短一点"或"再拆细一点"'
+- src_unknown
   lens: 原子化粒度
   follow_up: 这个文档是否能被单独理解、单独用、单独更新？
-- signal: 'AI在调用某张卡片时经常丢失上下文或索引关系'
+- src_unknown
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
 ---# 暗知识：原子化没有固定标准
@@ -54,8 +54,8 @@ diagnostic_signals:
 
 原子化的判断标准不是文档长度，而是"它能不能被单独理解、单独用、单独更新"。
 
-- 一段"合规性判断"规则可能很短，但它是一个原子（可单独更新、复用）。
-- 一个完整 Skill 可能数千字，但如果它被设计成一个不能拆开的整体，那也是一个原子。
+- src_unknown
+- src_unknown
 
 **误区 2：原子化 = 完全隔离**
 
@@ -79,9 +79,9 @@ diagnostic_signals:
 
 KDO 九层架构中，每张卡片本身就是一个原子，但半肥猫的观察提醒我们：
 
-- 原子大小取决于使用场景：concept 卡可包含多个 Claims，tool 卡可能只需一个 Claims。
-- 原子连接通过 Synthesis 实现：用 wikilink 和关联说明建立牵引，而不是合并卡片。
-- 原子切分要服务于"AI 能不能用"：AI 抽取卡片时，能否正确理解并使用其中的 Claims。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界/适用场景
 
@@ -103,15 +103,15 @@ KDO 九层架构中，每张卡片本身就是一个原子，但半肥猫的观�
 
 ## 行动 Checklist
 
-- [ ] 评估一张卡片/文档时，先问：它是否能被单独理解、单独使用、单独更新？
-- [ ] 检查 AI 抽取结果：信息是否完整，索引标签之间的关系是否被打断？
-- [ ] 设计 Skill 时，把约束、判断逻辑、案例库拆成可独立调用的原子。
-- [ ] 建立原子连接时，优先使用 YAML 标签、wikilink 和 Synthesis，而非把内容合并到同一个文件。
-- [ ] 定期维护：检查原子之间的连接和索引标签是否仍然有效。
-- [ ] 在向量化之前，先确认原子化粒度和语义边界是清晰的。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
-- [[dk-ban-fei-mao-skill-rejection-value]]
+- src_unknown
+- src_unknown
+- src_unknown

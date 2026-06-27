@@ -3,7 +3,7 @@
 id: "ocr-一堂-地图-管理地图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_af67f9b0
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-地图-管理地图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-地图-创业地图]]'
-  - '[[yt-system-course-map-lecture]]'
-  - '[[yt-model-management-map]]'
-  - '[[ocr-一堂-管理必修-课程清单]]'
-  - '[[ocr-一堂进步大地图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-地图-管理地图
@@ -36,38 +36,38 @@ webp` 向两侧拖动可放大查看 一堂管理地图：高潜力管理者修�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 管理成长以"段位"为核心修炼目标，分为管自己、管项目、管团队、管业务、管公司五个递进层级。
-- 打基础阶段涵盖：基本功（带团队练）、拆计划（计划拆解）、定方案（方案设计）、做战略（战略规划）、管目标（目标管理）、定文化（塑造基因）。
-- 管执行环节包含：过程管理、新人落地、1V1沟通、团队点燃、高效协作（会开会）。
-- 拿结果阶段强调：项目复盘、动力阻力（提转化）、计算ROI（做决策）、财务管理、合伙股权（分股权）。
-- 做沉淀要求建立知识库，实现经验资产化。
-- 业务提升关键动作：拆解公式（提业务）、做好招聘（懂招聘）、从0起盘（懂创业）。
-- 个人突破与团队管理并行：突破个人天花板（懂成长）与带团队练（基本功）形成双向支撑。
-- 带*标记课程表示研发中或未正式发布状态，管理地图存在动态迭代机制。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该地图声称"段位"是核心修炼目标，但未定义"段位"的具体评估标准或衡量指标是什么
-- "妹妹篇"等OCR识别存疑的术语（应为"姊妹篇"）是否影响对课程体系完整性的理解，两本手册之间的知识依赖关系未说明
-- 五个递进层级（管自己→管公司）的进阶逻辑缺乏验证依据，是否存在跳跃或并行路径的可能性未被探讨
-- "成长进阶"箭头方向与层级排列的视觉关系在OCR中完全丢失，层级是线性递进还是网状结构存疑
-- 带*标记课程的"研发中"状态占比（4/19≈21%）较高，该地图作为"全景图"的完整性和时效性是否受限
-- "做沉淀：建知识库"仅列于"拿结果"阶段末尾，但知识管理应贯穿全程，此处是否为事后补救而非持续机制
-- "懂创业：从0起盘"明确指向《创业必修》，但"懂成长"指向《个人必修》的标注存在OCR错误（"妨妹箱"），实际课程边界是否清晰
-- 管理动作与层级归属存在交叉（如"会开会"同时涉及协作与团队管理），分类标准是一维职能还是多维矩阵未阐明
-- **VA 描述了"管自己"模块因"占据最大单体面积且位于起点而极为突出"，但在真实组织中，管理者的自我管理能力往往被低估——大量管理失败源于"管不好自己"而非"管不好团队"。这种视觉上的"起点弱化"（相对于其他模块的面积占比）是否反映了一种"管理就是管别人"的隐性偏见？**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **索引类内容缺少深度：本卡片主要是能力地图，缺少可复用的知识内容。作为知识卡，其价值主要在于"索引"而非"知识"。
-- **更新频率风险：能力地图会随着内容更新而变化，本卡片可能很快过时。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -81,21 +81,21 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 不要用的场景
 
-- **深度学习代替浏览学习：能力地图适合快速浏览，但不能替代对单个内容的深度消化。
-- **创新性工作的思维发散：能力地图的线性结构可能限制跨领域联系的发现。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-capability-map — 能力地图的宏观视角
-- [[yt-decision-full-process]] — 技能进阶的理论基础
-- **此卡的坐标系矩阵结构（VA 描述为“纵横双轴框架结构”）与 [[yt-decision-width-method]] 的“维度×深度”分析矩阵在“双轴定位”逻辑上同源，但管理地图把“管自己”放在原点位置暗示它是“起点基础”，而宽度方法论更强调各维度之间的动态耦合而非静态定位。**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 知识库索引：作为快速查找内容的索引
-- 学习/能力计划：根据能力地图制定个人计划
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -6,37 +6,37 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-7
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-p14-zombie]]'
-  - '[[dk-p15-unverified]]'
-  - '[[obsidian-git-sync-protocol]]'
-  - '[[EC工业化规范手册]]'
-  - '[[dk-c10-batch-tool-no-dry-run]]'
-  - '[[master-knowledge-compound]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-formatted
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: "`git log` 里突然出现名为 'backup' 或 'auto backup' 的 commit，且包含多个本应按类型拆分的变更"
+- src_unknown
   framework_lens: "Obsidian Git 的 auto-backup 约每 20 分钟触发一次，会提交所有已 staged 的变更"
   follow_up_question: "检查提交内容是否跨类型混合；若已混合，评估是否需要 `git reset` 或 `git rebase -i` 重新拆分"
-- signal: "准备拆分 commit 时已 staged 多组文件，但中途离开/中断，回来后变更已被自动提交"
+- src_unknown
   framework_lens: "auto-backup 不识别用户的 commit 拆分意图，只识别 staged 状态"
   follow_up_question: "下次拆分 commit 时，是否先 stage 一组立即 commit，再处理下一组？"
-- signal: "同一 backup commit 里同时出现概念卡、格式修复、索引更新等不同类型的变更"
+- src_unknown
   framework_lens: "commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效"
   follow_up_question: "该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？"
 ---# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
@@ -53,10 +53,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你在 Obsidian 中编辑 KDO vault，准备把不同类型的变更拆分成独立的 commit（如"新增概念卡"、"修复格式"、"更新索引"）
-- 你 `git add` 了一批文件准备分批 commit，但还没开始拆分时突然有事离开
-- 你发现 commit 历史里出现了一个名为 "backup" 或 "auto backup" 的 commit，包含了本应分开提交的变更
-- 你使用 Obsidian Git 插件管理 vault，需要理解 auto-backup 的行为边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -87,17 +87,17 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **Obsidian Git auto-backup + staged 文件的行为组合是 KDO 工作流特有的**：在任何 Git 教程里，"staged 文件等待 commit"是天经地义的操作，没有人会提醒你"定时插件会偷走你的 staged 变更"
-- 这个坑的代价不是"丢了一个文件"，而是 **commit 历史被永久性破坏**：37 个文件被打成一个无意义的 "backup" commit，无法按类型回滚、无法做 `git blame` 追踪
-- 揭示了工具链叠加时的涌现问题：Obsidian Git 单独使用没问题，Git 单独使用也没问题，但两者叠加 + staged 文件 + 20 分钟定时器 = 灾难
-- 任何 AI 训练语料中都不会有"Obsidian Git 的 auto-backup 会把你 staged 的文件全部打包提交"这条知识——这是具体插件、具体工作流、具体操作顺序三者叠加的产物
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一模式：自动化工具在不合时宜的时机执行操作。C-10 是 scaffold 在未经验证时跑批量，C-7 是 auto-backup 在 commit 拆分完成前自动提交——两者都是"自动化抢占了本应人工控制的节点"
-- [[master-knowledge-compound]] — 知识复利的前提是"可检索、可溯源的 commit 历史"。C-7 破坏的不仅是当前 commit，更是未来所有依赖 `git log`、`git blame`、`git revert` 的知识复利积累
-- [[dk-c8-format-complete-mind-empty]] — 同一深层模式：输出/状态看起来"完成"了（backup commit 已生成、format 已合规），但内部结构已失控。两者都提醒：不能只看表面完成，必须检查内容/结构是否符合意图
-- `20_memory/corrections.md` → C-7（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - yitang- yitang
-  - education
-  - modeling
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,29 +21,29 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[modeling-scientific-milestones]]'
-  - '[[case-course-milestone-model]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[case-thousand-people-square]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#industry/education'
-- '#method/course-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals:
-- signal: 课程研发靠灵感推进，没有明确阶段验收标准
+- src_unknown
   lens: 里程碑缺失
   follow_up: 用 M1-M7 检查当前课程处于哪一步，下一步停止条件是什么
-- signal: 课程范围越写越大，内容收不住
+- src_unknown
   lens: 边界漂移
   follow_up: 回到 M2 重新写一句话边界定义，超过边界的信息不进入
-- signal: 模型自我感觉良好，但经不起用户或专家质疑
+- src_unknown
   lens: 撞击实验不足
   follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"
 
@@ -64,47 +64,47 @@ diagnostic_signals:
 
 ### M1：预案
 
-- 前期调研预案
-- 明确为什么要做这门课
-- 初步判断价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### M2：敲定边界
 
-- 这门课解决什么？不解决什么？
-- 超过边界的信息不进入
-- 输出：一句话边界定义
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### M3：饱和收集事实
 
-- 收集正面案例、反面案例、最佳实践、搞砸案例
-- 收集自己的经验、复盘
-- 做全国调研、用户访谈
-- **原则：事实 > 观点 > 理论**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### M4：整合萃取
 
-- 对事实分类建模
-- 找 before/after 的共性
-- 找卡点、爬坑路径、最佳实践、原则、本质
-- 输出：初步分类框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### M5：产出 1.0 模型
 
-- 画一个框子：冰山图、双三角、雷达图、公式等
-- 输出：1.0 模型 + 初步解释
+- src_unknown
+- src_unknown
 
 ### M6：辩证讨论 / 撞击实验
 
-- 内部交叉评审
-- 找专家评审
-- **目标：推翻这个模型**
-- 检查：硬伤？反例？边界模糊？定义不清？
-- 直到撞无可撞
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### M7：封装与包装打磨
 
-- 封装：把模型固化成可交付形式
-- 包装：做十层解读、课程、文档、卡牌
+- src_unknown
+- src_unknown
 
 ---
 
@@ -165,16 +165,16 @@ diagnostic_signals:
 
 ## 相关卡 / 互链
 
-- [[modeling-scientific-milestones]] —— 科学建模七步里程碑的通用版本
-- [[concept-thousand-people-square]] —— 一堂做课背后的统计建模理念
-- [[case-personal-map-modeling]] —— 个人地图建模案例
-- [[dk-modeling-expert-consensus-five-percent]] —— 5% 专家共识暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2170-2262`
+- src_unknown
 
 ---
 

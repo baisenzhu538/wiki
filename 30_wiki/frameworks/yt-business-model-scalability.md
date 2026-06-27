@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-scalability
 title: 商业模式可规模化评估：从1到100万
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-unit-economics
-  - yt-business-model-cac-ltv
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户单元模型成立，但增长停滞"
+  - src_unknown
     framework_lens: 商业模式可规模化——单元模型成立≠可规模化
     follow_up_question: "你的获客渠道是否可规模化？每个渠道的获客上限是多少？"
-  - signal: "用户说'我们模式很好，但做不大'"
+  - src_unknown
     framework_lens: 商业模式可规模化——需要评估规模化瓶颈
     follow_up_question: "做不大的原因是获客瓶颈、交付瓶颈、还是团队瓶颈？"
-  - signal: "用户规模化后，单元模型恶化"
+  - src_unknown
     framework_lens: 商业模式可规模化——规模化可能改变单元模型
     follow_up_question: "规模化后，CAC是否上升？LTV是否下降？为什么？"
-  - signal: "用户依赖单一渠道，渠道受限"
+  - src_unknown
     framework_lens: 商业模式可规模化——渠道多元化是规模化前提
     follow_up_question: "如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？"
-  - signal: "用户说'我们先做规模，再优化'"
+  - src_unknown
     framework_lens: 商业模式可规模化——规模不解决根本问题
     follow_up_question: "规模化的瓶颈是什么？规模能突破瓶颈吗？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当单元模型成立时 → 评估可规模化
-- 当规划增长时 → 检查5个维度
-- 当融资时 → 展示规模化评估
-- 当增长停滞时 → 定位规模化瓶颈
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-business-model-cac-ltv`：CAC与LTV计算
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 规模化增长研究
-- 精益创业（Eric Ries）：规模化验证
+- src_unknown
+- src_unknown
+- src_unknown

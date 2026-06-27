@@ -9,8 +9,8 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）
 created_at: '2026-06-14'
@@ -21,32 +21,32 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 diagnostic_signals:
-  - signal: 团队说出一个本质，但能推出的唯一动作是"重视它"
+  - src_unknown
     framework_lens: 解释性本质 vs 预测性本质
     follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-  - signal: 本质只解释过去所有成功案例，遇到反例就被说成"例外"
+  - src_unknown
     framework_lens: 可证伪性与预测力
     follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-  - signal: 决策会上大家在"顿悟感"中通过方案，没人能写清因果链
+  - src_unknown
     framework_lens: 决策可推导性
     follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-  - signal: AI 总结的本质听起来深刻，但落地时每个动作都要重新讨论
+  - src_unknown
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[case-essence-humanity-trap]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[dk-modeling-ai-cross-validation]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[case-modeling-essence-levels]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#chunk-type/question'
+- src_unknown
+- src_unknown
 
 ---# 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 
@@ -58,11 +58,11 @@ tags:
 
 ## 使用场景
 
-- 你或 AI 总结了一个"本质"，听起来很有道理，但落地时不知道第一步做什么。
-- 你需要判断一个方法论、课程、顾问输出是真的值钱，还是只是在解释过去。
-- 你要做战略、产品、运营决策，需要一个能推导行动的本质定义。
-- 你在评审团队或 AI 提炼的模型，想快速筛掉"万能大词"型鸡汤。
-- 你在对外传播一个本质，需要区分"传播版本"和"决策版本"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -70,9 +70,9 @@ tags:
    把这个本质用一句话表达清楚，避免修饰词和比喻。
 
 2. **三步推导测试**
-   - **关键要素**：它是否包含识别和定义这一类问题的核心维度？
-   - **自行推演**：能不能从它一步一步推出具体行动方案、流程或原则？
-   - **通用解**：它能不能作为这一类问题所有解法的出发点？
+   - src_unknown
+   - src_unknown
+   - src_unknown
    三个都通过，才可能是预测性本质。
 
 3. **推三个具体决策**
@@ -98,11 +98,11 @@ tags:
 
 ## 适用边界
 
-- **预测性本质适用于结构化、可重复决策场景**。创业、销售、战略、教育设计、产品运营等。
-- **解释性本质在文化传播、激励、品牌叙事中仍有价值**。但它不能替代决策工具，也不能作为决策 checklist。
-- **并非所有问题都能提炼出有效本质**。Truman 自己也承认：AI 的本质、品牌的本质，他到现在也没有完全说服自己。
-- **本质只是树根，不能直接当斧头用**。需要往上推两层，变成原则、流程、工具，才能落地。
-- **在样本不足、边界不清时，不要强求是预测性本质**。先收集事实，再提炼。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -118,19 +118,19 @@ tags:
 
 ## 为什么值钱
 
-- 市场上大量"第一性原理""利他""人性"都是解释性本质，听起来震撼但没法推导方案。它们能让你"被点亮"，却不会改变你的行为。
-- Truman 强调：创业是小概率游戏、战略是全局的艰难选择、融资 = 规模 × 概率——这些都能直接推导行动，因而值钱的不是金句本身，而是它背后的预测力。
-- 这条区分标准能帮你识别：哪些课程、顾问、方法论真的有体系，哪些只是在用宏大概念包装个人经验。
-- 在 AI 时代尤其重要：AI 特别擅长生成"解释性本质"，因为它可以从大量文本中总结出听起来很对的话。但预测性本质需要人的判断力、事实基础和可证伪的边界。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-essence-predictive]] —— 同一主题的更完整展开，包含多个预测性本质案例。
-- [[dk-modeling-counterexample-driven]] —— 用反例驱动验证本质：一个反例就能说明你的"本质"边界不对。
-- [[tool-essence-nfactor-modeling]] —— 本质建模方法，帮助从事实中提炼可预测的本质。
-- [[case-essence-education-strategy]] —— 预测性本质在具体业务案例中的应用。
-- [[case-modeling-essence-levels]] —— 本质分层案例，说明什么样的本质配得上不同分数段。
-- [[modeling-capability-for-kdo]] —— 一堂建模能力体系，解释本质建模在整体能力中的位置。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

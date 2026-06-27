@@ -6,37 +6,37 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-4
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[dk-c2-dual-status-machine]]'
-  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
-  - '[[sprint-2-门禁举证验收]]'
-  - '[[dk-c5-todo-false-positive]]'
-  - '[[dk-c2-dual-status-machine]]'
-  - '[[master-cognitive-bias-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '`kdo self-check --dry-run` 报告中出现 `status: superseded` 的页面，且被标记为"未 enrich"'
+- src_unknown
   framework_lens: '终态状态被错误地纳入未 enrich 检查：superseded 表示已被替代/废弃，不应参与 enrich 统计'
   follow_up_question: '检查 `_check_unenriched_wiki` 函数的 skip 集合是否包含 superseded；确认 schema 中终态 status 的完整列表'
-- signal: '多个检查函数或自定义脚本的 skip 集合不一致，部分工具误报而终态页面被其他工具漏检'
+- src_unknown
   framework_lens: 'skip 集合作为跨函数约定，必须与状态机终态保持同步；复制逻辑会继承缺陷'
   follow_up_question: '梳理所有读取 status 做过滤/跳过的函数，统一 skip 集合或抽取公共常量；为新增 status 建立同步 checklist'
-- signal: '新增 status 值（如 archived、deprecated）后，self-check 误报率突然上升'
+- src_unknown
   framework_lens: '新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因'
   follow_up_question: '每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合'
 ---# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
@@ -51,17 +51,17 @@ diagnostic_signals:
 
 ## 核心洞察
 
-- **误报的本质是"状态机终态"和"检查范围"不同步。** `superseded` 在 KDO 编译状态机中代表"已被新版替代/废弃"，是终态；但 `_check_unenriched_wiki` 的 skip 集合没把它识别为终态，导致检查范围越界。
-- **"狼来了"效应会摧毁整个自检机制的可信度。** 当报告里充斥 superseded 这类假阳性，审查者会系统性脱敏，真正的未 enrich 页面反而被忽略。
-- **skip 集合不是局部实现细节，而是跨函数的约定。** 一旦新增终态 status，所有读取 `status` 做过滤的函数（`_check_unenriched_wiki`、lint 规则、自定义脚本）都必须同步更新，否则一处遗漏会处处传染。
-- **通用软件工程知识不会告诉你 superseded 应该被跳过。** 这是 KDO 具体实现层面的暗知识：终态页面不需要 enrich，也不应参与未 enrich 统计。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你运行 `kdo self-check --dry-run` 检查 vault 中未 enrich 的页面，发现报告里出现了大量已废弃/被替代的卡片
-- 你审查 self-check 输出时，看到 `status: superseded` 的卡片被标红，需要判断这是真问题还是误报
-- 你修改 `_check_unenriched_wiki` 函数或自定义自检规则时，需要确定哪些终态 status 应该被排除在检查之外
-- 你设计新的 status 值（如 `archived`、`deprecated`），需要同步更新所有 skip 集合
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -73,11 +73,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有运行 `kdo self-check` 或类似自检工具的场景
-- **不适用于你希望 superseded 页面被重新 enrich 的特殊情况**：如复活旧版本、做历史对比分析时，可能需要临时移出 skip 集合
-- skip 集合需要随 schema 演进而更新：如果新增终态 status（如 `archived`），必须同步到所有检查函数
-- 如果 superseded 页面本身含有错误信息且被外部引用，可能需要保留 enrich 而非跳过——但这属于异常流程，非常态
-- 自定义自检脚本如果复制了 `_check_unenriched_wiki` 的逻辑，会继承这个缺陷，需要逐行审查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -91,16 +91,16 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- self-check 的误报会产生**"狼来了"效应**：如果报告里充斥假阳性，审查者会对整个报告脱敏，真正的未 enrich 页面会被忽略
-- 这是 KDO 特有的工具行为组合：`superseded` 作为编译进度状态机的终态，和 `self-check` 的 skip 集合之间缺少同步——这个具体知识不在任何通用软件测试教材中
-- 揭示了维护自检工具的核心原则：**skip 集合必须与状态机终态保持同步**。新增 status 时只改 schema 不改 skip 集合，是系统性错误的温床
-- 通用编程知识会告诉你"写测试要覆盖边界情况"，但不会告诉你"KDO 的 self-check 需要跳过 superseded"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c5-todo-false-positive]] — 同一模式：自检工具的字符串/规则匹配误报。C-4 是 skip 集合缺失导致的误报，C-5 是字符串匹配过宽导致的误报——两者都会降低自检报告的可信度
-- [[master-cognitive-bias-checklist]] — 认知偏差中的"告警疲劳"：当假阳性率高时，人类会系统性忽略所有告警，包括真阳性。C-4 和 C-5 如果不修复，会摧毁整个 self-check 机制的有效性
-- `20_memory/corrections.md` → C-4（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

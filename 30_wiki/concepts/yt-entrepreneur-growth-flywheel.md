@@ -7,27 +7,27 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1812
 language: zh-CN
 query_triggers:
-- 增长飞轮
-- 飞轮地图
-- 正反馈闭环
-- 驱动因子拆解
-- 飞轮阻塞诊断
-- 亚马逊飞轮
-- 系统化增长
-- 飞轮效应
-- 投入产出再投入
-- 增长结构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -44,12 +44,12 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户画了飞轮但飞不起来
+- src_unknown
   framework_lens: 飞轮各环节之间没有真实因果关系
   follow_up_question: 你飞轮的每一个环节，都能用数据证明它推动下一环节吗？
-- signal: 用户有多个飞轮但资源分散
+- src_unknown
   framework_lens: 没有核心飞轮
   follow_up_question: 如果只能推动一个飞轮，你选哪个？为什么？
 updated_at: '2026-06-16'
@@ -73,9 +73,9 @@ author: 老顽童
 
 ### 关键概念
 
-- 本课程属于一堂「起盘阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -94,7 +94,7 @@ author: 老顽童
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

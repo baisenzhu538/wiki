@@ -4,41 +4,41 @@ title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 tools_required:
-- AIGC大模型
-- 日历工具
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
+- src_unknown
 related:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
-- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI 引用明显过时的政策、价格或市场数据
+- src_unknown
   lens: 时效约束缺失
   follow_up: 在提示词开头加入当前日期，并追加'只能使用最新可得数据'的显式限制
-- signal: 告诉了日期但 AI 仍用旧数据回答
+- src_unknown
   lens: 限制表述不完整
   follow_up: 同时声明'不得使用训练数据中的过时信息，优先使用最新可得数据'
-- signal: AI 对'最新'的理解与行业实际不符
+- src_unknown
   lens: 行业时效标准未定义
   follow_up: 补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）
 ---
@@ -50,11 +50,11 @@ diagnostic_signals:
 
 ## 核心要点
 
-- claim:01 [conf=0.93] **AI 不知道"今天是什么日子"**。通用大模型的训练数据截止于某个时间点（通常是 2024 年或 2025 年），但 AI 的回答不会自动声明"我的知识是 X 年的"。不告诉 AI 日期 = 默认接受过时数据。
+- src_unknown
 
-- claim:02 [conf=0.87] **"限制时效"不是可选项，是必选项**。不仅要告诉 AI 当前日期，还要明确限制"只能使用最新可得数据"。如果不加这个限制，AI 会"如法炮制"——用它有的最新数据回答，而不是"最新可得数据"。
+- src_unknown
 
-- claim:03 [conf=0.82] **时效约束需要与行业特点结合**。不同行业的"最新数据"定义不同：科技行业一年前的数据就可能过时；传统制造业五年前的数据仍然有效。需要根据具体行业告诉 AI "什么时候的数据算过时"。
+- src_unknown
 
 ## 操作步骤
 
@@ -95,12 +95,12 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已确认本次任务需要依赖时效性事实（非纯创意/历史场景）
-- [ ] 已在提示词开头写明当前日期
-- [ ] 已追加"只能使用最新可得数据"或类似显式限制
-- [ ] 已根据行业/任务特点定义"数据失效"的时间阈值
-- [ ] AI 回答中出现具体事实时，已追问其数据时间和来源
-- [ ] 若 AI 声明无法获取最新数据，已评估是否接受旧数据或切换工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
@@ -114,8 +114,8 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- AIGC 大模型
-- 日历工具
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -125,11 +125,11 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **"最新可得数据"本身就是一个模糊概念**。对于大多数行业，"最新可得数据"往往是隐私的、未公开的、需要付费获取的。AI 即使知道自己该用最新数据，也可能"有心无力"——它没有实时数据接入。
+- src_unknown
 
-- **这个技能只是"防御性"的，不是"攻击性"的**。告诉 AI 日期只能防止它用过时数据，但不能解决"没有数据"的问题。如果某个问题根本没有最新数据，这个技能不会让 AI 变得更准确。
+- src_unknown
 
-- **对于已接入实时搜索的 AI 工具这个技能是冗余的**。如果 AI 已经接入了实时搜索 API（如 Perplexity、接入搜索功能的 GPT-4），那么"限制时效"的意义大打折扣——这些工具自己会处理时效问题。
+- src_unknown
 
 ### 外部攻击
 
@@ -137,11 +137,11 @@ diagnostic_signals:
 
 **Don Norman**（*The Design of Everyday Things* 作者，认知心理学家、设计思维专家）从人机交互和自动化的角度质疑这个技能：
 
-- **你正在把用户责任外包给 AI**：Norman 在研究自动驾驶时提出"自动化悖论"——当系统自动化程度越高时，操作者在系统失败时的表现越差。你要求用户"每次对话前先告诉 AI 日期"，这是把"确保系统知道当前时间"的责任从设计者转移给了用户。一个好的 AI 系统应该自己知道今天是几号。
+- src_unknown
 
-- **"忘记说日期"不是用户的错，是设计的错**：Norman 会说，如果一个技能需要用户"每次都记得做某件事"，那它就是一个坏设计。用户会忘记、会出错、会懒惰——这不是用户缺点，是人类特性。你的技能在假定一个"不会出错的用户"。
+- src_unknown
 
-- **这种"增量式约束"正在把 AI 使用变得更复杂**：每次使用 AI 都要加一些特殊的前置条件（告诉日期、限制时效、排除信源类型……），这会让 AI 使用的越来越累赘。Norman 的设计原则是"让正确的行为变得容易"，而不是"让正确的行为需要记住"。
+- src_unknown
 
 > **Norman 的拷问**："你说'忘记告诉 AI 日期是常见失败模式'。但这不是失败模式，这是设计缺陷。如果一个系统需要用户每次都记得做某件事，那这个系统就是坏的。你应该要求的不是'用户记得说日期'，而是'AI 应该自己知道今天是几号'。你把设计者的责任转移给了用户，然后还觉得自己很负责。"
 
@@ -149,16 +149,16 @@ diagnostic_signals:
 
 **Nassim Taleb**（*The Black Swan* / *Antifragile* 作者）对"限制时效"这个做法提出了更深层的质疑：
 
-- **"最新数据"不一定是"最好数据"**：Taleb 会指出，在很多领域，过去 10 年的数据比最近 1 年的数据更有预测力。因为"最新数据"往往来自"尚未经历完整周期的事件"——你用爆发期的数据做决策，结果可能比用 5 年前的数据更糟糕。
+- src_unknown
 
-- **你可能在进行"数据时效的假象"式安慰**：告诉 AI "只用最新数据"让你觉得自己很"严谨"，但 Taleb 会问：这个限制有没有改变任何结论？如果 AI 的回答经过这个限制后和没有限制后没有区别，那这就是一种"安慰剂"而非"有效措施"。
+- src_unknown
 
 > **Taleb 的拷问**："你让 AI 只用最新数据。但你知道在很多行业，'最新'意味着'最没经历过验证'吗？你用 2025 年的数据做决策，但 2025 年可能正好是一个异常年份。真正重要的问题不是'数据是不是最新的'，而是'数据是不是可靠的'。你的时效限制可能让你用了更差的数据。"
 
 ## 来源
 
-- 半肥猫，AI 俱乐部 AI 学习落地分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-talent-density
 title: 人才密度：组织壁垒
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-culture-moat
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的核心人才被竞品挖走了'"
+  - src_unknown
     framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
     follow_up_question: "你的核心人才为什么走？薪酬、发展、文化？人才密度是否足够高？"
-  - signal: "用户说'我们招不到好的人'"
+  - src_unknown
     framework_lens: 人才密度——招聘难说明雇主品牌或人才吸引力不足
     follow_up_question: "你的雇主品牌如何？人才是否知道你的公司？薪酬竞争力如何？"
-  - signal: "用户说'我们的人效比竞品低'"
+  - src_unknown
     framework_lens: 人才密度——人效低可能是人才密度不够或管理问题
     follow_up_question: "你的人均产出是多少？人才密度是否足够？管理是否高效？"
-  - signal: "用户说'我们的团队扩张后，效率下降了'"
+  - src_unknown
     framework_lens: 人才密度——团队扩张稀释了人才密度
     follow_up_question: "扩张后的人才密度是否下降？招聘标准是否降低？"
-  - signal: "用户说'我们的文化很好，但人才还是流失'"
+  - src_unknown
     framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
     follow_up_question: "除了文化，薪酬、发展、挑战是否足够吸引人才？"
 
@@ -130,21 +130,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当核心人才流失时 → 提升激励
-- 当招聘困难时 → 雇主品牌
-- 当人效下降时 → 人才密度
-- 当扩张时 → 控制密度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-culture-moat`：文化护城河
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 人才管理研究
-- 组织行为学
+- src_unknown
+- src_unknown
+- src_unknown

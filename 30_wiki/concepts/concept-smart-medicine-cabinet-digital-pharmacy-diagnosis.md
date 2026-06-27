@@ -5,8 +5,8 @@ title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
@@ -73,10 +73,10 @@ related: []
 
 ## 对“大院处方、小院续方”的判断
 
-- **商业逻辑**：利用大医院确诊信任背书，在基层卖自费原研药，赚取差价。
-- **合规问题**：当前操作依赖处方照片/复制，缺乏规范诊疗和电子处方流转，合规性薄弱。
-- **可持续性**：若监管强化处方来源审查，模式可能迅速收紧。
-- **改造建议**：接入区域电子处方流转平台，保留完整诊疗-审方-取药-随访记录。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

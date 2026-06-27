@@ -7,8 +7,8 @@ title: 跑步机需求分析：在家健身场景的需求拆解与替代方案�
 type: case
 status: reviewed
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂五步法-需求分析课程案例
 source_refs:
@@ -17,17 +17,17 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - '[[yt-demand-treadmill-case]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[case-milktea-five-step]]'
-  - '[[case-shampoo-product-kernel]]'
-  - '[[case-demand-silver-parenting]]'
-  - '[[yt-foresight-15-char-mantra]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-case-verified
+- src_unknown
+- src_unknown
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -65,21 +65,21 @@ trust_level: high
 一堂需求分析的核心方法是"不看产品看替代"。跑步机面临的替代方案矩阵：
 
 **免费/低成本替代：**
-- 户外跑步（0元，风景+空气+自由）
-- 公园/小区健身设施（0元，社交属性）
-- 瑜伽/波比跳/健身环（低投入，趣味性高）
-- Keep等APP跟练（0-低投入，内容丰富）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **付费替代：**
-- 健身房（月卡200-500元，器械全+氛围+教练）
-- 私教（单次300-800元，专业指导）
-- 精品工作室（瑜伽/普拉提/CrossFit，社群感强）
-- 跑步机租赁（400元/月，降低决策门槛）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **社交/情感替代：**
-- 遛狗（被迫运动+情感陪伴）
-- 逛街（被动消耗+社交）
-- 朋友约打球（社交+竞技趣味）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三层：跑步机的结构性劣势
 
@@ -95,16 +95,16 @@ trust_level: high
 ## 关键假设与验证
 
 **关键假设1：用户有"在家随时锻炼"的强需求**
-- 验证方式：观察用户是否曾为健身房/户外锻炼设置过具体计划
-- 反例：多数用户只是"想健身"而非"想在家健身"，后者是伪需求
+- src_unknown
+- src_unknown
 
 **关键假设2：跑步机的便利性足以战胜替代方案**
-- 验证方式：对比用户实际使用跑步机和替代方案的频率
-- 反例：便利性优势在使用3个月后消失，趣味性劣势持续存在
+- src_unknown
+- src_unknown
 
 **关键假设3：用户愿意为"在家健身"支付600-20000元**
-- 验证方式：分析价格敏感度和实际支付意愿
-- 反例：高价跑步机（2万+）与健身房年卡相比无性价比优势；低价跑步机（600元）体验极差加速闲置
+- src_unknown
+- src_unknown
 
 ## 一堂方法论的映射
 

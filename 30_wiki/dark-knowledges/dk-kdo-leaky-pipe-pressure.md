@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: anti-pattern
 status: enriched
 domain:
-- kdo
-- master
+- src_unknown
+- src_unknown
 source_person: 黄药师
 source_context: KDO EC工业化迁移提案讨论，第二十二节批次4精修，2026-06-17
 source_refs:
@@ -15,37 +15,37 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
-  - '[[dk-f10-broken-source-refs]]'
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[dk-f7-surface-translation]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[kdo-priority-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/anti-pattern'
-- '#domain/kdo'
-- '#domain/master'
-- '#method/pipeline-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 团队在基础链路（ingest、source追踪、broken links）尚未稳定时，争论"要不要做本质建模""要不要加AI评审"
+- src_unknown
   framework_lens: 基础链路优先——左腿（基础链路）没站稳，右腿（高级功能）迈出去必摔
   follow_up_question: 先列出当前管线的基础链路指标（broken links 数、source 缺失率、artifact validate 通过率），这些归零之前，高级功能讨论暂停。
-- signal: 每次 lint 扫描出大量 P0/P1，团队讨论后决定"再加一道 lint"，结果错误更多
+- src_unknown
   framework_lens: 在漏水处加压——lint 规则本身依赖不完整数据，规则越严误报越多
   follow_up_question: 暂停新增 lint 规则。先修好导致数据不完整的根源（ingest 跳过、source 缺失、frontmatter 残缺），再评估需要哪些 lint。
-- signal: 管线某环节经常被跳过（如 enrich 阶段可被完全绕过），团队选择在上游加审批节点
+- src_unknown
   framework_lens: 绕过根因分析——被跳过说明该环节成本太高或价值不清晰，硬加审批只是把阻力的皮球踢给别人
   follow_up_question: 统计该环节的跳过率和跳过原因。如果是"太慢"，优化自动化；如果是"不知道要做什么"，先做最小可用模板。
-- signal: 团队花大量时间讨论门禁标准，但基础数据质量（卡片 status 漂移、related 指向不存在的卡）没人修
+- src_unknown
   framework_lens: 政策前置于基建——在没有干净数据的情况下定义标准，如在没有地基的沙地上画建筑图
   follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。
 ---# 暗知识：在漏水的管子上加压
@@ -74,11 +74,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你在设计或优化一个知识管理/内容管线的质量门禁体系。
-- 团队争论"要不要加硬门禁"时，基础链路的健康度尚未被评估。
-- 你发现团队成员在系统性绕过某道流程，而不是遵守它。
-- 你在做 KDO/类似管线的迁移或工业化升级。
-- 你想区分"需要修的基础设施问题"和"需要加的门禁规则"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -95,14 +95,14 @@ diagnostic_signals:
    运行 `kcard-quality-gate.py`，拿到 broken links、source 缺失、status 漂移的基准数字。
 
 2. **修复顺序 = 数据完整性 → 自动化 → 门禁。**
-   - 第一周：归零 broken links，修复 source_refs 缺失。
-   - 第二周：确保 ingest → enrich → produce 三步自动化稳定运行。
-   - 第三周：基于修复后的洁净数据，评估需要哪些门禁。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **每加一道门禁，必须回答三个问题：**
-   - 这道门禁在过去一个月能拦截多少次真实问题？（要数据，不要直觉）
-   - 它的误报率是多少？误报的处置成本谁承担？
-   - 绕过它的成本是否高于遵守它的成本？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **失败模式必须从事故生长。**
    不要坐在房间里设计"可能会出什么问题"——去看日志、去读 feedback 记录、去问被门禁卡过的人。EC 的 F001-F014 全部来自真实事故，KDO 的门禁也应该这样生长。
@@ -128,15 +128,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **反直觉**：多数人的第一反应是"有问题就加检查"，但这个直觉在管线建设中是错的。
-- **有惨痛教训支撑**：EC 工业化过程中真实踩过坑，14 条失败模式编号（F001-F014）全部是从事故中提取的。
-- **通用可迁移**：不仅适用于 KDO，任何涉及质量门禁、CI/CD、内容审校的管线都会遇到同样的陷阱。
-- **区分了"基础设施问题"和"门禁问题"**：这是两个完全不同的问题类型，但常常被混为一谈。混在一起的结果是两者都搞不好。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[kdo-ec-industrialization-migration-proposal]] —— EC → KDO 工业化迁移方案，提出了 EC 的 14 条失败模式（F001-F014）和 KDO 管线的 9 个已知痛点。
-- [[modeling-capability-for-kdo]] —— KDO 建模路线决策，讨论了建模与管线的依赖关系。
-- [[dk-f7-surface-translation]] —— 表层翻译暗知识，讨论了"把 EC 概念直译到 KDO"的风险。
-- [[dk-c8-format-complete-mind-empty]] —— 格式完成但内涵空洞，另一个"形式大于实质"的反模式。
-- [[kdo-priority-checklist]] —— KDO 优先级检查清单，可用于区分基础设施修复和门禁开发的优先级。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

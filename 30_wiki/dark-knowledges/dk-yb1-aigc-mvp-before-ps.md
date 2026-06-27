@@ -6,34 +6,34 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- design
-- ai-collaboration
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb31-style-first-controlnet]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb8-file-naming-eight-elements]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 设计师接到需求后第一反应是打开PS/AI开始做，跳过方向验证直接进入执行
+- src_unknown
   framework_lens: 肌肉记忆陷阱——传统工具的使用习惯阻碍AIGC工作流落地
   follow_up_question: 最近3次设计任务中，有几次是先收集参考图跑AI验证方向，再打开传统工具的？比例低于1/3说明工作流未转变。
-- signal: 设计产出被反复推翻，每次改稿都在PS里重新做，而不是回到提示词/方向层调整
+- src_unknown
   framework_lens: 改稿成本错位——方向级问题应该在MVP阶段解决，而非在执行层反复修改
   follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。
 ---# 设计师AIGC工作流：先跑MVP再开PS
@@ -74,11 +74,11 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 接到设计需求后，是否先打开了参考图收集工具而非PS？
-- [ ] 是否在30分钟内收集了足够的参考图（≥30张）？
-- [ ] 是否用AIGC跑出了至少2个方向供比较？
-- [ ] 方向确认的依据是什么？是否和需求方对齐过？
-- [ ] 进入PS前，是否已明确"这次执行只需要做哪些细节调整"？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -86,6 +86,6 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb5-style-asset-archive]] — AI绘图降本的前提：风格资产工程化归档
-- [[dk-yb8-file-naming-eight-elements]] — 文件命名八要素体系
-- dk-yb15-prompt-length-constraint — 提示词长度即约束强度
+- src_unknown
+- src_unknown
+- src_unknown

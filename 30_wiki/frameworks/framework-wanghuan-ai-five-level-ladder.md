@@ -6,10 +6,10 @@ title: 王欢AI能力五层跃迁模型
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -23,36 +23,36 @@ source_refs:
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 - 10_raw/sources/src_20260619_7bd154f7_wanghuan_AI能力五层跃迁_示意图.md
 diagnostic_signals:
-- signal: 团队把 AI 当更快搜索引擎，用完即走，无模板沉淀
+- src_unknown
   lens: 层级诊断
   follow_up: 检查是否已建立可复用 prompt 模板与知识库（工作流层）
-- signal: 有作品但无真实用户、无数据反馈、无版本迭代
+- src_unknown
   lens: 产品化缺口
   follow_up: 从作品层跃迁至产品/应用层，需找到第一位真实用户并收集反馈
-- signal: 多个独立 AI 工具并行，但无编排、无自动触发、无反馈闭环
+- src_unknown
   lens: 系统化缺口
   follow_up: 设计统一编排底座，把分散作品串成自动运转的操作台
-- signal: 业务改善停留在 30%–50% 效率提升，无法逼近 3 倍
+- src_unknown
   lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-say-think-do-toolchain]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- AI能力分层
-- 五层跃迁
-- 人机协作
-- 成熟度模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -92,8 +92,8 @@ AI 能力可以分成五层：问答层、工作流层、作品层、产品/应�
 
 与演员/导演模型的关系：
 
-- **问答层、工作流层**：主要是**演员模式**——人用 AI 工具做事。
-- **作品层、产品/应用层、系统层**：主要是**导演模式**——人设计系统，AI 执行。
+- src_unknown
+- src_unknown
 
 > 想要突破第二层，必须完成从演员到导演的切换。
 
@@ -125,24 +125,24 @@ AI 能力可以分成五层：问答层、工作流层、作品层、产品/应�
 
 ## 行动 Checklist
 
-- [ ] 用五层模型给自己或团队定位，明确当前层级与最短板的层级。
-- [ ] 列出过去一周重复问 AI 的 3 个问题，把它们固化为可复用模板。
-- [ ] 选择一个本周会用 3 次以上的高频任务，做出第一个可复用作品（网页、脚本、技能）。
-- [ ] 为作品设定一位真实用户和一条可量化验收标准（如下周使用次数、节省时长、质量评分）。
-- [ ] 画出当前 AI 工具链路，检查是否存在“触发→执行→验收→迭代”的完整闭环。
-- [ ] 如果已有多个独立作品，设计一个统一编排底座，把输入、输出、反馈串成系统。
-- [ ] 每月复盘一次：本月是在同一层做了一百次平行任务，还是让飞轮转了一圈？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]
-- [[framework-wanghuan-task-product-system]]
-- [[framework-wanghuan-say-think-do-toolchain]]
-- [[framework-wanghuan-bitcoe-prompt-framework]]
-- [[case-wanghuan-shenyang-software-3x-efficiency]]
-- [[dk-wanghuan-paced-sales-decision]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -14,17 +14,17 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
-  - '[[tool-lean-human-replace-system]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-human-replace-rnd]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 超值服务：用 VIP 服务验证标准服务
@@ -60,15 +60,15 @@ related:
 
 ### 招募种子用户并明确告知服务形态
 
-- 选择 5-20 个目标用户，最好覆盖不同细分场景 [conf=0.70, source=精益创业经验参考]
-- 明确说明当前是「人工 MVP 服务」，避免用户误以为是最终产品
-- 收取真实费用或承诺费用，验证付费意愿
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 交付并记录过程
 
-- 用表格、文档或轻量 CRM 记录每次服务过程
-- 重点记录：用户反馈、卡点、超预期点、可标准化模块
-- 不要过早优化体验，先关注「价值是否被感知」
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 定义通过/不通过标准
 
@@ -94,10 +94,10 @@ related:
 
 ### 最适合的场景
 
-- **服务类产品**：咨询、培训、企业服务、本地生活服务等，天然需要人与人的交付 [conf=0.80, source=一堂DOC-20260622212224_ocr_text.md]
-- **SaaS/软件早期**：在写代码前先人工跑一遍实施流程，确认产品化方向
-- **B2B 长决策链**：用深度陪跑建立信任，验证客户愿为何种价值付费
-- **教育/知识付费**：用个性咨询替代课程研发，确认内容结构和定价
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整的场景
 
@@ -111,8 +111,8 @@ related:
 
 超值服务与 [[tool-lean-stealth-service|偷偷服务]] 同属 A 阶段，但侧重点不同：
 
-- **偷偷服务**：前端看起来像系统，后端由人工完成，重点验证「产品体验流程」
-- **超值服务**：不掩饰人工属性，反而用高接触 VIP 服务验证「服务价值本身」
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -142,16 +142,16 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，C 版方案是「买 20 台普通滑板车 + 地铁口摆摊 + 海报提供人工租赁」，本质上是用人工服务替代未来的 App 下单和自动运维系统，验证「用户是否愿意租电动滑板车出行」[conf=0.80, source=case-lean-electric-scooter-mvp]。
 
-- **对应工具**：超值服务 / 人工服务 MVP
-- **关键洞察**：在自研硬件和开发 App 之前，先用人工租赁跑通需求验证
+- src_unknown
+- src_unknown
 
 ### 正例：SaaS 企业早期驻场实施
 
 多家 SaaS 创业公司的早期做法：创始人亲自到客户现场做实施和培训，而不是先开发完整产品。通过这种方式验证：
 
-- 客户最痛的问题是什么
-- 产品化后哪些模块必须优先做
-- 客户愿意为哪些功能支付多少费用
+- src_unknown
+- src_unknown
+- src_unknown
 
 这类案例在一堂课程中被反复引用，但具体数字因公司而异，此处不做精确引用 [conf=0.65, source=讲师经验判断]。
 
@@ -165,10 +165,10 @@ related:
 
 ## When NOT to Use
 
-- **纯工具型产品**或**高频低客单价产品**不适合用重人工 VIP 服务验证，因为服务成本与最终产品形态差距过大。
-- **强监管行业**需避免 VIP 服务承诺具体疗效或收益，否则可能触碰合规红线。
-- **已有成熟竞品的红海市场**若再用高成本人工服务验证基础价值，验证效率会远低于直接对比测试。
-- 当团队陷入「享受做高端定制」而不愿产品化时，应暂停该方法，先设定明确的产品化里程碑。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

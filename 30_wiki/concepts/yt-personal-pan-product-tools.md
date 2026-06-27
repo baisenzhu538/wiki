@@ -4,32 +4,32 @@
 
 id: yt-personal-pan-product-tools
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 出牌教学法与30张卡牌
-- 泛产品设计
-- 泛产品设计工具篇
-- 泛产品设计工具篇：出牌教学法与30张卡牌
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown工具篇
+- src_unknown工具篇：出牌教学法与30张卡牌
 related:
-  - '[[ocr-一堂-地图-创业地图]]'
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[yt-research-action-camp-launch]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
-  - '[[yt-personal-thinking-models]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[case-truman-prd-checklist-evolution]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_e6643d52-个人修炼-泛产品设计工具篇
@@ -43,15 +43,15 @@ yitang:
   course_type: required
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能说出30张卡牌中每张属于需求、审美还是落地类别
+- src_unknown
   framework_lens: 工具箱需要结构记忆
   follow_up_question: 随机抽一张牌，你能在3秒内说出它属于哪组牌吗？
-- signal: 面对具体任务时，能组合使用多张卡牌而不是只出一张
+- src_unknown
   framework_lens: 出牌 = 组合能力
   follow_up_question: 这个任务需要哪几张牌配合？它们之间的顺序是什么？
-- signal: 使用卡牌后会对效果进行复盘，更新自己的'出牌策略'
+- src_unknown
   framework_lens: 工具能力在反馈中进化
   follow_up_question: 上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？
 updated_at: '2026-06-16'
@@ -74,20 +74,20 @@ trust_level: medium
 ### 失败模式
 
 1. **死记硬背卡牌名称，遇到真实问题想不起来用**
-   - **原因**：记忆脱离情境
-   - **修复**：每个卡牌至少配一个自己经历过的应用场景
+   - src_unknown
+   - src_unknown
 
 2. **只用自己最熟悉的几张牌，其他牌永远不出**
-   - **原因**：路径依赖
-   - **修复**：每个项目强制使用至少一张不常用的牌
+   - src_unknown
+   - src_unknown
 
 3. **为了用牌而用牌，增加不必要的流程**
-   - **原因**：形式化
-   - **修复**：根据任务复杂度选择牌数，简单任务1-2张即可
+   - src_unknown
+   - src_unknown
 
 4. **把卡牌当标准答案，不结合具体情境调整**
-   - **原因**：僵化使用
-   - **修复**：每次出牌前写明‘当前情境的特殊性’和‘调整方式’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -108,9 +108,9 @@ trust_level: medium
 
 ### 30张牌的来源
 
-- 三分之一到一半：在其他一堂课里讲过（如五步法、动力阻力触点）
-- 一半以上：Truman 个人工具，此前从未在课上系统出现
-- 来源方式：团队"对 Truman 非常凶残的一次一次榨取"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三组牌的逻辑
 
@@ -124,9 +124,9 @@ trust_level: medium
 
 ### 关键教学决策
 
-- **为什么用卡牌？** 抽象工具太干，卡牌形式降低认知负担，容易记住和组合
-- **为什么是30张？** 不是理论推导，而是实操验证——这些是 Truman 实际反复使用的工具
-- **一张牌 vs 一节课**：每张牌都值得讲一节课甚至多节课（如五步法本身就是一个完整课题），框架篇只能做导览
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -146,8 +146,8 @@ Suchman 的核心洞见对"30 张卡牌"方法论的根本性挑战：卡牌是"
 
 **Donald Schön**（麻省理工学院教授，*The Reflective Practitioner* 和 *Educating the Reflective Practitioner* 作者）对一切"将专业能力编码为知识体系"的努力做出了一个优雅的区分：**"干爽高地"上的问题（the high ground）vs "沼泽低地"中的问题（the swampy lowlands）。**
 
-- **干爽高地上的问题**：可被清晰定义、可用标准方法解决——你的 30 张牌在干爽高地上非常有效。
-- **沼泽低地中的问题**：混乱、独特、模糊、价值冲突、没有标准答案——而 Schön 指出，**专业实践中最重要的问题恰恰在沼泽低地。** "一个新产品应该从哪个功能开始？"——这不是出哪张牌的问题，因为牌的答案依赖你对用户、市场、团队、资源的整体理解——而那个整体理解不在任何一张牌里。
+- src_unknown
+- src_unknown
 
 Schön 的核心概念**"行动中反思"（reflection-in-action）**——从业者在行动的同时也在思考自己的行动、并根据新出现的意外调整行动——是 30 张牌方法论无法覆盖的核心能力。卡牌教的是"行动前的知识"，Schön 关心的是"行动中的智能"。前者可以事先准备，后者只能在沼泽中练出来。
 
@@ -175,18 +175,18 @@ Schön 的核心概念**"行动中反思"（reflection-in-action）**——从�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-model-pan-product-36-strategies]] — 36 计全图（yitang 域）
-- [[yt-personal-pan-product-concepts]] — 认知篇（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：30 张卡牌是武器库中最系统化的工具集——但这恰恰是它的最大弱点。Suchman 和 Schön 的一致诊断：系统化的工具产生系统化的盲区——那些"工具没定义但现实出现了"的情境。最高级的武器使用不是"打光了 30 个弹夹"——是"在弹夹空了的瞬间知道怎么办"
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：每一张卡牌都是一套微型"讲香"脚本——它告诉你怎么在特定情境中组织你的叙事。但 Suchman 警告：不要因为牌上的故事太好就只讲牌面上的故事——最好的产品叙事往往发生在"这张牌用不上了，我换个说法"的时刻
-- [[case-truman-motivation-map-12-versions]] — 动机地图12版迭代案例："需求牌+审美牌"组合使用的典型——先用用户观察抽象出"驱动力/影响力"双路径，再用审美迭代把图改到"不用救"的上限
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

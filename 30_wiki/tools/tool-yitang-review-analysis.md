@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[tool-yitang-public-sentiment-research]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[yt-management-conversion-hacking]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[tool-yitang-weapon-product-reputation]]"
-  - "[[tool-yitang-public-sentiment-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 差评分析

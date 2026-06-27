@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,35 +21,35 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- signal: 看到 Manus/Genspark 这类 Agent 平台，第一反应是“以后可以不用管了”
+- src_unknown
   lens: autonomy-illusion
   follow_up: 把人的角色重新定义为“目标 + 验收标准”，而不是彻底退出
-- signal: 同一个任务反复开多个 AI 窗口，手动复制粘贴做对比
+- src_unknown
   lens: multi-window-friction
   follow_up: 改用支持多模型聚合的平台，在一个工作区内完成生成-校验闭环
-- signal: AI 自动执行的结果“看起来做完了”，但离业务目标还有距离
+- src_unknown
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
 related:
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
-  - '[[dk-wanghuan-spec-trap]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- Agent平台
-- Manus
-- Genspark
-- 导演思维
-- 验收标准
-- 暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 
@@ -70,8 +70,8 @@ Manus、Genspark 这类 Agent/聚合平台的真正价值，不是“你把任�
 王欢提到 Manus 的核心用法是：**你只提要求和验收标准，中间执行过程不要过度干预**。
 
 这和“甩手掌柜”的区别在于：
-- **甩手掌柜**：只给一句话目标，最后发现结果不是自己想要的。
-- **导演模式**：给目标的同时，明确“什么叫到了”“绝对不能出现什么”“我要看到哪些交付物”。
+- src_unknown
+- src_unknown
 
 外部验证（2026 年多家评测）也指出：Manus 确实采用“规划-执行-验证”的多 Agent 架构，能在沙盒中自动完成任务并交付；但复杂任务仍会出现循环、崩溃、质量参差，**完全放手只适用于可容错、可回滚的场景**。
 
@@ -94,9 +94,9 @@ Manus、Genspark 这类 Agent/聚合平台的真正价值，不是“你把任�
 王欢反复强调：AI  output 的质量 = 你的标准 × 迭代次数。Agent 平台只是把迭代速度变快了，**如果你的验收标准为零，结果仍然是零**。
 
 所以上 Manus/Genspark 之前，要先问自己：
-- 这个任务的“好结果”我能描述清楚吗？
-- 哪些红线绝对不能碰？
-- 中间哪些节点我需要看、哪些可以放手？
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果答不上来，先用基础对话框把标准和流程跑通，再上 Agent 平台。
 
@@ -139,28 +139,28 @@ Manus、Genspark 这类 Agent/聚合平台的真正价值，不是“你把任�
 
 ## 行动 Checklist
 
-- [ ] 在启动 Manus/Genspark 之前，先把任务目标和验收标准写进 AI 业务档案。
-- [ ] 验收标准至少包含：必须满足什么、绝对不能出现什么、交付物格式是什么。
-- [ ] 复杂任务先拆成“可独立验收的子目标”，而不是一次性丢给平台。
-- [ ] 使用多模型平台时，明确每个模型扮演的角色：生成者 / 审查者 / 合成者。
-- [ ] 平台输出后，先用业务标准验收，再优化；不要直接接受“看起来做完了”的结果。
-- [ ] 每次任务结束后，把新的失败模式和验收标准回写进 AI 业务档案。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- `[[framework-wanghuan-actor-director-mode]]` — 导演思维是这张卡的认知底座
-- `[[framework-wanghuan-gan-three-roles]]` — 生成器/判别器/合成器三角色对应“执行+审查+合成”
-- `[[dk-wanghuan-spec-trap]]` — 为什么不要过度拆解执行步骤
-- `[[dk-wanghuan-magic-defeats-magic]]` — 如何用 AI 对抗 AI 建立验收标准
-- `[[framework-wanghuan-ai-five-level-ladder]]` — Agent 平台属于系统层，但不要在低层没跑通时硬上
-- `[[tool-wanghuan-ai-business-profile]]` — 把验收标准写入 AI 业务档案的具体工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可信度说明
 
-- 本卡核心观点来自**王欢 AI 实战分享视频闲聊 Q&A（用户转述）**，并与王欢口述稿最后部分交叉验证。
-- Manus/Genspark 的产品功能描述参考了 2026 年公开评测和官方介绍，但**产品能力迭代很快**，具体功能以实际版本为准。
-- 本卡聚焦“使用姿势/工作流设计”而非产品说明书，建议每 3-6 个月复核一次产品能力变化。
+- src_unknown
+- src_unknown/Genspark 的产品功能描述参考了 2026 年公开评测和官方介绍，但**产品能力迭代很快**，具体功能以实际版本为准。
+- src_unknown

@@ -3,21 +3,21 @@ id: tool-反向提示获取优化建议
 title: 技能：反向提示获取优化建议
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- master
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 同一模型或更强模型
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-提示词结构化迭代]]'
-- '[[tool-渐进式披露上下文]]'
-- '[[tool-反向教学深化理解]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：反向提示获取优化建议
 
@@ -43,25 +43,25 @@ related:
 4. 吸收建议迭代
 
 ## 适用场景
-- ✅ 提示词效果不佳但不知如何改进
-- ✅ 需要突破自身思维盲区
-- ✅ 学习提示工程时
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 利用AI的元认知能力，将单轮生成转为双向优化循环
 
 ## 工具/环境
-- 同一模型或更强模型
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

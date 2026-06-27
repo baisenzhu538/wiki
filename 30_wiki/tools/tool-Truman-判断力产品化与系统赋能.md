@@ -3,8 +3,8 @@ id: tool-Truman-判断力产品化与系统赋能
 title: 技能：判断力产品化与系统赋能
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-低质量动作识别与拒绝]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：判断力产品化与系统赋能
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 个人判断已形成稳定方法论时
-- 团队规模扩大需要复制能力时
-- 判断环节成为瓶颈时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 判断标准尚未验证成熟时
-- 个性化/艺术性判断难以规则化时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 决策引擎系统
-- 规则配置平台
-- 知识库系统
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

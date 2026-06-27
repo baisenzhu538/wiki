@@ -9,14 +9,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[tool-strategy-swot]]'
-  - '[[yt-management-goal-management]]'
-  - '[[dk-five-step-framework-legitimizes-bias]]'
-  - '[[dk-strategy-essence-four-elements]]'
-  - '[[yt-tool-okr-cycle]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **8个常见伪战略词**：份额/收入/ROI/预算/对标/SWOT/OKR/数字化——这些是"指标"和"工具"，不是战略
 **4个真战略词**：细分市场/竞争优势/资源配置/范围经济——缺任何一个都不是完整的战略

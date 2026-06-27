@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-key-conversion
 title: 关键转化率：产品内核的北极星指标
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-ten-metrics
-  - yt-product-kernel-canvas
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户关注总用户数，但不知道转化率"
+  - src_unknown
     framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
     follow_up_question: "从了解产品到选择产品的转化率是多少？这个数值健康吗？"
-  - signal: "用户说'产品很好'，但转化率很低"
+  - src_unknown
     framework_lens: 关键转化率——产品好≠转化率高，内核可能不清晰
     follow_up_question: "用户说'好'，但为什么不用？是内核不清晰，还是转化路径有问题？"
-  - signal: "用户优化了很多功能，但转化率没有提升"
+  - src_unknown
     framework_lens: 关键转化率——优化方向可能错误
     follow_up_question: "你优化的功能和转化率有关系吗？还是优化了非关键路径？"
-  - signal: "用户不知道关键转化率是多少"
+  - src_unknown
     framework_lens: 关键转化率——缺乏北极星指标
     follow_up_question: "你的产品内核对应的北极星指标是什么？当前数值是多少？"
-  - signal: "用户有多个指标，但不知道哪个是关键"
+  - src_unknown
     framework_lens: 关键转化率——指标过多，无法聚焦
     follow_up_question: "如果只能看一个指标来判断内核健康度，你会选哪个？为什么？"
 
@@ -122,21 +122,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估产品时 → 先看关键转化率
-- 当优化产品时 → 聚焦"决策"节点
-- 当设定目标时 → 设定关键转化率目标
-- 当分析失败时 → 检查关键转化率是否下降
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

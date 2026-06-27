@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师（张磊洗发水项目复盘，教学案例）
 source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
 source_refs:
@@ -19,18 +19,18 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 related:
-  - '[[framework-lean-systematic-test-curve]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-lean-gray-test-paradigm]]'
-  - '[[case-lean-combination-test-paradigm]]'
-  - '[[case-lean-crayfish-combo-test]]'
-  - "[[case-lean-combination-test-paradigm]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 洗发水卖点组合测试
@@ -116,15 +116,15 @@ related:
 
 以下情况可套用「四维度拆解 → 粗筛 → 组合试销」的方法：
 
-- **洗护/美妆/保健品**：功效、成分、香型、背书、价格带均可拆解为多个选项；
-- **食品饮料**：口味、原料、场景、包装、价格带组合繁多；
-- **母婴/宠物用品**：功能卖点、成分安全、使用场景、品牌信任维度交叉；
-- **新锐消费品牌**：需要在大量并列卖点中确定首发心智定位；
-- **直播间/电商测款**：可以用假页面、小范围投流、小批量试销快速验证不同组合。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 不适用场景：
-- **强监管行业**（药妆、医疗器械、功能性食品）：卖点宣称可能受广告法或行业监管约束，不能随意使用「防脱」「欧盟认证最好」等表述 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：粗糙前端会损伤信任，假页面需明确「概念测试/预售」身份 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -144,13 +144,13 @@ related:
 
 ## 相关卡/互链
 
-- 更完整的组合测试范式（含堕落小龙虾案例）：[[case-lean-combination-test-paradigm]]
-- 低成本验证框架：[[framework-lean-false-model]]
-- 系统测试曲线与组合测试范式：[[framework-lean-systematic-test-curve]]
-- 关键假设ABCD模型：[[framework-lean-abcd-model]]
-- 假产品工具：[[tool-lean-fake-product]]
-- 低成本验证概念：[[yt-entrepreneur-lean-validation]]
-- 关键假设拆解：[[yt-entrepreneur-key-hypotheses]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

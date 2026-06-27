@@ -3,22 +3,22 @@ id: tool-项目复盘基本功
 title: 技能：项目复盘基本功
 type: tool
 domain:
-- learning-methodology- management
-- business-strategy
-- design
-- yitang
-- entrepreneurship
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
 source_refs:
 - src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 未指定
+- src_unknown
 created_at: '2026-06-09T16:00:43+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-知识库团队管理]]'
-- '[[tool-清单式笔记法]]'
-- '[[tool-逐字稿练习演讲]]'
-- '[[tool-费曼学习法实践讲香课题]]'
-- '[[tool-专家访谈十步法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：项目复盘基本功
 
@@ -42,24 +42,24 @@ related:
 2. 提取可复用的认知资产
 
 ## 适用场景
-- ✅ 项目结束后
-- ✅ 团队需要沉淀经验时
-- ❌ 项目进行中
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 做事积累经验，复盘才能将经验转化为可迁移的能力
 
 ## 工具/环境
-- 未指定
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程设计，src_20260522_e139c9e9，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

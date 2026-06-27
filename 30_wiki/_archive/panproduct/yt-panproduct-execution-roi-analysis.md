@@ -4,41 +4,41 @@
 
 id: yt-panproduct-execution-roi-analysis
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1050
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- ROI分析
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：ROI分析
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：ROI分析
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-管理三段论]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[case-truman-poker-deck-roi]]'
-  - '[[case-ether-online-acquisition]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[case-truman-motivation-map-12-versions]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 王语嫣
 source_refs:
 - src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
@@ -52,21 +52,21 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 工具/物料投资决策中，成本项不仅列直接费用，还折算稀缺资源人日和机会成本
+- src_unknown
   framework_lens: 真实成本 = 直接成本 + 隐性成本 + 机会成本；小钱不等于低代价
   follow_up_question: 如果把这些教研/工程/运营人日拿去做别的事情，能产出什么？那个替代价值是否更高？
-- signal: 评估时先问"这个资产三年后还在用吗"，而不是只看短期营销效果
+- src_unknown
   framework_lens: 长期复用性决定重投入是否值得；一次性营销 vs 可迭代资产
   follow_up_question: 未来 3 年这个物料/工具需要重做多少次？每次重做的成本和对品牌的负面影响是什么？
-- signal: 投资决策配套了执行锁（检查清单、督导机制、品控红线），而不只是"把预算批下去"
+- src_unknown
   framework_lens: 执行锁 = 给工具加 SOP、清单、审核点，防止执行衰减
   follow_up_question: 这个工具/清单投入使用后，是否有"不再二错"机制和定期审计？执行率如何被保证？
-- signal: 投资决策把"可迭代次数"和"更新成本"作为核心变量，而非一次性交付
+- src_unknown
   framework_lens: 迭代机制 = 工具/资产能否低成本持续更新
   follow_up_question: 这个资产第一次上线后，计划多久迭代一次？每次迭代的成本和工作量是多少？
-- signal: 决策者有独立判断，能抵抗"同行都做了/内部都支持"的从众压力
+- src_unknown
   framework_lens: 反从众判断；用自身业务约束替代市场噪音
   follow_up_question: 如果同行都没做，我们还会做吗？我们的课程更新节奏、用户使用场景是否真的需要它？
 updated_at: '2026-06-16'
@@ -148,9 +148,9 @@ ROI分析强调投产比思维——从关键收益项和关键成本项两个�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Clayton Christensen的"ROI陷阱" + Annie Duke的"决策质量≠结果质量"
 

@@ -7,32 +7,32 @@ title: 技能：目的论偏差快速识别法
 type: "tool"
 status: draft
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 00_inbox/拆书会-《偶然》-水水-笔记.txt
 wiki_refs: []
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-16'
 tools_required:
-- 笔记本和笔
+- src_unknown
 prerequisite_skills: null
 related:
-  - '[[tool-水水-接受发散性世界观]]'
-  - '[[tool-ai-purpose-bias-check]]'
-  - '[[tool-ai-system-redundancy]]'
-  - '[[tool-水水-识别自证预言陷阱]]'
-  - '[[tool-水水-识别超级传播者风险]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
@@ -62,21 +62,21 @@ trust_level: low
 
 ## 适用场景
 
-- 遇到了不好的结果，反复回顾"哪里做错了"，越想越自责
-- 看到一个成功案例，马上想复制“成功原因”
-- 做出一个决策后结果好，就认为是决策对，结果坏就认为决策错
-- 团队里有人因为一次失败就被打上"能力不行"标签
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 笔记本和笔
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 数据不全/不准 → 检查结果失误 → **检查前确认数据完整性**
-- 单人操作忽视团队协作 → 成果难推广 → **步骤1就征求团队意见**
-- 惯性思维干扰 → 跳过某步 → **按清单逐条打勾，不要靠感觉**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -84,13 +84,13 @@ trust_level: low
 
 ## 关联技能
 
-- narrative-bias
-- self-organized-criticality
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

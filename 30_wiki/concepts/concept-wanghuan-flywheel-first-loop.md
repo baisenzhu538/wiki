@@ -11,44 +11,44 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_9d6fd9a2_wanghuan_飞轮第一圈_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 同一个任务反复从零开始，AI 每次都要重新理解背景
+- src_unknown
   lens: 缺少飞轮资产沉淀
   follow_up: 建立 AI 业务档案 + Prompt 模板库，把背景信息固化为可注入上下文
-- signal: 产品做出来一周内无人打开，或只有作者自己用
+- src_unknown
   lens: 飞轮起点选错 / 低频任务
   follow_up: 用"下周还会用吗"和"每周至少 3 次"重验选题
-- signal: 使用 AI 一段时间后，输出质量反而忽高忽低
+- src_unknown
   lens: 没有 OODA 闭环，未持续迭代
   follow_up: 每周跑一次观察-定向-决策-行动循环，把改进写回档案和模板
-- signal: 团队里每个人的 AI 输出风格不一致
+- src_unknown
   lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[concept-wanghuan-ai-native-definition]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[concept-wanghuan-ai-native-definition]]'
-  - '[[framework-wanghuan-five-criteria-first-product]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 飞轮
-- 复利
-- AI 业务档案
-- OODA
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢：AI 飞轮第一圈
@@ -68,18 +68,18 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 ## 核心要点
 
 1. **飞轮的三层资产**
-   - **AI 业务档案**：你是谁、服务谁、风格偏好、行业暗规则、输出标准。
-   - **Prompt 模板库**：把高频任务固化为可重复调用的输入模板。
-   - **行业暗规则**：那些做了几年才懂、新人经常犯错的隐性判断。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **第 1 圈最难，第 3 圈模式浮现，第 10 圈你有系统**
-   - 一次成功是案例；三次成功是方法；十次成功是系统。
-   - 每一圈都在降低下一圈的启动成本。
+   - src_unknown
+   - src_unknown
 3. **飞轮的本质是积累，不是重复**
-   - 不是机械地每周做同样的事，而是每次输入都让 AI 更懂你、更懂你的行业、更懂你的标准。
+   - src_unknown
 4. **飞轮怕停不怕慢**
-   - 初期启动费力，但只要持续转，速度和稳定性都会提升。最怕的是做完第一圈就停下。
+   - src_unknown
 5. **OODA 让飞轮转起来**
-   - 观察今天做出了什么 → 定向自己变化在哪里 → 决定明天做什么 → 立刻做一个动作。行动本身就在采集下一圈的信息。
+   - src_unknown
 
 ---
 
@@ -110,23 +110,23 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 
 ## 行动 Checklist
 
-- [ ] 选一个过去一周重复了 3 次以上的任务作为飞轮起点。
-- [ ] 把这个任务做成"下周还会用"的最小产品，并保存为统一文档。
-- [ ] 建立 AI 业务档案，至少包含"关于我、我服务谁、行业暗规则、输出标准"四个字段。
-- [ ] 把最常用的 3-5 个提示词写成模板，保存到模板库。
-- [ ] 每周跑一次 OODA 循环：观察输出、定向变化、决定下周优化点、立刻改一个约束。
-- [ ] 每月汇总一次飞轮资产：业务档案、模板库、暗规则，确保不散落在不同工具里。
-- [ ] 当同一模板使用满 10 次后，把它升级为 SOP，并考虑教给别人或扩展到新场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-task-product-system]]：飞轮是任务→产品→系统跃迁的动力机制。
-- [[tool-wanghuan-ai-business-profile]]：AI 业务档案是飞轮最核心的第一层资产。
-- [[framework-wanghuan-ooda-loop]]：OODA 闭环是让飞轮持续转动的操作方法。
-- [[concept-wanghuan-ai-native-definition]]：飞轮第一圈是成为 AI Native 的关键动作。
-- [[framework-wanghuan-five-criteria-first-product]]：选对第一圈起点，需要五条标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -148,10 +148,10 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 **回应**：飞轮的第一圈只需要一个"下周还会用"的最小产品。业务档案可以从 5 句话开始，模板可以从一个开始，暗规则可以从一条开始。边用边写，比一次性写完美更重要。
 
 **不要用**
-- 不要把它用于低频任务，低频任务无法形成飞轮。
-- 不要做完第一圈就停下来——没有持续迭代，飞轮只是普通任务。
-- 不要把飞轮当成"积累得越多越好"的囤积癖，要定期淘汰失效模板。
-- 不要在没有真实使用的情况下，预先写大量假设性的暗规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

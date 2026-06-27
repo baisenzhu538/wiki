@@ -13,28 +13,28 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: basic
 estimated_tokens: 2000
 version: 1
 query_triggers:
-- 行业报告
-- 报告搜索
-- 报告渠道
-- 研究报告
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - '[[tool-yitang-job-intelligence-research]]'
-  - '[[tool-yitang-weapon-media-search]]'
-  - '[[framework-doris-industry-report-4step]]'
-  - '[[tool-google-dorking]]'
-  - '[[tool-yitang-industry-report-search]]'
-  - "[[framework-doris-industry-report-4step]]"
-  - "[[tool-doris-industry-report-source-evaluation]]"
-  - "[[tool-yitang-database-index]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 行业报告搜索七技：三级搜索能力+渠道清单
@@ -94,9 +94,9 @@ related:
 
 ## 三个直达网站
 
-- **199it**：聚合了大量行业报告的入口，按行业分类浏览
-- **阿里研究院/腾讯研究院**：头部平台的行业洞察
-- **发现报告/报告查一查**：报告聚合搜索平台
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -108,7 +108,7 @@ Doris的建议：**Google > Bing > 百度**（在搜行业报告这件事上）
 
 ## 来源
 
-- 方法论来源：Doris行业报告调研课，`Doris-行业报告调研-口述.txt` + 笔记
+- src_unknown
 
 ---
 

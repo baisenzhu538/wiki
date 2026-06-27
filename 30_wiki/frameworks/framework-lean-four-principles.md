@@ -12,24 +12,24 @@ language: zh-CN
 created_at: 2026-06-23
 updated_at: 2026-06-23
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[tool-lean-fake-product]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 精益创业低成本验证四大原则
@@ -59,15 +59,15 @@ related:
         拥抱变化
 ```
 
-- **尽早发布**是起点：降低实验的启动成本。
-- **小步快跑**是节奏：把大方向拆成可证伪的小实验。
-- **克制设计**是过滤器：防止实验被不必要的功能污染信号。
-- **拥抱变化**是兜底：让前三条原则不会因为创始人的执念而失效。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 缺了任何一条，其他三条都会变形：
-- 尽早发布 + 不克制 = 粗制滥造的"早产儿"，伤害品牌。
-- 小步快跑 + 不拥抱变化 = 快速收集数据但拒绝改方向。
-- 克制设计 + 不发布 = 永远在内部打磨，永远得不到真实信号。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与经典理论的关系
 
@@ -85,10 +85,10 @@ related:
 
 **适合场景**
 
-- 需求、方案、商业模式均处于高度不确定的早期阶段
-- 产品形态允许快速迭代（互联网、SaaS、消费品、服务类）
-- 团队能在 1-2 周内触达真实用户并回收行为数据
-- 创始人愿意接受"默认失败"，并能在数据面前调整方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合/需谨慎场景**
 
@@ -114,23 +114,23 @@ related:
 
 ### 正例：Dropbox 用 3 分钟视频 MVP 验证需求 [conf=0.90, source=公开经典案例]
 
-- **背景**：Dropbox 创始人 Drew Houston 面临的是一个技术复杂、开发周期长的问题：跨设备文件同步。如果直接开发完整产品，风险极高。
-- **四原则映射**：
-  - **尽早发布**：没有写一行同步代码，只做了一个 3 分钟 Demo 视频。
-  - **小步快跑**：视频只验证一个假设——"用户是否对这个同步概念感兴趣"。
-  - **克制设计**：视频是最小不过的"产品形态"，没有任何实际功能。
-  - **拥抱变化**：如果视频反响冷淡，团队会重新思考价值主张；结果视频带来 7.5 万人等待 beta、几十万人访问 [conf=0.75, source=行业流传数字，具体转化率待独立核实]。
-- **启示**：在重投入前，先用最低成本验证"需求是否存在"。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ### 反例：某无人餐厅 All in 后发现机器人经营价值不成立 [conf=0.70, source=讲师案例 / case-一堂-无人餐厅-hypothesis-failure]
 
-- **背景**：团队在"机器人能否替代人工经营餐厅"这一核心假设未经验证的情况下，投入数千万开店。
-- **四原则违背**：
-  - **没有尽早发布**：直接用完整门店形态面对市场。
-  - **没有小步快跑**：同时验证机器人效率、菜品口味、顾客接受度、成本控制等多重假设。
-  - **没有克制设计**：门店装修、设备、SKU 接近正式店规模。
-  - **没有拥抱变化**：当数据证明机器人出餐慢、口味不稳定、成本高于传统餐厅时，已难以撤退。
-- **教训**：资源越充足，越要把"尽早发布、小步快跑"当成约束，而不是把 all in 当成魄力。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ## 落地检查清单
 

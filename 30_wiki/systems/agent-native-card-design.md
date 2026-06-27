@@ -6,7 +6,7 @@ title: Agent 原生知识卡设计规范 v2
 type: system
 status: active
 domain:
-- kdo
+- src_unknown
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
@@ -18,11 +18,11 @@ confidence: 0.7
 trust_level: medium
 updated_at: '2026-06-16'
 related:
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[graph-rag-retrieval-layer]]'
-  - '[[graph-rag]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Agent 原生知识卡设计规范 v2
 
 ## 定位
@@ -69,10 +69,10 @@ Layer 5 (规划): Graph RAG — 图边遍历 + 语义向量检索
 ### 拆分原则
 
 一张 composite-concept 卡在以下任一条件触发时拆分：
-- Claims > 30
-- 单卡 > 500 行
-- Visual Analysis > 5 份
-- 估算 token > 5000
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent 原生 Frontmatter（完整版）
 
@@ -104,14 +104,14 @@ contradicts: []                             # 与其他卡片有矛盾的主张
 
 # ═══ 检索触发 ═══
 query_triggers:                             # agent 意图匹配（≥3 个，含同义变体）
-  - "泛产品设计"
-  - "泛产品方法论"
-  - "产品设计方法"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: ["泛产品设计", "方法论", "一堂"]      # 分类聚合
 
 # ═══ 溯源（必须指向 10_raw/）═══
 source_refs:
-  - "10_raw/sources/xxx.md"
+  - src_unknown
 
 # ═══ 生命周期 ═══
 superseded_by: ""                           # 被哪张新卡取代
@@ -127,17 +127,17 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 ```markdown
 ## Claims
 <!-- 核心断言。格式：claim:NN [conf=X][src] 内容 -->
-- claim:01 [conf=0.9][src: 10_raw/sources/xxx.md] 泛产品设计包含三个核心维度：需求、审美、落地
-- claim:02 [conf=0.8][src: 10_raw/sources/yyy.md] ...
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 ### 关联框架卡
-- [[yt-model-pan-product-climbing-map]]
-- [[yt-model-pan-product-36-strategies]]
+- src_unknown
+- src_unknown
 
 ### 关键原图
-- !
-- !
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 <!-- 每份分析为表格，可机器解析 -->
@@ -153,8 +153,8 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 
 ## Critique
 <!-- 什么时候不适用 -->
-- claim:boundary-01 [conf=0.7] 本方法论适用于 B2C 产品设计，B2B 场景需额外考虑采购决策链
-- claim:boundary-02 [conf=0.8] 假设产品已过 PMF 阶段，不适用于 0-1 探索期
+- src_unknown
+- src_unknown
 
 ## Synthesis
 <!-- 与其他节点关系表，可机器解析 -->
@@ -201,8 +201,8 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 ## 循环引用检测
 
 kdo lint 应检测：
-- A.prerequisites 包含 B 且 B.prerequisites 包含 A → 警告
-- A.contradicts 包含 B 但 B.contradicts 不含 A → 警告（双向一致性）
+- src_unknown
+- src_unknown
 
 ---
 
@@ -258,9 +258,9 @@ yt-composite-pan-product-methodology.md   ← composite-concept（10-15 claims�
 你说了"33 张已降级为 draft"。我的 v2.0 指令是保留不降级。这里需要统一定论：
 
 我的建议：不降级，但重新分类。127 张卡按 agent-native 类型体系归档：
-- 大部分 yt-panproduct-* → type: `tool`（单张知识地图的卡片化）
-- 少数 yt-panproduct-* → type: `case`
-- 现有的 yt-model-* 工具箱卡 → type: `framework`
+- src_unknown
+- src_unknown
+- src_unknown
 
 这样它们作为细粒度节点留在图中，composite-concept 通过 component_of 图边指向 framework，framework 通过 related 图边指向 tool。形成三层图结构：composite → framework → tool。
 
@@ -292,9 +292,9 @@ yt-composite-pan-product-methodology.md       ← composite-concept（10-15 clai
 ```
 
 **具体动作**：
-- 已创建的 `yt-composite-pan-product-methodology.md` 从 21 claims 压缩到 12-15 claims，只保留顶层方法论框架（定义、三维度、四阶段、三级场景、十年路径、核心原则）。需求/审美/落地的细则下放到 framework 卡，只留一句话概括 + `component_of` 图边指向
-- Framework Gallery 保留 6 张框架卡 wikilink，但 Visual Analysis 从 3 份减到 1-2 份（保留 36 计地图、爬山地图，三大修养下沉到 three-virtues 框架卡）
-- 体量预估：~15 claims + 2 Visual Analysis + Synthesis → ~350 行，~3000 token，安全
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 二、33 张 yt-panproduct-* 卡片的处理
 
@@ -302,15 +302,15 @@ yt-composite-pan-product-methodology.md       ← composite-concept（10-15 clai
 
 同意你的「不降级，重新分类」方案：
 
-- **type: tool** — 大部分单张知识地图的卡片化（如 `yt-panproduct-demand-user-story` 等工具类单卡）
-- **type: case** — 少数案例卡（如 wedding-design 等具体案例）
-- **type: framework** — 现有的 6 张 `yt-model-pan-product-*` 工具箱卡
+- src_unknown
+- src_unknown
+- src_unknown
 
 但有一个额外问题：33 张 panproduct 卡目前是**旧格式**（无 agent-native frontmatter 字段，无 claims 列表，无 [conf=X][src] 格式）。重新分类时是否需要同时升级到 agent-native 格式？我的建议：
 
-- P0 阶段只升级 6 张 framework 卡（yt-model-*）到 agent-native 格式——这一层的质量直接影响 composite-concept 的引用准确性
-- 33 张 tool 卡保持现有格式 + status: draft → status: enriched + type: tool，暂不做 agent-native 改造（工作量太大，且作为叶子节点对 agent 检索质量影响有限）
-- 后续可渐进式升级，每次 3-5 张
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三、Hub Page：同意放弃
 

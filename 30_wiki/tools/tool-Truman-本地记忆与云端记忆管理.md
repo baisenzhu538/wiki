@@ -3,8 +3,8 @@ id: tool-Truman-本地记忆与云端记忆管理
 title: 技能：本地记忆与云端记忆管理
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-AI落地场景识别与拆分]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-多Agent通信协作方案]]'
-- '[[tool-月白-文件命名与存档规范（口述暗示）]]'
-- '[[tool-Truman-复杂项目AI落地稳定性保障]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：本地记忆与云端记忆管理
 
@@ -37,29 +37,29 @@ related:
 
 ## 适用场景
 
-- AI记忆不稳定或丢失
-- 需要长期维护项目上下文
-- 多轮对话后AI遗忘关键信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 单次对话无需记忆
-- 完全确定性任务无需上下文
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Cubox
-- LangChain
-- LangSmith
-- Coze
-- 飞书文档
-- 记事本
-- 各类Memory组件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -67,12 +67,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -3,8 +3,8 @@ id: tool-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-ai-parallel-validation]]'
-- '[[tool-ai-ai-workspace-setup]]'
-- '[[tool-ai-system-redundancy]]'
-- '[[sk-ai-old-small-checklist]]'
-- '[[tool-ai-prd-for-ai]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：“找老的干小的”场景评估清单
 
@@ -46,19 +46,19 @@ related:
 
 ## 适用场景
 
-- 想在某项业务中引入AI，但不知道从哪里切入
-- 团队成员推荐了很多AI落地方向，需要筛选优先级
-- 老板要求"找几个AI场景试试"，但范围太大
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 单人操作忽视团队协作 → 成果难推广 → **步骤1就征求团队意见**
-- 惯性思维干扰 → 跳过某步 → **按清单逐条打勾，不要靠感觉**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,13 +66,13 @@ related:
 
 ## 关联技能
 
-- [[sk-ai-landing-five-steps]]
-- [[ai-landing-scene-selection]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

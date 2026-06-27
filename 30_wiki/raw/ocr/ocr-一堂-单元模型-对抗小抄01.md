@@ -3,10 +3,10 @@
 title: "OCR: 一堂-单元模型-对抗小抄01"
 type: concept
 domain:
-  - management
-  - needs-review
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_624d303b
@@ -18,11 +18,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-对抗小抄]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -41,15 +41,15 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_624d303b-ocr-一堂-单元模型-对抗小抄01.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 做目标管理 让员工清晰理解目标，更好完成业绩 OKR制度/KPI制度/OGSM制度
+- src_unknown
 B5
-- 做薪酬绩效 公平的收入制度，激励员工持续提升自己 职级划分/岗位晋升/绩效制度
+- src_unknown
 B6
-- 搭建IT系统 用系统搭建业务流，提升业务效率 分解任务节点/流程化和数据化
+- src_unknown
 B7
 
 ## Open Questions
@@ -57,6 +57,6 @@ B7
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

@@ -9,7 +9,7 @@ confidence: 0.95
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_vlm_desc.md
@@ -17,17 +17,17 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[tool-strategy-logistics-cost-planning]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-value-proposition]]'
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-strategy-activity-scope]]"
-  - "[[tool-strategy-blue-ocean-canvas]]"
-  - "[[framework-strategy-business-design]]"
-  - "[[framework-strategy-five-forces]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
@@ -82,20 +82,20 @@ related:
 
 ## When NOT to Use
 
-- **细分市场边界不清晰时**：如果连自己的客户是谁都还没定义清楚，先用客户选择工具，再做市场机会矩阵。
-- **数据全靠拍脑袋时**：这个矩阵的 10 列需要真实信息支撑。如果大部分格子填"描述说明"四个字，工具会误导决策。
-- **决策权不在使用者手中时**：如果填完矩阵后，最终选择还是由高层凭直觉决定，这个工具会变成"为直觉找理由"的包装纸。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 **内部局限**：
-- 10 列评估容易变成形式主义，每个市场都填得满满当当，但缺乏关键差异。
-- "大/小""好/坏""高/低"是定性判断，不同人标准不一，需要配套评分细则。
-- 矩阵本身是静态快照，但市场机会是动态的，需要定期复盘。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击者**：
-- **Richard Rumelt**（《好战略，坏战略》作者）：好的战略是"聚焦"而不是"罗列机会"。这个矩阵最大的风险是让人产生"我们评估了 10 个维度，所以很战略"的幻觉。真正的好战略，是在多个机会中做出艰难的取舍，而不是把所有机会都分析一遍。
-- **Michael Porter**（五力模型）：市场吸引力不能只看需求和竞争，还要看供应商议价能力、买方议价能力、替代品威胁、新进入者威胁。这个矩阵的竞争分析列可以容纳五力，但如果只用"竞争不多"来评估，会漏掉结构性风险。
+- src_unknown
+- src_unknown
 
 ## Agent 执行指令
 

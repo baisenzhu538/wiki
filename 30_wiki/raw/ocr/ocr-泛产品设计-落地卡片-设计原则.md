@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-设计原则"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_9eaf7399
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-设计原则"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-善用佳软]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-设计原则
@@ -36,35 +36,35 @@ png` 泛产品设计·落地卡片 设计原则 掌握基本的UI/UE审美原则
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计需掌握基本UI/UE审美原则作为基础能力。
-- 页面设计和排版原则的核心价值在于专业评价能力与交互效率判断。
-- 推荐入门书籍：《写给大家看的设计书》与《Designing Interfaces（界面设计模式）》。
-- 设计原则的学习适用场景为涉及专业页面设计与内容排版的工作。
-- 进步方式明确为"读入门书+掌握一组专业评价原则"的二元路径。
-- "一堂课/两堂课"隐喻：系统性知识可通过结构化学习快速获取。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 来源文本是OCR提取结果且明确标注"可能存在连字/误识"，核心概念"泛产品设计"的定义边界是否被准确识别？原图中是否有更精确的领域限定（如"B端/C端/工具类产品"）被OCR遗漏？
-- "落地卡片"作为知识载体形式，其完整信息结构是否因OCR丢失了视觉层级？原图中"设计原则"是主标题还是副标题，"掌握基本的UI/UE审美原则"是卡片唯一原则还是多原则中的首条？
-- 推荐书籍《Designing Interfaces》的版本信息缺失（原书2005年初版，2010年第二版，2020年第三版），不同版本内容差异显著，"界面设计模式"的副标题标注是否对应特定中译本？
-- "适合场景"的表述为"涉及到专业的页面设计和内容排版的场景"，"专业"的判定标准是什么？非专业场景（如内部工具/后台系统）是否适用这些原则，原文是否有区分？
-- "进步方式"的二元路径（读书+掌握原则）是否覆盖了实践能力培养？原图中是否有"练习/项目/反馈"等第三维度被OCR遗漏，或该卡片本身即存在方法论缺口？
-- "一堂课/两堂课"隐喻的来源语境不明：是卡片作者的原创口号、引用自某教育产品slogan、还是特定社群/课程的内部黑话？该表述的权威性基础未说明。
-- 两本推荐书籍的关联性逻辑未解释：《写给大家看的设计书》侧重平面排版四大原则（对比/重复/对齐/亲密性），《Designing Interfaces》侧重交互模式库，二者如何构成互补而非简单并列的学习路径？
-- "UI/UE审美原则"中"UE"术语使用存在时代争议（现行业更通用"UX"），该表述是原文如此、OCR误识（如"UX"被识别为"UE"）、还是特定组织/时期的术语习惯？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -78,20 +78,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -3,7 +3,7 @@
 id: "ocr-一堂进步大地图_compressed"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
   - src_20260522_2250865e
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂进步大地图_compressed"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-微信图片_20260507004811_41_32]]'
-  - '[[ocr-微信图片_20260507004801_37_32]]'
-  - '[[ocr-微信图片_20260507004751_33_32]]'
-  - '[[ocr-一堂-地图-管理地图_conv]]'
-  - '[[ocr-微信图片_20260507004804_39_32]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂进步大地图_compressed
@@ -32,31 +32,31 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_2250865e-ocr-一堂进步大地图_compressed.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- No text was successfully extracted from this source by the OCR pipeline.
-- Visual structure information (headings, body text, table segmentation) was not captured and requires manual review against the original image.
-- The source appears to be a compressed image titled "一堂进步大地图" (likely "A Map of Progress" or similar), but content cannot be verified from OCR output alone.
-- This record serves as a placeholder indicating OCR failure for this document; original image review is necessary for any knowledge extraction.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- What is the actual content and structure of the original image "一堂进步大地图" that the OCR failed to capture?
-- Why did the PaddleOCR ONNX pipeline fail to detect any text—was it due to image compression artifacts, non-text visual elements (e.g., a mind map or infographic), or a technical processing error?
-- What is the intended meaning of "一堂进步大地图"—does "一堂" refer to a specific organization, platform, or course, and what domain does this "progress map" cover?
-- What visual structure information (hierarchies, relationships, timelines, categories) is embedded in the original image that cannot be recovered from OCR alone?
-- Is there a higher-quality or uncompressed version of this image available that might yield successful text extraction?
-- What manual review protocol should be established to handle OCR failures where the original image is listed as "unknown" and may no longer be accessible?
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **索引类内容缺少深度：本卡片主要是能力地图，缺少可复用的知识内容。作为知识卡，其价值主要在于"索引"而非"知识"。
-- **更新频率风险：能力地图会随着内容更新而变化，本卡片可能很快过时。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -70,20 +70,20 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 不要用的场景
 
-- **深度学习代替浏览学习：能力地图适合快速浏览，但不能替代对单个内容的深度消化。
-- **创新性工作的思维发散：能力地图的线性结构可能限制跨领域联系的发现。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-capability-map — 能力地图的宏观视角
-- [[yt-decision-full-process]] — 技能进阶的理论基础
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 知识库索引：作为快速查找内容的索引
-- 学习/能力计划：根据能力地图制定个人计划
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

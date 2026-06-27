@@ -3,8 +3,8 @@ id: tool-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-ai-evidence-check]]'
-- '[[tool-ai-voice-input-doubao]]'
-- '[[tool-ai-prd-for-ai]]'
-- '[[structured-ai-workspace]]'
-- '[[tool-ai-old-small-checklist]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：结构化AI工作空间搭建
 
@@ -53,19 +53,19 @@ related:
 
 ## 适用场景
 
-- AI任务越来越多，文件乱成一团
-- 同一个任务每次都要重新给AI解释背景
-- 团队成员不知道AI做了什么、做到哪了
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 笔记本和笔
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 单人操作忽视团队协作 → 成果难推广 → **步骤1就征求团队意见**
-- 惯性思维干扰 → 跳过某步 → **按清单逐条打勾，不要靠感觉**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -73,13 +73,13 @@ related:
 
 ## 关联技能
 
-- [[structured-ai-workspace]]
-- [[sk-ai-problem-validation]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI俱乐部-AI协作方法论分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

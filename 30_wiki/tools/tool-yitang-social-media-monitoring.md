@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-xiaohongshu-data]]'
-  - '[[tool-yitang-social-media-interview]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-月白-普通人AI快速上手法]]'
-  - "[[tool-yitang-weapon-media-search]]"
-  - "[[tool-yitang-public-sentiment-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 社交媒体监控

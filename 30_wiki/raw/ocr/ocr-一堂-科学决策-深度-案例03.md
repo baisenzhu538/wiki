@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-案例03"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_3782f983
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-深度-案例03"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-深度-案例01]]'
-  - '[[ocr-一堂-科学决策-深度-案例02]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-案例03
@@ -37,25 +37,25 @@ png` 公司要不要自研IM+CRM系统 具体项 能否定量 补充解释 关�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 自研IM+CRM系统的决策需定量比较关键成本与关键收益：开发粗糙版本至少8万元（2个研发1个月+PM/设计师等综合成本），维护成本较低但难定量。
-- 关键收益量化：为6个班主任（综合成本1.5万/人）节省回复消息时间（占比10%），效率提升100%，年创造价值约10万元。
-- 科学决策案例展示了将"节省时间"转化为具体财务价值的方法：人数×人力成本×时间占比×效率提升倍数。
-- 自研系统ROI评估周期需明确：一次性投入8万 vs 年收益10万，静态回报周期约10个月，但未计入持续维护成本与系统迭代风险。
-- 该案例隐含原则：B端内部工具决策应优先量化"用户时间节省"这一常被忽视的隐性收益，而非仅看直接采购成本对比。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 班主任"综合成本1.5万"是月薪还是年薪？若为月薪则年成本108万，与"创造价值10万/年"严重不匹配，若为年薪则月成本过低，需确认单位基准。
-- "回复消息时间占比10%"的数据来源是什么？是基于实际观测、估算还是假设？不同业务场景下该比例波动可能极大。
-- "效率提升100%"的具体含义模糊：是指回复速度翻倍、同时处理消息量翻倍，还是班主任可将该时间完全转移至其他价值活动？三种解释对实际收益计算影响不同。
-- 未考虑自研系统的失败概率与替代方案：若2个研发1个月未能完成"粗糙版本"，或版本无法投入使用，沉没成本如何计算？与采购成熟SaaS的对比分析缺失。
-- "维护成本比较低"的定性判断缺乏支撑：IM+CRM涉及数据安全、服务器运维、功能迭代，长期维护成本常被低估，此处未给出任何估算依据。
-- 班主任人数固定为6人的假设是否成立？若业务扩张或收缩，自研系统的边际成本与采购SaaS的边际成本曲线差异未分析。
-- 未量化"粗糙版本"的功能边界：能否覆盖现有工作流全部需求？功能缺失导致的班主任额外适应成本或效率损失未计入。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
@@ -75,22 +75,22 @@ Christensen 论证，企业常常因为“自己做”的能力陷阱而忽略�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] — 深度梯子，案例03是其在软件自研/外采决策场景下的应用
-- [[yt-decision-canvas]] — 同域决策画布，案例中的效率提升量化是其在软件场景下的展开
-- [[master-decision-hygiene]] — 通用决策卫生，提醒自研决策中的能力陷阱
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 软件自研 vs 外采决策：用案例中的效率提升量化帮助评估自研的 ROI
-- 内部工具开发投资：在"自己做工具”与"买现成工具”之间用 Christensen 视角检查外部方案
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
-- 不要将案例中的“效率提升 100% ”当作确定性假设，实际可能远低于此
-- 不要在缺乏外采方案评估时做自研决策，Christensen 的能力陷阱往往源于此
-- 不要将"维护成本难定量”当作"维护成本不高”，难以定量的成本往往最高
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- 当你在评估"自研 vs 外采”时，用案例中的效率量化方法做出初步判断
-- 従你发现自己在用"效率提升”来证明自研的合理性时，用 Simon 的“非线性”视角检查效率与成本节约是否真的是线性关系
-- 当你在自研前没有做充分的外采评估时，用 Christensen 视角停下来重新审视是否在陷入能力陷阱
+- src_unknown
+- src_unknown
+- src_unknown

@@ -7,27 +7,27 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1873
 language: zh-CN
 query_triggers:
-- 解放思想
-- 创业认知边界
-- 隐含假设识别
-- 思维定式突破
-- 行业惯例反思
-- 认知升级方法论
-- 公理化建模
-- 假设驱动验证
-- 创业思维转换
-- 从零到一思维方式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -44,12 +44,12 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户为了创新而创新，忽视基本商业规律
+- src_unknown
   framework_lens: 解放过度
   follow_up_question: 你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？
-- signal: 用户只会模仿，从不敢质疑行业惯例
+- src_unknown
   framework_lens: 没有解放
   follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
 updated_at: '2026-06-16'
@@ -73,9 +73,9 @@ author: 老顽童
 
 ### 关键概念
 
-- 本课程属于一堂「底层逻辑」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -94,7 +94,7 @@ author: 老顽童
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

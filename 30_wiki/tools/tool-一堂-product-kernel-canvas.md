@@ -4,7 +4,7 @@ title: 一堂产品内核画布应用技能
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
@@ -15,40 +15,40 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[tool-一堂-five-step-validation]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[modeling-three-values]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 技能步骤清晰可执行
-- 每个步骤配有输入/输出或检查清单
-- 外部攻击者和 Constraints 已明确
-- 实际应用后收集反馈并更新技能
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 产品功能越做越多但用户不买账
+- src_unknown
   lens: 内核不清晰
   follow_up: 执行步骤2做加法+步骤3做减法，找出用户真正选择的3-5条决定性要素
-- signal: 团队以为的卖点不是用户关心的买点
+- src_unknown
   lens: Green-bloat
   follow_up: 检查绿色要素是否超过5条，用三问验证：去掉它用户会放弃选择吗？
-- signal: 商业模式难以跑通
+- src_unknown
   lens: 指标缺失
   follow_up: 执行步骤4：为每个内核要素配可量化指标，设定通过/失败标准
-- signal: 明面上排除的功能又偷偷加回来
+- src_unknown
   lens: Red-resurrection
   follow_up: 建立红色要素审查机制，每次迭代检查是否有红色复活
-- signal: 为了达到短期指标损害长期价值
+- src_unknown
   lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
 ---
@@ -66,52 +66,52 @@ diagnostic_signals:
 
 ## 适用场景
 
-- **产品定义阶段**：已有明确需求，需要确定"用户为什么选择我们"。
-- **商业模式设计阶段**：需要将用户价值转化为可量化的转化率指标。
-- **产品迭代阶段**：需要对现有功能做取舍，聚焦真正决定性要素。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用场景：**
 
-- 非标准化、高定制化产品（每个客户的内核要素差异过大，需要分层分类讨论）。
-- 创意/艺术类项目（用户决策主要受情感和意象驱动，难以压缩为3-5条要素）。
-- 企业级B2B采购（决策链涉及多个利益相关者，需要分角色讨论）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
 1. **明确分析对象，确保独立交付**
-   - 输入：一个产品或服务（如"一堂AI高考志愿填报服务"）。
-   - 动作：问自己这个产品能否独立交付价值，分析范围不宜过大。
-   - 输出：确认分析对象、目标用户群体、分析边界。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **做加法，列出所有可能的内核要素**
-   - 输入：用户调研、竞品分析、团队脑爆、行业专家访谈等多源信息。
-   - 动作：从用户视角出发，列出至少10个潜在内核要素，不做判断。
-   - 输出：潜在内核要素列表（每个要素需从"用户选择理由"而非"我们有什么功能"出发）。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **做减法，用三问分类要素**
-   - 输入：步骤1产生的潜在内核要素列表。
-   - 动作：对每个要素提三问——如果去掉它，用户会放弃选择吗？去掉后体验下降但仍会选择吗？绿色+黄色组合能导向好结果吗？
-   - 输出：带颜色标记的要素分类（绿色决定性、黄色优化性、红色非内核），绿色要素不超过5条。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **用核心指标验证内核**
-   - 输入：步骤3产生的绿色+黄色要素。
-   - 动作：为每个内核要素配一个可量化指标，并设定通过/失败标准。
-   - 输出：内核要素与核心指标对照表（如SaaS用注册率/激活率/续费率，线下门店用进店率/办卡率/复购率）。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **输出内核画布，强迫取舍**
-   - 输入：分类结果和指标。
-   - 动作：将结果填入画布模板（包含分析对象、目标用户、核心指标、绿/黄/红要素、做而不信区）。
-   - 输出：填写完整的产品内核画布，团队就要素分类达成共识。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 6. **快速验证，做而不信**
-   - 输入：已完成的内核画布。
-   - 动作：选择最低成本验证方式（用户访谈5-10人、着陆页/问卷测试、MVP、小规模活动），从风险最高的假设开始。
-   - 输出：验证结果记录和画布修正方案。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 7. **迭代画布，动态调整**
-   - 输入：验证结果、市场反馈、竞品动态。
-   - 动作：每季度回顾画布，当用户反馈显示某要素实际为决定性、验证推翻假设、市场变化时进行调整。
-   - 输出：带版本号和更新日期的新版画布，记录变化原因和调整内容。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 外部攻击者
 
@@ -152,16 +152,16 @@ diagnostic_signals:
 ## Claims
 
 1. **产品失败的根本原因不是“功能不够多”，而是“内核不清晰”**
-   - 用户不是因为你有30个功能而选择你，而是因为你在某个关键维度上提供了无法拒绝的价值
-   - “最小解决方案”的本质是去掉所有非决定性要素后，用户仍然会选你
+   - src_unknown
+   - src_unknown
 
 2. **绿黄红三色分类是“取舍”的心理学工具，不是“分类”工具**
-   - “红色”的本质是"我们很想做但用户不关心"——切割这些要比追加功能难10倍
-   - 紧守"绿色不超5条"是对“发散”的制约，而不是形式要求
+   - src_unknown
+   - src_unknown
 
 3. **核心指标是“内核的测试仪”，不是“业绩表”**
-   - 指标不是用来裁判团队的，而是用来验证"我们以为的内核"是否真的成立
-   - 指标游戏（Indicator-gaming）是内核画布最大的敌人——短期数据会诱导团队损害长期价值
+   - src_unknown
+   - src_unknown
 
 ## 判断标准
 
@@ -174,29 +174,29 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **Green-bloat（绿色膨胀）**：不舍得刊除要素，最终绿色列表超过5条，失去聚焦力。
-- **Yellow-neglect（黄色忽视）**：只关注绿色要素，忽视了优化性要素对长期竞争力的贡献。
-- **Red-resurrection（红色复活）**：明面上排除的要素，在产品规划中又偷偷加回来。
-- **指标游戏（Indicator-gaming）：**为了达到短期指标，损害了内核的长期健康度。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **理论基座：**[[yt-entrepreneur-product-core]] — 一堂产品内核定义、迭代与验证方法论提供了理论边界：‘用户+愿意选择+最小+解决方案’四关键词
-- **工具模板：**[[yt-tool-product-core-canvas]] — 已有的一堂产品内核画布工具是本技能卡的‘模板原型’
-- **系统定位：**[[yt-model-five-step-canvas]] — 五步法画布×产品内核画布提供了产品内核在整个创业逻辑中的位置：它是‘方案’层的核心，承接需求、支撑商业模式
-- **补充维度：**[[tool-泛产品落地-内核和边界]] — 泛产品落地卡片‘内核和边界’是本画布的‘美学维度’补充：它讨论的是‘如何让内核不变’，本画布讨论的是‘如何让内核先清’。两者组合使用
-- **反面案例：**[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]] — 这个失败案例是本画布‘非要点验证’触发场景的实际体：当一个产品的内核与用户决策模型不匹配时，即使功能完备、数据准确，产品仍会失败
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂假设驱动方法论中，本技能位于 **“方案层”**
-- 与需求验证（四问法）和商业模式设计形成“需求→方案→商业模式”的闭环
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **经济学（机会成本）：**“红色要素”的本质是机会成本——每做一个“用户不关心的功能”，就失去了做一个“用户真正需要的功能”的机会
-- **心理学（损失厌恶）：**团队难以切割“红色”的根本原因是损失厌恶——已投入的开发成本让人难以放弃
-- **设计学（MVP）：**内核画布与Lean Startup的MVP理念共同指向“最小化”，但内核画布强调“用户决策逻辑”而MVP强调“快速验证”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 应用本技能后有反馈，提交至 `60_feedback/skills/skill-一堂-product-kernel-canvas`。
+- src_unknown

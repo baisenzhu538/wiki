@@ -6,20 +6,20 @@ title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/concept'
-- '#topic/cash-flow'
-- '#topic/unit-model'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -28,25 +28,25 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[case-yitang-tob-grinding-machine]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 账面利润为正，但经营现金净流入持续为负或长期靠融资/垫资维持
+- src_unknown
   framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
   follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？
-- signal: 客户账期超过 90-180 天，且新项目需要持续垫付资金
+- src_unknown
   framework_lens: To B 业务周期长、回款慢带来的资金占用风险
   follow_up_question: 能否通过收款节奏、预付款比例、供应链金融或合同条款缩短现金转换周期？
-- signal: 业务增长越快，现金缺口越大，需要不断追加投入才能维持运转
+- src_unknown
   framework_lens: 自由现金流健康度 — 增长质量优于增长规模
   follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
 
@@ -80,8 +80,8 @@ To B 业务因成交、交付、回款周期长，极易出现“账面盈利、
 
 To B 业务的收入确认、开票、回款往往不在同一时点。财务确认口径按权责发生制记录收入与利润，现金流口径只看“钱什么时候进来、什么时候出去”。因此：
 
-- 一笔大单确认收入后，利润表好看，但若客户 180 天后才付款，公司仍需支付人工、采购、交付成本，现金流可能为负。
-- 工厂看似每年赚 2000 万，但设备更新、产能维护需要持续投入，自由现金流可能为零甚至为负（口述稿 ~3158-3176）。
+- src_unknown
+- src_unknown
 
 徐剑建议：**公司的销售模型、客户首单模型优先看现金流；客户 LTB/LTV 模型可以看财务确认账**（口述稿 ~3140-3144）。两种口径不是互相替代，而是互相校验。
 
@@ -97,9 +97,9 @@ To B 业务的收入确认、开票、回款往往不在同一时点。财务确
 
 这提示我们：
 
-- **账期不是融资工具**，而是客户占用了你的资金；
-- 必须在合同中设计收款节点、预付款、验收款、尾款比例，并对客户信用做分级管理；
-- 在单元模型中把“现金回收周期”作为与毛利同等重要的变量。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 双口径单元模型的交叉验证
 
@@ -116,13 +116,13 @@ To B 业务的收入确认、开票、回款往往不在同一时点。财务确
 
 ### 5. 案例：工厂与工程类项目的现金流教训
 
-- **开工厂**：账面利润 2000 万，但设备更新与产能维护把钱重复投入，自由现金流为负，抗风险能力弱（口述稿 ~3158-3176）。
-- **工程项目**：新项目不断进来需要垫资，老项目回款慢；账期越拖越长，资金占用越滚越大，最终可能导致资金链断裂（口述稿 ~3178-3188）。
+- src_unknown
+- src_unknown
 
 这两个例子都说明：如果只看利润表，会误判业务健康；必须用现金流口径识别真实的资金压力。
 
 ## 置信度说明
 
-- 本卡片置信度 0.80：核心观点“现金流口径 ≠ 财务确认口径”“自由现金流比账面利润更重要”来自口述稿与课堂笔记的一致强调，逻辑自洽且与财务常识相符。
-- 具体数字（如工厂“赚了 2000 万”、工程类账期、张磊股东信 16 次提及）均为讲师口述或课堂笔记中的举例，未独立核实，仅作概念说明之用。
-- 案例中的观察属于“讲师经验观察”，不应被推广为行业普遍规律。
+- src_unknown
+- src_unknown
+- src_unknown

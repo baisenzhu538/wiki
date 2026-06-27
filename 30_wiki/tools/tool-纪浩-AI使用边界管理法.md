@@ -4,8 +4,8 @@ title: 技能：AI使用边界管理法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[tool-纪浩-日志驱动排查法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 每天使用AI超过8小时，几乎所有工作都交给AI
+- src_unknown
   lens: 过度依赖
   follow_up: 每天限定AI使用时长（如3-4小时）。把AI当worker时只用于降本增效，保留自己动脑动手的环节
-- signal: 学习后记忆不深，决策印象模糊，无法独立判断
+- src_unknown
   lens: 认知外包
   follow_up: 把AI当教练时让它设计A+1梯度问题。保留自己动脑、动手、有体感的环节
-- signal: AI搞不定的事情自己也搞不定，能力退化
+- src_unknown
   lens: 能力萎缩
   follow_up: 定期反思哪些事AI搞不定时自己能搞定。专门留出AI不能碰的区域，不是因为AI做不好，而是因为做了你会退化
-- signal: 紧急任务全力用AI赶工，之后不复盘
+- src_unknown
   lens: 应急依赖
   follow_up: 紧急任务可以用AI，但事后必须复盘：哪些环节本可以自己完成？下次如何减少应急依赖？
-- signal: 用AI代替所有练习，从不手写代码或手动操作
+- src_unknown
   lens: 手感丧失
   follow_up: 学习的本质是摩擦和必要难度。必须保留手动操作环节，AI辅助但不能替代
 ---# 技能：AI使用边界管理法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -88,14 +88,14 @@ AI使用边界管理法是纪浩在AI协作方法论分享中提出的具体方�
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-纪浩-AI工作空间与导诊台设计法]] — 边界管理是工作空间设计的一部分
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] — 边界设定后需要PDCA迭代优化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

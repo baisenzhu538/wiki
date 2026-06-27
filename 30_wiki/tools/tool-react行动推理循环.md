@@ -3,21 +3,21 @@ id: tool-react行动推理循环
 title: 技能：ReACT行动推理循环
 type: tool
 domain:
-- ai-collaboration- ai-saas
-- yitang
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 支持Function Calling的LLM
-- 工具API（搜索/数据库/计算等）
-- ReACT框架实现
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-反向提示获取优化建议]]'
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-提示词结构化迭代]]'
-- '[[tool-渐进式披露上下文]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：ReACT行动推理循环
 
@@ -43,27 +43,27 @@ related:
 4. 显式追踪每一步的推理和工具调用
 
 ## 适用场景
-- ✅ 需要实时信息的问题
-- ✅ 多步骤工具调用任务
-- ✅ 需要与外部系统交互的自动化
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 将推理与行动交织，模型自主决定何时需要外部信息，比纯生成更准确和及时
 
 ## 工具/环境
-- 支持Function Calling的LLM
-- 工具API（搜索/数据库/计算等）
-- ReACT框架实现
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

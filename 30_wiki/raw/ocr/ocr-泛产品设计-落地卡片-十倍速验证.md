@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-十倍速验证"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_5bd37e0d
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计-落地卡片-十倍速验证"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-逻辑mece]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-十倍速验证
@@ -37,34 +37,34 @@ png` 小18 泛产品设计·落地卡片 十倍速验证 训练用1块钱学到1
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 认知学习应遵循"常识→情报→实验→全量投入"的渐进验证路径，从左到右成本量级上升。
-- 十倍速验证的核心是用1块钱学到1000块钱的认知，以最小成本降低系统性风险。
-- 常识验证手段：专家访谈；情报验证手段：市场调查；实验验证手段：MVP测试。
-- 信心与资源投入呈螺旋上升关系，前期低成本验证后再逐步加大投入。
-- 假设思维是前提，关键目标是持续降低认知学习的成本。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该框架将"常识→情报→实验→全量投入"定义为从左到右成本量级上升，但未界定各阶段的判断标准和退出条件——什么信号表明当前阶段验证已通过、可以进入下一阶段？
-- "十倍速差距"中"常识<情报<<实验<<<全量投入"的不等号数量是否具有量化含义，还是仅为视觉强调？若量级关系是核心主张，其具体倍数或成本区间如何测定？
-- 专家访谈作为"常识"验证手段，假设专家本身认知无偏差、无利益相关，这一假设是否被检验？如何防范"专家盲区"导致的系统性误判？
-- "1块钱学到1000块钱的认知"的ROI计算方式未说明：认知价值如何量化？1000倍回报是期望值还是已实现案例的统计结果？
-- MVP测试被归为"实验"阶段，但MVP本身存在多种形态（ landing page/ concierge MVP/ Wizard of Oz等），不同形态的验证效力与成本差异巨大，框架是否对此有细分指导？
-- "螺旋上升"的信心-资源模型缺乏反脆弱机制：若验证结果否定初始假设，资源回撤策略与沉没成本处理原则是什么？
-- 推荐课程《专家访谈》《调研/精益》与框架的耦合度未明确：这些课程是理解前提还是执行工具？完成课程是否构成进入对应阶段的资格门槛？
-- 框架假设"系统性风险"可通过前置验证大幅降低，但未区分可验证风险与"未知的未知"（Knightian uncertainty）——对于后者，渐进验证是否反而造成路径依赖与机会成本？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -78,20 +78,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

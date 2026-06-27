@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -19,29 +19,29 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[case-personal-map-modeling]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[dk-modeling-counterexample-driven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#chunk-type/process-data'
-- '#chunk-type/critique'
-- '#deep-dig'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 模型/指南出来后自我感觉良好，但未经外部挑战
+- src_unknown
   framework_lens: 迭代递归深挖法——以推翻为目标的撞击实验
   follow_up_question: 能否找到 2–3 个反例或专家，以“推翻这个模型”为目标做一次评审？
-- signal: AI 输出看起来不错，但连续追问三轮就露出边界模糊、逻辑链断裂
+- src_unknown
   framework_lens: 喷—撞—改循环
   follow_up_question: 能否按完整性、MECE、逻辑性、顺序性、清晰性、可验证性逐项挑错，每轮都指出具体缺陷？
-- signal: 迭代到第 5–10 轮后找不到新毛病，但也不敢说模型已成熟
+- src_unknown
   framework_lens: 停止条件——喷无可喷、撞无可撞、改无可改
   follow_up_question: 停止标准是“我当前能力上限找不到问题”，还是“客观上已无硬伤”？是否已记录边界和假设？
 ---
@@ -70,20 +70,20 @@ diagnostic_signals:
 ## Visual Analysis
 
 该方法呈现为一个螺旋上升的循环：
-- 中心：1.0 模型原型
-- 内环：喷（内部挑错）
-- 中环：撞（外部验证）
-- 外环：改（迭代修正）
-- 终点：撞无可撞、喷无可喷、改无可改
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Claims
 
-- **C1 [conf=0.9]**: 高质量模型不是一次生成的，而是经过“建 1.0 → 喷 → 撞 → 改”多轮迭代得到的。——依据：`src_20260614_8269ccdb#2586`。
-- **C2 [conf=0.85]**: “喷”的对象是具体缺陷：不完整、有遗漏、没顺序、不完备、不清晰、乱糟糟。——依据：`src_20260614_8269ccdb#2586`。
-- **C3 [conf=0.85]**: “撞”是用外部标杆、友商、反例来验证自己的模型。——依据：`src_20260614_8269ccdb#2586`。
-- **C4 [conf=0.8]**: 迭代停止条件不是时间到了，而是“喷无可喷、撞无可撞、改无可改”。——依据：`src_20260614_8269ccdb#2238、2586`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -98,10 +98,10 @@ diagnostic_signals:
 ### Step 1：建 1.0
 
 不要追求完美，先产出第一个完整版本。可以是：
-- 一个清单
-- 一个流程图
-- 一个模型框架
-- 一个 Skill 指南
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：喷（内部挑错）
 
@@ -119,25 +119,25 @@ diagnostic_signals:
 ### Step 3：撞（外部验证）
 
 用外部力量撞击模型：
-- 找反例
-- 找专家评审
-- 找标杆对照
-- 找真实案例测试
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：改（迭代修正）
 
 根据喷和撞的结果修改模型：
-- 补遗漏
-- 调结构
-- 清定义
-- 限边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5：判断停止条件
 
 问自己：
-- 我还能挑出具体毛病吗？
-- 外部还有可见反例吗？
-- 还能吸收标杆优点吗？
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果答案都是“不能”，则进入封装。否则回到 Step 2。
 
@@ -172,24 +172,24 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已产出第一个完整的 1.0 版本（不追求完美）
-- [ ] 已按完整性、MECE、逻辑性、顺序性、清晰性、可验证性逐项挑错
-- [ ] 已找到至少 1 个反例或 1 位专家进行外部撞击
-- [ ] 已对照 1–2 个外部标杆，吸收其优点
-- [ ] 每轮改动都记录了“问题—修改—验证结果”
-- [ ] 已补遗漏、调结构、清定义、限边界
-- [ ] 当前能力范围内找不到新的具体缺陷或可见反例
-- [ ] 已明确标注模型的边界条件和假设
-- [ ] 已决定进入封装，还是再回到下一轮迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-scientific-milestones]] —— 方法论级别的完整生产流程
-- [[tool-ai-skill-engineering-method]] —— AI Skill 封装的六步工作流
-- [[dk-modeling-ai-iterative-prompting]] —— 用多轮挑错迭代 AI 输出
-- [[dk-modeling-counterexample-driven]] —— 用反例验证模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -197,9 +197,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 迭代过程可能陷入“完美主义”，迟迟不交付
-- 如果挑错者水平不够，会挑不出真问题
-- 外部标杆不一定存在
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Karl Popper — "证伪有边界，不要无限逼近"
 
@@ -207,8 +207,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果没有外部撞击，只靠自己喷，会怎样？容易陷入自我验证。
-- 如果时间有限，只能做一轮喷和撞，优先做哪个？优先撞，因为外部视角更难自欺。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -224,7 +224,7 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2232-2246、2466-2586`
+- src_unknown
 
 ---
 

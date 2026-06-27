@@ -8,37 +8,37 @@ source_refs:
 - 10_raw/sources/src_20260619_7bc5c6f6_30_wiki_concepts_yt_management_team_knowledge.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.75
 prerequisites:
-- yt-management-team-knowledge
+- src_unknown
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[yt-tool-equity-checklist]]'
-  - '[[yt-management-team-knowledge]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-scientific-meetings]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 新人融入
-- 新人培训
-- 90天融入计划
-- 新员工 onboarding
-- 团队融入
-- 新人导师制
-- 组织社会化
-- 新人快速上手
-- 团队文化传递
-- 新人留存
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -89,25 +89,25 @@ author: 老顽童
 **操作步骤**：
 
 1. **导师匹配**（到岗前 3 天）
-   - 指定 1 位导师（非直属上级，最好是入职 6-12 个月的"半新人"——既懂文化又记得新人痛点）
-   - 导师任务清单：①介绍关键协作工具 ②带吃第一顿午饭 ③第 3 天检查"还有什么是你不知道但应该知道的"
-   - **导师不是保姆**：导师只负责"指路和回答问题"，不负责"帮新人完成任务"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **信息包发送**（到岗前 1 天）
-   - 只发"生存必需"（WiFi、会议室预定、请假流程、关键文档入口）
-   - **不发**：公司历史、价值观手册、战略文档——这些在第 2 周发，否则信息过载
+   - src_unknown
+   - src_unknown
 
 3. **第 1 天仪式**（30 分钟）
-   - 直属上级 1-on-1：①你加入的原因 ②第 1 周你只需搞清楚的一件事 ③团队目前的最大挑战（给新人上下文）
-   - 团队简短介绍（每人 1 句话说自己做什么 + 新人 1 句话说自己来做什么）
+   - src_unknown
+   - src_unknown
 
 4. **第 3 天检查点**（15 分钟）
-   - 新人回答："到现在为止，还有什么基础问题让你卡住的？"
-   - 导师记录并更新"新人 FAQ"（这个文档是团队的持续资产）
+   - src_unknown
+   - src_unknown
 
 5. **第 5 天轻量任务**（可选）
-   - 分配 1 个"低 stakes"任务：有明确产出、24-48 小时内完成、允许犯错
-   - 目的不是产出，而是让新人体验"从接到任务到交付"的完整流程
+   - src_unknown
+   - src_unknown
 
 **退出标准**：新人能独立预定会议室、找到关键文档、说出 3 个关键协作对象的名字。
 
@@ -122,21 +122,21 @@ author: 老顽童
 **操作步骤**：
 
 1. **影子跟随**（第 2 周）
-   - 新人跟随导师参加 2-3 个典型会议（不是旁听，是"观察+事后讨论"）
-   - 会后 15 分钟 debrief："刚才会议上，你注意到哪些'不成文的规则'？"
-   - 导师补充："你观察到的很准/你漏掉了一个点——这里的人其实……"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **文化故事会**（第 3 周，1 小时）
-   - 直属上级或创始人讲 2-3 个"关键时刻故事"：我们做过什么错误决策、怎么走出来的、现在的做事方式是怎么形成的
-   - **不是价值观宣讲，是失败史分享**——新人通过"我们怎么摔过跤"理解"为什么现在这么走"
+   - src_unknown
+   - src_unknown
 
 3. **第一次真实任务**（第 3-4 周）
-   - 分配 1 个"有真实业务价值"的任务，但范围可控（1 周内完成）
-   - 明确成功标准 + 允许求助的边界（"遇到 X 类问题可以来找我，Y 类问题自己决定"）
+   - src_unknown
+   - src_unknown
 
 4. **第 4 周 1-on-1**（30 分钟）
-   - 直属上级问："过去 2 周，你最困惑的 3 件事是什么？"
-   - 新人问："我观察到的团队运作模式，有哪些是我误解的？"
+   - src_unknown
+   - src_unknown
 
 **退出标准**：新人能描述团队的 3 条"潜规则"、完成 1 个真实任务、提出 1 个"这里可以改进"的观察。
 
@@ -151,22 +151,22 @@ author: 老顽童
 **操作步骤**：
 
 1. **独立项目**（第 2 个月）
-   - 分配 1 个"端到端负责"的小项目（2-4 周周期）
-   - 明确：①目标 ②资源 ③决策边界（"你可以决定 A，B 需要批准"）④失败后的 learning 归属
+   - src_unknown
+   - src_unknown
 
 2. **外部视角萃取**（第 2 个月末，1 小时）
-   - 专门会议："作为刚加入的人，你看到了哪些我们'习以为常但可能有问题'的做法？"
-   - **规则**：团队不能辩解"我们一直都是这样做的"，只能问"你能具体说说吗？"和"你有什么建议？"
-   - 这个会议是工具的核心——它把新人的"外部视角"从"需要被纠正的偏差"变成"团队的学习机会"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **导师退出**（第 2 个月末）
-   - 导师从"日常指导"转为"需要时咨询"
-   - 导师和新人各写 1 段反馈：新人学到了什么、导师从新人身上学到了什么
+   - src_unknown
+   - src_unknown
 
 4. **90 天复盘**（第 3 个月初，1 小时）
-   - 新人自评：①我是否知道团队的目标和我在其中的角色 ②我是否能独立完成日常任务 ③我是否感到被接纳
-   - 直属上级反馈：①观察到的 2 个优势 ②1 个需要发展的领域 ③第 4 个月的期望
-   - 团队反馈（可选）：匿名收集"新人给团队带来的 1 个新视角"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **退出标准**：新人独立完成 1 个项目、提出 1 个被团队采纳的改进建议、能说出"如果这件事我做主，我会怎么做"。
 

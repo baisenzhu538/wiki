@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,28 +15,28 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[case-ji-hao-ui-design-constraint-evolution]]'
-  - '[[case-ji-hao-ai-workspace-chaos]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 你给 AI 一个任务，预期很高，但第一轮产出远低于预期，立刻想放弃或换工具
+- src_unknown
   lens: 高预期陷阱 / 新手保护期流失
   follow_up_question: '我是否把"第一版"的目标设定为发现问题，而不是产出终稿？'
-- signal: 新人用 AI 的产出反而比老手更好，老手感到不服或困惑
+- src_unknown
   lens: 新手心态红利
   follow_up_question: 我是否还在用旧经验路径约束 AI，而不是让它先给出不受约束的方案？
-- signal: 任务变复杂后，你开始害怕失败、诱导 AI 而不是做假设检验
+- src_unknown
   lens: 保护期阈值
   follow_up_question: 我是否已经把任务拆到足够小，并允许每天只比昨天好一点？
 ---# 暗知识：新手心态的五个保护期
@@ -81,18 +81,18 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 把"第一版"的目标设定为发现问题，而不是产出终稿
-- [ ] 从体感开始，不是从方案开始：先让问题足够小——"每次省五分钟"比"重构整个系统"更容易保持新手心态
-- [ ] 让任务可观测、可理解、可回退：每一步都能看到进展，且能立即回到上一步
-- [ ] 刻意做"无知提问"：问 AI"如果不考虑之前的做法，你会怎么做？"
-- [ ] 每次对话留 10% 时间做"无用探索"
-- [ ] 用"假设检验"框架替代"对错判断"：把每次失败当作一个数据点
-- [ ] 设定最小可感知进展（MVP）：每天只求一个"比昨天好一点"
-- [ ] 当任务变复杂时，先搭结构再迭代，不要只靠心态硬撑
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[case-ji-hao-ui-design-constraint-evolution]] — 纪浩作为后端工程师（新手领域），用新手心态接受多轮迭代，最终产出超出预期的 UI 设计；如果以"高手"自居，就会陷入"一次性完美"的陷阱
-- [[case-ji-hao-ai-workspace-chaos]] — 当任务变复杂后，保护期消失：纪浩开始在乎效率、害怕失败、容易放弃，证明新手心态需要主动维护
-- [[dk-ji-hao-constraint-beats-talent]] — 约束文档 + 新手心态是组合：约束提供结构，新手心态提供迭代意愿，两者缺一不可
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

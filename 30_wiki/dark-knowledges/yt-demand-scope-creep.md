@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-scope-creep
 title: 需求蔓延：从MVP到全功能的陷阱
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-fake-demand-detection
-  - yt-demand-early-validation
-  - yt-five-step-method
-  - yt-entrepreneur-key-hypotheses
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "MVP做了6个月，功能越来越多，但核心需求还没验证"
+  - src_unknown
     framework_lens: 需求蔓延——MVP不够M，在伪需求上堆叠功能
     follow_up_question: "去掉最近新增的3个功能，核心需求还能验证吗？如果能，说明是蔓延。"
-  - signal: "用户说'如果加上XX功能，我就付费'"
+  - src_unknown
     framework_lens: 需求蔓延——用户用假设功能作为付费条件，但可能加了也不付
     follow_up_question: "用户愿意为现有功能付费吗？如果不愿意，新增功能可能不是真需求。"
-  - signal: "团队内部争论'必须做XX功能，否则用户不会用'"
+  - src_unknown
     framework_lens: 需求蔓延——团队假设用户需求，未验证
     follow_up_question: "这个'必须'有数据支撑吗？多少用户因为缺少这个功能而流失？"
-  - signal: "产品功能列表比竞品还长，但用户活跃度低于竞品"
+  - src_unknown
     framework_lens: 需求蔓延——功能多≠价值大，核心功能被淹没
     follow_up_question: "用户实际使用最多的功能是什么？占总使用量的比例？"
-  - signal: "每个版本都在加功能，但从未砍掉功能"
+  - src_unknown
     framework_lens: 需求蔓延——只加不减，产品臃肿
     follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
 
@@ -79,9 +79,9 @@ diagnostic_signals:
 
 每个新增功能前，做减法测试：
 
-- **问题**：去掉这个功能，用户会流失吗？
-- **如果会** → 可能是核心需求
-- **如果不会** → 可能是衍生需求，考虑不做
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. MVP的M是什么
 
@@ -125,21 +125,21 @@ MVP（Minimum Viable Product）的M是Minimum：
 
 ## 行动触发器
 
-- 当考虑新增功能时 → 做需求减法测试：去掉这个功能，用户会流失吗？
-- 当MVP超时 → 检查是否加了非核心功能
-- 当用户说"加了功能就付费" → 先验证现有功能是否愿意付费
-- 当团队说"必须做" → 问"数据支撑在哪里？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型（真/伪/衍生）
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-demand-early-validation`：需求早期验证低成本测试法
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-key-hypotheses`：关键假设验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂案例大爆炸：需求膨胀案例
-- 精益创业（Eric Ries）：MVP方法论
+- src_unknown
+- src_unknown
+- src_unknown

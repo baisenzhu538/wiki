@@ -6,8 +6,8 @@ title: 智能药柜选址深度指南：场景、指标与验证方法
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -21,11 +21,11 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ------
 
 ## Purpose
@@ -53,9 +53,9 @@ related:
 
 ## When NOT to Use
 
-- 本工具**不能替代法律、财务、药学或政策专业意见**；重大决策前请咨询专业人士。
-- 当证据来源单一、利益冲突明显时，不要仅依赖本工具做出投资或合作决定。
-- 本工具基于 2026 年 6 月前的公开/内部信息，政策变化后需重新验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -63,9 +63,9 @@ related:
 
 ### 局限性
 
-- 本工具基于有限案例和内部录音提炼，无法覆盖所有地区的政策细节。
-- 医药行业监管变化快，部分结论可能随政策调整而失效。
-- 工具不能替代专业律师、会计师、药师或药监/医保部门的正式意见。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,9 +75,9 @@ related:
 
 ### 使用建议
 
-- 把 checklist 结果写成书面风险清单，而不是口头结论。
-- 对标注为“待验证”的项目，必须限定验证责任人和截止日期。
-- 重大合作/投资决策前，引入外部专业顾问交叉复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 # 智能药柜选址深度指南：场景、指标与验证方法
 
@@ -147,22 +147,22 @@ related:
 在投放药柜之前，建议用以下方法验证点位可行性：
 
 #### 5.1 人流与需求验证（1–2 周）
-- 在候选点位附近进行人流计数，分工作日/周末、白天/夜间。
-- 观察周边药店夜间客流和购药人群特征。
-- 随机访谈 20–50 位路人：是否会在该位置使用 24 小时药柜？愿意为何种药品付费？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 5.2 O2O 替代测试（1–3 天）
-- 在候选点位用美团/饿了么搜索附近药店，测试夜间（23:00–06:00）下单后的配送时效和可选 SKU。
-- 若 O2O 可在 30 分钟内送达且 SKU 丰富，药柜需求会被大幅分流。
+- src_unknown
+- src_unknown
 
 #### 5.3 竞品销售验证（1–2 周）
-- 若候选点位在药店附近，观察其夜间销售情况。
-- 与药店老板非正式交流：夜间销售额占比、畅销品类、客流来源。
+- src_unknown
+- src_unknown
 
 #### 5.4 最小可行测试（3–6 个月）
-- 先投放 1 台设备，不追求规模。
-- 记录真实销售额、客单价、购买频次、夜间销售占比、故障率。
-- 达到中性假设后再考虑复制。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 6. 下沉市场选址（第九轮新增）
 
@@ -191,17 +191,17 @@ related:
 | **体育场馆/演唱会** | 低 | 高 | 高 | 极低 | 低 | 人流极端波动 |
 
 **高可行性场景特征**：
-- 封闭或半封闭
-- 需求稳定且可预测
-- 合作方单一、易谈判
-- 租金低或免费
-- 运维成本低
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **低可行性场景特征**：
-- 人流大但停留短
-- 租金高
-- 无复购
-- 季节性/活动性波动大
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 8. 诊所药柜选址的特殊考量
 

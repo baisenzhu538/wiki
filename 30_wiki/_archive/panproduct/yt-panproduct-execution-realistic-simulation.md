@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-realistic-simulation
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1175
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 努力仿真
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：努力仿真
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：努力仿真
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-scenario-walkthrough]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真
@@ -47,16 +47,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 测试环境与真实使用环境一致（设备、网络、场景、干扰）
+- src_unknown
   framework_lens: 假环境掩盖真问题
   follow_up_question: 你在测试时用的设备/网络/场景与用户真实使用时有何不同？
-- signal: 用真实用户而非内部员工做仿真测试
+- src_unknown
   framework_lens: 内部视角有偏差
   follow_up_question: 参与测试的人是否代表目标用户？他们的背景差异是什么？
-- signal: 仿真测试后能列出至少3个在假环境中不会发现的问题
+- src_unknown
   framework_lens: 仿真的价值在于发现真实摩擦
   follow_up_question: 这次仿真最大的意外发现是什么？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ status: superseded
 ### 失败模式
 
 1. **在办公室用电脑测试移动端体验**
-   - **原因**：环境不匹配
-   - **修复**：强制在目标设备、目标网络、目标场景下测试
+   - src_unknown
+   - src_unknown
 
 2. **用假数据或理想流程测试，掩盖异常路径**
-   - **原因**：流程不真实
-   - **修复**：使用真实或高度仿真的数据，包含异常和边界情况
+   - src_unknown
+   - src_unknown
 
 3. **原型过于精致，用户不好意思批评**
-   - **原因**： fidelity 过高
-   - **修复**：根据测试目的选择 fidelity：探索用低保真，流程验证用中保真
+   - src_unknown
+   - src_unknown
 
 4. **只观察用户操作，不询问真实情境中的干扰**
-   - **原因**：忽视情境因素
-   - **修复**：测试前后询问用户：‘你通常会在什么情况下使用？有什么干扰？’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -125,9 +125,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Jeff Hawkins的"木块仿真"悖论 + Alan Cooper的"仿真不能验证问题本身"
 

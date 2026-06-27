@@ -6,18 +6,18 @@ title: To B 解决方案类型矩阵
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/solution-design'
-- '#topic/product-strategy'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,28 +26,28 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: medium
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[yt-tob-unit-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队说不清自己是在卖标品、做项目还是卖服务，销售话术与交付成本反复对不上
+- src_unknown
   framework_lens: 解决方案类型矩阵
   follow_up_question: 当前业务的需求端（客户要的是否是相对一致的标准需求）与履约端（交付动作是否可重复标准化）是否同时成立？
-- signal: 把一次性买断的本地软件按 SaaS 持续服务卖，或把需要持续履约的云服务按一锤子买卖定价
+- src_unknown
   framework_lens: 一次性交付 vs 持续履约
   follow_up_question: 客户使用期间我方是否每天都在发生履约成本？收入确认应该一次性确认还是按周期分摊？
-- signal: 入围进了客户供应商名单，但每次拿单仍要重新打价格战、拼关系，利润被长期侵蚀
+- src_unknown
   framework_lens: 采购方式矩阵
   follow_up_question: 客户采购属于入围型、一次性采购还是周期性采购？每种形态对应的销售投入、利润设计和现金流结构是什么？
 
@@ -76,15 +76,15 @@ diagnostic_signals:
 
 这是最容易误判的维度。判断核心不是"有没有产品"，而是**需求和履约两端是否同时可标准化**：
 
-- **需求是否非标**：不同客户对同一问题的需求细节是否基本一致。如果每一家客户都要重新谈一遍功能清单，就是非标需求。
-- **履约是否非标**：即使需求一致，交付动作是否可重复。例如同一套 SaaS 在浙江和西藏的履约成本可能不同。
+- src_unknown
+- src_unknown
 
 **项目型**的特征是至少有一端高度非标，需要按客户需求定制交付；**产品型**的特征是两端都能标准化，交付动作可复制。
 
 ### 1.2 周期/履约方式：一次性交付 vs 持续履约
 
-- **一次性交付**：客户付款后，履约行为基本完成。典型如单机软件、物联网硬件模组、一次性咨询报告。
-- **持续履约**：客户付款只是开始，服务期内必须持续提供可用性。典型如 SaaS 订阅、发票系统、持续运维服务。
+- src_unknown
+- src_unknown
 
 判断方法可以回到财务口径：如果收入需要按月/按次分摊才能确认，大概率属于服务型持续履约业务。
 
@@ -102,19 +102,19 @@ diagnostic_signals:
 
 ### 2.1 想做标准产品型业务
 
-- **条件**：需求标准化 + 履约标准化。
-- **风险与时机**：前期研发难度高、对团队要求更高，但容易规模化复制，也更受投资人青睐。
-- **关键动作**：勇于做减法，把宽需求收敛到标准需求，再匹配标准交付。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2.2 想做长期服务型业务
 
-- **条件**：高频刚需、长期存在、客户需要持续履约。
-- **关键动作**：先切一部分逐步深入，不要一次性切过长链条；同时把履约过程和履约成本尽量标准化，形成成本优势后再向更长链条延伸。
+- src_unknown
+- src_unknown
 
 ### 2.3 想做定制项目型业务
 
-- **条件**：需求或履约至少一端高度非标。
-- **关键动作**：尽量运作成"一站式服务"，满足复杂客户多元化需求，提升成交概率和利润空间；能集成/代理别人产品的，就不要自己研发产品，把重点放在销售和整合能力上。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -145,15 +145,15 @@ diagnostic_signals:
 2017 年，某设计团队承接银行智能网点运营物料更新业务。团队原以为这是一套"标准化设计服务"：客户签约后，设计素材可以跨网点复用，边际成本会快速下降。于是采取低价策略抢标（报价比同行低 30%–50%），并预期通过持续月结服务费实现规模经济。
 
 **误判症状**：
-- 每家银行的视觉规范、品牌审核流程、网点硬件尺寸差异极大，所谓"标准模板"90% 以上需要重新定制；
-- 销售成本被严重漏算：为了拿下不同分行、不同部门，需要重复投标、重复关系维护；
-- 硬件销售与设计服务分属两个决策链，团队原以为可以"搭车销售"，实际销售动作要重新做一遍。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修正路径**：
-- 先做 3–5 个完整项目的全成本核算，把售前、投标、差旅、修改、审核、售后全部计入，确认单项目真实毛利；
-- 如果确认是项目型业务，就按项目制报价，不再用"月结服务费"包装成服务型；
-- 聚焦可复制的最小交付单元（如某一类网点物料），验证能否在不增加定制比例的前提下扩大客户数；
-- 半年后团队停止盲目扩张，解散冗余人员，止损离场。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **启示**：当需求端（银行网点物料）和履约端（设计修改、审核流程）两端都高度非标时，不要伪装成标准服务。项目型业务的关键不是"规模"，而是单项目利润和回款。
 
@@ -198,6 +198,6 @@ diagnostic_signals:
 
 ## 置信度说明
 
-- **高置信度**：三个分类维度（交付形式、履约周期、采购方式）及其定义直接来自口述稿与课堂笔记，逻辑自洽。
-- **中置信度**：不同组合下的策略建议（标品做减法、服务做履约标准化、项目做一站式服务）属于讲师经验归纳，适用于多数 To B 场景，但需结合具体行业验证。
-- **需独立核实**：案例中出现的客户数量、研发人数、收入规模等数字仅作为说明逻辑的举例，**未经独立核实**，不应作为精确事实引用。
+- src_unknown
+- src_unknown
+- src_unknown

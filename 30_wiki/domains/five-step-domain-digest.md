@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
 source_person: Truman
 source_context: 一堂五步法培训口述与笔记
 source_refs:
@@ -18,16 +18,16 @@ author: 黄药师
 reviewed_by: 黄药师
 review_date: "2026-06-19"
 related:
-  - yt-five-step-method
-  - yt-entrepreneur-five-step-method
-  - yt-five-step-implementation
-  - yt-five-step-common-pitfalls
-  - yt-five-step-level-blindspots
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "创业项目不知道从哪开始分析"
+  - src_unknown
     framework_lens: 五步法总纲
     follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
-  - signal: "分析完了不知道怎么执行"
+  - src_unknown
     framework_lens: 落地实操工具
     follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
 ---
@@ -144,7 +144,7 @@ diagnostic_signals:
 
 ## 域间桥接
 
-- **→ 精益测试域**：五步法的"关键假设"→精益的"假设验证"
-- **→ 业务公式域**：五步法的"单元模型"→业务公式 ABC 模型
-- **→ 建模域**：五步法本身是 L4 抽象建模的产出
-- **→ ToB 域**：ToB 五步法（徐剑）是通用五步法的行业深化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

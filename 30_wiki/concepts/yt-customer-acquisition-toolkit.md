@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "获客渠道"
-  - "获客方法"
-  - "科学销售"
-  - "线上获客"
-  - "线下获客"
-  - "客户转化"
-  - "营销小抄"
-  - "一堂增长获客"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -38,14 +38,14 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '团队试了所有渠道，但每个渠道都不深', 'framework_lens': '渠道泛化——没有聚焦', 'follow_up_question': '你们现在最能跑通的1-2个渠道是什么？如果说不清楚，说明没有聚焦'}
   - {'signal': '用户只复制别人的渠道打法，不考虑自己产品阶段', 'framework_lens': '阶段错配', 'follow_up_question': '这个打法对应的产品阶段和你现在一致吗？别人的裂变可能基于已有用户，你还没有'}
 updated_at: 2026-06-16
 author: "老顽童"
 related:
-  - "case-ether-online-acquisition"
+  - src_unknown
 
 ---# 获客工具合集
 

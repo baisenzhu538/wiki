@@ -6,7 +6,7 @@ title: 调研认知升级：从"找答案"到"拆解假设"
 type: concept
 status: enriched
 domain:
-  - research- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -16,16 +16,16 @@ source_refs:
   - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
   - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 related:
-  - '[[concept-yitang-research-mindset]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 调研认知
-- 找答案到拆解假设
-- 调研升级
-- 反证调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-18'
 estimated_tokens: 2500
@@ -33,13 +33,13 @@ tags: []
 author: unknown
 reviewed_by: 欧阳锋
 diagnostic_signals:
-- signal: 调研前会先写下'什么证据会让我放弃当前假设'
+- src_unknown
   framework_lens: 反证思维
   follow_up_question: 你有没有主动寻找过推翻自己的证据？
-- signal: 关注'如果我错了会怎样'而不是只追求正确
+- src_unknown
   framework_lens: 风险管理视角
   follow_up_question: 这个方向最坏的结果是什么？你能承受吗？
-- signal: 会为调研设定'够用就停'的阈值，而不是无限收集
+- src_unknown
   framework_lens: 决策效率
   follow_up_question: 多少信息足以支撑下一步行动？
 
@@ -66,9 +66,9 @@ diagnostic_signals:
 | "数据越多越好" | "多一条信息不一定改变判断" | 前者导致信息溢出，后者强调决策效率 |
 
 **实践原则**：
-- 每次调研前，先写下"如果我发现XX，我就放弃这个方向"
-- 调研结果中，主动找和自己假设相反的证据
-- 最有价值的调研结论往往是"我们之前的XX假设是错的"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二层：从"求正确"到"求最小化风险"
 
@@ -79,9 +79,9 @@ diagnostic_signals:
 | "调研是为了证明我对" | "调研是为了让我少走弯路" | 前者是"突击考核"，后者是"制导航图" |
 
 **实践原则**：
-- 对每个方向，评估"最坏情况"而非"最好情况"
-- 调研的目标不是"避免失败"，而是"缩短失败周期"
-- 设计"可逆"的行动——如果方向错了，可以快速收回成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三层：从"求完整"到"求最小可用"
 
@@ -92,29 +92,29 @@ diagnostic_signals:
 | "要避免不确定性" | "要在不确定性中做决策" | 前者不现实，后者接受真实 |
 
 **实践原则**：
-- 对每个决策问题，定义"够用的信息"阈值（如"能在白板上写出3个关键结论"）
-- 达到阈值后立即行动，不要等"更多的信息"
-- 信息是流动的——行动后可以继续收集，但决策不能无限延迟
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 批判视角
 
 #### 内部局限
 
-- **认知转变的缓慢性**：从"找答案"到"拆解假设"的转变不是知识问题，而是习惯问题。即使你知道"应该这么想"，在压力下仍然会回到旧模式，需要系统性练习才能内化。
-- **文化背景的强影响**：在某些文化中，"确定性"、"正确性"、"完整性"被构建为更高价值，"拆解假设"可能被视为"不负责任"或"模糊"。
-- **遇到真正的专家时可能失效**：这个框架对创业新手很有用，但对有几十年经验的"证实的专家"可能过于简化——专家的"直觉"在某些情况下依然比调研更有价值。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 外部攻击
 
 **Richard Feynman 的"科学诚实"**：
-- 调研中最大的偏见来源是自己，大脑会自动为假设找到合理化解释。
-- 如果假设本身模糊，"拆解"只是在"模糊地思考"，要先确认"我真的知道自己在问什么吗？"
-- 科学的力量不在于"有答案"，而在于"欢迎不确定性"，要在不确定性中行动。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **George Lakoff 的"认知架构"**：
-- 任何认知框架都会让你看到"某些事物"而忽略"其他事物"。
-- "假设"不是中性的，而是被框架形塑的，假设验证可能只是在"用自己的框架检验自己的假设"。
-- 建议采用"框架转换练习"——用不同框架看同一个问题，当不同框架下结果一致时，结论才更值得信任。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -145,13 +145,13 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 每次调研前，先写下"如果我发现XX，我就放弃这个方向"
-- [ ] 调研结果中，主动找和自己假设相反的证据
-- [ ] 对每个方向，评估"最坏情况"而非"最好情况"
-- [ ] 为每个决策问题定义"够用的信息"阈值
-- [ ] 达到阈值后立即行动，不要等"更多的信息"
-- [ ] 如果调研结果支持了所有假设，强制寻找至少1个反证
-- [ ] 向他人汇报时，用"我们拆解了X个关键假设，发现Y是对的、Z是错的"替代"我们做了很多调研"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 

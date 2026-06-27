@@ -10,25 +10,25 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-human-replace-rnd]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 假营销：用故事验证兴趣
@@ -68,26 +68,26 @@ related:
 
 用户光「点赞」不算有效信号，必须设计一个**需要付出成本的下一步动作**，例如：
 
-- 填写邮箱/手机号加入等待列表
-- 预约 15 分钟产品内测访谈
-- 转发给朋友并截图
-- 支付少量定金/众筹意向金
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 付出的成本越高，信号越强 [conf=0.75, source=精益创业通用经验]。
 
 ### 步骤 4：投放到真实目标人群并收集数据
 
-- 选择 1-2 个最能触达目标用户的渠道
-- 投放周期控制在 3-7 天
-- 记录曝光量、点击率、留资率、分享率、负面反馈关键词
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 5：定义通过/不通过标准并做决策
 
 在投放前就必须写好：
 
-- **通过标准**：例如「7 天内获得 100 个有效留资，其中 30% 愿意参与内测访谈」
-- **不通过标准**：例如「点击率 < 2% 且留资率 < 5%」
-- **下一步**：通过则升级到「假产品」或「做预售」；不通过则回到假设拆解，调整价值主张或目标人群
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 成本/周期/样本量
 
@@ -104,10 +104,10 @@ related:
 
 ### 最适合
 
-- **需求不确定性高的早期阶段**：产品还没定型，需要快速排除「伪需求」
-- **互联网/消费品/内容/服务类产品**：用户决策链短，容易被故事打动
-- **需要快速寻找种子用户**：通过品牌概念或视频 Demo 低成本聚集第一批关注者
-- **团队内部需要对齐方向**：用新闻稿/BP 统一团队对产品价值的认知
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 不适用/需调整场景见下文「When NOT to Use」节，避免与适用边界重复 [conf=0.85, source=任务指令 20260623]。
 
@@ -119,9 +119,9 @@ related:
 
 **修复**：
 
-- 明确标注「概念验证」「内测预约」「产品筹备中」
-- 不收取全款，最多收可退意向金
-- 不伪造已经交付的案例或数据
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 只看「点赞」不看「行动」
 
@@ -129,8 +129,8 @@ related:
 
 **修复**：
 
-- 必须设计一个需要用户付出成本的下一步动作
-- 把「留资率/预约率/定金率」作为核心指标，而非曝光量
+- src_unknown
+- src_unknown
 
 ### 3. 故事讲得太泛，找不到种子用户
 
@@ -138,8 +138,8 @@ related:
 
 **修复**：
 
-- 先锁定一个最小细分人群和具体场景
-- 用 AB 测试对比不同人群/不同卖点的留资率
+- src_unknown
+- src_unknown
 
 ### 4. 验证通过就以为可以 All-in
 
@@ -147,8 +147,8 @@ related:
 
 **修复**：
 
-- 把假营销作为 FALSE 模型 F 阶段的起点，通过后再进入 A/L/S/E 阶段
-- 每个阶段都要有新的、更具体的通过标准
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -156,19 +156,19 @@ related:
 
 Dropbox 在产品尚未开发完成时，发布了一支约 3 分钟的视频 Demo，展示「文件自动同步」的使用场景 [conf=0.90, source=公开经典案例]。
 
-- **对应工具**：视频广告 Demo / 假营销
-- **验证假设**：用户是否愿意为一个「云同步文件」的产品注册等待
-- **结果**：视频带来约 7.5 万人加入等待列表，数十万次访问 [conf=0.85, source=行业流传数据]
-- **启示**：在投入重研发之前，用一个故事验证需求，可以大幅降低早期风险
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正例：共享电动滑板车 D 方案
 
 一堂课程中用「共享电动滑板车」项目演示了 A/B/C/D 四级验证路径。D 方案只做一张海报或一个小程序落地页，让用户扫码表达兴趣 [conf=0.85, source=case-lean-electric-scooter-mvp]。
 
-- **对应工具**：宣传图册 / 假产品页（F 阶段）
-- **验证假设**：中国用户是否对「共享电动滑板车」出行感兴趣
-- **成本**：几十元到零成本（若用 AI 工具）
-- **启示**：当最高风险假设是「需求是否存在」时，假营销比开发 APP 更 sharp
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12
 source_refs:
@@ -19,25 +19,25 @@ updated_at: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-capability-system]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[case-truman-personal-growth-map-creation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/error-data'
-- '#domain/yitang'
-- '#domain/ai-saas'
-- '#method/ai-collaboration'
-- '#method/logical-rigor'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
@@ -55,11 +55,11 @@ AI 把“产出模型的成本”降到了接近于零，但**没有降低“判
 
 ## 使用场景
 
-- 你打算用 AI（ChatGPT、Claude、Cursor、Codex 等）帮你总结方法论、画框架图、写 SOP。
-- 团队里有人提议“让 AI 直接出一个模型”，你觉得不放心。
-- 你刚接触建模，还没建立对“好模型”的判断力。
-- 你在评估 AI 生成的某个框架、指南、雷达图是否可以直接投入使用。
-- 你用 AI 迭代多轮后，不确定自己是“越改越好”还是“越改越疲劳”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -71,19 +71,19 @@ AI 把“产出模型的成本”降到了接近于零，但**没有降低“判
 
 3. **准备一套“挑毛病”清单**
    每次看 AI 生成的模型时，强制检查：
-   - 有没有清晰的边界？
-   - 有没有优先级排序？
-   - 是否 MECE（不重不漏）？
-   - 有没有内在逻辑链/顺序？
-   - 能不能找到反例？
-   - 能不能指导具体决策？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **用多轮反馈拉高上限**
    不要一次 prompt 就接受结果。像 Truman 做 Skill 指南那样，连续追问：
-   - “这个没顺序，给我排成优先级。”
-   - “这个不 MECE，再检查一遍。”
-   - “给我三个逻辑链选项，我来挑。”
-   - “这个说明太散，给我十条 To Do / 十条 Not To Do。”
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **用外部标杆“撞”AI 产物**
    找到行业内的最佳实践或友商方案，让 AI 做对比分析：差距在哪、优点在哪、要不要吸收。
@@ -107,45 +107,45 @@ AI 把“产出模型的成本”降到了接近于零，但**没有降低“判
 Truman 在春节期间做了一个“高阶 Skill 设计指南”，目标是封装一套市场尚不存在的、顶高水平的 Skill 工程标准。整个过程全程是 AI 干活，但由 Truman 全程品控：
 
 **第一步：找最佳实践做输入源**
-- 先让 AI 找市场上的最佳实践，发现云巨米官方有一个叫 Skill Creator 的元技能（英文版），是业内公认最好的；
-- 同时找到云巨米官方封装的十几个技能，完备性最高；
-- Truman 同时开两个 AI 窗口（Truman 和 underwater）交叉工作：一个负责翻译，一个负责专业解读，把英文文档变成他能看懂的中文，并理解每一段的价值和含义。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二步：让 AI 合并生成 1.0**
-- 把上面所有技巧和策略让 AI 做一次大合集，生成一个非常长的提示词；
-- 把 Truman 对建模的美好想象（审美、特性、逻辑）直接告诉 AI，让 AI 生成“最完美的直男版”高阶 Skill 设计指南 1.0。
+- src_unknown
+- src_unknown
 
 **第三步：连续十几轮挑毛病**
 这是最难的一步。Truman 盯着指南开始发挥逻辑洁癖，一路喷了十几轮：
-- “为什么没有顺序？”
-- “为什么不 MECE？”
-- “为什么没有逻辑链？”
-- “为什么不完整？”
-- “模块不完善，给我补 MECE。”
-- “这个不 MECE，你自己检查一下。”
-- “给我写三个逻辑链，咱俩商量一下。”
-- “所有说明必须排成 To Do List 十条、Not To Do List 十条，并且从高优先级到低优先级编号。”
-- 硬把七条说明改成了十条，全部排序。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最后 AI 被调整出：从最简单一星复杂度到满血复杂度的**七个范式**，每个范式的代表案例和核心逻辑；以及一个**资源库**，明确每个 Skill 四层架构里哪些是 P0（必须包含，不含就不合格）、哪些是 P1、哪些是 P2。
 
 **第四步：用友商报告交叉验证**
 Truman 找了两份业内较好的报告：
-- 云巨米官方出的行业指南；
-- 花总在春节写的一个关于基本功和技能的指南。
+- src_unknown
+- src_unknown
 
 他用两个模型交叉打分，从实用性、宽度和专业性评估：
-- 官方云巨米指南：B+；
-- 花总指南：A；
-- Truman 自己的高阶 Skill 指南：S 级。
+- src_unknown
+- src_unknown
+- src_unknown
 
 然后让 AI 吸收这两份报告的优点，又改了一轮。
 
 **第五步：用指南去“巡查”其他 Skill**
 指南做完后，Truman 用它去审查其他 Skill 的质量：
-- 让 AI 去知识库找指南文档，自评做得怎么样；
-- 发现一个 Skill 有四个五个优化点，包括 P0 级问题（如触发条件没写完整、场景触发词缺失、示例模板丢失）；
-- 又做了一个 Leo 的工程化审计，挑出描述不完整、只有内部人清楚、触发条件缺失等严重问题。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Truman 感叹：如果你不给 AI 提要求，它真的可能不写；你也不知道模型会疯狂到什么程度。但有了一个足够完备的工程指南后，AI 就可以拿着这个标准去评估和打分。
 
@@ -165,9 +165,9 @@ Truman 以一堂×探月黑客松直播通知文案为例，展示了 AI 如何�
 
 Truman 同时用好几个 AI 工具做课程插图和 PPT，过程中不断纠偏（颜色不对、流程不对、缺元素等）。工作完成后，他让 AI 扫描所有对话记录，把反馈合并同类项，封装成一个叫 **Design Taste** 的技能，包含：
 
-- 审美底盘；
-- 协作流程（先发散再收敛、先看参考、每轮只搞一个主问题、诚实判断可控性）；
-- 评审表与不同类型图的硬性坑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 整个过程 AI 自己复盘、自己吸收，下一次再用时明显聪明很多。前提是 Truman 事先用双三角模型等审美框架严格定义了工作流程。如果人没有提供清晰的边界和审美，AI 复盘出来的只会是一堆零散反馈，而不是可复用的技能。
 
@@ -197,49 +197,49 @@ Truman 同时用好几个 AI 工具做课程插图和 PPT，过程中不断纠�
 
 ### 一、边界与定位（不解决什么比解决什么更重要）
 
-- [ ] 这个模型要解决的具体问题能用一句话说清。
-- [ ] 明确列出 3 个“不适用”场景或“不在范围内”的情况。
-- [ ] 目标用户/使用角色已明确，不是“所有人”。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 二、结构质量
 
-- [ ] 分类是否 MECE（相互独立、完全穷尽）？能找到一个重叠项或遗漏项吗？
-- [ ] 是否有清晰的优先级排序？如果没有，为什么？
-- [ ] 各模块之间是否有内在逻辑链/顺序？不是简单堆砌。
-- [ ] 关键概念是否有明确、可区分的定义？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三、决策指导力
 
-- [ ] 模型能直接回答“这种情况下我该怎么办”吗？
-- [ ] 能否找到至少 1 个真实反例？反例是否被模型自然处理，还是需要硬套？
-- [ ] 如果按模型执行，下一步具体动作是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四、外部验证
 
-- [ ] 是否找过 1–2 个行业标杆/友商方案做对比？
-- [ ] 是否明确记录了自己模型的优点和差距？
-- [ ] 是否吸收了外部标杆的至少 1 个可复用优点？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五、迭代止损
 
-- [ ] 已记录当前版本相比上一版的核心改进点。
-- [ ] 如果连续 3 轮只在修措辞/换例子，是否暂停并补充输入源？
-- [ ] 是否有明确的人工终审人签字/确认？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
-- AI 降低了“产出模型的成本”，但**没有降低“判断模型好坏的成本”**。后者反而因为产出量爆炸变得更稀缺。
-- 这是未来五年最关键的能力分水岭：同样用 AI，有逻辑洁癖的人可以做出 S 级指南；没有的人会被 AI 的“平均输出”带到 60 分陷阱。
-- Truman 的高阶 Skill 指南案例证明：AI 不是不能出精品，但前提是**人必须会喷、会撞、会审美**。
-- 这条知识不在任何 AI 训练语料里——它是真实的高水平建模者在使用 AI 时踩出来的坑。
-- AI 在建模领域是复利性最高的应用之一：因为模型是经验的资产化，未来会被大量调用。用 AI 做一个好模型，价值远高于用 AI 整理一次笔记或做一次调研。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[modeling-capability-system]] —— 建模能力在 AI 时代的价值：人负责判断力，AI 负责算力和整理。
-- [[modeling-three-stages]] —— AI 可以辅助 60 分流程建模和部分 75 分抽象建模，但 85 分本质建模目前仍离不开人。
-- [[dk-modeling-counterexample-driven]] —— 用反例驱动验证 AI 生成的模型，是避免 AI 幻觉的关键手段。
-- [[dk-modeling-ai-judgment-limit]] —— AI 最容易受你影响，核心判断必须由人来做。
-- [[dk-modeling-ai-iterative-prompting]] —— 把 AI 输出推到你能力上限的多轮挑错方法。
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 做高阶 Skill 工程指南的完整六步流程与结果。
-- `src_20260614_8269ccdb#2396-2588` —— Truman 口述原文：AI 辅助建模与高阶 Skill 设计指南。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

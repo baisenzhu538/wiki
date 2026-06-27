@@ -6,20 +6,20 @@ title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/b2b-characteristics'
-- '#topic/cash-flow-management'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -28,28 +28,28 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-customer-tiering]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 试用反馈很好，但客户始终不愿买单
+- src_unknown
   framework_lens: 角色分离 / 决策者与使用者分离
   follow_up_question: 谁是最终付费决策者？他的考核指标、成本结构和决策链上还有哪些影响者？
-- signal: 拿到独家资源就大额买断，再四处找客户
+- src_unknown
   framework_lens: 务实理性 / 资源不等于商业价值
   follow_up_question: 该资源是否对应客户真实预算和投放场景？能否量化给客户带来的收益？
-- signal: 账面订单饱满，但现金流持续紧张
+- src_unknown
   framework_lens: 周期较长 / 回款与财务确认周期
   follow_up_question: 成交、交付、回款、财务确认各周期分别是多少？自由现金流何时转正？
 
@@ -96,16 +96,16 @@ To B 业务与 To C 的本质区别，不在于客单价高低或销售方式，
 
 To B 业务面向的是组织，影响面往往延伸到组织上下游，因此必然存在多角色共同参与决策和使用。最常见的两种分离：
 
-- **决策与使用分离**：产品使用者可能是基层员工，但付费决策者是高层或中层管理者。
-- **决策链条分离**：明面上的决策人背后，往往还有财务、采购、业务关联方等能够影响结果的角色。
+- src_unknown
+- src_unknown
 
 #### 案例：老年人康复训练服务
 
 一堂王同学团队面向养老院提供老年人康复训练服务。试用后老人反馈很好，护工也开心，但没有一个养老院愿意买单。半年后他们才发现：
 
-- 养老院收费标准需向民政部门备案，**失能老人收费更高**；
-- 活力老人虽然好照顾，但安全风险高、照护成本反而更高；
-- 若老人康复后离开，养老院入住率反而下降。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **教训**：只关注使用者（老人、护工）的体验，忽略了决策者（院长、投资方）的成本结构和收入模型，导致业务无法落地。
 
@@ -115,8 +115,8 @@ To B 业务面向的是组织，影响面往往延伸到组织上下游，因此
 
 To B 客户购买产品或服务，是为了解决经营管理中的具体问题。价值诉求通常可归为两类：
 
-- **降本增效**
-- **提升收入**
+- src_unknown
+- src_unknown
 
 与 To C 不同，情绪价值、品牌故事、外观包装在 To B 中通常不起决定性作用。如果产品不能真正解决问题，最多只能做一次性生意，且会损害长期信任。
 
@@ -124,9 +124,9 @@ To B 客户购买产品或服务，是为了解决经营管理中的具体问题
 
 某头部大厂拿到人民日报全国线下数字屏经营权，签订 **4000 万买断协议**。实际销售时却发现：
 
-- 很多国企客户预算无法落实；
-- 数字屏多位于党政机关、医院、学校，广告主不愿投放；
-- 广告内容需严格审核，频频退稿。
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终一年收入 4000 万（甚至未覆盖投入）仍宣告失败。
 
@@ -138,18 +138,18 @@ To B 客户购买产品或服务，是为了解决经营管理中的具体问题
 
 To B 业务通常解决的是具体经营管理问题，订单价格高、服务多、服务周期长，一般以月度甚至年度为单位。周期长体现在四个具体周期上：
 
-- **成交周期**：从触达到签单的时间；
-- **交付周期**：从签单到产品/服务上线的时间；
-- **回款周期**：从交付到收到款项的时间；
-- **财务确认周期**：从回收到收入可被财务确认的时间。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 案例：汽车导航芯片设计
 
 一堂何同学入职的公司为汽车导航系统设计芯片，研发能力一流，团队超过 100 人。但公司最终因现金流断裂被迫打包出售：
 
-- 芯片迭代周期短，研发持续烧钱；
-- 服务国际大客户，**账期超过 180 天**；
-- 生产环节存在不良率损耗和赔偿。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **教训**：订单需求旺盛不等于业务健康。如果回款速度跟不上烧钱速度，单元模型就无法跑通。
 
@@ -168,24 +168,24 @@ To B 业务通常解决的是具体经营管理问题，订单价格高、服务
 
 ## 与已有方法的关联
 
-- [[yt-entrepreneur-five-step-method]] — 三大特性是五步法“需求、解决方案、商业模式、增长、壁垒”分析的前提假设。
-- [[yt-entrepreneur-product-core]] — 产品内核设计必须面向决策者付费，同时兼顾使用者体验。
-- [[yt-unit-model-three-tools]] — 周期长要求单元模型同时覆盖利润口径与现金流口径。
-- [[yt-business-formula-business-pattern-selector]] — 角色分离和务实理性决定了商业模式选择不能仅凭资源，而要按客户真实需求匹配。
-- [[yt-lean-assumption-prioritization]] — 三大特性是 To B 业务中最需要优先验证的关键假设。
-- [[yt-lean-growth-stage-gate]] — 周期长意味着增长阶段门需要更严格的现金流和自由现金流门槛。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 行动触发器
 
-- [ ] 进入新 To B 领域前，先列出决策链上的所有角色及其 KPI/成本结构。
-- [ ] 拿到独家资源或技术时，先验证客户是否愿意付费、付费场景是否真实存在。
-- [ ] 设计产品内核时，明确面向谁付费、面向谁使用，价值如何在决策链中传导。
-- [ ] 做单元模型测算时，同时计算利润口径和自由现金流口径。
-- [ ] 签大单或长账期合同前，评估交付、回款、财务确认周期对公司现金流的影响。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度说明
 
-- **置信度：0.90**。本卡内容同时依据口述稿（oral ~216–557）和课堂笔记 §1，双来源均明确阐述了“角色分离、务实理性、周期较长”三大特性，并提供了真实案例，因此 trust_level 设为 high。
-- **关键数字**：案例中“4000 万买断”“180 天账期”“100 人研发团队”等数字为课堂讲述的举例，未经独立核实，仅用于说明典型陷阱，不应作为事实引用。
-- **讲师观察**：“To B 每年做到两三倍就是极好”“50% 增速已算不错”等表述为徐剑基于经验的观察，不应视为行业普遍定律。
-- **未引用内容**：口述稿 ~700–703 附近存在“99% profit >50m vs 50% >10m”的数据矛盾，本卡未将其作为事实引用，疑似转录错误。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

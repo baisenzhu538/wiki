@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "SPIN四步法"
-  - "SPIN销售法"
-  - "SPIN销售法：顾问式销售的奠基之作"
-  - "与传统销售的关键区分"
-  - "书籍地位"
-  - "核心洞见"
-  - "读书会结构"
-  - "顾问式销售的奠基之作"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260510_349a66fd-读书会-spin销售法
@@ -32,7 +32,7 @@ yitang:
   module: "创业必修"
   course_type: book_club
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户学了SPIN但还在逼单', 'framework_lens': '顾问式销售没有内化', 'follow_up_question': '你最近一次销售对话中，问了几个启发式问题？如果没有，你还是在传统销售'}
   - {'signal': '用户在不合适的场景用SPIN', 'framework_lens': '方法错配', 'follow_up_question': '你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN'}
@@ -40,11 +40,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - '[[yt-entrepreneur-liberate-thinking]]'
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# SPIN销售法：顾问式销售的奠基之作
 
@@ -77,10 +77,10 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 
 ### 核心洞见
 
-- **销售不是"说"，而是"问"**：传统销售靠讲（产品多好/多便宜），SPIN靠问（引导客户自己发现需要改变）
-- **客户自己得出的结论最有力**：SPIN不直接给答案，而是通过问题链让客户"自己想通"
-- **隐性需求 → 显性需求**：P类问题挖出隐性痛点，I类问题放大痛点为紧迫需求，N类问题转化为购买意愿
-- **大客户销售 ≠ 小商品推销**：复杂B2B销售中，客户需要的不是产品介绍，而是帮他们理清"我到底要解决什么问题"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与传统销售的关键区分
 
@@ -94,8 +94,8 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 
 ### 读书会结构
 
-- **上半场（本次）**：理论篇（前八章）——SPIN四步法的完整逻辑
-- **下半场（后续）**：实践篇（后加章节）——SPIN在具体场景中的应用
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -110,7 +110,7 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-questioning-practice-canvas]]
+- src_unknown
 
 ## Constraints & Boundaries
 

@@ -4,7 +4,7 @@
 id: truman-perspective-skill
 created_at: 2026-05-06
 domain:
-- master
+- src_unknown
 review_date: 2026-05-06
 reviewed_by: 黄药师
 status: enriched
@@ -13,7 +13,7 @@ trust_level: medium
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-verified-by-case
+- src_unknown
 author: 老顽童
 confidence: 0.7
 source_refs:
@@ -21,11 +21,11 @@ source_refs:
 - src_20260510_4bb17355-天花板
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[plan_20260621_skill-iteration-standard]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[dk-skill-market-agent-self-install]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 
 > 基于 6 维度深度调研（著作/对话/表达DNA/他者视角/决策记录/时间线），将 许楚（Truman）的思维框架编译为 Claude Code 可调用的角色扮演 Skill。
@@ -112,21 +112,21 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ### 前提假设
 
-- 假设基于公开信息足以还原 Truman 的思维模式。【可靠性：中高】6 Agent 调研覆盖即刻、知乎、搜狐、简书等多平台，但课程内部视频、闭门讨论不可访问
-- 假设 Truman 的公开表达与其私下思维一致。【可靠性：中】调研已发现 4 个言行不一致案例（以太孵化叙事、LABS多产品 vs 聚焦原则等），说明公开表达存在选择性叙事
-- 假设 LLM 能通过文本描述准确模拟 Truman 的表达DNA。【可靠性：中】语气和节奏可以通过规则约束，但 Truman 的即兴创造力和课堂临场感是文本无法完全捕获的
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
 
-- **最适合**：创业项目诊断、商业决策审视、方法论框架应用——需要"操盘手视角"的场景
-- **不适合**：需要最新行业数据的具体分析（必须先搜索）、需要 Truman 本人未公开观点的问题、纯情感支持类对话
-- **关键限制**：调研截止 2026-04-14，之后的 Truman 观点变化未覆盖；《里程碑》原书未直读；无法访问课程内部完整视频
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键矛盾
 
-- **"角色扮演" vs "真实判断"**：Skill 设计为第一人称 Truman，但实际上是基于公开信息的归纳模拟——遇到 Truman 本人也未公开表态的问题时，Skill 的回答可能偏离真实 Truman 的立场
-- **"强确定性" vs "诚实边界"**：Truman 的表达风格是强确定性的，但 Skill 同时声明了 6 项诚实边界——两种声音之间存在张力
-- **"反金句" vs "五步法标签"**：Truman 刻意回避金句和标签，但五步法本身已成为他最知名的标签化框架。这一矛盾是 Truman 本人的内在张力，Skill 忠实地保留了它而非掩盖
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性
 
@@ -136,20 +136,20 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ## Synthesis
 
-- 一堂调研武器库13招 — Truman 是一堂的创始人，五步法是 OSCAR 方法论的源头之一。13 武器体系中的"假设驱动"直接来自 Truman 的心智模型2
-- [[business-research-skill-oscar-13-weapon-system]] — 两个 Skill 互补：business-research 是"调研机器"（怎么做调研），truman-perspective 是"思维顾问"（怎么思考问题）。可以组合使用——用 Truman 的视角审视 business-research 的调研结果
-- 一堂-调研行动营启动_原文润色 — Truman 是行动营的核心讲师，课程原文中有大量 Truman 的即兴表达样本
-- [[kdo-protocol]] — Truman Skill 的安装流程验证了 KDO Protocol 新定义的 External Intake Routing 规则：已结构化 Skill 包 → 直接安装 + 概念卡编译
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 互补与冲突
 
-- **互补**：Truman 的"假设驱动验证"与 business-research 的 Step 1（假设构建）是同源方法论。两者结合可形成"先假设驱动调研 → 再 Truman 视角审视结论"的闭环
-- **冲突**：Truman 强调"体系 > 灵感"，但 Skill 的安装和使用本身可能被滥用为"跳过体系学习，直接调用 Truman 视角"——这恰恰违背了 Truman 的核心主张
+- src_unknown
+- src_unknown
 
 ### 可迁移到 KDO 的改进
 
-- Skill type 分类体系：方法论执行型（business-research）vs 人格模拟型（truman-perspective）——两种 Skill 的安装、使用、验证模式不同
-- 人格模拟型 Skill 的质量标准：调研深度（≥N 个一手来源）+ 诚实边界声明 + 言行一致分析
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -173,16 +173,16 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ## Open Questions
 
-- Truman 本人对这个 Skill 的准确性会如何评价？他是否会认为"体系可以模拟，但操盘手感无法复制"？
-- 人格模拟型 Skill 的"诚实边界"应该多宽？太宽失去实用价值，太窄有冒充风险
-- 调研截止 2026-04-14，Truman 在 AI 转型（LABS）上的新观点如何纳入更新？
-- 两个 Skill（business-research + truman-perspective）的组合使用模式是什么？是否可以设计"Truman 审阅调研报告"的自动化流程？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- **Skill 组合**：business-research（调研）→ truman-perspective（审阅结论）的流水线
-- **反向验证**：用 truman-perspective 对 business-research 的调研结论做 Pre-Mortem（事前验尸）
-- **KDO 集成**：定义 Skill 类型枚举（methodology / persona / tool）作为 KDO Protocol 的 Skill 管理扩展
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

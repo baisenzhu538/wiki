@@ -4,67 +4,67 @@ title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量
 type: tool
 status: enriched
 domain:
-- learning-methodology- yitang
-- note-taking
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 2
 difficulty: beginner
 confidence: 0.88
 related:
-- '[[tool-note-keyword-bolding]]'
-- '[[tool-note-one-line-one-point]]'
-- '[[yt-note-checklist-concept]]'
-- '[[tool-note-keyword-bolding]]'
-- '[[tool-note-one-line-one-point]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[yt-management-scientific-meetings]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-note-checklist-concept]]'
-- '[[tool-note-keyword-bolding]]'
-- '[[tool-note-one-line-one-point]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[yt-management-scientific-meetings]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 - 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md
 tags:
-- '#perspective/compliance'
-- '#perspective/professional'
-- '#scene/ai-collaboration'
-- '#scene/knowledge-management'
-- '#method/learning-method'
-- '#content-format/checklist'
-- '#scene/note-taking/live-field'
-- '#scene/skill-engineering/publish-deploy'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 trust_level: medium
 updated_at: '2026-06-18'
 diagnostic_signals:
-- signal: 笔记出现4层及以上嵌套
+- src_unknown
   lens: 层级超载
   follow_up: 拆分为2-3层并列分类，删除无意义的中间层级
-- signal: 某一层子点超过7个
+- src_unknown
   lens: 点数超载
   follow_up: 先合并同类项，仍超过7则拆分为两个并列大分类
-- signal: 某一层只有1-2个子点
+- src_unknown
   lens: 过度分层
   follow_up: 取消该层级，改为单层列表或与相邻层级合并
-- signal: 读者3秒内说不出笔记的大主题
+- src_unknown
   lens: 结构不清
   follow_up: 重新检查层级深度和各层点数，压缩到3秒可加载
-- signal: 用'等等''其他'逃避整理
+- src_unknown
   lens: 清单不完整
   follow_up: 强制归类，补全所有条目，确保清单闭合
-- signal: 同一主题在多个层级重复出现
+- src_unknown
   lens: 层级冗余
   follow_up: 确定唯一归属层级，删除重复或改为引用
-- signal: AI无法正确解析笔记结构
+- src_unknown
   lens: 机器可读性差
   follow_up: 将4层及以上嵌套压缩到3层以内，并统一列表符号
 ---
@@ -76,12 +76,12 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **分层是手段，不是目的**：分层的最终目标是降低认知摩擦，而非展示结构复杂度。
-- **层级数硬约束：≤3层**：人类工作记忆无法同时处理4层及以上嵌套，≥4层直接禁用。
-- **每层点数硬约束：≤7点，理想≤5点**：基于Miller法则（7±2），超过7点大脑开始"丢包"。
-- **3秒法则**：完成分层后，读者应在3秒内说出笔记的大主题和主要结构。
-- **AI友好性**：过深层级和过多同级点会显著降低AI解析准确率。
-- **与一行一点、关键词加粗互补**：分层解决"结构在哪"，一行一点解决"每行承载多少信息"，加粗解决"重点在哪"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Purpose
 
@@ -123,8 +123,8 @@ diagnostic_signals:
 ### 步骤1：判断是否需要分层
 
 问自己：**"这些内容是否存在'包含'关系？"**
-- 是 → 需要分层
-- 否 → 用单层列表即可，不要强行分层
+- src_unknown
+- src_unknown
 
 **常见失败模式**：为了"看起来专业"而强行给单层内容加层级，结果每层只有1-2个子点，反而增加阅读负担。
 
@@ -158,9 +158,9 @@ diagnostic_signals:
 3. 如果合并后仍超过7个，说明这一层需要**拆成两个并列的大分类**
 
 **常见失败模式**：
-- "我这些内容都很重要，一个都不能少" → 结果是读者一个都记不住
-- "我先全列出来，后面再整理" → 后面永远不会整理
-- 用"等等""其他"来逃避约束 → 破坏了清单体的完整性
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤4：验证"3秒法则"
 
@@ -174,8 +174,8 @@ diagnostic_signals:
 ### 步骤5：AI辅助检查
 
 把笔记喂给AI，问它：
-- "这篇笔记的分层结构是否清晰？"
-- "如果让你重新组织，你会怎么调整层级和点数？"
+- src_unknown
+- src_unknown
 
 AI对结构化内容的反馈通常比人类更客观（因为它不受"这些内容我都很熟"的偏见影响）。
 
@@ -194,15 +194,15 @@ AI对结构化内容的反馈通常比人类更客观（因为它不受"这些�
 
 ## 行动 Checklist
 
-- [ ] 列出所有内容后，先判断是否存在"包含"关系
-- [ ] 确定层级数：1层 / 2层 / 3层，**严禁≥4层**
-- [ ] 数每一层的子点数，确保**≤7点，理想≤5点**
-- [ ] 检查是否有只有1-2个子点的层级，必要时合并或取消
-- [ ] 合并同类项，消除"等等""其他"等模糊条目
-- [ ] 做3秒测试：陌生读者能否说出大主题
-- [ ] 用AI辅助检查结构清晰度
-- [ ] 与关键词加粗、一行一点技能叠加使用
-- [ ] 记录连续3次3秒测试通过率，低于80%时回炉重造
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Example
 
@@ -248,15 +248,15 @@ AI对结构化内容的反馈通常比人类更客观（因为它不受"这些�
 
 一、会前准备（共3组11项）
 1. 时间地点
-   - 确定日期、地点
-   - 发送邀请函、确认回执
+   - src_unknown
+   - src_unknown
 2. 物料准备
-   - 制作资料袋
-   - 测试设备
-   - 安排茶歇
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 人员安排
-   - 确定嘉宾、安排座位
-   - 安排接待
+   - src_unknown
+   - src_unknown
 
 二、会中流程
 1. 签到入场
@@ -268,16 +268,16 @@ AI对结构化内容的反馈通常比人类更客观（因为它不受"这些�
 ```
 
 **关键改进**：
-- 将11个"会前准备"子点合并为3组（时间地点/物料/人员），每组≤3点
-- 删除4层嵌套，演讲环节简化为单层流程
-- 读者3秒内能看出"两大块、六个步骤"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例：Truman自己的笔记实践
 
 Truman在美团时期（2015-2016年）开始有意识地控制分层。他发现：
-- **超过3层的笔记**，自己3天后回看都费劲
-- **超过7点的列表**，团队成员经常漏看第8点以后的内容
-- 强迫自己"2-3层、每层≤5点"后，笔记的**复用率**（被再次打开和引用的频率）提升了3倍以上
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 分层自检模板：30秒笔记审计表
 
@@ -297,9 +297,9 @@ Truman在美团时期（2015-2016年）开始有意识地控制分层。他发�
 
 以 `10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md` 的会议结构为例：
 
-- **第1层**：一、本周工作进展同步；二、重点项目讨论决议；三、待跟进风险点（**3点，通过**）
-- **第2层**：重点项目下的（一）官网建设、（二）商城小程序、（三）新疆项目、（四）设备与仓储（**4点，通过**）
-- **第3层**：每个项目下的2-3条具体决议（**≤3点，通过**）
+- src_unknown
+- src_unknown
+- src_unknown
 
 结果：**3层、每层≤4点**，符合硬约束。若把"待跟进风险点"下的4条风险再拆出子层，就会触发"层级深度"审计项。
 
@@ -313,10 +313,10 @@ Truman在美团时期（2015-2016年）开始有意识地控制分层。他发�
 
 ## 相关卡/互链
 
-- [[yt-note-checklist-concept]] — 清单体笔记的核心概念，理解"清单体是什么"是应用分层约束的前提
-- [[tool-note-keyword-bolding]] — 分层解决"结构在哪"，加粗解决"重点在哪"，两者结合实现"AI看它特别顺手"
-- [[tool-note-one-line-one-point]] — 分层解决"信息在哪一层"，一行一点解决"每一行承载多少信息"
-- [[dk-note-surplus-brainpower]] — 分层约束释放认知资源，让人有"剩余脑力"做更高阶的跨层关联和现场建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

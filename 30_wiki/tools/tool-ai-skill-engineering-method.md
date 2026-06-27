@@ -7,11 +7,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- skill-engineering
-- modeling
-- ai
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,31 +21,31 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[dk-modeling-ai-cross-validation]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#domain/skill-engineering'
-- '#method/prompt-engineering'
-- '#domain/ai'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 一堂建模能力培训口述稿中 Truman 分享的 AI Skill 工程化封装工作流，经多轮挑错、交叉验证后沉淀为可复用指南
 diagnostic_signals:
-- signal: 封装的 AI Skill 运行不稳定、输出质量忽高忽低
+- src_unknown
   framework_lens: AI Skill 工程化封装——缺少统一质量标准与审计清单
   follow_up_question: 你的 Skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- signal: 让 AI 直接生成 Skill，没有经过多轮审美拉齐
+- src_unknown
   framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
-- signal: 团队内部 Skill 标准不统一，不同人封装的质量参差不齐
+- src_unknown
   framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---
@@ -87,27 +87,27 @@ diagnostic_signals:
 ### Step 1：找最佳实践
 
 问自己：
-- 这个领域里谁做得最好？
-- 官方有没有指南？
-- 行业标杆是怎么做的？
+- src_unknown
+- src_unknown
+- src_unknown
 
 操作：
-- 让 AI 列出当前市场上最成熟的 Skill/Agent/Prompt 创作方法
-- 收集 2–5 个高质量来源（官方文档、行业报告、专家文章）
+- src_unknown
+- src_unknown
 
 ### Step 2：翻译 + 解读
 
 如果来源是英文或术语密集：
-- 一个 AI 负责翻译
-- 另一个 AI 负责专业解读
-- 输出：中文可读的、带价值说明的解读版
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：合并生成 1.0
 
 让 AI 把所有最佳实践做一次大合集：
-- 提炼共同原则
-- 按模块组织
-- 加入你对这个领域的美好想象（审美标准）
+- src_unknown
+- src_unknown
+- src_unknown
 
 输出：第一版工程指南
 
@@ -129,18 +129,18 @@ diagnostic_signals:
 ### Step 5：交叉验证
 
 找 2–3 个外部标杆：
-- 官方指南
-- 行业专家文章
-- 竞品实践
+- src_unknown
+- src_unknown
+- src_unknown
 
 用统一维度打分（如实用性、宽度、专业性），让 AI 吸收标杆优点，再改一轮。
 
 ### Step 6：落地审计
 
 用指南去审计新的 Skill/Agent：
-- 让 AI 按指南逐项自查
-- 输出问题清单（P0/P1/P2）
-- 把审计结果反馈回指南，持续迭代
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -173,45 +173,45 @@ diagnostic_signals:
 ## 行动 Checklist
 
 ### 开始封装前
-- [ ] 已明确 Skill 的目标用户、触发场景和输出形式
-- [ ] 已收集 2–5 个高质量最佳实践来源
-- [ ] 已让 AI 完成翻译和解读（如来源为英文或术语密集）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 合并与迭代
-- [ ] 已让 AI 合并生成工程指南 1.0
-- [ ] 已完成至少 5 轮挑错迭代，覆盖架构、MECE、逻辑链、优先级
-- [ ] 每轮都指出了具体缺陷，而非泛泛要求“再改好一点”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 验证与落地
-- [ ] 已找 2–3 个外部标杆做交叉验证
-- [ ] 已用统一维度（实用性/宽度/专业性）打分并吸收优点
-- [ ] 已将指南转化为 P0/P1/P2 分级审计清单
-- [ ] 已用清单审计至少 1 个新 Skill，并回灌优化建议
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 团队推广
-- [ ] 已和关键人对齐“好 Skill”的审美标准
-- [ ] 已把清单做成团队可复用的自评模板
-- [ ] 已约定 P0 级问题必须人工终审
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[tool-ai-skill-engineering-guide]] —— 同主题下更完整的七步工程指南与审计清单
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 做这个指南的完整案例
-- [[dk-modeling-ai-iterative-prompting]] —— 用多轮挑错迭代 AI 输出
-- [[dk-modeling-ai-cross-validation]] —— 用外部标杆交叉验证
-- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Claims
 
-- **C1 [conf=0.9]**: AI Skill 封装的最大风险不是不会写，而是缺少统一质量标准，导致输出不稳定。——依据：`src_20260614_8269ccdb#2556-2566`。
-- **C2 [conf=0.85]**: 高质量 Skill 指南的产出过程是：找最佳实践 → 翻译解读 → 合并生成 1.0 → 十几轮挑错 → 交叉验证 → 落地审计。——依据：`src_20260614_8269ccdb#2420-2586`。
-- **C3 [conf=0.85]**: “喷”式迭代的关键是指出具体缺陷：架构不完整、模块遗漏、逻辑不严谨、没有逻辑链、优先级不清。——依据：`src_20260614_8269ccdb#2466-2490`。
-- **C4 [conf=0.8]**: 工程指南必须具备可审计性，例如 P0/P1/P2 分级、To Do/Not To Do 清单。——依据：`src_20260614_8269ccdb#2504-2516`。
-- **C5 [conf=0.75]**: 交叉验证能避免自我陶醉，用外部标杆撞自己的模型是必要步骤。——依据：`src_20260614_8269ccdb#2518-2538`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -219,9 +219,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 指南质量受限于你的审美和判断上限
-- 迭代过程耗时，对简单任务 ROI 不高
-- 如果标杆选择错误，会吸收错误做法
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Jaron Lanier — "AI 只是在平均化人类表达"
 
@@ -229,8 +229,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果没有外部标杆，指南会不会变成 Truman 个人偏好的固化？可能会。
-- 如果让 AI 自己迭代 100 轮，质量会一直提升吗？不会，到某个点会收敛到 AI 的平均审美。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -246,7 +246,7 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
+- src_unknown
 
 ---
 

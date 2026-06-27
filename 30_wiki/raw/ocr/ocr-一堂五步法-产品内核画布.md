@@ -3,7 +3,7 @@
 id: "ocr-一堂五步法-产品内核画布"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_dc5c80df
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂五步法-产品内核画布"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-顶级产品追求的方向-乔布斯]]'
-  - '[[ocr-泛产品设计的应用场景示意图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂五步法-产品内核画布
@@ -36,36 +36,36 @@ png` 堂五步法实操·产品内核画布 堂 YitangFive-stepPracticalOperatio
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 产品内核画布采用"一堂五步法"框架，包含用户、核心指标、加法（备选内核假设）、减法（产品内核假设）、验证（迭代认知手段）五个模块。
-- 目标用户定义需明确"你的目标用户"，作为产品设计的起点。
-- 核心指标应限定为1-3个关键转化率指标，直接决定产品质量。
-- 加法阶段要求充分发散，将备选产品内核假设全部列出后再做筛选删除。
-- 减法阶段需收敛至3-5条核心假设，严格不超过7条，形成产品内核假设。
-- 验证阶段需明确具体方法（专家访谈、调研、MVP测试等）来验证和修正认知。
-- 该方法强调"先做加法、再做减法"的认知迭代逻辑，避免过早收敛。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 为什么"关键转化率"被指定为核心指标的唯一类型？对于非交易型产品（如内容社区、工具类应用），用户留存时长、活跃度或NPS是否同样关键却未被纳入？
-- "不超过7条"的减法上限是否有实证依据或场景例外？复杂B2B产品或平台型产品的核心假设是否可能天然超过此阈值？
-- 加法阶段"建议删除"的表述存在歧义——是指将备选假设从加法格删除，还是指最终不采纳？这一操作对团队认知留存是否有损耗风险？
-- 验证阶段仅列举"专家访谈、调研、MVP测试"三种手段，是否遗漏了数据埋点分析、竞品拆解、灰度实验等方法？其穷尽性存疑。
-- "先做加法、再做减法"的线性顺序假设是否适用于资源极度受限的初创场景？是否存在并行或逆向操作的合理情形？
-- 画布未体现"一堂五步法"中第一步至第三步的完整逻辑链——"五步法"具体指哪五步？当前提取的五个模块是否完整对应或存在遗漏？
-- "坚持只做必修课"的标语与产品内核画布的方法论之间是否存在张力？该口号本身是否暗示了对"减法"过度推崇而可能抑制创新探索？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

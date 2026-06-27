@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
@@ -17,25 +17,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-fake-demand-detection
-  - yt-demand-qualitative-analysis
-  - yt-demand-scenario-reconstruction
-  - yt-demand-market-size-pitfalls
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我觉得用户需要这个'，但说不出具体场景"
+  - src_unknown
     framework_lens: 需求层次模型——停留在假设层，未验证真需求
     follow_up_question: "你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？"
-  - signal: "产品功能很多，但用户活跃度低、留存差"
+  - src_unknown
     framework_lens: 衍生需求膨胀——在伪需求上堆叠功能
     follow_up_question: "你的产品解决的是用户的'止痛药'还是'维生素'？用户不用的代价是什么？"
-  - signal: "市场很大但转化率极低，用户说'挺好的但不需要'"
+  - src_unknown
     framework_lens: 真需求误判——把'有兴趣'当成'有需求'
     follow_up_question: "用户现在是怎么解决这个问题的？你的方案比现有方案好10倍吗？"
-  - signal: "团队内部对产品方向争论不休，各说各话"
+  - src_unknown
     framework_lens: 需求层次不统一——有人在说真需求，有人在说衍生需求
     follow_up_question: "你们团队对'用户真正要解决的核心问题'有共识吗？能写下来吗？"
-  - signal: "竞品做了某个功能，我们也得做"
+  - src_unknown
     framework_lens: 竞品驱动型衍生需求——未验证是否适合自己用户
     follow_up_question: "竞品的这个功能解决了他们用户的什么需求？你的用户有同样的需求吗？"
 
@@ -60,17 +60,17 @@ diagnostic_signals:
 
 一堂需求分析框架要求同时回答：
 
-- **拆**：用户真正要解决的核心问题是什么？（不是功能，是问题）
-- **推**：用户现在怎么解决的？现有方案的成本和痛点？
-- **评**：你的方案比现有方案好多少？（10倍法则）
-- **算**：这个需求的用户规模、付费意愿、天花板
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 伪需求的典型来源
 
-- **创始人想象**："我觉得用户需要"——没有用户验证
-- **竞品跟随**："竞品做了，我们也得做"——未验证是否适合自己用户
-- **技术驱动**："我们能做，所以做了"——技术能力≠用户需求
-- **调研偏差**：用户说"想要"但行为上不付费——口头需求≠真实需求
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 衍生需求的膨胀陷阱
 
@@ -112,20 +112,20 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你想说"我觉得用户需要..."时 → 先问"用户现在怎么解决的？"
-- 当团队争论产品方向时 → 回到"我们的真需求是什么？"
-- 当考虑新增功能时 → 做"需求减法测试"
-- 当用户说"挺好的"但不付费时 → 识别为伪需求信号
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-fake-demand-detection`：伪需求识别的7个具体信号
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-five-step-method`：五步法总纲，需求是第一步
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂案例大爆炸：30%-50%失败标签贴在第一列
-- 一堂线下私董会需求描述观察
+- src_unknown
+- src_unknown
+- src_unknown

@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-doris-industry-report-search-tips]]'
-  - '[[tool-yitang-people-network-database]]'
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-forum-data]]'
-  - '[[tool-yitang-industry-report-search]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-database-index]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略12：媒体/社区搜索
@@ -39,9 +39,9 @@ related:
 
 ## 关键原则
 
-- 不要盲目依赖某一类信息——媒体有倾向性
-- 社区里的从业者讨论比正式报告更真实
-- 搜索引擎的高级搜索技巧（filetype/site/after）大幅提升效率
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,19 +10,19 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 prerequisites:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - "产品内核"
-  - "产品定义"
-  - "最小解决方案"
-  - "内核迭代"
-  - "内核验证"
-  - "关键转化率"
-  - "六个段位"
-  - "过早细化"
-  - "做而不信"
-  - "用户视角"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-06
 source_refs:
 - src_20260614_0e6fd2e7-theme-product-business-summary
@@ -40,18 +40,18 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户把产品内核越做越大，失去最小解决方案', 'framework_lens': '过早细化/内核膨胀', 'follow_up_question': '如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了'}
   - {'signal': '用户有产品功能但没验证关键转化率', 'framework_lens': '内核验证缺失', 'follow_up_question': '你的产品内核对应的关键转化率指标是什么？现在数字是多少？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-industry-forecast]]'
-  - '[[yt-concept-p-type-l-type]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 产品内核定义、迭代与验证方法论
 
@@ -119,11 +119,11 @@ claim:boundary-22 [conf=0.75] **赌（不推荐）**：靠运气决策风险极�
 
 ## Constraints & Boundaries
 
-- **过早细化的资源陷阱**：在未验证内核假设前就过度优化细节，导致成本过高或方向错误。"无限的追求极致是没有意义的"——超过某个阈值后，边际成本远大于边际收益。
-- **创始人必须亲自关注**：产品内核决定业务方向和竞争力，是一号位的核心职责。假手他人易导致方向偏差，因为内核涉及价值取舍，必须一号位拍板。
-- **静态内核的衰败**：需求会变化、用户会下沉、竞争会加剧、规模会扩大，静态内核无法适应这些变化。产品内核必须动态迭代，否则最终会失去竞争力。
-- **用户价值与商业可行性的张力**：用户价值是基础，但需考虑商业可行性，避免过度追求完美体验导致模式过重。过度用户体验可能导致单元模型不成立。
-- **规模经济的反直觉性**：绝大部分业务如果没有刻意去修正，会"越大越难做"。简化的方向往往与直觉相反——直觉是"加功能"，简化是"砍功能"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

@@ -6,27 +6,27 @@ confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - modeling- ai-models
+  - src_unknown
 language: zh-CN
 query_triggers:
-- PEAS框架
-- 智能体架构
-- agent架构层级
-- 理性智能体
-- 效用最大化决策
-- 简单反射agent
-- 学习型agent
-- 五层agent模型
-- 任务环境分类
-- 智能体设计
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-tool-peas-agent-analysis]]'
-  - '[[yt-concept-peas-insight]]'
-  - '[[yt-concept-ai-guard-brain]]'
-  - '[[yt-personal-ai-capability]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[yt-personal-deliberate-practice]]'
-  - '[[yt-model-deep-review-iceberg]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -37,12 +37,12 @@ trust_level: medium
 type: framework
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 学了PEAS框架，但设计AI应用时还是用简单prompt
+- src_unknown
   framework_lens: 理论与设计脱节——框架需要转化为具体架构选择
   follow_up_question: 你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent
-- signal: Agent设计过度复杂，一个小任务用了五层架构
+- src_unknown
   framework_lens: 过度工程化——智能体层级应与任务复杂度匹配
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
 updated_at: '2026-06-16'
@@ -97,10 +97,10 @@ Learning Agent          "持续更新自己的某个部件"       最高行为�
 ### 理性 = 在已知信息下最大化预期效用
 
 四条核心约束：
-- 不要求结果最优，只要求**决策最优**（区分决策质量和结果质量）
-- 信息有限是默认设置（你不是先知）
-- 效用要先定义清楚（这就是P）
-- "更努力" ≠ "更理性"，**重新定义性能度量**才是
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **应用**：抱怨环境（E）是徒劳——E是给定的。你能动的只有S（拿更好的信息）和A（练更精的动作）。
 
@@ -161,11 +161,11 @@ Gary Klein（认知心理学家，Macrocognition学派创始人，著有《Sourc
 
 ### 关联卡片
 
-- [[yt-concept-ai-guard-brain]] — AI守卫大脑：将AI agent概念应用于信息质量过滤
-- [[yt-personal-ai-capability]] — AI能力修炼：人机协同的实操框架
-- [[yt-model-prompt-engineering]] — 提示词工程：与LLM agent交互的核心技能
-- [[yt-personal-deliberate-practice]] — 刻意练习：learning agent在技能习得上的具体实现
-- [[yt-model-deep-review-iceberg]] — 深度复盘冰山图：复盘本质上是一次"agent架构诊断"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与已有框架的互补
 

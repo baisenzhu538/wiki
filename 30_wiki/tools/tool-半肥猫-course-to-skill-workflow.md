@@ -4,8 +4,8 @@ title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
@@ -13,41 +13,41 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:
-- '[[case-半肥猫-course-to-skill]]'
-- '[[tool-半肥猫-ai-research-validation]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-- '[[tool-半肥猫-课程Skill化的八步工作流]]'
-- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[case-半肥猫-course-to-skill]]'
-- '[[tool-半肥猫-ai-research-validation]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 八步工作流已完整记录
-- 12维度评分标准已提供
-- 测试模板（正向/反向/高风险）已完成
-- 维护手册已设计
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 想把课程转成Skill但不知道值不值得
+- src_unknown
   lens: 价值判断缺失
   follow_up: 执行步骤1：评估课程是否有明确方法论和使用场景，无则放弃
-- signal: Skill上线后被用户投诉给出错误建议
+- src_unknown
   lens: 测试不足
   follow_up: 检查是否完成步骤7：5正向+5反向+1高风险测试，高风险场景拒绝能力=3分
-- signal: 课程中的观点被当成事实固化到Skill
+- src_unknown
   lens: 证据校准缺失
   follow_up: 执行步骤5：每个主张标注事实/观点/待验证，防止丝滑错误放大
-- signal: Skill上线后课程内容更新，Skill失效
+- src_unknown
   lens: 维护缺失
   follow_up: 执行步骤8：设计版本号+反馈模板+回归测试周期，维护成本计入总投入
-- signal: 未经授权将课程转成Skill被发律师函
+- src_unknown
   lens: 版权风险
   follow_up: 步骤1前必须确认授权，未经授权的课程转Skill涉及版权风险
 ---
@@ -112,23 +112,23 @@ diagnostic_signals:
 **测试模板**（在步骤7中使用）：
 
 **正向场景测试清单**（至少5个）：
-- [ ] 标准业务场景A：Skill能否正确识别并给出建议？
-- [ ] 标准业务场景B：Skill的建议是否具体可执行？
-- [ ] 边界场景：在正常边缘情况下Skill能否处理？
-- [ ] 复杂度逐步提升：从简单到复杂的输入，Skill表现是否稳定？
-- [ ] 连续使用场景：多轮对话后Skill是否保持一致性？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **反向场景测试清单**（至少5个）：
-- [ ] 明显越界场景：Skill是否明确拒绝？
-- [ ] 模糊场景：输入信息不足时Skill如何处理？
-- [ ] 极端输入：恶意/无效输入时Skill的反应？
-- [ ] 课程未覆盖场景：课程没讲过的情况Skill如何处理？
-- [ ] 目标冲突场景：用户目标与课程方法冲突时Skill如何处理？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **高风险场景测试**（至少1个）：
-- [ ] 选择一个出错代价极高的场景（如保险给付方案、医疗建议、法律意见）
-- [ ] 确认Skill在此场景下的"拒绝能力"=3分（明确拒绝并解释原因）
-- [ ] 如果Skill没有拒绝，返回步骤4重新审查诊断协议的风险分级
+- src_unknown
+- src_unknown
+- src_unknown
 
 **证据质量标准**（在步骤5中使用）：
 
@@ -144,16 +144,16 @@ diagnostic_signals:
 ## 适用场景
 
 **适合使用**：
-- 你有一门结构化的课程/方法论，内容结构化程度较高
-- 你有明确的用户场景和使用边界
-- 你有能力区分"课程主张"和"可验证事实"
-- 你愿意投入时间做多轮测试
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合使用**：
-- 课程内容本身缺乏结构（只有零散观点，没有方法论）
-- 没有明确的使用场景和边界
-- 你默认课程里的内容都是对的，不偐证据审查
-- 你需要快速上线，没有时间偐测试和迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -186,16 +186,16 @@ diagnostic_signals:
 ## Claims
 
 1. **课程转Skill的本质不是"内容搬运"，而是"方法论固化为协议"**
-   - 大多数失败的原因是把课程当成知识库，而不是当成决策协议
-   - Skill 的价值在于"在什么条件下怎么做“，而不是"有什么知识"
+   - src_unknown
+   - src_unknown
 
 2. **测试是Skill质量的唯一标准，而不是设计文档**
-   - 一个Skill的设计文档可以写得很美，但测试失败意味着它在真实世界中无法使用
-   - “拒绝能力”是区分优秀Skill和普通Skill的核心指标（Skill 3分 vs 裸模型 0分）
+   - src_unknown
+   - src_unknown
 
 3. **证据校准是防止"丝滑错误“放大的唯一封锁线**
-   - 课程中的推理错误，如果不经校准就固化为Skill，会从"一个人的误解"变成"无数人的系统性误解"
-   - 每个主张都必须标注是事实、观点还是待验证，这是对用户负责任的底线
+   - src_unknown
+   - src_unknown
 
 ## External Attacks
 
@@ -211,40 +211,40 @@ diagnostic_signals:
 
 **成功案例**：
 
-- [[case-半肥猫-course-to-skill]] —— 半肥猫将「转化率黑客」课程转化为AI Skill，获得官方授权。关键数据：正常场景Skill 36分 vs 裸模型 8分（差距28分）；最大差异项为"拒绝能力"（Skill 3分 vs 裸模型0分）。
+- src_unknown
 
 **失败案例**：
 
-- **授权风险爆雷**：某团队未经授权将一门热门课程转化为Skill上线，被课程作者发现后发出律师函。Skill下线，团队损失了两个月的开发成本和品牌信任度。
+- src_unknown
 
-- **测试不足导致事故**：某Skill在上线前只偐了3个正向测试，没有偐反向和高风险测试。上线后一周，一个用户在保险场景下使用Skill获得了错误建议，损失了一单业务。团队被责令下线。
+- src_unknown
 
-- **过度设计导致延迟**：某团队花了两个月设计了18维度的评分标准，每个维度分为5级。评分标准太复杂，实际测试时评审员无法一致地执行，最终被简化为3级。
+- src_unknown
 
 **边界案例**：
 
-- **“大而全的工具墟墟”**：某团队将一个通用"营销助手"Skill上线，没有明确的使用边界。用户问什么都答，结果在高风险场景（保险给付方案）下给出错误建议，被责令下线。
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/skills/ —— 使用本技能后有任何反馈，提交到这里
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **实践案例：**[[case-半肥猫-course-to-skill]] — 案例是一次成功的实践，技能是可复制的方法。案例告诉你"可以转成"，技能告诉你"怎么重复转成"
-- **上游输入：**[[tool-半肥猫-ai-research-validation]] — 调研纠偏技能用于"获取高质量信息输入"，本技能用于"将信息输入转化为可复用工具"。两者是同一条产业链的上下游
-- **质量警示：**[[dk-ban-fei-mao-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可
-- **前置条件：**[[dk-ban-fei-mao-real-business-is-the-engine]] — 如果课程不能解决真实业务问题，那么无论技术上转得多好，都是"用锤子找钉子"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 本技能位于 **AI协作产品化层**，是"知识→工具→协议”转化链的核心环节
-- 与一堂方法论的"工具化"环节对应
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **软件工程（API设计）：**Skill 的本质是一个"人类可读 API"——输入确定、输出预期、边界明确
-- **法律（版权法）：**授权是课程转Skill的红线，进入了法律和伦理的交叉区域
-- **心理学（认知危机）：**"认知偏误固化"效应——当错误被包装成工具后，人们更难以质疑它
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Framework
 

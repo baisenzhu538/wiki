@@ -6,17 +6,17 @@ title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- "#domain/yitang"
-- "#method/modeling"
-- "#content-format/sop"
-- "#content-format/checklist"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 author: 老顽童
@@ -27,27 +27,27 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - "process-modeling"
-  - "case-modeling-process-livestream-roles"
-  - "case-modeling-process-sop-evolution"
-  - "case-modeling-process-sop-examples"
-  - "dk-modeling-sop-execution-locks"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 用户说"每次重要演讲/直播/会议前都靠临场发挥，状态忽好忽坏"
+- src_unknown
   framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）
-- signal: 用户说"我们团队有最佳实践，但新人一来就掉链子"
+- src_unknown
   framework_lens: 个人清单 → 团队 SOP + 执行锁
   follow_up_question: 这个最佳实践有没有被写成带时间节点、责任人和检查点的 checklist？
-- signal: 用户说"写了 SOP 但关键时刻总有一两项没人记得做"
+- src_unknown
   framework_lens: 给 SOP 加 SOP
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
-- signal: 用户发现"同样的意外反复发生，每次复盘都说不应该再犯"
+- src_unknown
   framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
 ---
@@ -74,10 +74,10 @@ diagnostic_signals:
 
 ## 结果
 
-- **状态稳定性**：直播状态从"50% 以上出意外"到"相对稳定、每次状态较满"。
-- **组织资产沉淀**：个人准备清单从 0 条迭代到 40–50 条，写入知识库，不再依赖 Truman 个人记忆。
-- **执行可靠性提升**：通过"专人做专事 + 检查者角色"，关键节点执行率大幅提高。
-- **迭代机制形成**：每次意外或特别好/特别差的体验，都趁热复盘并写进 SOP。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景 / 使用边界
 
@@ -135,8 +135,8 @@ diagnostic_signals:
 
 ## 关联框架
 
-- [[process-modeling]] —— 流程建模工具卡，SOP/清单的建模方法
-- [[case-modeling-process-livestream-roles]] —— 直播开播团队分工与检查清单
-- [[case-modeling-process-sop-evolution]] —— 一堂 2021–2024 年 SOP 清单演进史
-- [[case-modeling-process-sop-examples]] —— 10 个学员企业的 SOP 实践样本
-- [[dk-modeling-sop-execution-locks]] —— 给 SOP 加 SOP：从 50% 执行率拉到近 100%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

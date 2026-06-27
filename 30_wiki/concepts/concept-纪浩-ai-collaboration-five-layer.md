@@ -4,8 +4,8 @@ title: "概念：纪浩AI协作五层工作空间法"
 type: concept
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -14,42 +14,42 @@ source_refs:
 created_at: "2026-06-09"
 updated_at: "2026-06-17"
 related:
-  - "[[case-ji-hao-ai-workspace-chaos]]"
-  - "[[dk-ji-hao-constraint-beats-talent]]"
-  - "[[structured-ai-workspace]]"
-  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-  - "[[case-ji-hao-ai-workspace-chaos]]"
-  - "[[dk-ji-hao-constraint-beats-talent]]"
+  - src_unknown
+  - src_unknown
 definition_of_done:
-  - 概念有明确定义
-  - 有核心主张
-  - 有支撑主张的论证
-  - 有演变或派生
-  - 有关联案例
-  - 有关联与这个概念相关的其他概念
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-  - confidence-published
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "AI工作空间目录混乱，行为退化"
+  - src_unknown
     lens: "结构缺失"
     follow_up: "检查五类知识是否混在一起，按L1-L5分层，分开后结构才能自然长出来"
-  - signal: "AI一次性给太多信息导致输出质量下降"
+  - src_unknown
     lens: "渐进披露缺失"
     follow_up: "使用渐进式披露流程：导诊台→工作手册→经验库→领域知识，逐层深入"
-  - signal: "任务定义频繁变更，上下文丢失"
+  - src_unknown
     lens: "L4管理失控"
     follow_up: "L4任务管理需要状态管理和版本控制，快速增长的知识需独立管理"
-  - signal: "多个Agent协作时任务分发混乱"
+  - src_unknown
     lens: "导诊台缺失"
     follow_up: "用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突"
-  - signal: "约束文档散落在各处，无法复用"
+  - src_unknown
     lens: "L3未沉淀"
     follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
 ---
@@ -135,16 +135,16 @@ AI是模式匹配系统，不会创造结构。它的所有结构设计都是从
 
 ## 演变与派生
 
-- **从单一Agent到多Agent协作：** 当需要多个Agent时，可以用导诊台做任务分发，每个Agent有自己的工作手册。
-- **从简单任务到复杂项目：** 复杂项目可以拆分为多个问题域，每个问题域下有多个任务，每个任务有独立的交付物。
-- **从人工管理到AI自我管理：** 任务管理可以接入任务平台，让AI自己发任务、自己验证交付物。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联案例
 
-- **case-ji-hao-ai-workspace-chaos**：正反面案例——目录混乱导致行为退化，最终只能"重新投胎"。证明了没有结构的代价。
-- **case-ji-hao-ui-design-constraint-evolution**：约束文档属于L3的工作手册，是从无结构到有结构的典型过程。
+- src_unknown
+- src_unknown
 
 ## 关联概念
 
-- **关于 [[case-ji-hao-ai-workspace-chaos]]：** 这个案例是五层法的反面教材——当五类知识混在一起时，结构不会自然长出来，只会越来越乱。这是让人最终走向"重新投胎"的根本原因。
-- **关于 [[dk-ji-hao-constraint-beats-talent]]：** 约束文档是L3工作手册的核心组成部分。当多个任务共享同一套约束时，它会沉淀为经验库。这是从临时规范到长期知识资产的转化路径。
+- src_unknown
+- src_unknown

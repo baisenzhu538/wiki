@@ -13,35 +13,35 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 竞对跟踪
-- 竞品监控
-- 竞争对手
-- 竞争情报
-- 竞品分析
-- 竞争跟踪
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-company-disassembly]]'
-  - '[[tool-yitang-research-intelligence-map-in-hand]]'
-  - '[[tool-yitang-research-continuous-tracking]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-company-disassembly]]"
-  - "[[tool-yitang-research-industry-scan]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 竞对跟踪：持续监控竞争对手的动态与策略
@@ -177,10 +177,10 @@ related:
 | **竞对合作** | 寻找替代合作、加强自有能力 | 寻找新合作伙伴 |
 
 ### 响应原则
-- 不盲目跟随，要有自己的战略定力
-- 快速响应，但决策要慎重
-- 差异化竞争，不陷入价格战
-- 关注长期价值，不只看短期得失
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -231,24 +231,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-company-disassembly]] — 公司拆解工具
-- [[tool-yitang-research-industry-scan]] — 行业扫描工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 竞对跟踪模块
-- 交叉：竞争情报理论
-- 注意：竞对跟踪是持续性工作，不是一次性调研，需要建立长期机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

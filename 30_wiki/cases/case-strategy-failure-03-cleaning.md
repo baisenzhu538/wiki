@@ -11,13 +11,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[case-strategy-failure-08-video]]'
-  - '[[case-strategy-failure-02-supermarket]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-04-appliance]]'
-  - '[[case-strategy-failure-09-boeing]]'
-  - "[[tool-strategy-nine-problems]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **表面问题**：销售额持续下滑
 **战略根因**：定位错误——为了利润做高端，结果低端市场被竞品蚕食，高端又没有品牌支撑

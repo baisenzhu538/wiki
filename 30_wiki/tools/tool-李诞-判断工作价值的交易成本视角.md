@@ -3,8 +3,8 @@ id: tool-李诞-判断工作价值的交易成本视角
 title: 技能：判断工作价值的交易成本视角
 type: tool
 domain:
-- content-production
-- decision-making
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-月白-AI对话式海报修改（免PS）]]'
-- '[[tool-月白-资深设计师AI工具切换法]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：判断工作价值的交易成本视角
 
@@ -38,25 +38,25 @@ related:
 
 ## 适用场景
 
-- 对老板/公司不满、觉得被剥削差价时
-- 考虑离职创业、自由职业时
-- 职业倦怠、感觉付出回报不成正比时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已经确定离开且新路径验证可行
-- 处于情绪化决策期，未理性分析时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 成本收益分析表
-- 市场调研（自己接单的潜在收入）
-- 行业人脉信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

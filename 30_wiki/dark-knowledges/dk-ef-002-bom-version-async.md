@@ -4,7 +4,7 @@ id: dk-ef-002-bom-version-async
 title: BOM 多版本不同步：你手里的文件和产线手里的不是同一份
 type: dk
 domain:
-- needs-review
+- src_unknown
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[case-guang-leng-dian-zi-hx-smj]]'
-  - '[[concept-smart-medicine-cabinet-supply-chain-validation]]'
-  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
@@ -35,10 +35,10 @@ trust_level: medium
 
 ## 使用场景
 
-- 项目从一个人交接给另一个人（离职/调岗/外包收尾）
-- 你在 A 电脑上改了一版 BOM，B 电脑上的 BOM 还是旧的
-- 固件编译时引用的头文件版本和原理图上的引脚定义对不上
-- 你在 BOM 里看到"最新版"三个字但不知道"最新"是多新
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -49,9 +49,9 @@ trust_level: medium
 
 ## 适用边界
 
-- 适用于多人协作、有交接需求的硬件项目
-- 不适用于个人一次性原型（你自己就是唯一的版本源）
-- 如果团队已经在用 PLM/PDM 系统（如 Altium 365 / 嘉立创 EDA 云端），文件级版本管理由系统保障，不需要此方法
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -59,6 +59,6 @@ trust_level: medium
 
 这里的暗知识不是"要有版本控制"这个结论（谁都知道），而是**具体的执行纪律**：
 
-- 版本号+日期的文件名格式——强制推行这条纪律是硬件项目管理从"看感觉"到"可追溯"的最小可行步骤
-- "改一个文件同步检查关联文件"——硬件文件间的耦合比软件深得多（原理图改一个引脚 = BOM + 固件 + PCB 全要改），漏掉一个就是灾难
-- 80% 时间浪费在"搞清哪个版本是对的"——这不是夸张，是实测数据
+- src_unknown
+- src_unknown
+- src_unknown

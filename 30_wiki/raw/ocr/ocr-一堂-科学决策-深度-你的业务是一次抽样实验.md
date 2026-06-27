@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-你的业务是一次抽样实验"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_3693c090
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-深度-决策经验值]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-l4-案例01]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-你的业务是一次抽样实验
@@ -39,30 +39,30 @@ png` 1 ヒ之 0 C > 你的数据(盲盒) レＬ L 你的业务，不过是市场
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 任何业务在市场中本质上是一次抽样实验，而非确定性事件。
-- 市场数据具有"盲盒"特性：决策前无法完全知晓真实分布。
-- 科学决策的核心是承认认知局限，用实验思维替代预测思维。
-- 单次业务结果不应被过度解读，需关注统计规律和可重复性。
-- 抽样框架下，关键任务是设计可学习的实验结构，而非追求单次正确。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该框架是否适用于所有业务类型（如B2B长周期项目、政府合同、基础设施投资），还是主要针对可快速迭代的消费互联网业务？
-- "抽样实验"隐喻中，抽样的总体边界如何界定？是特定时间段的所有潜在客户，还是包含竞争对手动态变化的动态总体？
-- OCR文本中"你的数据(盲盒)"的表述与后续提取的"市场数据具有盲盒特性"存在解释跳跃——原图中的"数据"是否指历史数据、实时数据还是决策后的结果数据？
-- 若业务是抽样实验，那么"可学习的实验结构"具体包含哪些设计要素（样本量计算、对照组设置、随机化机制）？原文未展开操作层面。
-- 该框架如何与现有的财务预测、预算编制和KPI考核体系兼容？抽样思维是否意味着接受季度/年度目标的不确定性？
-- "单次业务结果不应被过度解读"的阈值在哪里？当单次结果涉及生存危机（如首单大客户流失、关键融资失败）时，统计规律是否仍适用？
-- 提取知识中"用实验思维替代预测思维"是否隐含否定所有预测模型的价值？贝叶斯更新与频率学派实验设计在此框架中的定位未澄清。
-- 视觉结构信息缺失导致无法判断"ヒ之0C>"等乱码是OCR错误还是原图中的图示元素（如流程图、公式），这影响了对"盲盒"机制具体含义的理解。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -80,30 +80,30 @@ Morozov 论证，“技术解决论”者总是用“创新”来开脱传统方
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] — 深度梯子，抽样实验思维是其底层的认识论前提
-- [[yt-entrepreneur-industry-forecast]] — 行业预判，与抽样实验思维结合可以形成更健康的决策方法
-- [[master-decision-hygiene]] — 通用决策卫生，提醒不确定性的本质不是缺陷而是现实
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新业务启动决策：用抽样实验思维代替预测思维，从"计划好再做”转向"小步快跑”
-- 产品市场验证：将每次发布/推广视为一次抽样，用数据反馈来修正假设
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将"抽样实验”当作"不用做足够准备”的借口，抽样不是随意性
-- 不要在缺乏实验设计能力时做"盲目的实验”，无设计的实验只会生成噪声
-- 不要用“市场是盲盒”来安慰自己不做足够的市场调研，认识论限制不能取代行动论努力
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 当你在做一个高不确定性的重大决策时，用"抽样实验”思维将大决策拆解为可以快速迭代的小实验
-- 従你觉得自己“已经知道答案了”时，用 Dennett 的“意向立场”视角检查是否在用自以为是的知识来做决策
-- 従你在用“实验”来为自己的轻率行动开脱时，用 Morozov 的“技术解决论”视角重新审视实验设计的严格性
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

@@ -5,8 +5,8 @@ title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
 status: enriched
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
 source_refs:
@@ -14,31 +14,31 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
-  - '[[dk-demand-misjudgment-rate]]'
-  - '[[case-milktea-five-step]]'
-  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
-  - '[[yt-tool-product-core-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[yt-tool-product-core-canvas]]'
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 团队讨论时反复出现"我觉得用户一定需要""这个方向很明显"
+- src_unknown
   framework_lens: 愿望思维——把情感上的必然当成逻辑上的必然
   follow_up_question: 这是我们自己的愿望，还是已被5个以上真实用户验证过的付费原因？
-- signal: 产品方案从"我们能做什么"出发，而非"用户愿意为什么付费"
+- src_unknown
   framework_lens: 把功能可行当成商业必然
   follow_up_question: 如果去掉这个技术亮点，用户还会选择我们吗？他们愿意多付多少钱？
-- signal: 创业者说"只要All in就能跑出来"，并把大规模投入当作验证本身
+- src_unknown
   framework_lens: 把执行力当成验证
   follow_up_question: 在为这个假设全力以赴之前，我们愿意承受的最大验证成本是多少？有没有更小的实验可以证伪它？
 ---
@@ -83,22 +83,22 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 将愿景拆解为 3-5 个可证伪的关键假设。
-- [ ] 对每个假设，明确"如果错了我会在什么信号出现时承认它错"。
-- [ ] 访谈 5-10 个真实目标用户，不用自己代表用户。
-- [ ] 把"技术能做到"和"用户愿意付费"分成两个独立问题讨论。
-- [ ] 在大规模投入前设定最大验证成本，并把它写进会议纪要。
-- [ ] 建立定期假设复盘会，用制度化约束抵抗乐观偏差回潮。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-一堂-hypothesis-driven-business-methodology]] — 本暗知是假设驱动型方法论的心理基础。方法论有效不是因为它有神奇工具，而是因为它强制创业者抵抗"愿望思维"这一天性。
-- [[case-一堂-无人餐厅-hypothesis-failure]] — "技术可行=商业必然"走偏模式的典型案例。无人餐厅创业者不是能力不够，而是把"机器人能送餐"等同于"机器人能创造经营价值"。
-- [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]] — "自己需要=市场需要"走偏模式的典型案例。产品团队把"智能问答"当卖点，但家长要的是"稳"而不是"酷"。
-- [[yt-tool-product-core-canvas]] — 内核画布通过"去掉这个要素用户还会选吗"这个问题，强迫团队从用户视角出发，是抗击愿望思维的实操工具。
-- [[yt-decision-y-model]] — Y 模型强迫在评估收益时同时列出成本，用四层冰山挖掘分歧根源，与本暗知互补。
-- [[yt-entrepreneur-lean-validation]] — 低成本验证/MVP 用最小可行测试替代美好愿景做决策，是打破愿望思维最直接的武器。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 应用本暗知后有反馈，提交至 `60_feedback/dks/dk-yi-tang-wishful-thinking-kills-startups`。
+- src_unknown

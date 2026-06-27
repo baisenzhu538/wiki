@@ -5,25 +5,25 @@ title: KDO Protocol — AI-Agent Operating Contract
 type: system
 status: draft
 aliases:
-- KDO Protocol
+- src_unknown
 id: kdo-protocol
 created_at: '2026-05-02'
 updated_at: '2026-06-16'
 related:
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[kdo_product_design_agent_final]]'
-  - '[[kdo-priority-checklist]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[kdo-protocol]]'
-  - '[[index]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'
 domain:
-- master
+- src_unknown
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs: []
@@ -40,19 +40,19 @@ confidence: 0.6
 
 ### [Critique]
 
-- **Assumption**: 假设所有 AI Agent 在进入仓库时都会先读取 `90_control/PROTOCOL.md`。实际上 LLM 的上下文窗口和行为不可控，如果没有显式的路由机制（如 `routing-rules.md` 强制执行），AI 可能跳过协议直接操作。
-- **Boundary**: 协议只能约束"这个仓库内"的操作。跨仓库、跨工具的协作（比如从飞书文档拉取内容再写入 KDO）仍然需要额外的桥接协议。
-- **Reliability: Medium** — 理由：协议本身是文本约定，不是编译器级别的强制约束。AI 可能读错、遗漏、或产生幻觉。需要配合 JSON Schema（`schemas/concept.yaml`）和自动化校验工具才能提升可靠性到 High。
-- **Anti-pattern risk**: 过度协议化可能增加操作摩擦。如果 AI 每次创建笔记都要经过 10 项 frontmatter 校验，反而降低了"低摩擦捕获"的原始设计目标。需要在"严格"与"流畅"之间找到平衡点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### [Synthesis]
 
-- **Links to**: obsidian-kdo-内容产出工作流-产品设计大纲 — Protocol 是 Workflow 的底层基础设施；Workflow 定义"做什么"，Protocol 定义"怎么做"。
-- **Links to**: [[index]] — Protocol 定义了 Index 的结构规则（概念类型、链接格式、状态枚举）。
-- **Complements**: 一堂课程中提出的 `cloud.md` 协议假设 — KDO Protocol 是对这一假设的具体工程实现，但一堂更关注"产品内核级机会"，KDO Protocol 更关注"单仓库操作契约"。
-- **Conflicts with**: 无直接冲突，但需警惕与 Obsidian 的"自由哲学"之间的张力。Obsidian 推崇无结构、无约束；KDO Protocol 是有结构、有约束的。两者需要在"人类自由度"和"AI 可执行性"之间取得平衡。
-- **Transferable to**: 任何基于 Markdown + Git 的知识管理系统，尤其是多端协作、AI 参与的场景（如 Second Brain、Zettelkasten + LLM）。
-- **Gap**: 缺少一个 `CONTEXT.md` 或动态快照机制，让 AI 能在每次会话开始时快速加载"当前仓库状态"，而不是每次都重新扫描全部文件。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -93,8 +93,8 @@ confidence: 0.6
 **核心判断标准**：目标是"整理已有知识"走 inbox pipeline；目标是"编译新能力/技能"直接出概念卡。
 
 **两层分离**：
-- **执行层** — `~/.claude/skills/`：Claude Code 可调用的 Skill，装完即用
-- **知识层** — `30_wiki/concepts/`：Skill 的概念卡，可检索、可双向链接、可被 KDO 图谱索引
+- src_unknown
+- src_unknown
 
 > 此规则来自 business-research skill 安装过程中的实践总结。参见 [[business-research-skill-oscar-13-weapon-system]]。
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-add-subtract
-  - yt-product-kernel-iteration
-  - yt-demand-hierarchy-model
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户什么都想做，产品边界模糊"
+  - src_unknown
     framework_lens: 内核与边界——边界不清，资源分散
     follow_up_question: "你的产品边界是什么？什么坚决不做？"
-  - signal: "用户说'这个功能也在我们边界内'，但和内核无关"
+  - src_unknown
     framework_lens: 内核与边界——边界被随意扩展
     follow_up_question: "这个功能是否服务于内核？去掉它，内核是否还成立？"
-  - signal: "用户被客户要求做边界外的功能，无法拒绝"
+  - src_unknown
     framework_lens: 内核与边界——边界被外部压力突破
     follow_up_question: "这个需求是否在你的产品边界内？如果不在，是扩展边界还是拒绝？"
-  - signal: "用户团队对边界理解不一致，有人做A有人做B"
+  - src_unknown
     framework_lens: 内核与边界——团队边界共识缺失
     follow_up_question: "你们团队对'什么该做，什么不该做'有共识吗？写下来一致吗？"
-  - signal: "用户说'我们先做，看看效果'，边界被不断试探"
+  - src_unknown
     framework_lens: 内核与边界——边界被'试试看'突破
     follow_up_question: "'试试看'的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？"
 
@@ -54,10 +54,10 @@ diagnostic_signals:
 | **边界外** | 与内核无关的功能或业务 | 坚决不做 |
 
 边界的作用：
-- 保护内核不被稀释
-- 指导资源分配
-- 拒绝外部压力
-- 团队对齐共识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键洞察
 
@@ -95,9 +95,9 @@ diagnostic_signals:
 
 边界是战略的具体化：
 
-- 战略说"我们要成为XX领域的领导者"
-- 边界说"我们只做XX领域内的YY业务，不做ZZ"
-- 边界帮助团队理解战略，执行战略
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -121,21 +121,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义产品时 → 同时定义边界
-- 当新增功能时 → 检查是否在边界内
-- 当外部压力要求做边界外功能时 → 用边界作为拒绝依据
-- 当市场变化时 → 评估边界是否需要调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-add-subtract`：产品内核的加减法
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂泛产品设计落地卡片：内核和边界
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

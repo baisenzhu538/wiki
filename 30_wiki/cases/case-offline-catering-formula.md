@@ -4,8 +4,8 @@ title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景�
 type: case
 status: enriched
 domain:
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
 source_refs:
@@ -20,10 +20,10 @@ review_date: "2026-06-20"
 confidence: 0.85
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-entrepreneur-unit-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
@@ -115,9 +115,9 @@ GMV = 堂食 GMV + 外卖 GMV + 会员复购 GMV
 
 ## 教训
 
-- **L1-L2 的参数只是“科目”，不是“抓手”**。
-- 同店增长要找到“最可能提升的人群 × 最可能绑定的场景”。
-- 场景绑定比单次促销更持久，是餐饮品牌的长期壁垒。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -153,15 +153,15 @@ GMV = 堂食 GMV + 外卖 GMV + 会员复购 GMV
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：先切分（+）再拆转化（×）
-- [[yt-business-formula-ten-paradigms]]：门店收入型 #3、留存节点型 #10、连续动作型 #9 的组合
-- [[yt-business-formula-parameter-iceberg]]：从 L1 客流量到 L6 场景占位本质
-- [[yt-business-formula-l6-essence-formulas]]：场景占位本质公式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、核心矛盾、复购率拆解结构（直接来自培训逐字稿）
-- **中置信度**：行为指标健康阈值（来自讲师建议）
-- **待复核**：具体餐饮品类/区域的场景占比基准需结合实际数据确认
+- src_unknown
+- src_unknown
+- src_unknown

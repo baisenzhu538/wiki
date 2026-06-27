@@ -3,8 +3,8 @@ id: tool-马易-AI落地能力内化训练
 title: 技能：AI落地能力内化训练
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-成为首位F工程师]]'
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-马易-数字员工FD拆解落地]]'
-- '[[tool-马易-公寓获客自跑通原则]]'
-- '[[tool-马易-最小场景优先落地法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI落地能力内化训练
 
@@ -38,25 +38,25 @@ AI落地能力内化训练是马易在AI落地场景识别中提出的实操方�
 
 ## 适用场景
 
-- 希望从学习者转变为能独立交付者
-- 需要建立AI落地的真实体感
-- 计划从事AI咨询/实施服务
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅想了解概念、不准备动手
-- 无实际业务场景可练习
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AI落地游戏（如coco鱼）
-- 咨询项目实践机会
-- 复盘模板
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AI落地千变万化，抄智能体无意义；必须通过完整项目建立体
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

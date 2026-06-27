@@ -7,24 +7,24 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-- FAB 核心说服
-- 两者联合使用
-- 动力三曲线
-- 动力三曲线图
-- 动力三曲线模型
-- 十大浪费触点
-- 十大浪费触点清单
-- 转化率优化
-- 转化率优化：动力三曲线 × 十大浪费触点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown图
+- src_unknown模型
+- src_unknown
+- src_unknown清单
+- src_unknown
+- src_unknown：动力三曲线 × 十大浪费触点
 related:
-  - '[[ocr-一堂最佳转化率动力曲线图]]'
-  - '[[case-truman-motivation-map-12-versions]]'
-  - '[[yt-tool-fab-persuasion]]'
-  - '[[dk-yb19-visual-strategy-price-match]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂
@@ -37,13 +37,13 @@ yitang:
   module: 管理必修
   course_type: framework
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队优化了十个触点，但转化率没有提升
+- src_unknown
   framework_lens: 优化点过多——同时改多个变量无法判断哪个有效
   follow_up_question: 这十个触点中，哪个对用户决策影响最大？如果不知道，先做单变量实验
-- signal: 用户只优化动力，不优化阻力（浪费触点）
+- src_unknown
   framework_lens: 动力-阻力失衡——转化率=动力/阻力，只加动力不减阻力效果有限
   follow_up_question: 用户旅程中哪些环节在消耗信任或增加成本？这些阻力点有没有被优化？
 updated_at: '2026-06-16'
@@ -124,20 +124,20 @@ trust_level: medium-high
 
 ### 内部局限性
 
-- **动力维度单一**：Cialdini 六大原则仅覆盖"动机"维度，但影响转化行为的还有"用户能力"和"触发时机"两个关键维度。当用户有动机但缺乏行动能力（如注册流程复杂）或没有及时触发提示时，六原则无法解释流失。
-- **触点发现无系统方法**：与 boundary-01 一致——十大触点清单作为检查清单有用，但无法支撑"系统发现"的场景。缺少一个可操作、可复现的触点审计框架。
-- **FAB 假设线性决策**：FAB 说服链（Feature→Advantage→Benefit）假设用户按信息接收→比较→决策的线性路径行动，但大量转化决策是情感驱动、瞬时完成的（如冲动消费），FAB 的理性说服假设在这些场景中不一定成立。
-- **本土化未深入**：六大原则直接引用 Cialdini 英文术语加中文翻译，未针对中国市场的文化特殊性（如"关系"/"面子"对互惠原则的扭曲、中国消费者对"稀缺"的免疫力等）做深度适配。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
-- **BJ Fogg 行为模型（2009, Stanford Persuasive Tech Lab）**：Fogg 提出行为公式 B = MAT（Behavior = Motivation × Ability × Trigger → Prompt），明确指出"动机"只是行为的必要条件之一。一堂的转化率体系聚焦于动机（六原则），但对 Ability（用户是否有能力完成转化动作）和 Prompt（是否有及时的触发信号）几乎没有涉及。举例：用户看完页面后已被稀缺+社会认同双重驱动（动机高），但如果注册表单有 20 个字段（能力障碍），用户依然不会转化。Fogg 模型暴露了动力三曲线在行为解释力上的结构性缺失。
-- **Harry Brignull 欺骗性设计批评（2010, darkpatterns.org）**：Brignull 指出，稀缺（"仅剩 2 件"）、社会认同（"298 人正在浏览"）、互惠（"免费领取后自动订阅"）正是欺骗性设计（dark patterns）的核心工具包。一堂将这些原则作为"转化率优化"武器推广时，没有划定伦理边界——什么程度的稀缺算合法营销，什么程度算虚假紧迫？模型缺少"伦理约束"维度，用户可能将其误用为操纵工具。
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-product-core-metrics]]
+- src_unknown
 
 ## Constraints & Boundaries
 

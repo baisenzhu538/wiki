@@ -6,47 +6,47 @@ title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - personal-growth
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-note-expert-interview-modeling]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 笔记能力
-- 解决问题能力
-- 笔记不是备忘
-- 遇到问题开一篇笔记
-- 笔记的价值
-- 为什么记笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-10
 updated_at: '2026-06-18'
 estimated_tokens: 4200
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- signal: 每篇笔记都以一个待解决的问题命名，而不是以信息主题命名
+- src_unknown
   framework_lens: 问题框架决定笔记价值
   follow_up_question: 这篇笔记不写，你的问题解决过程会受到什么影响？
-- signal: 笔记结束时有明确的下一步动作或决策，而不是停在'我知道了'
+- src_unknown
   framework_lens: 解决问题能力=从信息到行动的转化率
   follow_up_question: 这条笔记产生了一个决策、一个任务还是一次验证实验？
-- signal: 同一个问题会被持续更新：新证据、新假设、新结论按时间或逻辑追加
+- src_unknown
   framework_lens: 笔记是活的迭代系统
   follow_up_question: 这篇笔记在最近一周内是否被修改或引用过？
 
@@ -90,13 +90,13 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 这篇笔记的标题是一个**待解决的真实问题**，而不是“XX学习笔记”或“XX会议纪要”。
-- [ ] 笔记开头写清楚：**我要解决什么问题？这个问题为何现在重要？**
-- [ ] 每条信息都说明它与问题的关系，避免纯粹的摘录或收藏。
-- [ ] 笔记结尾有明确的**下一步动作、决策或验证实验**，而不是停在“我知道了”。
-- [ ] 当问题过大时，拆成**≤3个可在一周内验证的子问题**，每个子问题单独开一篇笔记。
-- [ ] 每周做一次**笔记巡礼**：本周遇到的新问题能否链接到旧笔记？旧笔记是否需要更新？
-- [ ] 写完后问自己：**问题被解决了吗？还是只生产了一份关于问题的文档？**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Summary
 
@@ -144,10 +144,10 @@ Truman的判断：一个人的笔记质量可以直接预测他解决问题的�
 
 ### Constraints（内部局限）
 
-- **对问题质量的依赖**："遇到问题就开一篇笔记"假设你能识别出"问题"。但很多人遇到的不是"问题"而是"任务"——"写个报告"和"解决报告中的某个真正问题"是两回事。
-- **对打字速度的依赖**：Truman说自己打字速度一般，但思考结构要求很高。如果思考结构不清晰，"开一篇笔记”会变成"写一堆碎片"。
-- **笔记与行动的漏洞**：写笔记不等于解决问题。有些人把"写笔记"当成"解决问题"的替代品——"我写了=我做了"的幻觉。
-- **累计效应需要时间**：Truman诲十年才达到现在的水平。短期内笔记能力的提升不会直接转化为问题解决能力的跃升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -183,15 +183,15 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 
 ## Synthesis
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"简约"特征让"遇到问题就开篇笔记"变得极其轻量——不需要考虑排版、格式、工具，只需要打开文档、写下第一行。这种低摩擦是笔记能力转化为问题解决能力的关键。
+- src_unknown
 
-- [[yt-note-l4-internalization]] —— L4内化阶段的三个要点（问题驱动、立flag、广泛涉猎）都是"解决问题"的具体工具。没有L4，笔记只是信息的"过滤器"；到达L4，笔记才成为问题的"解决器"。
+- src_unknown
 
-- [[dk-truman-flag-note-taking]] —— 立flag是解决问题的"强制执行机制"。没有flag，人会自然地逃避困难问题。flag让"解决问题"从"可选项"变成"必须完成的任务"。
+- src_unknown
 
-- [[concept-问题驱动式深度思考笔记]] —— 问题驱动是"遇到问题就开篇笔记"的起点。没有好问题，就不会有好笔记；没有好笔记，问题就不会被解决。
+- src_unknown
 
-- [[yt-note-expert-interview-modeling]] —— 专家访谈式笔记是"解决问题"的极限形态：在2小时内完成"记录→整理→建模→升华→反向输出"的完整问题解决闭环。
+- src_unknown
 
 ### 不要用的场景
 
@@ -212,7 +212,7 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 
 ## 相关卡/互链
 
-- [[yt-note-checklist-concept]]：清单体四特征降低开笔记的摩擦，是问题解决能力落地的基础。
-- [[yt-note-l4-internalization]]：L4内化阶段把笔记从信息整理工具升级为认知引擎。
-- [[dk-truman-flag-note-taking]]：立flag机制让“解决问题”从可选项变成必须完成的任务。
-- [[concept-问题驱动式深度思考笔记]]：问题驱动是“遇到问题就开篇笔记”的起点与筛选器。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

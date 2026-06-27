@@ -12,28 +12,28 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- lean-startup
-- strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/transcript_低成本验证认知篇.md
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-strategy-lean-validation]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[framework-lean-pivot-decision]]'
-  - '[[framework-demand-lean-bridge]]'
-  - "[[yt-five-step-method]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[framework-lean-false-model]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[framework-strategy-business-design]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[five-step-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 五步法与精益验证的接口
@@ -42,9 +42,9 @@ related:
 
 ## 触发问题
 
-- “我知道要做五步法，但每一步怎么验证？”
-- “产品内核画布填完了，怎么知道填得对不对？”
-- “商业模式设计了很多版本，先测哪一个？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 五步法每一步 → 待验证假设 → 精益工具 → 通过标准
 
@@ -60,11 +60,11 @@ related:
 
 ## 与相邻卡的关系
 
-- 上游框架：[[yt-five-step-method]]（总纲）、[[yt-entrepreneur-five-step-method]]（创业者实操版）给出五步法的完整逻辑；本卡只回答“每一步用什么精益工具验证”。
-- 内核验证：[[concept-一堂-kernel-validation]] 与 [[tool-泛产品落地-低成本测试MVP]] 聚焦第二步“产品内核”的验证细节。
-- 战略接口：[[framework-strategy-business-design]] 在战略层定义“为谁创造什么价值”，五步法在业务层验证这些选择。
-- AI 构建接口：[[framework-wanghuan-harness-seven-stages]] 把五步法思想落地到 AI 原生复杂产品构建流程中，强调生成者与验收者分离。
-- 域图：[[five-step-domain-digest]]、[[lean-startup-domain-digest]] 提供两个域的完整索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -77,8 +77,8 @@ related:
 
 ## 适用边界
 
-- **适合**：已经了解五步法框架，但需要把每一步落地为具体验证动作的团队。
-- **不适合**：强监管行业中某些步骤的验证受合规限制，需用调研或监管沟通替代部分精益实验 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md §3.6]；成熟行业的微创新可能不需要完整五步法验证。
+- src_unknown
+- src_unknown
 
 ---
 

@@ -1,36 +1,36 @@
 ---
 id: yt-decision-width-method
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
+- src_unknown
 query_triggers:
-- 列推建查
-- 宽度分析
-- 盲区检查
-- 决策清单
-- 成本收益分析
-- 故事推演
-- MECE模型
-- 单元模型
-- 个人盲区
-- 团队盲区
-- 公司盲区
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-三阶追问法穷尽决策要素]]'
-- '[[ocr-一堂-科学决策-宽度-团队]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-habit-shift]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-y-model]]'
-- '[[case-truman-poker-deck-roi]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
@@ -39,34 +39,34 @@ trust_level: medium
 type: tool
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-宽度-个人.png
+- src_unknown
   dimensions:
-  - 色彩语义: 左栏白底（价值/收益）vs 右栏灰底（成本），明度差异暗示"收益更亮眼"
-  - 空间结构: 左右9:5数量失衡，左重右轻打破对称中立性
-  - 信息层级: L1 双栏标题 → L2 价值9项密集排列 → L3 成本5项+底部留白 → L4 决策场景行动引导
-  - 负形利用: 成本栏底部4行留白=成本"有限且可控"的视觉修辞；价值栏满溢=收益"丰富"
-  - 视觉隐喻: 容器隐喻（价值满杯/成本半杯）+ 天平隐喻（表面权衡实则倾斜）
-- image: 一堂-科学决策-宽度-团队.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 蓝紫主调=系统性/组织性，区别于个人篇的橙黄=个体性
-  - 空间结构: 双栏列表(价值盲区/成本盲区)+底部通栏(常见场景)，上部双栏对称+底部通栏横跨
-  - 信息层级: L1 场景标签 → L2 价值盲区 → L3 成本盲区（含乘数系数1.2-1.5） → L4 行动场景
-  - 负形利用: 栏间分割线=组织边界隐喻；底部场景栏横跨=跨部门视角
-  - 视觉隐喻: '"盲区→光明"=课程照亮组织暗角；乘数系数=成本放大的视觉警告'
-- image: 一堂-科学决策-宽度-企业.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰/藏青=战略严肃性，红色点缀=风险警示
-  - 空间结构: 双栏列表(价值盲区/成本盲区)+底部通栏(常见决策场景)，上部双栏对称+底部通栏横跨
-  - 信息层级: L1 战略级标签 → L2 价值盲区 → L3 成本盲区 → L4 底部场景通栏
-  - 负形利用: 栏间分割线=组织边界隐喻；底部通栏横跨=跨部门视角
-  - 视觉隐喻: 棋盘隐喻=企业决策的多维博弈；深底色=深水区/高风险区
-- image: 一堂-科学决策-关键训练清单（重要））.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 红黄绿交通灯系统=优先级编码，黑色=必须完成
-  - 空间结构: 纵向清单+横向进度条，T型结构
-  - 信息层级: L1 训练模块 → L2 关键动作 → L3 完成标记 → L4 时间锚点
-  - 负形利用: 未完成项的空白框=待填充的认知债务
-  - 视觉隐喻: 进度条=能力积累的视觉化；交通灯=决策质量的通行权限
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-width-method
   course_type: tool
@@ -74,18 +74,18 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 列清单时同时列出收益和成本，并且明确标出前3-5个关键项
+- src_unknown
   framework_lens: 宽度=关键要素不遗漏，而非要素越多越好
   follow_up_question: 如果你必须砍掉一半收益项或成本项，决策结论会改变吗？
-- signal: 对重大决策走完'列→推→建→查'四步，且故事推演覆盖供应链/用户体验/时间线
+- src_unknown
   framework_lens: 连续叙事能暴露散点思考遗漏的环节
   follow_up_question: 按时间线走一遍后，是否发现了原来单点列表中没看到的成本或风险？
-- signal: 查盲区时调用对应层级的清单（个人/团队/企业），而不是只凭直觉扫描
+- src_unknown
   framework_lens: 系统性扫描 > 自我启发式回忆
   follow_up_question: 这个决策属于个人、团队还是企业层级？你是否使用了对应清单？
-- signal: 宽度分析结束后，决策者能在3分钟内说出"如果砍掉70%的次要项，结论是否不变"
+- src_unknown
   framework_lens: 宽度陷阱检查——宽度分析的价值在于确保关键项不遗漏，而不是用全面性替代决断力
   follow_up_question: 你目前卡住是因为"漏了什么关键项"，还是"关键项太多无法取舍"？如果是后者，需要切换至[[yt-decision-depth-ladder]]或[[yt-decision-canvas]]
 updated_at: '2026-06-16'
@@ -139,13 +139,13 @@ reviewed_by: 周伯通
 
 
 
-- 不判断重要性，先求全：将所能想到的收益和成本全部写下
+- src_unknown
 
 
-- 反复追问"还有吗？还有吗？"直到实在想不出新项
+- src_unknown
 
 
-- 列完后圈出前3-5个关键项——找全是为了确保关键不遗漏
+- src_unknown
 
 
 
@@ -163,16 +163,16 @@ reviewed_by: 周伯通
 
 
 
-- 推演三维度：供应链路径、用户体验路径、项目时间表
+- src_unknown
 
 
-- 不止"上帝视角"，还要"第一人称视角"：带入具体场景按顺序走一遍
+- src_unknown
 
 
-- 典型追问：有存储吗？运输吗？有人工吗？有货损吗？过程中有其他成本吗？
+- src_unknown
 
 
-- 推演目标：把"散点式想法"变成"连续故事线"，自然暴露忘记的环节
+- src_unknown
 
 
 
@@ -190,13 +190,13 @@ reviewed_by: 周伯通
 
 
 
-- 要素模型：按业务线/维度拆分，竖轴为要素类别，横轴为评估维度（如"收益类别×业务线"）
+- src_unknown
 
 
-- 公式模型：将价值拆解为数学关系（如"产出 = 客户数×转化率×客单价"）
+- src_unknown
 
 
-- 建模关键：先定性再定量，确保逻辑层次清晰后再开始带数
+- src_unknown
 
 
 
@@ -214,13 +214,13 @@ reviewed_by: 周伯通
 
 
 
-- 查的本质：不是"自己想"，而是"对照已知常见盲区"进行系统性扫描
+- src_unknown
 
 
-- 对于重大决策，额外步骤：找该领域老兵聊一次，用他们的经验补充你的清单
+- src_unknown
 
 
-- 运用要点：不是每次都走完四步，而是根据决策复杂度灵活组合——简单决策只用"列"，复杂决策走完全部四步
+- src_unknown
 
 
 
@@ -327,16 +327,16 @@ reviewed_by: 周伯通
 
 
 
-- **列单的"尽头感"骗局**：强制追问"还有吗"容易让人产生"已经找全了"的错觉。实际上，人的认知边界决定了"列单"的边界——你只能列出你知道的，"你不知道你不知道什么"的项目永远不会出现在你的清单上。
+- src_unknown
 
 
-- **推演的"经验偏差"陷阱**：推演依赖的是"过去类似情境的经验"，但商业环境变化速度超过经验有效期。用三年前的供应链逻辑推演今年的业务，可能因为政策变化、技术叠代、消费习惯迁移而全盘失效。
+- src_unknown
 
 
-- **建模的"形式完整性"误导**：MECE框架的整洁外观会让人产生"我已经分析得很全面了"的错觉。但一个看起来不重不漏的框架，可能在最初定义分类维度时就已经偏离了问题的本质结构。
+- src_unknown
 
 
-- **查盲区的"种族局限性"**：三层清单基于一堂的创业圈局层经验，对于传统制造业、政府关系驱动型业务、科研机构等非标准创业场景的盲区覆盖不足。
+- src_unknown
 
 
 
@@ -410,10 +410,10 @@ Taleb 让宽度分析者睡不着觉的问题是：如果你最成功的决策�
 
 ## diagnostic_signals
 
-- signal: "决策者做了非常完整的宽度分析，列了 50+ 项收益/成本，但迟迟不做决定"
+- src_unknown
   framework_lens: "宽度陷阱检查——越宽越不敢动，分析变成行动障碍"
   follow_up_question: "这 50 项里，如果把置信度<70% 的项全部去掉，剩下多少项？拿这剩下的项能不能做一个'足够好'的决策？"
-- signal: "创业者说'我的宽度分析做完了，但感觉还是没把握'"
+- src_unknown
   framework_lens: "宽度陷阱检查——宽度解决的是'漏了什么'，不是'选什么'。如果宽度分析后还感觉没把握，问题不在宽度而在深度"
   follow_up_question: "你现在没把握的，是'还有没有遗漏的选项'还是'这些选项里哪个更好'？如果是后者，你需要的不是更多宽度分析，而是深度下钻。"
 

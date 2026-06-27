@@ -12,20 +12,20 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- src_unknown
 related:
-  - '[[tool-strategy-four-moves]]'
-  - '[[dk-strategy-03-advantage-temporary]]'
-  - '[[case-strategy-practice-ranpeng-milk-powder]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[framework-strategy-basics-04-system]]'
-  - '[[framework-strategy-brm]]'
-  - '[[framework-strategy-five-basics]]'
-  - '[[yt-decision-y-model]]'
-  - '[[framework-ouyangfeng-review-methodology]]'
-  - '[[framework-lean-pivot-decision]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 六阶段企业生命周期
@@ -85,8 +85,8 @@ def diagnose_stage(company):
 
 ## 适用边界
 
-- **适用**：企业战略诊断、阶段定位、工具选择
-- **不适用**：已有明确阶段的成熟企业微调
+- src_unknown
+- src_unknown
 
 ---
 

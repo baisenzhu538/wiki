@@ -4,37 +4,37 @@
 
 id: yt-model-pan-product-execution-toolkit
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 执行落地
-- 落地工具箱
-- 怎么打磨产品
-- 产品迭代方法
-- 如何做好产品执行
-- 产品交付方法论
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-entrepreneur-lean-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -44,12 +44,12 @@ title: 泛产品设计·落地工具箱（19张卡牌）
 type: framework
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户工具很多但产品迭代慢
+- src_unknown
   framework_lens: 工具没有形成工作流
   follow_up_question: 你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环
-- signal: 用户只打磨不验证
+- src_unknown
   framework_lens: 缺乏反馈闭环
   follow_up_question: 你打磨的每个版本有没有人看、有人用、有人反馈？
 updated_at: '2026-06-16'
@@ -81,44 +81,44 @@ trust_level: medium-high
 
 ### 定位与结构
 
-- claim:01 [conf=0.90][src: 落地工具箱指南] 落地工具箱是泛产品设计36计的第三组卡牌（19张），回答"怎么磨出来"，对应三大修养中的「永远以无限进步为迭代」
-- claim:02 [conf=0.85][src: 落地工具箱指南] 19张卡牌按项目复杂度分三层：磨设计7张（小产品/独立作品）、磨方案7张（复杂协作项目）、磨创新5张（高风险创新项目）。三层中磨创新（色块标注）最具挑战——创新产品无对标、易失败
+- src_unknown
+- src_unknown
 
 ### 磨设计（7张——独立小作品）
 
-- claim:03 [conf=0.85][src: 落地卡片] 内核和边界：这个作品的主旨和魂儿是什么——一句话说清核心，明确什么不做。被放在磨设计第一张，但"一句话说清核心"实际上是所有产品设计中最难的事
-- claim:04 [conf=0.85][src: 落地卡片] 清单体笔记：把碎片信息变成结构化清单，可执行。清单体笔记是"从想到做"的第一个转化动作
-- claim:05 [conf=0.80][src: 落地卡片] 十指讲香：文案张力——好东西做出来还要讲出来。设计者的表达能力和设计能力同样重要
-- claim:06 [conf=0.80][src: 落地卡片] 善用佳软：多使用工具提效，不要重新造轮子
-- claim:07 [conf=0.80][src: 落地卡片] 原型Demo：先做一个能跑的粗糙原型快速验证，不必追求第一版完美
-- claim:08 [conf=0.80][src: 落地卡片] 设计原则：UI/UE基本原则——对齐/对比/重复/亲密性等基础规则
-- claim:09 [conf=0.80][src: 落地卡片] 努力仿真：尽可能贴近真实使用场景测试，如过电影般推演
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 磨方案（7张——复杂协作项目）
 
-- claim:10 [conf=0.85][src: 落地工具箱指南] 顶层文档：Top-Down梳理——先画全景地图再走，确保所有人对"我们要做什么"有统一理解
-- claim:11 [conf=0.85][src: 落地工具箱指南] 管理三段论：目标明确 → 路径清晰 → 资源到位。三者缺一不可
-- claim:12 [conf=0.80][src: 落地工具箱指南] 定量分析：把感觉翻译成数字，建立量化标尺。ROI分析从宽度/深度/高度三个维度评估
-- claim:13 [conf=0.80][src: 落地工具箱指南] 里程碑拆解：把大目标拆成可执行的关键节点。风险管理：底线策略——识别、预防、应对最坏情况
-- claim:14 [conf=0.85][src: 落地工具箱指南] 复盘迭代：积极学习反馈，每一轮都比上一轮好——这是"无限进步"精神的直接体现
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 磨创新（5张——高风险创新项目）
 
-- claim:15 [conf=0.80][src: 落地工具箱指南] 假设拆解：拆解所有隐含前置条件，逐个验证。创新产品最多的失败来自"没意识到的假设"
-- claim:16 [conf=0.80][src: 落地工具箱指南] 灵感闪现：主动寻找灵感来源，建立灵感触发机制——创新不是等灵感，是建立"灵感捕获系统"
-- claim:17 [conf=0.80][src: 落地工具箱指南] 十倍速验证：验证速度层级——常识 < 调研 < 实验。逐级加速，越快知道对不对越好
-- claim:18 [conf=0.80][src: 落地工具箱指南] 解放思想：深度思考底层逻辑，回到学科经典和本质要素。对应Y模型心法——创新需要突破第一层认知
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 父节点（泛产品设计方法论总纲）
-- [[yt-model-pan-product-36-strategies]] — 36计总图
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱（落地前需先理解用户）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（落地标准来自审美建模）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键原图
-- !
+- src_unknown
 
 ## Critique
 

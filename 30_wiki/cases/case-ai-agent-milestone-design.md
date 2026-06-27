@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- modeling
-- ai
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 辅助建模案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,16 +22,16 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[framework-course-milestone-model]]'
-  - '[[dk-modeling-unit-pairs-milestone]]'
-  - '[[tool-iterative-recursive-deep-dig]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -57,10 +57,10 @@ tags:
 
 ## Background
 
-- **场景**：AI 时代设计复杂工作流时，里程碑节点极其难拆
-- **问题**：市场上方法很具体但难迁移，每次拆里程碑都靠硬想
-- **目标**：提出一个可复用的里程碑设计方法论 + 组件库
-- **来源**：`src_20260614_8269ccdb#2608-2814`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -69,41 +69,41 @@ tags:
 ### Step 1：提出顶层思路
 
 Truman 先口授顶层文档，核心思路：
-- 不背模型，不背步骤
-- 把成熟方法背后的共性顺序关系和门槛关系拆成一对对"单元组件"
-- 用组件拼出里程碑
+- src_unknown
+- src_unknown
+- src_unknown
 
 例如：先输入再输出、先发散再收敛、先决策再执行。
 
 ### Step 2：喂素材给 AI
 
 Truman 把以下素材喂给 AI：
-- 市场上找到的研究资料
-- 过去的飞书文档
-- 一堂自己设计过的里程碑案例
-- 自己写过的 1.0 组件库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：反复反馈打磨方法论
 
 全程只反馈、不动手，一轮一轮喷：
-- 第一轮：AI 写成"使用说明书"，被喷
-- 第二轮：写成 9 步，被喷，要求改成 5 步
-- 第三轮：改成 5 步后不够好，要求"保五争十"做池子选
-- 第四轮：选完后再起名、修边界、讲 ROI
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终敲定方法论：**一堂五步法**——先定题目、再做加法、再穿主线、再做减法、最后解答。
 
 ### Step 4：拆组件库
 
 让 AI 把所有方法论拆成组件，合并到不能再合并，最终形成：
-- 8 个层级
-- 48 个零件
-- 每个组件有编号、类型、来源划分
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5：对外讲法 + AI 可用版本
 
-- 让 AI 写公开演讲话术，讲江湖地位
-- 封装成带标签属性的 Markdown，给 AI 调用
+- src_unknown
+- src_unknown
 
 ### Step 6：复盘
 
@@ -111,10 +111,10 @@ Truman 把以下素材喂给 AI：
 
 ### 结果
 
-- 用时：**3 小时**
-- 反馈轮次：**42 轮**
-- 产出：顶层文档、输入素材、方法论、48 个组件、对外讲法、AI 可用版本、复盘报告
-- Truman 评价：可能比他 2020 年的建模水平强，而且快
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,10 +151,10 @@ Truman 把最终文档库按编号严格分层，形成可复用的生产流水�
 
 Truman 把方法论向下拆成 48 个组件，核心逻辑是[[dk-modeling-unit-pairs-milestone]]：用成对、有先后约束的单元模型拼出里程碑。典型组件例如：
 
-- **输入 → 输出**：输入没完成前，不急着输出。
-- **发散 → 收敛**：没有充分发散，就别着急收敛。
-- **决策 → 执行**：先评审再开发，先计划再执行。
-- **情境 → 任务**：先情境后任务，先问题后目标，先边界再内容。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 每个组件带编号（如 M010203040506）、类型、来源划分，便于 AI 按标签调用。
 
@@ -162,9 +162,9 @@ Truman 把方法论向下拆成 48 个组件，核心逻辑是[[dk-modeling-unit
 
 Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursive-deep-dig]]：
 
-- **喷**：指出具体缺陷——"你写的是使用说明书，不是方法论""步骤太多，改成 5 步""没有逻辑链"。
-- **撞**：拿现有 AI Partner 和标杆案例交叉验证，看有没有漏掉的组件或顺序。
-- **改**：AI 执行修改，直到"挑不出毛病"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 42 轮反馈中，前面十几轮都在修正方法论骨架，后面才进入起名、边界、ROI、组件库和封装。
 
@@ -172,9 +172,9 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说全程不动手，靠口授，两个 Agent 窗口并行。——来源：`src_20260614_8269ccdb#2612-2614`。
-- **证据 2 [conf=0.85]**：最终方法论是一堂五步法，组件库拆成 8 层级 48 个零件。——来源：`src_20260614_8269ccdb#2720-2756`。
-- **证据 3 [conf=0.8]**：全程 42 轮反馈，3 小时完成，人做可能需要两三周。——来源：`src_20260614_8269ccdb#2792-2798`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,10 +202,10 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 
 ## 教训
 
-- **AI 能干，但人必须负责审美判断**：Truman 全程只反馈"不行"，AI 负责执行。
-- **反馈要具体**：不是笼统说不好，而是说"步骤太多，改成 5 步"。
-- **素材要饱和**：喂给 AI 的资料越多，合并出的组件库越扎实。
-- **及时复盘**：做完立刻让 AI 写报告，否则信息会丢失。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -224,24 +224,24 @@ Truman 的方法论打磨不是一次性生成，而是[[tool-iterative-recursiv
 ## 操作 Checklist：用 AI Agent 3 小时拆里程碑
 
 ### 准备阶段
-- [ ] 明确题目：要拆什么复杂工作流？边界在哪里？不解决什么？
-- [ ] 收集素材：市场方法 ≥3 份、内部案例 ≥3 个、过往文档、1.0 组件库
-- [ ] 写顶层文档：口授核心思路、问题、原创解法、预期 ROI
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与 AI 协作阶段
-- [ ] 开两个 Agent 窗口：一个主建模，一个辅助翻译/解读/交叉验证
-- [ ] 第一轮：让 AI 输出方法论草稿（预期会被喷）
 - src_unknown
-- [ ] 第三轮：要求"保五争十"，让 AI 给出 5–10 个候选方案并对比
-- [ ] 第四轮：选定最优方案，依次起名、修边界、讲 ROI、做解读
-- [ ] 组件库：让 AI 把方法论拆成"成对单元"，合并到不能再合并，编号并标注类型与来源
 - src_unknown
-- [ ] 封装：写对外讲法 + 配图 + AI 可用 Markdown 标签版
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 收尾阶段
-- [ ] 复盘：让一个 AI 合并两个 Session 输出，写完整复盘报告
-- [ ] 审计：用产出物检查新项目里程碑，看是否能直接调用组件
-- [ ] 记录：统计反馈轮次与用时，评估人效杠杆
+- src_unknown
+- src_unknown
+- src_unknown
 
 > Truman 本次数据：3 小时，42 轮反馈，产出 7 类文档、8 层 48 个组件。
 

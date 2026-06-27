@@ -9,18 +9,18 @@ confidence: 0.72
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例04.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例04.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了团队福利决策中时间成本与生活方式价值的权衡。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,11 +40,11 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家 40 人公司
-- **决策问题**：是否为公司提供午餐
-- **关键成本**：午餐费用 20-30 万/年
-- **关键收益**：节省员工外出就餐时间，折算为额外办公时间价值约 52 万/年
-- **时间价值基准**：平均月薪 1.5 万 → 约 100 元/小时；外出就餐多花 1 小时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -80,35 +80,35 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **效率派**：52 万 > 30 万，提供免费午餐是净收益为正的理性投资。
-- **人本派**：午餐时间是员工的私人时间，用"办公时间价值"衡量是把人物化为工时。
-- **财务保守派**：20-30 万区间跨度达 50%，52 万收益基于多个未验证假设，实际可能差很远。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **办公环境升级决策**：更好的咖啡、健身房、班车等福利的 ROI 评估。
-- **远程办公政策**：在家办公节省通勤时间 vs 协作效率损失。
-- **弹性工作制**：时间灵活性的价值如何量化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 用时间价值换算生活时间时，要区分"有效工作时间"和"非有效时间"。
-- ⚠️ 任何"比例假设"（如 50% 外出）都必须说明来源或做敏感性分析。
-- ⚠️ 账面净收益为正不等于真实净收益为正，要考虑机会成本和隐性成本。
-- ⚠️ 福利决策涉及生活方式，不能用单一 ROI 框架覆盖所有价值。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L2 部分定量——把隐性时间收益纳入决策。
-- **[[tool-决策深度-L2部分定量]]**：案例是该工具在福利决策场景的应用。
-- **[[tool-ROI决策评估画布]]**：案例展示了成本-收益对照表的画布实践。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Norman（认知负荷）**：员工平均月薪和额外耗时看起来很精确，但额外耗时包含步行、等候、社交等复杂活动。用精确计算框架评价复杂社交活动，会过度简化真实决策情境。[conf=0.75, source=Don Norman, The Design of Everyday Things]
-- **Pye（审美判断不可编码）**：外出就餐涉及生活方式、健康、安全感、家庭关系等无数非财务因素。把午餐决策处理为可量化的二元选择，可能低估了生活方式本身的价值。[conf=0.75, source=David Pye, The Nature and Art of Workmanship]
+- src_unknown
+- src_unknown
 
 ---
 

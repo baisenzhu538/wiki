@@ -13,14 +13,14 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L1优先级定性_vlm_desc.md
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-决策深度-L2部分定量]]'
-  - '[[dk-demand-pitfall-financial-literacy]]'
-  - '[[case-demand-financial-literacy]]'
-  - '[[dk-决策经验值]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[tool-决策深度-L2部分定量]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 决策深度L1：优先级定性
@@ -32,10 +32,10 @@ L1是决策深度的最浅层——只用定性判断排优先级，不涉及任
 ## 用法
 
 对多个选项按「重要性×紧迫性」矩阵快速排序：
-- 重要+紧迫 → 马上做
-- 重要+不紧迫 → 排入计划
-- 不重要+紧迫 → 委派
-- 不重要+不紧迫 → 砍掉
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 限制
 

@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-关键假设abcd模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_3261e6bd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-关键假设ABCD模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[yt-decision-abcd-model]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
-  - '[[yt-unit-model-construction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-关键假设ABCD模型
@@ -36,15 +36,15 @@ png` 一堂·关键假设ABC口模型 yitangABCDStrategyModel 成败问题 A.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 一堂关键假设ABCD模型将商业决策分为成败问题（A商业场景、B决策场景）与效率问题（C增长场景、D转化场景）两大维度。
-- 商业场景（A）采用"一堂五步法"策略，从宏观到微观进行分析。
-- 决策场景（B）以投产比ROI为核心策略，评估投入产出效率。
-- 增长场景（C）运用"增长公式"作为策略工具，解决规模化扩张问题。
-- 转化场景（D）基于"动力阻力触点"框架，分析用户行为转化的驱动与阻碍因素。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -56,38 +56,38 @@ Christensen 在《颠耆思考》中指出，颠覆性创新往往发生在"比�
 
 ## Open Questions
 
-- 模型名称在OCR中出现"ABC口"与"ABCD"两种写法，"口"是否为" D"的误识，还是暗示D为待填/开放模块？
-- "一堂五步法"的具体步骤是什么，其从宏观到微观的分析逻辑如何与A商业场景形成唯一对应关系？
-- ROI作为决策场景（B）的核心策略，但ROI本身是一种评估指标而非决策方法，其如何独立支撑"决策场景"这一成败问题的判断？
-- "增长公式"在C增长场景中的具体表达式是什么，该公式是否普适于所有增长类型（如用户增长、收入增长、市场份额增长）？
-- "动力阻力触点"框架中，三要素的权重关系、交互机制及量化方式未明确，如何确保转化场景分析的一致性？
-- 成败问题与效率问题的二分法是否穷尽了所有商业决策类型，是否存在既非成败也非效率的第三类问题（如风险规避、合规决策）？
-- A-B（成败问题）与C-D（效率问题）之间的逻辑关系是递进、并列还是存在反馈循环，模型是否提供了跨维度问题的整合机制？
-- 该模型的适用范围边界未界定：是否仅适用于互联网/科技行业，还是可扩展至传统制造业、服务业或非营利组织？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-key-hypotheses — 同域决策工具，关键假设 ABCD 模型是其在“场景分类+策略匹配”维度上的扩展
-- [[yt-entrepreneur-five-step-method]] — 一堂五步法，ABCD 模型中 A 场景的核心策略工具，二者在实际使用中通常结合运用
-- [[yt-decision-y-model]] — Y 模型决策框架，与 ABCD 模型形成"单点深钻 vs 场景分类"的互补关系
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创业项目路演机制：在验证期快速判断当前问题类型并匹配对应策略
-- 产品发布前检查：用 ABCD 分类确认危机是成败性还是效率性，避免混淆对应
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
-- 不要用于已经明确知道答案的执行决策，ABCD 模型的价值在于“分类假设”，而不是“快速执行”
-- 不要用于缺乏历史数据的全新场景（如衍生式 AI 应用），因为无从分类的新场景不适合套用现有策略模板
-- 不要在团队未就“什么是关键假设”达成共识之前使用，模型的输入质量直接决定了输出的价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- 当团队在讨论产品策略时“感觉有很多事情要做但不知道从哪里开始”时，用 ABCD 模型做假设分类和策略初筛
-- 当一个项目在 A（商业场景）和 C（增长场景）之间模糊不清时，用模型强制分类以确定使用哪套工具
-- 当策略讨论陷入“这个功能应该做吗？”的二元纠结时，用 B（决策场景）的 ROI 角度重新定义问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

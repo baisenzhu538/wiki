@@ -7,7 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
@@ -16,16 +16,16 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-logistics-cost-planning]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '[[case-strategy-walmart-vs-costco-pyramid]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[case-strategy-model-selection-quiz]]'
-  - '[[case-strategy-walmart-vs-costco-pyramid]]'
-  - '[[framework-strategy-blm]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[framework-strategy-mckinsey-7s]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 企业战略金字塔：公司、业务与职能协同

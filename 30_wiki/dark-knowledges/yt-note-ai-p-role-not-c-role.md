@@ -1,6 +1,6 @@
 ---
 domain:
-  - learning-methodology
+  - src_unknown
 
 
 id: yt-note-ai-p-role-not-c-role
@@ -18,11 +18,11 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-  - '[[yt-note-l4-internalization]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[truman-ai-partner-design-analysis]]'
-  - '[[yt-note-three-level-evolution]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 
@@ -72,10 +72,10 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI攻“
 
 ## Constraints & Boundaries
 
-- **适用**：希望用AI辅助笔记工作但保持思考主权的人
-- **不适用**：完全不了解笔记五步法的新人——他们可能需要C角色帮助理解基本框架，然后逐步迁移到P角色
-- **警惕**：P角色不是"不要对话"，而是"不要探讨"。AI可以问清楚需求（巨石级prompt），但不应该提出“你为什么不试试X？”这种推荐式问题
-- **边界**：P角色和C角色不是二元对立，而是一个**光谱**。一堂产品的设计是P为主、偶尔C为辅，但核心是P角色永远占主导
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 

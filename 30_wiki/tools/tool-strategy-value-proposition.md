@@ -3,15 +3,15 @@
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
 aliases:
-- 价值主张设计
-- 差异化定位
+- src_unknown
+- src_unknown
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- marketing
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_vlm_desc.md
@@ -22,21 +22,21 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-blue-ocean-canvas]]'
-  - '[[tool-strategy-fishbone]]'
-  - '[[case-strategy-retailer-activity-scope]]'
-  - '[[case-strategy-snack-business-design]]'
-  - '[[framework-strategy-blm]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[tool-strategy-blue-ocean-canvas]]'
-  - '[[tool-strategy-business-design-template]]'
-  - '[[tool-strategy-category-role-matrix]]'
-  - '[[tool-strategy-control-points]]'
-  - '[[tool-strategy-customer-selection]]'
-  - '[[tool-strategy-value-capture]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 价值主张设计工具：三问 + 六维排序法
@@ -91,9 +91,9 @@ related:
 1. 列出行业内 8-12 个关键竞争价值要素（产品、服务、价格相关）。
 2. 为每个要素给出现有主要竞品、自身现状、未来定位三个得分。
 3. 连接成线，识别：
-   - **未来发力点**：我们要大幅提升的要素
-   - **可削减点**：行业过度投入但客户感知弱的要素
-   - **差异化空白**：竞品忽视但客户重视的要素
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ```markdown
 | 价值要素 | 竞品A | 竞品B | 我们现状 | 未来定位 |

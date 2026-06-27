@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-weapon-partner-research]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-weapon-field-reconnaissance]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-social-engineering-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略7：匿名身份访谈
@@ -40,8 +40,8 @@ related:
 
 ## 关键提醒
 
-- 合法范围：不冒充公职人员、不伪造文件、不对弱势群体使用
-- 核心原则：情报价值 vs 道德妥协的自我权衡
+- src_unknown
+- src_unknown
 
 ---
 

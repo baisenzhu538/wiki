@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,29 +21,29 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.90
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[dk-modeling-counterexample-driven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#iceberg'
-- '#content-format/framework'
-- '#chunk-type/synthesis'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: 模型只描述水面上的事件，问题反复出现却治标不治本
+  - src_unknown
     framework_lens: iceberg-visible-vs-hidden
     follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？
-  - signal: 三角图被硬凑成三个好听词，去掉一角系统仍成立
+  - src_unknown
     framework_lens: triangle-oversimplification
     follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
-  - signal: 冰山层级过多或边界模糊，讨论在不同层次间跳来跳去
+  - src_unknown
     framework_lens: iceberg-level-confusion
     follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
 ---
@@ -75,11 +75,11 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 冰山图适用于“从现象深挖根本原因”的场景，如复盘、问题诊断、文化分析。——依据：`src_20260614_73352fa5` 武器库“洞察：三角图、冰山图、圈层图”。
-- **C2 [conf=0.85]**: 三角图适用于表达“三个核心要素相互支撑”的模型，如竞争力三角、增长三角、决策三角。——依据：`src_20260614_8269ccdb#1254-1256`。
-- **C3 [conf=0.85]**: 冰山图的常见结构：事件→行为→模式→结构→信念/本质，越往下越难改变但也越有价值。——推断：基于冰山图通用模型和 Truman 对深度复盘的描述。
-- **C4 [conf=0.8]**: 三角图的关键是三个要素之间要有真实关系，而不是硬凑三个词。——推断：基于 Truman 对“定义不清、丢三落四”的批评。
-- **C5 [conf=0.75]**: 冰山图和三角图都属于深度模型，需要较高判断力，不适合解决简单执行问题。——依据：`src_20260614_73352fa5` 深度模型分类。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -96,17 +96,17 @@ diagnostic_signals:
 #### 步骤 1：明确表象事件
 
 写下你看到的问题或现象。例如：
-- 直播状态不稳定
-- 销售额连续下滑
-- 团队沟通效率低
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 2：逐层下挖
 
 按冰山结构追问：
-- **行为层**：当事人做了什么？
-- **模式层**：这种行为是偶发还是反复出现？
-- **结构层**：什么机制/流程/激励在维持这个模式？
-- **信念/本质层**：当事人或组织相信什么？这个领域的核心变量是什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：找到杠杆点
 
@@ -117,23 +117,23 @@ diagnostic_signals:
 #### 步骤 1：找出三个核心要素
 
 问自己：
-- 这个系统的稳定由哪三个东西支撑？
-- 去掉哪一个，整个系统会垮？
-- 这三个东西之间是什么关系？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 2：定义每个角
 
 每个要素必须：
-- 可定义
-- 与其他两个有真实关系
-- 共同构成一个完整系统
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：表达关系
 
 三角图不只是三个词。要说明：
-- 谁支撑谁？
-- 谁限制谁？
-- 增强一个角会如何影响其他角？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -187,14 +187,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 判断问题类型：是“反复出现/原因不明”还是“明确后只需执行”？
-- [ ] 收集至少3个相关案例或数据点，避免空挖
-- [ ] 选择工具：冰山图（下挖因果）或三角图（表达三要素支撑）
-- [ ] 写下每一层/每一角的定义，并标注可观察的证据
-- [ ] 检查是否硬凑层级或要素（反例测试）
-- [ ] 找到最深或最脆弱的杠杆点
-- [ ] 将杠杆点转化为可验证的下一步行动
-- [ ] 与关键利益相关者对齐模型假设与行动计划
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,9 +202,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 冰山图容易陷入过度心理学化，把业务问题归因于“信念”
-- 三角图容易硬凑三要素，变成三个好听词的堆砌
-- 深度模型对使用者的判断力要求高，新手容易 misuse
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Chris Argyris — "冰山下的东西看不见，所以容易被滥用"
 
@@ -212,17 +212,17 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果冰山图少挖一层，结论会不同吗？如果会，说明某一层是关键的。
-- 如果三角图去掉一个角，模型还成立吗？如果不成立，说明这个角是真的核心要素。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-weapon-library]] —— 冰山图/三角图在深度模型中的定位
-- [[modeling-three-stages]] —— 主要用于抽象建模到本质建模阶段
-- [[dk-modeling-essence-predictive]] —— 深度模型必须与可预测的本质区分
-- [[dk-modeling-counterexample-driven]] —— 用反例验证深层结构是否成立
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -238,9 +238,9 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1254-1256、1947-1975`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58-66`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

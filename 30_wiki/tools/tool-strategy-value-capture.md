@@ -3,15 +3,15 @@
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 aliases:
-- 盈利模式设计
-- 价值捕获
+- src_unknown
+- src_unknown
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- business_model
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_vlm_desc.md
@@ -22,21 +22,21 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-business-design-template]]'
-  - '[[tool-strategy-customer-selection]]'
-  - '[[tool-strategy-category-role-matrix]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[case-strategy-m-brand-profit-model]]'
-  - '[[case-strategy-snack-export-opportunity]]'
-  - '[[case-strategy-snack-industry-chain]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[tool-strategy-activity-scope]]'
-  - '[[tool-strategy-business-design-template]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '（tool-strategy-logistics-cost-planning，待补）'
-  - '[[tool-strategy-platform-business-map]]'
-  - '[[tool-strategy-value-proposition]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 价值获取设计工具：8 问盈利模型
@@ -108,9 +108,9 @@ related:
 
 PPT `_117` 以 M 品牌为例，展示了代理加盟的连锁加盟模式：
 
-- **收入端**：加盟费 + 货品差价 + 管理费
-- **运营端**：总部负责品牌、设计、供应链；加盟商负责本地门店运营
-- **壁垒端**：品牌标准化、供应链规模、区域排他
+- src_unknown
+- src_unknown
+- src_unknown
 
 其他可组合模式：
 
@@ -185,20 +185,20 @@ def design_value_capture(value_proposition: str, target_customers: str):
 
 ## When NOT to Use
 
-- **价值主张还没验证时**：如果客户是谁、为他们解决什么问题都还没搞清楚，先不要做复杂的盈利模式设计。此时重点应该是验证价值主张，而不是优化变现。
-- **公司处于生存模式、现金流只够 3-6 个月时**：Rumelt 指出，战略需要"有选择余地"才能生效。当只有一条路可走时，与其做完整 8 问，不如用"生存三问"快速决策。
-- **只有一个产品、一个客户群、一个渠道时**：8 问的全面性会过度设计。先用简单的"收入-成本-利润"模型即可，等业务复杂了再升级。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 **内部局限**：
-- 8 问框架是 checklist 式工具，本身不保证答案质量。同一个问题，新手和高管的回答深度可能天差地别。
-- 框架假设企业已经有相对清晰的价值主张。如果价值主张本身模糊，8 问会变成形式主义填空。
-- 对早期创业公司，8 问的全面性可能造成"过度战略"，反而拖慢试错速度。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击者**：
-- **Steve Blank**（精益创业，《四步创业法》作者）："没有商业模式是经过计划出来的，都是迭代出来的。" 8 问的问题在于它让企业误以为盈利模式可以一次性设计好，而实际上多数盈利模式需要经过"假设-验证- pivot"循环。
-- **Rita McGrath**（《竞争优势的终结》作者）：在高度不确定的市场中，可持续竞争优势越来越稀缺。8 问强调的"经营壁垒"可能让企业过度投资于防御，而忽视了快速适应变化的能力。
+- src_unknown
+- src_unknown
 
 ---
 

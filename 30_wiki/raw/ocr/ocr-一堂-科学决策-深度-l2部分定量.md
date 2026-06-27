@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-l2部分定量"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_ad937c9c
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-深度-L2部分定量"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-深度-决策经验值]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-L2部分定量
@@ -38,29 +38,29 @@ png` 单元模型ROI深度：L2部分定量 A B X 定量 定钱 - 本文件由 P
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 单元模型ROI分析包含深度评估层级，L2层级要求部分定量分析
-- 科学决策框架区分"定量"与"定钱"两个维度，前者关注指标量化，后者关注资金测算
-- A/B/X 可能代表决策模型中的对比方案或变量组合，用于结构化评估选项
-- ROI分析采用分层递进方法：L2层级是定性向完全定量过渡的中间阶段
-- 部分定量意味着关键变量需数值化，但允许保留部分定性判断或估算区间
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该OCR输出极度碎片化，"A B X"与"定量 定钱"之间的逻辑关系是什么？是矩阵维度、评估步骤还是并列概念？
-- "L2部分定量"中的"L2"是课程层级（L2=Level 2）还是分析深度层级？与"L1""L3"的完整框架边界未明确
-- "定钱"是否为"定价"或"定金"的OCR误识？需人工校对确认原词
-- "单元模型ROI深度"中的"单元模型"指业务单元、分析单元还是课程单元？定义缺失
-- 若L2允许"部分定性判断或估算区间"，判定"部分定量"达标的具体阈值或标准是什么？
-- A/B/X三变量是互斥方案、组合要素还是敏感性分析参数？在ROI计算中的数学关系未说明
-- 从L2到完全定量的升级条件是什么？哪些变量必须从区间估计转为点估计？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -78,30 +78,30 @@ Page 论证多元视角的集合可以提升预测准确性，但需要每个视
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] - 深度梯子，L2 是其第二级走进阶
-- [[yt-decision-canvas]] - 同域决策画布
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 初创企业的快速数据验证
-- 产品原型的效率评估
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要在数据不完整时做过度精确的部分定量
-- 不要将部分定量当作终极答案
-- 不要在缺乏权重机制时假设各维度等权重
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在初创企业中需要快速验证假设时用L2部分定量
-- 従你发现部分定量结果与直觉矛盾时用Hogarth视角检查反馈环境
-- 従你在用部分定量时用Page视角检查权重分配是否合理
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

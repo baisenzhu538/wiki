@@ -3,7 +3,7 @@
 id: ocr-一堂-科学决策-深度-l4严格财务公式
 created_at: 2026-05-21
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260522_26271f58
 status: draft
@@ -11,18 +11,18 @@ title: 'OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不�
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.3
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-深度-l2部分定量]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）
 
@@ -40,30 +40,30 @@ png` 单元模型ROI深度：L4严格财务公式 (A+B+C+D）/(X+Y+Z 定量 定�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 单元模型ROI深度采用L4严格财务公式进行计算
-- L4严格财务公式结构为：(A+B+C+D)/(X+Y+Z)
-- 公式核心要求：定量、定钱（即必须量化且以货币计量）
-- 分子A+B+C+D代表收益/价值的各组成部分
-- 分母X+Y+Z代表成本/投入的各组成部分
-- L4层级表明这是最深度的ROI计算标准，要求严格的财务可归属性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 公式中的A/B/C/D和X/Y/Z具体对应哪些财务科目或业务指标？原图是否有定义或示例？
-- 分母"(X+Y+Z"存在明显OCR截断，Z之后是否还有其他成本项？分母是否完整闭合？
-- "定量 定钱"的具体执行标准是什么——是要求所有变量必须直接货币化，还是允许间接折算？
-- L4层级与其他层级（L1-L3）的区别标准未说明，"最深度"的判定依据是什么？
-- 分子分母各变量之间是否存在重复计算或互斥关系？例如A是否已包含(X+Y+Z)产生的部分收益？
-- 该公式是否要求现金流折现（DCF）处理，还是仅采用静态加总？
-- "单元模型"的边界如何界定——是单一产品、单一项目还是单一客户生命周期？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -81,30 +81,30 @@ Papert 论证真正的学习来自做中学。严格财务公式虽然给出了�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] - 深度梯子，L4 是其第四级走进阶
-- [[yt-decision-canvas]] - 同域决策画布
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 成熟业务的财务预测
-- 重大资产投资决策
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将严格财务公式当作所有决策的标准答案
-- 不要忽略软成本的重要性
-- 不要在团队没有深度理解变量含义时套用公式
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在做重大财务决策时用公式确保没有遗漏关键成本项
-- 従你发现公式结果与业务感知矛盾时用Orwell视角检查
-- 従你在教团队使用公式时用Papert视角确保他们理解变量含义而非机械套用
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

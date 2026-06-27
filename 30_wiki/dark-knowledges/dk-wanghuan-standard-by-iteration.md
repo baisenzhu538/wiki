@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,38 +21,38 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - human-ai-collaboration-double-triangle
-  - framework-wanghuan-actor-director-mode
-  - concept-wanghuan-adversarial-generation
-  - framework-wanghuan-bitcoe-prompt-framework
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown-double-triangle
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: "用户说'我不知道这件事的标准是什么'"
+- src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的
   follow_up_question: "让AI先生成一版，再让另一个AI调研最佳实践来评审，迭代7-8轮标准自然浮现。"
-- signal: "用户说'我对AI输出说不出哪里不对'"
+- src_unknown
   framework_lens: 标准来自迭代——用AI按最高标准挑毛病，把模糊直觉具象化
   follow_up_question: "请AI自己按最高标准找问题，它能帮你把'感觉不对'翻译成具体标准。"
-- signal: "用户新项目没人有经验，不知道怎么开始"
+- src_unknown
   framework_lens: 标准来自迭代——AI对抗AI，在迭代中建立标准
   follow_up_question: "用AI对抗AI的方法：生成初版→调研最佳实践→评审→修改→迭代到成熟。"
-- signal: "用户迭代没有终止条件，永远觉得还能更好"
+- src_unknown
   framework_lens: 标准来自迭代——设定终止条件
   follow_up_question: "设定'连续两轮无重大问题'终止条件，避免无限迭代。"
-- signal: "用户只用一个模型，评审和生成同模型"
+- src_unknown
   framework_lens: 标准来自迭代——用不同模型/视角做评审，避免互相附和
   follow_up_question: "评审者和生成者用不同模型了吗？同模型容易互相附和。"
 tags:
-- 王欢
-- 暗知识
-- 标准生成
-- 迭代
-- 对抗式生成
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：标准不清时，用AI对抗AI生成标准
 
@@ -86,9 +86,9 @@ tags:
 | 我不知道怎么验收 | 先定义完整 checklist | 在迭代中把“不满意”具象化为可检查的条目 |
 
 核心逻辑：
-- **人的标准一开始是模糊的**，但人对“这个不好”有直觉。
-- **AI 可以把模糊直觉具象化**：你让 AI 按高标准挑毛病，它会帮你把“感觉不对”翻译成具体标准。
-- **多轮迭代后，标准从隐性变成显性**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -110,9 +110,9 @@ tags:
 
 ### 3.2 关键心态
 
-- **默认初版不合格**：这样你才不会有心理负担去挑毛病。
-- **用“全球最佳实践”作为临时标准**：即使你不了解这个领域，AI 可以帮你快速建立基准。
-- **不要跟 AI 争论**：人的工作是描述问题和验收，不是替 AI 想答案。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3.3 示例：做一本没做过的书
 
@@ -149,10 +149,10 @@ tags:
 
 ## 六、与其他卡片的关系
 
-- `[[concept-wanghuan-adversarial-generation]]`：本方法的底层概念。
-- `[[framework-wanghuan-actor-director-mode]]`：导演的核心能力就是定义问题和验收，即使标准一开始不清晰。
-- `[[framework-wanghuan-bitcoe-prompt-framework]]`：迭代中逐渐把 E（Example）和 C（Constraint）写清楚。
-- `[[framework-wanghuan-ooda-loop]]`：每一轮迭代就是一个 OODA 循环。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

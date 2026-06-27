@@ -8,8 +8,8 @@ confidence: 0.80
 trust_level: high
 language: zh-CN
 domain:
-- research
-- decision-science
+- src_unknown
+- src_unknown
 source_person: 王语嫣
 source_context: research 域 40 张 case 卡跨案例合成，洞察 3
 source_refs:
@@ -21,24 +21,24 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
-  - '[[skill-research-behavior-over-asking]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[skill-research-triangulation-stop-rule]]'
-  - '[[concept-yitang-research-objective]]'
-  - "[[dk-research-decision-first-mapping]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[yt-lean-assumption-verification-3means]]"
-  - "[[framework-yitang-high-level-execution]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "研究做了很久，但决策还是没变"
+  - src_unknown
     framework_lens: 决策优先映射
     follow_up_question: "你当前的研究动作对应哪个具体决策？如果结果不支持，会停止还是转向？"
-  - signal: "团队把'看了很多报告'当作进展"
+  - src_unknown
     framework_lens: 研究动作 → 决策对齐
     follow_up_question: "这些结果排除了哪个错误选项？对哪个决策增加了多少信心？"
-  - signal: "关键假设未经测试就开始谈规模化"
+  - src_unknown
     framework_lens: 前置假设验证
     follow_up_question: "你的决策依赖哪 2-3 个前置假设？每个假设的不通过标准是什么？"
 ---
@@ -51,10 +51,10 @@ diagnostic_signals:
 
 ## 何时使用
 
-- 创业/产品验证：是否投入开发、开店、进入新市场
-- 投资决策：是否下注某个项目或赛道
-- 职业选择：是否跳槽/转行
-- 任何「信息不完备但必须决策」的场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -87,11 +87,11 @@ diagnostic_signals:
 
 ## 快速检查单
 
-- [ ] 我已明确列出哪些信息会改变决策
-- [ ] 我已为每条信息设定最低可接受置信度
-- [ ] 每个研究动作都能对应到一个具体决策
-- [ ] 我为每个前置假设写下了不通过标准
-- [ ] 团队 culture 容忍证伪（否则映射表会失效）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -108,24 +108,24 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用**：决策可拆分、验证成本可控、组织容忍证伪、信息充分度 ≥ 中
-- **不适用**：决策完全不可拆分、验证代价接近错误本身、团队要求研究必须支撑原定结论
+- src_unknown
+- src_unknown
 
 ---
 
 ## 行动触发器
 
-- 当要开始一项调研时 → 先填 3 行映射表
-- 当研究预算快用完时 → 检查是否已对某个决策产生可量化影响
-- 当团队争论「还要不要做更多研究」时 → 回到映射表看是否还有未验证的关键假设
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联卡片
 
-- `[[dk-research-decision-first-mapping]]`：暗知识卡，含更多案例
-- `[[concept-一堂-hypothesis-driven-business-methodology]]`：假设驱动业务方法论
-- `[[yt-lean-assumption-verification-3means]]`：三种验证手段
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

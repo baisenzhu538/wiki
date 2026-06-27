@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-moat-assessment
 title: 护城河评估工具
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-building
-  - yt-business-model-competitive-moat
-  - yt-barrier-defensive-strategy
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们不知道自己的护城河有多强'"
+  - src_unknown
     framework_lens: 护城河评估工具——需要系统评估护城河强度
     follow_up_question: "你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？"
-  - signal: "用户说'我们的护城河被竞品突破了'"
+  - src_unknown
     framework_lens: 护城河评估工具——护城河被突破需要评估原因和修复
     follow_up_question: "哪个护城河被突破？突破的原因是什么？如何修复或建立新护城河？"
-  - signal: "用户说'我们想投资某个公司，但不知道它的护城河'"
+  - src_unknown
     framework_lens: 护城河评估工具——投资需要评估目标公司的护城河
     follow_up_question: "目标公司的护城河是什么？强度如何？持续时间多长？"
-  - signal: "用户说'我们的护城河很多，但不知道哪个最重要'"
+  - src_unknown
     framework_lens: 护城河评估工具——需要优先级排序
     follow_up_question: "你的护城河按强度和重要性排序是什么？哪个是核心护城河？"
-  - signal: "用户说'我们的护城河在减弱，但不知道多严重'"
+  - src_unknown
     framework_lens: 护城河评估工具——需要定期评估护城河变化
     follow_up_question: "你的护城河减弱的速度和原因是什么？是否需要紧急修复？"
 
@@ -127,21 +127,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估公司时 → 评估护城河
-- 当护城河被突破时 → 修复或替代
-- 当投资时 → 评估目标护城河
-- 当规划时 → 建设护城河
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-business-model-competitive-moat`：商业模式护城河
-- `yt-barrier-defensive-strategy`：防御策略
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 护城河评估研究
-- 投资评估实践
+- src_unknown
+- src_unknown
+- src_unknown

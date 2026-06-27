@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "融资认知"
-  - "创业融资"
-  - "融资时机"
-  - "估值逻辑"
-  - "Term Sheet"
-  - "投资人沟通"
-  - "BP怎么写"
-  - "融资节奏"
-  - "融资是放大器"
-  - "融资执行"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
@@ -37,18 +37,18 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户认为融资越多越成功', 'framework_lens': '融资是放大器不是成功指标', 'follow_up_question': '如果不融资，你的商业模式能独立跑通吗？如果不能，融资只是续命'}
   - {'signal': '用户没有PMF就着急融资', 'framework_lens': '时机错配——融资加速验证过的东西', 'follow_up_question': '你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 融资认知
 
@@ -68,9 +68,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「增长阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -89,7 +89,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

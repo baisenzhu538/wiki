@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-revenue-types
-  - yt-business-model-subscription
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户免费用户多，但付费转化率低"
+  - src_unknown
     framework_lens: 免费增值模式——需要设计付费转化路径
     follow_up_question: "你的免费用户中，付费转化率是多少？转化路径设计了吗？"
-  - signal: "用户免费功能太多，用户没有付费动力"
+  - src_unknown
     framework_lens: 免费增值模式——免费功能需要克制
     follow_up_question: "你的免费功能是否足够让用户感知价值，但又不足以满足全部需求？"
-  - signal: "用户说'我们先免费获客，以后想办法变现'"
+  - src_unknown
     framework_lens: 免费增值模式——免费获客需要明确的变现路径
     follow_up_question: "你的免费获客后，变现路径是什么？付费转化策略设计了吗？"
-  - signal: "用户付费功能设计不合理，用户觉得不值"
+  - src_unknown
     framework_lens: 免费增值模式——付费功能需要明确价值
     follow_up_question: "你的付费功能是否解决了用户的痛点？用户是否愿意为这些功能付费？"
-  - signal: "用户免费用户增长快，但服务器成本高"
+  - src_unknown
     framework_lens: 免费增值模式——免费用户也有成本
     follow_up_question: "你的免费用户成本是多少？是否被付费用户覆盖？"
 
@@ -133,22 +133,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当获客成本高时 → 考虑免费增值
-- 当设计免费版时 → 平衡获客和变现
-- 当付费转化率低时 → 优化转化路径
-- 当免费用户成本高时 → 优化免费用户成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-revenue-types`：收入模式
-- `yt-business-model-subscription`：订阅制
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 免费增值模式研究
-- SaaS获客策略
+- src_unknown
+- src_unknown
+- src_unknown

@@ -3,21 +3,21 @@ id: tool-城市合伙人模式复制能力
 title: 技能：城市合伙人模式复制能力
 type: tool
 domain:
-- entrepreneurship- management
-- design
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
 - src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 标准化能力模块
-- 城市合伙人合作协议
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:07:29+00:00'
 updated_at: '2026-06-16'
 author: unknown
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-用旗舰店替代纯招商投入]]'
-- '[[tool-快招品牌总部模拟调研]]'
-- '[[tool-敏捷发布快速迭代搭建体系]]'
-- '[[tool-创始人二当家分工协作模式]]'
-- '[[tool-通过请吃饭获取行业内部资料]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：城市合伙人模式复制能力
 
@@ -43,25 +43,25 @@ related:
 4. 向区域输出能力和模式
 
 ## 适用场景
-- ✅ 需要低成本快速扩张时
-- ✅ 区域市场差异大需本地化运营时
-- ❌ 需要强管控的统一品牌时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 以轻资产方式杠杆外部资源，避免重投入建全国直营团队
 
 ## 工具/环境
-- 标准化能力模块
-- 城市合伙人合作协议
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 案例讲述者，src_20260609_4ea1fba2，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

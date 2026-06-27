@@ -4,33 +4,33 @@
 
 id: yt-personal-pan-product-02
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 无限进步与持续打磨
-- 泛产品设计
-- 泛产品设计落地篇
-- 泛产品设计落地篇：无限进步与持续打磨
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown落地篇
+- src_unknown落地篇：无限进步与持续打磨
 related:
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践池子]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[ocr-truman的选择两条职业成长路线]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-personal-pan-product-practice]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_e4b635ac-ocr-泛产品设计落地篇
@@ -44,15 +44,15 @@ yitang:
   course_type: required
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 把产品迭代看作从60分到85分再到90分的持续过程，而不是一次交付
+- src_unknown
   framework_lens: 无限进步 = 持续打磨
   follow_up_question: 你这个月的产品/作品比上个月好在哪？
-- signal: 每次迭代都有明确的反馈来源和改进标准
+- src_unknown
   framework_lens: 打磨需要方向
   follow_up_question: 这一轮的改动是基于用户反馈、数据还是自我审美判断？
-- signal: 能以长期心态（如10年）看待能力提升，而不是追求速成
+- src_unknown
   framework_lens: 真本事需要时间复利
   follow_up_question: 如果这件事要做10年，你现在的节奏是否可持续？
 updated_at: '2026-06-16'
@@ -75,20 +75,20 @@ trust_level: medium
 ### 失败模式
 
 1. **追求完美第一版，迟迟不发布**
-   - **原因**：把打磨当拖延
-   - **修复**：设定‘60分发布线’，先上线再迭代
+   - src_unknown
+   - src_unknown
 
 2. **发布后就不管，没有后续迭代计划**
-   - **原因**：一次交付心态
-   - **修复**：上线时同步制定下一轮优化清单和时间表
+   - src_unknown
+   - src_unknown
 
 3. **只和自己比，忽视用户或市场的真实反馈**
-   - **原因**：自嗨式打磨
-   - **修复**：每次迭代至少纳入一个外部反馈来源
+   - src_unknown
+   - src_unknown
 
 4. **没有审美和标准，迭代方向混乱**
-   - **原因**：标准缺失
-   - **修复**：先建立评价维度，再按维度逐项打磨
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -127,9 +127,9 @@ trust_level: medium
 
 ### 打磨的心理建设
 
-- **粗糙 → 入门 → 进阶 → 美好**：四个阶段，不能跳过
-- **凑合 → 提升 → 专业 → 作品**：每个阶段有对应的标准和心态
-- Truman 反复强调：最难的不是没有工具，而是**不愿意花时间打磨**——大部分人做到60分就停了
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -175,19 +175,19 @@ trust_level: medium
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱19张牌（yitang 域）
-- [[yt-personal-pan-product-practice]] — 需求篇（yitang 域）
-- [[yt-personal-pan-product-aesthetics]] — 审美篇（yitang 域）
-- [[yt-model-y-organization]] — Y模型（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：落地篇的核心理念"无限进步"是武器库中最反直觉的武器——不是因为它最锋利，是因为它逼你承认：多数时候你的问题不是"没有好工具"，是"不愿在同一把工具上花足够多的时间"。Pirsig 补充：每一刀都在追求"更好"——你可能永远砍不出"对"的那一刀
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Truman 的"从粗糙到美好"叙事弧线本身是讲香十指中"故事指"的范本。但 Newport 警告：香讲得太美——听众爱上的是你描述的"美好作品"，不是每天打磨的枯燥过程
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

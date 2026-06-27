@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "机会选择"
-  - "创业机会评估"
-  - "机会评估矩阵"
-  - "创业方向筛选"
-  - "市场机会判断"
-  - "伪机会排除"
-  - "时机窗口判断"
-  - "创业赛道选择"
-  - "竞争强度分析"
-  - "市场大小评估"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,19 +38,19 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户凭感觉选机会，不做系统评估', 'framework_lens': '缺乏评估框架', 'follow_up_question': '你用什么标准在比较这些机会？如果没有明确标准，选择是情绪化的'}
   - {'signal': '用户只看市场大小，不看自己和时机', 'framework_lens': '评估维度单一', 'follow_up_question': '这个市场大，但你的能力匹配吗？现在进入时机对吗？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-barriers]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-business-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 机会选择
 
@@ -70,9 +70,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -91,7 +91,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Synthesis
 

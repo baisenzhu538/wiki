@@ -4,17 +4,17 @@
 title: Kimi（月之暗面）
 type: entity
 domain:
-- kdo
-- product
-- ai-saas
-- design
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: reviewed
 entity_type: company
 aliases:
-- Kimi
-- 月之暗面
-- Moonshot AI
-- Kimi Chat
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown Chat
 url: https://kimi.moonshot.cn
 location: Beijing, China
 founded_at: 2023-04-01
@@ -22,13 +22,13 @@ id: Kimi-月之暗面
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
-  - '[[kdo-input-channel-strategy-2026-06-16]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-  - '[[tool-agent-research-swarm]]'
-  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-  - '[[graph-rag]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 trust_level: medium
 reviewed_by: 黄药师
@@ -50,10 +50,10 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 Kimi的Deep Research功能实现了多智能体集群调研：
 
-- **四路自适应路由**：根据任务特征自动分类（广域搜索/聚焦搜索/纯文件研究/文件增强研究）
-- **两阶段集群架构**：Phase 1广域探索（≥5 Agent）→ Phase 3并行深度挖掘（≥10 Agent）
-- **认知三角测量**：多Agent并行调研+交叉验证确保结论可靠性
-- **搜索预算梯度**：Route A ≥250次 / Route B ≥200次 / Route D ≥150次
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与KDO的关联
 
@@ -61,7 +61,7 @@ Kimi Deep Research的多维度研究+交叉验证方法论是KDO调研能力设�
 
 ## 关键事实
 
-- 2024年以30亿美元估值完成融资，创中国AI创业公司估值纪录
-- 200万token上下文窗口在中文AI市场保持领先
-- Deep Research功能代表了"Agent集群+认知三角测量"的前沿实践
-- API定价模型下，一次完整Route A调研费用可达数十至上百元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

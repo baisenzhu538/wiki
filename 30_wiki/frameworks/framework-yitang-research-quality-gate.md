@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - 30_wiki/domains/yitang-research-domain-digest.md
   - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
@@ -17,16 +17,16 @@ updated_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[concept-harness-scoring-anchors]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[yitang-research-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "Agent完成调研后，不确定质量是否达标"
+  - src_unknown
     framework_lens: 六维门禁——逐项自检
     follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
-  - signal: "调研报告被驳回，但不知道为什么"
+  - src_unknown
     framework_lens: 对照六维找缺口
     follow_up_question: 驳回理由对应六维中的哪一维？
 ---
@@ -156,9 +156,9 @@ diagnostic_signals:
 ## 外部参考
 
 本框架设计参考了以下外部质量体系：
-- Google SRE 评审框架（多维度独立评审 + 不通过不回滚）
-- ISO 9001:2015 知识管理标准（可追溯性要求）
-- Harness Engineering 评分体系（1-5 锚定 + 取较低值）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

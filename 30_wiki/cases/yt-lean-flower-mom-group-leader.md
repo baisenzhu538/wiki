@@ -6,18 +6,18 @@ title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/case'
-- '#topic/lean-validation'
-- '#topic/mvp'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -26,25 +26,25 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[yt-lean-beauty-store-conversion]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 把"主理人妈妈"既当C端消费者又当小B分销者混为一谈，只测总订单量。
+- src_unknown
   framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
   follow_up_question: 我能否把"自购用户"与"分销团长"拆成两张用户画像，分别列出她们的用户/场景/问题？
-- signal: 第一轮就铺量招募团长、搭建供应链，却没人愿意开团。
+- src_unknown
   framework_lens: 跳过了"意愿"这个前置假设，直接用重资产测试"商业模式"，属于过早固化。
   follow_up_question: 在没租仓库、没做小程序之前，能否先用3-5个种子妈妈人工跑一轮分销，验证她们是否真愿意帮人买花？
-- signal: 团长早期热情高，但两周后不再发团，却归咎于激励不够。
+- src_unknown
   framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
   follow_up_question: 除了佣金，团长持续开团还需要哪些支撑（素材、社群互动、损耗兜底）？哪些可通过低成本的定性访谈先排除？
 
@@ -82,8 +82,8 @@ diagnostic_signals:
 
 项目被描述为"To C 又 To 小 B"，团长本身就是小 B 角色。必须分别拆解：
 
-- **C 端角色**：买花的妈妈——她的用户、场景、问题是什么？为什么需要在这买花？
-- **小 B 角色**：做团长的妈妈——她的分销动机、能力、持续意愿是什么？
+- src_unknown
+- src_unknown
 
 > "有可能我不爱花，但我想作为一个团长就去做这件事；也可能很多宝妈正是因为要做这件事才喜欢这件事。"（`src_20260616_7dc80216`）
 
@@ -101,8 +101,8 @@ diagnostic_signals:
 
 张磊给出两条判断线索：
 
-- **如果赛道已有竞品且服务很好**：自己的产品没有优势，大概率需求没问题，是产品或方案设计有问题。
-- **如果赛道没有竞品**：说明需求可能非常早期，验证难度高，应放到产品内核和单元模型中进一步验证。
+- src_unknown
+- src_unknown
 
 > "早期很容易迷糊，到底是用户选择有问题，还是产品本身有问题？直接验证很难，但可以通过竞品存在与否做初步判断。"（`src_20260616_6c8b240b`）
 
@@ -110,9 +110,9 @@ diagnostic_signals:
 
 生活鲜花不是刚需高频品，测试节奏要更慢、更依赖定性：
 
-- 先验证"审美与品类是否被接受"，再验证"愿不愿意反复买/开团"；
-- 不要一上来就追求大样本和统计显著，早期通过小样本深度访谈和行为观察拿到方向感；
-- 每一轮只做"当前最可能失败"的那个假设的验证，把大目标拆成可证伪的小里程碑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Common Failure Modes
 

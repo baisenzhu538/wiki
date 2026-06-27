@@ -4,26 +4,26 @@
 title: 一号位
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 创始人忙到没时间思考
+- src_unknown
   framework_lens: 超级员工论
   follow_up_question: 你每周不被打断的思考时间占比多少？如果<10%，你在当超级员工
-- signal: 创始人把战略外包给投资人
+- src_unknown
   framework_lens: 甩手掌柜论
   follow_up_question: 公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了
-- signal: 创始人频繁越级指挥一线，把"不可替代"当成存在感
+- src_unknown
   framework_lens: 错位论
   follow_up_question: 过去7天你直接指挥过非直属下属吗？那些事属于你的四项不可委托职责吗？如果不是，48小时内指定负责人并退出群聊
-- signal: 创始人每周救火时间占比持续上升，同类危机反复出现
+- src_unknown
   framework_lens: 首席救火官论
   follow_up_question: 过去30天，同一类危机重复出现了几次？每次救火后是否留下了SOP或授权调整？
-- signal: 创始人抱怨"找不到能授权的人"，却从未系统投入招聘和培养
+- src_unknown
   framework_lens: 人才囤积症
   follow_up_question: 本周你花了多少小时在招募和1on1上？如果关键岗位明天空缺，有谁能接？
 updated_at: '2026-06-17'
@@ -36,17 +36,17 @@ trust_level: medium-high
 source_refs:
   - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 related:
-  - '[[yt-management-company-culture]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - "yt-management-leadership-levels"
-  - "yt-management-company-culture"
-  - "yt-management-strategy-meeting"
-  - "yt-management-partnership-equity"
-  - "yt-management-goal-management"
-  - "yt-concept-weapon-arsenal"
-  - "yt-model-personal-pitch-toolkit"
-  - "yt-management-basic-skills"
-  - "case-truman-yitang-foresight"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 一号位
@@ -75,9 +75,9 @@ related:
 
 创始人最常见的死法不是战略判断错误，而是**角色错位**：
 
-- 把自己活成"超级员工"，组织所有难事都向上收敛，团队判断力系统性退化；
-- 把自己活成"甩手掌柜"，把方向、文化、人才、危机这些不可委托的职责外包出去；
-- 把自己活成"首席救火官"，长期忙于救火，没时间建体系，越救越忙、越忙越救。
+- src_unknown
+- src_unknown
+- src_unknown
 
 角色边界一旦模糊，公司就从"靠体系运转"退化为"靠创始人续航"。一号位框架的价值在于：帮创始人区分"必须亲自盯的事"和"应该授权的事"，避免"忙得不可开交却离本质越来越远"。
 
@@ -93,10 +93,10 @@ related:
 ### 一号位的本质重新理解
 
 常见误区：
-- **超级员工论**："我是公司最勤奋的那个人" —— 创始人忙到没有时间思考，是组织最大的风险
-- **甩手掌柜论**："找了职业经理人我就解放了" —— 有些责任可以委托过程但不能委托结果
-- **首席救火官论**："哪里起火我去哪里" —— 长期救火会陷入"越救越忙、越忙越救"的死循环
-- **错位存在论**："我不亲自插手，团队就不重视" —— 用越级指挥获取存在感，恰恰说明边界没划清
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一号位的定义**：一号位不是最高权力者，而是**最终责任承担者**——当所有决策链条走到尽头，"最后拍这一下板"的人。
 
@@ -175,9 +175,9 @@ related:
 | 8 | 我能列出下周要授权的 3 件具体事项及接手人 | ☐ | ☐ | ☐ |
 
 **修复动作模板**：
-- 若 1/2 项红灯：重新规划下周日历，把思考时间和人才时间写为不可移动块。
-- 若 3/4 项红灯：召开一次"一号位角色校准会"，与核心团队公开讨论"哪些事我今后不再直接管"。
-- 若 ≥5 项红灯：启动"30 天角色复位计划"，每天记录时间分配，每周与一位外部教练/顾问复盘。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -226,15 +226,15 @@ related:
 
 ## 相关卡/互链
 
-- [[yt-management-leadership-levels]] — 管理者五段位：一号位的成长阶梯与五段位模型互补——段位定义管理深度，一号位定义管理广度
-- [[yt-management-company-culture]] — 公司文化：文化构建是一号位不可委托的首要职责
-- [[yt-management-strategy-meeting]] — 战略会：战略会是一号位行使方向决策权的核心机制
-- [[yt-management-partnership-equity]] — 合伙股权：联合创始人的角色分工和股权分配是一号位的重要决策
-- [[yt-management-goal-management]] — 目标管理：一号位的方向决策需要通过 OKR 传达到全组织
-- [[yt-management-basic-skills]] — 管理基本功认知：一号位不是天赋，而是可训练的管理基本功在最高层级的综合体现
-- [[case-truman-yitang-foresight]] — Truman 一堂预判案例：创始人如何在方向决策上从市场扫描走到 Plan ABC，是一号位"定方向"职责的实战参照
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：一号位的"不可委托职责"是其随身武器库中最核心的武器——不是要多，而是要精。四件武器（方向/文化/人才/危机）用对就足够
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：一号位最重要的日常动作不是"做决策"而是"讲方向"——向团队讲清楚"我们为什么选择这条路"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -257,6 +257,6 @@ related:
 
 ### 跨学科锚点
 
-- 一号位的"不可委托"概念与彼得·德鲁克《卓有成效的管理者》中"CEO 独有工作"（the CEO's unique work）一脉相承——有些决策只有处于那个位置的人才能做出，不是因为能力，而是因为信息结构和责任结构。
-- Ben Horowitz《创业维艰》中的"和平时期 CEO vs 战争时期 CEO"框架对理解一号位在不同阶段的行为切换有参考价值。
-- Jim Collins《从优秀到卓越》中的"第五级经理人"概念——将谦逊的个人品质与强烈的专业意志结合——为理解一号位的理想状态提供了参照。
+- src_unknown
+- src_unknown
+- src_unknown

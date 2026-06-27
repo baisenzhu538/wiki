@@ -6,44 +6,44 @@ title: 技能：系统冗余度快速检查清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
 wiki_refs:
-- '[[sk-ai-purpose-bias-check]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 文档编辑工具（Notion / Word / 飞书文档等）
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
+- src_unknown
 prerequisite_skills: []
 related:
-  - '[[tool-ai-narrative-test]]'
-  - '[[tool-ai-prd-for-ai]]'
-  - '[[tool-ai-purpose-bias-check]]'
-  - '[[sk-ai-old-small-checklist]]'
-  - '[[tool-ai-system-redundancy]]'
-  - '[[sk-ai-purpose-bias-check]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 检查时被当作"增加成本"而非"降低崩溃风险"的保险
-- 只检查一次后束之高阁，没有定期复盘机制
+- src_unknown
+- src_unknown
 
 ---
 # 技能：系统冗余度快速检查清单
@@ -76,9 +76,9 @@ diagnostic_signals:
 
 ## 边界
 
-- **适用**：方案/系统设计、职业规划、团队管理、产品容错机制设计。
-- **不适用**：追求最优效率且无法承担任何冗余成本的场景；已经高度标准化、低风险的重复流程。
-- **注意**：冗余是降低崩溃概率，不是消除所有风险；过度冗余会导致成本失控。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式 table
 
@@ -91,23 +91,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确要检查的系统/方案边界
-- [ ] 逐项走完六项冗余检查
-- [ ] 标记"无冗余"项并评估风险等级
-- [ ] 优先处理"单点故障"和"人员依赖"
-- [ ] 为每项缺失制定 30 天内可执行的补强动作
-- [ ] 把清单和结果同步给相关团队成员
-- [ ] 设置下一次复盘时间（建议每月）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[sk-ai-purpose-bias-check]]：在定义系统目标时检查是否存在目的偏误
-- [[tool-checklist-cheatsheet-modeling]]：把检查清单沉淀为可复用的 cheatsheet
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

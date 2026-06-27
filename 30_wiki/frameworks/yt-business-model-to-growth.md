@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-unit-economics
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
-  - yt-growth-strategy-overview
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户商业模式成立，但增长停滞"
+  - src_unknown
     framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
     follow_up_question: "你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？"
-  - signal: "用户说'我们先验证商业模式，再考虑增长'"
+  - src_unknown
     framework_lens: 从商业模式到增长——验证和增长可以并行
     follow_up_question: "验证商业模式的同时，是否可以小规模测试增长策略？"
-  - signal: "用户增长快，但商业模式不健康"
+  - src_unknown
     framework_lens: 从商业模式到增长——增长需要健康的商业模式支撑
     follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - signal: "用户说'增长就是烧钱'"
+  - src_unknown
     framework_lens: 从商业模式到增长——增长不是烧钱，而是优化单元模型
     follow_up_question: "你的增长是否优化了单元模型？LTV/CAC是否提升？"
-  - signal: "用户增长和商业模式脱节"
+  - src_unknown
     framework_lens: 从商业模式到增长——增长策略必须服务商业模式
     follow_up_question: "你的增长策略是否强化了商业模式？还是削弱了？"
 
@@ -111,9 +111,9 @@ diagnostic_signals:
 ```
 
 增长飞轮的核心：
-- 每次循环，单元模型更健康
-- LTV/CAC持续提升
-- 增长效率持续提升
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 增长的边界
 
@@ -146,22 +146,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当商业模式成立时 → 设计增长策略
-- 当增长时 → 优化单元模型
-- 当增长停滞时 → 检查商业模式是否支撑
-- 当增长过快时 → 检查能力边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
-- `yt-growth-strategy-overview`：增长策略总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 一堂增长策略课
-- 增长黑客（Sean Ellis）
+- src_unknown
+- src_unknown
+- src_unknown

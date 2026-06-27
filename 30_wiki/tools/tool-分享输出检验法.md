@@ -4,29 +4,29 @@ title: 技能：分享输出检验法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程（费曼学习法延伸）
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-辩证讨论法]]'
-- '[[tool-立即实践转化法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-辩证讨论法]]'
-- '[[tool-立即实践转化法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-从案例中学习正反案例法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 写作平台
-- 短视频工具
-- 演讲场合
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 转发文章+学习了，没有自己的判断和提炼
+- src_unknown
   lens: 伪分享
   follow_up: 分享必须包含'我学会了什么+我为什么认同/不认同'，没有判断的转发不是输出
-- signal: 拼命用术语证明自己懂，但新手看不懂
+- src_unknown
   lens: 只写给高手看
   follow_up: 真正理解的表现是'能用简单的话让外行听懂'，密集术语是理解不深的遮羞布
-- signal: 觉得还不够好再改一版，永远不发
+- src_unknown
   lens: 等完美再发
   follow_up: 输出的目的是检验理解不是发表论文，先完成再完美，分享后根据反馈迭代
-- signal: 发出去后只看点赞不看质疑，分享变成了表演
+- src_unknown
   lens: 只听夸不听批
   follow_up: 分享后必须有意识地收集质疑：'有没有哪个点你觉得不对？'，质疑才是学习的机会
-- signal: 分享完就走，只关心播放量不关心有没有被理解
+- src_unknown
   lens: 无反馈回收
   follow_up: 分享的价值在改变他人的行为或判断，不是数字。必须回收反馈并迭代
 ---
@@ -90,9 +90,9 @@ diagnostic_signals:
 | **受众错配** | 给新手讲高级概念，或给专家讲基础常识 | 分享前明确受众水平，调整信息密度和术语使用 |
 
 ## 工具/环境
-- 写作平台
-- 短视频工具
-- 演讲场合
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -111,15 +111,15 @@ diagnostic_signals:
 3. 这个分享有没有改变任何一个人的行为或判断？——改变才是效果的硬指标。
 
 ## 常见失败模式
-- 伪分享：转发文章+"学习了"，没有自己的判断和提炼，不是真正的输出
-- 只写给高手看：拼命用术语证明自己懂，但新手看不懂——真正理解的表现是"能用简单的话让外行听懂"
-- 等完美再发：觉得还不够好、再改一版，永远不发——输出的目的是检验理解，不是发表论文
-- 只听夸不听批：发出去后只看点赞不看质疑，分享变成了表演而非学习
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-费曼简单提炼法]] — 费曼法提供"三句话讲清楚"的输出标准
-- [[tool-辩证讨论法]] — 分享后需要讨论来深化，单向输出是检验的开始不是结束
-- [[tool-立即实践转化法]] — 分享暴露的盲区，用立即实践来补
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L4.分享他人：分享给团队/写文章/拍短视频

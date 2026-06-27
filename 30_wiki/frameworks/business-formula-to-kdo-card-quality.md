@@ -12,39 +12,39 @@ source_refs:
 status: enriched
 confidence: 0.8
 domain:
-  - yitang- kdo
-  - yitang
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-15'
 author: 黄药师
 reviewed_by: 老顽童
 review_date: '2026-06-17'
 trust_level: high
 related:
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[model-quality-four-levels]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[modeling-three-stages]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[concept-mckinsey-mece]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/evaluation-method'
-- '#kdo'
-- '#method/thinking-tool'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我写了一张卡但不知道缺什么
+- src_unknown
   framework_lens: ABC三要素诊断
   follow_up_question: 你的A（要回答的决策问题）定义清楚了吗？B（核心主张）能量化吗？C（逻辑关系）是因果还是相关？
-- signal: 我的卡看起来完整但用不起来
+- src_unknown
   framework_lens: L1-L6逻辑层级诊断
   follow_up_question: 你的卡在哪一层——模糊(L1)、相关(L2)、因果(L3)、公式(L4)、定量(L5)、还是动态(L6)？
-- signal: 我的卡被3+张其他卡引用，但越引用越心虚
+- src_unknown
   framework_lens: 放量健康度诊断
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
@@ -192,9 +192,9 @@ C. 逻辑关系（Synthesis + Constraints）
 ```
 
 **示例**：对 `yt-business-formula-abc-model` 的诊断
-- **A**：帮读者判断"业务公式拆解是否到位"
-- **B**：claim "GMV = 线索 × 转化 × 客单价 × 复购" 过于粗糙；需补充行业基准转化率 3-4%
-- **C**：与 `yt-business-formula-parameter-iceberg` 是递进关系；与 `case-toc-ecommerce-formula-misjudgment` 是反例关系
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -212,12 +212,12 @@ C. 逻辑关系（Synthesis + Constraints）
 
 ## 单卡收尾检查
 
-- [x] status：`enriched`
-- [x] reviewed_by：`老顽童`
-- [x] updated_at：`2026-06-17`
-- [x] diagnostic_signals：3 条（≥3）
-- [x] Constraints & Boundaries：5 条适用边界（≥4）
-- [x] Common Failure Modes：5 条，含真实症状 + 可执行修复（≥4）
-- [x] 新增案例/模板：`KDO 卡片 ABC 诊断报告`模板 + `yt-business-formula-abc-model` 诊断示例
-- [x] 新增互链：`[[yt-research-osl-framework]]`、`[[concept-mckinsey-mece]]`（共 2 条新互链）
-- [x] 质量门禁：单卡无新增 P0/P1
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -6,47 +6,47 @@ title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的�
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
 source_refs:
   - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
-  - '[[yt-note-l6-extraction]]'
-  - '[[yt-note-problem-solving-capability]]'
-  - '[[yt-note-ai-p-role-not-c-role]]'
-  - '[[yt-skill-checklist-as-ai-protocol]]'
-  - '[[yt-note-three-level-evolution]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[yt-note-problem-solving-capability]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 清单体L4
-- 内化阶段
-- 问题驱动笔记
-- 笔记怎么想清楚
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-10
 updated_at: '2026-06-18'
 estimated_tokens: 2800
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 每篇笔记开头是一个真实问题，而不是'今天学了X'的标题
+- src_unknown
   framework_lens: 问题驱动 vs 内容驱动
   follow_up_question: 如果这个问题不存在，这篇笔记还有必要写吗？
-- signal: 写完后能合上笔记，用自己的话向一个外行解释核心判断
+- src_unknown
   framework_lens: 内化=可脱离原文的重新表达
   follow_up_question: 你解释时有没有引用原文的句子？如果有，说明还停留在整理层
-- signal: 遇到新问题时，能主动调用旧笔记中的框架，而不是重新从零查资料
+- src_unknown
   framework_lens: 认知资产的可迁移性
   follow_up_question: 过去30天里，你有多少次在解决问题时主动链接到旧笔记？
-- signal: 写笔记时会自然产生"如果……会怎样""为什么不……"的假设性追问
+- src_unknown
   framework_lens: 主动建构 vs 被动记录
   follow_up_question: 这篇笔记里有没有至少一个你自己提出的、原文没有直接给出答案的问题？
-- signal: 能明确区分笔记中的事实、推断和立场，并指出证据强度
+- src_unknown
   framework_lens: 元认知监控
   follow_up_question: 你能用红笔标出哪些句子是"我确信的事实"，哪些是"我的猜测"吗？
 author: unknown
@@ -75,9 +75,9 @@ trust_level: medium
 **核心跳跃**：从"把信息整理得别人能看懂"（L3协作级）到"用笔记催化自己的思考"（L4内化级）。
 
 **关键能力**：
-- 有好问题（问对问题比答对答案更重要）
-- 思考涌现（笔记过程中产生新的洞察）
-- 内化率提升（从"整理"到"吸收"再到"转化"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **训练要点**：
 1. 问题驱动：每张笔记都从一个真正的问题开始，而不是从"记录内容"开始
@@ -126,13 +126,13 @@ L4的本质是**笔记从"输出工具"变成"认知引擎"**。[[yt-note-checkl
 
 ## 行动 Checklist
 
-- [ ] 这篇笔记的标题是一个**真实问题**，而不是"XX学习笔记"。
-- [ ] 在动笔前写下："我希望通过这次笔记解决什么问题？"
-- [ ] 笔记中至少包含一个**原文没有直接给出答案**的自主追问。
-- [ ] 写完后合上原文，用3句话向一个外行解释核心判断。
-- [ ] 明确标注出笔记中的"事实""推断""立场"三类内容。
-- [ ] 在笔记结尾写下"下一步动作"，并设定决策截止点。
-- [ ] 30天后回读，检查能否在不看原文的情况下复用该框架解决新问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
@@ -164,7 +164,7 @@ ADDIE模型和Kirkpatrick评估框架都强调：学习的最终目标是"行为
 
 ## 相关卡/互链
 
-- [[yt-note-checklist-concept]]：清单体四特征在L4阶段转化为思考模具。
-- [[yt-note-five-levels-training]]：五阶训练模型的整体结构与L4的跳跃位置。
-- [[dk-note-surplus-brainpower]]：解释为何L1-L3的肌肉记忆是L4问题驱动思考的认知资源基础。
-- [[yt-note-problem-solving-capability]]：L4内化最终要提升的是用旧框架解决新问题的能力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

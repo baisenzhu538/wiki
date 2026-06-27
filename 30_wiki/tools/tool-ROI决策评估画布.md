@@ -10,22 +10,22 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[tool-单元模型-单城市]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # ROI决策评估画布
@@ -49,8 +49,8 @@ related:
 | **公司视角** | 跨业务协同、战略卡位 | 资源挤占、注意力分散 |
 
 **附加维度**：
-- **机会成本**：不做这个，同样的资源可以做的最好的事是什么？
-- **时间窗口**：现在不做，3个月/1年后还来得及吗？
+- src_unknown
+- src_unknown
 
 **结论行**：综合以上，这个决策的净收益判断是____（Go / No-Go / 条件Go）
 

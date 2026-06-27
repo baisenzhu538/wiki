@@ -5,36 +5,36 @@ id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
 source_refs:
-  - Press.'
-  - 'Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning
-  - Organization*. Doubleday.'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 domain:
-  - management- lean-manufacturing
-  - yitang
+  - src_unknown
+  - src_unknown
 bridges_to:
-- target: skill-一堂-kernel-three-questions
+- src_unknown
   relation: provides_foundation_for
   description: 5 Whys 是产品内核三问中'根因追问'精神的最轻量级工具
   context: 一堂内核三问要求'用户为什么选我们'——这本质上是一个根因追问问题。但一堂课程没有提供系统性的根因分析工具。5 Whys 补充这个缺口，让创业者在用户转化下降、产品留存不佳时能追问到真正的根本原因
-- target: yt-product-kernel-cultivation
+- src_unknown
   relation: applies_to
   description: 产品内核迭代中需要根因分析来识别真正的用户痛点
   context: 内核迭代时，团队常常误解表象为原因（如'转化率低是因为页面不好看'）。5 Whys 强迫团队再往下探索两层，找到'真正的根因'
 diagnostic_signals:
-- signal: 用户说'我们有个问题，做了很多优化但问题依然存在'
+- src_unknown
   framework_lens: 5 Whys 检查：之前的'优化'是否只是在修补表象，没有触及根本原因
   follow_up_question: 如果让你连续问5次'为什么'来追究这个问题的根本原因，你会问到第几层？最后一层的原因是什么？
-- signal: 用户说'我们的问题是X，解决方案是Y'
+- src_unknown
   framework_lens: 5 Whys 检查：'问题是X'是否已经是经过根因分析的结论，还是只是表象描述
   follow_up_question: 你说的'X'是第几次'为什么'之后的结论？如果还没问到第3层，你可能只是在解决表象
 related:
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[tool-一堂-kernel-three-questions]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[yt-entrepreneur-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -162,9 +162,9 @@ claim:03 [conf=0.85] **每一步都需要事实支撑，不能纯粹推理。** 
 
 **Nassim Taleb**（*反脆弱*作者）从复杂系统角度提供根本挑战：
 
-- **5 Whys 假设了线性因果关系。** 实际上，很多问题的原因是网状的——A导致B，B导致C，C又反过来影响A。在这种情况下，"连续问为什么"只会让你在因果循环中打转，而不会触及真正的系统级原因。
-- **5 Whys 假设了"有一个根本原因"。** Taleb 认为，在复杂系统中，"根本原因"这个概念本身就是一种误导——问题通常是多个因素交互作用的结果，而不是一个单一原因的线性延伸。
-- **5 Whys 会给人一种虚假的确定感。** 当你问到第5层时，你会感觉"我已经找到根本原因了"。但这可能只是你认知边界内的"根本原因"——在你的边界外还有更深的原因，你根本没有探索到。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Taleb 的质疑**："你的5 Whys 是一个优秀的'简单问题根因分析器'。但在复杂系统中，因果关系是非线性的、循环的、多因素交互的。你的'连续问为什么'只会让你在因果网络中迷路。你以为找到了根本原因，其实只是探索了你认知边界内的那一条路径。"
 
@@ -172,9 +172,9 @@ claim:03 [conf=0.85] **每一步都需要事实支撑，不能纯粹推理。** 
 
 **Peter Senge**（*第五项修练*作者，系统思考推广者）从系统动力学角度攻击：
 
-- **5 Whys 是线性思维，系统问题需要系统思维。** Senge 的核心论点是：系统中的问题通常是多个回路交互作用的结果，而不是单一因果链。5 Whys 的"线性追问"无法捕捉这种复杂性。
-- **5 Whys 可能导致"短期解决方案"。** Senge 认为，很多根因分析找到的"根本原因"只是"第一次出现问题的位置"，而不是"系统中真正的结构性原因"。例如，"员工流失率高"的"根本原因"可能被定为"薪酬不够高"——但系统思考会探索更深的结构性原因：组织文化、管理机制、职业发展通道等。
-- **真正的学习组织需要"探索多个回路"。** Senge 的理想是让团队运用"系统循环图"来分析问题——同时看到多个互相关联的因素，而不是一条线性链。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Senge 的质疑**："你的5 Whys 是一个优秀的'单回路分析器'。但实际中的组织问题通常涉及多个回路：员工流失影响团队士气，团队士气影响客户服务质量，客户服务影响订单量，订单量影响员工工作压力，压力又影响员工流失。你的线性追问只能抓到一条回路，而忽略了整个系统的交互作用。"
 

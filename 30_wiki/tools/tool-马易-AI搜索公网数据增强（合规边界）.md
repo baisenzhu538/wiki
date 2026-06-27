@@ -3,8 +3,8 @@ id: tool-马易-AI搜索公网数据增强（合规边界）
 title: 技能：AI搜索公网数据增强（合规边界）
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-成为首位F工程师]]'
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-马易-数字员工FD拆解落地]]'
-- '[[tool-马易-减少输入噪音法]]'
-- '[[tool-马易-最小场景优先落地法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI搜索公网数据增强（合规边界）
 
@@ -37,25 +37,25 @@ AI搜索公网数据增强（合规边界）是马易在AI落地场景识别中�
 
 ## 适用场景
 
-- AI需要引用外部实时信息
-- 有明确的可信信源清单
-- 合规要求严格的场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 需要大规模无差别抓取
-- 数据源涉及敏感/受保护信息
-- 无法承担任何合规风险
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 指定网站API
-- 合规的数据接口服务
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ AI搜索公网数据增强（合规边界）是马易在AI落地场景识别中�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

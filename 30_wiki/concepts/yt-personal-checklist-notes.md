@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,20 +10,20 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "清单体笔记"
-  - "清单式笔记"
-  - "检查清单"
-  - "步骤清单"
-  - "诊断清单"
-  - "三阶清单体系"
-  - "可执行清单"
-  - "销冠小抄"
-  - "复盘四步法"
-  - "如何做笔记"
-  - "一堂笔记法"
-  - "笔记进阶"
-  - "笔记五阶段"
-  - "刻意练习记笔记"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -42,8 +42,8 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '每条笔记都以清单形式呈现，项与项之间相对独立、可逐条执行', 'framework_lens': '清单体 = 可操作的认知结构', 'follow_up_question': '这条笔记能否被拆成互不依赖的小任务？'}
   - {'signal': '清单项有明确层级，能一眼看出结构和重点', 'framework_lens': '分层降低认知负荷', 'follow_up_question': '如果只看前3个最高层级标题，能否把握核心？'}
@@ -51,11 +51,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[yt-personal-time-management]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-inspiration-flash]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 清单体笔记（一堂笔记法）
 
@@ -73,20 +73,20 @@ related:
 ### 失败模式
 
 1. **把长段落切成短句就以为是清单体**
-   - **原因**：形式化理解
-   - **修复**：每条必须是一个完整判断或可执行动作，能单独回答‘那又怎样’
+   - src_unknown
+   - src_unknown
 
 2. **清单项之间层级混乱，重点被淹没**
-   - **原因**：缺少分层
-   - **修复**：使用‘总-分’结构，限制同一层级项数≤7
+   - src_unknown
+   - src_unknown
 
 3. **清单写完后不再使用，成为信息坟墓**
-   - **原因**：缺少行动链接
-   - **修复**：在清单末尾加‘下一步行动’，并设定复查时间
+   - src_unknown
+   - src_unknown
 
 4. **过度追求清单体，把不适合的内容硬塞成清单**
-   - **原因**：方法滥用
-   - **修复**：先判断内容是否适合分点，不适合则用叙述或模型
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -109,14 +109,14 @@ related:
 **1. 一课一清单原则**：每学完一堂课/读完一本书/开完一个会，产出一张清单。不是"很有启发"，而是"以下 5 件事我现在就能做"。
 
 **2. 清单设计三要素**：
-- **可执行**：每一条是具体动作（动词开头），不是抽象感悟
-- **可检查**：每一条有明确的"做到/没做到"标准（二值判断，不要用"尽量""努力"这类模糊词）
-- **有边界**：一张清单纯 5-10 条，超过 15 条说明没抓住重点或需要拆成多张
+- src_unknown
+- src_unknown
+- src_unknown
 
 **3. 清单的层次递进（三阶清单体系）**：
-- **L1 检查清单（Checklist）**：事前检查——"做这件事之前，确认这些条件是否满足"（如 PRD 自查清单）
-- **L2 步骤清单（SOP）**：事中步骤——"按这个顺序做，不漏不跳"（如复盘四步法）
-- **L3 诊断清单（Troubleshooting）**：事后排查——"出现这个问题时，按这个顺序排查"（如转化率下降排查清单）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 笔记进阶五阶段（一堂笔记法能力梯队）
 
@@ -161,9 +161,9 @@ Truman 将笔记能力的成长路径分为五个阶段，每一阶段都是一�
 
 AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**清单体是人类可读性与AI可解性的最大公约数**。
 
-- **AI 的优势**：结构化、逻辑层级清晰、边界清晰的数据格式能极大降低 token 消耗、减少幻觉
-- **人类的优势**：几乎无学习门槛、没有心理负担、协作简单、可无缝迁移到任何平台
-- **实践验证**：给AI喂一份3000字的清单体笔记，效果显著好于喂一份20000字的长文稿。一堂内部封装Agent工作流时，也是先将课程还原为清单体笔记，再喂给AI协作。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **分工原则**：AI 可以接管50%以上的基础笔记工作（整理、备忘、排版、改错别字），人类应将省出的时间投入高阶笔记——建模、资产沉淀、解题框架。
 
@@ -176,8 +176,8 @@ AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**
 ### 清单式笔记与 IPO 模型的关系
 
 在 IPO 框架中，清单式笔记是 **Output 端的核心外化形式**：
-- **L2 专题笔记**：按自己的逻辑重组材料，清单是最清晰的重组格式
-- **L6 立刻实践**：清单直接转化为可操作的行动计划
+- src_unknown
+- src_unknown
 
 同时，清单也是 **Process 端"存储记忆"的外挂工具**——Truman 在 IPO 课中强调"大多数人大脑只有内存没有硬盘"，清单就是硬盘的一种最高效格式。
 
@@ -197,8 +197,8 @@ AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**
 
 ### 关联框架卡
 
-- yt-personal-checklist-interview-notes — 专家访谈笔记六层段位（本次新增）
-- yt-personal-checklist-ai-data-paradigm — 清单体笔记的AI时代定位（本次新增）
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "渠道探索"
-  - "获客渠道"
-  - "低成本获客"
-  - "渠道假设"
-  - "渠道筛选"
-  - "小预算测试"
-  - "渠道验证"
-  - "起盘阶段"
-  - "创业获客"
-  - "渠道漏斗"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,18 +38,18 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户只选一个渠道All in，不测试其他', 'framework_lens': '渠道单一风险', 'follow_up_question': '如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？'}
   - {'signal': '用户渠道很多，但不知道哪个有效', 'framework_lens': '没有渠道验证机制', 'follow_up_question': '每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-fundraising]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 渠道探索
 
@@ -69,9 +69,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「起盘阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -90,7 +90,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

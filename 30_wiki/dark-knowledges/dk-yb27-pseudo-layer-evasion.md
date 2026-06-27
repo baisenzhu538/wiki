@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,26 +14,26 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb30-ecommerce-channel-version]]'
-  - '[[dk-yb31-style-first-controlnet]]'
-  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-  - '[[dk-yb29-prompt-migrate-copy-first]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb13-zero-shot-style-transfer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 上传图片被平台OCR/图像识别系统拦截、打标或自动降权
-- 使用“加水印”“加图层”等常规方法后仍被识别
-- 需要保留画面主体信息，但又要让机器识别失败
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 伪图层叠加规避平台图像识别
 
@@ -45,10 +45,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 上传图片想规避平台自动识别/审核的内容创作者
-- AI生成图需要降低被平台“AI检测”或相似度比对命中的概率
-- 敏感信息图（如联系方式、二维码、价格）需要绕过机器识别但保留人类可读性
-- 版权规避场景，降低原图哈希/特征匹配命中率
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -56,19 +56,19 @@ diagnostic_signals:
 2. **设计“伪图层”干扰元素**：选择与画面语义相容的纹理、文字、噪点或局部遮挡
 3. **像素级叠加**：将干扰元素直接合并到图像像素中，而非保留独立的PS图层
 4. **微调细节参数**：
-   - 透明度与混合模式：让干扰“融入”画面而非浮在表面
-   - 边缘融合：消除干扰元素的生硬边界
-   - 噪声分布：匹配画面原有噪声，避免机器识别出“人工添加”痕迹
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **在目标平台验证**：上传后检查OCR提取文本、标签识别、相似度匹配是否失效
 6. **记录时效节点**：平台识别能力会持续升级，标注当前有效的时间窗口
 
 ## 适用边界
 
-- 仅针对特定平台2026年5月前的识别系统有效，模型升级后可能失效
-- 真正的加图层（保留可分离图层）无效，必须像素级合并
-- 对人工审核、更高级的多模态模型或哈希比对可能无效
-- 不适用于需要长期稳定、跨平台通用的规避需求
-- 过度叠加可能降低人类可读性或引发用户反感
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -86,6 +86,6 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]] — 电商产品图：抽卡图≠产品图
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
-- [[dk-yb13-zero-shot-style-transfer]] — 零训练风格迁移：三要素描述法
+- src_unknown
+- src_unknown
+- src_unknown

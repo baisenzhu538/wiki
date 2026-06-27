@@ -4,8 +4,8 @@ title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需�
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -13,44 +13,44 @@ source_refs:
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 related:
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[dk-ji-hao-problem-vs-question]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[tool-一堂-product-kernel-canvas]]'
-- '[[contingency-decision-making]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[dk-ji-hao-problem-vs-question]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 技能有明确的Actionable Steps
-- 有关键要点解读
-- 有常见失误和解决方案
-- 有相关案例
-- 有关联概念
-- 有关联其他skill
-- Constraints或局限性
-- ≥2位外部攻击者
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 用户说'如果有XX就好了'但说不清Before/After
+- src_unknown
   lens: 伪需求识别
   follow_up: 执行Step 1：要求用户描述解决前后的具体行为变化，说不清=想象需求
-- signal: 团队对需求有分歧，有人支持有人反对
+- src_unknown
   lens: 需求真实性争议
   follow_up: 用四问逐一验证，任何一问答案不满意=伪需求，需重新定义
-- signal: 方案很好但用户不买单
+- src_unknown
   lens: 因果链断裂
   follow_up: 检查Step 4因果链：每个环节是否有具体能力/资源支撑？缺了哪个环节？
-- signal: 项目执行到一半发现方向错了
+- src_unknown
   lens: 四问未迭代
   follow_up: 每达到一个里程碑回顾四问，Problem定义随信息增加而演化
-- signal: 上级强制指派的需求，团队被动执行
+- src_unknown
   lens: 强制性任务
   follow_up: 四问对强制需求可能走过场，改问：如果可以选择不做，这个需求还值得做吗？
 ---
@@ -64,35 +64,35 @@ diagnostic_signals:
 
 **问题：解决之前和之后是什么状态？**
 
-- **Before：** 现在的痛点是什么？具体表现为什么？
-- **After：** 解决后应该是什么样子？用户的行为会怎么变？
-- **检查点：** 如果说不清Before是什么，说明需求可能来自想象。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：真实锚点
 
 **问题：问题的具体场景在哪里？**
 
-- 不是"如果有XX就好了"（想象场景）。
-- 而是"我每次做Y时都要花X时间，这个痛点重复发生"（真实场景）。
-- **检查点：** 能不能说出具体的时间、地点、人物、动作。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：受益人
 
 **问题：解决之后谁觉得开心？**
 
-- 维护者觉得开心吗？（例如：反馈带上下文，不再需要模糊口述）
-- 使用者觉得开心吗？（例如：有稳定入口，可以看到描述和评价）
-- **前提条件：** 真的有人在使用/需要这个东西。
-- **检查点：** 如果受益人觉得"旧方式已经够用"，说明需求不够痛。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：因果链与能力支撑
 
 **问题：这个问题是可解的吗？**
 
-- 原来的痛点是什么？原因是什么？
-- 解决方案有没有明确的执行路径？
-- 每个环节都能讲通吗？缺了哪个环节故事就讲不通？
-- **检查点：** 如果缺少关键环节（如技术能力、资源投入），需要先补齐。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验证结果：**
 四个问题都有满意答案 = 真实Problem，可以下场动手。
@@ -107,16 +107,16 @@ diagnostic_signals:
 ## Claims
 
 1. **伪需求的根本特征是缺少“真实锚点”，而不是“理论完整性”**
-   - 大多数创业失败不是因为方案不好，而是因为解决的是一个从未存在的问题
-   - 四问的核心价值是将"想象中的痛点"转化为"可观察的行为变化"
+   - src_unknown
+   - src_unknown
 
 2. **因果链验证是可执行性的最后一道门，也是创业者最容易跳过的门**
-   - 前三问答案在手，第四问没有——这是“感觉能做成”和“真的能做成”的分水岭
-   - 因果链不通的项目，即使前期信心十足，也会在执行中增塌
+   - src_unknown
+   - src_unknown
 
 3. **四问不是一次性活动，而是项目全生命周期的“导航仪”**
-   - 问题定义会随着信息增加而演化
-   - 每达到一个里程碑就回顾四问，可以避免“解决了错的问题”这种沉没成本
+   - src_unknown
+   - src_unknown
 
 ## 判断标准
 
@@ -131,24 +131,24 @@ diagnostic_signals:
 ## 常见失误与解决方案
 
 **失误1：用"谁需要"代替"是不是真需要"。**
-- 解决方案：有需求不等于是真实需求。需要用四问验证，而非直接采纳。
+- src_unknown
 
 **失误2：四问通过后不做记录。**
-- 解决方案：将四问答案写成文档，作为项目的"出生证明"。当项目走偏时可以回头检查。
+- src_unknown
 
 **失误3：四问只做一次，不随项目进展更新。**
-- 解决方案：Problem定义会随着信息增加而变化。每达到一个里程碑就应该重新回顾四问。
+- src_unknown
 
 ## 相关案例
 
-- **case-ji-hao-skill-market-problem-validation**：一堂Skill市场用四问验证后确认是真实Problem，Before/After清晰、真实锚点明确（微信传zip的痛点）、受益人确定、因果链可解。
+- src_unknown
 
 ## 关联概念
 
-- **关于 [[dk-ji-hao-problem-vs-question]]：** 四问验证法是将Question转化为Problem的具体工具。它解决了"我知道要验证，但不知道怎么验证"的问题。
-- **关于 [[case-ji-hao-skill-market-problem-validation]]：** 这个案例展示了四问在实际中的应用过程。特别是"真实锚点"这一问，帮助团队避免了从"做一个Skill市场"放大到"做一个生态系统"的陷阱。
+- src_unknown
+- src_unknown
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -190,14 +190,14 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- **上游：**[[dk-ji-hao-problem-vs-question]] — 四问是将 Question 转化为 Problem 的具体工具
-- **下游：**[[case-ji-hao-skill-market-problem-validation]] — 四问在实际案例中的应用过程
-- **平行：**[[tool-一堂-product-kernel-canvas]] — 产品内核画布定义“用户为什么选你”，四问验证“他们是不是真的需要你”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂假设驱动方法论中，本技能位于 **需求验证层**，是“从问题出发”到“定义方案”之间的过渡工具
-- 与一堂五步法的“需求验证”环节对应
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **认知心理学（Dunning-Kruger Effect）：**创业者容易高估自己对问题的理解，四问是一种“元认知”工具
-- **质量管理（PDCA）：**四问的迭代使用符合 PDCA 循环＊每次回顾都是一次“检查”和“行动”的闭环
+- src_unknown
+- src_unknown

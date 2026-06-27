@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 出海调研
-- 海外市场
-- 跨境调研
-- 出海创业
-- 国际化调研
-- 海外投资
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡5（出海）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡5（出海）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-consumer-goods-research]]'
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - '[[tool-yitang-b2b-gov-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-store-franchise-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[yt-research-industry-canvas]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 出海调研手段：浅中深三层10大评估法
@@ -52,18 +52,18 @@ related:
 "如果我想把国内项目复制到国外，但是对国外环境不够了解，想避免投资失败。"
 
 调研六大要素：
-- **海关税率**：出口到目标国的关税、增值税、清关流程
-- **产品认证标准**：目标国的准入认证（CE/FDA/Halal 等），认证周期和费用
-- **竞品本土化策略**：当地已有玩家怎么解决政策/文化/习惯问题
-- **当地真实需求**：产品在这个市场到底有没有人要
-- **资金回国渠道**：赚了钱怎么合法合规地转回来
-- **产业链上下游**：当地有没有配套的供应链、物流、售后能力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **产品贸易出海**：鞋服、日化、家具、零食、玩具等消费品出口
-- **制造业出海**：小家电、智能3C、智能穿戴、汽车配件等在海外建厂或销售
-- **服务类出海**：餐饮门店、游戏、在线教育、软件应用等服务业态出海
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -153,10 +153,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 5——出海调研
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡5（出海）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡5（出海）_vlm_desc.md`（confidence=0.95）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,18 +6,18 @@ title: 流程建模案例：直播开播团队分工与检查清单
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#content-format/sop'
-- '#content-format/checklist'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -28,27 +28,27 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: high
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-process-livestream-prep]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[case-livestream-sop-modeling]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[process-modeling]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-livestream-prep]]'
-  - '[[case-livestream-sop-modeling]]'
-  - '[[dk-modeling-sop-execution-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队说"这件事大家一起注意"，但重复性任务仍频频出错
+- src_unknown
   framework_lens: 流程建模中的角色分工
   follow_up_question: 这个环节的 owner 是谁？他有没有明确的交付物和检查标准？
-- signal: SOP 写出来但执行率只有 50-70%，靠自觉完不成
+- src_unknown
   framework_lens: 给 SOP 加 SOP（督导/品控）
   follow_up_question: 每个关键节点是否指定了专人负责检查？检查者自己有没有 checklist？
-- signal: 直播/活动开始前总有"软环节"被漏掉（如休息、饮食、环境）
+- src_unknown
   framework_lens: 状态保障型流程建模
   follow_up_question: 这些看似非技术的环节有没有被分配到具体角色并设置触发时间？
-- signal: 出问题后互相推诿，找不到明确责任人
+- src_unknown
   framework_lens: RACI / 专人专事
   follow_up_question: 这个任务的 R（执行）和 A（负责）是否为同一个人？检查权是否也归他？
 ---# 流程建模案例：直播开播团队分工与检查清单
@@ -63,10 +63,10 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 ## Background
 
-- **场景**：一堂内部高频直播（Truman 一周 4-5 场，每场 3 小时）。
-- **问题**：开播准备涉及饮食、休息、设备、环境多个变量，单靠主播记忆容易遗漏，状态波动直接影响直播质量。
-- **建模目标**：把"开播准备"从个人清单升级为团队 SOP，明确每个环节的 owner、交付物和检查点。
-- **来源**：`src_20260614_c62e0e61`、`src_20260614_8269ccdb`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -74,9 +74,9 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 1. **识别软环节**：团队发现直播状态不只取决于内容准备，还受血糖、休息、环境噪音、灯光温度等"软变量"影响。
 2. **角色拆分**：把原本由主播一人承担的准备工作拆成三个角色：
-   - **行政**：负责按时订饭，准点送到主播面前。
-   - **PM**：负责直播间配置，提前 N 分钟按清单调试完成。
-   - **班班**：提醒主播停下工作、开始休息、锁门关灯。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **责任下沉**：每个角色不仅执行任务，还要"自己负责检查清楚每个环节的质量"，而不是等主播或 leader 兜底。
 4. **形成检查清单**：把角色、动作、时间/状态触发条件、完成标准写成可执行的 checklist。
 
@@ -84,10 +84,10 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 ## Results
 
-- 开播准备从"主播临场发挥"变成"团队按清单执行"。
-- 饮食、休息、设备等软环节遗漏率显著下降。
-- 每个环节有明确 owner，问题出现后能快速定位到具体角色 checklist。
-- 为后续 SOP 迭代（如固定外卖清单、定制"请勿敲门"牌等）提供了可执行基线。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -104,9 +104,9 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 ## 关键证据
 
-- 原始图片明确列出行政、PM、班班三个角色及职责（`src_20260614_c62e0e61`）。
-- Truman 口述："于是我们开始给各个环节，配置专门的同学，自己负责检查清楚每个环节的质量。"
-- 每个职责都包含具体动作和时间/状态要求，而非模糊描述。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -155,19 +155,19 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 
 ## 关联框架
 
-- [[process-modeling]] — 流程建模方法论
-- [[tool-sop-template-modeling]] — SOP/模板建模法
-- [[case-modeling-process-livestream-prep]] — 开播前个人准备清单案例
-- [[case-livestream-sop-modeling]] — 直播前热身 SOP 建模案例
-- [[dk-modeling-sop-execution-locks]] — SOP 稳定执行的三层锁机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-开播准备-图-02.png`
-- 10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

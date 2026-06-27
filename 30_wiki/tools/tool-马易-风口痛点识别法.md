@@ -3,8 +3,8 @@ id: tool-马易-风口痛点识别法
 title: 技能：风口痛点识别法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-成为首位F工程师]]'
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-马易-公寓获客自跑通原则]]'
-- '[[tool-马易-减少输入噪音法]]'
-- '[[tool-马易-RPA数据整合法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：风口痛点识别法
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 追逐热门趋势时
-- 寻找创业机会时
-- 评估项目可行性时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅追逐概念而无具体场景
-- 无法验证痛点真实性时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 行业调研
-- 用户访谈
-- 数据分析
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

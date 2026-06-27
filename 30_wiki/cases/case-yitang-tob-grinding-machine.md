@@ -5,19 +5,19 @@ title: 案例：精密磨床自制项目失败复盘
 type: case
 status: enriched
 domain:
-- yitang
-- entrepreneurship
-- b2b
-- manufacturing
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
   - src_unknown
 tags:
-- '#domain/yitang'
-- '#domain/b2b'
-- '#domain/manufacturing'
-- '#content-format/case'
-- '#topic/market-entry'
-- '#topic/cross-border'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 蔡留照（一堂学员）
@@ -26,27 +26,27 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-cash-flow]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 项目初期设定“每年 5-15 台、1200 万欧元收入、10% 净利润”的宏大目标。
+- src_unknown
   framework_lens: 需求测算与天花板
   follow_up_question: 这些数字是基于真实客户意向还是基于市场好转的乐观预期？
-- signal: 德国技术 + 中国床身的组合，在中国市场卖不动。
+- src_unknown
   framework_lens: 客户切分与商业模式
   follow_up_question: 中国用户愿意为“高精度”支付溢价的比例有多高？决策链中有哪些人真正在乎精度？
-- signal: 销售兼职推竞品、账期风险、新领导要“意思意思”。
+- src_unknown
   framework_lens: 单元模型与隐性成本
   follow_up_question: 如果把关系成本、财务成本、销售不稳定成本计入，单台磨床的真实毛利还是正的吗？
 ---
@@ -60,10 +60,10 @@ diagnostic_signals:
 
 蔡留照投资参股一家由 5 个德国人创立的新公司，计划：
 
-- 采购欧美二手磨床；
-- 用中国精密磨床床身；
-- 结合德国高精度电气、液压、控制元器件；
-- 生产精密磨床，满足德国和中国市场需求。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 初期目标：每年 5-15 台，销售收入 1200 万欧元，税后净利润约 100 万欧元。
 
@@ -83,22 +83,22 @@ diagnostic_signals:
 
 ### 需求验证
 
-- 高端磨床需求确实存在，但主要被进口品牌占据。
-- 中国用户“宁可花大价钱买进口，也不愿投资研发”，对国产/合资高端产品的信任度不足。
-- 用户对“物美价廉”的预期与高端制造的人力成本现实冲突。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 客户与商业模式验证
 
-- 决策链极长：人人都要做主，人人不愿负责，打通一个环节还有下一个。
-- 销售成本被严重低估：报价中未计入无法量化的人力成本和人情成本。
-- 用户以低价竞争思维主导采购，不看产品带来的长期价值增长。
-- 财务成本不可控：不按合同付款、新领导“意思意思”等隐性成本频发。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 供应链与壁垒验证
 
-- 合作的克罗地亚公司产品质量好，但资金实力弱，后来在 2022 年左右被国际机床大厂收购。
-- 电主轴本应是强技术壁垒，但在中国市场被“执行层面的弱化”消解。
-- 销售队伍不稳定，有销售员同时兼职推销竞品，单销售成本无法估算。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 结果
 
@@ -185,6 +185,6 @@ diagnostic_signals:
 
 ## 九、待核实数据
 
-- 实际投资金额和损失规模。
-- 1200 万欧元收入目标对应的客户意向数量。
-- 二手设备修复精度的具体测试数据。
+- src_unknown
+- src_unknown
+- src_unknown

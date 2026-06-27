@@ -11,44 +11,44 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_524dbe20_wanghuan_AI native定义_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 团队已经使用 AI 工具，但效率提升长期卡在 30%-50%
+- src_unknown
   lens: 演员思维固化
   follow_up: 检查工作方式是否改变：人是否仍在亲自执行大部分步骤，AI 是否只是更快的打字机
-- signal: 同一个提示词本周内重复出现 3 次以上
+- src_unknown
   lens: 可沉淀的高频任务
   follow_up: 把它从单次任务改成模板或产品，记录输入字段与输出标准
-- signal: 遇到问题时第一反应是"我来做"，而不是"AI 能否纳入流程"
+- src_unknown
   lens: 默认纳入缺失
   follow_up: 在每次开工前加一个固定问题：这件事的哪一步可以交给 AI 执行或辅助？
-- signal: AI 输出很惊艳，但做完就丢，下次从零开始
+- src_unknown
   lens: 只纳不沉
   follow_up: 建立 Prompt 模板库或 AI 业务档案，把高频输出固化为可复用资产
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[concept-wanghuan-flywheel-first-loop]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- AI Native
-- 人机协作
-- 工作方式
-- 导演思维
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程
@@ -68,17 +68,17 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 ## 核心要点
 
 1. **两个关键词：默认纳入 + 沉淀资产**
-   - "默认纳入"是工作方式的转变：遇到任务先想 AI 能做什么，而不是先想自己怎么做。
-   - "沉淀资产"是复利能力的建立：把重复任务变成模板、提示词库、业务档案，下次成本更低、质量更稳。
+   - src_unknown
+   - src_unknown
 2. **AI Native vs. 高级用户**
-   - 高级用户：会用很多工具，效率提升 30%-50%，但每次从零开始。
-   - AI Native：把 AI 嵌进流程，把经验固化为系统，效率提升可以是 3 倍甚至 10 倍。
+   - src_unknown
+   - src_unknown：把 AI 嵌进流程，把经验固化为系统，效率提升可以是 3 倍甚至 10 倍。
 3. **本质是身份切换**
-   - 从"AI 的演员"（亲自做，AI 当道具）变成"AI 的导演"（定义目标、标准和验收，AI 执行中间段）。
+   - src_unknown
 4. **复利来自高频**
-   - 只有高频任务才值得沉淀。低频任务停留在"任务层"即可，不必强行产品化。
+   - src_unknown
 5. **标准是隐藏的乘数**
-   - 默认纳入之后，能否持续产出高质量，取决于标准是否清晰。标准模糊，AI 只会加速平庸。
+   - src_unknown
 
 ---
 
@@ -109,23 +109,23 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 
 ## 行动 Checklist
 
-- [ ] 列出过去一周重复做了 3 次以上的任务，标记可作为 AI 化候选的项。
-- [ ] 为每个候选任务回答：这件事的哪一步可以交给 AI 执行？哪一步必须由人验收？
-- [ ] 建立个人 AI 业务档案，包含"我是谁、服务谁、行业暗规则、输出标准"。
-- [ ] 把最常用的 3 个提示词写成模板，保存为可复用格式。
-- [ ] 选出一个"下周还会用"的最小产品，在今天跑通第一次完整循环。
-- [ ] 一周后复盘：哪些 AI 输出稳定？哪些还需要人工补位？把改进写回档案。
-- [ ] 在团队内明确一个共识：遇到新任务时，先问"AI 能否纳入流程"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：AI Native 背后的身份切换——从演员到导演。
-- [[framework-wanghuan-task-product-system]]：把高频任务从消耗变成资产和系统的演进路径。
-- [[framework-wanghuan-ai-five-level-ladder]]：AI Native 位于五层能力跃迁的第三层及以上。
-- [[tool-wanghuan-ai-business-profile]]：沉淀上下文资产，让 AI 默认"住"在你的业务里。
-- [[concept-wanghuan-flywheel-first-loop]]：AI Native 的启动机制——让飞轮转起来。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,9 +147,9 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 **回应**：AI Native 可以从个人高频痛点开始。自己先用起来，形成可演示、可复用的资产，再影响团队。王欢的课程设计就是为了让普通人在三小时内完成第一次身份切换。
 
 **不要用**
-- 不要把它当成"所有任务都必须用 AI"的绝对命令。
-- 不要在标准和验收机制缺失时，为了"AI Native"而强行把 AI 塞进流程。
-- 不要只追求"会用很多工具"，却不改变工作方式。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

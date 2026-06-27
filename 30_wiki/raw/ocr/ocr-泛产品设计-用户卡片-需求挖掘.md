@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-需求挖掘"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_11af6cd2
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-需求挖掘"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[ocr-泛产品设计-用户卡片-用户视角]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-需求挖掘
@@ -36,33 +36,33 @@ png` 泛产品设计·用户卡片 需求挖掘 理解背后的深层原因 理�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需求挖掘的核心是理解表层需求背后的深层动机和真正想解决的问题，而非仅停留在用户表述的表面。
-- 追问"为什么"是揭示深层需求的有效方法，需持续追溯至根本原因。
-- 马斯洛需求理论可作为分析框架，将用户需求映射到不同层次以识别真实驱动力。
-- 该方法适用于所有复杂的产品设计场景，具有普适性。
-- 需求挖掘是一个渐进过程，单次分析可能不足，需反复迭代深化理解。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该卡片声称适用于"所有复杂的产品设计"，但未界定"复杂"的标准——功能复杂度、用户群体规模、还是决策链路长度？简单产品是否完全不需要需求挖掘？
-- "追问为什么"作为方法论缺乏操作边界：追问的终止条件是什么？如何避免过度解读或陷入无限回溯？
-- 马斯洛需求理论在现代产品场景中的适用性未经论证：该理论源于1943年的心理学研究，是否充分考虑了数字产品特有的需求维度（如效率、控制感、社交资本）？
-- 卡片底部的"一堂课/两堂课"隐喻与上方方法论之间存在张力——需求挖掘被框架为可快速习得的标准化技能，但复杂需求的深层理解通常需要长期领域积累，这一矛盾如何调和？
-- OCR备注提示可能存在误识，且视觉结构信息丢失："堂/没有什么不是一堂课解决不了的"是否为完整原文？分栏或排版可能导致语义断裂，需核对原图确认"堂"字前的内容是否缺失。
-- 未区分B端与C端场景：企业级产品的需求挖掘涉及多利益相关方（采购者、使用者、管理者），马斯洛框架是否仍能直接映射？
-- "真正想解决的问题"这一表述隐含用户具有稳定、可挖掘的"真实"需求，但未考虑需求的情境建构性——用户可能在互动过程中才形成需求，而非预先存在。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找单元模型实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找单元模型实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找单元模型实操难点.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[dk-单元模型-找基准值实操难点]]'
-  - '[[dk-单元模型-找全成本实操难点]]'
-  - '[[concept-最简单元模型]]'
-  - '[[dk-单元模型-规模对抗实操难点]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[concept-最简单元模型]]"
-  - "[[tool-单元模型-单商圈]]"
-  - "[[dk-单元模型-找全成本实操难点]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 找单元模型实操难点
@@ -37,10 +37,10 @@ related:
 
 ## 使用场景
 
-- 新业务立项，不知道按「单客户」「单订单」「单门店」还是「单 SKU」算账；
-- 业务从 MVP 进入复制期，发现原来的单元维度不再适用；
-- 同时计算多个单元模型，数据口径打架；
-- 团队对「哪个指标最虚」「拆多细才够」争论不休。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -56,9 +56,9 @@ related:
 
 ## 适用边界
 
-- 不适合高度复杂的平台型业务早期：边界极不清晰，过早锁定单元会失真。
-- 不适合一次性项目：项目制业务没有可复制单元，应改用项目 ROI 模型。
-- 不适合数据基础设施极差的企业：没有基础订单/用户/成本数据时，单元模型只能做假设清单。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -66,9 +66,9 @@ related:
 
 ## 与其他知识的关联
 
-- **[[concept-最简单元模型]]**：找单元模型确定「边界」，最简单元模型在边界内做收入成本对比。
-- **[[dk-单元模型-找全成本实操难点]]**：单元边界定了，才有找全成本的对象。
-- **[[tool-单元模型-单商圈]] / [[tool-单元模型-单城市]]**：具体单元的应用实例。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,42 +3,42 @@
 
 id: yt-tool-knowledge-extraction
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
-- yt-management-toolkit-overview
+- src_unknown
 query_triggers:
-- 团队知识萃取
-- 隐性知识转化
-- 经验沉淀方法
-- 最佳实践萃取
-- 团队知识库建设
-- 知识萃取SOP
-- 专家经验提取
-- 知识文档化
-- 复盘知识化
-- 新人FAQ沉淀
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[case-truman-sales-report-structure]]'
-  - '[[dk-modeling-checklist-formatting-rules]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[case-livestream-sop-modeling]]'
-  - '[[yt-management-team-knowledge]]'
-  - '[[yt-management-project-management]]'
-  - '[[yt-management-onboarding]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-knowledge-management]]'
-  - '[[master-knowledge-compound]]'
-  - '[[yt-decision-review]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-tool-best-practice-learning]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
@@ -53,20 +53,20 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 萃取前是否用 Cynefin 框架区分知识域（清晰/繁杂/复杂）
+- src_unknown
   framework_lens: 域分类 / 反模式
   follow_up_question: 复杂域知识是否被流程化萃取并标注为最佳实践？
-- signal: 每篇萃取文档是否标注预计失效条件与使用场景
+- src_unknown
   framework_lens: 时效性 / 边界诚实
   follow_up_question: 团队是否把历史案例当作操作指南直接套用？
-- signal: 萃取产出是否有使用率/ROI 数据反馈
+- src_unknown
   framework_lens: 学习迁移 / 效果验证
   follow_up_question: 知识库 50+ 文档中多少比例被实际使用？
-- signal: 专家分享意愿与萃取者提问能力是否被前置评估
+- src_unknown
   framework_lens: 激励机制 / 人力因素
   follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
 updated_at: '2026-06-18'
@@ -95,9 +95,9 @@ reviewed_by: laowantong
 5. **项目复盘发现了可复用的模式，但只停留在口头**
 
 **如果以下情况，不用本工具：**
-- 知识属于清晰域（已有标准流程，如报销步骤、代码提交规范）→ 直接写 checklist
-- 知识属于复杂域且环境高度不稳定（如定价策略、市场进入时机）→ 用"案例深描法"替代萃取
-- 团队 <10 人且全部坐在一起 → 日常对话成本更低，不需要文档化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 操作步骤：萃取完整流程
 
@@ -112,8 +112,8 @@ reviewed_by: laowantong
 | **外部信息整理**（竞品/行业趋势） | P2 | 信息源 + 关键发现 + 影响评估 | 情报摘要 | 按需 |
 
 **关键约束**：
-- P0 信号必须在一周内启动萃取，延迟超过 2 周记忆会衰减 50% 以上
-- 启动前必须问两个问题："这个知识下次还会用到吗？""下次别人会遇到同样问题吗？"——两个都是否定的，不萃
+- src_unknown
+- src_unknown
 
 #### Step 2：萃取执行（怎么把隐性知识变成显性）
 
@@ -127,10 +127,10 @@ reviewed_by: laowantong
 | **综合型**（多因素交织，无法拆分） | 高手说"具体情况具体分析" | 案例深描法 | 选一个典型案例，从背景→挑战→行动→结果→如果重来会怎么做，完整还原 | 深度案例 + 可迁移原则 |
 
 **关键约束**：
-- 萃取过程必须录音/录像——事后整理的准确性依赖原始记录，靠记忆复述会丢失 60% 以上细节
-- 萃取者**不能是专家本人**——专家对"显而易见"的步骤会无意识跳过，萃取者的"无知"恰恰能逼出隐性细节
-- 单次萃取时间控制在 90 分钟内——超过后信息质量显著下降
-- 萃取结束后 24 小时内必须产出初稿——延迟超过 48 小时，细节遗忘率超过 40%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Step 3：质量验收（怎么判断萃得有没有用）
 
@@ -142,17 +142,17 @@ reviewed_by: laowantong
 | **时效性** | 文档标注了"最后验证日期"和"预计失效条件" | 文档超过 6 个月未更新 | 添加失效预警机制（如到期提醒） |
 
 **关键约束**：
-- 验收必须由**非原作者**执行——原作者对知识的熟悉会掩盖文档的模糊处
-- 四项验收中任意一项不通过，文档不得入库，必须修回重验
-- 入库后 30 天内必须收集至少 1 条使用者反馈——无反馈的知识资产视为"未被使用"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 退出标准
 
 **当以下情况发生时，本工具需要被修订或替换**：
-- 连续 3 次萃取产出的文档 30 天内使用率 <10% → 触发条件识别机制失效，需要重新校准"什么值得萃"
-- 萃取出来的知识在应用时频繁失效 → 知识可能属于复杂域，需要改用案例深描法而非流程型萃取
-- 团队规模扩大到 50+ 人 → 需要升级到系统级知识管理平台，本工具只适用于个人/小团队级萃取
-- 萃取成本（时间投入）持续超过知识带来的收益 → 知识管理的 ROI 为负，需要暂停
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 常见陷阱
 
@@ -169,25 +169,25 @@ reviewed_by: laowantong
 
 ### 启动前必查
 
-- [ ] 触发信号符合 5 条进入标准之一
-- [ ] 已用 Cynefin 完成域分类（清晰 / 繁杂 / 复杂）
-- [ ] 确认"下次还会用到"且"别人会遇到同样问题"——两个否定则不萃
-- [ ] 专家分享意愿已评估，萃取者不是专家本人
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 萃取中必查
 
-- [ ] 已录音 / 录像，原始记录可回溯
-- [ ] 单次萃取 ≤90 分钟
-- [ ] 根据知识类型选对方法：流程型→影子跟随；判断型→决策考古；关系型→对话还原；综合型→案例深描
-- [ ] 已追问"如果信号不同会怎么选"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 萃取后必查
 
-- [ ] 24 小时内产出初稿
-- [ ] 文档含"预计失效条件"和"最后验证日期"
-- [ ] 非原作者完成可理解性 / 可执行性 / 可检索性 / 时效性验收
-- [ ] 入库后 30 天内收集至少 1 条使用反馈
-- [ ] 诚实标注覆盖度（如"本文档覆盖该知识的约 X%"）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -210,9 +210,9 @@ Nonaka & Takeuchi 的核心洞见：知识分为**显性知识**（可以被写�
 **Dave Snowden**（威尔士大学知识管理教授，Cynefin 框架创始人）对知识萃取工具的攻击来自一个更致命的分类错误。
 
 Snowden 将系统分为五种域，其中与本工具最相关的是三种：
-- **清晰域**（因果关系明确）：标准操作流程、代码规范。可以写成 checklist——萃取有效。
-- **繁杂域**（需要专家分析）：工程故障排查、数据异常分析。可以分析后写成指南——萃取需要专家但有效。
-- **复杂域**（因果关系只能在事后解释）：创业战略、产品方向、团队管理。**知识在这个域中不可被"流程化"——因为昨天有效的方法今天可能已经失效。**
+- src_unknown
+- src_unknown
+- src_unknown
 
 本工具提供了四种萃取方法（影子跟随、决策考古、对话还原、案例深描），并声称"根据知识类型选择"。但 Snowden 会攻击：工具使用者根本没有能力在萃取前正确分类知识属于哪个域。一个创始人把"上季度定价策略成功"的经验萃取成"定价五步法"——他以为自己在清晰域操作，但实际上定价策略属于复杂域（受市场环境、竞品动作、用户心理等多变量影响）。"五步法"在 Q1 有效是因为当时的特定条件，但 Q2 条件变了，团队还在按"五步法"操作——这不是在传承知识，这是在传播迷信。
 
@@ -222,10 +222,10 @@ Snowden 将系统分为五种域，其中与本工具最相关的是三种：
 
 ### 内部局限
 
-- **萃取者的能力差异被低估**：同一个专家，被会提问的萃取者萃取 vs 被不会提问的萃取者萃取，产出质量可能相差 5 倍。工具无法标准化萃取者的提问能力。
-- **专家的分享意愿是最大变量**：如果专家担心"教会徒弟饿死师傅"或"我的价值被文档替代"，萃取过程会严重失真。工具没有解决激励机制问题。
-- **"使用率"统计困难**：很多团队不知道一篇文档被查阅了多少次、被使用了多少比例——没有使用数据就无法评估萃取的 ROI。
-- **知识过时但没有预警**：即使标注了"预计失效条件"，团队往往因为惯性继续按旧文档操作，直到出现重大失误才发现知识已过期。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

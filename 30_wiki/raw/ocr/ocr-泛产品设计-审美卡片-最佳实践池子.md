@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-审美卡片-最佳实践池子"
 created_at: 2026-05-21
 domain:
-  - master
+  - src_unknown
 source_refs:
   - src_20260522_6a8b5755
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-审美卡片-最佳实践池子"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-审美工具箱指南]]'
-  - '[[ocr-泛产品设计-审美卡片-美好作品想象]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践收集]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
-  - '[[ocr-泛产品设计者的三大自我修养]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-审美卡片-最佳实践池子
@@ -36,32 +36,32 @@ png` 泛产品设计·审美卡片 最佳实践池子 用一堆最佳实践打�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 黑盒思维方法：将产品置于大量优秀案例组成的"池子"中反复迭代，直至达到同等水准。
-- 最佳实践池子的核心类型包括：优秀品牌名称集合、优秀logo/界面设计集合、优秀文章/音乐/演讲/课程集合。
-- "池子迭代"是一种可养成的设计习惯，适用于所有追求最佳实践的设计场景。
-- 该方法的本质是通过高密度优质案例的浸泡式对比，驱动产品审美和品质的持续提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该方法论未界定"最佳实践"的筛选标准：由谁判定、依据什么维度、如何验证其普适性？
-- "黑盒思维"在此处被重新定义，但与系统工程中的黑盒测试概念存在冲突，是否会造成术语混淆？
-- 迭代终止条件"达到类似水准"缺乏可量化的评估指标，如何判断迭代何时真正结束？
-- 池子类型涵盖品牌名、视觉设计、内容创作等异质领域，跨域迁移的有效性是否经过验证？
-- "所有渴望达到最佳实践的设计场景"这一全称断言是否过于绝对，是否存在不适用该方法的反例场景？
-- 该方法强调"浸泡式对比"但未说明具体操作机制：是直觉驱动还是有结构化的比对框架？
-- 未讨论池子维护问题：最佳实践是否有时效性、如何更新淘汰、池子规模是否存在边际效应递减？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **审美的主观性：本卡片强调"最佳实践"和"美好作品"，但未认识到审美是深度主观和文化依赖的。什么是"美好"因人而异。
-- **"最佳实践"的相对性："最佳实践"的标准可能随时间、地域、行业而变化，未提供验证机制。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 不要用的场景
 
-- **跨文化产品设计：不同文化对"美好"的定义不同，"最佳实践"可能不具有跨文化普适性。
-- **高度功能性产品（如工业设备）：这些产品的设计优先级是安全性和效率，而非"审美"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-aesthetic-practice — 审美实践的理论基础
-- yt-decision-design-philosophy — 设计哲学与"美好作品"同源
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 设计评审：用审美卡片评估设计作品的审美层次
-- 团队审美对齐：用"最佳实践池子"统一团队的审美标准
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

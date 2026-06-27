@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-project-background
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1417
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：项目背景分析
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
-- 项目背景分析
+- src_unknown
+- src_unknown·用户卡片：项目背景分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-multi-perspective]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-multi-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析
@@ -45,15 +45,15 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 在项目启动前，八个落差维度中至少前五项被明确回答
+- src_unknown
   framework_lens: 背景分析是项目成功的前提
   follow_up_question: 如果去掉'战略'或'老板'维度，项目目标会不会出现隐性冲突？
-- signal: 背景分析结果直接转化为项目范围和优先级，而不是停留在报告
+- src_unknown
   framework_lens: 分析必须产生决策输入
   follow_up_question: 背景分析后，有哪些原定的功能被砍掉或推迟了？
-- signal: 项目中期会重新审视背景假设，而不是一次性分析后束之高阁
+- src_unknown
   framework_lens: 背景会随环境变化
   follow_up_question: 过去一个月里，八个维度中有哪些假设被新信息推翻？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **跳过背景分析，直接进入方案设计**
-   - **原因**：急于产出
-   - **修复**：在项目 kickoff 中强制加入‘背景对齐’环节，未通过不进入方案
+   - src_unknown
+   - src_unknown
 
 2. **背景分析面面俱到，但没有识别出核心矛盾**
-   - **原因**：缺乏合成
-   - **修复**：八个维度填完后，输出‘核心冲突’和‘关键假设’两行结论
+   - src_unknown
+   - src_unknown
 
 3. **忽视老板/战略维度，只关注用户和市场**
-   - **原因**：视角片面
-   - **修复**：把老板/战略维度作为‘一票否决项’：目标与公司方向是否一致？
+   - src_unknown
+   - src_unknown
 
 4. **背景分析做一次就再也不更新**
-   - **原因**：把背景当静态
-   - **修复**：设定里程碑评审：每到一个关键节点，回顾哪些背景假设已被验证或推翻
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -130,9 +130,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Richard Rumelt的"全面分析≠好策略" + Nassim Taleb的"八个维度的平均值掩盖了极端"
 

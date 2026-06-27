@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-shampoo-case
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-aesthetic-progression
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'产品功能很好，但用户无感'"
+  - src_unknown
     framework_lens: 产品内核与审美——功能好≠体验好，审美是内核的一部分
     follow_up_question: "用户选择你们，是因为功能好，还是因为体验好？审美是否影响了选择？"
-  - signal: "用户只关注功能，忽视审美和体验"
+  - src_unknown
     framework_lens: 产品内核与审美——审美是差异化的一部分
     follow_up_question: "竞品的功能和你们差不多，用户为什么选择你们？审美和体验是否是关键差异？"
-  - signal: "用户说'审美不重要，功能才重要'"
+  - src_unknown
     framework_lens: 产品内核与审美——审美在某些品类是核心
     follow_up_question: "你的目标用户是谁？对这群用户，审美是否影响购买决策？"
-  - signal: "用户的产品设计很丑，但团队不觉得"
+  - src_unknown
     framework_lens: 产品内核与审美——审美需要用户视角
     follow_up_question: "你们团队对产品的审美评价，和目标用户一致吗？"
-  - signal: "用户说'我们要做最好看的产品'，但功能不足"
+  - src_unknown
     framework_lens: 产品内核与审美——审美不能替代功能
     follow_up_question: "如果产品很好看但功能不好用，用户会留存吗？"
 
@@ -70,10 +70,10 @@ diagnostic_signals:
 
 功能同质化时，审美成为差异化：
 
-- 功能层：所有竞品都能去屑
-- 体验层：使用过程是否愉悦
-- 审美层：包装设计、品牌形象是否吸引
-- 意义层：是否认同品牌价值观
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 审美的用户视角
 
@@ -117,21 +117,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 考虑审美是否是关键组成部分
-- 当设计产品时 → 审美服务于目标用户，不是团队偏好
-- 当差异化时 → 功能同质化时，审美是差异化机会
-- 当评估产品时 → 功能和审美平衡评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-shampoo-case`：洗发水案例（审美是内核组成部分）
-- `yt-model-pan-product-aesthetic-toolkit`：泛产品审美工具箱
-- `yt-model-pan-product-aesthetic-progression`：泛产品审美进阶
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
-- 一堂泛产品设计审美专题
+- src_unknown
+- src_unknown
+- src_unknown

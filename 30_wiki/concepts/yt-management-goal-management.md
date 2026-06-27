@@ -5,39 +5,39 @@
 title: 目标管理
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 目标只是祝福语，无法衡量
+- src_unknown
   framework_lens: 愿望即目标
   follow_up_question: 你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福。请把它改写成"到何时、把什么指标从X提升到Y"的形式。
-- signal: 设了KPI但没有追踪复盘
+- src_unknown
   framework_lens: 假装有目标
   follow_up_question: 你上一次Review目标进展是什么时候？如果超过两周，目标管理已经失效。请立即锁定本周的双周Review时间。
-- signal: 团队OKR完成率很高，但业务真实进展感觉差很多
+- src_unknown
   framework_lens: KR完成 ≠ 目标达成 / 指标游戏
   follow_up_question: 逐个KR问：这个数字的提升是否真的创造了用户/客户价值，还是只是数字变好看了？找出至少一个"完成但无真实价值"的KR。
-- signal: 目标层层拆解后，基层OKR只是上级数字的简单分摊
+- src_unknown
   framework_lens: 对齐 ≠ 拆解 / 目标与战略脱节
   follow_up_question: 如果让基层员工自己写OKR，他们会写什么？与当前版本差别有多大？差别大说明没有真正对齐，需要开一次自下而上的OKR对齐会。
-- signal: 复盘会只追责或只念数据，团队沉默防御
+- src_unknown
   framework_lens: 复盘会开成批斗会/走过场
   follow_up_question: 上次复盘会，团队主动暴露了几个"我们不知道的事"或"我们错了的假设"？如果答案是0，复盘需要改成学习会三问。
-- signal: OKR与奖金/绩效强行挂钩，员工本能压低目标
+- src_unknown
   framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[tool-strategy-12-word-test]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-management-project-management]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[yt-management-business-formula]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: '2026-06-17'
 id: yt-management-goal-management
 author: 老顽童
@@ -102,9 +102,9 @@ source_context: （原始 source 无法追溯，source_refs 已清空，待后�
 ### 目标管理重新理解
 
 常见误区：
-- **愿望即目标**："今年我们要做大做强" —— 这不是目标，这是祝福语
-- **KPI 即管理**：设了一堆数字，但没有对齐、没有沟通、没有复盘——数字自己不会管理
-- **目标=固定承诺**："定了就不能改" —— 在快速变化的环境中，死守原来的目标是另一种形式的失职
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的目标定义**：目标 = 方向共识 + 可量化的结果定义 + 定期复盘机制。
 
@@ -118,9 +118,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 | Key Result（关键结果） | 量化的成功标准 | 可测量、有挑战性（通常完成70%即为优秀）、有时限 | "努力做好"（不可测量） |
 
 **OKR 与 KPI 的区别**：
-- KPI 回答"做得好不好"（衡量稳态业务的健康度）
-- OKR 回答"往哪里突破"（聚焦改变的方向和幅度）
-- KPI 是仪表盘，OKR 是导航指向
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### OKR 设定原则
 
@@ -133,15 +133,15 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 ### KR 的"好 vs 坏"判断标准
 
 好的 KR 满足 SMART 原则：
-- **Specific**：具体指向什么
-- **Measurable**：可以量化测量
-- **Achievable**：有挑战但可实现（跳一跳够得着）
-- **Relevant**：与 O 直接相关
-- **Time-bound**：有明确的时间节点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 示例对比：
-- 坏 KR："提升用户满意度"
-- 好 KR："Q2末前将 NPS（净推荐值）从 35 提升至 45"
+- src_unknown
+- src_unknown
 
 ### OKR 实施的常见陷阱
 
@@ -153,9 +153,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 ## 如何使用：季度 OKR 设定与复盘 SOP
 
 ### 进入标准
-- 业务方向至少能稳定 1 个季度，不需要每周 pivot
-- 能列出 3-5 个战略变量或关键假设
-- 团队愿意每周/双周花 30 分钟对齐进展
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四步闭环
 1. **设定**：用业务公式/关键假设推导 O → 每个 O 写 3-5 个 SMART KR
@@ -184,9 +184,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 
 **W. Edwards Deming**（统计学家、质量管理之父，帮助日本战后工业复兴的核心人物）在其名著 *Out of the Crisis* 中直接将"目标管理"（Management by Objectives）列为管理的"七大致命疾病"之一。Deming 的论证：
 
-- **数值目标没有附带方法，就是恐吓**："把销售额提高 20%——如果不告诉团队怎么做，这个目标只是把你的焦虑转移给了下属。"
-- **目标管理导致短视**：人们会砍掉一切不能快速贡献数字的工作——培训、创新、系统建设——因为数字是唯一的判准。
-- **目标数字容易被操纵**：Deming 发现，当目标用数字考核时，人们会找到至少 5 种方法让数字好看但不创造价值——"把下季度的订单挪到这个季度""降低质量标准来减成本""只做能产生数字的客户、放弃有长期价值的客户"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Deming 并非反对目标——他反对的是"只给数字不给方法"的目标管理。他的替代方案是"领导力替代目标管理"：管理者亲自下现场，理解过程的变异，帮助下属移除障碍，而不是坐在办公室看 KPI 仪表盘。OKR 试图通过"目标（定性）+ KR（定量）"的分离来解决这个问题，但 Deming 会指出：只要最后考核的还是 KR 数字，OKR 和 KPI 就没有本质区别。
 
@@ -196,9 +196,9 @@ Deming 并非反对目标——他反对的是"只给数字不给方法"的目�
 
 **Jerry Z. Muller**（美国天主教大学历史学教授，*The Tyranny of Metrics* 作者）系统性地整理了一个世纪以来"指标考核"在各行各业造成的灾难性后果。Muller 归纳了指标专政的几大失败模式：
 
-- **Campbell 定律**：一个社会指标越是被用于决策，它就越容易受到腐败压力——考核学生考试分数的学校，教师开始替学生答题。考核 OKR 完成率的团队，Leader 开始设低目标或操纵数据。
-- **奶油挑拣（Creaming）**：当完成率是唯一判准时，人们会"挑最软的柿子捏"——销售只跟容易成交的客户，避开需要长期耕种的战略客户。OKR 完成了，但战略机会窗关闭了。
-- **目标取代（Goal Displacement）**：人们把"完成 KR"等同于"完成目标"，忘了 KR 只是目标的代理变量。团队完成了"发布 10 篇内容"的 KR 但没有任何一篇有影响力——因为目标"建立行业权威"无法被任何 KR 完美代表。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Muller 的核心洞见：**很多最重要的东西是根本无法被测量的**——员工的忠诚、品牌的吸引力、创新的萌芽——而在一个用指标管理一切的组织中，这些不可测量的东西会系统性贬值，最终消亡。
 
@@ -235,31 +235,31 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 
 ## 行动 Checklist
 
-- [ ] 本季度方向能稳定至少 8-12 周，不需要每周 pivot
-- [ ] 已用业务公式/关键假设推导出 3-5 个 Objective
-- [ ] 每个 O 配有 3-5 个满足 SMART 原则的 KR
-- [ ] 至少 30% 的 KR 来自团队自下而上提案，而非领导分摊
-- [ ] 全员 OKR 公开透明，任何人都能看到
-- [ ] 已明确宣布本季度 OKR 不与绩效奖金直接挂钩
-- [ ] 已锁定双周/周度 Review 时间，并写入日历
-- [ ] 每次 Review 只问三句话：上周进展？本周优先级？需要什么帮助？
-- [ ] 季度末做一次"KR 拆谎"：逐个 KR 问是否创造真实用户/客户价值
-- [ ] 复盘会按学习会三问进行：目标还成立吗？哪些假设失效了？下个周期调整什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 相关卡/互链
 
-- [[yt-management-business-formula]] — 业务公式：OKR 中的 Key Results 应直接来源于业务公式中的关键变量——业务公式告诉你什么重要，OKR 告诉你这些重要的事要做到什么程度
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：当多个可能的 OKR 争夺有限资源时，需要决策模型来排优先级
-- [[yt-management-scientific-meetings]] — 科学开会：OKR 周复盘会是科学开会方法论最重要的应用场景之一
-- [[yt-management-project-management]] — 科学项目管理：项目管理的目标设定层直接对接 OKR
-- [[yt-tool-okr-cycle]] — OKR 制定与复盘罗盘：目标管理的工具化升级，提供完整的 OKR 周期流程
-- [[yt-management-strategy-meeting]] — 战略会：战略会的输出应转化为下一周期的 OKR
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）
-- [[yt-personal-ipo-learning]] — 科学学习（IPO 模型）：个人 OKR 与科学学习方法论可以结合用于个人成长管理
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：OKR 工具是管理者武器库中最精良也是最容易被滥用的武器——用得好是执行加速器，用不好是组织毒药。Deming+Muller 的警示就是这把武器的安全使用说明书
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：OKR 的第一关不是"写好"，而是"讲懂"——如果团队成员不能用自己的话讲清楚"这个季度的 O 是什么意思"，KR 写得再漂亮也没用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown：OKR 工具是管理者武器库中最精良也是最容易被滥用的武器——用得好是执行加速器，用不好是组织毒药。Deming+Muller 的警示就是这把武器的安全使用说明书
+- src_unknown
 
 ### 知识体系定位
 
@@ -281,6 +281,6 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 
 ### 跨学科锚点
 
-- OKR 方法论由 Intel 的 Andy Grove 发明，John Doerr 引入 Google 并推广至全球。《Measure What Matters》（衡量重要之事）是现代 OKR 实践的标准参考文献。
-- OKR 与彼得·德鲁克 MBO（目标管理，Management by Objectives）一脉相承——德鲁克在1954年《管理的实践》中首次提出目标管理思想，OKR 是其在互联网时代的具体实现形式。
-- "OKR 不与绩效挂钩"这一关键原则是 Google OKR 成功的核心密码之一，也是大多数公司复制 OKR 失败的首要原因。
+- src_unknown
+- src_unknown
+- src_unknown

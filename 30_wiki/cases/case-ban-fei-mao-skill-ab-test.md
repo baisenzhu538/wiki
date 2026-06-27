@@ -5,8 +5,8 @@ title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -18,27 +18,27 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
-- 关键测试数据与评分维度已记录
-- 可迁移条件和失败模式已明确
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：Skill A/B 测试
 
@@ -55,15 +55,15 @@ pipeline:
 ### 决策 1：选择两类代表性测试场景
 
 半肥猫没有只测一种场景，而是同时覆盖：
-- **正常业务场景**：烘焙店，有小程序、三个小社群，每周三次新品和活动。容错率相对较高。
-- **高风险场景**：保险产品销售方案设计。敏感行业、低容错率，对合规性和拒绝能力要求更高。
+- src_unknown
+- src_unknown
 
 两类场景的对比能检验 Skill 的边界是否在"安全区"和"危险区"都有效。
 
 ### 决策 2：设计 A/B 对照组
 
-- **方案 A（挂载 Skill）**：在 AI 客户端中部署制作好的转化率黑客 Skill。
-- **方案 B（裸模型）**：同样的 AI 客户端，不挂载 Skill，使用通用大模型直接回答。
+- src_unknown
+- src_unknown
 
 两组使用完全相同的测试题，避免 prompt 差异干扰评分。
 
@@ -155,13 +155,13 @@ pipeline:
 
 **什么时候不应该用这个测试方法**：
 
-- 仅仅做"生成"任务（如写文案、调整格式）的 Skill —— 这套评估维度是为"诊断+分析+决策"型 Skill 设计的，不适合纯执行型任务。
 - src_unknown
-- 评分者自己对评分维度的定义不清楚 —— 评分标准需要在测试前先和 AI 约定好。
-- 把 12 维度当作"万能 checklist" —— 维度是为转化率黑客这类商业诊断 Skill 设计的，直接套用到技术型、创意型 Skill 上会失真。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- **[[concept-半肥猫-ai-learning-toolification-methodology]]** — 半肥猫"课程→Skill 化"的方法论底座，本案例是该方法论中"验证"环节的具体实践。
 - src_unknown
-- **[[dk-ban-fei-mao-skill-rejection-value]]** — 解释为什么"拒绝能力"是 Skill 价值的核心维度，本案例用数据验证了这一点。
+- src_unknown
+- src_unknown

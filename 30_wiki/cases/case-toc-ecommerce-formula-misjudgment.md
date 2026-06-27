@@ -6,19 +6,19 @@ title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
 status: enriched
 domain:
-- yitang
-- e-commerce
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#industry/ecommerce'
-- '#domain/yitang'
-- '#chunk-type/error-data'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -29,16 +29,16 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[yt-management-business-formula]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-entrepreneur-unit-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# ToC 消费品电商：业务公式拆解误判导致放量亏损
 
 > 一堂业务公式拆解培训的核心案例：一个创始人有 10 年经验的 ToC 消费品品牌，因为把「GMV = 流量 × 转化 × 客单价 × 复购」拆得太粗，误判核心矛盾，追加 200 万投放只增长 100 万营收，最终亏损。  
@@ -68,8 +68,8 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 他认为：
-- 首单单位经济模型（LTV/CAC）≈ 1.5，业务可复制
-- 瓶颈在于流量不够，所以加大投放
+- src_unknown
+- src_unknown
 
 这个拆解的问题：
 1. **只列变量，没有定量**：转化率、复购率只是概念，没有和行业基准对比。
@@ -104,9 +104,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 **关键动作**：
-- 优化落地页，提升商品页查看率和结算率
-- 提升人群精准度（而不是单纯加流量）
-- 增加信任背书（资质认证、客户证言、退换货政策）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：提升复购率（从 5% → 15%）
 
@@ -122,9 +122,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 **关键动作**：
-- 增加信息触达率（复购提醒、效果反馈）
-- 提升客户使用体验
-- 设计复购触发场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -137,9 +137,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ### 2. 放量前必须验证单位模型
 
 小规模跑通 ≠ 大规模可复制。必须验证：
-- 转化率是否达到行业基准？
-- 复购率是否支撑 LTV？
-- 边际获客成本是否可控？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 核心矛盾可能不在你最关注的变量上
 
@@ -160,9 +160,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：本案例的拆解应使用 ABC 模型
-- [[yt-business-formula-parameter-iceberg]]：从 L1 粗数据深入到 L4 转化参数
-- [[yt-business-formula-six-level-logic]]：创始人的拆解停留在 L4 公式层，但缺少 L5 定量
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -170,22 +170,22 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ### Before（错误拆解）
 
-- 创始人拆解：`GMV = 线索 × 转化 × 客单价 × 复购`
-- 判断：首单单位经济模型 OK，可以复制扩大
-- 动作：追加 200 万广告投放
-- 结果：增加 200 万投放，只增长 100 万营收，发生亏损
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### After（正确拆解）
 
-- 流量 11,000 UV/天，转化率 2%，复购率 5%
-- 行业基准：转化率 3-4%，复购率 13-17%
-- 核心矛盾：转化率和复购率显著低于行业基准，而非流量不足
-- 正确动作：应先优化落地页提升转化率，再增加信息触达提升复购率
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 真实锚点
 
-- 该案例来自一堂培训中的真实教学案例（讲师口述）
-- 数据量级（200 万投放、300 万营收、1.1 万 UV/天）可直接用于课堂讨论
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,9 +202,9 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ### 什么时候应该学这个案例
 
-- 你准备为一个「看起来跑通」的业务追加资源时
-- 团队讨论业务时只关注最显眼的变量（如流量、投放）时
-- 你需要向团队证明「小规模跑通 ≠ 大规模可复制」时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 
@@ -227,14 +227,14 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ## 验证与参考
 
-- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
-- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md`
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、经营数据、错误拆解、正确拆解路径（直接来自逐字稿和口述稿）
-- **中置信度**：行业基准数据（转化率 3-4%、复购率 13-17%）来自讲师口述，需结合具体品类确认
-- **待复核**：创始人的具体品牌、行业、SKU 细节在材料中未披露
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,13 +10,13 @@ created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "三轮学习设计"
-  - "从调研认知到AI调研武器库"
-  - "第0期的特殊性"
-  - "调研段位"
-  - "调研行动营"
-  - "调研行动营：从调研认知到AI调研武器库"
-  - "调研黑客五步曲"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260510_2ba8671c-创业-调研行动营口述01
@@ -31,8 +31,8 @@ yitang:
   module: "创业必修"
   course_type: action_camp
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户上完行动营但调研能力没提升', 'framework_lens': '课程没有转化为练习', 'follow_up_question': '你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升'}
   - {'signal': '用户只学AI工具，不提升调研认知', 'framework_lens': '三轮学习失衡', 'follow_up_question': '你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升'}
@@ -40,11 +40,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-model-liberate-thinking-layers]]'
-  - '[[yt-personal-thinking-models]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 调研行动营：从调研认知到AI调研武器库
 
@@ -87,10 +87,10 @@ related:
 
 ### 第0期的特殊性
 
-- 内容有时效性——包含当前市场环境的具体案例
-- 学员作业被实时点评——"你这周交的作业就在今天晚上这节课当中"
-- 可能不会上架课程库——"只此一次，千万别等着后面课程上架再去选课学习"
-- 2026年一堂将进行大量课程模式迭代——"你们会见到一个非常不一样的"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -105,7 +105,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
+- src_unknown
 
 ## Constraints & Boundaries
 

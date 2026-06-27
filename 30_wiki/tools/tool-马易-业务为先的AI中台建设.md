@@ -4,35 +4,35 @@ title: 技能：业务为先的AI中台建设
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-implementation
+- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI落地场景识别 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 wiki_refs:
-- '[[yt-entrepreneur-pragmatic-startup]]'
-- '[[ai-landing-scene-selection]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 有真实失败案例
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 基础AI工具（ChatGPT/Claude等）
-- 现有业务系统
-- 简单自动化脚本
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[dk-modeling-ai-judgment-limit]]'
-- '[[dk-modeling-ai-compound-leverage]]'
-- '[[tool-纪浩-AI对话上下文隔离]]'
-- '[[master-ai-info-literacy]]'
-- '[[yt-model-prompt-engineering]]'
-- '[[tool-马易-数据存储架构选择]]'
-- '[[yt-entrepreneur-pragmatic-startup]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师
 confidence: 0.85
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 trust_level: medium-high
 source_refs:
@@ -43,11 +43,11 @@ source_refs:
 
 ## Claims
 
-- claim:01 [conf=0.90] **AI 落地的正确顺序是"场景→流程→工具"，而非"工具→平台→场景"**。先建中台再找场景是拿着锤子找钉子——中台建设周期长（3-6个月），期间业务需求可能已经变了三轮。马易的核心主张：从具体业务痛点出发，倒推需要什么工具。
+- src_unknown
 
-- claim:02 [conf=0.85] **最小工具组合比全栈平台更适合资源有限的团队**。小团队不需要 Data Lake + Model Registry + CI/CD Pipeline。一个 GPT API + 一段 Python 脚本 + 一个定时任务，往往就够跑通第一个业务闭环。
+- src_unknown
 
-- claim:03 [conf=0.80] **"先平行再独行"是最低风险的验证策略**。新 AI 流程先和人工流程平行运行 3 个月，对比效果后再决定是否替换。直接替换的风险是 AI 在边缘 case 上出错而没有人兜底。
+- src_unknown
 
 ## 操作步骤
 
@@ -63,23 +63,23 @@ source_refs:
 
 ## 适用场景
 
-- 个人或小团队（<10 人）想引入 AI 提效
-- 有明确、重复性的业务任务（如日报生成、客服分类、数据录入）
-- 资源有限，不能投入复杂架构或专职 AI 工程师
-- 需要快速验证 AI 在某个场景是否可行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已经有专职 AI/ML 团队且有成熟平台——应该用更工程化的方案
-- 业务需求极度不稳定、每周都在变——先稳定业务流程再考虑 AI 化
-- 涉及合规/安全的强监管场景（医疗诊断、金融风控）——需要额外的合规审查层
-- 纯为"技术先进性"而非业务需求驱动——建完也不会有人用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 基础 AI 工具（ChatGPT API / Claude API）
-- 现有业务系统（不做额外集成）
-- 简单脚本（Python / Apple Shortcut / Make.com）
+- src_unknown
+- src_unknown（不做额外集成）
+- src_unknown
 
 ## 常见失败模式
 
@@ -111,8 +111,8 @@ source_refs:
 
 ### 内部局限
 
-- **"最小工具组合"的天花板**：当业务量从 200 条/天涨到 2000 条/天时，API cost + 胶水脚本的维护成本会超过建正式系统的成本。这套方法是为 0→1 设计的，1→10 需要另一个方法论。
-- **业务痛点识别依赖人的自我觉察**："上周哪件事最费时间"这个问法，对习惯性加班的人可能无效——他们已经把低效当成常态。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -138,8 +138,8 @@ source_refs:
 
 ## 来源
 
-- 马易，AI 落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

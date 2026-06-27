@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-13'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,31 +21,31 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-framework-three-axes
-  - ai-short-drama-conflict-three-axes
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#industry/content-creation'
-- '#content-format/concept-card'
-- '#content-format/checklist'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"让AI写剧本，越写越跑偏"
+- src_unknown
   framework_lens: 第一板斧·剧本基地
   follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？
-- signal: 用户说"剧情写到中段不知道往哪走"
+- src_unknown
   framework_lens: 第二板斧·内容走向
   follow_up_question: 你是否提前锁定了 10-15 个关键剧情节点？
-- signal: 用户说"结局烂尾，收不住"
+- src_unknown
   framework_lens: 第三板斧·剧情终局
   follow_up_question: 你在写第一集时是否已明确结局的情绪落点和价值主张？
-- signal: "AI 输出的剧本像流水账，没有钩子"
+- src_unknown
   framework_lens: 第二板斧·内容走向
   follow_up_question: 你是否为每个节点标注了情绪功能（铺垫/冲突/反转/卡点/情绪峰值）并为节点串起了情绪曲线？
-- signal: "结局和前面剧情对不上，像硬凑的"
+- src_unknown
   framework_lens: 第三板斧·剧情终局
   follow_up_question: 你在设计走向时是否用终局倒推检查过每个关键节点都指向这个结局？
-- signal: "写完发现不符合平台调性，抖音/红果看不下去"
+- src_unknown
   framework_lens: 第一板斧·剧本基地
   follow_up_question: 你的剧本基地里是否写清楚了目标平台、受众画像、节奏与钩子密度要求？
 
@@ -60,13 +60,13 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **顺序不能跳**：必须先建基地，再定走向，最后锁终局；跳步会导致后续不断返工。
-- **基地七要素**：题材、主角、核心欲望、核心阻碍、故事场景、情绪价值、目标平台——缺一不可。
-- **走向靠节点驱动**：10-15 个关键节点按「起→承→转→合」分布，每 3-5 集一个小反转，每 10 集一个大反转。
-- **节点要有情绪曲线**：不仅标注功能（铺垫/冲突/反转/卡点/情绪峰值），还要串起「爽→抑→惊→暖」等情绪起伏。
-- **终局必须前置**：第一集动笔前确定结局类型、情绪落点和价值主张，并用终局倒推检查节点。
-- **分阶段投喂 AI**：一次给全量要求容易输出混乱，应拆成「基地 → 走向 → 终局」三阶段 prompt。
-- **配套使用**：策划三板斧解决「写什么」，剧情/冲突/结构三板斧解决「怎么写得有爆款感」。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -84,12 +84,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 剧本策划三板斧是 AI 短剧创作的前置框架，三斧分别对应：基础设定、剧情脉络、结局闭环。
-- **C2 [conf=0.9]**: 剧本基地必须包含七要素：题材、主角、核心欲望、核心阻碍、故事场景、情绪价值、目标平台。
-- **C3 [conf=0.85]**: 内容走向需要锁定 10-15 个关键剧情节点，按"起→承→转→合"分布，每 3-5 集设置一个反转或卡点。
-- **C4 [conf=0.85]**: 剧情终局要在动笔前确定情绪落点和价值主张，避免写到后期烂尾或强行圆满。
-- **C5 [conf=0.8]**: 三斧可转化为 AI prompt 模板，先让 AI 输出基地，再生成走向，最后设计终局，分阶段降低 AI 跑偏概率。
-- **C6 [conf=0.75]**: 该工具与"剧情三板斧"配合使用：策划三板斧解决"写什么"，剧情三板斧解决"怎么写得有爆款感"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -181,14 +181,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已填写剧本基地七要素，输出一份 ≤20 行的基地文档
-- [ ] 已列出 10-15 个关键剧情节点，并标注每节点功能
-- [ ] 已为节点串起情绪曲线（爽/抑/惊/暖等）
-- [ ] 已确定结局类型、情绪落点、价值主张
-- [ ] 已倒推检查所有关键节点都指向终局
-- [ ] 已将要求拆成三阶段 AI prompt 并逐阶段确认
-- [ ] 已对照目标平台调性检查钩子密度与题材偏好
-- [ ] 已与剧情三板斧/冲突三板斧/结构三板斧对齐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -196,9 +196,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 三个板斧的命名偏文学化（"夯根基""明轨迹""落华章"），实际含义需要解释，对新手不够直观。
-- 英文标注存在 OCR 错误和疑似乱码，说明原图制作时未做校对，降低了专业感。
-- "内容走向"只强调节点数量，未给出节点之间的"情绪曲线"设计方法。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：John Truby — "节点清单不能替代人物欲望"
 
@@ -210,9 +210,9 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果剧本基地缺少"目标平台"字段，会出什么问题？剧本可能在抖音上节奏太慢，在腾讯视频上题材不匹配。
-- 如果内容走向节点之间没有情绪曲线设计，会怎样？剧情会机械推进，观众感受不到情绪起伏。
-- 如果终局没有倒推检查节点，会怎样？结局与铺垫脱节，出现强行圆满或烂尾。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -220,18 +220,18 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：剧本策划三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes]]：与策划三板斧配合使用的剧情张力工具
-- [[ai-short-drama-framework-three-axes]]：策划之后的结构框架工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：剧本策划三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes]]：与策划三板斧配合，解决"怎么写得有爆款感"
-- [[ai-short-drama-conflict-three-axes]]：张力设计工具
-- [[ai-short-drama-framework-three-axes]]：策划之后的结构搭建工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -260,16 +260,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.png` — 原始信息图
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧本策划三板斧-图片-01.json` — OCR 结构化 JSON
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- `src_20260613_61c0cd80-ai-short-drama-script-planning-three-axes.md:11-14` — 归档后的原图摘要
+- src_unknown
 
-- 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md:11-14` — 剧本策划三板斧原图（剧本基地/内容走向/剧情终局）
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md` — 口述中关于剧本基地与内容走向的讲解
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:50-76` — 剧本策划三板斧结构化笔记
+- src_unknown
+- src_unknown
+- src_unknown
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧本策划三板斧图片*

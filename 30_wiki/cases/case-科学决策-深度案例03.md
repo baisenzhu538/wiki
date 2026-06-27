@@ -9,18 +9,18 @@ confidence: 0.70
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例03_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例03.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-决策深度-L3定量公式]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例03_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例03.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例03_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了内部工具自研决策中的成本收益量化方法。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,11 +40,11 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家有班主任团队的公司
-- **决策问题**：是否自研 IM+CRM 系统
-- **关键成本**：开发粗糙版本至少 8 万元（2 个研发 × 1 个月 + PM/设计师等综合成本）
-- **关键收益**：给班主任节省回复消息时间，年创造价值约 10 万元
-- **收益计算逻辑**：6 个班主任 × 综合成本 1.5 万/人 × 回复消息时间占比 10% × 效率提升 100%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -80,36 +80,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **自研派**：自研更贴合业务流，数据自主可控，长期边际成本低。
-- **外采派**：市面上已有成熟 SaaS，采购总拥有成本更低，风险更小。
-- **财务保守派**：案例中的 10 万收益基于多个未验证假设，实际可能远低于此。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **内部工具自研 vs 采购**：HR 系统、财务系统、客服系统等。
-- **自动化投入决策**：用"人数 × 时间占比 × 效率提升"量化 RPA 或 AI 工具的价值。
-- **外包 vs 自建团队**：把"自己做"的时间成本和"外包"的现金成本并列比较。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 看到"效率提升 X%"时，必须追问：是速度、处理量还是时间转移？
-- ⚠️ "维护成本难定量"往往是维护成本被低估的信号。
-- ⚠️ 自研决策必须同时评估外采方案，否则容易陷入能力陷阱。
-- ⚠️ 收益公式中的每个参数都必须标注来源和置信度。
-- ⚠️ 人数、时间占比等假设要做敏感性分析。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L2/L3——从定性判断升级到部分定量公式。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在内部工具决策场景的应用。
-- **[[tool-决策深度-L2部分定量]]**：案例展示了"不能全定量但可以给公式"的 L2 方法。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Simon（有限理性）**："人数 × 人力成本 × 时间占比 × 效率提升"假设效率与成本节约是线性关系。但实际上，效率提升可能导致工作重新分配、团队结构调整甚至裁员。如果实际效率只提升 50%，决策还值得吗？[conf=0.75, source=Herbert Simon, Administrative Behavior]
-- **Christensen（能力陷阱）**：企业常常因为"能做"而选择自研，忽略外部更优方案。"维护成本较低但难定量"本身就是警示——难以定量的成本往往最高。[conf=0.80, source=Clayton Christensen, The Innovator's Dilemma]
+- src_unknown
+- src_unknown
 
 ---
 

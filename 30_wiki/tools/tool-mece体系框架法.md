@@ -4,29 +4,29 @@ title: 技能：MECE体系框架法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-动手建模法]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[tool-专题笔记脑图整理法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-动手建模法]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[tool-专题笔记脑图整理法]]'
-- '[[concept-问题驱动式深度思考笔记]]'
-- '[[tool-多源输入法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 雷达图
-- MECE分析框架
-- 流程图
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 花了三天分类却忘了分类的目的是什么
+- src_unknown
   lens: MECE强迫症
   follow_up: MECE是工具不是目的，分类前明确要解决的问题，'完全穷尽'是理想状态，'足够全面'即可
-- signal: 按'重要程度'分了高/中/低三档，但'重要'定义模糊
+- src_unknown
   lens: 分类维度假象
   follow_up: 好的分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
-- signal: 搭完框架就放在那，没有用于实际问题拆解
+- src_unknown
   lens: 只分不合
   follow_up: 框架必须经过'填充—验证—迭代'的循环才能产生认知价值，MECE的价值在'用'不在'看'
-- signal: 基于去年业务结构建的MECE框架，今年业务变了但框架没更新
+- src_unknown
   lens: 框架过时
   follow_up: 定期Review框架有效性，业务变化时同步更新分类维度
-- signal: 花三天搭建完美MECE框架，机会窗口已关闭
+- src_unknown
   lens: 过度分析
   follow_up: 快速变化市场中，先行动再迭代，MECE框架可边用边完善
 ---
@@ -91,21 +91,21 @@ diagnostic_signals:
 ## Critique
 
 1. **MECE 不是“分类完美主义”，而是“思考不遗漏的安全网”**
-   - 追求绝对完美的 MECE 是陷阱——分类的目的是解决问题，不是展示分类技术
-   - “完全穷尽”是理想状态，实际应用中达到“足够全面”即可
+   - src_unknown
+   - src_unknown
 
 2. **框架的价值在于“用”不在于“看”**
-   - 搭建了 MECE 框架却不用于实际问题拆解 = 零价值
-   - 框架必须经过“填充—验证—迭代”的循环才能产生认知价值
+   - src_unknown
+   - src_unknown
 
 3. **好的分类维度必须可操作、可复现**
-   - “重要性高/中/低”不是好的分类——它依赖主观判断，不同人/不同时间结果不同
-   - 好的分类应该是“可观察、可量化、无争议”的
+   - src_unknown
+   - src_unknown
 
 ## 工具/环境
-- 雷达图
-- MECE分析框架
-- 流程图
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -126,10 +126,10 @@ diagnostic_signals:
 4. 最后一次使用这个框架是什么时候？如果超过 3 个月没用，说明它可能已经过时。
 
 ## 常见失败模式
-- MECE强迫症：追求完美的"相互独立+完全穷尽"，花了三天分类却忘了分类的目的是什么——MECE是工具不是目的
-- 分类维度假象：按"重要程度"分了高/中/低三档，但"重要"的定义模糊，同一个人不同时间分出来的结果不同——好的分类维度应该可操作、可复现
-- 只分不合：搭完框架就放在那，没有把框架用于实际问题的拆解——MECE的价值在"用"不在"看"
-- 框架过时：基于去年的业务结构建的MECE框架，今年业务已经变了但框架没更新
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -145,30 +145,30 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **对复杂系统的过度简化：**MECE假设元素之间可以清晰划分，但很多真实世界问题是网状的、模糊的
-- **时间成本被低估：**搭建一个真正稀疏的MECE框架可能需要数天甚至数周
-- **框架的隐藏假设：**分类维度本身就是一种假设，错误的维度会导致“系统性盲点”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **下游填充：**[[tool-动手建模法]] — MECE是建模的骨架，建完MECE框架下一步就是填充模型
-- **终端形态：**[[tool-清单小抄工具箱法]] — MECE框架的终端形态就是一张清单小抄
-- **结构化：**[[tool-专题笔记脑图整理法]] — MECE框架帮专题笔记的脑图建立逻辑结构
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂科学学习IPO中，本技能位于 **输出层(Output)→体系框架**
-- 是“知识内化”到“知识输出”的过渡环节
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **逻辑学（排中律）：**MECE 本质上是排中律的应用——"相互排斥"确保无重叠，"完全穷尽"确保无遗漏
-- **计算机科学（树结构）：**MECE 分类与树形结构的层级分类同构
-- **生物学（系统发育学）：**MECE 假设系统是“树状”的，但复杂生态系统往往是网状的——这是MECE在复杂系统中的本质局限
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-动手建模法]] — MECE是建模的骨架，建完MECE框架下一步就是填充模型
-- [[tool-清单小抄工具箱法]] — MECE框架的终端形态就是一张清单小抄
-- [[tool-专题笔记脑图整理法]] — MECE框架帮专题笔记的脑图建立逻辑结构
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L2.体系框架：建MECE体系，完整逻辑链条(N步法)，稳定体系长期迭代

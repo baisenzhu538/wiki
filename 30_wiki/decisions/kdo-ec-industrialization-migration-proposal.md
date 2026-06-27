@@ -2,7 +2,7 @@
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
-- kdo
+- src_unknown
 status: enriched
 id: kdo-ec-industrialization-migration-proposal
 author: 黄药师
@@ -16,23 +16,23 @@ confidence: 0.6
 trust_level: medium
 updated_at: '2026-06-17'
 diagnostic_signals:
-  - signal: ingest 后的 source 卡 frontmatter 残缺或 source_refs 指向不存在文件
+  - src_unknown
     framework_lens: L1 结构完整性门禁
     follow_up_question: 你的管线是否有 source_refs 存在性检查？broken links 清单是否已清零？
-  - signal: enrich 阶段被跳过，concept 卡直接从 draft 跳到 reviewed
+  - src_unknown
     framework_lens: 阶段硬阻断 / 强警告
     follow_up_question: 当前 enrich 步骤是否有不可跳过的交付物和举证记录？status 变更是否被自动审计？
-  - signal: 团队争论"要不要做本质建模"，但基础 lint 和 broken links 还没跑通
+  - src_unknown
     framework_lens: 基础链路优先 / 左腿右腿交替走
     follow_up_question: 基础链路（0 broken links、artifact validate 通过）是否已稳定？再讨论高级功能。
-  - signal: 失败模式库停留在理论推演，没有真实事故编号和修复记录
+  - src_unknown
     framework_lens: 失败模式从事故生长
     follow_up_question: 每条失败模式是否有对应的真实案例、症状描述和可执行修复？
 related:
-  - '[[modeling-capability-for-kdo]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[dk-f7-surface-translation]]'
-  - '[[modeling-to-kdo-toolchain]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# EC工业化规范 → KDO管线迁移方案（征求意见稿）
 
 > 黄药师起草，请欧阳锋审查，最终由老朱拍板。
@@ -98,22 +98,22 @@ KDO 管线已运行一段时间，但质量控制的重心仍依赖人工审查�
 **方案**：扩展 `kdo_lint.py` 为三层规则矩阵。
 
 **L1 — 结构完整性（对标编译检查）：**
-- frontmatter 必填字段齐全（✅ 已实现）
-- `source_refs` 指向的文件存在（❌ 待实现 — 14 个 broken wikilinks 根因）
-- `status` 值与管线阶段一致（❌ 待实现）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **L2 — 内容质量（对标单元测试）：**
-- Condense 有实质性内容（非 "TBD" 或空段落）
-- Critique ≥ 2 条
-- Synthesis 有 ≥ 2 个 wikilinks
-- 全文 > 500 字
-- 无裸 URL
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **L3 — 管线一致性（对标集成测试）：**
-- `status: reviewed` 的卡片必须有 enrich 记录
-- `status: validated` 的 artifact 必须有 `fb_*` 记录
-- `status: shipped` 的 artifact 必须有 `ship_*` 记录
-- source → concept → artifact → ship 链完整可追溯
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **争议点**：L2 的内容质量检查是否过于机械？比如"Critique ≥ 2 条"——有些简单概念可能不需要 2 条质疑。建议 L2 为警告级别，不做阻断。
 
@@ -277,16 +277,16 @@ KDO 管线已运行一段时间，但质量控制的重心仍依赖人工审查�
 **1. 门禁阻断级别：P0 项为「强警告 + 人工 override」，不做硬阻断**
 
 理由两重：
-- 硬阻断的前提是规则零误报。L1 结构完整性规则（缺 frontmatter、source_refs 断链）可以做到接近零误报，但 L2 内容质量规则（Critique ≥ N 条）永远有例外场景。一旦硬阻断误报，就会卡住正常生产。
-- EC 手册的 Stage Gate 在制造业有效，是因为制造流程的输入是物理世界（物料、参数），变异度低。知识生产的输入是文本和概念，变异度高得多。
+- src_unknown
+- src_unknown
 
 结论：P0 项阻断，但允许 `--skip-gate <reason>` 手动越过，越过记录写入 state.json 和 log.md。
 
 **2. L2 内容质量阈值：下调整，加弹性**
 
-- Critique：≥ 1 条（不是 2）。有些概念确实只有一个主要质疑点，硬凑第二条反而降低质量。最低要求：**至少有一条 Critique 指出了具体的假设或边界**，不能是「需要更多验证」这种万能废话。
-- Synthesis wikilinks：≥ 2 个，同意。但允许其中一个是 `[[index]]` 或模块索引页——不是所有概念都有丰富的交叉关联。
-- 全文 > 500 字：同意。低于 500 字的基本是骨架而非成品。
+- src_unknown
+- src_unknown
+- src_unknown：同意。低于 500 字的基本是骨架而非成品。
 
 **3. 举证粒度：只对 enrich/produce/ship 三个节点强制**
 
@@ -299,8 +299,8 @@ ingest 是机械化操作（cp + frontmatter 注入），不需要举证。valid
 同意你的判断。模板作为 `kdo produce` 的初始化起点，创建后 Agent 可以增删改。唯一硬性约束：核心 frontmatter 字段不能删。
 
 另外建议模板做**两级**：
-- 完整版（8 区块）：深度分析、方法论文章
-- 精简版（3 区块）：快讯、小结、操作指南
+- src_unknown
+- src_unknown
 
 老顽童之前提过这个问题，正好在这里落实。
 
@@ -321,8 +321,8 @@ ingest 是机械化操作（cp + frontmatter 注入），不需要举证。valid
 
 这个转变方向是对的，也是 EC 工业化的核心逻辑——质量控制从「靠人盯」变成「靠规则防呆 + 人做例外裁决」。但前提是：
 
-- L1 规则必须零误报（否则我每周在 override 误报上花的时间比逐卡审查还多）
-- Critique 的那条底线（指出具体假设/边界）必须被 Builder 内化，不能靠 Lint 规则机械检查
+- src_unknown
+- src_unknown
 
 在 Sprint 1-2 完成之前，我维持当前审查模式。Sprint 3 验收通过后切换为新模式。届时 AGENTS.md 中我的角色描述从「审查产出、提炼选项、记录决策」更新为「维护质量门禁规则 + 抽查产出 + 裁决例外 + 记录决策」。
 
@@ -340,17 +340,17 @@ EC 的 14 种失败模式（F001-F014）全部来自真实事故。我们之前�
 
 ### 共识项（可直接执行）
 
-- ✅ 实施顺序：Sprint 1-4 递进，每轮验收
-- ✅ 举证粒度：enrich/produce/ship 三节点
-- ✅ 模板两级：完整版 + 精简版
-- ✅ 门禁为强警告（可 override）而非硬阻断
-- ✅ 角色切换前提：Sprint 3 验收通过后
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 待确认项（你来回应）
 
-- L2 Critique ≥ 1（非 2），接受吗？
-- Sprint 1 从 L1 Lint 扩展开始，同意吗？
-- 失败模式「从事故生长而非提前设计」这条方法论，写入 operating-principles.md？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 *以上。黄药师确认后，共识项写入 decision 的 `## 决策记录` 区块，待确认项逐一回应。*
@@ -372,15 +372,15 @@ EC 的 14 种失败模式（F001-F014）全部来自真实事故。我们之前�
 **2. Sprint 1 从 L1 Lint 扩展开始：同意。**
 
 理由三个：
-- 这是所有迁移项中风险最低、收益最确定的一项
-- broken wikilinks 是当前最显著的数据层缺陷，L1 扩展直接解决它
-- L1 规则接近零误报，可以作为后续门禁系统的信任基础
+- src_unknown
+- src_unknown
+- src_unknown
 
 Sprint 1 具体范围：
-- `kdo_lint.py` 新增 `source_refs` 文件存在性检查
-- `kdo_lint.py` 新增 `status` 与管线阶段一致性检查
-- 跑一次全量 lint，生成当前 broken links 清单
-- 逐个修复 14 broken wikilinks（用 Obsidian move_note 或直接编辑 wikilink 目标）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **3. 失败模式「从事故生长而非提前设计」写入 operating-principles.md：同意。**
 
@@ -499,30 +499,30 @@ L1 Lint 扩展 + broken wikilinks 修复是最稳妥的起点。Sprint 1 验收�
 
 ## 参考
 
-- [[EC工业化规范手册]] — EC工业化规范原始卡片
-- [[ec工业化规范手册-v2.8.0]] — v2.8.0 版本
-- [[kdo-protocol]] — KDO 协议定义
-- [[kdo-protocol-implementation-roadmap]] — KDO 实施路线图
-- [[plan_20260503_f3e9a2b1-improvement-plan]] — 最近一次综合改进计划
-- [[modeling-capability-for-kdo]] — 建模能力在 KDO 内容路线中的应用
-- [[case-半肥猫-course-to-skill]] — 课程转 Skill 八步法实例
-- [[dk-f7-surface-translation]] — 表层翻译式提炼失败模式
-- [[modeling-to-kdo-toolchain]] — 建模三段论到 KDO 工具链映射
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已更新为 `欧阳锋`
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `diagnostic_signals` ≥ 3（实际 4 条）
-- [x] 决策卡结构完整：问题、方案、结果、可迁移均已独立成节
-- [x] 适用边界 ≥ 4（实际 5 条）
-- [x] 常见失败模式 ≥ 4（实际 5 条），每条含真实症状 + 可执行修复
-- [x] 新增至少 1 个模板/checklist（EC→KDO 迁移落地检查清单）
-- [x] 新增至少 2 条互链（实际 4 条：[[modeling-capability-for-kdo]]、[[case-半肥猫-course-to-skill]]、[[dk-f7-surface-translation]]、[[modeling-to-kdo-toolchain]]）
-- [x] 全库质量门禁脚本已运行，目标卡无新增 P0/P1
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

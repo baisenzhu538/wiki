@@ -11,48 +11,48 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_adc5736d_wanghuan_标准的力量_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 diagnostic_signals:
-- signal: 同样的 AI 工具，别人用得更好，自己 outputs 始终平庸
+- src_unknown
   lens: 标准差距
   follow_up: 列出自己项目里的 5 条可验证质量标准，与优秀案例对比差距
-- signal: 迭代很多次，质量仍停在 60-70 分上不去
+- src_unknown
   lens: 标准模糊导致迭代无效
   follow_up: 把“高质量”拆成可检查的维度（如视觉一致性、动画节奏、信息密度）
-- signal: AI 输出单独看没问题，组合起来气质不对
+- src_unknown
   lens: 缺少整体审美标准
   follow_up: 定义风格指南：配色、节奏、信息密度、可读性优先等
-- signal: 只告诉 AI“做什么”，没告诉它“不要做什么”
+- src_unknown
   lens: 约束缺失
   follow_up: 在 BTICOE 的 C（约束）中补充至少 3 条“不能碰”的红线
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-spec-trap]]'
-  - '[[case-wanghuan-education-sales-capability-extraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 标准
-- 质量
-- 导演思维
-- 迭代
-- 3Blue1Brown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢：标准的力量——质量乘数
@@ -72,15 +72,15 @@ tags:
 ## 核心要点 / 关键事实
 
 1. **标准是乘数，不是加数**
-   - 不是“有标准就加 10 分”，而是标准为零时结果为零，标准清晰时每次迭代都往正确方向收敛。
+   - src_unknown
 2. **导演的工作是定义标准，不是操作工具**
-   - 真正拉开差距的不是工具熟练度，而是你对“好”的定义有多精准。
+   - src_unknown
 3. **行业知识变成标准库**
-   - 多年积累的行业判断，就是最重要的标准库。把它写出来、注入 AI，才是真正的竞争优势。
+   - src_unknown
 4. **标准要包含“不要做什么”**
-   - 红线不写出来，就等于不存在。AI 会按自己的理解走，直到撞上你没想到的边界。
+   - src_unknown
 5. **标准需要被显式迭代**
-   - 从模糊感觉到可检查维度，再到可量化分数，是标准从 0 到 1、从 1 到高的必经之路。
+   - src_unknown
 
 ---
 
@@ -129,18 +129,18 @@ tags:
 
 当你遇到以下情况，说明标准力量正在失效或缺失：
 
-- **信号 1**：同样的 AI 工具，别人用得更好，自己的 outputs 始终平庸。
-  - *lens*：标准差距。
-  - *跟进*：列出自己项目里的 5 条可验证质量标准，与优秀案例对比差距。
-- **信号 2**：迭代很多次，质量仍停在 60–70 分上不去。
-  - *lens*：标准模糊导致迭代无效。
-  - *跟进*：把“高质量”拆成可检查的维度（视觉一致性、动画节奏、信息密度等）。
-- **信号 3**：AI 输出单独看没问题，组合起来气质不对。
-  - *lens*：缺少整体审美标准。
-  - *跟进*：定义风格指南：配色、节奏、信息密度、可读性优先等。
-- **信号 4**：只告诉 AI“做什么”，没告诉它“不要做什么”。
-  - *lens*：约束缺失。
-  - *跟进*：在 BTICOE 的 C（约束）中补充至少 3 条“不能碰”的红线。
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -172,25 +172,25 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 为当前项目列出 3–5 条核心质量标准，每条都能被独立检查。
-- [ ] 每条标准下至少写一个“好”的示例和一个“不好”的示例。
-- [ ] 补充至少 3 条“AI 绝对不能碰”的红线约束。
-- [ ] 找到 1–2 个行业标杆或参考案例，提炼可以迁移到自己的标准。
-- [ ] 在每次迭代后打分，并记录分数变化与对应的标准调整。
-- [ ] 每季度复盘一次标准库：哪些失效了？哪些需要新增？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-bitcoe-prompt-framework]]：BTICOE 的 C（约束）和 O（输出/标准）是写入标准的具体位置。
-- [[framework-wanghuan-actor-director-mode]]：导演思维的核心就是定义标准而非亲自执行。
-- [[framework-wanghuan-task-product-system]]：产品化和系统化的质量上限由标准决定。
-- [[framework-wanghuan-harness-seven-stages]]：Harness 的每道门控都是标准的工程化落地。
-- [[tool-wanghuan-ai-business-profile]]：“我的输出标准”是业务档案中的关键字段。
-- [[dk-wanghuan-magic-defeats-magic]]：标准从零到一时，用 AI 调研最佳实践来建立临时评审框架。
-- [[dk-wanghuan-spec-trap]]：标准要定方向和红线，不要过度拆解执行细节，避免锁死 AI 上限。
-- [[case-wanghuan-education-sales-capability-extraction]]：销售能力萃取系统中的策略标准与话术标准分离。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -207,11 +207,11 @@ tags:
 **回应**：这正是为什么要保留 AI 尝试非常规方案的空间——标准定义的是底线和方向，不是唯一答案。导演的工作不是 micromanage 每个像素，而是设定约束后验收。`[[dk-wanghuan-spec-trap]]` 专门警告：过度拆解会锁死 AI 上限。
 
 **不要用**
-- 不要把它用于完全主观、无法达成共识的审美领域。
-- 不要在目标本身就是快速探索时，过早锁定 rigid 标准。
-- 不要把格式偏好和质量红线混为一谈。
-- 不要写完了标准却不验收、不打分、不迭代。
-- 不要把标杆标准当作永恒真理——业务变了，标准必须复盘。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

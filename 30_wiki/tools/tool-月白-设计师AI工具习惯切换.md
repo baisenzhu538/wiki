@@ -4,32 +4,32 @@ title: 技能：设计师AI工具习惯切换
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-最佳实践素材收集法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：设计师AI工具习惯切换
 
@@ -48,28 +48,28 @@ related:
 
 ## 适用场景
 
-- 有经验设计师转型AI工作流
-- PS等传统软件重度用户
-- 效率低下但质量过剩的场景
-- 客户满意度与交付速度冲突时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- AI生成完全无法满足的精细调整
-- 需要保持独特个人风格的创作
-- AI工具无法实现的特殊效果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AIGC图像生成工具
-- PS等专业软件（降级为精修工具）
-- 时间追踪工具
-- 提示词优化模板
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

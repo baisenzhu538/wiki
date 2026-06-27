@@ -5,27 +5,27 @@ title: 数据标注最佳实践调研报告
 type: concept
 status: draft
 domain:
-- master
+- src_unknown
 source_refs:
 - src_unknown
-- NVIDIA分块策略基准（2025）
 - src_unknown
-- Gruber本体设计五原则
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[dk-p20-bigram-fail]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[labeling-research-alignment]]'
-  - '[[ouyangfeng-labeling-research-review]]'
-  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 数据标注最佳实践调研报告
 
@@ -90,9 +90,9 @@ LobeHub 的标签验证标准：每一个子标签必须能通过"IS-A"测试：
 
 ### 为什么是混合而不是纯 LLM
 
-- Embedding 快但有"语义盲区"——两个标签描述相似但实际含义不同
-- LLM 准但会"发明标签"——在预定义集合之外自己造词
-- 混合 = 取两者的长、补对方的短
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 每块标多少标签
 
@@ -141,8 +141,8 @@ LobeHub 的标签验证标准：每一个子标签必须能通过"IS-A"测试：
 ```
 
 KDO 映射：`tag-registry.yaml` 已有 `version` 字段。需要加上：
-- Chunk 的 `tagged_with_version` 字段（记录标注时使用的 registry 版本）
-- `kdo lint --stale-tags` 检查哪些 chunk 还在用旧版标签
+- src_unknown
+- src_unknown
 
 ---
 
@@ -159,9 +159,9 @@ NVIDIA 2025 基准测试（跨多数据集）：
 | 128 token | 最低 | 最高方差 |
 
 **关键发现**：
-- 页面级分块在平均准确率和稳定性上都是赢家
-- 极端小（128 token）和极端大（2048 token）都不好——甜蜜区在 512-1024 token
-- **语义边界比 token 计数更重要**——把相互关联的规则放在一起，不要把"资格"和"例外"切开
+- src_unknown
+- src_unknown
+- src_unknown
 
 **KDO 映射**：我们的真原子（30-200 字，约 50-300 token）比 NVIDIA 最优范围（512-1024 token）更小。这不是错误——NVIDIA 测的是通用文档检索，我们做的是**精确主张级检索**。不同的目标，不同的最优粒度。
 
@@ -191,19 +191,19 @@ NVIDIA 2025 基准测试（跨多数据集）：
 ```yaml
 method:
   values:
-    - thinking-tool
-    - decision-framework
+    - src_unknown
+    - src_unknown
 ```
 
 应该是：
 ```yaml
 method:
   values:
-    - id: thinking-tool
+    - src_unknown
       label: "思维工具"
       includes: "认知模型、思维框架、启发式方法"
       excludes: "具体操作步骤、软件工具、模板"
-    - id: decision-framework
+    - src_unknown
       label: "决策框架"
       includes: "ROI评估、ABCD模型、五步法、决策矩阵"
       excludes: "通用思维方法、数据分析工具"
@@ -261,13 +261,13 @@ KDO v1.3 的标签方案**方向完全正确**（双层架构、AI自动标注�
 *黄药师 · 2026-05-31*
 
 **Sources:**
-- [HILTS: Human-LLM collaboration for data labeling](https://www.sciencedirect.com/science/article/abs/pii/S0306437925001462) — ScienceDirect, 2026
-- [Finding the Best Chunking Strategy for Accurate AI Responses](https://developer.nvidia.cn/blog/finding-the-best-chunking-strategy-for-accurate-ai-responses/) — NVIDIA, 2025
-- [RAG 落地实践：知识打标和元数据维护](https://www.53ai.com/news/RAG/2025122245728.html) — 53AI, 2025
-- [Why Annotation Taxonomy Design Is The Most Overlooked Step](https://www.digitaldividedata.com/blog/why-annotation-taxonomy-design-is-the-most-overlooked-step-in-any-ai-program) — Digital Divide Data
-- [Data Annotation Strategy: Taxonomy, Guidelines & Scaling](https://sourcebae.com/blog/data-annotation-strategy-step-by-step-guide/) — SourceBae, 2026
-- [KGC 2022 Tutorial: Taxonomy Design Best Practices](https://www.knowledgegraph.tech/kgc-2022-tutorial-foundation-for-a-knowledge-graph-taxonomy-design-best-practices/) — Knowledge Graph Conference, 2022
-- [Taxonomy Design Principles (SKOS-grade)](https://lobehub.com/skills/jacob-balslev-skill-graph-taxonomy-design) — LobeHub
-- [Gruber's Ontology Design Principles](https://bigbear.ai/blog/semantic-models/) — BigBear.ai
-- [How to Label and Rotate Training Datasets](https://dvc.org/blog/how-to-label-and-rotate-training-and-feedback-datasets-cleanly/) — DVC, 2026
-- [Multi-Layered Data Annotation Pipelines](https://www.digitaldividedata.com/blog/multi-layered-data-annotation-pipelines) — Digital Divide Data
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

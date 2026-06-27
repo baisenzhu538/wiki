@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,27 +16,27 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-  - 团队里模型名称越来越多，但新模型看起来总像旧图换了坐标轴标签。
-  - 每次做模型都从空白画布开始，纠结该用雷达图、矩阵、漏斗还是冰山图。
-  - 同一业务概念在组织内被画出五六种不同视觉形态，没有统一分类。
-  - 评审时大家争论“好不好看”，却没人问“这个形态是否匹配业务逻辑”。
-  - 想沉淀方法论，但模型资产越积越多，新人找不到可复用的范式。
-  - 为了追求“创新”硬造新框架，事后发现只是某个旧范式的变形。
-  - 几百个模型散落在各处，缺少武器库和调用标准，复用率极低。
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
-  - '[[case-yitang-model-asset-inventory]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
-  - '[[dk-modeling-business-visual-logic-match]]'
-  - '[[dk-modeling-business-visual-logic-match]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-level-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/synthesis'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/knowledge-management'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -51,12 +51,12 @@ Truman 用 AI 扫描一堂过去交付内容后，发现**三四百个模型资�
 
 ## 使用场景
 
-- 你每次建模都从零开始画框子，效率很低。
-- 你不知道该用雷达图、冰山图还是双三角。
-- 你想评估自己的模型是否只是已有范式的变形。
-- 你在设计组织知识库，想把散落的方法论归类。
-- 你需要培训新人，让他们快速调用已有范式而非重复发明。
-- 你在做 AI 辅助建模，想先给模型一个稳定的“范式调用表”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -77,11 +77,11 @@ Truman 用 AI 扫描一堂过去交付内容后，发现**三四百个模型资�
 
 ## 适用边界
 
-- **适合已经积累一定模型经验的团队**。零基础时武器库是空的，无法匹配。
-- **不适合追求“标新立异”的传播场景**。有时为了传播需要新名称，但底层仍是旧范式。
-- **武器库需要持续维护**。新增范式要审批，防止无限膨胀。
-- **不能替代逻辑洁癖**。有武器库但不会判断匹配，仍然做不出好模型。
-- **对一次性、无需复用的单张图价值有限**，这类情况直接选最直观的图即可。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -95,14 +95,14 @@ Truman 用 AI 扫描一堂过去交付内容后，发现**三四百个模型资�
 
 ## 为什么值钱
 
-- 公开资料讲单个模型，很少公开“一堂模型资产全景”和“95% 归集到二三十个范式”的内部统计。
-- 这是组织沉淀方法论的核心抓手：降低重复发明，提高复用效率。
-- AI 可以帮你扫描和归类，但**范式框架和匹配标准仍需人定**。
-- 它把“学建模”从“发明创造”变成“调用+微调”，显著降低学习曲线。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-business-visual-logic-match]] —— 业务逻辑与视觉形态的匹配原则，决定从武器库中选哪把武器。
-- [[modeling-weapon-library]] —— 建模武器库工具卡，二三十个范式的具体清单。
-- [[modeling-level-map]] —— 建模能力段位图，理解武器库调用是 L3-L4 建模者的核心能力。
-- `src_20260614_8269ccdb#2282-2317` —— Truman 口述原文：武器库与范式归集。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

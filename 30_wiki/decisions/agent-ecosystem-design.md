@@ -5,7 +5,7 @@ title: KDO Agent 体系建设方案（草案）
 type: proposal
 status: draft
 domain:
-- agent-infrastructure
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-16'
 author: 黄药师
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[graph-rag-retrieval-layer]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[proposal-prompt-injection-infrastructure]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[ai-native-im-multi-agent]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# KDO Agent 体系建设方案
 
 > 状态：**待欧阳锋裁决**。三个核心问题未定：agent 数量、分发机制、颗粒度。
@@ -55,9 +55,9 @@ related:
 ```
 
 **已有能力**：
-- `kdo encapsulate <skill-id>` → 编译 manifest.yaml + 知识卡 → system prompt
-- `kdo skill list/publish/install` → 分发链路已通
-- `kdo query` → 语义 + 图检索，任意话题动态加载知识卡
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -90,22 +90,22 @@ related:
 
 ### Q1：建多少个 Agent？
 
-- **少而深**（~5个）：每个覆盖一个完整域，P+C 双角色
-- **多而专**（~15个）：每个框架一个 Agent，精准但不重叠
-- **按需生长**：先建 2 个 MVP（business-consultant + research-investigator），跑通后按需增加
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Q2：如何封装发布给团队？
 
-- **方案 A**：`kdo skill publish` → 打包 system-prompt.md → 团队成员复制到 Claude/DeepSeek 窗口直接用（零配置）
-- **方案 B**：飞书 bot → Hermes profile → cc-connect 对接（需要飞书开放平台注册）
-- **方案 C**：KDO CLI 内置 → `kdo consult "问题"` 直接在终端跑（需要 API key）
-- **方案 D**：Obsidian 插件 → 在 Obsidian 内选中文本 → 右键"用 XX Agent 分析"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Q3：颗粒度多细？
 
-- **粗粒度**：一个 `business-consultant` 覆盖产品内核+商业预判+关键假设+验证+迭代 → 什么商业问题都能问
-- **细粒度**：`kernel-validator` 只做验证、`prediction-analyst` 只做预判、`assumption-deconstructor` 只拆假设 → 每个 Agent 只做一件事但做到极致
-- **混合模式**：粗粒度 Agent 做"导诊台"（先判断你属于哪类问题），细粒度 Agent 做"专家"（深度处理特定问题）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -136,10 +136,10 @@ Agent 定义层：
 
 ## 六、不做什么
 
-- **不做** agent 间自动协作/编排（那是 Workflow 层的事，先让单个 agent 跑通）
-- **不做** Web/GUI 界面（先 CLI）
-- **不做** 飞书 bot 分发（先 `kdo skill publish` → 复制 prompt 手动用）
-- **不等**知识库"完善"——现有 5 张产品内核 A 级卡就足够跑通第一个 MVP
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -153,10 +153,10 @@ Agent 定义层：
 
 ## 相关
 
-- [[tool-一堂-product-kernel-canvas]]
-- [[concept-一堂-product-kernel]]
-- concept-一堂-business-prediction
-- [[concept-一堂-key-assumptions]]
-- [[concept-一堂-kernel-validation]]
-- [[concept-一堂-kernel-iteration]]
-- 40_outputs/capabilities/skills/note-coach/SKILL
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

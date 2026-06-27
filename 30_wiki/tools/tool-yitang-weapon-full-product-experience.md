@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-online-product-experience]]'
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-anonymous-roundtable]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-consumer-goods-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略3：完整体验产品
@@ -39,9 +39,9 @@ related:
 
 ## 关键原则
 
-- 不要只看产品页——完整走完用户的全流程
-- 记录"这个设计为什么这么做的"疑问，事后研究
-- 匿名体验可以避免"内部视角"污染
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

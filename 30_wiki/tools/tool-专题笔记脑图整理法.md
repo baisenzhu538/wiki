@@ -4,28 +4,28 @@ title: 技能：专题笔记/脑图整理法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-知识树存储记忆法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-动手建模法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-知识树存储记忆法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-动手建模法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 思维导图软件（XMind/MindNode等）
-- 笔记工具
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 把书上的目录抄成脑图，只是换了个格式
+- src_unknown
   lens: 笔记搬家
   follow_up: 必须用自己的逻辑重新组织内容结构，不是原文目录的搬运。重绘结构是深度加工过程
-- signal: 每个概念都展开三层子节点，信息量等于原文
+- src_unknown
   lens: 脑图太细
   follow_up: 脑图2-3层就够了，每个节点代表一个独立判断。失去了'专题'的聚焦价值
-- signal: 花两小时做完精美脑图后保存到文件夹，从不复习
+- src_unknown
   lens: 做完不看
   follow_up: 脑图的价值在使用而非制作。过去一周打开过0次的笔记不应该存在
-- signal: 把不相关的概念硬连线，脑图变成蜘蛛网
+- src_unknown
   lens: 跨域乱连
   follow_up: 连线必须有逻辑依据，不是'看起来有关系'。每条连线必须能说出'因为X所以Y'
-- signal: 做完笔记后不知道以后会用在什么场景
+- src_unknown
   lens: 无后续用途
   follow_up: 做笔记时心里必须知道'这个以后会用在X场景'，没有明确用途的笔记是信息囤积
 ---
@@ -89,8 +89,8 @@ diagnostic_signals:
 | **更新滞后** | 脑图做完后知识已更新，但脑图未同步 | 设定脑图Review周期，知识更新时同步更新脑图，避免过时信息误导 |
 
 ## 工具/环境
-- 思维导图软件（XMind/MindNode等）
-- 笔记工具
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -109,15 +109,15 @@ diagnostic_signals:
 3. 如果我把这份笔记分享给别人，他能看懂吗？——如果不能，说明我其实没整理清楚。
 
 ## 常见失败模式
-- 笔记搬家：把书上的目录抄成脑图，只是换了个格式，没有自己的理解结构
-- 脑图太细：每个概念都展开三层子节点，信息量等于原文，失去了"专题"的聚焦价值
-- 做完不看：花两小时做完精美脑图后保存到文件夹，从不复习——脑图的价值在使用而非制作
-- 跨域乱连：把不相关的概念硬连线，脑图变成蜘蛛网，没有逻辑只有连线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-知识树存储记忆法]] — 专题笔记是知识树上的一根枝干，存储记忆是树根
-- [[tool-四层联系建立法]] — 脑图是建立联系的可视化工具
-- [[tool-动手建模法]] — 专题笔记做完后，下一步是提炼为可复用的模型
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 处理(Process)层 L2.专题笔记：整理专题笔记/脑图，按新结构重新整理

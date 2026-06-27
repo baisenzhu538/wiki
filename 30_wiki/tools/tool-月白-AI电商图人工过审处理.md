@@ -4,32 +4,32 @@ title: 技能：AI电商图人工精修与平台合规发布
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
-- '[[tool-月白-产品反光修复术]]'
-- '[[tool-月白-Token效价比决策公式]]'
-- '[[tool-月白-AI图片去文字处理]]'
-- '[[tool-月白-智能扩图-拓图双方案]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI电商图人工精修与平台合规发布
 
@@ -40,44 +40,44 @@ AI电商图人工精修与平台合规发布，是月白在AI设计师实操中�
 ## 操作步骤
 
 1. **AI生成基础素材**
-   - 用豆包AI等工具生成商品场景图、模特图或背景素材
-   - 保留生成记录和原始提示词，便于后续标注
+   - src_unknown
+   - src_unknown
 2. **人工精修（建议至少20%的实质性修改）**
-   - 切图重组：调整构图、裁剪、拼接多图元素
-   - 局部细节修正：修瑕疵、补光影、统一色调
-   - 增加人工设计层：品牌文字、标签、图标、装饰元素
-   - 扩图与背景补充：按需扩展画面，增强完整度
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **合规检查**
-   - 确认目标平台对AI生成内容的披露要求
-   - 必要时在发布页面或素材说明中标注"AI辅助创作"
-   - 确保最终成品不侵犯他人肖像权、商标权或版权
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **输出与归档**
-   - 输出平台要求的格式和尺寸
-   - 保留PSD/分层文件和AI生成源文件，方便复查
+   - src_unknown
+   - src_unknown
 
 ## 适用场景
 
-- 电商主图、详情页、广告图需要高完成度
-- 平台允许AI辅助创作，但要求人工精修或合规标注
-- 品牌方要求素材可追溯、可修改
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 平台明确禁止使用AI生成内容
-- 需要完全原创且无AI参与的商业授权场景
-- 对版权链条要求极高的广告素材
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- PS 或其他图像编辑工具
-- 豆包AI / 其他合规的AI生图工具
-- 目标平台的创作者规范文档
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 直接发布未精修的AI原图 → 质量不达标或被平台限流 → **必须完成人工精修步骤**
-- 未查看平台规则 → 违规发布或缺少标注 → **发布前先读平台AI内容规范**
-- 未保留源文件 → 后续无法修改或证明创作过程 → **养成归档习惯**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -85,12 +85,12 @@ AI电商图人工精修与平台合规发布，是月白在AI设计师实操中�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

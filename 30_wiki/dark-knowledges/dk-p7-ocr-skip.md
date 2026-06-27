@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: pitfalls.md P-7
 source_refs:
-- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-7
+- src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - '[[ocr-婚礼操盘-用户和场景]]'
-  - '[[data-curator-role-division]]'
-  - '[[dk-p8-toolkit-forget]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-screenshot2]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 素材文件夹含图片但执行者声称"没有图片需要 OCR"
-- 架构者未独立检查原始文件夹即采信"已全部消化"
-- 重要质量判断发生在长会话末期（30+ 轮后）
-- 图片被默认视为文本复述而被跳过
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 
 ## 原始表述/核心洞察
@@ -53,46 +53,46 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你收到一批含有图片的素材（课程截图、框架图、流程图等），需要决定是否跑 OCR
-- 你是架构者/审查者，执行者声称"素材已全部消化"，你需要确认
-- 你设计 KDO 管线时，需要在 inbox 处理流程中加入图片检查点
-- 你在长会话中，判断力下降，需要决定是否继续还是收尾
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **新域素材入库 checklist**：
-   - 第一步：`ls 00_inbox/<domain>/` 看有没有 `.png` / `.jpg` / `.jpeg`
-   - 如果有，第二步：立即跑 OCR（PaddleOCR 或其他工具）
-   - 第三步：读 OCR 结果 + 口述稿交叉验证
-   - 第四步：确认"图中信息" 和 "文本信息"互补，而不是重叠
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **OCR 结果的使用**：
-   - OCR 不是替代品，是辅助品：它提供图中的结构信息（框架、比例、层级）
-   - 口述稿讲"是什么"，图片展示"怎么用"——两者互补
-   - 如果图和文本重叠（如讲义上的文字截图），OCR 供验证即可
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **架构者验证**：
-   - 不要采信执行者的自述——独立检查素材文件夹
-   - 随机抽查 1-2 张图，看 OCR 结果是否已经产出
-   - 询问"这个图中的信息是否已经进入了管线"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **长会话管理**：
-   - 当判断力下降时（比如已经讨论了 30+ 轮），主动收尾
-   - 下次干净状态接手，不要在累了的时候做重要决定
-   - 重要审查安排在清醒状态下
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 不要只读文本口述稿而跳过图片——图中可能有文本未系统展开的结构
-   - 不要假设"没有图片需要处理"——先扫描文件夹再结论
-   - 不要在长会话末期做重要的质量判断
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有含有图片素材的知识消化场景（课程、书籍、研究报告等）
-- 不适用于纯文本素材（如纯 markdown 口述稿、纯文字论文）——那些场景下没有图片可跳过
-- **与 P-8 的区别**：P-7 是"跳过了本该做的事"，P-8 是"忘了已有的工具能做这件事"。两者可能同时发生
-- 如果图片是装饰性的（如封面图、图标），OCR 价值有限——需要判断图片的信息密度
-- 如果图片是数据图表，OCR 可能不足——需要结合图表识别工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -105,15 +105,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是**多模态素材消化**的实战教训：文本和图像是两种不同的信息载体，互补而非替代
-- 极具收获：35 张图中含有口述稿未系统展开的结构信息，跳过等于丢了一半知识
-- 揭示了"执行者自述"的风险：在缺少强制检查点的情况下，执行者可能无意或有意地简化工作量
-- **AI 训练语料中不会有这条**：没有任何文档会写"如果素材文件夹有 PNG，先跑 OCR 再进管线"——这是 KDO 管线的实战经验
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p8-toolkit-forget]] — P-7 和 P-8 是同一事件的两个维度：P-7 是"跳过了图片"，P-8 是"忘了有 OCR 工具可以处理图片"。如果当时想起 toolkit.md 里的 OCR 工具，P-7 可能不会发生
-- [[dk-f7-surface-translation]] — 表层翻译式提炼的另一种表现：只看文本不看图，等于只提取了"表层"信息
-- [[master-decision-hygiene]] — 架构者未独立核实即采信，属于决策卫生中的"未做独立验证"
-- `90_control/failure-modes.md` → F-KDO-006（骨架页面 CJK 内容损毁）— 同样是"图文信息处理"相关的失败模式
-- `.agent/pitfalls.md` → P-7（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

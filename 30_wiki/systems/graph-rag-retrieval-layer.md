@@ -8,7 +8,7 @@ created_at: '2026-05-04'
 updated_at: '2026-06-16'
 status: stable
 domain:
-- kdo
+- src_unknown
 implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
@@ -22,11 +22,11 @@ confidence: 0.7
 trust_level: medium
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[agent-ecosystem-design]]'
-  - '[[sprint-6-cli-gap-proposal]]'
-  - '[[proposal-graph-rag-star-fix]]'
-  - '[[graph-rag]]'
-  - '[[kdo-watch-health-check-layer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**
@@ -214,9 +214,9 @@ kdo graph query "<问题>"
 spec 中写的是 `kdo graph query "xxx"`（flag 形式），但我当前的实现是 `kdo graph query "xxx"`（subcommand 形式）。
 
 选择 subcommand 的理由：
-- KDO 其他所有命令都是 subcommand 风格：`kdo ingest`, `kdo enrich`, `kdo validate`, `kdo produce` 等
-- `kdo graph query` 会引入一种与其他命令不一致的 CLI 模式
-- argparse 实现上 subcommand 更自然（graph 下面有 ingest/query 两个子命令）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **待确认：** 是否坚持 spec 中的 flag 形式，还是接受 subcommand 形式（保持与 KDO 整体风格一致）？
 

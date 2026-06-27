@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- note-taking
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01
 source_refs:
@@ -15,26 +15,26 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
-  - '[[dk-fundamentals-before-advanced-ops]]'
-  - '[[yt-skill-checklist-as-ai-protocol]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[truman-ai-partner-design-analysis]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 仅依赖单一口述来源，未经过跨来源或实验数据验证
-- '"显著更好"等效果描述来自主观对比，缺乏量化指标（token消耗、准确率、迭代轮数）'
+- src_unknown
+- src_unknown
 ---# 清单体是人与AI的"最大公约数"：结构降级即认知升级
 
 ## 原始表述 / 核心洞察
@@ -51,11 +51,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你需要把一篇长文/报告/方案喂给AI做分析、改写、扩写，但AI输出质量不稳定、 hallucination 严重
-- 你和AI协作完成一个复杂项目，发现来回迭代多次仍不达预期
-- 你在组织中推行AI工具，但团队成员抱怨"AI不懂我在说什么"
-- 你需要把人类专家的经验快速转化为AI可理解的格式，用于训练或prompt工程
-- 你在做知识管理，同一套内容需要同时服务人类读者和AI处理
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -67,11 +67,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用于**：结构化思考类内容（方案、报告、课程、会议纪要、决策分析）。这类内容的核心价值在逻辑，不在文采。
-- **不适用于**：文学创作、品牌文案、情感表达——这类内容的价值在修辞和语感，清单体化会杀死其灵魂。
-- **前提条件**：清单体化需要人先理解内容。你不能让AI直接把长文转成清单体就完事——那相当于把"理解"也外包了，你永远练不出来。
-- **警惕"清单体原教旨主义"**：不是所有内容都值得清单体化。Truman 自己强调"清单体不是神，它只是一个相对务实通用的中频手段"。
-- **AI能力边界**：清单体能降低幻觉，但不能消除幻觉。复杂推理类任务，清单体只是辅助，最终判断仍需人类。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -85,14 +85,14 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **反常识**：大多数人以为"给AI的内容越详细越好"，但Truman的实践证明——**结构降级（长文→清单体）反而带来认知升级（AI输出质量显著提升）**。这是典型的"少即是多"。
-- **唯一性**：在AI协作方法论中，几乎所有人都在讲"怎么写更好的prompt"，很少有人讲"怎么准备更好的输入材料"。清单体作为"输入材料的最小范式"，是一个被严重低估的杠杆点。
-- **复利效应**：一旦建立"清单体化→AI处理"的工作流，同一套清单体可以同时服务：人类阅读、AI分析、团队协作、知识沉淀、未来复用。一次整理，多处受益。
-- **组织壁垒**：当竞争对手还在用2万字稿子跟AI搏斗时，你用3000字清单体就能拿到更好的AI输出——这不是工具差距，是**认知格式差距**。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-checklist-concept]] — 清单体的四特征（专注、独立、分点、分层）是"最大公约数"效应的结构基础。没有这四个特征，清单体无法同时满足人类易读和AI易解析。
-- [[yt-note-ai-human-division]] — 六阶模型中，L1-L2（备忘/整理）AI极擅长，L4-L5（建模/现场）AI几乎不行。清单体作为"最大公约数"，恰好覆盖了L1-L3的协作地带。
-- [[dk-note-surplus-brainpower]] — 清单体化需要"剩余脑力"来完成。只有当你的笔记基本功足够扎实，才有认知资源去做"结构降级"这种高阶操作。
-- [[dk-note-rookie-disaster-veteran-heaven]] — "最大公约数"是"老人天堂"的核心武器之一。新人因为没有基本功，连"什么是好的清单体"都判断不了，更谈不上用它作为AI接口。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

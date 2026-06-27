@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 二维定位
-- 差异化定位
-- 定位策略
-- 竞争定位
-- 差异化竞争
-- 定位坐标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-competitive-quadrant]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-competitive-quadrant]]"
-  - "[[tool-yitang-research-follow-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 二维定位：找到差异化竞争的坐标
@@ -119,10 +119,10 @@ related:
 | **价格差异化** | 定价策略独特 | "按效果付费" |
 
 ### 定位强化策略
-- 持续投入定位维度
-- 传播定位认知
-- 建立定位壁垒
-- 监控定位变化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -132,8 +132,8 @@ related:
 ## 二维定位分析
 
 ### 差异化维度
-- 维度1：[维度]
-- 维度2：[维度]
+- src_unknown
+- src_unknown
 
 ### 竞品坐标
 | 竞品 | 维度1 | 维度2 |
@@ -143,15 +143,15 @@ related:
 | 竞品C | 低 | 高 |
 
 ### 我们的定位
-- 维度1：[值]
-- 维度2：[值]
-- 定位描述：[描述]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可行性验证
-- 需求：[验证结果]
-- 能力：[验证结果]
-- 竞争：[验证结果]
-- 盈利：[验证结果]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 定位策略
 1. [策略1]
@@ -206,24 +206,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具
-- [[tool-yitang-research-follow-map]] — 按图索骥工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 二维定位模块
-- 交叉：定位理论
-- 注意：二维定位是差异化竞争的核心工具，需要持续投入和强化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

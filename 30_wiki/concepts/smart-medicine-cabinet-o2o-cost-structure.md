@@ -7,16 +7,16 @@ title: 医药 O2O 成本与毛利结构
 type: concept
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - o2o
-  - financial-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -25,21 +25,21 @@ review_date: '2026-06-14'
 confidence: 0.85
 trust_level: medium
 related:
-  - '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[七件事集团]]'
-  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-financial-model]]'
-  - '[[yt-unit-model-three-tools]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 医药 O2O 毛利率
-- 美团买药抽成
-- 药柜 O2O 前置仓
-- 药店 O2O 成本
-- 即时零售药品抽成
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 prerequisites: []
 
@@ -53,10 +53,10 @@ prerequisites: []
 
 医药 O2O（美团买药、京东健康、阿里健康、饿了么等）已成为连锁药店标配，但 O2O 业务对毛利存在结构性下拉：
 
-- **平台抽成**：技术服务费+配送费约占订单金额的 **15%–25%**（不同城市、品类、活动期有差异）。
-- **药品毛利率**：连锁药店中西成药毛利率约 **22%–36%**，扣除平台抽成后，O2O 订单毛利率可能降至 **10%–20%**。
-- **夜间订单**：夜间用药需求真实且增长快，但履约成本更高。
-- **药柜作为前置仓的挑战**：SKU 有限（仅乙类 OTC）、骑手取药 vs 自动出药的协同复杂、温控/效期管理、售后退换难。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **核心判断**：药柜可以作为 O2O 末端补位，但很难作为独立盈利模型；其价值更多在于"24 小时可达性"和"引流到店"，而非 O2O 订单毛利。
 
@@ -111,16 +111,16 @@ prerequisites: []
 ### 5. 药柜作为 O2O 前置仓的可行性
 
 #### 优势
-- **24 小时可达**：弥补夜间/凌晨药店关门时段的供给空白。
-- **降低店租**：无人化药柜可部署在店外或低成本点位。
-- **快速履约**：消费者自提或骑手就近取货，缩短配送距离。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 挑战
-- **SKU 有限**：政策限制仅乙类 OTC，难以满足完整订单需求。
-- **毛利压缩**：平台抽成 15%–25%，叠加药柜运维成本，利润空间窄。
-- **协同复杂**：骑手取药 vs 自动出药的时序配合、异常处理。
-- **温控/效期**：药品存储条件严格，效期管理难度大。
-- **售后退换**：无人场景下退换货处理成本高。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **判断**：药柜更适合作为"24 小时自提点"补充，而非独立 O2O 前置仓盈利单元。
 
@@ -158,8 +158,8 @@ prerequisites: []
 
 ### 使用建议
 
-- 在评估药柜项目时，若计划接入 O2O 平台，建议用"药品毛利率 - 平台抽成 - 配送成本 - 药柜运维成本"重新测算单点盈利性。
-- 优先考虑"自提+夜间应急"场景，而非"O2O 大规模履约"场景。
+- src_unknown
+- src_unknown
 
 ---
 

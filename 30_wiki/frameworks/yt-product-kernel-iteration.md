@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五种迭代方向
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-six-levels
-  - yt-product-kernel-premature-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户内核一成不变，市场变化后失去竞争力"
+  - src_unknown
     framework_lens: 产品内核迭代——内核需要随市场变化而迭代
     follow_up_question: "你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - signal: "用户频繁迭代，但方向不明确，资源浪费"
+  - src_unknown
     framework_lens: 产品内核迭代——迭代需要方向，不是随机尝试
     follow_up_question: "你的迭代是基于五种方向的哪一种？有数据支撑吗？"
-  - signal: "用户迭代只加功能，不调整内核"
+  - src_unknown
     framework_lens: 产品内核迭代——功能迭代≠内核迭代
     follow_up_question: "这次迭代是调整功能，还是调整内核？内核是否需要变化？"
-  - signal: "用户说'市场变了，我们需要重新定位'，但不知道具体怎么变"
+  - src_unknown
     framework_lens: 产品内核迭代——需要结构化迭代方法
     follow_up_question: "市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种迭代方向？"
-  - signal: "用户团队对迭代方向有分歧"
+  - src_unknown
     framework_lens: 产品内核迭代——迭代方向需要团队共识
     follow_up_question: "你们团队对迭代方向有共识吗？是基于数据还是主观判断？"
 
@@ -84,9 +84,9 @@ diagnostic_signals:
 
 每次迭代后必须验证：
 
-- 迭代是否解决了触发信号？
-- 关键转化率是否提升？
-- 用户满意度是否改善？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 迭代的节奏
 
@@ -118,21 +118,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当关键转化率持续下降时 → 评估是否需要内核迭代
-- 当市场变化时 → 识别变化类型，选择迭代方向
-- 当迭代时 → 基于五种方向选择，不是随机尝试
-- 当迭代后 → 验证关键指标是否改善
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-six-levels`：产品内核六个段位
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课笔记
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

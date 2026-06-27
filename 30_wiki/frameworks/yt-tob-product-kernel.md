@@ -6,20 +6,20 @@ title: To B 产品内核：面向决策者研究付费，面向使用者夯实�
 type: framework
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/product-kernel'
-- '#topic/value-proposition'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -28,25 +28,25 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队内部十个销售写卖点，写出的核心卖点各不相同
+- src_unknown
   framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
   follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？
-- signal: 试用反馈很好，但客户就是不买单
+- src_unknown
   framework_lens: 产品内核面向使用者而非决策者设计；价值传导在决策层中断
   follow_up_question: 决策者真正愿意付费的最小解决方案是什么？使用者价值能否被TA感知或量化？
-- signal: 为了拿下订单过度承诺定制化，导致多客户多代码分支、交付和维护成本飙升
+- src_unknown
   framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
   follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
 
@@ -72,23 +72,23 @@ To B 业务中，"客户"（买单者）与"用户"（使用者）天然分离�
 
 沿用一堂五步法的定义：**产品内核 = 用户愿意选择你的最小解决方案**（口述稿约 1768 行）。在 To B 语境下，"用户"需进一步拆分为：
 
-- **决策者（客户）**：掌握预算、能拍板付费的人或组织。
-- **使用者（用户）**：实际使用产品/服务、其体验影响续费和口碑的人。
-- **关联方/影响者**：如采购部门、财务、IT、施工单位、设计师等，可能不直接使用，但能左右决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 因此，To B 产品内核不是单一价值点，而是一个**分角色、分阶段的价值组合**。
 
 ### 2. 面向决策者研究付费
 
-- **首次购买由决策者决定**。无论使用者体验多好，若决策者看不到清晰的价值，付费难以发生（口述稿约 1794-1823 行）。
-- **复杂决策链需逐层拆解**。每一层决策人权限不同、视角不同；"想帮你成功很难，想否定你很容易"（口述稿约 1896-1902 行）。
-- **避免把使用者当成付费主体**。例如某腾讯校园版远程监考工具，老师和学生体验好，但学校/教培机构决策者不清晰，最终难以买单（口述稿约 1836-1850 行）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 面向使用者夯实价值
 
-- **具体产品设计时必须考虑使用者体验**。使用者不舒服，会反过来影响续购决策。
-- **注意"决策者的身份迁移"**。长期服务中，原决策者可能授权给使用者（如财务总监）决定续费；若此时使用者体验差，TA 会把决策权"退回"给原决策者，形成否定决策（口述稿约 1861-1894 行）。
-- **价值必须可传导**。徐剑强调："如果不可传导的价值，其实这个价值等于是不成立的"（口述稿约 2321-2322 行）。使用者价值必须能被表达、被决策者感知，否则无法支撑付费。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 分阶段、多角色的卖点设计
 
@@ -102,12 +102,12 @@ To B 业务中，"客户"（买单者）与"用户"（使用者）天然分离�
 
 课堂笔记 §3 与口述稿共同提出，需从两个维度判断业务形态：
 
-- **标准化程度**：需求是否普遍一致、履约是否能标准化。
-  - 标准产品型：易规模化，但前期研发难度高、风险大。
-  - 项目定制型：需尽量运作成一站式服务，通过集成他人产品确保利润，避免自研沉没成本。
-- **履约方式**：一次性交付 vs 持续履约。
-  - 一次性交付（如物联网模组、私有化部署软件）：收入可快速确认。
-  - 持续服务（如 SaaS、按年运维）：收入按服务期分摊，服务一旦中断即产生风险。
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 > 讲师观察：不要盲目认为"标准化一定优于项目制"。项目制可切入市尝积累能力，标准化产品则更容易做大；选择取决于业务目标、客户需求与团队能力边界（口述稿约 2198-2226 行）。
 
@@ -116,17 +116,17 @@ To B 业务中，"客户"（买单者）与"用户"（使用者）天然分离�
 某团队承接电力企业文化培训，直接按领导需求设计"文化宣导"课程。培训当天领导满意、气氛热烈，但学员问卷满意度不到 70%，触发合同中的"低于 80% 不付全款"条款，最终损失结算费用（口述稿约 1584-1632 行）。
 
 **教训**：
-- 决策者（领导）与使用者（学员）分离。
-- 只研究领导的付费诉求，没有夯实学员价值。
-- 学员价值无法有效传导到决策者/组织者，最终因满意度条款反噬收入。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例：农村水务项目——忽略关联方的运行成本
 
 某水务企业在南方县域建设农村自来水厂，决策者定位为市县政府，使用者为村民。但项目运行后，一个水站每月多出约 1000 元电费，村里不愿承担，村长直接叫停设备，导致全县水网运行率长期偏低（口述稿约 1638-1666 行）。
 
 **教训**：
-- 决策链中漏算了"关联方"（村集体/村长）的支付意愿与预算来源。
-- 解决方案未将运行成本纳入设计，导致价值无法传导到最基层的维护者。
+- src_unknown
+- src_unknown
 
 ## Common Failure Modes
 
@@ -147,7 +147,7 @@ To B 业务中，"客户"（买单者）与"用户"（使用者）天然分离�
 
 ## 置信度说明
 
-- 本卡核心论断（"面向决策者研究付费，面向使用者夯实价值"、分阶段多角色卖点、价值传导）来自徐剑口述稿与课堂笔记的双重对应，逻辑一致，置信度设为 **0.85**。
-- 口述稿为单一口语转录，课堂笔记为二次整理，二者均非独立第三方验证材料。
-- 引用的案例数字（如电费金额、系统年费、连锁品牌数、满意度阈值等）均为讲师说明性表述，未独立核实，仅用于展示分析逻辑。
-- 口述稿在约 3482 行处截断，本卡仅覆盖 1580-2443 行及笔记 §3 范围，不涉及后续增长/壁垒内容。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

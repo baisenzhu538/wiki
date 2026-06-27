@@ -8,30 +8,30 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: advanced
 domain:
-  - barrier- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
-- 壁垒识别
-- 真假壁垒
-- 壁垒构建
-- 护城河识别
-- 竞争壁垒分析
-- 如何构建壁垒
-- 一堂壁垒
-- 壁垒评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-growth-cycle-model]]'
-  - '[[case-toy-cabinet-barrier]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[yt-barrier-strategy-overview]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
-  - '[[dk-yb10-theory-moat-designer]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
-  - '[[case-toy-cabinet-barrier]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
@@ -50,15 +50,15 @@ yitang:
   course_type: skill
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户认为自己的技术领先就是壁垒，但四问都答不上来
+- src_unknown
   framework_lens: 技术≠壁垒——需要通过真假壁垒四问验证
   follow_up_question: 你的技术领先能持续多久？客户切换成本高吗？竞争对手复制需要多久？
-- signal: 用户识别了真壁垒，但没有构建路径
+- src_unknown
   framework_lens: 识别≠建设——壁垒是长期工程
   follow_up_question: 为了建立这个壁垒，你接下来90天要做什么具体动作？谁负责？花多少钱？
-- signal: 用户把"我们市场份额第一/用户量最大/融资最多"当作核心壁垒
+- src_unknown
   framework_lens: 结果≠壁垒——市场份额、用户规模、资金量是竞争结果或资源投入，不是结构性防御
   follow_up_question: 如果你的市场份额明天被对手用补贴抢走30%，用户会跟着补贴走还是留在你这里？他们留下的真实成本是什么？
 updated_at: '2026-06-16'

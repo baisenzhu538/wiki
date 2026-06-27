@@ -4,51 +4,51 @@ title: 技能：AI输出三层防护检查法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
 source_refs: []
 wiki_refs:
-- '[[master-ai-info-literacy]]'
-- '[[tool-ai-research-five-steps]]'
+- src_unknown
+- src_unknown
 related:
-- '[[tool-ai-research-five-steps]]'
-- '[[dk-ai-judgment-human-responsibility]]'
-- '[[tool-ai-four-elements-validation]]'
-- '[[tool-ai-problem-question-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次检查走完3层
-- 至少1处被标记为"待验证"
-- 能说出"这个结论的脆弱点是X"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
-- 搜索引擎（第三层追溯用）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ai-research-five-steps
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: 欧阳锋
 author: 老顽童
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: AI说的应该就是对的，不做任何审查
+- src_unknown
   lens: 自动化偏差
   follow_up: 强制条件反射：如果这是初级员工写的，你会怎么审查？AI输出不是知识，是待验证的假设
-- signal: 回答很有道理，误以为真实，被流畅性欺骗
+- src_unknown
   lens: 流畅性启发
   follow_up: 让AI用不确定语气重说，看结论是否变化。丝滑不等于正确
-- signal: AI引用了论文所以是真的，不查原文
+- src_unknown
   lens: 引用光环
   follow_up: 不管多少引用，先检查第一个是否能找到原文。引用可能是幻觉
-- signal: 每条都验证，时间不够，验证疲劳
+- src_unknown
   lens: 验证过载
   follow_up: 分层：高风险结论全检，低风险结论只检第一层。不是每条都需要三层
-- signal: 验证为真就够了，不追到原始来源
+- src_unknown
   lens: 追溯缺失
   follow_up: 必须追到原始来源，防止综合后的信息丢失来源。第三层不可跳过
 ---# 技能：AI输出三层防护检查法
@@ -144,27 +144,27 @@ AI的幻觉不是"偶尔出错"，而是**系统性偏差**——AI被训练成"
 
 ## 工具/环境
 
-- **必需**：无（纯思维工具）
-- **推荐**：搜索引擎（Google/百度）——第三层追溯用
-- **备用方案**：如果无法搜索，要求AI"用不确定的语气重说一遍"，看结论是否变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联技能
 
-- [[tool-ai-research-five-steps]] — 调研时的五步流程
-- skill-ai-timestamp-validation — 时间戳防过时法
-- dk-ai-silky-answer-danger — AI回答越丝滑问题越大
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 基于一堂课程（Truman）和全库消化提炼
-- 原始素材：`30_wiki/concepts/master-ai-info-literacy.md`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

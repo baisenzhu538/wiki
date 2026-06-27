@@ -10,10 +10,10 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
@@ -22,20 +22,20 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-strategy-brm]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[yt-decision-y-model]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 加速的战略-验证闭环
@@ -44,9 +44,9 @@ related:
 
 ## 触发问题
 
-- “AI 这么强，能不能让战略分析和验证都变快？”
-- “我们用 AI 做内容，但战略验证还是很慢，怎么打通？”
-- “AI 生成假页面/假文案后，怎么判断验证结果是否可信？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 端到端流程
 
@@ -98,13 +98,13 @@ related:
 
 ## 与相邻卡的关系
 
-- 战略入口：[[framework-strategy-brm]] 输出赛道/定位/模式/增长/壁垒假设；本卡负责把战略假设的验证周期压缩。
-- 验证工具：[[framework-lean-false-model]] 提供 F/A/L/S/E 成本光谱；本卡说明 AI 如何加速每个阶段的执行。
-- 系统范式：[[framework-lean-systematic-test-curve]] 提供灰度/组合/里程碑测试的组织方式；本卡在执行层用 AI 加速这些范式。
-- 多 Agent 研究：[[framework-multi-agent-research-architecture]] 是战略分析阶段信息收集与交叉验证的具体实现。
-- AI 构建流程：[[framework-wanghuan-harness-seven-stages]] 强调生成者与验收者分离，与本卡“AI 执行、人做最终判断”的原则一致。
-- 决策：[[yt-decision-y-model]] 用于实验结果 ambiguous 时判断 pivot / persevere / kill。
-- 域图：[[strategy-domain-digest]]、[[lean-startup-domain-digest]]、[[ai-collaboration-domain-digest]] 提供三个域的完整索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -118,8 +118,8 @@ related:
 
 ## 适用边界
 
-- **适合**：战略方向已初步形成、关键假设不确定性高、团队具备 AI 工具使用能力和批判性判断能力的业务。
-- **不适合**：高度依赖人际信任、政策敏感、数据稀缺的领域；团队没有业务判断能力而完全依赖 AI 输出的场景 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md]。
+- src_unknown
+- src_unknown
 
 ---
 

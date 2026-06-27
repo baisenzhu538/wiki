@@ -10,27 +10,27 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 dark_knowledge_type: heuristic
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-ai-neutrality-bias]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 最稀缺的是自我
@@ -88,8 +88,8 @@ related:
 
 王欢用驾驶员与乘客的类比区分两种人：
 
-- **驾驶员**：知道让 AI 做什么、不做什么，目标由自己设定 [conf=0.70, source=王欢原创]。
-- **乘客**：看似在用车，实则不知道车开往哪里，只是在帮 AI 完成 AI 的目标 [conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
 
 在 Mollick 等人对 BCG 顾问的实验中，使用 AI 的顾问多完成 12.2% 任务、快 25.1%、质量高 40%，但在一道 AI 能力边缘的陷阱题上，依赖 AI 的组反而表现更差——因为他们"在方向盘上睡着了"[conf=0.85, source=Mollick 2024, 王欢拆书归纳]。这个实验说明：会用 AI 的乘客，在高 stakes 判断上可能输给清醒的驾驶员 [conf=0.70, source=王欢原创]。
 
@@ -134,11 +134,11 @@ related:
 ```markdown
 ## 今日欲望审计
 
-- 决定 1：______
-  - 是自己想做的 / 算法推荐的 / 社交压力驱动的？
-  - 如果没有任何推荐，我还会做这个选择吗？
-- 决定 2：______
-- 决定 3：______
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 本周比例：自我驱动 ___% / 外部引导 ___%
 下一步要拿回的一个小决定：______
@@ -148,10 +148,10 @@ related:
 
 王欢建议用很小的动作恢复"自己决定"的能力 [conf=0.70, source=王欢原创]：
 
-- [ ] 不看推荐列表，自己选一部电影。
-- [ ] 不点常吃的外卖，换一家从来没试过的。
-- [ ] 关掉短视频，主动找一个朋友打电话。
-- [ ] 去一个从来没去过的地方散步。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些动作的经济价值为零，但它们的意义在于：把"决定自己生活"的能力从算法手里拿回一点点 [conf=0.70, source=王欢原创]。
 
@@ -239,20 +239,20 @@ related:
 
 Mollick 实验中的依赖 AI 组，在常规任务上表现更好，但在陷阱题上更差 [conf=0.85, source=Mollick 2024, 王欢拆书归纳]。这个案例提醒我们：
 
-- "会用 AI"不等于"有判断力"；
-- 当 AI 输出看似可信时，人最容易放弃自己的复核；
-- 真正的稀缺能力不是"调用 AI"，而是"知道何时不采纳 AI"[conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 行动 Checklist
 
-- [ ] 今晚做一次欲望审计：回顾今天三个决定，判断是自我驱动还是外部引导。
-- [ ] 本周完成一个"反算法微行动"：自己选电影、换一家外卖、主动打电话、去陌生地方散步。
-- [ ] 为常用的一款 AI 产品画出"它替我决定什么、我保留什么"的边界图。
-- [ ] 在团队决策中明确至少一个"人类最终否决权"的环节。
-- [ ] 阅读一篇 AI 预测后，回答：这个预测若成真，会改变我哪个具体选择？这个选择符合我的长期价值吗？
-- [ ] 一个月后复盘：哪些"自我"的区域已经变得更清晰？哪些区域仍在被算法悄悄塑造？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -274,9 +274,9 @@ Mollick 实验中的依赖 AI 组，在常规任务上表现更好，但在陷�
 > **回应**：对于短期效率，确实没有直接价值。但对于长期判断——选择做什么产品、服务谁、不服务谁——"自我"的清晰度决定了方向是否正确。Mollick 实验已经证明，在 AI 能力边界处，清醒的驾驶员比熟练的乘客更能避免陷阱。
 
 **不要用**：
-- 不要把"自我"当作拒绝学习 AI 的理由。
-- 不要把"欲望审计"变成道德自责。
-- 不要把个人主体性完全替代制度问责。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -285,9 +285,9 @@ Mollick 实验中的依赖 AI 组，在常规任务上表现更好，但在陷�
 "最稀缺的是自我"是王欢在《AI 2041》拆书会结尾处提出的一个暗知识：它不是书里的原话，而是王欢把三本书、多个案例和自己的生活观察对撞后生长出来的判断 [conf=0.70, source=王欢原创]。这个判断把批判性阅读 OS 从"如何审书"推进到"如何生活"：当 AI 能替人完成越来越多的认知劳动时，人的最终护城河不是知识、技能或效率，而是稳定的自我坐标。
 
 它与 AI 协作域已有的概念形成纵深：
-- [[concept-ai-chair-determines-view]] 帮你识别外部世界想让你相信什么；
-- [[concept-ai-neutrality-bias]] 帮你识破伪装成中立的权力；
-- "最稀缺的是自我" 帮你回答：识破这一切之后，我自己相信什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终目标不是培养出更多"反 AI"的人，而是培养出能在人机协作中保持清醒主体性的驾驶员——他们知道何时踩油门、何时踩刹车、以及最重要的是：车要开往哪里。
 

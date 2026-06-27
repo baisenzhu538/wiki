@@ -6,37 +6,37 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-6
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-p2-tmux-cache]]'
-  - '[[dk-p6-session-resume-fail]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[dk-state-residue-is-the-silent-killer]]'
-  - '[[dk-modeling-timely-review-session-window]]'
-  - '[[dk-c10-batch-tool-no-dry-run]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '`kdo produce` 只输出章节标题和空段落，draft 字段无实质内容'
+- src_unknown
   framework_lens: '大文件编译已耗尽当前 session 的 context window，produce 阶段没有足够 token 填充内容'
   follow_up_question: '检查源文件大小是否超过 100KB；如是，启动新 session 仅执行 produce，并将编译结果结构化传入'
-- signal: '审查者反馈卡片"内容空洞"，但作者认为 produce 已成功运行'
+- src_unknown
   framework_lens: '混淆了"骨架生成"与"内容填充完成"两个不同里程碑'
   follow_up_question: '人工检查 draft 是否有案例、数字、关联说明；如只有标题/模板，则回到新 session 重新 produce'
-- signal: '同一 session 内先跑三步编译法再跑 produce，大源文件（>100KB）必然出现产出 truncated'
+- src_unknown
   framework_lens: 'Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限'
   follow_up_question: '强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce 填充'
 ---# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
@@ -55,10 +55,10 @@ C-6 的本质不是"文件太大"，而是**把两个高消耗阶段硬塞进同
 
 ## 使用场景
 
-- 你要处理 100KB+ 的大源文件（如长篇报告、完整课程文稿、大型调研文档），准备用三步编译法生成概念卡
-- 你运行三步编译法（浓缩→质疑→对标）后，发现 session 的 context window 已消耗大半
-- 你紧接着运行 `kdo produce` 生成 artifact，结果只得到一个空有标题和章节结构、没有实质内容的骨架
-- 你判定一张卡片"已完成"，但审查者反馈"内容空洞"——需要确认是编译质量差还是 produce 阶段没填进去
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -70,11 +70,11 @@ C-6 的本质不是"文件太大"，而是**把两个高消耗阶段硬塞进同
 
 ## 适用边界
 
-- 适用于**Agent 手动编译模式**：人在 loop 中，需要分阶段操作
-- **不适用于全自动管线**：如果管线设计为单 session 完成全部操作，大文件需要特殊处理（如预切分、摘要提取），不能直接套用 C-6 的分 session 方案
-- session 分割会增加上下文切换成本——小文件（<50KB）不需要分 session，直接一次完成更高效
-- 如果 LLM context window 足够大（如 200K tokens+），100KB 的阈值可以上调，但"编译→产出"两阶段分离的原则仍然成立
-- 分 session 策略的前提是"编译结果可以结构化传递"——如果编译产出是自由文本而非结构化数据，新 session 可能丢失关键上下文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -88,16 +88,16 @@ C-6 的本质不是"文件太大"，而是**把两个高消耗阶段硬塞进同
 
 ## 为什么值钱
 
-- 这是 KDO 工作流与 LLM context window 物理限制**碰撞产生**的约束：三步编译法 + produce 两阶段叠加，对大文件必然超载
-- 通用项目管理不会告诉你"207KB 的文件要分两个 session 处理"——这个阈值和策略是 KDO 在 一堂素材 上踩出来的具体数字
-- **"produce 骨架生成不算完成，draft 非空才算"** 是一条判定标准，不是通用原则。很多 Producer 会误以为"结构有了 = 快完成了"，实际上内容填充才是大头
-- 任何 AI 训练语料中都不会有"KDO 的大文件编译需要分 session，阈值约 100KB"这条知识——这是具体工具链、具体模型、具体工作流三者叠加的产物
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一深层模式：流程设计缺陷导致内容损失。C-10 是"跳过验证步骤导致内容被覆盖"，C-6 是"压缩步骤到单 session 导致内容填不进去"——两者都是"流程设计没有尊重系统硬约束"
-- [[master-first-principles]] — 第一性原理：LLM context window 是物理硬约束，不能绕，只能分。C-6 是"回到物理约束重新设计流程"的具体实践
-- `20_memory/corrections.md` → C-6（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

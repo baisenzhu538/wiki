@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-viral-mechanism
-  - yt-growth-acquisition-channels
-  - yt-growth-engagement-loop
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们希望老用户带新用户'"
+  - src_unknown
     framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
     follow_up_question: "你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？"
-  - signal: "用户说'我们做了推荐奖励，但效果一般'"
+  - src_unknown
     framework_lens: 推荐系统——推荐奖励需要设计双边激励
     follow_up_question: "推荐者和被推荐者的激励是否平衡？激励是否足够有吸引力？"
-  - signal: "用户说'推荐来的用户质量差'"
+  - src_unknown
     framework_lens: 推荐系统——推荐用户质量取决于推荐者质量
     follow_up_question: "你的推荐者是谁？他们推荐的人是否匹配目标用户？"
-  - signal: "用户说'推荐系统被薅羊毛了'"
+  - src_unknown
     framework_lens: 推荐系统——推荐系统需要防作弊机制
     follow_up_question: "你有没有防作弊机制？如何识别虚假推荐？"
-  - signal: "用户说'推荐系统成本太高'"
+  - src_unknown
     framework_lens: 推荐系统——推荐成本需要低于CAC
     follow_up_question: "你的推荐成本是多少？是否低于其他渠道的CAC？"
 
@@ -129,21 +129,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当希望老带新时 → 设计推荐系统
-- 当推荐效果一般时 → 优化双边激励
-- 当推荐成本过高时 → 评估ROI
-- 当推荐被作弊时 → 加强防作弊
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-viral-mechanism`：病毒传播
-- `yt-growth-acquisition-channels`：获客渠道
-- `yt-growth-engagement-loop`：参与循环
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 推荐系统研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

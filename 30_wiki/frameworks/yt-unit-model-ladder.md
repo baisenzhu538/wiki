@@ -4,8 +4,8 @@ date: 2026-05-24
 type: framework
 status: enriched
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 id: yt-unit-model-ladder
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -16,19 +16,19 @@ source_refs: []
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[yt-five-step-level-blindspots]]'
-- '[[yt-tool-unit-model-ai-assisted]]'
-- '[[yt-tool-unit-model-benchmark]]'
-- '[[yt-tool-unit-model-construction]]'
-- '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-build]]'
-- '[[yt-unit-model-selection]]'
-- '[[case-unit-model-gashapon]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-decision-review]]'
-- '[[dk-modeling-logical-cleanliness-root]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---## Reusable Knowledge
 
 ### 六段进阶路径
@@ -92,41 +92,41 @@ Snowden的Cynefin框架将问题分为五个域：清晰(Clear)、繁杂(Complic
 
 ### 不要用的场景
 
-- **完全创新的业务**：没有先例可循，参数无法估算，单元模型变成"伪精确"
-- **高度依赖关系的业务**：如B2G、大客户销售，每单差异极大，难以标准化
-- **业务转型期**：旧模型正在失效、新模型尚未形成，此时精算旧模型是浪费
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-unit-model-overview]] — 六段进阶是十大单元模型的"能力成熟度模型"，overview讲"有什么"，ladder讲"能做到什么水平"
-- [[yt-unit-model-construction]] — L4的核心能力就是"拆推评算"，construction讲具体操作方法
-- [[master-cognitive-bias-checklist]] — 15个错误清单本质上是对抗认知偏见的检查清单，与bias checklist互补
-- [[yt-management-scientific-decision]] — 科学决策要求"先算小账再算大账"，六段进阶提供了从L1到L6的升级路径
-- [[yt-decision-review]] — L5-L6需要持续的复盘校准，review机制是维持模型准确性的基础设施
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 个人理财：从"不记账"到"完整预算"到"动态资产配置"
-- 项目管理：从"拍脑袋排期"到"WBS+关键路径"到"敏捷迭代+风险预判"
-- 投资决策：从"听消息买股票"到"DCF模型"到"动态调整仓位"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 当业务同时跨越多个域（清晰+复杂）时，如何为不同域设计不同精度的单元模型？
-- AI能否自动识别15个错误清单之外的"第16个错误"？
-- 在高度不确定的市场中，"快速试错"和"精算模型"的时间分配最优解是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- 开发"单元模型健康度评分卡"，输入业务参数自动输出L1-L6段位评估
-- 为不同行业（餐饮、教育、SaaS、电商）构建行业化的15个错误扩展清单
-- 建立"Before vs After"对比模板，帮助团队可视化"你以为的模型"和"真实的模型"之间的差距
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- [ ] 当你要启动新业务时，先问自己：我现在的段位是L几？如果<L3，先别急着做，先学
-- [ ] 当你列完成本项后，强制追问团队"还有吗？"至少3轮
-- [ ] 当你发现实际利润远低于预期时，用15个错误清单逐项排查，而不是笼统地"复盘"
-- [ ] 当你准备扩张时，先回答："1个单元赚钱≠100个单元赚钱"，规模变量算清了吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

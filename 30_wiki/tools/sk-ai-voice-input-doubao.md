@@ -6,48 +6,48 @@ title: 技能：口喷式语音输入法
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 wiki_refs:
-- '[[sk-ai-ai-workspace-setup]]'
-- '[[course-to-skill-conversion]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 豆包输入法 App（iOS/Android）
-- 任意 AI 对话工具（ChatGPT / Claude / Kimi 等）
-- 麦克风（手机内置或蓝牙耳机）
+- src_unknown
+- src_unknown
+- src_unknown
 prerequisite_skills: []
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[sk-ai-ai-workspace-setup]]'
-  - '[[course-to-skill-conversion]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 来源仅提及“豆包输入法挺好用”，未明确支持“口喷式”“想到什么直接说”等核心标签与操作细节
+- src_unknown
   framework_lens: source-fidelity
   follow_up_question: 能否提供半肥猫/季浩分享中关于“口喷式语音输入”具体步骤的原文，或补充一份实测记录？
-- signal: “比键盘输入快2-3倍”“长按空格键触发”等量化/设置细节在来源中未见出处
+- src_unknown
   framework_lens: evidence-gap
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
 
@@ -97,9 +97,9 @@ diagnostic_signals:
 
 ### Step 4：典型使用时机
 
-- 早上通勤路上：用语音记录今天要做的事。
-- 开会/散步/吃饭时：有灵感立即口喷，会后统一整理。
-- 睡前脑子里有想法：语音记录，第二天再处理。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -125,23 +125,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已安装豆包输入法并开启语音输入权限
-- [ ] 已设置顺手触发方式（如长按空格键）
-- [ ] 已明确常用目标应用（备忘录 / 飞书 / 微信 / AI 对话框）
-- [ ] 已养成“有想法立即口喷”的习惯
-- [ ] 每次语音输入后已快速校对识别结果
-- [ ] 与 AI 联动时已确认文本意图未被改变
-- [ ] 已区分口喷草稿与最终交付物，不会直接发送未整理内容
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[sk-ai-ai-workspace-setup]] —— 结构化 AI 工作空间，把口喷素材归入对应任务 / 笔记层
-- [[course-to-skill-conversion]] —— 课程 / 分享内容转技能卡的方法
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md:430-435`
+- src_unknown
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

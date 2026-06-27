@@ -6,10 +6,10 @@ title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -23,35 +23,35 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-say-think-do-toolchain]]'
-  - '[[concept-harness-cattle-not-pets]]'
-  - '[[tool-harness-adversarial-tester]]'
-  - '[[concept-candy-ai-as-collaborator]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- GAN
-- 三角色架构
-- 生成器
-- 判别器
-- 合成器
-- 多agent协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 单一模型输出质量波动大，且你越改提示词边际收益越低
+- src_unknown
   lens: 生成器能力到达瓶颈，需要引入异构评审视角
   follow_up: 检查是否已配置至少一个来自不同模型族/不同利益相关方的判别器
-- signal: 多轮评审后意见冲突或无法收敛
+- src_unknown
   lens: 缺少合成器做最终裁决与可执行化
   follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
-- signal: 生成物结构完整但缺少真实经验或业务判断痕迹
+- src_unknown
   lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
 
@@ -107,22 +107,22 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确本次任务的交付物和验收标准，写在提示词最前面。
-- [ ] 选择 1 个生成器；任务复杂时为其配置 2-4 个来自不同模型族/视角的判别器。
-- [ ] 为每个判别器写清楚评审视角和禁止事项（例如："主动攻击，目标是找 bug"、"专注安全/边界"）。
-- [ ] 引入合成器，把多源评审意见去重、分级（阻塞/重要/可暂缓），输出带优先级的修改清单。
-- [ ] 设定迭代终止条件，跑通至少两轮"生成→评审→合成→修改"循环。
-- [ ] 最后加入人工终审，确认输出符合业务气质和真实经验要求。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[concept-wanghuan-adversarial-generation]]：三角色架构的底层概念——生成与评审分离。
-- [[framework-wanghuan-actor-director-mode]]：导演思维是运行三角色架构的认知前提。
-- [[framework-wanghuan-task-product-system]]：把单次任务沉淀为可复用产品的系统思维。
-- [[framework-wanghuan-three-tier-dev-architecture]]：软件开发场景下的三层架构实例。
-- [[framework-wanghuan-say-think-do-toolchain]]：支撑生成器快速产出的"嘴→脑→手"工具链。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -132,16 +132,16 @@ diagnostic_signals:
 
 **攻击者 1：成本敏感型工程师**
 "一个简单功能也要调四五个模型，时间和 API 成本直接翻几倍。大多数团队连一个模型都没用好，搞这么复杂只会让项目更慢。"
-- **回应**：三角色架构不是每次必用四个判别器。简单任务用 1-2 个判别器即可；当输出质量不稳定或错误代价高时，才值得投入多模型评审。成本收益需要按任务复杂度评估。
+- src_unknown
 
 **攻击者 2：创作型写作者 / 设计师**
 " multiple critics 会抹掉个人风格，把作品磨平成安全但平庸的'AI 味'产物。真正的创意往往来自打破评审标准。"
-- **回应**：三角色架构适用于"可交付物质量"优先的场景，而非早期创意发散阶段。在探索期应减少约束和评审；进入打磨期再引入判别器。同时保留人工终审，避免 AI 评审标准反噬真实经验。
+- src_unknown
 
 **不要用**：
-- 不要在验收标准本身尚未明确时直接套用三角色架构——没有标准的评审只是形式。
-- 不要在创意探索阶段过早引入过多判别器——会扼杀可能性。
-- 不要为了用框架而用框架：简单任务、低错误代价任务、个人风格优先任务，不要强制上三角色。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

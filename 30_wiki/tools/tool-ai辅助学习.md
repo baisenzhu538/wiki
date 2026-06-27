@@ -3,26 +3,26 @@ id: tool-ai辅助学习
 title: 技能：AI辅助学习
 type: tool
 domain:
-- ai-collaboration
-- yitang- product
-- ai-saas
-- design
-- yitang
-- entrepreneurship
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
 - src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- ChatGPT/Claude等大模型
-- AI搜索工具
-- 提示词工程技巧
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:59:56+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -30,11 +30,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-将未中标成本纳入循环计算真实投标成本]]'
-- '[[tool-费曼学习法三句话提炼]]'
-- '[[tool-自我反馈检验]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI辅助学习
 
@@ -48,29 +48,29 @@ related:
 4. 验证AI输出并整合入知识体系
 
 ## 适用场景
-- ✅ 快速获取概念解释
-- ✅ 个性化答疑
-- ✅ 生成练习材料
-- ✅ 语言翻译和总结
-- ❌ 需要权威验证的关键信息
-- ❌ 培养独立思考能力的基础阶段
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 AI提供即时个性化反馈，降低搜索和整理信息的认知负荷，加速理解循环
 
 ## 工具/环境
-- ChatGPT/Claude等大模型
-- AI搜索工具
-- 提示词工程技巧
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程，src_20260522_dee56cff，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

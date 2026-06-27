@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Maltego official docs
-- web: OSINT tools comparison 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-osint-sherlock]]'
-  - '[[high-density-composite-compilation-strategy]]'
-  - '[[tool-metadata-extraction]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-people-network-database]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Maltego：实体关系图谱
@@ -66,9 +66,9 @@ pip install maltego-trx
 
 ## 适用边界
 
-- **适用**：企业背景调查、供应链追溯、投资标的关联方排查
-- **不适用**：小额决策（工具本身有学习成本和付费门槛）
-- **成本**：Community版免费（功能受限），Professional版 $999/年起
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

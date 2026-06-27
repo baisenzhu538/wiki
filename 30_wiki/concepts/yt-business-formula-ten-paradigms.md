@@ -7,17 +7,17 @@ title: 一堂业务公式十大经典范式
 type: concept
 status: enriched
 domain:
-  - yitang- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#domain/yitang'
-- '#content-format/framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -26,18 +26,18 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[yt-growth-cycle-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 一堂业务公式十大经典范式
 
@@ -67,9 +67,9 @@ related:
 营收 = 流量 × 转化 × 客单价 × 复购
 ```
 
-- **适用**：电商、内容付费、SaaS 等线上业务
-- **核心问题**：哪个环节是短板？流量不够，还是转化/复购不够？
-- **常见误判**：以为流量是瓶颈，实际是转化率或复购率低于行业基准。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ② 线索转化型（个性范式）
 
@@ -77,9 +77,9 @@ related:
 成交 = 浏览量 × 线索 × 邀约 × 预定 × 合作
 ```
 
-- **适用**：B2B 销售、房产、汽车、企服等重决策业务
-- **核心问题**：线索到合作的漏斗哪一层流失最严重？
-- **关键动作**：优化邀约率、预定率、到店率，而不是单纯堆线索。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ③ 门店收入型（线下范式）
 
@@ -87,8 +87,8 @@ related:
 门店收入 = 门前流量 × 捕获率 × 付费率 × 客单价
 ```
 
-- **适用**：零售、餐饮、诊所、药店等线下业态
-- **核心问题**：是选址问题（门前流量）、门头问题（捕获率），还是转化问题（付费率）？
+- src_unknown
+- src_unknown
 
 ### ④ 用户周期型（长期范式）
 
@@ -96,9 +96,9 @@ related:
 用户价值 = 获客 × 激活 × 留存 × 收入 × 推荐
 ```
 
-- **适用**：订阅制、会员制、社群运营
-- **核心问题**：哪个生命周期阶段是增长杠杆？
-- **关键动作**： often 留存 > 获客，激活 > 拉新。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -110,8 +110,8 @@ related:
 用户粘性 = 粘性因素1 + 粘性因素2 + 粘性因素3 + 粘性因素4
 ```
 
-- **适用**：评估用户为何不易流失到竞品
-- **核心问题**：你的壁垒是由哪些因素叠加的？（如网络效应、数据沉淀、切换成本、品牌信任）
+- src_unknown
+- src_unknown
 
 ### ⑥ 工业生产型（对内效率）
 
@@ -119,8 +119,8 @@ related:
 有效产出 = 线索量 × 第一层筛选 × 第二层筛选 × 第三层筛选
 ```
 
-- **适用**：销售团队、招聘漏斗、供应链筛选
-- **核心问题**：筛选层数和质量是否匹配？层数太多会漏掉好机会，太少会引入噪音。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -132,8 +132,8 @@ related:
 留存 = N天活跃留存率（按活跃/订单算）
 ```
 
-- **适用**：APP、SaaS、订阅服务
-- **核心问题**：留存曲线在哪个时间点断崖？
+- src_unknown
+- src_unknown
 
 ### ⑧ 留存节点型（自定义范式）
 
@@ -141,8 +141,8 @@ related:
 学习留存 = 14天学籍率 × 30天20学率 × 180天50学率
 ```
 
-- **适用**：在线教育、训练营、知识付费
-- **核心问题**：学习行为的关键里程碑是什么？
+- src_unknown
+- src_unknown
 
 ### ⑨ 连续动作型（标准范式）
 
@@ -150,8 +150,8 @@ related:
 用户参与 = 点击 × 阅读 × 点击 × 点击
 ```
 
-- **适用**：内容产品、社群运营
-- **核心问题**：用户行为链是否连续？中断点在哪里？
+- src_unknown
+- src_unknown
 
 ### ⑩ 动作节点型（自定义范式）
 
@@ -159,8 +159,8 @@ related:
 学习完成 = 学籍 × 到场 × 听课 × 作业率
 ```
 
-- **适用**：线下培训、训练营、强运营型课程
-- **核心问题**：每个节点的转化率如何？哪个节点流失最多？
+- src_unknown
+- src_unknown
 
 ---
 
@@ -218,14 +218,14 @@ related:
 
 ## 验证与参考
 
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式.png`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式-ocr.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：10 个范式的名称、结构和公式表达式（直接来自培训图）
-- **中置信度**：适用场景和常见误判（基于培训笔记的解读）
-- **待复核**：部分变量名称（如「20学率」「50学率」）需结合一堂课程具体定义确认
+- src_unknown
+- src_unknown
+- src_unknown

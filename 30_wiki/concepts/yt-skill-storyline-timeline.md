@@ -5,18 +5,18 @@
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
-  - content-production- yitang
+  - src_unknown
 diagnostic_signals:
-- signal: 每个时间节点是否只记录事实和状态变化，无解释评价
+- src_unknown
   framework_lens: 事实-推断分离 / 因果暴露
   follow_up_question: 时间线中是否混入'因为...所以...'解释性语言？
-- signal: 节点数量是否控制在 10-15 个以内，否则拆分
+- src_unknown
   framework_lens: 可读性 / 认知负荷
   follow_up_question: 超过 15 个节点后因果链是否变得不可追踪？
-- signal: 每个节点是否有可验证来源（邮件/日志/聊天记录等）
+- src_unknown
   framework_lens: 可审计性 / 证据链
   follow_up_question: 无来源的推断是否被标注为[推断]而非事实？
-- signal: 时间线是否帮助读者独立发现至少 1 个之前忽略的因果问题
+- src_unknown
   framework_lens: 学习性 / 反直觉发现
   follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[yt-note-l4-internalization]]'
-  - '[[source-code-delivery-model]]'
-  - '[[private-domain-saas-sales-funnel]]'
-  - '[[七件事集团]]'
-  - '[[yt-skill-storyline-problem-solving]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
@@ -46,17 +46,17 @@ related:
 **核心操作**：将事件按时间顺序排列，每个时间点只记录"发生了什么"和"导致了什么"，删除所有解释、评价和推测。
 
 **关键原则**：
-- 最严格：时间顺序不可打乱
-- 不追求华丽：不用修辞，只用事实
-- 最贴近事实：每个时间点必须有可验证的来源
-- 极其简洁清晰：每个时间点一句话，不超过两行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出形态**：
 ```
-- T0: 事件发生前状态
-- T1: 触发事件A
-- T2: 事件A导致结果B
-- T3: 结果B触发事件C
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ...
 ```
 
@@ -105,12 +105,12 @@ Mona Baker的叙事理论指出，人类理解世界的方式是**叙事性**的
 
 Truman用严格时间线复盘一次产品迭代失败：
 ```
-- 2023.03.15: 用户反馈页面加载慢（N=23）
-- 2023.03.16: 团队决定优化图片加载策略
-- 2023.03.20: 图片懒加载上线
-- 2023.03.21: 用户反馈页面加载更慢（N=41）
-- 2023.03.22: 发现懒加载脚本与广告SDK冲突
-- 2023.03.23: 回滚懒加载，加载速度恢复
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 这个时间线暴露了一个反直觉的因果："优化"导致了"恶化"。如果混入评价（"团队决策失误"），这个反直觉的发现就会被掩盖。
@@ -119,9 +119,9 @@ Truman用严格时间线复盘一次产品迭代失败：
 
 某产品经理的时间线：
 ```
-- 2023.03.15: 用户反馈页面加载慢（说明用户体验差）
-- 2023.03.16: 团队英明地决定优化图片加载策略
-- 2023.03.20: 图片懒加载上线（技术团队效率很高）
+- src_unknown
+- src_unknown
+- src_unknown（技术团队效率很高）
 ```
 
 混入评价后，时间线失去了暴露问题的能力。读者看到的是"团队在努力"，而不是"优化导致了新问题"。

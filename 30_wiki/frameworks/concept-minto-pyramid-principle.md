@@ -6,54 +6,54 @@ title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
 status: enriched
 domain:
-  - management- consulting
-  - yitang
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 bridges_to:
-- target: skill-一堂-kernel-three-questions
+- src_unknown
   relation: provides_foundation_for
   description: 金字塔原理是内核三问结构化输出的底层原则
   context: 内核要素三问验证法要求结论先行、分层论证，与金字塔原理的纵向关系完全一致——最高层的结论由下一层的论据支撑
-- target: yt-entrepreneur-five-step-method
+- src_unknown
   relation: applies_to
   description: 五步法各步骤的输出需要用金字塔结构呈现
   context: 五步法做完充分做加法和减法后，需要输出结构化的分析报告。金字塔原理确保输出不是素材堆砌而是有层次的观点
-- target: yt-entrepreneur-key-hypotheses
+- src_unknown
   relation: complements
   description: 关键假设验证过程天然形成金字塔结构
   context: 假设驱动工作的输出——核心假设→子假设→验证结果→结论——本身就是一座金字塔
 diagnostic_signals:
-- signal: 用户说'我做了很多分析，但汇报的时候老板/投资人听不懂'
+- src_unknown
   framework_lens: 金字塔原理检查：你的分析结构是否有清晰的纵向关系——最高层结论是什么？下面几层分别支持什么？
   follow_up_question: 如果可以只用一句话向老板说明你最重要的结论，那句话是什么？
-- signal: 用户说'我的PPT/文档写了一堆，但感觉没有逻辑主线'
+- src_unknown
   framework_lens: 金字塔原理检查：是否先写了结论？同一层的观点是否遵循了MECE或因果逻辑？
   follow_up_question: 你把所有观点读一遍，标出你认为最重要的那个——读者看了你的文档后，应该记住的唯一一件事是什么？
-- signal: 用户说'我给投资人讲了30分钟，但他们只问了一个跟我说的完全不相关的问题'
+- src_unknown
   framework_lens: 金字塔原理检查：你的叙述是否按金字塔结构组织？如果听众只接收到了底层的碎片信息，就形不成对你的结论的判断
   follow_up_question: 如果你是投资人，看完你的PPT后必须带走一个决策点，你应该让他们带走什么？
 related:
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[tool-mece体系框架法]]'
-  - '[[yt-personal-ai-thinking-card]]'
-  - '[[concept-mckinsey-mece]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[concept-mckinsey-mece]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[concept-mckinsey-7s]]'
-  - '[[tool-一堂-kernel-three-questions]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[case-truman-sales-report-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#scene/business-analysis'
-- '#scene/communication'
-- '#scene/presentation'
-- '#industry/consulting'
-- '#method/structure'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-12'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -116,8 +116,8 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 ### 金字塔的 MECE 前提
 
 金字塔的每一层必须遵循 MECE 原则：
-- **相互独立**：同一层的论点不能重叠
-- **完全穷尽**：所有支撑该论点的论据都被覆盖
+- src_unknown
+- src_unknown
 
 这意味着：**MECE 是金字塔原理的底座**。不会做 MECE，就搭不好金字塔。金字塔原理和 MECE 是一对孪生工具——MECE 负责"怎么拆"，金字塔负责"怎么讲"。
 
@@ -177,9 +177,9 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 | **金字塔适用性** | **不适合** | **最适合** |
 
 **探索阶段的金字塔陷阱**：
-- 当你说\"我的结论是……\"时，你其实在关停探索——别人不再质疑你的假设，转而评价你的结论
-- 过早金字塔会导致\"确认偏误放大\"：你找到的三个论据都是支持结论的，但反对结论的证据被你遗漏了
-- **替代方案**：用 Issue Tree 做探索（拆解问题），用 Hypothesis Canvas 做假设管理，等假设验证后再搭金字塔
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 汇报阶段（结论输出 + 决策推动）
 
@@ -226,34 +226,34 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 将任意汇报/文档/演讲从"素材堆砌"改造成金字塔结构，可按以下 7 步执行。以 [[case-truman-sales-report-structure]] 中的销售失利汇报为例：
 
 ### Step 1：写出顶层结论（1 句话 ≤25 字）
-- ❌ 改造前："这次销售失利的原因有很多，我整理了一下"
-- ✅ 改造后："本次销售失利的根因是输入线索质量差，导致处理环节全面坍塌"
+- src_unknown
+- src_unknown
 
 ### Step 2：列出支撑结论的 3-5 个一级论点
-- 每个论点必须是**观点**，不是事实。
-- 例如：① 线索质量差；② 销售跟进节奏失控；③ demo 展示逻辑不匹配客户场景。
+- src_unknown
+- src_unknown
 
 ### Step 3：用"所以呢？"检验纵向关系
-- 从最底层事实开始，逐层向上问"所以呢？"
-- 如果某层回答不了"支持什么结论"，删除或下沉。
+- src_unknown
+- src_unknown
 
 ### Step 4：用 MECE 检验横向关系
-- 同一层论点是否相互独立？是否有遗漏？
-- 例如"输入→处理→输出"是一个 MECE 的因果链，比"10 个散点"更难以遗漏。
+- src_unknown
+- src_unknown
 
 ### Step 5：选择演绎或归纳
-- 要说服听众接受一个结论 → 用演绎（大前提→小前提→结论）
-- 要展示发现、让听众自己看到模式 → 用归纳（A、B、C→共同结论）
+- src_unknown
+- src_unknown
 
 ### Step 6：用 SCQA 写开场 30 秒
-- Situation（共识）："本季度销售线索量增长 30%"
-- Complication（冲突）："但成单率下降 15%，复盘发现失利案例高度集中"
-- Question（问题）："销售流程的哪个环节最先出问题？"
-- Answer（答案）："根因是输入线索质量差，导致后续处理环节全面坍塌"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 7：给出下一步行动
-- 金字塔不是终点，是推动决策的工具。
-- 结尾必须说明："因此，接下来 7 天内我们需要做 X、Y、Z。"
+- src_unknown
+- src_unknown
 
 **完成标准**：改造后的文档/汇报，听众在 30 秒内能复述你的核心结论和 3 个主要论据；如果听众问"所以你想说什么？"，说明金字塔结构仍不合格。
 
@@ -285,13 +285,13 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已更新为 `laowantong`
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `diagnostic_signals` 数量 ≥3（当前 3 条）
-- [x] `Constraints & Boundaries` 适用边界 ≥4（当前 4 条）
-- [x] `Common Failure Modes` 失败模式 ≥4（当前 4 条，均含症状+修复）
-- [x] 已新增至少 1 个落地工具/案例（金字塔结构一页纸自检清单 + Truman 销售失利案例映射）
-- [x] 已新增至少 2 条互链（新增 `concept-mckinsey-7s`、`case-truman-sales-report-structure`、`yt-pitch-storytelling` 共 3 条）
-- [x] 未新增卡片
-- [x] 已通过 `kcard-quality-gate.py` 全库扫描，目标卡无新增 P0/P1
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

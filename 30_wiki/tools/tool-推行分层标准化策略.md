@@ -3,20 +3,20 @@ id: tool-推行分层标准化策略
 title: 技能：推行分层标准化策略
 type: tool
 domain:
-- entrepreneurship- product
-- design
+- src_unknown
+- src_unknown
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
 - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- SOP系统
-- 模块化服务设计框架
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-16'
 author: unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-设定管理杠杆率指标评估效率]]'
-- '[[tool-建立策略-要素映射表设计对抗策略]]'
-- '[[tool-遵循规模前倾原则设计组织架构]]'
-- '[[tool-使用优先级快筛卡锁定核心矛盾]]'
-- '[[tool-设计对抗效果追踪看板]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：推行分层标准化策略
 
@@ -42,25 +42,25 @@ related:
 4. 执行80%标准化+20%灵活的混合模型
 
 ## 适用场景
-- ✅ 标准化与个性化需要平衡时
-- ✅ 过度标准化可能降低客户满意度时
-- ❌ 全环节都需要极致个性化时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 兼顾规模复制的效率与客户体验的灵活性，避免两极化陷阱
 
 ## 工具/环境
-- SOP系统
-- 模块化服务设计框架
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 课程设计者，src_20260609_1c8b4d0e，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

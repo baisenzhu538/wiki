@@ -4,7 +4,7 @@
 id: tinyfish-agentic-web-infrastructure
 created_at: 2026-05-06
 domain:
-- master
+- src_unknown
 review_date: 2026-05-06
 reviewed_by: 黄药师
 status: draft
@@ -18,11 +18,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[paddleocr-skill]]'
-  - '[[plan_20260621_skill-iteration-standard]]'
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[tool-yitang-web-scraping-research]]'
-  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # TinyFish — Agentic Web 基础设施建设层 Skill
 
@@ -102,21 +102,21 @@ tinyfish browser session create --url "https://example.com"
 
 ### 前提假设
 
-- 假设 Agent 端点（Mind2Web 89.9%）在生产环境中的可靠性接近基准分数。【可靠性：中】基准是标准化任务，真实 Web 的碎片化程度远超基准数据集
-- 假设 CLI + Skills 架构（87% token reduction vs MCP）在所有 Agent 框架中普遍适用。【可靠性：中高】测试数据来自 TinyFish 自己，但 token 节省的逻辑是合理的——写文件比塞上下文窗口更省
-- 假设 500 步免费额度足够开发者的评估和原型阶段。【可靠性：高】但对重度使用者，免费额度可能在几轮对话内耗尽
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
 
-- **最适合**：AI Agent 需要搜索/抓取/操作真实网站的场景——商业调研、竞品监控、数据采集
-- **不适合**：本地文件操作、纯 API 数据源、不需要浏览器渲染的简单 HTTP 请求
-- **关键限制**：依赖 TinyFish 的托管基础设施，不是本地工具；API 服务稳定性取决于 TinyFish 的运维水平
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与 business-research Skill 的关系
 
-- **互补关系**：business-research 的 Step 3（在线信息采集）可以用 TinyFish Search + Fetch 替代通用 WebSearch，获得更结构化、更可控的信息源
-- **增强关系**：business-research 的 Step 5（线下武器）中"产品体验"部分，TinyFish Agent 可以替代部分人工操作（表单填写、交互式页面浏览）
-- **非替代关系**：TinyFish 不提供 OSCAR 调研框架、质量门、15项机械检查——这些是 business-research Skill 独有的
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性
 
@@ -126,10 +126,10 @@ tinyfish browser session create --url "https://example.com"
 
 ## Synthesis
 
-- [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — TinyFish 是第四个维度：从"爬虫工具"升级到"Agentic Web 基础设施"。四者形成层次：库(Scrapling) → 框架(Crawl4AI) → API平台(Firecrawl) → Agent基础设施(TinyFish)
-- [[business-research-skill-oscar-13-weapon-system]] — TinyFish 可以成为 business-research 的"在线采信引擎"——Step 3 Search 替代通用搜索引擎，Step 5 Agent 替代部分线下产品体验
-- [[truman-perspective-skill]] — 两个 Skill 是不同品类：truman-perspective 是人格模拟型，use-tinyfish 是工具型（第三个品类，与 methodology 和 persona 并列）
-- [[kdo-protocol]] — TinyFish 的 SKILL.md + CLI 架构验证了 KDO Protocol 的 External Intake Routing 规则中"已结构化 Skill 包 → 直接安装"路径
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Skill 类型体系（至此形成三个品类）
 
@@ -141,9 +141,9 @@ tinyfish browser session create --url "https://example.com"
 
 ### 可迁移到 KDO 的改进
 
-- Skill 类型枚举（methodology / persona / tool）应纳入 KDO Protocol 的 Schema 定义
-- TinyFish 的 tinyskills recipe（自动生成 SKILL.md）可能是"研究并内化新技术"的加速器
-- Pre-flight check 模式（`which tinyfish` + `tinyfish auth status`）可推广到其他 tool 型 Skill 的安装验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -152,16 +152,16 @@ tinyfish browser session create --url "https://example.com"
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Open Questions
 
-- TinyFish Agent 在中国网站（防火墙、反爬、验证码）上的表现如何？
-- 500 免费步对 business-research 的一次完整调研（通常 250+ 次搜索）是否足够？
-- TinyFish 的 SKILL.md 格式与 Anthropic 官方 Skill 规范的兼容性？
-- tinyskills 自动生成的 SKILL.md 质量能否达到概念卡的深度标准？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- **business-research + TinyFish 集成**：在 business-research 的 Step 3 中优先使用 TinyFish Search/Fetch
-- **KDO Skill 类型系统**：在 `90_control/schemas/` 中新增 skill-type 枚举 Schema
-- **TinyFish tinyskills 试用**：用 TinyFish 的 SKILL.md 生成器反向验证我们的概念卡质量
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

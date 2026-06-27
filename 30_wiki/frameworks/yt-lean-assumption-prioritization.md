@@ -6,17 +6,17 @@ title: 关键假设排序：前置优先、风险高的优先
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#topic/lean-startup'
-- '#topic/hypothesis-validation'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -25,25 +25,25 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-lean-assumption-verification-3means]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[yt-lean-essence]]'
-  - '[[yt-lean-beauty-store-conversion]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-decision-abcd-model]]'
-  - '[[case-jh-yitang-vs-sqlhelper]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队同时想测需求、产品、定价、渠道，但说不清先测哪一个
+- src_unknown
   framework_lens: 前置假设优先 + 五步法阶段判断
   follow_up_question: 这些假设分别落在一堂五步法的哪一步？如果前一步不成立，后一步是否会全盘推翻？
-- signal: 资源有限却想铺多个渠道/多款产品同时验证
+- src_unknown
   framework_lens: 风险高的优先 + 证伪思维
   follow_up_question: 当前最可能导致项目死亡的假设是什么？用最低成本能否在2周内先证伪它？
-- signal: 已经进入增长讨论，但需求侧是否成立仍不清晰
+- src_unknown
   framework_lens: 需求/产品侧假设先于增长
   follow_up_question: 在验证增长渠道之前，需求假设和产品内核是否已拿到初步肯定判断？是否有真实付费或复购信号？
 
@@ -79,16 +79,16 @@ diagnostic_signals:
 需求 → 解决方案（产品内核） → 商业模式 → 增长 → 壁垒
 ```
 
-- **前面的假设是后面假设的前提**：需求不成立，产品内核再强也白搭；产品内核没跑通，规模化增长就是烧钱。
-- **前置假设失败会导致全盘推翻**：如果某一轮验证失败的结果是"一步回退"，说明验证设计合理；如果是"全盘推翻"，说明你跳过了前置假设。
+- src_unknown
+- src_unknown
 
 ### 2. 风险高的优先
 
 在已经拆好的假设清单里，优先验证"一旦错了就会让项目死亡"的假设。判断维度包括：
 
-- **致死率**：不成立是否会导致整个方向崩塌？
-- **验证成本**：能否用低成本快速拿到认知？
-- **信息价值**：验证后是否能排除最大不确定性？
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "不要把精力和资源耗在低风险环节上，要直击高风险假设。"（`src_20260616_e66bd149`）
 
@@ -108,9 +108,9 @@ diagnostic_signals:
 
 很多创业者过早进入"怎么获客"的讨论。框架要求：
 
-- 如果前三步（需求、产品、商业模式）没有初步通过，不要 all in 增长验证。
-- 增长渠道验证有专门的评估维度：试错成本、ROI、天花板、能力匹配。
-- 进入增长阶段的标志是：**单元模型成立，且跑通了一条增长渠道**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -121,9 +121,9 @@ diagnostic_signals:
 **张磊的排序方法**：
 
 1. **先代入五法，给假设定位**：
-   - 产品是解决方案；
-   - 内容获客、渠道获客属于增长；
-   - 价格带偏解决方案，具体定价偏商业模式，优惠促销策略偏增长，人群价格敏感性属于需求。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **前置优先**：先验证需求侧（用户是否真需要、价格敏感性）和产品侧（产品/解决方案是否成立）。
 3. **风险高的优先**：越在需求侧、产品侧的假设风险越高，越应前置验证。
 4. **增长后置**：如果需求和产品未成立，不要急着验证内容和渠道获客。
@@ -142,9 +142,9 @@ diagnostic_signals:
 
 **张磊的判断**：
 
-- 关键不是测某一个单品，而是找到漏斗里风险最高的假设。
-- 200 元用户能否转化到 3980 元，是整个商业模型的"关键转化路径"。
-- 如果 200→3980 不成立，引流再多也是赔本，2 万元加盟更是空中楼阁。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验证顺序（里程碑测试）**：
 
@@ -172,25 +172,25 @@ diagnostic_signals:
 
 ## 与相关卡片的关系
 
-- [[yt-entrepreneur-five-step-method]]：本框架的坐标系，用于给假设定位阶段。
-- [[yt-entrepreneur-key-hypotheses]]：关键假设的识别方法，是本框架的输入。
-- [[yt-entrepreneur-lean-validation]]：精益验证的整体方法论，本框架是其假设排序环节的具体规则。
-- [[tool-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证三种手段，用于落地本框架排序后的验证动作。
-- [[yt-decision-abcd-model]]：用于判断当前问题是生死问题（A 类）还是效率问题（C/D 类），避免用错误层级的方法验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Action Triggers
 
-- [ ] 列出当前业务的全部假设，用一堂五步法给每个假设定位。
-- [ ] 找出"一旦不成立就会让项目死亡"的前置假设，作为第一验证优先级。
-- [ ] 在验证增长渠道前，先检查需求和产品内核是否已有初步肯定信号。
-- [ ] 为每个里程碑设定硬止损线：投入金额、测试周期、核心指标阈值。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **confidence: 0.83**：本框架的核心规则（前置优先、风险高的优先、代入五法分析）在张磊 AMA 精华稿 Q3 中有明确表述，并在 notes-01、notes-02、oral-01 中形成交叉印证。
-- **trust_level: high**：主源为 AMA 精华稿（`src_20260616_b1e25c49`），辅以口述转写（`src_20260616_7dc80216`）和两份学习笔记（`src_20260616_6c8b240b`、`src_20260616_e66bd149`），来源数量 ≥ 2 且核心观点一致。
-- **局限**：本框架的落地细节（如具体样本量、止损阈值）在不同业务中差异较大，需结合 [[yt-unit-model-overview]] 和具体业务公式做二次校准；口述稿转写存在口语化表达，部分措辞已做结构化提炼。
+- src_unknown
+- src_unknown
+- src_unknown

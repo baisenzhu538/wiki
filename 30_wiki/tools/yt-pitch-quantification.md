@@ -8,30 +8,30 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 related:
-  - '[[yt-pitch-metaphor]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 数字化
-- 数字策略
-- 用数字
-- 对比数字
-- 巧用数字
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'

@@ -12,9 +12,9 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- lean-startup
-- five-step-method
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 30_wiki/frameworks/framework-demand-iceberg.md
@@ -25,24 +25,24 @@ source_refs:
 - 30_wiki/tools/tool-demand-iceberg-l5-forces.md
 - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 related:
-  - '[[framework-strategy-lean-validation]]'
-  - '[[framework-lean-pivot-decision]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - '[[framework-five-step-lean-interface]]'
-  - '[[five-step-domain-digest]]'
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-demand-iceberg-l1-user]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-demand-iceberg-l4-job-map]]"
-  - "[[tool-demand-iceberg-l5-forces]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[framework-strategy-lean-validation]]"
-  - "[[five-step-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 需求判断与精益验证的衔接
@@ -51,9 +51,9 @@ related:
 
 ## 触发问题
 
-- “需求分析做了很多，但怎么知道不是纸上谈兵？”
-- “冰山 L6 的机会卡片，怎么快速验证？”
-- “RAT 评估完了，哪些假设最值得先做实验？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 端到端流程
 
@@ -92,11 +92,11 @@ related:
 
 ## 与相邻卡的关系
 
-- 需求入口：[[framework-demand-iceberg]] 给出 L1–L6 的完整推演纪律；本卡负责把每层洞察翻译成可验证假设。
-- 工具层：[[tool-demand-iceberg-l1-user]]、[[tool-demand-iceberg-l2-scenario]]、[[tool-demand-iceberg-l3-core-job]]、[[tool-demand-iceberg-l4-job-map]]、[[tool-demand-iceberg-l5-forces]]、[[tool-demand-iceberg-l6-hypothesis]] 提供每层具体操作方法。
-- 精益工具：[[framework-lean-false-model]] 决定验证工具的成本光谱，[[framework-lean-abcd-model]] 决定假设优先级，[[yt-entrepreneur-key-hypotheses]] 提供关键假设剥离方法。
-- 战略接口：[[framework-strategy-lean-validation]] 把本卡输出的 L6 验证结果接回战略假设迭代。
-- 域图：[[five-step-domain-digest]]、[[lean-startup-domain-digest]] 提供两个域的完整索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -110,8 +110,8 @@ related:
 
 ## 适用边界
 
-- **适合**：已完成或部分完成需求冰山分析，需要把洞察转化为可执行验证计划的团队；需要降低“需求自嗨”风险的新产品方向。
-- **不适合**：全新品类中用户无法表达未见过的东西，此时 L2/L3 的访谈/问卷可能失效，需用原型共创、情境模拟等探索性方法 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md]；已有大规模用户数据的成熟产品微调，可直接用 A/B 测试替代冰山分析。
+- src_unknown
+- src_unknown
 
 ---
 

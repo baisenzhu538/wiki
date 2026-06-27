@@ -6,42 +6,42 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: pitfalls.md P-19
 source_refs:
-- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-19
+- src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[dk-p18-yaml-parser]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[dk-f13-handwritten-yaml-parser]]'
-  - '[[dk-p18-yaml-parser]]'
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: YAML frontmatter 修改后批量文件出现 parse error，且错误指向含中文引号的值
+- src_unknown
   framework_lens: YAML 流式解析陷阱
   follow_up_question: 报错的值是否包含 `"内容"=tail` 或 `"内容":tail` 模式？是否最近做过引号统一化？
-- signal: 自动化脚本将花引号统一替换为直引号后，原本可解析的 YAML 突然失效
+- src_unknown
   framework_lens: 字符集兼容性/批量替换风险
   follow_up_question: 替换前是否做了 round-trip 校验？含双引号的值是否已用单引号包裹？
 tags:
-- '#source_type/error'
-- '#domain/master'
-- '#method/yaml'
+- src_unknown
+- src_unknown
+- src_unknown
 ---# P-19：花引号被YAML误解析为字符串定界符
 
 ## 原始表述 / 核心洞察
@@ -58,46 +58,46 @@ tags:
 
 ## 使用场景
 
-- 你在 YAML frontmatter 中写包含引号的中文内容
-- 你将花引号修复为直引号后出现 YAML 解析错误
-- 你需要在 YAML 中存储含有特殊字符的文本
-- 你设计自动化工具处理中文内容的引号转换
-- 你批量规范化 vault 中的引号后需要验证 frontmatter 可解析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **识别问题**：
-   - YAML parse error 发生在含引号的值上
-   - 错误信息可能显示为非法字符或非法 tail
-   - 报错值包含 `"内容"=tail` 或 `"内容":tail` 模式
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **解决方案 A：单引号包裹**：
-   - 将含有双引号的值用单引号包裹
-   - 例：`key: '"value"=tail'`
-   - 单引号内的双引号不会被解释为定界符
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **解决方案 B：保留花引号**：
-   - 花引号（""）不是 YAML 特殊字符
-   - 不需要从花引号修复为直引号
-   - 这是最简单的解决方案
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **预防措施**：
-   - 自动化工具在修复引号时，不要统一将花引号改为直引号
-   - 如果必须改为直引号，确保 YAML 值用单引号包裹
-   - 在批量修改前做 round-trip 校验（读取→解析→重新序列化→对比）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 不要随便将花引号改为直引号
-   - 不要假设"直引号和花引号效果一样"
-   - 不要在没有验证的情况下批量修改引号
-   - 不要用正则替换直接处理 YAML frontmatter
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有在 YAML 中存储含引号中文内容的场景
-- 不适用于纯英文内容（英文引号不容易触发此问题）
-- 不适用于 JSON/TOML 等其它格式，它们的引号规则不同
-- **与 P-18 的区别**：P-18 是"手写解析器的结构损坏"，P-19 是"标准解析器的字符误解"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -110,17 +110,17 @@ tags:
 
 ## 为什么值钱
 
-- 这是"标点符号兼容性"的实战教训：英文和中文的引号在不同环境中表现不同
-- 极具隐蔽性：解析错误只在特定模式下触发，不容易被发现
-- 直接关联批量数据安全：一次引号替换可能破坏大量 frontmatter
-- **AI 训练语料中不会有这条**：没有任何文档会写"中文花引号改为直引号后可能触发 YAML 解析错误"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p18-yaml-parser]] — 同样是 YAML 处理问题：P-18 是手写解析器拍扁结构，P-19 是标准解析器误读引号
-- [[kdo-yaml-frontmatter-safety]] — YAML frontmatter 安全规范与 round-trip 校验原则
-- [[master-first-principles]] — 包含"先验证再批量"等基础设施操作原则
-- `.agent/pitfalls.md` → P-19（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-06-03）
 

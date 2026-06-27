@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.90
 trust_level: high
 domain:
-  - lean-startup
-  - yitang
+  - src_unknown
+  - src_unknown
 source_context: 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
 source_refs:
   - 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
@@ -17,10 +17,10 @@ created_at: "2026-06-23"
 author: 黄药师
 reviewed_by: pending
 related:
-  - "[[five-step-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 域摘要：精益创业方法论
@@ -108,12 +108,12 @@ related:
 > 注：`case-lean-marketing-channel-comparison`（完美日记 vs 花西子）与 `case-lean-b2b-sector-selection`（建材企业赛道选择）因素材缺失已取消生产。
 
 精选代表案例：
-- [[case-lean-electric-scooter-mvp|电动滑板车]] —— 从 0 到 1 的完整假设验证链
-- [[case-lean-genki-forest-toolkit|元气森林试错工具箱]] —— 消费品四阶段七工具渐进验证
-- [[case-lean-zhanglei-hypothesis-validation|张磊 AMA：假设验证实操]] —— 不生产产品先验证产品内核
-- [[case-lean-gray-test-paradigm|灰度测试范式]] —— 单变量逐步放量的经典路径
-- [[case-一堂-陈贤敏汉堡-hypothesis-validation|陈贤敏汉堡]] —— 单店 MVP 验证的经典范式
-- [[tool-lean-ai-accelerated-validation|AI 加速 FALSE 模型验证]] —— 精益在 AI 时代的演化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 完整案例清单见 `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md` 及 `60_feedback/tasks/task_20260623_laowantong-lean-startup-case-supplement.md`
 

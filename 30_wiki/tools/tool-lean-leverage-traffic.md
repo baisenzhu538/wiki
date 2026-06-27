@@ -10,24 +10,24 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
 related:
-  - '[[tool-lean-presell]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-human-replace-rnd]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 借流量工具：用现有流量测试
@@ -41,11 +41,11 @@ related:
 ## 操作步骤
 
 1. **明确要验证的假设**
-   - 先回答：我要验证的是「需求存在」「卖点吸引力」还是「转化路径」？
-   - 每次只测一个最高风险假设，避免把渠道、产品、定价混为一谈 [conf=0.85, source=framework-lean-false-model + 一堂DOC-20260622212323]。
+   - src_unknown
+   - src_unknown
 
 2. **选择可借用的流量池**
-   - 根据目标用户画像，从以下五类中选择 1-2 个最匹配的入口：
+   - src_unknown
 
 | 流量类型 | 典型场景 | 适合验证什么 | 示例平台/渠道 |
 |:---|:---|:---|:---|
@@ -56,16 +56,16 @@ related:
 | 线下流量 | 物理场景自然人流 | 场景需求、即时转化 | 地铁口、集市、门店门口 |
 
 3. **设计最小测试单元**
-   - 不需要完整产品，只需要能触发用户行动的「钩子」：一张海报、一条帖子、一个商品页、一段 Demo 视频或一个微信群二维码 [conf=0.85, source=framework-lean-false-model]。
-   - 明确 call-to-action：扫码、评论、私信、下单、加群，选一种可量化的动作。
+   - src_unknown
+   - src_unknown
 
 4. **投放并观察 3-7 天**
-   - 记录曝光量、互动量、留资/加群/下单数、用户主动反馈。
-   - 不要过早优化，先看是否存在「显著不感兴趣」或「显著感兴趣」信号。
+   - src_unknown
+   - src_unknown
 
 5. **判定通过/不通过标准**
-   - 通过：达到预设的最低转化阈值，且用户反馈与假设一致，可升级到下一验证阶段（如人工服务、最小版本）。
-   - 不通过：连续 3-7 天无有效互动或转化，且排除文案/渠道选择问题后仍无信号，应回到假设拆解阶段 [conf=0.80, source=一堂精益创业方法论综合判断]。
+   - src_unknown
+   - src_unknown
 
 ## 成本/周期/样本量
 
@@ -82,16 +82,16 @@ related:
 
 **最适合**
 
-- 早期需求不确定性高、还没有独立获客能力的团队 [conf=0.85, source=一堂DOC-20260622212323]。
-- 消费品、内容产品、本地生活服务、社群运营等用户决策链短的形态。
-- 已经有清晰用户画像，但不知道哪个渠道转化率更高的阶段。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **需要调整的场景**
 
-- **强监管行业**（医疗、金融、教培、博彩）：在交易平台或社区发布「测试型」内容可能触碰广告法或行业监管，需先确认合规边界，必要时改用深度访谈或行业社群私测 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：粗糙海报或二手平台挂测可能损伤品牌信任，可在私域或高端社群中以「内测邀请」形式进行 [conf=0.80, source=任务指令 L8 边界案例]。
-- **B2B 长决策链**：单次发帖或朋友圈很难触达决策链上所有角色，应配合友商推荐、线下沙龙、定向邀约等组合手段 [conf=0.80, source=framework-lean-false-model 适用边界]。
-- **平台型/网络效应产品**：早期借流量只能验证单边兴趣，无法验证双边匹配效率，需设计更复杂的灰度测试 [conf=0.75, source=讲师经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -122,10 +122,10 @@ related:
 
 ## When NOT to Use
 
-- **平台型或网络效应产品**不能只借单边流量就判断需求成立，双边匹配效率需要更复杂的灰度测试。
-- **品牌敏感型高客单价产品**在二手平台或公开论坛挂测，容易损害品牌信任，应改用私域或定向邀约。
-- **强监管行业**在公开平台发布测试型内容可能触碰广告法，需先做合规确认或改用行业社群私测。
-- 当团队把渠道验证误当成产品验证时，应暂停投放，先设计更深的付费或行动指标。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

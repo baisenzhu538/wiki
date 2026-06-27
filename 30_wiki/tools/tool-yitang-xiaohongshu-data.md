@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-pc-web-data]]'
-  - '[[tool-yitang-stock-data]]'
-  - '[[tool-yitang-amazon-bestseller]]'
-  - '[[tool-yitang-anonymous-roundtable]]'
-  - '[[tool-yitang-court-record-search]]'
-  - "[[tool-yitang-weapon-third-party-database]]"
-  - "[[tool-yitang-public-sentiment-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 小红书数据
@@ -29,10 +29,10 @@ related:
 > 小红书——消费决策的核心平台。种草笔记数量=品牌热度，差评笔记=产品缺陷。
 
 **用法**：
-- 搜品牌名/产品名→看笔记数量和趋势
-- 看热门笔记的内容方向（用户最关注什么？）
-- 搜"品名+踩雷/拔草/避坑"→看产品缺陷
-- 看竞品对比类笔记（用户怎么比较不同品牌？）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：小红书是离"购买决策"最近的平台——用户在搜的时候已经带着购买意图。
 

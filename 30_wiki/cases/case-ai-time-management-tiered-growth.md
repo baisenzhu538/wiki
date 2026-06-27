@@ -6,16 +6,16 @@ confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-  - ai
+  - src_unknown
+  - src_unknown
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
-  - "AI时间管理"
-  - "时间管理App"
-  - "保4争6"
-  - "AI时间管理案例"
-  - "七级演进"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -34,15 +34,15 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[case-coffee-shop-foresight]]'
-  - '[[yt-three-dimension-opportunity-matrix]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[dk-foresight-tier-skip-illusion]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：AI时间管理App七级演进
 
@@ -56,9 +56,9 @@ related:
 
 ### 案例背景
 
-- **案主：**想做AI时间管理方向的创业
-- **核心困惑：**不确定要做什么产品形态、多大规模
-- **一堂方法：**终局光谱图 + 五步法商业画布
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 七级演进详解
 
@@ -86,9 +86,9 @@ related:
 
 **案主决策：保4争6**
 
-- **保4（小规模）**：开发时间管理应用App，通过付费广告获客增长
-- **争6（细分头部）**：期待做出一个在行业内记得住名字、数一数二的产品和公司
-- **关键质变点**：从小规模到细分头部的质变点是"融资"——需要资本支撑快速扩张
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Lessons
 

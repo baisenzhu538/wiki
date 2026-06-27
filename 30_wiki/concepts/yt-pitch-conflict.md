@@ -4,31 +4,31 @@
 
 id: yt-pitch-conflict
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 冲突化
-- 反差
-- 对抗
-- 认知反差
-- 竞争反差
-- 塑造对手
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-scenarization]]'
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,16 +37,16 @@ title: 讲香·冲突化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 内容中有明确的反差或对立，且反差与核心卖点相关
+- src_unknown
   framework_lens: 冲突是注意力触发器
   follow_up_question: 这个冲突如果没有，用户还会关心你的内容吗？
-- signal: 冲突最终会导向你的产品/观点，而不是停留在对立
+- src_unknown
   framework_lens: 冲突是桥梁不是终点
   follow_up_question: 冲突解决后，用户应该得出什么结论？
-- signal: 冲突没有虚假或恶意攻击竞争对手
+- src_unknown
   framework_lens: 冲突需要伦理边界
   follow_up_question: 这个冲突如果公开给被对比方看，你是否能坦然接受？
 updated_at: '2026-06-16'
@@ -69,40 +69,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **冲突与产品无关，只为博眼球**
-   - **原因**：冲突漂移
-   - **修复**：冲突必须直接服务于核心卖点的表达
+   - src_unknown
+   - src_unknown
 
 2. **冲突没有解决方案，让用户不舒服地离开**
-   - **原因**：冲突无出口
-   - **修复**：每个冲突后必须接‘所以我们的产品/方法能……’
+   - src_unknown
+   - src_unknown
 
 3. **用贬低对手制造冲突，引发舆论反噬**
-   - **原因**：攻击性营销
-   - **修复**：冲突聚焦在用户认知或旧方案局限，而非攻击具体品牌
+   - src_unknown
+   - src_unknown
 
 4. **冲突过于夸张，用户觉得不真实**
-   - **原因**：失真
-   - **修复**：冲突必须基于真实用户痛点或可观察的事实
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 冲突化是制造反差和对抗——用户对平铺直叙的东西没反应，但只要制造了反差，耳朵瞬间就立起来。反差、矛盾、转折是人性中最原始的注意力触发器
-- claim:02 [conf=0.85] 冲突化一旦做到位，戏剧效果拉满——用户本来不想看，但特别想知道「这个冲突是怎么形成的」「高下立判」的结果是什么。阿蕊的爆款脚本中至少用了1个冲突化策略点
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **I1 认知反差**：你不知道，我知道；你以为是，其实是；你错了，我告诉你对的；你想复杂了（简单了），听我说。例如：「植物里有我们想要的答案，而化工厂里没有」——直接制造天然vs合成的认知对抗
-- claim:04 [conf=0.85] **I2 价值反差**：目标对立、标准对立、观念对立。例如：一堂vs知识付费——「如果你夸一堂知识付费做得好，我觉得是在骂我们。我们压根不跟知识付费比，我们在做教材、做严肃教育」——价值定位的反差让用户重新理解「这是什么」
-- claim:05 [conf=0.80] **I3 竞争反差**：竞品对比、正反两派、塑造对手。例如：「20万年薪和500万年薪的怎么开会」——用薪资差距制造对比场景，用户立刻想知道差异在哪。马意的短视频系列靠这一招拿下了很高的转化量
-- claim:06 [conf=0.80] **I4 逆袭反差**：打怪模型、英雄之旅。从低谷到崛起、从失败到成功的情节反差。例如：一堂259的五步法故事——看别人的模型不够好（二代三代都不行）→自己从源头提炼→跑通。逆袭故事天然带有「真假？我看看」的吸引力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **护肤品「植物萃取」**：第一版「植萃精华天然加持」——听起来还行但没感觉，像广告词。升级版「植物里有我们想要的答案，而化工厂里没有」——直接制造天然vs工业的对立，用户瞬间有了立场：「我当然选天然的那边」
-- claim:08 [conf=0.85] **一堂vs知识付费**：「2000块钱以下定价提供这种级别服务，市场上没有任何一个机构这样做。国内绝大部分公司不愿意用十年心态来做课，我们是愿意的」——竞争反差 + 价值反差双重叠加，让「一堂」从「又一个卖课的」变成「唯一认真做教育的」
-- claim:09 [conf=0.85] **「扫码辛苦学3天，不扫弯路走3年」**：扫码 vs 不扫（行动反差）、辛苦3天 vs 弯路3年（时间跨度反差）、学 vs 走（主动vs被动反差）——一行金句完成了三重反差叠加
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -117,10 +117,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：冲突化是抽象化第四指，四层修炼之奇效层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库中的 I1-I4 冲突化战术
+- src_unknown
 
 ## Synthesis
 

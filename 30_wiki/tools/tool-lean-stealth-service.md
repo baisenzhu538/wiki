@@ -14,24 +14,24 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[tool-lean-leverage-tools]]'
-  - '[[tool-lean-leverage-resources]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 想验证一个 AI/智能服务，但算法或系统还没开发
+- src_unknown
   framework_lens: 一堂 FALSE 模型 A 阶段（人工服务）
   follow_up_question: 能否用真人后台先跑一轮服务，前端只做一个简单的输入/展示界面？
-- signal: 平台型业务需要验证匹配或推荐效果，但核心算法尚未成型
+- src_unknown
   framework_lens: 低成本验证 / 关键假设拆解
   follow_up_question: 能否先由运营人工撮合 30-100 对，观察匹配成功率和付费意愿？
-- signal: B2B 服务或高客单价咨询，不确定客户愿为哪种交付形态付费
+- src_unknown
   framework_lens: 产品内核验证
   follow_up_question: 能否用专家人工交付一轮，验证客户是否愿意为「服务结果」而非「系统功能」付费？
 ---
@@ -54,10 +54,10 @@ diagnostic_signals:
 
 3. **用人工完成后台履约**
    后端由真人完成本应属于算法或系统的工作。常见形态包括：
-   - 真人客服/专家在后台回复，模拟 AI 对话服务 [conf=0.85, source=一堂DOC-20260622212212_ocr_text.md]
-   - 编辑人工筛选内容，模拟推荐 APP 的个性化 Feed [conf=0.85, source=一堂DOC-20260622212212_ocr_text.md]
-   - 运营人工撮合双方，模拟约会/招聘/交易平台的配对算法 [conf=0.85, source=一堂DOC-20260622212212_ocr_text.md]
-   - 分析师人工生成报告，模拟 BI/数据分析系统的结论输出 [conf=0.85, source=一堂DOC-20260622212212_ocr_text.md]
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **埋点并记录证据**
    记录用户行为、转化率、留存、NPS、付费转化及用户原话。重点观察：用户是否把服务价值归因于「产品」，而非「某个人」。
@@ -84,18 +84,18 @@ diagnostic_signals:
 ## 适用边界
 
 **最适合的产品形态**
-- AI/聊天/助手类服务：先用真人验证对话场景和价值，再训练模型 [conf=0.85, source=精益创业经典方法论]。
-- 推荐/内容/匹配平台：用人工编辑或运营验证用户是否愿意为「匹配质量」付费或留存 [conf=0.85, source=一堂DOC-20260622212212_ocr_text.md]。
-- 高客单价咨询、B2B 服务：人工服务本身就是可接受的早期交付形态 [conf=0.70, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **阶段建议**
-- 0-1 阶段最适用：需求不确定、产品未定型，用人工替代系统能降低沉没成本 [conf=0.85, source=framework-lean-false-model.md]。
-- 规模化前必须退出：人工无法无限放大，验证成功后需尽快系统化 [conf=0.85, source=精益创业经典方法论]。
+- src_unknown
+- src_unknown
 
 **强监管/品牌敏感/B2B 长链场景的调整**
-- 强监管行业（医疗、金融、教培）：必须明示「由人工/专家提供服务」，避免虚假宣传；不能用「系统」名义提供需要资质的诊断、投资建议或教学服务 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- 品牌敏感型产品（高端服务、奢侈品）：前端体验需保持高度一致，避免粗糙 MVP 损伤品牌信任 [conf=0.80, source=任务指令 L8 边界案例]。
-- B2B 长决策链：偷偷服务更适合作为客户成功/交付验证，而非获客验证；决策链长意味着小样本即可验证，但周期会拉长 [conf=0.70, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -111,14 +111,14 @@ diagnostic_signals:
 ### 正例：共享电动滑板车 C 版人工服务 MVP [conf=0.70, source=讲师教学案例推演]
 一堂课程中用「共享电动滑板车」演示了从 All-in 到假页面的四级验证。C 版方案是：买 20 台普通滑板车，在地铁口摆摊，用海报提供人工租赁服务 [conf=0.70, source=case-lean-electric-scooter-mvp.md]。
 
-- 验证假设：用户是否愿意在真实场景下为电动滑板车付费/使用。
-- 成本：约 2 万元，周期 1-2 周 [conf=0.70, source=case-lean-electric-scooter-mvp.md]。
-- 启示：在尚未自研硬件和 APP 之前，用人工服务跑通「需求+履约」链路，是偷偷服务的典型应用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 教材级对照：Wizard of Oz / Concierge MVP [conf=0.90, source=精益创业经典方法论]
 偷偷服务与 Eric Ries 体系中的「绿野仙踪 MVP」和「礼宾 MVP」本质相同：用户看到的是一个完整产品界面，背后由真人完成关键动作 [conf=0.90, source=Eric Ries《精益创业》]。
 
-- 典型应用：Zappos 早期用实体店买鞋拍照上架，验证用户是否愿意网上买鞋 [conf=0.90, source=公开经典案例]。
+- src_unknown
 
 ## Purpose
 
@@ -126,10 +126,10 @@ diagnostic_signals:
 
 ## When NOT to Use
 
-- **规模已成的业务**不宜长期依赖人工后台，否则会锁死毛利和交付速度。
-- **对实时性要求极高的场景**（如高频交易、实时调度）人工无法模拟系统响应，测试结果不可信。
-- **强监管行业**若以「系统」名义提供需要资质的服务（如诊断、投资建议），会涉嫌虚假宣传，必须明示人工/专家服务属性。
-- 当团队目标是验证「算法效果」本身（如推荐准确率）而非「服务价值」时，应直接做技术验证或离线实验。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

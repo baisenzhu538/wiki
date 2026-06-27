@@ -4,7 +4,7 @@
 id: "开源HIS系统代码深度分析报告"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
 - src_20260503_f4891888-开源HIS系统代码深度分析报告
 status: enriched
@@ -12,17 +12,17 @@ title: "开源HIS系统代码深度分析报告"
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[HIS系统开发实现方案-架构师指南]]'
-  - '[[轻量级诊所HIS调研全清单]]'
-  - '[[保达云诊所深度调研报告]]'
-  - '[[EC工业化规范手册]]'
-  - '[[HIS系统深度调研]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 开源HIS系统代码深度分析报告
 
@@ -35,7 +35,7 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md`
+- src_unknown
 
 ## Reusable Knowledge
 
@@ -63,9 +63,9 @@ related:
  逐条质疑
 
 **对结论1-3：**
-- 前提假设：开源代码的质量足以作为生产系统的参考。但开源HIS普遍缺乏真实医疗场景的验证，代码中的边界条件和异常处理可能不完善。
-- 边界与反例：hospital-management-system的代码生成器虽然提升开发效率，但生成的代码往往缺乏业务语义，长期维护成本高。
-- 可靠性评估：**中**。技术架构分析准确，但生产可用性需独立验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -79,24 +79,24 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[鑫港湾his系统分阶段整改报告]] — 开源分析为整改提供了具体的技术实现参考。鑫港湾的架构升级可以借鉴OpenHIS的DDD分层，而非从零设计。
-- [[保达云诊所深度调研报告]] — 保达是闭源商业产品（.NET MVC单体），开源HIS是.NET Core微服务。二者对比可构建"商业产品vs开源方案"的决策框架。
-- [[HIS系统深度调研]] — 行业报告说"微服务是趋势"，开源分析提供了微服务的具体实现样本（OpenHIS）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- **开源代码评估框架**：技术架构、领域模型、权限机制、可扩展性四个维度的评估清单，可迁移至任何开源B2B系统的技术选型。
+- src_unknown
 
 ## Open Questions
 
-- 三个开源HIS系统的Star数、社区活跃度、最近更新时间是什么？是否仍在维护？
-- OpenHIS的DDD实现是否过度工程？对于中小型诊所HIS，贫血模型是否更实用？
-- 开源HIS的License类型是什么？商用是否需要遵守GPL/AGPL的传染性条款？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Code: 基于OpenHIS的鑫港湾领域模型重构参考实现
-- Capability: 医疗信息化开源系统技术评估框架
-- Content: 诊所HIS开源方案vs商业方案选型指南
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

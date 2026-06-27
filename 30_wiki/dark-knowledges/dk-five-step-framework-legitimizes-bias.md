@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: anti-pattern
 status: enriched
 domain:
-- yitang
-- entrepreneur
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -16,37 +16,37 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[dk-level-blindspot-external-feedback]]'
-  - '[[yt-business-analysis-cognitive-biases]]'
-  - '[[five-step-domain-digest]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-business-analysis-cognitive-biases]]'
-  - '[[tool-cognitive-bias-12-check]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/anti-pattern'
-- '#domain/yitang'
-- '#domain/entrepreneur'
-- '#method/framework-critique'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 团队用五步法跑完一轮分析，结论和跑之前一模一样
+- src_unknown
   framework_lens: 确认偏误放大——框架被用作"证明已知结论"的工具，而非"发现未知答案"的工具
   follow_up_question: 这一轮分析中，有哪一步让你对原有假设产生了怀疑？如果没有，你可能只是在给直觉穿西装。
-- signal: 团队讨论 10 分钟就达成一致，没人反对
+- src_unknown
   framework_lens: 群体确认偏误——快速一致不是分析充分，而是所有人都陷入了同一个盲区
   follow_up_question: 指定某人扮演"魔鬼代言人"，强制用一个反例或一组对立数据攻击当前结论。
-- signal: 五步法报告很完整——每个框都填了、画布很漂亮——但每个框里的数字都没有标注来源和置信区间
+- src_unknown
   framework_lens: '"框完成"≠"框验证"——填满动作无法替代数据溯源'
   follow_up_question: 在每个框的数字旁边加一个标注：这个数据从哪来？有多可信？如果错了后果是什么？
-- signal: 同一组人、同一套方法、同一个问题，每次都得出类似的结论，从不出现推翻上一轮的发现
+- src_unknown
   framework_lens: 学习信号缺失——真正的科学方法会不断推翻旧假设，稳定的结论往往是方法论停滞的信号
   follow_up_question: 上一次你团队用五步法得出和预期相反的结论是什么时候？如果从不发生，方法论可能已经沦为仪式。
 ---
@@ -76,11 +76,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 团队刚跑完一轮框架分析，结论和直觉一致——你隐隐觉得哪里不对。
-- 你在教别人使用结构化框架（五步法、SWOT、波特五力等），想警告最常见的误用。
-- 团队的框架报告看起来很完整，但所有数字都没有标注来源。
-- 你想区分"真正在用框架思考"和"在给直觉填表"的行为模式。
-- 你在设计一个框架的质量检核标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -103,9 +103,9 @@ diagnostic_signals:
    每次框架讨论必须有人扮演反对者，且反对者必须引用数据或具体案例，不能只说"我觉得不对"。
 
 4. **问三个"反直觉问题"**
-   - "在这次分析中，哪一步让我们最不舒服？"
-   - "如果我们把结论反过来，有什么证据支持反过来的结论？"
-   - "三年后回头看，这个分析中最可能错的是什么？"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **追踪"被推翻率"**
    记录过去 N 次框架分析中，有多少次结论被后续事实推翻。如果推翻率接近零，说明要么方法论在退化，要么团队在回避困难问题。
@@ -131,15 +131,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **反直觉且反舒适**：承认"我们可能在用框架自欺"不是舒服的事，但这恰恰是框架使用者最需要的清醒剂。
-- **通用性强**：不止五步法——SWOT、OKR、Design Thinking、精益画布……任何结构化框架都可能被用来"合法化偏见"。
-- **有真实案例支撑**：Truman 在课堂上反复观察到学员"填完画布就觉得自己做了分析"的现象，段位盲区实验进一步验证了"用框架不等于提高判断力"。
-- **区分了"使用框架"和"科学分析"**：这是两个完全不同的行为，但常被使用者混为一谈。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-five-step-method]] —— 一堂五步法完整框架，这条暗知识是关于它的最隐蔽陷阱。
-- [[yt-five-step-common-pitfalls]] —— 五步法的常见误区，这条是对"框架合法化偏见"的更深层补充。
-- [[yt-five-step-level-blindspots]] —— 段位盲区与自评陷阱，与"框架合法化偏见"形成两个维度的认知陷阱。
-- [[yt-business-analysis-cognitive-biases]] —— 商业分析中的认知偏差清单，覆盖确认偏误、群体思维等。
-- [[tool-cognitive-bias-12-check]] —— 认知偏差快速自检工具，可用于框架分析后的反偏差检查。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

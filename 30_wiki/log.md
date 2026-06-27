@@ -4,7 +4,7 @@ type: index
 status: draft
 title: log
 domain:
-- master
+- src_unknown
 source_refs:
 - src_unknown
 author: system
@@ -20,12 +20,8 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 Chronological record of knowledge operations.
 
 - src_unknown
-  - Produced 3 concept cards: `aigc设计基础01ai生图原理与提示词基本功`, `aigc设计师实操培训01口喷设计范式与电商ai设计全流程`, `aigc文创案例设计课leo文创ip从0到1全流程`
-- 2026-04-26T18:17:11+00:00 - Ingested `src_20260427_970eb338` from 00_inbox/街顺APP全面调研报告.md
-
+  - src_unknown
 - src_unknown
-
-- 2026-04-26T18:40:10+00:00 - Recorded validation report `fb_20260427_b1a0ee35`
 
 - src_unknown
 
@@ -35,89 +31,93 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-04-29T18:36:29+00:00 - Ingested `src_20260430_59a3d224` from 00_inbox/research/街顺APP全面调研报告.md
-
-- 2026-04-29T18:36:29+00:00 - Ingested `src_20260430_b49df0ad` from 00_inbox/鑫港湾HIS系统分阶段整改报告.md
-
-- 2026-04-29T18:36:29+00:00 - Self-check: 2 auto-feedback record(s) created
-
-- 2026-04-29T18:37:01+00:00 - Self-check: 2 auto-feedback record(s) created
-
 - src_unknown
 
-- 2026-04-29T18:37:29+00:00 - Recorded validation report `fb_20260430_e3862495`
-
 - src_unknown
-
-- 2026-04-30T15:45:07+00:00 - Shipped `kdo_builtin_knowledge_curator_v1` to test
-
-- 2026-04-30T16:08:09+00:00 - Generated improvement plan `plan_20260501_e1e150b9`
-
-- 2026-04-30T16:47:18+00:00 - Generated improvement plan `plan_20260501_8001399c`
-
-- 2026-04-30T16:47:28+00:00 - Generated improvement plan `plan_20260501_ca61cdd7`
-
-- 2026-04-30T16:47:40+00:00 - Generated improvement plan `plan_20260501_85a84b92`
-
-- 2026-04-30T16:58:19+00:00 - Generated improvement plan `plan_20260501_05858800`
-
-- 2026-04-30T17:10:31+00:00 - Shipped `art_20260430_447f2eea` to article
-
-- 2026-04-30T17:58:15+00:00 - Generated improvement plan `plan_20260501_47264869`
 
 - src_unknown
 
 - src_unknown
 
-- 2026-04-30T18:43:29+00:00 - Ingested `src_20260501_4eee4e95` from 00_inbox/research/紫鲸AI_智能体工作流平台_深度分析与产品设计.md
-
-- 2026-04-30T18:43:29+00:00 - Ingested `src_20260501_dfa19257` from 00_inbox/research/诊所O2O外卖平台业务深度调研报告.md
-
-- 2026-04-30T18:43:30+00:00 - Ingested `src_20260501_9a55ddb9` from 00_inbox/research/鑫港湾HIS系统分阶段整改报告.md
-
-- 2026-04-30T18:43:30+00:00 - Self-check: 2 auto-feedback record(s) created
-
-- 2026-04-30T18:51:17+00:00 - Self-check: 2 auto-feedback record(s) created
-
 - src_unknown
 
-- 2026-04-30T18:53:01+00:00 - Recorded validation report `fb_20260501_2ec33be4`
-
-- 2026-04-30T18:56:10+00:00 - Recorded validation report `fb_20260501_65e5bc1e`
-
-- 2026-04-30T19:29:48+00:00 - Ingested `src_20260501_9962715b` from 00_inbox/research/互联网医院模式深度调研报告.md
-
-- 2026-04-30T19:29:49+00:00 - Self-check: 2 auto-feedback record(s) created
-
-- 2026-04-30T19:29:57+00:00 - Self-check: 2 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
 - src_unknown
 
-- 2026-05-01T05:26:44+00:00 - Self-check: 2 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-01T05:26:57+00:00 - Self-check: 2 auto-feedback record(s) created
-
-- 2026-05-01T05:27:16+00:00 - Shipped `art_20260501_cc0af2d7` to local
-
-- 2026-05-01T05:27:32+00:00 - Shipped `art_20260501_0ac5504f` to local
-
-- 2026-05-01T05:27:32+00:00 - Shipped `art_20260430_447f2eea` to local
-
-- 2026-05-01T05:27:34+00:00 - Generated improvement plan `plan_20260501_8ecb74e3`
-
-- 2026-05-01T05:34:23+00:00 - Generated improvement plan `plan_20260501_97170532`
+- src_unknown
 
 - src_unknown
 
 - src_unknown
 
-- 2026-05-01T18:49:20+00:00 - Ingested `src_20260502_7d7c1b7c` from 00_inbox/research/research_methodology.md
+- src_unknown
 
 - src_unknown
 
-- 2026-05-01T18:54:37+00:00 - Recorded validation report `fb_20260502_d86f43fd`
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
+
+- src_unknown
 
 ---
 
@@ -199,10 +199,10 @@ Chronological record of knowledge operations.
 
 ### References
 
-- `[[kdo-protocol]]`
-- `[[kdo-protocol-implementation-roadmap]]`
-- `[[index]]`
-- `[[obsidian-git-sync-protocol]]`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -261,32 +261,32 @@ Chronological record of knowledge operations.
 
 ### References
 
-- `claude-20260503-kdo仓库遍历与健康度评估`
-- `[[plan_20260503_f3e9a2b1-improvement-plan]]`
-- `[[kdo-protocol]]`
-- `[[index]]`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 - 00_inbox/调研专题/一堂-调研行动营启动_原文润色.txt
 
-- 2026-05-02T19:12:09+00:00 - Self-check: 1 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
-- 2026-05-02T19:19:10+00:00 - Recorded validation report `fb_20260503_c8dbba0e`
+- src_unknown
 
-- 2026-05-02T21:09:33+00:00 - Recorded validation report `fb_20260503_b7bb35bc`
+- src_unknown
 
-- 2026-05-03T13:36:55+00:00 - Ingested batch from 00_inbox:
-  - `src_20260503_dadc7838` from 00_inbox/EC工业化规范手册.md
-  - `src_20260503_1a1f0312` from 00_inbox/HIS系统开发实现方案-架构师指南.md
-  - `src_20260503_968e0210` from 00_inbox/HIS系统深度调研.md
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - 00_inbox/调研专题/一堂-调研行动营启动_原文润色.txt
-  - `src_20260503_ae1921d5` from 00_inbox/保达云诊所深度调研报告.md
-  - `src_20260503_f4891888` from 00_inbox/开源HIS系统代码深度分析报告.md
-  - `src_20260503_5c91e867` from 00_inbox/轻量级诊所HIS调研全清单.md
   - src_unknown
-  - `src_20260503_5dc58ec8` from 00_inbox/research/research_methodology.md
-  - Created wiki skeletons: 9
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 - src_unknown
   - src_unknown
@@ -298,9 +298,9 @@ Chronological record of knowledge operations.
   - src_unknown
   - src_unknown
   - src_unknown
-  - Converted 3 PDFs and 2 DOCXs to Markdown before ingest
   - src_unknown
   - src_unknown
+  - src_unknown
 
 - src_unknown
 
@@ -308,39 +308,39 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-05-03T05:56:55+00:00 - Validated both artifacts against quality gates. Status updated from `draft` → `validated`.
-
 - src_unknown
-
-- 2026-05-03T03:41:09+00:00 - Ingested `src_20260503_feab72b2` from 00_inbox/EC工业化规范手册.md
 
 - src_unknown
 
 - src_unknown
 
-- 2026-05-03T04:05:59+00:00 - Self-check: all clear, 0 issues
+- src_unknown
 
-- 2026-05-03T03:41:09+00:00 - Ingested `src_20260503_feab72b2` from 00_inbox/EC工业化规范手册.md
+- src_unknown
 
-- 2026-05-03T03:41:09+00:00 - Self-check: 1 auto-feedback record(s) created
+- src_unknown
+
+- src_unknown
+
+- src_unknown
 
 - src_unknown
 
 - 00_inbox/调研专题/一堂-调研武器库课程_原文润色.txt
 
-- 2026-05-03T15:40:22+00:00 - Self-check: 2 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
-- 2026-05-03T17:39:52+00:00 - Self-check: 3 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-03T17:40:43+00:00 - Self-check: 3 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/ideas/DeepSeek V4在知识管理中的应用.md
 
-- 2026-05-05T04:38:02+00:00 - Self-check: 3 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-05T04:40:01+00:00 - Self-check: 2 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
@@ -350,15 +350,15 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-05-05T18:26:10+00:00 - Self-check: 7 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-05T18:31:16+00:00 - Self-check: 6 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-05T18:33:08+00:00 - Self-check: 5 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-05T18:34:35+00:00 - Self-check: 4 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-05T18:37:33+00:00 - Self-check: 3 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
@@ -367,24 +367,6 @@ Chronological record of knowledge operations.
 - src_unknown
 
 - 00_inbox/ideas/用这个免费API，让你的 Agent 拥有「看」的能力.md
-
-- 2026-05-06T17:06:31+00:00 - Self-check: 56 auto-feedback record(s) created
-
-- 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
-
-- 00_inbox/ideas/一堂-个人修炼-科学学习逐字稿.md
-
-- 00_inbox/ideas/一堂-创业必修-调研武器库.md
-
-- 00_inbox/ideas/一堂-创业必修-调研行动营.md
-
-- 00_inbox/ideas/一堂-创业必修-需求分析.md
-
-- 00_inbox/ideas/一堂-案例拆解-串讲口述.md
-
-- 10_raw/sources/一堂-课程地图精华串讲.md
-
-- 2026-05-06T17:55:05+00:00 - Self-check: 56 auto-feedback record(s) created
 
 - src_unknown
 
@@ -402,33 +384,51 @@ Chronological record of knowledge operations.
 
 - 10_raw/sources/一堂-课程地图精华串讲.md
 
+- src_unknown
+
+- src_unknown
+
+- 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
+
+- 00_inbox/ideas/一堂-个人修炼-科学学习逐字稿.md
+
+- 00_inbox/ideas/一堂-创业必修-调研武器库.md
+
+- 00_inbox/ideas/一堂-创业必修-调研行动营.md
+
+- 00_inbox/ideas/一堂-创业必修-需求分析.md
+
+- 00_inbox/ideas/一堂-案例拆解-串讲口述.md
+
+- 10_raw/sources/一堂-课程地图精华串讲.md
+
 - 00_inbox/ideas/用这个免费API，让你的 Agent 拥有「看」的能力.md
 
-- 2026-05-08T09:59:21+00:00 - Self-check: 71 auto-feedback record(s) created
+- src_unknown
+
+- src_unknown
 
 - src_unknown
 
 - src_unknown
 
-- 2026-05-09T14:00:38+00:00 - Gate `enrich` overridden with reason: Sprint 2 验收测试：这些旧页面的 domain 字段不在本次范围
+- src_unknown
 
 - src_unknown
 
-- 2026-05-09T15:43:00+00:00 - Self-check: 7 auto-feedback record(s) created
-
-- 2026-05-09T15:44:25+00:00 - Self-check: 6 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
-- 2026-05-09T16:28:31+00:00 - Self-check: 7 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-09T16:30:02+00:00 - Self-check: 6 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/ideas/test-sprint2-gate.md
 
-- 2026-05-09T16:50:02+00:00 - Self-check: 7 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-09T16:51:22+00:00 - Self-check: 6 auto-feedback record(s) created
+- src_unknown
 
 - 10_raw/sources/src_20260620_deep-research-skill/SKILL.md
 
@@ -684,11 +684,11 @@ Chronological record of knowledge operations.
 
 - 10_raw/sources/一堂-读书会-SPIN销售法口述.md
 
-- 2026-05-10T15:38:39+00:00 - Self-check: 135 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-10T15:43:43+00:00 - Self-check: 134 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-10T15:45:36+00:00 - Self-check: 6 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/ideas/Truman的个人成长五步法.md
 
@@ -910,7 +910,7 @@ Chronological record of knowledge operations.
 
 - 10_raw/sources/一堂-读书会-SPIN销售法口述.md
 
-- 2026-05-10T15:46:35+00:00 - Self-check: 119 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/ideas/Truman的个人成长五步法.md
 
@@ -1140,18 +1140,18 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-05-16T19:19:33+00:00 - Generated handoff brief `brief_20260517_1f55df11`
+- src_unknown
 
 - 00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md
 
-- 2026-05-19T11:59:39+00:00 - Self-check: 15 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-21T18:15:26+00:00 - Enriched 5 concept cards with deep-image-parser structured extraction (tables, formulas, comparison matrices)
-  - yt-decision-habit-shift.md: X-vs-Y comparison dimension table + visual mark semantics
+- src_unknown
   - src_unknown
-  - yt-decision-full-process.md: 6-level financial accounting capability ladder + per-level error patterns
-  - yt-decision-canvas.md: ROI canvas 3-column structure (3 dimensions + 2 hidden variables + final conclusion)
-  - yt-decision-depth-ladder.md: L3 quantitative formula visual expression (A+B+C+D inputs, X conversion, Y output)
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 - src_unknown
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
@@ -1470,36 +1470,36 @@ Chronological record of knowledge operations.
 
 - 00_inbox/water-sense/2026-05.md
 
-- 2026-05-21T20:14:20+00:00 - Self-check: 171 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-21T20:41:46+00:00 - Self-check: 171 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T05:01:40+00:00 - Self-check: 166 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T05:12:49+00:00 - Self-check: 165 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T05:23:47+00:00 - Self-check: 164 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T05:33:49+00:00 - Self-check: 163 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T07:55:01+00:00 - Self-check: 24 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T07:58:42+00:00 - Self-check: 19 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T07:58:44+00:00 - Self-check: 19 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T07:58:55+00:00 - Self-check: 19 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T07:59:19+00:00 - Self-check: 19 auto-feedback record(s) created
+- src_unknown
 
-- 2026-05-22T23:00:24+00:00 - Recorded validation report `fb_20260523_dec767bb`
+- src_unknown
 
 - 00_inbox/ai-native-five-levels.md
 
 - 00_inbox/AI-study/asking-the-right-questions-critical-thinking.md
 
 
-- 2026-05-23T17:29:52+00:00 - Self-check: 24 auto-feedback record(s) created
+- src_unknown
 
 - src_unknown
 
@@ -1511,11 +1511,11 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-05-25T04:49:08+00:00 - Self-check: 32 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/yitang-unit-model-ai-transcript.md
 
-- 2026-05-25T05:14:03+00:00 - Self-check: 9 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/design/AI设计-AI设计基础01.txt
 
@@ -1523,31 +1523,31 @@ Chronological record of knowledge operations.
 
 - 00_inbox/design/AI设计-文创案例设计课口述.txt
 
-- 2026-05-28T14:55:40+00:00 - Self-check: 36 auto-feedback record(s) created
-
-- 2026-05-28T14:59:13+00:00 - Self-check: 11 auto-feedback record(s) created
-
 - src_unknown
 
-- 2026-05-29T04:43:21+00:00 - Shipped `art_20260529_100d27de` to local
+- src_unknown
 
 - src_unknown
 
 - src_unknown
 
-- 2026-05-31T10:17:13+00:00 - Generated handoff brief `brief_20260531_f88c9044`
+- src_unknown
 
-- 2026-05-31T10:23:32+00:00 - Shipped `art_20260531_74dd8445` to local
+- src_unknown
+
+- src_unknown
+
+- src_unknown
 
 - 00_inbox/AI-study/AI数据/AI数据理解第一课表格.md
 
 - 00_inbox/数据标注维度最佳实践调研报告.md
 
-- 2026-06-01T14:35:41+00:00 - Self-check: 81 auto-feedback record(s) created
+- src_unknown
 
-- 2026-06-01T14:36:22+00:00 - Self-check: 11 auto-feedback record(s) created
+- src_unknown
 
-- 2026-06-02T12:54:31+00:00 - Recorded feedback `fb_20260602_349fe6fa` in corrections
+- src_unknown
 
 - src_unknown
 
@@ -1705,7 +1705,7 @@ Chronological record of knowledge operations.
 
 - 00_inbox/马易-AI落地场景识别-口述.md
 
-- 2026-06-06T06:31:51+00:00 - Self-check: 201 auto-feedback record(s) created
+- src_unknown
 
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 
@@ -1877,31 +1877,25 @@ Chronological record of knowledge operations.
 
 - 00_inbox/paddle_batch/泛产品设计-落地卡片-逻辑MECE_paddle_ocr.md
 
-- 2026-06-09T14:10:15+00:00 - Self-check: 665 auto-feedback record(s) created
+- src_unknown
 
-- 2026-06-09T14:13:31+00:00 - Self-check: 57 auto-feedback record(s) created
-- 2026-06-10T21:45:00+00:00 - 机会预判域图片深度解析→知识卡片入库
+- src_unknown
+- src_unknown
   - src_unknown
-  - 深度解析: 通过 vision_analyze 对 11 张关键图做全量解析
-  - 产出卡片: 8 张（框架卡 2 + 工具卡 2 + 案例卡 3）
-    - yt-foresight-business-spectrum: 终局光谱图
-    - yt-ai-trend-12-signals: AI趋势12大变化模型
-    - yt-foresight-model-taxonomy: 预判模型分类
-    - yt-three-dimension-opportunity-matrix: 三维排列组合找机会
-    - yt-ai-startup-20-risky-hypotheses: AI创业20个高风险假设清单
-    - case-escort-service-tiered-growth: 陪诊业务七级演进
-    - case-coffee-shop-foresight: 咖啡馆创业预判
-    - case-ai-time-management-tiered-growth: AI时间管理App七级演进
+  - src_unknown
+  - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
   - src_unknown
 
 - src_unknown
 
-- 2026-06-14T11:43:36+00:00 - Generated handoff brief `brief_20260614_7bfc13be`
-
-- 2026-06-14T11:43:46+00:00 - Generated handoff brief `brief_20260614_acf13397`
-
-- 2026-06-14T11:56:55+00:00 - Recorded feedback `fb_20260614_c614c795` in issues
-
 - src_unknown
 
 - src_unknown
@@ -1926,9 +1920,11 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-06-14T14:45:17+00:00 - Recorded feedback `fb_20260614_b21f58d4` in issues
+- src_unknown
 
-- 2026-06-14T14:45:56+00:00 - Recorded feedback `fb_20260614_a3d9242a` in issues
+- src_unknown
+
+- src_unknown
 
 - src_unknown
 
@@ -1936,6 +1932,10 @@ Chronological record of knowledge operations.
 
 - src_unknown
 
-- 2026-06-14T14:54:47+00:00 - Updated task `task_20260614_9f4cfc69`: status=doing
+- src_unknown
 
-- 2026-06-20T14:08:50+00:00 - Self-check: 12 auto-feedback record(s) created
+- src_unknown
+
+- src_unknown
+
+- src_unknown

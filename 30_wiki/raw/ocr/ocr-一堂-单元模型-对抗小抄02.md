@@ -3,9 +3,9 @@
 title: "OCR: 一堂-单元模型-对抗小抄02"
 type: concept
 domain:
-  - product
-  - needs-review
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_6f5c7abd
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-对抗小抄01]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,15 +40,15 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 换用户画像 通过调整目标用户画像，更好满足用户需求 ToC用户转ToB/切换细分用户
+- src_unknown
 C2
-- 简化产品SKU 集中资源在重点SKU上，提升核心产品竞争力 砍掉定制产品/精简产品线
+- src_unknown
 C3
-- 做标准化产品 把产品标准化，提升产品的普适性 做体系而非碎片/系统集成标准化
+- src_unknown
 解决方案
 C4
 
@@ -57,6 +57,6 @@ C4
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

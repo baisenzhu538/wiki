@@ -15,13 +15,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 related:
-  - '[[case-demand-financial-literacy]]'
-  - '[[case-demand-restaurant-hiring]]'
-  - '[[case-demand-rural-5g]]'
-  - '[[dk-demand-pitfall-tier4-housekeeping]]'
-  - '[[dk-demand-misjudgment-rate]]'
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 需求评估三角形
@@ -38,10 +38,10 @@ related:
 
 ## 判定逻辑
 
-- 三个都是"高"→ 黄金机会，值得重投入
-- 两个"高"一个"中"→ 好机会，适合创业
-- 一个"高"两个"低"→ 细分机会，需要精确切入
-- 两个以上"低"或"极低"→ 危险，重新评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -67,8 +67,8 @@ prompt = """对以下机会做评估三角形打分：
 
 ## 适用边界
 
-- **适用**：L6机会卡片产出后，需要做优先级排序
-- **不适用**：需求已经过大量用户验证的成熟产品
+- src_unknown
+- src_unknown
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-acquisition-channels
-  - yt-growth-data-driven-decision
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们花了钱，但不知道哪个渠道有效'"
+  - src_unknown
     framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
     follow_up_question: "你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？"
-  - signal: "用户说'某个渠道CAC很低，但用户质量差'"
+  - src_unknown
     framework_lens: 渠道ROI评估——CAC低≠ROI高，需要看LTV
     follow_up_question: "这个渠道用户的LTV是多少？LTV/CAC是否健康？"
-  - signal: "用户说'我们所有渠道的ROI都在下降'"
+  - src_unknown
     framework_lens: 渠道ROI评估——渠道ROI下降可能是市场变化或竞争加剧
     follow_up_question: "ROI下降是短期波动还是长期趋势？竞品是否也在同一渠道？"
-  - signal: "用户说'我们主要靠一个渠道，很担心'"
+  - src_unknown
     framework_lens: 渠道ROI评估——渠道多元化是风险管理
     follow_up_question: "你的渠道集中度是多少？是否有计划拓展新渠道？"
-  - signal: "用户说'渠道成本越来越高'"
+  - src_unknown
     framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
     follow_up_question: "成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当预算分配时 → 按ROI分配
-- 当渠道成本上升时 → 优化或替代
-- 当渠道ROI下降时 → 分析原因
-- 当渠道单一时 → 多元化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-acquisition-channels`：获客渠道
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 渠道营销研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

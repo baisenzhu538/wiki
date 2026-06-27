@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-data-assets
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的技术领先，但竞品很快追上'"
+  - src_unknown
     framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
     follow_up_question: "你的技术领先周期多长？研发投入占收入多少？专利布局如何？"
-  - signal: "用户说'我们有专利，但竞品绕过了'"
+  - src_unknown
     framework_lens: 技术护城河——专利需要设计得难以绕过
     follow_up_question: "你的专利是核心专利还是外围专利？竞品绕过难度多大？"
-  - signal: "用户说'我们的技术团队很强，但技术没有转化为产品'"
+  - src_unknown
     framework_lens: 技术护城河——技术需要产品化，才能形成壁垒
     follow_up_question: "你的技术是否转化为产品优势？用户是否感知到技术差异？"
-  - signal: "用户说'我们的技术壁垒是算法，但算法被公开了'"
+  - src_unknown
     framework_lens: 技术护城河——算法公开后，壁垒是数据和工程能力
     follow_up_question: "算法公开后，你的数据资产和工程能力是否构成壁垒？"
-  - signal: "用户说'我们的技术投入大，但回报不明显'"
+  - src_unknown
     framework_lens: 技术护城河——技术投入需要与商业目标对齐
     follow_up_question: "你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当技术领先时 → 专利保护
-- 当竞品追上时 → 加速研发
-- 当技术不产品化时 → 产品化能力
-- 当人才流失时 → 人才激励
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-data-assets`：数据资产
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 技术战略研究
-- 专利管理实践
+- src_unknown
+- src_unknown
+- src_unknown

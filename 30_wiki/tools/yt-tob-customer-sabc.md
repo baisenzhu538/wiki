@@ -6,17 +6,17 @@ title: To B 客户 SABC 自定义切分法
 type: tool
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -25,31 +25,31 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[yt-tob-barriers]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[tool-sabc-tier-modeling]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 直接套用“头部/腰部/腿部”或行业通用分层，结果 sales 和交付团队对“谁才是我们的 S 类客户”争论不休。
+- src_unknown
   framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
   follow_up_question: 如果明天必须砍掉一半客户资源，哪类客户对今年业务目标的贡献度最大？为什么？
-- signal: 看到行业有 100 万家潜在客户就兴奋，认为自己是“海量市场”。
+- src_unknown
   framework_lens: 忽略了行业集中度与自身业务属性的匹配；100 万家里能触达、能服务、愿付费的可能只有几十家。
   follow_up_question: 这 100 万家客户中，符合我当前产品/服务能力且行业集中度允许我切入的有多少？
-- signal: 为了规模选择腿部客户，却发现履约成本居高不下；为了利润选择头部客户，却被巨头的集采压到无利可图。
+- src_unknown
   framework_lens: 业务目标（利润 vs 规模）与客户类型的匹配出现错配。
   follow_up_question: 我当前阶段到底是先要利润活下来，还是先要规模拿数据？哪类客户能同时满足这两个目标？
-- signal: 公司战略从"规模优先"转向"利润优先"后，原来的 S 类客户贡献度排序失效，销售资源分配出现混乱。
+- src_unknown
   framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
   follow_up_question: 如果明年目标从"新增 100 家客户"变成"毛利转正"，我的 S 类客户会变成哪一类？哪些旧 S 类需要降级或剥离？
 
@@ -193,18 +193,18 @@ SABC 不是一次性标签。当业务目标从"规模"转向"利润"、从"行�
 
 ## 与其他工具的关系
 
-- [[yt-tob-customer-tiering]]：头部/腰部/腿部的经验模型，是 SABC 的输入之一
-- [[yt-tob-demand-scenarios]]：切分客户后，再按老客/新客 × 老品/新品设计验证策略
-- [[yt-tob-demand-metrics]]：用成本占有率和业务天花板量化客户价值
-- [[yt-tob-growth-channel]]：客户分层决定直销还是渠道、标准化还是定制
-- [[yt-tob-solution-model]]：客户类型决定标品/定制/服务型解决方案的取舍
-- [[yt-tob-unit-model]]：分层结果需在单订单、单客户、单销售等单元模型中验证是否跑通
-- [[yt-tob-barriers]]：长期应把高贡献度客户沉淀为转化成本、规模效应或无形资产
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：客户分层必须与业务目标和行业集中度对齐（徐剑反复强调）
-- **中置信度**：SABC 具体维度的权重、CR4/CR10 的适用阈值，需结合行业校准
-- **待复核**：不同行业（通信、医疗、零售）的客户分层案例适用边界
+- src_unknown
+- src_unknown
+- src_unknown

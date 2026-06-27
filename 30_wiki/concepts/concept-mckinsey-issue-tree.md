@@ -6,42 +6,42 @@ title: Issue Tree：问题树拆解
 type: concept
 status: enriched
 domain:
-  - management- consulting
-  - problem-solving
-  - structured-thinking
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 source_refs: []
 related:
-  - '[[concept-mckinsey-mece]]'
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
-  - '[[concept-toyota-5-whys]]'
-  - '[[concept-mckinsey-mece]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[concept-minto-pyramid-principle]]'
-  - '[[yt-decision-y-model]]'
-  - '[[yt-research-osl-framework]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[tool-泛产品落地-灵感闪现]]'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-11
 updated_at: '2026-06-17'
 diagnostic_signals:
-- trigger: 问题太大太复杂，不知道从哪里下手分析
+- src_unknown
   framework_lens: Issue Tree 逐层拆解
   follow_up: 如果把这个问题拆成 3-5 个一级子问题，每个子问题都可以独立分析而不重叠，你会怎么分？
-- trigger: 团队分工后发现大家在做重叠的分析
+- src_unknown
   framework_lens: MECE 检查清单
   follow_up: 你们的分工是按'工作流程'分的还是按'问题子集'分的？如果重叠了，说明 Issue Tree 的第一层拆解就有问题。
-- trigger: 需要在短时间内向高管汇报一个复杂问题的结论
+- src_unknown
   framework_lens: Issue Tree 叶节验证
   follow_up: 你的 Issue Tree 最底层叶节，有多少个已经被数据验证了？有多少个还是假设？
-- trigger: 调研做了一周，资料很多但不知道该验证哪个假设
+- src_unknown
   framework_lens: Issue Tree 把信息转化为可验证叶节
   follow_up: 你收集的信息能挂到 Issue Tree 的哪个叶节上？如果不能，说明信息过剩而问题结构不清。
 pipeline:
-- confidence-draft
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -130,10 +130,10 @@ Issue Tree 解决的是三个问题：
 | 6 | 选出本周必验的 1-2 个叶节 | 优先验证“对结论影响大 × 当前不确定”的叶节 | 2 min |
 
 **自检问题**：
-- 如果 3 个一级子问题都解决了，核心问题是否 100% 解决？
-- 任意两个一级子问题之间是否有重叠？
-- 最底层叶节中，有多少个可以在本周内拿到数据？
-- 如果只能验证一个叶节，应该选哪个？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Bridge（桥接一堂体系）
 

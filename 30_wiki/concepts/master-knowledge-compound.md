@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-knowledge-compound
 title: 知识复利：IPO+萃取+原子化复用
@@ -19,15 +19,15 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-systems-thinking]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-knowledge-management]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 知识复利：IPO+萃取+管理的上位整合
 
@@ -38,16 +38,16 @@ related:
 ## 一、为什么需要这张卡
 
 vault 里有三张讲"知识管理"的卡：
-- `yt-personal-ipo-learning`：IPO 输入-加工-输出循环
-- `yt-personal-knowledge-extraction`：从经验中萃取知识
-- `yt-personal-knowledge-management`：知识组织与管理
+- src_unknown
+- src_unknown
+- src_unknown
 
 但三张卡之间是什么关系？谁先谁后？如何形成复利？没有人说。
 
 这张卡是**master 与 yitang 的桥**——把 yitang 域的三张工具卡上升为认知基础设施，回答：
-- 为什么 IPO 比"死记硬背"更有效？
-- 萃取和管理的关系是什么？
-- 知识复利的飞轮怎么转起来？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与现有卡的关系
 
@@ -107,10 +107,10 @@ vault 里有三张讲"知识管理"的卡：
 ```
 知识资产 = 输入质量 × 萃取率 × 连接深度 ^ 时间
 ```
-- **输入质量**：不是"读了多少"，是"读完后能改变多少决策"
-- **萃取率**：100 小时经验 → 能提取多少条可复用原则？
-- **连接深度**：新知识与已有知识网络的连接数
-- **时间**：复利的指数变量——坚持 3 个月 vs 3 年的差距是数量级的
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -141,16 +141,16 @@ vault 里有三张讲"知识管理"的卡：
 **与#3第一性原理的关系**：萃取到"原理层"就是第一性原理的应用——"这个现象背后的本质假设是什么？"
 
 **萃取率检查**：
-- 低萃取率：做了 10 个项目，每个项目的经验是独立的
-- 高萃取率：做了 10 个项目，提炼出 3 条跨项目原则，第 11 个项目直接应用
+- src_unknown
+- src_unknown
 
 ### 子系统 3：管理（基础设施）
 
 **核心问题**："当我需要某个知识时，我能在 30 秒内找到吗？"
 
 **管理的本质不是"整理"，是"连接"**：
-- 不是"把笔记分类放好"
-- 是"当我在 A 领域学到新概念时，自动联想到 B 领域的旧知识"
+- src_unknown
+- src_unknown
 
 **与#4系统思考的关系**：知识管理是"认知系统的增强回路"——管理得好→连接多→理解深→记得牢→管理更容易。
 
@@ -186,25 +186,25 @@ vault 里有三张讲"知识管理"的卡：
 
 **Thomas Kuhn**（《科学革命的结构》作者）会从科学史角度挑战"知识复利"的核心假设。
 
-- **核心挑战**：知识复利假设"知识是累积的"——今天站在昨天的肩膀上。但 Kuhn 证明，科学进步不是累积的，是**革命性的**。旧范式会被彻底推翻，旧知识中的"原理"在新范式中可能完全错误。
-- **具体机制**：
-  - 牛顿力学在爱因斯坦相对论面前不是"被扩展"，是"被重新定义"
-  - 你精心萃取的"原理"可能在 5 年后被新发现推翻
-  - "复利"假设知识的边际价值递增，但 Kuhn 证明知识的边际价值可能是负的——旧知识越多，范式转换时沉没成本越大
-- **Kuhn 会问**："你的知识复利飞轮假设知识是稳定的。但如果你的核心假设 3 年后被证伪，你积累的'复利'是资产还是负债？"
-- **建议补充**：在 Action Triggers 中加入"范式脆弱性检查"——对每条核心原理问："什么证据会让我放弃这个信念？"保持可证伪性。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### 攻击者 2：Illich（反学校化社会）—— 知识管理是另一种异化
 
 **Ivan Illich**（《Deschooling Society》作者）会从教育哲学角度挑战"知识管理"的正当性。
 
-- **核心挑战**：Illich 认为，把知识"管理""萃取""系统化"是一种**异化**——知识从"活的经验"变成了"死的资产"。你管理的不是知识，是知识的尸体。
-- **具体机制**：
-  - 真正有用的知识是在"做中学"获得的 tacit knowledge（默会知识），无法被萃取和记录
-  - 知识管理系统制造了一种"我拥有知识"的幻觉，实际上只是拥有知识的索引
-  - "复利"概念把知识变成金融工具，追求"回报率"，但知识的价值不是线性的
-- **Illich 会问**："你的知识库有 1000 张卡，但有多少张改变了你的实际行为？如果知识管理的产出是'更多管理'，这是不是一种自我延续的官僚系统？"
-- **建议补充**：在 Action Triggers 中加入"行为改变检查"——每季度问："过去 3 个月，我的知识管理系统直接导致了什么具体行为改变？"如果答案为空，系统需要重构。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

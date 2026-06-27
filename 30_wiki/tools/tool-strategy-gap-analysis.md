@@ -12,15 +12,15 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[framework-strategy-brm]]'
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-strategy-four-moves]]'
-  - '[[tool-strategy-three-horizons]]'
-  - '[[framework-strategy-five-basics]]'
-  - '[[framework-strategy-brm]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 差距分析
@@ -30,12 +30,12 @@ source_refs:
 ## 两步操作
 
 **Step 1：业绩差距**
-- 列今年目标 vs 实际 → 哪些没达成？
-- 拆解到最细维度（按产品/区域/客户群）
+- src_unknown
+- src_unknown
 
 **Step 2：机会差距**
-- 对标最强对手 → 他们做到了什么我们没做到？
-- 市场在增长但我们在萎缩？→ 机会差距
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -63,9 +63,9 @@ def gap_analysis(company):
 ## 业绩差距外部原因简析
 
 差距不只来自内部。三层次分析：
-- **宏观**：政策/经济/社会/技术变化
-- **中观**：行业周期/竞争格局/供应链变化
-- **微观**：客户偏好变化/技术替代
+- src_unknown
+- src_unknown
+- src_unknown
 
 先排除外部因素再分析内部——避免"环境变了"被误诊为"能力不行"
 

@@ -3,11 +3,11 @@
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
 type: concept
 domain:
-  - needs-review
-  - decision-making
-  - finance-legal
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_c86cd9a0
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-单元模型-基准值]]'
-  - '[[ocr-一堂-科学决策-决策三角形]]'
-  - '[[ocr-一堂-单元模型-单sku模型]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -36,22 +36,22 @@ related:
 
 原图: `一堂-科学决策-X型Y型决策习惯对比.
 
-*` X-Y两种典型的決策评估习惯 堂 X-YTypicalDecisionEvaluationHabits 严格财务ROI 1 定量公式 部分定量 优先级定性 拍脑袋 X型決策者 Y型决策者 一堂・坚持只做必修课 扫码辛苦学3天，不扫弯路走3年 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+*` X-Y两种典型的決策评估习惯 堂 X-YTypicalDecisionEvaluationHabits 严格财务ROI 1 定量公式 部分定量 优先级定性 拍脑袋 X型決策者 Y型决策者 一堂・坚持只做必修课 扫码辛苦学3天，不扫弯路走3年 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - src_unknown
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

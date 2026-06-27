@@ -1,7 +1,7 @@
 ---
 
 domain:
-  - yitang- master
+  - src_unknown
 tags: null
 related: null
 id: yt-tool-unit-model-construction
@@ -33,9 +33,9 @@ updated_at: '2026-06-16'
 ### 成本收入项全清单（缾形清单）
 
 5. **收入结构**（通常不易出错）：
-   - 主营收入（销售收入、服务费、余债）
-   - 次营收入（增值服务、付费升级）
-   - 其他收入（广告、数据、分成）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 6. **成本结构**（容易遗漏）：
    | 大类 | 典型项目 | 遗漏率 |
@@ -70,41 +70,41 @@ Gigerenzer & Goldstein (1996) 的"简洁启发式"(Fast and Frugal Heuristics)�
 
 ### 不要用的场景
 
-- **业务极度早期（产品-market fit前）**：模型的基本参数（如客单价、转化率）都不稳定，此时"构建完整模型"是过度分析
-- **业务模式正在大幅变化**：旧模型已经失效，新模型尚未形成，此时构建精细模型是浪费
-- **对手已经行动**：当窗口期即将关闭时，"先构建模型再行动"策略可能导致"错失良机"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-unit-model-overview]] — 构建器是overview框架的"构建层"：overview讲"有什么"，构建器讲"怎么搭起来"
-- [[yt-unit-model-ladder]] — 构建完整模型是L4的核心能力，六段进阶提供了能力标准
-- [[yt-unit-model-benchmark]] — "评"的阶段需要通过基准值验证参数合理性，benchmark是构建器的"模式识别"阶段
-- [[yt-decision-y-model]] — Y模型的成本-收益-时间-空间四维度构成了单元模型构建的"坐标系"
-- [[master-first-principles]] — "拆"的本质是第一性原理思维——把业务拆到不可再拆的最小单元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 个人理财：拆解每个消费场景的完整成本（显性+隐性成本）
-- 项目管理：WBS工作分解与关键路径计算
-- 投资分析：DCF模型的每个参数构建与验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 当业务跨越多个域（清晰+复杂）时，"拆推评算"的精度如何动态调整？
-- 在高度不确定的市场中，"快速试错"和"精算模型"的时间分配最优解是什么？
-- AI能否自动识别成本清单中的遗漏项？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- 开发"成本收入项智能检查"工具：输入行业和业务模式，自动生成成本清单草稿
-- 构建"拆推评算"互动模板：帮助团队逐步完成模型构建
-- 为不同行业（餐饮、教育、SaaS、电商）构建ABCD模型分类指南
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- [ ] 当你要启动新业务时，先问：这个业务的"最小可独立运作单元"是什么？不是公司整体
-- [ ] 当你列成本项时，强制追问"还有吗？"至少3轮，直到一条都列不上来
-- [ ] 当你估算参数时，要求自己提供三个数：乐观、基准、悲观，不能只有一个
-- [ ] 当你确定模型类型（A/B/C/D）时，如果是D型，退回到"快速验证"模式，不要精算
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

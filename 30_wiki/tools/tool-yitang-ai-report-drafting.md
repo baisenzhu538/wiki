@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-behavioral-observation]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[dk-yitang-research-ai-hallucination]]'
-  - "[[tool-yitang-weapon-ai-tools]]"
-  - "[[tool-yitang-ai-research-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI草写报告

@@ -6,33 +6,33 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-014
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-014
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
-  - '[[label-accuracy-standard-alignment]]'
-  - '[[dk-p17-accuracy-gap]]'
-  - '[[labeling-research-alignment]]'
-  - '[[dk-p15-unverified]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-enriched
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 听到"准确率95%"但追问不出数据集、覆盖维度与计算公式
-- 不同时间/人/场景报告的准确率数字无法复现或相互矛盾
-- 比较两个版本时发现测试集、配置或测量脚本不一致
+- src_unknown
+- src_unknown
+- src_unknown
 ---# F-KDO-014：准确率声明的测量口径不一致
 
 ## 原始表述/核心洞察
@@ -58,10 +58,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你需要声称某个工具或流程的准确率（如"kdo validate 准确率"、"OCR 识别准确率"）
-- 你在审查他人提交的"准确率"数字时，需要判断是否可信
-- 你在比较两个不同版本/方案的性能时，需要确保测量口径一致
-- 你在设计评估指标时，需要定义"什么叫准确"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -73,11 +73,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有涉及"准确率"、"错误率"、"完成率"等定量指标声明的场景
-- 不适用于纯主观评估（如"用户满意度"）——这些本身就没有绝对标准，需要定义自己的评估框架
-- 如果数据集很小（<100 样本），"准确率"数字本身就不稳定——需要报出置信区间
-- Gold Standard 的建立是成本高的：对于快速迭代的实验性项目，可以先用简化版本，但必须明确说明
-- **"准确率 95%"如果没有测量方法，就等于没有说**——这是底线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -91,15 +91,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是系统评估中的核心问题：**没有测量方法的数字是毫无意义的**
-- "准确率 95%"极具迷惑性——它看起来很专业，但可能是在一个极小的、经过筛选的数据集上测的
-- 揭示了科学评估中的一个核心原理：**测量结果的价值不在于数字本身，而在于测量过程是否可重复、可验证**
-- 任何 AI 训练语料中都不会有"KDO 项目中准确率声明必须附带 Gold Standard 比对"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p15-unverified]] — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
-- [[master-systems-thinking]] — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
-- [[master-decision-hygiene]] — 决策卫生要求任何影响决策的数字都必须附带来源、方法和置信度
-- [[master-ai-info-literacy]] — AI 信息素养中的"指标批判"：看到准确率声明时，第一反应是追问"怎么测的"而不是"数字有多高"
-- `90_control/failure-modes.md` → F-KDO-014（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

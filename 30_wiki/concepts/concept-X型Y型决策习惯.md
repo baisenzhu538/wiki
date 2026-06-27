@@ -13,15 +13,15 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
 related:
-  - '[[tool-最佳实践池子]]'
-  - '[[concept-两种典型思考习惯]]'
-  - '[[tool-审美工具箱]]'
-  - '[[concept-稀缺机会窗口]]'
-  - '[[dk-决策经验值]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[concept-两种典型思考习惯]]"
-  - "[[concept-发现决策]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # X型 vs Y型决策习惯
@@ -45,9 +45,9 @@ related:
 
 ## 使用建议
 
-- 日常决策：X 型足够，速度优先
-- 重大决策：强制切换到 Y 型——先收集 3 条反面证据再形成结论
-- 团队决策：指定一人从 Y 型视角审视 X 型主导者的结论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

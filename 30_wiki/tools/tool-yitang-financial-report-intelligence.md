@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 财报分析
-- 招股书
-- 上市公司
-- 年报分析
-- 研报
-- 对标分析
-- benchmarking
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-笔记.txt
 related:
-  - '[[tool-yitang-comparable-company-selection]]'
-  - '[[case-proya-betaine-skincare-benchmark]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[ocr-一堂五步法画布]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-comparable-company-selection]]"
-  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
-  - "[[yt-research-intelligence-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 财报/招股书情报：用上市公司公开报告做创业预判
@@ -95,9 +95,9 @@ related:
 
 用IT桔子/企查查等工具，按行业筛选已上市公司。不要只看直接竞对——三类公司都有价值：
 
-- **同行业公司**：直接竞对，产品相同/相似 → 看毛利率、定价、成本结构
-- **上游/下游公司**：供应商或渠道商 → 看供应链结构、渠道利润分配
-- **同用户群公司**：不同产品但目标用户相同 → 看营销方式、用户获取成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：找更多参考
 
@@ -120,9 +120,9 @@ related:
 ### Step 1：明确调研目标
 
 不要漫无目的地从头读到尾。先确定你要回答什么问题：
-- "我的毛利率在行业中是否合理？"→ 找利润表、收入结构
-- "竞对的获客方式是什么？"→ 找销售模式、营销费用
-- "这个行业的市场天花板多大？"→ 找行业基本情况章节
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：定位目标章节
 
@@ -141,9 +141,9 @@ related:
 ### Step 3：快速浏览归纳
 
 边读边归纳关键信息，不需要逐字读：
-- 只摘关键数据（市场规模数字、毛利率、增长率、客户数）
-- 重点关注描述性语句（"行业领先""显著高于同行"等定性判断）
-- 将关键发现记录在你的调研画布上
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -163,10 +163,10 @@ related:
 
 ### 案例3：贝泰妮（薇诺娜）——完整五步法拆解
 
-- **需求**：35%中国女性是敏感肌，护肤品市场2441亿，年均增速10.1%
-- **解决方案**：薇诺娜品牌，纯天然植物活性成分，主打敏感肌
-- **商业模式**：87%收入来自护肤品；线上自营占77%；客单价线上<500元；复购率30%
-- **壁垒**：研发费用率全行业最高，皮肤学级化妆品定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -223,10 +223,10 @@ related:
 
 ## 来源与验证
 
-- 课程讲师：徐鱼（前华为/复星集团，海外投行并购分析师，地产基金财务总监）
-- 核心方法论来源：`一堂-上市公司报告解读-口述.txt`（对标选择三步法、招股书阅读三步法、五步法拆解框架）
-- 案例数据来源：泡泡玛特招股书（IP毛利60-70%）、新东方招股书（营销方式）、贝泰妮招股书（敏感肌市场数据）
-- 注意：具体数字来自课程讲师引用招股书原文，建议实际使用时直接查阅最新招股书确认
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

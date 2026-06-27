@@ -9,18 +9,18 @@ confidence: 0.70
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例03.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例03.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了自建体系低成本启动中的隐性成本识别。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,15 +40,15 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家鞋包洗护连锁企业
-- **决策问题**：是否自建招商体系
-- **低成本启动路径**：
+- src_unknown
+- src_unknown
+- src_unknown
   1. 请合作公司销售吃饭，获取行业模板资料 U 盘（<1000 元）
   2. 专家培训（3700 元）
   3. 系统学习一堂课程（约 600 元）
-- **关键人才配置**：创始人主抓招聘与团队搭建；业务领头人主抓装备输出与落地闭环
-- **窗口期判断**：鞋包洗护行业 2-3 年增长窗口（至 2026/2027 年）
-- **机会成本**：25-30 万预算需在"自建招商体系"与"品牌旗舰店"间权衡
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -86,36 +86,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **精益派**：低成本快速试错是正确的，避免重投入下的方向错误。
-- **体系派**：招商体系需要专业团队和长期投入，不能靠"吃饭拿 U 盘"搭建。
-- **财务派**：现金成本低不等于总成本低，创始人时间和机会成本很高。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **销售体系搭建**：用低成本方式快速启动销售流程。
-- **加盟体系设计**：在窗口期内用模板借鉴快速验证加盟模式。
-- **新市场进入**：用专家访谈和标杆学习降低进入成本。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ "低成本启动"必须同时计算现金成本、时间成本和机会成本。
-- ⚠️ 借鉴模板只是起点，必须有自身业务的迭代验证。
-- ⚠️ "创始人直觉"不能替代数据验证和团队能力评估。
-- ⚠️ 行业窗口期判断必须有来源，否则会影响投入节奏。
-- ⚠️ 多方案权衡时，要明确是二选一还是可分割。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"宽度"维度——在低现金成本与机会成本之间做权衡。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在创业资源分配场景的应用。
-- **[[concept-稀缺机会窗口]]**：案例中的 2-3 年窗口期是该概念的具体体现。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Klein（专家直觉边界）**："低成本启动"可能是基于创始人在该行业的深度经验形成的直觉。但如果决策者缺乏足够经验，这个直觉可能是错误的，且直觉往往是事后合理化的。[conf=0.75, source=Gary Klein, Sources of Power]
-- **March（探索与利用的矛盾）**：小规模启动、快速迭代是"探索"逻辑，但很多组织的奖励机制是"利用"导向的。如果 KPI 考核短期业绩，团队不会有动力做长期探索。[conf=0.75, source=James March, Exploration and Exploitation]
+- src_unknown
+- src_unknown
 
 ---
 

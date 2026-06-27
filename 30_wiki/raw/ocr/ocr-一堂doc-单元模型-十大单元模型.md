@@ -3,9 +3,9 @@
 title: "OCR: 一堂DOC-单元模型-十大单元模型"
 type: concept
 domain:
-  - needs-review
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_112b88f7
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-示例]]'
-  - '[[ocr-一堂-单元模型-单订单模型]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,18 +40,18 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_112b88f7-ocr-一堂doc-单元模型-十大单元模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

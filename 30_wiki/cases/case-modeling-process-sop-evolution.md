@@ -6,16 +6,16 @@ title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- "#method/modeling"
-- "#content-format/sop"
-- "#content-format/checklist"
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,29 +26,29 @@ review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[process-modeling]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-livestream-prep]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[modeling-level-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: "团队反复说'每次做这件事都踩同样的坑'"
+- src_unknown
   framework_lens: 流程建模 / SOP
   follow_up_question: 这个任务过去 3 个月重复了几次？单次失败成本是多少？有没有可被固定下来的关键步骤？
-- signal: "只有某一个人能把这件事做对，别人上手就变形"
+- src_unknown
   framework_lens: 流程建模 + 加锁机制
   follow_up_question: 这位高手的关键动作能不能拆成 5-7 步？谁能在前 3 次执行时督导并签字？
-- signal: "SOP 写完了，但执行时还是凭习惯"
+- src_unknown
   framework_lens: SOP 执行锁
   follow_up_question: 这份 SOP 有责任人、督导人和品控人吗？最近一次更新是因为什么意外？
-- signal: "团队抱怨 SOP 扼杀创造性，开始抵触"
+- src_unknown
   framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
 ---# 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
@@ -73,33 +73,33 @@ diagnostic_signals:
 
 **代表 SOP**：直播准备 SOP、线下场地布置清单
 
-- 把一次成功执行的步骤按顺序列出来。
-- 解决的问题是「别漏项」，但没有明确责任人，也没有更新机制。
-- 例如直播准备清单早期只有「调试设备、测试网络、准备讲义」等条目，由主播自己凭记忆勾选。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2.0 流程拆分 + 角色分工阶段（2022）
 
 **代表 SOP**：马拉松运营 SOP、复盘营运营 SOP、直播课上架配置 SOP、晚餐磨课会流程
 
-- 把一个大流程拆成多个子流程，每个子流程对应角色和时间节点。
-- 直播课上架不再是一个人口头交代，而是拆成「内容配置 → 价格/优惠配置 → 页面检查 → 上线前复核」四步，每步有明确的执行人和截止时间。
+- src_unknown
+- src_unknown
 
 ### 3.0 督导 + 品控加锁阶段（2023）
 
 **关键升级**：给 SOP 增加「执行锁」
 
-- 版本 1 只靠自觉，执行率大约 50-70%。
-- 版本 2 增加督导 SOP：有人检查执行者是否按清单做了。
-- 版本 3 增加品控 SOP：有人检查督导的工作质量。
-- 结果：高频核心流程（如直播课上架、线下营期执行）的执行率接近 100%，同类低级错误明显减少。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4.0 个人定制 + 工具嵌入阶段（2024）
 
 **代表 SOP**：Truman 出差吃饭清单、出差途中磨课注意清单、文稿校对问题清单
 
-- SOP 从「团队通用」下沉到「个人工作流」。
-- Truman 的直播前 2 小时准备清单精确到分钟：提前 2 小时吃饭、提前 30 分钟喝咖啡、提前 15 分钟洗漱、提前 3 分钟练嘴皮子。
-- 清单开始嵌入日常工作场景（如出差、磨课、校对），而不是作为一份独立文档存在。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键升级点
 
@@ -114,10 +114,10 @@ diagnostic_signals:
 
 ## 结果
 
-- **执行方差下降**：直播、课程上架、线下营期等高频任务的失误率显著降低，新人可以独立按清单执行。
-- **关键人依赖减弱**：Truman 出差、直播等个人状态不再完全依赖临场发挥，而是通过清单提前锁定。
-- **SOP 成为会增值的资产**：每次意外都被用来更新清单，而不是口头抱怨。
-- **但也出现边界问题**：部分清单（如出差吃饭清单）价值主要体现在个人状态管理，对团队的通用迁移性有限；如果强行团队化，ROI 不高。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -184,19 +184,19 @@ diagnostic_signals:
 | 是否需要升级/归档？ | | | |
 
 **判定规则**：
-- 频率 ≥ 每周 1 次 + 失败成本 ≥ 中 → 至少应到 2.0（拆分+角色）。
-- 执行率 < 80% → 升级到 3.0（加督导/品控锁）。
-- 高度依赖个人状态/习惯 → 考虑 4.0（个人定制清单）。
-- 频率 < 每月 1 次或失败成本低 → 不建议单独建 SOP，用项目复盘记录即可。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联框架
 
-- [[process-modeling]] —— 流程建模的完整方法论
-- [[tool-sop-template-modeling]] —— SOP/模板建模法
-- [[case-modeling-process-livestream-prep]] —— 直播前 2 小时个人准备清单案例
-- [[case-modeling-process-sop-examples]] —— 多个 SOP 案例的共性结构
-- [[modeling-three-stages]] —— 流程建模在三段论中的定位
-- [[dk-modeling-sop-execution-locks]] —— SOP 稳定执行的关键机制
-- [[modeling-level-map]] —— 流程建模对应的段位与能力要求
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

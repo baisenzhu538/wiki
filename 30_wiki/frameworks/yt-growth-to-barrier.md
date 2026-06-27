@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-to-barrier
 title: 从增长到壁垒：承上启下
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-business-model-competitive-moat
-  - yt-growth-scaling-pitfalls
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们增长很快，但担心被竞品复制'"
+  - src_unknown
     framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割
     follow_up_question: "你的增长成果是什么？有没有壁垒保护？竞品复制的难度有多大？"
-  - signal: "用户说'我们到了增长天花板，不知道下一步'"
+  - src_unknown
     framework_lens: 从增长到壁垒——增长天花板需要壁垒突破，不是硬撞
     follow_up_question: "你的增长天花板是什么？壁垒能否帮你突破天花板？"
-  - signal: "用户说'我们的增长策略被竞品复制了'"
+  - src_unknown
     framework_lens: 从增长到壁垒——增长策略容易被复制，壁垒难以复制
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
-  - signal: "用户说'我们增长很好，但利润不高'"
+  - src_unknown
     framework_lens: 从增长到壁垒——增长需要壁垒保护利润，否则陷入价格战
     follow_up_question: "你的利润被什么侵蚀？有没有壁垒保护定价权？"
-  - signal: "用户说'从增长到壁垒怎么过渡'"
+  - src_unknown
     framework_lens: 从增长到壁垒——增长和壁垒不是先后，而是同步建设
     follow_up_question: "你的增长是否在同时建设壁垒？哪些增长行为在积累壁垒？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当增长时 → 同步建设壁垒
-- 当增长被复制时 → 强化壁垒
-- 当增长停滞时 → 壁垒突破
-- 当利润被侵蚀时 → 壁垒保护
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-business-model-competitive-moat`：商业模式护城河
-- `yt-growth-scaling-pitfalls`：增长规模化陷阱
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 一堂商业模式设计课
-- 竞争优势研究
+- src_unknown
+- src_unknown
+- src_unknown

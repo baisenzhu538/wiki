@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-five-step-cross-step-1
 title: 跨步一：从0到1的验证
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-five-step-method
-  - yt-demand-fake-demand-detection
-  - yt-product-kernel-validation
-  - yt-business-model-definition
-  - yt-growth-strategy-overview
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们有个想法，但不知道能不能做'"
+  - src_unknown
     framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
     follow_up_question: "你的需求验证了吗？内核验证了吗？单元模型成立吗？"
-  - signal: "用户说'我们做了产品，但没人用'"
+  - src_unknown
     framework_lens: 跨步一——产品没人用说明需求或内核验证失败
     follow_up_question: "你的需求是真实的吗？内核是否解决了用户问题？"
-  - signal: "用户说'我们验证了需求，但不知道怎么验证内核'"
+  - src_unknown
     framework_lens: 跨步一——内核验证需要用户真实使用并反馈
     follow_up_question: "你的内核是否让用户愿意用？用户使用后是否愿意推荐？"
-  - signal: "用户说'我们验证通过了，但不敢规模化'"
+  - src_unknown
     framework_lens: 跨步一——验证通过后需要敢于规模化
     follow_up_question: "你的验证是否充分？单元模型是否成立？"
-  - signal: "用户说'我们在0到1阶段花了太长时间'"
+  - src_unknown
     framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
     follow_up_question: "你的验证周期多长？是否过度打磨产品？"
 
@@ -129,21 +129,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当有想法时 → 验证需求
-- 当验证需求后 → 验证内核
-- 当验证内核后 → 验证单元模型
-- 当验证通过后 → 敢于规模化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-five-step-method`：五步法总纲
-- `yt-demand-fake-demand-detection`：假需求识别
-- `yt-product-kernel-validation`：内核验证
-- `yt-business-model-definition`：商业模式定义
-- `yt-growth-strategy-overview`：增长策略总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法课
-- 精益创业（Eric Ries）
-- 从0到1（Peter Thiel）
+- src_unknown
+- src_unknown
+- src_unknown

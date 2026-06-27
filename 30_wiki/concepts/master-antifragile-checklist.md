@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-antifragile-checklist
 title: 反脆弱决策检查清单
@@ -19,15 +19,15 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-knowledge-compound]]'
-  - '[[master-systems-thinking]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-foresight-ten-fatal-flaws]]'
-  - '[[tool-泛产品落地-风险管理]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 反脆弱决策检查清单
 
@@ -98,14 +98,14 @@ related:
 ```
 
 **为什么有效**：
-- 下行被"极端安全"锁死（最多损失10%的投机部分）
-- 上行被"极端投机"打开（10%可能带来1000%回报）
-- 中间地带的"中等风险"既没有安全性也没有高回报
+- src_unknown
+- src_unknown
+- src_unknown
 
 **在决策中的应用**：
-- 职业决策：90%时间做稳定主业，10%时间做高潜力副业
-- 投资决策：90%国债/现金，10%高风险期权
-- 产品决策：90%资源做核心功能（确定有用），10%资源做实验性功能（可能爆款）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 支柱二：冗余（Redundancy）
 
@@ -129,9 +129,9 @@ related:
 **核心洞察**：选择权本身就有价值，即使你现在不知道会怎么选。
 
 **常见反面模式**：
-- **过早优化**：在信息不足时做不可逆的大投入
-- **路径依赖**："已经投了这么多，不能停"
-- **身份绑定**："我是做X的，所以不能碰Y"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **保持选择权的方法**：
 1. **可逆决策**：先做小实验，确认有效再放大
@@ -153,8 +153,8 @@ related:
 | **5. 这个决策是增大还是减小了未来的选择权？** | 选择权 | "绑死了，没有回头路" | "保持灵活，未来可以调整" |
 
 **使用方式**：
-- **快速版（2分钟）**：只回答第1和第5问——"下行有限吗？选择权还在吗？"
-- **完整版（15分钟）**：五问全部回答，画出杠铃分配图
+- src_unknown
+- src_unknown
 
 ---
 
@@ -176,25 +176,25 @@ related:
 
 **Karl Popper**（科学哲学核心人物，"证伪主义"创始人）会从认识论角度挑战反脆弱概念。
 
-- **核心挑战**：Popper认为一个理论要有科学价值，必须能被证伪——即存在某种观察结果可以证明它是错的。但"反脆弱"的定义是"从不确定性中获益"，这几乎是一个无法被证伪的命题。
-- **具体机制**：
-  - 如果计划A失败了，你可以说"这不是真正的反脆弱结构"
-  - 如果计划B成功了，你可以说"看，这就是反脆弱"
-  - 任何结果都可以被事后解释为"证明了反脆弱"或"反脆弱不够"
-- **Popper会问**："请告诉我，什么证据会让你承认'这个决策不是反脆弱的'？如果没有任何证据能让你承认这一点，那这不是科学决策工具，是信仰。"
-- **建议补充**：对每个使用#5的决策，预先写下"什么结果会证明我的反脆弱判断是错误的"——明确可证伪标准。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### 攻击者2：索罗斯（反身性/市场哲学）—— 反脆弱策略在极端压力下互相踩踏
 
 **George Soros**（量子基金创始人，"反身性理论"提出者）会从市场动力学角度挑战反脆弱。
 
-- **核心挑战**：Soros的"反身性"理论指出：市场参与者的认知会影响市场本身，形成反馈循环。当太多人同时使用"杠铃策略"或"保持选择权"时，这些策略本身会变成新的系统性脆弱。
-- **具体机制**：
-  - 2008年金融危机前，很多机构都认为自己在"分散风险"
-  - 但当所有机构同时抛售"高风险端"时，流动性蒸发，"安全端"也被波及
-  - "反脆弱"在个体层面有效，但在系统层面可能是脆弱的
-- **Soros会问**："如果你的反脆弱策略和市场上50%的人一样，当冲击来临时，你们会不会同时涌向'安全端'，把安全端也变成不安全？"
-- **建议补充**：在使用#5时，加一个问题——"有多少人和我做同样的选择？如果我们都同时调整，市场/系统会发生什么？"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

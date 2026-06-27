@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Alternative data for hedge funds (ExtractAlpha, Greenwich Associates, Neudata 2025)
-- web: Exploding Topics - How Hedge Funds Use Alternative Data
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-demand-agent-signals]]'
-  - '[[tool-alt-data-free]]'
-  - '[[tool-osint-overview]]'
-  - '[[tool-reverse-image-search]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-alt-data-free]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 替代数据总览
@@ -84,9 +84,9 @@ curl "https://www.reddit.com/r/SUBREDDIT/search.json?q=COMPANY_NAME&sort=new&res
 
 ## 适用边界
 
-- **适用**：高价值商业决策、需要独立验证竞对公开数据时
-- **不适用**：日常小额决策、信息需求可以通过免费渠道满足时
-- **核心**：替代数据是"交叉验证工具"而非"替代品"——一份信用卡数据+卫星图+财报+社交媒体=四面验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

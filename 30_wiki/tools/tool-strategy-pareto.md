@@ -13,13 +13,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[feishu-docx-pagination-extraction]]'
-  - '[[tool-strategy-four-moves]]'
-  - '[[tool-strategy-nine-problems]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[concept-feishu-api-pagination-trap]]'
-  - "[[tool-strategy-fishbone]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 帕雷托图
@@ -46,8 +46,8 @@ def pareto(data, metric="revenue"):
 
 ## 适用边界
 
-- **适用**：SKU优化、客户分层、资源分配
-- **不适用**：品类数本身就很少（<10个）
+- src_unknown
+- src_unknown
 
 ---
 

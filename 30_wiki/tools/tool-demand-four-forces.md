@@ -15,13 +15,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
-  - '[[dk-demand-switching-cost]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
-  - '[[case-demand-ai-fitness-four-forces]]'
-  - '[[framework-demand-iceberg]]'
-  - '[[tool-demand-agent-signal-substitute]]'
-  - "[[tool-demand-iceberg-l5-forces]]"
-  - "[[framework-demand-iceberg]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 四种力量建模
@@ -49,16 +49,16 @@ related:
 prompt = """对「{PRODUCT_IDEA}」做四种力量建模：
 
 推力（Push——旧方案的痛苦）：
-- 至少3条
+- src_unknown
 
 拉力（Pull——新方案的吸引力）：
-- 至少3条
+- src_unknown
 
 焦虑（Anxiety——对新方案的担忧）：
-- 至少3条
+- src_unknown
 
 习惯（Habit——旧习惯的惯性）：
-- 至少3条
+- src_unknown
 
 判断公式：（推力+拉力）是否 >（焦虑+习惯）？
 如果答案为否：需要增强什么？哪边的力量最容易改变？
@@ -74,8 +74,8 @@ prompt = """对「{PRODUCT_IDEA}」做四种力量建模：
 
 ## 适用边界
 
-- **适用**：需要判断"用户会不会切换"的决策点
-- **不适用**：垄断/合规等用户没有选择权的场景
+- src_unknown
+- src_unknown
 
 ---
 

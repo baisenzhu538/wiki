@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
 source_refs:
@@ -21,19 +21,19 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-lean-zhanglei-failure-counterfactual]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[case-lean-adult-education]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[case-lean-zhanglei-hypothesis-validation]]"
-  - "[[case-lean-zhanglei-failure-counterfactual]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 张磊 AMA：创业者 pivot 决策案例
@@ -52,9 +52,9 @@ related:
 
 核心诊断动作：
 
-- 用业务公式 `收入 = 流量 × 转化率 × 客单价 × 复购率` 把过去两年的经营数据按月度拉出趋势，看哪个指标在不可逆地下滑 [conf=0.70, source=张磊 AMA]。
-- 把老业务问题拆成三类假设分别验证：需求假设（用户还认不认你）、调改假设（改产品/定价/渠道）、新品类假设（换方向是否成立） [conf=0.70, source=张磊 AMA]。
-- 为每个可疑指标设计一个 5000 元以内的验证动作，两周内拿到比直觉靠谱得多的答案 [conf=0.70, source=张磊 AMA]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例二：20 年照明工程公司的多方向选择（Q9）
 
@@ -62,10 +62,10 @@ related:
 
 张磊给出的决策路径：
 
-- 每个方向画一张极简五步法画布，只填第一列「需求」——目标用户是谁、痛点是什么、为什么是你 [conf=0.70, source=张磊 AMA]。
-- 横向比较各方向最要命的假设：哪个假设验证成本最低、周期最短、认知价值最大，就优先测哪个 [conf=0.70, source=张磊 AMA]。
-- 算两笔账：单元模型账（单个项目收入减直接成本再减固定成本是否为正）和自由现金流账（连续三年自由现金流为负且看不到结构性改善，就不是低谷而是模式失效） [conf=0.70, source=张磊 AMA]。
-- 用「投资人视角」对抗沉没成本：假设今天刚认识这家公司，手里有一笔钱，你还会投吗 [conf=0.70, source=张磊 AMA]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -103,9 +103,9 @@ related:
 
 ### 对应系统测试曲线
 
-- **里程碑测试**：按「行业/需求 → 产品/方案 → 商业模式 → 增长」的依赖链推进，先确认 A 类假设再进入下一步 [conf=0.70, source=张磊 AMA]。
-- **组合测试**：面对多个新方向时，先并行列出各方向的前置需求假设，再筛选出验证成本最低、认知价值最高的方向优先测试 [conf=0.70, source=张磊 AMA]。
-- **灰度测试**：老业务调改采用小范围试卖、小批量真实渠道跑数据，避免一次性全量切换 [conf=0.70, source=张磊 AMA]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败/成功原因
 
@@ -127,11 +127,11 @@ related:
 
 本案例的决策逻辑适合以下情况：
 
-- **老业务进入平台期或下滑期**：需要判断是修修补补、转型升级还是果断退出。
-- **资源有限但机会看起来很多**：需要在多个新方向中决定先验证哪一个。
-- **家族企业或长期经营的业务**：创始人/老板情感绑定深，容易沉没成本绑架。
-- **现金流长期紧张的服务型/工程类公司**：需要区分账面利润与真实自由现金流。
-- **传统制造业/贸易业考虑出海或跨界**：多个区域/产品线可选，但无法同时投入。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -158,27 +158,27 @@ related:
 
 ### 失败模式 1：把「增长下滑」当「需求消失」
 
-- **症状**：流量下滑就以为品类/需求不行了，匆忙 pivot 或换赛道。
-- **后果**：原本可以通过修获客渠道、调定价、换包装救活的业务被错误放弃。
-- **修复**：先用业务公式拆四项指标的趋势，找到真正不可逆下滑的指标；同时对比同行 benchmark。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 2：用「雨露均沾」应对多方向选择
 
-- **症状**：每个方向都投一点资源试试水温，没有集中火力验证最致命的假设。
-- **后果**：每个方向都拿不到有效认知，时间和现金被同时消耗，最终没有一条跑通。
-- **修复**：每个方向只列一个「如果错了就死」的前置需求假设，横向比较验证成本后优先测最便宜、认知价值最大的那个。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 3：沉没成本绑架决策
 
-- **症状**：「做了 20 年」「投入了半辈子」「不甘心」成为继续投入的主要理由。
-- **后果**：把可挽回的小败局拖成不可挽回的大败局，现金流持续失血。
-- **修复**：引入投资人视角，强制回答「今天还会不会投这家公司」；在投入前设定硬止损线。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 4：把 pivot 当成逃避痛苦的选项
 
-- **症状**：老业务遇到瓶颈就想去追新机会，用「转型」掩盖不愿面对真实数据的心理。
-- **后果**：新方向同样因为缺少前置假设验证而失败，团队陷入连续 pivot 的死亡螺旋。
-- **修复**：pivot 前先完成老业务的诊断和低成本验证，确认核心假设已死后再启动新方向。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

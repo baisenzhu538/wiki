@@ -6,11 +6,11 @@ title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - software-engineering
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -24,36 +24,36 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队已经使用 AI 工具，但效率仅提升 30% 左右，无法突破线性增长
+- src_unknown
   lens: 系统瓶颈 vs. 工具瓶颈
   follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
-- signal: 成员抗拒 AI，出现那我算什么的心理焦虑
+- src_unknown
   lens: 角色定义
   follow_up: 将角色重新定义为让 AI 把代码写好的人，强调判断力而非执行量
-- signal: AI 生成代码偏离需求，反复修改仍无法对齐
+- src_unknown
   lens: 输入质量
   follow_up: 回到需求拆解层，用 BTICOE 补全原子任务和约束条件
-- signal: 上线后 bug 多，返工率高
+- src_unknown
   lens: 验收标准
   follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
 tags:
-- 王欢
-- 三层架构
-- AI开发
-- 需求拆解
-- 质量守门
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,36 +107,36 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 选定一个真实、高频、下周还会用的开发任务作为试点
-- [ ] 用 BTICOE 把需求写成原始需求 + 客户背景，明确输入、输出、约束
-- [ ] 拆解出 5–15 个原子任务，每个任务包含输入、输出定义和验收标准
-- [ ] 为 AI 开发层准备代码规范、API 文档、测试框架和约束红线
-- [ ] 建立哨兵质检 checklist：静态扫描 + 安全审查 + 人工逻辑复核
-- [ ] 定义上线/返工决策人，确保最终判断由人做出
-- [ ] 记录第一轮数据：时间、返工率、bug 数，与旧流程对比
-- [ ] 每周迭代一次：把新发现的约束和默认值沉淀到模板中
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：导演思维是三层架构的认知底座
-- [[case-wanghuan-shenyang-software-3x-efficiency]]：三层架构的实证案例
-- [[concept-wanghuan-adversarial-generation]]：可用于哨兵层的对抗评审
-- [[framework-wanghuan-bitcoe-prompt-framework]]：需求拆解层的输入格式化工具
-- [[framework-wanghuan-gan-three-roles]]：生成者-评审者-验收者分离的进阶视角
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Critique
 
-- **外部攻击者 1：传统软件工程师**：没有程序员逐行写代码，代码质量会崩塌；AI 不懂业务暗规则，三层架构只是管理层的幻想。  
+- src_unknown  
   **回应**：该架构并非取消程序员，而是把程序员的精力从逐行编码转移到需求拆解、约束定义和最终验收。AI 不懂的行业暗规则，恰好需要人的判断力来填补，人的经验反而更稀缺。
 
-- **外部攻击者 2：敏捷/精益创业方法论者**：前置需求拆解会拖慢反馈循环，探索期产品应该快速试错，而不是先做完整拆解。  
+- src_unknown  
   **回应**：三层架构适用于需求可结构化、可定义验收标准的场景；在高度不确定的探索期，应先用最小原型验证假设，而不是硬套完整三层流程。
 
-- **不要用**：当需求无法定义、组织没有质量标准、或成员完全拒绝角色升级时，不要直接全面推行三层架构；先从可度量的小任务试点，否则容易沦为 AI 管理的仪式。
+- src_unknown
 
 ---
 

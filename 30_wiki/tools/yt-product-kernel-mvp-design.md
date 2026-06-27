@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-mvp-design
 title: 内核MVP设计：最小可验证产品
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-hypothesis-test
-  - yt-product-kernel-premature-optimization
-  - yt-five-step-method
-  - yt-entrepreneur-lean-validation
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户的MVP做了3个月，功能还是太多"
+  - src_unknown
     framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
     follow_up_question: "你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？"
-  - signal: "用户说'MVP必须完整，否则用户体验不好'"
+  - src_unknown
     framework_lens: 内核MVP设计——MVP不是完整产品，是验证工具
     follow_up_question: "MVP的目标是验证假设，还是提供完美体验？"
-  - signal: "用户的MVP上线后，无法判断假设是否成立"
+  - src_unknown
     framework_lens: 内核MVP设计——MVP需要可衡量
     follow_up_question: "你的MVP有明确的验证指标吗？能衡量关键转化率吗？"
-  - signal: "用户做MVP时，花大量时间在非核心功能上"
+  - src_unknown
     framework_lens: 内核MVP设计——资源应聚焦核心
     follow_up_question: "非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？"
-  - signal: "用户说'我们先做MVP，但MVP和最终产品一样'"
+  - src_unknown
     framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
     follow_up_question: "MVP和最终产品的区别是什么？MVP验证什么假设？"
 
@@ -123,22 +123,22 @@ MVP必须有明确的验证指标：
 
 ## 行动触发器
 
-- 当设计MVP时 → 问"这个功能验证什么假设？"
-- 当MVP功能膨胀时 → 做"假设验证必要性测试"
-- 当MVP上线时 → 检查验证指标是否可衡量
-- 当验证结果出来时 → 根据结果决策，不凭直觉
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-hypothesis-test`：内核假设测试
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-lean-validation`：精益验证方法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 精益创业（Eric Ries）：MVP方法论
+- src_unknown
+- src_unknown
+- src_unknown

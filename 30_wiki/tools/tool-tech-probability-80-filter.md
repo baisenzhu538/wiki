@@ -10,27 +10,27 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 李开复 80% 概率过滤器
@@ -66,8 +66,8 @@ related:
 
 ### 第一步：定义时间窗口
 
-- 默认以「未来 20 年」为基准（对应 2041 年的书名设定）。
-- 若用于商业决策，可缩短为「产品周期 + 3 年」。
+- src_unknown
+- src_unknown
 
 ### 第二步：列出候选技术/事件
 
@@ -85,9 +85,9 @@ related:
 
 对每一个通过 80% 门槛的技术，追问：
 
-- 谁会受影响？
-- 他/她面临什么选择？
-- 我的产品/决策/生活中，对应的选择点在哪里？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -127,22 +127,22 @@ related:
 
 ### 正例：孟买少女的保险歧视（书中情节）
 
-- 技术：AI 风险评估 + 个性化定价 + 跨平台数据打通。
-- 发生概率：>80%（算法评分、数据经纪人、平台联动已在现实中出现）。
-- 选择点：保险公司选择牟利还是服务用户；监管机构选择是否限制算法歧视；个人选择是否让渡数据。
-- 价值：把抽象的「算法公平」变成可感受、可讨论、可立法的情境。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：量子计算 2041 年破解比特币
 
-- 书中设定：到 2041 年有 80% 概率出现可破解现有加密的功能量子计算机 [conf=0.70, source=王欢拆书归纳/二手书评]。
-- 现实张力：该预测在学界和工程界存在显著争议，量子纠错、物理量子比特数量、实际攻击成本都是不确定变量。
-- 教训：80% 过滤器帮助你「保留关注」，但不等于「已经验证」。反方证据仍需并置。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：AI 意识与「机器人暴动」
 
-- 发生概率：在可预见的 20 年内显著低于 80%。
-- 处理方式：丢入「科幻箱」，不占用当下的决策带宽。
-- 教训：过滤器的价值不是告诉你「什么不可能」，而是告诉你「什么暂时不值得焦虑」。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -161,23 +161,23 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选定一个当前让你焦虑的 AI 趋势。
-- [ ] 明确时间窗口：未来 20 年 / 产品周期 +3 年 / 其他。
-- [ ] 给出粗略概率估计，并写下依据。
-- [ ] 应用 80% 硬门槛，把结果分为「保留」「观察」「丢弃」三箱。
-- [ ] 对每个「保留」项，写出「具体的人 + 具体的选择」。
-- [ ] 标注信息来源与可信度，尤其区分「作者设定」与「可验证事实」。
-- [ ] 一年后回看：哪些预测过期了？哪些黑天鹅被漏掉了？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可信度说明
 
-- 李开复 80% 概率过滤器作为《AI 2041》的叙事/方法设定，在二手书评中可得到佐证，但未见一手页码，故统一标注为 `[conf=0.70, source=王欢拆书归纳/二手书评]`。
-- 王欢对「三步探针法」的提炼属于王欢原创方法论，标注为 `[conf=0.70, source=王欢原创]`。
-- 书中具体技术清单（深度学习、NLP、计算机视觉、自动驾驶、量子计算、XR）属于二手概括，未逐项核对原始书目，故采用同一可信度。
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md 第二幕 §197-282。
-- 二手书评佐证：TianPan.co 对《AI 2041》的系列读书笔记，提及「基于未来20年内有超过80%可能性实现的技术，构建出的现实场景」[conf=0.70, source=王欢拆书归纳/二手书评]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

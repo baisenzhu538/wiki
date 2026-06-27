@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-doris-catering-chain-benchmark]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-doris-outbound-travel-community]]'
-  - '[[case-yitang-beauty-device-overseas-sales]]'
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-field-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：从收据/小票反推真实经营数据

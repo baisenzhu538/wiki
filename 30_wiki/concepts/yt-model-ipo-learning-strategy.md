@@ -7,27 +7,27 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 2214
 language: zh-CN
 query_triggers:
-- 6 要素闭环
-- IPO 科学学习全景策略
-- 三大学习法
-- 关联卡片
-- 常见误区
-- 知识体系定位
-- 科学学习全景策略
-- 输入质量六维度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[master-knowledge-compound]]'
-  - '[[yt-entrepreneur-research-camp]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[yt-model-prompt-engineering]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
@@ -41,13 +41,13 @@ yitang:
   course_type: model
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户输入很多课程，但输出很少
+- src_unknown
   framework_lens: IPO失衡——输入处理输出比例失调，学习变成囤积
   follow_up_question: 你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡
-- signal: 用户有目标有输入，但没有反馈闭环
+- src_unknown
   framework_lens: 反馈缺失——没有反馈的学习无法迭代
   follow_up_question: 你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习
 updated_at: '2026-06-16'
@@ -77,9 +77,9 @@ trust_level: medium-high
 
 ### 三大学习法
 
-- **世界学习法**：从真实案例和具体事实出发
-- **知识树学习法**：建立体系框架和主题笔记
-- **费曼学习法**：分享讲解，教是最好的学
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 输入质量六维度
 
@@ -89,12 +89,12 @@ trust_level: medium-high
 
 ### 常见误区
 
-- 只会偶遇学习（无目标）
-- 只收集信息（不处理）
-- 只学习不输出（无闭环）
-- 输入质量太差
-- 思考过于浅层
-- 不知学没学会
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -109,7 +109,7 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-complete-checklist]]
+- src_unknown
 
 ## Constraints & Boundaries
 

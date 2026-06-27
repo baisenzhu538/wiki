@@ -7,18 +7,18 @@ title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
 status: enriched
 domain:
-  - yitang- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#l6-essence'
-- '#domain/yitang'
-- '#content-format/framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -27,17 +27,17 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
-  - '[[framework-lean-expert-roadmap]]'
-  - '[[modeling-level-map]]'
-  - '[[framework-demand-lean-bridge]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-business-formula-ten-paradigms]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式 L6 魔法参数：跨行业本质公式集锦
 
@@ -90,23 +90,23 @@ L6 回答的不是“怎么做”，而是**“这件事为什么成立”**。�
 
 ## 使用边界
 
-- **不是所有业务都需要拆到 L6**：判断标准只有一个——这个参数能不能提出可验证的假设？
-- **L6 容易陷入抽象**：必须回到 L3-L5 的具体指标，否则只是“高级鸡汤”。
-- **不同讲师/行业对 L6 的定义可能不同**：本卡基于孔阳 2026-06-13 培训版本，后续遇到冲突需更新。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联框架
 
-- [[yt-business-formula-parameter-iceberg]]：L1-L6 的分层定义
-- [[yt-business-formula-six-level-logic]]：L5 定量 → L6 动态
-- [[yt-business-formula-abc-model]]：A/B/C 三要素与逻辑关系
-- [[case-private-domain-ecommerce-formula]]、[[case-saas-renewal-formula]]、[[case-dental-clinic-formula]]、[[case-offline-catering-formula]]：L6 公式的具体来源案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：学习本质、客户成功本质、场景占位本质、危机感知公式（直接来自培训逐字稿）
-- **中置信度**：私域电商用户升级路径的抽象表达（基于案例的合理归纳）
-- **待复核**：L6 公式在不同行业/不同讲师版本中的适用边界
+- src_unknown
+- src_unknown
+- src_unknown

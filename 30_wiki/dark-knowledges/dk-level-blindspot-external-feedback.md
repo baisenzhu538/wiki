@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- entrepreneur
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -15,37 +15,37 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - '[[dk-modeling-course-rnd-ripe-fruit]]'
-  - '[[dk-five-step-framework-legitimizes-bias]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-model-truman-five-step-growth]]'
-  - '[[modeling-level-map]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-five-step-implementation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/insight'
-- '#domain/yitang'
-- '#domain/entrepreneur'
-- '#method/skill-calibration'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 团队成员自评某项能力 7-8 分（满分 10），但实际产出在外部评审中只得到 3-4 分
+- src_unknown
   framework_lens: 邓宁-克鲁格效应——低能力者缺乏评估自己能力的元认知
   follow_up_question: 你能说出 3 个比你高 2 个段位的具体打法吗？如果不能，你对段位的认知还停在模糊图像阶段。
-- signal: 团队内部的技能评定和校准，全都基于"我们觉得自己怎么样"，没有引入外部评审
+- src_unknown
   framework_lens: 回音壁校准——内部互评只会强化群体盲区
   follow_up_question: 最近一次外部专家/客户/同行给你的核心技能打分是什么时候？得分是多少？
-- signal: 培训后学员的进步速度在第 1-3 个月很快，第 4-6 个月开始停滞
+- src_unknown
   framework_lens: 自反馈平台期——初期的快速进步来自"知道自己不知道什么"，之后缺少新的外部刺激
   follow_up_question: 你最近一次感到"原来还能这样"的瞬间是什么时候？如果超过 3 个月没有，你已经进入了自反馈平台期。
-- signal: '"完成度"被用作段位指标——画布填满了、模板用全了，就觉得段位提升了'
+- src_unknown
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
 ---
@@ -73,11 +73,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你在设计团队的能力评估和成长体系。
-- 你发现团队成员技能提升在第 3-6 个月开始停滞。
-- 你想区分"真正在进步"和"在完成更多任务但能力没涨"。
-- 你在做技能培训后效果评估。
-- 你想知道为什么某个看起来"很努力"的团队成员能力没有提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -126,16 +126,16 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **有实验数据支撑**：Truman 的课堂实验反复验证了"7-8 分幻觉"的存在——这不是理论推演，是真实发生的。
-- **通用性极强**：编程、写作、产品、管理、销售、设计——所有"靠段位"的技能领域都适用。
-- **推翻了一个常见假设**："谦虚一点就好了"——不，这不是态度问题。你不知道你不知道什么，不以意志为转移。
-- **给出了可操作的解法**：跨段位观摩、外部评审、"原来还能这样"频率追踪——不是空谈"要加强学习"。
-- **区分了"努力"和"进步"**：很多人看起来很努力（大量填表、大量输出），但段位没提升。这条暗知识告诉你为什么——因为你没见过高段位的打法，所以你不知道该往哪个方向努力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-five-step-level-blindspots]] —— 五步法段位盲区的详细分析，包含自评实验的更多细节和 SaaS 客户成功团队的真实案例。
-- [[yt-model-truman-five-step-growth]] —— Truman 的五步法段位成长模型，从 L1 到 L5 的完整路径。
-- [[modeling-level-map]] —— 建模能力段位图，覆盖各段位的可见范围和盲区。
-- [[yt-five-step-method]] —— 五步法完整框架，段位盲区讨论的场景基础。
-- [[yt-five-step-implementation]] —— 五步法落地实操，包含"如何才能从 L3 到 L4"的具体方法。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

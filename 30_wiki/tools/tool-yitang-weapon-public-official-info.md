@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-stock-data]]'
-  - '[[tool-yitang-competitor-financial-analysis]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-public-information-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-public-information-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略8：官方公开信息
@@ -46,9 +46,9 @@ related:
 
 ## 关键技巧
 
-- 财报/招股书是质量最高的公开信息
-- 招聘信息变化 = 战略方向变化
-- 公开信息 + 离职员工验证 = 真相
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

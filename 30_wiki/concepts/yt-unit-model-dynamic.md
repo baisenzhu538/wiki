@@ -6,28 +6,28 @@ confidence: 0.88
 created_at: 2026-05-24
 difficulty: advanced
 domain:
-  - yitang- entrepreneur
-  - master
+  - src_unknown
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-construction
-- yt-unit-model-benchmark
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 动态单元模型
-- 规模经济对抗
-- 拐点预判
-- 规模变量
-- 单元模型动态预测
-- 规模化盈利
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[ai单元模型口述蒋老师]]'
-  - '[[yt-tool-unit-model-dynamic]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[yt-unit-model-ai-assisted]]'
-  - '[[master-systems-thinking]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
   - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: enriched
@@ -41,31 +41,31 @@ yitang:
   course_type: tool
   level: advanced
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 是否识别出规模扩大时的关键变量和拐点
+- src_unknown
   framework_lens: 动态思维 / 规模变量
   follow_up_question: 是否假设成本收入会线性变化？是否画出了关键变量随规模变化的曲线？
   severity: high
-- signal: 是否做对抗性动态模型（含对手行动）
+- src_unknown
   framework_lens: 博弈 / 竞争变量
   follow_up_question: 只算自己的动态模型是否忽略竞争反应？是否模拟了对手关键动作对单元模型的影响？
   severity: high
-- signal: 拐点是否被当作预警而非"死刑判决"
+- src_unknown
   framework_lens: 拐点响应 / 模式重构
   follow_up_question: 看到拐点后是否直接停止增长而非重构模式？是否先评估可通过模式重构突破？
   severity: medium
-- signal: 是否定期更新动态模型以反映新数据
+- src_unknown
   framework_lens: 迭代 / 时效性
   follow_up_question: 动态模型是否建完后就束之高阁？是否设定了月度/季度刷新触发条件？
   severity: medium
-- signal: 是否区分利润拐点与现金流拐点
+- src_unknown
   framework_lens: 财务结构 / 现金周期
   follow_up_question: 利润模型可行时，是否同步检查了账期、库存和应付应收变化？
   severity: high
-- signal: 是否将三维变量转化为可监控指标
+- src_unknown
   framework_lens: 指标化 / 预警机制
   follow_up_question: 规模变量、业务变量、环境变量是否都有对应的 KPI 和阈值？
   severity: medium
@@ -105,9 +105,9 @@ reviewed_by: 欧阳锋
 4. **竞争对手开始降价/补贴，你需要判断"跟不跟"**
 
 **如果以下情况，不用本工具：**
-- 单点模型尚未验证（先用[[yt-unit-model-construction]]）
-- 业务规模<100万/月，变化维度太少，动态分析意义不大
-- 你处于探索期，方向尚未确定（先用Y模型验证假设）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心观点1：三维变量分析框架
 
@@ -168,9 +168,9 @@ Taleb 认为你不能预测，但可以准备。单元模型动态优化偏向�
 
 Sterman在《Business Dynamics》中提出的系统动力学理论，对"动态单元模型"提出了根本性挑战：
 
-- **"拐点"可能是反馈延迟制造的幻象**：当你看到"单位成本上升"时，你以为是"规模不经济"的拐点到了。但Sterman会指出，这可能只是"之前的过度扩张"的延迟反馈。你3个月前激进招聘的管理层现在开始产生摩擦成本，而你现在看到的"拐点"实际上是3个月前决策的结果。动态模型如果不考虑"反馈延迟"，会把"过去的因"当成"现在的拐点"。
-- **三维变量的交互被过度简化**：系统动力学强调"变量之间的反馈回路"而非"线性影响"。动态单元模型将变量分为"规模/业务/环境"三类是静态分类，但真实系统中这些变量是相互嵌套的反馈回路。例如"规模扩大→竞争加剧→价格战→利润下降→被迫继续扩大规模求生存"就是一个恶性循环回路，而非简单的"环境变量影响单元模型"。
-- **"规模经济对抗策略"可能触发适应性反弹**：Sterman警告，任何"对策"都会改变系统的结构，引发其他参与者的适应性反应。你建区域仓降物流成本，对手也会建；你做中台提效率，对手挖你的中台人才。动态模型如果只算"我的策略"不算"对手的反应"，会高估策略效果。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务存在显著的"反馈延迟"（如教育行业的口碑效应延迟6-12个月、B2B业务的销售周期延迟3-6个月）时，基于"当前数据"的动态预判会系统性失真。此时应该用"系统动力学模拟"替代"三维变量分析"。
 
@@ -180,18 +180,18 @@ Sterman在《Business Dynamics》中提出的系统动力学理论，对"动态�
 
 Flyvbjerg在《Megaprojects and Risk》中对大型项目的研究，对"规模化"过程中的"拐点预判"提出了尖锐批评：
 
-- **"规模化路径"本质上是一个大型项目**：从1家店到100家店、从1个城市到10个城市，这不是"单元模型的简单复制"，而是一个复杂的大型项目。Flyvbjerg的研究表明，大型项目的成本超支平均为实际成本的+45%，时间超支平均为+20%。动态单元模型如果假设"单点盈利×规模=总盈利"，会系统性高估规模化收益。
-- **"拐点预判"被乐观偏差系统性扭曲**：Flyvbjerg发现，规划者（包括企业家）在预测未来时存在"承诺升级"（escalation of commitment）——一旦投入资源，就会倾向于低估风险、高估收益。动态单元模型中的"乐观情景"往往不是"客观乐观"，而是"心理需要乐观"。
-- **"规模经济对抗策略"忽视了"战略误导"（strategic misrepresentation）**：Flyvbjerg指出，很多大型项目的"收益预测"是被故意高估的，目的是为了获得审批/融资。企业家在向投资人展示"规模化后的单元模型"时，可能存在类似的"战略性乐观"——这不是认知偏差，而是激励结构导致的"理性欺骗"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当规模化涉及重大资本投入（如建厂、建物流网络、大规模团队扩张）时，动态单元模型的"理性分析"会被组织政治和激励扭曲。此时应该引入"独立悲观评估"（independent pessimistic review）作为制衡。
 
 ### 内部局限
 
-- **"三维变量"框架可能遗漏了"组织变量"**：团队文化、创始人注意力分配、核心人才流失等"软性变量"对规模化的影响可能不亚于"规模/业务/环境"变量，但难以量化。
-- **拐点识别高度依赖行业经验**：缺乏行业经验的操盘手很难"预判"拐点。工具对L4以下段位的人可能"有框架但填不出内容"。
-- **规模经济对抗策略的实施窗口很短**：当你识别到需要"建中台"时，往往已经晚了。工具提供了"分析框架"，但"时机判断"仍然依赖直觉。
-- **忽视了"规模化过程中的创新"**：动态模型假设单元模型在规模化中是"被冲击"的，但实际上很多企业在规模化过程中发现了新的单元模型（如滴滴从出租车到快车到顺风车）。工具没有涵盖"规模化中的模型进化"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -208,10 +208,10 @@ Flyvbjerg在《Megaprojects and Risk》中对大型项目的研究，对"规模�
 
 ## 相关卡/互链
 
-- [[yt-unit-model-construction]]：动态模型必须建立在已验证的单点模型之上。
-- [[yt-unit-model-benchmark]]：没有基准值，就无法判断规模化后的"变化"是否异常。
-- [[yt-unit-model-ladder]]：动态预判是L6段位的核心能力，本工具是其具体落地。
-- [[yt-unit-model-ai-assisted]]：AI 可辅助扫描三维变量交互与非线性拐点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -244,16 +244,16 @@ Flyvbjerg在《Megaprojects and Risk》中对大型项目的研究，对"规模�
 
 ## 行动 Checklist
 
-- [ ] 已确认单点单元模型通过验证，具备规模化前提。
-- [ ] 已列出规模变量、业务变量、环境变量三类清单，并标注每一类对收入/成本的影响方向。
-- [ ] 已对关键变量做"×10 / ×100"敏感性扫描，识别非线性变化。
-- [ ] 已识别至少一个潜在拐点（边际成本/边际收益/现金流/组织），并设定监控指标和阈值。
-- [ ] 已做对抗性动态模型：模拟对手降价、补贴、扩产能等关键动作下，本单元模型的变化。
-- [ ] 已根据当前阶段和阈值，制定采购/物流/获客/管理/资金至少一个维度的规模经济对抗方案。
-- [ ] 已区分利润模型与现金流模型，避免"利润可行、现金断裂"。
-- [ ] 已设定动态模型刷新机制（月度/季度触发条件 + 责任人）。
-- [ ] 已将三维变量转化为可监控的 KPI 和预警阈值。
-- [ ] 已输出"规模化风险热力图"或"阶段化增长路径图"作为团队共识文件。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

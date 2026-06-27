@@ -3,8 +3,8 @@ id: tool-Truman-人在环渐进自动化策略
 title: 技能：人在环渐进自动化策略
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-开源模型与商业模型融合方案]]'
-- '[[tool-Truman-Feature特性层训练法]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：人在环渐进自动化策略
 
@@ -37,28 +37,28 @@ related:
 
 ## 适用场景
 
-- 不确定AI自动化程度
-- AI输出质量不稳定
-- 业务要求与AI能力不匹配
-- 选择工具和实施层级时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 任务完全标准化可用纯代码解决
-- 完全不可预测需全人工处理
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 双三角模型
-- 工作流工具
-- 智能体平台
-- RPA
-- Web Coding
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,12 +66,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

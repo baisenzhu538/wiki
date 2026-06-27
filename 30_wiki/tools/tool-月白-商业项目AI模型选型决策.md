@@ -4,32 +4,32 @@ title: 技能：商业项目AI模型选型决策
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：商业项目AI模型选型决策
 
@@ -47,26 +47,26 @@ related:
 
 ## 适用场景
 
-- 商业项目需要控制成本
-- 存在批量生成需求
-- 效果差距在可接受范围内
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 探索性项目需要寻找最新体感
-- 成本不敏感的前沿实验
-- 效果差距决定项目成败
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 各AI模型API
-- 成本计算器
-- 效果评估表
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -4,29 +4,29 @@
 
 id: yt-personal-pan-product-practice
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 泛产品设计
-- 泛产品设计实操篇
-- 泛产品设计实操篇：需求分析与用户洞察
-- 需求分析与用户洞察
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown实操篇
+- src_unknown实操篇：需求分析与用户洞察
+- src_unknown
 related:
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
-  - '[[yt-demand-jtbd-application]]'
-  - '[[tool-prompt-iceberg-demand-analysis]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6241b565-个人修身-泛产品设计实操
@@ -40,16 +40,16 @@ yitang:
   course_type: required
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 面对需求时能用'拆/推/评/算'四字诀系统分析
+- src_unknown
   framework_lens: 需求分析有固定操作链
   follow_up_question: 这个需求的用户任务、场景、真实障碍分别是什么？
-- signal: 在动手设计前会用需求工具箱验证'做对的事'
+- src_unknown
   framework_lens: 需求先于方案
   follow_up_question: 如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？
-- signal: 需求分析结论会直接影响方案范围和设计优先级
+- src_unknown
   framework_lens: 分析必须产生决策输入
   follow_up_question: 基于需求分析，你砍掉了哪些原计划的功能？
 updated_at: '2026-06-16'
@@ -72,20 +72,20 @@ trust_level: medium
 ### 失败模式
 
 1. **听了用户说什么就设计什么**
-   - **原因**：把需求当指令
-   - **修复**：用 JTBD 追问：‘用户真正想完成的任务是什么？’
+   - src_unknown
+   - src_unknown
 
 2. **需求分析做得很长，但对方案没有影响**
-   - **原因**：分析与设计脱节
-   - **修复**：每个分析结论必须对应一个设计决策或范围调整
+   - src_unknown
+   - src_unknown
 
 3. **过度分析，迟迟不进入方案**
-   - **原因**：分析瘫痪
-   - **修复**：设定需求分析的截止时间，到点必须产出最小方案
+   - src_unknown
+   - src_unknown
 
 4. **只关注用户视角，忽略商业可行性**
-   - **原因**：视角单一
-   - **修复**：需求分析同时考虑用户价值、商业价值和可实现性
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -104,16 +104,16 @@ trust_level: medium
 
 ### 需求分析 vs 五步法的关系
 
-- 五步法是创业全流程方法论（假设→需求→方案→模式→增长→壁垒）
-- 需求分析是五步法在"需求原点"环节的深度展开
-- 比五步法更具体：只聚焦一个问题——"用户真正需要什么？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### JTBD（Jobs To Be Done）视角
 
 需求分析的核心框架是 JTBD 模型：
-- 用户"雇佣"一个产品来完成某个"任务"
-- 需求 = 用户在特定场景下要完成的"任务"
-- 不是问"你想要什么功能"，而是理解"你要完成什么事"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需求的层次
 
@@ -173,18 +173,18 @@ JTBD 方法论在全球产品管理领域的接受度极高，但其成功案例
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱（yitang 域）
-- [[yt-personal-pan-product-aesthetics]] — 审美篇（yitang 域）
-- [[yt-entrepreneur-five-step-method]] — 创业五步法（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：JTBD+四字诀是需求分析武器组中最锋利的组合——但 Christensen 和 Mintzberg 分别揭示了它们的阿喀琉斯之踵。Christensen：你算对了雇佣动力但没算辞退阻力。Mintzberg：你以为是武器在帮你射击——可能只是武器在帮你瞄准一个你本来就想打的方向
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Mintzberg 的"涌现战略"在讲香中是家常便饭——最好的产品方向往往不是分析出来的，是在和用户的一次对话中对方说的一句话让你突然"看到了"。那一句话就是最原始的"香"。分析框架是后来的事——它帮你把那个瞬间的"香"翻译成团队能执行的语言
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

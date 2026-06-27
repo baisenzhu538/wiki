@@ -3,35 +3,35 @@
 
 id: yt-tool-peas-agent-analysis
 component_of:
-- yt-model-cognitive-upgrade-framework
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - yitang- master
+  - src_unknown
 language: zh-CN
 prerequisites:
-- yt-model-agent-architecture
+- src_unknown
 query_triggers:
-- PEAS分析
-- 智能体自我诊断
-- 用AI思维分析问题
-- 如何定义成功指标
-- 决策系统设计
-- 五层agent诊断
-- 效用函数怎么写
-- 任务环境分析
-- 架构错配诊断
-- 理性决策框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-yitang-job-intelligence-research]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[yt-concept-peas-insight]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[yt-concept-ai-guard-brain]]'
-  - '[[yt-personal-ai-capability]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -43,18 +43,18 @@ trust_level: medium
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: P(性能度量)是否至少 3 条且可第三方验证
+- src_unknown
   framework_lens: 目标清晰度 / 可测量
   follow_up_question: P 格是否写满'做好''提升'等模糊词？
-- signal: 当前 agent 架构是否与环境复杂度匹配
+- src_unknown
   framework_lens: 架构匹配 / 复杂度
   follow_up_question: 是否在复杂动态战中使用 reflex agent？
-- signal: 效用函数是否暴露不可通约的价值冲突
+- src_unknown
   framework_lens: 价值多元 / 伦理边界
   follow_up_question: 是否把'家庭时间'与'职业成就'强行加权？
-- signal: 是否识别出 reflex 级 SOP 与 learning agent 的切换条件
+- src_unknown
   framework_lens: 危机响应 / 不确定性
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
 updated_at: '2026-06-16'
@@ -110,10 +110,10 @@ Level 5 — Learning Agent       "持续更新自己的某个部件"     能指�
 
 ### 理性决策 = 在已知信息下最大化预期效用
 
-- 不要求**结果**最优，只要求**决策**最优——区分决策质量和结果质量
-- 信息有限是默认设置——你不是先知
-- 效用要先定义清楚——这就是 P
-- 抱怨环境（E）是徒劳——E 是给定的，你能动的只有 S（拿更好的信息）和 A（练更精的动作）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 场景速查表
 
@@ -165,10 +165,10 @@ PEAS 默认性能度量可以被明确写出。但人生最难的问题恰恰是
 
 ### 关联卡片
 
-- [[yt-model-agent-architecture]] — PEAS + Agent 架构的完整理论框架（本卡是其工具化落实）
-- [[yt-model-cognitive-upgrade-framework]] — 认知升级十步框架：上游方法——PEAS 可以作为 IDENTITY 阶段的"旧 Bug"诊断工具
-- [[yt-concept-ai-guard-brain]] — AI 守卫大脑：将 Agent 概念应用于信息质量过滤
-- [[yt-personal-ai-capability]] — AI 能力修炼：人机协同的实操框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 

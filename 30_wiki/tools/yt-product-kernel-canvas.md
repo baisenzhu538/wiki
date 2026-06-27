@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
@@ -19,26 +19,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-six-levels
-  - yt-product-kernel-validation
-  - yt-product-kernel-ten-metrics
-  - yt-five-step-method
-  - yt-tool-product-core-canvas
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说不清产品内核，团队内部理解不一致"
+  - src_unknown
     framework_lens: 产品内核画布——结构化工具帮助对齐认知
     follow_up_question: "你们团队一起填过产品内核画布吗？每个格子的答案一致吗？"
-  - signal: "产品功能很多，但每个功能都说不清楚解决什么问题"
+  - src_unknown
     framework_lens: 产品内核画布——功能必须对应画布中的某个格子
     follow_up_question: "这个功能对应画布中的哪个格子？如果对应不了，可能不是内核功能。"
-  - signal: "用户说'我们的产品解决XX问题'，但用户不这么认为"
+  - src_unknown
     framework_lens: 产品内核画布——用户视角和团队视角可能不一致
     follow_up_question: "画布中'用户认为的问题'和'团队认为的问题'一致吗？"
-  - signal: "产品迭代方向不明确，团队争论不休"
+  - src_unknown
     framework_lens: 产品内核画布——迭代方向应基于画布中的验证结果
     follow_up_question: "你们上次迭代是基于画布的哪个格子发现的问题？"
-  - signal: "用户无法向客户清晰描述产品价值"
+  - src_unknown
     framework_lens: 产品内核画布——画布输出就是价值描述
     follow_up_question: "你能用画布中的'一句话价值描述'向客户介绍产品吗？"
 
@@ -88,9 +88,9 @@ diagnostic_signals:
 
 ### 1. 画布填写的原则
 
-- **用户视角**：每个格子必须从用户视角填写，不是团队视角
-- **具体可验证**：每个答案必须具体，能用数据验证
-- **团队共识**：画布必须团队一起填，确保共识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 用户定义的关键
 
@@ -104,15 +104,15 @@ diagnostic_signals:
 
 ### 3. 解决方案的最小化
 
-- **一句话描述**：能用一句话说清楚
-- **20%功能**：找到决定用户选择的关键功能
-- **10倍优势**：比替代方案好10倍（成本、效果、体验）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 验证指标的设定
 
-- **关键转化率**：从"了解产品"到"选择产品"的转化率
-- **基准数据**：当前转化率是多少？
-- **目标数据**：改进后的目标转化率是多少？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -136,22 +136,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义新产品时 → 先填画布，再设计功能
-- 当团队对齐时 → 一起填画布，对比差异
-- 当迭代产品时 → 回顾画布，基于验证指标决策
-- 当向客户介绍时 → 用画布的一句话价值描述
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-six-levels`：产品内核六个段位
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-five-step-method`：五步法总纲
-- `yt-tool-product-core-canvas`：产品内核画布（原有工具卡）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核画布实操（Truman，2026-05-10）
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂五步法产品内核画布
+- src_unknown
+- src_unknown
+- src_unknown

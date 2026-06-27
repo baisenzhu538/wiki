@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-revenue-types
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户定价远低于成本，无法盈利"
+  - src_unknown
     framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
     follow_up_question: "你的定价是否覆盖了成本？用户是否觉得这个价格值？"
-  - signal: "用户说'我们的定价很有竞争力'，但利润微薄"
+  - src_unknown
     framework_lens: 定价心理学——低价竞争不可持续
     follow_up_question: "你的定价是基于成本+利润，还是基于竞品？如果竞品降价，你怎么办？"
-  - signal: "用户定价高，但用户觉得不值"
+  - src_unknown
     framework_lens: 定价心理学——定价需要价值支撑
     follow_up_question: "用户是否感知到你的价值？定价是否和价值匹配？"
-  - signal: "用户有多个版本，但用户不知道选哪个"
+  - src_unknown
     framework_lens: 定价心理学——版本设计需要锚定效应
     follow_up_question: "你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？"
-  - signal: "用户说'我们定价是拍脑袋定的'"
+  - src_unknown
     framework_lens: 定价心理学——定价需要数据支撑
     follow_up_question: "你做过定价测试吗？用户愿意为不同价格付费的比例是多少？"
 
@@ -78,9 +78,9 @@ diagnostic_signals:
 | **企业版** | 定制价格 | 高客单价，个性化 |
 
 版本设计原则：
-- 基础版→标准版：功能差异明显，引导升级
-- 标准版→高级版：价格差异大，突出标准版性价比
-- 高级版：价格锚定，不一定期望大量销售
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 定价测试方法
 
@@ -122,21 +122,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定价时 → 考虑用户感知价值，不是成本+利润
-- 当设计版本时 → 利用锚定效应和对比效应
-- 当用户觉得贵时 → 提升价值感知或调整定价框架
-- 当市场变化时 → 重新评估定价
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-revenue-types`：收入模式
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 定价心理学研究（Kahneman & Tversky）
-- SaaS定价研究
+- src_unknown
+- src_unknown
+- src_unknown

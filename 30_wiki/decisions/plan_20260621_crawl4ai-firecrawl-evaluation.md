@@ -4,8 +4,8 @@ title: Crawl4AI vs Firecrawl 选型评估——KDO 检索架构 Phase 2 爬虫�
 type: decision
 status: proposed
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 source_refs:
   - src_unknown
   - src_unknown
@@ -17,9 +17,9 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 related:
-  - "[[system-yitang-research-workflow]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[tool-yitang-web-scraping-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Crawl4AI vs Firecrawl 选型评估
@@ -49,9 +49,9 @@ related:
 
 ## 风险
 
-- Crawl4AI 仅 Python SDK（Firecrawl 多语言）——但 KDO 技术栈就是 Python
-- 反爬需自建代理池——Phase 2 初期不需要，后续可加
-- 保护站点成功率普遍低（Firecrawl 也才 33%），不构成选择差异
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议
 

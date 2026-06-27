@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 
 
@@ -11,14 +11,14 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "增长周期"
-  - "增长模型"
-  - "获客增长"
-  - "系统增长"
-  - "对抗增长"
-  - "一堂增长"
-  - "科学销售"
-  - "增长飞轮"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -36,18 +36,18 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户在获客增长期就做系统增长的事', 'framework_lens': '周期错配', 'follow_up_question': '你现在最重要的是找到可复制渠道，还是优化转化模型？'}
   - {'signal': '用户不知道当前处于哪个增长周期', 'framework_lens': '没有周期判断', 'follow_up_question': '你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-five-step-implementation]]'
-  - '[[case-toy-cabinet-barrier]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[yt-product-ten-metrics]]'
-  - '[[yt-scale-economy-weapon-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 增长周期模型
 
@@ -70,9 +70,9 @@ related:
 ### 顶部三窗口
 
 增长必须紧盯市场的三个窗口：
-- **流量窗口**：红利期、新渠道、低价流量
-- **竞争窗口**：竞争对手的动态、市场空白点
-- **资本窗口**：融资环境、资本偏好变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心原则
 

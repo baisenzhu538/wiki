@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-fake-demand-detection
-  - yt-demand-peak-end-rule
-  - yt-demand-user-segmentation
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我需要这个'，但转化率很低"
+  - src_unknown
     framework_lens: 动机阻力分析——有动机但有阻力
     follow_up_question: "用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？"
-  - signal: "用户试用后不用了，留存率很低"
+  - src_unknown
     framework_lens: 动机阻力分析——使用阻力大于使用动机
     follow_up_question: "用户试用后，是什么让他们不再回来？是体验不好，还是需求不够痛？"
-  - signal: "用户推荐意愿高，但实际推荐行为少"
+  - src_unknown
     framework_lens: 动机阻力分析——推荐动机有，但推荐阻力大
     follow_up_question: "用户为什么愿意推荐？推荐的具体场景是什么？什么阻碍了他们实际推荐？"
-  - signal: "产品功能很好，但用户使用频率低于预期"
+  - src_unknown
     framework_lens: 动机阻力分析——需求频率被高估
     follow_up_question: "用户预期多久用一次？实际多久用一次？差异原因是什么？"
-  - signal: "用户说'等我有空再用'，但一直没用"
+  - src_unknown
     framework_lens: 动机阻力分析——动机不够强，被其他事情优先
     follow_up_question: "用户现在的优先级排序是什么？你的产品排在第几位？"
 
@@ -117,21 +117,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当转化率低时 → 分析动机和阻力，找出最大阻力点
-- 当用户说"需要但不用"时 → 问"什么阻碍了你？"
-- 当留存率低时 → 分析使用频率和阻力变化
-- 当设计产品时 → 每个功能问自己"降低了什么阻力？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-demand-peak-end-rule`：峰终定律在需求分析中的应用
-- `yt-demand-user-segmentation`：用户分层与需求差异
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂泛产品设计需求工具箱指南
-- 一堂泛产品设计用户卡片需求挖掘
-- 行为经济学：动机-阻力模型
+- src_unknown
+- src_unknown
+- src_unknown

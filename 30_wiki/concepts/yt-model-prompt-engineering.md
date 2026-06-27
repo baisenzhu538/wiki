@@ -8,41 +8,41 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - modeling- yitang
-  - ai
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[yt-prompt-brainstorming]]'
-  - '[[yt-prompt-anti-flattery]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-concept-ai-guard-brain]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 提示词工程
-- 人机协作
-- AI合伙人
-- 七层工作流
-- 范式转换
-- AI管理
-- 迭代提示词
-- 反谄媚
-- 上下文工程
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-05-13
 reviewed_by: 黄药师
 estimated_tokens: 2500
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户只会写简单prompt，不建工作流
+- src_unknown
   framework_lens: 停留在技巧层
   follow_up_question: 你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层
-- signal: 用户让AI做所有决策，自己不思考
+- src_unknown
   framework_lens: 人类判断力缺失
   follow_up_question: 你最近一次对AI输出说了"这个不对，因为..."是什么时候？
 updated_at: '2026-06-16'
@@ -78,8 +78,8 @@ trust_level: medium-high
 
 ### 核心范式转换
 
-- claim:01 [conf=0.90] 提示词模板已经过时。两年前大模型不够聪明时需要严谨的咒语式提示词保证输出质量。今天 AI 上下文窗口达 75 万字符，足够聪明——每家公司面对的问题独一无二，只有自己创造的提示词才能得到定制答案
-- claim:02 [conf=0.90] 提示词的本质不是"提问技巧"，而是"管理 AI"。AI prompting 不是写提示词，是把 AI 纳入自己的工作系统——给它充分背景、独特约束、迭代反馈，让它成为你的 AI 合伙人
+- src_unknown
+- src_unknown
 
 | 旧范式 | 新范式 |
 |--------|--------|
@@ -91,14 +91,14 @@ trust_level: medium-high
 
 ### AI 的四大缺陷（管理对象画像）
 
-- claim:03 [conf=0.85] **谄媚倾向**：大模型天生迎合使用者——预训练中"对人类友好"指令的产物。AI 会捕捉提问中的倾向性（包括你自己都没意识到的），然后顺着你说
-- claim:04 [conf=0.85] **缺少业务现场感**：AI 有通用知识但缺企业上下文。不喂养充分背景只能得到通用行货。独特答案来自独特约束
-- claim:05 [conf=0.85] **优先高频信息源而非权威信息源**：联网时 AI 天然倾向社交媒体（频率最高），而非维基百科或学术期刊
-- claim:06 [conf=0.85] **幻觉不可消除**：AI 联网时只看网页摘要而非全文（算力撑不住），摘要与实际内容的偏差导致幻觉
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 七层创业者 AI 工作流（核心框架）
 
-- claim:07 [conf=0.90] 完整工作流将 AI 从一次性问答升级为决策系统：
+- src_unknown
 
 | 层级 | 动作 | 一句话要点 |
 |:---:|------|---------|
@@ -112,12 +112,12 @@ trust_level: medium-high
 
 ### 迭代是第一性原理
 
-- claim:08 [conf=0.90] 好的提示词不是一次性想出来的，是在交互中一轮轮迭代出来的。每次反馈、每次追问、每次修正都等于用新的上下文喂养 AI。真正的上下文只属于你一个人——它在与 AI 的来来回回中自然生成
-- claim:09 [conf=0.85] 第一轮不要锁定一个答案。生成多个选项（至少 5 个），允许各方向成长。先发散再收敛
+- src_unknown
+- src_unknown
 
 ### 模型能力与提示词能力是乘法关系
 
-- claim:10 [conf=0.90] 复杂问题必须用最强模型。苦练提示词但用小模型 = 苦练驾驶技术但开拖拉机跑 F1。对关键问题用更强模型，本质上是在降低决策试错成本
+- src_unknown
 
 ## Critique
 
@@ -132,18 +132,18 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 子组件
-- [[yt-prompt-iterative-prompting]] — 迭代式提示词工作流（5步法）
-- [[yt-prompt-anti-flattery]] — 反谄媚机制（去正向形容词 + 角色扮演 + 证伪设计）
-- [[yt-prompt-brainstorming]] — AI 头脑风暴工作流（杀手应用）
-- [[yt-prompt-writing-workflow]] — AI 写作工作流（大纲→要点→全文）
-- [[yt-concept-ai-guard-brain]] — 守脑如玉：AI 时代保持大脑锋利
-- [[yt-concept-context-engineering]] — 上下文工程：充分≠越多越好
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关联概念
-- [[yt-prompt-engineering-andrew-ng]] — 课程笔记卡（20条原始 claims + 完整案例）
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香：提示词与讲香共享迭代+约束方法论
-- [[yt-model-ipo-learning-strategy]] — IPO 学习模型：四遍学习法是强化版输入→处理→输出闭环
-- [[yt-personal-scientific-expression]] — 科学表达：三级火箭"情感共鸣"的边界与反谄媚同构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -10,9 +10,9 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证实操课程
 source_refs:
@@ -24,17 +24,17 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-six-wastes]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
@@ -115,8 +115,8 @@ C/D 方案更精益的原因：
 4. **B2B 服务**：先预售/海报/访谈验证付费意愿，再投入研发交付系统。
 
 不适用场景：
-- **强监管行业**（医疗、金融、教培）：假页面/假产品可能触犯广告法或行业监管，不能照搬 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：过度粗糙的 MVP 会损伤信任，需折中 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -127,9 +127,9 @@ C/D 方案更精益的原因：
 
 ## 相关卡/互链
 
-- 方法论框架：[[framework-lean-false-model]]
-- 关键假设拆解：[[yt-entrepreneur-key-hypotheses]]
-- 低成本验证概念：[[yt-entrepreneur-lean-validation]]
-- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
-- 产品内核验证：[[concept-一堂-kernel-validation]]
-- 六宗罪/浪费：[[framework-lean-six-wastes]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

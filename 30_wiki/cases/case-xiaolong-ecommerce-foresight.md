@@ -6,7 +6,7 @@ id: case-xiaolong-ecommerce-foresight
 title: 小龙电商：四层剥离——从服装到正装裤
 type: case
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -18,33 +18,33 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 source_person: 小龙（卖外/跨境创业者，一堂电商破局课讲师）
 source_context: Truman在商业预判课中讲解的第二个预判案例
 query_triggers:
-- 小龙电商
-- 电商预判
-- 男裤创业
-- 四层剥离
-- 供应链搞定
-- 切口越小越准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[case-gudong-tea-shop-foresight]]'
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-outcome
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[tool-按分阶练习路径渐进掌握方法]]'
-  - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
-  - '[[case-gudong-tea-shop-foresight]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-foresight-addition-subtraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景
@@ -70,9 +70,9 @@ related:
 **加法**：女装、男装、童装、运动装……
 
 **减法**：
-- 女装 → 赛道品牌太多，几十万资金砸进去水花都溅不出来，砍掉
-- 童装 → 找不到足够好的供应链，做低品质没意思，砍掉
-- **锁定男装**
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "到男装这个颗粒度可以下场了吗？还是不够。"
 
@@ -81,8 +81,8 @@ related:
 **加法**：男装全品类、男上装、男裤、男装配饰……
 
 **减法**：
-- 男装全品类 → 几十万根本撑不住，一铺开就没，砍掉
-- **最终锁定：男裤（腰部以下）**
+- src_unknown
+- src_unknown
 
 > "把同样的钱砸到女装赛道，水花都溅不出来。砸到男装可能有点优势。砸到男裤里面的正装裤，你的资源就相对可控和充裕了。"
 
@@ -109,17 +109,17 @@ related:
 
 ## 可迁移场景
 
-- **资源极度有限的创业开局**：不要怕切口小，只怕切口不够小。在最窄的方向上你可能比大公司还有资源优势。
-- **供应链/关键合作伙伴搞不定时**：别硬做、别"先走看看"。这是硬伤，必须先解决再下场。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- [[case-gudong-tea-shop-foresight]] — 古董五层筛选 vs 小龙四层剥离，同一套菱形逻辑应用在不同产业
-- [[yt-foresight-addition-subtraction]] — 最经典的"加→减→加→减→加→减→攻城"示范
-- [[yt-foresight-15-char-mantra]] — 十五字法诀完整演绎
-- [[yt-entrepreneur-barriers]] — 供应链搞定后形成的壁垒
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
-- **在"到男装"这个颗粒度就下场**：大多数人在选定大品类后就觉得"想清楚了"。实际上男装全品类和男裤正装裤，资源消耗差距是10倍以上，成功率差距也是10倍以上。
-- **供应链搞不定时说"先做做看"**：这是最常见的预判妥协。小龙如果走了这条路，后面所有努力都建立在供应商随时不配合的沙子上。
+- src_unknown
+- src_unknown

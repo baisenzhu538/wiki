@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-06-10
 difficulty: beginner
 language: zh-CN
 query_triggers:
-  - "预判模型"
-  - "N要素"
-  - "雷达图"
-  - Checklist
-  - "模型分类"
-  - "创业工具"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -40,11 +40,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[ocr-预判模型]]'
-  - '[[yt-model-prediction-model]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-personal-checklist-notes]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 预判模型分类
 
@@ -66,24 +66,24 @@ related:
 
 #### L1: N要素（最糙版）
 
-- **一般范式**：2-3个基本要素
-- **常见角度**：成功要素 / 必备要素 / 原则
-- **典型案例**：爆款文案三要素、海报三要素、共学活动三原则
+- src_unknown
+- src_unknown
+- src_unknown
 
 **使用要点**：追求"少即是多"——用最少的变量抓住核心矛盾。风险在于过度简化导致遗漏关键维度。
 
 #### L2: 雷达图（常用版）
 
-- **基础版本**：5-7个清晰完备的维度
-- **加分项1**：每个维度配套案例解读
-- **加分项2**：每个维度进行打分评估
+- src_unknown
+- src_unknown
+- src_unknown
 
 **使用要点**：维度选择比打分更重要。5-7个维度应满足MECE（ mutually exclusive, collectively exhaustive）原则。常见错误：维度之间高度相关（如"团队能力"和"执行力"），导致评估失真。
 
 #### L3: Checklist（复杂版）
 
-- **检查清单**：数十条级别的核查条目
-- **加分项**：配套范式库 / 模版库 / 案例库
+- src_unknown
+- src_unknown
 
 **使用要点**：Checklist的价值不在于"检查"，而在于"防止遗漏"。最佳实践是每条Checklist条目都附带"如果此项不通过，会发生什么"的反面案例。
 
@@ -96,9 +96,9 @@ Gawande的研究表明，Checklist的有效性不取决于条目的多少，而�
 ### 建议
 
 预判模型的选择应遵循**"够用即可"原则**：
-- 信息极度匮乏 → L1 N要素（快速定位）
-- 信息中等、需要团队共识 → L2 雷达图（结构化讨论）
-- 信息充分、需要规避风险 → L3 Checklist（系统化排查）
+- src_unknown
+- src_unknown
+- src_unknown
 
 切忌在信息匮乏时用L3（过度工程化），或在信息充分时仍用L1（遗漏关键风险）。
 
@@ -114,20 +114,20 @@ Gawande的研究表明，Checklist的有效性不取决于条目的多少，而�
 ### 失败模式
 
 1. **快速筛选也用 Checklist，导致小决策被过度分析**
-   - **原因**：模型复杂度与决策重要性不匹配
-   - **修复**：给决策 stakes 分级：日常筛选用 N要素，重要决策用雷达图，尽调/复制前用 Checklist
+   - src_unknown
+   - src_unknown
 
 2. **用 N要素 做深度尽调，遗漏关键风险**
-   - **原因**：过度简化导致盲区
-   - **修复**：当涉及资金/资源投入≥阈值时，强制升级到雷达图或 Checklist
+   - src_unknown
+   - src_unknown
 
 3. **雷达图维度很多，但打分全凭感觉**
-   - **原因**：维度缺少锚定案例和评分标准
-   - **修复**：每个维度配0/5/10分的具体样例，并让至少两人独立打分后校准
+   - src_unknown
+   - src_unknown
 
 4. **把模型复杂度当成专业度，越复杂越好**
-   - **原因**：形式替代了实质
-   - **修复**：做完评估后反问：‘如果删掉两个维度，结论会变吗？’不会变的维度应删除
+   - src_unknown
+   - src_unknown
 
 ## Synthesis
 

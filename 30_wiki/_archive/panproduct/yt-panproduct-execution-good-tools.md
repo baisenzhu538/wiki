@@ -4,35 +4,35 @@
 
 id: yt-panproduct-execution-good-tools
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1129
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 善用佳软
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：善用佳软
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：善用佳软
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[tool-泛产品落地-努力仿真]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软
@@ -46,16 +46,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 选择工具时先明确要完成的任务和输出标准，而不是先看工具功能
+- src_unknown
   framework_lens: 工具服务于任务
   follow_up_question: 这个任务用现有工具能不能完成到80分？
-- signal: 团队使用工具后，协作效率或输出质量有可观察的提升
+- src_unknown
   framework_lens: 工具价值需要验证
   follow_up_question: 引入新工具后，哪个环节的速度或质量改善了？
-- signal: 会定期清理不再使用的工具，避免工具堆叠
+- src_unknown
   framework_lens: 工具栈需要保鲜
   follow_up_question: 最近半年有没有停用某个工具？为什么？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ status: superseded
 ### 失败模式
 
 1. **追逐新工具，频繁更换导致流程不稳定**
-   - **原因**：工具癖
-   - **修复**：设定工具引入门槛：新工具必须解决现有工具无法解决的明确问题
+   - src_unknown
+   - src_unknown
 
 2. **用复杂工具做简单任务，投入产出失衡**
-   - **原因**：工具与任务不匹配
-   - **修复**：按任务复杂度分级：简单任务用轻量工具，复杂任务才用专业工具
+   - src_unknown
+   - src_unknown
 
 3. **只考虑个人效率，忽视团队协作和文件兼容**
-   - **原因**：局部优化
-   - **修复**：工具选型必须通过‘团队交接测试’：别人能否无缝接手你的文件？
+   - src_unknown
+   - src_unknown
 
 4. **买了工具没人用，或用法五花八门**
-   - **原因**：缺少培训和规范
-   - **修复**：引入新工具时配套最小使用规范和1次团队培训
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -123,9 +123,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Neil Postman的"技术垄断" + Ivan Illich的"亲和工具"
 

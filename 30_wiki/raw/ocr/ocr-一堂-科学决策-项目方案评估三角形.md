@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-项目方案评估三角形"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_e31b26dd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-项目方案评估三角形"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
-  - '[[ocr-一堂-科学决策-决策三角形]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-项目方案评估三角形
@@ -34,15 +34,15 @@ png` 一堂项目管理-方案评估三角形 Yitang PY0j  ect Management Toolki
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 项目方案评估可采用"评估三角形"框架，核心维度包括投入产出比（ROI）、机会成本和机会窗口。
-- ROI 是项目决策的基础量化指标，用于衡量资源投入与预期收益的关系。
-- 机会成本要求决策者考虑资源投入当前项目所放弃的其他最佳替代方案的价值。
-- 机会窗口强调决策的时间敏感性，即特定行动方案的有效实施期限。
-- 科学决策需同时权衡这三个维度，而非单一优化某个指标。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -54,38 +54,38 @@ Mintzberg 在《策略进程的各个层次》中指出，战略是“形成中�
 
 ## Open Questions
 
-- 该"评估三角形"框架是否经过实证验证，还是仅为一堂内部方法论？
-- 三个维度（ROI、机会成本、机会窗口）之间是否存在权重分配机制或优先级排序规则？
-- 机会窗口的具体量化标准是什么——是绝对时间截止点、相对竞争节奏，还是可延长的弹性区间？
-- 该框架适用于何种项目类型和规模范围（如初创企业vs.大型组织、短期vs.长期项目）？
-- 当三个维度出现冲突时（如高ROI但机会窗口极短，或机会窗口充裕但机会成本过高），决策规则是什么？
-- 原文提到"视觉结构信息未在OCR中体现"，原图中的三角形结构是否暗示了三者间的几何关系（如面积代表综合得分、边长相互制约）？
-- 该框架与经典决策理论（如期望效用理论、实物期权理论）的对应关系或差异点是什么？
-- "一堂PY0j ect Management Toolkit"中的"PY0j"是否为OCR误识，实际应为"Project"，这一识别错误是否影响对工具包版本或完整内容的理解？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-canvas]] — 同域决策画布，评估三角形是其在项目场景下的简化版
-- [[yt-management-project-management]] — 项目管理方法论，三角形框架引入了决策维度弥补了纯执行屏的缺失
-- yt-decision-key-hypotheses — 关键假设验证，与三角形结合可在项目立项前做快速风险检查
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创业公司资源配置：在多个并行项目中快速评估投入优先级
-- 个人年度规划：在有限时间内权衡学习、工作与投资的机会成本
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
-- 不要用于无法量化的战略探索（如新市场进入、技术路线选择），三角形的精确性会给你虚假的安全感
-- 不要在缺乏明确的替代方案时使用机会成本维度，因为机会成本的核心是"放弃了什么"，而不是"我猜放弃了什么"
-- 不要将这个框架当作项目排期的“唯一真理”，它只是一个辅助检查工具，最终决策仍需组织智慧
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- 当你在多个并行项目之间分配有限资源时，用评估三角形做快速排序而非精确计算
-- 当项目讨论陷入“ROI很高但时间不够”或“机会成本太高但窗口很好”的矛盾时，用三角形强制暴露冲突
-- 当你需要向投资人或高层汇报项目价值时，用这个框架结构化地展示不是“感觉很好”而是“三维度权衡后的选择”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

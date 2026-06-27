@@ -8,93 +8,93 @@ confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-- 终局光谱图
-- 商业规模光谱
-- 副业到上市
-- 创业七级
-- 质变点
-- 保A争B
-- 终局预判
-- 创业段位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-一堂-spectrum-positioning]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[framework-demand-opportunity-spectrum]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-tool-foresight-canvas]]'
-  - '[[yt-foresight-model-taxonomy]]'
-  - '[[yt-foresight-ten-fatal-flaws]]'
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[yt-foresight-addition-subtraction]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[yt-ai-startup-20-risky-hypotheses]]'
-  - '[[yt-ai-trend-12-signals]]'
-  - '[[yt-decision-y-model]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[case-coffee-shop-foresight]]'
-  - '[[case-gudong-tea-shop-foresight]]'
-  - '[[yt-entrepreneur-scientific-method]]'
-  - '[[yt-decision-width-method]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[yt-tool-strategy-workshop]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-entrepreneur-industry-forecast]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[case-xiaolong-ecommerce-foresight]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[master-decision-hygiene]]'
-  - '[[yt-decision-ai-partner]]'
-  - '[[yt-decision-canvas]]'
-  - '[[yt-decision-full-process]]'
-  - '[[yt-decision-habit-shift]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[yt-entrepreneur-business-growth]]'
-  - '[[yt-three-dimension-opportunity-matrix]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[dk-foresight-source-material-blindness]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-research-industry-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-16
 reviewed_by:
-- 王语嫣
+- src_unknown
 source_refs:
 - src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 diagnostic_signals:
-- signal: 用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊
+- src_unknown
   framework_lens: 用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题
   follow_up_question: 你做这件事3-5年后，最低能接受做成什么程度（保A）？最理想做到什么程度（争B）？
-- signal: 用户在两个完全不同的商业模式之间纠结（如加盟vs自建、做品牌vs做白牌）
+- src_unknown
   framework_lens: 帮用户看到不同模式对应光谱的不同位置，以及每个位置的预判深度要求（L1-L6）
   follow_up_question: 这两个选项在光谱上分别落在哪个位置？你的能力和资源匹配哪个位置的预判要求？
-- signal: 用户想融资/做头部，但没做过任何行业预判
+- src_unknown
   framework_lens: 光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤
   follow_up_question: 你的目标在光谱的L4-L7哪一级？这个级别要求的预判深度（商业/团队/行业）你做了吗？
-- signal: 团队扩张后效率反而下降，或创始人急于从"单体"跳到"体系增长"
+- src_unknown
   framework_lens: 光谱图揭示"质变点"是跃迁的必要条件——跳过招人/复制/标准化中的任一环节都会翻车
   follow_up_question: 你当前处于光谱哪一级？下一级的质变点（全职→招人→复制→标准化→融资→上市）中，哪一个还没过关就想跳？
 diagnostic_relations:
-- target: case-coffee-shop-foresight
+- src_unknown
   relation: applies_when
   description: 用户想开线下实体店但对规模没有概念时，咖啡店案例展示了如何用光谱定位'保3争5'
-- target: case-escort-service-tiered-growth
+- src_unknown
   relation: applies_when
   description: 用户想做服务业创业时，陪诊案例展示了如何从'保2争4'开始光谱定位
-- target: yt-foresight-ten-fatal-flaws
+- src_unknown
   relation: requires_input
   description: 光谱定位后，需要用十大硬伤清单逐条检查该位置是否有致命硬伤
 title: 终局光谱图
@@ -108,8 +108,8 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 author: 老顽童
 
 ---# 终局光谱图
@@ -125,8 +125,8 @@ author: 老顽童
 ### 核心框架
 
 横向递进式光谱，左侧纵向双维度为纲：
-- **上层「预期」**：7个商业规模阶段
-- **下层「质变点」**：阶段跃迁的关键动作 + 核心挑战
+- src_unknown
+- src_unknown
 
 #### 预期层：7级终局区间
 
@@ -229,9 +229,9 @@ Paul Graham（Y Combinator）的"How to Get Startup Ideas"对所有机会评估�
 
 ## Framework Gallery
 
-- [[yt-entrepreneur-opportunity-selection]]：机会选择（关联工具）
-- [[yt-ai-trend-12-signals]]：AI趋势12大变化模型
-- [[yt-foresight-model-taxonomy]]：预判模型分类
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -7,16 +7,16 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+  - src_unknown
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
-  - "玩具柜壁垒"
-  - "线下零售壁垒"
-  - "低壁垒业务"
-  - "壁垒案例分析"
-  - "一堂玩具柜"
-  - "商业模式壁垒"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
@@ -35,14 +35,14 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[yt-barrier-identification-skill]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[case-zhihu-vs-degetao-network-effect]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
-  - '[[yt-scale-economy-weapon-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：线下玩具柜的壁垒困局与突围路径
 

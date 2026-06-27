@@ -6,17 +6,17 @@ title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_3c3359d8-Truman-高阶建模-本质建模-案例-01
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- '#case'
-- '#domain/yitang'
-- '#method/modeling'
-- '#source/truman'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 author: 老顽童
@@ -27,29 +27,29 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 diagnostic_signals:
-- signal: 团队讨论方法论时，只能说出"我觉得""我见过""某某专家说"
+- src_unknown
   lens: 停留在 L0-L1 自我想象或经验层
   follow_up: 要求举出 3 个不同场景下验证过的对标案例，并追问"专家经验的边界在哪里"
-- signal: 一份课程大纲/方法论看起来都对，但听完不知道该怎么用
+- src_unknown
   lens: 可能停在 L2 常识层，只有行业共识没有底层原理
   follow_up: 让作者用一句话说明"这个方法论解决什么类问题"，并推导出一个具体行动
-- signal: 一个模型能解释过去所有成功案例，但预测不了下一步
+- src_unknown
   lens: 可能是解释性本质（L4 伪本质）而非预测性本质
   follow_up: 用"三步推导测试"验证：能否作为通用解？能否自行推演？是否包含关键要素？
-- signal: 团队争论"我们该不该追求更抽象/更学术化"
+- src_unknown
   lens: 对 L4 本质与 L5 学科经典的适用边界不清
   follow_up: 明确当前决策是商业管理问题还是基础科学研究问题，再决定是否需要回到学科经典
 related:
-  - '[[yt-model-liberate-thinking-layers]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[modeling-three-stages]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[case-modeling-essence-schools]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 本质建模案例：从盲目创新到学科经典的五层思维深度
 
@@ -85,9 +85,9 @@ Truman 在口述中强调：一堂核心方法几乎要交付到 L4-L5，偶尔�
 
 这张图成为一堂建模课程的认知坐标系。学员可以用它快速判断：
 
-- 一门课程/方法论是否值得深度投入；
-- 团队内部经验沉淀是停在个人经验层，还是已进入方法模型层；
-- 个人成长路径中，下一步应该补案例、补原理，还是补学科经典。
+- src_unknown
+- src_unknown
+- src_unknown
 
 同时，它也成为一堂内部内容质量的内控标准：核心方法必须能回答"它在 L0-L5 中处于哪一层"，并且明确交付层级。
 
@@ -133,19 +133,19 @@ Truman 在口述中强调：一堂核心方法几乎要交付到 L4-L5，偶尔�
 
 **快速使用口诀**：
 
-- 听到"我觉得"——降到 L0-L1；
-- 听到"行业都这么做"——停在 L2；
-- 听到"第一步、第二步、第三步"——进入 L3；
-- 听到"这件事的本质是……"——挑战它能不能推导出三个具体动作；
-- 听到"这符合某某学科经典理论"——确认是否必要。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- [[modeling-three-stages]] —— 建模三段论：流程建模、抽象建模、本质提炼，对应本案例中从 L1-L5 的跃迁路径。
-- [[tool-essence-nfactor-modeling]] —— 本质/N要素建模法：从 L3 方法模型下探到 L4 本质的具体工具。
-- [[dk-modeling-essence-predictive]] —— "解释性本质"是高级鸡汤：判断 L4 本质是解释性还是预测性的关键标准。
-- [[dk-modeling-explanatory-vs-predictive-essence]] —— 解释性本质 vs 预测性本质的对比与操作方法。
-- [[case-modeling-essence-schools]] —— 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野，与本案例共同构成一堂本质建模的核心案例组。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

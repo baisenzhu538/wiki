@@ -18,11 +18,11 @@ source_refs:
   - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
   - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 related:
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 创业六宗罪 / 六大浪费
@@ -56,14 +56,14 @@ related:
 ## 适用边界
 
 **适合场景：**
-- 早期 0-1 阶段，关键假设（需求、方案、商业模式）尚未验证的项目；
-- 资源有限、需要决定"先验证什么、后投入什么"的创业团队；
-- 复盘早期失败时，用于快速归类浪费根因。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合/需谨慎场景：**
-- 强监管行业（医疗、金融、教育、博彩）："假产品/假营销"等验证手段可能触碰广告法或行业合规红线 [conf=0.85, source=任务指令 L3]；
-- 长周期硬件或 B2B 长决策链：用户难以通过小样本实验快速反馈，需结合里程碑测试而非简单归类；
-- 品牌敏感型产品：粗糙 MVP 可能一次性损伤信任，不宜照搬低成本验证手段 [conf=0.85, source=任务指令 L8]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式（使用这个框架时常见的错误）
 
@@ -84,12 +84,12 @@ related:
 ### 正例：一堂 2B 内训灰度测试
 
 一堂自身 2B 内训业务通过灰度 MVP，把原本"大半年 50-100 万"的重投入方案，压缩为六轮迭代、三个月、几万成本的灰度测试，在需求、方案、交付形式都得到验证后才扩大规模 [conf=0.75, source=一堂2B内训的灰度测试.png，讲师自述]。
-- 成功原因：在 All-in 前依次用 F（假营销/假产品测兴趣）、A/L（人工服务/借现成工具跑交付）、E（最小版本迭代）验证，规避了需求找错、过早细化和过早扩张三类浪费。
+- src_unknown
 
 ### 反例：年轻人夜生活 O2O SaaS
 
 某团队直接投入 12 人闭关 4 个月，烧掉 400+ 万研发 O2O SaaS 系统，上线后发现没有商家买单 [conf=0.80, source=truman-精益创业-低成本验证-闭门造车-01_ocr_text.md §8]。
-- 失败原因：
+- src_unknown
   1. **闭门造车**：4 个月未与真实商家/用户持续互动；
   2. **需求找错**：假设年轻人夜生活需要 SaaS 工具，但商家付费意愿未被验证；
   3. **过早细化**：在需求未验证前就完成了完整系统开发；

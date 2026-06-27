@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,23 +14,23 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb26-chinese-food-photography-props]]'
-  - '[[dk-yb19-visual-strategy-price-match]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - '[[dk-yb19-visual-strategy-price-match]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 决策者常把"图片质量"与"拍摄成本"混为一谈，忽视"质感信号"与"价格锚点"的对应关系
-- 高端场景误用 amateur 视觉后，转化率或客单价下降，但团队往往归因于"流量"或"产品"
+- src_unknown
+- src_unknown
 ---# 视觉呈现方式与消费场景的匹配原则
 
 ## 原始表述 / 核心洞察
@@ -47,19 +47,19 @@ diagnostic_signals:
 
 1. 明确目标客群的消费预期与心理账户（人均价位）。
 2. 评估视觉呈现方式的"质感信号"：
-   - 手工拍摄 → 真实、亲切、烟火气
-   - 专业摄影/设计 → 精致、稀缺、仪式感
+   - src_unknown
+   - src_unknown
 3. 做匹配校验：
-   - 低客单价 + 手工拍 = 加分（信任感）
-   - 高客单价 + 手工拍 = 减分（降格感）
+   - src_unknown
+   - src_unknown
 4. 若发现错配，升级视觉生产方式，或调整渠道/价格策略。
 
 ## 适用边界
 
-- **不适用**：
+- src_unknown
   1. 手工拍摄但构图、光影极具艺术感（可打破规则）；
   2. 特定"反精致"定位的高端店（如主厨私房、侘寂风）。
-- **易混淆**：把"不能用手机拍"等同于"必须请专业团队"；实际上中端场景可用"标准化模板 + 手机 + 统一后期"解决。
+- src_unknown
 
 ## 常见失败模式
 
@@ -76,5 +76,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb18-small-shop-image-mismatch]] — 小店图片错配陷阱
-- [[dk-yb19-visual-strategy-price-match]] — 餐饮图片视觉策略与价格定位匹配
+- src_unknown
+- src_unknown

@@ -4,8 +4,8 @@ title: 域索引入口卡 —— 大规模域建制的基础设施方案
 type: improvement-plan
 status: approved
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 source_refs:
   - 90_control/templates/domain-index-template.md
   - 30_wiki/domains/five-step-domain-digest.md
@@ -16,9 +16,9 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 related:
-  - "[[five-step-domain-digest]]"
-  - "[[check-source-refs.py]]"
-  - "[[track-production-progress.py]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 域索引入口卡 —— 大规模域建制的基础设施方案
@@ -60,9 +60,9 @@ related:
 **在 Wave 1（核心框架卡）完成后，立即创建 `yitang-research-domain-digest.md`。**
 
 时间点选择理由：
-- Wave 1 产出 11 张框架卡，骨架已立——此时建索引入口，后续 Wave 的卡就有地方挂载
-- 如果在全部 140 张产完再建，老顽童和用户在整个生产周期中都没有导航，每加一张卡都是在盲飞
-- 入口卡可以随生产进度增量更新，不是一次性写完
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 基础设施配套
 

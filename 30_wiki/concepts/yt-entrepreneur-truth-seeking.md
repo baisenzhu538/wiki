@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "实事求是"
-  - "创业求真"
-  - "红队蓝队辩论"
-  - "魔鬼代言人"
-  - "反面证据搜索"
-  - "自我欺骗识别"
-  - "创业客观分析"
-  - "认知偏差纠正"
-  - "事实与愿望区分"
-  - "数据逻辑决策"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,19 +38,19 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户说要求真，但只找支持自己的数据', 'framework_lens': '自我欺骗', 'follow_up_question': '你最近一次主动搜索反面证据是什么时候？如果超过一周，求真只是口号'}
   - {'signal': '用户为了反对而反对，没有建设性', 'framework_lens': '红队滥用', 'follow_up_question': '你的反对是为了更接近真相，还是为了赢？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-liberate-thinking]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 实事求是
 
@@ -70,9 +70,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「底层逻辑」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -91,7 +91,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

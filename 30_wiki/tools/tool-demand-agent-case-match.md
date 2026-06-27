@@ -13,14 +13,14 @@ trust_level: high
 language: zh-CN
 domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
-- web: ODI framework cross-case comparison
+- src_unknown
 related:
-  - '[[agent-external-brain-design]]'
-  - '[[tool-demand-agent-multi-hypothesis]]'
-  - '[[tool-demand-agent-auto-verify]]'
-  - '[[tool-demand-agent-signal-substitute]]'
-  - '[[five-step-domain-digest]]'
-  - "[[tool-demand-iceberg-l4-job-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent L4案例匹配
@@ -57,8 +57,8 @@ agent.highlight_diff(template_map, current_context)
 
 ## 适用边界
 
-- **适用**：案例库中有相关案例时
-- **不适用**：全新品类无人做过类似分析
+- src_unknown
+- src_unknown
 
 ---
 

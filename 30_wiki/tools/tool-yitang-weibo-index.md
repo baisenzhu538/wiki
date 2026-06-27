@@ -14,7 +14,7 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- "[[tool-yitang-weapon-third-party-database]]"
+- src_unknown
 ---
 
 # 微博指数

@@ -13,14 +13,14 @@ trust_level: high
 language: zh-CN
 domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
-- web: Qualz.ai 2026 LLM-based user interview analysis
+- src_unknown
 related:
-  - '[[tool-demand-agent-signals]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-demand-agent-case-match]]'
-  - '[[tool-demand-four-forces]]'
-  - '[[tool-demand-agent-auto-verify]]'
-  - "[[tool-demand-iceberg-l5-forces]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent L5信号提取
@@ -54,8 +54,8 @@ analysis = agent.analyze_forces(reviews)
 
 ## 适用边界
 
-- **适用**：有大量用户评价/访谈数据时，Agent做定量分析
-- **不适用**：微观体感的共情推演——这部分仍是人的主场
+- src_unknown
+- src_unknown
 
 ---
 

@@ -7,38 +7,38 @@ type: framework
 source_refs: []
 status: enriched
 domain:
-  - management- consulting
-  - yitang
+  - src_unknown
+  - src_unknown
 bridges_to:
-- target: yt-entrepreneur-key-hypotheses
+- src_unknown
   relation: provides_foundation_for
   description: Hypothesis-Driven 是'关键假设'概念的底层工作流
   context: 一堂有'关键假设'概念和259工具，但缺少假设驱动工作流的系统卡片——从'形成初始假设'到'验证/修正假设'的完整闭环
-- target: concept-一堂-hypothesis-driven-business-methodology
+- src_unknown
   relation: complements
   description: 麦肯锡版本聚焦商业分析问题诊断，一堂版本聚焦创业假设验证
   context: 两套假设驱动方法论同源但场景不同：麦肯锡在解决'已知问题的最优解'，一堂在验证'未知市场的可行性'
 diagnostic_signals:
-- signal: 用户说'我想了很多可能性，但不知道哪个值得先验证'
+- src_unknown
   framework_lens: Hypothesis-Driven 检查：是否已形成可验证的初始假设
   follow_up_question: 如果让你用一句话说出'最可能导致这个问题的3个原因'，你会说什么？这就是你的初始假设
-- signal: 用户说'我收集了大量数据但做不出结论'
+- src_unknown
   framework_lens: Hypothesis-Driven 检查：数据收集是否围绕特定假设展开
   follow_up_question: 在你收集的所有数据中，有多少是为了'验证某个具体假设'而收集的？如果没有，你需要先形成假设再收集数据
-- signal: 团队在验证阶段争论不休，每个人都认为自己是对的
+- src_unknown
   framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
-  - '[[yt-entrepreneur-scientific-method]]'
-  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[concept-mckinsey-mece]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -95,8 +95,8 @@ Hypothesis-Driven Approach（假设驱动工作法）是麦肯锡咨询的核心
 
 **Daniel Kahneman**（*思考，快与慢*作者，诺贝尔经济学奖得主）从认知心理学角度提供根本性挑战：
 
-- **初始假设一旦被形成，就会启动确认偏误。** 人脑倾向于寻找支持自己假设的证据，忽视否定证据。Hypothesis-Driven 要求你"先形成假设再验证"，但认知科学研究表明：**形成假设的那一刻，你的判断已经倾斜了**。你会无意识地设计"能证实假设"的验证实验，收集"支持假设"的数据，甚至解释数据时也会偏向假设。
-- **"可证伪"在心理层面很难执行。** Popper的证伪主义在逻辑上成立，但在人类认知中几乎不可能——当一个实验结果否定你的假设时，你的第一反应不是"假设错了"，而是"实验设计有问题"、"样本不够"、"时机不对"。Kahneman的研究表明，人类大脑有强大的"假设保护机制"。
+- src_unknown
+- src_unknown
 
 > **Kahneman 的讽刺**："你的假设驱动工作法假设了一个'理性的假设验证者'。但我毕生研究证明，人类不是理性验证者，而是'假设的囚徒'。你教人们'先形成假设再验证'，等于教他们如何更系统地自我欺骗。真正有效的方法可能是'在形成假设之前，先强制收集反方证据'——但这恰恰是假设驱动方法的对立面。"
 
@@ -104,8 +104,8 @@ Hypothesis-Driven Approach（假设驱动工作法）是麦肯锡咨询的核心
 
 **Eric Ries**（*精益创业*作者，Build-Measure-Learn循环提出者）从创业实践角度攻击：
 
-- **假设驱动假设"问题可以被预先定义"。** 在创业早期，问题本身是不确定的——"用户真正的痛点是什么"这个问题本身就值得怀疑。Hypothesis-Driven 要求你先"定义问题"，但创业早期的核心挑战恰恰是"问题在不断变化"。Ries的Build-Measure-Learn循环不依赖预先定义的问题——它通过快速投放最小可行产品（MVP）来**让问题从数据中涌现**。
-- **"形成初始假设"可能延迟行动。** 麦肯锡顾问可以在客户办公室里花一周时间形成假设，但创业者的一周可能意味着竞争对手的上线。Ries认为：在高度不确定的环境中，"快速行动+从反馈中学习"比"先形成完美假设再验证"更有效。假设驱动的验证路径设计本身就需要时间，而时间对创业者是最稀缺的资源。
+- src_unknown
+- src_unknown
 
 > **Ries 的质疑**："你的假设驱动工作法是一个优秀的'已知问题求解器'。但创业中最有价值的洞察来自'你不知道该问什么问题'的时刻。假设驱动要求你先问对问题，但创业早期的问题本身就是错的。你以为在优化验证效率，其实在固化错误的问题框架。"
 

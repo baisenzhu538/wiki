@@ -11,40 +11,40 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
-- 10_raw/sources/src_20260619_2ec9f157_wanghuan_AI双角色教练训练_示例图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
+- src_unknown
 domain: human-ai-collaboration;ai-collaboration;yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 新人培训周期长，老手经验难以传递
+- src_unknown
   lens: 隐性经验传递困境
   follow_up: 萃取老手的决策过程，而不是只复制末端话术
-- signal: AI 对练只给话术，不改变实战丢单率
+- src_unknown
   lens: 只复制末端输出
   follow_up: '把对练目标从"话术正确"改为"策略判断正确"'
-- signal: 教练反馈只评价动作，不评价时机和策略
+- src_unknown
   lens: 评分维度缺失
   follow_up: '在评分顶层增加"策略判断"维度并赋予最高权重'
-- signal: 对练中的 AI 角色知道正确答案，导致场景失真
+- src_unknown
   lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 双角色教练
-- 对练
-- 销售培训
-- 经验传递
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢：AI 双角色教练对练工具
@@ -64,22 +64,22 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 ## 核心要点
 
 1. **两个 AI 角色**
-   - **家长 AI**：扮演真实家长，会犹豫、会刁难、会说"我再考虑考虑"然后准备走人。
-   - **教练 AI**：不在对练过程中插嘴，结束后做策略级复盘评分。
+   - src_unknown
+   - src_unknown
 2. **知识隔离**
-   - 家长 AI 不知道销冠的策略，只按真实用户反应。
-   - 教练 AI 能看到全部，从策略高度评价。
-   - 隔离保证了对练的真实性和评价的专业性。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **双轨存储：策略与话术分开**
-   - 策略是骨架：面对什么信号 → 做什么判断 → 选什么打法。
-   - 话术是血肉：为每个具体动作提供表达支撑。
-   - 骨架和血肉不混存、不混用：策略可跨场景复用，话术必须因场景而变。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **评分顶层加"策略判断"维度**
-   - 权重最高。
-   - 没有正确的策略，就不存在正确的动作。
-   - 旧评分盲区：新人话术流利、异议接得住，但策略错了，单必丢，旧体系还给高分。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **可迁移行业**
-   - 教育销售、保险、医美、汽车、企业软件等"老手隐性经验难以传给新人"的行业。
+   - src_unknown
 
 ---
 
@@ -110,22 +110,22 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 
 ## 行动 Checklist
 
-- [ ] 收集至少 5-10 段真实销冠/老手的成交录音或对话记录。
-- [ ] 逐句追问：这里做了什么判断？为什么选这个打法？换一类客户会怎么做？
-- [ ] 把判断逻辑结构化为"信号 → 判断 → 打法"三段式。
-- [ ] 建立策略库和话术库，两者分开存储、分开维护。
-- [ ] 配置两个 AI 角色：家长 AI（只模拟用户反应）和教练 AI（事后策略复盘）。
-- [ ] 确保两个 AI 知识隔离：家长 AI 不访问策略库。
-- [ ] 设计评分维度，把"策略判断"放在顶层并赋予最高权重。
-- [ ] 让新人完成一次对练后，用"信号-判断-打法"框架复盘，而不是只看分数。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[case-wanghuan-education-sales-paced]]：双角色教练工具最初来自教育销售案例的实践经验。
-- [[dk-wanghuan-paced-sales-decision]]：PACED 五维判断是教练 AI 做策略级复盘的底层框架。
-- [[framework-wanghuan-actor-director-mode]]：从「演员」到「导演」的身份切换，是设计对练系统而非仅生成话术的前提。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,10 +147,10 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 **回应**：单一 AI 同时扮演两个角色会破坏隔离原则。如果家长 AI 知道正确答案，对练就失去真实性；如果教练 AI 看不到全部，评价就失去专业性。角色分离不是技术能力不足，而是为了保证训练效果。
 
 **不要用**
-- 不要把它用于完全标准化、不需要判断的机械培训。
-- 不要在没有真实素材或无法定义策略标准的情况下，凭空编造对练场景。
-- 不要让两个 AI 角色共享策略知识，否则会训练出"在已知答案下表演"的虚假能力。
-- 不要只给新人打分数，而不解释信号、判断和打法的完整链条。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

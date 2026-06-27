@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-pc-web-data]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-bp-analysis]]'
-  - '[[dk-yitang-research-ai-hallucination]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-ai-research-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略10：AI工具
@@ -43,8 +43,8 @@ related:
 
 ## 关键提醒
 
-- AI是工具不是替代——人定方向、做判断
-- AI的最大风险：幻觉+浅尝辄止
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计的应用场景示意图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_e985ecdb
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计的应用场景示意图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂刻意练习十年成长指数]]'
-  - '[[ocr-一堂五步法-产品内核画布]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计的应用场景示意图
@@ -37,33 +37,33 @@ png` 泛产品设计的应用场景示意图 堂 sketchmapofproductdesignapplica
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计主张产品能力可跨领域迁移，适用于装修设计、教材设计、图书设计、快消品、硬件、旅行设计、杂志设计、汽车、文化衫、婚礼设计、SaaS、训练营、伴手礼等传统上由"专家"垄断的垂直领域
-- 市场机会存在于大量缺乏专职产品专家（岗位）的领域，产品思维和方法论具有跨域通用性
-- 核心职业选择张力：深耕单一领域 vs. 建立可迁移的"地图级"产品能力体系
-- 一堂的课程定位：以"必修课"形式提供浓缩的泛产品设计能力，降低跨领域试错成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该图将"产品设计"与"装修设计""婚礼设计"等并列为平行领域，但后者是否本质上属于"服务设计"或"体验设计"而非狭义产品设计？这种范畴扩张的理论依据是什么？
-- "市场上没有产品专家（岗位）"是否等同于"需要产品专家"？这些领域缺乏该岗位是因为市场不成熟，还是因为现有从业者（如室内设计师、婚礼策划师）已自然承担产品职能？
-- "地图级产品能力"的具体构成要素未定义：是需求分析、项目管理、商业建模的抽象化，还是包含领域知识快速习得的方法论？跨域迁移的边界条件（如技术复杂度、供应链差异）是否被考虑？
-- 课程承诺"不扫弯路走3年"的量化依据缺失：3年弯路的具体指涉是什么？有无学员跨域成功案例的验证数据？
-- 图示将SaaS与"硬件""汽车"并列，但SaaS领域实际上已有成熟的产品经理岗位体系，是否矛盾于"没有产品专家"的前提假设？
-- "泛产品设计"与现有设计学科（如交互设计、服务设计、系统设计）的边界关系未澄清：是整合替代还是补充定位？学术或行业共识基础为何？
-- 视觉结构中的"堂"字孤立出现（"示意图 堂"），结合"一堂"品牌信息，需确认原图是否存在未被OCR识别的课程推广框架或商业转化路径说明
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -3,15 +3,15 @@
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 aliases:
-- 经营边界
-- 价值链定位
+- src_unknown
+- src_unknown
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- operations
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_vlm_desc.md
@@ -22,18 +22,18 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[case-strategy-retailer-activity-scope]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '[[tool-strategy-risk-management]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[case-strategy-retailer-activity-scope]]'
-  - '[[case-strategy-snack-business-design]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[tool-strategy-business-design-template]]'
-  - '[[tool-strategy-control-points]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '[[tool-strategy-value-capture]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 活动范围设计工具：What × How × Where 三问
@@ -94,10 +94,10 @@ PPT `_121` 用三个零售商展示了不同战略定位下的活动范围选择
 ```
 
 **决策规则：**
-- **战略重要性高 + 内部能力强** → 自营并建立壁垒
-- **战略重要性高 + 内部能力弱** → 合作/联盟，同时投资能力建设
-- **战略重要性低 + 外部可获得性高** → 外包
-- **战略重要性低 + 外部可获得性低** → 不做或等待时机
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

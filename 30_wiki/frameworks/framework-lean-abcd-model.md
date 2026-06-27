@@ -15,18 +15,18 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_vlm_desc.md
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 related:
-  - '[[case-lean-radish-channel-selection]]'
-  - '[[framework-lean-six-wastes]]'
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-medical-device-milestone]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[concept-一堂-key-assumptions]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-  - "[[framework-strategy-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 关键假设 ABCD 模型
@@ -48,24 +48,24 @@ ABCD 模型是一套把创业中的关键假设按「宏观/微观 × 成败/效
 
 ### 四象限释义
 
-- 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md §951-962]。
-- 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md §13-18]。
-- 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md §19-23]。
-- 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md §24-27]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 优先级与验证策略
 
 经验优先级：**A >> B > C、D** [conf=0.80, source=00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md §984-989]。
 
-- 越接近成败、越宏观的问题，越值得用精益实验去系统避坑；
-- 越微观、越偏效率的问题，越适合用数据、ROI 和局部 A/B 测试解决。
+- src_unknown
+- src_unknown
 
 ### 与 259 / 五步法的关系
 
-- 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md §951-962]。
-- 五步法的**横向是乘法关系**：对长期生意目标而言，每一步都必须跑通，不能有明显硬伤。
-- 五步法的**纵向是加法关系**：不同人群、卖点、SKU、渠道可以组合测试，适合 C/D 象限的多方案并行。
-- ABCD 模型提供了「什么时候用五步法、什么时候用 ROI/业务公式/触点模型」的选择框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "259" 通常指一堂对五步法操作节奏的形象化概括：2 个维度（成败 vs 效率）、5 个步骤、9 类关键检查点。本卡不做原创性声明，仅作为一堂对通用精益框架的本土化归纳 [conf=0.70, source=00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md §962-970]。
 
@@ -82,17 +82,17 @@ ABCD 模型是一套把创业中的关键假设按「宏观/微观 × 成败/效
 
 ### 适合场景
 
-- 从 0 到 1 的新业务，需要判断方向是否成立；
-- 已有业务进入新人群、新渠道、新 SKU 的扩展决策；
-- 团队内部对「该先做产品还是先跑增长」存在分歧时；
-- 需要向投资人/合伙人快速解释风险优先级时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不适合场景
 
-- **强监管行业**（医疗、金融、教育、博彩）："假产品""假营销"等验证手段可能触碰合规红线 [conf=0.90, source=任务指令 L3 政策/合规边界]。
-- **长周期硬件/重研发**：某些里程碑无法低成本拆分，必须依赖阶段性技术突破。
-- **品牌敏感型产品**：粗糙 MVP 可能一次性损伤高端用户信任。
-- **B2B 长决策链**：微观触点模型（D）价值有限，关键假设更多在 A/B 象限。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -129,9 +129,9 @@ A 象限的「商业成败」是高度不确定的假设，不能直接用历史
 
 ## 执行 checklist
 
-- [ ] 列出当前业务所有关键假设；
-- [ ] 把假设放进 A/B/C/D 四象限；
-- [ ] 优先处理 A 象限：用五步法从需求→壁垒逐级验证；
-- [ ] A 未验证前，不要大规模投入 C/D 象限的优化；
-- [ ] B 象限决策必须明确「不通过标准」，避免 ROI 计算被乐观假设带偏；
-- [ ] 每个实验定义清晰的通过/不通过标准，失败时果断转向。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

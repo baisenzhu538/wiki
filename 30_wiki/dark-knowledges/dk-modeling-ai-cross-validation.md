@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- skill-engineering
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
   （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -23,25 +23,25 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-- 你和 AI 反复迭代后对自己的产出高度满意，却缺乏外部参照
-- 需要判断作品是“真的优秀”还是“审美疲劳后的自我感动”
-- 目标是做出行业标杆级资产，而非仅完成交付
-- 手边能找到 2–3 份官方指南、专家报告或竞品实践作为参照
-- 团队内部对质量标准存在分歧，需要第三方尺度对齐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-case-explosion-confidence]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[dk-modeling-counterexample-driven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#method/prompt-engineering'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 
 ## 原始表述/核心洞察
@@ -52,11 +52,11 @@ tags:
 
 ## 使用场景
 
-- 你和 AI 迭代出了一个自己很满意的作品
-- 需要判断这个作品是真的好，还是只是你审美疲劳后的产物
-- 要做一个行业标杆级别的资产
-- 团队内部对质量标准有分歧，需要引入第三方尺度对齐
-- 需要向外部证明或展示作品水准时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -68,10 +68,10 @@ tags:
 
 ## 适用边界
 
-- 必须有真实的标杆可参考
-- 评分维度要提前定义清楚
-- 不要为了迎合标杆而丢失自己的核心判断
-- 标杆应与目标资产处于同一维度，避免 apples-to-oranges
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -89,10 +89,10 @@ tags:
 
 ## 与其他知识的关联
 
-- [[dk-modeling-counterexample-driven]] —— 用反例验证模型
-- [[tool-ai-skill-engineering-method]] —— 交叉验证是第六步
-- [[case-truman-ai-skill-engineering-guide]] —— 来源案例
-- [[modeling-capability-for-kdo]] —— 建模能力在 KDO 体系中的定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,7 +3,7 @@
 id: "ocr-一堂y模型实操工作流"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_53341e5a
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂Y模型实操工作流"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-ai学习-提问进化路线图]]'
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
-  - '[[ocr-一堂-单元模型-壁垒预判]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂Y模型实操工作流
@@ -35,36 +35,36 @@ png` Y模型实操工作流 像一个顶级科学家一样创业 第一步 第�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- Y模型实操工作流将创业过程类比为顶级科学家的研究方法论，强调结构化而非随意探索
-- 工作流分为五步：圈定问题和范围→明确追求目标→形成基本认知→预判进步方式→升级组织配套
-- 问题圈定原则：主动限定边界，避免无限延展导致资源分散
-- 目标设定采用"1+N维度"框架，即一个核心维度配合多个辅助维度
-- 认知构建建议控制在3-5个模块，保持足够聚焦以形成有效行动基础
-- 进步方式预判需识别高价值手段，并规划四次迭代进化路径
-- 组织配套升级涵盖四个要素：资源配置、会议机制、工具系统和基本功训练
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 未定义"顶级科学家"的具体标准或参照案例，不同学科领域的方法论差异如何调和？
-- "1+N维度"中的N是否有上限？辅助维度与核心维度冲突时如何取舍？
-- "3-5个模块"的阈值依据是什么？复杂业务场景下是否允许弹性扩展？
-- "四次迭代"是固定次数还是泛指？每次迭代的验收标准与终止条件未说明
-- "高价值手段"的评估框架缺失，由谁、以何种周期判定价值高低？
-- "圈定边界"与"避免无限延展"的具体操作工具或决策流程未提供
-- 五步是否为严格线性序列？能否回溯或并行？未说明阶段间的反馈机制
-- 组织配套四要素（资源/会议/工具/基本功）的优先级排序与投入比例未明确
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"像顶级科学家一样创业"的隐喻：工作流开头的这句话有强烈的类比隐喻，但未解释"顶级科学家"到底做了什么。是提出假设？设计实验？数据分析？还是发表论文？科学家的"方法论"与创业者的"动态决策"在时间压力下完全不同。
-- **"四次迭代"的固定数字陷阜：工作流建议"规划四次迭代进化路径"，但未说明为什么是四次而不是三次或五次。固定次数可能导致"为了迭代而迭代"——当业务需要更多或更少次迭代时，固定次数反而成为束缚。
-- **五步的线性假设：工作流描述为"第一步→第二步→...→第五步"的线性流程，但创业实际中这些阶段通常是并行、回溯、迭代的。未提供反馈机制意味着团队可能在第三步发现第一步的圈定有问题时，没有正规的"回溯"路径。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -78,20 +78,20 @@ Henry Mintzberg 在《战略进程的具体结构》中对比了"计划战略"�
 
 ### 不要用的场景
 
-- **行业结构已被巨头钙定的红海市场：五步流程优化的是执行效率，但无法解决"选择错误战场"的问题。
-- **需要极速响应的风口期项目：当时间窗口只有几周时，完整的五步流程可能太慢。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — Y模型的理论原型，工作流是其线性执行版本
-- [[yt-decision-canvas]] — 画布工具提供了"圈定范围"的视觉化方法，与工作流第一步互补
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目启动会议：用五步流程结构化讨论，避免讨论漂移
-- 个人年度规划：将"圈定问题→明确目标→形成认知→预判进步→配置资源"应用于个人目标设定
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

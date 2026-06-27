@@ -12,41 +12,41 @@ source_refs:
 status: enriched
 confidence: 0.8
 domain:
-  - modeling- kdo
-  - yitang
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 author: 黄药师
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 trust_level: high
 related:
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[dk-f4-wrong-workdir]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[model-quality-four-levels]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-capability-system]]'
-  - '[[modeling-level-map]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#kdo'
-- '#method/thinking-tool'
-- '#method/execution-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我写了一张卡但不知道怎么验证它够不够好
+- src_unknown
   framework_lens: 三段论门禁映射
   follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
-- signal: 素材进了inbox不知道怎么推进到wiki
+- src_unknown
   framework_lens: KDO管线五阶段
   follow_up_question: 素材是P0/P1/P2哪个级别？P0走王语嫣门禁，P2老顽童直接消化。
-- signal: AI生成的框架看起来完整，但落地时每个场景都要临时打补丁
+- src_unknown
   framework_lens: 人在环中建模五步法
   follow_up_question: AI输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
-- signal: 团队争论"本质"而基础动作反复出错
+- src_unknown
   framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
@@ -233,9 +233,9 @@ kdo scaffold --new concept --topic "XX本质提炼" --domain kdo,master
 
 ## 八、Open Questions
 
-- L3→L4 的升级信号是什么？卡片什么时候从 "tool" 升级为 "framework"？
-- L4 框架的置信度阈值（0.7）是否过低？本质提炼的 0.8 是否过高？
-- 是否应该有一个"反建模"检查项——不是所有经验都需要建模，有些保持纯经验就够了？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

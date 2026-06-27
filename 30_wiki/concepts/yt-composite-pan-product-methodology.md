@@ -4,34 +4,34 @@
 
 id: yt-composite-pan-product-methodology
 component_of:
-- yt-model-personal-map
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-- 泛产品设计
-- 泛产品方法论
-- 产品设计方法
-- 如何做产品设计
-- 产品经理能力泛化
-- 怎么做产品
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -41,13 +41,13 @@ title: 泛产品设计方法论
 type: framework
 version: 2
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户学了很多泛产品设计工具，但做一个具体产品时还是无从下手
+- src_unknown
   framework_lens: 工具多但无主线——泛产品需要整合而非堆砌
   follow_up_question: 你能用一句话说出这个产品要解决的用户问题吗？如果说不清，工具再多也是散的
-- signal: 用户把泛产品方法论当成产品经理万能公式
+- src_unknown
   framework_lens: 过度泛化——方法论有边界
   follow_up_question: 这个产品的用户场景和约束有什么独特之处？泛产品方法论的哪部分需要调整？
 updated_at: '2026-06-16'
@@ -58,51 +58,51 @@ trust_level: medium-high
 
 ### 定义与核心框架
 
-- claim:01 [conf=0.95][src: 探索营口述版] 泛产品设计是将产品设计思维从狭义岗位（互联网PM、工业设计）泛化到一切"需要设计的作品"的能力体系——婚礼、简历、装修、课程、活动、书籍皆可视为产品
-- claim:02 [conf=0.90][src: 探索营口述版] 产品的本质角色分工：公司需要有人负责"把事情做对"（产品角色，处理开放选项），有人负责"把事情做好"（运营角色，处理确定性执行）。泛产品设计者承担的是前者的能力
-- claim:03 [conf=0.85][src: 36计框架卡] 泛产品设计 = 三个核心维度 × 三个场景级别 × 六个成长段位，形成 3×3×6 的能力坐标系统。顶层方法论框架，细则见 [[yt-model-pan-product-demand-toolkit]]、[[yt-model-pan-product-aesthetic-toolkit]]、[[yt-model-pan-product-execution-toolkit]] 三张框架卡
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三大维度（概要）
 
-- claim:04 [conf=0.90][src: 三大修养框架卡] 维度一「需求/洞察」：永远以用户价值为中心。核心动作：用户视角代入 → 用户分层 → 场景推演 → 深层需求挖掘。完整13张卡牌见 [[yt-model-pan-product-demand-toolkit]]
-- claim:05 [conf=0.90][src: 三大修养框架卡] 维度二「审美/对标」：永远以最佳实践为追求。核心动作：收集案例 → 建池子 → 拆解建模 → 想象超越。心法：「你执行力的上限不会超过你对最佳实践理解的下限」。完整4张卡牌见 [[yt-model-pan-product-aesthetic-toolkit]]
-- claim:06 [conf=0.90][src: 三大修养框架卡] 维度三「落地/迭代」：永远以无限进步为迭代。核心动作：磨设计 → 磨方案 → 磨创新。完整19张卡牌见 [[yt-model-pan-product-execution-toolkit]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四阶段进化
 
-- claim:07 [conf=0.85][src: 三大修养框架卡] 泛产品设计能力的四阶段进化：粗糙（凑合）→ 入门（提升）→ 进阶（专业）→ 美好（作品）。每两个阶段之间的 GAP = 进步空间，靠刻意练习填满
-- claim:08 [conf=0.80][src: 爬山地图框架卡] 大多数人卡在 L2"知道但不会做"——缺的不是知识，是场景、方法和刻意练习的三位一体
+- src_unknown
+- src_unknown
 
 ### 三级场景系统
 
-- claim:09 [conf=0.85][src: 36计框架卡] A级「小产品设计」：短平快、单人或小团队、轻资源（文化衫、生日礼物）。B级「泛产品设计」：复杂度高、多角色协作、重决策（婚礼、装修）。C级「泛产品创新」：创新开放、无对标、高风险（AI+服务app、新培训模型）
-- claim:10 [conf=0.80][src: 36计框架卡] 场景级别决定工具箱的叠加方式：B包含A全部卡牌+B专属，C包含A+B全部+C专属。修能力从A到C（从简到繁），拆任务从C到A（从全景到细节）
+- src_unknown
+- src_unknown
 
 ### 十年成长路径
 
-- claim:11 [conf=0.85][src: 爬山地图框架卡] L1-L6六段位：L1"和我无关/自我放弃"→ L2"狭义设计（某领域）"→ L3"大量场景"→ L4"有工具箱"→ L5"统一练习"→ L6"创新领先"。详细段位-工具箱对应见 [[yt-model-pan-product-climbing-map]]
-- claim:12 [conf=0.85][src: 探索营口述版] 关键瓶颈：L2→L3需"打开场景"（把产品思维迁移到工作/生活多场景），L3→L4需"打造工具箱"（形成固定的可复用武器库），L4→L5需"拉满刻意练习"
+- src_unknown
+- src_unknown
 
 ### 核心方法原则
 
-- claim:13 [conf=0.90][src: 探索营口述版] 产品设计三步法：① 明确目标（经典三问：为谁解决什么问题 → 做到什么程度算好 → 如何越做越好）→ ② 用户场景分析（三原则：一秒变小白、推演真实场景仿真、全局视角不被个别评价带偏）→ ③ 最佳实践建模（收集30-50个最佳案例 → 拆解规律 → 建模 → 做到该领域前20%）
-- claim:14 [conf=0.85][src: 探索营口述版] π型人才 > T型人才：在两个领域深耕（如互联网产品+课程设计），才能抽象出跨领域的底层规律。一个领域的专家容易被锁在岗位上，两个领域的专家自动成为泛领域专家
-- claim:15 [conf=0.90][src: 探索营口述版] 刻意练习四要素：明确目标 + 固定方法（套路）+ 走出舒适区 + 高频反馈。缺一不可。"一旦套路可描述、可沉淀、可具象，就可以被无限迭代"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡（中层——各维度细则）
-- [[yt-model-pan-product-36-strategies]] — 36计全套工具箱（13需求+4审美+19落地），三层场景叠加
-- [[yt-model-pan-product-three-virtues]] — 三大自我修养（用户价值×最佳实践×无限进步），方法论的价值观基座
-- [[yt-model-pan-product-climbing-map]] — 十年爬山地图 L1-L6，完整成长路径导航
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱（13张卡牌），第一维度实操集
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（4张卡牌），第二维度实操集
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（19张卡牌），第三维度实操集
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键原图
-- !
-- !
-- !
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 

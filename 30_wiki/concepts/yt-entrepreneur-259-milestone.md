@@ -7,20 +7,20 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
-- 259里程碑
-- 业务里程碑
-- 预判阶段
-- 假设增长
-- 假设验证
-- 科学创业
-- 创业里程碑
-- 关键假设优先
-- 最小成本验证
-- 259框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-15
 reviewed_by: pending
 source_refs:
@@ -44,22 +44,22 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户把259当项目计划表，但每个里程碑无法验证
+- src_unknown
   framework_lens: 里程碑没有验证标准——259的核心是假设验证
   follow_up_question: 你的9个里程碑中，每个对应什么验证实验？什么结果算通过？
-- signal: 用户只关注9个里程碑，忘了2个假设和5个步骤
+- src_unknown
   framework_lens: 割裂使用——259是一个整体系统
   follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-barriers]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 259里程碑
@@ -91,10 +91,10 @@ related:
 
 ## When NOT to Use
 
-- idea 阶段尚未完成客户访谈、问题未验证时。
-- 全新品类/ category-creating，没有参照系无法合理定义里程碑时。
-- 把里程碑当项目计划表，每个节点不配套验证标准时。
-- 团队不愿根据验证结果调整计划时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -110,9 +110,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -137,7 +137,7 @@ Nassim Nicholas Taleb（"The Black Swan"和"Antifragile"作者）的黑天鹅理
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

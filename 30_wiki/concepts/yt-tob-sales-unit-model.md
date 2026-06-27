@@ -6,17 +6,17 @@ title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/skill'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -25,30 +25,30 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-customer-sabc]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 销售团队扩张后，人均产出下降，但公司只盯着总营收增长。
+- src_unknown
   framework_lens: 缺少单销售模型视角，无法判断“招一个销售是否划算”。
   follow_up_question: 我能否算出：一名销售入职后第 3/6/12 个月，分别需要创造多少毛利才能覆盖他的全周期成本？
-- signal: 销售提成按回款即发，但收入要分 12 个月确认，导致现金流紧张。
+- src_unknown
   framework_lens: 销售模型的时间闭环没有与收入确认/回款周期对齐。
   follow_up_question: 如果以 12 个月为评估周期，单销售模型的毛利是否仍然为正？
-- signal: 在一线城市招销售成本高到无法盈利，却坚持本地化团队。
+- src_unknown
   framework_lens: 忽略了空间闭环——同样能力的销售在不同地区的成本差异巨大。
   follow_up_question: 哪些销售动作可以远程完成？哪些必须本地？远程销售团队能降低多少单销售成本？
-- signal: 准备发展渠道商/代理商时，给不出“一个销售能赚多少”的预期。
+- src_unknown
   framework_lens: 渠道模型需要以跑通的单销售模型为底层假设，否则渠道商无法复制成功。
   follow_up_question: 我能否向渠道商展示：在当地招一名销售、按标准打法跑 12 个月，保守/乐观情形下分别能赚多少钱？
 
@@ -66,9 +66,9 @@ diagnostic_signals:
 
 因为：
 
-- 销售成本常被分摊到“管理费用”里，不进入业务单元模型
-- 销售提成按回款发放，但收入确认周期长，时间错配被忽略
-- 销售团队扩张时，没有算清“空间成本”——一线城市 20 万年薪 vs 三四线城市 8 万年薪，毛利模型完全不同
+- src_unknown
+- src_unknown
+- src_unknown
 
 结果是：营收在涨，但每多招一个销售，公司反而多亏一点。
 
@@ -113,10 +113,10 @@ diagnostic_signals:
 
 判断标准：
 
-- **底线情况**：最悲观预期下，单销售模型不亏钱
-- **乐观情况**：最好情况下，单销售模型能支撑规模化复制
-- **时间维度**：至少覆盖一个完整销售周期 + 回款周期
-- **空间维度**：对比本地、异地、远程三种模式的单销售成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -126,11 +126,11 @@ diagnostic_signals:
 
 徐剑在课上以秦鹏的公司为例：
 
-- 一名销售年薪 8 万时，一年可创造 100 多万毛利，单销售模型本身很划算
-- 但 8 万在上海招不到合格销售；若把年薪提到 20 万，模型未必还能赚钱
-- 解决方案：把销售 base 放到广西、河南等非一线城市
-- 8 万年薪在当地有竞争力，且电商/电销类销售动作可以远程完成
-- 结果：单销售模型在时间 + 空间两个维度同时闭环
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 来源：徐剑口述稿（口述稿中“秦蒙”与“秦鹏”混用，此处按课堂常用名“秦鹏”统一），外部可验证性有限。
 
@@ -138,10 +138,10 @@ diagnostic_signals:
 
 一堂同学张林复盘其 B2B 机票服务公司转型企业差旅 SaaS 的过程：
 
-- 初期想服务所有中小企业，认为有航司资源优势就能规模化
-- 调研 30 家企业后发现：只有 200 人以上、年差旅费 100 万以上的企业，节约金额才足以覆盖销售和服务成本
-- 100 人以下小企业或年差旅 20 万的企业，即便节约 20%，也只有 4 万元，根本撑不起专属销售
-- 最终把目标客户收窄到“有规模的中小企业、央企或上市公司”，单销售模型才成立
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **启示**：单销售模型成立的前提是客户分层足够清晰。先用 [[yt-tob-customer-sabc]] 或 [[yt-tob-demand-metrics]] 算清“单客价值”，再决定配多少销售成本。
 
@@ -149,10 +149,10 @@ diagnostic_signals:
 
 一堂同学廖晓兰复盘 2017 年负责的银行品牌设计服务业务：
 
-- 为拿下投标，报价比同行低 30%-50%，以为是自己成本把控好
-- 实际只算了履约成本，漏算了拓展新客户成本、售前销售成本、新业务启动成本
-- 单个项目拿下来也是亏损，幸亏半年后发现问题，没有盲目扩张
-- 团队最终因无续约、无新客户而解散
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **启示**：单销售模型必须包含“为获取该客户所花的全部成本”，而不仅仅是履约成本。
 
@@ -235,18 +235,18 @@ diagnostic_signals:
 
 ## 与其他工具的关系
 
-- [[yt-tob-unit-model]]：单销售模型是五种常用单元模型之一
-- [[yt-tob-cash-flow]]：时间闭环直接影响现金流健康
-- [[yt-tob-growth-channel]]：单销售模型跑通后，才能判断直销 vs 渠道的效率
-- [[yt-business-formula-business-pattern-selector]]：To B 持续复购型业务尤其需要先算清单销售/单客户模型
-- [[yt-tob-demand-metrics]]：先用需求测算判断客户价值，再决定单销售成本投入
-- [[yt-tob-customer-sabc]]：客户分层决定销售资源的分配边界
-- [[case-yitang-tob-smart-park]]：项目型销售通常难以形成可复制单销售模型，需特别注意
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：单销售模型是 To B 业务常见盲区、必须同时考虑时间和空间两个维度（徐剑明确强调）
-- **中置信度**：具体最优评估周期（3/6/12 个月）因行业成交周期而异
-- **待复核**：不同销售模式（直销、电销、渠道、客户成功）的单销售模型结构差异
+- src_unknown
+- src_unknown
+- src_unknown

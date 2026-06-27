@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,28 +21,28 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.91
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[tool-radar-chart-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/thinking-tool'
-- '#content-format/framework'
-- '#method/knowledge-engineering'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队强行把连续或复杂问题塞进 2×2 象限
+- src_unknown
   framework_lens: binary-quadrant-modeling
   follow_up_question: 这个议题是否真的适合用两个离散维度分类？中间态/边界案例如何处理？
-- signal: 讨论中只关注“落在哪个象限”，却不验证坐标轴定义是否成立
+- src_unknown
   framework_lens: binary-quadrant-modeling
   follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
-- signal: 把象限名称当成固定标签，认为同一象限内所有对象策略相同
+- src_unknown
   framework_lens: binary-quadrant-modeling
   follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
 ---
@@ -74,11 +74,11 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 二分法和象限图的核心价值是“分类”，把一大坨事物按关键维度切开，降低认知负担。——依据：`src_20260614_73352fa5` 武器库“分类：二分法、象限图、横纵表”。
-- **C2 [conf=0.85]**: 一堂大量使用象限图，如 ABCD 关键假设图、人生红点四大坐标图等。——依据：`src_20260614_8269ccdb#2328-2333`。
-- **C3 [conf=0.85]**: 好的象限图需要两个维度**相对独立且关键**。如果两个维度高度相关，象限图就没有区分力。——推断：基于 MECE 和逻辑洁癖原则。
-- **C4 [conf=0.8]**: 象限图适合战略取舍和类型识别，但不适合表达动态演变。——推断：基于武器库分类。
-- **C5 [conf=0.75]**: 二分法是象限图的退化形式，当只有一个关键维度时就够用了，不必硬凑 2×2。——推断：基于模型难度分层逻辑。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -93,43 +93,43 @@ diagnostic_signals:
 ### 步骤 1：明确分类目的
 
 你要解决什么问题？
-- 筛选？（如“哪些客户值得重点跟进”）
-- 策略匹配？（如“不同类型用户给不同运营策略”）
-- 自我定位？（如“我在哪个象限”）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 2：选择关键维度
 
 维度必须：
-- **与决策相关**：分完类后能导出不同行动
-- **可判断**：能在事实层面区分
-- **尽量独立**：两个维度不要高度相关
+- src_unknown
+- src_unknown
+- src_unknown
 
 常见维度对：
-- 重要性 × 紧急性
-- 增长潜力 × 壁垒强度
-- 用户价值 × 实现成本
-- 内部可控 × 外部影响
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 3：画象限/分两类
 
-- **二分法**：只选一个最关键维度，回答“是/否”
-- **象限图**：选两个维度，画 2×2 矩阵
-- **横纵表**：如果维度超过两个，用表格扩展
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：为每个类别定义策略
 
 分类不是目的，目的是差异化行动。每个象限/类别必须对应一个明确策略：
-- 象限 A：立即做
-- 象限 B：规划做
-- 象限 C：授权做
-- 象限 D：不做
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 5：用案例验证分类有效性
 
 拿 5–10 个真实案例往象限里放：
-- 是否每个案例都能明确归类？
-- 同类案例是否得到相似策略？
-- 有没有反例说明维度选择不对？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -170,14 +170,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确分类目的：是筛选、策略匹配，还是自我定位？
-- [ ] 选择一个或两个与决策相关的关键维度
-- [ ] 验证维度是否可在事实层面被判断，而非主观偏好
-- [ ] 检查两个维度是否相对独立（正交），避免高度相关
-- [ ] 画出二分线或 2×2 象限，标注每个区域的含义
-- [ ] 为每个类别定义差异化策略，避免“分类即终点”
-- [ ] 用 5–10 个真实案例验证分类稳定性和策略一致性
-- [ ] 遇到边界案例时，补充“中间态”或改用连续坐标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -185,9 +185,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 象限图容易让人误以为世界是四分的，忽略连续谱
-- 维度选择隐含价值观，可能被包装成“客观框架”
-- 如果没有后续行动，象限图只是好看的分类游戏
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Karl Weick — "分类塑造所见"
 
@@ -195,8 +195,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果象限图的两个维度互换，结论会变吗？如果会，说明分类不稳定。
-- 如果把边界案例强行归类，会不会导致错误策略？
+- src_unknown
+- src_unknown
 
 ---
 
@@ -204,10 +204,10 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[modeling-weapon-library]] —— 二分法/象限图在进阶模型中的定位
-- [[tool-radar-chart-modeling]] —— 多维度评估时雷达图更适用
-- [[modeling-three-stages]] —— 抽象建模阶段的代表工具
-- [[dk-modeling-counterexample-driven]] —— 用反例验证维度是否完备
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -223,9 +223,9 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2328-2333`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58-66`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

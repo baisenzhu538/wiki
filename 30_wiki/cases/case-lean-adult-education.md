@@ -10,25 +10,25 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[case-lean-combination-test-paradigm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 成人技能教育精益验证
@@ -110,9 +110,9 @@ related:
 
 不适用或需折中场景：
 
-- **K12 与强监管教培**：海报测试若涉及升学效果承诺、虚假宣传，可能触碰广告法与教培监管 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **需要强师资背书的品类**：过度粗糙的海报可能损伤品牌信任，需保留最低限度的讲师/机构背书 [conf=0.80, source=framework-lean-false-model 适用边界]。
-- **B2B 企业内训**：决策链长、购买者与使用者分离，单靠海报难以验证，需结合访谈与预售 [conf=0.80, source=framework-lean-false-model 适用边界]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

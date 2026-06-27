@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- skill-engineering
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 建模协作案例）
 created_at: '2026-06-14'
@@ -21,37 +21,37 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[dk-modeling-ai-cross-validation]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[modeling-three-stages]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#domain/skill-engineering'
-- '#method/prompt-engineering'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 封装的 AI Skill 运行不稳定、触发条件缺失、示例模板丢失
+- src_unknown
   framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 Skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- signal: 让 AI 直接生成 Skill，没有经过多轮审美拉齐
+- src_unknown
   framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 Skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
-- signal: 自我感觉 Skill 已经很好，但没有拿行业标杆撞过
+- src_unknown
   framework_lens: 缺少交叉验证和质量对标
   follow_up_question: 你是否找过 1-2 份权威报告/优秀作品，从实用性、宽度、专业性三个维度给你的 Skill 打分？
-- signal: 工程指南写完就存档，没有应用到后续封装和审计
+- src_unknown
   framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
 ---# 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
@@ -64,10 +64,10 @@ diagnostic_signals:
 
 ## Background
 
-- **场景**：一堂内部需要大量封装高质量 AI Skill
-- **问题**：市面上的 Skill 创作指南不够完备，AI 生成的 Skill 质量不稳定、故障率高
-- **建模目标**：做出一份足够完备的工程指南，既能指导 AI 生成 Skill，又能作为审计标准
-- **来源**：`src_20260614_8269ccdb#2406-2586`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -77,44 +77,44 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 
 ### 阶段 1：找最佳实践
 
-- 先问 AI 目前市场上有哪些 Skill 创作最佳实践
-- 找到官方 Skill Creator（英文）和云巨米官方封装的十几个 Skill
+- src_unknown
+- src_unknown
 
 ### 阶段 2：翻译 + 解读
 
-- 用两个 AI 同时工作：一个负责翻译，一个负责专业解读
-- 把英文指南翻译成中文，并解释每段的含义和价值
+- src_unknown
+- src_unknown
 
 ### 阶段 3：合并生成 1.0
 
-- 让 AI 把所有技巧和策略做一次大合集
-- 加上 Truman 对建模的美好想象，生成"高阶 Skill 设计指南 1.0"
+- src_unknown
+- src_unknown
 
 ### 阶段 4：十几轮"喷"式迭代
 
-- Truman 发挥逻辑洁癖，不断挑毛病：
-  - 架构不完整
-  - 模块有遗漏（要求 MECE）
-  - 逻辑不严谨
-  - 没有逻辑链
-  - 优先级没排
-- 连续迭代 10-15 轮，直到改不动为止
-- 关键产出：把说明排成有优先级的十条 To Do List 和十条 Not To Do List
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### 阶段 5：交叉验证
 
-- 找两个外部标杆对照：
-  - 云巨米官方行业指南
-  - 花总春节写的基本功与 Skill 指南
-- 从实用性、宽度、专业性三个维度打分
-- 结果：官方 B+，花总 A，Truman 自己的 S
-- 再让 AI 吸收两个外部标杆的优点，又改一轮
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 阶段 6：落地应用
 
-- 用这份指南封装多个单元模型 Skill
-- 用指南做审计，让 AI 自查新 Skill 的问题
-- 发现多个 P0 级问题（如触发条件没写完整、示例模板丢失）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -138,19 +138,19 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 
 ### 关键成功因子
 
-- **人有审美，AI 有体力**：Truman 负责逻辑洁癖和审美判断，AI 负责翻译、合并、排序、交叉验证。
-- **迭代比生成重要**：1.0 很快，价值来自后面的 10-15 轮挑错。
-- **拿外部标杆撞自己**：避免自我陶醉，交叉验证才能接近真实质量。
-- **指南必须可执行**：To Do / Not To Do 要具体、有优先级、能审计。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 明确说整个过程只花了 3 小时，但产出显著超过两个外部标杆。——来源：`src_20260614_8269ccdb#2530-2536`。
-- **证据 2 [conf=0.85]**：1.0 之后的核心工作不是生成，而是"喷"——连续 10-15 轮挑错、补遗漏、排优先级。——来源：`src_20260614_8269ccdb#2466-2516`。
-- **证据 3 [conf=0.85]**：最终输出包含 7 个复杂度范式、P0/P1/P2 资源库、To Do List 十条、Not To Do List 十条。——来源：`src_20260614_8269ccdb#2498-2516`。
-- **证据 4 [conf=0.8]**：用工程指南审计 Leo 的 Skill，发现多个 P0 级问题。——来源：`src_20260614_8269ccdb#2558-2566`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -183,43 +183,43 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 
 ### 一、边界定义（封装前）
 
-- [ ] 明确目标用户是谁
-- [ ] 明确典型触发场景和触发条件
-- [ ] 明确输出形式（文本 / 结构化数据 / 决策建议 / 代码）
-- [ ] 确定复杂度星级（1-7 星范式）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 二、输入源收集
 
-- [ ] 已找到至少 1 份官方/权威 Skill 创作指南
-- [ ] 已找到至少 1 份优秀标杆 Skill 实例
-- [ ] 已完成翻译 + 专业解读（如原文非中文）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三、1.0 生成
 
-- [ ] AI 已把所有技巧和策略合并成初版指南
-- [ ] 已加入个人对"好 Skill"的审美要求
-- [ ] 初版包含目标、触发、流程、输出四层架构
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四、多轮纠偏（至少 10 轮）
 
-- [ ] 架构完整性：模块是否缺失？
-- [ ] MECE：分类是否不重不漏？
-- [ ] 逻辑链：每个要求背后是否有原因？
-- [ ] 优先级：是否排好 To Do / Not To Do 十条？
-- [ ] 案例：每个范式是否有代表案例？
-- [ ] 资源库：P0/P1/P2 元素是否分级清晰？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五、交叉验证
 
-- [ ] 已找 1-2 个外部标杆
-- [ ] 已从实用性、宽度、专业性三个维度打分
-- [ ] 已吸收外部标杆优点并改一轮
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 六、落地审计
 
-- [ ] 新 Skill 封装前先用指南自查
-- [ ] 输出 P0/P1/P2 问题清单
-- [ ] P0 级问题修复后才上线
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -237,7 +237,7 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
+- src_unknown
 
 ---
 

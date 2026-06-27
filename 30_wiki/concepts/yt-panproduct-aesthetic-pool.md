@@ -4,35 +4,35 @@
 
 id: yt-panproduct-aesthetic-pool
 component_of:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1310
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品审美
-- 审美
-- 审美卡片
-- 最佳实践
-- 最佳实践池子
-- 泛产品设计
-- 泛产品设计·审美卡片：最佳实践池子
-- 设计标准
+- src_unknown
+- src_unknown
+- src_unknown卡片
+- src_unknown
+- src_unknown池子
+- src_unknown
+- src_unknown·审美卡片：最佳实践池子
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[yt-model-aesthetic-progression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子
@@ -46,15 +46,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 围绕一个产品设计目标，能快速调出≥10个相关最佳实践进行横向比较
+- src_unknown
   framework_lens: 池子=可反复调用的参照系
   follow_up_question: 这些案例是否覆盖了不同价位、不同用户群体和不同技术路径？
-- signal: 池中案例按设计维度（如信息层级、交互效率、视觉一致性）做了标签
+- src_unknown
   framework_lens: 从素材到结构化参照系
   follow_up_question: 当你卡在'信息层级'问题时，能否只过滤出相关案例？
-- signal: 同一案例会在多个版本的方案评审中被反复引用，并推动迭代
+- src_unknown
   framework_lens: 池子的价值在于持续打磨
   follow_up_question: 上一次方案评审中，池子里的哪个案例直接促成了设计改动？
 updated_at: '2026-06-16'
@@ -83,20 +83,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **池子很大，但做方案时只选自己喜欢的案例**
-   - **原因**：池子沦为证明已有偏好的工具
-   - **修复**：在调用案例前写明当前要解决的设计问题，强制按问题匹配而非偏好匹配
+   - src_unknown
+   - src_unknown
 
 2. **把案例和当前方案做表面比较，没有抽象出可迁移原则**
-   - **原因**：黑盒思维未激活
-   - **修复**：每次比较后输出一条‘可迁移原则’，并用[[yt-panproduct-aesthetic-modeling]]固化维度
+   - src_unknown
+   - src_unknown
 
 3. **池子一旦建成就不再更新，跟不上行业最佳实践变化**
-   - **原因**：把池子当静态资产
-   - **修复**：设定‘池子保鲜期’：每季度替换掉最旧的20%案例
+   - src_unknown
+   - src_unknown
 
 4. **案例数量不足，比较变成‘矬子里拔将军’**
-   - **原因**：样本偏差导致标准被拉低
-   - **修复**：明确‘最佳实践’准入门槛：必须是在某维度被公认优秀的案例，而非随手截图
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -108,8 +108,8 @@ reviewed_by: 欧阳锋
 
 > "把大量最佳实践放到一起，将我的产品扔进去，不断迭代，直到达到类似水准才算结束。"
 
-- 不分解要素，不做显性分析——纯对比、纯感觉
-- 关键动作：集中搜集 → 筛选入围 → 对比打磨 → 建池子库
+- src_unknown
+- src_unknown
 
 ### 常见池子类型
 
@@ -136,9 +136,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Dieter Rams的"少但更好" + Edward de Bono的"水平思考"
 

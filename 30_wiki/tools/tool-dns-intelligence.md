@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: DNSDumpster, crt.sh, whois.domaintools.com
-- web: OSINT DNS analysis techniques
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-firecrawl]]'
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-google-dorking]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-osint-shodan]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # DNS情报
@@ -69,8 +69,8 @@ dig target.com NS     # DNS服务商
 
 ## 适用边界
 
-- **适用**：技术公司调研、发现竞对未公开的新项目
-- **成本**：完全免费
+- src_unknown
+- src_unknown
 
 ---
 

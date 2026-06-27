@@ -4,28 +4,28 @@ title: 技能：四层联系建立法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-动手建模法]]'
-- '[[tool-专题笔记脑图整理法]]'
-- '[[tool-知识树存储记忆法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-动手建模法]]'
-- '[[tool-专题笔记脑图整理法]]'
-- '[[tool-知识树存储记忆法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 分析框架
-- 对比表格
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 这个和那个都提到用户——表面相似性连线
+- src_unknown
   lens: 联系过浅
   follow_up: 联系必须有深层逻辑：'A的认知机制是B的变体'，有因果、有转化关系，不是表面相似
-- signal: 把所有概念都和第一性原理连起来
+- src_unknown
   lens: 联系过泛
   follow_up: 当所有路径都通向罗马时，路径没有信息量。联系必须有具体的信息增益
-- signal: 建立联系后不去验证是否成立
+- src_unknown
   lens: 只连不验证
   follow_up: 联系可以设计实验检验：'如果A的解释成立，那么在B的场景下应该观察到X'
-- signal: 联系图谱越来越密但没有去重，噪音淹没了信号
+- src_unknown
   lens: 联系冗余
   follow_up: 定期清理联系图谱，删除'有趣但不重要'的噪声联系，保留有预测力的联系
-- signal: 联系只在自己脑子里，说不出来具体关联是什么
+- src_unknown
   lens: 联系不可输出
   follow_up: 联系必须能写成一段话讲给不懂的人听，说不出来等于没真正理解
 ---
@@ -89,8 +89,8 @@ diagnostic_signals:
 | **联系替代理解** | 忙于建立联系但每个概念本身理解不深 | 先确保单个概念理解到位，再建立联系。联系是理解的深化不是理解的替代 |
 
 ## 工具/环境
-- 分析框架
-- 对比表格
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -109,15 +109,15 @@ diagnostic_signals:
 3. 这条联系能不能用来预测？——比如"因为 A 和 B 是这种关系，所以当 A 变化时，B 会..."
 
 ## 常见失败模式
-- 联系过浅：只在"这个和那个都提到用户"的表面相似性上连线，没有深层逻辑
-- 联系过泛：把所有概念都和"第一性原理"连起来——当所有路径都通向罗马时，路径没有信息量
-- 只连不验证：建立联系后不去验证是否成立——"A和B都强调用户体验"不等于"A的方法适用于B的场景"
-- 只建新联系不删旧联系：联系图谱越来越密但没有去重，噪音淹没了信号
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-动手建模法]] — 联系够多了之后，下一步是提炼模型
-- [[tool-专题笔记脑图整理法]] — 脑图是可视化联系的工具
-- [[tool-知识树存储记忆法]] — 知识树的枝干就是关键联系
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输入(Input)层 L2.建立联系：模型↔现象（举一反三），现象↔现象（底层关联），现象↔模型（N层洞察），模型↔模型（十层解读）

@@ -10,24 +10,24 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-fake-product]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-lean-stealth-service]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 人工替代复杂系统
@@ -45,8 +45,8 @@ related:
 
 2. **按风险与复杂度排序**
    优先替代两类模块：
-   - 开发周期长、技术复杂度高的模块；
-   - 与最高风险假设直接相关、但尚未被验证的模块。
+   - src_unknown
+   - src_unknown
 
 3. **设计最小人工流程**
    为每个待替代模块设计一个可在数小时到数天内启动的人工方案，典型映射如下：
@@ -65,9 +65,9 @@ related:
 
 4. **设定通过/不通过标准**
    在启动人工流程前，明确：
-   - 多少人愿意使用这个人工方案？
-   - 用户愿意为替代后的服务付费吗？
-   - 哪些环节卡顿、哪些环节被用户忽略？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **跑真实用户并记录**
    用人工流程服务一小批种子用户，记录流程中的摩擦点、用户反馈和转化数据。
@@ -89,17 +89,17 @@ related:
 
 ### 最适合的场景
 
-- **O2O / 本地生活服务**：调度、订单、履约链路复杂，但早期可用微信群+表格替代。
-- **平台型业务早期**：先人工撮合供需双方，验证双边市场是否成立。
-- **SaaS 产品第一版**：用人工客服、人工配置替代自动化后台，先验证客户愿意为什么付费。
-- **电商 / 零售创业**：用人工选品、人工会员运营替代算法和积分系统。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整或避免的场景
 
-- **强监管行业**：涉及支付清结算、医疗数据、金融交易等场景，人工对账或人工客服可能无法满足合规要求，需先咨询法务与行业监管规定 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：粗糙的人工流程可能让客户质疑专业度，需在人工方案中保留足够的品牌体验 [conf=0.80, source=任务指令 L8 边界案例]。
-- **B2B 长决策链**：客户采购流程长、涉及多人决策，人工替代订单/客服系统的验证价值有限，更适合用访谈、预售、POC 等方式验证 [conf=0.80, source=任务指令 L8 边界案例]。
-- **高频高并发场景**：当并发量达到人工无法承载的临界点时，人工方案会失真，需提前设定替代方案的容量上限。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -115,18 +115,18 @@ related:
 
 **教学推演：O2O 生鲜配送的订单与调度系统** [conf=0.60, source=基于讲义清单的教学推演]
 
-- **背景**：团队计划开发一个生鲜配送平台，第一反应是自研订单系统 + 骑手调度系统。
-- **人工替代方案**：
-  - 用户通过微信群或小程序表单下单（不做订单系统）；
-  - 运营人员在 Excel 中汇总订单，手动分配给兼职配送员（不做调度系统）；
-  - 配送完成后人工在表格中标记状态，每晚统一对账（不做完整履约系统）。
-- **验证假设**：
-  - 用户是否愿意为「当日达生鲜」持续下单？
-  - 配送半径、时段、客单价是否能支撑单位经济模型？
-  - 哪些品类的复购率足够高，值得后续投入系统优化？
-- **结果与决策**：
-  - 若 2 周内无法稳定获得 20 个复购用户，说明需求或方案不成立，应停止或转型；
-  - 若跑通，则优先开发订单与调度系统中最高频、最痛点的模块，而非一次性做全。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 > 该案例为基于 FALSE 模型 S 阶段的教学推演，非特定公司真实运营数据，用于说明工具用法。
 
@@ -143,10 +143,10 @@ related:
 
 以下情况不宜或需谨慎使用本工具：
 
-- **合规底线不可触碰**：支付清结算、医疗数据、用户隐私等场景，人工处理可能直接违反监管要求。
-- **用户体验是核心竞争力**：如果产品卖点就是「丝滑的自动化体验」，过度人工的 MVP 会让用户产生错误认知。
-- **团队没有人工运营能力**：创始人不愿意下场、没有运营人员兜底时，人工方案会迅速崩溃。
-- **已经跨过早期的假设验证阶段**：当商业模式已被验证，系统开发就是核心能力时，应进入正式研发而非继续人工替代。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

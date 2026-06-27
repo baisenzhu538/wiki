@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-a-b-testing
 title: A/B测试：增长实验的统计基础
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-data-driven-decision
-  - yt-growth-growth-hacking
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们改了页面，但不知道效果'"
+  - src_unknown
     framework_lens: A/B测试——任何改动都需要A/B测试验证，不能凭感觉
     follow_up_question: "你的改动是否设计了A/B测试？对照组和实验组的样本量是否足够？"
-  - signal: "用户说'A/B测试结果显示B版本好，但上线后效果不好'"
+  - src_unknown
     framework_lens: A/B测试——A/B测试有局限性，需要考虑外部效度和长期影响
     follow_up_question: "A/B测试的持续时间是否足够？是否考虑了季节性和用户习惯变化？"
-  - signal: "用户说'我们同时测试了10个变量'"
+  - src_unknown
     framework_lens: A/B测试——多变量测试需要更复杂的分析，容易混淆
     follow_up_question: "你是否控制了变量？10个变量同时测试，如何确定哪个变量起作用？"
-  - signal: "用户说'A/B测试样本量不够'"
+  - src_unknown
     framework_lens: A/B测试——样本量需要提前计算，确保统计显著
     follow_up_question: "你的样本量是否基于预期提升率和显著性水平计算？"
-  - signal: "用户说'我们只做了一次A/B测试就决定了'"
+  - src_unknown
     framework_lens: A/B测试——一次测试不足以得出结论，需要重复验证
     follow_up_question: "这个结果是否在其他场景重复验证？是否考虑了长期影响？"
 
@@ -53,14 +53,14 @@ A/B测试的统计基础：
 假设：版本A和版本B的指标有显著差异
 
 实验设计：
-- 随机分组：用户随机分配到A或B
-- 样本量：基于预期提升率和显著性水平计算
-- 显著性水平：α = 0.05（95%置信度）
-- 统计功效：1-β = 0.8（80%概率检测到真实差异）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 结果分析：
-- p值 < 0.05：拒绝原假设，差异显著
-- 置信区间：不包含0，差异显著
+- src_unknown
+- src_unknown
 ```
 
 ## 关键洞察
@@ -146,21 +146,21 @@ n = 16 × p × (1-p) / (p1 - p2)²
 
 ## 行动触发器
 
-- 当优化产品时 → A/B测试验证
-- 当样本量不足时 → 延长测试或合并测试
-- 当结果矛盾时 → 检查实验设计
-- 当测试成功后 → 考虑长期影响
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-growth-growth-hacking`：增长黑客
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- A/B测试统计研究
-- 增长实验实践
+- src_unknown
+- src_unknown
+- src_unknown

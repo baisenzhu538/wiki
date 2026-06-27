@@ -8,35 +8,35 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 prerequisites: null
 query_triggers:
-- 小抄"与"必修课"的互锁
-- 与一堂其他核心课程的关系
-- 五层深度理解
-- 冰山复盘模型
-- 双向链接
-- 商业模式隐忧
-- 复盘可能强化既有偏见
-- 对"天赋/素质"的回避造成逻辑断层
-- 搭建个人
-- 操作步骤
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[modeling-personal-practice-loop]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-scientific-expression]]'
-  - '[[yt-entrepreneur-scientific-method]]'
-  - '[[yt-personal-deliberate-practice]]'
-  - '[[master-first-principles]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-time-management]]'
-  - '[[yt-system-course-map-lecture]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
@@ -54,16 +54,16 @@ yitang:
   series: false
 tags: null
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 复盘从具体事件出发，而不是泛泛而谈
+- src_unknown
   framework_lens: 具体事件是复盘的锚
   follow_up_question: 如果复盘只保留一个关键事件，你会选哪一个？
-- signal: 复盘至少挖掘到原因层，并尝试提取可迁移的模型
+- src_unknown
   framework_lens: 冰山复盘模型
   follow_up_question: 这次事件背后的模式，在另外三个场景中是否也可能出现？
-- signal: 复盘后产出具体改进行动，并跟踪执行情况
+- src_unknown
   framework_lens: 复盘的价值在于改变未来行为
   follow_up_question: 上次深度复盘的行动项，现在完成了多少？
 updated_at: '2026-06-16'
@@ -86,20 +86,20 @@ trust_level: medium-high
 ### 失败模式
 
 1. **复盘变成互相指责或自我批评**
-   - **原因**：心理不安全
-   - **修复**：明确规则：只讨论系统和行为，不评价人格
+   - src_unknown
+   - src_unknown
 
 2. **只描述发生了什么，没有追问为什么**
-   - **原因**：停留在事实层
-   - **修复**：用 5 Whys 或冰山图强制下挖到原因和模型层
+   - src_unknown
+   - src_unknown
 
 3. **提取的模型过于抽象，无法指导未来行动**
-   - **原因**：模型脱离情境
-   - **修复**：每个模型必须配一个‘下次遇到X情况时，我会Y’
+   - src_unknown
+   - src_unknown
 
 4. **只复盘失败，成功经验没有沉淀**
-   - **原因**：偏差关注
-   - **修复**：每次复盘至少分析一个成功案例，提炼可复制因素
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -140,28 +140,28 @@ trust_level: medium-high
 周子敬用五层递进结构展开对 IPO 的深度理解，形如冰山，从表层操作深入到情感内核：
 
 **第一层：正确姿势（必要性）**
-- 核心问题：IPO 六个要素是必要的吗？
-- 回答：对于有长期追求的人，**每一个环节都必要**。输入太差则信息源枯竭（"你输入什么信息就会变成什么人"），不建模则碎片化无法积累，不输出则无法验证真伪。
-- 破除妄念：读书少不必焦虑——读书、听课只是输入手段之一，所有的五官接收到的信息都是学习。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二层：螺旋上升（迭代性）**
-- 核心问题：IPO 是静态的吗？
-- 回答：IPO 通过一轮又一轮的输出→反馈→输入形成**螺旋上升**。周子敬复盘自己从早年大量阅读+摘抄笔记 → 构建专题笔记（乔布斯专题、王兴专题）→ 建模型（动力阻力触点、Y模型）→ 搭教研体系 IPO → 当前 AI 工具辅助 IPO 的完整进化路径。
-- 每周 2-3 小时复盘上周课程，是螺旋上升的实操示范。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第三层：本质抽象（迁移性）**
-- 核心问题：为什么要学到 IPO 这么底层？学具体模型不够吗？
-- 回答：**"只有底层才能击穿时间和空间。"** 具体模型换领域就失效，底层模型（如 IPO）在任何新领域（如 AIGC）都能立刻迁移——定目标→找信息源→预建模型→快速输出→多轮迭代。IPO 让你在面对完全陌生的课题时，仍然有章可循。
-- IPO 的三大价值：**快速上手、体系科学、持续进步。**
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第四层：科学（因果性）**
-- 核心问题：IPO 和学习能力之间有因果关系吗？
-- 回答：**因果关系确定。** IPO 的 3+3 要素直接决定学习效率。理解这层后，看待学习就会非常通透——"凡人畏果，菩萨畏因"，不必盯着学习结果，专注在 IPO 六个因上不断做功，结果自然出来。
+- src_unknown
+- src_unknown
 
 **第五层：底气（信心）**
-- 核心问题：前面四层都是理性的，感性上收获什么？
-- 回答：**"我可以学"** ——这四个字的背后，是对自己学习系统的巨大底气。王兴在美团早期推崇的"我可以学"价值观，本质上是对自身 IPO 确定性的信心。
-- 金句：**"我喜欢用潜力做计划，而不是按能力。"** ——如果你每次只做自己会的事，人生该多没意思。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四、操作步骤（搭建个人 IPO）
 
@@ -174,26 +174,26 @@ trust_level: medium-high
 ### 五、输入/处理/输出全景策略
 
 **输入四源：**
-- 从案例学（最佳实践 + 失败案例）——一手、客观、接近事实
-- 从材料学（书、论文、AI 工具搜索）——二手、可能失真
-- 跟人学（教练、标杆、牛人调研）——间接、相对抽象
-- 实践总结（正向结果复盘 + 失败经验复盘 + 意外经验复盘）——最深、最直接
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **处理三阶：**
-- 清单/小抄/目录（松散，偏具体）
-- 方法/框架/雷达图/N步法/MECE（中间层）
-- 底层逻辑/原理/本质/学科经典（迁移性极强）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出两向：**
-- 对内梳理：提炼画重点 → 专题笔记 → 复盘推演（举一反三，复盘过去推演未来）。课程作业即是"对内梳理的最高层"。
-- 对外使用：分享/讲给他人 → 拆推评算/辩证讨论 → 落地实践/刻意练习。
+- src_unknown
+- src_unknown
 
 ### 六、与一堂其他核心课程的关系
 
-- **成长三部曲**：IPO（最宽，打地基）→ yt-personal-deliberate-practice|刻意练习（在 IPO 基础上专项精进）→ yt-personal-knowledge-management|知识管理（有了 IPO 和刻意练习后，系统化管理知识资产）。学完 IPO 再学后两者。
-- **Y 模型 / 五步法**：五步法是 IPO 在创业场景的具体应用，逻辑同构——做好过程（IPO），结果自然出来。
-- **yt-personal-time-management|时间管理**：独立课题——时间不够≠学习不够，IPO 框架下时间管理只是输入频率的调节器，不是学习的本质。
-- **科学决策（Y 模型课）**：IPO 的科学层（第四层）与 Y 模型的因果信念一脉相承——都建立在"因果关系可被认知、可被验证"的科学底座上。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -217,14 +217,14 @@ trust_level: medium-high
 
 ### 双向链接
 
-- **30_wiki/systems/一堂方法论体系总图**：深度复盘（IPO 模型）在体系总图中属于"学习方法论"子系统，是"成长三部曲"的第一环。总图中的 Y 模型、五步法、科学决策等体系均共享"因果可被认知和建模"的科学底座，IPO 是这个底座在学习领域的具体化。
-- **[[yitang-course-map]]**：课程地图的总索引。深度复盘属于 personal/method 类别，course_id: 404，level: core。在课程地图中与同为 personal 必修课的 IPO 学习（402）、刻意练习（403）、时间管理（405）形成个人成长方法链。
-- **[[yt-system-course-map-lecture]]**：体系课体系总览。本节课讲到的"科学学习五层"与《解放思想》（科学创新的底层规律）、《科学决策》（Y 模型的因果信念）、《五步法》（过程决定结果的因果逻辑）均属于一堂"科学派"方法论家族——共同底层的哲学是"相信因果关系可被认知、建模和验证"。
-- **[[yt-personal-ipo-learning]]**：同为个人地图必修课。IPO 学习（course_id 402）是深度复盘的前置或并列课程，两节课共享 IPO 核心框架但侧重不同：402 侧重"理解 IPO 是什么"，404 侧重"如何用 IPO 深度复盘自己的学习系统并螺旋上升"。两者形成"认知→复盘→迭代"的闭环。
-- **yt-personal-deliberate-practice|刻意练习**：成长三部曲第二环。深度复盘搭建 IPO 框架后，刻意练习提供在具体能力线上的专项精进方法。二者的衔接点在于：IPO 中的 Output 环节的最高形式就是刻意练习（长期、有反馈、不断挑战能力边界的练习）。
-- **yt-personal-knowledge-management|知识管理**：成长三部曲第三环。知识管理解决的是"IPO 产生的大量输出如何系统化存储、检索和复用"的问题。周子敬本人的知识库体系（深度思考笔记、内化笔记、手绘建模、语音备忘、截图备忘）即是知识管理层的实操范例。
-- **yt-entrepreneur-scientific-method|科学决策/Y 模型**：深度复盘第四层"科学因果"与 Y 模型课共享同一科学哲学底座。Y 模型教"如何科学地认知任何事物"，IPO 教"如何科学地认知自己的学习过程"——本质上是同一个模型在不同抽象层级的两个实例化。
-- **yt-personal-time-management|时间管理**：课程中明确提到"时间管理是独立课题"。IPO 框架提供了一个重新审视时间管理的视角——时间不够的本质不是时间管理问题，而是 IPO 中的 Input 质量和效率问题。两课联动可产生"时间管理的 IPO 重构"洞察。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 

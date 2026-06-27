@@ -12,8 +12,8 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md
 related:
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - "[[tool-strategy-customer-selection]]"
+  - src_unknown
+  - src_unknown
 ---
 **来源**：© 2021 Yashili International（雅士利国际），冉鹏引用为细分市场分析案例
 **核心逻辑**：奶粉市场按年龄段×价格带×功能需求做三维细分，找到对手未覆盖的格子

@@ -7,7 +7,7 @@ id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -19,36 +19,36 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 预判交付物
-- 预判产出
-- 四层级
-- 关键画布
-- Plan A Plan B
-- 预判结束的标志
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-probability-engineering]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户觉得自己想通了，但拿不出交付物
+- src_unknown
   framework_lens: 预判没有产出
   follow_up_question: 你的预判结果能否让另一个人不看你在场讲解就能理解并评判？
-- signal: 用户只做到L1/L2就下场
+- src_unknown
   framework_lens: 预判深度不足
   follow_up_question: 你完成了五步法画布和硬伤排除记录吗？如果没有，你还在L1/L2
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-foresight-addition-subtraction]]'
-  - '[[yt-five-step-level-blindspots]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 预判交付物四层级：从模糊想法到Plan ABC
 
@@ -73,24 +73,24 @@ related:
 
 ## Key Evidence
 
-- **Truman一堂实战对应L4**：3个关键画布（模块化咨询/创业社群/创新培训），Priority排序，每个都做完了硬伤检查。A（咨询）2个月失败→切B（社群）效率低→切C（培训）跑通。"前两次'失败'是计划内的试错，团队完全没有崩。"
+- src_unknown
 
-- **古董奶茶店对应L3**：1个关键画布（青岛+合资经营+奶茶品牌），但他在选城市环节实际上准备了3个候选（青岛/大连/烟台）——暗含L4思维。"我万一选错了还有备用城市。"
+- src_unknown
 
-- **L1→L4的差距不是"分析量"的差距，是"存活率"的差距**——L1进场的项目，成功率<10%；L4进场的项目，单次成功率30%+。仅靠把交付物从L1提升到L4，成功率就翻了3倍。
+- src_unknown
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- **追求L4可能引发"过度预判"**——有些项目的不确定性无法通过预判降低（如全新的技术路线），此时硬要做出Plan B/C只是形式主义。
-- **L4需要的信息量远超L1**——如果时间只有1周、预算为零、无法做专家访谈，做到L3已经很困难，L4可能不现实。
-- **四层级是"质量标尺"不是"流程关卡"**——不是说每个项目都必须从L1写到L4，而是让你知道自己目前的交付物在什么水平。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
-- **已经验证了PMF、在做规模化的业务**——此时需要的是增长画布，不是预判画布。
-- **纯个人副业探索**（目标规模<L2光谱位置）——做到L2/L3已经足够，做到L4可能矫枉过正。
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -102,7 +102,7 @@ related:
 
 ### 关联卡片
 
-- [[yt-foresight-15-char-mantra]] — 十五字诀做完后的产出物应该落在四层级的L3或L4
-- [[yt-foresight-probability-engineering]] — L4（Plan A+B+C）是概率工程中"增加试错次数"的前置条件
-- [[yt-five-step-method]] — 五步法画布是L3/L4交付物的核心载体
-- [[yt-entrepreneur-key-hypotheses]] — L3画布中每个环节对应一组待验证的关键假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

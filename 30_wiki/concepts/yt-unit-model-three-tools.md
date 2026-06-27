@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -11,14 +11,14 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "单元模型"
-  - "斧子尺子梯子"
-  - "单元经济模型"
-  - "商业模式分析"
-  - "斧子预判"
-  - "尺子测量"
-  - "梯子增长"
-  - "一堂单元模型"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -36,7 +36,7 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '是否按预判期/测试期/经营期选择斧子/尺子/梯子', 'framework_lens': '阶段工具匹配 / 工具边界', 'follow_up_question': '是否用尺子做预判或用斧子做经营决策？'}
   - {'signal': "每个阶段是否有明确的'花钱程度'和决策风险认知", 'framework_lens': '成本意识 / 风险收益', 'follow_up_question': '是否在预判期就花大钱做精细测试？'}
@@ -45,11 +45,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-scale-economy-weapon-library]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[yt-customer-acquisition-toolkit]]'
-  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 单元模型三工具：斧子尺子梯子
 

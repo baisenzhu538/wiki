@@ -7,7 +7,7 @@ id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
 - src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01
 - src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02
@@ -19,41 +19,41 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 十五字法诀
-- 主动定中局
-- 充分做加法
-- 专业做减法
-- 预判框架
-- 15字黄金法则
-- 机会预判方法论
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 supersedes:
-- concept-一堂-business-prediction
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-business-spectrum]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-concept-p-type-l-type]]'
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户只背十五字，不做加法减法
+- src_unknown
   framework_lens: 口诀化
   follow_up_question: 你的选项池里有多少个经过拆解的选项？如果<10个，加法没做
-- signal: 用户做减法凭感觉，不识别硬伤
+- src_unknown
   framework_lens: 减法不专业
   follow_up_question: 你排除每个选项时，能说出具体的硬伤类型吗？
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[tool-一堂-business-prediction-15-char]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-foresight-addition-subtraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 十五字黄金法诀：机会预判的核心框架
 
@@ -71,21 +71,21 @@ related:
 
 ## Key Evidence
 
-- **古董奶茶店**：从大行业砍到民生（砍80%）→ 民生砍到奶茶（砍80%）→ 奶茶砍到合资加盟 → 全国前30城市砍到3个（青岛/大连/烟台）→ 实地考察后锁定青岛。10年后青岛100+店，区域头部。每一步都在几十到上百个选项池中筛选。
+- src_unknown
 
-- **小龙电商**：服装→男装→男裤→正装裤→供应链搞定后正式立项。早期切口越小越准，资源才相对充裕。"如果砸到女装赛道可能水花都溅不出来，砸到男裤正装裤你的几十万就有竞争优势。"
+- src_unknown
 
-- **Truman一堂**：创业服务市场全扫描→按需求归类→6个方向→专家评估砍掉2个（研报/黄页）→3个选项（咨询/社群/培训）→Plan A咨询失败→Plan B社群效率低→Plan C培训跑通，5年做到5000万营收。
+- src_unknown
 
-- **概率公式**：单次成功率30% + 一年4次试错 → 1 - 0.7^4 = 76% 整体成功率。预判+快试错的组合策略。
+- src_unknown
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- **十五字法诀是框架不是公式**——它告诉你怎么思考，不告诉你怎么做每一步的具体操作。每个"加法"和"减法"的质量取决于执行者的信息收集能力和商业判断段位。
-- **"定中局"依赖自我认知**——很多人不愿意诚实面对自己真正想要什么（短期赚钱 vs. 长期事业），导致"中局"定错，后续预判全盘偏差。
-- **加法容易做多，减法容易做快**——"充分"和"专业"两个副词最容易在执行中被省略。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -97,9 +97,9 @@ related:
 
 ### 不要用的场景
 
-- **已验证的成熟生意**——如果你已经在一个确定赚钱的模式里运转（如已盈利的单店），不需要用十五字法诀重新论证。
-- **纯执行任务**——如果是老板已经定好方向、只需你执行的内部项目，用五步法259做执行拆解即可。
-- **紧急止损决策**——项目已经运行且出现危机需要立刻止血时，十五字法诀的周期（2-4周）太慢。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -111,20 +111,20 @@ related:
 
 ### 关联卡片
 
-- [[yt-foresight-business-spectrum]] — 终局光谱图是"定中局"的视觉锚点工具
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设是"做减法"的核心分析单元
-- [[yt-concept-p-type-l-type]] — P型/L型是预判能力的性格基础
-- [[yt-foresight-addition-subtraction]] — 加法减法的具体操作手册
-- [[yt-foresight-ten-fatal-flaws]] — 十大硬伤是专业做减法的检查清单
-- [[yt-foresight-probability-engineering]] — 概率工程：小概率→大概率的数学原理
-- [[yt-five-step-method]] — 五步法是"预判结束后如何执行"的框架；预判先于五步法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 冲突与互补
 
-- **与[[yt-entrepreneur-lean-validation]]互补**：十五字诀做的是"下场前的纸面预判"，精益验证做的是"下场后的快速实验"。两者顺序不可颠倒——预判先缩小选项池到3-5个，精益验证再逐个测试。
-- **与[[master-systems-thinking]]互补**：系统思考强调"结构影响行为"，十五字诀的"做加法"本质上是把线性思维扩展为多维选项空间系统。
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- **职业选择**：定中局（3年后想成为专家还是管理者）→ 做加法（列出10个可能的岗位/行业方向）→ 做减法（排除能力不匹配/天花板低/无学习空间的选项）
-- **投资决策**：定中局（追求稳定现金流还是高成长）→ 做加法（扫描赛道）→ 做减法（排除行业天花板低/团队有硬伤/窗口期已过的标的）
+- src_unknown
+- src_unknown

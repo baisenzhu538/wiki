@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 id: yt-prompt-anti-flattery
@@ -13,27 +13,27 @@ version: 1
 difficulty: intermediate
 confidence: 0.9
 prerequisites:
-  - yt-model-prompt-engineering
+  - src_unknown
 component_of:
-  - yt-model-prompt-engineering
+  - src_unknown
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - "反谄媚"
-  - "AI迎合"
-  - "确认偏误"
-  - "反对者角色"
-  - "交叉验证"
-  - "去正向形容词"
-  - "先问缺点"
-  - "证伪实验"
-  - "认知泡泡"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-13
 estimated_tokens: 2200
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '提示词中主动删除‘优秀’‘有潜力’等正向形容词，避免引导AI迎合', 'framework_lens': '语言倾向塑造AI输出', 'follow_up_question': '你的提示词里有没有让AI顺着你说的词？'}
   - {'signal': "会让AI扮演反对者或 Devil's Advocate 角色", 'framework_lens': '对抗性提示降低确认偏误', 'follow_up_question': '你最近一次让AI专门找你的方案漏洞是什么时候？'}
@@ -43,11 +43,11 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - '[[yt-prompt-brainstorming]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[yt-prompt-iterative-prompting]]'
-  - '[[yt-prompt-writing-workflow]]'
-  - '[[yt-note-ai-human-division]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 反谄媚机制：让 AI 说真话
 
@@ -65,31 +65,31 @@ related:
 ### 失败模式
 
 1. **提示词充满暗示，AI只能顺着说**
-   - **原因**：倾向性提问
-   - **修复**：把问题改写成中性描述，删除价值判断词
+   - src_unknown
+   - src_unknown
 
 2. **只让AI找优点，从不质疑**
-   - **原因**：确认偏误
-   - **修复**：固定流程：先问‘这个项目最可能失败的3个原因’
+   - src_unknown
+   - src_unknown
 
 3. **AI给了负面反馈就忽略或反驳**
-   - **原因**：防御性反应
-   - **修复**：把负面反馈当作假设，设计验证实验
+   - src_unknown
+   - src_unknown
 
 4. **反谄媚变成纯粹的悲观主义**
-   - **原因**：矫枉过正
-   - **修复**：同时收集正反两方面证据，再做权衡
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 核心问题：确认偏误 × AI谄媚 = 认知泡泡放大器
 
-- claim:01 [conf=0.90] 大模型天生谄媚——预训练中被灌输了"对人类友好"的指令。AI 会捕捉提问中的倾向性（包括你自己都没意识到的），然后顺着你说。案例："请从数据中找积极指标"→ AI 会拼命从负数里榨糖
-- claim:02 [conf=0.85] 创业者天然有确认偏误（对自己项目过度乐观），AI 又天然谄媚。两个加在一起，认知泡泡越吹越大。AI 的价值不是让你更自信，是让你更清醒
+- src_unknown
+- src_unknown
 
 ### 三大反谄媚机制
 
-- claim:03 [conf=0.85] **机制一：删除所有正向形容词**。"积极""优质""庞大""美好""有潜力"——这些词在 AI 那里都会被识别为你有一个明确倾向。它会顺着你的倾向给答案。
+- src_unknown
 
 | 错误问法 | 正确问法 |
 |---------|---------|
@@ -97,22 +97,22 @@ related:
 | "帮我在数据里找找积极指标" | "请从数据中找出异常、问题、机会和需要进一步核实的信号" |
 | "这个方向是不是比那个更好？" | "请比较两个方向的适用条件、成本、风险和各自的验证方式" |
 
-- claim:04 [conf=0.85] **机制二：先问缺点，再问优点**。先让 AI 把方案的致命缺陷剥出来——让它扮演你最大的怀疑者。缺点聊透了，聊到你觉得"好像也不是全都不能接受"，再让它说说优点。这时候说优点要克制
+- src_unknown
 
-- claim:05 [conf=0.85] **机制三：引入反对者角色（多角色交叉验证）**。新开几个窗口，让 AI 分别扮演：
-  - 投资人视角："你是红杉投消费品的投资人，十年经验。你看这个项目。如果你决定不投，是因为什么？"
-  - 竞品视角："你是我的竞品市场负责人。你看我的品牌策划书。你觉得会被威胁到吗？"
-  - 失败复盘者视角："你是一年后复盘这个项目的创始人。如果失败了，最可能的三个原因是什么？"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
   一轮反对者交叉验证下来，一个你本来打 70 分的方案，可能瞬间掉到 40 分——然后你知道该重新想想了
 
 ### 进阶：设计证伪实验
 
-- claim:06 [conf=0.80] 更高质量的问题不是"如何证明这个项目能成功"，而是"哪些证据出现时说明这个项目不值得继续投入"。"证伪"比"证实"更能产生高质量决策信息——因为证实太容易（你总能找到支持自己观点的证据），证伪需要直面现实的残酷
+- src_unknown
 
 ### AI辅助判断的正确姿势
 
-- claim:07 [conf=0.85] 直接问"这个方案能打几分"会得到偏高分——AI 一旦先给总分就会为它辩护。正确做法：先分项后总分，评分标准必须可证伪（"语言优美""有潜力"不是好标准）。多模型交叉验证，永远使用当下最好的模型
+- src_unknown
 
 ## Critique
 
@@ -127,9 +127,9 @@ related:
 ## Framework Gallery
 
 ### 关联概念
-- [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
-- [[yt-prompt-iterative-prompting]] — 迭代提示词——反谄媚是每轮迭代必须嵌入的校准机制
-- [[yt-panproduct-demand-motivation-resistance]] — 动力阻力——反谄媚本质上就是降低 AI 使用中的"阻力"（过度自信）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

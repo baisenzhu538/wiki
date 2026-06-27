@@ -6,31 +6,31 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
-- 单元模型
-- Unit Economics
-- LTV/CAC
-- 单位经济模型
-- 回本周期计算
-- 商业模式拆解
-- 最小交易单元
-- 创业经济可行性
-- 毛利分析
-- 单客经济模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-business-model-unit-economics]]'
-  - '[[yt-entrepreneur-barriers]]'
-  - '[[yt-entrepreneur-259-milestone]]'
-  - '[[case-five-step-growth-first-lever]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋
@@ -47,15 +47,15 @@ yitang:
   course_type: method
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户LTV/CAC看起来很好，但数字是假设的
+- src_unknown
   framework_lens: 模型建立在空气上
   follow_up_question: 你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演
-- signal: 用户只看单元模型，不看真实现金流
+- src_unknown
   framework_lens: 模型脱离现实
   follow_up_question: 按当前现金流，你还能活几个月？单元模型好但现金流断了也没用
-- signal: 单元模型算完，团队却说不出哪个变量改善10%会让结论反转
+- src_unknown
   framework_lens: 缺少杠杆敏感度分析
   follow_up_question: 如果对LTV、CAC、留存率分别做±10%的灵敏度测试，哪个变量变动会让模型从成立变为不成立？
 author: 老顽童
@@ -90,10 +90,10 @@ author: 老顽童
 
 ## When NOT to Use
 
-- PMF 未确认、留存曲线尚未趋稳时。
-- 商业模式本质是网络效应/生态效应，独立单客模型不适用时。
-- 资本密集型或强监管行业，里程碑风险大于单元经济风险时。
-- 只有假设没有真实数据，却用精确数字自我安慰时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -109,9 +109,9 @@ author: 老顽童
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段/五步法进阶」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -130,10 +130,10 @@ author: 老顽童
 
 ## diagnostic_signals
 
-- signal: "创业者在BP里写了漂亮的LTV/CAC分析，但被问到'这个LTV基于什么留存假设'时答不上来"
+- src_unknown
   framework_lens: "算对了但没用的信号——数字背后没有数据支撑，只是财务幻想"
   follow_up_question: "你的LTV假设客户留存6个月——你见过多少客户活过了6个月？如果答案是小于10个，这个LTV是猜的，不是算的"
-- signal: "单元模型算完了，团队感觉'数字还行'，但没人能用它来指导下一步做什么"
+- src_unknown
   framework_lens: "算对了但没用的信号——单元模型是数字结果，不是行动指南"
   follow_up_question: "这个单元模型告诉你'改善LTV'还是'降低CAC'更重要？你应该花下周的时间做什么具体的事来改善它？"
 
@@ -205,10 +205,10 @@ author: 老顽童
 2. 收入项：__________（单价 × 频次 × 转化率）
 3. 成本项：__________（获客 / 履约 / 服务 / 支付）
 4. 核心指标：
-   - LTV = __________
-   - CAC = __________
-   - 单位毛利 = __________
-   - 回本周期 = __________
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. 每个核心变量的数据来源与信心指数（1-5）：__________
 6. 灵敏度测试：哪个变量 ±10% 会让结论反转？__________
 7. 对应的下周具体行动项：__________
@@ -216,8 +216,8 @@ author: 老顽童
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
-- [[yt-management-business-formula]] — 业务公式：单元模型是创业场景下的业务公式，聚焦最小交易单元的量化逻辑
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -251,9 +251,9 @@ author: 老顽童
 
 ## Related
 
-- [[yt-entrepreneur-five-step-method]] — 一堂五步法总纲，单元模型是第三步「验证」核心工具
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设方法论，单元模型用于量化验证关键假设
-- [[yt-management-business-formula]] — 业务公式，单元模型是创业场景下最小交易单元的量化表达
-- [[yt-unit-model-selection]] — 单元模型选择方法
-- [[dk-yb21-ecommerce-pricing-independent-model]] — 电商独立定价模型参考
-- [[yitang-course-map]] / [[yt-system-course-catalog]] — 课程坐标与全量目录
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

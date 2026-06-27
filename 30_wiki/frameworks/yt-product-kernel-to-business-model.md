@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-to-business-model
 title: 从内核到商业模式：承上启下
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-key-conversion
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户有产品内核，但不知道怎么赚钱"
+  - src_unknown
     framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
     follow_up_question: "用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？"
-  - signal: "用户说'先免费积累用户，再想办法赚钱'"
+  - src_unknown
     framework_lens: 从内核到商业模式——免费模式需要验证付费意愿
     follow_up_question: "免费用户中，有多少比例愿意付费？付费意愿验证过吗？"
-  - signal: "用户商业模式和内核不匹配"
+  - src_unknown
     framework_lens: 从内核到商业模式——商业模式必须服务内核
     follow_up_question: "你的商业模式是否强化了内核价值？还是削弱了？"
-  - signal: "用户内核验证成功，但商业模式跑不通"
+  - src_unknown
     framework_lens: 从内核到商业模式——内核成功≠商业模式成功
     follow_up_question: "内核验证成功，但单元模型是否成立？LTV > CAC吗？"
-  - signal: "用户说'我们内核很好，但市场不认可商业模式'"
+  - src_unknown
     framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
     follow_up_question: "市场不认可的是定价、付费方式，还是价值感知？"
 
@@ -122,21 +122,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 同时思考商业模式
-- 当验证内核时 → 验证付费意愿
-- 当设计商业模式时 → 确保与内核匹配
-- 当单元模型不成立时 → 检查内核和商业模式的匹配度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-key-conversion`：关键转化率
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂商业模式设计课
+- src_unknown
+- src_unknown
+- src_unknown

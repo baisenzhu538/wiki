@@ -9,16 +9,16 @@ source_refs: []
 status: draft
 type: analysis
 domain:
-- ai
-- yitang
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-note-checklist-concept]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -126,9 +126,9 @@ Agent 的质量上限不是模型决定的，是用户给它的上下文决定�
 ```
 
 关键环节：
-- **知识注入**：一堂方法论被封装成清单体知识库，注入 agent 上下文
-- **循环机制**："给 agent 的整个上下文和循环"——有 iterative refinement 循环
-- **封装层级**：当前"在词这一层"，未来演化到"单元模型"层
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,9 +149,9 @@ Agent 的质量上限不是模型决定的，是用户给它的上下文决定�
 ### 3. 约束即能力
 
 每个"限制"实际上都让人站到了正确的位置：
-- P 角色 → AI 不越界替人思考 → 人必须保持 L3+
-- L1-L2 边界 → 输出是半成品 → 人必须亲手完成
-- 清单体 I/O → 强制结构化 → 倒逼人提高笔记质量
+- src_unknown
+- src_unknown
+- src_unknown
 
 **Truman 设计的不是"最强的 AI"，而是"最能让人成长的 AI"。**
 

@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-一堂五步法"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_a632cc1c
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计-用户卡片-一堂五步法"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-多视角思考]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户视角]]'
-  - '[[ocr-泛产品设计-用户卡片-行业分析画布]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-一堂五步法
@@ -37,35 +37,35 @@ png` 11 泛产品设计·用户卡片 一堂五步法 善于分析商业成败�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 一堂五步法是一种泛产品设计工具，用于分析商业成败的核心假设，包含需求、解决方案、商业模式、增长、壁垒五个维度。
-- 价值假设聚焦目标用户及其核心问题，验证用户选择你的核心要素。
-- 增长假设关注可规模化的获客渠道，检验业务的扩张可行性。
-- 商业模式分析需明确关键成本项与收入项，厘清盈利结构。
-- 壁垒分析旨在识别业务真正的护城河，判断长期竞争优势来源。
-- 该方法适用于所有涉及商业成败要素的分析场景，具有通用性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该框架声称"适用于所有涉及商业成败要素的分析场景"，这一普适性断言是否经过跨行业验证？有无不适用或失效的案例？
-- "价值假设"与"增长假设"仅覆盖五维中的两维，其余三维（解决方案、商业模式、壁垒）未被赋予假设检验标签，是否存在逻辑不对称？
-- "用户选择你的核心要素"具体指代用户决策的哪些维度（功能、价格、情感、社会认同等），操作化标准为何？
-- "可规模化的获客渠道"中"可规模化"的量化阈值如何界定？是否因行业、阶段、区域而异？
-- "真正的护城河"与"虚假护城河"的区分标准未予说明，如何避免事后归因与幸存者偏差？
-- 框架将五个维度并列呈现，但未明确维度间的动态关系与迭代顺序，实际应用中是否存在优先级或依赖路径？
-- "一堂五步法画布"作为可视化工具，其结构布局（如维度排列、空间关系）是否承载特定分析逻辑，OCR丢失的视觉信息是否影响理解？
-- 该方法论与精益画布、商业模式画布等现有工具的差异化优势及适用边界为何？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

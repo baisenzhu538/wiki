@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 id: yt-model-management-map
@@ -9,15 +9,15 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "五阶成长路径"
-  - "关联卡片"
-  - "核心追求"
-  - "知识体系定位"
-  - "管业务（L4）：四大杠杆"
-  - "管公司（L5）：四大支柱"
-  - "管团队（L3）：五项基本功"
-  - "管理修炼地图"
-  - "管项目（L2）：四步闭环"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -33,14 +33,14 @@ yitang:
   module: "方法论总纲"
   course_type: model
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '新晋管理者学完管理地图，但带团队时还是用个人贡献者的习惯', 'framework_lens': '知行脱节——管理地图提供了路径，但肌肉记忆没有转换', 'follow_up_question': '过去一周你有多少时间花在"管自己"上，多少时间花在"管他人/项目/业务"上？如果前者>50%，说明还没切换角色'}
   - {'signal': '管理者把L5管公司内容套用到10人团队', 'framework_lens': '阶段错配——管理地图的段位与组织规模不匹配', 'follow_up_question': '你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同'}
 author: "老顽童"
 trust_level: medium-high
 related:
-  - "[[yt-management-business-formula]]"
+  - src_unknown
 
 ---# 一堂管理地图：高潜力管理者修炼全景图
 
@@ -116,10 +116,10 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
-- [[yt-model-personal-map]]
-- [[yt-model-progress-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

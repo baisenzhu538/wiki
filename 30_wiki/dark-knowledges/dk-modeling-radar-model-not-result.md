@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,20 +16,20 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[case-strategy-revival-14-gucci]]'
-  - '[[ocr-一堂-科学决策-宽度-企业]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[tool-yitang-executive-speech-analysis]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[dk-modeling-sop-execution-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/decision-quality'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -55,12 +55,12 @@ updated_at: '2026-06-18'
 
 ## 使用场景
 
-- 公司人数超过 500，CEO 无法对每个评选结果负责。
-- 团队内部对“谁上谁下”争吵不休，缺乏共同标准。
-- 你想把招聘、晋升、项目立项、供应商选择等决策从“人治”转向“模型治”。
-- 你担心 CEO 个人偏好影响组织公平。
-- 评选决策高频重复，每次都要重新吵架，组织内耗严重。
-- 需要向员工证明评选过程公平，而不仅仅是结果可被接受。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -118,16 +118,16 @@ updated_at: '2026-06-18'
 
 ## 为什么值钱
 
-- 公开管理书讲“授权”，但很少讲“CEO 放弃结果拍板权、只审模型”这种具体治理机制。
-- 这是 Truman 在一堂从几百人到更大规模时摸索出来的内部规则。
-- 它把组织公平从“靠 CEO 人品”变成“靠模型+流程”。
-- 对 AI 时代尤其重要：AI 可以快速生成评选模型，但谁来审查模型是否科学、谁来为执行负责，仍然是组织设计问题。
-- 它把 CEO 从“裁判 each case”中解放出来，变成“设计裁判规则 + 监督规则执行”，这是组织规模化时 CEO 能力杠杆的关键跃迁。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-counterexample-driven]] —— 模型设计阶段要以推翻为目标验证，确保 CEO 审查的模型足够健壮。
-- [[dk-modeling-expert-consensus-five-percent]] —— 模型维度需要专家共识输入，避免 CEO 个人偏好主导。
-- [[tool-radar-chart-modeling]] —— 雷达图建模工具，是这条治理机制的操作载体。
-- [[dk-modeling-sop-execution-locks]] —— 模型只解决筛选，执行落地需要单独的 SOP 锁扣。
-- `src_20260614_8269ccdb#1320-1353` —— Truman 口述原文：只聊模型不聊结果。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

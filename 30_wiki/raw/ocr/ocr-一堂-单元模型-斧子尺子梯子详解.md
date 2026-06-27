@@ -3,10 +3,10 @@
 title: "OCR: 一堂-单元模型-斧子尺子梯子详解"
 type: concept
 domain:
-  - product
-  - needs-review
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_3659a538
@@ -18,11 +18,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-扭蛋机案例]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -41,16 +41,16 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_3659a538-ocr-一堂-单元模型-斧子尺子梯子详解.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 拿
+- src_unknown
 预判工具：在没花钱之
 核心定义 到最能说明问题的真实数 经营工具：规模起来后持续调
 前
-- 判断关键假设是否接近 优模型
-- 优化和提升
+- src_unknown
+- src_unknown
 要回答的核心 "这个能做吗
 
 ## Open Questions
@@ -58,6 +58,6 @@ related:
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

@@ -3,22 +3,22 @@ id: tool-知识库团队管理
 title: 技能：知识库团队管理
 type: tool
 domain:
-- content-production- management
-- design
-- yitang
-- entrepreneurship
-- kdo
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
 source_refs:
 - src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 知识库软件（未指定具体工具）
+- src_unknown
 created_at: '2026-06-09T16:00:43+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-项目复盘基本功]]'
-- '[[tool-清单式笔记法]]'
-- '[[tool-逐字稿练习演讲]]'
-- '[[tool-费曼学习法实践讲香课题]]'
-- '[[tool-专家访谈十步法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：知识库团队管理
 
@@ -42,24 +42,24 @@ related:
 2. 规范知识存储与检索流程
 
 ## 适用场景
-- ✅ 团队规模扩大、信息分散时
-- ✅ 需要降低成员间信息差时
-- ❌ 个人独立工作时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 知识库将个人隐性经验显性化，减少重复沟通，加速新人成长
 
 ## 工具/环境
-- 知识库软件（未指定具体工具）
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程设计，src_20260522_e139c9e9，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

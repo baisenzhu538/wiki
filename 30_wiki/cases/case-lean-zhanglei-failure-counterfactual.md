@@ -12,25 +12,25 @@ language: zh-CN
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[framework-lean-pivot-decision]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
@@ -107,11 +107,11 @@ related:
 
 读者在以下情况可以套用本案例的验证逻辑：
 
-- 训练类/教育类产品：需要证明「能力真的提升」而非「分数提高」。
-- 习惯养成类产品：需要区分「用户在 App 里打卡」与「真实行为改变」。
-- 心理健康/认知类产品：自报量表无法避免社会期许偏差，需要隐蔽行为任务。
-- To B 效能工具：需要证明「员工工作效率提升」而非「系统使用时长增加」。
-- 任何把「工具内数据」直接当作「用户价值」的业务。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

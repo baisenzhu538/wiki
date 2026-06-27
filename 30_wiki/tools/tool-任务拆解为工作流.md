@@ -3,21 +3,21 @@ id: tool-任务拆解为工作流
 title: 技能：任务拆解为工作流
 type: tool
 domain:
-- entrepreneurship- management
-- design
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 工作流引擎（n8n/Make/Dify等）
-- 流程图工具
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-反向提示获取优化建议]]'
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-提示词结构化迭代]]'
-- '[[tool-渐进式披露上下文]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：任务拆解为工作流
 
@@ -44,26 +44,26 @@ related:
 5. 形成可重复运行的工作流
 
 ## 适用场景
-- ✅ 重复发生的复杂业务流程
-- ✅ 团队协作需要标准化
-- ✅ 需要自动化或半自动化执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 将隐性流程显性化、结构化，便于优化、自动化和交接
 
 ## 工具/环境
-- 工作流引擎（n8n/Make/Dify等）
-- 流程图工具
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

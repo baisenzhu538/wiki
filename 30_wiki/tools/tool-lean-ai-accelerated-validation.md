@@ -10,26 +10,26 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md
 related:
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 加速 FALSE 模型验证
@@ -60,10 +60,10 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 
 ### 第一步：先拆假设，再选 AI 工具
 
-- 用 ABCD 模型或五步法列出所有关键假设。
-- 按"前置假设优先、风险高的优先"排序。
-- 明确本轮要验证的 1-2 个最高风险假设。
-- 判断这个假设是否值得用 AI 加速：如果假设错了会死吗？还能拆得更小吗？有没有更轻的方式拿到同样认知？[conf=0.80, source=张磊 AMA Q22]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：根据 FALSE 阶段选择 AI 加速点
 
@@ -78,22 +78,22 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 
 ### 第三步：设计真实反馈闭环
 
-- AI 模拟只能做初步筛选，最终必须回到真实用户。
-- 设定最小可观测动作：留资、预约、定金、付费、使用、留存。
-- 选择 1-2 个真实渠道投放，记录关键转化率。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：定义通过/不通过标准
 
 在测试前写清楚：
 
-- **通过标准**：例如「AI 生成 10 版素材中，某版真实用户点击率 ≥ X%」。
-- **不通过标准**：例如「真实用户留资率 < 5%」。
-- **下一步**：通过则升级；不通过则调整假设或终止。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第五步：人机分工复盘
 
-- **AI 负责**：素材生成、数据整理、初步分析、快速原型。
-- **人负责**：假设拆解、判断标准、真实用户访谈、最终决策。
+- src_unknown
+- src_unknown
 
 ## 成本/周期/样本量
 
@@ -113,10 +113,10 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 
 ### 最适合
 
-- 需求不确定性高、迭代成本可以很低的产品（内容、SaaS、消费品、服务）。
-- 团队已具备基本假设拆解能力，知道要验证什么。
-- 创始人愿意把 AI 当作辅助信息工具，而不是决策工具。
-- 有真实用户渠道可以回收反馈。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
@@ -161,16 +161,16 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 
 **内部限制**：
 
-- AI 加速的是"获取认知"的成本，不是"商业成功"的概率；验证成本低不代表商业模式成立 [conf=0.85, source=张磊 AMA Q2].
-- AI 生成内容的同质化风险：当大家都用类似 AI 工具生成素材时，差异化可能反而下降 [conf=0.60, source=经验判断].
-- 对创始人判断力要求更高：AI 让测试更快，但也让错误方向上的迭代更快，需要更清晰的假设和止损线 [conf=0.75, source=张磊 AMA Q22].
-- 数据隐私与知识产权：AI 处理用户数据、生成内容可能涉及隐私和版权问题 [conf=0.70, source=通用合规认知].
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击视角**：
 
-- **Eric Ries**（《精益创业》作者）："AI 让验证成本归零，是不是不用精益了？" — 反驳：精益本质不变，AI 只是降低试错成本；假设拆解和真实用户验证仍然不可替代 [conf=0.85, source=张磊 AMA Q2 + 《精益创业》].
-- **外部批评者**："AI 生成的测试素材不是真实产品，数据没有说服力。" — 反驳：这正是 FALSE 模型 F/A/L/S/E 的本意——用低成本仿真获取早期认知，后续仍需逐步升级到真实交付。
-- **外部批评者**："成本降到 1/10 是张磊个人判断，没有第三方数据。" — 反驳：应将其视为方向性经验参考，而非精确统计；具体成本需结合项目实际测算 [conf=0.60, source=任务指令 1.1 素材可信度总评].
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -178,9 +178,9 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 
 一位创业者想用 AI 批量生成家居美化短视频变现。张磊建议采用灰度测试三轮推进 [conf=0.75, source=张磊 AMA Q15]：
 
-- **第一轮**：从平台找现成素材二次编辑或直接用 AI 生成视频发朋友圈/社群，看是否有人咨询询价（F 阶段直接测试，成本几乎为零）。
-- **第二轮**：接到真实用户后，用 AI 工具生成 + 人工微调交付，测试付费意愿和满意度（A 阶段人工服务）。
-- **第三轮**：搭建极简工作流（飞书 + AI 工具 + 人工审核）小批量接单，验证单元模型（E 阶段最小版本）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对应 FALSE 阶段**：F → A → E，AI 主要用于素材生成、交付辅助和工作流搭建。
 

@@ -5,19 +5,19 @@ title: 案例：人工骨医疗器械上市失败复盘
 type: case
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - healthcare
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#domain/healthcare'
-  - '#content-format/case'
-  - '#topic/market-entry'
-  - '#topic/product-launch'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 李志军（一堂学员）
@@ -26,25 +26,25 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[case-yitang-tob-grinding-machine]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-growth-channel]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 创始人因技术领先和专利优势，认为产品拿证后自然大卖。
+  - src_unknown
     framework_lens: 需求验证与商业模式
     follow_up_question: 除了产品注册证，医院采购还需要完成哪些招投标、学术推广和渠道建设步骤？
-  - signal: 连续三年销售目标严重脱离实际，三年换三任销售总监。
+  - src_unknown
     framework_lens: 增长节奏与单元模型
     follow_up_question: 新医疗产品进入医院的真实周期和单客户获客成本是多少？
-  - signal: 临床医生认可产品价值，但医院入院采购流程停滞超过 6 个月。
+  - src_unknown
     framework_lens: ToB 决策链与需求验证
     follow_up_question: 科室主任、设备科、分管院长、招标办、财务各自的决策标准和关键动作是什么？
-  - signal: 团队反复把销售不达标归因于“销售策略/销售总监能力”，而非商业模式假设错误。
+  - src_unknown
     framework_lens: 关键假设检验与复盘
     follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
 ---
@@ -84,25 +84,25 @@ A 公司由清华大学项目团队创立，核心产品是一款体外合成天
 
 需求真实存在，但需求≠即时采购：
 
-- 知名医院大夫确实希望有更好的人工骨产品。
-- 但医疗产品进入医院需要经过**招投标、KOL 试用、学术会议、论文发表、省级标杆医院准入、代理商招募**等长流程。
-- 大夫的“希望”不会直接转化为第一年的采购订单。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 商业模式验证
 
-- 新医疗产品的商业化路径被严重低估。
-- 正确路径：拿证 → 临床医院招投标试用 → 学术推广/KOL 背书 → 标杆医院招标 → 招代理商 → 各省区医院渗透。
-- 这是一条“温市场”的慢增长路径，而非注册证一拿就爆发。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 增长验证
 
-- 销售额连续三年远低于目标，说明问题不是销售总监个体能力，而是增长假设本身过于乐观。
-- 增长需要持续投入学术会议、科研合作、渠道建设，而不是简单替换销售负责人。
+- src_unknown
+- src_unknown
 
 ### 壁垒验证
 
-- 专利壁垒确实较强：A 公司围绕核心发明专利布局了系列发明和实用新型专利，保护墙较厚。
-- 但**壁垒没有转化为早期现金流**：专利保护的是长期竞争地位，不能替代市场教育和渠道建设。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -190,10 +190,10 @@ KOL 试用 + 学术论文/病例积累
 
 以 A 公司第一年目标 2000 万为例：
 
-- 若首年单医院平均产出按 10 万估算，需要覆盖 **200 家医院**。
-- 若 1 名销售有效覆盖 10 家医院，需要 **20 名成熟销售**。
-- 若单医院首年投入按 20 万估算，首年市场投入约 **4000 万**，超过目标收入。
-- 实际第一年销售额仅 80 万，约等于 **8 家医院的首单产出**，与 2000 万目标相差 25 倍。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 结论：该目标严重脱离医疗产品导入期的实际获客能力和现金流承受能力。
 
@@ -208,7 +208,7 @@ KOL 试用 + 学术论文/病例积累
 
 ## 八、待核实数据
 
-- 各年销售额与目标的精确数字。
-- 专利布局的具体数量和法律状态。
-- 实际招投标周期和单医院获客成本。
-- 三任销售总监的任期、策略差异与离职原因。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

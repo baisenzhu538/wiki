@@ -12,30 +12,30 @@ source_person: 一堂课程讲师与学员（教学案例）
 source_context: 一堂精益创业·低成本验证课程·完美心态踩坑 + 心态关图示
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-four-principles]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-lean-ai-accelerated-validation]]"
-  - "[[case-demand-indonesia-insurance]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 完美心态踩坑案例集
@@ -85,8 +85,8 @@ related:
 
 同组素材中的心态关图示把机会态度分成两条路径 [conf=0.85, source=讲义图示]：
 
-- **下行路径（把机会给运气）**：完美主义 → 害怕冲突 → 伤害品牌 → 害怕失败
-- **上行路径（把机会抓在手里）**：螺旋上升 ← 假装驱动 ← 相信成功 ← 默认失败
+- src_unknown
+- src_unknown
 
 案例集中的 8 个项目基本都停留在左侧下行路径：先用"完美"和"规模"掩盖对失败的恐惧，最终把机会交给运气。
 
@@ -136,11 +136,11 @@ related:
 
 所有案例都跳过了 F（直接测试）、A（人工服务）、L（借用现成）、S（人工替代）等低成本验证阶段，直接进入 E（最小版本）或 All-in（全量投入）：
 
-- **Fei/搜索引擎**：本可用一张假页面/竞品对比页测试用户兴趣，却直接投入 700 万研发。
-- **Yang/社区团购**：本可用微信群 + 表单跑通交易闭环，却直接开发 APP。
-- **Zhong/便利店**：本可用 1 家店跑通单店模型，却直接开 5 家。
-- **Quan/咖啡**：本可用小批量入驻/预售验证品牌接受度，却直接铺 2 万个终端。
-- **Liu/送水 SaaS**：本可用人工表格 + 微信接单验证需求，却闭关研发系统。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 心态上的"等完美了再发布"或"必须一举成功"，本质上是把"拒绝证伪"包装成了"追求卓越"。
 
@@ -149,16 +149,16 @@ related:
 学习这些案例时，团队常犯以下三类错误：
 
 1. **把"反完美主义"当成"粗糙有理"**
-   - 错误做法：为了快而快，做出明显误导用户的假页面或劣质 MVP，损伤信任。
-   - 正确做法：低成本不等于低质量；MVP 的粗糙应集中在"砍掉非必要功能"，而不是"欺骗用户"。
+   - src_unknown
+   - src_unknown
 
 2. **只批判心态，不替换验证动作**
-   - 错误做法：复盘时只写"我们太完美了"，却不指定下一轮用哪种 F/A/L 工具验证。
-   - 正确做法：把"放下完美主义"具体化为"本周用海报/微信群/人工服务跑 10 个真实用户"。
+   - src_unknown
+   - src_unknown
 
 3. **把个案的"金额"当成"标准损失"**
-   - 错误做法：用"人家亏了 5000 万"来制造焦虑，而不是理解背后的假设错误。
-   - 正确做法：关注每个案例在 FALSE 模型上的位置跳过了哪几级，再对照自己的项目检查。
+   - src_unknown
+   - src_unknown
 
 ## 可迁移场景
 
@@ -172,8 +172,8 @@ related:
 
 不适用场景：
 
-- **强监管行业**（医疗、金融、教培）：假页面/假产品可能触犯合规红线，不能简单照搬 F 阶段手段 [conf=0.85, source=任务指令 L3 合规边界]。
-- **品牌敏感型高客单价产品**：过度粗糙的 MVP 会一次性损伤信任 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -191,15 +191,15 @@ related:
 
 ## 相关卡/互链
 
-- 低成本验证框架：[[framework-lean-false-model]]
-- 浪费类型速查：[[framework-lean-six-wastes]]
-- 四大原则：[[framework-lean-four-principles]]
-- 关键假设拆解：[[yt-entrepreneur-key-hypotheses]]
-- 精益验证概念：[[yt-entrepreneur-lean-validation]]
-- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
-- 产品内核验证：[[concept-一堂-kernel-validation]]
-- AI 加速验证：[[tool-lean-ai-accelerated-validation]]
-- 印尼寿险跨市场错配：[[case-demand-indonesia-insurance]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

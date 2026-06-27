@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - strategy
-  - retail
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_ocr_text.md
@@ -16,9 +16,9 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[case-strategy-retailer-activity-scope]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 零售品类角色矩阵
@@ -63,13 +63,13 @@ related:
 ## 三、建议举措（PPT _93）
 
 **生鲜商品**：
-- 适当增加核心和获客品类的商品种类和规格选择
-- 突出高端化、差异化特质，以更符合品类定位
-- 针对优化后的产品调整定价策略，实现溢价可能
+- src_unknown
+- src_unknown
+- src_unknown
 
 **非生鲜商品**：
-- 根据店内销售面积的变化调整商品组合
-- 在陈列、促销等方面设计相应举措
+- src_unknown
+- src_unknown
 
 ---
 

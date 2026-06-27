@@ -5,29 +5,29 @@ title: Data Curator Skill — 五角色分工方案
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 用户（决策者）
-- 欧阳锋（Architect）
-- 黄药师（Builder）
-- 老顽童（Producer）
-- 洪七公（Multimodal）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 supersedes: null
 related:
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[three-party-data-alignment]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[dk-p7-ocr-skip]]'
-  - '[[ouyangfeng-data-alignment-response]]'
-  - '[[three-party-data-alignment]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
-  - '[[huangyaoshi-data-alignment-response]]'
-  - '[[ouyangfeng-data-alignment-response]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -174,9 +174,9 @@ T 反馈 → 需要审查能力（欧阳锋）+ 管线建设（黄药师）
 
 ### 防退化的硬规则
 
-- P1 "附条件通过"的 fix list 必须在**下一个 session** 内关闭
-- 逾期未关闭 → 自动升级为 P0，阻塞后续批次
-- 连续 3 次同一类型的 P1 → 升级为 P0
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行接口**：Obsidian Claudian 插件。审查结论写入对应任务文件。
 
@@ -210,14 +210,14 @@ T 反馈 → 需要审查能力（欧阳锋）+ 管线建设（黄药师）
 ```
 
 **关键约束**（来自 AGENTS.md 禁止清单）：
-- 角色之间不互相派活，都通过欧阳锋中转
-- 老顽童领任务从 `laowantong-next-tasks.md`，不自己翻 inbox 找活
-- 洪七公领任务从 `dashboard.md` 洪七公区，产出写入固定输出路径
+- src_unknown
+- src_unknown
+- src_unknown
 
 **技术直连通道**（欧阳锋补充）：
-- 上下游依赖的角色允许直接对接（如黄药师↔老顽童确认 schema 格式兼容、黄药师↔洪七公确认 OCR 输出格式）
-- 这种对接限于**技术兼容性确认**，不涉及任务指派
-- 任务指派和审查结论仍必须通过欧阳锋
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,18 +6,18 @@ title: To B 收入本质 = 客户成本
 type: concept
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/concept'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,29 +26,29 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[case-yitang-tob-grinding-machine]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[case-yitang-tob-career-planning]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队描述需求时只用"客户需要XX功能/服务"，从不量化客户为此付出的成本
+- src_unknown
   framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨
   follow_up_question: 客户现在为解决这个问题每年花多少钱？这笔钱在他总成本中占多少？不花会怎样？
-- signal: 业务天花板估算直接套用"行业规模 × 渗透率"
+- src_unknown
   framework_lens: 业务天花板 = 单家专项成本 × 成本占有率 × 目标客户数量；行业规模大部分可能与你的服务无关
   follow_up_question: 你的收入到底来自客户哪一项专项成本？可触达的目标客户有多少家？
-- signal: 销售把"帮客户省很多钱"当作核心卖点，但客户却不买单
+- src_unknown
   framework_lens: 成本占有率并非越高越好；高占比意味着进入客户核心成本区，需要更强信任与切换能力
   follow_up_question: 客户省下的钱里，我们真能切走多少？客户信任度、合规风险和切换成本是否允许？
 
@@ -75,8 +75,8 @@ diagnostic_signals:
 2. **反向拆解客户单元模型。** 不要只问"客户需要什么"，要问"客户现在的成本结构里，哪一项占比高、持续存在、跟我有关"。
 
 3. **定量双指标：成本占有率 + 业务天花板。**
-   - **成本占有率**：你的服务所替代/降低的成本，在客户总成本中占多少比例。
-   - **业务天花板**：单家企业专项成本 × 成本占有率 × 目标客户数量。
+   - src_unknown
+   - src_unknown
 
 4. **成本占有率不是越高越好。** 占比越高，意味着你越深入客户的核心成本区，需要更强的信任关系、履约能力和切换解决方案；否则客户不会把这笔钱"让"给你赚。
 
@@ -100,29 +100,29 @@ diagnostic_signals:
 > 来源：徐剑口述稿 ~1404–1515 关于「成本占有率 + 业务天花板」的测算思路；优秀作业合集中张林「B2B 机票服务拆解」验证了从「所有中小企业」收敛到「年差旅费 100 万以上企业」的成本定位过程。
 
 ### Step 1：列出客户成本结构
-- [ ] 找出客户为经营/管理支付的 Top 5 成本项（人工、原材料/采购、销售、管理、财务、履约、差旅等）。
-- [ ] 区分固定成本与变动成本、直接成本与间接成本。
-- [ ] 标注哪些是「去年有、今年有、明年大概率还有」的可持续成本。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：定位你的服务对应哪一项成本
-- [ ] 明确你的服务替代/降低/优化了哪一项**具体**成本，而非抽象痛点。
-- [ ] 估算该成本在客户总成本中的占比（成本占有率）。
-- [ ] 确认该成本可量化、可追溯（历史账单、采购记录、人力编制表等）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：判断可切走的份额
-- [ ] 客户决策链中是否有人对该成本负责并愿意承担切换风险？
-- [ ] 客户对你的信任度、合规要求、切换成本是否支持你切走这部分成本？
-- [ ] 你的报价是否低于客户原成本，且仍有合理毛利空间？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：测算业务天花板
-- [ ] 计算：**单家客户专项成本 × 你的成本占有率 × 目标客户数量**。
-- [ ] 剔除「行业规模」水分——只统计与你服务直接相关的目标客户，而非全行业。
-- [ ] 区分**客户支付总额**（收入天花板）与**你可留存的部分**（服务费/毛利天花板）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5：验证关键假设
-- [ ] 客户历史上确实为该项成本付过费（非新增习惯）。
-- [ ] 该项成本不会因政策、技术、客户商业模式突变而快速消失。
-- [ ] 至少访谈 3 家目标客户，确认成本数字和付费意愿的数量级。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,12 +147,12 @@ diagnostic_signals:
 
 徐剑以一家国有施工企业为例说明如何反向拆解客户成本：
 
-- **客户成本结构**：企业自有基层施工人员 100 人，年工资约 12 万/人，人工成本约 1200 万/年；业务快速增长（从 12 亿 → 20 亿 → 30 多亿）带来持续扩编压力。
-- **痛点**：国企编制有限，大量外包又担心质量与施工安全；自用编制人员成本偏高。
-- **解决方案**：通过劳务公司外包用工——企业支付约 920 万/年（含 800 万人工成本 + 120 万服务费），劳务公司派遣人员并由企业项目经理统一管理。
-- **价值**：帮助企业解决约 1200 万的成本，同时保证安全质量与工程管控。
-- **成本占有率**：人工成本在总成本中约占 12%（ oral 1414, 1444 ）。
-- **业务天花板推算**：若全国有 1 万家同类施工单位，年收入天花板约 920 亿，其中劳务公司可留存的服务费天花板约 120 亿/年（ oral 1490-1496 ）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **案例说明**：劳务公司的收入来自客户原本就要支付的人工成本；服务费的本质是客户愿意为"省编制、保安全、管质量"支付的溢价。这里的数字（12 万、920 万、1 万家等）均来自口述素材，仅作理解框架的示例，未独立核实，不宜直接引用为行业事实。
 
@@ -183,16 +183,16 @@ diagnostic_signals:
 
 ## 与五步法其他模块的关系
 
-- **需求模块**：收入=客户成本是需求判断的第一性原理；配合「切客户、切场景、切需求」使用，能把定性感知变成可量化的成本分析。
-- **单元模型**：反向拆解客户单元模型是应用该原则的具体方法，与 [[yt-unit-model-three-tools]] 和 [[yt-management-business-formula]] 相互呼应。
-- **商业模式**：客户愿意支付的价格上限，取决于你替代/降低的成本金额；这为定价和单元模型设计提供锚点。
-- **关键假设**："客户会为此付费"是一个需要验证的假设，可纳入 [[yt-entrepreneur-key-hypotheses]] 进行优先级排序和验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **置信度 0.85**："To B 收入 = 客户成本"作为方法论判断框架，在口述稿（oral ~1564-1576）中有明确、直接的陈述；课堂笔记（notes 第 2、7 部分）也将其列为核心精华并补充了"成本占有率""业务天花板"等操作指标，两个来源相互强化。
-- **局限**：本卡引用的案例数字来自单一讲师回忆，未独立核实，故在案例中标注为"仅作理解示例"。
-- **矛盾规避**：口述稿 ~700-703 附近存在关于利润数字的明显矛盾（99% vs 50%），本卡未引用该段内容。
-- **极端表述处理**：对"To B 每年做到两三倍就是极好"等讲师观察性语句，未作为普遍规律引用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

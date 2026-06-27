@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-scenario-reconstruction
-  - yt-demand-hierarchy-model
-  - yt-demand-jtbd-application
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说不清自己的需求分析能力在什么水平"
+  - src_unknown
     framework_lens: 段位自评——缺乏能力评估框架
     follow_up_question: "你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？"
-  - signal: "用户做了很多用户访谈，但结论模糊，无法指导决策"
+  - src_unknown
     framework_lens: 段位评估——可能停留在L3，未验证到L4
     follow_up_question: "你的访谈结论能直接指导产品决策吗？有没有因为访谈而砍掉或新增功能？"
-  - signal: "用户能分析需求，但无法预测需求变化"
+  - src_unknown
     framework_lens: 段位评估——停留在分析，未到预判
     follow_up_question: "你能预测未来6个月你的目标用户的需求会发生什么变化吗？"
-  - signal: "用户说'我懂用户'，但说不出具体的用户场景"
+  - src_unknown
     framework_lens: 段位评估——自我认知偏差，可能停留在L1-L2
     follow_up_question: "你能描述一个典型用户的一天中，会在什么具体时刻使用你的产品吗？"
-  - signal: "用户团队需求分析能力参差不齐，无法对齐"
+  - src_unknown
     framework_lens: 段位评估——团队能力断层
     follow_up_question: "你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？"
 
@@ -72,38 +72,38 @@ diagnostic_signals:
 ### 2. 段位自评的测试题
 
 **L1测试**：
-- 你能用3句话描述你的产品吗？
-- 如果描述中全是功能（"我们有一个XX功能"），不是用户问题（"用户的问题是..."），则是L1。
+- src_unknown
+- src_unknown
 
 **L2测试**：
-- 你能说出用户的核心问题吗？
-- 如果问题描述超过5句话，或包含多个问题，则是L2。
+- src_unknown
+- src_unknown
 
 **L3测试**：
-- 你能完成拆推评算四步吗？
-- 如果每一步都有明确答案，则是L3。
+- src_unknown
+- src_unknown
 
 **L4测试**：
-- 你的拆推评算有用户验证吗？
-- 如果有访谈记录、转化数据支撑，则是L4。
+- src_unknown
+- src_unknown
 
 **L5测试**：
-- 你能从用户行为数据中发现新需求吗？
-- 如果曾因数据洞察而新增/砍掉功能，则是L5。
+- src_unknown
+- src_unknown
 
 **L6测试**：
-- 你能预测未来6个月的需求变化吗？
-- 如果预测准确率>70%，则是L6。
+- src_unknown
+- src_unknown
 
 ### 3. 团队段位对齐
 
 团队需求分析能力不一致时：
 
-- **对齐方法**：一起填一张拆推评算表，对比差异
-- **常见问题**：
-  - 创始人L4，团队L2 → 团队执行不到位
-  - 创始人L2，团队L4 → 创始人决策偏差
-  - 全员L3 → 缺乏验证，需要推动L4
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## 失败模式
 
@@ -126,21 +126,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你说"我懂用户"时 → 用测试题自评，寻找反例
-- 当团队争论需求时 → 一起填拆推评算表，对齐段位
-- 当做完分析后 → 检查是否验证了，还是停留在假设
-- 当发现新需求时 → 记录数据来源，建立洞察机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-jtbd-application`：JTBD需求分析实战应用
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂需求分析段位图
-- 一堂需求分析段位示例
+- src_unknown
+- src_unknown
+- src_unknown

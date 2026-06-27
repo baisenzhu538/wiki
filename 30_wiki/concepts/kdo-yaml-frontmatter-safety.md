@@ -4,20 +4,20 @@ title: "KDO YAML Frontmatter 安全操作指南"
 type: concept
 status: enriched
 domain:
-  - master
+  - src_unknown
 created_at: "2026-05-31"
 updated_at: "2026-06-17"
 target_roles:
-  - 黄药师（Builder）
-  - 欧阳锋（Architect）
+  - src_unknown
+  - src_unknown
 related:
-  - "[[dk-c2-dual-status-machine]]"
-  - "[[dk-c1-cjk-regex-silent-fail]]"
-  - "[[dk-c3-txt-ingest-skip]]"
-  - "[[fix-data-curator-parse-bug]]"
-  - "[[gold-standard-manual-labels]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-  - confidence-draft
+  - src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -26,16 +26,16 @@ source_refs:
 - src_unknown
 source_context: 原始source无法追溯，已标记为src_unknown，待后续补充
 diagnostic_signals:
-  - signal: "手写YAML解析器导致数据丢失"
+  - src_unknown
     lens: "解析器错误"
     follow_up: "检查是否用yaml.safe_load()而非逐行解析，做round-trip校验"
-  - signal: "visual_analysis或related字段被拍平"
+  - src_unknown
     lens: "嵌套结构损坏"
     follow_up: "检查是否用yaml.dump()写嵌套结构，不要用json.dumps(str(value))"
-  - signal: "标签值变成null"
+  - src_unknown
     lens: "注释误解析"
     follow_up: "检查#开头的标签是否加引号：- \"#master\"而非- #master"
-  - signal: "写文件后读回来数据不一致"
+  - src_unknown
     lens: "round-trip失败"
     follow_up: "写文件前做round-trip校验：读回来确认嵌套结构无损"
 ---# KDO YAML Frontmatter 安全操作指南
@@ -201,9 +201,9 @@ def check_roundtrip(metadata: dict) -> list[str]:
 
 ## 参考
 
-- `30_wiki/decisions/fix-data-curator-parse-bug` — 原始 bug 报告与修复方案
-- `30_wiki/decisions/gold-standard-manual-labels` — 受影响的案例
-- [[dk-c2-dual-status-machine]] — Schema `status` 字段混用两个状态机的暗知识，提醒 frontmatter 字段语义设计同样属于 YAML 安全范畴
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

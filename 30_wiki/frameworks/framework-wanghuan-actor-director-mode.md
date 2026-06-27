@@ -6,10 +6,10 @@ title: 王欢人机协作框架：从演员到导演
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -19,41 +19,41 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- 10_raw/sources/src_20260619_4e57265e_wanghuan_导演的工作方式_图_01.md"
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 人机协作
-- 演员到导演
-- 身份切换
-- AI导演
-- 系统思维
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '团队用 AI 后效率只提升 30%–60%，长期卡在工具层'
+- src_unknown
   lens: '演员模式锁定'
   follow_up: '当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？'
-- signal: 'AI 输出不稳定，每次都要反复调试 prompt'
+- src_unknown
   lens: '导演标准缺失'
   follow_up: '是否把“好结果”的标准写成了可检查的验收清单？约束和红线条是否显式化？'
-- signal: '专家离开或新人上手慢，隐性经验无法复制'
+- src_unknown
   lens: '导演模式的知识萃取价值'
   follow_up: '能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？'
-- signal: '管理者说“上 AI”，但一线员工抗拒、担心被取代'
+- src_unknown
   lens: '身份切换阻力'
   follow_up: '是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？'
 
@@ -105,14 +105,14 @@ diagnostic_signals:
 
 ### 3. 切换到导演模式的三大动作
 
-- **身份重新定义**：把“我是写代码的人”改成“我是让 AI 把代码写好的人”。这个定义转变比任何工具培训都有效，因为它没有否定人的能力，而是把行业经验从“执行手艺”升级为“判断标准”。
-- **工作系统重新设计**：不是换更好的工具，而是重新设计流程。例如沈阳软件公司从“拿到需求直接写代码”改为“需求拆解 → AI 生成代码 → 人审查验收”的三层架构，效率从 +30% 跃升到近 3 倍。
-- **建立验收标准**：导演必须能判断“这个够不够好”。需要明确输出标准、建立分阶段验收点、把行业暗规则显性化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 关键案例支撑
 
-- **沈阳软件公司**：17 年政企软件外包公司，900+ 客户。原有程序员用 AI 辅助编程效率提升 30%，但流程未变。引入“贾维斯（需求拆解）→ MM（开发）→ 哨兵（审核）”三层架构后，效率接近 3 倍，程序员角色从“写代码”变为“审代码”。
-- **教育机构销售培训**：新人销售 3–6 个月才能独立签单，流失率超 90%。传统 AI 话术培训只能给出“正确的话在错误时机说出”。改用 PACED 框架还原销冠决策链（Pain、Authority、Capacity、Expectation、Decision timeline），并建立“双轨存储 + 双角色 AI 对练 + 策略权重评分”，把隐性判断逻辑变成可复用系统。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -145,25 +145,25 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 选一个你下周还会重复做的高频任务（不是一次性任务）。
-- [ ] 用一句话重定义你的身份：从“我是做 X 的人”变成“我是让 AI 把 X 做好的人”。
-- [ ] 画出当前流程，标出“定义—执行—验收”三段，找出哪一段还在由人亲自执行。
-- [ ] 写出至少 3 条可检查的验收标准（格式、风格、红线）。
-- [ ] 用 [[framework-wanghuan-bitcoe-prompt-framework]] 把该任务固化为可复用提示词模板。
-- [ ] 跑通一轮 [[framework-wanghuan-ooda-loop]]：观察结果 → 定向问题 → 决策改进点 → 行动迭代。
-- [ ] 把隐性行业判断整理进 [[tool-wanghuan-ai-business-profile]]，让 AI 越用越懂你。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-ai-five-level-ladder]]：导演模式通常发生在作品层、产品/应用层、系统层。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：导演定义任务和标准的核心工具。
-- [[framework-wanghuan-ooda-loop]]：导演通过 OODA 闭环持续加速判断和迭代。
-- [[framework-wanghuan-task-product-system]]：任务、产品、系统三级跃迁是导演模式的落地路径。
-- [[tool-wanghuan-ai-business-profile]]：导演把自己的判断标准显性化的长期上下文工具。
-- [[case-wanghuan-shenyang-software-3x-efficiency]]：软件开发领域的导演模式案例。
-- [[dk-wanghuan-paced-sales-decision]]：教育销售领域的 PACED 决策链案例。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

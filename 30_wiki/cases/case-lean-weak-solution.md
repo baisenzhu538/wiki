@@ -10,28 +10,28 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师/学员案例（教学案例集）
 source_context: 一堂精益创业·低成本验证实操课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md
 related:
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[tool-lean-presell]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 方案做错案例集
@@ -137,8 +137,8 @@ related:
 5. **共享设备/线下点位类**：先借现成设备或手工台账验证"用户是否愿意使用并付费"，再决定是否自研软硬件。
 
 不适用场景：
-- **强监管行业**（彩票、教培、医疗、金融）："假产品""预售"等手段可能触碰合规红线，需先咨询法务与行业政策 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：粗糙验证会损伤信任，需在 MVP 中保留必要的安全与品牌背书 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

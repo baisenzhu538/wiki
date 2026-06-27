@@ -4,9 +4,9 @@ title: AI 方法论与工具栈：主题综合知识卡
 type: framework
 status: enriched
 domain:
-  - ai
-  - ai-collaboration
-  - learning-methodology
+  - src_unknown
+  - src_unknown-collaboration
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑 AI AI 方法论与工具栈主题摘要综合提炼
 source_refs:
@@ -22,9 +22,9 @@ source_refs:
   - 10_raw/sources/src_20260614_329d0e0c-theme-ai-methodology-tools-summary.md
   - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
 tags:
-  - '#method/thinking-tool'
-  - '#domain/ai-saas'
-  - '#method/prompt-engineering'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -33,12 +33,12 @@ review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-  - '[[find-old-do-small]]'
-  - '[[ai-collaboration-mindset-shift]]'
-  - '[[ai-landing-scene-selection]]'
-  - '[[ai-learning-closed-loop]]'
-  - '[[course-to-skill-conversion]]'
-  - '[[kdo-flywheel]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # AI 方法论与工具栈：主题综合知识卡
 
@@ -53,24 +53,24 @@ related:
 ## 核心洞察
 
 1. **落地路径：从熟悉的小场景切入，按"找场景-做判断-做验证-搞开发-慢上线"五步推进，且必须先平行运行再逐步替代。**
-   - 证据：7759098 明确提出五步流程，强调"先平行再独行"至少 3 个月优化期。——来源：`src_20260614_071928f4-AI场景落地方法分享.md:118,151-152,174-179,212-213,220,227-228`
-   - 边界：适用于有历史数据、可拆解、错误成本可控的业务；创新型或全公司协调项目需先拆分。
+   - src_unknown
+   - src_unknown
 
 2. **人机分工：人类负责审美、体系、创造力与判断，AI 负责基本功、场景数据与执行；二者通过"双三角模型"对齐。**
-   - 证据：7356146、4288010、4431344、6445435 均反复出现双三角模型，并在 Skill/Agent 设计、内容创作、线索转化等案例中应用。——来源：`src_20260614_dec1c1fe-一堂-AI工具应用AMA.md:74,116-117,170,176-178`; `src_20260614_d5cc92d2-AI工具使用分享.md:447-449,715-716`; `src_20260614_c1430e21-一堂-AI方法论实践课.md:43-44,356-357`; `src_20260614_4b226b4f-一堂-AI方法论探索.md:365,375-377,605,692`
-   - 边界：前提是业务人员对自身业务有足够判断；若 AI 能力远超人类，"比 AI 做得更好"的标准会失效。
+   - src_unknown
+   - src_unknown
 
 3. **能力训练应落在 Feature 层而非工具层：把 AI 能力拆分为可迁移的最小特性单元，通过刻意练习和上下文工程稳定输出。**
-   - 证据：7356146 提出 Feature 训练；4431344 提出提示词四阶段与上下文工程六要素；4288010 提出泛产品设计+Feature 思维。——来源：`src_20260614_dec1c1fe-一堂-AI工具应用AMA.md:93-112,119-120,1387-1390`; `src_20260614_c1430e21-一堂-AI方法论实践课.md:377-401,410,435,927,1078-1079,1144`; `src_20260614_4b226b4f-一堂-AI方法论探索.md:853-898,908-920,1020,1022,1886`
-   - 边界：Feature 的划分标准尚未统一，不同业务可能需要自定义特性集合。
+   - src_unknown
+   - src_unknown
 
 4. **组织化落地的演进方向：从单条提示词 → 可复用 Skill → Agent → 多 Agent 协作 → AI 原生组织/工具。**
-   - 证据：5638948 提出五层分工模型（提示词/skill/agent/龙虾 agent/龙虾组织）；5383332 演示 AI 原生 IM 工具；5273087、5060599 围绕龙虾/Openclaw 的 Skill、记忆、定时任务与多 Agent 协作。——来源：`src_20260614_cafcbbac-AI组织行为学研究.md:47`; `src_20260614_c5115d2c-龙虾-AI原生IM工具演示.md:34-74,130,163,169,265,472,508,518,522,532,551,553,557,560,564,616`; `src_20260614_b3686a84-一堂-AI龙虾使用分享.md:196,228,509,513,528`; `src_20260614_144d986e-多人-Open-Cloud培训.md:143,219-220,324,522`
-   - 边界：需要解决上下文管理、token 成本、权限安全、人机协作边界等基础设施问题。
+   - src_unknown
+   - src_unknown
 
 5. **评估 AI 项目只看实际业务结果，不看中间效率指标；但需警惕工具焦虑、数据泄露与过度授权。**
-   - 证据：7759098 强调"AI 是交结果的"；5273087 专门讨论数据安全、误操作、API 滥用风险；5060599 提到模型 token 供应受限与成本优化。——来源：`src_20260614_071928f4-AI场景落地方法分享.md:651,715-716,852,860`; `src_20260614_b3686a84-一堂-AI龙虾使用分享.md:196,227-228,509,513,528`; `src_20260614_144d986e-多人-Open-Cloud培训.md:324`
-   - 边界：安全建议基于口述经验，具体合规要求需结合企业实际。
+   - src_unknown
+   - src_unknown
 
 ## 代表案例 / 录音清单
 
@@ -92,30 +92,30 @@ related:
 > 基于录音摘要与外部公开信息（AI 落地方法论、提示词工程、Agent 架构、企业 AI 转型研究）交叉核对。**本主题未生成独立 six-layer-validation 报告。**
 
 ### L1 可证伪性：中等
-- 落地五步流程、双三角模型、Feature 训练、五层分工等框架性命题可证伪性较强。
-- 具体数据（73.2% 无条件接受 AI 答案、40%→80% 转化率、200 美元替代 2 万美元人工）可证伪但缺少独立来源。
-- 工具部署效果受企业环境差异影响，可证伪性中等。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L2 行为一致性：中等
-- 多条录音为一堂课程或内部分享，主讲人角色与方法论推广一致。
-- 未见对方法论局限性的系统反思，存在“用后合理化”可能。
+- src_unknown
+- src_unknown
 
 ### L3 多源验证：中等
-- AI 落地需场景选择、人在环、分阶段验证等观点与行业共识一致。
-- 双三角、Feature 训练、TCPR、龙虾循环等多为一堂内部术语，外部独立验证有限。
-- 量化数据多为口述，原始出处、样本量、测量方法待复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L4 情绪标记：中等
-- 对 AI 工具能力和方法论效果描述普遍积极。
-- 对数据安全、token 成本、权限风险有提及但相对克制。
+- src_unknown
+- src_unknown
 
 ### L5 时间稳定性：中低
-- AI 工具、模型能力、平台生态变化极快，具体工具栈建议容易过时。
-- 场景选择、人机分工、迭代验证等原则相对稳定。
+- src_unknown
+- src_unknown
 
 ### L6 利益相关度：中高
-- 一堂课程、工具培训、社群推广动机明显。
-- 部分录音带有销售课程、推广工具生态的目的。
+- src_unknown
+- src_unknown
 
 ### 综合可信度评级
 
@@ -138,36 +138,36 @@ related:
 
 ## 与现有 30_wiki 的差异点
 
-- **现有卡片多为单点概念**：如 [[find-old-do-small]]、[[ai-collaboration-mindset-shift]]、[[ai-landing-scene-selection]] 分别覆盖场景选择、协作心态、落地框架，但缺少把"方法论 + 工具栈 + 组织化"串起来的主题视图。
-- **本主题引入大量未入库的内部/课程案例**：一堂的双三角、Feature 训练、TCPR、龙虾/Openclaw、智能入口、AI 组织行为学五层模型等，目前在 30_wiki 中尚未形成系统卡片。
-- **强调从个人到组织的连续演进**：现有卡片偏向个人使用或单点决策，本主题揭示了"提示词 → Skill → Agent → AI 原生组织"的层级跃迁。
-- **包含工程与运营细节**：上下文/token 管理、记忆系统、部署安全、模型供应限制等，现有概念卡较少涉及。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度分层
 
 ### 事实层
-- 主题下共有 10 条录音（已剔除 1 条药柜/医疗相关录音）。
-- 关键术语多次出现：双三角模型、Feature、Skill、Agent、龙虾、Openclaw、智能入口、五步流程、平行运行。
-- 主讲人/发言人身份多数标注为"说话人 1""发言人 1"，具体姓名待原文复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件层
-- 落地方法论适用于"有容错、有方法、有数据、有判断"的场景（7759098）。
-- 工具分层与部署建议基于当前（2026 年 Q1-Q2）工具生态，模型供应商 token 限制、费用政策会变化。
-- "人在环"混合协作模式是当前主流，但随模型能力提升可能向 AI 原生演进。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 观察层
-- 7759098 称 AI 落地 90% 疑问集中在场景选择、可行性判断、效果优化。——来源：`src_20260614_071928f4-AI场景落地方法分享.md:17,19,23,406`
-- 6445435 称沃顿商学院研究显示 73.2% 的人会无条件接受 AI 答案。——来源：`src_20260614_d5cc92d2-AI工具使用分享.md:487,491-493`
-- 4431344 称 To B AI 业务线索转化率由 40% 提升至 80% 以上。——来源：`src_20260614_c1430e21-一堂-AI方法论实践课.md:1207-1210,1221`
-- 5060599 称某用户以约 200 美元智能体成本替代 2 万美元人工。——来源：`src_20260614_144d986e-多人-Open-Cloud培训.md:181-184`
-- ⚠️ **已移除的推断**：主题摘要中“效率提升 300%”在原文中未找到直接支持，已删除。
-- **以上数据均来自口述摘要，原始出处、样本量、测量方法待原文复核。**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险层
-- 方法论可能因模型能力快速迭代而过时。
-- 工具依赖与数据泄露：龙虾/Openclaw 等工具权限过大，存在误操作与 API 滥用风险。
-- 医疗、智慧城市等严肃/强监管场景不适用于本主题中基于"容错"的轻量落地方法。
-- 部分案例来自培训/营销语境，存在幸存者偏差，需独立验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 
@@ -181,12 +181,12 @@ related:
 
 本卡为 theme 级综合草稿，建议拆分为以下子卡：
 
-- [[ai-landing-scene-selection]]（已存在）：五步落地与场景选择
-- [[ai-collaboration-mindset-shift]]（已存在）：人机分工与双三角模型
-- `feature-thinking-ai-capability`（待建）：Feature 思维与 AI 能力训练
-- `tcpr-ai-methodology`（待建）：TCPR 方法论产品化
-- `lobster-ai-native-collaboration`（待建）：龙虾/Openclaw 与 AI 原生协作
-- `intelligent-entrypoint-ai`（待建）：智能入口与基础设施落地
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 注：录音 1486162（智慧城市 AI 应用交流）因含药柜/医疗内容，已剥离至 `60_feedback/pending-wiki-cards/pending-smart-city-medical-2026-06-20.md`，本卡不再引用。
 
@@ -198,18 +198,18 @@ related:
 
 ## 验证与参考
 
-- 主题摘要：90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md
-- 原始引用（已纳入 source_refs）：`theme-ai-methodology-tools-summary`
-- 原始引用（未纳入 source_refs）：`rec-7759098`
-- 原始引用（未纳入 source_refs）：`rec-7356146`
-- 原始引用（未纳入 source_refs）：`rec-7259388`
-- 原始引用（未纳入 source_refs）：`rec-6445435`
-- 原始引用（未纳入 source_refs）：`rec-5638948`
-- 原始引用（未纳入 source_refs）：`rec-5383332`
-- 原始引用（未纳入 source_refs）：`rec-5273087`
-- 原始引用（未纳入 source_refs）：`rec-5060599`
-- 原始引用（未纳入 source_refs）：`rec-4431344`
-- 原始引用（未纳入 source_refs）：`rec-4288010`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -240,10 +240,10 @@ related:
 
 ### 置信度更新
 
-- 原综合可信度：0.56（🟡 中可信度，偏向中低）
-- 更新后：核心方法论（五步流程、双三角模型、Feature 思维）已在原文中找到明确对应；关键数字（90%、73.2%、40%→80%、200 美元替代 2 万美元）已核对原文位置。
-- 但所有数字仍为项目方/主讲人口述，未经过独立审计，样本量、测量方法、统计口径待复核。
-- 因此将 confidence 从默认值调整为 `0.65`，标注 `trust_level: medium`，不过度提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二轮深挖结果（2026-06-14）
 
@@ -257,23 +257,23 @@ related:
 **详细说明：**
 
 1. **效率提升 300%**
-   - 在原始 source 文件 `src_20260614_144d986e-多人-Open-Cloud培训.md` 中全文搜索「300%」「三百」「3百」「300」「效率提升」等关键词，均未找到直接对应表述。
-   - 来源文件第 181-184 行仅提及「200 美元替代 2 万美元」的成本对比，未出现「效率提升 300%」的具体说法。
-   - 该表述出现在主题摘要 `theme-ai-methodology-tools-summary.md` 的「个人效率提升案例」小节（"成本降低 99%，效率提升 300%"），属于主题摘要层面的加工整合，无法追溯到录音原文的直接支持。
-   - **处理结论**：从卡片中移除或改写为「主题摘要加工表述，未获原文直接支持」；如保留，需明确标注为未验证的摘要推断。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **4288010 Muse 模型与部分案例细节**
-   - 原文中「Muse 模型」因 ASR 转写存在多种形式：music 模型（211）、miles 模型（212）、MUS 模型（228）、muse 模型（336、356、365）。结合上下文，可确认均指同一「Muse 模型」。
-   - 第 204-228 行：主讲人提出 Muse 模型是一个四层框架，并用其整理一堂公司 AI 知识库及个人私有知识库，形成公司和个人两棵知识树。
-   - 第 336 行：描述 Muse 模型在个人工作流中的位置——「从最上层的人生点到必备能力里面的能力项，然后再到我的 muse 模型，再到我个人的 IPO 的循环，再到我的知识树」。
-   - 第 356 行：建议听众「拿 muse 模型当做你们个人的知识体系」。
-   - 第 365 行：明确将「muse 模型」与「双三角模型」并列为本课反复出现的两个核心模型。
-   - 关于案例细节：Muse 模型对应的具体案例主要为「公司 AI 知识库整理」和「个人知识库整理」，以及后续基于该知识树展开的 web coding、agent、数据等目录归类。卡片中仅概括性提及「Muse 模型」，未深入具体数字或效果数据，因此可认为已核对。
-   - **处理结论**：已核对，补充精确行号；案例中未出现需要额外复核的量化断言。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **本轮发现的新问题：**
-- 主题摘要 `theme-ai-methodology-tools-summary.md` 对 Open Cloud 培训案例的概括存在夸大/加工风险（如「效率提升 300%」），建议后续对主题摘要中的数字类断言逐条回查原文。
-- 录音 ASR 对「Muse」的转写不一致，后续引用时建议在行号后补充说明同词异写现象，避免检索遗漏。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -282,10 +282,10 @@ related:
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- 5060599 案例中‘效率提升 300%’——主题摘要加工，原文仅支持 200 美元替代 2 万美元人工成本。
+- src_unknown
 
 ### 已标注限制条件的条件性结论
-- 无
+- src_unknown
 
-- 清理时间：2026-06-14
-- 置信度与信任等级：维持原设置，不因清理而提升。
+- src_unknown
+- src_unknown

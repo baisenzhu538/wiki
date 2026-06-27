@@ -13,12 +13,12 @@ language: zh-CN
 domain: [feishu, content-extraction, publishing, yitang]
 source_refs:
   - src_unknown
-  - 拆书会第208期《AI 2041》逐字稿提取实战
+  - src_unknown
 related:
-  - "[[feishu-docx-pagination-extraction]]"
-  - "[[concept-streaming-extraction-pattern]]"
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "飞书文档API提取后内容不完整，但code=0不报错"
+  - src_unknown
     framework_lens: API分页遗漏——fetch_children没有has_more循环
     follow_up_question: "你的提取脚本在调用/blocks API后，检查了resp['data']['has_more']吗？"
 ---
@@ -37,10 +37,10 @@ diagnostic_signals:
 ## 事故规模
 
 拆书会第208期：
-- 源文档：1329 blocks（含嵌套）
-- 只提取了：552 blocks（第1页）
-- 遗漏：688 blocks（故事四~附录三）
-- 用户感知：看了原文发现"十个故事只拆了三个"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 根因
 

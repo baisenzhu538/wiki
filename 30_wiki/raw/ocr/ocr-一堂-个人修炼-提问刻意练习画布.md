@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-提问刻意练习画布"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_a1a098d5
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-个人修炼-提问刻意练习画布"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[yt-model-scientific-questioning-map]]'
-  - '[[ocr-一堂-个人修炼-科学提问刻意练习]]'
-  - '[[yt-model-questioning-practice-canvas]]'
-  - '[[tool-yitang-job-intelligence-research]]'
-  - '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-提问刻意练习画布
@@ -36,36 +36,36 @@ png` 提问刻意练习提升画布ByYITANG 维度 Level1.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 提问能力分为四级递进维度：业务分析（找答案）→ 辅导团队（提升员工找答案能力）→ 咨询教练（帮助客户提升找答案能力）→ 萃取经验（与专家共创方法论）。
-- 每级维度有明确的提问对象、目标、难度星级及典型场景，形成从内部问题解决到外部知识生产的完整光谱。
-- Level 1 业务分析的核心套路是理解问题、不断追问、交叉验证，工具箱包含 STAR、SMART、MECE。
-- Level 2 辅导团队的核心套路是对齐目标、建设性提问、引导建模，工具箱包含 GROW、强迫思考、六个 why。
-- Level 3 咨询教练的核心套路是达成共识、共同评估、探讨解法，工具箱包含关键假设、加减法、TopN 优先级。
-- Level 4 萃取经验的核心套路是界定内核边界、代入场景、辩证讨论，工具箱包含代入问题场景、追问榨干经验、苏格拉底式提问。
-- 提问难度随层级递增：业务分析一星，辅导团队二星，咨询教练三星，萃取经验五星，反映从执行到创造的知识复杂度跃迁。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 为什么难度评级从1星直接跳到2星、3星、5星，缺少4星？这是刻意设计还是OCR遗漏？
-- "一堂提炼259"中的"259"具体指什么？是课程编号、方法论代号还是OCR误识？
-- Level 4萃取经验的"内核边界"具体如何界定？操作标准是什么？
-- "强迫思考"作为工具箱条目，具体指什么技术？与"六个why"如何区分使用场景？
-- 从Level 3到Level 4的难度跃迁（3星→5星）跨越了4星，是否意味着存在未明示的中间层级或能力断层？
-- "加减法"在咨询教练场景中的具体含义和操作步骤是什么？
-- 该框架的递进关系是否经过实证验证？还是基于个人经验归纳？
-- 视觉结构信息缺失导致"基本套路"与"工具箱"的层级关系不明确，二者是并列还是包含关系？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **星级跳跃的漩泊：提问能力的难度评级从1星直接跳到2星、3星、5星，缺少4星。这可能暗示了"提问能力"不是线性连续的，但未解释这种跳跃的逻辑——为什么不是1-2-3-4-5？
-- **"工具箱"的工具过多：每个等级都配备了3-4个工具，但未提供"什么时候用哪个工具"的决策树。工具过多可能导致学习者在实际应用时選择困难。
-- **实证基础缺失：四级提问能力的划分声称是"从执行到创造"的知识复杂度跃迁，但未提供任何实证研究支持这种分类。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Socrates 会质疑画布本身的假设：**提问能力是可以被"分级练�
 
 ### 不要用的场景
 
-- **基础知识缺失的学习者：画布假设学习者已经具备基础的提问能力，但对于刚入门的人，四级分类可能太难。
-- **需要创意而非分析的场景（如脑暴、艺术创作）：这些场景中的"问题"本身就不清晰，四级提问的"找答案"逻辑不适用。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-canvas]] — 提问画布的独立版本，可与刻意练习画布对照使用
-- [[yt-personal-deliberate-practice]] — 刻意练习的理论基础，提问画布是其在提问领域的应用
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 团队管理者自评：用四级提问定位自己的提问能力水平
-- 培训设计：根据四级提问设计不同层级的培训课程
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -3,45 +3,45 @@ id: prd-as-ai-instruction
 title: "PRD文档作为AI可执行指令"
 type: tool
 domain:
-  - product
-  - ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_90b44191-没有人呀现在
 component_of:
-  - ai-learning-closed-loop
+  - src_unknown
 related:
-  - "[[course-to-skill-conversion]]"
-  - "[[voice-input-doubao]]"
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[yt-entrepreneur-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - PRD文档怎么写
-  - 怎么让AI执行PRD
-  - 产品需求文档AI
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "每次做同一类任务都要重新解释"
+  - src_unknown
     lens: "流程未固化"
     follow_up: "写一份1页纸的PRD，包含目标+约束+步骤，1小时内完成"
-  - signal: "团队成员执行结果不一致"
+  - src_unknown
     lens: "标准缺失"
     follow_up: "把标准流程写成PRD，让所有人按PRD执行，执行结果一致率>80%"
-  - signal: "AI执行结果每次不同"
+  - src_unknown
     lens: "约束不足"
     follow_up: "把预期流程写成PRD加载给AI，连续3次结果一致"
-  - signal: "PRD写了但AI还是偏离"
+  - src_unknown
     lens: "边界不清"
     follow_up: "检查PRD是否包含边界条件：什么时候停止、什么时候转交人类"
 ---# PRD文档作为AI可执行指令
@@ -110,9 +110,9 @@ diagnostic_signals:
 ## Critique
 
 ### 内部局限
-- PRD的质量严重依赖写作者的业务理解深度。如果写作者自己都不清晰流程，PRD只会让AI系统化地出错。
-- PRD对AI的约束力有限。当AI遇到未在PRD中规定的边界情况时，可能会自由发挥而偏离。
-- PRD需要持续维护。当业务变化时，PRD可能变成过时的"紧身衣"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

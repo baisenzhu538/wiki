@@ -10,30 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-critical-reading-three-layers]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 拆书法
-- 批判性阅读
-- 认知操作系统
-- AI 2041
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢三层拆书法
@@ -84,20 +84,20 @@ tags:
 ## 操作步骤
 
 1. **查椅子**：拆书前花约 30 分钟查作者背景，重点不是履历，而是利益结构 [conf=0.70, source=王欢原创]。
-   - 他投了什么公司？靠什么赚钱？
-   - 他的声誉建立在什么立场上？
-   - 他说的话如果是对的，对他有什么好处？如果是错的，他付什么代价？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **找魂**：读完全书后，用一句话回答：这本书的底层操作是什么？
-   - 例：《AI 2041》的魂不是"十个科幻故事"，而是"选择点探测器" [conf=0.70, source=王欢原创]。
-   - 例：《Atlas of AI》的魂不是"AI 很坏"，而是"解剖台三问" [conf=0.70, source=王欢拆书归纳/二手书评]。
+   - src_unknown
+   - src_unknown
 
 3. **挑故事**：不要平均用力，选 3-5 个代表性案例，按"由浅入深"的梯度排列 [conf=0.70, source=王欢原创]。
-   - 每层拆解：表面说了什么 → 底下藏着什么 → 现实验证了什么 → 书里没说但你必须想明白什么。
+   - src_unknown
 
 4. **做审计**：跳出书的世界观，用外部视角检验核心假设 [conf=0.70, source=王欢原创]。
-   - **交叉阅读**：找 2-3 本立场相反或互补的书对撞。
-   - **时间验证**：如果书已出版数年，检查哪些预测兑现、哪些滞后。
+   - src_unknown
+   - src_unknown
 
 5. **生长**：在审计发现的盲区之上，回答：这个盲区意味着什么？如果我替作者想通了他没想通的东西，那是什么？ [conf=0.70, source=王欢原创]
 
@@ -109,11 +109,11 @@ tags:
 
 拆完一本书后，用五个问题检查输出质量；任一答案为"否"，说明拆书未做完 [conf=0.70, source=王欢原创]。
 
-- [ ] 我有没有找到这本书的"魂"——那个不随时间过期的方法论？
-- [ ] 我有没有查了作者的椅子，并在拆书中诚实标注了他的利益立场？
-- [ ] 我有没有指出至少一个作者看不见的盲区，而且能说明他为什么看不见？
-- [ ] 我有没有在盲区之上，生长出至少一个自己原创的认知？
-- [ ] 我有没有给出至少一个读者今天就能做的具体行动？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -169,12 +169,12 @@ tags:
 
 ### 反例：AI 生成式读书笔记
 
-- **问题**：AI 能在 30 秒内生成全书摘要，列出 10 个要点，但无法回答：
-  - 作者的利益立场是什么？
-  - 这本书的核心假设在什么边界下会失效？
-  - 书里没说但你必须想明白的是什么？
-- **后果**：读者获得的是"复述加感叹"，认知升级价值接近零 [conf=0.70, source=王欢原创]。
-- **对照**：这正是王欢强调"拆书方法本身是对抗 AI 焦虑的武器"的原因——AI 能总结，但不会质疑自己总结的前提 [conf=0.70, source=王欢原创]。
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -191,9 +191,9 @@ tags:
 **回应**：确实，对于文学、哲学或探索性作品，强行"找魂"会压缩文本的丰富性。三层拆书法更适合论点型、预测型、方法论型文本；对于开放性文本，应把"找魂"替换为"找张力"——关注矛盾而非统一。
 
 **不要用**：
-- 不要用于超出自己能力边界、无法判断证据质量的领域——查椅子会变成查百度百科。
-- 不要在没有找到"魂"的情况下直接做审计——审计需要知道审计什么。
-- 不要让"生长"脱离证据——否则不是批判性阅读，而是借题发挥。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

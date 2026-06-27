@@ -4,7 +4,7 @@
 plan_id: plan_20260503_f3e9a2b1
 type: improvement-plan
 domain:
-- kdo
+- src_unknown
 status: draft
 created_at: '2026-05-03T12:00:00+00:00'
 feedback_count: 1
@@ -21,11 +21,11 @@ trust_level: low
 title: plan 20260503 f3e9a2b1 improvement plan
 updated_at: '2026-06-16'
 related:
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[kdo-batch-produce-req014]]'
-  - '[[dk-c2-dual-status-machine]]'
-  - '[[dk-kdo-leaky-pipe-pressure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Improvement Plan plan_20260503_f3e9a2b1
 
 ## 来源
@@ -36,12 +36,12 @@ related:
 
 ## Summary
 
-- **Sources**: 12（已 ingest，待 enrich）
-- **Artifacts**: 10（8 failing validate，2 passing）
-- **Feedback records**: 18（13 simulated + 5 eval-results）
-- **Lint issues**: 14 broken wikilinks
-- **Memory layer**: 0% 填充
-- **Contradictions**: 0 条记录
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -52,8 +52,8 @@ related:
 **目标**：将 1 个未 enrich 的 source 转化为标准知识卡片，验证 enrich 链路可运行。
 
 **推荐 source**：`src_20260501_9962715b`（互联网医院模式深度调研报告）
-- 已有对应 artifact `art_20260501_0ac5504f`，说明 source 内容完整
-- 但 `30_wiki/concepts/互联网医院模式深度调研报告.md` 尚未执行完整 Condense / Critique / Synthesis
+- src_unknown
+- src_unknown
 
 **执行步骤**：
 1. 读取 `10_raw/sources/src_20260501_9962715b-互联网医院模式深度调研报告.md`
@@ -92,9 +92,9 @@ related:
 **目标**：让 AI 新会话能加载历史上下文。
 
 **最低填充要求**：
-- `20_memory/project-continuity.md`：追加本次 session 摘要（日期、处理 source 数、产生 artifact 数、未决问题）
-- `20_memory/user-preferences.md`：写入用户已知偏好（如输出渠道偏好、领域关注优先级）
-- `20_memory/operating-principles.md`：写入 3-5 条本仓库的运作原则（如"先 enrich 后 produce"、"ship 前必须通过 validate"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **机制**：在 `Knowledge Curator Skill` Procedure 中增加 Step 0：
 > "会话开始时读取 `20_memory/` 全部文件，加载 continuity 与 preferences。"
@@ -108,14 +108,14 @@ related:
 **来源**：`kdo lint` 报告
 
 **涉及页面**：
-- `30_wiki/concepts/紫鲸ai智能体工作流平台.md`：4 个断链
-- `30_wiki/concepts/街顺app全面调研报告.md`：6 个断链
-- `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`：4 个断链
+- src_unknown
+- src_unknown
+- src_unknown
 
 **策略**：
-- 若链接指向的概念有价值且暂无页面 → 创建 stub 页面（仅 frontmatter + 一句话描述）
-- 若链接指向的概念超出当前仓库范围 → 改为纯文本，移除 `...`
-- 修复后运行 `kdo lint` 验证 0 warning
+- src_unknown
+- src_unknown
+- src_unknown
 
 **新增 lint 规则**：broken wikilink 从 **warning** 提升为 **error**。
 
@@ -136,9 +136,9 @@ related:
 ### 2.3 创建 contradictions.md 示范条目
 
 **推荐矛盾对**：
-- **A 方**：YC AI-Native 方法论（"中层管理变 markdown，消除人肉中间层"）
-- **B 方**：街顺 APP 实践（"百人真人客服团队是核心竞争壁垒，按营业额 6% 抽成"）
-- **张力**：YC 主张用 AI/agent 替代中层与客服人力；街顺用重人力客服构建 SaaS 差异化。两者在"组织设计是否应去人力化"上存在直接冲突。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **格式**：
 ```markdown
@@ -162,18 +162,18 @@ kdo validate
 ```
 
 **验证清单**：
-- [ ] `kdo lint` 行为与 `90_control/scripts/kdo_lint.py` 源码一致
-- [ ] `kdo validate` 的检查维度与 `90_control/scripts/kdo_validate.py` 一致
-- [ ] 若 CLI 版更完整，将 CLI 代码覆盖到仓库脚本，确保单一 truth source
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ### 3.2 更新 quality-gates/ 文档
 
 **行动**：将 `kdo_validate.py` 中每个 gate 的通过/失败标准逐条映射到 `quality-gates/*.md`：
-- `content.md`：补充 `content_draft_length >= 200` 等量化标准
-- `capability.md`：补充 `capability_eval_cases_filled` 等检查点
-- 每份文档末尾增加 "Script Reference" 段落，注明对应代码位置
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -191,8 +191,8 @@ kdo validate
 ### 4.1 完成 1 次真实交付并收集人类反馈
 
 **推荐 artifact**：`art_20260430_447f2eea`（AI-Native 公司组织方法论）
-- 已有实质内容（非空壳）
-- topic 热度高，易获得读者反馈
+- src_unknown
+- src_unknown
 
 **行动**：
 1. 将 draft 扩充至 1500+ 字

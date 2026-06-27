@@ -9,21 +9,21 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例01.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[concept-发现决策]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[concept-X型Y型决策习惯]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -31,11 +31,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例01.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了决策深度 L1→L2 的升级路径，数字完整、框架清晰，适合作为 ROI 决策案例。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -43,10 +43,10 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家企业（销售额约 1 亿元/年）
-- **决策问题**：是否给全体员工涨薪 20%
-- **分析周期**：以年为单位看价值
-- **决策框架**：关键决策 ROI 分析表（具体项 / 能否定量 / 补充解释）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -80,36 +80,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **财务保守派**：不能定量的收益不应进入 ROI 表，否则变成"数字游戏"。
-- **人力资源派**：员工士气和品牌声誉虽然难量化，但恰恰是长期竞争力来源，不能因为没有数字就忽略。
-- **行为经济学派**："保留 10 人省 30-50 万"是结果导向判断——如果这 10 人最终留下，会归功于涨薪；如果离开，会归因于"做得还不够"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **营销预算决策**：把"品牌曝光""用户心智"等软收益与硬转化成本并列分析。
-- **产品功能取舍**：评估一个功能开发的投入与多维收益（留存、口碑、竞争差异化）。
-- **选址/扩张决策**：把租金成本与客流、品牌、竞争反应等收益分层量化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 当看到"士气""品牌""口碑"等词成为决策理由时，先问：它们能否被量化？如果不能，置信区间应大幅降低。
-- ⚠️ 任何"对手会跟进"的估值都必须附条件概率分析。
-- ⚠️ 成本端要检查是否侵蚀了收益端的基础假设（如净利率）。
-- ⚠️ 案例中的数字是"教学推演"而非"真实企业数据"，应用时需替换为自身业务数据。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度——从 L1 定性判断升级到 L2 数量级估计。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在人事决策场景的具体应用。
-- **[[tool-决策深度-L2部分定量]]**：案例展示了"不能全定量但可以给数量级"的 L2 决策方法。
-- **[[dk-你的业务是一次抽样实验]]**：案例中的"3% 销售提升"必须放在足够大的样本和时间内看，不能被单点数据驱动。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Duke（结果导向批评）**："保留优质员工"暗含"我们知道谁是优质员工"的假设。但"优质"标准在不同团队差异极大，且保留决策本身是结果导向的——留下归因于涨薪，离开归因于不够努力。决策者很难区分"决策的好坏"与"结果的好坏"。[conf=0.80, source=Annie Duke, Thinking in Bets]
-- **Simon（有限理性批评）**：员工价值是非线性的，一个普通员工离职可能导致团队士气崩塌，也可能毫无影响。"保留 10 人"这个数字如果是基于直觉而非历史数据，就会隐藏巨大的选择偏差。[conf=0.75, source=Herbert Simon, Administrative Behavior]
+- src_unknown
+- src_unknown
 
 ---
 

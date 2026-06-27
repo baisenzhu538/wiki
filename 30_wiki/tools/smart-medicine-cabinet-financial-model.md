@@ -7,16 +7,16 @@ title: 智能药柜单点财务模型与回本测算表
 type: tool
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - financial-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -25,25 +25,25 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
-  - '[[case-lean-perfectionism-traps]]'
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - '[[case-yitang-tob-smart-park]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 智能药柜回本周期
-- 药柜单点财务模型
-- 自动售药机多久回本
-- 药柜日均销售额
-- 药柜保本销售额
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 
@@ -94,11 +94,11 @@ prerequisites: smart-medicine-cabinet-national-policy-redlines
 
 智能药柜/自助售药机的单点经济模型与饮料/零食自动售货机差异极大：
 
-- **药品消费低频**：远低于饮料零食，不能直接用自动售货机数据推断。
-- **客单价中等偏低**：乙类 OTC 多为应急小包装，客单价通常 20–50 元。
-- **毛利率有限**：中西成药毛利率约 22%–36%，O2O 抽成后进一步压缩。
-- **固定成本刚性**：设备折旧、场地租金/分成、补货运维、系统费用。
-- **回本周期长**：普通社区场景可能 3–7 年，医院/企业/校园等强需求场景可缩短至 1.5–3 年。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **重要提示**：本卡所有回本周期、销售额数据均为基于公开信息和行业经验的估算，并非运营商真实运营数据。实际决策前必须做 3–6 个月单点验证。
 
@@ -166,8 +166,8 @@ prerequisites: smart-medicine-cabinet-national-policy-redlines
 | 法律结构 | 诊所与药柜运营方利润分成 | 法律关系（租赁/合作经营/药品购销）影响税务和合规责任，需合同明确 |
 
 **财务模型提示**：
-- 若按推销方“原研药高毛利”估算，单点毛利可能显著高于普通乙类 OTC 场景；但模型必须同时计入**合规成本、行政处罚风险、医保协议解除风险、患者投诉处理成本**。
-- 在缺乏广东/广州医保个账支付明确政策前，不应将“医保个账支付自费原研药”作为收入假设。
+- src_unknown
+- src_unknown
 
 ### 6. 消费者支付意愿对财务模型的影响（第九轮新增）
 
@@ -220,26 +220,26 @@ Taleb 的批判有三点：
 
 ### 与已有知识的联系
 
-- **单元模型视角**：本卡将药柜经济模型分解为点位、频次、客单价、毛利率、成本等单元变量，符合 `yt-unit-model-three-tools` 的分解方法。建议进一步与 `kc-p1-01-dingdang-store-model` 进行三向对比（叮当前置仓、连锁药店、诊所+药柜）。
-- **选址视角**：点位质量是回本周期第一变量，直接关联 `kc-p1-03-site-selection`。财务模型中的“普通社区难以回本”结论，本质上是选址质量在经济模型中的体现。
-- **反脆弱视角**：本卡所有回本周期数据均为估算，属于脆弱假设；建议用保守假设做决策，以保留在真实数据不利时的调整空间。参考 `master-antifragile-checklist`。
-- **认知偏差视角**：避免用“乐观假设”做商业计划，是为了防止过度乐观偏差和规划谬误。参考 `master-cognitive-bias-checklist`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- **先用本卡做快速筛选**，识别哪些场景"理论上可能回本"。
-- **再选 1–3 个强需求场景做 3–6 个月单点验证**，获取真实销售额、频次、客单价。
-- **保守估算**：建议用"保守假设"做决策，用"中性假设"做激励，避免用"乐观假设"做商业计划。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 
 ## 验证与参考
 
-- 财务模型分析：`src_20260613_0e40f3cd`
-- 补充深挖（迭代 6）：`src_20260613_26c69f98`
-- 补充深挖（迭代 7）：`src_20260613_6ed8df4b`
-- 诊所访谈纠偏报告：`src_20260613_5f96c5bb`
-- 消费者支付意愿研究：`src_20260613_b0cac5a3`
-- 第九轮综合总结：`src_20260613_c5f5a7ce`
-- 上市连锁药店年报（益丰、老百姓、大参林、一心堂、漱玉平民、健之佳）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

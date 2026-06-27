@@ -6,10 +6,10 @@ title: 鑫港湾医药零售商业模型计算框架
 type: framework
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - business-strategy
-  - finance
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown
@@ -18,34 +18,34 @@ review_date: '2026-06-19'
 confidence: 0.89
 trust_level: medium
 related:
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[xingangwan-pharma-business-model-formulas]]'
-  - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-benchmark]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
-- 10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
-- 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md"
+- src_unknown
+- src_unknown
 captured_at: '2026-06-19'
 tags:
-- 鑫港湾
-- 商业模型
-- 财务测算
-- 单元经济
-- 智慧药柜
-- 医药零售
-- 原研药
-- 医保引流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 模型中关键假设（客单价、毛利率、复购率）仍使用桌面推演值，未用山西实地调研数据校准
+- src_unknown
   framework_lens: L1-L4 四层财务计算框架
   follow_up_question: 已落地的诊所/药柜实际日均订单、医保药与原研药销售占比、真实租金与审方费是多少？是否与本框架参考区间一致？
-- signal: 医保报销比例、集采目录、互联网医院审方政策存在地区差异与变动风险
+- src_unknown
   framework_lens: 医保支付与政策合规
   follow_up_question: 山西各地市门诊统筹起付线、报销比例、乙类先行自付比例及审方平台收费标准是否已逐一确认？政策变化对盈亏平衡日订单的影响边界是多少？
 
@@ -105,23 +105,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 收集山西目标城市至少 3 家合作诊所的场地租金、门诊量、慢病患者占比数据。
-- [ ] 确认医保药与原研药采购价/零售价，计算真实毛利率。
-- [ ] 获取互联网医院/审方平台实际收费标准（按张或包年）。
-- [ ] 跑通 1 台智慧药柜的最小可行单元，记录连续 30 天订单量、客单价、品类结构。
-- [ ] 用本框架计算单柜、单店、区域三层盈亏平衡。
-- [ ] 建立保守/中性/乐观三档假设，按保守档决定是否扩张。
-- [ ] 同时用利润口径与现金流口径评估回本周期。
-- [ ] 将政策变量（报销比例、审方费、租金）纳入敏感性分析。
-- [ ] 与 `[[xingangwan-pharma-business-formulas]]` 交叉验证：漏斗转化率是否支撑财务假设的订单量。
-- [ ] 每月复盘实际 vs 假设，迭代模型参数。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- `[[xingangwan-pharma-business-formulas]]`：转化漏斗、杠杆变量与业务公式。
-- `[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]`：商业模式整体设计与决策背景。
-- `[[shanxi-field-research-checklist-20260701]]`：山西实地调研清单，用于校准本框架假设。
-- `[[yt-unit-model-construction]]`、`[[yt-unit-model-benchmark]]`：一堂单元模型方法论参考。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -167,8 +167,8 @@ diagnostic_signals:
 单柜月毛利   = 医保药销售额 × 医保药毛利率
              + 自费原研药销售额 × 原研药毛利率
              + 其他品类销售额 × 其他品类毛利率
-             - 单柜固定运营成本
-             - 单柜变动运营成本
+             - src_unknown
+             - src_unknown
 ```
 
 ---
@@ -469,10 +469,10 @@ $$PB_{CAC} = \frac{CAC}{\bar{P} \times \bar{g}}$$
 $$\frac{LTV}{CAC} \geq 3 \text{（健康业务基准）}$$
 
 若 LTV/CAC < 3，需：
-- 提高客单价或毛利率（重点提升原研药占比）
-- 提高留存率
-- 降低 CAC
-- 缩短 CAC 回收周期
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -487,9 +487,9 @@ Deductible + (P - Deductible) \times (1 - r) & \text{if } P > Deductible
 \end{cases}$$
 
 其中：
-- $P$ = 药品总费用
-- $Deductible$ = 起付线
-- $r$ = 报销比例
+- src_unknown
+- src_unknown
+- src_unknown
 
 **统筹基金支付金额**：
 $$Reimbursement = P - OOP$$
@@ -645,11 +645,11 @@ $$G_c^{target} = FC_c + VC_c + \pi_c^{target}$$
 $$S_c^{target} = \frac{FC_c + \pi_c^{target}}{\bar{g}_c - (l + f_p) - \frac{Q \times f_r}{S}}$$
 
 代入后，目标月销售收入约为 12,000–13,000 元，对应：
-- 医保药日均订单：1.5 单（保持不变）
-- 原研药日均订单：约 0.9 单（从 0.5 单提升）
+- src_unknown
+- src_unknown日均订单：约 0.9 单（从 0.5 单提升）
 
 或：
-- 原研药毛利率从 50% 提升至 60%，同时原研药日均订单 0.7 单
+- src_unknown毛利率从 50% 提升至 60%，同时原研药日均订单 0.7 单
 
 ---
 

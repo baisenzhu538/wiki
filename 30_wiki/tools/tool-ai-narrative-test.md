@@ -3,8 +3,8 @@ id: tool-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[sk-ai-narrative-test]]'
-- '[[tool-ai-system-redundancy]]'
-- '[[tool-水水-构建自利叙事]]'
-- '[[tool-水水-降低故事逻辑要求]]'
-- '[[sk-ai-purpose-bias-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：你的方案有叙事力吗？快速测试
 
@@ -47,18 +47,18 @@ related:
 
 ## 适用场景
 
-- 写了一个很逻辑的方案，但说服不了别人
-- 产品功能很强，但用户不买账
-- 需要向老板/客户汇报方案，想让对方产生行动冲动
-- 团队内部推动变革，但大家缺少动力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
+- src_unknown
 
 ## 为什么有效
 
@@ -66,13 +66,13 @@ related:
 
 ## 关联技能
 
-- narrative-bias
-- [[sk-ai-purpose-bias-check]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

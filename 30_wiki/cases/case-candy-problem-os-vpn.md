@@ -15,13 +15,13 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-xian-franchise-location-decision]]'
-  - '[[case-popmart-prospectus-pricing]]'
-  - "[[framework-candy-transcript-workflow]]"
-  - "[[concept-candy-ai-as-collaborator]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：VPN场景
@@ -36,9 +36,9 @@ related:
 
 同事面露难色但不直说。追问后发现：
 
-- 同事其实担心VPN的安全性和数据风险，但不好意思直接质疑
-- 更深层：同事其实不理解"线下数据库"和"同步"的具体含义
-- 最深层：同事真正的问题是"我怎么能安全地在家里完成数据同步工作"——但他表达出来的是"怎么访问"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 问题链分析
 

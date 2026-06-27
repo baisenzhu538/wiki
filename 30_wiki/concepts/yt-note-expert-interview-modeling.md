@@ -6,8 +6,8 @@ title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - personal-growth
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.82
@@ -15,43 +15,43 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - '[[yt-note-problem-solving-capability]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-note-extensive-research-input]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-live-field-skill]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-note-extensive-research-input]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 专家访谈怎么记笔记
-- 一边访谈一边建模
-- 实时笔记
-- 访谈笔记方法
-- 现场萃取专家经验
-- 用户访谈笔记
-- 磨课笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-10
 estimated_tokens: 5200
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户访谈时只顾记录，无法现场建模
+- src_unknown
   framework_lens: 剩余脑力不足
   follow_up_question: 你记录时是否已经自动化，不需要占用全部脑力？如果不是，还到不了建模层
-- signal: 用户现场建模但让对方觉得不尊重
+- src_unknown
   framework_lens: 关系张力处理不好
   follow_up_question: 你建模时有没有和对方互动、确认、挑战？还是只顾自己写？
-- signal: 访谈结束后有 10 页逐字稿，却提炼不出一个可验证模型
+- src_unknown
   framework_lens: 记录≠加工
   follow_up_question: 你能否用一句话说出这次访谈的主线？能否把对方观点转写成“如果…那么…”的因果结构？
-- signal: 过度依赖 AI 转录，现场不再追问关键细节
+- src_unknown
   framework_lens: 剩余脑力被“伪自动化”占用
   follow_up_question: 当 AI 替你记录时，你省下的认知资源是用在追问/建模，还是用来走神/准备下一句套话？
 updated_at: '2026-06-17'
@@ -120,9 +120,9 @@ Truman强调："当你记笔记记熟了之后，你开始有一点点剩余脑�
 
 ### claim:04 [conf=0.85] 解决"不尊重"困境的三个操作：先不投屏、双人访谈、提前说好
 
-- **先不投屏**：前半段不让对方看屏幕，最后展示结果时给惊喜——"他看你的结果会觉得很惊喜，但是看你过程的时候会特别挠头"。
-- **双人访谈**：找一个笔记能力没那么强的人在前面"顶"着互动、投屏，真正的记录者在后面偷偷记。
-- **提前说好**：对资深受访者直接坦诚沟通——"我争取现在拉满了记笔记，一会儿你要看着我比较乱，你多包涵。"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:05 [conf=0.78] 专家访谈式笔记的终极目标是"反向输出"——给对方一个比他自己的表达更厉害的框架
 
@@ -138,10 +138,10 @@ Truman的巅峰状态是：访谈结束时，他能够反向给对方讲"你看�
 
 ### Constraints（内部局限）
 
-- **对记录基本功要求极高**：没有扎实的L1-L3清单体记录能力，尝试专家访谈式笔记会导致两头空——既没记全，也没问深。
-- **依赖特定关系基础**："先不投屏""提前说好"都需要一定的信任关系；对陌生人或不熟悉的受访者可能不适用。
-- **剩余脑力有上限**：即使训练有素，人在疲劳、信息密度过高、或话题陌生时，剩余脑力会急剧下降。
-- **建模可能扼杀意外**：过早套用模型会让受访者被"框定"，错过真正反常识的洞见。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -191,21 +191,21 @@ Truman访谈萝卜干案例时，一边访谈一边记录，现场把碎片化�
 
 ## Synthesis
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"独立""分点""分层"三个特征，是专家访谈式笔记能够实时加工的认知基础设施。没有清单体，碎片化的访谈信息会在脑中堆积，无法被现场建模。
+- src_unknown
 
-- [[yt-note-live-field-skill]] —— 现场笔记完成度五步法为专家访谈式笔记提供了更底层的操作框架：完成度越高，能够实时处理的信息层级就越高。专家访谈式笔记本质上是完成度的极端场景。
+- src_unknown
 
-- [[yt-note-l4-internalization]] —— L4的"问题驱动"和"广泛涉猎"在访谈场景中直接兑现：好问题来自事前准备，现场交叉验证需要调用多源知识。专家访谈式笔记是L4能力最残酷的试金石。
+- src_unknown
 
-- [[dk-truman-flag-note-taking]] —— 专家访谈式笔记极度依赖flag机制："现场必须完成""必须比对方更清楚""必须90%成为课程内容"——这些flag倒逼出远超日常的认知投入。
+- src_unknown
 
-- [[yt-tool-meeting-designer]] —— 会议设计与专家访谈共享同一种认知结构：边听边整理、边问边建模、用清单体作为实时协作语言。二者的工具可以相互迁移。
+- src_unknown
 
-- [[yt-research-expert-interview]] —— 专家访谈方法论提供“问什么、怎么问”的问题库，专家访谈式笔记则负责把答案实时结构化和模型化。
+- src_unknown
 
-- [[yt-note-extensive-research-input]] —— 广博输入为现场交叉验证提供多源知识；没有广泛涉猎，追问只能停留在同一层面。
+- src_unknown
 
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 产出 AI Skill 工程指南的过程，可视为一次多轮专家访谈式笔记的迭代实例：先记录、再建模、再反向输出为可复用指南。
+- src_unknown
 
 ### 不要用的场景
 
@@ -226,13 +226,13 @@ Truman访谈萝卜干案例时，一边访谈一边记录，现场把碎片化�
 
 ## 单卡收尾检查
 
-- [ ] `status` = `enriched`
-- [ ] `updated_at` = `2026-06-17`
-- [ ] `author` = `老顽童`
-- [ ] `reviewed_by` = `欧阳锋`
-- [ ] `diagnostic_signals` ≥ 3 条
-- [ ] `Constraints & Boundaries` 适用边界 ≥ 4 条
-- [ ] `Common Failure Modes` ≥ 4 条，且含真实症状 + 可执行修复
-- [ ] 新增 ≥1 个模板/案例/checklist
-- [ ] 新增 ≥2 条互链
-- [ ] `source_refs` 使用已注册的 `src_ID`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -11,21 +11,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-最简单元模型.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[tool-单元模型-单城市]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-lean-abcd-model]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 最简化的单元模型
@@ -59,10 +59,10 @@ A + B  <=>  C + D
 
 ## 边界与反例
 
-- **不适合高度依赖长期无形价值的业务**：如平台型业务早期收入低但网络价值高，用短期收入成本对比会低估价值。
-- **不适合非商业组织**：公益组织、政府项目的目标不是盈利，最简单元模型需要调整为社会价值/成本。
-- **不能替代完整财务模型**：它是有意简化，用于快速判断；正式融资或预算仍需详细三张表。
-- **不能把「关键」当成「全部」**：只关注 A+B 和 C+D，可能忽略战略性的长期投入（品牌、研发、基础设施）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -74,14 +74,14 @@ A + B  <=>  C + D
 
 ## 与已有框架的关系
 
-- **[[tool-单元模型-象限分析法]]**：象限分析法需要先用最简单元模型判断「单元模型是否成立」。
-- **单位经济学**：是最简单元模型的量化版本，提供更详细的计算口径。
-- **[[tool-单元模型-单商圈]] / [[tool-单元模型-单城市]]**：这些工具把最简模型落到具体空间单元。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「关键收入/关键成本」的识别 checklist；
-- 缺少「收入项与成本项之间因果关系」的分析模板；
-- 缺少「从最简单元模型到完整财务模型」的升级路径。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -92,9 +92,9 @@ A + B  <=>  C + D
 
 ## 行动启示
 
-- **今晚就能做**：选一个你正在做的业务，写下它的 A、B、C、D 各是什么，判断当前是收入侧还是成本侧更脆弱。
-- **团队使用**：在战略会上要求每个负责人用最简单元模型解释自己负责的业务单元。
-- **迭代使用**：每季度更新 A/B/C/D 的数值与权重，观察趋势。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

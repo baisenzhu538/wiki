@@ -4,42 +4,42 @@ title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
 status: enriched
 domain:
-- learning-methodology- yitang
-- note-taking
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-- '[[tool-note-layer-constraint]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
-- '[[tool-note-one-line-one-point]]'
-- '[[tool-note-layer-constraint]]'
-- '[[tool-note-one-line-one-point]]'
-- '[[dk-note-surplus-brainpower]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
-- '#perspective/professional'
-- '#scene/agent-infrastructure'
-- '#scene/ai-collaboration'
-- '#method/learning-method'
-- '#content-format/checklist'
-- '#scene/product-design/design-freeze'
-- '#scene/skill-engineering'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 trust_level: medium
 updated_at: '2026-06-18'
 diagnostic_signals:
-- 读者能在3秒内定位段落核心问题与建议动作
-- 每句话加粗数量控制在0-2处，无"全加粗=全不加粗"现象
-- 同一篇笔记颜色不超过3种且语义一致
-- 超过10行的列表经过标记后扫读效率显著提升
-- 团队协作文档有明确的最小标记规范且被实际执行
-- AI对加粗关键词的权重识别更敏感，输出更聚焦
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则
 
@@ -84,11 +84,11 @@ diagnostic_signals:
 
 ## 边界
 
-- **只解决"重点在哪里"，不解决"结构怎么排"**：结构问题交给[[tool-note-layer-constraint]]。
-- **只解决"视觉权重"，不解决"语义压缩"**：冗余问题交给[[tool-note-one-line-one-point]]。
-- **不替代完整论证**：加粗是导航，不能省掉支撑数据、上下文和推理过程。
-- **AI辅助限于结构性检查**：对"什么该加粗"的最终判断仍需人工完成。
-- **不适用情感/文学/法律文本**：这些场景下加粗会破坏语感或造成歧义。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Protocol
 
@@ -105,9 +105,9 @@ diagnostic_signals:
 **Truman原话**："主体词、关键词和关键动作都得保留，语气词、插入语、解读细节、修饰语如果非必要的话全拿掉都用不着。"
 
 **常见失败模式**：
-- 把修饰语也加粗（"**非常**重要的**一个**关键点"）→ 稀释了真正的重点
-- 把连接词加粗（"**因此**、**但是**、**所以**"）→ 这些词的功能是逻辑衔接，不是信息承载
-- 每个词都加粗 → 全加粗 = 全不加粗，失去导航功能
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤2：第一重——加粗（基础层，必做）
 
@@ -132,35 +132,35 @@ diagnostic_signals:
 **操作**：对"需要特别注意"或"待决策"的内容加颜色（红/橙）。
 
 **适用场景**：
-- 风险项（红色）
-- 待确认项（橙色）
-- 机会点（绿色）
-- 最佳实践（蓝色）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **原则**：
-- 同一篇笔记中，颜色不超过3种
-- 颜色必须有统一语义（团队内约定）
-- 不要为"好看"而加颜色，要为"决策"而加颜色
+- src_unknown
+- src_unknown
+- src_unknown
 
 **常见失败模式**：
-- 彩虹式标记（红黄蓝绿紫全上）→ 视觉噪音，比不加还糟
-- 颜色语义不一致 → 读者需要重新学习每篇笔记的颜色规则
-- 在黑白打印场景下失效 → 未考虑多媒介分发
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤4：第三重——加底色/模块（高阶层，极少用）
 
 **操作**：对"独立成块的背景信息"或"完整的子模块"加底色框。
 
 **适用场景**：
-- 背景上下文（灰色底色）
-- 数据引用（浅蓝色底色）
-- 决策结论（浅黄色底色）
-- 行动清单（浅绿色底色）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **原则**：
-- 底色比加粗更强，使用频率应更低
-- 一个屏幕内不超过2个底色块
-- 底色块必须有明确标题
+- src_unknown
+- src_unknown
+- src_unknown
 
 **Truman原话**："基本上绝大部分靠这些（加粗、加颜色、加底色），很多平台不支持颜色。"
 
@@ -177,9 +177,9 @@ diagnostic_signals:
 | ⬜ 灰色底色 | 背景上下文 | 每篇笔记0-1处 |
 
 **常见失败模式**：
-- 个人随意标记，团队无统一规范 → 协作时每个人有自己的"方言"
-- 规范太复杂（10种颜色+8种底色+5种图标）→ 规范本身成为认知负担
-- 只定规范不检查 → 规范沦为纸面文件，实际执行走样
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤6：用AI辅助检查标记质量
 
@@ -211,16 +211,16 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 打开待标记笔记，先做"加粗密度扫描"：每句话超过2处加粗即触发精简。
-- [ ] 逐句语义解剖：标出主体词、关键词、关键动作三类信息承载者。
-- [ ] 砍掉错误加粗：修饰语、连接词、语气词、常识词一律不加粗。
-- [ ] 执行第一层加粗：对主体词、关键词、关键动作加粗。
-- [ ] 做"3秒测试"：让同事看3秒，复述核心问题与建议动作。
-- [ ] 如需第二层颜色：选择≤3种颜色，定义统一语义（风险/待确认/机会）。
-- [ ] 如需第三层底色：仅对独立模块使用，一屏≤2个，必须配标题。
-- [ ] 建立团队最小标记规范：加粗、颜色、底色、使用频率。
-- [ ] 用AI辅助检查：是否有"该加粗没加粗"或"不该加粗却加粗"。
-- [ ] 记录"3秒定位通过率"：连续3次<80%时回检密度与语义一致性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Example
 
@@ -231,9 +231,9 @@ diagnostic_signals:
 ```
 
 **问题诊断**：
-- 14处加粗，信息密度过高
-- "我们、经过分析、建议、通过、来、解决"都不是关键词
-- 读者需要逐字阅读才能理解，失去"扫读"优势
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ✅ 正例：标记成功的笔记
 
@@ -249,17 +249,17 @@ diagnostic_signals:
 ```
 
 **关键改进**：
-- 加粗从14处降到7处，聚焦核心信息
-- 关键动作带负责人和DDL，可执行
-- 🔴 红色标记风险项，决策层3秒定位
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例：Truman自己的标记演进
 
 Truman在2012年（毕业第一年）的笔记几乎不加粗，"一大坨文字"。到2014年，他开始强制自己"视觉重点一定要加粗"。到2016年，他形成了稳定的三重结构习惯：
 
-- **日常笔记**：只用加粗（第一层）
-- **团队共享文档**：加粗+颜色（第二层）
-- **重要决策记录**：加粗+颜色+底色模块（第三层）
+- src_unknown
+- src_unknown
+- src_unknown
 
 他的经验是：**"标记的频率和笔记的重要性成正比。越重要的笔记，标记越重。但不要为了标记而标记。"**
 
@@ -273,10 +273,10 @@ Truman在2012年（毕业第一年）的笔记几乎不加粗，"一大坨文字
 
 ## 相关卡/互链
 
-- [[tool-note-layer-constraint]]：用分层约束解决"信息该放在哪一层"，与加粗共同控制笔记结构。
-- [[tool-note-one-line-one-point]]：把每行压缩成最小可执行信息单元，让加粗不被冗余淹没。
-- [[dk-note-surplus-brainpower]]：解释加粗和精简背后的高阶认知操作——节省脑力用于判断。
-- [[yt-note-live-field-skill]]：现场笔记完成度五步法，加粗是其中的视觉重心环节。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

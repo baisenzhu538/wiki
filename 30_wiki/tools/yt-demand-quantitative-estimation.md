@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-quantitative-estimation
 title: 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
@@ -18,24 +18,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-market-size-pitfalls
-  - yt-demand-hierarchy-model
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户给出一个很大的市场规模数字，但说不清怎么算出来的"
+  - src_unknown
     framework_lens: 估算方法不明——可能是拍脑袋或引用第三方报告未验证
     follow_up_question: "这个数字是用哪种方法算的？自上而下还是自下而上？能展示计算过程吗？"
-  - signal: "用户只有一种估算方法，没有交叉验证"
+  - src_unknown
     framework_lens: 估算可信度低——单一方法容易有系统性偏差
     follow_up_question: "如果用另一种方法估算，结果差异多大？差异原因是什么？"
-  - signal: "用户把总市场当成可触达市场"
+  - src_unknown
     framework_lens: TAM/SAM/SOM混淆——把天花板当目标
     follow_up_question: "你的TAM、SAM、SOM分别是多少？今年实际能触达多少？"
-  - signal: "用户用竞品收入直接推算自己的市场规模"
+  - src_unknown
     framework_lens: 竞品对标陷阱——忽视市场差异和竞争格局
     follow_up_question: "竞品的用户群体和你的目标用户完全一致吗？你们的市场份额假设依据是什么？"
-  - signal: "用户说'市场很大，我们拿1%就够了'"
+  - src_unknown
     framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
     follow_up_question: "为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？"
 
@@ -76,8 +76,8 @@ diagnostic_signals:
 4. 估算你能拿到的份额（基于竞争格局、差异化）
 
 关键假设：
-- 渗透率：你的目标用户占总用户的比例？
-- 份额：在目标用户中，你能拿到多少？
+- src_unknown
+- src_unknown
 
 ### 3. 自下而上：从用户到市场
 
@@ -89,9 +89,9 @@ diagnostic_signals:
 5. 累加：用户数 × ARPU × 频率
 
 关键假设：
-- 用户数：你的获客渠道能触达多少？
-- 转化率：从触达到付费的转化率？
-- ARPU：用户愿意付多少钱？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 竞品对标：从已知推未知
 
@@ -102,8 +102,8 @@ diagnostic_signals:
 4. 调整：考虑差异化、竞争格局、时间窗口
 
 关键假设：
-- 可比性：竞品和你的目标用户、产品形态、定价模式是否相似？
-- 市场倍数：你们的市场是竞品的子集还是超集？
+- src_unknown
+- src_unknown
 
 ### 5. 替代方案估值：从成本推导
 
@@ -114,8 +114,8 @@ diagnostic_signals:
 4. 你的价值 = 替代方案成本 × 替代率 × 效率提升倍数
 
 关键假设：
-- 替代方案成本：用户现在花多少钱？
-- 替代率：用户换方案的意愿和转换成本？
+- src_unknown
+- src_unknown
 
 ## 交叉验证
 
@@ -128,9 +128,9 @@ diagnostic_signals:
 | 替代方案 + 自上而下 | 成本推导 vs 市场报告，检查逻辑链 |
 
 差异处理：
-- 差异 < 3倍：取保守值
-- 差异 3-10倍：检查假设，找出偏差来源
-- 差异 > 10倍：重新评估基本假设
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -154,20 +154,20 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你要写"市场很大"时 → 强制拆TAM/SAM/SOM
-- 当你引用行业报告时 → 检查报告日期和方法论
-- 当你只有一种估算方法时 → 补充第二种方法交叉验证
-- 当你说"我们拿1%就够了"时 → 论证为什么能拿到1%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（先定性后定量）
-- `yt-demand-market-size-pitfalls`：市场规模估算的5个陷阱
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂市场规模估算四种方法专题
-- 一堂案例：跑步机案例中的市场估算实践
+- src_unknown
+- src_unknown
+- src_unknown

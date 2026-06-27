@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[concept-research-delegation-in-scaling]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # CEO必须亲自做用户调研

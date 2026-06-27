@@ -7,28 +7,28 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-- 火箭模型
-- 科学表达
-- 表达力训练
-- 演讲结构设计
-- 四级火箭
-- 情感共鸣
-- 逻辑推演
-- 行动推进
-- 公开演讲技巧
-- 如何做好演讲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[yt-model-prompt-engineering]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -46,16 +46,16 @@ yitang:
   level: core
   series: true
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 表达结构能清晰对应火箭模型的四个阶段
+- src_unknown
   framework_lens: 表达是逐级推进
   follow_up_question: 你的表达中，哪一部分负责建立认知？哪一部分推动行动？
-- signal: 能根据听众状态调整每个阶段的比重
+- src_unknown
   framework_lens: 表达服务于听众
   follow_up_question: 如果听众已经认同你，是否可以跳过或缩短某个阶段？
-- signal: 关键表达会经过逐字打磨和反复演练
+- src_unknown
   framework_lens: 精确表达需要刻意练习
   follow_up_question: 你为这次表达做了几次完整演练？
 updated_at: '2026-06-16'
@@ -77,20 +77,20 @@ author: 老顽童
 ### 失败模式
 
 1. **只有逻辑没有情感，听众无法产生共鸣**
-   - **原因**：阶段缺失
-   - **修复**：检查是否包含认知、逻辑、情感、行动四个要素
+   - src_unknown
+   - src_unknown
 
 2. **四个阶段平均用力，没有重点**
-   - **原因**：结构机械
-   - **修复**：根据目标听众判断哪个阶段需要强化
+   - src_unknown
+   - src_unknown
 
 3. **表达过于华丽但听众不知道要做什么**
-   - **原因**：缺少行动推进
-   - **修复**：结尾必须有明确的‘下一步’或‘改变’
+   - src_unknown
+   - src_unknown
 
 4. **把模型当模板，忽视真实听众反应**
-   - **原因**：僵化套用
-   - **修复**：演练时找真实听众反馈，根据反馈调整结构
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -112,36 +112,36 @@ author: 老顽童
 ### 火箭模型四级推进
 
 **一级火箭：认知建立（Cognition）——"为什么你要听我讲"**
-- 目的：建立听众的注意力基础和信任基础
-- 三个子要素：
-  - **关联锚点**：建立"这个话题与你有关"的认知（用 1-2 句话让听众秒懂"为什么我在乎这个"）
-  - **信任锚点**：建立"我有资格讲这个话题"的认知（不是自我介绍，而是给出"我为什么懂"的 1 个具体事实）
-  - **期望锚点**：建立"听完你会得到什么"的认知（清晰的 Takeaway 预告，避免过度承诺）
-- 一级火箭失效表现：听众在前 30 秒开始在脑中思考"我为什么要听这个"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **二级火箭：逻辑推演（Logic）——"为什么你说的对"**
-- 目的：建立严密的论证结构，让听众跟随你的思维路径
-- 三种推演结构：
-  - **问题-方案结构**：这是什么问题 → 为什么会存在 → 怎么解决 → 为什么这个方案比别的好
-  - **现象-本质结构**：表面现象是什么 → 往下挖三层 → 底层规律是什么 → 这个规律还能解释什么（与 IPO 的 N 层洞察同构）
-  - **对比-选择结构**：A 方案 vs B 方案 → 各自优劣 → 为什么选 X → X 的风险和应对
-- 二级火箭失效表现：听众在中间开始问"所以呢？""这之间的关联是什么？"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **三级火箭：情感共鸣（Emotion）——"为什么你要相信"**
-- 目的：从理性接受推进到情感认同——逻辑让人点头，情感让人行动
-- 三个情感工具：
-  - **具体故事**：一个具体的人的具体经历，比十个抽象数据更有说服力（"银发育儿案例中的奶奶"比"60% 的中国家庭存在隔代育儿冲突"更打动人）
-  - **画面语言**：用"你可以想象一下..."唤起听众的感官和情绪记忆
-  - **坦诚时刻**：适当暴露自己的失败/困惑/不确定，建立真实的连接（Truman 在 IPO 课中讲述"36 岁本命年""十层解读我还不太会"就是典型的坦诚时刻）
-- 三级火箭失效表现：听众说"你说的都对，但跟我没什么关系"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **四级火箭：行动推进（Action）——"接下来你该做什么"**
-- 目的：把认知转化为可执行的最小行动
-- 行动设计的三个原则：
-  - **最小行动**：不要给 10 条建议，给 1 条"你现在就能做的事"
-  - **即时可做**：不给"你要花三个月"的任务，给"今天回去你就可以试一下"
-  - **有反馈回路**：告诉听众做完后如何判断"做对了"——提供简易的自我检查标准
-- 四级火箭失效表现：听众听完后觉得"挺有道理"但没有然后
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown失效表现：听众听完后觉得"挺有道理"但没有然后
 
 ### 火箭模型的练习方法
 

@@ -3,9 +3,9 @@
 title: "OCR: 一堂-单元模型-规模经济对抗武器库"
 type: concept
 domain:
-  - product
-  - needs-review
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_cef13c36
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-扭蛋机案例]]'
-  - '[[ocr-一堂-单元模型-示例]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-壁垒预判]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,20 +40,20 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_cef13c36-ocr-一堂-单元模型-规模经济对抗武器库.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 品控变难（规模化导致品控变难，品控成本变高）
+- src_unknown
 10
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

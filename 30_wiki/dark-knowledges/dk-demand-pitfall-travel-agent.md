@@ -12,12 +12,12 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - '[[dk-demand-pitfall-indonesia-insurance]]'
-  - '[[dk-demand-pitfall-dialer]]'
-  - '[[dk-demand-pitfall-financial-literacy]]'
-  - '[[dk-strategy-05-positioning-trap]]'
-  - '[[dk-demand-pitfall-rural-5g]]'
-  - "[[case-demand-travel-agent]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---**坑**：AI生成旅行攻略→用户觉得有用但不付费。
 **真相**：用户要的是"帮我做决策"，不是"给我信息"。情感和社交任务被忽略（L5跳过）。
 **修复**：L5不是可选项——用户付费的驱动力在情感和社交层，不在功能层。

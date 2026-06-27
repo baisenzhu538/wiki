@@ -3,8 +3,8 @@
 title: 'OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02'
 type: concept
 domain:
-- yitang
-- ai-collaboration
+- src_unknown
+- src_unknown
 status: draft
 source_refs:
 - src_20260609_6809033f
@@ -17,11 +17,11 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_6809033f）
 related:
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[tool-自我反馈修正笔记姿势]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02
 
@@ -35,29 +35,29 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 清单体笔记是启动个人成长翻倍的最小练习单元，应作为刻意练习的核心抓手。
-- 笔记训练分为六个段位：L1不记→L2备忘→L3协作→L4内化→L5思考→L6萃取，每段有明确的提升目标和练习要点。
-- 刻意练习的两大加速杠杆：及时反馈（自我反馈、事实反馈、他人反馈、版本对比、最佳实践池子）和大量重复（日常练习、专项练习、主动练习、叠加练习、迁移练习）。
-- L2备忘阶段核心：养成记录习惯，练记录要点，使用记录/文档工具，避免大段文字，只记备忘，逻辑分点。
-- L4内化阶段核心：以问题驱动，建立故事线，采用Top-down结构，循环整理，提升IPO效率。
-- L5思考阶段核心：广泛涉猎、深度洞察、长期迭代，通过立下Flag激发深度思考涌现。
-- L6萃取阶段核心：现场提问、现场建模、现场追问、现场反讲，追求一次到位的高质量输出。
-- 每个阶段需聚焦单一练习目标：练记录要点→练阅读舒适→练整理内化→练深度思考→练现场建模。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该"训练段位图"声称清单体笔记是"启动个人成长翻倍的最小练习单元"，但"翻倍"的具体衡量标准和实证依据是什么？
-- L1至L6的六段划分是否覆盖了所有笔记应用场景？是否存在跳跃或并行发展的可能路径未被讨论？
-- "IPO效率"作为L4内化阶段的核心目标，其定义和测量方式在文本中未明确，如何确保练习者准确理解并执行？
-- 刻意练习的"及时反馈"与"大量重复"两大杠杆之间存在何种优先级或交互关系？文本未说明何时侧重哪一杠杆。
-- L6"一次到位"的高质量输出要求与L4"循环整理"、L5"长期迭代"之间是否存在方法论张力？如何协调？
-- "最佳实践池子"的建立标准和更新机制未提及，如何避免池子本身成为认知偏见的固化来源？
-- 视觉结构信息在OCR中完全丢失，原图中的层级关系、箭头指向、颜色编码等是否承载关键训练逻辑？当前提取是否造成系统性误读？
-- "一堂，坚持只做必修课"的品牌定位与训练地图的普适性声称之间是否存在张力？该方法论对非商业学习场景的适用边界何在？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

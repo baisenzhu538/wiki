@@ -6,8 +6,8 @@ type: dark-knowledge
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
-- yitang
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -17,20 +17,20 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb30-ecommerce-channel-version]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb9-cubox-deployment-failure]]'
-  - '[[dk-yb22-visual-presentation-scene-match]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[yt-model-conversion-optimization]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- "视觉精度与价格预期存在可验证的负反馈：低价产品使用连锁级精修图会抬高用户预期，导致差评率上升"
-- "平台A/B测试可量化验证：同一产品用自然光/精修两种视觉策略，点击率与转化率呈现显著差异"
+- src_unknown
+- src_unknown
 ---# 餐饮图片视觉策略与价格定位的匹配法则
 
 ## 原始表述/核心洞察
@@ -54,9 +54,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 不适用纯线下高端餐厅（顾客预期本身就是精修感）
-- 不适用已建立强品牌认知的单品（如麦当劳汉堡，精修是品牌资产而非价格信号）
-- 易混淆：以为所有产品都需要"好看"，忽视"好看的方式"本身传递的价格暗示
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -73,6 +73,6 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb18-small-shop-image-mismatch]] — 小店图片错配陷阱
-- [[dk-yb21-ecommerce-pricing-independent-model]] — 电商定价：线上价格带需独立建模
-- [[yt-model-conversion-optimization]] — 一堂模型：转化优化中的预期管理
+- src_unknown
+- src_unknown
+- src_unknown

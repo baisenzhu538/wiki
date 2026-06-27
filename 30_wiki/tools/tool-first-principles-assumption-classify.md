@@ -4,29 +4,29 @@ title: 技能：假设分类法（第一性原理）
 type: tool
 status: draft
 domain:
-- learning-methodology- 创新
-- 思维
-- 产品
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-first-principles框架提炼，2026-05-18
 source_refs:
-- 来源: Aristotle, Elon Musk
+- src_unknown
 wiki_refs:
-- '[[master-first-principles]]'
+- src_unknown
 definition_of_done:
-- 每次列出至少10条假设
-- 至少3条被分类为"历史惯性"或"人为约定"
-- 新方案与现状差异≥30%
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
-- 纸/白板（列出假设用）
+- src_unknown
+- src_unknown
 prerequisite_skills: null
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
@@ -89,14 +89,14 @@ trust_level: low
 
 ## 适用场景
 
-- ✅ **觉得"这个行业只能这么做"时** — 打破思维定势
-- ✅ **竞品做了"不可能"的事时** — 分析竞品打破了哪些假设
-- ✅ **现有方案遇到瓶颈时** — 不优化，而是重建
-- ✅ **向投资人/老板解释创新点时** — 用"拆解→重建"叙事
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **纯优化场景** — 渐进式改进不需要打破假设
-- ❌ **高度标准化领域** — 如医疗、航空安全（不可打破的约束太多）
-- ❌ **时间极度紧迫** — 完整拆解需要2-4小时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -110,9 +110,9 @@ trust_level: low
 
 ## 工具/环境
 
-- **必需**：无（纯思维工具）
-- **推荐**：纸/白板——列出假设时可视化
-- **备用方案**：如果无法独立判断，找一个"外行人"帮你挑假设
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -130,19 +130,19 @@ trust_level: low
 
 ## 关联技能
 
-- skill-first-principles-rebuild — 拆解后的重建方法
-- [[tool-decision-outside-view]] — 用外部视角验证新方案
-- dk-first-principles-difficulty-vs-impossible — 把困难当成不可能
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- Aristotle, Elon Musk
-- 基于 master-first-principles 框架提炼，2026-05-18
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

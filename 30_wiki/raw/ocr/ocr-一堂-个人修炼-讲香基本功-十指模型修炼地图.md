@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_ecb6ee97
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[yt-business-formula-l6-essence-formulas]]'
-  - '[[ocr-一堂泛产品设计-十年修炼爬山地图]]'
-  - '[[modeling-level-map]]'
-  - '[[ocr-一堂-个人修炼-讲香基本功]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图
@@ -34,36 +34,36 @@ png` 一堂讲香基本功·土指模型修炼地图 堂 YitangHikingRoadmapforT
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_ecb6ee97-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 十指模型修炼地图分为六个层级（L1-L6），从"缺少意识"到"会大量涌现"，每个层级有明确的能力标志和常见缺失。
-- L1入门阶段核心问题是"基本没追求"和"缺基本见识"，提升路径是"认识十指模型+建审美"。
-- L2进阶标志是"有基本审美"能"看出好坏差距"，但常"缺十指模型"和"缺抽象策略"。
-- L3专业分析层要求"能用十指模型识别策略"，瓶颈在于"缺知行合一"和"缺立即动手"。
-- L4局部动手层强调"会用局部方法讲香"，常见障碍是"缺刻意练习"和"缺练习机会"。
-- L5全面练习层需"全面练习使用十指模型"，关键缺失是"缺稳定套路"和"缺充分打磨"。
-- L6高阶标志为"熟练掌握游刃有余"和"灵感闪现"，追求"无限进步"，需"大量见识"和"敢立Flag"。
-- 整体修炼逻辑：先建立审美认知框架，再逐步从识别、局部应用过渡到全面刻意练习，最终实现灵感涌现。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该模型声称"扫码辛苦学3天，不扫弯路走3年"，但未提供任何实证数据或对照研究来支撑这一时间效率比，其营销断言的可验证性如何？
-- "十指模型"作为核心方法论，其具体定义、理论来源和内部结构在文本中完全缺失，读者如何判断其与其他演讲/表达框架的本质区别？
-- 六个层级的划分依据（L1-L6）未说明是基于认知科学理论、经验归纳还是商业包装需要，层级之间的递进关系是否经过验证？
-- "灵感闪现"在L6中被列为目标状态，但同时又被列为L3-L4的"常见缺失"，这种同一概念在不同层级既作目标又作障碍的逻辑一致性如何解释？
-- "讲香"作为领域专属术语（疑似"讲相"或"演讲"的OCR误识），其准确含义未澄清，整个模型的适用领域和边界条件是否因此存在系统性模糊？
-- 各层级的"能力标志"与"常见缺失"之间缺乏严格的互斥性和穷尽性检验，例如L3"缺知行合一"与L4"缺刻意练习"是否存在概念重叠或因果混淆？
-- 修炼路径中"认识→使用→全面练习→灵感涌现"的线性假设，是否忽视了技能习得研究中常见的非线性、回溯性发展特征？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"灵感闪现"的矛盾：L6将"灵感闪现"列为目标状态，但同时在L3-L4又将其列为"常见缺失"。这种同一概念在不同层级既作目标又作障碍的逻辑不一致。
-- **"十指模型"未被定义：作为核心方法论，"十指模型"的具体定义和理论来源在文本中完全缺失。读者无法判断它与其他演讲/表达框架的本质区别。
-- **"扫码辛苦学3天，不扫弯路走3年"的宣传性：未提供任何实证数据或对照研究来支撑这一时间效率比。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Dreyfus 兄弟在《技能获取的五个阶段》中证明：从新手到专家
 
 ### 不要用的场景
 
-- **非表达类技能的学习（如编程、数学）：讲香地图专注于沟通表达，不适合其他类型的技能习得。
-- **快速入门而非深度精进的场景：地图假设需要长期练习，不适合需要快速获得基本表达技能的场景。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — 十指模型的技巧展开，地图是其能力进阶路径
-- [[yt-personal-deliberate-practice]] — 刻意练习的理论基础，地图的 L4-L5 层是其具体应用
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 个人能力评估：用 L1-L6 自我评估表达能力水平
-- 培训课程设计：根据学员所处层级定制差异化课程
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

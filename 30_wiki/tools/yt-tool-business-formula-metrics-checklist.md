@@ -7,18 +7,18 @@ title: 业务公式数据埋点设计清单
 type: tool
 status: enriched
 domain:
-  - yitang- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#content-format/checklist'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -27,16 +27,16 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式数据埋点设计清单
 
@@ -72,11 +72,11 @@ related:
 
 从公式拆解中找出无法直接测量的参数：
 
-- 信任度 / 满意度
-- 使用深度 / 价值感知 / 切换成本
-- 复购触发 / 场景绑定
-- 危机感知 / 到店习惯
-- 课程匹配度 / 产品兴趣度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 完整指标库参考：[[yt-business-formula-qualitative-metrics-library]]
 
@@ -91,9 +91,9 @@ related:
 | 复购触发 | 7 天优惠券核销率 | 生日券核销率 | 新品 Push 打开率 | 消耗周期提醒触达率 |
 
 选择标准：
-- 可获取：现有数据体系能拿到
-- 可区分：能反映不同用户群/渠道的差异
-- 可干预：指标变化能对应具体优化动作
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -106,9 +106,9 @@ related:
 | 7 天优惠券核销率 | 8% | 20% | 15% | 6 周 |
 
 设定原则：
-- 有历史数据用历史均值
-- 无历史数据用行业基准
-- 创新型业务用合理假设，并标注置信度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -121,9 +121,9 @@ related:
 | 7 天优惠券核销率 | 交易数据 | 优惠券系统 | 领取后 7 天内使用 | 运营 / 数据 |
 
 埋点设计注意：
-- 事件命名统一，避免“同类不同名”
-- 用户 ID、时间戳、场景属性必须带
-- 埋点上线后先做数据校验
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -136,9 +136,9 @@ related:
 | 公式复盘会 | 每月 / 每季度 | 管理层 | 公式是否需要更新 |
 
 关键问题：
-- 指标变化是否由我们的动作导致？（排除外部因素）
-- 指标改善是否带来了业务结果改善？（验证因果链）
-- 哪些假设需要调整或放弃？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -158,14 +158,14 @@ related:
 
 在启动任何业务公式优化项目前，对照以下问题自查：
 
-- [ ] 本次优化要验证的假设是什么？
-- [ ] 假设对应的定性参数是什么？
-- [ ] 为该参数设计了至少 3 个行为指标吗？
-- [ ] 每个指标都有数据来源和埋点位置吗？
-- [ ] 指标有当前值、基准值和目标值吗？
-- [ ] 指标变化能对应到具体动作吗？
-- [ ] 负责监控和复盘的人明确了吗？
-- [ ] 埋点上线时间早于优化动作上线时间吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 全部勾选后，再动手改业务。
 
@@ -194,6 +194,6 @@ related:
 
 ## 置信度说明
 
-- **高置信度**：埋点设计流程、假设-指标-动作对应关系（直接来自培训方法论）
-- **中置信度**：具体复盘频率、责任人分工（基于项目实践的合理建议）
-- **待复核**：不同业务规模（初创 / 中型 / 平台型）的埋点复杂度差异
+- src_unknown
+- src_unknown
+- src_unknown

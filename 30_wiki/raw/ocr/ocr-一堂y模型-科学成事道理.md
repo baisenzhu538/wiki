@@ -3,7 +3,7 @@
 id: "ocr-一堂y模型-科学成事道理"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
   - src_20260522_32462c98
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂Y模型-科学成事道理"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-truman的个人成长五步法]]'
-  - '[[ocr-一堂-科学决策-深度-l3定量公式]]'
-  - '[[ocr-一堂-地图-创业地图_conv]]'
-  - '[[ocr-一堂-ai学习-提问工程化]]'
-  - '[[ocr-ocr_snipaste_2026-05-15_21-39-40]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂Y模型-科学成事道理
@@ -35,34 +35,34 @@ png` 一堂Y模型：科学成事道路 堂 YitangYModel:ScientificPathToSuccess
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- The "Y Model" (Y模型) is presented as a framework for scientific success, combining theory and facts with personal cognition.
-- Core principles include "seeking truth from facts" (实事求是), "emancipating the mind" (解放思想), and "unity of knowledge and action" (知行合一).
-- The model emphasizes solving real problems (解决真正问题) rather than theoretical or superficial ones.
-- The educational approach positions itself as "required courses" (必修课), implying focused, essential learning over optional breadth.
-- The value proposition claims 3 days of structured learning saves 3 years of trial and error.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- What is the specific structure of the "Y" in the Y Model—what do the two upper branches and single lower stem represent, and how do they interact?
-- What empirical evidence or case studies validate the claim that 3 days of this training saves 3 years of弯路?
-- How is "real problem" (真正问题) defined and distinguished from "fake" or superficial problems—what criteria are used?
-- What is the relationship between "theory" (理论) and "facts" (事实) in the model—are they treated as independent inputs, hierarchical, or dialectically integrated?
-- Does "my cognition" (我的认知) refer to individual subjective interpretation or a trained/scientific cognition, and how is bias addressed?
-- How does this model differ from or build upon existing problem-solving frameworks (e.g., Toyota A3, OODA loop, scientific method)?
-- What does "emancipating the mind" (解放思想) mean operationally in this context—what specific mental models or constraints is it targeting?
-- Is the "required courses" (必修课) positioning based on learner needs analysis, or is it primarily a marketing differentiation from competitors?
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"科学成事"的证伪标准缺失：Y模型声称自己是"科学成事道理"，但未提供任何可复制的实证研究或对照实验。"科学"不是一个品牌标签，而是需要可证伪、可复制、可推广的方法论。
-- **"解放思想"的操作化空洞："解放思想"被列为核心原则，但未说明解放的对象是什么。是打破行业惯性？是挑战自己的认知偏见？还是拒绝传统成功学的安慰剂？缺少操作化定义意味着这个原则可以被任意解读。
-- **"知行合一"的强制性假设：Y模型假设知识与行动可以无缝衔接，但真实情况是，很多创业者"知道了"但"做不到"——这不是因为他们不懂Y模型，而是因为组织约束、资源限制、心理因素等非认知因素阻止了行动。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Thomas Kuhn 在《科学革命的结构》中证明：科学进步不是线性�
 
 ### 不要用的场景
 
-- **组织能力远低于方法论要求的创业团队：Y模型要求"知行合一"和"实事求是"，但如果团队连基本的执行纪律都没有，方法论只会加剧焦虑感。先建组织再套框架。
-- **高度不确定性的新兴市场：当"事实"本身在快速变化时，"理论+事实"的双轨设计可能让你用过时的理论去解释已经变化的现实。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — Y模型的完整版本，包含更详细的框架结构与验证方法
-- [[yt-decision-full-process]] — ROI 全景训练流，Y模型作为其中的核心决策框架
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创业项目的第一次评估：用Y模型快速检查自己是否在"理论—事实—认知"三者间形成了闭环
-- 个人职业转型决策：将"我的认知"替换为"行业认知"，用"解放思想"挑战行业惯性假设
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -38,8 +38,8 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用需要角色/物体高度一致性的场景（如IP形象），仅适用于风格氛围迁移
-- 与真正的模型训练相比，对复杂构图的控制力较弱
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -47,5 +47,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb11-visual-book-reverse]] — 不训练模型锁定风格的逆向视觉书法
-- [[dk-yb12-ai-image-analysis-replace-training]] — AI图像分析替代模型训练
+- src_unknown
+- src_unknown

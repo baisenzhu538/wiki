@@ -4,7 +4,7 @@
 id: product-ux
 created_at: 2026-05-21
 domain:
-- ai-saas
+- src_unknown
 source_refs:
   - src_20260522_404f58a2-product-ux
 status: draft
@@ -12,18 +12,18 @@ title: Product Ux
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[design-ai-image-generation]]'
-  - '[[business-analysis]]'
-  - '[[learning-thinking]]'
-  - '[[meta-prompt-eng]]'
-  - '[[writing-content]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # Product Ux
 
@@ -37,20 +37,20 @@ md` > 条目数：8 **张同学·招聘JD提示词** 你是一个优秀的招聘
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_404f58a2-product-ux.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- **方案呈现与确认 (Present & Confirm)**: 将完整的拆解方案（包括实现逻辑、方法、节点列表及各节点的功能定义）以结构化的形式呈现给用户。
-- **确认目标节点 (Confirm Target Node)**: 首先，向用户确认当前需要配置的具体是哪一个节点。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 每天铲屎 10 分钟，你真的受得了？
-- **性质判断**：属于 2B、2C 还是 2G？
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Content: article or tutorial
-- Code: script or tool
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

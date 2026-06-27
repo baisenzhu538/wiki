@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-barrier-defensive-strategy
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'这个行业需要牌照，我们拿到了'"
+  - src_unknown
     framework_lens: 监管壁垒——牌照是壁垒，但需要持续维护和合规
     follow_up_question: "你的牌照是否有有效期？续期条件是什么？合规成本多少？"
-  - signal: "用户说'监管政策变了，我们的业务受影响'"
+  - src_unknown
     framework_lens: 监管壁垒——监管政策变化可能削弱或强化壁垒
     follow_up_question: "政策变化对你的影响是正面还是负面？如何适应或利用？"
-  - signal: "用户说'我们的合规成本很高'"
+  - src_unknown
     framework_lens: 监管壁垒——合规成本是壁垒的一部分，高合规成本阻挡新进入者
     follow_up_question: "你的合规成本是否构成了进入壁垒？竞品是否难以承受？"
-  - signal: "用户说'我们在灰色地带运营'"
+  - src_unknown
     framework_lens: 监管壁垒——灰色地带不是壁垒，是风险
     follow_up_question: "灰色地带的风险是什么？是否有合规化的路径？"
-  - signal: "用户说'监管壁垒让我们无法创新'"
+  - src_unknown
     framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
     follow_up_question: "监管限制的具体是什么？是否有合规的创新路径？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当进入监管行业时 → 获取牌照
-- 当政策变化时 → 适应或利用
-- 当合规成本高时 → 转化为壁垒
-- 当灰色运营时 → 合规化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-barrier-defensive-strategy`：防御策略
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 监管经济学
-- 合规管理实践
+- src_unknown
+- src_unknown
+- src_unknown

@@ -15,14 +15,14 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - '[[tool-devils-advocacy]]'
-  - '[[case-strategy-xiaobear]]'
-  - '[[tool-candy-oral-polish]]'
-  - '[[framework-structured-analytic-techniques]]'
-  - '[[tool-red-team-analysis]]'
-  - "[[tool-red-team-analysis]]"
-  - "[[tool-devils-advocacy]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 对抗测试员
@@ -42,11 +42,11 @@ related:
 **成功标准**：找到bug = 成功，找不到 = 失职。这与普通测试员的"通过测试=成功"完全相反。
 
 **攻击方法**：
-- 空值/null输入
-- 超长字符串（边界溢出）
-- SQL注入/XSS（安全漏洞）
-- 并发竞争条件
-- 恶意输入（用户会输入的所有奇怪东西）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -75,8 +75,8 @@ prompt = """你是一个对抗测试员。你的KPI是找到bug。
 
 ## 适用边界
 
-- **适用**：代码Review、方案Review、任何需要"找茬"的质量把关场景
-- **不适用**：创意类产出（过度对抗会扼杀创意）
+- src_unknown
+- src_unknown
 
 ---
 

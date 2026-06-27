@@ -10,22 +10,22 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
-  - '[[tool-泛产品落地-十倍速验证]]'
-  - '[[tool-lean-fake-product]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 十倍速公式：避免系统性失败
@@ -69,9 +69,9 @@ related:
                  投入金额/资源
 ```
 
-- **轻投入-安全**：常识、情报阶段，主要消耗时间和访谈/调研成本，失败损失可控。
-- **中投入-可控**：实验阶段，需要做出可测试的最小交付物，失败可复盘、可转向。
-- **重投入-危险**：全量投入阶段，资金、团队、品牌全部押上，方向一旦错误即为系统性失败。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2.3 两大应用场景
 
@@ -105,15 +105,15 @@ related:
 ## 适用边界
 
 **适合**：
-- 早期创业项目、新产品孵化、业务方向探索
-- 需求不确定性高、可以通过小实验快速获取反馈的领域
-- 团队愿意接受"默认失败"、把验证当作学习过程的文化
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合**：
-- 强监管行业（医疗、金融、教育、博彩）中涉及合规底线的"实验"，可能触碰法律红线
-- 长周期硬件、基础设施项目，无法通过低成本实验快速迭代
-- 品牌敏感型产品，粗糙的早期测试可能永久损伤用户信任
-- 机会窗口极短、必须一次性押注全部资源的战略战役（但仍应保留止损线）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -128,19 +128,19 @@ related:
 
 ### 正例：Dropbox 视频 MVP [conf=0.90, source=公开经典案例]
 
-- **背景**：Drew Houston 在开发同步工具前，先用 3 分钟视频 Demo 展示产品概念。
-- **所处阶段**：F/实验阶段——没有真实产品，只有简版交付物验证需求。
-- **结果**：视频发布当晚获得 7.5 万人等待，几十万人访问 [conf=0.80, source=行业流传数据]。
-- **映射十倍速公式**：在常识和情报已经说明"文件同步是痛点"之后，用极低成本的实验验证需求强度，避免直接进入全量开发。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：长周期硬件项目 1800 万教训 [conf=0.70, source=一堂课程案例]
 
-- **背景**：某导盲机器狗项目在没有充分验证用户需求和商业化路径前，直接投入大量研发资源。
-- **失败原因**：
-  - 跳过常识/情报阶段对用户真实付费意愿的验证；
-  - 把"研发能力"当成"市场需求"，过早进入重投入；
-  - 没有在中投入阶段设计可止损的实验节点。
-- **映射十倍速公式**：该案例说明十倍速公式在长周期硬件中尤其重要——不能用"All in 研发"替代早期低成本验证。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ---
 

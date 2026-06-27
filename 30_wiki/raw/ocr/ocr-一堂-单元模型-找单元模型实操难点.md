@@ -3,10 +3,10 @@
 title: "OCR: 一堂-单元模型-找单元模型实操难点"
 type: concept
 domain:
-  - product
-  - ai-saas
-  - needs-review
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_c1af5767
@@ -18,11 +18,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-找基准值实操难点]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-规模对抗实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -41,18 +41,18 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_c1af5767-ocr-一堂-单元模型-找单元模型实操难点.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 增加「非标业务→标准模 和服务过的2-3种模型，面对不熟悉的模型类型（如单 型」的映射指南：列出30+种 客户模型、单商圈模型）不知道从哪里开始拆解。
-- 认为「我没涉及这些就不用学」 但业务是动态发 盲区 变种理解困难  展的，今天不涉及不代表永远不涉及，缺乏对十大模型 体系的「预习意识」 3.
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

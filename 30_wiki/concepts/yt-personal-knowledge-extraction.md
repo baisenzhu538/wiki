@@ -7,28 +7,28 @@ confidence: 0.8
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-- 知识萃取
-- 经验萃取方法论
-- 案例大爆炸
-- 辩证式讨论
-- 专家访谈技巧
-- 方法论建模
-- 知行合一验证
-- 全网调研
-- PRD自查清单
-- 知识体系搭建
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[七件事集团]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-personal-thinking-models]]'
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
@@ -42,16 +42,16 @@ yitang:
   module: 个人修炼
   course_type: explore_camp
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 萃取物是一个可复用的模型或原则，而不是单个案例的故事
+- src_unknown
   framework_lens: 萃取 = 从具体上升到抽象
   follow_up_question: 这个模型能解释三个以上不同案例吗？
-- signal: 模型会用正例和反例同时检验，而不是只找支持证据
+- src_unknown
   framework_lens: 可证伪性保证模型质量
   follow_up_question: 你能找到一个不符合这个模型的案例吗？这说明什么？
-- signal: 萃取出的模型会被写入笔记系统并与其他模型链接
+- src_unknown
   framework_lens: 萃取物需要进入知识网络
   follow_up_question: 这个模型与你已有的哪个认知冲突或互补？
 author: 老顽童
@@ -73,20 +73,20 @@ trust_level: medium
 ### 失败模式
 
 1. **萃取成果是一大堆故事，没有模型**
-   - **原因**：停留在案例层
-   - **修复**：每个案例后追问：‘这件事背后的通用原则是什么？’
+   - src_unknown
+   - src_unknown
 
 2. **从少量案例过度概括，模型不稳定**
-   - **原因**：样本不足
-   - **修复**：至少用3个正例和1个反例检验模型边界
+   - src_unknown
+   - src_unknown
 
 3. **模型复杂华丽，但没人能用**
-   - **原因**：过度设计
-   - **修复**：让非原作者用模型处理一个新案例，记录卡点并简化
+   - src_unknown
+   - src_unknown
 
 4. **萃取完不更新、不链接，成为孤岛**
-   - **原因**：缺少网络整合
-   - **修复**：每次萃取后至少链接两张相关卡，并设定复用检查
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -118,12 +118,12 @@ trust_level: medium
 
 <details><summary><b>六阶段展开</b></summary>
 
-- **S1 清单觉醒**（2013 去哪儿）：新人PM建PRD自查清单，三步法（自身错误→他人最佳实践→每次评审新反馈），饱和填充至无法新增。心态：我不重要，清单是真的。半年后追平3-4年经验PM。**核心认知：面向过去建模型，面向未来解决问题。**
-- **S2 十年锚点**（2015 美团）：以十年为单位规划能力，开笔记「如何讲好一堂课」，搜集最佳实践→线下实战12周36课时→每次课后整理正负反馈→课前反复看笔记强化，练出不重不漏（MECE）和审美评价能力。
-- **S3 敢于建模**（2016 美团）：受王兴/王慧文文化熏陶，突破「何德何能建方法论」心魔。第一个模型：产品经理三层（执行力→思考力→创造力），用于面试/职业规划/路径选择。**核心原则：先实事求是再解放思想。**
-- **S4 团队小抄**（2017 以太）：30人销售团队，知识库大而不好用。创新：扒销冠话术录音→压缩成一页纸小抄（硅谷Cheat Sheet启发），20板块→2页纸，培训后带着上阵。
-- **S5 行业级做课**（2019-2022 一堂）：五大萃取手段成型（全网调研/专家访谈/案例大爆炸/辩证式讨论/知行合一验证），准备系数10x（20万字素材→1万字课程）。时间管理课案例：20万字调研→十几位专家→400人共建17万字作业→多轮建模→内部实践验证才发布。
-- **S6 组织级萃取**（2022-至今 一堂）：共建会三轮迭代（30%→50%→90%成功率），全公司知行合一（教的课=自己用的方法），教研每周深度复盘到颗粒度级（NPS→好差评→磨课手段对比→知识点来源追溯）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 </details>
 
@@ -162,10 +162,10 @@ trust_level: medium
 ### IPO模型视角
 
 知识萃取的IPO框架：
-- **输入（I）**：全网调研、专家访谈、学员作业、案例大爆炸、自身实践
-- **处理（P）**：辩证式讨论、千人广场模型、共建会、现场建模、SABC审美评分
-- **输出（O）**：方法论模型（N步法/矩阵/段位图/冰山图/武器库/卡牌）、SOP、清单小抄、最佳实践级课程
-- **反馈**：专家验证吵架、周五内测、自身实践测试、NPS/留存/作业率数据复盘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -180,11 +180,11 @@ trust_level: medium
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-management-map]]
-- [[yt-model-personal-map]]
-- [[yt-model-progress-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

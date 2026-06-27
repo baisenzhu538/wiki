@@ -7,33 +7,33 @@ confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - yitang- yitang
-  - ai
+  - src_unknown
+  - src_unknown
 estimated_tokens: 3600
 language: zh-CN
 prerequisites:
-- yt-model-prompt-engineering
+- src_unknown
 query_triggers:
-- 吴恩达
-- 提示词课程
-- 一堂拆书
-- AI合伙人
-- 反谄媚
-- 谄媚倾向
-- 七层工作流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-panproduct-demand-motivation-resistance]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_of:
-- yt-model-prompt-engineering
+- src_unknown
 source_refs:
 - src_20260522_a89ab860-meta-prompt-eng
 status: enriched
@@ -41,16 +41,16 @@ title: 吴恩达提示词课程·一堂拆书精华
 type: report
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 会把一个复杂任务拆成多轮提示，而不是期望一次完美输出
+- src_unknown
   framework_lens: 提示词工程的核心是迭代
   follow_up_question: 你最近一次用几轮对话才把提示词调到可用？
-- signal: 知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护
+- src_unknown
   framework_lens: 人与AI分工明确
   follow_up_question: 在这个任务中，哪些部分必须保留人类最终判断？
-- signal: 会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）
+- src_unknown
   framework_lens: 提示词是工具箱
   follow_up_question: 这个任务更适合用哪个子工具？
 updated_at: '2026-06-16'
@@ -75,69 +75,69 @@ trust_level: medium-high
 ### 失败模式
 
 1. **写一个非常长非常复杂的提示词，期望一次出结果**
-   - **原因**：一次性思维
-   - **修复**：先给最小上下文生成初稿，再逐轮补充约束
+   - src_unknown
+   - src_unknown
 
 2. **盲目相信AI输出，不验证事实**
-   - **原因**：自动化偏差
-   - **修复**：对关键事实要求来源，并独立抽查
+   - src_unknown
+   - src_unknown
 
 3. **把所有问题都用同一个提示词模板套**
-   - **原因**：模板滥用
-   - **修复**：根据任务类型（写作/分析/创意）选择不同策略
+   - src_unknown
+   - src_unknown
 
 4. **只关注提示词技巧，忽视业务问题和判断力**
-   - **原因**：技巧至上
-   - **修复**：先明确要解决的问题，再设计提示词
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 核心命题：提示词不该被学
 
-- claim:01 [conf=0.90] 提示词模板已经过时。两年前大模型不够聪明时需要严谨的咒语式提示词保证输出质量。今天AI上下文窗口达75万字符（四本哈利波特），足够聪明——每家公司面对的问题独一无二，只有自己创造的提示词才能得到定制答案
-- claim:02 [conf=0.90] 提示词的本质不是"提问技巧"，而是"管理AI"。AI prompting不是写提示词，是把AI纳入自己的工作系统——给它充分背景、独特约束、迭代反馈，让它成为你的AI合伙人
+- src_unknown
+- src_unknown
 
 ### AI的四大缺陷（必须用提示词规避）
 
-- claim:03 [conf=0.85] **谄媚倾向**：大模型天生迎合使用者——预训练中"对人类友好"指令的产物。AI会捕捉提问中的倾向性（包括你自己都没意识到的），然后顺着你说。案例："请从数据中找积极指标"→AI会拼命从负数里榨糖。对策：删除所有正向形容词，要求分别列出优缺点，先让AI质疑而非肯定
-- claim:04 [conf=0.85] **缺少业务现场感**：AI有通用知识但缺企业上下文。不喂养充分背景只能得到通用行货。独特的答案来自独特的背景——商业洞察只来自具体约束。有效背景应包括：业务阶段、目标用户、产品形态、价格区间、已有资源、历史尝试、失败原因、当前约束、不可接受方案、时间窗口、验证指标
-- claim:05 [conf=0.85] **优先高频信息源而非权威信息源**：联网时AI天然倾向社交媒体（频率最高），而不是维基百科或学术期刊。对策："请以官方组织/权威网站信息为准"，或明确说"不要社媒来源"；判断问题类型决定是否联网——通用知识任务不需要联网反而更准
-- claim:06 [conf=0.85] **幻觉不可消除**：AI联网时只看网页摘要而非全文（算力撑不住），摘要与实际内容的偏差导致幻觉。对策：事实性/数据性任务必须交叉验证；高风险决策（法律/财务/医疗/投资）不能只依赖AI
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 迭代是第一性原理
 
-- claim:07 [conf=0.90] 好的提示词不是一次性想出来的，是在交互中一轮轮迭代出来的。每次反馈、每次追问、每次修正都等于用新的上下文喂养AI。迭代比任何单次提示词都重要。真正的上下文只属于你一个人——它在与AI的来来回回中自然生成
-- claim:08 [conf=0.85] 第一轮不要锁定一个答案。生成多个选项（至少5个），允许各方向成长。看起来不起眼的方案迭代几轮后可能变靠谱。先发散再收敛
+- src_unknown
+- src_unknown
 
 ### 头脑风暴是AI最高价值的场景
 
-- claim:09 [conf=0.90] 写作是AI最高频使用场景（24.5%），但头脑风暴（仅3.9%）才是AI最强的用法。写作即使最好提示词也只能出75分，头脑风暴有可能做到95分。AI应该用来拔高你的上限，而不是抬高你的下限
-- claim:10 [conf=0.85] 头脑风暴的关键输入：独特资源（你有什么别人没有的）+ 独特约束（钱/团队/时间/政策等硬约束）。没有限制的问题只能产生漂亮但不可执行的方案；带有真实限制的问题才可能产生适合当下阶段的策略
+- src_unknown
+- src_unknown
 
 ### 反谄媚机制
 
-- claim:11 [conf=0.85] **避免倾向性语言**：删除所有正向形容词——"这个方向是不是很有潜力？""帮我完善这个很好的想法"都是在暗示AI你要肯定。中立法：分析优缺点、找异常信号、比较适用条件、指出最可能不成立的地方
-- claim:12 [conf=0.85] **指定反对者角色**：让AI分别扮演客户视角、竞品视角、投资人视角、财务负责人视角、运营视角、一年后失败复盘者视角。多角色交叉验证能让自认为70分的方案瞬间掉到40分——这比任何鼓励都有价值
-- claim:13 [conf=0.80] **设计证伪实验**：更高质量的问题不是"如何证明这个项目能成功"，而是"哪些证据出现时说明这个项目不值得继续投入"。AI的价值不是让创业者更自信，而是让创业者更清醒
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI写作：结构化思考而非文字生成
 
-- claim:14 [conf=0.85] AI写作最大的问题不是语法错误而是内容空洞——看起来完整顺滑但缺少真实判断、具体例子、独特观点和思想密度。对策：不直接写全文，先磨大纲（大纲有杠杆效应——改一个结构可改变整篇文章的论证路径），再走大纲→要点→全文流程
-- claim:15 [conf=0.80] 润色应自下而上、逐段逐句：先判断段落功能→论点是否清楚→例子是否具体→句子是否有力量→最后处理语言节奏。不要说"帮忙润色全文"——太宽泛会让AI抹掉原文个性
+- src_unknown
+- src_unknown
 
 ### AI辅助判断：先设标准再打分
 
-- claim:16 [conf=0.85] 直接问"这个方案能打几分"会得到偏高分——AI一旦先给总分就会为它辩护。正确做法：先分项后总分，评分标准必须可证伪（"语言优美""有潜力"不是好标准）。多模型交叉验证，永远使用当下最好的模型
-- claim:17 [conf=0.80] **AI生图的门槛是描述力、审美和判断力**：好的图片由构图、光线、色彩、材质、镜头、风格、情绪共同决定。最佳训练方法不是背风格词，而是反向学习——上传目标图片让AI描述它为什么好，逐渐建立"语言→画面"映射
+- src_unknown
+- src_unknown
 
 ### 创业者的AI工作流总模型（七层）
 
-- claim:18 [conf=0.90] 完整工作流：背景层（喂完整上下文）→ 选项层（生成多个不同方案）→ 假设层（拆解每个方案的关键假设）→ 反驳层（多角色交叉质疑）→ 标准层（分维度打分）→ 实验层（转化为最小验证行动）→ 复盘层（把结果重新喂给AI，完成闭环）。这样AI才真正进入创业决策系统，而不是停留在一次性问答
+- src_unknown
 
 ### AI使用体感：持续训练模型敏感度
 
-- claim:19 [conf=0.85] AI工具变化极快，固定依赖某套技巧很容易过时。需要建立体感——什么任务适合AI、什么问题需要强模型、什么回答看似完整实际空泛。最有效的方法：每周固定时间拿真实业务问题做多模型对比训练。AI时代，直觉是一种生产力，这种直觉来自持续使用而非被动学习
-- claim:20 [conf=0.90] 复杂问题必须用最强模型。苦练提示词但用小模型=苦练驾驶技术但开拖拉机跑F1。模型能力和提示词能力相辅相成。对关键问题用更强模型，本质上是在降低决策试错成本
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -168,8 +168,8 @@ Gebru 会指出反谄媚机制的深层问题：AI 谄媚不是一个技术 bug�
 | 新手想用提示词"快速学会AI" | 吴恩达课程假设你已经有业务场景和判断力。新手缺乏这些基础时，提示词只会生成"看起来对但用不上"的答案 | 先用AI做3个真实任务（写邮件、做PPT、搜索资料），积累"什么好什么不好"的体感，再学提示词 |
 | 高风险决策（法律/医疗/投资）完全依赖AI | AI幻觉在高风险领域的代价是灾难性的。反谄媚机制在高压下更容易被忽视 | 把AI作为"第二意见"，始终有专家审核。AI提供方案，人做决策 |
 ### 关联概念
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：好的提示词本质上也是"讲香"——把你独特的业务上下文包装成AI能准确理解并给出高质量回应的输入
-- [[yt-concept-weapon-arsenal]] — 超级武器库：提示词策略可作为AI时代的"认知武器库"核心组件
+- src_unknown
+- src_unknown
 
 ### 关联卡片
 

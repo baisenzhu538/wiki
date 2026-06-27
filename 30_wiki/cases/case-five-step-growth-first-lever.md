@@ -6,7 +6,7 @@ id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260610_8865798f-一堂-一堂五步法-增长-口述
 - src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记
@@ -21,44 +21,44 @@ reviewed_by: 黄药师（Builder体验Producer）
 source_person: Truman
 source_context: 一堂五步法增长篇 + 增长周期模型
 query_triggers:
-- 增长第一步
-- 如何开始增长
-- 产品内核到增长
-- 第一个增长杠杆
-- 五步法增长衔接
-- 不知道从哪里开始增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 产品内核验证完了但不知道从哪开始做增长
+- src_unknown
   framework_lens: 帮你判断当前是否具备开始增长的条件（LTV/CAC≥3），以及第一个增长杠杆应该从产品内核的哪个特征中长出来
   follow_up_question: 你现在的LTV/CAC是多少？这个比值过去3个月是上升还是下降？
-- signal: 团队在模仿别人的增长手段但效果不好
+- src_unknown
   framework_lens: 帮你分析你的产品内核适合什么增长方式——不是所有产品都适合内容营销/付费投放/商务拓展
   follow_up_question: 你现在的用户是因为什么才买你的产品的？他们会在什么场景下主动推荐给别人？
 bridges_to:
-- target: yt-five-step-method
+- src_unknown
   relation: extends_step
   description: 五步法标准流程在增长环节的具体实操补充
-- target: yt-growth-cycle-model
+- src_unknown
   relation: applies_framework
   description: 增长周期模型在本案例中的具体应用
 wiki_refs:
-- '[[yt-five-step-method]]'
-- '[[yt-growth-cycle-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[yt-unit-model-three-tools]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[yt-growth-channel-roi]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[tool-yitang-research-unit-model]]'
-  - '[[concept-five-step-growth-to-barrier-transition]]'
-  - '[[yt-business-model-unit-economics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例：五步法中从产品内核到增长的第一次跨越
 
 > 五步法在"产品内核验证"和"开始增长"之间，存在一个多数创业者踩坑的盲区。本案例还原三个跨过这道坎的真实路径。
@@ -84,9 +84,9 @@ Truman 的核心警告："增长不是五步法的第四步才开始的事——
 Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你花多少钱拉新都是亏的。"**
 
 一堂的增长方式从产品内核中自然长出：
-- 课程内容本身包含大量"反常识洞察"（如"创业成功率<10%"、"P型 vs L型创业者"）
-- 用户学完后有强烈的"想发给合伙人/同事看"的冲动
-- 团队在这个基础上加了"送券"机制——老用户可以把多余的课券送人
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第一个增长杠杆**：把产品内核中的"可传播洞察"显式化，让每节课至少有 3 个"用户会截图发给别人"的瞬间。不是额外做增长，是让产品本身变增长。
 
@@ -99,9 +99,9 @@ Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你�
 该产品的产品内核是"10 人以下小团队的极简项目管理"。团队最初用常规增长手段：SEO、SEM、内容营销、商务拓展——全做了，全不温不火。
 
 后来发现一个规律：**他们的 80% 付费用户来自同一个渠道**——技术博客/论坛的推荐。因为产品内核恰好匹配了技术团队的"发现-试用"习惯：
-- 技术团队不喜欢被销售电话打扰
-- 他们会主动搜索工具比较文章
-- 他们极度看重同行的真实评价
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第一个增长杠杆**：把全部增长预算从"全面铺开"砍到"只做技术社区 KOL 合作"——核心动作是请技术博主写真实的"我用这款工具解决了什么问题"的文章，而非广告软文。
 
@@ -116,9 +116,9 @@ Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你�
 团队后来发现：**买了 3 门以上的用户，复购率高达 70%**。但"买 3 门"本身就是一个门槛——很多用户买完第 1 门后就不再回来了。
 
 **第一个增长杠杆**：把定价结构从"单课 199"改为"年度会员 999，畅听全部课程"。这个改动使得：
-- 用户的决策从"这门课值不值 199"变成了"我一年能听几门课"——后者更容易 justify
-- 单客 LTV 从 300 提升到 900+（大部分会员续费）
-- 获客成本不变，但 LTV/CAC 从 3.75 提升到 11+
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键指标**：LTV/CAC 的变化——不是看"会员数增长了多少"，而是看"同样的获客成本，单客价值是否翻倍了"。增长的本质不是多拉人，是把每个拉来的人的价值榨出来。
 
@@ -136,8 +136,8 @@ Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你�
 
 ### 内部局限
 
-- **"从产品内核长出来的增长"对某些品类可能太慢**。如果你的市场存在明显的先发优势窗口（如网络效应平台），等待"自然生长"可能导致窗口期关闭。这种情况下，先烧钱占市场再优化单元模型是更理性的选择——但这个策略只适用于能拿到大量资金的团队。
-- **LTV/CAC ≥ 3 的阈值因行业而异**。低毛利行业（如零售）这个阈值可能只需要 1.5，高毛利 SaaS 可能需要 5+。通用阈值是经验法则而非铁律。
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -173,5 +173,5 @@ Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你�
 
 ## 来源
 
-- Truman，一堂五步法 增长篇，2026 年
-- Truman，一堂增长周期模型
+- src_unknown
+- src_unknown

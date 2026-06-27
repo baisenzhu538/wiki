@@ -6,7 +6,7 @@ type: dark-knowledge
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,26 +14,26 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb19-visual-strategy-price-match]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb17-product-lifestyle-photography]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 同一SKU在淘宝/拼多多/抖音出现明显价差，但团队坚持"货完全一样"
+- src_unknown
   framework_lens: 渠道专版被隐藏为统一货源，导致定价策略与供应链版本管理脱钩
   follow_up_question: 各平台销售的产品在材质、配件、包装或售后条款上是否存在未标注的差异？
-- signal: 内部沟通把"修改一/修改二"与"电商版/拼多多版"混用
+- src_unknown
   framework_lens: 技术版本命名与渠道版本命名未做隔离，易引发库存、客服与合规混乱
   follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？
 ---# 电商渠道专版区分：淘宝≠拼多多
@@ -57,8 +57,8 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 不适用品牌统一定价策略（如苹果）、或平台差异极小的品类
-- 易混淆模式：将"修改一/修改二"技术版本与"渠道专版"混为一谈
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -75,5 +75,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb21-ecommerce-pricing-independent-model]] — 电商定价：线上价格带需独立建模
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]] — 电商产品图：抽卡图≠产品图，平台合规要求同样存在渠道差异
+- src_unknown
+- src_unknown

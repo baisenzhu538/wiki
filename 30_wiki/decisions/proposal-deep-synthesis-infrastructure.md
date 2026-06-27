@@ -4,24 +4,24 @@ title: 基础设施升级提案：深度合成产线 — 解决文章'不够深�
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
+- src_unknown
 reviewer: 欧阳锋
 author: 黄药师
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 related:
-  - '[[kdo-flywheel]]'
-  - '[[dk-f11-encyclopedia-style]]'
-  - '[[dk-f7-surface-translation]]'
-  - '[[three-party-data-alignment]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6
@@ -56,12 +56,12 @@ Synthesize → 做概念对标          → 产出：跨域链接、互补/冲�
 ### 1.2 当前质量门的盲区
 
 `90_control/quality-gates/content.md` 检查的是：
-- ✅ source_refs 不空、Core Thesis 可验证、enrich 已完成、target_user 明确、ACTION 锚点
+- src_unknown
 
 **它不检查的是**：
-- ❌ 这篇文章有没有独立观点（不只是转述源材料）？
-- ❌ 这篇文章有没有用框架反照 KDO 自身？
-- ❌ 这篇文章有没有暴露张力/悖论/边界（不是光滑的教科书叙事）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **根因**：当前质量门设计目标 = 保证内容"正确+完整"。但没有门禁检查"深度"——因为"深度"在原始设计中被假定为 Producer 的个人能力，不是工厂的基础设施问题。
 
@@ -137,8 +137,8 @@ Truman 在 AI 数据必修课中提出...
 （描述左右两个轮）
 
 ## 与 KDO 的对应
-- A（预判）对应 KDO 的 xxx
-- D（识别）对应 KDO 的 xxx
+- src_unknown
+- src_unknown
 ...
 
 ## Critique
@@ -194,9 +194,9 @@ Truman 说"数据是资产，模型不重要"。对于 KDO 这种结构化知识
 
 ## 五、不做什么
 
-- **不废除三步编译法**——它对概念卡/Tool 卡/框架卡仍然是最佳方法
-- **不要求所有文章走深度合成线**——只有"需要独立判断的跨域整合"才走
-- **不增加老顽童的日常工作量**——深度合成文章频率低（1-2篇/月），质量优先于数量
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -237,8 +237,8 @@ D1-D4 直接引用为工业化手册 §3.3 的内容。
 
 ### 不做
 
-- **不废除我加的深度门禁**（L2 规则 + 禁止清单 #14）——它仍然有价值：防止标准线上的步骤跳过
-- **不把所有文章走深度合成线**——分类区分，按需选择
+- src_unknown
+- src_unknown
 
 ---
 

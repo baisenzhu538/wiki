@@ -6,27 +6,27 @@ title: Truman的PRD清单进化：从被领导反复打回到'不再二错'—�
 type: case
 status: enriched
 domain:
-- yitang
-- personal-growth
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
 - src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[dk-truman-document-is-real-project-is-fake]]'
-  - '[[case-truman-motivation-map-12-versions]]'
-  - '[[dk-truman-document-is-real-project-is-fake]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
-  - '[[ai-learning-closed-loop]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[yt-personal-pan-product-tools]]'
-  - '[[dk-modeling-checklist-formatting-rules]]'
-  - '[[tool-泛产品落地-ROI分析]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -34,16 +34,16 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-- signal: 连续2-3次评审被不同理由打回，且每次错误都不重复
+- src_unknown
   framework_lens: 反馈随机化——问题没有被沉淀为检查项
   follow_up_question: 你是否有"评审错题本"？每次被打回的问题是否在24小时内变成清单新条目？
-- signal: 同一个低级错误在两周内出现第二次
+- src_unknown
   framework_lens: "\"不再二错\"机制失效"
   follow_up_question: 写新方案时是否强制用清单自检2-3次？清单是否覆盖了最近3次被打回的问题？
-- signal: 清单超过1个月没有新增或重组条目
+- src_unknown
   framework_lens: 模型僵化——清单没有持续吸收新反馈
   follow_up_question: 最近5次评审/反馈中有多少条没有被清单收录？未收录的原因是什么？
-- signal: 清单条目很多，但写方案时仍然漏掉关键点
+- src_unknown
   framework_lens: 清单结构失效——缺少触发场景或执行顺序
   follow_up_question: 清单是否按"输入-处理-输出"或评审阶段组织？每个检查项是否有明确的"何时检查"触发条件？
 ---# Truman的PRD清单进化
@@ -66,9 +66,9 @@ diagnostic_signals:
 
 Truman写的PRD文档经常被打回，每次评审都被挑出新问题。
 
-- 第一次评审：缺个问题分析 → 打回 → 修改
-- 第二次评审：缺个理由 → 打回 → 修改
-- 第三次评审：挑了个C → 打回 → 修改
+- src_unknown
+- src_unknown
+- src_unknown
 
 所有的反馈都是"随机的"、"围绕方案的"。Truman非常焦虑，甚至怀疑自己适不适合做产品。
 
@@ -86,10 +86,10 @@ Truman做了一件关键的事：跳脱具体方案，站在"能力视角"思考
 
 Truman的执行非常严格：
 
-- **每写一个新方案，必须用这个清单检查两三次**
-- **确保交出去的方案不会出现清单上的问题**
-- **"同样的错误不会让你再说第二次"**
-- **交出去的是"历史巅峰水平"——"我这个人目前能交出去最好的东西"**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,20 +135,20 @@ Truman的执行非常严格：
 出现以下信号，说明你需要立刻启动或修复一个PRD/交付物检查清单：
 
 1. **连续2-3次评审被不同理由打回，且每次错误都不重复**
-   - **Lens**：反馈随机化——问题没有被沉淀为检查项。
-   - **Follow-up**：建立"评审错题本"，要求每次被打回的问题在24小时内变成清单新条目。
+   - src_unknown
+   - src_unknown
 
 2. **同一个低级错误在两周内出现第二次**
-   - **Lens**："不再二错"机制失效。
-   - **Follow-up**：写新方案时强制用清单自检2-3次；检查清单是否覆盖了最近3次被打回的问题。
+   - src_unknown
+   - src_unknown
 
 3. **清单超过1个月没有新增或重组条目**
-   - **Lens**：模型僵化——清单没有持续吸收新反馈。
-   - **Follow-up**：复盘最近5次评审/反馈，把未收录的问题补充进清单；必要时按"输入-处理-输出"重组结构。
+   - src_unknown
+   - src_unknown
 
 4. **清单条目很多，但写方案时仍然漏掉关键点**
-   - **Lens**：清单结构失效——缺少触发场景或执行顺序。
-   - **Follow-up**：把清单从"条目堆"改为"阶段触发式"：按评审前/评审中/评审后或输入/处理/输出分组。
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -181,29 +181,29 @@ Truman的执行非常严格：
 基于Truman的实践，一个可立即使用的PRD检查清单：
 
 ### 1. 问题定义
-- [ ] 需求背景是否写清楚（用户/场景/痛点）
-- [ ] 目标是否可衡量（指标/成功标准）
-- [ ] 范围边界是否明确（做什么、不做什么）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 输入信息
-- [ ] 是否引用了用户调研/数据/竞品分析
-- [ ] 关键假设是否显性化
-- [ ] 依赖方（设计/开发/运营）是否已确认
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 方案逻辑
-- [ ] 主路径是否MECE、不重不漏
-- [ ] 异常分支和边界情况是否覆盖
-- [ ] 优先级是否明确（P0/P1/P2）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 表达格式
-- [ ] 标题层级是否统一（一级/二级/三级）
-- [ ] 每个图表是否有解释说明
-- [ ] 对干系人说话（不是自嗨）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 干系人沟通
-- [ ] 设计师关注的交互细节是否说明
-- [ ] 开发关注的接口/数据是否明确
-- [ ] 运营关注的上线节奏是否对齐
+- src_unknown
+- src_unknown
+- src_unknown
 
 **维护规则**：每次评审后发现的新问题，24小时内补充到对应章节。
 
@@ -211,15 +211,15 @@ Truman的执行非常严格：
 
 ## 关联
 
-- [[dk-truman-document-is-real-project-is-fake]] —— 本案例是"文档是真的，项目是假的"暗知识的具体实例。Truman从被打回的新人PM到三四年水平的进化，展示了这个暗知识在实战中的威力。
-- [[yt-note-checklist-concept]] —— 清单体笔记是本案例中PRD清单的技术载体。Truman的初始清单虽然"很糙"、"一共也没几行字"，但核心逻辑就是清单体的"原子化+可执行化"。
-- [[dk-truman-knowledge-extraction-three-schools]] —— 本案例是B流派（经验萃取派）的最基础实践：从个人经验中抽象出可复制的检查清单。
-- [[ai-learning-closed-loop]] —— 学习闭环中的"反馈→输入"机制就是本案例的核心：每次评审的反馈被转化为清单的新条目，形成正向循环。
-- [[case-truman-ai-skill-engineering-guide]] —— 同构案例：Truman后来用同样的"建指南→迭代→审计"方法封装高阶AI Skill工程指南，说明这套方法论从PRD清单升级到了AI协作指南。
-- [[yt-personal-pan-product-tools]] —— 30张泛产品设计卡牌是本案例方法论的十年进化版本：从一个简单的PRD清单，发展成了一套完整的泛产品设计工具箱。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- Truman，一堂-个人修炼-知识萃取探索营口述版（2026-05），`src_20260510_814ec410#467-699`
+- src_unknown

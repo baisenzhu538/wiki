@@ -5,19 +5,19 @@
 title: 新人落地
 type: concept
 domain:
-  - management- management
-  - product
-  - ai-saas
-  - design
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 新人入职后没人管，自己摸索
+- src_unknown
   framework_lens: 放养式
   follow_up_question: 新人入职第一周有没有明确的日程和对接人？如果没有，就是放养
-- signal: 第一周给新人大量培训，信息过载
+- src_unknown
   framework_lens: 填鸭论
   follow_up_question: 新人第一周结束后能记住多少培训内容？如果<30%，信息过载了
 updated_at: '2026-06-16'
@@ -31,7 +31,7 @@ source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-  - '[[yt-management-team-knowledge]]'
+  - src_unknown
 ---# 新人落地
 
 > 来源：一堂管理必修课「管团队」模块，《新人落地：新人Landing必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -66,9 +66,9 @@ related:
 ### 新人落地的重新理解
 
 常见误区：
-- **沉浸论**："扔进去泡几个月自然就会了" —— 没有结构化的新人体验，等于把组织文化、工作方式的传递完全交给随机
-- **填鸭论**："第一周安排十场培训全面覆盖" —— 信息过载导致新人什么都没记住，反而产生焦虑
-- **考核论**："试用期就是考核期，行就行不行就走" —— 把新人落地当成单向筛选，忽略了组织在 Landing 过程中的主动责任
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的落地定义**：新人 Landing = 文化融入 × 关系建立 × 业务上手 × 早期正反馈，四者缺一不可。
 
@@ -113,8 +113,8 @@ related:
 
 **John Van Maanen**（MIT 斯隆管理学院教授）和 **Edgar Schein**（组织文化研究之父）在 1979 年的经典论文 *Toward a Theory of Organizational Socialization* 中提出了一个区分，对一切"新人落地框架"构成了根本性挑战：**制度化社会化（Institutionalized Socialization）vs 个体化社会化（Individualized Socialization）**。
 
-- **制度化社会化**：把新人当作一个需要被"加工"的原材料——统一的培训流程、标准的融入步骤、预设的阶段里程碑。目标是"让新人变成我们这样"。
-- **个体化社会化**：把新人当作一个带来独特视角和能力的贡献者——让他/她用自己擅长的方式融入、让他/她挑战现有的做事方式。目标是"让新人改变我们"。
+- src_unknown
+- src_unknown
 
 Van Maanen & Schein 的核心洞见：**结构化 onboarding 做得越好，越容易滑向制度化社会化——而制度化社会化的代价是"新人视角的死亡"。** 你设计了一个完美的 90 天流程：Day 1 做什么、Week 1 学什么、Month 1 交付什么——新人按部就班走完，三个月后变成了"一个合格的我们"。但与此同时，新人刚入职时那种"外来的、新鲜的、能看出皇帝没穿衣服"的能力——被这个完美的流程彻底消灭了。新人不再问"为什么我们这样做"——因为他/她已经学会了"我们就是这样做"。
 
@@ -165,13 +165,13 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 关联卡片
 
-- [[yt-management-scientific-hiring]] — 科学招聘：招聘是 Landing 的前一步——招到对的人是 Landing 成功的前提，好的 Landing 是招聘 ROI 的兑现
-- [[yt-management-basic-skills]] — 管理基本功认知：新人 Landing 中的"导师机制"是对管理基本功中教练能力的直接检验
-- [[yt-management-company-culture]] — 公司文化：新人前90天是文化植入的黄金窗口期——第一手体验决定了他如何理解"这里怎么做"
-- [[yt-management-team-knowledge]] — 团队知识管理：良好的团队知识库能让新人自助式地完成大部分业务上手，降低 Buddy 的负载
-- [[yt-management-goal-management]] — 目标管理：新人的30天和90天目标应当用 OKR 方式与上级对齐
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：Onboarding 是组织武器库中最容易被低估的武器——它不直接创造业务价值，但决定了所有其他武器能被多快、多好地使用。一个卓越的 onboarding 系统能让新人 30 天内达到老员工 80% 的武器熟练度
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Edmondson 的心理安全本质上是"讲香"的前置条件——如果新人不敢说自己不理解，你永远不知道你的"香"（文化、做事方式、战略方向）有没有真的传递到他/她那里。最好的 onboarding 不是单向的"讲"，是双向的"对话"——你讲你的、新人反馈他/她听到了什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -193,8 +193,8 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 跨学科锚点
 
-- 新人 Landing 的系统化实践源自人力资源管理中的 Onboarding 领域——Google 的"Just-in-time Notification"入职系统（在入职前、中、后精确推送所需信息）是业界标杆。
-- Van Maanen & Schein 的组织社会化理论（1979）是 onboarding 研究的奠基之作——"制度化 vs 个体化社会化"的区分至今仍是 onboarding 设计中最深刻的张力。
-- Edmondson 的心理安全研究（1999至今）为 onboarding 中的"新人沉默"现象提供了最根本的解释框架——没有心理安全，一切流程都是空中楼阁。
-- "90天框架"与 Michael Watkins《创始人90天》（The First 90 Days）一脉相承，但一堂将其从高管入职场景扩展到所有层级的新人。
-- Buddy 机制源自微软等大公司的实践，研究表明有 buddy 的新人入职后90天内的生产力提升约 35%。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

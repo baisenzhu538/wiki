@@ -7,27 +7,27 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-- AI能力
-- 双模型框架
-- 提示词工程
-- 人机协同
-- AI认知模型
-- 任务分解
-- 验证闭环
-- AI时代竞争力
-- 如何与AI协作
-- 提示词怎么写
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -44,16 +44,16 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 能清晰说出 AI 在当前任务中的能力边界和典型错误模式
+- src_unknown
   framework_lens: 人机协同需要认知模型
   follow_up_question: 这个任务中，AI 最可能在哪一步出错？你如何发现？
-- signal: 复杂任务会先拆解再交给 AI，而不是一次性抛给 AI
+- src_unknown
   framework_lens: 任务分解提升可控性
   follow_up_question: 如果你把任务拆成3步，每一步的验收标准是什么？
-- signal: AI 输出会被验证，关键决策保留人类最终判断
+- src_unknown
   framework_lens: AI 是副驾驶，不是机长
   follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
 updated_at: '2026-06-16'
@@ -75,20 +75,20 @@ author: 老顽童
 ### 失败模式
 
 1. **无条件相信 AI 输出，不做事实核查**
-   - **原因**：自动化偏差
-   - **修复**：对关键事实要求 AI 提供来源，并独立抽查
+   - src_unknown
+   - src_unknown
 
 2. **不管什么任务都用 AI，反而降低效率**
-   - **原因**：工具滥用
-   - **修复**：先判断：这个任务用 AI 是否能显著更快或更好？不能则不用
+   - src_unknown
+   - src_unknown
 
 3. **提示词过于笼统，导致输出偏离需求**
-   - **原因**：提示工程不足
-   - **修复**：给 AI 明确的角色、任务、输出格式和约束条件
+   - src_unknown
+   - src_unknown
 
 4. **把 AI 输出直接作为最终交付，没有迭代反馈**
-   - **原因**：缺少闭环
-   - **修复**：建立‘生成→评审→修正→验证’的最小循环
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -100,9 +100,9 @@ AI 能力（双模型）是一堂个人必修课中"形成竞争力"模块的核
 
 传统个人竞争力建立在"知识储备 + 执行效率 + 经验积累"三要素上。AI 的介入使得信息获取成本和初级产出成本趋近于零，导致以下重组：
 
-- **知识储备**：从"知道什么"转向"知道问什么"
-- **执行效率**：从"做得多快"转向"让 AI 做得对"
-- **经验积累**：从"经历多少年"转向"见过多少模式"
+- src_unknown
+- src_unknown
+- src_unknown
 
 因此 AI 能力的本质不是工具操作，而是**元认知升级**——能持续判断"当下这个任务中 AI 能做什么、我不能做什么、我们怎么分工"。
 
@@ -125,9 +125,9 @@ AI 能力（双模型）是一堂个人必修课中"形成竞争力"模块的核
 
 ### 一堂方法论中的 AI 位置
 
-- 在需求分析课中，Truman 明确指出 AI 在需求分析上有独特优势（需求十年稳定，AI 吃透人类全量信息后的洞察往往精准），但产品创意和趋势预判是 AI 的短板
-- 在 IPO 学习模型中，AI 被定位为 Input 端的高效工具（四大渠道之"从资料中学"的辅助手段）
-- 在知识萃取课中，AI 可辅助全网调研的信息收集，但辩证式讨论和知行合一验证的最终判断权始终在人
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一堂实际交付
 

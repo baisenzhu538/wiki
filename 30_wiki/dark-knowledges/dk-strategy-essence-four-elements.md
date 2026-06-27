@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-shell-oil]]'
-  - '[[case-strategy-revival-14-gucci]]'
-  - '[[dk-demand-pitfall-dialer]]'
-  - '[[case-strategy-practice-10-turnaround]]'
-  - '[[dk-demand-pitfall-travel-agent]]'
-  - "[[tool-strategy-12-word-test]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---**四要素检测**：
 1. **细分市场**明确了吗？不是"中国市场"，是具体的谁
 2. **竞争优势**可持续吗？不是"我们服务好"，是客户为什么非选你不可

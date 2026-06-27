@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-activation-rate
-  - yt-growth-engagement-loop
-  - yt-growth-cohort-analysis
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们获客很多，但留不住'"
+  - src_unknown
     framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
     follow_up_question: "你的留存率是多少？次日留存、7日留存、30日留存分别是多少？"
-  - signal: "用户说'留存率还行，但用户不活跃'"
+  - src_unknown
     framework_lens: 留存指标——留存≠活跃，需要区分留存类型
     follow_up_question: "你的留存是活跃留存还是沉默留存？用户最后一次使用是什么时候？"
-  - signal: "用户说'我们不知道用户为什么流失'"
+  - src_unknown
     framework_lens: 留存指标——流失原因需要数据分析和用户访谈
     follow_up_question: "流失用户在流失前做了什么？有没有共同行为模式？"
-  - signal: "用户说'我们的留存曲线很平'"
+  - src_unknown
     framework_lens: 留存指标——留存曲线平说明产品没有形成习惯
     follow_up_question: "你的产品是否形成了用户习惯？用户什么场景下会回来？"
-  - signal: "用户说'我们靠补贴留住用户'"
+  - src_unknown
     framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
     follow_up_question: "停止补贴后，用户还会回来吗？产品本身的价值是否足够？"
 
@@ -130,21 +130,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当获客多但留存低时 → 优化 onboarding 和产品价值
-- 当留存曲线下降时 → 分析流失原因
-- 当用户沉默时 → 主动触达和挽回
-- 当补贴停止后流失时 → 强化产品价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-activation-rate`：激活率
-- `yt-growth-engagement-loop`：参与循环
-- `yt-growth-cohort-analysis`：同期群分析
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 留存研究（Mixpanel、Amplitude）
-- 用户行为分析
+- src_unknown
+- src_unknown
+- src_unknown

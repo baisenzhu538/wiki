@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-pc-web-data]]'
-  - '[[tool-yitang-stock-data]]'
-  - '[[tool-yitang-xiaohongshu-data]]'
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-court-record-search]]'
-  - "[[tool-yitang-weapon-third-party-database]]"
-  - "[[tool-yitang-overseas-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 亚马逊榜单
@@ -29,10 +29,10 @@ related:
 > Amazon Best Sellers——海外市场品类趋势的免费窗口。
 
 **用法**：
-- 看目标品类的Best Sellers排名→谁是头部玩家
-- 看New Releases→近期什么新品在起量
-- 看Movers & Shakers→什么产品排名在快速上升
-- 看评论数量和星级→销量估算+用户满意度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：亚马逊榜单是公开的、每日更新的、覆盖几乎所有消费品类的免费数据库。做跨境电商/出海的第一站。
 

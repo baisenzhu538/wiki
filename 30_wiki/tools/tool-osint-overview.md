@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: OSINT tools 2025-2026 comparison
-- web: OSINT Framework (osintframework.com)
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[framework-yitang-research-weapon-supplement-2026]]'
-  - '[[tool-osint-wayback]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-research-weapon-supplement-2026]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OSINT工具总览
@@ -73,8 +73,8 @@ curl "https://archive.org/wayback/available?url=target.com"
 
 ## 适用边界
 
-- **适用**：竞对调研、供应链追查、人才背景调查、新市场情报
-- **不适用**：需要实时交易数据的场景、需要内幕信息的决策
+- src_unknown
+- src_unknown
 
 ---
 

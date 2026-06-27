@@ -10,31 +10,31 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-ai-neutrality-bias]]"
-  - "[[case-chen-qiufan-ai-writing]]"
-  - "[[case-cambridge-novelists-survey]]"
-  - "[[case-ai-companion-emotional]]"
-  - "[[dk-ai-scarcest-resource-is-self]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Roblox AI NPC 与教育场景
@@ -66,9 +66,9 @@ Roblox 作为覆盖大量未成年用户的 UGC 游戏平台，正在把大语�
 
 Roblox 在 2024-2026 年间连续推出基于生成式 AI 的创作者工具：
 
-- **Text Generation API**：2025 年 3 月进入 Beta，允许开发者在体验中调用开源 LLM 生成动态 NPC 对话，默认接入平台内容安全与 moderation 层，初始限制约 100 请求/秒/体验，且对开发者身份与内容成熟度有门槛 [conf=0.85, source=Roblox Developer Forum, "[Beta] Introducing Text Generation API", 2025-03-18]。
-- **Studio Assistant / Code Assist**：内嵌于 Roblox Studio 的 AI 编程助手，支持自然语言生成 Luau 代码；2026 年 4 月 Roblox 团队成员公开称「44% 的 Top 1,000 创作者已使用 Roblox Assistant 或第三方 AI 工具 via MCP」[conf=0.75, source=Roblox 团队 @ayyar on X, 2026-04]。
-- **MCP Playtest Agent**：2026 年 4 月进入 Studio Beta，可自动启动 Playtest 并返回 Pass/Fail/Inconclusive 报告，目标是把部分 QA 工作交给 AI 代理 [conf=0.85, source=Roblox Developer Forum, "[Studio Beta] Studio Assistant & MCP Playtest Agent", 2026-04-10]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些工具让教育类 Roblox 体验可以快速生成可对话的 AI 导师、历史人物、语言陪练或科学实验 NPC，但也把「算法如何与孩子互动」的设计权大量下放到个体创作者手中。
 
@@ -217,30 +217,30 @@ Roblox AI NPC 的结构——「游戏化环境 + 生成式 AI 陪伴 + 未成�
 
 ## 行动 Checklist
 
-- [ ] 审查你所在的教育/游戏产品中，AI NPC 的目标函数是否与孩子长期福祉一致。
-- [ ] 为未成年用户设置 AI 交互时长上限、内容透明度和家长可控开关。
-- [ ] 区分「AI 教学」与「AI 情感陪伴」：前者可适度外包，后者需要更严格的边界。
-- [ ] 对 AI NPC 的人设、奖励机制和错误反馈做「价值观审计」，避免无意中强化单一价值取向。
-- [ ] 在使用教育 AI 市场数据时，同时呈现多家机构区间并注明口径差异。
-- [ ] 建立小规模试点与长期跟踪机制，而不是以市场规模或用户增长作为唯一上线标准。
-- [ ] 参考 Khanmigo、Duolingo Max 等案例，设计「AI 辅助 + 人类核心」的混合教学流程。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 延伸阅读与来源
 
-- Roblox Developer Forum. (2025-03-18). "[Beta] Introducing Text Generation API." https://devforum.roblox.com/t/beta-introducing-text-generation-api/3556520
-- Roblox Developer Forum. (2025-09). "Text Generation API Beta: Expanding Access." https://devforum.roblox.com/t/text-generation-api-beta-expanding-access/3952348
-- Roblox Developer Forum. (2026-04-10). "[Studio Beta] Studio Assistant & MCP Playtest Agent." https://devforum.roblox.com/t/studio-beta-studio-assistant-mcp-playtest-agent/4566767
-- Klover.ai. (2025-08-04). "Roblox's AI Strategy: Analysis of Dominance in Gaming AI." https://www.klover.ai/roblox-ai-strategy-analysis-of-dominance-in-gaming-ai/
-- PCMag. (2026-04-17). "Roblox Studio Goes Full Agentic as Nearly Half of Top Creators Already Use AI to Build Games." https://me.pcmag.com/en/gaming/36602/roblox-studio-goes-full-agentic-as-nearly-half-of-top-creators-already-use-ai-to-build-games
-- DemandSage. (2026-06-01). "How Many People Play Roblox 2026 [Active Player Count]." https://www.demandsage.com/how-many-people-play-roblox/
-- Grand View Research. (2026-05). "AI In Education Market Size, Share And Growth Report, 2033." https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-education-market-report
-- MarketsandMarkets. (2024-11). "AI in Education Market Report 2024-2030." https://www.marketsandmarkets.com/Market-Reports/ai-in-education-market-200371366.html
-- Tutorbase. (2026-02). "EdTech & AI in Education Statistics 2026." https://tutorbase.com/statistics/edtech-ai
-- Reruption. (2023-03). "Khanmigo: Khan Academy's GPT-4 AI Tutor Scaling Education." https://reruption.com/en/knowledge/industry-cases/khanmigo-khan-academys-gpt-4-ai-tutor-scaling-education
-- 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网. http://www.chinawriter.com.cn/n1/2025/0318/c460052-40441372.html
-- 王欢. 《AI 2041》拆书会第 208 期逐字稿.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

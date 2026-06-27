@@ -12,46 +12,46 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_1ffb2cef_wanghuan_harness的七个阶段_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-- ai-collaboration
-- yitang
-- human-ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 单 Agent 或单次提示词做出来的东西"看着像但用起来坏"
+- src_unknown
   lens: 生成者与验收者角色未分离
   follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
-- signal: 复杂项目做到一半发现技术栈选错，被迫推倒重来
+- src_unknown
   lens: 规划与技术栈选型缺失
   follow_up: 在动手生成前，先用最强推理模型输出 product-spec.md 与 tech-stack.md
-- signal: 产品功能做完但视觉、空状态、错误状态明显粗糙
+- src_unknown
   lens: 缺少审美精修阶段
   follow_up: 在 Ship 前固定插入一轮 Polish Sprint，切换评分权重到审美维度
-- signal: 交付后用户按 README 跑不起来
+- src_unknown
   lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
-  - '[[dk-p13-token-burn]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[dk-wanghuan-spec-trap]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[yt-tool-onboarding-90day]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-ai-native-definition]]'
-  - '[[concept-wanghuan-power-of-standards]]'
-  - '[[concept-harness-cattle-not-pets]]'
-  - '[[concept-harness-scoring-anchors]]'
-  - '[[framework-five-step-lean-interface]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- Harness
-- 多智能体
-- 软件构建
-- 质量门控
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -72,30 +72,30 @@ Harness 把一次复杂 AI 构建分解为**初始化、规划、技术栈选型
 ## 核心要点
 
 1. **Phase 0 · 初始化 & 预检**
-   - 创建 harness/ 目录，检测 CLI 工具，生成 budget.yml（默认 50 轮迭代、8 个 Sprint、4 小时墙时）。
-   - 自动检测是否需要从 checkpoint 恢复。
+   - src_unknown
+   - src_unknown
 2. **Phase 1 · Planner：产品规划（Opus 模型）**
-   - 用最强推理模型只做一次产品规划，成本可控。
-   - 输出 product-spec.md：功能优先级、审美方向、迭代计划，并标出所有高风险歧义。
+   - src_unknown
+   - src_unknown
 3. **Phase 1.5 · TechStackSelector：技术栈选型（Opus 模型）**
-   - Planner 结束后立即确定技术栈。
-   - 输出 tech-stack.md：语言、框架、测试工具、构建工具、部署目标、选型理由；Generator 不得自行引入未列出的顶层依赖。
+   - src_unknown
+   - src_unknown
 4. **Phase 2-5 · Sprint 对抗循环**
-   - 每轮 Sprint：写 Sprint Contract → 启动 Workflow → Generator 构建 → 四个 Evaluator 并行评分 → 决策引擎判断继续、修复还是裁剪范围。
-   - 评分通过条件：没有维度低于 3 分、加权平均 ≥ 4.0 分（取两个代码审查者中更严者）、零 CRITICAL 对抗发现。
+   - src_unknown
+   - src_unknown
 5. **Phase 5.5 · Polish Sprint：审美精修**
-   - 所有 PO 功能完成后，自动插入一轮 Polish：空状态、错误状态、加载动画、字体节奏、微交互。
-   - 评分权重自动切换（审美维度上调到 3，功能维度下调到 1）。
+   - src_unknown
+   - src_unknown
 6. **Phase 6 · Ship Pipeline：最终交付**
-   - 顺序执行，每步互为门控：
+   - src_unknown
      1. AestheticReviewer（Opus）整体审美评分 ≥ 4.0 才过；
      2. 文档生成器写 README + CHANGELOG + KNOWN_LIMITATIONS 并提交；
      3. FreshCloneTester 从零克隆、按 README 操作，确认真的能跑；
      4. AuditTrail 生成从 spec 到 ship 的完整旅程记录。
 7. **关键设计：生成者与验收者分离**
-   - 单 Agent：20 分钟 / 9 美元，界面像那么回事，但核心功能损坏。
-   - Harness：6 小时 / 200 美元，16 个功能都能用，包括 AI 精灵图生成器、AI 关卡设计器，可以实际玩。
-   - 成本贵 22 倍，但产出从"损坏的玩具"变成"可玩的游戏"。
+   - src_unknown
+   - src_unknown：6 小时 / 200 美元，16 个功能都能用，包括 AI 精灵图生成器、AI 关卡设计器，可以实际玩。
+   - src_unknown
 
 ---
 
@@ -126,24 +126,24 @@ Harness 把一次复杂 AI 构建分解为**初始化、规划、技术栈选型
 
 ## 行动 Checklist
 
-- [ ] 在项目根目录创建 harness/，写入 budget.yml 明确迭代上限与墙时预算。
-- [ ] 用最强推理模型跑 Phase 1，输出 product-spec.md，并标出所有高风险歧义。
-- [ ] 在动手生成前完成 Phase 1.5，输出 tech-stack.md 并锁定顶层依赖。
-- [ ] 设计 Sprint Contract 模板，明确每轮输入、输出、评分维度与通过条件。
-- [ ] 为每轮 Sprint 配置至少四个 Evaluator，并设置最低分、平均分、CRITICAL 发现三项门控。
-- [ ] 所有功能完成后自动触发 Phase 5.5 Polish Sprint，重点检查空状态、错误状态、加载动画。
-- [ ] Ship 前运行 FreshCloneTester：从零克隆、按 README 操作，确认能跑。
-- [ ] 生成 AuditTrail，记录从 spec 到 ship 的完整决策与变更链路。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-task-product-system]]：Harness 是任务→产品→系统跃迁在复杂构建中的具体实现。
-- [[framework-wanghuan-actor-director-mode]]：导演思维是 Harness 中规划、验收角色分离的认知基础。
-- [[concept-wanghuan-ai-native-definition]]：Harness 是把 AI 默认纳入复杂构建流程的典型案例。
-- [[concept-wanghuan-power-of-standards]]：Harness 的门控和评分机制依赖清晰标准。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：每个 Phase 的输入输出都可以用 BTICOE 进一步结构化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -246,10 +246,10 @@ Aesthetic Reviewer 最终审美验收
 **回应**：模型越强，对标准的依赖越高。Harness 的价值不在于弥补模型能力不足，而在于**把人的判断、行业标准和验收机制结构化**。即使模型能一次写对代码，它仍然需要人告诉它"对"的定义是什么。
 
 **不要用**
-- 不要把它用于简单到单次提示词就能解决的任务。
-- 不要在没有明确验收标准时启动 Harness，否则门控会流于形式。
-- 不要让生成者和验收者长期由同一个模型或同一个人担任。
-- 不要为了流程完整而牺牲交付节奏——可以裁剪阶段，但不可裁剪角色分离。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

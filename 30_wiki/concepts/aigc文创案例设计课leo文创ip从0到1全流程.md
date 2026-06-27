@@ -4,8 +4,8 @@
 id: aigc文创案例设计课leo文创ip从0到1全流程
 created_at: 2026-05-28
 domain:
-- ai-saas
-- design
+- src_unknown
+- src_unknown
 source_refs:
   - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 status: draft
@@ -13,18 +13,18 @@ title: AIGC文创案例设计课：Leo文创IP从0到1全流程
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
-  - '[[tool-月白-设计文件八要素命名法]]'
-  - '[[tool-月白-跨境电商产品图替换法]]'
-  - '[[tool-月白-设计项目MVP拆解法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # AIGC文创案例设计课：Leo文创IP从0到1全流程
 
@@ -37,24 +37,24 @@ related:
 1. **案例概述**：Leo（一堂运营人员）希望做自己的文创IP品牌。从一张手绘草稿开始，经过完整的设计流程，最终产出棉花娃娃、表情包、电商白底图/场景图/详情页、线下海报等全套物料。**全程使用豆包+Midjourney，基本未打开PS**。
 
 2. **角色形象确立（0→1）**：
-   - 第一轮抽卡约**550张**→缩至10张以内→最终选定。关键不是审美能力而是**观察能力**——能描述出Leo的长相特征（三角眼、眉前有眉后无、人中等）比审美更重要。
-   - 采用"**口喷300字描述+电图**"方式迭代。手工调脸环节使用醒图（手机APP）的自动修脸功能，无需PS液化。
-   - 最终确定**Q版1:1头身比**为表情包基础风格（相比2:1头身比更Q更萌）。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **材质选择（调研→决策）**：
-   - 调研发现：定制人偶/BJD/泡泡玛特公仔均需开模（成本>2000元）。**棉花娃娃**是明星玩偶常用方案——已有基础形状，只需换脸+换装，成本最低。
-   - 使用"把人物形象变成棉花娃娃"单句提示词，配合Leo形象图，AI直接输出4种风格的棉花娃娃方案。
+   - src_unknown
+   - src_unknown
 
 4. **表情包量产（1→10）**：
-   - 以Q版1:1头身比为基础，用"把你的形象+需要做的动作+文字"给AI，一抽流出图。
-   - 尝试了多种风格（拟物化iOS风、常规风、新探索风），最终选定最适合Leo形象的一组。
-   - **口喷设计**贯穿全程：所有操作通过对话框完成，单套提示词可复用。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **电商设计（白底图→场景图→详情页）**：
-   - **白底图是原点**：先有干净的白底图才有后续一切。六面图（正/背/左/右/上/下）是最优实践。
-   - **场景图承接**：将白底Leo小人放入办公桌场景中。关键原则——**场景选择取决于目标客群的审美**，而非设计师个人偏好。通过"拆推评算"确定核心场景。
-   - **详情页叙事**：起承转合的四段说服逻辑——吸引→展示→说服→行动。
-   - 使用图生图方式：多张白底图+场景参考 → AI合成最终海报。提示词示例：
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
      > "将图片一中的Leo小人放进图片二的桌子上、电脑旁边，将图片三的黄色里程碑放进图片一的桌子上白色台灯前。添加文案..."
 
 6. **里程碑思维**：整个流程的核心方法论——**将一个大问题拆成无数个小问题逐一解决**。每一步的输出是下一步的输入。"白底图→场景图→详情页"就是里程碑在AI设计中的具体应用。
@@ -72,20 +72,20 @@ related:
 
 ### Synthesize
 
-- 与[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]构成方法论→案例的完整闭环：第二期讲方法，第三期展示方法在实际项目中的逐层落地。
-- 棉花娃娃调研→决策路径是"Ingest方法论"在AI设计中的完美迁移：先调研（找最佳实践）→ MVP验证（低成本试错）→ 规模化（量产表情包/场景图）。
-- "设计是解题过程"的一堂底层逻辑在此案例中得到完整验证：大问题（做文创品牌）→ 拆解（形象/材质/电商/线下）→ 逐个解决 → 里程碑串联。
-- AI落地卡点（RGB/CMYK/DPI/材质）是设计域特有的"人的工作"——这些环节的ROI低于AI绘图部分，但跳过它们会导致生产失败。与"80/20定律"吻合。
-- 可迁移至其他场景：个人IP（给自己做头像/Logo）、品牌设计（虚拟代言人物料）、课程设计（AI助教形象）等。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Content: "AI文创IP从0到1实战指南"文章，或"设计师的AI质价比：什么时候该用AI，什么时候不该用"
-- Code: 棉花娃娃→表情包→白底图的一键工作流（串联多段提示词）
-- Capability: workflow — "文创IP全套AI设计管线：角色→棉花娃娃→表情包→白底图→场景图→详情页"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cross-References
 
-- [aigc设计师实操培训01口喷设计范式与电商ai设计全流程](aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md) — 方法论基础
-- [aigc设计基础01ai生图原理与提示词基本功](aigc设计基础01ai生图原理与提示词基本功.md) — 技术原理
-- [yt-panproduct-execution-design-principles](../concepts/yt-panproduct-execution-design-principles.md) — 泛产品设计原则
+- src_unknown
+- src_unknown
+- src_unknown

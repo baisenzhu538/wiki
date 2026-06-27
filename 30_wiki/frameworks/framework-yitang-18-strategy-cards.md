@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- 降龙十八掌
-- 18张策略卡
-- 调研策略
-- 调研方法
-- 调研技巧
-- 调研策略卡
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown卡
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yt-management-company-culture]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-research-weapon-supplement-2026]]"
-  - "[[framework-yitang-four-research-types]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-mindset]]"
-  - "[[tool-yitang-research-validate-assumption]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[tool-yitang-research-industry-scan]]"
-  - "[[tool-yitang-research-company-disassembly]]"
-  - "[[tool-key-assumptions-check]]"
-  - "[[tool-devils-advocacy]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 降龙十八掌：18张调研策略卡全景图
@@ -95,19 +95,19 @@ related:
 **核心**：在行动前，用调研验证关键假设，而不是边做边试。
 
 **触发条件**：
-- 有新的商业想法
-- 准备进入新市场
-- 准备推出新产品
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 列出所有关键假设（通常5-10个）
-- 对每个假设，设计验证方法
-- 至少验证3个最关键假设
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 关键假设有明确的验证结果（通过/失败/需验证）
-- 验证结果有数据支撑
-- 未验证的假设有明确的风险提示
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -116,19 +116,19 @@ related:
 **核心**：找到行业内做得最好的，学习其成功因素。
 
 **触发条件**：
-- 进入新行业，不知道怎么做
-- 现有方法效果不佳
-- 需要快速提升
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 定义"最佳"的标准（收入、效率、用户满意度等）
-- 找到3-5个最佳实践案例
-- 分析其成功因素和可复制性
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 最佳实践案例有具体数据支撑
-- 成功因素分析到位
-- 有明确的借鉴计划
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -137,19 +137,19 @@ related:
 **核心**：持续跟踪竞争对手的动态，及时响应。
 
 **触发条件**：
-- 有明确竞争对手
-- 行业竞争激烈
-- 需要快速响应市场变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 建立竞对跟踪清单（产品、价格、市场、组织）
-- 设定跟踪频率（日/周/月）
-- 建立预警机制
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 竞对重大动态24小时内知晓
-- 跟踪信息有记录和归档
-- 定期输出竞对分析报告
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -160,20 +160,20 @@ related:
 **核心**：快速了解行业全貌，识别机会和威胁。
 
 **触发条件**：
-- 进入新行业
-- 行业发生重大变化
-- 定期复盘（每季度）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 行业规模、增速、趋势
-- 产业链结构和利润分布
-- 政策环境和监管动态
-- 技术变革和创新趋势
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 行业图谱完整
-- 关键数据有来源
-- 趋势判断有依据
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -182,20 +182,20 @@ related:
 **核心**：深度拆解一个公司，理解其战略、组织、产品、财务。
 
 **触发条件**：
-- 对标学习
-- 竞争分析
-- 投资分析
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 战略：使命、愿景、目标、路径
-- 组织：架构、人才、文化
-- 产品：功能、体验、技术
-- 财务：收入、成本、利润、现金流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 拆解维度完整
-- 关键数据有来源
-- 有明确的洞察和启示
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -204,19 +204,19 @@ related:
 **核心**：找到业务的最小单元，分析其经济模型。
 
 **触发条件**：
-- 验证商业模式
-- 优化运营效率
-- 投资决策
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 定义最小单元（如单店、单用户、单订单）
-- 分析单元收入和成本
-- 计算单元利润和回报周期
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 单元定义清晰
-- 数据可验证
-- 模型可推广
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -227,19 +227,19 @@ related:
 **核心**：聚焦一个关键问题，深度验证。
 
 **触发条件**：
-- 有一个关键假设需要验证
-- 有一个核心问题需要回答
-- 资源有限，只能聚焦一点
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 明确单点问题
-- 设计验证方案
-- 穷尽手段验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 单点问题有明确答案
-- 验证过程可追溯
-- 结论有数据支撑
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -248,19 +248,19 @@ related:
 **核心**：用二维矩阵可视化竞争格局。
 
 **触发条件**：
-- 市场进入决策
-- 产品定位决策
-- 战略调整
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 选择两个关键维度（如价格vs价值）
-- 标注自己和竞品位置
-- 识别空白区和红海区
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 象限图清晰
-- 维度选择合理
-- 有明确的定位建议
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -269,19 +269,19 @@ related:
 **核心**：找到差异化的坐标，避免同质化竞争。
 
 **触发条件**：
-- 产品定位
-- 品牌定位
-- 市场定位
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 选择两个差异化维度
-- 找到空白坐标
-- 验证定位可行性
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 定位坐标独特
-- 有用户需求支撑
-- 可执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -290,19 +290,19 @@ related:
 **核心**：根据定位，寻找对标案例和学习对象。
 
 **触发条件**：
-- 已有明确方向
-- 需要学习最佳实践
-- 需要验证可行性
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 明确要找什么（功能、模式、体验）
-- 搜索国内外对标案例
-- 分析可借鉴之处
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 对标案例与定位匹配
-- 借鉴点具体可执行
-- 有明确的实施计划
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -313,19 +313,19 @@ related:
 **核心**：建立全局观，知道信息在哪里。
 
 **触发条件**：
-- 进入新领域
-- 信息获取困难
-- 团队信息分散
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 绘制信息地图（来源、类型、获取方式）
-- 建立信息获取体系
-- 定期更新地图
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 信息地图完整
-- 获取路径清晰
-- 团队可共享
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -334,19 +334,19 @@ related:
 **核心**：穷尽所有合法手段，拿到最高质量情报。
 
 **触发条件**：
-- 关键决策前
-- 信息质量要求高
-- 已有手段信息不足
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 列出所有可用手段
-- 评估手段的合规性和成本
-- 按优先级执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 手段穷尽清单完整
-- 合规性审查通过
-- 信息质量达到要求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -357,19 +357,19 @@ related:
 **核心**：区分事实和观点，用事实说话。
 
 **触发条件**：
-- 信息分析阶段
-- 决策前验证
-- 报告撰写
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 区分事实（可验证）和观点（主观判断）
-- 追溯数据来源
-- 标记可信度
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 事实与观点清晰区分
-- 数据来源可追溯
-- 无AI幻觉和未验证信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -378,19 +378,19 @@ related:
 **核心**：用数字说话，建立可验证的模型。
 
 **触发条件**：
-- 需要量化分析
-- 需要预测和估算
-- 需要说服他人
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 建立数学模型
-- 输入数据可验证
-- 输出结果可测试
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 模型逻辑清晰
-- 数据输入准确
-- 结果可验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -399,19 +399,19 @@ related:
 **核心**：多源印证，确保信息可信。
 
 **触发条件**：
-- 关键信息需要确认
-- 单一来源信息存疑
-- 决策重要性高
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 至少2个独立来源
-- 不同来源类型（如报告+专家+数据）
-- 时间线验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 多源信息一致
-- 矛盾点有解释
-- 结论可信度高
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -420,19 +420,19 @@ related:
 **核心**：找到根因，而不是表面现象。
 
 **触发条件**：
-- 问题反复出现
-- 需要根本性解决
-- 决策影响深远
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 用5Why法深挖
-- 建立因果链
-- 找到可干预的根因
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 根因找到
-- 因果链完整
-- 干预方案可执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -443,19 +443,19 @@ related:
 **核心**：整合所有信息，形成统一结论。
 
 **触发条件**：
-- 调研结束
-- 需要输出报告
-- 需要决策
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 整合所有信息
-- 形成统一结论
-- 明确行动建议
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 结论明确
-- 建议可执行
-- 风险有提示
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -464,19 +464,19 @@ related:
 **核心**：调研不是一次性的，需要持续跟踪。
 
 **触发条件**：
-- 长期项目
-- 动态环境
-- 关键假设需要验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行标准**：
-- 建立跟踪机制
-- 设定跟踪频率
-- 定期更新认知
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验收标准**：
-- 跟踪机制运行
-- 信息及时更新
-- 认知持续迭代
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -494,20 +494,20 @@ related:
 ### 按场景组合
 
 **场景1：市场进入决策**
-- 第1掌（验证假设）
-- 第4掌（行业扫描）
-- 第5掌（公司拆解）
-- 第8掌（竞争象限）
-- 第12掌（穷尽手段）
-- 第15掌（交叉验证）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **场景2：产品定位决策**
-- 第2掌（最佳实践）
-- 第7掌（单点狙击）
-- 第8掌（竞争象限）
-- 第9掌（二维定位）
-- 第10掌（按图索骥）
-- 第14掌（定量建模）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -557,25 +557,25 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-research-weapon-system]] — 调研超级武器库
-- [[framework-yitang-four-research-types]] — 四类调研模型
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[yt-research-mindset]] — 调研认知升级
-- [[tool-yitang-research-validate-assumption]] — 验证假设工具
-- [[tool-yitang-research-competitor-tracking]] — 竞对跟踪工具
-- [[tool-yitang-research-industry-scan]] — 行业扫描工具
-- [[tool-yitang-research-company-disassembly]] — 公司拆解工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：一堂-调研武器库培训-笔记
-- 交叉：business-research-skill 13武器体系
-- 注意：18掌命名来自一堂课程，具体掌法名称可能因版本不同略有调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

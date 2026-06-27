@@ -6,8 +6,8 @@ title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公�
 type: case
 status: enriched
 problem_domains:
-- 组织学习
-- 模型迭代
+- src_unknown
+- src_unknown
 industry: 在线教育
 scale: 公司
 source_person: Truman
@@ -16,21 +16,21 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
-- 问题描述清晰
-- 方案可理解
-- 可迁移点明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#content-format/case-study'
-- '#problem/org-learning'
+- src_unknown
+- src_unknown
 related_skills: []
 related_concepts:
-- '[[dk-modeling-course-rnd-ripe-fruit]]'
-- '[[yt-entrepreneur-lean-validation]]'
+- src_unknown
+- src_unknown
 related_cases:
-- '[[case-yitang-model-asset-inventory]]'
-- '[[case-yitang-model-valuation-flywheel]]'
-- '[[yt-lean-daily-chemical-mvp]]'
-- '[[yt-lean-flower-mom-group-leader]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -39,25 +39,25 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
-- 组织学习
-- 模型迭代
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队每周都在交付，但半年后回头看模型能力和上半年几乎一样
+- src_unknown
   framework_lens: 组织学习闭环
   follow_up_question: 过去10次交付中，有多少次明确改进了某个模型或SOP？
-- signal: 复盘会上大家热衷于讨论"谁没做好"，而不是"模型哪里要改"
+- src_unknown
   framework_lens: 复盘与模型迭代
   follow_up_question: 如果同样场景再来一次，团队现在会采用什么不同的模型或检查清单？
-- signal: 管理层要求提前半年排好详细课表/内容计划
+- src_unknown
   framework_lens: 研究型交付 vs 标准化交付
   follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
 related:
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[dk-modeling-sop-execution-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 
 ## 原始表述
@@ -106,16 +106,16 @@ related:
 
 ## 结果
 
-- 周对周的建模能力增长被定义为“公司真正的增长引擎”；
-- 每 **半年**课程与建模水平能往前跨一大步；
-- 团队形成了“交付-复盘-建模”的高速循环；
-- 用户也给予极高包容度，接受研究型课程无法提前排课表。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
-- 把“持续输出”固定成组织节律，用高频复盘倒逼模型进化；
-- 真正的壁垒不是单次交付，而是“交付-复盘-建模”的循环速度；
-- 用钱能买到的增长都不本质，模型能力的复利才是。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -154,12 +154,12 @@ related:
 
 在每次周五交付前后自检：
 
-- [ ] 本周是否有 1 个明确的待验证假设？
-- [ ] 是否为该假设设置了可量化的品控标准？
-- [ ] 交付后 24 小时内是否完成了复盘日志？
-- [ ] 复盘是否产出至少 1 个模型 / SOP / 检查清单改动点？
-- [ ] 改动点是否已写入组织资产库并做了版本记录？
-- [ ] 若临时取消或调整，是否向用户同步了品控原因？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 实操模板：周迭代建模日志
 
@@ -169,43 +169,43 @@ related:
 ## 第 __ 周建模迭代日志
 
 ### 1. 本周假设
-- 研究主题：__________
-- 待验证假设：__________
-- 若假设不成立，会推翻什么判断：__________
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 交付与反馈
-- 实际交付内容：__________
-- 用户/学员关键反馈（引用原话）：__________
-- 数据信号（完课率、互动率、课后评分）：__________
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 模型改动
-- 本次发现的原模型缺陷：__________
-- 改动后的模型/SOP/检查清单：__________
-- 版本号：__________
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 注入组织资产
-- 已写入资产库：是 / 否
-- 相关资产链接：__________
-- 是否触发范式归集（参考 [[case-yitang-model-asset-inventory]]）：是 / 否
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 下周待验证假设
-- 基于本周结论，下周最该验证的新假设：__________
+- src_unknown
 ```
 
 > **预警机制**：如果连续 3 周"模型改动"栏为空，说明交付已退化成表演，需强制暂停一周做深度复盘。
 
 ## 关键标签
 
-- 问题域：组织学习、模型迭代
-- 行业：在线教育
-- 方法：高频交付、复盘闭环
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 概念：[[dk-modeling-course-rnd-ripe-fruit]]、[[yt-entrepreneur-lean-validation]]
-- 技能：无
-- 案例：[[case-yitang-model-asset-inventory]]、[[case-yitang-model-valuation-flywheel]]、[[yt-lean-daily-chemical-mvp]]、[[yt-lean-flower-mom-group-leader]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_8269ccdb#3758-3768`
+- src_unknown

@@ -13,28 +13,28 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2000
 version: 1
 query_triggers:
-- 报告可信度
-- 信源评估
-- 报告质量
-- 数据判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - '[[tool-doris-industry-report-search-tips]]'
-  - '[[concept-yitang-research-facts-first]]'
-  - '[[dk-yitang-research-source-freshness]]'
-  - '[[tool-yitang-supply-chain-research]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - "[[framework-doris-industry-report-4step]]"
-  - "[[tool-doris-industry-report-search-tips]]"
-  - "[[concept-yitang-ai-research-10-assumptions]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 行业报告可信度评估：多信数据，少信观点
@@ -81,9 +81,9 @@ related:
 ### 2. 统计口径一致性
 
 不同来源的数据不可直接比较——因为统计口径可能完全不同：
-- "市场规模"包含了哪些细分？
-- "用户数"是注册用户还是活跃用户？
-- 统计时间段是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 时效性
 
@@ -97,10 +97,10 @@ related:
 
 ### 4. 利益相关性
 
-- 咨询公司发布的行业报告 → 可能有"为某客户造势"的立场
-- 投资机构发布的行业分析 → 可能高估赛道以吸引接盘
-- 企业自己发布的白皮书 → 一定把自己放在最有利的位置
-- 谁出钱做的研究？→ 利益相关方会影响结论
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 是否可以被交叉验证
 
@@ -121,7 +121,7 @@ related:
 
 ## 来源
 
-- 方法论来源：Doris行业报告调研课（基于顶级咨询公司经验），`Doris-行业报告调研-口述.txt` + 笔记
+- src_unknown
 
 ---
 

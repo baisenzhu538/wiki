@@ -6,10 +6,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- product
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.89
@@ -17,51 +17,51 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-question-scaffold-not-answer]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - yt-lean-false-model-ai
-  - yt-tob-barriers
-  - ai-short-drama-conflict-three-axes
-  - dk-modeling-ai-judgment-limit
-  - skill-note-one-line-one-point
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 bridges_to:
-- target: yt-lean-false-model-ai
+- src_unknown
   relation: applies_when
   description: 精益验证中把 AI 预测当成最终结论，跳过真实用户验证
-- target: ai-short-drama-conflict-three-axes
+- src_unknown
   relation: applies_when
   description: 短剧工具一次生成分镜/剧情后不再做情绪曲线校验
-- target: skill-note-one-line-one-point
+- src_unknown
   relation: contrasts_with
   description: 笔记格式化只是输入阶段，后续还需复用、对话与迭代
 diagnostic_signals:
-- signal: 团队拿到 AI/工具输出后直接进入“发布/执行”环节
+- src_unknown
   framework_lens: 分阶段校验视角：输出只是第一阶段，后续必须有验证闭环
   follow_up_question: 这个输出在哪些节点需要人工或真实数据二次确认？
-- signal: 失败后被归因于“工具不行”，而不是“使用方式错了”
+- src_unknown
   framework_lens: 杠杆与判断分离：工具放大杠杆，判断节点必须留在人手里
   follow_up_question: 哪些判断节点被我们错误地外包给了工具？
-- signal: 同一类错误在不同项目/域反复出现
+- src_unknown
   framework_lens: 跨域模式：把工具当一次性生成器的失效是跨域共通的
   follow_up_question: 这个失效模式在其它域是否也有对应案例？
 query_triggers:
-- AI 输出后怎么校验
-- 工具不是一次性生成器
-- 分阶段校验
-- 把模型当答案
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
 updated_at: '2026-06-18'
 tags:
-- '#perspective/critical'
-- '#method/validation-loop'
-- '#scene/ai-collaboration'
-- '#scene/product-design'
-- '#scene/modeling'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 ## 原始表述 / 核心洞察
 
@@ -69,11 +69,11 @@ tags:
 
 这句话在第二十三、二十四节的精修中反复出现：
 
-- **精益域**：`yt-lean-false-model-ai` —— 用 AI 预测关键假设，但没有回到真实用户场景验证。
-- **ToB 域**：`yt-tob-barriers` —— 忽视客户组织阻力，把销售工具给出的“赢单概率”当成结果。
-- **短剧域**：`ai-short-drama-conflict-three-axes` —— 一次生成冲突/剧情/结构后，不再校验情绪曲线和用户完播数据。
-- **建模域**：`dk-modeling-ai-judgment-limit` —— AI 可以放大信息处理杠杆，但判断节点必须留在人手里。
-- **笔记域**：`skill-note-one-line-one-point` —— 把笔记压缩成一行一点只是输入阶段，真正的价值来自后续复用与对话。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 跨域共同模式：**工具负责“生成可能”，人负责“阶段校验”**。
 
@@ -103,9 +103,9 @@ tags:
 
 ## 适用边界
 
-- **适合**：输出后果不可逆、需要多利益方共识、真实数据可获取的场景。
-- **不适合**：纯创意发散阶段（过度校验会扼杀可能性）、或数据完全缺失的极早期探索。
-- **注意**：分阶段校验会增加短期时间成本，适合高 stakes 决策，不适合所有琐事。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -119,19 +119,19 @@ tags:
 
 ## 与其他知识的关联
 
-- [[yt-lean-false-model-ai]]：精益域中 AI 误判关键假设的具体案例。
-- [[yt-tob-barriers]]：ToB 域中组织阻力被工具概率掩盖的案例。
-- [[ai-short-drama-conflict-three-axes]]：短剧域中冲突设计需要分阶段校验情绪曲线。
-- [[dk-modeling-ai-judgment-limit]]：建模域中判断节点必须留在人手里的边界。
-- [[tool-note-one-line-one-point]]：笔记域中格式化只是第一阶段，后续复用才是价值所在。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 **单卡收尾检查**：
-- [x] 用一句话讲清楚
-- [x] 核心要点已提炼
-- [x] 边界与失败模式已明确
-- [x] 跨域案例 ≥2 个域
-- [x] 相关卡/互链 ≥2 条有效内部链接
-- [x] source_refs 指向真实存在的 10_raw/sources/ 文件
-- [x] status = enriched，confidence ≤ 0.89，reviewed_by = 欧阳锋
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

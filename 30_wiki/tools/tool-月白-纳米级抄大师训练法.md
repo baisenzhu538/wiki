@@ -4,32 +4,32 @@ title: 技能：纳米级抄大师训练法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-Token效价比决策公式]]'
-- '[[tool-月白-RGB转CMYK印刷预检]]'
-- '[[tool-月白-口述作图法（口喷设计）]]'
-- '[[tool-月白-AI生成图小字控制法]]'
-- '[[tool-月白-普通人AI设计80分法则]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：纳米级抄大师训练法
 
@@ -48,28 +48,28 @@ related:
 
 ## 适用场景
 
-- 新手设计师基本功训练
-- 需要快速提升造型和版式能力
-- 建立中西共通的构图逻辑理解
-- 培养AI无法替代的人类审美判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 追求原创性的商业项目
-- 时间极短的紧急任务
-- 已具备扎实基本功后的创作阶段
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 大师作品图库
-- 绘图软件（PS/AI/手绘板）
-- 设计理论书籍
-- 实物打印输出设备
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

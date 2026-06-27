@@ -3,8 +3,8 @@ id: tool-Truman-低质量动作识别与拒绝
 title: 技能：低质量动作识别与拒绝
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI辅助思考伙伴养成]]'
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：低质量动作识别与拒绝
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 团队协作质量参差不齐时
-- 关键项目容错率低时
-- AI加速导致错误放大时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 创新探索期允许合理试错时
-- 团队处于学习成长阶段时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 绩效数据看板
-- 代码审查制度
-- 项目复盘机制
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

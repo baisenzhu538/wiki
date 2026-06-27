@@ -5,8 +5,8 @@ title: 案例：一堂转化率黑客课→Skill ——从拿到资料到测试�
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -15,18 +15,18 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[case-ban-fei-mao-skill-ab-test]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.9
@@ -49,9 +49,9 @@ trust_level: high
 半肥猫的判断：**这门课值得做，但不是做成“转化率万能提效”，而是做成“实验约束型转化率方案推演”。**
 
 判断依据：
-- 课程有科学底座：一堂的课不是“东拼西凑”的，有可验证的方法论
-- 有充足的案例库：课程中有大量实战案例
-- 有明确的边界：不是所有场景都适用，但有明确的适用范围
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 若这一关过不了，后面七步都不用做，不要浪费时间。
 
@@ -66,10 +66,10 @@ trust_level: high
 ### 决策 3：证据校准——不是“尊重老师”，是“批判性检视”
 
 半肥猫强调：**不能默认老师的所有观点都正确**。他做了以下动作：
-- 把课程的经验、外部证据、真实案例分开处理
-- 补充真实案例（包括失败案例），而不是只用课程里的成功案例
-- 补元权威资料（微软官方、斯坦福、华为、百度云、广汽集团等正规企业案例）
-- 对每个案例做可核验性检查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 结果
 
@@ -98,12 +98,12 @@ trust_level: high
 ## 失败模式/教训
 
 **什么时候不应该直接套用本案例**：
-- 课程本身没有科学方法论底座（随意发挥、东拼西凑）——先做课程质量审查，不要直接做 Skill。
-- 没有真实的使用场景——为了做 Skill 而做 Skill 是工具迷思。
 - src_unknown
-- 把“尊重老师”当成“不加验证”——Skill 的证据必须接受批判性检视，否则会把课程偏见固化成系统偏见。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[case-ban-fei-mao-skill-ab-test]]
+- src_unknown
+- src_unknown

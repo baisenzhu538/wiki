@@ -13,39 +13,39 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 调研执行
-- 高水平执行
-- 获取情报
-- 正确归因
-- 情报获取
-- 归因分析
-- 调研分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-oscar-research]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-validate-assumption]]'
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-four-research-types]]"
-  - "[[framework-yitang-research-radar]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-intelligence-map]]"
-  - "（tool-yitang-research-acquisition，待补）"
-  - "（tool-yitang-research-reasoning，待补）"
-  - "[[concept-yitang-research-facts-first]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[tool-yitang-research-quantitative-modeling]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 高水平执行 AR：获取情报·正确归因
@@ -73,19 +73,19 @@ related:
 ### 三原则：稳定体系·合法合规·穷尽手段
 
 **稳定体系（地图在手）**：
-- 建立全局观，知道信息在哪里
-- 设计稳定的信息获取体系，不是临时抱佛脚
-- 工具：RSS订阅、监控列表、专家网络、数据库账号
+- src_unknown
+- src_unknown
+- src_unknown
 
 **合法合规**：
-- 所有情报获取手段必须在法律允许范围内
-- 不购买非法数据、不入侵系统、不伪造身份（除非明确授权）
-- 底线之上，努力拉满
+- src_unknown
+- src_unknown
+- src_unknown
 
 **穷尽手段**：
-- 穷尽所有合法手段，拿到最高质量情报
-- 不是"看了几篇报告"就结束
-- 工具：公开信息→半公开信息→专家访谈→逆向工程→社会工程
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 获取情报的层次
 
@@ -99,11 +99,11 @@ related:
 
 ### 获取情报检查清单
 
-- [ ] 是否建立了稳定的信息获取体系？
-- [ ] 是否穷尽了所有合法手段？
-- [ ] 是否至少用了2个独立来源？
-- [ ] 是否记录了信息来源和可信度？
-- [ ] 是否遵守了法律法规？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -112,19 +112,19 @@ related:
 ### 三原则：默认低效·谨慎判断·多轮验证
 
 **默认低效（不迷信）**：
-- 默认所有信息都不可信，直到验证
-- 不迷信权威、不迷信数据、不迷信报告
-- 用"这个信息可能是错的"心态审视
+- src_unknown
+- src_unknown
+- src_unknown
 
 **谨慎判断**：
-- 专业观点谨慎相信，即使是专家也可能错
-- 区分"事实"和"观点"
-- 区分"数据"和"解读"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **多轮验证**：
-- 多人验证：不同人看同一信息，结论是否一致
-- 多源验证：不同来源的信息是否交叉印证
-- 多时验证：信息是否随时间变化，是否有新信息推翻旧结论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归因四步法
 
@@ -137,11 +137,11 @@ related:
 
 ### 归因检查清单
 
-- [ ] 是否区分了事实和观点？
-- [ ] 是否用数字支撑了关键判断？
-- [ ] 是否至少2个独立来源交叉验证？
-- [ ] 是否找到了根因，而不是表面现象？
-- [ ] 是否考虑了反例和反面证据？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,39 +149,39 @@ related:
 
 ```
 Step 1: 设计获取策略（A）
-   - 确定信息缺口
-   - 选择获取手段（公开→半公开→专家→逆向→社会工程）
-   - 建立信息源清单
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 2: 执行情报获取（A）
-   - 按清单执行
-   - 记录来源和可信度
-   - 标记需要验证的信息
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 3: 初步筛选（A→R过渡）
-   - 去重、去噪、去伪
-   - 标记高价值信息
+   - src_unknown
+   - src_unknown
    ↓
 Step 4: 事实核查（R）
-   - 区分事实和观点
-   - 追溯数据来源
+   - src_unknown
+   - src_unknown
    ↓
 Step 5: 定量建模（R）
-   - 建立数字模型
-   - 敏感性分析
+   - src_unknown
+   - src_unknown
    ↓
 Step 6: 交叉验证（R）
-   - 多源印证
-   - 时间线验证
+   - src_unknown
+   - src_unknown
    ↓
 Step 7: 深度归因（R）
-   - 找到根因
-   - 构建因果链
+   - src_unknown
+   - src_unknown
    ↓
 Step 8: 输出结论
-   - 明确结论（go/no-go/需验证）
-   - 标注置信度
-   - 列出风险点
+   - src_unknown
+   - src_unknown
+   - src_unknown
 ```
 
 ---
@@ -235,23 +235,23 @@ Step 8: 输出结论
 
 ## 关联卡片
 
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-four-research-types]] — 四类调研模型
-- [[framework-yitang-research-radar]] — 调研能力诊断
-- [[yt-research-osl-framework]] — OSCAR调研五步法
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[concept-yitang-research-facts-first]] — 事实优先原则
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：系统调研（高水平执行）VLM描述（0.95置信度）
-- 交叉：一堂-系统式调研-口述（Truman，2020）
-- 验证：business-research-skill OSCAR模型定义
-- 注意：AR是OSCAR的后两步，与完整五步法一致
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

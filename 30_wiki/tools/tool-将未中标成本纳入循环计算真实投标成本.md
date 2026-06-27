@@ -3,22 +3,22 @@ id: tool-将未中标成本纳入循环计算真实投标成本
 title: 技能：将未中标成本纳入循环计算真实投标成本
 type: tool
 domain:
-- entrepreneurship- management
-- decision-making
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
 source_refs:
 - src_20260609_99032bf9-ocr-一堂-单元模型-示例
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 项目成本台账
-- CRM商机管理系统
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:04:59+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-对标借鉴他人决策维度]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-费曼学习法三句话提炼]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：将未中标成本纳入循环计算真实投标成本
 
@@ -45,26 +45,26 @@ related:
 5. 用此成本替代单次中标成本做决策
 
 ## 适用场景
-- ✅ 项目制、招投标制业务
-- ✅ 中标率显著低于100%的行业
-- ✅ 需要评估销售/BD团队真实效率时
-- ❌ 中标率接近100%的简单销售流程
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 沉没的投标成本是获取中标项目的必要代价，剔除会导致低估真实获客成本、高估项目利润
 
 ## 工具/环境
-- 项目成本台账
-- CRM商机管理系统
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程（未具名讲师），src_20260609_99032bf9，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

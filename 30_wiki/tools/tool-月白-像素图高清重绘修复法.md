@@ -4,32 +4,32 @@ title: 技能：像素图高清重绘修复法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI平台算法咨询法]]'
-- '[[tool-月白-口喷式设计工作流]]'
-- '[[tool-月白-电商白底图生成与高清重绘]]'
-- '[[tool-月白-普通人AI设计80分法则]]'
-- '[[tool-月白-电商白底图生成与高清处理]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：像素图高清重绘修复法
 
@@ -47,25 +47,25 @@ related:
 
 ## 适用场景
 
-- AI生成图尺寸过小、DPI不足（印刷需150-300DPI）
-- 图片放大后模糊，像素点不足
-- 需要用于线下印刷的高清素材
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 图片清晰度足够，需要扩展画面边界（应使用扩图而非高清重绘）
-- 矢量图无限放大场景（直接用AI等矢量软件）
-- 图片变形、内容错误等非清晰度问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Liblib AI（4K高清版本）
-- 豆包（备选，可能有奇怪观感）
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -73,12 +73,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

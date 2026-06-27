@@ -4,43 +4,43 @@ title: 技能：用 AI 做结构化用户调研
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+- src_unknown
+- yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 调研记录工具
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
+- src_unknown
 related:
-- '[[dk-modeling-ai-judgment-limit]]'
-- '[[dk-modeling-ai-compound-leverage]]'
-- '[[master-ai-info-literacy]]'
-- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[dk-wanghuan-standard-by-iteration]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
-- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 让 AI 生成问题清单后直接当作完整调研方案执行
+- src_unknown
   lens: 替代执行
   follow_up: 明确 AI 只能辅助设计框架/整理笔记，访谈执行必须由人类完成
-- signal: AI 输出中混入未经验证的假设且未标注
+- src_unknown
   lens: 事实假设混淆
   follow_up: 要求 AI 将每个问题标注为"事实"或"假设"，并检查假设是否有数据支撑
-- signal: 调研目标、范围或用户群体描述模糊
+- src_unknown
   lens: 约束缺失
   follow_up: 在提示词中写明目标、范围、用户画像、业务场景后再让 AI 生成框架
 ---
@@ -52,11 +52,11 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **AI 做前半段，人类做后半段**。AI 在设计问题清单、生成调研大纲、整理访谈记录上效率高；但提问技巧、非语言信号觉察、情感连接必须由人类完成。
-- **结构化=有边界，不是随便问问**。调研开始前必须明确目标、约束范围、区分事实与假设，否则 AI 会生成看似完整但方向漂移的框架。
-- **事实与假设是调研质量的分水岭**。AI 生成的问题清单里可能混入未经验证的假设；若不加标注和审查，调研结果会把偏见包装成事实。
-- **输出质量取决于输入约束**。给 AI 的提示词越清晰（目标、用户、场景、时间、地域），AI 生成的框架越可用。
-- **访谈执行不可替代**。再强的 AI 也无法替代真实用户互动中获得的一手感性、现场反应和上下文信息。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -78,14 +78,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确调研目标：要解决什么问题、为谁调研、结果用于什么决策
-- [ ] 写明约束条件：时间、地域、用户群体、业务场景、样本量
-- [ ] 区分事实与假设：列出当前已知事实和待验证假设
-- [ ] 让 AI 生成问题清单/访谈大纲/调研方法，并要求标注"事实/假设"
-- [ ] 人工审查 AI 输出：删除偏离目标的问题、验证假设是否有数据支撑
-- [ ] 人类执行访谈，记录非语言信号和现场感受
-- [ ] 用 AI 辅助整理访谈笔记，但由人类提炼最终洞察
-- [ ] 生成报告前交叉验证：多源信息、反例、边缘信号
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -95,11 +95,11 @@ AI 在机械性任务上效率高于人类：生成问题清单、检查假设�
 
 ### 内部局限
 
-- **"区分事实和假设"本身就很困难**。半肥猫警告要区分事实和假设，但很多时候这两者的边界是模糊的。AI 生成的问题可能混杂了观察和推断，而人类检查者可能也无法准确区分
+- src_unknown
 
-- **AI 可能会“合理化”假设**。半肥猫警告 AI 会把假设包装成“看起来很合理”的问题。如果调研者自己都被 AI 的“合理化”所欺骗，那么整个调研就是在基于假设建立假设
+- src_unknown
 
-- **"结构化”可能抹杀了临时的洞察**。半肥猫的方法假设调研是一个线性流程，但很多有价值的洞察来自“越偏离越好”的探索。过早结构化可能让调研者只看到了“期望看到的东西”
+- src_unknown
 
 ### 外部攻击
 
@@ -107,11 +107,11 @@ AI 在机械性任务上效率高于人类：生成问题清单、检查假设�
 
 **Shoshana Zuboff**（*The Age of Surveillance Capitalism* 作者）从数据权力和隐私角度质疑：
 
-- **你可能在构建一个“监控式调研”体系**：Zuboff 的核心论点是，科技公司通过收集用户数据来提取“行为剩余”并转化为商业利润。你让 AI 协助设计调研框架、整理调研记录，实际上是在提高“数据收集效率”——更多数据、更快速度、更少成本。这对用户来说意味着更多的“被研究”
+- src_unknown
 
-- **调研者和被调研者的权力关系被隐藏了**：Zuboff 会指出，当 AI 参与调研设计时，调研者可能会无意识地增加调研的“侵入性”——因为 AI 让收集更多数据变得更容易、更“高效”
+- src_unknown
 
-- **"结构化”可能是一种控制话语**：当你说调研需要“结构化”时，你实际上是在定义“什么是有效的用户反馈”。不符合结构的反馈可能被排除，即使它可能是最有价值的
+- src_unknown
 
 > **Zuboff 的拷问**："你说 AI 能帮助做结构化调研。但你想过吗——每次调研效率提升 10%，意味着你能做更多次调研、收集更多数据。这不是“更好的用户理解”，这是“更多的数据提取”。你在用 AI 构建一个更高效的监控机器，而用户在这个过程中的权力正在被削弱。"
 
@@ -119,24 +119,24 @@ AI 在机械性任务上效率高于人类：生成问题清单、检查假设�
 
 **Nassim Taleb**（*The Black Swan* 作者）从认知论和黑天鹅角度质疑：
 
-- **调研本质上是在追求"过去的规律“**：Taleb 的核心论点是，过去不是未来的可靠指南。调研是在收集"过去的用户行为“，然后用它来预测未来。但真正改变游戏规则的“黑天鹅”——那些极端但难以预测的事件——从来不会出现在调研结果中
+- src_unknown
 
-- **AI 可能在增强“叙事谬误”**：当 AI 帮忙整理调研笔记、提取洞察时，它可能会构建一个"看起来完整但实际上虚假”的故事。这个故事越“结构化”、越“有逻辑”，它的危险越大——因为人们更容易盲目相信它
+- src_unknown
 
-- **调研结果可能成为自我实现的预言**：Taleb 会问：你的调研是在“发现用户需求”，还是在“验证你已有的假设”？AI 协助的调研可能会无意识地偏向于后者——因为 AI 会构建一个“让你的假设看起来很合理”的框架
+- src_unknown
 
 > **Taleb 的拷问**："你说调研要“区分事实和假设”。但你知道吗？真正重要的事实——那些能改变游戏规则的事实——从不出现在用户访谈中。用户自己都不知道自己会怎么做。你在用 AI 来构建一个“用户行为的叙事”，然后用这个叙事来指导产品决策。这就是叙事谬误的定义。"
 
 ## 相关卡/互链
 
-- [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]] — 调研结果需要追问证据和信源
-- [[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]] — 用户调研的证据需要权威信源支撑
-- [[dk-ban-fei-mao-silky-answer-warning]] — AI 生成的调研框架越“丝滑”越需要警惕
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 半肥猫，AI 俱学乐部 AI 学习落地分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

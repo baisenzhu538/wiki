@@ -3,8 +3,8 @@ id: tool-Truman-双三角模型应用
 title: 技能：双三角模型应用
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-开源模型与商业模型融合方案]]'
-- '[[tool-Truman-Feature特性层训练法]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：双三角模型应用
 
@@ -37,26 +37,26 @@ related:
 
 ## 适用场景
 
-- AI落地遇到瓶颈或迷茫
-- 不确定人机协作边界
-- 需要判断任务自动化程度
-- 解决一半以上的AI应用问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 完全没有业务认知和场景理解
-- 未经过AIGC上手第一课和AI场景第一课学习
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 双三角模型
-- STAR模型
-- 人在环（Human-in-the-loop）概念
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

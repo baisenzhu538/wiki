@@ -15,9 +15,9 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-demand-iceberg-l4-job-map]]"
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # L3圈定核心任务
@@ -47,9 +47,9 @@ related:
 prompt = """基于已确认的用户和场景，草拟3个不同视角的"核心任务陈述"。
 
 要求：
-- 格式：动词 + 对象 + 语境
-- 方案中立——不能出现任何产品/技术名词
-- 如果我选"用App点外卖"这类方案绑定的描述，提醒我重新用方案中立的语言
+- src_unknown
+- src_unknown
+- src_unknown
 
 示例（差→好）：
   差："用外卖App点餐"
@@ -66,8 +66,8 @@ prompt = """基于已确认的用户和场景，草拟3个不同视角的"核心
 
 ## 适用边界
 
-- **适用**：L2完成后，需要定义"用户究竟要什么"
-- **不适用**：需求已经非常明确（如"修复已知Bug"）
+- src_unknown
+- src_unknown
 
 ---
 

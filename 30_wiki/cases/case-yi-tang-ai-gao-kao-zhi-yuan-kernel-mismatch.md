@@ -5,11 +5,11 @@ title: '案例：AI高考志愿填报产品因内核错位而失敗'
 type: case
 status: enriched
 domain:
-- yitang
-- product
-- ai
-- education
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 industry: 教育科技 / AI 工具
 scale: 团队/公司
 source_person: 一堂·Truman
@@ -25,46 +25,46 @@ review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-product-kernel-canvas]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[case-shampoo-product-kernel]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[tool-一堂-product-kernel-canvas]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[yt-tool-product-core-canvas]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[case-shampoo-product-kernel]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 原始表述、问题、方案、可迁移、Feedback Path 均已填写
-- 内核错位点和纠正过程已记录
-- 可迁移条件和不可复制场景已明确
-- 实际应用后收集反馈并更新案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 tags:
-- '#case'
-- '#method/product-kernel'
-- '#industry/education'
-- '#problem/feature-first-fallacy'
-- '#source/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队用"智能问答/算法推荐"作为核心卖点，但用户决策时首先问"错了谁负责"
+- src_unknown
   lens: 产品内核从用户触点滑向产品触点
   follow_up: 列出用户选择该品类时的3个决定性要素，再检查现有卖点是否排在前列
-- signal: 高风险决策场景中，产品只强调"更智能"，没有给出责任承诺或保底方案
+- src_unknown
   lens: 风险不对称设计
   follow_up: 如果推荐导致滑档/退档，产品能否给出可执行的补救方案和责任边界？
-- signal: 用户不知道如何向 AI 提问，或提问后无法判断答案可靠性
+- src_unknown
   lens: 信息不对称 + 信任缺口
   follow_up: 能否用第三方数据溯源、专家背书或人工复核把"不可验证"变成"可验证"？
 ---
@@ -79,9 +79,9 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 
 ## 背景
 
-- **场景**：高考志愿填报。家长/学生在极短时间内做高风险决策，错误成本极高——一旦滑档、退档，直接影响升学路径。
-- **团队选择**：AI 创业者找到一个刚性、个性化、信息密集的场景，决定用 AIGC 做智能问答与算法推荐（`src_20260619_e67b2222#634-654`）。
-- **一堂定位**：本案例被用作产品内核实操课的反面教材，核心教训是"产品内核不是你认为什么功能最重要，而是用户选择你的那个逻辑"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键事件/决策点
 
@@ -99,9 +99,9 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 
 ## 结果
 
-- **原方案结果**：产品难以建立家长信任，用户不敢把孩子的志愿决策交给 AI，市场接受度低。
-- **纠正方向**：从"最聪明的 AI 志愿助手"重新定义为"让家长放心的志愿填报保障"。
-- **结果性质**：本案例为教学/诊断案例，具体商业数据未披露；核心结果是识别并修正了产品内核错位。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 复盘与洞察
 
@@ -120,9 +120,9 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 
 **不可复制场景**：
 
-- **低风险、高频次工具型产品**（如内容生成工具）：用户对信任和防滑档需求低，"智能"本身可能就是内核。
-- **已有强品牌背书的企业**：信任问题已被品牌解决，可以更自由地强调功能创新。
-- **复杂 B2B 采购**：决策机制涉及 ROI、安全性、合规性，内核不单纯是用户信任。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式/教训
 
@@ -134,18 +134,18 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 
 ## 相关卡/互链
 
-- **[[concept-一堂-hypothesis-driven-business-methodology]]** — 假设驱动：先验证"用户选择逻辑"再定内核。
-- **[[tool-一堂-product-kernel-canvas]]** — 产品内核画布：把"用户为什么选你"显性化。
-- **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 愿望思维警示：不要从技术优势出发假设市场需要。
-- **[[yt-tool-product-core-canvas]]** — 工具：用画布定位内核与边界。
-- **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]** — 对照：先验证用户真需求再规模化，避免愿望驱动。
-- **[[case-shampoo-product-kernel]]** — 对照：消费品中"卖点一致性"与"用户选择逻辑"同样关键。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 一堂·Truman，产品内核实操课：
-  - 10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md`
-  - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt`（#634-718）
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Feedback Path
 
@@ -157,4 +157,4 @@ AI 高考志愿填报团队把"智能问答 + 算法推荐"当成产品内核，
 4. 用户真正愿意为之付费的是信任保障、风险控制，还是智能交互？
 5. 我是否能用第三方证据或承诺增强信任？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch`。
+- src_unknown

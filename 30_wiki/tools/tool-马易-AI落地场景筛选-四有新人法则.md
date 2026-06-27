@@ -3,8 +3,8 @@ id: tool-马易-AI落地场景筛选-四有新人法则
 title: 技能：AI落地场景筛选-四有新人法则
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-低置信度样本黄金漏斗处理]]'
-- '[[tool-马易-公寓获客自跑通原则]]'
-- '[[tool-马易-数字员工FD拆解落地]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-马易-减少输入噪音法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI落地场景筛选-四有新人法则
 
@@ -38,26 +38,26 @@ AI落地场景筛选-四有新人法则是马易在AI落地场景识别中提出
 
 ## 适用场景
 
-- 已拆解出多个候选场景需要优先级排序
-- 需要快速排除不适合AI化的业务环节
-- 向管理层汇报场景可行性时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 场景涉及生命安全且无法人工复核
-- 业务完全无数据积累且无信息化基础
-- 团队对业务好坏标准无共识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 场景评估矩阵
-- 数据资产盘点表
-- 一堂AI双三角模型
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -65,12 +65,12 @@ AI落地场景筛选-四有新人法则是马易在AI落地场景识别中提出
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

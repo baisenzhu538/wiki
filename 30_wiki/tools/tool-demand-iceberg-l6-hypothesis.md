@@ -16,14 +16,14 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - '[[framework-demand-lean-bridge]]'
-  - '[[framework-demand-iceberg]]'
-  - '[[tool-prompt-jtbd-scenario-coach]]'
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-demand-iceberg-l5-forces]]"
-  - "[[tool-demand-assessment-triangle]]"
-  - "[[framework-demand-lean-bridge]]"
-  - "[[framework-lean-false-model]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # L6需求假设
@@ -54,10 +54,10 @@ related:
 ```python
 # 引自 AI场景推演教练 Step 5
 prompt = """基于L4和L5的洞察，生成3-5张机会卡片。每张含：
-- 机会名称（切入点+核心价值）
-- 逻辑来源（基于哪个洞察）
-- 建议产品形态（MVP）
-- 最危险假设×3（RAT——如果哪个假设错了整个机会就没戏）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最后用「评估三角形」（普遍性×频次×刚性）给每张机会打分。
 """
@@ -72,8 +72,8 @@ prompt = """基于L4和L5的洞察，生成3-5张机会卡片。每张含：
 
 ## 适用边界
 
-- **适用**：L1-L5完整走完后，需要做Go/No-Go决策
-- **不适用**：需求已经被大量用户数据验证的场景
+- src_unknown
+- src_unknown
 
 ---
 

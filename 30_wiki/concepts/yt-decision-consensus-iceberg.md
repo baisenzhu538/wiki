@@ -1,29 +1,29 @@
 ---
 id: yt-decision-consensus-iceberg
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: advanced
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
-- yt-decision-width-method
-- yt-decision-depth-ladder
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 团队共识
-- 决策说服
-- 教练式提问
-- 信息层对齐
-- 行动共识
-- 虚假共识
-- 群体决策
-- 团队分歧
-- 决策执行
-- 事后诸葛亮
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -33,14 +33,14 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-高水平共识曲线（重要）.png
+- src_unknown
   dimensions:
-  - 色彩语义: 左半红橙暖色（爬山/决策推进）→右半蓝紫冷色（冰山/说服挖掘）；红色弧线=共识深度的温度曲线
-  - 空间结构: 双隐喻结构——左爬山（自下而上推进）+右冰山（自上而下挖掘）；海平面线=可见/隐藏分界
-  - 信息层级: L1 行动共识（水面之上）→L2 判断共识→L3 逻辑共识→L4 信息共识（冰山底部）
-  - 负形利用: 海平面下90%体积=隐藏的认知深度；水面线=日常讨论的可见边界
-  - 视觉隐喻: 爬山=决策是"推出来"的（信息→逻辑→判断→行动）；冰山=说服是"挖出来"的（行动→判断→逻辑→信息）；海平面=10%可见/90%隐藏
-  - 关键洞察: Step1-4与Level4-1的反向对应——决策从下往上推，说服从上往下挖
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-consensus-iceberg
   course_type: tool
@@ -48,34 +48,34 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队开完共识会，所有人点头同意，但执行时各自走样
+- src_unknown
   framework_lens: 虚假共识——表层行动一致，深层信息/逻辑并未对齐
   follow_up_question: 会上大家同意的'做不做'背后，各自理解的'为什么做'是否一致？让每个人写一句自己的理由，看看是否一样
-- signal: 老板说'我先不说答案，我们从头推'，但推出来的答案和老板预设一模一样
+- src_unknown
   framework_lens: 教练式提问的隐性操控——信息选择和问题顺序可以引导团队'自然'得出预设结论
   follow_up_question: 老板提供的信息里，有没有被隐藏的关键反例？如果团队知道那个反例，推导结果会不会变？
-- signal: 共识会开了2小时，但会后没有任何人改变原来的观点或立场
+- src_unknown
   framework_lens: 共识过程没有产生新信息——信息层没有补充事实或反例，只是重复已知立场
   follow_up_question: 会议中产出了几条'会前没人提过'的新事实、数据或反例？如果为0，说明挖冰没有挖出新信息
-- signal: 会议纪要写满'一致认为''充分认同'，但私下询问时至少两人对决策的理解不同
+- src_unknown
   framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
   follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
 related:
-- '[[yt-decision-review]]'
-- '[[dk-strategy-07-strategy-vs-dividend]]'
-- '[[yt-note-five-levels-training]]'
-- '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-review]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-habit-shift]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 ---# 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
 
@@ -103,25 +103,25 @@ author: 老顽童
 
 **决策是爬山（从左到右推导）**：
 
-- **L4 信息层**：收集背景信息、已知信息、关键数据/口径/benchmark
+- src_unknown
 
-- **L3 逻辑层**：确定评估维度（成本/收益/风险）、对齐权重、对齐成功/失败标准
+- src_unknown
 
-- **L2 判断层**：综合评估后的成本/收益/风险，从多个平替方案中选出最佳
+- src_unknown
 
-- **L1 行动层**：明确做不做、核心目标/价值、负责人/资源/里程碑
+- src_unknown
 
 
 
 **说服是冰山（从上到下挖掘）**：
 
-- 先对齐L1行动层——明确做不做、目标是什么
+- src_unknown
 
-- 再深挖L2判断层——为什么是这几个方案中的最优
+- src_unknown
 
-- 再深挖L3逻辑层——用了哪些维度、权重怎么定的
+- src_unknown
 
-- 最后到达L4信息层——基于什么事实和数据得出上述逻辑
+- src_unknown
 
 
 
@@ -168,11 +168,11 @@ author: 老顽童
 
 **关键原则**：
 
-- 即使团队推导出的答案与领导者预设的80%一致，这80%也是"我们的共识"
+- src_unknown
 
-- 剩余20%可能是团队发现了领导者没看到的盲区——这正是共识的价值
+- src_unknown
 
-- 如果团队推导出的答案完全不同，要么领导者的信息有误，要么领导者的逻辑有误——修正它
+- src_unknown
 
 
 
@@ -180,11 +180,11 @@ author: 老顽童
 
 
 
-- **反对事后诸葛亮**：决策时拉你参与你不说话，做完后说"当时我就不看好"——这种行为在一堂会被明确批评
+- src_unknown
 
-- **鼓励大声说话**：哪怕是实习生，对公司顶层决策有不理解，欢迎直接找老板挑战
+- src_unknown
 
-- **集体承担后果**：共识一旦形成，一起做、一起成、一起败——没有"我早就知道会这样"的退路
+- src_unknown
 
 
 
@@ -196,11 +196,11 @@ author: 老顽童
 
 
 
-- **"教练式"伪装下的隐性操控**：领导者在提问时可以刻意选择信息、设计问题顺序、控制讨论节奏，最终让团队"自然地"得出领导者想要的结论。这比直接下命令更隐蔽——团队成员甚至意识不到自己被引导了，还会因为"这是我自己推导的"而更加固执。
+- src_unknown
 
-- **共识深度的"无底洞"问题**：理论上L4信息层可以无限深挖——"这个数据从哪来的？""这个来源可靠吗？""有没有反例？"逐层追问可以让任何决策陷入无限延迟。工具没有提供"什么时候停止深挖"的终止条件。
+- src_unknown
 
-- **对"快速试错"文化的系统性不兼容**：互联网产品常用的"快速上线→数据验证→快速迭代"模式，与共识冰山要求的"先充分共识再行动"存在根本张力。很多正确决策恰恰是"没想清楚就先干了"干出来的。
+- src_unknown
 
 
 
@@ -238,11 +238,11 @@ Janis让使用共识冰山的人睡不着觉的问题是：你过去一年里那
 
 在这个模型中：
 
-- **决策不是推导出来的，而是"碰上的"**：一个解决方案（比如"我们做学界分层吧"）可能在组织里游荡了很久，直到偶然遇到一个合适的"问题"和"选择时机"，才被贴上决策的标签。
+- src_unknown
 
-- **参与者的注意力是稀缺资源**：人们不是围绕决策理性分析，而是根据自己的注意力 schedule 随机加入或退出讨论。共识冰山假设团队会完整走完L4→L1，但March观察到真实会议是"七嘴八舌、话题跳跃、有人中途接电话、有人全程沉默"。
+- src_unknown
 
-- **结果往往与过程脱钩**：很多决策的"共识"只是事后叙事——先有了行动（老板已经决定做了），再召集会议"走一遍共识流程"，让团队"推导"出一个早已确定的结论。
+- src_unknown
 
 
 

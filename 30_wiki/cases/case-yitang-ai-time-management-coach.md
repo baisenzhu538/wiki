@@ -15,13 +15,13 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-doris-catering-chain-benchmark]]'
-  - '[[case-yitang-doorstep-nail-service-context]]'
-  - '[[case-yitang-homestay-reception-design]]'
-  - '[[case-yitang-beauty-device-overseas-sales]]'
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[dk-yitang-ai-research-prompt-craft]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：AI辅助调研——产品验证

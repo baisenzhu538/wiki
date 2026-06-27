@@ -11,18 +11,18 @@ trust_level: medium
 language: zh-CN
 domain: [yitang, decision-science]
 source_refs:
-- 00_inbox/_vlm_reprocess/其他/相关VLM描述
+- src_unknown
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-思考深度分级]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[concept-发现决策]]"
-  - "[[concept-思考深度分级]]"
-  - "[[framework-高水平共识曲线]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 问题边界与Problem澄清五层结构

@@ -10,25 +10,25 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- reading_methodology
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 related:
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[framework-ai-deconstruction-methodology]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[tool-wanghuan-ai-business-profile]]"
-  - "[[concept-candy-ai-as-collaborator]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 三层拆书批判法
@@ -72,15 +72,15 @@ related:
 
 在翻书之前，花 30 分钟查作者的利益结构：他投了什么公司？靠什么赚钱？声誉建立在什么立场上？如果他说的是对的，对他有什么好处？如果是错的，他付什么代价？
 
-- 目的不是“揪小辫子”，而是建立一个**校准装置**[conf=0.70, source=王欢原创]。
-- 输出：一段 100 字以内的“作者位置说明”。
+- src_unknown
+- src_unknown
 
 ### 第二步：找魂
 
 读完全书后回答：如果把全部内容浓缩成一个可以反复使用的思维动作，它是什么？
 
-- 《AI 2041》的魂不是“十个科幻故事”，而是“选择点探测器”[conf=0.70, source=王欢原创]。
-- 输出：一句“这本书的魂是______”。
+- src_unknown
+- src_unknown
 
 ### 第三步：挑故事
 
@@ -95,20 +95,20 @@ related:
 
 用两种方法跳出书的世界观：
 
-- **交叉阅读**：找 2-3 本立场相反或互补的书，把核心论点对撞。王欢用 Crawford《Atlas of AI》与 Mollick《Co-Intelligence》跟李开复对撞，撞出了“中立的暴政”等盲区[conf=0.70, source=王欢原创]。
-- **时间验证**：如果书已出版几年，去查它的预测兑现了多少，哪些准了、哪些没准，暴露了什么假设[conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
 
 ### 第五步：生长
 
 在审计发现的盲区上问自己：这个盲区意味着什么？如果我替作者想通了他没想通的东西，那是什么？
 
-- 输出：至少一个“书中没有、但 reader 需要”的原创认知。
+- src_unknown
 
 ### 第六步：落地
 
 给出至少一个读者今天就能做的具体动作，把认知从“脑子里”搬到“手上”。
 
-- 动作要小（5-15 分钟），要可验证，要可记录。
+- src_unknown
 
 ---
 
@@ -118,11 +118,11 @@ related:
 
 拆完后逐条检查，任一答案为“否”即视为未完成：
 
-- [ ] 我是否找到了这本书不随时间过期的“魂”？
-- [ ] 我是否查了作者的椅子，并在输出中诚实标注了他的利益立场？
-- [ ] 我是否指出了至少一个作者看不见的盲区，并能解释他为什么看不见？
-- [ ] 我是否在盲区之上生长出至少一个自己原创的认知？
-- [ ] 我是否给出了至少一个读者今天就能做的具体行动？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一页纸输出模板
 
@@ -142,17 +142,17 @@ related:
 |------|------|------|----------|----------|
 
 ## 做审计
-- 交叉阅读对撞：
-- 时间验证结果：
+- src_unknown
+- src_unknown
 
 ## 生长认知
-- 盲区：
-- 我的原创判断：
+- src_unknown
+- src_unknown
 
 ## 落地动作
-- 动作：
-- 验证标准：
-- 完成时间：
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -185,15 +185,15 @@ related:
 
 ### 正例：用三层法拆《AI 2041》
 
-- **还原**：十个科幻故事背后的“魂”是“选择点探测器”——把技术概率落实到具体的人与选择上[conf=0.70, source=王欢原创]。
-- **审计**：用 Crawford 的资源/劳动/数据批判与 Mollick 的人机协作视角对撞，发现李开复的“技术中立”假设存在盲区，即“中立的暴政”[conf=0.70, source=王欢原创]。
-- **生长**：提出“社会进步不是自动的”“最稀缺的是自我”等书中未明言但读者需思考的判断[conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：常见的“读书笔记式拆书”
 
-- 把全书十章各写一段 summary，结尾加一句“很有启发”。
-- 结果：没有“魂”、没有查椅子、没有交叉阅读、没有原创认知、没有落地动作。
-- 问题：这种输出 AI 可以更快更全地完成，无法产生读者的不可替代价值。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -212,13 +212,13 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选一个下周还要再读或要讲的书，而不是一次性的浏览。
-- [ ] 用 30 分钟完成“查椅子”，写出作者位置说明。
-- [ ] 用一句话写出这本书的“魂”。
-- [ ] 选 3 个案例，按“表面 / 底下 / 现实验证 / 书里没说”四层拆解。
-- [ ] 找 1-2 本立场相反的书做交叉阅读，记录对撞出的盲区。
-- [ ] 在盲区之上生长出 1 个原创认知 + 1 个今晚可做的动作。
-- [ ] 用“拆书完成度自检清单”验收，任一“否”则回退补完。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

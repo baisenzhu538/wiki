@@ -4,35 +4,35 @@
 
 id: yt-model-pan-product-36-strategies
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 36计
-- 泛产品设计工具箱
-- 36张卡牌
-- 产品设计工具全集
-- 泛产品设计工具体系
-- 36计怎么用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown怎么用
 related:
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-model-ipo-learning-strategy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -42,13 +42,13 @@ title: 泛产品设计36计·全套官方工具箱
 type: framework
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户学了36计但做设计时还是用老方法
+- src_unknown
   framework_lens: 工具没有内化
   follow_up_question: 你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏
-- signal: 用户试图每张卡都用上
+- src_unknown
   framework_lens: 过度使用
   follow_up_question: 这个设计问题真的需要用到那么多工具吗？工具服务于问题
 updated_at: '2026-06-16'
@@ -80,39 +80,39 @@ trust_level: medium-high
 
 ### 定义与架构
 
-- claim:01 [conf=0.95][src: 36计全套地图] 泛产品设计36计 = 3组卡牌 × 3级应用场景，覆盖从小产品设计到泛产品创新的完整能力谱系。三组卡牌分别回答三个核心问题：为谁做（需求13张）、做成什么样（审美4张）、怎么磨出来（落地19张）
-- claim:02 [conf=0.90][src: 36计全套地图] 三级场景：A级小产品设计（短平快/单人或小团队/轻资源）、B级泛产品设计（复杂度高/多角色协作/重决策）、C级泛产品创新（创新开放/无对标/高风险）
-- claim:03 [conf=0.85][src: 36计全套地图] 工具箱逐级叠加：B级包含A级全部卡牌+B级专属，C级包含A+B全部+C级专属。修能力从A到C（从简到繁），拆任务从C到A（从全景到细节）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三大工具箱关系
 
-- claim:04 [conf=0.90][src: 36计全套地图] 需求工具箱（13张）= Input层——理解用户。涵盖用户视角、用户分层、场景推演、问题洞察、需求评估（初阶）→ 项目背景、多视角、动力阻力、惊喜公式、峰终定律（进阶）→ 产品内核、单元模型、业务公式（高阶）
-- claim:05 [conf=0.90][src: 36计全套地图] 审美工具箱（4张）= Process层——建立标准。4步升级链：最佳实践收集（黑盒感觉）→ 最佳实践池子（黑盒判断）→ 最佳实践建模（白盒要素）→ 美好作品想象（超越创新）
-- claim:06 [conf=0.90][src: 36计全套地图] 落地工具箱（19张）= Output层——做出作品。三层打磨：磨设计7张（小产品/独立交付）→ 磨方案7张（复杂协作/项目管理）→ 磨创新5张（高风险/假设验证）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用策略
 
-- claim:07 [conf=0.85][src: 36计全套地图] 带★卡牌先出：每个场景都有一张建议最先使用的卡牌——需求工具箱的"用户视角"和"项目背景分析"分别标记为小产品和复杂产品的首卡
-- claim:08 [conf=0.80][src: 36计全套地图] 卡牌叠加使用：单张卡牌能解决约60%的问题，多张叠加到约90%。不应期望一张卡牌解决全部
-- claim:09 [conf=0.85][src: 探索营口述版] 36计的核心价值不是"36种独立工具"，而是通过三组卡牌的交叉使用，在不同场景级别中形成"组合拳"——需求卡牌定义方向，审美卡牌建立标准，落地卡牌驱动迭代
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
-- claim:10 [conf=0.85][src: 36计全套地图] 36计是一堂在「形成竞争力」路径下的核心方法论交付——把产品设计从岗位技能（PM专属）扩展为通用能力（人人都需要设计作品）
-- claim:11 [conf=0.80][src: 36计全套地图] 36计可以理解为IPO模型在产品设计领域的领域专属实例化：Input = 需求卡牌，Process = 审美卡牌，Output = 落地卡牌，Feedback = 复盘迭代卡牌
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 父节点（泛产品设计方法论总纲）
-- [[yt-model-pan-product-three-virtues]] — 三大修养（36计的价值观基座）
-- [[yt-model-pan-product-climbing-map]] — 十年爬山地图（36计的成长路径导航）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱（36计第一组）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（36计第二组）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（36计第三组）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键原图
-- !
+- src_unknown
 
 ## Critique
 

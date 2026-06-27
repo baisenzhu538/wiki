@@ -5,9 +5,9 @@ title: AI落地三大壁垒：从"会用"到"用好"的黑洞
 type: dk
 status: draft
 domain:
-- ai-saas
+- src_unknown
 source_refs:
-- 00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md
+- src_unknown
 created_at: '2026-06-09'
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[tool-纪浩-处理AI生成代码运行异常]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[dk-jh-llm-time-blindness]]'
-  - '[[dk-ai-judgment-human-responsibility]]'
-  - '[[dk-ai-judgment-programmer-paradox]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# AI落地三大壁垒
 
 > 马易在AI共创社分享中提出：AI工具从“会用”到“用好”之间存在三大壁垒，大多数人卡在第一层。
@@ -40,9 +40,9 @@ related:
 
 ### Constraints
 
-- 主要适用于知识工作者，不适用于重复性劳动密集型岗位
-- 需要有足够的实践场景才能突破
-- 各层壁垒之间可能存在跳跃，不一定是线性进阶
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击一：技术乐观派
 
@@ -56,5 +56,5 @@ related:
 
 ## Synthesis
 
-- [[tool-马易-风口痛点识别法]] —— 第一层壁垒的突破方法：先找到高价值场景。
-- [[tool-纪浩-里程碑验证法]] —— 第三层壁垒的突破方法：建立可持续的验证机制。
+- src_unknown
+- src_unknown

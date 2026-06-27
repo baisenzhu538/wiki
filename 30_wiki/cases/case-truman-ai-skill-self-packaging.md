@@ -9,41 +9,41 @@ source_refs:
 status: enriched
 confidence: 0.7
 domain:
-- yitang
-- ai-collaboration
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 trust_level: medium
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[tool-iterative-recursive-deep-dig]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[tool-封装可复用skill]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#domain/skill-engineering'
-- '#content-format/case-study'
-- '#self-improvement'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 每次做AI项目都要重新调prompt，做完就丢了
+- src_unknown
   framework_lens: AI自复盘——让AI总结这次经验变下次基础
   follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？
-- signal: 我的AI技能库都是人手工整理的，效率很低
+- src_unknown
   framework_lens: 让AI跨工具扫描+合并同类项+封装
   follow_up_question: 你用过哪些AI工具？它们的对话/反馈记录是明文存储的吗？如果是，可以直接让另一个AI去读。
-- signal: 同一个任务反复做，AI输出质量时好时坏、风格来回横跳
+- src_unknown
   framework_lens: 缺少可复用的审美底盘和硬性坑清单
   follow_up_question: 你是否有一个"做过就忘不掉"的skill文件，能在每次同类任务开始时自动加载审美标准和禁止项？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
@@ -85,9 +85,9 @@ Truman 在一堂高阶建模课上分享了一个插画/PPT 协作案例：他�
 
 AI 扫描完所有纠偏记录后，自动：
 
-- **分类**：颜色问题归一类，流程问题归一类，缺失元素归一类
-- **拆维度**：审美底盘 / 协作流程 / 评审表 / 硬性坑
-- **控工作流**：先发散再收敛，每轮只搞一个主问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "告诉我把我的建议合并同类项给我做一个拆分例子。"
 
@@ -173,64 +173,64 @@ AI 扫描完所有纠偏记录后，自动：
 
 ### 触发条件
 
-- [ ] 任务已完成一次"漂亮交付"
-- [ ] 同类任务未来 30 天内还会再做
-- [ ] 纠偏记录 ≥5 条
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 执行步骤
 
 1. **圈定扫描范围**
-   - 工具：______
-   - 关键词：______
-   - 时间范围：______
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **运行封装提示词**
 
    ```markdown
    请扫描以下范围内的所有 AI 协作记录：
-   - 工具/文件：______
-   - 关键词：______
-   - 任务目标：______
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
    请完成：
    1. 合并同类项：把重复出现的纠偏点归类
    2. 输出一个名为 "______" 的 skill，包含：
-      - 使用场景
-      - 审美底盘（可接受/不可接受的标准）
-      - 协作流程（步骤+每轮只处理一个主问题）
-      - Track list（检查项）
-      - 评审表（不同子类型分别考虑什么）
-      - 硬性坑清单（P0 禁止项，标注来源）
+      - src_unknown
+      - src_unknown
+      - src_unknown
+      - src_unknown
+      - src_unknown
+      - src_unknown
    3. 每条规则标注来源：来自哪一次具体纠偏
    ```
 
 3. **人工终审**
-   - [ ] 审美底盘是否准确
-   - [ ] P0 硬性坑是否有来源
-   - [ ] 是否混入无关规则
-   - [ ] 是否能在下次任务前加载
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **下次任务加载使用**
-   - [ ] 作为 system prompt/自定义指令加载
-   - [ ] 任务开始前让 AI 先自检一遍
-   - [ ] 新纠偏点实时补充
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ---
 
 ## 互链与关联
 
-- [[case-truman-ai-skill-engineering-guide]] —— 同构案例：Truman 用同样的"迭代+审计"思路，3 小时做出高阶 AI Skill 工程指南，可作为本案例 skill 质量的审计标准。
-- [[dk-modeling-ai-self-retrospection]] —— 暗知识：AI 自己复盘自己，把一次成功交付变成下次基础。本案例是该暗知识的完整落地实例。
-- [[tool-iterative-recursive-deep-dig]] —— 方法论工具：Truman 的 skill 质量来自"喷—撞—改"循环，本案例的 AI 自封装是迭代递归深挖的自动化实现。
-- [[case-truman-prd-checklist-evolution]] —— 同构案例：从"反复被打回"到"不再二错"，Truman 早期用人工清单实现的经验固化，在本案例中升级为 AI 自动封装。
-- [[tool-封装可复用skill]] —— 技能卡：封装可复用 Skill 的通用步骤，可作为本案例方法论的简化版快速入口。
-- [[modeling-capability-for-kdo]] / [[modeling-three-stages]] / [[case-truman-livestream-sop-iteration]] / [[modeling-to-kdo-toolchain]] —— 建模能力体系与 KDO 工具链。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1194-1234`
+- src_unknown
 
 ---
 

@@ -3,7 +3,7 @@
 id: "ocr-truman的个人成长五步法"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
   - src_20260522_074c72ae
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: Truman的个人成长五步法"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂y模型-科学成事道理]]'
-  - '[[ocr-一堂-科学决策-深度-l3定量公式]]'
-  - '[[ocr-一堂-地图-创业地图_conv]]'
-  - '[[ocr-ocr_snipaste_2026-05-15_21-39-40]]'
-  - '[[aima-ai思维卡-外部链接归档]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: Truman的个人成长五步法
@@ -36,36 +36,36 @@ png` 当有了这个逻辑以后，就可以用一页纸， 解释我所有的�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_074c72ae-ocr-truman的个人成长五步法.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- Truman's personal growth methodology uses a one-page framework to align life planning across five dimensions: capability, resources, progression method, path, and life milestones ("人生红点").
-- The five capabilities identified are: understanding education, product innovation, business operations, system modeling, and a fourth partially obscured skill.
-- Four resource categories form the foundation: top-tier relationships, entrepreneurial network relationships, excellent teams, and free innovators.
-- Progression follows three methods: best practices, efficient IPO (or similar accelerated path), and deliberate practice ("刻意练习").
-- Career paths progress through four stages: reliable product manager, excellent business lead, mature entrepreneur, and free innovator.
-- The ultimate life goal archetype is "作品存世型" (legacy through works): using product innovation to continuously push the boundaries of the world.
-- Education is prioritized as the foundational capability that encompasses and supports all other dimensions.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- What is the fourth capability in the five capabilities list, given that the OCR output shows "西空品創開" and "印" as corrupted text?
-- Is "高效IPO" a literal reference to an initial public offering, or is it a metaphor for an accelerated personal growth path, and what does "IPO" specifically denote in this framework?
-- What distinguishes the "free innovator" (自由创新者) as both a resource category and a career stage, and does this dual classification create conceptual overlap or tension?
-- How does "教育优先，涵盖其他" (education first, encompassing others) operationalize in practice—does it mean sequential prioritization or simultaneous integration of capabilities?
-- What criteria define each career stage transition, particularly from "excellent business lead" to "mature entrepreneur"?
-- Is the "one-page framework" a literal visual template with spatial relationships, and how do the five dimensions interact structurally (linear, nested, or matrix)?
-- What empirical basis or personal experience validates this methodology, and has it been applied or tested beyond Truman's individual case?
-- How does "作品存世型" reconcile with the "人生红点" (life milestones) concept—are milestones stepping stones or validation points toward the legacy goal?
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **OCR损坏导致内容不完整：第四个能力被OCR损坏（"西空品創開"和"印"），导致五步法的能力维度不完整。
-- **"高效IPO"的模糊性：未解释IPO是字面意义上的"首次公开募股"还是隐喻。如果是隐喻，未解释具体含义。
-- **"自由创新者"的双重分类：既是资源类别又是职业阶段，可能导致概念重叠。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你�
 
 ### 不要用的场景
 
-- **创造性领域的成长（艺术、科学研究）："作品存世型"的实用导向与创造性工作的非竞争性本质冲突。
-- **组织发展或团队能力建设：五步法是个人中心的，未考虑组织环境对个人成长的影响。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-deliberate-practice]] — 刻意练习是五步法中"进步方式"的理论基础
-- [[yt-decision-depth-ladder]] — 职业成长阶段与五步法的"路径"维度形成对照
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 职业规划：用五步法快速定位自己所处的成长阶段
-- 教育设计：根据五步法设计从入门到专家的培训路径
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

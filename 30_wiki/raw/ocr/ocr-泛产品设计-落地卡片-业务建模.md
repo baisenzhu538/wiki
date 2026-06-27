@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-业务建模"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_f5a0f2e1
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计-落地卡片-业务建模"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-内核和边界]]'
-  - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-业务建模
@@ -35,34 +35,34 @@ png` 小12 泛产品设计·落地卡片 业务建模 学习拆解业务公式 �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 业务建模的核心方法是学习拆解业务公式，将业务结果分解为可量化、可操作的乘积或加和结构。
-- 拆解原则要求尽量MECE（相互独立、完全穷尽）、尽量定量、尽量细拆，但不必强求一步到位，允许逐步演化。
-- 复杂业务公式可分层展开：顶层为A+B+CD×EF×G×H，中层可进一步拆分为C₁×C₂×C₃或G₁+G₂+G₃等子结构。
-- 业务建模适用于"站在全局思考和管理复杂的业务"的场景，强调系统性视角。
-- 该方法论主张通过结构化课程学习掌握，体现"一堂课解决，不行就两堂"的渐进式学习原则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 公式中 "×x①" 和 "只×只只" 等明显 OCR 错误，原始业务公式的准确数学表达是什么？
-- "平价者标" 应为 "评估指标" 还是其他术语？该指标在公式中的具体作用机制未明确。
-- ①②③的编号体系混乱（出现重复①②），原图的层级结构逻辑是什么？
-- "蜂燥" 明显为误识，原词是 "规模"、"增速" 还是其他核心业务变量？
-- 公式中同时存在加法（+）和乘法（×）混合运算，但未说明何时用加、何时用乘的选择标准。
-- "逐步演化" 的具体触发条件是什么——是业务阶段变化、数据可得性提升，还是认知深化？
-- 课程《全员必修：业务拆解篇》的具体内容、案例行业、课时安排均未提及，如何验证其有效性？
-- "没有什么不是一堂课解决不了的" 这一口号与复杂业务建模的实际难度是否存在张力，是否隐含对方法论局限性的回避？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

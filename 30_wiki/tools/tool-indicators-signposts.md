@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: CIA Tradecraft Primer - Indicators
+- src_unknown
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-devils-advocacy]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-candy-oral-polish]]'
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[tool-yitang-ai-monitoring-alert]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Indicators & Signposts
@@ -53,9 +53,9 @@ related:
 
 ### Step 4：设定监控和告警
 
-- 频率：每周扫一次 leading indicators
-- 阈值：什么级别的信号需要升级为告警
-- 行动：告警触发后谁做什么
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -88,8 +88,8 @@ signposts = {
 
 ## 适用边界
 
-- **适用**：有明确关键假设的决策场景、需要持续监控的环境
-- **不适用**：一次性调研（不需要持续监控）
+- src_unknown
+- src_unknown
 
 ---
 

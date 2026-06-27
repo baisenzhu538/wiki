@@ -3,8 +3,8 @@
 title: "OCR: 一堂-单元模型-找全成本实操难点"
 type: concept
 domain:
-  - needs-review
-  - yitang
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_0770a578
@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-找基准值实操难点]]'
-  - '[[ocr-一堂-单元模型-规模对抗实操难点]]'
-  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -39,15 +39,15 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_0770a578-ocr-一堂-单元模型-找全成本实操难点.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 强制使用「三张易漏项清
+- src_unknown
 复追问仍会遗漏关键成本项
-- 每发现一个新的遗漏项就
+- src_unknown
 仅靠个人经验「拍脑袋列」漏项率极高 在清单上做标注
-- 业务认知盲区导致关键项丢失：新人/新
+- src_unknown
 「冷静清单法」列不 业务场景下，对行业的典型成本结构不熟 2
 
 ## Open Questions
@@ -55,6 +55,6 @@ related:
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

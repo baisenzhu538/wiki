@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- IP调研
-- MCN调研
-- 内容创业
-- 博主评估
-- 达人合作
-- 自媒体调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡2（内容）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡2（内容）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-store-franchise-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-store-franchise-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 内容IP/MCN调研手段：浅中深三层10大评估法
@@ -52,15 +52,15 @@ related:
 "如果我想做 IP，或者想和 IP 合作，或者自己想做 MCN，如何评估可行性？"
 
 调研重点铁三角：
-- **行业红利**：这个赛道还有没有增量？头部集中度多高？
-- **能力匹配性**：我（或我的团队）的能力与这个赛道的要求匹配吗？
-- **资源优势**：我有供应链/资金/流量资源的独特优势吗？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **品牌方**：自己有货，想找博主带货，需要评估博主真实价值和合作风险
-- **个人IP**：想成为 IP（知识付费/带货/内容变现），需要评估赛道可行性
-- **MCN创业者**：想孵化 IP、做 MCN 公司，需要评估行业天花板和竞争格局
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,10 +149,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 2——内容IP/MCN
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡2（内容）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡2（内容）_vlm_desc.md`（confidence=0.95）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

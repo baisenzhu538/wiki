@@ -6,9 +6,9 @@ title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 created_at: '2026-06-16'
@@ -19,33 +19,33 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[yt-lean-assumption-verification-3means]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[yt-lean-essence]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#method/lean-testing'
-- '#domain/consumer-products'
-- '#method/user-testing'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户访谈时说"好喝/好吃/好看"，但复购率或喝完/用完完整周期的比例偏低
+- src_unknown
   framework_lens: 表层反馈（一口测试）≠ 深层体验（完整消费周期）
   follow_up_question: 测试中是否让用户在真实场景下完成整瓶/整份消费，并观察其停止节点与行为？
-- signal: 团队纠结于用户口头提出的某个痛点，但修改后转化率没有提升
+- src_unknown
   framework_lens: 用户嘴上说的需求≠ 场景中的真实需求
   follow_up_question: 这个痛点在用户的真实使用场景里是核心问题、次要问题，还是解决后会带来更多问题？
-- signal: 测试只用一个版本，用户反馈"还行"但无法解释为什么
+- src_unknown
   framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
 
@@ -73,10 +73,10 @@ diagnostic_signals:
 ### 1. 观察行为，别只听评价
 
 不要问"你觉得胀气吗"，而是观察：
-- 用户喝了多少停下来
-- 停下来的节点是什么
-- 有没有皱眉、摸肚子、找水
-- 拿起来之后表情如何，又放回去了还是继续看
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **案例：张磊内衣洗衣液测试**
 不是发问卷问"你觉得包装怎么样"，而是把产品放到真实货架上，让人在旁边观察有没有人停留、拿起来、表情变化、放下还是继续看。行为信号比语言诚实得多。
@@ -138,27 +138,27 @@ diagnostic_signals:
 
 在启动一轮消费品深层体验测试前，逐项确认以下 7 项是否到位：
 
-- [ ] **已明确要验证的假设**：是"完整消费体验可接受"、"复购意愿"，还是"改动不破坏核心爽感"？
-- [ ] **已选择真实场景**：测试发生在用户日常使用的场景（如追剧、配餐、运动后），而非实验室/会议室。
-- [ ] **已设计对照组**：至少提供 1 个对照版本（原配方、竞品、不同规格），让用户在对比中暴露真实偏好。
-- [ ] **观察清单已备好**：记录"喝/吃到哪停下""表情/动作变化""是否找水/找其他食物""剩余量"等行为信号。
-- [ ] **问询顺序正确**：先开放式提问（"喝完有什么感觉？"），再具体引导（"有没有胀气/口干/腻？"）。
-- [ ] **已设定硬指标**：定义本轮测试的通过/放弃线，如"≥60% 用户能在真实场景下完整消耗完""复购意愿 ≥40%""对照组偏好度 ≥2:1"。
-- [ ] **已约定复盘节点**：测试结束后 48 小时内汇总行为数据、访谈笔记、异常信号，输出"继续/调整/放弃"决策建议。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 模板用法：把本清单复制到每次测试的立项文档中，作为评审入口；任何一项为"未就绪"，都应延迟测试而非硬上。
 
 ## 与其他卡片的关系
 
-- 与 [[yt-entrepreneur-lean-validation]]：深层体验测试是精益验证在产品内核阶段的具体落地。
-- 与 [[tool-一堂-hypothesis-validation-three-axe]]：行为观察、完整场景、对照组对应三种验证手段的交叉使用。
-- 与 [[yt-entrepreneur-five-step-method]]：本方法主要服务于"解决方案 / 产品内核"阶段的验证，前置假设（需求）未验证时不宜直接套用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度说明
 
-- 本框架直接来自张磊 AMA Q25 的回答，并由口述记录 oral-02 交叉印证，核心概念"表层反馈 vs 深层体验"及"观察行为、完整场景、对照组"三个要点在两类来源中均一致。
-- 张磊以自身内衣洗衣液测试、元气森林案例作为支撑，但案例细节未提供可独立核实的原始数据，外部可验证性有限。
-- 0.82 的置信度反映：方法论本身具有高内聚性和强可操作性，但具体案例为讲师个人经验，建议落地时结合本地用户重新验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

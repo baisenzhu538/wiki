@@ -6,12 +6,12 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
-- sales
-- b2b
-- consulting
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -25,37 +25,37 @@ source_refs:
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 diagnostic_signals:
-- signal: 新销售背熟话术仍丢单，培养周期长达 3–6 个月
+- src_unknown
   lens: 隐性决策知识未被萃取
   follow_up: 用 PACED/PECED 反向工程关键选择点，区分“说了什么”与“为何此时说”
-- signal: 团队用 AI 后销售效率无明显提升
+- src_unknown
   lens: 把 AI 当演员工具而非导演系统
   follow_up: 检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器
-- signal: 高手离职后，组织失去核心竞争力
+- src_unknown
   lens: 个人隐性经验未转化为组织资产
   follow_up: 把专家的“判断链”而非“输出文本”萃取为可模拟、可评分的规则库
 related:
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[framework-strategy-pyramid]]'
-  - '[[case-wanghuan-education-sales-capability-extraction]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[case-wanghuan-education-sales-capability-extraction]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[yt-demand-b2b-vs-b2c]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[private-domain-saas-sales-funnel]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 隐性决策
-- 能力萃取
-- 销售迁移
-- PACED
-- 跨领域
-- 暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 
@@ -163,42 +163,42 @@ tags:
 
 问自己：在这个行业里，高手和新手的差距到底在哪里？
 
-- 是“能不能说出正确的话”？还是“能不能在正确时机做出正确判断”？
-- 是“知识储备量”？还是“把知识匹配到具体情境”的能力？
+- src_unknown
+- src_unknown
 
 ### 步骤 2：把判断点抽象为 3–7 个维度
 
 不要硬套 PACED，而是根据行业特性设计维度。
 
 例如 B2B 企业软件可以是：
-- **B**usiness stage（业务阶段）
-- **O**rganizational decision chain（组织决策链）
-- **T**echnical readiness（技术 readiness）
-- **E**conomic justification（经济合理性）
-- **R**isk profile（风险画像）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 （可命名为 BOTER 或其他，关键是覆盖关键判断维度）
 
 ### 步骤 3：收集真实素材并反向工程
 
-- 收集 3–5 段真实成交/丢单录音或案例
-- 与高手逐句复盘：当时看到了什么信号？做了什么判断？为什么选这个行动？
-- 特别注意高手“没做”的事——放弃的选项往往比选择的选项更能体现判断
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：建立双轨存储
 
-- **策略库**：信号 → 判断 → 动作（跨场景稳定）
-- **话术库**：具体表达、邮件模板、PPT 页面（因场景而变）
+- src_unknown
+- src_unknown
 
 ### 步骤 5：设计双角色 AI 对练
 
-- 生成器 AI：扮演客户/患者/候选人，知识隔离
-- 评审器 AI：按策略维度评分，对练结束后复盘
+- src_unknown
+- src_unknown
 
 ### 步骤 6：重定义评分权重
 
-- 策略判断维度 ≥50%
-- 动作/表达维度作为次要高阶指标
+- src_unknown
+- src_unknown
 
 ---
 
@@ -229,33 +229,33 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 选定一个目标销售/咨询领域，确认存在“老手隐性判断难以传给新人”的痛点。
-- [ ] 列出该领域中 3–5 个真实成交/丢单案例，确认可脱敏使用。
-- [ ] 与 1–2 位高手逐句复盘，标注每个关键节点的信号、判断、动作。
-- [ ] 设计本领域专用的“判断维度”（不必叫 PACED，但要覆盖问题/决策者/约束/期望/时机）。
-- [ ] 建立双轨存储：策略库与话术库分离。
-- [ ] 设计双角色 AI 对练：生成器 AI 不知晓评审标准。
-- [ ] 重新定义评分：策略判断维度权重 ≥50%。
-- [ ] 运行 10 次以上对练，对比新人在“关键节点选择正确率”上的变化。
-- [ ] 每月迭代一次策略库，把新场景判断沉淀为可复用规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- `[[case-wanghuan-education-sales-paced]]`：教育销售 PACED 案例的具体落地。
-- `[[case-wanghuan-education-sales-capability-extraction]]`：销冠能力萃取系统的完整案例。
-- `[[dk-wanghuan-paced-sales-decision]]`：PACED 销冠决策链的暗知识抽象。
-- `[[framework-wanghuan-actor-director-mode]]`：导演思维是这套萃取方法的认知底座。
-- `[[yt-demand-b2b-vs-b2c]]`：ToB 销售决策链分析的参考框架。
-- `[[yt-tob-customer-sabc]]`：ToB 客户分层与资源分配工具。
-- `[[private-domain-saas-sales-funnel]]`：私域/SaaS 销售流程设计参考。
-- `[[concept-wanghuan-tacit-knowledge-examples]]`：行业暗规则如何写入 AI 业务档案。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可信度说明
 
-- 本卡核心方法来自王欢教育销售案例，底层逻辑（信号→判断→动作、双轨存储、双角色对练、策略权重）已在案例中验证。
-- 跨领域迁移示例（B2B、保险、医美、投资、医疗、招聘等）为基于案例规律的推演，尚未在每个领域独立验证。
-- 建议在实际迁移时，先用 3–5 个真实案例做局部验证，再扩展为系统。
+- src_unknown
+- src_unknown迁移示例（B2B、保险、医美、投资、医疗、招聘等）为基于案例规律的推演，尚未在每个领域独立验证。
+- src_unknown

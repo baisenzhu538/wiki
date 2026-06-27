@@ -4,32 +4,32 @@ title: 技能：供应商信息对齐清单法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
-- '[[tool-月白-80分效率设计策略]]'
-- '[[tool-月白-商业项目AI模型选型决策]]'
-- '[[tool-月白-产品替换式场景合成法]]'
-- '[[tool-月白-实物包装落地训练法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：供应商信息对齐清单法
 
@@ -47,27 +47,27 @@ related:
 
 ## 适用场景
 
-- 进入打样或量产阶段
-- 与包装厂、印刷厂等供应商对接
-- 打样预算有限，需要一次成功率
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅设计阶段，未确定供应商
-- 打样预算充足可反复试错
-- 自有工厂且沟通无障碍
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 工艺说明文档模板
-- 矢量文件（AI格式）
-- 参考样品实物
-- 色号标准（CMYK/潘通）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -75,12 +75,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

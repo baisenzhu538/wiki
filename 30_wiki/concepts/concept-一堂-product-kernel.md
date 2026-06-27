@@ -8,8 +8,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核系列（实操课+迭代课+验证课，2026年）
 source_refs:
@@ -19,20 +19,20 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - '[[tool-一堂-product-kernel-add-subtract]]'
-  - '[[yt-product-kernel-definition]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[concept-一堂-kernel-validation]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-foresight-15-char-mantra]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[tool-一堂-product-kernel-canvas]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 confidence: 0.85
 trust_level: high
@@ -128,9 +128,9 @@ Truman 在三门课中汇总了产品内核分析的九大原则：
 
 ## 边界与反例
 
-- **非标准化产品边界**：如果每个客户的内核要素差异过大（如高定制B2B项目），产品内核的方法需要分层分类讨论，不能用一套内核应对所有客户。
-- **过度追求"最小"可能导致用户体验缺失**：如果为了追求“最小”而剥离了过多优化性要素，产品可能在转化率上成功，但在长期留存和口碑上失败。"最小"不是"最差"，而是"不大不小刚刚好"。
-- **创意/艺术类项目边界**：如果用户决策主要受情感和意象驱动，产品内核的"逻辑分析"效果会下降。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

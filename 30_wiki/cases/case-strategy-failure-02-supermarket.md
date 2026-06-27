@@ -11,13 +11,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[case-strategy-failure-08-video]]'
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-04-appliance]]'
-  - '[[case-strategy-failure-09-boeing]]'
-  - "[[tool-strategy-nine-problems]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **表面问题**：增长停滞，利润也下降
 **战略根因**：目标错误——在高速增长期设了"追求盈利"的目标。正确的目标应该是"抢占市场份额"

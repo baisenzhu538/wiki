@@ -8,8 +8,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核验证课（2026年）
 source_refs:
@@ -17,24 +17,24 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - '[[concept-一堂-kernel-iteration]]'
-  - '[[tool-一堂-five-step-validation]]'
-  - '[[tool-对标借鉴他人决策维度]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[concept-一堂-kernel-iteration]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[framework-lean-product-kernel]]'
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-product-kernel-metrics]]'
-  - '[[case-lean-premature-refinement]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[concept-一堂-key-assumptions]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 confidence: 0.7
 trust_level: medium
@@ -111,9 +111,9 @@ Truman 的原话："大多数人的默认选择是‘赌’——不做任何验
 
 ## 边界与反例
 
-- **过度验证反而浪费**：如果每个假设都要验证到百分百确定，你可能会错过窗口期。问题不是"要不要验证"，而是"验证到什么程度就足够下决策"。
-- **时间窗口极窄时**：在某些风口行业（如早期短视频、AI应用），窗口期可能只有几周。此时需要"快速验证+快速迭代"的混合策略，而不是"完整验证后才行动"。
-- **验证可能被"验证偏误"污染**：团队会无意识地设计"能通过"的实验，而不是"能证伪"的实验。这需要建立"反驳自己"的机制。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

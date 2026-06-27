@@ -5,18 +5,18 @@
 title: Y模型/科学决策
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 决策者只凭直觉，不做选项扩展
+- src_unknown
   framework_lens: 宽度不够
   follow_up_question: 除了现在在考虑的选项，你还考虑过哪些？如果只有1-2个，决策宽度不足
-- signal: 决策者追求完美信息，迟迟不做决定
+- src_unknown
   framework_lens: 决策窗口关闭
   follow_up_question: 你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
 related:
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[yt-decision-y-model]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
-  - '[[yt-concept-peas-insight]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# Y模型/科学决策
 
@@ -70,9 +70,9 @@ related:
 ### 决策重新理解
 
 常见误区：
-- **直觉至上论**："优秀的决策者靠直觉" —— 直觉是模式识别的结果，只有在重复场景中积累了大量反馈后才可靠。创业中的大部分决策是低重复度的
-- **完美信息论**："等有足够信息再做决定" —— 决策窗口往往在信息完整之前就关闭了。好的决策者在 70% 信息时做出判断
-- **事后评判论**：用好结果反推好决策——一个糟糕的决策可能因为运气好而得到好结果（结果偏差，outcome bias）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的决策定义**：决策 = 在有限信息下从多个选项中做出选择，并承担其后果。
 
@@ -97,16 +97,16 @@ related:
 
 ### 深度：提高评估精度
 
-- **决策矩阵**：列出所有选项 × 所有评估维度，赋予权重，打分比较
-- **预期价值计算**（Expected Value）：EV = 成功概率 × 成功收益 - 失败概率 × 失败损失
-- **敏感性分析**：改变关键假设（如成功率从70%变为50%），看决策结论是否会翻转——如果结论对假设极度敏感，说明决策根基不牢
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 高度：拉长时间框架
 
-- **二阶/三阶思考**：做了 A 之后会发生 B，B 之后又会发生 C——大多数人只想到一阶
-- **10-10-10 法则**：这个决策在 10 分钟/10 个月/10 年后怎么看？
-- **逆向思考**（Inversion）：不是问"怎样做会成功"，而是问"怎样做一定会失败"然后规避这些行为
-- **后悔最小化框架**：站在人生终点回看，哪种选择让你后悔最少？（贝佐斯创立亚马逊的决策框架）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 决策陷阱清单
 
@@ -180,14 +180,14 @@ Y模型的四维度分析需要相对冷静的决策环境——有时间做选�
 
 ### 关联卡片
 
-- [[yt-management-business-formula]] — 业务公式：决策模型中的预期价值计算依赖于业务公式提供的量化输入
-- [[yt-management-goal-management]] — 目标管理：OKR 周期结束时的"继续/调整/放弃"决策是 Y 模型的高频应用场景
-- [[yt-management-conversion-hacking]] — 转化率黑客：A/B 测试的优先级排序是一个典型的决策宽度-深度问题
-- [[yt-management-strategy-meeting]] — 战略会：战略会的本质是一系列高利害决策的集中讨论——Y模型应成为战略会的默认思维框架
-- [[yt-management-finance-basics]] — 财务入门：ROI 深度评估需要基础的财务分析能力
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设：关键假设的优先级排序本质上是一个风险加权的决策问题
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：决策框架本质上是"认知武器库"——Y 模型的四维度是可以独立调用的四种决策武器。武器库的"即查即用"逻辑在决策场景中的映射：熟悉情境直接用直觉（Klein），不熟悉情境查武器库（Y 模型）
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：科学决策的最后一步不是"算出来"，而是"讲出去"——向团队、投资人、合伙人讲清楚"为什么是这个选择"。决策质量和说服质量是两个独立维度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -211,6 +211,6 @@ Y模型的四维度分析需要相对冷静的决策环境——有时间做选�
 
 ### 跨学科锚点
 
-- 决策框架源自丹尼尔·卡尼曼（Daniel Kahneman）的《思考，快与慢》——系统1（直觉）vs 系统2（理性）模型是整个科学决策领域的理论基石。
-- 决策陷阱清单源自行为经济学的启发式偏误（heuristics and biases）研究，由卡尼曼、特沃斯基、理查德·塞勒等学者系统整理。
-- "事前验尸"（Pre-mortem）技术由 Gary Klein 提出——在决策执行前假设一年后失败了，倒推最可能的失败原因，是防御过度自信的有效工具。
+- src_unknown
+- src_unknown
+- src_unknown

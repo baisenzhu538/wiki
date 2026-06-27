@@ -4,7 +4,7 @@ id: dk-ef-004-missing-diagnostic-firmware
 title: 没有诊断固件就是盲调：你不知道信号卡在哪一级
 type: dk
 domain:
-- product
+- src_unknown
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 复杂信号链路调试（MCU→电平转换→595→MOSFET→LED→接收管→MUX→运放→MCU）——不知道哪一级出了问题
@@ -13,12 +13,12 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
@@ -35,29 +35,29 @@ trust_level: medium
 
 ## 使用场景
 
-- 你调一个参数（比如 Ir_Delay），反复改值、烧录、测效果，改了 20 次没有任何进展
-- 你的信号链路超过 3 级——MCU 发出来了，但从哪一级开始就错了？你不知道
-- 你怀疑某块 IC 坏了，但换一块新的也一样——说明问题不在那块 IC，但你还是不知道在哪
-- 你在"调参数"和"换芯片"之间反复横跳——因为这两种操作都不用思考
-- 示波器只能看一级信号，但你不知道应该量哪一级
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **建 diagnostic/ 目录**：在你的固件项目根目录下建一个 `diagnostic/` 文件夹，专门放诊断版固件
 2. **逐级短路法**：从信号链的起点（MCU GPIO）开始，写一个最小固件只控制这一级——用诊断固件验证这一级正确 → 往下一级 → 找到断点
 3. **诊断固件的特征**：
-   - 极简（一个文件，几十行）——不为工程化，只为定位
-   - 硬编码测试值（不读传感器不读配置）
-   - 绕过所有中间逻辑（直接操作寄存器）
-   - 有一个肉眼可见的验证结果（LED 亮/灭、串口打印值）
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **示例**：广冷红外板调试时，写了一个诊断固件强制拉高 QD 信号，绕过 595 移位寄存器，直接用 GPIO 控制 LED——两分钟确认发射管和接收管硬件正常，问题定位到 595 时序
 
 ## 适用边界
 
-- 适用于超过 3 级串联的信号链路调试
-- 不适用于纯软件 bug（不需要物理诊断）
-- 如果硬件本身有 JTAG/SWD 调试接口且你熟悉边界扫描，硬件调试可走 JTAG 链——但大多数低成本 MCU 项目没有这条件
-- 诊断固件是**一次性工具**——用完可以扔，不要把它改成产品固件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 

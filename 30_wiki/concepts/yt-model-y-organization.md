@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,13 +10,13 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "Y 型创业模型"
-  - "Y 型结构"
-  - "三条认知路径"
-  - "关联卡片"
-  - "型创业模型"
-  - "核心要素"
-  - "知识体系定位"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -31,7 +31,7 @@ yitang:
   module: "方法论总纲"
   course_type: model
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户只重视实事求是，不敢解放思想', 'framework_lens': '一臂缺失', 'follow_up_question': '你最近一次质疑行业惯例并提出新假设是什么时候？'}
   - {'signal': '用户只解放思想，不尊重事实', 'framework_lens': '另一臂缺失', 'follow_up_question': '你的新想法有没有经过事实验证？如果没有，只是空想'}
@@ -39,11 +39,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-entrepreneur-liberate-thinking]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-model-progress-map]]'
-  - '[[ocr-一堂-个人修炼-y模型]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# Y 型创业模型 (Y Model for Startups)
 
@@ -100,10 +100,10 @@ Y 模型是一堂方法论的顶层哲学模型——Y 的两条臂分别代表�
 
 ### 核心要素
 
-- **实事求是**：尊重客观规律，不靠运气和投机——"科学类比"是方法，"提炼模型"是手段
-- **解放思想**：敢于质疑既有认知，保持开放——"验证"是检验真理的唯一标准
-- **知行合一**：认知必须落地为行动，在解决真正问题中完成闭环
-- **一堂定位**：坚持只做必修课——"扫码辛苦学3天，不扫弯路走3年"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -118,10 +118,10 @@ Y 模型是一堂方法论的顶层哲学模型——Y 的两条臂分别代表�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
-- [[yt-model-management-map]]
-- [[yt-model-personal-map]]
-- [[yt-model-progress-map]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

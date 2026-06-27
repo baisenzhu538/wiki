@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-13'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,29 +21,29 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-script-planning-three-axes
-  - ai-short-drama-conflict-three-axes
+  - src_unknown
+  - src_unknown
 tags:
-- '#industry/content-creation'
-- '#content-format/concept-card'
-- '#content-format/checklist'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"我的剧本太平淡，没有冲突"
+- src_unknown
   framework_lens: 第一板斧·极致对立
   follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？
-- signal: 用户说"开头留不住人，3秒就划走"
+- src_unknown
   framework_lens: 第二板斧·高能吸睛
   follow_up_question: 第一集前10秒是否出现危机、悬念或强情绪？
-- signal: 用户说"看完爽完就忘，没有回味"
+- src_unknown
   framework_lens: 第三板斧·立意升华
   follow_up_question: 结局除了报仇/在一起，是否传递了一个让观众共鸣的价值点？
-- signal: 用户说"反派太弱，没有压迫感"
+- src_unknown
   framework_lens: 第一板斧·极致对立（对手维度）
   follow_up_question: 核心对手是否在资源、权力、信息或价值观上至少有一处碾压主角，并形成持续威胁？
-- signal: 用户说"结局强行升华，像喊口号"
+- src_unknown
   framework_lens: 第三板斧·立意升华
   follow_up_question: 价值主张是否由主角在关键选择中付出代价后自然得出，而不是旁白或台词直接宣讲？
-- signal: 用户说"开头很炸，后面塌了"
+- src_unknown
   framework_lens: 第二板斧·高能吸睛 → 第一板斧·极致对立
   follow_up_question: 前10秒的钩子是否与核心对立绑定，能否在中点、反转、结局中不断放大？
 
@@ -60,10 +60,10 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **三斧是检查维度，不是写作公式**：它们帮你判断剧情是否具备冲突锋芒、开场吸引力和结局价值感，但不能替代人物弧光与细节打磨。
-- **顺序不能颠倒**：先立对立，再设计吸睛场面，最后收束到立意；没有对立支撑的钩子会变成碎片爽点，没有立意的爽剧容易"爽完就忘"。
-- **每斧都要能回答一个关键问题**：对立——是否有不可调和的根本冲突？吸睛——前3秒/前10秒是否有强钩子？升华——结局价值是否从主角选择中自然生长？
-- **AI 可执行检查，但立意需人判断**：AI 能按模板输出三斧清单，"共鸣"是否真实必须靠创作者和测试观众验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -81,12 +81,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 剧情三板斧是短剧剧本的"爆款感"自检工具，三斧分别对应：冲突张力、开场吸引力、结局价值感。
-- **C2 [conf=0.9]**: 极致对立要求设计"有锋芒"的核心矛盾——身份、立场、价值观至少有一处根本对立。
-- **C3 [conf=0.85]**: 高能吸睛聚焦前 3 秒/前 10 秒，必须用强冲突、强悬念或强情绪抓住观众。
-- **C4 [conf=0.85]**: 立意升华不是道德说教，而是让观众在爽完之后获得情绪价值或社会共鸣。
-- **C5 [conf=0.8]**: 三斧有先后顺序：先立对立，再设计吸睛场面，最后收束到立意，不能颠倒。
-- **C6 [conf=0.75]**: 该工具可转化为 AI prompt 模板，用于检查或生成剧情大纲。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -167,23 +167,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已列出主角、核心对手、第三方的身份/立场/价值观
-- [ ] 已标出至少一处贯穿全剧的不可调和根本对立
-- [ ] 已检查第一集前3秒是否有危机/悬念/强情绪/强冲突
-- [ ] 已确保前10秒钩子与核心对立存在因果或主题关联
-- [ ] 已写出结局的一句话价值主张
-- [ ] 已验证价值主张由主角关键选择付出代价后自然得出
-- [ ] 已排除旁白/口号式点题，改用动作或场景呈现价值
-- [ ] 已确认题材与使用阶段适合"剧情三板斧"
-- [ ] 已将三斧转化为 AI prompt 进行至少一轮自检
-- [ ] 已记录测试观众反馈并更新到诊断信号中
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计，可与"极致对立"互补使用。
-- [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具，负责把张力转化为分集结构。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -191,9 +191,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- "高能吸睛"过度强调前 3 秒，可能导致后续剧情为了维持刺激而牺牲人物成长逻辑。
-- "立意升华"容易被执行成口号式结尾，而非真正从人物选择中自然生长出的价值。
-- 三个维度偏男性向/爽文向，对细腻情感类短剧的覆盖不足。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Georges Polti — "36 种情境已穷尽冲突"
 
@@ -205,8 +205,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果去掉"立意升华"，只用前两斧，剧本能否过稿？能，但大概率是低单价、低口碑的纯爽剧。
-- 如果只有"立意升华"没有前二斧，会怎样？观众根本看不到第三集，立意无从传递。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -214,8 +214,8 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计
-- [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具
+- src_unknown
+- src_unknown
 
 ---
 
@@ -244,16 +244,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧情三板斧-图片-01.png` — 原始信息图
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧情三板斧-图片-01.json` — OCR 结构化 JSON
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧情三板斧-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- `src_20260613_083395df-ai-short-drama-plot-three-axes.md:11-14` — 归档后的原图摘要
+- src_unknown
 
-- 10_raw/sources/src_20260613_083395df-plot-three-axes.md:11-14` — 剧情三板斧原图（极致对立/高能吸睛/立意升华）
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:1989` — 口述中要求"扣一遍"剧情三板斧
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:25-46` — 剧情三板斧结构化笔记
+- src_unknown
+- src_unknown
+- src_unknown
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧情三板斧图片*

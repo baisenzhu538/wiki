@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点
@@ -19,12 +19,12 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-knowledge-compound]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 系统思考：反馈循环与杠杆点
 
@@ -36,9 +36,9 @@ related:
 
 vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth-flywheel` 讲增长飞轮，`yt-personal-ipo-learning` 讲螺旋上升，`yt-personal-knowledge-extraction` 讲知识复利循环……但没有一个地方解释：
 
-- **什么是**反馈循环？
-- **怎么识别**一个系统中的循环？
-- **哪里是杠杆点**——改变哪个变量能让整个系统改变？
+- src_unknown
+- src_unknown
+- src_unknown
 
 这张卡把散落在 30+ 张卡中的"系统语言"统一为可操作的概念框架。
 
@@ -76,13 +76,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → B → A（正反馈）
 
 **识别信号**：
-- "越……越……"句式
-- "复利效应""飞轮效应""马太效应"
-- 初期增长缓慢，后期爆发
+- src_unknown
+- src_unknown
+- src_unknown
 
 **vault 中的例子**：
-- `yt-entrepreneur-growth-flywheel`：用户增长 → 数据积累 → 产品改进 → 更多用户
-- `yt-personal-ipo-learning`：输入 → 加工 → 输出 → 反馈 → 更好的输入
+- src_unknown
+- src_unknown
 
 **危险**：增强回路可以正向也可以负向——"越亏损越裁员 → 服务质量下降 → 更多用户流失 → 更多亏损"
 
@@ -91,13 +91,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → B → -A（负反馈）
 
 **识别信号**：
-- "到一定程度就停了"
-- "自我纠正"
-- "瓶颈""天花板""饱和态"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **vault 中的例子**：
-- `yt-panproduct-execution-roi-analysis`：ROI 高 → 投入增加 → 边际收益递减 → ROI 回归均值
-- `yt-management-business-formula`：业务扩张 → 管理复杂度 ↑ → 效率 ↓ → 扩张放缓
+- src_unknown
+- src_unknown
 
 **关键洞察**：调节回路不是"坏事"——没有调节回路，系统会爆炸或崩溃。
 
@@ -106,13 +106,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → [延迟] → B
 
 **识别信号**：
-- "做了但还没看到效果"
-- "为什么这次和上次不一样"
-- "短期有效长期有害"或"短期有害长期有效"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **vault 中的例子**：
-- `yt-personal-deliberate-practice`：刻意练习 → [6-12个月] → 能力提升
-- `yt-entrepreneur-lean-validation`：MVP 测试 → [3-6个月] → 真实用户反馈
+- src_unknown
+- src_unknown
 
 **核心陷阱**：人们在延迟期间会改变策略，导致永远无法知道原始策略是否有效。
 
@@ -175,17 +175,17 @@ Donella Meadows 的 12 个杠杆点（按影响力排序，从高到低）：
 
 **Friedrich Hayek**（诺贝尔经济学奖获得者，"The Use of Knowledge in Society" 作者）对"系统思考"提出了根本性质疑。Hayek 的核心论证：**复杂系统中没有任何个体或团队能掌握全部信息，因此"理解系统"本身就是幻觉**。
 
-- **核心挑战**：系统思考假设"我可以画出系统的因果回路图"，但 Hayek 证明，分散在成千上万个体中的局部知识无法被任何中心化的模型捕捉。你画的因果回路图只是"你以为的系统"，不是"真正的系统"。
-- **具体机制**：市场是最复杂的系统之一，但没有人（包括央行行长）能画出"经济的因果回路图"。系统思考者画出来的图越精美，越容易产生"我已经理解了"的错觉。
-- **建议补充**：每次画完因果回路图后，加一步"Hayek 检验"——问："这个图遗漏了哪些我不可能知道的信息？"并保留至少 30% 的"未知回路"空间。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 攻击者 2：March（组织决策）—— 组织中的"有限理性"让系统思考无法执行
 
 **James March**（斯坦福组织行为学教授，"A Primer on Decision Making" 作者）从组织行为学角度挑战了系统思考的"可执行性"。March 的核心论证：**系统思考假设决策者会按照"最优"方式行动，但真实组织中的决策是"有限理性"的——人们追求的是"满意"而非"最优"**。
 
-- **核心挑战**：系统思考的杠杆点分析假设"如果找到了杠杆点，组织就会去执行"。但 March 的研究显示，组织中的决策受到"惯例""身份""政治""注意力稀缺"等非理性因素驱动——即使知道杠杆点在哪，组织也可能因为"这就是我们的做法"而不去改变。
-- **具体机制**：系统思考的"改变范式"（第 1 层杠杆点）在理论上最有效，但在实践中最难执行——因为它要求组织成员放弃自己认同的身份和惯例。March 会问："你的杠杆点分析有没有考虑'谁会因为改变而失去什么'？"
-- **建议补充**：在 Action Triggers 中加入"政治可行性检验"——对每个杠杆点问："谁会反对这个改变？他们的反对是基于理性还是基于身份/利益？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

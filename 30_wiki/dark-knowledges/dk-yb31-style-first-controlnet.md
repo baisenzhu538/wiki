@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,8 +39,8 @@ AI绘图设计师/运营对接场景，需要快速验证甲方需求方向时�
 
 ## 适用边界
 
-- 不适用需要强结构约束的硬需求场景（如必须固定人物姿势、产品角度）
-- 不适用于风格本身已明确的成熟项目
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -48,4 +48,4 @@ AI绘图设计师/运营对接场景，需要快速验证甲方需求方向时�
 
 ## 与其他知识的关联
 
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
+- src_unknown

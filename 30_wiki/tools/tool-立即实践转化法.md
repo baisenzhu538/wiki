@@ -4,29 +4,29 @@ title: 技能：立即实践转化法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-三层目标对齐法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-三层目标对齐法]]'
-- '[[tool-分享输出检验法]]'
-- '[[tool-从案例中学习正反案例法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 行动计划模板
-- 练习设计框架
-- 反馈机制
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 等我学完这门课再开始做——学完的时间点永远在两周后
+- src_unknown
   lens: 实践拖延
   follow_up: 立即实践的'立即'是今天，不是明天。48小时窗口关闭后，学习动量消失
-- signal: 每次都拿最安全、最熟悉的场景实践
+- src_unknown
   lens: 实践过小
   follow_up: 实践必须挑战舒适区，100%确定能做到的场景说明不够挑战，本质是在重复已知
-- signal: 做了但没有记录结果和反思
+- src_unknown
   lens: 实践无记录
   follow_up: 没有记录的实践等于没有发生。必须写'做了什么、结果如何、下次怎么调整'
-- signal: 做了一个项目就觉得我学会了
+- src_unknown
   lens: 实践一次就停
   follow_up: 刻意练习要求长期大量高水平练习，不是一次。单次实践只能验证理解，不能形成技能
-- signal: 只是在脑子里想了想怎么应用，没有具体输出物
+- src_unknown
   lens: 脑内实践
   follow_up: 实践必须产出可展示的结果（文档/产品/代码片段），脑内实践是自我欺骗
 ---
@@ -89,9 +89,9 @@ diagnostic_signals:
 | **目标错配** | 实践的方向和长期目标不一致，忙碌但无进展 | 实践前用三层目标对齐法确认方向，避免'为了实践而实践' |
 
 ## 工具/环境
-- 行动计划模板
-- 练习设计框架
-- 反馈机制
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -110,15 +110,15 @@ diagnostic_signals:
 3. 如果我今天不做，下一周会做吗？如果答案是"可能也不会"，说明动力窗口正在关闭。
 
 ## 常见失败模式
-- 实践拖延："等我学完这门课再开始做"——学完的时间点永远在两周后。立即实践的"立即"是今天
-- 实践过小：每次都拿最安全、最熟悉的场景"实践"——本质上是在舒适区里重复
-- 实践无记录：做了但没有记录结果和反思——没有记录的实践等于没有发生
-- 实践一次就停：做了一个项目觉得"我学会了"——刻意练习要求的是长期大量高水平练习，不是一次
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-复盘推演法]] — 实践后的复盘比实践本身更值钱
-- [[tool-费曼简单提炼法]] — 实践前用费曼法快速提炼要点，实践中对照验证
-- [[tool-三层目标对齐法]] — 实践的方向需要和目标对齐，避免"忙碌但无进展"
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L6.立即实践：立刻动手转化为行动改变，刻意练习长期大量高水平练习

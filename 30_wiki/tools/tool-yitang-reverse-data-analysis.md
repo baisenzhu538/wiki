@@ -13,32 +13,32 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 逆向数据
-- 数据分析
-- 反推数据
-- 数据挖掘
-- 公开数据
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-weapon-product-reverse]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-quantitative-modeling]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "（tool-yitang-id-increment-analysis，待补）"
-  - "（tool-yitang-web-crawler-research，待补）"
-  - "（tool-yitang-product-reverse-engineering，待补）"
-  - "（tool-yitang-offline-store-reconnaissance，待补）"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 逆向数据分析：从公开数据反推商业真相
@@ -58,8 +58,8 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 ## 方法一：ID自增分析
 
 ### 原理
-- 很多系统使用自增ID
-- 通过分析ID规律，可以推断用户量、订单量等
+- src_unknown
+- src_unknown
 
 ### 应用场景
 
@@ -71,17 +71,17 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 | **评论ID** | 查看评论ID变化 | 用户活跃度 |
 
 ### 注意事项
-- 不是所有系统都用自增ID
-- 有些系统会随机化ID
-- 需要长期观察才能判断趋势
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 方法二：爬虫抓取
 
 ### 原理
-- 通过程序自动抓取网站公开数据
-- 可以获取价格、库存、评价等数据
+- src_unknown
+- src_unknown
 
 ### 应用场景
 
@@ -94,17 +94,17 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 | **行业数据** | 行业报告、数据 | 高 |
 
 ### 注意事项
-- 遵守网站robots.txt
-- 控制抓取频率，避免被封
-- 注意数据隐私和法律边界
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 方法三：产品拆解
 
 ### 原理
-- 通过拆解产品，了解技术实现和成本结构
-- 可以获取硬件成本、供应链信息等
+- src_unknown
+- src_unknown
 
 ### 应用场景
 
@@ -116,17 +116,17 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 | **工艺水平** | 制造工艺、质量控制 | 中 |
 
 ### 注意事项
-- 需要专业知识
-- 拆解可能损坏产品
-- 注意安全和保修
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 方法四：门店侦察
 
 ### 原理
-- 通过实地观察门店，获取运营数据
-- 可以获取客流、转化率、服务质量等
+- src_unknown
+- src_unknown
 
 ### 应用场景
 
@@ -139,9 +139,9 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 | **库存情况** | 热销品、缺货情况 | 观察货架 |
 
 ### 注意事项
-- 不要干扰正常经营
-- 注意安全和隐私
-- 多次观察取平均
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,10 +154,10 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 [目标]
 
 ### 使用方法
-- [ ] ID自增分析
-- [ ] 爬虫抓取
-- [ ] 产品拆解
-- [ ] 门店侦察
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 数据来源
 | 数据 | 来源 | 可信度 |
@@ -169,9 +169,9 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 [结论]
 
 ### 风险提示
-- 数据可能不准确
-- 分析基于假设
-- 需要进一步验证
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -221,17 +221,17 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 
 ## 关联卡片
 
-- [[framework-yitang-research-weapon-system]] — 调研超级武器库
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 逆向数据分析模块
-- 交叉：数据挖掘方法
-- 注意：逆向分析需要在合法合规范围内，注意数据隐私
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Sherlock GitHub (sherlock-project/sherlock)
-- web: OSINT tools comparison 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-osint-maltego]]'
-  - '[[tool-osint-overview]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-people-network-database]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Sherlock：用户名跨平台追踪
@@ -30,9 +30,9 @@ related:
 
 ## 核心能力
 
-- **300+平台覆盖**：主流（Twitter/Instagram/Reddit/GitHub）到小众（Patreon/OnlyFans/Keybase）
-- **批量搜索**：支持一次搜多个用户名
-- **结构化输出**：CSV/JSON/TXT
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -69,9 +69,9 @@ python sherlock.py username --print-found
 
 ## 适用边界
 
-- **适用**：创始人背景调查、核心员工追踪、网红/KOL影响力评估
-- **不适用**：非公开的社交平台、没有统一用户名的平台
-- **成本**：完全免费开源
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

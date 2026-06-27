@@ -9,20 +9,20 @@ status: enriched
 confidence: 0.7
 trust_level: medium
 domain:
-  - yitang- business-strategy
-  - product
-  - entrepreneur
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
-  - '[[ai-native-im-multi-agent]]'
-  - '[[dk-strategy-06-dividend-to-strategy]]'
-  - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
-  - '[[beverage-foodservice-channel]]'
-  - '[[ai-complex-communication]]'
-  - '[[beverage-foodservice-channel]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[source-code-delivery-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣
@@ -48,16 +48,16 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ### insight:01 [conf=1.0] 美团/饿了么均提供开放平台/API，支持第三方系统对接
 
-- 美团外卖开放平台、美团闪购开放平台、美团企业版外卖 API 均对外开放。
-- 支持订单推送、订单确认、状态回调、配送状态同步、支付状态同步等核心能力。
-- 外部验证：美团官方开发者文档、第三方接入教程、CSDN 实践案例均一致。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:02 [conf=1.0] 智能无人设备对接外卖平台是真实且增长中的需求
 
-- 无人零售设备面临自然流量不足、营业时间受限、人力成本高等问题。
-- 接入外卖平台可拓展线上订单来源，实现 7×24 小时运营。
-- 案例：无人仓系统、智能取餐柜、云拿无人店、药品/宠物食品/冰淇淋自助售卖机等。
-- 外部验证：多源行业报道验证无人零售外卖系统正在兴起。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:03 [conf=1.0] 商业模式分为「定制开发」与「平台化标准品」两条路径
 
@@ -70,48 +70,48 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ### insight:04 [conf=0.85] 基础订单转发定制开发报价约 5000 元/平台
 
-- 该价格针对仅订单转发的基础功能。
-- 增值功能（可视化后台、数据报表、库存同步等）按复杂度另议。
-- 维护费用通常为开发费用的 10%-20%/年。
-- 属于简单 API 对接外包的合理低端报价，但具体价格因地区/团队而异。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:05 [conf=1.0] 标准数据流：外卖平台 → 中间系统 → 客户服务器 → 智能设备
 
-- 用户在外卖平台下单。
-- 外卖平台将订单推送到中间系统/客户服务器（需公网可访问的回调 URL）。
-- 客户系统将订单信息转发至智能设备控制系统。
-- 设备完成出货/制作后，将状态回传至外卖平台。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 外部验证：美团官方文档详细描述了订单状态推送、配送状态推送、支付状态推送流程。
 
 ### insight:06 [conf=1.0] 客户需自行申请商家权限并提供公网服务器
 
-- 商家需在美团/饿了么开放平台注册开发者账号并申请 API 权限。
-- 需提供公网服务器接收平台回调（本地内网无法满足要求）。
-- 外部验证：多源接入教程均强调注册认证、申请权限、配置回调 URL。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:07 [conf=1.0] 无智能设备的传统门店可直接用美团/饿了么商家后台
 
-- 传统门店无需额外定制系统，平台提供的商家端已支持手动接单、自动接单、订单管理。
-- 该系统的核心价值在于解决「设备自动化」与「外卖订单」之间的断层。
+- src_unknown
+- src_unknown
 
 ### insight:08 [conf=1.0] 外卖平台 API 自 2022 年起按调用量收费
 
-- 美团/饿了么自 2022-01-01 起对 API 接口正式收费。
-- 基础类接口约 0.0015 元/次，管理类接口约 0.003 元/次。
-- 外部验证：银豹等第三方服务商公告一致。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:09 [conf=1.0] 多平台订单聚合与库存同步是核心痛点
 
-- 同一设备可能同时接入美团、饿了么、京东秒送、抖音外卖等多个平台。
-- 库存同步延迟会导致超卖，影响用户体验和平台评分。
-- 外部验证：行业文章将库存同步速度列为选择系统的核心指标。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:10 [conf=1.0] 该领域存在 ERP/ISV 竞争，需快速积累客户形成壁垒
 
-- 已有银豹、有赞、哪都达、各类外卖配送系统进入该领域。
-- 美团、饿了么自身也在推进商家数字化工具。
-- 新进入者需通过快速落地和垂直行业深耕建立壁垒。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,33 +135,33 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 ## 适用边界
 
 **适用**
-- 拥有智能无人设备的商家或设备制造商
-- 希望拓展线上外卖订单来源
-- 有技术对接能力或愿意采购第三方开发服务
-- 能承担 API 调用费用和服务器成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用**
-- 无智能设备的传统餐饮/零售门店
-- 订单量极低，无法覆盖开发/维护成本
-- 缺乏公网服务器和开放平台申请能力
-- 期望完全依赖第三方而自身不参与任何技术对接
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与现有 30_wiki 的差异
 
-- `30_wiki` 暂无无人零售设备与外卖平台对接的专题。
-- 本卡填补了「无人零售 + 外卖平台」这一细分商业模式的知识空白。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
-- 六层交叉验证报告：60_feedback/six-layer-validation-smart-device-foodservice-automation.md
-- [https://developer.waimai.meituan.com/home/docDetail/110](https://developer.waimai.meituan.com/home/docDetail/110)
-- [https://blog.pospal.cn/kb/8041](https://blog.pospal.cn/kb/8041)
-- [https://www.sohu.com/a/997662140_122525469](https://www.sohu.com/a/997662140_122525469)
-- [https://www.sohu.com/a/1019640336_122525469](https://www.sohu.com/a/1019640336_122525469)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 

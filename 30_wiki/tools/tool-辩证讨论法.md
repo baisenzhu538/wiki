@@ -4,29 +4,29 @@ title: 技能：辩证讨论法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-分享输出检验法]]'
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-寻找学习教练法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-分享输出检验法]]'
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-寻找学习教练法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 讨论小组
-- 案例库
-- 私董会/学习小组
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 目标是证明我对，不是看看我们对不对
+- src_unknown
   lens: 讨论变辩论
   follow_up: 辩证讨论的核心是检验假设，不是赢得争论。先明确'我要检验的假设是什么'
-- signal: 只和自己水平相当的人讨论，大家拥有相同的信息和偏见
+- src_unknown
   lens: 认知同温层
   follow_up: 必须引入异见者，讨论的价值在分歧不在附和。没有反对意见的讨论是互相确认
-- signal: 两小时深度对话后，靠记忆存档
+- src_unknown
   lens: 讨论完不记录
   follow_up: 讨论的产出必须是一页纸：我们达成了什么+分歧在哪+下一步验证什么
-- signal: 只讨论案例适用性，不讨论理论在什么条件下失效
+- src_unknown
   lens: 边界回避
   follow_up: 理论边界讨论比案例讨论更有价值。必须问'这个理论在什么条件下失效'
-- signal: 讨论得很热闹但结束后发现什么都没记录下来
+- src_unknown
   lens: 无产出讨论
   follow_up: 讨论必须有结论、分歧记录、下一步动作。没有产出的讨论只是社交
 ---
@@ -89,9 +89,9 @@ diagnostic_signals:
 | **深度不足** | 讨论停留在表面，没有触及底层假设 | 用'五个为什么'追问，直到找到不可再分的底层假设 |
 
 ## 工具/环境
-- 讨论小组
-- 案例库
-- 私董会/学习小组
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -111,15 +111,15 @@ diagnostic_signals:
 4. 讨论的产出能写成一页纸吗？（结论 + 分歧 + 下一步验证）
 
 ## 常见失败模式
-- 讨论变辩论：目标是"证明我对"而非"看看我们对不对"——辩证讨论的核心是检验假设，不是赢得争论
-- 只和自己水平相当的人讨论：认知同温层—大家拥有相同的信息和偏见，讨论变成互相确认
-- 讨论完不记录：两小时深度对话后，靠记忆存档——讨论的产出应该是一页"我们达成了什么"+"我们分歧在哪"+"下一步验证什么"
-- 只讨论案例不讨论理论边界：案例讨论是"这个案例适用吗"，理论边界讨论是"这个理论在什么条件下失效"——后者更难但更有价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-分享输出检验法]] — 分享是单向表达，辩证讨论是双向验证
-- [[tool-从案例中学习正反案例法]] — 案例是讨论的最佳燃料
-- [[tool-寻找学习教练法]] — 教练对话的本质是辩证讨论
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L5.辩证讨论：拆解和讨论案例使用，讨论理论的内核和边界

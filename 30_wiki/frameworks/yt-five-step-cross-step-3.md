@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-five-step-method
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-building
-  - yt-barrier-sustainable-growth
-  - yt-growth-to-barrier
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们规模化了，但利润不高'"
+  - src_unknown
     framework_lens: 跨步三——规模化后需要壁垒保护利润
     follow_up_question: "你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？"
-  - signal: "用户说'我们到了增长天花板，不知道怎么突破'"
+  - src_unknown
     framework_lens: 跨步三——增长天花板需要壁垒突破
     follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - signal: "用户说'我们的增长被竞品复制了'"
+  - src_unknown
     framework_lens: 跨步三——增长被复制说明壁垒不足
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
-  - signal: "用户说'我们想建立壁垒，但不知道从哪里开始'"
+  - src_unknown
     framework_lens: 跨步三——壁垒建设需要基于现有优势
     follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？"
-  - signal: "用户说'壁垒建设太慢，增长等不及'"
+  - src_unknown
     framework_lens: 跨步三——壁垒和增长同步建设
     follow_up_question: "你的增长行为是否在积累壁垒？"
 
@@ -133,21 +133,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当增长停滞时 → 壁垒突破
-- 当利润侵蚀时 → 壁垒保护
-- 当竞品复制时 → 壁垒建设
-- 当组织成熟时 → 壁垒建设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-five-step-method`：五步法总纲
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-barrier-sustainable-growth`：可持续增长
-- `yt-growth-to-barrier`：从增长到壁垒
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法课
-- 企业生命周期研究
-- 壁垒建设实践
+- src_unknown
+- src_unknown
+- src_unknown

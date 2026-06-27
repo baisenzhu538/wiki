@@ -13,7 +13,7 @@ confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 1000
 language: zh-CN
 review_date: 2026-06-10
@@ -28,26 +28,26 @@ yitang:
   course_type: tool
   level: core
 diagnostic_signals:
-- signal: 是否在 2 小时内生成 ≥50 个交叉点并快速收敛到 Top 5
+- src_unknown
   framework_lens: 发散-收敛 / 效率
   follow_up_question: 全排列是否导致 2-3 周仍无法收敛的选择瘫痪？
-- signal: 每个候选交叉点是否通过'一堂五步法'初步预判过滤
+- src_unknown
   framework_lens: 验证 / 低成本假设
   follow_up_question: 理论上可行但执行/监管/竞争不可行的组合是否进入候选池？
-- signal: '''新行业/新模式/新能力''清单是否定期更新以反映时效性'
+- src_unknown
   framework_lens: 技术迭代 / 动态机会
   follow_up_question: 选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？
-- signal: 是否同时评估执行难度、资源约束、竞争格局和监管限制
+- src_unknown
   framework_lens: 可行性 / 落地诚实
   follow_up_question: 机会筛选是否只停留在需求-能力-模式三档匹配？
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-  - '[[yt-growth-scaling-pitfalls]]'
-  - '[[dk-ai-entrepreneur-technical-blindspot]]'
-  - '[[source-code-delivery-model]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[yt-foresight-addition-subtraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 三维排列组合找机会
 
@@ -78,8 +78,8 @@ related:
 
 ### 关键认知
 
-- 三维中的任意两维组合只能产生"改进型机会"，只有**三维同时交叉**才可能产生"颠覆型机会"
-- "新能力"是当前AI时代最大的变量——同样的场景和需求，因AI能力而可能产生全新的商业模式
+- src_unknown
+- src_unknown
 
 ## Critique
 

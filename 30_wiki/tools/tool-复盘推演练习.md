@@ -3,22 +3,22 @@ id: tool-复盘推演练习
 title: 技能：复盘推演练习
 type: tool
 domain:
-- learning-methodology- kdo
-- decision-making
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
 - src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 复盘模板
-- 推演沙盘
-- 角色卡片
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:59:56+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-代入场景推演要素法]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-费曼学习法三句话提炼]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：复盘推演练习
 
@@ -43,27 +43,27 @@ related:
 3. 角色扮演：代入特定角色解决高难度问题
 
 ## 适用场景
-- ✅ 项目结束后总结经验
-- ✅ 重大决策前预演
-- ✅ 准备面试或高难度沟通前
-- ❌ 时间极度紧张需立即行动时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 复盘提取经验模式，推演降低未来试错成本，角色扮演激活情境记忆
 
 ## 工具/环境
-- 复盘模板
-- 推演沙盘
-- 角色卡片
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程，src_20260522_dee56cff，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

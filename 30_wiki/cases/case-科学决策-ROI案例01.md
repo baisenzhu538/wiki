@@ -9,18 +9,18 @@ confidence: 0.70
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例01.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例01.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与五维框架；OCR 提供具体收益/成本项与攻击者视角；缺少原始财务数字与教学口述细节）
-- **独立成卡理由**：展示了 ROI 画布在大型市场活动决策中的五维应用，含明确的机会成本与时间窗口约束。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,21 +40,21 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家国产运动品牌公司（2018 年）
-- **决策问题**：是否参加 2018 年纽约时装周
-- **分析框架**：ROI 决策评估画布五维分析（基础 ROI / 长期视角 / 公司视角 / 机会成本 / 时间窗口）
-- **关键收益项**：
-  - 基础 ROI：线上/线下引流、视频传播、走秀产品贩售
-  - 长期视角：新品发布周期、进入者红利、团队能力提升
-  - 公司视角：品牌知名度、新产品线开拓
-- **关键成本项**：
-  - 基础 ROI：参加费用、市场费用、产品表现风险
-  - 长期视角：失败风险
-  - 公司视角：质量风险
-- **机会成本**：CPO 与电商 VP 时间精力占用；50% 产品经理与设计师 100% 投入 3 个月；工厂产能调整
-- **时间窗口**：3 天内必须决策，不参加需等半年
-- **风控前提**：对成本项进行部分风险降低措施
-- **最终决策**：决定参加纽约时装周
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -91,39 +91,39 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **品牌派**：纽约时装周是品牌升级的战略级机会，不能只用短期 ROI 衡量。
-- **财务派**：收益无法量化、费用未披露，决策更像基于信念而非计算。
-- **运营派**：核心团队 3 个月脱产的机会成本被严重低估，可能拖累既有产品线。
-- **风险派**："部分风险降级"暗示并非所有成本项都可控，哪些被排除及其理由未说明。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **大型展会/峰会参展决策**：用五维框架评估参会 ROI。
-- **品牌联名/赞助决策**：把高管时间、团队产能、窗口稀缺性纳入成本。
-- **新品发布会投入决策**：量化短期销售与长期品牌收益的权衡。
-- **国际化首站决策**：评估"进入者红利"与"试错成本"的边界。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 任何"战略级机会"都必须附可验证的前提假设（如"第一进入者红利"）。
-- ⚠️ 机会成本要量化到具体人员、具体时间、具体业务影响。
-- ⚠️ "整体费用无压力"必须给出判断标准（预算占比 / 现金流容忍度 / ROI 阈值）。
-- ⚠️ 风险降级措施必须具体、可执行、有责任人和触发条件。
-- ⚠️ 学习案例时要用 Duke 的反事实思维：如果这个案例失败了，它还会被写进教材吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"宽度"维度——多维度比较而非单一 ROI。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在市场活动/战略投入场景的直接应用。
-- **[[concept-稀缺机会窗口]]**：案例中的 3 天决策窗口与半年等待成本是该概念的具体体现。
-- **[[dk-你的业务是一次抽样实验]]**：案例是一个单次战略抽样，不能代表所有市场活动决策的普遍规律。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Duke（结果导向批评）**：案例的结论是"决定参加"，但素材未披露最终结果。读者容易把"被写进教材"等同于"决策正确"。如果该品牌参加后销售未达预期，这个案例可能不会出现在训练材料中。你在学习时是否区分了"决策过程"与"决策结果"？[conf=0.80, source=Annie Duke, Thinking in Bets]
-- **Simon（有限理性批评）**：五维框架要求同时处理 10 个以上交互变量，远超工作记忆容量。实际决策中，团队很可能只关注最吸引人的 1-2 个维度（如"品牌升级""进入者红利"），用框架为预设立场背书。[conf=0.75, source=Herbert Simon, Administrative Behavior]
+- src_unknown
+- src_unknown
 
 ---
 

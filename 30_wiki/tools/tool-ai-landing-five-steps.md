@@ -4,32 +4,32 @@ title: 技能：AI落地五步执行流程
 type: tool
 status: draft
 domain:
-- ai-collaboration
-- yitang- AI
-- 落地
-- 执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
 - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
-- '[[ai-landing-scene-selection]]'
-- '[[tool-ai-scene-four-elements]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 走完5步流程
-- 有"平行运行"记录
-- 有"上线效果"数据
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 任意AI对话工具
-- 数据记录工具（Excel/Notion/表格）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ai-scene-four-elements
+- src_unknown
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
@@ -57,9 +57,9 @@ trust_level: low
 
 ### Step 2：做判断（目标设定）
 明确AI要解决的具体问题，设定可衡量的目标：
-- 不是"提升效率"，而是"把XX环节的处理时间从2小时降到30分钟"
-- 不是"降低成本"，而是"每月减少XX元的人力成本"
-- 目标必须可量化、可验证、有时间节点
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出**：目标声明书（1页纸）
 
@@ -67,27 +67,27 @@ trust_level: low
 **核心步骤，不可跳过**。
 
 在AI系统上线前，先运行**3个月平行期**：
-- 人工做一遍，AI做一遍
-- 对比两者的结果差异
-- 标注AI的错误类型和频率
-- 根据错误类型调整AI的约束和提示词
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出**：平行运行报告（含错误分类统计）
 
 ### Step 4：搞开发（构建系统）
 基于平行运行的数据，构建AI系统：
-- 选择合适的技术方案（提示词工程、RAG、微调等）
-- 设计人机协作界面（人类负责判断、AI负责执行）
-- 建立监控和回滚机制
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出**：AI系统 + 操作手册
 
 ### Step 5：慢上线（逐步放开）
 不是一次性全量上线，而是逐步放开：
-- 第一周：10%流量，监控错误率
-- 第二周：30%流量，对比效果
-- 第三周：70%流量，验证稳定性
-- 第四周：100%流量，持续监控
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出**：上线效果报告 + 持续优化计划
 
@@ -95,14 +95,14 @@ trust_level: low
 
 ## 适用场景
 
-- ✅ **AI项目落地** — 任何AI从"想法"到"生产"的过程
-- ✅ **AI工具引入团队** — 让团队逐步接受AI辅助
-- ✅ **AI系统升级** — 从v1到v2的渐进升级
-- ✅ **新AI产品上线** — 降低上线风险
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **纯实验性项目** — 不需要完整流程
-- ❌ **个人使用的AI工具** — 不需要平行运行
-- ❌ **紧急需求** — 时间不允许3个月平行期
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -116,9 +116,9 @@ AI系统的最大风险不是"技术失败"，而是"业务失败"——AI输出
 
 ## 工具/环境
 
-- **必需**：任意AI对话工具
-- **推荐**：数据记录工具（Excel/Notion）——记录平行运行数据
-- **备用方案**：如果缺少AI工具，用人工模拟AI输出进行对比
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -136,19 +136,19 @@ AI系统的最大风险不是"技术失败"，而是"业务失败"——AI输出
 
 ## 关联技能
 
-- [[tool-ai-scene-four-elements]] — 第一步：评估场景
-- [[tool-ai-research-five-steps]] — 第二步：调研和验证
-- dk-ai-only-do-what-you-know — AI只能干你会的事
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别-口述，2026-06-06
-- 00_inbox/AI俱乐部-AI落地场景识别-马易-笔记.txt`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

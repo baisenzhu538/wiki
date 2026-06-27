@@ -8,8 +8,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课/商业预判课/产品内核课程笔记
 source_refs:
@@ -20,39 +20,39 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-  - '[[yt-five-step-method]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[tool-一堂-product-kernel-canvas]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[tool-一堂-product-kernel-canvas]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 核心定义、与其他概念的区别、典型场景已清晰
-- 外部攻击者以及对应的 Constraints 已明确
-- Synthesis 中每个 wikilink 后配有≥30字关联说明
-- 案例区分度≥2类型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 创业者说'我有个商业计划，需要投钱验证一下'
+- src_unknown
   framework_lens: 假设驱动检查：是否有拆解过关键假设？计划是建立在假设之上还是事实之上？
   follow_up_question: 你这个计划的哪个部分，如果错了，整个计划就不成立？你有没有办法花最小的成本先去验证这个部分？
-- signal: 团队开了三小时会，大家各说各的，争论不下
+- src_unknown
   framework_lens: 假设驱动检查：争论双方是否在验证不同的假设？还是同一个假设的不同维度？
   follow_up_question: 我们先把各自观点背后的假设写出来，看看哪个假设是关键假设——先验证它，争论自然解决
-- signal: 创业者说'我们上了某个功能/产品，但用户反应冷淡'
+- src_unknown
   framework_lens: 假设驱动检查：上线前是否验证过'用户需要这个功能'这个假设？
   follow_up_question: 上线这个功能之前，你对'用户会使用它'的信心从哪来？有没有做哪怕一份调查或访谈？
-- signal: 做了一年多业务，发现方向越走越偏
+- src_unknown
   framework_lens: 假设驱动检查：是否定期做过假设回顾？是否有些原始假设已经变化但没有被发现？
   follow_up_question: 你最初启动项目时最重要的 3 个假设，到现在为止，哪些被验证了，哪些被证伪了？
 author: 老顽童
@@ -88,9 +88,9 @@ n
 
 这是"做加法"的工具，用于全面拆解业务假设：
 
-- **2阶段划分**：价值验证期（需求、产品、商业模式）vs 增长扩张期（增长、壁垒）。
-- **5步拆解法**：需求 → 产品内核 → 商业模式 → 增长 → 壁垒，五者之间是乘法关系，一个不成立就是系统性失败。
-- **9要素画布**：细分人群、需求、卖点、解决方案、替代方案、收入、成本、核心指标、增长与壁垒。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二层：假设验证三板斧
 
@@ -104,10 +104,10 @@ n
 
 这是"承上启下"的关键，解决"用户为什么选择你"的问题：
 
-- **用户视角**：从用户决策心理出发，而不是内部功能视角。
-- **决定性要素**：去掉后用户会放弃选择的要素，通常只有3-5条。
-- **优化性要素**：去掉后体验下降但仍会选择的要素，需要精确投入。
-- **完备性检查**：所选要素组合能否导向较好的转化和留存。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -165,7 +165,7 @@ Hamel 强调突破性创新往往来自于"核心竞争力"的重新定义，而
 
 ## Feedback Path
 
-- 应用本概念后有反馈，提交至 `60_feedback/concepts/concept-一堂-hypothesis-driven-business-methodology`。
+- src_unknown
 
 ## Action Triggers
 

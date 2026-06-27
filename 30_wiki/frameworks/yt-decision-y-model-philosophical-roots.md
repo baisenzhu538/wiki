@@ -1,6 +1,6 @@
 ---
 domain:
-  - decision
+  - src_unknown
 
 id: yt-decision-y-model-philosophical-roots
 title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
@@ -9,27 +9,27 @@ status: enriched
 confidence: 0.82
 trust_level: medium-high
 academic_refs:
-  - "戴国斌.基于知行合一的管理者战略素质理论模型与实证研究.管理学报,2012(5)"
-  - "车汉澍.求理于心的知行合一——阳明心学企业管理实践.2025"
+  - src_unknown
+  - src_unknown
 created_at: "2026-06-17"
 updated_at: "2026-06-17"
 author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: "2026-06-17"
 related:
-  - yt-decision-y-model
-  - yt-decision-depth-ladder
-  - yt-decision-width-method
-  - yt-decision-height-toolkit
-  - dk-decision-value-overrides-roi
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "Y模型我学了但用不起来"
+  - src_unknown
     framework_lens: 知行合一的断裂点——你在哪一步停了？
     follow_up_question: 你是"知"不够（宽度/深度没学透）还是"行"不够（画了画布但没有用于真实决策）？王阳明说"知而不行，只是未知"。
-  - signal: "Y模型帮我分析出了最优解但我不想执行"
+  - src_unknown
     framework_lens: 价值观权重——心学的"致良知"
     follow_up_question: 这个最优解违反了你的什么信念？王阳明说"致良知"，不是算出来的最优解，是内心不撒谎的答案。
-  - signal: "我用Y模型分析不同业务，总觉得'宽度'清单长得不一样"
+  - src_unknown
     framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
     follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
 
@@ -68,9 +68,9 @@ Y 模型的教学设计中反复强调"不能光学要动手练"，深层原因�
 毛泽东在《矛盾论》中论证了矛盾的普遍性和特殊性。一堂的科学决策课程中反复强调"**发现决策**"——大部分人的决策停留在"要不要做"的二元选择，真正的科学决策需要先识别矛盾结构。
 
 Y 模型的宽度维度操作性对应了矛盾论的三个核心步骤：
-- **矛盾普遍性**：任何一个决策都不是孤立事件——它涉及用户、团队、资源、时机等多重矛盾
-- **矛盾特殊性**：不同决策的核心矛盾不同——ToB 的核心矛盾可能是"客户信任 vs 采购成本"，ToC 可能是"用户体验 vs 获客效率"
-- **主要矛盾**：一堂教"关键假设"就是让你识别当前阶段的主要矛盾——不是所有因素同等重要
+- src_unknown
+- src_unknown
+- src_unknown
 
 Y 模型的高度维度直接对应矛盾论中"抓住主要矛盾的主要方面"——不是穷尽所有因素，是找到那个决定性的。
 

@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - modeling- yitang
-  - personal-growth
-  - modeling
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -20,24 +20,24 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[modeling-level-map]]'
-  - '[[modeling-three-values]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[tool-iterative-recursive-deep-dig]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#domain/master'
-- '#method/learning-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 单一来源为一堂建模能力培训课程口述稿，内容直接来自 Truman 对个人建模能力提升方法的总结，待第二来源或实践验证后提升 trust_level。
 diagnostic_signals:
-- 单一 source（一堂 Truman 口述），尚未有第二独立来源交叉验证
-- L1-L6 修炼周期与量化指标来自经验归纳，缺乏大规模样本验证
+- src_unknown
+- src_unknown
 
 ---
 
@@ -52,17 +52,17 @@ diagnostic_signals:
 ## 核心要点
 
 1. **刻意练习是基本功**
-   - 不是随便画图写清单，而是有明确目标、固定套路、走出舒适区的训练。
-   - 见过 1000 个模型的人，跟见过 100 个的人，眼界和手感完全不同。
+   - src_unknown
+   - src_unknown
 
 2. **IPO 循环是建模本体**
-   - **Input（输入）→ Process（处理）→ Output（输出）**
-   - 输入大量事实与案例，处理时分类萃取，输出模型、清单、SOP、框架。
-   - 每完成一次 IPO，能力就长一层。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **PDCA 循环是质量杠杆**
-   - **Plan（计划）→ Do（执行）→ Check（检查）→ Act（改进）**
-   - 把 IPO 放进 PDCA：定目标、建 1.0、用反例/标杆/专家评审检查、修正沉淀。
+   - src_unknown
+   - src_unknown
 
 4. **修炼是长期阶梯**
 
@@ -96,25 +96,25 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 今天遇到一个重复问题，就建一个最小清单或 SOP
-- [ ] 每月至少产出 1 个模型（任何形式：清单、SOP、框架、流程图）
-- [ ] 每个模型产出后，找 2-3 个有判断的人对撞/喷一遍
-- [ ] 用 AI 整理信息、生成初稿、交叉验证，但自己必须亲手改一遍
-- [ ] 每季度 review 一次个人模型库，淘汰/合并/升级旧模型
-- [ ] 记录每次练习的目标、输出、反馈，形成可追溯的练习日志
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[modeling-level-map]] —— 建模能力段位图，对应本卡 L1-L6 修炼阶梯
-- [[modeling-three-values]] —— 建模的三重价值，理解为什么值得刻意练习
-- [[modeling-scientific-milestones]] —— 科学建模七步里程碑，团队/方法论级建模流程
-- [[tool-iterative-recursive-deep-dig]] —— 迭代递归深挖工具，与 IPO/PDCA 配套使用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3406-3442、3512-3548`
+- src_unknown
 
 ---
 

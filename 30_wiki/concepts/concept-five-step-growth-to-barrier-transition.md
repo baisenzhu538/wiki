@@ -6,7 +6,7 @@ id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
 - src_20260610_8865798f-一堂-一堂五步法-增长-口述
@@ -21,42 +21,42 @@ reviewed_by: 黄药师（Builder体验Producer）
 source_person: Truman
 source_context: 一堂五步法增长篇+壁垒篇
 query_triggers:
-- 增长到壁垒
-- 什么时候建壁垒
-- 壁垒时机
-- 增长和壁垒的关系
-- 五步法衔接
-- 增长太快要不要建壁垒
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 业务增长很快，团队说'现在顾不上建壁垒，先把增长做上去'
+- src_unknown
   framework_lens: 帮你判断当前的增长是否可持续——如果增长来自'可以随时停止的投入'而非'结构性的用户选择'，那增长越快未来崩塌越快
   follow_up_question: 如果明天你把广告预算砍掉一半，下个月的收入会掉多少？如果答案 >30%，你的增长是买来的不是长出来的
 bridges_to:
-- target: yt-five-step-method
+- src_unknown
   relation: extends_step
   description: 五步法第四步→第五步之间的衔接判断，填补了两步之间的标准空白
-- target: case-five-step-fake-vs-real-barriers
+- src_unknown
   relation: precedes
   description: 先判断'什么时候建壁垒'（本文），再判断'什么才是真壁垒'（真假壁垒案例）
 wiki_refs:
-- '[[yt-five-step-method]]'
-- '[[yt-growth-cycle-model]]'
-- '[[yt-barrier-analysis-cheat-sheet]]'
-- '[[yt-entrepreneur-barriers]]'
-- '[[case-five-step-growth-first-lever]]'
-- '[[case-five-step-fake-vs-real-barriers]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[case-five-step-growth-first-lever]]'
-  - '[[yt-growth-channel-roi]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[yt-business-model-pivot-signals]]'
-  - '[[yt-business-model-unit-economics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 五步法衔接：什么时候从增长切换到壁垒建设
 
 > 五步法第四步"增长"和第五步"壁垒"之间存在一个隐蔽的切换点。多数创业者要么永远不建壁垒（"增长还不够大"），要么过早建壁垒（"增长还没跑通就开始想护城河"）。本卡定义这个切换标准。
@@ -115,8 +115,8 @@ Truman 的判断逻辑："如果你增长到 20% 的市场份额但还没人注�
 
 ### 内部局限
 
-- **三个信号对不同行业的敏感度不同**。CAC 上升在纯线上业务中是强信号，在依赖线下关系的 B2B 业务中可能是弱信号（因为获客不依赖付费渠道）。需要根据行业调整信号的权重。
-- **"竞品模仿产品内核"的判断依赖主观解读**。"高度相似"是一个连续谱——有人可能认为"都做知识付费"就算相似，但实际上切入点和用户群完全不同。信号判断需要商业判断力。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -151,4 +151,4 @@ Truman 的判断逻辑："如果你增长到 20% 的市场份额但还没人注�
 
 ## 来源
 
-- Truman，一堂五步法 增长篇 + 壁垒篇，2026 年
+- src_unknown

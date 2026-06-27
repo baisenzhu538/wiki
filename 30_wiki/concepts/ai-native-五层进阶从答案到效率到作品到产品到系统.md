@@ -4,50 +4,50 @@
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
-  - ai-saas- ai-saas
+  - src_unknown
 query_triggers:
-- AI Native
-- AI原生工作方式
-- AI五层进阶
-- 个人AI系统搭建
-- AI工作流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[yt-unit-model-ai-assisted]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[concept-wanghuan-ai-native-definition]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[master-knowledge-compound]]'
-  - '[[master-systems-thinking]]'
-  - '[[tool-泛产品落地-内核和边界]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-research-osl-framework]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework
 updated_at: '2026-06-17'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: "三个月换一轮AI工具，但工作流没有沉淀"
+- src_unknown
   lens: "工具瘾检测"
   follow_up: "检查是否停留在L1/L2，需要推进到L3作品层"
-- signal: "Demo能跑但不敢给同事/客户长期使用"
+- src_unknown
   lens: "产品边界判断"
   follow_up: "对照L4产品8条验收清单，找出缺失项"
-- signal: "AI自动化后反而花更多时间救火"
+- src_unknown
   lens: "系统失控信号"
   follow_up: "检查L5工程底座的校验和监控环节是否到位"
-- signal: "关掉AI后无法独立完成基础写作/分析"
+- src_unknown
   lens: "认知外包过度"
   follow_up: "评估L2口述依赖度，强制无AI练习比例"
-- signal: "团队里每个人用的AI工具都不一样，产出格式混乱"
+- src_unknown
   lens: "标准化缺失"
   follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
 
@@ -65,24 +65,24 @@ AI Native 不是”会用很多AI工具”，而是”遇到信息获取、思�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- **AI Native 定义**：两个关键词——“默认纳入”（工作方式转变）和”沉淀成资产”（复利能力建立）。不是会用多少工具，而是能不能把AI嵌入真实工作流并持续积累。
-- **海绵式vs淘金式思维**：海绵式被动吸收、输出形状由外界决定；淘金式主动筛选、追问证据和假设。在AI时代，海绵式思维者会被AI的流畅自信征服，淘金式思维者会追问来源和反面证据。
-- **L2 三大动作**：口述输入（放弃打字，思维速度>打字速度）→ 会议重构（内容每被重构一次价值增加一次，费曼学习法的AI延伸）→ 项目化知识管理（不是所有信息都值得进Wiki，三个月内会再做的事才项目化）。
-- **L3 三类作品**：内容类（文章/视频/播客，瓶颈从产能变成品味）、代码类（原型比文档更容易生成，先做原型再补充细节）、智能资产类（Skill/Hook/Prompt模板——继承内容的可传播性+代码的可复用性+AI独有的可调用性）。
-- **Demo ≠ Product**：真实产品最低验收清单8条——稳定访问、数据备份、权限控制、错误处理、测试日志、成本控制、合规脱敏、维护责任。没过这条线的都是L3作品。
-- **L5 工程底座公式**：触发 → 权限/风险判断 → 读取上下文 → 选择技能 → 调用工具 → 校验结果 → 人工确认/自动执行 → 回写知识库 → 监控反馈 → 通知人。关键环节：权限判断决定”能不能做”，人工确认决定”要不要自动化”。
-- **三层关键原则**：不要一上来就追求L4/L5（对大多数人L2+L3性价比最高）、警惕工具瘾（三个月换一轮工具但工作流没建起来）、先闭环再自动化（人跑通→AI参与→低风险自动化→扩到关键业务）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 这个框架假设用户有足够的自主权和工具自由度——如果所在公司禁止外部AI工具、限制软件安装，L2-L5几乎全部被封死。组织级AI采纳的路径是什么？
-- “口述输入”对内向者、非母语者、或不习惯自言自语的人是否同样有效？是否存在”思维-口头表达”的个体差异被低估？
-- 五层框架隐含一个线性进步叙事——但现实中，一个只在L2的人可能产出比L4的人更有价值的作品。层级是否错误地暗示了”越高越好”？
-- L5描述的AI工程底座，目前只有深度使用Claude Code/Cursor等工具的开发者能达到。这是否意味着五层框架本身有一个”技术阶级”的隐性门槛？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -105,24 +105,24 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 ## Synthesis
 
 **与现有知识库的关联**：
-- [[master-knowledge-compound]]：知识复利框架强调”IPO+萃取+管理”的正循环，五层框架的L2（项目化Wiki）和L5（回写知识库）直接落地了这一循环的技术实现路径。知识复利是”为什么”，AI Native五层是”怎么做”。
-- [[master-systems-thinking]]：L5的”工程底座”本质上是一个反馈系统——触发→处理→校验→回写→监控。系统思考中的”反馈循环”和”杠杆点”概念可以用来诊断为什么某些AI自动化链路会失控。
-- [[tool-泛产品落地-内核和边界]]：五层框架中”Demo ≠ Product”的判断标准（8条验收清单）与泛产品方法论中”内核与边界”的思维框架互补——L4产品的8条都是”边界”问题（安全、维护、合规），不是”内核”问题（功能、体验）。
-- [[yt-note-ai-human-division]]：L2-L3 的核心不是把笔记丢给 AI，而是划定人与 AI 的分工边界——人负责判断、品味和待验证假设，AI 负责转录、重构和格式标准化。
-- [[yt-research-osl-framework]]：OSL 调研的「目标→范围→逻辑」三步法，为 L1/L2 的问答与重构提供了研究质量控制标准，避免海绵式吸收。
-- [[case-纪浩-from-zip-to-five-layers]]：纪浩从微信传 zip 到 Skills Market 的真实演化，是 L3→L5 跃迁的工程化对照——尤其是「四要素验证」和「PDCA 从 Do 开始」两条约束。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景**：
-- 企业AI培训课程设计：用五层框架做能力分级诊断，让学员自我评估”你在哪一层”并给出对应的提升路径
-- 个人知识管理工具选型：根据不同层级的需求匹配工具——L2用飞书妙记/通义听悟，L3用Cursor/Replit，L5用Claude Code/MCP
-- AI Native 成熟度评估：将五层转化为自评量表，每层设晋级标准（L1: 能识别幻觉，L2: 口述/重构/Wiki常态运转，L3: 有被外部验证的作品，L4: 有真实反复使用的用户，L5: 端到端系统不需要你亲自操作即可完成业务动作）
+- src_unknown
+- src_unknown
+- src_unknown 成熟度评估：将五层转化为自评量表，每层设晋级标准（L1: 能识别幻觉，L2: 口述/重构/Wiki常态运转，L3: 有被外部验证的作品，L4: 有真实反复使用的用户，L5: 端到端系统不需要你亲自操作即可完成业务动作）
 
 ## Output Opportunities
 
-- Content: article or tutorial — AI Native 自测清单（五层晋级标准+每层行动建议）
-- Content: course — 从L1到L3的21天实战计划（面向非技术用户）
-- Code: template — 个人AI Wiki模板（含Project结构、Prompt模板、Skill模板）
-- Capability: workflow — AI Native个人成熟度自评+提升路径工作流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 落地模板：个人研究笔记的五层升级清单（21 天版）
 
@@ -140,12 +140,12 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 
 ### 最小启动 Checklist
 
-- [ ] 选定一个真实研究主题（如一堂课程、一次用户访谈、一个行业课题）。
-- [ ] 在当前层级跑通一个最小闭环：输入 → 处理 → 输出 → 反馈。
-- [ ] 用 [[yt-note-ai-human-division]] 判定哪些环节必须人做、哪些可以交给 AI。
-- [ ] 每升一层前，先回答：「这一层解决的真实问题是什么？没有 AI 我做不到吗？」
-- [ ] 达到 L3 后，把产出放入统一的项目 Wiki，而不是分散在聊天记录或本地文件。
-- [ ] L4/L5 启动前，必须跑通 [[case-纪浩-from-zip-to-five-layers]] 中的「四要素验证」，避免把假需求做成系统。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败症状自检
 

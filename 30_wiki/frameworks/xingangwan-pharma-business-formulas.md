@@ -6,11 +6,11 @@ title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠�
 type: framework
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - business-strategy
-  - product
-  - unit-economics
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-18'
 author: unknown
@@ -18,31 +18,31 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[xingangwan-pharma-business-model-formulas]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[yt-unit-model-construction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:
-- 全部转化率与客单价为推演假设，尚未经山西调研及首柜运营数据验证
-- 医保支付激活率、医保药毛利率受政策影响大，存在较大外部不确定性
+- src_unknown
+- src_unknown
 captured_at: '2026-06-19'
 tags:
-- 鑫港湾
-- 业务公式
-- 转化漏斗
-- 原研药
-- 医保引流
-- 智慧药柜
-- 医药零售
-- 客户旅程
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -386,28 +386,28 @@ tags:
 ## 十二、行动 Checklist
 
 ### 建模前
-- [ ] 已明确商业模式：医保药引流 + 原研药利润
-- [ ] 已选定最小业务单元（单柜/单店）
-- [ ] 已列出完整客户旅程阶段
-- [ ] 已确认每个阶段的数据来源
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 漏斗检查
-- [ ] 阶段数控制在 6–8 个
-- [ ] 每个阶段有明确的进入/离开口径
-- [ ] 标注了阶段间转化率和绝对流失数
-- [ ] 识别出最大绝对流失点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 公式检查
-- [ ] 目标指标（月毛利）在等式左侧
-- [ ] 变量控制在 3–5 个核心杠杆
-- [ ] 每个变量都有业务含义和可干预性评估
-- [ ] 已识别至少一个杠杆变量并设定量化改进目标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 落地与复盘
-- [ ] 干预方案与最大损耗点/杠杆变量挂钩
-- [ ] 已设定 A/B 测试或对照验证
-- [ ] 每 2 周更新漏斗数据
-- [ ] 每季度复盘杠杆变量优先级
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -16,17 +16,17 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md
 related:
-  - '[[case-lean-perfectionism-traps]]'
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 闭门造车案例集
@@ -85,25 +85,25 @@ related:
 
 所有案例的共同点是团队长期未让真实用户为假设投票：
 
-- O2O SaaS 4 个月后才接触商家；
-- IP 玩具两年未接触市场；
-- 老年相亲平台上线前未观察老年人真实上网行为；
-- 加热八宝粥团队以"怕抄袭"为由拒绝早期测试。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 在 FALSE 模型中，这些项目都跳过了 F（直接测试）和 A（人工服务）阶段，直接进入 E（最小版本）甚至 All-in。
 
 ### 2. 需求找错：把"我觉得需要"当成"市场需要"
 
-- 假设年轻人夜生活商家需要 SaaS 工具，但未验证商家付费意愿；
-- 假设培训机构需要综合实践课程，但未让机构参与课程定义；
-- 假设老年人会主动使用相亲平台，但未研究其使用习惯与信任门槛；
-- 假设水站/终端客户愿意为软件付费，但实际双方都不愿承担成本。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 方案做错/过早细化：在错误方向上把事情做对了
 
-- 智能送水系统把资源投向"开发系统"，但真实痛点可能是"订水流程中的某个具体环节"，而非需要一个新软件；
-- 加热八宝粥在"加热"这一方案上投入 50 万元，但用户实际比较的是外卖热食与普通八宝粥，加热版并未形成差异化优势；
-- O2O SaaS 在需求未验证前完成了完整系统，属于典型的"过早细化"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -116,8 +116,8 @@ related:
 5. **内部决策靠"共识"而非"证据"**：团队会议多、用户访谈少，产品路线图由内部判断驱动。
 
 不适用/需谨慎场景：
-- 强监管行业（医疗、金融、教培）不能用"假产品"直接测试，需改用合规调研或专家访谈 [conf=0.85, source=任务指令 L3 合规边界]。
-- 品牌敏感型高客单价产品，过度粗糙的 MVP 可能永久损伤信任 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

@@ -16,19 +16,19 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-tenx-formula]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 过早扩张案例集
@@ -104,21 +104,21 @@ related:
 ### 1. 过早扩张（最核心）
 
 在单点模型未跑通前就放大投入：
-- 沃柑项目未算清单位经济模型就扩大规模；
-- 鸭货店一家店未盈利就开百店；
-- 云教室拿了一个大标就全国复制。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些都属于 FALSE 模型中的 **All-in** 阶段前置——还没完成 F/A/L/S/E 验证，就直接进入重投入和规模化 [conf=0.85, source=framework-lean-false-model + framework-lean-six-wastes]。
 
 ### 2. 把局部信号当成全局验证
 
-- 云教室拿到「全国第一大标」是一个高势能个案，但个案不等于可复制、可盈利的标准化模型 [conf=0.75, source=讲师案例推演]。
-- 电影票平台可能在一个城市/一个品类验证后，就把业务范围无限扩大，误把「局部可行」当成「全局可行」。
+- src_unknown
+- src_unknown
 
 ### 3. 单位经济模型未验证
 
-- 沃柑项目「忽略了很多成本」，说明毛利模型未在被放大前反复核算；
-- 跨境电商「大量投放+大量运营」往往意味着获客成本、履约成本、退货率未在放大前跑通。
+- src_unknown
+- src_unknown
 
 ### 4. 未设置扩张的「通过/不通过」标准
 
@@ -162,8 +162,8 @@ ABCD 模型中，扩张属于 A 象限（商业成败）问题，应在 A 象限
 5. **2B SaaS/云教室**：先验证付费意愿、交付成本、续约率，再因一个大客户而组建全国团队。
 
 不适用场景：
-- 机会窗口极短、必须一次性押注全部资源的战略战役（但仍应设置止损线）。
-- 强监管行业扩张需先通过合规审查，不能简单套用「小步快跑」。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -182,14 +182,14 @@ ABCD 模型中，扩张属于 A 象限（商业成败）问题，应在 A 象限
 
 ## 相关卡/互链
 
-- 方法论框架：[[framework-lean-false-model]]
-- 六宗罪/浪费类型：[[framework-lean-six-wastes]]
-- 关键假设拆解：[[framework-lean-abcd-model]]
-- 认知投入光谱：[[framework-lean-tenx-formula]]
-- 低成本验证概念：[[yt-entrepreneur-lean-validation]]
-- 关键假设：[[yt-entrepreneur-key-hypotheses]]
-- MVP 落地：[[tool-泛产品落地-低成本测试MVP]]
-- 产品内核验证：[[concept-一堂-kernel-validation]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

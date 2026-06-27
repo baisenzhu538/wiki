@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-decision-hygiene
 title: 决策卫生五步法
@@ -19,12 +19,12 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-first-principles]]'
-  - '[[master-knowledge-compound]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 决策卫生五步法
 
@@ -163,32 +163,32 @@ related:
 
 ```
 Step 1 分解判断：
-  - 市场规模（1-10）：A=7, B=6, C=8
-  - 竞争强度（1-10）：A=8, B=7, C=9  
-  - 团队能力（1-10）：A=5, B=6, C=4
-  - 资金需求（百万）：A=3, B=5, C=4
-  - 执行风险（1-10）：A=7, B=6, C=8
+  - src_unknown
+  - src_unknown  
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 Step 2 外部视角：
-  - 同类项目过去 3 年成功率：30%
-  - 行业平均 ROI：1.5 倍
-  - 调整：我们的团队能力低于行业平均，成功率可能更低
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 Step 3 独立评估：
-  - 三人分别独立打分，提交前不知道彼此的答案
+  - src_unknown
 
 Step 4 聚合：
-  - 市场规模中位数：7
-  - 竞争强度中位数：8
-  - 团队能力中位数：5
-  - 资金需求中位数：4 百万
-  - 执行风险中位数：7
-  - 综合判断：市场规模 OK，但竞争强+团队弱+风险高 → 不建议投资
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 Step 5 延迟直觉：
-  - 24 小时后重新审视："我还同意'不建议投资'吗？"
-  - 如果同意 → 拍板
-  - 如果不同意 → 回到 Step 1，找出分歧来源
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ```
 
 ---
@@ -210,17 +210,17 @@ Step 5 延迟直觉：
 
 **Gary Klein**（"Sources of Power" 作者，自然决策理论创始人）基于数十年对消防员、急救医生、军事指挥官的田野观察，对"决策卫生"提出根本性质疑。Klein 的核心论证：**专家在真实场景中的直觉判断，往往优于耗时做的结构化分析**。
 
-- **核心挑战**：消防指挥官在秒级决策窗口中的直觉判断，事后分析往往优于耗时做效用计算的结果。五步法的"分解→外部→独立→聚合→延迟"在火灾现场根本不适用——等走完五步，楼已经烧完了。
-- **具体机制**：Klein 发现专家的直觉不是"随机猜测"，而是基于数千小时经验形成的"模式识别"——大脑在瞬间匹配当前情境与过往经验。五步法的"延迟直觉"直接否定了这种模式识别的价值。
-- **建议补充**：五步法只适用于"有时间做结构化判断"的场景。在紧急决策、时间压力、信息不完整的情况下，应该信任专家直觉——此时"卫生"不是减少噪声，是给直觉创造更好的信息环境。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 攻击者 2：Taleb（反脆弱/黑天鹅）—— 结构化流程制造"伪稳定"
 
 **Nassim Taleb**（《Antifragile》《黑天鹅》作者）对"聚合→减少噪声"的逻辑提出了"元风险"挑战。Taleb 的核心论证：**让不同人的判断趋向一致，不等于让判断更准确——可能只是让所有人犯了同一个错误**。
 
-- **核心挑战**：Kahneman 假设"噪声 = 错误"，但 Taleb 认为噪声中可能包含"有益的多样性"。聚合消除了"不一致"，但也可能消除了"有人恰好是对的"的可能性。群体智慧的数学基础假设判断误差是随机的——但如果误差是系统性的（比如所有人都被同一个框架误导），聚合只会放大错误。
-- **具体机制**：五步法的"外部视角"依赖历史基率——但 Taleb 认为"历史基率"本身就是脆弱的：过去 30 年的基率对未来 30 年没有预测力（黑天鹅事件会彻底改变基率）。用历史基率作为起点，等于假设"未来和过去相似"——这是最大的系统性偏差。
-- **建议补充**：在"高度不确定性"（Knightian uncertainty）场景下，五步法应该降级为"启发式"而非"流程"。聚合前应该强制检查："我们的判断中是否有人给出了显著不同的答案？那个不同的答案是否可能包含我们没有考虑到的信息？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

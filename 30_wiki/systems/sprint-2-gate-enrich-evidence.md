@@ -4,7 +4,7 @@
 title: Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 type: system
 domain:
-- kdo
+- src_unknown
 status: draft
 id: sprint-2-gate-enrich-evidence
 author: unknown
@@ -17,11 +17,11 @@ confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[sprint-6-cli-gap-proposal]]'
-  - '[[sprint-2-门禁举证验收]]'
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
-  - '[[dk-f1-regex-on-cjk]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 
@@ -140,9 +140,9 @@ timestamp: "2026-05-09T..."
 # Enrich Evidence: foo
 
 ## Changes Made
-- Condense: 从源提取 5 条核心概念，替换 TODO 占位
-- Critique: 新增 2 条质疑（假设检验 + 边界条件）
-- Synthesis: 添加 3 个 wikilinks
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Method
 LLM 三步编译（DeepSeek V4 Pro），temperature 0.3/0.4
@@ -225,11 +225,11 @@ enrich → produce:
 
 ### 共识项
 
-- ✅ `kdo gate` 独立命令
-- ✅ 举证存储 `60_feedback/enrich-evidence/`
-- ✅ P0 违规 exit 1，`--skip-gate` → exit 0
-- ✅ enrich 退出不用 status 字段，用内部标记
-- ✅ ingest 退出简化为两项
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 无待确认项。直接执行。
 

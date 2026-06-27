@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-to-barrier
-  - yt-business-model-competitive-moat
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们增长很好，但担心被复制'"
+  - src_unknown
     framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
     follow_up_question: "你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？"
-  - signal: "用户说'我们的优势是技术，但技术被复制了'"
+  - src_unknown
     framework_lens: 壁垒策略总纲——单一技术壁垒不够，需要多层次壁垒
     follow_up_question: "除了技术，你还有什么壁垒？网络效应、品牌、数据、生态？"
-  - signal: "用户说'我们到了增长天花板，不知道怎么突破'"
+  - src_unknown
     framework_lens: 壁垒策略总纲——壁垒可以帮助突破增长天花板
     follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - signal: "用户说'我们的利润被竞品价格战侵蚀'"
+  - src_unknown
     framework_lens: 壁垒策略总纲——壁垒保护定价权，避免价格战
     follow_up_question: "你的壁垒是否足够强，让用户愿意付溢价？"
-  - signal: "用户说'壁垒建设太慢，增长等不及'"
+  - src_unknown
     framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当增长时 → 同步建设壁垒
-- 当增长被复制时 → 强化壁垒
-- 当增长停滞时 → 壁垒突破
-- 当利润被侵蚀时 → 壁垒保护
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-to-barrier`：从增长到壁垒
-- `yt-business-model-competitive-moat`：商业模式护城河
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 竞争优势研究（Porter）
-- 巴菲特护城河理论
+- src_unknown
+- src_unknown
+- src_unknown

@@ -4,28 +4,28 @@ title: 技能：费曼简单提炼法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程（费曼学习法）
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-分享输出检验法]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[tool-立即实践转化法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-分享输出检验法]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[tool-立即实践转化法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-专题笔记脑图整理法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 标记工具
-- 三句话模板
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 把原文缩写成三句话，不是用自己的语言重新表达
+- src_unknown
   lens: 提炼变摘要
   follow_up: 费曼的核心是'翻译成自己的话'不是'浓缩原文'。用自己的话讲给不懂的人听
-- signal: 写完三句话就觉得理解了，没有拿去讲给别人听
+- src_unknown
   lens: 三句话不检验
   follow_up: 费曼的完整版是'提炼→讲述→发现盲区→回去重学→再讲'，跳过讲述等于没完成
-- signal: 直接写三句话，没有先做标记
+- src_unknown
   lens: 跳过划重点
   follow_up: 划重点帮你找到'最值得提炼的内容'，跳过这步提炼质量下降，先标记再提炼
-- signal: 读完一本书提炼三句话，信息量太大
+- src_unknown
   lens: 提炼对象过宽
   follow_up: 一本书只能覆盖一章。提炼单元应该是'一个核心观点'，不是整本书
-- signal: 写完后非常满意，没有暴露盲区
+- src_unknown
   lens: 盲区未暴露
   follow_up: 提炼的价值是发现你不懂什么。写完后发现'这句话对吗？好像不太确定'才是好提炼
 ---
@@ -88,8 +88,8 @@ diagnostic_signals:
 | **完美主义** | 追求三句话的文学性，反复打磨不输出 | 先完成再完美，三句话的检验价值在'讲'不在'写' |
 
 ## 工具/环境
-- 标记工具
-- 三句话模板
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -108,15 +108,15 @@ diagnostic_signals:
 3. 如果只能留一句话，会是哪一句？——如果选不出来，说明三句话其实是一句话的三种说法。
 
 ## 常见失败模式
-- 提炼变摘要：把原文缩写成三句话，而不是用自己的语言重新表达——费曼的核心是"翻译成自己的话"不是"浓缩原文"
-- 三句话不检验：写完三句话就觉得理解了，没有拿去讲给别人听——费曼的完整版是"提炼→讲述→发现盲区→回去重学→再讲"
-- 跳过划重点：直接写三句话，没有先做标记——划重点帮你找到"最值得提炼的内容"，跳过这步提炼质量下降
-- 提炼对象过宽："我读完这本书"——一本书信息量太大，三句话只能覆盖其中一章。提炼的单元应该是"一个核心观点"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-分享输出检验法]] — 费曼提炼的三句话，拿去分享就是最直接的检验
-- [[tool-清单小抄工具箱法]] — 提炼的三句话可以做成小抄，挂在手边
-- [[tool-立即实践转化法]] — 理解了就去做——费曼+立即实践=完整学习闭环
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L1.简单提炼：划重点/做标记，提炼三句话/触动和价值点

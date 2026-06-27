@@ -3,7 +3,7 @@
 id: ec工业化规范手册-v2.8.0
 created_at: 2026-05-03
 domain:
-- healthcare
+- src_unknown
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
@@ -14,7 +14,7 @@ trust_level: medium
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 confidence: 0.7
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
@@ -93,10 +93,10 @@ EC卡不是需求文档，也不是设计文档，而是**可执行的生产指�
 
 ### 五、Step 0 四步前置校验
 
-- **Step 0A 读卡确认**：回答6个理解确认问题，协调者核对无误方可继续
-- **Step 0B 环境校验**：git remote、推送权限、SDK版本、编译通过，截图发群
-- **Step 0C Push前强制检查**：分支正确性 + 编译0 error/warning + 单元测试全过 + 4张截图
-- **Step 0D 常见错误自查**：对照F001-F014逐条自查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 六、三层质量防护体系
 

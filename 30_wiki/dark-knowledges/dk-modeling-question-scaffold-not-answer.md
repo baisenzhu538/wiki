@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- yitang
-- modeling
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.89
@@ -16,50 +16,50 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[dk-tool-as-answer-trap]]'
-  - '[[tool-scenario-selector-modeling]]'
-  - '[[dk-modeling-case-explosion-confidence]]'
-  - '[[dk-tool-as-phased-validator]]'
-  - dk-modeling-radar-model-not-result
-  - dk-modeling-explanatory-vs-predictive-essence
-  - yt-lean-assumption-prioritization
-  - dk-modeling-ai-iterative-prompting
-  - modeling-three-stages
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown-three-stages
 bridges_to:
-- target: yt-lean-assumption-prioritization
+- src_unknown
   relation: provides_foundation_for
   description: 精益假设排序依赖模型提出可证伪问题，而不是给出排序答案
-- target: dk-modeling-radar-model-not-result
+- src_unknown
   relation: applies_when
   description: 组织把模型结果当成决策终点，忘记模型只是提问工具
-- target: dk-modeling-explanatory-vs-predictive-essence
+- src_unknown
   relation: provides_foundation_for
   description: 解释型模型与预测型模型都服务于提出更好的问题
 diagnostic_signals:
-- signal: 团队争论“这个模型对不对”，而不是“这个模型帮我们提出了什么问题”
+- src_unknown
   framework_lens: 模型即问题视角：模型的价值在于暴露假设，而不是提供结论
   follow_up_question: 如果模型是错的，它会带我们问出哪个更有价值的问题？
-- signal: 模型输出后直接写执行方案，没有中间的问题清单
+- src_unknown
   framework_lens: 脚手架视角：模型输出应转化为可验证问题，再进入执行
   follow_up_question: 这个模型输出能拆解成几个必须回答的子问题？
-- signal: 同一模型在不同场景被当作标准答案使用
+- src_unknown
   framework_lens: 边界视角：模型的有效性取决于问题边界，不能跨边界复用
   follow_up_question: 这个模型在当前场景的边界条件是什么？
 query_triggers:
-- 模型是干什么的
-- 模型不是答案
-- 怎么用模型提问
-- 模型和假设的关系
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
 updated_at: '2026-06-18'
 tags:
-- '#perspective/critical'
-- '#method/modeling'
-- '#scene/business-strategy'
-- '#scene/strategy'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 ## 原始表述 / 核心洞察
 
@@ -67,11 +67,11 @@ tags:
 
 这个模式在第二十三、二十四节精修中反复出现：
 
-- **建模域**：`dk-modeling-radar-model-not-result` —— 雷达图/段位图不是结果，而是帮助团队问出“我们在哪些维度上失衡”。
-- **建模域**：`dk-modeling-explanatory-vs-predictive-essence` —— 解释型模型回答“为什么发生”，预测型模型回答“接下来会怎样”，两者共同服务于更好的问题。
-- **精益域**：`yt-lean-assumption-prioritization` —— 假设排序模型的输出不是“先做哪个”，而是“哪些假设如果错了会让整件事崩塌”。
-- **AI 协作域**：`dk-modeling-ai-iterative-prompting` —— AI 不是一次性给出模型，而是通过迭代提示不断把问题拆得更细。
-- **建模流程**：`modeling-three-stages` —— 建模三阶段本质上是把大问题拆成“结构问题→量化问题→验证问题”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 跨域共同模式：**模型 = 提问的脚手架；答案 = 校验后的行动**。两者不能互换。
 
@@ -99,9 +99,9 @@ tags:
 
 ## 适用边界
 
-- **适合**：问题复杂、假设多、需要团队共识、可获取反馈数据的场景。
-- **不适合**：问题已经非常明确、可以直接执行、无需验证的简单任务。
-- **注意**：把模型当脚手架会增加前期问题拆解时间，但能减少后期返工。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -115,19 +115,19 @@ tags:
 
 ## 与其他知识的关联
 
-- [[dk-modeling-radar-model-not-result]]：雷达图/段位图应被当作提问工具，而不是结果展示。
-- [[dk-modeling-explanatory-vs-predictive-essence]]：解释型与预测型模型都服务于提出更好的问题。
-- [[yt-lean-assumption-prioritization]]：假设排序模型的真正价值是暴露高风险假设。
-- [[dk-modeling-ai-iterative-prompting]]：AI 辅助建模时，通过迭代提示不断细化问题。
-- [[modeling-three-stages]]：建模三阶段本质上是把大问题拆成可验证的子问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 **单卡收尾检查**：
-- [x] 用一句话讲清楚
-- [x] 核心要点已提炼
-- [x] 边界与失败模式已明确
-- [x] 跨域案例 ≥2 个域
-- [x] 相关卡/互链 ≥2 条有效内部链接
-- [x] source_refs 指向真实存在的 10_raw/sources/ 文件
-- [x] status = enriched，confidence ≤ 0.89，reviewed_by = 欧阳锋
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
@@ -19,26 +19,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-iteration
-  - yt-demand-early-validation
-  - yt-five-step-method
-  - yt-entrepreneur-key-hypotheses
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户花6个月做产品，上线后发现没人用"
+  - src_unknown
     framework_lens: 过早细化——在验证前投入大量资源完善产品
     follow_up_question: "产品开发前，你用什么方法验证了内核假设？"
-  - signal: "用户说'产品必须完整才能上线'"
+  - src_unknown
     framework_lens: 过早细化——追求完美，忽视验证
     follow_up_question: "如果砍掉一半功能，核心需求还能验证吗？"
-  - signal: "用户在产品细节上花大量时间，但核心功能未验证"
+  - src_unknown
     framework_lens: 过早细化——关注细节，忽视核心
     follow_up_question: "用户选择你们，是因为细节完美，还是因为核心功能解决了问题？"
-  - signal: "用户说'竞品功能很多，我们必须也有'"
+  - src_unknown
     framework_lens: 过早细化——竞品驱动，未验证自身需求
     follow_up_question: "竞品的这些功能，用户真的在用吗？你的用户有同样的需求吗？"
-  - signal: "用户团队内部争论UI细节，但核心流程未确定"
+  - src_unknown
     framework_lens: 过早细化——在错误的时间关注错误的事情
     follow_up_question: "核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？"
 
@@ -90,9 +90,9 @@ diagnostic_signals:
 ### 4. 判断是否在过早细化
 
 问自己：
-- 这个功能是否服务于核心假设验证？
-- 去掉这个功能，会影响验证结果吗？
-- 如果核心假设不成立，这个功能还有价值吗？
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果答案都是"否"，可能在过早细化。
 
@@ -118,22 +118,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当要开发新功能时 → 问"这个功能服务于核心假设验证吗？"
-- 当追求完美时 → 问"核心假设验证了吗？"
-- 当和竞品比较功能时 → 问"竞品的功能验证成功了吗？"
-- 当争论细节时 → 问"核心流程验证了吗？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-demand-early-validation`：需求早期验证低成本测试法
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-key-hypotheses`：关键假设验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 精益创业（Eric Ries）：MVP方法论
+- src_unknown
+- src_unknown
+- src_unknown

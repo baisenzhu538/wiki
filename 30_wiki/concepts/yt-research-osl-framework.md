@@ -15,38 +15,38 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - research- yitang
+  - src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 调研方法
-- OSL五步法
-- 商业调研
-- 调研流程
-- 系统式调研
-- 调研框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-笔记.txt
 related:
-  - '[[ocr-婚礼操盘-用户和场景]]'
-  - '[[framework-yitang-oscar-research]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[一堂]]'
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[yt-research-mindset]]"
-  - "[[yt-research-action-camp-launch]]"
-  - "[[yt-decision-y-model]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-case-mandatory-cases]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   map: entrepreneur
   module: 调研方法论
@@ -54,21 +54,21 @@ yitang:
   course_type: framework
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 调研前明确写出目标（O）、范围（S）和清单（L）
+- src_unknown
   framework_lens: OSL是调研的脚手架
   follow_up_question: 你的调研目标能用一句话说清吗？它对应哪个具体决策？
-- signal: 每一步都有明确产出物，下一步基于上一步
+- src_unknown
   framework_lens: 里程碑式工作流
   follow_up_question: 你现在卡在OSL的哪一步？产出物是什么？
-- signal: 获取情报后会做归一整合，形成统一结论
+- src_unknown
   framework_lens: 调研的终点是整合
   follow_up_question: 多源信息之间的矛盾你是如何处理的？
-- signal: 创业者说"我做了很多调研，但决策时感觉还是凭感觉"
+- src_unknown
   framework_lens: 调研做了但没用——缺少"决策转化"环节
   follow_up_question: 你的调研结果有没有提炼成一张表：关键假设→调研结论→对决策的影响方向？
-- signal: 团队调研了2周，报告写了50页，但说不出最关键的一个结论
+- src_unknown
   framework_lens: 调研广度过剩、深度不足——缺少关键假设上的收敛
   follow_up_question: 如果现在必须用一句话回答调研目标（OSL Step 1），你会说什么？
 
@@ -130,9 +130,9 @@ OSL每一步配套策略卡，共18张（降龙十八掌）：
 
 OSL的三条边界声明揭示了框架的内在张力：
 
-- **结构化美感与混沌现实的冲突**：OSL隐含"调研可以被拆解为线性步骤"的假设，但真实调研中大量信息是涌现的、关联的、非线性的——框架的整洁分类本身可能扭曲问题结构。
-- **里程碑的"形式主义"陷阱**：团队完成OSL每一步的"动作"（划了范围、列了清单）并不等于完成了"质量"。很多团队的OSL流程变成"填空游戏"——表单填完了，但每个填空都是粗略的。
-- **共识工具与权力结构的共谋**：OSL作为团队共同语言可以减少"我觉得"，但现实中框架可能被用作权力合法化工具——"我们用OSL分析过了"成为不容质疑的挡牌牌。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -140,30 +140,30 @@ OSL的三条边界声明揭示了框架的内在张力：
 
 **Herbert Simon**（诺贝尔经济学奖得主，决策理论创始人）对OSL的线性步骤设计提出根本性质疑：
 
-- **人类决策者的有限理性**：Simon 证明人类在处理复杂问题时只具有"有限理性"——我们无法同时考虑所有维度。OSL要求在第2步就"头脑清晰"地划定范围，但真实情况是调研者在第4步获取信息后才真正理解问题的复杂性。让一个有限理性的决策者在信息不充足时做出"不回退"的承诺，等于让他在盲目下赌博。
-- **满意决策而非最优决策**：Simon 的"满意原理"（Satisficing）表明，人类在复杂环境中不追求最优解，而是追求"足够好"的解。OSL的"穷尽手段"心法暗含着最优解追求，但这与人类决策的本性相矛盾。
-- **适用范围的分歧**：OSL适用于"目标相对明确、信息可获取、时间充足"的调研；Simon 的满意原理适用于"时间压力大、信息不完备、需要快速决断"的场景。Simon 会质疑：如果你是一位创业者，面对一个突发机会，真的有时间走完OSL五步吗？还是说"大致了解就上"才是更有效的策略？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Karl Weick 的"意义构建"：批判
 
 **Karl Weick**（组织心理学家，意义构建理论创始人）从组织认知角度对OSL提出补充性质疑：
 
-- **调研不是"发现"而是"构建"的过程**：Weick 证明，在复杂组织中，情报不是客观存在等待被"获取"的，而是被调研者"构建"出来的——同一个市场现象，不同背景的调研者会"构建"出完全不同的意义。OSL的"归一"步骤暗含着"存在唯一正确结论"的假设，但Weick认为结论是多元的、情境依赖的。
-- **"感性意向"（Sensemaking）的缺失**：OSL强调结构和步骤，但Weick的研究表明，在不确定性中，人们通过"故事"、"比喻"、"社会互动"来构建意义——这些非线性、非结构化的过程在OSL中没有位置。
-- **行动与调研的边界模糊**：OSL将调研和决策分为两个阶段，但Weick认为"行动"本身就是一种调研——你通过尝试做一些小事来理解复杂环境，而不是先做完调研再行动。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-decision-y-model]] —— Y模型科学决策框架
-- [[yt-entrepreneur-key-hypotheses]] —— 关键假设验证方法论
-- [[yt-research-intelligence-map]] —— 情报获取全景地图
-- [[yt-research-hypothesis-test]] —— 关键假设→可证伪问题→最小实验
-- [[yt-research-industry-canvas]] —— 五维快速扫描+二维定位
-- [[yt-research-user-jtbd]] —— 区分"说的"和"真正要的
-- [[yt-research-mindset]] —— 从"找答案"到"拆解假设
-- [[yt-research-action-camp-launch]] —— 一堂调研行动营启动课，OSL 的课堂形态
-- [[yt-case-mandatory-cases]] —— 一堂案例必修课，为 OSL 调研提供失败/成功样本库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -208,10 +208,10 @@ OSL的三条边界声明揭示了框架的内在张力：
 
 ### Step 3：List — 每个维度列 3-5 个对象
 
-- 客户：公立医院信息科主任 ×2、私立诊所负责人 ×2、行业 KOL ×1
-- 竞品：A、B、C、D、E 五家产品官网+公开评测
-- 法规：国家卫健委/药监局公开文件 ×3
-- 商业模式：付费决策者 ×2
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：Acquire — 三端情报获取
 
@@ -237,11 +237,11 @@ OSL的三条边界声明揭示了框架的内在张力：
 
 ### 检查点
 
-- [ ] O 步目标能否用一句话说清，且对应一个具体决策？
-- [ ] S 步是否至少有 1 个维度明确"不调研"？
-- [ ] L 步每个对象是否有来源/负责人/截止时间？
-- [ ] A 步收集的信息是否覆盖了"用户端、内部、外部"三端？
-- [ ] N 步是否输出"关键假设→验证结果→置信度→决策建议"？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

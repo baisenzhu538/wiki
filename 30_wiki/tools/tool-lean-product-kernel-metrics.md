@@ -10,24 +10,24 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
 related:
-  - '[[yt-product-ten-metrics]]'
-  - '[[yt-model-product-core-metrics]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 产品内核十大典型指标
@@ -65,40 +65,40 @@ related:
              满意率
 ```
 
-- **获客环节**：验证用户是否愿意为「价值主张」付出第一次行动。
-- **服务环节**：验证产品交付后，用户是否能真正获得承诺价值。
-- **复购环节**：验证价值足够持续，让用户产生长期关系。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
 1. **明确当前最高风险环节**
-   - 是没人来（获客），还是来了留不住（服务），还是留住了不再买（复购）？
-   - 一次只聚焦一个环节，避免十个指标同时看、一起看花眼。
+   - src_unknown
+   - src_unknown
 
 2. **在该环节选一个「可证伪」的核心指标**
-   - 例如：验证需求是否存在，优先看**销转率/捕获率**；验证交付是否成立，优先看**留存率/满意率**；验证商业模式是否持续，优先看**复购率/续费率**。
+   - src_unknown
 
 3. **定义分子、分母、时间窗口和统计口径**
-   - 留存率的 N 是天、周还是月？
-   - 复购率是按用户人次还是按用户人数？
-   - 口径不同，结论可能完全相反。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **采集基线数据**
-   - 先记录自然流量下的现状，而不是直接设定目标。
-   - 没有基线，就无法判断实验是否带来真实变化。
+   - src_unknown
+   - src_unknown
 
 5. **设定通过/不通过阈值**
-   - 例如：若 7 日留存率 < 20%，则判定当前内核不成立，需回炉。
-   - 阈值应来自业务模型和早期访谈，而不是简单对标行业均值。
+   - src_unknown
+   - src_unknown
 
 6. **用最小实验或真实业务流跑数据**
-   - 数字产品：埋点 + A/B 测试。
-   - 实体零售：人工计数 + POS 小票。
-   - B2B 服务：销售漏斗 + 客户成功回访。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 7. **根据结果做决策**
-   - 达标：进入下一环节或扩大样本。
-   - 不达标：回退到假设拆解，调整产品内核或转型。
+   - src_unknown
+   - src_unknown
 
 ## 成本 / 周期 / 样本量
 
@@ -116,16 +116,16 @@ related:
 
 ### 最适合的场景
 
-- 产品已经有最小可用形态，能产生真实用户行为数据。
-- 商业模式依赖**复购或长期关系**（消费品、SaaS、教育、本地服务）。
-- 团队已经拆解出「获客 / 服务 / 复购」中的最高风险假设，需要定量验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整的场景
 
-- **强监管行业（医疗、金融、教培）**：退款率、满意率、推荐率等指标的采集和使用可能涉及隐私、广告法或行业合规要求，需先确认数据使用边界 [conf=0.80, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：过度激进的「捕获率」优化（如弹窗、低价引流）可能损伤信任，需用更克制的指标组合。
-- **B2B 长决策链**：采购周期长、决策人多，用「销转率」直接衡量可能失真，应补充「阶段推进率」「关键人认同度」等中间指标。
-- **一次性购买产品**：复购率/续费率天然低，应更看重**推荐率**和**满意率**，并谨慎解读。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -143,8 +143,8 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，D 方案只做一张海报/小程序，让用户扫码报名内测。此时最高风险假设是「中国用户是否对电动滑板出行感兴趣」，对应的内核指标就是**捕获率**（扫码人数 / 路过人流量）或**销转率**（报名数 / 扫码数）。
 
-- 若捕获率低于阈值，项目可在几天内证伪，避免进入 A 方案的 200–300 万元重投入。
-- 若捕获率达标，再升级到 C/B/A，逐步验证服务交付和复购可持续。
+- src_unknown
+- src_unknown
 
 这个案例说明：十大指标不是一开始全用，而是根据验证阶段选择**能回答当前最高风险假设**的那一个。
 
@@ -154,10 +154,10 @@ related:
 
 ## When NOT to Use
 
-- **产品形态尚未确定、没有真实用户行为时**：此时应先用 [[framework-lean-false-model]] 中的「假营销 / 假产品 / 做预售」验证需求是否存在，而不是硬造指标。
-- **样本量不足以支撑统计意义时**：5 个用户的留存率波动可能是偶然，不要据此下结论。
-- **团队会把指标当目标、为了数字好看而牺牲用户体验时**：指标系统是辅助判断，不是 KPI 机器。
-- **合规不允许直接实验或追踪用户行为时**：应改用访谈、行业报告、竞品对标等替代方式。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -167,9 +167,9 @@ related:
 
 ### 其他局限
 
-- **描述性而非解释性**：十大指标告诉你「哪里出了问题」，但不会自动告诉你「为什么」。必须配合用户访谈、客服记录、行为录屏等定性方法。
-- **基准值差异大**：同一指标在不同行业、不同客单价、不同渠道下的合理区间可能相差数倍，盲目对标会误导决策。
-- **不能替代假设验证**：指标是测量工具，不是验证逻辑。如果指标设计本身就是为了「证明自己对」，再漂亮的数字也没有意义。应与 [[yt-entrepreneur-key-hypotheses]] 和 [[concept-一堂-kernel-validation]] 结合使用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

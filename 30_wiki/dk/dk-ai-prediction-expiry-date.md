@@ -11,30 +11,30 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-chair-determines-view]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[case-ai-job-displacement-wef]]"
-  - "[[case-deepfake-market-misuse]]"
-  - "[[case-ai-companion-emotional]]"
-  - "[[case-roblox-ai-npc-education]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 预言的保质期
@@ -106,9 +106,9 @@ related:
 | 明显滞后或未实现 | 1 项（7%） | 少数预测尚未兑现 |
 
 这组数字说明：
-- **短期被高估**：少数预测（7%）明显滞后，提醒我们不要把所有技术承诺都当作必然。
-- **长期被低估**：36% 的预测比预期更早或更猛，说明一旦技术越过临界点，影响会超出原预测。
-- **乐观有保质期**：书中的乐观基调是大模型时代前夜的乐观，作者之一陈楸帆在 2025 年已明确改口 [conf=0.85, source=王欢逐字稿/中国作家网 2025-03-18]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 保质期分层模型
 
@@ -130,11 +130,11 @@ related:
 
 ## 使用场景
 
-- 阅读技术/商业预测类书籍、报告、长文时，判断其结论是否仍有效。
-- 在投资、产品、职业决策中引用 AI 预测前，先做时间戳校验。
-- 面对 AI 焦虑新闻时，区分「已发生」「大概率发生」「小概率发生」「已过期」。
-- 与 [[tool-tech-probability-80-filter]]、[[tool-ai2041-source-verification-checklist]] 组合使用，形成完整的预测审阅流程。
-- 追踪作者/领域后续表态，更新已有预测的保质期标签。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,11 +149,11 @@ related:
 
 ### 商业：把保质期思维嵌入决策流程
 
-- [ ] 在每次引用 AI 预测时，先标注预测的出版年份与技术代际。
-- [ ] 对 2 年以上未更新的预测，强制做一次「保质期复核」。
-- [ ] 在产品路线图中，区分「基于已验证趋势的确定性投入」与「基于未证预测的观察性投入」。
-- [ ] 对作者有明显利益位置（如投资人、创业者）的预测，缩短其默认有效期。
-- [ ] 建立团队内部的「预测过期清单」，定期复盘哪些预测已失效、哪些提前兑现。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与 80% 概率过滤器的组合使用
 

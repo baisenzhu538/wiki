@@ -7,26 +7,26 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 1881
 language: zh-CN
 query_triggers:
-- 五段式架构
-- 关联卡片
-- 四种辩证思考
-- 底层逻辑
-- 无限进步大地图
-- 核心口号
-- 知识体系定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-personal-map]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[一堂]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-model-personal-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
@@ -40,12 +40,12 @@ yitang:
   module: 方法论总纲
   course_type: model
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户把无限进步大地图当收藏，但不知道今天该学什么
+- src_unknown
   framework_lens: 总图缺乏落地路径——地图太大，没有转化为当下的学习优先级
   follow_up_question: 你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位
-- signal: 用户在快速上手阶段就焦虑自己还没开始无限修炼
+- src_unknown
   framework_lens: 阶段焦虑——把终局视角当成当前要求
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
@@ -87,16 +87,16 @@ trust_level: medium-high
 ### 底层逻辑
 
 地图底部是 Y 模型和八字方针：
-- **实事求是 解放思想**——一堂方法论的根
-- **知行合一**——所有修炼的落脚点
-- **解决真正问题**——终极目标
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心口号
 
-- 「不要急不要停：人生就是一场无限进步的游戏」
-- 「新同学不要怕，老同学不要停」
-- 「因为科学本身，就是我们唯一的前路」
-- 「没有什么弯路可以通向科学」
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -111,10 +111,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
-- [[yt-model-management-map]]
-- [[yt-model-personal-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

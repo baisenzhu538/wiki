@@ -3,47 +3,47 @@ id: structured-ai-workspace
 title: "结构化AI工作空间搭建"
 type: tool
 domain:
-  - ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of:
-  - ai-collaboration-mindset-shift
+  - src_unknown
 related:
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[prd-as-ai-instruction]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[concept-纪浩-ai-collaboration-five-layer]]"
-  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - AI工作空间怎么搭建
-  - 和AI协作文件怎么管理
-  - AI任务越来越乱
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "AI任务多了以后文件乱成一团"
+  - src_unknown
     lens: "结构缺失"
     follow_up: "创建五大模块：系统自述、领域知识、Agent服务文档、任务管理、日志"
-  - signal: "经常需要重新'投胎'让AI重来"
+  - src_unknown
     lens: "上下文丢失"
     follow_up: "检查是否有系统自述和领域知识模块，确保AI能快速了解项目背景"
-  - signal: "同一个任务每次都要重新解释"
+  - src_unknown
     lens: "SOP缺失"
     follow_up: "写一份SOP文档存入Agent服务文档，下次执行时不再需要解释"
-  - signal: "团队成员不知道AI做了什么"
+  - src_unknown
     lens: "日志缺失"
     follow_up: "建立日志模板，要求AI每次执行后记录，任务状态可追溯"
-  - signal: "工作空间维护时间超过20%工作时间"
+  - src_unknown
     lens: "过度工程"
     follow_up: "简化模块，只保留核心，维护成本必须小于节省的时间"
 ---# 结构化AI工作空间搭建
@@ -67,26 +67,26 @@ AI任务越多越乱的根源是缺少结构化的工作空间。纪浩提出五
 ## 操作步骤
 
 ### 模块一：系统自述
-- 写清楚项目的架构、组件、技术栈
-- 目的：让AI快速了解项目背景
+- src_unknown
+- src_unknown
 
 ### 模块二：领域知识
-- 业务知识、术语库、行业规范
-- 暗知识：**不要把领域知识和项目知识混在一起**
+- src_unknown
+- src_unknown
 
 ### 模块三：Agent服务文档
-- 导诊台：AI是谁、能做什么、怎么用
-- 工作手册：具体任务的SOP
-- 工具集：已验证的Skill和模板
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 模块四：任务管理
-- 定义：任务是什么
-- 状态：进行中/完成/阻塞
-- 交付物：什么时候交什么
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 模块五：日志
-- 问题排查记录
-- 决策追溯记录
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -119,9 +119,9 @@ AI任务越多越乱的根源是缺少结构化的工作空间。纪浩提出五
 ## Critique
 
 ### 内部局限
-- 五大模块在小项目中可能"过重"。
-- 场景聚合要求对业务有深入理解，初学者难以实施。
-- 维护成本高，尤其是日志模块很容易被忽略。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

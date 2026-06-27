@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-canvas
-  - yt-product-kernel-premature-optimization
-  - yt-product-kernel-iteration
-  - yt-five-step-method
-  - skill-一堂-product-kernel-add-subtract
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户只加功能，从不减功能"
+  - src_unknown
     framework_lens: 产品内核加减法——只加不减，内核被稀释
     follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
-  - signal: "用户说'这个功能可能有人用'，所以保留"
+  - src_unknown
     framework_lens: 产品内核加减法——'可能'不是保留的理由
     follow_up_question: "这个功能的使用率是多少？如果低于5%，是否该砍掉？"
-  - signal: "用户砍掉功能后，用户流失"
+  - src_unknown
     framework_lens: 产品内核加减法——砍错了功能
     follow_up_question: "流失用户是因为砍掉的功能，还是其他原因？"
-  - signal: "用户说'竞品有这个功能，我们也需要'"
+  - src_unknown
     framework_lens: 产品内核加减法——竞品驱动加减
     follow_up_question: "竞品的这个功能，用户使用频率高吗？你的用户有同样的需求吗？"
-  - signal: "用户功能越来越多，但核心功能体验下降"
+  - src_unknown
     framework_lens: 产品内核加减法——资源分散，核心受损
     follow_up_question: "新增功能的开发资源，是否占用了核心功能的优化资源？"
 
@@ -60,26 +60,26 @@ diagnostic_signals:
 ### 1. 加法原则
 
 什么该加：
-- 能提升关键转化率的功能
-- 用户频繁请求且验证过的功能
-- 强化内核差异化的功能
+- src_unknown
+- src_unknown
+- src_unknown
 
 什么不该加：
-- "可能有人用"的功能
-- 竞品有但用户不用的功能
-- 技术能做但用户不需要的功能
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 减法原则
 
 什么该减：
-- 使用率低于5%的功能
-- 维护成本高但价值低的功能
-- 与内核方向不符的功能
+- src_unknown
+- src_unknown
+- src_unknown
 
 什么不该减：
-- 影响关键转化率的功能
-- 用户选择的核心功能
-- 差异化竞争优势功能
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 加减法的决策流程
 
@@ -130,22 +130,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当考虑新增功能时 → 问"能提升关键转化率吗？"
-- 当考虑砍掉功能时 → 问"影响关键转化率吗？"
-- 当功能膨胀时 → 统计使用率，砍掉低于5%的
-- 当资源有限时 → 优先保障核心功能，砍掉边缘功能
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-five-step-method`：五步法总纲
-- `skill-一堂-product-kernel-add-subtract`：产品内核加减法技能
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

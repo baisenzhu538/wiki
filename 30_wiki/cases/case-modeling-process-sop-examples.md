@@ -6,16 +6,16 @@ title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- "#case"
-- "#method/modeling"
-- "#source/truman"
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,29 +26,29 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 diagnostic_signals:
-- signal: 团队成员反复犯同样的操作错误，每次复盘都发现是"漏了某一步"
+- src_unknown
   framework_lens: 流程建模
   follow_up_question: 这个任务是否每周/每月重复发生？失败的直接成本是什么？
-- signal: 关键岗位一旦换人，产出质量就大幅波动
+- src_unknown
   framework_lens: SOP + 检查清单
   follow_up_question: 是否有一份新人不请教老人也能独立执行的步骤文档？
-- signal: 写了 SOP，但执行率只有 50-70%，时好时坏
+- src_unknown
   framework_lens: 给 SOP 加 SOP
   follow_up_question: 是否给 SOP 配套了督导和品控两层锁？
-- signal: SOP 只有文字，没有场景示例，新人看完还是不会做
+- src_unknown
   framework_lens: SOP 颗粒度与场景化
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - "[[process-modeling]]"
-  - "[[tool-sop-template-modeling]]"
-  - "[[case-modeling-process-sop-evolution]]"
-  - "[[dk-modeling-logical-cleanliness-root]]"
-  - "[[dk-modeling-sop-execution-locks]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）
@@ -90,20 +90,20 @@ Truman 在口述中强调，这些案例的共性不是"行业相同"，而是**
 
 ## 结果
 
-- **覆盖度**：10 个样本横跨零售、内容、服务、制造、政务采购等多个领域，说明流程建模是跨行业的通用建模形态。
-- **执行稳定性**：案例中的 SOP 都把"容易掉链子"的环节（如主播话术、新人放映、样品寄送、会销转化）从"靠记忆"变成"靠清单"。
-- **组织价值**：SOP 降低了对关键人的依赖，让团队能力从"个人经验"沉淀为"组织能力"。
-- **段位标志**：Truman 认为，如果一个人/团队能持续每月至少产出 1 个可用的 SOP 或清单，就达到了建模能力的 L3 段位。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可迁移
 
-- **线下门店/零售**：把排班、生产、闭店、盘点等日常动作标准化，降低店长离职带来的波动。
-- **直播/销售**：把高转化话术、动作、节奏固化为逐字稿 SOP，让新人主播快速达到基准水平。
-- **会议/协同**：把低效会议改造成有明确流程、角色、产出物的标准会议，减少"开了等于没开"。
-- **ToB/ToG 服务**：把项目交付、采购、售后等长流程拆成可检查的清单，降低交接风险。
-- **新人培训**：把老人的最佳实践封装成新人可独立执行的 SOP，缩短上手周期。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -134,32 +134,32 @@ Truman 在口述中强调，这些案例的共性不是"行业相同"，而是**
 
 一个可落地的 SOP，在发布前应至少通过以下 9 项检查：
 
-- [ ] **触发条件明确**：什么情况下必须启用这个 SOP？
-- [ ] **目标清晰**：做到什么程度算合格？有明确的验收标准吗？
-- [ ] **步骤五要素完整**：每个步骤是否包含动作、标准、时限、责任人、输入/输出？
-- [ ] **颗粒度合理**：关键风险点足够细，低风险环节没有过度细化。
-- [ ] **有场景示例**：至少包含 1 个正面示例和 1 个常见错误示例。
-- [ ] **有督导机制**：谁检查执行者是否按 SOP 做了？如何记录？
-- [ ] **有品控机制**：谁检查督导的工作质量？防止督导走过场。
-- [ ] **有更新机制**：每次意外/高光后 24 小时内讨论是否更新 SOP。
-- [ ] **有 owner 和版本号**：明确负责人，避免"人人有责等于无人负责"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联框架
 
-- [[process-modeling]] —— 流程建模的完整方法：识别建模点、趁热复盘、输出清单/SOP、加锁稳定使用、定期迭代
-- [[tool-sop-template-modeling]] —— SOP/模板建模法：把关键动作固化成标准工作流
-- [[case-modeling-process-sop-evolution]] —— 一堂 2021-2024 年 SOP 清单演进史，展示同一组织如何从大流程到子清单持续细分
-- [[dk-modeling-logical-cleanliness-root]] —— 逻辑洁癖是 SOP 之本：生清单、优先级、MECE、逻辑链
-- [[dk-modeling-sop-execution-locks]] —— SOP 稳定执行的督导/品控两层锁
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`（OCR 识别出 10 个学员 SOP 案例）
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:250-3534`（流程建模段位、SOP 加锁、张阳主播 SOP 等口述内容）
+- src_unknown
+- src_unknown
 
 ---
 

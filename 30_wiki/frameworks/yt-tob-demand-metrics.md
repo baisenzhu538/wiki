@@ -6,18 +6,18 @@ title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/demand-analysis'
-- '#topic/market-sizing'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,27 +26,27 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-demand-scenarios]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 讲不清目标客户每年在类似事项上花多少钱，只能用"行业很大"说服自己
+- src_unknown
   framework_lens: 成本占有率
   follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？
-- signal: 把行业总产值直接当作自己的市场规模
+- src_unknown
   framework_lens: 业务天花板
   follow_up_question: 单家目标客户为此付出的专项成本是多少？我能切到的占有率上限是多少？同类客户又有多少家？
-- signal: 客户决策链长、成交慢，但团队仍按 To C 的"情绪价值"逻辑推销
+- src_unknown
   framework_lens: To B 收入本质
   follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
 
@@ -112,9 +112,9 @@ $$
 $$
 
 其中：
-- **单家客户专项成本**：目标客户在该需求上每年支出的总成本。
-- **成本占有率**：你作为服务商能够切到的合理比例。
-- **目标客户数量**：符合该画像、存在同类需求的企业数量。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 可视化：来自 06 图「测算需求」
 
@@ -199,11 +199,11 @@ $$
 
 **使用 Checklist**
 
-- [ ] 已找到客户成本结构中真实、长期、可量化的支出项
-- [ ] 已区分"客户总支付"与"我可留存毛利"两个口径
-- [ ] 三个变量均有至少一个真实数据点，而非仅来自行业报告
-- [ ] 已识别最大不确定变量，并设计了最小成本验证实验
-- [ ] 测算结果仅用于判断"量级是否值得投入"，不作为财务预测或融资依据
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -215,16 +215,16 @@ $$
 
 ### 3.2 客户原成本结构
 
-- 自有施工人员 100 人，年工资约 12 万元/人。
-- 对应人工成本 = 100 × 12 万 = **1200 万元**。
-- 假设该企业当年落地项目总成本约 **1 亿元**，则人工成本占有率 = 1200 万 / 1 亿 = **12%**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3.3 外包替代方案
 
-- 市场同等水平人员成本约 8 万元/人，劳务公司代付 100 人人工成本 = 100 × 8 万 = **800 万元**。
-- 劳务公司收取服务费 = **120 万元**。
-- 客户向劳务公司合计支付 = 800 万 + 120 万 = **920 万元/年**。
-- 客户原自有成本 1200 万，外包后节省 = 1200 万 - 920 万 = **280 万元/年**，同时解决编制、质量与安全管控问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3.4 天花板测算
 
@@ -262,18 +262,18 @@ $$
 
 ## 六、与课程其他框架的关系
 
-- 与 [[yt-entrepreneur-five-step-method]] 的关系：本框架是五步法中"需求"环节的两个定量指标。
-- 与 [[yt-tob-revenue-is-customer-cost]] 的关系：本框架是该第一性原理的量化操作化，收入=客户成本是"为什么算"，成本占有率+天花板是"怎么算"。
-- 与 [[yt-tob-demand-scenarios]] 的关系：四象限先判断客户经营重心（老客/新客、老品/新品），再用本框架判断该重心下的需求量级。
-- 与 [[yt-unit-model-three-tools]] 的关系：成本占有率的计算需要借助单元模型拆解客户成本结构。
-- 与 [[yt-business-formula-business-pattern-selector]] 的关系：天花板测算结果可用于判断商业模式选择（产品型/服务型/项目型）。
-- 与 [[yt-entrepreneur-key-hypotheses]] 及 [[yt-lean-assumption-prioritization]] 的关系：业务天花板是需验证的关键假设之一，应尽早用最小成本验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- 本框架为徐剑课程讲授的方法论，核心逻辑（成本占有率、业务天花板公式、To B 收入即客户成本）在口述稿与课堂笔记中均有明确对应，**置信度 0.78**。
-- 框架中的具体数字（施工企业人工 12 万/人、市场 8 万/人、1 万家企业、医美 SaaS 案例等）均为课堂举例，未经第三方独立核实，**仅用于演示计算逻辑**。
-- 未引用口述稿 ~700-703 附近的利润数字矛盾处，因其与本卡主题无关且疑似转录误差。
-- 由于置信度低于 0.8，trust_level 评定为 medium-high；若后续有独立行业数据交叉验证，可上调置信度与 trust_level。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

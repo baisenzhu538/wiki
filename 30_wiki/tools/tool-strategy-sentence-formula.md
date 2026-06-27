@@ -10,11 +10,11 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[dk-yb15-reverse-image-description]]'
-  - '[[tool-ai-narrative-test]]'
-  - '[[case-xian-franchise-location-decision]]'
-  - "[[framework-strategy-brm]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **造句公式**：聚焦X市场→通过Y达到竞争优势→选择不做Z→采取连贯活动A/B/C
 **能写出来的才是真战略**。如果填不完这个公式的四个空——你的战略还停留在"感觉"层面

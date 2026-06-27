@@ -9,18 +9,18 @@ confidence: 0.72
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例05.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例05.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了资本支出决策中一次性投入与年度收益的混排比较。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,12 +40,12 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一堂
-- **决策问题**：是否租新办公室
-- **分析周期**：以年为单位看价值
-- **关键成本**：装修 50 万（一次性）+ 房租增加 50 万/年 + 水电增加 5 万/年
-- **关键收益**：磨课会 22 万/年 + 磨课小屋提效 45 万/年 + 创新实验 66 万/年 + 线下活动 9.6 万/年
-- **账面结论**：总收益 142.6 万/年 > 总成本 55 万/年
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -83,36 +83,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **支持派**：租办公室是长期投资，账面净收益为正，且创新实验等期权价值难以用传统 ROI 衡量。
-- **反对派**：142.6 万收益中，磨课小屋和创新实验占了 111 万，但这两个数字最不可信。
-- **财务派**：未做敏感性分析和 Monte Carlo 模拟，"20% 场地贡献"等假设缺乏概率分布。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **办公场地扩张**：新公司租办公室、分公司选址。
-- **设备/装修投资决策**：把一次性投入和年度收益混排比较。
-- **创新基础设施投入**：实验室、创客空间、共享办公等"期权式"投资。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 首年成本必须单独列示，避免与年度运营成本混淆。
-- ⚠️ "期权式收益"必须附概率分布和归因依据，不能是信念数字。
-- ⚠️ 等效关系（如"一场磨课会 = 一天教研产出"）必须经过验证。
-- ⚠️ 重大资本支出必须做机会成本和资金时间价值分析。
-- ⚠️ 不可量化因子要说明处理方式，不能简单设为 0。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L2/L3 混排分析。
-- **[[tool-完整财务公式决策]]**：案例展示了完整财务公式中成本-收益-时间的三维比较。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在资本支出决策场景的应用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **March（探索与利用的矛盾）**：租办公室和搭建创新实验空间是"探索"逻辑，但很多组织的奖励机制实际上是"利用"导向的。如果组织奖励短期盈利，团队不会有动力做长期研发跟进。[conf=0.75, source=James March, Exploration and Exploitation in Organizational Learning]
-- **Orwell（决策语言的政治）**：案例中"市场不确定性""收益不确定性"被列为隐性成本，但这些不确定性可能是系统性的而非个别的。用列出隐性成本来掩盖整个系统的不确定性，可能让决策者误以为自己已经充分考虑了风险。[conf=0.75, source=George Orwell, Politics and the English Language]
+- src_unknown
+- src_unknown
 
 ---
 

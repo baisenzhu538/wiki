@@ -16,18 +16,18 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - '[[prompt-demand-ai-coach]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
-  - '[[case-demand-silver-parenting]]'
-  - '[[tool-prompt-jtbd-scenario-coach]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - "[[tool-demand-iceberg-l1-user]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-demand-iceberg-l4-job-map]]"
-  - "[[tool-demand-iceberg-l5-forces]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[framework-demand-lean-bridge]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 需求洞察冰山模型
@@ -81,8 +81,8 @@ layers = [
 
 ## 适用边界
 
-- **适用**：新产品需求分析、现有产品方向验证、投资标的评估
-- **不适用**：已有大规模用户数据的成熟产品微调
+- src_unknown
+- src_unknown
 
 ---
 

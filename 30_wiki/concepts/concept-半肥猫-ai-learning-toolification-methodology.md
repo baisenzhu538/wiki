@@ -5,9 +5,9 @@ title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
 status: enriched
 domain:
-- ai-collaboration
-- yitang
-- learning
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享（2026-06）
 source_refs:
@@ -17,43 +17,43 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[case-ban-fei-mao-from-assignment-to-tool]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[dk-ban-fei-mao-atomic-no-standard]]'
-  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 用户听课/读书很多，但真实业务中几乎用不上
+- src_unknown
   framework_lens: 学习没有真实业务锚点
   follow_up_question: 你最近一个月学的知识，有多少是在解决你真实业务中的具体问题？能否说出最近一次"因为学了某课而改变了某个业务动作"？
-- signal: 用户把 AI 的丝滑回答直接当结论，不再追问证据
+- src_unknown
   framework_lens: 缺少三轮检查 / 丝滑答案陷阱
   follow_up_question: 你最近一次质疑 AI 答案的证据链，是从哪个具体事实开始的？如果没有，你凭什么相信它？
-- signal: 用户收藏了大量课程笔记，但从未沉淀为可复用工具
+- src_unknown
   framework_lens: 消耗品没有转化为资产
   follow_up_question: 你过去三个月沉淀了多少个可复用的 SOP、Skill 或检查清单？最近一次调用自己沉淀的工具是什么时候？
-- signal: 团队里每个人用 AI 的方式都不一样，产出无法复用
+- src_unknown
   framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
 ---
@@ -96,25 +96,25 @@ diagnostic_signals:
 
 ### 三层递进全景
 
-- claim:01 [conf=0.90] **L1 学习落地法**的核心是"老板心态"。用真实业务驱动学习（不是假案例、不是别人的业务），因为老板心态和打工心态的动力结构完全不同——前者会逼你把问题定义清、把证据找全、把工具做到能用。核心流程：定目标→给结构化上下文→设判断标准→持续纠偏→沉淀为工具
+- src_unknown
 
-- claim:02 [conf=0.88] **对 AI 答案必须做三轮检查**。第一轮：这是推理还是证据？第二轮：有没有更好的数据？第三轮：有没有贴近我真实业务场景的数据？半肥猫的体感："AI 回答越丝滑，问题越大"——顺往往意味着缺乏证据和批判性思考
+- src_unknown
 
-- claim:03 [conf=0.87] **L2 课程 Skill 化八步**是把外部知识内化为能力的工程化路径。不是每门课都值得做 Skill——先判断课程是否有科学底座、是否有可验证案例。八步：判断→整理主线→抽取案例→诊断协议→证据校准→目录结构→测试→迭代
+- src_unknown
 
-- claim:04 [conf=0.85] **Skill 的最大价值不是生成内容，而是拒绝能力**。通用大模型为了讨好用户会鼓励"做吧做吧"，但一个经过良好设计的 Skill 能判断场景该不该用、能给出不建议的动作、能识别风险边界。半肥猫的 A/B 测试：用 Skill 得 36 分，不用得 8 分，差值 28 分——最大差距出现在"拒绝能力"
+- src_unknown
 
-- claim:05 [conf=0.83] **L3 知识库管理**是前两层的基建。核心原则：原子化（一篇文档只讲一件事）、YAML 标签（自定义索引体系）、按语义切分向量化（不打断索引标签）、动态读取（迭代知识保持最新）。半肥猫自己的知识库：5000+ 文档，20 万+ 文件
+- src_unknown
 
-- claim:06 [conf=0.82] **信源纪律是 AI 调研的底线**。优先使用官方来源、研究机构、企业官网；拒绝自媒体营销软文；要求 AI 标注引用信源和出处；告诉 AI "不要扩写、不要变成营销话术、不要过度推断"。这套纪律能把 AI 从"讨好型回答"逼到"证据型回答"
+- src_unknown
 
-- claim:07 [conf=0.80] **沉淀习惯比单次产出更重要**。半肥猫每次和 AI 聊到阶段性成果，都会让 AI 写一份备忘录沉淀下来。"工具会经常变的，我们自己的能力才是我们所追求的"——能力要记在纸上、放在知识库里，形成知识资产，而不是记在脑子里
+- src_unknown
 
 ### 和纪浩体系的对位
 
-- claim:08 [conf=0.85] 半肥猫和纪浩是同一套 AI 协作哲学的两个侧面。纪浩讲"怎么管理 AI 的执行"（Workspace、PDCA、导诊台），半肥猫讲"怎么管理人的学习"（真实业务驱动、三轮检查、沉淀习惯）。对位关系：半肥猫的"三轮检查" ↔ 纪浩的"四要素验证"（都是前置判断）；半肥猫的"证据校准" ↔ 纪浩的"可解性检验"；半肥猫的"Skill 化八步" ↔ 纪浩的"Do-first PDCA"（都是工程化迭代）；半肥猫的"知识库管理" ↔ 纪浩的"Workspace 五层结构"
+- src_unknown
 
-- claim:09 [conf=0.82] 半肥猫的"课程→Skill"转化路径可以直接接入 KDO 的 skill 生产管线：KDO 的 `kdo encapsulate` 负责编译，半肥猫的八步工作流负责内容设计和验证。两者结合就是一个从"学完课程"到"产出可用 Skill"的完整闭环
+- src_unknown
 
 ## 落地模板：课程→Skill 八步落地 Checklist
 
@@ -137,11 +137,11 @@ diagnostic_signals:
 
 ### 快速判定：这门课值得 Skill 化吗？
 
-- [ ] 它有明确的方法论框架，而不是零散观点
-- [ ] 它在你的真实业务中有至少 3 个可应用场景
-- [ ] 你愿意每季度投入 ≥1 小时维护它
-- [ ] 你能为它的核心判断找到可验证证据
-- [ ] 它能回答"什么时候不该用"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **评分**：5 项全勾 → 值得立即 Skill 化；3-4 项 → 可以先做最小版；≤2 项 → 不要浪费时间，先学完即可。
 
@@ -149,15 +149,15 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **"真实业务驱动"的前提是"有真实业务"**。半肥猫自己有四个战场（软件重构/电子/机械/推广），所以永远有真实问题可以练。但对于还没有明确业务方向的初学者，"找真实业务"本身就是一个需要解决的问题——他们可能连该解决什么问题都不知道
+- src_unknown
 
-- **八步工作流的维护成本被严重低估**。半肥猫花了一个晚上（到凌晨四点）把一堂的转化率黑客课做成 Skill，但这只是第一步。后续的版本迭代、案例补充、证据更新、反例积累——这些持续维护的工作量在分享中被快速带过了。一个 Skill 的"制作时间"可能只占生命周期的 20%，"维护时间"占 80%
+- src_unknown
 
-- **知识库管理的规模效应有门槛**。半肥猫说"原子化就是一篇文档只讲一件事"，但他同时有 5000+ 文档和 20 万+ 文件。对于普通用户，这种规模的知识库管理本身就是全职工作。半肥猫没讲的是：他的知识库管理方法是在"已经有团队帮他处理底层工作"的前提下才成立的
+- src_unknown
 
-- **基础判断力是纠偏环节的前提**。如果学习者无法区分 AI 回答中的"推理"和"证据"，也无法判断课程本身的结构化程度，那么三轮检查和八步工作流都会失效。工具化不是把低质量输入变成高质量输出的魔法
+- src_unknown
 
-- **课程质量是工具化的天花板**。如果课程本身缺乏结构化方法论，只有零散观点和案例，那么无论怎么工具化，最终也只是"高级搬运"。不是每门课都值得被 Skill 化
+- src_unknown
 
 ### 外部攻击
 
@@ -165,11 +165,11 @@ diagnostic_signals:
 
 **Nassim Taleb**（*The Black Swan* / *Antifragile* 作者，统计学家、风险哲学家）对半肥猫的"证据校准"和"信源纪律"提出了一个根本性质疑：
 
-- **官方来源恰恰是最不可靠的**：Taleb 的核心论点是，大规模机构（政府、交易所、研究机构、企业官网）发布的数据经过了多重过滤和叙事包装。这些数据存在的目的是"让决策看起来合理"，而不是"反映真实世界"。小微企业、个体户、边缘市场的真实状况，恰恰**不会**出现在官方统计中。半肥猫要求 AI "优先使用官方来源"，这等于系统性地排除了最有价值的局部知识
+- src_unknown
 
-- **小数据比大数据更可靠**：Taleb 在 *Antifragile* 中反复强调——对于复杂系统（如商业市场），局部的小样本、一手的体感、非结构化的观察，往往比官方的宏观数据更有预测力。半肥猫的"三轮检查"中，第三轮才是"贴近业务场景的数据"，但 Taleb 会说：**这应该成为第一轮，而不是第三轮**。你真正应该信任的，是你自己在真实业务中踩过的坑、见过的怪现象——而不是微软或斯坦福的报告
+- src_unknown
 
-- **证据型回答可能是另一种幻觉**：半肥猫认为"有证据"就等于"可靠"，但 Taleb 区分了"证据"和"可证伪的预测"。一份报告引用了一堆数据，但它做出过可验证的预测吗？如果一份报告从来没被用来预测过什么具体结果，那它只是一堆叙事——叙事越完整，谬误越隐蔽
+- src_unknown
 
 对半肥猫体系的直接挑战：Taleb 会说——**你的信源纪律不是在保护你不被 AI 欺骗，而是在保护你不被自己欺骗**——你设计了一套规则让 AI 给出"看起来像真的"回答，但"看起来像真的"和"真的是真的"之间，隔着一整个叙事谬误的深渊。
 
@@ -179,11 +179,11 @@ diagnostic_signals:
 
 **Seymour Papert**（*Mindstorms* 作者，MIT 媒体实验室联合创始人，Logo 编程语言发明者）是建构主义学习理论的代表人物。他对半肥猫的"真实业务驱动"和"工具化学习"提出了教育哲学层面的挑战：
 
-- **学习不能被完全工具化**：Papert 的核心观点是，深层学习发生在"玩耍"（play）和"无目的探索"中——孩子在玩积木时学到的东西，比在被要求"搭一座桥"时学到的多得多。半肥猫把学习完全绑定在"真实业务"和"产出工具"上，这虽然提高了效率，但**消灭了玩耍的空间**。而玩耍恰恰是产生真正突破性创新的土壤
+- src_unknown
 
-- **"老板心态"可能是学习的障碍**：Papert 会说，老板心态的功利性（ROI、转化率、效率）会让学习者过早地收敛到"有用"的解决方案，而错过那些"暂时没用但可能革命性"的探索。历史上最重要的发现——从青霉素到微波炉——都来自"非目标导向"的观察
+- src_unknown
 
-- **Skill 的边界可能变成认知的监狱**：Papert 设计了 Logo 语言，让孩子通过编程来探索数学概念——但关键是"探索"，不是"执行预设程序"。半肥猫的 Skill 设计强调"适用边界""评分规则""风险分级"，这些约束在提高可靠性的同时，也在**限制探索的边界**。一个被严格约束的 Skill 不会鼓励用户问"如果我不按规则来会怎样？"
+- src_unknown
 
 对半肥猫体系的直接挑战：Papert 会说——**你的方法论培养的是高效的问题解决者，但不是创造性的问题发现者**。你教会了人怎么把课程变成工具、怎么验证证据、怎么管理知识库。但你没有留下空间让人"纯粹因为好奇"而学习——而好奇，才是所有学习的最初动力。
 
@@ -193,19 +193,19 @@ diagnostic_signals:
 
 ### 成功案例
 
-- **[[case-ban-fei-mao-from-assignment-to-tool]]**：半肥猫将一堂 AIGC 调研课程作业，通过连续纠偏 AI、强制证据纪律，最终沉淀为一套可复用的调研工具。关键转折：AI 首轮回答"老板买解脱、职场人买底气、博主买效率"是纯推理，经纠偏后发现"已有流量但被卡住的 IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
+- src_unknown
 
-- **[[case-半肥猫-course-to-skill]]**：半肥猫将「转化率黑客」课程转化为 AI Skill，设计八步工作流和 12 维度评分标准。关键数据：正常场景 Skill 得 36 分 vs 裸模型 8 分（差距 28 分）；最大差异项为"拒绝能力"（Skill 3 分 vs 裸模型 0 分）。
+- src_unknown
 
 ### 失败案例
 
-- **虚假场景垃圾**：某学习者用虚构的"小红书博主"场景做课程作业，AI 生成了一份看起来完整的用户画像，但因为没有真实用户可验证，这份画像被直接废弃，什么都没有沉淀下来。
+- src_unknown
 
-- **大而全的工具墟墟**：某团队尝试把一个通用"AI 营销助手"Skill 上线，因为没有明确的使用边界和场景限制，用户问什么都答，结果在高风险场景（保险给付方案设计）下给出了错误建议，被责令下线。
+- src_unknown
 
 ### 边界/反常案例
 
-- **"丝滑答案陷阱"**：半肥猫在纠偏前几乎相信了 AI 的首轮回答——"老板买解脱、职场人买底气、博主买效率"听起来极其有道理。直到主动质问证据，才发现这只是模型的推理游戏。这个案例说明：工具化最重要的不是"封装答案"，而是"封装质疑答案的流程"。
+- src_unknown
 
 ## Synthesis
 
@@ -253,13 +253,13 @@ diagnostic_signals:
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已设置为 `欧阳锋`
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `author` 已设置为 `老顽童`
-- [x] `diagnostic_signals` ≥ 3 条，且包含 Signal → Lens → Follow-up 三元组（当前 4 条）
-- [x] `Constraints & Boundaries` 适用边界 ≥ 4 条（当前 6 条）
-- [x] `Common Failure Modes` ≥ 4 条，含真实症状 + 可执行修复（当前 6 条）
-- [x] 新增 1 个落地模板：课程→Skill 八步落地 Checklist + 快速判定表
-- [x] 新增 ≥ 2 条互链（`[[yt-note-ai-human-division]]`、`[[ai-native-五层进阶从答案到效率到作品到产品到系统]]`）
-- [x] 未新增卡片，仅精修本卡
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

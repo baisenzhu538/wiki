@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-five-step-cross-step-2
 title: 跨步二：从1到10的规模化
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-five-step-method
-  - yt-growth-strategy-overview
-  - yt-business-model-scalability
-  - yt-growth-scaling-pitfalls
-  - yt-barrier-strategy-overview
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们验证通过了，但规模化后亏损了'"
+  - src_unknown
     framework_lens: 跨步二——规模化需要单元模型支撑，否则增长越快亏损越大
     follow_up_question: "你的单元模型在规模化后是否成立？LTV/CAC是否恶化？"
-  - signal: "用户说'我们规模化后，用户质量下降了'"
+  - src_unknown
     framework_lens: 跨步二——规模化可能稀释用户质量，需要优化渠道
     follow_up_question: "规模化前后的用户LTV对比如何？渠道是否变化？"
-  - signal: "用户说'我们团队跟不上规模化'"
+  - src_unknown
     framework_lens: 跨步二——规模化需要组织能力匹配
     follow_up_question: "你的团队人效是多少？关键岗位是否有人？管理体系是否跟上？"
-  - signal: "用户说'我们规模化后，产品体验下降了'"
+  - src_unknown
     framework_lens: 跨步二——规模化不能牺牲产品体验
     follow_up_question: "规模化后的产品体验指标如何？用户反馈是否变差？"
-  - signal: "用户说'我们不知道何时该从1到10'"
+  - src_unknown
     framework_lens: 跨步二——从1到10的信号：单元模型成立、产品体验稳定、团队ready
     follow_up_question: "你的单元模型是否成立？产品体验是否稳定？团队是否ready？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当验证通过后 → 评估规模化 readiness
-- 当规模化时 → 监控单元模型
-- 当组织跟不上时 → 组织建设
-- 当体验下降时 → 产品优化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-five-step-method`：五步法总纲
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-business-model-scalability`：商业模式可规模化
-- `yt-growth-scaling-pitfalls`：增长规模化陷阱
-- `yt-barrier-strategy-overview`：壁垒策略总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法课
-- 规模化研究
-- 企业成长研究
+- src_unknown
+- src_unknown
+- src_unknown

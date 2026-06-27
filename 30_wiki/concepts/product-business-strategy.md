@@ -5,9 +5,9 @@ title: 产品-商业战略综合：设备运营、方向取舍与产品开发：
 type: concept
 status: enriched
 domain:
-  - product
-  - business-strategy
-  - entrepreneur
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑产品-商业战略主题摘要综合（3 条录音 meetingSummary）
 source_refs:
@@ -16,8 +16,8 @@ source_refs:
   - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
   - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
 tags:
-  - '#method/decision-framework'
-  - '#method/execution-method'
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -26,11 +26,11 @@ confidence: 0.65
 trust_level: medium
 review_date: '2026-06-20'
 related:
-  - '[[finance-legal-business-operations]]'
-  - '[[industry-ai-cases]]'
-  - '[[supply-chain-beverage]]'
-  - '[[business-validation-models-collaboration]]'
-  - '[[personal-growth-complex-systems]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发
 
@@ -68,28 +68,28 @@ related:
 > 基于录音原文与外部公开信息（药食同源市场报告、战略选择框架、私董会机制）交叉核对。详细报告见 `60_feedback/itingnao/six-layer-validation-product-strategy-tradeoff.md`。
 
 ### L1 可证伪性：中偏高
-- 药食同源市场趋势、电商增速等命题可证伪且已被多源验证。
-- 方向四 ROI 最高、200 万启动资金、京东资源支持等命题依赖案主资源禀赋，可证伪性较弱。
+- src_unknown
+- src_unknown
 
 ### L2 行为一致性：中等
-- 案主自述存在“既要聚焦又要远大”的张力。
-- 资源描述（京东支持、200 万资金）未明确是否已锁定。
-- 私董会导师以辅导为主，未充分挑战具体方向可行性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L3 多源验证：中偏高
-- 药食同源市场规模（2025 年 3700 亿+）、电商增速（28.9%）获魔镜洞察、中商产业研究院等多源交叉证实。
-- 具体资源承诺与资金预算缺少独立证据。
+- src_unknown
+- src_unknown
 
 ### L4 情绪标记：中等
-- 存在焦虑（夜不能寐、踩坑）、防御（我没动顺序）、乐观（药食同源溢价空间）等情绪。
-- 方向四判断带有明显的“逃离 TO B 痛苦、拥抱 TO C 希望”倾向。
+- src_unknown
+- src_unknown
 
 ### L5 时间稳定性：中等
-- 做减法、聚焦、关键假设验证等方法论跨周期稳定。
-- 药食同源政策、电商流量环境、京东资源支持时效性较强。
+- src_unknown
+- src_unknown
 
 ### L6 利益相关度：中等
-- 案主对方向四存在偏好；私董会/培训机构可能有课程销售或项目孵化动机；同伴支持存在群体一致性压力。
+- src_unknown
 
 ### 综合可信度评级
 
@@ -122,35 +122,35 @@ related:
 
 ## 与现有 30_wiki 的差异点（为什么需要这张卡）
 
-- **现有概念卡偏向方法论**（如 `concept-一堂-product-kernel`、`business-analysis`），而本卡是从**真实商业决策现场**中提炼的复合主题，横跨运营、战略、产品三个层面。
-- **现有案例多为课程案例或公开案例**，本卡来自内部会议录音，包含大量具体约束（股东结构、电压故障、供应链样品、个人家庭压力），具有更强的上下文依赖性。
-- **本主题涉及“药食同源”与疑似药柜设备操作**，与纯食品/消费品产品开发存在监管、供应链、用户信任等差异，需要单独标注，不应直接并入一般产品内核卡。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度分层
 
 ### 事实层（可直接引用，但仍建议原文复核）
-- 4231073 中提到 2026 年目标是“30 台或 50 台”设备规模。
-- 3305831 中产品开发方向包括椰子水、烧仙草、椰浆。
-- 3685844 中四个战略方向被归纳为：现有 TO B 业务、两个新业务方向、电商（药食同源）。
-- 4231073 中团队唯一懂软件的成员不在场。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件层（依赖上下文，需确认边界）
-- “电压不稳定”是否为设备频繁故障的根本原因，摘要中标注“待确认”。
-- 方向四“药食同源电商”被 AI 建议优先选择，但这是基于当时方案假设，需确认市场数据与京东资源的具体承诺。
-- 3305831 中“高单量场景日销 600 单”是案例引用还是该团队自身门店数据，摘要未明确。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 观察层（从摘要中提炼的模式）
-- 项目扩张节奏受设备稳定性、团队精力、股东沟通三重拖累。
-- 战略方案普遍存在“背景铺陈过多、问题不尖锐”的结构问题。
-- 食品饮料产品开发中，“液体原料 + 标准化操作”被反复视为降本增效杠杆。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险层
-- 4231073 中股东人数多、背景杂，可能导致后续融资与决策效率风险。
-- 3685844 中“药食同源”方向若涉及功能性宣称，可能面临合规与品牌信任风险。
-- 3305831 中液体原料物流成本高、部分原料有区域/产地保护，存在供应链中断或成本失控风险。
-- **药柜相关内容混入风险**：4231073 摘要中出现“不推药”“回收栏”等表述，暗示设备可能与药品/药柜相关；若属实，其业务逻辑、监管要求与食品饮料/普通零售设备差异巨大，不宜与本卡混为一谈。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -231,10 +231,10 @@ related:
 
 ### 置信度更新
 
-- 原卡片未设置 `confidence` 与 `trust_level`。
-- 本次回填后，核心事实层断言均已定位到 source 行号，但关键数字、资源承诺、市场数据仍为项目方自述或外部报告，未经过独立审计。
-- 更新 frontmatter：`confidence: 0.65`，`trust_level: medium`，并新增 `source_refs: theme-product-business-summary`。
-- 综合可信度保持 🟡 中可信度，不因为部分断言找到原文而过度提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -243,13 +243,13 @@ related:
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- 本轮深挖后未发现无原文支持断言。
+- src_unknown
 
 ### 已标注限制条件的条件性结论
-- 本轮深挖后未发现需专业复核的条件性结论。
+- src_unknown
 
-- 清理时间：2026-06-14
-- 置信度与信任等级：维持原设置，不因清理而提升。
+- src_unknown
+- src_unknown
 
 ---
 

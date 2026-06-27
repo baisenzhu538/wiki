@@ -7,26 +7,26 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 2330
 language: zh-CN
 query_triggers:
-- 从看不见到大胆想象的进化路径
-- 升级策略
-- 审美三阶进化
-- 审美提升的层级
-- 审美提升的层级：从看不见到大胆想象的进化路径
-- 核心公式解读
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown：从看不见到大胆想象的进化路径
+- src_unknown
 related:
-  - '[[yt-model-product-excellence]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
-  - '[[ocr-泛产品设计-审美工具箱指南]]'
-  - '[[ocr-审美提升的层级]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-product-excellence]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_7d2a79f8-ocr-审美提升的层级
@@ -39,12 +39,12 @@ yitang:
   map: personal
   module: 个人修炼
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户看了审美层级图，但还是说不出什么是好设计
+- src_unknown
   framework_lens: 案例输入不足——审美提升需要大量高质量案例浸泡
   follow_up_question: 过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄
-- signal: 用户直接跳到"解放思想"层，但连优秀案例都没看过几个
+- src_unknown
   framework_lens: 跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁
   follow_up_question: 你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2
 updated_at: '2026-06-16'
@@ -83,9 +83,9 @@ trust_level: medium-high
 
 > "你执行力的上限，不会超过你对最佳实践理解的下限"
 
-- **如果你没见过更好的** → 你会满足于"还不错"
-- **如果你不能分析为什么好** → 你无法复制好
-- **如果你不能想象更好的** → 你无法超越好
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 
@@ -101,24 +101,24 @@ trust_level: medium-high
 
 ### 内部局限
 
-- critique:internal-01 **线性进化假设的脆弱性**：框架将审美提升呈现为"看不见→看见→筛选→不比了→优秀→稳定→成熟→无限探索"的线性爬坡，但实际审美发展经常是非线性的——一次创作失败可能让人从"成熟"跌回"看不见"，一次偶然的跨界灵感可能直接从"筛选"跳到"无限探索"。框架缺乏对倒退、平台期、顿悟跳跃的说明。
+- src_unknown
 
-- critique:internal-02 **"大量输入"未解决输入质量与同质化风险**：边界声明已指出框架不回答"去哪找、怎么判断好坏"（见 claim:boundary-01），但更深层的问题是——当代内容分发机制（推荐算法、设计社区排序）倾向于将人导向同质化的"主流好作品"。如果"主动搜集"的结果是看了100个长得差不多的Dribbble作品，建池和建模只会固化主流范式，而非提升真正的审美辨别力。框架没有防同质化的机制。
+- src_unknown
 
-- critique:internal-03 **核心公式可能产生抑制效应**：公式"执行力的上限 ≤ 最佳实践理解的下限"作为约束性陈述是有价值的，但作为行动指南可能产生副作用——如果你知道自己的"最佳实践理解下限"很低，你是否应该放弃执行？实际上大量创作者是在执行中提升理解的（做中学），理解的下限和执行的上限是双向拉动，不是单向约束。
+- src_unknown
 
 ### 外部攻击
 
-- critique:external-01 **维克多·什克洛夫斯基（Viktor Shklovsky）"陌生化"理论攻击**：俄国形式主义文论家什克洛夫斯基在《作为技巧的艺术》（1917）中提出，艺术的本质是"陌生化"（ostranenie）——将被自动化感知的熟悉事物变得陌生，从而恢复感知的鲜活。从这个视角看，本框架通过"最佳实践建模"将审美经验系统化、白盒化，恰恰是在做相反的事：它用模式替代感知，用熟悉化替代陌生化。真正的审美突破不是"看更多好作品然后建模"，而是"打破已有的看的方式"——这对"主动搜集→建个池子→审美建模"的整条路径构成了根本性挑战。框架可能培养出合格的"审美工匠"，但恰好压制了培养"审美先锋"所需的反模式化能力。
+- src_unknown
 
-- critique:external-02 **大卫·休谟（David Hume）审美主体性批判**：休谟在《论品味的标准》（1757）中虽然试图为审美判断寻找客观基础，但他承认美"存在于观照者的心灵中，不存在于对象本身"（beauty is in the eye of the beholder）。本框架将审美能力描述为可以从"看不见"到"大胆想象"的客观层级上升，隐含了审美有普遍客观标准的假设。休谟的立场提醒我们：所谓的"最佳实践"本身是特定时代、特定文化圈层的社会建构——你今天认为"好"的作品，可能在下个世纪被归为平庸；你今天认为"看不见"的审美状态，在另一种文化传统中可能是完善的审美体系。框架不应被误读为审美在绝对意义上的等级排序。
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-aesthetic-toolkit]]
-- [[yt-model-pan-product-three-virtues]]
-- [[yt-model-product-excellence]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例），2026-06-12
 source_refs:
@@ -17,33 +17,33 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-capability-system]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#domain/ai-saas'
-- '#method/ai-collaboration'
-- '#method/retrospective'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 author: 老顽童
 confidence: 0.89
 diagnostic_signals:
-- AI 在不同 session 里重复犯同样的风格、格式或逻辑错误
-- 一次漂亮交付后没有沉淀出任何可复用资产
-- 你发现自己不断向 AI 重复纠正同一类问题
-- 同一任务的反馈散落在多个对话窗口或平台，难以追溯
-- AI 输出质量在不同次任务之间波动很大
-- 成功经验的复盘只停留在人的笔记里，AI 下一次还是从头开始
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 
 ## 原始表述 / 核心洞察
@@ -54,11 +54,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你和 AI 反复掰扯一个任务，终于把它做对了。
-- 你发现 AI 在不同 session 里重复犯同样的风格/格式/逻辑错误。
-- 你有一套内部审美/标准，想固化成 AI 可复用的检查清单。
-- 你在用 AI 做设计、写文案、拆里程碑、生成代码、整理模型。
-- 你想把一次成功交付变成可复用的 skill/partner/prompt。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -67,29 +67,29 @@ diagnostic_signals:
 
 2. **当场立刻做**
    在对话上下文还热乎的时候做，不要等几天。因为：
-   - 记忆会衰减
-   - 原始 prompt、中间版本、纠偏记录可能散落在多个窗口
-   - 有些反馈是口头/临时发的，错过窗口就找不回来
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **指定扫描范围**
    让 AI 扫描：
-   - 本次对话的全部历史
-   - 同一任务的其他 parallel session
-   - 相关参考文件/数据库（如 Cubox、飞书文档、本地知识库）
+   - src_unknown
+   - src_unknown
+   - src_unknown
    明确关键词，避免扫进无关内容。
 
 4. **强制输出一个自查清单**
    不要让它泛泛总结"要注意设计"。要让它输出：
-   - 10 条 To Do（必须做）
-   - 10 条 Not To Do（不能做）
-   - 按 P0/P1/P2 分级
-   - 每条背后标注来源：哪一次反馈催生了这条规则
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **封装成可复用资产**
    把清单变成：
-   - 一个 skill 文件（`40_outputs/capabilities/skills/`）
-   - 一个 system prompt 片段
-   - 一个 eval case
+   - src_unknown
+   - src_unknown
+   - src_unknown
    下次同类任务先加载这个资产。
 
 6. **下次任务先自查**
@@ -97,10 +97,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用于有规律、可重复的任务**。创意一次性任务复盘价值低。
-- **需要人有判断力**。AI 自己总结可能会遗漏真正关键的标准，或者把错误归因归错。人要审一遍。
-- **不要过早封装**。如果样本量只有 1，清单可能过拟合。最好有 2–3 次成功/失败样本后再固化。
-- **技术限制**：扫描跨平台对话记录需要工具支持（如 Cubox、本地数据库）。不是所有 AI 工具都能做到。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -115,14 +115,14 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 人的复盘成本很高：要整理聊天记录、提炼规则、写成文档、教给下一个协作者。AI 做这件事边际成本接近零。
-- 没有复盘的 AI 协作，本质是"每次都从头教一个新实习生"。有复盘的 AI 协作，才是"越用越顺手的老员工"。
-- 这是 AI 时代才有的工作流：AI 不只是执行者，还是自己的教练。人只负责审美和终审。
-- Truman 的 Design Taste 案例证明，一次 3 小时的插图/PPT 任务，可以沉淀出一个复用很多次的设计品控 skill。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-ai-without-judgment]] —— AI 可以自动化很多工作，但人必须守住判断和审美。
-- [[modeling-capability-system]] —— 建模能力在 AI 时代的价值：把经验变成可复用资产。
-- [[case-truman-ai-skill-self-packaging]] —— Truman 如何将 Design Taste 等经验封装成可复用 skill 的具体案例。
-- [[modeling-capability-for-kdo]] —— 建模能力作为 KDO 核心决策的判断依据。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

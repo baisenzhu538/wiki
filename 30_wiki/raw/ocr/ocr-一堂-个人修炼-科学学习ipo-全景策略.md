@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-科学学习ipo-全景策略"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_dee56cff
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-个人修炼-科学学习ipo完整清单]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-科学学习IPO-全景策略
@@ -37,7 +37,7 @@ jpg` 一堂科学学习P口·全景策略图第二版 堂 YitangScientificLearni
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- src_unknown
 
 ## Visual Analysis
 
@@ -45,13 +45,13 @@ jpg` 一堂科学学习P口·全景策略图第二版 堂 YitangScientificLearni
 
 ## Reusable Knowledge
 
-- 科学学习IPO模型包含三个核心环节：输入（Input）、处理（Process）、输出（Output），形成闭环反馈系统。
-- 输入层强调多元学习来源：从案例中学（失败与最佳实践）、从资料中学（阅读/课程/搜索/AI）、从高手中学（教练/标杆/专家访谈）、从实践中学（成功/失败/意外经验）。
-- 处理层采用知识树学习法，分为存储记忆、建立联系（举一反三/底层关联/N层洞察/十层解读）、动手建模（整理框架/提炼本质）、复盘推演（复盘过去/推演未来/角色扮演）四个层级。
-- 输出层以费曼学习法为核心，通过简单提炼、分享他人、辩证讨论、立即实践、刻意练习等方式检验和巩固学习效果。
-- 学习目标应建立四维坐标：高度（眼下难题→年度挑战→长期追求→人生红点）、深度（信息差→体系理解→深度洞察→专业实操）、宽度（跨专题/领域/行业）、稳定度（人生红点战略笃定）。
-- 知识内化需产出三层模型：清单小抄（便于执行）、体系框架（MECE/N步法）、底层规律（本质定义/学科经典），实现广泛迁移和激发创新。
-- 反馈机制包含理性反馈（是否理解/讲清/做出）与感性反馈（增强动机/避免骄傲），驱动螺旋上升的无限进步。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -69,26 +69,26 @@ jpg` 一堂科学学习P口·全景策略图第二版 堂 YitangScientificLearni
 
 ## Open Questions
 
-- 该模型声称学习效率可差"10倍、100倍"，但未提供任何实证研究或数据来源支撑这一量化结论，该基准是如何确定的？
-- "人生红点"作为核心概念被多次提及，但文本未给出其操作化定义或判断标准，如何识别和验证个人"人生红点"的真实性？
-- 输入层包含"从AI中学"，但未说明AI生成信息的可靠性如何甄别，以及AI幻觉风险如何纳入学习质量控制。
-- 处理层L2"十层解读"和"N层洞察"中的具体层数（N）缺乏界定标准，这种层级划分是修辞性表述还是具有可复现的分析框架？
-- 知识树学习法的四个层级（L1-L4）与输出层六个层级（L1-L6）存在编号冲突，两者是并行关系、嵌套关系还是独立体系？
-- "一堂·坚持只做必修课"作为品牌定位，与模型中"广泛涉猎""宽度"等建议存在张力，"必修"与"涉猎"的边界如何划定？
-- 反馈机制中的"感性反馈—避免骄傲"与"增强动机"在心理学上可能存在矛盾（自我效能感vs.自我怀疑），该模型如何平衡这两种目标？
-- 模型强调"科学学习"但未引用任何认知科学、教育心理学或学习科学文献，其"科学性"声明建立在何种理论基础之上？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-ipo-learning]] — 一堂IPO科学学习模型正式卡片，OCR卡为该模型的原始全景策略图，正式卡片中Input/Process/Output三层结构已有更系统的展开
-- [[yt-model-truman-five-step-growth]] — Truman个人成长五步法，IPO模型中的"人生红点"与五步法中的"长期追求→人生红点"直接对应，形成学习策略→成长路径的完整链路
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 将IPO闭环迁移至企业知识管理——Input=市场情报/竞品分析/客户反馈，Process=知识萃取与框架提炼，Output=内部培训/决策文档/产品方案，Feedback=业务结果验证
-- 将"四维坐标"（高度/深度/宽度/稳定度）迁移至团队能力评估——高度=个人职业目标对齐度，深度=专业技能层级，宽度=跨职能协作能力，稳定度=核心人才流失风险评估
+- src_unknown
+- src_unknown
 
 
 ### 不要用的场景

@@ -13,32 +13,32 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 持续跟踪
-- 动态监控
-- 信息跟踪
-- 持续调研
-- 监控机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-intelligence-map-in-hand]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-competitor-tracking]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[tool-yitang-research-intelligence-map-in-hand]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 持续跟踪：建立动态信息监控机制
@@ -119,10 +119,10 @@ related:
 | 用户需求 | 持续 | 用户反馈 |
 
 ### 认知更新方法
-- 定期复盘：每月/每季度复盘
-- 对比分析：与上次认知对比
-- 趋势判断：判断变化趋势
-- 策略调整：根据变化调整策略
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -139,10 +139,10 @@ related:
 | **用户变化** | 用户需求变化 | "用户转向新平台" |
 
 ### 调整策略
-- 快速评估：评估变化影响
-- 制定方案：制定应对方案
-- 执行调整：快速执行
-- 持续监控：跟踪调整效果
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -155,23 +155,23 @@ related:
 [对象]
 
 ### 监控机制
-- 信息源：[来源]
-- 频率：[频率]
-- 负责人：[姓名]
-- 预警条件：[条件]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 最新状态
 [状态]
 
 ### 变化分析
-- 变化：[变化]
-- 影响：[影响]
-- 趋势：[趋势]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 策略调整
-- 原策略：[策略]
-- 新策略：[策略]
-- 执行时间：[时间]
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -222,21 +222,21 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-competitor-tracking]] — 竞对跟踪工具
-- [[tool-yitang-research-intelligence-map-in-hand]] — 地图在手工具
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 持续跟踪模块
-- 交叉：竞争情报理论
-- 注意：持续跟踪是长期工作，需要建立机制和习惯
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

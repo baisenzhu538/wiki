@@ -3,23 +3,23 @@ id: tool-执行对标研究三步法
 title: 技能：执行对标研究三步法
 type: tool
 domain:
-- entrepreneurship- product
-- design
+- src_unknown
+- src_unknown
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
 - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 财报数据库
-- 招股书
-- 行研报告
-- 专家访谈清单
-- 跨行业对标分析框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-16'
 author: unknown
@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-使用概念辨析卡区分易混淆概念]]'
-- '[[tool-设定管理杠杆率指标评估效率]]'
-- '[[tool-遵循规模前倾原则设计组织架构]]'
-- '[[tool-使用优先级快筛卡锁定核心矛盾]]'
-- '[[tool-设计对抗效果追踪看板]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：执行对标研究三步法
 
@@ -45,28 +45,28 @@ related:
 4. 每步使用预设的具体问题清单进行结构化提问
 
 ## 适用场景
-- ✅ 进入新行业或跨界业务时
-- ✅ 需要预判规模扩张中的隐性变化时
-- ❌ 信息极度不对称的封闭市场
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 通过多源信息交叉验证，弥补单一信息源的盲区，提升对行业特有变化要素的识别能力
 
 ## 工具/环境
-- 财报数据库
-- 招股书
-- 行研报告
-- 专家访谈清单
-- 跨行业对标分析框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 课程设计者，src_20260609_1c8b4d0e，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

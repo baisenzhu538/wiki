@@ -10,24 +10,24 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212341_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212341_vlm_desc.md
 related:
-  - '[[tool-lean-human-replace-system]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-six-wastes]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 人工替代高阶研发
@@ -42,9 +42,9 @@ related:
 
 本工具的核心目的是把「技术可行性风险」与「需求存在性风险」解耦：
 
-- **先验需求**：用户是否愿意为这条链路的结果付费/持续使用？
-- **再验技术**：在需求被证实后，才评估是否需要算法/系统/硬件来自动化。
-- **降低沉没成本**：避免在核心假设未验证前，投入数月研发团队与资金 [conf=0.85, source=一堂DOC-20260622212341]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -76,21 +76,21 @@ related:
 
 让人工后端像系统一样运行 1-4 周，记录：
 
-- 用户行为数据（点击率、转化率、留存、复购）
-- 运营负荷（每人每天能处理多少单、错误率、响应时间）
-- 用户主观反馈（NPS、痛点、付费意愿）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：设定通过/不通过标准
 
 在实验开始前就确定：
 
-- **通过标准**：例如「人工推荐列表的 7 日留存达到 X%」或「用户愿意为人工标注内容付费」。
-- **不通过标准**：例如「连续两周无自然复购」或「人工处理成本已高于预期售价」。
+- src_unknown
+- src_unknown
 
 ### 步骤 5：决策是否进入自动化研发
 
-- 若需求被验证且人工负荷明显 bottleneck，再立项做算法/系统/硬件。
-- 若需求不成立或用户不接受人工结果，则停止或转型，避免技术沉没成本 [conf=0.85, source=framework-lean-false-model]。
+- src_unknown
+- src_unknown
 
 ## 成本/周期/样本量
 
@@ -107,22 +107,22 @@ related:
 
 ### 最适合
 
-- **算法驱动型产品早期**：如内容推荐、商品推荐、智能客服、智能定价。
-- **数据预测类业务**：如库存预测、需求预测、风控评分。
-- **智能硬件概念验证**：如先用人工 + 现有设备模拟智能功能，再决定是否开模。
-- **平台型业务撮合逻辑**：如先用人工匹配供需双方，验证匹配价值。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要折中
 
-- **B2B 长决策链**：人工替代可行，但需嵌入客户真实流程，周期可能拉长到 1-3 个月。
-- **品牌敏感型产品**：人工结果若质量不稳定，可能损伤早期信任，需配合 VIP 服务定位。
-- **高频、低毛利、规模化依赖型业务**：人工无法长期承载，验证窗口需更短。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不适合
 
-- **强监管行业**：医疗诊断、金融风控等涉及合规责任的算法，不能简单用人工替代绕过监管。
-- **安全关键系统**：自动驾驶、工业控制等，人工模拟无法验证真实技术风险。
-- **已经验证的需求规模化阶段**：此时瓶颈是效率，人工替代反而成为拖累 [conf=0.80, source=framework-lean-false-model + 任务指令 L8]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
@@ -147,9 +147,9 @@ related:
 
 ### 与经典理论的关系
 
-- **Eric Ries《精益创业》MVP 思想**：人工替代高阶研发是 MVP 的一种具体形态——用最小可行流程替代最小可行产品，符合 Build-Measure-Learn 循环 [conf=0.85, source=framework-lean-false-model]。
-- **Steve Blank 客户开发**：在正式产品前用「 concierge MVP （礼宾式 MVP）」服务真实客户，与本工具逻辑一致 [conf=0.80, source=经典理论对照]。
-- **一堂 FALSE/FLESAI 模型**：本工具属于 S（Substitute，人工替代）阶段，是「开始做研发/生产」前的验证手段；六类替代场景来自一堂讲义的归纳，属于操作化本土化表达，非学术原创 [conf=0.85, source=一堂DOC-20260622212341 + framework-lean-false-model]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部批评视角
 
@@ -157,9 +157,9 @@ related:
 
 ### 使用提醒
 
-- 本工具的有效性高度依赖**能否在真实业务流中埋点并获得可信信号**。如果人工流程与用户真实场景脱节，验证结果会失真。
-- 讲义对六类替代的表述非常精炼，但未给出具体行业样本量与通过标准；实践中需结合 [[framework-lean-abcd-model]] 和 [[yt-entrepreneur-key-hypotheses]] 做假设拆解 [conf=0.80, source=任务指令 1.4]。
-- 对 AI 加速验证的趋势，参见 [[tool-lean-ai-accelerated-validation]]，可与人肉替代形成「先人工、后 AI 自动化」的递进路径。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 

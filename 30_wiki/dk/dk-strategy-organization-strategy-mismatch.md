@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - "[[strategy-domain-digest]]"
-  - "[[framework-strategy-brm]]"
-  - "[[framework-strategy-mckinsey-7s]]"
-  - "[[tool-strategy-nine-problems]]"
-  - "[[case-strategy-failure-05-it]]"
-  - "[[case-strategy-failure-06-phone-n]]"
-  - "[[case-strategy-failure-07-phone-l]]"
-  - "[[case-strategy-failure-08-video]]"
-  - "[[case-strategy-failure-09-boeing]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 组织能力与战略方向不匹配
@@ -49,10 +49,10 @@ related:
 
 此模式最常见于以下情境：
 
-- 企业进入新业务或转型期，战略方向已经明确，但组织仍沿用旧架构、旧流程、旧人才结构。
-- 战略会议要求"加速创新""用户第一"，但 KPI、预算审批、晋升标准仍奖励短期财务指标。
-- 通过并购快速补齐能力，却发现被收购团队无法融入既有文化，核心技术无法迁移。
-- 行业周期或竞争格局发生剧变，组织响应速度明显慢于市场变化速度。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 预警信号：
 
@@ -71,15 +71,15 @@ related:
 
 ## 适用边界
 
-- **适用**：已经完成战略方向选择、进入执行阶段的企业；正在推进并购整合、业务转型、数字化变革的组织；需要判断"为什么战略落不了地"的诊断场景。
-- **不适用**：战略方向本身尚未验证或市场机会不存在的早期阶段——此时应先用精益验证和五步法解决方向问题，再谈组织承载力。
-- **注意**：组织-战略错配往往不是单一要素缺失，而是多要素联动失衡。只调架构不改激励、只挖人不建文化，都会让修复失效。
+- src_unknown
+- src_unknown
+- src_unknown
 
 可迁移场景：
 
-- **个人职业转型**：新方向（如从技术岗转管理岗）正确，但旧习惯、旧人脉、旧评价体系无法支撑新角色。
-- **产品团队空降**：新负责人带来新打法，但原有协作流程、决策习惯、质量文化不匹配，导致新方案难以落地。
-- **跨文化并购整合**：战略协同价值明显，但双方激励机制、沟通方式、隐性规则差异过大，整合失败。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -99,9 +99,9 @@ related:
 
 ### 与现有框架的关系
 
-- **[[framework-strategy-brm]]**：BRM 框架包含"差距分析→战略规划→执行"三段闭环，其中执行环节提到能力、人数、意愿、架构、流程，但未提供与战略选择同步诊断组织/机制缺口的具体清单[conf=0.80, source=王语嫣 synthesis_strategy.md]。
-- **[[tool-strategy-nine-problems]]**：九问题工具把"共识/组织/能力/资源/机制"列为五类问题，给出了分类标签，但没有说明如何在战略制定阶段就同步识别这些缺口，也缺少跨要素联动诊断的方法[conf=0.80, source=王语嫣 synthesis_strategy.md]。
-- **[[framework-strategy-mckinsey-7s]]**：7S 模型系统覆盖了战略、结构、系统、技能、员工、风格、共同价值观七个组织要素，是诊断组织匹配度的经典工具，但它与战略决策流程的接口不够显性，常常被当作独立的组织诊断工具而非战略选择阶段的同步检查清单[conf=0.80, source=王语嫣 synthesis_strategy.md]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：缺少一张在"战略方向确定后、执行启动前"使用的同步诊断清单，把战略战役直接映射到共识、架构、能力、资源、激励机制五项组织承载力上，并识别最关键的缺口。本 dk 卡填补的就是这个"战略→组织"接口处的操作空白。
 

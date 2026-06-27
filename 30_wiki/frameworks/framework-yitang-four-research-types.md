@@ -13,38 +13,38 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 调研类型
-- 挖掘式调研
-- 系统式调研
-- 爆炸式调研
-- 自动式调研
-- 调研方法选择
-- 怎么调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/调研全景策略图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-oscar-research]]'
-  - '[[framework-yitang-high-level-plan]]'
-  - '[[framework-yitang-research-radar]]'
-  - '[[framework-yitang-high-level-execution]]'
-  - "[[framework-yitang-research-radar]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-mindset]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-desperate-effort]]"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
@@ -71,16 +71,16 @@ related:
 **核心定义**：针对极其重要的关键情报，穷尽所有能力和技巧，甚至用非主流方法，最终拿到水下信息。
 
 **关键特征**：
-- 目标：单点信息，但价值极高
-- 方法：不择手段、择善固执
-- 心态：像破案一样挖情报
-- 产出：一个关键数字、一个关键事实、一个关键判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型场景**：
-- 竞品真实日活/转化率（官方不公布）
-- 供应链真实成本结构
-- 政策即将变化的风向
-- 核心人员的真实动向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行要点**：
 1. 明确"这个情报值不值得挖"——投入与信息价值匹配
@@ -89,10 +89,10 @@ related:
 4. 记录过程：怎么拿到的、来源可信度、可能偏差
 
 **失败模式**：
-- 挖到一半放弃（最常见）
-- 用单一来源就下结论
-- 投入过度，信息价值不够
-- 方法不合法或不合规
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -101,16 +101,16 @@ related:
 **核心定义**：面对复杂商业场景，用结构化框架确保调研不跑偏，产出对决策有直接帮助的信息。
 
 **关键特征**：
-- 目标：复杂决策，多维度整合
-- 方法：OSCAR框架、清单管理、由浅入深
-- 心态：像工程师一样严谨
-- 产出：可直接支撑决策的结构化报告
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型场景**：
-- 新业务进入决策
-- 投资/并购决策
-- 产品战略调整
-- 组织变革
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行要点**：
 1. O（Objective）：明确调研目标——解答题而非了解题
@@ -120,11 +120,11 @@ related:
 5. R（Reasoning）：正确归因——事实优先/定量建模/交叉验证/深度归因
 
 **失败模式**：
-- 目标模糊——"了解一下行业"
-- 范围失控——什么都想看，什么都没看透
-- 清单僵化——用模板套，不根据实际调整
-- 归因错误——把相关当因果
-- 信息多但无决策价值——最典型失败
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -133,16 +133,16 @@ related:
 **核心定义**：进入全新领域时，用快速、全面、低成本的手段建立基础认知，形成可后续深挖的地图。
 
 **关键特征**：
-- 目标：快速建立行业/领域认知
-- 方法：全面搜集、建模压缩、信息穷尽
-- 心态：像海绵一样吸收
-- 产出：行业地图、竞争格局、关键问题清单
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型场景**：
-- 进入全新行业
-- 投资陌生领域
-- 跨界创新
-- 快速响应市场变化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行要点**：
 1. 100小时法则：新领域至少投入100小时基础学习
@@ -151,10 +151,10 @@ related:
 4. 标记缺口：明确哪些信息还需要深挖
 
 **失败模式**：
-- 贪多嚼不烂——信息太多，没有结构化
-- 只有宽度没有深度——知道很多，但无法判断
-- 过早下结论——基础不牢就判断
-- 没有后续行动——爆炸后没有深挖
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -163,16 +163,16 @@ related:
 **核心定义**：建立长期监控机制，让关键信息自动流入，持续跟踪竞争、政策、市场变化。
 
 **关键特征**：
-- 目标：长期跟踪、动态更新
-- 方法：机制设计、系统搭建、人工+系统
-- 心态：像雷达一样持续扫描
-- 产出：定期更新的情报简报、预警信号
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型场景**：
-- 竞品动态监控
-- 政策变化跟踪
-- 行业趋势判断
-- 用户反馈持续收集
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **执行要点**：
 1. 明确监控指标：哪些信息变化会影响决策
@@ -181,10 +181,10 @@ related:
 4. 设置预警阈值：什么变化需要立即响应
 
 **失败模式**：
-- 依赖人工——没有系统化，容易遗漏
-- 信息过载——监控太多，无法聚焦
-- 没有行动机制——监控了但不响应
-- 预警阈值不合理——太敏感或太迟钝
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -249,25 +249,25 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-research-radar]] — 调研能力四象限诊断
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[framework-yitang-research-weapon-system]] — 三层八模块武器库
-- [[yt-research-osl-framework]] — OSCAR调研五步法
-- [[yt-research-mindset]] — 调研认知升级
-- [[dk-yitang-research-starter-vs-veteran]] — 新手重分析，老兵重情报
-- [[dk-yitang-research-desperate-effort]] — 调研决心比技巧重要
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[tool-yitang-reverse-data-analysis]] — 逆向数据获取
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-系统式调研-口述（Truman，2020）
-- 验证：调研全景策略图VLM描述（0.92置信度）
-- 交叉：business-research-skill OSCAR模型定义
-- 注意：四类调研的命名和定义来自一堂课程，其他方法论可能有不同分类方式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

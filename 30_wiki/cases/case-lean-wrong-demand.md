@@ -20,19 +20,19 @@ source_refs:
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
 related:
-  - '[[case-lean-perfectionism-traps]]'
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[tool-lean-fake-marketing]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 需求找错案例集
@@ -49,9 +49,9 @@ related:
 
 案例素材来自三张讲义幻灯片，分别对应三种互相关联但侧重不同的失败类型：
 
-- `truman-精益创业-低成本验证-需求找错-01`：直接点明"这种错误极其普遍，几乎是所有项目失败最大的错误"，列举 8 个因需求弱/无需求而亏损的项目。
-- `truman-精益创业-需求没有剥离的案例`：用 6 个案例说明"需求没有剥离"的后果。
-- `把商业模式从增长和收入目标剥离出来`：用 7 个案例说明把"增长/收入/规模假设"与"需求假设"混为一谈导致的亏损。
+- src_unknown
+- src_unknown
+- src_unknown
 
 下面按失败类型归类呈现，避免流水账。
 
@@ -141,9 +141,9 @@ related:
 
 这些项目多数直接跳过 FALSE 模型左侧的 F（直接测试）、A（人工服务）阶段，直接进入 L/S/E 甚至 All-in：
 
-- **F 阶段缺失**：磁吸丝巾、新型美妆、AI 浏览器等均未先用假页面/假营销验证"用户是否愿意为这个概念行动"。
-- **A 阶段缺失**：酒店/物业 SaaS、ToB AI 知识库未先通过人工服务或少量付费客户验证目标客户画像。
-- **过早进入 E/All-in**：电影票选座、沃柑、学校监控等把"规模化"当成验证手段，在需求/商业模式未验证前就重投入。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 

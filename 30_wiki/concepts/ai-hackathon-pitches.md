@@ -4,9 +4,9 @@ title: AI 大航海项目路演：主题综合索引卡
 type: concept
 status: enriched
 domain:
-  - ai
-  - entrepreneur
-  - product
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑 AI 大航海项目路演主题摘要综合（11 条录音 meetingSummary）
 source_refs:
@@ -23,9 +23,9 @@ source_refs:
   - 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
   - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
 tags:
-  - '#domain/ai-saas'
-  - '#method/communication-method'
-  - '#method/product-design'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -34,14 +34,14 @@ review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-  - yt-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-tool-product-core-canvas
-  - yt-pitch-colloquialization
-  - concept-ai-native-organization-five-steps
-  - ai-collaboration-mindset-shift
-  - ai-landing-scene-selection
-  - find-old-do-small
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown-collaboration-mindset-shift
+  - src_unknown-landing-scene-selection
+  - src_unknown
 ---
 # AI 大航海项目路演：主题综合知识卡
 
@@ -56,38 +56,38 @@ related:
 ## 核心洞察
 
 1. **方法论是项目底层的“默认操作系统”**
-   - 几乎所有项目都显式引用一堂方法论：五步法、MVP、关键假设、产品内核、双三角模型、外模型、找老的干小的等。
-   - 证据：
-     - 科创号 1301 用「一堂创业地图/管理地图/案例库」和「双三角模型」构建专利智能体。——来源：`src_20260614_67a2b760-科创号1301-AI应用落地汇报.md:21-23,151-152`
-     - 无限进步战队用「人脑做成 AI 的外挂」打磨 AI 内容营销工具。——来源：`src_20260614_32622548-无限进步战队-AI内容营销路演.md:143`
-     - ⚠️ **术语澄清**：卡片此前表述的「外模型（steps 多维五步）」存在跨 source 混同。「外模型」一词在无限进步战队 source 中未直接出现，原文表述为「人脑做成 AI 的外挂」；「steps 多维五步」实际出自 `src_20260614_507e4b9a-AI博客项目-经验分享.md:77`，不应作为无限进步战队的来源。
-     - 房浩洋剧本杀项目用 MVP 测试 + 11 版迭代验证可行性。——来源：`src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md:70-100`
-   - 边界：录音中自述的方法论应用程度需原文复核，不能排除“用后合理化”倾向。
+   - src_unknown
+   - src_unknown
+     - src_unknown
+     - src_unknown
+     - src_unknown
+     - src_unknown
+   - src_unknown
 
 2. **AI 落地呈现“垂直场景 + 可调用能力”两层结构**
-   - 垂直场景层：商业假设验证、组织 SOP 重构、知识产权服务、A 股价值投资、内容获客、非遗珠宝销售、剧本杀体验等。
-   - 可调用能力层：知识库、Agent、MCP、提示词工程、多模态解析、语音/视觉硬件入口、AI 辅助设计等。
-   - 证据：
-     - 奶糖平台定位“AI 时代个性化工具库”，基于 MCP 协议跨客户端调用。——来源：`src_20260614_852f9158-唐三超-奶糖项目汇报.md:59-76,130-131,175-177`
-     - AI 旋风组用扣子/阿里云千问把一堂知识库接入语音硬件。——来源：`src_20260614_ef4f24d7-AI旋风组-项目介绍.md:51,56-63,99-107`
-     - 瑶光阁用 AI 辅助大漆珠宝设计、视频制作与小红书数据分析。——来源：`src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md:19-20,37-44,70-75,104-108`
+   - src_unknown
+   - src_unknown
+   - src_unknown
+     - src_unknown
+     - src_unknown
+     - src_unknown
 
 3. **验证方式从“讲概念”转向“亮数据 + 亮 demo”**
-   - 各项目普遍给出可量化早期信号：
-     - 剧本杀 73% 满意度、40% 付费意愿、单局 API 成本 0.3 元。——来源：`src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md:123-136`
-     - 科创号 1301 12 万高校订单、800 万中小企业客户渠道。——来源：`src_20260614_67a2b760-科创号1301-AI应用落地汇报.md:26-28,85-90`
-     - 非遗珠宝完成 3 单成交。——来源：`src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md:109`
-     - 2298 战队 5 个项目完成率 90%、专利撰写周期从 24h 缩至 8h。——来源：`src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md:227-228`
-   - 边界：以上数字均来自项目方自述，样本量、统计口径、是否可复现**待原文复核**。
+   - src_unknown
+     - src_unknown
+     - src_unknown
+     - src_unknown
+     - src_unknown
+   - src_unknown
 
 4. **组织落地与个人成长是同一枚硬币的两面**
-   - 组织侧：2298 战队提出“AI 落地是一把手工程”“业务驱动、SOP 先行、流体组织”；AI 旋风组用树莓派 + 扣子搭建企业级知识库 Agent。——来源：`src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md:191-196,227-228`；`src_20260614_ef4f24d7-AI旋风组-项目介绍.md:51,56-63,99-107`
-   - 个人侧：个人汇报者从 AI 门外汉到输出 14 份业绩文档、效率提升 32%；AI 博客项目发言人从“AI 旁观者”转变为可私有化部署大模型的实践者。——来源：`src_20260614_cc542987-个人-AI航海成果汇报.md:49-84`；`src_20260614_507e4b9a-AI博客项目-经验分享.md:138,174,182`
-   - 启示：AI 项目路演的价值不仅在于产品，更在于展示“人 + 方法 + 工具”的协同进化。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **商业化路径初显，但规模化假设普遍未经验证**
-   - 奶糖平台规划广告、权重调用、开发者返佣；科创号 1301 通过渠道合作触达 800 万中小企业；瑶光阁已建立小红书账号矩阵与转化率看板 demo。
-   - 风险：多数项目处于 MVP 或内测阶段，收入模型、获客成本、合规边界、竞争壁垒仍需独立验证。
+   - src_unknown
+   - src_unknown
 
 ## 代表案例 / 录音清单
 
@@ -110,30 +110,30 @@ related:
 > 基于录音摘要与外部公开信息（一堂方法论公开资料、AI 创业项目公开报道、MVP/关键假设验证理论）交叉核对。**本主题未生成独立 six-layer-validation 报告。**
 
 ### L1 可证伪性：中等
-- 项目存在、使用平台、方法论引用等可证伪性较强。
-- 具体数据（12 万订单、800 万渠道客户、73% 满意度、40% 付费意愿、效率提升 32%）可证伪但缺少独立证据。
-- 商业化路径、规模化假设可证伪性较弱。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L2 行为一致性：中等
-- 路演语境下，项目方自然倾向于展示积极数据和进展。
-- 未记录失败案例、负面反馈、项目停滞等反向信息。
+- src_unknown
+- src_unknown
 
 ### L3 多源验证：中低
-- 一堂方法论（五步法、MVP、关键假设）有外部理论支持。
-- 各项目数据均为自述，样本量、统计口径、是否 audited 待复核。
-- 平台和技术栈（扣子、阿里云千问、百度秒搭、MCP）可公开验证，但项目效果不可。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L4 情绪标记：中等
-- 项目展示带有明显的积极、兴奋、希望获得认可的情绪。
-- 对风险和合规边界的讨论较少。
+- src_unknown
+- src_unknown
 
 ### L5 时间稳定性：中低
-- 早期项目、MVP、平台生态变化快，当前结论可能很快失效。
-- 假设验证、迭代打磨、路演表达等方法论相对稳定。
+- src_unknown
+- src_unknown
 
 ### L6 利益相关度：高
-- 路演项目通常追求融资、客户、课程成绩、团队认可。
-- 存在强烈的选择性呈现和夸大动机。
+- src_unknown
+- src_unknown
 
 ### 综合可信度评级
 
@@ -156,34 +156,34 @@ related:
 
 ## 与现有 30_wiki 的差异点
 
-- **现有卡片多为单点方法论或工具**：如 [[yt-five-step-method]]、[[yt-entrepreneur-key-hypotheses]]、[[yt-tool-product-core-canvas]]、[[yt-pitch-colloquialization]]、[[concept-ai-native-organization-five-steps]] 等，分别覆盖方法、假设、产品、表达、组织，但缺少把“方法 → 项目 → 验证数据 → 商业化”串起来的**主题视图**。
-- **本主题提供跨域项目样本群**：11 条录音覆盖知识库、组织、工具平台、专业服务、金融、营销、娱乐、文创、硬件入口，可作为 AI 落地成熟度的横向参照。
-- **包含可量化的早期验证数据**：如订单金额、满意度、付费意愿、成本、完成率等，现有概念卡较少直接引用此类一手口述数据。
-- **强调“讲香/路演”作为交付形态**：不仅是产品，还包括如何向听众展示假设、数据与迭代过程，这与 [[yt-pitch-colloquialization]] 形成应用场景互补。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度分层
 
 ### 事实层
-- 主题下共有 11 条录音，均为一堂 AI 大航海相关项目路演/汇报。
-- 各项目主体、产品名称、使用平台（百度秒搭、扣子、阿里云千问、MCP 等）在摘要中明确出现。
-- 关键数字在摘要中明确记录：12 万订单、800 万客户渠道、73% 满意度、40% 付费意愿、0.3 元单局成本、3 单成交、5 个项目 90% 完成率、14 份业绩文档、效率提升 32% 等。
-- 主讲人/发言人身份多数标注为“发言人 1”“金科”“王飞”“房浩洋”“唐三超”等，部分人名/角色待原文复核。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件层
-- 所有量化数据均基于 meetingSummary 摘要，统计口径、样本量、测量时间、是否 audited **待原文复核**。
-- 项目成功描述带有路演展示语境，可能存在选择性呈现，不代表同等条件下可复现。
-- 方法论的适用性取决于团队能力、行业监管、数据可获取性等外部条件。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 观察层
-- 多数项目呈现“小切口 MVP → 数据验证 → 商业化路径”三段式结构。
-- 知识库/Agent/Skill 成为跨项目复用的通用能力层。
-- 组织类项目更强调 SOP、一把手工程、业务驱动；个人/小团队项目更强调快速学习、工具组合、审美/判断补位。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险层
-- **路演幸存者偏差**：能进入路演录音的项目本身经过筛选，失败或停滞项目未被记录。
-- **数据未经独立验证**：满意度、付费意愿、订单金额、效率提升等数字均为自述，需原始材料佐证。
-- **工具与平台依赖**：百度秒搭、扣子、MCP、阿里云千问等生态快速变化，项目可复制性受限。
-- **合规与知识产权风险**：专利智能体、AI 生成内容、投资分析报告、剧本杀内容等涉及法律与合规边界，需专业复核。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 
@@ -197,8 +197,8 @@ related:
 
 **本主题未发现明显属于药柜/医疗的内容。**
 
-- 唯一涉及“医疗”字样的地方是 4033918（稳住战队）中提到团队成员 A “2026 年收益 45%（医疗领域）”，这仅指投资标的行业分类，不构成医疗/药柜服务或产品内容。
-- 其余录音围绕知识库、组织、工具平台、知识产权、金融分析、内容营销、剧本杀、非遗珠宝、硬件 Agent 等主题，无需移入药柜处理队列。
+- src_unknown
+- src_unknown
 
 **建议**：若后续原文复核发现某条录音实际涉及医疗服务、药品、医疗器械或健康咨询，再单独移入 `90_control/itingnao-kit/medical-queue/` 处理。
 
@@ -210,19 +210,19 @@ related:
 
 ## 验证与参考
 
-- 主题摘要：90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md
-- 原始引用（未纳入 source_refs）：`theme-ai-hackathon-pitches-summary`
-- 原始引用（未纳入 source_refs）：`rec-4046714`
-- 原始引用（未纳入 source_refs）：`rec-4044940`
-- 原始引用（未纳入 source_refs）：`rec-4044361`
-- 原始引用（未纳入 source_refs）：`rec-4042877`
-- 原始引用（未纳入 source_refs）：`rec-4033918`
-- 原始引用（未纳入 source_refs）：`rec-4033871`
-- 原始引用（未纳入 source_refs）：`rec-4033525`
-- 原始引用（未纳入 source_refs）：`rec-4033304`
-- 原始引用（未纳入 source_refs）：`rec-4033147`
-- 原始引用（未纳入 source_refs）：`rec-4025217`
-- 原始引用（未纳入 source_refs）：`rec-4023226`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -266,11 +266,11 @@ related:
 | 稳住战队百度秒搭、价值投资大师 | `src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md` | 19, 48, 58-61 | ✅ 已核对 |
 
 **说明**：
-- 奶糖平台：原文支持"AI 时代个性化工具库"（lines 59-63, 72, 105）和"基于 MCP 协议跨客户端调用"（lines 64-69, 75-76, 130-131, 175-177）。
-- 无限进步战队：3000 篇笔记原文明确支持（lines 161, 168）；"外模型"在原文中表述为"人脑做成AI的外挂"（line 143），"steps 多维五步"则出自 AI 博客项目 source，本 source 未直接对应。
-- AI 旋风组：扣子（line 51）、阿里云千问平台与 API（lines 56-63）、树莓派 5 硬件（lines 99-107）均原文支持。
-- AI 博客项目："私有化部署大模型"原文直接支持（line 182），"模型的本地部署"表述见 line 138。
-- 稳住战队："价值投资大师"产品名（line 48）和"百度秒搭"平台选择（lines 19, 58-61）原文支持。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **新发现的问题**：
 1. 无限进步战队断言中的"外模型（steps 多维五步）"存在跨 source 混同：steps 多维五步属于 AI 博客项目，不应作为无限进步战队的来源。
@@ -279,9 +279,9 @@ related:
 
 ### 置信度更新
 
-- 原综合可信度：0.54（🟡 中可信度，偏向中低）
-- 更新后：已核对的关键数字置信度提升，但数据仍为项目方自述，未经过独立审计。
-- 建议将本卡 confidence 从 `0.7`（如 frontmatter 未设置）调整为 `0.65`，并标注 `trust_level: medium`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -290,13 +290,13 @@ related:
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- 无
+- src_unknown
 
 ### 已标注限制条件的条件性结论
-- 无限进步战队‘外模型（steps 多维五步）’——原文为‘人脑做成AI的外挂’，‘外模型’与‘steps 多维五步’分属不同 source，存在术语混同，已拆分标注。
+- src_unknown限进步战队‘外模型（steps 多维五步）’——原文为‘人脑做成AI的外挂’，‘外模型’与‘steps 多维五步’分属不同 source，存在术语混同，已拆分标注。
 
-- 清理时间：2026-06-14
-- 置信度与信任等级：维持原设置，不因清理而提升。
+- src_unknown
+- src_unknown
 
 ---
 

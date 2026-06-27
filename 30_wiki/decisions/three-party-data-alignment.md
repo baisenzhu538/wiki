@@ -5,16 +5,16 @@ title: 三方认知对齐：KDO 数据管线 6+1 框架
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
-- 黄药师（Builder）
-- 用户（决策者）
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -23,19 +23,19 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[data-curator-role-division]]'
-  - '[[ouyangfeng-data-alignment-response]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 三方认知对齐：KDO 数据管线 6+1 框架
 
 ## 为什么需要这份文档
 
-- **黄药师**正在重构 KDO 的数据管线（Data Curator Skill）
-- **用户**已深度参与方向制定，引入了 Truman 的 AI 数据理解课程作为理论基底
-- **欧阳锋**作为审查者，需要理解新框架的核心理念，否则审查标准会停留在旧的"查字典思维"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **三方对齐的目标**：三人在以下六个核心理念上达成一致。此后黄药师的产出按此标准审查，用户的方向按此框架决策，欧阳锋的审查按此视角执行。
 
@@ -48,9 +48,9 @@ related:
 **新思维**：数据是给 AI 吃的——AI 理解了能产出好东西就行。评估标准是"**AI 用了这数据之后，输出变好了吗？**"
 
 这意味着审查卡片时不再只看 frontmatter 完整度，更要看：
-- 这张卡作为 AI 的上下文，能让 AI 的回答质量提升多少？
-- 卡片是否包含 AI 训练语料中没有的私有数据（暗知识）？
-- 卡片是否有多视角标注（同一知识的不同受众话术）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -83,9 +83,9 @@ related:
 ```
 
 **三方共识点**：
-- inbox 里的素材不要求立刻处理——湖里的鱼先养着
-- 升仓决策的重点是识别**暗知识**（过程数据、工具用法、个人体悟），不是把所有素材都处理
-- 防 AI 叠加污染：AI 生成 → AI 再分析的数据降低优先级
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -94,11 +94,11 @@ related:
 **定义**：不是大模型内置的，只有你有的，需要提炼才能用的知识。
 
 **KDO 已经积攒但从未处理的暗知识**：
-- `20_memory/corrections.md` — 12 条纠偏记录
-- `90_control/failure-modes.md` — 22 种失败模式
-- `.agent/pitfalls.md` — 15 条踩坑
-- `00_inbox/` 口述稿中的个人工作流、工具用法、体悟金句
-- Git diff / 审查意见 — BA 对比
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **三方共识点**：三步编译法（Condense→Question→Synthesize）的设计目标是提取稳定知识，不是捕获暗知识。暗知识需要独立的捕获管线（六字段模板），不是套用三步编译法。
 

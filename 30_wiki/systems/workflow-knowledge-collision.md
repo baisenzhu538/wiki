@@ -4,32 +4,32 @@ id: workflow-knowledge-collision
 title: 知识碰撞工作流：产出前先碰撞知识库
 type: system
 domain:
-- hermes
-- kdo
+- src_unknown
+- src_unknown
 status: active
 created_at: '2026-06-14'
 author: 周伯通
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs: []
 query_triggers:
-- 写作
-- 分析
-- 产出
-- 碰撞
-- 先搜wiki
-- 知识库工作流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-f4-wrong-workdir]]'
-  - '[[three-party-data-alignment]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[yt-decision-ai-partner]]'
-  - '[[agent-external-brain-design]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/execution-method'
-- '#domain/ai-saas'
-- '#chunk-type/synthesis'
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium
@@ -116,6 +116,6 @@ search_files(pattern="<核心概念>", target="content", path="wiki/30_wiki/")
 
 ## 关联
 
-- [[yt-decision-ai-partner]] — 本工作流的核心参考框架（双三角模型：人-AI 协作分工）
-- [[agent-external-brain-design]] — Agent 外挂大脑设计原则：wiki 不是信息库，是思考的碰撞面
-- 对应 Skill：`knowledge-collision-workflow`（Hermes Agent 可直接 `skill_view` 加载）
+- src_unknown
+- src_unknown
+- src_unknown

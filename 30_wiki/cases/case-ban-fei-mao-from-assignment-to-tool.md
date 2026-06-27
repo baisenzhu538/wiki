@@ -5,8 +5,8 @@ title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
@@ -14,33 +14,33 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[tool-纪浩-真需求四要素验证法]]'
-  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-半肥猫-course-to-skill]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- src_unknown
+- src_unknown
+- src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI第一轮回答很顺、听起来很有道理，但给不出证据
+- src_unknown
   framework_lens: 推理替代证据
   follow_up_question: 这个结论是基于真实数据、具体案例，还是AI的合理推理？能不能列出3条可验证的事实？
-- signal: 课程作业做完就丢，每次调研都从零开始
+- src_unknown
   framework_lens: 单次交付 vs 可复用资产
   follow_up_question: 这次作业的产出能否被下一次类似任务直接调用？哪些步骤可以封装成模板或检查清单？
-- signal: 用假设业务或别人的业务做练习，动力不足、判断失真
+- src_unknown
   framework_lens: 真实问题驱动
   follow_up_question: 你当前有没有一个真实的、正在进行的业务问题？如果没有，练习结论的可迁移性会打多少折扣？
-- signal: AI引用的数据来源混杂、地域或时间不匹配
+- src_unknown
   framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
 ---
@@ -88,10 +88,10 @@ diagnostic_signals:
 
 最终产出的不是一份调研报告，而是一套"从模糊问题到证据决策型报告"的结构化流程：
 
-- 调研问题澄清
-- 假设地图生成
-- 证据链补强
-- 决策报告输出
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 并且用AI讨论产品化方案——目标用户是谁、什么场景、第一期做哪些功能、怎么迭代——最终沉淀为PRD文档。
 
@@ -124,9 +124,9 @@ diagnostic_signals:
 
 ### 不可复制的场景
 
-- 你只是想"快速完成作业"而不是解决真实问题（动力不足）。
-- 你没有真实业务，只能用假设场景练习。
-- 你不愿意检查AI的证据，习惯性相信"丝滑的回答"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键转折点
 
@@ -144,9 +144,9 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- **[[case-半肥猫-course-to-skill]]** —— 另一个半肥猫案例，展示了从课程到Skill的八步工作流。与本案例共同说明：课程学习的终点不是作业，而是可复用工具。
-- **[[tool-纪浩-真需求四要素验证法]]** —— 确保工具化的前提是真实需求。半肥猫用真实业务做练习，正是"真实锚点"的落地。
-- **[[dk-ban-fei-mao-silky-answers-are-dangerous]]** —— 为什么必须连续纠偏AI的回答。本案例中的四轮纠偏是该暗知识的具体操作实例。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

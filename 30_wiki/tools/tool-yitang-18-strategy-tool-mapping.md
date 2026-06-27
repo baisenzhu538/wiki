@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
   - 30_wiki/concepts/yt-research-osl-framework.md
@@ -17,12 +17,12 @@ updated_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[system-yitang-research-workflow]]"
-  - "[[yitang-research-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "Agent知道第X掌是什么但不知道用什么工具执行"
+  - src_unknown
     framework_lens: 策略→工具映射表
     follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
 ---

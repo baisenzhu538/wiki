@@ -4,7 +4,7 @@ title: 技能：内核要素三问验证法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
@@ -12,43 +12,43 @@ source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 tools_required:
-- 产品内核画布（已完成加减法后的版本）
-- 用户访谈或问卷工具（可选）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-一堂-product-kernel-add-subtract
-- concept-一堂-product-kernel
+- src_unknown
+- src_unknown
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-product-kernel-add-subtract]]'
-- '[[tool-一堂-five-step-validation]]'
-- '[[tool-一堂-product-kernel-canvas]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-five-step-validation]]'
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 内核里混入'有则更好'的要素，核心价值被稀释
+- src_unknown
   lens: 优化性当决定性
   follow_up: 执行决定性测试：去掉后转化率会大降吗？要求数据或用户原话支撑
-- signal: 单条内核都对，但组合起来缺关键环节
+- src_unknown
   lens: 完备性缺失
   follow_up: 画用户决策因果链，检查从'看到产品'到'付费/留存'是否有断点
-- signal: 在存疑内核上投入大量研发资源
+- src_unknown
   lens: 过早细化
   follow_up: 标注验证状态，存疑项默认'做而不信'，先验证再细化
-- signal: 团队自己判断'用户会不会选'，未访谈真实用户
+- src_unknown
   lens: 内部观点代替用户事实
   follow_up: 优化性测试必须访谈3-5个真实用户，收集事实而非结论
-- signal: 三问通过后停止验证，把三问当成终点
+- src_unknown
   lens: 验证停止
   follow_up: 三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整
 ---
@@ -60,10 +60,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.91] **三问中的"决定性"是最容易被误判的维度。** 团队常常把"有则更好"的优化性要素当成"没则不行"的决定性要素。Truman的检验标准：如果去掉这个要素，用户转化率会大幅下降吗？如果不会，它就不是决定性
-- claim:02 [conf=0.87] **"完备性"问的是组合效应，不是单点质量。** 三条决定性要素加在一起，是否能通向好的商业结果？单独看每条都对，但组合起来可能缺关键环节
-- claim:03 [conf=0.85] **三问验证必须在"过早细化"之前完成。** Truman警告："无限的追求极致是没有意义的"——在未验证内核假设前就过度优化细节，是创业里最贵的误区
-- claim:04 [conf=0.82] **"做而不信"是三问验证后的正确心态。** 即使三问都通过了，内核仍然是假设，需要持续验证和动态调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -102,9 +102,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 产品内核画布（已完成加减法后的版本）
-- 用户访谈或问卷工具（用于优化性测试的事实收集）
-- 转化率数据看板（用于决定性测试的数据支撑）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -117,11 +117,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **把优化性当决定性** → 内核里混入"有则更好"的要素，稀释真正的核心价值 → **重复问"去掉后转化率会大降吗"，要求数据或用户原话支撑**
-- **忽略完备性** → 单条都对，但组合起来缺关键环节（如有好产品但无信任背书） → **画用户决策因果链，检查断点**
-- **过早细化未验证的假设** → 在"存疑"内核上投入大量研发资源 → **标注验证状态，存疑项默认"做而不信"**
-- **用内部观点代替用户事实** → 团队自己判断"用户会不会选" → **优化性测试必须访谈真实用户，收集事实而非结论**
-- **三问通过后就停止验证** → 把三问当成终点而非起点 → **三问是假设的筛选器，不是真理的判决书**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -131,9 +131,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **三问高度依赖"转化率数据"的可用性。** 早期产品往往没有足够的数据来回答"去掉后转化率会降吗"。没有数据时，团队只能依赖猜测，三问退化为"有结构的主观判断"
-- **"用户访谈"收集的事实也可能被污染。** 用户在被问"你为什么选择我们"时，往往给出事后合理化解释，而非真实决策原因。Kahneman的"叙事自我"理论指出，人类对自己决策的解释常常是虚构的
-- **三问对"颠覆性创新"产品可能失效。** 如果产品创造了全新品类（如AirPods），用户没有参照系来回答"去掉XX你还买吗"——他们甚至不知道自己在"选择"什么
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -141,8 +141,8 @@ diagnostic_signals:
 
 **Daniel Kahneman**（*思考，快与慢*作者）从认知心理学角度攻击三问验证法：
 
-- **用户无法准确报告自己的决策原因。** Kahneman的研究表明，人类决策主要由系统1（直觉）驱动，事后的"原因解释"是系统2为系统1的行为编造的叙事。当你问用户"你为什么选择我们"时，你得到的不是"真实原因"，而是"听起来最合理的故事"。**你用三问收集的"事实"，可能只是用户的自我欺骗**
-- **"去掉后还会买吗"是一个反事实问题。** 反事实推理是人类认知的弱项。用户很难在"要素A存在"和"要素A不存在"两个场景间做稳定比较。他们的回答会被"现状偏见"（默认接受现有组合）严重扭曲
+- src_unknown
+- src_unknown
 
 > **Kahneman 的讽刺**："你的三问验证法假设用户是理性的决策者，能准确评估每个要素的边际贡献。但我毕生研究的就是'人类不是理性决策者'。你的三问不是在验证内核，是在验证用户编故事的能力。"
 
@@ -150,8 +150,8 @@ diagnostic_signals:
 
 **Richard Thaler**（*助推*作者，诺贝尔经济学奖得主，行为经济学先驱）从选择架构角度攻击：
 
-- **"去掉后还会选吗"忽略了默认选项的力量。** Thaler的研究表明，用户的选择很大程度上取决于"默认设置"和"选择架构"，而非要素本身的绝对价值。如果某个要素是默认包含的，用户可能根本不会注意到它，但去掉后会感到不适——这不是因为要素有价值，而是因为"损失厌恶"
-- **三问无法区分"真实价值"和"禀赋效应"。** 用户已经体验过的功能会被高估（禀赋效应），三问会把这种高估误读为"决定性"
+- src_unknown
+- src_unknown
 
 > **Thaler 的讽刺**："你的三问在问'这个要素重要吗'，但用户回答的是'失去它我会难受吗'。难受不等于重要。你的内核清单里可能塞满了'让人难受但无关紧要'的东西，而真正的价值被遗漏了。"
 
@@ -167,8 +167,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂产品内核验证课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

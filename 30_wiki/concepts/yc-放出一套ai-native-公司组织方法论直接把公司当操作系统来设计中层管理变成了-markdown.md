@@ -4,7 +4,7 @@
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
 domain:
-- ai-saas
+- src_unknown
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
@@ -15,15 +15,15 @@ trust_level: medium
 type: concept
 updated_at: 2026-05-04
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 confidence: 0.8
 related:
-  - '[[concept-ai-native-organization-five-steps]]'
-  - '[[YC-Y-Combinator]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-纪浩-AI对话上下文隔离]]'
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # YC 放出一套「AI-NATIVE 公司」组织方法论
 
@@ -52,37 +52,37 @@ related:
 ## Critique
 
 ### 前提假设
-- 假设 LLM 能力持续指数增长，能可靠地替代中层管理的协调和判断职能。【可靠性：中】LLM 在结构化任务上表现优秀，但在需要情境判断、政治敏感的协调场景仍不可靠。
-- 假设团队全员（包括非技术岗位）能适应"写 spec→AI 执行→人工验证"的工作模式。【可靠性：低】国内小微企业中，非技术员工占比高，数字化素养参差不齐。
-- 假设公司核心知识交给外部闭源 LLM API 是安全的。【可靠性：低】数据安全是落地最大阻碍——小公司更怕被"卡脖子"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
-- **适合**：10 人以下的 AI-native 初创团队、已有技术基础想转型的 SaaS 公司。
-- **不适合**：重资产行业（制造业、物流）、强监管行业（金融、医疗）、劳动力密集型服务业（餐饮、零售门店）。
-- YC 方法论面向硅谷精英创业环境，中国小微企业面临的人才密度、数字化基础、合规成本完全不同。Diana Hu 讲的"没有 legacy"对国内传统企业不成立——legacy 不是技术债，是过去十年积累的客户关系、供应链和本地 know-how。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性评估
 **整体可靠性：中。** 方法论方向正确，核心思想（公司可查询化、token 投入强度）对 KDO 项目有直接指导意义。但落地路径需要大量"中国化"适配——小微企业第一步不是"去掉中层"，而是"先让老板本人学会用 AI 做决策"。
 
 ### Agent drift 问题（re: Open Questions）
-- Agent 能否长期稳定反映人的心智模型？当 spec 和现实脱节时谁来修正？这是一个真实风险。KDO 的解决方案：`90_control/AGENTS.md` + `60_feedback/corrections/` 作为漂移修正回路。但需要持续维护，不是一次性配置。
+- src_unknown
 
 ---
 
 ## Synthesis
 
 ### 关联概念
-- [[kdo-protocol]] — KDO 的目录结构（CLAUDE.md + state.json + 三步编译）本质上就是 YC 说的"公司变成可查询的"。KDO 是 AI-native 组织的最小可行原型。
-- [[graph-rag]] — Token Maxing 需要高效的检索基础设施作为支撑。Graph RAG 是让 AI 消费更多"高质量上下文"的关键技术。
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — Software Factories 模式在调研领域的应用：人定义研究问题+维度，AI 集群执行搜索+交叉验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 互补还是冲突
-- 互补：YC 的"token 投入强度"概念与 KDO 的"三步编译法"高度互补——三步编译本质上就是把原始信息压缩为"高密度 token"，提高每次 AI 调用的上下文质量。
-- 冲突点：YC 强调"去掉中层"，但 KDO 团队的老顽童（居中协调角色）正是中层管理的功能。说明不是去掉中层，而是把中层从"人肉转发"变成"agent 编排"。
+- src_unknown
+- src_unknown
 
 ### 可迁移到 KDO 的下一步
-- 把 CLAUDE.md 中的 Agent 行为规则从"被动执行"升级为"主动闭环"——agent 执行任务后自动记录 feedback → 触发 improve 计划 → 更新行为规则。
-- 建立"token 效率"仪表板：跟踪每次 kdo 调用的上下文利用率，发现哪些概念卡需要重新编译（如街顺的 11 万字符卡）。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -97,19 +97,19 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md`
+- src_unknown
 
 ## Open Questions
 
-- Agent drift 问题：agent 能否长期稳定反映人的心智模型？当 spec 和现实脱节时谁来修正？
-- 数据安全风险：把公司认知核心交给外部闭源 LLM API，组织信息暴露给模型提供商，怎么办？
-- 中层管理的真实处境：国内中小企业有没有条件做"去中间层"？现实约束有哪些？
-- 落地路径：小微企业想借鉴 AI-native 组织，最小可行的第一步是什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- **Content（文章）**：角度——"YC说中层管理变markdown，但中国的小微企业能做到吗？"（争议型切入，结合老朱自身实践经验）
-- **Capability（能力）**：把"AI-native 公司自检清单"做成一个可复用的模板工具
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

@@ -12,25 +12,25 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/精益创业/transcript_低成本验证认知篇.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - '[[framework-lean-pivot-decision]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[framework-demand-lean-bridge]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - '[[framework-five-step-lean-interface]]'
-  - "[[framework-strategy-brm]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-decision-y-model]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 战略假设的精益验证流程
@@ -39,9 +39,9 @@ related:
 
 ## 触发问题
 
-- “我们定了一个战略方向，但不知道哪里最可能错。”
-- “战略会上讨论很嗨，但没人能说清楚先验证什么。”
-- “老板想 all-in，我想先小步验证，怎么设计实验？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 端到端流程
 
@@ -75,10 +75,10 @@ related:
 
 ## 与相邻卡的关系
 
-- 入口：[[framework-strategy-brm]] 输出赛道/定位/模式/增长/壁垒假设；本卡负责把这些假设变成验证计划。
-- 排序：[[framework-lean-abcd-model]] 决定“哪些假设先验”，[[yt-entrepreneur-key-hypotheses]] 提供关键假设剥离方法。
-- 决策：[[yt-decision-y-model]] 用于实验结果 ambiguous 时判断 pivot / persevere / kill。
-- 域图：[[strategy-domain-digest]]、[[lean-startup-domain-digest]] 提供两个域的完整索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -91,8 +91,8 @@ related:
 
 ## 适用边界
 
-- **适合**：战略方向已初步形成，但关键假设不确定性高的业务；需要把“战略讨论”转化为“验证计划”的团队。
-- **不适合**：高度不确定性赛道（如全新品类）中所有假设都无法低成本验证；强政策依赖赛道中关键假设只能依赖政策解读而非实验 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md §2.7]。
+- src_unknown
+- src_unknown
 
 ---
 

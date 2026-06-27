@@ -4,7 +4,7 @@
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
-- ai-saas
+- src_unknown
 review_date: 2026-05-04
 reviewed_by: 黄药师
 status: enriched
@@ -18,11 +18,11 @@ source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[tinyfish-agentic-web-infrastructure]]'
-  - '[[plan_20260621_crawl4ai-firecrawl-evaluation]]'
-  - '[[tool-yitang-web-scraping-research]]'
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-agent-native-overview]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。
@@ -39,9 +39,9 @@ related:
 
 ### 一句话选型
 
-- **Firecrawl**：喂URL拿干净Markdown，适合RAG和LLM流水线。付费（$19-$749/月）
-- **Crawl4AI**：pip install即可，Ollama本地模型，零API费用，数据主权
-- **Scrapling**：Cloudflare Turnstile绕过的终极武器，`auto_match=True`自适应DOM变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -59,12 +59,12 @@ print(result.markdown)  # 干净的LLM-ready文本
 ```
 
 **核心优势**：
-- Markdown噪声率仅6.8%（行业最低）
-- P95延迟3.4秒，适合实时AI Agent
-- 多语言SDK：Python/Node/Go/Rust/Java/Elixir
-- Agent模式：自然语言描述需求，AI自动采集
-- `/interact`端点：点击、滚动、填表单、导航
-- 集成LangChain/LlamaIndex/CrewAI/Dify
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **致命弱点**：成本随量增长；自托管版功能滞后；高防网站依赖托管代理
 
@@ -83,13 +83,13 @@ asyncio.run(main())
 ```
 
 **核心优势**：
-- $0成本 — 只付自己的算力+LLM API
-- 支持Ollama本地模型，数据不出域
-- BM25内容过滤（`fit_markdown`）降噪
-- 自适应选择器跨会话学习
-- 异步浏览器池 + 页面预热
-- 支持Chromium/Firefox/WebKit
-- CLI开箱即用：`crwl https://example.com -o markdown`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **致命弱点**：反反爬成功率仅72%；Python only；自管代理和基础设施
 
@@ -104,13 +104,13 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 ```
 
 **核心优势**：
-- TLS指纹全模拟（Chrome/Firefox）
-- `auto_save=True`：网站改版自动重定位元素，零维护
-- 三种Fetcher：`Fetcher`(快速HTTP) / `StealthyFetcher`(反反爬) / `PlayWrightFetcher`(全JS渲染)
-- 速度对标lxml/parsel（2ms级），碾压BS4
-- MCP Server — AI辅助抓取，先提取目标内容再给AI，降token消耗
-- 暂停/恢复爬取 + 本地缓存开发模式
-- 内置DOM相似度算法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **致命弱点**：无SERP搜索、无站点地图爬取；需手写爬虫代码；社区较小
 
@@ -147,14 +147,14 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 ## Critique
 
 ### 前提假设
-- 假设三个工具在2026年持续维护更新。【可靠性：高】三个均活跃开发中：Firecrawl $14.5M融资、Crawl4AI 9M+ PyPI下载、Scrapling 31K stars。
-- 假设Firecrawl的反反爬靠代理池可长期维持。【可靠性：中】代理IP成本持续上升，高防站检测升级可能削弱托管代理的优势。
-- 假设Crawl4AI的72%反反爬成功率可接受。【可靠性：中】对大多数公开网站足够，但对高价值数据源（电商价格、竞品信息）可能不够。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与盲区
-- 三个工具均未覆盖：登录态维持（session持久化）、验证码自动识别、分布式爬取调度
-- 爬取合法性：robots.txt遵守程度各不同，需根据目标网站的ToS自行判断
-- 中文站点适配：三家对中文字符集、中文反爬策略（如阿里系滑块）的支持未经验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性
 **整体：高**。数据来自GitHub、PyPI、Spider Benchmark（2026）、官方文档。基准测试可能有供应商偏差，但相对排名可信。
@@ -163,9 +163,9 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ## Synthesis
 
-- 与 [[kimi-深度调研集群方法论-deep-research-swarm]] 互补：Deep Research集群需要大规模Web数据采集作为输入，三剑客是数据采集层
-- 与 一堂调研武器库13招 互补：13招中策略2（爬虫抓数据）、策略9（公开信息收集）可直接用这三个工具实现
-- 可作为 KDO `kdo fetch-url` 命令的后端引擎选型参考
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -174,15 +174,15 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Open Questions
 
-- 三个工具对中文站点（阿里、京东、知乎）的实际抓取效果如何？
-- Crawl4AI的Ollama本地模型在结构化提取上的质量 vs GPT-4o的差距？
-- Scrapling的auto_match功能在极端DOM变化（如框架迁移React→Vue）下是否仍有效？
-- Firecrawl自托管版与云版的差距到底有多大？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Code: 封装 `kdo scrape` 命令，支持三引擎切换
-- Capability: Web抓取Agent — 自动选择合适的引擎+回退策略
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

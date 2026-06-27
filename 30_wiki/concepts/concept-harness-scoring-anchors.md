@@ -15,12 +15,12 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - '[[tool-马易-判断标准快速产出法]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 评分锚定
@@ -53,14 +53,14 @@ LLM在1-10分制下会"和稀泥"——避开极端分数（1-2分和9-10分）�
 
 ## 跨域迁移
 
-- **调研质量门禁**：六维门禁可以借鉴语义锚点——每维定义"A/B/C/D"的具体含义，而非"整体感觉不错"
-- **案例评审**：多评审者场景下，"取较低值"比"取平均值"更能暴露问题
-- **任何多评估者场景**：只要有≥2个评估者，这套规则就适用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
-- **适用**：需要多评估者的质量把关场景、Agent产出评审
-- **不适用**：单一评估者的主观判断（不需要锚点和多评估者规则）
+- src_unknown
+- src_unknown
 
 ---
 

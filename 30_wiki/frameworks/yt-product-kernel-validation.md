@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度验证法
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-canvas
-  - yt-product-kernel-ten-metrics
-  - yt-product-kernel-iteration
-  - yt-five-step-method
-  - yt-entrepreneur-lean-validation
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我觉得用户会喜欢'，但没有验证数据"
+  - src_unknown
     framework_lens: 产品内核验证——假设未验证
     follow_up_question: "你的内核假设验证过吗？用什么方法？关键转化率是多少？"
-  - signal: "用户有验证数据，但只验证了一个维度"
+  - src_unknown
     framework_lens: 产品内核验证——需要三维度交叉验证
     follow_up_question: "你验证了用户是否愿意使用，但验证了他们是否愿意付费吗？是否愿意推荐？"
-  - signal: "用户验证方法太弱，只有问卷"
+  - src_unknown
     framework_lens: 产品内核验证——问卷≠行为验证
     follow_up_question: "用户说'愿意付费'后，有没有让他们实际付费或预付？"
-  - signal: "用户验证样本太小，只有几个朋友"
+  - src_unknown
     framework_lens: 产品内核验证——样本不足
     follow_up_question: "验证了多少个用户？是否覆盖了目标用户画像？"
-  - signal: "用户验证后，忽视负面结果，继续投入"
+  - src_unknown
     framework_lens: 产品内核验证——验证结果不被尊重
     follow_up_question: "如果验证结果不支持内核假设，你会调整方向吗？"
 
@@ -119,22 +119,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 同时设计验证方案
-- 当验证"愿意用"时 → 问"愿意付吗？愿意推荐吗？"
-- 当用户说"愿意"时 → 用行为验证替代口头验证
-- 当验证结果不支持时 → 尊重数据，调整方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-lean-validation`：精益验证方法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂产品内核验证课笔记
-- 一堂精益验证方法
+- src_unknown
+- src_unknown
+- src_unknown

@@ -15,12 +15,12 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-research-goal-before-efficiency]]'
-  - '[[dk-demand-hidden-need]]'
-  - '[[dk-yitang-research-starter-vs-veteran]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[dk-yitang-public-info-is-enough]]'
-  - "[[dk-yitang-research-starter-vs-veteran]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 调研决心比技巧重要
 

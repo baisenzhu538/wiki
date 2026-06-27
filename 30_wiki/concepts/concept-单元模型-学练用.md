@@ -10,23 +10,23 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-学练用.md
 related:
-  - '[[truman-ai-partner-design-analysis]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[ocr-一堂-单元模型-学练用]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - "[[yt-unit-model-ladder]]"
-  - "[[concept-最简单元模型]]"
-  - "[[framework-TCPR底层网络协议]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 学练用：知识内化的三阶模型
@@ -54,19 +54,19 @@ related:
 
 ## 与 AI 时代的对应
 
-- **学 + AI**：T-Partner（教学伙伴），AI 答疑、AI 逐字稿提取
-- **练 + AI**：AI 习题集、AI 案例集——无限量生成练习素材
-- **用 + AI**：C-Partner（咨询伙伴）、P-Partner（实践伙伴）——AI 辅助决策和操盘
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- 刚接触一个领域时，不要跳过「学」直接「用」——缺少基础概念框架会走弯路
-- 不要以「还在学」为借口永远不进入「练」和「用」——学练用是循环不是直线
+- src_unknown
+- src_unknown
 
 ## 与已有框架的关系
 
-- **[[framework-TCPR底层网络协议]]**：学→T(教学)、练→C(咨询)、用→P(实践)，R(研究)贯穿全程
-- **[[yt-unit-model-ladder]]**：段位模型描述能力成长阶梯，学练用描述「如何爬梯子」
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,11 +3,11 @@
 title: "OCR: 一堂-单元模型-TCPR底层网络协议"
 type: concept
 domain:
-  - management
-  - product
-  - needs-review
-  - business-strategy
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_189cf93b
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-找基准值实操难点]]'
-  - '[[ai单元模型口述蒋老师]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -39,11 +39,11 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- *`
+- src_unknown
 
 TCP-R模型：商业管理世界的底层网络协议
 商业管理世界的底层网络协议
@@ -51,8 +51,8 @@ TCP-R模型：商业管理世界的底层网络协议
 T-教学(Teach) C-咨询(consult) D -实践(Practice) R-研究(Research)
 关键词：规模化、降门 关键词：探究、解题、 关键词：解题、躬身入局、 关键词：统筹、建模、
 槛、改变认知
-- 帮助他人解决卡点
-- 園 M mQ
+- src_unknown
+- src_unknown
 88
 核心场景：演讲、路演、 核心场景：私董会、1V1 核心场景：创业、操盘业 核心场景：做课、写书、
 内训、产品发布
@@ -62,6 +62,6 @@ T-教学(Teach) C-咨询(consult) D -实践(Practice) R-研究(Research)
 
 ## Output Opportunities
 
-- Content: report or analysis
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

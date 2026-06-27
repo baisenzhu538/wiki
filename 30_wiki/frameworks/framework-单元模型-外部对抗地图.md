@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-外部对抗地图.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[tool-单元模型-单城市]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[framework-strategy-brm]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 外部对抗地图
@@ -70,17 +70,17 @@ related:
 2. **按高 / 中 / 低排序**：高优先级通常是「有时间窗口、可被主动利用、与竞争直接相关」的变化。
 3. **标注自身位置**：对每项高优先级变化，判断你是受益者、受损者还是旁观者。
 4. **制定响应策略**：
-   - 高优先级：必须在今年战略中明确应对，分配核心资源。
-   - 中优先级：建立监测机制，条件触发时快速跟进。
-   - 低优先级：纳入环境扫描，不主动投入。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **每季度复评**：外部优先级会随市场阶段变化，例如资本窗口期从松到紧会从「高」变为「极高」。
 
 ## When NOT to Use
 
-- **作为逃避内省的借口**：外部变化再重要，也不能替代对自身产品、组织、商业模式的反思 [conf=0.75, source=一堂原创]。
-- **把优先级当成永恒真理**：同一项外部变化在不同行业阶段优先级不同，不能机械套用原图分类。
-- **忽视黑天鹅的低频高损**：虽然黑天鹅被列为中优先级，但其破坏性可能极高，需要专项风险管理。
-- **只做地图不做行动**：外部对抗地图的价值在于驱动战略调整，而不是产出一张漂亮的分类表。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -91,14 +91,14 @@ related:
 
 ## 与已有框架的关系
 
-- **[[tool-单元模型-壁垒预判]]**：外部对抗地图回答「战场上有什么力量」，壁垒预判回答「你有没有护城河」。
-- **[[framework-strategy-brm]]**：BRM 帮助设计商业模式，外部对抗地图帮助判断商业模式所处的外部环境窗口。
-- **[[concept-ai-amara-law-business-judgment]]**：阿马拉定律提醒我们短期高估、长期低估技术变化，外部对抗地图则帮助校准不同变化的优先级。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「外部变化 → 内部能力」的映射表：看到变化后，企业应调动哪些组织能力响应？
-- 缺少「优先级动态调整」规则：当资本窗口期关闭、竞争加剧时，原来的高优先级项如何降级？
-- 缺少「反共识检测」：哪些被团队普遍低估的外部变化，恰恰是破局点？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -109,12 +109,12 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 召集跨职能团队，列出行业当前 10-20 个外部变化。
-- [ ] 用「时间窗口 + 可影响性 + 竞争相关性」三维度排序。
-- [ ] 对高优先级变化，明确受益者/受损者/旁观者角色。
-- [ ] 为高优先级变化制定 90 天行动计划。
-- [ ] 为黑天鹅类变化制定应急预案（资金、现金流、备用供应链）。
-- [ ] 每季度复评外部对抗地图，并更新战略优先级。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

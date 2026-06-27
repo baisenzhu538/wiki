@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,13 +10,13 @@ created_at: 2026-05-11
 difficulty: advanced
 language: zh-CN
 query_triggers:
-  - "X vs Y 七维对比"
-  - "与十年爬山地图的对应"
-  - "两条职业成长路线"
-  - "两条路线的底层逻辑"
-  - "关键选择框架"
-  - "楚门的选择"
-  - "楚门的选择：两条职业成长路线 X vs Y"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
@@ -31,7 +31,7 @@ yitang:
   module: "个人修炼"
   course_type: framework
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户想走Y路线但不愿做大量刻意练习', 'framework_lens': 'Y路线需要高难度学习', 'follow_up_question': '你准备好进行大量跨领域迁移练习了吗？如果没有，Y路线走不通'}
   - {'signal': '用户只羡慕Y路线迁移性，不看自己基础', 'framework_lens': '基础不匹配', 'follow_up_question': '你现在的产品设计能力和学习习惯，更适合X还是Y？'}
@@ -39,11 +39,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-panproduct-demand-multi-perspective]]'
-  - '[[yt-skill-storyline-contrast-analysis]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[ocr-truman的选择两条职业成长路线]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 楚门的选择：两条职业成长路线 X vs Y
 
@@ -101,9 +101,9 @@ related:
 
 > "要不要用更底层/更难的学习，来换更长期、更强迁移、更笃定的核心能力？"
 
-- **选X**：如果你需要 1-2 年内产出结果，X路线更快
-- **选Y**：如果你愿意用 10 年维度思考，Y路线的复利效应远超X
-- **不是二选一**：可以先走X（快速上手），再切换到Y（长期修炼），但切换成本很高——需要"忘记"很多X路线的习惯
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与十年爬山地图的对应
 
@@ -134,10 +134,10 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-deliberate-practice-growth]]
-- [[yt-model-pan-product-36-strategies]]
-- [[yt-model-pan-product-climbing-map]]
-- [[yt-model-truman-five-step-growth]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -4,38 +4,38 @@
 
 id: yt-panproduct-execution-war-room
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 2100
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 攻坚会
-- 泛产品设计
-- 泛产品设计·落地卡片：攻坚会
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：攻坚会
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[yt-tool-strategy-workshop]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[yt-decision-consensus-iceberg]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会
@@ -49,18 +49,18 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 攻坚会前已经明确一个具体的攻坚问题，而不是泛泛讨论
+- src_unknown
   framework_lens: 聚焦是攻坚会的前提
   follow_up_question: 这个问题能否用一句话描述？如果做不到，就不适合开攻坚会
-- signal: 关键角色都在场，并且会前已做思考准备
+- src_unknown
   framework_lens: 攻坚会是高强度协作，不是信息同步
   follow_up_question: 缺席的这个人是否会导致决策无法落地？
-- signal: 会议结束时有明确决策、负责人和下一步行动
+- src_unknown
   framework_lens: 攻坚会必须产出结论
   follow_up_question: 如果会议超时仍未达成共识，谁来拍板？
-- signal: 会议结束前 15 分钟，主持人已能写出"决策+负责人+下一步+验收标准"
+- src_unknown
   framework_lens: 攻坚会必须以可执行四要素关闭
   follow_up_question: 如果现在就要散会，这四要素中有几个还是空白？空白项是指定补充负责人，还是会议失败？
 updated_at: '2026-06-16'
@@ -89,20 +89,20 @@ status: superseded
 ### 失败模式
 
 1. **什么问题都开攻坚会，团队进入"会议疲劳"**
-   - **真实症状**：一周开 3 次以上攻坚会；参会人开始敷衍准备；会议产出从"关键决策"滑落成"再想想"
-   - **可执行修复**：设立硬性门槛——必须同时满足「高 stakes + 跨部门 + 时间紧迫 + 开放性」四项才开；每月同一项目攻坚会不超过 2 次
+   - src_unknown
+   - src_unknown
 
 2. **关键角色缺席，决策无法落地**
-   - **真实症状**：会上达成的方案会后被执行方以"当时没参与"为由推翻；同一议题反复召开
-   - **可执行修复**：会前 24 小时发出"必须有谁"清单（决策人 + 执行负责人 + 信息持有者），缺关键角色则改期，不凑人数
+   - src_unknown
+   - src_unknown
 
 3. **会前零准备，现场从零讨论**
-   - **真实症状**：开场 30 分钟仍在澄清基础事实；与会者不断说"这个我要回去确认"
-   - **可执行修复**：会前 48 小时发送预读包（问题背景、已有数据、各自立场/方案）；要求每人会前输出 ≥300 字书面思考，会上直接对比
+   - src_unknown
+   - src_unknown
 
 4. **会议变成马拉松，以"大家累了"收尾**
-   - **真实症状**：超时 30 分钟以上仍无结论；最后阶段出现"那就先这样"的模糊决议
-   - **可执行修复**：设定硬截止（建议 2-3 小时），最后 30 分钟必须进入"决策 + 负责人 + 下一步 + 验收标准"四要素输出；到点未决由主持人或决策人强制拍板
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -112,12 +112,12 @@ status: superseded
 
 ### 1. 触发条件 checklist（会前 48 小时逐项确认）
 
-- [ ] 问题可用一句话描述，且涉及关键项目/产品方向
-- [ ] 决策人可到场，或已书面授权一名拍板人
-- [ ] 关键执行角色和信息持有者可到场
-- [ ] 会前已有 60% 以上关键信息，剩余 40% 可在会前 24 小时内补齐
-- [ ] 不开攻坚会将在 1-2 周内造成明显损失或机会成本
-- [ ] 普通会议/异步文档无法解决，必须实时多角色碰撞
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 若以上任一项为"否"，改为异步调研、普通会议或一对一沟通。
 
@@ -135,10 +135,10 @@ status: superseded
 
 ### 3. 关闭标准（满足任意一条即可散会）
 
-- [ ] 已产出明确的"决策 + 负责人 + 下一步 + 验收标准"四要素
-- [ ] 已明确"当前无法决策"及需要补充的信息/验证项，并指定负责人和截止时间
-- [ ] 到达硬截止时间，由主持人/决策人强制拍板并记录分歧
-- [ ] 发现议题不成立或已有现成方案，无需继续讨论
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 可复用议程模板（120 分钟版）
 
@@ -174,9 +174,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Susan Cain的"安静的力量" + Charlan Nemeth的"异见的生产力"
 

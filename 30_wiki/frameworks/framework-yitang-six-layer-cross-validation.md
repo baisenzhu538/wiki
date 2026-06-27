@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 交叉验证
-- 六层验证
-- 信息可信度
-- 验证方法
-- 多源验证
-- 信息验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[case-yitang-senior-university-product-design]]'
-  - '[[framework-yitang-iterative-recursive-digging]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-深度分层学习]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "（tool-yitang-research-facts-first，待补）"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[dk-yitang-expert-interview-5-traps]]"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 六层交叉验证：从单源到多源的信息可信度提升
@@ -85,9 +85,9 @@ related:
 | E | 匿名来源、传闻 | 极低 | "据内部人士透露" |
 
 ### 验证方法
-- 检查来源是否可追溯到原始出处
-- 检查来源是否有利益相关
-- 检查来源的专业背景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,9 +107,9 @@ related:
 | 用户偏好 | 6-12个月 | 消费习惯、审美趋势 |
 
 ### 验证方法
-- 检查信息发布时间
-- 检查数据收集时间
-- 评估信息是否过时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -129,9 +129,9 @@ related:
 | **虚假两难** | 非黑即白 | "只有这两个选项吗？" |
 
 ### 验证方法
-- 检查论证过程是否完整
-- 检查是否有逻辑跳跃
-- 检查前提假设是否成立
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,9 +151,9 @@ related:
 | **对比基准** | 和谁比？ | 有合理的对比基准 |
 
 ### 验证方法
-- 追溯数据来源
-- 检查计算方法
-- 寻找独立数据验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -172,9 +172,9 @@ related:
 | **跨域对比** | 用其他行业验证 | "其他行业有类似情况吗？" |
 
 ### 验证方法
-- 强制寻找至少1个反例
-- 评估反例的强度和可信度
-- 调整结论以包容反例
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -192,9 +192,9 @@ related:
 | **可调整性** | 能根据反馈调整吗？ | 设定调整机制 |
 
 ### 验证方法
-- 将结论转化为具体行动
-- 设计小规模测试
-- 根据测试结果调整结论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -284,23 +284,23 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 交叉验证模块
-- 交叉：六层交叉验证来自调研方法论实践总结
-- 注意：六层验证是理想状态，实际执行中可根据信息重要性调整验证深度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,31 +4,31 @@
 
 id: yt-tool-fab-persuasion
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: foundational
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
-- yt-model-conversion-optimization
+- src_unknown
 query_triggers:
-- 如何写FAB
-- FAB说服法
-- 产品说服文案
-- 特性优点利益
-- 如何写产品介绍
-- 核心说服点
-- 转化文案怎么写
-- 用户价值描述
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-conversion-optimization]]'
-  - '[[case-truman-motivation-map-12-versions]]'
-  - '[[yt-model-conversion-optimization]]'
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -39,19 +39,19 @@ type: tool
 version: 1
 tags: []
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 产品描述是否从用户利益(B)出发，而非从特性(F)罗列开始
+- src_unknown
   framework_lens: 用户中心 / 转化文案
   follow_up_question: 用户看完第一句后能否立刻回答'这跟我有什么关系？'
-- signal: 每个 Advantage 是否对应可验证的用户收益，而非空泛修饰
+- src_unknown
   framework_lens: 可验证性 / 信任
   follow_up_question: '''快 10 倍''''省 50% 时间''等说法是否有数据或场景支撑？'
-- signal: FAB 承诺是否与产品实际交付一致
+- src_unknown
   framework_lens: 期望管理 / NPS
   follow_up_question: 用户被说服后体验，是否会发现'说得比做得好'？
-- signal: 是否根据用户决策阶段选择 FAB 顺序（F→A→B vs B→A→F）
+- src_unknown
   framework_lens: 场景适配 / 说服节奏
   follow_up_question: 高客单价/低认知场景是否仍在用功能列表开场？
 updated_at: '2026-06-16'
@@ -70,9 +70,9 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 
 ### claim:01 [conf=0.90][src: 泛产品设计工具篇口述版] FAB 不是信息列表，是动力层级的基础
 
-- 一堂将动力提升划分为三个层级：**FAB 核心说服 → 内在自驱 → 外在影响力六法则**
-- FAB 是必须先打稳的地基——如果用户连你能带来什么利益都不清楚，稀缺性、社会认同、权威背书都是空谈
-- **反常识**：FAB 越往上走越难写。大多数人停留在 F（列特性），少数人能写到 A（比竞品好在哪），能写出 B（对用户的具体利益）的不到 10%
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:02 [conf=0.88][src: 泛产品设计工具篇口述版] 三步 FAB 转化法
 
@@ -84,27 +84,27 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 
 ### claim:03 [conf=0.85][src: 泛产品设计工具篇口述版] 四种应用场景的 FAB 语气调整
 
-- **产品介绍页**：FAB 顺序 = F→A→B。先让用户知道你是什么，再说比别人好在哪，最后打出情感共鸣
-  - ❌ 错误："我们的APP有AI功能、数据分析、智能推荐（列特性）"
-  - ✅ 正确："一个能自动分析你的学习进度（F）、比传统备考方法省下 50% 时间（A）、让你在考试前夜不用猖狂刷题而是睡个好觉（B）的学习助手"
-- **销售话术**：FAB 顺序 = B→A→F。先打出痛点/利益，用户关注了再补充优点和特性
-  - ❌ 错误："我们的保险产品有 200 个院科覆盖（F）"
-  - ✅ 正确："如果你生病了不用担心拖累家人（B），因为我们的覆盖范围比行业平均多 40%（A），具体有 200 个院科（F）"
-- **说服老板/要资源**：FAB 顺序 = B→A→F。老板只关心 ROI，先打利益再补充证据
-  - ❌ 错误："我们要做一个新功能，需要 3 个工程师 2 个月（F）"
-  - ✅ 正确："如果做这个功能，预计能提升用户留存 15%，相当于每月多 50 万收入（B）。竞品目前都没有这个能力（A），我们需要 3 个工程师做 2 个月（F）"
-- **内部沟通/跨部门协作**：FAB 顺序 = F→B。同事关心的是"要做什么“和"为什么要做“
-  - ❌ 错误："这个需求很紧急，上线时间是下周三（无关痛痒的信息堆砌）"
-  - ✅ 正确："我们要上线一个自动化回复功能（F），这样客服团队每天可以少处理 200 条重复问题，把精力放在复杂问题上（B）"
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### claim:04 [conf=0.82][src: 泛产品设计工具篇口述版] 三个检测 FAB 质量的问题
 
-- **检测 1: 能不能用一句话说清楚？**
-  - 如果你写出的 FAB 超过 50 字，说明还没有打通——真正的核心价值是可以用一句话传达的
-- **检测 2: 利益是不是用户自己说出来的？**
-  - 把你写的 B 放给 3 个目标用户看，问他们"如果你有这个，你会怎么描述？”——如果他们说的和你写的不一样，以用户说的为准
-- **检测 3: 利益背后有没有数字？**
-  - 没有数字的利益是空洞的。"省时间“不如"省 3 小时/天“；"提升效率“不如"每天多处理 20% 的订单“
+- src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
 
 ## Critique
 
@@ -130,23 +130,23 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 
 ### 成功案例：一堂体验课 FAB 改写
 
-- **背景**：一堂早期的体验课介绍页："一堂是一个创业学习平台，提供融资、调研、产品、增长等课程（列特性）"
-- **问题**：用户看完无感——"跟我有什么关系？”
-- **FAB 改写**："如果你是创业者，在融资路演时总被投资人问倒（B）——一堂的融资课由投资人亲自讲解，跟你见到的理论课完全不同（A）。课程包含 12 个融资环节的实战案例，每个案例都附带投资人的真实反馈（F）。"
-- **结果**：介绍页转化率提升约 **40%**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败/边界案例：FAB 写得太好，产品跟不上
 
-- **场景**：某 SaaS 公司用 FAB 重写了登陆页："一键自动生成数据报告，比手动整理快 10 倍，让你每周五下班前完成周报"
-- **问题**：FAB 写得很好，但产品实际上"一键生成“需要用户先手动配置 15 个字段，实际流程比手动还慢
-- **结果**：用户被说服进来，体验后失望，NPS 从 45 降到 12，负面口碑发酵
-- **教训**：**FAB 是说明书，不是广告——它只能说产品能做到的，不能说产品没做到的**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反常识案例：FAB 顺序完全反了，效果更好
 
-- **现象**：某保险产品的销售页，尝试 B→A→F 顺序："如果你生病了不用担心拖累家人（B），因为我们覆盖范围比行业多 40%（A），有 200 个院科（F）"
-- **结果**：转化率比传统 F→A→B 顺序高出 **25%**
-- **反常识**：高客单价产品，用户不关心功能列表，关心的是"这个问题如果发生在我身上，我怎么办？”——**先打痛点，再给解药**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -167,21 +167,21 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 
 ### Wikilinks
 
-- [[yt-model-conversion-optimization]] — 转化率优化框架提供了 FAB 之上的动力层级（内在自驱 + 外在影响力六法则），FAB 是它的地基
-- [[yt-panproduct-demand-motivation-resistance]] — 动力阻力触点模型诊断了用户为什么没转化，FAB 解决了"转化页面怎么写"
-- [[yt-entrepreneur-needs-analysis]] — 需求分析确定了"用户需要什么“，FAB 是把需求翻译成"用户能感知到的利益"的工具
-- yt-tool-copywriting-framework — 文案框架提供了 FAB 之外的补充说服结构（如 PAS、AIDA），可以与 FAB 组合使用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Contradictions
 
-- vs [[yt-model-conversion-optimization]]：转化率优化框架提供了 FAB + 动力三曲线 + 十大触点的组合，本卡专注于 FAB 单点的深度提取。不矛盾——先用本卡打稳 FAB，再用转化率框架叠加动力和触点
-- vs [[yt-entrepreneur-needs-analysis]]：需求分析解决"用户需要什么“，FAB 解决"怎么让用户感知到这个需求"。两者是"前后端“关系——需求分析是 FAB 的输入，FAB 是需求分析的输出
+- src_unknown
+- src_unknown
 
 ## Feedback
 
 ### 摩擦记录
 
-- **口述稿提取摩擦**：口述中关于 FAB 的描述分散在多个段落，需要拼接。特别是"三个维度"（FAB → 内在自驱 → 外在影响力）的层级关系在口述中提到了但没有展开详细说明，需要结合转化率优化卡片补充
-- **案例缺失**：口述中没有提供 FAB 的具体案例（如一堂产品介绍页的改写过程），案例部分需要基于一般性知识补充
-- **检测方法缺失**：口述中没有提供"如何检测 FAB 质量"的方法，claim:04 的三个检测问题是基于实战经验的补充
-- **与转化率框架的边界**：本卡专注 FAB，但口述中 FAB 是作为"动力提升三层次"的一部分存在的。如果用户只看本卡，可能会忽视 FAB 之上还有内在自驱和外在影响力两层——需要在 Synthesis 中强调这个层级关系
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

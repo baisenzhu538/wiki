@@ -8,39 +8,39 @@ source_refs:
 - 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-management-scientific-hiring]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-management-scientific-hiring]]'
-  - '[[yt-management-onboarding]]'
-  - '[[yt-management-company-culture]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-decision-width-method]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 结构化面试
-- 面试打分卡
-- STAR 追问法
-- 行为面试
-- 招聘决策
-- 产品经理面试
-- 面试评估维度
-- 光环效应面试
-- 多人面试打分
-- 招对人
-- 面试偏见防治
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -54,10 +54,10 @@ updated_at: '2026-06-16'
 estimated_tokens: 3400
 reviewed_by: 周伯通
 diagnostic_signals:
-- signal: 面试后每个人都填了打分卡，总分最高的候选人被录用了——3个月后发现根本不行
+- src_unknown
   framework_lens: 打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难
   follow_up_question: 这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用
-- signal: 团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过
+- src_unknown
   framework_lens: 打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉
   follow_up_question: 过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具
 author: 老顽童
@@ -189,9 +189,9 @@ author: 老顽童
 | 参考人检查 | 必须联系至少1个前同事/前上级 | 候选人自己编辑过的 STAR 故事 |
 
 **录用门槛**：
-- 所有 Must-have 维度 ≥4 分 → 不录用
-- 有任何一个红线票 → 不录用，除非超级多数人（≥4/5 人）覆盖
-- 总分不是决策依据——红线票 + Must-have 维度才是
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：试用期验证（60/90 天检查点）
 

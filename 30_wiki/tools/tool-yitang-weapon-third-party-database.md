@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-social-media-interview]]'
-  - '[[tool-yitang-social-media-monitoring]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-business-registration-check]]'
-  - '[[tool-yitang-government-data-search]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-database-index]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略11：第三方数据库

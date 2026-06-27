@@ -3,22 +3,22 @@ id: tool-思维验证交叉检验
 title: 技能：思维验证交叉检验
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- decision-making
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 单一模型多轮对话
-- 或两个实例对话
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-反向提示获取优化建议]]'
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-提示词结构化迭代]]'
-- '[[tool-渐进式披露上下文]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：思维验证交叉检验
 
@@ -45,26 +45,26 @@ related:
 5. 可多次迭代
 
 ## 适用场景
-- ✅ 高 stakes 决策
-- ✅ 已知模型容易出错的领域
-- ✅ 需要极高可靠性的分析
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 利用模型自我修正能力，通过角色分离实现内部交叉验证，减少确认偏误
 
 ## 工具/环境
-- 单一模型多轮对话
-- 或两个实例对话
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

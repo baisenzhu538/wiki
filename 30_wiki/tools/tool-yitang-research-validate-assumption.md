@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 验证假设
-- 调研先行
-- 假设验证
-- 验证想法
-- 调研验证
-- 行动前验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-doris-industry-report-4step]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "（tool-yitang-research-hypothesis-test，待补）"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[concept-yitang-research-objective]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研先行验证假设：在行动前杀死错误想法
@@ -112,9 +112,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 | **低** | 假设错误，影响有限 | "用户更喜欢蓝色而不是红色" |
 
 ### 优先级排序
-- 先验证极高和高重要性的假设
-- 极高重要性假设：至少3个独立来源验证
-- 高重要性假设：至少2个独立来源验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -144,9 +144,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 [选择的方法]
 
 ### 验证标准
-- 通过标准：[什么结果算验证通过]
-- 失败标准：[什么结果算验证失败]
-- 需验证标准：[什么结果需要进一步验证]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 时间计划
 [开始时间] - [结束时间]
@@ -160,9 +160,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 ## Step 4：执行验证
 
 ### 执行原则
-- 快速：尽量在1-2周内完成
-- 低成本：用最小成本获取验证信息
-- 可追溯：记录验证过程和结果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 验证记录模板
 
@@ -185,9 +185,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 高/中/低
 
 ### 结论
-- [ ] 验证通过
-- [ ] 验证失败
-- [ ] 需进一步验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 下一步行动
 [具体行动]
@@ -206,9 +206,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 | **需验证** | 需验证 | 设计进一步验证方案 |
 
 ### 决策原则
-- 验证失败 ≠ 项目失败，可能是方向调整
-- 验证通过 ≠ 一定成功，只是假设成立
-- 需验证 ≠ 拖延，要明确进一步验证方案
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -224,9 +224,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 | 低 | 数小时 | 影响有限 | 低 |
 
 ### 核心原则
-- 验证成本通常只有试错成本的1/10到1/100
-- 越早验证，成本越低
-- 验证是投资，不是成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -276,23 +276,23 @@ Step 5: 决策（Go / No-Go / 需验证）
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[yt-research-hypothesis-test]] — 旧版假设测试
-- [[concept-yitang-research-objective]] — 锁定目标方法论
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 假设验证模块
-- 交叉：精益创业假设验证方法
-- 注意：假设验证是调研方法论中最基础的工具，适用于所有调研场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

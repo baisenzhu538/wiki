@@ -15,12 +15,12 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-笔记.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-demand-tier4-housekeeping]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-popmart-prospectus-pricing]]'
-  - "[[tool-demand-iceberg-l3-core-job]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：奶昔JTBD

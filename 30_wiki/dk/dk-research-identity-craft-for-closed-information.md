@@ -10,31 +10,31 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- research
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "[[dk-yitang-research-cross-validation-cost]]"
-  - "[[dk-research-triangulation-stop-rule]]"
-  - "[[case-yitang-competitor-pricing-intelligence]]"
-  - "[[case-yitang-elderly-home-roleplay]]"
-  - "[[case-yitang-fake-interview-intelligence]]"
-  - "[[case-yitang-supplier-security-guard]]"
-  - "[[case-zhanglan-amusement-park-undercover]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 为获取封闭情报设计合法身份
@@ -49,10 +49,10 @@ related:
 
 这个模式出现在任何“公开信息已经穷尽，但决策仍需水下信息”的时刻。典型触发条件包括：
 
-- 你正在评估加盟、投资或进入一个信息不对称严重的行业，品牌方、招商材料和公开数据都呈现“过度美化”的版本。
-- 你需要了解竞品的真实成本结构、出货量、折扣政策或供应链细节，而这些信息不可能通过官方渠道获得。
-- 你想验证某个赛道是否仍处于红利期，但所有公开访谈对象都是“活下来的人”——亏钱者和退出者沉默。
-- 你需要进入一个私密社群（家属群、从业者群、供应商群）才能拿到真实的行为痕迹和口碑数据。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这个模式在加盟、供应链、B2B 销售、本地生活、养老、文娱等“水下信息”密集的领域反复出现[conf=0.80, source=王语嫣 synthesis_research.md]。
 
@@ -90,17 +90,17 @@ related:
 
 身份设计适用于以下情况：
 
-- 公开合法渠道已穷尽，关键决策信息仍缺失。
-- 信息价值高，足以覆盖身份设计的时间与道德成本。
-- 目标对象是有商业判断力的企业或从业者，双方处于商业对等位置。
-- 研究者有能力做好充分准备（至少 2-3 小时研究行业术语、公司背景、市场格局），避免一问就暴露。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 不适用于：
 
-- 可以通过公开合法渠道直接获取的信息。
-- 涉及个人隐私、人身安全或高度敏感合规问题的调研。
-- 信息价值和道德成本严重不对等（只为省几千块调研费）。
-- 研究者缺乏准备或判断力，容易越界违法。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -126,9 +126,9 @@ related:
 
 以下卡片已覆盖部分内容：
 
-- **[[tool-yitang-social-engineering-research]]**：系统整理了身份设计矩阵、常用身份模板和三条道德红线。
-- **[[tool-yitang-field-research]]**：提供“蹲店·谈话·数人头”三板斧，强调用体力换信息质量。
-- **[[tool-yitang-job-intelligence-research]]**：把招聘渠道分为五层递进，详细说明了“去竞对公司面试”的操作方法。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 现有框架未覆盖的缺口
 

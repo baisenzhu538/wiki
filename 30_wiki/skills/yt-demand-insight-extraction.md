@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-fake-demand-detection
-  - yt-demand-jtbd-application
-  - yt-demand-scenario-reconstruction
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户访谈做了很多，但结论模糊，无法指导决策"
+  - src_unknown
     framework_lens: 访谈技巧——缺乏结构化访谈框架
     follow_up_question: "你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？"
-  - signal: "用户访谈中，用户说的都是'想要'，没有'现在怎么做'"
+  - src_unknown
     framework_lens: 访谈技巧——引导性问题导致社会期望偏差
     follow_up_question: "你的访谈问题是'你想要什么'，还是'你现在怎么解决的'？"
-  - signal: "用户访谈后，团队对结论有分歧"
+  - src_unknown
     framework_lens: 访谈技巧——缺乏统一的记录和分析方法
     follow_up_question: "访谈记录是结构化的吗？能填进统一的分析模板吗？"
-  - signal: "用户访谈中，用户说的和实际行为不一致"
+  - src_unknown
     framework_lens: 访谈技巧——口头需求≠行为需求
     follow_up_question: "用户说'想要'后，有没有观察他们的实际行为？"
-  - signal: "用户访谈样本太少，只有3-5个"
+  - src_unknown
     framework_lens: 访谈技巧——样本不足，结论不可靠
     follow_up_question: "至少访谈了多少个用户？是否覆盖了不同用户层？"
 
@@ -110,20 +110,20 @@ ___________________________________________
 ### 2. 从访谈到洞察的提炼
 
 **步骤1：逐条记录**
-- 记录每个用户的原话
-- 不加工、不解读
+- src_unknown
+- src_unknown
 
 **步骤2：分类归纳**
-- 按主题分类（问题、替代方案、痛点、期望）
-- 统计每个主题出现的频率
+- src_unknown
+- src_unknown
 
 **步骤3：交叉验证**
-- 多个用户是否提到同一问题？
-- 问题出现的频率和强度？
+- src_unknown
+- src_unknown
 
 **步骤4：提炼洞察**
-- 从具体描述中提炼共性
-- 形成可指导决策的洞察
+- src_unknown
+- src_unknown
 
 ### 3. 访谈数量的判断
 
@@ -139,9 +139,9 @@ ___________________________________________
 
 访谈结论必须验证：
 
-- **行为验证**：用户说"想要"后，是否实际使用或付费？
-- **数据验证**：访谈结论是否和行为数据一致？
-- **范围验证**：访谈结论是否适用于更广泛的用户群？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -165,22 +165,22 @@ ___________________________________________
 
 ## 行动触发器
 
-- 当要做用户访谈时 → 先准备访谈框架和模板
-- 当访谈用户时 → 少说多听，追问具体
-- 当记录访谈时 → 记录原话，不加解读
-- 当分析访谈时 → 主动寻找反例
-- 当用访谈结论指导决策时 → 先验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-demand-jtbd-application`：JTBD需求分析实战应用
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂泛产品设计用户卡片需求挖掘
-- JTBD访谈方法论（Christensen, Ulwick）
+- src_unknown
+- src_unknown
+- src_unknown

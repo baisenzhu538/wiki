@@ -11,13 +11,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[case-strategy-failure-08-video]]'
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-02-supermarket]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-04-appliance]]'
-  - "[[tool-strategy-nine-problems]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **表面问题**：737 MAX安全事故
 **战略根因**：机制背离——内部激励机制优先财务指标而非安全。MCAS单传感器设计被批评为成本妥协

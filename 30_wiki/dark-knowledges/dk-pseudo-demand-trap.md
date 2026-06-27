@@ -6,34 +6,34 @@ type: dk
 dark_knowledge_type: validation-blindspot
 status: enriched
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 tags:
-- '#domain/yitang'
-- '#chunk-type/critique'
-- '#method/evaluation-method'
-- '#dark-knowledge/trap'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-  - '[[yt-foresight-ten-fatal-flaws]]'
-  - '[[yt-ai-trend-12-signals]]'
-  - '[[dk-signal-cluster-illusion]]'
-  - '[[dk-ai-entrepreneur-technical-blindspot]]'
-  - '[[yt-ai-startup-20-risky-hypotheses]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 团队用20条风险假设清单逐项通过，却从未用付费意愿或市场规模验证需求本身
-- 用户访谈中多数人表示“有用/需要”，但无人愿意预付或实际转化
+- src_unknown
+- src_unknown
 ---
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 
@@ -45,30 +45,30 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 用[[yt-ai-startup-20-risky-hypotheses]]或[[yt-entrepreneur-key-hypotheses]]完成方向评估后，准备投入开发或融资前。
-- 用户访谈反馈积极，但迟迟无人付费、转化率极低。
-- 团队用“竞品存在”“投资人认可”“技术可行”作为需求已被验证的证据。
-- 产品上线后数据尚可，但付费率、LTV/CAC 长期无法打正。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **完成排雷后强制做一次独立的需求验证**，而不是把“排雷完成”默认为“方向正确”。
 2. **需求真实性三问**：
-   - 目标用户是否已经在为类似需求付费？
-   - 如果不做这个产品，用户会用什么替代方案？
-   - 用户愿意为这个新方案多付多少钱？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **用预付费或承诺行动替代口头“需要”**：
-   - 让用户现场付少量定金（哪怕1元）。
-   - 设计“如果现在有一个付费群/预售，你是否愿意加入？”的测试。
+   - src_unknown
+   - src_unknown
 4. **做竞品生存能力分析**：看竞品营收是否覆盖成本、留存率、是否依赖持续融资，而不是用“有竞品”反向证明需求真实。
 5. **把“需求未验证”设为最高优先级阻塞项**：只要三问中任何一条回答为“否/不知道”，优先验证需求而非推进执行。
 
 ## 适用边界
 
-- **不适用于B2G或B2B大客户场景**：这些场景中的需求常被政策、合规“创造”，不存在传统意义上的伪需求。
-- **预付费测试在某些文化中失真**：如日本、北欧用户对“未见产品先付费”接受度低，结果需谨慎解读。
-- **伪需求与早期市场边界模糊**：网约车、外卖早期看似伪需求，随基础设施完善后变为真实需求，过早判定可能错失窗口。
-- **不替代精益创业**：本暗知卡不是替代MVP验证，而是强制在“排雷”与“精益验证”之间建立连接。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -81,12 +81,12 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **避免“完美方向”陷阱**：很多团队在排除风险后产生“不可能失败”的幻觉，这张卡迫使你回到最本质的问题——需求是否真实且足够大。
-- **降低早期资源错配成本**：在开发、招聘、融资前识别伪需求，比在上线后发现失败要便宜一个数量级。
-- **连接两套方法论**：把“排雷清单”与“精益需求验证”桥接起来，避免工具各自为政导致的验证盲区。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- **[[yt-ai-startup-20-risky-hypotheses]]** — 20条假设清单问的是“什么可能让我失败”，本卡问的是“如果什么都不让我失败，我是否仍然会失败”。两者合问，才能覆盖创业失败的完整光谱。
-- **[[yt-entrepreneur-key-hypotheses]]** — 关键假设方法论要求先列出所有风险假设并验证；本卡要求在所有风险假设之外，单独列出“需求假设”并优先验证。
-- **[[yt-entrepreneur-needs-analysis]]** — 需求分析课教的是“如何深度理解需求”，本卡教的是“如何不被需求存在的幻觉欺骗”。前者是正手，后者是反手。
+- src_unknown
+- src_unknown
+- src_unknown

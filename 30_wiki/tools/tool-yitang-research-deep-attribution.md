@@ -13,33 +13,33 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 深度归因
-- 根因分析
-- 5Why
-- 问题根因
-- 归因分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-iterative-recursive-digging]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[tool-yitang-research-quantitative-modeling]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "（dk-yitang-research-determination，待补）"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 深度归因：找到问题根因的5Why法
@@ -69,34 +69,34 @@ related:
 ## 5Why执行步骤
 
 ### 第一步：明确问题
-- 问题要具体、可观察
-- 避免模糊描述
-- 用数据支撑问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：第一次Why
-- 问："为什么会发生这个问题？"
-- 回答：直接原因
-- 示例："为什么用户流失？" → "因为产品体验不好"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三步：第二次Why
-- 问："为什么产品体验不好？"
-- 回答：深层原因
-- 示例："因为加载速度慢"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：第三次Why
-- 问："为什么加载速度慢？"
-- 回答：更深层原因
-- 示例："因为服务器配置不足"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第五步：第四次Why
-- 问："为什么服务器配置不足？"
-- 回答：系统原因
-- 示例："因为预算不足"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第六步：第五次Why
-- 问："为什么预算不足？"
-- 回答：根因
-- 示例："因为前期没有做好容量规划"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -120,24 +120,24 @@ related:
 [具体问题]
 
 ### Why 1
-- 问：为什么[问题]？
-- 答：[原因1]
+- src_unknown
+- src_unknown
 
 ### Why 2
-- 问：为什么[原因1]？
-- 答：[原因2]
+- src_unknown
+- src_unknown
 
 ### Why 3
-- 问：为什么[原因2]？
-- 答：[原因3]
+- src_unknown
+- src_unknown
 
 ### Why 4
-- 问：为什么[原因3]？
-- 答：[原因4]
+- src_unknown
+- src_unknown
 
 ### Why 5
-- 问：为什么[原因4]？
-- 答：[根因]
+- src_unknown
+- src_unknown
 
 ### 根因
 [根因]
@@ -206,21 +206,21 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 深度归因模块
-- 交叉：丰田5Why法
-- 注意：5Why是简单但强大的工具，需要持续练习
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-retention-metrics
-  - yt-growth-data-driven-decision
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的留存率在下降，但不知道原因'"
+  - src_unknown
     framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
     follow_up_question: "哪个 cohort 的留存率下降？是新用户还是老用户？哪个渠道的用户？"
-  - signal: "用户说'我们改了产品，但不知道对留存的影响'"
+  - src_unknown
     framework_lens: 同期群分析——产品改动的影响需要对比 cohort
     follow_up_question: "改动前后的 cohort 留存曲线有变化吗？哪个 cohort 受影响最大？"
-  - signal: "用户说'我们的用户行为很复杂，不知道怎么分析'"
+  - src_unknown
     framework_lens: 同期群分析——同期群分析把复杂行为结构化
     follow_up_question: "你的用户按什么维度分群？注册时间、渠道、版本？"
-  - signal: "用户说'我们的数据很多，但看不出趋势'"
+  - src_unknown
     framework_lens: 同期群分析——同期群分析能揭示趋势和异常
     follow_up_question: "你的 cohort 留存曲线是什么形状？是改善还是恶化？"
-  - signal: "用户说'我们不知道哪个渠道的用户质量最好'"
+  - src_unknown
     framework_lens: 同期群分析——按渠道分群，对比留存
     follow_up_question: "不同渠道的用户 cohort 留存曲线对比如何？"
 
@@ -134,21 +134,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当留存下降时 → 同期群分析找问题 cohort
-- 当评估渠道时 → 按渠道分群对比
-- 当产品改动时 → 对比改动前后 cohort
-- 当数据复杂时 → 同期群分析结构化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 同期群分析研究
-- 用户行为分析实践
+- src_unknown
+- src_unknown
+- src_unknown

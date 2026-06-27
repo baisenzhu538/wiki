@@ -7,8 +7,8 @@ title: 洗发水产品内核：从卖点混淆到内核清晰的产品定义案�
 type: case
 status: reviewed
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂五步法-产品内核课程案例
 source_refs:
@@ -17,19 +17,19 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - '[[case-lean-shampoo-selling-points]]'
-  - '[[yt-product-kernel-definition]]'
-  - '[[case-milktea-five-step]]'
-  - '[[case-treadmill-demand-analysis]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[yt-product-kernel-cultivation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[yt-product-kernel-cultivation]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-case-verified
+- src_unknown
+- src_unknown
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -77,13 +77,13 @@ trust_level: high
 ### 有效组合 vs 无效组合
 
 **有效组合示例：**
-- 防脱增发 + 人参成分 + 水果香味 + 澳洲销量第一背书
-- 修护烫染 + 氨基酸 + CoCo香水 + 欧盟认证
+- src_unknown
+- src_unknown
 
 **无效组合的原因：**
-- 功效和背书不匹配（如去屑止痒 + 英国进口百年品牌——百年品牌不会做去屑功能）
-- 成分和功效矛盾（如控油清爽 + 鱼子酱——鱼子酱油腻，不匹配控油）
-- 卖点太多没有记忆点（如小仓兰香味——太小众，用户记不住）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 一堂方法论的映射
 

@@ -4,38 +4,38 @@ title: 技能：判断课程是否值得做成Skill
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 课程资料
+- src_unknown
+- src_unknown
 prerequisite_skills: []
 related:
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-- '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-- '[[tool-半肥猫-课程Skill化的八步工作流]]'
-- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[ocr-一堂-科学决策-深度-案例03]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 使用本技能后仍频繁将无方法论课程推进到八步工作流
-- 团队因过度评估导致决策成本高于后续开发收益
+- src_unknown
+- src_unknown
 ---
 # 技能：判断课程是否值得做成Skill
 
@@ -45,9 +45,9 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **判断标准是方法论质量，不是课程名气**。热门课程可能是「成功学鸡汤」或「案例集锦」，没有可复用的方法论框架；做成Skill只会给AI灌输偏见。
-- **三个必检项缺一不可**：科学底层、完整资料、实践验证。有方法论但没案例无法测试；有案例但没方法论无法泛化；有方法论和案例但没实践验证可能是空中楼阁。
-- **「不值得做」的决策和「值得做」同等重要**。如果判断不值得，要果断放弃，不要「差不多试试看」；时间稀缺性决定了必须做减法。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -68,12 +68,12 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 拿到课程大纲、案例集、讲义/资料
-- [ ] 评估课程是否有科学底层方法论：可复用的分析框架、明确的输入-处理-输出逻辑、边界条件
-- [ ] 确认资料完整充分：足够案例、反面案例、边界案例
-- [ ] 验证方法经过实践检验：在实际业务中被验证过，有可量化效果数据更佳
-- [ ] 做综合判断：三项都通过才进入八步工作流，任何一项不通过就放弃
-- [ ] 记录判断结论与关键证据，便于后续复盘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -83,11 +83,11 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **"科学方法论"的定义本身主观**。什么算"科学"？A/B测试算，但定性访谈算不算？框架思维算，但经验法则算不算？半肥猫的标准偏向"量化、结构化、可验证"的方法，可能排除了有价值的定性方法
+- src_unknown
 
-- **"实践验证"的门槛对小团队过高**。很多小团队没有资源做大规模的A/B测试来"验证"一个方法。如果严格按照"实践验证"标准，很多对小团队有价值的轻量级方法会被过滤掉
+- src_unknown
 
-- **判断者自身的偏见会影响判断结果**。如果判断者本身就偏好某种方法论（如半肥猫偏好A/B测试和量化分析），那他的判断标准会系统性地偏向同类课程
+- src_unknown
 
 ### 外部攻击
 
@@ -95,11 +95,11 @@ diagnostic_signals:
 
 **Clayton Christensen**（*The Innovator's Dilemma* 作者）从创新理论角度质疑这个判断框架：
 
-- **"科学方法论"标准会过滤掉颠覆性创新**：Christensen 的核心发现是，颠覆性创新最初往往"不够好"——它们没有成熟的科学方法论、没有大量验证案例、没有明确的边界。如果半肥猫的质量门 existed 在20年前，它可能会过滤掉"精益创业"（最初只是几个博客文章）、"增长黑客"（最初只是一些黑客的实验）。**成熟的方法论是创新的结果，不是创新的前提**
+- src_unknown
 
-- **"实践验证"意味着只认可现有主流**：已经被大规模验证的方法，恰恰是现有主流在用 метод。质量门会系统性地偏好"已经被验证的"，而排斥"尚未被验证但可能有颠覆性"的。这就是 Christensen 所说的"现有者偏见"
+- src_unknown
 
-- **好Skill可能来自坏课程**：一个结构松散、案例有限的课程，可能包含一个"金点子"。八步工作流的价值恰恰在于"把零散的金子提炼成纯金"。如果第一步就把这种课程过滤掉，就错过了提炼的机会
+- src_unknown
 
 > **Christensen 的拷问**："你说课程要有'科学底层方法论'才值得做Skill。但你知道'精益创业'最初是什么吗？是Eric Ries的几个博客帖子。你知道'增长黑客'最初是什么吗？是Sean Ellis在几个创业公司里的实验笔记。如果按照你的三项标准，这些都会被过滤掉。你的质量门不是在保护质量——它在保护现状。"
 
@@ -107,11 +107,11 @@ diagnostic_signals:
 
 **Herbert Simon**（诺贝尔经济学奖得主，"有限理性"理论提出者）从决策成本角度质疑：
 
-- **判断本身是有成本的**：Simon 的核心观点是，决策者的时间和认知资源是有限的。半肥猫的三项检查（科学底层、完整资料、实践验证）每一项都需要大量时间投入。如果判断一个课程需要2小时，而团队有50门候选课程，那光是判断就要花100小时——这个成本可能超过了后续开发Skill的收益
+- src_unknown
 
-- **"满意化"比"最优化"更实际**：Simon 区分了"最优化"（找到绝对最好的）和"满意化"（找到足够好的）。半肥猫的质量门追求的是"最优化"——找到最值得做的课程。但现实中，"差不多值得做"的课程可能更多，而"足够好"的Skill比"完美但不存在的"Skill更有价值
+- src_unknown
 
-- **信息不完整时的判断本身就是猜测**：在判断阶段，你往往还没有深入学习课程。基于"大纲+案例数量"做判断，信息是不完整的。Simon 会指出，在不完整信息下做"通过/不通过"的二元判断，错误率会很高
+- src_unknown
 
 > **Simon 的拷问**："你说'这一关掉链子，后面七步全是浪费'。但你知道吗？判断本身也可能是在浪费。如果判断一个课程需要2小时，而你有50门课要判断，那你花了100小时做判断——这100小时如果用来直接做Skill，可能已经做出了20个'差不多能用'的Skill。你所谓的'质量门'，可能是一道'效率墙'。"
 
@@ -127,9 +127,9 @@ diagnostic_signals:
 
 ## 来源
 
-- 半肥猫，AI俱乐部AI学习落地分享
+- src_unknown
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

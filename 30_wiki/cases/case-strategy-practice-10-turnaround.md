@@ -10,14 +10,14 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-revival-13-bestore]]'
-  - '[[case-strategy-practice-12-zero-loss]]'
-  - '[[case-strategy-practice-11-third-place]]'
-  - '[[dk-strategy-01-not-goal-setting]]'
-  - '[[case-strategy-lekai-film]]'
-  - "[[framework-strategy-brm]]"
-  - "[[tool-strategy-gap-analysis]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行

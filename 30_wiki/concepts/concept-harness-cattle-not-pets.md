@@ -15,15 +15,15 @@ domain: [yitang, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[tool-yitang-behavioral-observation]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[concept-candy-ai-as-collaborator]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[concept-candy-ai-as-collaborator]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 牲口而非宠物
@@ -51,8 +51,8 @@ GAN三角色（Generator/Executor/Evaluator）中的Generator天然适合牲口�
 
 ## 适用边界
 
-- **适用**：代码生成、报告撰写、方案设计等需要多轮迭代的质量敏感任务
-- **不适用**：简单一次性任务、需要长期上下文记忆的对话
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,7 +3,7 @@
 id: paddleocr-skill
 created_at: 2026-05-07
 domain:
-- master
+- src_unknown
 review_date: 2026-05-07
 reviewed_by: pending
 status: draft
@@ -17,11 +17,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[ocr-微信图片_20260507004811_41_32]]'
-  - '[[ocr-微信图片_20260507004801_37_32]]'
-  - '[[tinyfish-agentic-web-infrastructure]]'
-  - '[[ocr-微信图片_20260507004758_35_32]]'
-  - '[[ocr-微信图片_20260507004806_40_32]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 
@@ -90,21 +90,21 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ### 前提假设
 
-- 假设 ONNX Runtime Web (WASM) 在 Node.js 环境下的推理精度与原生 PaddlePaddle 一致。【可靠性：高】ONNX 是标准格式，模型权重完全相同
-- 假设 6700+ 字符字典覆盖 KDO wiki 场景中绝大多数中文文本。【可靠性：高】常用汉字 + 标点 + 字母数字均覆盖
-- 假设 magic bytes 格式检测对 PNG/JPEG 的识别可靠。【可靠性：高】这是标准做法，边界情况（WebP/BMP/PDF）会报错退出
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
 
-- **最适合**：截图文字提取、扫描件 OCR、课程 PPT/讲义图片、微信群聊截图
-- **不适合**：PDF 直接解析（需要先转图片）、手写体、严重倾斜/弯曲文字、复杂表格还原
-- **已知局限**：低分辨率模糊图片识别率下降；非水平文字受限；首次加载 ~2s（WASM 初始化）；内存占用 ~200MB
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键约束
 
-- 只能从 WSL 通过 `/mnt/c/Users/Administrator/ocr-pipeline/` 路径调用——Windows 的 PowerShell 脚本 WSL 无法直接执行
-- 需要 `cmd.exe /c "powershell ..."` 或 `/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe` 桥接
-- 输出文件 `<原名>_paddle_ocr.txt` 保存在源图片同目录
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性
 
@@ -114,10 +114,10 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ## Synthesis
 
-- [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — PaddleOCR 补充了"图片/PDF→文本"这一环，之前整个工具栈只有"网页→文本"
-- [[tinyfish-agentic-web-infrastructure]] — TinyFish 的 Fetch 端返回 Markdown，PaddleOCR 负责把 Fetch 拿不到的图片内文字提取出来。两者组合：TinyFish 获取页面 → PaddleOCR 识别嵌入图片
-- [[business-research-skill-oscar-13-weapon-system]] — Step 3 在线采集时，遇到图片形式的财报/数据，可以用 PaddleOCR 提取结构化数据
-- [[kdo-protocol]] — PaddleOCR 是第四个 tool 型 Skill，验证了 tool 型 Skill 的 pre-flight check 模式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 补充：WSL 侧 Python PaddleOCR
 
@@ -145,14 +145,14 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Open Questions
 
-- Node.js 方案能否扩展支持 PDF 直接输入（目前仅 PNG/JPEG）？
-- ONNX 检测模型对竖排中文的表现如何？
-- 云端 PP-StructureV3 的表格还原质量是否值得配置 API Key？
+- src_unknown
+- src_unknown
+- src_unknown
 ## Output Opportunities
 
-- **KDO capture 增强**：PaddleOCR 作为 `kdo capture` 的图片预处理插件——截图自动 OCR 后存入 inbox
-- **business-research 集成**：Step 3 遇到图片财报/数据截图时自动调用 PaddleOCR 提取
-- **TinyFish + PaddleOCR 组合**：Fetch 获取页面 → PaddleOCR 识别嵌入图片 → 完整 Markdown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

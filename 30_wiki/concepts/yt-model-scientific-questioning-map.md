@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "关联卡片"
-  - "四领域 × 三级难度矩阵"
-  - "提问的核心维度"
-  - "知识体系定位"
-  - "科学提问刻意练习地图"
-  - "通用工具箱"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
@@ -30,7 +30,7 @@ yitang:
   module: "提问能力"
   course_type: model
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户不知道自己在提问能力的哪个段位', 'framework_lens': '无段位诊断', 'follow_up_question': '按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识'}
   - {'signal': '用户只在舒适区提问，不挑战更难场景', 'framework_lens': '不进入非舒适区', 'follow_up_question': '你最近一次处理Level 3难度的提问场景是什么时候？'}
@@ -38,11 +38,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
-  - '[[ocr-一堂-个人修炼-科学提问刻意练习]]'
-  - '[[yt-entrepreneur-research-camp]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-model-questioning-practice-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 科学提问刻意练习地图
 
@@ -86,9 +86,9 @@ related:
 
 ### 通用工具箱
 
-- **业务分析**：STAR 模型、加减法、MECE 拆解
-- **辅导团队**：GROW 模型、追问榨干经验、六个 Why
-- **咨询教练**：关键假设、代入问题场景、苏格拉底式提问
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 提问的核心维度
 

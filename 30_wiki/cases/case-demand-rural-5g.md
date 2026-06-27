@@ -15,13 +15,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - '[[case-demand-financial-literacy]]'
-  - '[[case-demand-restaurant-hiring]]'
-  - '[[case-demand-tier4-housekeeping]]'
-  - '[[case-demand-travel-agent]]'
-  - '[[case-demand-indonesia-insurance]]'
-  - "[[dk-demand-pitfall-rural-5g]]"
-  - "[[tool-demand-assessment-triangle]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：偏远县域5G覆盖

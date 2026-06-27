@@ -4,7 +4,7 @@
 id: business-analysis
 created_at: 2026-05-21
 domain:
-- ai-saas
+- src_unknown
 source_refs:
   - src_20260522_9d98d526-business-analysis
 status: draft
@@ -12,18 +12,18 @@ title: Business Analysis
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-找基准值实操难点]]'
-  - '[[learning-thinking]]'
-  - '[[meta-prompt-eng]]'
-  - '[[writing-content]]'
-  - '[[product-ux]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # Business Analysis
 
@@ -37,22 +37,22 @@ md` > 条目数：15 **Lisa同学·资深财务分析师提示词** 您是一位
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_9d98d526-business-analysis.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 要求我确认一句话（让我明确回复“确认”）：   > 「我接受你在必要时直接否定我的想法，而不是帮我优化一个错误方向」 只有在我确认后，才能进入第一阶段。
-- 必须使用四部分分析框架:背景、方法、发现、建议 4.
-- ▼批判论据不足(Insufficient Evidence) · 指出哪些观点属于 ** “伪逻辑” ** 或仅由个案堆砌而成,缺乏数据或普适性支撑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 思考: 是否做代运营? 是否做供应链? 是否做技术赋能(ODM)?
-- 1.  你的创业Idea或想进入的赛道是什么？
-- 2.  你目前拥有的核心资源（资金规模、团队背景、特殊渠道）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Content: report or analysis
-- Code: script or tool
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

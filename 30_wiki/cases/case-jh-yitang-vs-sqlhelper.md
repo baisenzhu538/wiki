@@ -6,12 +6,12 @@ title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策�
 type: case
 status: enriched
 domain:
-  - ai-saas
-  - ai-collaboration
+  - src_unknown
+  - src_unknown
 problem_domains:
-  - 产品策略
-  - 技术选型
-  - 工具设计
+  - src_unknown
+  - src_unknown
+  - src_unknown
 industry: 企业服务 / AI 协作工具
 scale: 团队 / 公司
 source_person: 纪浩
@@ -21,19 +21,19 @@ source_refs:
 - src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
 - src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
-  - "[[dk-my-ai-landing-three-barriers]]"
-  - "[[concept-纪浩-ai-collaboration-five-layer]]"
-  - "[[dk-ji-hao-ai-cant-design-structure]]"
-  - "[[case-ji-hao-ai-workspace-chaos]]"
-  - "[[tool-纪浩-真需求四要素验证法]]"
-  - "[[yt-lean-assumption-prioritization]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - "#case"
-  - "#problem/product-strategy"
-  - "#problem/tool-design"
-  - "#method/hypothesis-validation"
-  - "#source/jihai"
-  - "#source/yitang"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
@@ -41,16 +41,16 @@ trust_level: medium
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 diagnostic_signals:
-  - signal: 团队争论"做通用工具还是做内部专用工具"，但说不出各自背后的关键假设
+  - src_unknown
     lens: 一堂 vs SQLHelper 的产品策略分岔
     follow_up: 把目标用户、任务复杂度、领域知识广度、增长速度四维度填入选型矩阵，看落在"复杂系统"还是"封闭任务"象限
-  - signal: 内部工具越做越像对外产品，开始追求通用化和可配置
+  - src_unknown
     lens: 专业化路线的边界漂移
     follow_up: 重新枚举内部工作流中"非通用"的硬约束，评估为通用化付出的代价是否值得
-  - signal: 一个 Agent/工具需要同时处理开发、debug、运营、新需求等多种任务类型
+  - src_unknown
     lens: 复杂系统必须引入导诊台路由
     follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
-  - signal: 用户能清晰描述问题，但工具给出的方案总差一口气
+  - src_unknown
     lens: 领域知识层缺失或不足
     follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
 ---
@@ -66,8 +66,8 @@ diagnostic_signals:
 
 一堂内部需要数据工具支撑课程运营、学员管理、直播、马拉松、MBA 等复杂业务；同时市场上存在面向广大开发者的通用数据库管理工具（SQLHelper）。两者都解决"人与数据库打交道"的问题，但走向了完全不同的产品形态：
 
-- **一堂数据库**：深度服务一堂内部业务，是"一堂知识工厂"的一个工位。
-- **SQLHelper**：面向开发者的通用数据库查询/管理助手，是一个标准化的工具。
+- src_unknown
+- src_unknown
 
 这个案例回答的核心问题不是"哪个更好"，而是：**为什么同样的需求域，会分叉成两种完全不同的产品策略？**
 
@@ -101,8 +101,8 @@ diagnostic_signals:
 
 两个产品真正的分水岭不是"数据库能力"，而是**任务复杂度与领域知识广度**：
 
-- 一堂的业务复杂度要求"先结构、后执行"——必须先有系统自述、领域知识、导诊台、工作手册、工具集，Agent 才不会行为混乱。
-- SQLHelper 的任务足够封闭——用户问问题 → 翻译成 SQL → 返回结果，不需要导诊台，也不需要多任务路由。
+- src_unknown
+- src_unknown
 
 > **核心洞察**：产品策略的选择，取决于你要服务的系统有多复杂，而不是你要处理的数据有多复杂。
 
@@ -142,13 +142,13 @@ diagnostic_signals:
 
 ## 结果
 
-- **一堂数据库**：成为一堂知识工厂管线的关键基础设施，支撑多业务线的 AI 协作和数据运营。
-- **SQLHelper**：在开发者社区建立稳定用户群，成为通用数据库查询/分析助手。
+- src_unknown
+- src_unknown
 
 两个产品各自成功，但成功的方式不同：
 
-- 一堂赢在"对复杂系统的结构适配"；
-- SQLHelper 赢在"对封闭任务的标准化封装"。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -205,62 +205,62 @@ diagnostic_signals:
 ## 产品策略选型检查单
 
 ### 1. 目标用户
-- [ ] 主要用户是内部团队还是外部用户？
-- [ ] 能否命名 3 个具体用户角色及其核心任务？
+- src_unknown
+- src_unknown
 
 ### 2. 任务复杂度
-- [ ] 工具/Agent 需要处理几种任务类型？
-- [ ] 任务之间是否需要路由/分类？
+- src_unknown
+- src_unknown
 
 ### 3. 领域知识
-- [ ] 用户问题是否依赖大量业务术语/流程/例外？
-- [ ] 这些知识能否从代码或通用语料中自动推导？
+- src_unknown
+- src_unknown
 
 ### 4. 增长速度
-- [ ] 哪些知识增长缓慢（系统架构、领域知识）？
-- [ ] 哪些状态变化很快（任务、日志）？
+- src_unknown
+- src_unknown
 
 ### 5. 关键假设
-- [ ] 如果任务类型超过 2 种，导诊台是否是必要结构？
-- [ ] 如果领域知识稀疏，是否可以用简单映射替代知识库？
+- src_unknown
+- src_unknown
 
 ### 6. 取舍判断
-- [ ] 当前阶段更需要"极致匹配"还是"快速覆盖"？
-- [ ] 通用化带来的成本是否能被规模摊薄？
+- src_unknown
+- src_unknown
 
 ### 7. 验证计划
-- [ ] 能否在 2 周内用最小闭环验证核心假设？
-- [ ] 验证失败的止损线是什么？
+- src_unknown
+- src_unknown
 
 ### 8. 结构先行
-- [ ] 是否已经定义好工作空间/导诊台/SOP？
-- [ ] 结构是否与任务复杂度匹配？
+- src_unknown
+- src_unknown
 ```
 
 **使用建议**：
-- 得分偏向"内部 + 多任务 + 知识密集 + 慢增长" → 走**一堂式专业深井**。
-- 得分偏向"外部 + 单任务 + 知识稀疏 + 快状态" → 走**SQLHelper 式通用薄面**。
+- src_unknown
+- src_unknown
 
 ---
 
 ## Synthesis / 关联
 
-- [[dk-my-ai-landing-three-barriers]] —— 马易的三层壁垒框架解释了为什么"有工具"不等于"落地"。一堂内部用户卡在第二层（知道能做但做不好），SQLHelper 的外部用户卡在第一层（不知道能做什么）；两种策略分别对应不同壁垒的突破路径。
+- src_unknown
 
-- [[concept-纪浩-ai-collaboration-five-layer]] —— 一堂数据库是五层结构中的"系统自述 + 领域知识 + Agent 服务"的完整实例；SQLHelper 则展示了"领域知识足够稀疏时，可以压缩为表结构映射"的简化版本。
+- src_unknown
 
-- [[dk-ji-hao-ai-cant-design-structure]] —— AI 不会自己设计结构。一堂数据库的成功前提是"人先把五层结构定义清楚"；SQLHelper 能跳过导诊台，也正是因为它的结构足够简单、人可以一次性定义完。
+- src_unknown
 
-- [[case-ji-hao-ai-workspace-chaos]] —— 反面案例：当复杂系统缺少五层结构时，Agent 会行为退化到"重新投胎"。一堂数据库的"专业深井"路线正是为了避免这个结局。
+- src_unknown
 
-- [[tool-纪浩-真需求四要素验证法]] —— 在选型前先验证：Before/After 是什么？真实锚点在哪里？受益人是谁？可解性如何？避免把通用/专业之争变成意识形态之争。
+- src_unknown
 
-- [[yt-lean-assumption-prioritization]] —— 产品策略分歧的背后是一组待验证假设。用"前置假设优先、风险高的优先"排序，可以判断当前最该验证的是"复杂度假设"还是"市场假设"。
+- src_unknown
 
 ---
 
 ## 来源
 
-- 纪浩，AI俱乐部·人和AI协作参考案例对比（一堂 vs SQL-Helper），2026-06-09，`src_20260609_dade3353`
-- 纪浩，AI俱乐部·AI协作方法论口述整理，2026-06
-- 纪浩，AI俱乐部·AI协作方法论笔记整理，2026-06
+- src_unknown
+- src_unknown
+- src_unknown

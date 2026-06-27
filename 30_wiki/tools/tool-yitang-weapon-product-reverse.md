@@ -16,15 +16,15 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-signup-statistics]]'
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-shareholder-analysis]]'
-  - '[[tool-yitang-anonymous-roundtable]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-consumer-goods-research]]"
-  - "[[tool-yitang-tech-project-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略13：产品逆向/拆解
@@ -41,9 +41,9 @@ related:
 
 ## 关键原则
 
-- 逆向是"动手"最密集的手段——花几千块买竞品拆，比几万块买报告有用
-- 配合供应链调研：从拆解结果→找到供应商→验证成本
-- 详见：回卡 [逆向数据分析] + [消费品调研] + [科技项目评估]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

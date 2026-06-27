@@ -6,20 +6,20 @@ title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌
 type: case
 status: enriched
 domain:
-- yitang
-- ai-saas
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#domain/saas'
-- '#renewal'
-- '#domain/yitang'
-- '#chunk-type/error-data'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -30,15 +30,15 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[yt-tool-business-formula-metrics-checklist]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[case-saas-renewal-formula]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个年 GMV 3000 万、续费率 60% 的 HR SaaS，团队把“功能使用率提高，续费率就提高”当成因果，堆功能、加人，续费率却没上去。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
@@ -67,8 +67,8 @@ related:
 
 讨论中出现了典型的相关关系判断：
 
-- “功能使用率和续费率是正相关，功能越多越好。”
-- “客户成功团队人数和续费率是正相关，加人就行。”
+- src_unknown
+- src_unknown
 
 这些判断的问题在于：**相关不是因果**。
 
@@ -118,11 +118,11 @@ related:
 ## 关键教训
 
 1. **不要把“功能使用率”当成续费率的直接原因**
-   - 功能使用率提高可能只是客户成功体系有效的副产品。
+   - src_unknown
 2. **不要把“+”写成“×”**
-   - 把功能使用率写成乘法关系，会要求所有功能都必须用起来，导致资源分散。
+   - src_unknown
 3. **加人是动作，不是原因**
-   - 续费率提升的真正原因是客户成功体系，加人只是体系中的一个环节。
+   - src_unknown
 
 ---
 
@@ -140,6 +140,6 @@ related:
 
 ## 置信度说明
 
-- **高置信度**：相关≠因果的判断逻辑、+/× 运算符号的业务含义（直接来自培训方法论）
-- **中置信度**：案例中具体数字为教学示例，未经验证
-- **待复核**：HR SaaS 不同功能模块对续费率的真实因果贡献
+- src_unknown
+- src_unknown
+- src_unknown

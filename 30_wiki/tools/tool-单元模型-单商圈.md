@@ -11,21 +11,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单商圈模型.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[tool-单元模型-单城市]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-lean-abcd-model]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单元模型：单商圈模型
@@ -73,17 +73,17 @@ related:
 
 ## 常见变种
 
-- **单校区模型**：教培、托管、健身等以校区为独立单元的场景。
-- **单商业区模型**：零售、餐饮、服务业以商场/街区为单元的场景。
-- **单美食街模型**：餐饮密集、以街道或楼层为竞争边界的场景。
-- **单工业园模型**：To B 团餐、企业服务、物流站点以园区为服务边界的场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- **纯线上、无物理边界的生意**：如 SaaS、内容付费、平台型业务，用户不依赖特定商圈，用单商圈模型会人为切割用户旅程 [conf=0.75, source=一堂原创]。
-- **高度依赖头部大客户，而非区域密度的生意**：如企业软件大单、定制咨询，单个商圈概念弱化。
-- **数据不足以拆分到商圈级别**：如果连基础订单、客流、成本都无法按商圈归集，模型会退化为猜测。
-- **把单商圈模型当成选址唯一标准**：商圈模型解决「单元是否成立」，不解决「品牌是否值得进入」「竞争格局是否允许」等战略问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -94,14 +94,14 @@ related:
 
 ## 与已有框架的关系
 
-- **[[yt-unit-model-overview]]**：单商圈模型是十大单元模型之一，与单城市、单门店、单 SKU、单客户等模型共同构成单元模型武器库。
-- **[[framework-lean-abcd-model]]**：ABCD 模型帮助判断假设优先级，单商圈模型则是把「可复制假设」落到具体物理单元的计算工具。
-- **[[tool-单元模型-单城市]]**：单城市是更高层级的聚合单元，单商圈是其下一层拆解；单城市模型回答「城市是否值得进入」，单商圈模型回答「进入后先打哪个点」。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 多数单元模型课程只讲「有哪些模型」，缺少「如何判断该用哪个模型」的决策树；
-- 单商圈模型缺少「商圈内竞争密度、客流动线、替代方案距离」等微观变量的采集 checklist；
-- 现有框架未给出「商圈验证通过后，如何规划复制顺序与资源投放节奏」的操作模板。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -112,13 +112,13 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 明确你要复制的物理边界：是商圈、校区、园区还是街道？
-- [ ] 列出该边界内的收入假设：客流、转化率、客单价、复购频次。
-- [ ] 列出该边界内的成本假设：租金、人力、物流、设备、地推。
-- [ ] 判断哪些成本是「商圈专属」，哪些是「总部/品牌公摊」。
-- [ ] 找 1-2 个已运营的同类型商圈做反事实对照，验证假设。
-- [ ] 确定成功标准：单商圈达到盈亏平衡所需的订单量/收入/时间。
-- [ ] 制定复制顺序：先打高密度、低获客成本商圈，再向外辐射。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

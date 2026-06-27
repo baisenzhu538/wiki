@@ -9,8 +9,8 @@ source_refs:
   - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -19,26 +19,26 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[tool-ai-landing-five-steps]]'
-  - '[[tool-ai-old-small-checklist]]'
-  - '[[tool-马易-AI落地四阶段验证法]]'
-  - '[[sk-ai-old-small-checklist]]'
-  - '[[ai-landing-scene-selection]]'
-  - '[[sk-ai-old-small-checklist]]'
-  - '[[sk-ai-parallel-validation]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/workflow'
-- '#domain/ai-saas'
-- '#method/prompt-engineering'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队想上AI但不知道从哪里切入
+- src_unknown
   framework_lens: AI落地五步执行清单
   follow_up_question: 你能列出当前业务中最熟悉、最小颗粒度的3个场景吗？
-- signal: AI项目做着做着偏离预期，找不到问题环节
+- src_unknown
   framework_lens: 五步流程阶段诊断
   follow_up_question: 你们当前卡在找场景、做判断、做验证、搞开发还是慢上线？
-- signal: 老板要求快速全量替换人工
+- src_unknown
   framework_lens: 慢上线与平行运行
   follow_up_question: 是否有3个月的平行运行计划和明确的回退方案？
 
@@ -136,26 +136,26 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 列出当前业务中所有候选AI场景
-- [ ] 用“找老的干小的”筛选出1-2个首批试点
-- [ ] 为试点场景写出现有SOP
-- [ ] 完成可行性判断表并做出Go/No-Go决策
-- [ ] 用现有方法在AI环境中跑完至少一个完整周期
-- [ ] 输出AI输出 vs 人工输出对比报告
-- [ ] 基于验证结果开发可复用的prompt/工作流/工具
-- [ ] 确认团队里至少2人能独立使用该工具
-- [ ] 制定上线计划（分批替换节奏 + 回退方案）
-- [ ] 执行至少2-3个月平行运行后再逐步扩大范围
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[sk-ai-old-small-checklist]]：场景选择黄金原则“找老的干小的”
-- [[sk-ai-parallel-validation]]：第五步“慢上线”的具体操作方法
-- [[tool-checklist-cheatsheet-modeling]]：把每步验收标准固化成检查清单
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 
-- 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md` — 马易，AI俱乐部-AI落地场景识别分享，2026-06
+- src_unknown
 
 ---
 

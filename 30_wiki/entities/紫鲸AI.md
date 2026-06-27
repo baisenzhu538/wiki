@@ -4,27 +4,27 @@
 title: 紫鲸AI
 type: entity
 domain:
-- ai-saas
-- management
-- kdo
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: reviewed
 entity_type: product
 aliases:
-- Zijing AI
-- 紫鲸AI智能体工作流平台
+- src_unknown
+- src_unknown
 location: Hangzhou, China
 id: 紫鲸AI
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[concept-mcp-protocol]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[紫鲸ai智能体工作流平台]]'
-  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 trust_level: medium
 reviewed_by: 黄药师
@@ -55,10 +55,10 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ## 技术架构
 
-- **编排引擎**：LangGraph状态机，Checkpointer实现断点续传
-- **Agent协议**：MCP/A2A双协议
-- **品牌约束**：BrandKG品牌知识图谱（品牌词匹配率42%→89%）
-- **定价**：基础订阅199-499元/月 + 超额按量 + 效果分成
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与KDO的关联
 

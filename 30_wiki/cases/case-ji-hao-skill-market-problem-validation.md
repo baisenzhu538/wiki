@@ -7,8 +7,8 @@ title: 案例：一堂Skill市场从伪需求到真实需求的四问验证
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -17,29 +17,29 @@ created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
 related:
-  - '[[tool-纪浩-problem-validation-four-checks]]'
-  - '[[dk-ji-hao-problem-vs-question]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[tool-纪浩-真需求四要素验证法]]'
-  - '[[dk-ji-hao-problem-vs-question]]'
-  - '[[tool-纪浩-problem-validation-four-checks]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[dk-ji-hao-problem-vs-question]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 案例有明确的原始表述、问题、方案和反馈路径
-- 案例有可迁移条件和失败模式
-- 案例区分度≥2类型（成功/失败/边界/反常识）
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 confidence: 0.7
 trust_level: low
@@ -60,51 +60,51 @@ trust_level: low
 一堂内部需要一个Skill分发平台。在动手之前，需要验证这个需求是"真实问题"（Problem）还是"伪需求"（Pseudo-demand）。
 
 **假设如果直接开做可能出现的情况：**
-- 做出来后发现公司没人用AI，发布Skill没有意义。
-- 用户通过微信传zip的方式已经"够用"，没有动力切换到平台。
-- 需求被无限放大，从解决一个具体问题跳到做一个"生态系统"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断性问题（触发信号）
 
 当团队出现以下信号时，说明需求还没有被验证到可以下场的程度，需要用四问法再筛一遍：
 
 1. **信号：需求表述是"如果有一个XX平台就好了"，但说不出具体谁、在哪一步、花了多少时间**
-   - **Lens**：这是想象场景（Question），不是真实痛点（Problem）。
-   - **Follow-up**：让提出者用"每次做Y时都要花X时间"的句式重述；如果说不出来，先停一周观察真实行为。
+   - src_unknown
+   - src_unknown
 
 2. **信号：方案讨论从"解决一个具体问题"迅速滑向"做生态、加广告、做商店"**
-   - **Lens**：需求正在"想象放大"（Imagination Inflation），真实锚点丢失。
-   - **Follow-up**：把讨论拉回到"最近一周发生了几次微信传zip的混乱事件"，列出3个真实现场，任何与现场无关的功能直接砍掉。
+   - src_unknown
+   - src_unknown
 
 3. **信号：讲清楚方案后，没人能具体说出"谁会因此改变行为"**
-   - **Lens**：受益人缺失或旧方式已经"够用"。
-   - **Follow-up**：分别找维护者和使用者各2人，问"旧方式最让你崩溃的一次具体经历是什么"；如果得到的只是"偶尔不太方便"，说明痛点不够痛。
+   - src_unknown
+   - src_unknown
 
 4. **信号：痛点和解决方案之间有一步依赖"未来某个能力会自动实现"**
-   - **Lens**：因果链断裂，故事讲不通。
-   - **Follow-up**：把缺失环节写成"前置假设"，用最小成本验证（例如手动模拟一次更新推送），验证通过前不动工程资源。
+   - src_unknown
+   - src_unknown
 
 ## 方案
 
 用**四问验证法**确认需求的真实性：
 
 **1. Before & After：解决之前和之后是什么状态？**
-- Before：通过微信传zip，文件名混乱、版本号不明、问题反馈模糊、更新后用户不知情。
-- After：集中管理、版本号清晰、反馈带上下文（AI自动生成）、更新自动推送。
+- src_unknown
+- src_unknown
 
 **2. 真实锚点：问题的具体场景在哪里？**
-- 不是"如果有一个Skill市场就好了"（想象场景）。
-- 而是"一堂内部每周都有多个Skill在传递，张三问我要Skill、李四也要、王五还要旧版"（真实现场）。
+- src_unknown
+- src_unknown
 
 **3. 受益人：解决之后谁觉得开心？**
-- 维护者：反馈带上下文，不再需要模糊口述定位问题；版本管理方便，可以下架旧版功能。
-- 使用者：有稳定入口，可以看到Skill描述、使用场景、好评差评。
-- 前提条件：公司里真的有人在用AI/用Skill。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **4. 因果链与能力支撑：这个问题是可解的吗？**
-- 原来的痛点是"难维护"——原因是没有版本管理、没有上下文上报、需要人工微信推送。
-- 这些痛点都有明确的解决方案：平台提供版本号、AI自动生成上下文上报、Agent自动安装更新。
-- 如果缺少任何一个环节（如没有Agent自动安装能力），故事就讲不通。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验证结果：**
 四个问题都有满意的答案，说明这是真实需求，可以下场动手。
@@ -112,8 +112,8 @@ trust_level: low
 ## 关键证据
 
 **Before-After 对比：**
-- Before：微信传zip → 文件名混乱、版本号不明、反馈模糊、更新靠人工通知
-- After：Skill市场集中管理 → 版本号清晰、反馈带AI自动生成的上下文、更新自动推送
+- src_unknown
+- src_unknown
 
 **真实锚点：** 一堂内部每周都有多个Skill在传递——张三问、李四要、王五还在用旧版。这不是想象中的需求，是每天都在发生的摩擦。
 
@@ -159,12 +159,12 @@ trust_level: low
 2. 是否有"原来以为是真需求，四问后发现是伪需求"的情况？
 3. 四问中哪一问对你的决策影响最大？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-ji-hao-skill-market-problem-validation`。
+- src_unknown
 
 ## 关联参考
 
-- **[[yt-entrepreneur-lean-validation]]** — 本案例的"四问验证"可视为低成本验证的前置过滤器：先用四问判断是不是真实Problem，再决定要不要做MVP。
-- **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]** — 跨域对照：陈贤敏用"开一家实验店"验证关键假设，本案例则用"四问法"在动手前过滤伪需求，两者都是验证，但成本层级不同。
+- src_unknown
+- src_unknown
 
 ## 失败模式
 

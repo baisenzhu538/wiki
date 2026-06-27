@@ -3,7 +3,7 @@ id: tool-水水-警惕错误归因
 title: 技能：警惕错误归因
 type: tool
 domain:
-- personal-growth
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-水水-用感性维度构建溢价]]'
-- '[[tool-水水-利用叙事驱动决策]]'
-- '[[tool-水水-识别关键偶然因素]]'
-- '[[tool-水水-识别自证预言陷阱]]'
-- '[[tool-水水-识别超级传播者风险]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：警惕错误归因
 
@@ -36,23 +36,23 @@ related:
 
 ## 适用场景
 
-- 遭遇失败、分手、裁员等负面事件
-- 分析复杂系统中的个人结果
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 存在明确因果链的技术故障排查
+- src_unknown
 
 ## 工具/环境
 
-- 归因谬误自查清单
-- 概率思维框架
-- 正念接纳练习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -60,12 +60,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会-偶然
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

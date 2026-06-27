@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
-- strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）
 created_at: '2026-06-14'
@@ -21,19 +21,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[case-personal-map-modeling]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[case-essence-humanity-trap]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[dk-modeling-essence-predictive]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#industry/education'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：教育本质与战略本质的提炼
 
@@ -55,10 +55,10 @@ tags:
 
 ## Background
 
-- **场景**：一堂内部做课程研发和战略会设计
-- **问题**：市面上对“教育”“战略”有很多定义，但大多解释性强、预测性差，没法指导工作
-- **建模目标**：提炼出能推导行动的本质定义
-- **来源**：`src_20260614_8269ccdb#2824-3020`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -73,9 +73,9 @@ Truman 提出：
 > 其中，**教材 = 问题加减法**
 
 这个定义看起来朴素，但能推导大量教育创新：
-- 教材设计：问题如何加减
-- 教学设计：如何让人积极成长
-- 探月等大胆实验都围绕这个公式展开
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例二：战略的本质
 
@@ -90,10 +90,10 @@ Truman 提出：
 4. **艰难**：需要痛苦的取舍
 
 这个定义能直接推导战略会的四个保证：
-- 如何保证全局性？
-- 如何保证做选择？
-- 如何保证艰难取舍？
-- 如何保证影响成败？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -111,10 +111,10 @@ Truman 提出：
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 明确说，教育创新全靠“教材 + 教学”这个公式。——来源：`src_20260614_8269ccdb#2842-2850`。
-- **证据 2 [conf=0.85]**：战略定义提炼过程中，一堂曾多年不敢聊战略，因为概念不清。——来源：`src_20260614_8269ccdb#2904-2912`。
-- **证据 3 [conf=0.85]**：战略的 15 字完整版“站在全局做出影响成败的艰难选择”包含四个要素。——来源：`src_20260614_8269ccdb#2964-2970`。
-- **证据 4 [conf=0.8]**：有了这个本质，可以不看市场上已有的战略会流程，自己推导一套。——来源：`src_20260614_8269ccdb#2996-3008`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -131,10 +131,10 @@ Truman 提出：
 
 ## 边界
 
-- **适用**：需要把抽象概念转化为可执行框架的场景；已有足够事实/经验可供归纳的场景。
-- **不适用**：事实不足、需要快速决策的紧急场景；概念本身没有行动后果的纯学术讨论。
-- **单一来源限制**：本卡主要基于 Truman 口述的一堂培训课程，属单一来源；在商业应用前建议补充第二来源或独立案例验证。
-- **行业边界**：教育/战略案例来自培训与创业公司语境，迁移到重监管、强技术驱动行业时需谨慎。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,36 +151,36 @@ Truman 提出：
 
 ## 行动 Checklist
 
-- [ ] 明确要定义的概念及其要解决的具体问题
-- [ ] 收集足够的事实、经验和反例，避免空泛归纳
-- [ ] 用一句话写出定义，并强制推导出 3 个具体决策或行动
-- [ ] 检查定义是否包含可操作的要素（如教育→教材+教学；战略→全局+成败+选择+艰难）
-- [ ] 主动寻找边界案例和反例测试定义的预测力
-- [ ] 在真实会议或产品设计中试用定义，记录推导结果
-- [ ] 至少补充一个独立来源或案例，提升 trust_level
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[tool-essence-nfactor-modeling]]：多因子本质建模工具，可用于把本案例的方法结构化
-- [[dk-modeling-explanatory-vs-predictive-essence]]：解释性本质与预测性本质的区别
-- [[dk-modeling-essence-predictive]]：如何判断一个本质定义是否具有预测力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 教训
 
-- **不要追求过度简洁**：在有用的情况下尽量简洁，不要为了一个字而丢失预测力。
-- **要能推导行动**：光解释过去的本质不值钱，要能指导下一次实践。
-- **提炼过程很痛苦**：战略定义花了多年才找到满意的版本。
-- **角度不同，屁股不同**：同一类问题可能有多个有效本质，关键看你要解决什么问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2824-3020`
+- src_unknown
 
 ---
 

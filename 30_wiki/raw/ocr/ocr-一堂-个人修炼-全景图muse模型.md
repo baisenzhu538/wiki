@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-全景图muse模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_20c9fda8
 status: draft
@@ -11,13 +11,13 @@ title: "OCR: 一堂-个人修炼-全景图MUSE模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[yt-model-muse-ai-framework]]'
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-全景图MUSE模型
@@ -32,7 +32,7 @@ jpg` 一堂人工智能全景图·MUSE模型 YitangAIMUSEFrameworkVersion3.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_20c9fda8-ocr-一堂-个人修炼-全景图muse模型.md`
+- src_unknown
 
 ## Visual Analysis
 
@@ -40,12 +40,12 @@ jpg` 一堂人工智能全景图·MUSE模型 YitangAIMUSEFrameworkVersion3.
 
 ## Reusable Knowledge
 
-- 一堂AI MUSE框架将AI共存未来划分为四层结构：奇迹层(M)、使用层(U)、创业层(S)、变革层(E)。
-- 奇迹层(M)聚焦AGI、法治伦理、职业变革等宏观议题与大胆设想。
-- 使用层(U)强调提示词工程、Agent智能体、多模态应用等"用好AI/降本增效"的实践能力。
-- 创业层(S)涵盖AI新创业机会，核心路径为"创造新产品/服务"，需建立趋势预判模型与低成本验证机制。
-- 变革层(E)追踪底层技术突破，包括模型算法、芯片、机器人、云计算、边缘计算与数据等基础设施演进。
-- 模型版本迭代机制明确标注更新时间与实验室来源，体现框架的持续演进属性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -63,26 +63,26 @@ jpg` 一堂人工智能全景图·MUSE模型 YitangAIMUSEFrameworkVersion3.
 
 ## Open Questions
 
-- 该框架四层结构（M-U-S-E）的逻辑关系是递进还是并列？是否存在层间交互或反馈机制未被说明？
-- "奇迹层"中"排"字明显为OCR误识，原意是"排查""排列"还是其他概念？该层具体包含哪些可操作的议题？
-- 使用层标注的"K""改"等单字含义不明，是能力标签、行动代号还是OCR错误？这些符号是否承载关键分类信息？
-- 创业层强调"低成本验证"，但未界定"低"的标准或参照系，不同资源背景的创业者如何统一适用？
-- 框架声称"坚持只做必修课"，但未说明筛选标准——何为"必修"、何为"选修"，判断依据是什么？
-- 版本更新仅标注时间地点，未记录修订内容，用户如何追踪框架的演进逻辑与迭代原因？
-- "AI共存"作为核心前提未被论证：共存的主体是谁、冲突如何调和、"共存"是否隐含技术决定论假设？
-- 变革层罗列技术要素但忽略能源消耗、地缘政治、开源生态等结构性变量，基础设施分析是否过于技术内部视角？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-model-muse-ai-framework]] — 一堂AI MUSE框架正式卡片，OCR卡为该框架的原始视觉素材，正式卡片中四层结构已有更详细的论述
-- [[yt-model-dual-triangle-competitiveness]] — 双三角竞争力模型，MUSE框架中的U（使用层）与双三角中的"AI能力三角形"直接对接，形成个人修炼→AI应用的完整链路
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 将MUSE四层框架迁移至企业数字化转型评估——奇迹层=战略愿景（AGI对行业的影响预判），使用层=工具落地（各部门AI工具采用率），创业层=新业务孵化（AI原生产品线），变革层=基础设施投资（算力/数据/模型）
-- 将"坚持只做必修课"逻辑迁移至个人时间管理——用M层筛选"值得长期关注的大趋势"，用U层决定"当下必须掌握的具体技能"，避免在无限的学习选项中分散注意力
+- src_unknown
+- src_unknown
 
 
 ### 不要用的场景

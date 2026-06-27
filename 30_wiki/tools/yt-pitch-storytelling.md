@@ -8,32 +8,32 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: advanced
 confidence: 0.85
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 related:
-  - '[[yt-pitch-metaphor]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-quantification]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 故事化
-- 讲故事
-- 真实故事
-- 品牌故事
-- 幕后故事
-- 初心故事
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'
@@ -100,9 +100,9 @@ trust_level: medium-high
 
 **目的**：确保故事被揭穿后信任不会一次性清零。
 
-- [ ] 故事的核心事实至少有 2 个独立来源
-- [ ] 故事中"最打动人的那个细节"经得起推敲
-- [ ] 故事的当事人在公开场合说过一致的内容
+- src_unknown
+- src_unknown
+- src_unknown
 
 **如果三源验证至少一项不通过**→不把不通过的细节放进故事，只保留可验证的核心事实。
 

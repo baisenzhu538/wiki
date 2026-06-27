@@ -3,7 +3,7 @@
 id: "ocr-优秀泛产品设计者的自我修养"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
   - src_20260522_91948770
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 优秀泛产品设计者的自我修养"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[ocr-泛产品设计-落地卡片-酝酿式打磨]]'
-  - '[[ocr-泛产品设计者的三大自我修养]]'
-  - '[[tool-泛产品落地-酝酿式打磨]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 优秀泛产品设计者的自我修养
@@ -34,35 +34,35 @@ png` 一堂·优秀泛产品设计者的自我修养 堂 YitangProductDesignInfi
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_91948770-ocr-优秀泛产品设计者的自我修养.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 优秀泛产品设计者的核心能力模型包含"拉审美"作为最佳实践，强调审美是可通过训练提升的设计基础能力
-- 产品打磨需要经历"多轮打磨"的迭代过程，而非一次性完成
-- 设计工作的起点是"理解用户"和"挖需求"，用户洞察优先于方案输出
-- 存在"GAP"意识——认识到当前水平与目标水平之间的差距是进步的前提
-- "坚持只做必修课"体现了聚焦核心能力、拒绝贪多的学习原则
-- 时间投入对比：系统学习3天的收益大于走弯路3年的成本，强调方法选择的重要性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文中"拉审美"的具体训练方法是什么？"拉"是指提升、培养还是其他含义？
-- "GAP"具体指代什么差距？是审美差距、技能差距还是综合设计能力差距？
-- "一堂·坚持只做必修课"中的"一堂"是机构名称还是课程单位？"必修课"的筛选标准由谁定义？
-- "扫码辛苦学3天，不扫弯路走3年"的对比数据是否有实证基础，还是仅为营销修辞？
-- "优秀泛产品设计者"中的"泛"字是否OCR误识？原意是"泛产品"（跨领域产品）还是其他词汇？
-- 视觉结构信息缺失的情况下，"YitangProductDesignInfiniteProgressHikingRoadmap"的层级关系如何确定？是否为独立副标题？
-- "A 👍 A"的符号组合是OCR识别错误还是原图确实存在的评价标记？其语义功能是什么？
-- 该内容是否为一堂课程的宣传物料而非系统性知识框架？知识提取的客观性是否受来源性质影响？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **内容较薄的宣传性质：本卡片内容主要来自课程宣传物料，缺少系统性的知识框架。"扫码辛苦学3天，不扫弯路走3年"的营销话术可能影响客观性。
-- **"拉审美"未被解释："拉"的具体含义不明确，是指提升、培养还是其他操作？
-- **GAP 的模糊性：GAP 被声称为"进步的前提"，但未提供识别 GAP 的具体方法或工具。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Herbert Simon 在《管理行为》中证明：人类的决策受到有限理性
 
 ### 不要用的场景
 
-- **需要深度专业知识的设计领域（如医疗设备、航空工程）：这些领域的设计依赖于深度的专业知识，而非通用的"审美"。
-- **快速反应的紧急项目："多轮打磨"的迭代理念与紧急交付的时间压力存在冲突。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-aesthetic-practice — 审美实践的理论基础
-- yt-decision-user-insight — 用户洞察与"理解用户·挖需求"同源
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将"拉审美"作为团队设计培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

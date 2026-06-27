@@ -4,8 +4,8 @@ title: 技能：低成本输出验证法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-分享输出检验法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-立即实践转化法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 高成本演练机会有限，每次必须讲完大课才能进步一次
+- src_unknown
   lens: 迭代成本高
   follow_up: 选择低成本输出出口（自媒体/图文/短视频），先小范围验证。降低单次失败成本
-- signal: 担心讲不好受打击，不敢输出
+- src_unknown
   lens: 输出恐惧
   follow_up: 低成本输出降低心理门槛。自媒体文章失败成本远低于线下分享，先写再讲
-- signal: 需要快速验证假设，但验证周期太长
+- src_unknown
   lens: 验证缓慢
   follow_up: 小范围输出当天可得反馈。收集反馈后迭代，再考虑高成本输出
-- signal: 跳过低成本验证，直接高成本输出，结果失败损失大
+- src_unknown
   lens: 跳跃验证
   follow_up: 必须先低成本验证。自媒体文章→图文→短视频→线下分享，逐步升级
-- signal: 低成本输出后不做迭代，原地重复
+- src_unknown
   lens: 验证不迭代
   follow_up: 收集反馈后必须迭代。低成本验证的价值在迭代，不在一次性输出
 ---# 技能：低成本输出验证法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -87,15 +87,15 @@ diagnostic_signals:
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] — 低成本验证是PDCA的快速迭代版本
-- [[tool-分享输出检验法]] — 输出是检验理解的最佳方式
-- [[tool-复盘推演法]] — 低成本输出后需要复盘迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

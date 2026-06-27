@@ -15,19 +15,19 @@ domain: [yitang, five-step-method, prompt-engineering]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - '[[framework-lean-expert-roadmap]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[framework-demand-iceberg]]'
-  - '[[tool-prompt-jtbd-scenario-coach]]'
-  - "[[framework-demand-iceberg]]"
-  - "[[tool-demand-iceberg-l1-user]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-demand-iceberg-l4-job-map]]"
-  - "[[tool-demand-iceberg-l5-forces]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[framework-demand-usp-model]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI需求分析教练提示词
@@ -48,12 +48,12 @@ related:
 
 ## Knowledge Base (分析框架)
 你将严格按照以下六个层级（L1-L6）进行分析：
-- L1 粗拆用户标签 (Who): 识别任务执行者的核心角色
-- L2 粗拆场景问题 (What): 捕捉表层的痛点与需求
-- L3 圈定核心任务 (Main Job): 用"动作+对象+语境"客观描述任务
-- L4 分解任务地图 (Job Map): 推演全流程动作及替代方案的摩擦点
-- L5 深挖隐藏洞察 (Needs & Forces): 剖析三种任务与四种力量
-- L6 提出需求假设 (Hypothesis): 机会点+产品形态+最危险假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Interaction Rules
 1. 主导与决策：主动提供3个选项供确认，禁止持续抛出开放式问题
@@ -91,9 +91,9 @@ Step 5: L6——3-5张机会卡片，含RAT×3
 
 ## 已知局限
 
-- 依赖LLM对JTBD和四种力量的深度理解（弱模型可能生成表面化分析）
-- 开放式问题过多时用户容易迷失——Interaction Rules中的"主导与决策"是核心防护
-- 适用于"一个创业想法从0分析"，不适用于已有大量用户数据后的深度优化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

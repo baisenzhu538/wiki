@@ -5,18 +5,18 @@
 title: 管理段位
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - kdo
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 管理者在一个段位做了很久但升不上去
+- src_unknown
   framework_lens: 行为惯性
   follow_up_question: 你上一阶段让你成功的习惯，有没有成为这一阶段的阻碍？
-- signal: 管理者高估自己的段位
+- src_unknown
   framework_lens: 认知偏差
   follow_up_question: 你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[yt-entrepreneur-truth-seeking]]'
-  - '[[YC-Y-Combinator]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-management-finance-basics]]'
-  - '[[yt-model-management-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 管理段位
@@ -94,9 +94,9 @@ related:
 
 ### 常见卡段位陷阱
 
-- **卡在二段**：觉得教人太累，不如自己做——最终成为"累死的专家管理者"，手下的人永远不会成长
-- **卡在三段**：团队稍微大一点就觉得失控，于是只招"信得过的人"（通常是前同事/朋友）——形成封闭小圈子，团队多样性下降
-- **卡在四段**：体系建立后开始享受"体系自动运转"的舒适感——不再思考方向，成为"维持型管理者"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -106,9 +106,9 @@ related:
 
 **Robert Kegan**（哈佛大学教育学院教授，*In Over Our Heads* 和 *Immunity to Change* 作者）通过数十年的成人发展研究，提出了一个比"五段位阶梯"更深层的发展模型：**心智复杂度三阶段**。
 
-- **社会化心智（Socialized Mind）**：你的自我感受来自他人对你的评价。你做决定时参考的是"别人会怎么看我"。
-- **自主心智（Self-Authoring Mind）**：你有一套内在的价值体系和判断框架。你做决定时参考的是"我的原则是什么"。
-- **自变心智（Self-Transforming Mind）**：你不仅有自己的框架，还能看到自己框架的局限。你能同时持有多个矛盾的观点并从中提取价值。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是学会了新技能，而是重建了你与世界的关系**。它不是"增加能力"，而是"改变你是谁"。
 
@@ -120,9 +120,9 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 **Barbara Kellerman**（哈佛大学肯尼迪政府学院领导力研究中心创始执行主任，*The End of Leadership* 和 *Leadership: The Great Wager* 作者）对"领导力产业"（Leadership Industry）进行了毁灭性批判。Kellerman 的核心论点：
 
-- **领导力培训产业 ~$370B/年，但领导者没有变得更好**——事实上，在 Kellerman 追踪的 40 年里，公众对领导者的信任度持续下降。
-- **段位/能力模型是供给侧驱动而非需求侧驱动**——培训机构需要标准化的、可扩展的、可重复销售的产品，而"五段位"正是完美的产品形态。你可以为每个段位开发课程、为每个跃迁开发工作坊、为每次诊断收取咨询费。
-- **段位模型把领导力变成消费品**——"你是一段？报这个课。三段了？上这个工作坊。"领导力成长被重新定义为消费行为，而非痛苦的自省和艰难的选择。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对五段位模型的直接攻击：你把它当作一个诊断和成长框架——但它在产业上更像一个市场营销工具。它让管理者觉得"我知道自己在哪、知道该往哪走"，从而产生进步感——但 Kellerman 会质问：这个进步感是否对应实际的领导效能提升？如果是，为什么领导力培训产业从 1980 年代的 $10B 膨胀到今天的 $370B，而员工敬业度、员工对管理者的信任、管理者实际表现却没有可测量的改善？
 
@@ -161,14 +161,14 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 ### 关联卡片
 
-- [[yt-management-basic-skills]] — 管理基本功认知：基本功是段位晋升的基础层，段位是对基本功掌握深度的阶梯化评估
-- [[yt-management-founder-role]] — 一号位（创始人角色）：五段位的"定方向者"本质上接近一号位的核心能力要求
-- [[yt-management-scientific-hiring]] — 科学招聘：不同段位的管理者在招聘面试中展现出完全不同的识人水平
-- [[yt-management-team-knowledge]] — 团队知识管理：四段"建体系者"的核心交付物之一就是团队知识体系
-- [[yt-management-goal-management]] — 目标管理：不同段位管理者使用 OKR 的方式截然不同
-- [[yt-personal-ipo-learning]] — 科学学习（IPO 模型）：段位跃迁本质上是一次深度的 IPO 式学习——输入新认知、处理旧习惯、输出新行为
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：五段位是管理武器库的"能力地图"——它不告诉你用什么武器，而是告诉你当前阶段你最该练哪件武器
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Kellerman 的批判指向一个核心——段位模型最大的漏洞不是评价维度不全，而是它无法测量"影响力"维度。五段位的终极检验标准不是你的能力，而是你讲的话有多少人愿意听、愿意信、愿意跟
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -190,6 +190,6 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 ### 跨学科锚点
 
-- 五段位模型与 Dreyfus 技能习得模型（新手→高级新手→胜任者→精通者→专家）同源异构，一堂将其应用于管理领域的成长阶段划分。
-- "段位跃迁需要放下上一段的成功习惯"这一洞见与马歇尔·戈德史密斯（Marshall Goldsmith）《What Got You Here Won't Get You There》的核心命题完全一致。
-- Hersey-Blanchard 情境领导理论中下属准备度的四阶段（R1-R4），从被管理者视角映射了不同段位管理者的行为适配。
+- src_unknown
+- src_unknown
+- src_unknown

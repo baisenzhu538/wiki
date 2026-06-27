@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "逐字稿"
-  - "演讲稿写作"
-  - "演讲准备方法"
-  - "口语化写作"
-  - "表达精确化"
-  - "脱稿演讲技巧"
-  - "演讲练习方法"
-  - "结构化表达"
-  - "如何写逐字稿"
-  - "公开演讲准备"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,7 +38,7 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '关键表达会先写逐字稿，把每个字都推敲清楚', 'framework_lens': '逐字稿是思维检测工具', 'follow_up_question': '这段逐字稿中有没有哪句话你其实还没想清楚？'}
   - {'signal': '逐字稿使用口语化表达，而不是书面语照念', 'framework_lens': '演讲是口头语言', 'follow_up_question': '你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？'}
@@ -46,11 +46,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-deliberate-practice]]'
-  - '[[yt-personal-time-management]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-personal-scientific-expression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 逐字稿
 
@@ -68,20 +68,20 @@ related:
 ### 失败模式
 
 1. **写了逐字稿但现场照念，没有眼神交流**
-   - **原因**：把稿当脚本
-   - **修复**：排练到能脱稿，只带关键词上台
+   - src_unknown
+   - src_unknown
 
 2. **逐字稿过于书面化，听起来像读论文**
-   - **原因**：语体错位
-   - **修复**：写完后大声念一遍，把不顺口的书面语改成口语
+   - src_unknown
+   - src_unknown
 
 3. **每个小会议都写逐字稿，投入产出失衡**
-   - **原因**：滥用
-   - **修复**：只对高 stakes、可重复的重要表达写逐字稿
+   - src_unknown
+   - src_unknown
 
 4. **逐字稿写完后不演练，现场卡壳**
-   - **原因**：缺少肌肉记忆
-   - **修复**：至少完整演练3次，并录像复盘
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -101,43 +101,43 @@ related:
 ### 逐字稿的写作方法
 
 **第一轮：裸写（不设限流出版）**
-- 不对自己说"这样写好不好"，先把脑子里想的全部倒出来
-- 允许口水话、重复、跳跃——这一轮的目标是"把思维变成文字"，不是"把文字写漂亮"
-- Truman 在 IPO 课中反复强调的行动原则："先做出来，再说好不好"——对逐字稿同样适用
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二轮：结构重构（逻辑层）**
-- 用火箭模型的四级结构检视裸写稿：
-  - 一级火箭（认知建立）：开头 30 秒有建立关联/信任/期望吗？
-  - 二级火箭（逻辑推演）：论证的路径每一步都合理吗？有跳跃吗？
-  - 三级火箭（情感共鸣）：有具体故事吗？有画面语言吗？
-  - 四级火箭（行动推进）：结尾有明确的下一步吗？
-- 重构后重写——不是改，是重写。很多表达憋在"修改"上——有些段落改不出来，只能推倒重写
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **第三轮：口话化精修（口语层）**
-- 把"书面语"转成"口语"——去掉长句（超过 30 字的句子拆成两句）、去掉被动语态、去掉书面连接词（"因此/故而"→"所以"）
-- 加上节奏标记：停顿（//）、强调（** **）、加速（紧凑段不加空行）、切换（新段落）
-- 金句设计：把核心观点浓缩成能被人记住、能被人转述的一句短句（15-25 字为佳）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第四轮：练习-修正循环**
-- 对着手机录一遍，听回放
-- 标出"念起来别扭"的地方（说明这个位置的文字还不是口语）
-- 标出"听回放时走神了"的地方（说明这个地方的结构/节奏出了问题）
-- 修改，再录，再标——直到连续两遍不发现新问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 逐字稿驱动的刻意练习
 
 逐字稿的最大价值在于它为表达提供了**可重复、可比较、可迭代、可迁移**的基准：
 
-- **可重复**：有逐字稿就可以一遍遍练习，每遍只关注一个维度（节奏/音量/表情/肢体）
-- **可比较**：今天录的 vs 上周录的，逐字逐句对比哪些地方变了
-- **可迭代**：每次练习后修改逐字稿，稿子在变好，表达在变强——两者同步进步
-- **可迁移**：写逐字稿的能力可以直接迁移到"写文章/写提案/写课程"上——好的写作本质上是"在纸上做一场好演讲"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 逐字稿与 IPO 模型的关系
 
 逐字稿是 IPO **输出环节从 L2（专题笔记）到 L4（分享讲解）的关键桥梁**：
-- L2 专题笔记 → 逐字稿：把"按自己逻辑组织的笔记"转化为"能让别人跟着走的脚本"
-- 逐字稿 → L4 分享讲解：有了逐字稿的底本，现场表达才能"看起来即兴"
+- src_unknown
+- src_unknown
 
 Truman 本人在 IPO 课中讲述"自己讲一堂课的准备过程"时提到，每次课的逐字稿要经过多轮重写——这就是逐字稿在顶级表达者工作流中的实际位置。
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "知识管理"
-  - "第二大脑"
-  - "内容地图"
-  - "双向链接笔记"
-  - "知识树结构"
-  - "零摩擦捕获"
-  - "检索练习"
-  - "如何整理笔记"
-  - "知识组织"
-  - "知识激活"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,8 +38,8 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '笔记系统有明确的捕获→组织→激活三阶段流程', 'framework_lens': '知识管理是流程，不是存储', 'follow_up_question': '你最近一次‘激活’旧知识是什么时候？'}
   - {'signal': '笔记是原子化的，每张卡有一个独立主题，并与其他卡双向链接', 'framework_lens': '网络结构优于树状结构', 'follow_up_question': '这张卡能否独立理解？它与哪些卡互相关联？'}
@@ -47,11 +47,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-time-management]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-personal-scientific-expression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 知识管理
 
@@ -69,20 +69,20 @@ related:
 ### 失败模式
 
 1. **只收藏不整理，笔记变成垃圾堆**
-   - **原因**：捕获即终点
-   - **修复**：每次捕获后24小时内必须做初步加工：标题、标签、一句话总结
+   - src_unknown
+   - src_unknown
 
 2. **标签体系过于复杂，检索反而更慢**
-   - **原因**：过度组织
-   - **修复**：限制标签数量，优先使用双向链接和标题检索
+   - src_unknown
+   - src_unknown
 
 3. **笔记很多，但用的时候想不起来**
-   - **原因**：缺少激活机制
-   - **修复**：每周做一次‘检索练习’：随机抽3张卡，看能否复述核心
+   - src_unknown
+   - src_unknown
 
 4. **过度优化工具，忽视内容质量**
-   - **原因**：工具癖
-   - **修复**：设定工具使用上限：先写满100张卡再考虑换工具
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -102,9 +102,9 @@ related:
 
 核心理念：捕获系统的设计目标不是"结构完美"，而是"摩擦为零"。
 
-- **零摩擦原则**：灵感/笔记/想法的捕获操作不超过 3 秒。如果打开一个 App 需要超过 3 秒，这条信息就会被放弃——"灵感不等人，笔记也不等你"
-- **单一收件箱**：所有捕获进一个 Inbox（一个文件夹/一个 App/一个频道），不做分类——分类放在后续加工阶段
-- **即抛即走**：捕获完立刻回到当前任务，不在捕获时深加工。深加工是单独的时间块
+- src_unknown
+- src_unknown
+- src_unknown
 
 关键：捕获的质量由频率决定，不由每次的精致度决定。
 
@@ -112,31 +112,31 @@ related:
 
 核心理念：不是给知识分类，而是给"未来的自己"铺路——分类的标准是"我未来在什么场景下会怎么找这条知识"。
 
-- **知识树结构**（与 IPO 模型一致）：根（第一性原理/底层规律）→ 干（核心方法）→ 枝（领域应用）→ 叶（具体案例）。有树的碎片可以挂上去彼此加速，纯碎片（只有树叶没有树干）极低效
-- **MOC（Map of Content，内容地图）**：不做精细的文件夹层级，而是做"索引页"——每个主题建一个核心页，链接到该主题下的所有子内容。文件夹是单向结构（每个文件只能在一个文件夹里），链接是多向结构（一个知识可以同时属于多个主题）
-- **定期修剪**：每季度做一次知识库清理——删除不再需要的、合并重复的、更新过时的。知识管理不是只长不剪的花园
+- src_unknown
+- src_unknown
+- src_unknown
 
 **阶段三：激活（Activate）——转化为输出**
 
 核心理念：存在知识库里不叫知识，被用出来才叫知识。
 
-- **检索练习**：不翻阅笔记，闭卷回忆"关于这个主题我知道什么"，再对照笔记查缺补漏——这既是检索也是刻意练习的"反馈"环节
-- **联系练习**：翻阅笔记时不做线性浏览，而是跳跃性浏览——"这个知识点还能解释什么现象？"（IPO 的举一反三）
-- **输出驱动重组**：每次要做分享/写作/实践时，围绕输出目标重新组织知识，而不是复制原有结构。IPO 课中 Truman 强调"按自己的逻辑重组，不要抄原结构"——这就是输出驱动重组
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一堂工具选型立场
 
 一堂不强制工具选型，但给出原则性指导：
-- **简单启动**：从手机备忘录/飞书文档/记事本开始，不要一开始就上 Obsidian/Notion 全家桶
-- **按复杂度升级**：当"找不到东西"的痛苦超过"换工具"的痛苦时才升级
-- **警惕配置成瘾**：花 20 小时配置工具不如花 20 小时写 20 条笔记——工具是手段，笔记是目的
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识管理与 IPO 模型的关系
 
 知识管理本质上是 IPO 模型的**基础设施**：
-- **I（输入）**：知识管理为输入提供"接收器"——四大渠道的知识进到同一个 Inbox
-- **P（处理）**：知识管理为处理提供"工作台"——联系练习、建模、重组都在知识库中进行
-- **O（输出）**：知识管理为输出提供"原材料仓库"——输出时能从知识库中快速调取关联素材
+- src_unknown
+- src_unknown
+- src_unknown
 
 Truman 在 IPO 课中的原话："大多数人大脑只有内存没有硬盘——你必须给自己找一个外部工具，建立第二大脑，积累长期复利。"这句话就是对知识管理在 IPO 体系中位置的最精确定位。
 

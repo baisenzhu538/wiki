@@ -13,34 +13,34 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 定量建模
-- 数据分析
-- 数字分析
-- 量化分析
-- 模型分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[concept-yitang-research-facts-first]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "（tool-yitang-research-facts-first，待补）"
-  - "[[tool-yitang-research-unit-model]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[dk-yitang-expert-interview-5-traps]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 定量建模：用数字说话的分析框架
@@ -128,10 +128,10 @@ related:
 | **敏感性模型** | 关键变量影响 | 如果价格变化10%，利润变化多少？ |
 
 ### 模型建立原则
-- 简单优先：能用简单模型不用复杂模型
-- 可验证：模型输出可验证
-- 可调整：模型可根据新数据调整
-- 透明：模型逻辑清晰，他人可理解
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -171,8 +171,8 @@ related:
 高/中/低 — 原因：[原因]
 
 ### 敏感性分析
-- 如果[变量1]变化10%，结果变化[X]%
-- 如果[变量2]变化10%，结果变化[Y]%
+- src_unknown
+- src_unknown
 
 ### 风险提示
 [风险]
@@ -226,22 +226,22 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-unit-model]] — 单元模型工具
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 定量建模模块
-- 交叉：数据分析理论
-- 注意：定量建模是调研的高级工具，需要数据素养
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -10,26 +10,26 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
-  - '[[modeling-level-map]]'
-  - '[[yt-business-formula-l6-essence-formulas]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-product-kernel]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[case-lean-electric-scooter-mvp]]"
-  - "[[case-lean-combination-test-paradigm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 精益高手十年修炼地图
@@ -102,47 +102,47 @@ Markus Andrezak 提出的「无效化成熟度模型」把组织验证能力分�
 
 **适合**:
 
-- 个人创业者判断自己当前处于哪个阶段，避免「用 L6 的话术掩盖 L1 的行为」。
-- 培训体系分层设计：不同段位对应不同课程、案例和练习强度。
-- 团队招聘/分工参考：谁负责设计实验（L4）、谁负责系统测试（L5）、谁负责跨域迁移（L6）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合 / 需谨慎**:
 
-- **不能直接用来评判组织成熟度**：个人段位高不代表团队/公司会自动进入 Level 2。
-- **不能当作线性进度条**：有些人长期在 L3–L4 反复打磨，跨到 L5 需要环境、项目和失败经验的共同作用。
-- **不能在强监管/长周期行业直接套用**：L4 的「聪明 MVP」手段（假页面、假产品）在医疗、金融、教培等领域可能触碰合规红线 [conf=0.85, source=任务指令 L3 政策/合规边界]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
 ### 失败模式 1：L1 阶段用 L5 的话术
 
-- **症状**：嘴里说着「MVP」「迭代」，行动上仍是憋大招、All-in、闭门造车。
-- **后果**：精益变成口号，团队信心和资金被一次性重投入消耗。
-- **修复**：回到「开始试错」——先做一件能在 1–3 天内拿到反馈的小事。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 2：跳过假设拆解直接学 MVP 技巧
 
-- **症状**：看了很多 FALSE 模型工具，但不知道当前业务最高风险假设是什么。
-- **后果**：实验做得很漂亮，验证的却是低风险假设，核心风险从未被触碰。
-- **修复**：先用 [[framework-lean-abcd-model]] 和 [[yt-entrepreneur-key-hypotheses]] 拆解假设链，再选工具。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 3：到达 L4 就停止，不建系统
 
-- **症状**：个人能做出聪明 MVP，但团队没有测试节奏、没有通过/不通过标准、没有知识沉淀。
-- **后果**：依赖某个人的灵感，无法规模化；一旦该人离开，验证能力归零。
-- **修复**：升级到 L5，建立 [[framework-lean-systematic-test-curve]] 中的灰度/组合/里程碑测试流。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 4：把个人段位当组织成熟度
 
-- **症状**：创始人自己到了 L5，就认为全公司都在 L5，要求团队自然具备系统测试能力。
-- **后果**：组织反馈机制、决策流程、资源分配仍停留在 Level 0/1，高手被组织惯性拖住。
-- **修复**：同步修炼个人段位与组织反馈机制（如 Ritual Dissent、BrainTrust 式的开放反馈）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 5：L6 迁移时忽视边界条件
 
-- **症状**：在消费品验证中百试百灵的方法，直接搬到医疗、金融、B2B 长决策链场景。
-- **后果**：触碰合规红线，或做出与行业特性不匹配的粗糙 MVP，损伤信任。
-- **修复**：迁移前先回答三个问题：监管允许吗？用户决策链多长？品牌敏感度多高？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -150,23 +150,23 @@ Markus Andrezak 提出的「无效化成熟度模型」把组织验证能力分�
 
 该案例演示了从 L1 到 L4 的跃迁 [conf=0.85, source=case-lean-electric-scooter-mvp]：
 
-- **A 版（All-in）**：典型 L1 行为——自研滑板车 + APP + 营销系统一次性投入 200–300 万元。
-- **D 版（海报/小程序）**：典型 L4 行为——只验证「中国用户是否对电动滑板出行感兴趣」，成本几十元，周期 1–3 天。
-- **启示**：段位提升不是做得更多，而是把最高风险假设剥离得更 sharp。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正例：组合测试范式（洗发水 + 堕落小龙虾）
 
 该案例体现了 L4–L5 的能力 [conf=0.80, source=case-lean-combination-test-paradigm]：
 
-- 洗发水把卖点拆成「功效 × 成分 × 香味 × 背书」四个维度做组合测试。
-- 堕落小龙虾用液氮冷冻技术对 13 种食材做盲测筛选。
-- **启示**：L4 是设计单个实验，L5 是把多个实验组织成系统化的选项排除流程。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：鞋类产品 All-in 200 多万
 
-- **背景**：某鞋类创业团队第一版就设计、批量生产 10000 双，投入 200 多万元 [conf=0.70, source=framework-lean-systematic-test-curve]。
-- **段位诊断**：L1「习惯憋大招」。在最高风险假设（用户是否接受这个款式/卖点）未验证前，就完成了生产、库存、直播渠道的重投入。
-- **修复路径**：应先用 L3 假设拆解 + L4 假页面/3D 打印/快闪店验证，确认方向后再进入量产。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 修炼清单
 

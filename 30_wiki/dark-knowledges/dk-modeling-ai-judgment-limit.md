@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 与本质建模）。单一完整长文档支撑，但尚未找到第二独立来源，因此 trust_level 维持 medium；待后续案例或实践验证后可升 high。
 created_at: '2026-06-14'
@@ -22,25 +22,25 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-essence-nfactor-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#method/prompt-engineering'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- 你发现自己为了“适配”AI 的输出，不断调整问题，而不是用问题去检验模型。
-- 同一个本质问题换一句话或换一个 prompt 问 AI，得到明显不同的结论。
-- 让 AI 处理边界/反例时，它给出骑墙、矛盾或和之前定义冲突的答案。
-- 你把“要不要继续迭代”“哪个维度更重要”“什么时候停止”交给 AI 决定。
-- 和 AI 交叉对话多轮后，仍然无法收敛到一个稳定、可复现的判断。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---# AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 
@@ -50,16 +50,16 @@ diagnostic_signals:
 
 **核心洞察：**
 
-- AI 的输出是概率性的，它会高度受提示词、上下文和提问者隐含假设的影响，因此看似“提炼了本质”，其实只是对输入的精致回应。
-- 建模的核心价值在于**判断**：判断什么信息重要、什么维度必须保留、什么反例能推翻当前框架、什么边界决定模型成立。这些判断需要人的逻辑洁癖、审美和领域经验。
-- 把 AI 当作“高产能实习生”是最安全的心态：它能快速整理信息、生成初稿、补充案例，但不能替代你做最终判断。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你想让 AI 帮你提炼一个领域的本质，但担心它只是在迎合你的假设。
-- 你在和 AI 共创一个复杂模型，需要判断 AI 给出的结构是否真正自洽。
-- 你在评估 AI 生成的模型是否可靠，尤其是在边界案例和反例上。
-- 你在用 AI 加速建模流程，但不想把价值观、优先级或停止条件外包出去。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -72,9 +72,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适合**：流程建模、信息整理、初稿生成、案例补充、格式美化、多角度枚举。
-- **不适合**：独立承担本质建模中的核心判断、价值观排序、边界定义和模型收敛。
-- **必须**：AI 的输出经过人的逻辑洁癖和审美审查，尤其是边界案例和反例测试。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -92,10 +92,10 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-modeling-ai-without-judgment]] —— 前一轮相关暗知识：没有人的判断，AI 生成的模型只是信息堆砌。
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 用 AI 但保持判断的实践案例。
-- [[tool-essence-nfactor-modeling]] —— 本质建模中，人的判断是提炼 N 个关键因子的核心。
-- [[modeling-capability-for-kdo]] —— 建模能力作为 KDO 系统的核心资产，AI 只是加速器。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

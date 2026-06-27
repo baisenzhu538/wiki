@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Google Images, TinEye, Yandex Images
-- web: OSINT media verification techniques
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-media-verification-overview]]'
-  - '[[tool-alt-data-free]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-alt-data-overview]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-media-verification-overview]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 反向图片搜索
@@ -67,8 +67,8 @@ gis.search({'search_url': 'https://example.com/image.jpg'})
 
 ## 适用边界
 
-- **适用**：验证竞对宣传材料真实性、追踪品牌资产
-- **成本**：免费
+- src_unknown
+- src_unknown
 
 ---
 

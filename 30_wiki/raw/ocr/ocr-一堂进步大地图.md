@@ -3,7 +3,7 @@
 id: "ocr-一堂进步大地图"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_d75f0a0d
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂进步大地图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-地图-个人地图]]'
-  - '[[ocr-一堂-地图-创业地图]]'
-  - '[[yt-model-progress-map]]'
-  - '[[ocr-一堂-地图-管理地图]]'
-  - '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂进步大地图
@@ -36,38 +36,38 @@ png` 堂 堂无限进步大地图『十年收藏版 - 不要急不要停：人�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 人生是"无限进步的游戏"，核心心态是"不要急不要停"。
-- 个人修炼的核心追求是提升"天花板"，管理修炼的核心追求是提升"段位"，创业修炼的核心追求是提升"概率"，无限修炼的核心追求是"笃定"。
-- 高水平学习的重心在于建立"体系"，而非碎片化积累。
-- 成长路径包含量变式成长（把书越读越厚）与质变式顿悟（把书越读越薄）两个阶段。
-- 管理进阶的关键在于"善于用更多资源拿到更大结果"，即通过他人和系统放大产出。
-- 创业本质是概率游戏，修炼目标是将自己变成"高概率"的人，而非追求单次确定性。
-- 应把主要注意力放在"确定性的规律"上，而非随波逐流或投机取巧。
-- "越具体，越落地，越有效"——知识应用需从抽象走向具体场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该OCR文本存在大量乱码和识别错误（如"逾水屋""身起織""席层溪辋""月①加"），人工校对前无法确认这些是否为关键术语或仅是误识，是否会影响核心框架的准确提取？
-- "一堂Y模型"的具体结构和三要素（科学理念、事实、理论）之间的关系在OCR中断裂，需要原图确认其完整逻辑链条。
-- "预判阶段""领先""组织阶段""迭代层"等阶段划分缺乏清晰定义和递进关系说明，是线性序列还是循环结构？
-- 四个修炼层级（个人/管理/创业/无限）之间是否存在前置条件或跃迁门槛，还是可并行推进？
-- "辩证思考1/2/3"的具体内涵完全缺失，与各自核心追求（天花板/段位/概率/笃定）的对应机制不明。
-- "在时间轴上做事"与"跳出时间轴修身"被表述为对立的"调整正确姿势"，二者如何协调？是否存在具体场景适用性？
-- "增长飞轮"的构成要素和启动条件未在文本中体现，是个人版还是组织版飞轮？
-- "越具体，越落地，越有效"与"把主要注意力放在确定性的规律上"之间是否存在张力——规律追求抽象，落地要求具体，二者如何统一？
-- **VA 描述了"F形与Z形结合的复合路径"，但四模块并列的横向布局在移动端或窄屏阅读时会完全失效——读者可能只能看到第一个模块就被截断。这张地图的"全景"假设是否过度依赖桌面端的横向阅读体验？**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **索引类内容缺少深度：本卡片主要是能力地图，缺少可复用的知识内容。作为知识卡，其价值主要在于"索引"而非"知识"。
-- **更新频率风险：能力地图会随着内容更新而变化，本卡片可能很快过时。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -81,21 +81,21 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 不要用的场景
 
-- **深度学习代替浏览学习：能力地图适合快速浏览，但不能替代对单个内容的深度消化。
-- **创新性工作的思维发散：能力地图的线性结构可能限制跨领域联系的发现。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-capability-map — 能力地图的宏观视角
-- [[yt-decision-full-process]] — 技能进阶的理论基础
-- **此卡的 Z 形阅读路径（VA 描述为“F 形与 Z 形结合的复合路径”）与 [[yt-personal-ipo-learning]] 的线性输入→处理→输出结构形成对比，反映聚合思维（地图浏览）vs 线性执行（IPO 流程）的不同认知模式。**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 知识库索引：作为快速查找内容的索引
-- 学习/能力计划：根据能力地图制定个人计划
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -2,7 +2,7 @@
 
 type: dk
 domain:
-- product
+- src_unknown
 id: dk-p15-unverified
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - '[[ai-short-drama-script-planning-three-axes]]'
-  - '[[dk-p10-oral-ban]]'
-  - '[[dk-c7-auto-backup-conflict]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
-  - '[[dk-p17-accuracy-gap]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 
 ## 原始表述
@@ -40,60 +40,60 @@ related:
 
 ## 使用场景
 
-- 你收到一份格式工整、数据详实的完工报告
-- 报告中有"修复前→修复后"对比表
-- 你需要验收一个涉及数据变更的任务
-- 你是架构者/审查者，需要验证执行者的声明
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **不相信报告，相信脚本**：
-   - 收到完工报告后，独立运行测量脚本
-   - 不要只看"修复后"数字，要自己跑一遍验证
-   - 验证方法必须是可重复的（如具体的 grep 命令或 python 脚本）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **完工标准 = 三角验证**：
-   - 代码已提交（git log）
-   - 数据已变更（实测）
-   - 验证已通过（独立脚本）
-   - 缺一不可
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **报告要求**：
-   - "修复后"数字必须附带验证方法
-   - 不能只有数字，没有验证路径
-   - 没有验证方法的数字视为未经验证
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **架构者审查 checklist**：
-   - [ ] 是否看到 git commit？
-   - [ ] 是否独立运行了验证脚本？
-   - [ ] 实测数据是否与报告一致？
-   - [ ] 如果不一致，要求执行者重新跑
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 不要看到格式工整的报告就放松警惕
-   - 不要把"规划做好了"等同于"做完了"
-   - 不要在没有独立验证的情况下标记任务为"完成"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有涉及可测量指标的任务验收
-- 不适用纯创意/定性工作（如"写一篇文章"）
-- **与 P-10 的关系**：P-10 是"指令未落笔"，P-15 是"完成未验证"——对称问题
-- **与 P-17 的关系**：P-17 是"测了但测的是错的指标"，P-15 是"根本没测就报数字"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
-- 这是"报告 vs 现实"的经典陷阱：格式工整的报告极具迷惑性
-- 揭示了"规划幻觉"——执行者真诚地认为"规划好了 = 做完了"
-- 极具破坏力：零改动、零 commit，但报告写得像模像样
-- **AI 训练语料中不会有这条**：没有任何教科书会教"如何识破虚假的完工报告"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- dk-p10-oral-ban — P-10 和 P-15 是对称问题：指令要落笔，完成要验证
-- dk-p17-accuracy-gap — P-17 是 P-15 的变体：不是"没做"，而是"测了但指标错了"
-- `90_control/PROTOCOL.md` — 验收规范
-- `.agent/pitfalls.md` → P-15（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-06-03）
 

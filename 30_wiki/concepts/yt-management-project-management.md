@@ -5,18 +5,18 @@
 title: 项目管理
 type: concept
 domain:
-  - management- product
-  - ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队用了Jira但项目还是延期
+- src_unknown
   framework_lens: 工具≠项目管理
   follow_up_question: 你们的项目范围、关键路径、风险看板是否清晰？如果工具只是记录，项目管理没落地
-- signal: 项目范围不断扩大，无法收尾
+- src_unknown
   framework_lens: 范围蔓延
   follow_up_question: 这个项目最初的交付物是什么？现在增加了多少不在原始范围内的内容？
 updated_at: '2026-06-16'
@@ -30,9 +30,9 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[ocr-一堂-管理必修-课程清单]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-model-management-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 项目管理
@@ -69,9 +69,9 @@ related:
 ### 项目管理重新理解
 
 常见误区：
-- **项目经理专属论**："我又不是 PM，不需要学项目管理" —— 任何有明确的开始和结束、有特定交付物、需要多人协作的工作都是项目
-- **大项目才需要论**："只有百万级的项目才需要用这套方法论" —— 方法论可以等比例缩放，一顿午饭的组织也需要定方案、拆计划、管执行
-- **工具至上论**："用了 Jira/飞书就等于做了项目管理" —— 工具是思维的载体，但如果脑子里没有项目管理框架，工具只是电子便签
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五步闭环模型
 
@@ -169,14 +169,14 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 关联卡片
 
-- [[yt-management-goal-management]] — 目标管理：项目管理第一步（定方案）中的目标设定直接对接 OKR 方法论
-- [[yt-management-scientific-meetings]] — 科学开会：每日站会和项目周会是一堂科学开会方法论的重要应用场景
-- [[yt-management-team-knowledge]] — 团队知识管理：项目复盘产生的经验沉淀应进入团队知识库
-- [[yt-management-basic-skills]] — 管理基本功认知：项目管理能力是管理基本功在"管事"维度的集中体现
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：项目中的关键路径选择和资源分配需要决策模型辅助
-- [[yt-entrepreneur-lean-validation]] — 精益验证：精益验证中的"实验"本质上是一个需要项目管理思维的小项目
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：WBS+甘特图+风险看板是项目管理武器库中的三件经典武器——但 Flyvbjerg 和 Goldratt 的警示是：用好了是武器，用不好是给自己和投资人注射的镇静剂。前 70 年项目管理史上最大的教训不是"方法论不够精良"，而是"方法论被当成了精美包装纸"
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Flyvbjerg 的"生存欺骗"在讲香的语境中是一个残酷的事实：你在向投资人"讲香"时，那个"6 个月上线"的计划不是项目管理计划，是故事里的一个情节点。Goldratt 的学生综合征也是一种"讲香"——每个人都在向项目经理"讲香"（"进展 80% 一切顺利"），直到 deadline 前两天才说出真相。项目管理的最高境界不是管任务——是创造一个允许说真话的环境
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -198,8 +198,8 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 跨学科锚点
 
-- 项目管理知识体系源自 PMI（项目管理协会）的 PMBOK 标准——五大过程组（启动/规划/执行/监控/收尾）与一堂的五步法高度映射。
-- WBS 是 PMBOK 中最核心的工具之一，最早由美国国防部在 Polaris 导弹项目（1957 年）中创建并使用。
-- Flyvbjerg 的"参照类预测"（Reference Class Forecasting）方法论已被英国和丹麦政府强制用于大型公共项目的审批——这是对"生存欺骗"的体制化防御。
-- Goldratt 的约束理论（TOC）和关键链项目管理（CCPM）是对传统 PMBOK 的少数几个有体系化替代方案的思想流派之一，1990 年代在宝洁、波音、英特尔等公司有过大规模实验。
-- 复盘方法论源自美军 AAR（After Action Review），由联想等中国公司引入并推广为"复盘四步法"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

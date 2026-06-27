@@ -6,16 +6,16 @@ title: 本质建模案例：知识付费派、经验萃取派与学科建模派�
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_55135154-Truman-高阶建模-本质建模-案例-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- "#case"
-- "#domain/yitang"
-- "#method/essence-modeling"
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,27 +26,27 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - '[[case-yitang-education-supply-chain]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-abstraction-reliability-ladder]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[dk-modeling-timely-review-session-window]]'
-  - "[[modeling-three-stages]]"
-  - "[[case-modeling-essence-levels]]"
-  - "[[yt-note-expert-interview-modeling]]"
-  - "[[dk-modeling-essence-predictive]]"
-  - "[[dk-modeling-counterexample-driven]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队验收课程/方法论时，不同成员的质量标准互相冲突
+- src_unknown
   lens: 三派混用
   follow_up: 先统一目标——我们想做知识付费、组织萃取还是学科建模？
-- signal: 一个模型同时被批评"案例太少不科学"和"太抽象不落地"
+- src_unknown
   lens: 用错了流派的验收标准
   follow_up: 用三派四维度（萃取范围、目标、手段、角色）重新定位它
-- signal: 个人想靠几个爆款案例就成为行业专家
+- src_unknown
   lens: 混淆了知识付费派与学科建模派的角色
   follow_up: 评估自己是否具备跨领域案例库和反例验证能力
-- signal: 内部 SOP 被外部顾问评价"过度抽象、无法使用"
+- src_unknown
   lens: 学科建模标准侵入经验萃取场景
   follow_up: 把抽象层级降到组织内可执行，补充上下文和触发条件
 ---# 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
@@ -72,9 +72,9 @@ diagnostic_signals:
 
 ## 结果
 
-- 团队停止用"启发性"标准去争论学科级模型的科学性，也停止用"普适性"标准去苛责内部 SOP。
-- 课程评审会引入"先定流派，再定标准"的前置问题，评审冲突减少。
-- 一堂将学科建模派定位为核心方法论建设路径，并明确成为 TCP-R 高级专家需要走学科建模路线。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景 / 使用边界
 
@@ -120,8 +120,8 @@ diagnostic_signals:
 
 ## 关联框架
 
-- [[modeling-three-stages]] —— 三派分野是本质建模阶段判断"模型该做到什么深度"的导航
-- [[case-modeling-essence-levels]] —— 本质层级（L0-L5）帮助判断模型在哪一层被验收
-- [[yt-note-expert-interview-modeling]] —— 专家访谈建模与学科建模派的案例收集方法
-- [[dk-modeling-essence-predictive]] —— 学科建模派追求"预测性本质"，而非解释性鸡汤
-- [[dk-modeling-counterexample-driven]] —— 学科建模派用反例驱动和撞击实验验证边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

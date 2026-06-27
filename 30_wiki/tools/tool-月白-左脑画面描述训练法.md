@@ -4,32 +4,32 @@ title: 技能：左脑画面描述训练法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-竞品图精益替换法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：左脑画面描述训练法
 
@@ -46,25 +46,25 @@ related:
 
 ## 适用场景
 
-- 无法准确描述画面问题时
-- 与AI沟通修改意图效率低下时
-- 希望提升设计抽象表达能力时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 时间极紧迫的机械执行任务时
-- 完全依赖AI自主评估即可的场景
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 《像艺术家一样思考》书籍
-- AI画面评估提示词
-- 语音记录工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -72,12 +72,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

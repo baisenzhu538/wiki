@@ -6,41 +6,41 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- note-taking
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-02.md
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[dk-yb28-prompt-expiration-management]]'
-  - '[[dk-truman-document-is-real-project-is-fake]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[tool-自我反馈修正笔记姿势]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 怎么逼自己思考
-- 笔记没有自己的东西
-- AI时代还要记笔记吗
-- 如何避免你说啥我记啥
-- 记笔记立flag
-- 30%自我思考
-- 提升思考量的方法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#domain/yitang'
-- '#domain/note-taking'
-- '#chunk-type/workflow'
-- '#source_type/oral'
-- '#method/learning-method'
-- '#method/thinking-tool'
-- '#scene/learning-methodology/deliberate-practice'
-- '#content-format/checklist'
-- '#scene/ai-collaboration'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-18'
 estimated_tokens: 4200
@@ -50,14 +50,14 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- format-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 会议/课程结束后，笔记里找不到一句"我不同意"或"这让我想到……"
+- src_unknown
   framework_lens: 记录者模式锁定——缺少flag时，人默认进入"你说啥我记啥"的低能耗状态
   follow_up_question: 如果强制要求笔记中30%是自己的东西，你现在能立刻标出哪些内容？
-- signal: 为了凑够"30%原创"而写下大量"我觉得很有道理"之类的空话
+- src_unknown
   framework_lens: 指标表演化——flag从"倒逼思考"退化为"完成指标"
   follow_up_question: 这些"个人观点"如果删掉，是否会影响后续复用？三个月后你还会看吗？
 ---
@@ -82,44 +82,44 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 听课/开会/访谈时，发现自己只是在摘录，笔记里没有"自己的东西"
-- 学习高阶方法后总是"听懂但不会用"，需要把输入转化为个人判断
-- 团队协作中讨论质量低，成员只复述不贡献观点
-- 用AI辅助笔记时，担心变成"AI整理员"而丧失思考能力
-- 读完一本书或一门课后，想检验自己是否真的理解了，而非只是"看过"
-- 需要把"被动接收信息"切换为"主动加工信息"的任何认知场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **选择场景，确定flag类型**
-   - **比例flag**：如会议笔记中至少30%是"他们说话之外的我自己的东西"
-   - **数量flag**：如一个主题逼自己闪现20–30个想法
-   - **篇幅flag**：如2小时内写满一屏（32寸显示器）干货点
-   - **外部预期flag**：把自己放在"必须端出比别人更好的大一统方案"的位置，用他人预期倒逼自己
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **在记录开始前明确flag并写下来**
-   - 不要等记到一半再补flag；在笔记顶部写下本次目标，例如：`本次目标：30%原创思考，至少3个反例/追问`
+   - src_unknown
 3. **边记边检验，而不是记完再补**
-   - 每记录3–5条原文，强制插入一条自己的追问、连接、反例或行动联想
-   - 如果发现自己连续5分钟没有原创内容，停下来问自己："我对这个观点的看法是什么？"
+   - src_unknown
+   - src_unknown
 4. **用清单体结构承载flag**
-   - 每一行是一个独立逻辑点，便于在"行"维度上统计原创比例
-   - 用标签或颜色标记"原文"与"自己思考"，方便事后复盘
+   - src_unknown
+   - src_unknown
 5. **结束后快速验收**
-   - 用30秒扫一遍笔记，判断flag是否达成
-   - 不达标时标记原因：是内容太难？还是自己滑回了记录模式？
+   - src_unknown
+   - src_unknown
 6. **定期更换flag，避免习惯化失效**
-   - 同一flag使用久了会麻木，需要不断升级目标或改变形式
+   - src_unknown
 
 ## 适用边界
 
-- **适用于**：学习类、研究类、讨论类笔记；需要主动加工而非忠实还原的场景；个人成长和能力训练阶段。
-- **不适用于**：
-  - **纪要型/法律型/医疗型记录**：这些场景要求忠实还原，原创思考会污染事实。
-  - **紧急信息捕捉**：电话、突发事件中，先保证信息不遗漏，flag后置。
-  - **完全陌生的领域**：新手尚未建立基础判断框架，强行"原创"容易生产肤浅观点。
-- **能力匹配原则**：flag高度必须与当前能力匹配，过低无效，过高导致焦虑或造假。
-- **量化≠质量**：30%是数量指标，不是质量指标；30%的肤浅评论不如3%的深刻洞察。
-- **外部预期依赖**：不是每个人都有"必须给出大一统方案"的角色位置，普通参与者需要设计替代压力源。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -134,16 +134,16 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **直击默认懒惰**：人的认知系统天然偏好低能耗路径，"你说啥我记啥"是最不费力的选择。立flag是一种外部约束，强制大脑进入高能耗思考状态。
-- **AI时代的分水岭**：AI把L1–L2的信息整理工作接管了，人类的比较优势在于L3–L5的思考。立flag记笔法是把"人必须思考"落到具体动作的训练方法。
-- **可自我检验**：与"多思考"这种模糊目标不同，"30%原创""20个想法"是可以即时检查的数量标准，让进步变得可见。
-- **低成本高杠杆**：不需要换工具、换环境，只需要在记录前加一个自我约定，就能显著提升笔记的复用价值。
-- **迁移性强**：不仅适用于笔记，也适用于会议发言、邮件写作、方案评审等任何需要"从被动接收转向主动贡献"的场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-l4-internalization]] —— L4内化阶段的核心跳跃正是从"整理信息"到"产生思考"，而立flag记笔法是这个跳跃的关键加速器。没有flag，L4很容易沦为"假装在思考"的表演。
-- [[yt-note-checklist-concept]] —— 清单体笔记的"独立"和"分层"特征为flag提供了完美的落点：每一行是一个独立逻辑点，每一层是一个思考深度，flag可以在"行"和"层"两个维度上量化。
-- [[yt-note-ai-human-division]] —— AI时代L1–L2被大幅接管，人类的比较优势在于L3–L5的思考。立flag记笔法正是帮助人从"AI整理员"升级为"AI指挥官"的具体训练方法。
-- [[concept-问题驱动式深度思考笔记]] —— 问题系统和立flag是相辅相成的两翼：问题系统决定"思考什么"，flag决定"思考到什么程度"。只有问题没有flag，容易流于泛泛；只有flag没有问题，容易沦为指标游戏。
-- [[tool-自我反馈修正笔记姿势]] —— flag需要配合版本对比和最佳实践池才能避免造假。单打独斗的flag容易退化，嵌入反馈系统的flag才能持续产生真实思考。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

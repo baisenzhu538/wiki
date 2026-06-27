@@ -3,7 +3,7 @@
 title: Obsidian Git Multi-Device Sync Protocol
 type: system
 domain:
-- kdo
+- src_unknown
 status: draft
 id: obsidian-git-sync-protocol
 created_at: '2026-05-03'
@@ -31,17 +31,17 @@ confidence: 0.6
 
 ### [Critique]
 
-- **Assumption**: Assumes all devices use Obsidian Git plugin for sync. If a device uses manual git commands, this protocol still applies but with different UI steps.
-- **Boundary**: Does not cover Obsidian Sync (the paid cloud service). This protocol is for Git-based sync only.
-- **Reliability: High** — Reason: The conflict pattern and solution have been verified through multiple iterations (force-push → backup re-commit → force-push cycle). The current `.gitignore` + reset approach has held stable.
-- **Anti-pattern risk**: Users may be tempted to "just force push" when conflicts happen. This works once but breaks other devices' git history. Always reset other devices instead.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### [Synthesis]
 
-- **Links to**: [[kdo-protocol]] — Sync protocol is a subsystem of the master operating contract.
-- **Links to**: [[kdo-protocol-implementation-roadmap]] — Listed as P3 item; this page fulfills that deliverable.
-- **Complements**: `90_control/PROTOCOL.md` Section 2 (Directory Topology) — Defines which directories are git-ignored.
-- **Transferable to**: Any Obsidian vault using Git sync across multiple machines (Windows, macOS, Linux, mobile).
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

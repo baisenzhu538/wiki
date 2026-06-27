@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- modeling
-- education
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（千人广场模型案例）。口述稿为完整长文档，内容充分支撑案例还原；笔记为同一课程的学员整理，可作为旁证。事件来源单一，保持 medium trust。
 created_at: '2026-06-14'
@@ -22,33 +22,33 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[case-course-milestone-model]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[yt-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#industry/education'
-- '#method/research-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: "做课/做产品时，被一两个极端用户或高手带偏方向"
+- src_unknown
   lens: "广场优先"
   follow_up: "回到广场看比例：这人是 95% 的 before 还是 5% 的 after？是否属于边界内？"
-- signal: "团队因为一个反例就推翻或怀疑整个模型"
+- src_unknown
   lens: "反例管理"
   follow_up: "判定反例归属：在广场边界内→修正模型；在边界外→修正边界。"
-- signal: "课程声称服务所有人，却讲不清不服务谁"
+- src_unknown
   lens: "边界缺失"
   follow_up: "写出 3 条'服务谁'和 3 条'不服务谁'，画不出即未定义边界。"
-- signal: "建模从成功案例推导，未追问是否具有统计意义"
+- src_unknown
   lens: "统计建模"
   follow_up: "能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？"
-- signal: "面对大量失败案例不敢分类，担心有例外"
+- src_unknown
   lens: "模型自信"
   follow_up: "先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。"
 ---
@@ -78,10 +78,10 @@ diagnostic_signals:
 
 ## Background
 
-- **场景**：一堂内部教研团队对做课的理解不统一
-- **问题**：很多人基于单一个例做判断，团队心态不稳
-- **目标**：建立科学的、基于统计的做课理念
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2046-2144`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -90,9 +90,9 @@ diagnostic_signals:
 ### 提出模型
 
 Truman 给团队讲了一个故事：
-- 想象一个广场上有 1000 个同学
-- 95%（950 人）是基础薄弱、踩过坑、未经训练的 before 状态
-- 5%（50 人）是踩过坑、有经验、训练过的 after 状态
+- src_unknown
+- src_unknown
+- src_unknown
 
 一堂的工作：
 1. 圈定问题边界
@@ -102,16 +102,16 @@ Truman 给团队讲了一个故事：
 
 ### 核心规则
 
-- **对广场上所有人负责**
-- **模型有一个反例就说明模型不对**
-- **要么修正广场边界，要么修正模型**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 应用：案例大爆炸
 
 一堂初阶营敢让大家把商业失败全贴出来，是因为：
-- 只要不是天灾人祸、股权问题、离婚问题等边界外问题
-- 所有商业重大误判都在广场上
-- 一堂五步法已经覆盖了这些错误
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 结果
 
@@ -121,10 +121,10 @@ Truman 给团队讲了一个故事：
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说"我们不是为了三五个人做课，我们是要对广场上的所有人负责"。——来源：`src_20260614_8269ccdb#2076`。
-- **证据 2 [conf=0.85]**：广场上有 1000 人，95% before，5% after。——来源：`src_20260614_8269ccdb#2058-2066`。
-- **证据 3 [conf=0.85]**：模型有一个反例就说明不对，要么修正边界，要么修正模型。——来源：`src_20260614_8269ccdb#2094-2099`。
-- **证据 4 [conf=0.8]**：千人广场模型支撑了一堂做案例大爆炸的信心。——来源：`src_20260614_8269ccdb#2112-2144`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -167,9 +167,9 @@ Truman 给团队讲了一个故事：
 
 ### 不适用场景
 
-- **个人教练/咨询**：每个个案差异大，不适合用广场共性覆盖。
-- **0-1 创新探索**：没有 5% 的 after 样本，无法提炼共性。
-- **情绪化/非理性决策场景**：统计建模对非理性因素解释力有限。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -203,16 +203,16 @@ Truman 给团队讲了一个故事：
 
 ## 相关卡/互链
 
-- [[concept-thousand-people-square]] —— 千人广场模型的概念卡：模型结构、三原则、落地方法。
-- [[case-personal-map-modeling]] —— 同一课程中的个人地图建模案例，可对照"抽象建模"阶段。
-- [[yt-five-step-method]] —— 千人广场模型支撑的一堂五步法，是"案例大爆炸"背后的分类工具。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2046-2158`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:3.2.3`
+- src_unknown
+- src_unknown
 
 ---
 

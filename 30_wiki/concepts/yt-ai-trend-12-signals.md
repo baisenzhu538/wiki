@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "AI趋势"
-  - "人工智能变化"
-  - "AI创业机会"
-  - "12大变化模型"
-  - "AI预判"
-  - "AI商业机会"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -34,18 +34,18 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户用12信号找创业机会，但每个信号都觉得自己能抓住', 'framework_lens': '信号≠机会——趋势需要结合自身能力和窗口期', 'follow_up_question': '这12个信号中，哪些与你的核心能力和资源禀赋匹配？如果没有，你看到的只是热闹'}
   - {'signal': '用户只关注需求层变化，忽视解决方案和基础设施层', 'framework_lens': '层级误判——趋势机会往往来自下层突破', 'follow_up_question': '你关注的需求变化，背后依赖的模型能力、算力成本、数据基础设施是否已经成熟？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[yt-ai-startup-20-risky-hypotheses]]'
-  - '[[dk-signal-cluster-illusion]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# AI趋势12大变化模型
 

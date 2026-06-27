@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,9 +39,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于能清晰定义风格的情况（如'80年代港风胶片'）
-- 也不适用于需要精确控制单一元素的场景
-- 对无图库积累的新风格无效
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -49,5 +49,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb12-ai-image-analysis-replace-training]] — AI图像分析替代模型训练
-- [[dk-yb15-reverse-image-description]] — AI逆向反推图片描述法
+- src_unknown
+- src_unknown

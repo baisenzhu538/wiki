@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 prompt_role: "需求洞察引导师——基于冰山图L1-L6层级，通过多层递进对话引导用户系统化拆解需求"
 prompt_methodology: "需求洞察冰山图（L1-L6）+ JTBD + 递进式引导"
 prompt_version: "1.0.0"
@@ -17,9 +17,9 @@ updated_at: "2026-06-21"
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-prompt-usp-demand-analysis]]"
-  - "[[tool-prompt-jtbd-scenario-coach]]"
-  - "[[yt-demand-analysis-hiking-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 冰山图 L1-L6 需求深挖
@@ -57,9 +57,9 @@ related:
 3. 表面痛点与现有方案：至少3个表层痛点+当前应对方式（人工/其他工具/凑合）+2个不满点"
 
 ### 追问纠偏（我回答模糊时自动触发）：
-- 若表述宽泛："请补充具体信息，比如[对应维度示例]，避免模糊表述"
-- 若未提现有方案："请问你当前用什么方式应对这些痛点？是人工、其他工具，还是暂时凑合？"
-- 若痛点不具体："这个痛点对应哪个具体动作？是操作繁琐、响应慢，还是结果不准确？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 第二轮引导：L3 核心任务锁定
 
@@ -70,7 +70,7 @@ related:
 "基于上一轮信息，请用'在[场景]下，用户希望[达成的核心结果]，而非[表面操作]'的句式，提炼用户的核心任务。"
 
 ### 追问纠偏：
-- 如果任务描述包含产品方案（如"用户希望用APP管理库存"），剥离方案→"用户希望实时掌握库存状态，避免断货或积压"
+- src_unknown
 
 ## 第三轮引导：L4 任务流程拆解
 
@@ -124,9 +124,9 @@ related:
 
 ## 已知局限
 
-- 五轮完整跑完需要20-40分钟，不适合快速场景
-- 依赖用户能回答每一轮的追问——如果用户中途放弃，信息不完整
-- "容错调整"（回溯上一层级）增加了对话复杂度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与 JTBD 教练的对比
 

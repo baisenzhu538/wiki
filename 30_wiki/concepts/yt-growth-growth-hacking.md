@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-a-b-testing
-  - yt-growth-data-driven-decision
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们没有预算做增长'"
+  - src_unknown
     framework_lens: 增长黑客——低成本快速实验，不需要大预算
     follow_up_question: "你能用A/B测试验证假设吗？最小化实验成本，快速迭代。"
-  - signal: "用户说'我们增长慢，想加速'"
+  - src_unknown
     framework_lens: 增长黑客——增长黑客的核心是快速实验，找到增长杠杆
     follow_up_question: "你的增长假设是什么？能否设计一个最小化实验验证？"
-  - signal: "用户说'我们试了很多方法，都不知道哪个有效'"
+  - src_unknown
     framework_lens: 增长黑客——增长黑客需要数据驱动，每个实验都要可衡量
     follow_up_question: "你的实验有明确的指标吗？是否控制了变量？"
-  - signal: "用户说'增长黑客就是找漏洞'"
+  - src_unknown
     framework_lens: 增长黑客——增长黑客是系统方法，不是找漏洞
     follow_up_question: "你的增长实验是系统性的吗？还是随机尝试？"
-  - signal: "用户说'增长黑客只适合互联网公司'"
+  - src_unknown
     framework_lens: 增长黑客——增长黑客适用于任何需要增长的场景
     follow_up_question: "你的业务有增长假设吗？能否设计低成本实验验证？"
 
@@ -132,21 +132,21 @@ Plan（假设）→ Do（实验）→ Check（数据）→ Act（迭代）
 
 ## 行动触发器
 
-- 当增长停滞时 → 设计增长实验
-- 当预算有限时 → 最小化实验
-- 当不确定时 → A/B测试验证
-- 当优化时 → 数据驱动迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-a-b-testing`：A/B测试
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 增长黑客（Sean Ellis）
-- 精益创业（Eric Ries）
+- src_unknown
+- src_unknown
+- src_unknown

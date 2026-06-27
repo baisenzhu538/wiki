@@ -10,30 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲义/讲师案例
 source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略选择逻辑
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_wiki/cases/case-lean-genki-forest-toolkit.md
+- src_unknown
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[framework-lean-pivot-decision]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[lean-startup-domain-digest]]'
-  - "[[framework-strategy-lean-validation]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-tenx-formula]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-decision-y-model]]"
-  - "[[framework-strategy-brm]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 元气森林：战略定位与精益试错的跨域闭环
@@ -80,9 +80,9 @@ related:
 
 通过四阶段验证，元气森林在规模化生产前完成以下信号确认 [conf=0.80, source=case-lean-genki-forest-toolkit.md]：
 
-- 内部和种子用户试喝排除了明显失败的口味；
-- 便利店/无人柜试卖验证了真实交易场景下的动销；
-- 信息流/电商测试验证了卖点可扩展性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这对应 [[framework-lean-tenx-formula]] 的核心逻辑：在单点未跑通前不加杠杆，跑通后进入十倍速增长阶段 [conf=0.80, source=framework-lean-tenx-formula]。
 
@@ -108,9 +108,9 @@ related:
 
 ### 什么时候应该学这个案例
 
-- 你正在从战略方向进入具体产品/市场验证，但不知道如何把“战略选择”翻译成可执行的假设清单。
-- 团队内部存在“先All-in做品牌”和“先小步验证”的冲突，需要一套共同语言。
-- 你负责的新品上市流程过重，希望用渐进式、可回滚的实验降低系统性风险。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 
@@ -153,19 +153,19 @@ related:
 
 ## 不适用场景
 
-- **强监管行业**（药品、婴幼儿食品）：试喝/试卖可能受广告法、食药监规定约束 [conf=0.85, source=case-lean-genki-forest-toolkit.md]。
-- **品牌敏感型高客单价产品**：早期粗糙测试可能损伤品牌信任 [conf=0.80, source=case-lean-genki-forest-toolkit.md]。
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- 战略-精益桥接：[[framework-strategy-lean-validation]]
-- 低成本验证框架：[[framework-lean-false-model]]
-- 假设排序：[[framework-lean-abcd-model]]
-- 十倍速放大：[[framework-lean-tenx-formula]]
-- 六类典型浪费：[[framework-lean-six-wastes]]
-- 决策框架：[[yt-decision-y-model]]
-- 战略BRM：[[framework-strategy-brm]]
-- 域图：[[strategy-domain-digest]]、[[lean-startup-domain-digest]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

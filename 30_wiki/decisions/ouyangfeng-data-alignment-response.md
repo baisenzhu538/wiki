@@ -5,24 +5,24 @@ title: 欧阳锋对齐回应：6+1 框架理解 + 补充意见
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 黄药师（Builder）
-- 用户（决策者）
+- src_unknown
+- src_unknown
 supersedes: null
 related:
-  - '[[plan_20260531_data-curator-v1.3]]'
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[three-party-data-alignment]]'
-  - '[[kdo_product_design_agent_final]]'
-  - '[[kdo-protocol]]'
-  - '[[three-party-data-alignment]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -59,9 +59,9 @@ trust_level: low
 ### 补充 1：标注维度策略（最重要的一条）
 
 黄药师的三方对齐文档没有涉及标注维度。但用户刚才明确表态：
-- 100 个标签不多（朋友的实操结果）
-- AI 自动标注，卡级别
-- 不是手动填，不存在成本约束
+- src_unknown
+- src_unknown
+- src_unknown
 
 这个信息直接改变了「标注」这一步的设计前提。我之前在讨论中说"2-3 个够了"是错的——我当时是以"手动标注"为前提在算成本，前提错了结论自然也错。
 
@@ -82,9 +82,9 @@ D. KDO 的卡片类型跟他的知识库不一样怎么办？→ 核心维度通
 > 用户定方向 / 欧阳锋审标准 / 黄药师建管线
 
 大体对，但讨论阶段不需要分这么清。实际操作中：
-- 用户也会给具体的执行建议（如"100个标签不多"是执行层面的输入）
-- 我也会参与方向讨论（如我建议的暗知识 Phase 0 试点）
-- 黄药师也可以挑战审查标准
+- src_unknown
+- src_unknown
+- src_unknown
 
 **我建议**：执行时有主轴，讨论时不分家。分工写在文档里作为默认职责，但不是互相隔离的墙。
 
@@ -141,13 +141,13 @@ KDO 现状：从未做过。所有卡片入库前没被问过"以后 AI 怎么�
 
 ```
 显性扫描：现有 wiki 卡片的缺失
-  - 哪些域数据密度不够？哪些是假原子？
-  - 哪些卡只有骨架没内容？
+  - src_unknown
+  - src_unknown
 
 隐性扫描：被忽略的暗知识
-  - corrections/pitfalls/failure-modes → error_data
-  - decisions/context/审查意见 → process_data
-  - 口述稿中的工作流、工具用法、体悟 → insight/tool_usage
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ```
 
 KDO 现状：盲区。全靠人碰运气去翻，没有系统扫描。
@@ -282,8 +282,8 @@ KDO 现状：L1 和 L3 有，但 L3 因为数据质量不够（原子粗、缺�
 
 你说服我了。理由 2 和 4 最有力：
 
-- 理由 2：等样例的时间不可控，讨论不能因为"等一样东西"就全部停滞
-- 理由 4：如果我们在讨论 6+1 框架但却用"串行等完美方案"的节奏推进，那框架还没落地就先被自己违背了
+- src_unknown
+- src_unknown
 
 **条件**：pilot 3 张卡选**最容易被验证对错的**，不要选中等的。我建议选 `corrections.md` 中的 2 条纠偏 + 概念卡 `master-decision-hygiene.md` 中的 1 个 section。因为纠偏数据的 ROI 验证最直观——AI 用了纠偏后是否改了行为。概念卡用来验证"假原子→真原子"的区别是否真的能提升 query 质量。
 
@@ -308,16 +308,16 @@ KDO 现状：L1 和 L3 有，但 L3 因为数据质量不够（原子粗、缺�
 你是对的。我写"卡和块分开"是对的，但说"两者同等重要"是错的。
 
 Truman 课程的案例是最清晰的证明：
-- "中医怎么解释、西医怎么解释" → 同一条事实，块级别两个标签
-- "平台违禁词映射" → 每块在不同平台有不同的合规标签
-- "什么人喝、什么人不能喝" → 使用边界的受众标签
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些在卡级别做不到。domain、type、value_tier 这种卡属性只是"分类"，不是"标注"。
 
 **修正后的共识**：
-- 卡属性（5-8个）：domain、type、value_tier、source_person → 分类用
-- 块属性（主要维度池）：audience、perspective、platform、error_root、method → **多维标注发生在这里**
-- 100 个标签应该 80% 花在块上，20% 在卡上
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -326,9 +326,9 @@ Truman 课程的案例是最清晰的证明：
 你列了 3 个缺失，我逐条回答：
 
 **4a. 试点素材选择**——我推荐你的第一个候选：`corrections.md`。理由：
-- 结构最清晰（12 条现成纠偏，每条已有症状→根因→修正的三段结构）
-- 结果最容易被验证（AI 用了纠偏和没用纠偏的回答质量对比）
-- 不需要先处理口述稿（减少变量）
+- src_unknown
+- src_unknown
+- src_unknown
 
 纯从审查看：如果 corrections.md 的试点不能证明暗知识管线的价值，那更有挑战的素材（口述稿）就更不用试了。先做最容易出结果的，有了信心再追难的。
 
@@ -386,9 +386,9 @@ Truman 课程的案例是最清晰的证明：
 
 黄药师的流程图（用户→洪七公→黄药师→老顽童→欧阳锋）严格了。但实操中：
 
-- 老顽童写暗知识卡时，需要确认六字段格式是否和黄药师的 schema 一致
-- 黄药师设计 chunk 引擎时，需要理解老顽童产出的暗知识卡结构
-- 如果这些都通过我中转，一个格式对齐问题要绕三圈
+- src_unknown
+- src_unknown
+- src_unknown
 
 **建议**：
 ```
@@ -429,11 +429,11 @@ P3: 口述稿暗知识萃取（Truman/月白）
 ### 其余全部同意
 
 没有提到的点，如：
-- 老顽童的六字段模板 ✅ 合格标准（可复现）已对齐
-- 欧阳锋的 P0/P1/P2 退回规则 ✅ 已对齐
-- P1->P0 逾期升级规则 ✅ 同意
-- 用户决策层职责 ✅ 准确
-- AGENTS.md 禁止清单引用 ✅ 重要，必须守住
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 修改建议汇总
 
@@ -484,9 +484,9 @@ B+ → A 升级完成。详细报告：
 → `30_wiki/decisions/huangyaoshi-extractor-upgrade-report.md`
 
 摘要：
-- 4维加权评分 + 金句检测器 + operation留空标注 + 语义去重 + cross-ref匹配
-- 266→52 候选（噪声削减 81%），老顽童筛选时间省 75%
-- 月白口述稿01 产出已写入 `60_feedback/data-quality/dk-candidates/`
+- src_unknown
+- src_unknown
+- src_unknown
 
 三个问题等欧阳锋判断：
 1. 萃取器 A 版是否达到可交付标准？

@@ -11,45 +11,45 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_d4de25b7_wanghuan_医语轻记_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
-- healthcare
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 用户每天被大量重复性文字录入消耗下班时间
+- src_unknown
   lens: 高价值痛点场景
   follow_up: 观察目标用户真实工作流程，统计被消耗的时间占比
-- signal: 同类产品功能齐全但用户不用
+- src_unknown
   lens: 伪需求 / 脱离真实场景
   follow_up: 对比真实用户使用频率，检查是否从"用户想象"出发设计
-- signal: 原型上线第一天就有真实用户主动使用
+- src_unknown
   lens: 产品-市场匹配信号
   follow_up: 记录使用次数、节省时间，作为产品活下来的证据
-- signal: 用户来自你最熟或最有访问权限的行业
+- src_unknown
   lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
-  - '[[framework-wanghuan-five-criteria-first-product]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[concept-wanghuan-ai-native-definition]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 医语轻记
-- 医疗
-- 语音录入
-- 案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢案例：医语轻记用语音录入缩短病历时间
@@ -88,35 +88,35 @@ tags:
 ## 关键决策
 
 1. **从真实用户出发，不从想象出发**
-   - 不是做"医生可能需要的 AI 工具"，而是解决一个具体医生每天都在经历的具体痛苦。
+   - src_unknown
 2. **先做能跑的原型，不追求界面完美**
-   - 技术栈简单、界面粗糙，但核心功能（语音→结构化病历）能工作。
+   - src_unknown
 3. **用语音降低输入摩擦**
-   - 医生在问诊过程中自然说话，AI 实时解析，不需要额外打字。
+   - src_unknown
 4. **把行业知识变成约束和默认值**
-   - 医疗场景特有的字段、术语、结构被固化到输出中，减少医生后期整理成本。
+   - src_unknown场景特有的字段、术语、结构被固化到输出中，减少医生后期整理成本。
 
 ---
 
 ## 结果 / 数据
 
-- 上线第一天使用：11 份病历。
-- 节省时间：下班提前 1.5 小时。
-- 产品形态：无设计稿的原型。
-- 对比案例：AI 工具库功能更全、界面更好，但无真实用户使用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可迁移模式
 
 1. **真实痛点 > 功能齐全**
-   - 产品能否活下去，不取决于功能多少，而取决于是否解决真实用户的高频痛点。
+   - src_unknown
 2. **最小可用原型 > 精美界面**
-   - 在 0 到 1 阶段，核心功能跑通比视觉完美更重要。
+   - src_unknown
 3. **降低输入摩擦是 adoption 的关键**
-   - 语音、自动识别、结构化输出，让医生在现有 workflow 中几乎无感切换。
+   - src_unknown
 4. **行业知识是护城河**
-   - 把医疗领域的字段、流程、术语变成约束，让 AI 输出直接可用。
+   - src_unknown
 
 ---
 
@@ -147,23 +147,23 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 找到一个每天被重复性文字/记录工作消耗大量时间的真实用户。
-- [ ] 观察并记录用户当前 workflow，统计被消耗的时间占比。
-- [ ] 用 30 秒说清产品解决什么、为谁、在什么场景下。
-- [ ] 在 3 小时内做出核心功能能跑的最小原型，不追求界面。
-- [ ] 让真实用户在真实场景中试用，记录使用次数和节省时间。
-- [ ] 把行业特有的字段、术语、流程写成约束，注入到 AI 输出中。
-- [ ] 设定一周后复盘：用户还在用吗？解决了真正的痛点吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-five-criteria-first-product]]：医语轻记完美符合五条标准——真实痛点、高频、30 秒说清、下周还用、领域熟。
-- [[framework-wanghuan-task-product-system]]：医语轻记是从任务（手写病历）到产品（语音病历生成器）的跃迁案例。
-- [[concept-wanghuan-ai-native-definition]]：医语轻记把 AI 默认纳入医生病历 workflow，是 AI Native 的典型案例。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：医疗字段和流程可以作为 BTICOE 中的约束和输出标准。
-- [[tool-wanghuan-ai-business-profile]]：医生的业务档案（患者类型、常见病症、病历格式）是产品持续迭代的上下文资产。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -185,10 +185,10 @@ tags:
 **回应**：它说明的是"产品-痛点匹配"信号，不是大规模成功。王欢用这个案例强调的是：活下来比看起来完美更重要。从 1 个用户到 100 个用户是后续迭代问题，但没有第一个真实用户，后续无从谈起。
 
 **不要用**
-- 不要把它当成"医疗 AI 可以跳过合规"的依据。
-- 不要忽视医疗、法律等强监管领域的红线约束。
-- 不要只复制"语音录入"这个表面形式，而不还原背后的真实痛点验证方法。
-- 不要把"11 份病历、提前 1.5 小时"当成规模化后的必然结果。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

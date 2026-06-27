@@ -11,13 +11,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[case-strategy-failure-08-video]]'
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-02-supermarket]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-09-boeing]]'
-  - "[[tool-strategy-nine-problems]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **表面问题**：空调之外的新品类全部失败
 **战略根因**：路径错误——靠渠道优势推新品，但缺乏核心研发能力。渠道能卖空调，不代表能卖其他家电

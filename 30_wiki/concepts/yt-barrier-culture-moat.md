@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-talent-density
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的文化很好，但不知道怎么描述'"
+  - src_unknown
     framework_lens: 文化护城河——文化需要显性化，才能传承和复制
     follow_up_question: "你的文化是什么？能否用3个词描述？文化是否体现在日常行为中？"
-  - signal: "用户说'我们的文化被稀释了'"
+  - src_unknown
     framework_lens: 文化护城河——文化稀释是扩张的常见问题
     follow_up_question: "文化稀释发生在哪个环节？招聘、管理、还是沟通？如何强化？"
-  - signal: "用户说'竞品的文化和我们差不多'"
+  - src_unknown
     framework_lens: 文化护城河——文化需要独特性，不能泛泛
     follow_up_question: "你的文化和竞品的区别是什么？是否足够独特？"
-  - signal: "用户说'我们的文化只是挂在墙上的口号'"
+  - src_unknown
     framework_lens: 文化护城河——文化需要体现在行为中，不是口号
     follow_up_question: "你的文化是否体现在招聘、考核、决策中？还是只是口号？"
-  - signal: "用户说'我们的文化阻碍了创新'"
+  - src_unknown
     framework_lens: 文化护城河——文化需要平衡稳定和变革
     follow_up_question: "你的文化是否鼓励试错？是否容忍失败？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当文化稀释时 → 强化文化
-- 当文化僵化时 → 文化演化
-- 当文化口号化时 → 行为化
-- 当文化与战略脱节时 → 对齐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-talent-density`：人才密度
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 组织文化研究（Schein）
-- 企业文化实践
+- src_unknown
+- src_unknown
+- src_unknown

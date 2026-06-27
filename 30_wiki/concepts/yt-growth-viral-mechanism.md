@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-acquisition-channels
-  - yt-growth-referral-system
-  - yt-growth-engagement-loop
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们希望产品能自增长'"
+  - src_unknown
     framework_lens: 病毒传播——自增长需要设计病毒机制，不是自然发生
     follow_up_question: "你的产品有病毒传播机制吗？用户为什么愿意分享？分享的动力是什么？"
-  - signal: "用户说'我们做了分享功能，但没人用'"
+  - src_unknown
     framework_lens: 病毒传播——分享功能≠病毒传播，需要设计传播动机
     follow_up_question: "用户分享后能得到什么？分享的内容是否能让分享者显得更好？"
-  - signal: "用户说'我们的病毒系数大于1'"
+  - src_unknown
     framework_lens: 病毒传播——病毒系数K>1是理想状态，但需要验证
     follow_up_question: "你的病毒系数是怎么计算的？是否考虑了时间衰减？"
-  - signal: "用户说'病毒传播就是裂变'"
+  - src_unknown
     framework_lens: 病毒传播——裂变是病毒传播的一种，不是全部
     follow_up_question: "你的病毒传播是产品内生的（如微信红包）还是外部激励的（如裂变海报）？"
-  - signal: "用户说'我们靠病毒传播获客，成本为0'"
+  - src_unknown
     framework_lens: 病毒传播——病毒传播有隐性成本，不是真的0成本
     follow_up_question: "病毒传播的产品开发成本、运营成本、用户激励成本是多少？"
 
@@ -129,21 +129,21 @@ K < 1：衰减
 
 ## 行动触发器
 
-- 当希望自增长时 → 设计病毒传播机制
-- 当分享功能没人用时 → 优化传播动机
-- 当K因子下降时 → 分析衰减因素
-- 当获客成本高时 → 考虑病毒传播
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-acquisition-channels`：获客渠道
-- `yt-growth-referral-system`：推荐系统
-- `yt-growth-engagement-loop`：参与循环
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 病毒传播研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -40,8 +40,8 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用单张图逆向工程、已有明确可描述需求、需要像素级复刻（仍需训练）
-- 易混淆：不是让AI"描述每张图"，而是"提取跨图的共性模式"
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -49,5 +49,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb11-visual-book-reverse]] — 不训练模型锁定风格的逆向视觉书法
-- [[dk-yb13-zero-shot-style-transfer]] — 零训练风格迁移：三要素描述法
+- src_unknown
+- src_unknown

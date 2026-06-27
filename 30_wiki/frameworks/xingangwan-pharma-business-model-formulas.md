@@ -6,10 +6,10 @@ title: 鑫港湾医药零售商业模式计算框架与业务公式
 type: framework
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - business-strategy
-  - finance
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown
@@ -17,27 +17,27 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[case-five-step-growth-first-lever]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-19'
 diagnostic_signals:
-- 单柜核心假设（硬件成本、场地租金、转化率）尚未经实地调研验证
-- 山西本地医保政策与互联网医院审方收费标准未最终对齐
+- src_unknown
+- src_unknown
 tags:
-- 鑫港湾
-- 商业模型
-- 财务测算
-- 单元经济
-- 业务公式
-- 智慧药柜
-- 医药零售
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -65,11 +65,11 @@ tags:
 5. **医保影响**：门诊统筹报销显著降低患者自付，需根据机构类别起付线与报销比例调整转化模型。
 
 ## 边界
-- 适用于医药零售、智慧药柜、O2O 医药电商、互联网医院导流等场景。
-- 以月度为测算周期，假设经营参数在短期内相对稳定。
-- 不包含药品研发、生产、批发上游利润模型。
-- 不包含非医药品类（如商超快消）的通用零售测算。
-- 医保政策以山西/目标城市现行门诊统筹规则为参考，跨地区需重新校准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -83,20 +83,20 @@ tags:
 | 小程序私域运营失效 | 会员活跃度低、ARPU 下降 | 高毛利渠道贡献不足 | 建立慢病管理会员体系、定期随访与用药提醒 |
 
 ## 行动 Checklist
-- [ ] 确认目标城市门诊统筹起付线、报销比例、乙类先行自付比例
-- [ ] 调研目标诊所日均门诊量、慢病患者占比、转化率
-- [ ] 获取单柜硬件投资、场地租金、审方费、平台费实际报价
-- [ ] 梳理首批入柜品种结构与对应毛利率
-- [ ] 测算单柜盈亏平衡日订单与 18 个月回本所需月活跃客户数
-- [ ] 测算单店综合收入结构（门店/药柜/小程序/O2O/B 端）与月净利润
-- [ ] 评估区域复制所需的总部/区域运营成本与盈亏平衡柜数
-- [ ] 评估 B 端公共卫生项目、企业健康管理、商保合作的可行性
-- [ ] 用 CSV 模板填入实际数据，验证模型输出
-- [ ] 设定 KPI Dashboard 并建立月度复盘机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
-- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-- [[shanxi-field-research-checklist-20260701]]
+- src_unknown
+- src_unknown
 
 ## 一、模型总览：四层商业计算框架
 
@@ -431,10 +431,10 @@ $$PB_{CAC} = \frac{CAC}{\bar{P} \times \bar{g}}$$
 $$\frac{LTV}{CAC} \geq 3 \text{（健康业务基准）}$$
 
 若 LTV/CAC < 3，需：
-- 提高客单价或毛利率
-- 提高留存率
-- 降低 CAC
-- 缩短 CAC 回收周期
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -449,9 +449,9 @@ Deductible + (P - Deductible) \times (1 - r) & \text{if } P > Deductible
 \end{cases}$$
 
 其中：
-- $P$ = 药品总费用
-- $Deductible$ = 起付线
-- $r$ = 报销比例
+- src_unknown
+- src_unknown
+- src_unknown
 
 **统筹基金支付金额**：
 $$Reimbursement = P - OOP$$

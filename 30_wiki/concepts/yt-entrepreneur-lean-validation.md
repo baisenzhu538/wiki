@@ -6,45 +6,45 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-- 低成本验证
-- MVP
-- 精益创业
-- 最小可行产品
-- 创业假设验证
-- 精益实验设计
-- pivot决策
-- 创业实验矩阵
-- 数据驱动决策
-- 关键假设测试
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-lean-essence]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[framework-lean-false-model]]'
-  - '[[framework-lean-four-principles]]'
-  - '[[framework-lean-systematic-test-curve]]'
-  - '[[framework-lean-six-wastes]]'
-  - '[[tool-lean-fake-marketing]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-presell]]'
-  - '[[case-lean-electric-scooter-mvp]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs: []
@@ -60,21 +60,21 @@ yitang:
   course_type: method
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户把MVP做成完整产品
+- src_unknown
   framework_lens: 混淆MVP与产品
   follow_up_question: 你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？
-- signal: 用户验证了一个点但没有继续迭代
+- src_unknown
   framework_lens: MVP没有闭环
   follow_up_question: 验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义
-- signal: 用户用免费或补贴获取早期用户，却把转化率当产品价值证据
+- src_unknown
   framework_lens: 补贴扭曲验证信号
   follow_up_question: 如果去掉首单免费/大额补贴，今天表现出正向行为的用户还会重复同样行为吗？实验通过标准是否包含“自然付费”对照组？
-- signal: 用户把“有多少人愿意用”等同于“需求被验证”
+- src_unknown
   framework_lens: 混淆兴趣信号与付费/留存信号
   follow_up_question: 你测的是态度还是行为？如果明天开始收费或取消人工服务，愿意用的人里有多少会留下？
-- signal: 团队把"方向不确定"描述为风险而不是学习速度
+- src_unknown
   framework_lens: 不确定性 = 学习速度；精益验证四步循环
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
 updated_at: '2026-06-17'
@@ -111,9 +111,9 @@ author: 老顽童
 
 ### 关键概念
 
-- 本课程属于一堂「起盘阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -133,7 +133,7 @@ author: 老顽童
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -232,20 +232,20 @@ author: 老顽童
 
 ## Related Cards
 
-- **[[case-一堂-无人餐厅-hypothesis-failure]]** — 本案例是MVP思维的反面教材：团队在投入数千万之前，完全可以用更小的实验验证关键假设。
-- **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]** — 本案例是MVP思维的正面典范：用"开一家店"这个最小行为实验，验证了核心假设，成本仅为规模化的1%。
-- **[[tool-泛产品落地-低成本测试MVP]]** — 泛产品视角的 MVP 武器库，与本卡共享"低成本验证"核心逻辑。
-- **[[yt-entrepreneur-key-hypotheses]]** — 一堂 259 工具：识别关键假设是精益验证四步循环的第一步。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 单卡收尾检查清单
 
-- [x] `status`: `enriched`
-- [x] `reviewed_by`: 已指定（黄药师）
-- [x] `updated_at`: `2026-06-16`
-- [x] `diagnostic_signals`: 5 条，含 Signal → Lens → Follow-up
-- [x] `Constraints & Boundaries`: 6 条适用边界 + 5 条失败模式
-- [x] 新增模板/checklist: 精益验证四步循环落地检查清单（8 项）
-- [x] 新增互链: `yt-panproduct-execution-low-cost-mvp`、`yt-entrepreneur-key-hypotheses`（双向）
-- [x] 共同模式已显式写入: `不确定性 = 学习速度` + 精益验证四步循环
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

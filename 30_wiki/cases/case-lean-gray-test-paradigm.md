@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 张磊/一堂讲师
 source_context: 一堂低成本验证·系统测试曲线课程案例
 source_refs:
@@ -20,17 +20,17 @@ source_refs:
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
 related:
-  - '[[framework-lean-systematic-test-curve]]'
-  - '[[case-lean-zhanglei-failure-counterfactual]]'
-  - '[[case-lean-shampoo-selling-points]]'
-  - '[[case-lean-combination-test-paradigm]]'
-  - '[[case-lean-crayfish-combo-test]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 灰度测试范式实操案例
@@ -63,12 +63,12 @@ related:
 
 ## 关键数字
 
-- 二手投币机数量：8 台 [conf=0.65, source=一堂-低成本测试-系统测试-口述.txt §1076]
-- 五一假期当天销售额：约 800 元 [conf=0.65, source=一堂-低成本测试-系统测试-口述.txt §1080]
-- 临时场地后续日均销售额：约 200-300 元 [conf=0.60, source=一堂-低成本测试-系统测试-口述.txt §1082]
-- 正式商场免租期测试日均收入：约 300-400 元 [conf=0.60, source=一堂-低成本测试-系统测试-口述.txt §1100]
-- 常规路径一次性投入预估：数十万至上百万元 [conf=0.55, source=教学推演]
-- 灰度节点 1 成本：数千元级 [conf=0.55, source=教学推演]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 方法论映射
 
@@ -86,9 +86,9 @@ related:
 
 ### 与 ABCD 模型的对应
 
-- **A 商业成败**：扭蛋机业务在商场场景是否成立；
-- **B 关键决策**：每个节点是否继续、是否加码、是否终止；
-- 团队先把 A 象限的宏观成败问题，拆成节点 1/2/3 的 B 象限决策，用低成本实验逐个回答。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 成功原因
 
@@ -98,10 +98,10 @@ related:
 
 ## 可迁移场景
 
-- **硬件/消费品 MVP**：在决定是否批量生产前，先用现成供应链或小批量渠道验证需求；
-- **线下门店/点位模型**：先用快闪、临时摊位、免租期测试点位和动线，再决定是否装修/长租；
-- **课程/内容产品**：先内部试讲、小范围测试，再进入正式录制和规模化上架；
-- **新功能/新产品线**：在完整开发前，先用人工、现成工具或最小版本跑通核心链路。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

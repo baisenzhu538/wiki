@@ -2,7 +2,7 @@
 title: KDO Protocol Priority Checklist
 type: improvement-plan
 domain:
-- kdo
+- src_unknown
 status: draft
 id: kdo-priority-checklist
 created_at: '2026-05-03'
@@ -81,8 +81,8 @@ confidence: 0.6
 
 ## 验收标准（全部完成后）
 
-- [ ] 任意 AI Agent 进入仓库，读 `CONTEXT.md` + `PROTOCOL.md` 两页即可开始操作
-- [ ] 所有 `30_wiki/` 页面通过对应 Schema 校验，0 orphan，0 missing source
-- [ ] `kdo lint` 能自动发现 frontmatter 错误和孤立页面
-- [ ] AI 能回答"和 X 概念相关的所有知识"而不用逐页搜索（Graph RAG）
-- [ ] 新设备加入时，按同步协议文档操作即可零冲突接入
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -16,35 +16,35 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
-  - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 'Skill 运行后总是给出"看起来完整"的回答，但从未说"这个请求超出我的边界"'
+- src_unknown
   lens: 边界感缺失——模型被训练成满足用户，而不是在不确定时拒绝
   follow_up_question: '你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？'
-- signal: 在高风险场景（医疗、金融、法律、保险）中，AI 直接给出建议而没有要求补充信息
+- src_unknown
   lens: '低容错场景中的"错误行动"比"不行动"更危险'
   follow_up_question: '如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？'
-- signal: '团队讨论 AI 输出时只争论"怎么改得更好"，没人问"这个任务该不该由 AI 做"'
+- src_unknown
   lens: '生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"'
   follow_up_question: 过去一周，你的团队有多少次主动终止或回退了一个 AI 任务，因为判断它不适合做？
-- signal: '把"拒绝用户"等同于"糟糕体验"，导致 Skill 什么请求都接'
+- src_unknown
   lens: '过度顺从——把用户满意度凌驾于结果正确性之上'
   follow_up_question: '你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 暗知识：Skill 的最大价值不是生成，是拒绝
 
 ## 用一句话讲清楚
@@ -92,25 +92,25 @@ Skill 的最大价值不是让 AI 多生成内容，而是在输入、资源、�
 
 ## 行动 Checklist
 
-- [ ] 为你的 Skill 定义至少 3 个明确的拒绝触发条件（场景/资源/时机/证据/风险/合规）
-- [ ] 每个拒绝条件都配套一个标准拒绝话术，说明"为什么拒绝"和"下一步该做什么"
-- [ ] 在 Skill 的 system prompt 中显式写入："如果你发现以下情况，必须拒绝并说明原因"
-- [ ] 准备 3-5 个边界测试用例，验证 Skill 在边缘输入下是否会错误地"硬做"
-- [ ] 建立"拒绝日志"：记录 Skill 拒绝了多少次、因为什么拒绝、用户后续如何补充信息
-- [ ] 在团队规范中明确："能不能做"优先于"做不做得好"
-- [ ] 每季度复盘一次：Skill 是否因为过度拒绝而漏掉了高价值任务，或因为拒绝不足而产生过错误输出
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[concept-半肥猫-ai-learning-toolification-methodology]] —— 课程 Skill 化的整体方法论，"拒绝"是其中 Critique 环节的核心能力
-- [[case-ban-fei-mao-skill-ab-test]] —— 半肥猫 A/B 测试的原始案例，包含用 Skill 与不用 Skill 的详细对比数据
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 人和 AI 协作的五层方法论，可与 Skill 边界设计互补
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 半肥猫，AI俱乐部·AI学习落地分享
+- src_unknown
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用本暗知识后有任何反馈，提交到这里
+- src_unknown

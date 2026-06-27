@@ -10,26 +10,26 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-minimum-test-volume]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-four-principles]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 只发布最小版本
@@ -42,21 +42,21 @@ related:
 
 ## Purpose
 
-- 在重投入前，先确认“产品内核”是否成立，而不是把完整功能、完整门店、完整课程一次性做出来再验证。
-- 把“交付完整性”和“价值验证”解耦：用最小、最便宜的形态获取可证伪的反馈。
-- 支撑 FALSE/FLESAI 模型中 E（Essential/最小版本）阶段的落地。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
 ### 第一步：拆出当前最高风险假设
 
-- 不要问“完整产品应该长什么样”，而是问“如果不成立就会让项目死掉的最小断言是什么”。
-- 常见高风险断言：用户愿意为某类新菜品付费；目标用户能在一节课里获得可感知的价值；玩家认可某类核心玩法。
+- src_unknown
+- src_unknown
 
 ### 第二步：把断言翻译为最小可交付单元
 
-- 最小单元的判定标准：去掉它，验证就无法进行；保留它，其他都可以暂时没有。
-- 示例对照：
+- src_unknown
+- src_unknown
 
 | 完整形态 | 最小版本替代 | 验证假设 |
 |:---|:---|:---|
@@ -70,18 +70,18 @@ related:
 
 ### 第三步：设定“通过 / 不通过”标准
 
-- 在发布前就明确：多少人注册、多少转化率、多少复购/回访、多少 NPS 算验证通过。
-- 没有标准的“看看反馈”容易被正向噪音带偏。
+- src_unknown
+- src_unknown
 
 ### 第四步：发布后快速收集行为数据
 
-- 优先看行为（是否付费、是否完成、是否复访），而非口头好评。
-- 用访谈补齐“为什么”：找 3-5 个真实用户深挖使用场景和卡点。
+- src_unknown
+- src_unknown
 
 ### 第五步：决定升级、转向或止损
 
-- 通过：进入下一级更大范围的 MVP 或正式开发。
-- 不通过：回到假设拆解，判断是需求不存在、方案不对，还是最小单元本身失真。
+- src_unknown
+- src_unknown
 
 ## 成本 / 周期 / 样本量
 
@@ -98,23 +98,23 @@ related:
 
 ### 最适合
 
-- 互联网/SaaS/消费品/内容/餐饮/本地生活等早期需求不确定性高的产品。
-- 功能、内容、门店形态可以被解耦，存在“先做一部分”的空间。
-- 团队能承受“粗糙但可用”的版本面对真实用户。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整
 
-- **强监管行业**（医疗、金融、教培、博彩）：不能发布“看起来像正式产品”的最小版本，可能触碰广告法、预售监管或医疗器械法规 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**（奢侈品、高端 B2B 服务）：粗糙 MVP 可能永久损伤信任，最小版本需要在“够用”和“体面”之间折中 [conf=0.80, source=任务指令 L8 边界案例]。
-- **长周期硬件/医疗器械**：物理样机、认证周期无法压缩到“几天”，需要改用里程碑测试和灰度样机 [conf=0.85, source=case-lean-medical-device-milestone 思路]。
-- **B2B 长决策链**：单个最小版本难以覆盖采购委员会多角色，需配合访谈、预售、灰度试点组合验证 [conf=0.75, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- 当“最小版本”会被用户误认为是正式产品，且一旦出错会带来合规或品牌不可逆损伤时。
-- 当团队还没拆出清晰的关键假设，只是用“最小版本”掩盖方向模糊。
-- 当产品形态无法解耦（例如某些一次性交付的工程项目），不存在“迭代升级”空间时。
-- 当市场窗口极短、竞争者 already 全量投入，慢速迭代可能直接出局时——此时需权衡“验证”与“抢占”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -128,10 +128,10 @@ related:
 
 ## Critique
 
-- 本工具本质上是对 **Eric Ries**“最小可行产品（MVP）”概念的操作化落地 [conf=0.90, source=Eric Ries《精益创业》]，一堂的贡献在于把“最小版本”细化为跨行业的 11 个具体场景 [conf=0.85, source=一堂DOC-20260622212406_ocr_text.md]。
-- 风险：过度强调“快”可能导致团队忽略合规、品牌和质量底线。
-- 风险：把“最小版本”教条化，可能让团队在不该验证的时候继续验证（例如市场窗口已过）。
-- 建议始终与 [[framework-lean-false-model]]、[[framework-lean-abcd-model]] 配合使用，先判断阶段和假设优先级，再决定最小版本的范围。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -139,15 +139,15 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，C 版方案用“买 20 台普通滑板车 + 地铁口摆摊 + 海报人工租赁”替代了自研滑板车和完整 APP，2 周、约 2 万元验证用户对共享电动滑板出行的接受度 [conf=0.70, source=transcript_低成本验证实操1_剥离假设篇.md]。
 
-- 对应本工具：把“正式运营”降级为“快闪店/摆摊”的最小版本。
-- 关键启示：最小版本不是完整产品的缩水版，而是把最高风险假设单独拉出来验证。
+- src_unknown
+- src_unknown
 
 ### 反例：过早细化的连锁餐厅
 
 在 [[framework-lean-six-wastes]] 覆盖的“过早细化”案例中，部分创业者在验证菜单和选址前就先装修门店、设计 VI、搭建会员系统，最终发现用户需求与假设不符时，沉没成本已经很高 [conf=0.70, source=讲师案例]。
 
-- 对应本工具失败模式：没有先用“品鉴会/试吃/快闪店”验证菜品和客群，直接把最小版本的范围扩大到不可回退。
-- 关键启示：最小版本的“最小”是指**验证范围的最小**，不是团队投入精力的最小。
+- src_unknown
+- src_unknown
 
 ---
 

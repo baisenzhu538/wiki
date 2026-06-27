@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,30 +21,30 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.9
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[tool-iterative-recursive-deep-dig]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-level-map]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[case-yitang-radar-chart-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/radar-chart'
-- '#method/evaluation-method'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: 维度选择偏差
+  - src_unknown
     framework_lens: 建模 / 维度设计
     follow_up_question: 当前雷达图的维度是否经过团队共识，还是隐含了某个人的偏好或遗漏了关键反例维度？
-  - signal: 评分主观性
+  - src_unknown
     framework_lens: 决策框架 / 评分标准
     follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
-  - signal: 不可比项目被硬比较
+  - src_unknown
     framework_lens: 抽象建模 / 边界判断
     follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
 ---
@@ -72,19 +72,19 @@ diagnostic_signals:
 
 出现以下信号时，适合使用雷达图建模法：
 
-- 团队对"哪个更好"争论不休，但论据都是形容词。
-- 某个候选对象在某一方面明显短板，却无法被量化说明。
-- 决策严重依赖个人印象，团队缺乏对"什么是好"的共同语言。
-- 需要在多个方案、人选或项目中快速排序或筛选。
-- 历史决策反复后悔"当时没考虑到 X 维度"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Claims
 
-- **C1 [conf=0.9]**: 雷达图适用于需要从多个维度评估、筛选或排序的复杂决策场景。——依据：`src_20260614_8269ccdb#1282-1396`。
-- **C2 [conf=0.85]**: 一堂内部维护了至少二三十个各个环节的雷达图，作为团队工作公式。——依据：`src_20260614_8269ccdb#1390-1396`。
-- **C3 [conf=0.85]**: 好的雷达图维度必须定义清晰、彼此独立、覆盖关键判断。——依据：`src_20260614_8269ccdb#1947-1975`。
-- **C4 [conf=0.8]**: 雷达图是进阶模型中相对最简单的一种，不需要严格的逻辑链，主要解决"主要矛盾/优先级"问题。——依据：`src_20260614_8269ccdb#1416-1423`。
-- **C5 [conf=0.75]**: 雷达图会随业务错误不断打补丁，例如一堂投放视频的"宽而不泛"角、落地之夜的"长期可做"角。——依据：`src_20260614_8269ccdb#1362-1385`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Purpose
 
@@ -103,15 +103,15 @@ diagnostic_signals:
 ### 步骤 3：压缩到 4–6 个核心维度
 
 维度太多人脑处理不了。强制压缩到 4–6 个，且每个维度必须：
-- **可定义**：一句话能说清楚这个维度是什么意思
-- **可观察**：能从事实/数据中判断高低
-- **独立**：与其他维度不高度重合
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：定义每个维度的评分标准
 
 避免"感觉打 7 分"。每个维度给出 1–10 分的具体标准。例如：
-- 专业度 8 分 = 有 5 年以上一线实战经验 + 有 before/after 案例
-- 专业度 5 分 = 有理论知识但缺乏一线案例
+- src_unknown
+- src_unknown
 
 ### 步骤 5：打分并可视化
 
@@ -120,9 +120,9 @@ diagnostic_signals:
 ### 步骤 6：决策规则
 
 提前约定决策规则，避免看图后仍然拍脑袋：
-- 综合得分最高者入选？
-- 有任何一项低于 6 分直接淘汰？
-- 某几个维度权重更高？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
@@ -158,24 +158,24 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确评估目标：选什么、为什么选
-- [ ] 列出所有可能维度
-- [ ] 压缩到 4–6 个核心维度
-- [ ] 为每个维度写 1–10 分评分标准
-- [ ] 收集事实/数据，避免印象打分
-- [ ] 为每个候选对象打分
-- [ ] 用不同颜色画雷达图
-- [ ] 提前约定决策规则（总分/淘汰线/加权）
-- [ ] 用反例验证维度是否遗漏
-- [ ] 记录决策依据，便于复盘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[modeling-weapon-library]] —— 雷达图在进阶模型中的定位
-- [[modeling-three-stages]] —— 抽象建模阶段的代表工具
-- [[modeling-level-map]] —— L4 全面段位要求熟练使用雷达图
-- [[dk-modeling-counterexample-driven]] —— 用反例验证雷达图维度是否完备
-- [[case-yitang-radar-chart-selection]] —— 一堂用雷达图做选题/讲师筛选的实战案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -187,9 +187,9 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
-- `src_20260614_8269ccdb#1282-1396`
-- `src_20260614_42f1e977#58-66`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

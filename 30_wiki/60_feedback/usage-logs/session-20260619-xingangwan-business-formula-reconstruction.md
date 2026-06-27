@@ -5,40 +5,40 @@ title: 对话记录：鑫港湾业务公式与商业模型计算拆分重构（2
 type: report
 status: draft
 domain:
-- healthcare
-- pharmaceutical-retail
-- business-strategy
-- product
-- unit-economics
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: Kimi Code CLI
 confidence: 0.84
 trust_level: medium
 related:
-  - '[[case-cross-xingangwan-pharma]]'
-  - '[[contradictions]]'
-  - '[[鑫港湾]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[parking-lot]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[yt-unit-model-construction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
-- "30_wiki/frameworks/xingangwan-pharma-business-formulas.md"
-- "30_wiki/frameworks/xingangwan-pharma-business-model-calc.md"
-- "30_wiki/projects/xingangwan-business-model-calc-template.csv"
-- "30_wiki/projects/parking-lot.md"
-- "30_wiki/decisions/xingangwan-pharma-mall-cabinet-internet-hospital-model.md"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- 鑫港湾
-- 对话记录
-- 业务公式
-- 商业模型
-- 原研药
-- 复盘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 对话记录：鑫港湾业务公式与商业模型计算拆分重构
@@ -60,19 +60,19 @@ tags:
 
 在本次对话之前，系统已产出以下鑫港湾相关文档：
 
-- `30_wiki/decisions/xingangwan-pharma-mall-cabinet-internet-hospital-model.md`：山西首发决策卡
-- `30_wiki/frameworks/xingangwan-pharma-business-model-formulas.md`：原“商业模型计算框架与业务公式”（财务公式 + 少量漏斗内容混合）
-- `30_wiki/projects/xingangwan-business-model-calc-template.csv`：配套财务计算模板
-- `30_wiki/projects/parking-lot.md`：任务停车场清单
-- `30_wiki/projects/shanxi-field-research-checklist-20260701.md`：山西 7 月 1 日调研清单
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 用户此前明确过商业模式：
-- 首发山西，互联网医院合作方为桃子健康/银叶健康
-- 药店已有药品经营许可证和药品信息服务资格证
-- 药柜放在诊所，经营主体是药店，诊所仅出租场地
-- 目标病种为慢性病
-- 单柜硬件成本 1.5 万元，希望 18 个月回本
-- 政府公共卫生项目在谈
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -97,21 +97,21 @@ tags:
 读取并参考了以下知识库卡片：
 
 1. **`tool-funnel-formula-modeling`（漏斗图/公式建模法）**
-   - 核心方法论：把业务流程拆成阶段看流失（漏斗图），把结果拆成可干预的关键变量（公式）。
-   - 阶段数通常 4–7 个。
-   - 公式变量控制在 3–5 个可干预变量。
-   - 重点关注阶段间最大跌落点和杠杆变量。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **`yt-unit-model-construction`（单元模型构建法）**
-   - 核心方法论：拆推评算（拆收入成本项、推公式关系、评数据质量、算验证）。
-   - ABCD 模型分类：根据业务确定性选择建模深度。
+   - src_unknown
+   - src_unknown
 
 3. **`yt-unit-model-dynamic`（动态单元模型）**
-   - 规模变量/业务变量/环境变量三维分析。
-   - 拐点识别与规模经济对抗。
+   - src_unknown
+   - src_unknown
 
 4. **`yt-unit-model-benchmark`（单元模型基准值）**
-   - 科学类比、三点预测、基准值共建。
+   - src_unknown
 
 ### 3.2 拆分并重构文档
 
@@ -127,19 +127,19 @@ tags:
 ### 3.3 更新 CSV 模板
 
 `30_wiki/projects/xingangwan-business-model-calc-template.csv` 更新内容：
-- 增加医保药/原研药收入参数拆分。
-- 增加业务公式转化率参数（触达率、建档率、首单转化率、自费升级率等）。
-- 修正单店/区域计算，避免药柜销售额拆分后的重复/遗漏。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3.4 更新引用关系
 
-- `30_wiki/projects/parking-lot.md`：更新 PL-011，增加对新文档的引用。
-- `30_wiki/decisions/xingangwan-pharma-mall-cabinet-internet-hospital-model.md`：在 related 中增加两个新文档链接。
+- src_unknown
+- src_unknown
 
 ### 3.5 质量门检查
 
-- `python 90_control/scripts/kcard-quality-gate.py`：1203 张卡全部 clean，0 p0/p1/yaml_error。
-- `python 90_control/scripts/kdo_lint.py` 针对本次修改文件：0 错误。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,9 +147,9 @@ tags:
 
 ### 4.1 商业模式定位
 
-- **医保药**：流量入口（低毛利、高频、政策驱动）
-- **自费原研药/高毛利药**：利润引擎（高毛利、患者自主选择）
-- **价值主张**：给患者一个“效果更好”的选择，而非强行替代
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4.2 六阶段转化漏斗
 
@@ -220,17 +220,17 @@ tags:
 ### 5.1 当前假设下的单柜盈利性
 
 输入假设：
-- 硬件投资 15,000 元
-- 目标回本周期 18 个月
-- 月固定成本 2,583 元
-- 医保药日均 1.5 单、客单价 120 元、毛利率 15%
-- 原研药日均 0.5 单、客单价 300 元、毛利率 50%、复购 0.8 次
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown日均 0.5 单、客单价 300 元、毛利率 50%、复购 0.8 次
 
 计算结果：
-- 月总销售额：9,000 元
-- 月销售毛利：2,610 元
-- 月变动成本：414 元
-- **月净利润：-387 元（尚未盈利）**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5.2 18 个月回本所需条件
 
@@ -251,11 +251,11 @@ $$D_o \approx 0.867 \text{ 单/天}$$
 **即原研药日均订单需要从 0.5 单提升到约 0.87 单/天，提升约 73%。**
 
 达成回本时的其他指标：
-- 总日均订单：2.37 单/天
-- 月总销售额：11,644 元
-- 月总毛利：3,932 元
-- 综合毛利率：33.8%
-- 原研药毛利贡献占比：约 79%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown毛利贡献占比：约 79%
 
 ### 5.3 替代回本路径
 
@@ -272,9 +272,9 @@ $$D_o \approx 0.867 \text{ 单/天}$$
 
 ### 6.1 关于“商业模式”与“业务公式”的区分
 
-- **业务公式**：回答“客户怎么一步一步变成利润”，工具是转化漏斗和杠杆变量。
-- **商业模型计算**：回答“利润到底有多少、多久回本”，工具是收入成本公式和财务测算。
-- 两者互补，但不能混用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 6.2 关于注意力分散的反思
 
@@ -284,9 +284,9 @@ $$D_o \approx 0.867 \text{ 单/天}$$
 
 ### 6.3 关于原研药模式的核心认知
 
-- 医保药不是利润来源，而是患者入口和信任建立工具。
-- 真正的利润来自自费原研药/高毛利药的患者自主选择。
-- “提供选择”比“强行替代”更符合鑫港湾的价值主张。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

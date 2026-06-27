@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-规模对抗实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-规模对抗实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-规模对抗实操难点.md
 related:
-  - '[[dk-单元模型-找基准值实操难点]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[dk-单元模型-找单元模型实操难点]]'
-  - '[[dk-单元模型-找全成本实操难点]]'
-  - '[[case-unit-model-gashapon]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[framework-单元模型-外部对抗地图]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 规模对抗实操难点
@@ -37,10 +37,10 @@ related:
 
 ## 使用场景
 
-- 业务从单点验证进入区域/全国复制前；
-- 发现规模扩大后利润率下降、效率降低时；
-- 需要判断某个不利要素是否会成为规模天花板时；
-- 设计了标准化/IT 化/组织升级策略但落地困难时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -59,9 +59,9 @@ related:
 
 ## 适用边界
 
-- 不适合尚未验证单元模型的业务：单元没跑通就谈规模对抗，属于过早优化。
-- 不适合高度依赖个人品牌的服务业：规模天然受限，对抗策略空间有限。
-- 不适合一次性机会窗口：短期套利无需体系化规模对抗。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -69,9 +69,9 @@ related:
 
 ## 与其他知识的关联
 
-- **[[tool-单元模型-壁垒预判]]**：规模对抗需要先识别企业在品牌、网络效应、规模效应、成本优势等维度的壁垒强弱。
-- **[[framework-单元模型-外部对抗地图]]**：外部对抗地图帮助识别规模扩张中的外部变化优先级。
-- **[[dk-单元模型-找单元模型实操难点]]**：单元模型随业务阶段动态调整，是规模对抗的前置步骤。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

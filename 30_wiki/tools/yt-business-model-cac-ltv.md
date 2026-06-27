@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-unit-economics
-  - yt-business-model-definition
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的CAC很低'，但计算不完整"
+  - src_unknown
     framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
     follow_up_question: "你的CAC是否包含了所有营销费用？包括人力、内容、活动等？"
-  - signal: "用户LTV计算只算收入，不算成本"
+  - src_unknown
     framework_lens: CAC与LTV计算——LTV需要扣除直接成本
     follow_up_question: "你的LTV计算是否扣除了服务成本、支持成本等直接成本？"
-  - signal: "用户说'我们的LTV/CAC=5'，但回本周期2年"
+  - src_unknown
     framework_lens: CAC与LTV计算——LTV/CAC高但回本周期长，现金流压力大
     follow_up_question: "虽然LTV/CAC=5，但回本周期多长？现金流能支撑吗？"
-  - signal: "用户不同渠道CAC差异大，但混在一起算"
+  - src_unknown
     framework_lens: CAC与LTV计算——需要分渠道计算CAC和LTV
     follow_up_question: "你的不同获客渠道，CAC和LTV分别是多少？哪个渠道最健康？"
-  - signal: "用户说'我们还没算过LTV和CAC'"
+  - src_unknown
     framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
     follow_up_question: "没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。"
 
@@ -53,26 +53,26 @@ diagnostic_signals:
 月度CAC计算：
 
 1. 付费获客成本
-   - 广告费用：____元
-   - 推广活动费用：____元
-   - 渠道佣金：____元
-   - 付费获客小计：____元
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. 自然获客成本分摊
-   - 内容营销费用：____元
-   - SEO/ASO费用：____元
-   - 品牌费用：____元
-   - 自然获客小计：____元
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. 人力成本分摊
-   - 市场团队人力：____元
-   - 销售团队人力：____元
-   - 人力成本小计：____元
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. 工具成本
-   - 营销工具：____元
-   - CRM工具：____元
-   - 工具成本小计：____元
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 总获客成本 = 1 + 2 + 3 + 4 = ____元
 新增用户数 = ____人
@@ -85,25 +85,25 @@ CAC = 总获客成本 / 新增用户数 = ____元/人
 月度LTV计算：
 
 1. 收入指标
-   - 月度总收入：____元
-   - 月度活跃用户数：____人
-   - ARPU = 总收入 / 活跃用户 = ____元/人/月
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. 成本指标
-   - 月度直接成本（服务器、带宽等）：____元
-   - 月度服务成本（客服、支持等）：____元
-   - 月度直接成本小计：____元
-   - 毛利率 = (总收入 - 直接成本) / 总收入 = ____%
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. 留存指标
-   - 月度流失用户数：____人
-   - 月度总用户数：____人
-   - 月流失率 = 流失用户 / 总用户 = ____%
-   - 用户生命周期 = 1 / 月流失率 = ____月
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. LTV计算
-   - LTV = ARPU × 毛利率 × 用户生命周期
-   - LTV = ____ × ____% × ____ = ____元
+   - src_unknown
+   - src_unknown
 ```
 
 ## 关键洞察
@@ -144,18 +144,18 @@ CAC = 总获客成本 / 新增用户数 = ____元/人
 回本周期 = CAC / (ARPU × 毛利率)
 
 示例：
-- CAC = 1000元
-- ARPU = 100元/月
-- 毛利率 = 80%
-- 月贡献 = 100 × 80% = 80元
-- 回本周期 = 1000 / 80 = 12.5个月
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 回本周期健康标准：
-- < 6个月：优秀
-- 6-12个月：健康
-- 12-18个月：可接受
-- > 18个月：风险高
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -179,21 +179,21 @@ CAC = 总获客成本 / 新增用户数 = ____元/人
 
 ## 行动触发器
 
-- 当计算CAC时 → 使用完整模板，不遗漏
-- 当计算LTV时 → 扣除成本，考虑流失
-- 当评估渠道时 → 分渠道计算CAC和LTV
-- 当融资时 → 展示准确的单元模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-business-model-definition`：商业模式定义
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- SaaS单元经济学研究
-- 精益创业（Eric Ries）：单元模型验证
+- src_unknown
+- src_unknown
+- src_unknown

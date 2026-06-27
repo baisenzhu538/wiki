@@ -4,8 +4,8 @@ title: 技能：任务交付物标准化
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-Agent开工检查单制作法]]'
-- '[[tool-纪浩-日志驱动排查法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: AI任务完成后输出混乱，无法判断是否真的完成
+- src_unknown
   lens: 交付模糊
   follow_up: 每个任务定义明确的交付物形式（文档/代码/数据/报告）。无交付标准=无完成标准
-- signal: 交付物混入系统文档或项目代码，难以查找和复用
+- src_unknown
   lens: 存放混乱
   follow_up: 交付物独立存放，不混入系统文档。建立独立的交付物目录结构
-- signal: 任务验收时标准不一，有时严格有时宽松
+- src_unknown
   lens: 验收随意
   follow_up: 制定交付标准（验收条件），任务完成后按标准验收。未达标不结束
-- signal: 多人协作时各自输出格式不一致，难以整合
+- src_unknown
   lens: 格式混乱
   follow_up: 统一交付物模板和格式规范。复杂任务拆解后，每个子任务交付物格式一致
-- signal: AI原地打转，输出大量内容但没有实际交付物
+- src_unknown
   lens: 无效输出
   follow_up: 任务开始前明确交付物定义。AI输出不是交付物，符合验收标准的输出才是
 ---# 技能：任务交付物标准化
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -87,14 +87,14 @@ diagnostic_signals:
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-纪浩-AI工作空间与导诊台设计法]] — 交付物标准化是工作空间规范的一部分
-- [[tool-纪浩-Agent开工检查单制作法]] — 检查单和交付标准配合使用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -10,9 +10,9 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212157_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212157_vlm_desc.md
@@ -21,17 +21,17 @@ source_refs:
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-minimum-version]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-minimum-test-volume]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 做预售：用真实订单验证付费意愿
@@ -52,10 +52,10 @@ related:
 
 预售不是提前卖货，而是验证一个具体假设。常见的可验证假设包括：
 
-- 用户是否愿意为这个概念预付（而不仅仅是点赞）？
-- 目标价格区间是否被接受？
-- 哪种价值主张更容易触发下单？
-- 哪个渠道的用户付费转化率更高？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 建议一次只验证 1-2 个最高风险假设，不要把产品功能、定价、渠道、文案同时混在一起测 [conf=0.80, source=framework-lean-false-model.md + 讲师经验]。
 
@@ -75,20 +75,20 @@ related:
 
 一个有效的预售要约需要明确以下要素：
 
-- **交付内容**：用户最终会得到什么，边界在哪里。
-- **交付时间**：预计何时交付，延迟或失败的处理方式。
-- **价格与权益**：原价、预售价、早鸟权益、退款政策。
-- **风险提示**：是否标注"预售/内测/众筹"性质，避免被误解为欺诈 [conf=0.80, source=framework-lean-false-model.md 失败模式]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：发布并收集订单
 
 通过最低成本的渠道发布预售：
 
-- 朋友圈/社群海报
-- 落地页/小程序
-- 众筹平台
-- 定向客户访谈中的"如果现在下单"环节
-- 借助已有交易平台或社区
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 关键指标：浏览量、留资数、下单数、付款数、退款/取消数。
 
@@ -96,18 +96,18 @@ related:
 
 不要只看总人数，要拆解漏斗：
 
-- 看到海报 → 点击/扫码：验证钩子是否吸引人
-- 点击 → 留资：验证价值主张是否清晰
-- 留资 → 付款：验证付费意愿是否真实
-- 付款 → 主动推荐/复购：验证需求强度是否足够
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第六步：决策：退款、履约或升级
 
 根据预设的通过/不通过标准决策：
 
-- **不通过**：及时退款并终止方向，避免进一步投入。
-- **条件通过**：小批量履约，继续验证交付能力。
-- **通过**：进入 L/S/E 阶段，开始正式研发、生产或服务标准化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 成本/周期/样本量
 
@@ -127,19 +127,19 @@ related:
 
 **最适合**：
 
-- 需求不确定性高、产品尚未定型或尚未生产的早期阶段 [conf=0.85, source=一堂DOC-20260622212157_ocr_text.md]。
-- 客单价低到中等、用户决策链路短的 ToC 产品，如消费品、内容付费、工具型 SaaS。
-- 团队希望用真实交易信号替代问卷和访谈中的"口头需求"。
-- 已有初步获客渠道（朋友圈、社群、垂直社区、交易平台）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
 **以下场景需要调整或慎用**：
 
-- **强监管行业**：医疗、金融、教培、博彩等领域的预售可能触碰广告法、预售监管或行业许可要求，不能照搬消费品做法 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **B2B 长决策链**：B2B 客户通常不会为一张海报或 PPT 直接付费，预售需要配合深度演示、试点方案或 POC（概念验证），周期以月甚至年计 [conf=0.80, source=张磊教练《精益测试关键问题》AMA精华 副本.md]。
-- **品牌敏感型高客单价产品**：过度粗糙的预售页面会损伤品牌信任，需要在"低成本验证"和"品牌调性"之间折中 [conf=0.80, source=任务指令 L8 边界案例]。
-- **长周期硬件/医疗器械**：众筹或预售可行，但需提前明确合规路径、交付时间和退款机制，否则容易演变为法律纠纷 [conf=0.80, source=framework-lean-false-model.md 适用边界]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -155,17 +155,17 @@ related:
 
 **内部限制**：
 
-- 预售只能验证"用户是否愿意为某个概念/承诺付费"，不能验证"产品能否按期、按质交付"。收了定金后无法履约，会同时造成法律风险和品牌损伤 [conf=0.85, source=framework-lean-false-model.md 失败模式]。
-- 预售转化率受渠道信任度和创始人个人背书影响极大。同一款产品，在朋友圈发与在陌生落地页发，转化率可能相差数倍，测试结果不能简单外推到规模化获客 [conf=0.70, source=经验判断]。
-- 低价预售可能吸引"羊毛党"而非真实目标用户，导致需求信号失真 [conf=0.70, source=经验判断]。
-- 退款政策设计不当会扭曲信号：全额随时退的"付费"更接近"留资"，不可退定金才能真正验证付费意愿 [conf=0.75, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击视角**：
 
-- **外部批评者**："没产品就收钱，这不是骗钱吗？"—— 反驳：预售必须明确标注"预售/众筹/内测"性质、交付时间和退款政策，用户基于完整信息自愿下单；验证失败时应及时退款。
-- **外部批评者**："预售成功的人不一定代表大众市场会买。"—— 反驳：预售验证的是早期采纳者（early adopters）的付费意愿，后续仍需通过更大样本和更广泛渠道验证规模化需求。
-- **外部批评者**："B2B 客户不会为 PPT 付款，预售对 ToB 无效。"—— 反驳：ToB 场景下应把"预售"重新定义为"付费试点/意向合同/种子客户陪跑"，验证的是企业客户愿意为解决问题投入时间和预算，而非一次性点击购买 [conf=0.80, source=张磊教练《精益测试关键问题》AMA精华 副本.md]。
-- **Eric Ries**（《精益创业》作者）：MVP 的核心目标是"经证实的认知"（validated learning），而非早期收入。若团队把预售收入当作业务收入来优化，可能会过早放大一个尚未验证的商业模式，把"有人愿意预付"误读为"商业模式已成立" [conf=0.85, source=《精益创业》经典理论]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -173,16 +173,16 @@ related:
 
 在一堂 2B 内训项目中，团队没有先开发完整课程产品，而是先找 1-3 家种子公司深度陪跑 3-6 个月，验证"企业是否愿意为培训效果付费"以及"产品内核是否足够好" [conf=0.75, source=张磊教练《精益测试关键问题》AMA精华 副本.md]。
 
-- **对应工具**：SaaS/服务类产品预售 → 招募天使客户。
-- **关键信号**：种子客户是否愿意签订付费合同、是否愿意续费或推荐。
-- **迁移场景**：B2B 服务、企业培训、SaaS 产品早期验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关联案例：共享电动滑板车 D → C → B → A 逐级升级
 
 在共享电动滑板车案例中，D 版用海报/落地页收集内测报名，是预售的前置形态；跑通后再升级到 C 版人工租赁、B 版小批量产品，最终才进入 A 版全量投入 [conf=0.85, source=case-lean-electric-scooter-mvp]。
 
-- **对应工具**：大众消费品/高科技产品预售 → 先用海报/假页面测兴趣，再收定金或众筹。
-- **关键洞察**：不要把众筹/预售直接当成终点，它是 F 阶段验证手段，跑通后仍需验证交付能力。
+- src_unknown
+- src_unknown
 
 ---
 

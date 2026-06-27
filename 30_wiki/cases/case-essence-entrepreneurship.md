@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- entrepreneurship
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman 的早期领导
 source_context: 一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分支撑 high trust；因仅有一个来源，trust_level 保持 medium，待第二来源验证后可升 high）
 created_at: '2026-06-14'
@@ -21,25 +21,25 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-- 团队把创业当口号或情怀，却缺少可验证的下一步
-- 决策时只有“我觉得”“用户需要”，没有概率意识
-- 资源有限，却想一次性押注全部方向
-- 失败后只会归因“运气不好”或“不够坚持”
-- 讨论停留在“做不做”，而非“如何提高成功概率”
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[case-personal-map-modeling]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[case-essence-humanity-trap]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#entrepreneurship'
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：创业本质 = 小概率游戏
 
@@ -57,10 +57,10 @@ tags:
 
 ## Background
 
-- **场景**：早期创业认知建立
-- **问题**：很多人对创业的理解停留在“坚持”“用户需求”“冲动”等模糊概念上
-- **建模目标**：找到能指导所有创业行动的本质定义
-- **来源**：`src_20260614_8269ccdb#2856-2880`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -71,15 +71,15 @@ Truman 的早期领导告诉他：
 > "你以后要创业，创业操盘这件事的本质就是小概率游戏。"
 
 这句话的完整含义：
-- 创业成功率可能只有 3%–10%
-- 你的角色就是把成功率从 3% 玩到 80%
-- 所有行动都围绕“如何提高概率”展开
+- src_unknown
+- src_unknown
+- src_unknown
 
 从这个本质推导出一整套行动：
-- 因为是小概率游戏，所以要提关键假设
-- 因为要控制风险，所以要给自己多留几条命
-- 因为要验证，所以要做 MVP
-- 因为要提高概率，所以要客观研究、调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 Truman 说："一堂所有的假设思维，所有的一堂五步法都是从这句话推出来的。"
 
@@ -87,19 +87,19 @@ Truman 说："一堂所有的假设思维，所有的一堂五步法都是从这
 
 ## 核心要点
 
-- **本质定义**：创业不是“坚持就能赢”的励志叙事，而是胜率极低的概率游戏。
-- **创业者的核心动作**：识别并持续提高成功概率，而非单纯增加努力程度。
-- **推导链条**：小概率 → 关键假设 → MVP 验证 → 留后路 → 客观调研。
-- **好本质的标准**：不仅能解释过去，更能预测和指导下一步行动。
-- **行为改变**：把讨论从“做不做”转换为“如何提高成功概率”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 明确说创业本质就是小概率游戏，成功率 3%–10%。——来源：`src_20260614_8269ccdb#2862-2864`。
-- **证据 2 [conf=0.85]**：这个本质可以推导出关键假设、MVP、多留命等具体行动。——来源：`src_20260614_8269ccdb#3216-3220`。
-- **证据 3 [conf=0.85]**：一堂五步法、假设思维都建立在这个本质上。——来源：`src_20260614_8269ccdb#2874`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -117,22 +117,22 @@ Truman 说："一堂所有的假设思维，所有的一堂五步法都是从这
 ## 边界
 
 **适用边界**：
-- 创业早期、方向尚未验证的阶段
-- 资源有限、需要控制下行风险的场景
-- 团队讨论陷入口号或情绪化决策时
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用边界**：
-- 已经验证商业模式后的规模化执行（概率模型需切换为运营效率模型）
-- 完全无风险、确定性高的任务
-- 个人职业选择中“是否创业”的价值判断（概率框架只回答如何提高胜率，不回答值不值得）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 教训
 
-- **好的本质能改变行为**：不是听完觉得“有道理”，而是能改变你接下来怎么做。
-- **本质越朴素越有力**：不需要华丽词藻，关键是预测力和推导力。
-- **要让本质指导实践**：如果不能推导行动，就不是好本质。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -150,27 +150,27 @@ Truman 说："一堂所有的假设思维，所有的一堂五步法都是从这
 
 ## 行动 Checklist
 
-- [ ] 在每次重要决策前写下：这件事如果成功，能把整体胜率提高多少？
-- [ ] 列出当前项目的 3–5 个关键假设，并给出可验证标准
-- [ ] 为每个关键假设设计一个最小验证实验（MVP）
-- [ ] 明确如果假设被证伪，团队可以退到哪里（留后路）
-- [ ] 在复盘时区分“概率判断失误”和“执行失误”
-- [ ] 当团队情绪化争论时，把议题转写为“如何提高成功概率”
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[tool-essence-nfactor-modeling]] —— N 因素本质建模工具，可用于把“小概率游戏”拆解为可操作的概率因素
-- [[dk-modeling-explanatory-vs-predictive-essence]] —— 区分解释型本质与预测型本质，本案例属于预测型
-- [[concept-一堂-key-assumptions]] —— 一堂关键假设概念，由“小概率游戏”推导而出
-- [[yt-five-step-method]] —— 一堂五步法，同样建立在该本质之上
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2856-2880、3216-3220`
+- src_unknown
 
 ---
 

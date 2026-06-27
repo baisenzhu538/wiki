@@ -4,30 +4,30 @@
 
 id: yt-personal-pan-product-aesthetics
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 最佳实践与审美建模
-- 泛产品设计
-- 泛产品设计审美篇
-- 泛产品设计审美篇：最佳实践与审美建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown审美篇
+- src_unknown审美篇：最佳实践与审美建模
 related:
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[yt-personal-product-design]]'
-  - '[[yt-model-product-excellence]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[yt-model-liberate-thinking-layers]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_d7218337-泛产品设计审美卡片
@@ -41,17 +41,17 @@ yitang:
   course_type: required
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 主动跨领域收集最佳实践，而不局限于自己所在行业
+- src_unknown
   framework_lens: 审美来自见识广度
   follow_up_question: 你最近研究的一个优秀作品来自哪个完全不相干的领域？
-- signal: 能把'好'拆解成可讨论、可复现的评价维度
+- src_unknown
   framework_lens: 审美白盒化
   follow_up_question: 如果让你教别人判断这个作品的好坏，你会讲哪几个维度？
-- signal: 会把审美标准应用到自己的作品中，并迭代改进
+- src_unknown
   framework_lens: 审美必须落地
   follow_up_question: 你当前作品与最佳实践相比，最大差距在哪个维度？
 updated_at: '2026-06-16'
@@ -74,20 +74,20 @@ trust_level: medium
 ### 失败模式
 
 1. **看了很多优秀作品，但自己作品没有进步**
-   - **原因**：只看不练
-   - **修复**：每个案例学习后，必须有一个到自己作品的迁移练习
+   - src_unknown
+   - src_unknown
 
 2. **只会说‘这个好看’，无法解释为什么**
-   - **原因**：审美黑盒化
-   - **修复**：强制用至少三个维度描述作品，并给出评分
+   - src_unknown
+   - src_unknown
 
 3. **盲目模仿最佳实践，忽视自身用户和场景**
-   - **原因**：脱离上下文
-   - **修复**：模仿前先写明：‘这个案例的成功依赖哪些条件？我的项目是否具备？’
+   - src_unknown
+   - src_unknown
 
 4. **审美标准过高，导致项目无法推进**
-   - **原因**：审美 paralysis
-   - **修复**：区分‘必须达到’和‘持续打磨’两个标准，先完成再完美
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -97,9 +97,9 @@ trust_level: medium
 
 ### 为什么审美是一堂的"最强价值主张"
 
-- 很多学员反馈："一堂的课，我最喜欢的就是每节课前面那段故事，那个见识美的部分。"
-- 审美建立后的效果："原来还能这样"——之前压根不知道一个东西还可以做得这么好
-- 审美 = 知道"好"长什么样 → 有了标准，不教方法也能大致做对方向
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 审美与另外两大修养的关系
 
@@ -170,17 +170,17 @@ trust_level: medium
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（yitang 域）
-- [[yt-personal-pan-product-concepts]] — 认知篇（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：审美判断力是武器库中最隐秘的武器——它不直接产生输出，但决定了你输出的上限。Norman 的三层模型告诉你：这件武器有三个瞄准镜，多数人只擦亮了其中一个
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Bourdieu 的阶级审美在讲香中的翻译是赤裸裸的——你的"香"（设计语言、视觉风格、品牌调性）在向谁讲？如果香的腔调与听香人的阶级习惯错位，美就是拒绝信而非邀请函
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

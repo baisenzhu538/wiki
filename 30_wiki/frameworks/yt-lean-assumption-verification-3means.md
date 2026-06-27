@@ -6,17 +6,17 @@ title: 关键假设验证的三种手段：访谈调研、经验验证、实验�
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#topic/lean-startup'
-- '#topic/hypothesis-validation'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -25,27 +25,27 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yitang-qualitative-to-quantitative]]'
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[yt-lean-essence]]'
-  - '[[yt-lean-beauty-store-conversion]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队还没做访谈调研就要直接开发完整产品或跑大规模实验
+- src_unknown
   framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
   follow_up_question: 这个假设能否通过专家访谈或行业对标先排除？什么信息已经被他人验证过？
-- signal: 讨论"要做多少份问卷、多少个访谈"时说不清楚产品形态
+- src_unknown
   framework_lens: 验证手段未围绕产品形态与阶段展开
   follow_up_question: 产品是书、APP、课程还是线下训练营？不同形态的样本量与核心转化率标准是什么？
-- signal: 个人/轻资产项目一上来就要自建渠道做投放测试
+- src_unknown
   framework_lens: 未优先使用低成本的调研与竞品对标
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
 
@@ -65,10 +65,10 @@ diagnostic_signals:
 
 选择验证手段的关键问题：**你到底要验证什么？**
 
-- 宏观判断问题（行业机会、时机判断）→ 优先访谈调研 + 经验验证
-- 产品内核问题（用户是否觉得有用、是否愿意复购）→ 访谈 + 小样本实验
-- 商业模式问题（ROI、转化率、单元模型）→ 经验验证 + 实验验证
-- 增长阶段问题（渠道效率、投放 ROI）→ 实验验证 + 业务公式拆解
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -95,9 +95,9 @@ diagnostic_signals:
 
 访谈调研的核心价值不是"证实"，而是**快速排除错误选项、获取行业共识**。
 
-- **专家访谈**：找行业老兵聊 2–3 个人，拿到水下信息，比自己摸索三个月更有效。
-- **竞品/标杆调研**：对标头部已经跑通的方案，直接借鉴已被市场验证的卖点、包装、定价。
-- **用户深度访谈**：在需求难以直接证实时，通过 5–15 人的定性访谈，排除错误选项，聚焦细分用户、细分场景、细分问题。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 案例：张磊在做内衣洗衣液项目时，先去一线超市调研，又研究日本小林制药在药妆店的陈列与卖点，判断"时光机"机会成立，再据此设计包装与核心卖点。
 
@@ -105,9 +105,9 @@ diagnostic_signals:
 
 经验验证的本质是：**如果别人已经验证过，就直接拿来用，不要自己再花成本重新验证。**
 
-- **团队/个人经验**：自己过去在类似业务中的体感与判断。
-- **行业头部验证**：头部已经跑通的模式、卖点、渠道，大概率是有效的。
-- **时光机理论**：有明显消费利差的两个国家/地区，参考先行市场的发展阶段判断时机。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 案例：内衣洗衣液项目中，张磊判断国内用户对品类不熟悉，外包装必须"抓眼球"，于是直接研究市面上好看的日化包装，用 3D 打印快速验证视觉吸引力，而不是先开模生产。
 
@@ -115,10 +115,10 @@ diagnostic_signals:
 
 当没有行业共识、没有可借鉴经验、必须拿到真实用户数据时，才进入实验验证。
 
-- **直接测试（Face）**：假页面、假海报、假按钮，看用户反馈。
-- **人工服务模拟**：CEO 亲自跑腿、人工摆摊、后台模拟系统，替代完整产品开发。
-- **借用工具**：用现成平台或别人产品帮卖，降低原型成本。
-- **最小版本（MVP）**：只做核心玩法、核心功能集、产品小样。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 案例：美业门店项目，产品线为 200 元体验 → 3980 元套餐 → 2 万元加盟。张磊指出不要孤立测 200 元产品或加盟政策，而应优先验证**200→3980 的转化链路**——这是整个漏斗风险最高的假设。用 30–50 个样本做定性判断，转化率不过关就直接放弃或调整。
 
@@ -171,9 +171,9 @@ diagnostic_signals:
 
 AI 没有改变精益验证的本质，但把 FALSE 模型中每个节点的成本降到了原来的 1/10 甚至更低：
 
-- 素材生成、假海报、文案、课程大纲可用 AI 快速生成。
-- 人工服务可由"CEO + AI 工具"完成，效率大幅提升。
-- 原型设计、最小版本开发可借助 AI 加速。
+- src_unknown
+- src_unknown
+- src_unknown
 
 但 AI **不能替代假设拆解**。如果跳过"把海量假设拆成可验证状态"这一步，AI 只会让你更快地在错误方向上烧钱。
 
@@ -188,6 +188,6 @@ AI 没有改变精益验证的本质，但把 FALSE 模型中每个节点的成�
 
 ## 置信度说明
 
-- 本框架直接来自张磊 AMA 精华稿（`src_20260616_b1e25c49`）Q1 第三、四、五节对"三种验证手段"的阐述，并由口述稿（`src_20260616_7dc80216`）与笔记稿（`src_20260616_6c8b240b`）交叉印证。
-- 三种手段的名称在不同来源中略有差异：精华稿称"专家访谈、调研""经验验证""自己做实验"；口述稿称"诚实调研、经验验证、实验验证"；笔记稿称"诚实调研、经验验证、实验验证"。本文统一为"访谈调研、经验验证、实验验证"，语义保持一致。
-- 置信度 0.85：核心框架稳定，具体案例（内衣洗衣液、美业门店）为 AMA 现场举例，外部可独立验证性有限，需结合具体业务场景调整使用。
+- src_unknown
+- src_unknown
+- src_unknown

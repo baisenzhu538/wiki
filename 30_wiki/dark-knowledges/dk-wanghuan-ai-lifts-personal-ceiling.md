@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,36 +21,36 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - human-ai-collaboration-double-triangle
-  - framework-wanghuan-actor-director-mode
-  - framework-wanghuan-ai-five-level-ladder
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown-double-triangle
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: "用户说'我不会做这件事，所以做不了'"
+- src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维
   follow_up_question: "这件事能不能拆成'AI执行+你验收'？你负责定义和判断，AI负责执行。"
-- signal: "用户说'AI只是让我效率变高'"
+- src_unknown
   framework_lens: AI拉升个人上限——不只是效率，是能做以前做不到的事
   follow_up_question: "有没有以前完全不敢做的任务，现在可以做了？AI让你跨越了哪些能力边界？"
-- signal: "用户说'我用AI做了，但结果不行'"
+- src_unknown
   framework_lens: AI拉升个人上限——AI放大的是人的判断力，不是替代判断
   follow_up_question: "你验收了吗？你的验收标准是什么？如果标准不清，AI输出自然不行。"
-- signal: "用户说'AI让我觉得自己什么都会了'"
+- src_unknown
   framework_lens: AI拉升个人上限——能力幻觉，把AI输出当成自己的专业能力
   follow_up_question: "关掉AI，你能独立完成吗？人的价值是判断和决策，不是生成。"
-- signal: "用户说'我想用AI建立个人竞争力'"
+- src_unknown
   framework_lens: AI拉升个人上限——竞争力来自把行业暗规则注入AI系统
   follow_up_question: "你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？"
 tags:
-- 王欢
-- 暗知识
-- AI杠杆
-- 个人上限
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：AI 拉升个人上限
 
@@ -65,9 +65,9 @@ tags:
 AI 的价值不只是“让现有工作更快”，而是**让一个人能完成以前需要一个团队才能完成的事**。
 
 王欢在课后闲聊中反复强调：
-- 你不会写代码，但可以用 AI 做出软件；
-- 你没做过书，但可以用 AI 做出一本书；
-- 你没学过设计，但可以用 AI 做出视觉作品。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 关键不是你会不会，而是你能不能**定义问题、设计系统、验收结果**。
 
@@ -85,10 +85,10 @@ AI 的价值不只是“让现有工作更快”，而是**让一个人能完成
 ### 2.2 条件二：系统方法
 
 不是随便问 AI 就能得到好结果，需要：
-- **BITCOE**：把需求说清楚；
-- **AI 业务档案**：把标准说清楚；
-- **迭代循环**：多轮对抗优化；
-- **验收标准**：判断结果够不够好。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -97,20 +97,20 @@ AI 的价值不只是“让现有工作更快”，而是**让一个人能完成
 ### 3.1 技能杠杆
 
 一个人可以跨越多个专业领域：
-- 产品经理 + 程序员 + 设计师 + 文案
-- 不需要每样都精通，但需要每样都能验收。
+- src_unknown
+- src_unknown
 
 ### 3.2 经验杠杆
 
 行业专家可以把隐性经验注入 AI：
-- 把“不成文的判断”写成 AI 业务档案；
-- 让 AI 成为“最懂客户/最懂行业”的助手。
+- src_unknown
+- src_unknown
 
 ### 3.3 时间杠杆
 
 把高频、重复、低判断的工作交给 AI：
-- 人只做定义、验收、关键决策；
-- 同样的时间，产出量提升 3-10 倍。
+- src_unknown
+- src_unknown
 
 ---
 

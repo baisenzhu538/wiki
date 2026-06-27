@@ -4,33 +4,33 @@ title: 技能：AIGC项目ROI评估
 type: tool
 status: needs-review
 domain:
-- design- business-strategy
-- ai-collaboration
+- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 source_refs:
 - src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
 related:
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-AI项目需求拆解筛选]]'
-- '[[tool-马易-隐私安全分层解决]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AIGC项目ROI评估
 
@@ -48,25 +48,25 @@ AIGC项目ROI评估是马易在AI落地场景识别中提出的实操方法。
 
 ## 适用场景
 
-- 有多个AI项目方向需要选择
-- 需要判断哪个AI应用值得投入
-- 向决策者证明AI项目价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 项目尚未跑通任何闭环
-- 只停留在效率提升层面无订单转化
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 业务数据看板
-- 订单系统
-- 投放账户
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ AIGC时代交付的是结果而非工具本身，只有可量化的订单增长�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

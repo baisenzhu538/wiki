@@ -9,18 +9,18 @@ confidence: 0.68
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了困境中学习投资的决策伦理与机会成本。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,14 +40,14 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家困境中的公司
-- **决策问题**：是否投入员工共学项目
-- **直接成本**：29,800 元学费 + 3 个月时间投入 + 一个月员工工资
-- **长期收益**：系统化的创业思维与商业打法（10 年视角）、志同道合的创业者人脉网络
-- **公司层面收益**：团队共同话语体系、统一商业认知、潜在新业务探索机会
-- **机会成本**：培训课程后续开班不确定；延迟一个月现金流只延长一个月公司生命
-- **决策原则**：当延迟死亡的边际价值极低时，选择高风险高潜在收益的行动
-- **最终决策**：赌一把，投入共学
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -82,35 +82,35 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **赌徒派**：绝境中必须搏一把，学习可能是唯一翻身机会。
-- **理性派**："赌一把"不是科学决策，应该用更清晰的期望价值计算。
-- **人本派**：把学习投资收益化是物化逻辑，学习的价值在于思考方式转变。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **团队培训投资决策**：在组织转型、困境、扩张期评估学习投入。
-- **创业者社群投入**：花钱进入高质量社群是否值得。
-- **高管教练/咨询投入**：用类似框架评估高单价知识服务。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 学习投资的收益必须明确验证指标，不能只用"思维提升""人脉"等模糊概念。
-- ⚠️ "赌一把"结论必须回溯到量化框架，否则是情绪决策。
-- ⚠️ 团队学习必须考虑文化支持和个体动机，否则收益接近零。
-- ⚠️ 困境中的决策不能用常规 ROI 衡量，但需要明确"可承受损失"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L1/L2——在信息不完全时做定性+部分定量判断。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在学习投资场景的应用，但 canvas 本身被极限情境改写。
-- **[[concept-稀缺机会窗口]]**：案例中的"培训后续开班不确定"是时间窗口稀缺性的体现。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Simon（集体理性假象）**："员工共学"被绘制为清晰的 ROI 图景，但收益实现高度依赖团队个人特质。如果团队基础差距大，共学可能变成一部分人的单方输出。[conf=0.80, source=Herbert Simon, Administrative Behavior]
-- **Sen（能力方法）**：把教育、人脉等人类基本能力简单"投资收益化"是物化逻辑。学习的真实价值可能在于思考方式转变，而非知识点积累。如果员工觉得这是"公司强制培训"而非"自我成长投资"，收益可能为零。[conf=0.75, source=Amartya Sen, Development as Freedom]
+- src_unknown
+- src_unknown
 
 ---
 

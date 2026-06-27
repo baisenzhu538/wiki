@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 单元模型
-- 经济模型
-- 单点经济
-- 商业模式验证
-- 单元经济
-- 最小单元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yt-business-model-unit-economics]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[case-five-step-growth-first-lever]]'
-  - '[[yt-business-model-definition]]'
-  - '[[yt-growth-channel-roi]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-company-disassembly]]"
-  - "[[tool-yitang-research-industry-scan]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "（dk-yitang-research-cost-match，待补）"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单元模型：找到业务最小单元的经济密码
@@ -75,9 +75,9 @@ related:
 | **住宿** | 单房/晚 | 一间房一晚 |
 
 ### 单元定义原则
-- 可独立核算收入和成本
-- 可重复、可规模化
-- 与业务核心逻辑一致
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -190,31 +190,31 @@ related:
 ## 单元模型分析
 
 ### 业务定义
-- 业务类型：[类型]
-- 最小单元：[单元]
+- src_unknown
+- src_unknown：[单元]
 
 ### 单元收入
-- 直接收入：[X]元
-- 附加收入：[Y]元
-- 间接收入：[Z]元
-- **单元收入合计**：[X+Y+Z]元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 单元成本
-- 直接成本：[A]元
-- 间接成本：[B]元
-- 获客成本：[C]元
-- **单元成本合计**：[A+B+C]元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 单元利润
-- 单元利润：[收入-成本]元
-- 单元利润率：[利润/收入]%
+- src_unknown
+- src_unknown
 
 ### 可持续性判断
-- LTV：[X]元
-- CAC：[Y]元
-- LTV/CAC：[X/Y]
-- 回本周期：[Z]个月
-- **判断**：[健康/预警/危险]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 优化建议
 1. [建议1]
@@ -270,23 +270,23 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-company-disassembly]] — 公司拆解工具
-- [[tool-yitang-research-industry-scan]] — 行业扫描工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 单元模型模块
-- 交叉：精益创业单元模型分析
-- 注意：单元模型是商业模式验证的核心工具，需要准确的数据支撑
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

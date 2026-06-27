@@ -6,25 +6,25 @@ title: 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
-- 用户（决策者）
+- src_unknown
+- src_unknown
 supersedes: null
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[three-party-data-alignment]]'
-  - '[[ouyangfeng-data-alignment-response]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
@@ -114,8 +114,8 @@ trust_level: low
 
 **Truman 的睡前故事案例就是最好的证明**：
 
-- 4 篇故事（原材料）→ 标注后 AI 能找到 → 但产出还是不稳定
-- 4 篇故事 + 1 篇萃取指南（"Truman 故事创作方法论"）→ AI 能稳定产出 Truman 风格的故事
+- src_unknown
+- src_unknown
 
 萃取指南不是替代标注，而是**标注之上的聚合层**。让 AI 从"找到一堆碎片"升级到"理解了这堆碎片组成的那张拼图"。
 
@@ -141,10 +141,10 @@ trust_level: low
 卡标签：这张卡关于"决策卫生" → 粗粒度分类，服务于检索
 
 块标签：
-  - 这条 claim 的目标受众是 CEO → #audience/ceo
-  - 同一条 claim 对执行层的说法是... → #audience/executor  
-  - 这条 constraint 在小红书平台的合规风险是... → #platform/xiaohongshu
-  - 这条 error_data 的根因分类是... → #error_root/skip-validation
+  - src_unknown
+  - src_unknown  
+  - src_unknown
+  - src_unknown
 ```
 
 Truman 说的"中医怎么解释、西医怎么解释、什么人能喝什么人不能喝"——这些全部是块级别的多维标注，不是卡级别的。
@@ -164,9 +164,9 @@ Truman 说的"中医怎么解释、西医怎么解释、什么人能喝什么人
 **缺失的部分**：
 
 1. **试点素材**：选哪 1-2 个源？我提三个候选——
-   - `20_memory/corrections.md`（12 条现成纠偏，结构清晰，最容易出结果）
-   - 月白口述稿中的暗知识（NotebookLM 用法、图层管理标准、团队协作失败案例）
-   - Truman 在闲聊篇中的多 Agent 协作实践（"三个循环"）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **六字段模板的合格标准**：
    ```markdown

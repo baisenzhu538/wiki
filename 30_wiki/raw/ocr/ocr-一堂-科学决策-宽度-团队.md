@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-宽度-团队"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_97242832
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-宽度-团队"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例01]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-宽度-团队
@@ -37,27 +37,27 @@ png` 一堂科学決策宽度・团队篇 堂 TheBreadthofScientificDecision:Tea
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_97242832-ocr-一堂-科学决策-宽度-团队.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 科学决策需同时审视价值盲区（关键业务认知、核心能力、团队士气、知识/人效/培养成长）与成本盲区（支持部门、获客推广、退款退货、团队沟通/管理、综合HR/财务/办公成本）。
-- 团队决策的常见场景可归纳为三类：选方案（做不做）、投资源（投不投入）、选项目（要不要上）。
-- 关键业务认知的提升属于高价值但易被忽视的决策收益，应纳入方案评估。
-- 支持部门与团队沟通/管理成本属于隐性成本，在资源投入决策中常被低估。
-- 退款退货成本是业务决策中易被遗漏的后置成本，需在项目评估阶段前置考量。
-- 团队士气与培养成长属于长期价值，短期决策中易被牺牲，应建立显性评估机制。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 价值盲区与成本盲区的分类逻辑是否完整？是否存在双向盲区（如"团队士气提升"既可能创造价值也可能产生成本）未被识别？
-- "关键业务认知"作为价值盲区的具体衡量标准是什么？如何量化以避免主观判断？
-- 三类决策场景（选方案/投资源/选项目）之间是否存在交叉重叠，实际应用中如何区分边界？
-- 隐性成本（如团队沟通成本、管理成本）的核算方法论缺失，如何建立可操作的计量框架？
-- "坚持只做必修课"的底层假设是什么？是否隐含"所有非必修决策都不值得做"的排他性前提，该假设是否经过验证？
-- 团队培养成长等长期价值的折现周期如何设定？不同行业/阶段的企业是否应采用统一标准？
-- 退款退货成本作为"后置成本"的前置考量机制具体如何运作？与常规财务预算流程如何整合？
-- OCR提取的"堂"字重复及格式混乱是否影响内容理解，原文是否存在未被识别的层级结构（如价值/成本盲区的优先级排序）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
@@ -77,22 +77,22 @@ Annie Duke 论证，“团队同意”不等于“好决策”，因为团队决
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-width-method]] — 宽度决策方法，团队篇是其在团队层面的具体展开
-- [[yt-management-project-management]] — 项目管理方法论，与团队决策场景互补
-- [[master-decision-hygiene]] — 通用决策卫生，提醒团队决策中的集体偏差风险
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 团队资源分配决策：用价值/成本盲区清单确保不忽略隐性团队成本（士气、沟通、管理）
-- 团队招聘/培训投资决策：用 Simon 视角检查是否在简化动态系统
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
-- 不要将团队士气等动态因素当作可独立量化的变量，它们相互强联且非线性
-- 不要在团队决策机制不健全时使用框架，"声音大者赢”会让框架变形
-- 不要将"团队共识”当作“最佳决策”的充分条件，共识可能只是最小公共分母
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- 当你在做团队资源分配或项目选择时，用盲区清单检查是否遗漏了隐性团队成本
-- 当你觉得团队在“一致通过”某个方案时，用 Duke 的“同质化压力”视角检查是否在追求最小公共分母
-- 当你在评估"团队士气提升”类投资时，用 Simon 视角检查是否在简化动态系统
+- src_unknown
+- src_unknown
+- src_unknown

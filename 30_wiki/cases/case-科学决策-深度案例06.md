@@ -9,18 +9,18 @@ confidence: 0.70
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-决策深度-L3定量公式]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了获客漏斗决策中的产能与转化率一致性校验。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,11 +40,11 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一堂（或类似业务）
-- **决策问题**：是否建立电话外呼团队获取体验课用户
-- **关键成本**：采购线索 10 万/月 + 外呼团队成本 24 万/月
-- **关键收益**：每月 4000 个体验课用户
-- **关键假设**：线索单价最低 1 元；人均日外呼 100 通；线索有效率 20%；邀约成功率 20%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -82,36 +82,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **增长派**：外呼是可规模化的获客渠道，4000 个体验课用户价值巨大。
-- **品牌派**：外呼伤害用户体验和品牌资产，长期代价可能超过短期获客收益。
-- **财务派**：按现有参数无法达成目标，要么提高转化率，要么增加人手，要么降低目标。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **电销团队搭建**：任何依赖电话销售的业务。
-- **地推/网推团队 ROI**：把"触达量 × 转化率 × 客单价"公式迁移应用。
-- **客服中心成本收益**：评估客服团队的人力配置与服务效果。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 产能规划必须与目标数字做一致性校验。
-- ⚠️ "最低单价"假设必须做敏感性分析。
-- ⚠️ 漏斗每一层的转化率都要标注来源（已验证/行业基准/理论值）。
-- ⚠️ 品牌负收益即使难量化，也要尝试代理指标（NPS、投诉率、流失率）。
-- ⚠️ 团队规模是基于目标反推还是现有人力决定，两种逻辑结论完全不同。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L3 定量公式——把获客拆成漏斗计算。
-- **[[tool-决策深度-L3定量公式]]**：案例是该工具在获客决策场景的应用。
-- **[[tool-ROI决策评估画布]]**：案例展示了成本-收益-漏斗三类项目的画布实践。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Papert（构建主义的知识回路陷阱）**：真正的学习来自"做中学"而非"听中学"。案例中的外呼产能模型假设了一个"知识可以被传授"的世界，但实际上团队能力必须在实践中训练。用一个理论模型来"授权"团队产能，而非让团队在实践中构建能力，可能高估了培训效果。[conf=0.75, source=Seymour Papert, Mindstorms]
-- **Page（多元视角的集体智慧陷阱）**：多元视角的集合可以提升预测准确性，但案例中的现金流分析假设了变量是独立的。实际上，线索质量、转化率、团队能力之间存在复杂联动关系。将独立变量分析误认为系统分析，会低估模型误差。[conf=0.75, source=Scott Page, The Diversity Prediction Theorem]
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,32 +4,32 @@ title: 技能：光影灰度控制能力构建
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC产品白底图制作]]'
-- '[[tool-月白-设计基本功回归法]]'
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-封面情绪转化法]]'
-- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：光影灰度控制能力构建
 
@@ -48,28 +48,28 @@ related:
 
 ## 适用场景
 
-- 需要精准控制AI生成画面的光影效果
-- 提示词无法控制画面时的根本解决
-- 追求专业级视觉输出
-- 长期AI设计从业者
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 对光影无特殊要求的简单场景
-- 完全依赖AI随机效果的探索性创作
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 素描纸笔/数位板
-- 静物/石膏像写生
-- AI图像生成工具
-- 光影参考图库
-- 经典绘画作品集
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

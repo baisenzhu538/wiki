@@ -3,7 +3,7 @@
 title: 高密度素材编译策略（修订）
 type: decision
 domain:
-- kdo
+- src_unknown
 status: revised
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
@@ -18,7 +18,7 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 related:
-  - '[[tool-osint-maltego]]'
+  - src_unknown
 ---
 # 高密度素材编译策略 v2.0
 
@@ -130,13 +130,13 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 3-5 句话说明这个工具箱/方法论是什么，解决什么问题。
 
 ## 核心概念
-- 概念卡 A — 一句话定位
-- 概念卡 B — 一句话定位
+- src_unknown
+- src_unknown
 - ...
 
 ## 与一堂知识体系的关联
-- 属于 yt-model-pan-product-36-strategies|36计 的 X 场景层
-- 对练的是 yt-model-pan-product-three-virtues|三大修养 中的 Y
+- src_unknown
+- src_unknown
 
 ## Critique
 至少 1 条针对该工具箱整体的质疑。
@@ -148,8 +148,8 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 ### 阶段三：验证
 
 每张 Hub Page 产出后：
-- `kdo lint --wiki-path <path>` 0 warning
-- 所有子卡 quality gate 通过后再标记 Hub 为 enriched
+- src_unknown
+- src_unknown
 
 ## 执行规范（更新）
 
@@ -162,11 +162,11 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 
 ### 禁止事项
 
-- ❌ 不要将多张知识地图合并为一张复合大卡
-- ❌ 不要只依赖 OCR 文字——必须打开原图分析视觉结构
-- ❌ source_refs 不要指向 `00_inbox/`
-- ❌ 不要跳过 Critique 或 Visual Analysis
-- ❌ Hub Page 不要复制子卡完整内容——只写概览 + 链接
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 验收标准
 

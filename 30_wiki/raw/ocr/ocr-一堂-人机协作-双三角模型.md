@@ -3,11 +3,11 @@
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
 domain:
-  - management
-  - product
-  - needs-review
-  - ai-saas
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_11f9c13b
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[yt-model-dual-triangle-competitiveness]]'
-  - '[[ocr-一堂-科学决策-人机协作决策]]'
-  - '[[ocr-一堂-个人修炼-双三角模型]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -42,29 +42,29 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 调教更强AI
+- src_unknown
 人类三角XAI三角
 持续让自己变强 持续使用AI更强
 1 🎶
 有了强AI
-- 辅助人变得更强
+- src_unknown
 审美 体系 基本功 数据
 √专业见识 √科学体系思维 √基础：LLM提示词/智能体 √非结构化数据
 √最佳实践 √假设验证模型 √宽度：多模态/AI工具库(∞) √结构化数据
 √评价标准 √稳定知识结构 深度：模型微调训练/工程化 √形成资产
 版本更新于：2025
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

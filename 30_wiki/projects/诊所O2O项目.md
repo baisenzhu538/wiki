@@ -4,17 +4,17 @@ title: 诊所O2O项目
 type: improvement-plan
 status: active
 domain:
-- healthcare
+- src_unknown
 id: 诊所O2O项目
 created_at: 2026-05-04
 updated_at: '2026-06-16'
 related:
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[互联网医院项目]]'
-  - '[[诊所o2o外卖平台业务深度调研报告]]'
-  - '[[街顺app全面调研报告]]'
-  - '[[互联网医院模式深度调研报告]]'
-  - '[[保达云诊所深度调研报告]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
@@ -33,9 +33,9 @@ trust_level: medium
 
 ## 当前状态
 
-- 已完成行业调研：街顺APP（聚合配送SaaS）、互联网医院模式、诊所O2O外卖平台
-- 已明确核心判断：大多数诊所应选择"入驻第三方平台"而非"自建互联网医院"
-- 关键变量：首诊放开政策时间线、美团API权限收紧程度、下沉市场代理商覆盖速度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键概念卡
 
@@ -48,12 +48,12 @@ trust_level: medium
 
 ## 待解决
 
-- 首诊放开后诊所端的法律责任边界
-- 电子处方流转平台的全国互联互通进度
-- 入驻平台后患者数据归属权
-- 下沉市场（县域）配送基础设施覆盖
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 产出物
 
-- 诊所O2O入驻决策指南（规划中）
-- 合规条件自检工具（规划中）
+- src_unknown
+- src_unknown

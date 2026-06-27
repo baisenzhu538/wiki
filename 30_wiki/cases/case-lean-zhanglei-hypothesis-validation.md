@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑
 source_refs:
@@ -19,19 +19,19 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 related:
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[case-lean-zhanglei-failure-counterfactual]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-product-kernel]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 张磊 AMA：假设验证实操案例
@@ -83,8 +83,8 @@ related:
 
 ### 对应系统测试曲线
 
-- **灰度测试**：从“一线调研 → 3D 打印包装 → 场景观察”逐步放大，避免一次性重投入 [conf=0.70, source=张磊 AMA]。
-- **里程碑测试**：按“行业机会 → 产品内核（包装/场景/卖点） → 正式产品研发”的依赖链推进，前一级不成立则后一级不启动 [conf=0.70, source=张磊 AMA]。
+- src_unknown
+- src_unknown
 
 ## 成功原因
 
@@ -96,10 +96,10 @@ related:
 
 本案例的方法适合以下情况：
 
-- **消费品新品开发**：尤其是包装、卖点、形态对购买决策影响大的品类。
-- **有海外成熟市场对标可借鉴**：存在明显消费利差的品类，可用“时光机理论”先做时机判断。
-- **产品内核可通过低成本手段模拟**：如 3D 打印、海报、Demo 页面、假包装等。
-- **团队资源有限、需要避免一次性重投入**：用 FALSE 左侧工具把大决策拆成小实验。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -122,21 +122,21 @@ related:
 
 ### 失败模式 1：把“假包装测试”当“真实产品测试”
 
-- **症状**：看到用户拿起 3D 打印包装就判断产品会大卖，跳过配方、使用体验、复购验证。
-- **后果**：产品上市后因使用体验不佳（如香味持久度、去污力、皮肤刺激性）导致差评和退货。
-- **修复**：把假包装测试定位为“兴趣筛选”，通过后必须进入小批量真实产品测试。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 2：直接抄袭对标卖点而不做本土验证
 
-- **症状**：看到小林制药“去血渍”“留香”卖得好，就原样复制，不做国内用户的场景访谈。
-- **后果**：海外用户的痛点排序、使用习惯、价格敏感度与国内不同，卖点可能错位。
-- **修复**：把对标卖点当作假设池，用本地用户访谈和场景观察重新排序。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 3：过早进入研发生产，把“验证卖点”当成“验证供应链”
 
-- **症状**：卖点验证还没完成就开模具、谈工厂、备库存。
-- **后果**：一旦卖点或形态需要调整，已投入的模具和库存成为沉没成本。
-- **修复**：严格区分“产品内核验证”和“供应链/履约验证”，前者通过后再接触工厂和批量生产。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

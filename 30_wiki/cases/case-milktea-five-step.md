@@ -7,8 +7,8 @@ title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
 status: reviewed
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
@@ -17,21 +17,21 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[case-shampoo-product-kernel]]'
-  - '[[case-treadmill-demand-analysis]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[yt-entrepreneur-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-key-assumptions]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-case-verified
+- src_unknown
+- src_unknown
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -57,79 +57,79 @@ trust_level: high
 **表面需求：**用户想喝奶茶。
 
 **真实需求拆解：**
-- 年轻女性：社交属性、拍照好看、可以发朋友圈
-- 上班族：提神醒脑、下午茶社交
-- 学生党：性价比、甜度足够
-- 健康意识者：低糖、真奶、原叶茶
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键假设：**同一个店铺不可能同时满足所有人群。古董的选择是先占据"健康奶茶"细分人群，再向外扩展。
 
 ### 第二步：产品内核
 
 **产品内核四要素：**
-- 用户：注重健康、愿意为品质付费的25-35岁女性
-- 愿意选择："真奶、原叶、低糖——喝得放心的奶茶"
-- 最小解决方案：不是全品类跨度大，而是"少而精"——3-5个爆款单品
-- 解决方案：现场制作+透明方可见的原料
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键决策：**不做全品类涵盖的"万能店"，而是做"专家店"——让用户想喝"健康奶茶"时第一个想到你。
 
 ### 第三步：单元模型
 
 **洗发水行业的单元模型特征：**
-- 客单价：15-25元（中高端定位）
-- 出单时间：3-5分钟/杯（决定了高峰期吞吐量）
-- 原料成本：约40%—50%（奶、茶、水果、包材）
-- 租金成本：约20%-30%（线下门店核心成本）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **古董的单元模型优化：**
-- SOP精细化：一个流程丝滑的店和一个低效店的利润差异50%-100%
-- 原料标准化：通过集采降低单杯成本15%-20%
-- 出品一致性：所有门店同一杯奶茶味道一模一样
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键假设：**如果单店模型不能在3个月内打平，后续扩张就是洪水猛兽。
 
 ### 第四步：增长策略
 
 **增长阶段拆解：**
-- 第一阶段（单店验证）：用1家店跑通单店模型，验证需求+产品+单元模型
-- 第二阶段（3-5家连锁）：验证连锁复制能力，调整SOP和培训体系
-- 第三阶段（10-50家）：区域密度战略，形成品牌认知
-- 第四阶段（50家+）：开放加盟/连锁，资金和供应链集中化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **古董的增长原则：**不做异地扩张（不同城市同时开店），而是做区域密度（同一城市开多家）——降低供应链成本，增强品牌暴露。
 
 ### 第五步：壁垒分析
 
 **奶茶店行业的壁垒类型：**
-- 品牌壁垒：用户心智中的"健康奶茶=XX品牌"
-- 规模壁垒：集中采购带来的成本优势
-- 组织壁垒：SOP体系和人才培训体系
-- 网络壁垒：区域密度形成的场景占据
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **古董的壁垒构建：**没有拼命抢市场份额，而是先构建"可复制的单店模型"——单店模型是最深的壁垒，因为竞争对手抽不走。
 
 ## 关键假设与验证
 
 **假设1：用户愿意为"健康奶茶"付费更高价格**
-- 验证：单店测试，观察客单价接受度
-- 结果：目标用户群体对价格不敏感，对品质敏感
+- src_unknown
+- src_unknown
 
 **假设2：单店可以在3个月内打平**
-- 验证：财务数据追踪，计算投资回报周期
-- 结果：通过SOP优化，实现2.5个月打平
+- src_unknown
+- src_unknown
 
 **假设3：连锁模式可复制**
-- 验证：开3-5家连锁验证运营一致性
-- 结果：形成标准SOP和培训体系，复制成功率提升80%
+- src_unknown
+- src_unknown
 
 ## 关键洞察
 
 **大多数奶茶店失败的原因不是"奶茶不好喝"，而是"没有用科学方法论做生意"。**
 
 古董和普通创业者的根本差异在于：
-- 普通创业者："我会做奶茶，开店吧"→全凭感觉和勇气
-- 古董："用户要的是什么→我的产品内核是什么→单店模型能不能跑通→如何复制→如何构建壁垒"→每一步都有数据验证
+- src_unknown
+- src_unknown
 
 一堂的假设驱动方法论在奶茶店案例中的映射：不是你不够努力，而是你没有在努力之前先验证方向是否正确。
 

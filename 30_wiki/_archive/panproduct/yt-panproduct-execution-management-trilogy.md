@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-management-trilogy
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1159
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：管理三段论
-- 管理三段论
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：管理三段论
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-内核和边界]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[tool-泛产品落地-ROI分析]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论
@@ -47,16 +47,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 讨论资源前，目标和路径已经被明确写出并得到共识
+- src_unknown
   framework_lens: 目标→路径→资源的顺序约束
   follow_up_question: 如果资源减半，你会先调目标还是调路径？
-- signal: 当资源不足时，会回头调整目标或路径，而不是硬凑资源
+- src_unknown
   framework_lens: 资源是约束，不是起点
   follow_up_question: 现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？
-- signal: 在执行中会根据新信息重新审视目标，而不是一味线性推进
+- src_unknown
   framework_lens: 管理三段论需要反馈环
   follow_up_question: 最近是否有新信息让原来的目标不再合理？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ status: superseded
 ### 失败模式
 
 1. **还没搞清楚目标就开始讨论要招多少人、花多少钱**
-   - **原因**：跳过目标直接谈资源
-   - **修复**：任何资源请求必须先回答：‘为了哪个目标的哪条路径？’
+   - src_unknown
+   - src_unknown
 
 2. **有多少资源就定多大目标，导致目标被资源绑架**
-   - **原因**：资源反向决定目标
-   - **修复**：先确定必须达成的目标，再评估资源缺口，缺口大则调整路径
+   - src_unknown
+   - src_unknown
 
 3. **目标定了就不再调整，即使环境已明显变化**
-   - **原因**：线性执行僵化
-   - **修复**：设定目标复审节点，遇到重大变化时允许重新走一遍三段论
+   - src_unknown
+   - src_unknown
 
 4. **忽视环境感知，直接以目标为起点**
-   - **原因**：缺少 orient 环节
-   - **修复**：在三段论前加入‘环境扫描’：竞争、用户、技术、政策的新变化
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -123,9 +123,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Henry Mintzberg的"涌现战略" + John Boyd的"OODA循环"
 

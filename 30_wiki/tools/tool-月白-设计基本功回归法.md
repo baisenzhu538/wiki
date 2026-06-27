@@ -4,32 +4,32 @@ title: 技能：设计基本功回归法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-卖点可视化海报设计法]]'
-- '[[tool-月白-光影灰度控制能力构建]]'
-- '[[tool-月白-精准提示词撰写法]]'
-- '[[tool-月白-AI去字-稿定设计加字工作流]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：设计基本功回归法
 
@@ -47,26 +47,26 @@ related:
 
 ## 适用场景
 
-- 发现AI提示词控制不住画面
-- AI设计遇到瓶颈
-- 希望从80分向更高分突破
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅做简单重复性设计任务
-- 没有意愿投入长期学习
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 素描工具
-- 设计理论书籍
-- AI生图工具
-- 个人练习作品库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ AI放大了基本功的价值，有素描和理论基础的设计师才能精准
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

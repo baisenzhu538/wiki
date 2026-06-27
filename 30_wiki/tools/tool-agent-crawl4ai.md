@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: Crawl4AI GitHub (unclecode/crawl4ai)
-- web: Web scraping state 2026 (dev.to)
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-overview]]'
-  - '[[tool-osint-maltego]]'
-  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-agent-firecrawl]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Crawl4AI
@@ -67,9 +67,9 @@ print(result.extracted_content)
 
 ## 适用边界
 
-- **适用**：本地部署需求、离线场景、高定制需求、预算有限的Agent
-- **不适用**：需要大规模商业级稳定性的场景
-- **成本**：免费开源
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

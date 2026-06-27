@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-building
-  - yt-growth-to-barrier
-  - yt-barrier-moat-assessment
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们增长很快，但不确定是否可持续'"
+  - src_unknown
     framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
     follow_up_question: "你的增长是否基于壁垒？壁垒能否保护增长成果？"
-  - signal: "用户说'我们的增长到了天花板'"
+  - src_unknown
     framework_lens: 可持续增长——增长天花板需要壁垒突破
     follow_up_question: "你的壁垒能否帮你突破天花板？新市场、新产品、新场景？"
-  - signal: "用户说'我们的增长是靠补贴，停止补贴就停了'"
+  - src_unknown
     framework_lens: 可持续增长——补贴增长不可持续，需要壁垒驱动
     follow_up_question: "停止补贴后，用户是否因为壁垒而留下？"
-  - signal: "用户说'我们想实现可持续增长，但不知道怎么做'"
+  - src_unknown
     framework_lens: 可持续增长——可持续增长 = 增长 + 壁垒 + 迭代
     follow_up_question: "你的增长飞轮是否健康？壁垒是否在同步建设？"
-  - signal: "用户说'我们的增长被竞品复制了'"
+  - src_unknown
     framework_lens: 可持续增长——增长被复制说明壁垒不足
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估增长时 → 评估可持续性
-- 当增长快时 → 检查壁垒
-- 当壁垒弱时 → 强化壁垒
-- 当市场变化时 → 迭代调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-growth-to-barrier`：从增长到壁垒
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 可持续增长研究
-- 企业生命周期研究
+- src_unknown
+- src_unknown
+- src_unknown

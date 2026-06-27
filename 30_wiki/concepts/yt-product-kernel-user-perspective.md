@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-user-perspective
 title: 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-canvas
-  - yt-demand-scenario-reconstruction
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'这个功能很好'，但用户不用"
+  - src_unknown
     framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
     follow_up_question: "用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。"
-  - signal: "用户花大量时间优化团队喜欢的功能，但用户无感"
+  - src_unknown
     framework_lens: 用户视角 vs 产品视角——资源投入在错误的地方
     follow_up_question: "这个功能在用户的使用频率中排第几？如果不在前3，为什么优先优化？"
-  - signal: "用户说'我们的技术很先进'，但用户不关心技术"
+  - src_unknown
     framework_lens: 用户视角 vs 产品视角——技术视角≠用户视角
     follow_up_question: "用户选择你们，是因为技术先进，还是因为解决了他们的问题？"
-  - signal: "用户的产品介绍全是技术术语，用户听不懂"
+  - src_unknown
     framework_lens: 用户视角 vs 产品视角——用用户语言描述价值
     follow_up_question: "你能用用户的话（不是技术术语）描述产品价值吗？"
-  - signal: "用户团队内部争论'用户需要什么'，各执一词"
+  - src_unknown
     framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
     follow_up_question: "你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？"
 
@@ -60,10 +60,10 @@ diagnostic_signals:
 
 用户视角不是"用户说想要什么"，而是：
 
-- 用户现在怎么解决问题的？
-- 用户现在的解决方案有什么痛点？
-- 用户愿意为这个痛点付多少钱？
-- 用户选择我们的真正原因是什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 产品视角的陷阱
 
@@ -77,34 +77,34 @@ diagnostic_signals:
 ### 3. 切换到用户视角的方法
 
 **方法1：用户原话**
-- 记录用户的原话，不加加工
-- 用用户的语言描述产品价值
+- src_unknown
+- src_unknown
 
 **方法2：用户旅程**
-- 画出用户使用产品的完整旅程
-- 标注每个节点的痛点和愉悦点
+- src_unknown
+- src_unknown
 
 **方法3：用户测试**
-- 观察真实用户使用产品
-- 记录用户的困惑和惊喜
+- src_unknown
+- src_unknown
 
 **方法4：用户访谈**
-- 问"现在怎么解决的？"而不是"你想要什么？"
-- 问"为什么选我们？"而不是"我们哪里好？"
+- src_unknown
+- src_unknown
 
 ### 4. 团队视角对齐
 
 团队内部视角不一致时：
 
-- **技术团队**：关注技术实现
-- **设计团队**：关注用户体验
-- **商业团队**：关注营收利润
-- **产品团队**：需要整合为"用户视角"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 对齐方法：
-- 每个决策问"这个对用户有什么好处？"
-- 用用户原话作为决策依据
-- 定期做用户测试，让团队观察真实用户
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -128,21 +128,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 用用户原话描述
-- 当设计功能时 → 问"用户需要这个吗？"
-- 当优化体验时 → 观察真实用户
-- 当团队争论时 → 回到"用户视角"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂案例大爆炸：用户视角偏差案例
+- src_unknown
+- src_unknown
+- src_unknown

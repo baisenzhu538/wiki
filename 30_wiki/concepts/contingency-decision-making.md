@@ -3,48 +3,48 @@ id: contingency-decision-making
 title: "偶然性与决策：承认'我不知道'比虚假确定性更明智"
 type: concept
 domain:
-  - ai-saas
-  - management
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
 component_of: null
 related:
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[ai-landing-scene-selection]]"
-  - "[[find-old-do-small]]"
-  - "[[master-antifragile-checklist]]"
-  - "[[master-knowledge-compound]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - 决策为什么总是出错
-  - 偶然性怎么应对
-  - 为什么计划赶不上变化
-  - 专家预测为什么不准
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "做出重大决策后感觉很'确定'"
+  - src_unknown
     lens: "虚假确定性"
     follow_up: "强制问自己：如果这件事完全错了，我最可能忽略了什么？找到至少1个被忽略因素"
-  - signal: "计划过于完美，没有留出buffer"
+  - src_unknown
     lens: "冗余缺失"
     follow_up: "在时间表/预算中强制加入20%冗余，冗余被消耗比例<50%"
-  - signal: "听到一个'很有道理'的故事"
+  - src_unknown
     lens: "叙事陷阱"
     follow_up: "问自己：这个故事的反面版本是什么？能讲出至少1个反面故事"
-  - signal: "专家预测又错了"
+  - src_unknown
     lens: "预测幻觉"
     follow_up: "区分风险（概率已知）vs不确定性（机制未知），后者不可预测只能准备"
-  - signal: "组织中没人敢承认不知道"
+  - src_unknown
     lens: "政治资本缺失"
     follow_up: "检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全"
 ---# 偶然性与决策：承认"我不知道"比虚假确定性更明智
@@ -66,8 +66,8 @@ diagnostic_signals:
 **暗知识**：水水提到的"莫肯人靠'吃人海浪'传说躲过海啸"案例中，**传说的"正确性"可能不是因为它"描述了真相"，而是因为它"足够简单到能被记住和传播"**。复杂的科学预警系统如果不够"故事化"，反而会被遗忘。
 
 ### claim:02 [conf=0.80] 风险≠不确定性
-- **风险**：结果未知但概率已知（如掷骰子）
-- **不确定性**：结果和机制完全未知（如新型病毒）
+- src_unknown
+- src_unknown
 
 **暗知识**：水水强调"承认我不知道"，但她没有说的是——**"承认不知道"在组织中是需要"政治资本"的**。一个CEO说"我不知道"可能被视为坦诚，一个中层经理说"我不知道"可能被视为无能。
 
@@ -109,9 +109,9 @@ diagnostic_signals:
 ## Critique
 
 ### 内部局限
-- "承认不知道"在组织文化中可能不被接受。
-- 冗余策略在资源紧张时最先被削减。
-- 本框架对"什么时候应该追求确定性"没有给出明确指导。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

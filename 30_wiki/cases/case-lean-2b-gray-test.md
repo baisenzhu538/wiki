@@ -16,17 +16,17 @@ source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-premature-refinement]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 一堂 2B 内训灰度测试
@@ -91,9 +91,9 @@ related:
 
 1. **假设拆得 sharp**：把「企业是否愿意为内训付费」「定价是否可接受」「交付形式是否成立」拆成三轮独立验证，而非一次性 All-in [conf=0.80, source=讲师案例]。
 2. **按 FALSE 模型从左到右渐进**：
-   - F（Face 直接测试）：假页面测试/仿真 PitchBook；
-   - A（Artificial 人工服务）：内部测试、种子公司 VIP 陪跑；
-   - 跑通后再进入 L/E/All-in 阶段放大 [conf=0.85, source=framework-lean-false-model]。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **每轮都有明确通过标准**：假页面验证兴趣、内部测试验证产品认知、种子陪跑验证交付与付费闭环，未跑通即可低成本止损 [conf=0.80, source=讲师案例]。
 
 ## 可迁移场景
@@ -107,8 +107,8 @@ related:
 
 不适用场景：
 
-- **强监管行业**（金融、医疗、教培）：仿真 PitchBook 和预售需特别注意广告法与行业合规边界 [conf=0.85, source=任务指令 L3]。
-- **品牌敏感型大客户**：过度粗糙的"假页面"可能损伤信任，需在仿真程度上折中 [conf=0.80, source=任务指令 L8]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -119,9 +119,9 @@ related:
 
 ## 相关卡/互链
 
-- 方法论框架：[[framework-lean-false-model]]
-- 六宗罪/浪费：[[framework-lean-six-wastes]]
-- 低成本验证概念：[[yt-entrepreneur-lean-validation]]
-- 关键假设拆解：[[yt-entrepreneur-key-hypotheses]]
-- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
-- 产品内核验证：[[concept-一堂-kernel-validation]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

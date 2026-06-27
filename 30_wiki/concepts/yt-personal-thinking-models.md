@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,15 +10,15 @@ created_at: 2026-05-11
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "一堂做课供应链模型"
-  - "为什么提炼模型是最核心的能力"
-  - "从碎片经验到稳定模型"
-  - "做课模型演化史"
-  - "思维模型"
-  - "思维模型：从碎片经验到稳定模型"
-  - "教学创新"
-  - "脱敏版"
-  - "角色推演法"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260614_1be3d76f-一堂-思维模型案例分享
@@ -33,8 +33,8 @@ yitang:
   module: "个人修炼"
   course_type: explore_camp
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '能从自己的经验中提炼出可复用的判断框架', 'framework_lens': '模型来自实践', 'follow_up_question': '这个模型是你从多少个自己的案例中总结出来的？'}
   - {'signal': '模型会用新案例不断修正，而不是一成不变', 'framework_lens': '模型是活的', 'follow_up_question': '最近有没有一个案例让你的模型边界发生了变化？'}
@@ -43,11 +43,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[一堂]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-entrepreneur-research-camp]]'
-  - '[[yt-personal-knowledge-extraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 思维模型：从碎片经验到稳定模型
 
@@ -65,20 +65,20 @@ related:
 ### 失败模式
 
 1. **只收集别人的模型，没有自己的提炼**
-   - **原因**：模型囤积
-   - **修复**：每学一个模型，必须用自己的案例重新表述一遍
+   - src_unknown
+   - src_unknown
 
 2. **模型过于复杂，变量太多无法使用**
-   - **原因**：过度设计
-   - **修复**：限制核心变量≤5个，其他作为可选扩展
+   - src_unknown
+   - src_unknown
 
 3. **模型未经反例检验，适用范围被夸大**
-   - **原因**：确认偏误
-   - **修复**：主动寻找3个不符合模型的案例，修正边界
+   - src_unknown
+   - src_unknown
 
 4. **模型只停留在口头，没有写入笔记或流程**
-   - **原因**：缺少固化
-   - **修复**：把模型写成卡片，并链接到相关案例和决策
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -88,9 +88,9 @@ related:
 
 ### 为什么提炼模型是最核心的能力
 
-- 对 CEO/管理者：模型 = 可复用的决策框架，避免每次都从零开始
-- 对个人：模型 = 把碎片经验变成可迁移资产
-- 对团队：模型 = 知识资产化，团队不依赖个人英雄
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Truman 做课模型演化史
 
@@ -105,17 +105,17 @@ related:
 
 核心能力：**一周交付一节原创高质量课程**
 
-- **选品机制**：从市场缺口+学员需求+Truman能力三角交叉选品
-- **调研引擎**：知识萃取五大手段（全网调研/专家访谈/案例大爆炸/辩证式讨论/知行合一验证）
-- **做课SOP**：标准化流程但保留创作空间
-- **验证闭环**：NPS/留存/作业率/好差评驱动迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 教学创新：角色推演法
 
-- 不给结论，给场景和选项
-- 学员代入"当年的Truman"，面对同样的困境做选择
-- 一共六道题，看学员能推到第几步
-- 目的：不是抄作业，而是理解模型是怎么被"找出来"的
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -130,8 +130,8 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-liberate-thinking-layers]]
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

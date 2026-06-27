@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-b2b-vs-b2c
 title: ToB vs ToC需求分析差异：决策链、频率与验证方法
@@ -19,24 +19,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-scenario-reconstruction
-  - yt-demand-decision-chain
-  - yt-demand-qualitative-analysis
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户用ToC方法做ToB产品，只关注使用者，忽视决策者"
+  - src_unknown
     framework_lens: ToB vs ToC差异——ToB必须分析决策链
     follow_up_question: "你的目标用户中，谁是使用者？谁是决策者？谁是采购者？他们的需求分别是什么？"
-  - signal: "用户说'ToB和ToC差不多，都是服务用户'"
+  - src_unknown
     framework_lens: ToB vs ToC差异——忽视决策链、频率、验证方法的差异
     follow_up_question: "ToB的决策链有多长？涉及多少人？决策周期多久？"
-  - signal: "ToB产品用户活跃度低，但用户说'产品很好'"
+  - src_unknown
     framework_lens: ToB vs ToC差异——ToB使用频率天然低于ToC
     follow_up_question: "ToB产品的使用频率预期是多少？是每天、每周还是每月？低频是否等于低价值？"
-  - signal: "ToB产品做了大量功能，但采购决策者只关心ROI"
+  - src_unknown
     framework_lens: ToB vs ToC差异——决策者需求≠使用者需求
     follow_up_question: "决策者采购时最关注什么？ROI、合规、风险，还是效率？"
-  - signal: "用户用ToC的验证方法（快速迭代）做ToB产品"
+  - src_unknown
     framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
     follow_up_question: "ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？"
 
@@ -74,20 +74,20 @@ ToB产品必须分析决策链，不是单一用户：
 ### 2. ToB需求分析的特殊方法
 
 **方法1：组织访谈**
-- 不仅访谈使用者，还要访谈决策者
-- 了解组织的战略目标、痛点、预算周期
+- src_unknown
+- src_unknown
 
 **方法2：PoC（概念验证）**
-- 用试点项目验证需求
-- 关键指标：使用率、效率提升、用户满意度
+- src_unknown
+- src_unknown
 
 **方法3：案例驱动**
-- ToB客户更信任同行案例
-- 关键指标：案例客户、行业标杆、ROI数据
+- src_unknown
+- src_unknown
 
 **方法4：决策链映射**
-- 画出完整的决策链
-- 每个节点的需求、顾虑、影响力
+- src_unknown
+- src_unknown
 
 ### 3. ToB vs ToC的频率差异
 
@@ -133,21 +133,21 @@ ToB验证不能追求"快速迭代"，需要管理周期：
 
 ## 行动触发器
 
-- 当做ToB产品时 → 先画出决策链
-- 当验证ToB需求时 → 用PoC替代快速迭代
-- 当谈ToB价值时 → 证明ROI，不是功能列表
-- 当设计ToB产品时 → 考虑低频高痛的使用场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-decision-chain`：ToB决策链需求分析
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-five-step-method`：五步法总纲
-- `xujian-tob-fivestep-oral`：徐建ToB五步法口述
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂ToB五步法专题（徐建，2026-06-16）
-- 一堂ToB案例库
+- src_unknown
+- src_unknown
+- src_unknown

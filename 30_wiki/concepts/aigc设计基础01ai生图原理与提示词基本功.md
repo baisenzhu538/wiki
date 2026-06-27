@@ -4,8 +4,8 @@
 id: aigc设计基础01ai生图原理与提示词基本功
 created_at: 2026-05-28
 domain:
-- ai-saas
-- design
+- src_unknown
+- src_unknown
 source_refs:
   - src_20260528_2ba8539f-aigc设计基础01ai生图原理与提示词基本功
 status: draft
@@ -13,18 +13,18 @@ title: AIGC设计基础01：AI生图原理与提示词基本功
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[tool-月白-分层自洽海报生成法]]'
-  - '[[tool-月白-AI设计严苛批评法]]'
-  - '[[tool-月白-AIGC模型选型决策法]]'
-  - '[[tool-月白-AI模型选择策略]]'
-  - '[[tool-月白-精准提示词消除模型幻觉]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # AIGC设计基础01：AI生图原理与提示词基本功
 
@@ -59,16 +59,16 @@ related:
 
 ### Synthesize
 
-- 弥补了现有 [[design-ai-image-generation]] 卡片的信息密度不足——该卡仅记录了一条 NANO BANANA PRO 链接，无实质内容。本卡可作为该卡的上位替换。
-- 与 [[yt-unit-model-overview]] 的"工具选择"逻辑一致：不同模型在不同场景有比较优势，核心能力是**在约束条件下做最优选择**而非盲目追求最新。
-- "AI出选项，人做选择"的判断与 [[kdo_product_design_agent_final]] 中"AI是协作者而非替代者"的立场一致。可引用至设计域的工具方法论。
-- 一抽流 vs 短提示词的"够用就好"原则，与一堂讲香十指模型中"精准比华丽更重要"的底层逻辑相通。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Content: "AI设计模型选择决策树"或"提示词长度-效果曲线分析"文章
-- Code: 逆向提示词模板的交互式 Web 工具
-- Capability: workflow — "从任意图片反推提示词并重用"的标准化工作流
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Design Domain Context
 

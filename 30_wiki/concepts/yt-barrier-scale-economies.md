@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-scale-economies
 title: 规模经济：成本优势
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-supply-chain
-  - yt-barrier-moat-assessment
-  - yt-business-model-unit-economics
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的成本比竞品高'"
+  - src_unknown
     framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
     follow_up_question: "你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？"
-  - signal: "用户说'我们规模化后，成本反而上升了'"
+  - src_unknown
     framework_lens: 规模经济——规模不经济，需要诊断原因
     follow_up_question: "成本上升是因为管理复杂度、供应链、还是质量控制？"
-  - signal: "用户说'我们的规模优势被竞品追上了'"
+  - src_unknown
     framework_lens: 规模经济——规模优势需要持续扩大，不是一劳永逸
     follow_up_question: "你的规模优势是什么？竞品的规模增长多快？"
-  - signal: "用户说'我们在小市场有规模优势，但大市场没有'"
+  - src_unknown
     framework_lens: 规模经济——规模经济有地域和品类边界
     follow_up_question: "你的规模经济是局部的还是全局的？如何扩展到更大市场？"
-  - signal: "用户说'我们的规模经济是成本优势，但用户不敏感'"
+  - src_unknown
     framework_lens: 规模经济——成本优势需要转化为用户价值
     follow_up_question: "你的成本优势是否转化为价格优势或质量优势？用户是否感知？"
 
@@ -55,10 +55,10 @@ diagnostic_signals:
 规模经济存在时：产量增加 → 单位成本下降
 
 规模经济来源：
-- 固定成本分摊
-- 采购议价能力
-- 生产效率提升
-- 学习曲线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ## 关键洞察
@@ -135,21 +135,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当成本高时 → 分析规模经济
-- 当规模化时 → 监控成本曲线
-- 当竞争时 → 成本领先策略
-- 当管理复杂时 → 组织优化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-supply-chain`：供应链壁垒
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 规模经济研究
-- 成本领先战略（Porter）
+- src_unknown
+- src_unknown
+- src_unknown

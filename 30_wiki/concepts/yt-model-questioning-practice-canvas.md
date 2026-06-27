@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "使用场景矩阵"
-  - "关联卡片"
-  - "四层提问能力框架"
-  - "提问刻意练习提升画布"
-  - "核心方法论要素"
-  - "知识体系定位"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
@@ -30,7 +30,7 @@ yitang:
   module: "提问能力"
   course_type: model
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户看了四层框架但提问能力没提升', 'framework_lens': '只看不练', 'follow_up_question': '你最近一周在多少个真实场景中刻意练习了不同层级的提问？'}
   - {'signal': '用户只在业务分析层练习，不跨层', 'framework_lens': '练习单一', 'follow_up_question': '你最近一次在辅导团队或咨询教练场景中使用提问工具是什么时候？'}
@@ -38,11 +38,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-model-scientific-questioning-map]]'
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
-  - '[[yt-entrepreneur-research-camp]]'
-  - '[[yt-model-ipo-learning-strategy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 提问刻意练习提升画布 (By YITANG)
 
@@ -118,7 +118,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-scientific-questioning-map]]
+- src_unknown
 
 ## Synthesis
 

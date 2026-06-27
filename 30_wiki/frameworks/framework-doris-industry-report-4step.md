@@ -14,39 +14,39 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - research- yitang
-  - research
+  - src_unknown
+  - src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 行业报告
-- 行业调研
-- 快速建立行业认知
-- 行业报告调研
-- 行业研究
-- 7天行业认知
-- Doris行业报告
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown调研
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-doris-industry-report-search-tips]]'
-  - '[[framework-yitang-expert-interview-10steps]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[tool-yitang-database-index]]"
-  - "[[tool-doris-industry-report-search-tips]]"
-  - "[[tool-doris-industry-report-source-evaluation]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[case-doris-grab-industry-cognition]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -86,15 +86,15 @@ Step 4: 判断信息可信度
 ### 核心原则：没有目标就不要谈效率
 
 **错误目标**：
-- "了解一下这个行业"
-- "看看行业报告"
-- "收集一些行业数据"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **正确目标**（创业者视角）：
-- "判断这个赛道是否值得进入，市场规模和增速如何"
-- "在BP中说服投资人，我的赛道空间很大"
-- "找到产业链的关键环节和利润分布"
-- "识别行业正在发生的变化和机会点"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 行业预判六要素（画布）
 
@@ -109,10 +109,10 @@ Step 4: 判断信息可信度
 
 ### 目标检查清单
 
-- [ ] 我的调研目标是否与一个具体创业决策相关？
-- [ ] 我是否知道需要回答哪几个关键问题？
-- [ ] 我是否了解行业预判六要素？
-- [ ] 我的时间预算是否现实（7天/10-15小时）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -266,25 +266,25 @@ Step 4: 判断信息可信度
 
 ## 关联卡片
 
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[yt-research-industry-canvas]] — 行业分析画布
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[tool-yitang-database-index]] — 数据库索引
-- [[tool-doris-industry-report-search-tips]] — 行业报告搜索技巧
-- [[tool-doris-industry-report-source-evaluation]] — 报告来源评估
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[dk-yitang-research-ai-hallucination]] — AI调研幻觉
-- [[case-doris-grab-industry-cognition]] — Doris Grab案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：Doris-行业报告调研-口述（Grab产品经理，2020）
-- 验证：Doris-行业报告调研-笔记
-- 交叉：business-research-skill 行业报告模块
-- 注意：四步法命名来自口述原文，7天计划为建议节奏，可根据实际情况调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

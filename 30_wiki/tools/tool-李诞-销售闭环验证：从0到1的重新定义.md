@@ -3,7 +3,7 @@ id: tool-李诞-销售闭环验证：从0到1的重新定义
 title: 技能：销售闭环验证：从0到1的重新定义
 type: tool
 domain:
-- content-production- marketing
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-李诞-个人IP的重新定义与输出策略]]'
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：销售闭环验证：从0到1的重新定义
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 产品开发完成后不知如何推广时
-- 感觉'万事俱备只欠东风'但长期无法变现时
-- AI工具让生产变容易后，竞争加剧时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 产品尚未完成MVP（最小可行产品）
-- 处于纯创意探索期，未考虑商业化时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 销售漏斗分析
-- 用户访谈/付费意愿测试
-- 电商平台/私域转化路径
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ AI让生产成本趋近于零，所有品类供给过剩。用户买一个垃圾
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

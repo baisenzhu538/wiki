@@ -4,18 +4,18 @@ title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
 dark_knowledge_type: pattern
 diagnostic_signals:
-  - AI 初稿看起来“还行”，但你总觉得离可复用资产还差一口气
-  - 你能指出 AI 输出中具体的结构、逻辑或优先级问题，但不知道还能榨多少空间
-  - 同一份 Prompt/Skill/指南需要被反复使用，质量每提升 10% 长期收益会被放大
-  - 你习惯一次性让 AI 改完，改完就停止，很少追第二、第三轮
-  - 产出缺少 MECE、排序、逻辑链、To Do / Not To Do 等工程化要素
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
 created_at: '2026-06-14'
@@ -26,15 +26,15 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[modeling-capability-for-kdo]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[dk-modeling-ai-without-judgment]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#method/modeling'
-  - '#method/prompt-engineering'
-  - '#chunk-type/process-data'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 
 ## 原始表述 / 核心洞察
@@ -45,21 +45,21 @@ tags:
 
 ## 使用场景
 
-- 你需要 AI 产出高质量、可复用的结构化资产（Skill、Prompt、指南、模型）
-- AI 第一次生成的内容看起来“还可以”，但你知道离你的标准还有距离
-- 你要把个人审美和判断固化成可复用的工程标准
-- 同一份资产会被高频复用，值得投入多轮迭代榨取质量
-- 你希望通过与 AI 的对抗式迭代，把自己对“好”的定义也打磨得更清晰
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **先让 AI 产出 1.0**：不要过早挑刺，先有一个完整版本。清晰表达你对这份资产的“美好想象”和成功标准。
 2. **逐轮指出具体缺陷**：不要泛泛说“不够好”，要指出具体维度：
-   - 架构不完整
-   - 模块遗漏（MECE 问题）
-   - 逻辑不严谨
-   - 缺少逻辑链
-   - 优先级不清
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **要求 AI 自检**：让 AI 自己检查 MECE、顺序、内在规律，把一部分纠错责任交还给它。
 4. **重复直到上限**：通常 5–15 轮，到你能力的上限为止——直到你提不出更高质量的问题。
 5. **交叉验证**：用外部标杆、案例或第二来源撞一下，吸收优点，补齐盲区。
@@ -67,11 +67,11 @@ tags:
 
 ## 适用边界
 
-- 适用于需要长期复用、质量要求高的资产
-- 不适用于一次性、低价值的任务
-- 要求你对领域有足够判断，否则挑不出真问题
-- 当任务目标本身模糊时，反复挑错容易陷入无效内卷
-- 当时间成本远高于质量收益时，应降低迭代轮数或接受 80 分版本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -90,10 +90,10 @@ AI 的好处是：你怎么说它都改，态度永远好。人类的迭代受�
 
 ## 与其他知识的关联
 
-- [[tool-ai-skill-engineering-method]] —— 完整六步工作流，多轮挑错通常发生在“迭代打磨”阶段
-- [[case-truman-ai-skill-engineering-guide]] —— 这个暗知识的来源案例，展示了十几轮挑错的实际记录
-- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己，可与挑错交替使用
-- [[dk-modeling-ai-without-judgment]] —— 警惕“让 AI 自己迭代”而人类不投入判断的陷阱
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

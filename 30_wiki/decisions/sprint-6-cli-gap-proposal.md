@@ -5,22 +5,22 @@ title: Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
+- src_unknown
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs: []
 reviewer: 欧阳锋
 related:
-  - '[[dk-p13-token-burn]]'
-  - '[[dk-p16-validate-reads-state-json]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[dk-f3-state-json-race-condition]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6
@@ -56,8 +56,8 @@ trust_level: low
 
 ### 5-6 的依赖分析
 
-- `kdo produce --stats`：需要从 state.json 读取 produce 记录。当前 state.json 只记录 artifact 元数据，缺少"创建者、耗时、标签分布"等统计字段。**需先扩展 state.json schema。**
-- `kdo flywheel status`：需要飞轮迭代的持久化记录——当前飞轮只存在于人的记忆和文章 Feedback 段里。**需先建 `.kdo/flywheel_state.json`。**
+- src_unknown
+- src_unknown
 
 ---
 
@@ -73,8 +73,8 @@ trust_level: low
 
 ## 四、不做什么
 
-- **不做** `kdo query` 的实时查询日志——当前 Graph RAG 没有持久化查询历史。加这个需要改造 graph.py，ROI 不高。
-- **不做** `kdo label --stats`——label 统计已可通过 `kdo query --aggregate` 间接获得。
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,8 +4,8 @@ id: dk-ef-001-sn74lvc2g07-open-drain
 title: 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 type: dk
 domain:
-- entrepreneurship
-- ai-saas
+- src_unknown
+- src_unknown
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 广冷红外板 V2.2 调试——SN74LVC2G07 驱动 595 移位寄存器时数据不稳定
@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - '[[dk-ef-004-missing-diagnostic-firmware]]'
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
@@ -40,11 +40,11 @@ trust_level: medium
 
 ## 使用场景
 
-- 你用开漏/开集芯片（SN74LVC2G07、SN74LVC1G07、ULN2003 等）做电平转换
-- 信号线上有明显的 RC 充电曲线而非方波
-- 偶尔丢数据、偶尔正常——不是必现，概率性的
-- 降速能改善、提速就出错
-- 换了更长的线缆或加了更多负载后开始出错
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -55,9 +55,9 @@ trust_level: medium
 
 ## 适用边界
 
-- 适用于电平转换 + 单总线/SPI/I2C 等有时序要求的场景
-- 不适用于纯 DC 信号（LED 指示灯、按键检测）——这些场景对边沿速度无要求，开漏+大上拉电阻完全够用
-- 如果信号频率 >1MHz，即使上拉电阻很小，开漏输出也可能跟不上——此时必须用推挽输出
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 

@@ -2,7 +2,7 @@
 id: obsidian-kdo-内容产出工作流-产品设计大纲
 created_at: 2026-05-01
 domain:
-- ai-saas
+- src_unknown
 source_refs:
 - src_20260501_58b6edef
 status: superseded
@@ -11,7 +11,7 @@ title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.75
@@ -40,45 +40,45 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 ## Critique
 
 **对结论1（双模态填补空白）：**
-- 前提假设：目标用户需要"本地优先"。但大量用户已接受云优先（Notion/Tana 用户并未因非本地而流失），本地优先是否是真实痛点还是小众需求？KDO 的 TAM（可获取市场规模）取决于"本地优先"这一偏好的实际渗透率。
-- 边界：Obsidian 社区有 200万+ 用户（2025年），但其中多少人有"内容产出管理"需求、多少仅用于个人笔记，尚无精确数据。
-- 可靠性：**中**。定位逻辑正确，但市场需求验证不足。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论2（三大支柱）：**
-- 前提假设：反馈闭环（SHA-256快照+修订链）在个人创作者场景中有实际使用价值。但这个设计灵感来自学术和教育AI领域的验证，其获益在小规模个人使用场景中可能微乎其微——一个人不需要"密码学级别的修订追溯"来管理自己的博客文章。
-- 边界：三大支柱中"流程纪律"和"人机共享 Wiki"是即时可感知的价值，"反馈闭环"的价值需要长期积累（多轮迭代后才会显现差异）。
-- 可靠性：**中高**。设计正确，但价值感知曲线前低后高，可能影响早期采用率。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论3（三类目标用户）：**
-- 前提假设：三类用户可以通过同一套系统满足。但深度 Obsidian 用户（关注知识网络连通性）和 AI 辅助创作者（关注 enrich 自动化程度）的使用深度差异可能导致系统设计在两端都不够极致。
-- 边界：团队用户需要协作状态同步（如多人编辑冲突解决），KDO 当前基于文件系统的架构在这方面有天然限制。
-- 可靠性：**中**。用户分群合理，但"一套系统服务三类用户"可能导致定位模糊。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论4（Enrich 分级策略）：**
-- 前提假设：结构化提取能弥补 LLM 缺失时的 enrich 空白。但实测中169行原文被压缩为38行的根本原因不是"是否需要LLM"，而是 extractors.py 的正则抽取逻辑过于简陋——即使不加 LLM，改进结构化提取也能显著提升 Level 1 的效果。
-- 边界：Level 1 的结构化提取对报告/论文类文档效果更好（本身有章节结构），对随笔/对话类素材效果有限。
-- 可靠性：**高**。分级策略是正确的工程权衡，已在实际测试中验证必要性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论5（本地优先=长期基础设施）：**
-- 前提假设：Markdown + Git 是够好的长期存储格式。但本地文件系统在移动端访问、跨设备同步方面有真实痛点。Obsidian 已通过 Obsidian Sync 解决了"同步"问题，但"状态管理的跨设备一致性"是额外挑战——两个设备上的 `kdo status` 可能给出不同结果。
-- 边界：本地优先的价值在"数据主权"上最强（vs 云端闭源），在"协作便利性"上最弱（vs Notion/飞书文档）。
-- 可靠性：**中**。方向正确，但跨设备一致性是未解决的工程挑战。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 **与现有概念的关联：**
-- [[kdo-protocol]] — 本页面是 KDO 的"产品设计大纲"（愿景、定位、用户、架构），KDO Protocol 是"操作手册"（规则、Schema、角色、命令）。两者互补：大纲解释了"为什么这样设计"，Protocol 规定了"怎么操作"。
-- [[index]] — Index 是知识图谱的"入口层"，KDO 工作流是"生产过程层"。Index 的节点（概念、决策、系统）通过 KDO 的八阶段流水线被逐步编译为可交付内容。
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — Kimi 深度调研是 enrich 阶段的一种具体方法（多维度研究+交叉验证），KDO 工作流提供了该方法被嵌入的执行框架（阶段+门禁+追溯）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **与已有概念的矛盾/互补：**
-- **矛盾**：KDO 强调"流程纪律"（八阶段不可绕过），而 Obsidian 的设计哲学强调"自由探索"（无结构约束）。两者在界面层无冲突（Obsidian 只管创作），但在用户心智模型层面可能存在张力——用户需要同时接受"自由"和"约束"两种对立理念。
-- **互补**：与 [[紫鲸ai智能体工作流平台]] 的互补——紫鲸的 6 个 Agent（定位/选题/文案/运营）可以作为 KDO Produce 阶段的具体执行器，KDO 为这些 Agent 提供状态追踪和质量门禁的编排层。
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- "画布+流水线"双模态架构可迁移至任何需要"创作自由+产出纪律"的知识工作场景（如学术论文写作、产品文档管理、技术博客运营）。
-- Enrich 分级策略（Level 1 结构化提取 + Level 2 LLM 智能补全）可迁移至其他需要 AI 协作但不确定 LLM 可用性的内容管道。
-- 八阶段流水线的阶段定义和门禁逻辑可迁移至教育（课程设计流水线）、法律（判例研究流水线）、咨询（报告生产流水线）等专业领域。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -95,9 +95,9 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 6. **单机月成本 $0.6 假设的有效性**：这个估算基于哪些 LLM API 调用频率的假设？在实际使用中（如每日运行一次完整的 enrich→produce→validate 循环），月度成本的上限是多少？
 ## Output Opportunities
 
-- Content: 可撰写《从笔记到交付——KDO 八阶段内容流水线完全指南》；或《本地优先 vs 云优先：知识管理工具的下一代架构之争》
-- Code: 可开发 enrich 分级引擎——Level 1 结构化提取器（保留表格/列表/引用块/分层标题），Level 2 LLM 智能补全插件（读取 wiki 上下文+memory后自动填充 Reusable Knowledge）
-- Capability: 可提炼为"内容工厂建设方法论"：从"画布+流水线"架构设计到八阶段实施到反馈闭环验证的完整框架
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

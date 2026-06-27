@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Internet Archive Wayback Machine (web.archive.org)
-- web: OSINT tools comparison 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-firecrawl]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-overview]]'
-  - '[[tool-osint-shodan]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-weapon-public-official-info]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Wayback Machine：网站时光机
@@ -74,9 +74,9 @@ curl "http://web.archive.org/cdx/search/cdx?url=target.com&output=json&limit=10"
 
 ## 适用边界
 
-- **适用**：有官网的公司、需要追踪历史变化的竞对分析
-- **不适用**：纯App/小程序产品（没有Web端）、SPA应用
-- **成本**：完全免费
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

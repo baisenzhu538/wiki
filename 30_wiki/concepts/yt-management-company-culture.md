@@ -5,25 +5,25 @@
 title: 公司文化
 type: concept
 domain:
-  - management- management
-  - business-strategy
-  - ai-saas
-  - design
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 公司把文化当墙上标语
+- src_unknown
   framework_lens: 口号论
   follow_up_question: 你们公司的晋升、奖惩、招聘标准和文化价值观一致吗？如果不一致，文化是口号
-- signal: 制度和价值观不一致
+- src_unknown
   framework_lens: 三层不一致
   follow_up_question: 如果员工按制度做会违反价值观，他会怎么选？如果选制度，文化没落地
-- signal: 高绩效员工开始用"和文化不合"解释离职
+- src_unknown
   framework_lens: 信号冲突
   follow_up_question: 过去6个月离开的明星员工中，有多少人提到文化冲突？如果≥2人，文化已在驱逐你真正想留的人
-- signal: 全员会议上公开质疑创始人后，气氛明显变冷或质疑者被边缘化
+- src_unknown
   framework_lens: 创始人言行不一
   follow_up_question: 上一次有人在全员会议上公开质疑你时，你的第一反应是追问事实还是解释/压下？后者说明墙上的"坦诚"未落地
 updated_at: '2026-06-16'
@@ -37,16 +37,16 @@ source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 related:
-  - '[[yt-management-founder-role]]'
-  - '[[yt-management-basic-skills]]'
-  - '[[tool-一堂-product-kernel-canvas]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - "[[yt-management-founder-role]]"
-  - "[[yt-management-goal-management]]"
-  - "[[yt-management-business-formula]]"
-  - "[[yt-tool-hiring-scorecard]]"
-  - "[[yt-model-management-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 公司文化
 
@@ -62,9 +62,9 @@ related:
 
 文化是业务公式、目标管理、战略会议等所有"硬工具"的底层操作系统。它解决的是规则覆盖不到、信息不完全、时间压力之下的默认行为问题：
 
-- **没有文化，战略无法落地**：战略决定方向，文化决定组织是否愿意、是否能够朝那个方向持续行动。
-- **没有文化，人才会被逆向筛选**：当高绩效但价值观不匹配的人被留下，而坚持价值观的人离开，组织会迅速劣币驱逐良币。
-- **没有文化，扩张会稀释一切**：从 50 人到 200 人，如果缺乏制度化传递，创始人亲自传递的文化信号会在中层断层，最终变成每个新团队各自的"亚文化"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 一句话：文化是组织在无人监督时的行为默认值。
 
@@ -146,9 +146,9 @@ related:
 
 课程首先批判对文化的三种常见误解：
 
-- **口号论**："文化就是我们的使命愿景价值观" —— 停留在墙上的文化不是文化
-- **自然论**："公司做大了文化自然就形成了" —— 自然形成的往往是劣币驱逐良币
-- **无关论**："小公司活下来最重要，文化是大公司的事" —— 文化的种子在第一天就埋下了
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的文化定义**：文化 = 组织中一致的行为模式 × 支撑这些行为的共同信念 × 维持这些行为-信念的制度系统。
 
@@ -171,10 +171,10 @@ related:
 
 ### 文化落地的关键工具
 
-- **文化面试**：在招聘流程中加入专门的价值观匹配度评估环节
-- **价值观行为锚定**：将每个价值观转化为具体的行为描述（"什么叫有担当？——出了问题第一时间认领而非甩锅，并且给出初步改进方案"）
-- **文化故事收集**：定期收集和传播"体现公司文化的真实故事"，故事比口号有感染力
-- **红线机制**：明确列出"触犯则必须离开"的行为条目（如诚信问题、诋毁用户、性骚扰等）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -239,18 +239,18 @@ Schein 的核心洞见：**真正驱动组织行为的是第三层——深层�
 
 ### 关联卡片
 
-- [[yt-management-founder-role]] — 一号位（创始人角色）：文化构建是创始人不可委托的职责，创始人是文化的第一责任人
-- [[yt-management-goal-management]] — 目标管理：目标管理决定"做什么"，文化决定"怎么做"以及"愿不愿意做"
-- [[yt-management-business-formula]] — 管理业务公式：业务公式定义价值创造逻辑，文化决定组织能否在公式未覆盖的场景中做出正确选择
-- [[yt-tool-hiring-scorecard]] — 招聘打分卡：招聘是文化落地的第一道闸门——用结构化打分卡把价值观匹配度从感觉变成可评估项
-- [[yt-model-management-map]] — 管理修炼地图：公司文化是"管公司"模块的核心基础设施，与管项目、管团队、管业务形成完整管理视图
-- [[yt-management-scientific-hiring]] — 科学招聘：招聘是文化落地的第一道闸门——招错一个人会稀释整个团队的文化
-- [[yt-management-onboarding]] — 新人落地：新人入职期是文化植入的黄金窗口期
-- [[yt-management-strategy-meeting]] — 战略会：战略决定方向，文化决定组织能否到达那个方向
-- [[yt-management-partnership-equity]] — 合伙股权：股权分配背后本质是价值观分配——谁创造了价值，如何衡量贡献
-- 一堂底层逻辑 — 科学理念/实事求是：一堂底层哲学与公司文化构建一脉相承
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：文化是组织最强大的"非武器化武器"——你无法像 OKR 或业务公式那样直接操用它，但它决定了你操用任何武器时的有效性
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Schein 和 Martin 的共同指向——文化的传播不是靠"贴"而是靠"讲"。创始人反复讲的故事、在关键时刻说的话、在全员面前如何回应争议——这些才是文化真正的传播媒介
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -271,6 +271,6 @@ Schein 的核心洞见：**真正驱动组织行为的是第三层——深层�
 
 ### 跨学科锚点
 
-- 埃德加·沙因（Edgar Schein）的组织文化三层次模型（人工制品→信奉的价值观→基本假设）是本课程框架的理论源头，一堂将其简化为信念层→行为层→系统层。
-- Netflix 的《自由与责任》文化手册（Freedom & Responsibility Culture Deck）是企业文化构建的标杆实践——它的核心不是"自由"而是"高人才密度下的自由"。
-- Ben Horowitz《创业维艰》中关于"和平时期 CEO vs 战争时期 CEO"的区分，对理解不同阶段文化构建策略有参考价值。
+- src_unknown
+- src_unknown
+- src_unknown

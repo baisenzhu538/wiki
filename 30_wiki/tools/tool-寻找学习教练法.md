@@ -4,29 +4,29 @@ title: 技能：寻找学习教练法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-多源输入法]]'
-- '[[tool-分享输出检验法]]'
-- '[[tool-辩证讨论法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-多源输入法]]'
-- '[[tool-分享输出检验法]]'
-- '[[tool-辩证讨论法]]'
-- '[[concept-问题驱动式深度思考笔记]]'
-- '[[tool-从案例中学习正反案例法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 专家网络
-- 访谈提纲
-- 调研工具
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 找了好朋友当教练，对方不忍心说真话
+- src_unknown
   lens: 熟人教练陷阱
   follow_up: 教练的价值在客观反馈不在友善鼓励，优先找非熟人或付费教练
-- signal: '''老师您给我讲讲怎么提升''——教练无法回答'
+- src_unknown
   lens: 问题抽象
   follow_up: 好的教练请求必须带具体场景+已尝试结果+困惑点，48小时内可试验
-- signal: 每个教练跟三个月就换，永远在初级阶段
+- src_unknown
   lens: 频繁换教练
   follow_up: 深度教练关系需要时间建立信任和上下文，教练价值随了解深度指数增长
-- signal: 教练给框架后说'太复杂了直接告诉我怎么做'
+- src_unknown
   lens: 买鱼心态
   follow_up: 区分买鱼和学钓鱼，教练给的是能力不是答案，需要耐心迭代
-- signal: 没教练就不会做，独立判断力缺失
+- src_unknown
   lens: 依赖陷阱
   follow_up: 教练是反馈镜不是拐杖，目标是培养独立判断力而非永久依赖
 ---
@@ -92,21 +92,21 @@ diagnostic_signals:
 ## Critique
 
 1. **教练的价值不在于“给答案”，而在于“给反馈”**
-   - 好教练不是知识库，而是“照妙镜”——让你看到自己看不到的皤洞
-   - 身边标杆的价值在于"可观察的行为“，而不是"夸夸其谈的经验"
+   - src_unknown
+   - src_unknown
 
 2. **没有具体问题的教练请求是时间浪费**
-   - “老师您给我讲讲怎么提升” = 教练无法回答的问题
-   - 好的教练请求必须带有"具体场景+已尝试结果+困惑点"
+   - src_unknown
+   - src_unknown
 
 3. **深度教练关系需要时间累积信任和上下文**
-   - 频繁换教练 = 永远在初级阶段
-   - 教练的价值随着对你的了解深度指数级增长
+   - src_unknown
+   - src_unknown
 
 ## 工具/环境
-- 专家网络
-- 访谈提纲
-- 调研工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -126,10 +126,10 @@ diagnostic_signals:
 4. 最近一次互动后，我的行为/思维有改变吗？如果没有，需要检查是教练问题还是自己问题。
 
 ## 常见失败模式
-- 把熟人当教练：找了好朋友当教练，对方不忍心说真话——教练的价值在"客观反馈"不在"友善鼓励"
-- 没有具体问题就去找教练："老师您给我讲讲怎么提升"——教练最怕抽象问题，最需要"我上周做了X，结果是Y，您觉得问题在哪"
-- 只想听答案不想听过程：教练给你一个框架，你说"太复杂了直接告诉我怎么做"——买鱼和学钓鱼的区别
-- 频繁换教练：每个教练跟三个月就换，永远在初级阶段——深度教练关系需要时间建立信任和上下文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -145,30 +145,30 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **教练质量不均衡：**“高手”不等于“好教练”，很多行业顶尖人才并不擅长教学
-- **成本被低估：**真正高质量的1v1教练极其昂贵，大多数人承受不起
-- **匹配困难：**找到一个既懂你的领域又愿意花时间带你的教练，概率极低
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **平行输入：**[[tool-多源输入法]] — 教练是高质量输入的一种，和阅读/听课互补
-- **反馈循环：**[[tool-分享输出检验法]] — 拿自己的输出给教练看，是最有效的反馈方式
-- **深度对话：**[[tool-辩证讨论法]] — 和教练的深度对话，本质上是一种辩证讨论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂科学学习IPO中，本技能位于 **输入层(Input)→从高手中学**
-- 与"从资料中学"“从事学”并列
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **教育学（最近发展区）：**教练的价值在于引导学习者走出"最近发展区"——独立解决初级问题的能力
-- **传播学（知识溢出）：**高手的隐性知识（tacit knowledge）通过教练关系传递效率最高
-- **组织行为学（师徒制）：**传统工匠行业的师徒制是"教练模式"的最佳实践——上手实战+反馈环路+长期关系
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-多源输入法]] — 教练是高质量输入的一种，和阅读/听课互补
-- [[tool-分享输出检验法]] — 拿自己的输出给教练看，是最有效的反馈方式
-- [[tool-辩证讨论法]] — 和教练的深度对话，本质上是一种辩证讨论
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输入(Input)层 L2.从高手中学：找顾问/教练，找身边标杆，全网调研，专家访谈

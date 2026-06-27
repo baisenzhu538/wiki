@@ -3,8 +3,8 @@ id: tool-Truman-AI辅助思考伙伴养成
 title: 技能：AI辅助思考伙伴养成
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-低质量动作识别与拒绝]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI辅助思考伙伴养成
 
@@ -37,24 +37,24 @@ AI辅助思考伙伴养成是Truman在AI时代判断力中提出的实操方法�
 
 ## 适用场景
 
-- 需要持续学习新领域时
-- 独立思考容易陷入情绪或偏见时
-- 需要快速验证想法时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 涉及敏感隐私数据时
-- 需要深度创造性突破时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 移动端AI应用（豆包等）
-- 多模型对比使用
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -62,12 +62,12 @@ AI辅助思考伙伴养成是Truman在AI时代判断力中提出的实操方法�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

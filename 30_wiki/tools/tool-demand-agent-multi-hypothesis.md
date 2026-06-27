@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
-- web: Swarm multi-agent architecture (LangGraph)
+- src_unknown
 related:
-  - '[[tool-demand-agent-case-match]]'
-  - '[[framework-demand-lean-bridge]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-agent-research-swarm]]'
-  - '[[five-step-domain-digest]]'
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-agent-research-swarm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent L3多假设并行
@@ -57,8 +57,8 @@ best = cross_compare(results, criteria=["方案中立", "可测量", "覆盖度"
 
 ## 适用边界
 
-- **适用**：L1/L2完成后，需要从多个角度定义核心任务
-- **不适用**：需求非常明确的场景
+- src_unknown
+- src_unknown
 
 ---
 

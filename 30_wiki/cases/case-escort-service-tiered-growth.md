@@ -6,16 +6,16 @@ confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang
+  - src_unknown
 estimated_tokens: 1800
 language: zh-CN
 query_triggers:
-  - "陪诊业务"
-  - "医疗陪诊"
-  - "陪诊创业"
-  - "保2争4"
-  - "七级演进"
-  - "陪诊案例"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -34,15 +34,15 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[case-coffee-shop-foresight]]'
-  - '[[dk-foresight-tier-skip-illusion]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[yt-foresight-business-spectrum]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：陪诊业务七级演进
 
@@ -56,9 +56,9 @@ related:
 
 ### 案例背景
 
-- **案主：**想在一线城市创业做陪诊服务
-- **核心困惑：**不确定要做多大，也不确定自己能做多大
-- **一堂方法：**用终局光谱图的7级模型拆解，帮助案主看清不同终局对应的生意本质
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 七级演进详解
 
@@ -77,9 +77,9 @@ related:
 **“这些不同终局对应的生意完全不同，不太可能保1争7”**
 
 案主的实际决策：
-- **保2**：保住个体层级，全职做陪诊，靠口碑和小红书获客，月收入1-3万元保障生活
-- **争4**：争取小规模层级，尝试复制陪诊师、通过线上获客、建立SOP，月收10-30万元
-- **最终目标**：做成一个有10-20人员工的小公司，家人生活稳定保障
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Lessons
 

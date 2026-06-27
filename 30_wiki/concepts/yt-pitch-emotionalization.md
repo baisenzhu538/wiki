@@ -4,31 +4,31 @@
 
 id: yt-pitch-emotionalization
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 情绪化
-- 唤起情绪
-- 恐惧营销
-- 向往情绪
-- 好奇情绪
-- 认同情绪
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,15 +37,15 @@ title: 讲香·情绪化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能明确识别要唤起的具体情绪（恐惧/向往/好奇/认同）
+- src_unknown
   framework_lens: 情绪是具体工具
   follow_up_question: 这个内容到底想让用户感到什么？
-- signal: 情绪与用户的真实目标和痛点相连，而不是凭空制造
+- src_unknown
   framework_lens: 情绪需要锚点
   follow_up_question: 用户产生这个情绪后，会更有动力解决什么问题？
-- signal: 情绪强度与场景匹配，不过度操纵
+- src_unknown
   framework_lens: 情绪有伦理剂量
   follow_up_question: 如果我是用户，我会觉得被理解还是被利用？
 updated_at: '2026-06-16'
@@ -68,40 +68,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **用恐惧情绪恐吓用户，引发反感**
-   - **原因**：情绪滥用
-   - **修复**：恐惧必须伴随可行解决方案，且不过度夸大
+   - src_unknown
+   - src_unknown
 
 2. **情绪与产品价值无关，强行煽情**
-   - **原因**：情绪 detach
-   - **修复**：情绪必须指向用户真实痛点或未满足需求
+   - src_unknown
+   - src_unknown
 
 3. **情绪没有出口，用户感动但不行动**
-   - **原因**：情绪无转化
-   - **修复**：情绪高峰后立刻给出明确行动路径
+   - src_unknown
+   - src_unknown
 
 4. **同一内容混合太多情绪，用户混乱**
-   - **原因**：情绪过载
-   - **修复**：一段内容聚焦1-2种主情绪
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 情绪化是尝试找到卖点的情感共鸣和价值认同。没有情绪的表达很平很平淡，一旦增加了情绪、唤起了用户的某种感受，效果会好很多
-- claim:02 [conf=0.85] 情绪化特别适用于：(1) 用户理性上接受但行动上拖延；(2) 卖点需要用户换位感受而非逻辑推导；(3) 竞品功能同质化严重，需要情感维度拉开差距
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **H1 恐惧情绪**：唤醒痛苦、恐惧、严重后果。正着讲用户不一定想要，反着讲损失大家都不想要。例如：除螨产品→「你想象一下你床上那些……」；电动车销售→「孙女坐后面，坏人抱走了你在前面根本不知道」
-- claim:04 [conf=0.85] **H2 向往情绪**：体验收益、美好幻想、安全归属、长期追求。例如：「你希望你未来在给狗狗洗澡的时候，再也不用担心它害怕吹风吗」、「你希望随时需要的时候有人能支持你吗」
-- claim:05 [conf=0.80] **H3 好奇情绪**：提问钩子、惊人事实、直击痛点、挑战常规。例如：「美国人做了那么多年的商业理论在中国水土不服，终于有一个中国团队做了一套模型竟然跑通了，你不好奇想来看一眼吗」
-- claim:06 [conf=0.80] **H4 认同情绪**：公司使命、个人追求、回望初心。例如：阿蕊讲训练营时不讲「我们在卖课」，而是讲「作为一家严肃教育公司我们如何理解『练』这件事」——通过唤起对使命的共鸣来完成转化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **电动车儿童座椅**：一个骑了五年旧车的老人不舍得花三四千换车，销售说：「旧车前面空间小，孙女只能坐后面，一旦摔倒或坏人抱走，你到后面保护都保护不了。我们把座椅放前面就是为了让你随时看着她，你难道不希望她安全一点吗？」——恐惧情绪唤醒后15分钟内立刻交钱
-- claim:08 [conf=0.85] **一堂训练营招生**：不讲训练营具体学什么，而是讲「一堂同学缺练，L2到L4跨越通常需要以年甚至十年为单位。我们把你未来十年才有机会遇到的难题拉到两天时间带你们走一遍」——唤起对成长瓶颈的恐惧+对进步的向往+对严肃教育使命的认同
-- claim:09 [conf=0.80] **阿蕊爆款脚本**：至少用了5个情绪化策略点——恐惧（没有体系=盲人摸象/决策打水漂）、向往（拥有体系=自信从容/翻着翻的往上涨）、认同（我也不是天才，我也是硬学的）——情绪是最密集使用的策略类
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -116,10 +116,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：情绪化是抽象化第三指，四层修炼之增强层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库中的 H1-H4 情绪化战术
+- src_unknown
 
 ## Synthesis
 

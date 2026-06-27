@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,8 +39,8 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用底层方法论（如思维链、少样本学习等元策略），这些相对稳定
-- 也不适用于完全封闭的私有化部署场景（模型版本冻结时有效期可延长）
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -48,4 +48,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb6-midjourney-chinese-text-fix]] — Midjourney中文文字修复极简提示词
+- src_unknown

@@ -11,10 +11,10 @@ domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 related:
-- "[[framework-strategy-five-basics]]"
+- src_unknown
 ---
 **四象限**：
-- 高影响力+高急迫 → A 立即行动
-- 高影响力+低急迫 → B 列入计划
-- 低影响力+高急迫 → C 中长期
-- 低影响力+低急迫 → D 伺机而动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

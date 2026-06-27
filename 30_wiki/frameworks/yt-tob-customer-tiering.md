@@ -6,18 +6,18 @@ title: To B 客户分层：头部、腰部、腿部
 type: framework
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,31 +26,31 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-demand-metrics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 同一产品试图同时满足大企业、中型企业和小微企业，销售与交付流程反复打架
+- src_unknown
   framework_lens: 客户分层（头部/腰部/腿部）
   follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？
-- signal: 大客户项目定制化程度高、账期长，而小客户客单价低、流失快，利润都被两头吃掉
+- src_unknown
   framework_lens: 客户分层与单元模型匹配
   follow_up_question: 三类客户的数量级、需求复杂度、付费特征是否与当前的单元模型和现金流结构匹配？
-- signal: 团队对不同客户说同一套价值主张，但成交率差异极大
+- src_unknown
   framework_lens: 分层后的价值传递
   follow_up_question: 头部/腰部/腿部客户各自的核心诉求是风险、效果还是投入产出比？卖点是否对齐？
-- signal: 行业看起来分散（如百万级小微企业），但业务目标要求利润或标杆，导致找不到足够大的“头部”
+- src_unknown
   framework_lens: 行业集中度与业务目标交叉判断
   follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
 
@@ -84,9 +84,9 @@ To B 客户分层以**客户数量级**为第一切口，将市场上的企业�
 
 基于分层，同一通用能力可以演化出完全不同的服务策略（口述稿 978–990 行，讲师以发票业务为例）：
 
-- **头部客户**：直接做超大型企业定制化项目，单项目几百万甚至上千万。
-- **腰部客户**：做行业解决方案，如面向电商、Shopping Mall 等行业场景，介于标准化与纯定制之间。
-- **腿部客户**：以 SaaS 等标准化形态交付，面向广大中小企业，每年收取几千元服务费。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 四、分层与单元模型 / 商业模式映射表
 
@@ -118,9 +118,9 @@ To B 客户分层以**客户数量级**为第一切口，将市场上的企业�
 
 某设计服务公司依托总部资源，拿到十几家银行“智慧银行网点”试点机会。他们按银行体量做分层后发现：
 
-- **头部客户**：四大行、全国性银行。虽有试点，但内部品牌宣传部门完整，分行不能单独采购设计服务，品牌资料审核极严，对中小供应商并不开放。
-- **腰部客户**：区域性银行（如广州银行）。进入供应商库后可拿到部分服务费，但竞争激烈，公司并非主要 4A 供应商，缺乏竞争力。
-- **腿部客户**：小城市银行。需求大、审核相对宽松，但客单价低、利润薄。
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终判断：以公司当前资源和能力，只能匹配**腿部客户**，强行做头部或腰部会透支资源。该案例说明分层不是“谁大就服务谁”，而是“谁能被稳定服务且单元模型能跑通才服务谁”。
 
@@ -128,9 +128,9 @@ To B 客户分层以**客户数量级**为第一切口，将市场上的企业�
 
 某高中生涯规划服务商早期希望覆盖所有高中，但实际分层后发现：
 
-- **头部客户**：一类示范校 / 一级达标校。有预算以学生发展中心、心理驿站实验室打造特色示范校，客单价约 60 万/校，贡献全省约 80% 收入。
-- **腰部客户**：县中。有一定预算，愿为学情分析、志愿大数据、选科指导买单，但需配套培训服务，客单价明显低于头部。
-- **腿部客户**：无预算、无想法的高中。生涯规划不在副校长政绩指标内，多做多错，基本无法成为客户。
+- src_unknown
+- src_unknown
+- src_unknown
 
 业务目标若为“做利润和标杆”，应集中火力做头部示范校；若为“做覆盖和规模”，再逐步下沉到腰部县中。该案例印证了徐剑的观点：**业务目标才是定义客户层级的最终决定因素**（口述稿 1074–1094 行）。
 
@@ -157,31 +157,31 @@ To B 客户分层以**客户数量级**为第一切口，将市场上的企业�
 
 在确定服务哪一层客户前，逐项确认：
 
-- [ ] 我的业务目标是什么？要利润、要规模、要标杆，还是行业验证？
-- [ ] 目标行业里，真正符合我业务目标的**有效客户数**是多少？（不是行业总企业数）
-- [ ] 这类客户的决策链长度、关键角色和付费动机是否已经清楚？
-- [ ] 我当前的团队能力、现金流和交付体系能支撑哪一层？
-- [ ] 对应层级的单元模型是否能跑通？（用 [[yt-unit-model-three-tools]] 测算）
-- [ ] 我是否有清晰的产品版本或交付团队来区分不同层级？
-- [ ] 如果同时服务多层，各层的销售、交付、客户成功流程是否已分离？
-- [ ] 是否已确定首批要攻下的 3–5 家标杆客户，并明确其层级？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **通过标准**：至少 6 项勾选为“是”，且第 1、4、5 项必须为“是”。
 
 ## 九、与相关框架的关联
 
-- 客户分层后，应进入 [[yt-entrepreneur-key-hypotheses]] 验证不同层级的需求真实性。
-- 各层对应的单元模型可用 [[yt-unit-model-three-tools]] 和 [[yt-management-business-formula]] 进一步测算。
-- 商业模式选择可参考 [[yt-business-formula-business-pattern-selector]]。
-- 在聚焦单一客户层级时，可用 [[yt-lean-assumption-prioritization]] 判断应优先验证的假设。
-- 解决方案形态选择（定制 / 行业方案 / 标品）可参考 [[yt-tob-solution-model]]。
-- 用 [[yt-tob-demand-metrics]] 中的成本占有率与业务天花板，可定量判断某一层客户是否值得进入。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 十、置信度说明
 
-- 本卡核心框架（头部/腰部/腿部的数量级与特征）在口述稿和课堂笔记中均有明确对应，来源一致。
-- 讲师课堂案例（钉钉、有赞/微盟、发票 SaaS）中的企业名称和形态属于公开可观察信息。
-- 案例 4（银行网点设计服务）与案例 5（高中生涯规划）来自优秀作业合集，为学员真实业务复盘，已做脱敏处理；其中“60 万/校”“贡献 80% 收入”等数字为学员估算，引用时置信度约 0.70。
-- 口述稿中涉及的“4000 万买断”“180 天账期”“1500 家企业”等数字未在本卡引用；如需引用应视为未核实 illustration，并降低置信度至 0.65–0.70。
-- 口述稿约 700 行附近的“99% profit >50m vs 50% >10m”数据矛盾未被引用，因其疑似转录/记录误差。
-- 总体置信度：0.85；trust_level：high（两个独立来源相互印证）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

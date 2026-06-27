@@ -15,16 +15,16 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_104_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
 related:
-  - '[[tool-strategy-business-design-template]]'
-  - '[[case-strategy-retailer-activity-scope]]'
-  - '[[tool-strategy-map]]'
-  - '[[tool-strategy-business-summary]]'
-  - '[[framework-strategy-business-design]]'
-  - "[[framework-strategy-business-design]]"
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-strategy-activity-scope]]"
-  - "[[case-strategy-snack-export-opportunity]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 
@@ -40,8 +40,8 @@ related:
 | 风险管理 | 依赖线下客流 | 供应链波动→建双供应商；竞品抄袭→加速专利 | 现金流压力，组织变革阻力 |
 
 **场景-客群-产品矩阵（补充）**：
-- 家庭育儿年轻妈妈：三口之家、三代同堂、日常招待
-- 办公室白领代餐：代餐、下午茶
-- 节令送礼：休闲/年轻白领/轻妈妈/健康学生人群
+- src_unknown
+- src_unknown
+- src_unknown
 
 **核心洞察**：业务设计不是六个要素分别优化，而是六要素彼此咬合。客户选择一变，价值主张、活动范围、盈利模式、控制点、风险全部要重新设计，并且每个期望设计背后都要识别执行挑战。

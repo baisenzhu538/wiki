@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-business-modeling
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1065
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 业务建模
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：业务建模
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：业务建模
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-ROI分析]]'
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
@@ -47,15 +47,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能把业务拆解成可量化的公式和关键变量
+- src_unknown
   framework_lens: 业务模型 = 变量之间的关系
   follow_up_question: 公式中哪个变量变动10%会对结果影响最大？
-- signal: 模型同时包含收入端和成本端，而不是只看增长
+- src_unknown
   framework_lens: 单位经济模型需要双向审视
   follow_up_question: 如果收入翻倍，哪些成本会以相同或更高速度增长？
-- signal: 模型会被真实数据更新，而不是只做一次静态推演
+- src_unknown
   framework_lens: 业务模型是活的假设集合
   follow_up_question: 最近一个月，模型的哪个假设被数据证伪或证实了？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ status: superseded
 ### 失败模式
 
 1. **模型变量过多，无法获取数据或解释关系**
-   - **原因**：复杂度超过可用信息
-   - **修复**：从最小公式开始（如 收入=流量×转化率×客单价），逐步添加变量
+   - src_unknown
+   - src_unknown
 
 2. **只关注收入变量，忽略获客成本、履约成本等**
-   - **原因**：单向乐观
-   - **修复**：强制列出与每个收入变量对应的成本变量，并计算单位经济模型
+   - src_unknown
+   - src_unknown
 
 3. **把模型当成预测工具，追求精确数字**
-   - **原因**：混淆模型与预言
-   - **修复**：用模型做敏感性分析和方向判断，而不是精确预测
+   - src_unknown
+   - src_unknown
 
 4. **模型 beautiful，但与实际运营动作脱节**
-   - **原因**：分析与执行脱节
-   - **修复**：每个变量必须对应一个可操作的杠杆和一个负责人
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -120,9 +120,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Russell Ackoff的"系统性思维" + Rory Sutherland的"非逻辑用户"
 

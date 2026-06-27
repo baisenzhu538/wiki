@@ -9,6 +9,6 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-brm]]"
+- src_unknown
 ---**外部验证**：中国GDP增速从年均8.5%→5.0%，R&D强度首超OECD平均。红利消退是事实
 **但注意**：红利消退≠没有红利。新能源汽车/AI制药/低空经济仍有新红利。区别在于：过去是"躺赢"，现在需要"战略选择"

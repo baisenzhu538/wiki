@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-core-and-boundary
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1111
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 内核和边界
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：内核和边界
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：内核和边界
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[tool-泛产品落地-管理三段论]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界
@@ -47,15 +47,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能清晰说出产品的'内核'是什么，且团队成员理解一致
+- src_unknown
   framework_lens: 内核是产品存在的根本价值
   follow_up_question: 如果去掉这个内核，产品还是同一个产品吗？
-- signal: 边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝
+- src_unknown
   framework_lens: 边界是围绕内核的可协商区域
   follow_up_question: 这个功能如果做了，会强化、稀释还是模糊内核？
-- signal: 在面对资源冲突时，能用内核作为取舍标准
+- src_unknown
   framework_lens: 内核提供决策优先级
   follow_up_question: 过去一个月里，有哪次排期是依据内核做出的取舍？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ status: superseded
 ### 失败模式
 
 1. **把很多功能都列为内核，导致没有取舍空间**
-   - **原因**：内核膨胀
-   - **修复**：限制内核≤3条，每条必须通过‘删除测试’：去掉后产品失去灵魂
+   - src_unknown
+   - src_unknown
 
 2. **边界不断扩张，内核被稀释**
-   - **原因**：边界管理失效
-   - **修复**：每个边界功能上线前回答：它是否在不损害内核的前提下服务核心用户？
+   - src_unknown
+   - src_unknown
 
 3. **内核描述过于抽象，无法指导具体决策**
-   - **原因**：内核空洞
-   - **修复**：把内核改写成用户可感知的产品特性或体验标准
+   - src_unknown
+   - src_unknown
 
 4. **内核过于僵化，错过合理进化**
-   - **原因**：把边界当禁区
-   - **修复**：设定内核复审周期，当市场或用户需求发生质变时允许调整内核
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -121,9 +121,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Stewart Brand的"节奏分层" + Clay Shirky的"用户定义的边界"
 

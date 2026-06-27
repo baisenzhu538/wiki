@@ -4,33 +4,33 @@ title: 技能：AI课程内容深度梳理法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI设计反馈萃取法]]'
-- '[[tool-月白-AI对话情绪管理法]]'
-- '[[tool-月白-左手Cubox右手里程碑学习法]]'
-- '[[tool-月白-课程资料文件命名规范]]'
-- '[[tool-月白-文创材质调研与精益选择]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI课程内容深度梳理法
 
@@ -48,25 +48,25 @@ AI课程内容深度梳理法是月白在文创案例中提出的实操方法。
 
 ## 适用场景
 
-- 学习完高质量AI课程后需要内化
-- 课程内容与实际工作场景存在落差
-- 需要建立个人知识体系时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 课程本身已完全匹配当前场景无需调整
-- 没有实际项目验证时盲目套用
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- nobook
-- AI对话工具
-- 笔记软件
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ AI课程内容深度梳理法是月白在文创案例中提出的实操方法。
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - strategy
-  - innovation
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_ocr_text.md
@@ -16,9 +16,9 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-blm]]"
-  - "[[tool-strategy-blue-ocean-canvas]]"
-  - "[[framework-strategy-ansoff]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 凯纳创新方向分类框架

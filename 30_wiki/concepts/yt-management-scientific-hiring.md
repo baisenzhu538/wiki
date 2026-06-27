@@ -5,19 +5,19 @@
 title: 科学招聘
 type: concept
 domain:
-  - management- management
-  - product
-  - ai-saas
-  - design
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 招聘只看简历和聊得开心
+- src_unknown
   framework_lens: 非结构化
   follow_up_question: 你们的面试每个维度有评分标准吗？如果没有，招聘质量靠运气
-- signal: 缺人时随便招一个
+- src_unknown
   framework_lens: 越快越好论
   follow_up_question: 招错一个人的成本你算过吗？如果算过，不会急着随便招
 updated_at: '2026-06-16'
@@ -31,8 +31,8 @@ source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-  - '[[yt-business-model-scalability]]'
-  - '[[yt-tool-hiring-scorecard]]'
+  - src_unknown
+  - src_unknown
 
 ---# 科学招聘
 
@@ -68,10 +68,10 @@ related:
 ### 招聘重新理解
 
 常见误区：
-- **简历至上论**："简历漂亮的候选人就是好的" —— 简历反映过去经历，不反映未来的适配度
-- **面试即聊天论**："聊得开心的人就是对的" —— 结构化面试和随意聊天产出的决策质量天差地别
-- **越快越好论**："缺人，赶紧来一个是一个" —— 招快了的代价是3-6个月后重新招
-- **技术至上论**："技术最强的就是最好的" —— 只评估硬技能而忽略文化匹配度，通常以"能力强但毁团队"收场
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的招聘定义**：招聘 = 用最低的信号错误率，在有限时间内找到最适配的人。关键是降低两种错误：招了不该招的人（假阳性）和错过了该招的人（假阴性）。
 
@@ -92,10 +92,10 @@ related:
 1. **假想题**："如果你遇到xx情况，你会怎么做？" —— 测的是候选人的想象力，不是真实能力
 2. **行为题**："请举一个你过去xx的经历" —— 测的是真实行为，但未经校验
 3. **行为深挖题**（STAR 追问）：
-   - S（Situation）：那时候是什么情况？
-   - T（Task）：你要完成什么任务？
-   - A（Action）：你具体做了什么？你说的"我们"中你到底做了什么？
-   - R（Result）：结果如何？你怎么衡量？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **评分标准**：每个评估维度用 1-5 分量表，每个分数对应明确的行为描述（如"3分=能独立完成任务但需要指导，5分=能定义任务并推动其他人完成"）。
 
@@ -172,13 +172,13 @@ Bohnet 在实验中证明，即使是高度结构化的面试，当评估对象�
 
 ### 关联卡片
 
-- [[yt-management-onboarding]] — 新人落地：招聘是 Landing 的前一步——招到对的人是 Landing 成功的前提条件
-- [[yt-management-basic-skills]] — 管理基本功认知：招聘面试能力是管理基本功中"选人"动作的系统化升级
-- [[yt-management-company-culture]] — 公司文化：招聘是文化落地的第一道闸门——文化面试直接决定了谁能进门
-- [[yt-management-leadership-levels]] — 管理者五段位：不同段位管理者的招聘参与程度和判断力水平差异显著
-- [[yt-management-goal-management]] — 目标管理：新人的试用期目标可以用 OKR 方式结构化表述
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：招聘面试是一把被理想化的武器——它被包装成了"科学工具"（STAR、量表、独立评分），但 Gladwell 和 Bohnet 告诉你：这把武器的精度被严重高估了。它不是一把狙击枪，它最多是一把装了红点瞄准镜的手枪——比铁瞄（随意聊天面试）好很多，但别以为它能百发百中
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：面试本质上是一个"双向讲香"的场景——候选人在向你"讲香"（推销自己），你在向候选人"讲香"（推销公司）。Gladwell 的核心洞察翻译成讲香的术语：STAR 追问测的不是候选人的工作能力，是候选人的"讲香能力"。你招了一个面试中的讲香高手——然后发现他/她在工作中不讲香、只做事——这反而是最理想的情况（做事的人不需要会讲香）。但你的面试流程把他们筛掉了
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -203,6 +203,6 @@ Bohnet 在实验中证明，即使是高度结构化的面试，当评估对象�
 
 ### 跨学科锚点
 
-- 结构化面试和行为面试法（BEI, Behavioral Event Interview）源自哈佛心理学家 David McClelland 的胜任力模型研究，由 Spencer & Spencer 系统化为可操作的面谈技术。
-- Google 的招聘研究（Project Aristotle 的延伸）发现：面试中结构化行为问题+独立评分+招聘委员会决策是最能预测候选人未来绩效的组合——但 Google 内部也承认这套系统对"非典型背景候选人"的系统性遗漏率仍然显著。
-- 卡尼曼《噪声》一书中关于"结构化面试降低评估噪声"的论述——多个面试官对同一候选人的评分差异（噪声）往往比系统偏差更大。但 Bohnet 补充：降低噪声不等于消除偏差——一个安静的偏差比一个嘈杂的偏差更危险，因为它让人误以为自己已经科学了。
+- src_unknown
+- src_unknown
+- src_unknown

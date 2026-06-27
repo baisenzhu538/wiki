@@ -6,7 +6,7 @@ title: 用户JTBD访谈工具：区分"说的"和"真正要的"
 type: tool
 status: enriched
 domain:
-  - research- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -15,38 +15,38 @@ source_refs:
   - 00_inbox/调研专题/一堂-用户调研实操课-口述.docx
   - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
-  - '[[yt-personal-pan-product-practice]]'
-  - '[[yt-demand-jtbd-application]]'
-  - '[[tool-prompt-iceberg-demand-analysis]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-intelligence-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- JTBD
-- 用户访谈
-- 真正要的
-- 任务访谈
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-18'
 estimated_tokens: 2600
 tags:
-- JTBD
-- 用户研究
-- 需求分析
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 访谈中问"用户想完成什么任务"而不是"想要什么功能"
+- src_unknown
   framework_lens: JTBD = 任务视角
   follow_up_question: 用户最近一次使用类似产品时，想解决什么任务？
-- signal: 会探索用户的动力、阻力、代理品和成功标准
+- src_unknown
   framework_lens: 任务地图完整画像
   follow_up_question: 如果不解决这个任务，用户会怎样？
-- signal: 访谈后能写出清晰的 Jobs Statement
+- src_unknown
   framework_lens: JTBD的输出是任务陈述
   follow_up_question: 你能用"当我想要____，以便____"描述用户任务吗？
 author: unknown
@@ -65,15 +65,15 @@ trust_level: medium
 
 ## 核心要点
 
-- **任务视角**：用户不是买产品，而是"雇佣"产品完成某个具体任务（Job）。
-- **不问功能，问任务**：访谈的核心问法是"你上次在什么情况下想解决什么问题？"，而不是"你喜欢什么功能？"。
-- **四个组件**：
+- src_unknown
+- src_unknown
+- src_unknown
   1. 用户分层与场景拆解（Who / When/Where / Job / Outcome）
   2. JTBD访谈提纲（任务探索、代理品追问、动力追问、阻力追问、结果追问、演变追问）
   3. 代理品分析（什么都不做、现有产品、DIY/人工等替代方案）
   4. 需求优先级排序（频率 × 痛苦程度 × 现有方案缺陷）
-- **输出标准**：能用"当我想要____，以便____"写出清晰的 Jobs Statement，并按频率、痛苦程度、现有方案缺陷排出优先级。
-- **适用边界**：适合产品早期或创新阶段的需求探索；不适合需求已明确、只需执行的成熟产品。
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -96,16 +96,16 @@ trust_level: medium
 
 ## 行动 Checklist
 
-- [ ] 明确本次访谈要回答的 1-3 个核心问题（例如：用户真正雇佣我们产品完成什么任务？）。
-- [ ] 列出目标用户群体，并为每个群体梳理 3-5 个典型使用场景。
-- [ ] 准备 JTBD 访谈提纲，重点包含：任务探索、代理品追问、动力追问、阻力追问、结果追问、演变追问。
-- [ ] 访谈开场先问"上次使用的具体场景"，而不是"你喜欢什么"。
-- [ ] 每次用户提出功能请求时，都追问"你想用这个完成什么任务？"
-- [ ] 记录用户提到的代理品（包括"什么都不做"、DIY、竞品等），分析其优缺点与启示。
-- [ ] 访谈结束后，为每个关键任务写出 Jobs Statement："当我想要____，以便____"。
-- [ ] 按"频率 × 痛苦程度 × 现有方案缺陷"对 JTBD 进行优先级排序。
-- [ ] 将优先级最高的 3 个 JTBD 同步给产品/设计团队，作为下一步假设验证的输入。
-- [ ] 当用户行为以情感/冲动为主，或涉及多个 B 端利益相关方时，切换或补充其他研究工具。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
@@ -148,9 +148,9 @@ trust_level: medium
 | 演变追问 | 如果有一个产品能更好解决这个问题，它应该是什么样的？ | 探索未被满足的需求 |
 
 关键原则：
-- 不问"你喜欢什么"，问"你想解决什么"；
-- 不问"产品功能"，问"任务结果"；
-- 用"举例子"和"具体场景"追问，避免空泛描述。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 组件三：代理品分析
 

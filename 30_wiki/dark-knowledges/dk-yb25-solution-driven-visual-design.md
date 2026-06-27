@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,9 +39,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用纯审美驱动型业态（如独立艺术空间、设计师品牌）
-- 不适用于已有强IP资产需保持一致性的成熟品牌
-- 易混淆为"视觉要统一"或"视觉要高级"的泛泛要求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -49,4 +49,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb7-design-demand-80-10-10]] — 中国设计需求的80-10-10分层法则
+- src_unknown

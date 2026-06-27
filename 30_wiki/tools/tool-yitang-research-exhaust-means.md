@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 穷尽手段
-- 信息获取
-- 情报获取
-- 调研手段
-- 合法合规
-- 底线之上
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[concept-yitang-research-scope]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-intelligence-map-in-hand]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 穷尽手段：底线之上，努力拉满
@@ -120,14 +120,14 @@ related:
 
 ## 穷尽手段检查清单
 
-- [ ] 是否穷尽了所有公开信息来源？
-- [ ] 是否穷尽了所有半公开信息来源？
-- [ ] 是否访谈了足够的专家/从业者？
-- [ ] 是否进行了逆向工程分析？
-- [ ] 是否考虑了社会工程手段？
-- [ ] 所有手段是否在合法合规范围内？
-- [ ] 是否记录了所有信息来源和可信度？
-- [ ] 是否对关键信息进行了交叉验证？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -189,25 +189,25 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-intelligence-map-in-hand]] — 地图在手工具
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[tool-yitang-reverse-data-analysis]] — 逆向数据获取
-- [[tool-yitang-field-research]] — 实地调研
-- [[tool-yitang-social-engineering-research]] — 社会工程学
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 穷尽手段模块
-- 交叉：竞争情报理论
-- 注意：穷尽手段必须在合法合规范围内，底线不可突破
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

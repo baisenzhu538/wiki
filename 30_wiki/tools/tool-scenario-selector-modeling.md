@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -21,37 +21,37 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.90
 related:
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[case-modeling-essence-schools]]'
-  - '[[dk-modeling-question-scaffold-not-answer]]'
-  - '[[dk-tool-as-answer-trap]]'
-  - '[[dk-modeling-unit-pairs-milestone]]'
-  - '[[modeling-weapon-library]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-level-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/decision-framework'
-- '#chunk-type/use-case'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"工具太多，我不知道该用哪个"
+- src_unknown
   framework_lens: 场景→工具选择器
   follow_up_question: 你要解决的是筛选、分类、排序、诊断、设计还是执行问题？
-- signal: 用户描述一个场景后直接问"这个该用什么模型"
+- src_unknown
   framework_lens: 场景→工具选择器
   follow_up_question: 能否用一句话说明你要解决什么问题，以及有哪些可选对象或约束？
-- signal: 用户在雷达图和象限图之间犹豫
+- src_unknown
   framework_lens: 场景→工具选择器
   follow_up_question: 你的重点是"评估多个选项"还是"按两个维度分类并配策略"？
-- signal: 用户想系统梳理一个复杂主题但无从下手
+- src_unknown
   framework_lens: 设计/规划 → 画布/武器库
   follow_up_question: 这个主题的关键维度是否已知？是否需要一个完整扫描框架？
-- signal: 团队对"该用什么方法"争执不下
+- src_unknown
   framework_lens: 场景→工具选择器
   follow_up_question: 大家是否先对问题类型和前提条件（数据、共识、可干预性、ROI）达成了一致？
-- signal: 用户把一个工具套用到明显不匹配的场景
+- src_unknown
   framework_lens: 场景→工具选择器
   follow_up_question: 你是因为这个工具顺手，还是因为它真的适合当前问题？
 ---
@@ -67,13 +67,13 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **问题先于工具**：选择器的第一步永远是澄清“我要解决什么问题”，而不是“我想用什么工具”。
-- **六大场景覆盖多数建模需求**：筛选/评估、分类/取舍、排序/优先级、诊断/复盘、设计/规划、执行/固化。
-- **子问题是第二级过滤器**：同一类场景下，子问题不同，推荐工具也不同。
-- **推荐工具 + 备选工具**：每个子问题给出主工具和备选工具，方便根据资源或数据条件调整。
-- **四个前提条件**：数据是否足够、团队对维度是否有共识、输出能否导出行动、使用成本是否小于收益。
-- **复杂场景需要组合**：诊断类问题常常需要“漏斗图 + 冰山图”，设计类问题可能需要“画布 + 本质建模”。
-- **选择器是经验规则，不是算法**：边界案例可能匹配不准，需要结合判断和验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -116,10 +116,10 @@ diagnostic_signals:
 ### Step 3：检查前提条件
 
 每个工具都有前提：
-- **数据**：是否有足够事实/数据？
-- **共识**：团队对维度/标准是否有共识？
-- **可干预性**：工具输出能否导出具体行动？
-- **ROI**：使用这个工具的收益是否大于成本？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果某个前提不满足，先回到更基础的工具（如案例包、清单）积累事实。
 
@@ -213,23 +213,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已用一句话清晰描述要解决的问题
-- [ ] 已从六大场景类型中定位最接近的一类
-- [ ] 已根据子问题找到推荐工具及备选工具
-- [ ] 已检查数据、共识、可干预性、ROI 四个前提
-- [ ] 已判断当前场景需要单一工具还是组合工具
-- [ ] 已打开对应 tool 卡交叉验证推荐是否合适
-- [ ] 已记录选择理由、预期输出和成功指标
-- [ ] 使用后将结果和偏差回灌，用于迭代选择器
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-weapon-library]] —— 一堂常见模型武器库总览与难度分层
-- [[tool-canvas-weapon-library-modeling]] —— 武器库的具体构建方法
-- [[modeling-three-stages]] —— 按建模阶段（基础/进阶/深度）选择工具
-- [[modeling-level-map]] —— 按能力段位选择工具复杂度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -237,9 +237,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 选择器是经验规则，不是算法，边界案例可能匹配不准
-- 工具选择依赖对问题的准确描述
-- 复杂场景通常需要组合多个工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Karl Weick — "分类塑造所见"
 
@@ -247,8 +247,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果一个问题同时适合雷达图和象限图，怎么选？看重点是“评估选项”还是“分类策略”。
-- 如果用户说不清楚场景，选择器如何引导？用决策树逐步缩小范围。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -256,10 +256,10 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[modeling-weapon-library]] —— 工具总览和难度分层
-- [[tool-canvas-weapon-library-modeling]] —— 武器库的具体构建方法
-- [[modeling-three-stages]] —— 按建模阶段选择工具
-- [[modeling-level-map]] —— 按能力段位选择工具复杂度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -277,9 +277,9 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md` — 常见模型武器库原图摘要
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md` — 建模能力培训口述稿
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md` — 建模能力培训笔记
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

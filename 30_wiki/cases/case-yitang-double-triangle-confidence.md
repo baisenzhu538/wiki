@@ -6,8 +6,8 @@ title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
 status: enriched
 problem_domains:
-- AI 工作流设计
-- 复杂问题分析
+- src_unknown
+- src_unknown
 industry: 在线教育/AI 产品
 scale: 公司
 source_person: Truman
@@ -16,29 +16,29 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 wiki_refs:
-- '[[dk-modeling-business-visual-logic-match]]'
+- src_unknown
 definition_of_done:
-- 问题描述清晰
-- 方案可理解
-- 可迁移点明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#content-format/case-study'
-- '#problem/ai-workflow'
+- src_unknown
+- src_unknown
 related_skills:
-- '[[tool-binary-quadrant-modeling]]'
+- src_unknown
 related_concepts:
-- '[[dk-modeling-business-visual-logic-match]]'
-- '[[yt-model-dual-triangle-competitiveness]]'
+- src_unknown
+- src_unknown
 related_cases: []
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - yt-model-dual-triangle-competitiveness
-  - skill-Truman-双三角模型应用
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -46,17 +46,17 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
-- AI 工作流设计
-- 复杂问题分析
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队做 AI 交付时，同一类任务不同人结果差距大
+- src_unknown
   lens: 缺乏统一完备框架，各自迷信单一工具或 prompt
   follow_up: 让业务负责人用双三角模型把任务拆成六维检查清单，定位缺失的是哪一角
-- signal: 遇到复杂 AI 难题，第一反应是“有没有更好的工具/教程”
+- src_unknown
   lens: 把工具当答案，而不是把框架当底盘
   follow_up: 在动手前先回答：这个任务的六维要素是否已覆盖？里程碑是什么？
-- signal: AI 项目交付不稳定，时好时坏，找不到根因
+- src_unknown
   lens: 体系/里程碑成为最大卡点，而非基本功或数据
   follow_up: 用双三角做前置筹备，把“六词空壳”往下推两层变成具体检查项和动作
 ---# 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
@@ -71,10 +71,10 @@ diagnostic_signals:
 
 没有完备框架时，具体症状表现为：
 
-- 同一类 AI 任务，不同人交付质量波动大，好结果靠个人手感；
-- 遇到难题先找“更好的 prompt / 工具 / 教程 / 案例”，而不是先搭分析框架；
-- 项目做到一半才发现某维要素缺失，反复返工；
-- 对 AI 交付缺少共同语言，评审时各说各话。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 方案
 
@@ -101,27 +101,27 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 
 ## 结果
 
-- 双三角模型成为团队“最大笃定”，内部员工“没有双三角模型都不敢接某些活”；
-- 线下训练营中双三角解读可直接加到 **30–50 层**；
-- 约 **5 名基层业务负责人**已用双三角做出合格的 AI 交付，例如：
-  - 用双三角构建一个**选课系统**，能在任何场景下相对精准地了解需求并推荐课程；
-  - 用双三角设计**作业反馈/点评**的 AI 交付逻辑；
-- 另有约 **10 人**仍在练习中；
-- 团队从“追工具/教程”转向“先搭完备框架再动手”。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
-- 面对复杂新课题时，先找一个“完备框架”做统一语言，比单点追工具更重要；
-- 团队对框架的共同笃定能显著降低协作成本和决策风险；
-- 框架不是直接用六个词干活，要往前推两层，变成具体检查清单和动作；
-- 把抽象模型嵌入团队流程（如五步法第二步），比让个人“自己悟”更容易规模化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断性问题（何时参考本案例）
 
-- 团队做 AI 交付时，同一类任务不同人结果差距大，是否因为缺少统一框架？
-- 遇到复杂 AI 难题，第一反应是“有没有更好的工具/教程”，而不是先搭框架？
-- AI 项目交付不稳定，时好时坏，是否因为体系/里程碑成为最大卡点？
-- 是否已经能把“双三角”从六个词推到两层，变成具体检查清单？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -147,29 +147,29 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 
 在启动一个复杂 AI 任务前，业务负责人先完成以下检查：
 
-- [ ] **场景**：任务服务的用户/决策链是否已清晰定义？
-- [ ] **数据**：完成任务需要哪些数据？是否已结构化/可获取？
-- [ ] **基本功**：当前 AI 能力（模型、提示词、工程化）能否覆盖该任务？
-- [ ] **审美**：什么是“好的”交付？有没有评价标准和反面案例？
-- [ ] **体系**：任务是否嵌入了完整的教学/咨询/业务流程？
-- [ ] **创造力**：AI 输出中哪些需要人类提出假设、做最终判断？
-- [ ] **里程碑**：从 0 到交付，关键检查点是什么？
-- [ ] **推导两层**：每个维度是否已变成具体动作，而不是停留在词？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键标签
 
-- 问题域：AI 工作流设计、复杂问题分析
-- 行业：在线教育/AI 产品
-- 方法：双三角模型、完备框架
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 技能：[[tool-binary-quadrant-modeling]]
-- 概念：[[dk-modeling-business-visual-logic-match]]、[[yt-model-dual-triangle-competitiveness]]
-- 方法：[[tool-Truman-双三角模型应用]]、[[yt-five-step-method]]
-- 案例：无
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_8269ccdb#3920-4046`
-- Truman，一堂建模能力培训笔记，2026-06-12，`src_20260614_42f1e977`
+- src_unknown
+- src_unknown

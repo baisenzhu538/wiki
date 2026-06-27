@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-yitang-travel-receipt-analysis]]'
-  - '[[case-popmart-prospectus-pricing]]'
-  - '[[case-doris-outbound-travel-community]]'
-  - '[[case-doris-catering-chain-benchmark]]'
-  - "[[framework-doris-industry-report-4step]]"
-  - "[[tool-yitang-overseas-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：美容仪出海市场判断

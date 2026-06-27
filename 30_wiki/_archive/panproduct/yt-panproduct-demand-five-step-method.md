@@ -4,35 +4,35 @@
 
 id: yt-panproduct-demand-five-step-method
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1228
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 一堂五步法
-- 泛产品设计
-- 泛产品设计·用户卡片：一堂五步法
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：一堂五步法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[yt-model-prediction-model]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-five-step-common-pitfalls]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法
@@ -48,15 +48,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设，且至少一格标注了To B决策链上的关键角色
+- src_unknown
   framework_lens: To B商业成败取决于假设质量，而角色分离是需求误判的第一诱因
   follow_up_question: 哪一步的假设如果错了，会让整个项目迅速失败？如果使用者喜欢但决策者不买单，你的画布哪一格会首先变红？
-- signal: 能清楚区分价值假设（前三步）和增长假设（后两步），并明确价值假设未验证前不做规模化投入
+- src_unknown
   framework_lens: 价值与增长的验证节奏不同，To B周期更长，错序投入的回款周期会放大损失
   follow_up_question: 如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？当前自由现金流能否支撑这个节奏？
-- signal: 每一步都有明确的go/no-go标准和下一步验证实验，且画布中至少有一格被更新过
+- src_unknown
   framework_lens: 画布是动态决策工具，不是一次性填写练习
   follow_up_question: 填完画布后，团队是否据此取消或推迟过某个计划？画布最近一次更新是什么时候？
 updated_at: '2026-06-16'
@@ -102,30 +102,30 @@ status: superseded
 > 基于徐剑To B五步法"切分客户→理解场景→测算需求→选准客户→选择模式→组合内核→选择模型→判断跑通→盯现金流→增长模式→测算成本→销售铁军→选择壁垒→壁垒强弱→主动对抗"的15个关键动作整理。用于画布填完后做最后一轮 sanity check。
 
 ### 需求步
-- [ ] 已按头部/腰部/腿部三选一确定主攻客户层级
-- [ ] 已识别老客户老产品/新客户老产品/老客户新产品/新客户新产品四类场景
-- [ ] 已计算目标客户的成本占有率（建议≥5%才值得独立付费）
-- [ ] 已估算业务天花板 = 单家专项成本 × 成本占有率 × 目标客户数
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 解决方案步
-- [ ] 已画出决策者/使用者/关联方角色地图
-- [ ] 产品内核面向决策者设计，同时兼顾使用者体验
-- [ ] 已选择标准化 vs 定制化、一次性 vs 持续性交付模式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 商业模式步
-- [ ] 已选择单销售/单订单/单客户/单SKU/单履约中的一种单元模型
-- [ ] 单元模型总毛利能覆盖所有成本（含总部摊销、隐性成本）
-- [ ] 已测算自由现金流，而非仅看账面利润
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 增长步
-- [ ] 明确当前阶段目标是利润还是规模
-- [ ] 已对比直销与渠道的单元模型差异
-- [ ] 销售成本占毛利比例可承受
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 壁垒步
-- [ ] 已识别转化成本/规模效应/无形资产中至少一种壁垒
-- [ ] 已评估行业集中度、单元模型占比、成本变化大小
-- [ ] 已有对抗"规模不经济要素"的策略（减少定制、缩减SKU、替代专家服务等）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Claims
 
@@ -149,9 +149,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Peter Thiel的"垄断优先" + Steve Blank的"搜索≠执行"
 

@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-管理三段论"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_8d5cc8b0
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-管理三段论"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-roi分析]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-管理三段论
@@ -36,32 +36,32 @@ png` 6 泛产品设计·落地卡片 管理三段论 业务管理有章可循 �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 管理三段论将复杂业务管理拆解为三个递进要素：目标（最终要实现的结果和价值）、路径（实现目标的关键过程）、资源（路径所需的钱/人/能力）。
-- 面对高资源投入的复杂项目，应按逻辑链条逐步推演执行策略，避免管理逻辑混乱。
-- 该框架适用于所有重要项目和业务管理场景，强调结构化思维而非随机应对。
-- 能力提升路径被设计为课程化学习，体现"项目管理能力可通过系统训练获得"的假设。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该框架将"目标-路径-资源"定义为线性递进关系，但复杂业务中三者是否存在动态迭代或反向制约？例如资源约束是否会倒逼目标修正？
-- "所有重要项目和业务管理场景"的普适性声明是否经过验证？创新型/探索性项目（目标模糊）或危机响应场景（时间紧迫）是否同样适用？
-- "学一堂课"的能力提升路径隐含了管理技能可标准化传授的假设，但隐性知识（如判断力、政治敏锐度）是否可通过课程习得？
-- 框架未涉及"风险"与"不确定性"要素，高资源投入项目的失败机制如何被纳入管理逻辑？
-- "关键过程"的识别标准未明确：是主观判断还是存在客观筛选机制？不同管理者对同一目标的路径拆解差异如何解决？
-- 原文强调"习惯性按逻辑链条推演"，但未说明推演频率与触发条件——是事前一次性规划还是持续复盘调整？
-- OCR质量存疑："没有什么不是一堂课解决不了的"结尾处的竖线"|"是否为分页符误识，原图是否存在后续内容？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

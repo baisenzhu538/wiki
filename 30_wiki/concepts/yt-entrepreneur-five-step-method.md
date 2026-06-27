@@ -7,33 +7,33 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
-- 一堂五步法
-- 需求分析
-- 方案定义
-- 验证实验
-- 增长规模化
-- 壁垒护城河
-- 科学创业
-- 创业方法论
-- 五步法框架
-- 关键假设优先
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[yt-entrepreneur-259-milestone]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[yt-entrepreneur-business-growth]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[framework-lean-false-model]]'
-  - '[[framework-five-step-lean-interface]]'
-  - '[[yt-decision-y-model]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 王语嫣
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
@@ -59,16 +59,16 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户按五步法学了一遍，但做项目还是凭感觉
+- src_unknown
   framework_lens: 框架未转化为工作流
   follow_up_question: 你最近一次做项目时，明确使用了五步法的哪一步工具？
-- signal: 用户 rigidly 按顺序走五步，不做迭代
+- src_unknown
   framework_lens: 僵化使用——五步法需要循环迭代
   follow_up_question: 你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代
-- signal: 创业者把五步法写成汇报 PPT，每一步都有"规划"但没有验证数据
+- src_unknown
   framework_lens: 形式覆盖型使用——用文档完成度替代假设检验
   follow_up_question: 请拿出上一步最关键假设的"证伪数据"或"反证数据"，而不是只讲计划
 updated_at: '2026-06-16'
@@ -124,10 +124,10 @@ review_date: 2026-06-15
 
 ## When NOT to Use
 
-- 0-1 探索期尚未完成 20+ 客户访谈、问题本身还在漂移时。
-- 双边/平台型业务供需必须同时冷启动，无法线性推进时。
-- 大企业内部创新，决策权不在创业团队手中时。
-- 只想套模板、不愿根据反馈调整时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -143,9 +143,9 @@ review_date: 2026-06-15
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段/核心框架」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -164,7 +164,7 @@ review_date: 2026-06-15
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

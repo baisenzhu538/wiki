@@ -6,7 +6,7 @@ type: dark-knowledge
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,24 +14,24 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[tool-月白-一抽流长提示词写作法]]'
-  - '[[dk-yb13-zero-shot-style-transfer]]'
-  - '[[dk-yb17-product-lifestyle-photography]]'
-  - '[[dk-yb14-multi-image-commonality]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb13-zero-shot-style-transfer]]'
-  - '[[dk-yb12-ai-image-analysis-replace-training]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- source_cited_with_transcript
-- operational_steps_structured
-- failure_mode_table_included
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 不训练模型锁定风格的逆向视觉书法
 
 ## 原始表述/核心洞察
@@ -54,9 +54,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 不适用需要像素级一致性的角色/IP场景（仍需LoRA/模型训练）
-- 参考图风格混杂导致视觉书矛盾
-- 团队缺乏基础视觉分析能力时逆向阶段会失真
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -73,5 +73,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb13-zero-shot-style-transfer]] — 零训练风格迁移：三要素描述法
-- [[dk-yb12-ai-image-analysis-replace-training]] — AI图像分析替代模型训练
+- src_unknown
+- src_unknown

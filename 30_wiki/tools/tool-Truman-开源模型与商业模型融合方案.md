@@ -3,8 +3,8 @@ id: tool-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI工具选型决策]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-月白-提示词优化：信息流海报文字修复]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：开源模型与商业模型融合方案
 
@@ -38,27 +38,27 @@ related:
 
 ## 适用场景
 
-- 需要同时使用多个模型
-- 开源模型和商业模型各有优势需互补
-- 构建复杂AI系统时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 单一模型已满足需求
-- 无技术能力且不愿使用现成平台
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 360龙虾
-- Cubox龙虾
-- AIGC
-- 云电脑平台
-- 自研融合系统
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,12 +66,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

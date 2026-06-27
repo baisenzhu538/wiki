@@ -12,15 +12,15 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[tool-yitang-securities-research]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[framework-strategy-blm]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[framework-strategy-brm]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 华为五看三定

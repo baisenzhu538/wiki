@@ -4,38 +4,38 @@
 
 id: yt-panproduct-execution-hypothesis-decomposition
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1104
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 假设拆解
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：假设拆解
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：假设拆解
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-十倍速验证]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解
@@ -49,15 +49,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 产品成功被拆解成≤5个关键假设，而不是模糊的一个大目标
+- src_unknown
   framework_lens: 关键假设是验证的锚点
   follow_up_question: 如果这5个假设中有一个错了，产品会失败吗？
-- signal: 每个关键假设都有可观察的证伪指标和验证方法
+- src_unknown
   framework_lens: 假设必须可证伪
   follow_up_question: 什么样的证据会让你放弃这个假设？
-- signal: 验证结果会更新假设优先级和下一步计划
+- src_unknown
   framework_lens: 贝叶斯迭代
   follow_up_question: 最近一次的验证结果改变了你的假设排序吗？
 updated_at: '2026-06-16'
@@ -104,11 +104,11 @@ status: superseded
 
 ### 验证前自检清单（Checklist）
 
-- [ ] 该假设能用一句话写清楚"如果错了，我会看到什么现象"。
-- [ ] 已经区分了**致命假设**（必须优先验证）和**观察假设**（可延后）。
-- [ ] 验证指标与假设核心直接相关，不是弱代理。
-- [ ] 实验前已书面约定**放弃条件**（数值+时间）。
-- [ ] 验证结果会明确导致"坚持 / 调整 / 放弃"三种动作之一。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 正面参考：[[case-一堂-陈贤敏汉堡-hypothesis-validation]] 用实验店验证需求、产品、商业模式三条致命假设后再扩张。  
 > 反面参考：[[case-一堂-无人餐厅-hypothesis-failure]] 把"无人=先进=省钱"当默认前提，未验证机器人经营价值就 all in。
@@ -138,12 +138,12 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
-- [[yt-research-hypothesis-test]] — 假设验证调研工具，承接拆解后的最小实验设计
-- [[case-一堂-陈贤敏汉堡-hypothesis-validation]] — 用实验店验证关键假设的正面案例
-- [[case-一堂-无人餐厅-hypothesis-failure]] — 忽视关键假设导致资源损失的反面案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Gerd Gigerenzer的"简捷启发式" + Richard Feynman的"不要骗自己"
 

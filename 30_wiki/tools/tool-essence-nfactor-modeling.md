@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -21,37 +21,37 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.88
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[case-modeling-essence-levels]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/evaluation-method'
-- '#chunk-type/synthesis'
-- '#method/essence-modeling'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队讨论战略时，每个人都用不同的词描述“我们在做什么”
+- src_unknown
   framework_lens: 本质建模
   follow_up_question: 如果去掉你用的这个词，业务的成立条件还成立吗？
-- signal: 面对复杂系统，列出十几个影响因素却不知从何下手
+- src_unknown
   framework_lens: N要素建模
   follow_up_question: 这十几个因素里，去掉哪几个后整个系统仍然可以解释？
-- signal: 有人给出一个“本质”，但只能解释成功案例、遇到反例就说“例外”
+- src_unknown
   framework_lens: 可证伪性
   follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-- signal: AI 或专家给出一句话“本质”，却无法导出三个互不重复的具体动作
+- src_unknown
   framework_lens: 解释性本质 vs 预测性本质
   follow_up_question: 从这句话到落地动作，中间需要跳跃几步？关键要素是否完整？
-- signal: 为了凑图形好看，硬把模型拆成 3 个或 5 个要素
+- src_unknown
   framework_lens: 必要性检验
   follow_up_question: 真的只有这么多个要素吗？去掉任意一个，模型还成立吗？
 ---
@@ -86,11 +86,11 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md` 能力分层。
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1836-1861`。
-- **C3 [conf=0.85]**: N 要素模型的关键是“有限且必要”——不是越多越好，而是去掉任何一个都会让模型失效。——推断：基于 Truman 对定义和 MECE 的要求。
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2341-2348`。
-- **C5 [conf=0.75]**: 本质模型不能只是“正确的废话”，必须有可检验的边界。——推断：基于反例驱动的方法论。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,32 +107,32 @@ diagnostic_signals:
 #### 步骤 1：大量收集现象和案例
 
 不要急于下结论。先问：
-- 这件事成功时长什么样？
-- 失败时长什么样？
-- 边缘案例长什么样？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 2：尝试多种表述
 
 写出 5–10 个“本质”候选：
-- 一堂是教育公司
-- 一堂是创业者社群
-- 一堂是帮助企业科学决策的服务商
-- 一堂是知识交付平台
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：用反例检验
 
 对每个候选问：
-- 这个定义能不能解释失败案例？
-- 这个定义能不能预测新案例？
-- 有没有反例让这个定义失效？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 4：保留最 robust 的表述
 
 真正的本质应该：
-- 解释力强
-- 预测力强
-- 简洁
-- 可行动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### N 要素建模步骤
 
@@ -147,22 +147,22 @@ diagnostic_signals:
 #### 步骤 3：压缩到 N 个核心要素
 
 用 MECE 和必要性检验：
-- 这个要素独立吗？
-- 去掉它，模型还成立吗？
-- N 最好控制在 3–5 个
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 4：定义要素关系
 
-- 是并列关系？（N要素）
-- 是支撑关系？（三角图）
-- 是包含关系？（圈层图、冰山图）
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 5：用案例验证
 
 拿 10 个案例测试模型：
-- 能否覆盖成功？
-- 能否解释失败？
-- 能否预测未知？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -207,9 +207,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 本质建模容易陷入“哲学式空谈”
-- N 要素容易变成任意数字游戏
-- 对使用者的经验和判断力要求极高
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Karl Popper — "不可证伪的本质不是科学命题"
 
@@ -217,33 +217,33 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果去掉你提出的某个要素，模型还能解释主要案例吗？如果能，说明它不是核心要素。
-- 如果你的本质定义换一个说法，预测结果会变吗？如果不会，说明定义足够 robust。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 行动 Checklist
 
-- [ ] 已收集至少 10 个真实案例（成功、失败、边缘各不少于 3 个）
-- [ ] 已写出 5–10 个本质候选，并用反例逐一淘汰
-- [ ] 最终本质能用一句话说清，且能导出 ≥3 个互不重复的具体动作
-- [ ] N 要素数量控制在 3–5 个，每个要素都通过“去掉测试”
-- [ ] 要素之间满足 MECE 或至少相互独立
-- [ ] 已明确模型边界：解决什么问题、不解决什么问题、适用谁、不适用谁
-- [ ] 已用真实案例验证模型的覆盖力、解释力、预测力
-- [ ] 已组织至少一轮“撞击实验”，以推翻模型为目标寻找反例
-- [ ] 模型被“撞不动”后，才进入传播和教学阶段
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-weapon-library]] —— 本质/N要素在深度模型中的定位
-- [[modeling-three-stages]] —— 主要用于本质建模阶段
-- [[dk-modeling-essence-predictive]] —— 本质模型必须可预测
-- [[dk-modeling-counterexample-driven]] —— 用反例检验本质
-- [[tool-iceberg-triangle-modeling]] —— 常与三角图、冰山图配合使用
-- [[case-modeling-essence-levels]] —— 本质建模的段位案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -259,9 +259,9 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1836-1861、2095-2130、2341-2348`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58-66`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

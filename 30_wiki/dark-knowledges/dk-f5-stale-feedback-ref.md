@@ -6,32 +6,32 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-005
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-005
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[dk-f3-state-json-race-condition]]'
-  - '[[dk-p16-validate-reads-state-json]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[dk-c4-selfcheck-superseded]]'
-  - '[[master-systems-thinking]]'
-  - '[[dk-f10-broken-source-refs]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- "kdo lint 输出 ERROR: Feedback 'fb_xxx' path does not exist，但对应文件在 60_feedback/ 或 .kdo/feedback/ 中已不存在"
-- "state.json 的 feedback 列表包含路径，但 ls 该路径显示文件不存在"
+- src_unknown
+- src_unknown
 ---# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 
 ## 原始表述/核心洞察
@@ -58,10 +58,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你运行 `kdo lint` 时看到 "Feedback path does not exist" 错误，需要定位和清理残留引用
-- 你手动删除了 `60_feedback/` 目录下的 feedback 文件，但忘记同步更新 state.json
-- 你使用 Obsidian 或其他工具清理 vault 中的废弃文件，担心是否破坏了 kdo 的内部状态
-- 你写自动化清理脚本时，需要确保"删文件"和"删 state 引用"是原子操作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -73,11 +73,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有手动删除 feedback 文件的场景
-- 不适用于 feedback 文件仍然存在但路径变更的情况——此时应更新路径而非删除引用
-- 如果 feedback 文件是被外部工具（如 Obsidian 的 auto-cleanup）自动删除的，你可能无法提前同步——需要依赖 `kdo lint` 的事后检测
-- `kdo lint` 当前**只报错不自动修复**，所以必须人工介入清理
-- 批量删除 feedback 文件时，建议先用脚本批量更新 state.json，再执行文件删除
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -90,18 +90,18 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是 KDO 特有的状态管理问题：feedback 的元数据存储在 state.json 中，而文件本身存储在文件系统中——两者是分离的
-- **"文件已删但引用残留"是分布式状态的经典问题**：state.json 和文件系统之间没有事务性保证，删除操作不是原子的
-- 症状极具迷惑性：`kdo lint` 报告的是 ERROR 级别，但问题根因不是"代码错了"而是"清理操作不完整"
-- 任何 AI 训练语料中都不会有"KDO 的 state.json feedback 列表需要与 60_feedback/ 目录保持同步"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- dk-c4-selfcheck-superseded — 同一模式：自检工具报告的状态与实际情况不一致。C-4 是"self-check 误报 superseded 为未 enrich"，F-KDO-005 是"lint 报错已删除的 feedback"——两者都是"内部状态与实际文件系统不同步"
-- master-systems-thinking — 系统思维中的"状态一致性"原则：当元数据（state.json）与实体数据（文件系统）分离存储时，任何清理操作都必须同步更新两边，否则会产生不一致
-- dk-f10-broken-source-refs — 同一深层模式：元数据索引与实体之间的断裂。F-KDO-010 是 source_refs 无法追溯到源文件，F-KDO-005 是 feedback 引用无法追溯到实体文件——两者都是"引用断裂"在 KDO 不同字段上的体现
-- `90_control/failure-modes.md` → F-KDO-005（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #4（不准删除 feedback 文件不同步清理 state.json）
+- src_unknown
+- src_unknown-systems-thinking — 系统思维中的"状态一致性"原则：当元数据（state.json）与实体数据（文件系统）分离存储时，任何清理操作都必须同步更新两边，否则会产生不一致
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-evolution
 title: 内核演化：从V1到Vn
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-iteration
-  - yt-product-kernel-shampoo-case
-  - yt-product-kernel-premature-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户内核一成不变，市场变化后竞争力下降"
+  - src_unknown
     framework_lens: 内核演化——内核需要随市场演化
     follow_up_question: "你的内核从V1到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - signal: "用户频繁调整内核，没有稳定期"
+  - src_unknown
     framework_lens: 内核演化——需要稳定期验证
     follow_up_question: "每个内核版本验证了多久？是否有足够数据支撑迭代？"
-  - signal: "用户说'市场变了，我们要重新定位'，但不知道具体怎么变"
+  - src_unknown
     framework_lens: 内核演化——需要结构化演化方法
     follow_up_question: "市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种演化路径？"
-  - signal: "用户内核演化后，老用户流失"
+  - src_unknown
     framework_lens: 内核演化——需要考虑老用户迁移
     follow_up_question: "新内核是否兼容老用户需求？老用户如何迁移到新内核？"
-  - signal: "用户团队对内核演化方向有分歧"
+  - src_unknown
     framework_lens: 内核演化——演化方向需要团队共识
     follow_up_question: "你们团队对内核演化方向有共识吗？是基于数据还是主观判断？"
 
@@ -86,9 +86,9 @@ V5：重构内核（战略级调整）
 
 每次演化后必须验证：
 
-- 新内核的关键转化率是否提升？
-- 老用户是否接受新内核？
-- 新用户是否认可新内核？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 演化的节奏
 
@@ -121,21 +121,21 @@ V5：重构内核（战略级调整）
 
 ## 行动触发器
 
-- 当关键转化率持续下降时 → 评估是否需要内核演化
-- 当市场变化时 → 识别变化类型，选择演化路径
-- 当演化时 → 基于路径选择，不是随机跳跃
-- 当演化后 → 验证关键指标，确保老用户接受
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-product-kernel-shampoo-case`：洗发水案例（内核演化）
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课笔记
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

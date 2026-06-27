@@ -3,40 +3,40 @@ id: tool-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
 source_refs:
-- Analysis.'''
-- 'Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill. Part II: ''The McKinsey
-  - Problem-Solving Method.'''
+- src_unknown
+- src_unknown
+  - src_unknown
 status: enriched
 domain:
-- learning-methodology- consulting
-- yitang
+- src_unknown
+- src_unknown
 bridges_to:
-- target: skill-一堂-hypothesis-validation-three-axe
+- src_unknown
   relation: provides_foundation_for
   description: 假设驱动工作流是三板斧的通用化底层框架
   context: 一堂三板斧聚焦创业场景的'做加法→做减法→快速验证'，此技能卡提供通用商业分析场景的假设驱动工作流
-- target: yt-entrepreneur-key-hypotheses
+- src_unknown
   relation: applies_to
   description: 关键假设识别后，用此工作流进行系统化验证
   context: 一堂259工具帮你识别关键假设，此工作流帮你设计验证路径、执行验证实验、迭代修正假设
 diagnostic_signals:
-- signal: 用户说'我们做了大量调研但结论很模糊'
+- src_unknown
   framework_lens: 假设驱动工作流检查：调研是否围绕具体假设展开
   follow_up_question: 你最初要验证的假设是什么？调研中的每个问题是否直接服务于证实或证伪某个假设？
-- signal: 用户说'我有5个可能原因，但资源只够验证2个'
+- src_unknown
   framework_lens: 假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准
   follow_up_question: 如果这5个假设中只有1个是对的，哪个假设被证伪后会对你的决策产生最大影响？优先验证那个
 related:
-- '[[yt-prompt-iterative-prompting]]'
-- '[[business-research-skill-oscar-13-weapon-system]]'
-- '[[system-yitang-research-workflow]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[concept-mckinsey-hypothesis-driven]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[yt-entrepreneur-five-step-method]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -79,13 +79,13 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 ### Step 1：问题定义（15分钟）
 
 用一句话写出你要解决的核心问题。好问题的标准：
-- 具体：涉及明确的指标、时间范围、范围边界
-- 可量化：问题的答案可以用数字或"是/否"表达
-- 无偏见：不包含预设的答案方向
+- src_unknown
+- src_unknown
+- src_unknown
 
 **示例：**
-- ❌ "如何提高销售？"（太宽泛，无法量化）
-- ✅ "Q3华东地区B端客户转化率从12%提升到18%的关键障碍是什么？"（具体、可量化、无偏见）
+- src_unknown
+- src_unknown
 
 ### Step 2：形成初始假设（30分钟）
 
@@ -101,9 +101,9 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 用 Issue Tree（`concept-mckinsey-issue-tree`）把每个核心假设拆成可独立验证的子假设。
 
 **规则：**
-- 每个子假设必须满足 MECE（`concept-mckinsey-mece`）——相互独立、完全穷尽
-- 拆解到"可执行验证实验"层级就停止，不要过度拆解
-- 标注每个子假设的"验证难度"和"影响程度"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：设计验证实验（30分钟）
 
@@ -120,9 +120,9 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 ### Step 5：执行验证（按实验设计）
 
 **关键原则：**
-- 先验证"影响最大、成本最低"的假设（ROI最高）
-- 数据收集过程中保持"假设中立"——不要选择性收集支持假设的数据
-- 记录所有数据点，包括不支持假设的数据
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 6：假设修正（30分钟）
 
@@ -139,31 +139,31 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 把修正后的假设作为新的初始假设，重复Step 3-6。通常1-2轮迭代足够。
 
 **停止迭代的信号：**
-- 已找到可解释问题的假设，且有充分数据支持
-- 已穷尽合理的替代假设，且都被证伪
-- 时间/资源约束下，当前假设是"最可能正确"的
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- ✅ 问题已大致定义，但原因不明，需要快速找到关键原因
-- ✅ 需要在1-2周内产出方向性结论（而非完美方案）
-- ✅ 团队对问题原因有分歧，需要结构化方法达成共识
-- ✅ 数据很多但结论模糊，需要"用假设给数据定向"
-- ✅ 投资决策前，需要快速验证核心商业假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- ❌ 问题完全未定义（没有足够信息形成任何合理假设）
-- ❌ 需要100%确定性结论（假设驱动产出的是概率性结论）
-- ❌ 验证成本过高（如需要数月临床试验才能验证的医药假设）
-- ❌ 高度政治化/情绪化的决策（假设会被立场污染）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 问题定义模板（一张纸或文档）
-- 假设树绘制工具（白板、XMind、纸笔）
-- 数据收集工具（问卷、访谈、A/B测试平台、数据分析软件）
-- 团队协作工具（确保假设和验证过程对团队透明）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -176,12 +176,12 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 
 ## 常见失败模式
 
-- **假设不可证伪** → 形成的假设太模糊，无法设计验证实验 → **用"如果…那么…"格式重写假设，确保包含可测量的指标**
-- **验证实验偏袒假设** → 无意识中选择能证实假设的数据来源 → **强制要求收集"反方证据"——如果假设是对的，哪些数据应该不存在？去验证这些数据是否真的不存在**
-- **过度拆解假设树** → 把假设拆到10层深度，验证成本爆炸 → **拆解到'可执行验证实验'层级就停止，通常2-3层足够**
-- **忽视证伪信号** → 数据否定假设但找借口不接受 → **设定'证伪标准'先于实验执行——在收集数据前就写下'什么结果会让我放弃这个假设'**
-- **初始假设质量差** → 基于偏见或错误信息形成假设 → **在形成假设前，先花15分钟收集'反方信息'——哪些人/数据可能不支持我的直觉？**
-- **假设数量失控** → 列出10+假设，验证资源分散 → **强制限制在2-3个，用'影响程度×可证伪性'打分排序**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -189,9 +189,9 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 
 **Daniel Kahneman** 的核心挑战：假设驱动工作流的每一步都可能被认知偏差污染：
 
-- **Step 2（形成假设）**：你的"直觉"往往是系统1的快思考结果，带有强烈的确认偏误。你形成的初始假设很可能只是你已有信念的变体。
-- **Step 4（设计验证实验）**：实验设计者的主观性无法消除——同一个假设，可以设计出"几乎一定能证实"或"几乎一定能证伪"的实验。
-- **Step 6（假设修正）**：人类对"否定自己"有强烈的心理抗拒。当数据与假设矛盾时，你更可能质疑数据质量而非假设本身。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Kahneman 的警告**："你教人们'先形成假设再验证'，但认知科学证明，人类一旦形成假设，就无法客观验证。你的'判断标准'中的'实验设计中立'在心理层面几乎不可能执行。真正有效的方法可能是'强制规定：每个假设必须有至少一个'反方支持者'来设计验证实验'——但这在大多数组织中不可行。"
 
@@ -199,9 +199,9 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 
 **Eric Ries** 的核心挑战：在商业实践中，"快速行动+从反馈中学习"往往比"先形成完美假设再验证"更有效：
 
-- **Step 1-2（问题定义+假设形成）可能消耗大量时间。** 在创业场景中，问题本身在变化——你今天定义的问题，下周可能已经不成立了。花2天形成假设，可能不如花2小时做一个MVP投放市场。
-- **"验证路径设计"本身假设了"问题可以被预先分析"。** Ries认为，在高度不确定的环境中，最有价值的信息来自"你事先没想到会看到的反馈"。假设驱动的验证路径越精确，你对"意外发现"的开放性就越低。
-- **迭代循环在创业中太慢。** 麦肯锡的假设驱动通常以周为单位迭代，但创业中的Build-Measure-Learn循环以天甚至小时为单位。假设驱动的"严谨性"在创业速度面前可能是负担。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Ries 的质疑**："你的7步工作流是一个优秀的'慢思考工具'。但创业的核心竞争力是'快'——快速实验、快速学习、快速调整。你的Step 3（拆解假设树）可能需要一天，但这一天我的竞争对手可能已经上线了一个功能并获得了真实用户反馈。在创业中，'足够好的假设+快速验证'胜过'完美的假设+缓慢验证'。"
 

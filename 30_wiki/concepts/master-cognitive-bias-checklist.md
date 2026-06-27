@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单
@@ -19,12 +19,12 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-knowledge-compound]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 认知偏差快速诊断清单
 
@@ -40,11 +40,11 @@ vault 里 100+ 张卡每张都有外部攻击者，但攻击者散落在各处�
 
 ### 与现有卡的关系
 
-- `yt-decision-y-model`：**补充**。Y 模型说"要结构化"，本卡说"你的结构化本身可能被偏差污染"
-- `yt-decision-canvas`：**前置**。先跑本卡检查自己的认知状态，再填画布
-- `yt-decision-ai-partner`：**互补**。AI 可以帮你暴露偏差，但本卡是主动自检
-- `master-decision-hygiene`：**先后**。本卡是个人自检（#1），决策卫生是团队流程（#2）
-- `master-ai-info-literacy`：**先后**。先确保输入信息质量，再检查自己对信息的认知处理
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -92,8 +92,8 @@ vault 里 100+ 张卡每张都有外部攻击者，但攻击者散落在各处�
 适用场景：团队做关键决策前的评审。
 
 **每个人独立回答 12 个问题，然后交换答案**。重点关注：
-- 你和同事在同一个问题上的答案不同→那里可能有偏差
-- 所有人都回答"否"→团队可能共享了同一个盲区
+- src_unknown
+- src_unknown
 
 ---
 
@@ -114,17 +114,17 @@ vault 里 100+ 张卡每张都有外部攻击者，但攻击者散落在各处�
 
 **Daniel Kahneman**（诺贝尔经济学奖获得者，"Thinking, Fast and Slow" 作者）对"用清单对抗偏差"本身提出了根本性质疑。Kahneman 的核心论证：**认知偏差是系统 1（直觉）的自动化产物，清单是系统 2（理性）的工具——但系统 2 太慢、太累、太懒，无法在所有决策中持续监控系统 1**。
 
-- **核心挑战**：当你跑完这 12 个问题后，你会产生"我已经检查过了，所以我很客观"的错觉——但"检查过"不等于"消除了"。清单给你的不是"客观"，是"客观感"。
-- **具体机制**：Kahneman 证明，即使你知道锚定效应的存在，你仍然会锚定。知道偏差和克服偏差之间有一道鸿沟，清单无法跨越。
-- **建议补充**：在每个修复步骤后面加一句"但我可能还是错了"，并强制引入外部视角（让同事检查你的答案，而不是自己检查自己）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 攻击者 2：Taleb（黑天鹅/反脆弱）—— 清单是已知的偏差，未知偏差才是致命的
 
 **Nassim Taleb**（《Antifragile》《黑天鹅》作者）对"已知偏差清单"提出了"元偏差"层面的挑战。Taleb 的核心论点：**你列出的 12 种偏差都是已经被研究和命名的，但真正的风险来自"未知的未知"——那些还没有被命名的偏差**。当你拿着一张 12 项清单自我感觉良好时，你可能正在犯第 13 种、第 14 种偏差，而清单让你以为自己已经安全了。
 
-- **核心挑战**：清单制造了"完备性幻觉"。12 种偏差的完备感会让用户低估"还有我不知道的偏差"的风险。
-- **具体机制**：Taleb 的"遍历性"论证——如果你每次决策都依赖同一张清单，你的决策分布会系统性地避开这 12 种偏差，但会在"清单没覆盖的盲区"集中爆发。
-- **建议补充**：在清单末尾加一条"第 13 项"——"我是否假设了这张清单已经覆盖了所有重要偏差？"并强制要求用户在每次使用后写下"这张清单没帮我发现但我直觉觉得不对的地方"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

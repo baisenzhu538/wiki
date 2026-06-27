@@ -10,31 +10,31 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[tool-yitang-behavioral-observation]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[framework-demand-iceberg]]"
-  - "[[case-yitang-pet-fostering-user-research]]"
-  - "[[case-yitang-doorstep-nail-service-context]]"
-  - "[[case-yitang-jtbd-story-formula]]"
-  - "[[case-yitang-consumer-offline-channel-decision]]"
-  - "[[case-yitang-ski-project-user-as-expert]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研中行为证据重于口头证据
@@ -89,11 +89,11 @@ related:
 
 ## 使用场景
 
-- 验证新品类或新场景的需求存在性，避免被「用户说会买」误导。
-- 远程用户访谈中，需要还原被访者的真实使用语境和替代方案。
-- 产品方向争议时，用行为证据替代「我觉得用户需要」的口水战。
-- 与 [[tool-yitang-user-interview-5steps]]、[[yt-research-user-jtbd]] 组合，形成「问故事 + 看行为」的调研流程。
-- 在 [[framework-demand-iceberg]] 的 L1-L6 中，为冰山各层提供真实用户行为锚点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -111,9 +111,9 @@ related:
 
 ### 远程访谈还原现场语境的技巧
 
-- 让用户打开相册/购物记录/App 使用记录，边看边说 [conf=0.80, source=王语嫣 synthesis_yitang.md]。
-- 要求用户描述「当时周围还有什么人、在做什么、前 10 分钟在做什么」。
-- 用「如果明天这个问题解决了，你今天会怎么做？」把未来愿望拉回当下行为 [conf=0.80, source=王语嫣 synthesis_yitang.md]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -141,20 +141,20 @@ related:
 
 ## 预警信号
 
-- [ ] 你的访谈总结里全是「用户说」「用户认为」，很少出现「用户做了什么」「用户买了什么」。[conf=0.80, source=王语嫣 synthesis_yitang.md]
-- [ ] 团队把「访谈对象点头」当成「需求被验证」，没有追问替代方案和付费行为。[conf=0.80, source=王语嫣 synthesis_yitang.md]
-- [ ] 用户口头表达的需求强度很高，但现实中没有任何替代方案使用痕迹或付费记录。[conf=0.80, source=王语嫣 synthesis_yitang.md]
-- [ ] 远程访谈结束后，你无法复述用户最近一次遇到该问题的具体场景。[conf=0.80, source=王语嫣 synthesis_yitang.md]
-- [ ] 调研报告里用「用户群体」「典型用户」概括结论，却缺少 2-3 个具体用户的行为链和反例。[conf=0.80, source=王语嫣 synthesis_yitang.md]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 可迁移场景
 
-- **产品设计**：做用户画像时，优先收集用户当前工作流和工具栈，而非偏好问卷。
-- **投资研究**：判断一个赛道是否真实存在需求，先看消费者/企业是否已为此付费，而非只看研报预测。
-- **内容创作**：验证选题是否有真实痛点，观察目标读者在用什么替代内容解渴，而不是问他们「想看什么」。
-- **招聘与组织诊断**：了解团队真实协作问题时，观察会议、文档、代码提交等行为，比员工满意度调研更直接。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

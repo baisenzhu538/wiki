@@ -13,35 +13,35 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 单点狙击
-- 关键问题验证
-- 聚焦验证
-- 单点验证
-- 核心假设验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[concept-yitang-research-scope]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-validate-assumption]]"
-  - "（tool-yitang-research-hypothesis-test，待补）"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "（dk-yitang-research-determination，待补）"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单点狙击：聚焦关键问题的深度验证
@@ -61,9 +61,9 @@ related:
 ## 第一步：识别关键点
 
 ### 关键点的特征
-- 影响决策的核心问题
-- 信息不确定性最高
-- 验证后能产生最大价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键点识别方法
 
@@ -113,9 +113,9 @@ related:
 2. [方法2]
 
 ### 验证标准
-- 通过：[标准]
-- 失败：[标准]
-- 需验证：[标准]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 时间计划
 [开始时间] - [结束时间]
@@ -129,9 +129,9 @@ related:
 ## 第三步：穷尽手段验证
 
 ### 穷尽手段原则
-- 至少用2种独立方法验证
-- 方法要互补（如定量+定性）
-- 记录所有验证过程和结果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 验证手段组合
 
@@ -148,14 +148,14 @@ related:
 ## 单点狙击的终止条件
 
 ### 正常终止
-- 达到验证标准（通过/失败）
-- 验证成本超过预期价值
-- 信息已充分，无需进一步验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 异常终止
-- 时间耗尽
-- 资源耗尽
-- 发现新的更关键的问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -203,22 +203,22 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-validate-assumption]] — 假设验证工具
-- [[yt-research-hypothesis-test]] — 旧版假设测试
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 单点狙击模块
-- 交叉：精益创业关键假设验证
-- 注意：单点狙击是资源有限时的最优策略，不是偷懒，而是聚焦
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

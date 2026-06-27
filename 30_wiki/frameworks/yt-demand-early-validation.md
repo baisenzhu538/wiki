@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-early-validation
 title: 需求早期验证：低成本测试法
@@ -17,25 +17,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-fake-demand-detection
-  - yt-demand-hierarchy-model
-  - yt-five-step-method
-  - yt-entrepreneur-lean-validation
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户花了很多时间做产品，但上线后发现没人用"
+  - src_unknown
     framework_lens: 需求早期验证——未验证就投入开发
     follow_up_question: "在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？"
-  - signal: "用户说'我觉得会有市场'，但没有验证数据"
+  - src_unknown
     framework_lens: 需求早期验证——假设未验证
     follow_up_question: "你的'觉得'有数据支撑吗？至少访谈了多少个目标用户？"
-  - signal: "用户做了MVP，但MVP功能太多，验证不了核心需求"
+  - src_unknown
     framework_lens: 需求早期验证——MVP不够M
     follow_up_question: "你的MVP去掉了哪些功能？剩下的功能是否只验证核心需求？"
-  - signal: "用户验证方法只有问卷，没有行为数据"
+  - src_unknown
     framework_lens: 需求早期验证——口头验证≠行为验证
     follow_up_question: "用户说'想要'后，有没有让他们实际使用或付费？"
-  - signal: "用户验证范围太小，只有几个朋友"
+  - src_unknown
     framework_lens: 需求早期验证——样本偏差
     follow_up_question: "你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？"
 
@@ -71,24 +71,24 @@ diagnostic_signals:
 ### 2. 低成本验证方法
 
 **方法1：用户访谈（最低成本）**
-- 找10个目标用户，深度访谈
-- 不是问"你想要什么"，而是问"你现在怎么解决的？"
-- 关键指标：需求强度、替代方案成本、付费意愿
+- src_unknown
+- src_unknown
+- src_unknown
 
 **方法2：原型测试**
-- 用Figma/Axure做可点击原型
-- 让用户完成核心任务，观察是否顺畅
-- 关键指标：任务完成率、完成时间、错误率
+- src_unknown
+- src_unknown
+- src_unknown
 
 **方法3：预售/众筹**
-- 产品未开发，先卖概念
-- 用户付定金，验证付费意愿
-- 关键指标：预付转化率、客单价、退款率
+- src_unknown
+- src_unknown
+- src_unknown
 
 **方法4：Concierge MVP**
-- 用人工服务模拟产品功能
-- 验证用户是否愿意使用，是否愿意付费
-- 关键指标：使用频率、留存率、推荐意愿
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 验证的常见错误
 
@@ -123,21 +123,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当要开发新产品时 → 先验证，再开发
-- 当用户说"我觉得会有市场"时 → 问"验证数据在哪里？"
-- 当做MVP时 → 问"这个MVP能验证核心需求吗？"
-- 当验证结果不支持假设时 → 尊重数据，调整方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-lean-validation`：精益验证方法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂精益验证方法
-- 精益创业（Eric Ries）
+- src_unknown
+- src_unknown
+- src_unknown

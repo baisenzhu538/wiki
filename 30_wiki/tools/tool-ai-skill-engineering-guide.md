@@ -6,17 +6,17 @@ title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工�
 type: tool
 status: enriched
 domain:
-- yitang
-- ai
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 tags:
-- '#domain/ai'
-- '#domain/skill-engineering'
-- '#method/modeling'
-- '#content-format/concept-card'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -27,26 +27,26 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: high
 related:
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-weapon-library]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[case-modeling-abstraction-reliability-ladder]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 封装的 AI skill 运行不稳定、触发条件缺失、示例模板丢失
+- src_unknown
   framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- signal: 让 AI 直接生成 skill，没有经过多轮审美拉齐
+- src_unknown
   framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
-- signal: 团队内部 skill 标准不统一，不同人封装的质量参差不齐
+- src_unknown
   framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把"好 skill"的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---# 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
@@ -78,10 +78,10 @@ diagnostic_signals:
 
 明确你要封装的是哪一类 skill：
 
-- 目标用户是谁？
-- 典型触发场景是什么？
-- 输出形式是什么？（文本、结构化数据、决策建议、代码……）
-- 复杂度大致几星？（参考下文的七个范式）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：收集最佳实践
 
@@ -96,9 +96,9 @@ diagnostic_signals:
 
 输入要求示例：
 
-- 我要审美、特性、逻辑链。
-- 给我一个最完美的 skill 封装直男（指南）。
-- 包含四层架构：目标/触发/流程/输出。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：用逻辑洁癖多轮纠偏
 
@@ -122,9 +122,9 @@ diagnostic_signals:
 
 把最终指南转化为一份可执行的审计清单：
 
-- **P0 级**：缺少就严重不合格（如触发条件、输出示例、边界说明）。
-- **P1 级**：影响体验但可补救（如多语言支持、异常处理）。
-- **P2 级**：锦上添花（如风格定制、高级参数）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第七步：下饺子与巡查
 
@@ -134,11 +134,11 @@ diagnostic_signals:
 
 ## When NOT to Use
 
-- 你只是想要一个一次性 prompt，不需要复用和审计。
-- 你对 skill 的边界和目标本身还不清楚。
-- 你没有时间做 10 轮以上的迭代纠偏。
-- 你的团队没有“逻辑洁癖”文化，AI 输出无人把关。
-- 你要封装的 skill 涉及高风险决策（医疗、法律、财务），需要人工终审。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -146,9 +146,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **依赖 Truman 个人的审美水平**：指南的 S 级质量来自人对“不完整、没顺序、不 MECE”的持续纠偏，普通用户如果没有同等审美，可能无法复现。
-- **迭代轮次门槛高**：10-15 轮纠偏对多数人来说时间成本不低。
-- **领域迁移需重新调整**：本指南基于 skill 封装场景，迁移到其他 AI 产出类型（如 Agent、Workflow）时需重新界定边界。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -189,12 +189,12 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 
 ### 与本库其他卡片的关联
 
-- [[modeling-three-stages]]：本工具属于“抽象建模”到“本质建模”之间的工程化应用。
-- [[modeling-weapon-library]]：指南本身可以视为“建模武器库”中的一个高级工具。
-- [[dk-modeling-ai-without-judgment]]：提醒 AI 只能执行，不能替代人的判断。
-- [[dk-modeling-counterexample-driven]]：交叉验证和找反例是提升指南质量的关键。
-- [[case-modeling-abstraction-reliability-ladder]]：本指南追求的目标是“没有反例”的第四层可靠度。
-- [[case-truman-ai-skill-self-packaging]]：Truman 将自身建模方法封装为 skill 的对照案例，可与本指南互为校验。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -215,24 +215,24 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 
 **第一步：定义边界**
 
-- 目标用户：项目负责人、会议组织者
-- 触发场景：会议结束后拿到 30-120 分钟录音转文字稿
-- 输出形式：结构化 Markdown（决策项 / 责任人 / 截止日期 / 待确认问题 / 上下文原文）
-- 复杂度：★★★☆☆（介于流程类建模与抽象建模之间）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二步：收集最佳实践**
 
-- 查阅 Claude 官方 skill creator 指南、飞书妙记 / 听脑导出模板、团队历史优秀纪要 3 份。
-- 让 AI 将每份最佳实践翻译成「对封装这个 skill 有什么用」的条款。
+- src_unknown
+- src_unknown
 
 **第三步-第六步：迭代与审计**
 
-- 用 10-15 轮迭代拉齐四层架构、MECE 分类、十条 To Do / Not To Do。
-- 最终产出 P0/P1/P2 检查清单，并用 2 份行业标杆报告按实用性 / 宽度 / 专业性做交叉打分。
+- src_unknown
+- src_unknown
 
 **第七步：下饺子与巡查**
 
-- 用该 skill 处理下一次真实会议，记录 AI 输出偏差（如漏掉待确认问题、责任人识别错误），回灌到指南 2.0。
+- src_unknown
 
 ---
 
@@ -242,32 +242,32 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 
 #### P0 级（缺少即严重不合格）
 
-- [ ] 目标用户明确且唯一
-- [ ] 触发条件具体可识别（输入格式、场景、边界）
-- [ ] 输出形式定义清晰（文本 / 表格 / 决策建议 / 代码）
-- [ ] 包含 ≥3 个输入/输出示例，覆盖典型与边界情况
-- [ ] 边界说明完整（何时不用、前置条件、失败后的兜底）
-- [ ] 核心流程步骤可执行、无歧义
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### P1 级（影响体验但可补救）
 
-- [ ] 多语言支持或语气风格说明
-- [ ] 异常处理与错误恢复提示
-- [ ] 分类满足 MECE，无重叠遗漏
-- [ ] 有十条 To Do / Not To Do 清单且已编优先级
-- [ ] 含交叉验证记录（≥1 份行业标杆对比）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### P2 级（锦上添花）
 
-- [ ] 风格 / 语气可定制
-- [ ] 高级参数或开关说明
-- [ ] 版本号与变更日志
-- [ ] 用户反馈收集入口
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：工作流七步、10-15 轮纠偏、P0/P1/P2 分级、十条 To Do/Not To Do、七个范式、四层架构均直接来自 Truman 口述稿。
-- **中置信度**：具体评估维度（实用性、宽度、专业性）和 S/A/B+ 打分来自 Truman 描述，具体评分标准需结合实际场景调整。
-- **待复核**：七个范式的具体名称和案例细节未在口述稿中完整展开，后续需补充更详细的示例库。
+- src_unknown
+- src_unknown
+- src_unknown

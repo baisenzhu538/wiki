@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-案例06"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_e70d298c
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-深度-案例06"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
-  - '[[ocr-一堂-科学决策-深度-案例02]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-案例06
@@ -41,31 +41,31 @@ png` 电话外呼的ROI分析(v3.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 电话外呼ROI分析框架应区分关键成本、关键收益与品牌负收益三类项，并标注能否定量。
-- 采购线索成本可按最低单价估算，但需注意实际单价可能浮动。
-- 外呼团队成本计算需包含综合薪酬，同时应预留管理成本、电话费、招聘成本、场地设备等隐性成本项。
-- 人均外呼量（100通/天）是产能规划的基础假设，需持续验证。
-- 漏斗转化率需分层假设（如线索有效率→邀约成功率），并明确标注是否已验证。
-- 收益预估应标注保守值/乐观值，并区分已验证数据与假设数据。
-- 品牌负收益作为隐性成本项应被识别，即使难以量化也需记录在案。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 表格中"品牌负收益"仅标注"存在，很难量化"，但未说明是否尝试建立估算模型（如客户流失率、NPS下降值等替代指标），也未明确后续量化计划。
-- "单价按最低￥1块钱算"这一假设未解释来源（历史数据/供应商报价/行业基准），且未说明若实际单价高于￥1时对ROI结论的敏感性影响。
-- 外呼团队40人的配置依据未披露：是基于4000个体验课目标反推，还是先有人力再定目标？两种逻辑对产能瓶颈判断完全不同。
-- "每个人每天可以外呼100个"的产能假设缺乏验证状态标注（已验证/行业参考/理论值），且未考虑外呼接通率、有效通话时长等关键中间变量。
-- 漏斗两层转化率（20%→20%）的乘积导致最终转化率仅4%，但未与行业基准或历史数据对比，也未分析哪一环节优化空间更大。
-- 关键收益"每个月4000个体验课用户"与成本侧的匹配关系未检验：按40人×100通/天×22工作日=88,000通/月，若线索有效率20%则有效线索17,600个，邀约成功率20%仅3,520个，与宣称的4,000个存在数量缺口，内部一致性存疑。
-- 未标注分析版本v3.0的迭代历史：此前版本的核心假设变更了什么？哪些假设曾被验证失败？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -83,30 +83,30 @@ Page 的多样性预测定理证实，多元视角的集合可以提升预测准
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] - 深度梯子，案例06是其在创新项目评估场景下的应用
-- [[yt-entrepreneur-five-step-method]] - 一堂五步法，案例中的现金流分析与之形成补充
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创新项目评估：用案例中的现金流模型评估创新项目的可行性
-- 团队能力培养：在“授权模型”与“实践学习”之间做出平衡
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将案例中的现金流模型当作创新项目的通用模板，创新项目的变量复杂性远超模型
-- 不要用“理论授权”替代“实践训练”，乐观力是做出来的而非教出来的
-- 不要在缺乏系统性联动分析时将独立变量的分析误认为系统分析
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在评估创新项目时，用案例中的现金流模型做出初步评估
-- 従你在“授权”团队乐观力时，用 Papert 的构建主义视角检查是否在用理论替代实践
-- 従你在用案例中的多变量模型时，用 Page 的多样性视角检查变量之间的联动关系是否被忽略
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

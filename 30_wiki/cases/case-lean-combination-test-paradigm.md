@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师（含张磊洗发水项目复盘）
 source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
 source_refs:
@@ -24,18 +24,18 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 related:
-  - '[[framework-lean-systematic-test-curve]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-lean-shampoo-selling-points]]'
-  - '[[case-lean-gray-test-paradigm]]'
-  - '[[case-lean-crayfish-combo-test]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-product-kernel]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 组合测试范式实操案例
@@ -89,14 +89,14 @@ related:
 
 洗发水和小龙虾案例都大量使用了 F/L 阶段的低成本武器：
 
-- **F 直接测试**：假页面/海报测卖点、小范围投票和访谈；
-- **L 借用现成**：借用直播间、朋友聚餐、现有液氮设备等现成场景和工具；
-- 在验证方向前，没有进入 E（最小版本量产）或 All-in（全量投入）阶段 [conf=0.80, source=framework-lean-false-model]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对应 framework-lean-abcd-model
 
-- **A 象限（商业成败）**：核心问题是「这个品类/卖点组合能否支撑一个可持续的新品牌」；
-- **C/D 象限（业务提升/关键转化）**：组合测试早期主要在 C/D 象限做选项筛选，但目的不是优化转化率，而是为 A 象限的方向决策提供证据，避免 A 象限直接 all-in [conf=0.80, source=framework-lean-abcd-model]。
+- src_unknown
+- src_unknown
 
 ## 失败/成功原因
 
@@ -114,11 +114,11 @@ related:
 
 组合测试范式适合以下情况：
 
-- 产品卖点、成分、功效、价格带、人群定位存在多个并列选项；
-- 品类/技术/商业模式可选方向多，需要筛选最优方向；
-- 团队内部对「该主打哪个卖点/哪个品类」争执不下；
-- 新业务失败成本高，需要先降低方向性风险；
-- 有现成低成本测试渠道（社群、直播间、朋友圈、现有设备）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

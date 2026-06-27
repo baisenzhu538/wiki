@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"
@@ -17,25 +17,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-qualitative-analysis
-  - yt-demand-scenario-reconstruction
-  - yt-demand-segmentation-canvas
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'所有人都是我的目标用户'"
+  - src_unknown
     framework_lens: 用户分层缺失——需求定义太泛，无法聚焦
     follow_up_question: "如果只能服务100个用户，这100个人是谁？他们在什么场景下必须用你的方案？"
-  - signal: "产品转化率低，用户说'挺好的但不需要'"
+  - src_unknown
     framework_lens: 目标用户错位——产品匹配了非核心用户
     follow_up_question: "现在付费的用户和说'不需要'的用户，他们的差异是什么？"
-  - signal: "不同用户对产品功能的评价截然相反"
+  - src_unknown
     framework_lens: 需求差异未识别——把不同用户当成同一群体
     follow_up_question: "这些用户属于同一层吗？他们的场景、痛点、付费意愿差异有多大？"
-  - signal: "用户增长很快但留存很差，流失用户画像模糊"
+  - src_unknown
     framework_lens: 分层维度错误——按人口统计分层，未按需求分层
     follow_up_question: "你是按年龄/地域分层，还是按需求强度/场景/付费意愿分层？"
-  - signal: "团队争论'应该做哪个功能'，各执一词"
+  - src_unknown
     framework_lens: 用户分层不统一——不同功能服务不同层，未对齐
     follow_up_question: "这个功能主要服务哪一层用户？这一层用户占多大比例？"
 
@@ -83,20 +83,20 @@ diagnostic_signals:
 
 不是问"你属于哪个群体"，而是问：
 
-- 你现在怎么解决这个问题的？（识别替代方案成本）
-- 这个问题多久发生一次？（识别频率）
-- 如果不解决，后果是什么？（识别痛点强度）
-- 你愿意为解决这个问题付多少钱？（识别付费意愿）
-- 你是怎么知道这类产品的？（识别获取渠道）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 分层后的验证
 
 找到第一批用户后，验证：
 
-- 他们是否真的有你说的高痛？
-- 他们是否愿意为你的方案付费？
-- 他们是否容易触达？
-- 服务他们后，是否能产生口碑扩散？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -120,21 +120,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你想说"所有人都是我的用户"时 → 强制回答"第一批100个是谁？"
-- 当转化率低时 → 检查是否匹配了非核心用户层
-- 当团队争论功能优先级时 → 先对齐"服务哪一层用户"
-- 当考虑扩展新用户群时 → 先验证当前层是否已深度服务
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-segmentation-canvas`：需求分层画布
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂案例大爆炸：人群定位失败的案例
-- 一堂线下私董会用户分层观察
+- src_unknown
+- src_unknown
+- src_unknown

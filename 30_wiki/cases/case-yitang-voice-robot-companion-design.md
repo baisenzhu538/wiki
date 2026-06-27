@@ -15,12 +15,12 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - '[[case-yitang-doorstep-pet-feeding-trust]]'
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-yitang-ai-time-management-coach]]'
-  - '[[case-yitang-homestay-reception-design]]'
-  - "[[tool-yitang-user-interview-5steps]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：陪伴式语音机器人设计

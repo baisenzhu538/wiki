@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系（L1 模糊 → L6 动态）
@@ -19,13 +19,13 @@ review_date: '2026-06-20'
 confidence: 0.85
 trust_level: high
 related:
-  - yt-management-business-formula
-  - yt-business-formula-abc-model
-  - yt-business-formula-parameter-iceberg
-  - yt-business-formula-business-pattern-selector
-  - yt-business-formula-qualitative-metrics-library
-  - yt-decision-depth-ladder
-  - yt-model-deep-review-iceberg
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
@@ -179,14 +179,14 @@ R_t = f(A_t, B_t, C_t, 外部变量_t)
 
 ## 验证与参考
 
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图.png`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：六层名称、比喻、获得价值、提升方向（直接来自培训图）
-- **中置信度**：各层数学表达式的写法（基于图示的合理推断）
-- **待复核**：L6「动态」的具体操作方法在原始材料中较抽象，需结合实际案例补充
+- src_unknown
+- src_unknown
+- src_unknown

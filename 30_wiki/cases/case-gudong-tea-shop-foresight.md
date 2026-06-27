@@ -6,7 +6,7 @@ id: case-gudong-tea-shop-foresight
 title: 古董奶茶店：五层筛选的加法减法实战
 type: case
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -18,32 +18,32 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 source_person: 古董（一堂青岛中心主理人）
 source_context: Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
 query_triggers:
-- 古董奶茶
-- 奶茶店预判
-- 青岛奶茶
-- 五层筛选
-- 加盟预判
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[yt-foresight-business-spectrum]]'
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-outcome
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[tool-按分阶练习路径渐进掌握方法]]'
-  - '[[ocr-泛产品设计-落地卡片-假设拆解]]'
-  - '[[case-xiaolong-ecommerce-foresight]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-foresight-addition-subtraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景
@@ -67,10 +67,10 @@ related:
 **加法**：民生大类下——便利店、服装、大餐饮、小餐饮、吃的、喝的……拉出20+品类。
 
 **减法**：
-- 便利店 → 规模化竞争已经开始，几百万没优势，砍掉
-- 服装 → 快时尚在国内已有苗头，大品牌一进来我们扛不住，砍掉
-- 大餐饮 → 机会好但自己"不太喜欢杀生"，兴趣不匹配，砍掉
-- **一路砍到奶茶**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "奶茶整体比较符合长期想要的。茶相比芝士蛋糕这种短周期产品，周期会更长。华东已经有爆发苗头，很多城市渗透率还很低——时光机理论。"
 
@@ -79,27 +79,27 @@ related:
 **加法**：自建品牌、单店加盟、区域加盟、合资经营……列出各种进入方式。
 
 **减法**：
-- 自建品牌 → 不是自己能力能hold住的，砍掉
-- 单店加盟 → 不符合"长期亿级"的目标，砍掉
-- **选中合资经营**：头部品牌开放的城市授权模式，拿到城市100%经营权，自己建组织、定规则
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四层：选城市
 
 **加法**：全国前30名GDP城市拉出来。
 
 **减法**：
-- 市场规模过小的 → 砍掉
-- 中西部太远的（不想离家太远） → 砍掉
-- 竞争已经很激烈的（华东品牌已饱和、华南已有强品牌） → 砍掉
-- **剩下3个候选：青岛 > 大连 > 烟台**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第五层：实地验证
 
 背着包从上海飞到青岛，肉身跑了两趟：
-- 看竞品：当地只有本地杂牌奶茶，无强品牌进入
-- 看消费：年轻人多、消费力旺盛、周末非周末都看
-- 看相近业态：星巴克/面包店经营不错，说明消费水平够
-- 看细节：电影院/步行街上大家拿什么吃什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "又做了一次数据分析反向验证，最终确认：不管从商业模式、团队能力、初心匹配还是品类选择上，青岛+合资经营+这个品牌，就是当前所有选项里最好的。"
 
@@ -116,17 +116,17 @@ related:
 
 ## 可迁移场景
 
-- **任何"只有一次机会"的重大决策**：把筹码压在一个方向上之前，至少做三层筛选（行业→品类→切入点→具体战场）。
-- **加盟vs自建的选择**：不是"加盟好不好"，而是"哪种加盟方式匹配我的长期目标"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- [[yt-foresight-15-char-mantra]] — 古董从头到尾执行的正是十五字法诀
-- [[yt-foresight-addition-subtraction]] — 五层筛选是最完整的加法减法示范
-- [[yt-foresight-business-spectrum]] — 终局光谱图解释了为什么古董要选"长期亿级"这个锚点
-- [[case-xiaolong-ecommerce-foresight]] — 与小龙电商形成对照：古董按"行业→品类→切入方式→城市"拆，小龙按"大品类→细分→再细分→供应链"拆
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
-- **在加法不足时就开始减法**：如果古董第一层只看了3个行业就直接选民生，后面所有决策的质量都会受限于初始选项池的贫瘠。
-- **把"个人偏好"包装成"商业判断"**：古董诚实地区分了二者——"不喜欢杀生"是个人偏好（可以接受，只要诚实），但"便利店竞争已开始"是商业判断。混淆两者是常见错误。
+- src_unknown
+- src_unknown

@@ -13,39 +13,39 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- 专家访谈
-- 访谈专家
-- 行业专家
-- 专家访谈流程
-- 怎么访谈专家
-- 专家访谈技巧
-- 黄金十步法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown流程
+- src_unknown
+- src_unknown技巧
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 - 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[framework-doris-industry-report-4step]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[sk-ai-purpose-bias-check]]'
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-mindset]]"
-  - "[[dk-yitang-expert-interview-5-traps]]"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[tool-yitang-expert-network-platform]]"
-  - "（tool-yitang-linkedin-expert，待补）"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
@@ -86,9 +86,9 @@ related:
 **核心问题**：我有哪些重大认知盲区？
 
 **常见盲区类型**：
-- 行业链条：上下游、竞对、趋势
-- 业务逻辑：需求、用户、商业模式、关键数字
-- 组织能力：价值观、团队文化、能力匹配
+- src_unknown
+- src_unknown
+- src_unknown
 
 **梳理方法**：
 1. 列出当前业务的所有关键问题
@@ -110,13 +110,13 @@ related:
 ```
 
 **示例**：
-- 张磊做二手电商，两年才知道滞销率是关键参数
-- 如果早期访谈一个专家，可能2个月就知道
-- 节省：22个月 × 团队成本 = 可能数百万
+- src_unknown
+- src_unknown
+- src_unknown
 
 **决策标准**：
-- 如果访谈价值 > 访谈成本（时间+金钱）× 3，值得做
-- 如果价值 < 成本，用其他方式（如报告、书籍）
+- src_unknown
+- src_unknown
 
 ---
 
@@ -134,10 +134,10 @@ related:
 | **反面专家** | 失败过 | 失败教训、风险预警 |
 
 **识别标准**：
-- 有真实案例（不是纯理论）
-- 有具体数字（不是模糊描述）
-- 有失败经历（不是只讲成功）
-- 有更新认知（不是停留在过去）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -158,9 +158,9 @@ related:
 | 校友/同学网络 | 低 | 低 | 长期积累 |
 
 **关键技巧**：
-- 不要直接问"能不能访谈"，先提供价值
-- 用"请教"而不是"采访"的姿态
-- 通过共同联系人建立信任
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -189,16 +189,16 @@ related:
 ### Step 6：访谈准备
 
 **准备清单**：
-- [ ] 明确本次访谈的1-3个核心问题
-- [ ] 研究专家背景（经历、案例、观点）
-- [ ] 准备追问清单（每个核心问题3-5个追问）
-- [ ] 准备录音/笔记工具
-- [ ] 准备小礼物/感谢方式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **禁忌**：
-- 没有准备就问"您怎么看这个行业"
-- 问题太宽泛，专家不知道从何答起
-- 只准备问题，没准备追问
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -224,9 +224,9 @@ related:
 4. **明确目标**："今天我想重点请教XX问题，大概30分钟"
 
 **禁忌**：
-- 寒暄过长，浪费专家时间
-- 直接问敏感问题，没有铺垫
-- 表现得像记者采访，而不是请教
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -235,25 +235,25 @@ related:
 **提问框架**：
 
 **第一层：事实层**
-- "当时具体发生了什么？"
-- "这个数字是多少？"
-- "用了多长时间？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二层：逻辑层**
-- "为什么这样做？"
-- "当时怎么判断的？"
-- "如果重来会怎么做？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第三层：认知层**
-- "这个行业的底层逻辑是什么？"
-- "关键成功因素是什么？"
-- "常见的误区是什么？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **追问技巧**：
-- "能具体举个例子吗？"
-- "如果XX变了，结论还成立吗？"
-- "反面案例是什么？"
-- "您现在的看法和过去有变化吗？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -267,13 +267,13 @@ related:
 [本次访谈要解决的1-3个问题]
 
 ### 专家观点
-- 观点1：[具体观点]
-- 观点2：[具体观点]
-- 观点3：[具体观点]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键数字
-- 数字1：[具体数字及来源]
-- 数字2：[具体数字及来源]
+- src_unknown
+- src_unknown
 
 ### 可执行建议
 1. [建议1]
@@ -288,9 +288,9 @@ related:
 2. [行动2]
 
 ### 置信度评估
-- 高置信度：[哪些观点]
-- 中置信度：[哪些观点]
-- 低置信度：[哪些观点]
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -344,24 +344,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[yt-research-expert-interview]] — 专家访谈工具
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[yt-research-mindset]] — 调研认知升级
-- [[dk-yitang-expert-interview-5-traps]] — 专家访谈5大陷阱
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[tool-yitang-expert-network-platform]] — 专家网络付费平台
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-专家访谈调研-口述（Truman，2021）
-- 验证：一堂-专家访谈调研-笔记
-- 交叉：business-research-skill 专家访谈模块
-- 注意：黄金十步法命名来自口述原文，具体步骤可能因版本不同略有调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,8 +3,8 @@ id: tool-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-水水-利用叙事驱动决策]]'
-- '[[tool-ai-system-redundancy]]'
-- '[[tool-水水-识别关键偶然因素]]'
-- '[[tool-水水-识别超级传播者风险]]'
-- '[[sk-ai-purpose-bias-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：目的论偏差快速识别法
 
@@ -39,27 +39,27 @@ related:
 | **Step 4** | 有没有其他人在同样条件下做了相同的事，结果不同？ | 如果有 → 事件不是单一因果 |
 | **Step 5** | 如果把这个结果归因于我/别人，是否对未来有帮助？ | 如果没有 → 这是目的论偏差，停止归因 |
 9. 应用场景
-- **面试失败**：不要立即归因于"能力不行"，先检查面试官偏好/业务匹配度/当天状态等偶然因素
-- **项目失败**：不要立即找"谁的责任"，先检查外部环境变化/市场波动/资源不足等非人为因素
-- **投资亏损**：不要经常回顾"如果当时怎么做就好了"，那是后见之明
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- 遇到了不好的结果，反复回顾"哪里做错了"，越想越自责
-- 看到一个成功案例，马上想复制“成功原因”
-- 做出一个决策后结果好，就认为是决策对，结果坏就认为决策错
-- 团队里有人因为一次失败就被打上"能力不行"标签
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 笔记本和笔
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 数据不全/不准 → 检查结果失误 → **检查前确认数据完整性**
-- 单人操作忽视团队协作 → 成果难推广 → **步骤1就征求团队意见**
-- 惯性思维干扰 → 跳过某步 → **按清单逐条打勾，不要靠感觉**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -67,13 +67,13 @@ related:
 
 ## 关联技能
 
-- narrative-bias
-- self-organized-criticality
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

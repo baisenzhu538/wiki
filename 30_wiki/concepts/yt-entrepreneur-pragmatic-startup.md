@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "务实创业"
-  - "实事求是创业"
-  - "创业现实主义"
-  - "反风口创业"
-  - "科学创业方法"
-  - "低成本验证"
-  - "数据驱动创业"
-  - "创业方法论"
-  - "理性创业"
-  - "创业反直觉思维"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,18 +38,18 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户追风口而不看自身能力', 'framework_lens': '不务实', 'follow_up_question': '这个风口和你的核心能力有什么关系？如果没有，你只是旁观者'}
   - {'signal': '用户过度保守，什么都不敢试', 'framework_lens': '务实≠不行动', 'follow_up_question': '你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-liberate-thinking]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 务实创业
 
@@ -69,9 +69,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「底层逻辑」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -90,7 +90,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

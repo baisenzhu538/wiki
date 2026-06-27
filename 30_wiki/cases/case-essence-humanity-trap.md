@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
-- essence
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分支撑 high trust；因仅有一个来源，trust_level 保持 medium，待第二来源验证后可升 high）
 created_at: '2026-06-14'
@@ -21,24 +21,24 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-- 专家用"人性""利他""长期主义"等万能词解释一切问题
-- 听完觉得"很有道理"，但无法据此做出具体决策
-- 同一本质被套用在招聘、股权、管理、激励等差异巨大的场景
-- 讨论停留在解释过去失败，而不是预测下一步行动
-- 被要求推导具体方案时，专家开始绕圈或诉诸更多大词
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[dk-modeling-essence-predictive]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#method/thinking-tool'
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱
 
@@ -56,10 +56,10 @@ tags:
 
 ## Background
 
-- **场景**：Truman 早期招聘专家，想提炼股权、管理、激励等领域的本质
-- **问题**：不同专家给出的本质高度雷同，且无法指导具体决策
-- **目标**：识别真正能预测和指导行动的本质
-- **来源**：`src_20260614_8269ccdb#3158-3183`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -106,19 +106,19 @@ Truman 追问：
 
 ## 核心要点
 
-- **解释性本质的特征**：听起来永远正确，能解释所有历史现象，却无法导出下一步行动。
-- **预测性本质的标准**：能用一句话推导出 checklist、流程、原则或具体决策。
-- **万能词陷阱**："人性""利他""长期主义"等词越通用，作为本质的预测力越弱。
-- **三推导验证法**：要求提出本质的人至少推导出 3 个具体决策；推不出就是解释性本质。
-- **先事实后抽象**：好的本质从具体事实和案例中提炼，而不是从一个大词套到另一个大词。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 连续问股权、管理、激励专家，答案都是"人性"。——来源：`src_20260614_8269ccdb#3158-3168`。
-- **证据 2 [conf=0.85]**：Truman 要求专家用人性推导具体招聘/股权方案，专家推不出来。——来源：`src_20260614_8269ccdb#3170-3178`。
-- **证据 3 [conf=0.8]**：Truman 指出这类本质只能解释历史，不能指导未来决策。——来源：`src_20260614_8269ccdb#3178-3184`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -136,23 +136,23 @@ Truman 追问：
 ## 边界
 
 **适用边界**：
-- 需要判断一个"本质"是否真正有用的场景
-- 面对顾问、专家、课程中用大词包装本质的场合
-- 团队把口号当本质、无法落地时的自我检查
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用边界**：
-- 价值观、伦理或信念层面的讨论（"人性"作为价值立场而非决策工具时）
-- 已经被验证、可量化建模的具体领域（此时应使用更精确的专业模型）
-- 只需要讲故事、鼓舞士气，而不需要推导行动的场合
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 教训
 
-- **万能词本质要警惕**：能套在所有事情上的词，往往没有预测力。
-- **用三推导法验证**：让提出本质的人推导出 3 个具体决策。
-- **预测性本质才值钱**：能指导下一次真实决策的本质才有用。
-- **先事实后抽象**：不要从概念里提炼本质，要从事实里提炼。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -170,26 +170,26 @@ Truman 追问：
 
 ## 行动 Checklist
 
-- [ ] 听到一个本质时，立刻问："请用这个本质给我推导出三个具体决策"
-- [ ] 检查该本质在不同场景下是否给出不同答案；如果答案永远一样，就是万能词
-- [ ] 用具体案例验证：把本质套到过去失败案例上，再套到未来决策上，看是否都能推导
-- [ ] 区分"解释性本质"和"预测性本质"：前者只能事后合理化，后者能事前指导
-- [ ] 自己提炼本质时，先写 3 个事实/案例，再抽象成一句话
-- [ ] 团队讨论陷入口号时，把"人性/利他/长期主义"转写为可执行的 check 项
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[case-essence-entrepreneurship]] —— 预测性本质的正面案例：创业 = 小概率游戏
-- [[case-essence-education-strategy]] —— 另一则本质建模案例，可对比解释性与预测性
-- [[dk-modeling-essence-predictive]] —— 预测性本质的建模方法与判断标准
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3158-3183、3174-3194`
+- src_unknown
 
 ---
 

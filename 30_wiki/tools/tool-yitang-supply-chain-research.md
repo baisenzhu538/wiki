@@ -13,30 +13,30 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 供应链
-- 供应商调研
-- 合作方
-- 代工厂
-- 上游调研
-- 渠道调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-public-sentiment-research]]'
-  - '[[tool-yitang-hardware-product-disassembly]]'
-  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
-  - '[[tool-yitang-comparable-company-selection]]'
-  - '[[tool-yitang-weapon-former-employee-network]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-consumer-goods-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 供应链/合作方情报：从合作方口中拿到竞对的水下数据
@@ -49,9 +49,9 @@ related:
 
 三端调研的"合作方端"——产品左边的用户、产品右边的合作方（供应商、渠道商、服务商），是信息金矿。合作方出于商业利益，愿意分享信息：
 
-- 代工厂：想接更多单 → 愿意展示"我们服务过哪些大客户"
-- 经销商/渠道商：想评估新品牌 → 愿意比较不同品牌的渠道政策
-- 原料供应商：想扩大销售 → 愿意透露"XX公司每月从我这里拿多少货"
+- src_unknown：想接更多单 → 愿意展示"我们服务过哪些大客户"
+- src_unknown
+- src_unknown
 
 ---
 
@@ -67,9 +67,9 @@ related:
 | 起订量 | "像XX品牌那样的规格，MOQ多少？" | 竞对的单品最低起订量=市场规模下限 |
 
 **实操技巧**：
-- 用1688/行业展会找代工厂
-- 准备一个合理的"品牌身份"和预估采购量
-- 从"我们想学习行业最佳实践"的角度问，比直接问"XX公司怎么做"好
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 渠道商/经销商
 
@@ -132,8 +132,8 @@ related:
 
 ## 来源
 
-- 框架来源：三端调研中的合作方端，`一堂-调研武器库培训-口述.txt`
-- 案例来源：萝卜干工厂暗访案例（保安递烟），`一堂-调研武器库培训-口述.txt`
+- src_unknown
+- src_unknown
 
 ---
 

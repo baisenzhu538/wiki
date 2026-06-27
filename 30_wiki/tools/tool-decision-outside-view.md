@@ -4,25 +4,25 @@ title: 技能：团队决策外部视角法
 type: tool
 status: draft
 domain:
-- decision-making
-- 团队
-- 噪声减少
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
-- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
+- src_unknown
 wiki_refs:
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次团队决策前执行
-- 独立评估结果差异≥20%
-- 聚合后的结论比任何个人更稳定
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
-- 投票/评分工具（聚合用）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-cognitive-bias-12-check
+- src_unknown
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 reviewed_by: laowantong
@@ -30,11 +30,11 @@ author: unknown
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-decision-delay-intuition]]'
-- '[[pilot-atomic-chunk-comparison]]'
-- '[[master-decision-hygiene]]'
-- '[[tool-first-principles-assumption-classify]]'
-- '[[tool-cognitive-bias-12-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：团队决策外部视角法
 
@@ -70,9 +70,9 @@ related:
 
 在分析"这个特定案例"之前，先看"同类案例的历史统计"：
 
-- "在过去5年里，有多少个类似项目成功了？比例是多少？"
-- "行业平均成功率是多少？"
-- 把基率作为起点，再用具体案例的信息调整
+- src_unknown
+- src_unknown
+- src_unknown
 
 **强制操作**：写出"我们的项目和同类案例的三个关键差异"，判断差异是否足以推翻基率。
 
@@ -113,14 +113,14 @@ related:
 
 ## 适用场景
 
-- ✅ **团队要对同一问题做判断** — 投资决策、项目立项、招聘决策
-- ✅ **团队判断差异巨大** — 用外部视角找出差异来源
-- ✅ **用Y模型/画布后仍有分歧** — 作为后处理降噪
-- ✅ **个人做重大决策** — 用"虚拟团队"法：扮演3个角色独立评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **日常小决策** — 时间成本太高
-- ❌ **紧急决策** — 独立评估需要物理隔离，时间不允许
-- ❌ **专家直觉场景** — 消防员、急救医生的秒级决策不适用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -134,9 +134,9 @@ related:
 
 ## 工具/环境
 
-- **必需**：无（纯思维工具）
-- **推荐**：评分表（纸质或电子）
-- **备用方案**：如果无法物理隔离，用匿名提交方式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,19 +154,19 @@ related:
 
 ## 关联技能
 
-- [[tool-cognitive-bias-12-check]] — 个人偏差自检（前置步骤）
-- [[tool-decision-delay-intuition]] — 延迟直觉法（后置步骤）
-- dk-decision-noise-vs-bias — 偏差是枪打偏，噪声是枪乱飞
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- Kahneman, Olivier Sibony, Cass Sunstein《噪声》
-- 基于 master-decision-hygiene 框架提炼，2026-05-18
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

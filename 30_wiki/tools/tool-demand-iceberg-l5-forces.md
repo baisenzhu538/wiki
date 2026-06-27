@@ -15,10 +15,10 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l4-job-map]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[tool-demand-four-forces]]"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # L5隐藏洞察
@@ -54,10 +54,10 @@ prompt = """基于L4的关键崩溃环节，做用户的"内心独白"心理侧�
 2. 情感任务：他想感觉什么？
 3. 社交任务：他想让别人看到什么？
 4. 四种力量分析：
-   - 推力（旧方案的痛苦）：
-   - 拉力（新方案的吸引力）：
-   - 焦虑（对新方案的担忧）：
-   - 习惯（旧习惯的惯性）：
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. 判断：(推力+拉力)是否 > (焦虑+习惯)？
 """
 ```
@@ -71,8 +71,8 @@ prompt = """基于L4的关键崩溃环节，做用户的"内心独白"心理侧�
 
 ## 适用边界
 
-- **适用**：需要判断"用户会不会切换"的关键决策点
-- **不适用**：纯B2B合规/强制性采购等没有"用户选择"的场景
+- src_unknown
+- src_unknown
 
 ---
 

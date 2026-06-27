@@ -6,17 +6,17 @@ title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#topic/lean-startup'
-- '#topic/hypothesis-validation'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -25,29 +25,29 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[framework-lean-systematic-test-curve]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-demand-b2b-vs-b2c]]'
-  - '[[dk-tool-as-answer-trap]]'
-  - '[[dk-tool-as-phased-validator]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-lean-assumption-verification-3means]]'
-  - '[[yt-lean-consumer-deep-experience-testing]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队用同一套灰度/A/B测试方法同时跑ToC、ToB、硬件、内容四个业务
+- src_unknown
   framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配
   follow_up_question: 你的业务更偏向价值理性长决策（ToB）、感性冲动快转化（ToC）、高回退成本重投入（硬件），还是内核优先的创意产品（内容）？
-- signal: ToB项目陪跑3-6个月仍未设定可交付的里程碑节点
+- src_unknown
   framework_lens: ToB天然客户少、周期长，必须用里程碑测试把长周期拆成可验证的短节点
   follow_up_question: 当前阶段能否用“是否愿意付费解决问题”或“是否真实感受到问题解决”作为停止条件？
-- signal: 硬件团队一上来就投入完整样机或独立App开发
+- src_unknown
   framework_lens: 硬件应做三层嵌套测试，优先用软件/小程序/已有工具把需求和技术风险前移
   follow_up_question: 能不能不做硬件？能不能不做独立App？能不能不动开发借用现有工具？
-- signal: 内容产品还在用Landing Page测“用户感不感兴趣”，却没人判断“课到底好不好”
+- src_unknown
   framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
 
@@ -103,8 +103,8 @@ diagnostic_signals:
 
 ToB 解决的是企业经营管理问题，客户决策是理性的、甚至是集体决策。
 
-- **ToC**：一个人的感性和冲动就足以支付高昂费用，一张假海报可以测出 80% 真实转化率。
-- **ToB**：假页面价值远低于 ToC，客户不会为一个好看的 PPT 付费。
+- src_unknown
+- src_unknown
 
 > **关键判断**：ToB 不是在测“用户感不感兴趣”，而是判断客户是否真实感受到“我帮你解决了什么问题”。
 
@@ -112,8 +112,8 @@ ToB 解决的是企业经营管理问题，客户决策是理性的、甚至是�
 
 ToB 的成交、交付、回款、财务确认周期往往以月/年计。
 
-- **ToC**：可能一周跑一轮灰度测试。
-- **ToB**：一轮种子客户陪跑可能就是 3-6 个月。
+- src_unknown
+- src_unknown
 
 > **关键判断**：ToB 更需要里程碑测试，每一轮投入大、周期长，里程碑节点必须算得准，不能像 ToC 那样“随便测测看”。
 
@@ -133,11 +133,11 @@ ToB 客户天然少，但一个真实付费订单的认知价值可能远超 ToC
 
 ### All-in 方案的问题
 
-- 做 3-5 个课题
-- 打磨成完整产品服务
-- 搭建产品、交付、销售小分队
-- 在会员日正式销售验证
-- **成本**：3-6 个月筹备，50-100 万综合成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 更优策略：里程碑测试 + 小范围灰度
 
@@ -227,18 +227,18 @@ ToB 客户天然少，但一个真实付费订单的认知价值可能远超 ToC
 
 设计完测试方案后，用下面 7 项自检，避免“测了但没用”：
 
-- [ ] 已用 [[yt-entrepreneur-key-hypotheses]] 或 [[yt-lean-assumption-verification-3means]] 拆出当前阶段的关键假设
-- [ ] 已识别致死率最高的 1-2 条假设，资源优先投向它
-- [ ] 已根据业务类型（ToC/ToB/硬件/内容）选定测试范式
-- [ ] 已设计最小可交付测试单元，而不是直接做完整产品
-- [ ] 已为每个里程碑设定明确的停止/继续标准
-- [ ] 已确定与业务匹配的样本量，不盲目追求大样本
-- [ ] 已准备降级路径：若原计划卡壳，可用更轻量的方式验证同一假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **confidence: 0.78**：内容主要来自张磊 AMA 精华整理稿 `Q23`（src_20260616_b1e25c49），逻辑完整、案例具体；口述补充（src_20260616_59f708ea）和课堂笔记（src_20260616_e66bd149）对 ToB、硬件、内容三类业务的描述与精华稿一致，但未提供额外独立案例。
-- **trust_level: medium-high**：置信度 0.78 低于 0.8，虽已满足 ≥2 个来源引用，仍降一档为 medium-high；若后续能补充更多外部可验证案例（如导盲机器狗项目、钉钉早期 ToB 验证的公开资料），可提升至 high。
-- 张磊 AMA 口述/笔记的外部可验证性有限，案例细节需结合课程资料进一步核对。
+- src_unknown
+- src_unknown
+- src_unknown

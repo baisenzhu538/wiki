@@ -4,37 +4,37 @@
 
 id: yt-panproduct-execution-risk-management
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1158
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：风险管理
-- 落地卡片
-- 落地执行
-- 风险管理
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：风险管理
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-里程碑拆解]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[master-antifragile-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理
@@ -48,16 +48,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 风险清单在项目启动时建立，而不是等问题发生后再补
+- src_unknown
   framework_lens: 风险需要前置识别
   follow_up_question: 这个项目最大的三个风险是什么？你是什么时候识别出来的？
-- signal: 每个风险都有概率/影响评估和明确负责人
+- src_unknown
   framework_lens: 可管理的风险必须可归属
   follow_up_question: 如果某个风险发生，谁会第一个知道？谁负责应对？
-- signal: 对高影响风险有预案和触发条件，而不是只停留在监控
+- src_unknown
   framework_lens: 风险管理要降低不确定性
   follow_up_question: 针对最高影响的风险，你的 Plan B 是什么？
 updated_at: '2026-06-16'
@@ -83,20 +83,20 @@ status: superseded
 ### 失败模式
 
 1. **风险清单列了很多，但没有 mitigation 措施**
-   - **原因**：识别不等于管理
-   - **修复**：每个风险必须配一个 owner 和至少一个降低概率或影响的措施
+   - src_unknown
+   - src_unknown
 
 2. **只关注高概率风险，忽视低概率高影响风险**
-   - **原因**：概率偏见
-   - **修复**：用影响×概率矩阵排序，特别关注高影响项
+   - src_unknown
+   - src_unknown
 
 3. **风险清单做一次后不再更新**
-   - **原因**：静态管理
-   - **修复**：每周/每里程碑复查风险状态，新增、关闭或降级
+   - src_unknown
+   - src_unknown
 
 4. **把风险管理变成悲观主义，导致团队裹足不前**
-   - **原因**：情绪失衡
-   - **修复**：区分‘需要预防的风险’和‘可接受的不确定性’，后者不分配资源
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -124,9 +124,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Nassim Taleb的"黑天鹅" + Diane Vaughan的"偏差常态化"
 

@@ -4,35 +4,35 @@
 
 id: yt-panproduct-aesthetic-imagination
 component_of:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1426
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品审美
-- 审美
-- 审美卡片
-- 最佳实践
-- 泛产品设计
-- 泛产品设计·审美卡片：美好作品想象
-- 美好作品想象
-- 设计标准
+- src_unknown
+- src_unknown
+- src_unknown卡片
+- src_unknown
+- src_unknown
+- src_unknown·审美卡片：美好作品想象
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[yt-model-product-excellence]]'
-  - '[[yt-model-aesthetic-progression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象
@@ -46,15 +46,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 在找不到直接对标时，团队能先写出'理想体验'的3-5个关键画面
+- src_unknown
   framework_lens: 无对标时的目标态构建
   follow_up_question: 这些画面是基于用户需求的，还是基于个人偏好的？
-- signal: 想象前有明确的约束清单（用户、场景、技术、成本），而不是天马行空
+- src_unknown
   framework_lens: 创意在约束中才有价值
   follow_up_question: 如果预算减半、时间砍半，你想象的最佳体验还能保留哪些核心要素？
-- signal: 想象力产出会回到用户研究中验证，而不是直接作为最终方案
+- src_unknown
   framework_lens: 想象是假设，不是结论
   follow_up_question: 你能设计一个最小实验让用户验证这个想象吗？
 updated_at: '2026-06-16'
@@ -83,20 +83,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **想象变成自嗨，产品功能和真实用户需求脱节**
-   - **原因**：用内部偏好替代用户视角
-   - **修复**：每个想象画面都必须绑定一个用户场景和可观察的行为指标
+   - src_unknown
+   - src_unknown
 
 2. **以‘没有对标’为借口跳过研究，直接拍脑袋**
-   - **原因**：把想象力当作不调研的遮羞布
-   - **修复**：即使没有直接竞品，也要做间接替代方案分析和用户任务研究
+   - src_unknown
+   - src_unknown
 
 3. **团队讨论变成‘我觉得’大赛，无法收敛**
-   - **原因**：缺少评价标准
-   - **修复**：先建立‘美好作品’的评审维度，再让每个人按维度提交想象方案
+   - src_unknown
+   - src_unknown
 
 4. **想象过于超前，现有技术和资源无法落地**
-   - **原因**：约束清单缺失
-   - **修复**：在想象阶段同步列出‘必须满足的约束’，超出约束的创意进入愿景库而非当前方案
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -134,9 +134,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Roberto Verganti的"意义创新" + Clayton Christensen的"Jobs-to-be-Done"
 

@@ -4,31 +4,31 @@
 
 id: yt-pitch-materialization
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 素材化
-- 素材
-- 图片展现
-- 感官展现
-- 夸张测试
-- 一图胜千言
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-scenarization]]'
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,16 +37,16 @@ title: 讲香·素材化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 当卖点抽象时，主动用图片/视频/感官素材替代或补充文字
+- src_unknown
   framework_lens: 素材降低理解成本
   follow_up_question: 这个卖点如果只用文字，用户会不会很难想象？
-- signal: 素材真实可信，能直接证明或强化主张
+- src_unknown
   framework_lens: 素材是证据
   follow_up_question: 这个素材能否被质疑为造假或摆拍？
-- signal: 素材与目标用户的生活经验相关，而不是自嗨
+- src_unknown
   framework_lens: 素材需要用户共鸣
   follow_up_question: 目标用户看到这个素材会想到自己的什么经历？
 updated_at: '2026-06-16'
@@ -69,40 +69,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **使用无关或低质量素材，反而削弱信任**
-   - **原因**：素材错位
-   - **修复**：每个素材必须通过‘它证明了什么主张’的测试
+   - src_unknown
+   - src_unknown
 
 2. **素材替代了论证，没有核心观点**
-   - **原因**：素材喧宾夺主
-   - **修复**：素材是证据，观点必须用一句话说清
+   - src_unknown
+   - src_unknown
 
 3. **素材过度夸张或造假**
-   - **原因**：信任透支
-   - **修复**：优先使用真实用户素材或可验证数据
+   - src_unknown
+   - src_unknown
 
 4. **感官素材与品牌调性冲突**
-   - **原因**：风格不一致
-   - **修复**：建立素材风格指南，统一视觉和听觉语言
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 素材化是当论证一件事情感觉不充分时，最简单的一招——往里面加素材。素材的好处是它比语言的张力天然就要强，一张图胜过千言万语
-- claim:02 [conf=0.85] 素材化特别适用于：(1) 卖点比较抽象不好直接描述（如脆、结实、氛围）；(2) 需要让用户「看见」而非「想象」；(3) 落地页和视频场景中比文字描述效果好得多
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **E1 图片展现**：场景照片、图表素材、美好细节、用户口碑截图、打印材料。例如：一堂展示「无敌晋升计划涵盖特别多」→直接让设计做一张超级大的图把所有案例排上去——「一图胜千言」
-- claim:04 [conf=0.85] **E2 视频展现**：演示视频、使用视频、用户测评、证言视频。例如：牛仔裤「结实耐用」→两人骑车拉一条牛仔裤，车走了裤子没坏——一段视频胜过所有文字描述
-- claim:05 [conf=0.80] **E3 感官展现**：音效（萝卜干的嘎吱声、雪碧开罐的呲声）、味道（让你闻）、触感（让你摸）、听觉。例如：阿蕊上课直接放萝卜干广告——再怎么说「脆」都不如让你听到嘎吱嘎吱的声音
-- claim:06 [conf=0.80] **E4 夸张生动**：夸张测试、夸张特点、夸张对比。例如：承重墙「直接往上堆重物」、防水「直接扔水里」、防火「直接点火」、防脏「直接倒酱油」——用夸张的测试方式瞬间打消所有疑虑
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **萝卜干的「脆」**：再怎么说「这个萝卜干很脆」都不如直接放一段声音——嘎吱嘎吱的脆响通过听觉直接传到用户脑子里，「脆」就从抽象形容变成了可感知的物理事实
-- claim:08 [conf=0.85] **雪碧广告**：呲的一声——夏天一听到这个声音就感觉快乐要来了、必须买。一个声音素材比100个字更直接地唤起购买欲
-- claim:09 [conf=0.85] **张磊的创业笔记**：要做分享没信心怎么办——抱了一大摞调查笔记上台，「别的不说，这就是我当年做调查的笔记本」。素材一放，不必说太多，体积本身就说明了工作量
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -117,10 +117,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：素材化是具象化第五指，四层修炼之奇效层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库中的 E1-E4 素材化战术
+- src_unknown
 
 ## Synthesis
 

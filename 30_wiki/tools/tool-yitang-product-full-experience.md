@@ -13,32 +13,32 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 体验产品
-- 产品体验
-- 用户视角
-- 竞品体验
-- 产品分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-competitive-quadrant]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-online-product-experience]]"
-  - "（tool-yitang-offline-product-experience，待补）"
-  - "[[tool-yitang-hardware-product-disassembly]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "（case-yitang-haidilao-service-research，待补）"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 完整体验产品：从用户视角理解产品全貌
@@ -125,32 +125,32 @@ related:
 ## 产品体验报告
 
 ### 产品信息
-- 名称：[产品名]
-- 类型：[类型]
-- 体验时间：[时间]
-- 体验人：[姓名]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 注册体验
-- 流程：[描述]
-- 评分：[1-5]
+- src_unknown
+- src_unknown
 
 ### 核心功能体验
-- 功能：[描述]
-- 评分：[1-5]
+- src_unknown
+- src_unknown
 
 ### 边缘功能体验
-- 功能：[描述]
-- 评分：[1-5]
+- src_unknown
+- src_unknown
 
 ### 服务体验
-- 服务：[描述]
-- 评分：[1-5]
+- src_unknown
+- src_unknown
 
 ### 整体评估
-- 总分：[总分]
-- 优势：[优势]
-- 劣势：[劣势]
-- 建议：[建议]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -201,19 +201,19 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-research-weapon-system]] — 调研超级武器库
-- [[tool-yitang-online-product-experience]] — 线上产品体验
-- [[tool-yitang-hardware-product-disassembly]] — 硬件产品拆解
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 产品体验模块
-- 交叉：用户体验设计方法
-- 注意：产品体验需要以真实用户身份进行，避免专家视角
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

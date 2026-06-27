@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-scenario-walkthrough
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1151
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 场景推演
-- 泛产品设计
-- 泛产品设计·用户卡片：场景推演
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：场景推演
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演
@@ -45,15 +45,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 每个需求都用'[细分用户] 在 [场景] 下遇到了 [真实问题]'句式表达
+- src_unknown
   framework_lens: 场景化是需求落地的基础
   follow_up_question: 去掉场景后，这个需求还成立吗？
-- signal: 覆盖了主路径、异常路径和边界场景，而不只是理想流程
+- src_unknown
   framework_lens: 真实世界充满噪声
   follow_up_question: 网络中断、用户分心、时间紧迫时，方案还能用吗？
-- signal: 场景被用来评估和迭代设计方案，而不是只在需求阶段出现
+- src_unknown
   framework_lens: 场景是贯穿设计全程的参照
   follow_up_question: 上一次方案评审中，是否有场景推动了设计改动？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **场景描述过于宽泛，如‘用户在App上买东西’**
-   - **原因**：颗粒度不足
-   - **修复**：强制补充：时间、地点、设备、伴随任务、情绪状态、干扰因素
+   - src_unknown
+   - src_unknown
 
 2. **只写 happy path，忽略异常和边界**
-   - **原因**：乐观偏差
-   - **修复**：每个主场景必须配至少一个异常场景和一个边界条件
+   - src_unknown
+   - src_unknown
 
 3. **场景很多，但没有优先级**
-   - **原因**：场景泛滥
-   - **修复**：用频率×影响矩阵排序，只深入高优先级场景
+   - src_unknown
+   - src_unknown
 
 4. **场景和需求混为一谈，场景描述里直接包含解决方案**
-   - **原因**：需求与方案未分离
-   - **修复**：场景句中禁止出现产品功能名词，只允许描述用户行为和问题
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -129,9 +129,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Don Norman的"狭窄共情" + Alan Cooper的"100个场景≠1个产品"
 

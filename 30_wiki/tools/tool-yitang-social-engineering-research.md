@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 社会工程
-- 身份调研
-- 伪装调研
-- 假装身份
-- 角色扮演
-- 卧底调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[case-strategy-m-brand-profit-model]]'
-  - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
-  - '[[tool-yitang-wechat-group-infiltration]]'
-  - '[[tool-strategy-profit-model-comparison]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "[[concept-research-responsibility-boundary]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 社会工程学调研：身份设计与信息获取的合法边界
@@ -142,25 +142,25 @@ Truman在课上明确画了三条线：
 
 ### 红线1：不违法
 
-- ❌ 冒充公职人员（冒充警察/法官/税务人员）——这是刑事犯罪
-- ❌ 窃取商业机密（侵入系统/偷窃文件）——触犯《反不正当竞争法》
-- ❌ 伪造合同/公章/资质文件——触犯《刑法》
-- ✅ 设定一个上下游的商业角色（加盟商/采购方/合作方）——属于正常商业调研范畴
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 红线2：不造成实质伤害
 
-- ❌ 骗取对方金钱/资源/时间后不履行承诺
-- ❌ 用获取的信息恶意打击、诽谤、敲诈
-- ❌ 破坏对方的客户关系或商业合作
-- ✅ 仅用于自己的商业决策判断
-- ✅ 获取信息后，如果对方追问，坦诚收尾（如"我们内部还在评估"）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 红线3：不对弱势群体使用
 
-- ❌ 欺骗个体消费者/小商贩/弱势从业者
-- ❌ 利用信息不对等欺骗缺乏判断力的人
-- ✅ 对象是企业/品牌方/有商业判断能力的从业者
-- ✅ 对方和你是在"商业对等"的位置上
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **Truman的判断标准**："你自己算清楚——一个情报带来的价值跟你一部分所谓的妥协之间的平衡。对自己做的事负责任。"
 
@@ -220,9 +220,9 @@ Truman在课上明确画了三条线：
 
 ## 来源与验证
 
-- 核心方法论来源：一堂调研武器库培训课程 + 高阶情报调研课（Truman），其中对社会工程学的道德边界有直接阐述
-- 案例来源：`一堂-调研武器库培训-口述.txt`（假装加盟商找真实加盟商）、`一堂-高阶情报调研课-口述.txt`（假装客户找车架供应商、评论区渗透）、`一堂-系统式调研-口述.txt`（养老院家属身份潜入家属群）
-- 注意：文中引用的案例细节来自 Truman 课程口述，部分案例 Truman 明确表示"不好放在课上讲"的更鸡贼版本未收录，日常引用时标注"口述案例，具体数字/情节待独立核实"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

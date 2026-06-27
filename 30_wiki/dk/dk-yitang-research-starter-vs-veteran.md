@@ -15,12 +15,12 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[dk-yitang-research-cross-validation-cost]]'
-  - '[[dk-yitang-research-goal-before-efficiency]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[dk-yitang-public-info-is-enough]]'
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 新手重分析，老兵80%时间拿情报
 

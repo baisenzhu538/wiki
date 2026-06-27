@@ -3,21 +3,21 @@ id: tool-通过综合案例沙盘走通全流程
 title: 技能：通过综合案例沙盘走通全流程
 type: tool
 domain:
-- product
-- design
-- business-strategy
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
 - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 综合案例沙盘材料
+- src_unknown
 created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-16'
 author: unknown
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-使用概念辨析卡区分易混淆概念]]'
-- '[[tool-设定管理杠杆率指标评估效率]]'
-- '[[tool-遵循规模前倾原则设计组织架构]]'
-- '[[tool-使用优先级快筛卡锁定核心矛盾]]'
-- '[[tool-设计对抗效果追踪看板]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：通过综合案例沙盘走通全流程
 
@@ -46,24 +46,24 @@ related:
 7. 复盘全流程中的衔接点和断层
 
 ## 适用场景
-- ✅ 需要理解跨概念综合运用时
-- ✅ 学习后缺乏完整实践机会时
-- ❌ 时间极度有限、只需快速了解单点时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 通过完整案例的沉浸式演练，建立从分析到决策的系统性能力
 
 ## 工具/环境
-- 综合案例沙盘材料
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 课程设计者，src_20260609_1c8b4d0e，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

@@ -8,27 +8,27 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 1885
 language: zh-CN
 prerequisites: null
 query_triggers:
-- 牵"的深层含义
-- 12345口诀
-- Y模型探索营2
-- Y模型探索营2：五次质变与科学推演
-- 五次质变
-- 五次质变与科学推演
-- 关键区分
-- 解释
-- 预测
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown：五次质变与科学推演
+- src_unknown
+- src_unknown与科学推演
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-progress-map]]'
-  - '[[tool-泛产品落地-复盘迭代]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-personal-thinking-models]]'
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[master-first-principles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6d771b2a-个人修身-y模型探索营2
@@ -42,16 +42,16 @@ yitang:
   course_type: explore_camp
 tags: null
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 使用Y模型时，关注的是事前推演而非事后解释
+- src_unknown
   framework_lens: Y模型是预测引擎
   follow_up_question: 这个Y模型是在事件发生前画的，还是发生后补的？
-- signal: 能用Y模型牵出多个相关认知，形成完整推演链条
+- src_unknown
   framework_lens: Y模型是认知线头
   follow_up_question: 这个Y模型牵出了你哪些原本分散的认知？
-- signal: 推演结论有明确可观察的验证指标
+- src_unknown
   framework_lens: 预测必须可证伪
   follow_up_question: 如果Y模型预测错了，你会在什么观察出现后承认它错了？
 updated_at: '2026-06-16'
@@ -74,20 +74,20 @@ trust_level: medium
 ### 失败模式
 
 1. **用Y模型解释已经发生的事件，自圆其说**
-   - **原因**：事后解释偏差
-   - **修复**：强制要求Y模型必须包含可验证的预测
+   - src_unknown
+   - src_unknown
 
 2. **强行把所有问题都塞进Y模型**
-   - **原因**：模型滥用
-   - **修复**：先判断问题是否适合用Y模型，不适合时换其他工具
+   - src_unknown
+   - src_unknown
 
 3. **Y模型牵出的链条很长，但缺少关键证据**
-   - **原因**：逻辑跳跃
-   - **修复**：每个节点必须标注证据来源或置信度
+   - src_unknown
+   - src_unknown
 
 4. **预测失败后不更新模型，而是找借口**
-   - **原因**：确认偏误
-   - **修复**：预测前写下‘如果错了我会怎样修正模型’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -126,10 +126,10 @@ Y模型探索营2是实操篇的延续，Truman 首次完整公开自己与Y模�
 
 ### "牵"的深层含义
 
-- 人脑中存储了大量方法论、工具、原则——但它们是散落的
-- 面对新问题时，没有哪一个方法"刚好匹配"
-- Y模型的作用：提供一个统一的逻辑起点，沿着它"牵"出所有相关知识
-- 类比：Y模型 = 操作系统，其他方法论 = 应用程序
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -144,8 +144,8 @@ Y模型探索营2是实操篇的延续，Truman 首次完整公开自己与Y模�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-scientific-questioning-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

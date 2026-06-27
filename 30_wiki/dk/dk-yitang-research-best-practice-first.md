@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[dk-yitang-ai-research-prompt-craft]]'
-  - '[[dk-yitang-public-info-is-enough]]'
-  - "[[dk-yitang-public-info-is-enough]]"
-  - "[[tool-yitang-financial-report-intelligence]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 做重要设计前先摸行业最佳实践
 

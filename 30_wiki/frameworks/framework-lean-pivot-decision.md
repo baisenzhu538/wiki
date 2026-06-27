@@ -12,30 +12,30 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- decision
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-strategy-lean-validation]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - '[[framework-five-step-lean-interface]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[yt-decision-y-model]]"
-  - "[[yt-tool-y-model-ruler]]"
-  - "[[framework-strategy-brm]]"
-  - "[[framework-strategy-six-stages]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 精益验证结果如何触发战略/产品 pivot
@@ -44,9 +44,9 @@ related:
 
 ## 触发问题
 
-- "实验数据不好，是我们没做对，还是方向错了？"
-- "用户反馈很热烈但不付费，该 pivot 吗？"
-- "连续 3 次实验失败，是坚持还是止损？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 端到端流程
 
@@ -100,16 +100,16 @@ related:
 
 ## 与相邻卡的关系
 
-- 实验设计：[[framework-lean-false-model]] 提供从 F 到 E 的低成本验证工具箱；[[framework-lean-systematic-test-curve]] 帮助判断一轮 MVP 还是多轮系统测试。
-- 假设排序：[[framework-lean-abcd-model]] 决定哪些失败会导致全盘推翻，哪些只是优化项。
-- 战略入口：[[framework-strategy-brm]] 输出赛道/定位/模式/增长/壁垒假设；[[framework-strategy-six-stages]] 说明不同阶段 pivot 策略不同。
-- 决策框架：[[yt-decision-y-model]] 提供"宽度-深度-高度"三角评估；[[yt-tool-y-model-ruler]] 是落地画布。
-- 域图：[[strategy-domain-digest]]、[[lean-startup-domain-digest]] 提供两个域的完整索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
-- **适合**：已积累一定实验信号，但团队对"方向 vs 执行"存在分歧；需要把情绪化的争论转化为结构化决策的场景。
-- **不适合**：长周期项目（硬件、医疗）中，单次实验结果可能不足以决策 [conf=0.80, source=60_feedback/audit/cross-domain-bridge-design-specs.md]；数据极度稀薄时，应先用 [[framework-lean-false-model]] 补实验而非直接决策。
+- src_unknown
+- src_unknown
 
 ---
 

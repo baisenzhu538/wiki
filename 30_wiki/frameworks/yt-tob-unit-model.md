@@ -6,18 +6,18 @@ title: To B 单元模型选择与跑通
 type: framework
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#content-format/framework'
-  - '#topic/unit-model'
-  - '#topic/business-model'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,25 +26,25 @@ review_date: '2026-06-16'
 confidence: 0.85
 trust_level: medium
 related:
-  - '[[yt-tob-barriers]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 公司只算单一订单或单一客户毛利为正，却未分摊总部、研发、履约、销售培养等隐性成本
+- src_unknown
   framework_lens: 业务单元总毛利覆盖所有成本
   follow_up_question: 若把总部成本、研发摊销、履约尾款、销售培养成本按订单/客户/销售分摊后，整体业务单元是否仍然盈利？
-- signal: 规模化后销售、履约成本占比不降反升，或现金流持续紧张
+- src_unknown
   framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
   follow_up_question: 当前业务应选用单订单、单 SKU、单客户、单销售、单履约中的哪几种模型？规模化后各成本项与回款周期如何变化？
 
@@ -93,8 +93,8 @@ diagnostic_signals:
 
 测算单销售模型时要同时考虑两个闭环：
 
-- **时间闭环**：销售提成发放、收入确认、回款周期可能不同步，需要选定一个评估周期。
-- **空间闭环**：同样的销售成本，在不同城市/区域的竞争力不同；在一线城市 20 万/年可能招不到人，但在非一线城市 8 万/年已具竞争力。
+- src_unknown
+- src_unknown
 
 #### 可视化：来自 10 图「选择模型」
 
@@ -130,25 +130,25 @@ diagnostic_signals:
 
 假设单个订单：收入 80，销售成本 20，产品成本 15，履约成本 15，毛利 40。
 
-- 10 个订单的业务总毛利 ≈ 400（假设线性、规模经济持平）。
-- 如果支撑这 10 个订单的总部成本、管理成本、研发摊销、现金流占用等其他成本 ≤ 400，则业务单元跑通。
-- 如果其他成本 > 400，则商业模式尚未跑通。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这里的“其他成本”包括但不限于：
 
-- 总部/管理成本
-- 研发投入与摊销
-- 履约尾款、售后成本
-- 销售培养、渠道支持成本
-- 现金流占用成本（账期、垫资）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 项目产品化为何常“倒在半路”
 
 许多企业预期“项目做多了自然产品化，成本会下降”，但实际情况可能是：
 
-- **收入下降**：客户要求折扣、竞争加剧。
-- **销售成本未降**：每个项目独立采购/投标，同一客户的不同项目仍需单独投入销售资源。
-- **产品成本反而上升**：自研产品的持续迭代、维护、摊销被低估。
+- src_unknown
+- src_unknown
+- src_unknown
 
 因此，只要收入项或业务形态发生变化，就应重新测算单元模型。
 
@@ -156,18 +156,18 @@ diagnostic_signals:
 
 To B 业务周期长、回款慢，容易出现“账面盈利但现金紧张”。徐剑建议：
 
-- 用 **财务确认口径** 看利润；
-- 用 **现金流口径** 看健康度；
-- 关注 **自由现金流**（经营活动现金流扣除必要资本支出后的剩余）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 讲师观察：工程类项目账期较长，常出现“项目越多、垫资越多”的情况；若不考虑现金流，企业可能在规模扩大过程中先被资金链压垮。
 
 具体建议：
 
-- 销售模型优先用现金流口径评估；
-- 客户首单模型也多看现金流；
-- 客户 LTV 模型可用财务确认口径；
-- 在规模化复制前，用两种口径做交叉验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 五、案例示意
 
@@ -179,9 +179,9 @@ To B 业务周期长、回款慢，容易出现“账面盈利但现金紧张”
 
 问题核心：
 
-- 不会算账，没有单元模型和“跑通”概念；
-- 首个订单的成功依赖不可复制因素：特定社会关系、创始人亲自销售、特殊履约条件；
-- 大规模复制前需要储备算力池、存储池等基础设施，成本被低估。
+- src_unknown
+- src_unknown
+- src_unknown
 
 后来经过长期摸索，才找到成熟可复制的模型。该案例说明：**首个订单赚钱不等于模型可复制，必须识别可复制的最小单元。**
 
@@ -191,10 +191,10 @@ To B 业务周期长、回款慢，容易出现“账面盈利但现金紧张”
 
 问题核心：
 
-- 采取低于市场价的销售策略绑定大客户；
-- 成本计算中未计入房租、售后服务等隐性成本，销售价格低于真实成本；
-- 预期“客户放量后压低供应商成本”，但关键零部件成本未能下降，甚至上涨；
-- 客户所在领域竞争加剧，客户要求进一步降价，公司无法承受亏损，最终失去大客户。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 到 2023 年，该部门营收仅二十多万，无法覆盖费用，进入清盘。该案例说明：**单客户/单订单模型必须计入全部隐性成本，并动态评估成本和价格变化。**
 
@@ -208,7 +208,7 @@ To B 业务周期长、回款慢，容易出现“账面盈利但现金紧张”
 
 ## 置信度说明
 
-- **素材来源**：本卡主要基于徐剑课程口述稿（src_20260616_0e684368）整理，课堂笔记 §4（src_20260616_5f991553）对“五种常用单元模型”和“跑通判断”进行了提炼和强化，两源相互印证。
-- **置信度 0.85**：方法论框架（模型选择、跑通标准、现金流口径）逻辑一致、表达清晰；但案例中的具体数字为讲师口述，未独立核实，引用时已明确为“案例示意”。
-- **未引用内容**：口述稿中 ~700–703 附近存在“99% profit >50m vs 50% >10m”的数据矛盾，已按质量门要求跳过，不作为事实引用。
-- **讲师观察**：文中“To B 每年做到两三倍就是极好”“工程类公司直到倒闭才能慢慢赚钱”等属于讲师经验性、夸张性表达，已标注为“讲师观察”，不作为普适规律。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

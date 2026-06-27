@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- design
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -15,8 +15,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,8 +39,8 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用奢侈品或强品牌溢价品类（用户心理账户不同）
-- 不适用于价格不敏感型B端采购场景
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -48,5 +48,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb19-visual-strategy-price-match]] — 餐饮图片视觉策略与价格定位匹配
-- [[dk-yb7-design-demand-80-10-10]] — 中国设计需求的80-10-10分层法则
+- src_unknown
+- src_unknown

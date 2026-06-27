@@ -10,24 +10,24 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 2041 批判性认知操作系统
@@ -173,12 +173,12 @@ Mollick 的“锯齿状前沿”（Jagged Frontier）概念是这一系统的关
 
 ## 行动 Checklist
 
-- [ ] 选一条最近让你焦虑的 AI 新闻，用三步探针法写成两百字。
-- [ ] 为正在读的一本 AI 书籍填写“作者位置卡”：钱投在哪、声誉靠什么、说错话付什么代价。
-- [ ] 找一本与该书立场相反的书，用表格对比两者对同一技术问题的判断。
-- [ ] 从对比中找出至少一个原书的盲区，并写出一个“如果我替作者想通”的判断。
-- [ ] 把判断转化为今晚就能做的一个动作（查资料、问人、改设置、做审计）。
-- [ ] 一周后复盘：哪些预测已经过期？哪些选择点已经失效？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -200,9 +200,9 @@ Mollick 的“锯齿状前沿”（Jagged Frontier）概念是这一系统的关
 > **回应**：本框架在第六步强制落地动作，并在失败模式中警告“只批判不建设”。如果行动感仍不足，可搭配 [[tool-ai-critical-reading-three-layers]] 和 [[tool-ai2041-source-verification-checklist]] 使用。
 
 **不要用**：
-- 不要把它当作“每本书都必须完整跑六步”的教条。
-- 不要在信息完全对称、无需判断的事实检索任务中使用。
-- 不要让“查椅子”退化成“谁有利益谁就是错的”的简化论。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

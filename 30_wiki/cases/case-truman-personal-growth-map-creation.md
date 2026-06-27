@@ -9,43 +9,43 @@ source_refs:
 status: enriched
 confidence: 0.7
 domain:
-- yitang
-- product
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 author: 老顽童
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[case-ai-agent-milestone-design]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[yt-model-personal-map]]'
-  - '[[dk-modeling-ai-without-judgment]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#method/product-design'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我们有十几个分散的课题想做成一张地图，但不知道怎么开始
+- src_unknown
   framework_lens: 七步创作法
   follow_up_question: 你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？
-- signal: AI给的模型看起来很漂亮但套不进去
+- src_unknown
   framework_lens: 5-10个版本手工迭代 → AI辅助但不替代
   follow_up_question: 你让AI出了几个版本？你手工写了几个版本？两者差在哪？
-- signal: 团队每个人都写了版本，但越写越乱，没有一版能说服大家
+- src_unknown
   framework_lens: 缺少"逻辑洁癖"的收敛机制——迭代不是数量游戏，需要用人对业务解释力的判断来收敛
   follow_up_question: 你写的 5-10 版中，每一版是否有明确的"结构假设+失败原因"？失败原因是否集中在分类标准、粒度、维度上？
-- signal: 模型写出来自己觉得顺，但往里塞真实课程时总有两三门课不知道放哪
+- src_unknown
   framework_lens: 分类标准的"气顺"程度不够——框架的维度还没被真实内容验证
   follow_up_question: 找 3 个团队成员独立把课程塞进框架，塞法一致率是否 ≥80%？不一致的地方正是分类标准模糊的征兆。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
@@ -61,11 +61,11 @@ updated_at: '2026-06-17'
 
 ## Background
 
-- **场景**：2025 年中，一堂课程体系出现结构性问题：创业地图和管理地图塞不下了。个人 IP、时间管理、知识管理等明明应该是 C 位的课，在地图里变成了"填补缝隙"的边缘课。
-- **问题**：如何给个人成长类课程做一张有江湖地位的"第三张地图"？
-- **起点状态**：只有模糊想法 + 十来个可能相关的课题，其他全空白。
-- **内部评级**：Truman 原话："这张我们自己内部觉得是 **10 万美金级别的地图**。"
-- **来源**：`src_20260614_8269ccdb#1448-1683`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -75,9 +75,9 @@ updated_at: '2026-06-17'
 
 "我当时在高铁上，把一堂所有可能的课先拉出来了。"
 
-- Truman 拉了一版
-- 项目经理阿蕊拉了另一版
-- 已有课、未来的课、可能入围的课——先不管质量，全拽出来
+- src_unknown
+- src_unknown
+- src_unknown
 
 **原则**：第一步不是判断，是 dump。先拉全再筛选。
 
@@ -85,9 +85,9 @@ updated_at: '2026-06-17'
 
 "陆宇说时间管理和人生方面是两端...新锐又说了他理解的联系...每个人都说了自己的联系。"
 
-- 每人独立梳理课程之间的依赖关系
-- 不做共识——先发散
-- 核心问题：课与课之间不是一堆球，肯定有依赖
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：竞品调研
 
@@ -143,11 +143,11 @@ Truman 对 AI 出模型的评价：
 
 ## 结果
 
-- **骨架定稿**：形成以"一横（综合能力）+ 两条腿（认知元器/刻意练习）"为轴的个人地图骨架，成为一堂第三张正式地图。
-- **内部评级**：Truman 团队内部将其视为 **10 万美金级别的地图**。
-- **后续影响**：该骨架直接支撑了 [[yt-model-personal-map]] 的课程结构与"四层金字塔"内容编排。
-- **方法论沉淀**：把"全量整理 → 找规律 → 竞品扫描 → 5–10 版迭代 → 团队塞课 → 逻辑洁癖 → 路演验证"沉淀为地图创作 SOP。
-- **对 KDO 的启示**：这张地图创作过程就是 KDO 做知识建模的标准流程——不是"拿原始素材写卡"，是经历"dump→找规律→竞品→迭代→突破→验证"的完整建模循环。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -208,11 +208,11 @@ Truman 对 AI 出模型的评价：
 
 ## 关联节点
 
-- [[yt-model-personal-map]] —— 个人地图的成品框架（四层金字塔），本案例是其创作过程的回溯。
-- [[case-personal-map-modeling]] —— 同一案例的另一种叙事，侧重"做客流程"与路演验证。
-- [[dk-modeling-ai-without-judgment]] —— AI 能生成"看着很厉害"的模型，但缺少逻辑洁癖时只会加速跑偏。
-- [[case-truman-motivation-map-12-versions]] —— 同样是 Truman 做地图，动机地图案例展示了"先观察用户行为再设计+小抄式迭代"，个人地图案例展示了"七步创作法+AI辅助但人做判断"。两者对照：一张图能不能落地，取决于它是否同时满足"逻辑可解释"和"一眼可用"。
-- [[modeling-three-stages]] / [[modeling-to-kdo-toolchain]] / [[modeling-capability-for-kdo]] —— 建模能力体系与本案例的方法论对应。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

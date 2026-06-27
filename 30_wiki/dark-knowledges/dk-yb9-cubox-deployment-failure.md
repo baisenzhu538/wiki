@@ -6,35 +6,35 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- design
-- management
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb19-visual-strategy-price-match]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 diagnostic_signals:
-- signal: 老板买了AI协作工具发给团队，两周后发现没人用了——不是工具不好，是没人负责推动落地
+- src_unknown
   framework_lens: 部署≠落地——发账号是最简单的步骤，把工具嵌入工作流才是最难的
   follow_up_question: 团队里有没有一个明确的人负责工具的配置、培训和流程嵌入？如果没有，任何工具都会在两周后闲置。
-- signal: 企划部用企划部的AI，商务部用商务部的AI，各部门工具和数据不互通
+- src_unknown
   framework_lens: 孤岛采购——各部门独立选型导致协作断裂
   follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？
 ---# Cubox及AI协作工具的团队部署失败模式
@@ -74,10 +74,10 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 是否已指定专人负责工具落地（配置+培训+流程嵌入）？
-- [ ] 跨部门协作场景是否已在选型阶段被验证？
-- [ ] 是否采用了最小团队先试用的策略？
-- [ ] 是否设计了首周的跨部门共享任务？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -85,5 +85,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- dk-yb19-small-shop-image-mismatch — 小店图片错配陷阱：精致摄影反而吓跑客户
-- [[dk-yb27-pseudo-layer-evasion]] — 伪图层叠加规避平台图像识别
+- src_unknown
+- src_unknown

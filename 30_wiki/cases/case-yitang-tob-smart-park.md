@@ -5,19 +5,19 @@ title: 案例：智慧园区项目复盘
 type: case
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - govtech
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#domain/govtech'
-  - '#content-format/case'
-  - '#topic/project-delivery'
-  - '#topic/business-model'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 黄成有（一堂学员）
@@ -26,25 +26,25 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-cash-flow]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 项目交付成功，但盈利主要依赖一次性项目款。
+  - src_unknown
     framework_lens: 商业模式 / 单元模型
     follow_up_question: 除了项目交付费，能否在合同中拆分出年度运营服务费、数据增值费或软件授权续费？
-  - signal: 项目结束后市场拓展力度不够，未能复制到更多园区。
+  - src_unknown
     framework_lens: 增长 / 渠道
     follow_up_question: 标杆案例形成后，是否能在 30 天内输出可复制的方案模板、报价清单和交付 SOP？
-  - signal: 品牌壁垒建设不足，长期竞争力依赖关系和一次性项目。
+  - src_unknown
     framework_lens: 壁垒
     follow_up_question: 如何把项目经验沉淀为可复用的产品化能力，并转化为行业白皮书或运营数据资产？
-  - signal: 现金流呈现"交付前垫付、交付后断崖"的脉冲波形。
+  - src_unknown
     framework_lens: 现金流结构
     follow_up_question: 能否将付款节奏从"首付+尾款"改为"首付+年度服务费"，使收入曲线年金化？
 ---
@@ -56,9 +56,9 @@ diagnostic_signals:
 
 黄成有曾主导一个智慧园区项目的交付，客户是某工业园区管委会（事业单位属性）。项目范围包括：
 
-- 基础设施硬件建设；
-- 智慧综合管理平台软件开发；
-- 安全、能效、停车、信息发布等多模块集成。
+- src_unknown
+- src_unknown
+- src_unknown
 
 项目是一次全面的技术与管理挑战，覆盖需求、解决方案、商业模式、增长、壁垒五个维度。
 
@@ -78,39 +78,39 @@ diagnostic_signals:
 
 ### 需求阶段
 
-- **做得好的地方**：
-  - 多渠道收集需求（访谈、问卷、现场考察）。
-  - 建立需求矩阵，按描述、优先级、来源、影响范围管理。
-  - 多轮需求验证会议，确保信息准确完整。
-  - 从多角色视角（管委会领导、园区管理人员、入驻企业）分析需求。
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **核心认知**：
-  - 多源信息整合、场景化分析、多角色视角、变更管理是 To B 项目需求阶段的关键。
+- src_unknown
+  - src_unknown
 
 ### 解决方案阶段
 
-- **做得好的地方**：
-  - 模块化设计提高可扩展性和可维护性。
-  - 聚焦核心价值，精简功能模块，避免过度设计。
-  - 原型测试和用户培训提升用户满意度。
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 商业模式阶段
 
-- **做得好的地方**：针对事业单位客户提供高度定制化服务，满意度高。
-- **做得不够的地方**：
-  - 盈利模式单一，主要依赖一次性项目交付费用。
-  - 缺乏后续运营服务、数据增值、定制化开发等多元化收入。
-- **结果**：项目短期盈利，但长期收益和可持续发展能力受限。
+- src_unknown针对事业单位客户提供高度定制化服务，满意度高。
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ### 增长阶段
 
-- **做得好的地方**：项目交付后整理成功案例并宣传，提升品牌知名度。
-- **做得不够的地方**：市场拓展力度不足，未能充分利用现有资源和渠道寻找新客户。
+- src_unknown项目交付后整理成功案例并宣传，提升品牌知名度。
+- src_unknown市场拓展力度不足，未能充分利用现有资源和渠道寻找新客户。
 
 ### 壁垒阶段
 
-- **做得不够的地方**：品牌壁垒建设不足，品牌知名度和影响力有限。
-- **结果**：竞争力主要依赖关系和项目经验，难以形成可复制的护城河。
+- src_unknown品牌壁垒建设不足，品牌知名度和影响力有限。
+- src_unknown
 
 ---
 
@@ -196,6 +196,6 @@ diagnostic_signals:
 
 ## 八、待核实数据
 
-- 项目合同金额、利润率。
-- 项目覆盖的园区数量和企业数量。
-- 后续是否有运营服务收入及占比。
+- src_unknown
+- src_unknown
+- src_unknown

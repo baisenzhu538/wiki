@@ -5,9 +5,9 @@ title: '王欢案例：沈阳软件公司三层架构实现3倍效率'
 type: case
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -17,43 +17,43 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt"
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[human-ai-collaboration-double-triangle]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 案例
-- 软件公司
-- 三层架构
-- 效率提升
-- 人机协作
-- 导演思维
-- 系统重构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '团队用 AI 编程工具后，效率只提升约 30%，遇到明显天花板'
+- src_unknown
   lens: '工具升级但系统未重新设计，仍停留在“演员模式”'
   follow_up: '检查流程是否仍是“需求→编辑器→人工修改”，是否把 AI 仅当加速工具'
-- signal: '“我是程序员，写代码是我的手艺”——团队抵触只审稿不编码'
+- src_unknown
   lens: '角色定义未升级，身份感与新的职责冲突'
   follow_up: '把程序员重新定义为“让 AI 把代码写好的人”，强调其行业判断变成稀缺资产'
-- signal: '需求反复返工，代码质量不稳定，客户交付风险上升'
+- src_unknown
   lens: '缺少独立的需求拆解层与质量守门层'
   follow_up: '建立三层架构：拆解→生成→审查，每层有明确输入、工具与验收标准'
-- signal: '老板认为差距在“工具/模型不够好”，想换更贵的 AI'
+- src_unknown
   lens: '把系统问题误判为工具问题'
   follow_up: '验证同一批工具在重新设计流程后能否接近 3 倍提升，再决定是否追加工具投入'
 ---
@@ -108,13 +108,13 @@ diagnostic_signals:
 
 ### 决策 2：重新定义程序员角色
 
-- **以前**：程序员 = 写代码的人。
-- **以后**：程序员 = 让 AI 把代码写好的人。
+- src_unknown
+- src_unknown
 
 这个定义的转变解决了团队心理障碍：
-- 没有否定程序员的行业经验；
-- 把经验从“执行手艺”升级为“判断标准”；
-- AI 不懂的行业暗规则让人的判断力更稀缺。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 决策 3：一号位先试点，再推广
 
@@ -176,27 +176,27 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 画出当前端到端流程，标出人在哪些环节仍亲自执行、哪些环节 AI 只是“加速”。
-- [ ] 判断团队瓶颈是“手慢”（执行速度）还是“脑慢”（拆解/判断能力）。
-- [ ] 定义三层架构：拆解层、生成层、审查层，每层明确输入、输出、工具、验收标准。
-- [ ] 把执行者角色重新定义为“让 AI 把 X 做好的人”，并讲清楚其判断力为何更稀缺。
-- [ ] 选一个真实中型项目做试点，跑通后再推广；不要一次性全面铺开。
-- [ ] 建立审查清单和约束：明确告诉 AI“什么绝对不能碰”“什么绝对不能改”。
-- [ ] 每周复盘 AI 输出质量、返工原因和审查拦截率，迭代各层标准。
-- [ ] 用同一指标（交付周期、缺陷率、人天产出）对比试点前后数据，验证是否真有 3 倍提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：从“AI 的演员”到“AI 的导演”的角色切换理论。
-- [[framework-wanghuan-three-tier-dev-architecture]]：三层架构的通用模板与每层输入输出规范。
-- [[framework-wanghuan-ai-five-level-ladder]]：从问答层到系统层的 AI 能力跃迁模型。
-- [[case-wanghuan-education-sales-paced]]：同一套“系统重构而非工具升级”逻辑在教育销售中的验证。
-- [[framework-wanghuan-task-product-system]]：把单次任务升级为可复用系统的方法论。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：在拆解层用 BTICOE 把模糊需求结构化。
-- [[concept-wanghuan-adversarial-generation]]：生成者与评审者分离的对抗式生成思想，与三层架构中的哨兵层呼应。
-- [[human-ai-collaboration-double-triangle]]：人机协作的双三角模型。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -5,8 +5,8 @@ title: 检索架构升级 —— 从向量匹配到域路由 + 混合检索 + �
 type: improvement-plan
 status: active
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 source_refs:
   - 30_wiki/decisions/plan_20260621_domain-index-infrastructure.md
   - 60_feedback/diagnosis/diag_20260620_调研专题素材验收.md
@@ -16,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - '[[plan_20260621_domain-index-infrastructure]]'
-  - '[[framework-yitang-research-quality-gate]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[system-yitang-research-workflow]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 检索架构升级方案
@@ -30,9 +30,9 @@ related:
 ## 问题
 
 kdo query "用一堂调研方法论做上市公司研报分析" 实测返回：
-- #1 关键词加粗三重结构（笔记技巧，无关）
-- #2 超级武器库元概念（擦边）
-- 应返回的 `tool-yitang-financial-report-intelligence`、`framework-yitang-high-level-plan`、`tool-yitang-comparable-company-selection` 全部未命中
+- src_unknown
+- src_unknown
+- src_unknown
 
 **根因**：纯向量相似度检索（384维 MiniLM），无域感知、无关键词增强、无图遍历。中文语义相近不等于任务相关。
 
@@ -70,20 +70,20 @@ Layer 3: 工作流组装
 
 ### Phase 1：域路由器（今天）
 
-- `query-domain.py`：输入查询 → 识别域 → 返回候选卡片池
-- 简单关键词+模板匹配，不依赖外部模型
-- 输出候选池 + 建议卡片列表
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Phase 2：混合检索（本周）
 
-- BM25 + 向量融合
-- 图遍历增强：从命中的框架卡沿 `related` wikilink 扩展到工具卡和案例卡
-- 集成进 `kdo query --domain-aware`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Phase 3：工作流组装（下周）
 
-- 根据卡片 `type` 和 `bridges_to` 自动生成执行路径
-- Agent 可直接消费的结构化指令
+- src_unknown
+- src_unknown
 
 ## 验收标准
 
@@ -99,13 +99,13 @@ Layer 3: 工作流组装
 原型 `query-domain.py` 已交付并实测。
 
 **正确**：
-- 域识别准确（"调研"关键词命中）
-- 域索引入口卡候选池机制正常
-- framework/tool 类型加权生效
+- src_unknown
+- src_unknown
+- src_unknown
 
 **暴露的系统性依赖**：
-- 域索引入口卡刚建骨架，TODO 行未填 → 候选池不够精准
-- Wave 3 工具卡（`tool-yitang-financial-report-intelligence` 等）尚未产出 → 方法论匹配缺失
-- 等 Wave 1-3 完成后重新验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 **下一步**：Phase 2 混合检索（BM25 + 向量 + 图遍历）待 Wave 3 交付后开发

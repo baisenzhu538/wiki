@@ -5,8 +5,8 @@ title: 智能药柜推广项目：公司/股权/资金风险诊断
 type: case
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
 created_at: 2026-06-15
@@ -17,11 +17,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - '[[case-smart-medicine-cabinet-business-model-validation]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[yt-tob-customer-tiering]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-management-founder-role]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证
 ---# 知识卡草稿：智能药柜推广项目 · 公司/股权/资金风险
@@ -48,24 +48,24 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 ## 二、关键命题速查
 
 ### 资金与现金流
-- ✅ **事实**：社保难缴、供应商欠款、尾款未清、维保收入 5–6 万/半年。
-- ⚠️ **条件**：新港湾 100 万投资能否按期到位，决定短期生死。
-- ❌ **风险**：扩张计划与现有客户/订单严重脱节。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 股权与架构
-- ✅ **事实**：注册资本 50 万，拟增资至 150 万；投资款处理方式（增资/资本公积/拆借）未达成一致。
-- ⚠️ **条件**：公司分立、业务切割、合同主体变更正在设计中。
-- ❌ **风险**：计划由林总/刘总配偶代持 30% 股权以规避个税，存在合规隐患。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 合作与信任
-- ✅ **事实**：季总团队对朱总团队交付能力、成本预估、组织能力产生信任危机。
-- ⚠️ **条件**：服务器迁移 30 万元费用分摊、集美店尾款支付仍需协商。
-- ❌ **风险**：合作双方战略方向对立（稳健经营 vs 高举高打）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 法律与合规
-- ✅ **事实**：历史合同主体已发生过变更（收款主体变更为"具体智能科技"）。
-- ❌ **风险**：会议中讨论"制造故障"促使客户主动联系，涉嫌违法违德。
-- ❌ **风险**：借壳/北交所三年利润跳跃规划（100 万 → 1200 万 → 5000 万）缺乏现实基础。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -98,9 +98,9 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ## 五、可持续性判断
 
-- 🔴 **短期**：高危。资金紧张是首要约束。
-- 🟡 **中期**：取决于新港湾投资到位 + 历史问题清理 + 信任修复。
-- 🔴 **长期**：不乐观。业务基础与资本化目标差距过大，且合规隐患较多。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **综合判断**：项目处于"资金绷紧 + 信任受损 + 扩张冒进"的高风险状态，需先止血（资金）、再整骨（股权/合同）、最后谈扩张。
 
@@ -120,9 +120,9 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ## 关键证据
 
-- 本卡核心事实来自听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证。
-- 已确认的多方交叉证据在正文中以 ✅ 标注；单方宣称/待验证内容以 ⚠️ 或 ❌ 标注。
-- 具体录音/报告编号见“验证与参考”部分。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -139,9 +139,9 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ### 什么时候应该学这个案例
 
-- 你正在接触或评估一个智能药柜/医药创新项目。
-- 推销方强调“低投入高回报”“政策已放开”“巨头都在做”等话术。
-- 你需要向团队或投资人解释为什么某些模式当前不可行。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-product-led-growth
-  - yt-growth-sales-led-growth
-  - yt-growth-acquisition-channels
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的品牌知名度不够'"
+  - src_unknown
     framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
     follow_up_question: "你的市场活动有哪些？品牌定位是什么？目标受众是谁？"
-  - signal: "用户说'市场部和销售部目标不一致'"
+  - src_unknown
     framework_lens: 市场驱动增长——市场和销售需要目标一致，协同作战
     follow_up_question: "市场和销售的共同目标是什么？线索交接流程是否顺畅？"
-  - signal: "用户说'我们的内容营销没效果'"
+  - src_unknown
     framework_lens: 市场驱动增长——内容营销需要匹配用户旅程
     follow_up_question: "你的内容是否覆盖了用户从认知到决策的每个阶段？"
-  - signal: "用户说'市场活动成本高，但线索质量差'"
+  - src_unknown
     framework_lens: 市场驱动增长——市场活动需要关注线索质量，不只是数量
     follow_up_question: "你的线索评分标准是什么？市场活动和销售反馈是否闭环？"
-  - signal: "用户说'我们靠展会和活动获客'"
+  - src_unknown
     framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
     follow_up_question: "展会和活动的ROI是多少？是否有后续跟进流程？"
 
@@ -138,21 +138,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当品牌重要时 → 市场驱动
-- 当需要规模化获客时 → 市场活动
-- 当用户需要教育时 → 内容营销
-- 当市场与销售脱节时 → 建立协同机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-product-led-growth`：产品驱动增长
-- `yt-growth-sales-led-growth`：销售驱动增长
-- `yt-growth-acquisition-channels`：获客渠道
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 市场驱动增长研究
-- B2B营销实践
+- src_unknown
+- src_unknown
+- src_unknown

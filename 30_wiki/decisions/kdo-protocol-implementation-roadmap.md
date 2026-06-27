@@ -3,7 +3,7 @@
 title: KDO Protocol Implementation Roadmap — Detailed Recommendation Report
 type: improvement-plan
 domain:
-- kdo
+- src_unknown
 status: draft
 id: kdo-protocol-implementation-roadmap
 created_at: '2026-05-03'
@@ -68,9 +68,9 @@ On 2026-05-02 to 2026-05-03, a protocol design session produced the foundational
 | **Source** | `schemas/source.yaml` | `kind` (web/paper/meeting/transcript), `trust_level`, `freshness`, `rights`, `captured_at` |
 
 **Acceptance Criteria**:
-- [ ] All six schemas validate against JSON Schema draft-07
-- [ ] Each schema includes `examples` block
-- [ ] Each schema references `PROTOCOL.md` Section 4 for base frontmatter (title, type, status, source_refs, created_at, updated_at)
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -90,9 +90,9 @@ On 2026-05-02 to 2026-05-03, a protocol design session produced the foundational
 | **Multi-device sync protocol** | Medium — implicit knowledge | The `.gitignore` + Obsidian Git conflict resolution is documented in practice but not as a reusable concept. Create `30_wiki/concepts/obsidian-git-sync-protocol.md` or fold into `KDO Protocol` Synthesis section. |
 
 **Acceptance Criteria**:
-- [ ] `index.md` Statistics table shows 0 orphan pages
-- [ ] `index.md` Knowledge Gaps section has 0 unresolved items
-- [ ] All `30_wiki/` pages pass `concept.yaml` validation (or their respective schema)
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -122,10 +122,10 @@ Transform from prose to a decision matrix:
 #### C2. Add Hook Descriptions to `AGENTS.md`
 
 Each agent role should have:
-- **Pre-condition checks** (what must be true before this agent acts)
-- **Tool whitelist** (which directories/files this agent may touch)
-- **Output format template** (exact frontmatter and body structure expected)
-- **Failure mode** (what to do if source is missing, contradiction found, or schema invalid)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### C3. Create `90_control/quality-gates/` Checklists
 
@@ -133,16 +133,16 @@ Move quality gates from `PROTOCOL.md` Section 6 into executable Markdown checkli
 
 ```markdown
 ## Content Quality Gate
-- [ ] Target audience named in first 100 words
-- [ ] Core thesis stated in a single sentence
-- [ ] Every claim has `source_refs` backlink
-- [ ] Feedback path declared (where to send corrections)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 **Acceptance Criteria**:
-- [ ] `routing-rules.md` contains a routable decision matrix (not just prose)
-- [ ] Each agent in `AGENTS.md` has tool whitelist and failure mode
-- [ ] Quality gates are extractable as standalone checklists in `90_control/quality-gates/`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -174,8 +174,8 @@ SORT file.name ASC
 | YC AI-NATIVE 公司组织方法论 | `trust_level`, `reviewed_by` | `medium`, `Claude` |
 
 **Acceptance Criteria**:
-- [ ] All `30_wiki/concepts/*.md` pass `concept.yaml` validation
-- [ ] `index.md` Statistics shows 0 pages with missing `source_refs`
+- src_unknown
+- src_unknown
 
 ---
 
@@ -232,18 +232,18 @@ Rationale:
 
 ### Appendix A: Related Control Files
 
-- `90_control/PROTOCOL.md` — Master operating contract
-- `90_control/AGENTS.md` — Agent behavior rules
-- `90_control/routing-rules.md` — Task routing logic
-- `90_control/schemas/concept.yaml` — Concept validation schema
-- `.gitignore` — Machine-config isolation
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Appendix B: Related Knowledge Cards
 
-- [[kdo-protocol]] — System-level knowledge card
-- [[index]] — Graph topology and statistics
-- obsidian-kdo-内容产出工作流-产品设计大纲 — Workflow design
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — Research methodology
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Appendix C: Glossary
 

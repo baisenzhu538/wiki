@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-假设拆解"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_eb90d179
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-假设拆解"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-假设拆解
@@ -36,34 +36,34 @@ png` 15 泛产品设计·落地卡片 假设拆解 拆解出影响产品成败�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 关键假设三板斧：加法、减法、验证，用于拆解影响产品成败的关键假设。
-- 假设验证流程：明确目标 → 拆解假设（加法/减法）→ 验证阶段 → 迭代假设 → 决策（坚持/调整/放弃）。
-- 贝叶斯定理适用于所有基于客观规律、科学做事的探索场景。
-- 找关键假设需用减法思维，聚焦核心而非全面。
-- 验证假设是迭代循环的核心环节，驱动产品决策。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 加法与减法的具体操作标准是什么？例如"加法"是穷尽列举所有可能假设，"减法"是依据什么优先级或维度进行筛选？
-- "验证阶段"的具体方法论和工具未说明，如何区分有效验证与无效验证？
-- 贝叶斯定理在此框架中的具体应用方式未展开，是先验概率如何设定、后验概率如何计算并转化为产品决策？
-- "明确目标"与"找关键假设"之间的逻辑关系未厘清：目标是先验输入还是假设验证后的输出？
-- "迭代假设"的终止条件未定义，何时判定假设已充分验证可以进入决策环节？
-- OCR文本中"1 坚持/调整/放弃"前的数字"1"与"迭代假设"前的"1"是否为编号错误或层级标记，原文结构关系存疑？
-- "用10年的心态练些真本事"属于价值倡导还是方法论组成部分，其与假设拆解框架的功能边界在哪里？
-- 该框架适用于"所有基于客观规律科学做事的探索场景"的宣称是否过度泛化，有无反例或边界条件？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

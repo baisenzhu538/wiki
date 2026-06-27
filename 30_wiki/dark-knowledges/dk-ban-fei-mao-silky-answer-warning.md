@@ -5,8 +5,8 @@ title: 暗知识：AI 回答越丝滑，问题越大
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -14,26 +14,26 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI 给出一个结构完整、逻辑自洽、看起来非常专业的回答
+- src_unknown
   framework_lens: 丝滑 ≠ 准确——格式美感可能掩盖证据缺失或编造
   follow_up_question: '请把回答拆成"基于证据的部分"和"推理/生成的部分"，并列出每个关键结论的前提条件。'
-- signal: AI 回答中引用了具体数据、案例或外部来源，但无法追溯到一手出处
+- src_unknown
   framework_lens: '编造风险——AI 可能混合真实信息生成"听起来像真的"内容'
   follow_up_question: 请给出这个数据/案例的具体时间、地点、人物、原始来源，并说明它对我这个具体场景的适用边界。
-- signal: 团队因为 AI 回答"看起来很完整"而直接采纳，没有独立验证
+- src_unknown
   framework_lens: '认知偏差——人倾向于把"结构完整"误认为"正确"'
   follow_up_question: 在采纳前，先用三轮检查法验证一遍：这是推理还是证据？有没有更好的数据？有没有贴近业务场景的可验证信息？
 ---# 暗知识：AI 回答越丝滑，问题越大
@@ -76,15 +76,15 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 收到 AI 回答后，先判断它是"推理"还是"证据"。
-- [ ] 要求 AI 说明关键结论是如何得出的：基于哪些数据、经过了什么推理过程。
-- [ ] 检查回答中引用的数据/案例是否对当前具体场景有适用性。
-- [ ] 追问贴近业务场景的一手信息，要求做小样本分析而不是用行业平均数。
-- [ ] 让 AI 明确列出结论的不确定性因素和可能不成立的前提。
-- [ ] 要求 AI 说明方案的适用边界：什么情况下不适用、最小业务规模是多少。
-- [ ] 在将 AI 输出用于决策或文档前，完成上述至少 3 项检查。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-半肥猫-ai-learning-toolification-methodology]] —— 半肥猫 AI 学习落地的工具化方法论，与本卡共享"反幻觉"视角。
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 纪浩的 AI 协作方法论，其四要素验证法可与本卡的三轮检查法前后衔接：纪浩四要素（输入前检查） → AI 执行 → 半肥猫三轮检查（回答后验证）。
+- src_unknown
+- src_unknown

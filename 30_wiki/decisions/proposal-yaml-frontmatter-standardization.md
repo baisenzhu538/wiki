@@ -3,7 +3,7 @@
 title: YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引
 type: improvement-plan
 domain:
-- kdo
+- src_unknown
 status: draft
 source_refs:
 - src_unknown
@@ -16,11 +16,11 @@ confidence: 0.7
 trust_level: low
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[dk-tool-chain-naming-is-infrastructure]]'
-  - '[[dk-f13-handwritten-yaml-parser]]'
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[data-curator-role-division]]'
-  - '[[dk-p19-quote-yaml]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # YAML 标注对 KDO 知识库的启发
 
@@ -52,9 +52,9 @@ tags: ["design", "dark-knowledge"]    # 少了 # 号
 
 当前字段更多是"记录型"的（记录这张卡是什么），而不是"查询型"的（让这张卡能被什么样的检索找到）。例如：
 
-- `query_triggers` 字段（黄药师已经在个别卡上用）——指定"用户在搜什么词时会命中这张卡"
-- `when_to_use` 字段（技能卡需要）——"什么时候该用这个技能"
-- `prerequisite_skills` 字段（技能卡需要）——"用这个技能之前需要会什么"
+- src_unknown
+- src_unknown
+- src_unknown
 
 这些字段如果标准化，检索精度会大幅提升。
 

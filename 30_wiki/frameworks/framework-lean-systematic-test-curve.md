@@ -10,9 +10,9 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
@@ -23,18 +23,18 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - '[[case-lean-zhanglei-failure-counterfactual]]'
-  - '[[case-lean-shampoo-selling-points]]'
-  - '[[case-lean-gray-test-paradigm]]'
-  - '[[case-lean-combination-test-paradigm]]'
-  - '[[case-lean-crayfish-combo-test]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-gray-test-paradigm]]"
-  - "[[case-lean-combination-test-paradigm]]"
-  - "[[framework-ai-accelerated-strategy-cycle]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 系统测试曲线与三大测试范式
@@ -91,24 +91,24 @@ related:
 
 #### 2.1 灰度测试：拆节点
 
-- **本质**：按成本从低到高逐步发布，早期用"糙快猛"的方式把产品/服务先推出去。
-- **关键心法**：不要一次性把"汽车"造完再验证，可能用户只要"滑板"就能暴露问题。
-- **典型场景**：硬件迭代、软件功能灰度、门店从快闪到正式店。
-- **案例映射（正）**：扭蛋机项目从二手设备临时场地 → 正式商场免租期 → 自主研发二维码设备，逐层放大 [conf=0.70, source=一堂-低成本测试-系统测试-笔记.txt]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 2.2 组合测试：拆选项
 
-- **本质**：面对多个并列选项时，用排列组合做加法再减法，筛选出最优解。
-- **关键心法**：不要一上来就细化某条路线，先证明哪条路线更值得细化。
-- **典型场景**：定价、卖点、人群、渠道、产品形态存在多个可能。
-- **案例映射（正）**：洗发水通过功效 × 成分 × 香味 × 背书四个维度组合，筛选出"修复烫染 + 鱼子酱 + 香奈儿五号香 + 高端品牌背书"的最优组合 [conf=0.70, source=一堂-低成本测试-系统测试-笔记.txt]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 2.3 里程碑测试：拆假设
 
-- **本质**：把业务逻辑拆成前后依赖的假设链，逐个验证，后一个里程碑必须建立在前一个成立的基础上。
-- **关键心法**：避免"全部开发完才发现需求不对"的全盘推翻式浪费。
-- **典型场景**：平台型项目、复杂 ToB 业务、一堂五步法（需求→解决方案→商业模式→增长→壁垒）。
-- **案例映射（正）**：儿童桌游项目依次验证"需求价值 → 家长接受度 → 运营体系 → 选址模型"四个里程碑 [conf=0.70, source=一堂-低成本测试-系统测试-笔记.txt]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 三范式的组合关系
 
@@ -138,37 +138,37 @@ related:
 
 ### 适合场景
 
-- 复杂、长周期、创新属性强的业务，需要多轮 MVP 才能跑通。
-- 关键假设之间存在前后依赖（如需求→产品→商业模式→增长）。
-- 团队有试错时间窗口，且能以较小成本获取真实反馈。
-- 失败成本高昂，必须先降低系统性风险再加大投入。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不适合场景
 
-- **强监管行业**（医疗、金融、教培、博彩）：假页面、假产品、灰度发布可能触碰广告法、医疗器械法规、金融监管，需优先合规而非照搬 FALSE 左侧手段 [conf=0.85, source=任务指令 L3]。
-- **品牌敏感型产品**：过度"糙快猛"的 MVP 可能损伤早期用户信任，需在验证速度与品牌底线之间取舍。
-- **时间窗口极短的机会**：如果市场红利只有数周，多轮螺旋迭代可能错过窗口。
-- **低风险、高确定性业务**：当常识与情报已足够降低风险时，不必为了精益而精益。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
 ### 失败模式 1：把"渐进发布"当灰度，忽略假设验证
 
-- **表现**：团队只做小步发布，但不定义每轮要验证什么假设、通过标准是什么。
-- **后果**：迭代了很多版本，却没有积累有效认知，只是低水平重复。
-- **预警信号**：连续三轮测试后，关键假设（需求、卖点、商业模式）依然没有变得更清晰。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 2：过早固化 MVP 形态，压缩试错空间
 
-- **表现**：为了"更真实"，一上来就开正式店、做完整产品、写死代码。
-- **后果**：一旦关键假设错误，调整成本极高，甚至无法调整。
-- **预警信号**：在验证产品内核前，已投入大量精力在选址、装修、VI、官网、全量研发上。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败模式 3：追求早期严格定量，导致不敢决策
 
-- **表现**：样本量不足时仍要求 A/B 测试统计显著、精确转化率，结果无限期卡住。
-- **后果**：错过最佳试错窗口，把"测不出来"当成"不用测"。
-- **预警信号**：用"数据不够"作为推迟所有实验的理由，忽视主观信心、定性反馈和少量订单信号。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -185,10 +185,10 @@ related:
 
 ### 反例：直接开店/加盟的汉堡项目路径
 
-- **背景**：某新汉堡品类创业者面临"从摆摊→档口→小店→大店"（路径一）或"先加盟再自营"（路径二）两种常规 MVP 路线。
-- **风险**：两条路径都容易让团队过早固化在"店"的形态上，大量精力被选址、装修、品牌、培训耗散，反而没有聚焦在最不确定的产品内核（工艺、口味、定价、复购）上。
-- **更优做法**：先借朋友的现成店面和烤炉，在不正式开店的情况下反复测试汉堡胚工艺和口味组合，建立足够信心后再开简装店。
-- **对应范式**：里程碑测试（先验证产品内核，再验证店模型）+ 组合测试（多口味/多食材组合）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 案例细节来自陈贤敏汉堡项目复盘 [conf=0.75, source=一堂-低成本测试-系统测试-口述.txt §陈贤敏汉堡]。
 
@@ -210,9 +210,9 @@ related:
 1. **画曲线**：先让团队画出自己心中的 X 型曲线，再对比 Y 型螺旋上升曲线，校正预期。
 2. **拆假设链**：用一堂五步法或 ABCD 模型把业务拆成前后依赖的关键假设。
 3. **选范式**：
-   - 选项多且不确定 → 优先组合测试
-   - 需要逐步发布/迭代 → 优先灰度测试
-   - 假设链复杂、风险高 → 优先里程碑测试
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **定标准**：每轮实验定义"通过/不通过"信号，允许早期使用定性/主观信号。
 5. **控固化**：在关键假设未验证前，避免重投入在选址、装修、全量研发、品牌系统上。
 6. **螺旋上升**：每完成一轮测试，更新认知地图，再决定下一轮是继续、转向还是终止。

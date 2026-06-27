@@ -4,32 +4,32 @@ title: 技能：产品风格选择：测而非定
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC反向拆解法]]'
-- '[[tool-月白-AIGC设计作业复盘法]]'
-- '[[tool-月白-设计参考图精准定位法]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
-- '[[tool-月白-AI工艺图人工复核法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：产品风格选择：测而非定
 
@@ -48,28 +48,28 @@ related:
 
 ## 适用场景
 
-- 产品风格方向不确定
-- 需要数据验证设计方向
-- 目标客群存在多种可能性
-- 需要降低设计决策风险
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 品牌风格已固化、无需测试
-- 个人IP强绑定特定风格
-- 时间资源不允许多方向测试
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- A/B测试工具
-- 社交媒体投放测试
-- 用户访谈
-- AI快速生成多风格方案
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

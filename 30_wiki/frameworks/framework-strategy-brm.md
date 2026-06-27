@@ -12,21 +12,21 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[strategy-domain-digest]]'
-  - '[[tool-strategy-gap-analysis]]'
-  - '[[tool-strategy-five-see-three-set]]'
-  - '[[framework-strategy-blm]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[framework-strategy-six-stages]]'
-  - '[[tool-strategy-gap-analysis]]'
-  - '[[five-step-domain-digest]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[framework-strategy-lean-validation]]'
-  - '[[yt-decision-y-model]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
@@ -88,8 +88,8 @@ def brm_analysis(company):
 
 ## 适用边界
 
-- **适用**：企业战略规划、业务方向选择、组织变革
-- **不适用**：日常运营决策
+- src_unknown
+- src_unknown
 
 ---
 

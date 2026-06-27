@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
@@ -18,24 +18,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-jtbd-application
-  - yt-demand-hierarchy-model
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户只关注同类产品，忽视间接竞争"
+  - src_unknown
     framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
     follow_up_question: "用户完成这个任务时，除了同类产品，还用过什么方案？Excel？人工？不解决？"
-  - signal: "用户说'我们没有竞品'，但市场做不起来"
+  - src_unknown
     framework_lens: 需求替代陷阱——忽视间接竞争和替代方案
     follow_up_question: "用户现在怎么解决这个问题的？为什么现在的方式不够好？"
-  - signal: "用户被竞品抢走了，但竞品功能不如我们"
+  - src_unknown
     framework_lens: 需求替代陷阱——竞品在某个维度上更好
     follow_up_question: "竞品在哪个维度上比你的方案好？是价格、便捷性、还是信任？"
-  - signal: "用户说'我们比竞品便宜'，但用户还是选竞品"
+  - src_unknown
     framework_lens: 需求替代陷阱——价格不是唯一决策因素
     follow_up_question: "用户选竞品，除了价格，还考虑了什么？社交、品牌、服务？"
-  - signal: "用户忽视'不解决'这个替代方案"
+  - src_unknown
     framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
     follow_up_question: "用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。"
 
@@ -80,9 +80,9 @@ diagnostic_signals:
 
 如果用户现在不解决这个问题，后果是什么？
 
-- 后果严重 → 需求够痛，有商业机会
-- 后果轻微 → 需求不够痛，难以商业化
-- 无后果 → 伪需求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 切换成本的分析
 
@@ -118,20 +118,20 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当做竞品分析时 → 列出所有替代方案，不只是同类产品
-- 当验证需求时 → 问"用户现在不解决这个问题，后果是什么？"
-- 当用户流失时 → 问"用户现在用什么方案替代？"
-- 当设计产品时 → 问"用户从现有方案切换过来，需要什么？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-jtbd-application`：JTBD需求分析实战应用
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂案例大爆炸：替代方案分析案例
-- 一堂线下私董会竞争分析观察
+- src_unknown
+- src_unknown
+- src_unknown

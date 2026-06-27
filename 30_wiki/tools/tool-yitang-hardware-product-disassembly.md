@@ -15,14 +15,14 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-partner-data-analysis]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-weapon-industry-expert]]'
-  - "[[tool-yitang-weapon-product-reverse]]"
-  - "[[tool-yitang-consumer-goods-research]]"
-  - "[[tool-yitang-tech-project-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 硬件产品拆解调研

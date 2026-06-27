@@ -6,28 +6,28 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - feishu
-  - content-extraction
-  - publishing
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 段王爷
 source_context: 拆书会第208期《AI 2041》逐字稿提取——因API分页遗漏导致内容静默截断，用户纠偏后定位+修复+固化
 source_refs:
   - src_unknown
-  - duanwangye 2026-06-23 复盘
+  - src_unknown
 created_at: "2026-06-23"
 updated_at: "2026-06-23"
 author: 段王爷（南帝）
 reviewed_by: "欧阳锋"
 review_date: "2026-06-23"
 related:
-  - feishu-publishing
-  - concept-feishu-api-pagination-trap
-  - concept-streaming-extraction-pattern
+  - src_unknown-publishing
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "飞书文档提取后内容明显不完整，但API返回code=0不报错"
+  - src_unknown
     framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
     follow_up_question: "你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？"
-  - signal: "每次提取长文档（1000+blocks）都担心遗漏"
+  - src_unknown
     framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
     follow_up_question: "你的提取是等全部加载完再处理，还是一页一页流式处理？"
 ---
@@ -131,8 +131,8 @@ while has_more:
 ```
 
 **内存对比：**
-- 全量模式：1329 blocks 一次性加载 → ~15MB
-- 流式模式：每页 500 blocks → ~5MB（降 67%）
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,7 +151,7 @@ while has_more:
 
 ## 四、防御性编码检查清单
 
-- [ ] 任何调用 `/blocks/{id}/children` 的代码都检查了 `has_more`
-- [ ] 超过 1 页时打印分页警告（`⚠️ 分页警告: N 页`）
-- [ ] 提取完成后打印 block 总数供人工复核
-- [ ] 使用队列而非 `for b in list(all_blocks)` 递归获取子节点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

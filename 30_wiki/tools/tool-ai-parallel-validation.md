@@ -3,8 +3,8 @@ id: tool-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-月白-纳米级抄大师训练法]]'
-- '[[tool-马易-AI项目上线-先平行再独行]]'
-- '[[tool-ai-evidence-check]]'
-- '[[tool-ai-ai-workspace-setup]]'
-- '[[tool-ai-old-small-checklist]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：平行运行验证法
 
@@ -31,11 +31,11 @@ related:
 ## 操作步骤
 
 1. 实施步骤
-- **选对照组**
+- src_unknown
 2. 选择与AI场景相同的人工组作为对照
 3. 确保对照组与AI组的工作量相当、难度相当
 4. 记录对照组的基准效率和质量数据
-- **定对比指标**
+- src_unknown
 3. 效率指标：完成时间、处理量
 4. 质量指标：错误率、准确率
 5. 成本指标：人工成本 vs AI成本
@@ -62,18 +62,18 @@ related:
 
 ## 适用场景
 
-- AI工具开发完成，准备正式投入使用
-- 担心AI出错影响业务，不敢直接全量上线
-- 需要向老板证明AI确实比人工好
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 数据不全/不准 → 检查结果失误 → **检查前确认数据完整性**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -81,12 +81,12 @@ related:
 
 ## 关联技能
 
-- [[sk-ai-landing-five-steps]]
+- src_unknown
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

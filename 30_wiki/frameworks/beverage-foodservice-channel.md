@@ -9,23 +9,23 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang- business-strategy
-  - product
-  - entrepreneur
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260614_8a0317f1-产品-市场分析讨论
 - src_20260614_16c4bf0d-双柚汁产品成本沟通
 - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
 - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
 related:
-  - '[[ai-native-im-multi-agent]]'
-  - '[[fd-forward-deployment]]'
-  - '[[鑫港湾]]'
-  - '[[smart-device-foodservice-automation]]'
-  - '[[ai-complex-communication]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[source-code-delivery-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣
@@ -49,54 +49,54 @@ review_date: 2026-06-14
 
 ### insight:01 [conf=1.0] 餐饮渠道是新饮料品牌验证产品和建立动销的核心阵地
 
-- **场景驱动**：火锅、烧烤、川菜等重口味场景天然需要「解腻、解辣、解渴」的饮品。
-- **竞争较少**：相比便利店/商超货架的激烈竞争，餐饮渠道更容易获得排他性推荐。
-- **案例验证**：
-  - 柚香谷/宋柚汁从浙江本地餐饮渠道（包括农家乐）起家，后进入家庭餐桌和送礼场景。
-  - 大窑通过餐饮渠道打响知名度，2021 年营收达 30 亿。
-  - 好望水望山楂聚焦烧烤、火锅渠道，抖音话题播放量超 10 亿。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### insight:02 [conf=1.0] 餐饮渠道必须优先保证渠道利润，否则难以推动动销
 
-- 餐饮老板/经销商的核心决策因素是 **利润空间**，而非品牌知名度。
-- 公开行业资料建议给餐饮渠道留出 **30% 以上** 利润空间。
-- 案例：双柚汁经销商因利润不足、定价过高，推广意愿低。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:03 [conf=0.95] 在高单量场景下，「标准化/产能稳定」优先于原料成本的微小优化
 
-- 餐饮门店日销 600 单时，因产能不足关闭线上订单，损失的潜在收益远大于原料成本节省。
-- 液体浓缩汁/预调液相比粉料，可减少人工熬制误差、糊锅浪费、口感不稳定。
-- 核心逻辑：**生意好的时候，单量 > 成本**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:04 [conf=1.0] UHT + 无菌灌装 + 高阻隔包装可实现无防腐剂、常温长保
 
-- **UHT 参数**：135-150°C，2-8 秒。
-- **无菌灌装**：百级洁净车间，包装材料单独灭菌。
-- **包装选择**：铝箔复合袋、利乐包、金属罐、PET 无菌瓶。
-- **保质期**：常温 6-12 个月，无需防腐剂。
-- 这是常温奶、NFC 果汁、椰奶、燕麦奶等行业成熟的工艺路线。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:05 [conf=1.0] 小袋装浓缩汁/原浆是适配餐饮和家庭场景的流行形态
 
-- **规格**：100-150ml/袋。
-- **冲调**：1:6 兑水，150ml 可冲调出 900ml-1L 饮品。
-- **形态**：自立袋/吸嘴袋，便于携带、储存和倒出。
-- **案例**：金豆芽金银花柚子汁 100ml 袋装，常温储存，2023 年 9 月上线，当年全渠道销售超 360 万袋。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:06 [conf=0.98] 草本基底 + 果蔬汁调香是已被市场验证的差异化方向
 
-- **核心公式**：草本植物（金银花、仙草、陈皮、山楂）+ 水果（柚子、椰子、橙子、梨）。
-- **卖点**：无防腐剂、无香精、无焦糖色、轻度功能（降火、解腻、助消化）。
-- **案例**：
-  - 金豆芽：金银花 + 柚子汁，主打儿童下火。
-  - 好望水：望山楂，主打助消化解腻。
-  - 元气森林：椰子水 + 草本组合创新。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### insight:07 [conf=0.70] 成本 21.5 元/升 vs 目标 15 元/升为个案数据，需谨慎引用
 
-- 来自 2025-12 双柚汁内部成本沟通会议。
-- 成本压力来源：香精 33 公斤/吨、白砂糖 6.98 元/公斤、柑橘类原料价格高。
-- **建议标注**：个案数据，不具备行业普适性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -120,34 +120,34 @@ review_date: 2026-06-14
 ## 适用边界
 
 **适用**
-- 新饮料品牌从 0 到 1
-- 有供应链/代工资源，能控制成本和品质
-- 产品具备「解腻、解辣、解渴、轻度功能」等场景属性
-- 团队能接受先 B 端后 C 端的渠道节奏
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用**
-- 缺乏餐饮渠道资源或经销商网络
-- 产品成本无法支撑渠道利润和终端定价
-- 产品保质期短、冷链依赖强
-- 追求快速 C 端品牌声量而非稳扎稳打动销
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与现有 30_wiki 的差异
 
-- `30_wiki` 暂无餐饮渠道饮料开发专题。
-- `yt-entrepreneur-*` 系列多为通用创业方法论，缺少具体行业落地框架。
-- 本卡填补了「餐饮渠道饮品从 0 到 1」的实操知识空白。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
-- 六层交叉验证报告：60_feedback/six-layer-validation-beverage-foodservice-channel.md
-- [https://m.36kr.com/p/2231849452940930](https://m.36kr.com/p/2231849452940930)
-- [https://chihe.sohu.com/a/774874112_120260944](https://chihe.sohu.com/a/774874112_120260944)
-- [https://www.foodtalks.cn/fbifwowfoodawards/gallery/wowfood/detail/5954](https://www.foodtalks.cn/fbifwowfoodawards/gallery/wowfood/detail/5954)
-- [https://www.shpilotech.com/zh-TW/%E8%B6%85%E9%AB%98%E6%BA%AB%E6%BB%85%E8%8F%8C%E6%8A%80%E8%A1%93%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/](https://www.shpilotech.com/zh-TW/%E8%B6%85%E9%AB%98%E6%BA%AB%E6%BB%85%E8%8F%8C%E6%8A%80%E8%A1%93%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 

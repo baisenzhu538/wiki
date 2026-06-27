@@ -3,8 +3,8 @@ id: tool-Truman-技术社区严肃提问法
 title: 技能：技术社区严肃提问法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-科学提问法]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-语义对齐沟通法]]'
-- '[[tool-Truman-问题定义澄清法]]'
-- '[[tool-Truman-职场异步协作提问法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：技术社区严肃提问法
 
@@ -38,27 +38,27 @@ related:
 
 ## 适用场景
 
-- 在V2EX、GitHub等技术社区提问
-- 需要获得黑客或技术专家深度解答
-- 问题涉及开源项目或技术实现细节
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 寻求情感支持或心理安慰
-- 问题可以通过官方文档解决
-- 不愿意暴露自己的尝试过程
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Markdown编辑器
-- 代码片段工具
-- 版本控制信息
-- 系统环境信息
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,12 +66,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，科学提问
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

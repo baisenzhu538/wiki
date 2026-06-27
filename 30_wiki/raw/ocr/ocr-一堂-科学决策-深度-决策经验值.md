@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-决策经验值"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_4f3415a1
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-深度-决策经验值"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-深度-l2部分定量]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
-  - '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-决策经验值
@@ -41,29 +41,29 @@ png` bｅnchmark 参考行业常识 我的 经验值 竞争数据 过去数据 �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 科学决策需要建立多维度的benchmark参考体系，包括行业常识、竞争数据和历史数据三个核心来源。
-- 对标同行是获取竞争数据的关键方法，通过参考对标同行的表现来校准自身判断。
-- 历史数字是重要的决策锚点，需系统性地参考过去数据以识别趋势和规律。
-- 决策经验值不是自然形成的，需要在业务过程中有意识地、持续地积累关键经验值。
-- 经验值的积累应具有针对性，聚焦于对业务判断最具影响力的核心指标和数据点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 文中"关键经验值"的具体定义和衡量标准是什么？如何判断哪些经验值属于"关键"范畴？
-- 三个benchmark来源（行业常识、竞争数据、历史数据）之间的权重分配和优先级如何确定？是否存在冲突时的处理原则？
-- "对标同行"的方法论未展开：如何选择对标对象？样本量要求？数据获取渠道和可靠性如何验证？
-- 历史数据的时效性边界未明确：多久以前的数据应被视为无效或需打折处理？是否存在行业差异？
-- "有意识地持续积累"的具体操作机制缺失：谁来负责？以什么频率？通过什么工具或流程固化？
-- OCR文本中"我的"单独成行的含义模糊：是指个人经验与外部benchmark的对比，还是决策者主观判断的角色？需结合原图确认
-- 经验值从个体认知转化为组织知识的机制未提及：如何避免关键人员离职导致的经验流失？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -81,30 +81,30 @@ Tetlock 论证专家在短期预测上表现不错，但在长期结构性变化
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] - 深度梯子，决策经验值是其在实践层面的补充
-- [[yt-entrepreneur-industry-forecast]] - 行业预判，与经验值结合可以形成更健康的决策参考体系
-- [[master-decision-hygiene]] - 通用决策卫生，提醒经验值的过时风险
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 市场进入决策：用行业常识和竞争数据快速校准自己的判断
-- 产品定价决策：用历史数据和同行对标避免拍脑袋定价
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将行业常识当作不变的真理，行业常识在快速变化的市场中可能过时
-- 不要对标行业均值而非行业领先者，均值对标只会导致平庸
-- 不要在缺乏自己的独立判断时使用经验值，经验值是参考而非替代
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在做一个缺乏数据支撑的决策时，用经验值快速校准初始判断
-- 従你发现自己在对标同行时，用 Tetlock 视角质问对标的是否是真正的行业领先者
-- 従你觉得行业就是这么做的时，用 Hogarth 的反馈环境视角检查这个常识最近一次被证伪是什么时候
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

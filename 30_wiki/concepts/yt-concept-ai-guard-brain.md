@@ -8,40 +8,40 @@ source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
 domain:
-  - yitang- yitang
-  - ai
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 prerequisites:
-- yt-model-prompt-engineering
+- src_unknown
 query_triggers:
-- 守脑如玉
-- 四遍学习法
-- AI依赖
-- 大脑锋利
-- AI体感
-- 手写笔记
-- 模型敏感度
-- 学习内化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-05-13
 estimated_tokens: 3400
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户所有工作都交给AI，自己不再思考
+- src_unknown
   framework_lens: 大脑外包——AI是磨刀石不是拐杖
   follow_up_question: 你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化
-- signal: 用户坚持手写笔记、不用AI，效率低下
+- src_unknown
   framework_lens: 另一极端——拒绝AI的能力放大
   follow_up_question: 你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？
 updated_at: '2026-06-16'
@@ -57,13 +57,13 @@ trust_level: medium-high
 
 ### 核心命题：AI 遇强则强，遇弱则弱
 
-- claim:01 [conf=0.90] AI 省事的那些事本就不值钱。写邮件、做纪要、起标题——这些本来也就不值钱。AI 帮你省掉它们，不等于你获得了竞争优势。AI 的核心价值不是帮你偷懒，而是帮你创造价值增量
+- src_unknown
 
-- claim:02 [conf=0.85] 你只会越来越依赖 AI，它不会越来越依赖你。如果你自己停止了思考和判断，AI 给你的东西质量也会下降——因为你失去了分辨好坏、给出有效反馈、判断什么值得深挖的能力。AI 的输出质量本质上受限于使用者的判断力
+- src_unknown
 
 ### 四遍学习法：知识长在脑子里的路径
 
-- claim:03 [conf=0.85] 四遍学习法的前提是你真的想学会。如果只是想"完成"一个任务，直接让 AI 生成就行。但如果你想能力长在自己脑子里：
+- src_unknown
   1. **手写笔记**（输入——自己消化后写下的理解）
   2. **口述展开**（处理——用自己的话讲出来，发现讲不清的地方就是没真懂）
   3. **AI 整理**（输出辅助——让 AI 帮你整理、补充、指出遗漏）
@@ -71,11 +71,11 @@ trust_level: medium-high
 
   四遍过后才能变成潜意识
 
-- claim:04 [conf=0.80] 每多一遍不是多一次复习，是多一次**视角转换**——手写是"我"的视角，口述是"别人能不能听懂"的视角，AI 整理是"机器怎么理解这个知识"的视角，分享是"别人怎么用这个知识"的视角。四遍等于用四种方式理解同一个东西
+- src_unknown
 
 ### AI 使用体感：训练模型敏感度
 
-- claim:05 [conf=0.85] AI 工具变化极快，固定依赖某套技巧很容易过时。需要建立体感——什么任务适合 AI、什么问题需要强模型、什么回答看似完整实际空泛。最有效的方法：每周固定时间拿真实业务问题做多模型对比训练。AI 时代，直觉是一种生产力，这种直觉来自持续使用而非被动学习
+- src_unknown
 
 ## Critique
 
@@ -85,9 +85,9 @@ trust_level: medium-high
 
 **Nicholas Carr**（*The Shallows* 和 *The Glass Cage* 作者，普利策奖决选入围）对"AI 辅助学习"提出了系统性质疑。Carr 跟踪了从 GPS 导航到 CAD 设计到医疗诊断 AI 的大量案例，发现了一个反直觉的规律：**自动化工具在提高即时产出的同时，系统性削弱使用者的基础能力**。
 
-- **GPS 导航实验**：伦敦大学学院的 fMRI 研究发现，依赖 GPS 的司机在未知路线上的海马体激活显著低于不使用 GPS 的司机。长期依赖 GPS 后，司机的空间导航能力——即使在没有 GPS 的情况下——也出现了可测量的退化。
-- **CAD 设计案例**：Carr 记录了建筑事务所从手绘转向 CAD 后的能力退化——CAD 提高了绘图效率，但设计师对比例、重力、材料特性的直觉把握能力下降。因为手绘强迫你在大脑中模拟物理效果，而 CAD 替你做了这个模拟。
-- **自动化悖论（Automation Paradox）**：自动化程度越高，当自动化失效时人的应急能力越差。飞行员过度依赖自动驾驶后，在紧急手动操控时的错误率反而上升。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对守脑如玉的直接挑战：四遍学习法假设你可以"控制 AI 的使用程度"——手写→口述→AI 整理→分享。但 Carr 的研究表明，一旦 AI 工具被引入工作流，**人类的"最小阻力路径"会选择绕过而非穿越困难步骤**。你设计了四遍学习法，但大多数人的实际行为是：让 AI 生成初稿→微调→发布——一遍就结束了。不是方法论不好，而是在认知经济性面前，人类总是选择省力的路径。
 
@@ -125,11 +125,11 @@ Stiegler 的"无产阶级化"（proletarianization）概念：每一项技术工
 ## Framework Gallery
 
 ### 关联概念
-- [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
-- [[yt-model-ipo-learning-strategy]] — IPO 学习模型：四遍学习法是强化版输入→处理→输出闭环
-- [[yt-prompt-writing-workflow]] — AI 写作工作流——守脑如玉是使用写作工作流的前提
-- [[yt-concept-weapon-arsenal]]（master域）— 武器库元概念：武器库追求即查即用（外存），守脑如玉追求肌肉记忆（内化）。真正的专家知道什么时候查武器库、什么时候靠肌肉
-- [[yt-model-personal-pitch-toolkit]]（personal域）— 讲香十指框架：讲香的最高境界不是查武器库，是用自己的话讲——与四遍学习法同构：输入→消化→用自己的话输出
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

@@ -11,25 +11,25 @@ trust_level: low
 language: zh-CN
 domain: [yitang, decision-science]
 source_refs:
-- 00_inbox/_vlm_reprocess/相关VLM描述
+- src_unknown
 related:
-  - '[[case-科学决策-L4案例01]]'
-  - '[[case-科学决策-ROI案例01]]'
-  - '[[case-婚礼规划]]'
-  - '[[case-科学决策-深度案例01]]'
-  - '[[case-科学决策-深度案例05]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[case-婚礼规划]]"
-  - "[[concept-稀缺机会窗口]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：婚礼操盘——用户和场景
 
 ## 案例来源
-- 原图：婚礼操盘案例PPT
-- 来源类型：VLM描述（叙事完整度3/5）
-- 独立成卡理由：展示用户分层和场景推演在真实业务中的应用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -37,8 +37,8 @@ related:
 
 ## 与框架的映射
 
-- 用户分层 → 决策三角形「宽度」维度
-- 场景推演 → 决策三角形「高度」维度（长期视角+时间窗口）
+- src_unknown
+- src_unknown
 
 ---
 

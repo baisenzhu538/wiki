@@ -5,18 +5,18 @@
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
-  - content-production- yitang
+  - src_unknown
 diagnostic_signals:
-- signal: 是否穷尽列举 ≥8 个潜在因素后再做筛选排序
+- src_unknown
   framework_lens: 穷尽性 / 避免先下结论
   follow_up_question: 是否一上手就'找关键'导致只看见熟悉因素？
-- signal: 每个因素是否有权重依据，并标注必要/充分/干扰项
+- src_unknown
   framework_lens: 因果验证 / 杠杆识别
   follow_up_question: 权重分配是拍脑袋还是有数据或逻辑支撑？
-- signal: 关键要素数量是否 ≤3，干扰项是否明确被移出资源焦点
+- src_unknown
   framework_lens: 帕累托 / 资源重分配
   follow_up_question: 是否出现'所有因素都关键'导致目标结果定义过宽？
-- signal: 是否承认因素间交互效应和不可移除的框架性因素
+- src_unknown
   framework_lens: 复杂系统 / 边界诚实
   follow_up_question: 在复杂适应系统中，移除单因素测试是否仍有效？
 updated_at: '2026-06-16'
@@ -30,10 +30,10 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[yt-skill-storyline-target-tradeoff]]'
-  - '[[yt-skill-storyline-contrast-analysis]]'
-  - '[[yt-skill-storyline-problem-solving]]'
-  - '[[yt-tool-y-model-ruler]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
@@ -52,22 +52,22 @@ related:
 5. **关键要素提取**：找出"移除后结果根本改变"的因素
 
 **关键原则**：
-- 因素必须穷尽：如果遗漏了一个关键因素，整个分析就失效了
-- 权重必须可验证：不能凭感觉分配权重，必须有数据或逻辑支撑
-- 区分"必要因素"和"充分因素"：必要=没有它就不行；充分=有它就足够
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出形态**：
 ```
-- 目标结果：[精确定义]
-- 因素穷尽列表（按影响力排序）：
+- src_unknown
+- src_unknown
   1. 因素A：[权重] → 必要/充分 → 验证：[证据]
   2. 因素B：[权重] → 必要/充分 → 验证：[证据]
   3. 因素C：[权重] → 必要/充分 → 验证：[证据]
-- 关键要素（移除后结果根本改变）：
-  - 因素X：移除后结果从[原值]变为[新值]
-  - 因素Y：移除后结果从[原值]变为[新值]
-- 干扰项（移除后结果基本不变）：
-  - 因素Z：移除后结果变化<[阈值]
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
 ```
 
 ## Question
@@ -102,25 +102,25 @@ related:
 
 ## Constraints & Boundaries
 
-- **适用**：需要优化资源分配、需要识别核心杠杆点、需要在多因素中做优先级排序的场景
-- **不适用**：因素之间高度耦合且不可分离的系统（如生态系统）、需要创造性突破而非优化的场景
-- **警惕**：不要把"我熟悉"等同于"关键"。真正关键的因素往往是你最不熟悉的那一个
-- **边界**：一次关键要素分析最多处理10个因素。超过这个数量，需要先做分组或降维
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
 **正例：Truman的"一堂课程设计"关键要素分析**
 
 ```
-- 目标结果：学员完成L4内化训练
-- 因素穷尽列表：
+- src_unknown
+- src_unknown
   1. 课程内容丰富度 [权重：15%] → 必要 → 验证：内容丰富但无结构的课程，完成率仅12%
   2. 作业反馈质量 [权重：35%] → 关键 → 验证：有高质量反馈的班级完成率78%，无反馈的班级23%
   3. 同伴学习氛围 [权重：25%] → 关键 → 验证：高互动班级完成率82%，低互动班级31%
   4. 课程时长 [权重：10%] → 非关键 → 验证：8周和12周课程的完成率差异<5%
   5. 讲师知名度 [权重：5%] → 非关键 → 验证：匿名讲师和知名讲师的完成率差异<3%
-- 关键要素：作业反馈质量、同伴学习氛围
-- 干扰项：课程时长、讲师知名度
+- src_unknown
+- src_unknown
 ```
 
 这个分析的精妙之处在于：它发现"课程内容丰富度"虽然是必要的，但不是关键的——没有内容不行，但内容再多也不提升完成率。真正关键的是"反馈"和"同伴"这两个社交因素。

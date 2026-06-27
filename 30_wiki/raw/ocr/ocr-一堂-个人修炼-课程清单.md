@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-课程清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_a94d8057
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-个人修炼-课程清单"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-地图-个人地图]]'
-  - '[[yt-model-personal-map]]'
-  - '[[ocr-一堂-创业必修-课程清单]]'
-  - '[[ocr-一堂-管理必修-课程清单]]'
-  - '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-课程清单
@@ -36,36 +36,36 @@ png` -堂课程清单3/4（个人必修方向） YitangCourseSystemListbyPersona
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 个人修炼课程体系围绕"时间管理→科学学习→深度复盘→知识管理→刻意练习→记笔记→灵感闪现→写逐字稿→卖点讲香→表达力→设计力→AI力→人生红点"的递进路径展开
-- 时间管理被列为个人修炼的第一门必修课，是后续所有能力发展的基础
-- 科学学习采用"IPO"双篇结构：认知篇强调重新理解学习本质，实操篇提供落地工具
-- 深度复盘与知识管理并列为"不断提认知"阶段的双支柱，形成输入-反思闭环
-- 刻意练习与清单式笔记法被定位为"不断练能力"阶段的具体训练方法
-- 表达力培养分为三级：写逐字稿（基础）→卖点讲香（结构）→公开演讲（输出）
-- 设计力采用"认知→框架→需求→审美"的四层递进，强调泛产品思维而非狭义设计
-- 人生红点作为终极模块，包含"认知→笃定→路径规划"的完整闭环，指向个人长期目标设定
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该课程体系声称"时间管理是后续所有能力发展的基础"，但未提供实证依据——是否有学员跳过此模块仍成功完成后续学习的对照数据？
-- "IPO认知篇"与"IPO实操篇"的"IPO"具体指什么概念？OCR可能误识，原图中该缩写的确切含义需要确认。
-- "卖点讲香"中的"讲香"是否为"讲透"或"讲清"的OCR误识？该术语在课程语境中的准确定义存疑。
-- 课程体系呈现严格的线性递进结构，但未说明各阶段是否存在依赖关系——学员能否跳过某些模块直接学习后续内容？
-- "设计力"模块强调"泛产品思维而非狭义设计"，但"泛产品"的具体边界与适用场景缺乏界定，与常规产品管理的区别未阐明。
-- "人生红点"作为"终极模块"，其与前面各能力模块的因果机制不明——是否完成前置模块必然有助于红点清晰度提升？
-- 课程清单标注为"3/4"，其余三部分（1/4、2/4、4/4）的内容缺失，无法判断"个人修炼"在完整课程体系中的权重与定位。
-- 课程清单是否应该被视为"索引卡"而非"知识卡"？如果是，其存储位置是否合适？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **索引类内容缺少深度：本卡片主要是课程目录和章节大纲，缺少可复用的知识内容。作为知识卡，其价值主要在于"索引"而非"知识"。
-- **更新频率风险：课程清单会随着课程更新而变化，本卡片可能很快过时。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 不要用的场景
 
-- **深度学习代替浏览学习：清单适合快速浏览，但不能替代对单个课程的深度消化。
-- **创新性工作的思维发散：清单的线性结构可能限制跨领域联系的发现。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-course-structure — 课程结构的宏观视角
-- [[yt-decision-ai-partner]] — 学习路径规划的理论基础
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 知识库索引：作为快速查找课程内容的索引
-- 学习计划：根据清单制定个人学习计划
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -5,8 +5,8 @@ title: 智能药柜推广项目：录音商业模式命题交叉验证
 type: case
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_732d251f-itingnao-deep-dive-business-model
 created_at: 2026-06-15
@@ -17,11 +17,11 @@ review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
 related:
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[case-smart-medicine-cabinet-corporate-risk]]'
-  - '[[tool-泛产品落地-ROI分析]]'
-  - '[[yt-barrier-identification-skill]]'
-  - '[[yt-entrepreneur-lean-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 ---# 智能药柜推广项目：录音商业模式命题交叉验证
@@ -121,21 +121,21 @@ source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 
 ### 与已有知识的联系
 
-- **财务模型**：本卡中高毛利想象与 `kc-p0-03-financial-model` 的“保守估算”原则冲突，提示项目存在显著过度乐观偏差。参考 `master-cognitive-bias-checklist`。
-- **O2O 成本结构**：药柜若接入美团/京东，需扣除 15%–25% 平台抽成与配送成本，进一步压缩毛利。参考 `kc-p0-05-o2o-cost-structure`。
-- **诊所+药柜风险**：本卡与 `kc-p0-06-clinic-cabinet-risk-observation` 共同指向“处方真实性、医保个账使用、跨科销售”三大红线。
-- **政策红线**：涉及药房托管、医生回扣、药师资质造假等，直接违反 `kc-p0-01-national-policy-redlines` 框架。
-- **决策卫生**：超过 60% 命题需加限定或标注待验证，符合“区分信号与噪音”原则。参考 `master-decision-hygiene`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- **不作为对外商业计划依据**：本卡整体置信度低，仅用于内部风险诊断。
-- **任何引用必须标注来源与置信度**：特别是高毛利、扩张目标、医保流量等数字。
-- **落地前必须完成三项验证**：
+- src_unknown
+- src_unknown
+- src_unknown
   1. 单点/单机连续 3–6 个月真实经营数据；
   2. 目标城市药柜准入、医保支付、远程审方政策书面确认；
   3. 独家贴牌产品的厂家授权、批文、质量与定价验证。
-- **合规审查优先于规模扩张**：社康药房承包、医生提成、药师代考等设想应立即停止。
+- src_unknown
 
 ---
 
@@ -151,9 +151,9 @@ source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 
 ## 关键证据
 
-- 本卡核心事实来自听脑录音 1241665/1883124/2431721/2447560 交叉验证。
-- 已确认的多方交叉证据在正文中以 ✅ 标注；单方宣称/待验证内容以 ⚠️ 或 ❌ 标注。
-- 具体录音/报告编号见“验证与参考”部分。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -170,9 +170,9 @@ source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 
 ### 什么时候应该学这个案例
 
-- 你正在接触或评估一个智能药柜/医药创新项目。
-- 推销方强调“低投入高回报”“政策已放开”“巨头都在做”等话术。
-- 你需要向团队或投资人解释为什么某些模式当前不可行。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 

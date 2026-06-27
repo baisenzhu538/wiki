@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 id: yitang-strategy-canvas
@@ -9,16 +9,16 @@ created_at: 2026-06-17
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "战略画布"
-  - "strategy canvas"
-  - "价值曲线"
-  - "蓝海战略"
-  - "竞争要素"
-  - "差异化定位"
-  - "价值创新"
-  - "竞争格局分析"
-  - "避免同质化"
-  - "战略定位"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-17
 reviewed_by: "欧阳锋"
 source_refs:
@@ -38,22 +38,22 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "团队讨论竞争时只盯着直接竞品，看不到替代者和潜在进入者"
+  - src_unknown
     framework_lens: "竞争视野狭窄——战略画布的第一步是列出所有买方关注的竞争要素，而不是只列现有玩家的卖点"
     follow_up_question: "如果明天出现一个完全不同的解决方案满足同一需求，你的价值曲线上哪些要素会瞬间失效？"
-  - signal: "创始人说'我们什么都做，所以比竞品更全面'"
+  - src_unknown
     framework_lens: "战略曲线平坦化——在要素上全面跟随等于没有差异化，买家记不住你的独特价值"
     follow_up_question: "你的曲线和竞品相比，有没有明显的'高得多'和'低得多'的要素？如果没有，买家为什么选你？"
-  - signal: "战略会争论'要不要做X功能'，但没人能说清目标人群是谁"
+  - src_unknown
     framework_lens: "要素选择缺少买方视角——战略画布的横轴必须是目标买家真正在意的价值要素，而不是内部功能清单"
     follow_up_question: "你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？"
 author: "老顽童"
 related:
-  - '[[tool-strategy-blue-ocean-canvas]]'
-  - '[[yt-unit-model-build]]'
+  - src_unknown
+  - src_unknown
 
 ---
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线
@@ -76,15 +76,15 @@ related:
 
 ## 核心要点
 
-- **横轴不是功能清单，而是买方价值要素**：必须是目标买家在做购买决策时真正比较、愿意为之付费或传播的因素；内部技术参数如果买家无感，就不该出现在横轴上。
-- **曲线形状比绝对数值更重要**：战略画布的纵轴通常用相对高低（低/中/高或 1-5 分）而非精确数字，目的是暴露“投资结构”而非计算精确 ROI。
-- **四条重构动作是画布的实战口诀**：
-  - **减少**：哪些要素投入远高于买家所需？（如过度包装、冗余功能）
-  - **剔除**：哪些行业默认要素其实买家不在乎？（如传统渠道的豪华门店）
-  - **提升**：哪些被低估的要素应该大幅加强？（如响应速度、透明价格）
-  - **创造**：哪些买家需要但行业内无人提供的价值应该新增？（如订阅制、社区陪伴）
-- **价值创新≠技术创新**：战略画布的目标是用新的价值组合让既有竞争要素变得不相关，而不是在原有要素上比谁做得更好。
-- **画布需要定期重画**：随着替代品出现、买方偏好迁移、技术周期变化，价值曲线会失效；建议每 6-12 个月或在重大市场变化后重画一次。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -125,22 +125,22 @@ related:
 
 ## 行动 Checklist
 
-- [ ] **明确目标买家群体**：先回答“这个画布是为哪一类买家画的”，不同群体应分别出图。
-- [ ] **列出 6-10 个竞争要素**：要素必须来自买方视角，能覆盖购买决策的主要比较维度。
-- [ ] **绘制 3-5 条价值曲线**：至少包含行业头部、直接竞品、替代品/潜在新进入者，以及你自己（现状+设想）。
-- [ ] **执行四动作重构**：明确写出要“减少/剔除/提升/创造”的要素，并标注理由。
-- [ ] **找买家做视觉验证**：让目标用户看新旧曲线，收集他们对新增价值的付费意愿证据。
-- [ ] **沉淀为团队共识语言**：把最终曲线打印出来，作为后续产品、营销、组织决策的过滤器——凡是不能强化曲线差异化的事，优先不做。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## diagnostic_signals
 
-- signal: "团队讨论竞争时只盯着直接竞品，看不到替代者和潜在进入者"
+- src_unknown
   framework_lens: "竞争视野狭窄——战略画布的第一步是列出所有买方关注的竞争要素，而不是只列现有玩家的卖点"
   follow_up_question: "如果明天出现一个完全不同的解决方案满足同一需求，你的价值曲线上哪些要素会瞬间失效？"
-- signal: "创始人说'我们什么都做，所以比竞品更全面'"
+- src_unknown
   framework_lens: "战略曲线平坦化——在要素上全面跟随等于没有差异化，买家记不住你的独特价值"
   follow_up_question: "你的曲线和竞品相比，有没有明显的'高得多'和'低得多'的要素？如果没有，买家为什么选你？"
-- signal: "战略会争论'要不要做X功能'，但没人能说清目标人群是谁"
+- src_unknown
   framework_lens: "要素选择缺少买方视角——战略画布的横轴必须是目标买家真正在意的价值要素，而不是内部功能清单"
   follow_up_question: "你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？"
 
@@ -148,9 +148,9 @@ related:
 
 ### 内部局限
 
-- **“竞争要素”列表本身具有主观性**：不同团队列出的要素差异巨大，列出什么、不列出什么，已经隐含了战略假设。画布无法自动纠正要素选择偏差。
-- **静态快照难以捕捉动态博弈**：战略画布呈现的是某一时刻的价值曲线，但竞争对手会模仿、买家偏好会迁移、替代品会出现；一次画图不能替代持续监测。
-- **容易把“不同”当成“更好”**：曲线形状独特只是差异化的必要条件，不是充分条件；独特但买家不买单的曲线毫无意义。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

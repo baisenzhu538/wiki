@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-network-effects-deep
-  - yt-barrier-data-assets
-  - yt-barrier-switching-costs
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的平台有很多开发者，但用户不多'"
+  - src_unknown
     framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
     follow_up_question: "你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？"
-  - signal: "用户说'我们的生态很丰富，但用户只用核心功能'"
+  - src_unknown
     framework_lens: 生态锁定——生态丰富≠生态参与，需要提升生态参与度
     follow_up_question: "你的生态中，用户使用了多少功能？生态的参与度如何？"
-  - signal: "用户说'我们的生态被竞品复制了'"
+  - src_unknown
     framework_lens: 生态锁定——生态难以复制，但需要时间积累
     follow_up_question: "你的生态积累了多久？竞品的生态规模和你的差距多大？"
-  - signal: "用户说'我们的生态参与者收益不高，流失了'"
+  - src_unknown
     framework_lens: 生态锁定——生态参与者需要持续收益，否则流失
     follow_up_question: "你的生态参与者的收益模型是什么？收益是否可持续？"
-  - signal: "用户说'我们想建生态，但不知道从哪里开始'"
+  - src_unknown
     framework_lens: 生态锁定——生态建设需要种子用户和核心应用
     follow_up_question: "你的种子用户是谁？核心应用是什么？如何启动双边市场？"
 
@@ -135,21 +135,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当建设平台时 → 设计生态
-- 当生态参与者流失时 → 优化激励
-- 当生态质量差时 → 加强治理
-- 当生态启动难时 → 种子用户
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-network-effects-deep`：网络效应深度
-- `yt-barrier-data-assets`：数据资产
-- `yt-barrier-switching-costs`：转换成本
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 平台生态研究
-- 生态锁定研究
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
@@ -19,35 +19,35 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 tags:
-  - '#method/modeling'
-  - '#content-format/framework'
-  - '#domain/yitang'
-  - '#method/ai-collaboration'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - modeling-capability-system
-  - modeling-level-map
-  - modeling-weapon-library
-  - process-modeling
-  - case-modeling-essence-levels
-  - case-modeling-abstraction-yitang-models
-  - case-yitang-model-asset-inventory
-  - dk-modeling-checklist-formatting-rules
-  - case-truman-ai-skill-engineering-guide
-  - case-yitang-radar-chart-selection
+  - src_unknown-capability-system
+  - src_unknown-level-map
+  - src_unknown-weapon-library
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"这个事情怎么做才能不每次重新想"
+  - src_unknown
     framework_lens: 流程类建模
     follow_up_question: 这个任务重复发生吗？失败成本高吗？
-  - signal: 用户说"这类问题有没有通用解法"
+  - src_unknown
     framework_lens: 抽象建模
     follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
-  - signal: 用户说"这个领域的核心到底是什么"
+  - src_unknown
     framework_lens: 本质提炼
     follow_up_question: 你能不能用一句话或一个公式概括它的本质？
-  - signal: 用户想用 AI 直接生成一个可用模型，跳过人工边界定义与质量审计
+  - src_unknown
     framework_lens: 人在环中建模五步法
     follow_up_question: 你是否已经先定义了模型的适用边界、挑错标准、上锁格式和成熟标准？
-  - signal: 团队产出的模型或 SOP 看起来完整，但一上线就发现大量例外和反例
+  - src_unknown
     framework_lens: 边界工程 + 决定成熟
     follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
 
@@ -64,9 +64,9 @@ diagnostic_signals:
 三段论在原始材料中以两种形式呈现：
 
 1. **段位图**：横向三阶段与纵向六段位交叉，显示从「入门」到「高阶」的进阶路径。
-   - 横轴：能力段位（L1-L6）
-   - 纵轴：三阶段（流程建模、抽象建模、本质提炼）
-   - 视觉重点：阶段之间用阶梯/层级表示，强调递进关系。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **笔记结构**：培训笔记明确以「第一阶段、第二阶段、第三阶段」分节，每阶段包含定义、目标、案例、关键原则。
 
@@ -74,12 +74,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:32-37`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:50-55`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:68-73`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:80-84`。
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:62-67`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -137,24 +137,24 @@ AI/工具时代，建模的产出成本趋近于零，但**判断模型好坏的
 
 阶段选择决策树：
 
-- **任务是否高频重复？**
-  - 是 → 流程类建模
-  - 否 → 进入下一问
-- **问题是否跨场景出现？**
-  - 是 → 抽象建模
-  - 否 → 保持经验沉淀即可
-- **是否涉及战略/底层判断？**
-  - 是 → 本质提炼
-  - 否 → 抽象建模已足够
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
 ## Open Questions
 
-- **具体假设**：三阶段的分数标签（60/75/85）是否具有实际测量意义，还是仅为教学比喻？
-- **边界**：SOP 与抽象模型之间的灰色地带如何界定？一个复杂的决策树算流程还是抽象？
-- **反例**：是否存在「反本质提炼」的场景？例如快速变化的互联网行业，过早提炼本质是否会固化错误认知？
-- **前提**：该框架假设建模越深入越好，但是否存在「够用即可」的最优停止点？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -162,10 +162,10 @@ AI/工具时代，建模的产出成本趋近于零，但**判断模型好坏的
 
 ### 关联卡片
 
-- [[modeling-capability-system]]：三段论所在的整体能力体系
-- [[modeling-level-map]]：三段论对应的能力段位
-- [[modeling-weapon-library]]：支撑抽象建模的模型工具
-- [[process-modeling]]：第一段流程建模的实操工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,13 +202,13 @@ AI/工具时代，建模的产出成本趋近于零，但**判断模型好坏的
 
 ### 原始素材
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-段位图-01.png` — 段位图（含三段论与六段位交叉）
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:30-84` — 三段论结构化笔记
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md` — 流程建模专题文本
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md` — 口述转录
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

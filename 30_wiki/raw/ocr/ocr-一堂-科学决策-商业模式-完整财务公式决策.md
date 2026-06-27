@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-商业模式-完整财务公式决策"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_c59acefd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-商业模式-完整财务公式决策"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-深度-决策经验值]]'
-  - '[[yt-decision-full-process]]'
-  - '[[ocr-一堂-单元模型-基准值]]'
-  - '[[ocr-一堂-单元模型-动态预测]]'
-  - '[[ocr-一堂-单元模型-修炼地图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-商业模式-完整财务公式决策
@@ -38,30 +38,30 @@ png` 一堂五步法：需求解决方案 商业模式 增长壁垒 + 及格线 
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 一堂五步法框架：需求→解决方案→商业模式→增长→壁垒，构成完整的商业分析链条。
-- 财务决策能力分为六级阶梯（L1-L6+顶级认知），从"不算账"到"动态预测"，每级对应特定能力缺陷。
-- L1缺陷：缺算账意识，只谈初心/变现/数字；L2缺陷：缺单元模型，算大账存在盲区/选错模型。
-- L3缺陷：缺关键项，忽略经营/组织/财务成本；L4缺陷：缺基准值，缺少统计意义/错误类比/乐观预期。
-- L5缺陷：缺动态预测，忽略规模/外部/业务变化；L6/顶级认知：完整账+基准值+动态预测。
-- 关键跃迁：从"粗糙账"到"完整账"需补全三类成本（经营、组织、财务）；从静态到动态需建立基准值并持续预测。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该框架声称L6为"完整账+基准值+动态预测"，但"顶级认知"列于L6右侧却未明确定义其与L6的区别——是L6的熟练度差异还是质的不同层级？
-- "及格线"标注在H与L1-L6之间，但H的具体含义及及格线划定的依据（如基于什么样本或标准）完全缺失，是否为讲师主观设定？
-- 三类成本（经营、组织、财务）的"完整性"标准未说明：是否涵盖所有行业？SaaS、硬件、平台型企业的成本结构差异如何统一？
-- "基准值"的来源与更新机制未定义：是行业均值、历史数据还是对标企业？基准值失效时的判断标准是什么？
-- "动态预测"的预测周期（季度/年度/滚动）和触发重估的阈值未明确，实践中如何避免过度调整？
-- 框架将"只谈初心"列为L1缺陷，但"初心"（使命愿景）与财务决策的关系未被论证——是否存在初心驱动型决策反而更优的反例？
-- OCR质量存疑："H"是否为"及格线"的标记符号还是误识？视觉层级中L1-L6与顶部"一堂五步法"的关联方式需原图确认，当前文本无法判断是并列还是递进关系。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -79,30 +79,30 @@ Tetlock 论证即使是最优秀的预测者在面对高不确定性复杂系统
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-canvas]] - 同域决策画布
-- [[yt-decision-depth-ladder]] - 深度梯子
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创业项目财务预测
-- 投资决策的快速计算
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要在输入变量不确定性极高时使用公式
-- 不要将公式当作终极答案
-- 不要在缺乏线性假设检验时使用
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你需要快速财务预测时用公式替代直觉
-- 従你对输入数据的准确性感到不安时用Klein视角检查
-- 従你的公式结果与业务感知矛盾时用Tetlock视角质问
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

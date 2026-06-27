@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: CI distribution best practices (CI Alliance)
+- src_unknown
 related:
-  - '[[dk-c9-batch-trigger-garbage]]'
-  - '[[tool-ci-define-phase]]'
-  - '[[framework-ci-operating-model]]'
-  - '[[tool-yitang-ai-assisted-analysis]]'
-  - '[[tool-indicators-signposts]]'
-  - "[[framework-ci-operating-model]]"
-  - "[[tool-yitang-research-continuous-tracking]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # CI Implement阶段：最后一公里
@@ -75,8 +75,8 @@ ci_distribution = {
 
 ## 适用边界
 
-- **适用**：有持续CI需求的公司、已产出洞察但使用率低的团队
-- **不适用**：一次性调研、个人使用场景
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-motivation-resistance
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 动力阻力
-- 泛产品设计
-- 泛产品设计·用户卡片：动力阻力
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：动力阻力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-yitang-review-analysis]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-management-conversion-hacking]]'
-  - '[[yt-panproduct-demand-peak-end-rule]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-conversion-optimization]]'
-  - '[[yt-panproduct-demand-peak-end-rule]]'
-  - '[[yt-panproduct-demand-surprise-formula]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力
@@ -45,16 +45,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 能同时写出用户转化的动力、阻力和触点，而不是只优化其中一项
+- src_unknown
   framework_lens: 转化率 = 动力 − 阻力 + 触点设计
   follow_up_question: 如果只提升动力而不减少阻力，转化率上限在哪里？
-- signal: 对同一用户旅程中的多个触点分别标注动力和阻力大小
+- src_unknown
   framework_lens: 转化是旅程中的连续博弈
   follow_up_question: 哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？
-- signal: 干预方案上线后会分别测量动力、阻力、触点三者的变化
+- src_unknown
   framework_lens: 诊断性指标优于结果性指标
   follow_up_question: 转化率涨了，但你知道是动力提升还是阻力下降导致的吗？
 updated_at: '2026-06-16'
@@ -83,26 +83,26 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **只增加优惠和激励，忽略注册/支付流程中的摩擦**
-   - **原因**：过度依赖动力端，未识别阻力端
-   - **修复**：先做漏斗分析，找出最大阻力触点，优先减阻再考虑加动力
+   - src_unknown
+   - src_unknown
 
 2. **把‘阻力’简单等同于产品 bug，忽视心理阻力（信任、学习成本）**
-   - **原因**：阻力分类不细
-   - **修复**：将阻力拆分为功能阻力、认知阻力、情感阻力、社会阻力四类分别处理
+   - src_unknown
+   - src_unknown
 
 3. **触点设计很炫，但动力本身不足**
-   - **原因**：触点优化掩盖了价值主张问题
-   - **修复**：用‘如果没有任何提醒/引导，用户还会转化吗？’测试真实动力
+   - src_unknown
+   - src_unknown
 
 4. **对所有用户用同一套动力−阻力假设**
-   - **原因**：忽视用户分群差异
-   - **修复**：按新用户/老用户/高价值用户拆分旅程，分别绘制动力阻力图
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 核心机制：动力−阻力模型
 
-- claim:01 [conf=0.85] 决定转化率的三大本质要素：动力 + 阻力 + 触点。用户从"不转化"到"成功转化"不是靠运气，而是靠增强动力、减少阻力、优化触点。三者不是并列关系——动力和阻力是方向相反的两个力（一个推用户前进，一个拉用户后退），触点是这两个力相遇的具体界面
+- src_unknown
 
 | 要素 | 含义 | 操作方向 |
 |------|------|---------|
@@ -112,13 +112,13 @@ reviewed_by: 欧阳锋
 
 ### 精选案例
 
-- claim:02 [conf=0.90] **一堂 9.9 元体验课**：极低价格消除了金钱阻力（降阻力），真实方法论和京东员工故事展示了可感知的效果（增动力），朋友圈分享让用户在已有信任关系的触点看到（优化触点）。三重设计叠加，一个 9.9 元产品做到了远超价格的转化效率
-- claim:03 [conf=0.85] **某 SaaS 限时优惠翻车**：产品在官网 banner 打"限时优惠仅剩 3 天"，本意是增强紧迫感（增动力），但企业采购决策者的心理是"真正的好产品不需要限时促销"——动力策略触发了更大的信任阻力。动力和阻力不是独立变量，同一条信息可能同时激活两者
-- claim:04 [conf=0.85] **一堂商业画布的触点设计**：画布不是放在"工具"页等用户来找，而是在每一篇相关文章末尾嵌入——用户在"学到一个新概念正兴奋"的时刻遇到画布（高峰值触点），转化率远高于独立展示。同一个产品在不同触点的转化率可以差 10 倍以上
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与相邻工具的区分
 
-- claim:05 [conf=0.80] 动力阻力解决"用户为什么没转化"的诊断问题——它是转化漏斗的 X 光。惊喜公式解决"怎么让用户超出预期"的设计问题，峰终定律解决"用户记住什么"的记忆问题。三者经常会组合：先用动力阻力诊断卡点 → 用峰终定律找到最值得优化的触点 → 用惊喜公式设计那个触点的具体体验
+- src_unknown
 
 ## Critique
 
@@ -137,9 +137,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

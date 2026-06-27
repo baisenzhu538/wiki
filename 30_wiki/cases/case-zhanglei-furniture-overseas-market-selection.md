@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-zhanglei-twist-egg-machine-yogurt-nursing]]'
-  - '[[case-zhanglan-amusement-park-undercover]]'
-  - '[[case-zhanglei-nursing-home-family]]'
-  - '[[case-yitang-doorstep-nail-service-context]]'
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：洗衣液市场调研——蹲超市+假扮促销员

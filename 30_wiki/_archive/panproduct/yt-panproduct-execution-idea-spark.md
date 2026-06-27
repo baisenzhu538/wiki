@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-idea-spark
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1177
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：灵感闪现
-- 灵感闪现
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：灵感闪现
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-攻坚会]]'
-  - '[[tool-泛产品落地-解放思想]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
@@ -47,15 +47,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 创意生成有明确流程和触发条件，而不是等灵感降临
+- src_unknown
   framework_lens: 灵感可工程化
   follow_up_question: 你最近一次系统生成创意是在什么情况下触发的？
-- signal: 创意数量足够多后，才进入筛选和收敛阶段
+- src_unknown
   framework_lens: 发散先于收敛
   follow_up_question: 在评价任何 idea 之前，你生成了多少个候选方案？
-- signal: 每个候选创意都能追溯到要解决的问题或要满足的需求
+- src_unknown
   framework_lens: 创意必须对准问题
   follow_up_question: 这个创意解决了哪个用户的哪个具体问题？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ status: superseded
 ### 失败模式
 
 1. **等待灵感降临，项目进度被拖延**
-   - **原因**：把创意神秘化
-   - **修复**：设定固定创意工作坊时间，用‘压-看-聚-拆-再’五字诀强制产出
+   - src_unknown
+   - src_unknown
 
 2. **刚生成几个 idea 就开始批评，导致创意流产**
-   - **原因**：过早收敛
-   - **修复**：明确区分发散和收敛阶段，发散阶段禁止评判
+   - src_unknown
+   - src_unknown
 
 3. **创意天马行空，但与要解决的问题无关**
-   - **原因**：问题框架缺失
-   - **修复**：在创意前写出‘我们试图解决什么问题’和‘好创意的标准’
+   - src_unknown
+   - src_unknown
 
 4. **团队陷入群体思维，创意趋同**
-   - **原因**：缺乏多样性刺激
-   - **修复**：引入跨领域案例、外部视角或匿名提交机制
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -122,9 +122,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：John Cleese的"开放模式" + Steven Johnson的"慢灵感"
 

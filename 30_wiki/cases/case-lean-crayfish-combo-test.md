@@ -10,8 +10,8 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师（教学案例）
 source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
 source_refs:
@@ -20,17 +20,17 @@ source_refs:
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 related:
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-lean-shampoo-selling-points]]'
-  - '[[case-lean-gray-test-paradigm]]'
-  - '[[case-lean-combination-test-paradigm]]'
-  - '[[case-lean-2b-gray-test]]'
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[case-lean-combination-test-paradigm]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：堕落小龙虾组合测试
@@ -51,14 +51,14 @@ related:
 
 验证方式：团队设计了一次低成本组合测试，按三大类展开候选：
 
-- 冻鲜肉：鸡、鸭、鱼、牛肉
-- 冻蔬菜：茄子、西红柿、土豆、黄瓜、毛豆
-- 冻海鲜：花甲、生蚝、螃蟹、虾
+- src_unknown
+- src_unknown
+- src_unknown
 
 每个品类从两个维度打分：
 
-- **A. 冷冻价值**：液氮冷冻后口感还原度是否显著优于普通冷冻
-- **B. 商业价值**：天花板、利润空间、需求规模是否足够大
+- src_unknown
+- src_unknown
 
 测试结果以热力图形式呈现，颜色越深代表综合价值越高 [conf=0.80, source=堕落小龙虾组合测试实验_vlm_desc.md]。
 
@@ -146,8 +146,8 @@ related:
 
 不适用场景：
 
-- **监管敏感品类**（如食品中的特殊保健品、婴幼儿食品）：安全认证与合规要求可能限制快速盲测的灵活性 [conf=0.80, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高端产品**：粗糙盲测可能损害未来品牌认知，需折中设计 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -164,14 +164,14 @@ related:
 
 ### 对应 framework-lean-false-model
 
-- **F 直接测试**：朋友聚餐盲测属于低成本直接获取用户反馈。
-- **L 借用现成**：借用现有液氮设备、厨房和聚餐场景，没有新建产线。
-- 在方向锁定前，没有进入 E（最小版本量产）或 All-in（全量投入）阶段 [conf=0.80, source=framework-lean-false-model]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对应 framework-lean-abcd-model
 
-- **A 象限（商业成败）**：核心问题是「液氮速冻技术应该落地到哪个品类」。
-- **C/D 象限（业务提升/关键转化）**：组合测试早期对单个品类做口感还原度、天花板评估，属于 C/D 象限的选项筛选，但目的是为 A 象限的方向决策提供证据，避免 A 象限直接 all-in [conf=0.80, source=framework-lean-abcd-model]。
+- src_unknown
+- src_unknown
 
 ## 失败模式
 

@@ -8,29 +8,29 @@ confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-- 一堂五步法
-- 五步法
-- 商业分析框架
-- 需求解决方案商业模式增长壁垒
-- 创业分析工具
-- 全局分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[framework-five-step-lean-interface]]'
-  - '[[framework-strategy-lean-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
@@ -48,18 +48,18 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户知道五步，但做项目时只用其中一两步
+- src_unknown
   framework_lens: 框架使用不完整
   follow_up_question: 你最近一次完整走完了五步法的五个环节是什么时候？
-- signal: 用户把五步法当万能框架，不看行业差异
+- src_unknown
   framework_lens: 僵化套用
   follow_up_question: 你这个行业的特殊性是什么？五步法的哪一步需要特别调整？
-- signal: 团队把五步法当成融资路演的"标准答案"，但经不起投资人追问验证过程
+- src_unknown
   framework_lens: 框架被异化为演讲稿
   follow_up_question: 这五步里，有哪一步的结论是基于外部证据而非团队共识？证据是什么？
-- signal: 创始人自评对五步法掌握7-8分，但业务数据或第三方测试未见改善
+- src_unknown
   framework_lens: 自评幻觉
   follow_up_question: 如果用最近3个月的业务结果反推，你哪一步的实际验证得分最高？哪一步最低？
 updated_at: '2026-06-16'
@@ -149,9 +149,9 @@ Porter 的五力模型强调从**行业结构**角度分析竞争，而五步法
 
 ### 诊断前准备
 
-- **参会人**：创始人、产品/增长负责人、至少 1 位外部视角（顾问/投资人/用户代表）
-- **材料**：最近 30 天用户反馈、核心数据仪表盘、竞品动态
-- **规则**：每步必须同时给出"结论 + 证据 + 下一步验证动作"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五步快速检查表
 
@@ -165,9 +165,9 @@ Porter 的五力模型强调从**行业结构**角度分析竞争，而五步法
 
 ### 评分与后续动作
 
-- **绿灯**：该步有外部证据支撑，结论稳定 → 维持并监控
-- **黄灯**：有假设但证据不足 → 2 周内设计验证实验
-- **红灯**：无证据或证据与结论矛盾 → 暂停相关决策，回到该步重做
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 触发重走清单
 

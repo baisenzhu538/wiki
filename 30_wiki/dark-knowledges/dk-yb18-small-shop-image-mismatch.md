@@ -6,9 +6,9 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- design
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -16,25 +16,25 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb26-chinese-food-photography-props]]'
-  - '[[dk-yb30-ecommerce-channel-version]]'
-  - '[[dk-yb17-product-lifestyle-photography]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
-  - '[[dk-yb19-visual-strategy-price-match]]'
-  - '[[yt-foresight-ten-fatal-flaws]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 小店在美团/大众点评/海报中使用大酒店/连锁品牌级别的精修食品摄影图
-- 视觉传递的价格锚点显著高于实际客单价，出现"看图想来、到店不敢进"的落差
+- src_unknown
+- src_unknown
 ---# 小店图片错配陷阱：精致摄影反而吓跑客户
 
 ## 原始表述
@@ -58,9 +58,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 不适用高端定位店铺或品牌升级期故意制造反差感的情况
-- 与"图片仅供参考"的明显虚假宣传不同，错配是风格定位偏差而非实物不符
-- 对已经拥有稳定品牌认知的连锁门店，视觉统一性优先于"烟火气"原则
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -77,5 +77,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]] — 电商产品图：抽卡图≠产品图
-- [[dk-yb19-visual-strategy-price-match]] — 餐饮图片视觉策略与价格定位匹配
+- src_unknown
+- src_unknown

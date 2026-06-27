@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-defensive-strategy
-  - yt-barrier-moat-building
-  - yt-barrier-moat-assessment
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们想进入竞品的市场，但不知道怎么突破'"
+  - src_unknown
     framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
     follow_up_question: "竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？"
-  - signal: "用户说'我们的进攻被竞品挡住了'"
+  - src_unknown
     framework_lens: 进攻策略——进攻被挡需要评估进攻方式和资源
     follow_up_question: "你的进攻方式是什么？资源是否足够？是否需要改变策略？"
-  - signal: "用户说'我们进入了新市场，但站不住脚'"
+  - src_unknown
     framework_lens: 进攻策略——进入新市场需要建立壁垒，否则容易被驱逐
     follow_up_question: "你进入新市场后，是否建立了壁垒？用户、数据、品牌？"
-  - signal: "用户说'我们的进攻成本太高，回报不明显'"
+  - src_unknown
     framework_lens: 进攻策略——进攻需要评估ROI，不是盲目进攻
     follow_up_question: "你的进攻成本是多少？预期回报是多少？是否值得？"
-  - signal: "用户说'我们想攻击竞品的弱点，但找不到'"
+  - src_unknown
     framework_lens: 进攻策略——竞品弱点需要深入分析
     follow_up_question: "竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？"
 
@@ -137,21 +137,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当发现竞品弱点时 → 侧翼进攻
-- 当资源远超竞品时 → 正面进攻
-- 当发现新市场时 → 迂回进攻
-- 当进攻成功后 → 建立壁垒
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-defensive-strategy`：防御策略
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 竞争战略研究（Porter）
-- 进攻策略实践
+- src_unknown
+- src_unknown
+- src_unknown

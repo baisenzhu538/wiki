@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - '[[case-yitang-hardware-factory-photo]]'
-  - '[[case-yitang-competitor-pricing-intelligence]]'
-  - '[[case-zhanglan-amusement-park-undercover]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-yitang-supplier-security-guard]]'
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：假扮面试发现行业红利退潮

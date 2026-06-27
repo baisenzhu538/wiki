@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-解放思想"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_c2c6b487
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计-落地卡片-解放思想"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-逻辑mece]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-解放思想
@@ -37,33 +37,33 @@ png` 小19 泛产品设计·落地卡片 解放思想 敢于提出新解法/挑�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 高水平创新的心法：找到更底层的规律，然后在上层完成突破性创新。
-- 思维层次按规律深度分为三层：表层（经验和常识）、中层（方法模型）、底层（思考本质、关联经典学科）。
-- "解放思想"的核心是敢于提出新解法、挑战新问题。
-- 底层思维适合所有需要开创性思维解决问题的场景。
-- 长期进步方式：以10年心态修炼真本事，打造"美好作品"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该框架声称"找到更底层规律即可在上层完成突破性创新"，但未解释为何底层规律必然导向突破性而非渐进式创新，以及从规律认知到创新成果之间的转化机制是什么
-- "思考底层"要求"关联经典学科"，但未界定哪些经典学科、如何关联、关联到什么程度，以及跨学科关联是否会产生认知过载或错误迁移
-- "所有需要用开创思维解决问题的场景"这一适用范围断言过于绝对，未考虑场景差异（如紧急决策vs长期研发）对思维层次选择的约束
-- "10年的心态练真本事"中的时间维度（10年）是隐喻还是具体建议？若按字面理解，其依据是什么，是否存在更优的时间框架
-- 该框架将思维层次划分为三层并赋予价值排序（底层最优），但未论证三层之间是否存在互补关系或何时应该"降维"使用表层思维
-- "重新理解「解放思想」"作为课程名称暗示存在对"解放思想"的既有误解，但未说明具体误解是什么以及该课程如何修正
-- 高水平创新"极难"与遵循"一句话心法"即可之间存在张力，未解释心法的充分必要性及失败案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

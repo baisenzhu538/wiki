@@ -6,8 +6,8 @@ title: 智能药柜失败模式案例库
 type: case
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -23,32 +23,32 @@ review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
 related:
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[tool-泛产品落地-ROI分析]]'
-  - '[[yt-barrier-identification-skill]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-antifragile-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:
-- signal: 招商方用"知名品牌背书+高收益承诺"推销药柜项目
+- src_unknown
   framework_lens: 招商加盟骗局模式
   follow_up_question: 能否提供3个以上真实加盟商联系方式和近6个月分润流水？能否实地考察2个已运营点位？公司是否有被执行/限高记录？
-- signal: 项目仅销售乙类OTC，且处方药/甲类OTC销售能力未获书面确认
+- src_unknown
   framework_lens: SKU受限+政策合规风险
   follow_up_question: 当地药监/医保部门书面确认的可售品类是什么？仅乙类OTC SKU下的收入上限能否覆盖固定成本？
-- signal: 点位选在人流不足的封闭场景，或周边500米内有24h药店/O2O强覆盖
+- src_unknown
   framework_lens: 点位质量失败+O2O替代
   follow_up_question: 是否做过7天分时段人流计数？O2O配送时效和价格是否让药柜失去便利性优势？
-- signal: 运营方没有本地运维团队、补货SLA、设备维护记录
+- src_unknown
   framework_lens: 运营缺位
   follow_up_question: 运维SLA书面承诺是什么？随机抽查3台已运营设备，库存/故障/清洁状态如何？
-- signal: 财务模型假设"低频低价乙类OTC"能覆盖设备/租金/运维/合规固定成本
+- src_unknown
   framework_lens: 商业模式结构性失败
   follow_up_question: 用保守客单价和复购频次做敏感性测算，回本周期是多少？是否预留6-12个月运营资金？
 ---# 智能药柜失败模式案例库
@@ -75,10 +75,10 @@ diagnostic_signals:
 
 2019–2024 年，中国智能药柜/无人药房经历了多轮政策试点与商业试错：
 
-- **政策层面**：国家允许自动售药机销售乙类 OTC，但处方药、甲类 OTC 普遍受限；部分地区（成都、重庆）曾短暂放宽，随后收紧。
-- **市场层面**：O2O 送药（叮当快药、美团买药）培养了用户"夜间急用药 30 分钟送达"的心智，药柜的"便利性"优势被大幅削弱。
-- **资本层面**：修正集团等知名品牌授权加盟项目入场，以"低投入、高分润、大品牌背书"吸引中小投资者。
-- **行业结果**：五年过去，广西全区自动售药机累计仅 92 台；修正未来智慧药房加盟商月收益仅几元、十几元；叮当健康关闭多城业务；院内智慧药房上市公司收入下滑。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 本案例库整合上述公开失败案例，回答一个问题：**为什么看起来"顺应趋势"的智能药柜赛道，实际上成了一台高概率失败的生意？**
 
@@ -159,10 +159,10 @@ diagnostic_signals:
 
 ### 直接结果
 
-- **加盟商层面**：修正未来药房投资者普遍亏损，月销售 151 元/台 vs 承诺年分润 6 万元，回本周期从"1 年多"变成"无法回本"。
-- **区域试点层面**：广西五年累计仅 92 台，说明市场需求和商业模式未跑通。
-- **上市公司层面**：叮当健康收缩城市、智慧药房收入下滑；艾隆科技/健麾信息院内智慧药房收入负增长。
-- **国际对照**：美国、欧洲同类项目同样受困于 SKU 受限、医保壁垒、点位成本，说明问题具有普遍性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 结构结果：五类失败模式共因
 
@@ -227,9 +227,9 @@ diagnostic_signals:
 | 责任主体 | 设备方与持证方分离 | 合同模糊 | 持证方明确担责 | 合同+许可证复印件 |
 
 **使用建议**：
-- 任何一项红灯，项目不投/不加盟。
-- 黄灯超过 3 项，要求补充证据后再决策。
-- 绿灯全部满足，仍需用 [[yt-entrepreneur-lean-validation]] 做最小成本验证，用 [[tool-泛产品落地-ROI分析]] 算清真实 ROI。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -243,17 +243,17 @@ diagnostic_signals:
 
 ### 与已有知识的联系
 
-- **认知偏差视角**：失败案例是对"幸存者偏差"和"故事偏误"的重要纠正。参考 [[master-cognitive-bias-checklist]]。
-- **反脆弱视角**：通过研究失败模式，可以设计更具韧性的商业模式。参考 [[master-antifragile-checklist]]。
-- **精益验证视角**：药柜项目应在重资产投入前，用最小成本验证点位需求、政策边界、O2O 替代。参考 [[yt-entrepreneur-lean-validation]]。
-- **ROI 分析视角**：设备投资的真实成本包括机会成本和长期复用性。参考 [[tool-泛产品落地-ROI分析]]。
-- **壁垒识别视角**：药柜项目的"便利性"和"品牌授权"都不是真壁垒。参考 [[yt-barrier-identification-skill]]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在投资或合作前，用本卡的"失败模式共因"逐项自检。
-- 对每个新项目追问："这个项目与已失败的案例有何不同？不同之处是否足以避免失败？"
-- 将本卡与 [[yt-entrepreneur-lean-validation]]、[[tool-泛产品落地-ROI分析]] 联用，形成完整的风险评估框架。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -270,6 +270,6 @@ diagnostic_signals:
 
 ## 关键证据
 
-- 本卡核心事实来自五轮迭代失败案例与运营数据整合。
-- 已确认的多方交叉证据在正文中以 ✅ 标注；单方宣称/待验证内容以 ⚠️ 或 ❌ 标注。
-- 具体录音/报告编号见"验证与参考"部分。
+- src_unknown
+- src_unknown
+- src_unknown

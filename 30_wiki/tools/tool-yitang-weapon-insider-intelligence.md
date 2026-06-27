@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-signup-statistics]]'
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-shareholder-analysis]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-people-network-database]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-job-intelligence-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略5：内部人情报
@@ -40,9 +40,9 @@ related:
 
 ## 关键原则
 
-- 离职员工 = 最可信的信息源（没有利益绑定）
-- 前员工访谈的ROI远高于其他渠道
-- "同行朋友横向聊"是最自然的切入方式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

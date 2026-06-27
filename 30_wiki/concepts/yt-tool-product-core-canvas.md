@@ -7,32 +7,32 @@ confidence: 0.85
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3800
 language: zh-CN
 prerequisites:
-- yt-entrepreneur-product-core
+- src_unknown
 query_triggers:
-- 产品内核画布
-- 产品内核分析
-- 内核剥离
-- 关键转化率
-- 用户视角
-- 强迫取舍
-- 做而不信
-- 成本敏感
-- 螺旋拆解
-- 独立交付
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-industry-forecast]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-concept-p-type-l-type]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-06
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -48,19 +48,19 @@ yitang:
   course_type: tool
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 画布四格是否都基于用户视角而非创始人偏好
+- src_unknown
   framework_lens: 用户中心 / 取舍权
   follow_up_question: 绿色/红色判定是否只是创始人意志的可视化？
-- signal: 画布假设是否经过真实用户验证且更新频率 ≤30 天
+- src_unknown
   framework_lens: 持续发现 / 假设验证
   follow_up_question: 画布反映的是'一个月前的用户'还是现在的用户？
-- signal: 是否识别出'假绿色'要素（以为是内核其实不是）
+- src_unknown
   framework_lens: 内核诚实 / 反直觉
   follow_up_question: 转化率低时是否怪执行而非画布假设错误？
-- signal: 画布输出是否直接关联到单元模型和关键假设验证
+- src_unknown
   framework_lens: 落地闭环 / 五步法
   follow_up_question: 画布讨论后是否停留在可视化而不进入验证？
 updated_at: '2026-06-16'
@@ -127,10 +127,10 @@ claim:boundary-16 [conf=0.82] **做而不信原则**：可暂时保留存疑要�
 
 ## diagnostic_signals
 
-- signal: "创业者说'我的产品内核画布填完了，但团队还是不知道要做什么'"
+- src_unknown
   framework_lens: "画布填完但没用的信号——画布是决策工具，不是行动指南。填完画布后还需要把结论翻译为具体动作"
   follow_up_question: "画布填完后，你接下来一周的行动计划是什么？画布上的绿色/黄色/红色有没有对应到具体的'做/不做/调整'？"
-- signal: "创业者每次开会都重新改画布，运营了 3 周画布变了 5 版"
+- src_unknown
   framework_lens: "画布的动态迭代失控——频繁修改说明对内核的定义还没收敛"
   follow_up_question: "你每次修改画布的依据是什么——用户反馈、竞争变化、还是'感觉不对'？如果是后者，说明内核还没定义清楚，先花一周做用户调研再改"
 
@@ -188,21 +188,21 @@ AI 不会替代创始人做价值取舍，但可以把画布的"发散—收敛�
 | 要素 C | 5.0% | 4.9% | (5.0-4.9)/5.0 = **2%** | 红色 |
 
 **判定标准**：
-- 影响 ≥ 30% → 绿色（决定性）
-- 影响 10%–30% → 黄色（优化性）
-- 影响 < 10% → 红色（默认不做）
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 注意：预估转化率必须来自真实数据或 A/B 测试，不能用"我觉得"。如果缺乏数据，先标为黄色并设计最低成本验证实验。
 
 ### AI 画布使用 Checklist
 
-- [ ] 人类先独立列出至少 10 条候选内核要素，避免 AI 先入为主
-- [ ] 给 AI 的上下文只放与当前产品相关的用户原话、数据、竞品证据（参考 [[yt-concept-context-engineering]]）
-- [ ] 让 AI 按\"用户视角\"重新分类，并要求它给出每条分类的出处
-- [ ] 对 AI 标为绿色的要素，要求提供 ≥3 条用户证据或数据支撑
-- [ ] 用\"去掉后转化率会下降多少\"这个问题对每条绿色要素做压力测试
-- [ ] 创始人保留最终颜色判定权，AI 只提供输入不替代决策（参考 [[yt-concept-ai-guard-brain]]）
-- [ ] 画布更新周期 ≤30 天，AI 只负责提示\"哪些假设可能过期"，人类负责判断是否更新
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例映射：AI 高考志愿填报产品的内核错位
 

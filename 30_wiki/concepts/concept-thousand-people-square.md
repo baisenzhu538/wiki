@@ -6,9 +6,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-  - yitang
-  - education
-  - modeling
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: "2026-06-14"
 updated_at: "2026-06-17"
 author: 老顽童
@@ -17,29 +17,29 @@ review_date: "2026-06-17"
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[case-personal-map-modeling]]"
-  - "[[dk-modeling-case-explosion-confidence]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[yt-five-step-method]]"
-  - "[[yt-unit-model-concept]]"
-  - "[[modeling-three-stages]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - "#method/modeling"
-  - "#chunk-type/definition"
-  - "#industry/education"
-  - "#method/research-method"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_context: 单一source为完整长文档，内容充分支撑medium trust；待补充第二来源或充分验证后可升high
 diagnostic_signals:
-  - signal: "做内容时纠结要不要迎合少数高手"
+  - src_unknown
     lens: "广场优先"
     follow_up: "检查目标受众占比：是服务95%多数人还是5%少数人？"
-  - signal: "方法论被单个反例击溃"
+  - src_unknown
     lens: "反例管理"
     follow_up: "判断反例是否在广场边界内：在内→修正模型，在外→修正边界"
-  - signal: "课程/产品声称所有人都能用"
+  - src_unknown
     lens: "边界缺失"
     follow_up: "明确画出问题边界：服务谁？不服务谁？"
-  - signal: "模型从成功案例推导，未验证普适性"
+  - src_unknown
     lens: "统计建模"
     follow_up: "找5%已走过的人，提炼共性而非个案"
 ---# 千人广场模型：一堂做课背后的统计建模理念
@@ -81,8 +81,8 @@ diagnostic_signals:
 ### 3. 反例即错误
 
 如果广场上有任何一个可见反例：
-- 要么修正广场边界（这个人不在广场上）
-- 要么修正模型
+- src_unknown
+- src_unknown
 
 ---
 
@@ -140,7 +140,7 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2050-2138`
+- src_unknown
 
 ---
 

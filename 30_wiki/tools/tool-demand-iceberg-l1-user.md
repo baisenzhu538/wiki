@@ -16,8 +16,8 @@ source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
+- src_unknown
+- src_unknown
 ---
 
 # L1粗拆用户标签
@@ -41,10 +41,10 @@ prompt = """基于以下创业想法，主动提供3个最可能的"目标用户
 [IDEA]
 
 要求：
-- 不能只用大标签（如"职场人""宝妈"）
-- 必须深入到身心状态、特别时刻和空间环境
-- 每个选项包含：谁/什么时候/在哪/什么问题
-- 让我选择其一或微调
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 """
 ```
 
@@ -57,8 +57,8 @@ prompt = """基于以下创业想法，主动提供3个最可能的"目标用户
 
 ## 适用边界
 
-- **适用**：需求分析第一步——在你还不确定"谁是我的用户"时
-- **不适用**：已有明确用户画像和数据的产品优化
+- src_unknown
+- src_unknown
 
 ---
 

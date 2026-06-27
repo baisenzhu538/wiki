@@ -6,38 +6,38 @@ title: 技能：平行运行验证法
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- '[[sk-ai-landing-five-steps]]'
-- '[[sk-ai-problem-validation]]'
-- '[[ai-collaboration-mindset-shift]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[sk-ai-landing-five-steps]]'
-  - '[[sk-ai-problem-validation]]'
-  - '[[ai-collaboration-mindset-shift]]'
-  - '[[sk-ai-system-redundancy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 prerequisite_skills: null
 author: unknown
 reviewed_by: 欧阳锋
@@ -45,13 +45,13 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 原始操作步骤编号混乱，列表层级丢失
+- src_unknown
   lens: 格式 Draft
   follow_up: 已重新整理为清晰的五步骤+Checklist
-- signal: 仅1个口述来源，缺少书面案例或标杆佐证
+- src_unknown
   lens: 来源单一
   follow_up: 后续补充至少1个真实业务案例或外部标杆
-- signal: 常见失败模式未表格化，修复动作不具体
+- src_unknown
   lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
 
@@ -105,25 +105,25 @@ AI 上线前，先让 AI 与人工平行运行、对比效果、标注错误并�
 
 ## 行动 Checklist
 
-- [ ] 已选定与 AI 组工作量、难度相当的人工对照组
-- [ ] 已记录对照组基线效率、质量、成本数据
-- [ ] 已确定效率/质量/成本/满意度四维对比指标
-- [ ] 已设定至少 2 个完整周期的平行运行时间
-- [ ] 已制定 10%→50%→80%→100% 替换节奏
-- [ ] 已明确回退触发条件并预留回退所需人力
-- [ ] 已建立每周数据记录和复盘机制
-- [ ] 本周已完成 AI 产出 vs 人工产出对比
-- [ ] 本周已记录错误类型、频率及新增边界情况
-- [ ] 下周替换比例和行动计划已确定
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[sk-ai-landing-five-steps]] —— AI 落地五步执行清单，第五步“慢上线”与本方法直接衔接
-- [[sk-ai-problem-validation]] —— 上线前先用问题验证三维度法确认需求真实
-- [[ai-collaboration-mindset-shift]] —— AI 协作心态转变，理解“AI 不是替代而是先平行”
-- [[sk-ai-system-redundancy]] —— 系统冗余与回退方案设计
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,11 +135,11 @@ AI 上线前，先让 AI 与人工平行运行、对比效果、标注错误并�
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别分享，2026-06
-- 原始素材未归档至 `10_raw/sources/`，当前 source_refs 为空，待后续补充
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

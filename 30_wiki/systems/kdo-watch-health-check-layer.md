@@ -9,7 +9,7 @@ role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed
 domain:
-- kdo
+- src_unknown
 implementor: 黄药师 (Builder)
 dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）
 id: kdo-watch-health-check-layer
@@ -19,11 +19,11 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[存储策略]]'
-  - '[[dk-c5-todo-false-positive]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[graph-rag-retrieval-layer]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # kdo watch 定时巡检层技术说明
 
@@ -48,43 +48,43 @@ related:
 
 扫描 `30_wiki/concepts/` 中所有 `.md` 文件，检查是否包含 `TODO:` 前缀（精确匹配，不含冒号后的描述性文本）。
 
-- **阈值**：> 0 个 TODO → 告警
-- **输出**：文件名 + TODO 所在行 + 该文件最后更新日期
+- src_unknown
+- src_unknown
 
 ### 2. 低信任源
 
 扫描 `10_raw/sources/` 中所有源文件的 frontmatter，检查 `trust_level` 字段。
 
-- **阈值**：`trust_level: low` → 告警
-- **输出**：源文件名 + trust_level + 依赖它的 wiki 页面列表
+- src_unknown
+- src_unknown
 
 ### 3. 孤立页面
 
 扫描 `30_wiki/` 所有页面，检查是否有任何其他页面通过 `wikilink` 指向它。没有任何入链的页面为"孤立"。
 
-- **排除**：`index.md`、`log.md`、`contradictions.md`（基础设施文件）
-- **阈值**：> 0 个孤立 → 告警
+- src_unknown
+- src_unknown
 
 ### 4. 超期未更新
 
 扫描 `30_wiki/` 所有页面的 frontmatter `updated_at`，超过 30 天未更新的标记。
 
-- **阈值**：> 0 个超期 → 提示（非告警）
-- **输出**：文件名 + 最后更新日期 + 距今多少天
+- src_unknown
+- src_unknown
 
 ### 5. 矛盾未解决
 
 检查 `30_wiki/contradictions.md` 中的表格，统计 `Current judgment` 列包含"待检查"或"未解决"的条目。
 
-- **阈值**：> 0 条未解决 → 告警
-- **输出**：矛盾主题 + 涉及页面 + next check 日期
+- src_unknown
+- src_unknown
 
 ### 6. 重复页面检测
 
 扫描 `30_wiki/concepts/` 中 title 相似度高的页面（如 `紫鲸AI...` 的两个版本）。
 
-- **方法**：提取所有页面的 title 字段（frontmatter），对 title 做最小编辑距离比较。
-- **阈值**：编辑距离 < title 长度的 30% → 告警
+- src_unknown
+- src_unknown
 
 ---
 

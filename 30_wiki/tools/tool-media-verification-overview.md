@@ -13,17 +13,17 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: OSINT media verification best practices (Defcon Level)
-- web: Chronolocation and geolocation verification techniques
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-firecrawl]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-metadata-extraction]]'
-  - '[[tool-reverse-image-search]]'
-  - "[[tool-reverse-image-search]]"
-  - "[[tool-metadata-extraction]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 媒体验证技术总览
@@ -82,9 +82,9 @@ exiftool -GPSPosition -DateTimeOriginal -Make -Model image.jpg
 
 ## 适用边界
 
-- **适用**：验证竞对宣传材料、投资标的尽调、新闻/报告真实性验证
-- **不适用**：日常小额决策（验证成本不值得）
-- **难度说明**：反向搜索和元数据提取几乎零门槛；Geolocation和太阳位置需要练习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

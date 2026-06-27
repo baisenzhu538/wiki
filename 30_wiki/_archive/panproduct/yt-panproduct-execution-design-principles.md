@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-design-principles
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1128
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：设计原则
-- 落地卡片
-- 落地执行
-- 设计原则
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：设计原则
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[tool-泛产品落地-努力仿真]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则
@@ -47,16 +47,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 设计原则从用户目标和品牌定位推导而来，不是从网上抄来的
+- src_unknown
   framework_lens: 原则是设计的宪法
   follow_up_question: 这条原则如果改了，用户目标或品牌认知会变化吗？
-- signal: 原则数量精简到能被团队记住（通常 3-7 条）
+- src_unknown
   framework_lens: 可记忆才能被执行
   follow_up_question: 团队能不查文档说出全部原则吗？
-- signal: 遇到设计冲突时，能用原则做出可解释的选择
+- src_unknown
   framework_lens: 原则的价值在于裁决
   follow_up_question: 最近一次设计争议中，是哪条原则打破了平局？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ status: superseded
 ### 失败模式
 
 1. **原则写成‘用户至上’‘简洁美观’等口号**
-   - **原因**：原则过于泛化
-   - **修复**：每条原则必须能反向指导一个具体设计选择，否则删除
+   - src_unknown
+   - src_unknown
 
 2. **原则数量过多，设计师记不住**
-   - **原因**：原则膨胀
-   - **修复**：限制原则数量，优先保留能经常打破平局的那些
+   - src_unknown
+   - src_unknown
 
 3. **原则之间互相冲突，评审时无法裁决**
-   - **原因**：原则未做优先级排序
-   - **修复**：为原则设定优先级，或明确它们在什么情境下适用
+   - src_unknown
+   - src_unknown
 
 4. **原则只出现在PPT里，实际设计不走原则**
-   - **原因**：原则与流程脱节
-   - **修复**：在每次设计评审中强制问：‘这个方案如何体现/违背了我们的原则？’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -124,9 +124,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：David Carson的"反规则设计" + Don Norman的"自然设计"
 

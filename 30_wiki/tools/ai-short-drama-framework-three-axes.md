@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-13'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,29 +21,29 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-script-planning-three-axes
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-conflict-three-axes
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#industry/content-creation'
-- '#content-format/concept-card'
-- '#content-format/checklist'
-- '#content-format/framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"短剧写到中段，主角动机消失了"
+- src_unknown
   framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？
-- signal: 用户说"剧情太平，缺少一波三折"
+- src_unknown
   framework_lens: 第二板斧·迷雾博弈克万难
   follow_up_question: 迷雾阶段是否设置了至少 3 次递进式障碍，每次都比上一次更难？
-- signal: 用户说"结局太仓促，前面铺垫全浪费"
+- src_unknown
   framework_lens: 第三板斧·决战收官展不凡
   follow_up_question: 决战是否同时回应了开头的欲望、中段的障碍，并给出情绪落点？
-- signal: 用户说"AI 生成的分集大纲越写越散"
+- src_unknown
   framework_lens: 三斧结构完整性检查
   follow_up_question: 每一集能否标注它属于"深渊/迷雾/决战"中的哪一阶段？阶段之间是否有清晰的转折钩子？
-- signal: 用户说"开头留不住人，3 秒就划走"
+- src_unknown
   framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 第一集前 30 秒是否让观众看到主角的欲望、日常被打破，以及不得不行动的理由？
 
@@ -86,12 +86,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 框架三板斧是短剧版"英雄之旅"，三阶段分别对应：触发困境、递进对抗、终极对决。
-- **C2 [conf=0.85]**: "深渊入局"必须在开局 1-3 集内完成，主角被抛出日常，进入高风险情境。
-- **C3 [conf=0.85]**: "迷雾博弈"是剧集主体（约 60%-70% 集数），需要设计 3-5 个递进障碍，每个障碍都比前一个更难。
-- **C4 [conf=0.8]**: "决战收官"不是简单的胜利，而是主角在决战中的选择体现了全剧主题，并完成情绪升华。
-- **C5 [conf=0.8]**: 该框架可转化为 AI prompt 模板，用于生成短剧分集大纲或检查已有大纲的结构完整性。
-- **C6 [conf=0.75]**: 三斧与"剧本策划三板斧"中的"内容走向"直接对应：入局=起、迷雾=承转、决战=合。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,18 +107,18 @@ diagnostic_signals:
 
 1. 写出主角的"日常状态"和"欲望缺口"。
 2. 设计一个在第 1-3 集内发生的"深渊事件"，让主角不得不离开日常：
-   - 被羞辱、被陷害、被退婚、被解雇
-   - 获得神秘身份/能力，但伴随代价
-   - 亲人/爱人陷入危机，主角必须行动
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 确认主角有"不能退"的理由：情感羁绊、复仇动机、身份责任。
 
 ### 步骤 2：迷雾博弈 — 设计递进障碍
 
 1. 将全剧中间部分（约第 4 集到倒数第 5 集）划分为 3-5 个障碍层级。
 2. 每个层级满足：
-   - 比上一层更难
-   - 揭示反派/困境的新信息
-   - 迫使主角做出选择或牺牲
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 在每层障碍之间插入"小胜利"或"假解脱"，维持观众期待。
 
 ### 步骤 3：决战收官 — 设计终极对决与情绪落点
@@ -156,15 +156,15 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已写出主角的日常状态与欲望缺口。
-- [ ] 深渊事件在 1-3 集内发生，且主角有"不能退"的理由。
-- [ ] 迷雾阶段已拆分为 3-5 个递进障碍，每个都比前一个更难。
-- [ ] 每个障碍至少揭示一条新信息或迫使主角做一次选择/牺牲。
-- [ ] 决战 BOSS/考验已确定，并与开局欲望直接相关。
-- [ ] 决战设计了主角必须付出代价的关键选择。
-- [ ] 结局情绪落点明确（大快人心/意难平/豁然开朗/余韵悠长）。
-- [ ] 已为每集标注所属阶段（深渊/迷雾/决战），并检查阶段转折钩子。
-- [ ] 已用 AI prompt 生成或检查过分集大纲。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -195,9 +195,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 框架三板斧对"日常状态"的铺垫要求较高，短剧开头时间有限，可能来不及让观众共情主角的日常就进入深渊。
-- "迷雾博弈"强调递进障碍，但对障碍之间的"情绪曲线"设计不足，容易变成机械升级。
-- 三斧假设主角是单一英雄，对双主角、群像剧、反英雄主角的覆盖不足。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Joseph Campbell — "单一神话"的同质化风险
 
@@ -209,8 +209,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果去掉"深渊入局"，主角直接进入迷雾博弈，会怎样？观众缺少情感锚点，对后续障碍的投入感会下降。
-- 如果决战只是主角大获全胜，没有任何代价或选择，会怎样？爽完即忘，无法形成口碑或二创传播。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -218,19 +218,19 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：框架三板斧所在的顶层罗盘
-- [[ai-short-drama-script-planning-three-axes]]：框架之前的剧本基地、内容走向、剧情终局设计
-- [[ai-short-drama-plot-three-axes]]：框架之后的剧情张力检查工具
-- [[ai-short-drama-conflict-three-axes]]：框架中障碍设计的冲突分层工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：顶层罗盘，决定何时调用框架三板斧。
-- [[ai-short-drama-script-planning-three-axes]]：先搭剧本基地和内容走向，再用框架三板斧展开结构。
-- [[ai-short-drama-plot-three-axes]]：结构搭好后，用剧情三板斧检查每集张力。
-- [[ai-short-drama-conflict-three-axes]]：迷雾阶段障碍设计时，用冲突三板斧分层升级。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -259,15 +259,15 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-框架三板斧-图片-01.png` — 原始信息图
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-框架三板斧-图片-01.json` — OCR 结构化 JSON
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-框架三板斧-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- `src_20260613_1ade007d-ai-short-drama-framework-three-axes.md:11-14` — 归档后的原图摘要
+- src_unknown
 
-- 10_raw/sources/src_20260613_1ade007d-framework-three-axes.md:11-14` — 框架三板斧原图（深渊入局/迷雾博弈/决战收官）
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:79-95` — 框架三板斧结构化笔记
+- src_unknown
+- src_unknown
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及框架三板斧图片*

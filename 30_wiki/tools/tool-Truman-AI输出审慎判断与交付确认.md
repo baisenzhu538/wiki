@@ -3,8 +3,8 @@ id: tool-Truman-AI输出审慎判断与交付确认
 title: 技能：AI输出审慎判断与交付确认
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-低质量动作识别与拒绝]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI输出审慎判断与交付确认
 
@@ -38,25 +38,25 @@ AI输出审慎判断与交付确认是Truman在AI时代判断力中提出的实�
 
 ## 适用场景
 
-- AI生成代码/方案/预算等关键交付物时
-- 业务方直接使用AI结果做决策时
-- 缺乏技术中间人审核时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- AI输出仅作参考灵感时
-- 已有完善自动化测试覆盖时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Code Review流程
-- 端到端测试框架
-- 业务逻辑校验清单
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AI擅长表面正确性，不擅长深层逻辑合理性；人的品味和判断
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

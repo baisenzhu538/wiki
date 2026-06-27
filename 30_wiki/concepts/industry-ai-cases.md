@@ -4,8 +4,8 @@ title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
 status: enriched
 domain:
-  - ai-collaboration
-  - ai-saas
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
 source_refs:
@@ -18,16 +18,16 @@ source_refs:
   - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
   - 10_raw/sources/src_20260614_eed6d83c-AI四格漫画创作交流.md
 tags:
-  - '#domain/ai-saas'
-  - '#method/evaluation-method'
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-landing-scene-selection
+  - src_unknown
+  - src_unknown
 confidence: 0.65
 trust_level: medium
 ---
@@ -66,30 +66,30 @@ trust_level: medium
 > 基于录音摘要与外部公开信息（短剧行业报告、AI 营销趋势、酒店/房产/电商行业公开案例）交叉核对。运营类案例详见 `60_feedback/six-layer-validation-industrial-ai-ops-cases.md`。
 
 ### L1 可证伪性：中等
-- 酒店标签审核、贝壳外呼、阿豪选品等具体项目的数据可在内部验证。
-- 短剧产值 1000 亿、AI 占比 55%、海外 40 亿等宏大数字可证伪性强，但来源单一。
-- GEO/AIO 服务效果受平台算法影响，可证伪性中等。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L2 行为一致性：中等
-- 各案例均由项目方/服务方自述，存在选择性呈现成功案例的倾向。
-- 未记录失败、停滞、客户争议等反向证据。
+- src_unknown
+- src_unknown
 
 ### L3 多源验证：中等
-- 短剧行业规模可从广电总局、艾瑞、QuestMobile 等第三方报告交叉验证，但具体占比数字来源不明。
-- 酒店审核、贝壳外呼、阿豪选品为内部数据，缺乏第三方审计。
-- 奢侈品净利润基线（10%/20%）为课程观点，行业差异大。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L4 情绪标记：中等
-- 对 AI 提效、降本、规模化的描述带有明显乐观和宣传色彩。
-- 对组织阻力、模型幻觉、合规风险的讨论相对克制。
+- src_unknown
+- src_unknown
 
 ### L5 时间稳定性：中低
-- AI 内容生产、GEO/AIO、平台算法等变化极快，案例可复制性受时效限制。
-- 运营类案例（审核、外呼、选品）的底层逻辑相对稳定，但工具形态会迭代。
+- src_unknown
+- src_unknown
 
 ### L6 利益相关度：中高
-- 多条录音来自培训课程、项目路演、营销服务方，存在获客、转化、品牌背书动机。
-- 短剧、GEO、AIO 等领域存在明显的行业宣讲和造富叙事。
+- src_unknown
+- src_unknown
 
 ### 综合可信度评级
 
@@ -112,44 +112,44 @@ trust_level: medium
 
 ## 与现有 30_wiki 的差异点
 
-- 现有 `30_wiki` 以**单源课程/口述**为主，聚焦方法论（如纪浩 AI 协作五层、马易落地场景识别、Truman AI Partner），形成的是**个体或小团队的 AI 工作法**。
-- 本主题提供的是**跨行业、跨职能的真实落地案例**：内容生产、运营审核、客服外呼、电商选品、GEO/AIO 营销等，补充了**“方法如何在不同产业中变形”**的横向视角。
-- 现有 wiki 对**组织阻力、数据准备、人机协同、方言/非标沟通**等落地细节覆盖不足；本主题可作为这些暗知识的案例来源。
-- 本主题存在**部分数字夸大、单来源叙事、概念混杂**（如短剧产值 1000 亿、AI 短剧占 55%）等问题，需以草稿形式进入 `60_feedback/` 先沉淀、验证，不直接污染 `30_wiki`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度分层
 
 ### 事实层（多方确认或有数据支撑）
 
-- 酒店标签审核项目中，AI 接管超过一半工作量，业务规模翻倍，团队满意度提升（5640373 自身闭环陈述）。
-- 贝壳收集 60 万条通话记录，识别 60→110 个外呼场景，覆盖 260 种出口分支（5639853 内部项目数据）。
-- 阿豪自动选品系统将数据收集从 60 分钟缩短至 3 分钟，当月新增收入 40 万元、年贡献约 500 万元（5638569 自述）。
-- 短剧剧本售卖价格区间 1.5-3 万元，S 级原创可达 10-20 万元（8037140 课程信息）。
-- GEO 服务单个项目按 5 万元预算计算较为充足（3128905 内部报价）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件层（需特定前提才能成立）
 
-- 贝壳 AI 外呼全国上线：前提是试点验证通过、方言补丁覆盖主要城市、组织阻力可控。
-- 酒店 AI 审核规模化复制：前提是知识萃取 SOP 化、老员工接受度持续、申诉规则统一。
-- 阿豪自动选品系统行业通用化：前提是企业自身业务持续验证、数据标签体系可迁移。
-- 短剧 AI 剧本商业化：前提是平台过稿率（参考 30 选 2，约 6%）和题材热度持续。
-- GEO/AIO 服务规模化：前提是行业媒体资源可低成本获取、大模型引用逻辑稳定。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 观察层（单一来源或宏大叙事）
 
-- 2025 年短剧+漫剧总产值突破 1000 亿，AI 短剧占国内第一大内容消耗场景 55%（仅 8037140）。
-- 2025 年海外短剧市场规模突破 40 亿（仅 8037140）。
-- 奢侈品净利润基线：消费品 10% 以上，高端品牌 20% 以上（6627749 课程观点）。
-- 贝壳“车速不降换轮子”、酒店“60 分方案先跑通”等隐喻性方法论（单一来源）。
-- AI 四格漫画深圳市场报价单张 1000 元（仅 3605771）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险层（与商业逻辑/事实存疑）
 
-- 短剧产值、AI 占比等数据缺乏第三方来源，可能存在行业宣讲夸大。
-- 短剧剧本 10 分钟/60 集为初稿速度，不代表可交付质量，若直接引用易高估 AI 创作能力。
-- 奢侈品“所有行业均可借鉴奢侈品逻辑”存在过度泛化风险；低价/高频品类未必适用。
-- GEO/AIO 服务以“结果付费”为核心，但结果归因在国内 AI 搜索生态中尚未打通，存在客户争议风险。
-- 贝壳外呼、酒店审核的“员工满意度提升”为项目方自述，缺乏第三方或长期数据验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 药柜 / 医疗相关内容隔离标注
 
@@ -179,8 +179,8 @@ trust_level: medium
 
 ## 验证与参考
 
-- 主题摘要：90_control/itingnao-kit/work/theme-industry-ai-cases-summary.md
-- 原始引用（未纳入 source_refs）：`90_control/itingnao-kit/work/theme-industry-ai-cases-summary.md`
+- src_unknown
+- src_unknown
 ---
 
 ## 原文回填记录（2026-06-14）
@@ -239,10 +239,10 @@ trust_level: medium
 
 ### 置信度更新说明
 
-- 原综合可信度：0.58（🟡 中可信度）
-- 更新后：核心数字（10 分钟/60 集、60→110 场景、60 万条通话、60 分钟→3 分钟、40 万/500 万、5 万 GEO 预算等）已回填具体 source 与行号，单一来源自述属性未变。
-- 维持 `confidence: 0.65`、`trust_level: medium`，不提升至高置信度，因为数据仍主要来自项目方/服务方自述，缺乏独立审计或第三方验证。
-- 宏大叙事类数字（1000 亿、55%、40 亿、12.8 万部）虽有原文出处，但仍建议保留在观察层，不直接纳入知识卡事实层。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 发现的问题或矛盾
 
@@ -259,13 +259,13 @@ trust_level: medium
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- 本轮深挖后未发现无原文支持断言。
+- src_unknown
 
 ### 已标注限制条件的条件性结论
-- 本轮深挖后未发现需专业复核的条件性结论。
+- src_unknown
 
-- 清理时间：2026-06-14
-- 置信度与信任等级：维持原设置，不因清理而提升。
+- src_unknown
+- src_unknown
 
 ---
 

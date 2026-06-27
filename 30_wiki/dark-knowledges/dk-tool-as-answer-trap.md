@@ -6,10 +6,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- yitang
-- lean-startup
-- tob
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 张磊 / Truman / 徐剑
 source_context: 精益方法论培训、关键假设课、ToB五步法、建模训练
 source_refs:
@@ -17,33 +17,33 @@ source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 related:
-  - '[[dk-fundamentals-before-advanced-ops]]'
-  - '[[dk-infrastructure-guardrails-over-checklist]]'
-  - '[[dk-modeling-question-scaffold-not-answer]]'
-  - '[[tool-scenario-selector-modeling]]'
-  - '[[dk-tool-as-phased-validator]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[dk-tool-as-phased-validator]]'
-  - '[[dk-modeling-radar-model-not-result]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 bridges_to:
-- yt-lean-assumption-prioritization
-- yt-tob-product-kernel
-- tool-checklist-cheatsheet-modeling
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- signal: 团队填完假设清单后认为"方向已被验证"，却没有单独验证需求本身
+- src_unknown
   framework_lens: 工具当答案
   follow_up_question: 如果把这个工具生成的结果全部删掉，你还能不能独立说出核心判断和依据？
-- signal: 用ToB五步法跑完后，把每个格子填满当成"分析完成"，不再访谈客户
+- src_unknown
   framework_lens: 形式替代实质
   follow_up_question: 过去一周，这个框架有没有帮你提出一个你原本不会提的问题？
-- signal: 建模工具输出一个预测数字后，团队围绕数字争论，不再检查输入假设
+- src_unknown
   framework_lens: 答案压迫提问
   follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？
 ---# 把工具/框架当成答案，而不是提问的脚手架
@@ -60,28 +60,28 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 团队使用假设清单、五步法、SWOT、OKR、商业模式画布后，产出物很漂亮，但关键决策质量没有提升。
-- 投资人/合伙人要求"用模型说话"，团队把模型输出当成结论，而非讨论起点。
-- AI 工具生成了一份完整方案/报告，团队直接采用，不再追问前提。
-- 组织把"是否完成框架"作为进度指标，而不是"是否通过框架提出新问题"。
-- 个人学习了一套方法论后，急于"套用"而非"改造"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **明确工具的问题域**：每个工具只能回答特定问题。20条假设清单回答"什么可能让我失败"，不回答"需求是否真实"；五步法回答"ToB产品怎么做"，不回答"这个市场是否值得做"。使用前先在工具上写明"它不回答什么"。
 2. **把输出重新表述为问题**：工具产生的每一个"结论"，都改写成"我们需要验证什么"。例如：
-   - ❌ "目标客户是腰部企业"
-   - ✅ "我们假设腰部企业愿意为该功能付费，需要验证什么？"
+   - src_unknown
+   - src_unknown
 3. **设置"反方席"**：每次使用框架后，强制一个人扮演"攻击者"，专门挑战框架输出背后的假设。
 4. **保留"空白格"**：不要在所有格子里都填答案。主动留一个"我不知道"，迫使团队继续调研。
 5. **用工具分阶段校验，而不是一次性生成**：把工具嵌入"假设→验证→修正"的循环，而不是只在立项时用一次。具体做法见 [[dk-tool-as-phased-validator]]。
 
 ## 适用边界
 
-- **适用于**：所有结构化工具/框架/模型（清单、画布、假设验证、建模、AI生成模板）。
-- **不适用于**：完全标准化的执行清单（如安全操作检查表、法规合规表）——这类工具就是要求"照单全做"，不需要再提问。
-- **区分"探索性工具"与"执行性工具"**：探索性工具（商业模式画布、五步法）必须保持提问姿态；执行性工具（发布 checklist、审计表）重在完整执行。
-- **警惕"工具崇拜"**：不要因为有工具就停止直接接触用户、数据和现场。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -95,15 +95,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **戳破"工具即答案"的幻觉**：大多数方法论课程只教"怎么填表"，不教"填完表后该问什么"。这个暗知识补上了关键缺口。
-- **避免高阶工具变成"合规表演"**：让框架从"给老板看的产出物"回归为"帮自己思考的工具"。
-- **跨域通用**：精益创业、ToB、建模、AI协作都面临同一陷阱，一张卡可多次调用。
-- **与AI时代高度相关**：AI越擅长生成完整答案，人类越需要保持"把输出当问题"的能力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-lean-assumption-prioritization]] — 假设排序工具本身只给出"先验哪条风险"，真正的价值是迫使团队把模糊焦虑变成可验证假设。
-- [[yt-tob-product-kernel]] — ToB 产品内核强调"面向决策者研究付费、面向使用者夯实价值"；五步法只是找到这个内核的路径，不是内核本身。
-- [[tool-checklist-cheatsheet-modeling]] — 清单/备忘单最容易被当成"答案纸"；本卡警告：清单是触发检查的脚手架，不是替代判断的黑箱。
-- [[dk-tool-as-phased-validator]] — 工具的正确用法是分阶段校验；本卡解释为什么"一次性使用工具"会失效。
-- [[dk-modeling-radar-model-not-result]] — 模型不是结果，是提问的脚手架。本卡把这一建模暗知识扩展到所有工具/框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

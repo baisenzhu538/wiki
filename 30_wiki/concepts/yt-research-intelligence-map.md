@@ -6,31 +6,31 @@ confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - research- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
-- 情报获取
-- 调研渠道
-- 怎么找信息
-- 竞品情报
-- 行业调研
-- 情报地图
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-yitang-reverse-data-analysis]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-一堂-five-step-validation]]'
-  - '[[tool-yitang-public-information-research]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-mindset]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[dk-foresight-source-material-blindness]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -47,16 +47,16 @@ yitang:
   course_type: framework
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 面对信息缺口时，能主动调用地图上的多个渠道
+- src_unknown
   framework_lens: 多渠道三角验证
   follow_up_question: 这个问题你已经尝试了几个渠道？
-- signal: 会根据信息价值决定投入力度，而不是所有问题都穷尽
+- src_unknown
   framework_lens: 调研投入与决策价值匹配
   follow_up_question: 这个信息值多少钱？你愿意花多少精力去找？
-- signal: 获取的信息会标注来源和可信度
+- src_unknown
   framework_lens: 情报质量需要溯源
   follow_up_question: 这条信息的原始来源是什么？可信度如何？
 updated_at: '2026-06-17'
@@ -152,10 +152,10 @@ reviewed_by: 欧阳锋
 
 情报地图的三条边界声明揭示了框架的内在张力：
 
-- **"完整性假象"风险**：地图给人一种"我已经拥有全部渠道"的安全感，但真实情况是市场上还有大量"水下"渠道（行业私密社群、小众航班圈子、机构内部数据库）不在地图上。完整性是假象，是一个动态补充的过程。
-- **渠道能力的不均衡**：13个渠道的"能力门槛"差异巨大——"社交媒体观察"只需要手机和时间，"内部数据"可能需要几个月的关系经营。地图隐藏了"能力门槛"这个维度，导致用户对某些渠道的难度估计不足。
-- **地图的"过时性"问题**：数据平台、AI工具、社交媒体平台的可用性每年都在变化。今天能用的爬虫工具明天可能被反爬机制封死。地图需要定期更新。
-- **源头材料盲区**：地图容易让人把注意力放在"找更多渠道"，而忽略了对原始材料本身的理解。参考[[dk-foresight-source-material-blindness]]：如果只处理二手信息，渠道再多也无法产生真正的洞察。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -163,28 +163,28 @@ reviewed_by: 欧阳锋
 
 **Daniel Ellsberg**（决策理论家，《不确定性下的决策》作者）对"穷尽手段"的核心假设提出根本溢出：
 
-- **信息的"本质不确定性"无法通过更多渠道消除**：Ellsberg证明，当事人面对"未知概率"时，不确定性本身就是信息的属性，而非信息不足的临时状态。"穷尽手段"暗含假设：只要我们找得够多，就能消除不确定性。但Ellsberg认为，对于创新决策、战略选择这类"完全没有先例"的场景，不确定性是本质性的，无法通过更多信息收集消除——你不可能找到不存在的信息。
-- **"信息支配"的不均等**：Ellsberg的研究表明，人们对信息的使用不是公平的——你会偏爱"确定的"信息（即使它是错的）而回避"不确定的"信息（即使它更有价值）。情报地图的13个渠道中，哪些是"确定的"（官方数据、公开报告），哪些是"不确定的"（社会工程学、前员工访谈）？Ellsberg质疑：如果你的团队天性偏好确定信息，地图会被用作"回避不确定性"的工具，而非"面对真实"的工具。
-- **适用范围：什么时候"穷尽"是有害的**：在"高风险、高不确定性、低可逆性"的决策中，"穷尽手段"可能延迟决策、增加决策成本，最终导致"分析瘫痳"。Ellsberg的替代方案：在不确定性高的场景中，应该采用"柔性决策"——设计可逆、可调整的行动方案，而非在收集信息上无限投入。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Yochai Benkler 的"网络公共领域"：批判
 
 **Yochai Benkler**（哈佛法学院教授，《富足的网络》作者）从信息生态和平台经济学角度对情报地图提出结构性质疑：
 
-- **平台封闭导致地图失效**：Benkler证明，当下互联网的核心趋势是"平台封闭"——Facebook、LinkedIn、知乎等平台的可爬取数据比五年前减少了90%。情报地图中的"社交媒体"、"评论区挖掘"、"爬虫"等渠道在平台封闭趋势下加速失效。今天有效的渠道，明天可能被API政策或反爬机制封死。
-- **信息的"集中化"风险**：Benkler认为，当信息生产被少数平台垂断时，"多渠道交叉验证"本身就变得可疑——因为所有渠道可能都在消化同一套算法推荐的信息。如果你的"社交媒体"、"行业报告"、"专家观点"都来自同一个信息生态，交叉验证只是同一个假象的不同投影。
-- **"另类数据"的新集中化**：Benkler警告，"另类数据"（地理信号、消费记录、移动轨迹）正在被少数数据买卖平台垂断。普通创业者无法获取这些数据，地图中的"另类数据"渠道正在从"大众工具"变成"大型机构特权"。
-- **替代方案**：Benkler的理论暗示，在平台封闭时代，"情报地图"需要从"渠道列表"升级为"关系网络"——你的情报能力不取决于你知道多少个渠道，而取决于你在信息生态中的"位置"——你是否处于某个行业的信息交流网络的核心节点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-research-osl-framework]] —— OSL调研五步法
-- [[yt-research-competitor-toolkit]] —— 竞品拆解工具包
-- [[yt-research-expert-interview]] —— 专家访谈工具
-- [[yt-research-user-jtbd]] —— 区分"说的"和"真正要的
-- [[yt-research-mindset]] —— 从"找答案"到"拆解假设
-- [[yt-lean-qualitative-quantitative-research]] —— 定性定量研究搭配原则
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -217,11 +217,11 @@ reviewed_by: 欧阳锋
 
 ## 卡片收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已填写
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `diagnostic_signals` ≥ 3 条且三元组完整
-- [x] `Constraints & Boundaries` ≥ 4 条适用边界 + ≥ 4 条失败模式（含真实症状 + 可执行修复）
-- [x] 已新增至少 1 个可落地模板/清单
-- [x] 已新增至少 2 条互链
-- [x] 质量门禁无新增 P0/P1
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -5,8 +5,8 @@ title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,31 +15,31 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-  - '[[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]'
-  - '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[structured-ai-workspace]]'
-  - '[[sk-ai-ai-workspace-setup]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[case-jh-yitang-vs-sqlhelper]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[dk-ji-hao-novice-mindset-advantage]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 案例有明确的原始表述、问题、方案和反馈路径
-- 案例有可迁移条件和失败模式
-- 案例区分度≥2类型（成功/失败/边界/反常识）
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- AI在高强度多任务下出现理解偏差、流程变异、原地打转
-- 工作目录越修越乱，最终只能放弃重建
+- src_unknown
+- src_unknown
 ---
 # 案例：AI工作空间混乱导致"行为退化"而重来
 
@@ -66,10 +66,10 @@ diagnostic_signals:
 
 ## 结果
 
-- **Before**：目录混乱 → AI理解偏差、流程变异、原地打转 → 产出归零，只能放弃目录“重新投胎”。
-- **After**：五层结构分离 → AI在清晰框架内运作 → 多任务并行、行为稳定。
-- **真实锚点**：从微信传zip到五层协作体系，经历了四个月高强度AI协作；该案例不是“如果XX就好了”的想象，而是“目录已经乱到只能放弃重建”的真实事故。
-- **可检验性**：如果你的AI工作目录也出现“越修越乱”——打开目录检查五类知识是否混在一起。如果项目文档和任务上下文在同一个文件夹，你就是下一个“重新投胎”的候选者。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 复盘与洞察
 
@@ -86,49 +86,49 @@ diagnostic_signals:
 1. **系统自述（System Description）**：记录系统本身的架构、组件、技术栈。任何项目必须让它说清楚自己是什么。
 2. **领域知识（Domain Knowledge）**：纯业务知识，与项目本身无关。如一堂的课程运营、直播间装修、会员服务等。
 3. **Agent服务文档（Agent Services）**：
-   - **导诊台**：将任务分类，找到正确的工作手册。
-   - **工作手册**：不同任务有不同的规范和流程。
-   - **工具集**：Agent更喜欢用工具，而不是自己动脑子分析。
-   - **经验与模式库**：AI犯错后纠正，下次避免再犯。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **任务管理与上下文（Task Management）**：任务定义、状态管理、交付物、执行流程。
 5. **日志（Logs）**：排查问题需要。
 
 **知识增长速度不同：**
 
-- 系统自述和领域知识增长比较缓慢。
-- Agent服务和经验库前期增长快，后期趋于稳定。
-- 任务管理有状态，迅速变更。
-- 日志增长最快。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **最小化启动策略：**
 
-- 先定义Agent的工作手册、工具箱、经验库。
-- 项目知识和问题域必须拆开。
-- 交付物独立出来，不放在系统文档里。
-- 对话上下文分开管理。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **适用条件：**
 
-- 用AI处理多个任务或复杂项目，目录开始变得混乱。
-- 发现AI的输出质量下降、理解偏差、流程错乱。
-- 需要让多个Agent协作完成不同类型的任务。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用条件：**
 
-- 单一简单任务，不需要复杂的目录结构。
-- 一次性任务，不需要持续迭代和经验积累。
-- 有成熟的框架已经解决了目录管理问题（如LangChain的项目结构）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式/教训
 
-- **重新投胎陷阱（Reincarnation Trap）**：发现目录混乱后选择“放弃现有目录、重新开始”，但新目录不久又会重复混乱的循环，因为根本问题是结构设计缺失，而不是目录本身。
-- **等待AI自治（AI Autonomy Fantasy）**：期待AI自己分析问题、重新设计目录结构和工作流，但AI只会模仿，不会结构设计，最终修完也不对。
-- **知识混合（Knowledge Mixing）**：把任务文档和项目文档混在一起，或把约束文档和任务上下文混在一起，导致没有结构可言，一定会乱。
-- **不要让AI自己设计结构**：AI只会模仿，不会创造结构。人必须先定义框架，AI在框架内执行。
-- **五类知识分开，结构才能自长**：如果你发现自己在用文件夹分类知识，说明结构还没到位。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-纪浩-ai-collaboration-five-layer]]
-- [[dk-ji-hao-novice-mindset-advantage]]
-- [[case-jh-yitang-vs-sqlhelper]]
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 id: yt-entrepreneur-business-growth
@@ -9,16 +9,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "业务增长"
-  - "增长引擎"
-  - "增长飞轮"
-  - "增长实验"
-  - "规模化增长"
-  - "增长单元模型"
-  - "增长渠道矩阵"
-  - "可复制增长"
-  - "五步法第四步"
-  - "增长假设"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -37,14 +37,14 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户验证完模式后立刻大规模投放', 'framework_lens': '跳过增长单元模型验证', 'follow_up_question': '你的增长单元模型（获客成本、转化率、客单价、LTV）已经稳定了吗？如果没有，规模化是烧钱'}
   - {'signal': '用户把增长等同于砸钱买量', 'framework_lens': '增长理解狭隘', 'follow_up_question': '除了买量，你的增长飞轮、裂变机制、渠道矩阵在哪里？'}
 related:
-  - "[[yt-business-formula-business-pattern-selector]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-model-entrepreneur-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-16
 author: "老顽童"
 
@@ -66,9 +66,9 @@ author: "老顽童"
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段/五步法进阶」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -87,7 +87,7 @@ author: "老顽童"
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

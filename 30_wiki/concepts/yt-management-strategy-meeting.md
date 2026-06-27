@@ -5,18 +5,18 @@
 title: 战略会
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 战略会变成部门汇报大会
+- src_unknown
   framework_lens: 汇报大会论
   follow_up_question: 这次战略会有多少时间在讨论未来方向，多少时间在汇报过去成绩？
-- signal: 战略会开完没有72小时行动
+- src_unknown
   framework_lens: 开完就算了
   follow_up_question: 战略会结束后72小时内有没有发出决策纪要和下一步行动？
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[yt-tool-strategy-workshop]]'
-  - '[[tool-strategy-market-opportunity-matrix]]'
-  - '[[yt-management-basic-skills]]'
-  - '[[ocr-一堂y模型steps策略集]]'
-  - '[[yt-panproduct-demand-project-background]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 战略会
@@ -72,10 +72,10 @@ related:
 ### 战略会重新理解
 
 常见误区：
-- **日常替代论**："战略是日常工作中逐渐浮现的，不需要专门开会" —— 日常工作天然把注意力拉向短期紧急的事，战略思考需要刻意保护的时间和空间
-- **汇报大会论**：每个部门轮流讲PPT，老板点评几句——这最多叫"工作总结会"，离"战略讨论"相距甚远
-- **务虚会论**："战略会就是大家聊聊天、畅想一下未来" —— 好的战略会应该是务虚开始、务实收尾：从发散思考到收敛为具体决策
-- **一言堂论**：老板一个人讲愿景、定方向，其他人听——这剥夺了战略会最大的价值：让核心团队在方向性问题上形成真正的共识（而非表面服从）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的战略会定义**：战略会 = 核心团队集中时间，在远离日常运营干扰的环境中，对"往哪里走、不往哪里走、资源往哪放"做出方向性选择，并以共识的方式锁定的会议。
 
@@ -134,9 +134,9 @@ Rumelt 的核心洞见：**好战略的核心不是"我们选择做什么"，而
 **Michael Porter**（哈佛商学院教授，竞争战略之父，*What Is Strategy?* 作者）在 1996 年的经典论文中对"战略"做出了一个与常识迥异的定义：**战略不是"选择做什么"，而是"选择一套互锁的活动系统（activity system），使这套系统无法被竞争者轻易复制"。**
 
 Porter 的核心论证：
-- **运营有效性（Operational Effectiveness）≠ 战略**：你可以通过优化执行在价值链的每一个环节比竞争对手做得更好——这是运营有效性，不是战略。日本企业在 1980 年代靠全面质量管理打败了美国企业，但他们不是靠战略，是靠运营有效性。当所有日本企业都学会了全面质量管理、即时生产、持续改进以后，大家又回到了同一起跑线——运营有效性可以被复制，战略应不能。
-- **战略 = 做出取舍**：选择一个独特的定位，而这个定位要求你在很多事情上"故意做得差"。宜家选择了"低价、自助、即时可得"的定位，这意味着他们故意不做"高端定制、全套安装服务、奢华展示厅"——这些不是能力不够做，是战略性地放弃。如果你的战略没有"故意做差"的部分，你可能没有战略——你只是在竞争。
-- **战略是活动系统（Activity System）**：宜家的低价格不是靠某一个神奇动作实现的，是靠一整套互锁的活动——平装设计（降低仓储和运输成本）+ 郊区选址（低租金）+ 自助服务（低人工成本）+ 瑞典肉丸餐厅（增加停留时间）——每一环扣住另一环，竞争者可以模仿一环，但无法模仿整条锁链。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对战略会课程的直接挑战：一堂战略会产出的是"方向性选择"（选A 不选B）和"3 个关键动作"。Porter 会指出：方向性选择 + 3 个关键动作 ≠ 战略。战略是一整套互锁活动系统的设计——这个设计不可能在一次会议中完成，甚至不可能在一个季度内完成。战略会可以做出方向性选择，但把"选择"等同于"战略"，会让团队以为"定了方向战略就做完了"——而 Porter 说定方向只是战略的前 5%。
 
@@ -175,17 +175,17 @@ Porter 的核心论证：
 
 ### 关联卡片
 
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：战略会是 Y模型在最高层级上的应用——战略决策是回报最高、风险最大的决策类型
-- [[yt-management-goal-management]] — 目标管理：战略会的产出应直接转化为下一周期的公司级 OKR
-- [[yt-management-scientific-meetings]] — 科学开会：战略会是科学开会方法论在最高利害场景下的完整应用
-- [[yt-management-founder-role]] — 一号位（创始人角色）：战略会是一号位行使方向决策权的核心机制
-- [[yt-tool-strategy-workshop]] — 战略研讨会引导手册：战略会的工具化升级，提供会前四件套+会中五段式+会后三检查
-- [[yt-management-company-culture]] — 公司文化：战略会上的讨论氛围（能否坦诚表达异议）是公司文化的一面镜子
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）
-- [[yt-management-finance-basics]] — 财务入门：战略讨论中的资源分配决策需要基本财务分析能力
-- 一堂底层逻辑 — 科学理念/实事求是：一堂底层的"实事求是"是战略会的基本原则——基于事实而非基于意愿做决策
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：战略会是组织决策系统中最重量级的武器——开好了方向明确、士气提振；开坏了消耗时间、制造虚假共识、帮全员巩固错误的假设。Rumelt + Porter 的共同指向：武器的威力不由"开会技巧"决定，由"战略思考质量"决定。战略会是一把重型狙击枪——但多数团队拿着它当霰弹枪用，打出去的是一堆方向碎片而非一发击穿瓶颈的子弹
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Rumelt 的"坏战略"本质上是"讲香失败"——用华丽的形容词（"数字化""平台化""生态化"）替代真正的战略洞察，是在用语言的云雾遮盖思考的空洞。好的战略不用形容词——用诊断+方针+行动方案的清晰结构。Porter 的活动系统图就是最纯粹的战略"讲香"——不是告诉团队"我们的战略是什么"，而是画给他们看"我们的活动是如何互锁的"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown：战略会是组织决策系统中最重量级的武器——开好了方向明确、士气提振；开坏了消耗时间、制造虚假共识、帮全员巩固错误的假设。Rumelt + Porter 的共同指向：武器的威力不由"开会技巧"决定，由"战略思考质量"决定。战略会是一把重型狙击枪——但多数团队拿着它当霰弹枪用，打出去的是一堆方向碎片而非一发击穿瓶颈的子弹
+- src_unknown
 
 ### 知识体系定位
 
@@ -206,7 +206,7 @@ Porter 的核心论证：
 
 ### 跨学科锚点
 
-- 战略会的"信息输入→发散讨论→决策收敛"三阶段结构源自麦肯锡的战略咨询方法论和设计思维（Design Thinking）的双钻模型。
-- 亚马逊的"不同意但执行"（Disagree and Commit）原则——战略会上可以激烈反对，但决策锁定后全情投入执行——是战略会异议管理的标准实践。
-- 吉姆·柯林斯（Jim Collins）在《从优秀到卓越》中提出的"刺猬理念"（Hedgehog Concept）——找到公司"对什么充满热情、能成为世界最好、驱动经济引擎"的交集——是战略会最经典的讨论框架之一。
-- Rumelt 的"好战略三元素"（诊断→指导方针→连贯行动）为评估战略会产出提供了具体标准：没有诊断的战略只是愿望清单，没有连贯行动的战略只是学术讨论。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

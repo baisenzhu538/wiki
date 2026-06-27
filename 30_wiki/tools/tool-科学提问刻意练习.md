@@ -13,16 +13,16 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md
 related:
-  - '[[tool-最佳实践池子]]'
-  - '[[concept-最佳实践建模]]'
-  - '[[tool-审美工具箱]]'
-  - '[[concept-稀缺机会窗口]]'
-  - '[[dk-决策经验值]]'
-  - "[[tool-提问刻意练习画布]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[concept-发现决策]]"
-  - "[[framework-科学决策三角形]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 科学提问刻意练习

@@ -6,18 +6,18 @@ title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#stage/growth'
-- '#topic/unit-model'
-- '#topic/channel-validation'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -26,28 +26,28 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[yt-lean-essence]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[yt-lean-assumption-verification-3means]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[yt-foresight-business-spectrum]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队只看总指标（如GMV、总用户数）增长就决定放大
+- src_unknown
   framework_lens: 指标脱离单元模型
   follow_up_question: 这个总指标背后，单用户/单SKU/单订单模型是否成立？如果总增长来自补贴、异常大单或渠道补贴，放大后会怎么样？
-- signal: 增长渠道还没跑通，就开始大规模投放或扩品
+- src_unknown
   framework_lens: 渠道验证缺失
   follow_up_question: 当前渠道的试错成本、ROI、天花板、团队能力匹配度是否已评估？有没有小样本的转化数据支撑？
-- signal: 前置假设未验证，直接跳到增长环节做测试（"跳门"）
+- src_unknown
   framework_lens: 阶段判断错误
   follow_up_question: 需求、产品、商业模式三类前置假设中，还有哪些是红灯？如果前置假设不成立，增长测试是不是在验证错误的问题？
 
@@ -83,9 +83,9 @@ diagnostic_signals:
 
 张磊反复强调："不能直接看指标，要把指标放到单元模型里去判断。"
 
-- 同样的首单 ROI、复购率、回本周期，在不同业务形态下的意义完全不同。
-- 必须先看**核心单元是什么**（单用户、单SKU、单订单、单门店等），再决定用什么指标衡量。
-- 同时要看**阶段是否匹配**——在需求尚未验证时，追求增长指标是错位。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 增长渠道评估的四个维度
 
@@ -103,8 +103,8 @@ diagnostic_signals:
 > 前置假设优先，风险高的假设优先。越在需求侧、越在产品侧的假设，风险越高；越往后，风险越低。
 
 这意味着：
-- 如果需求、产品、商业模式还没有验证，不要急着进入增长验证。
-- 增长测试只应在"默认已经进入增长阶段"的前提下进行。
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -157,9 +157,9 @@ diagnostic_signals:
 **张磊的里程碑式验证思路**：
 1. **角色拆分**：to C 消费者和 to 小B 分销者是两种角色，需分别拆用户、场景、问题。
 2. **分阶段验证**：
-   - 第一轮（3-5个种子用户，人工交付）：验证用户是否愿意为这种生活方式买单。
-   - 第二轮（10-20个主理人妈妈，轻量化运营）：验证她们是否愿意并能够持续分销。
-   - 第三轮（规模化测试前）：验证整个成本结构是否 OK，妈妈是否愿意持续参与。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **进入增长阶段的标志**：不是"有人愿意买"或"有人愿意分销"单一信号，而是把产品、分销意愿、成本结构三个里程碑都跑通后，再判断是否具备规模化条件。
 
 **关键启示**：对于复杂或多角色业务，进入增长阶段前要拆成多个里程碑，每个里程碑对应一个单元模型或关键假设的验证。
@@ -197,13 +197,13 @@ diagnostic_signals:
 
 ## 与一堂其他方法的关系
 
-- **[[yt-entrepreneur-five-step-method]]**：增长阶段标志是五步法中"验证→增长"阶段的边界判断工具。
-- **[[yt-entrepreneur-key-hypotheses]]**：增长验证前必须先完成前置关键假设（需求、产品、商业模式）的验证。
-- **[[yt-unit-model-overview]]**：单元模型是判断"是否成立"的核心工具，指标必须落回单元模型。
-- **[[yt-entrepreneur-lean-validation]]**：本框架是精益验证在"何时放大"这一决策点的具体应用。
-- **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]**：正面案例——用最小单元验证核心假设后再放大。
-- **[[yt-lean-assumption-verification-3means]]**：阶段门前需用诚实调研、经验验证、实验验证三种手段完成前置假设验证。
-- **[[yt-growth-cycle-model]]**：增长阶段判断需结合业务周期模型，避免把早期波动误判为阶段跨越。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -216,6 +216,6 @@ diagnostic_signals:
 
 ## 置信度说明
 
-- 本卡核心观点（"单元模型成立 + 找到增长渠道"作为进入增长阶段的标志）直接来自张磊 AMA 精华整理稿 Q3（src_20260616_b1e25c49），并在口述稿 01（src_20260616_7dc80216）和笔记 01（src_20260616_6c8b240b）中得到一致呼应。
-- 置信度 0.80：来源为同一讲师在单次 AMA 中的多次表述，内部一致性强，但属于课堂/口述场景，缺少外部独立验证。
-- 具体量化阈值（如首单 ROI、回本周期）需根据业务形态自定义，本卡只提供判断框架，不提供统一数字标准。
+- src_unknown
+- src_unknown
+- src_unknown

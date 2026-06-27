@@ -16,14 +16,14 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[concept-research-delegation-in-scaling]]'
-  - '[[dk-yitang-research-cross-validation-cost]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[dk-yitang-research-question-quality]]'
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[concept-yitang-ai-research-10-assumptions]]"
-  - "[[concept-yitang-research-aesthetic]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI调研中人机协作的判断节点

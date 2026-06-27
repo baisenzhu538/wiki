@@ -6,8 +6,8 @@ title: 国际自动取药机/药房模式经验与启示
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
@@ -19,11 +19,11 @@ review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 国际自动取药机/药房模式经验与启示
 
 > **核心定位**：梳理日本、美国、欧洲在自动售药机/自动取药机/药房机器人领域的模式、监管和成败，为中国智能药柜政策设计和商业定位提供他山之石。
@@ -52,10 +52,10 @@ related:
 
 ### 2. 日本：药妆店模式而非无人药柜
 
-- **市场规模**：日本零售药房市场 2024 年约 525.7 亿美元，药房自动化设备市场约 1.10 亿美元。
-- **主要连锁药妆店**：松本清/Cocokara（3000+ 店）、Welcia（2700+ 店）、Tsuruha（2500+ 店）。
-- **2025 年修法要点**：允许便利店在无药师现场时销售 OTC，但需远程药师指导和药店定期检查；预计 2027 年春生效。
-- **启示**：日本首次为"无人/远程售药"打开缺口，但仍强调**药师远程责任和药店周期性现场检查**，不是完全无人化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 美国：自动取药机是医院/诊所服务的延伸
 
@@ -66,14 +66,14 @@ related:
 | **Asteres ScriptCenter** | 药房外 24 小时处方自取机 | 美国 38 州约 1000 台；药师配药后放入机器 |
 | **CVS/Walgreens** | Drive-Thru、智能储物柜、处方递送 | 无大规模独立街头无人售药机 |
 
-- **PBM 体系**：CVS Caremark、Express Scripts、OptumRx 三大 PBM 处理约 80% 美国处方理赔，邮购药房 dispense 约 25% 慢性病专科药。
-- **启示**：美国自动化的价值在于"释放药师时间"和"延长取药时间"，而非替代药房。
+- src_unknown
+- src_unknown
 
 ### 4. 欧洲：英国处方自取机与德国严格限制
 
-- **英国 Pharmaself24**：药师将配好的处方袋装入机器，患者凭 PIN 取药；24/7 可用；分布于社区药房。
-- **德国**：原则上药品只能在 Apotheke 出售，药房后台机器人用于库存管理，不对外直接售药。
-- **法国/意大利**：明确禁止自动售货机售药。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 国际成功因素共性
 
@@ -118,16 +118,16 @@ related:
 
 ### 与已有知识的联系
 
-- **政策红线视角**：国际经验说明"自动售药机直接售 OTC"在全球范围内都是严格受限的边缘场景。参考 `kc-p0-01-national-policy-redlines`。
-- **诊所+药柜风险观察**：国际主流是"自动取药机"而非"无人售药机"，直接否定了推销方将诊所药柜包装为"国际趋势"的说法。参考 `kc-p0-06-clinic-cabinet-risk-observation`。
-- **法律关系视角**：国际上药师/医师责任制清晰，法律责任不可转移。参考 `kc-p1-11-clinic-cabinet-legal-relationships`。
-- **失败模式视角**：国际失败案例与中国失败案例高度同构。参考 `kc-p1-13-failure-patterns-case-library`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在商业计划书中引用国际经验时，必须区分"自动取药机"和"自动售药机"，不能混为一谈。
-- 将国际经验作为"合规设计参考"而非"商业模式复制依据"。
-- 重点关注可借鉴的合规基础设施：药师远程支持、药品追溯、处方电子化、法律责任明确。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

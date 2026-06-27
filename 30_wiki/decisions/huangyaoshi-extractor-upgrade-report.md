@@ -5,20 +5,20 @@ title: 黄药师：暗知识萃取器 B+→A 升级报告
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
-- 用户（决策者）
+- src_unknown
+- src_unknown
 related:
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[smart-device-foodservice-automation]]'
-  - '[[beverage-foodservice-channel]]'
-  - '[[data-curator-role-division]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -54,27 +54,27 @@ workflow:   特异性(.30) + 独特性(.15) + 独立性(.25) + 可操作性(.30)
 ### 2. 金句检测器（替代"我觉得"批量判决）
 
 正信号：
-- 短精炼（<80字）
-- 包含反转/对比（"不是X而是Y"）
-- 包含原创比喻（"活菩萨""许愿""操盘手"）
-- 反直觉判断（"其实""本质上""恰恰"）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 负信号：
-- 长而散（>150字）
-- 大量填充词（"这个""然后呢""就是说"≥3次）
-- 只是偏好陈述（"我觉得好用""我喜欢"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. operation 留空标注
 
 不再自动提取破碎的步骤。改为：
-- tool_usage/workflow/failure 如果步骤可提取（≥2条且每条>20字）→ 填入
-- 否则 → 标注 `[需从原始表述中提取操作步骤]`
-- insight → 标注 `[不适用]`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 语义去重 + cross-reference 匹配
 
-- **去重**：CJK bigram 重叠 >70% → 保留高分，合并重复
-- **cross-ref**：加载全库 384 张卡的标题+正文做关键词匹配，自动建议 top 3 关联
+- src_unknown
+- src_unknown
 
 ## 效果对比
 

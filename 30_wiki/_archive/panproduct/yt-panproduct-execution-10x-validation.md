@@ -4,35 +4,35 @@
 
 id: yt-panproduct-execution-10x-validation
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1189
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 十倍速验证
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：十倍速验证
-- 落地卡片
-- 落地执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：十倍速验证
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[tool-泛产品落地-假设拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证
@@ -46,15 +46,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 根据假设置信度和 stakes 选择最便宜的验证手段，而不是一上来就做 MVP
+- src_unknown
   framework_lens: 验证成本应与认知价值匹配
   follow_up_question: 这个假设用专家访谈或市场调查能否证伪？
-- signal: 每个验证实验都有明确的通过/不通过标准和下一步动作
+- src_unknown
   framework_lens: 验证是决策工具
   follow_up_question: 如果实验结果是否定的，你会放弃、调整还是换一种验证方式？
-- signal: 验证投入随信心螺旋上升，而不是一次性 all-in
+- src_unknown
   framework_lens: 贝叶斯式渐进投入
   follow_up_question: 在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？
 updated_at: '2026-06-16'
@@ -80,20 +80,20 @@ status: superseded
 ### 失败模式
 
 1. **跳过常识和情报，直接做高成本 MVP**
-   - **原因**：验证层级选择不当
-   - **修复**：建立验证阶梯：常识→情报→实验→全量投入，每级都有升级标准
+   - src_unknown
+   - src_unknown
 
 2. **做实验只为‘看看数据’，没有假设和 kill 条件**
-   - **原因**：把验证当探索
-   - **修复**：实验前写下：‘如果结果X，则放弃/调整；如果结果Y，则升级投入’
+   - src_unknown
+   - src_unknown
 
 3. **一次验证失败后继续加大投入‘再试一次’**
-   - **原因**：沉没成本驱动
-   - **修复**：预先设定终止预算和终止条件，达到即强制复盘
+   - src_unknown
+   - src_unknown
 
 4. **为了‘十倍速’而只做廉价验证，始终不敢做真实实验**
-   - **原因**：验证层级停留过低
-   - **修复**：当情报无法降低关键不确定性时，必须升级到可控实验
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -121,9 +121,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Taleb的"杠铃策略" + Kent Beck的"技术债务"
 

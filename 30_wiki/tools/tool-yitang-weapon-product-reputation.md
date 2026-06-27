@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-pc-web-data]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[tool-yitang-app-store-review]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-weapon-industry-expert]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-public-sentiment-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略2：收集产品口碑/舆情
@@ -40,8 +40,8 @@ related:
 
 ## 核心原则
 
-- 好评决定内核（用户为什么买单），差评决定机会（竞品哪里没做好）
-- 批量收集可以有统计意义，比个别访谈更客观
+- src_unknown
+- src_unknown
 
 ---
 

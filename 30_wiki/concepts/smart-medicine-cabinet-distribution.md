@@ -1,6 +1,6 @@
 ---
 domain:
-  - healthcare
+  - src_unknown
 
 
 id: smart-medicine-cabinet-distribution
@@ -18,20 +18,20 @@ source_refs:
 - 10_raw/sources/src_20260619_0cb1b22c_00_inbox_广冷电子_pharma_policy_sec02.md
 - 10_raw/sources/src_20260619_c14d9dde_00_inbox_广冷电子_pharma_policy_sec03.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-- 00_inbox/广冷电子/pharma_policy.agent.final.md"
-- 00_inbox/广冷电子/pharma_policy_sec02.md"
-- 00_inbox/广冷电子/pharma_policy_sec03.md"
-- "智能药柜-招商合作沟通录音 (2026-06-13)"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[source-code-delivery-model]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 智能药柜分销业态洞察
 
@@ -51,13 +51,13 @@ related:
 
 ### 山西省 2026 年新规要点
 
-- 文件：《药品零售经营监督管理办法（试行）》（晋药监规〔2026〕7号），2026 年 5 月 1 日起施行，试行期至 2028 年 4 月 30 日。
-- 三类售药设施：
-  - **药品销售专柜**：仅售乙类 OTC
-  - **自助售药机**：仅售乙类 OTC
-  - **智慧药房（柜）**：可售处方药及非处方药，但须对接互联网医院/电子处方流转平台/远程审方平台，且处方须经执业药师审方
-- 药食同源单味定型包装中药饮片：可不凭处方开架销售
-- 连锁准入门槛：新开办连锁需 10 家门店并持续保持
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### 全国三档分化格局
 
@@ -69,10 +69,10 @@ related:
 
 ## 关键瓶颈（🟡 部分为推断或预测，标低信任）
 
-- **技术标准不统一**：长三角有地方标准（DB31/32/33/34），浙江 2025 年出台首个零售智慧药房省级标准，但全国统一标准缺失
-- **医保结算未完全打通**：多数智慧药房目前主要承接自费与 OTC，医保接入程度决定规模化价值
-- **处方外流承接能力待验证**：2028 年处方外流规模预测存在不确定性，需依赖电子处方流转与医保结算闭环
-- **合规争议**：山西将"智慧药房（柜）"与"自助售药机"概念区分，若后续国家药监局统一归类，可能面临上位法调整风险
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 对分销系统厂商的启示
 

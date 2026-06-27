@@ -4,7 +4,7 @@ title: 技能：聊问查测盘五步验证法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
@@ -12,44 +12,44 @@ source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 tools_required:
-- 用户访谈或问卷工具
-- 竞品分析模板（可选）
-- 数据分析工具（可选）
+- src_unknown
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-一堂-product-kernel-add-subtract
-- skill-一堂-kernel-three-questions
+- src_unknown
+- src_unknown
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
-- '[[master-antifragile-checklist]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 团队对业务方向认识不齐就开始做MVP
+- src_unknown
   lens: 聊缺失
   follow_up: 必须先做内部聊，用产品内核画布拉齐团队认知，再进入实验阶段
-- signal: 用户调研问'你觉得这个功能怎么样'
+- src_unknown
   lens: 问的质量差
   follow_up: 问题必须指向具体行为和场景：最近一次用XX是什么场景、遇到什么问题、怎么解决的
-- signal: MVP做得太大，测试失败后损失惨重
+- src_unknown
   lens: 测的成本失控
   follow_up: 测试版本必须是最小可行，周期不超1-2周，成本不超过团队月薪10%
-- signal: 做完一次MVP测试就以为大功告成
+- src_unknown
   lens: 盘缺失
   follow_up: 每次测试后必须做结构化复盘，记录假设验证状态，盘的频率决定迭代速度
-- signal: 用户在MVP阶段的反馈被广告效果污染
+- src_unknown
   lens: 假负当真负
   follow_up: 区分产品价值验证和营销效果验证，是两件事
 ---
@@ -61,10 +61,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.90] **验证顺序决定成本效率。** 聊（内部）→问（专家/用户）→查（竞品/市场）→测（MVP）→盘（数据），这个顺序不可颠倒。Truman警告："闭着眼睛踢90分钟的比赛几乎是不可能的"——跳过前面四步直接赌，赌输的概率极高
-- claim:02 [conf=0.87] **"问"的核心是收集事实而非结论。** 大多数团队做用户调研时问的是"你觉得XX怎么样"，得到的是观点。正确做法是：问"你最近一次用XX是什么场景、遇到了什么问题、怎么解决的"——这些才是事实
-- claim:03 [conf=0.85] **"测"的核心是用假产品代替真产品。** 做一个最小的产品测测看，甚至做假产品（如落地页、视频Demo），这比做完整产品再测试成本低2-3个数量级
-- claim:04 [conf=0.82] **"盘"是最被忽视但最关键的一步。** 产品内核要不断细化，持续思考，不断迭代。很多团队测完一次就以为大功告成，忽略了持续数据复盘的价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -104,10 +104,10 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 用户访谈或问卷工具（如飞书、金数据、Typeform）
-- 竞品分析模板（Notion、飞书文档均可）
-- 数据分析工具（GA、Mixpanel、神策数据等）
-- MVP快速搭建工具（如墨刀、即时设计、有赞小程序）
+- src_unknown（如飞书、金数据、Typeform）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -120,11 +120,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **跳过聊和问直接查和测** → 在团队认识不齐的情况下就开始做MVP，发现方向从一开始就错了 → **必须先做内部聊和外部问，再进入实验阶段**
-- **把观点当成事实** → 用户调研问"你觉得这个功能怎么样"，得到的是喜好而非行为 → **问题必须指向具体行为和场景，不能是态度评价**
-- **测试成本过高** → MVP做得太大，测试失败后损失残重 → **测试版本必须是"最小可行"，周期不超1-2周**
-- **测完不盘** → 做完一次MVP测试就以为大功告成，没有持续迭代 → **每次测试后必须做复盘，记录假设验证状态**
-- **把假负当真负** → 用户在MVP阶段的反馈可能被广告效果或普利效应污染 → **区分"产品价值验证"和"营销效果验证"是两件事**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -134,9 +134,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **五步的"边界感"很弱。** 实际中，聊和问的边界、查和测的边界往往很模糊。例如，用户访谈同时也在做竞品分析（问用户用什么竞品），MVP测试同时也在做数据收集。严格按照五步顺序执行可能导致机械化和效率低下
-- **"问"的质量高度依赖访谈者能力。** 同一个用户，被专业访谈者问和被新手问，会得到完全不同的结果。五步法假设"问"是可复制的标准动作，但实际上这是一项需要大量训练的专业技能
-- **"测"的时间压力与实际突戟事件冲突。** 如果竞争对手在同期推出类似产品，团队可能不能等待1-2周的测试周期，五步法在"时间窗口突然缩窄"时可能失效
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -144,8 +144,8 @@ diagnostic_signals:
 
 **Eric Ries** (*精益创业*作者，精益创业理论提出者）从创业方法论角度攻击五步验证法：
 
-- **五步法太慢了。** Ries 的核心主张是"构建-测量-学习"循环应该在数天或数周内完成，而非按部就班地走完聊→问→查→测→盘。在快速变化的市场中，五步法可能让团队陷入"研究模式"而非"验证模式"。**你以为在做验证，其实在做研究报告**
-- **精益创业强调"可行性测试"而非"全面调研"。** Ries 会质疑：如果五步法的前三步（聊、问、查）花了太多时间，那么真正的验证（测）可能被推迟。在一些场景下，直接做一个假产品页面测试市场反应，比做全面的用户调研效率更高
+- src_unknown
+- src_unknown
 
 > **Ries 的挑战**："你的五步法聽起来很全面，但在创业中速度就是一切。当你花三周做完聊问查才开始测时，你的竞争对手可能已经完成了三轮构建-测量-学习循环。你以为在降低风险，其实在增加时间风险。"
 
@@ -153,8 +153,8 @@ diagnostic_signals:
 
 **Marty Cagan** (*启示录*作者，产品管理领域权威）从产品管理角度攻击：
 
-- **"聊"""问""查""只是前期准备，不是验证本身。** Cagan 强调，真正的产品发现来自于"测"——用原型、代码或数据测试。他会质疑：如果团队花大量时间在聊和问上，会产生一种"我们已经很了解用户"的虚假自信，而真正的用户行为只有在测试中才能显露
-- **五步法可能澵死在"研究阶段"。** Cagan 观察到很多产品团队有"研究自愚症"——做了大量用户调研但从不开始建原型。五步法的前四步构成了一个完整的"研究流程"，很容易让团队沉溺其中
+- src_unknown
+- src_unknown
 
 > **Cagan 的挑战**："你的五步法是一套优秀的'研究模板'，但产品工作的本质不是研究，是发现。研究不会告诉你用户在真实产品中会怎么做——只有测试会。你的团队可能会在聊问查中感到安全，但安全感不等于进展。"
 
@@ -170,8 +170,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂产品内核验证课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

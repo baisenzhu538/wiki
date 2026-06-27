@@ -9,8 +9,8 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- operations
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_vlm_desc.md
@@ -18,15 +18,15 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '[[tool-strategy-market-opportunity-matrix]]'
-  - '[[framework-strategy-pyramid]]'
-  - "[[case-strategy-snack-export-opportunity]]"
-  - "[[tool-strategy-industry-chain-analysis]]"
-  - "[[tool-strategy-value-capture]]"
-  - "[[framework-strategy-business-design]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 物流费用三年节约计划：从单吨运费到全链成本
@@ -41,13 +41,13 @@ related:
 
 1. **补齐基线数据**：填写最近 3-5 年的运量、单吨运费、运费总额、运费率、仓储费用。
 2. **区分两类增长**：
-   - 业务量增长带来的运费总额增长（正常）
-   - 单吨运费/运费率上升带来的增长（问题）
+   - src_unknown
+   - src_unknown
 3. **设定三年目标**：不是"运费总额下降"，而是"单吨运费下降 X%"或"运费率下降 X 个百分点"。
 4. **拆解行动清单**：
-   - 运输端：线路优化、装载率提升、承运商谈判、多式联运
-   - 仓储端：仓网布局优化、库存周转提升、自动化投入
-   - 计划端：需求预测准确率、订单合并、发货批次优化
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **按年追踪增长率**：每一年对比上一年，确认改善是可持续的还是一次性收益。
 6. **锁定责任人与考核指标**：每个行动对应一个部门、一个数字、一个时间点。
 
@@ -90,20 +90,20 @@ related:
 
 ## When NOT to Use
 
-- **物流数据基础极差时**：如果连过去两年的运量、运费都拿不出准确数字，先补数据系统，再做三年计划。
-- **业务量剧烈波动期**：并购、重大渠道转型、新市场开拓期间，物流结构不稳定，三年计划会频繁失效。
-- **只把它当财务预算工具时**：如果只是为了"报一个下降的数字"给管理层，这个工具会变成数字游戏。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 **内部局限**：
-- 模板是成本视角，不是服务视角。过度追求降本可能牺牲客户体验（时效、破损率）。
-- 它对成熟业务最有效，对创新型物流模式（如即时配送、众包物流）的参考价值有限。
-- 三年时间窗口在稳定行业合理，但在快速变化行业可能太长。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击者**：
-- **Eli Goldratt**（约束理论，《目标》作者）：任何局部优化都会损害整体绩效。只优化运输成本，可能让库存成本或缺货成本飙升。物流降本必须看整个系统的约束点在哪里。
-- **Michael Porter**（价值链理论）：物流只是企业价值链上的一个环节。如果战略定位是差异化，过度降本可能削弱服务差异化能力。成本领先战略和差异化战略对物流的要求完全不同。
+- src_unknown
+- src_unknown
 
 ## Agent 执行指令
 

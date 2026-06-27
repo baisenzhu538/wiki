@@ -11,40 +11,40 @@ source_refs:
 - src_20260614_6d9f7671-业务公式拆解培训
 status: enriched
 domain:
-  - management- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 confidence: 0.92
 trust_level: high
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 业务讨论停留在感觉层面，没有公式
+- src_unknown
   framework_lens: 无法量化
   follow_up_question: 你能用公式描述当前业务的核心驱动因素吗？如果不能，讨论都是拍脑袋
-- signal: 公式有了但不更新，业务变了公式不变
+- src_unknown
   framework_lens: 静态公式
   follow_up_question: 你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时
-- signal: 团队只拆出"营收=流量×转化×客单价×复购"，但找不到具体抓手
+- src_unknown
   framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
 related:
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-business-formula-ten-paradigms]]'
-  - '[[yt-entrepreneur-unit-model]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-basic-skills]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
@@ -85,10 +85,10 @@ created_at: 2026-06-15
 ### 为什么要用公式管理业务
 
 业务管理的常见痛点：
-- 业务讨论停留在"感觉"层面（"最近势头不错"、"转化好像有点低"）
-- 团队成员对业务逻辑的理解不一致，执行时各凭感觉
-- 增长方向很多但资源有限，无法判断优先级
-- 做决策时缺乏量化依据，拍脑袋居多
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 业务公式解决的核心问题：**将隐性的业务直觉显性化为可讨论、可验证、可优化的量化模型。**
 
@@ -195,35 +195,35 @@ created_at: 2026-06-15
 **规则**：每个定性指标（如"信任度""满意度""价值感知"）必须找到 **3-5 个行为指标**来佐证，而不是一对一。
 
 **示例**：在线教育"信任度"的可量化行为指标
-- 详情页下发完整率
-- 评论/案例停留时长
-- 试听课完课率
-- 咨询单发起率
-- 老用户推荐率
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：判断逻辑关系（加法 vs 乘法 / 因果 vs 相关）
 
 **加法关系**：多要素共同作用，有一个做到位就够，多做更好。
-- 例：满意度 = 环境满意 + 教练满意 + 服务满意 + 价格满意（有一个突出就可能留住客户）
+- src_unknown
 
 **乘法关系**：漏斗关系，缺一不可。
-- 例：续费率 = 满意度 × 到店习惯 × 价格接受度（任一环节断掉，续费为零）
+- src_unknown
 
 **相关 ≠ 因果**：
-- ❌ 错误："流量和转化率正相关，所以放大流量就行"
-- ✅ 正确："流量规模扩大会稀释精准用户占比，导致转化率下降——真正的因果是精准用户占比 → 转化率"
+- src_unknown
+- src_unknown
 
 ### 检查清单：业务公式能否落地
 
 在把公式拿去开会/做决策前，逐项自检：
 
-- [ ] 公式是否按渠道/人群/场景做了切分，而不是只有一个总公式？
-- [ ] 每个变量是否有明确的测量方式（数据来源 + 统计口径）？
-- [ ] 定性指标（信任度/满意度/价值感知）是否拆成了 3-5 个可量化行为指标？
-- [ ] 公式中的加减乘除是否经过验证，而不是凭感觉写？
-- [ ] 变量之间是否区分了因果和相关？
-- [ ] 每个关键变量是否对应至少 1 个下周可执行动作？
-- [ ] 公式是否有更新触发条件（如业务阶段变化、数据连续 2 周异常）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一个可复用的填空模板
 
@@ -237,15 +237,15 @@ A 渠道结果 = 曝光量 × 点击率 × 落地页完成率 × 支付成功率
 【关键矛盾】：当前最卡在哪一环？__________
 
 【L3/L4 抓手】：
-- 定性指标：__________
-- 可量化行为指标 1：__________
-- 可量化行为指标 2：__________
-- 可量化行为指标 3：__________
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 【逻辑关系验证】：
-- 加法还是乘法？__________
-- 因果关系是什么？__________
-- 相关关系是什么？__________
+- src_unknown
+- src_unknown
+- src_unknown
 
 【下周动作】：__________
 【验证数据】：__________
@@ -306,21 +306,21 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 
 ### 关联卡片
 
-- [[yt-management-scientific-decision]] — 科学决策：业务公式提供决策所需的量化输入，决策模型基于公式做 ROI 评估
-- [[yt-management-goal-management]] — 目标管理：OKR 中的 Key Results 应直接来源于业务公式中的关键变量
-- [[yt-management-conversion-hacking]] — 转化率黑客：转化率就是业务公式中最典型的一个变量拆解应用
-- [[yt-management-finance-basics]] — 财务入门：业务公式的"营收端"与财务损益表直接对接
-- [[yt-entrepreneur-unit-model]] — 单元模型：创业版业务公式，聚焦最小交易单元的经济可行性（LTV/CAC/回本周期）
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设：业务公式中的每一个变量关系本质上都是一个待验证的假设
-- [[yt-model-management-map]] — 管理修炼地图：业务公式位于 L4"管业务"的核心模块，是管理者从"带团队"跨越到"管业务"的关键能力
-- [[yt-management-basic-skills]] — 管理基本功认知：业务公式是"管理工具落地四问"中"数据可验证"的核心载体——任何管理工具引入前，必须先确认其指标能拆到 L3/L4 行为数据
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：业务公式是管理者的"认知武器"——它不是用来替代判断的，而是用来在不确定时快速定位关键变量的速查工具
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：业务公式的最终价值不在"算对"而在"讲清"——向团队讲清业务逻辑、向投资人讲清增长驱动。能用一张公式讲清楚业务本质，是最重要的 CEO 表达力
-- [[yt-business-formula-abc-model]] — ABC 模型：业务公式的极简构造语法（目标 + 参数 + 逻辑关系）
-- [[yt-business-formula-ten-paradigms]] — 十大经典范式：按收入/竞争/运营三类目标聚类的 10 个公式模板
-- [[yt-business-formula-parameter-iceberg]] — 参数冰山：L1-L6 参数分层模型
-- [[yt-business-formula-six-level-logic]] — 六层逻辑关系：从模糊到动态的公式理解深度
-- [[case-toc-ecommerce-formula-misjudgment]] — ToC 消费品电商误判案例：业务公式拆解失效的典型教训
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -344,6 +344,6 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 
 ### 跨学科锚点
 
-- 杜邦分析法（DuPont Analysis）——将 ROE 拆解为利润率×周转率×杠杆率——是业务公式方法论的思想源头。
-- 与麦肯锡 MECE 原则和金字塔原理同源，本质是结构化思维在业务管理中的应用。
-- 亚马逊的"输入指标 vs 输出指标"区分，以及贝佐斯对"可控输入指标"的执念，与业务公式的变量管理逻辑高度一致。
+- src_unknown
+- src_unknown
+- src_unknown

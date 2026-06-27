@@ -7,18 +7,18 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+  - src_unknown
 estimated_tokens: 2200
 language: zh-CN
 query_triggers:
-  - "知乎壁垒"
-  - "得到壁垒"
-  - "网络效应案例"
-  - "双边网络效应"
-  - "内容平台壁垒"
-  - "巨头抄袭"
-  - "知乎被抄"
-  - "网络效应判断"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
@@ -36,14 +36,14 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[tool-yitang-forum-data]]'
-  - '[[case-toy-cabinet-barrier]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
-  - '[[yt-scale-economy-weapon-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：知乎vs得到——网络效应壁垒的对比分析
 

@@ -4,8 +4,8 @@ title: AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六�
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
@@ -13,42 +13,42 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-- '[[tool-半肥猫-course-to-skill-workflow]]'
-- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 六步闭环已完整记录
-- 纠偏模板已提供
-- 证据质量标准已明确
-- 实际测试通过
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: AI回答听起来很对但找不到数据来源
+- src_unknown
   lens: 丝滑陷阱
   follow_up: 执行步骤4走偏检测：识别推理vs证据，用纠偏模板要求标注信源
-- signal: 调研结论和实际业务不符
+- src_unknown
   lens: 验证缺失
   follow_up: 执行步骤6贴合真实场景：把结论放回业务验证，没有验证=空转
-- signal: 纠偏了10轮还在原地打转
+- src_unknown
   lens: 纠偏过度
   follow_up: 检查步骤1目标是否过于宽泛，纠偏需要焦点，目标不清则无法收敛
-- signal: AI用'应该''通常'等模糊词
+- src_unknown
   lens: 纯推理无证据
   follow_up: 用纠偏模板：请用具体数据支撑，如果没有数据明确说'这是推理缺乏证据'
-- signal: 调研做完了但从未用于实际决策
+- src_unknown
   lens: 业务脱节
   follow_up: 检查是否有真实业务问题需要解答，没有真实问题=练习而非调研
 ---
@@ -111,14 +111,14 @@ diagnostic_signals:
 ## 适用场景
 
 **适合使用**：
-- 你正在用AI进行业务调研、市场分析、用户画像研究
-- 你的调研结论需要被真实业务验证
-- 你有足够的时间进行多轮纠偏
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合使用**：
-- 你只是想快速获得一个“参考”而不是要做出决策
-- 你的任务是纯惄念性/创意性任务，不需要证据
-- 你没有真实业务可以验证AI的结论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -150,16 +150,16 @@ diagnostic_signals:
 ## Claims
 
 1. **AI首轮回答越丝滑，风险越大**
-   - “丝滑”意味着逻辑自洽、表达流畅、听起来对——但这恰恰是推理而非证据的特征
-   - 真正可靠的答案往往“结巴”——有限制条件、有不确定性、需要更多信息
+   - src_unknown
+   - src_unknown
 
 2. **纠偏的本质不是"让AI说对"，而是"让自己知道什么时候AI在编故事"**
-   - 不是追求AI给出完美答案，而是建立一套"检测AI编故事的信号系统"
-   - 纠偏模板库的价值在于将"感觉有问题"转化为"可操作的质问步骤"
+   - src_unknown
+   - src_unknown
 
 3. **真实业务验证是纠偏的唯一终点**
-   - 没有业务验证的纠偏，结果可能是“纠偏得更精致的错误”
-   - 真实业务提供了"纠偏是否有效”的黄金标准
+   - src_unknown
+   - src_unknown
 
 ## External Attacks
 
@@ -175,38 +175,38 @@ diagnostic_signals:
 
 **成功案例**：
 
-- [[case-ban-fei-mao-from-assignment-to-tool]] —— 半肥猫运用本技能，将一堂AIGC调研课程作业转化为可复用的调研工具。关键转折：AI首轮回答的“三类用户画像”是纯推理，经过四轮纠偏后，发现"已有流量但被卡住的IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
+- src_unknown
 
 **失败案例**：
 
-- **纠偏失败**：某用户在用AI做市场调研时，发现AI给出的竞品分析"听起来很有道理"，但没有质问证据。后来用这份分析做决策，发现AI列出的三个竞品中有两个已经倒闭，一个根本不存在。损失了两周调研时间和一次产品会议的信任度。
+- src_unknown
 
-- **纠偏过度**：某团队在调研时进行了15轮纠偏，最终AI开始"复读"前面的回答而没有新信息。纠偏未能收敛，团队放弃了这个项目。问题在于：调研目标本身过于宽泛，纠偏没有焦点。
+- src_unknown
 
 **边界案例**：
 
-- **“假设场景纠偏”**：某学习者用虚构的"小红书博主"场景练习调研，AI给出了精美的用户画像。但因为没有真实业务验证，纠偏变成了"纠偏一个假设"，最终什么都没有沉淀下来。
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/skills/ —— 使用本技能后有任何反馈，提交到这里
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **质量警示：**[[dk-ban-fei-mao-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可：知道要纠偏但不会方法，等于知道有毒但不会解毒
-- **前置条件：**[[dk-ban-fei-mao-real-business-is-the-engine]] — 如果没有真实业务作为燃料，这项技能的纠偏环节会变成空转。真实业务提供了"纠偏是否有效”的验证标准
-- **实践案例：**[[case-ban-fei-mao-from-assignment-to-tool]] — 案例展示了技能的具体应用，技能提供了案例的可复制方法
-- **下游输出：**[[tool-半肥猫-course-to-skill-workflow]] — 调研纠偏技能用于"获取高质量信息输入"，课程转Skill技能用于"将信息输入转化为可复用工具"。两者是同一条产业链的上下游
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 本技能位于 **AI协作信息层**，是"输入质量控制"的核心工具
-- 与一堂方法论的"调研验证"环节对应
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **认知心理学（确认偏误）：**人们天生倾向于接受符合自己期望的信息——纠偏是一种反本能的认知行为
-- **法学（证据法）：**"质证“和"证据分级——与法律领域的证据标准有异曲同工之妙
-- **信息论（噪声与信号）：**AI回答中的“丝滑”部分是高信号但低信息量的噪声——纠偏是提高信噪比的过程
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Framework
 

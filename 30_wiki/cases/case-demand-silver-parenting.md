@@ -15,12 +15,12 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-银发育儿-02_ocr_text.md
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-demand-travel-agent]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - "[[framework-demand-iceberg]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：银发育儿

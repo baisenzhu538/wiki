@@ -4,29 +4,29 @@
 
 id: yt-personal-pan-product-exploration
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3100
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 案例启发与认知重构
-- 泛产品设计
-- 泛产品设计探索营
-- 泛产品设计探索营：案例启发与认知重构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown探索营
+- src_unknown探索营：案例启发与认知重构
 related:
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[ocr-一堂-地图-个人地图]]'
-  - '[[yt-research-action-camp-launch]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
-  - '[[yt-personal-pan-product-concepts]]'
-  - '[[yt-personal-pan-product-tools]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_fab64a96-个人修炼-泛产品设计探索营
@@ -40,15 +40,15 @@ yitang:
   course_type: explore_camp
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能从案例中抽象出可迁移的认知，而不是只记住故事
+- src_unknown
   framework_lens: 案例是认知的载体
   follow_up_question: 这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？
-- signal: 听完案例后会联想到自己经历的类似场景，并写出对应案例
+- src_unknown
   framework_lens: 案例学习需要个人化迁移
   follow_up_question: 你过去有没有遇到过类似困境？当时怎么处理的？
-- signal: 案例启发会转化为至少一个具体行动或研究问题
+- src_unknown
   framework_lens: 启发必须落地
   follow_up_question: 这个案例让你接下来要做什么不一样的事？
 updated_at: '2026-06-16'
@@ -71,20 +71,20 @@ trust_level: medium
 ### 失败模式
 
 1. **把案例当故事听，没有提取任何原则**
-   - **原因**：被动消费
-   - **修复**：每个案例后强制写‘3个可迁移原则 + 1个我的应用场景’
+   - src_unknown
+   - src_unknown
 
 2. **盲目模仿 Truman 的成长路径，忽视自身处境**
-   - **原因**：路径依赖复制
-   - **修复**：对比自己的资源、阶段和目标，提取可调整的原则而非照搬
+   - src_unknown
+   - src_unknown
 
 3. **案例很精彩，但学完后没有任何行动**
-   - **原因**：启发与行动脱节
-   - **修复**：在笔记中直接写‘72小时内要做的最小行动’
+   - src_unknown
+   - src_unknown
 
 4. **因为案例来自他人经验而过度怀疑其适用性**
-   - **原因**：否定迁移价值
-   - **修复**：用小规模实验验证：‘这个原则在我的场景中是否成立？’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -111,15 +111,15 @@ trust_level: medium
 
 ### 核心教育理念
 
-- **手电筒模型**：不奢求教会所有人，而是"给一个手电筒照照路"
-- **唤醒而非灌输**：让学员发现"原来产品能力我也可以修炼"，不是被产品经理岗垄断的
-- **十年尺度**：鼓励以五年、十年为单位修炼，不是速成课
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一堂产品设计差异化的来源
 
 Truman 分享了一堂产品与同行"完全找不到对标"的原因：
-- 课程系统设计、周边礼品、智能直播间、黄宝书教材——每一样背后的产品定位和设计逻辑都与行业惯例不同
-- 根本原因：一堂用泛产品设计思维做一切，而非照搬行业模版
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -165,17 +165,17 @@ Lave & Wenger 的核心洞见对探索营的致命一击：探索营是一个"�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-personal-pan-product-concepts]] — 认知篇（yitang 域）
-- [[yt-personal-pan-product-tools]] — 工具篇（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：探索营是武器库中的"武器展示厅"——它让你看到有什么武器、武器有多厉害。但 Dewey 的警告是：参观武器展示厅不会让你成为战士。Lave & Wenger 补充：如果你参观完回到的是一个反武器的村子，你连展示厅里的兴奋感都会在两周内被驯化掉
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Truman 在探索营中做的本质是"讲香"——他用自己的人生故事（十年探索、失败案例、纠结过程）向学员讲述"泛产品能力"这个香。Dewey 的追问翻译成讲香术语：你的香讲完了，听众说"好香"——但你说这是学习还是消费？
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

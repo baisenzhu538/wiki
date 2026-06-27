@@ -4,7 +4,7 @@ title: 技能：产品内核加减法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
@@ -12,41 +12,41 @@ source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tools_required:
-- 产品内核画布（纸笔/白板/文档均可）
-- 用户访谈或问卷工具（可选）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- concept-一堂-product-kernel
+- src_unknown
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-product-kernel-canvas]]'
-- '[[tool-一堂-kernel-three-questions]]'
-- '[[tool-一堂-five-step-validation]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-product-kernel-canvas]]'
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 内核装7-10条，团队焦点分散
+- src_unknown
   lens: 舍不得减
   follow_up: 强迫按'去掉后用户还会选吗'重新排序，内核必须减到3-5条
-- signal: 把'我觉得这个功能很酷'当成内核
+- src_unknown
   lens: 内部视角替代用户视角
   follow_up: 每条要素必须能说出'用户选择我们的具体原因'，用用户原话支撑
-- signal: 加法阶段就否决想法，错过潜在突破点
+- src_unknown
   lens: 过早做减法
   follow_up: 加法阶段不评判只做收集，减法阶段才做判断
-- signal: 将'有则更好'的要素留在内核，挤占决定性资源
+- src_unknown
   lens: 优化性当决定性
   follow_up: 重复问'没有它用户还会选吗'，不会选的才是决定性
-- signal: 内核中穿插高成本低信息要素，拖累利润率
+- src_unknown
   lens: 成本敏感缺失
   follow_up: 默认不做高成本低信息项，除非有强劣数据支持
 ---
@@ -58,10 +58,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.92] **内核要素必须控制在3-5条，超过7条等于没做取舍。** Truman的原话："如果你说不出来去掉哪个用户就不买了，说明你的内核还不够精准"。3-5条是人类认知舒适区，便于沟通、记忆和资源集中
-- claim:02 [conf=0.88] **加法阶段不做过滤，减法阶段才做判断。** 很多团队在脑暴风阶段就开始否决想法，结果错过潜在的内核要素。正确做法是：先用绿色/黄色/红色标记所有可能性，再逐个砎掉非决定性要素
-- claim:03 [conf=0.85] **"做而不信"是加减法的安全阈。** 对于暂时保留但存疑的要素，可以继续做，但默认它不是内核，必须持续验证
-- claim:04 [conf=0.82] **成本敏感原则决定了减法的刚性。** 高成本低信息的价值项默认不做，这是一号位必须守住的底线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -102,9 +102,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 产品内核画布（纸笔/白板/文档均可）
-- 用户访谈或问卷工具（用于验证"用户视角"）
-- 竞品分析资料（用于加法阶段补充参考）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -117,11 +117,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **舍不得砎** → 内核装7-10条，团队焦点分散 → **强迫按"去掉后用户还会选吗"重新排序**
-- **内部视角替代用户视角** → 把"我觉得这个功能很酷"当成内核 → **每条要素必须能说出"用户选择我们的具体原因"是什么**
-- **过早做减法** → 在加法阶段就否决想法，错过潜在突破点 → **加法阶段不评判，只做收集**
-- **把优化性当成决定性** → 将"有则更好"的要素留在内核，挤占真正的决定性资源 → **重复问"没有它，用户还会选吗？"**
-- **忽略成本敏感原则** → 内核中穿插高成本低信息要素，拖累单元模型利润率 → **默认不做高成本低信息项，除非有强劣数据支持**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -131,9 +131,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **加减法假设团队能够跳出内部视角。** 实际中，产品经理和设计师对"用户会不会喜欢这个功能"的判断往往被自己的专业训练和个人偏好污染。即使按照步骤走了，"用户视角"仍然可能是产品经理视角的变装
-- **绿黄红分类本身就是一个判断。** 在加法阶段给某个要素标绿色还是黄色，需要预判断。这个预判断可能已经带有偏差，使整个流程的"客观性"被过度美化
-- **对于创新型产品可能过于保守。** 用户对于"从未见过的产品"往往无法准确表达选择逻辑。如果iPhone出现前做内核加减法，用户可能会说"没有实体键盘我不会买"—但真正的革命性产品会重新定义用户的选择标准
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -141,8 +141,8 @@ diagnostic_signals:
 
 **Daniel Kahneman**（*思考，快与漫*作者，诺贝尔经济学奖得主）从行为经济学角度攻击内核加减法：
 
-- **置换检验在创业团队中几乎不可能执行。** Kahneman 的研究表明，人类在判断"某个要素是否重要"时会被"加权"偏差左右——自己投入了更多时间和情感的功能会被自动认为更重要。产品经理说"去掉XX功能用户还会买吗"时，答案往往是被污染的。**你以为你在做用户视角的判断，其实只是用内部投入度来推测用户价值**
-- **系统1的替代答案会杀死内核分析。** 当用户被问到"如果去掉A功能你还会买吗"时，他们通常不会真正"去掉A后想象购买场景"，而是用一个简单的"喜欢/不喜欢"来回答。这种"可获得性启发式"的评估方式会让内核加减法的结果完全失效
+- src_unknown
+- src_unknown
 
 > **Kahneman 的讯刺**："你的'内核加减法'听起来很科学，但它假设了一个从未被验证的前提：团队能够在判断'重要性'时保持客观。我研究了几十年人类偏差，告诉你这个假设不成立。你的内核最终反映的不是用户价值，而是团队内部的权力格局。"
 
@@ -150,8 +150,8 @@ diagnostic_signals:
 
 **Nassim Taleb**（*反脆弱*作者，风险分析学家）从非对称风险角度攻击：
 
-- **内核分析忽视了"尾部风险"。** Taleb 的核心论点是，传统风险评估只关注"平均情况"，但真正毁灭企业的是小概率极端事件。内核加减法问"去掉这个要素，用户还会选吗"，但没有问"如果去掉这个要素，在某个极端场景下会不会导致系统崩溃"。例如：安全通知可能不是日常内核，但一旦出事就是灭顶之灾
-- **"最小"可能是"最脆弱"。** Taleb 会质疑"最小解决方案"是否导致了"最脆弱解决方案"。当一个系统被设计得"只有必要部分"时，它对于未知冲击的缓冲能力也最小。越精简的内核，越难以应对"黑天鹅"级别的市场变化
+- src_unknown
+- src_unknown
 
 > **Taleb 的讯刺**："你在剥离'非必要'要素时，也在剥离'缓冲能力'。你的'最小解决方案'在平稳期看起来很美，但当黑天鹅来临时，你会发现自己的产品没有任何'冒险边际'。你以为在做减法，其实在制造脆弱性。"
 
@@ -167,8 +167,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂产品内核实操课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

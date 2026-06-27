@@ -6,8 +6,8 @@ title: 智能药柜供应链/技术方案交叉验证
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_90085bca-itingnao-deep-dive-supply-chain
 created_at: 2026-06-15
@@ -18,11 +18,11 @@ review_date: 2026-06-15
 confidence: 0.72
 trust_level: medium
 related:
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-lean-beauty-store-conversion]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 智能药柜供应链/技术交叉验证（知识卡草稿）
 
 ## 1. 一句话摘要
@@ -83,11 +83,11 @@ related:
 
 ## 6. 对决策者的提示
 
-- **不要把“报价中”的 200 台订单当确定收入**：目前只是客户询价和合作方报价，未进入合同/排产。  
-- **优先冻结 6 月上线的范围**：建议将 6 月目标改为“可演示样机 + 协议定型”，把批量上线后移至 Q3。  
-- **医保/医院项目必须单列技术里程碑**：Windows 版、前置服务器、HIS/统筹对接每项都应独立验收，不能等整机出来后一次性测试。  
-- **建立关键器件安全库存**：核心芯片、扫码枪、电机等至少储备 1–2 个月用量，或锁定替代方案。  
-- **书面化外包边界**：硬件方负责什么、软件方采购什么、售后谁兜底、知识产权比例，必须在样机前签署。
+- src_unknown  
+- src_unknown  
+- src_unknown  
+- src_unknown  
+- src_unknown
 
 ---
 

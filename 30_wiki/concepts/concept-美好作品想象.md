@@ -11,16 +11,16 @@ trust_level: medium
 language: zh-CN
 domain: [yitang, decision-science]
 source_refs:
-- 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-审美卡片-美好作品想象-先看到终局再倒推路径_vlm_desc.md
+- src_unknown
 related:
-  - '[[tool-最佳实践池子]]'
-  - '[[tool-最佳实践收集]]'
-  - '[[concept-最佳实践建模]]'
-  - '[[tool-审美工具箱]]'
-  - '[[concept-稀缺机会窗口]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[concept-发现决策]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 美好作品想象：先看到终局再倒推路径

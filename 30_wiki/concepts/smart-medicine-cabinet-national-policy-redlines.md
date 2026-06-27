@@ -7,14 +7,14 @@ title: 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 type: concept
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - policy-compliance
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -23,23 +23,23 @@ review_date: '2026-06-14'
 confidence: 0.95
 trust_level: high
 related:
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-systems-thinking]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 自助售药机能卖什么药
-- 智能药柜政策红线
-- 药柜能不能卖处方药
-- 国家药监局 48 号公告
-- 自助售药机合规
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 
 ---# 自助售药机国家政策与红线（2024 年第 48 号公告解读）
@@ -52,10 +52,10 @@ difficulty: intermediate
 
 2024 年 4 月，国家药监局发布《关于进一步做好药品经营监督管理有关工作的公告》（2024 年第 48 号），明确自助售药机的销售范围：
 
-- **可以销售**：乙类非处方药（绿色 OTC 标识）。
-- **禁止销售**：甲类非处方药（红色 OTC 标识）和处方药（Rx）。
-- **设置主体**：应当依法取得《药品经营许可证》，且质量管理体系覆盖自助售药机设置地点。
-- **管理要求**：须具备温湿度监测、调控、记录和药品追溯码采集等功能，确保药品质量安全可追溯。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这意味着，**任何希望通过智能药柜直接销售处方药或甲类 OTC 的商业模式，在当前国家层面均不被允许**。部分地方（如湖北"远程药柜"模式）有例外探索，但属于特殊审批路径，不能简单复制。
 
@@ -75,21 +75,21 @@ difficulty: intermediate
 
 ### 2. 设置自助售药机的资质要求
 
-- 设置主体必须是**依法取得《药品经营许可证》**的药品零售企业（单体药店或连锁门店）。
-- 药品零售企业的**质量管理体系须覆盖自助售药机设置地点**。
-- 部分省市要求将自助售药机放置地址在《药品经营许可证》"经营地址"项下注明或备案。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 技术与质量管理要求
 
-- **温湿度自动监测、调控和记录**：确保药品储存条件符合 GSP 要求。
-- **药品追溯码采集/扫描**：实现药品来源可追溯、去向可查证。
-- **实时在线药学服务**：多数省市要求提供 24 小时远程药学服务或视频连线执业药师。
-- **销售凭证与计算机系统互联互通**：确保销售数据可追溯。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 违规后果
 
-- 销售处方药或甲类 OTC 通过自助售药机，属于**超范围经营**，可能面临药监部门行政处罚、许可证吊销等后果。
-- 若涉及医保支付，违规销售还可能导致医保协议解除、骗取医保基金等刑事责任。
+- src_unknown
+- src_unknown
 
 ### 5. 诊所/医疗机构内药柜的特殊红线
 
@@ -107,9 +107,9 @@ difficulty: intermediate
 
 ### 6. 地方探索的边界
 
-- **湖北省"远程药柜"**：在高级药学服务能力下，经远程审方可销售部分处方药，但禁止销售生物制品、冷藏冷冻药品、中药饮片等 8 类高风险药品。这是全国少数例外，需省级特殊审批。
-- **成都市 2020 年文件**：曾允许自动售药机销售甲类 OTC，但该文件有效期已于 **2025-12-31 届满**，且四川省 2024 年省级办法已限缩为仅乙类 OTC。
-- **重庆市**：2024 年 11 月新细则已将自助售药机销售范围限缩为仅乙类 OTC。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 地方政策如有与国家 48 号公告冲突，应以国家公告为准。
 
@@ -125,15 +125,15 @@ difficulty: intermediate
 
 ### 与已有知识的联系
 
-- **电子处方与在线处方监管**：自助售药机禁售处方药，但医疗机构内智能取药机可凭本机构电子处方发药。本卡与 `kc-p1-05-electronic-prescription`、`kc-p1-08-online-rx-regulation` 共同构成"处方来源—流转—发药"的合规链条。
-- **远程药柜例外**：湖北省远程药柜是 `kc-p1-06-remote-pharmacy-cabinet` 的主题，本卡强调其为例外，不可泛化。
-- **决策卫生与系统思考**：政策红线是硬约束，不容谈判；在红线内探索商业模式是决策卫生的基本要求。参考 `master-decision-hygiene`、`master-systems-thinking`。
-- **诊所+药柜风险观察**：本卡关于诊所/医疗机构内药柜的红线，直接约束 `kc-p0-06-clinic-cabinet-risk-observation` 中推销方描述的商业模式。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在规划药柜品类时，**默认按"仅乙类 OTC"设计**，处方药和甲类 OTC 的接入必须作为独立合规项目单独论证。
-- 在进入任何城市前，先向当地药监局确认：自助售药机设置条件、可销售品类、是否需要变更许可证经营地址、是否允许医保支付。
+- src_unknown
+- src_unknown
 
 ---
 

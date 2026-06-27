@@ -7,22 +7,22 @@ title: 动机地图12版迭代：先观察再设计——Truman的用户行为�
 type: case
 status: enriched
 domain:
-- product-design
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
 - src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版
 related:
-  - '[[yt-model-conversion-optimization]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[yt-tool-fab-persuasion]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[yt-personal-pan-product-tools]]'
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[case-truman-personal-growth-map-creation]]'
-  - '[[tool-泛产品落地-ROI分析]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 王语嫣
@@ -30,22 +30,22 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 diagnostic_signals:
-- signal: 设计评审时，团队只能说"这张图挺好看"，但说不出用户获得了什么
+- src_unknown
   framework_lens: 用户价值优先于视觉表现
   follow_up_question: 如果删掉所有颜色、图标和装饰，用户还能理解这张图的核心逻辑吗？
-- signal: 交付物里出现英文缩写、口诀、轨道等需要用户先背诵才能用的元素
+- src_unknown
   framework_lens: 小抄式设计原则——拿来就用，不是背完再用
   follow_up_question: 用户不背这个，他第一眼能否直接找到自己要用的信息？
-- signal: 某个核心交付物未来会高频复用（课程主视觉、品牌图、导航图、SOP封面）
+- src_unknown
   framework_lens: 迭代到审美上限
   follow_up_question: 这张图是否已经达到了团队审美的极限？还能再改一版吗？
-- signal: 多轮迭代后仍然"能解释但不好看"或"好看但没逻辑"
+- src_unknown
   framework_lens: 对称性服务于逻辑性
   follow_up_question: 问题是视觉重心不对，还是信息结构本身有歧义？两者要分版本解决。
 tags:
-- '#method/product-design'
-- '#content-format/case-study'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 动机地图12版迭代：先观察再设计
 
 > Truman在设计一堂的"学习动机地图"时，没有先画设计稿，而是**先观察了大量用户的学习行为，然后才开始设计**。这张地图经历12个版本的迭代（第一阶段），并在48小时内继续迭代到约23个版本，最终成为一堂课程体系的核心视觉交付物。
@@ -78,51 +78,51 @@ Truman承担了这个设计任务。起点不是"怎么画一张好看的图"，
 ### Truman接手后的12版迭代（第一阶段）
 
 **版本1：把轨道竖起来**
-- 把所有"名利权情"往左放，"影响力"往右放
-- 第一次出现可解释的结构：左边是用户激励，右边是心理动机/影响力动机
-- 价值：至少"分成两堆"了，有逻辑了
+- src_unknown
+- src_unknown
+- src_unknown
 
 **版本2-5：追问"为什么要背"**
-- 发现"轨道"这个词虽然好记，但用户背完依然很难回忆
-- 与一堂过去做过的冰山图、欧米伽图、深度图对比，发现差距明显
-- 关键转折：**背下来不是第一重要的，让用户理解逻辑、当成小抄用才是关键**
+- src_unknown
+- src_unknown
+- src_unknown
 
 **版本6：双曲线**
-- 放弃"轨道"和英文，直接画两根线
-- 左：心理激励路径；右：影响力法则路径
-- 第一次明确"别扯别的，两条路径就得了"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **版本7：定义"双三角小抄"**
-- 明确这张图不是让用户背的，是"拿来就用"的小抄
-- 一堂的小抄 = 默认放在手边随时取用
+- src_unknown
+- src_unknown
 
 **版本8-9：加解释层，再修正**
-- 版本8加"内在动机""人和人之间的影响"，再加"心理学机制""内在需求"
-- 解释性提升，但版本8描述不准确，版本9继续修正
+- src_unknown
+- src_unknown
 
 **版本10：电子化+高级感**
-- 第一次用电子方式画出来，加了一点点英文说明
-- 但所有英文最终都服务于"有用"，不是装饰
+- src_unknown
+- src_unknown
 
 **版本11：结构化+颜色+对称**
-- 加色块、强颜色、块面
-- 把"内在外在"改成"驱动力/影响力"，形成对称
-- 表达性显著提升
+- src_unknown
+- src_unknown
+- src_unknown
 
 **版本12：编号与进一步对称**
-- 加色块、优化箭头
-- 尝试给影响力加 I1/I2/I4 编号，让 future use 更顺嘴
-- 继续调"内在驱动力/外部影响力"的对仗关系
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二阶段：从12版到约23版——迭代到审美上限
 
 12版之后，团队意识到这张图可能未来在银行使用多年，甚至成为中心方法论，于是进入**疯狂微调阶段**：
 
-- 加 FAB（原来 FAB 只在课上讲，图上没有，导致图不能独立交付）
-- 把"三曲线小抄"改名为"动力三曲线"
-- 调文案张力、命名、风格化
-- 调颜色：红色不对 → 一半红一半蓝更难受 → 抖音风格太重 → 黄色 → 字太小 → 去掉英文编号、把中文字放到最大
-- 修正"黑色曲线中间跳一下"的视觉歧义，直接接上
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终版本：视觉重心舒服、优先级清晰、没有歧义、逻辑完整、中文足够听懂，英文只是辅助备注。**48小时内，可记录的版本至少23个。**
 
@@ -201,10 +201,10 @@ Truman承担了这个设计任务。起点不是"怎么画一张好看的图"，
 
 ## Synthesis
 
-- [[dk-truman-iteration-to-aesthetic-ceiling]] —— 同样是迭代精神，动机地图案例展示了"基于用户观察的迭代"，而导航图案例展示了"基于审美标准的迭代"。两种迭代方法适用于不同类型的交付物。
-- [[yt-personal-pan-product-tools]] —— 动机地图是泛产品设计30张牌中"需求+审美"组合使用的典型案例：先用用户观察出牌，再用审美迭代出牌。
-- [[yt-panproduct-demand-motivation-resistance]] —— 动机地图的底层问题与动力阻力模型一致：做产品不是让用户"背下来"，而是理解并增强用户的真实动力、减少认知阻力。
-- [[case-truman-personal-growth-map-creation]] —— 同样是 Truman 做地图，个人地图案例展示了"七步创作法+AI 辅助但人做判断"，动机地图案例展示了"先观察再设计+小抄式迭代"，两者可以对照使用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

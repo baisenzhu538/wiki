@@ -6,20 +6,20 @@ title: To B 需求场景四象限
 type: framework
 status: draft
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/demand-analysis'
-- '#topic/customer-segmentation'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -28,26 +28,26 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-model-product-core-metrics]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-product-kernel]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-tob-demand-metrics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队描述需求时只讲"客户需要这个"，说不清客户当前经营重心和老客/新客、老品/新品组合
+- src_unknown
   framework_lens: 四象限定位缺失
   follow_up_question: 目标客户当前最紧迫的经营目标是复购、加购、获客还是创新？这个需求落在老客老品、老客新品、新客老品、新客新品哪个象限？
-- signal: 同一产品/服务被同时卖给老客户拓新场景和新客户尝鲜场景，却使用同一套价值话术
+- src_unknown
   framework_lens: 象限错配
   follow_up_question: 老客加购依赖的是信任迁移和增量价值，新客获客依赖的是低成本规模化触达，两者的核心验证指标是否被混为一谈？
-- signal: 业务增长停滞时，团队直接喊"要创新"或"要获客"，但没有先判断老客老品的复购效率是否已被挖尽
+- src_unknown
   framework_lens: 经营重心误判
   follow_up_question: 在考虑新产品或新客之前，老客老品的复购率、续约率、单客产值还有多大提升空间？为什么当前象限不是最优解？
 
@@ -83,9 +83,9 @@ diagnostic_signals:
 
 老客户老产品的目标最简单，核心是**长期服务**和**复购**。客户更关注：
 
-- 降低使用成本
-- 提升管理效率
-- 提升复购效率
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 这类客户的目标总体是降本增效，而不是增加收入。——徐剑（src_20260616_0e684368）
 
@@ -95,9 +95,9 @@ diagnostic_signals:
 
 已有获客成本已经花下去，客情关系和信任度已经建立，向老客户卖新东西相对更容易。
 
-- 目标：让客户加购
-- 关键输入：新产品
-- 价值逻辑：第二次购买时，信任成本显著低于新客户
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型服务形态**：向现有企业客户新增模块、升级套餐、引入关联业务线。
 
@@ -105,9 +105,9 @@ diagnostic_signals:
 
 当老产品的研发投入或品牌建设成本尚未收回时，需要把老产品卖给更多新客户。
 
-- 目标：新增获客
-- 关键约束：在获取收入的同时降低获客成本
-- 核心指标：单位获客成本、渠道 ROI、规模化效率
+- src_unknown
+- src_unknown
+- src_unknown
 
 **典型服务形态**：成熟 SaaS 产品拓新行业、标准化设备进入新区域市场。
 
@@ -115,9 +115,9 @@ diagnostic_signals:
 
 当企业想另起炉灶、寻找第二曲线时使用。
 
-- 目标：创新
-- 关键动作：快速拿出新产品并找到新客户
-- 核心要求：保持或提升整体收入
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 新客户新产品，这时候你啥也没有，或者说你现在想找第二曲线了，跟我原来的老产品老客户都没关系，我就想另起炉灶再做一摊生意。——徐剑（src_20260616_0e684368）
 
@@ -125,8 +125,8 @@ diagnostic_signals:
 
 徐剑以一堂自身为例，说明同一服务商可以切入不同象限：
 
-- **新客新品（创新）**：面向做创新业务的客户团队，培养创业能力，即"业务板块内训"
-- **老客老品（复购/效率）**：帮助企业提升效率，解决项目管理、销售管理等内部问题
+- src_unknown
+- src_unknown
 
 课堂笔记进一步强调："理解客户在什么场景下最重视你的价值，才能挖掘真实需求"（src_20260616_5f991553）。
 
@@ -152,12 +152,12 @@ diagnostic_signals:
 
 ## 与一堂其他方法的关系
 
-- **[[yt-entrepreneur-five-step-method]]**：四象限是五步法中"需求"环节的场景切分工具，帮助回答"服务谁、在什么场景下服务"。
-- **[[yt-entrepreneur-product-core]]**：产品内核设计需面向决策者，四象限帮助判断不同象限的决策者关注点（效率、增量、获客、创新）。
-- **[[yt-unit-model-three-tools]]**：新客老品象限需重点验证单客户/单销售/单渠道单元模型；老客老品象限需验证单客户生命周期价值。
-- **[[yt-business-formula-business-pattern-selector]]**：商业模式选择需结合四象限判断：老客老品偏服务/订阅，新客老品偏产品/渠道。
-- **[[yt-entrepreneur-key-hypotheses]]**：进入每个象限前，需先验证该象限的关键假设（如老客新品假设：老客户愿意为新价值付费）。
-- **[[yt-management-business-formula]]**：四象限可与管理业务公式结合，把客户目标拆成可量化的业务参数。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -170,6 +170,6 @@ diagnostic_signals:
 
 ## 置信度说明
 
-- 本卡核心框架（老客老品/老客新品/新客老品/新客新品四象限及各自目标）直接来自徐剑 To B 五步法口述稿（src_20260616_0e684368，约 1186–1256 行），并在课堂笔记（src_20260616_5f991553，§2 需求分析）中得到一致呼应。
-- 置信度 0.82：来源为同一讲师在课堂/口述场景中的系统阐述，内部一致性强；但属于单一来源的课堂材料，缺少外部独立验证。
-- 文中涉及的具体数字（如客户数量、营收规模等）均按讲师口述引用，作为说明性案例而非精确事实，使用前建议独立核实。
+- src_unknown
+- src_unknown
+- src_unknown

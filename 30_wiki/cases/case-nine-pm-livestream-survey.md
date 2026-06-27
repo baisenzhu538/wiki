@@ -8,15 +8,15 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
-- user-research
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- 需要在多个选项中做影响多数用户的决策
-- 存在“少数人声音大、多数人沉默”的争议
-- 决策容易被外界误读为个人偏好或组织惯性
-- 用户的时间约束差异明显，需要兜底方案
-- 希望用调研数据替代拍脑袋
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（用户调研与决策案例）
 created_at: '2026-06-14'
@@ -27,18 +27,18 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[case-yitang-radar-chart-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#method/research-method'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 
@@ -56,10 +56,10 @@ tags:
 
 ## Background
 
-- **场景**：一堂直播课固定在 21:00 开始
-- **问题**：有同学质疑为什么不提前到 20:00
-- **目标**：解释直播时间的选择逻辑
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#3764-3786`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -85,22 +85,22 @@ Truman 说一堂认真做过三次调研，让用户在 20:00 和 21:00 之间�
 
 ### 原因
 
-- **21:00**：晚，但可控。即使应酬，使劲调时间也能回家听课。
-- **20:00**：早，但很多人还在地铁上、还在公司，赶不上。
+- src_unknown
+- src_unknown
 
 ### 决策原则
 
-- 选择多数人利益最大化的方式
-- 不是一堂喜欢熬，也不是 Truman 个人偏好
-- 对赶不上直播的人提供回放、周末补听等方式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说"认真地做过调研"，让用户在八点和九点之间选。——来源：`src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#3764-3768`。
-- **证据 2 [conf=0.85]**：早期用户多数人选了九点。——来源：`src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#3768`。
-- **证据 3 [conf=0.8]**：九点意味着应酬后还能回家听课，八点意味着很多人还在路上或公司。——来源：`src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#3770-3780`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -117,10 +117,10 @@ Truman 说一堂认真做过三次调研，让用户在 20:00 和 21:00 之间�
 
 ## 边界
 
-- **人群边界**：结论来自一堂早期用户，用户结构变化后需要重新调研。
-- **选项边界**：调研仅在 20:00 与 21:00 之间二选一，未覆盖更多时间段或异步方案。
-- **场景边界**：适用于可弹性调整、提供回放/补听等兜底方案的服务；不适用于必须全员同步、无法回放的场景。
-- **证据边界**：当前仅有一个口述来源支撑，尚未找到二次独立来源或原始调研数据。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -138,36 +138,36 @@ Truman 说一堂认真做过三次调研，让用户在 20:00 和 21:00 之间�
 
 ## 行动 Checklist
 
-- [ ] 列出所有可行的时间/方案选项
-- [ ] 设计简单明确的调研问题（如二选一）
-- [ ] 确保样本覆盖不同用户群体，避免幸存者偏差
-- [ ] 收集并统计多数人选择
-- [ ] 分析各选项背后的时间约束与原因
-- [ ] 为少数派设计替代方案（回放、补听、异步资料等）
-- [ ] 向用户公开决策依据，减少误解
-- [ ] 在用户结构或外部环境变化后重新验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[concept-thousand-people-square]]：理解“多数人利益最大化”背后的群体决策逻辑。
-- [[case-yitang-radar-chart-selection]]：一堂另一个用数据替代主观判断的决策案例。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 教训
 
-- **用调研替代拍脑袋**：争议问题直接问用户。
-- **多数人利益最大化**：不能取悦所有人，但要服务好大多数人。
-- **给少数派替代方案**：回放、周末补听，降低少数人的损失。
-- **解释决策逻辑**：让用户理解为什么这样决定。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3764-3786`
+- src_unknown
 
 ---
 

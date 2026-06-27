@@ -4,32 +4,32 @@ title: 技能：短视频封面高亮吸睛法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-最佳实践素材收集法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-设计参考图精准定位法]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：短视频封面高亮吸睛法
 
@@ -46,25 +46,25 @@ related:
 
 ## 适用场景
 
-- 制作非悬疑类短视频封面
-- 需要在小屏幕手机上吸引用户点击
-- 画面需要在信息流中脱颖而出
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 悬疑类内容（需要暗调氛围）
-- 需要营造低调、高级感的品牌调性
-- 夜间场景或特定情绪表达
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 任意图片编辑软件
-- 手机预览检查
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -72,12 +72,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

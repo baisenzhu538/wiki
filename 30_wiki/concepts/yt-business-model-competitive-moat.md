@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-competitive-moat
 title: 商业模式护城河：持续竞争优势
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-network-effects
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们有技术优势'，但技术被竞品复制"
+  - src_unknown
     framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
     follow_up_question: "你的技术优势能被竞品复制吗？复制周期多长？"
-  - signal: "用户说'我们有品牌优势'，但品牌认知度低"
+  - src_unknown
     framework_lens: 商业模式护城河——品牌需要时间和投入建立
     follow_up_question: "你的品牌认知度如何？品牌投入占收入多少？"
-  - signal: "用户说'我们有规模优势'，但规模不经济"
+  - src_unknown
     framework_lens: 商业模式护城河——规模优势需要规模经济
     follow_up_question: "你的规模是否带来了成本优势？单位成本是否下降？"
-  - signal: "用户说'我们有网络效应'，但用户迁移成本低"
+  - src_unknown
     framework_lens: 商业模式护城河——网络效应需要高迁移成本
     follow_up_question: "你的用户迁移成本有多高？用户离开的损失是什么？"
-  - signal: "用户说'我们有护城河'，但无法量化"
+  - src_unknown
     framework_lens: 商业模式护城河——护城河需要可量化评估
     follow_up_question: "你的护城河强度如何量化？竞品突破的难度有多大？"
 
@@ -130,21 +130,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估商业模式时 → 评估护城河
-- 当竞争加剧时 → 强化护城河
-- 当技术被复制时 → 建立多层次护城河
-- 当长期规划时 → 建设护城河
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-network-effects`：网络效应
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 巴菲特护城河理论
-- 竞争优势研究（Porter）
+- src_unknown
+- src_unknown
+- src_unknown

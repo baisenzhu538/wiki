@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 科技项目
-- 技术调研
-- 技术可行性
-- 新技术评估
-- 硬科技
-- 技术竞品
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-content-ip-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - '[[tool-yitang-b2b-gov-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "（tool-yitang-product-reverse-engineering，待补）"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 科技型项目调研手段：浅中深三层10大评估法
@@ -52,14 +52,14 @@ related:
 "如果我想做一个科技型项目，如何拿到信息，评估技术可行性、市场可行性？"
 
 核心难点：
-- **水下信息多**：核心技术机密不会公开，专利只暴露一部分
-- **早期市场反馈少**：新技术往往没有现成的市场数据可以参考
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **推新技术**：基于新技术研发新产品，需要评估技术成熟度和商业化路径
-- **保持领先**：把新型技术应用到自身产品上，需要评估技术落地可行性
-- **跟进同行**：把竞品的优点赋能到自身产品，需要理解竞品的技术方案
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -148,10 +148,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 6——科技型项目评估
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡6（科技项目）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡6（科技项目）_vlm_desc.md`（confidence=0.95）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

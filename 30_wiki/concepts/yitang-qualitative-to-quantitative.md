@@ -5,9 +5,9 @@ title: 一堂·从定性到定量：先证伪、后测量
 type: concept
 status: enriched
 domain:
-- yitang
-- entrepreneurship
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
@@ -20,30 +20,30 @@ source_refs:
 - src_20260614_6d9f7671-业务公式拆解培训
 - src_20260616_b1e25c49-zhanglei-lean-testing-ama
 tags:
-- '#domain/yitang'
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#topic/lean-startup'
-- '#topic/hypothesis-validation'
-- '#topic/research-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-lean-qualitative-quantitative-research]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[yitang-methodology-system]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队纠结"要做多少份问卷、多少个访谈"，却不说清产品形态
+- src_unknown
   framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，核心转化率与最小样本量分别是什么？
-- signal: 早期需求验证就发问卷、跑统计显著性
+- src_unknown
   framework_lens: 选项混沌时应先定性排除错误选项，待方向收窄、形态清晰后再进入定量测量
   follow_up_question: 当前是要"排除错误选项"还是要"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
-- signal: 指标停留在"体验度""好感度"等定性参数，无法落到行为数据
+- src_unknown
   framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
   follow_up_question: 这个定性参数能否拆成 3-5 个具体行为指标？每个指标变差时，对应哪个业务动作？
 ---
@@ -57,18 +57,18 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **证伪优先于证实**：需求侧验证早期不要试图"证明用户需要"，而应通过深度访谈、专家访谈、MVP 测试排除错误用户、错误场景、错误问题定义。
-- **阶段决定手段**：选项多、方向混沌时先定性；选项收窄、产品形态清晰后再进入问卷、A/B 测试、核心转化率追踪等定量手段。
-- **形态决定样本量**：APP / 线上产品可能需要数百样本才有统计意义；线下课程 / 培训几十个即可；To B 服务几个关键客户就能判断。
-- **定性参数要行为化**："信任度""使用深度""满意度"等定性参数必须拆成可观察、可追踪的行为指标，才能形成可验证假设。
-- **指标锚定核心转化率**：产品内核验证不能看泛化指标（如使用时长、点击率），必须落在核心转化率、复购率等业务公式关键节点上。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界（where it does NOT apply）
 
-- **高度创造性或一次性决策**：需要直觉、审美、愿景判断的场合，不宜过度结构化。
-- **样本极少的 To B 早期**：几个关键客户就能决定生死时，深度访谈比问卷更务实，不必强行追求统计显著性。
-- **已验证模式的规模化阶段**：当单元模型已被验证，重点应转向数据监控与持续优化，而非反复做定性探索。
-- **资源极度受限的救火场景**：需要快速止损时，可直接用最小化测试或硬指标判断，不必走完完整"定性→定量"流程。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -80,21 +80,21 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确当前阶段：是在"排除错误选项"还是在"精确测量已知选项"？
-- [ ] 说清产品形态：是一本书、APP、课程、训练营还是 To B 服务？
-- [ ] 列出 3-5 个核心假设，设计最小化证伪测试（访谈 / MVP / 专家咨询）。
-- [ ] 将定性参数拆成可观察行为指标，并设定健康阈值。
-- [ ] 待方向收窄后，再设计定量验证方案，样本量围绕核心转化率与产品形态确定。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[yt-lean-qualitative-quantitative-research]] 更聚焦调研手段选择与样本量边界。
-- [[yt-business-formula-qualitative-metrics-library]] 提供信任度、使用深度、满意度等参数的拆解示例。
-- [[yitang-methodology-system]] 本卡在一堂整体方法论中的位置。
-- [[case-yitang-weekly-modeling-engine]] 定性洞察与定量迭代结合运行的组织实例。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度说明
 
-- **高置信度**："先定性排除错误选项、后定量验证""产品形态决定样本量""指标落在核心转化率"三条核心主张，在 src_20260614_606a631d（张磊精益方法论培训）、src_20260616_b1e25c49（张磊 AMA Q1）中有直接、明确的口述支撑。
-- **中置信度**：不同产品形态下的典型样本量（APP 数百、线下培训数十、To B 几个）来自 AMA 举例，是经验参考而非严格统计公式，实际业务需结合置信区间、效应量、基线转化率校准。
-- **限制条件**：本卡主要针对创业/产品早期验证场景；高度创造性决策、救火止损、已验证模式规模化等场景需调整使用方式。
+- src_unknown
+- src_unknown
+- src_unknown

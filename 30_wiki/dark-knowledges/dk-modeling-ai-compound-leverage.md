@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,36 +16,36 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-ai-self-retrospection]]'
-  - '[[modeling-three-values]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/synthesis'
-- '#domain/yitang'
-- '#domain/ai-saas'
-- '#method/ai-collaboration'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
 diagnostic_signals:
-- signal: 团队把 AI 精力都花在整理笔记、单次决策、做调研等一次性任务上，组织能力没有沉淀
+- src_unknown
   framework_lens: 复利差异——一次性任务 vs 可反复调用的模型资产
   follow_up_question: 列出过去 30 天所有 AI 任务，区分一次性/可资产化；把重复出现 3 次以上的任务封装成模型或模板。
-- signal: 做了很多 AI 产出，但每次遇到同类问题都重新 prompt，没有可复用的 SOP/框架/检查清单
+- src_unknown
   framework_lens: 经验资产化——建模是把经验压缩成可反复调用的结构
   follow_up_question: 识别团队最高频的 3 个重复场景，用 AI 辅助建一个最小可用模型，并绑定到具体工作流。
-- signal: 评估 AI 项目 ROI 时，只算单次节省的时间，没算模型被反复调用的资产价值
+- src_unknown
   framework_lens: 杠杆效应——好模型会被反复调用，调用次数决定 ROI
   follow_up_question: 给每个候选模型估算年调用次数和单次价值，用资产化视角比较投入优先级。
-- signal: 建好的模型沉淀在文档里没人调用，复用率接近零
+- src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。
 ---# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
@@ -64,11 +64,11 @@ Truman 给 AI 使用优先级排了个序：**一次性任务（整理笔记、�
 
 ## 使用场景
 
-- 你在纠结该把 AI 精力投在哪些工作上。
-- 团队用 AI 做了很多一次性产出，但沉淀不下来。
-- 你想说服老板/团队重视建模工作。
-- 你在评估一个 AI 项目的 ROI。
-- 你发现一个模型被反复调用，但质量还不够好，值得继续打磨。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -118,15 +118,15 @@ Truman 给 AI 使用优先级排了个序：**一次性任务（整理笔记、�
 
 ## 为什么值钱
 
-- 公开 AI 课程讲提示词、工具、效率，很少讲“建模是 AI 最大杠杆场景”这个战略判断。
-- 它直接把 AI 投入导向组织资产积累，而不是个人效率提升。
-- 这是 Truman 在一堂内部 AI 实践中的真实结论：AI 可以把建模成本压缩，但判断力、审美和调用场景设计仍由人把控。
-- 在 AI 产出爆炸的时代，**知道把杠杆加在哪**比**把每件事都做得更快**更重要。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-ai-without-judgment]] —— AI 建模需要人的逻辑洁癖和审美把关。
-- [[dk-modeling-ai-self-retrospection]] —— AI 自己复盘自己，加速模型迭代。
-- [[modeling-three-values]] —— 建模的资产化价值。
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 用 AI 做高阶 Skill 工程指南的完整案例，体现“建模是最大杠杆”。
-- `src_20260614_8269ccdb#2606-2614` —— Truman 口述原文：建模是 AI 最大杠杆场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

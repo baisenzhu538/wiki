@@ -6,38 +6,38 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-  - master
+  - src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-013
 source_refs:
-  - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
+  - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[dk-p18-yaml-parser]]'
-  - '[[dk-p19-quote-yaml]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[master-first-principles]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-reviewed
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - signal: "批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split(\\"---\\\")` 拆分，而非 `yaml.safe_load()`"
+  - src_unknown
   framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
   follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
-- signal: '批量修改后某些卡片的 `related:` 列表项合并/丢失，或 `domain:` 层级被抹平'
+- src_unknown
   framework_lens: 'YAML 的缩进、引号、列表标记 `-`、多行字符串规则被忽略，结构已损坏但文件看起来仍像合法 YAML'
   follow_up_question: '立即用 `git diff` 检查变更，对异常文件做 round-trip 校验（读取→dump→比对）确认结构是否一致'
-- signal: 'dry-run 输出目录中抽检发现嵌套结构异常'
+- src_unknown
   framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
   follow_up_question: '批量修改前是否输出到临时目录并抽检 3-5 个文件的列表、字典、多行字符串是否完好？'
 ---# F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
@@ -61,10 +61,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你需要批量修改大量卡片的 frontmatter（如统一添加某个字段、批量更新 source_refs）
-- 你在写脚本处理 Markdown 文件的 frontmatter 时，想用字符串替换而非 YAML 库
-- 你发现某些卡片的 frontmatter 结构被破坏了，需要排查是哪个操作导致的
-- 你在审查他人提交的批量修改脚本时，需要检查是否正确处理了 YAML
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -98,17 +98,17 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是 KDO 特有的数据损坏模式：**每张卡片都有 YAML frontmatter，批量修改 frontmatter 是常见操作**
-- 手写 YAML 解析器的危险极高：YAML 看起来简单，实际规范复杂——一个小小的缩进或引号错误就能导致整个 frontmatter 结构崩溃
-- 揭示了一个普遍的工程误区：**看起来简单的格式（如 YAML、JSON、Markdown）往往比想象复杂，不要手写解析器**
-- 任何 AI 训练语料中都不会有"KDO 的卡片批量修改时手写 YAML 解析器会导致嵌套数据丢失"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c1-cjk-regex-silent-fail]] — 同一模式："手写解析器忽视了格式的复杂性"。C-1 是"regex `\b` 不识别 CJK"，F-13 是"手写 YAML 解析器不处理嵌套结构"——两者都是"轻视已有库函数的复杂性，试图用简单方法替代"
-- [[master-systems-thinking]] — 系统思维中的"抽象漏洞"：YAML 解析是一个已经被高度抽象化的问题，手写解析器就是重新发明轮子
-- [[kdo-yaml-frontmatter-safety]] — KDO frontmatter 安全规范，与 F-13 共同构成"批量修改 frontmatter"的防御体系
-- `90_control/failure-modes.md` → F-KDO-013（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

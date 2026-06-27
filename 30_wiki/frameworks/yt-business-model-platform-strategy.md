@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-network-effects
-  - yt-business-model-scalability
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户直接从双边平台开始，无法启动"
+  - src_unknown
     framework_lens: 平台战略——双边平台需要单边启动策略
     follow_up_question: "你的平台是先启动哪一边？单边启动策略是什么？"
-  - signal: "用户平台两边用户比例失衡"
+  - src_unknown
     framework_lens: 平台战略——双边平台需要平衡两边用户
     follow_up_question: "你的平台两边用户比例是多少？是否平衡？如何调节？"
-  - signal: "用户平台被竞品挖走一边用户"
+  - src_unknown
     framework_lens: 平台战略——需要锁定两边用户
     follow_up_question: "你的平台如何锁定两边用户？迁移成本高吗？"
-  - signal: "用户平台变现困难，两边都不愿付费"
+  - src_unknown
     framework_lens: 平台战略——平台变现需要设计机制
     follow_up_question: "你的平台变现机制是什么？哪边付费？为什么愿意付？"
-  - signal: "用户说'我们平台用户很多，但活跃度低'"
+  - src_unknown
     framework_lens: 平台战略——平台需要活跃度，不只是用户数量
     follow_up_question: "你的平台用户活跃度如何？如何提升匹配效率？"
 
@@ -131,21 +131,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当做平台时 → 先单边启动
-- 当两边失衡时 → 动态补贴调节
-- 当变现时 → 选择合适的变现时机
-- 当用户流失时 → 强化锁定机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-network-effects`：网络效应
-- `yt-business-model-scalability`：可规模化评估
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 平台战略研究（Parker & Van Alstyne）
-- 平台革命（Geoffrey Parker）
+- src_unknown
+- src_unknown
+- src_unknown

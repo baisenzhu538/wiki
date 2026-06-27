@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-峰终定律"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_041b5a94
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-峰终定律"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-用户视角]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-峰终定律
@@ -34,31 +34,31 @@ png` 泛产品设计·用户卡片 峰终定律 用户体验的二八定律 PEAK
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 峰终定律（Peak-End Rule）是用户体验设计中的"二八定律"，指出用户对体验的记忆主要由峰值（最强烈的瞬间）和终值（结束时的感受）决定，而非体验的平均水平或持续时间。
-- 在长链条体验设计中，需同时关注四个关键节点：峰值、终值、初值（第一印象）和底线值（最低容忍点）。
-- 该定律适用于涉及多步骤、长时间交互的产品场景，如服务流程、 onboarding、游戏关卡等。
-- 掌握峰终定律需要通过长期刻意练习来培养对体验节点的敏感度和设计能力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该卡片将"初值/底线值"与"峰值/终值"并列，但峰终定律原始研究（Kahneman等）仅涉及峰值和终值，"初值"和"底线值"的纳入是否有实证研究支持，还是作者的经验扩展？
-- "用户体验的二八定律"这一类比是否准确——二八定律强调投入产出的不平衡分布，而峰终定律强调记忆偏差机制，两者的底层逻辑是否真正等同？
-- "适合场景：涉及到长链条体验设计的产品"中"长链条"缺乏明确定义，多少步骤或多长时间算"长链条"？单页面短交互是否完全不适用？
-- "进步方式：长期刻意练习"过于笼统，刻意练习的具体对象是什么（识别峰值的能力？操控终值的技巧？），有无可量化的评估标准？
-- OCR备注提示"视觉结构信息未体现"，原图中四个关键节点（峰值/终值/初值/底线值）是否有视觉层级或权重区分，还是并列同等重要？
-- "底线值"（最低容忍点）与峰终定律的关系未解释：它是作为独立变量影响记忆，还是作为体验不被中断的保障阈值？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -72,20 +72,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

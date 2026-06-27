@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "时间管理"
-  - "优先级思维"
-  - "能量管理"
-  - "深度工作"
-  - "时间块管理"
-  - "日计划方法"
-  - "周计划管理"
-  - "高能量窗口"
-  - "保护整块时间"
-  - "如何管理时间"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,7 +38,7 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '时间分配以长期目标为锚点，而不是以任务紧急度为锚点', 'framework_lens': '时间管理 = 优先级管理', 'follow_up_question': '你今天做的事中，哪一件与3年目标直接相关？'}
   - {'signal': '能识别自己的高能量窗口，并把重要任务放在这些时段', 'framework_lens': '能量管理 > 时间长度管理', 'follow_up_question': '你一天中哪个时段效率最高？这个时段在做什么？'}
@@ -46,11 +46,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-personal-checklist-notes]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 时间管理
 
@@ -68,20 +68,20 @@ related:
 ### 失败模式
 
 1. **把时间管理变成‘做更多事’，而不是‘做对的事’**
-   - **原因**：效率陷阱
-   - **修复**：每天先确定1-3件与长期目标相关的重要任务，再做紧急任务
+   - src_unknown
+   - src_unknown
 
 2. **计划排得太满，没有缓冲时间**
-   - **原因**：忽视不确定性
-   - **修复**：每天预留20-30%的缓冲时间应对突发
+   - src_unknown
+   - src_unknown
 
 3. **只管理时间，不管理精力**
-   - **原因**：能量视角缺失
-   - **修复**：记录能量曲线，把深度工作放在高能量窗口
+   - src_unknown
+   - src_unknown
 
 4. **计划做得很好，但从不回顾**
-   - **原因**：缺少闭环
-   - **修复**：每周日晚做10分钟时间复盘：计划 vs 实际 vs 目标
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -92,37 +92,37 @@ related:
 ### 时间管理的三个认知升级
 
 **1. 从"效率思维"到"优先级思维"**
-- 效率思维："我怎么做得更快？"——在每件事上提速 20%，每天多出 1 小时
-- 优先级思维："我正在做对的事吗？"——砍掉最不重要的事，每天多出 4 小时
-- 结论：砍掉一件事比提速十件事更有价值。绝大多数人不在效率上亏时间，在优先级上亏时间
+- src_unknown
+- src_unknown
+- src_unknown
 
 **2. 从"时间长度"到"能量密度"**
-- 传统时间管理将"时间"视为均质的资源——每小时都是一小时
-- 一堂的立场：时间不是均质的——早上的 1 小时和下午 3 点的 1 小时产出可能差 3-5 倍
-- 核心动作：识别自己的"高能量窗口"（通常在起床后 2-4 小时内），将最重要的认知工作保护在这个窗口内，将低认知负荷的机械工作放在低能量时段
+- src_unknown
+- src_unknown
+- src_unknown
 
 **3. 从"填满日历"到"保护日历"**
-- 大多数人的日历是"被填满"的——会议、别人安排的事情、临时冒出来的事
-- 时间管理的关键不是"管理碎片化的时间"，而是"保护整块时间不被碎片化"
-- 最小实践：每天保护一个不被打断的 90 分钟块，用于做"如果不做三个月后你会后悔"的事情
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 个人时间管理的三层框架
 
 **L1 日级管理（战术层）**：一天的节奏设计
-- 高能量窗口做认知工作（思考/写作/决策/学习）
-- 中能量窗口做执行工作（会议/协调/沟通）
-- 低能量窗口做维持工作（邮件/行政/整理）
-- 每日结束前 5 分钟做"明天最重要的 1-3 件事"预判
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **L2 周级管理（战役层）**：一周的主题规划
-- 每周不少于 10 小时的"深度工作时间块"（保护在自己的高能量窗口内）
-- 每周不少于 1 次"站在阳台上的时间"——不从任何具体事务出发，只思考"我现在在做的方向对吗？"
-- 每周回顾：本周的时间分配是否符合 L3 的方向？偏差在哪里？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **L3 季度/年级管理（战略层）**：长期方向锚定
-- 以季度或年为单位重新审视："我这一年/这个季度最重要的 1 个目标是什么？"
-- 如果时间分配与这个目标不匹配（例如"我的核心目标是学 AI"但 90% 时间在做完全不相关的日常执行），任何 L1/L2 的管理技巧都无法挽救
-- 战略层是做"减法"的唯一有效层面——只有面对足够长的周期，你才有勇气说"这件事我不做了"
+- src_unknown
+- src_unknown
+- src_unknown
 
 三层之间的关系：**L3 定方向、L2 定节奏、L1 定执行。** L1 再精细也补不上 L2 的节奏混乱，L2 再规律也补不上 L3 的方向错误。
 

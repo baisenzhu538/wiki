@@ -6,22 +6,22 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- ai-saas
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 related:
-  - '[[tool-纪浩-任务交付物标准化]]'
-  - '[[tool-纪浩-Agent开工检查单制作法]]'
-  - '[[tool-纪浩-AI工具脚本化约束]]'
-  - '[[tool-纪浩-处理AI生成代码运行异常]]'
-  - '[[tool-纪浩-AI使用边界管理法]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[ai-collaboration-mindset-shift]]'
-  - '[[dk-lz-code-is-disposable]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老朱
@@ -30,10 +30,10 @@ review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- signal: 公司AI落地停留在"给每个员工配AI助手"，组织结构和审批流程毫无变化
+- src_unknown
   framework_lens: 副驾驶模式陷阱——把AI当个人效率工具而非组织结构变量
   follow_up_question: 如果去掉AI助手，员工的工作方式会和三个月前一模一样吗？
-- signal: 公司在讨论"扁平化"或"去中层"时只谈裁员，不谈信息流动如何重构
+- src_unknown
   framework_lens: 罗马军团结构幻觉——忽视中层存在的真实原因是人脑带宽不足
   follow_up_question: 谁来确保CEO的意图能被1000人准确执行？是人脑层级还是AI中枢？
 ---# AI原生组织：罗马军团正在被自进化有机体取代
@@ -52,12 +52,12 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 公司正在制定AI转型战略，讨论"是否要给每个员工配AI助手"
-- 组织扁平化改革遇到阻力，需要重新理解中层管理的价值
-- 投资人/创始人评估SaaS或AI创业公司的组织形态是否具备AI原生潜力
-- 中层管理者感到被AI替代焦虑，需要理解转型的底层逻辑
-- 对比"副驾驶模式"和"AI原生组织"两种落地路径时做决策
-- 阅读YC等机构的AI-native组织方法论后，需要把它翻译成自身企业的行动清单
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -93,16 +93,16 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 它直指中层管理的**底层存在理由**：人脑带宽不足。AI带宽优势一旦成立，旧组织结构的逻辑基础就被抽掉了。
-- 区分了两种AI落地思维："副驾驶模式"只提升20%效率，"AI原生组织"重构100%结构——后者才是竞争优势来源。
-- 对知识工作者和中层管理者有强烈的预警价值：传话筒岗位会被一段"对AI可读的文档"替代。
-- 与代码一次性消耗品化、AI协作五层结构等判断形成连贯的AI时代资产观和组织观。
-- 它把YC的"AI-native公司"方法论翻译成一个可诊断、可执行的组织转型框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- **[[dk-lz-code-is-disposable]]** — 中层消失与代码消耗品化是同一个趋势的两个面向：AI能力爆发正在同时重构组织的"人"的结构和"代码"的价值。
-- **[[concept-纪浩-ai-collaboration-five-layer]]** — 纪浩五层结构中的"监控层"与老朱的"监控Agent"同源：都是让系统能够自我进化。五层结构是技术实现，老朱的洞察是组织层面的影响。
-- **[[dk-ji-hao-ai-cant-design-structure]]** — 纪浩说AI不会自己设计结构，但老朱的洞察是：AI虽然不会设计结构，但它可以替代维持旧结构所需的人——两者构成了一个完整的逻辑链。
-- **[[ai-collaboration-mindset-shift]]** — 人机协作 mindset 的升级：从"AI辅助人"到"AI成为组织骨架"。老朱的口述是这个升级在组织层面的极致表达。
-- **[[dk-my-ai-landing-three-barriers]]** — 马易提出的"不懂原理×不知边界×没有审美"三大障碍，在组织转型中更加明显：大多数公司的管理层不懂AI原理、不知AI边界、没有AI审美，因此只能做出"副驾驶"级别的改良。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -3,8 +3,8 @@ id: tool-马易-视频转化关键要素标注校验
 title: 技能：视频转化关键要素标注校验
 type: tool
 domain:
-- ai-collaboration
-- yitang- marketing
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-成为首位F工程师]]'
-- '[[tool-马易-低置信度样本黄金漏斗处理]]'
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-马易-公寓获客自跑通原则]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：视频转化关键要素标注校验
 
@@ -38,27 +38,27 @@ related:
 
 ## 适用场景
 
-- 需要规模化生产高转化视频内容
-- 有充足预算进行长期数据积累
-- 团队具备数据分析和投放能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 追求短期快速见效
-- 缺乏持续资金投入
-- 没有数据回收和实验设计能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 投流平台
-- A/B测试工具
-- 数据标注系统
-- BI分析工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,12 +66,12 @@ AIGC内容生产的难点在于结果交付，只有通过重标注、重校验�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

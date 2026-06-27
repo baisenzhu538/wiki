@@ -3,8 +3,8 @@ id: tool-Truman-问题定义澄清法
 title: 技能：问题定义澄清法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-科学提问法]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-技术社区严肃提问法]]'
-- '[[tool-Truman-语义对齐沟通法]]'
-- '[[tool-Truman-职场异步协作提问法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：问题定义澄清法
 
@@ -38,28 +38,28 @@ related:
 
 ## 适用场景
 
-- 业务指标出现异常
-- 客户反馈续约率或满意度下降
-- 团队需要基于问题制定策略
-- 数据分析前需要明确研究方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 问题现象已经非常明确
-- 需要立即执行的紧急故障
-- 没有数据支撑仅凭感觉判断
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 数据分析工具
-- 业务流程图
-- 一堂五步法
-- 双三角模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -67,12 +67,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，科学提问
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

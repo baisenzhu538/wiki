@@ -10,26 +10,26 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212131_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212131_vlm_desc.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_vlm_desc.md
 related:
-  - '[[tool-lean-human-replace-system]]'
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 假产品：用前端仿真验证需求
@@ -47,15 +47,15 @@ related:
 
 2. **选择仿真前端形态**
    根据假设选择成本最低、信号最清晰的假产品载体。一堂讲义中列出了 9 种典型形态 [conf=0.85, source=一堂DOC-20260622212131_ocr_text.md]：
-   - 假电商页面：测投流/挂店铺转化
-   - 假商品包装：测用户反馈
-   - 假产品页面：测模拟使用
-   - 假按钮：测用户点击
-   - 假菜单：测新品吸引度
-   - 假朋友圈海报：测热度和反馈
-   - 假购买页：留邮箱线索
-   - 假注册页：留下手机号
-   - 假开店传单：留微信或电话
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **搭建最低成本前端**
    只做能承载假设验证的最小界面，不实现后端交付。可用海报、H5、落地页、电商详情页、小程序截图、A/B 测试页、邮件表单等现成工具快速完成。
@@ -86,15 +86,15 @@ related:
 ## 适用边界
 
 **最适合的场景**
-- 需求不确定性高、产品尚未开发的早期阶段。
-- 互联网、移动应用、SaaS、消费品、本地生活等可以快速搭建前端、快速导入流量的产品形态。
-- 需要比较多个卖点、价格、功能概念或视觉方案时，用假页面做 A/B 测试。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **需要调整的场景**
-- **强监管行业（医疗、金融、教培、博彩、彩票等）**：假产品/假营销可能触碰广告法、金融监管或行业牌照要求。此时应改用专家访谈、合规预审、真实客户共创等更安全的验证方式 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型/高客单价产品**：粗糙前端会永久损伤信任。应提高页面完成度、使用品牌背书、明确「预约体验/预售」身份，而不是做一个看起来像骗子的假网站 [conf=0.80, source=任务指令 L8 边界案例]。
-- **B2B 长决策链**：单个假页面很难打动多层级决策者和采购委员会。通常需要配合售前访谈、POC 方案、高层背书，把假产品作为需求探针而非唯一验证手段。
-- **长周期硬件/医疗器械**：假页面只能验证兴趣，无法验证供应链、可靠性和合规性。需要与里程碑测试、样机试用、监管沟通组合使用 [conf=0.85, source=framework-lean-false-model.md 适用边界]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -112,22 +112,22 @@ related:
 
 Dropbox 在产品尚未开发时，发布了一段 3 分钟的产品概念视频。视频模拟了产品的核心使用场景，引导用户留下邮箱加入等待列表。
 
-- 假产品形态：视频 Demo + 等待列表注册页。
-- 结果：约 7.5 万人等待，几十万访问量。
-- 启示：在重投入开发同步与存储系统之前，先用最低成本验证「用户是否愿意为更好的文件同步体验采取行动」。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正例：共享电动滑板车 D 方案 [conf=0.70, source=讲师推演案例]
 
 一堂课程中用「共享电动滑板车」演示了四级 MVP 验证。D 方案对应假产品阶段：只制作一张海报/小程序页面「电动滑板 APP 上线，扫码注册」，用户扫码后进入落地页提示「内测报名」。
 
-- 假产品形态：海报 + 落地页。
-- 成本与周期：几十元、1-3 天 [conf=0.65, source=case-lean-electric-scooter-mvp]。
-- 启示：把商业模式拆到只剩「中国用户是否对电动滑板出行感兴趣」这一个最高风险假设，用假产品即可证伪或升级。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移启发
-- **硬件/消费品**：先用假包装/假电商页测卖点和配色，再小批量试产。
-- **SaaS**：先用假注册页/假购买页测付费意愿，再开发后端。
-- **本地生活**：先用假菜单/假传单测新品吸引度，再调整供应链。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Purpose
 

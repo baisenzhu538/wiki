@@ -8,8 +8,8 @@ confidence: 0.80
 trust_level: high
 language: zh-CN
 domain:
-- research
-- yitang
+- src_unknown
+- src_unknown
 source_person: 王语嫣
 source_context: yitang 域 152 张 case 卡跨案例合成，洞察 1
 source_refs:
@@ -21,24 +21,24 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[skill-research-triangulation-stop-rule]]'
-  - "[[dk-yitang-behavior-over-asking]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[framework-demand-iceberg]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "访谈总结里全是'用户说''用户认为'，很少出现'用户做了什么'"
+  - src_unknown
     framework_lens: 行为证据优先
     follow_up_question: "你能复述用户最近一次遇到该问题的具体场景和行为吗？"
-  - signal: "团队把'访谈对象点头'当成'需求被验证'"
+  - src_unknown
     framework_lens: 愿望 vs 行为
     follow_up_question: "用户为这个需求付过费吗？最近一次花了多少？"
-  - signal: "远程访谈后无法还原现场语境"
+  - src_unknown
     framework_lens: 现场语境缺失
     follow_up_question: "能否让用户展示订单、聊天记录、App 使用界面或相册截图？"
 ---
@@ -51,10 +51,10 @@ diagnostic_signals:
 
 ## 何时使用
 
-- 验证新品类或新场景的需求存在性
-- 远程用户访谈中需要还原真实使用语境
-- 产品方向争议时，用行为证据替代「我觉得用户需要」
-- 与 `[[tool-yitang-user-interview-5steps]]`、`[[yt-research-user-jtbd]]` 组合使用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -72,19 +72,19 @@ diagnostic_signals:
 
 ## 远程访谈还原现场语境的技巧
 
-- 让用户打开相册/购物记录/App 使用记录，边看边说
-- 要求用户描述「当时周围还有什么人、在做什么、前 10 分钟在做什么」
-- 用「如果明天这个问题解决了，你今天会怎么做？」把未来愿望拉回当下行为
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 快速检查单
 
-- [ ] 访谈问题以「你最近一次是怎么做的？」开头，而不是「你会……吗？」
-- [ ] 每个问题后追问「当时还试过什么？为什么没继续？」
-- [ ] 记录了用户付费/时间投入的具体行为
-- [ ] 索要了至少一个现场证据（截图、订单、聊天记录）
-- [ ] 访谈总结中「用户做了什么」不少于「用户说了什么」
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -101,25 +101,25 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用**：需求存在性尚未验证的早期调研；用户有真实替代方案可观察；访谈对象确实是目标用户
-- **不适用**：已有大规模用户行为数据只需统计验证；完全创新品类用户尚未形成任何解决行为；样本偏差严重
+- src_unknown
+- src_unknown
 
 ---
 
 ## 行动触发器
 
-- 当要写访谈提纲时 → 把所有「你会……吗？」改成「你最近一次是怎么做的？」
-- 当访谈对象说「想要」时 → 追问「现在怎么解决」「付过费吗」
-- 当远程访谈结束时 → 索要一个现场证据
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联卡片
 
-- `[[dk-yitang-behavior-over-asking]]`：暗知识卡，含更多案例
-- `[[tool-yitang-user-interview-5steps]]`：用户访谈五步法
-- `[[yt-research-user-jtbd]]`：JTBD 故事公式
-- `[[framework-demand-iceberg]]`：需求冰山模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

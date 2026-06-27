@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.75
 trust_level: medium
 domain:
-  - kdo
-  - infrastructure
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_unknown
 created_at: "2026-06-17"
@@ -17,17 +17,17 @@ author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: "2026-06-17"
 related:
-  - '[[tool-yitang-industry-report-search]]'
-  - '[[concept-wanghuan-power-of-standards]]'
-  - '[[paddleocr-skill]]'
-  - '[[tool-doris-industry-report-search-tips]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - "#infrastructure"
-  - "#pdf"
-  - "#tool-setup"
-  - "#kdo"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 有 PDF 需要解析成 Markdown
+  - src_unknown
     framework_lens: MinerU 安装检查
     follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。
 ---
@@ -35,10 +35,10 @@ diagnostic_signals:
 
 ## 当前状态
 
-- **安装位置**：WSL `/home/dministrator/.local/bin/mineru`
-- **版本**：magic-pdf v1.3.12
-- **模型缓存**：`/home/dministrator/.cache/magic-pdf/`
-- **Python 版本**：Python 3.10（WSL）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 安装步骤（新环境）
 

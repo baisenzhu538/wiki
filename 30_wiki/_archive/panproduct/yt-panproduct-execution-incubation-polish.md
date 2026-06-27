@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-incubation-polish
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1062
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：酝酿式打磨
-- 落地卡片
-- 落地执行
-- 酝酿式打磨
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：酝酿式打磨
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[tool-泛产品落地-复盘迭代]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨
@@ -47,16 +47,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 在重要方案上主动安排'冷却期'，而不是连续冲刺
+- src_unknown
   framework_lens: 酝酿利用潜意识加工
   follow_up_question: 你最近一个方案在搁置一段时间后，再看时发现了什么问题？
-- signal: 每次 revisit 都对照明确的标准检查，而不是凭感觉改
+- src_unknown
   framework_lens: 打磨需要验收标准
   follow_up_question: 这个版本的改动解决了上一次评审中的哪个具体问题？
-- signal: 能区分'真正需要打磨'和'用打磨逃避决策'
+- src_unknown
   framework_lens: 打磨是手段不是目的
   follow_up_question: 如果明天必须上线，你现在做的打磨还重要吗？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ status: superseded
 ### 失败模式
 
 1. **无限打磨，永远没有‘够好’的时候**
-   - **原因**：完美主义
-   - **修复**：设定明确的完成标准和 deadline，达到即停止
+   - src_unknown
+   - src_unknown
 
 2. **冷却期后只是重复看，没有记录新发现**
-   - **原因**：酝酿流于形式
-   - **修复**：每次 revisit 必须产出至少一条具体修改意见或停止决策
+   - src_unknown
+   - src_unknown
 
 3. **在方向未验证前就开始精细打磨**
-   - **原因**：过早优化
-   - **修复**：先验证核心方向，再进入精细打磨阶段
+   - src_unknown
+   - src_unknown
 
 4. **用‘再想想’作为逃避决策的借口**
-   - **原因**：决策拖延
-   - **修复**：为每个酝酿阶段设定决策截止点，到期必须选择继续、停止或 pivot
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -123,9 +123,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Ed Catmull的"原初愿景总是错的" + Herbert Simon的"满意即可"
 

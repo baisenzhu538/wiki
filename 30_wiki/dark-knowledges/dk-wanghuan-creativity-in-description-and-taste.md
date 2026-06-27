@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,37 +21,37 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - human-ai-collaboration-double-triangle
-  - framework-wanghuan-actor-director-mode
-  - tool-wanghuan-ai-business-profile
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown-double-triangle
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: "用户说'我不知道怎么跟AI描述需求'"
+- src_unknown
   framework_lens: 创造力重新分配——问题描述是核心创造力
   follow_up_question: "你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？"
-- signal: "用户说'AI输出总是差点意思'"
+- src_unknown
   framework_lens: 创造力重新分配——验收审美是核心创造力
   follow_up_question: "'差点意思'具体是什么？能用三个维度描述吗？颜色、排版、语气？"
-- signal: "用户还在亲手做执行，不交给AI"
+- src_unknown
   framework_lens: 创造力重新分配——执行交给AI，人专注描述和验收
   follow_up_question: "这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。"
-- signal: "用户说'我审美很好，但说不出来'"
+- src_unknown
   framework_lens: 创造力重新分配——审美需要显性化，才能被AI学习
   follow_up_question: "你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？"
-- signal: "用户团队成员问'人用AI到底要做什么'"
+- src_unknown
   framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
   follow_up_question: "告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。"
 tags:
-- 王欢
-- 暗知识
-- 创造力
-- 问题描述
-- 验收审美
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：创造力重新分配到问题描述与验收审美
 
@@ -71,8 +71,8 @@ tags:
 
 > **把创造力放在两个地方——问题描述和验收审美。**
 
-- **问题描述**：你能否把模糊的业务意图，翻译成 AI 可执行、可验证的任务。
-- **验收审美**：你能否判断 AI 的输出好不好、哪里不好、怎么改。
+- src_unknown
+- src_unknown
 
 中间执行环节，尽量交给 AI。
 
@@ -139,8 +139,8 @@ tags:
 
 > **人要会“创造问题”和“创造标准”。**
 
-- **创造问题**：发现真正值得 AI 解决的业务问题。
-- **创造标准**：定义什么是“好”，并且让这个标准可执行、可迭代。
+- src_unknown
+- src_unknown
 
 这两件事比“提问技巧”高一个维度。
 

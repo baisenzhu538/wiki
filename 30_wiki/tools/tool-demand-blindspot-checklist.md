@@ -15,13 +15,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-盲区和机会清单-图-01_ocr_text.md
 related:
-  - '[[case-demand-elderly-smart-device]]'
-  - '[[tool-prompt-usp-demand-analysis]]'
-  - '[[yt-demand-decision-chain]]'
-  - '[[case-demand-silver-parenting]]'
-  - '[[five-step-domain-digest]]'
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-demand-iceberg-l1-user]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 盲区和机会清单
@@ -61,9 +61,9 @@ prompt = """用盲区清单扫描 {DEMAND_DESCRIPTION}。对每维回答三个�
 3. 如果考虑过——有没有"觉得覆盖了但其实很浅"的维度？
 
 最后汇总：
-- 完全遗漏的维度：[列出]
-- 覆盖了但很浅的维度：[列出]
-- 建议优先深挖的 3 个方向：[列出]
+- src_unknown
+- src_unknown
+- src_unknown
 """
 ```
 
@@ -76,8 +76,8 @@ prompt = """用盲区清单扫描 {DEMAND_DESCRIPTION}。对每维回答三个�
 
 ## 适用边界
 
-- **适用**：L1/L2完成后自检——有没有漏掉重要维度
-- **不适用**：场景已经非常明确的窄领域
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_context: 由黄药师基于欧阳锋审查报告 + 老顽童实际产出 + scaffold-domain-index.py 生成
 source_refs:
   - 60_feedback/diagnosis/diag_20260620_调研专题素材验收.md
@@ -15,10 +15,10 @@ created_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[yt-research-osl-framework]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-doris-industry-report-4step]]"
-  - "[[five-step-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 域摘要：调研方法论

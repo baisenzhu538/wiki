@@ -13,31 +13,31 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 招聘情报
-- 求职调研
-- 面试调研
-- 竞对招聘
-- boss直聘
-- 猎头调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - '[[tool-doris-industry-report-search-tips]]'
-  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
-  - '[[framework-lean-expert-roadmap]]'
-  - '[[tool-按分阶练习路径渐进掌握方法]]'
-  - '[[proposal-prompt-injection-infrastructure]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-organization-research]]"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 招聘渠道情报：五层递进挖掘竞对内部信息
@@ -85,10 +85,10 @@ Level 1: 读JD（公开信息，零成本）
 | 4. 交叉验证 | 面试2-3个来自同一竞对的人，比对信息一致性 | 如果两个人说的团队规模差了一倍——有一个在说谎，或者组织变动剧烈 |
 
 **实战案例**（来自一堂课程）：
-- 某公司之前市场工作完全没章法，决定招市场总监，发了一个高薪JD
-- 面试了2个来自友商的市场总监候选人
-- 面试中完整摸清了友商的市场运营体系、投放策略、组织架构
-- "你说这个东西合法吗？合法合规，但你拿到了完整的情报"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Level 3：去竞对公司面试——潜入敌后
 
@@ -102,29 +102,29 @@ Level 1: 读JD（公开信息，零成本）
 | 4. 多家对比 | 面试同一赛道的多家公司，做横向比较 | 行业的真实薪资水平、人才需求热度、各家的发展阶段差异 |
 
 **实战案例**（来自一堂课程）：
-- 一个创业者在评估"抖音团长"这个赛道
-- 他降低/修改自己的工作经验，让简历与抖音团长方向高度匹配
-- 在当地拿到大量面试机会，面试了多家公司
-- 面试中有意识地打听数据、业务细节
-- 最终发现：**红利期在明显退潮，大家都在疯狂拼精细化运营，业务长期壁垒很低**
-- 结论：这个赛道没有想象中那么好——省下了一大笔可能的投资损失
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Level 4：短期入职——最深度但成本最高的方式
 
 > Truman提到"扮演儿童游乐园店长，以服务员身份干15天"——这属于更极端的深度渗透
 
 这种方式信息质量最高但道德和法律风险也最大，仅列出不做展开：
-- 适用：需要系统性学习竞对的业务流程和标准化体系
-- 风险：竞业限制、法律风险、道德争议
-- 替代方案：Level 3（面试）通常已经能拿到80%需要的信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Level 5：猎头联系高管——最高质量的信息源
 
 猎头掌握着全行业的人才地图：
-- 哪家公司在疯狂招人/大量裁员
-- 什么岗位薪资给到什么水平
-- 核心人才流动方向
-- 哪些岗位长期招不到人（=行业稀缺能力）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **操作方法**：
 1. 找到专做你目标赛道的猎头
@@ -186,10 +186,10 @@ Level 1: 读JD（公开信息，零成本）
 
 ## 来源与验证
 
-- 五层递进框架来源：一堂调研武器库培训课程（Truman），明确列出了招聘情报的五个层级
-- 案例来源：`一堂-调研武器库培训-口述.txt`（高薪JD摸清友商体系）、`一堂-高阶情报调研课-口述.txt`（面试多家公司发现行业红利退潮）
-- 三端调研框架补充：`一堂-高阶情报调研课-口述.txt`（产品端/用户端/合作方端 + 内线/外线调研框架）
-- 注意：案例中的具体公司名称和数字来自口述，标注"口述待独立核实"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

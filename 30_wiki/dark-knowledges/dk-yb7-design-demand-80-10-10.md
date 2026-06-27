@@ -6,35 +6,35 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb30-ecommerce-channel-version]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[dk-yb10-theory-moat-designer]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 设计团队编制规划时，把所有需求混在一起评估，导致"要不要用AI替代设计师"变成非黑即白的争论
+- src_unknown
   framework_lens: 需求分层缺失——80%模板化需求、10%强创意需求、10%弹性缓冲需要完全不同的工具和人力策略
   follow_up_question: 过去一个月的设计需求中，有多少比例是节日海报/朋友圈素材/日常运营物料？这些是否已模板化或AI化？
-- signal: 团队引入AI工具后，资深设计师被拉去做大量运营素材，创意产出反而下降
+- src_unknown
   framework_lens: 人力资源错配——高端人才被低端需求消耗
   follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？
 ---# 中国设计需求的80-10-10分层法则
@@ -74,9 +74,9 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 是否已统计过去3个月设计需求的类型分布（运营 vs 创意 vs 其他）？
-- [ ] 80%的运营类需求是否已建立模板库和AI生成流程？
-- [ ] 资深设计师的时间分配：创意占比是否≥50%？如果不是，什么在消耗他们？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -84,5 +84,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb21-ecommerce-pricing-independent-model]] — 电商定价：线上价格带需独立建模
-- [[dk-yb25-solution-driven-visual-design]] — 解决方案驱动视觉设计
+- src_unknown
+- src_unknown

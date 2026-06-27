@@ -8,31 +8,31 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-quantification]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 比喻化
-- 比喻
-- 类比
-- 形象比喻
-- 高级比喻
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'
@@ -106,8 +106,8 @@ trust_level: medium-high
 > 如果让你用你自己的话跟别人解释我们这个东西是什么，你会怎么说？
 
 **判定标准**：
-- ✅ ≥50% 的测试听众用了自己的话而非你的比喻 → 比喻完成了工作（理解发生，喻体被内化后丢弃）
-- ❌ 用户直接重复了你的比喻（"它就是XX界的劳斯莱斯"）→ 用户记住了比喻但未必理解产品——比喻成了替代品而非桥梁
+- src_unknown
+- src_unknown
 
 ---
 

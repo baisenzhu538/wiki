@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-peak-end-rule
 title: 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
@@ -18,24 +18,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-scenario-reconstruction
-  - yt-demand-motivation-resistance
-  - yt-demand-hierarchy-model
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'整体体验还行'，但具体说不出好坏"
+  - src_unknown
     framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
     follow_up_question: "用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？"
-  - signal: "产品做了很多优化，但用户满意度没有提升"
+  - src_unknown
     framework_lens: 峰终定律——优化了平均体验，但峰值和终点没变
     follow_up_question: "你的优化是在峰值时刻、终点时刻，还是其他时刻？"
-  - signal: "用户推荐意愿低，但NPS调查中满意度不低"
+  - src_unknown
     framework_lens: 峰终定律——终点体验不好，影响推荐意愿
     follow_up_question: "用户使用结束时的体验是什么？是顺畅完成，还是遇到阻碍？"
-  - signal: "用户流失发生在某个特定节点"
+  - src_unknown
     framework_lens: 峰终定律——该节点可能是负面峰值
     follow_up_question: "用户流失前的最后一个体验是什么？是负面峰值还是终点体验不好？"
-  - signal: "竞品功能不如我们，但用户觉得竞品更好"
+  - src_unknown
     framework_lens: 峰终定律——竞品在峰值或终点体验更好
     follow_up_question: "竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？"
 
@@ -61,9 +61,9 @@ diagnostic_signals:
 
 需求分析不仅要问"用户需要什么"，还要问：
 
-- 用户在使用现有方案时，**最痛苦的时刻**是什么？（负面峰值）
-- 用户在使用现有方案时，**最愉悦的时刻**是什么？（正面峰值）
-- 用户在使用现有方案**结束时**的感受是什么？（终点体验）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 峰值体验的设计
 
@@ -88,10 +88,10 @@ diagnostic_signals:
 
 在用户访谈中，不仅问"你满意吗"，而是问：
 
-- "使用这个产品的过程中，哪个时刻最让你惊喜？"
-- "哪个时刻最让你失望？"
-- "使用结束时，你的感受是什么？"
-- "你会推荐给朋友吗？为什么？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -115,20 +115,20 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当优化体验时 → 先问"峰值和终点体验是什么？"
-- 当做用户访谈时 → 问"最惊喜/最失望的时刻？结束时的感受？"
-- 当设计产品流程时 → 标注峰值和终点，重点优化
-- 当分析流失原因时 → 检查流失前的峰值和终点体验
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-scenario-reconstruction`：用户场景重构法（使用前中后）
-- `yt-demand-motivation-resistance`：需求动机与阻力分析
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂泛产品设计需求工具箱指南
-- 一堂泛产品设计用户卡片需求挖掘
-- 峰终定律（Kahneman, 1999）
+- src_unknown
+- src_unknown
+- src_unknown

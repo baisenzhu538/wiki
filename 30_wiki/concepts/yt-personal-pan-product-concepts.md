@@ -4,32 +4,32 @@
 
 id: yt-personal-pan-product-concepts
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - personal-growth- yitang
+  - src_unknown
 estimated_tokens: 3300
 language: zh-CN
 query_triggers:
-- 个人修炼
-- 产品思维
-- 泛产品设计
-- 泛产品设计认知篇
-- 泛产品设计认知篇：重新理解泛化产品能力
-- 重新理解泛化产品能力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown认知篇
+- src_unknown认知篇：重新理解泛化产品能力
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[tool-泛产品落地-解放思想]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-three-virtues]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
@@ -44,15 +44,15 @@ yitang:
   course_id: yt-personal-pan-product-concepts
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 面对一个领域的新问题时，能先识别出它属于哪个通用产品设计任务类型
+- src_unknown
   framework_lens: 泛化能力 = 跨域映射
   follow_up_question: 这个问题与你已经熟悉的哪个领域的问题本质相同？
-- signal: 能调用需求/审美/落地三套工具箱中的至少一张卡牌来分析问题
+- src_unknown
   framework_lens: 泛产品能力是工具组合能力
   follow_up_question: 如果只能出一张牌，你会选哪张？为什么？
-- signal: 在跨域应用时，会补充该领域的特殊约束和专业知识
+- src_unknown
   framework_lens: 泛化不是取消专业化
   follow_up_question: 这个领域有哪些独特约束会让通用工具失效？
 updated_at: '2026-06-16'
@@ -75,20 +75,20 @@ trust_level: medium
 ### 失败模式
 
 1. **追求在每个领域都85分，结果在每个领域都平庸**
-   - **原因**：泛化误解为全面
-   - **修复**：明确泛化目标是‘稳定60-70分+快速迁移’，而非替代深度专家
+   - src_unknown
+   - src_unknown
 
 2. **用通用工具套所有领域，忽视行业know-how**
-   - **原因**：工具滥用
-   - **修复**：每次跨域应用前先列出‘该领域与通用假设不同的地方’
+   - src_unknown
+   - src_unknown
 
 3. **身份认同混乱，觉得自己什么都能做**
-   - **原因**：角色边界模糊
-   - **修复**：明确自己的主战场，泛产品能力是放大器而非替代品
+   - src_unknown
+   - src_unknown
 
 4. **学了很多工具但一个都不熟练**
-   - **原因**：广度无深度
-   - **修复**：先深度掌握3-5张核心卡牌，再逐步扩展
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -119,9 +119,9 @@ trust_level: medium
 
 ### 市场洞察
 
-- 少数领域有产品岗（互联网、汽车、硬件）——多数领域没有产品专家
-- 行业充斥着"没有产品经理的问题"——装修、婚礼、课程、活动等都需要产品思维但无专业岗
-- 泛产品设计填补了这个空白：用底层能力覆盖所有"无产品岗的设计场景"
+- src_unknown
+- src_unknown
+- src_unknown填补了这个空白：用底层能力覆盖所有"无产品岗的设计场景"
 
 ### 三大自我修养（整个课题的核心骨架）
 
@@ -171,16 +171,16 @@ Epstein 的洞见对 Truman 泛产品设计课的双重意义：**泛不是更�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
 
 ## Synthesis
 
 ### 关联卡片
 
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲（yitang 域）
-- [[yt-model-pan-product-36-strategies]] — 36 计总框架（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：泛产品能力本质是一个"跨域武器互通系统"——它不是多一个武器，而是让你已有的武器能在更多战场使用。Epstein 和 Drucker 共同指向：泛不是拥有更多武器，是知道用哪个武器
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：泛产品设计的核心不是"设计更多品类的东西"，而是"把一个品类的设计原则翻译到另一个品类"——这是最纯粹的跨域讲香能力
+- src_unknown（yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

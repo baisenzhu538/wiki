@@ -9,18 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验_vlm_desc.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[dk-决策经验值]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -33,9 +33,9 @@ updated_at: 2026-06-26
 ## 深层含义
 
 统计学家看业务：
-- 本月利润 = 样本均值（不是真实均值）
-- 下月利润 = 另一个独立样本
-- 你看到的数据里有信号也有噪声——大多数人把噪声当信号
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 实操启示
 
@@ -56,28 +56,28 @@ updated_at: 2026-06-26
 
 ## 与已有框架的关系
 
-- **[[framework-科学决策三角形]]**：抽样思维属于「宽度」维度——提醒你决策前先问"样本是否足够、是否有偏差"。
-- **[[dk-决策经验值]]**：经验值帮助你判断"这个波动我见过吗"，而抽样思维告诉你"单次数据不可信"。
-- **[[framework-lean-abcd-model]]**：ABCD 模型的假设验证本质上是连续抽样、更新信念的过程。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **投资决策**：一只基金上月跌 10% 不代表策略失效，要看长期分布。
-- **招聘判断**：一个候选人在一次面试中表现好/差，不能替代多轮、多场景的抽样。
-- **产品迭代**：A/B 测试只做 100 个样本就得出结论，往往是噪声驱动的产品改动。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 行动 checklist
 
-- [ ] 拿到一个数据点后，先问：这是信号还是噪声？
-- [ ] 样本量是否足够支撑这个结论？（新业务至少 3-6 个月或 ≥30 个独立样本）
-- [ ] 这个样本来自目标总体的哪个子集？是否存在选择偏差？
-- [ ] 是否用时间序列/分布视角看了数据，而不是单点数值？
-- [ ] 做决策前，是否参考了有经验者的模式判断？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
-- **Taleb（反脆弱视角）**：业务系统不是被动抽样的静态分布，人的干预会改变分布本身。把业务完全看作"抽样"可能低估主动行动和结构突变的力量。[conf=0.75, source=Taleb 反脆弱论证]
-- **Kahneman（认知偏差视角）**："别对一个样本点写战略"是对的，但人类大脑的默认模式就是从少量样本中找模式。这个口诀知易行难，需要制度化的"决策日志"和"复盘仪式"来约束。[conf=0.75, source=Kahneman, Thinking Fast and Slow]
+- src_unknown
+- src_unknown
 
 ## 一句口诀
 

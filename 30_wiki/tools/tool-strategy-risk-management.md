@@ -3,16 +3,16 @@
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 aliases:
-- 风险识别
-- 风险评估
-- 风险应对
+- src_unknown
+- src_unknown
+- src_unknown
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- risk_management
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_vlm_desc.md
@@ -24,14 +24,14 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[tool-strategy-category-role-matrix]]'
-  - '[[tool-strategy-activity-scope]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[framework-strategy-mckinsey-7s]]'
-  - '[[tool-strategy-control-points]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
@@ -93,8 +93,8 @@ Likelihood       策略：接受   策略：减轻
 | **低可能** | 低风险：接受（Accept） | 中风险：控制（Control） |
 
 **补充策略：**
-- **分担（Share）**：通过合作、外包、保险等方式共担风险
-- **规避（Avoid）**：退出高风险活动或改变策略方向
+- src_unknown
+- src_unknown
 
 ### 3.1 风险评分模板
 

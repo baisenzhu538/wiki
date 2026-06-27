@@ -6,20 +6,20 @@ title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/case'
-- '#topic/lean-startup'
-- '#topic/mvp'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -28,36 +28,36 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[yt-lean-essence]]'
-  - '[[yt-lean-beauty-store-conversion]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[case-yitang-weekly-modeling-engine]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队把"做出样品"当成验证起点，还没想清楚要验证哪个假设
+- src_unknown
   framework_lens: 一堂五步法 / 关键假设拆解
   follow_up_question: 这个测试要回答的是需求假设、产品内核假设，还是商业模式假设？如果只能验证一个，最该验证哪一个？
-- signal: 创始人过度投入外观设计，却说不清目标用户和核心场景
+- src_unknown
   framework_lens: 产品内核四要素 / 用户-场景-问题
   follow_up_question: 包装吸引的是哪类用户？他在什么具体场景下会因为包装而购买？这个卖点能否在货架上3秒内被理解？
-- signal: 用"我觉得有市场"替代对标和一线调研
+- src_unknown
   framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
 
@@ -97,8 +97,8 @@ diagnostic_signals:
 
 ### 行业机会判断：时光机 + 对标
 
-- **一线调研**：亲自到超市洗护区观察陈列，发现小林制药已进入市场，但包装普通、在货架上不起眼，甚至和肥皂、洗洁精放在一起。这说明**品类已被教育，但视觉呈现和场景细分还有竞争空间**。
-- **时光机理论**：日本大概是5-10年前的中国消费水平。日本市场已经验证过的品类，如果存在明显消费利差，现在进入可能正是时机。
+- src_unknown
+- src_unknown
 
 ### 产品内核验证：不做产品，先测"卖点组合"
 
@@ -120,10 +120,10 @@ diagnostic_signals:
 
 1. **明确要验证的假设**：是行业机会、用户群体、核心卖点，还是包装的识别度？一次测试只回答一个最关键的问题。
 2. **优先用低成本手段**：
-   - 专家访谈 / 行业调研判断行业机会；
-   - 对标竞品（尤其是日本等先行市场）判断卖点方向；
-   - 3D打印包装 + 货架模拟判断视觉吸引力；
-   - 小范围用户访谈判断场景和体感。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **不要混淆"验证卖点"和"做产品"**：3D打印能验证包装和卖点方向，但配方、供应链、成本控制还需要后续的研发验证。
 
 ## 一堂方法论的映射
@@ -166,6 +166,6 @@ diagnostic_signals:
 
 ## 置信度说明
 
-- **confidence: 0.72**：张磊在AMA中明确分享了自己操盘的内衣洗衣液案例，方法和结论都比较清晰；但本案例的细节来自口述/笔记，缺乏外部可公开验证的数据（如3D打印测试结果、销量数据）。
-- **trust_level: medium-high**：source_refs 包含3个来源，满足≥2的要求；但 confidence<0.8，因此 trust_level 为 medium-high。
-- 本卡适合作为**启发式案例**使用，引用时建议标注"张磊口述经验，外部可验证性有限"。
+- src_unknown
+- src_unknown
+- src_unknown

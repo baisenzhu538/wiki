@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-network-effects
 title: 网络效应：平台型商业模式的核心
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-scalability
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们要做平台'，但不知道网络效应类型"
+  - src_unknown
     framework_lens: 网络效应——平台需要明确的网络效应类型
     follow_up_question: "你的平台是哪种类型的网络效应？同边、跨边、还是数据网络效应？"
-  - signal: "用户平台两边都冷启动，无法启动"
+  - src_unknown
     framework_lens: 网络效应——双边平台需要解决鸡生蛋问题
     follow_up_question: "你的平台是先启动哪一边？如何吸引第一边用户？"
-  - signal: "用户平台有网络效应，但无法变现"
+  - src_unknown
     framework_lens: 网络效应——网络效应≠商业模式，需要变现设计
     follow_up_question: "你的网络效应如何变现？抽成、广告、还是增值服务？"
-  - signal: "用户说'我们平台用户越多，价值越大'，但用户不增长"
+  - src_unknown
     framework_lens: 网络效应——网络效应需要达到临界点
     follow_up_question: "你的平台达到网络效应的临界点了吗？需要多少用户？"
-  - signal: "用户平台被竞品超越，网络效应失效"
+  - src_unknown
     framework_lens: 网络效应——网络效应不是护城河，需要持续强化
     follow_up_question: "你的网络效应强度如何？用户迁移成本高吗？"
 
@@ -123,21 +123,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当做平台时 → 明确网络效应类型
-- 当启动平台时 → 设计单边启动策略
-- 当用户增长慢时 → 检查是否达到临界点
-- 当变现困难时 → 设计网络效应变现机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-scalability`：可规模化评估
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 平台战略研究（Parker & Van Alstyne）
-- 网络效应经济学
+- src_unknown
+- src_unknown
+- src_unknown

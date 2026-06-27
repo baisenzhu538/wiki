@@ -3,23 +3,23 @@ id: tool-封装可复用skill
 title: 技能：封装可复用Skill
 type: tool
 domain:
-- learning-methodology- ai-saas
-- management
-- kdo
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- GPTs/Claude Projects/自定义指令
-- Prompt管理工具
-- 内部知识库
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-反向提示获取优化建议]]'
-- '[[tool-渐进式披露上下文]]'
-- '[[tool-提示词结构化迭代]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：封装可复用Skill
 
@@ -45,27 +45,27 @@ related:
 4. 在需要时调用而非重写提示
 
 ## 适用场景
-- ✅ 团队内重复出现的任务类型
-- ✅ 需要非技术人员也能获得专业输出
-- ✅ 保证输出标准一致性
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 将隐性经验显性化为可复用资产，降低每次调用的认知成本，保证质量稳定
 
 ## 工具/环境
-- GPTs/Claude Projects/自定义指令
-- Prompt管理工具
-- 内部知识库
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

@@ -3,8 +3,8 @@ id: tool-马易-AI落地前置条件验证
 title: 技能：AI落地前置条件验证
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-低置信度样本黄金漏斗处理]]'
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI项目需求拆解筛选]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-马易-RPA数据整合法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI落地前置条件验证
 
@@ -38,25 +38,25 @@ AI落地前置条件验证是马易在AI落地场景识别中提出的实操方�
 
 ## 适用场景
 
-- 筛选后的场景进入实施前评估
-- 物理世界/线下业务AI化
-- AI输出效果不达预期时排查根因
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已确认信息化数字化完备且验证通过
-- 纯数字原生业务（如互联网内容生成）
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 信息化成熟度评估框架
-- AI快速原型工具（如ChatGPT/Claude/文心一言等）
-- 数据采集与标注工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AI运行在比特世界，依赖数字化输入；物理世界业务必须先完
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -5,8 +5,8 @@ title: 迭代到审美上限：一张图的隐形成本远超显示器——Trum
 type: dk
 status: draft
 domain:
-- product-design
-- yitang
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md
 created_at: '2026-06-09'
@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - '[[tool-月白-Token智甲比控制法]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
-  - '[[dk-jh-llm-time-blindness]]'
-  - '[[dk-ai-judgment-human-responsibility]]'
-  - '[[dk-ai-judgment-programmer-paradox]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 迭代到审美上限：一张图的隐形成本远超显示器
 
 > Truman在泛产品设计课上分享了一个真实的产品迭代案例：为了让一张导航图更好看，他透过一张一张的比对，花了整整半个多小时。最终产品经理一句话点破：**“显示器很便宜，你不用救它。”** 这是一个关于**产品第一性原则**的关键暗知识——迭代的终点不是“足够好”，而是“审美上限”。
@@ -41,9 +41,9 @@ related:
 
 ### Constraints
 
-- **只适用于高频、高价值的交付物**：一张导航图值得半个多小时，因为它是用户每天都要看的核心界面。如果是一个低频、低价值的功能页面，这种级别的迭代就是过度投入。
-- **需要产品经理有足够的审美判断力**：不是每个人都能像Truman那样通过“一张张比对”就能找到最佳方案。缺乏审美训练的人，迭代可能只是在原地打转，而不是向上提升。
-- **团队成本很高**：半个多小时只改一张图，在快节奏团队中可能被视为"磨蹫"或"效率低下"。需要团队有足够的信任和文化支撑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击一：敏捷产品经理（追求MVP和快速迭代）
 
@@ -56,18 +56,18 @@ related:
 
 ## Cases
 
-- **正面案例：一堂导航图的23版迭代** —— Truman花半个多小时一张张比对，从颜色、布局、重心、字体等维度不断迭代，最终产品经理认可达到"你不用救它"的状态。
+- src_unknown
 
-- **反面案例：某SaaS产品的设置页面** —— 团队用了2小时做了一个"能用"的设置页面，但用户每次进入都感到"这个页面好乱"。因为达不到审美上限，用户对产品的整体信任度下降，即使核心功能很强。
+- src_unknown
 
-- **边界案例：内部管理后台** —— 内部系统的管理后台，每天只有1-2个人使用，花半个多小时去优化它的审美是过度投入。这种场景下，"足够好"就真的足够了。
+- src_unknown
 
 ---
 
 ## Synthesis
 
-- [[case-truman-motivation-map-12-versions]] —— 同样是迭代精神，动机地图案例展示了”基于用户观察的迭代”（先观察再设计），而导航图案例展示了”基于审美标准的迭代”（直观判断+一张张比对）。两种迭代方法适用于不同类型的交付物。
+- src_unknown
 
-- [[yt-personal-pan-product-tools]] —— 泛产品设计30张牌中的审美迭代模块，专门处理”交付物达到审美上限”的操作流程。本暗知识是该模块的底层原理。
+- src_unknown
 
-- 产品第一性原则中提到”每个交付物都要值得看”，迭代到审美上限是这个原则的极致表达——不仅要值得看，还要看到最好。
+- src_unknown

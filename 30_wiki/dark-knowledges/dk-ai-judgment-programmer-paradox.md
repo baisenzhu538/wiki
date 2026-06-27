@@ -5,8 +5,8 @@ title: 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 type: dk
 status: draft
 domain:
-- ai-saas
-- yitang
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -16,11 +16,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[dk-my-ai-landing-three-barriers]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-ai-judgment-human-responsibility]]'
-  - '[[dk-jh-llm-time-blindness]]'
-  - '[[dk-yb12-ai-image-analysis-replace-training]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 程序员的AI悖论
 
 > 国帅在AI时代判断力课上分享了自己的心路历程：作为程序员和一堂CTO，他是ChatGPT最早期的用户之一，却是团队中最晚享受到AI红利的人。**程序员写AI工具，但最晚享受到AI红利**——这是一个关于技术创作者价值捕获盲区的暗知识。
@@ -41,9 +41,9 @@ related:
 
 ### Constraints
 
-- 主要适用于技术创作者（程序员、产品经理、设计师）
-- 需要有足够的专业判断力才能识别出"谷底阶段"
-- 可能导致过度保守，错过早期红利
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击一：AI乐观派
 
@@ -57,15 +57,15 @@ related:
 
 ## Cases
 
-- **正面：国帅的心路历程**：从率先登顶（GPT-3.5早期用户）→ 谷底躺平（完全不信任AI产出）→ 模型成熟后反击（Claude 4.5后重新使用）。
+- src_unknown
 
-- **反面：某创业团队的技术合伙人**：因为对AI代码质量要求过高，拒绝使用AI辅助编程，结果团队开发效率被竞争对手远远抛开。
+- src_unknown
 
-- **边界：非技术背景的用户**：对AI没有足够的技术判断力，可能会过度信任AI产出，走另一个极端。
+- src_unknown
 
 ---
 
 ## Synthesis
 
-- skill-Truman-个人判断力系统建设 —— 达克效应应对是判断力系统建设的重要组成部分。
-- [[dk-ai-judgment-human-responsibility]] —— 越依赖AI，越知道AI的边界。
+- src_unknown
+- src_unknown

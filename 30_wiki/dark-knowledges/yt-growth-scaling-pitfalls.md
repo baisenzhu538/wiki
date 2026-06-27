@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-business-model-scalability
-  - yt-growth-data-driven-decision
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们增长很快，但亏损越来越大'"
+  - src_unknown
     framework_lens: 增长规模化陷阱——增长快≠健康，需要单元模型支撑
     follow_up_question: "你的LTV/CAC是多少？增长是否基于健康的单元模型？"
-  - signal: "用户说'我们规模化后，用户质量下降了'"
+  - src_unknown
     framework_lens: 增长规模化陷阱——规模化可能稀释用户质量
     follow_up_question: "规模化前后的用户LTV对比如何？渠道是否变化？"
-  - signal: "用户说'我们团队跟不上增长'"
+  - src_unknown
     framework_lens: 增长规模化陷阱——组织能力是增长的瓶颈
     follow_up_question: "你的团队人效是多少？关键岗位是否有人？组织能力是否匹配增长？"
-  - signal: "用户说'增长到了天花板'"
+  - src_unknown
     framework_lens: 增长规模化陷阱——增长天花板需要突破，不是硬撞
     follow_up_question: "你的增长天花板是什么？市场、产品、还是组织能力？"
-  - signal: "用户说'我们复制了别人的增长策略，但没用'"
+  - src_unknown
     framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
     follow_up_question: "别人的增长策略的前提条件是什么？你的条件是否匹配？"
 
@@ -126,21 +126,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当增长快时 → 检查单元模型健康度
-- 当规模化时 → 评估组织能力
-- 当增长停滞时 → 分析市场天花板
-- 当复制策略时 → 分析前提条件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-business-model-scalability`：商业模式可规模化
-- `yt-growth-data-driven-decision`：数据驱动决策
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 增长规模化研究
-- 创业失败案例
+- src_unknown
+- src_unknown
+- src_unknown

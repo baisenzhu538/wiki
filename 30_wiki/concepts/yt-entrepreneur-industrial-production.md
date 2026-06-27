@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "工业化生产"
-  - "标准化流程"
-  - "创业SOP"
-  - "可复制性"
-  - "规模化前提"
-  - "手工转工业化"
-  - "流程标准化"
-  - "创业效率"
-  - "工具链自动化"
-  - "内容产品化"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,18 +38,18 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户还没验证需求就搞SOP', 'framework_lens': '过早标准化——在错误的事情上提高效率', 'follow_up_question': '这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误'}
   - {'signal': '用户把一切都标准化，扼杀创新', 'framework_lens': '过度工业化', 'follow_up_question': '哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-research-cognition]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 工业化生产
 
@@ -69,9 +69,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「起盘阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -90,7 +90,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

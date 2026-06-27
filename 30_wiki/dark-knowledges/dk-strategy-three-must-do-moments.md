@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[tool-马易-中国企业AI落地五步法]]'
-  - '[[concept-mckinsey-7s]]'
-  - '[[dk-strategy-08-not-local-optimum]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[tool-strategy-swot]]'
-  - "[[framework-strategy-six-stages]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---**三种时刻**：
 1. **快速扩张时**——管理复杂度爆炸，没战略=乱打
 2. **业务平台期**——增长停滞但找不到原因，战略=重新定义战场

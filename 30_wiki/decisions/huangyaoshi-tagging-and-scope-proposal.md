@@ -6,20 +6,20 @@ title: 黄药师：数据标签方案 + 暗知识全量范围
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
-- 用户（决策者）
+- src_unknown
+- src_unknown
 related:
-  - '[[kdo-15-dimension-label-spec]]'
-  - '[[gold-standard-manual-labels]]'
-  - '[[huangyaoshi-data-alignment-response]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[data-curator-role-division]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
-  - '[[data-curator-role-division]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -70,25 +70,25 @@ trust_level: low
 
 1. **`chunk_type`** — chunk_cards.py v1.3 已完成（heading 映射 + 暗知识 6 字段映射）
 2. **`perspective`** — 检测信号：
-   - 提到"平台""违规""限流""禁词""小红书""抖音" → `platform`
-   - 提到"用户""客户""学员""老板""设计师" → `audience`
-   - 提到"中医""西医""成分""原理""专业术语" → `professional`
-   - 提到"合规""法律""隐私""版权" → `compliance`
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **`audience`** — 关键词推断：
-   - "CEO""老板""一号位""战略" → `ceo`
-   - "执行""操作""步骤""落地" → `executor`
-   - "设计""视觉""构图" → `designer`
-   - "入门""新手""零基础" → `beginner`
-   - "进阶""高级""深度" → `expert`
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **`method_family`** — 从卡片 method tag 继承 + 内容关键词补全
 5. **`error_root`** — error_data 类型专用：检测"跳过""没做""未验证""静默"等关键词
 6. **`platform`** — 检测平台名称（小红书/抖音/微信/飞书）
 
 ### 人工抽检（欧阳锋 P2 标准）
 
-- 每批 5 张卡，抽检 1 张的 5 块
-- 标注准确率 < 80% → 退回重标注
-- 不卡流程（P2 级别）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 实现路径
 
@@ -176,9 +176,9 @@ perspective > audience > method_family
 一期→二期→三期，顺序对。一期最结构化、ROI 最高；二期口述稿是真正的金矿。
 
 三期建议先不急：
-- "欧阳锋审查意见"散布在 20+ 个任务文件中，先扫描得花黄药师大量时间，产出又高度不确定
-- `.agent/decisions.md` 和 `context.md` 历史决策区的结构化程度远低于一期素材
-- 等一期二期跑完，管线成熟了再回扫三期，效率反而更高
+- src_unknown
+- src_unknown
+- src_unknown
 
 **调整建议**：一期做完后不走三期，直接进二期。三期标记为"待定"，不承诺时间。
 

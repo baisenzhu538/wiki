@@ -3,7 +3,7 @@
 id: "ocr-一堂刻意练习十年成长指数"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_e6cf558a
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂刻意练习十年成长指数"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂五步法-产品内核画布]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[yt-model-deliberate-practice-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂刻意练习十年成长指数
@@ -36,35 +36,35 @@ png` 刻意练习·一堂10年成长指数 堂 DeliberatePractice:Yitang10-YearG
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 成长速度差异的核心在于是否进入"无限进步区"而非停留在"低端重复"
-- 刻意练习的五大要素：固定套路、非舒适区、及时反馈、大量重复、练习要素
-- "无限进步"是指数型成长的目标状态，与线性"不断提升"有本质区别
-- 专家成长路径需要突破"开始进步"的初始阶段，避免长期停留在固定套路的舒适区
-- 及时反馈是刻意练习区别于盲目重复的关键机制，决定练习能否转化为有效进步
-- "一年顶十年"的成长效率源于持续处于非舒适区的刻意练习，而非时间累积的自然结果
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 图中"9 无限进步区"的"9"是编号还是某种量化指标？若为量化指标，其计算依据和量表是什么？
-- "固定套路"被列为刻意练习要素之一，但通常"固定套路"与"低端重复"的负面概念易混淆，此处具体指何种训练结构？
-- "练习要素"作为第五项要素，其命名明显不同于其他四项（均为具体机制），这是OCR误识还是原文如此？若为原文，其具体内涵是什么？
-- 成长路径中"e"符号出现在"开始进步"与"无限进步"之间，是数学常数e的隐喻、设计元素，还是OCR误识？
-- "非舒适区"与"不断提升"在视觉结构中的空间关系如何？是并列阶段还是递进关系，需结合原图确认
-- "一年顶十年"的效率比较是否有实证研究支撑，还是仅作为修辞性的激励表达？
-- 该指数模型是否区分不同领域（如认知型、技能型、体能型）的刻意练习差异，还是假设普适性？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -78,20 +78,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

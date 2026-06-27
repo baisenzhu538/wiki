@@ -9,16 +9,16 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: []
 query_triggers:
-- 五步法误区
-- 五步法错误用法
-- 五步法为什么没用
-- 五步法失败原因
-- 商业分析常见错误
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
@@ -26,16 +26,16 @@ source_refs:
 - src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
 status: reviewed
 related:
-  - '[[yt-market-size-estimation]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[一堂]]'
-  - '[[yt-business-analysis-cognitive-biases]]'
-  - '[[five-step-domain-digest]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-demand-analysis-hiking-map]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk
@@ -47,12 +47,12 @@ yitang:
   course_type: dk
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户填完画布就放在一边
+- src_unknown
   framework_lens: 静态工具化
   follow_up_question: 你的五步法画布最近一次更新是什么时候？如果超过一个月，它已过时
-- signal: 用户学了五步法就觉得自己很牛
+- src_unknown
   framework_lens: 过度自信
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
 updated_at: '2026-06-16'
@@ -76,14 +76,14 @@ author: 老顽童
 > "静态的啊填完就不改了……无法就是一个非常静态工具。"
 
 **危害**：
-- 业务发展变化了，五步法没有更新
-- 团队讨论还是基于过时的假设
-- 框架从"导航"变成"装饰品"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 设定强制迭代机制（每周/每月复盘）
-- 业务发生重大变化时，必须重新走一遍五步法
-- 将五步法文档放在团队随时可见的地方
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 误区二：过度自信
 
@@ -93,14 +93,14 @@ author: 老顽童
 > "觉得自己特厉害啊，就那些东西一眼都能看清的东西，我还填什么五步法呢？"
 
 **危害**：
-- 用直觉替代系统分析
-- 忽略关键假设和风险点
-- 团队无法对齐认知
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- Truman 的实验表明：讲课前自评 7-8 分的人，最后大都自觉"不到 60 分"
-- 用"独立填写→对比→讨论"的方式暴露认知差异
-- 强制要求每个人在重大决策前填写五步法
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 误区三：见识不足
 
@@ -110,14 +110,14 @@ author: 老顽童
 > "见识太少啊，这个看业务不够本质，没见过好的无法长什么样。"
 
 **危害**：
-- 分不清"故事版"和"定量版"的差距
-- 误把粗糙分析当深度分析
-- 不知道下一步该突破什么
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 多研究优秀案例（一堂课程中有大量案例）
-- 找比自己高 1-2 个段位的人 review
-- 对比自己的版本和标杆版本的差距
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 误区四：表述模糊
 
@@ -127,14 +127,14 @@ author: 老顽童
 > "不够定量啊，特别喜欢那种定性的那些很大的东西，然后真正用数字描述商业比例很低。"
 
 **危害**：
-- "市场很大"不等于"我们能触达的市场很大"
-- "用户喜欢"不等于"用户愿意付费"
-- 投资人/合伙人无法判断可行性
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 每个关键判断都必须有数字支撑
-- 不知道数字时，明确标注"假设待验证"
-- 用区间估计替代点估计（如"10-20%"而非"15%"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 误区五：把五步法当演讲稿
 
@@ -142,14 +142,14 @@ author: 老顽童
 **深层问题**：混淆了"分析框架"和"营销材料"。
 
 **危害**：
-- 投资人觉得浮于表面
-- 团队对业务缺乏深度理解
-- 一旦遇到质疑就无法回应
+- src_unknown
+- src_unknown
+- src_unknown
 
 **破解方法**：
-- 路演时讲"我们是如何推导出这个结论的"
-- 准备每个关键假设的验证数据
-- 区分"给投资人看的版本"和"给团队用的版本"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

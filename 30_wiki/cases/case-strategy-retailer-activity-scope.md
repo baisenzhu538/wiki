@@ -9,18 +9,18 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
 related:
-  - '[[tool-strategy-activity-scope]]'
-  - '[[case-strategy-snack-business-design]]'
-  - '[[dk-yb22-visual-presentation-scene-match]]'
-  - '[[tool-strategy-activity-scope]]'
-  - '[[tool-strategy-category-role-matrix]]'
-  - '[[tool-strategy-customer-selection]]'
-  - '[[tool-strategy-value-proposition]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **对比矩阵**：
 
@@ -31,16 +31,16 @@ related:
 
 **活动范围差异**：
 
-- **零售商A（沃尔玛模式）**：
-  - 公司内部做：零售（遍布世界的连锁卖场）
-  - 公司外部做：设计、生产（集中在中国低成本生产中心）
+- src_unknown
+  - src_unknown
+  - src_unknown
 
-- **零售商B（Sunglass Hut / LensCrafters 模式）**：
-  - 公司内部做：品牌、设计（意大利——世界时尚和精尖行业人才的窗口）
-  - 公司外部做：零售、生产（遍布全球的 Sunglass Huts 和 LensCrafters 品牌眼镜店）
+- src_unknown
+  - src_unknown
+  - src_unknown
 
-- **零售商C（品质品牌模式）**：
-  - 公司内部做：品牌、设计
-  - 公司外部做：生产（在韩国获得生产许可，在中国进行生产）
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 **核心洞察**：客户选择和价值主张一旦确定，活动范围的"What / How / Where"必须与之对齐。成本型玩家把设计和生产外包到中国；时尚型玩家把品牌和设计牢牢抓在手里，把零售和生产放出去。

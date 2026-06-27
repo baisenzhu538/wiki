@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,18 +10,18 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 prerequisites:
-  - yt-entrepreneur-five-step-method
+  - src_unknown
 query_triggers:
-  - "商业预判"
-  - "创业方向选择"
-  - "15字诀"
-  - "光谱模型"
-  - "P型创业者"
-  - "L型创业者"
-  - "行业硬伤"
-  - "选项池"
-  - "预判能力"
-  - "创业成功率"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-11
 source_refs:
 - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
@@ -29,7 +29,7 @@ source_refs:
   - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 status: enriched
 superseded_by:
-  - yt-foresight-business-spectrum
+  - src_unknown
 title: "商业预判15字诀"
 trust_level: medium
 type: tool
@@ -41,19 +41,19 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户用15字诀快速否定一个机会', 'framework_lens': '简化成口诀但缺少深度分析', 'follow_up_question': '你除了念口诀，还做了哪些定量或定性的分析？'}
   - {'signal': '用户只做减法不做加法', 'framework_lens': '违背"充分做加法"', 'follow_up_question': '在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-concept-p-type-l-type]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 商业预判15字诀
 
@@ -119,11 +119,11 @@ claim:boundary-14 [conf=0.80] **单元模型**：最小商业闭环的盈利逻�
 
 ## Constraints & Boundaries
 
-- **时间成本与速度的矛盾**：充分做加法需要大量调研时间（访谈10个专家、拆解3个头部案例、生成50-100个选项），但创业窗口期往往有限。时间成本与机会成本之间存在结构性张力。
-- **认知天花板效应**：预判质量受限于预判者已有的行业认知和经验。P型创业者即便学习了15字诀，其"充分做加法"的结果仍然受限于认知边界——"你不知道你不知道什么"。
-- **过度分析陷阱**：加法做得太充分可能导致"分析瘫痪"（Analysis Paralysis），在选项池中反复比较而永远选不出最优解。最优解往往不存在，"足够好"的决策比"完美"的决策更有价值。
-- **光谱模型的文化局限**：7阶段划分基于中国创业环境和一堂学员样本，不一定适用于其他市场（如硅谷、东南亚）。不同市场的质变点可能完全不同。
-- **减法的主观性**："硬伤"的识别高度依赖个人经验和行业洞察，同一项目不同人可能得出完全不同的硬伤判断。缺乏客观量化标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

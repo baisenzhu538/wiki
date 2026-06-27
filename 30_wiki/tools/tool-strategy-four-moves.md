@@ -10,14 +10,14 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[concept-strategy-framework-landscape]]'
-  - '[[tool-strategy-gap-analysis]]'
-  - '[[framework-multi-agent-research-architecture]]'
-  - '[[tool-strategy-four-layers]]'
-  - '[[tool-strategy-three-horizons]]'
-  - "[[framework-strategy-six-stages]]"
-  - "[[tool-strategy-nine-problems]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 ## 四招
 

@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-审美卡片-最佳实践建模"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_89529426
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-审美卡片-最佳实践建模"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-审美工具箱指南]]'
-  - '[[ocr-泛产品设计-审美卡片-美好作品想象]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践池子]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践收集]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-审美卡片-最佳实践建模
@@ -36,33 +36,33 @@ png` 泛产品设计·审美卡片 最佳实践建模 用评价维度打磨产�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 使用白盒思维进行产品设计：主动寻找大量最佳实践，从中提取共性规律，建立可量化的评价指标来衡量产品质量。
-- 审美卡片方法的核心是"用评价维度打磨产品"，将模糊的审美判断转化为结构化的评估体系。
-- 该方法适用于所有长期持续迭代的最佳实践级产品设计场景，强调渐进式优化而非一次性完美。
-- 关键进步方式是练习绘制"最佳实践雷达图"，通过可视化多维度评价来系统提升产品审美质量。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 什么是"白盒思维"的具体操作步骤？与"黑盒思维"或其他设计思维方法的边界在哪里？
-- "最佳实践"的来源和筛选标准是什么？如何避免幸存者偏差或行业特定偏见的干扰？
-- "一个评价指标"与后文"雷达图"的多维度评价是否存在矛盾？单一指标与多维体系如何统一？
-- "审美卡片"的物理或数字形态是什么？卡片与雷达图之间的具体转化机制未被说明。
-- "所有长期的、持续迭代的"场景中，该方法对短期或一次性设计项目的适用性是否完全被排除？依据是什么？
-- "堂/没有什么不是一堂课解决不了的"这句OCR识别存疑，是否为"一堂课"品牌的 slogan？若为误识，核心方法论的品牌归属或作者身份将产生歧义。
-- 练习"最佳实践雷达图"的具体频率、评估标准和进阶路径缺失，如何验证练习效果？
-- "最佳实践级产品设计"中的"最佳实践级"是修饰语还是特定术语？其定义和分级标准未给出。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **审美的主观性：本卡片强调"最佳实践"和"美好作品"，但未认识到审美是深度主观和文化依赖的。什么是"美好"因人而异。
-- **"最佳实践"的相对性："最佳实践"的标准可能随时间、地域、行业而变化，未提供验证机制。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 不要用的场景
 
-- **跨文化产品设计：不同文化对"美好"的定义不同，"最佳实践"可能不具有跨文化普适性。
-- **高度功能性产品（如工业设备）：这些产品的设计优先级是安全性和效率，而非"审美"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-aesthetic-practice — 审美实践的理论基础
-- yt-decision-design-philosophy — 设计哲学与"美好作品"同源
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 设计评审：用审美卡片评估设计作品的审美层次
-- 团队审美对齐：用"最佳实践池子"统一团队的审美标准
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

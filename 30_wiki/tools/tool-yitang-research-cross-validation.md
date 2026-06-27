@@ -13,34 +13,34 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 交叉验证
-- 多源验证
-- 信息验证
-- 可信度验证
-- 印证分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-normalize-summary]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-quantitative-modeling]]'
-  - '[[concept-yitang-research-facts-first]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "（tool-yitang-research-facts-first，待补）"
-  - "[[tool-yitang-research-quantitative-modeling]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[dk-yitang-expert-interview-5-traps]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 交叉验证：多源印证的信息可信度提升
@@ -60,10 +60,10 @@ related:
 ## 第一步：识别关键信息
 
 ### 关键信息特征
-- 影响决策的信息
-- 单一来源的信息
-- 存疑的信息
-- 专家观点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键信息清单模板
 
@@ -92,9 +92,9 @@ related:
 | **不同立场** | 不同利益相关方 | 公司+用户+供应商 |
 
 ### 来源独立性检查
-- 两个来源是否独立？
-- 是否有共同的上游来源？
-- 是否有利益相关？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -130,25 +130,25 @@ related:
 [信息描述]
 
 ### 来源1
-- 来源：[来源]
-- 数据：[数据]
-- 可信度：[高/中/低]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 来源2
-- 来源：[来源]
-- 数据：[数据]
-- 可信度：[高/中/低]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 来源3（如有）
-- 来源：[来源]
-- 数据：[数据]
-- 可信度：[高/中/低]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一致性评估
-- [ ] 完全一致
-- [ ] 基本一致
-- [ ] 部分一致
-- [ ] 完全矛盾
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 结论
 [可信度评估]
@@ -205,22 +205,22 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 交叉验证模块
-- 交叉：科学研究方法
-- 注意：交叉验证是调研的基础工具，适用于所有关键信息
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

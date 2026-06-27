@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai
+- src_unknown
+- src_unknown
 source_person: 一堂
 source_context: AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
 source_refs:
@@ -15,28 +15,28 @@ source_refs:
 - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
 - 10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md
 tags:
-- '#domain/yitang'
-- '#domain/ai'
-- '#chunk-type/critique'
-- '#source_type/insight'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - '[[yt-three-dimension-opportunity-matrix]]'
-  - '[[dk-pseudo-demand-trap]]'
-  - '[[yt-three-dimension-opportunity-matrix]]'
-  - '[[yt-ai-startup-20-risky-hypotheses]]'
-  - '[[case-ai-time-management-tiered-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 团队能连续展示AI demo，但说不清"用户为什么付费"
+- src_unknown
   framework_lens: 技术可行性幻觉——把能力可见性误当成需求真实性
   follow_up_question: 如果这个AI功能明天消失，用户会因为失去什么而取消订阅？
-- signal: 三维排列组合筛选时优先讨论"哪个交叉点最能展示AI技术"
+- src_unknown
   framework_lens: "新能力\"维度权重过高，\"新行业/新模式\"需求验证被系统性跳过"
   follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
 ---
@@ -50,11 +50,11 @@ AI时代的创业者面临一个前所未有的认知陷阱：**技术能力的�
 
 ## 使用场景
 
-- 团队刚做出一个AI demo，内部反响热烈，准备投入开发前
-- 使用三维排列组合工具筛选机会时，发现大家在争论"哪个交叉点更AI"
-- 技术背景较强的创始人主导产品方向，缺乏业务/用户视角的制衡
-- 投资人问"用户为什么付费"时，团队只能回答"因为AI很牛"
-- 产品上线后用户增长缓慢，需要诊断是技术问题还是需求假设错误
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -96,13 +96,13 @@ AI时代的创业者面临一个前所未有的认知陷阱：**技术能力的�
 
 ## 为什么值钱
 
-- **技术可行≠商业可行**是AI创业中最隐蔽的陷阱：技术能力看得见、摸得着、演示得出，需求真实性却需要主动挖掘，人性天然偏好确定性高的事情。
-- 大量AI创业项目烧钱做出来后无人问津，根因不是技术不够强，而是**用户并不需要这个**——这张卡把"需求验证"从可选项变成强制项。
-- 它与[[yt-three-dimension-opportunity-matrix]]和[[yt-ai-startup-20-risky-hypotheses]]形成互补：工具告诉你"怎么找交叉点"，这张卡告诉你"交叉点筛选时最容易犯的权重视错觉"。
-- 对技术型创始人尤其值钱：它提供了一套**反直觉的纠偏机制**，防止团队用工程能力替代商业判断。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- **[[yt-three-dimension-opportunity-matrix]]** — 这张暗知卡是三维排列组合工具的必要补充。工具告诉你"新行业×新模式×新能力=机会"，这张暗知卡告诉你"新能力权重过高时，公式会失效"。
-- **[[yt-ai-startup-20-risky-hypotheses]]** — 20条假设清单可以帮助排除技术风险，但清单的设计不包含"需求验证"。这张暗知卡填补了清单的盲区——在通过20条假设检查后，仍然需要独立做一次"需求真实性验证"。
-- **[[case-ai-time-management-tiered-growth]]** — AI时间管理App案例中，案主看到了AI能力（智能任务分配、时间分析），但一堂的预判追问是："用户愿意为时间管理付费的原因是什么？"——不是因为AI很酷，而是因为"时间不够用的焦虑"。如果产品只展示了AI能力而没有解决焦虑，demo再惊艳也换不来付费。
+- src_unknown
+- src_unknown
+- src_unknown

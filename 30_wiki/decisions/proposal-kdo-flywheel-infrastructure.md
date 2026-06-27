@@ -4,23 +4,23 @@ title: 飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机�
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
+- src_unknown
 reviewer: 欧阳锋
 author: 黄药师
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 related:
-  - '[[kdo-flywheel]]'
-  - '[[sprint-6-cli-gap-proposal]]'
-  - '[[dk-f5-stale-feedback-ref]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[proposal-deep-synthesis-infrastructure]]'
-  - '[[proposal-deep-synthesis-infrastructure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6
@@ -88,9 +88,9 @@ kdo feedback --kind eval-results --escalate
   → 解析文章的 Feedback 段
   → 匹配"？"结尾的句子 → 提取为问题列表
   → 按问题类型路由：
-      - "是否应该..." → 创建 decision 工单
-      - "如何..." → 创建 improvement-plan 工单
-      - "什么场景下..." → 创建 experiment 工单
+      - src_unknown
+      - src_unknown
+      - src_unknown
   → 写入 70_product/tasks/flywheel-{date}.md
 ```
 
@@ -163,9 +163,9 @@ kdo flywheel --topic "KDO 数据架构" --from article_20260602
 1. 建一个东西（工具/框架/判断/规则）
 2. 自己先用它做一次真实的事（不能是 toy example）
 3. 问三个问题：
-   - 哪里和我预期不一样？
-   - 这个不一样是执行问题还是设计问题？
-   - 如果是设计问题，根因是什么？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. 基于根因，建下一个东西
 5. 循环，直到连续两次使用没有发现新的"设计问题"
 ```

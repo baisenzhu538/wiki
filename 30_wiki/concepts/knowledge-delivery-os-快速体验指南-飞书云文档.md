@@ -4,7 +4,7 @@
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain:
-- master
+- src_unknown
 source_refs:
 - src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
 status: enriched
@@ -12,17 +12,17 @@ title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
 type: concept
 updated_at: 2026-05-04
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[kdo_product_design_agent_final]]'
-  - '[[graph-rag]]'
-  - '[[dk-f4-wrong-workdir]]'
-  - '[[dk-f3-state-json-race-condition]]'
-  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # Knowledge Delivery OS 快速体验指南
 
@@ -47,14 +47,14 @@ related:
 ## Critique
 
 ### 前提假设
-- 假设用户愿意接受 CLI 作为主要界面。【可靠性：中】技术用户可以，但非技术用户（如老朱提到的"传统行业老板"）上手门槛极高。这限制了 KDO 的受众范围——目前限于会用命令行的知识工作者。
-- 假设"本地文件 + state.json"足以管理复杂的工作空间状态。【可靠性：中】——concept 和 artifact 的关联关系目前靠人工维护 index.md，缺少自动化图索引（如 Graph RAG 所需要的）。当概念卡超过 50 张时，手动维护 index 会变成负担。
-- 假设飞书文档能高质量转换为 Markdown。【可靠性：低】——表格、图片、评论等富文本元素的转换质量未经验证。当前 KDO 体验指南本身标题就存在零宽字符脏数据问题（已修复）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
-- KDO 适合：个人知识管理、小型团队的共享 wiki、内容创作者的工作流。
-- KDO 不适合：多人实时协作（不如 Notion/飞书）、非文本知识管理（图片/视频/音频）、非技术人员主导的团队。
-- CLI 模式与美国市场的 developer-tool 文化契合，但中国市场对 CLI 工具的接受度远低于 GUI——这是 KDO 在国内推广的结构性阻力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可靠性评估
 **整体可靠性：中。** KDO 的架构设计清晰，三层模型（raw → wiki → output）逻辑自洽。但当前版本仍是早期阶段——lint 检查显示大量 scaffold 目录缺失，部分概念卡未完成编译。产品成熟度不足以支撑"生产级"依赖。
@@ -64,16 +64,16 @@ related:
 ## Synthesis
 
 ### 关联概念
-- [[kdo-protocol]] — KDO 体验指南是 Protocol 的"用户手册"，Protocol 的定义需要在指南中得到清晰映射。
-- [[graph-rag]] — KDO 当前只有文本层面的 双向链接，Graph RAG 是让三层溯源链路可计算化的关键基础设施。
-- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] — KDO 本身就是 AI-native 组织的最小可行原型：CLAUDE.md 是组织的"操作系统"，三步编译是知识的"工厂产线"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 互补与冲突
-- 互补：KDO 解决了 YC 方法论中"公司变得可查询"的技术实现——state.json 记录了所有 source→wiki→artifact 的溯源链，KDO 的 workspace 就是公司认知的"可查询快照"。
-- 冲突：KDO 的 CLI 设计倾向于个人使用，YC 的方法论强调团队协作——如果团队其他成员不接触 CLI，KDO 就无法实现"组织级知识共享"。这需要在 P2 阶段解决多用户接入问题。
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
-- 任何需要"将散落知识编译为可交付资产"的场景——内容创作、研究报告、技术文档、团队 onboarding。
+- src_unknown
 
 ---
 
@@ -84,18 +84,18 @@ related:
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Source Refs
 
-- 10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md`
+- src_unknown
 
 ## Open Questions
 
-- KDO 与 Obsidian 的集成深度如何——双向链接、Dataview 查询、模板系统是否打通？
-- CLI 工具对非技术用户的可用性：是否计划提供 GUI 或 Obsidian 插件降低使用门槛？
-- 飞书云文档作为输入源的转换质量如何——表格、图片、评论等富文本元素的保留程度？
-- KDO 的多用户协作模式是什么——是单人知识管理工具还是支持团队共享 wiki？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ## Output Opportunities
 
-- Content: KDO 从飞书文档到知识文章的完整入门教程
-- Capability: 飞书文档 → KDO 一键转换发布工作流
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

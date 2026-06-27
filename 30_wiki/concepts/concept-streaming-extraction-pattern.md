@@ -15,10 +15,10 @@ source_refs:
   - src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
   - src_unknown
 related:
-  - "[[concept-feishu-api-pagination-trap]]"
-  - "[[feishu-docx-pagination-extraction]]"
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "长文档提取时内存爆炸或超时"
+  - src_unknown
     framework_lens: 流式提取——不一次全量加载，逐页处理
     follow_up_question: "你的提取是一次性全部加载再处理，还是逐页流式处理？"
 ---
@@ -49,15 +49,15 @@ diagnostic_signals:
 ## 实战效果
 
 拆书会第208期：
-- 全量：1329 blocks → 内存 ~15MB
-- 流式：每页 500 blocks → 内存 ~5MB
-- **内存降 67%**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- 飞书文档提取（1000+ blocks）
-- Bitable 大数据量查询
-- 任何带 `page_size` + `has_more` + `page_token` 的分页 API
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 

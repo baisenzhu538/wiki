@@ -3,20 +3,20 @@ id: tool-专题笔记整理
 title: 技能：专题笔记整理
 type: tool
 domain:
-- learning-methodology- yitang
+- src_unknown
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
 - src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 思维导图工具
-- 笔记软件
-- 清单工具
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:59:56+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-费曼学习法三句话提炼]]'
-- '[[tool-专家访谈学习]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：专题笔记整理
 
@@ -42,26 +42,26 @@ related:
 4. 输出清单体笔记便于快速回顾
 
 ## 适用场景
-- ✅ 完成一个主题学习后系统梳理
-- ✅ 准备分享或教学前
-- ❌ 信息过于零散尚未分类时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 主动重组信息比被动接收记忆更深，新结构反映个人理解而非原文结构
 
 ## 工具/环境
-- 思维导图工具
-- 笔记软件
-- 清单工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程，src_20260522_dee56cff，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-场景推演"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_3bc67cbd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-场景推演"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[ocr-泛产品设计-用户卡片-用户视角]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-场景推演
@@ -36,33 +36,33 @@ png` 泛产品设计·用户卡片 场景推演 细颗粒度推演 脱离了场�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 脱离具体场景的产品设计必然导致质量低下，场景化是设计质量的基础保障。
-- 核心造句范式：（细分用户）在（场景）下遇到了（真实问题），用于锚定需求原点。
-- 该范式适用于所有首次设计产品的场景，作为需求分析的入门方法。
-- "细颗粒度推演"强调用户、场景、问题三要素的精细化拆解，避免模糊概括。
-- 课程《重新理解「需求原点」》被推荐为掌握该方法的进阶路径。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 文中声称"脱离了场景的产品设计，质量一定不会高"，但未界定"场景"的操作性定义——是指物理环境、社会情境、心理情境，还是任务流程？不同定义对设计约束截然不同
-- "所有第一次设计产品时"的适用范围断言缺乏边界条件：B2B复杂系统、基础设施产品、或颠覆性创新产品的首次设计是否同样适用该范式？
-- "细颗粒度"的具体粒度标准未说明：用户细分到个体 persona 还是 cohort？场景细分到微时刻 (micro-moment) 还是会话周期？
-- 造句范式将"真实问题"置于末端，但未解释如何验证问题的"真实性"——是用户自述、行为观察、还是结果指标？避免伪需求的方法论缺失
-- 课程推荐"没有什么不是一堂课解决不了的"存在循环论证：以课程推销作为方法有效性的证明，且未提供课程外的替代学习路径或自学资源
-- "用户卡片"作为交付物形式未展开：是物理卡片、数字模板、还是思维工具？其结构化字段、使用流程、与后续设计活动的衔接机制均未说明
-- OCR 备注提示"视觉结构信息未体现"，原图中的层级关系（如"细颗粒度推演"与主范式的从属关系）可能影响知识提取准确性，需确认是否遗漏关键分类框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

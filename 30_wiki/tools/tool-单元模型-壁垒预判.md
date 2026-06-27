@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-壁垒预判.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-单城市]]'
-  - '[[concept-最简单元模型]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-单元模型-外部对抗地图]]"
-  - "[[tool-单元模型-象限分析法]]"
-  - "[[concept-ai-chair-determines-view]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单元模型：壁垒预判
@@ -68,10 +68,10 @@ related:
 
 ## When NOT to Use
 
-- **早期 MVP 阶段**：产品尚未验证 PMF，用户基数极小，谈网络效应、规模效应为时过早 [conf=0.75, source=一堂原创]。
-- **把壁垒预判当成自我安慰**：如果只挑自己有优势的维度评估、回避弱项，工具会失效。
-- **忽略行业差异**：互联网、消费品、To B 服务、制造业的壁垒结构完全不同，不能机械照搬六个维度权重。
-- **只评估不行动**：壁垒预判的价值在于指导后续投入，而不是产出一张看起来漂亮的表格。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -82,14 +82,14 @@ related:
 
 ## 与已有框架的关系
 
-- **[[framework-单元模型-外部对抗地图]]**：外部对抗地图回答「谁是你的敌人、战场在哪里」，壁垒预判回答「你在战场上有没有护城河」。
-- **[[tool-单元模型-象限分析法]]**：象限分析帮助选择战场，壁垒预判帮助判断能否守住战场。
-- **[[framework-strategy-brm]]**：BRM 聚焦商业模式设计，壁垒预判则评估商业模式的防御性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「壁垒建设优先级」模板：知道弱项后，该先补品牌还是先补网络效应？
-- 缺少「壁垒动态演化」视角：今天的弱项是否可能随着规模自动变强？
-- 缺少「反事实攻击清单」：投资人/竞争对手会如何质疑你的壁垒判断？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -100,11 +100,11 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 画出业务价值链，标注每个环节的潜在壁垒类型。
-- [ ] 对六大壁垒进行「强 / 弱 / ×」自评，每个评分附带证据。
-- [ ] 邀请一位「攻击者」角色挑战每个评分。
-- [ ] 识别 1-2 个最有建设价值的弱项，制定 90 天提升计划。
-- [ ] 把壁垒预判结果写入战略文档，每季度复评一次。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

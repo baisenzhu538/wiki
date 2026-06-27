@@ -11,16 +11,16 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-风险管理_vlm_desc.md
 related:
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-解放思想]]'
-  - '[[tool-泛产品落地-酝酿式打磨]]'
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 落地卡片：风险管理

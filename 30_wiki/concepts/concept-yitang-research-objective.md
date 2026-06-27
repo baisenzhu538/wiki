@@ -13,36 +13,36 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 调研目标
-- 锁定目标
-- 调研目的
-- 为什么调研
-- 调研要解决什么问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-iterative-recursive-digging]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[concept-yitang-research-scope]]"
-  - "（tool-yitang-research-checklist，待补）"
-  - "[[yt-research-osl-framework]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁
@@ -69,50 +69,50 @@ related:
 ## 第一层：了解型（成本陷阱）
 
 ### 特征
-- 没有明确的决策指向
-- 没有可验证的通过/不通过标准
-- 没有时限要求
-- 调研结果无法直接指导行动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 典型表述
-- "了解一下这个行业"
-- "看看竞品在做什么"
-- "收集一些用户反馈"
-- "学习一下最佳实践"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 成本陷阱
-- 调研范围无限扩大
-- 信息过载，无法消化
-- 调研后仍然不知道怎么做
-- 团队士气低落，"调研了半天，还是没方向"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 第二层：问题型（过渡阶段）
 
 ### 特征
-- 有明确的问题，但没有明确的决策
-- 有探索方向，但没有验证标准
-- 调研结果可以回答问题，但无法直接决策
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 典型表述
-- "为什么用户流失率这么高？"
-- "竞品为什么能做到这个价格？"
-- "用户为什么不用我们的功能？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 价值与局限
-- **价值**：缩小了调研范围，有明确的问题导向
-- **局限**：回答问题后，还需要进一步转化为决策
+- src_unknown
+- src_unknown
 
 ---
 
 ## 第三层：决策型（投资思维）
 
 ### 特征
-- 有明确的决策指向（go/no-go/调整）
-- 有可验证的通过/不通过标准
-- 有时限要求
-- 调研结果可直接指导行动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四种决策型目标
 
@@ -137,13 +137,13 @@ related:
 
 ## 目标锁定检查清单
 
-- [ ] 目标是否明确到"做出什么决策"？
-- [ ] 目标是否可验证（有明确的通过/不通过标准）？
-- [ ] 目标是否有时限（什么时候需要这个决策）？
-- [ ] 目标是否可执行（调研结果能直接指导行动）？
-- [ ] 目标是否被所有相关方认可？
-- [ ] 目标是否写成了"选择题/解答题/设计题/竞争题"中的一种？
-- [ ] 如果调研结果与预期相反，是否有明确的应对方案？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -221,23 +221,23 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-high-level-plan]] — 高水平计划OSC
-- [[concept-yitang-research-scope]] — 缩小范围三原则
-- [[yt-research-osl-framework]] — 旧版OSCAR五步法
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-系统式调研-口述（Truman，2020）
-- 验证：business-research-skill OSCAR模型O步骤
-- 交叉：系统调研（高水平计划）VLM描述
-- 注意：目标锁定是调研方法论中最基础但最容易被忽视的步骤
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

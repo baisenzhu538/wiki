@@ -5,9 +5,9 @@ id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -19,34 +19,34 @@ source_refs:
   - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，已标记为待补充，待后续补充到 10_raw/sources/ 后更新 source_refs）
 diagnostic_signals:
-- signal: 每周例会雷打不动但无产出
+- src_unknown
   framework_lens: 惯性开会
   follow_up_question: 这个例会最近一次明确产出了什么？如果没有，可以取消
-- signal: 会议结束没有明确待办
+- src_unknown
   framework_lens: 结论模糊
   follow_up_question: 散会后每个人都知道自己要做什么吗？如果有人不清楚，会议失败
-- signal: 会议纪要发完2周后，行动项完成率低于30%
+- src_unknown
   framework_lens: 行动项通货膨胀
   follow_up_question: 这些行动项在写下的那一刻，owner是否真正承诺过？还是只是"礼貌性点头"？给每个行动项加一个承诺级（L1尽量/L2承诺/L3赌约），2周后看各级完成率
-- signal: 高管发言后会议室陷入沉默，后续议题无人提出反对或补充
+- src_unknown
   framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
-  - '[[tool-泛产品落地-攻坚会]]'
-  - '[[case-strategy-revival-14-gucci]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[dk-modeling-radar-model-not-result]]'
-  - '[[tool-yitang-executive-speech-analysis]]'
-  - yt-management-basic-skills
-  - yt-management-project-management
-  - yt-management-goal-management
-  - yt-management-strategy-meeting
-  - yt-management-scientific-decision
-  - yt-concept-weapon-arsenal
-  - yt-model-personal-pitch-toolkit
-  - yt-decision-consensus-iceberg
-  - yt-panproduct-execution-management-trilogy
-  - yt-tool-meeting-designer
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -68,10 +68,10 @@ related:
 
 ### 2. 常见低效会议类型
 
-- **惯性开会**："每周一例会，雷打不动" —— 会议的存在需要持续被 justify，而非因为"一直都是这样"。
-- **通知式开会**：一个人在讲，其他人在听——这种事情一封邮件就能解决。
-- **漫游式开会**：没有议程、没有时间盒、讨论越跑越远——结束时间到了才发现正事还没开始。
-- **结论模糊式开会**：热烈讨论两小时，散会后每个人对"结论是什么"的理解都不同。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 开会前的三问自检
 
@@ -108,10 +108,10 @@ related:
 
 ### 7. 会议纪律
 
-- **准时开始**：不等迟到的人——等一次，下次更多人迟到。
-- **无手机/无电脑**：除非是记录人或查阅会议相关资料。
-- **有争议但不人身攻击**：对事不对人——"你的方案有问题"不是"你有问题"。
-- **结束时有明确的"谁做什么"**：没有行动项的会议 = 没有发生过。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -172,15 +172,15 @@ related:
 
 **承诺级使用规则**：
 
-- **L1 "我尽量"**：完成率预期50%，未完成无需解释——适用于探索性任务。
-- **L2 "我承诺"**：完成率预期90%，未完成需要在下次会议说明原因——适用于常规任务。
-- **L3 "承诺且赌"**：未完成请全组喝咖啡/捐款¥200给公益，每人每周只能用一次L3——适用于关键 bottleneck。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **真实案例**：某产品周会原固定30人参加，审计后发现：
 
-- 近3次例会没有做出任何需要30人同步协作的决策。
-- 70%内容只是数据同步，可以改为飞书文档。
-- 取消4周后，只有3人反馈需要补充信息。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **结果**：例会改为15分钟"站会+阻塞对齐"，数据同步改为飞书文档，参会者从30人减到8人，行动项完成率从35%提升到82%。
 
@@ -194,16 +194,16 @@ related:
 
 ## 相关卡/互链
 
-- [[yt-management-basic-skills]] — 管理基本功认知：开会是管理者每周花费最多时间的活动，是会管理的镜子。
-- [[yt-management-project-management]] — 科学项目管理：每日站会和项目周会是项目管理中的关键节奏会议。
-- [[yt-management-goal-management]] — 目标管理：OKR 周复盘会是最高频的战略性会议。
-- [[yt-management-strategy-meeting]] — 战略会：战略会是会议金字塔的顶端——最高利害、最需要科学方法论的会议类型。
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：决策会应当嵌入 Y模型的思考框架。
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：会议是管理武器库中最矛盾的一件武器——它是唯一一个"过度使用会钝化自身效果"的武器。大多数武器用得多会变锋利（决策、OKR、复盘），但会议开得越多，每个会议的边际价值越低。Useem 的数据说：你的武器不是太少，是太多了——科学开会的最高境界不是开得更好，是只开真正必要的。
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Doyle & Straus 的互动方法揭示了一个反直觉的真相——会议不是"做事"的工具，而是"讲香"的空间。每个会议都是一场小型叙事竞赛——谁的议题被讨论了、谁的观点被采纳了、谁被要求提供预读材料——这些不是"会议效率"的问题，是"谁的香被听到了"的问题。最好的会议主持人不守护议程——ta 守护"最值得被听到的那个声音"。
-- [[yt-decision-consensus-iceberg]] — 共识冰山：当会议出现"大家点头但执行走样"或"纪要写满'一致认为'但私下理解不同"时，用四层共识模型（行动→判断→逻辑→信息）深挖真实分歧，替代表面共识。
-- [[tool-泛产品落地-管理三段论]] — 管理三段论：当会议讨论中"有人在讲目标、有人在讲路径、有人在抱怨资源不够"时，用"目标→路径→资源"三段论重新对齐发言层级，先关掉路径和资源讨论，只对齐目标。
-- [[yt-tool-meeting-designer]] — 会议设计师：本概念卡的一页纸落地工具，一张纸、五分钟，让每次会议都有存在的理由、清晰的议程时间盒和可追踪的行动项。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -215,9 +215,9 @@ related:
 
 Useem 引用的研究发现：
 
-- 在一家大型科技公司中，员工平均每周花 18 小时在会议上——且 CEO 每增加一个会议，组织会衍生出 7 个连锁会议（sub-meetings）。
-- Bain & Company 的一项研究发现，一家公司的一个每周例会产生了 300,000 小时的连锁成本——包括准备会议的时间、参加预对齐会议的时间、会后处理会议产生的行动项的时间。
-- Leslie Perlow（哈佛商学院教授）的田野实验表明：当一家软件公司的管理者同意每周有一个"无会议日"，该团队的生产力上升了 44-65%，且员工报告的工作满意度显著提高。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Useem 的核心洞见：**会议是一种"组织性成瘾"**——每次开会你都能感受到一种"进展感"（我们讨论了、我们对齐了、我们决定了），但这种进展感与你是否创造了实际价值完全无关。你学会了科学开会的方法——设计议程、引导讨论、记录行动项——你的会议变得更"高效"了。但更高效的会议让你感觉更好——你更愿意继续开会——你开得更多了。**科学开会方法论没有破坏会议成瘾机制——它只是让毒品更纯了。**
 
@@ -231,9 +231,9 @@ Useem 的核心洞见：**会议是一种"组织性成瘾"**——每次开会�
 
 Doyle & Straus 的核心论证：
 
-- 会议的议程是权力的非语言表达——"什么被放在议程的第一项"往往不是按其重要性，而是按"谁的问题最需要被优先讨论"来排序的——而那个谁通常是房间里最有权力的人。
-- "主持人"和"引导者"的分离是他们最极端的建议：主持人守护议程和时间，引导者守护讨论质量和参与平等。一堂的三角结构（主持人+记录人+参与者）把"引导者"的职责合并进了主持人——这意味着守护议程和守护参与平等可能发生冲突（守住时间意味着打断一个弱势参与者的发言），而合并的角色无法解决这个冲突。
-- Doyle & Straus 强调"议程共识"——不是主持人发出议程、参与者接受，而是参与者在会前就议程进行谈判和确认。一堂的"会前发出议程+预读材料"仍然是单向的议程设定——权力在议程制定者手里。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **Doyle & Straus 的拷问**："你设计了完美的会议议程——时间盒清晰、预读材料充分、角色分配明确。议程的第一项是你的 OKR 更新——因为你是 CEO。但 Doyle & Straus 会问你：如果你想开一个'团队真正需要'的会议而非一个'你想开'的会议——你能不能在发出议程前，让每个参与者给议程的第一项投票？如果投票结果是'我们最需要讨论的事'不是'你最想讨论的事'——你愿意把你的第一项放到最后吗？你的科学开会方法论，是让你更高效地控制了会议，还是让你更高效地压制了会议室里真正的议题？"
 
@@ -269,8 +269,8 @@ Doyle & Straus 的核心论证：
 
 ### 跨学科锚点
 
-- 会议效率方法论源自亚马逊的"六页纸备忘录"文化（会议开始前15分钟大家安静读完文档再讨论）和 Google 的"会议设计"实践。
-- Doyle & Straus 的 Interaction Method（1976）是会议引导领域的奠基方法论——四个角色（引导者、主持人、记录人、参与者）的分离至今仍是最先进的会议设计框架。
-- "会议是组织文化的现场直播"——帕特里克·兰西奥尼（Patrick Lencioni）《团队协作的五大障碍》中的洞见：看一个团队的会议质量就能判断它的协作健康度。
-- 异步优先原则源自 GitLab 的远程办公实践——GitLab 将"异步沟通优先"写入了公司手册（Handbook），900+页的公开手册定义了何时开会、何时写文档的决策框架。
-- Useem 引用的 Bain 会议成本研究提供了对会议进行 ROI 计算的方法论——将会议成本量化是打破"会议成瘾"的第一步。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

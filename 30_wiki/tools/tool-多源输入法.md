@@ -4,30 +4,30 @@ title: 技能：多源输入法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-寻找学习教练法]]'
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-知识树存储记忆法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-寻找学习教练法]]'
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-知识树存储记忆法]]'
-- '[[concept-问题驱动式深度思考笔记]]'
-- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 书籍/论文数据库
-- 课程平台
-- 搜索引擎
-- AI工具（ChatGPT/Claude等）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -35,19 +35,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 读了多篇文章但全是同一个观点的不同写法
+- src_unknown
   lens: 多源同质
   follow_up: 检查来源异质性：书（体系）+论文（证据）+课程（实战）+AI（快速连接），至少覆盖2种不同媒介
-- signal: 信息流完全由推荐算法驱动，看不到舒适区外内容
+- src_unknown
   lens: 被动输入
   follow_up: 主动设计搜索策略和检索词，目标明确，主动搜索比被动推荐重要十倍
-- signal: 大量输入但没有输出，产生'我很懂'的假象
+- src_unknown
   lens: 输入输出脱节
   follow_up: 维持输入输出正相关：每输入1小时至少产出1个输出物（笔记/复盘/行动）
-- signal: 多源信息冲突时无法判断哪个更可靠
+- src_unknown
   lens: 信息矛盾
   follow_up: 建立信息质量标准：官方来源>研究机构>专业媒体，自媒体和AIGC内容需验证
-- signal: 多源搜索消耗大量时间，决策延迟
+- src_unknown
   lens: 时间成本失控
   follow_up: 时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉
 ---
@@ -93,25 +93,25 @@ diagnostic_signals:
 ## Claims
 
 1. **单一信息源必然产生无意识偏见，多源交叉是最低成本的偏见检测器**
-   - 一个来源的信息是“样本”，两个以上来源的交集才接近“真相”
-   - 书籍给系统框架、论文给证据密度、课程给实战演示、AI给快速连接 —— 每个渠道有不可替代的认知价值
+   - src_unknown
+   - src_unknown
 
 2. **主动搜索的信息质量高于被动推荐两个数量级**
-   - 推荐算法优化的是“点击率”，不是“真实性”或“完备性”
-   - 主动设计搜索策略的人，每次学习的边界由自己设定，而不是由平台设定
+   - src_unknown
+   - src_unknown
 
 3. **输入与输出必须维持正相关，否则输入量越大反而越危险**
-   - 大量输入无输出 = 知识在脑子里腐烂，产生“我很懂”的假象
-   - 最佳比例：每输入 1 小时，至少产生 1 个输出物（笔记/复盘/行动）
+   - src_unknown
+   - src_unknown
 
 ## 为什么有效
 多源交叉验证减少偏见，不同媒介适合不同内容，AI工具提升信息处理效率
 
 ## 工具/环境
-- 书籍/论文数据库
-- 课程平台
-- 搜索引擎
-- AI工具（ChatGPT/Claude等）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -130,10 +130,10 @@ diagnostic_signals:
 3. 最近一次因为输入而改变判断是什么时候？如果很久没有，可能不是我懂太多，而是我读太少。
 
 ## 常见失败模式
-- 多源同质：读了五篇文章，全是同一个观点的不同写法——多源不是多篇，是不同范式、不同立场
-- 渠道偏见：只看公众号不看论文，或只看英文不看中文——每个渠道都有系统性的信息偏差
-- 输入不设限：信息流完全由推荐算法驱动，永远看不到舒适区之外的内容——主动搜索比被动推荐重要十倍
-- 输入和输出脱节：大量输入但没有输出，知识在脑子里腐烂——输入量应该和输出量正相关
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -149,29 +149,29 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **时间成本被低估：**多源搜索、筛选、对比本身就是时间消耗。对于时间敏感型决策，“先搞清楚再行动”可能比“边干边学”更危险。
-- **质量不均衡：**多个来源的质量可能差距很大，低质量来源会拉低整体认知水准。
-- **信息矛盾时缺乏判断标准：**多源信息冲突时，没有明确的“信息质量标准”会导致决策痒瘾。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-寻找学习教练法]] — 教练是最高质量的信息输入源之一
-- [[tool-从案例中学习正反案例法]] — 案例是一种具体的输入形式
-- [[tool-知识树存储记忆法]] — 多源输入后需要存储和分类，知识树是存储框架
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输入(Input)层 L2.从资料中学：阅读/听课/搜索/用AI，广泛涉猎+深度洞察
 
 ## Synthesis
 
 ### 关联技能
-- **上游：**[[tool-寻找学习教练法]] — 教练是高质量输入源的“活态版”
-- **下游：**[[tool-知识树存储记忆法]] — 多源输入的知识需要存储框架，否则会变成信息垃圾
-- **平行：**[[tool-从案例中学习正反案例法]] — 案例是多源输入的一种特殊形式（实战数据源）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂科学学习IPO中，本技能位于 **输入层(Input)→从资料中学**
-- 与“从人学”“从事学”并列，是“自学”路径的核忄能力
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **认知心理学（Confirmation Bias）：**多源输入的核心机制是对抗确认偏误——人本能地寻找支持自己观点的信息
-- **信息论（Information Theory）：**多源可视为“通道编码”，不同来源的噪声特征不同，交叉验证可以提高信息的信噪比
+- src_unknown
+- src_unknown

@@ -6,25 +6,25 @@ title: KDO 标签体系：15 维度完整定义 v1.0
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 用户（决策者）
-- 欧阳锋（Architect）
-- 黄药师（Builder）
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[labeling-research-alignment]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260606_6dad71f1）
@@ -410,12 +410,12 @@ AI 决策：这条数据多重要？使用什么方式？需要什么前置知�
 
 ## 七、版本信息
 
-- **版本**：v1.0
-- **下次审查**：pilot 20 张卡标注完成后，基于实际标注争议点调整
-- **预计迭代方向**：
-  - audience 的 `designer`/`developer` 可能过于垂直，如未来不涉及这些角色→合并为 `specialist`
-  - error_root 的值池可能不够覆盖新发现的失败模式→届时追加
-  - platform 的值如 KDO 团队实际不涉及小红书/抖音→砍掉对应值
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 

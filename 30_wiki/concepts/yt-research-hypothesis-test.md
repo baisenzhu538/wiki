@@ -6,37 +6,37 @@ confidence: 0.9
 created_at: 2026-05-18
 difficulty: advanced
 domain:
-  - research- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-research-osl-framework
-- yt-research-intelligence-map
+- src_unknown
+- src_unknown
 query_triggers:
-- 假设验证
-- 关键假设
-- 调研验证
-- 最小实验
-- 可证伪
-- 假设测试
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[yt-product-kernel-hypothesis-test]]'
-  - '[[tool-yitang-research-validate-assumption]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-decision-y-model]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260508_f7f9670e-一堂-创业必修-调研行动营.md
 - 10_raw/sources/src_20260510_f42dfdc2-一堂-创业-调研行动营口述01.md
@@ -54,15 +54,15 @@ yitang:
   course_type: tool
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 每个关键假设都被写成可证伪的陈述
+- src_unknown
   framework_lens: 可证伪是科学调研的核心
   follow_up_question: 什么样的证据会让你放弃这个假设？
-- signal: 为每个假设设计了最小成本验证实验
+- src_unknown
   framework_lens: 调研也要讲投入产出
   follow_up_question: 验证这个假设的最便宜方式是什么？
-- signal: 验证结果会更新假设优先级和下一步计划
+- src_unknown
   framework_lens: 调研是贝叶斯更新
   follow_up_question: 这个验证结果改变了你对哪个假设的信心？
 updated_at: '2026-06-18'
@@ -123,10 +123,10 @@ reviewed_by: 欧阳锋
 | 抖音可以低成本获客 | "抖音是获客的好渠道吗？" | "用500元测试预算，抖音的CPA是否低于X元？" |
 
 **可证伪问题的设计原则**：
-- 具体：有明确的数字或标准
-- 可测：可以通过调研/实验获取答案
-- 有时限：在多长时间内验证
-- 有阈值：达到什么标准算"验证通过"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 组件三：最小实验设计
 
@@ -172,9 +172,9 @@ reviewed_by: 欧阳锋
 **业务背景**：某团队想做一个面向诊所的 AI 预问诊 SaaS。
 
 **关键假设识别**：
-- 需求假设：诊所老板愿意为 AI 预问诊工具付费（高风险）
-- 解决方案假设：AI 预问诊能减少 30% 以上的前台重复沟通（高风险）
-- 商业模式假设：诊所的付费意愿足够支撑 SaaS 订阅模式（极高风险）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可证伪问题设计**：
 
@@ -190,8 +190,8 @@ reviewed_by: 欧阳锋
 3. 第三周：向 5 家愿意试用的诊所推出"早鸟年费 ¥4999"，观察付费转化。
 
 **验证结果应用**：
-- 若 ≥ 5 家愿意预付：进入产品化。
-- 若 < 3 家愿意预付：pivot 目标客群或价值主张。
+- src_unknown
+- src_unknown
 
 ## Checklist / Template
 
@@ -199,23 +199,23 @@ reviewed_by: 欧阳锋
 
 ```markdown
 1. 关键假设
-   - [ ] 假设写成可证伪陈述：______________
-   - [ ] 如果错了，项目会失败吗？□ 是 □ 否
-   - [ ] 风险等级：□ 极高 □ 高 □ 中 □ 低
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. 可证伪问题
-   - [ ] 问题具体、可测、有时限、有阈值
-   - [ ] 反证条件（kill 条件）：______________
+   - src_unknown
+   - src_unknown
 
 3. 最小实验
-   - [ ] 验证方式：□ 用户访谈 □ 问卷 □ 竞品分析 □ 小规模测试 □ 预售/众筹 □ MVP
-   - [ ] 预计成本：______ 预计周期：______
-   - [ ] 对照组/基准线：______________
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. 结果与行动
-   - [ ] 实际数据：______________
-   - [ ] 结论：□ 验证通过 □ 验证失败 □ 需要升级实验
-   - [ ] 下一步行动：______________
+   - src_unknown
+   - src_unknown
+   - src_unknown
 ```
 
 ## Critique
@@ -224,9 +224,9 @@ reviewed_by: 欧阳锋
 
 假设验证工具的三条边界声明揭示了工具的内在张力：
 
-- **"验证"的幻觉**：工具让你感觉"我已经验证过了"，但验证的可能是"错误的指标"或"不够严格的条件"。很多"验证通过"的假设在实际执行中仍然失败。
-- **从"调研验证"到"市场验证"的鸿沟**：即使调研验证通过，市场可能不认可。调研中的"愿意付费"和实际中的"掏出钱包"是两回事。
-- **实验设计的偏差**：实验条件（如测试用户的选择、测试环境）可能与真实市场完全不同。在"实验室"中验证通过的假设，在"真实世界"中可能失效。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -234,19 +234,19 @@ reviewed_by: 欧阳锋
 
 **Paul Feyerabend**（科学哲学家、《反对方法》作者）对"假设验证方法论"提出根本性质询：
 
-- **"方法论"本身是创新的束缚**：Feyerabend认为，科学进步不是靠"严谨的方法"，而是靠"打破规则"。伽利略、爱因斯坦的成功恰恰是因为他们违反了当时公认的"科学方法"。假设验证工具要求你"先假设再验证"，但Feyerabend警告：最伟大的发现往往是"没有假设的探索"——你不知道自己在找什么，直到你找到它。
-- **"可证伪性"假设了问题可以被预先定义**：Feyerabend指出，"可证伪的问题"前提是"你已经知道该问什么"。但在探索性创新中，真正重要的问题往往是在探索过程中涌现的，而非预先设计的。
-- **验证越严格，越可能错过意外发现**：Feyerabend的"增殖原则"主张，应该同时保留多种相互矛盾的理论和方法。假设验证工具的"证伪"逻辑可能导致过早放弃有潜力的方向。
-- **替代方案**：Feyerabend建议采用"怎么都行"（Anything Goes）的策略——不要拘泥于固定的方法论，而是根据具体情况灵活调整，允许试错、允许矛盾、允许非理性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Thomas Kuhn 的"范式革命"：批判
 
 **Thomas Kuhn**（科学史学家、《科学革命的结构》作者）从"范式转换"角度提出质询：
 
-- **假设在"常规科学期"有效，在"范式转换期"全部失效**：Kuhn证明，科学进步不是线性的，而是"常规科学→危机→革命→新常规科学"的循环。在常规科学期，假设验证是有效的；但在范式转换期，所有旧假设都会被推翻。问题是：你怎么知道你现在处于"常规期"还是"转换期"？
-- **"验证"在范式转换前是不可能的**：Kuhn指出，新范式在诞生之初往往是"不可被验证的"——因为它挑战的是整个验证体系本身。如果爱因斯坦在1905年用当时的"验证标准"来检验相对论，它会"失败"。
-- **工具隐含了"渐进式改进"的偏见**：假设验证工具适合"在现有范式内优化"，但不适合"发现新范式"。如果你的目标是颠覆性创新，这个工具可能让你永远在旧框架里打转。
-- **替代方案**：Kuhn建议在假设验证之外，增加"范式审视"环节——定期问自己："我现在的假设是否都基于一个即将过时的范式？有没有可能出现一种全新的思考方式，让我的所有假设都变成废话？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -284,9 +284,9 @@ reviewed_by: 欧阳锋
 
 ## Related
 
-- [[yt-research-osl-framework]] — 假设验证是 OSL 第 5 步"归一"的核心方法
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设识别的前置框架
-- [[yt-research-intelligence-map]] — 验证需要情报获取渠道支撑
-- [[yt-research-expert-interview]] — 2 小时获取行业共识的标准流程
-- [[tool-一堂-hypothesis-validation-three-axe]] — 一堂假设验证"三斧"工具
-- [[tool-mckinsey-hypothesis-driven-workflow]] — 麦肯锡假设驱动工作流
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -4,37 +4,37 @@
 
 id: yt-tool-y-model-ruler
 component_of:
-- yt-personal-y-model-exploration-2
+- src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
-- yt-personal-y-model-exploration-2
-- yt-entrepreneur-needs-analysis
+- src_unknown
+- src_unknown
 query_triggers:
-- 尺子刻度
-- 评估模型
-- 科学选品
-- 科学招人
-- 尺子刻度基准权重
-- 定量评估
-- 决策模型
-- 投资评估框架
-- Y模型实操
-- 因果规律
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown基准权重
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-yitang-product-full-experience]]'
-  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
-  - '[[yt-skill-storyline-key-elements]]'
-  - '[[yt-skill-storyline-target-tradeoff]]'
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[yt-entrepreneur-needs-analysis]]'
-  - '[[yt-tool-best-practice-learning]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -44,20 +44,20 @@ title: Y模型尺子刻度法：从模糊经验到可复用评估模型
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 尺子维度是否来自需求分析而非拍脑袋
+- src_unknown
   framework_lens: 因果规律 / 维度有效性
   follow_up_question: 评估维度是否覆盖了结果的真实驱动因素？
-- signal: 每个维度是否有清晰刻度和可验证基准
+- src_unknown
   framework_lens: 可操作化 / 去模糊
   follow_up_question: '''不错''''很好''等描述是否被替换为具体阈值？'
-- signal: 是否设置风险红线并用于一票否决
+- src_unknown
   framework_lens: 风险管理 / 非线性
   follow_up_question: 总分最高但存在致命缺陷的选项是否仍被选中？
-- signal: 是否同时关注分布形状与总分
+- src_unknown
   framework_lens: 系统配置 / 资源匹配
   follow_up_question: 均衡型与偏科型选项是否被差异化决策？
 updated_at: '2026-06-16'
@@ -85,36 +85,36 @@ Y 模型尺子刻度法是一堂在投资、招聘、选品等高风险决策场
 
 ### claim:02 [conf=0.88][src: Y模型实操口述版] 三种常见应用场景
 
-- **场景A: 科学招人**
-  - 尺子：专业能力、学习能力、文化匹配度、成长潜力、执行力
-  - 刻度：每个尺子1-5分，1分=不及格，3分=满足岗位要求，5分=行业前10%
-  - 基准：当前团队同岗位人员的平均水平
-  - 权重：根据岗位特性调整（如技术岗专业能力权重40%，管理岗领导力权重40%）
-  - **决策规则**：任何一个尺子低于 2 分直接拒绝（危险红线）；总分低于某阈值拒绝；超过阈值后按总分排序
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **场景B: 科学选品**
-  - 尺子：市场规模、竞争强度、利润空间、供应链复杂度、复购率
-  - 刻度：市场规模=1-5分：1分=<百万，5分=>十亿
-  - 基准：行业平均水平（如电商行业同类目平均月销售额）
-  - 权重：根据业务模式调整（如快消品复购率权重高，高客单价产品利润空间权重高）
-  - **决策规则**：不单看总分，看"分布形状"——如果某个产品总分高但"竞争强度“特别低，可能是“虚高“
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **场景C: 科学评估方案**
-  - 尺子：可行性、收益潜力、风险等级、资源消耗、时间窗口
-  - 刻度：风险等级=1-5分：1分=可能导致公司倒闭，5分=完全无风险
-  - 基准：公司历史类似项目的实际结果
-  - 权重：根据公司阶段调整（如创业期时间窗口权重高，成长期收益潜力权重高）
-  - **决策规则**：采用"风险红线“+“总分排序“双重过滤，不单看总分
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### claim:03 [conf=0.85][src: Y模型实操口述版] “风险红线”比“总分”更重要
 
-- **核心洞见**：很多人做评估时只看总分，但“有一个维度极差”比“所有维度都中等”更危险
-- **风险红线规则**：对于每个应用场景，必须定义"任何情况下不能接受的最低分“
-  - 招人：任何一个核心能力低于 2 分 → 拒绝
-  - 选品：利润空间低于 2 分 → 拒绝
-  - 方案：风险等级低于 2 分 → 拒绝
-- **理由**：总分高的候选人/产品/方案，可能在某个关键维度上有致命缺陷（如"能力很强但不诚实“）
-- **活用**：当两个候选人总分相近时，不看总分看"风险红线“——没有红线的胜出
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -143,31 +143,31 @@ Y 模型尺子刻度法是一堂在投资、招聘、选品等高风险决策场
 
 ### 成功案例：一堂投资评估从“感觉”到“模型”
 
-- **背景**：子敬（大王资本）早期投资完全依赖个人经验，投资决策“感觉对了就投”
-- **建模过程**：将投资工作分为四个维度：尺子（预估维度）、刻度（打分标准）、基准（历史回测）、权重（对投资回报的贡献度）
-- **具体做法**：
-  - 尺子：团队、市场、产品、财务、战略兼容性
-  - 刻度：每个尺子1-5分，1分=明显缺陷，5分=行业领先
-  - 基准：历史投资项目的实际表现（如成功项目的平均分数是多少）
-  - 权重：团队 30%、市场 25%、产品 25%、财务 10%、战略 10%
-- **风险红线**：任何一个尺子低于 2 分 → 直接拒绝
-- **结果**：投资决策从"感觉驱动“变成"模型驱动“，决策一致性大幅提升，团队内部对投资方向的争论减少了 **60%**
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败/边界案例：“模型”变成“榴子”
 
-- **场景**：某公司用尺子刻度法评估了 50 个候选人，最后招了总分最高的那个
-- **问题**：总分最高的人在"战略思维“维度上得了 5 分，但在"执行力“上只有 1 分
-- **结果**：这个人能说会道，但做不了事，入职 3 个月后被证实不能胜任
-- **教训**：**忘了"风险红线“——总分最高不是最佳选择，“没有致命缺陷”才是**。如果当时用了风险红线规则（执行力<2分拒绝），就不会招进来。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反常识案例：“分布形状”比“总分”更重要
 
-- **现象**：两个候选产品的尺子刻度法总分相近（产品A=3.8，产品B=3.7）
-- **但分布形状不同**：
-  - 产品A：所有维度都在 3-4 分（均衡但没有亮点）
-  - 产品B："用户体验“5分，“盈利模式“2分（有亮点但有风险）
-- **决策**：如果公司有足够资源优化盈利模式 → 选产品B；如果公司资源有限 → 选产品A
-- **反常识**：**总分相同不代表价值相同**——分布形状告诉你这个产品是"均衡型"还是"偏科型"，这决定了你需要投入什么资源去优化它
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -188,21 +188,21 @@ Y 模型尺子刻度法是一堂在投资、招聘、选品等高风险决策场
 
 ### Wikilinks
 
-- [[yt-personal-y-model-exploration-2]] — Y 模型探索营 2 是本卡的理论基础，提供了"因果规律“的定义和识别方法；本卡是 Y 模型在"评估和决策“场景下的具体工具
-- [[yt-personal-y-model-practice]] — Y 模型实操口述提供了本卡的原始素材，但本卡将口述中分散的"尺子刻度“提炼为可复用的四层框架
-- [[yt-entrepreneur-needs-analysis]] — 需求分析确定了"评估维度“（尺子）的来源——尺子不是拍脑袋想出来的，是需求分析的输出
-- [[yt-tool-best-practice-learning]] — 最佳实践学习四步法中的"建水“和"建模“为尺子刻度法提供了"基准“——你需要先收集一批优秀的评估案例，才能确定基准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Contradictions
 
-- vs [[yt-entrepreneur-needs-analysis]]：需求分析是"探索性“的（不确定需求是什么），尺子刻度法是"评估性“的（已知需求的产品/人才/方案，怎么选）。两者是"前后端“关系——先用需求分析确定评估维度，再用尺子刻度法打分排序
-- vs [[yt-tool-best-practice-learning]]：最佳实践学习是"向外学“（学习别人的最佳实践），尺子刻度法是"向内评“（评估自己的选择）。两者是“学习—评估”的补充——先用最佳实践学习建立基准，再用尺子刻度法做出选择
+- src_unknown
+- src_unknown
 
 ## Feedback
 
 ### 摩擦记录
 
-- **口述稿分散度**：Y 模型实操口述中的"尺子刻度基准权重“是在讨论投资评估时提到的，但口述中没有展开详细说明每一层。本卡的四层框架是基于口述中的片段提炼的，需要验证是否符合一堂的原意
-- **案例丰富度不足**：口述中的案例主要集中在“投资评估“，其他场景（招人、选品、方案评估）是基于一般性知识的补充。特别是"科学招人“的案例缺亏一堂原始素材的支撑
-- **统计学家批评的回应强度**：统计学家的批评（维度相关、非线性、置信区间缺失）是精准且有力的。本卡的回应（“模糊经验的结构化”）可能过于轻描淡写——需要验证实际使用中用户是否真的能接受"这不是精确模型“这个说法
-- **风险红线的实施难度**：口述中没有提到"风险红线“，这是本卡基于实战经验的补充。实际使用中，“什么是风险红线“很难统一定义——不同行业、不同公司阶段的风险红线不同
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

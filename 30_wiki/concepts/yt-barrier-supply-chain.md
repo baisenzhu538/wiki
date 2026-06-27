@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-scale-economies
-  - yt-barrier-moat-assessment
-  - yt-barrier-moat-building
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的供应链被竞品模仿了'"
+  - src_unknown
     framework_lens: 供应链壁垒——供应链壁垒需要资源独占或长期关系
     follow_up_question: "你的供应链是否有独占资源？供应商关系是否长期稳定？"
-  - signal: "用户说'我们的供应商突然涨价了'"
+  - src_unknown
     framework_lens: 供应链壁垒——供应商议价能力强，需要多元化或纵向整合
     follow_up_question: "你的供应商集中度如何？有没有备选供应商？是否考虑纵向整合？"
-  - signal: "用户说'我们的供应链成本比竞品高'"
+  - src_unknown
     framework_lens: 供应链壁垒——供应链成本需要规模或关系优化
     follow_up_question: "你的供应链规模是否足够？供应商关系是否深度？"
-  - signal: "用户说'我们的供应链很脆弱，容易断'"
+  - src_unknown
     framework_lens: 供应链壁垒——供应链韧性是壁垒的一部分
     follow_up_question: "你的供应链是否有备份？关键物料的库存策略是什么？"
-  - signal: "用户说'我们的供应链优势是地理位置'"
+  - src_unknown
     framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
     follow_up_question: "你的地理位置优势是否可持续？竞品是否也能获得类似位置？"
 
@@ -133,21 +133,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当供应链被模仿时 → 资源独占
-- 当供应商涨价时 → 多元化或整合
-- 当供应链中断时 → 备份和韧性
-- 当成本优势丧失时 → 优化效率
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-scale-economies`：规模经济
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 供应链管理研究
-- 资源基础理论
+- src_unknown
+- src_unknown
+- src_unknown

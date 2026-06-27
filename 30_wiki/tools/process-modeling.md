@@ -4,9 +4,9 @@ title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
 source_refs:
@@ -24,29 +24,29 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 related:
-  - modeling-capability-system
-  - modeling-three-stages
-  - modeling-level-map
-  - case-modeling-process-sop-examples
-  - dk-modeling-logical-cleanliness-root
-  - case-modeling-process-sop-evolution
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#method/modeling'
-  - '#content-format/concept-card'
-  - '#content-format/sop'
-  - '#content-format/checklist'
-  - '#method/execution-method'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"每次做这件事都踩同样的坑"
+  - src_unknown
     framework_lens: 流程建模
     follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
-  - signal: 用户说"团队新人总是做不对"
+  - src_unknown
     framework_lens: SOP + 检查清单
     follow_up_question: 你是否有一份新人可独立执行的步骤文档？
-  - signal: 用户说"写了 SOP 但没人用"
+  - src_unknown
     framework_lens: 稳定使用
     follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
-  - signal: 团队在高频任务上反复出现"漏步骤、执行衰减、跨场景误用"
+  - src_unknown
     framework_lens: 分解 × 锁 × 边界 × 迭代
     follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
 ---
@@ -89,12 +89,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md:1`。
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md:3`。
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md:5`。
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md:7`。
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md:9-12`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:41-42`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -110,9 +110,9 @@ diagnostic_signals:
 
 一个任务值得流程建模，当且仅当满足：
 
-- [ ] 重复发生（每周/每月至少 1 次）
-- [ ] 失败有成本（质量下降、客户投诉、时间浪费）
-- [ ] 有优化空间（当前执行率或质量不稳定）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 2：趁热复盘
 
@@ -134,8 +134,8 @@ diagnostic_signals:
 2. ____
 3. ____
 检查点：
-- [ ] ____
-- [ ] ____
+- src_unknown
+- src_unknown
 常见错误：____
 ```
 
@@ -163,8 +163,8 @@ SOP 格式：
 
 ### 步骤 5：定期迭代
 
-- 每月复盘一次 SOP 执行数据。
-- 每季度评估是否需要升级（进入抽象建模阶段）。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -172,15 +172,15 @@ SOP 格式：
 
 综合 `case-modeling-process-sop-examples`、`case-modeling-process-sop-evolution`、`case-modeling-process-livestream-prep`、`case-modeling-process-livestream-roles` 等案例，得出以下落地检查清单：
 
-- [ ] 这个任务过去 3 个月重复了 ≥3 次，且单次失败成本可量化。
-- [ ] 关键步骤已被拆到"换一个人也能做出 80 分"的颗粒度。
-- [ ] 每个步骤都有明确的交付物或检查点，可被拍照/截图/签字验收。
-- [ ] SOP 头部写清了触发条件、前置条件、不适用场景。
-- [ ] 高失败成本/高频/高江湖地位环节配置了督导层。
-- [ ] 督导层自己的工作质量有品控或抽查机制。
-- [ ] 团队知道"什么不能标准化"，创意/判断型环节保留了空间。
-- [ ] 每次执行后 30 分钟内有复盘窗口，新规则 24 小时内写入 SOP。
-- [ ] 每季度评估一次：该任务是否应从流程建模升级为抽象建模/本质建模？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -232,9 +232,9 @@ SOP 格式：
 
 ### 内部局限性
 
-- 流程建模容易陷入「过度标准化」，把本应灵活判断的环节也写死。
-- SOP 的维护成本常被低估，写完后无人迭代会迅速失效。
-- 「加锁」机制可能增加管理成本，小团队可能负担不起。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Edwards Deming — "SOP 不能替代系统思考"
 
@@ -242,8 +242,8 @@ SOP 格式：
 
 ### 反事实测试
 
-- 如果一个 SOP 执行率始终低于 50%，是 SOP 本身问题还是加锁不够？可能两者都有，需先检查 SOP 是否合理。
-- 如果去掉「及时复盘」环节，会怎样？SOP 会变成僵化文档，无法适应业务变化。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -251,11 +251,11 @@ SOP 格式：
 
 ### 关联卡片
 
-- [[modeling-capability-system]]：流程建模是三段论的第一阶段
-- [[modeling-three-stages]]：流程建模与抽象建模、本质提炼的关系
-- [[modeling-level-map]]：流程建模对应 L3 段位
-- [[dk-modeling-logical-cleanliness-root]]：清单/SOP 背后的逻辑洁癖标准
-- [[case-modeling-process-sop-evolution]]：一堂 SOP 1.0→4.0 的迭代案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -273,33 +273,33 @@ SOP 格式：
 
 ### 原始素材
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-01.png`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-开播准备-图-01.png`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-开播准备-图-02.png`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-识别建模点-图-01.png`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
-- 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md`
-- 10_raw/sources/src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01.md`
-- 10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`
-- 10_raw/sources/src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:32-49`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已更新为 `欧阳锋`
-- [x] `updated_at` 已更新为 `2026-06-16`
-- [x] `diagnostic_signals` 数量 ≥3（当前 4 条）
-- [x] `Constraints & Boundaries` 含 ≥4 条适用边界 + ≥4 条失败模式
-- [x] 新增 1 个跨案例 checklist（9 问）
-- [x] 新增 ≥2 条互链（`dk-modeling-logical-cleanliness-root`、`case-modeling-process-sop-evolution`）
-- [x] 目标卡已跑 `kcard-quality-gate.py`，无新增 P0/P1
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

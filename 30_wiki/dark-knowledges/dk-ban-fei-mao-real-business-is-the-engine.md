@@ -5,37 +5,37 @@ title: 暗知：真实业务是唯一的燃料——没有真实问题，工具�
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
-  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: '用 AI 练习时总觉得"做了但用不上"，产出物很快就丢进回收站'
+- src_unknown
   lens: 真实问题缺失
   follow_up_question: 这个练习是为了完成课程作业，还是为了解决我真实业务中的具体问题？
-- signal: 想做一个 AI 工具，但自己并没有对应的真实业务场景
+- src_unknown
   lens: 假需求工具化
   follow_up_question: '这个工具解决的是我的真问题，还是"为了用 AI 而想出来的问题"？'
-- signal: 同一套 AI 方法在练习场顺滑，回到工作中却全部失灵
+- src_unknown
   lens: 边界条件错配
   follow_up_question: 我练习时的任务边界、判断标准和真实业务是否一致？
 ---
@@ -82,18 +82,18 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 列出当前正在学习的 AI 技能/课程
-- [ ] 找出一个与之相关的真实业务问题；如果没有，去争取一个或换一个课程
-- [ ] 定义这个问题的真实验收标准（客户愿意付钱 / 自己真的每天都会用）
-- [ ] 在学习过程中，把每一次产出都设计成"可被真实场景调用"的半成品或工具
-- [ ] 定期检查：这个产出是在解决真问题，还是在完成假作业？
-- [ ] 若涉及用户/商业敏感数据，先建立隐私保护和数据使用边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[case-ban-fei-mao-from-assignment-to-tool]] —— 真实业务驱动的实践验证：半肥猫用自己的产品做练习，最终产出可复用的调研工具
-- [[concept-半肥猫-ai-learning-toolification-methodology]] —— 学习成果工具化方法论：以真实业务为燃料的系统化方法
-- [[dk-ban-fei-mao-silky-answers-are-dangerous]] —— 与"丝滑回答"互补：真实业务是检验 AI 输出是否靠谱的最好解药
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源 / Feedback Path
 

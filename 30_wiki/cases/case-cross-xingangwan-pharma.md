@@ -12,10 +12,10 @@ language: zh-CN
 source_person: 项目相关方（录音）/ 王语嫣（整理）
 source_context: 跨域融合计划（策略 A）P1 案例卡；素材来自鑫港湾智慧药柜项目多份内部录音与 30_wiki 已有案例/概念卡交叉验证
 domain:
-- strategy
-- lean-startup
-- healthcare
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md
 - 30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md
@@ -25,19 +25,19 @@ source_refs:
 - 30_wiki/entities/鑫港湾.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[framework-strategy-lean-validation]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-cross-yuanqi-forest]]'
-  - "[[framework-strategy-lean-validation]]"
-  - "[[framework-five-step-lean-interface]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-strategy-brm]]"
-  - "[[yt-decision-y-model]]"
-  - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
-  - "[[case-smart-medicine-cabinet-business-model-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
@@ -183,9 +183,9 @@ related:
 
 ### 什么时候应该学这个案例
 
-- 你正在评估一个强监管行业（医疗、金融、教育等）的创新项目，需要同时判断战略、商业模式与合规风险。
-- 项目方用“政策已放开”“巨头都在做”“高毛利品类”等话术推动快速投入。
-- 团队内部对战略路线（轻资产 vs 重资产、单点验证 vs 规模扩张）存在分歧，需要结构化决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 
@@ -208,10 +208,10 @@ related:
 
 ## 可迁移场景
 
-- 评估任何医药/健康类创新项目：不仅限于智能药柜，也包括数字药房、远程审方、医疗短视频等。
-- 投资方/合作方尽职调查：把本卡的检查维度作为 DD 起点。
-- 内部战略复盘：识别项目中的假设、证据与风险之间的缺口。
-- 强监管行业的跨域验证：如何在战略、五步法、精益、决策之间建立验证闭环。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

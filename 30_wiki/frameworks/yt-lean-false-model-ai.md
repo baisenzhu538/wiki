@@ -6,17 +6,17 @@ title: FALSE模型在AI时代的加速应用
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#method/hypothesis-validation'
-- '#ai/ai-era'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -25,29 +25,29 @@ review_date: '2026-06-17'
 confidence: 0.65
 trust_level: low
 diagnostic_signals:
-- signal: 团队开始用 AI 生成大量素材，但说不清楚当前要验证哪个关键假设。
+- src_unknown
   framework_lens: FALSE 模型 + 一堂关键假设拆解
   follow_up_question: 这个假设如果为假，业务是否会直接失败？能否用 F 或 A 策略在 1 天内证伪？
-- signal: AI 模拟用户反馈很好，但真实用户不付费。
+- src_unknown
   framework_lens: 直接测试 vs 人工替代
   follow_up_question: 模拟测试的通过标准是否与真实付费行为对齐？是否需要升级到真实订单测试？
-- signal: 因为 AI 让测试变便宜，团队同时启动 5 个以上验证实验。
+- src_unknown
   framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-five-step-common-pitfalls]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
@@ -116,8 +116,8 @@ FALSE 模型是精益小抄中定义 MVP 设计的五个策略，按成本从低
 **传统做法**：手动 P 海报、写文案、做假页面、手动投流。  
 **AI 加速方式**：
 
-- 用 AI 生成测试素材：几分钟生成 10 版不同卖点的海报/文案/课程大纲。
-- 用 AI 模拟用户测试：先让 AI 扮演不同用户画像，快速判断需求假设是否成立。
+- src_unknown
+- src_unknown
 
 **降本映射**：原来 1-2 天的素材制作 → 几分钟；原来 1 周的测试周期 → 1 天。
 
@@ -128,8 +128,8 @@ FALSE 模型是精益小抄中定义 MVP 设计的五个策略，按成本从低
 **传统做法**：用 CEO 跑腿、个性咨询、人工摆摊来模拟完整服务。  
 **AI 加速方式**：
 
-- AI 辅助人工，效率翻倍：一个人 + AI 工具，完成原来 3-5 个人的工作量。
-- CEO 负责决策，AI 负责执行层面的重复劳动。
+- src_unknown
+- src_unknown
 
 **降本映射**：测试周期从几周压缩到几天。
 
@@ -140,8 +140,8 @@ FALSE 模型是精益小抄中定义 MVP 设计的五个策略，按成本从低
 **传统做法**：借用别人产品帮卖、借用现成平台、借用现成专家。  
 **AI 加速方式**：
 
-- 借用 AI 生成内容：无需谈合作、付费，AI 直接生成测试内容。
-- 借用 AI 做快速原型：一句话生成 Demo，无需求人。
+- src_unknown
+- src_unknown
 
 **降本映射**：成本从几千块降到几乎为零。
 
@@ -152,8 +152,8 @@ FALSE 模型是精益小抄中定义 MVP 设计的五个策略，按成本从低
 **传统做法**：用人肉运营模拟系统、用人工表格模拟供应链系统。  
 **AI 加速方式**：
 
-- AI 直接替代“人工替代”：原来用人肉模拟系统，现在用 AI 模拟系统，效率提升 10 倍。
-- AI 替代后还能自动迭代：人肉模拟只能跑几轮，AI 模拟可以跑几百轮。
+- src_unknown
+- src_unknown
 
 **降本映射**：比人肉运营成本更低、速度更快、还能自动优化。
 
@@ -164,8 +164,8 @@ FALSE 模型是精益小抄中定义 MVP 设计的五个策略，按成本从低
 **传统做法**：只做核心玩法、最小功能集、产品小样。  
 **AI 加速方式**：
 
-- AI 辅助快速开发最小版本：AI 写代码、AI 做设计，开发周期缩短到原来的 1/10。
-- AI 辅助快速迭代：最小版本上线后，AI 自动分析用户行为、自动生成迭代方案。
+- src_unknown
+- src_unknown
 
 > 案例：传统“只做游戏核心玩法，替代完整游戏”，AI 时代可升级为“用 AI 生成游戏核心玩法原型，1 天出 Demo，快速测试用户反馈”。
 
@@ -255,19 +255,19 @@ AI 加速分 = AI 可替代度分 + 验证速度要求分
 
 ## 六、落地 Checklist
 
-- [ ] 已拆解出 3-5 个关键假设，并按风险/前置性排序。
-- [ ] 当前要验证的假设优先匹配 FALSE 模型左侧策略。
-- [ ] 已评估哪些执行环节可用 AI 替代或加速（素材、原型、模拟、开发、分析）。
-- [ ] AI 模拟结果仅作为“预筛”，最终结论依赖真实用户行为（付费/转化/留存）。
-- [ ] 单次实验控制的假设数量 ≤ 2-3 个，避免结论污染。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 七、置信度说明
 
-- **置信度 0.75 / 信任等级 medium-high**：核心框架（FALSE 五策略及 AI 降本映射）直接来自张磊 AMA 精华整理稿 Q2 及口述/笔记材料，逻辑自洽且有多个内部来源交叉印证。
-- **不确定性**：
-  - 口述材料存在语音识别误差与整理者二次加工可能。
-  - “成本降到 1/10”为经验性表述，未提供定量数据支撑。
-  - 具体 AI 工具链、落地阈值需结合项目实际调整。
-- **建议**：本卡适合作为框架参考，落地前需用真实业务数据复现降本效果，并校准各策略的适用边界。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown

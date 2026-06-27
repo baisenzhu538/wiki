@@ -14,17 +14,17 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_204_vlm_desc.md
 related:
-  - '[[case-strategy-failure-08-video]]'
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-02-supermarket]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-04-appliance]]'
-  - "[[framework-strategy-pyramid]]"
-  - "[[framework-strategy-five-forces]]"
-  - "[[framework-strategy-blm]]"
-  - "[[framework-strategy-mckinsey-7s]]"
-  - "[[tool-strategy-fishbone]]"
-  - "[[tool-strategy-swot]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 
@@ -50,6 +50,6 @@ related:
 | 10 | 产品线和市场布局广泛，但管理复杂度激增、响应变慢 | 范围经济 vs 复杂性成本分析 | 识别规模扩张带来的隐性组织与管理成本 |
 
 **核心洞察**：
-- 模型不是越复杂越好，而是越"匹配情境"越好
-- 四个心智问题（问题类型、数据现状、时间压力、输出要求）是快速筛选模型的第一性原则
-- 常见错误：用 BCG 矩阵做并购文化整合，用 PEST 做渠道 ROI 优化——模型错配会导致决策失焦
+- src_unknown
+- src_unknown
+- src_unknown

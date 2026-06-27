@@ -6,48 +6,48 @@ title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- '[[sk-ai-purpose-bias-check]]'
-- '[[yt-pitch-storytelling]]'
-- '[[concept-minto-pyramid-principle]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
-- '#scene/communication'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: []
 prerequisite_skills: null
 related:
-  - '[[tool-ai-narrative-test]]'
-  - '[[sk-ai-system-redundancy]]'
-  - '[[case-yitang-sanjieke-benchmark-failure]]'
-  - '[[tool-月白-电商场景图三类分类法]]'
-  - '[[tool-ai-system-redundancy]]'
-  - '[[sk-ai-purpose-bias-check]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[concept-minto-pyramid-principle]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-- signal: 用户说"我的方案逻辑很完整，但老板/客户听完没反应"
+- src_unknown
   framework_lens: 叙事力五要素检查
   follow_up_question: 你的方案里有没有一个具体的人、一个明确的冲突、一个出人意料的转折？
-- signal: 用户说"产品功能很强，但用户就是不买单"
+- src_unknown
   framework_lens: 叙事力五要素检查
   follow_up_question: 用户能否在3秒内说出"这个角色和我有什么关系、不做会失去什么"？
 
@@ -80,11 +80,11 @@ diagnostic_signals:
 
 ### 缺口快速修复
 
-- **缺角色** → 找一个具体的用户/客户故事，用他的视角写。
-- **缺冲突** → 强调"不做的后果"——量化机会成本或风险。
-- **缺转折** → 加一个"反常识的发现"或"别人没做过的方法"。
-- **缺氛围** → 加一个具体的数字、场景描述或真实案例。
-- **缺行动** → 结尾加一句"接下来的第一步是……"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -116,29 +116,29 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确方案的目标受众（具体一个人或一类人）。
-- [ ] 用五要素逐项检查：角色、冲突、转折、氛围、行动。
-- [ ] 为每个要素打分（0-10），低于 6 分的标记为缺口。
-- [ ] 针对每个缺口，按修复指引重写对应段落。
-- [ ] 让至少 1 个目标受众试读，确认其能复述"主人公、问题、解决方案、下一步"。
-- [ ] 输出最终版：1 句话版本 + 1 分钟版本 + 完整版本。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[sk-ai-purpose-bias-check]]：同一来源（《偶然》拆书会）的偏差识别技能，常与叙事力测试配合使用。
-- [[yt-pitch-storytelling]]：一堂融资/汇报中的叙事表达方法，可用来强化"转折"与"氛围"。
-- [[concept-minto-pyramid-principle]]：结构化沟通框架，可与叙事力测试互补，先金字塔结构、再故事化表达。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里。
+- src_unknown

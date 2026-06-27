@@ -4,8 +4,8 @@ title: 线下连锁健身：把"到店频率"变成"到店习惯"才是续卡率
 type: case
 status: enriched
 domain:
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁健身续卡案例（持续复购型）
 source_refs:
@@ -20,10 +20,10 @@ review_date: "2026-06-20"
 confidence: 0.85
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-entrepreneur-unit-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 线下连锁健身：把“到店频率"变成“到店习惯"才是续卡率抓手
@@ -52,8 +52,8 @@ related:
 ```
 
 拆到 L1-L2 后，团队发现：
-- “到店频率和续卡率是正相关，让会员多来就行。”
-- “私教课购买率和续卡率是正相关，多卖课就行。”
+- src_unknown
+- src_unknown
 
 这些都是**相关关系**，不是**因果关系**。按相关关系做决策，会浪费资源在不能直接推动续卡的动作上。
 
@@ -103,22 +103,22 @@ related:
 
 1. **把满意度从“全面提升”改为“有一个亮点即可”**：环境、教练、前台中至少有一项让用户印象深刻，避免平均用力。
 2. **设计到店习惯养成机制**：
-   - 固定时段预约（如“每周二、四晚 7 点”）。
-   - 打卡 streak 奖励。
-   - 社群搭子机制，让不来的人有“错过感”。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **围绕到店习惯埋数据节点**：
-   - 周到店频次
-   - 固定时段占比
-   - 连续到店 streak 长度
-   - 缺席后的召回响应率
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ---
 
 ## 教训
 
-- **相关 ≠ 因果**：到店频率与续卡率正相关，但真正的因果链要经过“到店习惯”。
-- **满意度是“因的因”**：提升满意度有用，但瓶颈在“习惯养成”时，继续提升满意度是低 ROI 动作。
-- **加法关系不要写成乘法**：满意度的多个维度只要有一个足够好即可，不必平均用力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,15 +154,15 @@ related:
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：相关 vs 因果、加法 vs 乘法
-- [[yt-business-formula-ten-paradigms]]：用户周期型 #4、连续留存型 #7
-- [[yt-business-formula-parameter-iceberg]]：从 L2 续卡率到 L3 到店习惯
-- [[dk-yitang-business-formula-plus-times-trap]]：加法/乘法误判与拆解顺序
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、续卡率公式、满意度与到店习惯的关系（直接来自培训逐字稿）
-- **中置信度**：到店习惯养成机制的具体设计（来自讲师建议）
-- **待复核**：不同健身业态（高端/平价）的满意度结构可能不同
+- src_unknown
+- src_unknown
+- src_unknown

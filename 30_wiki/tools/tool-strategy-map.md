@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - strategy
+  - src_unknown
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md
 created_at: "2026-06-22"
@@ -14,9 +14,9 @@ updated_at: "2026-06-22"
 author: 黄药师（从 PPT _142 提取）
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[framework-strategy-brm]]"
-  - "[[framework-strategy-six-stages]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 战略地图

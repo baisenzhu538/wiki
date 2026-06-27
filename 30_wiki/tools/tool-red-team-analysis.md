@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: CIA Tradecraft Primer - Red Team Analysis
+- src_unknown
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-harness-adversarial-tester]]'
-  - '[[tool-candy-oral-polish]]'
-  - '[[framework-structured-analytic-techniques]]'
-  - '[[tool-devils-advocacy]]'
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[tool-harness-adversarial-tester]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Red Team Analysis
@@ -47,9 +47,9 @@ related:
 ### Step 3：模拟对手的最优策略
 
 "如果我是竞对CEO，我会怎么打垮我们？"
-- 我的弱点是什么？竞对最容易攻击哪个市场/产品/客户群？
-- 竞对有什么资源是我没想到的？
-- 如果竞对做一个"非理性"的举动（如大幅降价），最可能的原因是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：制定应对方案
 
@@ -84,8 +84,8 @@ prompt = """你现在是[COMPETITOR]的CEO [NAME]。
 
 ## 适用边界
 
-- **适用**：战略规划、新产品发布前的竞对预判、市场进入决策
-- **不适用**：竞对信息极度匮乏时（先做基础调研再做Red Team）
+- src_unknown
+- src_unknown
 
 ---
 

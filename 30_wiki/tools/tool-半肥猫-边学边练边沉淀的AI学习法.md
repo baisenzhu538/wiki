@@ -4,51 +4,51 @@ title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 真实业务项目
-- 文档沉淀工具
+- src_unknown
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
-- skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
+- src_unknown
+- src_unknown
 related:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[dk-ban-fei-mao-silky-answer-warning]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-半肥猫-课程Skill化的八步工作流]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-07'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 学习完课程后只会做笔记总结，没有实际应用
+- src_unknown
   lens: 学用脱节
   follow_up: 执行步骤1-2：不问总结而是问对自己最有用的方法，追问之前做得好和不好的地方
-- signal: AI回答看起来很丝滑但缺乏证据支撑
+- src_unknown
   lens: AI幻觉
   follow_up: 执行步骤5：对AI答案做三轮检查——推理→证据→贴近场景数据
-- signal: 学习成果没有沉淀，每次都要重新学习
+- src_unknown
   lens: 沉淀缺失
   follow_up: 执行步骤6：让AI帮忙沉淀为工具/SOP/PRD/Skill，制造可复用资产
-- signal: 用假案例练习，学习深度不够
+- src_unknown
   lens: 场景失真
   follow_up: 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习
-- signal: 沉淀的工具质量差，成为粗糙传声筒
+- src_unknown
   lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
 ---
@@ -60,11 +60,11 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.90] **老板心态是真实业务驱动学习的核心动力**。半肥猫的观察：当用"老板心态"（我要把这个问题解决掉、不能弄坏、要能复用）对待学习时，动力结构和"打工心态"（我要完成作业、要得好评、要被肯定）完全不同。老板心态会逼你把问题定义清、把证据找全、把工具做到能用。但老板心态的前提是"有真实业务可以驱动"
+- src_unknown
 
-- claim:02 [conf=0.88] **三轮检查是 AI 协作的底线保险**。第一轮检查推理 vs 证据（结论是怎么得出的）；第二轮检查更好的数据（有没有更贴近场景的数据）；第三轮检查贴近业务场景的数据（能不能用我自己的业务数据验证）。三轮检查能把 AI 从"讨好型回答"逼到"证据型回答"
+- src_unknown
 
-- claim:03 [conf=0.85] **沉淀习惯比单次产出更重要**。半肥猫每次和 AI 聊到阶段性成果，都会让 AI 写一份备忘录沉淀下来。这不是"写笔记"，而是"制造可复用的资产"。工具会经常变，但沉淀在工具里的能力不会丢
+- src_unknown
 
 ## 操作步骤
 
@@ -105,15 +105,15 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- AIGC 大模型
-- 真实业务项目
-- 文档沉淀工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
-- 使用假案例而非真实业务 → 学习深度不够 → **必须找真实业务驱动**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -123,11 +123,11 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **"真实业务驱动"的前提是"有真实业务"**。半肥猫自己有四个战场（软件重构/电子/机械/推广），所以永远有真实问题可以练。但对于还没有明确业务方向的初学者，"找真实业务"本身就是一个需要解决的问题
+- src_unknown
 
-- **三轮检查需要一定的判断力**。半肥猫能做到三轮检查，是因为他有丰富的商业经验。对于新手，可能连"这是推理还是证据"都分不清楚——这时候三轮检查本身就需要被教导
+- src_unknown
 
-- **沉淀的质量取决于沉淀者的水平**。如果沉淀者自己对课程理解不深，那么沉淀出来的工具可能是"粗糙的传声筒"——把错误的理解固化成了 SOP
+- src_unknown
 
 ### 外部攻击
 
@@ -135,11 +135,11 @@ diagnostic_signals:
 
 **Nassim Taleb**（*The Black Swan* / *Antifragile* 作者）对半肥猫的"三轮检查"中的"优先使用官方信源"提出了质疑：
 
-- **官方来源恰恰是最有偏见的**：大规模机构发布的数据经过了多重过滤和叙事包装。它们存在的目的是"让决策看起来合理"，而不是"反映真实世界"。小微企业、个体户、边缘市场的真实状况从不出现在官方统计中
+- src_unknown
 
-- **小数据比大数据更可靠**：对于复杂系统，局部的小样本、一手的体感、非结构化的观察，往往比官方的宏观数据更有预测力。半肥猫的第三轮检查才是"贴近业务场景的数据"，但 Taleb 会说：这应该是第一轮
+- src_unknown
 
-- **你的信源纪律不是在保护你不被 AI 欺骗，而是在保护你不被自己欺骗**：你设计了一套规则让 AI 给出"看起来像真的"的回答，但"看起来像真的"和"真的是真的"之间隔着整个叙事谬误
+- src_unknown
 
 > **Taleb 的拷问**："你让 AI 引用官方来源，引用微软、引用斯坦福。但你在真实业务中做的决策——有多少次是被这些报告改变的？又有多少次是被一个客户的抱怨、一次退货、一个怪异的转化率波动改变的？如果你诚实地回答，官方报告对你的真实决策贡献接近零。"
 
@@ -147,11 +147,11 @@ diagnostic_signals:
 
 **Seymour Papert**（*Mindstorms* 作者，MIT 媒体实验室联合创始人）对半肥猫的"真实业务驱动"和"工具化学习"提出了教育哲学层面的挑战：
 
-- **学习不能被完全工具化**：深层学习发生在"玩耍"和"无目的探索"中。半肥猫把学习完全绑定在"真实业务"和"产出工具"上，这虽然提高了效率，但**消灭了玩耍的空间**，而玩耍恰恰是产生突破性创新的土壤
+- src_unknown
 
-- **"老板心态"可能是学习的障碍**：老板心态的功利性会让学习者过早地收敛到"有用"的解决方案，而错过那些"暂时没用但可能革命性"的探索。历史上最重要的发现都来自"非目标导向"的观察
+- src_unknown
 
-- **你的方法论培养的是高效的问题解决者，但不是创造性的问题发现者**：你教会了人怎么把课程变成工具、怎么验证证据、怎么管理知识库。但你没有留下空间让人"纯粹因为好奇"而学习
+- src_unknown
 
 > **Papert 的拷问**："你的三层方法论里，有没有一层是'什么都不做、只是好奇地看看'？如果没有，那你不是在设计一个学习系统——你是在设计一个生产系统。"
 
@@ -171,8 +171,8 @@ diagnostic_signals:
 
 ## 来源
 
-- 半肥猫，AI 俱乐部 AI 学习落地分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

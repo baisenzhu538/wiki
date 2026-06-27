@@ -3,8 +3,8 @@ id: tool-Truman-科学提问法
 title: 技能：科学提问法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-月白-AI设计反馈萃取法]]'
-- '[[tool-Truman-职场异步协作提问法]]'
-- '[[tool-Truman-技术社区严肃提问法]]'
-- '[[tool-Truman-语义对齐沟通法]]'
-- '[[tool-月白-文创材质调研与精益选择]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：科学提问法
 
@@ -38,30 +38,30 @@ related:
 
 ## 适用场景
 
-- 需要向专家或同事请教问题
-- 在技术社区或论坛提问
-- 向AI工具寻求深度解答
-- 职场协作中需要信息交换
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 可以通过简单搜索直接获得答案
-- 纯粹出于好奇想了解
-- 没有做过任何尝试和思考
-- 想传播焦虑而非解决问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 搜索引擎
-- 技术文档
-- AI对话工具
-- 工单系统
-- 邮件列表
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -69,12 +69,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，科学提问
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

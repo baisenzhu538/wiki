@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: MCP specification (modelcontextprotocol.io)
-- web: Anthropic MCP documentation
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-firecrawl]]'
-  - '[[紫鲸AI]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[framework-yitang-research-weapon-supplement-2026]]'
-  - '[[tool-yitang-web-scraping-research]]'
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-yitang-ai-research-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # MCP协议
@@ -41,9 +41,9 @@ MCP是Agent和外部工具之间的"USB接口"——只要工具支持MCP，Agen
 ## 对调研的意义
 
 一堂武器库的每一种调研手段，理论上都可以封装为MCP Server：
-- "查一下竞对的招聘信息" → Agent自动调用Boss直聘MCP
-- "对比A和B的APP数据" → Agent自动调用七麦MCP
-- "搜索竞对的技术博客" → Agent自动调用Google搜索MCP
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 当前MCP生态
 
@@ -80,9 +80,9 @@ MCP是Agent和外部工具之间的"USB接口"——只要工具支持MCP，Agen
 
 ## 适用边界
 
-- **适用**：Agent需要自主调用多工具的复杂调研场景
-- **不适用**：简单的一次性查询（不需要MCP）
-- **注意**：MCP仍在快速演进中，2026年的实现可能半年后就变了
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,43 +6,43 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- note-taking
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-AI时代请单体笔记-Truman-口述-02.txt
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 tags:
-- '#domain/yitang'
-- '#domain/note-taking'
-- '#chunk-type/insight'
-- '#source_type/oral'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[dk-fundamentals-before-advanced-ops]]'
-  - '[[yt-skill-checklist-as-ai-protocol]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[yt-note-ai-human-division]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- format-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 新人用AI几分钟完成老人花几小时做的笔记，且认为自己"掌握了"
+- src_unknown
   framework_lens: 能力替代幻觉——把AI产出效率误当成个人能力
   follow_up_question: 如果关闭AI，你能不能独立完成同样质量的笔记？
-- signal: 培训考核中新人笔记结构漂亮但讲不清重点
+- src_unknown
   framework_lens: 审美未内化——AI提供了形式，但没提供判断
   follow_up_question: 这份笔记里如果只能保留3个要点，你会怎么选？为什么？
 ---# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
@@ -61,11 +61,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你是组织的管理者，面对新人全靠AI做笔记、老员工贴自己的体感用AI的分歧，需要制定基本功训练政策
-- 你是新人，发现同事用AI几分钟就做完了你花几小时的任务，产生"还练什么基本功，直接用AI就行" 的幻想
-- 你是老人（有经验的员工），发现自己的"审美和体感"在AI时代被放大了，但不知道这个杠杆怎么来的、怎么传授
-- 你在设计AI培训课程，需要决定"课程里应该放多少AI、多少人工"的比例
-- 你在评估自己或团队的能力水平，需要判断"哪些能力是AI可以替代的，哪些是永远不行的"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -78,11 +78,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用于**：任何需要"基本功→高阶能力"递进的领域（笔记、写作、设计、编程、音乐等）。这种幻灭机制在所有"技能演进"领域通用。
-- **不适用于**：纯信息查询类任务（查天气、查股票、翻译）——这类任务本质上不需要人的基本功，AI直接替代无损失。
-- **新人定义边界**："新人"不仅指工作年限短的人，而是指"基本功未内化"的人。有些人工作10年，但笔记水平仍然停留在L1，他们同样是"新人"。
-- **老人定义边界**："老人"不是指工作年限长，而是指"基本功已内化"的人。一个工作3年但每天刻意练习笔记的人，可能比一个工作10年从不练习的人"更老"。
-- **风险警示**：这种幻灭机制是**潜移性的**。新人不会立即感受到损失，反而会因为AI的"高效"而产生自信。损失通常在3-5年后才显现，那时再想补已经来不及。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -96,14 +96,14 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **反常识**：大多数人认为AI是"平权器"，让新人能追上老人。但Truman的洞察是**相反的**——AI实际上加剧了能力差距，因为它让"不练基本功"变得可行，从而阻断了进化路径。
-- **时间窗口论**：基本功的内化有**关键窗口期**。大脑在学习新技能时的可塑性是有限的——如果早期就形成了"用AI代替思考"的习惯，神经网络的连接方式会被固定，后期再想重建成本极高。
-- **组织壁垒**：当竞争对手的新人全靠AI、老人靠体感时，你的团队如果能建立"基本功红线"机制，将在中长期获得巨大的人才优势。这是**不可复制的组织能力**。
-- **个人策略**：对个人来说，这条暗知识的价值在于**让你知道什么时候该拒绝AI**。不是"为了拒绝而拒绝"，而是"为了保护自己的进化能力而拒绝"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-five-levels-training]] — 五阶训练法是"避免新人灾难"的具体路径。L1-L3的每一步都不能跳，跳过就永远到不了L4-L5。
-- [[dk-note-surplus-brainpower]] — "老人天堂"的核心机制是"剩余脑力"。只有基本功足够扎实的人，才能在用AI时保留足够的认知资源去做高阶判断。
-- [[dk-note-maximum-common-divisor]] — "最大公约数"是"老人天堂"的核心武器。新人连清单体都写不好，更谈不上用它作为AI接口。
-- [[yt-note-ai-human-division]] — 六阶模型中的分工边界定义了"哪些是基本功（人必须做），哪些是高阶能力（人必须想）"。这条边界线是避免幻灭的第一道防火墙。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

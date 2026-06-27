@@ -6,10 +6,10 @@ title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
 status: enriched
 domain:
-  - research- healthcare
-  - compliance
-  - business-strategy
-  - field-research
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-18'
 updated_at: '2026-06-18'
 author: unknown
@@ -17,26 +17,26 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[xingangwan-pharma-business-model-formulas]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[parking-lot]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-18'
 tags:
-- 鑫港湾
-- 山西调研
-- 智慧药柜
-- 慢性病
-- 合规
-- checklist
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- author 未确认（unknown）
-- source_refs 为空，原始资料未归档到 10_raw/sources/
+- src_unknown
+- src_unknown
 
 ---
 
@@ -57,11 +57,11 @@ diagnostic_signals:
 
 ## 边界
 
-- **地域边界**：山西省，首发聚焦长治市，省级口径在太原确认。
-- **模式边界**：优先验证「药店在诊所内设智慧药柜」模式；备选方案仅作为风险预案。
-- **时间边界**：以 2026 年 7 月前后山西有效政策口径为准。
-- **责任边界**：诊所仅出租场地，不介入药品采购、销售、结算；药店承担全部经营与合规责任。
-- **数据边界**：单柜财务测算基于假设，调研后必须根据实际数据修正。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -114,172 +114,172 @@ diagnostic_signals:
 **核心问题**
 
 1. **药柜设置场所**
-   - 药品零售企业是否可以在诊所内设置智慧药房（柜）？
-   - 是否需要将药柜地址写入《药品经营许可证》的"经营地址"项？
-   - 诊所内设药柜，对诊所资质有什么要求？是否必须是医保定点医疗机构？
-   - 药柜与诊所之间是否需要物理隔离？面积、标识有什么要求？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **经营主体边界**
-   - 药店与诊所之间能否签订场地租赁协议？诊所是否可以按销售额分成？
-   - 如何认定"出租柜台"？有哪些具体红线？
-   - 药柜的药品采购、定价、销售、结算是否必须全部由药店完成？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **智慧药房（柜）售处方药**
-   - 智慧药房（柜）销售处方药需要满足哪些条件？
-   - 是否需要互联网医院接入？远程审方如何要求？
-   - 是否需要接入药品追溯码系统？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **备案/审批材料**
-   - 设置智慧药柜需要提交哪些材料？
-   - 审批/备案周期多久？
-   - 是否需要现场检查？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **需要带回的材料**
 
-- [ ] 智慧药柜设置办事指南/申请表格
-- [ ] 相关政策文件纸质版或官方链接
-- [ ] 联系人名片/电话
-- [ ] 口头答复的书面确认（如有）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 医疗保障局 / 医保中心
 
 **核心问题**
 
 1. **药店医保定点与门诊统筹**
-   - 药店申请医保定点/门诊统筹的条件是什么？当前是否开放申请？
-   - 药店接入医保电子处方中心需要满足哪些条件？
-   - 医保电子处方中心接入是否需要费用？由谁负责技术对接？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **处方来源**
-   - 定点零售药店销售处方药，可纳入门诊统筹报销的处方来源有哪些？
-   - 互联网医院电子处方是否可以纳入门诊统筹报销？
-   - 是否要求互联网医院以山西本地定点医疗机构为依托？医师是否必须在山西注册？
-   - 成都/广州的互联网医院（如桃子健康、银叶健康）处方能否在山西药店走门诊统筹？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **电子处方流转**
-   - 诊所 HIS 开具的电子处方如何上传至医保电子处方中心？
-   - 药店/药柜如何下载处方？是否需要特定接口？
-   - 纸质处方是否还接受？双通道药品、门诊慢特病是否必须电子处方？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **医保移动支付**
-   - 药柜端是否支持医保电子凭证扫码支付？
-   - 门诊统筹在药柜结算是否与在药店门店结算待遇一致？
-   - 移动支付接入的技术要求和验收标准是什么？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **追溯码**
-   - 2025 年 7 月 1 日起是否执行"无码不结"？
-   - 药柜销售药品是否必须扫描追溯码？追溯码信息如何上传？
+   - src_unknown
+   - src_unknown
 
 **需要带回的材料**
 
-- [ ] 医保定点/门诊统筹申请指南
-- [ ] 医保电子处方中心接入指南
-- [ ] 医保移动支付接口文档或联系方式
-- [ ] 互联网医院纳入医保的准入名单/条件
-- [ ] 追溯码上传规范
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 目标合作诊所
 
 **核心问题**
 
 1. **诊所资质**
-   - 诊所是否为医保定点医疗机构？医保定点级别（一类/二类/三类）？
-   - 诊所执业范围是否包含高血压、糖尿病等慢性病诊疗？
-   - 诊所 HIS 系统是否支持开具电子处方并上传医保电子处方中心？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **患者流量与病种结构**
-   - 日均门诊量多少？慢病患者占比多少？
-   - 高血压、糖尿病、高血脂等慢性病患者每月复诊人数？
-   - 患者购药习惯：是否在诊所购药？是否愿意去药店？对医保报销的敏感度？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **处方流转意愿**
-   - 诊所是否愿意将电子处方流转至药店药柜？
-   - 医生是否接受在 HIS 中开具外配电子处方？
-   - 诊所是否担心患者流失到药店？如何设计利益机制？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **场地合作**
-   - 诊所可提供的场地面积、位置（候诊区/大厅/独立房间）？
-   - 场地租金期望（固定租金 or 分成）？
-   - 是否愿意签订固定租金的场地租赁合同？
-   - 水电、网络、安保如何安排？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **现有药品供应**
-   - 诊所是否自有药房？药品种类是否齐全？
-   - 诊所是否已有药品供应商？采购价格如何？
-   - 患者因诊所缺药需要去药店/医院购药的比例？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **需要带回的材料**
 
-- [ ] 诊所《医疗机构执业许可证》复印件
-- [ ] 医保定点协议/标识照片
-- [ ] 近 3 个月门诊量、病种结构数据（脱敏）
-- [ ] HIS 系统名称、供应商、电子处方功能说明
-- [ ] 场地平面图/照片
-- [ ] 场地合作意向或报价
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 合作药店
 
 **核心问题**
 
 1. **资质与系统**
-   - 药店《药品经营许可证》范围是否包含处方药、中药饮片等？
-   - 是否为医保定点药店？是否已开通门诊统筹？
-   - 药店 ERP 系统是否支持进销存实时上传、追溯码采集、医保接口？
-   - 是否已有远程审方系统？执业药师配置情况？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **运营能力**
-   - 药店日均销售额、处方药占比、慢病客户数？
-   - 是否已有互联网医院合作？费用如何？
-   - 配送能力如何？是否接入 O2O 平台？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **合作模式**
-   - 药店是否愿意在诊所内设智慧药柜？
-   - 药店对药柜投资、运营、利润分成的期望？
-   - 药店是否接受由鑫港湾主导小程序私域运营？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **品种与毛利**
-   - 首批可入柜的高血压、糖尿病、高血脂品种有哪些？采购价、零售价、毛利率？
-   - 哪些品种可走门诊统筹？患者自付比例？
-   - OTC、保健品、器械的品类和毛利结构？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **需要带回的材料**
 
-- [ ] 药店《药品经营许可证》《营业执照》复印件
-- [ ] 医保定点协议
-- [ ] ERP 系统功能说明、接口文档
-- [ ] 药品价格/毛利清单（首批入柜品种）
-- [ ] 合作意向或框架协议草案
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 互联网医院 / HIS 供应商
 
 **核心问题**（针对桃子健康、银叶健康、本地互联网医院、诊所 HIS 供应商）
 
 1. **平台资质**
-   - 互联网医院依托的实体医疗机构在哪里？是否在山西？
-   - 是否具备接入山西医保电子处方中心的能力？
-   - 是否已在山西医保局备案/公布？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **接入费用**
-   - 药店接入费、年费、单张处方费、审方费分别是多少？
-   - 与诊所 HIS 对接的费用和周期？
-   - 医保移动支付接口的费用？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **技术对接**
-   - 是否提供标准 API？文档是否完善？
-   - 是否支持山西医保电子处方中心接口规范？
-   - 开方、审方、流转、结算全流程数据回传能力如何？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **合规保障**
-   - 如何保证不做 AI 自动开方？
-   - 如何保证处方来源真实、可追溯？
-   - 病历保存、视频问诊留存是否符合监管要求？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **需要带回的材料**
 
-- [ ] 平台报价单
-- [ ] 接入技术文档
-- [ ] 互联网医院牌照/资质复印件
-- [ ] 已合作药店案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 必须带回的结论
 
@@ -311,5 +311,5 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-- [[parking-lot]]
+- src_unknown
+- src_unknown

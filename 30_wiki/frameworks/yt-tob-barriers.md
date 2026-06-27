@@ -6,17 +6,17 @@ title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/competitive-advantage'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -25,28 +25,28 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-core-characteristics]]'
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[case-yitang-tob-smart-park]]'
-  - '[[case-yitang-tob-career-planning]]'
-  - '[[yt-barrier-identification-skill]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队讲不清壁垒是什么，只会说“产品好”“技术领先”。
+- src_unknown
   framework_lens: 壁垒类型选择
   follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？
-- signal: 行业看起来集中、壁垒强，但自己却赚不到钱，护城河成了别人的。
+- src_unknown
   framework_lens: 壁垒强弱三维度
   follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
-- signal: 规模化后人效下降、履约成本飙升，越扩张利润越薄。
+- src_unknown
   framework_lens: 规模不经济对抗
   follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
 
@@ -76,16 +76,16 @@ To B 的壁垒往往不是单一要素，而是“关系 + 数据 + 流程 + 资
 判断壁垒强弱，建议“三看”：
 
 1. **看集中度**
-   - 行业集中度越高，头部玩家的壁垒往往越强。
-   - 但对新进入者而言，高集中度行业也可能是“别人的壁垒”——巨头已经占据生态位，新玩家的壁垒价值有限。
+   - src_unknown
+   - src_unknown
 
 2. **看单元模型占比**
-   - 壁垒在单元模型中占比越高，壁垒价值越大。
-   - 例如：某 SaaS 的“数据迁移成本”若占客户总拥有成本的 30% 以上，就是强壁垒；若只占 3%，则只是辅助优势。
+   - src_unknown
+   - src_unknown
 
 3. **看成本变化大小**
-   - 规模扩大后，关键成本是否显著下降。
-   - 成本显著下降 → 更可能有规模效应；成本不降反升 → 警惕规模不经济。
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -97,10 +97,10 @@ To B 业务典型的规模不经济要素：**重决策、重关系、重销售�
 
 这些要素在规模扩大时往往导致：
 
-- 销售人均产出下降
-- 履约和交付成本上升
-- 定制需求拖垮标准化
-- 关键人才流失带走客户
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四类对抗策略
 
@@ -168,9 +168,9 @@ To B 业务典型的规模不经济要素：**重决策、重关系、重销售�
 壁垒综合得分 = Σ(维度评分 × 权重)
 ```
 
-- **≥4.0**：壁垒较强，重点应转为深挖和规模化。
-- **3.0–4.0**：壁垒有基础，需补齐薄弱维度。
-- **<3.0**：壁垒薄弱或虚假，优先跑通单元模型并建设真实切换成本。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 注意：同一业务在不同阶段得分会变化。人工骨早期可能只有 2.8，但在渠道和临床数据沉淀后可能升至 4.0 以上。
 
@@ -180,15 +180,15 @@ To B 业务典型的规模不经济要素：**重决策、重关系、重销售�
 
 ### Buffett 会问
 
-- 这个“护城河”十年后还在吗？专利会到期，技术会被绕过，只有客户真正离不开的切换成本才持久。
-- 管理层是不是把“技术领先”错当成了“定价权”？没有定价权的无形资产只是成本，不是利润。
-- 规模效应是真的边际成本下降，还是靠压价换量、利润越摊越薄？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Thiel 会问
 
-- 这是垄断壁垒还是竞争壁垒？转化成本高、网络效应强才算垄断；单纯“比对手好一点”很快会被拉平。
-- To B 项目靠关系和定制赢单，本质上是“竞争性投标”而非“垄断性占有”。关系能不能转化为组织化的数据和流程资产？
-- 减少定制、缩减 SKU 会不会把业务从“复杂解决方案”降级为“可被大厂碾压的标准品”？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反击与修正
 
@@ -202,31 +202,31 @@ To B 业务典型的规模不经济要素：**重决策、重关系、重销售�
 
 ## 六、Action Triggers
 
-- **Trigger 1：销售人效连续两季度下降 >15%**
-  - 立即启动规模不经济审查：拆解“重决策、重关系、重销售、依赖人”四要素，判断是人效问题、定制问题还是渠道模型问题。
-  - 输出：一份《规模不经济根因清单》和 30 天内的标准化动作（如 SKU 收敛、SOP 更新、专家经验模板化）。
+- src_unknown
+  - src_unknown
+  - src_unknown
 
-- **Trigger 2：客户说“你们产品不错，但换掉旧供应商也不难”**
-  - 立即启动转化成本设计：量化客户替换所需的时间、资金、组织变动，找出可被放大的沉没成本（数据、流程、培训、集成）。
-  - 输出：一份《切换成本增强方案》，明确接下来 90 天要落地的流程绑定或数据沉淀动作。
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
 ## 七、与其他框架的关系
 
-- [[yt-tob-unit-model]]：壁垒强弱最终要在单元模型中量化，看占比和成本变化。
-- [[yt-tob-growth-channel]]：增长策略需要与壁垒建设同步，否则规模扩大只会暴露短板。
-- [[yt-entrepreneur-five-step-method]]：壁垒是五步法的最后一步，但应在早期就有意识地识别和构建。
-- [[yt-entrepreneur-product-core]]：产品内核的聚焦程度直接影响规模效应和标准化空间。
-- [[case-yitang-tob-artificial-bone]]：专利强但转化成本未形成的典型失败案例。
-- [[case-yitang-tob-smart-park]]：项目制业务因高度定制陷入规模不经济的典型案例。
-- [[yt-barrier-identification-skill]]：用于识别伪壁垒和真壁垒的诊断技能。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：三类壁垒（转化成本、规模效应、无形资产）和“三看”强弱判断逻辑在课程图片 OCR 与课堂笔记中一致出现。
-- **中置信度**：对抗规模不经济的四条策略为课程提炼，具体落地方式需结合行业和组织能力调整。
-- **中置信度**：案例映射来自学员自述作业（`src_20260616_aac184cc`），关键数字需独立核实，但失败模式与框架逻辑高度吻合。
-- **未独立核实**：课程中的案例数字和具体行业数据未经验证，引用时定位为“讲师方法论/学员自述”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -10,14 +10,14 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- src_unknown
 related:
-  - '[[case-strategy-wuxi-suntech]]'
-  - '[[case-strategy-li-ka-shing]]'
-  - '[[case-strategy-practice-11-third-place]]'
-  - '[[case-strategy-lekai-film]]'
-  - '[[case-strategy-cool-boiled-water]]'
-  - "[[framework-strategy-six-stages]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **挫败**：涨价→销售额暴跌
 **起死回生四连击**：换代言人（年轻化）+新媒体投放+品类拓展+区域扩张

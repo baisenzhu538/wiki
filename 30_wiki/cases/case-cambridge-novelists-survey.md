@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[case-chen-qiufan-ai-writing]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 剑桥小说家对 AI 创作态度调查
@@ -66,10 +66,10 @@ related:
 
 ### 涉及主体
 
-- **Minderoo Centre for Technology & Democracy**：剑桥大学下属研究机构，负责设计与发布本报告。
-- **Dr Clementine Collett**：报告作者，BRAID Fellow，同时是已出版小说家。
-- **258 位英国已出版小说家**：核心样本，占全部 332 位受访文学创意者的 78%。
-- **74 位行业内部人士**：包括文学代理人、委托编辑、出版从业者等。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 - src_unknown
 
 ### 时间线
@@ -218,12 +218,12 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 审查你所在行业是否存在“核心产出可被生成式 AI 替代”的岗位，并量化辅助性收入被侵蚀的比例。
-- [ ] 若你的产品使用第三方创作内容训练模型，检查训练数据授权链：是否获得明确授权？是否提供 opt-out 或 opt-in 机制？
-- [ ] 在面向创作者的市场中，区分“辅助工具”与“替代工具”的界面和定价，避免把 33% 的辅助采用率误读为 97% 的核心接受度。
-- [ ] 对高价值内容资产，优先评估类型化、模式化产出的被替代风险，而不是假设所有创作都同等安全。
-- [ ] 在政策或合规设计中，测试“默认 opt-out”与“默认 opt-in”对创作者信任的不同影响。
-- [ ] 建立“人类创作”披露或认证机制，保护作家-读者、艺术家-观众之间的信任关系。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -232,8 +232,8 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
-- Thomas, A., Battisti, M., & Kretschmer, M. (2022). *UK Authors' Earnings and Contracts 2022*.
-- 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网.
+- src_unknown
+- src_unknown
 
 ---
 

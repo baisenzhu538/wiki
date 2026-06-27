@@ -24,6 +24,6 @@ Deprecated and superseded cards moved here so they don't pollute quality gate me
 
 ## When NOT to archive
 
-- Cards with `status: draft` that were never published → just delete
-- Temporary/testing cards → just delete
-- Cards that are still referenced by other cards → update references first
+- src_unknown
+- src_unknown
+- src_unknown

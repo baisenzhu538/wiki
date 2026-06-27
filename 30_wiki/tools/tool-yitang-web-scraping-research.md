@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_unknown
   - src_unknown
@@ -21,23 +21,23 @@ reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
 related:
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-public-information-research]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[concept-yitang-research-facts-first]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "Agent 需要批量获取某行业/公司的公开数据"
+  - src_unknown
     framework_lens: 爬虫工具匹配矩阵
     follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
-  - signal: "调研对象网站的 robots.txt 禁止爬取"
+  - src_unknown
     framework_lens: 合规决策树
     follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
 tags:
-  - "#domain/yitang"
-  - "#topic/web-scraping"
-  - "#topic/data-collection"
-  - "#topic/research-tools"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
@@ -133,9 +133,9 @@ tags:
 
 ### 中国合规要点
 
-- 《反不正当竞争法》第 13 条第 3 项："方法+目的+损害"测试
-- 法院从"权利保护"转向"市场秩序维护"
-- 数据分三级：公开数据 / 限制访问数据 / 非公开数据——后两类不得爬取
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

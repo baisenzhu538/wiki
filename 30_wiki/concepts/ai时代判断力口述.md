@@ -4,7 +4,7 @@
 id: "ai时代判断力口述"
 created_at: 2026-05-25
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
 - src_20260525_6748cc27-ai时代判断力口述
 status: enriched
@@ -12,18 +12,18 @@ title: "AI时代判断力口述"
 type: concept
 updated_at: 2026-05-28
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[老朱的水感-2026年5月]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[2026-05-17-深夜感想]]'
-  - '[[writing-content]]'
-  - '[[在设计小伙伴的反馈还挺好的]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # AI时代判断力口述
 
@@ -37,30 +37,30 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 公司管理结构将被重构为自我进化的有机体，最终只保留"建造者"和"一线客户接触者"两种角色，中间管理层因AI的无限信息带宽而消失。
-- "副驾驶模式"（给旧结构加AI助手提效20%）是错误思维，正确做法是让AI成为公司结构本身，实现自我进化。
-- 第一步是将公司所有know-how转化为AI可读的活文档：YC将2000小时录音、邮件等转化为每月自动更新的150页操作手册，集体智慧从人脑迁移为持续自更新的文档资产。
-- 第二步将业务流程改造为五层自我循环：感知层→决策层→工具层→质量层→自动修复，实现无人干预时公司仍在自我优化。
-- 第三步是关键质变：在Agent之上叠加监控Agent，使其自主诊断失败原因、改写代码、提交合并、审查部署，实现AI自我进化而非仅提效。
-- 代码将成为一次性消耗品（AI生成极快极便宜），业务上下文/知识/诀窍才是永恒资产——传统软件公司的代码护城河正被抹平。
-- 新的人员衡量标准：烧token不烧人头，员工价值以其每月消耗的token量衡量；YC最新批次公司人均年收入18个月内提升5倍，token消耗提升100倍。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 口述者声称"这已经是共识"，但仅引用了YC一家机构的实践，是否调研了不同行业、不同规模、不同文化背景的组织？是否存在幸存者偏差？
-- "AI的带宽比人脑大一万倍"这一具体数字如何得出？是比喻性表述还是有技术依据？不同AI系统的上下文窗口限制是否被考虑？
-- YC将2000小时录音转化为150页手册的案例，"好得多"的标准是什么？由谁评估？人类员工实际使用中的反馈和错误率数据是否公开？
-- 五层循环中的"质量层"自我纠错机制，如何界定"错误"？是否存在价值判断、伦理风险或品牌危机等无法自动识别的场景？
-- 监控Agent自主改写代码并部署的案例，安全审计和回滚机制如何设计？口述未提及人类监督节点，是否符合合规要求？是否有实际事故记录？
-- "代码成为一次性消耗品"的论断是否适用于所有领域？安全关键系统、金融基础设施、医疗软件等是否同样适用？维护成本和技术债务是否被低估？
-- "人均年收入提升5倍"与"token消耗提升100倍"的因果关系是否成立？是否存在选择效应（YC筛选更优质创业者）？其他成本（算力、合规、错误损失）是否计入？
-- "全员Clo不走报销流程"中的"Clo"具体指什么工具？口述者自身是否已实践该模式？国内"已经有公司这么干"的案例能否具名验证？
-- 最终只保留两种人的极端二元结构，是否假设所有业务场景都可完全标准化？创新孵化、战略模糊地带、组织文化建设等是否无需中间协调角色？
-- 对"中层传话筒"的功能简化是否忽略了其承担的激励、辅导、政治缓冲、跨部门信任建设等非信息传递职能？这些是否可被AI替代？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

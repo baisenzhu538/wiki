@@ -8,40 +8,40 @@ source_refs:
 - 10_raw/sources/src_20260619_86ca05fb_30_wiki_concepts_yt_management_strategy_meeting.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[tool-泛产品落地-攻坚会]]'
-  - '[[private-domain-saas-sales-funnel]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[yt-tool-onboarding-90day]]'
-  - '[[yt-management-strategy-meeting]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-founder-role]]'
-  - '[[yt-management-company-culture]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 战略会怎么开
-- 创业战略规划
-- 年度战略会
-- 战略研讨
-- 战略对齐
-- 战略决策
-- 战略复盘
-- disagree and commit
-- 战略会模板
-- 战略导引
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -99,17 +99,17 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 
 **会上第一个动作：先贴所有人的答案。看差异有多大**——差异本身才是最该被讨论的战略议题。
 
-- 三个人对"最大瓶颈"的回答指向完全不同的方向 → 最大收获，讨论这个差异
-- 三个人的回答完全一致 → 可以压缩会议时间到 2 小时，直接执行
+- src_unknown
+- src_unknown
 
 #### 四件套 #2：信息预备
 
 会议前 1 周，准备以下材料（不是 PPT，是"信息背景版"）：
 
-- 市场数据：行业规模、增长率、竞品动态（非自己公司的数据，是外部世界的数据）
-- 用户信息：近 6 个月最重要的 3 条用户反馈
-- 财务情况：现金流、收入结构、成本趋势
-- 组织能力：团队规模、关键人员能力评估、技术债务
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **禁止**：不准带部门工作汇报。这不是汇报大会。
 
@@ -125,10 +125,10 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 
 #### 四件套 #4：场地选择
 
-- **必须离开办公室**——熟悉的环境触发熟悉的思维模式
-- 安静、可以集中注意力的空间（不是餐厅）
-- 可以写字/贴便利贴的墙面或白板
-- 会议室规格：能容纳所有参会者的圆桌或 U 形排座（不是老板在台上的会议室）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -161,24 +161,24 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 **目的**：从发散到收敛，产出 2-3 个核心选项及其利弊分析。
 
 **发散阶段（第一小时）**：
-- 第一问："如果我们什么都不做——只做一件事，这件事应该是什么？"
-- 第二问："如果我们有无限的资源，我们会做什么？"
-- 第三问："如果我们只有现在 50% 的资源，我们会剪掉什么？"
-- 每个人写出 3 个方向建议，贴上墙，所有人看
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **收敛阶段（第二小时起）**：
 1. 分类：将墙上的所有建议分类——相似的放在一起
 2. 聚焦：投票出 Top 3 方向（不是最终决定，是收敛圈子）
 3. 利弊分析：对每个 Top 3 方向，全体讨论：
-   - 如果我们走这个方向，成功的关键因素是什么？（我们控制得了吗？）
-   - 如果这个方向失败，最可能的失败模式是什么？（我们能提前翇制吗？）
-   - 这个方向和我们的能力匹配度如何？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. 强迫取舍："如果我们必须砍掉 2/3 的方向——只留 1 个，哪一个？"
 
 **关键原则**：
-- 讨论中不准说"我觉得"——要么用数据，要么用逻辑
-- 正反方论证：每个方向必须有一个人担任"恶魔提醒"——专门负责说这个方向为什么不对
-- 不许人身攻击：可以攻击观点，不能攻击人
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 第四段：决策锁定（1-2 hours）
 
@@ -210,12 +210,12 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 #### 会后检查 #1：战略决策纪要（会后 24h 内）
 
 **必须包含**：
-- 战略方向（一句话）
-- 选择理由（3-5 条）
-- 放弃的方向（为什么不选）
-- 异议档案（每个异议的内容和判断条件）
-- 撤销条件（3 条）
-- 下一步行动（3 个关键动作 + 负责人 + DDL）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **发布**：发给全体参会者确认，修改完成后再发给全公司。
 
@@ -223,9 +223,9 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 
 如何向全公司传达战略决策？
 
-- **全体大会**（必须）：一号位親自讲解，不是发邮件。讲清楚"为什么选这个方向"、"放弃了什么"、"对你们意味着什么"
-- **部门会议**（必须）：每个部门用 1 小时讨论"这个战略对我们部门意味着什么"，产出部门级行动计划
-- **OKR 对齐**（必须）：将战略方向转化为公司级 OKR（[[yt-tool-okr-cycle]]）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **红线**：战略会的决策如果只停留在参会者脑子里——它等于没有被做出来。
 
@@ -243,9 +243,9 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 绿灯：如果 ____ 指标在轨 → 不需要额外讨论，继续执行
 
 规则：
-- 红灯触发了必须停下所有事情重新讨论
-- 黄灯继续两周后自动变成红灯
-- 绿灯不能让人安心——绿灯只是"暂时不需要讨论"，不是"我们对了"
+- src_unknown
+- src_unknown
+- src_unknown
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 

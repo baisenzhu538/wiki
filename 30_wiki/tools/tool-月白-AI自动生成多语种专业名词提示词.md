@@ -4,32 +4,32 @@ title: 技能：AI自动生成多语种专业名词提示词
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI自动生成多语种专业名词提示词
 
@@ -47,25 +47,25 @@ AI自动生成多语种专业名词提示词是月白在文创案例中提出的
 
 ## 适用场景
 
-- 需要大量生成含专业术语的提示词
-- 构建个人/团队的提示词工程体系
-- 跨语言协作或国际化输出场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 单次临时生成
-- 完全非专业领域的通用图片生成
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AI对话模型
-- 自定义系统提示词/代码指令
-- 专业术语库
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -73,12 +73,12 @@ AI自动生成多语种专业名词提示词是月白在文创案例中提出的
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

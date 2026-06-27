@@ -15,14 +15,14 @@ domain: [yitang, content-production, ai-collaboration]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[concept-harness-cattle-not-pets]]'
-  - '[[tool-yitang-weapon-former-employee-network]]'
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[concept-harness-cattle-not-pets]]"
-  - "[[framework-candy-transcript-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI是协作者而非代写工具
@@ -52,14 +52,14 @@ related:
 
 ## 关键原则
 
-- **方向感必须是人的**：AI不知道你的听众是谁、你的品牌调性是什么、你想传递什么价值观
-- **人是最终验收者**：AI可以生成10个版本，但只有一个版本是"对的"——这需要人来判断
-- **不要问AI"你觉得怎么样"**：问"这里有3个版本，哪个更符合'我想传递X感觉'？"——把判断标准给人，把执行给AI
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
-- **适用**：内容创作、方案设计等需要"个人风格"和"价值判断"的场景
-- **不适用**：纯数据提取、格式化输出等不需要判断的机械任务
+- src_unknown
+- src_unknown
 
 ---
 

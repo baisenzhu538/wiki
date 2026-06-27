@@ -4,30 +4,30 @@ title: 技能：12种认知偏差完整自检
 type: tool
 status: draft
 domain:
-- decision-making
-- 认知
-- 心理学
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-cognitive-bias-checklist框架提炼，2026-05-18
 source_refs:
-- 来源: 消化全库后提炼
+- src_unknown
 wiki_refs:
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次自检12个问题全部回答
-- 至少发现1个"是"并执行了修复
-- 能说出"我可能的偏差是X"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
-- 一张纸/电子表格（记录用）
+- src_unknown
+- src_unknown
 prerequisite_skills: null
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
@@ -86,14 +86,14 @@ trust_level: low
 
 ## 适用场景
 
-- ✅ **做重要决策前** — 投资、招聘、产品方向、战略合作
-- ✅ **团队评审方案时** — 每个人独立填，然后交换对比
-- ✅ **复盘决策时** — 对照清单分析"当时犯了哪个偏差"
-- ✅ **AI给出关键结论后** — 检查自己是否被AI的框架效应或过度自信影响
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **日常小决策** — 用"4偏差快速版"（确认偏误+过度自信+沉没成本+幸存者偏差）
-- ❌ **时间极度紧迫** — 至少执行"4偏差快速版"（2分钟）
-- ❌ **纯直觉决策** — 如果决策本身就是靠直觉，自检会干扰直觉
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,9 +107,9 @@ trust_level: low
 
 ## 工具/环境
 
-- **必需**：无（纯思维工具）
-- **推荐**：一张纸或电子表格——记录自检结果
-- **备用方案**：如果无法独立完成，找一个人帮你检查答案（"他检"优于"自检"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -127,20 +127,20 @@ trust_level: low
 
 ## 关联技能
 
-- skill-cognitive-bias-4-quick — 4偏差快速自检（2分钟版）
-- [[tool-decision-outside-view]] — 团队决策的外部视角法
-- [[tool-decision-delay-intuition]] — 延迟直觉法
-- dk-cognitive-bias-checklist-illusion — 清单给你客观感不是客观
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 基于全库消化后提炼，2026-05-18
-- 原始素材：`30_wiki/concepts/master-cognitive-bias-checklist.md`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -9,8 +9,8 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - yitang- yitang
-  - modeling
+  - src_unknown
+  - src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
 created_at: '2026-06-14'
@@ -21,30 +21,30 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[case-truman-sales-report-structure]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[modeling-three-stages]]'
-  - '[[model-quality-four-levels]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[dk-modeling-essence-predictive]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#method/thinking-tool'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我列了很多点，但自己看着也乱
+- src_unknown
   framework_lens: 逻辑洁癖五段位
   follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
-- signal: 我的模型感觉“总是缺一块”
+- src_unknown
   framework_lens: 逻辑洁癖五段位
   follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
-- signal: 别人问我“为什么 A 在 B 前面”，我答不上来
+- src_unknown
   framework_lens: 逻辑洁癖五段位
   follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
 
@@ -80,33 +80,33 @@ L1 散点/大坨  →  L2 清单  →  L3 优先级  →  L4 MECE  →  L5 逻�
 
 ### L1：散点 / 一大坨
 
-- 所有内容揉在一起，无结构
-- 几乎不可用，Truman 已经基本不看这个段位的东西——`src_20260614_8269ccdb#840-844`
+- src_unknown
+- src_unknown
 
 ### L2：清单
 
-- 把内容拉开展平，逐条列出
-- 比 L1 好：至少解耦了
-- 但长清单仍然难读、难记、难用——`src_20260614_8269ccdb#846-848`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L3：有优先级
 
-- 在清单基础上分出顺序：SABC、高中低、主要矛盾
-- 知道什么是重点、什么是减法
-- **Truman 的合格线**：重要内容至少要做到 L3——`src_20260614_8269ccdb#848-852`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L4：MECE
 
-- 不重不漏，彼此独立，完全穷尽
-- 能明显感觉没丢东西，概念之间能解耦
-- 一堂认为：一个相对好的体系至少要达到 MECE——`src_20260614_8269ccdb#854-862`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L5：逻辑链
 
-- 不只是拆成几块，而是有内在推理关系
-- 谁是头、谁是尾、谁推导出谁
-- 有理想顺序和内在规律
-- 一堂五步法就是典型：打乱顺序后，头不能当头，尾不能当尾——`src_20260614_8269ccdb#864-875`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -159,18 +159,18 @@ Truman 说：一堂课应该 **80% 做到 L5，剩下 20% 做到 L4**。一堂�
 
 ## 相关卡 / 互链
 
-- [[modeling-scientific-milestones]] —— 科学建模七步流程，把 L4/L5 的追求嵌入方法论生产
-- [[modeling-three-stages]] —— 流程建模、抽象建模、本质提炼，对应五段位中 L4/L5 的升级路径
-- [[model-quality-four-levels]] —— 模型可信度四层标准，与逻辑洁癖共同构成“好模型”的判断维度
-- [[tool-checklist-cheatsheet-modeling]] —— 建模实操清单，可将五段位作为检查项
-- [[tool-essence-nfactor-modeling]] —— N 要素建模法，常用于从 L3 升级到 L4
-- [[dk-modeling-essence-predictive]] —— 解释性本质 vs 预测性本质，对应 L5 逻辑链的内在要求
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:806-912`
+- src_unknown
 
 ---
 

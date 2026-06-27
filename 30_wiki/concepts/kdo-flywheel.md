@@ -4,25 +4,25 @@ title: KDO 飞轮 — 建造→使用→反思→实验
 type: concept
 status: stable
 domain:
-- master
+- src_unknown
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 related:
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[proposal-deep-synthesis-infrastructure]]'
-  - '[[proposal-ai-domain-mastery-pipeline]]'
-  - '[[knowledge-error-self-exposure]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 飞轮
-- 建造使用反思实验
-- 自进化
-- 认知飞轮
-- 知识挖掘飞轮
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-verified-by-test
+- src_unknown
 id: kdo-flywheel
 author: 黄药师
 reviewed_by: 欧阳锋
@@ -101,9 +101,9 @@ Feedback 段 → 用户说"深挖" → 飞轮继续转
 
 每次使用都必须暴露至少一个"和预期不一样"的地方。
 
-- 没有不适感 → 要么是 toy example，要么是没认真用
-- 有了不适感但不记录下来 → 飞轮在那圈卡住
-- 记录了但不深挖 → 飞轮在空转
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -13,47 +13,47 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- 调研武器库
-- 调研手段
-- 调研工具
-- 调研方法清单
-- 怎么获取情报
-- 调研渠道
-- 信息挖掘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-weapon-media-search]]'
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - "[[framework-yitang-four-research-types]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[tool-osint-overview]]"
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-alt-data-overview]]"
-  - "[[tool-google-dorking]]"
-  - "[[tool-media-verification-overview]]"
-  - "[[framework-ci-operating-model]]"
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[framework-multi-agent-research-architecture]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研超级武器库：三层八模块十四节点
@@ -199,20 +199,20 @@ related:
 ### 节点组合示例
 
 **示例1：竞品分析（中等重要性）**
-- 完整体验产品（模块2）
-- 逆向数据分析（模块2）
-- 收集口碑（模块1）
-- 招聘信息（模块5）
-- 行业报告（模块8）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **示例2：市场进入决策（高重要性）**
-- 直接访谈用户（模块1）
-- 完整体验产品（模块2）
-- 供应链调研（模块2）
-- 员工情报（模块4）
-- 专家访谈（模块6）
-- 行业报告（模块8）
-- AI分析（模块7）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -263,25 +263,25 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-four-research-types]] — 四类调研模型
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[tool-yitang-reverse-data-analysis]] — 逆向数据获取
-- [[tool-yitang-field-research]] — 实地调研
-- [[tool-yitang-social-engineering-research]] — 社会工程学
-- [[tool-yitang-job-intelligence-research]] — 求职情报
-- [[tool-yitang-ai-research-workflow]] — AI调研工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：调研超级武器库VLM描述（0.95置信度）
-- 交叉：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 13武器体系
-- 注意：三层结构来自一堂课程，具体模块和节点数需结合口述原文确认
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

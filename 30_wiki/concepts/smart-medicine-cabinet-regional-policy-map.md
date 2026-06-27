@@ -7,14 +7,14 @@ title: 各省市自助售药机政策差异地图
 type: concept
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - policy-compliance
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -23,22 +23,22 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: medium
 related:
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[master-decision-hygiene]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 各省市自助售药机政策
-- 药柜地方政策差异
-- 成都自动售药机政策
-- 湖北远程药柜
-- 重庆药柜医保
-- 黑龙江自助售药机
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 prerequisites: []
 
@@ -93,32 +93,32 @@ prerequisites: []
 
 ### 3. 特殊模式：湖北省"远程药柜"
 
-- **政策文件**：《湖北省社会药房监督管理办法（试行）》（鄂药监发〔2021〕27 号）及配套《湖北省远程药房（药柜）监督管理规定》。
-- **核心特点**：按药学服务能力分级，高级药学服务能力下可销售部分处方药。
-- **限制条件**：
-  - 电子处方来源真实、可靠；
-  - 须经远程审方；
-  - 禁止销售生物制品、冷藏冷冻药品、中药饮片、注射剂、麻醉药品等 8 类高风险药品。
-- **风险提示**：这是全国少数例外，不等于其他地方可以复制。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ### 4. 广东/广州：诊所信息化与追溯码监管重点
 
-- **诊所电子病历/电子处方**：国家《诊所备案管理暂行办法》（2022 年 12 月起）已全国统一要求诊所具备门诊电子病历系统并与所在地监管平台对接；广东省/广州市是在落实国家要求，并非广东单独强制。
-- **药品追溯码接入**：截至 2025 年 3 月底，广东全省 5.37 万多家定点医药机构接入追溯码子系统，接入率 97.90%；2025 年 7 月 1 日起定点零售药店“无码不结”，2026 年 1 月 1 日起所有医药机构全量采集上传。
-- **广州便民门诊**：自 2026 年 3 月 30 日起，广州一级以上公立医疗机构开设挂号费（诊查费）1.1 元的便民门诊，为病情稳定的慢病患者提供续方服务；但“续方”仍需医师评估，不能简单理解为“复制处方”。
-- **医保个账支付药柜**：广东/广州是否允许诊所内设智能药柜直接刷医保个人账户，目前公开渠道未见专门文件，**需向广州市医保中心/各区医保分中心电话确认**。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 上海：原研药/价高药超出医保支付标准部分不得刷个账
 
-- **政策文件**：上海市医疗保障局《关于优化第十一批国家组织集采药品医保支付协同的通知》（2026-04-22）及配套政策解读（2026-05-26）。
-- **核心内容**：对第十一批国家集采药品实行统一医保支付标准。患者选择价格高于支付标准的药品（"价高药"）时，支付标准以内部分由医保和患者按规定分担，**超出支付标准的部分由患者个人现金自负，不能使用医保个人账户支付**。
-- **风险提示**：上海明确禁止用个账支付超出部分，直接否定了推销方"原研药超出部分可刷医保个人账户"的说法在上海的适用性；广东/广州是否允许仍需确认。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 6. 成都/重庆的政策变化趋势
 
-- **成都市 2020 年文件**允许甲类 OTC，但有效期已届满，且省级文件已收紧。
-- **重庆市 2024 年新细则**从"非处方药（含甲类 OTC）"收紧为"仅乙类 OTC"。
-- **趋势判断**：地方政策整体向国家 48 号公告底线靠拢，早期允许甲类 OTC 的文件多被修订、过期或实际上不再执行。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -133,14 +133,14 @@ prerequisites: []
 
 ### 与已有知识的联系
 
-- **国家红线约束**：本卡所有地方政策都必须在 `kc-p0-01-national-policy-redlines` 的国家 48 号公告框架下理解；地方探索不能突破国家底线。
-- **远程药柜例外**：湖北省远程药柜是 `kc-p1-06-remote-pharmacy-cabinet` 的主题，本卡提示其不可泛化。
-- **诊所+药柜风险观察**：广东/广州的诊所信息化、追溯码、便民门诊等本地政策，是理解 `kc-p0-06-clinic-cabinet-risk-observation` 中推销方话术的地方背景。
-- **决策卫生视角**：进入新城市前必须电话确认政策，这是避免“用征求意见稿推断正式政策”错误的决策卫生实践。参考 `master-decision-hygiene`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- **进入新城市前**，拨打当地药监局咨询电话，确认以下问题：
+- src_unknown
   1. 当地是否允许设置自助售药机？
   2. 可销售品类是什么？（乙类 OTC/甲类 OTC/处方药）
   3. 设置需要哪些审批/备案？

@@ -13,14 +13,14 @@ trust_level: high
 language: zh-CN
 domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
-- web: CRV 2026 time-boxed hypothesis testing
+- src_unknown
 related:
-  - '[[tool-demand-agent-signals]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-demand-agent-case-match]]'
-  - '[[tool-demand-agent-signal-substitute]]'
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent L6自动预验证
@@ -56,8 +56,8 @@ for rat in rats:
 
 ## 适用边界
 
-- **适用**：RAT产出后，正式验证前的快速预筛选
-- **不适用**：最终决策——仍需要真实用户验证
+- src_unknown
+- src_unknown
 
 ---
 

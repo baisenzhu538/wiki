@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -14,33 +14,33 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[存储策略]]'
-  - '[[dk-f5-stale-feedback-ref]]'
-  - '[[dk-f3-state-json-race-condition]]'
-  - '[[dk-p16-validate-reads-state-json]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[dk-p16-validate-reads-state-json]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- signal: "`kdo ingest` 执行后 exit code 为 0，但 `state.json` 的 `ingested_inbox_files` 列表无新增"
+- src_unknown
   framework_lens: 这是 KDO ingest 的"静默跳过"模式：扩展名白名单只包含 `.md`，非 `.md` 文件被设计为不报错、不处理
   follow_up_question: 立即执行 `find 00_inbox -type f ! -name '*.md'` 列出所有非 .md 文件；对 .txt 执行 `cp file.txt file.md` 后重跑 ingest，并再次检查 state.json 计数
-- signal: "自动化脚本跑完后，vault/源文件目录里找不到预期的 wiki 页面或源文件"
+- src_unknown
   framework_lens: 批量管线中"返回成功"被脚本视为完成信号，但扩展名白名单过滤导致实质数据未进入处理流程
   follow_up_question: 在脚本里加入"ingest 前后 state.json 计数校验"，若 inbox 中仍有非 .md 文件但 state 计数未增加，则判定为静默跳过并告警
-- signal: ".txt 文件转换后的同名 .md 已存在，但内容缺少 frontmatter 或 validate 报错"
+- src_unknown
   framework_lens: 简单改扩展名只是绕过白名单，ingest 后系统仍按 Markdown 规范要求结构化元数据
   follow_up_question: 转换后是否为文件注入了最小 frontmatter（id/type/title/created_at/updated_at/source_refs）？运行 `kdo validate` 是否通过？
-- signal: "团队新成员/外部协作者把 `.txt` 素材丢进 inbox，几天后仍无对应 wiki 页面"
+- src_unknown
   framework_lens: 这是组织知识沉淀流程中的"格式盲区"：贡献者不知道 KDO ingest 的扩展名白名单，系统也不会主动反馈
   follow_up_question: 是否在 inbox 入口有 CONTRIBUTING/README 说明？是否在 CI/预提交钩子中跑 `find 00_inbox -type f ! -name '*.md'` 并阻塞合并？
 ---
@@ -66,11 +66,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你有一批 `.txt` 格式的口述稿/素材文件要导入 KDO vault，运行 `kdo ingest` 后看到 "success" 但 vault 里找不到新文件
-- 你写自动化脚本批量处理 `00_inbox/` 中的原始素材，脚本跑完但输出目录为空
-- 你检查 `state.json` 确认 ingest 状态，发现文件数量没有增加，需要判断是重复文件还是被静默跳过
-- 你在设计 KDO 的 ingest 管线，需要确认支持哪些输入格式
-- 你在做团队 onboarding，需要给新成员写"素材入库前的格式检查"规范
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -127,29 +127,29 @@ diagnostic_signals:
 | 7. 内容抽样人读 | 随机打开 1-2 张新卡 | 无乱码、无碎片化、标题层级正确 | 对问题文件重新整理 |
 
 **风险量化速算**：
-- 假设本次有 `N` 个 `.txt` 文件未被发现跳过
-- 每个文件平均下游工作量为 `W` 小时（标注/建模/出卡）
-- 发现延迟为 `D` 天
-- **隐性损失 ≈ N × W × (1 + 0.1D)**（延迟越久，回溯和重跑成本越高）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 例：20 个口述稿被跳过，每个后续建模需 2 小时，7 天后才发现 → 损失 ≈ 20 × 2 × (1 + 0.7) = 68 小时。
 
 ## 为什么值钱
 
-- 这是 KDO CLI 特有的行为：`kdo ingest` 的扩展名白名单只包含 `.md`，`.txt` 被设计为"静默跳过"而非报错——这个设计决策本身不在任何文档中明确说明
-- **"返回成功但什么都不做"是最危险的失败模式**：exit code 为 0，日志里没有 error，你唯一发现的方式是事后检查 `state.json` 或 vault 目录
-- 暴露了 CLI 工具中"静默跳过"这一反模式：对不支持的输入格式，应该选择报错（fail fast）还是静默跳过？KDO 选择了后者，代价是用户需要靠经验才能发现
-- 任何 AI 训练语料中都不会有"kdo ingest 跳过 .txt 但返回成功"这条知识——这是具体工具实现层面的暗知识
-- 在团队协作中，这个问题会从"个人踩坑"升级为"流程级数据丢失"：新成员、外部贡献者、自动化脚本都可能把 `.txt` 当成合法输入，而系统不会给出任何反馈
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c1-cjk-regex-silent-fail]] — 同一模式：KDO CLI 工具的"静默失败"。C-1 是 enrich 对中文返回 0，C-3 是 ingest 对 .txt 跳过——两者都是"exit code 为 0 + 无实质输出"
-- [[dk-f2-txt-ingest-skip]] — F-KDO-002 的系统级抽象：非 .md 文件 ingest 静默跳过。dk-c3 是 Builder 在 2026-05-03 报告的具体事故，dk-f2 是这个事故的模式化、防御措施化版本
-- [[dk-p16-validate-reads-state-json]] — 诊断 C-3 时必须读取 `state.json`，但 P-16 提醒我们：validate 优先读 state.json 而非文件 frontmatter，多处数据拷贝可能不一致，校验时要确认自己看的是正确的那份数据
-- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。C-3 是"ingest 工具扩展名白名单盲区"的具体案例
-- `90_control/failure-modes.md` → F-KDO-002（已录入 AGENTS.md 禁止清单：不准直接将 .txt 丢给 kdo ingest）
-- `20_memory/corrections.md` → C-3（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-06-16）
 

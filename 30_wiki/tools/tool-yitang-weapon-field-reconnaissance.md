@@ -16,14 +16,14 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-weapon-partner-research]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-store-franchise-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略14：线下门店侦察
@@ -40,9 +40,9 @@ related:
 
 ## 关键原则
 
-- "魔鬼在现场"——看报告永远不如去现场
-- 蹲店不需要聪明，需要狠——愿意投入时间
-- 详见：回卡 [实地调研] + [门店加盟评估]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

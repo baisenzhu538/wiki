@@ -5,7 +5,7 @@ title: Agent 外挂大脑设计
 type: system
 status: enriched
 domain:
-- master
+- src_unknown
 id: agent-external-brain-design
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
@@ -17,11 +17,11 @@ confidence: 0.75
 trust_level: medium-low
 updated_at: '2026-06-16'
 related:
-  - '[[dk-state-residue-is-the-silent-killer]]'
-  - '[[dk-p13-token-burn]]'
-  - '[[tool-demand-agent-case-match]]'
-  - '[[dk-c6-large-source-overflow]]'
-  - '[[dk-p8-toolkit-forget]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Agent 外挂大脑设计
 
 > **一句话**：在项目根目录下扔三个 Markdown 文件，agent 失忆问题解决 80%。
@@ -32,9 +32,9 @@ related:
 
 Agent（Claude Code、Cursor、Windsurf、Copilot）每次新 session 启动时不知道：
 
-- 这个项目是什么、做到哪了
-- 上一个 session 做了什么决策、为什么
-- 踩过什么坑、哪个方案试过了不行
+- src_unknown
+- src_unknown
+- src_unknown
 
 恢复上下文消耗大量 token，且质量不稳定。
 
@@ -69,7 +69,7 @@ blockers: []
 ---
 
 ## 当前状态
-- 项目刚接入 agent 记忆系统
+- src_unknown
 
 ## 最近决策
 （见 decisions.md）
@@ -81,9 +81,9 @@ blockers: []
 ```
 
 **约定**：
-- 最新状态在最上面
-- session 结束花 2 分钟更新
-- `blockers` 不为空时优先解决
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### pitfalls.md：错误永久编码
 
@@ -166,6 +166,6 @@ mkdir -p .agent/tasks
 
 ## 边界
 
-- 项目 <5 个文件、<2 个 session 时不值得建
-- 超过 10 个文件、跨 3 个 session 以上开始回收成本
-- 人必须养成 session 结束更新 context.md 的习惯——2 分钟省下次 20 分钟
+- src_unknown
+- src_unknown
+- src_unknown

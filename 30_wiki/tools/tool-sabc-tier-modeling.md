@@ -11,9 +11,9 @@ source_refs:
   - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -22,29 +22,29 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-level-map]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[dk-modeling-sop-execution-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/evaluation-method'
-- '#tier'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: S 级事项过多（超过 3 个或几乎所有事项都被标为 S）
+  - src_unknown
     framework_lens: SABC 分级——S 级是“必须亲自盯、不做会出大事”的稀缺档位
     follow_up_question: 如果强制把 S 级压缩到 3 个以内，哪些事项可以降级为 A/B，降级标准是什么？
-  - signal: 列表里只有 S/A/B，没有 C 级
+  - src_unknown
     framework_lens: SABC 分级——C 级代表“可做可不做，资源紧时直接砍掉”
     follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
-  - signal: 分级/段位标准模糊，只有“重要”“精通”等不可观察的形容词
+  - src_unknown
     framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
     follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
 ---
@@ -72,8 +72,8 @@ SABC 通常表现为一个四档列表或金字塔，每档有明确标准。段
 
 ## Purpose
 
-- **SABC**：在资源有限时，强制区分必须做、应该做、可以做、不做的事。
-- **段位图**：把抽象能力变成可感知的成长阶梯，给出明确进阶路径。
+- src_unknown
+- src_unknown
 
 ## Protocol
 
@@ -86,17 +86,17 @@ SABC 通常表现为一个四档列表或金字塔，每档有明确标准。段
 #### 步骤 2：定义 S/A/B/C 标准
 
 例如：
-- **S**：不做就会出大事，必须亲自盯
-- **A**：重要，但可以授权
-- **B**：有价值，但可延后
-- **C**：可做可不做，资源紧时直接砍掉
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 3：强制分级
 
 关键规则：
-- S 不能超过 3 个
-- 必须有 C 级
-- 每个选项只能在一个档位
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 4：按级别分配资源
 
@@ -107,19 +107,19 @@ S 级给最多资源和时间，C 级原则上不做。
 #### 步骤 1：定义最高段位
 
 先想清楚“顶级长什么样”。例如：
-- L4 建模能力：能识别不同场景的本质，建立原创模型
+- src_unknown
 
 #### 步骤 2：向下拆解每一级
 
 每一级要回答：
-- 这一级能做什么 L+1 做不了的事？
-- 这一级的典型行为/产出是什么？
+- src_unknown
+- src_unknown
 
 #### 步骤 3：用案例填充每一级
 
 避免空洞形容词。例如：
-- L2：能熟练使用雷达图、象限图等成熟模型
-- L3：能根据场景改造模型，组合多种工具
+- src_unknown
+- src_unknown
 
 #### 步骤 4：定位与规划
 
@@ -133,10 +133,10 @@ S 级给最多资源和时间，C 级原则上不做。
 
 1. **穷尽列出**：把 12 项全部写在白板上，不做预先排序。
 2. **强制定义标准**：
-   - **S**：本周不做，核心用户流程会在周五前中断或客户交付违约。
-   - **A**：对本周目标有关键贡献，但可以拆分或授权。
-   - **B**：有价值，但本周不做只会延后，不会阻断主线。
-   - **C**：做了更好，资源紧时可直接砍掉。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **强制分级**：S 限 3 个，必须有 C。
 
 | 档位 | 入选事项 | 处理动作 |
@@ -189,47 +189,47 @@ S 级给最多资源和时间，C 级原则上不做。
 ## 行动 Checklist
 
 ### 使用 SABC 分级前
-- [ ] 已列出所有待排序选项/任务（穷尽而非 premature sorting）
-- [ ] 已明确 S/A/B/C 的具体标准，且标准可观察
-- [ ] 已设定 S 级上限（建议 ≤3）
-- [ ] 已确认列表中至少有一项 C 级
-- [ ] 已把分级结果与资源分配/周计划/项目排期绑定
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用段位图前
-- [ ] 已定义最高段位的具体行为/产出
-- [ ] 已向下拆解出 4–6 个等级
-- [ ] 每一级都有“能做什么”和“典型产出”的描述
-- [ ] 已用真实案例填充至少 2 个等级
-- [ ] 已明确当前段位和下一级目标
-- [ ] 已安排段位标准的定期 review
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 组合使用
-- [ ] 用 SABC 决定“当下优先做什么”
-- [ ] 用段位图决定“长期要成为什么”
-- [ ] 两者标准不重叠、不矛盾
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[modeling-level-map]] —— 一堂建模能力段位图 L0–L4
-- [[modeling-weapon-library]] —— SABC/段位图在进阶模型中的定位
-- [[tool-checklist-cheatsheet-modeling]] —— SABC 常与清单结合使用
-- [[dk-modeling-sop-execution-locks]] —— 分级后需要执行锁保证落地
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Claims
 
-- **C1 [conf=0.9]**: SABC 分级适用于任务/议题/选项的优先级排序，强制做取舍。——依据：`src_20260614_73352fa5` 武器库“SABC分级、段位图、演化图”。
-- **C2 [conf=0.85]**: 段位图适用于能力/业务/认知的分级，帮助定位当前水平和成长方向。——依据：`src_20260614_bb892297`（一堂建模高手十年爬山地图 / L1–L6 能力段位）。
-- **C3 [conf=0.85]**: SABC 的核心是“必须有 C 级”——如果没有 C 级，说明分级不诚实，所有事都被说成重要。——推断：基于优先级管理常识。
-- **C4 [conf=0.8]**: 段位图每一级必须有可观察的行为标准，不能只是形容词。——依据：`src_20260614_bb892297` 中 L1–L6 的具体能力描述。
-- **C5 [conf=0.75]**: SABC 解决“当下做什么”，段位图解决“长期成为什么”。——推断：基于两者用途差异。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## [Critique]
 
 ### 内部局限性
 
-- SABC 容易受政治影响：老板关心的事自动变 S
-- 段位图容易固化阶层，让低段位者失去动力
-- 分级标准如果不清晰，会变成另一种形式的主观判断
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Eli Goldratt — "优先级排序遮蔽了系统约束"
 
@@ -237,8 +237,8 @@ S 级给最多资源和时间，C 级原则上不做。
 
 ### 反事实测试
 
-- 如果 S 级超过 5 个，SABC 还有意义吗？基本失去区分度。
-- 如果去掉段位图中的某一档，成长路径还完整吗？如果不完整，说明这一档是必要的。
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -250,10 +250,10 @@ S 级给最多资源和时间，C 级原则上不做。
 
 ## Sources
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`
-- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

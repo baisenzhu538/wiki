@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 id: yt-prompt-iterative-prompting
@@ -13,24 +13,24 @@ version: 1
 difficulty: intermediate
 confidence: 0.9
 prerequisites:
-  - yt-model-prompt-engineering
+  - src_unknown
 component_of:
-  - yt-model-prompt-engineering
+  - src_unknown
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - "迭代提示词"
-  - "五步迭代法"
-  - "提示词迭代"
-  - "多轮对话"
-  - "AI反馈"
-  - "连续对话"
-  - "提示词工作流"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-13
 estimated_tokens: 2000
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '第一轮提示会提供充足背景，而不是等AI问', 'framework_lens': '上下文是迭代的基础', 'follow_up_question': '你的第一轮提示是否包含了目标、约束、已有尝试？'}
   - {'signal': '会先生成多个选项，再根据反馈收敛', 'framework_lens': '发散-收敛是迭代节奏', 'follow_up_question': '这一轮你给了AI什么反馈来引导它改进？'}
@@ -40,11 +40,11 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - '[[yt-prompt-anti-flattery]]'
-  - '[[yt-prompt-brainstorming]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[yt-prompt-writing-workflow]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 迭代式提示词工作流（5步法）
 
@@ -62,43 +62,43 @@ related:
 ### 失败模式
 
 1. **第一轮提示过于简略，AI输出偏离**
-   - **原因**：上下文不足
-   - **修复**：第一轮就把背景、目标、约束写成一段话
+   - src_unknown
+   - src_unknown
 
 2. **第一轮就锁定一个方向，不给AI探索空间**
-   - **原因**：过早收敛
-   - **修复**：先生成多个候选，再选择最有潜力的深化
+   - src_unknown
+   - src_unknown
 
 3. **迭代没有反馈，只是重复同样的问题**
-   - **原因**：反馈缺失
-   - **修复**：每次回复都指出具体哪里好、哪里需要改、为什么
+   - src_unknown
+   - src_unknown
 
 4. **迭代次数过多，效率低于直接自己做**
-   - **原因**：迭代失控
-   - **修复**：设定最大迭代轮数，达到后必须人工接管
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 核心机制：提示词是长出来的，不是设计出来的
 
-- claim:01 [conf=0.90] 好的提示词不是一次性想出来的，是在交互中一轮轮迭代出来的。每次反馈、每次追问、每次修正都等于用新的上下文喂养 AI。这些上下文只属于你一个人，你在任何地方都抄不到
-- claim:02 [conf=0.85] 第一轮不要锁定一个答案。生成多个选项（至少 5 个），允许各方向成长。看起来不起眼的方案迭代几轮后可能变靠谱。先发散再收敛
+- src_unknown
+- src_unknown
 
 ### 五步迭代法
 
-- claim:03 [conf=0.85] **Step 1 — 穷尽已知背景**：不要一上来就问"我需要给你什么信息"——先把你已经想到的写出来。公司阶段、营收利润、团队能力、资源约束、历史尝试、失败原因。写成一段话直接丢给它
+- src_unknown
 
-- claim:04 [conf=0.85] **Step 2 — 对齐理解**："请先复述你对我的业务背景、关键约束和当前问题的理解。然后告诉我，你还缺少哪些关键信息，才能给出更有针对性的建议。"这一步能及时发现 AI 有没有理解错——如果背景理解已经偏差了，后面的分析越完整越危险
+- src_unknown
 
-- claim:05 [conf=0.80] **Step 3 — 生成多选项**：要求 AI 一次生成 5 个方案，不要只给 1 个。5 个里面可能有 3 个一看就不行，1 个有局部价值，1 个值得深挖。给每一个有潜力的方向都留成长空间
+- src_unknown
 
-- claim:06 [conf=0.80] **Step 4 — 诚实反馈**：不要笼统说"这个方案感觉有点飘"——"飘"是你很难定义的词。直接说：成本太高、周期太长、不适合我们的目标客群、缺少转化路径、需要更轻量的版本
+- src_unknown
 
-- claim:07 [conf=0.85] **Step 5 — 持续迭代**：重复 10 轮、20 轮。一堂拆书会案例：创业者为了跨学科商业难题（需要同时懂化学、品牌、用户心理），跟 AI 连续对话 20 小时，迭代了不知道多少轮，最后 AI 设计出 4 个实验室可验证的实验方案，其中 2 个完全落地。那个问题困扰了团队一个月
+- src_unknown
 
 ### 迭代的底层逻辑
 
-- claim:08 [conf=0.85] 迭代的本质是用新上下文不断校准 AI 的理解。每轮反馈都在缩小 AI 的"理解偏差"——从通用知识逐渐聚焦到你的独特约束。提示词的质量 = 迭代轮数 × 每轮反馈的信息密度
+- src_unknown
 
 ## Critique
 
@@ -113,10 +113,10 @@ related:
 ## Framework Gallery
 
 ### 关联概念
-- [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
-- [[yt-prompt-anti-flattery]] — 反谄媚：迭代中最关键的校准机制
-- [[yt-prompt-brainstorming]] — 头脑风暴：Step 3 的详细展开
-- [[yt-concept-context-engineering]] — 上下文工程：Step 1 的理论基础
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

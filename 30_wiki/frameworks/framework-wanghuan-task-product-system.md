@@ -6,10 +6,10 @@ title: 王欢任务→产品→系统演进框架
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -19,41 +19,41 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
+- src_unknown
+- src_unknown
 related:
-  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-wanghuan-say-think-do-toolchain]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: '同一个 AI 请求本周内重复出现 3 次以上'
+- src_unknown
   lens: '任务层→产品层的跃迁信号'
   follow_up: '立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用'
-- signal: '团队把 AI 当成“更快的自己”，效率提升长期卡在 30%-50%'
+- src_unknown
   lens: '演员思维固化'
   follow_up: '用导演视角重画流程：哪些环节由 AI 执行、哪些由人验收、标准是否书面化'
-- signal: '产品做出来一周内无人打开，或只有作者自己用'
+- src_unknown
   lens: '伪需求 / 低频痛点'
   follow_up: '回到任务层重新验证：这件事我每周都做吗？不做我会开心吗？'
-- signal: '已有 3 个以上独立 AI 工具但彼此不联通'
+- src_unknown
   lens: '系统层缺口'
   follow_up: '绘制数据流图，识别自动触发点与人工验收点，设计最小闭环'
 tags:
-- 王欢
-- 任务产品系统
-- 产品化思维
-- 人机协作
-- 系统思维
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -109,26 +109,26 @@ AI 协作的价值跃迁，本质是工作形态的跃迁：**从一次性任务
 
 ## 行动 Checklist
 
-- [ ] 列出过去一周重复做了 3 次以上的任务，标记可作为产品化候选的项。
-- [ ] 为候选任务设计 3-7 个结构化输入字段，确保下次换一个主题这些字段仍然可用。
-- [ ] 写出完整的 BTICOE 提示词：背景、任务、指令、约束、输出格式、示例，尤其把“不要做什么”写清楚。
-- [ ] 让产品在今天跑通第一次“输入 → 生成 → 验收 → 优化”的完整循环，并保存为下周可复用的版本。
-- [ ] 建立 AI 业务档案：记录我是谁、服务谁、行业暗规则、验收标准，作为上下文注入的基础。
-- [ ] 使用一周后复盘：哪些字段多余？哪些约束失效？输出质量是否稳定？把改进写回产品规格。
-- [ ] 当拥有 3 个以上独立产品时，绘制数据流图，识别一个可以自动触发、但需要人验收的环节，作为系统化切入点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：演员/导演思维是任务→产品→系统跃迁的认知底座。
-- [[framework-wanghuan-ai-five-level-ladder]]：任务→产品→系统分别对应五层跃迁模型中的工作流层、作品/应用层、系统层。
-- [[framework-wanghuan-say-think-do-toolchain]]：嘴→脑→手三层工具链是快速把任务变成产品的最小工程管线。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：把任务固化为产品的核心方法是 BTICOE 结构化提示词。
-- [[framework-wanghuan-three-tier-dev-architecture]]：沈阳软件公司通过三层架构实现系统化的具体案例。
-- [[case-wanghuan-shenyang-software-3x-efficiency]]：从 30% 到 3 倍的效率跃升故事。
-- [[case-wanghuan-education-sales-paced]]：从复制话术到还原决策过程的系统级案例。
-- [[tool-wanghuan-ai-business-profile]]：沉淀上下文资产、支撑系统长期运转的工具卡。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -150,9 +150,9 @@ AI 协作的价值跃迁，本质是工作形态的跃迁：**从一次性任务
 **回应**：产品化可以且应该从个人高频痛点开始。自己先用起来，形成可演示、可复用的资产，再向上影响团队。王欢的课程设计就是为了让普通人在三小时内做出“下周还会用”的第一个产品。
 
 **不要用**
-- 不要把它当成“所有任务都必须产品化/系统化”的绝对框架。一次性、低频、探索性任务就让它停留在任务层。
-- 不要在没有真实用户（哪怕是自己）的情况下，为了产品化而产品化。
-- 不要在标准和验收机制缺失时，直接用多工具编排做系统，否则会把错误放大并自动化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

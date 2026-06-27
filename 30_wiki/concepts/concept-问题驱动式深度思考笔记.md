@@ -1,6 +1,6 @@
 ---
 domain:
-- learning-methodology
+- src_unknown
 id: concept-问题驱动式深度思考笔记
 title: 问题驱动式深度思考笔记：用真问题取代真记录
 type: concept
@@ -10,43 +10,43 @@ confidence: 0.75
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-- '[[yt-note-l4-internalization]]'
-- '[[yt-note-checklist-concept]]'
-- '[[dk-truman-flag-note-taking]]'
-- '[[yt-note-extensive-research-input]]'
-- '[[tool-多源输入法]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[tool-复盘推演法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 问题驱动式笔记
-- 用问题驱动学习
-- 不要被带着走
-- 笔记怎么提升思考量
-- 学完课没有自己的东西
-- 3到5个问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 estimated_tokens: 4800
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- signal: 笔记只是摘录讲师内容，没有自己的思考
+- src_unknown
   lens: 输入驱动
   follow_up: 在笔记顶部写下3-5个真正想解决的问题，用问题驱动学习而非被讲师带着走
-- signal: 学完课后感觉没有自己的东西
+- src_unknown
   lens: 认知产权缺失
   follow_up: 检查笔记是否有'因为我的问题X，这个点意味着...'的格式，确保认知原创生产
-- signal: 提出的问题在课程前5分钟就被回答了
+- src_unknown
   lens: 假问题
   follow_up: 好问题不能在第一课就被回答，需要能在学习过程中不断生长产生子问题
-- signal: 基础技能学习时强行问题驱动导致效率低下
+- src_unknown
   lens: 阶段错配
   follow_up: 问题驱动是高阶技能非入门技能，基础学习先沉浸掌握再质疑
-- signal: 笔记被问题框架捆绑，信息强行套入不合适模板
+- src_unknown
   lens: 表演性问题
   follow_up: 问题必须是你真正关心的，不是为了'看起来在思考'而造问题
 ---# 问题驱动式深度思考笔记：用真问题取代真记录
@@ -126,10 +126,10 @@ Truman用自己的经压证明了这一点："我有一段时间突然发现，�
 
 ### 内部局限
 
-- **好问题需要预先积累**：如果对领域完全陌生，很难提出真正有价值的问题。
-- **问题可能成为认知偏见的印证**：为了解决某个问题，人会选择性地采纳支持性信息，忽视反证。
-- **问题的深度难以自检**：很多人以为自己在"问深度问题"，实际上问的是"什么是X""怎么做X"这类表层问题。
-- **问题驱动不适用于所有场景**：基础知识学习、技能训练、某些标准化流程的学习，先"沉浸"再"质疑"可能更有效。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -165,15 +165,15 @@ Truman在分析一个视频号爆款案例时，没有从"这个视频有哪些�
 
 ## Synthesis
 
-- [[yt-note-l4-internalization]] —— L4内化阶段的三个要点——问题驱动、立flag、广泛涉猎——在本卡中得到了最具体的展开。问题驱动是L4的起点，没有好问题，L4会沦为"装饰性的深度"。
+- src_unknown
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"独立"特征让问题驱动式笔记可以"每一行是一个问题的子问题或一个临时答案"。这种结构让问题和答案之间的关系一目了然。
+- src_unknown
 
-- [[dk-truman-flag-note-taking]] —— 问题驱动和立flag是互补机制：问题决定"思考的方向"，flag决定"思考的深度"。只有问题没有flag，容易流于泛泛；只有flag没有问题，容易沦为指标游戏。
+- src_unknown
 
-- [[yt-note-extensive-research-input]] —— 问题驱动和广泛涉猎是同一枚硬币的两面：问题决定你去哪里找，广泛涉猎决定你找到了什么。二者缺一不可。
+- src_unknown
 
-- [[tool-多源输入法]] —— 多源输入为问题驱动式笔记提供了候选答案库。问题是"箭头"，多源输入是"箭羽"，二者共同决定笔记的射程和精度。
+- src_unknown
 
 ## Action Triggers
 

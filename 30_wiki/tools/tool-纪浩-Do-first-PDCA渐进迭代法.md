@@ -4,45 +4,45 @@ title: 技能：Do-first PDCA渐进迭代法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 tools_required:
-- 纸笔或文档
-- 迭代记录方式
+- src_unknown
+- src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 第一步就想做完美，永远开不了工
+- src_unknown
   lens: 完美主义启动
   follow_up: 第一版必须在30分钟内交付，不求完美。目标不是做好，是做出来
-- signal: 检查点一下子加太多，AI被检查点埋没
+- src_unknown
   lens: 检查过载
   follow_up: 每次检查迭代只增加2-3个检查点，逐步扩展不要一次性追求完美
-- signal: 只检查不记录，同样的错误反复犯
+- src_unknown
   lens: 记录缺失
   follow_up: 每个检查点和纠偏方案必须记录在案，记录是迭代的基础
-- signal: 不成熟的流程被固化，后面发现问题修改成本更高
+- src_unknown
   lens: 规模化过早
   follow_up: 规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill
-- signal: 在错误方向上迭代，检查纠偏都在加深错误
+- src_unknown
   lens: 方向错误
   follow_up: 四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证
 ---
@@ -93,9 +93,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 迭代记录方式（文档、表格或任务管理工具）
-- 版本控制（便于回溯每个版本的变化）
-- 30-60分钟的专注时间块
+- src_unknown（文档、表格或任务管理工具）
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -108,10 +108,10 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **第一步就想做完美** → 结果是永远开不了工 → **检查标准：第一版必须在30分钟内交付，不求完美**
-- **检查点一下子加太多** → 结果是AI被检查点埋没，纠偏进度缓慢 → **检查标准：每次检查迭代只增加2-3个检查点**
-- **只检查不记录** → 结果是同样的错误反复犯 → **检查标准：每个检查点和纠偏方案必须记录在案**
-- **规模化太早** → 结果是不成熟的流程被固化，后面发现问题时修改成本更高 → **检查标准：规模化前必须验证可复现至少3次**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -121,9 +121,9 @@ Do-first PDCA 的核心机制是**用行动解锁信息**。大多数人的分�
 
 ### 内部局限
 
-- **第一步Do的成本必须可接受。**如果第一次Do就做错了方向，后续的Check和Plan可能都在错误方向上加深。四要素验证作为前置门禁部分解决了这个问题，但不完全
-- **从一步到八步需要多次迭代，时间成本不低。**纪浩自己的UI设计Skill花了多轮迭代才成型，这个过程中大量的时间花在"检查和纠偏"上，而不是"产出"上
-- **对于时间敏感的任务，Do-first可能来不及。**如果任务有严格的截止日期，迭代空间被压缩，很可能还没迭代出好的方案就要交付
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -159,10 +159,10 @@ Do-first PDCA 的核心机制是**用行动解锁信息**。大多数人的分�
 
 ### 关联说明
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— Do-first PDCA 是纪浩五层体系的L3，负责让AI在工作空间里持续迭代产出更好的结果
-- [[tool-纪浩-AI工作空间与导诊台设计法]] —— 工作空间搭建完成后，PDCA才有稳定的运行环境。没有工作空间的PDCA是在泥沼里打滚
-- [[case-纪浩-from-zip-to-five-layers]] —— 纪浩自己的UI设计Skill就是用Do-first PDCA从一步迭代到八步的典型案例
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
+- src_unknown

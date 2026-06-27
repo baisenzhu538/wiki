@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-market-size-pitfalls
 title: 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
@@ -19,24 +19,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-quantitative-estimation
-  - yt-demand-qualitative-analysis
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'市场100亿，我们拿1%就够了'"
+  - src_unknown
     framework_lens: 1%陷阱——没有论证为什么能拿到1%
     follow_up_question: "为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？"
-  - signal: "用户直接引用第三方报告，未验证报告方法论"
+  - src_unknown
     framework_lens: 报告迷信——把第三方数据当事实
     follow_up_question: "这份报告是什么时候发布的？样本范围是什么？用的什么估算方法？"
-  - signal: "用户把TAM当目标，没有拆SAM和SOM"
+  - src_unknown
     framework_lens: TAM幻觉——把天花板当可触达市场
     follow_up_question: "你的TAM、SAM、SOM分别是多少？今年实际能触达多少用户？"
-  - signal: "用户只有一种估算方法，没有交叉验证"
+  - src_unknown
     framework_lens: 单一方法偏差——缺乏交叉验证
     follow_up_question: "如果用另一种方法估算，结果差异多大？差异原因是什么？"
-  - signal: "用户假设市场静态，忽视增长率和竞争进入"
+  - src_unknown
     framework_lens: 静态假设——市场是会变化的
     follow_up_question: "这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？"
 
@@ -73,16 +73,16 @@ diagnostic_signals:
 
 第三方报告的问题：
 
-- **过时**：报告是3年前的，市场已变化
-- **范围偏差**：样本不包含你的目标用户
-- **方法论不透明**：不知道数字怎么算出来的
-- **利益相关**：报告发布方有商业利益
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 验证方法：
-- 检查报告发布日期
-- 了解样本范围和方法论
-- 对比多份报告，看差异
-- 用自下而上方法验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. TAM/SAM/SOM的正确用法
 
@@ -108,10 +108,10 @@ diagnostic_signals:
 
 市场不是静态的：
 
-- **增长率**：过去3年CAGR是多少？未来呢？
-- **新进入者**：有多少新竞品？他们的融资和能力？
-- **技术替代**：新技术会颠覆这个市场吗？
-- **政策变化**：监管会影响市场规模吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -135,20 +135,20 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你要说"市场很大"时 → 拆TAM/SAM/SOM
-- 当你引用报告时 → 检查日期和方法论
-- 当你只有一种估算方法时 → 补充第二种交叉验证
-- 当你说"拿1%就够了"时 → 论证为什么能拿到1%
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-quantitative-estimation`：市场规模估算四种方法
-- `yt-demand-qualitative-analysis`：需求定性分析框架（先定性后定量）
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂市场规模估算四种方法专题
-- 一堂案例：跑步机案例中的市场估算实践
+- src_unknown
+- src_unknown
+- src_unknown

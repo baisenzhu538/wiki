@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Shodan official docs (shodan.io)
-- web: OSINT tools comparison 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-google-dorking]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-tech-project-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Shodan：互联网设备搜索引擎
@@ -59,9 +59,9 @@ curl "https://api.shodan.io/shodan/host/1.2.3.4?key=YOUR_KEY"
 ## 实战场景
 
 **场景**：判断竞对的技术投入
-- 发现竞对新增了GPU服务器 → 可能在投入AI方向
-- 发现竞对开放了Kubernetes端口 → 技术栈现代化
-- 发现竞对数据库直接暴露在公网 → 安全投入不足/团队不专业
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -73,9 +73,9 @@ curl "https://api.shodan.io/shodan/host/1.2.3.4?key=YOUR_KEY"
 
 ## 适用边界
 
-- **适用**：技术竞品分析、云服务选择参考、安全评估
-- **不适用**：非技术类竞品（不开服务器的实体零售等）
-- **成本**：免费版有限制，付费 $69/月起
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

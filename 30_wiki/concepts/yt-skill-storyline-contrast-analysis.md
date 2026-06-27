@@ -5,18 +5,18 @@
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
-  - content-production- yitang
+  - src_unknown
 diagnostic_signals:
-- signal: 对比前是否先列出可量化/可明确判断的维度，再引入对象
+- src_unknown
   framework_lens: 维度中立性 / 反偏见
   follow_up_question: 维度选择是否让用户偏好的对象天然得分更高？
-- signal: 输出是否暴露至少 1 个反直觉差异或认知盲区
+- src_unknown
   framework_lens: 认知增益 / 意外发现
   follow_up_question: 如果结果只是证实了已知结论，分析是否还有继续价值？
-- signal: 同一维度能否对两个对象同时适用且赋值清晰
+- src_unknown
   framework_lens: 可比性 / 语义一致性
   follow_up_question: 当对象定义根本不同（如内容 vs 技术产出），是否仍强行比较？
-- signal: 用户能否基于输出独立检验维度选择和权重分配的公正性
+- src_unknown
   framework_lens: 可审计性 / 组织政治
   follow_up_question: 对比是否被用作 justify 已有决策的修辞武器？
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[yt-skill-storyline-key-elements]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[yt-model-truman-career-routes]]'
-  - '[[ocr-truman的选择两条职业成长路线]]'
-  - '[[yt-skill-storyline-problem-solving]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
@@ -50,19 +50,19 @@ related:
 4. **关键要素提取**：哪些维度是决定性差异的来源
 
 **关键原则**：
-- 维度必须先于对象：先确定"比什么"，再确定"和谁比"
-- 每个对比必须有锚点："A比B好"不是有效对比，"A在X维度上比B好Y%"才是
-- 暴露反直觉差异：最有价值的对比不是证实已知偏见，而是发现意外差异
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出形态**：
 ```
-- 对比维度：[维度1/维度2/维度3...]
-- 对象A vs 对象B
-  - 维度1：A=[值] B=[值] → 差异=[描述]
-  - 维度2：A=[值] B=[值] → 差异=[描述]
-- 对象C vs 对象D（纵向：C的过去 vs C的现在）
-  - 维度1：过去=[值] 现在=[值] → 变化=[描述]
-- 关键要素：[哪个维度解释了最大的差异]
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+- src_unknown
 ```
 
 ## Question
@@ -95,24 +95,24 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 
 ## Constraints & Boundaries
 
-- **适用**：需要在多个选项中做出选择、需要理解竞争格局、需要识别关键差异来源的场景
-- **不适用**：对象之间根本不在同一范畴（"苹果和正义哪个更好"）、需要情感共鸣而非理性分析的场景
-- **警惕**："维度选择"本身就是最大的偏见来源。每次做完对比分析，必须反问"我是否遗漏了重要的维度"
-- **边界**：一次对比分析最多处理3-4个对象、4-6个维度。超过这个数量，认知负荷会压垮分析质量
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
 **正例：Truman的"X路线vs Y路线"对比**
 
 ```
-- 对比维度：学习路径/掌握数量/使用频率/可迁移性/练习周期
-- X路线 vs Y路线
-  - 学习路径：X=见过→看过→用过→少量练习 / Y=思考底层→大量迁移→自己迁移→大量刻意练习
-  - 掌握数量：X=百量级 / Y=十量级
-  - 使用频率：X=偏低 / Y=偏高
-  - 可迁移性：X=较弱 / Y=较强
-  - 练习周期：X=月/季度/年 / Y=10年
-- 关键要素："可迁移性"是最大差异来源——X路线的模型是"套用"，Y路线的模型是"迁移"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 ```
 
 这个对比的精妙之处不在于"列出了区别"，而在于**用同一套维度暴露了两种路线的底层逻辑差异**——X是"广度优先"，Y是"深度优先"。读者可以在看完对比后独立判断"哪条路线适合我"。
@@ -121,12 +121,12 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 
 某SaaS产品的竞品分析：
 ```
-- 对比维度：价格/功能数量/用户数/融资额
-- 我们 vs 竞品A
-  - 价格：我们便宜30%
-  - 功能数量：我们多15个
-  - 用户数：竞品A多10倍
-  - 融资额：竞品A多20倍
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ```
 
 问题：维度选择完全偏向自己。"价格"和"功能数量"是自己的优势，"用户数"和"融资额"是竞品的优势，但报告只强调前两者的"胜利"。这不是对比分析，这是**选择性呈现**。
@@ -134,8 +134,8 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 **边界案例：不可比性的发现**
 
 某团队尝试用同一套KPI对比"内容团队"和"技术团队"：
-- 内容团队：产出量=50篇/月，bug率=0%
-- 技术团队：产出量=5个功能/月，bug率=5%
+- src_unknown
+- src_unknown
 
 初看"内容团队效率更高"。但深入后发现："产出量"对两个团队的定义完全不同——内容团队的"产出"是"发布一篇文章"，技术团队的"产出"是"上线一个经过测试的功能"。这个对比揭示了**"维度本身需要被重新定义"**，而不是"哪个团队更好"。
 

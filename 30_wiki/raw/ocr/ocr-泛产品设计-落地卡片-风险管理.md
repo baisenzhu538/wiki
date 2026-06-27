@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-风险管理"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_3dd58dff
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-风险管理"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-设计原则]]'
-  - '[[ocr-泛产品设计-落地卡片-内核和边界]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-风险管理
@@ -36,33 +36,33 @@ png` 小11 泛产品设计·落地卡片 风险管理 把风险从意外变成�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- **风险管理的本质目标**：将风险从意外转化为确定性，确保在风险发生、意外出现或环境骤变时，系统依然保持体面和可用性。
-- **底线思维原则**：设计时必须优先考虑最坏情况下的系统韧性，而非仅优化正常路径。
-- **风险管理四步法**：预判风险（提前设想意外可能性）→ 监控风险（设计及时发现机制）→ 应对策略（预设应对方案）→ 持续迭代。
-- **适用场景判定**：所有重大、关键、不容有失的方案设计都必须经过风险管理流程。
-- **能力提升路径**：通过强制练习风险的预判和应对来逐步提高风险管理能力，无法一蹴而就。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 如何判断一个方案是否属于"重大的/关键的/不容有失的"范畴，是否存在明确的分级标准或评估维度？
-- "保持体面"的具体衡量标准是什么，是用户体验、商业声誉还是其他指标，如何避免主观判断偏差？
-- 监控风险机制中"及时发现"的时间阈值如何界定，不同场景下的容忍度是否有差异？
-- 应对策略的预设深度应达到什么程度，是框架性思路还是可立即执行的详细预案？
-- "强迫思考并练习"的具体方法论和频率要求未说明，如何确保练习有效性而非流于形式？
-- 风险管理四步法与"持续迭代"之间的衔接机制未明确，迭代触发条件和评估标准是什么？
-- 底线思维与正常路径优化之间的资源分配冲突如何解决，是否存在量化决策模型？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -7,7 +7,7 @@ id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
   - src_unknown
 status: draft
@@ -18,37 +18,37 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 加法实操
-- 减法实操
-- 如何做加法
-- 如何做减法
-- 选项池
-- 预判步骤
-- 如何排除选项
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户加法只做几个选项就停止
+- src_unknown
   framework_lens: 加法不充分
   follow_up_question: 你的选项池是否让别人看了觉得"原来还有这么多可能性"？
-- signal: 用户减法一步到位，缺少层次
+- src_unknown
   framework_lens: 减法太粗糙
   follow_up_question: 你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[case-gudong-tea-shop-foresight]]'
-  - '[[case-xiaolong-ecommerce-foresight]]'
-  - '[[yt-foresight-15-char-mantra]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 加法减法实操：从100个选项到3个高概率方向
@@ -67,19 +67,19 @@ related:
 
 ## Key Evidence
 
-- **古董奶茶五层筛选**：大行业（科技/互联网/民生）→ 品类（便利店/服装/餐饮/奶茶等20+）→ 合作方式（自建/加盟/合资等）→ 城市（前30→剔除中西部→剔除竞争饱和→3个候选）→ 实地验证（竞品/消费/业态/数据）。每一层都是完整的"加法→减法"循环。
+- src_unknown
 
-- **小龙电商四层剥离**：大品类（服装/3C/家居等）→ 细分品类（女装/童装/男装）→ 再细分（男装全品类/男裤）→ 最终切口（正装裤+搞定供应商）。切口越来越小，资源集中度越来越高。
+- src_unknown
 
-- **Truman创业服务市场扫描**：全市场产品扫描→15个专家/用户访谈→按需求分类（找钱/找人/找信息/找学习）→锁定6个方向→专家评估砍掉2个→深入调研剩余4个→最终锁定3个（咨询/社群/培训）。
+- src_unknown
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- **加法质量取决于信息来源**——如果调研不充分（没看竞品、没聊专家、没摸数据），加法本质上是在自己的认知范围内打转，列出来的选项池是"你以为的世界"而非真实世界。
-- **减法容易被个人偏好绑架**——"我不喜欢"不等于"这方向有硬伤"。古董当年排除了大餐饮是因为"不喜欢杀生"，这是个人偏好不是商业硬伤——但他诚实面对了这个偏好。很多人把偏好包装成硬伤，或者把硬伤美化成"可以克服"。
-- **笛卡尔积爆炸**——三维交叉组合后选项可能达几百个，如果没有分类分层能力，会陷入分析瘫痪。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -89,9 +89,9 @@ related:
 
 ### 不要用的场景
 
-- **时间极度紧迫**（<1周）——加法减法至少需要2-4周的信息收集和分析周期。
-- **已经在运行的业务做微调**——增量优化不需要从100个选项重新选。
-- **纯技术探索项目**——技术可行性不确定时，应该先做技术验证（MVP），而非纸上预判。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -103,8 +103,8 @@ related:
 
 ### 关联卡片
 
-- [[yt-foresight-15-char-mantra]] — 加法减法是十五字法诀中的"充分做加法"和"专业做减法"的详细展开
-- [[yt-foresight-ten-fatal-flaws]] — 十大硬伤是做减法的检查清单
-- [[yt-entrepreneur-key-hypotheses]] — 每个保留选项需要用关键假设进一步验证
-- [[yt-three-dimension-opportunity-matrix]] — 三维排列组合（新行业×新模式×新能力）是加法的三维视角
-- [[yt-entrepreneur-industry-forecast]] — 行业预判是纵向拆产业链的基础能力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

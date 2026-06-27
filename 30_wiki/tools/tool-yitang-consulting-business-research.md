@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 咨询调研
-- 咨询服务
-- 咨询业务
-- 顾问业务
-- 知识服务
-- 专家转型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡4（咨询类）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡4（咨询类）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-store-franchise-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - '[[tool-yitang-b2b-gov-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "（tool-yitang-expert-interview-10steps，待补）"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 咨询类业务调研手段：浅中深三层10大评估法
@@ -52,17 +52,17 @@ related:
 "如果我想做咨询，或扩大咨询业务，如何判断关键决策？"
 
 六大决策维度：
-- **赛道**：选哪个细分领域？
-- **服务**：提供什么服务产品？
-- **客户**：卖给谁？
-- **报价**：怎么定价？
-- **转化**：怎么把潜在客户变成付费客户？
-- **履约**：怎么交付服务、保证质量？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **资深行业专家转型**：在某个领域深耕多年，想做独立咨询师
-- **咨询师扩展团队**：已有个人咨询业务，想扩展团队做规模化
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,10 +151,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 4——咨询类调研
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡4（咨询类）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡4（咨询类）_vlm_desc.md`（注意：外层标记 confidence=0.3，但嵌套 JSON 内实际 confidence=0.96，OCR 逐字文本验证后确认为高置信度内容）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

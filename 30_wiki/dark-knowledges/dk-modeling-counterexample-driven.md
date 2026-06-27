@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- master
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 source_refs:
@@ -19,24 +19,24 @@ updated_at: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-  - '[[case-modeling-abstraction-reliability-ladder]]'
-  - '[[case-course-milestone-model]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[case-thousand-people-square]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-capability-system]]'
-  - '[[modeling-level-map]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[case-modeling-essence-schools]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[yt-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#source-type/diverse'
-- '#domain/yitang'
-- '#method/model-validation'
-- '#method/critical-thinking'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
@@ -56,10 +56,10 @@ author: 老顽童
 
 ## 使用场景
 
-- 你刚做了一个方法论/框架/雷达图，团队都觉得“挺好”，但你不确定它是否真的健壮。
-- 你要对外发布一个模型、课程、标准或产品方法论，担心上线后被挑战。
-- 你在用 AI 生成模型，需要判断生成的模型是“看起来对”还是“真的对”。
-- 你要在一个复杂决策上建立团队共识，而不是靠权威拍板。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -71,20 +71,20 @@ author: 老顽童
 
 3. **主动组织“撞击实验”**
    找内部专家、一线同学、外部顾问，明确告诉他们：今天的目标不是夸这个模型，而是**推翻它**。
-   - 有没有反例？
-   - 哪些边界太宽或太窄？
-   - 哪些定义不清晰？
-   - 模型遗漏了哪些关键要素？
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **区分两种十层解读**
-   - **论证型十层解读**：为了推翻、修正模型。先做这个。
-   - **教学型十层解读**：为了讲透、传播模型。只有模型被“撞不动”之后才做这个。
+   - src_unknown
+   - src_unknown
    顺序不能反。如果先讲再撞，团队会爱上自己讲的故事，不愿意改。
 
 5. **用反例修正模型**
    每找到一个反例，做两件事之一：
-   - 修正模型本身；
-   - 修正边界，把反例场景排除在适用范围外。
+   - src_unknown
+   - src_unknown
    不能假装没看见。
 
 6. **广场思维自检**
@@ -105,10 +105,10 @@ author: 老顽童
 
 Truman 在两年半前给教员培训时发现，很多人对 L4 级别的模型没有足够高的追求。于是他讲了一个故事，画了一个“千人广场模型”：
 
-- 想象一个广场，圈定一个“问题边界”（解决什么、不解决什么）；
-- 广场上有 1000 个同学，95%（950 人）是基础薄弱、踩过坑、未经训练的新手；
-- 5%（50 人）是踩过坑、有经验、被训练过的高手；
-- 一堂做课的方法论，就是总结这 5% 高手的共性，做成课程去服务 95% 的新手，让新手进入高手的圈子。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这个模型最大的价值是给了团队**足够大的建模自信**。因为它不是为三五个人做课，而是对广场上所有人负责。只要广场上有任何一个可见的反例，就是模型不对——要么修正模型，要么把这个人放到广场外面。
 
@@ -179,10 +179,10 @@ Truman 提到，一堂早年吃过“先宣传、后验证”的亏：模型还�
 
 ### 角色分工
 
-- **主持人（黑脸）**：只负责推动议程，不能替模型辩护。
-- **模型作者**：只能回答事实问题，不能主动解释设计意图。
-- **记录员**：实时记录反例、边界争议、处理决策。
-- **撞击者**：目标是找到硬伤，不是提改进建议。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 90 分钟议程
 
@@ -197,27 +197,27 @@ Truman 提到，一堂早年吃过“先宣传、后验证”的亏：模型还�
 
 ### 自检清单
 
-- [ ] 模型边界已书面化，且与会者会前已知。
-- [ ] 至少收集了 3 个真实反例，其中至少 1 个来自一线或外部。
-- [ ] 每个反例已分类：广场内 / 广场外 / 待判断。
-- [ ] 每个广场内反例都有处理决策（修正模型或排除边界）。
-- [ ] 撞击前未进行包装美化或宣传材料制作。
-- [ ] 会议记录包含“推翻不动”的核心理由。
-- [ ] 下一步动作明确：进入教学型十层解读，或继续收集事实再撞。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
-- 市场上大量“模型”是找一个成功案例就敢宣称有效，本质是营销话术。一堂的方法论之所以敢拿去给大公司做诊断，是因为背后有“反例驱动”的验证机制。
-- “撞击实验”和“两种十层解读”是内部流程，不会出现在公开课程里，却是模型质量的真正分水岭。
-- 这个心态直接决定模型是“解释历史的漂亮故事”还是“指导未来的可靠工具”。
-- AI 时代尤其危险：AI 特别擅长生成“看起来很有道理、案例丰富”的模型，但如果没有反例驱动的验证，这些模型很可能是漂亮的幻觉。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[modeling-three-stages]] —— 反例驱动是抽象建模（75 分）和本质建模（85 分）阶段的核心验证机制。
-- [[modeling-capability-system]] —— 一堂建模能力的三大支柱之一：用科学方法确保模型健壮性。
-- [[modeling-level-map]] —— 从 L4（全面）到 L5（领域专家），关键跨越就是能否主动用反例修正边界和本质。
-- [[dk-modeling-expert-consensus-five-percent]] —— 5% 高手的共识是反例驱动模型的重要输入源。
-- [[dk-modeling-ai-without-judgment]] —— AI 生成的模型更需要反例驱动验证，否则容易把“看着厉害”当成“真的对”。
-- [[yt-five-step-method]] —— 一堂五步法本身被视为已覆盖广场上大多数商业误判的模型，反例驱动是其健壮性的来源。
-- `src_20260614_8269ccdb#2004-2248` —— Truman 口述原文：千人广场模型与撞击实验。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

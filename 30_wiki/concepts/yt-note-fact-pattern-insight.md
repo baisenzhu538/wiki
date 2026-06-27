@@ -6,45 +6,45 @@ title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - personal-growth
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - '[[tool-一堂-spectrum-positioning]]'
-  - '[[yt-note-extensive-research-input]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-problem-solving-capability]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[yt-note-extensive-research-input]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 深度思考笔记
-- 事实规律见解
-- 怎么写深度分析
-- 笔记怎么有洞察
-- 往深了挖
-- 三段论笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 estimated_tokens: 4200
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 笔记中事实、规律、见解各占独立章节，且规律段落明确引用≥3条事实
+- src_unknown
   framework_lens: 认知加工分层：记录→归纳→迁移
   follow_up_question: 如果删掉'见解'章节，读者能否根据你列出的事实和规律自己推导出结论？
-- signal: 在收集事实阶段会主动标注来源和可信度，而不是只写'我觉得'
+- src_unknown
   framework_lens: 证据质量先于解释质量
   follow_up_question: 这些事实中有没有反例？如果存在反例，规律是否需要加上边界条件？
-- signal: 写完后能用一句话回答'这对我下一步决策有什么改变'
+- src_unknown
   framework_lens: 见解必须产生行动或判断差异
   follow_up_question: 如果这个见解是错误的，你会在什么观察出现后放弃它？
 updated_at: '2026-06-17'
@@ -139,10 +139,10 @@ Truman强调："这就是一个核心原则，叫往深了挖。"从事实到规
 
 ### Constraints（内部局限）
 
-- **对事实质量要求极高**：如果事实是二手的、片面的、甚至是错误的，规律也会跟着错。
-- **归纳的盲区**：从事实到规律是归纳过程，但归纳永远无法保证完全正确。
-- **需要大量时间积累**：深度思考笔记"以年为单位"迭代，对短期项目不友好。
-- **容易陷入"过度分析"**：有些人会不断深挖，但永远不到"见解"层——因为形成见解需要判断，而判断需要承担风险。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -178,17 +178,17 @@ Truman看完《流浪地球》后，觉得"浪费时间"，于是逼自己做深
 
 ## Synthesis
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"分层"特征让三段论结构一目了然：第一层放事实、第二层放规律、第三层放见解。没有分层结构，三段论会混在一起，难以阅读。
+- src_unknown
 
-- [[yt-note-problem-solving-capability]] —— 三段论是"笔记能力=解决问题能力"的具体操作框架。一篇只有事实的笔记只能"记录问题"，一篇有事实+规律+见解的笔记才能"解决问题"。
+- src_unknown
 
-- [[concept-问题驱动式深度思考笔记]] —— 问题驱动式笔记决定"思考什么"，三段论决定"如何组织思考"。好问题+好结构=高价值笔记。
+- src_unknown
 
-- [[yt-note-deliberate-practice-four-elements]] —— 三段论的练习需要刻意练习的"固定套路"（每次都按事实→规律→见解写）和"大量重复"（积累足够多的事实才能浮现规律）。
+- src_unknown
 
-- [[yt-note-l4-internalization]] —— L4内化阶段是三段论真正发挥作用的场域：只有从"整理信息"跃迁到"自己思考"，事实才会被加工成规律，规律才会被转化为可行动的见解。
+- src_unknown
 
-- [[yt-note-extensive-research-input]] —— 三段论的事实层质量取决于输入策略。广泛涉猎不是堆砌信息源，而是用问题驱动多源交叉验证，让规律在对比中浮现。
+- src_unknown
 
 ### 不要用的场景
 

@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-yitang-elderly-home-roleplay]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-yitang-competitor-pricing-intelligence]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-social-engineering-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：假装订货套取麻将机竞品数据

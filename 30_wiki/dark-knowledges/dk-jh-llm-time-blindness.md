@@ -5,9 +5,9 @@ title: LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形�
 type: dk
 status: draft
 domain:
-- ai-saas
+- src_unknown
 source_refs:
-- 00_inbox/AI俱乐部/纪浩-AI实操落地工具籍和案例分享（第六期AI共创社）.md
+- src_unknown
 created_at: '2026-06-09'
 author: 纪浩
 reviewed_by: pending
@@ -15,11 +15,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[dk-f7-surface-translation]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-ai-judgment-human-responsibility]]'
-  - '[[dk-ai-judgment-programmer-paradox]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# LLM时间盲症：AI不知道现在是什么时候
 
 > 纪浩在AI共创社分享中提出：**LLM没有时间概念**，它不知道现在是2026年还是2024年，也不知道某个事件是否已经发生。这是一个被大多数人忽视的隐形风险。
@@ -40,9 +40,9 @@ related:
 
 ### Constraints
 
-- 随着模型更新，时间盲症可能会被部分缓解
-- 需要用户主动注入时间信息，增加了使用成本
-- 对于时间敏感度不高的任务影响较小
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击一：AI决定论
 
@@ -56,5 +56,5 @@ related:
 
 ## Synthesis
 
-- [[dk-ai-judgment-human-responsibility]] —— 时间盲症是AI需要人类判断兜底的典型场景之一。
-- [[tool-马易-风口痛点识别法]] —— 在识别风口痛点时，时间敏感度是关键判断维度。
+- src_unknown
+- src_unknown

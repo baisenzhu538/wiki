@@ -7,18 +7,18 @@ type: decision
 status: proposed
 decision_date: '2026-06-18'
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - compliance
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
-- "30_wiki/projects/单柜财务测算.json"
-- "https://m.ciopharma.com/supervise/60951"
-- "https://www.changzhi.gov.cn/xxgkml/zfxxgkml/czsrmzf/gzdt_3400/tzgggs/202207/P020220708327821049419.pdf"
-- "https://www.phirda.com/artilce_33315.html"
-- "https://cn.chinadaily.com.cn/a/202605/29/WS6a193fcca310942cc49af01f.html"
-- "https://web.ynye.com/"
-- "https://m.bjnews.com.cn/detail/1715644681129298.html"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 captured_at: '2026-06-18'
 created_at: '2026-06-13'
 updated_at: '2026-06-18'
@@ -27,33 +27,33 @@ reviewed_by: pending
 confidence: 0.84
 trust_level: medium
 related:
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[互联网医院项目]]'
-  - '[[鑫港湾HIS项目]]'
-  - '[[诊所O2O项目]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
-  - '[[互联网医院模式深度调研报告]]'
-  - '[[诊所o2o外卖平台业务深度调研报告]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 鑫港湾
-- 小程序医药商城
-- 智慧药柜
-- 互联网医院
-- 电子处方流转
-- 合规路径
-- 商业模式
-- 山西
-- 慢性病
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -87,9 +87,9 @@ tags:
 3. **《互联网诊疗监管细则（试行）》**：严禁 AI 自动生成处方；严禁先药后方；互联网诊疗仅限部分常见病、慢性病复诊。
 4. **国家药监局 2000 年 183 号文**：医疗机构药房不得对外销售药品，否则按无证经营处理。诊所附设药房只能服务本机构就诊患者。
 5. **山西 2026 年《药品零售经营监督管理办法（试行）》**：
-   - 第二十三条：药品零售企业可在"街道社区、住宅小区等人口聚集场所"设置智慧药房（柜），可售处方药+非处方药，需互联网诊疗、远程药学服务、执业药师审方；地址在《药品经营许可证》"经营地址"项下注明。
-   - 第三十条：药品零售企业**不得出租柜台**。
-   - 第三十七条：智慧药房（柜）应在显著位置标示依托的药品经营企业名称、许可证信息、24 小时服务电话、投诉举报电话；由专人按 GSP 管理。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 6. **山西医保 2023 年 15 号文**：互联网医院纳入医保服务须以**本统筹地区定点医疗机构为依托**，开具处方的医师须**在山西省内注册**并取得医保医师统一代码；处方须进入省级医保电子处方流转平台。
 
 ### 1.3 可利用的政策窗口
@@ -126,9 +126,9 @@ tags:
 
 #### 2.1.3 辩证结论
 
-- **长治市是山西最优首发地**：长市监发〔2022〕92 号文为药柜放在医疗机构内提供了明确政策依据，且长治市已实际落地医保结算。
-- **山西其他城市**：可援引山西 2026 办法"街道社区、住宅小区等人口聚集场所"，但需与市级药监、行政审批部门提前沟通确认。
-- **关键风控**：诊所只收固定场地租金（建议签订场地租赁合同而非合作协议），不参与药品经营任何环节；药柜显著标示药店名称和许可证信息；药品进销存纳入药店统一计算机系统；结算主体必须是药店。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2.2 第三方互联网医院（桃子健康、银叶健康）的作用与限制
 
@@ -151,9 +151,9 @@ tags:
 
 #### 2.2.3 辩证结论
 
-- **桃子/银叶的角色**：适合作为**自费购药、复诊续方、无处方场景下的合规处方来源**，以及**山西本地互联网医院尚未完善时的过渡方案**。
-- **医保报销路径**：必须以**山西本地医保定点医疗机构（诊所/医院）的处方**为核心，通过山西省医保电子处方流转平台进入药店药柜。
-- **建议策略**：
+- src_unknown
+- src_unknown
+- src_unknown
   1. 与诊所深度绑定，让诊所成为主要处方来源（可走医保）。
   2. 桃子/银叶作为补充：覆盖夜间、复诊续方、无处方到店客户的合规开方需求（自费）。
   3. 若要与桃子/银叶合作医保报销，需推动其与山西本地定点医疗机构合作或设立山西依托实体。
@@ -184,16 +184,16 @@ tags:
 | 40% | 200 | 8,083 | 40.4 | 1.35 |
 
 **慢性病复购模型**（客单价 180 元，综合毛利率 28%）：
-- 每位活跃客户月毛利贡献：50.4 元
-- 需活跃客户数：**64 人**
-- 按复购周期 30 天，日新增活跃客户：**2.1 人/天**
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 2.3.2 关键结论
 
 1. **18 个月回本是可行的**，但前提是：
-   - 能稳定获取约 64 位月购慢性病患者；
-   - 综合毛利率不低于 28%；
-   - 运营成本控制在 2,400 元/月以内。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **仅卖处方药很难达标**：处方药毛利 15-23%，若只做处方药，日订单需 5 单以上，难度大。
 3. **必须提高综合毛利率**：通过保健品、器械、家庭常备药等高毛利品类组合，将综合毛利率提升至 28-35%。
 4. **医保统筹是加速器**：接入门诊统筹后，患者自付大幅降低，可显著提升转化率。
@@ -309,11 +309,11 @@ tags:
 ### 4.4 单柜单元经济模型（山西慢性病药柜）
 
 **假设**：
-- 硬件成本：15,000 元，18 个月摊销
-- 月运营成本：2,400 元
-- 综合毛利率：28%（处方药 20% + OTC/保健品 45% 加权）
-- 客单价：180 元
-- 月复购活跃客户：64 人
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **测算**：
 
@@ -327,11 +327,11 @@ tags:
 | **月净利润** | **-7 元** |
 
 **盈亏平衡条件**：
-- 方案 A：活跃客户增至 65 人/月
-- 方案 B：客单价提升至 185 元
-- 方案 C：综合毛利率提升至 29%
-- 方案 D：运营成本降低 100 元/月
-- **方案 E（推荐）**：医保统筹接入后患者自付降低，转化率提升 20%，活跃客户增至 77 人/月，月净利润约 650 元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **结论**：单柜模型在 64 活跃客户、28% 毛利率下基本打平；医保统筹接入后可实现稳定盈利；商业成功取决于**获客能力、复购率和高毛利品类组合**。
 
@@ -416,47 +416,47 @@ tags:
 
 1. **选址确定**：优先选择**长治市**（有明确政策依据），其次选择太原、大同、运城等已开展"互联网+职工门诊统筹"的城市。
 2. **资质办理/确认**：
-   - 确认药店《药品经营许可证》、GSP、医保定点、门诊统筹资质
-   - 确认合作诊所为山西医保定点医疗机构
-   - 药店药品网络销售报告
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **场地协议**：
-   - 与诊所签订**场地租赁合同**，明确固定租金、面积、用途
-   - 协议中明确诊所不参与药品经营、不获取销售分成
+   - src_unknown
+   - src_unknown
 4. **系统最小闭环**：
-   - 患者端小程序上线（OTC 先行）
-   - 接入桃子/银叶互联网医院（自费处方）
-   - 药店 ERP 与远程审方系统对接
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **药柜备案**：
-   - 按山西 2026 办法，向市级药监/行政审批部门申请将药柜地址写入《药品经营许可证》"经营地址"
-   - 显著标示药店名称、许可证信息、24 小时服务电话、投诉举报电话
+   - src_unknown
+   - src_unknown
 
 ### 第二阶段：医保与处方药（3-6 个月）
 
 1. **诊所 HIS 接入**：
-   - 推动合作诊所开具电子处方并上传至山西医保电子处方中心
-   - 药店从处方中心下载处方，执业药师审方，药柜取药
+   - src_unknown
+   - src_unknown
 2. **医保移动支付**：
-   - 药店接入医保电子凭证、移动支付、门诊统筹结算
-   - 药柜端支持医保扫码结算
+   - src_unknown
+   - src_unknown
 3. **处方药上线**：
-   - 在长治市/山西试点智慧药房（柜）销售处方药
-   - 建立"诊所开方 → 处方中心流转 → 药师审方 → 药柜出药 → 医保结算"闭环
+   - src_unknown
+   - src_unknown
 4. **追溯码改造**：
-   - 2025 年 7 月 1 日前完成"无码不结"系统改造
+   - src_unknown
 5. **私域运营**：
-   - 会员体系、慢病管理包、用药提醒、复购激励
+   - src_unknown
 
 ### 第三阶段：规模化与增值（6-18 个月）
 
 1. **区域复制**：在山西已验证城市批量铺设智慧药柜，目标 18 个月内单柜回本。
 2. **B 端拓展**：
-   - 政府公共卫生项目（慢病管理、家庭医生签约、健康档案）
-   - 企业健康管理（员工药事服务、购药额度）
-   - 商保联动（特药险、慢病津贴）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **数据资产**：沉淀患者用药数据，为保险精算、药企真实世界研究提供 RWE。
 4. **处方来源多元化**：
-   - 推动桃子/银叶与山西本地医院合作，争取纳入医保互联网医院名单
-   - 或自建/共建山西本地互联网医院
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -468,9 +468,9 @@ tags:
 
 ### 建议 2：诊所只出租场地，不参与经营
 
-- 签订固定租金的场地租赁合同，而非合作经营协议。
-- 诊所不参与药品采购、定价、销售、分成、审方。
-- 药柜独立标识、独立系统、独立结算。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 建议 3：把医保报销与自费处方分清楚
 
@@ -482,18 +482,18 @@ tags:
 ### 建议 4：药柜定位是"慢病履约终端"而非"独立销售渠道"
 
 智慧药柜的核心价值：
-- 承接诊所处方，患者看完病即取药
-- 24 小时可达性
-- 降低夜间人力成本
-- 处方药取药时的身份核验与用药指导
-- 小程序订单自提点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 建议 5：商业模式必须叠加高毛利品类和 B 端支付
 
 纯 C 端处方药销售难以覆盖成本。必须：
-- 药品组合：处方药引流 + OTC + 保健品 + 器械盈利
-- 服务收费：慢病会员年费、用药随访包
-- B 端支付：政府公共卫生项目、企业健康管理、商保
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 建议 6：单柜 18 个月回本的运营底线
 

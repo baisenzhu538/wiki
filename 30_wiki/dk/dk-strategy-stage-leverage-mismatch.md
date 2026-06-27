@@ -10,24 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - '[[dk-strategy-organization-strategy-mismatch]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[dk-yitang-behavior-over-asking]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - "[[strategy-domain-digest]]"
-  - "[[framework-strategy-six-stages]]"
-  - "[[framework-strategy-brm]]"
-  - "[[case-strategy-failure-02-supermarket]]"
-  - "[[case-lean-premature-expansion]]"
-  - "[[case-strategy-practice-12-zero-loss]]"
-  - "[[case-strategy-shell-oil]]"
-  - "[[case-strategy-wuxi-suntech]]"
-  - "[[case-strategy-revival-13-bestore]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 战略阶段与杠杆错配
@@ -96,11 +96,11 @@ related:
 
 **第一问：当前阶段的核心命题是什么？**
 
-- 初创期：活下来，验证最小闭环；
-- 吃饱期：做大，复制可盈利模型；
-- 吃好期：做强，构建壁垒与体系；
-- 吃撑期：转型，边开车边换引擎；
-- 吃吐期：退出，及时止损 [conf=0.88, source=framework-strategy-six-stages]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **第二问：当前动作与阶段命题是否匹配？**
 

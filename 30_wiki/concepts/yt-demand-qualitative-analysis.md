@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-quantitative-estimation
-  - yt-demand-scenario-reconstruction
-  - yt-demand-early-validation
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户直接给了一个市场规模数字，但说不清楚用户是谁"
+  - src_unknown
     framework_lens: 定性分析缺失——跳过拆推评，直接算
     follow_up_question: "你的市场规模数字背后，具体是哪些用户在什么场景下付费？先定性，再定量。"
-  - signal: "产品功能列表很长，但每个功能都说不清楚解决什么问题"
+  - src_unknown
     framework_lens: 拆解不到位——没有拆到用户真正的问题
     follow_up_question: "这个功能背后，用户真正要解决的问题是什么？不用这个功能，用户现在怎么解决？"
-  - signal: "用户说'我的方案比竞品好'，但说不出好在哪里"
+  - src_unknown
     framework_lens: 评估维度缺失——没有评清楚优势
     follow_up_question: "你的方案比用户现在的替代方案好多少？是10%还是10倍？用户愿意为这个'好'付多少溢价？"
-  - signal: "团队对市场天花板争论不休，各执一词"
+  - src_unknown
     framework_lens: 估算方法不统一——没有共同的计算逻辑
     follow_up_question: "你们用的市场规模估算方法是哪一种？自上而下还是自下而上？两种方法交叉验证过吗？"
-  - signal: "用户访谈做了很多，但结论模糊，无法指导决策"
+  - src_unknown
     framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
     follow_up_question: "你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？"
 
@@ -61,23 +61,23 @@ diagnostic_signals:
 ### 1. 拆：从功能到问题
 
 错误示范：
-- ❌ "我们做一个智能客服系统"
-- ✅ "用户的问题是：客服响应慢导致客户流失，当前平均响应时间2小时，用户期望15分钟内"
+- src_unknown
+- src_unknown
 
 拆的标准：
-- 用"用户的问题是..."开头
-- 包含：人群、场景、痛点、现有方案的成本
-- 不超过5句话，能讲清楚
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 推：现有替代方案
 
 用户不是从0开始解决问题的。他们现在就在用某种方式解决（哪怕很笨）。
 
 替代方案类型：
-- **直接竞品**：同类产品的其他品牌
-- **间接竞品**：不同品类但解决同一问题（如Excel vs 项目管理工具）
-- **人工方案**：雇人、自己手动做
-- **不解决**：忍受问题，不采取行动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 关键问题：用户现在为这个问题花多少钱/多少时间？
 
@@ -86,14 +86,14 @@ diagnostic_signals:
 不是"比竞品好一点"，而是"好10倍"。
 
 10倍可以体现在：
-- 成本降低10倍（价格、时间、精力）
-- 效果提升10倍（效率、质量、体验）
-- 风险降低10倍（安全性、可靠性）
+- src_unknown
+- src_unknown
+- src_unknown
 
 验证方法：
-- 用户愿意为你的"好"付多少溢价？
-- 如果价格相同，用户会选你吗？为什么？
-- 如果价格贵10倍，用户还会选你吗？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 算：市场规模估算
 
@@ -139,21 +139,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你要估算市场规模时 → 先检查拆推评是否完成
-- 当团队讨论产品方向时 → 用拆推评算四格对齐
-- 当做用户访谈时 → 每个访谈对象都填四格
-- 当写商业计划书时 → 拆推评算作为需求章节结构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型（真/伪/衍生）
-- `yt-demand-quantitative-estimation`：市场规模估算四种方法详解
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-early-validation`：需求早期验证低成本测试法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂需求分析段位图
-- 一堂案例大爆炸实践数据
+- src_unknown
+- src_unknown
+- src_unknown

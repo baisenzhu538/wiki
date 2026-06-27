@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- growth
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_vlm_desc.md
@@ -17,15 +17,15 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-category-role-matrix]]'
-  - '[[tool-strategy-fishbone]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[framework-strategy-three-horizons]]'
-  - '[[tool-strategy-lifecycle]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 安索夫矩阵：产品-市场增长战略

@@ -13,33 +13,33 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 事实优先
-- 区分事实观点
-- 认知纪律
-- 信息验证
-- 事实核查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-yitang-research-quantitative-modeling]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[tool-yitang-research-quantitative-modeling]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[dk-yitang-expert-interview-5-traps]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 事实优先：区分事实与观点的认知纪律
@@ -103,11 +103,11 @@ related:
 | **匿名来源** | 极低 | "据内部人士透露" |
 
 ### 来源追溯清单
-- [ ] 信息来源是否明确？
-- [ ] 来源是否可信？
-- [ ] 来源是否有利益相关？
-- [ ] 信息是否经过转述？
-- [ ] 原始来源是什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -123,23 +123,23 @@ related:
 | **D级** | 来源不明、不可验证 | 不可引用 |
 
 ### 验证方法
-- 多源交叉验证
-- 追溯原始数据
-- 检查计算方法
-- 寻找反面证据
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 事实优先的检查清单
 
-- [ ] 这个陈述是事实、观点、解读还是预测？
-- [ ] 如果是事实，来源是什么？
-- [ ] 来源是否可信？
-- [ ] 是否经过多源验证？
-- [ ] 如果是观点，是基于什么事实？
-- [ ] 如果是解读，逻辑是否合理？
-- [ ] 如果是预测，依据是什么？
-- [ ] 是否有反面证据？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -189,22 +189,22 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 事实优先模块
-- 交叉：批判性思维理论
-- 注意：事实优先是调研的认知基础，需要持续练习
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

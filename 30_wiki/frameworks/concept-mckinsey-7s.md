@@ -6,57 +6,57 @@ title: 7-S Framework：组织诊断的七维模型
 type: framework
 status: enriched
 domain:
-  - management- consulting
-  - yitang
+  - src_unknown
+  - src_unknown
 source_refs:
-  - '*Business Horizons*, 23(3), 14-26.'
+  - src_unknown
 bridges_to:
-  - target: yt-model-entrepreneur-map
+  - src_unknown
     relation: provides_foundation_for
     description: 7-S 提供了组织诊断的完整维度框架
     context: 一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口
-  - target: yt-management-toolkit-overview
+  - src_unknown
     relation: complements
     description: 管理工具箱中的 tool 卡可以与 7-S 各维度对应
     context: 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统
-  - target: concept-mckinsey-mece
+  - src_unknown
     relation: uses
     description: 7-S 是 MECE 原则在组织诊断中的具体应用
     context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
 diagnostic_signals:
-  - signal: 用户说'我们团队好像出了问题，但不知道是哪里'
+  - src_unknown
     framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
     follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？
-  - signal: 用户说'我们做了组织调整但问题还在'
+  - src_unknown
     framework_lens: 7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素
     follow_up_question: 你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？
-  - signal: 用户说'我们公司战略很清晰，但执行总是变形'
+  - src_unknown
     framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
     follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
-  - signal: 用户说'我们准备从 0 到 1 规模化，但不知道组织能不能跟上'
+  - src_unknown
     framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
     follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
 related:
-  - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[dk-strategy-three-must-do-moments]]'
-  - '[[framework-strategy-mckinsey-7s]]'
-  - '[[concept-mckinsey-mece]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[concept-minto-pyramid-principle]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[yt-tool-hiring-scorecard]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[dk-lz-ai-native-organization]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#scene/business-analysis'
-  - '#scene/entrepreneurship'
-  - '#scene/team-management'
-  - '#industry/consulting'
-  - '#method/checklist'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -172,8 +172,8 @@ Skills                        -   □
 Values                            -
 ```
 
-- 在冲突格中打 ❌，并写一句话说明冲突表现。
-- 只保留影响最大的 3 个 ❌，作为本季度优先解决的组织矛盾。
+- src_unknown
+- src_unknown
 
 ### Step 3：行动优先级排序（5 分钟）
 
@@ -190,10 +190,10 @@ Values                            -
 
 [[case-yitang-weekly-modeling-engine]] 是一堂把周五课程逼成组织学习引擎的案例。用 7-S 可以解释它为什么有效：
 
-- **Systems**：把\"周五 21:00 交付 + 周六复盘\"固化成硬截止日，用系统对抗惰性。
-- **Shared Values**：把\"模型迭代比单次交付更重要\"变成组织共识。
-- **Skills**：通过每月模型资产盘点，把个人能力沉淀为组织能力。
-- **Style**：创始人/高管以身作则接受\"未达标就临时取消课程\"的品控规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这个案例说明：**7-S 的一致性强弱，不取决于每个维度单独有多好，而取决于它们是否相互强化同一个组织目标**。
 

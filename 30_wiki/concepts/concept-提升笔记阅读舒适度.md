@@ -1,6 +1,6 @@
 ---
 domain:
-- learning-methodology
+- src_unknown
 id: concept-提升笔记阅读舒适度
 title: 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 type: concept
@@ -10,42 +10,42 @@ confidence: 0.85
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-l4-internalization]]'
-- '[[dk-truman-flag-note-taking]]'
-- '[[yt-note-expert-interview-modeling]]'
-- '[[yt-note-ai-human-division]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 笔记怎么排版
-- 笔记阅读舒适度
-- 笔记产品意识
-- 视觉美化笔记
-- 笔记分层
-- 笔记标颜色
-- 思维导图 vs 清单体
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 estimated_tokens: 4200
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- signal: 笔记好认真但是很难受，长长短短没有分担
+- src_unknown
   lens: 完整度≠舒适度
   follow_up: 完整度是底线，舒适度才是竞争力。一份完整但难读的笔记，价值远低于有选择地完整但极其易读的笔记
-- signal: 笔记分层超过3层，像串糖葫芦，理解不了
+- src_unknown
   lens: 分层过度
   follow_up: 2-3层为最佳，层少了理解不了，层多了也理解不了。分层是为了降低认知摩擦不是制造认知迷宫
-- signal: 笔记没有视觉重点，看麻了
+- src_unknown
   lens: 视觉编码缺失
   follow_up: 标黄(亮点)、标绿(课程延展)、标红(关键决策)，让内容重心与形式重心统一
-- signal: 笔记三个月内阅读次数为零
+- src_unknown
   lens: 可发现性缺失
   follow_up: 真正决定笔记是否被使用的是'可发现性'和'可提取性'，不是阅读舒适度。确保笔记出现在正确的时间地点
-- signal: 团队成员丧失独立判断信息重要性的能力，只会问'这个标什么颜色'
+- src_unknown
   lens: 认知依赖
   follow_up: 颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间
 ---# 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
@@ -77,11 +77,11 @@ Truman的观察：很多学员的笔记"好认真，但是很难受"——"长�
 
 Truman的核心操作："视觉看上去比较重要的、颜色比较重和比较跳的东西，就应该是最重要的东西。"具体编码规则：
 
-- **标黄**：亮点、观测点、精彩点
-- **标绿**：课程延展、可展开成课的内容
-- **标红**：关键决策、巨大纠结、重要观点
-- **加粗/底色**：层级标题、核心结论
-- **分层**：2-3层为最佳——"层少了理解不了，层多了也理解不了"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 效果："你记了3000字的笔记，如果对方阅读能力强，可能一分钟就扫完了。"
 
@@ -131,10 +131,10 @@ Truman的警告："适当就好啊不要太花里胡哨啊。因为最终只要�
 
 ### 内部局限
 
-- **产品意识需要经验积累**：新手很难预判"谁会在什么场景用这份笔记"，导致预判偏差。
-- **视觉编码依赖平台能力**：不是所有笔记工具都支持颜色、底色、格式，某些场景（纯文本、Markdown）受限。
-- **"适当"的边界主观性强**：不同读者对"花里胡哨"的阈值不同，作者认为"适当"的编码可能被读者认为"过度"。
-- **过度关注形式可能挤占内容深度**：花太多时间在排版上，可能减少了真正思考的时间。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -174,15 +174,15 @@ Truman给团队示范的访谈笔记：所有亮点标黄，所有课程延展�
 
 ## Synthesis
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"独立""分点""分层"三个特征，为产品意识和视觉编码提供了天然的结构基础。没有清单体的分点结构，视觉编码无法精准锚定到具体内容单元。
+- src_unknown
 
-- [[yt-note-l4-internalization]] —— L4内化阶段要求笔记"有思考、有行动、有反常识"。产品意识是"有行动"的前提——如果笔记不考虑使用场景，就很难转化为可执行的行动。
+- src_unknown
 
-- [[dk-truman-flag-note-taking]] —— 立flag倒逼思考量，而阅读舒适度倒逼"思考的可传递性"。一张充满思考但无法被他人（或未来的自己）快速理解的笔记，它的价值会被严重折损。
+- src_unknown
 
-- [[yt-note-expert-interview-modeling]] —— 专家访谈式笔记的90%内容要转化为课程，这个转化效率极度依赖阅读舒适度。如果访谈笔记只有作者自己能读懂，它就无法被教研团队复用。
+- src_unknown
 
-- [[yt-note-ai-human-division]] —— AI在L1-L2（记录、整理）上有优势，但在"产品意识"和"视觉编码的上下文判断"上（L3-L5）仍需要人类决策。因为"什么该标红"取决于你对使用者需求的理解，这不是通用算法能替代的。
+- src_unknown
 
 ## Action Triggers
 

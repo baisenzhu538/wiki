@@ -1,6 +1,6 @@
 ---
 domain:
-  - master
+  - src_unknown
 
 id: master-ai-info-literacy
 title: AI时代信息素养框架
@@ -19,12 +19,12 @@ review_date: '2026-06-20'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[master-antifragile-checklist]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-knowledge-compound]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# AI时代信息素养框架
 
@@ -38,9 +38,9 @@ AI 生成内容的成本趋于零，但**真实性的成本没有下降**。当 
 
 ### 与现有卡的关系
 
-- `yt-entrepreneur-research-cognition`：讲调"何时该用 AI——不该全自动放任"，但没有给出具体的信息质量检查流程。本卡补充实操层。
-- `yt-model-prompt-engineering`：提到"幻觉不可消除"，但只是警告而已。本卡给出三层防护框架。
-- `yt-entrepreneur-research-weaponry`：讲结构化调研，本卡讲信息质量保障。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -131,15 +131,15 @@ AI 产生的不是单一的"错误"，而是四种结构不同的幻觉：
 
 **David Epstein**（"第三种人类" 专才与通才研究者，"Range" 作者）的研究对信息素养框架提出了无法视乎不见的挑战。Epstein 的核心论证：**真正的诊断能力来自深度领域知识**——你必须先知道"真的是什么"，才能辨别"假的"。三层防护框架暗含了一个危险的假设：用户已经具备足够的领域知识来执行"常识验证"和"信源质量评级"。但对于一个初学者来说，他的"常识"可能根本就是错的——这时让他去"验证"只会让错误信息在更多轮审查中被"确认"。
 
-- **核心挑战**：信息素养是"需要知识才能用的工具"——知识越少的人越需要它，但知识越少的人越用不了它。
-- **建议补充**：每次用三层防护前，先对自己的领域知识打分（L1-L5）——如果 < L3，第一层的"常识验证"必须升级为"找专家帮忙验证"。
+- src_unknown
+- src_unknown
 
 ### 攻击者 2：Floridi（信息哲学）——真理与似真性的混淆
 
 **Luciano Floridi**（牛津大学信息哲学教授，信息伦理学领域最重要的学者，"The Philosophy of Information" 作者）从认识论角度对信息素养框架进行了深层挑战。Floridi 的核心观点：**信息的"似真性"（verisimilitude）与"真理"（truth）是两件事**。AI 的输出往往具有极高的似真性——它看起来像真的，但它不是真的。信息素养框架在"验证"层面上太过工具化——你在用技术方法解决一个本质上是伦理学问题。
 
-- **核心挑战**：信息素养框架暗示"信息是一个可以被检测和验证的对象"，但 Floridi 认为信息本质上是"不确定性的减少"——信息的价值不在于"它是真的"，在于"它帮你减少了多少不确定性"。三层防护追求"真实"，但 AI 时代真正有价值的信息可能是"让你比别人更早发现不确定性"的信息。
-- **建议补充**：在验证层加一个"信息伤害性"评估——不是只问"这是真的吗？"，还要问"如果这是假的，会造成多大损失？"。高伤害性信息需要更严格的验证，低伤害性信息可以"先用后验证"。
+- src_unknown
+- src_unknown
 
 ---
 

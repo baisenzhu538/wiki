@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[case-compas-racial-bias]]"
-  - "[[case-apple-card-gender-bias]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Deepfake 的商业机会与滥用风险
@@ -223,28 +223,28 @@ Deepfake 案例的核心张力——**“强大生成能力 + 信任脆弱性”
 
 ## 行动 Checklist
 
-- [ ] 审查组织内部所有依赖视频/语音/图像验证的高风险流程，列出可被 deepfake 绕过的环节。
-- [ ] 对重要转账、权限变更、敏感信息发布建立“离线第二通道确认”机制，不依赖单一通信渠道。
-- [ ] 评估现有 deepfake 检测工具在真实场景（而非实验室）中的有效性，并定期做红队测试。
-- [ ] 如果使用 AI 生成/合成人物内容，确保获得明确授权、保留审计链、按法规披露。
-- [ ] 在引用 deepfake 市场数据时，给出区间并说明不同机构的定义边界。
-- [ ] 为员工和用户提供媒体素养培训：怀疑不是偏执，而是“骗子红利”时代的基本生存技能。
-- [ ] 跟踪欧盟 AI Act Article 50、韩国刑法修正案、美国 DEEPFAKES Accountability Act 等立法进展，确保合规计划覆盖披露、检测与受害者救济。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 延伸阅读与来源
 
-- SNS Insider, *Deepfake AI Market Size, Share & Forecast 2035*, 2026-05-14. https://www.snsinsider.com/reports/deepfake-ai-market-5882 [conf=0.80]
-- Fortune Business Insights, *Deepfake Technology Market Size, Share | Growth Report [2034]*, 2026-04. https://www.fortunebusinessinsights.com/deepfake-technology-market-109936 [conf=0.80]
-- Coherent Market Insights, *Deepfake Technology Market Size & Opportunities, 2026-2033*, 2026-04. https://www.coherentmarketinsights.com/industry-reports/deepfake-technology-market [conf=0.80]
-- Resemble AI, *2025 Deepfake Threat Report*, 2026-03-20. https://www.resemble.ai/resources/2025-deepfake-threat-report [conf=0.85]
-- World Economic Forum, *Global Risks Report 2024*, 2024. https://www.weforum.org/publications/global-risks-report-2024/ [conf=0.90]
-- World Economic Forum, *Global Risks Report 2025*, 2025. https://reports.weforum.org/docs/WEF_Global_Risks_Report_2025.pdf [conf=0.90]
-- The Guardian, *UK engineering firm Arup falls victim to £20m deepfake scam*, 2024-05-17. https://www.theguardian.com/technology/article/2024/may/17/uk-engineering-arup-deepfake-scam-hong-kong-ai-video [conf=0.85]
-- RTHK, *Deepfake colleagues trick HK clerk into paying HK$200m*, 2024-02-04. https://news.rthk.hk/rthk/en/component/k2/1739119-20240204.htm [conf=0.90]
-- EU AI Act, *Regulation (EU) 2024/1689*, Article 50. https://artificialintelligenceact.eu/article/50/ [conf=0.90]
-- Chesney, R. & Citron, D. K. (2019). *Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security*. 107 California Law Review 1753. [conf=0.85]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

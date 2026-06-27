@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 id: yt-scale-economy-weapon-library
@@ -9,12 +9,12 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "规模经济"
-  - "规模效应"
-  - "马尔萨斯"
-  - "金字塔"
-  - "一堂壁垒"
-  - "规模经济武器库"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -33,7 +33,7 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '能画出业务的费用结构金字塔，区分固定/变动/半变动成本', 'framework_lens': '成本结构是规模经济的基础', 'follow_up_question': '随规模扩大，哪类成本会被摊薄？'}
   - {'signal': '能识别业务中随规模变好、变差、不变的环节', 'framework_lens': '规模效应是环节级现象', 'follow_up_question': '你的业务链条上，哪个环节规模效应最强？'}
@@ -41,7 +41,7 @@ diagnostic_signals:
 updated_at: 2026-06-16
 author: "老顽童"
 related:
-  - "case-ether-online-acquisition"
+  - src_unknown
 
 ---# 规模经济分析武器库
 
@@ -59,20 +59,20 @@ related:
 ### 失败模式
 
 1. **认为‘规模大=规模经济’**
-   - **原因**：概念混淆
-   - **修复**：证明单位成本随规模下降，而不是只看总收入
+   - src_unknown
+   - src_unknown
 
 2. **忽视边际成本，只看固定成本摊薄**
-   - **原因**：成本视角不全
-   - **修复**：同时分析边际成本、获客成本、履约成本的变化
+   - src_unknown
+   - src_unknown
 
 3. **行业对比对象选错**
-   - **原因**：参照系错误
-   - **修复**：选择商业模式相似的同阶段公司对比
+   - src_unknown
+   - src_unknown
 
 4. **静态分析，不考虑产能瓶颈和管理复杂度**
-   - **原因**：忽视规模不经济
-   - **修复**：分析规模扩大后管理、协调、质量的边际变化
+   - src_unknown
+   - src_unknown
 
 ## Summary
 

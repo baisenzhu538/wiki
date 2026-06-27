@@ -10,27 +10,27 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[concept-ai-neutrality-bias]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 椅子决定视角
@@ -143,22 +143,22 @@ related:
 ```markdown
 ## 作者位置卡：《书名/报告名》
 
-- 作者：
-- 主要身份：投资人 / 学者 / 创业者 / 媒体人 / 政策制定者
-- 收入来源：
-- 声誉立场：乐观派 / 批判派 / 工具派 / 灾难派
-- 可能偏向：过度强调 _____，可能回避 _____
-- 时代局限：写于 ChatGPT 前/后；是否已被后续事件验证
-- 我的折扣：对 _____ 打几折，对 _____ 保持开放
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ### 团队：引入「对立面椅子」评审
 
 在做重要 AI 决策前，强制要求团队呈现至少两把对立椅子 [conf=0.70, source=王欢原创]：
 
-- 如果请一个技术乐观派来审，他会怎么辩护这个决策？
-- 如果请一个 AI 伦理批判者来审，他会指出哪些盲区？
-- 两把椅子都打折后，还剩下哪些共识？哪些分歧必须由我们自己判断？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与已有框架的联动
 
@@ -204,12 +204,12 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选一条最近让你焦虑的 AI 新闻或预测，填写「作者位置卡」。
-- [ ] 为同一话题找出第二把对立椅子，用表格对比两者的利益结构与可见偏向。
-- [ ] 在两把椅子都打折后，写出至少一条「仍成立」的共识和一条「必须由我自己判断」的分歧。
-- [ ] 检查自己是否也坐在某把椅子上：从业者、投资者、恐惧者、狂热者？
-- [ ] 把椅子判断写入团队决策记录，作为后续复盘依据。
-- [ ] 三个月后复盘：哪些椅子移动了？哪些预测已过期？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -231,9 +231,9 @@ related:
 > **回应**：在理想情况下确实如此。但 AI 预测大多发生在证据不充分、未来不可复制的领域。此时作者位置是判断「哪些证据可能被选择性呈现」的重要先验。椅子视角不是替代证据，而是帮助读者更有效地分配验证精力。
 
 **不要用**：
-- 不要在纯技术验证场景中用椅子视角替代实验复现。
-- 不要让「查椅子」退化成「谁有利益谁就是错的」的简化论。
-- 不要一次性给作者贴上永久标签后就不再更新。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

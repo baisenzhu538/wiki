@@ -3,7 +3,7 @@ id: tool-李诞-内容创作中的观察训练法
 title: 技能：内容创作中的观察训练法
 type: tool
 domain:
-- content-production- design
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-月白-最佳实践素材收集法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-月白-AIGC设计作业复盘法]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：内容创作中的观察训练法
 
@@ -36,25 +36,25 @@ related:
 
 ## 适用场景
 
-- 内容创作者、短视频制作者、写作者想要提升创作能力
-- 感觉创作素材枯竭、缺乏灵感时
-- 观看同行或优秀作品时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 纯粹休闲娱乐、不想工作的时间
-- 非创作类岗位，无需内容产出时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 笔记本/备忘录随时记录
-- 视频平台的暂停、回放功能
-- 拉片软件或表格
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -62,12 +62,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

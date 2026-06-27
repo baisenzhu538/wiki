@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-roi决策评估画布-案例02"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_bf298e46
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-ROI决策评估画布-案例02"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-ROI决策评估画布-案例02
@@ -41,30 +41,30 @@ png` 决策4：是否搭建虚拟影棚 ROI决策评估画布 维度 收益项 �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_bf298e46-ocr-一堂-科学决策-roi决策评估画布-案例02.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 虚拟影棚搭建决策采用ROI评估画布，从基础ROI、长期视角、公司视角、机会成本四个维度系统评估收益与成本。
-- 基础ROI收益：为数字党建产品拓展新落地场景，丰富业务种类；成本：影棚搭建35万元。
-- 长期视角收益：团队掌握虚拟拍摄技术，与园区合作实现场地换资源、联合经营及客户引流。
-- 公司视角收益：拓展数字党建场景，新增虚拟发布会、文化栏目、直播带货等业务线。
-- 机会成本判断：疫情反复导致线下活动受限，虚拟线上直播/拍摄存在时间窗口需求。
-- 最终决策：执行搭建，购买设备并投入团队研发跟进。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 基础ROI中"拥有一个实体影棚，业务种类更加丰富"是否构成可量化的收益？缺乏财务测算如何支撑ROI结论？
-- 长期视角与园区"联合经营"的具体分成比例、客户资源承诺是否已书面约定？若园区违约如何兜底？
-- 公司视角列举的三类新业务（虚拟发布会、文化栏目、直播带货）与现有数字党建业务的能力复用度未评估，是否存在资源分散风险？
-- 机会成本仅论证了"需求存在"，但未分析竞争格局——该时间窗口内同行是否已布局？先发优势能维持多久？
-- 35万成本是否包含后续运维、升级、人员培训费用？团队"研发跟进"的人力成本未计入总投入
-- 决策画布缺少"风险项"维度：技术迭代导致设备淘汰、疫情结束后需求断崖、核心技术人员流失等场景未讨论
-- "最终结论"直接跳转至执行方案，缺少明确的决策标准（如ROI阈值、回本周期要求）——达到什么指标会继续/终止投入？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -82,30 +82,30 @@ March 论证组织的探索与利用之间存在根本矛盾。案例中的投�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-canvas]] - 同域决策画布，案例02是其在投资场景下的应用
-- [[yt-entrepreneur-five-step-method]] - 一堂五步法
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 投资决策的直觉校准
-- 组织投资文化设计
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将案例中的投资直觉当作通用模板
-- 不要在缺乏投资经验时依赖直觉
-- 不要将案例当作招商体系的通用模板
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在做投资决策时用直觉快速校准
-- 従你在组织中推动创新投资时检查奖励机制
-- 従你觉得投资直觉很准时用Klein视角检查经验边界
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

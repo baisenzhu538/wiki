@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-engagement-loop
 title: 参与循环：让用户持续回来
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-retention-metrics
-  - yt-growth-user-onboarding
-  - yt-growth-viral-mechanism
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'用户来了，但很快就不用了'"
+  - src_unknown
     framework_lens: 参与循环——用户需要持续回来的理由，需要设计参与循环
     follow_up_question: "你的产品是否形成了用户习惯？用户什么场景下会回来？"
-  - signal: "用户说'我们的DAU在下降'"
+  - src_unknown
     framework_lens: 参与循环——DAU下降说明参与循环断裂
     follow_up_question: "DAU下降是因为新用户减少还是老用户流失？参与循环的哪个环节断了？"
-  - signal: "用户说'用户只用一个功能，其他功能不用'"
+  - src_unknown
     framework_lens: 参与循环——用户参与深度不够，需要扩展使用场景
     follow_up_question: "你的产品核心功能之外，是否有其他功能可以吸引用户？"
-  - signal: "用户说'我们的推送用户不打开'"
+  - src_unknown
     framework_lens: 参与循环——推送需要有价值，不是打扰
     follow_up_question: "你的推送内容是什么？用户是否觉得有价值？推送频率是否合适？"
-  - signal: "用户说'用户参与度不高，但不知道怎么办'"
+  - src_unknown
     framework_lens: 参与循环——参与度需要设计循环机制
     follow_up_question: "你的产品是否有触发机制、奖励机制、社交机制让用户持续参与？"
 
@@ -130,21 +130,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当用户流失时 → 设计参与循环
-- 当DAU下降时 → 诊断触发、行动、奖励、投入
-- 当用户参与度低时 → 优化奖励机制
-- 当用户没有习惯时 → 设计习惯形成机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-user-onboarding`：用户onboarding
-- `yt-growth-viral-mechanism`：病毒传播
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- Hook模型（Nir Eyal）
-- 参与循环研究
+- src_unknown
+- src_unknown
+- src_unknown

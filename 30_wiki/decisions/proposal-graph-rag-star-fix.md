@@ -5,8 +5,8 @@ title: Graph RAG 放射状图谱修复提案
 type: improvement-plan
 status: draft
 domain:
-- infrastructure
-- knowledge-graph
+- src_unknown
+- src_unknown
 created_at: 2026-06-11
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
@@ -18,11 +18,11 @@ confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[plan_20260621_domain-index-infrastructure]]'
-  - '[[sprint-6-cli-gap-proposal]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[graph-rag-retrieval-layer]]'
-  - '[[graph-rag]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # Graph RAG 放射状图谱修复提案
 
@@ -64,8 +64,8 @@ related:
 **A3**（可选）：Graph RAG 构建后跑一个健康检查——检测是否存在"一个节点的出边/入边数量超过总节点数 30%"的情况，如果是则发警告。
 
 **代码位置**：
-- `graph.py`：`_collect_wiki_pages()`（line 78-99）和 `_build_custom_kg()`（line 102-210）
-- 参考已有实现：`search_index.py` line 88-90 的过滤逻辑
+- src_unknown
+- src_unknown
 
 **工作量估计**：约 0.5-1 小时
 

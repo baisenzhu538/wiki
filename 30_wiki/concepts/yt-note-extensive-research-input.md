@@ -6,46 +6,46 @@ title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - personal-growth
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 related:
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-note-expert-interview-modeling]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[tool-多源输入法]]'
-  - '[[yt-note-l4-internalization]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[yt-note-expert-interview-modeling]]'
-  - '[[yt-research-mindset]]'
-  - '[[yt-note-fact-pattern-insight]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 广泛涉猎式笔记
-- 多源输入笔记
-- 不要只看一个人的书
-- 问题当入口源
-- 怎么在听课时记笔记
-- 剩余脑力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-10
 estimated_tokens: 4200
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户只听30%但自己找资料能力不足
+- src_unknown
   framework_lens: 前提不满足
   follow_up_question: 你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？
-- signal: 用户把广泛涉猎当成不认真的借口
+- src_unknown
   framework_lens: 误解
   follow_up_question: 你听完课后输出的认知结构，比讲者原内容丰富了多少？
-- signal: 笔记连续5条以上都是原话转载，没有自己的判断
+- src_unknown
   framework_lens: 输出结构不足
   follow_up_question: 你能否为当前主题找到至少2个非讲师来源的视角，并写一段50字的个人结论？
 updated_at: '2026-06-17'
@@ -125,10 +125,10 @@ Truman的水水案例中，他明确说："我这篇笔记其实只有一半三�
 
 ### Constraints（内部局限）
 
-- **对话题熟悉度要求极高**：如果是完全陌生的领域，"只听30%"策略会导致重大信息漏失。
-- **多窗口操作会分散注意力**：同时打开多个信息源需要足够的认知资源，否则会陷入"每个窗口都看了，每个窗口都没深入"。
-- **需要多显示器和工具支持**：没有合适的硬件和软件环境，广泛涉猎的效率会大打折扣。
-- **容易演变成"信息围积"而非"认知加工"**：收集了很多信息源，但没有形成自己的结论，笔记变成了一个资料堆。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -153,10 +153,10 @@ Truman的水水案例中，他明确说："我这篇笔记其实只有一半三�
 ### 正面案例：Truman的组织行为学笔记
 
 Truman请水水分享一本组织行为学硬书。水水的语速和信息密度只占Truman 50%能力。Truman同时：
-- 翻阅自己过去所有组织行为相关磨课笔记和个人笔记；
-- 在网上搜索这本书的书评；
-- 反思自己的管理得失；
-- 辩析网上相关观点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最后这篇笔记只有1/3来自水水，2/3来自他自己。"我现场就把假设都提出来了，现场我就把模型给解构，这完全不是他的结构。"
 
@@ -184,27 +184,27 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 
 ### 课后5分钟质量检查单
 
-- [ ] 我能用1句话说出本次要解决的核心问题
-- [ ] 笔记中至少出现1个非讲师来源
-- [ ] 我写下了至少1条自己的判断或待验证假设
-- [ ] 「我的部分」字数占比 ≥ 66%（约2/3）
-- [ ] 我能向一个没听过课的人解释这个主题的核心争议
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- [[tool-多源输入法]] —— 该skill卡从学习方法论角度讲广泛涉猎，本概念卡则聚焦于**笔记场景**中的广泛涉猎——特别是如何利用剩余脑力、如何将多源信息汲取形成可复用的笔记结构。
+- src_unknown
 
-- [[yt-note-l4-internalization]] —— L4的"广泛涉猎"和"问题驱动"在本卡中得到具体化：不是抽象地说"要多看书"，而是给出了可操作的比例、时机和质量门槛。
+- src_unknown
 
-- [[yt-note-checklist-concept]] —— 清单体笔记的"独立"特征让广泛涉猎的多源信息可以被整合进同一个结构：每一行是一个独立观点或一个来源的总结，不同来源的观点可以并置对比。
+- src_unknown
 
-- [[dk-truman-flag-note-taking]] —— 广泛涉猎需要flag倒逼才能避免流于形式。比如"2/3来自自己"就是一个可量化的flag，用来检验多源涉猎是否真正转化为个人认知。
+- src_unknown
 
-- [[yt-note-expert-interview-modeling]] —— 专家访谈式笔记和广泛涉猎式笔记在现场中是同时发生的：优秀的访谈者一边听，一边在脑中调用多个知识源做交叉验证。
+- src_unknown
 
-- [[yt-research-mindset]] —— 研究心态卡强调的"问题先于答案"与广泛涉猎的"问题驱动"是同一枚硬币的两面；本卡把它具体化为听课/笔记场景中的可操作比例。
+- src_unknown
 
-- [[yt-note-fact-pattern-insight]] —— 广泛涉猎收集的是"事实+观点"，最终要通过"模式识别"才能变成"洞察"；本卡提供了多源并置的方法，事实-模式-洞察卡提供了从并置到洞察的跃迁路径。
+- src_unknown
 
 ### 不要用的场景
 
@@ -227,12 +227,12 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 
 ## 单卡收尾检查
 
-- [x] status 已改为 `enriched`
-- [x] reviewed_by 已更新为 `欧阳锋`
-- [x] updated_at 已更新为 `2026-06-17`
-- [x] diagnostic_signals ≥ 3 条且含 Signal → Lens → Follow-up 三元组
-- [x] Constraints & Boundaries 适用边界 ≥ 4 条
-- [x] Common Failure Modes ≥ 4 条，含真实症状 + 可执行修复
-- [x] 新增至少 1 个可落地模板/checklist
-- [x] 新增至少 2 条互链（`[[yt-research-mindset]]`、`[[yt-note-fact-pattern-insight]]`）
-- [x] 未新增卡片，仅精修本卡
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

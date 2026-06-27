@@ -4,43 +4,43 @@ title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶�
 type: concept
 status: draft
 domain:
-  - master
+  - src_unknown
 related:
-  - "[[kdo-flywheel]]"
-  - "[[dk-c8-format-complete-mind-empty]]"
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[tool-纪浩-日志驱动排查法]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - 错误自暴露
-  - 矛盾检测
-  - 知识库谬误
-  - 增量一致性
-  - 全域检测靶向修复
-  - 知识库腐败
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
 created_at: "2026-06-03"
 updated_at: "2026-06-17"
 pipeline:
-  - confidence-draft
+  - src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 diagnostic_signals:
-  - signal: "概念偏差被后续3-5张卡片引用后放大"
+  - src_unknown
     lens: "积累期错误"
     follow_up: "每次新输入后触发全库语义扫描，检测矛盾/冲突/互补关系，写入frontmatter标记"
-  - signal: "用户遇到概念Z发现不对，根因在十步之前的概念A"
+  - src_unknown
     lens: "暴露期延迟"
     follow_up: "建立关联传播机制：卡片A被标记过时，引用A的B/C/D自动标记潜在问题"
-  - signal: "修复A后引用A的B/C/D需要追溯性修复，工作量大增"
+  - src_unknown
     lens: "修复半径失控"
     follow_up: "修复半径保持靶向：只标记/只修被矛盾检测命中的卡片，不触发全库重跑"
-  - signal: "没有机制阻止同样偏差再次进入系统"
+  - src_unknown
     lens: "复发期缺失"
     follow_up: "矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊"
-  - signal: "知识库规模大导致检测频率低，错误积累周期长"
+  - src_unknown
     lens: "全量重跑陷阱"
     follow_up: "增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖"
 ---
@@ -130,9 +130,9 @@ diagnostic_signals:
 全量重跑的破坏力已被证伪（见 [[dk-c8-format-complete-mind-empty]]）：规模大意味着检测频率低（不敢跑），检测频率低意味着错误积累周期长，违背了"越早暴露越好"的原则。
 
 增量矛盾检测允许：
-- **每次写入后触发** ——不是等人喊，不是等排期
-- **只跑语义匹配** ——不跑全文理解，降低每次成本
-- **输出是标记，不是修改** ——不擅自改任何卡，只暴露信号
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 这个框架当前缺什么
 

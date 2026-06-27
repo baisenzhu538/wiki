@@ -4,23 +4,23 @@ title: 鑫港湾HIS项目
 type: improvement-plan
 status: active
 domain:
-- healthcare
+- src_unknown
 id: 鑫港湾HIS项目
 created_at: 2026-05-04
 updated_at: '2026-06-16'
 related:
-  - '[[鑫港湾]]'
-  - '[[开源HIS系统代码深度分析报告]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[yt-tool-onboarding-90day]]'
-  - '[[EC工业化规范手册]]'
-  - '[[鑫港湾his系统分阶段整改报告]]'
-  - '[[HIS系统深度调研]]'
-  - '[[HIS系统开发实现方案-架构师指南]]'
-  - '[[轻量级诊所HIS调研全清单]]'
-  - '[[EC工业化规范手册]]'
-  - '[[ec工业化规范手册-v2.8.0]]'
-  - '[[鑫港湾]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
@@ -39,10 +39,10 @@ trust_level: medium
 
 ## 当前状态
 
-- 已完成代码审查：235个问题（严重28 / 高64 / 中87 / 低56）
-- 已分阶段规划：🔴 当下要改49个 / 🟡 上线前改85个 / 🟢 上线后优化101个
-- 最紧迫问题：数据库迁移脚本阻塞开发环境初始化、访问控制缺失、敏感信息明文存储
-- EC工业化规范手册 v2.8.0 已发布，作为交付质量标准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键概念卡
 
@@ -63,7 +63,7 @@ trust_level: medium
 
 ## 产出物
 
-- 分阶段整改报告（已交付）
-- EC工业化规范手册 v2.8.0（已交付）
-- HIS系统开发实现方案（已交付）
-- 上线前安全合规审计（待执行）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

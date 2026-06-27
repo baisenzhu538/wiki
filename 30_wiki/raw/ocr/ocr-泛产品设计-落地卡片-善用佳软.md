@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-善用佳软"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_7ddf8bf2
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-善用佳软"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-设计原则]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-善用佳软
@@ -36,36 +36,36 @@ png` - 泛产品设计·落地卡片 善用佳软 多学习一些简单产品工
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计应遵循从手绘草图→低保真协作→高保真原型的渐进式工具链，匹配不同验证阶段的需求。
-- 核心设计工具矩阵：手绘（纸笔/Pad）→ 低保真（飞书画板）→ 高保真（墨刀/Sketch/Pixso），按保真度分层选用。
-- 脑暴协作依赖物理/数字混合：白板分区+多色便签+飞书文档共建，兼顾发散与收敛。
-- AI工具（ChatGPT/Kimi/Suno）已纳入标准产品设计工具箱，用于辅助创意与内容生成。
-- 垂直场景需专用工具：如装修设计采用酷家乐/SketchUp，按领域匹配专业方案。
-- 关键元能力：快速学习新工具的能力本身比掌握任何单一工具更重要，应刻意练习"教程驱动式入门"。
-- 独立验证原则：产品设计的终极目标是能独立动手完成设计并验证，而非仅停留在方案阶段。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该卡片声称"没有什么不是一堂课解决不了的"，但未界定"一堂课"的时长、形式与质量基准，这一口号是否适用于复杂系统设计或跨学科协作场景？
-- 工具链按保真度分层（手绘→低保真→高保真）的假设是否隐含线性进程偏见？实际工作中是否存在跳过某层或反向迭代的有效模式？
-- "AI工具"列举ChatGPT/Kimi/Suno等生成式AI，但未说明其在产品设计工作流中的具体介入节点与输出质量控制方法，是否会导致工具滥用或认知外包？
-- "快速学习新工具的能力"被设为核心元能力，但未提供衡量该能力的评估标准或练习频次建议，如何验证此能力的实际提升？
-- 装修设计作为唯一垂直场景示例，其工具选择（酷家乐/SketchUp）是否暗示该卡片作者背景偏向空间/硬件设计，对软件产品设计的垂直工具覆盖是否不足？
-- "独立动手完成设计并验证"中的"验证"缺乏定义：是用户测试、技术可行性验证、还是商业假设验证？不同验证目标是否需要截然不同的工具与方法？
-- 脑暴工具组合中"白板分区+多色便签"与"飞书文档共建"的混合使用，未说明线上线下切换的触发条件与信息同步机制，是否存在协作摩擦成本？
-- 高保真工具列出国产品（墨刀/Pixso）与国际工具（Sketch），但未讨论团队规模、授权成本、生态兼容性等选型维度，该推荐是否适用于企业级协作约束？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

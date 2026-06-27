@@ -16,14 +16,14 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-doris-grab-industry-cognition]]'
-  - '[[case-zhanglan-amusement-park-undercover]]'
-  - '[[case-zhanglei-furniture-overseas-market-selection]]'
-  - '[[case-zhanglei-nursing-home-family]]'
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[case-zhanglei-furniture-overseas-market-selection]]"
-  - "[[case-zhanglei-nursing-home-family]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：张磊——调研先行的连续创业者

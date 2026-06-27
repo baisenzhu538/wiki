@@ -13,17 +13,17 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: Web scraping APIs for AI agents (Grokipedia, 2026)
-- web: Firecrawl, Crawl4AI, ScrapeGraphAI docs
-- web: MCP protocol specification (modelcontextprotocol.io)
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-firecrawl]]'
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-osint-wayback]]'
-  - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-ai-research-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent原生调研工具总览
@@ -69,8 +69,8 @@ crawl4ai --url https://target.com --output-format markdown
 
 ## 适用边界
 
-- **适用**：Agent自主调研场景、需要批量采集的场景
-- **不适用**：需要登录的页面、强反爬网站、法律禁止采集的内容
+- src_unknown
+- src_unknown
 
 ---
 

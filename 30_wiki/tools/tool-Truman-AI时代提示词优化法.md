@@ -3,8 +3,8 @@ id: tool-Truman-AI时代提示词优化法
 title: 技能：AI时代提示词优化法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-月白-短视频封面一秒吸睛法]]'
-- '[[tool-Truman-技术社区严肃提问法]]'
-- '[[tool-Truman-语义对齐沟通法]]'
-- '[[tool-Truman-问题定义澄清法]]'
-- '[[tool-Truman-职场异步协作提问法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI时代提示词优化法
 
@@ -38,28 +38,28 @@ AI时代提示词优化法是Truman在科学提问中提出的实操方法。
 
 ## 适用场景
 
-- 使用大语言模型解决复杂问题
-- 需要AI进行数据分析或代码生成
-- 探索未知领域获取结构化知识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 问题涉及事实核查需验证来源
-- 需要情感价值而非信息价值
-- 对AI幻觉风险无法容忍的场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- ChatGPT
-- Claude
-- 豆包
-- Cubox
-- 提示词模板库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -67,12 +67,12 @@ AI时代提示词优化法是Truman在科学提问中提出的实操方法。
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，科学提问
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

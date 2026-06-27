@@ -6,33 +6,33 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[tool-月白-AI人物特征精准描述法]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[tool-月白-AI抽卡效率控制法]]'
-  - '[[dk-yb2-llm-muddy-clear-muddy]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb2-llm-muddy-clear-muddy]]'
-  - '[[dk-yb14-multi-image-commonality]]'
-  - '[[dk-yb29-prompt-migrate-copy-first]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 设计师反复调整提示词希望在构图上达到像素级控制，但每次结果差异巨大
+- src_unknown
   framework_lens: 架构局限——扩散模型的逐步去噪与人类"先整体后局部"存在根本差异
   follow_up_question: 你的需求是"控制画面内容"还是"控制画面构图"？后者需要ControlNet/区域提示，不是改prompt。
-- signal: 团队对AI生图效果不满意时，第一反应是"提示词写得不够好"，不断加细节描述
+- src_unknown
   framework_lens: 工具选择错位——问题可能不在提示词质量，而在工具本身的架构局限
   follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。
 ---# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思
@@ -71,9 +71,9 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 接到AI生图需求时，先区分：是内容问题还是构图问题？
-- [ ] 如果是构图问题，是否已考虑ControlNet/区域提示而非仅仅改prompt？
-- [ ] 是否了解当前使用工具的控制能力边界？（MJ不可控构图、SD+ControlNet可控、DALL-E介于中间）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -81,5 +81,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb2-llm-muddy-clear-muddy]] — 大模型训练本质：浑水→清水→浑水
-- dk-yb14-prompt-migrate-copy-first — AIGC提示词迁移：先照搬再微调
+- src_unknown
+- src_unknown

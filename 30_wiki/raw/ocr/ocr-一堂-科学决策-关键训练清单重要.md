@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-关键训练清单重要"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_ac7f8874
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-关键训练清单（重要））"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-深度-决策经验值]]'
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-关键训练清单（重要））
@@ -40,31 +40,31 @@ png` 科学决策ROI·关键训练清单Checklist ROI决策维度 关键思考�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 科学决策需要系统性地识别关键成本/收益项，通过反复追问"还有吗"避免遗漏要素。
-- 建立分析框架（要素清单或公式）是弥补"默认会丢掉很多要素"这一认知偏差的有效方法。
-- 决策分析应分四层递进：区间定性→部分定量→定量公式→严格财务ROI，逐步消除模糊理解。
-- 必须主动评估决策的长期ROI变化趋势，避免仅关注短期收益而忽视时间维度上的模型演变。
-- 刻意提升视角层级（+1视角、公司视角、N年维度）可纠正"默认视角较低"的决策局限。
-- 机会成本分析需明确稀缺资源占用情况，并系统比较替代选项的ROI高低。
-- 时间窗口评估应覆盖外部竞争、关键资源、营销节奏、流量红利、政策支持五个维度，识别不可逆机会。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该清单声称"默认我会丢掉很多要素"是认知偏差，但未提供实证依据——这一"默认"假设本身是否经过验证，还是仅为设计者的个人经验归纳？
-- "四层递进"定量方法（L1-L4）的层级关系是否严格递进？实际决策中是否存在跳跃或循环的情况，清单未说明适用条件与转换阈值。
-- "+1视角"和"公司视角"的具体操作定义模糊：向上提升多少层级算"+1"？跨部门/跨行业决策时视角参照系如何确定？
-- 时间窗口的五个维度（竞争/资源/营销/流量/政策）是否穷尽？对于非互联网/非政策敏感行业，该框架是否存在系统性遗漏？
-- "严禁外传"的版权声明与"仅限大会员学习"的封闭模式，是否构成对该决策框架本身有效性的检验障碍——缺乏外部 peer review 如何确保方法可靠性？
-- 清单强调"用单元模型精准分析ROI"，但未定义"单元模型"的具体构成与边界，不同业务场景下单元划分的标准是否存在一致性风险？
-- "还有吗"的追问机制在心理学上可能诱发追加偏误（sunk cost in information gathering），清单未设置终止条件或成本-收益权衡的元规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -82,30 +82,30 @@ Meehl 在《临床与统计预测》中证实，简单的统计规则在预测�
 
 ### 与本库其他概念的关联
 
-- yt-decision-key-hypotheses — 关键假设验证，清单方法与假设验证结合可以形成更完整的成本收益审视
-- [[yt-decision-canvas]] — 同域决策画布，清单是其某些维度的细化工具
-- [[master-decision-hygiene]] — 通用决策卫生，提供成本收益审视的更系统性框架
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 重大投资决策前的成本收益清点：用“追问还有吗”确保没有遗漏隐性项
-- 新项目立项时的假设检查：用统计视角补充清单的主观累加
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将清单当作“考虑全面了”的保证，最危险的因素往往在清单外
-- 不要在缺乏量化能力时做无限追问，清单需要以可行的量化分析为终点
-- 不要用清单替代决策本身，清单是输入而非输出
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你准备做重大投资/人事决策时，用“追问还有吗”方法检查是否遗漏了关键成本/收益项
-- 従你觉得"已经想得很全面了”时，用 Hogarth 的“反馈环境”视角检查这个决策的反馈是否可以被及时验证
-- 従你的清单越来越长但决策质量没有提升时，用 Meehl 的“统计规则”视角检查是否在用主观清单替代客观检查
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

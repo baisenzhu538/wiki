@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-building
-  - yt-barrier-offensive-strategy
-  - yt-barrier-moat-assessment
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'竞品在攻击我们的核心市场'"
+  - src_unknown
     framework_lens: 防御策略——需要评估攻击强度和防御资源
     follow_up_question: "竞品的攻击方式是什么？价格、产品、还是渠道？你的防御资源是什么？"
-  - signal: "用户说'我们的壁垒被竞品突破了'"
+  - src_unknown
     framework_lens: 防御策略——壁垒被突破需要快速修复或建立新壁垒
     follow_up_question: "哪个壁垒被突破？突破方式是什么？能否快速修复？"
-  - signal: "用户说'我们想守住市场，但不知道怎么做'"
+  - src_unknown
     framework_lens: 防御策略——防御需要主动出击，不是被动防守
     follow_up_question: "你的防御策略是什么？是价格战、产品升级、还是客户关系？"
-  - signal: "用户说'我们的防御成本太高'"
+  - src_unknown
     framework_lens: 防御策略——防御成本需要与收益平衡
     follow_up_question: "你的防御成本是多少？是否超过了潜在损失？"
-  - signal: "用户说'我们防守成功，但失去了进攻机会'"
+  - src_unknown
     framework_lens: 防御策略——防御和进攻需要平衡
     follow_up_question: "你的资源是否过度投入防御？进攻机会在哪里？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当竞品攻击时 → 快速防御
-- 当壁垒被突破时 → 修复或替代
-- 当防御成功时 → 寻找进攻机会
-- 当资源有限时 → 精准防御
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-building`：壁垒建设路线图
-- `yt-barrier-offensive-strategy`：进攻策略
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 竞争战略研究（Porter）
-- 防御策略实践
+- src_unknown
+- src_unknown
+- src_unknown

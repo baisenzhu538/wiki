@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- note-taking
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
 source_refs:
@@ -16,25 +16,25 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 related:
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[dk-fundamentals-before-advanced-ops]]'
-  - '[[yt-note-live-field-skill]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[yt-note-live-field-skill]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 学习了很多高阶笔记技巧，但一进入真实场景就只能“跟上”不能“超前”
+- src_unknown
   framework_lens: 基本功未内化导致CPU满载，没有剩余脑力执行高阶操作
   follow_up_question: 在不使用AI辅助的情况下，你能否独立完成一次全程记录且留出30%脑力用于思考？
-- signal: 团队用AI做笔记后，成员记录速度变快，但现场判断和建模能力没有提升
+- src_unknown
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
 ---# “剩余脑力”：高阶笔记的唯一货币与分水岭
@@ -55,38 +55,38 @@ Truman的核心判断：**高阶笔记能力的唯一货币不是记录速度、
 
 ## 使用场景
 
-- 你在听课/开会/沟通时，发现自己只能"跟上"而不能"超前"——所有脑力都用来记录了，没有资源去思考
-- 你学了很多高阶笔记技巧，但实践中发现根本用不上——因为基本功还没熟练，没有剩余脑力去做高阶操作
-- 你在评估自己的笔记能力，需要判断"我是在L1还是L3"——判断标准不是"记得多快"，而是"记完后还有多少脑力去思考"
-- 你在设计笔记训练课程，需要知道为什么"不能跳级"——剩余脑力的累积是阶梯式的，没有快捷通道
-- 你在用AI辅助笔记，需要判断"AI帮我省下的时间是否变成了剩余脑力"还是"变成了懒惰"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **识别自己的"脑力使用率"**：在一次会议/课程中，给自己的脑力分配打分：
-   - 80%+用于"记录"：L1水平，还在基本功阶段
-   - 50-80%用于"记录"：L2水平，基本功较熟练
-   - 30-50%用于"记录"：L3水平，开始有剩余脑力
-   - <30%用于"记录"：L4-L5水平，剩余脑力充裕
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **刻意练习"记完后反思"**：每次记完笔记，强制自己问3个问题：
-   - 这些内容之间有什么关联？
-   - 如果我只能保留1个点，是哪个？
-   - 这个内容和我已有的知识怎么对接？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **从"跟上"到"超前"的逐步迁移**：
-   - 第一周：目标是跟上讲者的节奏，不遗漏
-   - 第二周：目标是在跟上的同时，能做出轻微的排序和分类
-   - 第三周：目标是能在记的同时做出判断——"这个重要，这个不重要"
-   - 第四周：目标是能在记的同时做出建模——"这些内容可以归纳成什么框架"
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **使用"剩余脑力测试"**：随机选一次笔记记录过程，完成后立即闭上笔记，用自己的话复述主要内容。如果复述出来的内容比笔记更丰富、更有结构，说明剩余脑力足够。
 5. **拒绝"脑力吃低保"**：不要让自己总是在"刚刚能跟上"的边缘游走。有意识地选择一些"轻度超前"的训练场景，强迫自己在"有余力"的状态下工作。
 
 ## 适用边界
 
-- **适用于**：任何需要"实时处理+深度思考"并行的场景（会议、课堂、访谈、演讲、客户沟通）。这些场景的共同特点是：信息输入速度快，但需要即时深度加工。
-- **不适用于**：非实时场景（阅读、写作、数据分析）——这类场景中你可以控制节奏，不存在"剩余脑力"的竞争。你可以慢慢想，不用担心跟不上。
-- **个体差异**：剩余脑力的"绝对值"因人而异。有些人天生工作记忆容量大，有些人需要更长的练习周期。**不要与他人比较绝对值，要与自己比较进步**。
-- **警惕"假性剩余脑力"**：有些人觉得自己"记得很快，还有时间刷手机"，误以为这是剩余脑力。但可能只是内容太简单了。真正的剩余脑力测试：当内容复杂度提升时，你还能不能保持超前思考？
-- **时间窗口**：剩余脑力不会永远持续。一般人的高度注意力时间约25-45分钟。在这个时间窗口内，剩余脑力最充足。超过这个时间，即使是高手也会出现认知疲劳。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -100,14 +100,14 @@ Truman的核心判断：**高阶笔记能力的唯一货币不是记录速度、
 
 ## 为什么值钱
 
-- **核心洞察**：大多数人以为"笔记的差距在于写得多快多好看"，但Truman的核心结论是**“笔记的差距在于记完后还有多少脑力去做更高级的事"”**。这是从"产出视角"到"能力视角"的转变。
-- **唯一货币性**：在高认知负荷场景中，**剩余脑力是唯一可以自由支配的资源**。你不能控制讲者说话的速度，但你可以控制自己记笔记的效率——记得越熟练，剩余资源越多。
-- **可量化的进步指标**：剩余脑力是唯一可以被感知和量化的进步指标。"记得更快"不是进步，"记得更好看"不是进步，**“记完后能想得更深"才是进步**。
-- **组织价值**：一个能够"现场建模"的人，其价值远超"只能现场记录"的人。剩余脑力就是这两类人的分水岭。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-five-levels-training]] — 五阶训练法的本质就是"剩余脑力的逐步累积"。L1没有剩余脑力；L2开始有微弱的剩余；L3剩余脑力可以用来整理和分类；L4可以用来建模；L5可以用来现场解决复杂问题。
-- [[dk-note-maximum-common-divisor]] — 清单体化需要剩余脑力。只有当你的笔记基本功足够扎实，才有认知资源去做"结构降级"这种高阶操作。
-- [[dk-note-rookie-disaster-veteran-heaven]] — "新人灾难"的本质是新人没有剩余脑力——他们连记录都费劲，更别说思考了。而"老人天堂"的本质是老人有大量剩余脑力可以用来做高阶判断。
-- [[yt-note-live-field-skill]] — 现场笔记的"完成度"概念实际上是对"剩余脑力"的量化——60%完成度意味着你只用60%的脑力记录，留40%去思考。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

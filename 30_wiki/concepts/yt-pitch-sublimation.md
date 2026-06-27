@@ -4,31 +4,31 @@
 
 id: yt-pitch-sublimation
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 升华化
-- 升华
-- 上价值
-- 挖价值
-- 更高意义
-- 情怀
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-scenarization]]'
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,16 +37,16 @@ title: 讲香·升华化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 能把产品功能向上提炼1-2层到用户真正在乎的价值（心态、关系、事业）
+- src_unknown
   framework_lens: 升华 = 价值层级上移
   follow_up_question: 这个功能对用户的工作/关系/自我认知有什么深层影响？
-- signal: 升华后的价值仍能与产品直接关联，而不是空泛口号
+- src_unknown
   framework_lens: 升华必须可落地
   follow_up_question: 如果产品不存在，这个升华价值还能成立吗？
-- signal: 升华用于关键节点，而不是通篇灌输
+- src_unknown
   framework_lens: 升华是点睛之笔
   follow_up_question: 如果这段内容只保留一处升华，应该在哪里？
 updated_at: '2026-06-16'
@@ -69,40 +69,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **一步跳到‘人生成功’‘改变世界’，用户觉得假大空**
-   - **原因**：升华过度
-   - **修复**：限制最多上移2层，每层都能讲清楚与产品的联系
+   - src_unknown
+   - src_unknown
 
 2. **升华变成通用口号，放任何产品上都成立**
-   - **原因**：价值 detach
-   - **修复**：升华必须结合产品独特机制或用户真实使用场景
+   - src_unknown
+   - src_unknown
 
 3. **全文都在上价值，没有具体功能和证据支撑**
-   - **原因**：价值架空
-   - **修复**：每个价值主张后必须跟一个产品特性或用户证据
+   - src_unknown
+   - src_unknown
 
 4. **用升华掩盖产品真实缺陷**
-   - **原因**：操纵性表达
-   - **修复**：升华不能替代功能兑现，必须在产品交付后再传递
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 升华化是最后一招也是最难的一招——让用户感受到卖点背后的更高价值。表层价值不够显著时，你要让它「背后的那个东西很值钱、很有价值」。升华化让人肃然起敬，天然涌现出情怀式的、甚至不那么理性的信任
-- claim:02 [conf=0.85] 升华的关键是「往上走1-2层，但不要太多」——从产品功能→心态/体验→事业/关系价值，但不要一步跳到「人生成功」（太抽象反而没意义了）
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **J1 个人价值**：生活态度、幸福记忆、个人成长、内心情怀。例如：翻页笔→不只是延迟低和稳定，而是「你在台上的自信和心不慌」→再上一层「不会因为设备问题在重要场合掉链子、失去机会」
-- claim:04 [conf=0.85] **J2 事业价值**：产生复利、十年成果。例如：「体系最重要的是复利——稳定性做事带来的复利」。一堂体系课不只是学知识，而是「给你一个持续产生复利的做事操作系统」
-- claim:05 [conf=0.80] **J3 关系价值**：宠物陪伴、朋友交情、恋人爱情、家人亲情。例如：烧烤店不讲「串好吃」而讲「来这里不是吃饭，是兄弟、是温暖、是那种快乐即刻流行的生活状态」——把产品升华为关系场景
-- claim:06 [conf=0.80] **J4 社会价值**：公司发展、行业维度、公益事业、社会进步。例如：一堂做成了≠一家公司成功，而是「证明在中国做系统化严肃教育能靠自己活下来——十年前这样的公司活不了，现在能活，证明中国管理者的成熟度已经到了」
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **翻页笔卖500块**：同行卖一两百，这个卖500。光讲「物理距离更长、稳定性更强」卖不动。上升一层→「给你台上的自信和心不慌」；再上一层→「不会因为设备问题在重要场合（跟老板汇报、讲课）掉链子，影响台下人的学习体验」。升到学习体验价值层面，用户就不会纠结500还是200了
-- claim:08 [conf=0.85] **Y30（一堂优秀作业合集）**：光讲「优秀同学的作业合集」用户不想要。阿蕊讲：「Y30是一道光。你可能没见过比你高一个身位的人怎么做决策的，我们一次性把这束光打亮，把未来三年五年的路给你照亮」——一个作业合集被升华为「照亮前路的探照灯」
-- claim:09 [conf=0.85] **黑神话悟空**：「踏上取经路比抵达灵山更重要」「我要通过游戏的方式让全世界了解中国文化」——一个游戏被升华为文化输出的载体。有多少人买了压根没玩、就是为了这份情怀花钱——这就是升华化的力量
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -117,10 +117,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：升华化是抽象化第五指，四层修炼之奇效层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库中的 J1-J4 升华化战术
+- src_unknown
 
 ## Synthesis
 

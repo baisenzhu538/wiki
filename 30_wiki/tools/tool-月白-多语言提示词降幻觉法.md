@@ -4,32 +4,32 @@ title: 技能：多语言提示词降幻觉法
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI生成棉花娃娃形象]]'
-- '[[tool-月白-基于白底图做动作延展]]'
-- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
-- '[[tool-月白-风格探索试错法]]'
-- '[[tool-月白-AIGC生成人物证件照]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：多语言提示词降幻觉法
 
@@ -48,25 +48,25 @@ related:
 
 ## 适用场景
 
-- 需要精确控制AI生成内容
-- 涉及专业术语或特定文化概念
-- 单语言提示词反复出现幻觉
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 简单通用场景，单语言已足够
-- AI对目标概念理解准确
-- 追求随机创意效果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 翻译工具
-- Midjourney/ChatGPT/豆包等AI工具
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

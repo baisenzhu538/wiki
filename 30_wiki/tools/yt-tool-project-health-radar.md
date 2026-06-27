@@ -8,38 +8,38 @@ source_refs:
 - 10_raw/sources/src_20260619_16e607de_30_wiki_concepts_yt_management_project_management.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.8
 prerequisites:
-- yt-management-project-management
+- src_unknown
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[yt-tool-onboarding-90day]]'
-  - '[[yt-tool-equity-checklist]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-project-management]]'
-  - '[[tool-泛产品落地-风险管理]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 项目健康度检查
-- 项目风险评估
-- 项目状态诊断
-- 项目红绿灯
-- 项目中期评审
-- 项目里程碑检查
-- 项目复盘前诊断
-- 多项目组合健康度
-- 项目预警指标
-- 项目状态报告
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -85,9 +85,9 @@ author: 老顽童
 
 **目的**：确保诊断者不是"带着答案找证据"。
 
-- [ ] 关闭项目周报/PPT，凭记忆填写 6 个维度（防止被书面材料催眠）
-- [ ] 如果是团队诊断，让 PM 先独立填，再与核心成员对答案（防止权威偏差）
-- [ ] 明确本次诊断的决策意图：是"判断是否继续投入"、"判断是否需要增援"、还是"判断是否该止损"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 1：六维快速扫描（8 分钟）
 
@@ -103,9 +103,9 @@ author: 老顽童
 | **团队** | 团队士气、协作效率、信息透明度如何？ | 士气正常，信息透明，冲突被建设性处理 | 有轻微倦怠或信息孤岛，但不影响交付 | 士气低落、关键人员流失、或冲突已影响协作 |
 
 **填表规则**：
-- 每个维度只允许标一种颜色，不允许"黄偏绿"这种模糊状态
-- 如果犹豫超过 10 秒，标黄灯（犹豫本身就是信号）
-- 团队诊断时，取多数人的颜色；如果分歧严重（如 3 绿 3 红），标黄灯并记录分歧点
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：三色信号判定（2 分钟）
 

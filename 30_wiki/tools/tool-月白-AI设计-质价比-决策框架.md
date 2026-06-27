@@ -4,32 +4,32 @@ title: 技能：AI设计'质价比'决策框架
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-课程问题预埋法]]'
-- '[[tool-月白-提示词长度控制法]]'
-- '[[tool-月白-背景消除与分辨率修复]]'
-- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
-- '[[tool-月白-三步作业反馈法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI设计'质价比'决策框架
 
@@ -48,25 +48,25 @@ AI设计'质价比'决策框架是月白在AI设计基础中提出的实操方�
 
 ## 适用场景
 
-- 项目启动前的工具选择
-- 团队AI应用规范制定
-- 个人工作流优化
-- 评估AI是否替代某环节
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已经验证过的高效固定流程
-- 客户明确要求全人工创作
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 各AI设计工具
-- 项目评估清单
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ AI输出的是选项，人做的是选择；选择需要审美策略和商业理
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计基础
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

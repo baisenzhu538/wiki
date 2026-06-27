@@ -5,25 +5,25 @@ confidence: 0.8
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-- entrepreneur
+- src_unknown
 language: zh-CN
 query_triggers:
-- AI 原生创业
-- 创业四阶段
-- 精益独角兽
-- 智能体编程
-- 创始人角色演变
-- 产品市场契合度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[yt-model-dual-triangle-competitiveness]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-tool-meeting-designer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
@@ -33,8 +33,8 @@ type: concept
 updated_at: '2026-06-16'
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 author: unknown
 trust_level: medium
 ---
@@ -74,9 +74,9 @@ AI 正在彻底重塑初创公司的诞生方式。Anthropic 提出的四阶段�
 "如今的瓶颈，早就不再是‘你能造出什么’，而是取决于‘你选择造什么’。" 当开发门槛消失，判断力成为最稀缺资源。
 
 **核心法则**：
-- 让脑子走在手的前面，特别是当写代码变得轻而易举时
-- AI 会顺着你的想法走，如果你让它验证一个坏点子，它会找出一堆证据
-- 解药是反着用：让 AI 找反例、找负面证据，AI 在帮你推翻一个点子时和帮你证明时一样卖力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Claim 4: 构思阶段的三个致命陷阱
 
@@ -145,8 +145,8 @@ Pfeffer 更会质疑"精益独角兽"这个概念本身："只有 10 个人的�
 
 ### 与现有概念的冲突
 
-- **vs 传统创业方法论**：传统方法论（如精益创业、增长黑客）强调"快速迭代"和"数据驱动"，但仍假设需要一个团队来执行。Anthropic 手册的革命性在于：它假设"一人公司"或"极精团队"可以走完全部四阶段——这对传统创业教育是一个根本性挑战。
-- **vs 自动化/企业软件行业**：手册暗示 AI 工具取代传统企业软件（CRM、ERP、项目管理），但忽视了企业软件行业花了 30 年建立的"系统集成"和"生态锁定"——替代一个工具容易，替代一套工作流难。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -169,9 +169,9 @@ Pfeffer 更会质疑"精益独角兽"这个概念本身："只有 10 个人的�
 ### AT-2: CLAUDE.md 项目记忆桦
 **触发条件**：当你用 AI 编程工具开始第一个项目时。
 **行动**：在写第一行代码之前，先用 AI 起草一份 CLAUDE.md 文件，包含：
-- 项目解决的核心问题和目标用户
-- 架构决策和约束（避开哪些依赖库）
-- 现阶段的主动权衡
+- src_unknown
+- src_unknown
+- src_unknown
 **退出标准**：每次 AI 编程会话前重温这份文件；每次会话结束后更新它。
 
 ### AT-3: 虚假 PMF 检查清单

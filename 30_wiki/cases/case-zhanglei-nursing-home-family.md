@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[case-zhanglei-twist-egg-machine-yogurt-nursing]]'
-  - '[[case-doris-grab-industry-cognition]]'
-  - '[[case-zhanglan-amusement-park-undercover]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-zhanglei-furniture-overseas-market-selection]]'
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[case-yitang-elderly-home-roleplay]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：假扮家属获取养老院真实运营信息

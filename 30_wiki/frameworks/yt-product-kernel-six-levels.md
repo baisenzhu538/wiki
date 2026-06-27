@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
@@ -19,28 +19,28 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-canvas
-  - yt-product-kernel-validation
-  - yt-product-kernel-iteration
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户不重视产品价值，只谈模糊愿景"
+  - src_unknown
     framework_lens: 产品内核段位——L1缺价值意识
     follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。"
-  - signal: "用户想做大而全，什么功能都要"
+  - src_unknown
     framework_lens: 产品内核段位——L2有价值意识但无最小意识
     follow_up_question: "如果只能保留20%的功能，你会保留哪些？为什么？"
-  - signal: "用户能区分内核和边缘功能，但从未验证"
+  - src_unknown
     framework_lens: 产品内核段位——L3有最小意识，但未验证
     follow_up_question: "你的内核假设验证过吗？关键转化率是多少？"
-  - signal: "用户通过测试验证内核，但内核一成不变"
+  - src_unknown
     framework_lens: 产品内核段位——L4能评估测试，但未动态调整
     follow_up_question: "你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - signal: "用户能随市场变化调整内核，但无法跨领域创新"
+  - src_unknown
     framework_lens: 产品内核段位——L5能动态调整，但未迁移
     follow_up_question: "你能把当前产品的内核逻辑应用到其他领域吗？"
-  - signal: "用户团队对产品内核认知不一致"
+  - src_unknown
     framework_lens: 产品内核段位——团队段位断层
     follow_up_question: "你们团队对内核的认知在哪个段位？是否一致？"
 
@@ -76,47 +76,47 @@ diagnostic_signals:
 
 L3（有最小意识）是产品内核的入门线：
 
-- 能区分内核和边缘功能
-- 能找到决定成败的20%
-- 但尚未验证，只是假设
+- src_unknown
+- src_unknown
+- src_unknown
 
 从L3到L4是最关键的跃迁：从"我觉得"到"我验证"。
 
 ### 3. 段位自评测试
 
 **L1测试**：
-- 你能用一句话描述产品价值吗？
-- 如果描述的是功能（"我们是一个XX平台"），不是价值（"用户的问题是...我们解决..."），则是L1。
+- src_unknown
+- src_unknown
 
 **L2测试**：
-- 如果只能保留20%的功能，你会保留哪些？
-- 如果无法选择，或选择后仍觉得"不够"，则是L2。
+- src_unknown
+- src_unknown
 
 **L3测试**：
-- 你能列出内核功能和边缘功能吗？
-- 如果能区分，但未验证，则是L3。
+- src_unknown
+- src_unknown
 
 **L4测试**：
-- 你的关键转化率是多少？有验证数据吗？
-- 如果有数据，但内核从未调整，则是L4。
+- src_unknown
+- src_unknown
 
 **L5测试**：
-- 你的内核从定义到现在变化过吗？
-- 如果变化过，且有数据支撑，则是L5。
+- src_unknown
+- src_unknown
 
 **L6测试**：
-- 你能把当前内核逻辑应用到其他领域吗？
-- 如果能，且有成功案例，则是L6。
+- src_unknown
+- src_unknown
 
 ### 4. 团队段位对齐
 
 团队产品内核认知不一致时：
 
-- **对齐方法**：一起填产品内核画布，对比差异
-- **常见问题**：
-  - 创始人L5，团队L3 → 团队执行不到位
-  - 创始人L2，团队L4 → 创始人决策偏差
-  - 全员L3 → 缺乏验证，需要推动L4
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## 失败模式
 
@@ -140,21 +140,21 @@ L3（有最小意识）是产品内核的入门线：
 
 ## 行动触发器
 
-- 当你说"我懂产品"时 → 用测试题自评，寻找反例
-- 当团队争论产品方向时 → 一起填内核画布，对齐段位
-- 当做完内核定义后 → 检查是否验证了，还是停留在假设
-- 当发现新机会时 → 抽象内核逻辑，考虑跨领域迁移
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-iteration`：产品内核迭代五种方向
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核修炼段位图（Truman，2026-06-10）
-- 一堂产品内核口述稿（Truman，2026-06-10）
-- 一堂产品内核系列课
+- src_unknown
+- src_unknown
+- src_unknown

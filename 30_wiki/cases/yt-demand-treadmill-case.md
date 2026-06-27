@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-hierarchy-model
-  - yt-demand-scenario-reconstruction
-  - yt-demand-quantitative-estimation
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户想做一个健身产品，但说不清目标用户是谁"
+  - src_unknown
     framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
     follow_up_question: "你的目标用户是'想健身的人'，还是'有特定健身场景的人'？"
-  - signal: "用户说'市场很大'，但找不到第一批付费用户"
+  - src_unknown
     framework_lens: 跑步机案例——市场估算必须从用户场景出发
     follow_up_question: "你能找到100个愿意明天就付费的用户吗？他们在哪里？"
-  - signal: "用户的产品功能很多，但核心解决什么问题不清楚"
+  - src_unknown
     framework_lens: 跑步机案例——功能必须服务于核心需求
     follow_up_question: "去掉所有非核心功能，你的产品还能解决用户的核心问题吗？"
-  - signal: "用户忽视替代方案，假设用户现在不健身"
+  - src_unknown
     framework_lens: 跑步机案例——用户现在就在用某种方式健身
     follow_up_question: "你的目标用户现在怎么健身？为什么现在的方式不够好？"
-  - signal: "用户说'我的产品比健身房便宜'，但用户还是去健身房"
+  - src_unknown
     framework_lens: 跑步机案例——价格不是唯一决策因素
     follow_up_question: "用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？"
 
@@ -57,12 +57,12 @@ diagnostic_signals:
 ### 第一步：拆——用户真正的问题是什么？
 
 错误拆解：
-- ❌ "用户想健身"
-- ❌ "用户想在家跑步"
+- src_unknown
+- src_unknown
 
 正确拆解：
-- ✅ "用户的问题是：想保持运动习惯，但去健身房时间成本高（往返+准备=2小时），在家运动缺乏专业指导和氛围"
-- ✅ "特定人群：25-35岁上班族，有健身习惯但时间碎片化，住在公寓，空间有限"
+- src_unknown
+- src_unknown
 
 ### 第二步：推——用户现在怎么解决的？
 
@@ -110,19 +110,19 @@ diagnostic_signals:
 
 ### 2. 跑步机案例的教训
 
-- **需求不能太泛**："想健身"不是需求，"特定人群在特定场景下的特定问题"才是
-- **替代方案必须分析**：用户现在就在健身，不是从0开始
-- **优势必须具体**：不是"比健身房便宜"，而是"节省2小时时间成本"
-- **劣势必须承认**：跑步机没有社交氛围，需要补偿（在线社群、直播课程）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 需求分析后的产品决策
 
 基于需求分析，产品可以差异化：
 
-- **核心功能**：跑步机（解决时间成本问题）
-- **差异化功能**：在线课程、实时反馈、社群挑战（补偿社交和专业指导缺失）
-- **目标用户**：25-35岁上班族，有健身习惯但时间碎片化
-- **定价策略**：比健身房年费便宜，但提供增值服务
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式（如果需求分析做错了）
 
@@ -144,21 +144,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你说"市场很大"时 → 像跑步机案例一样，拆到特定人群和场景
-- 当你忽视替代方案时 → 列出用户现在的所有替代方案
-- 当你只比价格时 → 列出用户决策的所有维度（时间、空间、社交、专业）
-- 当你说"用户想健身"时 → 追问"什么用户、在什么场景、为什么现在的方式不够好？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-quantitative-estimation`：市场规模估算四种方法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂跑步机案例需求分析图
-- 一堂案例大爆炸实践数据
+- src_unknown
+- src_unknown
+- src_unknown

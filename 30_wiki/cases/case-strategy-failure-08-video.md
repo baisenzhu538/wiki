@@ -10,7 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[tool-strategy-nine-problems]]"
+- src_unknown
 ---
 **表面问题**：转型内容平台后用户流失
 **战略根因**：资源短缺——版权库太弱。与头部平台的内容储备差距无法靠运营弥补

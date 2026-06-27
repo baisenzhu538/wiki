@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-surprise-formula
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1127
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 惊喜公式
-- 泛产品设计
-- 泛产品设计·用户卡片：惊喜公式
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：惊喜公式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-panproduct-demand-peak-end-rule]]'
-  - '[[yt-model-product-excellence]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式
@@ -45,15 +45,15 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能明确写出用户对当前体验的预期基线
+- src_unknown
   framework_lens: 惊喜 = 交付 − 预期
   follow_up_question: 如果没有特别设计，用户原本预期会得到什么？
-- signal: 惊喜设计同时考虑'提升交付'和'管理预期'两条路径
+- src_unknown
   framework_lens: 惊喜有两种杠杆
   follow_up_question: 你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？
-- signal: 惊喜方案有可衡量的情感或行为指标，而不是凭感觉
+- src_unknown
   framework_lens: ' delight 必须被验证'
   follow_up_question: 用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **把随机赠送当作惊喜，没有稳定的惊喜机制**
-   - **原因**：惊喜不可持续
-   - **修复**：把惊喜设计进关键旅程节点，并建立可复制的设计模式
+   - src_unknown
+   - src_unknown
 
 2. **过度承诺导致用户预期过高，交付后反而失望**
-   - **原因**：管理预期失败
-   - **修复**：营销/传播与产品交付同步设计，避免宣传透支用户预期
+   - src_unknown
+   - src_unknown
 
 3. **为惊喜投入大量成本，但用户并不在意**
-   - **原因**：惊喜与用户核心任务无关
-   - **修复**：惊喜必须绑定用户旅程中的高价值时刻，而非边缘体验
+   - src_unknown
+   - src_unknown
 
 4. **把新奇当惊喜，用户新鲜感消退后没有长期价值**
-   - **原因**：混淆 novelty 与 delight
-   - **修复**：评估惊喜是否建立在可持续的产品能力上，而不是一次性 gimmick
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -129,9 +129,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Barry Schwartz的"预期军备竞赛" + Rory Sutherland的"惊喜是非线性的"
 

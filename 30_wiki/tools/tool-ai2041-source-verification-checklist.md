@@ -10,26 +10,26 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 预测来源验证检查单
@@ -116,8 +116,8 @@ related:
 
 ### 第五步：执行交叉阅读与时间验证
 
-- **交叉阅读**：找 2-3 本立场相反或互补的书/报告，对撞同一问题。王欢用 Crawford《Atlas of AI》和 Mollick《Co-Intelligence》与李开复对撞，撞出“中立的暴政”等盲区 [conf=0.70, source=王欢原创]。
-- **时间验证**：若素材已出版数年，检查预测兑现度。《AI 2041》成书于 2021 年，王欢在附录三给出兑现度：完全或部分兑现 10 项（71%），比预期更早或更猛 5 项（36%），明显滞后或未实现 1 项（7%） [conf=0.70, source=王欢拆书归纳/附录三预测兑现度详表]。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -129,15 +129,15 @@ related:
 # 来源审计记录：《标题》
 
 ## 基础信息
-- 作者：
-- 发布时间：
-- 信息类型：论文 / 书籍 / 报告 / 长文 / 解读 / 碎片
-- 质量阶梯层级：
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 作者位置（椅子）
-- 利益结构：
-- 声誉来源：
-- 可能的扭曲点：
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心断言与证据
 | 断言 | 证据来源 | 质量阶梯 | 可信度标注 |
@@ -150,25 +150,25 @@ related:
 |      |      |          |          |          |        |
 
 ## 具体的人 + 选择点
-- 谁受益：
-- 谁受损：
-- 我能做的选择：
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 交叉阅读与时间验证
-- 对立面来源：
-- 预测保质期检查：
-- 已过期/提前兑现项：
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ### 快速检查单
 
-- [ ] 我能把这条信息标在信息质量阶梯的某一具体层级上。
-- [ ] 我能写出作者/发布方的利益结构（椅子）。
-- [ ] 核心数字/断言已标注 `[conf=X, source=...]`。
-- [ ] 若为市场数据，已拆分为“区间 + 口径”。
-- [ ] 我已找到一个具体的人及其面临的选择。
-- [ ] 我已找到至少一个对立面来源或反方证据。
-- [ ] 我已标注该预测可验证的过期节点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -212,10 +212,10 @@ related:
 
 ### 反例：直接引用“Deepfake 市场规模”而不做口径检查
 
-- **问题**：某报道写“Deepfake 市场将在 2035 年达到 330 亿美元”。
-- **不做审计的后果**：把这个数字当作既定事实，推导产品战略。
-- **审计后**：不同机构对 2025 年基数的估计从 11.5 亿美元到 91.9 亿美元不等，预测模型对“是否包含检测工具、合成媒体广告、地理边界”的定义差异巨大 [conf=0.75, source=王语嫣诊断整合 SNS Insider/Fortune/Coherent 等口径]。
-- **纠偏**：把单一数字改写为区间，并注明口径，避免过度自信。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -235,14 +235,14 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选一条最近让你焦虑或兴奋的 AI 预测/新闻/报告。
-- [ ] 用信息质量阶梯给这条信息定位。
-- [ ] 填写“作者位置说明”：利益结构、声誉来源、可能扭曲点。
-- [ ] 为每个关键数字/断言添加 `[conf=X, source=...]`。
-- [ ] 若为市场数据，改写为“区间 + 口径”。
-- [ ] 找到一个具体的人及其面临的选择。
-- [ ] 找到一个对立面来源或反方证据。
-- [ ] 标注该预测的过期节点，设定一年后的复盘提醒。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -261,9 +261,9 @@ related:
 **回应**：完全同意。质量阶梯是必要但不充分条件。第二步“查椅子”必须延伸到资助方、数据集来源、研究机构的商业关系；第三步“市场数据口径检查”也要求识别发布方利益。
 
 **不要用**：
-- 不要把它当作“所有信息都必须审计到一手论文”的教条。低风险场景可以只跑快速检查单。
-- 不要让“查椅子”退化成“谁有利益谁就是错的”。
-- 不要把市场数字的“区间”当作逃避判断的借口——区间是为了更清醒地决策，而不是停止决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

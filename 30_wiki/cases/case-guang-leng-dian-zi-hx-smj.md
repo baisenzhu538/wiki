@@ -5,8 +5,8 @@ title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到�
 type: case
 status: enriched
 domain:
-- electronics
-- hardware-debugging
+- src_unknown
+- src_unknown
 source_person: 黄药师
 source_context: 广冷电子 HX-SMJ 闸机红外光栅项目——四板卡（主控+红外A+红外B+继电器）全套资料整理与交叉验证
 source_refs:
@@ -15,9 +15,9 @@ source_refs:
 - 10_raw/sources/src_20260606_04f43d43-原理图与bom交叉验证报告.md
 - 10_raw/sources/src_20260606_66c22d5d-广冷电子-hx-smj-红外光栅故障分析报告.md
 tags:
-- '#domain/electronics'
-- '#scene/hardware-debugging'
-- '#confidence/verified-by-case'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 author: 黄药师
@@ -26,19 +26,19 @@ review_date: 2026-06-19
 confidence: 0.89
 trust_level: high
 related:
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[dk-ef-003-hand-soldering-bom-divergence]]'
-  - '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- 文件命名出现"最终版""真的最终版"且版本关系不明
-- 原理图/BOM/PCB 之间存在多处不一致，无法判断哪个版本可投产
-- 外援交叉验证报告只标出"不一致"，未推断物理后果与根因
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 
@@ -70,15 +70,15 @@ HX-SMJ 是闸机红外光栅控制系统，包含四块板卡：主控板（MCU+
 真实锚点：四块板卡是已经在闸机上跑过的硬件，确有 BOM、Gerber 与固件 hex，不是假设项目。
 
 受益人：
-- **黄药师**：从"看不懂前人资料"到"能判断哪个文件可投产"。
-- **下一个接手的工程师**：五分钟看懂项目（README 版本锁表），两小时理解设计细节，动手前烧诊断固件确认硬件状态。
-- **KDO**：四张 dk-ef 卡 + 八条规则全部来自这个项目的真实踩坑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 复盘与洞察
 
-- **L3 是最容易被跳过也是最关键的**。外援报告 L1–L2 做得好，但 L3 不够——只标出"不一致"，未推断物理后果。工程师知道"查什么"，却不知道"问题在哪"。
-- **E-FM-002 与 E-FM-003 是同一根因的两个表现**：BOM 版本不同步和手焊板隐性修改，本质都是"改了什么没记录"。统一解法是规则七：每次改版，版本号+日期+README 更新，三者缺一不可。
-- **文件整理机会只有一次**：刚接手时文件最全（分散但还在），越拖越丢——微信记录被清、旧电脑被格、当事人忘记细节，收网要快。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移模式
 
@@ -87,8 +87,8 @@ HX-SMJ 是闸机红外光栅控制系统，包含四块板卡：主控板（MCU+
 3. **多人交接的任意技术项目**：版本锁表 + README 一分钟看懂，不只适用于硬件。
 
 **适用边界**：
-- 项目只有一块板卡、一个人维护、文件不超过 10 个：五类归档是过度工程。
-- 项目仍在原型探索阶段、硬件设计每周大改：此时锁版本是浪费时间。
+- src_unknown
+- src_unknown
 
 ## 失败模式/教训
 
@@ -106,9 +106,9 @@ HX-SMJ 是闸机红外光栅控制系统，包含四块板卡：主控板（MCU+
 
 ## 相关卡/互链
 
-- [[dk-ef-001-sn74lvc2g07-open-drain]]
-- [[dk-ef-002-bom-version-async]]
-- [[dk-ef-003-hand-soldering-bom-divergence]]
-- [[dk-ef-004-missing-diagnostic-firmware]]
-- `electronics-failure-modes`
-- `project-standards`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: CIA Tradecraft Primer - Devil's Advocacy
+- src_unknown
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-harness-adversarial-tester]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[tool-candy-oral-polish]]'
-  - '[[tool-indicators-signposts]]'
-  - "[[framework-structured-analytic-techniques]]"
-  - "（concept-半肥猫-ai-research-validation，待补）"
-  - "[[tool-harness-adversarial-tester]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Devil's Advocacy
@@ -81,9 +81,9 @@ prompt = """你现在是[CONCLUSION]的激烈反对者。你的目标是使用�
 
 ## 适用边界
 
-- **适用**：高风险决策、团队已形成共识需要打破群体思维
-- **不适用**：已进入执行阶段的小调整（不要用大炮打蚊子）
-- **Agent优势**：Agent扮演挑战者没有"得罪人"的心理负担
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,10 +6,10 @@ title: 王欢AI业务档案5字段工具
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 王语嫣
@@ -19,43 +19,43 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_9b85f229_wanghuan_AI业务档案的五个字段.md'
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '每次新对话都要重复交代"我是谁/我做什么行业"'
+- src_unknown
   lens: context-loss
   follow_up: 检查业务档案是否已固化为 system prompt 或对话开头注入
-- signal: AI 输出风格忽好忽坏、同一场景前后不一致
+- src_unknown
   lens: standard-drift
   follow_up: '检查"我的风格偏好"与"我的输出标准"是否写了可验证的负面约束'
-- signal: AI 频繁触犯行业常识或组织红线
+- src_unknown
   lens: tacit-rule-gap
   follow_up: '补充"行业暗规则"字段，把"不说但默认"的规矩写成否定句'
-- signal: 团队多人使用同一 AI 助手时输出参差不齐
+- src_unknown
   lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-spec-trap]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- AI业务档案
-- agent角色定义
-- 输出标准
-- 行业暗规则
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -103,31 +103,31 @@ AI 业务档案是一个 5 字段模板，用来在每次与 AI 协作前，快�
 ## AI 业务档案
 
 ### 01 · 关于我 / About Me
-- 角色：
-- 核心职责：
-- 我在组织中的位置：
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 02 · 我服务谁 / Who I Serve
-- 主要客户/用户：
-- 他们最在乎什么：
-- 他们的痛点：
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 03 · 我的风格偏好 / My Style
-- 表达方式：
-- 常用结构：
-- 避免的风格：
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 04 · 行业暗规则 / Tacit Rules ⭐
-- 不说但默认要遵守的事：
-- 新人常犯的错误：
-- 高手的隐性判断标准：
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 参考示例：`[[concept-wanghuan-tacit-knowledge-examples]]`（招聘 48 小时回复规则、招投标 95% 报价规则、报价 8% 谈判空间等）
 
 ### 05 · 我的输出标准 / My Standards
-- 红线（绝对不能出现）：
-- 底线（至少要做到）：
-- 优秀标准（努力做到）：
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -159,21 +159,21 @@ AI 业务档案是一个 5 字段模板，用来在每次与 AI 协作前，快�
 
 ## 行动 Checklist
 
-- [ ] 用 30 秒说清"我是谁、服务谁、核心职责是什么"。
-- [ ] 写出至少 3 条"行业暗规则"，尽量用否定句（"不能/不要/禁止"）。
-- [ ] 把"输出标准"拆成"红线 / 底线 / 优秀线"三个层次。
-- [ ] 在"风格偏好"里补充"避免的风格"，而不是只写喜欢什么。
-- [ ] 每次新建 AI 对话时，第一步粘贴业务档案并加一句："请在整个对话里牢记以下背景。"
-- [ ] 使用一周后复盘：哪些约束 AI 经常违反？把它补进档案。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-bitcoe-prompt-framework]]：单次任务的完整提示词框架，与业务档案共同构成"长期角色 + 短期任务"的组合。
-- [[framework-wanghuan-actor-director-mode]]：从"演员"到"导演"的身份切换，是业务档案背后的协作范式。
-- [[framework-wanghuan-task-product-system]]：把一次任务沉淀为可复用产品/系统的飞轮，业务档案是其中第一层上下文资产。
-- [[framework-wanghuan-ai-five-level-ladder]]：业务档案位于"工作流层"到"作品层"之间的关键基础建设。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -190,10 +190,10 @@ AI 业务档案是一个 5 字段模板，用来在每次与 AI 协作前，快�
 > **回应**：这正是需要把个人档案升级为"团队共享上下文资产"的原因。暗规则不是写一次就完，而是要在真实使用中迭代。初期允许不一致，通过验收反馈收敛到团队标准。
 
 **不要用**：
-- 不要把它当成"写完之后 AI 就自动懂你"的免验收金牌。
-- 不要在档案里只写正面要求、不写负面约束。
-- 不要把它用于完全发散、不需要固定标准的创意探索场景。
-- 不要一年不更新——业务变了，档案就是负资产。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- strategy
-- problem_solving
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
@@ -18,13 +18,13 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-lifecycle]]'
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[case-strategy-model-selection-quiz]]'
-  - '[[framework-strategy-blm]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 鱼骨图根因分析工具
@@ -43,9 +43,9 @@ related:
                     └── 因素 E
 ```
 
-- **鱼头**：要分析的问题或差距（如销售未达标、EBIT 缺口）。
-- **主骨**：一级分类（如规模、单店成长、渠道）。
-- **次骨**：二级、三级、四级分解，直到可落实到具体动作。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -97,10 +97,10 @@ related:
 
 ### 4.3 PDCA 闭环
 
-- **P 计划**：明确目标、路径、资源
-- **D 实施**：按计划执行
-- **C 评估**：对照目标评估结果
-- **A 改进**：形成改进措施，进入下一循环
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

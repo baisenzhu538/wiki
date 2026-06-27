@@ -15,9 +15,9 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l3-core-job]]"
-- "[[tool-demand-iceberg-l5-forces]]"
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # L4任务地图
@@ -65,8 +65,8 @@ prompt = """基于核心任务「{CORE_JOB}」，用表格推演8个关键步骤
 
 ## 适用边界
 
-- **适用**：L3确认后的自然下一步；需要找到具体切入点的场景
-- **不适用**：核心任务非常简单的场景
+- src_unknown
+- src_unknown
 
 ---
 

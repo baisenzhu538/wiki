@@ -13,30 +13,30 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: basic
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 公开信息
-- 官方渠道
-- 公司信息
-- 融资新闻
-- 官网调研
-- 信息渠道
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-weapon-public-official-info]]'
-  - '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
-  - '[[tool-yitang-supply-chain-research]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[tool-执行对标研究三步法]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-financial-report-intelligence]]"
-  - "[[tool-yitang-database-index]]"
-  - "[[yt-research-intelligence-map]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 官方公开信息渠道：公司自己发布的信息最有价值
@@ -79,31 +79,31 @@ Truman将调研信息源分为三个圈层：
 ### 技巧1：读"他们没说什么"
 
 公司官网和PR稿会精心选择发布的正面信息。反过来想：
-- 官网没有展示的客户案例 → 可能是失败案例
-- 融资新闻只提GMV不提利润 → 可能在亏损
-- CEO演讲反复强调某个话题 → 可能是公司正在焦虑的方向
+- src_unknown
+- src_unknown只提GMV不提利润 → 可能在亏损
+- src_unknown
 
 ### 技巧2：跨时间对比
 
 同一个渠道，不同时间的信息对比：
-- CEO去年演讲说"今年重点是X"，今年改口说"重点是Y" → 战略转向了
-- 招聘JD从"高级XX工程师"变成"XX实习生" → 该业务可能降级了
-- 官网产品页面突然撤下了某个产品 → 产品线被砍了
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 技巧3：多公司横向对比
 
 同一类信息，不同公司的表述方式对比：
-- A公司说"行业领先"，B公司说"市场第一"，C公司说"头部企业" → 都不是第一
-- A的招聘JD写"弹性工作制"，B写"996是福报" → 企业文化完全不同
-- A和B对同一个市场的描述差异很大 → 其中至少有一个在夸大或淡化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 技巧4：CEO演讲的"话外音"
 
 CEO公开演讲有很多"不经意"的信息泄露：
-- 反复提到的竞对名字 → 真正的对标对象
-- 语气坚定的方向 → 公司已经押注的
-- 语焉不详的方向 → 还在纠结的
-- "我们也在探索" = "还没想清楚"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -114,9 +114,9 @@ CEO公开演讲有很多"不经意"的信息泄露：
 > 招股书里的"风险因素"章节，其实是法定必须披露的，所以反而是最诚实的部分。
 
 补强路径：
-- 公开信息 + 招聘JD分析 → 验证业务扩张方向
-- 公开信息 + 第三方数据库 → 交叉验证数据
-- 公开信息 + 离职员工访谈 → 获取"官方版本"的反面
+- src_unknown + 招聘JD分析 → 验证业务扩张方向
+- src_unknown + 第三方数据库 → 交叉验证数据
+- src_unknown + 离职员工访谈 → 获取"官方版本"的反面
 
 ---
 
@@ -145,9 +145,9 @@ CEO公开演讲有很多"不经意"的信息泄露：
 
 ## 来源与验证
 
-- 三端情报框架来源：一堂调研武器库培训课程（Truman），将信息源分为内线/公开/外线三个圈层
-- 具体渠道列表和技巧来源：`一堂-调研武器库培训-口述.txt`
-- 专利/商标检索技巧补充：`调研手段卡6（科技项目）_ocr_text.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

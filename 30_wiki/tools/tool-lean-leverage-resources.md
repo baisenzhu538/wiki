@@ -10,24 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[tool-lean-leverage-tools]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 借现成资源：降低重投入验证
@@ -47,10 +47,10 @@ related:
 1. **拆解资源依赖**：列出完成一次完整交付必须动用的资源类型，例如销售渠道、生产能力、线下场地、原材料/元器件供应、物流配送等。
 2. **识别高成本自建项**：对每项资源标注「自建成本」和「借用可行性」。优先寻找那些自建周期长、一次性投入大、但市场上已有闲置或共享供给的资源。
 3. **设计借用方案**：与现有资源方谈判短期/小额合作，常见形式包括：
-   - 借销售：委托现有销售团队或渠道按提成代销；
-   - 借工厂：小批量代工或借用朋友/合作工厂产能；
-   - 借门店：短期租借、快闪、寄售或联合经营；
-   - 借供应商：用现货/公版方案替代定制研发。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **跑通最小交付单元**：用借来的资源完成真实交付，记录用户反馈、转化率和履约瓶颈。
 5. **设定通过/不通过标准**：在借用期结束前决定：是继续借用、转向自建，还是证伪项目。
 
@@ -68,17 +68,17 @@ related:
 ## 适用边界
 
 **最适合**：
-- 需要重资产投入才能验证的消费品、本地生活服务、硬件原型阶段；
-- 已有成熟外部供给但自建成本高的环节（如工厂、门店、分销网络）；
-- 团队资金有限，希望把验证成本控制在「可承受损失」范围内 [conf=0.80, source=一堂 FALSE 模型讲义]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
 **以下场景需要调整或慎用**：
-- **强监管行业**（医疗、金融、教培）：借用第三方销售或生产时必须确认对方具备合规资质，否则借用资源本身会带来监管风险 [conf=0.80, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型产品**：借用低端工厂或非授权门店可能损伤品牌信任，需对合作方做资质与体验审核 [conf=0.70, source=经验判断]。
-- **B2B 长决策链**：借用外部销售只能验证「渠道是否愿意推」，不能替代对终端客户真实需求的访谈和预售验证 [conf=0.75, source=经验判断]。
-- **核心技术依赖型产品**：若产品核心竞争力来自对生产/供应链的深度控制，长期借用可能泄露 know-how，需设定保密与退出机制 [conf=0.70, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -92,13 +92,13 @@ related:
 ## Critique
 
 **内部限制**：
-- 借用资源只能验证「资源能否被组织起来」，不能验证「规模化后的真实成本结构」是否成立。友情价、免费位置、短期配合都可能掩盖长期单位经济模型的问题 [conf=0.75, source=经验判断]。
-- 借用期的体验可能不等于最终产品体验。合作方的服务标准、响应速度、品控能力与自建团队存在差异，用户反馈可能因此失真 [conf=0.70, source=经验判断]。
-- 借用关系天然脆弱。一旦资源方自身业务承压，配合度和优先级会下降，验证节奏不可控 [conf=0.70, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **外部攻击视角**：
-- **Michael Porter**：「这只是在蹭别人的渠道/工厂，不能证明你自己能做成。」—— 反驳：借用的目的不是证明长期运营能力，而是在重投入前证伪或确认关键假设；验证通过后再评估是否自建。
-- **Michael Porter**：「借用会让合作方提前知道你的模式，存在被复制风险。」—— 反驳：核心 know-how 应在借用前通过保密协议和模块化合作边界保护；若商业模式容易被复制，说明壁垒本身可能就是伪命题。
+- src_unknown
+- src_unknown
 
 ## 案例映射
 

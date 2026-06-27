@@ -6,42 +6,42 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-1
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[sprint-2-gate-enrich-evidence]]'
-  - '[[dk-f6-cjk-skeleton-corruption]]'
-  - '[[graph-rag-retrieval-layer]]'
-  - '[[fix-dark-knowledge-extractor-llm]]'
-  - '[[dk-c10-batch-tool-no-dry-run]]'
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[dk-f6-cjk-skeleton-corruption]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 王语嫣
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- signal: '`kdo enrich --all` 输出 "0 pages enriched"，exit code 为 0，但 vault 中存在未 enrich 的中文页面'
+- src_unknown
   framework_lens: '这是 regex 模式对 CJK 内容静默失败的典型症状：\b 词边界、英文关键词、长度阈值三重排斥同时触发'
   follow_up_question: '检查 ~/.kdo/config.yaml 是否配置了有效 LLM API key；若无，禁止对中文页面使用 enrich，改走 Agent 三步编译（浓缩→质疑→对标）'
-- signal: 'enrich 后页面内容只有格式填充（空章节、模板标题），没有实质质疑和合成'
+- src_unknown
   framework_lens: '可能 LLM 路径未真正启用，或 regex 路径返回空导致 enrich 只更新了 frontmatter/status'
   follow_up_question: '人读输出，确认是否出现“浓缩→质疑→对标”三段加工；如没有，手动重跑 Agent 三步编译并检查日志中的处理路径'
-- signal: '批量脚本 nightly enrich 运行数周后，中文卡片质量没有可见提升，但 CI 从未报错'
+- src_unknown
   framework_lens: '流水线把 exit code 0 当成功信号，静默失败被淹没；CJK 内容在自动化管线中被系统性遗漏'
   follow_up_question: '在脚本中加入 enrich 前后未 enrich 中文页面计数校验，或改用 LLM-based 路径，并将告警接入通知渠道'
-- signal: '自定义 extractor 脚本处理中文内容时返回空列表、截断或乱码'
+- src_unknown
   framework_lens: '脚本复制了 extractors.py 的 \b / 英文 keyword / 长度阈值逻辑，继承了同样的 CJK 盲区'
   follow_up_question: '审查脚本 regex，将 \b 替换为 CJK-aware 分词或改用 LLM/NLP 库；参考 F-KDO-001 防御模式'
 ---# C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
@@ -69,18 +69,18 @@ CJK 正则静默失败不是单纯的“中文 bug”，而是一类**以英文�
 
 ## 使用场景
 
-- 你准备用 `kdo enrich` 对一批 wiki 页面做自动内容增强，但其中包含中文内容
-- 你刚写完一张中文概念卡，准备跑 `kdo enrich --all` 批量提升卡片质量
-- 你审查 `kdo enrich` 的输出日志，看到 "0 pages enriched" 但 exit code 为 0，需要判断这是真无事还是假成功
-- 你在为 KDO CLI 编写新的提取器/正则规则，需要确认它是否对 CJK 字符友好
-- 你 ingest 一批中文源文件后发现骨架摘要不可读，需要理解这是同一根因在不同阶段的表现
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **识别内容语言**：运行 enrich 前，先抽检待处理页面，确认是否包含中文字符（CJK）
 2. **若含中文，禁止走 CLI regex 模式**：
-   - 未配置 LLMConfig 时，`kdo enrich` 默认走 regex 模式——对中文内容必然静默失败
-   - 必须确保 `~/.kdo/config.yaml` 中已配置有效的 LLM API key（LLMConfig）
+   - src_unknown
+   - src_unknown
 3. **验证自动切换**：配置 LLMConfig 后运行 `kdo enrich` 单卡，确认日志显示的是三步编译法（浓缩→质疑→对标）而非 regex 提取
 4. **人工抽检输出**：enrich 完成后，人读一遍输出内容，确认有实质的质疑和合成加工，不是空壳或格式填充
 5. **如果没配置 LLMConfig**：中文内容直接走手动 Agent 三步编译法，不要试图用 CLI 工具自动化
@@ -111,30 +111,30 @@ CJK 正则静默失败不是单纯的“中文 bug”，而是一类**以英文�
 
 在运行任何 `kdo enrich` 命令前，按以下顺序检查：
 
-- [ ] **Q1 语言检测**：待处理页面中是否有 CJK 字符？（抽检 3-5 张）
-- [ ] **Q2 LLMConfig**：`~/.kdo/config.yaml` 是否配置了有效 LLM API key？
-- [ ] **Q3 路径验证**：单卡试运行，日志是否显示“浓缩→质疑→对标”而非 regex 提取？
-- [ ] **Q4 输出抽检**：enrich 后是否产生实质质疑/合成，而非空章节或模板填充？
-- [ ] **Q5 跨阶段检查**：若本批含中文源文件，ingest 产出的骨架是否可读？（参见 [[dk-f6-cjk-skeleton-corruption]]）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 若 Q2-Q4 任一答案为“否”，立即切换到手动 Agent 三步编译，不要依赖 CLI enrich。
 
 ## 为什么值钱
 
-- 这是 KDO 特有的坑：`kdo/extractors.py` 的 regex 提取器专门为英文语料设计，对中文有系统性排斥
-- 最致命的是**静默失败**——返回 "0 pages enriched" 但 exit code 为 0，不会触发任何告警。在批量流水线中，这个信号会被直接忽略
-- 暴露了 CLI 工具本地化盲区的一个典型模式：**regex + 英文关键词 + 长度阈值 = 非拉丁语系内容的系统性排斥**。这个模式在任何通用软件工程教材或 AI 训练语料中都不会被具体提及
-- 任何 AI 训练语料中都不存在“kdo enrich 对中文页面返回 0 pages enriched 是因为 `\b` 不识别 CJK”这条知识——这是具体工具实现层面的暗知识
-- 它与 [[dk-f6-cjk-skeleton-corruption]] 共同构成 KDO CJK 内容的跨阶段失效图谱：ingest 阶段骨架损毁 + enrich 阶段零返回，提示我们不能孤立看待单次命令失败
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一模式：KDO CLI 工具缺陷导致内容处理事故。C-10 是“批量覆盖破坏内容”，C-1 是“静默失败不处理内容”，两者都是“信任 CLI 工具 + 未人工验证”的变体
-- [[dk-f1-regex-on-cjk]] — F-KDO-001 模式化抽象：同一根因的系统级描述。C-1 是具体事故记录，F-KDO-001 是抽象失败模式
-- [[dk-f6-cjk-skeleton-corruption]] — 同一根因在不同阶段的表现：ingest 阶段 `\b` 导致中文骨架碎裂，enrich 阶段导致零返回。两者需跨阶段联合诊断
-- [[master-ai-info-literacy]] — AI 信息素养的核心能力之一是识别工具的盲区和系统性偏差。C-1 是“工具对非英文内容的盲区”的典型案例
-- `90_control/failure-modes.md` → F-KDO-001（已录入 AGENTS.md 禁止清单：不准对中文内容使用 regex 提取器）
-- `20_memory/corrections.md` → C-1（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

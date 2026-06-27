@@ -4,36 +4,36 @@
 
 id: yt-model-personal-pitch-toolkit
 component_of:
-- yt-model-personal-map
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - modeling- personal
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-model-ipo-learning-strategy
+- src_unknown
 query_triggers:
-- 十指模型
-- 讲香模型
-- 十指讲香
-- 卖点包装
-- 价值感
-- 讲香基本功
-- 具象化
-- 抽象化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-personal-scientific-expression]]'
-  - '[[yt-concept-weapon-arsenal]]'
-  - '[[tool-泛产品落地-低成本测试MVP]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-prompt-engineering]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
@@ -42,12 +42,12 @@ title: 十指讲香模型（框架）
 type: framework
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户讲了半天但听众无感
+- src_unknown
   framework_lens: 价值感没有建立
   follow_up_question: 你说的内容是价值点还是价值感？听众能立刻感受到好处吗？
-- signal: 用户只会具象不会抽象，或只会抽象不会具象
+- src_unknown
   framework_lens: 十指不均衡
   follow_up_question: 你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开
 updated_at: '2026-06-16'
@@ -83,13 +83,13 @@ trust_level: medium-high
 
 ### 核心命题：价值 vs 价值感
 
-- claim:01 [conf=0.90][src: 口述版课程] 把产品打磨得有价值是本分，把产品呈现得有价值感是本事。价值点是食材，价值感是烹饪——中间存在一个转化和包装的鸿沟
-- claim:02 [conf=0.90] 讲香工作的目标：把确定性的动力/卖点做得**饱满动人**——饱满是讲厚讲宽让用户听得下去，动人是唤起情感让用户想要
-- claim:03 [conf=0.85] 讲香的三重常见翻车模式：(1) 自恋式讲香——讲自己多厉害而非与对方何关；(2) 清单式讲香——罗列所有能力导致信息过载；(3) 专业术语式讲香——对方根本听不懂
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 十指模型：双向拉伸框架
 
-- claim:04 [conf=0.90] 一个干瘪的价值点需要通过两个方向拉伸才能饱满：(1) **向下具象化**——讲具体场景、数字、故事，把抽象拉回用户能感知的现实；(2) **向上抽象化**——讲比喻、金句、情绪、冲突、升华，把具体升维为用户认可的价值。两者缺一不可：只有具象太实太碎，只有抽象太空太飘
+- src_unknown
 
 **左手——向下具象（让抽象变具体）**：
 
@@ -113,25 +113,25 @@ trust_level: medium-high
 
 ### 三大原则
 
-- claim:05 [conf=0.90] **卖点优先**：讲香服务于动力阻力。卖点找歪了，讲香再好也没用。这只是一个微观战术课——不讲品牌战略、营销体系、商业模式
-- claim:06 [conf=0.85] **持续修改**：好稿子永远是一轮一轮改出来的。一版垃圾 → 加50个策略点 → 脱胎换骨。酝酿式打磨而非灵机一动，阿蕊自己的爆款稿子也改了四五十遍
-- claim:07 [conf=0.85] **先慢后快**：学习不是二极管（不会↔会），是连续光谱。从建立审美→分析别人→初步动手→大量练习→成为专家，不存在某天突然精通
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四层修炼路径
 
-- claim:08 [conf=0.85] 依据课程手势图（2→4→6→10指），十个手指按使用频率和效果特征分为四层：
-  - **基础层**（场景化 + 比喻化）：「只要你学这两个，基本上就还行」——具象和抽象各取一个最基础的
-  - **进阶层**（口语化 + 金句化）：「可以666了，但这俩需要刻意练习」——效果显著但不容易
-  - **增强层**（数字化 + 情绪化）：「很容易打动别人」——加了这两个后转化力明显提升
-  - **奇效层**（故事化 + 素材化 + 冲突化 + 升华化）：「频率低，但用完有奇效」——每个都是重武器
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与火箭模型的关系
 
-- claim:09 [conf=0.85] 讲香（十指模型）是「短表达」（30-120s 卖点包装场景），科学表达（火箭模型）是「长表达」（10-60min 深度论证场景），两者共享底层逻辑：论点先行 → 逻辑支撑 → 张力穿透 → 逐字稿落地。火箭模型本身也是用比喻化策略让四个要素的关系直观可记
+- src_unknown
 
 ### 与动力阻力模型的关系
 
-- claim:10 [conf=0.85] 讲香是动力阻力模型的战术执行层：动力阻力找「说什么」（卖点/内核/触点），十指模型解决「怎么说」（包装/表达/呈现）。找准动力但讲不香 = 食材好但没法吃；讲得香但点找歪 = 包装漂亮里面空的
+- src_unknown
 
 ## Critique
 
@@ -146,23 +146,23 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 子工具卡
-- [[yt-pitch-scenarization]] — 场景化：向下具象第一指，基础层
-- [[yt-pitch-colloquialization]] — 口语化：向下具象第二指，进阶层
-- [[yt-pitch-quantification]] — 数字化：向下具象第三指，增强层
-- [[yt-pitch-storytelling]] — 故事化：向下具象第四指，奇效层
-- [[yt-pitch-materialization]] — 素材化：向下具象第五指，奇效层
-- [[yt-pitch-metaphor]] — 比喻化：向上抽象第一指，基础层
-- [[yt-pitch-aphorism]] — 金句化：向上抽象第二指，进阶层
-- [[yt-pitch-emotionalization]] — 情绪化：向上抽象第三指，增强层
-- [[yt-pitch-conflict]] — 冲突化：向上抽象第四指，奇效层
-- [[yt-pitch-sublimation]] — 升华化：向上抽象第五指，奇效层
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关联框架
-- [[yt-personal-scientific-expression]] — 火箭模型：长表达的底层框架，与十指模型的短表达互补
-- [[yt-model-ipo-learning-strategy]] — IPO 学习模型：讲香属于输出环节 L4-L5
+- src_unknown
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库：十指 × 4 子策略 = 40 战术速查实现
+- src_unknown
 
 ## Synthesis
 

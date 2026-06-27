@@ -4,28 +4,28 @@ title: 技能：三层目标对齐法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-复盘推演法]]'
-- '[[concept-ai-native-organization-five-steps]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-复盘推演法]]'
-- '[[concept-ai-native-organization-five-steps]]'
-- '[[tool-立即实践转化法]]'
-- '[[tool-专题笔记脑图整理法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 目标层级图
-- 人生红点定义
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 成为更好的学习者——空洞不可衡量
+- src_unknown
   lens: 目标太虚
   follow_up: 目标必须具体到'下季度能独立完成竞品调研报告'，有明确的完成标准和验收条件
-- signal: 年度挑战是提升战略思维，每天在学Python教程
+- src_unknown
   lens: 三层断层
   follow_up: 每一层必须是上一层的自然延伸，层间断层说明目标体系没有形成逻辑链条
-- signal: 确定了年度挑战目标，但没有指定哪些专题/领域要覆盖
+- src_unknown
   lens: 只定高度不定宽度
   follow_up: 除了高度（目标层级）外，必须指定宽度（哪些专题/领域要覆盖），否则学习内容散乱
-- signal: 把人生红点理解成终身使命，因为太遥远而无法行动
+- src_unknown
   lens: 红点执念
   follow_up: 红点是方向不是KPI，提供意义感但不规定具体路径。当下行动只需要对齐到年度挑战即可
-- signal: 一年前定的三层目标，现在还在用
+- src_unknown
   lens: 目标过时
   follow_up: 每月/每季度检查一次对齐情况，超过3个月没更新可能已经完全不匹配了
 ---
@@ -89,8 +89,8 @@ diagnostic_signals:
 | **红点他人化** | 人生红点是父母/社会期望，不是内心真实渴望 | 红点必须通过"如果钱不是问题，我会做什么"测试，确保是内在驱动而非外部压力 |
 
 ## 工具/环境
-- 目标层级图
-- 人生红点定义
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -109,15 +109,15 @@ diagnostic_signals:
 3. 上一次更新三层目标是什么时候？超过 3 个月没更新？可能已经过时了。
 
 ## 常见失败模式
-- 目标太虚："成为更好的学习者"不可衡量。必须具体到"下季度能独立完成竞品调研报告"
-- 三层断层：年度挑战和日常学习内容无关——年度是"提升战略思维"，每天在读"Python教程"
-- 只定高度不定宽度：确定了年度挑战目标，但没有指定哪些专题/领域要覆盖，导致学习散乱
-- 红点执念：把"人生红点"理解成终身使命，反而因为太遥远而无法行动——红点是方向不是KPI
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-费曼简单提炼法]] — 用三层目标确定学习方向后，用费曼法检验每层是否真的理解了
-- [[tool-复盘推演法]] — 每季度复盘三层目标的进度，推演下季度调整
-- [[concept-ai-native-organization-five-steps]] — AI原生组织的五层自进化包含目标层，三层对齐是个人版的目标管理
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 目标(Goal)层：真正学会学习，高度×深度×宽度三维定位

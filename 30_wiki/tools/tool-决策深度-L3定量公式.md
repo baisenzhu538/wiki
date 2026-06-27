@@ -13,15 +13,15 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L3定量公式_vlm_desc.md
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-决策深度-L2部分定量]]'
-  - '[[yt-skill-storyline-problem-solving]]'
-  - '[[tool-Y模型实操工作流]]'
-  - '[[dk-你的业务是一次抽样实验]]'
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
-  - "[[framework-科学决策三角形]]"
-  - "[[yt-unit-model-overview]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 决策深度L3：定量公式
@@ -37,13 +37,13 @@ L3用**明确的公式和具体数字**计算收益/成本，但数字来源可�
 ```
 
 每项必须标注：
-- 数值来源（估算/行业均值/历史数据/竞品推测）
-- 置信度（0.5-1.0）
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
-- ROI > 0 且置信度加权后仍 > 0 → 可行
-- 如果去掉最低置信度项就变负 → 风险高，需升级到L4
+- src_unknown
+- src_unknown
 
 ## 升级信号
 

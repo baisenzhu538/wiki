@@ -16,21 +16,21 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-shoe-mvp-evolution]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-product-kernel]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-lean-minimum-version]]"
-  - "[[tool-lean-cut-features]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 过早细化案例集
@@ -122,8 +122,8 @@ related:
 5. **硬件/家居产品创业**：还没验证核心功能价值，就先追求材料、工艺、外观细节。
 
 不适用场景：
-- 强监管行业（医疗、金融）中涉及合规准入的细节不能为了「低成本」而跳过 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- 品牌敏感型高客单价产品，过度粗糙的 MVP 会损伤信任，需在「最小化」与「可信度」之间折中 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 

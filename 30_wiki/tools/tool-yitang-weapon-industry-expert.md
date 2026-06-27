@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[tool-yitang-hardware-product-disassembly]]'
-  - '[[tool-yitang-channel-agent-interview]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-partner-data-analysis]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-expert-interview-10steps]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略9：行业专家访谈
@@ -41,9 +41,9 @@ related:
 
 ## 核心原则
 
-- 先明确范围→确认角色→联系沟通→准备问题→预约拜访
-- 专家访谈需准备充分：问题清单、行业背景、对方关注点
-- 专家之间互相引荐=最有效的拓展方式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

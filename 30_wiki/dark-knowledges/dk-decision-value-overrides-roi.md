@@ -7,29 +7,29 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - yitang
-  - master
-  - decision-making
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 黄药师、老朱
 source_context: 2026-06-16 决策域深度对齐讨论
 source_refs:
-- yt-decision-y-model
-- master-decision-hygiene
+- src_unknown
+- src_unknown
 created_at: "2026-06-17"
 author: 黄药师
 reviewed_by: 黄药师
 review_date: "2026-06-17"
 related:
-  - yt-decision-y-model
-  - yt-decision-canvas
-  - master-decision-hygiene
+  - src_unknown
+  - src_unknown
+  - src_unknown-decision-hygiene
 tags:
-  - "#source_type/insight"
-  - "#domain/yitang"
-  - "#method/decision"
-  - "#dk/roi-limitation"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 算了ROI是负的但团队还是想干
+  - src_unknown
     framework_lens: 价值观权重检测
     follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
 ---# Y 模型失效场景：当价值观权重超过经济理性时
@@ -65,15 +65,15 @@ Y 模型把"所有决策"还原为广义投入产出比。这个假设在大多�
 
 ## 边界条件：什么时候 Y 模型仍然适用
 
-- 决策对象有可量化的历史数据（已有业务线的资源分配）
-- 决策参与者对"目标是什么"有共识
-- 价值观冲突不构成决策的主要矛盾
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 什么时候 Y 模型不该用
 
-- 决策涉及个人/团队身份认同（"我们是谁"）
-- 决策后果涉及道德/法律底线
-- 决策的"相信"成分超过"已知"成分
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

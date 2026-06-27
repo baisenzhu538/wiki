@@ -4,11 +4,11 @@
 title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
 type: concept
 domain:
-  - management
-  - product
-  - business-strategy
-  - ai-saas
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
@@ -20,11 +20,11 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[case-truman-ai-partner]]'
-  - '[[ai-俱乐部人和-ai-协作-五层结构]]'
-  - '[[case-jh-yitang-vs-sqlhelper]]'
-  - '[[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]'
-  - '[[ai-native-im-multi-agent]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -41,29 +41,29 @@ png > 提取方式：PaddleOCR (JS/ONNX) + 人工校对 > 分享者：纪浩 | �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 复杂系统（一堂）需通过"导诊台"进行任务路由以匹配正确知识与流程，简单封闭系统（SQL-Helper）可直接执行，无需导诊台。
-- 知识按增长速度分层：架构层（缓慢）→ 工作规范（慢）→ 经验积累（中等）→ 任务状态（快）→ 日志（非常快）。
-- 架构知识缺失导致系统漂移与业务逻辑混乱，Agent 约束缺失导致行为模式混乱与重复犯错，任务管理缺失导致复杂任务难以跟踪交付。
-- 任务管理应优先复用成熟 issue 平台而非自研；长周期/复杂任务需独立维护状态与上下文。
-- 经验与模式库应通过 hook + RAG 机制注入 Agent 工作流，实现持续积累与复用。
-- 日志增长速度最快，是系统性问题追踪、定位与优化的核心资产。
-- 领域知识广度决定系统复杂度：一堂跨多业务域需完整知识图谱，SQL-Helper 仅需名词与表结构/查询的映射关系。
-- 每次用户查询独立生成物理目录保存上下文与产物，是轻量级任务管理的有效实践模式。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- "增长速度" 的评定标准是什么？由谁、以什么频率评估？是否存在量化指标或只是主观判断？
-- 表格中 "ForAgent" 在两个案例下都标记为 "—"，这是表示尚未建设，还是认为该维度不适用？若是缺失，缺失影响描述得很严重，为何没有实践？
-- "导诊台" 在一堂案例中的具体实现形式未说明：是规则引擎、LLM 路由、还是人工判断？其准确率和误判处理机制如何？
-- SQL-Helper 被称为"封闭任务"无需导诊台，但随着业务查询复杂化（多表关联、语义歧义、权限差异），这一假设是否仍然成立？有无扩展阈值？
-- "用 git 和 Codex 对话简单管理" 的具体工作流是什么？多人协作时如何解决冲突、版本追溯和状态同步？
-- "可以接入成熟的 issue 管理平台，没必要自己搞" 这一建议是否经过迁移成本评估？对于 Agent 原生工作流，现有 issue 平台是否具备足够的 API 和语义适配能力？
-- "经验与模式库最好能通过 hook + RAG 进行注入" 中的 hook 触发条件、RAG 检索策略、更新频率和去重机制均未展开，这些技术细节如何落地？
-- 日志被强调为"核心资产"，但两个案例在日志行都标记为 "—"，是表示未记录、未整理，还是未纳入对比？若未建设，与"日志增长速度最快"的论断形成矛盾。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

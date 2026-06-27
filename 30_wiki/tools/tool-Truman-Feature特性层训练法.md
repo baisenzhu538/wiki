@@ -3,8 +3,8 @@ id: tool-Truman-Feature特性层训练法
 title: 技能：Feature特性层训练法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI能力分层学习路径]]'
-- '[[tool-Truman-Skill全生命周期管理]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：Feature特性层训练法
 
@@ -37,27 +37,27 @@ Feature特性层训练法是Truman在AI工具应用AMA中提出的实操方法�
 
 ## 适用场景
 
-- 需要科学刻意练习AI能力
-- 工具频繁更新导致焦虑
-- 希望建立可迁移的底层AI能力
-- 从0到1构建Skill时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅需完成一次性简单任务
-- 没有明确场景仅为学习而学习
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Y模型
-- 双三角模型
-- Skill打磨文档
-- 各类AI工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -65,12 +65,12 @@ Feature是AI原生处理的底层逻辑，掌握Feature后工具不再重要，�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

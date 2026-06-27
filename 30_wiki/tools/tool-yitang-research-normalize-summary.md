@@ -13,32 +13,32 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 归一总结
-- 调研总结
-- 信息整合
-- 结论输出
-- 调研报告
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-quantitative-modeling]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[tool-yitang-research-deep-attribution]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 归一总结：整合信息形成统一结论
@@ -231,21 +231,21 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-deep-attribution]] — 深度归因工具
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 归一总结模块
-- 交叉：咨询报告写作方法
-- 注意：归一总结是调研的收尾工作，决定调研价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

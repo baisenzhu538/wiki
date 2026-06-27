@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单城市模型.md
 related:
-  - '[[tool-单元模型-象限分析法]]'
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-单商圈]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[case-strategy-failure-04-appliance]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单元模型：单城市模型
@@ -63,10 +63,10 @@ related:
 
 ## 常见变种
 
-- **单子公司模型**：集团以子公司为独立法人单元，自负盈亏。
-- **单省模型**：以省为治理单元，管理多个城市，适合省级代理或区域总部。
-- **单区域模型**：华东、华南等大区，适合大区制管理。
-- **单国家模型**：国际业务中，以国家为独立单元进行本地化运营。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -79,10 +79,10 @@ related:
 
 ## When NOT to Use
 
-- **纯线上、无城市边界的生意**：如全球 SaaS、跨境平台，用户不依赖特定城市，用单城市模型会人为切割用户旅程 [conf=0.75, source=一堂原创]。
-- **城市间成本差异极小**：如标准化快递网络，城市单元已被更细粒度（站点、线路）覆盖，再用单城市模型意义不大。
-- **数据不足以拆分到城市级别**：如果连基础订单、客流、成本都无法按城市归集，模型会退化为猜测。
-- **把单城市模型当成进入顺序唯一标准**：城市模型解决「单元是否成立」，不解决「政策风险」「竞争格局」「品牌势能」等战略问题。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -93,14 +93,14 @@ related:
 
 ## 与已有框架的关系
 
-- **[[yt-unit-model-overview]]**：单城市模型是十大单元模型之一，与单商圈、单门店、单 SKU、单客户等模型共同构成单元模型武器库。
-- **[[tool-单元模型-单商圈]]**：单商圈是单城市的下一层拆解；单城市回答「城市是否值得进入」，单商圈回答「进入后先打哪个点」。
-- **[[framework-lean-abcd-model]]**：ABCD 模型帮助判断假设优先级，单城市模型则是把「可复制假设」落到具体城市单元的计算工具。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「城市相似度评估」checklist，无法快速判断 A 城市经验能否迁移到 B 城市；
-- 缺少「城市进入顺序」决策模板（先省会还是先下沉、先密度还是先标杆）；
-- 缺少「城市级组织成本」的采集标准（编制、薪酬、流失率、管理半径）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -111,13 +111,13 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 明确你要复制的城市边界（是否含下辖县/镇）。
-- [ ] 列出该城市的收入假设：目标人群、渗透率、客单价、复购频次。
-- [ ] 列出该城市的成本假设：团队、租金、本地营销、物流/仓储。
-- [ ] 区分城市专属成本与总部公摊成本。
-- [ ] 找 1-2 个已运营的同类型城市做反事实对照。
-- [ ] 确定城市盈亏平衡所需的订单量/收入/时间。
-- [ ] 制定城市进入顺序：先标杆城市还是先密度城市。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

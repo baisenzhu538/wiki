@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 
@@ -10,18 +10,18 @@ created_at: 2026-06-06
 difficulty: beginner
 language: zh-CN
 prerequisites:
-  - yt-entrepreneur-industry-forecast
+  - src_unknown
 query_triggers:
-  - "P型创业者"
-  - "L型创业者"
-  - "创业者类型"
-  - "热情驱动"
-  - "逻辑驱动"
-  - "预判能力"
-  - "创业失败根源"
-  - "创业者认知"
-  - "创业心态"
-  - "创业段位"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-06
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
@@ -39,19 +39,19 @@ yitang:
   course_type: concept
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': 'P型创业者一直在动手，但十年后项目失败', 'framework_lens': '热情不能替代预判', 'follow_up_question': '你在动手之前，有没有用2个月时间做过行业预判和关键假设验证？如果没有，你在用热情赌运气'}
   - {'signal': 'L型创业者分析过度，永远不起步', 'framework_lens': '分析瘫痪——逻辑驱动也需要行动', 'follow_up_question': '你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-entrepreneur-industry-forecast]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# P型与L型创业者
 
@@ -85,11 +85,11 @@ claim:boundary-07 [conf=0.78] **电商案例**：同样是电商项目，P型创
 
 ## Constraints & Boundaries
 
-- **二元对立的简化风险**：P型/L型是一个简化的二元模型，实际上大多数创业者处于两者之间的某个位置，不是非即P即L。
-- **能力与预判的混淆**：P型创业者不代表"能力差"，很多P型创业者的执行力、沟通力、资源整合能力很强，但这些能力可能被用在错误的方向上。
-- **认知跃迁的时间成本**：从P型到L型的转变需要大量时间投入（学习预判方法、积累行业认知、练习假设验证），不是"听了课就能变"。
-- **文化差异**：某些文化和行业更倾向于P型创业（如中国的"胡志"文化），转向L型可能面临社会压力。
-- **极端P型的"赌性"正向价值**：在极度不确定的环境中（如AI原生应用、新市场开拓），P型的"先干为敬"可能比L型的"过度分析"更有优势。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

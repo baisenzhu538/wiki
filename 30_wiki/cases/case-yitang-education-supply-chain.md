@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- modeling
-- education
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（一堂公司本质定位） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,21 +22,21 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
-  - '[[case-personal-map-modeling]]'
-  - '[[case-modeling-essence-schools]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[case-course-milestone-model]]'
-  - '[[dk-weekly-modeling-iteration-growth-engine]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[yt-model-liberate-thinking-layers]]'
-  - '[[dk-modeling-course-rnd-ripe-fruit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#industry/education'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。
@@ -47,10 +47,10 @@ tags:
 
 ## Background
 
-- **场景**：有同学质疑一堂为什么不能提前规划半年到一年的课表
-- **问题**：市场对课程公司的默认假设是"包装 IP/书/理论"，但一堂不一样
-- **目标**：解释一堂的课程研发模式，并给出可迁移的决策链与关键转折点
-- **来源**：`src_20260614_8269ccdb#3624-3730`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -71,30 +71,30 @@ tags:
 
 ### 市场上的主流模式
 
-- **模式 A**：请有 IP/书的老师来讲，包装故事线、做做 PPT
-- **模式 B**：把别人的课合并、改讲、换老师
+- src_unknown
+- src_unknown
 
 ### 一堂的模式：教育供应链
 
 Truman 把一堂比喻成一家"做菜"的公司，与 [[dk-modeling-course-rnd-ripe-fruit]] 描述的逻辑一致：
 
-- **前端不是老师，而是地里的菜**：真实世界的案例、规律、最佳实践、失败
-- **种子种下去**：开始研究一个课题
-- **半年长成菜**：通过实践、调研、复盘，课题逐渐成熟
-- **摘回来炒成菜**：做成课程交付给用户
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 一堂清楚地知道：
-- 每道菜来自哪些案例
-- 解决什么问题
-- 来自哪些实践
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 结果：无法提前规划课表
 
 因为"菜熟不熟不知道"：
-- 友商可以规划一年课表
-- 一堂连一个月的课表都规划不了
-- 有时周一才能定本周能否交付
-- 甚至周五下午六点发现课还没过品控线，只能开天窗、发红包道歉
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 例子
 
@@ -104,10 +104,10 @@ Truman 把一堂比喻成一家"做菜"的公司，与 [[dk-modeling-course-rnd-
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说一堂本质上是一家"教育供应链创新公司"。——来源：`src_20260614_8269ccdb#3624`。
-- **证据 2 [conf=0.85]**：一堂的课程来自实践、学员实践、真实中国市场上的失败和最佳实践，不请老师直接讲别人的课。——来源：`src_20260614_8269ccdb#3654-3660`。
-- **证据 3 [conf=0.8]**：Truman 承认一堂无法规划半年课表，有时甚至周五下午才发现课过不了品控线。——来源：`src_20260614_8269ccdb#3682-3708`。
-- **证据 4 [conf=0.8]**：Truman 把"周对周的建模迭代能力"定义为一堂最大的增长引擎，靠 20 轮复盘推动建模水平前进。——来源：`src_20260614_8269ccdb#3758-3768`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,28 +149,28 @@ Truman 把一堂比喻成一家"做菜"的公司，与 [[dk-modeling-course-rnd-
 
 在决定采用"教育供应链"模式前，用下面清单做一次快速自检；勾选不足 3 项时，说明组织尚未准备好该模式：
 
-- [ ] **研究耐心**：管理层能接受 3-6 个月内无法给出精确交付日期
-- [ ] **田野接入**：团队能稳定接触到真实实践、失败案例或一线用户反馈
-- [ ] **品控人**：存在被授权的"品控者"，能在最后 gate 决定"开天窗"而不被业务压力推翻
-- [ ] **迭代节奏**：有固定周期（如每周/每两周）把研究成果拿出来验证，而不是等到"完美"
-- [ ] **预期管理**：对外沟通中已经明确区分"已成熟内容"和"研究中内容"
-- [ ] **复盘机制**：每次延期或开天窗都有书面复盘，记录缺失证据和下一步验证动作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 教训
 
-- **内容公司可以有两种基因**：一种是包装，一种是研究。
-- **研究驱动的内容不可预测**：但质量更扎实。
-- **要管理好用户预期**：让用户理解为什么无法提前承诺。
-- **品控线不能妥协**：宁可开天窗，也不交付不成熟的内容。
-- **交付节奏本身就是增长引擎**：一堂的周对周建模迭代，把"不得不交付"的压力转化成了组织能力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:3624-3730`
+- src_unknown
 
 ---
 

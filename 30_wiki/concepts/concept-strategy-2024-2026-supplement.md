@@ -15,13 +15,13 @@ domain: [strategy]
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[framework-strategy-brm]]"
-  - "[[concept-strategy-framework-landscape]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 2024-2026战略新变量
@@ -38,9 +38,9 @@ related:
 
 ## 建议
 
-- 在五看三定中增加"看地缘"和"看ESG"两个维度
-- 战略洞察用Agent辅助（调研武器库+Agent原生工具卡）
-- 三个地平线评估加入地缘风险和碳中和成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

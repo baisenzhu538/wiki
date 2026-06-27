@@ -5,9 +5,9 @@ title: "源码交付模式"
 type: concept
 status: stable
 domain:
-  - SaaS
-  - "商业模式"
-  - "软件交付"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 confidence: 0.85
 trust_level: high
 diagnostic_signals:
@@ -17,18 +17,18 @@ diagnostic_signals:
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-- "src_unknown"
-- "七件事集团业务模式深度解读"
+- src_unknown
+- src_unknown
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[yt-growth-scaling-pitfalls]]'
-  - '[[private-domain-saas-sales-funnel]]'
-  - '[[七件事集团]]'
-  - '[[yt-skill-storyline-problem-solving]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 源码交付模式
 
@@ -53,10 +53,10 @@ related:
 
 ## 典型反噬
 
-- **收入断裂**：厂商失去订阅经济带来的可预测现金流，后续升级、维护收入难以持续
-- **版本碎片化**：每个客户定制分支导致主版本维护成本激增
-- **维护成本转移**：客户需自行承担服务器、安全、补丁、升级等长期运维成本
-- **服务质量下降**：厂商难以统一迭代，新功能推送效率降低
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例：七件事集团
 

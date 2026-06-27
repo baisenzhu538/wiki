@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-TCPR底层网络协议.md
 related:
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - '[[framework-TCPR皇冠模型]]'
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[case-yitang-weekly-modeling-engine]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # TCP-R 模型：商业管理世界的底层网络协议
@@ -57,19 +57,19 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 1. **自评 T/C/P/R 能力分布**：对自己或团队成员在四个模块上打分（1-5 分），找出最强项与最弱项 [conf=0.75, source=一堂原创]。
 2. **识别当前角色的主导模块**：培训师偏 T，咨询师偏 C，创业者偏 P，方法论研究者偏 R。
 3. **诊断能力缺口**：
-   - T 弱：知识无法规模化传播；
-   - C 弱：无法深度辅导客户；
-   - P 弱：理论脱离业务结果；
-   - R 弱：经验无法沉淀为模型。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **设计能力提升计划**：通过项目实践、课程打磨、案例复盘等方式补齐短板。
 5. **构建团队能力组合**：个人难以四角全强，团队可以通过 T/C/P/R 互补形成完整交付能力。
 
 ## When NOT to Use
 
-- **作为能力优劣排名**：四个模块没有高下之分，不同角色需要不同组合 [conf=0.75, source=一堂原创]。
-- **忽视模块间的连接**：TCP-R 的价值在于模块像协议一样协同，单独强调某一个会失效。
-- **把模型当成静态标签**：能力可以培养，今天的弱项不一定是永远的弱项。
-- **用于非知识型岗位评估**：流水线、纯执行型岗位不适合用 TCP-R 评估。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -81,14 +81,14 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 
 ## 与已有框架的关系
 
-- **[[framework-ai-deconstruction-methodology]]**：AI 拆解方法论强调 T/C/P/R 中的 R（研究）能力，TCP-R 模型把 R 放回更完整的能力系统。
-- **[[tool-ai-critical-reading-three-layers]]**：批判性阅读的「还原/审计/生长」三层，分别对应 R/C/P 的能力。
-- **[[case-yitang-weekly-modeling-engine]]**：周对周建模引擎是 T（教学）+ R（研究）+ P（实践）结合的案例。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「T/C/P/R 能力测评清单」；
-- 缺少「模块组合 → 产品形态」的映射表（例如 T+R 适合课程，C+P 适合教练服务）；
-- 缺少「团队招聘时如何按 TCP-R 补角」的招聘模板。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -99,11 +99,11 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 
 ## 行动 Checklist
 
-- [ ] 对团队成员进行 T/C/P/R 自评。
-- [ ] 画出团队能力雷达图，识别缺口。
-- [ ] 根据主导模块设计下一步产品或服务形态。
-- [ ] 为每个弱项制定 90 天提升计划。
-- [ ] 每半年复评一次，观察能力迁移。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

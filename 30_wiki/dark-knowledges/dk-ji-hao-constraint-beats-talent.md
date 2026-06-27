@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -16,28 +16,28 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - '[[dk-ji-hao-logs-fastest-ignored]]'
-  - '[[dk-ji-hao-simple-complex-routing]]'
-  - '[[tool-纪浩-AI工具脚本化约束]]'
-  - '[[tool-纪浩-处理AI生成代码运行异常]]'
-  - '[[tool-纪浩-Agent开工检查单制作法]]'
-  - '[[case-ji-hao-ui-design-constraint-evolution]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-ji-hao-ui-design-constraint-evolution]]'
-- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI首轮输出与你手动设计差距大，且每次修改都像"重新来过"
+- src_unknown
   lens: 提示词/约束资产化
   follow_up: '是否已经把"好"的标准写成可检查的约束条目，而非停留在口头评价？'
-- signal: 团队里多人用AI做同类任务，输出风格和质量参差不齐
+- src_unknown
   lens: 标准化/可复用中间产物
   follow_up: '是否已经存在一份共享约束文档，并被当作迭代的基线？'
 ---
@@ -49,12 +49,12 @@ diagnostic_signals:
 
 ## 核心洞察
 
-- **约束是可叠加的资产，手动设计是不可叠加的损耗。** 约束文档写完后可以跨任务复用；手动设计每一次都要重新投入注意力、时间和token。
-- **设计最重要的不是“好看”，而是“好用”**；而“好用”不是主观感受，是可以被约束文档定义和检验的。
-- **约束文档是中间产物**：先让AI生成约束文档，人工验证后，再让AI按约束生成最终输出。
-- **纪浩的真实体验**：后端工程师 + 600/1100行约束文档 > 后端工程师手动设计，甚至 > 没有约束的前端工程师。
-- **约束不会限制创造力，而是创造力的催化剂**；没有约束，AI只会模糊地“好好搞一下”。
-- 在AI协作五层结构中，约束文档属于第三层（Agent服务文档/工作手册），当多个任务共享一套约束时，会沉淀为经验与模式库。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 纪浩：最后生成的东西完全没用任何设计框架，纯裸写出来的。约束文档是AI写的，然后AI根据这个约束文档生成的页面吊打我自己花了极高成本（注意力、时间、token）做出来的东西。
 
@@ -77,16 +77,16 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 明确任务是否属于“需要一致性输出的多轮协作”，而非一次性探索
-- [ ] 用可检查的语言写约束：把“要好看”改成“主按钮使用主题色#1890FF，圆角8px，高度40px”
-- [ ] 约束覆盖三类：**组件约束**、**布局约束**、**交互约束**
-- [ ] 先让AI生成约束文档，人工验证后再按约束生成最终输出
-- [ ] 编写约束检查脚本/检查清单，自动验证输出是否命中约束
-- [ ] 从少量精确约束起步，每轮迭代后沉淀扩展，而非一次性堆砌
-- [ ] 在团队内共享约束文档，作为后续同类任务的基线资产
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[case-ji-hao-ui-design-constraint-evolution]] — 约束文档如何从0到1100行、如何在每个阶段产生中间产物、如何用约束驱动最终输出。关键转折点是从“单点纠偏”转向“中间产物驱动”。
-- [[concept-纪浩-ai-collaboration-five-layer]] — 约束文档属于第三层（Agent服务文档）中的“工作手册”部分。当多个任务共享一套约束时，它会沉淀为经验与模式库。
-- [[tool-纪浩-problem-validation-four-checks]] — 在写约束文档之前，先用四问法确认你要解决的是真问题还是伪需求。
+- src_unknown
+- src_unknown
+- src_unknown

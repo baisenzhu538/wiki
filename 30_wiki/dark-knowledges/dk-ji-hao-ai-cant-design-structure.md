@@ -5,37 +5,37 @@ title: 暗知识：AI不会自己搞结构设计
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 你给 AI 一个开放性任务，它产出的内容永远"看起来对"但无法直接落地
+- src_unknown
   lens: 结构缺失
   follow_up_question: 我是否已经先定义了输出框架、层级和判断标准？
-- signal: 同一个任务反复 prompt，AI 每次给出的组织方式都不一样
+- src_unknown
   lens: 结构不稳定
   follow_up_question: 我是否把工作空间模板化、导诊台化，让 AI 只负责填充？
-- signal: 团队里每个人用 AI 的产出格式不同，难以拼接
+- src_unknown
   lens: 协作结构未对齐
   follow_up_question: 是否在开始协作前约定好了统一的结构/字段/输出规范？
 ---
@@ -74,13 +74,13 @@ AI 是模式匹配系统，不是结构创造系统：它只能在你给出的�
 
 ## 行动 Checklist
 
-- [ ] 在写 prompt 之前，先画出最终输出的结构（层级、字段、顺序）
-- [ ] 把工作空间中可复用的结构固化成模板
-- [ ] 为 AI 设定明确的"导诊台"：输入什么、按什么格式输出、边界在哪里
-- [ ] 对复杂任务，先让 AI 在你的结构内填充，而不是让它自己创造结构
-- [ ] 验收时先检查结构是否符合预期，再检查内容是否正确
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[tool-纪浩-AI工作空间与导诊台设计法]] —— 工作空间搭建法就是"人帮 AI 搞结构设计"的具体实操，包含五大模块的搭建方法
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是纪浩五层体系的基础性前提：如果人不做结构设计，五层体系本身就不存在
+- src_unknown
+- src_unknown

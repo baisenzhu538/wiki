@@ -6,34 +6,34 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- design
-- ai-collaboration
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb29-prompt-migrate-copy-first]]'
-  - '[[dk-yb31-style-first-controlnet]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb8-file-naming-eight-elements]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 团队引入AI绘图工具后，产出效率提升了但风格一致性下降了——同一个品牌的视觉每次都不一样
+- src_unknown
   framework_lens: 资产债——AI降本的前提是可结构化的风格资产，没有这个前提，AI反而会放大风格混乱
   follow_up_question: 在引入AI之前，你的历史风格规范文档、PS工程文件、配色/笔触/构图规则是否已整理？如果没有，AI降本是一句空话。
-- signal: 每次做新项目都从零开始写prompt，不利用历史项目的完整工程文件
+- src_unknown
   framework_lens: 资产复用缺失——不逆向工程历史项目就无法建立可复用的结构体系
   follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。
 ---# AI绘图降本的前提：风格资产工程化归档
@@ -74,10 +74,10 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 历史项目是否已按风格规范、工程文件、prompt模板三类归档？
-- [ ] PS工程文件是否包含完整的分层结构和命名规范？
-- [ ] 是否建立了可检索的资产索引？
-- [ ] 新项目完成后，是否已将资产纳入归档体系？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -85,5 +85,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
-- [[dk-yb8-file-naming-eight-elements]] — 文件命名八要素体系
+- src_unknown
+- src_unknown

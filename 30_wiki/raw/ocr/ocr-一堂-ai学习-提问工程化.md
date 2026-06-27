@@ -3,12 +3,12 @@
 title: "OCR: 一堂-AI学习-提问工程化"
 type: concept
 domain:
-  - product
-  - needs-review
-  - ai-saas
-  - design
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_62f76551
@@ -20,11 +20,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-truman的个人成长五步法]]'
-  - '[[ocr-一堂y模型-科学成事道理]]'
-  - '[[ocr-一堂-地图-管理地图_conv]]'
-  - '[[ocr-一堂-科学决策-深度-l3定量公式]]'
-  - '[[ocr-一堂-地图-创业地图_conv]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,25 +40,25 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- ProblemOS / Question Engineering is a framework for structuring questions systematically, analogous to how engineers design products.
-- The framework progresses through six stages: fuzzy confusion → descriptive symptoms → clear objectives → given environment → actions already taken → solvable problem unit.
-- Effective problem formulation requires moving from vague discomfort to a precisely defined, actionable problem statement.
-- A well-engineered question must explicitly specify the environment/context in which the problem occurs.
-- Documenting "already tried" solutions prevents redundant advice and accelerates problem-solving.
-- The final output should be a "solvable problem unit" — a discrete, addressable chunk rather than an open-ended complaint.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- What distinguishes a "solvable problem unit" from merely a well-defined question—does the framework include criteria for assessing solvability before attempting solution?
-- Is the six-stage progression strictly linear, or can stages be revisited iteratively; what guidance exists for navigating backward when earlier stages prove inadequate?
-- What empirical evidence or case studies demonstrate that this engineering-inspired framework produces measurably better problem-solving outcomes than unstructured questioning?
-- How does the framework handle problems where environment specification is itself uncertain or contested—does it accommodate epistemic humility about context boundaries?
-- Are there domain-specific adaptations of this framework, or is the claim of universality (implied by the engineering analogy) actually tested across diverse problem types?
-- What role does the questioner's cognitive or emotional state play in stage progression, particularly in moving from "fuzzy confusion" to "descriptive symptoms"?
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - learning-methodology
+  - src_unknown
 
 
 id: yt-note-three-level-evolution
@@ -18,11 +18,11 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-  - '[[yt-note-l4-internalization]]'
-  - '[[yt-management-team-knowledge]]'
-  - '[[yt-note-ai-p-role-not-c-role]]'
-  - '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 
@@ -60,9 +60,9 @@ Notion、Roam Research等工具社区已经证明，大多数用户的知识管�
 
 三级进化的本质不是**“笔记越来越复杂”**，而是**“笔记对人的依赖越来越少”**：
 
-- **碎片化阶段**：笔记完全依赖人——没有人的上下文，笔记就是无意义的符号
-- **结构化阶段**：笔记部分独立——有结构的人能看懂，没结构的人看不懂
-- **体系化阶段**：笔记高度独立——模型本身携带了足够的上下文，陌生人也能使用
+- src_unknown
+- src_unknown
+- src_unknown
 
 [[yt-note-five-levels-training]] 中的六段位训练实际上是这个三级进化的**精细化拆解**：L1-L2解决“碎片怎么不漏”，L3-L4解决“结构怎么清晰”，L5-L6解决“体系怎么迁移”。
 
@@ -72,10 +72,10 @@ dk-note-growth-paradox 的底层逻辑在这里得到验证：**你越追求体�
 
 ## Constraints & Boundaries
 
-- **适用**：需要长期积累领域知识、追求跨问题迁移能力的学习者
-- **不适用**：信息消费型用户（如新闻阅读、娱乐内容记录）——他们的需求停留在L1-L2即可
-- **警惕**：不要在碎片化阶段就追求体系化。过早建模会导致“先验框架绑架”——你看到的都是你想看到的
-- **边界**：体系化有“保质期”。技术领域可能需要每年重构，认知领域可能十年有效
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 

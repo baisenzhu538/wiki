@@ -4,32 +4,32 @@ title: 技能：AIGC橱窗陈列设计流程
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-控制产品画面尺寸比例]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AIGC橱窗陈列设计流程
 
@@ -47,25 +47,25 @@ AIGC橱窗陈列设计流程是月白在AI设计师实操中提出的实操方�
 
 ## 适用场景
 
-- 线下零售门店橱窗设计
-- 门店量多又杂需快速出方案
-- 需多方决策前建立共同体感
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 30平以下极小门店无需橱窗
-- 必须实物搭建无法虚拟预览
-- 高端定制需精确到厘米级陈列
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AIGC图像生成工具
-- 小红书等参考平台
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -73,12 +73,12 @@ AIGC橱窗陈列设计流程是月白在AI设计师实操中提出的实操方�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

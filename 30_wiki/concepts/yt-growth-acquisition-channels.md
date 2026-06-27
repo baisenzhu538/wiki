@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-acquisition-channels
 title: 获客渠道：流量获取的6大类型
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-channel-roi
-  - yt-growth-viral-mechanism
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的流量不够'"
+  - src_unknown
     framework_lens: 获客渠道——流量不够需要分析渠道结构
     follow_up_question: "你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？"
-  - signal: "用户说'我们主要靠付费广告'"
+  - src_unknown
     framework_lens: 获客渠道——过度依赖付费广告，需要多元化
     follow_up_question: "付费广告占比多少？有没有自然流量、口碑、内容等免费渠道？"
-  - signal: "用户说'我们试了所有渠道，都不行'"
+  - src_unknown
     framework_lens: 获客渠道——渠道选择需要匹配产品和用户
     follow_up_question: "你的目标用户在哪里？渠道选择是否匹配用户行为？"
-  - signal: "用户说'这个渠道流量大，但转化率低'"
+  - src_unknown
     framework_lens: 获客渠道——流量大≠质量好，需要看转化
     follow_up_question: "这个渠道的用户是否匹配你的目标用户？转化漏斗哪里断了？"
-  - signal: "用户说'我们找到了一个低成本渠道'"
+  - src_unknown
     framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
     follow_up_question: "这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？"
 
@@ -133,21 +133,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当流量不够时 → 分析渠道结构
-- 当CAC过高时 → 优化渠道或寻找新渠道
-- 当发现低成本渠道时 → 快速规模化
-- 当渠道ROI下降时 → 评估渠道生命周期
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-channel-roi`：渠道ROI评估
-- `yt-growth-viral-mechanism`：病毒传播
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 渠道营销研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

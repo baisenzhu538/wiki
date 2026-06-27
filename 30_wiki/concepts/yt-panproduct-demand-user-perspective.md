@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-user-perspective
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1171
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：用户视角
-- 用户卡片
-- 用户研究
-- 用户视角
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown·用户卡片：用户视角
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-multi-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-scenario-walkthrough]]'
-  - '[[yt-model-aesthetic-progression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角
@@ -45,15 +45,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 设计讨论中能用具体用户的话或行为来挑战假设，而不是只引用内部观点
+- src_unknown
   framework_lens: 用户视角是外部证据
   follow_up_question: 你这个判断如果让用户本人听，他会认同吗？
-- signal: 能区分'用户想要'和'用户需要'，并解释为什么有时不满足用户的直接要求
+- src_unknown
   framework_lens: 用户视角 ≠ 用户说什么要什么
   follow_up_question: 用户要求的功能如果做了，会不会损害他的长期目标？
-- signal: 团队中有人扮演'用户代言人'角色，并在关键决策时发言
+- src_unknown
   framework_lens: 用户视角需要制度化
   follow_up_question: 最近一次方案评审中，有人专门从用户角度提出反对意见吗？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **产品经理说‘我就是用户’，用个人偏好替代用户研究**
-   - **原因**：自我投射偏差
-   - **修复**：强制引入至少3个真实用户访谈或行为数据点，才能推翻用户研究结论
+   - src_unknown
+   - src_unknown
 
 2. **用户视角只停留在 persona 海报，没有进入设计评审**
-   - **原因**：形式化
-   - **修复**：每次评审设‘用户代言人’角色，专门用用户目标/痛点/场景提问
+   - src_unknown
+   - src_unknown
 
 3. **完全听从用户要求，导致产品失去一致性**
-   - **原因**：把用户视角等同于用户指令
-   - **修复**：区分‘用户目标’和‘用户建议’，只采纳能实现目标且符合产品原则的建议
+   - src_unknown
+   - src_unknown
 
 4. **为了用户视角忽视商业可行性**
-   - **原因**：视角失衡
-   - **修复**：同时列出用户价值、商业成本、技术可行性三列，再做权衡
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -107,8 +107,8 @@ reviewed_by: 欧阳锋
 
 > "一秒转化用户视角，是一个优秀产品设计者的必备能力。"
 
-- 不代入用户 = 自嗨设计
-- 关键动作：放下自己的预设 → 进入用户的情境 → 从用户眼中看产品
+- src_unknown
+- src_unknown
 
 ### 进步路径
 
@@ -128,9 +128,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Daniel Kahneman的"一秒是生理不可能" + Erika Hall的"共情必须基于研究不是基于想象"
 

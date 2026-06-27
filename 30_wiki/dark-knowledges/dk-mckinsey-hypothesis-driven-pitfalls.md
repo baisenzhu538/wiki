@@ -6,24 +6,24 @@ type: dk
 source_refs: []
 status: enriched
 domain:
-- consulting
-- yitang
+- src_unknown
+- src_unknown
 bridges_to:
-- target: concept-一堂-hypothesis-driven-business-methodology
+- src_unknown
   relation: warns_against
   description: 假设驱动方法论的黑暗面——这些陷阱在一堂创业课程中被淡化
   context: 一堂课程强调'假设驱动的优势'，但未深度讨论其中的认知陷阱。这张暗知卡补齐这个视角——知道方法论的陷阱才能避免成为方法论的囚徒
 related:
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-  - '[[case-milktea-five-step]]'
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[tool-mckinsey-hypothesis-driven-workflow]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -56,8 +56,8 @@ trust_level: medium-high
 无人餐厅团队的"初始假设"是"机器人送餐能提高经营效率"。这个假设听起来合理，但团队没有设计最小成本验证实验——他们直接就按照"假设就是答案"来执行了。结果：假设被证伪时，已经投入了数百万。
 
 **纠偏动作：**
-- 在形成假设的同时，强制要求写出"如果这个假设是错的，哪些数据/证据会让我放弃它"
-- 设定"假设存活期"——假设在形成后必须在X天内被验证，否则自动弃用
+- src_unknown
+- src_unknown
 
 ### 走偏 2：用"假设完备性"取代"假设正确性"
 
@@ -66,8 +66,8 @@ trust_level: medium-high
 **反例：**某团队用 Issue Tree 拆解了一个商业问题，假设树有15个节点，满足 MECE，绘制精美。但这个假设树基于一个未被验证的前提："用户需求是A"。当他们真正去验证时，发现用户需求是B——整棵假设树的根基都错了，但树的结构美感让团队花了很长时间才愿意接受这个事实。
 
 **纠偏动作：**
-- 假设树构建完成后，立即问："假设树的根节点（核心假设）是否被验证过？"如果没有，整棵树都是空中楼阁
-- 设定"假设树存活期"——假设树在形成后必须在X天内有至少一个根节点被验证
+- src_unknown
+- src_unknown
 
 ### 走偏 3：忽视"证伪比证实更有价值"
 
@@ -76,8 +76,8 @@ trust_level: medium-high
 **反例：**某产品团队的假设是"新功能X能提升用户留存率20%"。他们花2周做了一个验证实验，结果是留存率提升15%。团队很高兴："假设被证实了！"但这个结论是错误的——他们只检验了"留存率提升"（证实），没有检验"是否达到20%"（证伪标准）。这就像你说"我想跑进10秒，结果跑了11秒"，然后宣布"目标达成了"。
 
 **纠偏动作：**
-- 在每个假设下面，强制要求写出"证伪标准"——什么结果会让我放弃这个假设？
-- 在每次验证会议上，安排一个"红队角色"——专门找假设错误的证据
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -91,19 +91,19 @@ trust_level: medium-high
 
 ## Constraints
 
-- **假设驱动不能消除认知偏差**：Kahneman 证明的确认偏误是人类大脑的硬编码。方法论可以减少但无法消除这些偏差
-- **假设存在本身可能增加脆弱性**：当假设树很漂亮时，你会对它更加自信，从而对未知未知更加盲目
-- **证伪的心理成本很高**：让团队接受"我们的核心假设可能是错的"需要构建特定的团队文化和制度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- **[[concept-mckinsey-hypothesis-driven]]** — 这张暗知卡是假设驱动框架概念的阴影面。框架卡告诉你"怎么做"，暗知卡告诉你"会踩什么坑"。两者必须配合使用——只知道怎么做不知道坑在哪里，等于往坑里跳。
-- **[[tool-mckinsey-hypothesis-driven-workflow]]** — 技能卡的"判断标准"节是这张暗知卡的警报器——"假设可证伪"、"验证路径清晰"、"实验设计中立"三条标准直接对应走偏模式1/2/3的防御措施。
-- **[[concept-一堂-hypothesis-driven-business-methodology]]** — 一堂的假设驱动方法论强调"先胜后战"的价值，但没有深入讨论"如果假设错了会怎么样"。这张暗知卡补齐了这个视角——假设驱动有效的前提是你愿意接受假设是错的，并且有机制确保这一点。
-- **[[case-一堂-无人餐厅-hypothesis-failure]]** — 无人餐厅案例是走偏模式1的典型案例——假设形成后未验证就开始执行，违背了假设驱动"先验证后投入"的核心原则。这个案例说明：假设驱动有效的前提是"假设只是假设，不是结论"。
-- **[[tool-一堂-hypothesis-validation-three-axe]]** — 三板斧的"快速验证"步骤是防止走偏模式1的关键——它强制要求假设在形成后必须用最小成本快速验证。但这个"最小成本"很难定义，暗知卡揭示了这个困难——很多团队会无意识地抬高"最小成本"的门槛，从而推迟验证。
-- **[[yt-entrepreneur-key-hypotheses]]** — 一堂的关键假设概念提供了"识别假设"的方法，但假设质量的好坏很大程度上取决于这个假设是否可证伪、是否有明确的验证路径。这张暗知卡补充了"假设质量判断"的暗知。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 应用本暗知后有反馈，提交至 `60_feedback/dks/dk-mckinsey-hypothesis-driven-pitfalls`。
+- src_unknown

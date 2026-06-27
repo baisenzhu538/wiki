@@ -6,38 +6,38 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
 tags:
-- '#domain/yitang'
-- '#chunk-type/critique'
-- '#domain/ai-saas'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - '[[dk-yb32-doubao-size-composition]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[yt-ai-trend-12-signals]]'
-  - '[[dk-foresight-tier-skip-illusion]]'
-  - '[[yt-ai-trend-12-signals]]'
-  - '[[yt-three-dimension-opportunity-matrix]]'
-  - '[[yt-foresight-probability-engineering]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 把相关信号当成独立证据计数
+- src_unknown
   framework_lens: 信号簇幻觉
   follow_up_question: 这N个信号是否来自同一底层趋势？如果去掉重复计数的信号，还剩几个独立证据？
-- signal: 用"大势所趋"替代微观验证
+- src_unknown
   framework_lens: 共识压迫感
   follow_up_question: 假设18个月后这个方向失败，最可能的原因是什么？有没有"信号亮起但项目失败"的历史案例？
-- signal: 把信号列表当成长期不变的雷达
+- src_unknown
   framework_lens: 时效性衰减
   follow_up_question: 这个信号的有效期还有多久？哪些关键变量可能在3个月内推翻它？
 ---
@@ -51,10 +51,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 用12信号模型评估AI方向时，某个方向同时满足3-4个信号，团队认为"概率已经很高"。
-- 战略讨论中出现"AI改变世界是确定的，所以这个方向不会错"的宏观替代论证。
-- 投资人、合伙人或媒体用"多个信号同时亮起"施加压力，要求加速决策。
-- 把12信号列表当作长期不变的"机会雷达"，6个月后仍在按原列表决策。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -75,10 +75,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **不适用于有独立数据分析能力的团队**：如果团队能收集历史数据、计算信号相关系数，可以建立更精细的概率模型。对于资源有限的创业者，"合并同一簇信号"是一种务实的保守策略。
-- **信号簇的边界是模糊的**：某些信号可能同时属于多个簇（如"交互创新"既可能来自技术升级，也可能来自需求变化），簇的划分带有主观性。
-- **不适用于非AI领域的机会评估**：12信号模型专为AI领域设计，在非AI领域的信号相关性结构可能完全不同。
-- **不适用于信号已经过独立验证的场景**：如果每个信号都有独立的用户/市场/技术验证，相关性风险会显著降低。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -91,12 +91,12 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 公开课程讲"多信号交叉是好机会"，却很少讲"相关信号会重复计数"这个统计陷阱。
-- 这是避免12信号模型从"调研触发器"变成"过度下注催化剂"的关键纠偏。
-- 在资源有限的创业场景中，识别信号簇幻觉能避免在相关证据上押注过大，保护试错资本。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-ai-trend-12-signals]] — 这张暗知卡是12信号模型的必要补充。模型告诉你"≥2个信号交叉时值得深入"，这张暗知卡告诉你"交叉前先做信号独立性检查"。
-- [[yt-three-dimension-opportunity-matrix]] — 三维排列组合工具生成机会后，需要用12信号模型做初步筛选；而12信号模型的筛选结果需要用这张暗知卡做"相关性去噪"。三者构成"生成→筛选→去噪"的完整链条。
-- [[yt-foresight-probability-engineering]] — 概率工程告诉你"单次成功率30% × 4次试错 = 76%整体成功率"。信号簇幻觉会让创业者误判"单次成功率"——把相关性信号叠加后的虚高概率当成真实概率，从而在概率公式中填入错误参数。
+- src_unknown
+- src_unknown
+- src_unknown

@@ -13,33 +13,33 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- AI调研
-- AI工具
-- 人工智能调研
-- AI辅助
-- 深度搜索
-- AI情报
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[concept-yitang-ai-research-10-assumptions]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[yt-personal-ai-capability]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[concept-yitang-ai-research-10-assumptions]]"
-  - "[[concept-yitang-ai-research-human-loop]]"
-  - "[[concept-research-responsibility-boundary]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI辅助调研工作流：七工具四层深度+十大假设
@@ -214,9 +214,9 @@ L4: 系统性深度调研 — 人类导演 + AI执行团队，多轮迭代
 
 ## 来源与验证
 
-- Truman的AI调研实践经验（100+次AI协作调研）：`一堂-调研武器库培训-口述.txt`
-- 情报调研十大假设框架：`提升AI调研能力的10条关键假设_vlm_desc.md`（MiniMax-M3 VLM, confidence=0.92）
-- AI调研三个硬伤分析：`一堂-调研武器库培训-口述.txt`（幻觉、浅尝辄止、结果不一致）
+- src_unknown
+- src_unknown
+- src_unknown三个硬伤分析：`一堂-调研武器库培训-口述.txt`（幻觉、浅尝辄止、结果不一致）
 
 ---
 

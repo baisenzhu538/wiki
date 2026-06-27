@@ -4,50 +4,50 @@ title: 技能：AI 对话上下文隔离
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+- src_unknown
+- yitang- src_unknown
 source_person: 纪浩
 source_context: AI协作方法论
 source_refs:
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 wiki_refs:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[case-ji-hao-skill-market-problem-validation]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 有真实失败案例
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- AI对话工具（ChatGPT/Claude等）
-- 知识库片段管理
+- src_unknown
+- src_unknown
 related:
-- '[[dk-modeling-ai-judgment-limit]]'
-- '[[master-ai-info-literacy]]'
-- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[dk-wanghuan-standard-by-iteration]]'
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[ai-collaboration-mindset-shift]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师
 confidence: 0.8
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 纪浩
 trust_level: medium-high
 ---# 技能：AI 对话上下文隔离
 
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## Claims
 
-- claim:01 [conf=0.92] **AI 对话的"污染"是累积性的，不是线性的**。一次错误理解如果不纠正，后续所有回复都建立在错误基础上。到第 5 轮时，AI 可能已经偏离最初任务 180 度——而用户因为"聊进去了"很难察觉。纪浩的核心观察：**AI 回答越丝滑，越要警惕它可能已经跑偏了**。
+- src_unknown
 
-- claim:02 [conf=0.88] **"脏对话"的止损成本比预防成本高 10 倍**。一条已经被污染的对话线程，想"拉回来"往往需要 3-5 轮纠正——而这 3-5 轮消耗的 token 和时间远超直接开启新对话。纪浩的方法：一旦发现对话已经不可挽回，**果断放弃，不要恋战**。
+- src_unknown
 
-- claim:03 [conf=0.85] **新对话需要"知识注入"而非"从零开始"**。开启新对话不等于重新解释一遍背景。纪浩的实践：从知识库中复制相关的工作手册、经验库、领域知识片段，一次性注入新对话的开头——让 AI 在新对话中立刻拥有旧对话中最有价值的知识，但不携带旧对话中的错误。
+- src_unknown
 
 ## 操作步骤
 
@@ -61,22 +61,22 @@ trust_level: medium-high
 
 ## 适用场景
 
-- AI 开始理解偏差、输出混乱、答非所问时
-- 对话已进行 10+ 轮，上下文窗口消耗过半
-- 需要在不同任务之间切换（从写代码切换到写文档）
-- 多人共用同一个 AI 账号，每个人的任务需要隔离
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 简单单轮问答（"今天天气怎么样"）——不需要隔离
-- 探索性对话——你在和 AI 头脑风暴，方向本身就在变化中，此时不需要严格隔离反而需要发散
-- 需要 AI 记住长对话历史的场景（如连续剧情创作）——隔离会丢失叙事连贯性
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AI 对话工具（ChatGPT、Claude 等）
-- 知识库管理工具（Obsidian、Notion 等）——用于快速复制知识片段
-- 新会话启动（几乎所有 AI 工具都支持）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -100,10 +100,10 @@ trust_level: medium-high
 
 **场景**：用 AI 写一份竞品分析报告，已进行 8 轮对话。
 
-- 第 1-5 轮：顺利。AI 帮助梳理了竞品名单、拆解了分析维度。
-- 第 6 轮：用户问了一个关于某竞品定价策略的问题，AI 开始混淆两家竞品的数据。
-- 第 7 轮：用户纠正，AI 道歉但修正后仍有错误（把 A 公司的营收数字安到了 B 公司头上）。
-- 第 8 轮：用户再次纠正，AI 的回复开始出现"幻觉"——编造了一个不存在的第三方数据源。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **诊断**：对话已"脏"。连续 2 轮纠偏无效。
 
@@ -112,9 +112,9 @@ trust_level: medium-high
 2. 开新对话，开头注入：
    ```
    任务：继续竞品分析报告。以下是我已经完成的部分：
-   - 竞品名单：[5家公司名称]
-   - 分析维度：[6个维度]
-   - 当前进度：已完成竞品概览，接下来需要做定价策略深度分析
+   - src_unknown
+   - src_unknown
+   - src_unknown
    
    注意：请只使用你自己的知识，不要引用我没有确认的数据源。
    ```
@@ -132,8 +132,8 @@ AI 的上下文窗口是有限的（即使现在动辄百万 token）。每个 t
 
 ### 内部局限
 
-- **隔离带来的"知识丢失"**：中断对话意味着 AI 之前建立的"对你的理解"（你的背景、偏好、常用术语）也一并丢失。虽然注入知识片段可以缓解，但不能完全替代多轮对话中形成的隐性理解。
-- **预判的准确性随任务复杂度下降**：对于熟悉的常规任务，预判准确率高。但对于探索性的复杂任务（如"帮我设计一个新的商业模式"），预判的准确性很低——因为你自己也不知道对话会走向哪里。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -160,8 +160,8 @@ AI 的上下文窗口是有限的（即使现在动辄百万 token）。每个 t
 
 ## 来源
 
-- 纪浩，AI 协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

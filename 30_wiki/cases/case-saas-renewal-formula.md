@@ -4,9 +4,9 @@ title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让�
 type: case
 status: enriched
 domain:
-  - yitang
-  - ai-saas
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
 source_refs:
@@ -21,10 +21,10 @@ review_date: "2026-06-20"
 confidence: 0.85
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-entrepreneur-unit-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"
@@ -114,9 +114,9 @@ related:
 
 ## 教训
 
-- **推结果只能推一时，改原因才能持续生效**。
-- 续费率的直接抓手不是“打电话”，而是“使用深度”和“价值感知”。
-- ToB SaaS 必须把决策者、推动者、使用者三层角色的价值感知分别拆开。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -152,14 +152,14 @@ related:
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：加法切分 + 乘法漏斗的应用
-- [[yt-business-formula-ten-paradigms]]：脱离成本型 #5、连续动作型 #9、工业生产型 #6 的组合
-- [[yt-business-formula-l6-essence-formulas]]：客户成功本质公式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、核心矛盾、公式升级结构（直接来自培训逐字稿）
-- **中置信度**：三层角色价值感知拆解、行为指标健康阈值（来自讲师解读）
-- **待复核**：具体 SaaS 品类的健康阈值需结合行业报告校准
+- src_unknown
+- src_unknown
+- src_unknown

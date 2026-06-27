@@ -11,16 +11,16 @@ trust_level: medium
 language: zh-CN
 domain: [yitang, decision-science]
 source_refs:
-- 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-用户卡片-惊喜公式-超越预期的用户体验设计_vlm_desc.md
+- src_unknown
 related:
-  - '[[tool-项目背景分析]]'
-  - '[[concept-峰终定律]]'
-  - '[[tool-用户视角]]'
-  - '[[tool-动力阻力分析]]'
-  - '[[tool-用户分层]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[concept-发现决策]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 惊喜公式：超越预期的用户体验设计
@@ -39,7 +39,7 @@ related:
 
 ## 与已有框架的关系
 
-- [[framework-科学决策三角形]]：concept维度补充科学决策的宽度/深度
+- src_unknown
 
 ---
 

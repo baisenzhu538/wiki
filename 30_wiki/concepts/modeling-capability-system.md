@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
@@ -19,27 +19,27 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 tags:
-  - '#method/modeling'
-  - '#content-format/framework'
-  - '#domain/yitang'
-  - '#method/thinking-tool'
-  - '#method/ai-collaboration'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - modeling-three-stages
-  - modeling-to-kdo-toolchain
-  - dk-modeling-ai-without-judgment
-  - dk-modeling-essence-predictive
+  - src_unknown-three-stages
+  - src_unknown-to-kdo-toolchain
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
+  - src_unknown
     framework_lens: 流程类建模
     follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
-  - signal: 用户说"道理都懂，但遇到新问题还是不会用"
+  - src_unknown
     framework_lens: 抽象建模
     follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
-  - signal: 用户说"学了很多方法论，但抓不住核心"
+  - src_unknown
     framework_lens: 本质提炼
     follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
-  - signal: 团队用 AI 生成了一套"看起来完整"的方法论，但落地时每个场景都要临时打补丁
+  - src_unknown
     framework_lens: 人在环中建模五步法
     follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
 
@@ -53,12 +53,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:19-20`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:90-93`。
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`。
-- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`。
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:112-116`。
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -101,22 +101,22 @@ diagnostic_signals:
 
 ## Reusable Knowledge
 
-- **建模 = 从混乱无序到有序体系**：把碎片经验变成可复用的框架和方法论。
-- **三段进阶路径**：
-  - 60 分：流程类建模（SOP、Check List）
-  - 75 分：抽象建模（方法论、框架、模型）
-  - 85 分：本质提炼（核心本质、关键词、公式）
-- **逻辑洁癖三要素**：优先级、MECE（不重不漏）、逻辑链。
-- **IPO 循环**：输入 → 处理（建模）→ 输出（应用）→ 反馈（优化）。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Open Questions
 
-- **具体假设**：建模能力是否对所有知识工作都普适？创意类、艺术类工作是否同样适用三段模型？
-- **边界**：流程类建模与抽象建模的界限在哪里？一个复杂的 SOP 是否已经在做抽象建模？
-- **反例**：是否存在「不建模反而更好」的场景？例如高度不确定的 0-1 创新期，过早建模是否会束缚探索？
-- **前提**：该体系假设建模是「越高阶越好」，但实际工作中是否需要根据场景匹配段位，而非一味追求 L5？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -124,19 +124,19 @@ diagnostic_signals:
 
 ### 可直接转化的交付物
 
-- **建模三段论检查清单**：用于判断一个课题应该做流程建模、抽象建模还是本质提炼。
-- **模型武器库索引表**：按问题难度匹配模型类型。
-- **段位自评问卷**：帮助个人/团队判断当前建模能力段位。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关联卡片
 
-- [[modeling-three-stages]]：建模三段论的详细拆解
-- [[modeling-level-map]]：六段能力段位图工具
-- [[modeling-weapon-library]]：常见模型武器库工具
-- [[process-modeling]]：流程建模实操工具
-- [[modeling-to-kdo-toolchain]]：建模三段论到 KDO 工具链的落地映射
-- [[dk-modeling-ai-without-judgment]]：AI 辅助建模的边界与挑错方法
-- [[dk-modeling-essence-predictive]]：预测性本质 vs 解释性本质的判断标准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -172,18 +172,18 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-段位图-01.png` — 能力段位图原图
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png` — 模型武器库原图
-- 00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt` — 口述转录原文
-- 00_inbox/建模能力/一堂-建模能力培训-truman-笔记.txt` — 结构化笔记原文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
-- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

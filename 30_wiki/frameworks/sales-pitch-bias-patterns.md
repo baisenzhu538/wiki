@@ -6,14 +6,14 @@ title: 销售话术偏误识别模式库
 type: framework
 status: enriched
 domain:
-  - yitang- business-strategy
-  - due-diligence
-  - vendor-assessment
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 tags:
-- '#method/research-method'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣
@@ -22,17 +22,17 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
-- '[[七件事集团]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 被标记的话术是否有至少一个独立来源交叉验证
+- src_unknown
   framework_lens: 可证伪 / 独立验证
   follow_up_question: 标记后是否停留在感觉层面？
-- signal: 是否区分了夸大话术与行业常规表达
+- src_unknown
   framework_lens: 基线校准 / 语境判断
   follow_up_question: 是否把行业通用表述误判为偏误？
-- signal: 是否对偏误风险做了量化评分而非简单定性
+- src_unknown
   framework_lens: 风险量化 / 决策权重
   follow_up_question: 哪种偏误对当前采购决策影响最大？
 review_grade: A
@@ -49,9 +49,9 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：将普通的商业接触包装为"战略合作"、"合作关系"。
 
 **识别方法**：
-- "合作"一词被滥用——API用户、云服务客户、渠道代理都被统称为"合作"
-- 要求对方提供合作协议、合作年限、合作深度证明
-- 独立验证：查阅合作伙伴官网的合作伙伴名录
+- src_unknown
+- src_unknown
+- src_unknown
 
 **案例**："我们有跟腾讯云、阿里云、支付宝的合作关系"——调研发现实际可能仅为API用户。
 
@@ -62,8 +62,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：将注册数、接触数、免费试用数包装为"服务"数。
 
 **识别方法**：
-- "服务了X万家企业"——追问：活跃付费企业是多少？年续费企业是多少？
-- 查阅工商信息中的社保人数，反推真实服务能力
+- src_unknown
+- src_unknown
 
 **案例**："目前服务十四多万家企业"——调研报告同时标注为"宣称13万家"，活跃付费客户未验证。
 
@@ -74,9 +74,9 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：将例行政府考察、招商引资访问、行业会议包装为官方认可。
 
 **识别方法**：
-- "XX领导来过"——追问：是否有正式合作协议？是否有政府批文？
-- 独立验证：查阅政府公告、新闻稿
-- 区分"到访"与"背书"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **案例**："国资委都有来我们这边"——暗示政府背书，无独立验证。
 
@@ -87,8 +87,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：制造合规焦虑、竞争焦虑来推动成交决策。
 
 **识别方法**：
-- "风险特别大""现在不做以后就来不及了"——识别紧迫性话术
-- 冷静评估风险的客观存在性和时间紧迫性的真实性
+- src_unknown
+- src_unknown
 
 **案例**："项目做起来了之后再搞顶层设计，这个风险是特别大的。而且一查的话，前面的所有东西就都没了。"
 
@@ -99,8 +99,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：暗示机会稍纵即逝、名额有限、名额已被预订。
 
 **识别方法**：
-- "今天是最后一天""名额只有X个"——独立验证活动频率
-- 观察销售催促的频次和紧急性
+- src_unknown
+- src_unknown
 
 **置信度惩罚**：-0.1
 
@@ -109,8 +109,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：先用"免费""不收钱"打消客户决策顾虑，后续通过其他渠道变现。
 
 **识别方法**：
-- "我们不收钱"——追问：那你们怎么盈利？
-- 识别免费背后的真实收费点和收费时机
+- src_unknown
+- src_unknown
 
 **案例**："我们是不收钱，我们只收现场成交额的五个点。"——"不收钱"的真实含义是延迟收费、按结果收费。
 
@@ -121,8 +121,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 **特征**：用华丽术语包装普通服务，制造专业壁垒。
 
 **识别方法**：
-- "合规云""顶层设计""全链路赋能"——要求对方用通俗语言解释
-- 翻译成可验证的具体行为：到底做了什么？交付了什么？
+- src_unknown
+- src_unknown
 
 **案例**："合规云体系""顶层设计""风险隔离""分层自治"——大量术语叠加，实际内容为普通公司注册+税务咨询。
 

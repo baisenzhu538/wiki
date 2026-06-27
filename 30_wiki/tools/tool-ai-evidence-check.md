@@ -3,8 +3,8 @@ id: tool-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-ai-problem-validation]]'
-- '[[tool-ai-ai-workspace-setup]]'
-- '[[tool-ai-voice-input-doubao]]'
-- '[[tool-ai-prd-for-ai]]'
-- '[[sk-ai-evidence-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI输出证据核查三问法
 
@@ -46,17 +46,17 @@ related:
 
 ## 适用场景
 
-- AI给出一个看起来很对的结论，但你不确定是否真的对
-- AI提供了一些数据或案例，你想验证真假
-- 需要用AI输出做出重要决策，但担心出错
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
+- src_unknown
 
 ## 为什么有效
 
@@ -64,13 +64,13 @@ AI的骗局不在于"说错话"——而在于"说的好像很对"。这个三�
 
 ## 关联技能
 
-- ai-coaching-loop
-- [[sk-ai-question-problem-checklist]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 半肥猫，AI俱乐部-AI学习落地分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

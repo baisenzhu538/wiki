@@ -7,8 +7,8 @@ title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
 status: enriched
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 一堂·Truman
 source_context: 一堂关键假设课，京东天津无人餐厅案例
 source_refs:
@@ -17,30 +17,30 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-  - '[[case-truman-poker-deck-roi]]'
-  - '[[yt-entrepreneur-259-milestone]]'
-  - '[[truman-perspective-skill]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-lean-assumption-verification-3means]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yt-lean-assumption-verification-3means]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 原始表述、问题、方案、可迁移、Feedback Path 均已填写
-- 关键假设失误点和验证路径已记录
-- 可迁移条件和不可复制场景已明确
-- 实际应用后收集反馈并更新案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 黄药师
 confidence: 0.75
@@ -85,9 +85,9 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 
 具体而言，在投入正式门店前，团队本应先验证：
 
-- **访谈调研**：找 2–3 位餐饮老兵访谈，确认机器人后厨/前厅的真实人效与维护成本。
-- **经验验证**：对标已有无人餐厅/机器人餐厅案例，研究其失败版本而非只看成功报道。
-- **最小实验**：在现有餐厅中租用一角，用临时机器人小车跑一周，记录真实维护工时、顾客接受度、出餐稳定性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果当时创业者先做一家实验店，用真实运营数据回答"机器人经营价值"这个问题，很可能会得出"噱头大于实质"的结论，从而避免更大的资源损失。
 
@@ -102,9 +102,9 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 
 **不适用 / 不可复制场景：**
 
-- 纯线上、边际成本接近零的产品（验证成本本身就低，不需要这种重型假设拆解）。
-- 已经跑通单元模型、进入复制扩张阶段的业务（此时核心问题是增长假设，不是价值假设）。
-- 政策、技术突破等无法低成本验证的外部假设（需要等待、观望或 Plan B，而非强行做实验）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -132,20 +132,20 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 
 在投入大资金前，先逐项打勾：
 
-- [ ] 已用 259 工具拆出需求、产品内核、商业模式、增长、壁垒五个环节的假设
-- [ ] 已识别 2–3 条最前置、风险最高的关键假设
-- [ ] 已通过访谈调研/经验验证/最小实验中的至少一种手段验证过关键假设
-- [ ] 已计算单店/单单元模型：收入、综合成本、毛利、回本周期
-- [ ] 已列出合作方（如有）的资源投入、收益预期、退出机制
-- [ ] 已设定硬止损线：投入金额/时间/核心指标未达 benchmark 70% 即停止
-- [ ] 已研究 2–3 个同模式失败案例，而非只看成功报道
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- **[[yt-entrepreneur-lean-validation]]** — 本案例是"低成本验证/MVP"工具的反面教材：无人餐厅团队在投入数千万开模板店之前，完全可以用 MVP（单店测试、快闪店、临时机器人小车）验证"人机协同""成本结构""用户接受度"三个假设。
-- **[[yt-research-hypothesis-test]]** — 本案例中的三个被忽视假设正好对应"假设验证调研工具"的核心设计——关键假设→可证伪问题→最小实验。如果团队在项目启动前用这个工具做一次系统性检查，数千万损失可能避免。
-- **[[concept-一堂-key-assumptions]]** — 本案例是"关键假设思维"的经典反面教材：机器人经营价值、单元模型、行业机会三条前置假设均未验证，导致业务系统性崩塌。
-- **[[yt-lean-assumption-verification-3means]]** — 本案例的失败模式"跳过低成本手段直接大规模投入"，正是该框架中"访谈调研→经验验证→实验验证"顺序被颠倒的典型症状。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
@@ -157,4 +157,4 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 4. 实验结果是否推翻了我最初的"美好愿望"？
 5. 如果合作方明天退出，我的业务还能独立跑通吗？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-一堂-无人餐厅-hypothesis-failure`。
+- src_unknown

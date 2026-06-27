@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- personal-growth
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,34 +22,34 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
-  - '[[case-truman-personal-growth-map-creation]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[case-ai-agent-milestone-design]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[tool-iterative-recursive-deep-dig]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[yt-model-personal-map]]'
-  - '[[case-truman-personal-growth-map-creation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#content-format/canvas'
-- '#method/course-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 有十几个分散课题，但团队找不到能把它们串起来的主干结构
+- src_unknown
   framework_lens: 缺少抽象阶梯的顶层收敛——还停留在罗列，没有完成"一横一纵"级的压缩
   follow_up_question: 你能不能用一个不超过 10 个字的结构（如一横一纵、四格天花板）把全部课题装进去？如果写不出，说明还没找到主干。
-- signal: 每个人把课程往框架里塞的方式都不一样
+- src_unknown
   framework_lens: 分类标准未统一，框架的粒度/维度还没被团队共同"气顺"
   follow_up_question: 你们团队是否对"每一条课程属于哪一类、为什么属于这一类"有过 ≥3 轮的对撞？
-- signal: AI 出的版本看起来漂亮，但塞不进真实内容
+- src_unknown
   framework_lens: 生成式模型擅长表面分类，不擅长业务解释力判断
   follow_up_question: AI 出了几个版本？你手工写了几个版本？两者差距是否集中在"为什么这类课程必须放在一起"？
-- signal: 地图画完后不敢拿到真实用户面前讲
+- src_unknown
   framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
 ---# 案例：一堂个人地图的完整建模过程
@@ -64,10 +64,10 @@ diagnostic_signals:
 
 ## Background
 
-- **场景**：一堂课程体系扩展，需要第三张地图（个人地图）
-- **问题**：课越来越多，个人成长类课程在原有地图里成了“填补缝隙”的课，位置尴尬
-- **建模目标**：做出一张有江湖地位的个人成长地图
-- **来源**：`src_20260614_8269ccdb#1432-1747`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -76,32 +76,32 @@ diagnostic_signals:
 ### Step 1：全量整理
 
 Truman 和阿蕊老师先把一堂所有可能跟个人成长相关的课全拉出来：
-- 已有的课
-- 未来的课
-- 可能入围的课
+- src_unknown
+- src_unknown
+- src_unknown
 
 输出：一个很乱的单子。
 
 ### Step 2：寻找内部规律
 
 团队每个人分别整理课与课之间的关系：
-- 时间管理和人生目标是两端
-- 深度思考和知识管理相互促进
-- AIGC 可以帮助灵感闪现
-- IPO 决定刻意练习的套路
-- 刻意练习决定笔记质量
-- 逐字稿是最小单位，最终封装成演讲
-- 泛产品设计支撑交付
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 每个人都在找联系，但没有统一框架。
 
 ### Step 3：找市场模型
 
 去市场上搜集各种呈现方式：
-- 横版/竖版分栏（太传统）
-- 明斯伯格模型
-- 十一学校组织结构图
-- 各种创新图
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 发现都塞不进去，呈现不出课程之间的逻辑关系。
 
@@ -122,16 +122,16 @@ Truman 逼着自己写了 5–10 个版本：
 ### Step 5：找到主干——“四格天花板”
 
 最终找到简洁结构：
-- **一横**：综合能力
-- **两条腿**：认知（元器）+ 能力（刻意练习）
-- **两条腿越长越高，推高天花板**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 6：整理合并 + 团队往里塞课
 
 给团队一个 1.0，每个人把一堂的课往这个框架里塞：
-- 有人把写作放底座
-- 有人左边认知、右边行动
-- 每个人塞法都不一样
+- src_unknown
+- src_unknown
+- src_unknown
 
 发现不满意：不能简洁、不能被理解、混乱。
 
@@ -143,9 +143,9 @@ Truman 发挥最大价值：**一直没认怂**，不断说“不行，明天接
 > **“时间管理决定人生下限，人生高点决定人生上限。”**
 
 于是把图定成：
-- **下面**：时间管理（最小单位，每一分钟）
-- **上面**：人生空间（最大单位，人生目标）
-- **中间**：能力和认知支撑综合能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 骨架终于出来。
 
@@ -159,21 +159,21 @@ Truman 发挥最大价值：**一直没认怂**，不断说“不行，明天接
 
 ## 结果
 
-- **骨架定稿**：形成以“时间管理（下限）—人生空间（上限）—能力与认知（支撑）”为轴的个人地图骨架，成为一堂第三张正式地图。
-- **内部评级**：Truman 团队内部将其视为 **10 万美金级别的地图**。
-- **外部验证**：在 200 人场域中系统性路演，最终 slogan 被用户当场复述和认同。
-- **后续影响**：该骨架直接支撑了 [[yt-model-personal-map]] 的课程结构与“四层金字塔”内容编排。
-- **方法论沉淀**：把“全量整理 → 找规律 → 竞品扫描 → 5–10 版迭代 → 团队塞课 → 逻辑洁癖 → 路演验证”沉淀为地图创作 SOP。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 明确说这是“10 万美金级别的地图”，还原了完整建模过程。——来源：`src_20260614_8269ccdb#1464`。
-- **证据 2 [conf=0.85]**：从十几个模糊课题开始，先全量整理，再寻找规律。——来源：`src_20260614_8269ccdb#1500-1520`。
-- **证据 3 [conf=0.85]**：Truman 写了 5–10 版才找到“一横一纵”的主干。——来源：`src_20260614_8269ccdb#1584-1640`。
-- **证据 4 [conf=0.8]**：最终骨架来自“时间管理决定人生下限，人生高点决定人生上限”的金句。——来源：`src_20260614_8269ccdb#1680-1702`。
-- **证据 5 [conf=0.8]**：通过 200 人场域的路演验证，才最终定稿。——来源：`src_20260614_8269ccdb#1726-1740`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -233,17 +233,17 @@ Truman 发挥最大价值：**一直没认怂**，不断说“不行，明天接
 
 ## 关联节点
 
-- [[yt-model-personal-map]] —— 个人地图的成品框架（四层金字塔），本案例是其创作过程的回溯。
-- [[case-truman-personal-growth-map-creation]] —— 同一案例的另一种叙事，侧重“七步创作法”与 AI 辅助判断。
-- [[tool-canvas-weapon-library-modeling]] / [[tool-radar-chart-modeling]] —— 地图建模中可用的武器库工具。
-- [[modeling-scientific-milestones]] —— 地图创作中的关键里程碑验证思路。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1432-1747`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-案例-个人地图-图-01.png`
+- src_unknown
+- src_unknown
 
 ---
 

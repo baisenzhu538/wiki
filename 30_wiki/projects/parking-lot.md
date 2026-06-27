@@ -4,25 +4,25 @@ title: 停车场清单
 type: index
 status: enriched
 domain:
-- healthcare
-- compliance
-- product-management
+- src_unknown
+- src_unknown
+- src_unknown
 id: parking-lot
 created_at: '2026-06-13'
 updated_at: '2026-06-19'
 related:
-  - '[[session-20260619-xingangwan-business-formula-reconstruction]]'
-  - '[[互联网医院项目]]'
-  - '[[鑫港湾HIS项目]]'
-  - '[[诊所O2O项目]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[shanxi-field-research-checklist-20260701]]'
-  - '[[xingangwan-pharma-business-formulas]]'
-  - '[[xingangwan-pharma-business-model-calc]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- backlog
-- parking-lot
-- 待安排
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 source_context: KDO internal task tracking
 source_refs:
@@ -33,8 +33,8 @@ review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- author 字段为 unknown，原始任务创建者未记录
-- source_refs 中部分引用为 URL 且无独立 source_id，置信度上限 0.88
+- src_unknown
+- src_unknown
 ---
 # 停车场清单
 
@@ -46,10 +46,10 @@ diagnostic_signals:
 
 ## 核心要点
 
-- 当前停车 **11 项**，覆盖合规确认、商务对接、协议设计、品种测算、医保接入、系统改造、运营验证、政府合作、现场调研、模型修正。
-- 已完成 **6 项** 基础调研（政策边界、平台调研、单柜财务测算、落地架构、调研清单、商业模型框架）。
-- **7 月 1 日山西现场调研** 是高优先级触发事件，将决定 PL-002/PL-003/PL-005/PL-006/PL-011 等多项任务的输入数据。
-- 停车场 **不承诺完成时间**，仅作为迭代规划的输入清单；任务出池需经迭代规划会议或用户确认。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 当前停车任务
 
@@ -84,8 +84,8 @@ diagnostic_signals:
 ### PL-001：药柜屏幕显示处方药信息的合规边界
 
 **背景**：
-- 鑫港湾药柜模式涉及"互联网医院开方 → 药店审方 → 药柜取药"的闭环。
-- 关键合规争议点：药柜屏幕在未处方/已处方两种状态下，显示处方药信息是否构成违规处方药广告/推广。
+- src_unknown
+- src_unknown
 
 **已明确的政策红线**（来自互联网医院调研报告）：
 1. 处方药网络广告禁令已生效。
@@ -94,45 +94,45 @@ diagnostic_signals:
 4. 互联网诊疗仅限部分常见病、慢性病复诊，首诊禁区仍在。
 
 **已形成的初步判断**：
-- ✅ 合规：患者已持有效电子处方、药师审方通过后，药柜屏幕显示药品说明书、用法用量、禁忌、储存条件、审方药师信息。
-- ❌ 违规：患者未持有处方时，屏幕展示处方药适应症、功效、价格促销、可滑动药品目录或诱导开方购买的文案。
-- 🟡 灰色：泛健康科普不指向具体药品时通常合规，但需避免与在售处方药一一对应或跳转问诊购药。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **待决策项**：
-- 卡片类型：decision（决策卡，含执行方案）还是 concept（概念卡，聚焦监管边界定义）？
-- 是否需要在同一卡片中覆盖"互联网医院接入药柜的整体合规架构"，还是单独成卡？
+- src_unknown
+- src_unknown
 
 **建议触发条件**：
-- 药柜小程序/硬件产品方案进入 UI/UX 设计阶段前。
-- 与法务/合规团队进行药柜业务合规评审前。
-- 互联网医院接入协议签署前。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### PL-002：确认山西首发城市及诊所药柜备案可行性
 
 **背景**：
-- 山西 2026 办法允许在"街道社区、住宅小区等人口聚集场所"设置智慧药房（柜），但未明确列举"诊所内"。
-- 长治市 2022 年规定明确允许智能药柜设置在"各级医疗机构内"，是山西最优首发地。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 确认鑫港湾首发城市（首选长治市）。
 2. 与目标城市药监/行政审批部门沟通，确认：
-   - 药柜是否可设在诊所内；
-   - 需提交哪些备案/审批材料；
-   - 是否要求诊所具备特定资质。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **预期产出**：书面或口头确认记录，更新决策卡第 7 节落地路线图。
 
 ### PL-003：评估桃子/银叶与山西本地医院合作可能性
 
 **背景**：
-- 山西医保 2023 年 15 号文要求互联网医院以本统筹地区定点医疗机构为依托，医师须在山西注册。
-- 桃子/银叶依托实体医院分别位于成都、广州，当前处方无法纳入山西门诊统筹报销。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 与桃子/银叶商务沟通，询问：
-   - 是否与山西本地医院有合作；
-   - 是否可协助药店接入山西医保电子处方中心；
-   - 处方费用、审方费用、年费等具体收费标准。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. 评估是否需要切换为山西本地互联网医院（如山西省人民医院、长治市人民医院互联网医院）。
 
 **预期产出**：平台合作方案对比表，明确自费路径与医保路径。
@@ -140,15 +140,15 @@ diagnostic_signals:
 ### PL-004：设计诊所场地租赁协议模板
 
 **背景**：
-- 山西 2026 办法第三十条明确"药品零售企业应遵照依法批准的经营方式和经营范围从事经营活动，不得出租柜台等"。
-- 若诊所按销售额分成，可能被认定为出租柜台或诊所变相售药。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 起草场地租赁协议模板，明确：
-   - 固定租金，不按销售额分成；
-   - 药店独立经营、独立结算；
-   - 诊所不参与药品采购、定价、销售、审方；
-   - 药柜显著标识药店名称和许可证信息。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. 提交法务审核。
 
 **预期产出**：1 份可签署的场地租赁协议模板。
@@ -156,8 +156,8 @@ diagnostic_signals:
 ### PL-005：测算首批入柜慢病品种及医保报销比例
 
 **背景**：
-- 单柜 18 个月回本需要约 64 位月活跃慢病客户、28% 以上综合毛利率。
-- 医保报销比例直接影响患者自付金额和转化率。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 筛选首批入柜品种（高血压、糖尿病、高血脂等慢性病常用药）。
@@ -169,8 +169,8 @@ diagnostic_signals:
 ### PL-006：对接山西医保电子处方中心和移动支付
 
 **背景**：
-- 山西 2023 年 15 号文要求定点药店接入处方平台后方可开展"互联网+"医保结算。
-- 医保端信息系统服务商不得收取费用。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 联系当地医保经办机构，提交接入申请。
@@ -182,7 +182,7 @@ diagnostic_signals:
 ### PL-007：药品追溯码"无码不结"系统改造
 
 **背景**：
-- 2025 年 7 月 1 日起，药品销售需扫描追溯码，无码无法医保结算。
+- src_unknown
 
 **待办**：
 1. 药店 ERP 与智慧药柜系统增加追溯码采集、核验、上传功能。
@@ -194,8 +194,8 @@ diagnostic_signals:
 ### PL-008：验证单柜获客模型与复购率
 
 **背景**：
-- 单柜财务模型基于假设：64 位月活跃客户、客单价 180 元、毛利率 28%。
-- 实际运营数据可能偏离假设。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 在长治市或其他首发城市投放首台药柜。
@@ -207,8 +207,8 @@ diagnostic_signals:
 ### PL-009：拓展政府公共卫生项目合作形式
 
 **背景**：
-- 鑫港湾政府公共卫生项目在谈，可能提供资金、场地、患者导流或品牌背书。
-- 政府支持可降低单柜回本压力，提升可复制性。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 明确政府项目的具体目标和考核指标（如慢病管理人数、随访率、用药依从性）。
@@ -220,73 +220,73 @@ diagnostic_signals:
 ### PL-010：执行山西 7 月 1 日现场调研
 
 **背景**：
-- 用户确认将于 2026 年 7 月 1 日赴山西调研。
-- 调研前已形成决策卡和财务测算，但多项关键假设需在山西当地验证。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 出发前 1 周预约长治市市场监督管理局、医保局、目标诊所、药店。
 2. 按《山西 7 月 1 日智慧药柜项目调研清单》执行访谈和实地考察。
 3. 重点关注：
-   - 药柜可否设在诊所内；
-   - 备案/审批材料和周期；
-   - 医保电子处方中心接入条件；
-   - 第三方互联网医院处方能否走医保；
-   - 目标诊所资质、流量、合作意愿、场地租金；
-   - 首批入柜品种和医保报销比例。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **预期产出**：
-- 《山西调研纪要》
-- 合规路径确认书
-- 合作诊所评估表
-- 修正后的单柜经济模型
-- 更新后的落地时间表
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **建议触发条件**：
-- 7 月 1 日调研前作为准备文档使用。
-- 调研后 3 天内更新决策卡和停车场清单。
+- src_unknown
+- src_unknown
 
 ### PL-011：基于实际数据修正商业模型
 
 **背景**：
-- 用户要求深入商业模式计算与业务公式，数据后续由用户修正。
-- 已拆分为两份独立文档：
-  - 业务公式 `30_wiki/frameworks/xingangwan-pharma-business-formulas.md`：聚焦医保药引流 + 原研药利润的转化漏斗与杠杆变量。
-  - 商业模型计算 `30_wiki/frameworks/xingangwan-pharma-business-model-calc.md`：聚焦财务测算、盈亏平衡、回本周期、LTV/CAC。
-- 配套 CSV 计算模板 `30_wiki/projects/xingangwan-business-model-calc-template.csv` 已增加医保药/原研药拆分参数。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **待办**：
 1. 7 月 1 日山西调研后，将实际数据填入 CSV 模板：
-   - 单柜硬件成本、场地租金、平台费、审方费
-   - 首批入柜品种采购价、零售价、毛利率（区分医保药和原研药）
-   - 目标诊所日均门诊量、慢病患者占比、触达率、建档率、首单转化率、自费升级率
-   - 医保报销比例、患者自付金额
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. 分别验证业务公式中的关键转化率假设和商业模型中的财务假设。
 3. 重新计算单柜/单店/区域/平台的盈亏平衡、回本周期、LTV/CAC。
 4. 根据计算结果调整落地策略：
-   - 是否调整医保药与原研药品类结构
-   - 是否调整自费原研药的推荐话术与患者教育
-   - 是否调整场地租金谈判目标
-   - 是否调整获客策略和定价
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 **预期产出**：
-- 填入真实数据后的商业模型测算表
-- 修正后的单柜回本路径
-- 更新后的业务公式漏斗数据
-- 单店/区域盈利优化建议
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **建议触发条件**：
-- 山西调研后数据回收完成。
-- 与财务/投资人进行商业计划书讨论前。
+- src_unknown
+- src_unknown
 
 ## 边界
 
-- **入池标准**：已识别、与项目群相关、但尚未进入迭代执行的任务；必须有编号、任务简述、来源、预期产出、关联项目。
-- **不出池标准**：
-  - 未形成可描述任务项的模糊想法；
-  - 已排期并进入 active 状态的任务（应迁移到对应项目卡的迭代计划中）；
-  - 已完成任务（归档到"已完成任务"表，并从当前停车表移除）。
-- **不替代项目计划**：停车场只记录"待安排"，不分配资源、不设定 deadline、不替代项目里程碑管理。
-- **不替代 source 管理**：任务来源应尽量链接到 source 文件或决策卡，而非仅写一句描述。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -301,48 +301,48 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 每周五 review 停车场，更新优先级、状态和备注。
-- [ ] 每个新停车任务必须包含：编号、任务简述、来源、预期产出、关联项目、优先级。
-- [ ] 迭代规划时从停车场选取任务进入对应项目卡的 active 计划，并同步更新关联卡。
-- [ ] 任务完成或取消时，从"当前停车任务"移入"已完成任务"或删除，并说明原因。
-- [ ] 7 月 1 日山西调研后 3 天内，依据调研结果更新本卡及关联决策卡/商业模型卡。
-- [ ] 每月至少一次清理 stale 任务（超过 2 个迭代周期无进展），决定保留/移除/分解。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[互联网医院项目]] — 互联网医院接入合规路径与平台选型。
-- [[鑫港湾HIS项目]] — 药店/诊所信息系统改造与追溯码接入。
-- [[诊所O2O项目]] — 诊所场地、合作模式与患者导流。
-- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]] — 智慧药柜商业模式与落地架构决策卡。
-- [[shanxi-field-research-checklist-20260701]] — 7 月 1 日山西现场调研清单与访谈提纲。
-- [[xingangwan-pharma-business-formulas]] — 业务公式框架（医保药引流 + 原研药利润漏斗）。
-- [[xingangwan-pharma-business-model-calc]] — 商业模型计算（单柜/单店/区域/平台财务测算）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### PL-012：补齐 KF-021 剩余 33 张 source 缺失
 
 **背景**：
-- 2026-06-19 用户明确安排：由王语嫣牵头补齐 KF-021 批次中剩余 33 张 source 缺失的卡片。
-- source_refs 是卡片进入 enriched/reviewed/stable 状态的硬性门槛。
+- src_unknown
+- src_unknown
 
 **待办**：
 1. 导出 KF-021 批次中 source 缺失的 33 张卡片清单。
 2. 按缺失类型分类：
-   - 公开来源（网页/PDF/论文/政策文件）→ 王语嫣直接检索补齐。
-   - 内部来源（访谈/会议/内部文档）→ 请用户提供原始记录或文件路径。
-   - 无法溯源的观点/判断 → 退回老顽童补充证据链或重写结论。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 更新每张卡的 source_refs，确保格式正确（文件路径或已注册 src ID）。
 4. 通过 `kcard-quality-gate.py` 验证 source 补齐结果。
 
 **分工**：
-- **王语嫣**：牵头补齐、来源可靠性判断、质量门禁验证。
-- **老顽童**：对被打回的卡片补充证据或重写结论。
-- **黄药师**：如涉及 source_id_map.json 注册表更新，负责基础设施侧支持。
-- **欧阳锋**：source 补齐后的审查抽检。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预期产出**：
-- 33 张卡片 source_refs 完整，通过质量门禁。
-- 无法补齐的卡片清单及原因说明。
+- src_unknown
+- src_unknown
 
 **建议触发条件**：
-- 知识库精修批次进入 enriched/reviewed 前。
-- 用户明确排期启动本任务。
+- src_unknown
+- src_unknown

@@ -5,9 +5,9 @@ title: "私域 SaaS 销售四步法"
 type: framework
 status: stable
 domain:
-  - SaaS
-  - "私域电商"
-  - "销售流程"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
@@ -17,17 +17,17 @@ diagnostic_signals:
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-- "智能药柜-招商合作沟通录音 (2026-06-13)"
+- src_unknown
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - '[[yt-growth-scaling-pitfalls]]'
-  - '[[source-code-delivery-model]]'
-  - '[[tool-yitang-pc-web-data]]'
-  - '[[七件事集团]]'
-  - '[[yt-personal-scientific-expression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 私域 SaaS 销售四步法
 
@@ -49,33 +49,33 @@ related:
 
 ### Step 1：顶层设计
 
-- 股权架构设计
-- 风险隔离安排
-- 税务合规方案
+- src_unknown
+- src_unknown
+- src_unknown
 
 **目的**：在签约前把客户的顶层结构与合规框架梳理清楚，为后续模式设计奠定制度基础。
 
 ### Step 2：模式设计
 
-- 分销层级设定
-- 佣金比例与结算规则
-- 裂变机制与奖励设计
+- src_unknown
+- src_unknown
+- src_unknown
 
 **目的**：把客户的商业意图转化为可执行的分销规则，是 SaaS 系统需求的主要来源。
 
 ### Step 3：系统搭建
 
-- 定制开发
-- SaaS 标准化交付
-- 源码交付
+- src_unknown
+- src_unknown
+- src_unknown
 
 **目的**：根据客户预算、控制欲与定制深度，选择合适的技术交付形态。
 
 ### Step 4：招商落地
 
-- 会务邀约
-- 现场成交
-- 按成交额 5% 抽成
+- src_unknown
+- src_unknown
+- src_unknown
 
 **目的**：帮助有资源但缺招商能力的客户完成首批渠道或终端拓展，实现从"系统"到"业务结果"的闭环。
 

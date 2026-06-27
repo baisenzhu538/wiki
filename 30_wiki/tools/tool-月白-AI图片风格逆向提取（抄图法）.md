@@ -4,32 +4,32 @@ title: 技能：AI图片风格逆向提取（抄图法）
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-产品反光修复术]]'
-- '[[tool-月白-竞品图精益替换法]]'
-- '[[tool-月白-AI图片去文字处理]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI图片风格逆向提取（抄图法）
 
@@ -47,24 +47,24 @@ AI图片风格逆向提取（抄图法）是月白在AI设计师实操中提出�
 
 ## 适用场景
 
-- 看到喜欢的参考图想要复刻风格
-- 不会写复杂提示词
-- 需要控制生成图的方向
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 有明确原创设计要求
-- 参考图版权存疑
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 豆包AI
-- 截图工具
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -72,12 +72,12 @@ AI图片风格逆向提取（抄图法）是月白在AI设计师实操中提出�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

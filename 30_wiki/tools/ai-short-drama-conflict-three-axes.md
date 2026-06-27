@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: enriched
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-13'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,34 +21,34 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-framework-three-axes
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#industry/content-creation'
-- '#content-format/concept-card'
-- '#content-format/checklist'
-- '#chunk-type/question'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"反派太单薄，像工具人"
+- src_unknown
   framework_lens: 第一板斧·外在阵营立分明
   follow_up_question: 反派的阵营立场是否有清晰的利益、价值观或身份逻辑？
-- signal: 用户说"主角和配角的感情线突兀"
+- src_unknown
   framework_lens: 第二板斧·内在人际见真情
   follow_up_question: 主角与关键配角之间是否有共同记忆、利益交换或情感债务？
-- signal: 用户说"剧情爽完就忘，没有回味"
+- src_unknown
   framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角最终的选择是否回应了他/她内心深处的恐惧或渴望？
-- signal: 用户说"主角从头到尾没有变化"
+- src_unknown
   framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角在决战前是否做出了一个让其身份发生不可逆改变的选择？
-- signal: 用户说"冲突只有打打杀杀，没人关心人物死活"
+- src_unknown
   framework_lens: 第二板斧·内在人际见真情
   follow_up_question: 是否为关键人物关系设计了情感债务和至少一处关系反转？
-- signal: 用户说"前面很炸，后面越写越散"
+- src_unknown
   framework_lens: 三层冲突配比失衡
   follow_up_question: 三层冲突的戏份配比是否匹配题材定位（逆袭/甜宠/成长）？
-- signal: 用户说"结局像口号，不真实"
+- src_unknown
   framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角的成长是否通过具体行动或牺牲体现，而非独白/旁白？
 
@@ -91,12 +91,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 短剧冲突需要三个层次协同：外在阵营（利益/立场）、内在人际（情感/关系）、自我宿命（身份/意义）。
-- **C2 [conf=0.85]**: 外在阵营层解决"谁和谁打"的问题，必须让观众一眼看清正反派的核心利益冲突。
-- **C3 [conf=0.85]**: 内在人际层解决"为什么虐心"的问题，主角与关键配角之间的情感张力让观众产生共情。
-- **C4 [conf=0.8]**: 自我宿命层解决"看完为什么回味"的问题，主角最终的选择必须回应其内心深处的恐惧或渴望。
-- **C5 [conf=0.8]**: 三层冲突并非平均分配，不同题材侧重点不同：逆袭剧重外在阵营，甜宠剧重内在人际，成长剧重自我宿命。
-- **C6 [conf=0.75]**: 该工具可转化为 AI prompt 模板，用于检查或生成冲突设计。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -112,25 +112,25 @@ diagnostic_signals:
 
 1. 列出故事中所有阵营：主角阵营、反派阵营、中立阵营、第三方阵营。
 2. 为每个阵营写一句话核心利益：
-   - 主角阵营想要什么？
-   - 反派阵营想要什么？
-   - 双方的利益为什么不可调和？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 检查阵营立场是否"一眼分明"：新观众看 30 秒能否知道谁跟谁对立、为什么对立。
 
 ### 步骤 2：内在人际 — 见真情
 
 1. 列出主角与 3-5 个关键人物的关系：爱人、朋友、家人、导师、对手。
 2. 为每对关系写一句"情感债务"：
-   - 谁欠谁？欠的是情、义、命还是信任？
-   - 这种债务如何被冲突放大或撕裂？
+   - src_unknown
+   - src_unknown
 3. 设计至少一处"关系反转"：原本亲密的人因阵营对立被迫为敌，或原本敌对的人因共同利益暂时结盟。
 
 ### 步骤 3：自我宿命 — 寻答案
 
 1. 写出主角的"内心缺口"：他/她最害怕什么？最渴望什么？最不相信自己什么？
 2. 设计主角在决战前必须做出的"身份选择"：
-   - 继续当过去的自己，还是成为新的自己？
-   - 为某个人/某个信念牺牲，还是保全自己？
+   - src_unknown
+   - src_unknown
 3. 确认结局中主角因这个选择发生了"不可逆的成长"。
 
 ### AI 使用方式
@@ -175,22 +175,22 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 已列出主角、反派、第三方的核心利益，并明确不可调和点
-- [ ] 已为主角与 3-5 个关键人物建立情感债务（情/义/命/信任）
-- [ ] 已设计至少 1 处关系反转，并确认有前置铺垫
-- [ ] 已写出主角的内心缺口（恐惧/渴望/自我否定）
-- [ ] 已设计主角必须做出的身份选择，并确认选择有具体代价
-- [ ] 已确认结局中主角因该选择发生不可逆成长
-- [ ] 已根据题材调整三层冲突的戏份配比
-- [ ] 已用 AI prompt 生成初稿并人工校准情感细腻度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
-- [[ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -209,9 +209,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 三斧对"外在阵营"的强调可能导致非黑即白的角色塑造，复杂反派容易被简化为纯恶。
-- "内在人际"要求持续铺垫，但短剧集数有限，关系建立速度可能跟不上冲突爆发速度。
-- "自我宿命"层最依赖创作者对人生问题的理解，模板化使用容易变成空洞的"自我和解"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Lajos Egri — "冲突源于人物，而非阵营"
 
@@ -223,8 +223,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果只有外在阵营层，没有内在人际和自我宿命，会怎样？观众会爽，但不会有情感记忆，角色也无法形成 IP 价值。
-- 如果三层冲突在每一集都用力呈现，会怎样？信息过载，节奏拖沓，短剧变成"迷你长剧"。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -232,9 +232,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
-- [[ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -263,16 +263,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.png` — 原始信息图
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.json` — OCR 结构化 JSON
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- `src_20260613_37933c99-ai-short-drama-conflict-three-axes.md:11-14` — 归档后的原图摘要
+- src_unknown
 
-- 10_raw/sources/src_20260613_37933c99-conflict-three-axes.md:11-14` — 矛盾冲突三板斧原图（外在阵营/内在人际/自我宿命）
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:2125` — 口述中讲解外在/内在/自我三层冲突
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:98-114` — 矛盾冲突三板斧结构化笔记
+- src_unknown
+- src_unknown
+- src_unknown
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及矛盾冲突三板斧图片*

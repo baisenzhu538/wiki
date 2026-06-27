@@ -3,8 +3,8 @@ id: tool-Truman-信息输入持续补全（防AI错误累积）
 title: 技能：信息输入持续补全（防AI错误累积）
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI辅助思考伙伴养成]]'
-- '[[tool-Truman-低质量动作识别与拒绝]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：信息输入持续补全（防AI错误累积）
 
@@ -37,24 +37,24 @@ related:
 
 ## 适用场景
 
-- 使用AI生成长文档/复杂方案时
-- 发现AI输出越来越空洞时
-- 多轮优化后质量未提升时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- AI已掌握充足领域知识时
-- 简单任务无需深度信息时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 分块输入模板
-- 版本对比工具
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -62,12 +62,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

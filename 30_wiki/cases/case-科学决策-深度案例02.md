@@ -9,18 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例02_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例02.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例02_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例02.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例02_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了个人日常决策中定量与定性因子的混排比较。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,10 +40,10 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：职场个人
-- **决策问题**：上班选择开车还是打车
-- **分析框架**：三列表格（具体项 / 能否定量 / 补充解释）
-- **关键假设**：路上时间可按办公室效率的 25% 折算为有效工作时间
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -77,35 +77,35 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **效率派**：2000 元换 10 小时有效时间，相当于 200 元/小时。如果时薪高于此，打车是理性选择。
-- **生活派**：通勤不只是时间成本，更是生活方式的一部分。开车可能带来掌控感，打车可能带来阅读/思考空间，这些无法折算。
-- **行为经济学派**：人在不同时间段对时间价值的感知不同。早高峰的 1 小时比周末的 1 小时"更贵"，平均化会误导决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **远程办公 vs 坐班**：用同样框架比较通勤成本与办公效率。
-- **工具采购决策**：购买效率工具时，把时间节省折算为金钱价值。
-- **外包 vs 自做**：把"自己做事"的时间成本和"外包"的现金成本并列比较。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 任何"效率系数"都必须说明来源，否则只是包装过的直觉。
-- ⚠️ 当决策涉及生活方式时，不要用单一的时间-金钱框架覆盖所有价值。
-- ⚠️ 看到"难以定量"的因子时，要追问：是真的不能量化，还是懒得量化？
-- ⚠️ 二选一决策中，两个选项的可靠性、风险、心理成本必须纳入比较。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L1→L2 升级——从"开车便宜"的定性判断升级到"2000 元换 10 小时"的数量级比较。
-- **[[tool-决策深度-L2部分定量]]**：案例是该工具在个人决策场景的应用示范。
-- **[[concept-X型Y型决策习惯]]**：案例用表格强制 X 型（直觉）决策者进入 Y 型（结构化）思考。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Postman（媒介化陷阱）**：时间换算框架假设车上时间是"被浪费的时间"，但实际上车上可能是思考、阅读、放空的时间。用效率框架评估生活方式选择，会束缚人对生活方式的想象。[conf=0.75, source=Postman, Amusing Ourselves to Death]
-- **Thaler（心理账户）**：人类大脑对工作时间和生活时间有不同的价值账户。案例把路上时间折算为工作效率，可能混淆了两个账户。更重要的是，1 小时的价值在不同时间段是非均化的，不能用平均值代替。[conf=0.80, source=Thaler, Misbehaving]
+- src_unknown
+- src_unknown
 
 ---
 

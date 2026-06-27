@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,25 +14,25 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb19-visual-strategy-price-match]]'
-  - '[[dk-yb30-ecommerce-channel-version]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb9-cubox-deployment-failure]]'
-  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-  - '[[dk-yb26-chinese-food-photography-props]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 团队把 AI 抽卡场景图直接当跨境电商主图使用
-- 追求"图好看"但忽略了平台白底图合规要求
-- 国内电商经验直接套用到亚马逊/速卖通导致审核被拒
+- src_unknown
+- src_unknown
+- src_unknown
 ---# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 
 ## 原始表述/核心洞察
@@ -53,9 +53,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 不适用于纯内容创作无销售转化的场景
-- 不适用于平台允许场景图作为主图的情况（如部分独立站）
-- 国内电商部分类目已允许场景图，但跨境主流平台仍以白底图为强制要求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -72,5 +72,5 @@ AI绘画社区大量讨论"怎么抽卡更好看"，但极少有人点破：抽�
 
 ## 与其他知识的关联
 
-- [[dk-yb26-chinese-food-photography-props]] — 中式食物摄影低成本氛围道具搭配
-- [[dk-yb18-small-shop-image-mismatch]] — 小店图片错配陷阱
+- src_unknown
+- src_unknown

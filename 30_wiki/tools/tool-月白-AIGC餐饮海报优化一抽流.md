@@ -4,32 +4,32 @@ title: 技能：AIGC餐饮海报优化一抽流
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-关键要素提取改图法]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-AI设计三段式里程碑流程]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AIGC餐饮海报优化一抽流
 
@@ -48,25 +48,25 @@ AIGC餐饮海报优化一抽流是月白在AI设计师实操中提出的实操�
 
 ## 适用场景
 
-- 20-50元小型餐饮门店海报制作
-- AIGC生成图有食欲但显假时
-- 需要快速迭代餐饮视觉物料
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 高端连锁餐饮总部级精修需求
-- 需要完全真实摄影效果
-- 预算充足可请专业食品摄影师
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AIGC图像生成工具（如Midjourney/Stable Diffusion）
-- AI对话工具辅助审查
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -74,12 +74,12 @@ AIGC餐饮海报优化一抽流是月白在AI设计师实操中提出的实操�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

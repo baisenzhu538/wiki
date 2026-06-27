@@ -6,45 +6,45 @@ title: 技能：提问题转化三问清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
 wiki_refs:
-- '[[sk-ai-problem-validation]]'
-- '[[ai-collaboration-mindset-shift]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
-- 失败模式已表格化并给出修复动作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 笔记本和笔
+- src_unknown
 prerequisite_skills: null
 related:
-  - '[[tool-ai-problem-question-check]]'
-  - '[[sk-ai-problem-validation]]'
-  - '[[ai-collaboration-mindset-shift]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[tool-纪浩-Problem与Question区分法]]'
-  - '[[sk-ai-problem-validation]]'
-  - '[[ai-collaboration-mindset-shift]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.90
 trust_level: medium
 diagnostic_signals:
-- question 与 problem 的区分标准已明确为 before/after 可验收性
-- 操作步骤已转化为可执行 Checklist，失败模式已整理为表格
+- src_unknown
+- src_unknown
 
 ---
 
@@ -63,16 +63,16 @@ diagnostic_signals:
 
 ## 边界
 
-- **适用**：
-  - 个人日常 AI 提问前自检；
-  - 团队 AI 使用培训与质量诊断；
-  - AI 回答了很多但“好像没什么用”时的复盘。
-- **不适用**：
-  - 已经明确的执行性任务（无需再做 question/problem 判断）；
-  - 纯创意发散且无明确交付物的头脑风暴；
-  - 需要快速获取事实性信息的检索场景。
-- **输入要求**：用户能诚实评估自己的动机和期望结果。
-- **输出**：一个分类（question / problem）及对应的下一步动作。
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式 table
 
@@ -86,23 +86,23 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 打开 AI 前，先停 5 秒，问自己：“我是真的疼，还是只是好奇？”
-- [ ] 尝试写出问题的 before/after 验收标准。
-- [ ] 如果写不出 before/after → 标记为 question，放入阅读清单。
-- [ ] 如果能写出 before/after → 标记为 problem，继续向 AI 提问。
-- [ ] 提问时，在提示词里明确 before 状态和期望的 after 状态。
-- [ ] 团队场景：第一步先与团队同步本清单的使用方式。
-- [ ] 每周回顾阅读清单，批量处理积累的 question。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[sk-ai-problem-validation]]
-- [[ai-collaboration-mindset-shift]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI俱乐部-AI协作方法论分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

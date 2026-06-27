@@ -5,17 +5,17 @@ type: improvement-plan
 status: superseded
 superseded_by: plan_20260531_data-curator-v1.3
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260531_ai-data-understanding
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 version: 1.1
 supersedes:
-- plan_20260531_data-curator-v1
+- src_unknown
 related: []
 author: unknown
 reviewed_by: pending
@@ -33,8 +33,8 @@ trust_level: medium-low
 
 ## 来源
 
-- v1.0：黄药师+用户架构讨论
-- 00_inbox/AI-study/AI数据/一堂-AI数据第一课口述01.txt`（Truman，一堂AI数据必修课·认知篇）
+- src_unknown
+- src_unknown
 
 ---
 
@@ -136,9 +136,9 @@ Phase 5: Validate（只读）  → 通过率矩阵 + AI产出验证  ← v1.1 �
 
 v1.0 规则：文件名前缀 → domain tag → 内容关键词  
 v1.1 新增：
-- **`#source_type/process`**：检测到修改记录、对比版本、评审标注 → 自动标记
-- **`#source_type/error`**：检测到反例、bad case、Not Do List → 自动标记
-- **`#source-type/diverse`**：检测到口述稿、聊天记录格式 → 自动标记
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -250,12 +250,12 @@ KDO Knowledge Graph
 
 ## 迭代设计（v1.1 更新）
 
-- **v1.0**（✅ 完成）：方案定义 + 脚本实现 + pilot dry-run
-- **v1.1**（✅ 当前）：理念层重构 + 5维标签 + 12类chunk + 分库预留 + ROI框架
-- **v1.2**（待输入）：等待 4 篇口述文章输入 → 进一步迭代
-- **v2.0**（待定）：384 张卡全量完成 + 分库架构实施
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 待输入
 
-- [ ] 用户提供的 4 篇口述文章 → 触发 v1.2 迭代
-- [ ] 每次迭代更新版本号和变更记录
+- src_unknown
+- src_unknown

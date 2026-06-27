@@ -6,35 +6,35 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-006
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-006
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-formatted
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: "ingest 后自动生成的 wiki 骨架中，Summary 或 Reusable Knowledge 段落出现无意义中文碎片，如\"的概和心结提取课特有\""
+- src_unknown
   framework_lens: "regex 的 `\\b` 词边界对 CJK 字符不生效，extractor 在随机位置切分中文，导致摘要不可读"
   follow_up_question: "不要尝试修复骨架，直接对中文页面执行 Agent 三步编译（浓缩→质疑→对标）并更新 status=enriched"
-- signal: "ingest 一批中文源文件后，所有生成页面的中文内容都呈现断裂、乱序或缺失"
+- src_unknown
   framework_lens: "KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug"
   follow_up_question: "确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006"
 ---# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
@@ -57,17 +57,17 @@ diagnostic_signals:
 
 ## 核心洞察
 
-- **不是“中文源文件质量差”，而是工具对 CJK 语系有系统性排斥**：`\b` 词边界、英文关键词、长度阈值等假设共同导致中文内容在 ingest 阶段就被破坏。
-- **这是设计约束，不是可修 bug**：KDO 目前没有 CJK-aware extractor，意味着 CJK 内容的自动骨架永远不可信，流程中必须预留人工重写环节。
-- **同一根因跨阶段复现**：enrich 阶段表现为“0 pages enriched”（F-KDO-001），ingest 阶段表现为“中文摘要碎化”（F-KDO-006），两者需联合诊断。
-- **最值钱的认知是“不要修骨架”**：CJK 骨架没有局部修复价值，任何试图修补碎片的动作都是沉没成本，应直接重写。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你 ingest 了一批中文源文件，打开自动生成的 wiki 页面发现中文摘要完全不可读
-- 你看到 wiki 骨架中的 Summary 段落是随机汉字拼接（如"的概和心结提取课特有"），需要判断是源文件问题还是 extractor 问题
-- 你在评估 ingest 产出的质量，决定是否可以直接使用自动生成的骨架
-- 你准备为 KDO 开发 CJK-aware 的 extractor，需要理解当前方案的根本缺陷
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -98,18 +98,18 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是 KDO 特有的设计约束：**CJK extractor 未实现**，任何 CJK 内容的自动骨架都是垃圾
-- **"设计约束"比"bug"更值钱**：bug 可以被修复，设计约束意味着你需要永久性地在流程中预留人工重写环节
-- 与 F-KDO-001 共同构成 CJK 内容的系统性排斥图谱：ingest（骨架损毁）+ enrich（零返回）= CJK 内容在 KDO 自动化管线中全面失效
-- 任何 AI 训练语料中都不会有"KDO 的 ingest 对中文内容生成不可读骨架"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-f1-regex-on-cjk]] — 同一根因的不同阶段表现。F-KDO-001 是 enrich 阶段的 `\b` 失效，F-KDO-006 是 ingest 阶段的 `\b` 失效——两者共同构成 CJK 内容在 KDO 自动化管线中的系统性盲区
-- [[dk-c1-cjk-regex-silent-fail]] — corrections 层面的具体事故记录，与本卡共享 CJK regex 失效根因，可联合诊断
-- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的系统性盲区和设计约束。F-KDO-006 明确告知"CJK 骨架不可信，必须人工重写"
-- `90_control/failure-modes.md` → F-KDO-006（原始记录）
-- `20_memory/corrections.md` → C-1（同一根因的具体事故记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

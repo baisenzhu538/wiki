@@ -16,15 +16,15 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[tool-yitang-social-engineering-research]]'
-  - '[[case-strategy-m-brand-profit-model]]'
-  - '[[tool-yitang-wechat-group-infiltration]]'
-  - '[[case-zhanglei-nursing-home-family]]'
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[case-liutao-douyin-team-leader-9m]]"
-  - "[[case-yitang-elderly-home-roleplay]]"
-  - "[[case-zhanglei-nursing-home-family]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 跨案例模式：多重身份交叉验证
 
@@ -46,9 +46,9 @@ related:
 **单一身份的致命缺陷**：每个身份只能触达信息的一个切面。品牌方只会给你正向信息，加盟商会给你混合信息，亏钱者会给你负面信息。只有把多个身份的信息拼在一起，才能接近真相。
 
 **三重身份是最小有效组合**：
-- 一个"利益相关方"身份（加盟商/合作方）→ 拿到"官方版本"
-- 一个"同行/同道"身份（亏钱同行/家属）→ 拿到"私密版本"
-- 一个"第三方"身份（面试者/采购方）→ 拿到"客观版本"
+- src_unknown
+- src_unknown
+- src_unknown
 
 三个版本不一致的地方，就是最需要深挖的地方。
 

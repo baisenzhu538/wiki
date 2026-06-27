@@ -3,8 +3,8 @@ id: tool-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
 type: tool
 domain:
-- personal-growth
-- design
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-水水-接受发散性世界观]]'
-- '[[tool-水水-区分风险与不确定性]]'
-- '[[tool-水水-利用基因漂变视角]]'
-- '[[tool-水水-利用叙事驱动决策]]'
-- '[[tool-水水-构建自利叙事]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：用感性维度构建溢价
 
@@ -38,26 +38,26 @@ related:
 
 ## 适用场景
 
-- 高端品牌定位
-- 奢侈品打造
-- 差异化竞争
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 纯功能性、价格敏感的大众市场
+- src_unknown
 
 ## 工具/环境
 
-- 用户情感洞察
-- 品牌故事框架
-- 视觉设计
-- 明星代言
-- 限量策略
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -65,12 +65,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会-偶然
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -5,20 +5,20 @@ title: Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 type: improvement-plan
 status: pending
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 黄药师（Builder）
+- src_unknown
 reviewer: 欧阳锋（Architect）
 related:
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[dk-p18-yaml-parser]]'
-  - '[[dk-p19-quote-yaml]]'
-  - '[[ocr-微信图片_20260507004751_33_32]]'
-  - '[[dk-f13-handwritten-yaml-parser]]'
-  - '[[gold-standard-manual-labels]]'
-  - '[[kdo-15-dimension-label-spec]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -106,9 +106,9 @@ def parse_frontmatter(text: str) -> tuple[dict, str, str]:
 ```
 
 **关键改动**：
-- 用 `yaml.safe_load()` 替代 97 行手写逻辑
-- `yaml.safe_load()` 原生支持：YAML 列表、嵌套 dict、多级嵌套、JSON 兼容标量
-- 不再需要 `current_key` / `current_list` 状态机
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

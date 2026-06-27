@@ -12,15 +12,15 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[case-strategy-failure-01-cosmetics]]'
-  - '[[case-strategy-failure-07-phone-l]]'
-  - '[[case-strategy-failure-06-phone-n]]'
-  - '[[tool-strategy-four-moves]]'
-  - '[[ocr-一堂-ai学习-提问工程化]]'
-  - '[[framework-strategy-brm]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 九个常见战略问题
@@ -59,8 +59,8 @@ def diagnose_nine(company_symptoms):
 
 ## 适用边界
 
-- **适用**：企业问题的初步诊断和分类
-- **不适用**：问题根源已经很明确时
+- src_unknown
+- src_unknown
 
 ---
 

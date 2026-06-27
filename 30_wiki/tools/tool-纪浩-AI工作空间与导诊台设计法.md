@@ -4,8 +4,8 @@ title: 技能：AI工作空间与导诊台设计法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
@@ -14,39 +14,39 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 tools_required:
-- 文件目录
-- Markdown编辑器
-- 版本控制工具
+- src_unknown
+- src_unknown
+- src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 领域知识和项目文档混在一起，AI把业务逻辑和技术实现混淆
+- src_unknown
   lens: 知识混同
   follow_up: 检查领域知识目录和系统自述文件是否分开，领域知识和项目本身无关
-- signal: 导诊台缺失或过于复杂，任务被错误分配或AI在导诊台上浪费太多时间
+- src_unknown
   lens: 导诊台失效
   follow_up: 导诊台只做'任务分类'不做'任务执行'，保持简洁，复杂路由用工作手册处理
-- signal: 经验库只记录不注入，AI反复犯同样的错误
+- src_unknown
   lens: 经验沉睡
   follow_up: 每次任务开始时把相关经验注入上下文，经验库的价值在'用'不在'存'
-- signal: 一次性把全部上下文扔给AI，信息过载注意力分散
+- src_unknown
   lens: 信息过载
   follow_up: 遵守渐进式披露原则，每次对话只绕一个任务展开，按'导诊台→工作手册→经验库→领域知识'递进
-- signal: AI接手任务变多后出现混乱，目录结构只能延缓膨胀不能解决膨胀
+- src_unknown
   lens: 结构膨胀
   follow_up: 定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简
 ---
@@ -98,10 +98,10 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 文件目录系统（本地或云端）
-- Markdown编辑器
-- 版本控制工具（Git等）
-- 任务管理工具（飞书、GitHub Issues、Notion等）
+- src_unknown系统（本地或云端）
+- src_unknown
+- src_unknown（Git等）
+- src_unknown
 
 ## 判断标准
 
@@ -114,10 +114,10 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **把领域知识和项目文档混在一起** → 结果是AI把业务逻辑和技术实现混淆 → **检查标准：领域知识目录和系统自述文件是否分开**
-- **导诊台缺失或过于复杂** → 结果是任务被错误分配或AI在导诊台上浪费太多时间 → **检查标准：导诊台是否只做"任务分类"，不做"任务执行"**
-- **经验库只记录不注入** → 结果是AI反复犯同样的错误 → **检查标准：每次任务开始时是否把相关经验注入上下文**
-- **一次性把全部上下文扔给AI** → 结果是信息过载，AI注意力分散 → **检查标准：是否遵守"每次对话只绕一个任务"原则**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -127,9 +127,9 @@ AI是模式匹配系统，不会自己创造结构。当上下文环境稳定、
 
 ### 内部局限
 
-- **维护成本被低估。**五大模块需要持续更新，尤其是经验模式库和任务管理会随着AI使用量增加而膨胀。纪浩自己也承认"AI接手任务变多后会出现混乱行举"，目录结构只能延缓膨胀，不能解决膨胀
-- **人帮AI搭的结构，人自己未必理解。**当AI按照这个结构执行时，人可能失去对过程的可见性——只知道输出质量如何，不知道中间逻辑是否正确
-- **对于没有明确工作领域的人，五大模块是虚构的。**如果你还在探索"我要做什么"，连"系统自述"都写不出来，工作空间的搭建就是无源之水
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -165,10 +165,10 @@ AI是模式匹配系统，不会自己创造结构。当上下文环境稳定、
 
 ### 关联说明
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 工作空间是纪浩五层体系的L2，是整个体系中最需要人工干预的环节。AI不会自己搭建结构，人必须先帮它搭
-- [[tool-纪浩-真需求四要素验证法]] —— 四要素通过后才需要搭建工作空间。如果需求是假的，搭工作空间就是在建空中楼阁
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] —— 工作空间搭建完成后，PDCA负责让AI在这个空间里持续迭代产出更好的结果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
+- src_unknown

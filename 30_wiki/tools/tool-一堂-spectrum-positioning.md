@@ -4,46 +4,46 @@ title: 技能：光谱模型定位法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
 - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-- 10_raw/sources/src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt - 00_inbox/一堂-商业预判课-Truman-口述.txt
-  - 00_inbox/一堂-商业预判课-truman-笔记.txt
+- src_unknown
+  - src_unknown
 tools_required:
-- 纸笔或文档工具
+- src_unknown
 prerequisite_skills:
-- skill-一堂-business-prediction-15-char
+- src_unknown
 related:
-- '[[tool-一堂-business-prediction-15-char]]'
-- '[[yt-concept-p-type-l-type]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[tool-一堂-business-prediction-15-char]]'
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 副业阶段花大量时间做正式商业计划
+- src_unknown
   lens: 小目标大做
   follow_up: 副业阶段的预判应该是'能不能做'，而非'怎么做大'。预判深度必须与阶段匹配
-- signal: 以上市为目标但只做了单店验证的预判深度
+- src_unknown
   lens: 大目标小做
   follow_up: 上市阶段需要资本运作、法务合规、全国市场分析，不是单店营销策略。预判深度不足
-- signal: 从单店盈利跳到多城市扩张，但组织架构跟不上
+- src_unknown
   lens: 能力错配
   follow_up: 每次过渡前先检查组织能力是否配备。光谱模型不是进度条，是能力门槛
-- signal: 在一个阶段陷入死磕，不肯认输回归
+- src_unknown
   lens: 沉没成本
   follow_up: 每个阶段必须设定退出标准。光谱模型不是进度条，是能力门槛
-- signal: 单店还没跑通就开始扩张
+- src_unknown
   lens: 过渡过快
   follow_up: 阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张
 ---
@@ -55,10 +55,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.88] **光谱模型的核心价值是"告诉你该做多少预判"。** 副业阶段（阶段1-2）只需要简单的需求验证和能力匹配检查；上市阶段（阶段7）则需要全面的行业分析、财务模型验证、法律合规审查。错配预判深度会导致资源浪费或准备不足
-- claim:02 [conf=0.85] **阶段跳跃是最危险的行为。** 从副业（阶段1）直接跳到多城市扩张（阶段4-5）意味着对单元模型、组织能力、资金链的预判都不足。Truman警告："大目标小做会失败，小目标大做会浪费"
-- claim:03 [conf=0.83] **光谱模型不是线性进化，而是策略切换。** 从阶段2到阶段3不是"更努力"，而是需要在商业模式、组织形态、资源结构上做策略性调整
-- claim:04 [conf=0.80] **同一人在不同阶段的能力要求完全不同。** 副业阶段需要的是执行力和个人技能；上市阶段需要的是组织能力、资本运作、法务合规。Truman强调：要评估自己是否具备下一阶段的能力，而不仅仅是意愿
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -97,9 +97,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 纸笔或文档工具（用于绘制光谱和阶段标记）
-- 能力评估清单（用于检查各阶段必备能力）
-- 财务模型模板（用于验证单元模型跑通状态）
+- src_unknown（用于绘制光谱和阶段标记）
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -112,11 +112,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **小目标大做** → 副业阶段花大量时间做正式商业计划 → **副业阶段的预判应该是"能不能做"，而非"怎么做大"。**
-- **大目标小做** → 以上市为目标但只做了单店验证的预判深度 → **上市阶段需要的是资本运作、法务合规、全国市场分析，不是单店营销策略**
-- **能力与阶段不匹配** → 从单店盈利跳到多城市扩张，但组织架构跟不上 → **每次过渡前先检查组织能力是否配备**
-- **忽略退出标准** → 在一个阶段陷入此并，不肯认输回归 → **每个阶段必须设定退出标准，避免沉没成本**
-- **阶段过渡过快** → 单店还没跑通就开始扩张 → **光谱模型不是进度条，是能力门槛**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -126,9 +126,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **7阶段划分是离散的，但真实业务是连续的。** 实际业务发展中，很少有明确的"阶段边界"。例如，一个在多个城市有小店的副业者，他是在阶段1还是阶段4？光谱模型的离散划分可能让人误以为业务是可以"切换"的，但真实业务通常是模糊的
-- **能力要求的判定标准本身就是主观的。** "组织架构搭建能力"什么算"具备"？是招了一个COO算具备，还是有了完整的管理团队算具备？这个判断标准因人而异
-- **光谱模型假设了"所有创业都是可扩展的"。** 对于非标准化服务业（如咨询、艺术创作），光谱模型可能完全不适用。这些行业的"规模"取决于个人能力，而非商业模式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -136,8 +136,8 @@ diagnostic_signals:
 
 **Clayton Christensen** (*创新者的崛境*作者) 从创新理论角度攻击光谱模型：
 
-- **打破性创新通常发生在低端市场。** Christensen 的研究表明，最有价值的创业往往从"更差的产品"开始，服务于"更差的客户"。这意味着打破性创新者可能在光谱的"低端"（副业）就创造了威胁到"高端"（上市公司）的技术。**你的光谱模型可能让创业者觉得"我只是在做副业"，但他们可能正在打造下一个巨头**
-- **光谱模型可能让创业者过早追求规模。** Christensen 会质疑：如果一个创业者觉得自己处在"阶段2"，但他的打破性技术可能还需要在更小的市场中磨练更长时间。光谱模型的"阶段推进"逻辑可能让创业者过早离开低端市场而失去稳固根基
+- src_unknown
+- src_unknown
 
 > **Christensen 的规勰**："你的光谱模型是一个精致的'现有业务扩展路线图'，但它假设了业务的发展是线性的。打破性创新的本质是非线性的——它可能从最低的阶段跳过了所有中间阶段，直接威胁最高端。你在用一个线性模型规划非线性世界。"
 
@@ -145,8 +145,8 @@ diagnostic_signals:
 
 **Reid Hoffman** (领英联合创始人，*闪电扩张*作者) 从平台战略角度攻击：
 
-- **平台型业务不适合光谱模型。** Hoffman 的研究表明，平台型业务的发展往往遍布"网络效应"和"飞轮效应"，其增长曲线不是线性的。一个平台可能在很长时间内都处于"副业"状态，然后突然在几个月内爆发式增长。光谱模型的渐进阶段论对平台业务可能是错误的导航
-- **"网络效应"会改变光谱的定义。** 当一个产品具备网络效应时，它的"阶段"可能完全由用户数量决定，而非商业模式。光谱模型的"策略性调整"在网络效应面前可能完全失效
+- src_unknown
+- src_unknown
 
 > **Hoffman 的规勰**："你的光谱模型假设了业务发展是可预测的、步步为营的。但LinkedIn在前几年几乎没有收入，然后突然爆发。如果我们当时按照光谱模型的'阶段过渡标准'来评估，我们可能早就放弃了。你在用一个工业时代的模型规划互联网时代的业务。"
 
@@ -161,8 +161,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂商业预判课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

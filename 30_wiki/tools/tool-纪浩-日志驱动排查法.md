@@ -4,8 +4,8 @@ title: 技能：日志驱动排查法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
@@ -13,38 +13,38 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 tools_required:
-- 日志系统或文件
-- 版本控制工具
+- src_unknown
+- src_unknown
 prerequisite_skills: skill-纪浩-AI工作空间与导诊台设计法
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 只在出问题时才查日志，错过大量早期警告信号
+- src_unknown
   lens: 被动日志
   follow_up: 日志必须有定期审查的日历提醒，每周15-30分钟审查日志模式
-- signal: 日志太详细或太简略，人看不过来或看了等于没看
+- src_unknown
   lens: 日志粒度失衡
   follow_up: 日志必须能在3分钟内读懂一次执行的核心信息。建立日志标准，控制粒度
-- signal: 日志与任务脱节，无法定位问题是哪个任务引发的
+- src_unknown
   lens: 任务脱钩
   follow_up: 每条日志必须有明确的任务ID关联。日志是给人看的，不是给机器看的
-- signal: 只记录失败不记录成功，无法分析正常执行中的隐性问题
+- src_unknown
   lens: 成败偏置
   follow_up: 无论成败都必须生成日志。没有日志的执行等于没有发生过
-- signal: 日志存在本地不共享，团队其他成员无法复用排查经验
+- src_unknown
   lens: 信息孤岛
   follow_up: 日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录
 ---
@@ -93,10 +93,10 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 文件系统或专门的日志目录
-- Markdown或结构化文本格式
-- 版本控制工具（Git等）——日志也需要版本管理
-- 任务管理工具（用于关联日志与具体任务）
+- src_unknown
+- src_unknown
+- src_unknown（Git等）——日志也需要版本管理
+- src_unknown
 
 ## 判断标准
 
@@ -109,11 +109,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **只在出问题时才查日志** → 结果是错过了大量早期警告信号 → **检查标准：日志是否有定期审查的日历提醒**
-- **日志太详细或太简略** → 结果是人看不过来或看了等于没看 → **检查标准：日志是否能在3分钟内读懂一次执行的核心信息**
-- **日志与任务脱节** → 结果是无法定位问题是哪个任务引发的 → **检查标准：每条日志是否都有明确的任务ID关联**
-- **只记录失败不记录成功** → 结果是无法分析正常执行中的隐性问题 → **检查标准：无论成败都必须生成日志**
-- **日志存在本地不共享** → 结果是团队其他成员无法复用排查经验 → **检查标准：日志是否在团队可访问的位置**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -123,9 +123,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **日志产生的速度远超人的处理能力。**AI每天可能产生成千上万条日志，人类大脑无法在有限时间内审查全部日志。"定期审查"只能抽样检查，大量信息仍然被错过
-- **日志的规范不统一会导致无法分析。**如果不同任务、不同AI产生的日志格式不一致，后续的搜索、汇总、分析都会受阻
-- **日志本身也需要维护。**日志存储、清理、备份都是额外的工作量。日志量大了之后，"日志系统"本身又成了一个需要管理的系统
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -161,10 +161,10 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 日志驱动排查是纪浩五层体系中日志层的核心技能，负责把AI的执行过程变成可被人理解的事实
-- [[tool-纪浩-AI工作空间与导诊台设计法]] —— 日志是工作空间的组成部分，必须和其他四个模块一起搭建
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] —— 日志为PDCA提供了检查的客观依据，没有日志的Check是盲目的Check
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
+- src_unknown

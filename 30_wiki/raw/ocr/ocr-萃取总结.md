@@ -3,7 +3,7 @@
 id: "ocr-萃取总结"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_4310e409
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 萃取总结"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-一堂泛产品设计-十年修炼爬山地图]]'
-  - '[[ocr-顶级产品追求的方向-乔布斯]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 萃取总结
@@ -35,36 +35,36 @@ png` 萃取总结 爆炸式研究 尽量充分 饱和式研究：找到足够多
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- **饱和式研究**：通过收集足够多的案例和信息，确保研究基础充分扎实，避免过早下结论。
-- **饱和式建模**：反复进行分类和建模迭代，直到模型结构趋于稳定，不再因新增信息而大幅变动。
-- **MECE原则作为最高追求**：Mutually Exclusive, Collectively Exhaustive，即模块间相互独立、完全穷尽。
-- **持续调整分类结构**：通过不断拆分或合并同类项，优化知识组织的颗粒度和层次。
-- **争取不重（互斥性）**：确保各模块之间彼此独立，避免内容重叠和冗余。
-- **争取不漏（穷尽性）**：确保分类体系覆盖所有情况，没有遗漏重要项。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文"爆炸式研究 尽量充分"与"饱和式研究"是并列关系还是递进关系？两者方法论边界是否清晰？
-- "饱和式建模"中"模型稳定"的判定标准是什么？是主观判断还是存在可量化的收敛指标？
-- MECE原则被设为"最高追求"，但未讨论其在动态知识场景中的适用边界——当信息持续涌现时，追求绝对穷尽是否会导致分析瘫痪？
-- "持续调整"与"模型稳定"之间存在张力：频繁拆分/合并是否破坏已稳定的结构？调整触发条件未明确。
-- "争取不重"与"争取不漏"前的动词差异（"争取"vs"√争取"）是否暗示优先级排序？勾选标记的原始语境（手写批注/原图强调？）因视觉信息丢失而无法确认。
-- OCR备注提示"视觉结构信息未体现"，原文的分行/缩进/符号布局是否可能改变概念间的逻辑层级关系？
-- "萃取"作为整体方法论的命名，其操作定义未出现——是从原始材料中提取结构，还是从已有模型中提炼精华？目标与手段的关系未澄清。
-- 该总结是否针对特定领域（商业分析/学术研究/产品设计）？领域差异是否影响"饱和"的判定阈值和MECE的实现方式？
-- **VA 描述了"对勾图标作为前置符号，以图形化方式在每条子项起点制造视觉锚定"，但对勾的普遍使用暗示所有子项都是"已完成"或"已验证"的。"饱和式建模"和"争取不漏"等项实际上是需要持续迭代的开放目标，用对勾标记是否过早地赋予了它们"确定性"的视觉暗示？**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -78,21 +78,21 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
-- **此卡的卡片式结构（VA 描述为“圆角矩形布局，被一层圆角虚线外框包裹”）与 [[yt-decision-canvas]] 的“画布边界”逻辑在“封装边界”上同源，但萃取总结用虚线外框暗示它是一个“柔性边界”内的封闭单元，而决策画布更强调边界内的动态填充与持续更新。**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

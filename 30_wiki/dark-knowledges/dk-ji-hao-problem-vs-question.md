@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,31 +15,31 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - '[[framework-candy-transcript-workflow]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[tool-纪浩-problem-validation-four-checks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 用 AI 做了很多事，但团队或用户感受不到实际改变
+- src_unknown
   lens: Question 替代 Problem
   follow_up_question: 这件事解决前后，具体场景里的 Before/After 是什么？谁会因为解决而开心？
-- signal: 接到需求时第一反应是 AI 能不能做 XX
+- src_unknown
   lens: 问题定义前置
   follow_up_question: 这个需求是我想知道/试试（Question），还是每次花 X 时间做 Y（Problem）？
-- signal: Agent 执行得很顺，但结果没人用
+- src_unknown
   lens: 伪需求加速
   follow_up_question: 有没有真实受益人和从头讲到尾的因果链？如果中间靠 AI 自己发挥，链是否断裂？
 ---# 暗知识：Problem vs Question
@@ -79,11 +79,11 @@ AI 时代的大部分人在用 AI 回答 Question（满足好奇心），而非�
 
 ## 行动 Checklist
 
-- [ ] 接到需求时，先问：这是 Question（我想知道/试试）还是 Problem（每次花 X 时间做 Y）？
-- [ ] 找到真实场景：把"如果有一个 XX 就好了"转成"我每次都要花 X 时间做 Y"
-- [ ] 定义 Before/After：明确现状与理想状态，能量化尽量量化
-- [ ] 检查因果链：确认解决方案路径可执行，没有"靠 AI 自己发挥"的断点
-- [ ] 用四问法快速验证（详见 [[tool-纪浩-problem-validation-four-checks]]）：
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
   1. Before & After：解决前后是什么状态？
   2. 真实锚点：具体场景在哪？
   3. 受益人：谁会觉得开心？
@@ -91,7 +91,7 @@ AI 时代的大部分人在用 AI 回答 Question（满足好奇心），而非�
 
 ## 相关卡 / 互链
 
-- [[case-ji-hao-skill-market-problem-validation]] — 展示了如何用四问法将模糊需求转化为可验证的真实 Problem。关键转折点是找到了"微信传 zip 的痛点"这个真实场景
-- [[tool-纪浩-problem-validation-four-checks]] — 可复制的检查清单，用于快速判断需求是 Question 还是 Problem
-- [[case-ji-hao-ui-design-constraint-evolution]] — 纪浩从 Question（"AI 能帮我做 UI 吗？"）转到 Problem（"每次做 UI 花极高成本，怎么把设计规范沉淀为可复用资产？"），最终产出可复用方案
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

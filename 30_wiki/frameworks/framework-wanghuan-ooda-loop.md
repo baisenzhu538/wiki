@@ -6,10 +6,10 @@ title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -19,39 +19,39 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_93d38033_wanghuan_OODA循环_示意图.md'
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[concept-wanghuan-flywheel-first-loop]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-yitang-nine-layer-deep-dig]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- OODA
-- 决策循环
-- 人机协作
-- 快速迭代
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '团队在 AI 辅助下反复收集信息，却始终不进入下一步'
+- src_unknown
   lens: '观察瘫痪'
   follow_up: '当前卡在哪个 OODA 环节？能否定义最小观察集，先转完一圈再迭代？'
-- signal: 'AI 输出越来越不稳定，每次都要重新调整 prompt'
+- src_unknown
   lens: '定向漂移'
   follow_up: '是否在行动前先把观察到的事实放入固定上下文？约束和红线条是否显式化？'
-- signal: '决策者说“再等等，数据还不够”，项目长期悬置'
+- src_unknown
   lens: '决策恐惧'
   follow_up: '能否把决策拆成一个可验证的小实验，用下一轮观察来降低不确定性？'
-- signal: '做了很多动作，但不知道哪些有效，经验无法沉淀'
+- src_unknown
   lens: '行动不闭环'
   follow_up: '每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？'
 
@@ -88,8 +88,8 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 在王欢的人机协作视角下，AI 和人各有擅长：
 
-- **AI 擅长**：观察（快速处理大量数据、发现模式）、行动（按指令批量执行、快速生成原型）。
-- **人擅长**：定向（理解上下文、判断信号意义）、决策（在不确定性中选择、承担结果）。
+- src_unknown
+- src_unknown
 
 但这不意味着人可以把定向和决策完全甩给 AI。当 AI 同时扮演"生成者"和"评估者"时，容易出现盲区；因此导演模式下的人必须保留**定向判断权**和**最终验收权**。
 
@@ -106,10 +106,10 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 王欢用"一次成功是案例，三次是方法，十次是系统"来描述 OODA 的复利：
 
-- **第一圈**：最难，需要克服"我不会""不确定值不值得"的心理惯性。
-- **第二圈**：有参照，观察更快。
-- **第三圈**：开始有手感，定向更准。
-- **十次之后**：形成系统，别人的 AI 还在从零开始，你的飞轮已经转了 N 圈。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -143,23 +143,23 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 ## 行动 Checklist
 
-- [ ] 当前项目/任务卡在 OODA 的哪个环节？先标出来。
-- [ ] 为下一次循环定义**最小可验证动作**：做什么、观察什么、判断标准是什么。
-- [ ] 用 [[framework-wanghuan-bitcoe-prompt-framework]] 写出观察/定向/决策的输入约束，消灭模糊。
-- [ ] 在行动前明确：这次行动的反馈信号是什么？多久回来看？
-- [ ] 执行后强制做一次"定向复盘"：事实变了多少？假设哪些被推翻？
-- [ ] 把本轮学到的约束、标准、暗规则写入 [[tool-wanghuan-ai-business-profile]] 或卡片注释。
-- [ ] 比较本轮与上一轮的速度：是否比上一圈更快？如果更慢，卡在哪？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：OODA 是导演模式下的决策节奏，人负责定向与决策，AI 加速观察与行动。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：用 BITCOE 固定每一圈的输入、约束和输出标准，避免定向漂移。
-- [[framework-wanghuan-task-product-system]]：每一圈 OODA 都在推动任务→产品→系统的跃迁。
-- [[framework-wanghuan-gan-three-roles]]：生成者-执行者-评估者分离，避免 OODA 中"既当裁判又当运动员"。
-- [[framework-wanghuan-ai-five-level-ladder]]：OODA 循环的速度决定你从问答层、工作流层向作品层、系统层攀升的效率。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

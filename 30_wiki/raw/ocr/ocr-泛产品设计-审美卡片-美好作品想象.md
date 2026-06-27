@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-审美卡片-美好作品想象"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_6697adcb
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-审美卡片-美好作品想象"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-审美工具箱指南]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践池子]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践收集]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-审美卡片-美好作品想象
@@ -36,33 +36,33 @@ png`  泛产品设计·审美卡片 美好作品想象 缺对标就自己想象 
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 当缺乏直接对标时，应调用见识、想象力、灵感与才华，主动脑补最优秀产品的样貌与画面。
-- "美好作品想象"包含三个幻想维度：用户最爽体感、美好画面细节、最佳评价与用户感言。
-- 该方法适用于追求最佳实践但无直接对标对象的场景。
-- 核心进步方式是刻意练习"幻想最佳实践"的思考习惯。
-- 设计方法论强调：缺对标时想象优先，而非妥协或等待案例出现。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该方法如何验证"脑补"出的最佳实践确实优于妥协方案或现有间接对标？缺乏反馈机制是否会导致想象沦为自我确认？
-- "幻想维度"仅覆盖用户侧体验（体感、画面、评价），是否遗漏了技术可行性、商业可持续性、生产约束等关键设计维度？
-- "调用所有的见识、想象力、灵感、才华"对执行者要求极高，该方法是否隐含假设执行者已具备足够认知储备？如何界定"足够"？
-- 三个幻想维度之间是否存在优先级或依赖关系？例如最佳评价是否应建立在可实现的体感基础上，而非独立想象？
-- 该方法与"渐进式优化"或"快速验证"等设计范式如何兼容？完全前置的想象是否会延迟必要的用户测试与迭代？
-- 备注提示OCR可能存在误识且视觉结构丢失，"堂/没有什么不是一堂课..."这一断句是否为原文结构？其与前文方法论的逻辑关联是什么？
-- "缺对标就自己想象"作为原则，是否适用于所有产品阶段（如0-1创新 vs. 成熟产品微创新）？边界条件未明确。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **审美的主观性：本卡片强调"最佳实践"和"美好作品"，但未认识到审美是深度主观和文化依赖的。什么是"美好"因人而异。
-- **"最佳实践"的相对性："最佳实践"的标准可能随时间、地域、行业而变化，未提供验证机制。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 不要用的场景
 
-- **跨文化产品设计：不同文化对"美好"的定义不同，"最佳实践"可能不具有跨文化普适性。
-- **高度功能性产品（如工业设备）：这些产品的设计优先级是安全性和效率，而非"审美"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-aesthetic-practice — 审美实践的理论基础
-- yt-decision-design-philosophy — 设计哲学与"美好作品"同源
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 设计评审：用审美卡片评估设计作品的审美层次
-- 团队审美对齐：用"最佳实践池子"统一团队的审美标准
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

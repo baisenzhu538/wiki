@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-roi分析"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_1b5af0b6
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-ROI分析"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-ROI分析
@@ -34,34 +34,34 @@ png` 泛产品设计・落地卡片 ROI分析 擅做投产比分析  关键收�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_1b5af0b6-ocr-泛产品设计-落地卡片-roi分析.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 擅做投产比分析是泛产品设计的核心落地能力之一，需从长期视角识别关键收益项。
-- ROI分析的关键成本项应从公司视角评估，并纳入机会成本与时间窗口因素。
-- 优先级定性分析需有一定深度，部分场景可辅以定量公式进行测算。
-- 定量公式适用于需要重投入设计资源或成本敏感的场景决策。
-- 投产比分析的进步方式建议通过系统性课程学习（如「ROI」系列课）逐步建立能力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 关键收益项的"长期视角"具体指多长周期（季度/年度/3-5年），是否有统一的时间标尺来避免不同项目间的比较偏差？
-- "公司视角"是否已涵盖跨部门协同成本（如技术、运营、市场的隐性投入），还是仅指设计部门直接成本？
-- 机会成本的具体评估方法论缺失：是与其他设计方案比较，还是与"不做设计优化"的基准线比较？
-- "时间窗口"的判定标准未明确——是市场需求窗口、技术可行性窗口，还是竞争窗口，如何量化其关闭风险？
-- "部分定量"与"优先级定性"的权重分配原则未说明：在什么阈值下必须从定性转为定量分析？
-- 定量公式的具体构成要素（分子/分母的计算口径）未披露，不同场景下公式是否需要调整？
-- "重投入设计资源"的判定标准模糊：是以人天、预算金额，还是占项目总成本比例来界定？
-- 课程学习路径与实战能力转化的验证机制缺失：如何衡量"两堂课"后的实际ROI分析质量提升？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-weapon-partner-research]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-weapon-insider-intelligence]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略6：前员工人脉网络
@@ -42,9 +42,9 @@ related:
 
 ## 关键原则
 
-- 每个人都可以引荐下一个人——链式传播
-- 前员工之间互相认识，一个引荐可以打开一群
-- 一定要做完整的信息分析——不是聊完就完，是拼图
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

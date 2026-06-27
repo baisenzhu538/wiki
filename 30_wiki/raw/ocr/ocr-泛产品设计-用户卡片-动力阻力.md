@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-动力阻力"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_1ec27760
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-动力阻力"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-多视角思考]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-行业分析画布]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-动力阻力
@@ -34,32 +34,32 @@ png` 泛产品设计·用户卡片 动力阻力 理解转化率的本质 未转�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 转化率的三大本质要素：动力、阻力、触点。
-- 提升转化率需同时考虑增强用户动力、降低行动阻力、优化触点设计。
-- 该框架适用于所有需要提升关键转化率的场景。
-- "用户卡片"是承载动力阻力分析的具体工具形式，用于结构化理解用户转化状态。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该框架声称适用于"所有提升关键转化率的场景"，但未界定"关键转化率"的判定标准，是否存在不适用或失效的边界条件？
-- "动力""阻力""触点"三要素之间是否存在权重差异或交互效应，还是简单并列关系？原文未说明如何量化或优先级排序。
-- "用户卡片"作为具体工具形式，其字段结构、填写规范、使用流程均未在OCR文本中体现，实际可操作性存疑。
-- 核心论断"没有什么不是一堂课解决不了的"属于营销话术还是经过验证的方法论承诺？其证据基础未呈现。
-- OCR提取自视觉材料，原文的图示关系（如动力与阻力的对比结构、转化路径的可视化）完全丢失，是否影响核心逻辑的理解准确性？
-- "进步方式"仅指向付费课程，未提供替代学习路径或开源资源，是否存在商业利益与知识客观性的潜在冲突？
-- 该框架与福格行为模型（动机-能力-提示）高度相似，但未说明理论渊源或差异化创新点，是否存在原创性归属问题？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -73,20 +73,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

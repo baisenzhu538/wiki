@@ -13,27 +13,27 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: basic
 estimated_tokens: 1500
 version: 1
 query_triggers:
-- 招股书
-- 年报
-- IPO
-- cheat sheet
-- 报表价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - '[[concept-yitang-facts-first]]'
-  - '[[dk-yitang-research-scale-vs-depth]]'
-  - '[[tool-yitang-supply-chain-research]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-public-information-research]]'
-  - "[[tool-yitang-financial-report-intelligence]]"
-  - "[[tool-yitang-comparable-company-selection]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么
@@ -95,7 +95,7 @@ related:
 
 ## 来源
 
-- Cheat Sheet框架来源：徐鱼上市公司报告解读课，`一堂-上市公司报告解读-口述.txt`
+- src_unknown
 
 ---
 

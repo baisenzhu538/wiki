@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 
 
@@ -10,19 +10,19 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "壁垒分析"
-  - "增长壁垒"
-  - "竞争优势"
-  - "一堂壁垒"
-  - "壁垒分类"
-  - "打造壁垒"
-  - "无形资产"
-  - "网络效应"
-  - "转化成本"
-  - "成本优势"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - "[[yt-barrier-identification-skill]]"
-  - "[[yt-five-step-method]]"
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -42,7 +42,7 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户照着cheatsheet选了网络效应，但业务根本没有网络效应土壤', 'framework_lens': '生搬硬套——壁垒类型需要匹配业务模型', 'follow_up_question': '你的业务天然具备网络效应所需的节点密度和互动频次吗？如果没有，选网络效应就是自欺欺人'}
   - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}

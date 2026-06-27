@@ -13,33 +13,33 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 门店调研
-- 加盟评估
-- 门店加盟
-- 蹲店
-- 加盟调研
-- 零售调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡1（门店）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡1（门店）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-content-ip-research]]'
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 门店加盟调研手段：浅中深三层10大评估法
@@ -53,15 +53,15 @@ related:
 "如果我考虑加盟一个门店，拿到了一个招商材料，如何评估加盟的靠谱程度和成功率？"
 
 调研重点：
-- 加盟品牌靠不靠谱
-- 在这个城市实际的成本投入和加盟成功率
-- 预测投资回报率和风险
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- 加盟餐饮品牌（火锅店/奶茶店/日料店等）
-- 加盟零售品牌（零食店/花店/熟食/水果店等）
-- 加盟本地生活品牌（自助台球厅/桌游店/麻将馆等）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,11 +154,11 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 1——门店加盟评估
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡1（门店）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡1（门店）_vlm_desc.md`（confidence=0.95）
-- 口述案例交叉验证：一堂-调研武器库培训-口述.txt（含蹲店、假装身份等实战案例）
-- 注意：具体案例数字（如"92全职+1400兼职蹲店"）来自 Truman 口述，标注"口述待独立核实"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

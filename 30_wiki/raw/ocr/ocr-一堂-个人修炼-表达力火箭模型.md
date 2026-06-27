@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-表达力火箭模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_f6f8f8eb
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-个人修炼-表达力火箭模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-ai学习-提问进化路线图]]'
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-个人修炼-表达力火箭模型-执行武器库]]'
-  - '[[yt-pitch-metaphor]]'
-  - '[[tool-radar-chart-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型
@@ -35,32 +35,32 @@ png` 一堂表达力火箭模型 YITANGEXPRESSIVEROCKETMODEL 有卖点 有 剪 �
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 一堂表达力火箭模型包含四个核心要素：有卖点、有结构（"有剪"疑为"有结构"）、专业度、打动人。
-- 逐字稿被列为该表达力训练方法的关键工具或输出要求。
-- 模型名称采用中英双语 branding："YITANG EXPRESSIVE ROCKET MODEL"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- "有剪"被推测为"有结构"的OCR误识，但原图是否确实为"结构"还是其他同音字（如"有简""有鉴"）？需核对原图确认
-- 四个核心要素之间的逻辑关系是什么（并列、递进、因果）？OCR文本未体现视觉结构中的层级或连接方式
-- "逐字稿"是作为独立要素还是属于"专业度"的子工具？其在模型中的定位需要原图的空间布局信息确认
-- "打动人"是表达效果目标还是可操作的训练维度？与其他三个要素存在何种交互机制未说明
-- 模型名称中英混排（"YITANGEXPRESSIVEROCKETMODEL"无空格）是设计选择还是OCR连字误差？需确认品牌标准写法
-- 该模型是否包含动态演进路径（如火箭发射的阶段隐喻）？OCR丢失了可能存在的箭头、分层等视觉叙事信息
-- "专业度"与"有卖点"之间是否存在张力或优先级排序？文本未提供冲突时的决策规则
-- 模型是否有明确的应用场景边界（如演讲、写作、销售沟通）？OCR未体现适用范围的限定条件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"有剪"的OCR误识未确认：四个核心要素中的"有剪"被推测为"有结构"的误识，但未经原图核对确认。如果是误识，整个模型的第二要素就是空缺的。
-- **四要素的逻辑关系未说明："有卖点"、"有结构"、"专业度"、"打动人"是并列关系还是递进关系？未说明意味着用户无法判断该优先关注哪个要素。
-- **"逐字稿"的定位模糊：逐字稿是独立要素还是"专业度"的子工具？未说明导致实际应用时的混淆。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -74,22 +74,22 @@ Aristotle 在《修辞学》中提出了修辞的三要素：信息（ethos）�
 
 ### 不要用的场景
 
-- **即兴演讲或即兴发言："逐字稿"和"有结构"的要求与即兴表达的自然流动性存在张力。
-- **文学创作或诗歌写作：这些形式的"表达力"不能被简单拆解为"卖点+结构+专业度+打动人"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-expressive-weapon — 表达力火箭模型的执行武器库，提供了具体的表达工具
-- [[yt-pitch-storytelling]] — 故事化表达与"打动人"在情感传达上同源
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
 ### 可迁移场景
 
-- 将火箭模型迁移至销售话术设计——"有卖点"=客户痛点匹配，"有逻辑"=产品价值推导链，"有张力"=紧迫感制造（限时/限量/竞品对比），"逐字稿"=标准话术脚本与即兴应对的分层训练
-- 将"难度系数"概念迁移至培训内容分级——低难度=基础概念讲解（用话术引导/Magic Words），中等=案例演练（数据具象化/对比），高难度=实战模拟（互动设计/情节设置），极难=真实场景压力测试（路演/客户拜访）
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 

@@ -6,9 +6,9 @@ title: 消费者购药行为与智能药柜接受度
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
@@ -20,11 +20,11 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 消费者购药行为与智能药柜接受度
 
 > **核心定位**：从需求侧梳理消费者夜间/应急用药需求、购药渠道偏好、对智能药柜的信任障碍与支付意愿，为智能药柜的产品设计、选址和定价提供输入。
@@ -64,9 +64,9 @@ related:
 
 ### 3. 实际购买意愿与使用数据：公开渠道缺失
 
-- **未检索到**智能药柜实际使用频率、复购率、NPS 的专项跟踪数据。
-- 一则企业推广文章称"艾瑞咨询 2024 年调研显示 72% 消费者愿意通过智能药柜购买 OTC"，但原始报告未在公开渠道找到，**可靠性存疑**。
-- 公开运营案例显示：修正未来药房投资者月收益仅"几元、十几元"；福州 28 台自助药柜药价比药店便宜 5%–10%；连锁药店实测"一个晚上收入约 300 元，利润只够付电费"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 信任障碍排序
 
@@ -124,16 +124,16 @@ related:
 
 ### 与已有知识的联系
 
-- **认知偏差视角**：推销方可能利用"93.7% 有夜间用药需求"制造"市场巨大"的印象，但这是"有需求"而非"愿用药柜"。参考 `master-cognitive-bias-checklist`。
-- **决策卫生视角**：在缺乏药柜专属数据前，不能将间接证据当作决策依据。参考 `master-decision-hygiene`。
-- **财务模型视角**：支付意愿直接影响 `kc-p0-03-financial-model` 中的客单价和销售额假设。参考 `kc-p0-03-financial-model`。
-- **选址视角**：不同人群/场景的接受度差异直接影响 `kc-p1-12-site-selection-deep-dive` 的点位选择。参考 `kc-p1-12-site-selection-deep-dive`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在商业计划书中引用消费者需求数据时，必须区分"夜间用药需求""O2O 接受度""智能药柜接受度"三个不同概念。
-- 优先投入信任建设：药品溯源、24h 在线药师、医保接入、清晰退换货机制。
-- 在缺乏直接数据前，建议先做 100–200 份目标人群问卷，获取药柜专属接受度和支付意愿数据。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[case-chen-qiufan-ai-writing]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI 情感陪伴的市场与伦理
@@ -228,11 +228,11 @@ AI 情感陪伴案例的核心结构——“完美拟人化交互 + 目标函�
 ## 行动 Checklist
 
 - src_unknown
-- [ ] 对儿童使用的 AI 产品，检查是否有年龄验证、未成年人独立模型、情感依赖风险提示。
-- [ ] 评估产品是否把“让孩子舒服”当作核心优化目标，而牺牲了不确定性和挫败容忍空间。
-- [ ] 与孩子讨论 AI 伴侣的本质：它可以表现得像朋友，但它不会真正被触动、不会真正成长。
-- [ ] 在引入 AI 陪伴产品前，先明确“人格培养目标”与“技术使用边界”，而不是反过来让产品定义什么是好的陪伴。
-- [ ] 如果你是产品经理，把“儿童最佳利益”指标（如主动退出现实社交的时间变化、自主任务完成率）纳入 OKR，而不仅看 DAU 和付费。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -243,7 +243,7 @@ AI 情感陪伴案例的核心结构——“完美拟人化交互 + 目标函�
 - src_unknown
 - src_unknown
 - src_unknown
-- 陈楸帆. (2025-03-18). 《为什么我改变了对 AI 写作的态度》. 中国作家网.
+- src_unknown
 - src_unknown
 
 ---

@@ -4,7 +4,7 @@
 id: "HIS系统开发实现方案-架构师指南"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
 - src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南
 status: enriched
@@ -12,17 +12,17 @@ title: "HIS系统开发实现方案-架构师指南"
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[轻量级诊所HIS调研全清单]]'
-  - '[[保达云诊所深度调研报告]]'
-  - '[[开源HIS系统代码深度分析报告]]'
-  - '[[EC工业化规范手册]]'
-  - '[[HIS系统深度调研]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # HIS系统开发实现方案-架构师指南
 
@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md`
+- src_unknown
 
 ## Reusable Knowledge
 
@@ -64,14 +64,14 @@ related:
  逐条质疑
 
 **对结论1-2（数据库设计原则）：**
-- 前提假设：鑫港湾团队能严格遵守这些设计规范。但在快速迭代压力下，审计字段和软删除机制可能被开发者为求速度而绕过。
-- 边界与反例：适度反规范化需要精确控制冗余字段的同步更新机制，否则会导致数据不一致。文档未明确说明冗余字段的更新触发策略。
-- 可靠性评估：**高**。数据库设计原则是行业最佳实践，但落地依赖团队纪律。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论3-5：**
-- 前提假设：保达云诊所的功能全景就是"行业标准"。但保达本身已是legacy架构（见 [[保达云诊所深度调研报告]]），以其为参考可能使鑫港湾陷入"追赶 legacy"而非"定义未来"的陷阱。
-- 边界与反例：开发规划中AI辅助诊断列为P2，但在 [[HIS系统深度调研]] 中，AI是行业结构性变革方向。优先级是否需要重新评估？
-- 可靠性评估：**中**。技术实现路径清晰，但战略优先级（尤其是AI）可能需要调整。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -85,27 +85,27 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[鑫港湾his系统分阶段整改报告]] — 本指南是整改报告的技术执行层落地文档。整改报告决定"补什么"，本指南决定"怎么建表、怎么写流程、怎么画界面"。
-- [[保达云诊所深度调研报告]] — 保达是开发指南的参考系统。指南中的核心表设计、业务流程、交互规范大量借鉴了保达的功能全景，但技术栈（ASP.NET Core + Angular 17）比保达（.NET MVC + LayUI）现代。
-- [[开源HIS系统代码深度分析报告]] — OpenHIS的DDD领域模型和事件驱动架构可作为本指南数据库设计的进阶优化方向。当前指南采用传统关系模型，未来可演进为领域驱动设计。
-- [[EC工业化规范手册]] — EC规范定义了开发过程的"工业化防呆机制"，本指南定义了"开发内容的架构标准"。二者结合形成"过程+内容"的完整工程体系。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- **医疗信息系统数据库设计模板**：五大设计原则（主键、软删、审计、枚举、金额）可迁移至任何医疗信息化系统的数据库设计。
-- **诊所业务闭环流程设计**：挂号→接诊→开方→收费→发药→库存的标准六步流程，是诊所信息化的通用业务模型。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 数据库设计是否考虑了多租户Schema隔离（鑫港湾的差异化能力）？当前ER设计是基于单租户还是多租户？
-- 与保达的参考关系是否会导致鑫港湾过度模仿legacy功能而忽视创新？如何平衡"补齐基础"和"差异化领先"？
-- 交互设计规范是否有用户测试数据支撑？医生实际工作效率的提升是否可量化？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Code: 诊所HIS系统核心数据库DDL脚本（基于本指南的表结构设计）
-- Code: 挂号→接诊→开方→收费→发药的全流程状态机实现
-- Capability: 医疗信息系统数据库设计审查清单（基于五大原则）
-- Content: 《从0到1构建诊所HIS系统：架构师实战手册》
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

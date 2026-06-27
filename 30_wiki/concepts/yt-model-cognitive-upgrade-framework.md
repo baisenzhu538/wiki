@@ -6,29 +6,29 @@ confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - modeling- master
+  - src_unknown
 language: zh-CN
 query_triggers:
-- 认知升级框架
-- 深度阅读方法论
-- 如何把书读成能力
-- 结构化读书笔记模板
-- 十步阅读法
-- 知识内化框架
-- 读书转化为行动
-- AI思维卡模板
-- 认知补丁
-- ICAP学习层级
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[kdo_product_design_agent_final]]'
-  - '[[yt-personal-ai-thinking-card]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-personal-ai-thinking-card]]'
-  - '[[yt-model-entrepreneur-map]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-deep-review]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -41,12 +41,12 @@ type: framework
 updated_at: '2026-06-16'
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户读完一本书做了精美笔记，但三个月后行为和决策没有任何变化
+- src_unknown
   framework_lens: 笔记没有变成补丁——阅读停留在"知道"层，没有进入"行动"层
   follow_up_question: 这本书里的核心观点，你过去30天有没有在任何决策中用到？如果没有，笔记只是装饰品
-- signal: 用户严格按照十步框架读每本书，但阅读速度极慢，一年读不完几本
+- src_unknown
   framework_lens: 框架过度使用——十步框架是深度阅读工具，不是所有书的标配
   follow_up_question: 这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤
 author: 老顽童
@@ -95,9 +95,9 @@ author: 老顽童
 **设计 2：EVIDENCE 审计三件套**
 
 不是"找案例证明作者对"，而是：
-- **反事实检验**："去掉这个案例，模型还成立吗？"
-- **偏差识别**：选择性举证 / 作者偏向 / 过度简化——每条证据标注一个偏差标签
-- **外部攻击**："对立阵营会怎么骂这个模型？"——主动收集并呈现
+- src_unknown
+- src_unknown
+- src_unknown
 
 **设计 3：ICAP 自评阶梯**
 
@@ -170,47 +170,47 @@ author: 老顽童
 看 MODEL 模块的产出：3 句精髓 + 5 个工程原语 + 3 条关键判断。
 
 判断：这些内容能否拆成多张独立可用的卡片？
-- 能 → 每张卡片用十步框架的对应部分填充 KDO 三步编译法的三个区块
-- 不能 → 保留为一张复合卡（`type: composite-concept`）
+- src_unknown
+- src_unknown
 
 **步骤 2：填充 Condense**
 
 对每张卡片：
-- 从 MODEL 中抽取 Claims：每句精髓 = 1 个 Claim
-- 从 IDENTITY 中抽取来源信息：写入 `source_refs`
-- 从 REFLECTION 中抽取金句：写入引用区
+- src_unknown
+- src_unknown
+- src_unknown
 
 **步骤 3：填充 Critique**
 
 对每张卡片：
-- 从 EVIDENCE 的审计结果 → Constraints（内部局限性）
-- 从 EVIDENCE 的外部攻击 → "外部攻击"子节（≥2 位不同范式）
-- 从 CONTRAST 的失效场景 → "不要用的场景"表
-- 从 EVIDENCE 的偏差标签 → 调整 per-claim confidence
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **步骤 4：填充 Synthesis**
 
 对每张卡片：
-- 从 ACTION 的场景触发卡 → Action Triggers（≥3 个）
-- 从 MY TAKE 的转化表 → Synthesis 中的"个人化洞察"
-- 从 CONTRAST 的关联方法 → Synthesis 中的"关联卡片"表
-- 从 ICAP 的泵升计划 → `prerequisites` 或 "学习路径"
-- 扫描 `related:` 字段——碰到 vault 中已有的概念时加入图边
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **步骤 5：质量门禁**
 
 检查：
-- [ ] 每张卡片的 Claims 是否与十步框架的 MODEL 一致？
-- [ ] Constraints 是否覆盖了 EVIDENCE 中的审计发现？
-- [ ] 外部攻击是否≥2 位且引用了真实学者？
-- [ ] Action Triggers 是否≥3 个且包含具体动作？
-- [ ] `kdo lint` 通过：0 errors
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **步骤 6：反馈闭环**
 
 3 周后：
-- 从 FOLLOWUP 的复诊清单 → 写入 `60_feedback/`
-- 根据复诊结果调整卡片的 confidence 和 Constraints
+- src_unknown
+- src_unknown
 
 ---
 
@@ -276,11 +276,11 @@ Daniel Willingham（《为什么学生不喜欢上学》）的核心论点：认
 
 ### 关联卡片
 
-- [[yt-model-agent-architecture]] — PEAS + Agent 架构：十步框架的理论基底——它本质上是 Learning Agent 的一次更新日志
-- [[yt-model-ipo-learning-strategy]] — IPO 学习策略：深度阅读场景的强化版——输入（原书）→ 处理（十步加工）→ 输出（认知补丁 + 行动实验）
-- [[yt-personal-ai-thinking-card]] — AI 思维卡：十步框架的完整实现实例
-- [[yt-personal-knowledge-extraction]] — 知识萃取：十步框架处理后的素材可以拆解为可复用的知识单元
-- [[yt-personal-deep-review]] — 深度复盘：十步框架的 FOLLOWUP（三周复诊）本质上是针对这张卡的深度复盘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 

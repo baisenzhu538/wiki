@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,13 +10,13 @@ created_at: 2026-05-11
 difficulty: advanced
 language: zh-CN
 query_triggers:
-  - "Truman的个人成长五步法"
-  - "Truman的个人成长五步法：用一页纸解释全部人生规划"
-  - "两种人生红点类型"
-  - "五步法与创业五步法的对应"
-  - "五要素模型"
-  - "核心逻辑"
-  - "用一页纸解释全部人生规划"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260522_074c72ae-ocr-truman的个人成长五步法
@@ -31,7 +31,7 @@ yitang:
   module: "个人修炼"
   course_type: framework
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户只列能力资源，但没找到人生红点', 'framework_lens': '方向缺失', 'follow_up_question': '你的人生红点是什么？如果答不出，五步法第一步就错了'}
   - {'signal': '用户倒推能力但不练习', 'framework_lens': '知行脱节', 'follow_up_question': '你为了红点，最近三个月刻意练习了哪些能力？'}
@@ -39,11 +39,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[tool-泛产品落地-管理三段论]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-model-personal-map]]'
-  - '[[ocr-泛产品设计-落地卡片-管理三段论]]'
-  - '[[tool-三层目标对齐法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# Truman的个人成长五步法：用一页纸解释全部人生规划
 
@@ -93,11 +93,11 @@ Truman的个人成长五步法是创业五步法在个人发展领域的迁移�
 ```
 
 不是线性的"先有能力再做事"，而是：
-- **红点驱动**：先确定人生红点（你要成为什么样的人/留下什么作品）
-- **倒推能力**：从红点倒推需要什么能力
-- **选择路径**：规划从当前能力到红点的最优路径
-- **匹配进步方式**：为每个阶段选择最高效的进步方式
-- **盘点资源**：搞清楚什么资源已经拥有，什么需要获取
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五步法与创业五步法的对应
 
@@ -138,9 +138,9 @@ Truman的个人成长五步法是创业五步法在个人发展领域的迁移�
 **分组逻辑**：上半部分是框架结构（5要素+箭头），下半部分是Truman的个人实例（具体填入内容）。实例部分的每个格子都填了具体内容（"靠谱产品经理→优秀业务负责人→成熟创业者"），暗示这不是空框架——是要填实名的。"作品存世型"用特别标注与"教育优先，涵盖其他"形成人生红点的子层次结构。
 
 **视觉标记语义**（源于源图像深度解析）：
-- 「**泛产品创新**」**黄色高亮 + 红色虚线框**：当前阶段核心聚焦能力，与人生红点中"用产品创新的方式"形成**首尾呼应**
-- 「**人生红点**」**整列红色虚线框**：整个框架的终极目标与意义归宿，以最大视觉权重呈现
-- 「**懂教育**」与「**教育优先**」**双向贯穿**：能力端是第1项，终极红点处补充"教育优先，涵盖其他"——教育既是能力底色，也是价值排序的第一性原则
+- src_unknown
+- src_unknown
+- src_unknown
 
 **阅读顺序暗示**：标题"当有了这个逻辑以后，就可以用一页纸，解释我所有的人生规划"本身就是使用指南——先理解框架，再填入自己的内容。从左到右阅读是"当前→未来"，但从右到左的倒推（红点→能力需求）才是实际使用顺序。
 
@@ -157,8 +157,8 @@ Truman的个人成长五步法是创业五步法在个人发展领域的迁移�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-deliberate-practice-growth]]
-- [[yt-model-personal-map]]
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,20 +16,20 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - '[[dk-modeling-course-rnd-ripe-fruit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-question-scaffold-not-answer]]'
-  - '[[dk-modeling-case-explosion-confidence]]'
-  - '[[dk-modeling-timely-review-session-window]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-course-rnd-ripe-fruit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/project-management'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -38,12 +38,12 @@ updated_at: '2026-06-17'
 
 ## diagnostic_signals
 
-- 团队做项目计划时，只能列出“任务+截止日期”，说不出关键评审点在哪里。
-- 里程碑一拆就是十几二十个，但看不出哪个节点真正决定项目生死。
-- 复杂项目做到一半才发现：前期输入/发散没做足，后期只能大规模返工。
-- 每次遇到新项目，都要从零重新设计里程碑，没有可复用的“积木”。
-- 把排期表、任务清单、里程碑混为一谈，认为“列完事项=做好计划”。
-- 评审会变成走流程，没人能说清楚当前阶段的核心产出和准入门槛。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 原始表述/核心洞察
 
@@ -53,11 +53,11 @@ updated_at: '2026-06-17'
 
 ## 使用场景
 
-- 你在设计复杂 AI 工作流，不知道里程碑怎么拆。
-- 团队把任务清单当项目计划，缺少关键评审点。
-- 你在做课程、训练营、研究型项目，需要科学拆分阶段。
-- 你想把项目管理从“排期驱动”升级为“模型驱动”。
-- 你需要向团队或客户解释：为什么这个节点必须评审、那个节点不能跳过。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -78,11 +78,11 @@ updated_at: '2026-06-17'
 
 ## 适用边界
 
-- **适用于复杂、不确定、需要多次评审的项目**。简单项目不必硬拆。
-- **需要先有单元模型库**。否则每次从零发明积木。
-- **不能替代真实交付节奏**。里程碑是导航，不是枷锁。
-- **需要团队理解“依赖关系”**。否则拼出来的只是另一种任务清单。
-- **对高度标准化、重复性强的流程价值有限**，这类流程更适合直接用 SOP。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -97,15 +97,15 @@ updated_at: '2026-06-17'
 
 ## 为什么值钱
 
-- 项目管理领域有很多具体方法，但很少把它们抽象成“成对单元模型”这种可迁移的建模语言。
-- 这是 Truman 设计 AI Partner 里程碑时的真实方法。
-- 它把里程碑设计从“经验排期”变成“逻辑拼装”。
-- 一旦团队共享同一套单元模型库，跨项目迁移、新人上手、复盘归因都会更快。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-sop-execution-locks]] —— 里程碑落地后的执行锁机制。
-- [[tool-sop-template-modeling]] —— SOP/清单建模工具。
-- [[modeling-three-stages]] —— 流程建模阶段的方法论。
-- [[dk-modeling-course-rnd-ripe-fruit]] —— 研究型课程用成对单元模型替代精确课表，按成熟度摘果。
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#2650-2688` —— Truman 口述原文：单元模型与里程碑拼装。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

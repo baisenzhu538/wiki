@@ -15,12 +15,12 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[dk-yitang-research-desperate-effort]]'
-  - '[[dk-yitang-research-goal-before-efficiency]]'
-  - '[[dk-demand-hidden-need]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[dk-yitang-public-info-is-enough]]'
-  - "[[concept-yitang-ideal-research-goal]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 调研投入必须与信息价值匹配
 

@@ -4,34 +4,34 @@ title: 技能：工作流优先于AIGC的决策方法
 type: tool
 status: needs-review
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
-- business-strategy
+- src_unknown
+- yitang- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 source_refs:
 - src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
 related:
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-痛点驱动的数字化]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：工作流优先于AIGC的决策方法
 
@@ -49,27 +49,27 @@ related:
 
 ## 适用场景
 
-- 业务场景反复使用、密度高
-- 已有成熟的SOP或操作流程
-- 对输出稳定性要求高
-- 成本敏感的项目
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 创意生成、需要高度发散性的内容
-- SOP尚未建立、流程极不稳定的探索期
-- 单次或极低频任务
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 工作流引擎
-- SOP文档
-- 成本测算表
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

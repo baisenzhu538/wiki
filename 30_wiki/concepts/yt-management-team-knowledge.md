@@ -5,19 +5,19 @@
 title: 团队知识管理
 type: concept
 domain:
-  - management- management
-  - product
-  - ai-saas
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队有很多文档但找不到
+- src_unknown
   framework_lens: 文档库≠知识库
   follow_up_question: 一个新问题出现时，团队成员能在5分钟内找到相关知识吗？
-- signal: 知识库建好后没人更新
+- src_unknown
   framework_lens: 一次性构建
   follow_up_question: 你的知识库最近一次更新是什么时候？如果超过一个月，知识在腐化
 updated_at: '2026-06-16'
@@ -31,11 +31,11 @@ source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-  - '[[yt-note-three-level-evolution]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-management-basic-skills]]'
-  - '[[dk-yitang-digging-belief]]'
-  - '[[yt-personal-checklist-notes]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 团队知识管理
 
@@ -71,10 +71,10 @@ related:
 ### 知识管理重新理解
 
 常见误区：
-- **文档库即知识库论**："我们已经在飞书/Notion/语雀上写了文档" —— 堆积的文档是信息，能被找到、被理解、被使用的才是知识
-- **大而全论**："知识库要把公司所有东西都记录下来" —— 什么都记等于什么都没记。知识库需要选择性：只沉淀"下次还会用到"的东西
-- **一次性构建论**："找一段时间集中把知识库建好" —— 知识库不是一次性的工程项目，而是需要持续浇灌的活系统
-- **工具决定论**："用了最好的知识管理工具就能管好知识" —— 工具解决"方便记"的问题，解决不了"愿意记、有人用、会更新"的问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **一堂的知识管理定义**：团队知识管理 = 让正确的人在正确的时间找到正确的知识，从而避免重复踩坑、加速决策、降低新人上手的组织学习成本。
 
@@ -131,9 +131,9 @@ SECI 模型的精髓在于：隐性知识的传递不是通过"写下来→别�
 
 **Dave Snowden**（威尔士大学知识管理教授，Cynefin 框架创始人）将人类面对的系统分为五种域：清晰（Clear）、繁杂（Complicated）、复杂（Complex）、混沌（Chaotic）、无序（Disorder）。团队知识管理课程隐含的假设——知识可以被捕获、结构化、存储和标准化——只在**清晰域**和**繁杂域**中成立：
 
-- **清晰域**（原因和结果显而易见）：标准操作流程、合规规则。写成 checklist 没问题——可沉淀。
-- **繁杂域**（需要专家分析）：工程问题、数据分析。可以分析后写成指南——需要专家但可沉淀。
-- **复杂域**（原因和结果是回溯性的——只能在事后解释，不可事前预测）：创业战略、团队管理、产品-市场匹配。**知识在这个域中不可被"结构化"——因为昨天有效的方法今天可能已经失效。** 你能记录的只是历史案例，但历史案例的适应性边界不可知。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的词——它假定了过去成功的做法会在未来继续成功。** 一堂课程可能默认知识管理适用于所有类型的知识，但 Snowden 会说：你必须先分类。把复杂域中的知识当作"可以标准化的流程"来管理——你会把昨天的运气变成明天的教条。
 
@@ -174,14 +174,14 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 关联卡片
 
-- [[yt-management-project-management]] — 科学项目管理：项目复盘是团队知识管理最重要的知识捕获入口——每个项目结束都应产出可沉淀的经验
-- [[yt-management-onboarding]] — 新人落地：良好的团队知识库能让新人自助完成大部分业务上手——知识库质量直接决定新人上手速度
-- [[yt-management-basic-skills]] — 管理基本功认知：推动团队做知识沉淀是管理基本功中容易被忽视的能力
-- [[yt-management-company-culture]] — 公司文化：知识分享的意愿（我懂得的东西愿不愿意写出来给别人用）本质上是文化问题而非工具问题
-- [[yt-management-leadership-levels]] — 管理者五段位：四段"建体系者"的核心交付物之一就是团队知识体系
-- [[yt-personal-knowledge-management]] — 个人知识管理：个人知识管理的方法论（如 PARA、Zettelkasten）与团队知识管理互补——个人管理好才能更好地贡献给团队
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：知识库是组织武器库中最容易产生"虚假安全感的武器——你以为你知道的东西已经被写下来了、可以查到了、不会丢了。但 Nonaka 和 Snowden 告诉你：被写下来的那部分是最容易被复制也最容易过时的。真正锋利的武器不在文档库中——它在那个还没离职的老员工的脑子里，在你需要他/她的时候能找到他/她
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Snowden 的 Cynefin 框架翻译成讲香的术语——清晰域的知识需要"说明书式讲香"（步骤化、可复现），复杂域的知识需要"故事式讲香"（案例化、保留模糊性、让听众自己提取适用于自己场景的洞见）。团队知识管理的最高境界不是把一切变成说明书——而是知道什么该写成说明书、什么该讲成故事
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -203,7 +203,7 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 跨学科锚点
 
-- SECI 模型（Nonaka & Takeuchi, 1995）是组织知识管理领域的奠基理论——将知识创造分为社会化（隐性→隐性）、外化（隐性→显性）、组合化（显性→显性）、内化（显性→隐性）四个循环过程。一堂课程的"捕获→结构化→使用→维护"流程是其简化版本，但 NONAKA 会指出简化时丢失了最重要的社会化环节。
-- Snowden 的 Cynefin 框架（2007）是对知识管理领域最深刻的重新分类——它揭示了一个被广泛忽视的真相：不同域中的知识需要完全不同的管理方式。清晰域用 checklist，复杂域用案例故事和安全护栏。一堂课程是否做了这一区分，决定了知识库是资产还是负债。
-- "知识库的墓碑效应"源自企业知识管理实践中的普遍观察——麦肯锡、埃森哲等咨询公司的知识管理系统经历了数十年迭代才找到"人找知识→知识找人"的平衡。
-- 亚马逊的"六页纸"文化和"Working Backwards"文档——将隐性决策知识显性化为结构化文档，是知识管理在战略决策场景下的最佳实践之一。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

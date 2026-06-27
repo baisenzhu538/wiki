@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -20,35 +20,35 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 diagnostic_signals:
-- signal: 同一件事换个人做，结果差异大到像两家公司在做
+- src_unknown
   framework_lens: SOP/模板建模
   follow_up_question: 这个任务是否有可重复的最佳步骤和可检查的交付标准？
-- signal: 关键产出严重依赖执行者当天的状态或心情
+- src_unknown
   framework_lens: 动作固化 + 加锁执行
   follow_up_question: 如果执行者状态不好，哪些动作可以提前标准化到模板里？
-- signal: 团队已经写了 SOP，但执行率只有 50-70%，同样错误反复出现
+- src_unknown
   framework_lens: 督导 SOP + 品控 SOP
   follow_up_question: SOP 是否有独立的检查层？督导和品控是否也被标准化？
-- signal: 新人接手老任务时总是漏步骤、问同样的问题
+- src_unknown
   framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[case-livestream-sop-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[modeling-weapon-library]]'
-  - '[[process-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-process-sop-examples]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/sop'
-- '#content-format/canvas'
-- '#method/execution-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # SOP/模板建模法：把关键动作固化成标准工作流
 
@@ -60,11 +60,11 @@ tags:
 
 ## 核心要点
 
-- **SOP 解决“怎么做”，模板解决“产出什么格式”**；二者常配合使用。
-- **好的 SOP 要细到“换一个人也能按步骤做出 80 分结果”**。
-- **仅写 SOP 不够，必须加锁**：督导 SOP 检查执行，品控 SOP 检查督导，执行率才能从 50–70% 提升到接近 100%。
-- **迭代触发器在现场**：出错打补丁，高光补最佳实践，每次意外/高光后 24 小时内讨论是否更新。
-- **按 ROI 控制颗粒度**：高价值环节细化，低价值环节保持简单；不要为了 SOP 而 SOP。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -76,11 +76,11 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 
 ## Claims
 
-- **C1 [conf=0.9]**: SOP/模板适用于高频、关键、容错率低的执行场景。——依据：`src_20260614_8269ccdb#428-446`。
-- **C2 [conf=0.85]**: 好的 SOP 要把动作定义到“无脑操作”级别，例如麦当劳炸薯条的时间、温度、动作。——依据：`src_20260614_8269ccdb#760-776`。
-- **C3 [conf=0.85]**: SOP 写出来不等于被执行，需要加督导和品控两层锁才能保证稳定落地。——依据：`src_20260614_8269ccdb#1074-1110`。
-- **C4 [conf=0.8]**: SOP 和模板的区别在于：SOP 是流程，模板是产出物的格式；二者常配合使用。——推断：基于 Truman 对麦当劳 SOP 和直播 SOP 的描述。
-- **C5 [conf=0.75]**: SOP 的迭代来自每次意外：表现好的时候补充最佳实践，出错的时候打补丁。——依据：`src_20260614_8269ccdb#651-655`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -95,38 +95,38 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 ### 步骤 1：选择值得 SOP 的场景
 
 不是所有任务都值得 SOP。优先选择：
-- 高频重复（每周/每月都做）
-- 出错成本高（直播翻车、交付失败、客户投诉）
-- 需要多人协同或交接
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 2：观察最佳表现和典型失败
 
 像 Truman 观察直播状态一样：
-- 哪次执行得特别好？当时做了什么？
-- 哪次出了问题？漏了哪一步？
-- 有没有随机动作实际上是关键的？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 3：写出第一版 SOP
 
 每个步骤包含：
-- **动作**：具体做什么
-- **标准**：做到什么程度算合格
-- **时间/节点**：什么时候开始、什么时候完成
-- **责任人**：谁执行、谁检查
-- **输入/输出**：需要什么、产出什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：配套模板
 
 如果 SOP 的产出是文档/报告/内容，配套一个模板：
-- 固定结构（如 PRD 模板、会议纪要模板）
-- 必填字段
-- 示例
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 5：加锁执行
 
 参见 [[dk-modeling-sop-execution-locks]]：
-- 督导 SOP：有人检查执行者是否按 SOP 做了
-- 品控 SOP：有人检查督导的工作质量
+- src_unknown
+- src_unknown
 
 ### 步骤 6：按 ROI 持续细化
 
@@ -175,9 +175,9 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 
 ### 内部局限性
 
-- SOP 会把“例外情况”排除在外，可能扼杀创新
-- 过度标准化会让执行者失去 ownership，变成机械执行
-- SOP 更新不及时会固化错误做法
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：John Boyd — "SOP 是战斗中的敌人"
 
@@ -185,8 +185,8 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 
 ### 反事实测试
 
-- 如果 SOP 没有标准，只有清单，会怎样？执行者知道检查什么，但不知道具体怎么做，质量仍不稳定。
-- 如果 SOP 没有督导，会怎样？Truman 观察到的执行率只有 50–70%。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -194,11 +194,11 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 
 ### 关联卡片 / 互链
 
-- [[process-modeling]] —— SOP/清单的完整流程建模方法
-- [[tool-checklist-cheatsheet-modeling]] —— 清单是 SOP 的轻量化 companion
-- [[modeling-weapon-library]] —— SOP/模板在基础模型中的定位
-- [[dk-modeling-sop-execution-locks]] —— SOP 稳定执行的关键机制
-- [[case-modeling-process-sop-examples]] —— 学员企业 SOP 案例集
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -214,22 +214,22 @@ SOP 通常以步骤序列呈现，每个步骤包含：动作、责任人、输�
 
 ## 行动 Checklist
 
-- [ ] 识别出一个高频、高失败成本或需要交接的任务
-- [ ] 访谈最佳执行者，记录 3 次成功和 3 次失败的关键动作
-- [ ] 按“动作—标准—时间—责任人—输入输出”写出第一版 SOP
-- [ ] 如产出是文档/内容，配套一个含固定结构、必填字段、示例的模板
-- [ ] 设计督导 SOP（检查执行）和品控 SOP（检查督导）
-- [ ] 试运行 3 次，记录偏差并修正
-- [ ] 建立“每次意外/高光后 24 小时内复盘更新”机制
-- [ ] 每季度按 ROI 评估：删除低价值步骤、合并冗余步骤、升级抽象建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:428-446、760-776、1074-1110、651-655`
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

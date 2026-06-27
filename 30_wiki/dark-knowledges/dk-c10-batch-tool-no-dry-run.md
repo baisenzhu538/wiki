@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-20
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-10
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-small-format-error-cascades-to-system-failure]]'
-  - '[[dk-f4-wrong-workdir]]'
-  - '[[dk-infrastructure-guardrails-over-checklist]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 工具改动后直接 --batch --write
-- dry-run 单卡 diff 未逐字段核对
-- validator PASS 后未人工读正文
-- 旧格式/新格式兼容未验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 
 ## 原始表述/核心洞察
@@ -44,9 +44,9 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你刚修改了 KDO CLI 的某个批量写入工具（scaffold、enrich、clean_cards 等），准备对多张卡运行
-- 你正在设计一个新的自动化管线脚本，它会对卡片内容做修改
-- 你审查别人的批量操作提案时，需要快速判断它是否会重蹈 C-10
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -60,9 +60,9 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有会**修改卡片正文内容**的工具（不只是 scaffold，也包括 enrich、clean、tag、chunk）
-- 不适用于只读操作（audit、lint、validate、query）
-- 即使工具"只是加字段""只是修格式"，也必须走流程——C-10 的 scaffold 也只是"加 Critique section"，结果覆盖了已有内容
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -75,15 +75,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是 KDO 历史上最严重的内容破坏事故——71 张卡、~140 个攻击段落、一次操作全部丢失
-- 根因链条揭示了三个叠加漏洞：工具缺陷（旧格式不兼容）+ 流程缺陷（无 dry-run）+ 校验缺陷（validator 打假 PASS）
-- 三个漏洞缺一不可，但**流程缺陷是第一道防线**——如果先 dry-run 单卡，后两个漏洞根本不会被触发
-- 任何 AI 训练语料中都不存在"KDO 的 scaffold 因为不认旧格式而覆盖了 Taleb 的攻击段落"这条知识
-- C-10 的教训具有强迁移性：**任何自动化内容修改工具，必须先单卡验证再批量。无一例外。**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式的另一个变体：批处理输出格式合法但内容空洞
-- [[master-decision-hygiene]] — C-10 的"先单卡后批量"本质上就是决策卫生 Step 3（独立评估）的工程实现
-- `90_control/failure-modes.md#F-KDO-014` → 不准擅自运行批量写入命令
-- `20_memory/corrections.md#C-10` → C-10（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

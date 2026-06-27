@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-validation
-  - yt-product-kernel-premature-optimization
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户做了用户访谈，但结论和预设一致，没有意外发现"
+  - src_unknown
     framework_lens: 做而不信——访谈了，但不相信负面结果
     follow_up_question: "访谈中有没有和预设相反的发现？如果有，你是调整了预设还是忽视了？"
-  - signal: "用户验证了内核，但验证不支持假设时，找理由解释"
+  - src_unknown
     framework_lens: 做而不信——验证了，但不尊重结果
     follow_up_question: "如果验证结果不支持假设，你会调整方向吗？还是继续投入？"
-  - signal: "用户团队说'我们按流程做了，但结果不好'"
+  - src_unknown
     framework_lens: 做而不信——执行了流程，但不相信流程需要调整
     follow_up_question: "流程执行了，但结果不好，是流程问题还是执行问题？"
-  - signal: "用户有数据，但决策还是凭直觉"
+  - src_unknown
     framework_lens: 做而不信——有数据，但不相信数据
     follow_up_question: "你的决策是基于数据还是直觉？如果数据不支持直觉，你选哪个？"
-  - signal: "用户说'我知道用户需要什么'，但数据说不需要"
+  - src_unknown
     framework_lens: 做而不信——自我认知高于数据
     follow_up_question: "如果数据和你对用户的认知不一致，你更相信哪个？"
 
@@ -72,10 +72,10 @@ diagnostic_signals:
 ### 2. "做而不信"的识别
 
 问自己：
-- 验证结果是否让我不舒服？
-- 我是否在找理由解释不支持的数据？
-- 如果数据不支持，我会调整方向吗？
-- 我的决策是基于数据还是直觉？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果答案偏向"直觉"，可能在"做而不信"。
 
@@ -119,21 +119,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当验证结果让你不舒服时 → 承认可能预设错误
-- 当找理由解释不支持的数据时 → 停下来，尊重数据
-- 当凭直觉决策时 → 问"数据支持这个决策吗？"
-- 当团队不相信方法时 → 用小胜利建立信任
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂案例大爆炸："做而不信"案例
+- src_unknown
+- src_unknown
+- src_unknown

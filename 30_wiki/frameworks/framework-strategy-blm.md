@@ -7,7 +7,7 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_35_ocr_text.md
@@ -17,21 +17,21 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-five-see-three-set]]'
-  - '[[framework-strategy-brm]]'
-  - '[[tool-strategy-swot]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[case-strategy-model-selection-quiz]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[framework-strategy-five-forces]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[framework-strategy-mckinsey-7s]]'
-  - '[[framework-strategy-pyramid]]'
-  - '[[tool-strategy-customer-selection]]'
-  - '[[tool-strategy-fishbone]]'
-  - '[[tool-strategy-swot]]'
-  - '[[tool-strategy-value-proposition]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # IBM BLM 业务领导力模型 + 华为五看三定
@@ -83,9 +83,9 @@ related:
 
 ### 1.3 连接要素
 
-- **领导力**：业务领导负责并引领战略制定和执行，战略不能被授权。
-- **价值观**：贯穿战略与执行的判断标准。
-- **差距**：业绩差距（当前未达目标）和机会差距（未来可能失去的机会）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

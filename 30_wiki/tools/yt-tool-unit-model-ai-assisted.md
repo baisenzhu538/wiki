@@ -1,7 +1,7 @@
 ---
 
 domain:
-  - yitang- master
+  - src_unknown
 tags: null
 related: null
 id: yt-tool-unit-model-ai-assisted
@@ -62,41 +62,41 @@ Neil Postman (1985) 在*Amusing Ourselves to Death* 中提出，技术不仅改�
 
 ### 不要用的场景
 
-- **学生还未掌握L3基础时**：如果连"单元模型是什么"都说不清，AI工具会被滥用而不被深入理解
-- **业务一号位不愿意接受反馈时**：如果一号位只把AI当"批准工具"（"看，AI也说我对！"），而不是"反思工具"，则工具失效
-- **高度敏感或商业机密场景**：单元模型数据可能涉及商业机密，不宜输入公开AI平台
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-unit-model-overview]] — AI助手是单元模型框架的"加速器"，但不能替代基础理解
-- [[yt-unit-model-ladder]] — AI可以加速L3→L4→L6的进阶，但L1→L3的跳跃必须人工完成
-- [[yt-unit-model-construction]] — AI可以辅助"拆推评算"中的列清单和推算阶段
-- [[yt-management-scientific-decision]] — 科学决策要求"基于数据而非拍脑袋"，AI助手是实现这一原则的工具
-- [[yt-model-prompt-engineering]] — 和平台性的提示词工程技能形成补充，但单元模型的提示词需要结合商业上下文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 个人学习：AI辅助学习任何复杂技能（如投资、编程）时的双导师模式
-- 团队培训：TCP-R 模型可迁移到任何团队能力建设场景
-- 项目管理：AI辅助项目分析时的三个层次（识别问题→构建模型→动态预测）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 当AI的建议与业务一号位的直觉冲突时，应该相信谁？
-- AI生成的单元模型错误率有多高？如何建立验证机制？
-- 在"出口式咨询"中，如何判断学生是真的理解了还是只是"背下来"？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- 开发"单元模型AI助手"：输入业务描述，AI自动生成单元模型草稿+成本清单+参数推算
-- 构建"TCP-R 双导师评价维度"：为教学和咨询场景设计具体的评价标准
-- 制作"出口式咨询金标准"检查清单：帮助学生检验自己是否真的理解
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- [ ] 当你用AI辅助单元模型时，先确认自己已经掌握L3基础（能独立识别单元）
-- [ ] 当AI给出建议时，要求自己能用一句话解释清楚，而不是简单复制
-- [ ] 当AI与你的直觉冲突时，先怀疑AI（可能缺少上下文），再怀疑自己（可能有偏见）
-- [ ] 当你发现团队过度依赖AI时，强制要求"人工验证"环节
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

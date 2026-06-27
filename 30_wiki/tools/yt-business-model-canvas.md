@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-product-kernel-canvas
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说不清楚商业模式"
+  - src_unknown
     framework_lens: 商业模式画布——结构化梳理商业模式
     follow_up_question: "你能用商业模式画布的9个要素描述你的商业模式吗？"
-  - signal: "用户商业模式要素之间不匹配"
+  - src_unknown
     framework_lens: 商业模式画布——画布帮助发现矛盾
     follow_up_question: "你的价值主张和客户群体匹配吗？收费方式和渠道匹配吗？"
-  - signal: "用户团队对商业模式理解不一致"
+  - src_unknown
     framework_lens: 商业模式画布——画布对齐团队认知
     follow_up_question: "你们团队一起填过商业模式画布吗？每个人填的结果一致吗？"
-  - signal: "用户商业模式缺少某个要素"
+  - src_unknown
     framework_lens: 商业模式画布——9个要素缺一不可
     follow_up_question: "你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？"
-  - signal: "用户说'商业模式太复杂，说不清楚'"
+  - src_unknown
     framework_lens: 商业模式画布——画布简化复杂商业模式
     follow_up_question: "用画布的9个要素，每个要素写一句话，能描述清楚吗？"
 
@@ -99,20 +99,20 @@ diagnostic_signals:
 ### 3. 画布的使用方法
 
 **步骤1：独立填写**
-- 每个人独立填写画布
-- 不讨论，先写自己的理解
+- src_unknown
+- src_unknown
 
 **步骤2：对比差异**
-- 对比每个人填写的画布
-- 发现差异和矛盾
+- src_unknown
+- src_unknown
 
 **步骤3：对齐共识**
-- 讨论差异，对齐认知
-- 形成统一的画布
+- src_unknown
+- src_unknown
 
 **步骤4：验证假设**
-- 画布中的每个要素都是假设
-- 需要验证
+- src_unknown
+- src_unknown
 
 ### 4. 画布的迭代
 
@@ -147,21 +147,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当说不清楚商业模式时 → 用画布梳理
-- 当团队对商业模式理解不一致时 → 一起填画布
-- 当商业模式复杂时 → 用画布简化
-- 当市场变化时 → 迭代画布
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- Alexander Osterwalder: Business Model Generation
-- 精益画布（Ash Maurya）
+- src_unknown
+- src_unknown
+- src_unknown

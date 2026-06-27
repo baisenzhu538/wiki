@@ -3,11 +3,11 @@
 title: "OCR: 一堂-单元模型-单用户模型"
 type: concept
 domain:
-  - product
-  - needs-review
-  - business-strategy
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_d193f920
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-单sku模型]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
-  - '[[ocr-一堂-单元模型-多模型情况]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -36,22 +36,22 @@ related:
 
 原图: `一堂-单元模型-单用户模型.
 
-*` 一堂十大单元模型之三：单用户模型 句话解释 按每个C端用户来计算，如首单/30天/180天 常见变种 CAC/LTV模型，单用户首单模型，单用户LTV模型 典型类型 线上教育，互联网保险，游戏，金融 1) 有较高获客成本的业务 建议要用 2) 有持续留存/LTV的业务 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+*` 一堂十大单元模型之三：单用户模型 句话解释 按每个C端用户来计算，如首单/30天/180天 常见变种 CAC/LTV模型，单用户首单模型，单用户LTV模型 典型类型 线上教育，互联网保险，游戏，金融 1) 有较高获客成本的业务 建议要用 2) 有持续留存/LTV的业务 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - src_unknown
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_d193f920-ocr-一堂-单元模型-单用户模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

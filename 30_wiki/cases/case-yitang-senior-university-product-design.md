@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-doris-catering-chain-benchmark]]'
-  - '[[case-yitang-travel-receipt-analysis]]'
-  - '[[case-doris-outbound-travel-community]]'
-  - '[[case-yitang-beauty-device-overseas-sales]]'
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[dk-yitang-research-question-quality]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：老年大学——用假设链验证赛道

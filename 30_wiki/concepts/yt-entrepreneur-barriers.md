@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "项目壁垒"
-  - "护城河"
-  - "规模效应"
-  - "网络效应"
-  - "品牌壁垒"
-  - "技术壁垒"
-  - "专利壁垒"
-  - "五步法壁垒"
-  - "创业护城河"
-  - "行业准入"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,18 +38,18 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户说"我规模大后有壁垒"，但现在什么都没有', 'framework_lens': '事后壁垒幻想——壁垒需要提前设计', 'follow_up_question': '在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想'}
   - {'signal': '用户把单一优势当护城河', 'framework_lens': '壁垒维度单一', 'follow_up_question': '如果竞争对手明天复制了你的这个优势，你还有什么？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[yt-entrepreneur-business-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 项目壁垒
 
@@ -69,9 +69,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段/五步法进阶」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -96,7 +96,7 @@ Peter Thiel（"Zero to One"作者，PayPal联合创始人）的垄断论从另�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

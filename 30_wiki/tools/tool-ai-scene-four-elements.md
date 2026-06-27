@@ -4,31 +4,31 @@ title: 技能：AI落地场景四要素评估法
 type: tool
 status: draft
 domain:
-- ai-collaboration
-- yitang- AI
-- 落地
-- 评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
 - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
-- '[[ai-landing-scene-selection]]'
-- '[[tool-ai-four-elements-validation]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次评估4个要素全部回答
-- 至少1个要素触发"不适合AI"的警觉
-- 能判断"这个场景是否适合AI落地"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
+- src_unknown
 prerequisite_skills:
-- skill-ai-four-elements-validation
+- src_unknown
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
@@ -62,10 +62,10 @@ trust_level: low
 
 ### 关键规则
 
-- **四要素缺一不可**：任何一个要素不满足，这个场景不适合AI落地
-- **"有方法"是最容易被忽略的**：很多人想"让AI做我不会的事"——这不可行。AI只能干你会的事
-- **"有数据"不等于"有大数据"**：哪怕只有50条高质量样本，也可能够（取决于任务复杂度）
-- **"有判断"意味着人类最终负责**：AI不能替代人类做最终判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 评分标准
 
@@ -79,14 +79,14 @@ trust_level: low
 
 ## 适用场景
 
-- ✅ **准备用AI解决一个业务场景时** — 评估可行性
-- ✅ **团队讨论"AI能做什么"时** — 从10个想法中筛选
-- ✅ **AI项目立项前** — 作为可行性评估工具
-- ✅ **向老板/客户提案时** — 用四要素说明为什么这个场景适合AI
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **零容错场景** — 如医疗诊断、自动驾驶安全决策（需要专业AI系统）
-- ❌ **完全未知的领域** — 需要先人工探索
-- ❌ **需要实时决策的场景** — AI推理延迟可能不满足要求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -100,8 +100,8 @@ AI落地的失败率超过90%，其中大部分不是因为"技术不行"，而�
 
 ## 工具/环境
 
-- **工具**：无（纯思维工具）
-- **备用方案**：把四要素写成表格，打印出来贴墙上
+- src_unknown
+- src_unknown
 
 ---
 
@@ -119,19 +119,19 @@ AI落地的失败率超过90%，其中大部分不是因为"技术不行"，而�
 
 ## 关联技能
 
-- [[tool-ai-four-elements-validation]] — 通用四要素验证法
-- [[tool-ai-landing-five-steps]] — 评估通过后，用五步落地流程执行
-- dk-ai-only-do-what-you-know — AI只能干你会的事的暗知识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 马易，AI俱乐部-AI落地场景识别-口述，2026-06-06
-- 00_inbox/AI俱乐部-AI落地场景识别-马易-笔记.txt`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

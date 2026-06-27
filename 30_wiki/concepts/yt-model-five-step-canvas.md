@@ -7,25 +7,25 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 2531
 language: zh-CN
 query_triggers:
-- 两个画布的联合使用
-- 五步法画布
-- 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
-- 产品内核画布
-- 产品内核画布（三栏结构）
-- 从假设到壁垒的实操工具
+- src_unknown
+- src_unknown
+- src_unknown × 产品内核画布：从假设到壁垒的实操工具
+- src_unknown
+- src_unknown（三栏结构）
+- src_unknown
 related:
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-five-step-method]]'
-  - '[[case-proya-betaine-skincare-benchmark]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-tool-product-core-canvas]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -39,12 +39,12 @@ yitang:
   module: 创业必修
   course_type: framework
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队把五步法画布六个格子都填满了，但没人能说清楚当前最大的风险假设是什么
+- src_unknown
   framework_lens: 画布填成了清单但失去了焦点——六模块平均用力，没有识别出风险最大的假设
   follow_up_question: 如果只能验证一个模块的假设，你选哪个？为什么？
-- signal: 创业者说'产品内核画布填完了，但不知道和五步法画布怎么衔接'
+- src_unknown
   framework_lens: 两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
@@ -115,7 +115,7 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-product-core-metrics]]
+- src_unknown
 
 ## Constraints & Boundaries
 

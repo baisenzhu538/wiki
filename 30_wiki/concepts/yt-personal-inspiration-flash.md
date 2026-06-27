@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "灵感闪现"
-  - "灵感捕捉"
-  - "潜意识思考"
-  - "顿悟时刻"
-  - "跨领域模式识别"
-  - "信息浸泡"
-  - "灵感触发方法"
-  - "创造力培养"
-  - "如何产生灵感"
-  - "暂停显意识"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,8 +38,8 @@ yitang:
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '主动、持续地浸泡在多样化信息中，而不是等待灵感', 'framework_lens': '灵感需要信息营养', 'follow_up_question': '过去一周你主动接触了哪些跨领域信息？'}
   - {'signal': '有固定机制捕获灵感（笔记、语音、画草图），不让它溜走', 'framework_lens': '灵感易逝', 'follow_up_question': '最近一次灵感出现后，你多久内完成了记录？'}
@@ -47,11 +47,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-deliberate-practice]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-product-design]]'
-  - '[[yt-personal-scientific-expression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 灵感闪现（认知篇）
 
@@ -69,20 +69,20 @@ related:
 ### 失败模式
 
 1. **被动等待灵感，项目进度被拖慢**
-   - **原因**：灵感神秘化
-   - **修复**：建立‘信息浸泡 + 问题聚焦 + 放松触发’的主动流程
+   - src_unknown
+   - src_unknown
 
 2. **有了灵感但不记录，过后想不起来**
-   - **原因**：捕获机制缺失
-   - **修复**：随身携带捕获工具，24小时内把灵感整理进笔记
+   - src_unknown
+   - src_unknown
 
 3. **灵感很多，但都不解决问题**
-   - **原因**：缺少问题导向
-   - **修复**：每个灵感记录时写下：‘它能回答哪个问题？’
+   - src_unknown
+   - src_unknown
 
 4. **把灵感当结论，未经验证就执行**
-   - **原因**：过度信任顿悟
-   - **修复**：对灵感进行‘事实/逻辑/可行性’三问检验
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -94,8 +94,8 @@ related:
 
 传统上灵感被理解为"天才的火花"或"上天的恩赐"，这种神秘化叙事导致两个有害后果：
 
-- 普通人认为自己"没有灵感"是正常现象，放弃主动追求
-- 有灵感的人把灵感归因为天赋，不追溯其产生条件，无法复制
+- src_unknown
+- src_unknown
 
 一堂的重新定义：**灵感 = 跨领域的模式识别在潜意识中完成后的意识涌现。** 灵感的三个必要条件：
 1. **信息浸泡**：大脑中有足够多、足够多样的素材（案例/现象/数据）
@@ -105,19 +105,19 @@ related:
 ### 灵感闪现的三个触发阶段
 
 **阶段一：积累（Saturation）——"泡"进去**
-- 密集地往大脑里灌注该领域的素材：案例、文章、数据、对话、观察
-- 不在此阶段急于总结——先让素材在脑中达到"过饱和"状态
-- Truman 在 IPO 课中的"世界学习法"与此相通：所有涌入脑子的信息都是学习材料
+- src_unknown
+- src_unknown
+- src_unknown
 
 **阶段二：暂停（Incubation）——"放"一放**
-- 有意识地把问题放下，切换场景（去散步、洗澡、睡觉）
-- 显意识暂停，潜意识接手——这是大脑进行"跨领域随机连接"的窗口期
-- 关键动作：带着一个清晰的问题进入暂停期（不是空转），让潜意识围绕这个问题做自由联想
+- src_unknown
+- src_unknown
+- src_unknown
 
 **阶段三：捕获（Illumination）——"接"住它**
-- 灵感闪现是瞬时事件——几秒钟内出现，几秒钟内可能消失
-- 必须建立"灵感捕获系统"：随身笔记本、语音备忘录、手机备忘录固定在首屏
-- "灵感不会等人——它来了就走，你不接就错过。"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂其他方法论的关系
 

@@ -5,9 +5,9 @@ title: 王欢概念：对抗式生成
 type: concept
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -17,36 +17,36 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-say-think-do-toolchain]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-task-product-system]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 单一模型输出反复在同类错误上打转，人工挑刺后改一轮又出新问题
+- src_unknown
   lens: 生成与评审视角未分离，模型在用同一套偏见自我确认
   follow_up: 引入第二个不同基座的模型专门扮演评审者，逐条输出问题清单
-- signal: 复杂方案/代码/文案在团队评审时总有人提出模型没发现的盲点
+- src_unknown
   lens: AI 评审缺少多模型交叉攻击，未触发 adversarial 搜索
   follow_up: 用至少两个评审模型从逻辑、安全、受众、成本四个维度分别挑刺
-- signal: 多 Agent 协作时出现界面正常但核心功能损坏的“损坏的玩具”
+- src_unknown
   lens: 缺少独立的评估者角色，执行者自己验收自己的产出
   follow_up: 强制设置评估者 Agent，按验收清单逐条测试并给出阻塞/重要/暂缓分级
 tags:
-- 王欢
-- 对抗式生成
-- 多模型评审
-- 生成器
-- 判别器
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢概念：对抗式生成
@@ -100,23 +100,23 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 明确本次任务的“生成者”模型与“评审者”模型，优先选择不同基座。
-- [ ] 在提示词中写清楚评审维度（如逻辑、安全、受众、成本、合规）和禁止事项。
-- [ ] 第一轮先生成初稿；第二轮让评审者输出结构化问题清单，而不是笼统意见。
-- [ ] 第三轮让生成者逐条回应问题清单，说明“已修改/不修改/需讨论”。
-- [ ] 设定终止条件（如连续两轮无重大问题或达到预设评分阈值）。
-- [ ] 最后一轮由人做价值终审，确认内容有真实经验、不是模板填充。
-- [ ] 把本次有效的评审 checklist 沉淀为可复用的 [[framework-wanghuan-task-product-system]] 资产。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-gan-three-roles]]：把“生成者+评审者”扩展为“生成器/判别器/合成器”三角色，适合更复杂的协作系统。
-- [[framework-wanghuan-actor-director-mode]]：对抗式生成是“导演思维”的具体落点——人不执行，人定义目标与验收标准。
-- [[framework-wanghuan-say-think-do-toolchain]]：语音输入→豆包思考→Trae 执行，是对抗式生成的工具链底座。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：BTICOE 中的 C（约束）与 O（输出）是评审者最重要的攻击入口。
-- [[framework-wanghuan-task-product-system]]：把对抗结果沉淀为可复用产品，而非一次性任务。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -125,24 +125,24 @@ tags:
 **外部攻击者 1：成本敏感型产品经理**
 “多模型评审一次任务要调好几次 API，时间翻倍、成本翻倍。90% 的日常任务根本不值得这么折腾，最后变成 AI 团队自嗨的流程表演。”
 
-- **回应**：对抗式生成只适用于“返工成本 > 评审成本”的任务。简单任务用单模型+自检即可，不要为了用方法而用方法。
+- src_unknown
 
 **外部攻击者 2：单一模型极致优化派**
 “与其让两个模型吵架，不如把一个模型的提示词打磨到极致，加 few-shot、加思维链、加 self-consistency，效果一样好。”
 
-- **回应**：自我一致性只能在模型自身分布内收敛，无法跳出模型固有偏见。不同基座模型提供的独立视角，是单一模型优化无法替代的抗盲点机制。
+- src_unknown
 
 **外部攻击者 3：AI 评审万能论者**
 “既然 AI 评审这么强，那以后人类终审也可以省掉，让 AI 自己循环直到收敛。”
 
-- **回应**：AI 会按 checklist 刷分，可能产出“结构满分但价值为零”的内容。识别真实经验、判断商业风险、承担最终责任，必须保留人类终审。
+- src_unknown
 
 ### 不要用
 
-- 不要用对抗式生成去替代人类的最终价值判断。
-- 不要对低价值、一次性任务强行上多模型评审。
-- 不要让生成者和评审者共用同一套上下文或同一基座模型而不做任何隔离。
-- 不要在没有明确终止条件的情况下启动多轮对抗，否则必然陷入成本失控。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,8 +3,8 @@ id: tool-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-ai-purpose-bias-check]]'
-- '[[sk-ai-system-redundancy]]'
-- '[[tool-ai-narrative-test]]'
-- '[[tool-ai-prd-for-ai]]'
-- '[[sk-ai-purpose-bias-check]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：系统冗余度快速检查清单
 
@@ -47,20 +47,20 @@ related:
 
 ## 适用场景
 
-- 设计一个方案/系统时，想确保它在意外情况下不会崩溃
-- 规划个人职业发展时，想避免"所有鸡蛋放在一个篮子里"
-- 团队管理中，担心某个关键人员离开后项目卡住
-- 产品设计时，需要预留容错机制应对突发故障
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 文档编辑工具（Notion / Word / 飞书文档等）
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行，每步必须验收后进入下一步**
-- 单人操作忽视团队协作 → 成果难推广 → **步骤1就征求团队意见**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -68,13 +68,13 @@ related:
 
 ## 关联技能
 
-- self-organized-criticality
-- [[sk-ai-purpose-bias-check]]
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 水水，拆书会《偶然》分享，2026-06
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

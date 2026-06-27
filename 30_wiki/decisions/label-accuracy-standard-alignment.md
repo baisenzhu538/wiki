@@ -4,26 +4,26 @@ title: 标注准确率标准对齐 — 开发指标 vs 生产门禁
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 target_roles:
-- 欧阳锋（Architect）
-- 黄药师（Builder）
+- src_unknown
+- src_unknown
 reviewer: 欧阳锋
 author: 黄药师
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 related:
-  - '[[gold-standard-manual-labels]]'
-  - '[[dk-f14-accuracy-measurement-mismatch]]'
-  - '[[proposal-prompt-injection-infrastructure]]'
-  - '[[dk-p17-accuracy-gap]]'
-  - '[[labeling-research-alignment]]'
-  - '[[gold-standard-manual-labels]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[kdo-15-dimension-label-spec]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: label-accuracy-standard-alignment
 reviewed_by: pending
 confidence: 0.6
@@ -71,10 +71,10 @@ trust_level: low
 | **9 维准确率** | 生产门禁 | Pilot 启动 / 全量标注前 | ≥ 85% | 欧阳锋独立验证 |
 
 规则：
-- 4 维 < 85% → 黄药师继续调 prompt
-- 4 维 ≥ 85% → 提交欧阳锋做 9 维验证
-- 9 维 < 85% → 定位退步维度 → 针对性调优 → 重新提交
-- 9 维 ≥ 85% → 门禁通过，启动 Pilot
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -83,9 +83,9 @@ trust_level: low
 **准确率 = 正确数 / 总数，不剔除任何 chunk。**
 
 "边界 case"（标注者之间可能合理分歧的 chunk）：
-- 在比对报告中单独标注（如 `⚠ 边界争议`），不影响准确率计算
-- 作为 prompt 迭代的停止信号——如果剩余错误全是边界 case，可以停止调 prompt
-- 积累到一定数量（≥5 条）时，由欧阳锋 + 黄药师共同复审，决定是改 Gold Standard 标注还是接受分歧
+- src_unknown
+- src_unknown
+- src_unknown
 
 **当前边界 case 清单**（待欧阳锋确认）：
 
@@ -99,11 +99,11 @@ trust_level: low
 
 ## 五、实施清单
 
-- [ ] 欧阳锋确认双轨标准（4维开发 / 9维生产）
-- [ ] 补齐 5 个质量/价值维度的 Gold Standard 标注（confidence / platform / expiry / prerequisite / usage_depth）
-- [ ] 针对质量维度做 1-2 轮 prompt 调优（目前质量维未调过）
-- [ ] 边界 case 清单确认——3 条争议是否接受为分歧？
-- [ ] 全量跑 9 维 baseline → 记录到 `evals/label-gold-standard/benchmark-results.md`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -144,11 +144,11 @@ trust_level: low
 
 ### 实施清单确认
 
-- [x] 双轨标准确认
-- [ ] 补齐质量/价值维度 Gold Standard（5 维）→ **黄药师**
-- [ ] 质量维度 prompt 调优 1-2 轮 → **黄药师**（等 Gold Standard 补齐后）
-- [ ] 边界 case 清单已确认
-- [ ] 9 维 baseline 记录到 benchmark-results.md → **黄药师**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **结果**：双轨标准已对齐，黄药师的提案从设计到执行都达到了 Sprint A- 水准。可以推进实施清单。
 

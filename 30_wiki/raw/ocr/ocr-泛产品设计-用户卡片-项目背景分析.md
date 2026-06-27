@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-项目背景分析"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_115e8827
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-项目背景分析"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-用户视角]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-项目背景分析
@@ -36,41 +36,41 @@ png` - 泛产品设计·用户卡片 项目背景分析 综合用户/场景/商�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 用户卡片项目背景分析需综合用户、场景、商业三方面考量。
-- 识别项目机会的核心方法是寻找"落差"：现状与理想状态之间的差距。
-- 八个分析维度覆盖战略、商业、目标、市场、用户、效率、成长、老板八个层面。
-- 战略落差：战略目标与现状之间的差距。
-- 商业落差：收入增长与停滞之间的差距。
-- 目标落差：团队目标与进展之间的差距。
-- 市场落差：自身与竞争对手基准之间的差距。
-- 用户落差：用户价值与当前缺失之间的差距。
-- 效率落差：内部高效运作与低效现状之间的差距。
-- 成长落差：团队成长需求与低效现状之间的差距。
-- 老板落差：老板想法与执行层拒绝接受之间的差距。
-- 该分析方法适用于所有投入较多资源的产品项目方案。
-- 系统化提升方式：学习《项目管理1：方案设计》课程。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 八个维度中的"效率"和"成长"都指向"低效"作为落差一端，是否存在概念重叠或边界模糊，如何区分何时归入效率维度、何时归入成长维度？
-- "老板上：老板想法和拒绝的落差"中"拒绝"的主语缺失——是老板的想法被拒绝，还是执行层拒绝老板的想法，这一表述的歧义是否影响该维度的实际应用？
-- "适合场景：所有投入较多资源的产品项目方案"中"较多资源"缺乏量化标准，如何判断资源投入是否达到适用阈值，是否存在轻量项目被错误排除或过度套用的风险？
-- 八个维度全部以"落差"为分析单元，但未说明当多个维度同时存在落差时如何优先级排序，是否隐含"所有落差同等重要"的假设？
-- "学一堂课《项目管理1：方案设计》"作为唯一推荐的进步方式，是否预设了课程内容的权威性和完备性，有无其他替代学习路径或实践验证机制？
-- 用户维度仅提及"用户价值和缺失的落差"，未明确"价值"由谁定义（用户自述、产品团队判断还是数据验证），是否存在将团队假设等同于用户真实需求的风险？
-- 市场维度"我们和对手基准的落差"中"基准"的具体含义未界定——是功能对标、市场份额、用户体验还是商业模式，不同基准是否导向不同的分析结论？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -84,20 +84,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

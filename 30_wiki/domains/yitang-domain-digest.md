@@ -6,16 +6,16 @@ status: enriched
 confidence: 0.90
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_context: 一堂创业/商业课程体系——五步法、调研、决策、需求、增长、壁垒、产品、内容生产
 created_at: "2026-06-23"
 author: 黄药师
 reviewed_by: pending
 related:
-  - "[[five-step-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[strategy-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 域摘要：一堂知识体系

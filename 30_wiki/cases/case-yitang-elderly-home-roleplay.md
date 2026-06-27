@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[case-yitang-mahjong-machine-fake-order]]'
-  - '[[case-yitang-competitor-pricing-intelligence]]'
-  - '[[case-yitang-hardware-factory-photo]]'
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-field-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：假扮家属潜入养老院微信群

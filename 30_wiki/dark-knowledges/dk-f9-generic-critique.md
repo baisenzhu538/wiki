@@ -6,33 +6,33 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-009
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-009
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[dk-f11-encyclopedia-style]]'
-  - '[[dk-f7-surface-translation]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[dk-f8-phony-wikilink]]'
-  - '[[dk-p4-batch-format-empty]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-first-principles]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 单条 Critique 不指名任何具体假设、边界或反例
-- 多张卡片的 Critique 段文本相似度 >50%
+- src_unknown
+- src_unknown
 ---# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 
 ## 原始表述/核心洞察
@@ -51,10 +51,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你正在写概念卡的 Critique 段， tempted 复制粘贴之前用过的"万能质疑模板"
-- 你审查多张卡片时发现它们的 Critique 段几乎一模一样
-- 你设计 L2 Lint 规则时，需要检测 Critique 段是否包含针对性质疑
-- 你评估卡片质量时，需要判断 Critique 是"有实质攻击"还是"有字数没内容"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -66,11 +66,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有需要写 Critique 段的 concept/tool/framework 卡
-- 不适用于纯信息卡（如术语定义、人物介绍）——这些卡片确实不需要深度 Critique
-- 如果源材料本身没有明确的方法论主张（如纯案例集、纯数据报告），Critique 可能确实难以写出针对性质疑——此时应标记为"低结构化源材料"
-- **至少一条 Critique 必须指名具体假设或边界**——这是底线，不能妥协
-- 不同范式的外部攻击者（如 Mintzberg vs Taleb）对同一卡片的攻击角度不同——选择攻击者时要考虑与卡片主题的匹配度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -83,18 +83,18 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **Critique 是 KDO 卡片的核心差异化价值**：如果 Critique 只是万能废话，KDO 卡片和百度百科就没有区别
-- 无质疑接受揭示了"批判性思维"在实际执行中的衰减：Builder 知道应该质疑，但因为没有深入理解内容，只能用模板替代思考
-- 这是质量门设计中的经典博弈：L2 Lint 要求"有 Critique 段"，Builder 为了满足格式要求而填充模板——格式门通过了，但内容门失败了
-- 任何 AI 训练语料中都不会有"KDO 的 Critique 段容易出现无质疑接受"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是批处理导致的内容空洞，F-KDO-009 是人工编译时的思维懒惰——两者都是"有段落标题但没有实质内容"
-- [[master-cognitive-bias-checklist]] — 认知偏差中的"确认偏误"：人倾向于寻找支持自己观点的证据，而回避反面证据。无质疑接受是确认偏误在知识生产中的具体表现
-- [[master-first-principles]] — 第一性原理要求回到基本假设进行质疑；无质疑接受则是用通用模板绕开对具体假设的回溯
-- `90_control/failure-modes.md` → F-KDO-009（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #9（不准用通用质疑模板替代针对性质疑）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

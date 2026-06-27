@@ -5,19 +5,19 @@ title: 萃取器升级：regex → LLM-based 暗知识提取
 type: improvement-plan
 status: pending
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 黄药师（Builder）
+- src_unknown
 reviewer: 欧阳锋（Architect）
 related:
-  - '[[dk-c1-cjk-regex-silent-fail]]'
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[fix-data-curator-parse-bug]]'
-  - '[[ouyangfeng-labeling-research-review]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -91,10 +91,10 @@ LLM_EXTRACT_PROMPT = """你是一个暗知识萃取专家。分析以下从口�
 ---
 
 请判断这条片段所属的类型（在下面 4 类中选择最匹配的一类）：
-- tool_usage：具体工具配置技巧、集成方式、使用窍门
-- failure：错误、踩坑、教训、"不要做"类经验
-- insight：个人专业判断、金句、反常识洞察
-- workflow：具体操作流程、步骤序列
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 返回严格的 JSON 格式（不要 markdown 标记）：
 {{

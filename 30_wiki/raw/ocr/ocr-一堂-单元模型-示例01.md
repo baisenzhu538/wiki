@@ -3,9 +3,9 @@
 title: "OCR: 一堂-单元模型-示例01"
 type: concept
 domain:
-  - needs-review
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_0cfcfa9e
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-单柜子模型]]'
-  - '[[ocr-一堂-单元模型-示例]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,25 +40,25 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_0cfcfa9e-ocr-一堂-单元模型-示例01.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 备选单元 单柜+单商圈
+- src_unknown
 核心模型 单柜子模型（每月)
 单元模型-收入
 指标 你的值 占收入比例
 每月销售收入 3600 100%
 每月收入 每月订单数 210
 每单sku数 1
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

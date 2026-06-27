@@ -6,21 +6,21 @@ title: 两份标注调研的对齐：黄药师 × 老顽童
 type: analysis
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 target_roles:
-- 用户（决策者）
-- 欧阳锋（Architect）
-- 黄药师（Builder）
-- 老顽童（Producer）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[gold-standard-manual-labels]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[ouyangfeng-labeling-research-review]]'
-  - '[[label-accuracy-standard-alignment]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[kdo-15-dimension-label-spec]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
@@ -113,15 +113,15 @@ label_version: "tag-registry@v1.0"
 ### 改进 2：建立 Gold Standard 样本集
 
 行业标准：5-10% 的标注作为 gold standard（不可动摇的基准）。KDO 做法：
-- 欧阳锋手工标注 10-20 条 chunk 作为 gold standard
-- `validate_clean.py` 每次跑自动标注后，对比 gold standard 计算准确率
-- 准确率 < 85% → AI 标注管线暂停，人工介入
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 改进 3：质量组的维度从"可选"升级为"条件必标"
 
 老顽童的"质量门槛"原则要求每个阶段设置门槛。当前 15 维度方案中，质量组（confidence/data_generation/error_root/expiry）的标注是"有信号时激活"。建议升级为：
-- data_generation → 必标（治理底线）
-- expiry → 条件必标（value_tier=macro 的卡必标，其余可选）
+- src_unknown
+- src_unknown
 
 ---
 

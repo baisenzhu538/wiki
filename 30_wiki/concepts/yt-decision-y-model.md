@@ -4,35 +4,35 @@ confidence: 0.85
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2100
 language: zh-CN
 query_triggers:
-- 科学决策
-- Y模型
-- 广义ROI
-- 宽度深度高度
-- 决策框架
-- 投入产出比
-- 关键决策
-- 决策质量
-- 团队共识
-- 机会成本
-- 时间窗口
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[yt-management-scientific-decision]]'
-- '[[yt-tool-product-core-canvas]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-entrepreneur-industry-forecast]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-full-process]]'
-- '[[yt-five-step-method]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
@@ -44,35 +44,35 @@ type: framework
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-决策三角形.png
+- src_unknown
   dimensions:
-  - 色彩语义: 三色三角形（红=价值/收益、黄=水平/宽度、蓝=深度），负形白色三角暗示"高度"维度
-  - 空间结构: 等边三角形，三边等长暗示三维同等重要；顶点交汇于中心点暗示三维协同
-  - 信息层级: L1 三边标签 → L2 各维度子项 → L3 操作要点
-  - 负形利用: 中心白色三角=高度维度，暗示"站得高"才能看到全局
-  - 视觉隐喻: 三角形稳定性隐喻决策框架的稳固性
-- image: 一堂-科学决策-一堂双三角磨合追求.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰背景=专业容器；渐变绿/蓝=进阶路径；白字=信息主体；红色标签=价值高低指示
-  - 空间结构: 三个递进三角形水平排列(左→右=入门→进阶→高手)，纵轴标注"价值高低"；每个三角形内包含人与AI的协作模式描述
-  - 信息层级: L1 标题+价值轴 → L2 三角形标签(迷你/基础/超级) → L3 合作模式说明 → L4 底部行动号召
-  - 负形利用: 三角形间间距=进阶过渡带；左侧起点低价值=高手也从入门开始；右侧高价值=人的判断力是终极目标
-  - 视觉隐喻: 三个递进三角形=人+AI协作水平的三阶进化；"磨合追求"=非一蹈而就的迭代过程；底部二维码/号召=行动门槛
-- image: 一堂-科学决策-关键假设ABCD模型.png
-- image: 一堂-科学决策-项目方案评估三角形.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 黑=权威专业；玫红=品牌识别；浅灰=隐形标尺；青蓝=数据驱动评估结果
-  - 空间结构: 等边三角形=三要素均衡张力；同心嵌套=理想边界渐进参照；中心空洞=系统性偏差
-  - 信息层级: L1主题锚定→L2品牌背书→L3维度命名→L4数据映射→L5参照系统
-  - 负形利用: 三角形外部留白=画框效应+更广阔语境；青色与理想边界间隙=改进空间；中心空白=未达均衡态
-  - 视觉隐喻: 雷达图=多维评估可视化；铁三角=不可能三角经典隐喻；重心偏移=低成本保守型；同心圆=成熟度等级；青色=热成像诊断
-- image: 一堂-科学决策-ROI高阶训练全景图.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 四象限色块区分场景（暖色=商业/决策，冷色=增长/转化）
-  - 空间结构: 2×2矩阵，对角线互补；中心留白=假设思维原点
-  - 信息层级: L1 场景标签 → L2 核心问题 → L3 展开维度 → L4 统一原点
-  - 负形利用: 矩阵交叉线=场景组合锚点；象限间留白=场景切换校准区
-  - 视觉隐喻: '"四套操作系统"=可切换的决策runtime'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-y-model
   course_type: framework
@@ -80,16 +80,16 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队说'我们用Y模型分析过了'，但不同人用同一画布得出完全不同的结论
+- src_unknown
   framework_lens: 噪声问题——Y模型减少偏差但不减少噪声，框架内同一关键参数的估计值差异巨大
   follow_up_question: 同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题
-- signal: 创业者用Y模型分析品牌视觉方向，最后变成'高级感值3分还是5分'的争论
+- src_unknown
   framework_lens: 框架覆盖边界——Y模型对不可通约的品味型决策失效
   follow_up_question: 这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者
-- signal: 复盘时创始人用'我当时考虑了长期视角'为任意结果辩护，但决策前高度区是空白的
+- src_unknown
   framework_lens: 高度视角沦为事后叙事工具——Y模型要求决策时显式记录高度判断，否则无法证伪
   follow_up_question: 当前画布的高度区是否写明了'3年后回看会后悔吗'和'放弃的最佳替代方案是什么'？如果没有，补齐后再继续
 author: 老顽童
@@ -225,19 +225,19 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 ### 内部局限
 
-- claim:boundary-01 [conf=0.80] **框架的"找全"假设与认知盲区的冲突**：宽度要求列全收益/成本项，但"你不知道你不知道什么"——如果某个关键维度根本没进入意识，列推查也无法发现。AI补盲区有效，但AI本身也有训练数据盲区。
+- src_unknown
 
-- claim:boundary-02 [conf=0.80] **高度视角的"事后合理化"风险**：长期视角、机会成本等高度分析容易被事后用来为任意决策辩护——"我当时考虑了十年视角"很难被证伪，沦为叙事工具而非分析工具。
+- src_unknown
 
-- claim:boundary-03 [conf=0.75] **框架对"品味型决策"的覆盖不足**：品牌调性、产品审美、文化方向等高度依赖决策者个人品味的决策，用ROI框架分析容易把不可通约的价值强行折算为可比数字。
+- src_unknown
 
 三条边界声明揭示了框架的内在张力：
 
-- **结构化美感与混沌现实的冲突**：Y模型隐含"决策可以被拆解为可枚举的维度"，但真实决策中大量信息是涌现的、关联的、非线性的——框架的整洁分类本身可能扭曲问题结构。
+- src_unknown
 
-- **定量深度与"虚假精确性"**：L3/L4的定量分析需要大量假设和估计，这些估计本身带有巨大不确定性。把不确定性包装成精确数字（"预计节省30-50万"）可能带来虚假的笃定感。
+- src_unknown
 
-- **共识工具与权力结构的共谋**：团队共识的理想状态是"以理服人"，但现实中框架可能被用作权力合法化工具——"我们用Y模型分析过了"成为不容质疑的挡箭牌。
+- src_unknown
 
 ### 外部攻击
 
@@ -249,13 +249,13 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 
 
-- **专家决策的核心是模式识别而非比较分析**：在真实的高风险、时间压力、信息不完备场景中，专家并非列出多个方案比较利弊，而是在看到情境的瞬间就识别出"这像什么"，并直接生成一个可行方案，然后 mentally simulate 验证其可行性。整个过程在秒级完成，与Y模型的"列推查→逐层深入"结构完全不同。
+- src_unknown
 
 
-- **结构化分析会打断专家的直觉过程**：Klein 警告，要求专家"用框架一步步分析"反而可能降低决策质量——把内隐的模式识别强行外化为显性比较，会丢失专家基于经验积累的微妙线索。
+- src_unknown
 
 
-- **适用范围的根本分歧**：Y模型适用于"有足够时间、信息相对完备、多方需要达成共识"的决策；Klein 的 RPD 适用于"时间压力、信息不完备、决策者具有丰富领域经验"的决策。Klein 会直接质疑：如果你是一位有20年经验的创业者，面对一个"要不要收购竞争对手"的决策，你真的需要列一张画布逐项比较吗？还是你的直觉——基于你见过的20个类似案例——已经给出了足够好的答案？
+- src_unknown
 
 
 
@@ -279,13 +279,13 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 
 
-- **框架减少偏差（bias）但不减少噪声（noise）**：Y模型通过结构化可以减少"系统性偏差"（如过度自信、锚定效应），但Kahneman 证明，即使使用完全相同的框架，不同分析师对同一案例的判断仍可能产生巨大差异——这叫"噪声"。例如，同一个Y模型画布，分析师A估计"员工士气提升带来2%营收增长"，分析师B估计"0.5%"——这个差异不是偏差，是噪声。
+- src_unknown
 
 
-- **结构化可能掩盖噪声**：当所有人都用同一套框架时，框架的形式一致性给人一种"我们已经很客观了"的错觉，但框架内部的估计值可能充满噪声。Kahneman 主张用"决策卫生"（如分解判断、外部视角、算法辅助）来降噪，而Y模型本身不提供降噪机制。
+- src_unknown
 
 
-- **外部视角的缺失**：Y模型鼓励"站在更高视角"，但Kahneman 强调的"外部视角"（base rate——同类决策的历史统计结果）在框架中没有显性位置。
+- src_unknown
 
 
 
@@ -295,13 +295,13 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 ## diagnostic_signals
 
-- signal: "团队说'我们用Y模型分析过了'，但不同人用同一画布得出完全不同的结论"
+- src_unknown
   framework_lens: "噪声问题——Y模型减少偏差但不减少噪声，框架内同一关键参数的估计值差异巨大"
   follow_up_question: "同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题"
-- signal: "创业者用Y模型分析品牌视觉方向，最后变成'高级感值3分还是5分'的争论"
+- src_unknown
   framework_lens: "框架覆盖边界——Y模型对不可通约的品味型决策失效"
   follow_up_question: "这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者"
-- signal: "复盘时创始人用'我当时考虑了长期视角'为任意结果辩护，但决策前高度区是空白的"
+- src_unknown
   framework_lens: "高度视角沦为事后叙事工具——Y模型要求决策时显式记录高度判断，否则无法证伪"
   follow_up_question: "当前画布的高度区是否写明了'3年后回看会后悔吗'和'放弃的最佳替代方案是什么'？如果没有，补齐后再继续"
 
@@ -314,13 +314,13 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 ### 关联框架卡
 
 
-- [[yt-model-entrepreneur-map]] —— 一堂创业地图总纲
+- src_unknown
 
 
-- [[yt-decision-canvas]] —— Y模型决策画布（落地工具）
+- src_unknown
 
 
-- [[yt-decision-ai-partner]] —— AI决策Partner对话法
+- src_unknown
 
 
 
@@ -443,5 +443,5 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 ## Related Cards
 
-- **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 本暗知卡揭示了Y模型决策框架的心理对手——愿望思维。Y模型的核心价值之一就是用强制列表收益与成本的方式，拦截System 1的乐观偏差。
-- **[[concept-一堂-hypothesis-driven-business-methodology]]** — 本概念卡与Y模型在"先胜后战"原则上高度兼容：两者都强调在大规模投入前先验证核心假设。Y模型偏重决策评估，假设驱动方法论偏重业务拆解与验证节奏。
+- src_unknown
+- src_unknown

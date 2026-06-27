@@ -7,44 +7,44 @@ confidence: 0.88
 created_at: 2026-06-09
 difficulty: intermediate
 domain:
-- ai-native
-- management
+- src_unknown
+- src_unknown
 estimated_tokens: 4500
 language: zh-CN
 prerequisites: []
 query_triggers:
-- AI原生组织
-- 自进化组织
-- 中层管理消失
-- 烧token不烧人头
-- 代码即消耗品
-- 五层自我循环
-- YC AI组织实践
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- 管理层级臃肿导致信息逐级失真
-- 重复性决策占用中层大量时间
-- 核心 know-how 锁在个人脑中，离职即流失
-- 业务系统迭代依赖人工排期和开发
-- 客服/运营话术和经验无法系统化复用
-- 夜间或节假日业务循环基本停滞
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[tool-纪浩-AI对话上下文隔离]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[ai时代判断力口述]]'
-  - '[[ai时代判断力口述-3]]'
-  - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-  - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 status: enriched
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 trust_level: medium
 title: concept ai native organization five steps
@@ -82,11 +82,11 @@ AI原生组织不是给现有公司结构加装AI工具，而是把AI作为公�
 
 ## 边界
 
-- **组织形态边界**：最适合信息/软件密集型组织；在重资产、强监管、强物理交互的行业（制造、医疗、建筑、航空）需显著降级使用。
-- **信息可数字化边界**：要求核心上下文能被结构化、文本化或嵌入为可检索知识；大量依赖隐性默契、身体经验或人际信任的领域无法直接迁移。
-- **阶段与规模边界**：五步法更适用于从零搭建或小型组织；成百上千人的大型组织重构成本远高于新建成本，需要渐进式过渡路径。
-- **人类判断边界**：规则无法覆盖的灰色地带（利益冲突、政治协调、责任承担、伦理判断）仍需人类保留最终裁决权。
-- **岗位边界**："只剩两种人"是极端形态；法务、财务、HR、行政等辅助性岗位不会消失，而是被 AI 高度增强或嵌入循环。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -102,16 +102,16 @@ AI原生组织不是给现有公司结构加装AI工具，而是把AI作为公�
 
 ## 行动 Checklist
 
-- [ ] 盘点组织中锁在个人脑中的关键 know-how，列出流失风险最高的 5 项。
-- [ ] 选择 1 个高重复、高信息密度、可量化 ROI 的业务流程作为试点。
-- [ ] 建立 AI 可读的活文档格式（Markdown/结构化数据），并设置自动更新触发器。
-- [ ] 为试点流程设计最小五层循环：感知 → 决策 → 工具 → 质量 → 修复。
-- [ ] 部署监控 Agent，记录每次失败并生成「失败原因 + 修复建议」日志。
-- [ ] 定义上下文资产清单，明确哪些知识是永恒资产、哪些系统是短暂消耗品。
-- [ ] 重新绘制组织角色：区分独立贡献者、客户接触者与必须保留的人类判断者。
-- [ ] 设定「烧 token 不烧人头」的衡量指标：人均产出、token 成本、客户满意度。
-- [ ] 识别必须保留人类判断的灰色地带，设置 AI 不可逾越的决策红线。
-- [ ] 运行 4-6 周后复盘：ROI、失败率、组织阻力，再决定扩大范围。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Question
 
@@ -131,26 +131,26 @@ Mintzberg在《组织结构的架构》中证明，中层管理的核心价值�
 
 ### Constraints
 
-- **假设前提的局限性**：这个模型假设AI能读懂所有信息并做出有效判断。但实际上，大量的业务判断依赖于**非结构化信息**——比如客户的语气、合作伙伴的潜台词、市场的"氛围"。这些信息很难被AI有效接收。
-- **行业差异的局限性**：YC的模式适合软件和信息服务业，但在**制造业、医疗、建筑等重资产行业**中，"代码即消耗品"的论断完全失效——因为这些行业的核心资产是物理设施，不是代码。
-- **规模与阶段的局限性**：五步法是从零搭建的视角。对于已有成百上千人的大型组织，**重构成本**远超新建成本，过渡路径未被讨论。
-- **人员结构的局限性**："只剩两种人"的假设忽视了大量的**辅助性岗位**（法务、财务、HR、行政）。这些岗位虽然不直接创造价值，但是组织运行的必要条件。
-- **认知偏差的局限性**：这个模型强烈倾向于**简化论**——"中间层全部消失"。但实际上，组织变革通常是**逐渐的、非线性的、充满抗挧的**，而不是一个简单的五步操作手册。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesize
 
-- **ai时代判断力口述** — 本概念卡是AI时代判断力系列口述的组织层落地：它把"判断力"从个人能力扩展到组织能力，强调的是"组织如何用AI重构自身"而不是"个人如何用AI提升效率"。
-- **yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown** — YC的AI原生创业组织方法论是本概念卡的西方实践源头。两者的核心差异在于：YC偏重「代码生成」和「自动化」，本概念卡偏重「上下文资产」和「人员重构」——两者组合使用可以形成更完整的组织转型蓝图。
-- **ai时代判断力口述-3** — 国帅的判断力口述中对"人机协作边界"的探讨，可以作为本概念卡的补充：当组织重构为"只剩两种人"时，人的判断力边界在哪里？哪些决策必须保留给人类？
-- **anthropic-官方发布创始人手册打造-ai-原生初创公司** — Anthropic 创始人手册提出 AI 原生初创公司的四阶段演进，可作为本概念卡在创业组织从零到一阶段的补充框架，帮助判断何时该引入五层自我循环、何时应保留创始人亲自决策。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[ai时代判断力口述]]：判断力从个人能力扩展到组织能力
-- [[ai时代判断力口述-3]]：人机协作边界与必须保留的人类判断
-- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]：YC 的 AI 原生组织方法论实践源头
-- [[anthropic-官方发布创始人手册打造-ai-原生初创公司]]：AI 原生创业四阶段模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 应用本概念后有反馈，提交至 `60_feedback/concepts/concept-ai-native-organization-five-steps`。
+- src_unknown

@@ -6,8 +6,8 @@ title: 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健�
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
@@ -18,9 +18,9 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - '[[smart-medicine-cabinet-financial-model]]'
-  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 智能药柜平台合作命题交叉验证
 
 ## 一、已记录的关键数字（原样保留）
@@ -95,12 +95,12 @@ related:
 
 ## 五、开放问题（待进一步录音/资料确认）
 
-- [ ] 阿里健康当前主推的合作模式到底是“设备投放+线上托管”还是“药品供应链绑定”？
-- [ ] 美团 3+5%、饿了么 4+5% 是固定标准还是区域/合同差异？是否含广告费、配送补贴？
-- [ ] “托管美团/饿了么接口”是否有平台官方授权或书面确认？
-- [ ] 泉州万达 24h 店的真实月销单位与后台数据是什么？
-- [ ] 广州“4000 品规”目标与单台设备 300 单/天产能如何匹配？是否需要多机/多仓方案？
-- [ ] 网页内嵌+中台方案在阿里健康、美团、饿了么、京东等多平台落地的接口成本与周期？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

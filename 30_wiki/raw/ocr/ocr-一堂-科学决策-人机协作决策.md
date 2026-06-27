@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-人机协作决策"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_33c40d41
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-人机协作决策"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[yt-model-dual-triangle-competitiveness]]'
-  - '[[yitang-huazong-ama-summary]]'
-  - '[[case-yitang-double-triangle-confidence]]'
-  - '[[ocr-一堂-个人修炼-双三角模型]]'
-  - '[[ocr-一堂-人机协作-双三角模型]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-人机协作决策
@@ -41,32 +41,32 @@ png` 堂 一堂AI时代的竞争力·双三角模型 YitangCompetitivenessintheA
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 一堂提出"AI时代竞争力双三角模型"：人类三角（创造力、审美、体系）与AI三角（基本功、数据、场景）的交叉协作。
-- 人类三角核心：专业见识与最佳实践、科学体系思维与假设验证模型、稳定知识结构。
-- AI三角核心：LLM提示词/智能体基础、多模态/AI工具库宽度、模型微调训练/工程化深度。
-- 人机协作关键路径：人变强→调教更强AI→辅助人变得更强，形成正反馈循环。
-- 业务决策四步法：业务拆解、理解底层规律、ROI预判、提出创造假设。
-- AI应用四步法：解放思想、AI打磨、组织部署、形成资产。
-- 数据资产化原则：区分非结构化数据与结构化数据，最终目标是将数据沉淀为可复用资产。
-- 模型版本迭代机制：明确标注版本更新时间与实验室来源，强调持续迭代优化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该模型声称"人变强→调教更强AI→辅助人变得更强"的正反馈循环，但未说明循环的启动条件是什么——是必须先具备人类三角能力才能进入循环，还是可以从AI三角切入反向构建？
-- "审美"作为人类三角的核心要素之一，其具体定义和操作化标准不明确：专业见识、最佳实践、评价标准三者如何量化评估，是否存在主观偏差风险？
-- AI三角中的"深度：模型微调训练/工程化"暗示需要技术能力，但目标受众（一堂课程学员）的技术背景分布未知，该模型对非技术型业务人员的适用性是否经过验证？
-- "同样都会用AI，业务结果相差这么大"与"同样都是业务高手，AI结果相差这么大"这两个设问的对称结构存在逻辑陷阱——是否预设了"人用AI"与"AI用人"的双向因果，而忽视了组织环境、资源约束等外部变量？
-- 版本更新标注"2025.9.5@北京一堂实验室"，但模型首次发布时间、迭代频率、验证样本量均未披露，"持续迭代优化"的说法缺乏实证支撑。
-- "数据→形成资产"的转化路径中，未区分个人级资产与组织级资产的产权归属和迁移机制，在人员流动场景下资产连续性如何保障？
-- "解放思想"作为AI应用四步法的第一步，其与"科学体系思维"是否存在方法论张力——前者强调突破性，后者强调稳定性，两者在具体决策场景中如何优先级排序？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -84,30 +84,30 @@ Norman 在《设计心理学》中论证，任何超过人类工作记忆容量�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-ai-partner]] — AI 协作决策，本案例是其在人机分工维度上的具体展开
-- [[yt-decision-full-process]] — 决策完整流程，人机协作是其执行阶段的关键议题
-- [[yt-decision-habit-shift]] — 决策习惯转变，双三角模型需要配合习惯转变才能落地
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 团队人机分工设计：用双三角评估哪些任务应该交给 AI、哪些必须留给人
-- 个人能力发展规划：在 AI 时代重新定义"创造力"和"基本功"的边界
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将双三角当作“人 vs AI 分工的唯一标准”，边界是模糊且变化的
-- 不要用于无法清晰分类的复杂决策（如战略转型、文化变革），很多决策需要深度人机协同
-- 不要在缺乏对 AI 能力边界的深度理解时使用，“基本功”的定义每天都在变
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在设计团队工作流时，用双三角评估每个环节是“人做”还是“AI 做”更有效
-- 従你在个人职业发展中感到"被 AI 取代的焦虑”时，用模型重新定位自己的“创造力/审美/体系”差异化优势
-- 従你的组织在推动 AI 化时，用 Norman 的“认知负荷”视角检查分工框架是否超出了团队的记忆容量
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

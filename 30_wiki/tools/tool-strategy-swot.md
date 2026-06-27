@@ -7,7 +7,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_vlm_desc.md
@@ -16,15 +16,15 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-core-competence-matrix]]'
-  - '[[tool-strategy-ksf]]'
-  - '[[dk-strategy-three-must-do-moments]]'
-  - '[[framework-strategy-blm]]'
-  - '[[tool-strategy-12-word-test]]'
-  - '[[case-strategy-model-selection-quiz]]'
-  - '[[framework-strategy-blm]]'
-  - '[[framework-strategy-five-forces]]'
-  - '[[tool-strategy-ksf]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # SWOT 分析工具：从四象限到行动策略

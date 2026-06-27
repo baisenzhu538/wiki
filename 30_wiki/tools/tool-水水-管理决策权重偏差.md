@@ -4,50 +4,50 @@ title: 技能：管理决策权重偏差
 type: tool
 status: enriched
 domain:
-- decision-making
+- src_unknown
 source_person: 水水
 source_context: 拆书会-偶然
 source_refs:
 - src_unknown
 wiki_refs:
-- '[[yt-decision-y-model]]'
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-decision-delay-intuition]]'
-- '[[tool-decision-outside-view]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 有真实失败案例
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 决策矩阵（纸笔或电子表格）
-- 外部咨询（信任的朋友/导师）
+- src_unknown
+- src_unknown
 created_at: '2026-06-07'
 updated_at: '2026-06-17'
 reviewed_by: 欧阳锋
 confidence: 0.85
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 diagnostic_signals:
-- signal: 列出决策因素但权重分配明显偏向短期收益
+- src_unknown
   lens: 权重偏差
   follow_up: 执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准
-- signal: 做了分析但最后还是凭直觉选
+- src_unknown
   lens: 分析替代直觉
   follow_up: 分析的价值不在替代直觉而在让直觉被充分检视，只要发现之前没看到的偏见就有价值
-- signal: 直觉版、年长版、十年后版权重几乎相同
+- src_unknown
   lens: 视角切换失败
   follow_up: 第三次（十年后）时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权
-- signal: 只列了3-4个显而易见的因素，遗漏隐性因素
+- src_unknown
   lens: 因素遗漏
   follow_up: 强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素
-- signal: 薪资和意义感被强行放在同一个1-10量表上衡量
+- src_unknown
   lens: 不可通约量化
   follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
 ---# 技能：管理决策权重偏差
@@ -56,11 +56,11 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.90] **权重是决策中最隐蔽的偏差入口**。列出决策因素容易（"薪资、发展空间、工作地点、团队氛围..."），但给每个因素分配权重时，人会下意识地把"支持我直觉结论的因素"加权更高。水水的核心观察：**权重本身就是价值观的编码，而价值观系统性地偏向短期、可见、可量化的维度**。
+- src_unknown
 
-- claim:02 [conf=0.85] **外部视角在权重校准上的价值远超在选项评估上**。让朋友帮你判断"A 和 B 哪个好"——他们缺少你的上下文，判断质量有限。但让朋友帮你判断"这几个因素中，哪个长期来看最重要"——这个问题的答案受上下文影响小得多，外部视角的价值更大。
+- src_unknown
 
-- claim:03 [conf=0.82] **时间距离是最便宜的权重校准工具**。"十年后的我会怎么分配这些因素的权重？"这个问题把决策从"现在"的焦虑中抽离出来。十年后你不会记得今天涨了 5% 还是跌了 10%，但你会记得做了自己认为有意义的事还是为了钱忍了十年。
+- src_unknown
 
 ## 操作步骤
 
@@ -104,9 +104,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 决策矩阵工具（纸笔、Excel、Notion 表格）
-- 一个信任的朋友或导师（做外部视角校准）
-- 未来自我连续性练习（参考心理学中的"未来自我连续性"研究）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -145,8 +145,8 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **时间距离法对年轻人效果有限**：25 岁的人很难想象 35 岁的自己——不是不愿意，是缺乏足够的人生阅历去构建"十年后的我"的心理模型。这个方法的有效性随年龄和人生阶段的经验增长而提升。
-- **外部视角校准有一个悖论**：最了解你的人（家人、密友）最容易被你的处境影响判断（"我希望你开心所以选你明显想选的那个"）。而最客观的人（不熟的专业人士）又不了解你的价值观体系。需要找到"足够了解你但能保持独立判断"的人——这个交集可能很小。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -172,8 +172,8 @@ diagnostic_signals:
 
 ## 来源
 
-- 水水，拆书会-偶然
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

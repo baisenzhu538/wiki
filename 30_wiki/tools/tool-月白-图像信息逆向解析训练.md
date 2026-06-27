@@ -4,32 +4,32 @@ title: 技能：图像信息逆向解析训练
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI设计落地文件标准生成]]'
-- '[[tool-月白-产品反光修复术]]'
-- '[[tool-月白-供应商信息对齐清单法]]'
-- '[[tool-月白-竞品图精益替换法]]'
-- '[[tool-月白-眼高手低训练法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：图像信息逆向解析训练
 
@@ -46,25 +46,25 @@ related:
 
 ## 适用场景
 
-- 需要深度分析AI生成图风格来源时
-- 撰写精准提示词需要风格定位时
-- 提升专业审美判断力时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅需快速出图无需风格溯源时
-- 纯商业执行无研究需求时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 艺术史教材/数据库
-- 流派特征速查卡
-- AI生成图分析模板
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -72,12 +72,12 @@ AI模型学习的是人类艺术史数据，掌握源头知识才能反向解码
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计师实操
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

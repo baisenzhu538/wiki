@@ -4,24 +4,24 @@ title: 提案：AI 快速精通领域知识管线 — KDO 飞轮应用于学科�
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
-- 黄药师（Builder）
-- 欧阳锋（Architect）
-- 用户（决策者）
+- src_unknown
+- src_unknown
+- src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-  - '[[dk-f10-broken-source-refs]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[kdo-flywheel]]'
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[proposal-kdo-flywheel-infrastructure]]'
-  - '[[three-party-data-alignment]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline
@@ -86,16 +86,16 @@ trust_level: low
 
 对核心争议/框架/边界问题，用四步编译法产出深度文章：
 
-- 哪些框架之间有根本性冲突？
-- 这个领域的共识是什么？争议是什么？
-- 适用于什么场景？不适用于什么场景？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Phase 4：验证（可跳过）
 
 用 Gold Standard 方式做准确率评估：
-- 欧阳锋（或领域专家）手工标注 10-20 条核心判断
-- 自动卡片 vs 手工标准 → 计算准确率
-- 准确率 < 80% → 排查哪步有问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -132,23 +132,23 @@ trust_level: low
 ### 风险 2：LLM 编译幻觉
 
 LLM 在归纳总结时可能：
-- 添加原文没有的结论
-- 忽略原文中的限定条件
-- 把相关性说成因果性
+- src_unknown
+- src_unknown
+- src_unknown
 
 **防御**：
-- 三步编译的 Condense 阶段必须保留原文引用（不可凭空总结）
-- 编译输出与原文的相似度检查（BLEU 或 embedding cosine）
-- `source_refs` 必须精确到段落级别，而非文件级别
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险 3：知识库污染
 
 "吸收偏颇知识"最危险的路径不是单张卡错了——是**错的知识和正确的知识以同等的结构被入库，让 Agent 无法区分**。
 
 **防御**：
-- `trust_level` 字段显式标注来源可信度（high/medium/low）
-- 对争议性话题，强制用对比卡格式（pro/con 并列展示）
-- 禁止自动删除已有卡片——新卡片永远以补充而非替换的方式入库
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -210,25 +210,25 @@ LLM 在归纳总结时可能：
 
 ### 第二阶段（评估质量）
 
-- 跑完后用 Gold Standard 方式评估准确率
-- 对比同样问题在"学习了 50 张卡后"vs"直接上网搜"的回答质量
-- 评估标准：事实正确率、遗漏率、偏见程度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三阶段（决定是否推进）
 
 根据第二阶段评估决定：
-- 准确率 ≥ 85% → 可扩展到其他自然科学领域
-- 准确率 70-85% → 仅用于工程应用领域，需要人审核
-- 准确率 < 70% → 管线设计有问题，停止推进并复盘根因
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 六、不做什么
 
-- **不做**社会科学价值观判断的自动学习
-- **不做**完全取代人审核的自动管线（draft 自动产出 + 人抽检升 enriched）
-- **不做**大规模并行领域学习（一次只跑一个领域，收敛后再跑下一个）
-- **不做**训练模型——这是知识库管线，不是 fine-tune 管线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

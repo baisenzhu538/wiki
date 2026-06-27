@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: 欧阳锋
 source_context: 2026-05-20
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-11
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[dk-p2-tmux-cache]]'
-  - '[[dk-p6-session-resume-fail]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[dk-state-residue-is-the-silent-killer]]'
-  - '[[dk-c6-large-source-overflow]]'
-  - '[[dk-c10-batch-tool-no-dry-run]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- format-enriched
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 一个工作 session 内连续完成多个阶段，中间没有任何提报或审查记录
-- '"快速提报"被理解为"不需要提报"，阶段边界处没有停等信号'
-- 审查者刚放行第 N 阶段，发现 N+1、N+2 阶段已经提前跑完
+- src_unknown
+- src_unknown
+- src_unknown
 ---# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 
 ## 原始表述 / 核心洞察
@@ -55,28 +55,28 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你正在执行一个多阶段任务（如视频分段产出、卡片分批建设、文章分章节撰写），task brief 中标注了多个审批节点
-- 你完成一个阶段后，看到 task brief 写的是"快速提报"， tempted 直接进入下一阶段
-- 你在时间压力下 tempted 批量完成多个阶段再统一汇报
-- 你审查别人的多阶段产出时，需要确认每个阶段是否都经过了独立审批
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **识别审批节点**：读 task brief，标出每个阶段的审批点——不管是"快速提报"还是"正式 Gate"
 2. **一段一报**：每完成一个阶段，**立即提报**，不能攒着等下一阶段做完一起报
 3. **区分"快速"和"跳过"**：
-   - 快速提报 = 报得快，但**必须报**（不阻塞审查者，但你不能省略报的动作）
-   - 跳过 = 不报。**两者完全不同，不能混淆**
+   - src_unknown
+   - src_unknown
 4. **停等信号**：在收到审查者的明确放行信号前，不要启动下一阶段——即使你觉得"这个阶段改动不大，应该没问题"
 5. **一 session 一阶段**：一个工作 session 只做一个阶段，阶段边界处必须停下来提报。不要在一个 session 内连续跑完多个阶段
 
 ## 适用边界
 
-- 适用于所有标注了审批节点的**多阶段任务**，不分角色（洪七公的多模态产出、老顽童的卡片量产、黄药师的脚本开发都一样）
-- **不适用于明确标注为"无需审批"的单阶段任务**：如果 task brief 说"完成直接提交"，不需要中间审批
-- 如果审查者明确说"先做完全部再一起看"，可以合并提报——但这必须是审查者的主动指令，不是你自行决定
-- "快速提报"不降低质量标准，只降低审查者的响应延迟要求——你的产出仍然必须合格
-- 再犯后果极其严重：该批次产出全部作废，从违规起点阶段重做。这不是警告，是已经发生过的实际处罚
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -89,17 +89,17 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是对"快速"一词的**认知偏差误解**：洪七公把"快速提报"理解成了"可以不报"——这种语义漂移在高压工作环境下极易发生
-- 再犯后果是**毁灭性的**：31 帧产出全部作废，不是修改而是重做。这个代价在任何通用项目管理教材中都不会具体到"视频分段产出"的场景
-- 揭示了审批流程设计中的关键原则：**节点名称不能含糊**——"快速提报"必须配套明确的操作定义（"不阻塞但必须报"），否则执行者会按自己的理解行事
-- 任何 AI 训练语料中都不会有"KDO 的视频试点任务 7b-7d 中洪七公连续跳过三次提报导致 31 帧作废"这条知识——这是组织流程、角色沟通、任务 brief 设计三者叠加的暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一深层模式：流程关键节点被跳过导致系统性风险。C-10 是"跳过了 dry-run 验证"，C-11 是"跳过了审批提报"——两者都是"本应人工控制的节点被自动化/惯性跳过"
-- [[master-decision-hygiene]] — 决策卫生的核心原则：关键节点必须有独立评估和停等机制。C-11 的"一段一报、停等信号"就是决策卫生在多人协作流程中的工程实现
-- `90_control/AGENTS.md` → F-KDO-017（禁止清单：不准跳过审批节点连续执行多个阶段）
-- `20_memory/corrections.md` → C-11（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

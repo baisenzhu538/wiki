@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,13 +10,13 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "MUSE 人工智能全景图"
-  - "人工智能全景图"
-  - "关联卡片"
-  - "四层结构"
-  - "核心逻辑"
-  - "版本信息"
-  - "知识体系定位"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
@@ -31,7 +31,7 @@ yitang:
   module: "AI 思维模型"
   course_type: model
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户看了AI全景图后更焦虑，觉得自己什么都要学', 'framework_lens': '全景图焦虑——四层都有价值，但当前阶段只需要聚焦一层', 'follow_up_question': '你当前的工作主要在哪一层？如果还在使用层，不要同时学创业层和奇迹层'}
   - {'signal': '用户只关注奇迹层，不愿从使用层开始', 'framework_lens': '跳级学习——MUSE四层需要循序渐进', 'follow_up_question': '你日常工作中AI工具的使用效率如何？如果还没提升，奇迹层与你无关'}
@@ -39,11 +39,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[yt-personal-ai-capability]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
@@ -67,14 +67,14 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 ### 核心逻辑
 
 四层之间由「**涌现**」（Emergence）和「**AI 技术能力迭代**」两条线连接：
-- 自下而上：E 层的技术突破 → S 层工具能力提升 → U 层创业机会涌现 → M 层社会变革
-- 自上而下：M 层的未来想象拉动 U/S/E 层的研发方向
+- src_unknown
+- src_unknown
 
 ### 版本信息
 
-- 版本：V3.0，更新于 2025.9.5
-- 出品：北京一堂实验室
-- 定位：「一堂·坚持只做必修课」
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -89,7 +89,7 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-dual-triangle-competitiveness]]
+- src_unknown
 
 ## Constraints & Boundaries
 

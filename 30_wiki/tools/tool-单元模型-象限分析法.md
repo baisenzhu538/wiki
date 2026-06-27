@@ -11,21 +11,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-象限分析法.md
 related:
-  - '[[tool-单元模型-单商圈]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[tool-单元模型-单城市]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-lean-abcd-model]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 单元模型：象限分析法
@@ -63,10 +63,10 @@ related:
 
 ## When NOT to Use
 
-- **数据口径不一致**：如果单元收入与公司收入使用不同的统计口径，象限定位会失真 [conf=0.75, source=一堂原创]。
-- **把静态象限当成永恒结论**：商业模式会演化，今天的不成立可能随着规模或成本结构改善而成立。
-- **忽视时间维度**：单元模型成立但公司账不成立，可能是早期投入期正常现象，需要结合回收周期判断。
-- **用象限替代深度财务分析**：象限分析法是高维度判断，不能替代详细的单位经济模型。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -77,14 +77,14 @@ related:
 
 ## 与已有框架的关系
 
-- **[[tool-单元模型-单商圈]] / [[tool-单元模型-单城市]]**：象限分析法需要先用这些工具算出单元模型是否成立。
-- **单位经济模型**：提供计算单元盈利的方法，象限分析法提供判断框架。
-- **[[framework-strategy-brm]]**：BRM 帮助设计商业模式，象限分析法帮助判断商业模式是否健康。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **现有框架未覆盖的缺口**：
-- 缺少「单元模型与公司账口径对照表」，团队容易在计算时口径不一；
-- 缺少「象限跃迁路径」：从左上到右上，通常需要压缩哪些总部成本？从左下到右下是否可能？
-- 缺少「时间维度」：同一象限在早期和成长期含义不同。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -95,13 +95,13 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 明确单元模型边界（商圈 / 城市 / 客户 / SKU）。
-- [ ] 统一单元与公司账的收入、成本口径。
-- [ ] 计算单元模型是否成立。
-- [ ] 计算公司账是否成立。
-- [ ] 在四个象限中定位当前业务。
-- [ ] 根据象限制定 90 天行动计划。
-- [ ] 每季度复评，观察象限是否发生跃迁。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

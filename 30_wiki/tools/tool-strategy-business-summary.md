@@ -14,12 +14,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md
 related:
-  - '[[tool-strategy-business-design-template]]'
-  - '[[case-strategy-snack-business-design]]'
-  - '[[yt-business-model-canvas]]'
-  - '[[yt-business-model-partnership]]'
-  - '[[tool-strategy-map]]'
-  - "[[framework-strategy-business-design]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **输出**：七要素填完后的业务设计概要 + 多业务单元的设计对比 + 关键任务卡片
 **模板结构**：一句话业务定义→客户→价值主张→盈利模式→活动边界→控制点→风险→下一步行动

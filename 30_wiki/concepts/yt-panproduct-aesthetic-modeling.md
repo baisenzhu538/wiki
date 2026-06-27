@@ -4,36 +4,36 @@
 
 id: yt-panproduct-aesthetic-modeling
 component_of:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1424
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品审美
-- 审美
-- 审美卡片
-- 最佳实践
-- 最佳实践建模
-- 泛产品设计
-- 泛产品设计·审美卡片：最佳实践建模
-- 设计标准
+- src_unknown
+- src_unknown
+- src_unknown卡片
+- src_unknown
+- src_unknown建模
+- src_unknown
+- src_unknown·审美卡片：最佳实践建模
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[yt-panproduct-aesthetic-pool]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
-  - '[[yt-model-prediction-model]]'
-  - '[[yt-model-aesthetic-progression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模
@@ -47,16 +47,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 在评价任何案例前先列出评价维度，并说明每个维度为何重要
+- src_unknown
   framework_lens: 审美白盒化：从感觉变为可分析
   follow_up_question: 如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？
-- signal: 用同一套维度对多个案例打分，能解释分数差异背后的设计选择
+- src_unknown
   framework_lens: 模型让比较产生结构
   follow_up_question: 两个得分相近的案例，在设计取舍上有什么不同？
-- signal: 模型能预测一个新设计大概会落在什么质量区间
+- src_unknown
   framework_lens: 评价模型应具备生成性
   follow_up_question: 用模型评估一个你还没做的方案，它暴露的最大风险点是什么？
 updated_at: '2026-06-16'
@@ -85,20 +85,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **维度从网上抄来，和当前产品目标无关**
-   - **原因**：评价模型脱离问题语境
-   - **修复**：每个维度必须通过‘目标对齐测试’：它能帮助当前产品解决什么问题？
+   - src_unknown
+   - src_unknown
 
 2. **打分普遍偏高，区分不出好坏**
-   - **原因**：评分标准过松或维度冗余
-   - **修复**：引入锚定案例：明确0分、5分、10分的具体样例，并限制满分比例
+   - src_unknown
+   - src_unknown
 
 3. **把模型当成万能检查表，忽略案例的独特上下文**
-   - **原因**：模型僵化使用
-   - **修复**：每次使用模型时先写‘本次评审的特殊上下文’，允许临时维度调整
+   - src_unknown
+   - src_unknown
 
 4. **模型维度太多，评审时间爆炸**
-   - **原因**：维度膨胀，抓不住关键
-   - **修复**：限制核心维度≤5个，其余作为可选扩展维度
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -121,9 +121,9 @@ reviewed_by: 欧阳锋
 ### 建模方法
 
 与预判模型三范式完全对应：
-- **N要素（最糙版）**：提炼 2-3 个基本评价要素 → 快速判断
-- **雷达图（常用版）**：5-7 个完备维度 + 案例解读 + 打分评估 → 系统评估
-- **Checklist（复杂版）**：完整评价清单 → 全面审计
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 适合场景：所有长期的、持续迭代的最佳实践级产品设计
 > 进步方式：练习画"最佳实践雷达图"的能力
@@ -135,9 +135,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Robert Pirsig的"品质不可分解" + Malcolm Gladwell的"薄片截取"
 

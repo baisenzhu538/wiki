@@ -5,38 +5,38 @@ title: 暗知识：日志增长最快但最容易被忽视
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[dk-ji-hao-simple-complex-routing]]'
-  - '[[dk-ji-hao-pdca-starts-from-do]]'
-  - '[[dk-ji-hao-constraint-beats-talent]]'
-  - '[[dk-ji-hao-newbie-can-validate]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[tool-纪浩-日志驱动排查法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 工作空间里系统自述、工作手册、工具集都建好了，但日志文件夹还是默认或空白
+- src_unknown
   lens: 日志层被忽视
   follow_up_question: 我是否已经把日志当作一个需要主动设计和维护的层，而不是AI自动生成的副产品？
-- signal: AI产出意外结果时，只能凭记忆或猜测回溯原因，找不到当时的提示、上下文和中间输出
+- src_unknown
   lens: 事实基座缺失
   follow_up_question: 我是否记录了足够的提示词、上下文、模型版本和中间输出，以便事后复盘？
-- signal: 日志越积越多，但翻看时发现大部分是无用信息，关键记录反而淹没其中
+- src_unknown
   lens: 日志失控
   follow_up_question: 我是否定期审查日志结构、清理噪声，并建立命名/归档规范？
 ---
@@ -76,14 +76,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 在搭建工作空间时，把日志层作为第一层就设计好，而不是最后补
-- [ ] 约定最小必要日志字段：时间、模型版本、提示词/输入、关键上下文、输出摘要、异常标记
-- [ ] 为日志建立固定存储位置和命名规范，避免散落在各个会话或文件里
-- [ ] 设定定期审查节奏（如每周或每个迭代结束），清理噪声、补充缺失
-- [ ] 当AI产出意外结果时，先看日志再调整提示词，而不是凭猜测迭代
-- [ ] 把高频失败模式沉淀为日志检查清单，形成可复用的排查入口
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[tool-纪浩-日志驱动排查法]] —— 日志驱动排查的具体执行方法，包含日志规范、定期审查和反馈闭环
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 日志是五层体系的最底层，是所有上层活动的"事实基座"
+- src_unknown
+- src_unknown

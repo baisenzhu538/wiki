@@ -1,49 +1,49 @@
 ---
 id: yt-decision-full-process
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
+- src_unknown
 query_triggers:
-- 科学决策流程
-- 决策全景地图
-- 决策工作流
-- ROI落地
-- 有意识决策
-- 写初版
-- 细打磨
-- 有共识
-- 复盘循环
-- 决策训练
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
-- '[[yt-five-step-level-blindspots]]'
-- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-- '[[ocr-一堂-单元模型-修炼地图]]'
-- '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yt-decision-habit-shift]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-consensus-iceberg]]'
-- '[[yt-decision-review]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-five-step-method]]'
-- '[[yt-unit-model-overview]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-selection]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-benchmark]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[yt-unit-model-ai-assisted]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -53,35 +53,35 @@ type: framework
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-ROI高阶训练全景图.png
+- src_unknown
   dimensions:
-  - 色彩语义: 蓝=有意识(启蒙)→红=写初版(行动)→黄=细打磨(循环)→绿=做复盘(成长)；左侧武器库蓝紫=工具性
-  - 空间结构: T型结构——横向五阶段时间轴+纵向武器库；第3阶段横向最宽=最核心环节
-  - 信息层级: L0 主标题 → L1 阶段号+阶段名 → L2 认知误区 → L3 子模块 → L4 行动项 → L5 金句
-  - 负形利用: 阶段间白色间隙=认知"换气口"；3⇄4间距最小=紧密耦合；4-5间距拉大=需要跳跃
-  - 视觉隐喻: 全景地图=降低学习焦虑；时间轴箭头=不可逆进步；炼金术=五阶段物质转化；3天vs3年=时间杠杆
-- image: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png
-- image: 一堂-科学决策-发现决策.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 蓝=专业理性(分类标签)；黑=中性客观；白=清晰纯净；外框黑=聚光灯聚焦
-  - 空间结构: 垂直三段式(个人→团队→公司)；水平双轴(发现决策vs决策类型)；Z轴深度(悬浮卡片)
-  - 信息层级: L1课程定位→L2决策域(✓确认)→L3决策维度(①②③)→L4具体情境(冒号后)
-  - 负形利用: 外周黑边=决策黑箱隐喻；标题间距=呼吸节奏；右侧未用空间=扩展接口
-  - 视觉隐喻: 清单=显式列出；俄罗斯套娃=尺度嵌套；✓=意识觉醒；悬浮卡片=认知工具
-- image: 一堂-科学决策-商业模式-完整财务公式决策.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 蓝=未达标(L1-L3)；红=及格/突破(L4-L6)；黑=框架主干；灰=辅助分隔
-  - 空间结构: 垂直三层(导航锚点→能力轴→诊断矩阵)；T型结构(商业模式箭头穿透)
-  - 信息层级: P0商业模式→P1及格线+L4-L6→P2 L1-L3→P3错误矩阵→P4顶级认知空白
-  - 负形利用: L6右侧延伸=无上限成长；顶级认知空白=不可言说需顿悟；标题呼吸带
-  - 视觉隐喻: 时间轴=能力成熟度；蓝→红=认知跃迁；及格线=可习得技能；箭头=重力源；空白=默会知识
-- image: 一堂-科学决策-关键训练清单（重要））.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰标题栏=权威容器；黑字=信息主体；蓝字=维度标签；红字=心态提示；绿字=行动要点
-  - 空间结构: 三列矩阵表格(决策维度/关键思考和心态/具体做事清单)；行=不同高度子维度
-  - 信息层级: L1 主标题 → L2 维度标签(宽度/深度/高度) → L3 子维度标签 → L4 具体问句和行动项
-  - 负形利用: 右侧空白区=给使用者留下自己的补充；行间距=高密度信息的呼吸感
-  - 视觉隐喻: 清单=checklist可复制执行；#默认我会...是心态突破点；三列式=从思维到行动的完整闭环
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-full-process
   course_type: framework
@@ -89,15 +89,15 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队每周走完整五阶段流程，但决策速度越来越慢，创新实验数量下降
+- src_unknown
   framework_lens: 流程过度工程化——全景流程是训练框架，不是每个决策的强制工序
   follow_up_question: 过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低
-- signal: 创业者说'我按流程做了完整分析，但还是错过了最好的机会'
+- src_unknown
   framework_lens: 涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的
   follow_up_question: 这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？
-- signal: 复盘时发现80%的已执行决策都没有留下'初版ROI'快照
+- src_unknown
   framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
   follow_up_question: 最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地
 author: 老顽童
@@ -157,11 +157,11 @@ author: 老顽童
 
 **三类决策源**：
 
-- **个人决策**：职业选择、学习投资、时间分配、城市/行业选择
+- src_unknown
 
-- **团队决策**：招聘、渠道选择、功能优先级、合作方式
+- src_unknown
 
-- **公司决策**：战略方向、业务线调整、融资/投资、大供应商合作
+- src_unknown
 
 
 
@@ -179,23 +179,23 @@ author: 老顽童
 
 **克制决策三招**：
 
-- **虚构蓝军**：在脑子里创造一个对立面，专门找自己答案的漏洞
+- src_unknown
 
-- **强调五五开**：开会时先声明"这个决策还没有预设答案，各种可能性都存在"
+- src_unknown
 
-- **延迟决策**：重大决策慢半拍，等信息更充分再拍板
+- src_unknown
 
 
 
 **决策投入分级**：
 
-- **L1 简单评估**：花30分钟想一想、聊一聊
+- src_unknown
 
-- **L2 认真评估**：花1-2小时把要素写下来
+- src_unknown
 
-- **L3 完整评估**：用宽度+深度+高度工具做全面分析（4-8小时）
+- src_unknown
 
-- **L4 极限评估**：拉满，这是当前最好的水平（数天至数周）
+- src_unknown
 
 
 
@@ -257,17 +257,17 @@ author: 老顽童
 
 **各等级常见错误**：
 
-- **L1 缺算账意识**：只谈初心，不谈变现，不谈数字。意味着连"这个业务能不能赚钱"都没有数字概念。
+- src_unknown
 
-- **L2 缺单元模型**：只算大账（总收入减总成本），存在盲区。没有拆到"每一个单元交易"的精细程度。
+- src_unknown
 
-- **L3 缺关键项**：虽然有账，但忽略了经营成本（如折旧、税收）、组织成本（如招聘、培训）、财务成本（如利息、机会成本）。
+- src_unknown
 
-- **L4 缺基准值**：有完整账，但缺少统计意义的对比基准——如"同行业平均利润率是多少"。容易因为错误类比或乐观预期而误判。
+- src_unknown
 
-- **L5 缺动态预测**：有完整账+基准值，但忽略了**规模变化**（放大10倍后边际成本会怎么变）、**外部变化**（政策、竞争、技术变化）、**业务变化**（新业务线、新渠道）对财务模型的影响。
+- src_unknown
 
-- **L6 顶级认知**：能够根据多维变化动态调整预测。这一层往往需要"顶级认知"或大量实战积累才能达到。
+- src_unknown
 
 
 
@@ -305,11 +305,11 @@ author: 老顽童
 
 **微调方案**：
 
-- 成本能不能削减？（如取消一个非必要功能、换一个更便宜的供应商）
+- src_unknown
 
-- 收益能不能拉高？（如增加一个复购激励机制、提前一个收费节点）
+- src_unknown
 
-- 风险能不能转移？（如把固定成本变成变动成本、加一个退出条款）
+- src_unknown
 
 
 
@@ -335,11 +335,11 @@ author: 老顽童
 
 **关键操作**：
 
-- 用四层共识模型（行动→判断→逻辑→信息）定位分歧层级
+- src_unknown
 
-- 用教练式提问让团队自己从L4推到L1
+- src_unknown
 
-- 打磨和共识是**循环**——打磨出新方案后需要重新共识，共识中发现新信息后需要重新打磨
+- src_unknown
 
 
 
@@ -417,11 +417,11 @@ author: 老顽童
 
 
 
-- [ ] 这个决策有明确的备选方案或视角吗？（阶段一通过标准）
-- [ ] 我能在三句话说清"换不换"吗？（阶段二通过标准）
-- [ ] 关键数字有来源、基准值或估算依据吗？（阶段三深度要求）
-- [ ] 团队知道"做什么、谁来做、何时完成"吗？（阶段四行动层要求）
-- [ ] 如果今天复盘，我能找到当初的收益/成本清单吗？（阶段五预判快照要求）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -477,11 +477,11 @@ author: 老顽童
 
 
 
-- **流程的线性假设**：五阶段流程暗含"决策是从A到B到C的顺序过程"，但真实世界中很多决策是"先有了行动，再补充分析"——反向推理、事后辩护、工具让人觉得"如果没走完流程就是错的"，但很多成功决策恰恰是这么产生的。
+- src_unknown
 
-- **"新手简化版"的模糊性**：简化版的定义极其主观——同一个人在周一认为是"简化版"就够的决策，周五可能后悔"当时该用完整版"。简化版只是一个安慰剂，让人觉得"至少我做了点什么"，但可能从未触达真正的决策质量。
+- src_unknown
 
-- **"克制决策"的人性对抗**：虚构蓝军、延迟决策在理论上很好，但人天生追求确定性。要求人在无答案时保持开放，类似于要求饿了的人别想吃的东西——极度违反本能。
+- src_unknown
 
 
 
@@ -519,11 +519,11 @@ Simon让全景流程使用者睡不着觉的问题是：你过去一周做了多
 
 Mintzberg通过对数十家企业的研究发现：
 
-- **预定战略 vs 涌现战略**：全景流程是典型的"预定战略"思维——假设我们可以在行动之前通过系统化分析确定最优路径。但Mintzberg的研究显示，成功企业中很大比例的关键转折点来自于"涌现"——某个意外发现、某个偶然的成功、某个本来不是主要目标的实验。
+- src_unknown
 
-- **行动优于分析**：全景流程强调"先有意识、再写初版、再打磨、再共识、再行动"。但Mintzberg认为，在复杂环境中，**行动本身就是一种分析**——你不可能在黑板上推演出所有可能性，只有在做的过程中才能发现真正的机会和陷阱。
+- src_unknown
 
-- **反对流程武断论**：全景流程的第一步是"有意识地发现决策"，但Mintzberg会问：你如何发现你还不知道存在的机会？那些最成功的产品和业务，有多少是在"有意识地发现"阶段就被识别出来的？
+- src_unknown
 
 
 
@@ -531,13 +531,13 @@ Mintzberg让全景流程使用者睡不着觉的问题是：你过去最成功�
 
 ## diagnostic_signals
 
-- signal: "团队每周走完整五阶段流程，但决策速度越来越慢，创新实验数量下降"
+- src_unknown
   framework_lens: "流程过度工程化——全景流程是训练框架，不是每个决策的强制工序"
   follow_up_question: "过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低"
-- signal: "创业者说'我按流程做了完整分析，但还是错过了最好的机会'"
+- src_unknown
   framework_lens: "涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的"
   follow_up_question: "这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？"
-- signal: "复盘时发现80%的已执行决策都没有留下'初版ROI'快照"
+- src_unknown
   framework_lens: "写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流"
   follow_up_question: "最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地"
 

@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- B端调研
-- G端调研
-- 政企客户
-- 招投标
-- 政府采购
-- 决策链
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡7（B、G端）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡7（B、G端）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-content-ip-research]]'
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-consulting-business-research]]"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # To B/To G调研手段：浅中深三层10大评估法
@@ -52,16 +52,16 @@ related:
 "如果我合作或落地一些大型项目，需要挖掘 B/G 的需求和决策链。"
 
 调研四大要素：
-- **准入条件**：要进入这个客户的供应商名单，需要什么资质、认证、关系？
-- **隐形需求**：客户标书上写的和真正想要的，差别在哪？
-- **政策窗口期**：政策红利什么时候来、什么时候关？
-- **决策链**：谁发起需求、谁评估方案、谁拍板预算？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **挖掘客户痛点**：了解目标客户的现有解决方案有什么痛点
-- **挖掘订单规律**：了解客户的订单类型、采购周期和预算节奏
-- **挖掘决策链**：搞清楚真正的决策人是谁（往往不是标书上写的联系人）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,10 +149,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 7——To B、To G调研
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡7（B、G端）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡7（B、G端）_vlm_desc.md`（confidence=0.95）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

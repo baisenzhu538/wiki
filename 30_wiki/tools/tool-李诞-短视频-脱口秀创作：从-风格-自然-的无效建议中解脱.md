@@ -3,7 +3,7 @@ id: tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中
 title: 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
 type: tool
 domain:
-- content-production- personal
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-月白-AI改图指令精细化]]'
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 拍短视频被说'不自然''没风格'但不知如何改进时
-- 新手期感到困惑、被空洞建议困扰时
-- 想要找到具体可执行的训练方法时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已经是成熟创作者，已形成稳定风格
-- 追求短期流量而非长期能力提升时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 李诞《脱口秀工作手册》
-- 脱口秀开放麦/线下演练
-- 短视频数据分析（完播率、3秒留存）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

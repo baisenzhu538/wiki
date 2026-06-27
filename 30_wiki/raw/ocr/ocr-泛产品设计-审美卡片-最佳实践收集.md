@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-审美卡片-最佳实践收集"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_6373b1b1
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计-审美卡片-最佳实践收集"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-审美工具箱指南]]'
-  - '[[ocr-泛产品设计-审美卡片-美好作品想象]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践池子]]'
-  - '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
-  - '[[ocr-泛产品设计者的三大自我修养]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-审美卡片-最佳实践收集
@@ -35,34 +35,34 @@ png`  泛产品设计·审美卡片 最佳实践收集 积极搜集最佳案例 
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计应建立"审美卡片"机制，系统收集最佳实践案例作为参照基准。
-- 设计师进步遵循"见识曲线"与"能力曲线"双轨模型：见识决定天花板，能力决定实际产出。
-- 进步三要素：①拉高见识天花板 ②获得上手"金手指"（关键诀窍） ③保持持续进步而非低端重复。
-- 设计师发展阶段：眼低手低 → 眼高手低 → 眼高手高，核心瓶颈常在于见识不足而非执行力。
-- 核心习惯养成："凡设计，必找最佳实践"，将寻找标杆内化为设计流程的必需步骤。
-- 最佳实践的学习可采用"一堂课"思维：复杂问题拆解为可快速习得的知识单元，迭代解决。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 见识曲线与能力曲线的具体量化指标或评估标准是什么，如何判断当前处于哪个阶段？
-- "金手指"作为关键诀窍，其识别标准、获取途径和验证方法尚未明确，是否存在主观偏差风险？
-- "凡设计，必找最佳实践"的习惯在资源受限或创新探索场景中是否适用，是否会抑制原创性？
-- "一堂课"思维的具体时间边界和知识单元粒度如何界定，复杂问题的拆解方法论是什么？
-- 双轨模型中见识与能力的动态关系未阐明：见识超前于能力时的转化机制，或能力反超见识时的处理策略？
-- "眼高手低"作为必经阶段的持续时间、突破条件和常见陷阱缺乏系统分析，是否所有设计师都能自然过渡？
-- 最佳实践的来源筛选标准、时效性维护和领域迁移适配性未涉及，如何防止案例库僵化？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **审美的主观性：本卡片强调"最佳实践"和"美好作品"，但未认识到审美是深度主观和文化依赖的。什么是"美好"因人而异。
-- **"最佳实践"的相对性："最佳实践"的标准可能随时间、地域、行业而变化，未提供验证机制。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 不要用的场景
 
-- **跨文化产品设计：不同文化对"美好"的定义不同，"最佳实践"可能不具有跨文化普适性。
-- **高度功能性产品（如工业设备）：这些产品的设计优先级是安全性和效率，而非"审美"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-aesthetic-practice — 审美实践的理论基础
-- yt-decision-design-philosophy — 设计哲学与"美好作品"同源
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 设计评审：用审美卡片评估设计作品的审美层次
-- 团队审美对齐：用"最佳实践池子"统一团队的审美标准
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

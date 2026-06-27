@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-内核和边界"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_f3072399
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-内核和边界"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-攻坚会]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-逻辑mece]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-内核和边界
@@ -36,33 +36,33 @@ png` 1 泛产品设计·落地卡片 内核和边界 剥离中心思想和边界
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 面对复杂甚至混沌的产品设计时，厘清内核和边界是获得清晰思维的关键方法。
-- 内核定义为最中心的思想、核心表达或长期追求的东西，是产品的本质锚点。
-- 边界定义为"跨过即与我无关"的分界线，用于明确产品范畴的终点。
-- 该方法适用于设计复杂产品或思考复杂事物的场景。
-- 核心进步方式是养成"锁定内核，划分边界"的思维习惯，使其成为自动化的分析框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 如何区分"内核"与"边界"在实际操作中是否存在重叠或模糊地带？当核心表达与长期追求出现冲突时，以何者优先？
-- "跨过边界即与我无关"的判定标准是什么？是由主观价值判断还是客观功能属性决定？不同利益相关方的"无关"定义是否一致？
-- 该方法声称适用于"复杂甚至混沌"的场景，但复杂系统的边界往往具有渗透性和动态演化特征，静态划分是否会削弱系统的适应性和涌现潜力？
-- "养成习惯"作为进步方式缺乏具体训练路径和验证机制，如何衡量"锁定内核，划分边界"的思维习惯已真正形成而非形式化套用？
-- OCR文本末尾"/没有什么不是一堂课解决不了的，如果不行，那就两堂课/"与前述方法论的关系是什么？是品牌标语还是隐含了"复杂问题可简化为课程交付"的未经检验假设？
-- 该方法是否预设了"清晰优于混沌"的价值取向？是否存在某些设计场景（如探索性创新、破坏性实验）中刻意保持模糊边界反而更有价值？
-- 作为OCR提取的二手文本，视觉结构中的层级关系、关键词强调、甚至图示关系（如内核与边界的图形化表达）均已丢失，当前解读是否可能偏离原图作者的意图？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

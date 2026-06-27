@@ -9,6 +9,6 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated: "[[framework-strategy-five-basics]]"
+- src_unknown
 ---**坑**：把"优化供应链"当战略，"提升转化率"当战略——这些是运营动作
 **真相**：战略是构建一个系统——你的产品/合作伙伴/客户关系如何形成自我强化的生态。单一环节优化≠战略

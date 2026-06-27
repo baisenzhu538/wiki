@@ -4,36 +4,36 @@ title: 技能：使用一页纸速查卡快速调用框架
 type: tool
 status: enriched
 domain:
-- learning-methodology- knowledge-management
+- src_unknown
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
 - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 wiki_refs:
-- '[[yt-five-step-method]]'
-- '[[master-cognitive-bias-checklist]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 有真实失败案例
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- A4 纸
-- 打印机
-- 核心框架的原始素材
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[yt-pitch-scenarization]]'
-- '[[yt-note-extensive-research-input]]'
-- '[[yt-note-checklist-concept]]'
-- '[[yt-pitch-conflict]]'
-- '[[yt-prompt-engineering-andrew-ng]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[yt-five-step-method]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 黄药师
 confidence: 0.8
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 trust_level: medium
 ---# 技能：使用一页纸速查卡快速调用框架
@@ -42,11 +42,11 @@ trust_level: medium
 
 ## Claims
 
-- claim:01 [conf=0.85] **学习框架的最大瓶颈不是"不懂"，而是"关键时刻想不起来用"**。学完一个框架后一周内不使用，遗忘率超过 70%。一页纸速查卡的作用不是在"学习时"加深理解，而是在"使用时"降低调用门槛——把认知负担从"记忆+调取"降为"看一眼+照做"。
+- src_unknown
 
-- claim:02 [conf=0.80] **速查卡的质量取决于"浓缩"而非"全面"**。把 PPT 讲义直接打印出来不是速查卡——那只是换了载体。真正的速查卡需要：(a) 去掉所有解释性文字 (b) 保留核心步骤/问题/检查点 (c) 用视觉层级（颜色/框线/箭头/图标）替代文字层级。一张好的速查卡应该在 30 秒内让人找到想要的步骤。
+- src_unknown
 
-- claim:03 [conf=0.78] **速查卡的物理存在感本身就是干预**。放在桌面上的速查卡是一种"环境提示"——每次眼角扫到它，都在提醒你"做决策前可以先用这个框架"。数字工具（Obsidian 里的笔记、手机上的 App）没有这个效果——它们需要你主动打开，而主动打开的前提是你已经想到了要用它。
+- src_unknown
 
 ## 操作步骤
 
@@ -62,23 +62,23 @@ trust_level: medium
 
 ## 适用场景
 
-- 学了一个框架但记不住完整步骤（如五步法 259、关键假设 ABCD 模型）
-- 做分析/决策时经常遗漏某些检查点（如每次做完竞品分析才想起忘看用户评价）
-- 需要在高压环境下快速做结构化思考（如面试、路演、客户提案前 10 分钟）
-- 一个框架需要反复使用但每次间隔 >1 周
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 框架已经内化为本能——不需要速查卡，此时速查卡反而拖慢速度
-- 纯知识型内容（如历史事件、理论定义）——速查卡适合流程/步骤/检查清单型框架，不适合解释性知识
-- 超过 4 个框架同时浓缩——A4 纸物理空间不够，信息密度过高反而失去"快速查阅"的价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- A4 纸
-- 打印机（最好是彩打）
-- 荧光笔（原始提炼阶段）
-- 可选：Canva / Figma / Keynote（设计阶段，但用 Word/手绘也可以）
+- src_unknown
+- src_unknown（最好是彩打）
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -126,8 +126,8 @@ trust_level: medium
 
 ### 内部局限
 
-- **速查卡只适合"有标准流程"的框架**。对于发散性思维工具（如头脑风暴、第一性原理拆解），它们的使用方式本身就是非线性的，不适合被压缩为线性步骤。
-- **速查卡制造的"完备感"可能是危险的**：当你照着速查卡的步骤走完 5 步后，会产生"我做了完整的分析"的满足感——但速查卡省略了框架背后的"为什么"，可能导致照本宣科而非真正理解。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -153,8 +153,8 @@ trust_level: medium
 
 ## 来源
 
-- 课程设计者，src_20260609_1c8b4d0e，2026-06-09
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

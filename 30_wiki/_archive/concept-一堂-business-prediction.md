@@ -4,27 +4,27 @@ title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
 status: deprecated
 superseded_by:
-- yt-foresight-business-spectrum
-- yt-foresight-model-taxonomy
-- yt-entrepreneur-industry-forecast
+- src_unknown
+- src_unknown
+- src_unknown
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂商业预判课（2026年）
 source_refs:
-- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- src_unknown
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[concept-一堂-key-assumptions]]'
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[concept-一堂-key-assumptions]]'
-- '[[concept-一堂-product-kernel]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: pending
 confidence: 0.75
@@ -125,9 +125,9 @@ Truman 把预判过程浓缩为三句话：
 
 ## 边界与反例
 
-- **过度预判可能贻误战机**：在某些风口行业（如早期的短视频、AI应用），窗口期极窄。如果你花两个月做完整预判，竞品可能已经占领了市场。此时需要"快速预判+快速验证"的混合策略。
-- **预判不能替代执行**：L型的陷阱是"永远在分析，永远不行动"。预判的价值在于"用2周提高30%成功率"，而不是"用2年找到100%正确的答案"。
-- **有些机会无法被预判**：真正的颠覆性创新（如iPhone、微信）在早期很难通过现有框架预判。预判更适合"已知赛道内的优化选择"，而非"未知赛道的探索"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,9 +135,9 @@ Truman 把预判过程浓缩为三句话：
 
 ### 内部局限
 
-- **依赖信息获取能力**："充分做加法"需要大量行业信息、研报、专家访谈。如果创业者没有这些信息渠道，加法阶段就会受限。
-- **减法标准主观性**：三类硬伤的判断很大程度上依赖个人经验和行业认知。同一个"行业天花板低"，资深从业者可能一眼看穿，新手却可能误判。
-- **光谱模型的线性假设**：实际创业路径很少是"副业→个体→小团队→规模化"的线性过程，很多人是跳跃式的、甚至反向收缩的。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -157,12 +157,12 @@ Truman 把预判过程浓缩为三句话：
 
 ## Synthesis
 
-- [[concept-一堂-key-assumptions]] —— 预判帮你找到方向，关键假设帮你在这个方向上验证前提。没有预判，关键假设可能选错了方向；没有关键假设，预判只是纸上谈兵。
+- src_unknown
 
-- [[concept-一堂-product-kernel]] —— 预判的"做减法"环节直接通向产品内核的定义。当你从100个选项收敛到3-5个方向时，下一步就是问："用户愿意选择我的最小解决方案是什么？"
+- src_unknown
 
-- [[concept-一堂-hypothesis-driven-business-methodology]] —— 商业预判是整个假设驱动方法论的第一步。它解决"做什么"的问题，后续的259工具解决"怎么做"的问题。
+- src_unknown
 
-- [[case-一堂-无人餐厅-hypothesis-failure]] —— 无人餐厅的案例说明：即使有预判意识，如果误判了"行业硬伤"（机器人经营价值是否成立），预判也会失效。这提醒我们预判的质量取决于预判者的认知深度。
+- src_unknown
 
-- [[dk-yi-tang-wishful-thinking-kills-startups]] —— P型创业者的根本问题是"愿望思维"——他们不愿承认自己的方向可能有硬伤。商业预判的价值在于强制建立"找硬伤"的机制，对抗人类本能的乐观偏差。
+- src_unknown

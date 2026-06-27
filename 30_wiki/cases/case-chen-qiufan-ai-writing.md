@@ -10,30 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[case-dutch-childcare-scandal]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[case-cambridge-novelists-survey]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[case-cambridge-novelists-survey]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 陈楸帆对 AI 写作的态度转向
@@ -214,13 +214,13 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 读任何 AI 相关书籍或报告时，先查出版年份：它是前 ChatGPT、ChatGPT 时代还是后 DeepSeek 时代的判断？
-- [ ] 区分「我使用过 AI」与「我评估过 AI 的边界」：前者只能说明熟悉度，后者才能支撑决策。
-- [ ] 在你的工作流中划出「AI 辅助层」与「人类核心层」，明确哪些输出可以由 AI 生成、哪些必须保留人类最终决策权。
-- [ ] 如果你是 AI 工具的早期拥抱者，定期做一次「反向审计」：列出过去半年中 AI 越界替代你核心判断的三个信号。
-- [ ] 在团队或家庭中建立「AI 素养」讨论：不是教怎么用 AI，而是教什么时候不用、用了之后如何验证。
-- [ ] 对产品或内容进行「对抗式生成」测试：让 AI 给出最常规的方案，然后刻意偏离它，检验团队是否还能产出差异化价值。
-- [ ] 跟踪创作者经济、教育、出版领域的政策与诉讼动态，把个体作家的转向与结构性数据（如 Cambridge 调查）交叉验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_unknown
   - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
@@ -16,11 +16,11 @@ updated_at: "2026-06-21"
 author: 黄药师（从 Coze 报告结构提取 + KDO 框架映射）
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[framework-demand-opportunity-spectrum]]"
-  - "[[yt-market-size-estimation]]"
-  - "（five-step-barrier，待补）"
-  - "（demand-analysis-synthetic，待补）"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 需求分析报告模板
@@ -85,15 +85,15 @@ related:
 
 ### 3.2 测算过程
 **路径A：自上而下（Top-Down）**
-- [上级市场]：[数字]（✅/⚠️/🔮）
-- [细分占比]：[X]%（✅/⚠️/🔮）
-- TAM（路径A）：[数字]
+- src_unknown
+- src_unknown
+- src_unknown
 
 **路径B：自下而上（Bottom-Up）**
-- 潜在用户数量：[X] 家（✅/⚠️/🔮）
-- 潜在[设备/服务]量：[X]（✅/⚠️/🔮）
-- 平均客单价：[X] 元（✅/⚠️/🔮）
-- TAM（路径B）：[数字]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3.3 结论
 TAM 合理区间为 [X]～[Y]。两条路径结果[吻合/偏差大——为什么]。关键不确定性：[列出最影响数字的2-3个假设]。
@@ -142,14 +142,14 @@ TAM（[X]）× 综合保留比例（[Y]%）= SAM：[数字]
 
 ### 5.3 集中度判断
 **[集中/相对分散/百花齐放]型**
-- CR5 可能 [X]%
-- CR1 典型范围：[X]%～[Y]%
-- 核心驱动力：[为什么集中/分散]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5.4 市场演化阶段
 **[赢家通吃/寡头稳定/百花齐放/...]型**
-- 集中度变化：[低→低 / 中→高 / ...]
-- 对创业者的信号：[一句话]
+- src_unknown
+- src_unknown
 
 ### 5.5 CR1 估算
 SAM（[X]）× CR1比例（[Y]%）= **头部天花板：[X]～[Y]/年**
@@ -213,10 +213,10 @@ SAM（[X]）× CR1比例（[Y]%）= **头部天花板：[X]～[Y]/年**
 1. **优先验证**：标注为 🔮 的核心假设，通过 [具体方法] 验证
 2. **数据更新**：市场数据以 [年份] 为基准，建议 [频率] 更新
 3. **报告应用场景**：
-   - **融资路演**：可直接引用 TAM/SAM 数据
-   - **内部战略对齐**：基于 CR1 定位推导年度 OKR
-   - **团队招募**：用天花板数据说服人才
-   - **模式转型决策**：基于 [关键洞察] 制定转型路线
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 ```
 
 ### 九、最重要提醒 🆕
@@ -229,8 +229,8 @@ SAM（[X]）× CR1比例（[Y]%）= **头部天花板：[X]～[Y]/年**
 [在此回答：这份报告的结论基于什么关键前提？如果用户改变某个核心假设（如商业模式/目标客户/定价策略），哪些数字会彻底改变？框架的边界在哪里？]
 
 示例：
-- "你们提到的'软件输出+能力打包'新模式可能**显著改变市场边界和天花板**——本报告的测算基于'硬件销售+SaaS年费'模式，如果转型成功，TAM 将突破 60 亿上限。建议单独进行新模式验证。"
-- "以上所有数字基于一个核心假设：医院端的渗透率能达到 30-50%。如果这个假设不成立，TAM 将缩水 50% 以上。这是你们最应该优先验证的一件事。"
+- src_unknown
+- src_unknown
 ```
 
 ## Agent 执行指令
@@ -276,8 +276,8 @@ def generate_demand_report(analysis_result):
 
 ## 适用边界
 
-- **适用**：需要向用户/投资人/团队交付结构化需求分析报告的场景
-- **不适用**：内部快速验证、"一句话就够了"的轻量判断
+- src_unknown
+- src_unknown
 
 ---
 

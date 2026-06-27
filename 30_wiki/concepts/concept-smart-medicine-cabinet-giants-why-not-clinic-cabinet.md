@@ -6,8 +6,8 @@ title: 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,11 +19,11 @@ review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[concept-smart-medicine-cabinet-consumer-acceptance]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 
 > **核心定位**：从阿里健康、京东健康、美团买药、饿了么、叮当健康、平安好医生六家巨头的公开布局出发，解释为什么它们均未进入“诊所+智能药柜”场景，以及这对中小玩家的启示。
@@ -78,10 +78,10 @@ related:
 ```
 
 这条路径的优势：
-- **不改药店的经营资质和医保定点身份**；
-- **不改药品销售主体的法律关系**；
-- **利用现有药店库存，SKU 丰富**；
-- **利用现有骑手网络，边际成本低**。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 相比之下，诊所+药柜需要解决：执业范围限制、处方来源合规、医保结算主体、药品质量管理、SKU 受限、流量获取等问题，性价比更低。
 
@@ -106,15 +106,15 @@ related:
 
 ### 与已有知识的联系
 
-- **系统思考视角**：诊所+药柜模式面临的是一个“多维度劣势”的系统困境，而非单一问题。参考 `master-systems-thinking`。
-- **决策卫生视角**：巨头不做本身是一个强烈的“负面信号”，提醒我们不要忽视该模式的基础结构性问题。参考 `master-decision-hygiene`。
-- **反脆弱视角**：依赖政策灰色地带的模式是脆弱的；巨头的缺席说明合规主体更偏好确定性。参考 `master-antifragile-checklist`。
-- **财务模型视角**：本卡解释了为什么 `kc-p0-03-financial-model` 中药柜模型难以获得平台流量红利。参考 `kc-p0-03-financial-model`、`kc-p1-01-dingdang-store-model`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在商业计划书中遇到“我们要做诊所+药柜，因为巨头还没做”的论证时，用本卡反问：巨头不做是因为没看到，还是因为看到了但算过账不划算？
-- 将本卡与 `kc-p0-06-clinic-cabinet-risk-observation` 联用，形成“竞争格局 + 合规风险”双重拷问。
+- src_unknown
+- src_unknown
 
 ---
 

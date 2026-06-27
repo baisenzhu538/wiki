@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: paradigm-shift
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -15,34 +15,34 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - '[[plan_20260621_skill-iteration-standard]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[case-纪浩-focus-prompt-design]]'
-  - '[[case-半肥猫-course-to-skill]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/paradigm-shift'
-- '#domain/ai-collaboration'
-- '#domain/yitang'
-- '#method/agent-native-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- signal: 团队建了一个"Skill市场"但里面的 Skill 是写给人看的操作手册，Agent 读了之后无法自动执行
+- src_unknown
   framework_lens: 受众错位——Skill 的消费者是 Agent，不是人
   follow_up_question: 拿一条 Skill 出来，让 Agent 纯读这份 Skill 后独立执行一次任务，能跑通吗？不能的话，缺失了什么？
-- signal: 每次创建新 Skill，团队花 80% 时间写说明文档，20% 时间写协议/约束/评分规则
+- src_unknown
   framework_lens: 重心倒置——自描述的核心是协议，不是说明
   follow_up_question: 你的 Skill 里有这些吗：输入格式约束、输出格式约束、评分规则、拒绝条件、边界声明？缺了任何一个，Agent 就是在猜。
-- signal: 有人提需求说"这个 Skill 的说明不够详细"，团队的反应是加更多文字描述
+- src_unknown
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。
 ---# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
@@ -75,11 +75,11 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你在设计一个 Skill 市场 / Agent 工具注册中心。
-- 你发现团队写的 Skill 文档很长，但 Agent 执行时经常"走偏"或"不敢拒绝"。
-- 你想说服团队把"Skill 质量"的标准从"人类觉得清晰"改为"Agent 能独立执行"。
-- 你在做从"人工操作手册"到"Agent 自安装协议"的迁移。
-- 你评估一个 Skill 是否"Agent-native ready"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -97,11 +97,11 @@ diagnostic_signals:
 
 2. **Skill 的必含五要素**
    每条 Skill 必须包含：
-   - **输入格式约束**：接受什么类型/格式的输入
-   - **输出格式约束**：输出必须是什么格式/结构
-   - **评分/判断规则**：什么算好、什么算坏、好坏之间的标准是什么
-   - **拒绝条件**：什么情况下 Agent 应该拒绝执行或要求更多信息
-   - **边界声明**：这个 Skill 不覆盖什么场景
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **人写"判断"，Agent 推"操作"**
    人不再写操作步骤。人写：好的输出长什么样、坏的输出长什么样、边界在哪里。Agent 自己推理怎么操作。
@@ -130,15 +130,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **范式翻转**：大多数团队还在纠结"Skill 怎么写才清晰"，没意识到消费者已经变了。
-- **来自真实实践**：纪浩从微信传 zip → Skill 市场的迁移中，亲眼见证了"人写说明"到"Agent 自安装"的范式转变。
-- **可量化**：可以用 Agent 独立执行成功率作为 Skill 质量指标，告别主观审阅。
-- **通用性**：Slack Bot、Copilot Extension、MCP Server、Custom GPT——任何 Agent 调用知识的场景，这条暗知识都适用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[case-ji-hao-skill-market-problem-validation]] —— 纪浩验证 Skill 市场需求真实性的完整案例，从伪需求到四问验证。
-- [[concept-纪浩-ai-collaboration-five-layer]] —— 纪浩的 AI 协作五层模型：从答案到效率到作品到产品到系统。
-- [[case-纪浩-from-zip-to-five-layers]] —— 微信传 zip → 五层协作体系的真实迁移案例。
-- [[case-纪浩-focus-prompt-design]] —— 提示词就是冻结决策文档，与"自描述"共享"约束优先"的设计哲学。
-- [[case-半肥猫-course-to-skill]] —— 课程转 Skill 的完整案例，实践了"从人读文档到 Agent 自安装"的迁移。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

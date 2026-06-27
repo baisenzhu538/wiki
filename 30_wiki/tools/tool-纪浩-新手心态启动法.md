@@ -3,8 +3,8 @@ id: tool-纪浩-新手心态启动法
 title: 技能：新手心态启动法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -16,15 +16,15 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
 related:
-- '[[tool-纪浩-项目启动五问法]]'
-- '[[tool-纪浩-线上问题应急值守]]'
-- '[[tool-纪浩-评估AI从零写UI的可行性]]'
-- '[[tool-纪浩-问题导向备课法]]'
-- '[[tool-纪浩-识别AI不可维护代码]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：新手心态启动法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -40,22 +40,22 @@ related:
 
 ## 适用场景
 
-- 进入全新不熟悉的领域时
-- 用AI做自己不擅长的事情时
-- 容易因完美主义而拖延启动时
-- 与高手比较产生焦虑时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已有成熟方法论和熟练技能的领域
-- 需要追求极致专业产出的场景
-- 时间紧迫必须一次做到位的关键任务
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 自我认知调整
-- 进度记录工具
-- 阶段性成果对比
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -68,8 +68,8 @@ related:
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未先确认场景是否适用 → 方法无效 → **先对照“适用场景”确认本方法适用**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -77,12 +77,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

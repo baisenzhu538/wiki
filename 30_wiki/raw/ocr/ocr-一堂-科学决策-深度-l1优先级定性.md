@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-l1优先级定性"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_22cb5729
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-科学决策-深度-L1优先级定性"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-深度-l2部分定量]]'
-  - '[[ocr-一堂-科学决策-深度-案例02]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-L1优先级定性
@@ -38,27 +38,27 @@ png` 单元模型ROI深度：L1优先级定性 定量 定钱 - 本文件由 Padd
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 单元模型ROI分析包含两个深度层次：L1优先级定性、L2定量定钱。
-- L1层级聚焦优先级定性判断，是ROI分析的基础筛选层。
-- 科学决策框架中，定性分析优先于定量分析，先判断"值不值得"再计算"值多少"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 提取的知识将"L1优先级定性"与"定量 定钱"并列为两个层次，但OCR原文中"定量 定钱"是否确实属于L2层级，还是同一层级的补充说明？
-- "单元模型ROI深度"中的"单元模型"具体指什么业务单元或分析对象，是产品、项目、客户还是其他维度？
-- L1层级的"定性"判断标准是什么，是基于战略契合度、风险程度、资源可得性，还是其他未明确的维度？
-- "优先级定性"与"定量定钱"之间的决策顺序是严格的先后关系，还是存在迭代反馈机制？
-- OCR提取的"定量 定钱"是否为"定量/定钱"的误识，原图中是否存在分隔符或层级标记被遗漏？
-- 该框架适用于何种决策场景（如投资、产品迭代、资源分配），其边界条件和例外情况未说明？
-- "科学决策"框架中定性优先于定量的原则，是否有实证研究或案例支持，还是仅为方法论主张？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -76,30 +76,30 @@ Thaler 在《助推》中论证，人类大脑对"确定的判断”有强烈的
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] — 深度梯子，L1 是其第一级走进阶
-- [[yt-decision-canvas]] — 同域决策画布，L1 定性判断是其使用前的必要步骤
-- [[master-decision-hygiene]] — 通用决策卫生，提醒定性判断的确认偏误风险
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 初创企业快速筛选机会：用 L1 定性判断快速排除明显不值得的选项
-- 个人时间管理：在“做不做”的二元判断中训练定性判断的敏感度
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将 L1 定性判断当作“最终决策”，定性只是筛选而非确认
-- 不要在缺乏关键数据时做“直觉式定性判断”，这可能只是事后归因的便宜工具
-- 不要在定性判断后忽略后续的定量验证，初始判断会垄断后续寻证方向
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你面临多个选项需要快速筛选时，用 L1 定性判断排除明显不值得的选项
-- 従你觉得自己“就知道答案”时，用 Gigerenzer 的“去寻找反对证据”打破确认偏误
-- 従你在定性判断后发现团队对"值不值得”有分歧时，用 Thaler 的“助推”视角检查判断是否被结果污染
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

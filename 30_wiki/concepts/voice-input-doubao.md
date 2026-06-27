@@ -5,41 +5,41 @@ id: voice-input-doubao
 type: tool
 title: voice input doubao
 domain:
-  - ai-collaboration- product
-  - ai-saas
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
-- ai-learning-closed-loop
+- src_unknown
 related:
-  - '[[sk-ai-voice-input-doubao]]'
-  - '[[course-to-skill-conversion]]'
-  - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
-  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[sk-ai-prd-for-ai]]'
-  - '[[course-to-skill-conversion]]'
-  - '[[prd-as-ai-instruction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 语音输入怎么用
-- 豆包输入法
-- 手机语音输入AI
-- 语音输入工具推荐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 created_at: 2026-06-15
 updated_at: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- status=draft
-- confidence=0.7 below enrichment threshold
-- reviewed_by=null
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 # 豆包输入法：语音输入的最低成本实践
@@ -80,16 +80,16 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 确认场景：是否处于灵感记录、移动输入或双手占用状态？
-- [ ] 安装并启用豆包输入法语音输入功能
-- [ ] 选择正确的识别语言（普通话/方言）
-- [ ] 长按空格/语音键，直接说出内容，不等待演示
-- [ ] 语音转文字后快速校对，小修识别错误
-- [ ] 涉及敏感信息时，切换回手动键盘
-- [ ] 需要精确格式（代码/公式）时，使用键盘输入
-- [ ] 在AI对话框中使用时，检查转换后的文本是否改变原意
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[course-to-skill-conversion]]：语音输入可用于快速记录Skill设计灵感，后续用键盘精确化。
-- [[prd-as-ai-instruction]]：PRD文档初稿可用语音输入快速生成，结构化部分再用键盘。
+- src_unknown
+- src_unknown

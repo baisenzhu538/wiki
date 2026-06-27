@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "IPO 科学学习完整清单"
-  - "关联卡片"
-  - "处理 Process"
-  - "目标 Goal：培养长期渴望"
-  - "知识体系定位"
-  - "科学学习完整清单"
-  - "输入 Input"
-  - "输出 Output"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
@@ -32,7 +32,7 @@ yitang:
   module: "科学学习"
   course_type: reference
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户对着清单选课，但学完后能力没提升', 'framework_lens': '清单当导航但没执行——选课不等于学习', 'follow_up_question': '你选课后完成了多少作业/练习/输出？如果<50%，清单只是选课工具'}
   - {'signal': '用户只选输入类课程，不选输出和反馈类课程', 'framework_lens': '偏科学习——IPO闭环需要各环节均衡', 'follow_up_question': '你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡'}
@@ -40,11 +40,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[ocr-一堂-个人修炼-科学学习ipo完整清单]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[yt-entrepreneur-research-camp]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# IPO 科学学习完整清单 (Complete List)
 
@@ -120,7 +120,7 @@ IPO 完整清单将科学学习 6 要素映射到一堂全部课程、服务和�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
+- src_unknown
 
 ## Constraints & Boundaries
 

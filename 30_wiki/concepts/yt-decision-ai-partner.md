@@ -1,37 +1,37 @@
 ---
 id: yt-decision-ai-partner
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.75
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 1950
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
+- src_unknown
 query_triggers:
-- AI辅助决策
-- AI决策伙伴
-- 双三角模型
-- 决策对话流程
-- AI partner
-- 人机协作决策
-- AI多轮对话
-- 决策备忘录
-- AI幻觉识别
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[ocr-一堂-科学决策-人机协作决策]]'
-- '[[ocr-一堂-个人修炼-双三角模型]]'
-- '[[ocr-一堂-人机协作-双三角模型]]'
-- '[[case-yitang-double-triangle-confidence]]'
-- '[[yitang-huazong-ama-summary]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-prompt-anti-flattery]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
@@ -42,13 +42,13 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-人机协作决策.png
+- src_unknown
   dimensions:
-  - 色彩语义: 人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合
-  - 空间结构: 左右对称但非镜像——人侧略大暗示"人主导AI辅助"
-  - 信息层级: L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出
-  - 负形利用: 中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则
-  - 视觉隐喻: 双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-ai-partner
   course_type: tool
@@ -56,16 +56,16 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户问AI'你觉得该怎么做'，AI给了完整分析，用户直接照做
+- src_unknown
   framework_lens: AI替代判断失效——结构化输出不等于可信输出
   follow_up_question: AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？
-- signal: 用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'
+- src_unknown
   framework_lens: 全面感幻觉——AI的结构化框架可能只是看起来不错
   follow_up_question: AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走
-- signal: AI给出的定量数字和用户内心的隐性预期完全一致
+- src_unknown
   framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
@@ -81,9 +81,9 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 ### 核心转变：从"工具"到"Partner"
 
-- **旧范式（工具模式）**：人给指令→AI一次性出结论→人选择性采纳。风险：AI的90%闪闪发光 + 10%致命幻觉，缺乏判断力的人无法识别那10%
-- **新范式（Partner模式）**：人与AI是多轮动态交互，各自有边界和责任。AI负责引导框架、补充盲区、结构化呈现；人负责判断质量、识别幻觉、最终拍板
-- **关键认知**：AI不能替你承担责任，所有辅助的最后决策者只能是你自己
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对话流程（六步法）
 
@@ -96,9 +96,9 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 ### 双三角模型
 
-- **人的三角**：审美（见过好东西，知道什么是高质量分析）、体系（系统稳定的判断结构）、判断力（识别AI幻觉的能力）
-- **AI的三角**：场景适配（知道什么决策适合用什么工具）、数据包（方法论模型、典型案例、决策框架）、基本功（模型能力、提示词工程、工具选择）
-- **协作逻辑**：人的三角越强，AI三角的放大效果越大。一堂的AI工具封装了AI三角中的一部分（场景、数据包、方法论），但人的三角必须靠用户自己修炼
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与原始大模型对话的差异
 
@@ -114,9 +114,9 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 ### 内部局限
 
-- **Partner模式的"责任模糊地带"**：AI说"这是备忘，不是替你做决定"，但当AI的分析非常详尽、结构非常完整时，人类容易产生"依赖惯性"——在心理上把AI的分析当作"默认选项"。形式上保留决策权，实质上转移了认知责任。
-- **多轮对话的时间成本**：一个完整的Partner对话需要15-30分钟，对简单决策过度。工具的价值曲线是倒U型：太简单不需要，太复杂AI搞不定，中间地带最有效。
-- **AI三角封装的不完整性**：一堂封装了场景、数据包、方法论，但"基本功"（提示词工程、工具选择、数据检索）仍然需要用户自己掌握。封装程度越高，灵活性越低；灵活性越高，门槛越高——存在固有张力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -124,9 +124,9 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 **Emily M. Bender**（华盛顿大学计算语言学教授，"随机鹦鹉"概念提出者，论文《On the Dangers of Stochastic Parrots》第一作者）从语言学和AI伦理角度对"AI辅助决策"提出根本性质疑：
 
-- **LLM没有世界模型，只有统计模式匹配**：Bender论证，大语言模型并非"理解"文本，而是通过海量训练数据学习词与词之间的共现统计规律。当AI在决策对话中给出"基于长期视角，方案A更优"的分析时，它并非基于对"长期"的真实因果推理，而是基于训练语料中"长期视角"和"方案A更优"在类似语境下的统计关联。
-- **"看似合理的推理链"可能是伪推理**：AI可以生成一长串看似严密的推理步骤（"因为X→所以Y→因此Z"），但每一步都可能是统计模仿而非逻辑必然。Bender警告：这种"合理的外表"对人类具有极强的欺骗性，特别是在复杂决策场景中，用户倾向于把"结构完整的分析"等同于"正确的分析"。
-- **训练数据的偏见被封装为"方法论"**：一堂给AI封装了"Y模型数据包"，但Bender会质疑——这些数据包本身是一堂课程内容的编码，而一堂方法论源自特定类型的创业案例（互联网、消费品、服务业）。当AI把这些封装后的方法论应用到完全不同的领域（如硬科技、生物医药、社会企业）时，统计模式匹配会把"不相关的结构"强加给问题。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对AI决策Partner的直接挑战：Partner模式假设"AI的分析+人的判断=更好决策"，但Bender会说——如果AI的"分析"本质上是训练语料的统计重组而非真实推理，那么"人的判断"需要判断的不仅是"这个结论对不对"，还包括"这个推理链本身是不是有效的"。这要求人具备接近AI专家的判断力，与"降低门槛"的设计目标相矛盾。
 
@@ -134,11 +134,11 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 **Gary Marcus**（纽约大学心理学与神经科学教授，《Rebooting AI》合著者，深度学习批评者）从AI系统能力的角度对"AI辅助决策"提出技术性挑战：
 
-- **系统性推理缺陷**：Marcus证明LLM在多步逻辑推理和数值计算上存在系统性缺陷。在决策场景中，这意味着AI可能在"定量分析"环节产生看似精确但完全错误的数字（如把300万成本分摊到错误的时间周期，或混淆净现值和内部收益率）。
+- src_unknown
 
-- **缺乏常识和因果理解**：Marcus的实验显示，LLM在需要物理常识或因果推理的问题上表现脆弱。决策分析中的大量判断依赖于"如果这个发生了，那个通常会怎样"的因果直觉，而AI在这类推理上不可靠。
+- src_unknown
 
-- **"组合爆炸"问题**：当决策变量增加时，AI的推理质量急剧下降。Y模型要求分析"宽度"（大量变量），但Marcus指出LLM在处理多变量交互时容易产生"幻觉式关联"——把无关变量错误地连接起来。
+- src_unknown
 
 Marcus让AI决策Partner使用者睡不着觉的问题是：**当你让AI做L3/L4定量分析时，你必须花更多时间去验证AI生成的每一个数字——但如果你自己算了才发现AI算错了，Partner的"效率提升"价值在哪里？你可能花了更多时间去验证AI的分析，而不是自己做。** 这意味着Partner模式的真实价值不在"省时间"，而在"当讨论伙伴"——把AI当成一个强迫你思考的对话者，而不是计算器。
 
@@ -188,9 +188,9 @@ AI决策Partner的核心风险不是"AI会犯错"——而是"AI的犯错方式�
 
 **分数解释**
 
-- **0–4分：不可用于决策**。AI输出只是"观点合集"，必须人工重算关键数字、重新验证事实。
-- **5–7分：可用于讨论框架**。把AI输出当作"思考的脚手架"，用它来补盲区和结构化，但关键判断必须自己下。
-- **8–10分：可用于决策讨论**。AI输出质量较高，但仍需人工拍板，且必须在备忘报告中标注剩余假设和责任人。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

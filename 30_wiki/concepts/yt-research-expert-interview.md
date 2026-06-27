@@ -6,30 +6,30 @@ confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - research- yitang
+  - src_unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-- yt-research-osl-framework
-- yt-research-intelligence-map
+- src_unknown
+- src_unknown
 query_triggers:
-- 专家访谈
-- 行业共识
-- 怎么找专家
-- 访谈流程
-- 访谈技巧
-- 访谈提纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-research-mindset]]'
-  - '[[yt-note-expert-interview-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/一堂调研武器库课程原文润色.md
 - 10_raw/sources/一堂-创业-调研行动营口述01.md
@@ -47,18 +47,18 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 访谈前有明确目标，且问题已经预先设计并排序
+- src_unknown
   framework_lens: 专家访谈是目标导向的信息获取
   follow_up_question: 这次访谈你要回答的具体问题是什么？
-- signal: 选择的专家能覆盖目标领域的行业共识，而不是只找熟人
+- src_unknown
   framework_lens: 专家质量决定信息质量
   follow_up_question: 这个专家在哪个关键子领域有 firsthand 经验？
-- signal: 访谈后会做信息整理、交叉验证，并转化为可行动假设
+- src_unknown
   framework_lens: 访谈价值在于后续加工
   follow_up_question: 这次访谈的哪些结论需要再用其他渠道验证？
-- signal: 提问只停留在宏观判断，没有追问到具体机制和一手案例
+- src_unknown
   framework_lens: 高质量访谈产出「只有这个专家能告诉你的信息」
   follow_up_question: 专家的回答中，有哪些是「他说了但你之前不知道」的具体事实？
 updated_at: '2026-06-18'
@@ -109,58 +109,58 @@ author: 老顽童
 > 您好XX总，我是XX，目前在做XX项目。我注意到您在XX领域有X年经验，您的观点对我非常有价值。您是否方便抽出30分钟电话／咖啡，向您请教几个问题？我不会浪费您的时间，问题都已经准备好。
 
 **关键原则**：
-- 展示诚意：说明为什么找他（具体的背景）
-- 降低成本：30分钟而非2小时
-- 提供价值：可以分享调研结果、推荐合作机会
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 阶段三：访谈（60-90分钟）
 
 **开场（5分钟）**：
-- 再次感谢对方的时间
-- 简单介绍自己的背景和调研目标（不要太多，让对方说）
-- 征得录音许可（方便你专注聊天而不用记笔记）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **核心问题（40-60分钟）**：
-- 按清单顺序询问，但不要机械地念——根据对方回答灵活调整
-- 用"能不能举个例子"、"具体是什么情况下"追问，避免空泛的描述
-- 记录"意外信息"——对方说了什么你没问但觉得很有价值的
+- src_unknown
+- src_unknown
+- src_unknown
 
 **收尾（10分钟）**：
-- 问推荐——"还有谁我应该聊”是专家访谈最重要的问题
-- 问资料——"有什么报告/数据是我应该看的”
-- 感谢并承诺分享调研结果（如果适合）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 阶段四：复盘（30分钟）
 
 **步骤4.1 信息整理**：
 访谈结束后立即整理（最好24小时内）：
-- 对每个核心问题，写下对方的答案摘要
-- 标注"一手信息"和"二手信息"
-- 标注"高信心"和"待验证"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **步骤4.2 交叉验证**：
-- 将本次访谈的结论与其他专家/报告/数据对比
-- 找矛盾点——如果两个专家说的不一样，要深挖原因
+- src_unknown
+- src_unknown
 
 **步骤4.3 形成假设**：
-- 将信息转化为可验证的假设
-- 明确"下一步该验证什么"
+- src_unknown
+- src_unknown
 
 ## When to Use
 
 **适合使用**
 
-- 进入完全陌生的行业，需要快速建立行业常识
-- 团队对关键判断争论不休，需要外部经验校准
-- 关键假设需要低成本、快速验证
-- 二手数据无法回答"具体怎么发生的"这类机制性问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **避免使用**
 
-- 问题过于宽泛，连要问什么都没想清楚
-- 存在更便宜、更快的二手数据源（行业报告、公开数据）
-- 行业处于快速变革期，专家经验可能以"天"为单位过时
-- 专家是相关利益者且无法做利益冲突审查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -168,9 +168,9 @@ author: 老顽童
 
 专家访谈工具的三条边界声明揭示了工具的内在张力：
 
-- **"标准化"与"灵活性"的矛盾**：工具提供了模板化的流程和话术，但高水平的访谈往往是"无招胜有招"——完全跟着清单走可能错过最重要的信息。模板是安全网，但也是笼子。
-- **"访谈"本身的样本偏差**：专家访谈获取的是"口头表述"，而非"行为事实"。人们在访谈中经常"说得比做得好"——特别是当访谈有"展示自己"的社交压力时。
-- **时间成本被低估**：工具包说2小时可以获取行业共识，但这是"访谈时间"。实际上，找专家、等回复、约时间、整理笔记的时间可能远超过2小时。对于冷门行业或高端人士，周期可能是2-4周。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -178,26 +178,26 @@ author: 老顽童
 
 **Philip Tetlock**（心理学家、《专家政治预测》作者）对"专家访谈"提出根本性质疑：
 
-- **专家的预测准确度并不比门外汉高**：Tetlock花了20年跟踪284个专家的15万个预测，发现专家的预测准确度仅比随机猜测稍高。更可怕的是，"有名望的"专家比"没名气的"专家更容易错——因为名望让他们更自信，而自信与准确度成反比。Tetlock警告：你花2小时访谈获取的"行业共识"，可能只是"专家的自信偏见"。
-- **"猫头鹰"专家比"猫头鹰"专家更危险**：Tetlock发现，专家分为两类："猫头鹰"——态度谨慎、考虑多种可能性；"猫头鹰"——态度激进、坚持单一观点。后者在媒体上更有名、更受欢迎，但前者的预测更准。问题是：你访谈的专家是哪一类？
-- **"专家已经在回答你的问题了"的幻觉**：Tetlock的研究表明，专家在自己的"专业领域"内的预测准确度更高，但跨领域时性能严重下降。如果你问一个行业专家关于"未来技术发展"或"政策变化"的看法，他可能在说"乎活"——但他自己不知道。
-- **替代方案**：Tetlock建议采用"多专家交叉验证"——对3-5个独立来源的专家进行访谈，看他们的结论是否一致。如果不一致，那正是最有价值的信息——它意味着这个领域存在不确定性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Howard Becker 的"权力关系"：批判
 
 **Howard Becker**（社会学家、《田野调查》作者）从"访谈中的权力关系"角度提出质疑：
 
-- **访谈不是"信息交换"而是"权力游戏"——专家在“表演"而非"告知"真相**：Becker认为，访谈中的信息从来不是中性的——专家根据你的身份、你的问题、他对你的判断，"策略性地"选择说什么、不说什么、怎么说。专家在访谈中不是在"告诉你真相"，而是在"管理你对他的印象"。
-- **访谈者的身份决定了能获取什么信息**：Becker的研究表明，同一个专家对"投资人"、"学生"、"竞争对手"、"政府官员"会说完全不同的话。你在访谈中呈现的身份（即使是无意识的）决定了你能听到什么。
-- **"共识"可能是"同谋"的结果**：Becker警告，当你访谈多个专家后发现他们的观点"高度一致"时，这可能不是"真理"而是"同质性网络"的结果——这些专家可能都在同一个圈子里、参加同一些会、用同一套话术。他们的"共识"可能是"团体思维"的产物。
-- **替代方案**：Becker建议采用"参与式观察"——不要只问专家"你觉得怎么样"，而是去参加他们的工作、看他们做什么、怎么做。"行为"比"言语"更接近真实。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ## diagnostic_signals
 
-- signal: "用户说'我访谈了3个行业专家，但感觉没得到什么有用的信息'"
+- src_unknown
   framework_lens: "访谈了但没收获——专家访谈的核心风险是'专家在表演而非告知'。如果访谈没有提前锁定'可验证的断言'作为目标，专家会给你行业通用知识而非可操作的洞察。你付了专家的时间，但得到的是百度上也能搜到的信息。"
   follow_up_question: "访谈前你设定了一个什么样的'可验证断言'目标？访谈结束后，你得到了几个能让你做出具体决策的结论？"
 
-- signal: "用户说'专家给的信息和公开报告差不多，没什么新东西'"
+- src_unknown
   framework_lens: "访谈了但没深度——提问停留在'宏观判断'层面（市场增速、竞争格局），没有深入到'微观机制'（具体为什么、具体怎么发生的）。高质量的专家访谈应该产出'只有这个专家能告诉你的信息'，否则访谈成本高于调研报告。"
   follow_up_question: "你在访谈中问了多少个'为什么'式的追问？专家的回答中，有哪些是'他说了但你之前不知道'的信息？"
 
@@ -213,37 +213,37 @@ author: 老顽童
 ## Common Failure Modes
 
 1. **找错专家，得到的建议不适用**
-   - **真实症状**：访谈后才发现专家的经验集中在 B2C，而你要验证的是 B2B 渠道模型；或者专家只在早期创业公司待过，对规模化阶段的问题并不熟悉。
-   - **可执行修复**：访谈前用「行业 × 职能 × 阶段 × 规模」四维表明确所需经验，并在开场时让对方确认自己的经历是否匹配。
+   - src_unknown
+   - src_unknown
 
 2. **问题设计得太开放，访谈变成闲聊**
-   - **真实症状**：访谈结束时你发现谈了 60 分钟行业趋势，但最初想验证的「渠道分成比例」一个数字都没得到。
-   - **可执行修复**：使用结构化提纲：背景 → 核心问题 → 假设验证 → 案例追问；每个核心问题都要能对应到一个可验证的断言。
+   - src_unknown
+   - src_unknown
 
 3. **只问支持自己假设的问题**
-   - **真实症状**：访谈纪要里全是「专家认同我的想法」，但完全没记录「什么情况下会失败」或「反面证据」。
-   - **可执行修复**：强制在提纲中加入 1–2 个反方问题，例如「在什么条件下，你认为这个假设不成立？」
+   - src_unknown
+   - src_unknown
 
 4. **访谈完不做整理，信息散落在笔记里**
-   - **真实症状**：一周后想引用专家观点，发现只记得一个模糊结论，找不到原话、上下文和可信度标记。
-   - **可执行修复**：24 小时内输出访谈摘要，至少包含：关键洞察、待验证点、下一步行动项；并对每条信息标注「一手 / 二手」和「高信心 / 待验证」。
+   - src_unknown
+   - src_unknown
 
 5. **被专家的声望或自信带偏，把观点当事实**
-   - **真实症状**：专家头衔亮眼、表达笃定，你下意识把他的预测记为「已验证事实」，并在后续汇报中直接引用。
-   - **可执行修复**：笔记里用标签区分「事实 / 推断 / 观点」；对任何预测追问「您这个判断基于哪些具体案例或数据？」
+   - src_unknown
+   - src_unknown
 
 ## Examples
 
 **示例：验证「宠物殡葬行业复购率」假设**
 
-- **访谈目标**：验证「宠物殡葬用户 6 个月内复购纪念服务的比例是否高于 15%」这一假设。
-- **专家选择**：在宠物殡葬行业工作 3 年以上的门店运营负责人，或相关 SaaS 后台负责人。
-- **核心问题**：
+- src_unknown
+- src_unknown
+- src_unknown
   1. 您门店去年大概服务了多少户？有多少户在 6 个月内再次消费纪念类产品或服务？
   2. 复购的用户通常是因为什么触发二次消费？
   3. 有没有您原本以为会复购、但实际没有的用户？他们为什么没回来？
-- **追问**：「能不能举一个具体的用户案例，从第一次接触到第二次消费的完整过程？」
-- **输出**：访谈摘要中标记「复购率数据」为待验证（仅一家门店），并计划再找 2 位后台负责人交叉确认。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -278,12 +278,12 @@ author: 老顽童
 
 ## Related
 
-- [[yt-research-osl-framework]] — 专家访谈是 OSL 第 4 步「获取情报」的渠道之一
-- [[yt-research-intelligence-map]] — 情报地图告诉你怎么找专家
-- [[yt-research-hypothesis-test]] — 访谈结论需要转化为可验证假设
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设验证，访谈目标常源于此
-- [[yt-research-competitor-toolkit]] — 三层分类 + 内核边界 + 单元模型对标
-- [[yt-research-industry-canvas]] — 五维快速扫描 + 二维定位
-- [[yt-research-user-jtbd]] — 区分「用户说的」和「真正要的」
-- [[yt-research-mindset]] — 调研底层心态与反直觉原则
-- [[yt-note-expert-interview-modeling]] — 专家访谈建模与结构化输出
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

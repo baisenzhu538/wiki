@@ -1,32 +1,32 @@
 ---
 id: yt-decision-habit-shift
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
+- src_unknown
 query_triggers:
-- X型决策者
-- Y型决策者
-- 决策习惯
-- 拍脑袋
-- 决策分层
-- 习惯转变
-- 认知审美
-- 决策深度匹配
-- 广义ROI
-- 直觉决策
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[ocr-一堂-科学决策-决策三角形]]'
-- '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-depth-ladder]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -36,13 +36,13 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-X型Y型决策习惯对比.png
+- src_unknown
   dimensions:
-  - 色彩语义: X型灰度=思维扁平缺乏层次；Y型暖色渐变=思维立体温度与理性并存；红色=共同底线/高线
-  - 空间结构: X型完整三角锥(纪念碑式)vs Y型阶梯金字塔(建筑式可攀登)；X型顶部压迫vs Y型中下部稳定
-  - 信息层级: P0 标题 → P1 X/Y标签 → P2 五维度文字(横向贯穿强制对比) → P3 图形本体 → P4 品牌信息
-  - 负形利用: 两金字塔间留白=对话空间+互斥选择性；X型"缺失的中间"=以缺席在场成为最强烈负形
-  - 视觉隐喻: X型=断裂悬崖/跳台(认知断裂)；Y型=漏斗/过滤器(渐进过滤)；灰色=未切割岩石；阶梯=可居住可攀登
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-habit-shift
   course_type: tool
@@ -50,12 +50,12 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 学习者上完课后说'我要变成Y型决策者'，但两周后所有决策还是凭直觉
+- src_unknown
   framework_lens: 习惯转换失败——Y型不是知识而是肌肉记忆，知道分层标签不等于能在真实决策中自动调用
   follow_up_question: 过去一周你做了多少个决策？其中有多少个你主动贴了L0-L4标签？如果<50%，说明分层意识还没变成习惯
-- signal: 团队老板是X型，下属学了Y型后在会议上开始列清单，结果被老板打断'别整这些，直接说结论'
+- src_unknown
   framework_lens: 社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题
   follow_up_question: 在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）
 author: 老顽童
@@ -85,29 +85,29 @@ X型决策者的典型画像：狭义财务ROI算得极精（投资、投放、�
 
 **X型决策者（断裂模式）**：
 
-- 顶部1-5%：严格财务ROI（投资、投放、买量）——算得极精
+- src_unknown
 
-- 中间90%+：灰色混沌——没有评估方法，全凭直觉、经验、情绪
+- src_unknown
 
-- 底部少量：拍脑袋——连想都不想直接干
+- src_unknown
 
-- 典型症状："这个我能算清楚"和"这个差不多吧"之间没有过渡带
+- src_unknown
 
 
 
 **Y型决策者（漏斗模式）**：
 
-- 严格财务ROI（顶部极窄）：只有极少数重大投资走到这一层
+- src_unknown
 
-- 定量公式：需要对关键指标做完整公式拆解
+- src_unknown
 
-- 部分定量：把关键要素换成数字或区间
+- src_unknown
 
-- 优先级定性：对比关键项的相对重要性
+- src_unknown
 
-- 拍脑袋（底部最宽）：低价值、低试错成本的快速决策直接凭直觉
+- src_unknown（底部最宽）：低价值、低试错成本的快速决策直接凭直觉
 
-- 核心认知：90%决策不需要严格定量，但需要"明确自己在哪一层"
+- src_unknown
 
 
 
@@ -188,9 +188,9 @@ X型决策者的典型画像：狭义财务ROI算得极精（投资、投放、�
 
 
 
-- **成本触发**：单项投入≥10万元，或占用核心团队≥1个月时间
+- src_unknown
 
-- **犹豫触发**：内心对决策的笃定度<70%（自我评分），或团队分歧持续>30分钟
+- src_unknown
 
 
 
@@ -206,11 +206,11 @@ X型决策者的核心问题是"全在脑子里"——模糊、易变、难复�
 
 
 
-- **个人决策**：手机备忘录强制写5条收益+5条成本，写不完不做决定
+- src_unknown
 
-- **团队决策**：白板/文档同步写，禁止口头"我觉得"，所有观点必须落在纸上
+- src_unknown
 
-- **复盘锚定**：决策后把当时的分析快照保存，3个月后对比"预判vs实际"，校准自己的直觉准确度
+- src_unknown
 
 
 
@@ -222,11 +222,11 @@ X型决策者的核心问题是"全在脑子里"——模糊、易变、难复�
 
 
 
-- **诊断清单的"自我欺骗"风险**：多数人读X型症状时会下意识想"我有时候也定量啊"，从而低估自己的X型程度。诊断需要外部反馈——让同事/合伙人独立打分，而非自我评估。
+- src_unknown
 
-- **分层标签的"贴完就忘"**：给决策贴了L1/L2标签后，实际执行中容易"贴完标签直接跳到结论"，跳过分层分析的过程。标签变成了"我分析过了"的护身符。
+- src_unknown
 
-- **"写下来"的阻力被低估**：对很多决策者而言，"写下来"不仅是时间成本，更是心理成本——把模糊的直觉显性化，意味着要暴露自己"其实也没想明白"。这种脆弱感是很多人抗拒Y型的真实原因。
+- src_unknown
 
 
 
@@ -262,11 +262,11 @@ Kahneman让X型决策者睡不着觉的问题是：如果你过去一年里那�
 
 
 
-- **专家决策的核心是模式识别而非比较分析**：在真实的高风险、时间压力、信息不完备场景中，专家并非列出多个方案比较利弊，而是在看到情境的瞬间就识别出"这像什么"，并直接生成一个可行方案，然后 mentally simulate 验证其可行性。整个过程在秒级完成，与Y型的"贴标签→列清单→分层深入"结构完全不同。
+- src_unknown
 
-- **结构化分析会打断专家的直觉过程**：Klein警告，要求专家"用框架一步步分析"反而可能降低决策质量——把内隐的模式识别强行外化为显性比较，会丢失专家基于经验积累的微妙线索。你公司里那个做了15年业务的老炮，他看一个新渠道3秒就能判断"这事不成"，这不是因为他走了L1-L3，而是因为他的大脑已经内化了数万小时的模式。
+- src_unknown
 
-- **X型的"严格财务ROI"恰恰可能是专家直觉**：Klein会指出，X型决策者顶部那1-5%的"精算能力"，在资深从业者手中可能不是"机械计算"，而是高度内化的模式识别——一个老财务一眼能看出报表哪里不对，不需要L4定量。你把这种专家直觉拆解成"分层流程"，是在用标准化的"决策工序"去替代宝贵的专家能力。
+- src_unknown
 
 
 

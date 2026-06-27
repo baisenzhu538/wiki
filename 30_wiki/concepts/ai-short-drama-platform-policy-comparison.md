@@ -1,6 +1,6 @@
 ---
 domain:
-  - ai-saas
+  - src_unknown
 
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
@@ -19,23 +19,23 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-script-planning-three-axes
-  - ai-short-drama-ice-fire-dissection-compass
-  - ai-short-drama-plot-three-axes
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#industry/content-creation'
-  - '#domain/master'
-  - '#method/execution-method'
-  - '#chunk-type/claim'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"写完短剧不知道投哪个平台"
+  - src_unknown
     framework_lens: 平台-题材-分成匹配矩阵
     follow_up_question: 你的题材、目标受众、期望回款周期分别是什么？
-  - signal: 用户说"同样剧本在 A 平台火，在 B 平台没人看"
+  - src_unknown
     framework_lens: 平台用户偏好差异
     follow_up_question: 你是否针对不同平台调整了开头钩子密度和题材侧重点？
-  - signal: 用户说"新人想入局短剧，从哪个平台开始"
+  - src_unknown
     framework_lens: 新人友好度与分成门槛
     follow_up_question: 你是否有成熟制作资源，还是个人或小团队从 0 开始？
 
@@ -51,9 +51,9 @@ diagnostic_signals:
 
 原图为表格形式，横向五列、纵向七行：
 
-- **列维度**：平台、投稿方式、分成模式、题材偏好、新人友好度
-- **行维度**：抖音/红果、快手、腾讯视频、爱奇艺、优酷、芒果 TV
-- **视觉重点**：表格用色块区分平台类型（短视频平台 vs 长视频平台），"新人友好度"用星级/符号直观标注，便于快速扫读。
+- src_unknown
+- src_unknown
+- src_unknown
 
 表格强调的不是"哪个平台最好"，而是"不同平台适合什么题材和创作者"。
 
@@ -61,12 +61,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`（平台政策对比原图表格）。
-- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
-- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14`。
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:117-133`（平台适配检查清单）。
-- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14` + 行业常识。
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:128-133`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -96,20 +96,20 @@ diagnostic_signals:
 
 可直接复用的决策规则：
 
-- **女频甜宠 / 都市逆袭** → 优先抖音/红果，广告分成+保底模式对新人最友好。
-- **男频爽文 / 逆袭** → 优先快手，分账+广告模式，男频用户基础强。
-- **悬疑 / 古装** → 优先腾讯视频，会员分账模式适合高制作成本题材。
-- **全品类 / 有成熟制作能力** → 爱奇艺，会员分账+广告组合，覆盖人群广。
-- **女频甜宠 / 能控成本** → 优酷阶梯奖金模式，适合以小博大。
-- **青春 / 悬疑 / 有定制需求** → 芒果 TV，分账+定制双通道。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 平台适配检查清单：
 
-- [ ] 目标平台是否明确标注接受该题材？
-- [ ] 剧本开头 3 秒钩子是否符合该平台用户习惯？
-- [ ] 集数/时长是否匹配平台推荐规格？
-- [ ] 是否预留了广告分账所需的钩子密度和情绪峰值？
-- [ ] 投稿材料是否按平台要求准备（封面、简介、样片、分集大纲）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 落地模板：平台选择决策评分表
 
@@ -128,19 +128,19 @@ diagnostic_signals:
 
 **Mini Case：女频甜宠新团队首投决策**
 
-- 团队背景：3 人小团队，首次制作竖屏短剧，预算 5 万，期望 60 天内看到回款。
-- 题材：女频甜宠，24 集，单集 1-1.5 分钟。
-- 评分结果：抖音/红果 4.4 分（题材匹配 5、新人友好 5、回款 4、政策稳定 4、制作成本 4）；快手 3.6 分；爱奇艺 3.1 分。
-- 决策：首投抖音/红果，快手作为同题材二次分发平台，爱奇艺暂不进入，待有爆款案例后再评估。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Open Questions
 
-- **具体假设**：表格假设"题材偏好"是平台稳定的长期特征，但平台政策常随监管、竞品和内部战略变化，这个假设能成立多久？
-- **边界**：平台政策对比是否适用于微短剧（1 分钟以内）和横屏短剧？表格主要针对竖屏付费短剧。
-- **反例**：是否存在在"不匹配"平台反而爆款的案例？例如男频爽文在优酷、女频甜宠在快手？
-- **前提**：该表格的前提是创作者已经完成剧本，如果还在选题阶段，是否应该反向用平台偏好来倒推题材？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -148,16 +148,16 @@ diagnostic_signals:
 
 ### 可直接转化的交付物
 
-- **Prompt 模板**："为____平台定制一版短剧策划，突出其题材偏好和分成逻辑。"
-- **Checklist 工具**：平台适配自检清单（见 Reusable Knowledge）。
-- **决策表格**：扩展为包含"投稿入口 URL、最低集数要求、结算周期"的实操版。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：平台政策是写本罗盘的外层落地维度
-- [[ai-short-drama-script-planning-three-axes]]：剧本基地中的"目标平台"字段直接调用本表
-- [[ai-short-drama-ice-fire-dissection-compass]]：拆本后提炼的题材特征可反向校准平台匹配度
-- [[ai-short-drama-plot-three-axes]]：情节走向设计需与目标平台的钩子密度要求对齐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -175,17 +175,17 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.png` — 原始平台政策对比表图片
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.json` — OCR 结构化 JSON（含表格单元格与置信度）
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md:11-14` — 归档后的平台政策对比表摘要
+- src_unknown
 
 ### 加工 source
 
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:117-133` — 平台适配检查清单与 Prompt 模板
+- src_unknown
 
 > 注：平台政策变化快，投稿前请以各平台官方最新公告为准。本表仅反映代俊隆培训时所呈现的即时信息。
 

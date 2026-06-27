@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-unit-economics
-  - yt-business-model-cac-ltv
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们毛利率很高'，但不知道具体构成"
+  - src_unknown
     framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
     follow_up_question: "你的毛利率中，直接成本、服务成本、渠道成本各占多少？"
-  - signal: "用户毛利率下降，但不知道原因"
+  - src_unknown
     framework_lens: 毛利率结构分析——毛利率下降需要定位具体原因
     follow_up_question: "毛利率下降是因为定价下降、成本上升，还是结构变化？"
-  - signal: "用户不同产品毛利率差异大，但混在一起算"
+  - src_unknown
     framework_lens: 毛利率结构分析——需要分产品/服务计算毛利率
     follow_up_question: "你的不同产品线，毛利率分别是多少？哪个产品贡献最多利润？"
-  - signal: "用户说'我们毛利率70%'，但行业平均80%"
+  - src_unknown
     framework_lens: 毛利率结构分析——需要和行业对比
     follow_up_question: "你的毛利率和行业平均比如何？差距在哪里？"
-  - signal: "用户毛利率高，但净利润低"
+  - src_unknown
     framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
     follow_up_question: "毛利率高但净利润低，运营费用、营销费用占收入多少？"
 
@@ -49,17 +49,17 @@ diagnostic_signals:
 
 ```
 收入
-  - 直接成本（COGS）
-    - 产品成本
-    - 服务成本
-    - 渠道成本
+  - src_unknown
+    - src_unknown
+    - src_unknown
+    - src_unknown
   = 毛利
-    - 运营费用
-      - 研发
-      - 营销
-      - 管理
+    - src_unknown
+      - src_unknown
+      - src_unknown
+      - src_unknown
     = 运营利润
-      - 税费等
+      - src_unknown
       = 净利润
 ```
 
@@ -129,21 +129,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估商业模式时 → 拆解毛利率结构
-- 当毛利率变化时 → 定位具体原因
-- 当优化产品时 → 考虑毛利率影响
-- 当定价时 → 计算毛利率
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-business-model-cac-ltv`：CAC与LTV计算
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- SaaS毛利率研究
-- 财务分析基础
+- src_unknown
+- src_unknown
+- src_unknown

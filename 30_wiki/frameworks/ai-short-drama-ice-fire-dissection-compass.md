@@ -1,6 +1,6 @@
 ---
 domain:
-  - ai-saas
+  - src_unknown
 
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
@@ -19,28 +19,28 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-script-planning-three-axes
-  - ai-short-drama-framework-three-axes
-  - ai-short-drama-conflict-three-axes
-  - ai-short-drama-platform-policy-comparison
-  - concept-ji-hao-ai-collaboration-methodology
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#industry/content-creation'
-  - '#method/research-method'
-  - '#content-format/framework'
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
+  - src_unknown
     framework_lens: 结构化拆本五维模型
     follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
-  - signal: 用户说"AI 生成的剧本总是差点爆款味"
+  - src_unknown
     framework_lens: 投喂前先拆本
     follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
-  - signal: 用户说"不知道自己的剧本差在哪里"
+  - src_unknown
     framework_lens: 五维自检清单
     follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
-  - signal: 用户说"拆完本还是写不出好剧本"
+  - src_unknown
     framework_lens: 拆本→写本的转译闭环
     follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
 
@@ -57,13 +57,13 @@ diagnostic_signals:
 原图为同心圆罗盘结构，中心为"拆本罗盘"四字，向外分三层辐射：
 
 1. **中心层（文本语言）**：红色扇区，分为"视听语言"和"文本台词"两大块。
-   - 视听语言：旁白把控、字幕优化、洗稿改写、话术适配、台词打磨
-   - 文本台词：画面化、口语化、有张力的台词表达
+   - src_unknown
+   - src_unknown
 2. **第二层（四个分析维度）**：按顺时针分布：
-   - **核心角色**（蓝色）：基础人设、人物动机、人物关系、情绪闭环、角色高光
-   - **主题事件**（绿色）：主线清晰、支线不乱、剧情取舍、冲突设计、实践节点
-   - **高潮反转**（青绿色）：情绪拉升、打破预判、反转铺垫、情绪峰值、低估缓冲、多层高潮
-   - **钩子密度**（橙色）：开篇黄金钩子、中段间隔钩子、片尾留存钩子、秒秒留人、拉满期待、密度管控、钩子类型
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **外层（操作要点）**：每个维度拆分为 4-6 个可检查的子项，形成拆解清单。
 
 底部标语："五大维度全链路赋能，重塑剧本创作标准化新范式"。视觉结构与写本罗盘同构，强化"拆本→写本"的闭环对应关系。
@@ -72,12 +72,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 拆本是写本的前置步骤，只有先结构化拆解爆款，才能让 AI 学到"爆款味"而非套路壳。
-- **C2 [conf=0.9]**: 拆本罗盘提供五个固定维度：文本语言、核心角色、主题事件、高潮反转、钩子密度，避免拆本时凭感觉、遗漏关键要素。
-- **C3 [conf=0.85]**: 文本语言层强调"画面化、口语化、有张力"——短剧剧本的台词必须能直接转化为视听语言。
-- **C4 [conf=0.85]**: 核心角色分析要求建立"人设立住、情绪闭环、角色高光"三重检查，防止 AI 生成的人设崩塌。
-- **C5 [conf=0.8]**: 钩子密度不是越多越好，而是要控制密度、设计类型、拉满期待，形成"秒秒留人"的节奏。
-- **C6 [conf=0.75]**: 高潮反转需要"情绪拉升 + 打破预判"双轮驱动，反转必须服务主线而非为反而反。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -109,9 +109,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 五个维度权重相等，但实际创作中不同题材的爆款可能依赖不同维度（如悬疑重钩子密度，甜宠重核心角色）。
-- "文本语言"层对"洗稿改写"的表述偏技巧化，未明确法律与伦理边界。
-- 缺少量化指标，"钩子密度"到底是每集几个钩子、每分钟几次转折，没有给出参考值。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -121,8 +121,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果一部短剧没有明显的高潮反转（如日常治愈类），拆本罗盘是否失效？是的，五个维度并非普适，需要增加"情绪氛围"维度。
-- 如果拆本者本身审美不够，能否通过罗盘拆出高质量结论？不能，罗盘提供检查清单，但判断质量仍依赖人。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -138,11 +138,11 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：正向创作罗盘，与拆本罗盘配对使用
-- [[ai-short-drama-plot-three-axes]]：剧情三板斧——拆本时重点检查的高潮反转维度
-- [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧——把拆本结论转译为写本输入
-- [[ai-short-drama-platform-policy-comparison]]：平台政策差异会直接影响钩子类型和文本语言选择
-- [[concept-ji-hao-ai-collaboration-methodology]]：把拆本结论转化为 AI 可理解的投喂上下文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -155,11 +155,11 @@ diagnostic_signals:
 ### 执行步骤
 
 1. **前置信息**
-   - 剧名：______
-   - 题材标签：______（甜宠 / 悬疑 / 复仇 / 战神 / 其他）
-   - 集数 / 总时长：______
-   - 平台：______（抖音 / 红果 / 快手 / 腾讯 / 其他）
-   - 拆本日期：______
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **五维拆本表**
 
@@ -175,9 +175,9 @@ diagnostic_signals:
 
 拆本完成后，必须产出三类素材才能喂给 AI：
 
-- **题材特征摘要**（≤300 字）：该题材下爆款共有的结构特征。
-- **负面清单**（≥3 条）：该题材最容易踩的雷。
-- **可复用台词库**（≥5 句）：带"画面化/口语化/张力"标签的台词。
+- src_unknown
+- src_unknown
+- src_unknown
 
 4. **质量自评**
 
@@ -215,16 +215,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.png` — 原始信息图
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-冰火拆本罗盘-图片-01.json` — OCR 结构化 JSON
-- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- `src_20260613_c17fcdb2-ai-short-drama-ice-fire-dissection-compass.md:11-14` — 归档后的原图摘要
+- src_unknown
 
-- 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md:11-14` — 冰火拆本罗盘原图表格
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:737` — 口述中提到"拆本"与"三板斧"
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:9-21` — 方法论总览中的拆本罗盘定位
+- src_unknown
+- src_unknown
+- src_unknown
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及 7 张方法论图片*

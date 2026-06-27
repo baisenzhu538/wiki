@@ -5,20 +5,20 @@
 title: 转化率黑客
 type: concept
 domain:
-  - management- management
-  - product
-  - business-strategy
-  - ai-saas
-  - yitang
-  - decision-making
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 团队只改按钮颜色，不做系统优化
+- src_unknown
   framework_lens: 单点论
   follow_up_question: 你最近一次系统梳理了动力、阻力、触点三个维度吗？如果没有，只在单点优化
-- signal: 直接抄袭竞品方案，不考虑自己用户
+- src_unknown
   framework_lens: 抄袭论
   follow_up_question: 这个方案在你的用户场景下验证过吗？竞品的用户和你的用户可能不一样
 updated_at: '2026-06-16'
@@ -32,11 +32,11 @@ source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260613_6b939d2b）
 related:
-  - '[[yt-decision-abcd-model]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[tool-yitang-review-analysis]]'
-  - '[[tool-yitang-public-sentiment-research]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 转化率黑客
 
@@ -72,9 +72,9 @@ related:
 ### 转化率重新理解
 
 传统误区：
-- **玄学论**："转化率高不高看运气" —— 转化率是可拆解、可测量、可优化的科学体系
-- **单点论**："改个按钮颜色转化就上去了" —— 真正的提升来自系统性优化而非单点改动
-- **抄袭论**："学竞品的最佳实践" —— 别人验证过的方案未必适配你的用户场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 动力-阻力-触点三力模型
 
@@ -111,10 +111,10 @@ related:
 
 ### 触点：关键交互时刻的设计原则
 
-- **首屏3秒黄金法则**：用户到达后的前3秒看到什么，决定了90%的去留
-- **CTA 单任务原则**：一个页面只推一个核心行动号召，不给用户制造选择焦虑
-- **退出意图拦截**：用户要走时给什么？不是骚扰弹窗，而是提供一个不走的额外价值理由
-- **付款页=信任巅峰**：所有付款前可能出现的疑虑，都必须在这一页被消除
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 组合落地的核心引擎：A/B 测试
 
@@ -144,9 +144,9 @@ Sutherland 的核心案例：英国电信运营商在宽带广告中强调"18 �
 
 **Dan Ariely**（杜克大学行为经济学教授，*Predictably Irrational* 和 *The Honest Truth About Dishonesty* 作者）通过大量实验证明：消费者的"非理性"行为不是随机的、不是个别现象的——它是系统性的、可预测的。三力模型隐含的"用户权衡利弊做选择"假设在 Ariely 的研究面前全面瓦解：
 
-- **诱饵效应（Decoy Effect）**：在 A 和 B 之间加一个明显更差的 A-，会让更多人选择 A。《经济学人》的经典实验——只有"网络版 $59"和"网络+印刷版 $125"两个选项时，68% 人选网络版。加了第三个选项"印刷版 $125"（与套餐同价但只含印刷）后，84% 选了套餐。产品没变、价格没变、漏斗没变——加了一个"没人会选"的选项改变了所有人的选择。
-- **零成本效应（Zero Price Effect）**：用户对"免费"的反应远超理性的成本收益计算。亚马逊在法国推出"免运费"后销量暴增——而法国消费者完全可以加一件低价商品使总价到达免运费门槛，理性上成本相同。但"免运费"三个字对人的影响不是理性的。
-- **期望效应**：如果你告诉用户"这个产品很好用"，他们的实际体验会更好——不是因为产品变了，是因为期望改变了感知。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对三力模型的直接攻击：你假设动力是用户从产品中获得的客观价值、阻力是用户达成目标的客观障碍、触点是客观的交互时刻。但 Ariely 的实验表明——**动力、阻力和触点都不是客观的，它们是被用户的感知系统重构过的。** 你优化的是"客观的漏斗"，但用户走的是"感知的漏斗"——两个漏斗之间的差异，才是转化率最大的未开发地带。
 
@@ -185,13 +185,13 @@ Sutherland 的核心案例：英国电信运营商在宽带广告中强调"18 �
 
 ### 关联卡片
 
-- [[yt-management-business-formula]] — 业务公式：转化率是业务公式中最核心的变量之一，转化率黑客就是对转化率这一个变量做深度拆解
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：A/B 测试的优先级排序需要决策模型——有限的工程资源该优先优化哪个环节？
-- [[yt-management-goal-management]] — 目标管理：转化率提升目标如何设定为可量化的 Key Results
-- [[yt-entrepreneur-lean-validation]] — 精益验证：转化率优化本质上是一系列小规模实验的集合，精益方法论是其底层逻辑
-- 科学销售 — 科学销售：转化率黑客的末端环节（付款页优化）与科学销售的成交环节有重叠
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：转化率优化工具（A/B 测试/热力图/漏斗分析）是增长武器库的核心组件——但 Sutherland 和 Ariely 告诉你：最强大的武器不在工具包里，在你对用户心理的理解里
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：转化率的本质是"你说服了一个用户"——着陆页文案、CTA 措辞、价值主张陈述，都是在'讲香'。Sutherland 的"框架"概念就是讲香十指中的"场景化+比喻化"在转化场景中的映射
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -216,6 +216,6 @@ Sutherland 的核心案例：英国电信运营商在宽带广告中强调"18 �
 
 ### 跨学科锚点
 
-- 动力-阻力-触点模型与行为心理学 Fogg Behavior Model（B = MAT —— 行为=动机+能力+触发）同源异构。一堂将"能力"转化为"阻力消除"，"触发"转化为"触点优化"。
-- A/B 测试方法论源自 Google 的"数据驱动决策"文化——Google 每年运行数万次 A/B 测试，核心理念是"不要让 HiPPO（最高薪者的意见）决定产品方向"。
-- 转化率优化（CRO）是数字营销的成熟领域，CXL Institute、ConversionXL 等建立了完整知识体系，一堂课程是对 CRO 知识的结构化重组。
+- src_unknown
+- src_unknown
+- src_unknown

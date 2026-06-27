@@ -9,27 +9,27 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites: '[[yt-unit-model-concept]]'
 query_triggers:
-- 单元模型怎么搭建
-- 商业模式分析步骤
-- 算账方法
-- 成本清单
-- 三点预测
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yitang-strategy-canvas]]'
-  - '[[yt-unit-model-concept]]'
-  - '[[yt-tool-unit-model-construction]]'
-  - '[[case-toy-cabinet-business-model]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-unit-model-concept]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
@@ -48,15 +48,15 @@ yitang:
   course_type: skill
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 单元模型搭得很漂亮，但关键参数怎么都算不准
+- src_unknown
   framework_lens: 参数可信度不足——模型结构越精确，参数误差扭曲越严重
   follow_up_question: 哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？
-- signal: 按单元模型算出来应该赚钱，但实际在亏钱
+- src_unknown
   framework_lens: 隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素
   follow_up_question: 实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？
-- signal: 模型结构完整，但一换城市/一上规模利润就塌掉
+- src_unknown
   framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
@@ -109,9 +109,9 @@ author: 老顽童
 ### 步骤四：验证数据准确性
 
 **三点预测法**：
-- **乐观情景**：所有假设都朝有利方向发展
-- **合理情景**：基于现有数据和行业基准的最可能情况
-- **悲观情景**：考虑最坏情况，包括竞争加剧、成本上涨、政策变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验证方法**：
 1. 对标行业数据
@@ -137,15 +137,15 @@ Kaufman 在《个人 MBA》中提出，商业模式分析有**四个维度**：�
 
 ## diagnostic_signals
 
-- signal: "单元模型搭得很漂亮，但关键参数怎么都算不准"
+- src_unknown
   framework_lens: "参数可信度不足——模型结构越精确，参数误差扭曲越严重"
   follow_up_question: "哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？"
 
-- signal: "按单元模型算出来应该赚钱，但实际在亏钱"
+- src_unknown
   framework_lens: "隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素"
   follow_up_question: "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"
 
-- signal: "模型结构完整，但一换城市/一上规模利润就塌掉"
+- src_unknown
   framework_lens: "静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量"
   follow_up_question: "扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？"
 

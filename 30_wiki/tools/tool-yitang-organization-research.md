@@ -13,32 +13,32 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 组织调研
-- 组织架构
-- 薪资调研
-- 人才调研
-- 竞对组织
-- 岗位调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡8（组织调研）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡8（组织调研）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-store-franchise-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-b2b-gov-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-job-intelligence-research]]"
-  - "[[tool-yitang-social-engineering-research]]"
-  - "[[tool-yitang-b2b-gov-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 组织调研手段：浅中深三层10大评估法
@@ -55,9 +55,9 @@ related:
 
 ## 适用场景
 
-- **借鉴同行组织结构**：想了解竞对的组织架构、部门设置、汇报关系
-- **借鉴同行岗位设置**：想了解竞对关键岗位的人数、薪资结构、考核方式
-- **评估是否加入一家公司**：面试前调研目标公司的发展趋势和内部真实状况
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -145,10 +145,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 8——组织调研卡
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡8（组织调研）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡8（组织调研）_vlm_desc.md`（confidence=0.95）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

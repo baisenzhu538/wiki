@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "泛产品设计"
-  - "产品思维"
-  - "用户场景分析"
-  - "最小交付物"
-  - "产品审美"
-  - "解决方案设计"
-  - "迭代验证"
-  - "用户任务分析"
-  - "职业发展路径设计"
-  - "产品设计方法论"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,8 +38,8 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '能把任何工作重新定义为‘为用户解决问题’的设计任务', 'framework_lens': '泛产品 = 问题+用户+场景', 'follow_up_question': '这件事的用户是谁？他真正想解决什么问题？'}
   - {'signal': '设计前先明确用户、场景、任务，再进入解决方案', 'framework_lens': '问题定义先于方案', 'follow_up_question': '在画第一个方案之前，你是否已经写清了用户-场景-任务？'}
@@ -47,11 +47,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[ocr-泛产品设计落地篇]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 泛产品设计
 
@@ -69,20 +69,20 @@ related:
 ### 失败模式
 
 1. **一开始就想方案，没有定义清楚问题**
-   - **原因**：方案先行
-   - **修复**：强制先写‘用户-场景-任务’三段，再进入方案
+   - src_unknown
+   - src_unknown
 
 2. **把产品设计狭隘理解为画原型或写PRD**
-   - **原因**：职能化理解
-   - **修复**：列举非数字产品的设计案例（如会议设计、流程设计）
+   - src_unknown
+   - src_unknown
 
 3. **追求一次完美交付，没有迭代计划**
-   - **原因**：瀑布思维
-   - **修复**：为每个方案设定反馈指标和迭代节奏
+   - src_unknown
+   - src_unknown
 
 4. **只关注用户满意，忽视可行性和可持续性**
-   - **原因**：视角失衡
-   - **修复**：同时评估用户价值、实现成本、商业可行性
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -101,23 +101,23 @@ related:
 ### 一堂产品设计方法论在个人场景中的迁移
 
 **需求分析 → 定义你的用户任务**
-- 你自己的"用户"是谁？（你的老板？你的团队？你的客户？你自己？）
-- 你在帮他们完成什么"任务"（Job）？
-- 这个任务的场景和约束条件是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **解决方案设计 → 定义你的最小交付物**
-- 借鉴一堂五步法中"产品内核"概念：剥离最小可用的交付物
-- 不是做一个"完美的方案"，而是做一个"能让用户完成任务的方案"
-- 核心问题：最小的、不可再削减的交付物是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **验证迭代 → 用反馈驱动优化**
-- 借鉴一堂精益验证的方法论：低成本验证你的"产品"假设
-- 对你做的任何一个交付物（文档/制度/课程/服务），问：用户的反馈是什么？数据是什么？下一次怎么改？
+- src_unknown
+- src_unknown
 
 **审美能力 → 建立产品品质的判断力**
-- 见足够多的"好产品"——不仅是 App 产品，也包括好文章、好课程、好制度、好流程
-- 培养"这个能不能更好"的肌肉——Truman 在知识萃取课中强调"建立审美"是能力跃迁的关键前置条件
-- 金句："你执行力的上限不会超过你对最佳实践理解的下限"（IPO 课引述）——设计力的上限也不会超过你见过的"好设计"的上限
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 泛产品设计的四个基础模块
 

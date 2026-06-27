@@ -12,12 +12,12 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - '[[dk-demand-pitfall-indonesia-insurance]]'
-  - '[[dk-demand-pitfall-travel-agent]]'
-  - '[[dk-strategy-05-positioning-trap]]'
-  - '[[dk-demand-pitfall-financial-literacy]]'
-  - '[[dk-demand-pitfall-rural-5g]]'
-  - "[[case-demand-dialer]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---**坑**：销售需要打电话→做拨号器→用户不用。
 **真相**：用户要的是"高效触达客户"，不是"拨号器"。跳到方案前没定义核心任务（L3）。
 **修复**：任何时候想说出产品名，先问"用户真正要完成的任务是什么？"

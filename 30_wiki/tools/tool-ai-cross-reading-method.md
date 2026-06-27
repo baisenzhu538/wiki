@@ -10,29 +10,29 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 交叉阅读法
@@ -63,9 +63,9 @@ related:
 
 在找对立面之前，先完成原书的“还原层”：
 
-- 这本书的“魂”是什么？即把全书压缩成一个可反复使用的底层操作 [conf=0.70, source=王欢原创]。
-- 作者坐在哪把椅子上？利益结构、声誉基础、时代背景 [conf=0.70, source=王欢原创]。
-- 这本书最依赖的假设是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 输出：一段 100 字以内的“原书定位说明”。
 
@@ -85,10 +85,10 @@ related:
 
 把三本书对同一组问题的回答列成表格。可选问题包括：
 
-- 这项技术是机遇还是风险？
-- 谁会被影响？谁会被排除？
-- 社会/制度需要做什么准备？
-- 个人今晚能做什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：运行对撞提问
 
@@ -117,18 +117,18 @@ related:
 
 王欢通过 Crawford 与 Mollick 的对撞，生长出四个原创认知 [conf=0.70, source=王欢原创]：
 
-- 椅子决定视角
-- 中立的暴政
-- 社会进步不是自动的
-- 最稀缺的是自我
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第七步：落地动作
 
 把对撞结果转化为今晚就能做的动作，例如：
 
-- 为正在读的书写一段“作者位置说明”。
-- 找一本与原书立场相反的书，读其中一章。
-- 用一页纸模板记录对撞结果。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -138,21 +138,21 @@ related:
 
 对撞书必须满足至少两项异构性，否则对撞流于形式：
 
-- [ ] **立场相反**：乐观派 vs 批判派，加速主义 vs 审慎派。
-- [ ] **利益位置不同**：从业者 vs 观察者，投资人 vs 学者。
-- [ ] **时间尺度不同**：历史纵深 vs 当下实操，长期预测 vs 近期实验。
-- [ ] **学科框架不同**：技术工程 vs 社会科学，经济学 vs 伦理学。
-- [ ] **目标受众不同**：大众科普 vs 专业实践者。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对撞提问清单
 
-- [ ] 原书的“魂”是否已用一句话清晰表达？
-- [ ] 我是否找到了至少一本真正立场相反的书，而不是“稍有保留的支持者”？
-- [ ] 三本书对同一技术问题的回答是否已被提取到同一表格？
-- [ ] 我是否识别出至少一个原书盲区，并能解释“为什么这个椅子导致这个盲区”？
-- [ ] 我是否区分了“事实盲区”“立场盲区”“时代盲区”“方法盲区”？
-- [ ] 我是否在盲区之上生长出至少一个原创判断？
-- [ ] 这个判断是否有对应的今晚可执行动作？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 一页纸对撞模板
 
@@ -160,9 +160,9 @@ related:
 # 交叉阅读记录：《原书名》
 
 ## 原书定位
-- 魂：______
-- 椅子：______
-- 核心假设：______
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 对撞书
 | 书目 | 作者椅子 | 核心论点 | 对原书的挑战 |
@@ -176,18 +176,18 @@ related:
 |      |          |               |               |        |
 
 ## 盲区诊断
-- 盲区类型：______
-- 原书为什么看不见：______
-- 证据来源：______
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 生长认知
-- 我的原创判断：______
-- 这个判断依赖的边界条件：______
+- src_unknown
+- src_unknown
 
 ## 落地动作
-- 动作：______
-- 完成时间：______
-- 验证标准：______
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ---
@@ -236,15 +236,15 @@ related:
 
 ### 反例：只读同类畅销书
 
-- **问题**：连续读多本 AI 乐观派书籍，彼此互相引用、互相强化。
-- **后果**：对算法偏见、数据劳工、权力集中等盲区视而不见；把“技术乐观”误当成“事实共识”。
-- **纠偏**：按选书检查单强制引入至少一本立场相反的书，例如用 Crawford《Atlas of AI》对撞任何一本 AI 商业机会书。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：用对立面做人身攻击
 
-- **问题**：因为 Crawford 批判 AI，就认为“所有乐观派都是骗子”。
-- **后果**：从确认偏误跳到否定偏误，同样失去校准能力。
-- **纠偏**：对撞的目标是“打折后取重叠”。三本书各自打折后剩下的共识部分，往往是最可靠的部分 [conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -265,14 +265,14 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选定一本你正在读或要讲的立场鲜明的书。
-- [ ] 写出它的“魂”和“椅子”，完成锚定。
-- [ ] 用选书检查单找到至少一本真正异构的对撞书。
-- [ ] 提取 3-5 个可比较单元，填入对撞表格。
-- [ ] 回答对撞提问清单中的五个问题。
-- [ ] 识别至少一个盲区，并归类为事实/立场/时代/方法盲区。
-- [ ] 在盲区之上生长出至少一个原创判断。
-- [ ] 把判断转化为今晚就能做的一个动作。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -296,9 +296,9 @@ related:
 
 **不要用**：
 
-- 不要把它当作“每本书都必须找对立面”的教条。
-- 不要在没有完成原书“还原层”时直接对撞。
-- 不要让对撞退化为“选边站”或“人身攻击”。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

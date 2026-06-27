@@ -13,36 +13,36 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 信息地图
-- 情报体系
-- 信息获取
-- 地图在手
-- 情报地图
-- 信息源
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-normalize-summary]]'
-  - '[[tool-yitang-research-continuous-tracking]]'
-  - '[[tool-yitang-research-competitor-tracking]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-exhaust-means]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[tool-yitang-database-index]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-source-freshness]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 地图在手：建立全局信息获取体系
@@ -206,24 +206,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-exhaust-means]] — 穷尽手段工具
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[tool-yitang-database-index]] — 数据库索引
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 信息地图模块
-- 交叉：知识管理理论
-- 注意：地图在手是长期能力建设，不是一次性工作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -7,8 +7,8 @@ title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可�
 type: case
 status: enriched
 domain:
-- agent-infrastructure
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
@@ -17,46 +17,46 @@ source_refs:
 - src_20260510_cfbce5d1-Truman的个人成长五步法
 - src_20260510_27fe5f0e-truman的选择：两条职业成长路线
 tags:
-- '#perspective/compliance'
-- '#perspective/professional'
-- '#confidence/source-cited'
-- '#confidence/verified-by-case'
-- '#domain/agent-infrastructure'
-- '#domain/yitang'
-- '#scene/agent-infrastructure/skill-registry'
-- '#scene/ai-collaboration/problem-validation'
-- '#scene/ai-collaboration/workspace-design'
-- '#scene/hardware-debugging/prototyping'
-- '#scene/knowledge-management'
-- '#method/learning-method'
-- '#content-format/checklist'
-- '#scene/note-taking/training-plan'
-- '#scene/skill-engineering/publish-deploy'
-- '#content-format/case-study'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[truman-ai-partner-design-analysis]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[yt-decision-ai-partner]]'
-  - '[[yt-personal-checklist-notes]]'
-  - '[[yt-note-checklist-concept]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-- signal: 团队想做一个"AI教练/AI助手"，但说不清人类专家必须保留的决策边界
+- src_unknown
   framework_lens: AI Partner 不是替代判断，而是约束下协作
   follow_up_question: 你的 Agent 边界清单里，哪些判断必须人类做、AI 只做整理/提示？
-- signal: 专家有方法论和案例，但学生/用户"知道做不到"，缺乏练习反馈
+- src_unknown
   framework_lens: 知识资产化 ≠ 课程售卖，需要封装即时反馈机制
   follow_up_question: 你的方法论能否被拆成可校验的清单规则？学生练习后能否自动得到结构化反馈？
-- signal: 想用 AI 整理个人十年笔记，直接让它"建模"或"给建议"
+- src_unknown
   framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
 ---# 案例：Truman AI Partner（阿蕊老师）
@@ -67,9 +67,9 @@ diagnostic_signals:
 
 Truman 在一堂教"清单体笔记"课程，学生在练习过程中需要反馈和指导。他对学生的笔记质量有明确的审美标准，但无法一对一辅导所有人。课程结束后，学生普遍处于"知道但做不到"的状态：
 
-- **笔记越记越多，用的时候找不到、用不上**；
-- **同一节课，有人能当场拆出模型和行动清单，有人还云里雾里**；
-- **Truman 的一对一反馈是稀缺资源，无法覆盖所有学员**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 真实锚点来自一堂真实学员的需求。Truman 看到学生在课程后"知道但做不到"，需要一个能在日常练习中持续提供反馈的工具。不是"AI 很火所以做一个"——是自己学生真需要。
 
@@ -85,9 +85,9 @@ Truman 十年刻意练习积累了约 1500 篇模型笔记，以清单体格式�
 
 Agent 被定义为 **P 角色（执行伙伴）**，核心边界：
 
-- **只整理、不判断**：把学生的笔记结构化、标注段位、指出可改进点，但不替学生决定"好不好"；
-- **只给半成品，不给成品**：输出停留在 L1-L2（记录/备忘/结构化），L3-L5 的建模、洞察、决策必须人自己完成；
-- **不越界给建议**：当学生问"我该怎么写"时，Agent 只提供参考框架和待确认问题，不直接输出"标准答案"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 反馈段位化：把 L2-L6 标准写入校验规则
 
@@ -105,8 +105,8 @@ Agent 的反馈不是泛泛的"不错"或"再改改"，而是对照一堂笔记�
 
 Agent 的输入（学生交的笔记）和输出（反馈/训练计划）都是清单体。这种"同构"设计有两个效果：
 
-- **降低 AI 幻觉**：结构化输入减少了理解歧义；
-- **倒逼学生练习**：学生为了获得更好的 AI 反馈，会主动把笔记写成更规范的结构。
+- src_unknown
+- src_unknown
 
 ## 结果：从"卖时间"到"卖 Agent"
 
@@ -119,9 +119,9 @@ Agent 的输入（学生交的笔记）和输出（反馈/训练计划）都是�
 
 受益人：
 
-- **学生**：有即时反馈，不用等 Truman 一对一；
-- **Truman**：知识资产化，从"卖时间"到"卖 Agent"；
-- **一堂**：课程附加值提升，AI Partner 作为课程的延伸产品。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景与使用边界
 
@@ -149,13 +149,13 @@ Agent 的输入（学生交的笔记）和输出（反馈/训练计划）都是�
 
 如果你想复制 Truman 的路径，可按以下清单自检：
 
-- [ ] **问题验证**：是否有真实用户反复问你同一类问题？是否有 10+ 人愿意为即时反馈付费？
-- [ ] **语料池**：同主题结构化案例是否 ≥100 篇？是否做过"黄金/垃圾"分类？
-- [ ] **角色边界**：Agent 是 P（执行）、C（共创）还是 J（判断）？P 角色最不容易翻车
-- [ ] **输入格式**：用户给 Agent 的内容是否有统一格式？格式越统一，幻觉越少
-- [ ] **反馈段位**：输出是否标注"当前水平 + 下一阶动作"？避免泛泛鼓励
-- [ ] **人机分工**：L1-L3 交给 Agent，L4-L6 必须人自己完成，边界是否写进 system prompt
-- [ ] **闭环设计**：Agent 输出是否回流到课程/服务迭代？是否有付费转化路径
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号：这个案例是否值得你参考？
 
@@ -177,6 +177,6 @@ Truman 的 AI Partner 和纪浩的 Skills 市场（[[case-ji-hao-skills-market]]
 KDO 已经能走通 Truman 的单 Agent 路径（note-coach）。纪浩的平台模式是下一步——先把单个 skill 做扎实，再做分发层。
 
 进一步可参考：
-- [[yt-decision-ai-partner]]：AI Partner 的通用对话范式与人机分工边界
-- [[yt-personal-checklist-notes]]：清单体笔记的段位体系与训练方法
-- [[yt-note-checklist-concept]]：为什么清单体是"人类认知与 AI 处理的最大公约数"
+- src_unknown
+- src_unknown
+- src_unknown

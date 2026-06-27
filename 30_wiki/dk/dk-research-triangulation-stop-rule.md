@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- research
+- src_unknown
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-strategy-correlation-vs-causation-leverage]]'
-  - '[[dk-research-identity-craft-for-closed-information]]'
-  - '[[dk-research-decision-first-mapping]]'
-  - '[[dk-yitang-model-asset-capitalization]]'
-  - '[[dk-strategy-stage-leverage-mismatch]]'
-  - "[[yitang-research-domain-digest]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[dk-yitang-research-cross-validation-cost]]"
-  - "[[case-yitang-travel-receipt-analysis]]"
-  - "[[case-yitang-luckin-field-research]]"
-  - "[[case-liutao-douyin-team-leader-9m]]"
-  - "[[case-yitang-hardware-factory-photo]]"
-  - "[[case-yitang-pet-fostering-user-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 多源交叉验证的停止规则
@@ -47,10 +47,10 @@ related:
 
 这个模式出现在任何需要把“不确定信息”变成“可决策信息”的场景。典型触发条件包括：
 
-- 你拿到的关键数字只有一个来源（例如行业报告、专家口述、公司 PR），且会直接影响资源投入。
-- 不同来源给出的信息相互矛盾，需要判断哪一方更可信、是否需要继续挖第三、第四来源。
-- 调研时间或预算有限，必须在“继续验证”和“先决策再迭代”之间做取舍。
-- 决策者已经因为“信息不够”而拖延，研究团队需要给出“足够好”的明确标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 无论是创业前的市场判断、投资前的尽调、产品迭代前的用户洞察，还是竞争情报收集，都会遇到同一个问题：验证到什么时候算够？
 
@@ -76,19 +76,19 @@ related:
 
 ### 实操检查清单
 
-- [ ] 我已明确列出哪些信息会改变决策
-- [ ] 我已为每条信息设定最低可接受置信度
-- [ ] 当前信息源是否来自不同生成机制（不是同一个报告的不同转载）
-- [ ] 新增一个来源预计能改变结论的概率是否 >30%
-- [ ] 继续验证的延迟成本是否已超过“决策错误”的预期损失
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
 这条规则适用于**信息不完备但必须决策**的情境，不适用于以下情况：
 
-- **安全、合规、医疗等高风险场景**：这些领域需要追求极高置信度，不能因成本而提前停止。
-- **信息源明显劣质但未穷尽替代来源**：如果现有来源都是二手、匿名、利益相关方，且存在可获取的高质量来源，应先替换来源。
-- **决策本身不可逆**：一旦决策无法撤回，应提高置信度阈值，而非急于停止。
+- src_unknown
+- src_unknown
+- src_unknown
 
 本质上，停止规则不是“偷懒借口”，而是“在资源约束下最大化决策质量”的理性边界。
 
@@ -112,17 +112,17 @@ related:
 
 以下框架/工具卡已覆盖部分内容：
 
-- **[[tool-yitang-research-cross-validation]]**：提供“识别关键信息 → 寻找独立来源 → 评估一致性”的三步法，强调必须多源验证。
-- **[[framework-yitang-six-layer-cross-validation]]**：从来源、时间、逻辑、数据、反例、行动六个维度提升信息可信度。
-- **[[dk-yitang-research-cross-validation-cost]]**：指出交叉验证是成本也是护城河，强调验证的复利价值。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 现有框架未覆盖的缺口
 
 现有框架告诉你**要交叉验证**和**怎么交叉验证**，但没有回答**验证到什么时候可以停**。这个缺口在真实决策中极其关键：
 
-- `tool-yitang-research-cross-validation` 缺少“验证成本-置信度”决策表；
-- `framework-yitang-six-layer-cross-validation` 给出验证维度，但没有说明哪一层达标即可停止；
-- `dk-yitang-research-cross-validation-cost` 强调成本意识，但未提供可操作的停止规则。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这张 dk 卡存在的理由，就是把“停止”从一种依赖经验的判断，变成一种可计算、可沟通、可复用的决策规则[conf=0.80, source=王语嫣 synthesis_research.md]。
 

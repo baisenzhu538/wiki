@@ -4,29 +4,29 @@ title: 技能：清单小抄工具箱法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-mece体系框架法]]'
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-立即实践转化法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-mece体系框架法]]'
-- '[[tool-费曼简单提炼法]]'
-- '[[tool-立即实践转化法]]'
-- '[[concept-问题驱动式深度思考笔记]]'
-- '[[tool-复盘推演法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 清单工具
-- 模板库
-- 共享文档系统
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -34,19 +34,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 清单太长，执行前要先花20分钟看清单
+- src_unknown
   lens: 清单太全
   follow_up: 清单的价值在精简不在全，好的清单是'关键提醒'不是'完全指南'，控制在5-9条
-- signal: 第一次做的清单三年没改过
+- src_unknown
   lens: 用完不更新
   follow_up: 清单是活的，每次使用后都应该微调，存储的内容应随着经验积累而进化
-- signal: 工具箱里有50个清单小抄，但每次执行还是靠记忆
+- src_unknown
   lens: 只建不用
   follow_up: 清单的价值在于'执行时的快速调用'，不是'收集时的满足感'，强制使用习惯
-- signal: 清单是提醒不是指令，但条目写得像SOP
+- src_unknown
   lens: 清单SOP混淆
   follow_up: 清单是'检查胎压'，SOP是'必须用左手扭到3.5N·m'，清单提醒关键项不规定具体动作
-- signal: 没有清单就不会做，能力退化
+- src_unknown
   lens: 过度依赖
   follow_up: 清单是辅助不是拐杖，核心能力需内化，清单只用于防遗漏和标准化
 ---
@@ -91,21 +91,21 @@ diagnostic_signals:
 ## Critique
 
 1. **清单的价值在于“精简”不在于“全面”**
-   - 清单太长 = 执行前先花20分钟看清单 = 反效用
-   - 好的清单是"关键提醒“，而不是"完全指南"
+   - src_unknown
+   - src_unknown
 
 2. **清单是活的——每次使用都应该微调**
-   - 第一次做的菜谱三年没改过 = 失去了清单的本质价值
-   - 清单是知识的"外化存储“，存储的内容应该随着经验积累而进化
+   - src_unknown
+   - src_unknown
 
 3. **建工具和用工具是两件不同的事**
-   - 工具箱里有50个清单小抄但每次执行还是靠记忆 = 工具缺乏使用习惯
-   - 清单的价值在于“执行时的快速调用”，而不是“收集时的满足感”
+   - src_unknown
+   - src_unknown
 
 ## 工具/环境
-- 清单工具
-- 模板库
-- 共享文档系统
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -126,10 +126,10 @@ diagnostic_signals:
 4. 这条的结果是否可以被第三方验证？（而不是只有自己知道做没做）
 
 ## 常见失败模式
-- 清单太全：把"所有可能要做的事"都列上，每次执行前要先花20分钟看清单——清单的价值在精简不在全
-- 用完不更新：第一次做的菜谱三年没改过——清单是活的，每次使用后都应该微调
-- 只建不用：工具箱里有50个清单小抄，但每次执行还是靠记忆——建工具和用工具是两件不同的事
-- 把清单当SOP：清单是提醒不是指令——"检查胎压"和"必须用左手扭到3.5N·m"不是一回事
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -145,30 +145,30 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **不适用于非标准化场景：**完全创造性、无先例的工作无法用清单规范
-- **更新成本被低估：**清单需要持续维护，很多团队建完就不管了
-- **过度依赖风险：**长期使用清单可能导致"没有清单就不会做”的能力退化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 关联知识节点
-- **结构基础：**[[tool-mece体系框架法]] — 体系框架提供结构，清单小抄提供执行粒度
-- **精简来源：**[[tool-费曼简单提炼法]] — 从费曼提炼的三句话，可以做成一张小抄
-- **验证场景：**[[tool-立即实践转化法]] — 清单的价值在执行时体现，立即实践是小抄的检验场
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
-- 在一堂科学学习IPO中，本技能位于 **输出层(Output)→清单小抄**
-- 是"知识输出”的最小可执行单元
+- src_unknown
+- src_unknown
 
 ### 跨学科锚点
-- **认知心理学（工作记忆负荷）：**清单的本质是外部记忆——将工作记忆转移到环境中
-- **行为经济学（推动 vs 阻力）：**好的清单是"推动“（降低行动阈值），坏的清单是"阻力“（增加决策疲劳）
-- **航空安全（检查单设计）：**Atul Gawande《清单革命》证明了清单在高风险行业中的救命价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-mece体系框架法]] — 体系框架提供结构，清单小抄提供执行颗粒度
-- [[tool-费曼简单提炼法]] — 从费曼提炼的三句话，可以做成一张小抄
-- [[tool-立即实践转化法]] — 清单的价值在执行时体现，立即实践是小抄的检验场
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L1.清单小抄：完整的清单/目录，工具箱/模板库，便于执行

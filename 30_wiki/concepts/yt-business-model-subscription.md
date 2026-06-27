@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
@@ -18,26 +18,26 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-revenue-types
-  - yt-business-model-pricing-psychology
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户一次性收入为主，收入不稳定"
+  - src_unknown
     framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
     follow_up_question: "你的收入是否可预测？订阅制能否提升收入稳定性？"
-  - signal: "用户说'用户不愿意订阅'"
+  - src_unknown
     framework_lens: 订阅制商业模式——需要设计订阅价值
     follow_up_question: "用户为什么不愿意订阅？订阅价值是否清晰？"
-  - signal: "用户订阅用户流失率高"
+  - src_unknown
     framework_lens: 订阅制商业模式——留存是订阅制的核心
     follow_up_question: "你的订阅用户流失率是多少？留存策略是什么？"
-  - signal: "用户订阅定价不合理，用户觉得贵"
+  - src_unknown
     framework_lens: 订阅制商业模式——订阅定价需要价值匹配
     follow_up_question: "你的订阅价格是否和提供的价值匹配？用户感知价值如何？"
-  - signal: "用户说'我们先一次性销售，以后考虑订阅'"
+  - src_unknown
     framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
     follow_up_question: "你的产品是否适合订阅制？订阅价值是否持续？"
 
@@ -55,10 +55,10 @@ diagnostic_signals:
 订阅制：收入 = 订阅价 × 订阅用户数 × 订阅周期
 
 订阅制优势：
-- 收入可预测
-- 用户生命周期价值高
-- 持续用户关系
-- 产品迭代动力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ## 关键洞察
@@ -136,22 +136,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当收入不稳定时 → 考虑订阅制
-- 当设计产品时 → 考虑是否适合订阅制
-- 当定价时 → 设计订阅定价策略
-- 当留存率低时 → 优化订阅留存策略
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-revenue-types`：收入模式
-- `yt-business-model-pricing-psychology`：定价心理学
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- SaaS订阅模式研究
-- 订阅经济（Tien Tzuo）
+- src_unknown
+- src_unknown
+- src_unknown

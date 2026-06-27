@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-wuxi-suntech]]'
-  - '[[case-strategy-revival-13-bestore]]'
-  - '[[case-strategy-cool-boiled-water]]'
-  - '[[case-strategy-lekai-film]]'
-  - '[[case-strategy-li-ka-shing]]'
-  - "[[tool-strategy-four-moves]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **模式**：每个小镇只招一个经纪人→没有办公位→在家里办公→只做小镇客户
 **结果**：全美最大的券商之一，比高盛的网点还多

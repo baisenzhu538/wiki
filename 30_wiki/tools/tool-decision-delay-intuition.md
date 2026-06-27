@@ -4,32 +4,32 @@ title: 技能：延迟直觉法
 type: tool
 status: draft
 domain:
-- decision-making
-- 认知
-- 个人管理
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
-- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
+- src_unknown
 wiki_refs:
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次重大决策强制等待24小时
-- 重新审视时至少发现1个不同
-- 能说出"24小时前我的判断是X，现在我认为Y"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
-- 日历/提醒工具（设置延迟提醒）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-cognitive-bias-12-check
-- skill-decision-outside-view
+- src_unknown
+- src_unknown
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
@@ -89,12 +89,12 @@ trust_level: low
 是否有变化？是 / 否
 
 如果变化了：
-- 变化原因：________________________
-- 哪个判断更可靠？24小时前 / 现在
+- src_unknown
+- src_unknown
 
 如果没有变化：
-- 是否因为"我已经决定了"的心理惯性？
-- 如果今天是第一次看到这个问题，还会做同样选择吗？
+- src_unknown
+- src_unknown
 
 最终拍板：________________________
 拍板时间：________________________
@@ -119,14 +119,14 @@ trust_level: low
 
 ## 适用场景
 
-- ✅ **重大决策前** — 投资、招聘、产品方向、战略合作
-- ✅ **情绪高涨时** — 愤怒、兴奋、焦虑时的决策特别容易冲动
-- ✅ **信息不完整时** — 等待期间可能有新信息出现
-- ✅ **团队分歧大时** — 延迟给团队更多时间对齐
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
-- ❌ **紧急决策** — 火灾现场、医疗急救等
-- ❌ **日常小决策** — 午餐吃什么、邮件怎么回
-- ❌ **已经深思熟虑过的决策** — 如果已经延迟过一次，不需要重复
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -140,9 +140,9 @@ trust_level: low
 
 ## 工具/环境
 
-- **必需**：无（纯思维工具）
-- **推荐**：日历/提醒工具——设置延迟提醒
-- **备用方案**：如果无法设置提醒，告诉一个人"我在X天后会拍板，到时候提醒我重新审视"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -160,19 +160,19 @@ trust_level: low
 
 ## 关联技能
 
-- [[tool-cognitive-bias-12-check]] — 个人偏差自检（前置步骤）
-- [[tool-decision-outside-view]] — 团队决策外部视角（前置步骤）
-- dk-decision-first-reaction-not-best — 第一反应不是最佳反应
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- Kahneman, Olivier Sibony, Cass Sunstein《噪声》
-- 基于 master-decision-hygiene 框架提炼，2026-05-18
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

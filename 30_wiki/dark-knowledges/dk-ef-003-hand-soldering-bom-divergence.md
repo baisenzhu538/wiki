@@ -4,7 +4,7 @@ id: dk-ef-003-hand-soldering-bom-divergence
 title: 手焊板的隐性修改：原型调通了但量产就是不行
 type: dk
 domain:
-- product
+- src_unknown
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 原型阶段工程师手焊调通→量产机贴后参数无效——手工焊接中的飞线/替换元件/跳线未记录
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[case-guang-leng-dian-zi-hx-smj]]'
-  - '[[concept-smart-medicine-cabinet-supply-chain-validation]]'
-  - '[[dk-ef-001-sn74lvc2g07-open-drain]]'
-  - '[[dk-ef-002-bom-version-async]]'
-  - '[[dk-ef-004-missing-diagnostic-firmware]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
@@ -37,10 +37,10 @@ trust_level: medium
 
 ## 使用场景
 
-- 你用自己手焊的板子调通了所有参数，信心满满下单量产，回来的板子烧同样的固件——不工作
-- 你发现手焊板上有几根飞线，但你"忘了"它们是干什么的
-- 你的手焊板 BOM 和发给工厂的 BOM 是一份文件——但手焊板上实际焊的是你抽屉里找到的替代元件
-- 你调固件参数的时候是基于手焊板的实测值，但量产板的元件批次不同，参数偏移了
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -51,9 +51,9 @@ trust_level: medium
 
 ## 适用边界
 
-- 适用于从原型到量产的转换阶段
-- 不适用于纯软件项目（无物理差异）
-- 如果原型阶段使用的是和量产完全相同的 PCB + BOM（如用嘉立创打样 + 机贴），此风险大幅降低
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 

@@ -6,7 +6,7 @@ id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain:
-- yitang
+- src_unknown
 source_refs:
 - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
 - src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记
@@ -22,41 +22,41 @@ reviewed_by: 黄药师（Builder体验Producer）
 source_person: Truman
 source_context: 一堂五步法壁垒篇
 query_triggers:
-- 真壁垒假壁垒
-- 如何判断壁垒
-- 壁垒案例
-- 假壁垒
-- 竞争优势真假
-- 我的壁垒是真的吗
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 创业者说'我们的壁垒是品牌/技术/先发优势'但说不清楚为什么别人抄不了
+- src_unknown
   framework_lens: 用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的
   follow_up_question: 如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？
 bridges_to:
-- target: yt-barrier-analysis-cheat-sheet
+- src_unknown
   relation: applies_framework
   description: 壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用
-- target: yt-entrepreneur-barriers
+- src_unknown
   relation: extends_step
   description: 创业者壁垒认知的实操案例补充
 wiki_refs:
-- '[[yt-barrier-analysis-cheat-sheet]]'
-- '[[yt-entrepreneur-barriers]]'
-- '[[yt-scale-economy-weapon-library]]'
-- '[[yt-five-step-method]]'
-- '[[case-five-step-growth-first-lever]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[dk-demand-pitfall-indonesia-insurance]]'
-  - '[[yt-barrier-identification-skill]]'
-  - '[[dk-strategy-05-positioning-trap]]'
-  - '[[dk-demand-pitfall-travel-agent]]'
-  - '[[dk-demand-pitfall-dialer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例：五步法中识别真壁垒和假壁垒
 
 > 五步法第五步"壁垒"是最容易被创业者自我欺骗的环节。Truman 在壁垒篇中反复强调：**"你列的壁垒清单里，至少有一半是假的。"**
@@ -112,8 +112,8 @@ Truman 的警告："你如果回答不了'为什么是你'这个题，你就应�
 
 **为什么这是真壁垒**：通过了"六个月测试"和"抄不了测试"。
 
-- 六个月测试：大厂要做这个，需要先花 1-2 年积累行业 know-how（药监局合规、医保对接、GSP 认证）——六个月根本不够。
-- 抄不了测试：抄得了软件功能，抄不了五年积累的客户数据和行业关系。
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -129,8 +129,8 @@ Truman 的警告："你如果回答不了'为什么是你'这个题，你就应�
 
 ### 内部局限
 
-- **六个月测试对极度创新的品类无效**。如果你的产品创造了全新的品类（如第一台 iPhone），"10 倍资金的竞争者"的假设不成立——没有竞争者知道该抄什么。这种情况下，时间本身就是壁垒。
-- **"抄不了测试"可能在事后被证明是错的**。很多人认为"抄不了"的东西（如 Google 的搜索算法），后来确实被抄了（如大模型驱动的搜索）。测试提供的是当前最好的判断，不是永恒的保证。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -165,5 +165,5 @@ Truman 的警告："你如果回答不了'为什么是你'这个题，你就应�
 
 ## 来源
 
-- Truman，一堂五步法 壁垒篇，2026 年
-- Truman，一堂壁垒分析 cheatsheet
+- src_unknown
+- src_unknown

@@ -6,8 +6,8 @@ title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,11 +19,11 @@ review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
 related:
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[tool-yitang-content-ip-research]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ------
 
 ## Purpose
@@ -51,9 +51,9 @@ related:
 
 ## When NOT to Use
 
-- 本工具**不能替代法律、财务、药学或政策专业意见**；重大决策前请咨询专业人士。
-- 当证据来源单一、利益冲突明显时，不要仅依赖本工具做出投资或合作决定。
-- 本工具基于 2026 年 6 月前的公开/内部信息，政策变化后需重新验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -61,9 +61,9 @@ related:
 
 ### 局限性
 
-- 本工具基于有限案例和内部录音提炼，无法覆盖所有地区的政策细节。
-- 医药行业监管变化快，部分结论可能随政策调整而失效。
-- 工具不能替代专业律师、会计师、药师或药监/医保部门的正式意见。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -73,9 +73,9 @@ related:
 
 ### 使用建议
 
-- 把 checklist 结果写成书面风险清单，而不是口头结论。
-- 对标注为“待验证”的项目，必须限定验证责任人和截止日期。
-- 重大合作/投资决策前，引入外部专业顾问交叉复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 # 诊所医疗短视频/个人 IP 合规边界
 
@@ -149,29 +149,29 @@ related:
 ### 3. 医疗短视频合规边界清单
 
 #### 内容层面
-- [ ] 不得出现具体药品名称、品牌、包装（除非为经审批的医疗广告）。
-- [ ] 不得出现"根治""治愈""无副作用""最有效"等绝对化用语。
-- [ ] 不得针对具体患者病情给出诊断或用药建议。
-- [ ] 不得制造健康焦虑、夸大疾病危害。
-- [ ] 不得引导用户私信咨询、加微信、到店购药。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 运营层面
-- [ ] 医疗账号须由本人或本机构运营，不得委托 MCN 机构代运营（视频号明确禁止）。
-- [ ] 不得购买流量包、DOU+、薯条等推广医疗内容（视频号禁止；抖音/小红书医疗内容投放受限）。
-- [ ] AI 生成内容须显著标识"本内容由 AI 生成"。
-- [ ] 直播不得涉及诊疗行为、药品/器械推销。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 资质层面
-- [ ] 医生账号须完成平台资质认证。
-- [ ] 诊所作为机构账号入驻须提供医疗机构执业许可证/诊所备案凭证。
-- [ ] 发布医疗科普的人员应具备相应专业资质。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 真实转化数据的稀缺性
 
 公开渠道几乎找不到诊所医疗短视频的真实转化率数据。常见的"成功案例"多来自 MCN 机构宣传，存在以下问题：
-- 只展示粉丝量/播放量，不展示到店率、转化率、ROI；
-- 混淆健康科普账号与医疗机构账号；
-- 不说明账号是否曾因违规被限流或封号。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **结论**：在缺乏独立验证的转化率数据前，不能将"医疗短视频引流"作为诊所+药柜模式的核心增长假设。
 ## Sources

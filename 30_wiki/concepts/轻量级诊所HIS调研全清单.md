@@ -4,7 +4,7 @@
 id: "轻量级诊所HIS调研全清单"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
 - src_20260503_5c91e867-轻量级诊所HIS调研全清单
 status: enriched
@@ -12,18 +12,18 @@ title: "轻量级诊所HIS调研全清单"
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[HIS系统开发实现方案-架构师指南]]'
-  - '[[保达云诊所深度调研报告]]'
-  - '[[开源HIS系统代码深度分析报告]]'
-  - '[[EC工业化规范手册]]'
-  - '[[HIS系统深度调研]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 轻量级诊所HIS调研全清单
 
@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md`
+- src_unknown
 
 ## Reusable Knowledge
 
@@ -64,9 +64,9 @@ related:
  逐条质疑
 
 **对结论2-5：**
-- 前提假设：清单的执行者有足够时间和资源完成全部检查项。但完整走一遍9个竞品的试用账号+线下3-5家诊所访谈，至少需要2-3人周的工作量。
-- 边界与反例：部分竞品（如平安万家）可能已停止运营或调整战略，调研清单需要动态更新。
-- 可靠性评估：**高**。清单本身是方法论工具，执行质量取决于执行者。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -80,25 +80,25 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[保达云诊所深度调研报告]] — 保达调研是清单中"登录页逆向+JS解析"方法的实际应用案例。清单提供了方法论，保达报告是方法论的一次具体执行。
-- [[HIS系统深度调研]] — 行业报告提供了宏观市场数据，本清单提供了微观竞品分析的操作手册。二者结合形成"宏观→微观"的完整调研能力。
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — Kimi方法论是AI驱动的自动化深度调研，本清单是人工执行的标准化检查表。二者可融合：用AI自动完成清单中的线上调研部分（官网抓取、定价提取、用户评价汇总）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- **B2B SaaS竞品调研标准化**：清单的结构（产品→定价→技术→用户→线下）可迁移至任何SaaS产品的竞品分析。
-- **AI辅助调研工作流**：将清单中的线上部分自动化（官网抓取、功能对比、定价矩阵生成），人工聚焦线下访谈和深度体验。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 9大厂商中哪些已经停止运营或战略转型？清单的时效性如何保障？
-- 线下诊所访谈的样本选择标准是什么？如何确保样本代表性？
-- 清单是否包含医保对接能力的专项调研？（当前似乎未明确覆盖）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Code: 竞品官网自动抓取与信息提取工具（Python爬虫+LLM解析）
-- Capability: B2B SaaS竞品调研标准化流程（含清单模板+评分矩阵）
-- Content: 中国诊所HIS竞品全景图（基于本清单执行后的可视化输出）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

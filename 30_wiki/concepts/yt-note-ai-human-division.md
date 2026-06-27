@@ -6,47 +6,47 @@ title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
 status: enriched
 domain:
-  - learning-methodologylanguage: zh-CN
+  - src_unknown
 version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-  - "[[yt-note-checklist-concept]]"
-  - "[[yt-note-five-levels-training]]"
-  - "[[yt-note-live-field-skill]]"
-  - "[[yt-concept-ai-guard-brain]]"
-  - "[[yt-concept-context-engineering]]"
-  - "[[yt-personal-ai-capability]]"
-  - "[[yt-model-ipo-learning-strategy]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 prerequisites:
-  - yt-note-checklist-concept
+  - src_unknown
 source_refs:
 - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
 - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
 - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 - src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 query_triggers:
-  - AI笔记分工
-  - 清单体与AI协作
-  - AI时代还要记笔记吗
-  - 阿蕊老师怎么用
-  - 新人AI陷阱
-  - 笔记数据资产
-  - AI最大公约数
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-07
 estimated_tokens: 4200
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户把所有笔记工作都交给AI
+  - src_unknown
     framework_lens: 人不思考 / 能力退化
     follow_up_question: 你最近一次完全不用AI、独立整理并建模一个概念是什么时候？能否用一句话说出它对你的业务意味着什么？
-  - signal: 用户拒绝AI，坚持全部手写
+  - src_unknown
     framework_lens: 效率低 / L1-L2 资源错配
     follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？把这些省下的时间投向了哪一层能力？
-  - signal: 用户觉得"AI整理的清单体比自己写得还好"
+  - src_unknown
     framework_lens: 内化混淆 / 边界不清
     follow_up_question: 关掉AI后，你能否用30秒向同事讲清这篇笔记的核心观点和1个反常点？
 updated_at: 2026-06-17
@@ -91,41 +91,41 @@ AI对笔记能力的影响不是简单的"替代"，而是**梯度分化**：L1�
 
 ### 笔记六阶能力模型与AI接管梯度
 
-- claim:01 [conf=0.88] **L1 备忘**（记录信息不丢失）：AI极其擅长，远超人类。录音转写、会议纪要、信息摘录——这些工作AI的效率是人类10倍以上，质量更稳定
+- src_unknown
 
-- claim:02 [conf=0.85] **L2 整理/格式化**（分点、分层、去冗余、视觉美化）：AI非常擅长。将混乱的逐字稿转化为结构化的清单体，AI可在秒级完成且达到L2-L3水平
+- src_unknown
 
-- claim:03 [conf=0.82] **L3 内化**（用自己的话重述、加入个人理解）：AI可辅助（补漏、提供角度），但**判断和减法必须由人做**。AI生成的"内化"版本往往是"AI的内化"而非"你的内化"——你看不懂那个逻辑链，因为它不是你的思维路径
+- src_unknown
 
-- claim:04 [conf=0.78] **L4 思考建模**（问题驱动、立flag、广泛涉猎、深度洞察、长期迭代）：AI很弱。AI可以提供加法（更多角度、更多案例），但**减法（什么重要、什么舍弃）和判断（什么值得深入）**只能由人完成。没有人的建模审美，AI输出的只是堆砌
+- src_unknown
 
-- claim:05 [conf=0.75] **L5 现场训战**（实时笔记+建模+追问+共识）：AI完全不行。现场的互动、提问、辩论、纠偏、灵感闪现、交叉验证——这些需要**剩余脑力**和**实时判断**，AI最多做书记员，无法做参与者
+- src_unknown
 
-- claim:06 [conf=0.72] **L6 资产沉淀**（将笔记转化为可复用的组织知识资产）：AI可以辅助格式化，但**资产的标准、边界、适用场景**必须由人定义。AI不知道什么对你的团队是真正有价值的
+- src_unknown
 
 ### 清单体：人类与AI的最大公约数
 
-- claim:07 [conf=0.85] 清单体是**人类使用习惯与AI数据结构之间的最大公约数**。对人类：学习成本极低、无心理负担、随时可用。对AI：结构化、层级清晰、去装饰化、边界明确、可索引——每一项都直击AI的绿色通道
+- src_unknown
 
-- claim:08 [conf=0.82] **一份清单体，多场景无损复用**。同一篇清单体笔记可以同时是人的学习材料、团队的协作文档、AI的工作指令。Truman的实践：3000字清单体喂给AI的理解效果，远优于20000字的 prose 文档
+- src_unknown
 
-- claim:09 [conf=0.80] 清单体启动了**业务的AI数据飞轮**。没有上下文沉淀，就难以形成飞轮——飞轮不转，双三角模型就谈不上。清单体笔记是飞轮的最小启动单元
+- src_unknown
 
 ### 新人陷阱：跳过基本功的灾难
 
-- claim:10 [conf=0.85] **AI让L1-L2变得极其便宜，但这反而让L4-L5变得更加稀缺**。过早依赖AI的新人，可能永远跳不到L4-L5——因为能力是一点点累积上来的，靠"剩余脑力"做出来的，不是靠AI一做就行的
+- src_unknown
 
-- claim:11 [conf=0.82] **"新人的灾难，老人的天堂"**。过去练出来的人，其审美、体感、体系会形成AI最大的杠杆。从未练过基本功的人，过早用AI导致再也练不上来了——他们连"分点都完全不知道怎么分"，更别说建模了
+- src_unknown
 
-- claim:12 [conf=0.78] **AI的能力不是你的能力**。AI会的东西是市场平均值、基准值，是所有人都能用的——这东西不值钱。真正值钱的是你自己的判断力、审美、体感和体系
+- src_unknown
 
 ### AI Partner的正确用法：阿蕊老师
 
-- claim:13 [conf=0.80] 一堂的AI Partner（阿蕾老师）是**P角色**（实践者）而非C角色（顾问）——它不探讨、不说教，直接干活。你交代的事情它迅速完成，比官方版好得多
+- src_unknown
 
-- claim:14 [conf=0.78] 阿蕾老师的主要价值在**将素材从L1提升到L2-L3**：把乱糟糟的逐字稿、录音稿、长文章，转化为结构化的清单体。但从L3提升到L4，必须人类主导——你得告诉它"用一堂的方法论重新拆"，它才能做到
+- src_unknown
 
-- claim:15 [conf=0.75] **把Partner当什么，它就会慢慢变成什么**。当跟班=AI输出质量下限；当业务负责人=AI输出质量中等；当合伙人/专家顾问=AI输出质量上限。上下文和角色定位决定了AI的上限
+- src_unknown
 
 ## 案例：从 45 分钟访谈录音到决策简报
 
@@ -157,11 +157,11 @@ AI对笔记能力的影响不是简单的"替代"，而是**梯度分化**：L1�
 
 ### 内部局限
 
-- **分工边界的模糊地带**：L3"内化"是人机分工最模糊的区域。同一篇素材，不同人的"内化"深度差距极大——新手觉得AI整理的就是内化了，老炮觉得AI整理的还只是原始素材。这个边界没有客观标准，只能靠自我审视
+- src_unknown
 
-- **能力退化的难以检测性**：Carr指出的神经可塑性退化是**渐进式、难以自觉的**。你不会某天醒来突然发现自己不会思考了——你只会发现自己越来越"想不清楚"、越来越依赖AI来"帮你想"。等到你意识到时，退化已经完成
+- src_unknown
 
-- **最大公约数假设的文化偏差**："最大公约数"暗含假设——人类和AI的需求是可以被"公约"的。但实际上，不同组织、不同岗位、不同阶段的人，其"最优笔记形式"可能差异极大。创业公司需要快速迭代，大厂需要深度沉淀，研究岗需要精密引用，销售岗需要话术模板——一个"公约数"不可能同时满足这些差异
+- src_unknown
 
 ### 外部攻击
 
@@ -169,11 +169,11 @@ AI对笔记能力的影响不是简单的"替代"，而是**梯度分化**：L1�
 
 **Joseph Weizenbaum**（MIT计算机科学家，ELIZA程序的发明者，*Computer Power and Human Reason*作者）是最早对"计算机辅助人类思考"提出深刻质疑的人之一。Weizenbaum的核心论点：**有些任务不应该被自动化，即使它们可以被自动化**。
 
-- **为什么不应该**：Weizenbaum 认为，记笔记不仅仅是"信息记录"，它是**思考的行为本身**。当你用手写下一个观点时，你不仅仅在"记录"——你在**选择**什么值得记、**组织**它们之间的关系、**判断**它们的重要性。这个选择、组织、判断的过程，就是思考能力的源泉。把这个过程外包给AI，等于把思考的根源外包了
+- src_unknown
 
-- **依赖的不可逆性**：Weizenbaum 强调，技术依赖是**单向门**——你可以很容易地从"自己想"转向"让AI想"，但退化完成后，你**无法**再从"让AI想"转回"自己想"。因为那个"自己想"的能力已经不存在了。Truman 说"新人的灾难"——Weizenbaum 会说，这不是"灾难"，这是"正常的技术时代结果"，只要你选择了便利
+- src_unknown
 
-- **价值观的崩解**：Weizenbaum 最深刻的质疑不是"能力会不会退化"，而是"你是否还认为思考是有价值的"。当一个组织里大家都习惯了"AI生成→人工微调"，思考本身就会被视为"低效率的旧方法"。到那时候，即使某个人想重新思考，他也会被组织视为"效率低下"而被惩罚
+- src_unknown
 
 对一堂笔记法的直接挑战：Truman 说"AI是辅助，人是主导"，但 Weizenbaum 会问——**你的组织里，是谁在定义"主导"和"辅助"的边界？** 是不是老板在说"人要主导"，但 KPI 在奖励"用AI得多的人"？你过去一年，有没有哪个项目是因为"用AI更快"而被奖励，即使那个项目本质上不需要人类的判断力？
 
@@ -183,18 +183,18 @@ AI对笔记能力的影响不是简单的"替代"，而是**梯度分化**：L1�
 
 **Hans Moravec**（卡内基梅隆大学机器人研究所所长，*Mind Children*作者）以**Moravec惯性**（Moravec's Paradox）闻名：**对人类来说容易的事，对AI来说难；对人类来说难的事，对AI来说可能容易**。
 
-- **倒挂的实质**：人类的"低阶"认知能力（感知、运动、现场互动）是几亿年进化的结果，难以被AI复制。人类的"高阶"认知能力（逻辑推理、数学计算、信息检索）是几百年文明的产物，相对容易被AI复制。Moravec会说：Truman 的 L5"现场训战"——需要现场感知、非语言信号判读、即时情境判断——这些"低阶"能力正是人类最难被替代的部分，而不是"最高级"的部分
+- src_unknown
 
-- **笔记的能力倒挂**：按照Moravec惯性，笔记能力的倒挂是**反向的**：
-  - L1备忘（机械记录）= 人类觉得无聊但对AI容易 → AI接管
-  - L2整理（格式化）= 人类觉得繁琐但对AI容易 → AI接管
-  - L3内化（重述）= 人类觉得有挑战性但AI可辅助 → 人机协作
-  - L4建模（因果推理）= 人类觉得困难但AI可以帮忙 → 人主导
-  - L5现场（即时互动）= 人类觉得"自然而然"但AI完全不行 → 人类独占
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
   这意味着Truman的"新人灾难"不仅是个人问题，而是一个**能力倒挂的结构性危机**：当AI接管了L1-L2，人类的时间被"解放"出来了——但大多数人不会自动把这些时间投向L4-L5，而是投向低价值的消耗。L4-L5能力不会自动生长，它们需要刻意练习
 
-- **“解放”的幻觉**：大家说"AI帮我省了时间"，但Moravec会问：省下来的时间去哪了？如果省下来的时间没有投向L4-L5的训练，那么"解放"只是"转移"——从"干低级活"转移到"看更多低级内容"。L4-L5能力的增长需要"有意识的时间重新配置"，而这种配置不会自发发生
+- src_unknown
 
 对一堂笔记法的直接挑战：Truman 说"AI省的时间要投向更高级的笔记"，但 Moravec 会问——**你说"更高级"是指L3还是L5？** 如果大多数人在AI解放时间后只能达到L3（用AI整理好的素材做个人化调整），那么整个组织的笔记能力分布将从"金字塔"变成"铁锤"——大家都在L3，没人到L5。你的组织里，最高笔记能力是在上升还是下降？
 
@@ -233,13 +233,13 @@ AI对笔记能力的影响不是简单的"替代"，而是**梯度分化**：L1�
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已设置为 `欧阳锋`
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `author` 已设置为 `老顽童`
-- [x] `diagnostic_signals` ≥ 3 条，且包含 Signal → Lens → Follow-up 三元组
-- [x] `Constraints & Boundaries` 适用边界 ≥ 4 条
-- [x] `Common Failure Modes` ≥ 4 条，含真实症状 + 可执行修复
-- [x] 新增 1 个案例 + 1 个落地判定模板
-- [x] 新增 ≥ 2 条互链（`[[yt-concept-context-engineering]]`、`[[yt-personal-ai-capability]]`）
-- [x] `source_refs` 已使用已注册的 source_ID
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

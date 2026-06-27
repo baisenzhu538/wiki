@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 调研范围
-- 缩小范围
-- 调研聚焦
-- 专注专业剥离
-- 调研范围控制
-- 剥离清单
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown控制
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-exhaust-means]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[concept-yitang-research-objective]]"
-  - "（tool-yitang-research-checklist，待补）"
-  - "[[yt-research-osl-framework]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "（dk-yitang-research-cost-match，待补）"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[tool-yitang-research-competitive-quadrant]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研范围缩小：专注·专业·剥离三原则
@@ -70,20 +70,20 @@ related:
 本次调研要解决的核心问题是什么？
 
 ### 错误示范
-- "同时调研行业、竞品、用户、供应链"
-- "全面了解这个公司的一切"
-- "看看所有相关的机会"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正确示范
-- "先调研行业是否值得进入，再调研具体怎么做"
-- "本次只调研竞品A的核心优势，其他竞品下次"
-- "聚焦验证'用户是否愿意为XX付费'这一个假设"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 专注检查清单
-- [ ] 本次调研是否只有一个核心问题？
-- [ ] 如果只能回答一个问题，是哪个？
-- [ ] 团队是否对这个核心问题达成一致？
-- [ ] 调研过程中是否定期回顾核心问题？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -102,14 +102,14 @@ related:
 | 极高（>1000万） | 极致调研 | 2-4周 | 全手段，持续跟踪 |
 
 ### 错误示范
-- "投资1000万的项目，只看了3篇行业报告"
-- "一个小功能优化，访谈了20个专家"
-- "决策重要性高，但只做了1天调研"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正确示范
-- "投资1000万的项目，至少访谈10个专家、分析5个竞品、验证100个用户"
-- "小功能优化，看3篇报告+问5个用户即可"
-- "决策重要性高，投入2周深度调研"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -139,14 +139,14 @@ related:
 ```
 
 ### 错误示范
-- "调研竞品时，连竞品的办公室装修都研究"
-- "调研用户时，连用户的星座都问"
-- "调研行业时，连10年前的历史都追溯"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 正确示范
-- "只调研与核心决策相关的信息，其他一律剥离"
-- "调研用户时，只问与产品使用相关的问题"
-- "调研行业时，只关注近3年的变化和趋势"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -160,9 +160,9 @@ related:
 | **单点** | 单点狙击 | 关键假设验证、核心问题深挖 | 1-3天 | 关键决策验证 |
 
 ### 层面选择原则
-- 一次调研只选一个层面
-- 不同层面分开调研，不要混为一谈
-- 从宏观到中观到微观，逐步深入
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -212,23 +212,23 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-high-level-plan]] — 高水平计划OSC
-- [[concept-yitang-research-objective]] — 锁定目标方法论
-- [[yt-research-osl-framework]] — 旧版OSCAR五步法
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-系统式调研-口述（Truman，2020）
-- 验证：business-research-skill OSCAR模型S步骤
-- 交叉：系统调研（高水平计划）VLM描述
-- 注意：范围缩小是调研方法论中第二容易忽视的步骤，仅次于目标锁定
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

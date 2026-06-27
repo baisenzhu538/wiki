@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-yitang-voice-robot-companion-design]]'
-  - '[[case-yitang-ai-time-management-coach]]'
-  - '[[case-yitang-homestay-reception-design]]'
-  - "[[tool-yitang-user-interview-5steps]]"
-  - "[[case-yitang-pet-fostering-user-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：上门宠物喂养——调研如何消除信任顾虑

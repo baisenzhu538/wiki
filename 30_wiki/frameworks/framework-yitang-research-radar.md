@@ -13,34 +13,34 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 调研雷达
-- 调研能力自检
-- 调研缺失
-- 调研诊断
-- 调研问题
-- 调研能力评估
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-four-research-types]]'
-  - "[[framework-yitang-four-research-types]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-mindset]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-desperate-effort]]"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-field-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别
@@ -75,9 +75,9 @@ related:
 ### Type A：随机调研型
 
 **症状**：
-- 碰到了就研究一下，碰不到就按老方法做
-- 没有计划，没有清单，想到哪做到哪
-- 调研结果不可复现，下次同样问题重新来
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 建立调研清单模板（OSCAR框架）
@@ -91,9 +91,9 @@ related:
 ### Type B：大而全型
 
 **症状**：
-- 什么都想看，什么都没看透
-- 报告很长，但无法回答"我该怎么做"
-- 用SWOT/PEST/波特五力模板堆砌
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 强制缩小范围（专注/专业/剥离三原则）
@@ -107,9 +107,9 @@ related:
 ### Type C：案例太少型
 
 **症状**：
-- 只有理论框架，没有真实案例支撑
-- 无法判断信息可信度
-- 遇到反例就崩溃
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 每个判断至少配1个真实案例
@@ -123,9 +123,9 @@ related:
 ### Type D：忽略同行型
 
 **症状**：
-- 只看自己，不看竞品
-- 不知道行业标杆怎么做
-- 重复发明轮子
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 建立竞品监控清单（Top 5）
@@ -139,9 +139,9 @@ related:
 ### Type E：深度不足型
 
 **症状**：
-- 调研很浅，想挖但挖不着
-- 停留在公开信息，拿不到水下情报
-- 关键数字缺失或不可靠
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 学习社会工程技巧（合法合规）
@@ -155,9 +155,9 @@ related:
 ### Type F：机制缺失型
 
 **症状**：
-- 每次调研从零开始
-- 没有信息积累，没有知识库
-- 团队调研能力无法复制
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复方法**：
 1. 建立调研知识库（按类型/行业/项目分类）
@@ -190,7 +190,7 @@ related:
 | 知识管理 | 调研成果能复用和传承吗？ | |
 
 **评分标准**：
-- 总分30分：25-30优秀，18-24良好，12-17需改进，<12严重缺失
+- src_unknown
 
 ---
 
@@ -241,25 +241,25 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-four-research-types]] — 四类调研详解
-- [[framework-yitang-high-level-plan]] — OSC高水平计划
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[yt-research-osl-framework]] — OSCAR调研五步法
-- [[yt-research-mindset]] — 调研认知升级
-- [[dk-yitang-research-starter-vs-veteran]] — 新手重分析，老兵重情报
-- [[dk-yitang-research-desperate-effort]] — 调研决心比技巧重要
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[tool-yitang-reverse-data-analysis]] — 逆向数据获取
-- [[tool-yitang-field-research]] — 实地调研执行要点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-系统式调研-口述（Truman，2020）
-- 验证：调研雷达图VLM描述（0.95置信度）
-- 交叉：business-research-skill 调研能力模型
-- 注意：六种缺失类型命名来自VLM描述，具体定义需结合口述原文
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

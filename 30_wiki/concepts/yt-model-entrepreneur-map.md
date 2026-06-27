@@ -7,66 +7,66 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 2009
 language: zh-CN
 query_triggers:
-- 三阶段结构
-- 关联卡片
-- 创业修炼地图
-- 增长阶段核心模块
-- 底层逻辑
-- 核心追求
-- 知识体系定位
-- 科学专项工具箱
-- 起盘阶段双轨并行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[ocr-一堂-地图-创业地图]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-entrepreneur-259-milestone]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-model-progress-map]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-model-progress-map]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-ai-capability]]'
-  - '[[yt-personal-deliberate-practice]]'
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[yt-model-personal-map]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-hiring-scorecard]]'
-  - '[[yt-foresight-business-spectrum]]'
-  - '[[yt-entrepreneur-barriers]]'
-  - '[[yt-personal-time-management]]'
-  - '[[yt-personal-thinking-models]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-scientific-hiring]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-entrepreneur-scientific-method]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[yt-entrepreneur-259-milestone]]'
-  - '[[yt-entrepreneur-business-growth]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[yt-entrepreneur-concentration-analysis]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-spin-selling]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
-  - '[[yt-tool-strategy-workshop]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[case-milktea-five-step]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 王语嫣
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -80,19 +80,19 @@ yitang:
   module: 方法论总纲
   course_type: model
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 创业者把创业地图收藏后，三个月没打开过，遇到决策还是凭直觉
+- src_unknown
   framework_lens: 地图成了收藏品——地图的价值在导航，不在占有
   follow_up_question: 你最近一次做创业决策时，有没有对照地图定位自己处在哪个阶段？如果没有，地图没有进入工作流
-- signal: 创业者刚学完起盘阶段，就跳到壁垒阶段学习，结果什么都用不上
+- src_unknown
   framework_lens: 跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良
   follow_up_question: 你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段
-- signal: 业务已进入增长期，团队还在用"低成本验证"思维做扩张决策，导致窗口期被耽误
+- src_unknown
   framework_lens: 阶段工具错配——增长阶段的核心指标已从验证成功率切换为单元模型 ROI 与复制成功率
   follow_up_question: 你当前阶段的核心指标是什么？如果还停留在"花最少钱验证"，是否需要切换到高压验证或组织复制模式？
-- signal: 创业者把"概率"挂在嘴边，但团队没有任何 dashboard 追踪关键假设概率的变化
+- src_unknown
   framework_lens: 概率追求缺少度量——地图的核心追求是概率，没有指标就无法验证修炼效果
   follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
@@ -158,9 +158,9 @@ trust_level: medium-high
 
 以上三条边界声明揭示了本框架的几个内在张力：
 
-- **线性叙事与混沌现实的冲突**：三阶段单向箭头隐含"先预判、再起盘、后增长"的线性假设，但真实创业中预判错误往往要到起盘甚至增长阶段才暴露，回头重判的成本远超地图所暗示的"走完流程即可"。
-- **工具箱广度与入门导航的缺失**：10+ 项科学专项工具，缺乏按阶段/按角色/按项目类型的优先级排序，新人极易陷入"先学哪个"的选择瘫痪。
-- **核心概念的可操作性不足**：以"概率"作为终极追求在哲学层面正确，但缺乏可落地的度量方式（是转化率？单位经济模型？存活率？），导致修炼者"感觉在提升概率"但无法验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -168,9 +168,9 @@ trust_level: medium-high
 
 塔勒布在《黑天鹅》《反脆弱》中反复论证：创业和创新的结果分布不属于"已知概率分布"的范畴，而是处于**奈特不确定性（Knightian Uncertainty）**的第四象限——即"复杂系统 + 厚尾分布"区域。在这一象限中：
 
-- **概率不可知**：你没有历史频率可以参考（每个创业项目都是 unique case），所谓"把概率从 20% 提到 40%"本质上是对一个不存在分布的伪量化。
-- **"优化概率"是伪科学**：在厚尾分布中，均值由极端事件驱动，真正重要的是 exposure（敞口）而非 prediction（预测）。你应该追求的是**反脆弱性**（从波动中获益）而非概率优化（以为自己能预判波动）。
-- **可选的杠铃策略替代**：与其用地图线性修炼每一环，不如采用杠铃策略——90% 极度保守（保底生存）+ 10% 极度冒险（追逐正 Black Swan），用可选择性（optionality）代替计划性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对本地图的直接挑战：地图默认"创业可以通过方法论拆解为可控的概率游戏"，但塔勒布会说——真正改变命运的创业机会恰恰是你无法建模的，你拆解得越细，越容易在错误的维度上获得虚假的安全感。
 
@@ -178,18 +178,18 @@ trust_level: medium-high
 
 布兰克在《四步创业法》（The Four Steps to the Epiphany）中提出 Customer Development 模型，其核心主张与本地图的"预判→起盘→增长"顺序形成根本冲突：
 
-- **"预判优先"是商学院思维**：布兰克明确指出，创业者不应该花大量时间做"预判"和"行业分析"，那是大公司的做法。创业公司的起点是**走出去（get out of the building）**——直接与客户对话，用客户反馈驱动假设迭代，而非在房间里拆解假设。
-- **"起盘"才是第一步**：Customer Development 的第一步是 Customer Discovery（客户发现），这一步的核心不是拆解商业模型，而是**验证问题是否存在**——你的"预判阶段"在布兰克模型中根本不存在，或者说被严重过度前置了。
-- **混沌搜索而非线性修炼**：布兰克反复强调，创业是一个**混沌的搜索过程**（search for a repeatable and scalable business model），而不是按地图执行（execution of a known plan）。地图的结构化美感恰恰是布兰克警告的风险："过早的伪结构化会让创业者在错误的框架里高效地做错误的事。"
+- src_unknown
+- src_unknown
+- src_unknown
 
 对本地图的直接挑战：地图适合"创业教育"场景的教学逻辑递进，但在实操中，遵循"先预判再起盘"的顺序可能导致大量时间浪费在"房间里推演的伪预判"上，而真正的关键信息只有通过与客户接触才能获得。
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-management-map]]
-- [[yt-model-progress-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -276,6 +276,6 @@ trust_level: medium-high
 
 ### 触发场景的使用说明
 
-- **不要同时触发多个场景**：一次只处理一条线。创业资源有限，同时展开多条验证线等同于没有验证。
-- **先完成第一个动作，再回来看地图的下一步**：每完成一个"第一个动作"后，重新对照地图的对应阶段，判断下一步应该走到哪里。
-- **指标未达成时不要跳过**：如果成功指标不达标，说明当前阶段的假设尚未被充分验证，继续深挖当前节点，不要急于推进到下一阶段。
+- src_unknown
+- src_unknown
+- src_unknown

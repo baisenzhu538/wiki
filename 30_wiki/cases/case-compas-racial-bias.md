@@ -10,26 +10,26 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-dutch-childcare-scandal]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[framework-wanghuan-ooda-loop]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # COMPAS 再犯算法种族偏见
@@ -65,10 +65,10 @@ COMPAS（Correctional Offender Management Profiling for Alternative Sanctions）
 
 ### 涉及主体
 
-- **Northpointe / Equivant**：算法供应商，主张 COMPAS 经过校准、对各族群预测准确度一致。
-- **Broward County, Florida**：ProPublica 获取数据的主要来源地。
-- **Wisconsin 州法院**：在 State v. Loomis 案中法官明确引用了 COMPAS 分数量刑，引发宪法正当程序争议 [conf=0.85, source=公开判例报道]。
-- **ProPublica**：2016 年发布调查报道《Machine Bias》，公开数据分析方法。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 时间线
 
@@ -85,13 +85,13 @@ COMPAS（Correctional Offender Management Profiling for Alternative Sanctions）
 
 ## 关键数字
 
-- **77.3%**：在控制犯罪史与未来暴力再犯因素后，黑人被告获得更高暴力再犯风险评分的概率比白人被告高 77.3% [conf=0.90, source=ProPublica 2016, "How We Analyzed the COMPAS Recidivism Algorithm"]。
-- **45%**：在一般再犯模型中，黑人被告获得更高评分的概率比白人被告高 45% [conf=0.90, source=ProPublica 2016]。
-- **44.9% vs 23.5%**：在未再犯人群中，被误标为“高风险”的比例，黑人被告为 44.9%，白人被告为 23.5% [conf=0.90, source=ProPublica 2016, "Machine Bias"]。
-- **47.7% vs 28.0%**：在再次犯罪人群中，被误标为“低风险”的比例，白人被告为 47.7%，黑人被告为 28.0% [conf=0.90, source=ProPublica 2016]。
-- **~61%**：COMPAS 整体预测准确率，被 ProPublica 形容为“比抛硬币好一点” [conf=0.90, source=ProPublica 2016]。
-- **137**：COMPAS 问卷的问题数量 [conf=0.85, source=ProPublica 2016]。
-- **68% vs 63.6%**：Northpointe 自报的 concordance（一致性）约为 68%，ProPublica 基于公开数据估计为 63.6% [conf=0.85, source=ProPublica methodology]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -192,22 +192,22 @@ COMPAS 的结构——“用历史数据训练 → 把社会差异编码为分�
 
 ## 行动 Checklist
 
-- [ ] 审查你团队使用的评分/预测模型：是否对受保护群体拆分 false positive / false negative 率？
-- [ ] 确认“公平”指标不是由供应商单方面定义，而是经过法务、业务、受影响方共同选择。
-- [ ] 对高影响模型建立“可解释性底线”：受影响者至少能知道哪些因素导致分数，并能申诉。
-- [ ] 训练集中是否存在由历史歧视产生的标签？若有，是否做了因果推断或敏感性分析？
-- [ ] 模型上线后是否定期按族群、性别、地域做公平性再审计？
-- [ ] 当发现不同群体错误率差异显著时，是否有升级决策机制，而不是简单以“整体 accuracy 可接受”为由继续运行？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 延伸阅读与来源
 
-- ProPublica, *Machine Bias: Risk Assessments in Criminal Sentencing*, 2016-05-23. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
-- ProPublica, *How We Analyzed the COMPAS Recidivism Algorithm*, 2016-05-23. https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm
-- Northpointe, *COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity*, 2016.
-- Kleinberg, J., Ludwig, J., Mullainathan, S., & Rambachan, A. (2018). *Algorithmic Fairness*. AEA Papers and Proceedings.
-- Chouldechova, A. (2017). *Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments*. Big Data.
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

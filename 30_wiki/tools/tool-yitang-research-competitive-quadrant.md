@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 竞争象限
-- 竞争矩阵
-- 竞争格局
-- 市场定位
-- 竞争分析
-- 象限分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-two-dimensional-positioning]]"
-  - "[[tool-yitang-research-follow-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 竞争象限：用二维矩阵可视化竞争格局
@@ -74,9 +74,9 @@ related:
 | **速度 vs 质量** | 服务定位 | 快餐 vs 正餐 |
 
 ### 维度选择原则
-- 维度要与用户决策相关
-- 维度要可量化
-- 维度要能区分竞品
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -112,10 +112,10 @@ related:
 ```
 
 ### 标注方法
-- 横轴：维度1（如价格）
-- 纵轴：维度2（如价值）
-- 标注自己和竞品的位置
-- 用圆圈大小表示市场份额
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -131,9 +131,9 @@ related:
 | **第四象限** | 低价值、高价格 | 危险区，需调整 |
 
 ### 空白区识别
-- 哪个象限没有竞品？
-- 哪个象限用户需求未满足？
-- 哪个象限可以差异化进入？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -143,8 +143,8 @@ related:
 ## 竞争象限分析
 
 ### 维度选择
-- 横轴：[维度1]
-- 纵轴：[维度2]
+- src_unknown
+- src_unknown
 
 ### 竞品位置
 | 竞品 | 维度1得分 | 维度2得分 | 象限 |
@@ -154,8 +154,8 @@ related:
 | 竞品B | [X] | [Y] | [象限] |
 
 ### 空白区识别
-- [空白区1] — 机会：[机会]
-- [空白区2] — 机会：[机会]
+- src_unknown
+- src_unknown
 
 ### 定位建议
 [建议]
@@ -209,24 +209,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-two-dimensional-positioning]] — 二维定位工具
-- [[tool-yitang-research-follow-map]] — 按图索骥工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 竞争象限模块
-- 交叉：波特竞争战略
-- 注意：竞争象限是思考工具，不是决策工具，需要结合其他分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -18,16 +18,16 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - '[[case-lean-weak-solution]]'
-  - '[[case-lean-wrong-demand]]'
-  - '[[case-lean-adult-education]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[case-lean-electric-scooter-mvp]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[tool-lean-minimum-version]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 鞋类产品 MVP 演进
@@ -115,8 +115,8 @@ related:
 
 不适用场景：
 
-- **强监管行业**（医疗、金融、教培）：假产品或假营销可能触碰广告法或行业合规红线，不能照搬 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：过度粗糙的 MVP 会一次性损伤信任，需折中 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -127,11 +127,11 @@ related:
 
 ## 相关卡/互链
 
-- 方法论框架：[[framework-lean-false-model]]
-- 六宗罪/浪费：[[framework-lean-six-wastes]]
-- 同系列推演案例：[[case-lean-electric-scooter-mvp]]
-- 假产品工具：[[tool-lean-fake-product]]
-- 最小版本工具：[[tool-lean-minimum-version]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

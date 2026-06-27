@@ -6,36 +6,36 @@ confidence: 0.8
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - yitang- entrepreneur
-  - master
+  - src_unknown
+  - src_unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
+- src_unknown
 query_triggers:
-- 复制哪个算哪个
-- 找单元模型
-- 核心单元判断
-- 单元模型选择
-- 十大单元模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-management-scientific-decision]]'
-  - '[[tool-ai-purpose-bias-check]]'
-  - '[[yt-tool-unit-model-selection]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[sk-ai-purpose-bias-check]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-benchmark]]'
-  - '[[yt-unit-model-build]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-unit-model-dynamic]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-decision-y-model]]'
-  - '[[master-systems-thinking]]'
-  - '[[yt-unit-model-concept]]'
-  - '[[yt-entrepreneur-unit-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 status: enriched
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
@@ -49,19 +49,19 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队对不同单元模型争论不休，各说各话
+- src_unknown
   framework_lens: 单元口径不统一——不同单元看到不同的商业真相
   follow_up_question: 你们争论的是"哪个单元更本质"还是"哪个单元更容易算"？前者是业务问题，后者是偷懒
-- signal: 选了一个单元模型，但算出来的结论和业务感觉完全相反
+- src_unknown
   framework_lens: 单元选择错配——单元不能代表业务核心经济逻辑
   follow_up_question: 这个单元是否能独立运营？是否能反映你最关心的那个商业问题？
-- signal: 用户说"我选了用户数作为核心单元，但用户增长很快、公司还是不赚钱"
+- src_unknown
   framework_lens: 选错了核算单元——用户数增长≠业务健康，若大量用户不产生交易则核心单元应回到订单或交易额
   follow_up_question: 你的用户里真正产生交易/付费的比例是多少？如果只看付费用户，单元经济模型还成立吗？
-- signal: 用户说"我选了订单数做单元模型，但每个订单的利润差异太大了"
+- src_unknown
   framework_lens: 选错了颗粒度——订单数/客户数平均值掩盖了高利润与亏损单元并存
   follow_up_question: 你的订单按毛利率分成高/中/低三档，各占多少比例？高利润订单和低利润订单的用户画像有什么不同？
 author: 老顽童
@@ -87,9 +87,9 @@ reviewed_by: 欧阳锋
 4. **你觉得单元模型“不对劲”——算出来的结论和业务感觉不符**
 
 **如果以下情况，不用本工具：**
-- 业务只有一个显而易见的单元（如单品电商只有单订单）
-- 你还在 L1-L2 阶段，连"什么是收入什么是成本"都没分清
-- 单元模型已经很清楚，需要的是建模而非选择
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 操作步骤：找到核心单元的完整流程
 
@@ -117,9 +117,9 @@ reviewed_by: 欧阳锋
 ```
 
 **实操判断：**
-- 如果业务处于"获客驱动"阶段（新客户是瓶颈）→ 核心单元 = 单用户
-- 如果业务处于"转化驱动"阶段（新客户已经充足，问题在于不买单）→ 核心单元 = 单订单
-- 如果业务处于"复购驱动"阶段（老客户不回头）→ 核心单元 = 单客户 LTV
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Step 3：核心单元检查清单
 
@@ -161,9 +161,9 @@ Christensen 在《创新者的困境》中证明，成功企业往往会被理�
 
 Simon 在《管理行为》中提出的"有限理性"模型对"加法减法选择法"发起了三层攻击：
 
-- **人类无法同时处理多个单元的量化比较**："加法减法"假定操盘手能够同时对 6-10 个单元进行经济贡献度和风险度的定量分析。但 Simon 的研究表明，人的工作记忆只能同时处理 5-9 个块（chunks）。当单元数量超过 5 个时，分析就会从“量化比较”退化为“直觉筛选”——而这个直觉很可能是偏好性的。
-- **"满意解"与"最优解"的差距**：单元选择法暗含了“选择最佳单元”的优化假设。但 Simon 证明，大多数管理决策不是在寻求最优解，而是在寻求"足够好的解"。一个 L3 的单元模型，如果已经能指导行动，是否值得花时间精确比较 L3 和 L4 的差异？
-- **信息搜索成本被忽略**：Simon 的"搜索理论"指出，寻找更好解的过程本身有成本。花 3 天时间“精确选择”单元模型，如果这 3 天用来快速验证一个“足够好的”单元，可能收益更大。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务涉及的单元数量 >5 个、时间压力大、数据不完整时，"加法减法”会从"系统化工具”退化为"精致的作秀”。此时应该用"快速验证"替代"精确分析"。
 
@@ -173,17 +173,17 @@ Simon 在《管理行为》中提出的"有限理性"模型对"加法减法选�
 
 Klein 在《Sources of Power》中对消防员、护士等专家的决策研究表明，真正的专家不是“分析所有选项然后选最佳”，而是“在第一时间识别出正确的解”。这对单元选择法的挑战是：
 
-- **专家直觉可能优于系统分析**：一个在行业里做了 10 年的操盘手，可能在 30 秒内“感觉”到正确的单元——这种直觉来自于对行业模式的深层认知，而非对每个单元的量化比较。强行让专家用"加法减法"可能反而打断了他的直觉流程。
-- **"核心单元检查清单"可能抵制创新**：清单假设了"已知的单元类型"。但 Klein 发现，真正的突破往往来自于"识别出一个从未被分类过的新模式"。例如，优步出行的单元不是"单车积分"也不是"单次骑行"，而是"最后一公里"——这种单元不在“十大单元”清单中。
-- **“易漏单元补丁”是事后解释——而亍是事前预警**：清单中的易漏情况（前端忽视后端、收入忽视成本）往往是在已经发生了问题后才被识别。Klein 的"识别启动"模式表明，真正有效的是"提前识别出哪些单元很可能被忽视"——这种预见不能被清单化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务处于"突破性创新"阶段（市场不存在现成单元类型）时，任何基于"已知单元清单"的选择法都会失效。此时应该用"探索性验证"替代"单元选择"。
 
 ### 内部局限
 
-- **“加法得分”和“减法风险”的量化困难**：实际中很少有数据能让你精确计算"这个单元改善 10%的贡献度"。大多数情况下只能做"高/中/低"的级别估计。
-- **忽视了"单元之间的交互效应"**：选择了一个核心单元后，其他单元依然存在并且与核心单元相互影响。本工具没有处理"选定单元后如何跟踪其他单元"的问题。
-- **"易漏单元补丁"可能过于理想化**：实际业务中，很多"易漏单元"是因为“从未想到”，而非“想到了但忽视了”。补丁清单对前者无能为力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -242,8 +242,8 @@ Klein 在《Sources of Power》中对消防员、护士等专家的决策研究�
 **翻车信号**：用户增长很快，但公司持续亏损。销售抱怨"客户续约率低"，客户成功团队说"一个客户流失就是几十个席位一起流失"。
 
 **诊断**："单用户"不是独立经济单元——获客和服务成本实际发生在"单客户"层面；一个客户内部有多个用户，决策/续约/增购都以客户为单位。用单用户模型掩盖了：
-- 大客户销售成本高（CAC 不是 200 元，而是 2 万元/客户 ÷ 100 席 = 200 元/席，但只算付费席会低估风险）
-- 客户流失被稀释（一个 50 人客户流失 = 50 个"用户"流失，但单用户模型看起来像普通波动）
+- src_unknown
+- src_unknown
 
 **修复**：把核心单元从"单用户"改为"单客户/单团队"，重新核算：
 

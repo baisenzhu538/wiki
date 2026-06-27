@@ -10,24 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-leverage-competitor]]'
-  - '[[tool-lean-leverage-resources]]'
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 借搭建工具：用现成系统跑业务流
@@ -47,10 +47,10 @@ related:
 ### 第一步：画出你要验证的最小业务流
 
 不是画完整产品架构，而是只画**一个关键假设对应的用户旅程**。例如：
-- 用户在哪里看到信息？
-- 用户用什么动作表达兴趣？
-- 用户如何完成"付费/预约/留资/使用"？
-- 你如何交付价值、如何获得反馈？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 把这条链路拆成 3-5 个节点即可 [conf=0.80, source=基于 FALSE 模型 L 阶段心法推导]。
 
@@ -71,26 +71,26 @@ related:
 ### 第三步：把工具串成可运行的闭环
 
 用尽可能少的工具完成一次端到端测试。常见组合：
-- **获客测试**：朋友圈/社群（流量）→ 落地页/海报（原型工具+AI）→ 表单（留资）→ 微信群（通知）
-- **付费测试**：社群/直播（触达）→ 表单/小程序（收款）→ 在线文档（交付说明）→ 微信群（服务）
-- **服务测试**：IM 群（接单）→ 多维表格（派单/记录）→ 在线文档（交付物）→ 问卷（满意度）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：设定通过/不通过标准
 
 在上线前就写下：
-- 多少用户扫码/点击/留资算"有兴趣"？
-- 多少用户付费/预约算"愿意行动"？
-- 多少用户完成全流程算"链路成立"？
-- 出现什么负面信号就停止？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 避免"跑完一轮觉得数据还可以"的模糊结论 [conf=0.80, source=精益创业假设验证通用原则]。
 
 ### 第五步：跑通后决定是否升级
 
 如果现成工具组合已经验证关键假设，再按优先级决定：
-- 哪些环节需要自研系统（高频、差异化、数据敏感）？
-- 哪些环节继续用现成工具（低频、通用、无差异化）？
-- 是否进入 FALSE 模型的 E（最小版本）或 All-in 阶段？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 成本/周期/样本量
 
@@ -110,21 +110,21 @@ related:
 
 ### 最适合
 
-- **互联网/数字化服务/SaaS 早期**：业务流主要在线，现成工具几乎能覆盖全部触点 [conf=0.80, source=一堂讲义 L 阶段定位]。
-- **需求不确定性高、迭代快**：用户痛点和解决方案都还在探索，需要用低成本方式快速换方向 [conf=0.80, source=精益创业通用原则]。
-- **尚未验证付费意愿**：在写代码、租场地、招研发之前，先用工具组合验证"用户愿不愿意为这个概念行动" [conf=0.80, source=FALSE 模型 L 阶段心法]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可调整使用
 
-- **品牌敏感型产品**：粗糙页面会损伤信任。可用更精致的模板/原型工具提升质感，或把"现成工具"阶段控制在私域/小范围，不对外公开 [conf=0.75, source=任务指令 L8 边界案例]。
-- **B2B 长决策链**：单个表单或海报很难让采购方付费，可改用"资料下载 + 1v1 演示 + POC 试用"的组合，用在线文档和原型替代早期产品 [conf=0.75, source=经验判断]。
-- **强监管行业（医疗、金融、教培）**：不能用假页面、假资质误导用户，但可以用现成工具做**内部流程验证、合规预审、专家访谈**，把工具用于后端而非前端获客 [conf=0.80, source=任务指令 L3 政策/合规边界]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- **硬件/长周期制造**：现成工具无法替代供应链验证、工程样机、合规测试 [conf=0.80, source=framework-lean-false-model 适用边界]。
-- **需要实时、大规模、高并发系统**：当核心假设变成"系统能否稳定承载 10 万用户"时，现成工具无法给出答案，必须进入 E/All-in 阶段 [conf=0.75, source=经验判断]。
-- **团队把工具组合当作最终产品形态**：如果业务的核心价值来自技术壁垒、数据资产或大规模自动化，长期停留在现成工具阶段会削弱竞争力和工程能力 [conf=0.75, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -139,17 +139,17 @@ related:
 
 ### 内部限制
 
-- **只能验证"用户行为"，不能验证技术可行性**。现成工具可以告诉你用户是否愿意扫码留资，但无法告诉你自研系统能否支撑 10 万并发、算法推荐是否准确、硬件能否量产 [conf=0.80, source=经验判断 / FALSE 模型阶段划分]。
-- **只能验证短期兴趣，不能验证长期留存**。用户填了表单不等于会复购，工具组合阶段的留存数据通常不可外推 [conf=0.75, source=经验判断]。
-- **数据噪声较大**。多渠道工具组合可能导致用户路径分散、归因困难，需要人为补全数据链路 [conf=0.75, source=经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部质疑（Attacker Arguments）
 
-- **"这不是真正的产品体验"**：表单、微信群、在线文档的交互体验与最终产品差异大，用户反应可能失真 [conf=0.75, source=经验判断]。
-- **"工具成本叠加后并不便宜"**：多个 SaaS 会员、自动化脚本、运营人力叠加，长期成本可能接近甚至超过早期自研 [conf=0.70, source=经验判断]。
-- **"过度依赖工具会削弱工程能力"**：团队长期停留在无代码/工具组合阶段，可能错过技术选型窗口和工程能力积累 [conf=0.70, source=经验判断]。
-- **"强监管领域就是不能'假'"**：在医疗、金融、教培等领域，任何前端"假装"都可能触碰合规红线，工具验证必须限定在内部流程 [conf=0.80, source=任务指令 L3 政策/合规边界]。
-- **Steve Blank**（客户开发方法论提出者）：客户开发的核心是走出办公室与真实客户深度对话，而不是用表单和微信群收集浅层信号；如果团队把"搭工具"当成逃避用户访谈的借口，就会得到大量噪音但缺少真正洞察 [conf=0.75, source=客户开发方法论通用原则 / 经验判断]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -157,9 +157,9 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，D 版用"一张海报/小程序"测试中国用户是否对共享电动滑板车感兴趣 [conf=0.85, source=case-lean-electric-scooter-mvp]。
 
-- **用到的工具思路**：海报（原型/AI 工具）+ 小程序/表单（留资）+ 微信群（通知），没有自研 APP、没有采购车辆。
-- **成本**：几十元到接近 0 元，周期 1-3 天 [conf=0.65, source=transcript §116-124 讲师推演，含 AI 工具假设]。
-- **启示**：借搭建工具的核心不是"用什么工具"，而是**把最高风险假设剥离出来，用现成工具给出一个可观察的用户反馈**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 延伸：一堂 2B 内训灰度测试
 

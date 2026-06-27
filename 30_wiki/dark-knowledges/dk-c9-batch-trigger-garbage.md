@@ -6,31 +6,31 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-13
 source_refs:
-- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-9
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[framework-ci-operating-model]]'
-  - '[[tool-ci-implement-phase]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-formatted
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: "query_triggers 中出现章节标题、导航词或 critique 句子，如'与一堂方法论的关系'、'核心定位'、'学习建议'"
+- src_unknown
   framework_lens: "脚本把 `### ` 标题当作搜索词，不区分语义；这些词是文章结构标记，不是真实用户搜索意图"
   follow_up_question: "这条 trigger 是否对应一个真实用户会输入的中文搜索词？如果不会，删除并手动重写"
-- signal: "卡片通过 lint/validate，但 `kdo query` 返回的相关性低，或真 trigger 被淹没在长尾垃圾词中"
+- src_unknown
   framework_lens: "格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger 直接降低卡片可发现性"
   follow_up_question: "抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工"
 ---# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
@@ -55,26 +55,26 @@ diagnostic_signals:
 
 核心洞察：
 
-- **格式合法 ≠ 语义可用**：字段非空、格式正确、lint 通过，只能说明语法没报错，不能说明这些词有人搜。
-- **`query_triggers` 是 Graph RAG 的检索入口**：trigger 垃圾化意味着用户搜不到这张卡，卡片等于不存在。
-- **脚本不能替代对用户搜索意图的模拟**：写 trigger 必须站在真实用户角度想"我会怎么搜"，而不是"文章里有什么标题"。
-- **C-9 是 C-8 的深层变体**：C-8 是内容空洞，C-9 是 trigger 垃圾——两者都是"脚本填满了字段，但字段里没有价值"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你准备给一批卡片写 `query_triggers`， tempted 用脚本自动提取标题或关键词填充
-- 你审查卡片时发现 triggers 里充斥着"核心定位""关联卡片""学习建议"这类导航词
-- 你设计自动化管线时，需要决定哪些 frontmatter 字段可以脚本生成、哪些必须人工写
-- 你使用 `kdo query` 检索卡片时发现返回结果相关性差，需要排查是否是 trigger 质量问题
-- 你给旧卡片做质量审计，需要快速识别 trigger 是否被脚本污染
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **禁止脚本自动提取 query_triggers**：这个字段必须**手动写**，任何"提取 `###` 标题""提取关键词""提取标签"的脚本都不准碰这个字段
 2. **模拟真实搜索场景**：想象一个需要这张卡的用户，他会输入什么中文搜索词？聚焦在**工具名、方法名、场景描述、痛点关键词**
 3. **写 5-10 个真实搜索词**：
-   - ✅ 合格：`惊喜公式`、`峰值体验设计`、`用户留存率提升方法`
-   - ❌ 垃圾：`与一堂方法论的关系`、`从知道到做到的鸿沟`、`核心定位`
+   - src_unknown
+   - src_unknown
 4. **抽检验证**：审查者随机抽 3 张卡，对每条 trigger 问"你会这样搜吗？"——有一条答不上来，整张卡返工
 5. **定期人工审计**：已有卡片的 `query_triggers` 需要周期性清理，删除导航词、章节标题、critique 句子等语义垃圾
 
@@ -100,17 +100,17 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- C-9 是 **C-8 的深层变体**，揭示了"格式合法但语义垃圾"这一模式的另一个切面：C-8 是内容空洞，C-9 是 trigger 垃圾——两者都是"脚本填满了字段，但字段里没有价值"
-- **query_triggers 是 Graph RAG 检索的入口**：如果 trigger 全是垃圾，用户永远搜不到这张卡——这张卡就等于不存在
-- 这个坑的隐蔽性极高：lint 通过、validate 通过、字段非空、格式正确——所有机器检查都绿灯，只有人读了内容才能判断"这个词不会有人搜"
-- 任何 AI 训练语料中都不会有"KDO 的 query_triggers 不能脚本提取"这条知识——这是知识管理领域的具体实践约束，不是通用软件工程原则
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式的变体：批处理输出在格式上合法但语义上是垃圾。C-8 是"内容从未被填入"，C-9 是"trigger 被垃圾淹没"——两者共同构成"格式门禁 ≠ 内容合格"的完整证据链
-- [[master-decision-hygiene]] — 决策卫生的 Step 3（独立评估）：不能让写脚本的人审自己的输出质量。C-9 的 triggers 如果由脚本作者自己验收，永远发现不了问题——必须引入外部审查者
-- `20_memory/corrections.md` → C-9（原始记录）
-- `90_control/failure-modes.md` → 批处理三连坑（C-8、C-9、C-10）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

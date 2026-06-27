@@ -9,18 +9,18 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-  - ai-saas- ai
-  - product
-  - ai-collaboration
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
-  - '[[case-ji-hao-skills-market]]'
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[ai-complex-communication]]'
-  - '[[industrial-ai-ops-cases]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣
@@ -46,48 +46,48 @@ review_date: 2026-06-14
 
 ### insight:01 [conf=0.90] Agent 工具的核心痛点不是模型不够强，而是协作基础设施不匹配
 
-- 任务稍长或涉及多 Agent 时，出现断线、丢消息、不汇报。
-- 用户需要反复追问"在吗？""汇报一下进度"——这违背了自动化的初衷。
-- 外部验证：大量技术文章和用户反馈确认 Agent 存在上下文丢失、任务中断、状态不可见等问题。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:02 [conf=0.95] 现有 IM 工具是人类协作的马车，Agent 是后装的发动机
 
-- 飞书、钉钉、Slack 围绕人类沟通设计：消息流、频道、@、表情回复。
-- Agent 在这些工具中只是 bot/插件，缺乏原生的状态管理、上下文控制、角色隔离。
-- 外部验证：LangChain、MLflow、Anthropic 均指出多 Agent 协作需要新的基础设施，而非简单集成。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:03 [conf=0.98] 上下文工程是 Agent 协作的 #1 挑战
 
-- 长对话导致 token 消耗指数级增长。
-- 上下文超过窗口限制后，早期关键信息被截断。
-- 错误信息一旦写入上下文，后续推理会基于错误继续放大。
-- 外部验证：LangChain 明确提出 "Context engineering is the #1 job of engineers building AI agents"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:04 [conf=0.98] 多 Agent 协作需要角色分工、会话隔离、委派机制
 
-- **角色分工**：不同 Agent 负责不同职能（如 planner、writer、ops、coder）。
-- **会话隔离**：每个 Agent/任务拥有独立上下文，避免信息串扰。
-- **委派机制**：通过 @ 或 sessions_send 等工具让 Agent 相互触发任务。
-- 外部验证：CrewAI、AutoGen、LangGraph 等框架均支持这些模式。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:05 [conf=0.98] 飞书于 2026-03-19 发布原生「龙虾」Agent
 
-- 飞书 aily 基于 OpenClaw 能力逻辑打造，支持一键创建专属 Agent。
-- 飞书妙搭支持自然语言生成业务系统。
-- 飞书多维表格支持 Agent 协作搭建数据表、仪表盘、工作流。
-- 外部验证：环球网、新浪财经、腾讯新闻等多家媒体 2026-03-19/20 报道。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:06 [conf=0.93] AI 原生 IM 仍处于早期探索阶段
 
-- 多数公司仍在研究「发动机」（模型），而非设计「汽车」（原生 Agent 工具）。
-- 平台原生路径（飞书 aily、Slack AI）比独立原生路径更成熟。
-- 外部验证：2026 年 Agent 协作基础设施仍处于早期，多数产品以集成和实验为主。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### insight:07 [conf=0.50] 「一人团队替代大型团队」是营销话术，需降级
 
-- AI 工具确实能扩展个人和小团队的能力边界。
-- 但复杂项目仍需要人类在决策、审美、信任建立等方面的参与。
-- 建议表述：AI 原生工具可降低协作成本，但不应夸大替代效应。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -109,17 +109,17 @@ review_date: 2026-06-14
 
 ### 路径 A：平台原生（当前更成熟）
 
-- 在现有协作平台中深度集成 Agent 能力。
-- 代表：飞书 aily、Slack AI、Microsoft 365 Copilot。
-- 优势：用户无需迁移，上下文天然丰富（企业文档、日程、消息）。
-- 劣势：受限于原有产品架构，Agent 不是真正一等公民。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 路径 B：独立原生（仍处于早期）
 
-- 从头设计 Agent 优先的协作工具。
-- 代表：演讲者演示的「纯血版飞书」、部分开源多 Agent 框架。
-- 优势：可完全围绕 Agent 工作方式设计。
-- 劣势：用户迁移成本高，生态尚未成熟。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -143,33 +143,33 @@ review_date: 2026-06-14
 ## 适用边界
 
 **适用**
-- 团队正在使用多 Agent 协作处理复杂任务
-- 当前工具频繁出现上下文丢失、状态不可见、任务中断
-- 有资源尝试新的协作工具或深度定制现有平台
-- 产品/技术团队对 Agent 工作方式有深入理解
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用**
-- 简单单轮问答或单一 Agent 场景
-- 团队没有稳定的数据/文档/流程基础
-- 期望 AI 原生 IM 立即替代人类团队
-- 无法承担工具迁移和团队培训成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与现有 30_wiki 的差异
 
-- `30_wiki` 可能有 AI 工具和 Agent  workflow 的内容，但缺少「AI 原生 IM」作为产品范式的系统分析。
-- 本卡填补了 Agent 协作基础设施这一视角。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
-- 六层交叉验证报告：60_feedback/six-layer-validation-ai-native-im-multi-agent.md
-- [https://www.langchain.com/blog/how-and-when-to-build-multi-agent-systems](https://www.langchain.com/blog/how-and-when-to-build-multi-agent-systems)
-- [https://finance.sina.com.cn/jjxw/2026-03-19/doc-inhrpnfx7428484.shtml](https://finance.sina.com.cn/jjxw/2026-03-19/doc-inhrpnfx7428484.shtml)
-- [https://cloud.tencent.com/developer/article/2647731](https://cloud.tencent.com/developer/article/2647731)
-- [https://mlflow.org/articles/team-collaboration-tools-for-ai-development-in-2026/](https://mlflow.org/articles/team-collaboration-tools-for-ai-development-in-2026/)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 

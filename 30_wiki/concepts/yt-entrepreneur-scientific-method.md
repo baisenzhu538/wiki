@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "Y模型"
-  - "科学创业方法"
-  - "假设驱动"
-  - "可证伪性"
-  - "商业假设验证"
-  - "数据决策"
-  - "证伪思维"
-  - "科学方法论创业"
-  - "迭代验证"
-  - "经验主义替代"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260614_faa8021d-Y模型探索营-第二节课
@@ -37,18 +37,18 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户说"这是科学方法"，但假设不可证伪', 'framework_lens': '伪科学——没有证伪条件', 'follow_up_question': '什么证据会让你放弃这个假设？如果答不上来，这不是科学方法'}
   - {'signal': '用户只做验证自己假设的实验', 'framework_lens': '证实偏差', 'follow_up_question': '你最近设计的实验中，有几个是为了证伪而不是证实？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-liberate-thinking]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
-  - '[[yt-entrepreneur-truth-seeking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# Y模型/科学方法
 
@@ -68,9 +68,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「底层逻辑」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -89,7 +89,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

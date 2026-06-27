@@ -8,15 +8,15 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- modeling
-- education
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（课程里程碑模型案例），单一口述来源，内容支撑充分但待第二来源交叉验证
 problem_domains:
-- 方法论建模
-- 课程研发
-- 知识产品生产
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -25,30 +25,30 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[framework-course-milestone-model]]'
-  - '[[modeling-scientific-milestones]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[case-thousand-people-square]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[framework-course-milestone-model]]'
-  - '[[case-thousand-people-square]]'
-  - '[[case-personal-map-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#industry/education'
-- '#method/execution-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 每次建模研究范围越来越大，讨论总是发散到原定问题之外
+- src_unknown
   framework_lens: 边界管理
   follow_up_question: 能否用一句话写清本次建模的问题边界，并明确哪些现象不在研究范围内？
-- signal: 团队先用理论/框架/观点开会，而不是先收集事实和案例
+- src_unknown
   framework_lens: 事实优先
   follow_up_question: 目前已经收集到的正面案例、反面案例、最佳实践、搞砸案例各有多少个？
-- signal: 模型1.0产出后直接进入包装宣传，没有专门找反例和专家评审来推翻它
+- src_unknown
   framework_lens: 撞击实验
   follow_up_question: 我们是否设置了以“推翻模型”为目标的内部交叉评审和专家评审环节？
-- signal: 理论一旦对外宣讲，团队就很难再接受重大修改
+- src_unknown
   framework_lens: 认知沉没成本
   follow_up_question: 在模型通过撞击实验之前，是否已明确禁止对外宣讲？
 ---
@@ -65,10 +65,10 @@ diagnostic_signals:
 
 ## Background
 
-- **场景**：一堂需要持续产出高质量方法论课程
-- **问题**：早期先讲后改，理论出错后团队很难受
-- **目标**：建立科学的课程/方法论建模流程
-- **来源**：`src_20260614_8269ccdb#2170-2265`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -77,36 +77,36 @@ diagnostic_signals:
 ### 六步流程
 
 1. **敲定边界**
-   - 先定问题边界，超过边界不研究
-   - 防止无边无际的信息和观点涌入
+   - src_unknown
+   - src_unknown
 
 2. **饱和收集事实**
-   - 收集正面案例、反面案例、最佳实践、搞砸案例
-   - 收集自己的经验、体感、全国调研、复盘
-   - **事实 > 观点 > 理论**
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **整合萃取**
-   - 对事实分类建模
-   - 找 before/after 的共性、卡点、爬坑路径、最佳实践、原则、本质
+   - src_unknown
+   - src_unknown
 
 4. **产出 1.0 模型**
-   - 画一个框子：冰山图、双三角、雷达图等
-   - 先有模型，再迭代
+   - src_unknown
+   - src_unknown
 
 5. **辩证讨论 / 撞击实验**
-   - 内部交叉评审 + 专家评审
-   - **以推翻模型为目标**
-   - 检查：硬伤？反例？边界模糊？定义不清？
-   - 撞到无可撞、专家无坚决反对时，才勉强成熟
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 6. **封装与包装打磨**
-   - 先封装成可交付形式
-   - 再做十层解读对外宣传
+   - src_unknown
+   - src_unknown
 
 ### 关键原则
 
-- **两种十层解读**：一种是为了推翻，一种是为了宣传；先推翻，再宣传。
-- **不许提前讲**：理论没推翻前，谁都不许对外讲，否则团队会舍不得改。
+- src_unknown
+- src_unknown
 
 ### 结果
 
@@ -116,21 +116,21 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **边界是建模的第一件事**：没有边界，信息和观点会无限涌入，研究无法收敛。
-- **事实优先于观点和理论**：只相信中国市场上真实发生的事实，理论只是验证参照。
-- **萃取是为了找共性**：从 before/after 的差异中提炼卡点、爬坑路径、原则和本质。
-- **1.0 模型先画框子**：不怕粗糙，关键是给讨论和推翻一个可撞击的实体。
-- **以推翻为目标的撞击实验**：内部交叉评审 + 专家评审，找硬伤、反例、边界模糊、定义不清。
-- **先推翻，再宣传**：成熟前禁止对外宣讲，避免认知沉没成本导致不愿改。
-- **封装与包装分离**：模型成熟后再做可交付封装和宣传十层解读。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说如果穿越回八年前，他会把这套流程带走。——来源：`src_20260614_8269ccdb#2180-2184`。
-- **证据 2 [conf=0.85]**：事实的优先级远大于观点和理论。——来源：`src_20260614_8269ccdb#2202-2216`。
-- **证据 3 [conf=0.8]**：先推翻再宣传，没推翻前不许对外讲。——来源：`src_20260614_8269ccdb#2234-2246`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -147,10 +147,10 @@ diagnostic_signals:
 
 ## 教训
 
-- **边界是第一件事**：没有边界，研究会失控。
-- **事实优先于理论**：不要先信市场上的理论，先收集事实。
-- **推翻比宣传重要**：成熟的标志是撞无可撞。
-- **不要提前讲**：讲了就不愿意改了。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -194,18 +194,18 @@ diagnostic_signals:
 
 在启动一次方法论级建模前自检：
 
-- [ ] 能否用一句话写清本次建模的问题边界？
-- [ ] 边界外的典型现象是否已明确列出？
-- [ ] 是否已建立事实收集清单（正面/反面/最佳/搞砸案例）？
-- [ ] 收集到的事实是否覆盖了不同来源（自身经验、全国调研、复盘）？
-- [ ] 是否已完成事实分类并提炼 before/after 共性、卡点、爬坑路径？
-- [ ] 是否已产出 1.0 模型（框子/图/清单）？
-- [ ] 是否安排了以推翻模型为目标的内部交叉评审？
-- [ ] 是否邀请了具备实践经验的专家评审？
-- [ ] 撞击实验的“硬伤/反例/边界/定义”检查清单是否已记录？
-- [ ] 在模型通过撞击实验前，是否已禁止对外宣讲？
-- [ ] 封装版本与宣传十层解读是否已分离？
-- [ ] 最终模型是否已关联到已有框架或武器库（冰山图、双三角、雷达图等）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -229,15 +229,15 @@ diagnostic_signals:
 
 ## 相关卡 / 互链
 
-- **框架**：[[framework-course-milestone-model]] —— 本案例对应的六步流程框架卡
-- **关联案例**：[[case-thousand-people-square]] —— 课程里程碑模型的底层统计心态
-- **关联案例**：[[case-personal-map-modeling]] —— 该流程支撑的核心产品之一
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2170-2265`
+- src_unknown
 
 ---
 

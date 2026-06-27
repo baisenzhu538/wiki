@@ -6,7 +6,7 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - 30_wiki/frameworks/framework-yitang-oscar-research.md
   - 30_wiki/frameworks/framework-yitang-high-level-plan.md
@@ -18,13 +18,13 @@ updated_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[yitang-research-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "Agent/用户接到调研任务，不知道从哪开始"
+  - src_unknown
     framework_lens: 端到端工作流——7步从问题到报告
     follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
 ---
@@ -93,9 +93,9 @@ Step 7: 质量自检  → 六维门禁      → 自检通过 → 交付
 | 初步标注置信度（高/中/低） | `framework-yitang-six-layer-cross-validation` | 置信度初标 |
 
 **执行原则**：
-- 先用 20% 时间全局扫描（行业报告/概览）
-- 再用 80% 时间重点突破（关键数字深挖）
-- 搜索优先于模型内置知识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5: 深挖验证
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-decision-chain
 title: ToB决策链需求分析：多角色、多需求、多顾虑
@@ -18,24 +18,24 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-b2b-vs-b2c
-  - yt-demand-scenario-reconstruction
-  - yt-demand-qualitative-analysis
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "ToB产品只关注使用者需求，但采购决策者不买账"
+  - src_unknown
     framework_lens: ToB决策链——每个角色需求不同，必须分别分析
     follow_up_question: "决策者采购时最关注什么？ROI、合规、风险，还是效率？"
-  - signal: "ToB产品上线后，使用者满意但决策者不续费"
+  - src_unknown
     framework_lens: ToB决策链——使用者需求≠决策者需求
     follow_up_question: "决策者续费的决策标准是什么？是否达到了？"
-  - signal: "ToB销售过程中，在某个节点反复卡住"
+  - src_unknown
     framework_lens: ToB决策链——某个角色的顾虑未解决
     follow_up_question: "卡在哪个角色？他的顾虑是什么？需要什么样的证据或承诺？"
-  - signal: "ToB产品功能很好，但采购流程太长，客户流失"
+  - src_unknown
     framework_lens: ToB决策链——采购流程未优化
     follow_up_question: "客户的采购流程涉及哪些部门？每个部门的审批标准是什么？"
-  - signal: "用户说'我们的产品比竞品好用'，但客户选了竞品"
+  - src_unknown
     framework_lens: ToB决策链——好用≠好卖，决策者可能看重其他因素
     follow_up_question: "竞品在哪个角色的需求上做得更好？是价格、服务、还是品牌？"
 
@@ -87,30 +87,30 @@ ToB决策链：
 ### 3. 决策链的映射方法
 
 **步骤1：识别角色**
-- 在这个采购决策中，涉及哪些角色？
-- 每个角色的决策影响力？
+- src_unknown
+- src_unknown
 
 **步骤2：分析需求**
-- 每个角色的核心需求是什么？
-- 每个角色的顾虑是什么？
+- src_unknown
+- src_unknown
 
 **步骤3：设计证据**
-- 每个角色需要什么证据才能支持决策？
-- 如何获取或制作这些证据？
+- src_unknown
+- src_unknown
 
 **步骤4：优化流程**
-- 决策链的每个节点需要多长时间？
-- 如何缩短决策周期？
+- src_unknown
+- src_unknown
 
 ### 4. 决策链与产品设计的关联
 
 产品设计必须考虑决策链：
 
-- **使用者**：界面易用、学习成本低
-- **影响者**：实施简单、培训支持完善
-- **决策者**：ROI清晰、数据报告完善
-- **采购者**：定价灵活、合同标准
-- **把关者**：安全合规、数据可控
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -134,21 +134,21 @@ ToB决策链：
 
 ## 行动触发器
 
-- 当做ToB产品时 → 先画出决策链
-- 当ToB销售卡住时 → 检查卡在哪个角色
-- 当ToB产品不续费时 → 检查决策者需求是否满足
-- 当设计ToB功能时 → 问"这个功能服务决策链上的哪个角色？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-b2b-vs-b2c`：ToB vs ToC需求分析差异
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-five-step-method`：五步法总纲
-- `xujian-tob-fivestep-oral`：徐建ToB五步法口述
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂ToB五步法专题（徐建，2026-06-16）
-- 一堂ToB案例库
+- src_unknown
+- src_unknown
+- src_unknown

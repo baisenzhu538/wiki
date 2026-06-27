@@ -3,7 +3,7 @@ id: tool-李诞-个人IP的重新定义与输出策略
 title: 技能：个人IP的重新定义与输出策略
 type: tool
 domain:
-- content-production- personal
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：个人IP的重新定义与输出策略
 
@@ -37,26 +37,26 @@ related:
 
 ## 适用场景
 
-- AI时代想要建立个人影响力
-- 从事知识付费、服务、电商等任何行业
-- 感觉生产内容门槛低但销售困难时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 追求一夜爆红、短期流量变现
-- 不愿意长期投入、急于求成时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 短视频平台账号
-- 公众号/ newsletter
-- AI辅助创作工具
-- 社交媒体
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AI会加剧内卷，生产门槛降低导致供给过剩，'卖出去'比'做出
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

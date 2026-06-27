@@ -7,24 +7,24 @@ source_refs:
 - src_20260601_ba8ea2f0-ai数据理解第一课
 status: enriched
 domain:
-- yitang
+- src_unknown
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 related:
-  - '[[ai时代判断力口述-3]]'
-  - '[[three-party-data-alignment]]'
-  - '[[人机协作决策-双三角模型]]'
-  - '[[数据标注维度最佳实践调研报告]]'
-  - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
-  - '[[yt-unit-model-ai-assisted]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 数据使用层次
-- AI数据类型
-- DIKW模型
-- 数据复利
-- 投喂检索训练
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 id: ai数据理解第一课
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -84,27 +84,27 @@ trust_level: medium
 
 ### 新增贡献
 
-- **数据五层使用模型**（投喂→封装→检索→配置→训练）——库中尚无的系统化数据使用层次
-- **数据五类分类法**（原始/业务/知识/工作流/训练）——可与现有标签体系（tag-registry）中的 data_generation 维度对标
+- src_unknown
+- src_unknown
 
 ---
 
 ## Reusable Knowledge
 
-- AI数据五层使用链：投喂（验证）→ 封装（固化）→ 检索（规模化）→ 配置（生产化）→ 训练（极限化）。不要跳层。
-- 数据分类：原始数据（保留底线）→ 业务数据（结构化）→ 知识数据（原子化）→ 工作流数据（流程化）→ 训练数据（评测化）。
-- 数据复利的前提：在正确层次上，以正确的类型，持续积累。堆数据不等于建资产。
-- 双三角中数据的定位：AI三角决定落地能力，人类三角决定做到什么水平。两者协同而非替代。
-- 原始数据是唯一后悔药——加工错了还能从头来。不要过早丢弃原始日志。
+- src_unknown
+- src_unknown
+- src_unknown的前提：在正确层次上，以正确的类型，持续积累。堆数据不等于建资产。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 非数据密集型业务（传统咨询、服务行业）的数据护城河在哪里？
-- 数据合规（隐私、版权）成本与数据复利之间的平衡点在哪里？
-- 五层模型在团队协作场景中的适用性——多人共用数据时如何管理版本和权限？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- **Content**: 可扩展为"AI数据实战"系列文章（第二课：场景搭建；第三课：标注实战）
-- **Code**: 数据层次自评工具（问卷 → 推荐当前最优层次）
-- **Capability**: 数据资产审计 workflow（扫描现存数据 → 按五层五类归类 → 出差距报告）
+- src_unknown
+- src_unknown
+- src_unknown

@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- capability
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
@@ -17,13 +17,13 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-lifecycle]]'
-  - '[[framework-strategy-ansoff]]'
-  - '[[tool-strategy-customer-selection]]'
-  - '[[framework-strategy-kai-innovation-directions]]'
-  - '[[tool-strategy-value-proposition]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[tool-strategy-ksf]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 核心能力评估矩阵：影响力 × 急迫性

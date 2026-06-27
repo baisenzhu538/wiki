@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-多视角思考"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_f6cf4e83
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-多视角思考"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-行业分析画布]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-多视角思考
@@ -36,32 +36,32 @@ png` 6 泛产品设计·用户卡片 多视角思考 综合内部/外部/角色�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 泛产品设计应避免单一视角，需综合内部/外部/角色等多维度进行权衡取舍。
-- 多视角思考的三个具体维度：内部/外部视角、不同岗位角色、决策者与使用者。
-- 多视角思考适用于所有涉及多角色使用的产品方案。
-- 培养多视角思考能力的关键是养成"一定多视角思考"的自觉习惯。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 内部/外部视角的具体划分标准是什么？同一组织内的不同部门是否属于"内部"还是存在嵌套层级？
-- "不同岗位角色"的颗粒度如何把握？是按职能大类（如产品/技术/运营）还是需要细化到具体职级？
-- 决策者与使用者的分离场景中，当二者身份重叠时（如自购自用），多视角框架是否仍然适用或需要调整？
-- "统一取舍"的决策机制未明确：多视角冲突时，以何种优先级或权重进行整合，是否存在明确的仲裁原则？
-- 适用范围声称"所有涉及多角色使用的产品方案"，但单角色产品是否完全无需此框架，还是仍需预防性应用？
-- "一定多视角思考"作为习惯培养，是否有具体的触发条件或检查清单，还是依赖主观自觉？
-- OCR文本中"堂"和"丿没有什么不是一堂课解决不了的"疑似识别错误，原文是否为其他内容，该标语与主题是否存在关联？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

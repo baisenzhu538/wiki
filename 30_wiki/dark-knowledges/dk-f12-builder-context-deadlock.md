@@ -6,46 +6,46 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-012
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-012
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[dk-p13-token-burn]]'
-  - '[[dk-state-residue-is-the-silent-killer]]'
-  - '[[dk-c6-large-source-overflow]]'
-  - '[[dk-c6-large-source-overflow]]'
-  - '[[master-first-principles]]'
-  - '[[kdo-flywheel]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: "给黄药师单条指令包含 ≥3 个独立文件操作目标，或引用 ≥2 个规范文件后，Agent 进入 'Caramelizing…' 状态超过 20 分钟"
+- src_unknown
   framework_lens: "入职规范（CLAUDE.md）要求读取 5+ 个规范文件，加上多任务上下文和被操作文件，总上下文消耗突破 50% 窗口，剩余空间不足以完成推理+输出"
   follow_up_question: "立即停止当前 session，用 `/new` 重开；将原指令拆成单轮单任务，并删除对 PROTOCOL.md / 工业化手册 / failure-modes.md 的引用"
-- signal: "Agent 执行过程中 token 计数长时间停留在同一数字，同时没有任何文件变更或输出"
+- src_unknown
   framework_lens: "LLM 进入过度分析循环：上下文窗口被规范和任务目标占满，无法有效生成输出，表现为 token 零跳动"
   follow_up_question: "检查当前上下文消耗比例；若 >50%，强制 `/new` 接力，并在新 session 中只带一个子任务和必要的最小上下文"
-- signal: "Sprint 迭代中 Builder 连续处理 lint/设计审查/多文件修改后，产出突然中断"
+- src_unknown
   framework_lens: "多轮累积导致上下文碎片化和规范文件重复加载， session 在最后一步被压垮"
   follow_up_question: "将大任务按文件或按步骤切分，每个子任务用独立 session，通过文件系统传递中间结果"
 tags:
-- '#source_type/error'
-- '#domain/master'
-- '#agent/builder'
-- '#context-window'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 
 ## 原始表述
@@ -64,17 +64,17 @@ tags:
 
 ## 深度洞察
 
-- **这不是 LLM "变慢"，而是上下文窗口硬约束被突破后的结构性失能**：规范文件 + 多任务 + 被操作文件叠加后，留给推理和生成的 token 空间不足，Agent 被迫在过度分析中循环。
-- **静默卡死比报错更危险**：没有 error 日志，唯一的信号是 token 数不跳动、时间拉长——在批量或异步执行时极易被误判为"还在跑"。
-- **根因在任务分配者，不在 Agent**：黄药师的入职规范要求读取大量文件是固定成本，任务设计者如果同时塞入多个目标，等于在已知瓶颈上继续加压。
-- **`/new` 不是失败，而是协议的一部分**：把大任务拆成多个 session 是 KDO 多 Agent 工作流中管理上下文的基本操作，不是绕路或补救。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你给黄药师（或其他 Builder Agent）分配任务时，忍不住一次性列出多个操作目标
-- 你发现 Agent 执行时间超过 20 分钟但没有任何文件变更或输出
-- 你观察到 Agent 的 token 计数长时间停留在同一数字（"Caramelizing…"）
-- 你设计 Agent 工作流时，需要规划任务拆分和会话接力策略
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -106,19 +106,19 @@ tags:
 
 ## 为什么值钱
 
-- 这是 KDO 多 Agent 协作中特有的上下文管理问题：**不是技术限制，而是协作协议设计问题**
-- "卡死"的直接表现是 token 零跳动，但根因是"任务设计不合理"——给用户（任务分配者）的教训比给 Agent 的教训更重要
-- 揭示了 LLM Agent 工作流设计中的一个核心约束：**上下文窗口是硬约束，不能绕，只能分**
-- 任何 AI 训练语料中都不会有"给 KDO 的 Builder 每次只能发 1 个任务、不能引用规范文件"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c6-large-source-overflow]] — 同一模式：上下文容量过载。C-6 是"大源文件导致 session 装不下"，F-KDO-012 是"多任务+多规范文件导致 session 装不下"——两者都是"上下文窗口硬约束被突破"
-- [[master-first-principles]] — 第一性原理：LLM context window 是物理硬约束，不能绕，只能分。F-KDO-012 是"在任务分配层面尊重硬约束"的具体实践
-- [[kdo-flywheel]] — 知识飞轮运转依赖多 Agent 接力，F-KDO-012 定义了 Builder Agent 接力的上下文边界条件
-- [[master-systems-thinking]] — 系统思维中的"涌现性"原则：单独看每个任务都不大，但任务+规范+文件的组合会涌现出"卡死"这一意外行为
-- `90_control/failure-modes.md` → F-KDO-012（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #7（不准给黄药师一次性派发 ≥3 个独立任务或引用 ≥2 个规范文件）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

@@ -3,8 +3,8 @@ id: tool-纪浩-里程碑验证法
 title: 技能：里程碑验证法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -16,15 +16,15 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
 related:
-- '[[tool-纪浩-新手心态启动法]]'
-- '[[tool-纪浩-项目启动五问法]]'
-- '[[tool-纪浩-线上问题应急值守]]'
-- '[[tool-纪浩-问题导向备课法]]'
-- '[[tool-纪浩-识别AI不可维护代码]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：里程碑验证法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -40,24 +40,24 @@ related:
 
 ## 适用场景
 
-- 项目涉及较大投入前
-- 需求边界模糊、容易无限放大时
-- 团队内部新产品/新功能立项时
-- 个人用AI做较复杂的长期项目时
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已经非常熟悉、有成熟模板的重复性工作
-- 快速试错、低成本验证的MVP阶段
-- 时间极紧迫必须立即行动的场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 四层验证清单
-- 用户访谈
-- AI辅助调研
-- 快速原型实验
-- 里程碑看板
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -70,8 +70,8 @@ related:
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未先确认场景是否适用 → 方法无效 → **先对照“适用场景”确认本方法适用**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -79,12 +79,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

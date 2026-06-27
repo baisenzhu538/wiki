@@ -10,26 +10,26 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-presell]]'
-  - '[[tool-lean-minimum-version]]'
-  - '[[tool-lean-fake-product]]'
-  - '[[tool-lean-minimum-test-volume]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-four-principles]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 太复杂就砍功能
@@ -42,29 +42,29 @@ related:
 
 ## Purpose
 
-- 把“产品第一版”和“完整产品”解耦：第一版存在的意义是验证关键假设，而不是满足所有使用场景。
-- 在资源投入前，先用清单把“可以延后”的模块识别出来，降低因过度设计而产生的沉没成本。
-- 支撑 FALSE/FLESAI 模型中 E（Essential/最小版本）阶段的范围收敛，也常与“只发布最小版本”配合使用 [conf=0.85, source=framework-lean-false-model.md]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
 ### 第一步：锁定当前唯一要验证的假设
 
-- 不要同时验证“用户有没有需求”“用户愿不愿付费”“哪个 UI 更好看”等多个假设。
-- 先按“前置性 × 风险”排序，选出 1 个最高风险假设 [conf=0.80, source=yt-entrepreneur-key-hypotheses.md]。
-- 用一句话写出证伪条件：什么结果出现，说明这个假设不成立。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：列出当前计划中的所有模块
 
 把产品、门店、课程、服务或官网计划拆成独立模块，例如：
 
-- 核心功能流程
-- 成长体系（等级/勋章/积分）
-- 多账号/第三方平台登录
-- 完整视觉 VI、品牌官网
-- 精装修门店/展台
-- 营销系统（优惠券、会员、积分商城）
-- 数据分析后台、自动化运营
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三步：用“砍掉后是否影响关键假设”做减法
 
@@ -91,9 +91,9 @@ related:
 
 ### 第五步：冻结范围并发布
 
-- 把“保留清单”和“延后清单”书面化，团队共同签字。
-- 设定硬截止：在截止日前，任何“再加一个功能”的需求都必须回到假设拆解环节重新评估。
-- 发布最小版本，只收集与关键假设相关的数据。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 成本 / 周期 / 样本量
 
@@ -110,23 +110,23 @@ related:
 
 ### 最适合
 
-- 互联网/SaaS/工具/消费品/内容/餐饮/零售等早期需求不确定性高的产品。
-- 功能、模块、门店形态可以被解耦，存在“先做一部分、延后一部分”的空间。
-- 团队愿意让“不够完美”的第一版面对真实用户。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整
 
-- **强监管行业**（医疗、金融、教培、博彩）：不能为了“最小”而砍掉合规、安全、信息披露等法定模块 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型/高客单价产品**（奢侈品、高端 B2B 服务）：视觉和体验本身就是信任信号，过度简陋会损伤转化，需要在“够用”和“体面”之间折中 [conf=0.80, source=任务指令 L8 边界案例]。
-- **B2B 长决策链**：客户采购流程中可能要求完整的合规文档、安全说明、多角色权限，不能简单砍掉 [conf=0.75, source=任务指令 L8 边界案例]。
-- **长周期硬件/医疗器械**：物理结构、认证、可靠性模块无法压缩，应改用里程碑测试而非功能裁剪 [conf=0.85, source=case-lean-medical-device-milestone 思路]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- 当“砍功能”会被团队用作逃避发布、无限拖延的借口时。
-- 当产品形态本身无法解耦（例如一次性交付的工程项目、定制化系统），不存在“后续迭代”空间时。
-- 当行业法规或客户合同明确要求某些模块必须在第一版交付时。
-- 当关键假设本身依赖“完整体验”才能验证（例如用户是否愿意为全套服务付费）时——此时应换用预售、VIP 服务或完整内测，而不是简单砍功能。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -144,15 +144,15 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，A 版计划同时包含自研滑板车、用户端 APP、礼券/会员营销功能，周期 6-12 个月、成本 200-300 万元；D 版则只保留“一张海报/落地页”来验证“中国用户是否对电动滑板出行感兴趣” [conf=0.70, source=讲师推演案例]。
 
-- 对应本工具：A 版中的会员系统、礼券系统、自研硬件等模块都属于初版可砍项；D 版通过极端裁剪把成本降到几十元、周期降到 1-3 天。
-- 关键启示：**砍功能不是做减法游戏，而是把资源集中到最高风险假设的验证上。**
+- src_unknown
+- src_unknown
 
 ### 反例：过早细化的连锁餐厅
 
 在 [[framework-lean-six-wastes]] 覆盖的“过早细化”案例中，部分创业者在验证菜单和选址前就先装修门店、设计全套 VI、搭建会员系统，最终发现用户需求与假设不符时，沉没成本已经很高 [conf=0.70, source=讲师案例]。
 
-- 对应本工具失败模式：没有先用“简装门店/试吃/快闪店”验证核心假设，而是把本可延后的 VI、精装修、会员系统一次性做重。
-- 关键启示：初版的“完整”往往是浪费的伪装，砍功能是为了给验证留出退路。
+- src_unknown
+- src_unknown
 
 ## Critique
 

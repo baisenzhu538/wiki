@@ -3,8 +3,8 @@ id: tool-马易-AI落地场景识别-拆工作流找场景
 title: 技能：AI落地场景识别-拆工作流找场景
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-低置信度样本黄金漏斗处理]]'
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI项目需求拆解筛选]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI落地场景识别-拆工作流找场景
 
@@ -38,27 +38,27 @@ AI落地场景识别-拆工作流找场景是马易在AI落地场景识别中提
 
 ## 适用场景
 
-- 企业首次探索AI落地
-- 业务团队不熟悉AI技术原理
-- 需要快速验证AI可行性
-- 资源有限、希望降低试错成本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 团队对业务场景本身不熟悉
-- 追求短期最大化ROI而忽视执行风险
-- 缺乏基本业务方法论沉淀
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 业务流程图工具
-- 工作分解结构(WBS)
-- 团队能力评估表
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -66,12 +66,12 @@ AI只能放大你已会做的事，不能替代你不会的业务判断；小场
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

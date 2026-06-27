@@ -4,8 +4,8 @@ title: 技能：处理AI生成代码运行异常
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-纪浩-AI工具脚本化约束]]'
-- '[[tool-纪浩-日志驱动排查法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-任务交付物标准化]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: AI代码报错，不知道从哪里开始排查
+- src_unknown
   lens: 排查无头绪
   follow_up: 先确认异常现象和复现路径。没有复现路径的问题无法修复
-- signal: 同样的问题反复出现，每次都要重新排查
+- src_unknown
   lens: 重复异常
   follow_up: 检查提示词是否表达清晰，避免promote歧义。记录异常和修复方案到经验库
-- signal: 提示词有歧义但自己没意识到，AI理解偏差
+- src_unknown
   lens: 提示词歧义
   follow_up: 人工Review提示词，用具体示例替代抽象描述。让AI复述理解确认
-- signal: AI生成的代码在本地能跑，部署后出问题
+- src_unknown
   lens: 环境差异
   follow_up: 排查环境差异（依赖版本、系统配置、权限等）。脚本化环境配置，确保一致性
-- signal: 异常修复后不做记录，下次同样问题再排查
+- src_unknown
   lens: 经验不沉淀
   follow_up: 每次异常修复后记录到日志和经验库。沉淀的异常处理经验是宝贵资产
 ---# 技能：处理AI生成代码运行异常
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -86,15 +86,15 @@ diagnostic_signals:
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-纪浩-AI工具脚本化约束]] — 脚本化减少环境差异导致的异常
-- [[tool-纪浩-日志驱动排查法]] — 异常排查需要日志支持
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] — 异常修复后迭代优化提示词
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

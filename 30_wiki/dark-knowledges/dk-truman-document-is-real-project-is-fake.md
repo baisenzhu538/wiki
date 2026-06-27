@@ -6,23 +6,23 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- personal-growth
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 related:
-  - '[[tool-泛产品落地-ROI分析]]'
-  - '[[yt-skill-checklist-as-ai-protocol]]'
-  - '[[case-truman-prd-checklist-evolution]]'
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
-  - '[[dk-truman-flag-note-taking]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-truman-knowledge-extraction-three-schools]]'
-  - '[[yt-personal-pan-product-tools]]'
-  - '[[ai-learning-closed-loop]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -30,8 +30,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- source_refs empty: 原始来源未迁移至 10_raw/sources/，溯源链待补
-- trust_level low: 内容基于单次口述分享，缺乏独立验证
+- src_unknown
+- src_unknown
 ---# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 
 ## 原始表述 / 核心洞察
@@ -46,19 +46,19 @@ diagnostic_signals:
 
 ## 使用场景
 
-- **反复被打回的可重复交付物**：PRD文档、设计稿、代码审查、演讲PPT、会议纪要等存在明确交付标准的场景。
-- **个人成长瓶颈期**：工作多年但感觉"经验没有累积"，每个项目都从零开始。
-- **团队新人培养**：需要把隐性经验转化为可执行清单，缩短新人达到合格水平的时间。
-- **质量不稳定的关键环节**：同一类错误反复出现，且可以通过检查清单预防。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **识别可重复的交付物类型**。不要试图把所有工作都清单化，先找一个你反复做、反复被打回的任务（如写PRD、做设计评审）。
 
 2. **建立第一张"错误清单"**。从三个来源收集条目：
-   - 自己过去犯过的错误；
-   - 团队/公司的最佳实践；
-   - 每次评审/反馈中发现的新问题。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **每次交付前强制使用清单检查**。Truman的做法是：每交一份文档都用这个清单检查两三次，直到清单几乎加不进去新内容。
 
@@ -68,10 +68,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **仅适用于可重复、有标准的任务**：文档写作、代码审查、设计评审、演讲准备等。创意策划、艺术创作、突发事件应对等不可标准化的工作不适合严格清单。
-- **"文档"需要持续维护，否则会僵化**：如果清单很久不更新，它可能从"帮助"变成"束缚"——限制了应对新情况的灵活性。
-- **需要严格的自律才能执行到位**：Truman能成功是因为他"每写一个新方案都确保用这个单子检查两三次"。大多数人建了清单但不执行，等于没建。
-- **快速变化的环境中，模型可能很快过时**：面向过去建的模型需要不断更新，否则会变成"用旧地图找新大陆"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击（不同范式视角）
 
@@ -97,19 +97,19 @@ diagnostic_signals:
 
 这条暗知识值钱，因为它直接戳中了"经验"与"能力"之间的鸿沟：
 
-- **AI训练语料中没有**。它不是公开的方法论，而是Truman在具体工作中通过反复失败打磨出来的个人工作系统。
-- **把一次性项目转化为复利资产**。大多数人十年工作经验等于零积累，而这套方法能让每个项目都成为下一次的垫脚石。
-- **最低成本实现"不再二错"**。不需要复杂的知识管理系统，只需要一张持续更新的清单。
-- **缩短能力曲线**。Truman用半年时间通过清单达到三四年经验PM的文档水平，这是可复制的能力加速器。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-checklist-concept]] —— 清单体笔记是"文档是真的"理念的具体载体。Truman的PRD清单就是一个经典的清单体应用——不是让你背的，是放在手边随时检查的。
+- src_unknown
 
-- [[dk-truman-iteration-to-aesthetic-ceiling]] —— 迭代到审美上限是"文档打磨"在知识产品层面的应用。两者同源：都是通过反复迭代让交付物达到"历史巅峰水平"。
+- src_unknown
 
-- [[dk-truman-knowledge-extraction-three-schools]] —— 拆例子清单是B流派（经验萃取派）的最基础实践。本暗知识展示了当这个基础实践被执行到位时的威力，以及被忽略时的代价。
+- src_unknown
 
-- [[yt-personal-pan-product-tools]] —— 30张牌是"面向过去建模型"的高级形态：从十年产品实践中抽象出的通用工具。
+- src_unknown
 
-- [[ai-learning-closed-loop]] —— 学习闭环中的"反馈→输入"机制与"不再二错"同源：都是把错误转化为未来的预防能力。
+- src_unknown

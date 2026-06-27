@@ -7,7 +7,7 @@ id: yt-foresight-ab-steady-state
 title: AB点稳态模型：行业预判的核心框架
 type: concept
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -19,39 +19,39 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- AB点模型
-- 稳态模型
-- 行业预判
-- AB稳态
-- 行业变化
-- 产业链分析
-- 集中度
-- 行业天花板
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-entrepreneur-industry-forecast]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户看到变化就认为是机会
+- src_unknown
   framework_lens: 变化≠机会
   follow_up_question: 这个变化会改变行业价值链的哪个环节？你的切入点在哪里？
-- signal: 用户只分析现在稳态，不预判B稳态
+- src_unknown
   framework_lens: 只完成一半
   follow_up_question: 变化后的行业新格局（稳态B）可能长什么样？
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[yt-ai-trend-12-signals]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[yt-foresight-addition-subtraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# AB点稳态模型：行业预判的核心框架
 
@@ -90,17 +90,17 @@ related:
 
 ## Key Evidence
 
-- **外卖换乘站案例**：创始人想做头部，但行业已出D/E轮公司，资本窗口期已过。这不是商业模式的问题，是行业预判的问题——"在没变化的情况下，投资人不会在一个已出D轮公司的赛道投天使轮"。
-- **少儿游泳馆案例**：想融资但行业天然集中度低——"这种行业默认为集中度就会比较低，融资逻辑不成立"。
-- **AI时代的机会逻辑**：AI触发了几乎所有行业的A→B过渡——用户成熟、场景创新、算法升级、交互创新、门槛降低、算力便宜、习惯付费、盈利创新、渠道创新、获客效率、技术壁垒、无形资产。12大变化信号本质上就是12条A→B的过渡线索。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- **预判稳态是高度不确定的**——没有人能准确预测3-5年后的行业格局。AB模型提供的是思考框架，不是预言工具。
-- **六要素之间的因果链可能断裂**——产业链变化不必然导致集中度变化，需要逐条论证而非跳跃推理。
-- **"变化"的识别有时滞**——当所有人都能看到变化时，机会窗口可能已经关闭。真正的功夫在于比市场早6-12个月识别变化信号。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -110,9 +110,9 @@ related:
 
 ### 不要用的场景
 
-- **小生意/副业**——做个小咖啡馆不需要做产业链分析。行业预判的ROI只在追求规模化或头部位置时才成立。
-- **已经进入执行阶段的成熟业务**——AB模型是"下场前"的预判工具，不是运营诊断工具。
-- **变化速度远超分析速度的行业**（如AI应用层）——等你做完六要素分析，市场已经变了三轮。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -124,8 +124,8 @@ related:
 
 ### 关联卡片
 
-- [[yt-foresight-15-char-mantra]] — AB模型对应十五字诀中"主动定中局"在行业维度的展开
-- [[yt-ai-trend-12-signals]] — 12大变化模型是识别AB过渡信号的具体检查清单
-- [[yt-foresight-ten-fatal-flaws]] — 硬伤#9"无变化无大机会"和#10"窗口期已过"由AB模型解释
-- [[yt-entrepreneur-industry-forecast]] — 商业预判15字诀是AB模型的基础能力
-- [[yt-foresight-business-spectrum]] — 终局光谱图决定你需要做到哪个层级的行业预判（L2不需要，L6必须）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

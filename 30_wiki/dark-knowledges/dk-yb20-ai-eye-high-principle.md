@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- design
-- master
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -15,8 +15,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,9 +39,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于纯技术执行环节（如模型部署、参数调优）
-- 不适用于审美本身无标准可循的领域
-- 初学者容易误解为"不需要学软件"，实则眼高与工具熟练度需并行
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -49,4 +49,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb10-theory-moat-designer]] — AI时代设计师的理论护城河
+- src_unknown

@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - '[[concept-yitang-facts-first]]'
-  - '[[dk-yitang-survivor-bias-in-research]]'
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - "[[concept-ceo-must-do-user-research]]"
-  - "[[concept-research-responsibility-boundary]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 规模化中的调研委派

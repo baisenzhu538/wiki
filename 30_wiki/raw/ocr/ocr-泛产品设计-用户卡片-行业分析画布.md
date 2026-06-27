@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-行业分析画布"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_78d5f0a4
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-行业分析画布"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-多视角思考]]'
-  - '[[ocr-泛产品设计-用户卡片-用户分层]]'
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-动力阻力]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-行业分析画布
@@ -36,36 +36,36 @@ png` 10 泛产品设计·用户卡片 行业分析画布 分析行业赛道的�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 行业分析画布包含六个核心步骤：拆解产业链、洞察底层变化、预判未来稳态、判断行业周期、测算天花板大小、评估市场集中度。
-- 产业链拆解是分析行业现状的基础，需理清上下游结构与价值分配。
-- 洞察行业底层变化要求识别技术、政策、消费习惯等驱动因素的结构性转变。
-- 预判"稳态B点"指预测行业演化后的下一个相对稳定状态，用于提前布局。
-- 行业周期判断直接关联创业时机选择，需区分成长期、成熟期或衰退期。
-- 天花板测算需综合市场现状、增速与未来空间，评估机会的规模上限。
-- 行业集中度反映竞争格局，头部市场份额决定新进入者的差异化策略空间。
-- 该框架适用于所有需宏观市场机会分析的产品决策场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 六个步骤之间的逻辑关系与执行顺序是什么？是否存在依赖关系或可以并行推进？
-- "稳态B点"的预判方法论未具体说明：基于什么理论模型、数据输入或验证机制来确保预判可靠性？
-- 行业周期判断的标准和量化指标缺失：如何界定"好的创业时机"，有无具体阈值或案例参照？
-- 天花板测算的方法论未展开：市场现状、增速、未来空间的测算公式或数据来源是什么？
-- 行业集中度的"头部产品"定义模糊：按营收、用户量还是其他维度？集中度高低与新进入者策略的对应关系是否绝对？
-- 该框架的适用边界未检验：是否适用于高度监管行业、颠覆性创新领域或全球化市场？
-- "一堂课解决"的宣传语与框架复杂性之间存在张力：是否低估了行业分析所需的定制化深度与跨学科知识？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

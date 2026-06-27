@@ -9,18 +9,18 @@ confidence: 0.70
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例02_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例02.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例02_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例02.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例02_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了技术基础设施投资决策中的期权价值评估。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,14 +40,14 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家公司（涉及数字党建业务）
-- **决策问题**：是否搭建虚拟影棚
-- **关键成本**：影棚搭建成本 35 万
-- **基础 ROI 收益**：为数字党建产品拓展新落地场景，业务种类更丰富
-- **长期视角收益**：团队掌握虚拟拍摄技术，与园区合作实现场地换资源、联合经营、客户引流
-- **公司视角收益**：拓展数字党建场景，新增虚拟发布会、文化栏目、直播带货等业务线
-- **机会成本**：疫情反复，虚拟线上直播/拍摄存在时间窗口需求
-- **最终决策**：搭建影棚，购买设备，团队研发跟进
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -82,36 +82,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **探索派**：虚拟影棚是战略投资，不能只用短期 ROI 衡量。
-- **财务派**：35 万投入缺乏可量化收益支撑，更像是一次性试验。
-- **风险派**：技术迭代快，影棚设备可能很快过时，疫情结束后需求不确定。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **新技术基础设施投资**：AI 算力中心、直播基地、实验室等。
-- **能力型投资**：购买设备/培训以掌握新技能。
-- **时间窗口型投资**：疫情期间、政策窗口期、技术红利期的战略投入。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 技术/能力型投资的收益必须附概率分布和场景假设。
-- ⚠️ 任何投资都要有明确的决策阈值（ROI、回本周期、止损线）。
-- ⚠️ "机会窗口"必须分析竞争格局和窗口持续时间。
-- ⚠️ 一次性投入不等于总投入，运维、升级、人力成本要计入。
-- ⚠️ 难以量化的收益不能自动等于"正收益"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"宽度"和"深度"的结合——多维度比较但定量不足。
-- **[[tool-ROI决策评估画布]]**：案例是该画布在技术投资场景的应用。
-- **[[concept-稀缺机会窗口]]**：案例中的疫情时间窗口是该概念的具体实例。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Klein（专家直觉边界）**：最终决策可能基于决策者对虚拟拍摄行业的直觉判断，但如果决策者缺乏该领域深度经验，直觉可能错误。你是在学习决策逻辑，还是在复制一个看似成功的结果？[conf=0.75, source=Gary Klein, Sources of Power]
-- **March（探索与利用的矛盾）**：搭建影棚是"探索"逻辑，但很多组织的 KPI 是"利用"导向的。如果组织奖励短期盈利，团队不会有动力做长期研发跟进。[conf=0.75, source=James March, Exploration and Exploitation in Organizational Learning]
+- src_unknown
+- src_unknown
 
 ---
 

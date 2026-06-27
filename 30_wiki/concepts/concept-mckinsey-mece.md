@@ -6,45 +6,45 @@ title: "MECE 原则：相互独立、完全穷尽"
 type: concept
 status: enriched
 domain:
-  - management- consulting
-  - structured-thinking
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
 source_refs: []
 related:
-  - '[[tool-泛产品落地-逻辑MECE]]'
-  - '[[tool-mece体系框架法]]'
-  - '[[dk-modeling-ai-iterative-prompting]]'
-  - '[[concept-minto-pyramid-principle]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[concept-mckinsey-issue-tree]]'
-  - '[[concept-minto-pyramid-principle]]'
-  - '[[concept-mckinsey-hypothesis-driven]]'
-  - '[[concept-mckinsey-7s]]'
-  - '[[case-yitang-radar-chart-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[tool-mece体系框架法]]'
-- '[[tool-泛产品落地-逻辑MECE]]'
-- '[[yt-foresight-model-taxonomy]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-11
 updated_at: '2026-06-17'
 diagnostic_signals:
-- trigger: 问题太复杂不知道从哪拆起
+- src_unknown
   framework_lens: MECE 原则检查清单
   follow_up: 你当前的分类维度是什么？这些维度之间是否互不重叠、合起来是否覆盖了所有可能？
-- trigger: 团队讨论散乱无进展，每个人在说不同层面的东西
+- src_unknown
   framework_lens: MECE 框架对齐
   follow_up: 如果用一个结构化框架强迫大家按同一维度发言，你会选什么维度？
-- trigger: 做完分析后觉得"完备但没有洞察"
+- src_unknown
   framework_lens: L3→L4 逻辑链升级
   follow_up: 你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？
-- trigger: 评选或决策时维度重叠、同高同低，无法区分选项
+- src_unknown
   framework_lens: MECE 维度审计
   follow_up: 用 2-3 个样本做校准会，重写维度定义并检查是否相互独立、完全穷尽
 pipeline:
-- confidence-draft
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7

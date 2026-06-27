@@ -10,34 +10,34 @@ source_refs:
 status: enriched
 confidence: 0.7
 domain:
-  - modeling- yitang
-  - kdo
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: medium
 related:
-  - '[[case-modeling-abstraction-reliability-ladder]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[business-formula-to-kdo-card-quality]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[case-truman-personal-growth-map-creation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#method/evaluation-method'
-- '#kdo'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我建了一个模型但不知道它够不够好
+- src_unknown
   framework_lens: 四层可信度标准
   follow_up_question: 你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？
-- signal: 我用别人的模型总是套不进去
+- src_unknown
   framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
   follow_up_question: 你用的模型中了哪一条？最致命的是哪条？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
@@ -101,9 +101,9 @@ Truman 脑子里有一个画面，决定了一堂所有课程的设计逻辑：
 ```
 
 **核心约束**：
-- 广场必须有 1000+ 人（足够统计意义）
-- 不是为三五个高手做客——是对广场上所有人负责
-- **有一个反例就说明模型不对**
+- src_unknown
+- src_unknown
+- src_unknown
 
 > "我要是圈定了一个广场之后，建了一套模型。这个模型有一个反例就说明这个模型不对。"
 
@@ -155,9 +155,9 @@ Truman 脑子里有一个画面，决定了一堂所有课程的设计逻辑：
 
 ## Open Questions
 
-- KDO 当前卡片库整体处于哪一层？L2（有案例）还是 L3（充分实证）？
-- "千人广场"中的 95%/5% 比例是否适用于 KDO 的用户群体？
-- 如果一张卡永远达不到 L4（没有反例），应该被降级到 `60_feedback` 还是允许留在 `30_wiki` 并标注"边界内有效、边界外待验证"？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

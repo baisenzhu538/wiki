@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-008
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-008
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[graph-rag]]'
-  - '[[dk-tool-chain-naming-is-infrastructure]]'
-  - '[[dk-f11-encyclopedia-style]]'
-  - '[[dk-f9-generic-critique]]'
-  - '[[dk-p4-batch-format-empty]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- Synthesis 段 wikilink 目标与当前卡片的 domain/module 无实质交叉
-- wikilink 指向当前卡片自身（self-link）
-- 为通过"≥2 个 wikilinks"规则而堆砌低信息量关联
+- src_unknown
+- src_unknown
+- src_unknown
 ---# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 
 ## 原始表述/核心洞察
@@ -52,17 +52,17 @@ diagnostic_signals:
 
 核心洞察：
 
-- wikilink 是 Graph RAG 的边，虚假关联会污染整条检索图——它让"相关"变成"看起来相关"。
-- self-link 是最低成本的造假：它满足计数规则，却贡献零信息增益，甚至制造循环。
-- "≥2 个 wikilinks"是结构性要求，不是内容质量要求；把结构要求当成目标，会诱导 Builder 用无关链接填充。
-- 真正的 Synthesis 价值在于揭示当前知识与已有知识之间的非显然关系，而不是完成链接配额。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你正在写概念卡的 Synthesis 段， tempted 随便找两张已有卡片贴上 wikilink 以满足"≥2 个"的硬性要求
-- 你审查别人提交的卡片，需要判断 Synthesis 中的 wikilink 是实质关联还是凑数
-- 你设计 L2 Lint 规则时，需要检测 self-link 和灌水关联
-- 你发现一张卡片的 related 字段链接了不相关域的卡片，需要判断是否属于虚假关联
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -74,11 +74,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有需要写 Synthesis wikilink 的场景
-- 不适用于目录页/索引页的导航链接——索引页的目的就是收集相关链接，不需要每个都写关联说明
-- 如果卡片是新域的第一张卡（没有已有卡片可关联），可以暂时只链接到 master 域的通用概念卡，但后续新卡产出后必须回头补齐
-- "实质关联"的标准：两张卡片的知识内容互相补充、互相质疑、或可以迁移应用——"都是一堂的课"不算实质关联
-- 不同审查者对"实质关联"的判断可能有差异——有争议时以欧阳锋的判定为准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -91,13 +91,13 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **虚假关联破坏的是整个 Graph RAG 网络的可信度**：如果 wikilink 只是凑数的，用户通过关联导航找到的内容与当前主题无关，Graph RAG 的检索质量会系统性下降
-- 这是"指标驱动"陷阱的典型表现：L2 Lint 规定了"≥2 个 wikilinks"，Builder 为了满足指标而牺牲了质量
-- 自我引用（self-link）尤其恶劣——它不仅没有任何信息增益，还会让 Graph RAG 陷入循环
-- 任何 AI 训练语料中都不会有"KDO 的 Synthesis wikilink 不能自我引用"这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是 Constraints 节空洞，F-KDO-008 是 Synthesis 段空洞——两者都是"为满足格式要求而填充无价值内容"
-- [[master-decision-hygiene]] — 决策卫生 Step 3（独立评估）：每个 wikilink 都需要独立验证其关联的实质价值，不能让写卡的人自己判定"够了"
-- `90_control/failure-modes.md` → F-KDO-008（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-partnership
 title: 合作伙伴策略：生态与联盟
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-network-effects
-  - yt-business-model-platform-strategy
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们要建立生态'，但不知道合作伙伴是谁"
+  - src_unknown
     framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
     follow_up_question: "你的生态中，合作伙伴是谁？他们为什么愿意加入？"
-  - signal: "用户合作伙伴关系松散，无法形成协同"
+  - src_unknown
     framework_lens: 合作伙伴策略——合作伙伴关系需要设计协同机制
     follow_up_question: "你的合作伙伴之间如何协同？利益分配机制是什么？"
-  - signal: "用户被合作伙伴绑定，失去自主权"
+  - src_unknown
     framework_lens: 合作伙伴策略——合作伙伴关系需要平衡依赖
     follow_up_question: "你对合作伙伴的依赖程度如何？是否有备选方案？"
-  - signal: "用户合作伙伴贡献少，但分润多"
+  - src_unknown
     framework_lens: 合作伙伴策略——合作伙伴贡献和回报需要匹配
     follow_up_question: "你的合作伙伴贡献了什么？分润比例是否匹配贡献？"
-  - signal: "用户说'合作伙伴越多越好'"
+  - src_unknown
     framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
     follow_up_question: "你的核心合作伙伴有几个？是否形成了紧密协同？"
 
@@ -130,21 +130,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当需要扩展能力时 → 考虑合作伙伴
-- 当建设生态时 → 设计合作机制
-- 当依赖合作伙伴时 → 评估依赖风险
-- 当合作失败时 → 启动退出机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-network-effects`：网络效应
-- `yt-business-model-platform-strategy`：平台战略
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 合作伙伴战略研究
-- 生态建设研究
+- src_unknown
+- src_unknown
+- src_unknown

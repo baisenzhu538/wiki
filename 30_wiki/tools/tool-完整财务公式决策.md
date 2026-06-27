@@ -10,21 +10,21 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
 related:
-  - '[[modeling-level-map]]'
-  - '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-  - '[[ocr-一堂-单元模型-修炼地图]]'
-  - '[[yt-decision-full-process]]'
-  - '[[framework-lean-expert-roadmap]]'
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[yt-tool-unit-model-benchmark]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 完整财务公式决策：L1-L6认知分级
@@ -65,8 +65,8 @@ related:
 
 ## 与已有框架的关系
 
-- **[[framework-科学决策三角形]]**：L1-L6是三角形「深度」维度的展开。
-- **[[tool-决策深度-L1优先级定性]]** ~ **[[tool-决策深度-L4严格财务公式]]**：四个深度层级各有一张独立工具卡。
+- src_unknown
+- src_unknown
 
 ---
 

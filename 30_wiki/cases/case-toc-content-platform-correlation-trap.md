@@ -6,19 +6,19 @@ title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的
 type: case
 status: enriched
 domain:
-- yitang
-- content
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#industry/content'
-- '#domain/yitang'
-- '#chunk-type/error-data'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -29,15 +29,15 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[case-offline-catering-formula]]'
-  - '[[case-dental-clinic-formula]]'
-  - '[[yt-management-business-formula]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[dk-yitang-business-formula-plus-times-trap]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个月 GMV 800 万、付费用户 3 万的内容付费平台，团队把“流量和转化率正相关”当成因果，加大投放后 ROI 崩盘。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
@@ -66,13 +66,13 @@ GMV = 流量 × 转化率 × 客单价 × 复购率
 
 讨论中出现了典型的相关关系判断：
 
-- “流量和转化率是正相关，加大投放就行了。”
-- “客单价和复购率是负相关，涨价会影响复购。”
+- src_unknown
+- src_unknown
 
 这些判断的问题在于：**相关不是因果**。流量和转化率之间的关系，可能是：
 
-- **流量质量高 → 转化率高**（因果在“流量质量”，不在“流量数量”）
-- **流量规模大 → 转化率反而下降**（边际效应递减）
+- src_unknown
+- src_unknown
 
 如果直接把“相关”当成“因果”，就会做出错误决策：拼命加大投放，结果转化率越来越低，ROI 崩盘。
 
@@ -109,11 +109,11 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 ## 关键教训
 
 1. **相关只能看趋势，因果才能做决策**
-   - 投放量增加和转化率下降可能是相关，真正的原因是流量质量下降。
+   - src_unknown
 2. **不切分直接拆总公式，会看不到差异**
-   - 新用户、复购用户、转介绍用户混在一起，会误以为“转化率太低”，但不知道是哪类用户的转化率低。
+   - src_unknown
 3. **动作会打架**
-   - 针对新用户的拉新活动可能伤害复购用户；针对复购用户的会员体系可能对新用户无效。
+   - src_unknown
 
 ---
 
@@ -131,6 +131,6 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 
 ## 置信度说明
 
-- **高置信度**：相关≠因果的判断逻辑、先切分再拆转化的方法（直接来自培训方法论）
-- **中置信度**：案例中具体数字为教学示例，未经验证
-- **待复核**：内容付费平台不同用户群的实际转化差异
+- src_unknown
+- src_unknown
+- src_unknown

@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Competitive Intelligence Alliance KIT/KIQ methodology
+- src_unknown
 related:
-  - '[[tool-key-assumptions-check]]'
-  - '[[tool-devils-advocacy]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[tool-candy-oral-polish]]'
-  - '[[tool-indicators-signposts]]'
-  - "[[framework-ci-operating-model]]"
-  - "[[dk-yitang-research-question-quality]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # CI Define阶段：KITs和KIQs
@@ -80,8 +80,8 @@ prompt = """你是一个CI分析师。当前关键决策是：
 
 ## 适用边界
 
-- **适用**：任何调研任务的第一步——先写KIQ再动手
-- **不适用**：纯粹的探索性学习（不需要决策的场景）
+- src_unknown
+- src_unknown
 
 ---
 

@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: SpiderFoot GitHub (smicallef/spiderfoot)
-- web: OSINT tools comparison 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-osint-overview]]'
-  - '[[tool-google-dorking]]'
-  - "[[tool-osint-overview]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # SpiderFoot：自动化OSINT扫描
@@ -30,10 +30,10 @@ related:
 
 ## 核心能力
 
-- **200+模块**：涵盖DNS、SSL、WHOIS、社交媒体验证、数据泄露查询、暗网搜索
-- **被动扫描**：不直接与目标交互，无法被检测
-- **可视化输出**：自动生成关联图和时间线
-- **API支持**：可以被Agent通过API调用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -70,9 +70,9 @@ curl "http://localhost:5001/startscan?target=target.com&modules=sfp_email,sfp_dn
 
 ## 适用边界
 
-- **适用**：快速摸底陌生公司、安全评估、数字足迹审计
-- **不适用**：需要实时数据的场景（SpiderFoot做的是快照扫描）
-- **成本**：完全免费开源
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

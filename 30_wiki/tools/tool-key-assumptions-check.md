@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: CIA Tradecraft Primer - Key Assumptions Check
+- src_unknown
 related:
-  - '[[tool-ci-define-phase]]'
-  - '[[framework-structured-analytic-techniques]]'
-  - '[[tool-candy-oral-polish]]'
-  - '[[tool-indicators-signposts]]'
-  - '[[tool-devils-advocacy]]'
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[tool-yitang-research-validate-assumption]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Key Assumptions Check
@@ -36,11 +36,11 @@ related:
 不只是"明显的假设"，也包括"太明显以至于你没意识到的假设"。
 
 **案例**：一堂进入Skill市场
-- 企业客户愿意为内部工具买Skill ✓
-- 企业有预算给"工具"类产品 ✓
-- 决策者是技术负责人而非HR ✓
-- Skill市场不会在12个月内被平台方免费化 ✓
-- 竞对不会快速复制 ✗（潜意识假设）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：评估每条假设的证据强度
 
@@ -83,8 +83,8 @@ prompt = """基于以下商业计划，执行Key Assumptions Check：
 
 ## 适用边界
 
-- **适用**：重大决策前的最后检查、商业计划评审
-- **不适用**：低风险决策（KAC本身的时间成本可能超过决策价值）
+- src_unknown
+- src_unknown
 
 ---
 

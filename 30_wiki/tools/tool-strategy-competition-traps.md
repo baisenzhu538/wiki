@@ -9,14 +9,14 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[tool-yitang-research-company-disassembly]]'
-  - '[[tool-yitang-research-best-practice]]'
-  - '[[dk-strategy-05-positioning-trap]]'
-  - '[[concept-strategy-evolution-cycle]]'
-  - '[[tool-strategy-gap-analysis]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 ## 两大陷阱
 

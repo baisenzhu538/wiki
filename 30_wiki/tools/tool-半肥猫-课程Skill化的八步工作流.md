@@ -4,50 +4,50 @@ title: 技能：课程Skill化的八步工作流
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 文档编辑工具
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
-- skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
+- src_unknown
+- src_unknown
 related:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
-- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-- '[[master-knowledge-compound]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-07'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 想把课程做成Skill但不知道从哪里开始
+- src_unknown
   lens: 流程缺失
   follow_up: 先执行第1步质量门判断：是否有科学底层、可验证案例、明确边界
-- signal: Skill做出来但效果不稳定
+- src_unknown
   lens: 测试缺失
   follow_up: 检查是否跳过了第7步A/B测试，测试是必需项不是可选项
-- signal: Skill传播了课程中的错误观点
+- src_unknown
   lens: 证据校准缺失
   follow_up: 执行第5步批判性审查：不默认老师全对，补充真实案例和权威资料
-- signal: Skill用了一段时间后失效
+- src_unknown
   lens: 维护缺失
   follow_up: 维护占生命周期80%，把维护成本计入总投入，定期迭代
-- signal: 通用AI总是鼓励做，但我的场景不该做
+- src_unknown
   lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
 ---
@@ -59,13 +59,13 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.90] **不是每门课都值得做Skill——先做质量门判断**。半肥猫的观察：很多课程是"东拼西凑"的，没有科学方法论底座。给这种课程做Skill等于"给垃圾镀金"。判断标准：是否有科学底层、是否有可验证案例、是否有明确边界
+- src_unknown
 
-- claim:02 [conf=0.88] **八步中的"证据校准"和"测试"是最容易被跳过但最关键的步骤**。半肥猫花了整整一个晚上（到凌晨四点）做一堂课的Skill，但后续的证据校准、A/B测试、反例积累才是真正的护城河。制作只占生命周期的20%，维护占80%
+- src_unknown
 
-- claim:03 [conf=0.85] **Skill的最大价值不是"生成"，是"拒绝"**。通用大模型为了讨好用户会鼓励"做吧做吧"，但好的Skill能判断场景该不该用、能给出不建议的动作、能识别风险边界。A/B测试中最大差距出现在"拒绝能力"
+- src_unknown
 
-- claim:04 [conf=0.82] **课程→Skill的转化需要"三中转"：方法→协议、案例→案例库、经验→约束**。不是简单搬运课程内容，而是把隐性经验映射为显性执行规则
+- src_unknown
 
 ## 操作步骤
 
@@ -108,16 +108,16 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- AIGC大模型（协助整理和结构化的辅助工具，非替代人工判断）
-- 文档编辑工具
-- A/B测试环境
+- src_unknown（协助整理和结构化的辅助工具，非替代人工判断）
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 跳过"判断是否值得"直接开始做 → 浪费时间在低质量课程上 → **严格执行第一步质量门**
-- 缺少证据校准 → Skill传播了课程中的错误观点 → **不默认老师全对，做批判性审查**
-- 不做A/B测试 → 不知道Skill到底有没有用 → **测试是必需项不是可选项**
-- 忽视维护 → Skill快速过时 → **把维护成本计入总投入**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -127,11 +127,11 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **八步工作流的维护成本被严重低估**。半肥猫花了一个晚上（到凌晨四点）把一堂课做成Skill，但这只是第一步。后续的版本迭代、案例补充、证据更新、反例积累——这些持续维护的工作量极大。一个Skill的"制作时间"可能只占生命周期的20%，"维护时间"占80%
+- src_unknown
 
-- **"判断是否值得"的标准本身是主观的**。半肥猫说"有科学方法论底座的课才值得"，但"科学方法论"的定义因人而异。一堂营销课可能有A/B测试方法论，也可能只是成功案例集锦——边界模糊
+- src_unknown
 
-- **八步流程对小型团队过于重量级**。对于只有1-2人的团队，走完八步的成本可能超过Skill带来的收益。这个流程更适合有专门知识管理角色的团队
+- src_unknown
 
 ### 外部攻击
 
@@ -139,11 +139,11 @@ diagnostic_signals:
 
 **Clayton Christensen**（*The Innovator's Dilemma* 作者，哈佛商学院教授）从创新理论角度质疑这个八步流程：
 
-- **过度工程化会扼杀创新**：Christensen 的核心观点是，颠覆性创新往往来自"足够好"而非"完美"的产品。半肥猫的八步工作流追求"有边界、可测试、能拒绝"的完美Skill，但这个过程可能把"快速验证"变成"缓慢制造"。在快速变化的市场中，一个"80分但能立即用"的Skill可能比"95分但两周后才能用"的Skill更有价值
+- src_unknown
 
-- **用户真正需要的不是Skill，是结果**：Christensen 的"Jobs-to-be-Done"理论指出，用户雇佣产品是为了完成某个任务（Job），而不是为了产品本身。半肥猫的八步流程聚焦于"制造完美的Skill"，但可能忽略了"用户真正想完成的是什么工作"。如果用户只是想快速得到一个分析结论，八步流程是过度设计
+- src_unknown
 
-- **维护负担可能导致"创新者的窘境"**：Christensen 描述了大公司因为维护现有业务而无法投入颠覆性创新的困境。半肥猫的Skill维护成本（80%生命周期）可能导致团队陷入"维护现有Skill"而无法开发新Skill的窘境
+- src_unknown
 
 > **Christensen 的拷问**："你的八步流程制造的是'更好的马车'，但用户可能想要的是'汽车'。当一个团队把80%的时间花在维护现有Skill上时，他们就没有时间去想'是不是不该用Skill来解决这个问题'。你被自己的流程绑架了。"
 
@@ -151,11 +151,11 @@ diagnostic_signals:
 
 **Herbert Simon**（诺贝尔经济学奖得主，*Administrative Behavior* 作者，"有限理性"理论提出者）从决策科学角度质疑这个流程：
 
-- **人类和AI都是有限理性的**：Simon 的核心发现是，决策者的理性是有限的——受信息、时间、认知能力约束。半肥猫的八步流程假设AI（和人类）有足够的信息和认知能力来执行"证据校准""风险分级""多维度评分"，但现实中这些步骤本身就会引入新的偏差
+- src_unknown
 
-- **评分规则可能是"量化暴政"**：Simon 会指出，半肥猫的12维度评分体系（触发范围、结论明确性、场景拆解等）看起来很科学，但每个维度的"3分vs2分vs1分"判断本身就是主观的。把主观判断包装成"量化评分"可能产生虚假的客观感
+- src_unknown
 
-- **最优解不存在，满意解就够了**：Simon 区分了"最优化"（optimization）和"满意化"（satisficing）。半肥猫的八步流程追求的是"最优Skill"，但现实中"足够好的Skill"可能就够用了。过度追求最优可能导致"分析瘫痪"
+- src_unknown
 
 > **Simon 的拷问**："你的12维度评分体系，每个维度的分数是怎么确定的？是AI自己打的还是人打的？如果是人打的，那这套'量化'体系本质上就是主观判断的包装。你在用'看起来科学'的方法做'本质上主观'的事。这不是决策科学，这是决策戏剧。"
 
@@ -176,8 +176,8 @@ diagnostic_signals:
 
 ## 来源
 
-- 半肥猫，AI俱乐部AI学习落地分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

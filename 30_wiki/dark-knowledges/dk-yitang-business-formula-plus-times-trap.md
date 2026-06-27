@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
-- master
+- src_unknown
+- src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
 source_refs:
@@ -21,20 +21,20 @@ reviewed_by: 老顽童
 review_date: 2026-06-16
 trust_level: high
 related:
-  - '[[case-offline-catering-formula]]'
-  - '[[case-dental-clinic-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[yt-management-business-formula]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-six-level-logic]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-business-formula-qualitative-metrics-library]]'
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[case-gym-membership-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[case-hr-saas-feature-usage-trap]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags: []
 author: 欧阳锋
 confidence: 0.85
@@ -52,9 +52,9 @@ confidence: 0.85
 ---
 ## 使用场景
 
-- 你把业务拆成 `GMV = 流量 × 转化率 × 客单价 × 复购率` 后，团队仍然不知道先动哪个。
-- 你发现公式里某个参数由多个子参数组成，但不确定写“+”还是“×”。
-- 你把两个相关变量当成因果，结果干预后 ROI 崩盘。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -84,8 +84,8 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 
 ### 3. 区分相关与因果
 
-- **相关**：两个变量同向变化。只能监控，不能作为抓手。
-- **因果**：A 变化导致 B 变化，控制其他变量后依然成立。
+- src_unknown
+- src_unknown
 
 跨越 L2 → L3 的方法：做控制变量实验，或画完整因果链。
 
@@ -93,9 +93,9 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 
 ## 适用边界
 
-- 业务数据量太小、样本不够时，难以验证因果关系，只能先用相关关系监控。
-- 创新型业务没有历史范式时，运算符号只能靠假设，需要快速实验迭代。
-- 不要为拆而拆：如果某个参数提不出可验证假设，停在这一层即可。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,7 +107,7 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 
 ## 与其他知识的关联
 
-- [[yt-business-formula-abc-model]]：四种逻辑关系的官方定义
-- [[yt-business-formula-six-level-logic]]：L2 相关 vs L3 因果
-- [[yt-business-formula-parameter-iceberg]]：L1-L2 科目 vs L3-L4 抓手
-- [[case-gym-membership-formula]]：满意度作为“因的因”的具体案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

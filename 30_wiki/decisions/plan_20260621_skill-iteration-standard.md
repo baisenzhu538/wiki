@@ -4,8 +4,8 @@ title: 知识卡片 → Claude Code Skill 迭代标准与全库扫描方案
 type: improvement-plan
 status: approved
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 source_refs:
   - .claude/skills/research/SKILL.md
   - .claude/skills/research-osint/SKILL.md
@@ -19,9 +19,9 @@ author: 欧阳锋
 reviewed_by: 欧阳锋
 confidence: 0.90
 related:
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[yitang-research-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 知识卡片 → Claude Code Skill 迭代标准
@@ -38,10 +38,10 @@ related:
 
 黄药师以调研域 82 张卡片为原料，产出了 7 个 Claude Code Skill，整体质量 **B+/A-**。所有 Skill 满足：
 
-- ✅ Hard constraints 安全边界明确
-- ✅ 可执行步骤（Agent 可直接照做）
-- ✅ wiki 卡片引用链（知识可溯源）
-- ✅ 决策树/工具矩阵（选择路径清晰）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 1.2 逐卡评级
 
@@ -124,14 +124,14 @@ OSINT Skill 中的 "与一堂武器库的桥接" 表格将新工具与已有的 
 | Agent 调用方式 | CLI 命令/API endpoint/MCP | Firecrawl: `pip install firecrawl-py` |
 
 **可选但鼓励**：
-- 桥接表：新工具与已有框架的对应关系（如 OSINT 桥接表）
-- 输出模板：标准化输出格式（如验证矩阵）
-- 参考案例：具体场景的案例链接
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 四、指令
 
-- **黄药师**：7 个 research-* Skill 通过审查，可继续维护。Y 模型决策域的 Skill 化列为下一优先级
-- **老顽童/王语嫣**：各自产出的域在 Wave 计划末尾评估是否满足 Skill 化触发条件。满足则通知黄药师
-- 10_raw/sources/src_20260620_deep-research-skill/SKILL.md`，不要放在 vault 内的 `40_outputs/capabilities/skills/`（后者是给人类读的文档，前者是 Agent 可调用的 Skill）
+- src_unknown
+- src_unknown
+- src_unknown

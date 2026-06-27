@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 荷兰育儿补贴算法丑闻
@@ -62,10 +62,10 @@ related:
 
 一旦被系统标记，这些家庭会面临：
 
-- 补贴被立即停发；
-- 已领取的补贴被全额追回，金额常达数万欧元；
-- 工资被扣押、房产被强制出售、债务累积；
-- 部分家庭破裂，儿童被安置到寄养家庭 [conf=0.80, source=Nationale ombudsman 2017; CBS 2021; Commissie Toeslagen en Uithuisplaatsingen 2025]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 值得注意的是，绝大多数被标记者并非真正的欺诈者，而是被系统错误归类的普通低收入家庭，其中移民和少数族裔比例显著过高 [conf=0.85, source=College voor de Rechten van de Mens; AP 2020]。
 
@@ -145,11 +145,11 @@ related:
 
 此案的分析框架可直接套用到以下场景：
 
-- **公共福利自动资格审核**：低保、住房补贴、医保理赔、失业救济的算法筛查。
-- **税务与海关风险评分**：基于企业主国籍、注册地、行业的“重点稽查”。
-- **金融风控**：信用额度、贷款利率使用国籍、性别、邮编等代理变量。
-- **企业 HR 与绩效**：招聘筛选、裁员算法使用姓氏、毕业院校、通勤邮编等隐性歧视指标。
-- **平台治理**：内容审核、账号风控的“误伤率”与申诉机制设计。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 共同问题：系统把“高效执行”置于“个体公正”之上，且缺乏对误伤的监测与刹车 [conf=0.70, source=王欢原创]。
 
@@ -162,9 +162,9 @@ related:
 3. **外部审计报告必须是刹车片，不是装饰品**：2017 年国家监察员报告已指出问题，但系统继续运转三年 [conf=0.70, source=王欢原创]。
 4. **把“误伤率”与“追回率”并列考核**：单一 KPI 会诱导组织制造批量伤害 [conf=0.70, source=王欢原创]。
 5. **预警信号清单**：
-   - 政策语言从“精准识别”滑向“零容忍”“高压态势” [conf=0.70, source=王欢原创]。
-   - 弱势群体的投诉被批量驳回，理由是“系统判定” [conf=0.70, source=王欢原创]。
-   - 算法输出成为“不可质疑的证据”，普通申诉渠道失效 [conf=0.70, source=王欢原创]。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -196,14 +196,14 @@ related:
 
 ## 相关卡片
 
-- [[ai-collaboration-domain-digest]]：AI 协作方法论域总入口。
-- [[framework-ai2041-critical-reading-os]]：本案可作为“选择点探测器”与“查椅子”方法的现实素材。
-- [[framework-ai-deconstruction-methodology]]：用“还原—审计—生长”三层法拆解官方报告与王欢叙述的异同。
-- [[tool-ai-critical-reading-three-layers]]：适合用三层批判法分析 POK 报告、AP 报告与王欢逐字稿。
-- [[concept-ai-amara-law-business-judgment]]：提醒我们对“反欺诈效率”的短期高估和对“制度性伤害”的长期低估。
-- [[tool-tech-probability-80-filter]]：本案是“已经 100% 发生、无需再过滤”的高概率事件。
-- [[framework-wanghuan-ooda-loop]]：OODA 的 Orient 环节应包含对算法偏见的校准。
-- [[framework-wanghuan-gan-three-roles]]：把官方叙述与王欢/Amnesty/AP 的批判当作异构判别器，训练更稳健的判断。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

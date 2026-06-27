@@ -7,7 +7,7 @@ id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -19,38 +19,38 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 概率工程
-- 成功率提升
-- 小概率变大概率
-- 30%成功率
-- 四次试错
-- 0.7的4次方
-- 试错策略
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户只提高单次概率，不增加试错次数
+- src_unknown
   framework_lens: 只用了一个杠杆
   follow_up_question: 你一年能完成几次完整的试错循环？如果<2次，第二个杠杆没用上
-- signal: 用户把试错当赌博，不做预判
+- src_unknown
   framework_lens: 预判缺失
   follow_up_question: 你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-foresight-addition-subtraction]]'
-  - '[[yt-foresight-15-char-mantra]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 概率工程：把小概率变成大概率的方法论
 
@@ -68,19 +68,19 @@ related:
 
 ## Key Evidence
 
-- **Truman一堂实战**：创业服务市场预判→6个方向→砍掉2个→4个深入→锁定3个（咨询/社群/培训，含Priority排序）。Plan A（咨询）2个月失败→切Plan B（社群）效率低→切Plan C（培训）跑通。三次试错，一年半后业务成立，5年做到5000万。"前两个失败了，但都在我计划好的选项池里，这不是失败，是按计划试错。"
+- src_unknown
 
-- **概率计算**：单次成功率30%（预判拉满） × 4次/年（快节奏试错） → 整体成功率 ~76%。如果只靠热情不预判→单次10% × 1次/年 → 10%。差距：7.6倍。
+- src_unknown
 
-- **心态杠杆**：Truman强调"长期整体乐观，短期注定困难"这12个字。因为知道有Plan B/C/D，团队不会在一次挫折后崩盘；因为知道整体概率被控住了，一号位不会失眠。
+- src_unknown
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- **30%的单次成功率是Truman的个人经验值**——不同行业、不同团队、不同目标规模的基准值不同。在完全不熟悉的赛道，预判可能只能把成功率从3%拉到10%。
-- **"快试错"受行业特点限制**——做SaaS可以2-3个月出一个MVP验证，做医疗设备或芯片2-3个月什么都测不了。行业决定了最短试错周期。
-- **试错次数受资金约束**——每次试错（哪怕是最精简的MVP）都需要团队和资金。4次/年的节奏对有充足资金的团队可行，对自筹资金的个人可能只够试2次。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -90,9 +90,9 @@ related:
 
 ### 不要用的场景
 
-- **已经是确定性赚钱的生意**——概率工程是为高度不确定的项目设计的。如果你的店每月稳定盈利，不要为了"提升概率"去做无谓的预判。
-- **纯艺术/创意类工作**——作品的成功概率不可量化，这套框架无效。
-- **只有一次试错机会的极端情况**（如全部积蓄只够开一家店）——此时应该把100%精力放在提升单次成功率上，而不是规划多轮试错。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -104,7 +104,7 @@ related:
 
 ### 关联卡片
 
-- [[yt-foresight-15-char-mantra]] — 十五字诀是"提升单次成功率"的核心方法
-- [[yt-decision-y-model]] — Y模型拆解的是决策质量，概率工程拆解的是整体成功率
-- [[yt-entrepreneur-key-hypotheses]] — 每个试错周期的核心工作是验证关键假设
-- [[yt-foresight-deliverables-four-levels]] — Plan A+Plan B+Plan C 是最高层级的预判产出（L4）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -6,9 +6,9 @@ title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"�
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -23,15 +23,15 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[model-quality-four-levels]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-level-map]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
-  - '[[dk-modeling-counterexample-driven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
@@ -43,10 +43,10 @@ related:
 ## What Happened
 
 1. **画出四阶梯**：案例图把知识可靠度分为四层——
-   - **L1 有启发**：听着精彩、很香、看似有用；
-   - **L2 有实证案例**：至少能找到 1-2 个具体可实证的案例；
-   - **L3 充分实证**：能找到大量案例证明有效性；
-   - **L4 没有反例**：理论充分可靠，在明确边界内找不到反例可以推翻。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **对齐验收心态**：Truman 强调，短视频/知识付费里大量内容只到 L1，"用一个例子证明模型有效"是典型陷阱；一堂做课的目标是让核心模型至少达到 L3，关键模型冲击 L4。
 
@@ -54,9 +54,9 @@ related:
 
 ## 结果
 
-- 团队用同一套语言判断模型成熟度，减少了"我觉得好"vs"我觉得不行"的无效争论。
-- 一堂内部规定：对外发布的方法论、画布、清单必须附带**证据层级标注**和**边界说明**。
-- "案例大爆炸"成为初阶营标配：让学员贴出真实失败案例，用广场思维检验模型是否覆盖主要商业误判。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景 / 使用边界
 
@@ -91,19 +91,19 @@ related:
 
 **适用**：任何准备内部发布或对外售卖的方法论、画布、清单、SOP。
 
-- [ ] 已明确边界：解决什么问题、不解决什么问题、适用于谁、不适用于谁
-- [ ] 已标注证据层级（L1-L4）
-- [ ] L2：附 1-2 个可验证的具体案例（含 before/after）
-- [ ] L3：附 10+ 个跨场景案例或 1000+ 样本的统计证据
-- [ ] L4：已组织撞击实验，列出 3 个最可能反例并说明如何处理
-- [ ] 所有反例已分类：修正模型 / 排除在边界外 / 待进一步验证
-- [ ] 发布前未先做教学型包装（先撞后讲）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联框架
 
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[case-modeling-essence-schools]]
-- [[modeling-three-stages]]
-- [[modeling-level-map]]
-- [[case-modeling-abstraction-yitang-models]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

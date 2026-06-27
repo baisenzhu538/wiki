@@ -4,36 +4,36 @@
 
 id: yt-panproduct-execution-logic-mece
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1183
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：逻辑MECE
-- 落地卡片
-- 落地执行
-- 逻辑MECE
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：逻辑MECE
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[tool-泛产品落地-内核和边界]]'
-  - '[[tool-泛产品落地-假设拆解]]'
-  - '[[yt-model-prediction-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
@@ -47,15 +47,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 拆解后的子项在同一层级，且任意两项之间不重叠、合起来覆盖全集
+- src_unknown
   framework_lens: MECE = 互斥 + 穷尽
   follow_up_question: 有没有某个元素可以同时放进两个子项？有没有遗漏的大类？
-- signal: MECE 用于重要决策或复杂沟通前，而不是所有日常小事
+- src_unknown
   framework_lens: 结构化思考的成本收益
   follow_up_question: 这个问题值得花费额外时间做 MECE 拆解吗？
-- signal: 拆解结果能被他人快速理解并发现遗漏
+- src_unknown
   framework_lens: MECE 是协作语言
   follow_up_question: 一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ status: superseded
 ### 失败模式
 
 1. **分类维度混杂，子项之间互相重叠**
-   - **原因**：分类标准不统一
-   - **修复**：每次拆解只用一个维度作为分类标准，先列维度再填内容
+   - src_unknown
+   - src_unknown
 
 2. **为了 MECE 而强行拆分，反而让问题更复杂**
-   - **原因**：过度结构化
-   - **修复**：判断问题重要性：不重要的问题用简单列表即可
+   - src_unknown
+   - src_unknown
 
 3. **子项看似穷尽，但遗漏了关键利益相关方或失败场景**
-   - **原因**：依赖个人经验，缺少外部检查
-   - **修复**：用‘如果我是反对者，会攻击哪个分类’来检验穷尽性
+   - src_unknown
+   - src_unknown
 
 4. **把 MECE 当成唯一正确答，忽视问题的动态变化**
-   - **原因**：结构僵化
-   - **修复**：标注每个分类的假设和可能变化，定期复审
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -125,9 +125,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Roger Martin的"整合思维" + Rory Sutherland的"逻辑的反面是魔法"
 

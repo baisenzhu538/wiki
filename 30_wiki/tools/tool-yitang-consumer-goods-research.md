@@ -13,33 +13,33 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 消费品调研
-- 产品调研
-- 产品可行性
-- 消费品创业
-- 新品开发
-- 卖点调研
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/调研手段卡3（消费品）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡3（消费品）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-tech-project-research]]'
-  - '[[tool-yitang-overseas-research]]'
-  - '[[tool-yitang-store-franchise-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "（tool-yitang-product-reverse-engineering，待补）"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[yt-research-competitor-toolkit]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 消费品调研手段：浅中深三层10大评估法
@@ -53,16 +53,16 @@ related:
 "如果我想设计一款消费品，如何拿到信息，用来评估消费品的商业可行性？"
 
 调研四要素：
-- **用户需求**：用户真正痛什么、愿意为什么买单
-- **核心卖点**：竞品的卖点是什么、市场还有没有空白点
-- **毛利空间**：从原料到零售各环节的成本结构
-- **渠道推广**：竞品怎么卖、渠道政策是什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用场景
 
-- **创业做消费品**：判断某个消费品品类的创业机会
-- **拓展新品类**：已有品牌想设计一款新的消费品类型
-- **迭代新产品**：已有产品线，找新的迭代点和差异化方向
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -151,10 +151,10 @@ related:
 
 ## 来源与验证
 
-- 核心框架来源：一堂调研武器库培训课程（Truman），调研手段卡 3——消费品调研
-- 逐字内容来源：洪七公 PaddleOCR 提取的 `调研手段卡3（消费品）_ocr_text.md`
-- 结构化描述来源：MiniMax-M3 VLM 生成的 `调研手段卡3（消费品）_vlm_desc.md`（confidence=0.96）
-- 口述交叉验证：一堂-调研武器库培训-口述.txt
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

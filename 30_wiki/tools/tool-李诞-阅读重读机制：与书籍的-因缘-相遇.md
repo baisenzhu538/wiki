@@ -3,7 +3,7 @@ id: tool-李诞-阅读重读机制：与书籍的-因缘-相遇
 title: 技能：阅读重读机制：与书籍的'因缘'相遇
 type: tool
 domain:
-- content-production- personal
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,11 +15,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-产品替换式场景合成法]]'
-- '[[tool-李诞-面对过去错误的平静心法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：阅读重读机制：与书籍的'因缘'相遇
 
@@ -37,25 +37,25 @@ related:
 
 ## 适用场景
 
-- 早年读过某书觉得一般，现在怀疑自己错过什么时
-- 感觉某本书'应该有用'但读不进去时
-- 认知提升后，想重新验证经典书籍价值时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 为了打卡、炫耀阅读量而读
-- 完全无兴趣、无相关经历的书籍
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 电子书标注功能
-- 实体书便签/折页
-- 阅读笔记软件（Notion/Flomo）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -63,12 +63,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

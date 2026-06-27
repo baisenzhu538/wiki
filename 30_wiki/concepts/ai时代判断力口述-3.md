@@ -6,17 +6,17 @@ confidence: 0.75
 created_at: 2026-05-25
 difficulty: intermediate
 domain:
-- ai-saas
+- src_unknown
 event: 一堂AI俱乐部第77场，2026-05-20
 language: zh-CN
 related:
-  - '[[master-knowledge-compound]]'
-  - '[[tool-Truman-AI时代IPO模型重构]]'
-  - '[[ai数据理解第一课]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
-  - '[[ai时代判断力口述]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[master-knowledge-compound]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260525_66059442-ai时代判断力口述
 speaker: 国帅（胡帅），一堂联合创始人兼CTO
@@ -25,8 +25,8 @@ title: AI时代判断力口述（国帅）
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
@@ -40,34 +40,34 @@ trust_level: medium
 
 ### 1. IPO位移：P交给AI，人死守I和O
 
-- **原始IPO模型**：Input（需求/约束/上下文）→ Process（加工/理解/推理/生成）→ Output（代码/文档/方案/产品）
-- **AI时代位移**：AI接管了P（Process），且P变得极快极便宜。过去P是最难最稀缺的环节，现在P同质化了。
-- **结果**：I（问题定义、需求深挖）和O（结果判断、审美把关、责任承担）成为新的瓶颈和竞争力所在。
-- **关键金句**："加速一切，除了思考" / "家族一切除了思考"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 判断力的三层金字塔
 
-- **底层 — 能判断什么AI做不了**：核心算价逻辑、涉及钱的代码、关键安全逻辑——这些必须人写，AI只做Review。最好判断的东西。
-- **中层 — 一致性判断**：代码风格、Tab vs 空格、文档规范。没有对错，统一就行。AI能写但需要人校准一致性。
-- **顶层 — 审美判断**："审美不是天赋，是伤疤的组合"——AI见过百万倍于人的失败案例但不懂疼。人的审美来自亲身经历的事故、架构翻车、踩过的坑。这是AI夺不走的能力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. WebCoding的魂被换掉了
 
-- **WebCoding的陷阱**：不是写代码本身不对，而是只做了P——把原始需求直接丢给AI，跳过I的深挖和O的判断。
-- **症状**："形式还在，内核被换掉了"——代码能跑、测试能过，但产品内核、设计理解、责任判断全无。
-- **"开源的闭源"**：WebCoding产物有源代码但无可理解性、无协议、无可维护性——是三者全无的黑盒。能用是随机的，不能用是必然的。
-- **自动驾驶类比**：L4全自动驾驶让人犯困（无参与感），L2辅助驾驶让人保持参与——方向盘必须握在自己手里。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 人类训练场的消失（代际危机）
 
-- **问题**：初级工程师/岗位被AI取代后，新人不再有机会通过亲手做Process积累判断力和审美。
-- **成长链条断裂**：写代码→炸了→复盘（一层）→能用但难维护（二层）→逐步改→练出审美（三层）。不写代码长不出代码审美。
-- **未解之问**：国帅坦诚"这个问题我到现在没有想清楚"——10年经验的程序员能练就判断力，新大学生练什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 两条出路：守住判断 vs 产品化判断
 
-- **个人层面 — 守住I和O的判断权**：用判断力飞轮——好I → AI做P → 人判断O → 更好的I（正循环）；反之，模糊I → AI产出一堆 → 不经判断丢出去 → 没人要（负循环）。"AI的生肉没人爱吃"。
-- **组织层面 — 把判断力产品化**：技术团队从"交付代码"转向"交付Agent能力"。铺好水电煤（网络/算力/账号/权限/上下文/监督机制），让全员在AI上探索。核心是先探上限（最好能做到什么），再谈安全和权限。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -95,29 +95,29 @@ trust_level: medium
 
 ### 新增概念（库中尚无）
 
-- **判断力三层金字塔**（能判断/一致性/审美）——可单独成卡
-- **WebCoding形式-内核分离**（"形式还在，内核被换掉了"）——技术评估新维度
-- **"审美是伤疤的组合"** ——可作为判断力域的核心命题之一
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Reusable Knowledge
 
-- **IPO位移公式**：AI接管P后，竞争力 = f(Input质量 × Output判断力)，而非Process效率。
-- **判断力飞轮**：好I → AI做P → 人判断O → 更好的I。断在哪一环都会恶性循环。
-- **三根拐杖已断**：没有AI时I/O可以糙（因为人做P时会自然修正），AI做P后坏I直接出坏O，没有中间缓冲。
-- **WebCoding评估清单**：可理解性 + 可修改性 + 可维护性 + 产品内核。四项全缺="开源的闭源"。
-- **基础设施先行**：组织级AI协作的前提是网络/算力/权限/上下文/监督五层地基，不能每人从头搭一遍。
-- **记忆方案**：人可读的持久化文档（Wiki/知识库）优于AI黑盒记忆。每次循环沉淀到文档，下次自然召回。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 初级岗位消失后，判断力的"训练场"替代方案是什么？
-- AI辅助人判断（反向）的可行性？
-- 组织级判断力产品化的具体架构——Agent权限隔离、上下文审计、沙箱准入怎么设计？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- **Content**: 拆解为独立概念卡（判断力三层金字塔 / WebCoding形式-内核分离 / 审美是伤疤的组合 / IPO人机位移）
-- **Code**: 判断力飞轮checklist工具（kdo validate扩展）
-- **Capability**: AI产出判断力训练workflow（基于真实业务场景的判断力刻意练习）
+- src_unknown
+- src_unknown
+- src_unknown

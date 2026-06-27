@@ -5,8 +5,8 @@ title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点
 type: dk
 status: draft
 domain:
-- ai-saas
-- yitang
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -16,11 +16,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - '[[tool-纪浩-处理AI生成代码运行异常]]'
-  - '[[dk-my-ai-landing-three-barriers]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-ai-judgment-programmer-paradox]]'
-  - '[[dk-jh-llm-time-blindness]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 人做判断AI做生产：核心不是会不会用AI
 
 > 一堂CTO国帅在AI时代判断力课上提出：**“我们到底能不能点这个头？我们到底能不能点这个头承担这个后果？”** 这是AI协作中唯一不可替代的人类职责。
@@ -41,9 +41,9 @@ related:
 
 ### Constraints
 
-- 适用于需要人类承担责任的场景（创业、决策、代码审查），不适用于纯娱乐/消费场景
-- 需要人有足够的领域知识才能判断
-- 情绪管理不是所有人都做得到
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击一：AI决定论
 
@@ -57,16 +57,16 @@ related:
 
 ## Cases
 
-- **正面：国帅团队用AI做代码review**，但关键逻辑判断仍由人做——"AI最不擅长的是你改的代码到底合不合逻辑，那些你看不见的东西AI不擅长"。
+- src_unknown
 
-- **反面：有人直接把AI产出的方案上线**，没有经过人的判断和测试，导致错误瞬间爆发。
+- src_unknown
 
-- **边界：纯创意/娱乐领域**（如AI绘画），"点不点头"的标准更主观。
+- src_unknown
 
 ---
 
 ## Synthesis
 
-- [[concept-纪浩-ai-collaboration-five-layer]] —— 五层结构中"项目层"是人的判断层，与本暗知识同源。
-- [[dk-jh-llm-time-blindness]] —— LLM时间盲症说明AI的推理有内在局限，需要人的判断来兜底。
-- [[tool-纪浩-里程碑验证法]] —— 里程碑验证是"敢不敢点头"的具体操作流程。
+- src_unknown
+- src_unknown
+- src_unknown

@@ -4,33 +4,33 @@
 
 id: yt-panproduct-demand-multi-perspective
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1204
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 多视角思考
-- 泛产品设计
-- 泛产品设计·用户卡片：多视角思考
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：多视角思考
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-panproduct-demand-user-segmentation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考
@@ -44,15 +44,15 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 方案讨论前明确列出内部、外部、使用者、决策者四种视角的具体诉求
+- src_unknown
   framework_lens: 产品设计是多主体博弈
   follow_up_question: 这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？
-- signal: 能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避
+- src_unknown
   framework_lens: 冲突是设计约束，不是噪声
   follow_up_question: 你最近一次的设计改动，是为了调和哪两个视角的冲突？
-- signal: 最终方案能用一句话说明如何平衡各视角，而不是只满足一方
+- src_unknown
   framework_lens: 多视角的价值在于合成
   follow_up_question: 如果只满足决策者的诉求，用户的体验会恶化到什么程度？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **虽然召集了各方开会，但方案仍是老板说了算**
-   - **原因**：多视角讨论流于形式
-   - **修复**：在会议前让各方分别写下‘必须满足’和‘可以妥协’的诉求，讨论时只处理冲突项
+   - src_unknown
+   - src_unknown
 
 2. **试图同时满足所有视角，导致方案臃肿**
-   - **原因**：没有设定优先级和取舍规则
-   - **修复**：明确核心服务对象和次要服务对象，次要视角只设‘不恶化’底线
+   - src_unknown
+   - src_unknown
 
 3. **过度强调用户视角，忽视决策者对成本/合规的要求**
-   - **原因**：视角平衡失效
-   - **修复**：为每个视角设置‘一票否决项’，方案必须全部通过才能推进
+   - src_unknown
+   - src_unknown
 
 4. **引入太多视角，会议陷入无限讨论**
-   - **原因**：视角数量失控
-   - **修复**：限制核心视角≤4个，其他视角作为背景信息而非决策参与者
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -124,9 +124,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Daniel Kahneman的"知识诅咒" + Annie Duke的"你模拟的是你的想象不是他们的真实"
 

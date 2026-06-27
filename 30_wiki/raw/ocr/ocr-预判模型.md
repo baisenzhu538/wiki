@@ -3,7 +3,7 @@
 id: "ocr-预判模型"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_e71d89ff
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 预判模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[yt-model-prediction-model]]'
-  - '[[yt-foresight-model-taxonomy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 预判模型
@@ -34,7 +34,7 @@ png` 预判模型 N要素 最糙版 一般范式：2-3个基本的要素 常见�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md`
+- src_unknown
 
 ## Visual Analysis
 
@@ -42,11 +42,11 @@ png` 预判模型 N要素 最糙版 一般范式：2-3个基本的要素 常见�
 
 ## Reusable Knowledge
 
-- 预判模型包含三种递进复杂度版本：N要素最糙版、雷达图常用版、Checklist复杂版。
-- N要素最糙版遵循"2-3个基本要素"的一般范式，常见角度包括成功要素/必备要素/原则，典型案例有爆款文案三要素、共学活动三原则。
-- 雷达图常用版的基础要求是5-7个清晰完备的维度，关键加分项为每个维度配套案例解读和进行打分评估。
-- Checklist复杂版以检查清单形式呈现（如优秀BP黄金27条），核心价值在于配套范式库/模版库/案例库。
-- 三种版本的选择取决于场景复杂度：简单场景用N要素提炼核心，中等场景用雷达图多维评估，复杂场景用Checklist系统排查。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -64,26 +64,26 @@ png` 预判模型 N要素 最糙版 一般范式：2-3个基本的要素 常见�
 
 ## Open Questions
 
-- 原文中"57个清晰完备的维度"的"57"是否为OCR误识？实际应为"5-7个"还是确指"57个"？
-- "N要素"中的N是否有明确上限或推荐范围？原文"2-3个"是硬性约束还是经验建议？
-- "预判模型"的命名依据是什么——是预判结果、预判过程，还是预判某类特定对象？适用边界未界定
-- 三种版本的递进关系是否经过验证？是否存在场景重叠或反向适用的情况（如复杂场景反而需要简化要素）？
-- "加分项"与"基础版本"的区分标准模糊：加分项是可选优化还是进阶门槛？打勾符号（√）是否表示已实现的优先级？
-- 原文未说明"预判"的具体对象——是预判项目成败、内容传播效果，还是决策质量？目标读者和使用场景缺失
-- OCR备注提示"视觉结构信息未体现"，原图中的层级关系（如三要素/三原则是否为并列案例）可能影响语义理解，需确认
-- "范式库/模版库/案例库"作为Checklist的加分项，三者之间是包含关系还是并列关系？未展开说明其构建逻辑
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-model-prediction-model]] — 预判模型三范式（N要素→雷达图→Checklist），OCR卡是该三范式的原始视觉素材，正式卡片中已有更系统的方法论阐述
-- [[yt-panproduct-aesthetic-modeling]] — 审美建模卡片中直接引用了预判模型三范式作为"从黑盒到白盒"的建模复杂度级别，OCR卡为审美建模提供了最原始的视觉参照
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 将预判模型三范式迁移至人才评估场景——N要素版=简历筛选（2-3个核心指标），雷达图版=360度评估（5-7个能力维度），Checklist版=入职胜任力审计（27项详细检查）
-- 将复杂度递进逻辑迁移至技术方案评审——简单需求用N要素快速判断，中等复杂度用雷达图多维评估，核心架构决策用Checklist系统排查
+- src_unknown
+- src_unknown
 
 
 ### 不要用的场景

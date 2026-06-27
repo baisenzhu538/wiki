@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-讲香基本功"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_98db1d35
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-个人修炼-讲香基本功"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
-  - '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
-  - '[[ocr-一堂-科学决策-决策三角形]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-讲香基本功
@@ -35,34 +35,34 @@ webp` 一堂十指模型·营销文案工具箱 堂 YitangTen-FingerModel:Market
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 一堂十指模型是营销文案工具箱，包含数字化、情绪化、口语化、金句化、故事化、冲突化、素材化、升华化、场景化、比喻化十个维度。
-- 十指模型的设计原则：一只手向下做具象，一只手向上做抽象，形成双向思维结构。
-- 营销文案应追求口语化表达，降低理解门槛，增强传播性。
-- 金句化是文案提炼的核心能力，将复杂信息浓缩为易记忆、易传播的短句。
-- 故事化与冲突化结合，通过叙事张力吸引注意力并强化信息留存。
-- 场景化是连接抽象卖点与用户具体需求的桥梁，实现从功能到体验的转化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该模型声称"一只手向下做具象，一只手向上做抽象"，但十个维度中哪些属于"向下具象"、哪些属于"向上抽象"并未明确对应，这种二分法是否严谨？
-- "数字化"在营销文案语境下的具体含义模糊：是指数据支撑、量化表达，还是数字化传播渠道？与其他九个维度的逻辑层级是否一致？
-- "讲香基本功"与"营销文案工具箱"之间的标题关系未解释：是语音转写错误（"讲香"应为"讲师"或"演讲"），还是特定术语？直接影响内容可信度判断。
-- 模型宣称"扫码辛苦学3天，不扫弯路走3年"，但未提供任何验证依据或案例数据，这一效果承诺是否构成夸大宣传？
-- "坚持只做必修课"的定位与营销文案工具箱的细分垂直性之间存在张力：该模型是通用写作方法论还是仅限营销场景？边界未厘清。
-- OCR提取的"□语化"明显为"口语化"的识别错误，但备注仅提示"可能存在连字/误识"，未说明是否已人工复核——提取知识是否基于纠错后的文本？
-- 十个维度是否存在优先级或应用顺序？"素材化"与"升华化"的先后关系、"故事化"与"冲突化"的耦合程度均未说明，实际操作中如何组合？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"向下具象向上抽象"的对应不清晰：模型声称十个维度中有些属于"向下具象"、有些属于"向上抽象"，但未明确指出哪些维度属于哪一类。这种二分法可能是为了简洁而强行对应。
-- **"数字化"的含义模糊：在营销文案语境下，"数字化"是指数据支撑、量化表达，还是数字传播渠道？与其他九个维度的逻辑层级不一致。
-- **营销话术与方法论的张力："扫码辛苦学3天，不扫弯路走3年"的营销话术与"科学学习"的定位存在冲突，未提供任何验证数据。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -76,20 +76,20 @@ Marshall McLuhan 在《理解媒介》中证明："媒介即讯息"——传播�
 
 ### 不要用的场景
 
-- **学术写作或科技论文：这些场景需要准确性和完整性，"金句化"、"情绪化"、"口语化"可能导致严肃性下降。
-- **需要深度分析的B2B白皮书：十指模型适合低涉入决策的消费品营销，但在需要深度论证的场景中可能过于简化。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — 十指模型的完整版本，提供了更详细的十个维度解释
-- yt-decision-expressive-rocket — 表达力火箭模型与十指模型在"营销表达"领域形成互补
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 短文案写作：用十个维度快速检查文案是否缺少关键元素
-- 社交媒体内容设计：用"金句化"和"情绪化"优化短视频文案
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

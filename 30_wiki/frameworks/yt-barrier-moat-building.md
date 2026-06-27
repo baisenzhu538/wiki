@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-moat-assessment
-  - yt-barrier-defensive-strategy
-  - yt-barrier-offensive-strategy
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们想建立壁垒，但不知道从哪里开始'"
+  - src_unknown
     framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
     follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？"
-  - signal: "用户说'我们的壁垒建设太慢，竞品已经领先'"
+  - src_unknown
     framework_lens: 壁垒建设路线图——壁垒建设需要时间，但可以加速
     follow_up_question: "你的壁垒建设瓶颈是什么？资源、时间、还是方法？"
-  - signal: "用户说'我们建了壁垒，但用户感知不到'"
+  - src_unknown
     framework_lens: 壁垒建设路线图——壁垒需要用户感知，才能转化为竞争优势
     follow_up_question: "你的壁垒是否转化为用户价值？用户是否因为壁垒而选择你？"
-  - signal: "用户说'我们的壁垒建设投入大，但效果不明显'"
+  - src_unknown
     framework_lens: 壁垒建设路线图——壁垒建设需要聚焦，不能分散
     follow_up_question: "你的壁垒建设是否聚焦？核心壁垒是什么？投入是否集中？"
-  - signal: "用户说'壁垒建设是长期的事，我们现在需要增长'"
+  - src_unknown
     framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
@@ -129,21 +129,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当规划战略时 → 壁垒建设路线图
-- 当评估现状时 → 现状评估
-- 当设定目标时 → 目标设定
-- 当执行时 → 监控调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-moat-assessment`：护城河评估工具
-- `yt-barrier-defensive-strategy`：防御策略
-- `yt-barrier-offensive-strategy`：进攻策略
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 战略管理研究
-- 壁垒建设实践
+- src_unknown
+- src_unknown
+- src_unknown

@@ -7,25 +7,25 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 1915
 language: zh-CN
 query_triggers:
-- 人类三角 × AI 三角
-- 关联卡片
-- 双三角竞争力模型
-- 双螺旋增强回路
-- 基础层
-- 知识体系定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[ocr-一堂-科学决策-人机协作决策]]'
-  - '[[ocr-一堂-个人修炼-双三角模型]]'
-  - '[[ocr-一堂-人机协作-双三角模型]]'
-  - '[[case-yitang-double-triangle-confidence]]'
-  - '[[yt-model-muse-ai-framework]]'
-  - '[[yt-personal-ai-capability]]'
-  - '[[yt-personal-ipo-learning]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -39,12 +39,12 @@ yitang:
   course_type: model
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户AI工具用得很溜，但业务结果一般
+- src_unknown
   framework_lens: AI三角强但人类三角弱——工具能力强不等于业务判断力强
   follow_up_question: 你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补
-- signal: 用户业务能力强，但AI不会用
+- src_unknown
   framework_lens: 人类三角强但AI三角弱——工具效率没有放大业务能力
   follow_up_question: 你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补
 updated_at: '2026-06-16'
@@ -93,8 +93,8 @@ trust_level: medium-high
 
 ### 基础层
 
-- 人类三角基础：专业见识、科学体系思维
-- AI 三角基础：LLM 提示词/智能体、数据准备能力
+- src_unknown
+- src_unknown
 
 ---
 
@@ -105,12 +105,12 @@ trust_level: medium-high
 ### 空间层级
 
 原图采用"上-中-下"三段垂直层级 + "左-中-右"水平对称结构：
-- **L1 标题层**（顶部）→ 品牌Logo + 主标题
-- **L2 核心模型层**（中上部，占据~60%面积）→ 左右双三角
-- **L3 问题牵引层**（中腰部，三角两侧）→ 灵魂拷问框
-- **L4 互动循环层**（中下部，双三角之间）→ 双向弧线箭头 + 乘积公式
-- **L5 支撑展开层**（底部）→ 四维支撑详细说明
-- **L6 元信息层**（最底部）→ 版本号 + 品牌口号
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键发现**：两个三角并非等边三角形，而是上窄下宽的梯形堆叠——在视觉上制造了"金字塔稳定性"的心理暗示。
 
@@ -139,9 +139,9 @@ trust_level: medium-high
 
 ### 留白含义
 
-- **中心大面积留白**：仅放置"×"和双向箭头 → 强调"两者之间"的互动关系是核心
-- **三角与底部支撑层之间空白带** → 功能分区：上方是"模型骨架"，下方是"血肉细节"
-- **灵魂拷问框外侧无留白** → 暗示问题是从三角内部"生长"出来的
+- src_unknown
+- src_unknown
+- src_unknown
 
 **留白的设计智慧**：中心大面积留白在信息图中看似"浪费空间"，实则创造了视觉呼吸感——如果中心填满文字，乘积关系的认知冲击力将大幅下降。留白 = 强调关系而非内容。
 
@@ -171,7 +171,7 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-muse-ai-framework]]
+- src_unknown
 
 ## Constraints & Boundaries
 

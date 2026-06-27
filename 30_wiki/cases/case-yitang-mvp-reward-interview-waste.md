@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - '[[case-yitang-pet-fostering-user-research]]'
-  - '[[case-liutao-electric-bike-localization]]'
-  - '[[case-zhanglei-furniture-overseas-market-selection]]'
-  - '[[case-yitang-doorstep-nail-service-context]]'
-  - '[[case-yitang-ski-project-user-as-expert]]'
-  - "[[framework-yitang-expert-interview-10steps]]"
-  - "[[concept-ceo-must-do-user-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：重金做用户访谈但方向全错

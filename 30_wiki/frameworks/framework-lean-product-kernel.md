@@ -14,17 +14,17 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_vlm_desc.md
 related:
-  - '[[tool-lean-premium-service]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[yt-product-kernel-mvp-design]]'
-  - '[[yt-product-kernel-definition]]'
-  - '[[tool-lean-leverage-resources]]'
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-false-model]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 产品内核：不要过早细化未经思考的内核
@@ -65,14 +65,14 @@ related:
 ## 适用边界
 
 **适合**：
-- 团队准备进入设计/开发/生产前，对"到底什么是内核"意见不一
-- 产品方案已经细化，但核心假设尚未被验证
-- 资源有限，需要把细节打磨推迟到内核确认之后
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合 / 需要调整**：
-- 已验证内核、进入规模化放量的阶段：此时应关注执行效率而非"是否内核"
-- 强监管行业：内核确认后仍需合规审查，不能因"低成本"跳过
-- 品牌敏感型产品：粗糙内核可能直接损伤信任，需要在"最小内核"与"品牌底线"之间折中
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -86,20 +86,20 @@ related:
 ## 案例映射
 
 **正例：共享电动滑板车 A/B/C/D 四级验证** [conf=0.85, source=case-lean-electric-scooter-mvp]
-- D 版只做一张海报/小程序，验证"中国用户是否对电动滑板出行感兴趣"
-- 未进入自研滑板车、APP、会员系统，就先用最低成本回答了"是否决定"
-- 启示：内核未确认前，把细化推迟到下一级
+- src_unknown
+- src_unknown
+- src_unknown
 
 **反例：彩票共享产品** [conf=0.70, source=concept-一堂-kernel-validation]
-- 团队假设"用户会为了免费抽奖看广告"是内核，未验证即投入硬件、软件、彩票资金
-- 若先用"是否决定"和"是否完备"审视，可能发现广告主和商家两端都不买账
-- 教训：内核未经思考就全量投入，会把细化成本变成沉没成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与相关框架的关系
 
 本卡是 [[concept-一堂-kernel-validation]] 的**前置警示**，而非替代：
-- concept-一堂-kernel-validation 提供"三维度 + 六策略"的完整验证流程；
-- 本卡把三维度压缩成"细化前必须回答的三个 No-go 问题"，重点在于**阻止过早细化**。
+- src_unknown
+- src_unknown
 
 ---
 

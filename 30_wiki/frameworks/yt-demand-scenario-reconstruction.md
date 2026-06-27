@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-scenario-reconstruction
 title: 用户场景重构法：使用前中后的完整体验地图
@@ -17,25 +17,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-qualitative-analysis
-  - yt-demand-jtbd-application
-  - yt-demand-peak-end-rule
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户只能描述产品功能，说不出用户使用的具体画面"
+  - src_unknown
     framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
     follow_up_question: "你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？"
-  - signal: "用户说'我们的产品很好'，但描述不出用户使用的完整过程"
+  - src_unknown
     framework_lens: 场景碎片化——只有片段，没有完整旅程
     follow_up_question: "用户使用你的产品前，在做什么？使用中遇到什么？使用后得到什么？"
-  - signal: "用户访谈了很多，但每个用户的描述都不一样，无法归纳"
+  - src_unknown
     framework_lens: 场景未结构化——缺乏统一的分析框架
     follow_up_question: "你能把不同用户的描述填进'使用前中后'三个阶段的框架吗？"
-  - signal: "产品设计了很多功能，但用户实际使用的路径和预期不同"
+  - src_unknown
     framework_lens: 场景假设错误——设计场景≠实际场景
     follow_up_question: "你有观察过真实用户实际使用产品的过程吗？和你设计的场景一致吗？"
-  - signal: "用户流失率高，但不知道在哪个环节流失的"
+  - src_unknown
     framework_lens: 场景断点——体验地图有缺口
     follow_up_question: "用户在'使用中'的哪个节点最容易放弃？为什么？"
 
@@ -60,9 +60,9 @@ diagnostic_signals:
 
 一堂口述稿要求能回答三个递进问题：
 
-- **基础**：什么用户，在什么场景，解决什么问题？
-- **进阶**：用户使用前、中、后的体验和具体过程？
-- **高阶**：涉及什么样的决策链条（ToB）？关键决策人是谁？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 场景描述的颗粒度
 
@@ -70,22 +70,22 @@ diagnostic_signals:
 
 ```
 使用前：
-- 时间：周一早上9点，销售例会前
-- 状态：销售经理小李需要汇报上周客户跟进情况
-- 痛点：Excel表格混乱，找不到最新状态，花了2小时整理
-- 情绪：焦虑、烦躁
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 使用中：
-- 打开APP，看到客户列表
-- 点击"本周跟进"，自动筛选出需要汇报的客户
-- 每个客户显示最新状态、下次跟进时间
-- 一键生成汇报PPT
-- 体验：从焦虑到放松，从2小时到5分钟
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 使用后：
-- 结果：准时完成汇报，数据准确
-- 价值：节省1小时55分钟，避免遗漏重要客户
-- 下一步：设置下周跟进提醒，推荐给同事
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ### 3. ToB场景的决策链
@@ -134,21 +134,21 @@ ToB产品必须描述**决策链**，不是单一用户：
 
 ## 行动触发器
 
-- 当你要描述产品时 → 先描述用户场景
-- 当你设计功能时 → 先画用户使用旅程
-- 当你做用户访谈时 → 要求用户描述"使用前中后"
-- 当你做ToB产品时 → 先画出决策链，再画场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-jtbd-application`：JTBD需求分析实战应用
-- `yt-demand-peak-end-rule`：峰终定律在需求分析中的应用
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂需求分析段位图
-- 一堂案例大爆炸：场景描述不足的失败案例
+- src_unknown
+- src_unknown
+- src_unknown

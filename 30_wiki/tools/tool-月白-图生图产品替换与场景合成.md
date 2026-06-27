@@ -4,32 +4,32 @@ title: 技能：图生图产品替换与场景合成
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI生图与图生图决策法]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-设计参考图精准定位法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-实物包装落地训练法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：图生图产品替换与场景合成
 
@@ -48,27 +48,27 @@ related:
 
 ## 适用场景
 
-- 已有明确场景和产品元素
-- 需要将产品植入特定场景
-- 做海报样例、概念验证
-- 元素替换、改图环节
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 探索性创作、无明确元素
-- 需要从零生成全新概念
-- 产品形态尚未确定
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 支持图生图的AI工具（如豆包AI、Stable Diffusion等）
-- 白底图素材
-- 场景参考图
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -76,12 +76,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

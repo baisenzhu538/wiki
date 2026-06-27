@@ -9,7 +9,7 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
@@ -18,17 +18,17 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
 related:
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[ocr-一堂-单元模型-对抗小抄]]'
-  - '[[ocr-一堂-单元模型-对抗小抄02]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[dk-单元模型-规模对抗实操难点]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[framework-单元模型-外部对抗地图]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: "2026-06-27"
 ---
 
@@ -52,10 +52,10 @@ review_date: "2026-06-27"
 
 ## 使用场景
 
-- 完成规模对抗要素扫描后，需要快速生成候选对策
-- 团队头脑风暴时，用结构化清单避免遗漏策略方向
-- 向投资人/高管汇报时，展示对冲策略的系统性与可操作性
-- 设计组织升级/业务升级方案时，作为策略灵感库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -114,10 +114,10 @@ review_date: "2026-06-27"
 
 ## 适用边界
 
-- 不适合未验证单元模型的业务：策略再丰富，也救不了基本盘不成立的模式。
-- 不适合一次性套利业务：不需要体系化升级，只需抓住窗口期。
-- 不适合高度依赖个人品牌的业务：A 类替代策略可能损害品牌价值。
-- 不适合纯技术驱动的业务：某些 AI/软件产品的规模不经济来自算力成本而非人工或管理，需要不同的对冲策略。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -131,20 +131,20 @@ review_date: "2026-06-27"
 
 ## 行动 Checklist
 
-- [ ] 完成规模对抗要素扫描，列出所有不利要素（使用 `framework-单元模型-外部对抗地图`）
-- [ ] 为每个不利要素标注它是人工问题、管理问题、还是业务结构问题
-- [ ] 从 ABC 三类中各选 1-2 条候选策略（共 3-6 条）
-- [ ] 逐条评估策略与当前阶段的匹配度（早期/成长期/成熟期）
-- [ ] 选出 2-3 条主攻策略，设定 3/6/18 个月里程碑
-- [ ] 为每条主攻策略指定追踪指标（如替代率、SOP 覆盖率、标准化产品占比）
-- [ ] 每月复盘：策略是否在按预期降低规模不经济？是否需要换策略？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- **[[dk-单元模型-规模对抗实操难点]]**：对抗小抄是规模对抗环节的速查工具，对应其中「策略-要素映射表」的实现。实操难点告诉你"难在哪"，对抗小抄告诉你"怎么办"。
-- **[[tool-单元模型-壁垒预判]]**：壁垒预判识别强弱，对抗小抄提供从弱变强的候选路径。
-- **[[framework-单元模型-外部对抗地图]]**：外部变化优先级决定是否需要启动规模对抗。先用地判断"要不要对抗"，再用小抄判断"怎么对抗"。
-- **[[tool-sop-template-modeling]]**：B10（善用 SOP）的具体操作依赖 SOP 建模能力，需联动使用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

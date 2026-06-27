@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-user-segmentation
-  - yt-demand-hierarchy-model
-  - yt-demand-qualitative-analysis
-  - yt-demand-scenario-reconstruction
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'所有人都是我的目标用户'"
+  - src_unknown
     framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
     follow_up_question: "用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？"
-  - signal: "产品功能服务多个用户群，但每个群都不满意"
+  - src_unknown
     framework_lens: 需求分层画布——未分层导致功能分散
     follow_up_question: "你的核心功能服务哪一层用户？这一层占多大比例？"
-  - signal: "用户增长很快但留存很差，流失用户画像不一致"
+  - src_unknown
     framework_lens: 需求分层画布——获取了非核心用户
     follow_up_question: "流失用户属于哪一层？他们和你的核心用户层差异是什么？"
-  - signal: "团队争论'应该做哪个功能'"
+  - src_unknown
     framework_lens: 需求分层画布——功能应服务于特定层
     follow_up_question: "这个功能主要服务哪一层用户？这一层的优先级是什么？"
-  - signal: "用户说'我们比竞品服务更广'"
+  - src_unknown
     framework_lens: 需求分层画布——广度≠深度
     follow_up_question: "竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？"
 
@@ -122,9 +122,9 @@ diagnostic_signals:
 
 分层不是一次性的，需要定期调整：
 
-- 第一批服务好后，口碑扩散到第二批
-- 市场变化，某层的需求强度可能变化
-- 竞品进入，某层的获取难度可能变化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -148,21 +148,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你想说"所有人都是我的用户"时 → 用画布填出第一批100个
-- 当转化率低时 → 检查是否匹配了非核心用户层
-- 当团队争论功能优先级时 → 先对齐"服务哪一层用户"
-- 当考虑扩展新用户群时 → 先验证当前层是否已深度服务
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-user-segmentation`：用户分层与需求差异
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂需求分析段位图
-- 一堂案例大爆炸：用户分层案例
+- src_unknown
+- src_unknown
+- src_unknown

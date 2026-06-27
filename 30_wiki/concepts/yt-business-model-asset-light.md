@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-scalability
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户重资产投入，现金流压力大"
+  - src_unknown
     framework_lens: 轻资产模式——重资产模式现金流压力大，考虑轻资产
     follow_up_question: "你的资产投入中，哪些可以外包或合作？轻资产模式是否可行？"
-  - signal: "用户说'我们要自建工厂/仓库'"
+  - src_unknown
     framework_lens: 轻资产模式——自建vs外包，需要评估核心能力
     follow_up_question: "自建工厂是你的核心能力吗？外包是否能降低成本和风险？"
-  - signal: "用户资产周转率低，资金效率差"
+  - src_unknown
     framework_lens: 轻资产模式——轻资产提升资产周转率
     follow_up_question: "你的资产周转率是多少？轻资产模式能否提升？"
-  - signal: "用户说'轻资产模式不稳定'"
+  - src_unknown
     framework_lens: 轻资产模式——轻资产需要强管理能力
     follow_up_question: "轻资产模式的不稳定性来自哪里？管理能力是否匹配？"
-  - signal: "用户重资产模式，但核心竞争力不在资产"
+  - src_unknown
     framework_lens: 轻资产模式——核心竞争力不在资产，应考虑轻资产
     follow_up_question: "你的核心竞争力是什么？是资产、品牌、技术、还是运营？"
 
@@ -134,21 +134,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当资产投入大时 → 评估轻资产模式
-- 当现金流压力大时 → 考虑轻资产
-- 当需要快速扩张时 → 轻资产加速扩张
-- 当核心竞争力非资产时 → 轻资产聚焦核心
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-scalability`：可规模化评估
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 轻资产模式研究
-- 耐克、苹果轻资产案例
+- src_unknown
+- src_unknown
+- src_unknown

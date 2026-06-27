@@ -10,27 +10,27 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-ai-neutrality-bias]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 信息质量阶梯
@@ -213,13 +213,13 @@ BITCOE 的六个槽位（Background / Instruction / Task / Constraint / Output /
 
 ## 行动 Checklist
 
-- [ ] 选一条最近让你焦虑或兴奋的 AI 预测/新闻。
-- [ ] 用 30 秒判断它处于信息质量阶梯的哪一层。
-- [ ] 如果要据此做决策，写出它需要升维到哪一层。
-- [ ] 找到至少一个更高层来源，并记录其关键数字与口径。
-- [ ] 为每个关键断言添加 `[conf=X, source=...]`。
-- [ ] 检查作者椅子：这条信息的发布方利益结构是什么？
-- [ ] 把最终判断转化为一个今天就能做的具体动作。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -241,9 +241,9 @@ BITCOE 的六个槽位（Background / Instruction / Task / Constraint / Output /
 > **回应**：AI 能加速“定位”和“总结”，但“判断哪一层来源足以支撑我的决策”以及“把证据转化为我的行动”仍需人完成。否则你只是把 AI 的二手输出当成自己的一手判断。
 
 **不要用**：
-- 不要把它当作“所有信息都必须追溯到一手论文”的教条。
-- 不要让“来源层级”替代对内容本身的独立判断。
-- 不要在时间极紧、 stakes 极低的信息消费中强行完整审计。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

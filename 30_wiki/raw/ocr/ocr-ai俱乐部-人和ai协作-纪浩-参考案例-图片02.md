@@ -3,8 +3,8 @@
 title: 'OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02'
 type: concept
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 status: draft
 source_refs:
 - src_20260609_9223aac2
@@ -17,11 +17,11 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_9223aac2）
 related:
-  - '[[structured-ai-workspace]]'
-  - '[[ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper]]'
-  - '[[case-jh-yitang-vs-sqlhelper]]'
-  - '[[case-ji-hao-ai-workspace-chaos]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02
 
@@ -35,30 +35,30 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 系统自述（架构、组件、技术栈）缺失会导致架构随演化发生漂移，应通过项目架构文档持续记录。
-- 领域知识（业务名词、表结构、查询映射等）缺失会造成业务逻辑冲突、混乱且不可验证，需按业务线分类维护。
-- 服务于Agent的约束信息（ForAgent）缺失会导致行为模式混乱、重复犯错，需建立导诊台机制按任务类型路由。
-- 封闭任务（如SQL翻译）可直接执行无需导诊台，开放任务（开发、debug、运维、新需求讨论等）必须先经导诊台路由。
-- Agent工作手册（AGENTS.md+各类任务执行规范）缺失会导致每类任务规范不一，需为数据分析等任务制定独立执行步骤。
-- 工具箱（系统命令、脚本、线上访问权限）缺失会降低效率，应维护从metabase/tidb更新信息的自动化脚本。
-- 经验与模式库缺失影响中等，应通过hook+rag注入Agent工作过程中积累的运营SOP、case排查记录、慢查询等业务知识。
-- 长周期/复杂任务的状态与上下文管理缺失会导致难以跟踪、推进和交付，建议用git+codex对话管理，每次查询独立生成物理目录保存上下文与交付物。
-- 日志（Agents日志、系统日志）缺失使系统性问题难以追踪定位，需建立指标体系和优化方向。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 表格中"关注点"与"例子"的列对应关系多处错位（如"一堂be SQL-Helper"归属不明），原始视觉结构丢失是否导致知识提取错误？
-- "增长速度"列的"快/慢/中等/非常快"是描述缺失影响的发展速度还是修复优先级？度量标准未定义。
-- "ForAgent 约束信息"与"导诊台"是否为同一概念的分层表述，还是独立并列的两类知识？层级关系模糊。
-- 封闭任务定义中"把用户问题翻译成合适的SQL"与"数据分析任务的执行规范"是否存在范畴重叠？边界未厘清。
-- "用git和codex对话简单管理"与"可以接入成熟的issue管理平台"是互斥方案还是互补方案？决策条件未说明。
-- "经验与模式库"通过"hook+rag进行注入"的技术可行性假设——当前RAG系统的实时注入能力是否支撑"工作过程中"的动态更新？
-- "每次用户查询任务，独立生成一个物理目录"的存储膨胀问题与目录命名/归档策略未提及，长期可维护性存疑。
-- 日志管理"没有指标和优化方向"与"非常快"的增长速度形成矛盾：若增长极快却无指标，如何得出"非常快"这一判断？数据来源未交代。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

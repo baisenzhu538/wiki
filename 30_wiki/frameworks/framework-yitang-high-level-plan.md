@@ -13,39 +13,39 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 调研计划
-- 高水平计划
-- OSC框架
-- 锁定目标
-- 缩小范围
-- 罗列清单
-- 调研前期准备
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-oscar-research]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[concept-yitang-research-scope]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-validate-assumption]]'
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[framework-yitang-four-research-types]]"
-  - "[[framework-yitang-research-radar]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-intelligence-map]]"
-  - "（tool-yitang-research-checklist，待补）"
-  - "[[concept-yitang-research-scope]]"
-  - "[[concept-yitang-research-objective]]"
-  - "[[tool-yitang-research-competitive-quadrant]]"
-  - "[[tool-yitang-research-two-dimensional-positioning]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
@@ -76,14 +76,14 @@ related:
 ### 核心原则：调研是解答题，不是了解题
 
 **错误目标**：
-- "了解一下这个行业"
-- "看看竞品在做什么"
-- "收集一些用户反馈"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **正确目标**：
-- "判断是否进入XX行业，需要验证哪3个假设"
-- "找出竞品A的核心优势，判断我们是否能在6个月内追上"
-- "验证用户是否愿意为XX功能付费，定价区间是多少"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四种调研目标类型
 
@@ -96,11 +96,11 @@ related:
 
 ### 目标锁定检查清单
 
-- [ ] 目标是否明确到"做出什么决策"？
-- [ ] 目标是否可验证（有明确的通过/不通过标准）？
-- [ ] 目标是否有时限（什么时候需要这个决策）？
-- [ ] 目标是否可执行（调研结果能直接指导行动）？
-- [ ] 目标是否被所有相关方认可？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -109,16 +109,16 @@ related:
 ### 三原则：专注·专业·剥离
 
 **专注原则**：一次只解决一个核心问题
-- 错误："同时调研行业、竞品、用户、供应链"
-- 正确："先调研行业是否值得进入，再调研具体怎么做"
+- src_unknown
+- src_unknown
 
 **专业原则**：调研深度要匹配决策重要性
-- 错误："投资1000万的项目，只看了3篇行业报告"
-- 正确："投资1000万的项目，至少访谈10个专家、分析5个竞品、验证100个用户"
+- src_unknown
+- src_unknown
 
 **剥离原则**：剥离与核心问题无关的信息
-- 错误："调研竞品时，连竞品的办公室装修都研究"
-- 正确："只调研与核心决策相关的信息，其他一律剥离"
+- src_unknown
+- src_unknown
 
 ### 四个调研层面
 
@@ -131,11 +131,11 @@ related:
 
 ### 范围缩小检查清单
 
-- [ ] 是否明确了本次调研的核心问题？
-- [ ] 是否确定了调研层面（宏观/中观/微观/单点）？
-- [ ] 是否列出了"不调研什么"（剥离清单）？
-- [ ] 调研范围是否与决策重要性匹配？
-- [ ] 团队是否认同这个范围？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -144,19 +144,19 @@ related:
 ### 三步骤：认识竞争·寻找最优·逐步挖掘
 
 **认识竞争**：
-- 画出竞争象限（横轴：价格，纵轴：价值）
-- 标注自己和竞品的位置
-- 识别空白区和红海区
+- src_unknown
+- src_unknown
+- src_unknown
 
 **寻找最优**：
-- 二维定位：找到差异化的坐标
-- 按图索骥：根据定位寻找对标案例
-- 最佳实践：学习行业内做得最好的
+- src_unknown
+- src_unknown
+- src_unknown
 
 **逐步挖掘**：
-- 从公开信息开始
-- 逐步深入到半公开信息
-- 最后用挖掘式获取水下信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 清单工具
 
@@ -232,24 +232,24 @@ Step 5: 归因与决策（R）
 
 ## 关联卡片
 
-- [[framework-yitang-high-level-execution]] — AR高水平执行
-- [[framework-yitang-four-research-types]] — 四类调研模型
-- [[framework-yitang-research-radar]] — 调研能力诊断
-- [[yt-research-osl-framework]] — OSCAR调研五步法
-- [[yt-research-intelligence-map]] — 情报获取地图
-- [[concept-yitang-research-scope]] — 缩小范围三原则
-- [[concept-yitang-research-objective]] — 锁定目标方法论
-- [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具
-- [[tool-yitang-research-two-dimensional-positioning]] — 二维定位工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：系统调研（高水平计划）VLM描述（0.95置信度）
-- 交叉：一堂-系统式调研-口述（Truman，2020）
-- 验证：business-research-skill OSCAR模型定义
-- 注意：OSC是OSCAR的前三步，与完整五步法一致
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

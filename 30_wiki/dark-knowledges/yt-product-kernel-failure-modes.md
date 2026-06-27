@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-failure-modes
 title: 产品内核失败的5种模式
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-premature-optimization
-  - yt-product-kernel-do-without-belief
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户产品上线后，发现没人用"
+  - src_unknown
     framework_lens: 产品内核失败模式——需求假设错误
     follow_up_question: "产品开发前，需求验证了吗？用户真的需要这个解决方案吗？"
-  - signal: "用户产品功能很多，但用户不知道核心价值"
+  - src_unknown
     framework_lens: 产品内核失败模式——内核不清晰
     follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？用户能说出来吗？"
-  - signal: "用户产品比竞品好，但用户选竞品"
+  - src_unknown
     framework_lens: 产品内核失败模式——差异化不足或用户不感知
     follow_up_question: "用户选择竞品的原因是什么？你们的好，用户感知到了吗？"
-  - signal: "用户产品初期增长快，但很快停滞"
+  - src_unknown
     framework_lens: 产品内核失败模式——内核未迭代
     follow_up_question: "市场变化后，内核调整了吗？还是一直在用初始内核？"
-  - signal: "用户团队对产品方向争论不休，无法决策"
+  - src_unknown
     framework_lens: 产品内核失败模式——团队对内核无共识
     follow_up_question: "你们团队对内核的定义一致吗？写下来，看是否相同？"
 
@@ -62,70 +62,70 @@ diagnostic_signals:
 **核心问题**：用户不需要这个解决方案。
 
 **症状**：
-- 产品上线后，用户不用
-- 用户说"挺好的，但不需要"
-- 获客成本极高，转化率极低
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预防**：
-- 产品开发前，做需求验证
-- 验证"用户愿意用、愿意付、愿意推荐"
-- 至少访谈10个目标用户
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 失败模式2：内核不清晰
 
 **核心问题**：用户不知道产品的核心价值。
 
 **症状**：
-- 功能很多，但用户不知道核心功能
-- 用户无法用一句话描述产品价值
-- 关键转化率低
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预防**：
-- 定义清晰的产品内核
-- 用一句话描述核心价值
-- 验证用户是否感知到核心价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 失败模式3：差异化不足
 
 **核心问题**：用户不感知差异化。
 
 **症状**：
-- 产品比竞品好，但用户选竞品
-- 用户说"你们和竞品差不多"
-- 只能打价格战
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预防**：
-- 找到独特价值
-- 验证用户是否感知到差异化
-- 强化差异化认知
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 失败模式4：内核未迭代
 
 **核心问题**：市场变化后，内核未调整。
 
 **症状**：
-- 初期增长快，但很快停滞
-- 竞品推出新功能，用户流失
-- 市场从蓝变红，竞争力下降
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预防**：
-- 建立市场监测机制
-- 定期评估内核是否需要迭代
-- 根据市场变化调整内核
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 失败模式5：团队无共识
 
 **核心问题**：团队对内核理解不同。
 
 **症状**：
-- 团队对产品方向争论不休
-- 每个人对内核理解不同
-- 资源分散，无法聚焦
+- src_unknown
+- src_unknown
+- src_unknown
 
 **预防**：
-- 团队一起定义内核
-- 写下来，确保一致
-- 定期复盘，对齐认知
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -149,22 +149,22 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当产品上线后没人用时 → 检查需求假设是否错误
-- 当用户不知道核心价值时 → 检查内核是否清晰
-- 当用户选竞品时 → 检查差异化是否足够
-- 当增长停滞时 → 检查内核是否需要迭代
-- 当团队争论时 → 检查内核是否有共识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-premature-optimization`：过早细化陷阱
-- `yt-product-kernel-do-without-belief`："做而不信"陷阱
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂案例大爆炸：产品内核失败案例
+- src_unknown
+- src_unknown
+- src_unknown

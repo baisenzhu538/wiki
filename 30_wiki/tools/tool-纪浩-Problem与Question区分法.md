@@ -4,8 +4,8 @@ title: 技能：Problem与Question区分法（纪浩版）
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-ai-problem-question-check]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[tool-ai-four-elements-validation]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用AI烧了很多token但产出无用，没有区分problem/question
+- src_unknown
   lens: token浪费
   follow_up: 每次向AI提问前3秒判断：这个问题解决后我的行为会改变吗？会=problem，不会=question
-- signal: 需求似乎无限放大、边界模糊
+- src_unknown
   lens: 需求膨胀
   follow_up: 四层验证不通过则不下场动手。Before-After不清晰、锚点不具体、受益人不明确、可解性不足=暂停
-- signal: 在错误问题上投入大量资源，最后发现是伪需求
+- src_unknown
   lens: 伪需求陷阱
   follow_up: 四层验证是前置门禁，不是事后复盘。必须在动手前完成验证，不是做了才发现不对
-- signal: 把question包装成problem，逃避行动检验
+- src_unknown
   lens: 伪装problem
   follow_up: 用before/after检验：能不能写出具体的before/after？写不出就是question，不要伪装
-- signal: 四层验证通过但执行失败，验证标准太松
+- src_unknown
   lens: 验证宽松
   follow_up: 四层验证必须严格：before/after可观察、锚点具体到时间地点、受益人可命名、可解性有因果链
 ---# 技能：Problem与Question区分法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -89,15 +89,15 @@ AI时代AI能执行工具改变现实世界，区分Problem与Question避免将t
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-ai-problem-question-check]] — 更通用的problem/question区分法
-- [[tool-纪浩-真需求四要素验证法]] — 确认是problem后的详细验证
-- [[tool-ai-four-elements-validation]] — 四要素验证的AI应用版本
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

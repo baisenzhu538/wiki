@@ -7,26 +7,26 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 1825
 language: zh-CN
 query_triggers:
-- 个人修炼地图
-- 关联卡片
-- 四层金字塔
-- 核心追求
-- 知识体系定位
-- 迭代层的双螺旋
-- 领先层六大能力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
-  - '[[yt-model-management-map]]'
-  - '[[ocr-一堂-个人修炼-课程清单]]'
-  - '[[ocr-一堂-地图-个人地图]]'
-  - '[[yt-model-progress-map]]'
-  - '[[yt-model-personal-pitch-toolkit]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[case-truman-personal-growth-map-creation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
@@ -41,12 +41,12 @@ yitang:
   course_type: model
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户看完个人地图后很兴奋，但一周后回到原来的生活节奏
+- src_unknown
   framework_lens: 地图没有触发改变——个人修炼需要持续系统，不是一次性的认知冲击
   follow_up_question: 过去一周你有没有按照地图上的任何一个模块采取行动？哪怕只是时间管理的一个小调整？
-- signal: 用户直接追求"人生红点"，但基础层时间管理一团糟
+- src_unknown
   framework_lens: 跨层跳跃——个人地图的金字塔需要逐层建设
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
@@ -94,8 +94,8 @@ trust_level: medium-high
              → 快速螺旋上升 →
 ```
 
-- **重在知识树**（学得更多）：知识管理、体系思维、深度思考、学会提问
-- **重在大量练**（练得更多）：刻意练习、记笔记、灵感闪现
+- src_unknown
+- src_unknown
 
 ### 核心追求
 
@@ -114,9 +114,9 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-progress-map]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

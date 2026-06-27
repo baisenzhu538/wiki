@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "三种预判范式"
-  - "从最糙版到复杂版的三种预判范式"
-  - "使用原则"
-  - "常见角度"
-  - "预判模型"
-  - "预判模型：从最糙版到复杂版的三种预判范式"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 superseded_by:
-  - yt-foresight-model-taxonomy
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260522_e71d89ff-ocr-预判模型
@@ -32,8 +32,8 @@ yitang:
   module: "创业必修"
   course_type: framework
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户用旧版预判模型做重要决策', 'framework_lens': '已被替代', 'follow_up_question': '你知道 [[yt-foresight-model-taxonomy]] 已经替代了本卡吗？重要决策应参考新版'}
   - {'signal': '用户只用最糙版处理复杂决策', 'framework_lens': '工具不足', 'follow_up_question': '这个决策失败的代价是什么？如果高，N要素不够'}
@@ -41,11 +41,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[ocr-预判模型]]'
-  - '[[yt-panproduct-aesthetic-modeling]]'
-  - '[[yt-foresight-model-taxonomy]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 预判模型：从最糙版到复杂版的三种预判范式
 
@@ -89,15 +89,15 @@ related:
 
 ### 使用原则
 
-- **从最糙版开始**：不要一上来就做复杂 Checklist——先用 2-3 个要素做快速判断，验证这个方向值得深入后再升级
-- **范式库 > 单次判断**：建立自己的预判范式库——爆款文案的预判模型、优秀团队的预判模型、好需求的预判模型……积累越多，判断越快越准
-- **从案例到范式是质变**：看到 100 个爆款文案 ≠ 能预判下一个会不会爆——提炼出"爆款文案三要素"才算有预判能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 常见角度
 
-- **成功要素角度**：做这件事需要哪些要素才能成功？
-- **必备要素角度**：缺了哪个要素必定失败？
-- **原则角度**：做这件事必须遵循什么原则？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 

@@ -3,8 +3,8 @@ id: tool-纪浩-案例池构建法
 title: 技能：案例池构建法
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -16,15 +16,15 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
 related:
-- '[[tool-纪浩-新手心态启动法]]'
-- '[[tool-纪浩-项目启动五问法]]'
-- '[[tool-纪浩-线上问题应急值守]]'
-- '[[tool-纪浩-问题导向备课法]]'
-- '[[tool-纪浩-识别AI不可维护代码]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：案例池构建法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -40,21 +40,21 @@ related:
 
 ## 适用场景
 
-- 平时积累案例较少
-- 需要持续输出高质量内容
-- 希望形成稳定PDCA循环
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 没有稳定的信息输入来源
-- 缺乏复盘习惯
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Cubox
-- 笔记软件
-- Markdown
-- AI工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -67,8 +67,8 @@ related:
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未先确认场景是否适用 → 方法无效 → **先对照“适用场景”确认本方法适用**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -76,12 +76,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

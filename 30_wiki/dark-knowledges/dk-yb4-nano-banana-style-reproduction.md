@@ -6,33 +6,33 @@ type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[tool-月白-AI模型选择策略]]'
-  - '[[tool-月白-PPT全AI生成工作流]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb12-ai-image-analysis-replace-training]]'
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb11-visual-book-reverse]]'
-  - '[[dk-yb18-small-shop-image-mismatch]]'
-  - '[[dk-yb31-style-first-controlnet]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 diagnostic_signals:
-- signal: 团队默认用最强/最新模型做所有图像生成，不区分任务类型选模型
+- src_unknown
   framework_lens: 模型匹配盲区——"新=好"不适用于细分场景
   follow_up_question: 你的任务在"风格稳定性"和"通用能力"之间更偏哪个？前者可能老模型更优，后者用最新模型。
-- signal: 同一艺术风格每次产出的风格偏差明显，团队认为是"prompt没写好"
+- src_unknown
   framework_lens: 模型选择错位——稳定复现特定风格不是所有模型的强项
   follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。
 ---# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
@@ -72,10 +72,10 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 是否已区分当前任务的类型？（风格复现 vs 通用生成 vs 创意探索）
-- [ ] 是否至少对比了2个模型在同一prompt下的风格稳定性？
-- [ ] 是否建立了该风格的专属prompt模板？
-- [ ] 是否记录了模型的版本号和测试日期（便于后续复现）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -85,5 +85,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- dk-yb18-zero-shot-style-transfer — 零训练风格迁移：三要素描述法
-- [[dk-yb11-visual-book-reverse]] — 不训练模型锁定风格的逆向视觉书法
+- src_unknown
+- src_unknown

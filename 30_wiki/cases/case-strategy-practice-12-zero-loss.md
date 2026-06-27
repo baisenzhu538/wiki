@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-wuxi-suntech]]'
-  - '[[case-strategy-revival-13-bestore]]'
-  - '[[case-strategy-practice-11-third-place]]'
-  - '[[case-strategy-practice-10-turnaround]]'
-  - '[[case-strategy-lekai-film]]'
-  - "[[framework-strategy-six-stages]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **冉鹏实操**：新开店零亏损→大店年均盈利300万→2015年后无亏损店
 **方法**：吃饱期的标准化复制——每开一家新店必须严格按模型执行，不达标不开

@@ -10,33 +10,33 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-扭蛋机案例.md
 related:
-  - '[[dk-单元模型-找基准值实操难点]]'
-  - '[[dk-单元模型-找全成本实操难点]]'
-  - '[[ocr-一堂-单元模型-斧子尺子梯子]]'
-  - '[[dk-单元模型-找单元模型实操难点]]'
-  - '[[dk-单元模型-规模对抗实操难点]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-单元模型-单商圈]]"
-  - "[[concept-最简单元模型]]"
-  - "[[dk-单元模型-规模对抗实操难点]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 扭蛋机案例：玩具店规模化扩张三阶段决策
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md`
-- **叙事段落位置**：原图标题「玩具店规模化扩张三阶段决策框架（斧子/尺子/梯子）」及表格正文，完整描述从单店测算到 50 台扩张的决策过程。
-- **叙事完整度评分**：5/5。包含背景（玩具店）、阶段划分（斧子/尺子/梯子）、关键数字（月流水 3000、租金 25%、玩具成本 30%、月赚 1350、18 个月回本红线、3 台试跑、50 台扩张）、判断标准与常见错误，具备独立成卡条件。
-- **为什么值得独立成卡**：该案例以最小篇幅完整呈现「单元模型验证 → 小批量试跑 → 规模化扩张并主动调整」的三段式闭环，是一堂单元模型方法论的典型教学案例 [conf=0.80, source=原图/VLM描述]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -86,10 +86,10 @@ related:
 
 ## 与一堂框架的映射
 
-- **[[concept-最简单元模型]]**：斧子阶段就是计算「收入（月流水 3000）是否覆盖成本（租金 25% + 玩具成本 30% + 其他）」。
-- **[[tool-单元模型-单商圈]]**：每个商场点位可视为一个商圈单元，判断是否独立盈利。
-- **[[dk-单元模型-规模对抗实操难点]]**：梯子阶段的集采、路线优化、标准化点位选择，正是规模对抗中的具体对冲动作。
-- **[[dk-单元模型-找基准值实操难点]]**：尺子阶段要求跑满三个月、覆盖淡旺季，对应基准值采集中「时空双维度采样规则」。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -108,11 +108,11 @@ related:
 
 ## 教训与预警信号
 
-- [ ] 如果「最乐观测算」都无法在 18 个月内回本，直接砍掉该点位。
-- [ ] 小批量验证必须覆盖完整经营周期（至少包含淡季），不能只用旺季数据。
-- [ ] 规模化不是复制，必须提前设计成本结构优化动作（集采、路线、SOP、标准化）。
-- [ ] 单台 ROI 必须持续提升；如果规模扩大后单台 ROI 下降，说明规模对抗失败。
-- [ ] 补货、BD、损耗等隐性成本必须在尺子阶段就纳入真实经营成本。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 对立面/争议
 

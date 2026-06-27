@@ -4,46 +4,46 @@ title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+- src_unknown
+- yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 文档编辑工具
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- skill-半肥猫-课程Skill化的八步工作流
-- skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
+- src_unknown
+- src_unknown
 related:
-- '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
-- '[[case-半肥猫-course-to-skill]]'
-- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: Skill 在边界场景仍然输出"做吧做吧"式鼓励
+- src_unknown
   lens: 拒绝能力与风险边界
   follow_up: 检查评分规则与风险边界是否写入 Skill 主体并被自动执行
-- signal: 不同用户对同一 Skill 输出给出差异极大的"好坏"判断
+- src_unknown
   lens: 量化评分维度
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
-- signal: 高风险场景下 Skill 没有触发额外审查或降级输出
+- src_unknown
   lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
 ---
@@ -55,10 +55,10 @@ diagnostic_signals:
 
 ## 核心要点
 
-- **Skill 的最大价值是"拒绝"**。A/B 测试中差距最大的地方往往不在生成能力，而在"拒绝能力"——能在场景不适合时说"暂时别做"的 Skill，比一味讨好用户的通用模型更可靠。
-- **评分规则要量化、多维度、分级**。以 12 维度为例，每个维度按 0-3 打分（无能力、弱、可接受、强），满分 36 分，把"好不好"从感觉变成数据。
-- **风险边界要分级映射到评分规则**。高容错、中容错、低容错场景对应不同的约束强度与审查环节；高风险场景（如保险、医疗、金融）必须有更严格的边界。
-- **规则要写入 Skill 主体**。评分规则和风险边界不能只在文档里，要变成 Skill 每次执行时自动检查的约束条件。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -80,25 +80,25 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 确定 Skill 的核心目标与关键失败代价
-- [ ] 设计 3-5 个核心评分维度，并给出 0-3 四级标准
-- [ ] 定义适用场景、不适用场景与灰色地带示例
-- [ ] 建立高/中/低容错风险分级，并映射到评分权重与约束条件
-- [ ] 将评分规则和风险边界写入 Skill 主体提示词
-- [ ] 针对边界场景设计测试用例，验证 Skill 能否正确拒绝
-- [ ] 收集真实使用反馈，迭代评分标准与边界定义
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[tool-半肥猫-课程Skill化的八步工作流]] — 八步中的第 4 步（诊断协议设计）的上位流程
-- [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]] — 评分规则是测试的基础，没有评分规则就无法验证效果
-- [[case-ban-fei-mao-skill-ab-test]] — 评分规则在 A/B 测试中的实际应用
-- [[dk-ban-fei-mao-skill-rejection-value]] — "Skill 的最大价值是拒绝"，这是设计风险边界的核心理念
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 半肥猫，AI 俱乐部 AI 学习落地分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "与产品内核的关系"
-  - "产品内核十大典型指标"
-  - "产品内核十大典型指标：从获客到推荐的度量框架"
-  - "从获客到推荐的度量框架"
-  - "使用原则"
-  - "四大环节 × 十大指标"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260510_5ef61f8f-一堂产品内核十大典型指标
@@ -30,7 +30,7 @@ yitang:
   module: "创业必修"
   course_type: framework
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户盯十大指标但不看业务阶段', 'framework_lens': '指标与阶段错配', 'follow_up_question': '你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了'}
   - {'signal': '用户把所有指标都当核心指标', 'framework_lens': '没有聚焦', 'follow_up_question': '这十个指标中，你这个季度只看一个，你选哪个？'}
@@ -38,11 +38,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[一堂]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[yt-tob-demand-scenarios]]'
-  - '[[yt-product-ten-metrics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 产品内核十大典型指标：从获客到推荐的度量框架
 
@@ -92,10 +92,10 @@ related:
 
 ### 使用原则
 
-- **不做大而全的看板**：十个指标足矣——它们覆盖了用户全生命周期
-- **找到你的"关键转化率"**：不是十个全盯，而是找到你的业务中最关键的 1-3 个
-- **获客→服务→复购→推荐**是一个漏斗，但更是四个可独立优化的模块
-- 指标之间互相联动：留存率差 → 推荐率不可能高；退款率高 → 复购率不可能高
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与产品内核的关系
 
@@ -124,7 +124,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-five-step-canvas]]
+- src_unknown
 
 ## Synthesis
 

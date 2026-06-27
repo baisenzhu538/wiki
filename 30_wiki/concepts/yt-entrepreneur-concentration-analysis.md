@@ -1,6 +1,6 @@
 ---
 domain:
-  - entrepreneurship
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "集中度分析"
-  - "行业集中度"
-  - "赢家通吃"
-  - "分散市场"
-  - "集中度曲线"
-  - "行业终局"
-  - "网络效应强度"
-  - "规模经济边界"
-  - "市场格局分析"
-  - "差异化空间"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,19 +38,19 @@ yitang:
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户用集中度判断行业好坏，但忽视自己定位', 'framework_lens': '行业属性≠企业策略', 'follow_up_question': '你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策'}
   - {'signal': '用户认为高集中度行业就不能进', 'framework_lens': '过度简化', 'follow_up_question': '高集中度行业里有没有被忽视的细分市场或差异化角度？'}
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-entrepreneur-barriers]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-opportunity-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 集中度分析
 
@@ -70,9 +70,9 @@ related:
 
 ### 关键概念
 
-- 本课程属于一堂「预判阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -91,7 +91,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

@@ -16,13 +16,13 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[tool-yitang-weapon-insider-intelligence]]'
-  - '[[tool-yitang-shareholder-analysis]]'
-  - '[[tool-yitang-security-guard-intel]]'
-  - '[[tool-yitang-weapon-field-reconnaissance]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-supply-chain-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 武器库策略4：合作方调研
@@ -39,9 +39,9 @@ related:
 
 ## 关键原则
 
-- 合作方出于商业利益愿意分享信息
-- 访谈后记录并整理关键因素
-- 多源交叉验证——不同合作方给的信息可能相互矛盾
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

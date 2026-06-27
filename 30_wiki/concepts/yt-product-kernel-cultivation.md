@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 
 
@@ -11,13 +11,13 @@ created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "产品内核"
-  - "解决方案"
-  - "一堂产品内核"
-  - "最小解决方案"
-  - "产品内核四要素"
-  - "产品力"
-  - "留存率转化率复购率"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -37,8 +37,8 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '能清晰定义产品内核：用户愿意选择你的最小解决方案', 'framework_lens': '内核 = 最小可成交价值', 'follow_up_question': '如果只留下一个核心功能，用户还会选你吗？'}
   - {'signal': '能判断自己处于六级进阶的哪个层级，并知道下一层要修炼什么', 'framework_lens': '内核有段位', 'follow_up_question': '你当前在哪个层级？下一个层级最明显的差距是什么？'}
@@ -46,11 +46,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-scale-economy-weapon-library]]'
-  - '[[yt-product-ten-metrics]]'
-  - '[[yt-demand-analysis-hiking-map]]'
-  - '[[yt-model-product-core-metrics]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 产品内核修炼段位图
 
@@ -123,20 +123,20 @@ Sierra 在《了不起的产品》中强调，用户选择产品的真正原因�
 ### 失败模式
 
 1. **把产品愿景当内核，无法落地成交**
-   - **原因**：愿景与内核混淆
-   - **修复**：愿景回答‘为什么存在’，内核回答‘用户为什么现在买单’
+   - src_unknown
+   - src_unknown
 
 2. **功能越做越多，用户反而不知道产品是什么**
-   - **原因**：内核稀释
-   - **修复**：每个新功能必须通过‘是否强化内核’测试
+   - src_unknown
+   - src_unknown
 
 3. **过度追求最小，导致解决方案不完整**
-   - **原因**：最小化过度
-   - **修复**：最小解决方案必须能独立解决用户的一个完整问题
+   - src_unknown
+   - src_unknown
 
 4. **内核只停留在口头，没有指标验证**
-   - **原因**：缺少闭环
-   - **修复**：为内核设定1-2个核心指标（如留存率、转化率）并跟踪
+   - src_unknown
+   - src_unknown
 
 ## Synthesis
 

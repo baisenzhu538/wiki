@@ -9,18 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-决策经验值_vlm_desc.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[dk-你的业务是一次抽样实验]]"
-  - "[[dk-单元模型-找基准值实操难点]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -57,28 +57,28 @@ updated_at: 2026-06-26
 
 ## 与已有框架的关系
 
-- **[[framework-科学决策三角形]]**：经验值属于「深度」维度的隐性输入——老手能更快识别 L1/L2/L3 决策的适用场景。
-- **[[dk-你的业务是一次抽样实验]]**：经验值告诉你"这个波动是否常见"，抽样思维告诉你"单次数据不可信"。两者互补。
-- **[[tool-决策深度-L1优先级定性]]**：经验值是 L1 定性排序的重要支撑，但不能替代 L2-L4 的定量验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **医疗诊断**：资深医生靠经验快速识别罕见病，但也需要用检查数据排除 Confirmation Bias。
-- **军事指挥**：老兵能从战场噪声中判断敌情，但现代战争变量更多，必须结合情报系统。
-- **投资判断**：经历过多个周期的投资者更能识别泡沫，但每个周期的触发因素不同，不能简单类比。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 行动 checklist
 
-- [ ] 做判断前，先问自己：这个情境和我过去的哪个案例最像？差异是什么？
-- [ ] 是否用"如果这次真的不一样"的视角审视过自己的经验结论？
-- [ ] 有没有为经验判断寻找定量证据或反例？
-- [ ] 是否记录了决策日志，以便事后校准经验值的准确度？
-- [ ] 团队中是否有"新手视角"来挑战老将的默认假设？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
-- **Tetlock（专家判断研究）**：在复杂动态系统（如经济、地缘政治）中，专家直觉的长期预测准确率并不稳定，甚至不如简单统计模型。经验值的价值高度依赖领域的"可学习性"。[conf=0.80, source=Tetlock, Expert Political Judgment]
-- **Kahneman（可得性启发）**：Recent 或特别生动的经验会被大脑过度加权。老手的"这个我见过"可能是"这个最近刚见过"，而非真正的模式识别。[conf=0.80, source=Kahneman, Thinking Fast and Slow]
+- src_unknown
+- src_unknown
 
 ## 一句口诀
 

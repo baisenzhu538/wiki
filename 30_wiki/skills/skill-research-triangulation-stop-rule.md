@@ -8,8 +8,8 @@ confidence: 0.80
 trust_level: high
 language: zh-CN
 domain:
-- research
-- decision-science
+- src_unknown
+- src_unknown
 source_person: 王语嫣
 source_context: research 域 40 张 case 卡跨案例合成，洞察 2
 source_refs:
@@ -21,24 +21,24 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-25"
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[dk-research-triangulation-stop-rule]]'
-  - '[[skill-research-behavior-over-asking]]'
-  - "[[dk-research-triangulation-stop-rule]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[dk-yitang-research-cross-validation-cost]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "每次快结束时都发现还需要再多一个来源"
+  - src_unknown
     framework_lens: 边际收益规则
     follow_up_question: "新增一个来源预计能改变当前结论的概率是否 >30%？"
-  - signal: "不同来源已经一致，但团队仍在寻找更权威的来源"
+  - src_unknown
     framework_lens: 置信度阈值规则
     follow_up_question: "当前综合置信度是否已达到预设阈值？阈值是多少？"
-  - signal: "调研预算/时间已超支，但关键决策仍未做出"
+  - src_unknown
     framework_lens: 决策延迟成本规则
     follow_up_question: "继续验证的延迟成本是否已超过决策错误的预期损失？"
 ---
@@ -51,10 +51,10 @@ diagnostic_signals:
 
 ## 何时使用
 
-- 关键数字只有一个来源，且会直接影响资源投入
-- 不同来源信息相互矛盾，需要判断是否继续挖第三、第四来源
-- 调研时间或预算有限，必须在「继续验证」和「先决策再迭代」之间取舍
-- 决策者因「信息不够」而拖延，需要给出「足够好」的明确标准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -85,11 +85,11 @@ diagnostic_signals:
 
 ## 快速检查单
 
-- [ ] 我已明确列出哪些信息会改变决策
-- [ ] 我已为每条信息设定最低可接受置信度
-- [ ] 当前信息源来自不同生成机制（不是同一报告的不同转载）
-- [ ] 新增一个来源预计能改变结论的概率 >30%
-- [ ] 继续验证的延迟成本未超过「决策错误」的预期损失
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -106,24 +106,24 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用**：信息不完备但必须决策；来源质量已知；决策可延迟成本可估算
-- **不适用**：安全/合规/医疗等高风险场景；信息源明显劣质但未穷尽替代来源；决策不可逆
+- src_unknown
+- src_unknown
 
 ---
 
 ## 行动触发器
 
-- 当开始一项调研时 → 先写目标置信度和停止条件
-- 当团队说「再访谈一个人就定论」反复出现时 → 检查边际收益
-- 当调研预算快用完时 → 对比延迟成本与错误成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联卡片
 
-- `[[dk-research-triangulation-stop-rule]]`：暗知识卡，含更多案例
-- `[[framework-yitang-six-layer-cross-validation]]`：六层交叉验证框架
-- `[[tool-yitang-research-cross-validation]]`：交叉验证工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

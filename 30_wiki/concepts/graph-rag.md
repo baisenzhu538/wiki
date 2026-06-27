@@ -2,10 +2,10 @@
 
 id: graph-rag
 aliases:
-- Graph RAG
+- src_unknown
 created_at: 2026-05-03
 domain:
-- kdo
+- src_unknown
 related: null
 review_date: 2026-05-04
 reviewed_by: 黄药师
@@ -36,20 +36,20 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 
 ### [Critique]
 
-- **Assumption**: 假设笔记中的 `链接` 质量足够高，能真实反映概念之间的关系。如果链接是随意添加的（比如为了链接而链接），图谱会引入噪声，反而降低 RAG 质量。
-- **Boundary**: Graph RAG 对**结构化知识**（概念、实体、决策）效果显著，对**叙事性文本**（随笔、日记、情感记录）提升有限。KDO 的 `00_inbox/` 和 `10_raw/` 层不适合做图索引。
-- **Reliability: Medium** — 理由：Graph RAG 是 2024-2025 年的前沿方向（Microsoft Research 的 GraphRAG 论文、Neo4j 的 LLM 集成），但具体落地到个人笔记系统的案例还不多。一堂正在探索，说明行业还在早期。
-- **Anti-pattern risk**: 不要为了建图而建图。如果笔记量很小（< 100 页），传统 RAG 或全文搜索已经足够，Graph RAG 的维护成本可能大于收益。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### [Synthesis]
 
-- **Links to**: [[kdo-protocol]] — Protocol 定义了目录结构和链接规则，是 Graph RAG 的**输入契约**；Graph RAG 是 Protocol 的**检索增强层**。
-- **Links to**: [[index]] — Index 的 Mermaid 图是 Graph RAG 的**人工可视化版本**；Graph RAG 是它的**机器可计算版本**。
-- **Links to**: [[kimi-深度调研集群方法论-deep-research-swarm]] — 深度调研需要跨概念关联推理，Graph RAG 是支撑这种推理的基础设施。
-- **Complements**: 一堂课程中提到的"将课程体系拉入知识图谱"——KDO 的 `30_wiki/` 层正在做类似的事，但用 Markdown + 双向链接而非专门的图数据库。
-- **Conflicts with**: Obsidian 的"自由哲学"——Graph RAG 要求链接有语义价值，可能抑制用户随意创建链接的自由度。
-- **Transferable to**: 任何基于 Markdown 的双向链接系统（Notion、Logseq、Roam Research + LLM 集成）。
-- **Gap**: KDO 目前只有文本层面的 `链接`，没有显式的图索引文件（如 `30_wiki/.graph/index.json`）。这是 P2 阶段的实施目标。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -80,18 +80,18 @@ Result:   不仅找到提到 "KDO" 的页面，还找到通过 "Obsidian"、"AI 
 ```yaml
 # 30_wiki/.graph/index.json (proposed)
 nodes:
-  - id: "kdo-protocol"
+  - src_unknown
     label: "KDO Protocol"
     type: system
     path: "30_wiki/systems/kdo-protocol.md"
 
 edges:
-  - from: "kdo-protocol"
+  - src_unknown
     to: "obsidian-workflow"
     relation: "enables"
     weight: 0.9
 
-  - from: "kdo-protocol"
+  - src_unknown
     to: "graph-rag"
     relation: "requires"
     weight: 0.8
@@ -101,19 +101,19 @@ edges:
 
 ## Implementation Checklist (P2 Phase)
 
-- [ ] Extract all `...` links from `30_wiki/`
-- [ ] Build graph index (JSON/GraphML format)
-- [ ] Define edge semantics (enables, requires, contradicts, derives-from)
-- [ ] Integrate with `kdo query` command: graph traversal + vector search hybrid
-- 00_inbox/调研专题/node_modules/paddleocr/dist/index.cjs` (replace static Mermaid with dynamic graph)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## References
 
-- Microsoft Research: *From Local to Global: A Graph RAG Approach to Query-Focused Summarization* (2024)
-- Neo4j LLM Knowledge Graph Builder
-- 一堂课程：AI-Native 知识管理与 Graph RAG 应用
+- src_unknown
+- src_unknown
+- src_unknown
 ## Critique
 
 #### Nassim Taleb — 过度结构化与黑天鹅风险

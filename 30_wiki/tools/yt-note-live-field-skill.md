@@ -6,52 +6,52 @@ title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手
 type: tool
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - note-taking
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 2
 difficulty: advanced
 confidence: 0.9
 related:
-  - '[[yt-note-expert-interview-modeling]]'
-  - '[[tool-知识树存储记忆法]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[tool-yitang-weapon-full-product-experience]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[yt-note-ai-human-division]]'
-  - '[[yt-note-five-levels-training]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 prerequisites:
-- yt-note-checklist-concept
-- yt-note-five-levels-training
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 query_triggers:
-- 现场笔记怎么做
-- 会议笔记技巧
-- 访谈笔记方法
-- 如厕大法笔记
-- 现场建模
-- 笔记驱动行动
-- 现场完成度
-- 灵感捕捉
-- 实时笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- 会议/访谈结束后，笔记仍是一堆零散要点，看不出结构
-- 事后需要花大量时间重新整理笔记，才能用于行动
-- 现场有很多灵感，但结束后想不起来或无法落地
-- 笔记中没有明确的下一步行动、负责人和截止时间
-- 感觉自己"记了很多但用不上"，记录与行动之间断层
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/execution-method'
-- '#perspective/professional'
-- '#scene/note-taking/live-field'
-- '#method/learning-method'
-- '#scene/learning-methodology/mental-models'
-- '#content-format/checklist'
-- '#scene/skill-engineering'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 estimated_tokens: 4500
@@ -74,10 +74,10 @@ trust_level: medium
 2. **五步法闭环**：认知→提问→拓展→记录→使用，每一步都对应明确的完成度贡献。
 3. **从记录到建模的跃迁**：现场笔记的最高境界不是“全记下来”，而是“记的同时已经完成建模”，这通常需要L4-L5能力支撑。
 4. **关键暗知识**：
-   - “如厕大法”：信息过载时主动离开现场，放空后重建结构；
-   - “礼貌策略”：不投屏、双人访谈、提前说明、暗线记录；
-   - “三秒捕捉”：灵感闪现只有3-5秒，必须立即写入灵感槽；
-   - “剩余脑力分配”：L1-L2阶段90%记录，L5阶段30%记录、70%思考。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **行动闭环优先**：最好的现场笔记是“会议结束的同时，行动已经开始”。
 
 ## Purpose
@@ -113,17 +113,17 @@ trust_level: medium
 
 #### 暗知识一：“如厕大法”——放空后现场建模
 
-- **本质**：在现场信息过载时，主动离开场景（去洗手间、出去透口气），让大脑从“接收模式”切换到“处理模式”
-- **机制**：人在持续接收信息时，大脑处于“输入饱和”状态，无法做深度加工。主动中断输入，大脑会自动开始“后台处理”——这正是洞察产生的时机
-- **Truman的实践**：在重要会议或访谈中，他会刻意找理由离开5-10分钟，在走廊上或洗手间里快速用手机写下刚才的“结构化理解”
-- **关键技巧**：离开前先在笔记上快速写下3个关键词（作为“记忆锚点”），回来后用这3个锚点重建整个结构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 暗知识二：现场笔记的“礼貌策略”
 
-- **不投屏原则**：现场笔记不要投屏给所有人看——这会改变互动 dynamics，对方会开始“表演”而非“真实表达”
-- **双人访谈策略**：重要访谈最好两人一起，一人主谈、一人主记。主记的人不发言，但负责实时整理和递纸条
-- **提前说好**：如果必须单人完成，提前告知对方“我会在记录时偶尔低头，这是为了更好的整理，不是不关注你”
-- **暗线记录**：用极简符号系统（如“★”表示重点、“？”表示疑问、“→”表示待办），让对方看不出你在写什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 暗知识三：现场记录 vs 现场建模
 
@@ -139,20 +139,20 @@ trust_level: medium
 
 #### 暗知识四：灵感闪现的“三秒捕捉”
 
-- **本质**：现场最宝贵的不是记录的内容，而是**灵光一闪的即时洞察**
-- **机制**：灵感闪现通常只持续3-5秒，如果不在3秒内捕捉，就会永远消失
-- **Truman的方法**：准备一个“灵感槽”——在笔记的一侧留出一列，专门用来记录灵感。每当有灵感闪现，立即写下关键词（不需要完整句子），事后再补充
-- **定量标准**：一场2小时的会议，应该有**20-30个灵感闪现**。如果少于10个，说明你的剩余脑力不足，还停留在“记录”层面
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 暗知识五：剩余脑力的现场分配
 
-- **本质**：现场总脑力是固定的，必须在“记录”和“思考”之间分配
-- **分配策略**：
-  - L1-L2阶段：90%记录 + 10%思考（几乎全部脑力用于不遗漏）
-  - L3阶段：70%记录 + 30%思考（开始有判断）
-  - L4阶段：50%记录 + 50%思考（记录和思考并行）
-  - L5阶段：30%记录 + 70%思考（记录自动化，思考主导）
-- **判断标准**：如果你在现场有“脑子不够用”的感觉，说明你还在L1-L2；如果你在现场有“脑子很空、还能想更多”的感觉，说明你在L4-L5
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ## 边界
 
@@ -188,15 +188,15 @@ trust_level: medium
 
 ## 行动 Checklist
 
-- [ ] **进场前30分钟**：写下3-5个可证伪的预设问题（不是“想了解什么”，而是“想验证什么假设”）
-- [ ] **开场前**：确认记录方式，必要时告知对方“我会记录以更好地整理，不是不关注你”
-- [ ] **笔记模板**：提前预留“灵感槽”“行动项”“关键词锚点”三个区域
-- [ ] **现场中**：每15-20分钟自检一次完成度，确保笔记仍在向60%以上推进
-- [ ] **信息过载时**：立即使用“如厕大法”，离开前写下3个关键词，回来后重建结构
-- [ ] **灵感闪现时**：3秒内将关键词写入灵感槽，不打断主线记录
-- [ ] **结束前5分钟**：停止记录新信息，做“完成度检查”——笔记能否直接驱动行动？
-- [ ] **离场后30分钟内**：至少将1个洞察转化为具体行动并开始执行（发邮件、打电话、改文档）
-- [ ] **当天结束前**：将笔记归档，并链接到相关概念卡/工具卡
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
@@ -249,10 +249,10 @@ trust_level: medium
 
 ### 内部局限
 
-- **完成度的主观性**：完成度从60%到100%的界限极其模糊。同一份笔记，A觉得完成了80%，B觉得只有50%。Truman没有给出客观的评估标准
-- **“如厕大法”的场景限制**：在正式场合（如董事会、法庭、手术台），你无法随意离开。这个技巧只在“半正式”场合有效
-- **灵感捕捉的干扰性**：频繁记录灵感会打断主线程的注意力。如果一场会议记录了30个灵感，可能意味着你没有专注于核心议题
-- **礼貌策略的文化差异**：在东亚文化中，“低头记笔记”被视为认真；但在某些西方文化中，可能被视为不关注对方。Truman的策略假设了特定的文化语境
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -260,9 +260,9 @@ trust_level: medium
 
 **Erving Goffman**（社会学家，*The Presentation of Self in Everyday Life*作者）提出“拟剧论”：社会互动是“前台表演”，每个人都在管理自己的印象。
 
-- **现场笔记是“后台”入侵“前台”**：Goffman会说，当你在现场记笔记时，你实际上是在把“后台”（分析、判断）暴露到“前台”（互动）中。这会改变互动的 dynamics——对方会开始“为笔记而表演”
-- **“不投屏”还不够**：即使不投屏，对方也知道你在记。这种“被记录”的意识会改变对方的表达。Goffman的研究表明，**知道自己在被观察的人，行为会系统性地偏离真实**
-- **笔记的“表演性”**：现场笔记不仅记录对方，也暴露你自己。你的笔记内容、你的表情、你的反应，都在向对方传递信息。你以为是“客观记录”，实际上是在参与“共同表演”
+- src_unknown
+- src_unknown
+- src_unknown
 
 对一堂笔记法的直接挑战：Goffman会问——**你的“礼貌策略”真的能消除“被记录”的影响吗？** 如果对方是一位Goffman的读者，他会知道你在用“不投屏”“提前说好”等技巧来降低他的警惕——这反而会增加他的警惕。你的笔记方法假设了对方是“ naive 的被记录者”，但现代社会中，越来越多的人知道“被记录意味着什么”。
 
@@ -272,9 +272,9 @@ trust_level: medium
 
 **Donald Schön**（MIT教授，*The Reflective Practitioner*作者）提出“反思实践”理论：专业人士的能力不在于“事先规划”，而在于**行动中的反思**（reflection-in-action）。
 
-- **现场笔记 vs 行动中的反思**：Schön会说，真正的高手不是“先记下来再反思”，而是**在行动的同时就已经在反思**。现场笔记五步法中的Step 2-4，实际上是在把“行动中的反思”外化为“笔记中的反思”——这本身就可能降低反思的质量
-- **笔记的“滞后性”**：即使是最快的笔记，也有几秒的滞后。Schön会说，这几秒的滞后正是“行动中的反思”和“事后的反思”的关键区别。当你停下来写笔记时，你已经从“行动中”退到了“行动后”
-- **“写”还是“想”的冲突**：Schön的研究表明，专业人士在关键时刻**不思考、不写、不分析**——他们直接行动。行动中的反思是一种**非语言的、身体化的**过程，一旦语言化（写成笔记），就可能丢失关键信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 对一堂笔记法的直接挑战：Schön会问——**你的五步法是否把“行动中的反思”降级为了“笔记中的反思”？** 一个真正的L5高手，他在现场的状态是“不记笔记也能完美建模”——因为他的建模是内隐的、身体化的。你要求L5的人必须产出笔记，是否反而降低了他的表现？
 

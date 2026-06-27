@@ -12,17 +12,17 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.mdrelated:
-  - '[[tool-strategy-four-moves]]'
-  - '[[tool-strategy-gap-analysis]]'
-  - '[[tool-strategy-four-layers]]'
-  - '[[framework-strategy-three-horizons]]'
-  - '[[framework-strategy-five-basics]]'
-  - '[[framework-strategy-six-stages]]'
-  - '[[framework-strategy-brm]]'
-  - '[[framework-demand-iceberg]]'
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 三个地平线

@@ -8,38 +8,38 @@ source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-management-goal-management]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-management-toolkit-overview]]'
-  - '[[tool-strategy-12-word-test]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-project-management]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-decision-y-model]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- OKR 制定
-- OKR 复盘
-- 季度目标设定
-- 目标对齐
-- 关键结果量化
-- OKR 落地
-- 度脉机制
-- OKR 模板
-- OKR 与 KPI 区别
-- 目标管理工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -53,10 +53,10 @@ updated_at: '2026-06-16'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 diagnostic_signals:
-- signal: 季度末到了，团队打开OKR文档——发现上一次更新是3个月前
+- src_unknown
   framework_lens: 写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时
   follow_up_question: 你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具
-- signal: 团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的
+- src_unknown
   framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破
   follow_up_question: 完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？
 author: 老顽童
@@ -113,10 +113,10 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 **原则**：公司级 3-5 个 O，团队级每个部门 1-3 个 O。10 个 O = 0 个 O。
 
 **好 O 的检查清单**：
-- [ ] 是否能用一句话说清？（不超过 20 字）
-- [ ] 是否"激励人心"而非"告诉任务"？（"成为行业第一" vs "发布 5 个功能"）
-- [ ] 是否指向"突破"而非"维护"？（OKR 不是仪表盘）
-- [ ] 是否可以被下属团队理解并转化为他们的 O？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **下属团队对齐测试**：
 把 O 念给团队听，让他们用自己的话重复。如果重复版本与原版本有轨迹不同——O 还没有被理解。
@@ -145,9 +145,9 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 5. 锁定并发布：全公司 OKR 公开可见
 
 **对齐质量门槛**：
-- 每个部门级 O 必须能追溯到至少 1 个公司级 O
-- 每个部门级 KR 必须能追溯到至少 1 个部门级 O
-- 如果某个部门的 OKR 与其他所有部门都没有交叉——要么这个部门被隔离了，要么这个 OKR 是多余的
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：周度脉搏（季度中每周/每双周）
 
@@ -160,19 +160,19 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 
 仪式流程：
 1. 每个部门负责人用 1 分钟报告：
-   - 本周最重要的 1 个进展
-   - 本周最大的 1 个阻碍
-   - 下周最关键的 1 个动作
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. 老板用 2 分钟回应：
-   - 哪个 KR 需要资源倾斜？
-   - 哪个 KR 已经失去意义应该放弃？
-   - 哪个新出现的机会/风险需要加进来？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. 行动项（1 分钟）：什么改变从今天开始执行
 
 禁止：
-- 不讲过程（不要说"我们做了什么"）
-- 不解决方案（脉搏会只是发现信号，解决方案单独开）
-- 不超时（15 分钟到点结束）
+- src_unknown
+- src_unknown
+- src_unknown
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -186,8 +186,8 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 4. **下一季度调整**：哪些 KR 应该放弃？哪些新出现的机会应该加进来？
 
 **复盘产出**：
-- 季度 OKR 完成报告（含达成率 + 价值审计）
-- 下季度 OKR 初稿（基于复盘调整）
+- src_unknown
+- src_unknown
 
 ---
 
@@ -242,9 +242,9 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 
 **Lisa Ordonez**（亚利桑那大学奥尔布鲁克学院，*目标设定的作用与副作用* 系列研究作者）的研究系统地记录了"目标设定"在组织中的隐性代价。核心发现：
 
-- **目标的紧张效应**：当人们被告知"你必须达成目标" 时，他们会系统性地避开危险任务、减少探索行为、停止帮助同事（同事的成功不计入自己的 OKR）。
-- **多目标的冲突**：当 OKR 同时追求多个目标（比如"提高收入" + "提升用户满意度" + "控制成本"）时，员工会在目标之间进行权衡——而不是做出最正确的决策。
-- **目标的矛盾激励**：最让人不安的发现是：当目标与内在动机冲突时，目标往往胜出——但是胜出后的行为变得短视、机械、危险原恨。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对 OKR 罗盘的攻击：你的工具卡设计了精美的流程来追踪 OKR。但 Ordonez 会问：你追踪了"达成率"，但你追踪了"目标带来的行为变化"吗？如果一个团队的 OKR 完成率从 60% 提升到 80%，但同时这个团队的面试完成率下降了（因为面试不计入 OKR）、同事间的信任度下降了（因为没有人有时间帮助别人）、创新尝试次数下降了（因为创新风险大且不计入 OKR）——你的 OKR 系统是在推动进步，还是在系统性地损害进步？
 

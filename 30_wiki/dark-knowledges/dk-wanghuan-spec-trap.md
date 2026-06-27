@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -23,32 +23,32 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- signal: 你给 AI 的 spec 越写越长，输出反而越死板、越没惊喜
+- src_unknown
   lens: over-specification
   follow_up: 把 spec 拆成"方向 + 约束 + 验收"，删掉具体执行步骤
-- signal: AI 严格遵守你的每一句话，结果把原本可用的代码/文案改坏了
+- src_unknown
   lens: implicit-freeze
   follow_up: 在文档里显式标注"哪些不能改"，而不是"哪些必须按我说的做"
-- signal: 团队争论"AI 没按我的意思做"，而不是"结果是否达标"
+- src_unknown
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[case-wanghuan-education-sales-paced]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- spec陷阱
-- 过度拆解
-- 只定方向不定细节
-- 暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 
@@ -82,16 +82,16 @@ tags:
 
 ### 案例 A：Harness 七阶段里的 product-spec.md
 
-- **Phase 1 Planner** 只输出三样东西：功能优先级、审美方向、迭代计划。
-- 同时标出所有**高风险歧义**，但不提前解决所有细节。
-- **Phase 2-5 Sprint 对抗循环** 才是细节被逐步填充的地方。
-- 如果 Phase 1 就把每个函数都定好，后面的 Sprint 就没有意义了。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例 B：教育机构销冠萃取
 
-- 如果只给新人"话术脚本"，就是把销售过程 spec 到了每一句话。
-- 结果是：新人在错误时机说出正确的话。
-- 王欢团队把"策略"和"话术"分开：用 PECED/PACED 框架定义决策方向（痛点→消费能力→期望→决策时机），具体话术让 AI 在模拟对练中生成。
+- src_unknown
+- src_unknown
+- src_unknown团队把"策略"和"话术"分开：用 PECED/PACED 框架定义决策方向（痛点→消费能力→期望→决策时机），具体话术让 AI 在模拟对练中生成。
 
 ---
 
@@ -122,22 +122,22 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 写 spec 前，先问自己："我最care的是结果，还是过程？"
-- [ ] spec 控制在 1 页以内：方向（1 段）、约束（3-5 条否定句）、验收（3-5 条可检查标准）。
-- [ ] 显式标注"绝对不能改/不能丢"的元素，而不是"必须按这个顺序做"。
-- [ ] 给 AI 至少 3 个探索版本的空间，再进入收敛。
-- [ ] 验收时先看"是否达标"，再看"是否按我的方式做"。
-- [ ] 每轮迭代后，把"意外但有效"的部分沉淀进新的方向描述，而不是简单加更多限制。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-harness-seven-stages]]：Harness 把"方向 + 约束 + 验收"拆成了可工程化的七阶段流程。
-- [[dk-wanghuan-magic-defeats-magic]]：没有标准时怎么建标准；Spec 陷阱是标准过多时的另一面。
-- [[tool-wanghuan-ai-business-profile]]：在"我的输出标准"里只写红线，不写执行细节。
-- [[framework-wanghuan-actor-director-mode]]：从"演员"到"导演"的身份切换。
-- [[case-wanghuan-education-sales-paced]]：策略与话术分离，是"只定方向不定细节"的销售落地。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,9 +154,9 @@ tags:
 > **回应**：如果你说不清楚"符合"的标准，写再细也没用，因为 AI 无法推断你的隐性偏好。更好的做法是把审美/习惯转译成可检查的约束（例如"不能出现紫色渐变"、"必须使用无衬线字体"），然后让 AI 在约束内探索。你会发现 AI 给出的方案往往有你没想到的解法。
 
 **不要用**：
-- 不要用于安全关键、强合规、必须逐步留痕的场景。
-- 不要在团队还没建立验收标准时就取消过程控制。
-- 不要以"给 AI 自由"为借口逃避管理者的责任——方向和红线的定义必须更清楚。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

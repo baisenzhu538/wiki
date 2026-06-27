@@ -8,20 +8,20 @@ status: enriched
 confidence: 0.82
 trust_level: medium-high
 domain:
-- ai
-- ai-saas
-- entrepreneur
+- src_unknown
+- src_unknown-saas
+- src_unknown
 source_refs:
 - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 - src_20260614_b85c364e-贝壳-云管家AI外呼案例
 - src_20260614_4b3b6427-阿豪-自动选品系统案例
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[fd-forward-deployment]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）
 source_context: 酒店/房产/电商 AI 运营落地案例分享
 created_at: 2026-06-14
@@ -46,27 +46,27 @@ review_date: 2026-06-14
 
 ### 业务背景
 
-- 酒店行业头部 SaaS 公司收集美团、携程、抖音等平台评价，生成七级几千个维度的标签体系。
-- 标签反馈给品牌方和门店，用于体验优化。
+- src_unknown
+- src_unknown
 
 ### 核心矛盾
 
-- **品牌方**：希望所有差评都得到整改。
-- **门店**：很多差评涉及不可整改因素（地理位置、总部规定、噪音等），会影响绩效，需要申诉。
-- **平台方/SaaS 方**：需要在「公平判定」和「人性化处理」之间精准把控。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
-- **从辅助写客服回复话术切入**：AI 先生成「温柔且坚定」的回复初稿，员工选择性使用。
-- **再逐步接管标签审核**：AI 与人工双轨并行，结果一致则自动发送，不一致则人工复核。
-- **知识萃取**：通过「白纸外包+异地办公+文档化沟通」倒逼老员工输出经验，形成 SOP。
-- **AI 翻译官**：选拔产品背景、对 AI 感兴趣的员工，将业务规则转化为 AI 可理解的模型。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 公开信源验证
 
-- 美团、携程均公开使用 AI 大模型辅助酒店评价审核和申诉处理。
-- 美团 2026 年 4 月升级评价体系，AI 月均自动拦截恶意差评 3 万余条。
-- 携程通过 AI 大模型将申诉审核周期从 3 个工作日缩短至 1 个工作日。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -74,31 +74,31 @@ review_date: 2026-06-14
 
 ### 业务背景
 
-- 房产中介行业信息不透明、信任度低、人员流失率高。
-- 贝壳将房源维护/电话外呼业务线上化，云管家团队集中处理大量外呼。
+- src_unknown
+- src_unknown
 
 ### 核心挑战
 
-- 房源状态需要持续更新（是否出租、到期、价格变化等）。
-- 传统人工外呼规模不经济：每人每天约 100 通，全国日均几万通。
-- AI 外呼需避免伤害贝壳品牌口碑，不能做成廉价机器人。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
-- **数据基础**：收集 60 万条高价值通话记录，做语音转文本和标签化。
-- **场景拆分**：从 60 个核心场景扩展到 110 个，覆盖 260 种出口分支。
-- **技术优化**：
-  - 方言补丁（广州、济南、上海等地用语习惯）
-  - 降噪处理
-  - 动态工作流（从问卷式对话改为灵活对话）
-  - 活人感细节（键盘声、语气词）
-- **组织协同**：业务骨干参与优化，缓解团队对 AI 替代的抵触。
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ### 公开信源验证
 
-- 贝壳「来客」系统于 2024 年 4 月成都试点，10 月全域铺开。
-- 截至 2025 年 5 月，成都超 2 万经纪人使用「来客」，40 万客户使用其交流。
-- **注意**：录音中「云管家 AI 外呼」与公开报道的「来客」系统是否为同一项目，尚无法完全确认。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -106,28 +106,28 @@ review_date: 2026-06-14
 
 ### 业务背景
 
-- 电商公司每年上新约 1000 个 SKU，选品依赖少数专家经验。
-- 数据分散在各平台，无集中数据中心。
-- 团队无专职程序员，技术能力薄弱。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
-- **业务地图**：先梳理选品、推广、库存等全业务模块。
-- **场景选择**：按「频率高 + 商业价值大 + 难度可控」筛选，锁定内部选品。
-- **数据规范**：统一分散数据格式，建立三层标签体系。
-- **技术选型**：能用 Python 脚本/RPA 解决的规则化任务，不盲目上大模型。
-- **快速验证**：三个月内搭建自动选品系统，前端后端快速拼凑，本地服务器部署。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 声称成果
 
-- 当月新增收入 40 万元，年贡献约 500 万元。
-- 选品数据收集时间从 60 分钟缩短到 3 分钟。
+- src_unknown
+- src_unknown
 
 ### 可信度标注
 
-- **效率提升方向可信**：RPA/自动化采集确实能带来数量级效率提升。
-- **收入数字高度存疑**：培训方有明显夸大动力，且无外部财务数据验证。
-- **建议表述**：「据录音称，当月新增收入 40 万、年贡献约 500 万」，需独立验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,29 +135,29 @@ review_date: 2026-06-14
 
 ### 1. 场景选择：高频 × 商业价值 × 可控难度
 
-- 不要试图一上来替代端到端复杂流程。
-- 优先选择数据可得、规则可部分结构化、人工重复性高的环节。
+- src_unknown
+- src_unknown
 
 ### 2. 切入策略：从辅助到替代
 
-- AI 先做「副驾驶」：生成初稿、提供建议、处理标准分支。
-- 人工保留最终决策权，逐步通过 AB 实验扩大 AI 处理比例。
+- src_unknown
+- src_unknown
 
 ### 3. 数据与流程基础
 
-- 业务地图 > 数据规范 > 标签体系 > 技术选型。
-- 规则化任务用 Python/RPA，复杂理解任务用大模型。
+- src_unknown
+- src_unknown
 
 ### 4. 组织协同
 
-- **AI 翻译官**：连接业务规则与技术实现。
-- **知识萃取**：通过绩效激励、外包倒逼等方式将老员工隐性经验显性化。
-- **变革管理**：明确 AI 是「增强」而非「替代」，降低团队抵触。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 技术优化
 
-- AI 外呼/语音交互需处理方言、噪声、动态对话流、活人感。
-- 场景分支扩展是提升覆盖度的关键，但需警惕过度工程化。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -182,11 +182,11 @@ review_date: 2026-06-14
 
 ## 关键证据
 
-- **证据 1 [conf=0.93]**：酒店行业头部 SaaS 公司通过 AI 辅助客服回复话术并逐步接管标签审核，形成人机双轨流程。——来源：`src_20260614_eca9f5b3`。
-- **证据 2 [conf=0.85]**：携程通过 AI 大模型将酒店申诉审核周期从 3 个工作日缩短至 1 个工作日。——来源：[环球旅讯](https://www.traveldaily.cn/article/189827/)。
-- **证据 3 [conf=0.98]**：美团 2026 年 4 月升级评价体系，AI 月均自动拦截恶意差评 3 万余条。——来源：公开报道。
-- **证据 4 [conf=0.78]**：贝壳「来客」系统于 2024 年 4 月成都试点，截至 2025 年 5 月成都超 2 万经纪人使用。——来源：`src_20260614_b85c364e` / 公开报道。
-- **证据 5 [conf=0.60]**：电商阿豪自动选品系统声称当月新增收入 40 万元，数据收集时间从 60 分钟缩短到 3 分钟。——来源：`src_20260614_4b3b6427`（收入数字待独立验证）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -204,10 +204,10 @@ review_date: 2026-06-14
 
 ## 教训
 
-- **从辅助到替代**：AI 先做副驾驶，人工保留决策权，通过 AB 实验逐步扩大比例。
-- **数据规范先行**：业务地图 > 数据规范 > 标签体系 > 技术选型。
-- **业务专家必须参与**：没有业务专家参与，AI 容易变成技术自嗨。
-- **规则化任务不盲目上大模型**：能用 Python/RPA 解决的，不要堆模型。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -225,33 +225,33 @@ review_date: 2026-06-14
 ## 适用边界
 
 **适用**
-- 有大量重复性运营工作的企业
-- 数据分散但可规范化的业务
-- 有业务专家愿意参与 AI 共建
-- 管理层能接受「先辅助后替代」的渐进路径
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用**
-- 缺乏基础数据积累
-- 追求短期替代人力以压缩成本
-- 业务专家抵制、知识无法显性化
-- 对 AI 效果有不切实际的期待
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与现有 30_wiki 的差异
 
-- `30_wiki` 中通用 AI 方法论较多，但缺少具体产业案例的交叉验证。
-- 本卡提供了酒店、房产、电商三个行业的实操案例，并明确标注了可信度分层。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
-- 六层交叉验证报告：60_feedback/six-layer-validation-industrial-ai-ops-cases.md
-- [https://www.traveldaily.cn/article/189827/](https://www.traveldaily.cn/article/189827/)
-- [https://finance.itbear.com.cn/html/2025-09/244389.html](https://finance.itbear.com.cn/html/2025-09/244389.html)
-- [https://www.jrtzb.com.cn/cfsh/202505/82965372.html](https://www.jrtzb.com.cn/cfsh/202505/82965372.html)
-- [https://cloud.tencent.com/developer/article/2606389](https://cloud.tencent.com/developer/article/2606389)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 

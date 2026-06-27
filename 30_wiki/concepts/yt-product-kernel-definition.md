@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-six-levels
-  - yt-product-kernel-canvas
-  - yt-product-kernel-ten-metrics
-  - yt-product-kernel-validation
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户把产品功能列表当产品内核"
+  - src_unknown
     framework_lens: 产品内核定义——内核是价值，不是功能列表
     follow_up_question: "去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。"
-  - signal: "用户说'我们的产品很全面'"
+  - src_unknown
     framework_lens: 产品内核定义——全面≠有内核，可能意味着没有聚焦
     follow_up_question: "用户选择你们，最核心的原因是什么？这个原因能支撑用户付费吗？"
-  - signal: "产品功能越来越多，但用户增长停滞"
+  - src_unknown
     framework_lens: 产品内核定义——功能膨胀，内核被稀释
     follow_up_question: "最近新增的3个功能，每个功能解决了什么核心问题？去掉会影响关键转化率吗？"
-  - signal: "用户无法用一句话说清楚产品核心价值"
+  - src_unknown
     framework_lens: 产品内核定义——内核必须能用一句话描述
     follow_up_question: "你能用一句话（不超过20字）说清楚用户为什么选择你们吗？"
-  - signal: "团队内部对产品核心价值有分歧"
+  - src_unknown
     framework_lens: 产品内核定义——内核必须是团队共识
     follow_up_question: "你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？"
 
@@ -75,10 +75,10 @@ diagnostic_signals:
 不是"功能越少越好"，而是"找到决定用户选择的最小功能集"。
 
 测试方法：
-- 列出所有功能
-- 逐个问："去掉这个功能，用户还会选择我们吗？"
-- 如果"会" → 这不是内核
-- 如果"不会" → 这是内核的一部分
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 内核的承上启下
 
@@ -102,8 +102,8 @@ diagnostic_signals:
 
 关键转化率：用户从"了解产品"到"选择产品"的转化率。
 
-- 内核清晰 → 关键转化率高
-- 内核模糊 → 关键转化率低
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -127,21 +127,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你要定义产品时 → 先定义内核，再设计功能
-- 当功能膨胀时 → 做"内核减法测试"
-- 当团队争论方向时 → 回到"内核是什么？"
-- 当关键转化率低时 → 检查内核是否清晰
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-six-levels`：产品内核六个段位
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核实操课口述（Truman，2026-06-06）
-- 一堂产品内核验证课口述（Truman，2026-06-06）
-- 一堂产品内核迭代课口述（Truman，2026-06-06）
+- src_unknown
+- src_unknown
+- src_unknown

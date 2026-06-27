@@ -8,34 +8,34 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
 query_triggers:
-- 单元模型
-- 单位经济模型
-- 商业模式评估
-- 单店模型
-- 单SKU模型
-- LTV CAC
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-17
 reviewed_by: 王语嫣
 source_refs:
 - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
 - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-decision-full-process]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-build]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-unit-model-build]]'
-  - '[[yt-market-size-estimation]]'
-  - '[[yt-product-ten-metrics]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[case-unit-model-gashapon]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具
@@ -49,18 +49,18 @@ yitang:
   course_type: framework
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 是否能清晰界定最小可复制单元的收入与成本边界
+- src_unknown
   framework_lens: 边界定义 / 最小经济单元
   follow_up_question: 是否把总体收入/总用户当作单元模型？
-- signal: 是否同时评估盈利性、持续性和规模经济三个维度
+- src_unknown
   framework_lens: 三维评估 / 商业可行性
   follow_up_question: 是否只看单点盈利而忽视规模化后的成本结构变化？
-- signal: 关键指标是否有数据来源和验证计划
+- src_unknown
   framework_lens: 证据 / 可验证性
   follow_up_question: 转化率、留存率等数字是拍脑袋还是有数据支撑？
-- signal: 是否先验证单元模型再进入规模化复制
+- src_unknown
   framework_lens: 阶段顺序 / 反脆弱
   follow_up_question: 是否在单元模型未跑通前就开始扩张？
 author: 老顽童
@@ -135,9 +135,9 @@ author: 老顽童
 
 ### 关键判断
 
-- **盈亏平衡点**：月营收需 ≥ ¥52,950，对应日均客流 ≈ 139 人（按合理客单价/转化率）。
-- **投资回报周期**：若初始投入 ¥20 万，月净利润 ¥0（当前合理情景亏损），则该单元模型在合理情景下**不成立**。
-- **下一步动作**：先在悲观情景下验证能否盈利；若不能，则调整单元定义（如缩小店面、提高客单价）后再验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 模板使用原则：先填"合理值"做 go/no-go 判断，再用"悲观值"测安全边际，避免乐观值主导决策。
 
@@ -203,11 +203,11 @@ Mauboussin 的财务分析框架强调，企业的**超额利润**来自于竞�
 
 ## 单卡收尾检查
 
-- [x] status：`enriched`
-- [x] reviewed_by：`王语嫣`
-- [x] updated_at：`2026-06-17`
-- [x] diagnostic_signals：4 条
-- [x] Constraints & Boundaries：4 条适用边界
-- [x] Common Failure Modes：5 条
-- [x] 新增模板：最小可复制单元核算模板
-- [x] 新增互链：4 条（`yt-market-size-estimation`、`yt-product-ten-metrics`、`yt-growth-cycle-model`、`case-unit-model-gashapon`）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

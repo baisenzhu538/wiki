@@ -7,10 +7,10 @@ title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - policy-compliance
-  - risk-warning
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
@@ -18,7 +18,7 @@ source_refs:
 - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -27,25 +27,25 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-  - '[[tool-clinic-cabinet-legal-contract-guide]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-financial-model]]'
-  - '[[smart-medicine-cabinet-fraud-detection]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[smart-medicine-cabinet-o2o-cost-structure]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 诊所药柜合作模式
-- 智能药柜放在诊所
-- 诊所卖处方药药柜
-- 原研药医保个账
-- 大医院处方小诊所取药
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
@@ -69,9 +69,9 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 6. 24 小时营业 + O2O 骑手配送，为诊所引流。
 
 **交叉验证后结论**：
-- 该模式在**商业逻辑上具有一定吸引力**，但**多处触碰合规灰色地带或明确红线**。
-- 真正可以作为事实进入知识库的断言不足 20%；近四成需要加限定条件；超过四分之一存在夸大、偏见或与现行政策冲突。
-- 最高风险点：**"大医院处方拍照上传、小诊所照方开药"** 和 **"院内药柜 + 利润反哺医院"**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -98,10 +98,10 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**：患者在大医院确诊后拍照保存处方，到诊所扫码上传，诊所医生根据处方开方。
 
 **交叉验证结论**：
-- 违反《处方管理办法》第二条、第八条、第十条、第十八条。
-- 处方必须由本机构注册医师在诊疗活动中开具；外院处方不能简单"照方复制"。
-- 处方开具当日有效，特殊情况延长不得超过 3 天。
-- 无面诊开方涉嫌虚假诊疗、违规处方，涉及医保支付还可能构成欺诈骗保。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修正表述**：患者可持外院处方到诊所咨询，但诊所医师必须独立面诊、评估病情，在执业范围内重新开具处方。
 
@@ -110,11 +110,11 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**：医保基础用药 8 元/盒 vs 原研药 80 元/盒，患者刷医保个人账户，自付 72 元差额。
 
 **交叉验证结论**：
-- 原研药价格高于医保支付标准的部分，统筹基金确实不报销。
-- 但"超出部分可刷医保个人账户"**并非全国统一**。
-- **上海 2026 年 5 月已明确**：患者选择价格高于支付标准的"价高药"，超出部分需个人现金自负，**不能使用医保个人账户支付**。
-- 广东/广州是否允许，目前公开渠道未见专门文件，**需向医保部门确认**。
-- 若让患者误以为"刷个账 = 医保报销"，涉嫌欺诈骗保或误导消费者。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修正表述**：超出医保支付标准的部分能否使用个人账户，取决于当地政策；上海已明确不得刷个账；在广东/广州未经确认前，不能作为收入假设。
 
@@ -123,9 +123,9 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**："只能卖内科药，不能卖其他科的药"（简化表述）。
 
 **交叉验证结论**：
-- 诊所售药必须限定在《医疗机构执业许可证》/《诊所备案凭证》核准的诊疗科目及注册医师执业范围内。
-- 并非"只能卖内科药"，而是"只能卖备案科目范围内的药品"。
-- 若内科诊所药柜销售妇科/儿科/皮肤科药品，构成超范围执业。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修正表述**：药柜 SKU 必须严格匹配诊所执业范围，不能通过药柜绕过执业科目限制。
 
@@ -162,17 +162,17 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### 与已有知识的联系
 
-- **反脆弱视角**：该模式依赖政策灰色地带（个账支付自费原研药、处方复制），属于典型的脆弱系统；监管趋严会直接导致核心假设崩塌，而非使其更强。参考 `master-antifragile-checklist`。
-- **认知偏差视角**：推销方话术利用了确认偏误（"广东要求上系统"）、故事偏误（"大医院确诊、小诊所取药"）、锚定效应（"8 元 vs 80 元"）。识别这些话术是 `master-cognitive-bias-checklist` 的具体应用。参考 `kc-p0-04-fraud-detection`。
-- **决策卫生视角**：本卡中超过 60% 的断言需要加限定或标注待验证，符合"区分信号与噪音"的决策卫生原则。参考 `master-decision-hygiene`。
-- **系统思考视角**：诊所系统上线、医保接入、患者习惯养成存在延迟效应；处方监管收紧会产生非线性崩塌风险。参考 `master-systems-thinking`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- **不作为最佳实践推广**：在知识库中明确标注为"一线观察案例/待验证模式"。
-- **单独标注风险**：任何引用该模式的地方，必须同时列出三大风险（处方真实性、医保个账支付、跨科销售）。
-- **财务模型区分场景**：将"诊所+药柜+原研药"列为"高风险高毛利场景"，与"保守乙类 OTC 场景"分开展示。
-- **落地前必须电话咨询**：向广州市医保中心、广州市卫健委/药监局确认诊所药柜个账结算、执业范围、处方管理等具体口径。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -180,22 +180,22 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### Before（推销方描绘的模式）
 
-- 诊所在诊所内放置智能药柜，销售慢性病长期用药（高血压、糖尿病等）。
-- 患者上传大医院处方，诊所医生照方开药。
-- 患者刷医保个人账户支付自费原研药，超出医保支付标准部分自费。
-- 药柜为诊所引流，24 小时营业 + O2O 骑手配送。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### After（交叉验证后的结论）
 
-- **处方来源真实性**：外院处方不能简单"照方复制"，诊所医师必须独立面诊重新开方，否则违反《处方管理办法》。
-- **医保个账支付自费原研药**：上海 2026 年 5 月已明确超出支付标准部分不得使用医保个人账户；广东/广州尚未确认。
-- **跨科销售**：药柜 SKU 必须严格匹配诊所执业范围，不能通过药柜绕过执业科目限制。
-- **巨头未进入**：阿里健康、京东健康、美团买药、饿了么、叮当健康、平安好医生均未公开布局诊所+药柜。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 真实锚点
 
-- 本案例基于广州增城/新塘一份小型诊所老板访谈逐字稿，经多源交叉验证。
-- 访谈中推销方掌握话语权，诊所老板的附和可能受销售场景影响。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -212,9 +212,9 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### 什么时候应该学这个案例
 
-- 你正在评估"诊所+药柜""医院+药柜"或任何医疗机构场景下的智能药柜项目。
-- 推销方强调"原研药高毛利""医保个账支付""大医院处方小诊所取药"等关键词。
-- 你需要向团队或投资人解释为什么这个模式当前不能作为成熟商业模型推广。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心 takeaway
 
@@ -238,15 +238,15 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ## 验证与参考
 
-- 诊所老板访谈洞察：`src_20260613_1deb50c8`
-- 诊所访谈纠偏报告：`src_20260613_5f96c5bb`
-- 诊所访谈政策核验：`src_20260613_420e8085`
-- 诊所访谈医保核验：`src_20260613_36a21181`
-- 诊所访谈商业核验：`src_20260613_309b7b52`
-- 知识图谱质询：`src_20260613_dafb968a`
-- 第八轮巨头与格局：`src_20260613_7cfd7b89`
-- 第八轮运营数据与失败案例：`src_20260613_59270720`
-- 第八轮医疗短视频合规：`src_20260613_ccf533f9`
-- 第八轮法律与税务：`src_20260613_f3aecb2d`
-- 第八轮综合总结：`src_20260613_9a2b289e`
-- 《处方管理办法》《医疗机构管理条例》《医疗保障基金使用监督管理条例》《中华人民共和国医师法》《中华人民共和国反不正当竞争法》
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

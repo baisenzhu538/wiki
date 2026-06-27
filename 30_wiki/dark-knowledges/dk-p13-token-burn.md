@@ -6,34 +6,34 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: pitfalls.md P-13
 source_refs:
-- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-13
+- src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - '[[sprint-6-cli-gap-proposal]]'
-  - '[[agent-external-brain-design]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[dk-p8-toolkit-forget]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[master-systems-thinking]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-reviewed
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 单会话轮数超过 50 轮且每轮 input tokens 持续在 100k 以上
-- 账单中缓存未命中费用占比超过 50%
-- 单晚/单次会话费用超过过去 7 天日均费用的 5 倍
-- 同一会话中连续处理多个独立 Sprint 或批量验证任务
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# P-13：长会话 = token黑洞 — 一晚上烧掉80元
 
 ## 原始表述/核心洞察
@@ -57,44 +57,44 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你准备在一个会话中连续处理多个独立任务（如多个 Sprint、多批卡片）
-- 你注意到单轮 input tokens 已经超过 100k
-- 你查看账单发现单次会话费用异常高
-- 你设计 Agent 工作流，需要优化 token 消耗
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **一个 Sprint 一个会话**：
-   - 完成一个 Sprint 后立即 `/new` 开新会话
-   - 通过 `.agent/context.md` 传递状态，而非通过对话历史
-   - 不要在一个会话中串多个 Sprint
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **拆分长任务**：
-   - 100 轮拆成 5 个 20 轮的短会话
-   - 每个会话只处理一个明确的子任务
-   - 总 token 消耗可降低 70%+
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **减少上下文负担**：
-   - 精简 CLAUDE.md（已做：290→101 行）
-   - 将 CLI 速查移出到独立文件
-   - 批量任务写脚本让用户本地跑，不用 Agent 一轮轮验证
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **监控 token 消耗**：
-   - 每完成一批任务检查一次账单
-   - 关注"缓存命中率"——缓存未命中是费用大头
-   - 设置费用告警（如单会话超过 $5 自动提醒）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 不要一个会话跑 100+ 轮
-   - 不要让上下文膨胀到 100k+ tokens 还在继续
-   - 不要等积累了高额账单才发现问题
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有按 token 计费的 LLM API 调用场景
-- 不适用本地模型或按请求计费的服务
-- **与 P-14 的区别**：P-13 是"主动运行中的高消耗"，P-14 是"后台僵尸进程的静默消耗"
-- 如果缓存 TTL 足够长（如 30 分钟），问题会减轻——但仍需控制单会话轮数
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -108,17 +108,17 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是**token 经济学**的实战教训：上下文长度与费用呈非线性关系
-- 极具隐蔽性：用户不会实时感知 token 消耗，直到账单到来
-- 揭示了"短会话接力"vs"长会话连续"的成本差异——不是 5 倍而是 10 倍
-- **AI 训练语料中不会有这条**：没有任何文档会写"Agent 会话超过 50 轮后 token 费用呈指数增长"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p14-zombie]] — P-13 和 P-14 是账单的两大来源：主动高消耗 + 僵尸进程消耗
-- [[dk-p15-unverified]] — P-15 的"虚假完工报告"可能掩盖了 P-13 的高消耗
-- [[dk-p1-model-switch-env]] — 模型配置错误会进一步放大 token 浪费
-- `.agent/pitfalls.md` → P-13（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-06-03）
 

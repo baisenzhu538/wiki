@@ -15,12 +15,12 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - '[[framework-candy-transcript-workflow]]'
-  - '[[dk-yitang-research-goal-before-efficiency]]'
-  - '[[framework-demand-usp-model]]'
-  - '[[dk-ji-hao-problem-vs-question]]'
-  - '[[tool-candy-oral-polish]]'
-  - "[[framework-candy-transcript-workflow]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 差异化定位画布
@@ -68,9 +68,9 @@ prompt = """用差异化定位画布分析以下内容：
 4. 右下（你要做的差异化——核心）：
 
 然后，为你的内容提炼一个"课程级概念"名称。规则：
-- 不要只描述材料（如"ESR聪明提问"）
-- 给它一个可独立存在的概念名（如"Problem OS"）
-- 一句话：如果听众只记住一句话，应该是哪句？
+- src_unknown
+- src_unknown
+- src_unknown
 """
 ```
 
@@ -84,8 +84,8 @@ prompt = """用差异化定位画布分析以下内容：
 
 ## 适用边界
 
-- **适用**：内容创作的第一步——演讲/课程/文章/视频脚本
-- **不适用**：已确定格式的常规内容（周报/会议纪要等）
+- src_unknown
+- src_unknown
 
 ---
 

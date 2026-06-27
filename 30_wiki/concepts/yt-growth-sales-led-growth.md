@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-product-led-growth
-  - yt-growth-market-led-growth
-  - yt-growth-channel-roi
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的产品客单价高，需要销售'"
+  - src_unknown
     framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
     follow_up_question: "你的客单价多少？销售周期多长？销售团队的人均产出是多少？"
-  - signal: "用户说'销售团队效率低'"
+  - src_unknown
     framework_lens: 销售驱动增长——销售效率需要系统化优化
     follow_up_question: "你的销售漏斗每个环节的转化率是多少？瓶颈在哪里？"
-  - signal: "用户说'销售和产研脱节'"
+  - src_unknown
     framework_lens: 销售驱动增长——销售需要产品支撑，产品需要销售反馈
     follow_up_question: "销售反馈的产品需求是否进入了产品路线图？产品是否支撑销售承诺？"
-  - signal: "用户说'我们靠关系销售'"
+  - src_unknown
     framework_lens: 销售驱动增长——关系销售不可规模化，需要系统化销售
     follow_up_question: "你的销售是否可复制？销售流程是否标准化？"
-  - signal: "用户说'销售成本太高'"
+  - src_unknown
     framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
     follow_up_question: "你的销售CAC是多少？销售效率（人均产出）是多少？"
 
@@ -133,21 +133,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当客单价高时 → 设计销售团队
-- 当产品复杂时 → 销售驱动
-- 当需要关系时 → 销售建立信任
-- 当PLG不够时 → SLG补充
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-product-led-growth`：产品驱动增长
-- `yt-growth-market-led-growth`：市场驱动增长
-- `yt-growth-channel-roi`：渠道ROI评估
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 销售管理研究
-- B2B销售实践
+- src_unknown
+- src_unknown
+- src_unknown

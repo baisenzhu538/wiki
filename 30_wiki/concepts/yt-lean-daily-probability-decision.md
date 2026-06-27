@@ -6,16 +6,16 @@ title: 假设驱动日常决策三问
 type: concept
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#content-format/skill'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -24,24 +24,24 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[yt-lean-essence]]'
-  - '[[yt-lean-beauty-store-conversion]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-entrepreneur-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 每天早上列待办时，分不清哪些任务对应致命假设、哪些只是优化项
+- src_unknown
   framework_lens: 假设驱动日常决策三问 / 敬畏概率
   follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？
-- signal: 团队频繁陷入"完善方案→推翻重做"的循环，验证前投入过大
+- src_unknown
   framework_lens: FALSE 模型 / 征服概率
   follow_up_question: 这个认知能否用当前 10% 的成本拿到？最便宜的验证手段是什么？
-- signal: 同时推进多条线，资源分散在低风险环节，高风险假设被延后
+- src_unknown
   framework_lens: 关键假设排序 / 分析概率
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
 
@@ -64,9 +64,9 @@ diagnostic_signals:
 
 每天早上面对待办事项时，先默认"大概率会失败"，再判断失败代价：
 
-- **A 级（致命）**：验证失败会导致方向崩盘、资金/时间大量沉没。例如需求假设不成立、核心转化链路断裂。
-- **B 级（重要）**：会影响效率或节奏，但不会直接杀死项目。
-- **C 级（优化）**：锦上添花，可在主路径跑通后再处理。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 张磊原话："我接下来要做的事情，多大概率会失败？如果这个失败会烧掉我多少条命？这个直接决定了今天做这个动作的投入级别。"（`src_20260616_59f708ea`）
 
@@ -84,11 +84,11 @@ diagnostic_signals:
 
 遇到需要验证的事情，强迫自己从 FALSE 模型最左侧开始想：
 
-- **直接测试（Face）**：假页面、假海报、AI 生成素材、模拟用户测试。
-- **人工服务（Artificial）**：CEO 亲自跑腿、人工模拟系统、专家访谈。
-- **借用工具（Leverage）**：借用现成平台、别人产品、AI 原型。
-- **人工替代（Substitute）**：用人工/AI 替代完整功能。
-- **最小版本（Essential）**：只做核心环节。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 执行口诀："能用左边就不用右边"，把每一次试错成本压到最低，多攒命数。
 
@@ -145,10 +145,10 @@ diagnostic_signals:
 
 ## 与相关框架的关系
 
-- [[yt-entrepreneur-lean-validation]]：三问是精益验证在日常决策中的落地习惯。
-- [[yt-entrepreneur-key-hypotheses]] / [[concept-一堂-key-assumptions]]：三问的前提是能够拆出关键假设。
-- [[tool-一堂-hypothesis-validation-three-axe]]：诚实调研、经验验证、实验验证是三问中"更低成本验证"的手段来源。
-- [[yt-entrepreneur-five-step-method]]：前置假设优先原则与五步法阶段判断相呼应。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 置信度说明
 

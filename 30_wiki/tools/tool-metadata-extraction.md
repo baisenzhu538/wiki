@@ -13,14 +13,14 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: ExifTool official docs
-- web: OSINT metadata analysis techniques
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-media-verification-overview]]'
-  - '[[tool-reverse-image-search]]'
-  - '[[tool-osint-maltego]]'
-  - "[[tool-osint-overview]]"
-  - "[[tool-reverse-image-search]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 元数据提取
@@ -76,9 +76,9 @@ exiftool document.pdf | grep -E "Author|Creator|Producer"
 
 ## 适用边界
 
-- **适用**：验证竞对材料的时间/地点/来源真实性
-- **不适用**：经过专业脱敏处理的文件（元数据已清除）
-- **成本**：完全免费（ExifTool开源）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

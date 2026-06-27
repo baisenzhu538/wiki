@@ -4,28 +4,28 @@ title: 技能：从案例中学习（正反案例法）
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-复盘推演法]]'
-- '[[tool-辩证讨论法]]'
-- '[[tool-多源输入法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-复盘推演法]]'
-- '[[tool-辩证讨论法]]'
-- '[[tool-多源输入法]]'
-- '[[tool-立即实践转化法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 案例库
-- 失败/成功记录本
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 只收集正面案例，不看失败案例
+- src_unknown
   lens: 案例偏食
   follow_up: 失败案例比成功案例更稀缺，只看成功案例导致对风险边界缺乏感知
-- signal: 把阿里最佳实践直接搬到自己的创业公司
+- src_unknown
   lens: 场景错配
   follow_up: 必须标注案例发生的公司规模、阶段、行业、团队特征，不能直接照搬
-- signal: 搜集了100个案例但从不拆解
+- src_unknown
   lens: 案例收集癖
   follow_up: 案例的价值在拆解后的可迁移原则，不在数量。每周至少拆解1个案例
-- signal: 拿案例当论据而非学习材料，看完只强化原有偏见
+- src_unknown
   lens: 确认偏误
   follow_up: 先看反面案例挑战自己的假设，再找正面案例验证，避免只拿案例佐证已有观点
-- signal: 案例是别人的故事，看完没有联系到自己的实际情况
+- src_unknown
   lens: 自我对照缺失
   follow_up: 每次看完案例必须思考'如果我在类似场景，我能做什么？有什么不同？'
 ---
@@ -89,8 +89,8 @@ diagnostic_signals:
 | **拆解深度不足** | 只记住"阿里当年也遇到过这个问题"但说不清楚解决逻辑 | 必须提取可迁移的因果原则："因为X，所以在Y场景下应该避免Z" |
 
 ## 工具/环境
-- 案例库
-- 失败/成功记录本
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -109,15 +109,15 @@ diagnostic_signals:
 3. 最近一周，有没有因为某案例而改变了某个行为？——案例学习的价值在行动，不在收藏。
 
 ## 常见失败模式
-- 只收集正面案例：只看最佳实践不看失败案例，导致对风险边界缺乏感知——失败案例比成功案例更稀缺
-- 案例脱离场景：把"阿里怎么做"直接搬到自己的创业公司，不看资源、阶段、团队差异
-- 案例收集癖：搜集了100个案例但从不拆解——案例的价值在拆解后的可迁移原则，不在数量
-- 只拿案例佐证已有观点：拿案例当论据而非学习材料，看完只强化原有偏见
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-复盘推演法]] — 用自己的失败案例做复盘，用别人的失败案例做推演
-- [[tool-辩证讨论法]] — 和他人讨论案例时，正反方辩论能暴露单视角盲区
-- [[tool-多源输入法]] — 案例是输入的一种，多渠道获取不同类型的案例
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输入(Input)层 L1.从案例中学：失败案例/最佳实践/真实案例/具体事实

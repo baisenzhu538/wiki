@@ -1,40 +1,40 @@
 ---
 id: yt-decision-canvas
 component_of:
-- yt-decision-y-model
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-- yitang
+- src_unknown
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- yt-decision-y-model
+- src_unknown
 query_triggers:
-- 决策画布
-- Y模型画布
-- 列推查
-- 一页纸决策
-- 收益成本清单
-- 决策盲区检查
-- 定性定量分析
-- L0-L4深度
-- 停车场模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[case-modeling-essence-levels]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[case-truman-poker-deck-roi]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 周伯通
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -46,41 +46,41 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- image: 一堂-科学决策-ROI决策评估画布.png
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰标题栏=权威容器；浅青色=冷静理性；蓝框=当前讲解重点；黑字=信息主体
-  - 空间结构: 三栏矩阵(维度/收益项/成本项)→底部机会成本+时间窗口→最终结论；漏斗式决策空间
-  - 信息层级: L1画布标题→L2维度标签→L3收益/成本项→L4最终结论
-  - 负形利用: 空白填写区=待填充的认知工作；底部机会成本+时间窗口=隐性因素突出
-  - 视觉隐喻: 画布=战略创作；三栏=天平博弈；时间窗口=沙漏；蓝框=聚光灯指向结构性机会
-- image: 一堂-科学决策-ROI决策评估画布-案例01.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰标题栏=案例容器；黑字=已填内容；灰字=框架提示；白底=待填区域
-  - 空间结构: 三栏表格已填充内容，左边收益项密集、右边成本项较少=收益已找全成本待补充
-  - 信息层级: L1 案例背景 → L2 已填内容 → L3 待填空白 → L4 决策结论
-  - 负形利用: 空白区=认知缺口；已填区的密集=分析完成度
-  - 视觉隐喻: 填充过程=决策的"着色"；从空白到完整=认知的渐进清晰
-- image: 一堂-科学决策-ROI决策评估画布-案例02.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰标题栏=权威框架；浅青色=冷静理性；蓝框=当前讲解重点；黑字=信息主体
-  - 空间结构: 三栏矩阵(维度/收益/成本)→底部机会成本+时间窗口→最终结论；漏斗式决策空间
-  - 信息层级: L1决策命题→L2框架标识→L3维度标签→L4核心数据→L5详细论证→L6情境变量→L7结论输出
-  - 负形利用: N/A空白=无明显成本(战略投资暂无可量化数据)；机会成本留白=教学互动点
-  - 视觉隐喻: 画布=战略创作；三栏=天平博弈；时间窗口=沙漏；蓝框=聚光灯指向结构性机会
-- image: 一堂-科学决策-ROI决策评估画布-案例03.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰蓝标题栏=严肃基调；浅青收益端=增长正向；红数字=关键计算结果需关注；蓝字=口语化注释区分
-  - 空间结构: 三纵三横矩阵；基础ROI占55%视觉重心；非对称平衡(收益4项vs成本5项)
-  - 信息层级: L1框架层→L2维度层→L3条目层→L4数据层(精确→估算→区间→定性递减)
-  - 负形利用: 长期成本留白=诚实面对不可预估；单元格行间距=高密度呼吸感；T形隐性结构
-  - 视觉隐喻: 画布=可绘制修改的创作；天平=收益成本博弈；旅程=从启程到归航的五阶段
-- image: 一堂-科学决策-ROI决策评估画布-案例04.png
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
   dimensions:
-  - 色彩语义: 深灰标题栏=正式容器；浅青维度列=理性氛围；红字=生死存亡紧迫感；橙结论=非理性决策跃迁
-  - 空间结构: 经典ROI二元结构→底部约束条件→全宽结论突破格律；结论获得视觉特权
-  - 信息层级: P0标题→P1最终结论(反讽焦点)→P2红色情绪转折→P3支撑论据→P4背景约束
-  - 负形利用: 外部黑背景=决策黑暗(信息不完备)；引号=认知缓冲带；逻辑跳跃空白=教学暴露点
-  - 视觉隐喻: 画布=主观建构；红色=血液/生存恐惧；赌一把=赌场隐喻(ROI工具证明ROI局限)
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 yitang:
   course_id: yt-decision-canvas
   course_type: tool
@@ -88,15 +88,15 @@ yitang:
   map: entrepreneur
   module: 科学决策
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 填画布的人说'我的画布填得很完整了'，但下一次决策还是凭感觉做
+- src_unknown
   framework_lens: 画布填了但决策没变——画布成了'填完存档'的文档，不是决策工具
   follow_up_question: 你上一次填画布的结论是什么？那个结论有没有被后续决策用到？如果没用，画布就是填了白填
-- signal: 团队花了两小时填画布，但最后说'这个决策太大了，还是再想想'
+- src_unknown
   framework_lens: 画布填了但决策没变——画布变成了'拖延决策'的借口
   follow_up_question: 画布分析的结论是什么？如果用了这个结论做决策，最坏的结果是什么？如果最坏结果可以接受，为什么不敢拍板？
-- signal: 画布上的关键数字旁没有标注置信度和数据来源
+- src_unknown
   framework_lens: 定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经"算过"
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
@@ -115,24 +115,24 @@ Y模型决策画布是一堂科学决策方法论的核心落地工具。它将�
 画布按三维度组织：
 
 **宽度区**（收益项 vs 成本项）：
-- 列：穷尽列出所有可能的收益和成本（不判断重要性，先求全）
-- 推：用业务逻辑推演每个项目的发生机制和影响路径
-- 查：对照盲区清单检查遗漏（个人盲区：能力成长、家庭关系、健康、社会化压力；团队盲区：跨部门成本、沟通成本、管理成本、人的成本；企业盲区：CEO时间、品牌风险、合规、政府关系、文化价值观）
-- 关键：从全量中识别前3-5个关键项——找全是为了确保关键不遗漏
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **深度区**（停车选择模型 L0-L4）：
-- L0 拍脑袋：不做任何分析
-- L1 定性：识别主要矛盾和关键项
-- L2 定优先级：对比关键项的相对重要性
-- L3 部分定量：对关键项做经验估算和交叉比对
-- L4 严格定量：完整财务ROI，连边角成本都计算
-- 匹配原则：价值越大→深度越深；资源越多→越有能力下探。不是越深越好，是越匹配越好
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **高度区**（四视角拉升）：
-- 长期视角（3年/10年）
-- 公司/组织视角（非个人视角）
-- 机会成本视角（资源还能投哪里）
-- 时间窗口视角（红利期是否过期）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ROI决策评估画布结构（源于源图像结构化提取）
 
@@ -159,9 +159,9 @@ Y模型决策画布是一堂科学决策方法论的核心落地工具。它将�
 
 ### 定量技巧
 
-- 经验值和benchmark交叉比对
-- 三点预测法：乐观值、悲观值、中间值
-- 用"替代成本"折算定性收益（如"留住1个成熟员工=节省X万招聘培训成本"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与AI的协作
 
@@ -171,9 +171,9 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 
 ### 内部局限
 
-- **穷尽性悖论**：要求"找全"但无法定义"全"的边界。什么时候可以停止列项？画布没有给出停止规则，实践中容易陷入"永远觉得漏了什么"的分析瘫痪。
-- **深度选择的循环困境**："匹配深度"需要预判决策价值，但预判决策价值本身就需要一定深度分析——形成"要知道多深→先判断价值→判断价值需要深度"的循环。
-- **团队填写的权力动力学**：团队一起填画布时，谁的项被写上去、谁的被忽略，往往反映的是话语权而非客观重要性。画布的形式平等可能掩盖实质不平等。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -181,9 +181,9 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 
 **Gerd Gigerenzer**（柏林马克斯·普朗克人类发展研究所所长，代表性著作《Gut Feelings》《Simple Heuristics That Make Us Smart》）对"结构化穷尽分析"提出了系统性挑战：
 
-- **"少即是多"效应**：在信息不完备、时间有限、计算能力受限的情况下，简单启发式（simple heuristics）往往比全面分析更准确、更稳健。Gigerenzer的实验表明，用"再认启发式"（recognition heuristic——如果你认识A但不认识B，选A）预测网球比赛结果，准确率超过ATP排名和复杂统计模型。
-- **过度拟合风险**：画布要求"找全+定量"，但在信息稀缺环境中，额外的变量和估计会引入噪声而非信号。Gigerenzer称之为"生态理性"——认知工具的有效性取决于环境结构，而非工具本身的复杂度。在"信息稀缺+反馈快速"的环境中（如创业早期），少用一个变量反而比多用三个估计更准确。
-- **满意解优于最优解**：Herbert Simon（有限理性创始人，Gigerenzer的理论先驱）证明人类不具备完全理性的计算能力，追求"满意解"（satisficing）而非"最优解"（optimizing）是适应性的。画布的L4严格定量隐含"追求最优"的假设，但真实决策者既没有信息也没有算力到达最优。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对画布的直接挑战：当你面对"要不要花800块做团建"这类决策时，Gigerenzer会说——填满一页纸画布是认知资源的浪费。一个简单规则（"如果预算<1000且影响<5人，直接凭直觉"）在长期来看可能带来更高的总体决策质量，因为你把认知资源留给了真正重要的决策。
 
@@ -191,21 +191,21 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 
 **Thomas Kuhn**（科学史家、科学哲学家，《科学革命的结构》作者，"范式"概念提出者）从科学史和知识论的角度对画布发起了根本性挑战：
 
-- **同一套框架是范式帝国主义**：Kuhn研究发现，科学发展不是"逐步积累真理"的线性过程，而是"范式转换"的非线性跃迁——牛顿力学和量子力学是两个不可通约的范式，用牛顿的方法分析量子现象是"范式错配"。画布假设所有决策（从"是否接受管理岗"到"是否投资一个新业务"）都可以用同一套"成本-收益-风险"框架来分析，但Kuhn会质问：你怎么知道这些完全不同类型的决策共享同一个"本质结构"？
-- **正常科学 vs 革命科学**：Kuhn区分了"正常科学"（在现有范式内解决问题）和"革命科学"（范式本身被推翻）。画布是典型的"正常科学"工具——它假设决策的基本参数（成本、收益、风险）是"自然的"。但对于"革命性"决策（如创立一个全新的业务模式、进入一个从未存在的市场），这些参数本身就是未知的。你用画布分析"是否进入生物技术领域"，但你可能连"在这个领域什么是成本、什么是收益"都不知道——因为这个领域的"范式"尚未建立。
-- **不可通约性（incommensurability）**：Kuhn的核心概念——不同范式之间没有共同的评判标准。当你用画布分析"是否要做社会企业"时，你强行把"社会影响"转化为"成本/收益"——但"社会影响"和"利润"在不同的价值范式中是不可通约的。你以为你在"客观分析"，但你只是在用一个范式的语言重写另一个范式的价值观。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对画布的直接挑战：当你开始用同一张画布分析\"是否花800块做团建\"和\"是否投资1亿进入生物技术\"时，Kuhn会问：这两个决策是否共享同一个\"本质\"？如果答案是\"不共享\"，那么你用同一套框架分析它们，不是在做\"科学决策\"，而是在做\"范式帝国主义\"——**用一个领域的“理性”去歧视另一个领域的“不理性”**。
 
 ## diagnostic_signals
 
-- signal: "填画布的人说'我的画布填得很完整了'，但下一次决策还是凭感觉做"
+- src_unknown
   framework_lens: "画布填了但决策没变——画布成了'填完存档'的文档，不是决策工具"
   follow_up_question: "你上一次填画布的结论是什么？那个结论有没有被后续决策用到？如果没用，画布就是填了白填"
-- signal: "团队花了两小时填画布，但最后说'这个决策太大了，还是再想想'"
+- src_unknown
   framework_lens: "画布填了但决策没变——画布变成了'拖延决策'的借口"
   follow_up_question: "画布分析的结论是什么？如果用了这个结论做决策，最坏的结果是什么？如果最坏结果可以接受，为什么不敢拍板？"
-- signal: "画布上的关键数字旁没有标注置信度和数据来源"
+- src_unknown
   framework_lens: "定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经\"算过\""
   follow_up_question: "前3个关键数字中，有几个标注了\"高/中/低\"置信度和数据来源？如果<2个，深度区需要重新标定"
 
@@ -248,11 +248,11 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 
 **第二步：深度区——停车选择**（调用 [[yt-decision-depth-ladder]] 的 L1-L4 模型）
 
-- 决策价值：涉及年营收数亿级、组织资源重新分配，属于高价值决策。
-- 选择深度：**L3 定量公式**——不是算到 L4 财务精算，而是先拆"单客户经济模型"：
-  - 目标客户：年差旅费 ≥100 万、员工 ≥200 人、存在垫资痛点
-  - 单客户毛利 = 机票佣金 + 酒店佣金 + 火车票佣金 − 实施成本 − 年度运维
-  - 用乐观/合理/悲观三版转化率验证，先看"最好情况是否成立"
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **第三步：高度区——四视角拉升**（调用 [[yt-decision-y-model]] 的高度维度）
 

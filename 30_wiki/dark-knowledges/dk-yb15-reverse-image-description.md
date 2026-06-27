@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -39,9 +39,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于已有明确标签/标准术语的领域（如"莫兰迪配色"可直接搜）
-- 对高度抽象的情感氛围描述可能失真
-- 需要多模态AI支持
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -49,4 +49,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb14-multi-image-commonality]] — AI生图：用多图共性替代语言描述
+- src_unknown

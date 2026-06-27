@@ -15,9 +15,9 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- "[[framework-demand-iceberg]]"
-- "[[tool-demand-iceberg-l1-user]]"
-- "[[tool-demand-iceberg-l3-core-job]]"
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # L2粗拆场景问题
@@ -53,8 +53,8 @@ prompt = """基于已确认的目标用户群（{USER_SEGMENT}），
 
 ## 适用边界
 
-- **适用**：L1确认后的自然下一步
-- **不适用**：跳过L1直接用L2（不知道是谁的场景=没有意义）
+- src_unknown
+- src_unknown
 
 ---
 

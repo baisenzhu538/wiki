@@ -3,46 +3,46 @@ id: find-old-do-small
 title: "找老的干小的：AI落地场景评估框架"
 type: tool
 domain:
-  - management
-  - ai-saas
-  - design
-  - yitang
-  - decision-making
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_ef4877d0-所以90的核心问题
 component_of:
-  - ai-landing-scene-selection
+  - src_unknown
 related:
-  - "[[ai-landing-scene-selection]]"
-  - "[[course-to-skill-conversion]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[yt-entrepreneur-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - 怎么评估AI场景
-  - AI场景选择检查清单
-  - 什么场景适合上AI
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "想用AI但有多个场景可选"
+  - src_unknown
     lens: "场景评估"
     follow_up: "用检查清单对3个场景打分，1小时内完成评估"
-  - signal: "AI项目失败后不知道问题在哪"
+  - src_unknown
     lens: "回溯检查"
     follow_up: "检查是否跳过了老或小的检查，找到1个被忽略的关键检查项"
-  - signal: "团队对AI方向有争议"
+  - src_unknown
     lens: "客观排序"
     follow_up: "用四要素检查各自方案，形成客观的打分排序"
-  - signal: "AI落地后效果不达预期"
+  - src_unknown
     lens: "场景错配"
     follow_up: "重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景"
 ---# "找老的干小的"场景评估框架
@@ -65,19 +65,19 @@ diagnostic_signals:
 
 ### Step 1: 找"老的"
 检查清单：
-- [ ] 这个业务我做过多少次？（>10次为优）
-- [ ] 我能否在5分钟内说清楚这个业务的流程？
-- [ ] 我是否知道这个业务的常见失败模式？
-- [ ] 这个业务的输出是否可以被明确判断好坏？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **暗知识**："老的"不是指"做了很久"，而是指"失败模式足够清晰"——只有当你知道什么时候会失败，才能设计出有效的AI纠偏机制。
 
 ### Step 2: 找"小的"
 检查清单：
-- [ ] 这个场景的输入数据量是否<1000条？
-- [ ] 这个场景的输出结果是否可以在1天内验证？
-- [ ] 这个场景的错误成本是否可接受？
-- [ ] 如果失败，是否可以在1周内恢复？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3: 四要素验证
 | 要素 | 验证问题 | 通过标准 |
@@ -89,8 +89,8 @@ diagnostic_signals:
 
 ### Step 4: 排序与选择
 对所有候选场景打分：
-- 老得分 × 0.4 + 小得分 × 0.3 + 四要素得分 × 0.3
-- 选择最高分的场景作为第一个试点
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -120,9 +120,9 @@ diagnostic_signals:
 ## Critique
 
 ### 内部局限
-- 打分体系的权重（0.4/0.3/0.3）是主观设定，不同行业可能需要不同的权重。
-- "小"的标准在不同组织中差异很大，一个大公司的"小"可能是一个小公司的"大"。
-- 检查清单可能导致"检查清单偏差"——为了让场景通过而故意低估难度。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

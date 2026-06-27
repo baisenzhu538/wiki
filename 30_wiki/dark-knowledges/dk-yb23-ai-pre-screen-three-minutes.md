@@ -6,7 +6,7 @@ type: dark-knowledge
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,24 +14,24 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb31-style-first-controlnet]]'
-  - '[[dk-yb27-pseudo-layer-evasion]]'
-  - '[[dk-yb29-prompt-migrate-copy-first]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb31-style-first-controlnet]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- "客户无法从10套方案中做出选择，反而要求'再出一轮看看'，导致风格确认阶段无限拖延"
-- "风格锁定后客户仍频繁要求'试试另一种风格'，说明前置选风格环节未获得明确确认"
-- "精调阶段反复返工，回溯发现是对标了未被选中的初稿风格"
+- src_unknown
+- src_unknown
+- src_unknown
 ---# AI出图前置筛选：三分钟十套方案定风格
 
 ## 原始表述/核心洞察
@@ -56,9 +56,9 @@ AI出图的成本结构与传统设计不同：生成10套初稿的时间远低�
 
 ## 适用边界
 
-- 不适用需要强品牌一致性的成熟项目（已有VI系统）
-- 不适用于客户本身有明确风格参考的情况
-- 易混淆：把"调图"和"选风格"混在一起做，导致反复返工
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -76,5 +76,5 @@ AI出图的成本结构与传统设计不同：生成10套初稿的时间远低�
 
 ## 与其他知识的关联
 
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
-- [[dk-yb31-style-first-controlnet]] — AI绘图工作流：先锁风格再开ControlNet
+- src_unknown
+- src_unknown

@@ -4,28 +4,28 @@ title: 技能：动手建模法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-mece体系框架法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-专题笔记脑图整理法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-mece体系框架法]]'
-- '[[tool-四层联系建立法]]'
-- '[[tool-专题笔记脑图整理法]]'
-- '[[tool-复盘推演法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 流程图工具
-- 框架模板
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 搭了MECE框架但里面没内容，只有分类没有洞察
+- src_unknown
   lens: 建空架子
   follow_up: 框架分类下面必须有具体的行为标准、判断依据，不能只有框架没有洞察
-- signal: 第一版模型用了一年没更新
+- src_unknown
   lens: 建完不迭代
   follow_up: 模型是假设，需要持续验证和修正。超过1个月没用可能已过时
-- signal: 模型写得很漂亮但日常工作中从不参考
+- src_unknown
   lens: 建完不用
   follow_up: 建模的目的是用不是看，过去一个月至少用这个模型解决过一个真实问题
-- signal: 把一个简单概念建了三层模型，复杂度超过实用价值
+- src_unknown
   lens: 过度建模
   follow_up: 好的模型别人照着步骤能执行并得到相近结果，太抽象或太复杂都是坏模型
-- signal: 模型里的分类，不同人/不同时间分类结果不一致
+- src_unknown
   lens: 维度不客观
   follow_up: 分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
 ---
@@ -87,8 +87,8 @@ diagnostic_signals:
 | **协作断层** | 模型只有作者自己理解，团队成员无法使用 | 建模后必须让至少一个团队成员独立使用并反馈，确保可传递性 |
 
 ## 工具/环境
-- 流程图工具
-- 框架模板
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -107,15 +107,15 @@ diagnostic_signals:
 3. 用一个真实案例跑一遍这个模型，它能覆盖所有关键因素吗？——如果总有例外，说明模型还需要修正。
 
 ## 常见失败模式
-- 建空架子：搭了MECE框架但里面没内容，只有分类没有洞察
-- 建完不迭代：第一版模型用了一年没更新——模型是假设，需要持续验证和修正
-- 建完不用：模型写得很漂亮但日常工作中从不参考——建模的目的是用不是看
-- 过度建模：把一个简单概念建了三层模型，复杂度超过实用价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-mece体系框架法]] — MECE是建模的结构工具，动手建模是MECE的应用场景
-- [[tool-四层联系建立法]] — 建模的前提是建立了足够多的联系
-- [[tool-专题笔记脑图整理法]] — 从笔记到脑图到建模，是信息→结构→模型的升级路径
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 处理(Process)层 L3.动手建模：整理框架/梳理流程方法，提炼本质/挖掘底层原理

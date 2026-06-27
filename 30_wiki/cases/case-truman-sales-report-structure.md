@@ -6,8 +6,8 @@ title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成�
 type: case
 status: enriched
 problem_domains: &id001
-- 工作汇报
-- 复盘结构化
+- src_unknown
+- src_unknown
 industry: 通用
 scale: 团队
 source_person: Truman
@@ -15,22 +15,22 @@ source_context: 一堂建模能力培训，2026-06-12
 source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs:
-- '[[dk-modeling-checklist-formatting-rules]]'
+- src_unknown
 definition_of_done:
-- 问题描述清晰
-- 方案可理解
-- 可迁移点明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#content-format/case-study'
-- '#problem/reporting'
+- src_unknown
+- src_unknown
 related_skills:
-- '[[dk-modeling-checklist-formatting-rules]]'
+- src_unknown
 related_concepts:
-- '[[dk-modeling-logical-cleanliness-root]]'
-- '[[modeling-capability-system]]'
-- '[[dk-modeling-sop-execution-locks]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related_cases:
-- '[[case-truman-ai-partner]]'
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -39,11 +39,11 @@ confidence: 0.8
 trust_level: medium
 domain: *id001
 related:
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[dk-modeling-checklist-formatting-rules]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[tool-ai-skill-engineering-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 
@@ -66,16 +66,16 @@ related:
 
 ## 结果
 
-- 汇报从 **10 个无序点**变成有优先级、有结构、有推理关系的模型；
-- 团队能看清“谁依赖谁”，每个人都能在链条中找到自己的位置；
-- 输入质量差 → 处理差 → 输出差的因果链被显性化；
-- 负责人“动过脑子”的程度一眼可见。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
-- 任何复盘/汇报不要停留在“清单”，而要追问优先级、MECE、逻辑链；
-- L5 级的表达能把团队从“信息罗列”推进到“可行动的推理”；
-- 这是训练团队逻辑洁癖最直接的工作场景。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 结构演进前后对比
 
@@ -94,16 +94,16 @@ Truman 把同一份销售失利汇报从 L1 改到 L5，不是堆内容，而是
 出现以下信号，说明这份汇报/复盘需要往右升级：
 
 1. **下属把汇报写成一大段，连换行都没有**
-   - 信号：信息密度超过大脑处理阈值，领导无法判断遗漏。
-   - 追问：能否把每一点拆成独立一行，一行一个动作或一个判断？
+   - src_unknown
+   - src_unknown
 
 2. **清单超过 7 条，但没有优先级或分类**
-   - 信号：所有点看起来一样重要，讨论时抓不住主次。
-   - 追问：如果只能先处理 3 条，是哪 3 条？能否标出 P0/P1/P2？
+   - src_unknown
+   - src_unknown
 
 3. **有结论，但看不出“输入 → 处理 → 输出”的因果链**
-   - 信号：团队知道结果不好，但不知道哪个环节该谁负责。
-   - 追问：哪个输入不好导致了哪个处理失误？最终如何影响输出？
+   - src_unknown
+   - src_unknown
 
 ## 可迁移场景与使用边界
 
@@ -127,24 +127,24 @@ Truman 把同一份销售失利汇报从 L1 改到 L5，不是堆内容，而是
 
 写完汇报/复盘后，用这 5 个问题自检：
 
-- [ ] 是否每行一个独立要点？（L2）
-- [ ] 超过 7 条时是否有分类或分层？（L3/L4）
-- [ ] 是否标出优先级（P0/P1/P2 或 SABC）？（L3）
-- [ ] 是否有“总分总 + 会前/会中/会后”或“问题/机会/输入/决策”的 MECE 结构？（L4）
-- [ ] 是否能用“输入 → 处理 → 输出”讲清楚因果关系？（L5）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键标签
 
-- 问题域：工作汇报、复盘结构化
-- 行业：通用
-- 方法：优先级、MECE、逻辑链
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 技能：[[dk-modeling-checklist-formatting-rules]]
-- 概念：[[dk-modeling-logical-cleanliness-root]]、[[modeling-capability-system]]、[[dk-modeling-sop-execution-locks]]
-- 案例：[[case-truman-ai-partner]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_8269ccdb#990-1074`
+- src_unknown

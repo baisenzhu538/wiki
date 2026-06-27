@@ -4,34 +4,34 @@
 
 id: yt-panproduct-demand-peak-end-rule
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 峰终定律
-- 泛产品设计
-- 泛产品设计·用户卡片：峰终定律
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown
+- src_unknown·用户卡片：峰终定律
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-panproduct-demand-surprise-formula]]'
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[yt-model-conversion-optimization]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律
@@ -45,16 +45,16 @@ yitang:
   course_type: card
   level: intermediate
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 能画出用户旅程中的峰值点和结束点，并标注情绪强度
+- src_unknown
   framework_lens: 体验记忆由峰值和终点决定
   follow_up_question: 旅程中情绪最高的点和最后的点，哪个更可能被用户记住？
-- signal: 设计方案时主动管理用户预期，而不仅仅是提升交付
+- src_unknown
   framework_lens: 惊喜 = 交付 − 预期
   follow_up_question: 如果用户预期已经很高，你还能创造惊喜吗？
-- signal: 用户满意度调研包含'记忆型'问题，而不只是平均打分
+- src_unknown
   framework_lens: 峰值终值影响推荐和复购
   follow_up_question: 用户向别人推荐时，最可能提到的三个瞬间是什么？
 updated_at: '2026-06-16'
@@ -83,26 +83,26 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **把资源平均分配到每个触点，峰值平淡无奇**
-   - **原因**：忽视记忆的非线性特征
-   - **修复**：识别1-2个关键峰值点，集中资源打造难忘体验，其他触点保持基准线
+   - src_unknown
+   - src_unknown
 
 2. **结尾体验很差，用户带着负面情绪离开**
-   - **原因**：未把终点作为设计重点
-   - **修复**：为每个旅程设计一个正向结束动作：确认、总结、感谢或下一步价值预告
+   - src_unknown
+   - src_unknown
 
 3. **为制造峰值牺牲核心功能稳定性**
-   - **原因**：峰值设计越界
-   - **修复**：设定‘峰值不能损害基本可用性’的硬约束，先稳后惊喜
+   - src_unknown
+   - src_unknown
 
 4. **只提升交付质量，不管理用户预期**
-   - **原因**：把惊喜等同于投入
-   - **修复**：同步设计预期管理：哪些信息要提前告知，哪些可以保留为正向偏差
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 核心机制：记忆≠平均
 
-- claim:01 [conf=0.85] 峰终定律（Kahneman, 1999）的核心洞察：用户对一段体验的记忆不是所有时刻的平均值，而是由峰值时刻（最好或最差的那个点）和终值时刻（体验结束时的感受）决定的。一堂将框架扩展为四要素：峰值 + 终值 + 初值 + 底线值。初值和底线值是峰终定律在中国产品实践中的补充——初值决定用户是否进入体验，底线值决定体验是否崩盘
+- src_unknown
 
 | 时刻 | 含义 | 设计策略 |
 |------|------|---------|
@@ -113,15 +113,15 @@ reviewed_by: 欧阳锋
 
 ### 精选案例
 
-- claim:02 [conf=0.90] **迪士尼的排队体验**：排队本身是负面体验，但迪士尼在排队过程中设计了互动装置、角色巡游（峰值），离园时的烟花秀是精心设计的终值。用户离开时记住的不是"排了2小时队"，而是"烟花太好看了"——峰值和终值覆盖了平均体验。即使平均等待时间和其他游乐园一样长，峰终设计让迪士尼的满意度评分高出竞品 30% 以上
+- src_unknown
 
-- claim:03 [conf=0.85] **一堂训练营的结营仪式**：训练营的日常学习体验是平稳的（中等峰值），但结营仪式被设计为情绪终值——学员互写卡片、教练逐一告别、结营证书颁发。很多学员对训练营的记忆锚定在结营那一刻的感受上，"不舍"和"成长"成为整个训练营的记忆标签，而非"每天打卡挺累的"
+- src_unknown
 
-- claim:04 [conf=0.85] **反面案例：某在线教育产品的 wow moment 陷阱**：产品花重金设计了开课第一天的惊喜体验（峰值极高），但日常答疑响应慢、作业批改质量参差（底线值塌了）。结果用户评价是"开头很好但后面不行"——因为底线值持续低于用户最低可接受线，峰值的高光反而反衬了日常的落差。用户离开时的终值不是惊喜，而是失望
+- src_unknown
 
 ### 与相邻工具的区分
 
-- claim:05 [conf=0.80] 峰终定律解决"用户记住什么"——它是体验的记忆过滤器。惊喜公式解决"怎么制造超出预期的瞬间"——它是峰值的具体设计方法之一。动力阻力解决"用户为什么卡住了"——它是转化路径的诊断工具。三者协同的典型路径：先用动力阻力找到最值得优化的触点 → 用峰终定律确定这个触点上应该设计峰值还是终值 → 用惊喜公式实现那个时刻的具体体验设计
+- src_unknown
 
 ## Critique
 
@@ -140,9 +140,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

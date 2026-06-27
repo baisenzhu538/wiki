@@ -4,7 +4,7 @@
 id: "EC工业化规范手册"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - src_unknown
 source_refs:
 - src_20260503_dadc7838-EC工业化规范手册
 status: enriched
@@ -12,17 +12,17 @@ title: "EC工业化规范手册"
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[HIS系统开发实现方案-架构师指南]]'
-  - '[[保达云诊所深度调研报告]]'
-  - '[[轻量级诊所HIS调研全清单]]'
-  - '[[HIS系统深度调研]]'
-  - '[[紫鲸ai智能体工作流平台]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # EC工业化规范手册
 
@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md`
+- src_unknown
 
 ## Reusable Knowledge
 
@@ -64,14 +64,14 @@ related:
  逐条质疑
 
 **对结论1（EC卡是工业作业指导书）：**
-- 前提假设：AI能够严格遵循卡片步骤执行，不会跳过或篡改。但LLM的本质是概率生成，即使明确禁止跳步，仍可能在复杂场景下产生偏差。
-- 边界与反例：规范手册本身长达264KB、35章，EC卡的创建和维护成本极高。对于小型功能迭代，完整的EC卡流程可能造成过度工程。
-- 可靠性评估：**中高**。框架设计严谨，但实际执行依赖AI的"听话程度"，需要持续校准。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论2（三层质量防护）：**
-- 前提假设：每层审查都有足够的时间和资源执行。但在快速迭代的创业环境中，三层防护可能被压缩为一层或零层。
-- 边界与反例：Pre-commit Checklist 的自检依赖Builder Bot的自我审查能力，而AI的自我审查存在盲区（不知道自己不知道）。
-- 可靠性评估：**中**。流程设计合理，但落地需要组织纪律支撑。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **对结论3-5**：详见完整原文。本卡片为骨架级摘要，完整规范见源文件。
 
@@ -87,25 +87,25 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[鑫港湾his系统分阶段整改报告]] — EC规范是鑫港湾整改的工程执行层基础设施。整改报告决定"做什么"，EC规范决定"怎么做"。
-- [[kdo-protocol]] — 二者都是"AI操作契约"，但KDO Protocol面向知识管理（Obsidian Vault），EC规范面向软件开发（Git仓库）。可互相借鉴路由规则和质量门设计。
-- [[紫鲸ai智能体工作流平台]] — 紫鲸AI是6-Agent内容营销管线，EC规范是4-Bot软件开发管线。二者共享"多Agent分工+标准化传递"的架构思想。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- **AI驱动软件开发的标准化**：EC卡体系可迁移至任何使用AI辅助编程的项目，尤其是需要多轮迭代、多人/Ai协作的中大型系统。
-- **多Agent协作的防呆设计**：六大防呆机制（环境锁定、依赖冻结、变更控制等）可迁移至任何多Agent自动化工作流。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- EC规范v2.8.0有35章，小型功能迭代是否也需要完整走一遍流程？是否存在"轻量版EC卡"？
-- Builder Bot的自我审查准确率如何量化？是否有评测数据？
-- 多Bot协作中，Bot间的上下文传递损耗如何度量？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Capability: AI驱动软件开发的EC卡设计模板（开源项目）
-- Code: 自动化的Pre-commit Checklist验证脚本
-- Content: 从传统开发到AI工业化开发的组织变革指南
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

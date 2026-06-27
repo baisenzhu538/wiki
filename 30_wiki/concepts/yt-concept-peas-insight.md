@@ -6,30 +6,30 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - yitang- master
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-model-agent-architecture
+- src_unknown
 query_triggers:
-- 为什么目标总是达不成
-- OKR失败原因
-- 决策系统设计
-- 拖延的本质
-- 架构错配
-- 什么是PEAS
-- 升级本质是换架构
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-system-course-map-lecture]]'
-  - '[[yt-tool-peas-agent-analysis]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[诊所o2o外卖平台业务深度调研报告]]'
-  - '[[yt-tool-peas-agent-analysis]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[yt-decision-habit-shift]]'
-  - '[[yt-decision-y-model]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html
@@ -39,12 +39,12 @@ trust_level: medium
 type: concept
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户定了很多OKR，但只写了目标数字，没定义怎么衡量
+- src_unknown
   framework_lens: P填了但E/A/S空槽——PEAS四槽缺一不可
   follow_up_question: 你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的
-- signal: 团队很努力但目标达不成
+- src_unknown
   framework_lens: 可能是架构错配，不是努力问题
   follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
 updated_at: '2026-06-16'
@@ -66,9 +66,9 @@ PEAS 的核心洞察不是"把事情写清楚"，而是**暴露空槽位**。任
 人们更害怕"填错"而不是"没填"。但 PEAS 证明：填错至少是在系统内运行，可以被反馈修正；没填意味着系统根本不完整，所有努力都是在补救一个缺少必要组件的系统。
 
 **例子**：
-- 填了 P="年营收 1 亿"但没填 E="在什么市场、竞争态势如何"→ 目标是空谈
-- 填了 P="每周运动 3 次"但没填 S="怎么记录、谁监督、没达到怎么办"→ 意志力消耗完之后崩溃
-- 填了 P="团队效率提升 20%"但没填 A="我有什么权限和资源去实现"→ 责任和权力不对等
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:02 [conf=0.88] 拖延不是性格问题，是架构错配
 
@@ -96,8 +96,8 @@ PEAS 的核心洞察不是"把事情写清楚"，而是**暴露空槽位**。任
 ### claim:04 [conf=0.82] 抱怨环境是徒劳，你能动的只有 S 和 A
 
 E（环境）是给定的。你不能选择环境，但你能选择：
-- **S（传感器）**：拿更好的信息——读更多书、找更好的 mentor、进更好的群体
-- **A（执行器）**：练更精的动作——提升技能、优化流程、获取更多资源
+- src_unknown
+- src_unknown
 
 **反直觉点**：很多人花 80% 时间抱怨 E（"行业不行了"、"竞争太激烈了"、"经济环境不好"），只花 20% 时间改进 S 和 A。这是倒置的。
 
@@ -157,14 +157,14 @@ E（环境）是给定的。你不能选择环境，但你能选择：
 
 ### 关联卡片
 
-- [[yt-tool-peas-agent-analysis]] — PEAS 智能体分析工具（master 域）：本概念的工具化落地
-- [[yt-model-agent-architecture]] — 智能体架构（master 域）：完整的理论框架
-- [[yt-model-cognitive-upgrade-framework]] — 认知升级十步框架（master 域）：PEAS 可作为 IDENTITY 阶段的"旧 Bug"诊断工具
-- [[yt-decision-habit-shift]] — X/Y 型决策习惯转换（master 域）：从 reflex 升级到 goal-based 的具体路径
-- [[yt-decision-y-model]] — Y 模型（master 域）：宽度×深度×高度的决策框架
-- [[yt-management-goal-management]] — 目标管理（yitang 域）：OKR 失败的最常见原因就是 P 填了但 E/A/S 空着——团队设了目标但没有告诉团队"你有什么武器（A）和雷达（S）"。PEAS 是对 OKR 方法论最根本的诊断工具
-- [[yt-management-scientific-decision]] — 科学决策（yitang 域）：Y 模型告诉你"怎么选择"，PEAS 告诉你"为什么你的选择在执行中会失败"——因为你的决策系统只有目标没有执行器/传感器。Y 模型是决策的手术刀，PEAS 是决策的体检表
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Berlin 的价值多元论对 PEAS 最根本的挑战在讲香的语境中变得清晰——不是所有价值都适合被 P 量化。当你向团队"讲香"时，有些东西（信任、归属、意义）被量化成 KR 的那一刻，它们就失去了对人的感召力。"讲香"的最高技巧是让人感到"这个目标值得追"——而不是"这个目标可以被测量"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 

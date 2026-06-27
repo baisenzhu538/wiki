@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-  - yitang
-  - modeling
+  - src_unknown
+  - src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -16,18 +16,18 @@ source_refs:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（组织级建模价值）
 related:
-  - framework-course-milestone-model
-  - modeling-scientific-milestones
-  - concept-thousand-people-square
-  - case-child-drawing-rhyme
+  - src_unknown
+  - src_unknown-scientific-milestones
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 团队把所有增长指标都归结为收入/流量/会员数，却从未讨论"这周我们的建模能力有没有进步"
+  - src_unknown
     framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
     follow_up_question: 如果明天预算砍掉一半，还有哪些增长指标不会随之崩塌？
-  - signal: 固定交付节奏被压缩或跳过，理由是"业务太忙"
+  - src_unknown
     framework_lens: 交付即训练视角：外部 deadline 是建模能力的反拖延机制
     follow_up_question: 如果取消本周交付，我们会失去哪一次建模迭代机会？
-  - signal: 复盘只谈业务结果，不谈模型/方法论的进步
+  - src_unknown
     framework_lens: 能力资产视角：每次交付的副产品应是可复用的模型资产
     follow_up_question: 这次交付产出的哪个模型可以进入下一轮迭代的起点？
 author: 老顽童
@@ -35,10 +35,10 @@ reviewed_by: 欧阳锋
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 tags:
-  - '#method/modeling'
-  - '#dark-knowledge'
-  - '#method/execution-method'
-  - '#method/management-tool'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
@@ -60,11 +60,11 @@ tags:
 
 ## 使用场景
 
-- 你在经营一家知识型/方法型公司，想找到真正的护城河。
-- 团队陷入"只追收入/流量"的短期焦虑。
-- 你想把"交付"变成组织能力建设的机制。
-- 你在设计自己的个人成长系统，想找到复利资产。
-- 组织有固定产出节奏（周报、课程、产品迭代），但从未把它当作建模训练。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -89,11 +89,11 @@ tags:
 
 ## 适用边界
 
-- **适用于知识型、方法型组织**：咨询、教育、产品、研发。
-- **不适用于纯资源型业务**：如矿产、贸易、投机。
-- **需要长期主义**：建模能力的复利在短期看不到效果。
-- **需要真实交付场景**：没有外部 deadline，很难坚持周对周迭代。
-- **需要入库机制**：如果每次迭代不沉淀为可复用资产，复利无法累积。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -111,27 +111,27 @@ tags:
 
 ## 为什么值钱
 
-- 收入增长、利润增长、流量增长都能用钱买，但建模能力增长买不到。
-- 每个周五的交付都是一次建模能力训练，一年就是 50 次迭代。
-- 固定交付节奏是反拖延机制：不等到"准备好"，而是到点就交付。
-- 这个视角能帮团队从"追结果"转向"追能力"，建立长期护城河。
-- AI 训练语料中很少包含"组织如何持续迭代建模能力"的实操细节。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与其他知识的关联
 
-- [[framework-course-milestone-model]] —— 一堂做课的七步生产流程，是周对周迭代的具体方法。
-- [[modeling-scientific-milestones]] —— 科学建模的七步里程碑，保证每次迭代有质量。
-- [[concept-thousand-people-square]] —— 一堂做课的统计建模理念，解释为什么敢快速迭代。
-- [[case-child-drawing-rhyme]] —— 最小单元的建模案例，说明建模能力可以在任何尺度上练习。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 **单卡收尾检查**：
-- [x] 用一句话讲清楚
-- [x] 核心要点已提炼
-- [x] 边界与失败模式已明确
-- [x] 相关卡/互链 ≥2 条有效内部链接
-- [x] source_refs 指向真实存在的 10_raw/sources/ 文件
-- [x] status = enriched，confidence ≤ 0.89，reviewed_by = 欧阳锋
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

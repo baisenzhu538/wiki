@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-retention-metrics
-  - yt-growth-user-onboarding
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'注册很多，但活跃用户少'"
+  - src_unknown
     framework_lens: 激活率——注册用户多但活跃少，说明激活环节断了
     follow_up_question: "你的激活率是多少？用户注册后第一次体验到价值的路径是什么？"
-  - signal: "用户说'用户注册后就走了'"
+  - src_unknown
     framework_lens: 激活率——用户注册后没有体验到价值，需要优化激活路径
     follow_up_question: "用户注册后看到的是什么？是否能在3分钟内体验到核心价值？"
-  - signal: "用户说'我们的产品功能很多，用户不知道用哪个'"
+  - src_unknown
     framework_lens: 激活率——功能多≠价值清晰，需要引导用户到核心价值
     follow_up_question: "你的产品最核心的价值是什么？用户第一次使用应该体验到什么？"
-  - signal: "用户说'我们的onboarding很长，用户不耐烦'"
+  - src_unknown
     framework_lens: 激活率——onboarding太长，用户还没体验到价值就流失了
     follow_up_question: "你的onboarding有几步？能不能在3步内让用户体验到价值？"
-  - signal: "用户说'用户激活了，但很快就不用了'"
+  - src_unknown
     framework_lens: 激活率——激活≠留存，需要设计持续价值
     follow_up_question: "用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？"
 
@@ -128,21 +128,21 @@ Time to Value = 从注册到体验核心价值的时间
 
 ## 行动触发器
 
-- 当注册多但活跃少时 → 优化激活路径
-- 当用户注册后流失时 → 缩短 Time to Value
-- 当 onboarding 太长时 → 简化步骤
-- 当激活后流失时 → 设计持续价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-user-onboarding`：用户 onboarding
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 激活率研究（Activation Rate）
-- 用户 onboarding 最佳实践
+- src_unknown
+- src_unknown
+- src_unknown

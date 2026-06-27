@@ -5,47 +5,47 @@ title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent
 type: case
 status: enriched
 domain:
-- agent-infrastructure
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享
 source_refs:
 - 10_raw/sources/src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述.md
 tags:
-- '#perspective/professional'
-- '#confidence/source-cited'
-- '#confidence/verified-by-case'
-- '#domain/agent-infrastructure'
-- '#domain/yitang'
-- '#scene/agent-infrastructure/discovery-chain'
-- '#scene/agent-infrastructure/skill-registry'
-- '#scene/ai-collaboration/problem-validation'
-- '#scene/ai-collaboration/skill-market'
-- '#method/learning-method'
-- '#scene/note-taking'
-- '#scene/skill-engineering/manifest-design'
-- '#scene/skill-engineering/publish-deploy'
-- '#content-format/case-study'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[agent-ecosystem-design]]'
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 团队想建一个"Skill 市场/应用商店"，但说不清每周发生几次"微信传 zip"导致的具体混乱
+- src_unknown
   framework_lens: 伪需求 vs 真实问题：没有真实锚点的需求会无限放大
   follow_up_question: 能否列出最近一周 3 个因 zip 分发而产生实际损失的现场？如果列不出，先用四问法验证再动手。
-- signal: Skill 描述、版本号、分类等元数据全靠维护者手动填写，导致更新和维护成本高
+- src_unknown
   framework_lens: Agent-facing 设计：元数据应让人"说清楚"后由 AI 补全，安装由 Agent 自动完成
   follow_up_question: 哪些字段可以让维护者口述/截图后由 AI 自动转成结构化元数据？安装步骤能否由 Agent 自己完成？
 ---
@@ -72,9 +72,9 @@ diagnostic_signals:
 | 反馈 | 口头描述，无上下文 | Agent 自动上报上下文 + 版本号 |
 | 安装 | 人手下载解压配置 | Agent 自己下载安装 |
 
-- **真实锚点**：一堂内部真实使用，每周都有多个 Skill 在传递。
-- **受益人**：维护者获得带上下文的反馈和版本管理；使用者有稳定入口且不怕用旧版；Agent 能自行匹配、下载、安装。
-- **可解性**：存储分散→集中存储；版本混乱→平台版本号；反馈无上下文→结构化上报；安装靠人→Agent 自操作，因果链清晰。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 核心设计决策：给 Agent 用的，不是给人用的
 
@@ -99,9 +99,9 @@ diagnostic_signals:
 | 反馈 | 口头描述，无上下文 | Agent 自动上报上下文 + 版本号 |
 | 安装 | 人手下载解压 | Agent 自动下载安装 |
 
-- **维护者**：反馈有上下文，可以复盘改进；版本管理不再靠文件名里的感叹号。
-- **使用者**：有稳定入口找 skill，不用担心用的是旧版。
-- **Agent**：自行匹配 + 下载 + 安装，不依赖人操作。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 复盘与洞察
 
@@ -125,9 +125,9 @@ diagnostic_signals:
 
 **什么时候不应该学这个案例**（或会导致失败）：
 
-- **只有 1-2 个 skill，且只有一个人在用**——微信传 file 就够了，平台是过度工程。
-- **skill 的形态还不稳定，每周都在大改**——先稳定 skill 定义，再做分发平台。
-- **没有真实的分发痛点（"我们设想未来可能需要"）**——这是 Question（"想想很激动"），不是 Problem（"不解决现在难受"）。四要素验证不通过时不做。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **具体失败模式**：
 
@@ -139,6 +139,6 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- **[[case-truman-ai-partner]]**：Truman 的单一 Agent 封装与纪浩的 Skills 平台是同一模式的两个实例——先做扎实单个 skill，再做分发层。
-- **[[case-ji-hao-skill-market-problem-validation]]**：用四问法验证 Skill 市场从伪需求到真实需求的过程，是本案例的前置过滤器。
-- **[[concept-ji-hao-ai-collaboration-methodology]]**：纪浩 AI 协作方法论总纲。
+- src_unknown
+- src_unknown
+- src_unknown

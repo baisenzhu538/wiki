@@ -13,21 +13,21 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: LangGraph multi-agent patterns (LangChain docs)
-- web: Paiteq multi-agent architecture guide
-- web: Lushbinary agent architecture patterns
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-strategy-four-moves]]'
-  - '[[tool-agent-research-supervisor]]'
-  - '[[concept-strategy-framework-landscape]]'
-  - '[[tool-agent-research-swarm]]'
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-agent-research-supervisor]]"
-  - "[[tool-agent-research-swarm]]"
-  - "[[tool-agent-research-pipeline]]"
-  - "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
-  - "[[concept-harness-cattle-not-pets]]"
-  - "[[framework-ai-accelerated-strategy-cycle]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 多智能体调研架构
@@ -85,9 +85,9 @@ def select_architecture(task):
 
 ## 适用边界
 
-- **适用**：大型调研项目、需要多源并行搜索、需要审计追踪的企业场景
-- **不适用**：简单问答、单一数据源的调研
-- **学习曲线**：Swarm最简单（自发协同），Supervisor需要设计Worker分工
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

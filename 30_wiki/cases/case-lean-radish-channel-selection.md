@@ -10,25 +10,25 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲师/学员（教学复盘案例）
 source_context: 一堂精益创业·低成本验证与渠道规划课程素材
 source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
 related:
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[framework-lean-abcd-model]]'
-  - '[[case-lean-medical-device-milestone]]'
-  - '[[tool-lean-leverage-tools]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[case-lean-combination-test-paradigm]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 萝卜干渠道选择预判复盘
@@ -124,8 +124,8 @@ related:
 
 不适用场景：
 
-- **强监管行业**（医疗、金融、教培）：渠道选择之外还需优先考虑合规准入，不能仅凭三维度打分 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **B2B 长决策链**：渠道角色复杂（直销、代理、集成商），三维度需扩展为更多维度，不能简单套用 [conf=0.75, source=framework-lean-false-model 适用边界]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -136,12 +136,12 @@ related:
 
 ## 相关卡/互链
 
-- 低成本验证框架：[[framework-lean-false-model]]
-- 系统测试与组合/灰度/里程碑范式：[[framework-lean-systematic-test-curve]]
-- 关键假设 ABCD 模型：[[framework-lean-abcd-model]]
-- 六宗罪/浪费：[[framework-lean-six-wastes]]
-- 组合测试案例：[[case-lean-combination-test-paradigm]]
-- 四级 MVP 验证案例：[[case-lean-electric-scooter-mvp]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

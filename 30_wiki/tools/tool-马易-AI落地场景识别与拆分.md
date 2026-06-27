@@ -3,8 +3,8 @@ id: tool-马易-AI落地场景识别与拆分
 title: 技能：AI落地场景识别与拆分
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-RPA数据整合法]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-马易-判断标准快速产出法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI落地场景识别与拆分
 
@@ -38,29 +38,29 @@ AI落地场景识别与拆分是马易在AI落地场景识别中提出的实操�
 
 ## 适用场景
 
-- 企业启动AI落地项目
-- 需要评估哪些业务适合AI化
-- 面对复杂业务（如销售全链路）需要拆解时
-- 项目规模从几十万到百亿级均适用
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 涉及物理数据采集的硬件项目
-- 一次性、极低频使用的场景
-- 无法提炼出明确方法论/判断标准的业务
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 工作流引擎（如扣子/Coze）
-- 数据中台
-- Cubox（用于写判断标准）
-- 网盘/数据库存储
-- AI落地咨询方法论框架
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -68,12 +68,12 @@ AI落地场景识别与拆分是马易在AI落地场景识别中提出的实操�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

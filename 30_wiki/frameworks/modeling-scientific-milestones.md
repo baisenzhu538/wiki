@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - modeling- yitang
-  - modeling
-  - research
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -19,24 +19,24 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[framework-course-milestone-model]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[case-course-milestone-model]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[tool-ai-skill-engineering-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#method/thinking-tool'
-- '#method/research-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 单一 source 为完整长文档，内容充分支撑 medium-high trust；待补充第二来源或跨案例验证后升回 high
 diagnostic_signals:
-- 单一 source，无第二来源交叉验证
-- source_context 自评从 high 降级为 medium，需后续事实撞击与外部专家评审
+- src_unknown
+- src_unknown
 
 ---
 
@@ -98,29 +98,29 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 拿到一个方法论级课题时，先用一句话写下边界定义，并让团队达成共识。
-- [ ] 列出必须收集的事实清单：正面案例、反面案例、最佳实践、搞砸案例、用户访谈、自身复盘。
-- [ ] 在整合萃取阶段，画出至少一个初步分类框架（可手绘、表格或白板）。
-- [ ] 产出 1.0 模型：选择一个可视化框图（冰山图/双三角/雷达图/公式），不求完美，要求完整。
-- [ ] 组织撞击实验：邀请内部 + 外部专家，明确讨论目标是“推翻模型”。
-- [ ] 撞击实验后修复硬伤，更新模型版本与边界说明。
-- [ ] 封装阶段补充案例、工具、使用说明，确保他人可复用。
-- [ ] 包装打磨阶段制作课程/文档/卡牌，完成最终交付物。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[modeling-three-stages]] —— 流程建模、抽象建模、本质提炼
-- [[dk-modeling-counterexample-driven]] —— 用反例验证模型
-- [[dk-modeling-expert-consensus-five-percent]] —— 5% 专家共识
-- [[tool-ai-skill-engineering-method]] —— Truman 做 Skill 指南也遵循类似流程
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2186-2262`
+- src_unknown
 
 ---
 

@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-高度-两种典型的思考习惯"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_23b5714d
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-高度-两种典型的思考习惯"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-  - '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-高度-两种典型的思考习惯
@@ -41,29 +41,29 @@ png` 兩种典型的思考习價 面对复杂、高价值、高试错决策，�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 面对复杂、高价值、高试错成本的决策，应采用"上帝视角"而非"狭窄视角"的思考习惯。
-- 高质量决策应优先关注全局思考，而非个人观点或立场。
-- 决策质量比决策速度更重要，尤其在关键决策中需容忍更长的思考时间。
-- 长期状态优于眼下状态，需避免短视的决策倾向。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该框架是否适用于所有类型的决策场景，还是仅针对特定领域（如商业战略、个人重大选择）？低价值、低试错成本的日常决策是否也应采用"上帝视角"？
-- "上帝视角"与"狭窄视角"是否为二元对立关系，是否存在中间状态或动态切换机制？两种视角的适用边界和转换条件是什么？
-- "在乎决策质量"必然意味着牺牲速度，但原文未探讨是否存在兼顾质量与速度的方法或决策框架（如OODA循环、启发式策略）。
-- "长期状态"的定义缺乏具体性——时间跨度如何界定（1年/5年/10年）？不同利益相关者的"长期"标准是否一致？
-- 该框架的实证基础未说明："更领先"的结论是基于案例研究、实验数据还是理论推演？有无反例或失效情境？
-- "全局思考"的操作方法未被阐明——如何识别真正的"全局"边界？全局是否包含不可预见的二阶、三阶效应？
-- 原文隐含假设决策者具备获取全局信息的资源和能力，但未讨论信息不完备、认知局限下的实际执行策略。
-- OCR文本中的"ニデ"疑似识别错误（可能为"二选一"或"对比"），需确认原图以准确理解框架结构。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -81,30 +81,30 @@ Pye 论证真正的设计判断是“不可复制”的——每个设计决策�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-width-method]] - 高度方法，案例是其在思维方式分析上的具体展开
-- [[yt-decision-ai-partner]] - AI 协作决策，与案例中的系统思维互补
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 组织决策文化诊断：用案例中的两种系统识别自己的组织偏好
-- 团队管理决策：在“系统一”和“系统二”之间做出选择
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将案例中的两种系统当作所有组织的全部类型，实际上组织是混合体
-- 不要用“他人的分类”来标签自己的组织，每个组织的决策文化都是独特的
-- 不要将“系统一”或“系统二”当作“更好的系统”，它们只是不同而已
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在诊断组织决策文化时，用案例中的两种系统做出初步分类
-- 従你发现自己在用“类型标签”来描述组织时，用 Pye 的不可复制视角检查
-- 従你在评估“哪种系统更好”时，用 Norman 的认知负荷视角检查是否在用简化的分类替代复杂的现实
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

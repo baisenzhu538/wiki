@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找全成本实操难点.md
 related:
-  - '[[dk-单元模型-找基准值实操难点]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[concept-最简单元模型]]'
-  - '[[dk-单元模型-找单元模型实操难点]]'
-  - '[[dk-单元模型-规模对抗实操难点]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[concept-最简单元模型]]"
-  - "[[tool-单元模型-象限分析法]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 找全成本实操难点
@@ -37,10 +37,10 @@ related:
 
 ## 使用场景
 
-- 第一次为某业务建立单元模型时；
-- 发现单元模型算出来盈利，但实际经营亏损时；
-- 业务跨区域/跨产品线扩张，需要重新核算成本时；
-- 融资/预算/战略会前，需要把成本口径统一时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -57,9 +57,9 @@ related:
 
 ## 适用边界
 
-- 不适合极度稳定的成熟业务：成本结构多年不变时，无需重复找全。
-- 不适合战略性的长期投入评估：如品牌、研发、基础设施，需要单独做投资决策，不宜全部摊入单元成本。
-- 不适合无历史数据的新业务：此时应做假设清单与敏感性分析，而非追求「找全」。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -67,9 +67,9 @@ related:
 
 ## 与其他知识的关联
 
-- **[[concept-最简单元模型]]**：找全成本是确定最简单元模型中 C+D 的关键成本项。
-- **[[tool-单元模型-象限分析法]]**：成本找不全会导致单元模型定位错误，把健康模型误判为总部成本过高。
-- **[[dk-单元模型-找单元模型实操难点]]**：单元边界定了，才有找全成本的对象。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

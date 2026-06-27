@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,33 +16,33 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-  - signal: 模型图被反馈"看着很专业但看不懂"
+  - src_unknown
     framework_lens: 业务逻辑与视觉形态匹配
     follow_up_question: 如果遮住所有文字，读者能否仅凭图形形态猜出核心逻辑关系？
-  - signal: 团队争论该用雷达图、冰山图还是双三角
+  - src_unknown
     framework_lens: 形态-逻辑映射
     follow_up_question: 这个业务关系的本质到底是分类、累加、深挖、辩证还是复利？
-  - signal: AI 生成的图很精美但逻辑混乱
+  - src_unknown
     framework_lens: AI 出图人审
     follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-modeling-model-arsenal-paradigms]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-binary-quadrant-modeling]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
-  - '[[dk-yb22-visual-presentation-scene-match]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/synthesis'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/visual-design'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -59,10 +59,10 @@ updated_at: '2026-06-18'
 
 ## 使用场景
 
-- 你在画框架图，纠结用雷达图、冰山图还是双三角。
-- 你的模型图被说“看着很专业但看不懂”。
-- 你在做 PPT 或产品交互，想让视觉本身传递逻辑。
-- 你在评审 AI 生成的模型图，判断它是否“图不达意”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -70,12 +70,12 @@ updated_at: '2026-06-18'
    是分类？是流程？是深挖？是累加？是辩证？是复利？
 
 2. **匹配几何形态**
-   - 深挖 → 冰山图
-   - 累加/组合 → 三角图
-   - 检查/枚举 → checklist / 清单
-   - 选择/分类 → 矩阵 / 象限
-   - 辩证/正交 → 双轴图 / 双环
-   - 复利/趋势 → 曲线图
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **让图自己说话**
    不看文字，读者能否从形态猜出逻辑关系？
@@ -85,10 +85,10 @@ updated_at: '2026-06-18'
 
 ## 适用边界
 
-- **适用于需要向他人传递复杂逻辑的模型**。个人笔记不必苛求。
-- **需要一定的设计表达基础**。如果完全不会画图，先从模仿开始。
-- **不能替代内容深度**。图只是载体，业务洞察才是核心。
-- **AI 生成的图需要人审**。AI 擅长“看起来专业”，但不一定匹配业务逻辑。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -103,11 +103,11 @@ updated_at: '2026-06-18'
 
 > 交付任何模型图前，逐条勾选；任一勾"否"都应回到上一步重做。
 
-- [ ] 我已用一句话写清这张图的**业务逻辑**（分类 / 流程 / 深挖 / 累加 / 辩证 / 复利）。
-- [ ] 我选择的**几何形态**与上述逻辑一一对应，而非因为"这个图常用"。
-- [ ] 遮住标题与文字后，**图形本身仍能传递关系**（方向、层级、对比、趋势）。
-- [ ] 图中没有纯装饰元素（无意义的渐变、3D、图标）干扰逻辑阅读。
-- [ ] AI 生成的图我已完成人工逻辑审校，而非直接复制粘贴。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 跨域迁移：形态-逻辑匹配的三条平行赛道
 
@@ -139,14 +139,14 @@ updated_at: '2026-06-18'
 
 ## 为什么值钱
 
-- 公开设计课讲“好看”“用户体验”，很少把“业务逻辑决定视觉形态”讲得如此决断。
-- 这是 Truman 内部评审模型图的核心标准，决定了一张图能否过品控。
-- AI 时代尤其重要：AI 能快速出图，但**判断图是否匹配逻辑需要人的审美**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-model-arsenal-paradigms]] —— 二三十个范式是业务-视觉匹配的具体素材库。
-- [[tool-iceberg-triangle-modeling]] —— 冰山图与三角图工具卡。
-- [[tool-binary-quadrant-modeling]] —— 矩阵/象限工具卡。
-- [[case-yitang-radar-chart-selection]] —— 一堂雷达图选型案例，展示业务逻辑如何决定视觉形态。
-- `src_20260614_8269ccdb#2386-2406` —— Truman 口述原文：业务逻辑与视觉逻辑匹配。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

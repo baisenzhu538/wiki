@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 迭代深挖
-- 递归调研
-- 深度调研
-- 认知穿透
-- 调研深挖
-- 迭代递归
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-deep-attribution]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[tool-yitang-research-deep-attribution]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "（dk-yitang-research-determination，待补）"
-  - "[[dk-yitang-survivor-bias-in-research]]"
-  - "[[concept-yitang-research-mindset]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 迭代递归深挖法：从表层到内核的认知穿透
@@ -73,20 +73,20 @@ related:
 ### 第一层：表层信息
 
 **特征**：
-- 容易获取
-- 公开信息
-- 大多数人都能看到
-- 价值有限
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **示例**：
-- "竞品A的官网显示，他们有100万用户"
-- "行业报告显示，市场规模1000亿"
-- "用户评价显示，产品体验不错"
+- src_unknown
+- src_unknown
+- src_unknown
 
 **问题**：
-- 这是真的吗？
-- 怎么验证？
-- 背后的原因是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -95,20 +95,20 @@ related:
 **方法**：追问"为什么"和"怎么做到的"
 
 **示例**：
-- 表层："竞品A有100万用户"
-- 深挖："他们怎么获取用户的？"
-- 深挖："用户留存率多少？"
-- 深挖："获客成本多少？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **产出**：
-- 竞品A的用户获取渠道
-- 竞品A的用户留存数据
-- 竞品A的获客成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 **问题**：
-- 这些数据可靠吗？
-- 为什么他们能这样做？
-- 我们能不能复制？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -117,20 +117,20 @@ related:
 **方法**：追问"为什么的为什么"和"底层逻辑"
 
 **示例**：
-- 第一层："竞品A通过抖音获取用户"
-- 深挖："为什么抖音有效？"
-- 深挖："他们的内容策略是什么？"
-- 深挖："抖音算法如何推荐他们的内容？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **产出**：
-- 抖音内容策略的底层逻辑
-- 算法推荐机制
-- 内容生产流程
+- src_unknown
+- src_unknown
+- src_unknown
 
 **问题**：
-- 这个逻辑是否可持续？
-- 有没有反例？
-- 如果环境变化，还成立吗？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -139,14 +139,14 @@ related:
 **方法**：找到可指导行动的底层逻辑
 
 **示例**：
-- 表层：竞品A有100万用户
-- 内核：在抖音上，"痛点场景+解决方案"的内容模板，配合KOL分发，可以在3个月内获取100万用户，但需要内容团队10人+预算500万
+- src_unknown
+- src_unknown
 
 **特征**：
-- 可验证
-- 可执行
-- 可预测
-- 可迁移
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,33 +154,33 @@ related:
 
 ```
 Step 1: 获取表层信息
-   - 收集公开信息
-   - 记录来源和可信度
+   - src_unknown
+   - src_unknown
    ↓
 Step 2: 标记疑问点
-   - 哪些信息存疑？
-   - 哪些信息需要验证？
-   - 哪些信息背后有更深逻辑？
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 3: 设计深挖方案
-   - 针对每个疑问点，设计验证方法
-   - 选择深挖手段（专家访谈、数据分析、逆向工程）
-   - 评估深挖成本
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 4: 执行深挖
-   - 按方案执行
-   - 记录新发现和疑问
-   - 标记需要进一步深挖的点
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 5: 判断是否继续深挖
-   - 是否找到内核？
-   - 深挖成本是否超过价值？
-   - 是否还有未解疑问？
+   - src_unknown
+   - src_unknown
+   - src_unknown
    ↓
 Step 6: 输出内核认知
-   - 整合所有发现
-   - 形成可指导行动的结论
-   - 标注置信度和风险
+   - src_unknown
+   - src_unknown
+   - src_unknown
 ```
 
 ---
@@ -188,14 +188,14 @@ Step 6: 输出内核认知
 ## 迭代递归的终止条件
 
 ### 正常终止
-- 找到内核认知
-- 深挖成本超过预期价值
-- 信息无法进一步获取（合法边界）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 异常终止
-- 时间耗尽
-- 资源耗尽
-- 发现根本性错误（如假设完全错误）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -258,24 +258,24 @@ Step 6: 输出内核认知
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[framework-yitang-nine-layer-deep-dig]] — 九层深挖法
-- [[tool-yitang-research-deep-attribution]] — 深度归因工具
-- [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 迭代深挖模块
-- 交叉：九层深挖法（九层商业深挖SKILL）
-- 注意：迭代递归深挖法是调研方法论中的高阶技能，需要大量实践才能掌握
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

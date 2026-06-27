@@ -5,44 +5,44 @@ id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
-  - yitang- yitang
+  - src_unknown
 status: enriched
 confidence: 0.88
 trust_level: medium-high
 reviewed_by:
-- 欧阳锋
+- src_unknown
 author: 老顽童
 source_refs:
   - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[yt-foresight-ab-steady-state]]'
-  - '[[dk-pseudo-demand-trap]]'
-  - '[[yt-business-model-pivot-signals]]'
-  - '[[yt-foresight-addition-subtraction]]'
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[yt-foresight-addition-subtraction]]'
-  - '[[yt-ai-startup-20-risky-hypotheses]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 十大硬伤
-- 硬伤清单
-- 商业硬伤
-- 团队硬伤
-- 行业硬伤
-- 创业风险清单
-- 项目致命缺陷
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户清单都看完了，但找不出自己项目的硬伤
+- src_unknown
   framework_lens: 自我盲区
   follow_up_question: 如果让一位客观的同行用这份清单审查你的项目，他最可能指出哪条硬伤？
-- signal: 用户把每条硬伤都当致命
+- src_unknown
   framework_lens: 没有结合目标规模
   follow_up_question: 你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？
-- signal: 用户把"暂时没找到解法"误判为"无解硬伤"
+- src_unknown
   framework_lens: 过早放弃
   follow_up_question: 这条硬伤有没有可能通过缩小规模、换场景或补团队来化解？
-- signal: 用户用预判完全替代MVP验证
+- src_unknown
   framework_lens: 验证缺失
   follow_up_question: 哪条硬伤可以在6周内设计一个低成本实验去证伪？
 language: zh-CN
@@ -97,9 +97,9 @@ updated_at: 2026-06-18
 
 ### 内部局限
 
-- **十大硬伤是经验总结，不是完备分类**——可能有一些罕见硬伤不在这十个维度里。需要持续补充。
-- **硬伤之间有关联**——例如"需求不刚需"往往导致"单元模型不成立"，二者可能同时命中同一个项目。
-- **"可解"和"无解"的判断需要经验**——新手可能把"暂时没找到解法"误判为"无解"，也可能把"看起来有解法"误判为"可解"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -107,8 +107,8 @@ updated_at: 2026-06-18
 
 ### 不要用的场景
 
-- **已有PMF的成熟业务做迭代**——硬伤清单是给"还没下场"的阶段用的，已在运转的业务有更好的诊断工具（如单元模型/留存曲线）。
-- **个人副业/小生意**——有些硬伤（如行业预判、初心匹配）在做小生意时权重极低，不必逐条对照。
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -121,14 +121,14 @@ updated_at: 2026-06-18
 
 ## 行动 Checklist
 
-- [ ] 做完减法后，把剩余选项逐条过十大硬伤：只要命中一条且判断为"无解"，直接放弃。
-- [ ] 团队决策会前，每人独立打分：每人拿十大硬伤清单对候选项目独立评估，然后对表——可以发现个人盲区。
-- [ ] 过一段时间回看：最初看好的项目过两周再对照清单看一遍，防止"热恋期"误判。
-- [ ] 对疑似硬伤设计低成本验证实验：优先验证"需求是否刚需"和"单元模型是否成立"这两条。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[yt-foresight-15-char-mantra]] — 十大硬伤是"专业做减法"的标准化检查工具
-- [[yt-foresight-addition-subtraction]] — 减法实操中硬伤识别是核心环节
-- [[yt-ai-startup-20-risky-hypotheses]] — AI创业20个高风险假设是十大硬伤在AI领域的场景化应用
-- [[yt-entrepreneur-key-hypotheses]] — 未被硬伤排除的选项，进入关键假设验证环节
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

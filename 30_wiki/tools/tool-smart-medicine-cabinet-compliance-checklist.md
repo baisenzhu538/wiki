@@ -6,8 +6,8 @@ title: 智能药柜/医药项目合规快速校验清单
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
@@ -18,11 +18,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
-  - '[[tool-clinic-medical-shortvideo-compliance]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
-  - '[[tool-clinic-cabinet-legal-contract-guide]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ------
 
 ## Purpose
@@ -50,9 +50,9 @@ related:
 
 ## When NOT to Use
 
-- 本工具**不能替代法律、财务、药学或政策专业意见**；重大决策前请咨询专业人士。
-- 当证据来源单一、利益冲突明显时，不要仅依赖本工具做出投资或合作决定。
-- 本工具基于 2026 年 6 月前的公开/内部信息，政策变化后需重新验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -60,9 +60,9 @@ related:
 
 ### 局限性
 
-- 本工具基于有限案例和内部录音提炼，无法覆盖所有地区的政策细节。
-- 医药行业监管变化快，部分结论可能随政策调整而失效。
-- 工具不能替代专业律师、会计师、药师或药监/医保部门的正式意见。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -72,9 +72,9 @@ related:
 
 ### 使用建议
 
-- 把 checklist 结果写成书面风险清单，而不是口头结论。
-- 对标注为“待验证”的项目，必须限定验证责任人和截止日期。
-- 重大合作/投资决策前，引入外部专业顾问交叉复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 # 知识卡草稿 · 智能药柜合规快速校验
 
@@ -130,12 +130,12 @@ related:
 
 ## 五、实地/电话验证清单
 
-- [ ] 目标城市市场监管局：智能药柜/前置仓/自动售药机的监管分类与准入条件  
-- [ ] 目标城市医保局：线上/线下医保支付接口、目录、个账/统筹口径  
-- [ ] 目标城市药监局：进销存/处方数据上传接口标准、备案要求  
-- [ ] 已合作药店：是否因药师不在岗、面积不符、处方不合规被处罚  
-- [ ] 平台方（美团/饿了么/京东健康）：医药业务合规审查点、处方流转链路  
-- [ ] 诊所/医院客户：处方上传完整率、拆零销售、医保飞检历史  
+- src_unknown  
+- src_unknown  
+- src_unknown  
+- src_unknown  
+- src_unknown  
+- src_unknown  
 
 ---
 

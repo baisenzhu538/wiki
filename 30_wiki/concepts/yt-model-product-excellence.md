@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-05-11
 difficulty: advanced
 language: zh-CN
 query_triggers:
-  - "与泛产品审美工具箱的对应"
-  - "乔布斯的品味公式"
-  - "品味"
-  - "品味 = 曝光 × 迁移"
-  - "最佳实践与乔布斯的审美哲学"
-  - "核心洞见"
-  - "顶级产品追求"
-  - "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
@@ -32,8 +32,8 @@ yitang:
   module: "个人修炼"
   course_type: framework
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户只谈乔布斯品味，但不看最佳实践', 'framework_lens': '空谈品味', 'follow_up_question': '你最近一个月看过多少个不同领域的最佳实践案例？如果<10个，你在空谈'}
   - {'signal': '用户认为品味是天赋，不训练', 'framework_lens': '天赋论', 'follow_up_question': '你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？'}
@@ -41,11 +41,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[一堂]]'
-  - '[[yt-panproduct-aesthetic-imagination]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
@@ -102,9 +102,9 @@ related:
 
 ### 核心洞见
 
-- **品味不是天赋，是可训练的能力**：任何人可以通过系统性地"看最好的东西"来提升品味
-- **执行力的上限 = 最佳实践理解的下限**：你做不出你没见过的好东西
-- **不是"抄"，是"化"**：接触最佳实践不是为了复制，是为了内化原则后创造自己的版本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 
@@ -129,9 +129,9 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-aesthetic-progression]]
-- [[yt-model-pan-product-aesthetic-toolkit]]
-- [[yt-model-pan-product-three-virtues]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

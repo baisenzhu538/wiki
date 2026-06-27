@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-稀缺资源清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_d067a6ba
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-稀缺资源清单"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例06]]'
-  - '[[ocr-一堂-科学决策-深度-案例04]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-稀缺资源清单
@@ -41,30 +41,30 @@ CEO时间和注意力 2.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- CEO的时间和注意力是组织中最核心的稀缺资源之一，其分配直接决定战略优先级。
-- 管理精力（包括管理者时间、内部会议与流程）是容易被低估的隐性稀缺资源。
-- 团队成员（产品、研发、销售、运营）的产能是执行层面的关键约束条件。
-- 成本预算（投资款、投放成本、营销预算）构成可量化的财务资源边界。
-- 物理空间（货柜、场地、橱窗）在零售和实体业务中成为硬约束稀缺资源。
-- 用户接触机会（销售时间、宣讲会、共建会、电销时间）具有时间窗口限制，不可无限扩展。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 该清单是否穷尽了所有类型的稀缺资源，为何缺少"数据/信息""技术专利""品牌信誉"等无形资产？
-- "管理精力"与"CEO时间和注意力"存在何种包含或互斥关系，分类标准是否一致？
-- 用户接触资源中的"共建会"具体指什么，该术语在行业内的通用性如何验证？
-- 清单未标注各资源的稀缺程度排序或动态变化规律，在不同发展阶段优先级是否相同？
-- "团队成员"按职能划分但忽略"关键人才/不可替代个体"与"普通人力"的本质差异，此分类是否过于粗糙？
-- 物理空间示例集中于零售场景，该清单是否隐含特定行业偏见，能否适用于纯数字化企业？
-- OCR提取的"一堂-科学决策"课程背景缺失，该清单是通用框架还是特定企业案例的总结？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -82,30 +82,30 @@ Papert 论证真正的学习来自做中学。稀缺资源清单虽然给出了�
 
 ### 与本库其他概念的关联
 
-- yt-decision-scarcity-resources - 稀缺资源
-- [[yt-decision-canvas]] - 同域决策画布
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 创业公司资源规划
-- 个人职业发展资源评估
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将资源清单当作全面的资源分析
-- 不要排除隐性资源的重要性
-- 不要在团队没有深度理解时套用清单
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在做资源规划时用清单确保没有遗漏关键资源
-- 従你发现自己在排除某些资源时用Morozov视角检查
-- 従你在教团队使用清单时用Papert视角确保他们理解资源含义
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

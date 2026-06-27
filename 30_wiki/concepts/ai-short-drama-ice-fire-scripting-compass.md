@@ -1,6 +1,6 @@
 ---
 domain:
-  - ai-saas
+  - src_unknown
 
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
@@ -19,24 +19,24 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - ai-short-drama-ice-fire-dissection-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-script-planning-three-axes
-  - ai-short-drama-framework-three-axes
-  - ai-short-drama-conflict-three-axes
-  - ai-short-drama-platform-policy-comparison
-  - yt-note-ai-human-division
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#industry/content-creation'
-  - '#content-format/framework'
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
+  - src_unknown
     framework_lens: 全本策划五维框架
     follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
-  - signal: 用户说"AI写出来的剧本空洞、没情绪、人设崩塌"
+  - src_unknown
     framework_lens: 人与AI的分工边界
     follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
-  - signal: 用户说"剧本写到一半跑题了，后期烂尾"
+  - src_unknown
     framework_lens: 剧本基地→内容走向→剧情终局的闭环
     follow_up_question: 内容走向的15个关键节点是否提前锁定？
 
@@ -54,11 +54,11 @@ diagnostic_signals:
 
 1. **中心层（全本策划）**：红色扇区，标注"夯实基底、全篇立身"，是罗盘的出发点。
 2. **中间层（五个创作维度）**：按顺时针分布五大扇区，每个扇区一个维度：
-   - **剧本基地**（粉色）：夯根基 / 内容走向 / 明轨迹 / 剧情终局 / 落华章
-   - **框架大纲**（蓝色）：深渊入局 / 迷雾博弈 / 决战收官
-   - **剧情元素**（绿色）：高能吸睛 / 极致对立 / 立意升华
-   - **矛盾冲突**（青绿色）：外在阵营 / 内在人际 / 自我宿命
-   - **卡点设计**（橙色）：开头留人 / 中间爆料 / 结尾留钩
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **外层（操作要点）**：每个维度进一步拆分为3-4个可执行要点，形成"五维创作引擎"。
 
 底部标语："五维创作引擎，打通剧本策划到落地的全链路路径"。整体视觉强调**从中心向外扩展、从策划到执行的递进关系**。
@@ -67,12 +67,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:349-379`。
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:1639`。
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md`。
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:9-21`（方法论总览）+ 各图片 source。
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613`。
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:497`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -104,9 +104,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 罗盘对"剧本基地"的定义较抽象，缺少具体字段清单（如题材、人设、核心欲望、核心阻碍等）的统一格式。
-- "卡点设计"强调密度，但对"钩子质量"的评估标准描述不足，容易沦为为了留钩而留钩。
-- 商业化数据（30 本过 2 本）样本量小，无法区分是方法有效还是题材/渠道/时机因素。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -116,8 +116,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果去掉"极致对立"这一板斧，罗盘是否还成立？部分甜宠、治愈类题材可能不依赖强对立，说明该维度并非普适。
-- 如果去掉"人工把控"环节，纯 AI 按罗盘生成能否过稿？根据演讲者自述，AI 单独输出空洞悬浮，说明人的参与是必要条件而非可选条件。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -133,13 +133,13 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-dissection-compass]]：逆向拆解爆款剧本的五大维度
-- [[ai-short-drama-plot-three-axes]]：剧情三板斧（极致对立、高能吸睛、立意升华）
-- [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧（剧本基地、内容走向、剧情终局）
-- [[ai-short-drama-framework-three-axes]]：框架三板斧（深渊入局、迷雾博弈、决战收官）
-- [[ai-short-drama-conflict-three-axes]]：矛盾冲突三板斧（外在阵营、内在人际、自我宿命）
-- [[ai-short-drama-platform-policy-comparison]]：主流短剧平台政策对比，用于题材-平台匹配
-- [[yt-note-ai-human-division]]：AI 时代人机分工边界，解释为何"人定框架、AI 填肉"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -177,13 +177,13 @@ diagnostic_signals:
 
 ## 完稿前自检清单
 
-- [ ] 剧本基地七要素已填写，且与第 1 集、第 10 集、大结局保持一致
-- [ ] 前 3 秒有明确钩子，且与题材情绪价值一致
-- [ ] 每集结尾有留钩，但每 3-5 个钩子后至少有一次"情绪呼吸"
-- [ ] 已对照 [[ai-short-drama-platform-policy-comparison]] 检查题材与目标平台偏好匹配
-- [ ] AI 生成的台词/场景至少经过 1 轮人工重写，关键情绪节点 100% 人工把控
-- [ ] 15 个关键节点已列出，当前剧情无偏离主线的段落
-- [ ] 人设、动机、关系链在全本中无明显矛盾
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -203,22 +203,22 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/ai-short-drama/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.png` — 原始信息图（同心圆罗盘结构）
-- `00_inbox/AI短剧创作/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.json` — OCR 结构化 JSON（含置信度与区域坐标）
-- 10_raw/assets/ai-short-drama/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.md` — OCR 识别文本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14` — 归档后的原图表格摘要
+- src_unknown
 
 ### 口述/笔记 source
 
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:217-227` — 短剧市场数据（1000 亿 / 12.8 万部 / 95% AI 辅助）
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:349` — 核心公式：专业方法论 + 精准指令 + 人工把控 = 商业爆款剧本
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:379` — "AI 是超级执笔"比喻
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613` — 商业化验证数据（30+ 剧本、签约 2 部）
-- 10_raw/sources/src_20260613_687c4ec0-transcript.md:1639` — 情绪价值论述
-- 10_raw/sources/src_20260613_12d63c1c-notes.md:9-21` — 方法论总览结构化笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

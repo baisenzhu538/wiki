@@ -6,13 +6,13 @@ title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型�
 type: case
 status: enriched
 domain:
-- yitang
-- master
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 problem_domains:
-- 建模沉淀
-- 知识管理
-- 组织方法论
+- src_unknown
+- src_unknown
+- src_unknown
 industry: 在线教育
 scale: 公司
 source_person: Truman
@@ -21,9 +21,9 @@ source_refs:
 - src_20260614_87b29a61-Truman-高阶建模-抽象建模-案例-图-01
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
-- '#content-format/case-study'
-- '#problem/knowledge-management'
-- '#method/modeling'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -32,24 +32,24 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[case-yitang-model-asset-inventory]]'
-  - '[[dk-modeling-model-arsenal-paradigms]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[modeling-weapon-library]]'
-  - '[[case-yitang-model-asset-inventory]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[case-yitang-radar-chart-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队在不同业务线各自沉淀了一堆"方法论"，但彼此不知道对方做过什么
+- src_unknown
   lens: 模型孤岛——组织内模型资产重复建设，缺少抽象归纳与共享机制
   follow_up: 先盘点各业务线已有模型，按形态（清单/SOP/雷达图/三角图/画布）归集，再判断哪些可以跨团队复用
-- signal: 新人或外部合作方问"这类问题我们有没有现成模型"
+- src_unknown
   lens: 模型可发现性差——模型只存在于老员工脑中或散落文档里，没有武器库索引
   follow_up: 建立模型武器库索引，每个模型标注适用问题、边界、使用 checklist 和案例
-- signal: 业务讨论中频繁出现"我们再用XX模型套一下"，但套完没有新洞察
+- src_unknown
   lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
   follow_up: 要求每次使用模型后输出"3条具体判断"和"1个下一步动作"，否则视为无效使用
 ---# 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
@@ -62,9 +62,9 @@ diagnostic_signals:
 
 问题不在于没有模型，而在于：
 
-- 各业务线不知道彼此已经做过什么，导致重复造轮子；
-- 新员工和外部合作方找不到现成模型，每次从零开始；
-- 一些模型只停留在 PPT 或老员工脑中，没有边界和使用说明，容易被误用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## What Happened
 
@@ -105,10 +105,10 @@ Truman 带领团队对一堂内部模型资产做了一次抽象归纳，把模�
 
 ## 结果
 
-- 一堂把散落在各团队的模型资产显性化，形成了"内部模型武器库"的雏形；
-- 模型从"部门私有"变成"组织可发现"，减少了重复建设；
-- 跨领域模型成为一堂对外输出课程和产品的方法论基础；
-- 这次抽象归纳与后续"AI 扫描三四百个模型资产并归集到二三十个范式"（见 [[case-yitang-model-asset-inventory]]）形成连续动作：先用人工归纳建立分类框架，再用 AI 大规模盘点验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
@@ -147,21 +147,21 @@ Truman 带领团队对一堂内部模型资产做了一次抽象归纳，把模�
 
 ### 第一步：收集（1-2 周）
 
-- [ ] 列出各业务线已使用的模型/框架/清单/SOP 名称
-- [ ] 收集每个模型的原始出处（谁创建、为什么创建、解决什么问题）
-- [ ] 标记每个模型是否经过真实场景验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：分类（3-5 天）
 
-- [ ] 按模型形态分类：清单/SOP、N 步法、雷达图、象限/矩阵、冰山图、三角图、火箭图、画布、武器库
-- [ ] 按问题域分类：增长、教研、交付、管理、决策、学习、表达等
-- [ ] 区分内部运营模型 vs 跨领域可迁移模型
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三步：抽象（1 周）
 
-- [ ] 对同一形态的模型，提炼共用使用规范
-- [ ] 对可迁移的模型，补全适用边界和失败模式
-- [ ] 给每个模型写一句话"burns line"：这个模型解决什么问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：建立武器库索引
 
@@ -177,23 +177,23 @@ Truman 带领团队对一堂内部模型资产做了一次抽象归纳，把模�
 
 ### 第五步：验证与迭代（持续）
 
-- [ ] 让 3-5 个新员工或外部合作方试用武器库索引
-- [ ] 收集"找不到""不会用""用了没效果"三类反馈
-- [ ] 每月更新一次模型边界和案例库
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键标签
 
-- 问题域：建模沉淀、知识管理、组织方法论
-- 行业：在线教育
-- 方法：抽象建模、模型武器库、组织知识资产
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 模型资产盘点案例：[[case-yitang-model-asset-inventory]]
-- 模型武器库：[[modeling-weapon-library]]
-- 建模三段论：[[modeling-three-stages]]
-- 五步法画布：[[yt-model-five-step-canvas]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_87b29a61`、`src_20260614_8269ccdb`
+- src_unknown

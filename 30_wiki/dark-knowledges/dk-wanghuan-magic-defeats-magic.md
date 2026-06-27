@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -21,31 +21,31 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- signal: '每次让 AI 改稿，只能说"感觉不对"，却说不出哪里不对'
+- src_unknown
   lens: standard-deficit
   follow_up: 先让 AI 调研行业最佳实践并输出 5-7 条可检查的质量标准，再进入迭代
-- signal: AI 输出越来越花哨，但离业务目标越来越远
+- src_unknown
   lens: goal-standard-misalignment
   follow_up: 把业务目标转译成"必须满足/绝对不能"的验收标准，而不是审美形容词
-- signal: 同一份交付物，团队内部评价两极分化
+- src_unknown
   lens: implicit-standard-drift
   follow_up: 用多模型/多角色对同一标准打分，取交集作为团队共享标准
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-harness-seven-stages]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 标准建立
-- AI对抗AI
-- 验收标准
-- 暗知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 
@@ -113,21 +113,21 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 在让 AI 输出最终交付物之前，先问它："这个领域有哪些公认的最佳实践 / 验收维度？"
-- [ ] 让 AI 把标准拆成 5-7 个可独立检查的维度，每个维度给出一个 1-5 分的评分标准。
-- [ ] 至少生成 3 个候选版本，让 AI 按维度横向打分并说明理由。
-- [ ] 对评分最高的版本，再用另一个 AI/角色攻击它的短板。
-- [ ] 把收敛后的标准写入 AI 业务档案的"我的输出标准"字段。
-- [ ] 下次同类任务，先用标准验收，而不是先凭感觉修改。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[concept-wanghuan-tacit-knowledge-examples]]：HR、招投标、销售、培训四个行业的"暗规则"实例，可直接作为 AI 标准的原料。
-- [[tool-wanghuan-ai-business-profile]]：把生成后的标准固化为 5 字段档案，长期注入 AI 对话。
-- [[framework-wanghuan-harness-seven-stages]]：Harness 里的 Sprint 对抗循环是"AI 对抗 AI"的工程化落地。
-- [[framework-wanghuan-gan-three-roles]]：用生成器 + 多判别器的架构持续拉高输出质量。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -144,9 +144,9 @@ tags:
 > **回应**："AI 对抗 AI"不是让同一个模型自我循环，而是引入异质性：不同模型、不同角色、不同版本之间的冲突会暴露盲区。最终标准需要经过人的业务判断拍板，AI 只是帮你把隐性经验显性化，不是替代你的判断。
 
 **不要用**：
-- 不要用在没有方向感的探索阶段——先确定"要做什么"，再谈"好的标准"。
-- 不要只让 AI 给标准却不生成版本做验证。
-- 不要把 AI 生成的标准当作不可更改的行业真理，必须经过你的业务上下文校准。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

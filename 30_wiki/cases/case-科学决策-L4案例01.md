@@ -9,18 +9,18 @@ confidence: 0.72
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md
 related:
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
-  - "[[tool-决策深度-L3定量公式]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-26
 ---
 
@@ -28,11 +28,11 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md`
-- **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md`
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md`
-- **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
-- **独立成卡理由**：展示了严格财务公式下投放获客的全链路成本核算。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 核心洞察
 
@@ -40,18 +40,18 @@ updated_at: 2026-06-26
 
 ## 事迹/背景
 
-- **决策主体**：一家公司（投放获客场景）
-- **决策问题**：是否进行 1 万个线索的大规模投放
-- **分析口径**：乐观情景
-- **关键成本**：
-  - 投放成本：200 万元
-  - 履约成本：60 万元
-  - 退费成本：12 万元
-  - 总成本：272 万元
-- **关键收益**：
-  - 转化金额：240 万元
-  - 总收益：240 万元
-- **结论**：乐观口径下 ROI 为负
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 ## 关键数字
 
@@ -88,36 +88,36 @@ updated_at: 2026-06-26
 
 ## 对立面/争议
 
-- **增长派**：即使首单亏损，如果能通过续费/复购实现正 LTV，投放仍值得。
-- **财务派**：乐观口径都亏损，不应投入，除非能显著降低成本或提高转化。
-- **产品派**：投放亏损反映产品转化能力或定价问题，不是投放本身的问题。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
-- **在线教育获客**：课程销售后的履约、退费、续费全链路核算。
-- **SaaS 销售**：CAC 与 LTV 的严格财务分析。
-- **电商投放**：广告费、物流费、退货率的全链路 ROI。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
-- ⚠️ 投放获客必须核算全链路成本，不能只看 CAC。
-- ⚠️ 乐观口径亏损是强烈的"不要投入"信号。
-- ⚠️ 必须做悲观/中性多情景测算，不能只看一种假设。
-- ⚠️ 履约成本和退费成本是规模化后的隐性杀手。
-- ⚠️ ROI 计算必须明确是否包含 LTV/复购收益。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与王欢/一堂框架的映射
 
-- **[[framework-科学决策三角形]]**：案例对应"深度"维度的 L4 严格财务公式。
-- **[[tool-决策深度-L4严格财务公式]]**：案例是该工具在投放获客场景的直接应用。
-- **[[dk-你的业务是一次抽样实验]]**：案例中的"乐观口径"数据只是抽样结果，不能代表真实分布。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 > 本节基于 OCR 原文中的攻击者视角与一堂科学决策框架推理生成。
 
-- **Dennett（意向立场陷阱）**：乐观/悲观两种情景比单一预期更好，但实际世界有无数情景。你确定悲观情景真的够悲观吗？是否还存在更坏的"黑天鹅"情景？[conf=0.75, source=Daniel Dennett, Intentional Stance]
-- **Klein（认知负荷）**：全链路成本框架理论上完整，但履约和退费成本往往是事后才出现的。决策者可能用理论上完整的框架分析实际上缺乏数据的业务。[conf=0.75, source=Gary Klein, Sources of Power]
+- src_unknown
+- src_unknown
 
 ---
 

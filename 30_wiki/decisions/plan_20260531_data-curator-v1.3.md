@@ -5,10 +5,10 @@ title: Data Curator Skill — 数据清洗+原子切分+多维标签 实施方�
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260531_ai-data-understanding
 - src_20260531_ai-data-lecture-02
@@ -18,14 +18,14 @@ created_at: 2026-05-31
 updated_at: '2026-06-16'
 version: 1.3
 supersedes:
-- plan_20260531_data-curator-v1
-- plan_20260531_data-curator-v1.1
+- src_unknown
+- src_unknown.1
 related:
-  - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[case-ji-hao-skill-market-problem-validation]]'
-  - '[[ouyangfeng-data-alignment-response]]'
-  - '[[three-party-data-alignment]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.7
@@ -73,12 +73,12 @@ trust_level: low
 ```
 
 **对应 KDO 现有管线**：
-- A（预判）= 需要新增：每张卡入库前先问"AI未来怎么用这张卡？"
-- D（识别）= 需要新增：从已有素材中识别"隐藏的高价值数据"
-- U（收集）= 对应 capture + ingest（已有，但缺湖仓升仓决策——什么值得从 inbox 升到 wiki）
-- C（处理）= 对应 enrich + clean（已有，但缺三层工序模型）
-- I（使用）= 对应 produce + query（已有，但缺五级使用深度）
-- T（反馈）= 对应 feedback + improve（已有，但缺三种反馈模式）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. Before：我关注数据的结构质量。After：我需要关注数据在场景中的价值层级。
 
@@ -99,9 +99,9 @@ trust_level: low
 | **宏观（Macro）** | 护城河 | 公司/个人的稀缺数据资产 | 全库 → 行业级竞争优势 |
 
 **这个框架对 KDO 的影响**：我们不应该平等对待所有卡片。应该按场景价值分层：
-- 微观卡：高频使用的工具卡、清单卡 → 优先处理
-- 中观卡：构成工作流的系列卡 → 关联打标、分库组织
-- 宏观卡：行业独占的 know-how 卡 → 防御性积累、治理优先
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. Before：我有一个 5 层成熟度模型。After：我需要一个 6 层模型 + 明确的自评体系。
 
@@ -269,9 +269,9 @@ source_context: "AIGC设计基础线上分享"
 > 月白提到把课程链接扔给 NotebookLM 处理，作为学习参考。
 
 ## 使用场景
-- 当你有一批课程/文章链接，想快速消化提炼
-- 当你想让 AI 基于特定课程内容回答问题时
-- 作为个人学习流程的一环
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 1. 收集课程/文章链接
@@ -280,18 +280,18 @@ source_context: "AIGC设计基础线上分享"
 4. 将提炼后的内容作为后续 AI 协作的上下文
 
 ## 适用边界
-- 适合公开可访问的链接
-- 不适合需要登录的内容
-- NotebookLM 的输出需要人工校验（AI 叠加风险）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
-- 具体工具+具体用法+具体场景，不是通用方法论
-- 月白作为设计师的学习工作流，其他设计师可直接复用
-- 这条知识在任何 AI 训练语料中都不存在
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
-- [[aigc设计基础01ai生图原理与提示词基本功]] — 月白设计域主干知识
-- 湖仓升仓决策 — NotebookLM 可以作为"湖"的一环
+- src_unknown
+- src_unknown
 ```
 
 ### 两条轨道的协同
@@ -430,9 +430,9 @@ source_context: "AIGC设计基础线上分享"
 > "清单笔记是人类大脑和 AI 大脑之间效率最高、损害最低的 API 接口。AI 喜欢结构化、逻辑清晰、模块化、少幻觉的东西。人类喜欢不学就会、没有心理负担、不需要教学的东西。清单体正好两头都满足。"
 
 **对 KDO 的格式启示**：
-- Tool Card（工具卡）→ 清单体天然适配
-- 概念卡正文 → 保持 Markdown + 嵌入清单关键节点
-- 标签体系 → 清单体比自由文本更适合 AI 消费
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 9. Before：我构建的是单 agent 的检索系统。After：多 Agent 协作需要统一的文档底盘。
 
@@ -440,9 +440,9 @@ source_context: "AIGC设计基础线上分享"
 > "全部围着 Markdown 文件夹协作。默认不依赖记忆，所有必要上下文全靠文档。随时换 Agent，只要读一下文档就能加载到最佳状态。"
 
 **对 KDO 的架构启示**：
-- `.kdo/state.json` 应该是所有 Agent 共享的"项目文件夹"
-- Chunk 注册表 + 标签体系 = 多 Agent 的"共同语言"
-- 文档化 > 记忆化 — state.json 比 session context 更可靠
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -530,17 +530,17 @@ usage_depth: feed | packaged | retrieval | configured | trained
 ### 新增格式标准：清单笔记作为一等格式
 
 在 `30_wiki/` 中，鼓励以下卡片类型使用清单体：
-- Tool Card（工具卡） — `type: tool`
-- Framework Card（框架卡） — `type: framework`
-- Checklist Card（检查清单） — `type: concept` + `format: checklist`
+- src_unknown
+- src_unknown
+- src_unknown
 
 清单体标准：
 ```markdown
 ## 核心清单
 1. **[要点]** — 一句话解释。
 2. **[要点]** — 一句话解释。
-   - 子要点
-   - 反例
+   - src_unknown
+   - src_unknown
 ```
 
 ### 6 级成熟度自评嵌入
@@ -548,12 +548,12 @@ usage_depth: feed | packaged | retrieval | configured | trained
 `kdo status` 增加数据成熟度自评输出：
 ```
 Data Maturity: L3 (随机处理)
-  - L1 ✅ 有意识存储
-  - L2 ✅ 已收集 384 张卡
-  - L3 ⚠️ 处理时做时停
-  - L4 ❌ 未稳定自动化
-  - L5 ❌ 无反馈闭环
-  - L6 ❌ 无十年级积累
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ```
 
 ---
@@ -576,7 +576,7 @@ Data Maturity: L3 (随机处理)
 
 ## 迭代设计更新
 
-- **v1.0**（✅）：方案定义 + 脚本 + pilot dry-run
-- **v1.1**（✅）：查字典→食材思维 + 5维标签 + 12类chunk + ROI
-- **v1.3**（✅ 当前）：**完整的 6+1 数据飞轮框架** + 双飞轮 + 6级成熟度 + 三层处理 + 湖仓 + 五级使用 + 清单格式 + 三种反馈 + 暗知识 + 真原子 + 多Agent底盘 + 治理
-- **v2.0**（待定）：全量 384 卡跑通 v1.3 管线 + 分库架构实施 + 反馈闭环上线
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

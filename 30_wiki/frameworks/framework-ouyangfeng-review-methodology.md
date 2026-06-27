@@ -6,23 +6,23 @@ status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 author: 欧阳锋
 created_at: "2026-06-21"
 source_refs:
-  - web: ATAM (Architecture Trade-off Analysis Method) — SEI/CMU
-  - web: SARA (Software Architecture Review & Assessment) — Philippe Kruchten
-  - web: NHS Digital Software Engineering Quality Framework
-  - web: dycke-gurevych-2025 counterfactual evaluation framework
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - 30_wiki/decisions/plan_20260621_skill-iteration-standard.md
   - .agent/pitfalls.md
   - .agent/daily-review/错误模式库.md
 related:
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[system-yitang-research-workflow]]"
-  - "[[framework-yitang-research-weapon-system]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 欧阳锋审查方法论
@@ -55,11 +55,11 @@ related:
 
 欧阳锋检查投递包：
 
-- [ ] 攻击报告存在（`60_feedback/adversarial/atk_*`）
-- [ ] 🔴 致命问题已全部关闭
-- [ ] 🟡 严重问题已全部修复或标注"已知但暂不修复（附理由）"
-- [ ] 🟢 轻微问题已记录（可不修复）
-- [ ] 修复记录有 git diff 或变更说明
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不满足 → 退回生产者，不进入欧阳锋审查阶段。**
 
@@ -80,10 +80,10 @@ related:
 **KDO 教训（E009/P-35）**：王语嫣诊断只覆盖了 ~10% 素材（73-97 张卡只识别了 10 张），但我直接在她的范围内做内容审查，没发现覆盖率问题。
 
 **检查清单**：
-- [ ] 拿到原始素材全量清单
-- [ ] 对比"交付物覆盖范围 vs 原始素材范围"
-- [ ] 覆盖率 < 80% → 退回补充或发起独立扫读
-- [ ] 覆盖率 ≥ 80% → 进入第二阶段
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 1.2 第二问：交付者的 bias 是什么
 

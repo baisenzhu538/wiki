@@ -7,26 +7,26 @@ title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
 status: enriched
 domain:
-- yitang
-- product-design
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
 source_refs:
 - src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04
 related:
-  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
-  - '[[dk-decision-value-overrides-roi]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[tool-yitang-expert-network-platform]]'
-  - '[[case-unit-model-gashapon]]'
-  - '[[yt-decision-height-toolkit]]'
-  - '[[yt-decision-width-method]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[yt-decision-y-model]]'
-  - '[[tool-泛产品落地-ROI分析]]'
-  - '[[yt-decision-canvas]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -35,21 +35,21 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 diagnostic_signals:
-- signal: 团队评估一个"小礼物/周边/轻物料"项目，只算了直接制作成本，没算教研/内容重绘投入
+- src_unknown
   framework_lens: ROI 宽度不足——只看见钱，没看见人被占用的时间
   follow_up_question: 这个项目的隐性成本有哪些？如果按人日折算，教研/运营/项目管理各占多少？
-- signal: 决策者说"同行都做了，我们也做一个"，内部调研一片支持，但没人算长期复用性
+- src_unknown
   framework_lens: 高度分析缺失——用短期营销视角替代长期品牌资产视角
   follow_up_question: 这个物料三年后还存在吗？每次产品迭代都需要重做，版本混乱的成本有多大？
-- signal: 一个低单价项目被快速通过，理由是"反正才几万块钱"，但机会成本足够做 2-4 节课
+- src_unknown
   framework_lens: 机会成本意识——小钱不等于低代价，关键看人日被占用后放弃了什么
   follow_up_question: 同样的人日投入，如果不做这个，能产出什么？那个替代选项的价值是否更高？
 tags:
-- '#content-format/case-study'
-- '#domain/yitang'
-- '#method/decision-making'
-- '#method/roi-analysis'
-- '#problem/opportunity-cost'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 扑克牌案例：同样的任务，两个同学评估结果截然相反
 
 > Truman 在 ROI 决策高度课上分享了一个真实内部案例：同样是评估"是否做一套扑克牌知识产品"，两个同学给出了截然相反的结论。这不是能力差距的问题，而是**决策高度**的问题。
@@ -101,11 +101,11 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 
 ## 结果
 
-- **决策结果**：放弃扑克牌，改做工具训练手册。
-- **直接收益**：节省了 30 人日教研投入，相当于保住了 2-4 节课的产出。
-- **长期收益**：工具训练手册可随课程迭代持续更新，避免了扑克牌"每出新课就废掉旧牌"的版本混乱问题。
-- **品牌收益**：手册具备"一本越做越厚的教材"属性，强化了品牌的长期主义叙事，比一次性营销赠品更能积累信任。
-- **组织启示**：同一任务交给不同的人，决策质量可以差一个量级——差距不在执行力，而在是否能把决策放到正确的高度、宽度和深度上分析。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -121,9 +121,9 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 
 ### 不适合的场景
 
-- 一次性、纯品牌曝光的物料（不需要长期复用，ROI 逻辑不同）。
-- 决策者的核心诉求是"快速讨好某个利益相关方"而非真实投入产出。
-- 团队完全没有替代方案可做比较（没有选项池的 ROI 分析会失真）。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -177,8 +177,8 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 机会成本 adjusted ROI = （总收益评分 × 长期系数） / （人日投入 + 机会成本人日）
 
 其中：
-- 长期系数 = 预计可迭代年数（例如 3 年 = 3，一次性 = 1）
-- 分母统一用人日，便于比较不同项目对稀缺资源的占用
+- src_unknown
+- src_unknown
 ```
 
 ### 第四步：替代方案对比
@@ -194,16 +194,16 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 
 ## 关联
 
-- 框架：[[yt-decision-y-model]] —— 本案例是 Y 模型"宽度-深度-高度"三角结构的具体应用。
-- 工具：[[yt-decision-height-toolkit]] —— 同学 2 的评估胜在"高度"：长期视角、机会成本、时间窗口。
-- 工具：[[yt-decision-width-method]] —— 同学 2 没有漏掉"教研人日""版本混乱"等宽度变量。
-- 工具：[[yt-decision-depth-ladder]] —— 同学 2 从 L1 定性判断深入到 L2/L3 的部分定量估算。
-- 工具：[[tool-泛产品落地-ROI分析]] —— ROI 分析在泛产品设计落地中的通用方法。
-- 工具：[[yt-decision-canvas]] —— 两个同学的评估本质上是在同一张 ROI 决策画布上填入了不同深度的内容。
-- 暗知识：[[dk-truman-iteration-to-aesthetic-ceiling]] —— 扑克牌案例中的"版本管理问题"与迭代到审美上限的暗知识形成对照。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt#350-590`
+- src_unknown

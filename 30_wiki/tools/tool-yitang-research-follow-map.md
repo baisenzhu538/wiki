@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 按图索骥
-- 寻找对标
-- 对标案例
-- 学习标杆
-- 案例研究
-- 对标学习
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[tool-yitang-research-two-dimensional-positioning]]'
-  - '[[tool-yitang-research-cross-validation]]'
-  - '[[tool-yitang-research-single-point-sniper]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-competitive-quadrant]]"
-  - "[[tool-yitang-research-two-dimensional-positioning]]"
-  - "[[tool-yitang-research-best-practice]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-survivor-bias-in-research]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 按图索骥：根据定位寻找对标案例
@@ -63,16 +63,16 @@ related:
 ## 第一步：明确定位
 
 ### 定位描述
-- 我在哪个市场？
-- 我服务什么用户？
-- 我提供什么价值？
-- 我与竞品有什么不同？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 定位检查清单
-- [ ] 目标市场明确
-- [ ] 目标用户清晰
-- [ ] 价值主张具体
-- [ ] 差异化点明确
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -123,10 +123,10 @@ related:
 [公司名]
 
 ### 定位匹配度
-- 市场：[匹配/不匹配]
-- 用户：[匹配/不匹配]
-- 价值：[匹配/不匹配]
-- 差异化：[匹配/不匹配]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 成功路径
 1. [阶段1]：[关键动作]
@@ -210,24 +210,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具
-- [[tool-yitang-research-two-dimensional-positioning]] — 二维定位工具
-- [[tool-yitang-research-best-practice]] — 最佳实践工具
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 按图索骥模块
-- 交叉：标杆管理理论
-- 注意：按图索骥是定位后的学习工具，不是定位工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

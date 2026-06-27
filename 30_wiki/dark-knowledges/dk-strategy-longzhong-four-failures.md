@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-05-it]]'
-  - '[[case-strategy-failure-04-appliance]]'
-  - '[[case-strategy-practice-ranpeng-crossborder]]'
-  - '[[case-strategy-walmart-vs-costco-pyramid]]'
-  - "[[case-strategy-longzhong-plan]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---**四因速查**：
 1. 资源不对等——2州 vs 9州，怎么打？
 2. 联盟脆弱——荆州不可兼容，盟友说翻就翻

@@ -4,14 +4,14 @@
 id: yt-note-deliberate-practice-four-elements
 title: 四要素诊断模型——刻意练习的笔记落地框架
 domain:
-  - learning-methodology- yitang
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户四要素都想要，但时间不够
+- src_unknown
   framework_lens: 贪多
   follow_up_question: 你当前最缺的是套路、非舒适区、反馈还是重复？一次只攻一个
-- signal: 用户没有固定套路就追求非舒适区
+- src_unknown
   framework_lens: 顺序错误
   follow_up_question: 你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区
 updated_at: '2026-06-16'
@@ -25,11 +25,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[ocr-一堂刻意练习十年成长指数]]'
-  - '[[tool-自我反馈修正笔记姿势]]'
-  - '[[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]'
-  - '[[dk-yitang-digging-belief]]'
-  - '[[yt-model-deliberate-practice-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 四要素诊断模型——刻意练习的笔记落地框架
@@ -93,11 +93,11 @@ related:
 
 ## Constraints
 
-- **依赖用户自评诚实度**：四要素诊断的第一步是用户自我评估（如"自评 50 分"），但人天生会高估或低估自己，自评偏差可能导致诊断方向错误
-- **需要外部参照系才能生效**：反馈要素中的"最佳实践池子"必须包含足够高质量的参照样本，否则用户会陷入"矮子里拔将军"的局部最优
-- **四要素之间存在耦合效应**：没有固定套路就无法进入真正的非舒适区（不知道往哪个方向突破），没有反馈就无法确认非舒适区的练习是否有效——四要素不能独立优化
-- **时间成本被低估**：完整走一遍四要素诊断 + 建池子 + 版本对比，对时间紧张的用户（如创业者）是 heavy 的前期投入
-- **文化差异未被考虑**：集体主义文化背景下的用户可能更依赖外部反馈（他人评价），而四要素模型更强调自我驱动和自我对标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
@@ -106,10 +106,10 @@ related:
 **背景**：用户当前 L2（备忘），目标五年达 L6（萃取），自评 50 分，创业者+管理者+执行者三位一体。
 
 **诊断结果**：
-- 固定套路：❌ 过去用纸质备忘，无通用记法 → 建「笔记刻意练习文档」
-- 非舒适区：❌ 多数在舒适区，曾拉到好水平但没坚持 → 每次脑力拉满、事后整理
-- 及时反馈：❌ 零反馈、没意识 → 建「最佳实践池子」起步
-- 大量重复：⚠️ 开会记最多，其他场景极少 → 化整为零、多记小笔记
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键杠杆**：建「笔记刻意练习文档」被识别为"四两拨千斤的起点动作"——一篇文档同时撬动套路沉淀、反馈对标、重复频率三个要素。
 
@@ -133,10 +133,10 @@ related:
 
 ## Synthesis
 
-- **与 [[yt-note-l4-internalization]] 的关联**：L4「内化」是四要素模型的核心分水岭——L4 之前（L1-L3）用户还没有建立固定套路，四要素诊断主要作用于 L4 及以后的能力跃迁。四要素中的"固定套路"直接对应 L4"重新整理、组织故事线"的能力要求。
+- src_unknown
 
-- **与 [[yt-skill-checklist-as-ai-protocol]] 的关联**：当清单体笔记成为 AI I/O 协议后，"大量重复"要素的意义被放大——每一次清单体笔记练习都是在训练人与 AI 的协作接口。四要素中的"固定套路"就是这套协议的语法规范，"反馈"要素可以通过 AI 的即时输出来部分实现。
+- src_unknown
 
-- **与 [[yt-note-ai-p-role-not-c-role]] 的关联**：四要素模型是**C 角色的专属工具**——P 角色不需要诊断，直接执行。这意味着四要素模型的适用场景有严格边界：只有当用户需要被"教练"（诊断盲区、制定计划）时才启动四要素流程；当用户只需要被"执行"（把素材整理成清单体）时，四要素是 overhead。
+- src_unknown
 
-- **与 [[yt-skill-storyline-target-tradeoff]] 的关联**：四要素诊断的"长期追求"环节本质上是一次目标-代价分析——用户需要明确"五年 L6"的目标以及为此需要放弃什么（如放弃纸质备忘的惯性舒适度、放弃"记完就完"的低标准）。目标-代价故事线的结构化方法可以直接嵌入四要素诊断的第一步。
+- src_unknown

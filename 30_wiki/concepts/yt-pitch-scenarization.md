@@ -4,31 +4,31 @@
 
 id: yt-pitch-scenarization
 component_of:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
 domain:
-  - content-production- personal
-  - yitang
+  - src_unknown
+  - src_unknown
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
-- yt-model-personal-pitch-toolkit
+- src_unknown
 query_triggers:
-- 场景化
-- 讲香场景
-- 场景代入
-- 场景触发
-- 用户场景
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-pitch-aphorism]]'
-  - '[[yt-pitch-materialization]]'
-  - '[[yt-pitch-sublimation]]'
-  - '[[yt-pitch-conflict]]'
-  - '[[yt-pitch-colloquialization]]'
-  - '[[yt-panproduct-demand-scenario-walkthrough]]'
-  - '[[yt-concept-weapon-arsenal]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -37,16 +37,16 @@ title: 讲香·场景化
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 把卖点放入用户熟悉或痛点场景，让用户有画面感
+- src_unknown
   framework_lens: 场景是需求的剧场
   follow_up_question: 用户看到这个场景，会不会想到自己？
-- signal: 场景细节具体，而不是泛泛描述
+- src_unknown
   framework_lens: 细节产生代入感
   follow_up_question: 这个场景发生在什么时间、地点、人物在做什么？
-- signal: 场景自然导向产品/解决方案的出现
+- src_unknown
   framework_lens: 场景是过渡
   follow_up_question: 场景结束后，用户为什么需要你的产品？
 updated_at: '2026-06-16'
@@ -69,40 +69,40 @@ trust_level: medium-high
 ### 失败模式
 
 1. **场景太泛，无法让用户代入**
-   - **原因**：缺乏细节
-   - **修复**：加入具体时间、地点、动作、情绪
+   - src_unknown
+   - src_unknown
 
 2. **场景与产品卖点脱节**
-   - **原因**：场景漂移
-   - **修复**：场景必须包含一个未满足需求，产品刚好填补
+   - src_unknown
+   - src_unknown
 
 3. **堆砌多个场景，用户注意力分散**
-   - **原因**：场景过载
-   - **修复**：一段内容聚焦1个核心场景
+   - src_unknown
+   - src_unknown
 
 4. **场景过于理想化，用户觉得不真实**
-   - **原因**：失真
-   - **修复**：使用用户真实访谈中的场景描述
+   - src_unknown
+   - src_unknown
 
 ## Claims
 
 ### 定义与价值
 
-- claim:01 [conf=0.85][src: 口述版课程] 场景化是把产品/服务融入到用户本身就有体感的真实场景里，在用户脑子中放一块「大屏幕」。用户从无感 → 看到画面 → 想要 → 甚至害怕失去
-- claim:02 [conf=0.85] 场景化最适合的情况：用户觉得「这跟我有什么关系」——你讲的每个点都飘在空中，用户无法落地。场景化把这个点锚定到用户已有的生活/工作体验上
+- src_unknown
+- src_unknown
 
 ### 四个子策略
 
-- claim:03 [conf=0.85] **A1 熟悉场景**：找用户最熟悉、最普遍、最高频的场景。越宽越好，频次越高覆盖的人越多。例如：跟老板汇报、做重要决策、写方案
-- claim:04 [conf=0.85] **A2 卡点场景**：找用户被卡住的时刻——难题困扰、痛点麻烦、焦虑害怕。只要你提到这个卡点，所有经历过的人立刻有体感。例如：笔记记了一大堆想用的时候找不着、创业失败了分析不清楚原因
-- claim:05 [conf=0.80] **A3 微观体感**：找到颗粒度极细的感受——当时看到了什么、想到了什么、那个瞬间的情绪。例如：雷军讲汽车防晒不是只讲「凉快」，而是讲「女生开车时要不要化妆、要不要带冰袖」这种微观纠结
-- claim:06 [conf=0.80] **A4 蒙太奇法**：用场景排比、画面循环、标签云来覆盖不同人群——一个场景覆盖不了所有人，那就四个场景一起上。例如：「跟老板汇报、跟投资人讲故事、跟团队讲愿景、自己写方案」总能覆盖一两个
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 精选案例
 
-- claim:07 [conf=0.90] **小米汽车防晒**：雷军讲防晒不提参数，而是讲「特斯拉女车主说夏天车里像烤箱」「很多女生开车带冰袖」——把防晒从一个功能参数变成用户夏天开车的切身体感。据说很多妹子就是看到这一段决定买的
-- claim:08 [conf=0.85] **一堂黄宝书**：不讲「里面有很多工具很好用」，而是讲两个场景：(1) 记笔记总是找不到的痛点；(2) 跟老板汇报、做重要决策、避免商业失败时翻开就用。场景排比覆盖了不同用户类型
-- claim:09 [conf=0.80] **马拉松小抄**：不讲「纸质版比电子版好」，而是讲三个场景：(1) 手机字小难翻——弥补电子版不足；(2) 几个人挤在手机前讨论——协作效率；(3) 塑封可写可擦用五年——耐用场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -117,10 +117,10 @@ trust_level: medium-high
 ## Framework Gallery
 
 ### 所属框架
-- [[yt-model-personal-pitch-toolkit]] — 十指讲香模型：场景化是具象化第一指，四层修炼之基础层
+- src_unknown
 
 ### 关联概念
-- [[yt-concept-weapon-arsenal]] — 超级武器库：场景化的 4 子策略在武器库中对应 A1-A4 速查条目
+- src_unknown
 
 ## Synthesis
 

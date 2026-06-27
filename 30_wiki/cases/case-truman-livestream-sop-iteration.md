@@ -10,35 +10,35 @@ source_refs:
 status: enriched
 confidence: 0.9
 domain:
-- yitang
-- product
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-capability-system]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[case-livestream-sop-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#content-format/sop'
-- '#chunk-type/process-data'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 我们有SOP但没人执行
+- src_unknown
   framework_lens: 迭代第二阶段——给SOP加SOP
   follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
-- signal: 我们做了checklist但质量一直不提升
+- src_unknown
   framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
 updated_at: '2026-06-16'

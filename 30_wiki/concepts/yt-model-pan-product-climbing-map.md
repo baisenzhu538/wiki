@@ -4,35 +4,35 @@
 
 id: yt-model-pan-product-climbing-map
 component_of:
-- yt-composite-pan-product-methodology
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - modeling- yitang
+  - src_unknown
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 爬山地图
-- L1-L6
-- 产品成长路径
-- 产品设计段位
-- 产品能力提升
-- 十年修炼
-- 产品设计进阶
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-36-strategies]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -42,12 +42,12 @@ title: 泛产品十年爬山地图：L1-L6成长路径
 type: framework
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户想直接跳到L6创新领先
+- src_unknown
   framework_lens: 跳级
   follow_up_question: 你现在处于L1-L6的哪个段位？如果不到L4，谈L6为时过早
-- signal: 用户一直在L2狭义设计，不扩展场景
+- src_unknown
   framework_lens: 卡在舒适区
   follow_up_question: 你过去一年在多少个新场景应用过产品设计思维？如果<3个，你在舒适区
 updated_at: '2026-06-16'
@@ -79,41 +79,41 @@ trust_level: medium-high
 
 ### 六段位全景
 
-- claim:01 [conf=0.90][src: 爬山地图框架卡] 十年爬山地图是泛产品设计体系的成长路径总览——从L1"和我无关"到L6"创新领先"，六个段位刻画了一个泛产品设计者从零到稀缺竞争力的完整进化链
-- claim:02 [conf=0.90][src: 爬山地图框架卡] L1"和我无关/自我放弃"：埋头做事/刻板执行，缺追求唤醒——需建立"像做产品一样做事"的意识
-- claim:03 [conf=0.85][src: 爬山地图框架卡] L2"狭义设计（某领域）"：有追求但仅限一两类，能交付落地——开始有追求，从自己所在领域开始刻意练习
-- claim:04 [conf=0.85][src: 爬山地图框架卡] L3"大量场景"：像做产品一样做一切，能识别场景——开始有场景，把产品思维迁移到工作/生活多场景
-- claim:05 [conf=0.85][src: 爬山地图框架卡] L4"有工具箱"：打造自己的固定工具箱，有固定方法——开始有方法，三大工具箱形成固定武器库
-- claim:06 [conf=0.85][src: 爬山地图框架卡] L5"统一练习"：长期刻意练习+持续进步，会迁移练习——开始刻意练习，用工具箱在多个领域拉满
-- claim:07 [conf=0.85][src: 爬山地图框架卡] L6"创新领先"：持续创新，形成竞争优势——开始突破创新，不断挑战新领域/新天花板，打造稀缺竞争力
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### GAP（进步空间）概念
 
-- claim:08 [conf=0.90][src: 爬山地图框架卡] 每个段位之间的跨越 = GAP（进步空间）。GAP不是"你不够好"，而是"还有进步空间"——L1→L2缺追求唤醒，L2→L3缺场景识别，L3→L4缺固定方法，L4→L5缺迁移练习，L5→L6缺创新突破
-- claim:09 [conf=0.85][src: 探索营口述版] 最大的两个GAP：L2→L3（从"会做某领域"到"能泛化到多领域"）和 L4→L5（从"有工具箱"到"能跨领域刻意练习"）。大多数人在L2卡住——缺的不是知识，是场景、方法和刻意练习的三位一体
+- src_unknown
+- src_unknown
 
 ### 三维能力剖面
 
-- claim:10 [conf=0.85][src: 爬山地图框架卡] 每个段位由三维度共同决定——"能"（当前能力状态）、"位"（当前定位）、"练"（练习方式）。三个维度同步发展，不是单一水平线
-- claim:11 [conf=0.85][src: 爬山地图框架卡] 三段工具箱对应：入门L1-L2 → 需求工具箱入门（练洞察），进阶L3-L4 → 审美工具箱（练审美），高阶L5-L6 → 落地工具箱（练酝酿）
+- src_unknown
+- src_unknown
 
 ### 核心隐喻与约束
 
-- claim:12 [conf=0.85][src: 爬山地图框架卡] 成长不是匀速的——某些段位需要长时间平缓积累，某些段位可以陡峭突破。坡度在L2→L3和L4→L5处最陡，对应两个最大GAP
-- claim:13 [conf=0.80][src: 爬山地图框架卡] "十年"不是硬性时间——不同人的十年，有人每天8小时刻意练习、有人每周2小时碎片时间，到达的段位完全不同。应以"有效刻意练习小时数"而非"年数"为参照
+- src_unknown
+- src_unknown
 
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-composite-pan-product-methodology]] — 父节点（泛产品设计方法论总纲）
-- [[yt-model-pan-product-36-strategies]] — 36计总框架（爬山地图是其顶层导航）
-- [[yt-model-pan-product-three-virtues]] — 三大修养（爬山地图的底层驱动力）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱（L1-L3核心工具）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（L3-L5核心工具）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（L4-L6核心工具）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键原图
-- !
+- src_unknown
 
 ## Critique
 

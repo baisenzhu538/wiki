@@ -3,7 +3,7 @@
 id: "ocr-一堂五步法画布"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_2a547df5
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂五步法画布"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[case-proya-betaine-skincare-benchmark]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-five-step-method]]'
-  - '[[yt-model-five-step-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂五步法画布
@@ -34,33 +34,33 @@ png` 一堂五步法画布YitangFive-stepCanvas 假设 需求 解决方案 商�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_2a547df5-ocr-一堂五步法画布.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 一堂五步法画布（Yitang Five-step Canvas）是一个结构化业务分析框架，包含五个递进阶段：假设、需求、解决方案、商业模式、增长与壁垒。
-- 该框架要求明确区分两类核心假设：价值假设（验证产品是否真正解决用户问题）与增长假设（验证业务能否规模化扩张）。
-- 画布以"我的业务"为中心展开，强调从业务本质出发进行系统性推演，而非套用固定模板。
-- 最终阶段"增长/壁垒"采用合并且置设计，暗示规模化与护城河构建需同步考量，二者相互强化。
-- 五步法遵循从虚到实、从验证到构建的逻辑：先验证假设与需求真实性，再设计解决方案，最后确立商业模式并规划增长路径。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原始图片中的"增衣"是否为"增长"的OCR误识，需人工核对原图确认？
-- "一堂"指代的是特定机构（如"一堂创业课"）还是通用术语，其方法论来源与权威性如何验证？
-- 五步法中"假设"与"需求"的先后顺序是否存在逻辑循环风险——需求发现本身是否已隐含假设？
-- "价值假设"与"增长假设"的二分法是否覆盖了所有关键假设类型（如技术可行性假设、政策合规假设）？
-- "增长/壁垒"的合并设计是刻意为之还是OCR排版误差，原图中二者的视觉权重是否对称？
-- 该框架未明确标注"验证节点"或"止损标准"，五步法是否默认为线性推进而非迭代循环？
-- "我的业务"作为中心锚点，是否预设了创业者视角而忽视了平台型/生态型业务的网络效应分析？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"增衣"类比的未解释：原图中的"增衣"是否为"增长"的OCR误识尚不确定，但更深层的问题是：即使是"增长"，"增长/壁垒"的合并设计是否是刻意为之？如果是，为什么没有解释这两者为什么要合并而非独立？
-- **"假设"与"需求"的循环风险：五步法将"假设"放在"需求"之前，但需求发现本身就隐含假设（你假设用户需要X，所以去验证X）。这种线性顺序可能导致"假设驱动"而非"需求驱动"的设计。
-- **缺少验证节点：画布描述了从假设到壁垒的"推演"，但未标注任何"验证节点"或"止损标准"。这意味着团队可能会在一个错误假设上连续投入，而没有机制叫停。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -74,20 +74,20 @@ Rita McGrath 在《临时优势的竞争》中提出：在当今快速变化的�
 
 ### 不要用的场景
 
-- **平台型/生态型业务：画布以"我的业务"为中心，但平台型业务的核心逻辑是"网络效应"而非"单一业务"。强行套用可能导致忽视供应侧、需求侧、竞争者之间的动态关系。
-- **需要多轮融资的战略型项目：当投资人关注的是"增长故事"而非"壁垒故事"时，过早构建壁垒可能被视为"增长受限"。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — Y模型的核心逻辑，五步法画布是其可视化执行版本
-- yt-decision-assumption-hypothesis — 假设验证工具与画布的"价值假设/增长假设"二分法互补
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品经理的第一次产品评审：用五步法快速检查产品假设、需求、解决方案、商业模式、增长路径的完整性
-- 投资决策初筛：将创业项目套入五步法画布，快速识别缺失维度
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

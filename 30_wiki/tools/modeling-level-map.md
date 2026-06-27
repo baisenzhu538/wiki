@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
@@ -19,31 +19,31 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 related:
-  - modeling-capability-system
-  - modeling-three-stages
-  - modeling-weapon-library
-  - tool-sabc-tier-modeling
-  - tool-checklist-cheatsheet-modeling
-  - tool-iceberg-triangle-modeling
+  - src_unknown-capability-system
+  - src_unknown-three-stages
+  - src_unknown-weapon-library
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#method/modeling'
-  - '#content-format/concept-card'
-  - '#method/evaluation-method'
-  - '#content-format/checklist'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"我不知道自己建模能力在什么水平"
+  - src_unknown
     framework_lens: 六段能力段位图
     follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
-  - signal: 用户说"想提升建模能力但不知道先练什么"
+  - src_unknown
     framework_lens: 提升路径
     follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
-  - signal: 用户说"我学了很多方法论，但还是不会用"
+  - src_unknown
     framework_lens: 段位瓶颈诊断
     follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
-  - signal: 用户说"团队建模能力参差不齐，没法协同"
+  - src_unknown
     framework_lens: 团队能力分布
     follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
-  - signal: 用户急于用 AI 直接生成高阶模型，跳过 L3-L4 的扎实训练
+  - src_unknown
     framework_lens: 段位跃迁风险
     follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
 
@@ -73,18 +73,18 @@ diagnostic_signals:
 
 原图为一张矩阵式信息图，标题为「一堂建模高手·十年爬山地图 / How to Become a Modeling Master within 10 Years」。
 
-- **横向三列**：入门、进阶、高阶
-- **纵向六行（L1-L6）**：
-  - L1 缺少意识 → 只靠经验 → 不太在乎
-  - L2 追求建模 → 追求复利 → 缺少见识
-  - L3 流程建模 → 清单/SOP → 及时复盘 → 知行合一
-  - L4 抽象建模 → 武器库强 → 场景广泛 → 稳定使用
-  - L5 本质提炼 → 提炼本质 → 精准匹配 → 分层自洽
-  - L6 持续创新 → 跨界建模 → 无限迭代 → 形成品牌
-- **底部提升路径**：
-  - 开始见识提升（天单位）
-  - 开始实操提升（月单位）
-  - 开始迁移创新（年单位）
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 视觉结构强调：**段位越高，所需时间越长，越依赖复利积累**。
 
@@ -92,11 +92,11 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 建模能力段位图将能力分为 L1 到 L6 六个段位，对应从「缺少意识」到「持续创新」的完整路径。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md:7-48`。
-- **C2 [conf=0.85]**: L1-L2 属于「入门」阶段，核心瓶颈是意识和见识；L3-L4 属于「进阶」阶段，核心瓶颈是动手和稳定使用；L5-L6 属于「高阶」阶段，核心瓶颈是本质提炼和跨界创新。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md` + `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:103-110`。
-- **C3 [conf=0.85]**: 每个段位都有明确的能力标签：L3 对应「清单/SOP + 及时复盘 + 知行合一」，L4 对应「武器库强 + 场景广泛 + 稳定使用」，L5 对应「提炼本质 + 精准匹配 + 分层自洽」。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md:18-47`。
-- **C4 [conf=0.8]**: 提升路径按时间单位分层：见识提升以天为单位，实操提升以月为单位，迁移创新以年为单位。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md:50-52`。
-- **C5 [conf=0.65]**: 段位图可用于个人自评、团队诊断和招聘/培养建模人才。——推断：基于段位图结构（`src_20260614_bb892297-Truman-高阶建模-段位图-01.md`）及培训笔记中的自我诊断作业（`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:139-143`），未找到招聘/培养场景的独立验证。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -123,16 +123,16 @@ diagnostic_signals:
 
 ### 步骤 2：确定当前段位
 
-- 找到**第一个得分低于 6 分**的段位，即为当前瓶颈。
-- 该段位的前一段即为「已稳定段位」。
+- src_unknown
+- src_unknown
 
 ### 步骤 3：制定提升计划
 
-- 若卡在 L1-L2：每天阅读/见识一个模型，建立建模意识。
-- 若卡在 L3：选择一个高频任务，输出 SOP 并稳定执行 1 个月。
-- 若卡在 L4：收集 10+ 同类案例，提炼一个抽象模型。
-- 若卡在 L5：选择一个战略课题，用本质公式推导 3 个策略。
-- 若卡在 L6：选择 2 个跨界领域，尝试建立连接模型。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -207,20 +207,20 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 对照 L1-L6 表格，为每个段位打分（0-10）。
-- [ ] 找出第一个低于 6 分的段位，标记为当前瓶颈。
-- [ ] 根据瓶颈段位，选择 1 个 30 天练习（见识/SOP/抽象模型/本质公式/跨界连接）。
-- [ ] 输出 1 份可交付物：SOP、模型图、本质公式或团队 heatmap。
-- [ ] 找 1 个同行或导师review，确认段位判断没有偏差。
-- [ ] 每季度复评一次，观察是否有稳定提升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-capability-system]]：段位图所在的整体能力体系
-- [[modeling-three-stages]]：段位与三段论的对应关系
-- [[modeling-weapon-library]]：L4 抽象建模需要的模型工具
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -238,13 +238,13 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-段位图-01.png` — 段位图原图
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:103-110`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

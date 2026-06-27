@@ -4,38 +4,38 @@
 
 id: yt-tool-mental-model-refinement
 component_of:
-- yt-model-personal-map
+- src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-model-deliberate-practice-growth
-- yt-composite-pan-product-methodology
+- src_unknown
+- src_unknown
 query_triggers:
-- 如何提炼自己的思维模型
-- 模型提炼方法
-- CEO核心能力模型提炼
-- 从经验到模型
-- 体感模型怎么建
-- 避免低水平重复
-- 以周为单位的迭代模型
-- 躬身入局建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-pan-product-demand-toolkit]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-prompt-engineering-andrew-ng]]'
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[yt-model-deliberate-practice-growth]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-concept-peas-insight]]'
-  - '[[master-first-principles]]'
-  - '[[yt-decision-habit-shift]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -45,19 +45,19 @@ title: 思维模型提炼：从体感经验到可复用武器库
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 每个模型是否有明确的性能度量(P)、环境(E)、假设(S)
+- src_unknown
   framework_lens: PEAS / 模型完整性
   follow_up_question: 模型是否只有框架而没有验证标准？
-- signal: 模型是否经过 ≥3 次真实决策场景的预测验证
+- src_unknown
   framework_lens: 可验证性 / 刻意练习
   follow_up_question: 模型是'总结心得'还是经过预测-结果对比？
-- signal: 是否区分'模型边界'与'例外条件'并持续更新
+- src_unknown
   framework_lens: 边界意识 / 迭代
   follow_up_question: 模型失效时是否被归因为例外而非更新模型？
-- signal: 模型提炼是否扎根于躬身入局的体感经验
+- src_unknown
   framework_lens: 体感 / 抽象风险
   follow_up_question: 没有体感的抽象模型是否导致战略误判？
 updated_at: '2026-06-16'
@@ -76,15 +76,15 @@ trust_level: medium-high
 
 ### claim:01 [conf=0.92][src: 思维模型口述版] 提炼模型的能力是团队一号位的核心护城河
 
-- 对于 CEO 或团队管理者，「提炼模型的能力」是最核心的能力之一。不是读再多书、听再多课，而是**在实践中不断建模**
-- 大多数人卡在「有经验但不会提炼」——做了十年还在用同一套直觉，没有形成可复用的认知工具
-- **反常识**：模型数量比质量更重要（先堆数量，再筛质量）。从毕业到现在主动总结的模型数量：10个？100个？这个数量级直接反映认知迭代速度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:02 [conf=0.90][src: 思维模型口述版] 体感模型 ≠ 书本模型，没有作业可以抄
 
-- 真正有价值的模型是**在业务现场练出来的体感模型**，不是从书里抄的、不是从同行那儿扒的
-- 水手（一堂主讲）的关键洞察：「这体感是我通过一点点练习，我自己在我身上练出来的，市场没有人练过。第二个没有作业可以抄，我没有说同行已经有一个成熟的模型，让我直接抄」
-- **高度抽象但没有体感支撑 → 极大误判**。比如「我要用互联网改造行业，它一定是高效的」——这种话听起来对，但没有具体直觉和经验支持，实战中往往是灾难
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:03 [conf=0.88][src: 思维模型口述版] 六步提炼法：从躬身入局到武器库成型
 
@@ -99,31 +99,31 @@ trust_level: medium-high
 
 ### claim:04 [conf=0.85][src: 思维模型口述版] 准备系数模型：质量差距的本质是准备系数的差距
 
-- **准备系数** = 投入准备时间 / 最终交付时间。一堂早期做课的准备系数达到 **30:1**（准备30小时，交付1小时），而普通讲师可能是 3:1
-- **核心动作**：把漏斗拉开，在中间多加节点。比如做课流程：选题→大纲→逐字稿→PPT→试讲→修改→正式录。节点越多，每个节点的质量越容易把控
-- **案例**：水手早期做一堂课程，通过拉高准备系数 + 增加中间节点，把完课率从行业平均的 30-40% 拉到 **60%+**，NPS 拉到 **80%+**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:05 [conf=0.87][src: 思维模型口述版] 周迭代测试模型：压缩反馈周期的核武器
 
-- **模型结构**：每周教一节课 → 每周测一节课 → 每周复盘一个认知
-- **关键指标**：
-  - 完课率（用户是否听完）
-  - NPS（用户是否愿意推荐）
-  - 作业字数/质量（用户是否真正理解）
-- **效果**：在一堂早期，用这个模型一个人扛了前 30 节课（融资系列、精一系列、调研系列、方法课、预判课等），完成了冷启动
-- **为什么有效**：这是「能做的迭代周期最短的模型」。季度复盘太慢，周迭代才能在错误变大之前修正
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:06 [conf=0.82][src: 思维模型口述版] 角色推演法：用时间线追溯模型形成过程
 
-- **方法**：按照时间线追溯「当时手里的牌→面对的困境→做的选择→结果如何」
-- **不是成功案例展示**，而是「如果给你当时的处境，你会怎么选？」的沉浸式推演
-- **作用**：让学习者体验「模型一步一步形成的过程」，而不是直接看到成品。理解模型背后的约束条件和 trade-off，才能真正迁移
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### claim:07 [conf=0.80][src: 思维模型口述版] 科学态度：持续提假设、持续复盘、持续总结
 
-- 科学的最大价值不是「灵丹妙药」，而是一种**态度**：持续提假设 → 持续验证 → 持续推翻或确认 → 持续更新模型
-- **关键洞察**：模型本身会变得丰富和精细，但过程中会更敬畏——因为发现自己不懂的东西更多了
-- **反常识**：模型越完善，人越谦卑。不是「我懂了」，而是「我知道自己还有多少不懂」
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -150,27 +150,27 @@ trust_level: medium-high
 
 ### 成功案例：一堂课程体系的模型化冷启动
 
-- **背景**：水手（一堂主讲）2015 年从教育小白起步，没有任何系统化理论背景
-- **Step 1 躬身入局**：直接在脉脉上找到产品经理培训班，试讲 2 小时，签约教配套课
-- **Step 2-3 立框架+扒对标**：扒遍产品经理课程，看大家基本框架；主题阅读拆李教授的写作流程和方法论
-- **Step 4 回答核心问题**：好课是什么？怎么生产好课？流程是什么？——完全不知道，硬提炼
-- **Step 5 准备系数模型**：把准备系数拉到 30:1，中间增加多个节点（选题→大纲→逐字稿→PPT→试讲→修改→正式录）
-- **Step 6 周迭代**：每周教一节课、测一节课、复盘一个认知。一个人扛了前 30 节课，完成冷启动
-- **结果**：完课率 60%+（行业平均 30-40%），NPS 80%+，早期作业字数平均 550 字
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败/边界案例：高度抽象但没有体感的战略误判
 
-- **场景**：某创业者说「我要用互联网改造这个行业，它一定是高效的」
-- **问题**：这句话高度抽象，但没有具体的直觉、感觉和体感经验支持
-- **结果**：「通常都会带来极大的误判」——因为不了解行业真实痛点、用户真实行为、线下环节的不可压缩成本
-- **教训**：**抽象必须扎根于体感**。没有体感的模型是危险的，因为它让你误以为自己懂了
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反常识案例：模型越完善，越觉得自己不懂
 
-- **现象**：水手在模型不断丰富和精细的过程中，「更敬畏，因为发现自己不懂的东西更多了」
-- **反常识**：一般人认为「模型建好了 = 我懂了」，但实际上模型是**暴露无知**的工具
-- **机制**：每建一个模型，就会清晰看到边界条件、例外情况、未验证假设——这些在之前是隐形的
-- **启示**：模型提炼的目的不是「建立确定性」，而是**「建立可管理的无知」**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -191,23 +191,23 @@ trust_level: medium-high
 
 ### Wikilinks
 
-- [[yt-model-deliberate-practice-growth]] — 刻意练习是模型提炼的燃料。没有刻意练习，提炼出来的模型只是「总结」，不是「可验证的武器」
-- [[yt-composite-pan-product-methodology]] — 泛产品设计的「以用户价值为中心、最佳实践为追求、无限进步为迭代」三大修养，是模型提炼的底层价值观
-- [[yt-model-cognitive-upgrade-framework]] — 认知升级的十步框架提供了模型提炼后的「内化路径」，从模型到行为改变
-- [[yt-concept-peas-insight]] — PEAS 四槽诊断法可以检验提炼出的模型是否完整：P（性能度量）是否清晰？E（环境）是否定义？A（执行器）是否匹配？S（传感器）是否到位？
-- [[master-first-principles]] — 第一性原理是模型提炼的「拆解工具」，帮助从表象深入到底层假设
-- [[yt-decision-habit-shift]] — 模型提炼的最终目的是改变决策习惯，从直觉驱动转向模型驱动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Contradictions
 
-- vs [[business-research-skill-oscar-13-weapon-system]]：奥斯卡调研的 13 武器是「外向型工具」（收集外部信息），而思维模型提炼是「内向型工具」（压缩内部经验）。两者互补：先用 13 武器收集信息，再用本卡方法提炼模型
-- vs [[yt-entrepreneur-research-camp]]：调研方法论强调「走出去看真实世界」，本卡强调「躬身入局亲自干」。不矛盾——调研解决「信息输入」，建模解决「认知压缩」
+- src_unknown
+- src_unknown
 
 ## Feedback
 
 ### 摩擦记录
 
-- **素材提取摩擦**：思维模型口述稿是三人分享（水手、紫静、主讲）的混合体，提取时需要分辨哪些是水手的个人案例、哪些是通用方法论。紫静的部分（品牌营销领域）和水手的部分（教育领域）方法论差异较大，统一提炼时丢失了部分领域特异性
-- **口述稿口语化严重**：「这个」「那个」「然后」占比极高，提取 claim 时需要大量清洗，部分 nuance 可能在清洗中丢失
-- **缺少量化数据**：准备系数 30:1 是口述中提到的，但没有详细的计算方法和基线对比。如果能找到「3:1 的讲师」和「30:1 的讲师」的完课率对比数据，claim:04 的置信度可以从 0.85 提升到 0.92+
-- **周迭代模型的边界不清晰**：口述中提到「这个模型一直沿用到今天」，但没有说何时不再适用、规模化后如何调整。需要补充「周迭代 → 双周迭代 → 月度复盘」的演进路径
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

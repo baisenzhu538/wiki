@@ -6,10 +6,10 @@ title: 王欢BITCOE提示词框架
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -19,39 +19,39 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_67d0fc3f_wanghuan_BTICOE框架_示意图.md'
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-say-think-do-toolchain]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-creativity-in-description-and-taste]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[framework-wanghuan-task-product-system]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- BITCOE
-- 提示词工程
-- prompt
-- 人机协作
-- 消灭模糊
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '用户说"我已经说得很清楚了，AI 还是给不出我要的结果"'
+- src_unknown
   lens: 意图模糊
   follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
-- signal: '同一个 prompt 今天好用、明天跑偏，输出不稳定'
+- src_unknown
   lens: 约束缺失
   follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
-- signal: 'AI 输出看着专业，但放到真实场景里没法用'
+- src_unknown
   lens: 示例与格式缺位
   follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
-- signal: '每次新对话都要重新交代身份和业务背景'
+- src_unknown
   lens: 上下文工程缺失
   follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 
@@ -115,9 +115,9 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 
 王欢在课上对比了"丢了一个大客户，帮我分析原因"的三个版本：
 
-- **零上下文**：AI 给出五条通用原因，放哪个行业都成立，无法决策。
-- **有一点上下文**：方向稍好，但仍在猜。
-- **完整 BITCOE**：AI 识别到"老板没出现在结项汇报"这一关键信号，给出可验证动作，结果可直接用于决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 这验证了 BITCOE 的核心价值：**不是让 AI 更聪明，而是逼你自己把模糊消灭干净**。
 
@@ -155,24 +155,24 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 
 ## 行动 Checklist
 
-- [ ] 选一个下周还会重复做的任务，不是一次性任务。
-- [ ] 用 BITCOE 六槽位把它写成可复用提示词模板。
-- [ ] 在 Constraint 槽位至少写 3 条"不要做什么"的负面约束。
-- [ ] 为 Output 槽位提供具体格式和长度要求，并附一个 Example。
-- [ ] 跑通一轮"输入 → 输出 → 验收 → 改约束 → 再输出"的闭环。
-- [ ] 把稳定的 Background 内容迁移到 [[tool-wanghuan-ai-business-profile]]，避免每次重复。
-- [ ] 一周后复盘：哪些约束 AI 还经常违反？补进模板。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：BITCOE 是导演定义任务和标准的核心语言。
-- [[tool-wanghuan-ai-business-profile]]：长期角色与标准资产，与 BITCOE 形成"长期 + 短期"组合。
-- [[framework-wanghuan-ai-five-level-ladder]]：BITCOE 主要帮助稳定工作流层到作品层的输出。
-- [[framework-wanghuan-ooda-loop]]：用 OODA 持续迭代 BITCOE 模板。
-- [[framework-wanghuan-task-product-system]]：把一次 BITCOE 提示词沉淀为可复用产品/系统。
-- [[human-ai-collaboration-double-triangle]]：王欢人机协作域的总索引。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -194,10 +194,10 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 > **回应**：这正是 BITCOE 需要配合 [[framework-wanghuan-ooda-loop]] 迭代的原因。第一次写不完美是正常的，关键是用输出反推缺失的约束，把隐性的"不要"显性化。
 
 **不要用**：
-- 不要在目标完全模糊时强行套用 BITCOE——先用自由对话或草稿探索。
-- 不要把 BITCOE 当成"填完就准"的免验收金牌——最终仍需人验收。
-- 不要只写"做什么"、不写"不做什么"——约束缺失是跑偏主因。
-- 不要把它用于超出 AI 能力边界且无法验收的高风险任务。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,47 +4,47 @@ title: 技能：商业预判15字诀
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
 - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-- 10_raw/sources/src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt - 00_inbox/一堂-商业预判课-Truman-口述.txt
-  - 00_inbox/一堂-商业预判课-truman-笔记.txt
+- src_unknown
+  - src_unknown
 tools_required:
-- 纸笔或文档工具
-- 行业报告或公开数据（可选）
+- src_unknown
+- src_unknown
 prerequisite_skills:
-- concept-一堂-business-prediction
+- src_unknown
 related:
-- '[[tool-一堂-spectrum-positioning]]'
-- '[[yt-concept-p-type-l-type]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[tool-一堂-spectrum-positioning]]'
+- src_unknown
 created_at: '2026-06-10'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 想做点生意但没有定义中局，最终选项池混乱
+- src_unknown
   lens: 目标模糊
   follow_up: 必须先写保A争B，否则不做加法。没有中局定义，加减法都会失去坐标
-- signal: 只拆了3-5个选项就开始排除，错过更优路径
+- src_unknown
   lens: 加法不足
   follow_up: 强制要求每个维度至少10个选项。加法的目标不是找正确答案，是确保没有遗漏高概率选项
-- signal: 将可克服的挑战误判为致命缺陷，过早排除潜力方向
+- src_unknown
   lens: 困难硬伤混淆
   follow_up: 硬伤的标准是即使投入最优资源也无法解决。困难可以克服，硬伤不能
-- signal: 选了正确的行业和商业模式，但团队核心能力不匹配
+- src_unknown
   lens: 团队硬伤忽视
   follow_up: 团队硬伤必须诚实面对，不能靠学习能力掩盖。核心能力不匹配是致命缺陷
-- signal: 主选项失败后没有替代方案，被迫继续投入
+- src_unknown
   lens: Plan B缺失
   follow_up: Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分
 ---
@@ -56,10 +56,10 @@ diagnostic_signals:
 
 ## Claims
 
-- claim:01 [conf=0.90] **"定中局"比"选项目"更重要。** 同样的行业，副业定位和上市定位需要完全不同的预判深度。Truman强调："不同的中局预期决定完全不同的预判方向。" 没有中局定义，做加法和做减法都会失去坐标
-- claim:02 [conf=0.87] **加法的目标不是找到正确答案，而是确保没有遗漏高概率选项。** Truman要求横向拆行业、纵向拆产业链、按要素拆商业模式，形成至少10-100个选项。"一个创业idea不等于1个项目，可能包含几十个甚至上百个细分模式"
-- claim:03 [conf=0.85] **减法的核心是识别"硬伤"而非"不完美"。** 行业硬伤（天花板低）、商业硬伤（需求不刚需）、团队硬伤（能力缺失）——这三类缺陷一旦出现，项目成功率会从30%骤降到5%以下。Truman："如果知道死在哪，就永远不去那个地方"
-- claim:04 [conf=0.82] **预判的终点不是"找到正确答案"，而是"找到3-5个高概率选项做Plan B"。** Truman强调Plan B是计划的一部分，多选项试错比单一方向更抗风险
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
@@ -99,9 +99,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 纸笔或文档工具（用于画选项树和硬伤清单）
-- 行业报告或公开数据（用于评估行业天花板和竞争格局）
-- 专家访谈渠道（用于验证硬伤判断）
+- src_unknown（用于画选项树和硬伤清单）
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -114,11 +114,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **目标模糊导致加减法失焦** → "想做点生意"但没有定义中局，最终选项池混乱 → **必须先写"保A争B"，否则不做加法**
-- **加法不够充分就急于减法** → 只拆了3-5个选项就开始排除，错过更优路径 → **强制要求每个维度至少10个选项**
-- **把"困难"当成"硬伤"** → 将可克服的挑战误判为致命缺陷，过早排除潜力方向 → **硬伤的标准是"即使投入最优资源也无法解决"**
-- **忽略团队硬伤** → 选了正确的行业和商业模式，但团队核心能力不匹配 → **团队硬伤必须诚实面对，不能靠"学习能力"掩盖**
-- **没有Plan B导致沉没成本陷阱** → 主选项失败后没有替代方案，被迫继续投入 → **Plan B必须在开始前就确定，不能临时想**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -128,9 +128,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **"定中局"假设创业者能准确预测3-5年后的自己。** 实际上，人的偏好、能力和外部环境都在快速变化。今天定义的"保A争B"可能在6个月后就完全失效。15字诀的"定中局"步骤可能产生一种虚假的"目标稳定性"
-- **"硬伤"的判定标准本身是主观且动态的。** 某个在2024年被判定为"硬伤"的因素（如"AI能力不足"），可能在2025年因为技术突破而不再是硬伤。15字诀的减法逻辑假设行业规则是静态的
-- **做加法需要大量信息输入，但信息本身有成本。** Truman说"拆出100个选项"，但获取100个选项所需的信息（行业报告、专家访谈、竞品分析）本身就是一笔不小的投入。对于资源极少的早期创业者，"充分做加法"可能不经济
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -138,8 +138,8 @@ diagnostic_signals:
 
 **Daniel Kahneman** (*思考，快与慢*作者) 从行为经济学角度攻击15字诀：
 
-- **"定中局"是规划谬误的温床。** Kahneman 的研究表明，人类在规划未来时系统性地低估困难、高估能力。"保A争B"框架会让创业者产生一种"我已经考虑了风险"的虚假安全感，但实际上他们只是做了一个更精致的乐观预测。**你以为在定中局，其实在给自己画饼**
-- **做加法会激活"选择过载"。** 当选项池扩大到30-100个时，决策者反而会陷入 paralysis by analysis（分析瘫痪）。Kahneman 会指出，人类在处理超过7个选项时，决策质量会显著下降。100个选项不是优势，是认知灾难
+- src_unknown
+- src_unknown
 
 > **Kahneman 的嘲讽**："你的15字诀第一步是'定中局'，但我的研究表明，人类在'定中局'时的准确率比随机猜测好不了多少。你花了两周做预判，最后选中的方向可能和你闭着眼睛随便选一个的成功率差不多——但你花了两周，所以你会更执着地坚持错误选择。"
 
@@ -147,8 +147,8 @@ diagnostic_signals:
 
 **Michael Porter** (竞争战略之父，哈佛商学院教授) 从战略管理角度攻击：
 
-- **15字诀是静态分析工具，但商业环境是动态的。** Porter 的五力模型强调竞争格局的动态演变。15字诀的"做减法"假设当前识别的硬伤在未来仍然是硬伤，但如果竞争对手以完全不同的方式切入市场（如平台模式颠覆直营模式），你的预判框架会完全失效
-- **"硬伤"可能是"机会"的伪装。** Porter 的研究表明，很多成功企业恰恰是进入了看似有"硬伤"的市场，但通过创新的商业模式绕过了传统缺陷。15字诀的减法逻辑可能系统性地排除高回报的"反直觉机会"
+- src_unknown
+- src_unknown
 
 > **Porter 的质问**："你的减法清单排除了'需求不刚需'的市场。但Uber刚出现时，打车是刚需吗？Airbnb刚出现时，住陌生人家是刚需吗？你所谓的'硬伤'，可能只是'现有解决方案不够好'。你的15字诀会系统性地过滤掉颠覆性创新。"
 
@@ -163,8 +163,8 @@ diagnostic_signals:
 
 ## 来源
 
-- Truman，一堂商业预判课，2026年
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

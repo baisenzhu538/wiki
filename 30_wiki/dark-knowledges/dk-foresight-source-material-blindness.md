@@ -5,7 +5,7 @@ title: 暗知识：素材命名不一致导致完整口述稿被遗漏
 type: dk
 dark_knowledge_type: process-failure
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md
 - 10_raw/sources/src_20260619_ad98829e_60_feedback_corrections_corr_20260611_hongqigong_机会预判域_OCR流程盲区.md
@@ -17,28 +17,28 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 素材遗漏
-- 命名不一致
-- 搜索盲区
-- 口述稿没找到
-- 文件名搜索
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
+- src_unknown
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-incident
+- src_unknown
+- src_unknown
 author: 欧阳锋
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - '[[dk-f10-broken-source-refs]]'
-  - '[[dk-f2-txt-ingest-skip]]'
-  - '[[tool-yitang-public-sentiment-research]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[tool-yitang-supply-chain-research]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 暗知识：素材命名不一致导致完整口述稿被遗漏
 
 ## 症状
@@ -51,8 +51,8 @@ related:
 
 **搜索依赖文件名模式匹配，而非内容主题匹配。**
 
-- 幻灯片命名模式：`一堂-机会预判-*.png`
-- 口述稿命名：`一堂-商业预判课-Truman-口述.txt`
+- src_unknown
+- src_unknown
 
 "机会预判"和"商业预判课"是同一个域的不同命名——Truman在课程中交替使用这两个词。但文件名不一致导致文件名搜索漏掉了核心素材。
 
@@ -65,16 +65,16 @@ related:
 
 ## 关联事件
 
-- **P-7（OCR强制检查遗漏）**：同一批素材的另一个流程失败——即使找到了18张PNG，也没跑OCR。两个失败叠加：先没找到文本素材，找到了图片素材又没OCR。
-- **P-9（Glob漏扫子目录）**：同一个模式——单一工具/单一搜索维度的阴性结果被当成了"不存在"。
+- src_unknown
+- src_unknown
 
 ## 预防机制
 
-- [ ] 新域素材消化的第一步改为：`grep` 全文搜索主题词 → 按内容聚类 → 再看文件名
-- [ ] `kdo lint` 增加检测：如果 card source_refs 全部是 `.png` 且无 `.txt`/`.md`，WARN "可能遗漏了文本源素材"
-- [ ] 写卡模板增加自检：`source_refs` 中是否包含口述稿/笔记/文本素材（不仅是图）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
-- [[dk-note-rookie-disaster-veteran-heaven]] — 同一个模式的另一个案例：新手按文件名找 vs 老兵按内容找
-- dk-yt-checklist-max-common-divisor — AI和人类在素材处理上的分工：AI更适合做"全量内容搜索"这类不怕累的活
+- src_unknown
+- src_unknown

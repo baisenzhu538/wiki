@@ -3,7 +3,7 @@
 id: "ocr-一堂泛产品设计-多出牌多练习"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_4754d8fd
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂泛产品设计-多出牌多练习"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂刻意练习十年成长指数]]'
-  - '[[ocr-一堂五步法-产品内核画布]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-泛产品设计的应用场景示意图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂泛产品设计-多出牌多练习
@@ -34,34 +34,34 @@ png` - 堂泛产品设计实操：多出牌多练  堂 CultivateProductSense:Des
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 产品思维可泛化应用于一切事务：像做产品一样设计年会、课程、演讲、短视频、书籍、系统等任何输出物。
-- 刻意练习的核心方法是"多出牌"：通过5-20倍于常人的出牌量（设计产出）来克服业余感，快速积累专业度。
-- 主动设计意识不足时，需"敢出牌"：将婚礼策划、租房买房、旅行计划等生活场景视为产品设计机会，而非被动接受他人方案。
-- 最易忽略的是"要出牌"场景：简历、工位布置、起名、面试、礼物、学习计划等日常事务，他人完全不出牌时自己出1-5张牌即可建立优势。
-- 产品设计能力的提升路径：情况A靠数量堆专业，情况B靠勇气破边界，情况C靠意识补盲区，三者覆盖从职业到生活的全场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文中"多出牌"的具体量化标准（5-20张牌）是否有经验依据或成功案例支撑，还是仅为修辞性表达？
-- "情况A/情况B/情况C"的三分类框架是否穷尽了所有场景，是否存在交叉或遗漏的中间状态？
-- "像做产品一样做一切"的泛化是否存在边界条件——哪些事务不适合用产品设计思维处理，过度设计是否会产生负效？
-- 刻意练习理论中强调的有效反馈机制在"多出牌"方法论中如何体现，仅凭数量堆积能否确保质量提升？
-- "别人不出牌"的场景中，出1-5张牌即可建立优势的假设是否低估了隐性竞争或专业门槛？
-- 原文将"容易业余""容易怂""容易忽略"归因于个人意识不足，是否忽视了结构性因素（时间成本、资源约束、制度障碍）对出牌行为的限制？
-- OCR提取的"堂泛"应为"一堂泛"的识别误差，但"坚持只做必修课"与"扫码辛苦学3天"之间的逻辑关系——免费引流与付费转化的商业模式是否在文本中被刻意模糊？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -75,20 +75,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

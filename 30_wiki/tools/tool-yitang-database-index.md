@@ -12,25 +12,25 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: basic
 estimated_tokens: 2000
 version: 1
 query_triggers:
-- 数据库
-- 行业报告
-- 数据来源
-- 数据平台
-- 报告搜索
-- 数据查询
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-public-information-research]]"
-- "[[tool-yitang-financial-report-intelligence]]"
-- "[[tool-doris-industry-report-search-tips]]"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 第三方数据库与行业报告来源索引
@@ -87,10 +87,10 @@ related:
 
 ### 六、搜索技巧
 
-- **组合搜索**：`公司名 + 招股书/年报/研报/filetype:pdf`
-- **多语言搜索**：中文一遍、英文一遍，结果完全不一样
-- **限制日期**：加 `after:2024` 限制最近信息
-- **不要只依赖一个来源**：至少3个不同渠道交叉验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -104,8 +104,8 @@ related:
 
 ## 来源
 
-- 渠道来源：一堂调研武器库培训课程"超级大抄"（100+渠道），`一堂-调研武器库培训-口述.txt`
-- Doris行业报告课补充渠道见 `tool-doris-industry-report-search-tips`
+- src_unknown
+- src_unknown
 
 ---
 

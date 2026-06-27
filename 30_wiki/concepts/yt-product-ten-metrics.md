@@ -7,16 +7,16 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: '[[yt-product-kernel-cultivation]]'
 query_triggers:
-- 产品内核指标
-- 十大典型指标
-- 转化率 留存率 复购率
-- 获客指标 服务指标 复购指标
-- 产品数据指标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-11
 reviewed_by: pending
 source_refs:
@@ -34,25 +34,25 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能根据业务类型从十大指标中选出最关键的3-5个指标
+- src_unknown
   framework_lens: 指标要与商业模式匹配
   follow_up_question: 你的业务类型决定了哪几个指标最能反映内核健康？
-- signal: 指标会定期跟踪，并与上一周期对比
+- src_unknown
   framework_lens: 指标是趋势语言
   follow_up_question: 最近一个周期，哪个指标变化最大？原因是什么？
-- signal: 指标异常时会触发具体行动，而不是只记录
+- src_unknown
   framework_lens: 指标驱动决策
   follow_up_question: 如果复购率下降5%，你的标准应对流程是什么？
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-  - '[[yt-five-step-implementation]]'
-  - '[[yt-product-kernel-cultivation]]'
-  - '[[yt-model-product-core-metrics]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[yt-scale-economy-weapon-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 产品内核十大典型指标
@@ -113,20 +113,20 @@ Bogle 的投资理念强调"短期指标波动是噪音，长期价值才是信�
 ### 失败模式
 
 1. **同时追踪所有指标，看不到重点**
-   - **原因**：指标过载
-   - **修复**：限制核心指标≤5个，其他作为观察指标
+   - src_unknown
+   - src_unknown
 
 2. **只看虚荣指标（如注册数），不看转化/留存**
-   - **原因**： vanity metrics
-   - **修复**：每个指标必须能关联到商业结果或用户价值
+   - src_unknown
+   - src_unknown
 
 3. **指标好看但不影响决策**
-   - **原因**：指标与行动脱节
-   - **修复**：为每个核心指标设定‘正常/预警/危险’阈值和对应动作
+   - src_unknown
+   - src_unknown
 
 4. **没有行业基准，不知道指标好坏**
-   - **原因**：缺少参照
-   - **修复**：定期收集同行业同阶段公司的指标基准
+   - src_unknown
+   - src_unknown
 
 ## Synthesis
 

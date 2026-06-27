@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-unit-economics
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户单元模型长期不成立，LTV < CAC"
+  - src_unknown
     framework_lens: 商业模式转型信号——单元模型不成立是转型信号
     follow_up_question: "你的单元模型不成立多久了？优化过哪些变量？是否该考虑转型？"
-  - signal: "用户市场从蓝变红，竞争加剧"
+  - src_unknown
     framework_lens: 商业模式转型信号——市场变化需要重新评估商业模式
     follow_up_question: "市场变化后，你的商业模式是否还成立？核心竞争力是否还在？"
-  - signal: "用户说'我们尝试了所有方法，都不行'"
+  - src_unknown
     framework_lens: 商业模式转型信号——尝试所有方法都不行，说明方向可能错误
     follow_up_question: "你尝试的方法是否都在同一个方向？是否该考虑完全不同的方向？"
-  - signal: "用户产品内核验证失败，但还在坚持"
+  - src_unknown
     framework_lens: 商业模式转型信号——内核验证失败需要转型
     follow_up_question: "你的内核验证失败了吗？失败的原因是什么？转型方向是什么？"
-  - signal: "用户团队士气低落，对产品失去信心"
+  - src_unknown
     framework_lens: 商业模式转型信号——团队信心是转型的重要信号
     follow_up_question: "团队为什么失去信心？是对产品、市场、还是商业模式失去信心？"
 
@@ -135,21 +135,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当单元模型不成立时 → 考虑转型
-- 当市场变化时 → 重新评估商业模式
-- 当内核验证失败时 → 转型
-- 当团队失去信心时 → 评估是否转型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 精益创业（Eric Ries）：转型方法论
-- 转型案例研究
+- src_unknown
+- src_unknown
+- src_unknown

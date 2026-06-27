@@ -4,32 +4,32 @@ title: 技能：RGB转CMYK印刷预检
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-Token效价比决策公式]]'
-- '[[tool-月白-印刷DPI标准设置]]'
-- '[[tool-月白-口述作图法（口喷设计）]]'
-- '[[tool-月白-AI图片印刷落地预处理]]'
-- '[[tool-月白-PS图层规范管理]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：RGB转CMYK印刷预检
 
@@ -48,26 +48,26 @@ RGB转CMYK印刷预检是月白在文创案例中提出的实操方法。
 
 ## 适用场景
 
-- 设计需要实物印刷
-- 甲方提供的是RGB文件
-- 需要控制印刷色差
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 仅屏幕显示，无需印刷
-- 已使用潘通专色设计（成本高但精准）
-- 数字媒体传播
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- Photoshop
-- Illustrator
-- 其他支持CMYK的设计软件
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -75,12 +75,12 @@ RGB转CMYK印刷预检是月白在文创案例中提出的实操方法。
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

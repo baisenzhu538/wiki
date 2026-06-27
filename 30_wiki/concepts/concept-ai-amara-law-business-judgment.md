@@ -10,23 +10,23 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 阿马拉定律与商业判断校准
@@ -55,9 +55,9 @@ related:
 ### 它把"AI 焦虑"转化为"可行动的时间差"
 
 当多数人还在被 AGI 新闻牵着走时，阿马拉定律要求你问：
-- 这项技术 2 年内真正发生的概率是多少？
-- 如果 10 年后它真的成熟，我现在该做什么不可逆的早期投资？
-- 哪些"今天 already happening"的变化被我忽略了？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -148,17 +148,17 @@ related:
 
 ### 商业：AI 投资与产品决策检查单
 
-- [ ] 我们是在追 6 个月内的热点，还是在布局 3-5 年后的结构性能力？
-- [ ] 这项技术当前的真实渗透率是否有数据支撑，还是只有媒体声量？
-- [ ] 如果短期 hype 退潮，我们是否有 Plan B 避免资源沉没？
-- [ ] 长期看，这项技术会压缩成本还是重构价值链？我们处于价值链的哪一端？
-- [ ] 团队能否接受 2-3 年没有显性产出的"深耕期"？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 王欢给出的校准锚点
 
 王欢在附录三的预测兑现度详表中提供了一个实例：全书涉及的预测中，完全兑现或部分兑现 10 项（71%），比预期更早或更猛 5 项（36%），明显滞后或未实现 1 项（7%） [conf=0.70, source=王欢拆书归纳/附录三预测兑现度详表]。这组数字本身就是阿马拉定律的注解：
-- **短期被高估**：真正"明显滞后或未实现"的虽然只有 1 项，但它提醒我们不能把所有预测都当作必然。
-- **长期被低估**："比预期更早或更猛"的比例（36%）说明，一旦技术越过某个临界点，其影响会超出作者预期。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -187,11 +187,11 @@ related:
 
 ## 相关卡 / 互链
 
-- [[ai-collaboration-domain-digest]]：AI 协作方法论域的总入口。
-- [[framework-wanghuan-ooda-loop]]：阿马拉定律提供时间尺度校准，OODA 提供决策循环节奏。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：用 BITCOE 显式化"时间尺度"与"概率假设"，避免判断模糊。
-- [[framework-wanghuan-harness-seven-stages]]：长期技术押注需要 Harness 式的阶段门控，避免一次性 All-in。
-- [[framework-wanghuan-gan-three-roles]]：对技术预测进行异构评审，可缓解阿马拉定律带来的集体偏差。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

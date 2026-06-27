@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-jtbd-application
 title: JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
@@ -18,28 +18,28 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-qualitative-analysis
-  - yt-demand-scenario-reconstruction
-  - yt-demand-fake-demand-detection
-  - yt-five-step-method
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-demand-iceberg-l4-job-map]]"
-  - "[[tool-demand-iceberg-l5-forces]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我想要一个更快的马'"
+  - src_unknown
     framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
     follow_up_question: "用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？"
-  - signal: "产品功能很多，但用户不知道该怎么用"
+  - src_unknown
     framework_lens: 功能堆砌——没有围绕JTBD组织产品
     follow_up_question: "用户雇佣你的产品是为了完成什么具体任务？每个功能是否直接服务于这个任务？"
-  - signal: "竞品功能相似，但用户选择了竞品"
+  - src_unknown
     framework_lens: JTBD竞争——竞争不是同类产品，是所有完成同一任务的方案
     follow_up_question: "用户完成这个任务时，除了你的产品，还考虑过哪些方案？为什么选了竞品？"
-  - signal: "用户流失后，不知道他们现在用什么替代方案"
+  - src_unknown
     framework_lens: JTBD流失——用户找到了更好的"雇佣"对象
     follow_up_question: "流失用户现在用什么方案完成原来的任务？这个方案比你的好在哪里？"
-  - signal: "团队争论'应该加什么功能'"
+  - src_unknown
     framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
     follow_up_question: "这个功能能帮助用户完成什么他们现在完成不了的任务？"
 
@@ -75,9 +75,9 @@ JTBD的核心问题：用户"雇佣"你的产品是为了完成什么**任务**�
 
 竞争不是"同类产品"，而是"所有完成同一任务的方案"：
 
-- 任务："我需要快速从A地到B地"
-- 竞争方案：出租车、地铁、共享单车、步行、不去了
-- 你的产品不是和出租车竞争，而是和所有完成"快速到达"任务的方案竞争
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. JTBD的访谈框架
 
@@ -93,9 +93,9 @@ JTBD的核心问题：用户"雇佣"你的产品是为了完成什么**任务**�
 
 围绕JTBD组织产品，不是围绕功能：
 
-- 每个功能必须能回答："帮助用户完成什么任务？"
-- 如果功能不直接服务JTBD，考虑删除
-- 新功能的评估标准："是否帮助用户完成现在完成不了的任务？"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -119,21 +119,21 @@ JTBD的核心问题：用户"雇佣"你的产品是为了完成什么**任务**�
 
 ## 行动触发器
 
-- 当用户说"我想要XX功能"时 → 问"这个功能帮助您完成什么任务？"
-- 当做竞品分析时 → 问"用户完成同一任务时，还考虑了哪些方案？"
-- 当设计产品功能时 → 每个功能标注对应的JTBD
-- 当用户流失时 → 问"您现在用什么方案完成原来的任务？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂泛产品设计用户卡片需求挖掘
-- JTBD理论（Christensen, Ulwick）
+- src_unknown
+- src_unknown
+- src_unknown

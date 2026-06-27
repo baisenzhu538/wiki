@@ -6,15 +6,15 @@ confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
 domain:
-  - yitang
+  - src_unknown
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
-  - "咖啡馆创业"
-  - "咖啡店预判"
-  - "保3争5"
-  - "回老家开咖啡馆"
-  - "咖啡开店"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -33,15 +33,15 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[dk-foresight-tier-skip-illusion]]'
-  - '[[yt-five-step-method-complete]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[yt-foresight-deliverables-four-levels]]'
-  - '[[case-ai-time-management-tiered-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：咖啡馆创业预判
 
@@ -55,9 +55,9 @@ related:
 
 ### 案例背景
 
-- **案主：**想回老家开一家咖啡馆
-- **核心困惑：**不确定要做多大、什么定位、什么模式
-- **一堂方法：**五步法预判A + 充分做加法3.0选项池
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 五步法预判A（轻量版）
 
@@ -120,9 +120,9 @@ related:
 
 **案主决策：保3争5**
 
-- **保3（单体）**：开一个大店，招几个员工或店长，独立运营，先养活自己
-- **争5（体系增长）**：追求规模化复制，持续突破，建立总部，做标准化
-- **关键质变点**：从单体到体系增长的质变点是"开始复制"——需要SOP、标准化、总部支撑
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Lessons
 

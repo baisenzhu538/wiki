@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- yitang
-- education
-- modeling
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（方法论科学建模过程），单一 source 为完整长文档，内容充分支撑 high trust；待补充第二来源或充分验证后可升回 high
 created_at: '2026-06-14'
@@ -22,18 +22,18 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - '[[framework-course-milestone-model]]'
-  - '[[dk-modeling-case-explosion-confidence]]'
-  - '[[case-thousand-people-square]]'
-  - '[[sk-ai-question-problem-checklist]]'
-  - '[[concept-thousand-people-square]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-counterexample-driven]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#industry/education'
-- '#confidence/verified-by-case'
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 
 ## 原始表述 / 核心洞察
@@ -46,11 +46,11 @@ tags:
 
 ## 使用场景
 
-- 你在做一个面向多个层次用户的课程、方法论或产品
-- 你需要判断一个模型是否足够 robust
-- 你在设计培训内容，担心只覆盖了新手或只迎合了高手
-- 你要对外发布一个方法论，需要确保它既能服务大众又能经住高手挑战
-- 你在用 AI 生成课程框架，需要判断它是"看起来完整"还是"真的 robust"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -85,11 +85,11 @@ tags:
 
 ## 适用边界
 
-- 必须有渠道接触到真正的专家
-- 专家必须实事求是，而不是高谈阔论
-- 不适用于纯个人创作场景
-- 模型本身需要先达到"可撞击"的成熟度，不能把空白框架丢给专家
-- 专家共识是验证机制，不是替代市场验证的唯一手段
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -97,9 +97,9 @@ tags:
 
 ## 与其他知识的关联
 
-- [[modeling-three-stages]] —— 本质建模阶段的验证方法
-- [[dk-modeling-counterexample-driven]] —— 用专家反例验证模型，5% 专家是反例驱动的重要输入源
-- [[modeling-capability-for-kdo]] —— 一堂建模能力体系中对课程/模型质量的要求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

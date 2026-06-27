@@ -9,9 +9,9 @@ source_refs:
 - src_20260614_623cfbfd-高阶建模-流程建模
 status: enriched
 domain:
-- yitang
-- product
-- execution
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模部分）
 created_at: '2026-06-14'
@@ -22,33 +22,33 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.75
 diagnostic_signals:
-- signal: 同一主播/讲师反复出现状态波动，好一场坏一场
+- src_unknown
   framework_lens: 直播前热身 SOP 建模
   follow_up_question: 状态好的时候开播前 30 分钟做了什么？状态差的时候漏了什么？
-- signal: SOP 写出来但执行率只有 50-70%，靠自觉完不成
+- src_unknown
   framework_lens: 给 SOP 加 SOP（督导 + 品控）
   follow_up_question: 每个关键节点有没有指定专人负责检查？检查者自己有没有 SOP？
-- signal: 每次意外后没有固定复盘窗口，同样问题反复出现
+- src_unknown
   framework_lens: 趁热复盘 + 24 小时补丁机制
   follow_up_question: 最近一次直播意外后，多久更新了 SOP？触发条件是什么？
 related:
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[case-modeling-process-sop-examples]]'
-  - '[[case-modeling-process-sop-evolution]]'
-  - '[[tool-sop-template-modeling]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[process-modeling]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[case-zhangyang-anchor-sop-three-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#industry/content-creation'
-- '#content-format/sop'
-- '#method/execution-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# 案例：直播前热身 SOP 建模
 
 > **Burn line**: 直播状态不是运气，而是一套可以被 SOP 化的热身动作。
@@ -61,10 +61,10 @@ tags:
 
 ## Background
 
-- **场景**：一堂内部直播/主播培训
-- **问题**：主播开播前状态不稳定，直播效果波动大
-- **建模目标**：把“好状态”背后的关键动作固化成 SOP
-- **来源**：`src_20260614_8269ccdb#428-446`、`src_20260614_8269ccdb#760-776`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -83,15 +83,15 @@ tags:
 ## What Happened
 
 Truman 观察主播开播前的行为，发现状态好的主播有一些共性动作：
-- 提前熟悉要讲的内容
-- 身体层面有热身（喝水、走动、调整呼吸）
-- 心理层面有预演（想象开场、预设互动）
-- 环境层面有检查（设备、灯光、背景）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 他把这些动作整理成一个直播前热身 SOP，并区分：
-- **必须做**（P0）：设备检查、内容过一遍、开场预演
-- **最好做**（P1）：身体热身、心理暗示
-- **加分项**（P2）：小额互动测试
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -114,10 +114,10 @@ Truman 观察主播开播前的行为，发现状态好的主播有一些共性�
 ### Step 1：识别关键变量
 
 Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
-- 内容准备度
-- 身体状态
-- 心理状态
-- 环境稳定性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 2：观察最佳实践
 
@@ -126,15 +126,15 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 ### Step 3：固化动作
 
 把最佳实践变成具体动作，避免模糊表述：
-- 不是“准备好”，而是“提前 15 分钟把 PPT 翻一遍”
-- 不是“放松”，而是“做 3 次深呼吸”
-- 不是“开嗓”，而是“背 3-5 遍绕口令”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：加执行锁
 
 仅靠 SOP 不够，需要：
-- **督导**：有人检查主播是否按 SOP 做了
-- **品控**：有人评估直播效果并反馈给 SOP
+- src_unknown
+- src_unknown
 
 ---
 
@@ -160,10 +160,10 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 
 ## Key Insights
 
-- **Insight 1 [conf=0.85]**：状态类问题可以通过流程建模稳定化。好状态不是随机事件，而是前置动作的结果。
-- **Insight 2 [conf=0.85]**：SOP 的颗粒度要到“无脑执行”级别，例如麦当劳炸薯条的时间、温度、动作。
-- **Insight 3 [conf=0.8]**：流程建模必须与督导、品控结合，否则执行率只有 50–70%。
-- **Insight 4 [conf=0.75]**：每个动作都要定义标准，否则 SOP 会变成形式主义。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -182,17 +182,17 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 
 ## Results
 
-- 主播状态波动明显减小
-- 新人主播更快进入稳定状态
-- SOP 持续迭代：每次直播意外后 24 小时内更新
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.85]**：Truman 观察到同一主播在不同场次状态差异巨大，排除主播本身能力差异，指向“开播前动作”这一变量。——来源：`src_20260614_8269ccdb#428-446`。
-- **证据 2 [conf=0.85]**：状态好的主播普遍有设备检查、内容预演、身体热身等共性动作。——来源：`src_20260614_8269ccdb#760-776`。
-- **证据 3 [conf=0.8]**：麦当劳等成熟组织把动作定义到“无脑执行”级别，证明 SOP 可以稳定复杂动作。——来源：`src_20260614_8269ccdb#760-776`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -220,17 +220,17 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 
 ## 教训
 
-- **不要一次追求完美**：第一版 SOP 可以只有 5 条，关键是先跑起来。
-- **必须有人督导**：没有督导的 SOP 容易变成“我知道但不做”。
-- **按 ROI 细化**：不是每个动作都需要三层锁，高价值环节重点保障。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-流程建模-图-02.png`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:428-446、760-776`
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

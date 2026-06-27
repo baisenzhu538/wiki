@@ -4,32 +4,32 @@ title: 技能：AIGC工具免费试用与入门资源整理
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-课程问题预埋法]]'
-- '[[tool-月白-提示词长度控制法]]'
-- '[[tool-月白-AI需求拆解咨询法]]'
-- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
-- '[[tool-月白-三步作业反馈法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AIGC工具免费试用与入门资源整理
 
@@ -40,46 +40,46 @@ AIGC工具免费试用与入门资源整理，是月白在AI设计基础中提�
 ## 操作步骤
 
 1. **明确学习目标**
-   - 先确定想体验的能力：文生图、图生图、风格迁移、扩图、去背景等
-   - 列出待对比维度：出图质量、可控性、生成速度、中文支持、商用授权
+   - src_unknown
+   - src_unknown
 2. **收集官方免费入口**
-   - 优先使用产品官网的免费试用、新用户额度、教育优惠
-   - 关注官方活动（如限时免费、节日额度包）
-   - 避免使用非官方渠道或共享账号，降低安全风险
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **小批量体验，做好记录**
-   - 每个工具用同一组提示词测试，控制变量
-   - 记录生成结果、优缺点、是否满足需求
-   - 截图或保存示例，便于后续对比
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **评估是否升级到付费**
-   - 如果长期高频使用，建议购买合规订阅
-   - 如果仅偶尔使用，可继续用免费额度或按量付费
+   - src_unknown
+   - src_unknown
 5. **整理成个人资源表**
-   - 工具名称、免费额度、适用场景、优缺点、官方链接
-   - 定期更新，因为免费政策变化较快
+   - src_unknown
+   - src_unknown
 
 ## 适用场景
 
-- 想零成本体验多个AI生图/生文工具
-- 课程作业或个人练习需要快速生成素材
-- 为团队选型做初步能力对比
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 需要稳定商用授权和售后支持
-- 对数据隐私和账号安全要求极高
-- 违反平台服务条款的批量注册/薅取行为
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 多个AIGC产品的官方免费入口
-- 记录对比用的文档或表格
-- 课程或社区提供的资源清单（仅作参考，需自行核实）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 只注册不记录 → 体验完没有沉淀 → **边试边记**
-- 把免费额度用于正式商用 → 版权/授权风险 → **商用前确认授权范围**
-- 用共享账号或非官方渠道 → 账号被封或数据泄露 → **只用官方入口**
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -87,12 +87,12 @@ AIGC产品在推广期常提供免费额度，个人学习者可以利用窗口�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，AI设计基础
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

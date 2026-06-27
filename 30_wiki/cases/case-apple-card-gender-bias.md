@@ -10,29 +10,29 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-dutch-childcare-scandal]]'
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[case-chen-qiufan-ai-writing]]'
-  - '[[dk-ai-social-progress-not-automatic]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Apple Card 信用额度性别争议
@@ -70,12 +70,12 @@ Apple Card 是 Apple Inc. 与 Goldman Sachs Bank USA 于 2019 年 8 月在美国
 
 ### 涉及主体
 
-- **Apple Inc.**：品牌方与产品界面提供方。
-- **Goldman Sachs Bank USA**：实际发卡行与授信决策方。
-- **David Heinemeier Hansson（DHH）**：软件开发者、Basecamp 联合创始人，最早公开质疑者。
-- **Jamie Heinemeier Hansson**：DHH 妻子，事后发布博客记录经历。
-- **Steve Wozniak**：Apple 联合创始人，公开声援并提供相似案例。
-- **NYDFS（New York State Department of Financial Services）**：纽约州金融监管机构，2019 年 11 月启动调查，2021 年 3 月发布报告。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 时间线
 
@@ -173,15 +173,15 @@ Apple Card 是 Apple Inc. 与 Goldman Sachs Bank USA 于 2019 年 8 月在美国
 
 ### 正方：算法歧视叙事
 
-- **代表人物**：David Heinemeier Hansson、Steve Wozniak、部分算法公平研究者。
 - src_unknown
-- **证据**：DHH 与妻子共享资产、妻子信用评分更高却额度更低；Wozniak 夫妇无分开账户却出现 10 倍差。
+- src_unknown
+- src_unknown
 
 ### 反方：法律合规与统计无歧视
 
-- **代表**：NYDFS、Goldman Sachs、部分法学与金融监管评论者。
-- **核心论点**：经过对约 40 万份申请的审查，未发现性别变量被使用，也未发现差别对待或差别影响；男女在同等信用特征下获得的结果相似；差异主要来自个人信用记录、收入、债务水平和“授权用户”身份的法律区别 [conf=0.90, source=NYDFS 2021 report]。
-- **证据**：NYDFS 报告指出投诉人普遍存在“配偶共享财务就应获得相同额度”的误解，但法律并未要求信用卡发卡机构将授权用户与主卡申请人同等对待。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 王欢的并置方式
 
@@ -206,8 +206,8 @@ Apple Card 是 Apple Inc. 与 Goldman Sachs Bank USA 于 2019 年 8 月在美国
 - src_unknown
 - src_unknown
 - src_unknown
-- TechCrunch 报道 NYDFS 结论（2021-03-23）：https://techcrunch.com/2021/03/23/new-yorks-department-of-financial-services-says-apple-card-program-didnt-violate-fair-lending-laws/ [conf=0.85, source=TechCrunch]
-- CFPB 2024 处罚（2024-10-23）：https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-apple-and-goldman-sachs-to-pay-over-89-million-for-apple-card-failures/ [conf=0.85, source=CFPB]
+- src_unknown
+- src_unknown
 
 ---
 

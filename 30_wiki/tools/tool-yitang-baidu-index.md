@@ -14,7 +14,7 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- "[[tool-yitang-weapon-third-party-database]]"
+- src_unknown
 ---
 
 # 百度指数
@@ -22,10 +22,10 @@ related:
 > 百度指数——最老牌的需求趋势工具。搜索量=用户对这个东西的"主动兴趣"。
 
 **用法**：
-- 搜品类名→看近5年搜索趋势（市场在增长还是萎缩？）
-- 搜品牌名→看品牌热度变化（新品牌上升=势头好）
-- 搜"XX怎么样"→看用户决策前的搜索行为
-- 地域分布→看不同城市的需求差异
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：搜索是用户"主动行为"——比信息流曝光更能代表真实需求。
 

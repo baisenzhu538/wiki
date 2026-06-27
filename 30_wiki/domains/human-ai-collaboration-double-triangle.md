@@ -7,47 +7,47 @@ status: draft
 confidence: 0.84
 trust_level: medium
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"
-- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-口述.txt"
-- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
-- 10_raw/literature/README.md"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: pending
 related:
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-ooda-loop]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-output-equals-standard-times-iteration]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-creativity-in-description-and-taste]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-spec-trap]]'
-  - '[[dk-wanghuan-agent-platform-director-mode]]'
-  - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 人机协作
-- AI导演
-- 双三角模型
-- 王欢
-- 域摘要
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 域摘要：人机协作范式——双三角模型域
@@ -103,10 +103,10 @@ tags:
 
 ## 六、域间桥接
 
-- **→ 鑫港湾医药零售域**：PACED 可用于患者沟通，AI 业务档案可用于药师/医生 agent 角色定义，OODA 可用于药柜运营迭代。
-- **→ KDO 知识工厂域**：三层架构映射老顽童/王语嫣/欧阳锋分工，对抗式生成可用于卡片质量提升。
-- **→ 一堂五步法域**：任务→产品→系统与五步法的“需求→产品内核→商业模式→增长→壁垒”可相互参照。
-- **→ 纪浩 AI 技能域**：BITCOE 可与纪浩的 skill 设计方法结合，提升 agent 提示词稳定性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 七、双三角模型结构
 

@@ -10,23 +10,23 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找基准值实操难点.md
 related:
-  - '[[dk-单元模型-找全成本实操难点]]'
-  - '[[tool-单元模型-壁垒预判]]'
-  - '[[dk-单元模型-找单元模型实操难点]]'
-  - '[[dk-单元模型-规模对抗实操难点]]'
-  - '[[case-unit-model-gashapon]]'
-  - "[[yitang-domain-digest]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[concept-最简单元模型]]"
-  - "[[dk-单元模型-找全成本实操难点]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 找基准值实操难点
@@ -37,10 +37,10 @@ related:
 
 ## 使用场景
 
-- 为新业务模型首次赋值时；
-- 用外部数据/竞品数据填充自身模型时；
-- 做多情景预测（乐观/合理/悲观）时；
-- 业务环境变化后需要重新校准基准值时。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -57,9 +57,9 @@ related:
 
 ## 适用边界
 
-- 不适合完全创新的业务：没有行业对标，只能依赖假设与快速验证。
-- 不适合数据基础设施极差的企业：无法采集自身数据时，基准值只能来自外部猜测。
-- 不适合追求绝对精确：基准值的目的是支持决策，而非替代实际测试。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -67,9 +67,9 @@ related:
 
 ## 与其他知识的关联
 
-- **[[concept-最简单元模型]]**：找基准值为最简单元模型中的 A/B/C/D 赋值。
-- **[[dk-单元模型-找全成本实操难点]]**：成本项的基准值是找全成本的下一步。
-- **[[dk-单元模型-找单元模型实操难点]]**：单元边界定了，才能确定基准值的对标范围。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

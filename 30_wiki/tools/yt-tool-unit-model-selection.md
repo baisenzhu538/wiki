@@ -1,7 +1,7 @@
 ---
 
 domain:
-  - yitang- master
+  - src_unknown
 tags: null
 related: null
 diagnostic_signals: null
@@ -32,9 +32,9 @@ updated_at: '2026-06-16'
 3. **Step 1：列出所有候选单元**。用十大单元模型框架（单订单/单SKU/单用户/单客户/单销售/单履约/单柜子/单门店/单商圈/单城市），逐一问：这个业务里存在这个单元吗？
 
 4. **Step 2：评估每个单元的风险权重**。用两个维度打分：
-   - **崩盘概率**：如果这个单元出问题，整个业务会崩吗？（高/中/低）
-   - **信息黑度**：你对这个单元了解多少？（已知/模糊/未知）
-   - 优先选择：崩盘概率高 × 信息黑度高的单元
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **Step 3：做减法，锁定核心单元**。常见错误是"加法没做完就做加法"——还没把核心单元算清楚，就开始扩展新单元。锁定1-2个核心单元，算透后再扩展。
 
@@ -85,33 +85,33 @@ Gary Klein 的自然决策理论(Recognition-Primed Decision Making)指出，专
 
 ### 与本库其他概念的关联
 
-- [[yt-unit-model-overview]] — 选择器是overview框架的"执行层"：overview讲"有什么"，选择器讲"先算哪个"
-- [[yt-unit-model-construction]] — 选定核心单元后，用"拆推评算"构建完整模型
-- [[yt-decision-y-model]] — Y模型的成本-收益-时间-空间四个维度帮助判断哪个单元"最需盯紧"
-- [[yt-entrepreneur-key-hypotheses]] — 核心单元的选择本质上是对"哪个假设最致命"的判断
-- [[master-decision-hygiene]] — 决策卫生要求"先算小账再算大账"，选择器是实现这一原则的工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品优先级排序：哪个功能模块最可能让用户流失？
-- 团队资源分配：哪个岗位最可能成为瓶颈？
-- 个人时间管理：哪项任务最可能让项目延期？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 当两个单元的"崩盘概率×信息黑度"得分相近时，如何打破平局？
-- AI能否基于历史数据自动推荐"最需盯紧的单元"？
-- 在平台型业务中，供需双边各自的单元模型如何统一？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- 开发"单元模型选择矩阵"互动工具：输入业务参数，自动输出候选单元排序
-- 构建行业化的"核心单元风险地图"：不同行业（餐饮、教育、SaaS）的典型核心单元分布
-- 制作"加法减法决策卡"：帮助团队在扩张前做强制性检查
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 
-- [ ] 当你面对一个复杂业务时，先用十大模型框架列出所有候选单元，不做筛选
-- [ ] 当你要决定"先算哪个"时，用"崩盘概率×信息黑度"矩阵打分，选择Top 1-2
-- [ ] 当你准备扩张（开新店/新品类/新城市）时，先确认核心单元是否已经"算透"（L4以上）
-- [ ] 当你发现团队同时推进多个单元时，强制暂停，重新做减法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

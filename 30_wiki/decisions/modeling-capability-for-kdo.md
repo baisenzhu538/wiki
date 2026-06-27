@@ -7,33 +7,33 @@ type: decision
 status: enriched
 confidence: 0.78
 domain:
-  - modeling- kdo
-  - yitang
+  - src_unknown
+  - src_unknown
 source_refs: []
 related:
-  - '[[case-modeling-essence-levels]]'
-  - '[[modeling-level-map]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-capability-system]]'
-  - '[[modeling-level-map]]'
-  - '[[modeling-to-kdo-toolchain]]'
-  - '[[model-quality-four-levels]]'
-  - '[[case-truman-livestream-sop-iteration]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
-  - '[[case-truman-personal-growth-map-creation]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-essence-predictive]]'
-  - '[[dk-modeling-sop-execution-locks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#kdo'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 老顽童
 review_date: 2026-06-17
 promoted_from: 60_feedback/itingnao/kcards-v3/
@@ -42,16 +42,16 @@ created_at: 2026-06-15
 trust_level: high
 updated_at: '2026-06-17'
 diagnostic_signals:
-- signal: 知识库越建越乱，inbox 堆积但 wiki 空洞
+- src_unknown
   framework_lens: 建模流水线分级
   follow_up_question: 你的素材是否按 L3/L4/L5 分级？每个阶段是否有对应的门禁和交付物？
-- signal: 团队争论"本质是什么"，但基础动作反复出错
+- src_unknown
   framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的 SOP/清单？执行率达到 90% 以上再进入抽象建模。
-- signal: 每张卡都画火箭图/冰山图，简单问题复杂化
+- src_unknown
   framework_lens: 模型武器库匹配
   follow_up_question: 这个问题是高频重复/跨场景/战略底层判断？对应清单/框架/本质哪种模型？
-- signal: AI 生成的框架看起来完整，落地时每场景都要打补丁
+- src_unknown
   framework_lens: 人在环中建模五步法
   follow_up_question: AI 输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
 
@@ -90,8 +90,8 @@ KDO/wiki 建设初期面临三个路线级问题：
 | **L5 本质提炼** | 学科经典 | `30_wiki/decisions/` | 本质公式 / 路线决策 | 可推导、可证伪、跨 ≥ 2 域验证 |
 
 并配套两条原则：
-- **学科建模派**：追求可验证、可证伪、可迁移的知识，而非 merely 启发。
-- **人在环中建模五步法**：边界定义 → 生成初稿 → 挑错/撞击 → 上锁/格式化 → 决定成熟。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -135,9 +135,9 @@ L0 盲目创新  →  L1 事实/经验  →  L2 常识  →  L3 方法模型  �
 ```
 
 **对 kdo 的启示**：
-- `00_inbox` 和原始录音大多停留在 L1/L2
-- `60_feedback` 的草稿应向 L3/L4 推进
-- `30_wiki` 应沉淀 L4/L5 级别的知识
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 来源：Truman-高阶建模-本质建模-案例-01
 
@@ -251,9 +251,9 @@ thinking_depth: "L4"  # 本质理解
 ### 3. 建立"跨域迁移"机制
 
 当某个模型在 A 主题验证有效后，主动追问：
-- 这个模型在 B 主题是否成立？
-- 边界条件是什么？
-- 反例是什么？
+- src_unknown
+- src_unknown
+- src_unknown
 
 例如：药柜主题中的"推销口径 vs 监管口径"冲突，可以迁移到金融、教育、医疗 AI 等强监管领域。
 
@@ -296,29 +296,29 @@ kdo 应走**学科建模派**路线：追求可验证、可证伪、可迁移的
 ## 来源与可信度
 
 ### 直接来源
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述`
-- `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记`
-- `src_20260614_623cfbfd-高阶建模-流程建模`
-- 00_inbox/ideas/Truman的个人成长五步法.md`
-- kdo/wiki 建设实践（药柜主题整理过程）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可信度评估
-- **整体置信度**：0.78（中高）
-- **Truman 课程框架描述**：0.85 — 基于课程图片原文
-- **与 kdo/wiki 对应关系**：0.75 — 为演绎推断
-- **具体建议**：0.70 — 为通用方法论建议，需根据实际调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联卡片
 
-- [[modeling-capability-system]]：高阶建模能力体系详细拆解
-- [[modeling-to-kdo-toolchain]]：建模三段论到 KDO 工具链的落地映射
-- [[model-quality-four-levels]]：模型可信度四层标准
-- [[case-纪浩-from-zip-to-five-layers]]：AI 协作产品的 KDO 映射实例
-- [[kdo-ec-industrialization-migration-proposal]]：KDO 管线工业化迁移方案
-- `kcard-yitang-methodology-draft.md`：一堂方法论体系
-- `QUALITY-CONTROL.md`：知识卡质量控制清单
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

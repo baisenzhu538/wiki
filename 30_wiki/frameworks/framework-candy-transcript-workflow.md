@@ -15,15 +15,15 @@ domain: [yitang, content-production]
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - '[[tool-candy-positioning-canvas]]'
-  - '[[dk-strategy-07-strategy-vs-dividend]]'
-  - '[[framework-demand-usp-model]]'
-  - '[[dk-ji-hao-problem-vs-question]]'
-  - '[[case-candy-problem-os-vpn]]'
-  - "[[concept-candy-ai-as-collaborator]]"
-  - "[[tool-candy-positioning-canvas]]"
-  - "[[tool-candy-oral-polish]]"
-  - "[[case-candy-problem-os-vpn]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Candy逐字稿九步法
@@ -80,8 +80,8 @@ steps = [
 
 ## 适用边界
 
-- **适用**：逐字稿、课程稿、演讲稿、任何需要"交付给人听/读"的内容
-- **不适用**：内部文档、API文档等非叙事性内容
+- src_unknown
+- src_unknown
 
 ---
 

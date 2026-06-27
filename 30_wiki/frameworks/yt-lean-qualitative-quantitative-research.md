@@ -6,9 +6,9 @@ title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
@@ -20,31 +20,31 @@ source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 source_context: Q1第六、七节关于专项调研与用户访谈的区别、验证指标与产品形态的关系
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/framework'
-- '#topic/lean-startup'
-- '#topic/hypothesis-validation'
-- '#topic/research-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-lean-flower-mom-group-leader]]'
-  - '[[yitang-qualitative-to-quantitative]]'
-  - '[[case-lean-zhanglei-hypothesis-validation]]'
-  - '[[yt-lean-essence]]'
-  - '[[case-lean-zhanglei-pivot-decision]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- signal: 团队一上来就问"要做多少份问卷、多少个访谈"，却说不清产品形态
+- src_unknown
   framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，验证指标和最小样本量分别是什么？
-- signal: 早期需求验证阶段就大量发问卷、跑统计显著性
+- src_unknown
   framework_lens: 需求侧验证应先定性排除错误选项，待选项收窄、形态清晰后再进入定量；证伪优先于证实
   follow_up_question: 当前阶段你是在"排除错误选项"还是在"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
-- signal: 只看泛化指标（如使用时长、点击率），不落到核心转化率/复购率
+- src_unknown
   framework_lens: 产品内核验证必须锚定业务公式的核心节点；指标只有放在单元模型的核心转化率上才有统计意义
   follow_up_question: 这个指标如果变好，能否直接推导出单元模型成立？它对应业务公式中的哪一个核心转化率或复购率？
 
@@ -94,9 +94,9 @@ diagnostic_signals:
 > "在需求很难直接证实时，最好的方式是排除掉那些不好的选项，留下好的细分用户、细分场景、细分问题。"
 
 这意味着早期定性调研的目标不是"证实需求存在"，而是：
-- 排除错误的用户细分
-- 排除错误的场景假设
-- 排除错误的问题定义
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 1.2 定量调研：选项少、形态清时才做
 
@@ -105,9 +105,9 @@ diagnostic_signals:
 > "你想做定量的调研，并且这个时候选项比较少的时候，你可以利用这个，才适合用问卷的形式，用这种数据统计的方式来做判断。"
 
 定量调研的适用条件是：
-- 假设已经拆到可比较的少数选项
-- 产品形态已经相对清晰
-- 要验证的是"哪个选项更好"，而不是"有没有需求"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -131,9 +131,9 @@ diagnostic_signals:
 > "在产品迭代链上，一定要落在核心的点上——核心转化率、备付复购率。这时候再看指标是否合理。指标要放在核心转化率上看是否有统计意义。"
 
 这要求团队先定义清楚：
-- 业务的最小单元模型是什么？
-- 这个单元的核心转化率是什么？
-- 需要多大的样本才能让这个转化率有统计意义？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -189,6 +189,6 @@ AMA 中给出了一个关键判断：
 
 ## 置信度说明
 
-- **Confidence = 0.82**：AMA 精华稿（src_20260616_b1e25c49）Q1 第六、七节对"定性排除错误选项 / 定量在选项少时做 / 样本量由产品形态决定"有直接、明确的论述；笔记整理稿（src_20260616_6c8b240b）第三节进一步结构化确认。
-- **未达 0.90 的原因**：具体样本量数字（如"APP 几百个、线下培训几十个、To B 几个"）来自口头 AMA 的举例，并非严格的统计样本量公式；实际业务中仍需结合置信区间、效应量、基线转化率等做更精确估算。
-- **外部可验证性有限**：本卡片内容基于张磊 AMA 口述与课堂笔记，属于方法论提炼，具体样本量需结合业务实际测算，不可直接套用。
+- src_unknown
+- src_unknown
+- src_unknown

@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 
 id: yt-concept-context-engineering
@@ -13,23 +13,23 @@ version: 1
 difficulty: intermediate
 confidence: 0.85
 prerequisites:
-  - yt-model-prompt-engineering
+  - src_unknown
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - "上下文工程"
-  - "背景信息"
-  - "充分不等于越多越好"
-  - "信息干扰"
-  - "脱敏处理"
-  - "对话窗口隔离"
-  - "复述验证"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-13
 estimated_tokens: 3400
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '用户给AI喂了海量背景，但输出反而更差', 'framework_lens': '信息过载——上下文质量由相关度决定', 'follow_up_question': '你给的背景中，哪些是这个问题的核心约束？如果说不清，说明信息没有筛选'}
   - {'signal': '用户只给一句话prompt，抱怨AI回答太泛', 'framework_lens': '上下文不足——没有独特约束就没有独特答案', 'follow_up_question': '这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？'}
@@ -38,11 +38,11 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - '[[yt-prompt-brainstorming]]'
-  - '[[yt-concept-ai-guard-brain]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[yt-model-prompt-engineering]]'
-  - '[[yt-note-ai-human-division]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 上下文工程：充分≠越多越好
 
@@ -52,21 +52,21 @@ related:
 
 ### 核心悖论：没有上下文不行，多了也不行
 
-- claim:01 [conf=0.90] AI 有通用知识但缺企业上下文。不喂养充分背景只能得到通用行货。独特答案来自独特约束——商业洞察只来自具体约束。有效背景应包括：业务阶段、目标用户、产品形态、价格区间、已有资源、历史尝试、失败原因、当前约束、不可接受方案、时间窗口、验证指标
+- src_unknown
 
-- claim:02 [conf=0.85] 但信息"充分"不等于"越多越好"。无关信息会严重干扰 AI 输出。案例：给 AI 喂了无关的医疗指标，导致它坚持建议不必要的检查——AI 无法区分你喂的信息中哪些是核心约束、哪些是你顺带提到的背景噪音
+- src_unknown
 
 ### 上下文质量的三条规则
 
-- claim:03 [conf=0.85] **规则一：先给已知，再问缺口**。不要一上来就问"我需要给你什么信息"——先穷尽你已经知道的所有背景。你知道的永远比你以为的多。你写完已知背景后，再问 AI "你还缺什么"
+- src_unknown
 
-- claim:04 [conf=0.85] **规则二：不同问题用不同对话窗口**。避免交叉污染——你上一个问题关于市场定位的上下文，会在同一个窗口中继续影响下一个关于团队管理的问题。AI 无法自动判断哪些前文与新问题相关。隔离窗口 = 隔离上下文
+- src_unknown
 
-- claim:05 [conf=0.80] **规则三：用复述来验证理解**。每次给完复杂背景后，先让 AI 复述它的理解。复述中的任何偏差，都会在后续分析中被放大——如果在复述阶段发现理解错了，等于避免了一次完整的错误分析
+- src_unknown
 
 ### 上下文与提示词的边界
 
-- claim:06 [conf=0.85] 上下文是你给 AI 的"已知条件"，提示词是你给 AI 的"任务指令"。大多数提示词质量问题实际上是上下文质量问题——人们反复调提示词措辞，但真正的问题是没有给 AI 足够的、相关的、结构化的背景信息
+- src_unknown
 
 ## Critique
 
@@ -88,9 +88,9 @@ related:
 
 **Claude Shannon**（信息论之父，贝尔实验室数学家）与 **Warren Weaver**在其经典论文 *The Mathematical Theory of Communication*（1949）中提出了通信的三个层级问题：
 
-- **Level A（技术问题）**：符号传输的准确性——比特有没有传过去
-- **Level B（语义问题）**：传输的符号是否传达了预期的含义
-- **Level C（效用问题）**：接收到的含义是否产生了预期的效果
+- src_unknown
+- src_unknown
+- src_unknown
 
 上下文工程聚焦在 **Level B**——"我有没有把我的意思准确传达给 AI"。但 Shannon 的信息论提出了一个更根本的问题：**噪音（noise）和冗余（redundancy）的关系**。在人类语言中，你认为是"噪音"的信息（如"我们公司去年换过两任 CEO"）可能恰恰是影响决策效率的关键冗余——它不直接回答"该不该做 X"，但它改变了 AI 对"这个组织的执行能力"的判断。
 
@@ -128,11 +128,11 @@ related:
 ## Framework Gallery
 
 ### 关联概念
-- [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
-- [[yt-prompt-iterative-prompting]] — 迭代提示词——迭代的每一轮都是在给 AI 补充新的上下文
-- [[yt-prompt-brainstorming]] — 头脑风暴——独特资源+独特约束就是头脑风暴的上下文
-- [[yt-concept-weapon-arsenal]]（master域）— 武器库元概念：武器库的"即查即用"依赖上下文的精准匹配——给错上下文等于拿错武器。上下文工程和武器库共同解决"在什么情况下用什么知识"的元问题
-- [[yt-model-personal-pitch-toolkit]]（personal域）— 讲香十指框架：讲香的十指维度本身就是一种上下文工程——受众的认知起点是什么？需要先建立什么概念才能理解接下来的内容？讲香高手本质上是上下文工程的高手
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 

@@ -4,20 +4,20 @@ title: 提案：提示词自动注入体系 — 从手动Read到运行时自动�
 type: improvement-plan
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
-- 黄药师（Builder）
-- 欧阳锋（Architect）
+- src_unknown
+- src_unknown
 reviewer: 待定
 related:
-  - '[[tool-yitang-job-intelligence-research]]'
-  - '[[agent-ecosystem-design]]'
-  - '[[meta-prompt-eng]]'
-  - '[[design-ai-image-generation]]'
-  - '[[ai-short-drama-framework-three-axes]]'
-  - '[[plan_20260531_data-curator-v1.3]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
@@ -69,8 +69,8 @@ kdo prompt list
 ```yaml
 # skills/deep-synthesis/SKILL.md
 required_prompts:
-  - judge-three-questions
-  - recursive-deepen-prompt
+  - src_unknown
+  - src_unknown
 ```
 
 Agent 加载 skill 时自动去 prompts/ 读对应文件，注入上下文。
@@ -84,8 +84,8 @@ Agent 加载 skill 时自动去 prompts/ 读对应文件，注入上下文。
 ```yaml
 # tasks/task-xxx.md
 required_prompts:
-  - judge-three-questions
-  - deep-synthesis-article-template
+  - src_unknown
+  - src_unknown
 ```
 
 Agent 领任务时：
@@ -119,9 +119,9 @@ Agent session 启动时自动完成：
 
 ## 不做什么
 
-- **不做** prompt 版本管理（v10 之后的 v11 怎么命名？先不管，用文件 overwrite）
-- **不做** prompt A/B 测试（需要的时候再加）
-- **不做** 跨角色 prompt 权限控制（当前所有 prompt 对所有 Agent 可见即可）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

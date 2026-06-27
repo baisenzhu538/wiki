@@ -6,31 +6,31 @@ confidence: 0.9
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - yitang- entrepreneur
-  - master
+  - src_unknown
+  - src_unknown
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
-- yt-unit-model-construction
-- yt-unit-model-selection
+- src_unknown
+- src_unknown
 query_triggers:
-- 单元模型基准值
-- 三点预测
-- 科学类比
-- 行业基准值
-- 基准值共建
-- 预测准确性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[ocr-一堂y模型steps策略集]]'
-  - '[[yt-tool-unit-model-construction]]'
-  - '[[yt-tool-unit-model-benchmark]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-unit-model-dynamic]]'
-  - '[[yt-decision-y-model]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[master-systems-thinking]]'
-  - '[[yt-unit-model-concept]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -45,28 +45,28 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 基准值是否来自真实类比而非随意猜测
+- src_unknown
   framework_lens: 科学类比 / 证据链
   follow_up_question: 行业基准是否有来源和适用条件？
-- signal: 是否使用三点预测而非单点预测
+- src_unknown
   framework_lens: 不确定性 / 区间估计
   follow_up_question: 是否只给一个'最可能数字'而隐藏波动？
-- signal: 基准值是否随环境变化定期更新
+- src_unknown
   framework_lens: 时效性 / 反僵化
   follow_up_question: 去年的基准是否仍被当作今年标准？
-- signal: 是否区分'可迁移基准'与'情境特定基准'
+- src_unknown
   framework_lens: 边界意识 / 类比有效性
   follow_up_question: 是否把别人的基准直接套用到自己的业务？
-- signal: 关键变量是否经过多源交叉验证
+- src_unknown
   framework_lens: 证据质量 / 三角验证
   follow_up_question: 行业数据、对标企业、自身历史、专家估计中至少两种来源是否一致且条件被标注？
-- signal: 悲观情景是否真正触及生存线而非形式化
+- src_unknown
   framework_lens: 压力测试 / 韧性
   follow_up_question: 悲观值是否至少比基准情景恶化 30%-50%，且团队已讨论存活方案？
-- signal: 基准值共建是否先独立拿数再对齐
+- src_unknown
   framework_lens: 群体决策 / 锚定偏差
   follow_up_question: 讨论前是否让参与者独立写下自己的基准值、来源与推理？
 updated_at: '2026-06-17'
@@ -107,9 +107,9 @@ reviewed_by: 欧阳锋
 4. **团队对同一个变量的预测差异很大**（如"今年收入是 500 万还是 2000 万"）
 
 **如果以下情况，不用本工具：**
-- 单元模型尚未建好（先用[[yt-unit-model-construction]]）
-- 业务完全没有数据积累，基准值只能靠猜测
-- 你只需要一个"大致不错"的估算，不需要精确到具体数字
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心观点 1：科学类比——为关键变量找到基准值
 
@@ -148,9 +148,9 @@ reviewed_by: 欧阳锋
 
 **何时需要共建：**
 
-- 投资人/合伙人对某个关键假设有疑问
-- 团队内部对某个数字存在分歧
-- 该数字对决策结果影响巨大（如"今年收入目标"）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **共建流程：**
 
@@ -158,9 +158,9 @@ reviewed_by: 欧阳锋
 2. **展示差异**：将所有人的数字写在白板上，看差异到底在哪里
 3. **追溯来源**：对于差异最大的数字，每个人说出自己的依据
 4. **解决方案**：
-   - 如果差异来自"数据来源不同" → 共同决定用哪个来源
-   - 如果差异来自"假设前提不同" → 各自做"三点预测"，看三点是否重叠
-   - 如果差异来自"利益立场不同" → 明确这个数字对决策的影响，做情景分析
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **形成共识**：不是要"求同存异"，而是要“明确记录分歧”：同意的部分用作基准情景，不同意的部分用作三点预测的区间
 
 ## 边界
@@ -207,14 +207,14 @@ reviewed_by: 欧阳锋
 
 ## 行动 Checklist
 
-- [ ] 已确认单元模型已建立，关键变量已列出
-- [ ] 已为每个关键变量标注至少一种来源（行业/对标/自身历史/专家）
-- [ ] 已对关键变量完成多源交叉验证，并记录差异原因
-- [ ] 已完成乐观/基准/悲观三点预测，且区间足够宽
-- [ ] 已在基准值旁标注类比条件（渠道、时间、地区、模式）
-- [ ] 已与利益相关方独立拿数、展示差异、追溯来源、形成共识
-- [ ] 已制定基准值复盘周期（建议月度/季度）
-- [ ] 已把共识写入基准情景，把分歧写入三点区间
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
@@ -236,9 +236,9 @@ Mauboussin 在《成功的宽度》中强调，很多企业的高利润率来自
 
 Tetlock 在《Expert Political Judgment》中对 284 位专家进行了 18 年的预测跟踪研究，发现"专家的预测不比大笼法"——这对单元模型基准值工具的挑战是深刻的：
 
-- **"科学类比"中的"专家估计"可能是最不可靠的源头**：Tetlock 发现，即使是领域内的顶尖专家，其预测准确率也很少能超过"简单的历史外推"。一堂教练给的"行业基准值"可能是基于他们的个人经验，而这种经验在快速变化的市场中可能已经过时。
-- **"三点预测"的置信区间往往过窄**：Tetlock 的"超级预测者"（superforecasters）研究表明，预测表现最好的人的共同特点是"不断定量化自己的不确定性"——即给出非常精确的置信区间（如 70%±5%），而非"乐观/基准/悲观"这种粗略的三分法。一堂的"三点预测"可能过于粗略，忽略了关键变量在"基准和悲观之间"的微妙差异。
-- **"基准值共建"可能是"集体迷思"**：Tetlock 的研究表明，集体讨论往往会压缩观点的多样性，影响决策质量。"共建"的目的是提升信任，但可能以牺牲准确性为代价。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务处于高度不确定性环境（如新兴技术、政策快速变化、竞争格局重构）时，任何基于"历史数据和专家经验"的基准值都可能过时。此时应该更依赖"快速实验"和"实时反馈"来调整单元模型。
 
@@ -248,18 +248,18 @@ Tetlock 在《Expert Political Judgment》中对 284 位专家进行了 18 年�
 
 Thaler 在《Misbehaving》中对"传统经济学"发起的挑战，对单元模型基准值工具的启示是：
 
-- **"基准值共建"可能被"锚定效应"污染**：Thaler 发现，第一个说出数字的人会"锚定"整个讨论的基准。在基准值共建中，如果创始人先报出了一个数字（即使是随机的），投资人的估计会不自觉地向这个数字靠拢。这意味着"共建"可能是"形式上的共同决策——实质上的单人锚定"。
-- **"三点预测"中的"悲观情景"可能被"现在偏误"削弱**：Thaler 的"现在偏误"（present bias）表明，人们往往过度重视当前信息。在做三点预测时，"基准情景"往往被当前的业务数据锚定，而"悲观情景"的构建可能因为"难以想象未来"而过于乐观。
-- **"行业平均值"可能是"样本比例不当的可获得性启发式"：**Thaler 的研究表明，人们天生会"就近偏好"——更依赖“手边的信息"而非“最好的信息"。用"行业平均值"作为基准可能是因为“容易获取”而非“最适合”，这是一种"可获得性启发式"认知偏差。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当决策者存在明显的利益偏好时（如创始人希望数字更好看以便融资），基准值共建可能变成"合理化偏好"的工具。此时应该引入“外部独立第三方数据”来冲击内部偏好。
 
 ### 内部局限
 
-- **"行业数据"在中国市场可能不充分或不可靠**：许多行业的公开数据存在样本偏差或过时问题。
-- **"专家估计"可能带有隐性利益**：一堂教练给的基准值可能是基于特定行业/阶段的，跨行业应用时需要验证。
-- **三点预测的"区间"缺少概率化**：只给出三个点而非连续概率分布，忽略了"在乐观和悲观之间的极大区间内可能发生什么"。
-- **基准值共建流程缺少"强制性诊觡机制"**：如果参与者不愿意透露真实估计，共建可能变成"表面共识"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -285,12 +285,12 @@ Thaler 在《Misbehaving》中对"传统经济学"发起的挑战，对单元模
 
 ## 相关卡/互链
 
-- [[yt-unit-model-construction]] —— 先建模，再找基准值；没有模型，基准值无从附着。
-- [[yt-unit-model-selection]] —— 选对关键单元，才能确定哪些变量需要找基准值。
-- [[yt-unit-model-dynamic]] —— 基准值确定后，下一步是用动态预测验证其可持续性。
-- [[yt-decision-y-model]] —— Y 模型验证业务假设是否成立，本工具验证数据假设是否合理。
-- [[yt-entrepreneur-five-step-method]] —— 一堂五步法的方法论语境，单元模型是其中"商业模式"环节的核心工具。
-- [[master-systems-thinking]] —— 系统思维帮助识别类比条件、边界与动态反馈。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Visual Analysis
 

@@ -3,8 +3,8 @@ type: framework
 id: yt-decision-abcd-model
 status: reviewed
 domain:
-  - yitang
-  - decision-science
+  - src_unknown
+  - src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
@@ -16,14 +16,14 @@ source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[yt-decision-width-method]]"
-  - "[[yt-decision-height-toolkit]]"
-  - "[[yt-decision-depth-ladder]]"
-  - "[[yt-decision-consensus-iceberg]]"
-  - "[[yt-decision-full-process]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[strategy-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 一堂·关键假设ABCD模型
@@ -60,11 +60,11 @@ ABCD模型是一堂假设思维体系的**四套框架/四套操作系统**之�
 
 **典型应用**：
 
-- 要不要进入新市场
+- src_unknown
 
-- 要不要融资/并购
+- src_unknown
 
-- 要不要关停某条业务线
+- src_unknown
 
 **决策特征**：成败问题，一旦错了代价极高
 
@@ -78,11 +78,11 @@ ABCD模型是一堂假设思维体系的**四套框架/四套操作系统**之�
 
 **典型应用**：
 
-- 三个候选方案选哪个
+- src_unknown
 
-- 关键人选用谁
+- src_unknown
 
-- 资源投向哪里
+- src_unknown
 
 **决策特征**：效率问题，追求最优解而非避免错误
 
@@ -96,11 +96,11 @@ ABCD模型是一堂假设思维体系的**四套框架/四套操作系统**之�
 
 **典型应用**：
 
-- 用户增长的核心驱动因子
+- src_unknown
 
-- 收入增长的关键杠杆
+- src_unknown
 
-- 规模化的约束条件
+- src_unknown
 
 **决策特征**：效率问题，寻找可复制的增长逻辑
 
@@ -114,11 +114,11 @@ ABCD模型是一堂假设思维体系的**四套框架/四套操作系统**之�
 
 **典型应用**：
 
-- 销售转化率优化
+- src_unknown
 
-- 用户激活率提升
+- src_unknown
 
-- 付费转化路径设计
+- src_unknown
 
 **决策特征**：效率问题，精细化运营的关键假设验证
 
@@ -158,11 +158,11 @@ Y模型（元框架）
 
 **本质统一性**：
 
-- 都是"用假设预测 → 用假设复盘 → 形成业务认知"的闭环
+- src_unknown
 
-- 都是将模糊直觉 → 展开为可讨论/可验证/可复盘的关键参数
+- src_unknown
 
-- 都是"做之前假设，做之后验证"的科学方法
+- src_unknown
 
 
 
@@ -204,13 +204,13 @@ Y模型（元框架）
 
 拿到一个业务问题，先用ABCD判断它属于哪种场景：
 
-- 生死问题 → A.商业场景 → 用Y模型全面评估
+- src_unknown
 
-- 选择问题 → B.决策场景 → 用ROI多维度比较
+- src_unknown
 
-- 增长问题 → C.增长场景 → 用业务公式拆解
+- src_unknown
 
-- 转化问题 → D.转化场景 → 用动力阻力触点分析
+- src_unknown
 
 
 
@@ -218,7 +218,7 @@ Y模型（元框架）
 
 同一个问题可以在不同场景间切换视角：
 
-- "要不要做抖音" → A场景（商业成败）→ B场景（三个平台选哪个）→ C场景（抖音增长公式）→ D场景（直播转化率优化）
+- src_unknown
 
 
 
@@ -226,9 +226,9 @@ Y模型（元框架）
 
 用ABCD统一团队语言：
 
-- "我们现在讨论的是A场景问题，不要跳到C场景的解决方案"
+- src_unknown
 
-- "这个决策需要从B场景下沉到D场景，找到具体触点"
+- src_unknown
 
 
 
@@ -258,17 +258,17 @@ Y模型（元框架）
 
 
 
-- [[yt-decision-y-model]]：ABCD的元框架，所有场景的统一原点
+- src_unknown
 
-- [[yt-decision-width-method]]：B场景（决策场景）的宽度分析工具
+- src_unknown
 
-- [[yt-decision-width-method]]：B场景的深度分析工具
+- src_unknown
 
-- [[yt-decision-width-method]]：B场景的高度分析工具
+- src_unknown
 
-- [[yt-decision-consensus-iceberg]]：B场景的共识深度工具（L1-L4）
+- src_unknown
 
-- [[yt-decision-ai-partner]]：A/B/C/D所有场景的ROI实操方法
+- src_unknown
 
 
 
@@ -294,11 +294,11 @@ Y模型（元框架）
 
 ### 口述稿补充的关键洞察
 
-- "顺序不重要，至少一个维度在脑子里"——ABCD不是流程，是工具箱
+- src_unknown
 
-- "这张图是第一次在核心模型上跟AIGC交叉验证"——ABCD模型经过多模型验证
+- src_unknown
 
-- "Y模型再升一个维度会看到ABCD"——ABCD是Y模型的升维展开
+- src_unknown
 
 
 
@@ -308,9 +308,9 @@ Y模型（元框架）
 
 ### 内部局限
 
-- **场景分类的"强制二分"风险**：ABCD 将商业问题强制归入四个象限，但真实业务问题往往是混合的——"要不要做抖音"同时涉及 A（商业成败）、B（平台选择）、C（增长公式）、D（直播转化）。强制分类可能导致"为了用框架而削足适履"，把混合问题硬塞进单一象限。
-- **"本质同源"的过度简化**：声称 Y 模型、五步法、转化率三要素"本质一模一样"，但这三种框架的展开维度、适用边界、验证方法差异显著。过度强调统一性可能掩盖各框架的特有盲区。
-- **场景切换的隐性成本**：ABCD 鼓励"跨场景迁移"（如 A→B→C→D），但每次切换都需要重新校准假设、重新定义参数、重新建立共识。在真实团队中，这种切换消耗的认知成本和时间成本被严重低估。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -318,9 +318,9 @@ Y模型（元框架）
 
 **Nassim Taleb**（《反脆弱》《黑天鹅》作者）对 ABCD 这类"场景分类框架"提出根本性质疑：
 
-- **分类本身创造脆弱性**：Taleb 论证，任何将连续光谱强制切分为离散类别的框架，都会在面对"边界案例"时失效。ABCD 的 2×2 矩阵假设四种场景是正交且完备的，但真实商业问题往往位于象限之间的"灰色地带"。当团队把"要不要做抖音"强行归类为 A 场景时，他们实际上是在用分类行为替代思考行为——"既然分类了，就不用再想了"。
-- **"操作系统隐喻"的误导性**：把 ABCD 比作"四套操作系统"暗示它们可以无缝切换，但 Taleb 会指出——不同框架之间的"切换成本"在复杂系统中往往是致命的。就像你不能在 Windows 和 Linux 之间实时切换而不丢失数据，你也不能在 A 场景的商业假设和 D 场景的转化假设之间随意跳转而不产生认知冲突。
-- **黑天鹅事件的不可分类性**：Taleb 的核心洞见是，最大的风险来自"不可预见"的事件。ABCD 框架假设所有问题都可以预先分类，但黑天鹅事件的本质就是"无法被现有分类容纳"。当疫情（A 场景）同时摧毁了你的转化路径（D 场景）时，ABCD 的矩阵无法帮助你——因为问题已经溢出了框架。
+- src_unknown
+- src_unknown
+- src_unknown
 
 对 ABCD 的直接挑战：框架给了团队"我们在讨论 A 场景"的安全感，但这种安全感可能是虚假的——真正重要的洞察往往来自"这个场景不属于任何一类"的识别能力。
 
@@ -328,9 +328,9 @@ Y模型（元框架）
 
 **Herbert Simon**（诺贝尔经济学奖得主，"有限理性"概念提出者）从认知科学角度补充质疑：
 
-- **分类决策的认知负荷**：Simon 证明，人类工作记忆只能同时处理 7±2 个信息组块。ABCD 框架要求决策者不仅要识别场景，还要记住每个场景对应的工具（Y 模型/五步法/转化率三要素）、展开维度、验证方法——这对工作记忆的要求已经超出了普通人的认知容量。
-- **" satisficing " vs "optimizing"**：Simon 区分了"满意即可"（satisficing）和"最优求解"（optimizing）。ABCD 框架隐含假设决策者应该追求"最优场景匹配"，但 Simon 的实验证明，在信息不完备和时间压力下，人类天然倾向于 satisficing——即选择一个"足够好"的分类而非"最准确"的分类。这意味着 ABCD 的理论优雅性在实际执行中会被系统性降级。
-- **框架依赖的锚定效应**：一旦决策者把问题归类为 A 场景，后续的所有分析都会被"商业成败"的透镜过滤，难以发现"这其实是个转化问题"的替代视角。Simon 会警告：ABCD 的"第一步分类"本身就构成了最强的认知锚定。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -370,14 +370,14 @@ Y模型（元框架）
 
 ## 质量门禁自评
 
-- [x] 反例具体性：孔源疫情降薪案例（A场景）、许同学信贷合作案例（B场景）、蔡行沙漠研学案例（A→B转换）
-- [x] 案例筛选：三个案例分别对应A/B场景，且均来自口述稿真实业务场景
-- [x] 跨域连接：已链接Y模型、五步法、转化率、宽度/深度/高度方法、共识曲线
-- [x] 视觉结构：五维分析完整覆盖（色彩/空间/层级/负形/隐喻）
-- [x] 理解门禁：定义→结构→关系→应用→盲区→关联的完整闭环
-- [x] 外部攻击：Taleb（反脆弱/分类脆弱性）、Simon（有限理性/认知负荷）
-- [x] 不要用的场景：3条（紧急决策、团队抵触、边界问题）
-- [x] Action Triggers：4条（含成功指标）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

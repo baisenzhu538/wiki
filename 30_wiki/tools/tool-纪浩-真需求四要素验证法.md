@@ -4,45 +4,45 @@ title: 技能：真需求四要素验证法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 tools_required:
-- 纸笔或文档
-- 具体场景描述
+- src_unknown
+- src_unknown
 prerequisite_skills: null
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[case-jh-yitang-vs-sqlhelper]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: Before状态描述模糊，说不出来解决前是什么样子
+- src_unknown
   lens: Before模糊
   follow_up: 必须用一句话说清楚解决前是什么样子，说不出来说明连问题现场都没看清
-- signal: After是'更好'而非'可观察'的变化
+- src_unknown
   lens: After不可验证
   follow_up: After必须有可量化或可视化的判断标准，模糊的'更好'无法验证效果
-- signal: 受益人是'未来用户'或'所有人'
+- src_unknown
   lens: 受益人虚化
   follow_up: 受益人必须是能命名的具体人，不能是'所有人'或'未来的用户'
-- signal: 可解性验证被'希望'替代
+- src_unknown
   lens: 可解性虚假
   follow_up: 因果链中每一环都需要具体的能力或资源支撑，'运气'或'希望'不算可解
-- signal: 新手觉得自己没资格做验证，不做判断盲目开干
+- src_unknown
   lens: 验证逃避
   follow_up: 新手的验证工具是假设、调研、访谈、问AI、做实验。不做验证就动手是赌博
 ---
@@ -91,9 +91,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- 纸笔和纸（强制用纸笔写出来，不要只在脑子里过）
-- 或者一个简短的文档/便签
-- 5-10分钟专注时间（不要在开会或打断时做）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -106,11 +106,11 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **Before状态描述模糊** → 结果是假需求被误当真需求 → **检查标准：能不能用一句话说清楚解决前是什么样子**
-- **After是"更好"而非"可观察"的变化** → 结果是无法验证效果 → **检查标准：After是否有可量化或可视化的判断标准**
-- **受益人是"未来用户"或"所有人"** → 结果是需求被无限放大 → **检查标准：受益人必须是能命名的具体人**
-- **可解性验证被"希望"替代** → 结果是方案做出来了但解决不了问题 → **检查标准：因果链中每一环都需要具体的能力或资源支撑**
-- **新手觉得自己没资格做验证** → 结果是不做判断盲目开干 → **检查标准：新手的验证工具是假设、调研、访谈、问AI、做实验**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -120,9 +120,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **四要素验证的前提是"能想象Before-After"。**如果你还在探索"我要做什么"的阶段，连解决前是什么样子都说不出来，四要素就无法运行
-- **真实锚点的检验需要你已经在现场。**如果你是从零开始创业的新手，没有现场可以锚定，四要素会告诉你"暂时不做"——但这不是解决方案，只是避免了错误
-- **可解性验证容易被自己高估。**人们天然倾向于相信自己能解决问题，这使得第五步的验证经常被"希望"污染
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -158,10 +158,10 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 四要素验证是纪浩五层体系的L1入口门禁，是整个体系的前提条件。没有四要素验证通过，后面的Workspace搭建和PDCA迭代都是在解决假需求
-- [[case-纪浩-from-zip-to-five-layers]] —— Skills市场案例展示了四要素在真实场景中的具体应用，特别是"真实锚点"如何防止需求无限放大
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] —— 四要素和PDCA的关系是"先判断，后动手"。四要素决定"是不是值得做"，PDCA决定"怎么做得更好"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
+- src_unknown

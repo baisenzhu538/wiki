@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-用户卡片-用户分层"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_38ddd826
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-用户卡片-用户分层"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-用户卡片-多视角思考]]'
-  - '[[ocr-泛产品设计-用户卡片-需求挖掘]]'
-  - '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-  - '[[ocr-泛产品设计-用户卡片-行业分析画布]]'
-  - '[[ocr-泛产品设计-用户卡片-场景推演]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-用户卡片-用户分层
@@ -36,34 +36,34 @@ png` 泛产品设计·用户卡片 用户分层 分层理解用户差异 永远�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 用户分层是泛产品设计的核心原则：永远不要将用户视为铁板一块，必须理解不同角色优先级对产品的差异化诉求。
-- 三种常见用户分层类型：按优先级（SABC分级）、按不同角色、按不同用户认知状态。
-- 用户分层适用于所有首次设计产品的场景，是需求分析的基础步骤。
-- 用户卡片作为工具，核心目的是"分层理解用户差异"，将抽象用户转化为可操作的分类结构。
-- 需求原点是用户分层的理论基础，可通过系统课程《重新理解「需求原点」》深化认知。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 三种分层类型（SABC优先级、角色、认知状态）之间是否存在互斥或组合关系？实际应用中应如何选择或叠加使用？
-- "所有第一次设计产品时"的适用场景界定模糊：是否包含产品重大改版或新功能模块设计？迭代阶段是否仍需重新分层？
-- SABC分级的具体标准未定义：是按用户价值、使用频率、付费能力还是其他维度划分？分级后各层对应的资源投入策略是否一致？
-- "用户认知状态"的分层维度缺乏可操作化定义：认知状态具体包含哪些阶段（如无意识/有意识/决策中/忠诚）？如何有效识别和测量？
-- 原文假设"一堂课即可解决"存在知识获取简化论倾向：是否忽视了组织落地中的变革阻力、数据获取困难等执行层面的障碍？
-- OCR质量提示"可能存在误识"但关键概念如"需求原点"未做二次校验：该理论框架是否被准确转述，是否存在概念漂移？
-- "用户卡片"作为工具的具体形态未说明：是物理卡片、数字模板还是分析框架？包含哪些必填字段和输出格式？
-- 分层结论与产品决策的衔接机制缺失：分层结果如何转化为功能优先级、运营策略或资源分配的具体规则？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **用户中心的单一视角：本卡片强调"用户视角"，但忽略了技术可行性、商业可持续性、组织执行力等其他关键维度。
-- **方法的普适性假设：卡片假设该方法适用于所有产品场景，但未提供边界条件或不适用场景的说明。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 不要用的场景
 
-- **颠覆性创新产品：完全基于现有用户反馈的设计可能阻碍突破性创新。
-- **技术驱动型产品（如AI基础设施）：用户可能完全无法想象技术能带来的新可能性。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-user-research — 用户研究的理论基础
-- yt-decision-product-innovation — 产品创新的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 新产品需求分析：用用户卡片快速理解目标用户
-- 现有产品优化：基于用户反馈迭代产品功能
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

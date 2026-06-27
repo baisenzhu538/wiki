@@ -3,7 +3,7 @@
 id: "ocr-婚礼规划"
 created_at: 2026-05-21
 domain:
-  - master
+  - src_unknown
 source_refs:
   - src_20260522_b29a6b98
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 婚礼规划"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-个人修炼-课程清单]]'
-  - '[[ocr-一堂-科学决策-项目方案评估三角形]]'
-  - '[[ocr-婚礼操盘-用户和场景]]'
-  - '[[ocr-一堂y模型steps策略集]]'
-  - '[[ocr-一堂转化率-10大容易浪费的触点]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 婚礼规划
@@ -37,35 +37,35 @@ png` 婚礼操盘：婚礼环节规划 传统方式 (郊区) 我们的设计 1.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 婚礼流程设计可采用"传统方式+个性化改造"的对比框架，在保留核心仪式结构的基础上注入个人叙事元素。
-- 开场环节可通过画外音替代纯司仪主持，创造更沉浸的叙事入口。
-- 新人介绍环节可嵌入具体恋爱时长等真实故事细节（如"7年恋爱故事"），替代通用俏皮话模板。
-- 誓词环节建议以原创誓词替换经典誓词，提升仪式独特性与情感真实性。
-- 父母感恩环节可用故事沙画替代传统敬酒见证，将单向致谢转化为可视化情感叙事。
-- 婚礼策划的核心决策原则：识别可标准化的仪式骨架（入场、誓词、礼成），在情感表达节点进行定制化替换。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原图中"传统方式 (郊区)"的具体含义是什么？"郊区"是指举办地点、风格定位，还是其他维度？
-- "我们的设计"中标注的"#"符号是否表示替换关系、叠加关系还是可选方案？需要结合原图确认视觉层级
-- 第4项"经典誓词-+"中的"-+"是OCR误识还是原图有特殊符号设计？这会影响对"原创誓词"替换逻辑的理解
-- 第6项"=》"符号是OCR误识还是原图箭头？故事沙画是替代敬酒见证还是与之并行？
-- "7年恋爱故事"是已确定的具体案例还是举例说明？该数字是否具有普适参考价值？
-- 视觉结构信息缺失是否导致"传统方式"与"我们的设计"的对应关系被误读？例如是否为左右对照表格而非上下列表
-- 备注提示"连字/误识"但未标注具体可疑位置，除已发现的"-+"和"=》"外，"彩砂"是否可能为"采砂"或其他词汇的误识
-- 提取知识中"可标准化的仪式骨架"包含5项，但原文第5项证婚人致辞和第7项倒香槟塔未被纳入，筛选标准是什么
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **场景特定性强：本卡片内容高度依赖于婚礼这一特定场景，其方法论的跨场景迁移性未被验证。
-- **情感因素未被量化：婚礼规划涉及大量情感决策，未被量化的情感因素可能导致方法论的不稳定性。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ Herbert Simon 会质疑：**婚礼规划中的"最优解"可能不存在，因�
 
 ### 不要用的场景
 
-- **商业项目的冷静分析：婚礼规划中的情感因素可能会干扰冷静的商业分析。
-- **跨文化婚礼规划：不同文化对婚礼的期待和仪式差异巨大，通用方法论可能不适用。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-user-research — 用户研究的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 婚礼规划：用本框架快速定位婚礼的关键要素
-- 活动策划：将婚礼规划方法迁移到其他大型活动策划
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

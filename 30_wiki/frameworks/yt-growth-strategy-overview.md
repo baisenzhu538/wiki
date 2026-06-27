@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-business-model-to-growth
-  - yt-growth-acquisition-channels
-  - yt-growth-retention-metrics
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'商业模式成立了，但增长上不去'"
+  - src_unknown
     framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
     follow_up_question: "你的增长策略是什么？获客、留存、变现的优化方向分别是什么？"
-  - signal: "用户说'增长就是烧钱买流量'"
+  - src_unknown
     framework_lens: 增长策略总纲——增长不是烧钱，而是优化增长飞轮
     follow_up_question: "你的增长飞轮是什么？每个环节的效率如何？有没有自增长机制？"
-  - signal: "用户说'我们先增长，再优化'"
+  - src_unknown
     framework_lens: 增长策略总纲——增长和优化需要同步，不是先后顺序
     follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - signal: "用户说'增长停滞了，不知道怎么办'"
+  - src_unknown
     framework_lens: 增长策略总纲——增长停滞需要诊断瓶颈环节
     follow_up_question: "你的增长瓶颈在哪个环节？获客、激活、留存、变现、推荐？"
-  - signal: "用户说'我们增长很快，但留不住用户'"
+  - src_unknown
     framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
     follow_up_question: "你的留存率是多少？用户流失的原因是什么？"
 
@@ -137,21 +137,21 @@ Plan（假设）→ Do（实验）→ Check（数据）→ Act（迭代）
 
 ## 行动触发器
 
-- 当商业模式成立时 → 设计增长策略
-- 当增长时 → 优化增长飞轮每个环节
-- 当增长停滞时 → 诊断瓶颈环节
-- 当增长过快时 → 检查能力边界
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-to-growth`：从商业模式到增长
-- `yt-growth-acquisition-channels`：获客渠道
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 增长黑客（Sean Ellis）
-- AARRR模型（Dave McClure）
+- src_unknown
+- src_unknown
+- src_unknown

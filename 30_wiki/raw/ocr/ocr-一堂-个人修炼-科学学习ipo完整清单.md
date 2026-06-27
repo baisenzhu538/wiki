@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-科学学习ipo完整清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_e139c9e9
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
-  - '[[yt-model-ipo-complete-checklist]]'
-  - '[[yt-model-ipo-learning-strategy]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-科学学习IPO完整清单
@@ -37,37 +37,37 @@ jpg` -堂科学学习IPO·完整清单 YitangScientificLearningIPOModel·Complet
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 科学学习IPO模型将学习分为输入(Input)、处理(Process)、输出(Output)三大模块，形成完整闭环。
-- 输入层强调多维学习：从案例中学（搞砸案例、最佳实践、开源案例）、从资料中学（情报调研、AI、读书）、从高手中学（专家访谈）、从实践中学（复盘）。
-- 处理层分三级递进：存储记忆（知识管理工具）、建立联系（深度思考）、动手建模（知识萃取），将碎片经验转化为核心资产。
-- 输出层设计六级刻意练习：简单提炼→专题笔记→复盘推演→分享他人→辩证讨论→立即实践，以教代学强化掌握。
-- 核心原则：执行力的上限不超过对最佳实践理解的下限；成功不可复制，但失败可以避免。
-- 复盘是经验转化为能力的关键节点——"做事只是积累经验，复盘才会成为高手"。
-- 基本功被定位为个人与组织的真正底牌，需拆解到可练习单元并配套落地武器库。
-- 费曼学习法贯穿输出设计：讲香课题、开放麦、翻转课堂均以"教"倒逼"学"的深度。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该模型声称覆盖"完整"学习闭环，但未明确说明如何验证各层级之间的转化效率——输入到处理、处理到输出的具体衡量指标是什么？
-- "人生红点"作为目标设定模块，其定义高度抽象（"长期渴望"），但缺乏判断红点是否选错或需要调整的纠偏机制与信号识别标准
-- 模型强调"最佳实践"与"搞砸案例"的输入价值，但未审视这些案例的来源筛选标准、行业适用边界及幸存者偏差问题
-- 处理层三级递进（存储→联系→建模）假设认知加工呈线性升级，但现实中专家与新手的信息处理模式差异（如直觉vs分析）未被纳入框架
-- 输出层六级设计密集依赖"一堂"自有服务（会员日报名、选课系统），需质疑：该框架是普适学习科学原理，还是主要服务于其课程销售转化路径？
-- "科学学习"一词贯穿全文，但模型未引用任何经同行评审的学习科学理论（如认知负荷理论、间隔重复、迁移学习等），其"科学性"的实证基础存疑
-- AI俱乐部定位为"用AI全面提速+全面提升解决问题的能力"，但"全面"的具体范围、AI能力的评估基准及与传统学习模块的替代/互补关系未界定
-- "IPO"模型的名称未被解释，是"Input-Process-Output"还是"首次公开募股"的隐喻？未明确这一点可能导致误解。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"科学学习"的定义未被论证：清单声称自己是"科学学习"的完整清单，但未提供任何实证研究来证明其"科学性"。
-- **清单的线性假设：清单将学习过程线性化为"输入→处理→输出"，但实际学习往往是非线性、循环性的。
-- **过度简化风险：清单可能让学习者误以为"按照清单做就能学好"，忽视了学习的复杂性和个体差异。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -81,20 +81,20 @@ Benedict Carey 在《如何学习》中证明：有效的学习往往是"混乱"
 
 ### 不要用的场景
 
-- **需要深度理解的学习（如数学、物理、编程）：这些学科需要大量的"应用"和"分析"，清单无法替代。
-- **创意型工作的学习（如艺术、写作）：这些领域的学习需要灵感和试错，清单的线性结构不适用。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-scientific-learning-ipo — 科学学习IPO模型的概念版本
-- [[yt-personal-deliberate-practice]] — 刻意练习是清单中"复盘反思"阶段的理论基础
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 学习计划制定：用清单快速检查自己的学习流程是否完整
-- 团队培训设计：根据清单设计培训模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

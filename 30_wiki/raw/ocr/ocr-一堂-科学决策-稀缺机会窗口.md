@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-稀缺机会窗口"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_7fb2b9c1
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-稀缺机会窗口"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-深度-l4-案例01]]'
-  - '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-稀缺机会窗口
@@ -41,29 +41,29 @@ png` 常见的稀缺机会窗口 1.
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 竞争窗口期是稀缺机会的一种类型，包括融资窗口和头部窗口期。
-- 资源窗口期是稀缺机会的一种类型，典型场景包括房租谈判和难得的合作机会。
-- 营销窗口期是稀缺机会的一种类型，常见时点包括法定假期和营销节日。
-- 流量窗口期是稀缺机会的一种类型，核心特征是平台或渠道的红利期。
-- 政策窗口期是稀缺机会的一种类型，表现为政策红利或短期政策带来的机会。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 为什么"头部窗口期"被归入"竞争窗口期"而非"流量窗口期"？头部效应与流量红利之间的边界如何界定？
-- "资源窗口期"中的"房租"具体指什么场景——是租金下降时的租赁窗口，还是租约到期前的谈判窗口？OCR识别的"房租，难得合作"是否存在断句歧义？
-- 营销窗口期与流量窗口期是否存在重叠？例如平台在营销节日推出的流量扶持政策，应如何归类？
-- 政策窗口期的"短期政策"是否有明确的时间阈值？如何区分可持续的政策红利与真正的稀缺窗口？
-- 这五类窗口期是否构成互斥且完备的集合？是否存在未被覆盖的类型，如技术窗口期、人才窗口期或危机反转窗口期？
-- 该分类框架是否适用于所有行业和组织阶段？B2B企业与消费互联网企业的窗口期类型是否有显著差异？
-- "融资窗口"被标注为"竞争窗口期"的子类，但融资行为本身也涉及政策环境和市场流动性，是否存在更合理的跨类别归属？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -81,30 +81,30 @@ Orwell 论证语言可以被用来掩盖真实。机会窗口这个术语本身�
 
 ### 与本库其他概念的关联
 
-- yt-decision-scarcity-window - 稀缺机会窗口
-- [[yt-decision-canvas]] - 同域决策画布
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 市场进入时机选择
-- 产品发布窗口决策
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将机会窗口当作唯一的决策框架
-- 不要将渐进式机会强行纳入突然机会模型
-- 不要用窗口术语美化自己的观望或焦虑
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在评估市场进入时机时用机会窗口框架
-- 従你发现自己在强行套用窗口模型时用Dennett视角检查
-- 従你在用窗口来描述市场机会时用Orwell视角检查是否在用术语美化观望
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

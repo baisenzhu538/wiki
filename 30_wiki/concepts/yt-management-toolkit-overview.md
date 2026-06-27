@@ -4,52 +4,52 @@
 
 id: yt-management-toolkit-overview
 component_of:
-- yt-model-management-map
+- src_unknown
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-  - management- yitang
+  - src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-- 管理工具
-- 管理者工具箱
-- 管团队用什么工具
-- 管业务用什么方法
-- 一号位管理工具
-- 管理基本功落地
-- 管理修炼工具
-- 管理场景速查
-- 什么时候用什么管理工具
-- 管理问题诊断
-- 管理工具地图
-- 管理方法论落地
-- 团队管理实操
-- 管理者武器库
-- 管理效率工具
-- 管理实操指南
-- 管理者 checklist
-- 管理工具选择
-- 管理场景对应工具
-- 管理基本功工具化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown地图
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown选择
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-management-goal-management]]'
-  - '[[ocr-一堂-地图-管理地图]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-model-management-map]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-hiring-scorecard]]'
-  - '[[yt-tool-okr-cycle]]'
-  - '[[yt-tool-strategy-workshop]]'
-  - '[[yt-tool-knowledge-extraction]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-tool-onboarding-90day]]'
-  - '[[yt-tool-equity-checklist]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-model-y-organization]]'
-  - '[[dk-yb9-cubox-deployment-failure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -63,12 +63,12 @@ yitang:
   course_type: framework
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 管理者什么工具都用，但什么场景都不深
+- src_unknown
   framework_lens: 工具泛化
   follow_up_question: 你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛
-- signal: 管理者不知道当前问题该用什么工具
+- src_unknown
   framework_lens: 工具选择困难
   follow_up_question: 你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具
 updated_at: '2026-06-16'
@@ -175,9 +175,9 @@ Mintzberg 的批判有三层：
 **Jeffrey Pfeffer**（Stanford GSB，"Leadership BS"作者）对领导力培训产业的经验批评构成了第二道攻击。Pfeffer 在《Leadership BS》(2015) 中系统记录了管理工具/培训项目的失败模式：它们设计精良、体验良好、参与者满意度高——但几乎不产生实际行为改变。
 
 Pfeffer 的数据：
-- 参与过结构化面试培训的管理者，6 个月后面试行为与未培训组无显著差异
-- 接受过"高效会议"培训的经理，会议时间平均只减少了 3%——且很快反弹
-- 引入 OKR 的公司中，超过 60% 在 18 个月内将其降级为"形式化填报"
+- src_unknown
+- src_unknown
+- src_unknown
 
 Pfeffer 的核心洞见：**管理工具的"科学感"本身就是一种安慰剂**。当你拿着 T2 的打分卡面试候选人时，你感受到的"我在科学评估"的确定性——与候选人实际绩效的预测准确度之间——没有可靠的相关性。工具卡让你感觉更好，但感觉更好不等于做得更好。
 
@@ -185,9 +185,9 @@ Pfeffer 的核心洞见：**管理工具的"科学感"本身就是一种安慰�
 
 ### 内部局限
 
-- **工具之间的依赖被隐藏**：虽然每张 tool 卡声称"可独立使用"，但真实管理中 T1（会议设计）和 T3（OKR 周期）高度耦合——OKR 复盘会是最高频的会议类型之一。工具卡之间的交互效应未在单卡层面说明。
-- **"渐进嵌入"原则的执行门槛被低估**：管理者读"先用最小可行版本"时，往往不知道"最小"在哪里。每张 tool 卡需要更明确的"第一次使用只做这 3 步"指引。
-- **缺乏工具效果的自我校验机制**：工具卡告诉用户"怎么做"，但没有告诉用户"怎么判断这个工具对你是否有效"。需要配套"工具使用 ROI 自检"——但那就变成第 9 张工具卡了。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

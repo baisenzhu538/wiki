@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-fake-demand-detection
 title: 伪需求识别：7个危险信号
@@ -18,31 +18,31 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-hierarchy-model
-  - yt-demand-qualitative-analysis
-  - yt-demand-jtbd-application
-  - yt-demand-market-size-pitfalls
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'挺好的，但我不需要'"
+  - src_unknown
     framework_lens: 伪需求信号1——兴趣≠需求
     follow_up_question: "用户说'不需要'时，是现在不需要，还是永远不需要？有没有替代方案？"
-  - signal: "用户说'想要'，但问'愿意付多少钱'时沉默"
+  - src_unknown
     framework_lens: 伪需求信号2——口头需求≠付费意愿
     follow_up_question: "如果明天这个产品上线，用户会立刻付费吗？如果不会，阻碍是什么？"
-  - signal: "创始人说'我就是用户，我懂'"
+  - src_unknown
     framework_lens: 伪需求信号3——自我投射≠用户真实需求
     follow_up_question: "创始人之外，至少访谈了10个真实用户吗？有没有和创始人假设相反的证据？"
-  - signal: "竞品做了，我们也得做"
+  - src_unknown
     framework_lens: 伪需求信号4——竞品驱动≠需求验证
     follow_up_question: "竞品的这个功能服务的是他们的核心用户，还是边缘功能？你的用户有同样的需求吗？"
-  - signal: "技术团队说'我们能做，所以做了'"
+  - src_unknown
     framework_lens: 伪需求信号5——技术能力≠用户需求
     follow_up_question: "这个功能解决的是用户的什么问题？不用这个功能，用户现在怎么解决？"
-  - signal: "调研报告显示'市场很大'，但找不到付费用户"
+  - src_unknown
     framework_lens: 伪需求信号6——报告数据≠真实需求
     follow_up_question: "报告中的'需求'是用户自述的，还是行为数据验证的？"
-  - signal: "用户活跃度低，但问卷满意度很高"
+  - src_unknown
     framework_lens: 伪需求信号7——满意度≠使用意愿
     follow_up_question: "用户说满意，但为什么不用？是场景不匹配，还是替代方案更好？"
 
@@ -70,9 +70,9 @@ diagnostic_signals:
 
 伪需求的核心特征：**用户有动机，但无行动**。
 
-- 用户"想要"（wish）≠ 用户"需要"（need）
-- 用户"感兴趣"（interest）≠ 用户"会付费"（pay）
-- 用户"说满意"（satisfaction）≠ 用户"会使用"（usage）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. 伪需求的产生机制
 
@@ -88,10 +88,10 @@ diagnostic_signals:
 
 不是问"你想要什么"，而是：
 
-- **行为验证**：用户现在是否在花钱/花时间解决这个问题？
-- **付费验证**：用户是否愿意为解决方案付费？付多少？
-- **场景验证**：用户能否描述使用这个产品的具体场景？
-- **替代验证**：如果不用这个产品，用户现在怎么解决？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 从伪需求到真需求
 
@@ -125,21 +125,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当用户说"想要"时 → 问"如果现在没有，你会怎么解决？"
-- 当做用户访谈时 → 至少访谈10个，寻找说"不需要"的用户 |
-- 当团队达成共识时 → 主动寻找反例，证明自己是错的 |
-- 当考虑新增功能时 → 做"需求减法测试"：去掉这个功能，用户会流失吗？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-hierarchy-model`：需求层次模型（真/伪/衍生）
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-jtbd-application`：JTBD需求分析实战应用
-- `yt-demand-market-size-pitfalls`：市场规模估算的5个陷阱
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂案例大爆炸：30%-50%失败标签贴在第一列
-- 一堂线下私董会伪需求案例
+- src_unknown
+- src_unknown
+- src_unknown

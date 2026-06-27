@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-宽度-企业"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_b4ebba42
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-宽度-企业"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
-  - '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
-  - '[[dk-modeling-radar-model-not-result]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-宽度-企业
@@ -41,29 +41,29 @@ png` 一堂科学決策宽度·企业篇 堂 TheBreadthofScientificDecision:Ente
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 科学决策的"宽度"分析需同时审视价值盲区与成本盲区，避免单边评估。
-- 常见价值盲区包括：行业竞争力、文化价值观、品牌获客、政府关系、竞争压制、第二曲线探索、招聘影响力。
-- 常见成本盲区包括：CEO时间占用、合伙人高管精力、组织升级成本、潜在品牌风险、合作方信任度、法务合规成本、资金占用成本、现金流风险。
-- 企业三大核心决策场景：公司重大战略选项、业务线取舍、单元商业模型评估。
-- 决策框架强调：重大选择必须系统性地枚举隐性收益与隐性代价，而非仅看显性财务指标。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 价值盲区与成本盲区的列举是否存在系统性遗漏？例如未包含"员工士气/流失率""技术债务""数据资产积累"等常见隐性因素，是基于特定行业假设还是框架本身的不完备？
-- "压迫竞争对手"被列为价值盲区，但该行为是否可能同时产生反噬成本（如引发价格战、监管审查），这种价值-成本的交互作用为何未在框架中体现？
-- 三大决策场景的划分标准不明确："定战略"与"业务线取舍"的边界模糊，单元模型评估（估商业）与前两者的层级关系未说明，是否存在场景覆盖不全（如投融资决策、并购退出）？
-- 框架主张"系统性枚举隐性因素"，但未提供具体的枚举方法论或优先级排序规则，如何避免清单过长导致决策瘫痪？
-- "坚持只做必修课"的课程定位与科学决策框架之间存在何种逻辑关联？该营销话术是否暗示框架存在适用门槛或前置知识要求？
-- OCR备注提示"视觉结构信息未体现"，原图中的布局关系（如价值/成本是否呈对照矩阵、决策场景是否有流程指向）可能改变知识解读，当前提取是否扭曲了原意？
-- 价值盲区中的"提升政府关系"与成本盲区中的"法务合规成本"是否存在概念重叠或因果混淆——政府关系投入本身即可能构成合规风险？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -81,30 +81,30 @@ Orwell 在《1984》中论证，语言可以被用来掩盖真实。案例中“
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-width-method]] — 宽度决策方法，企业篇是其在组织层面的具体展开
-- [[yt-entrepreneur-opportunity-selection]] — 创业机会选择，企业级别的盲区分析与之互补
-- [[master-decision-hygiene]] — 通用决策卫生，提醒清单化策略分析的局限
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 企业级战略投资决策：用企业级盲区清单确保策略讨论不遗漏关键因素
-- 组织升级/变革决策：用 March 视角检查是否在用清单化策略探索
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将企业级的盲区清单当作策略决策的"全部”，策略是形成中的而非清单化的
-- 不要简单地将"CEO 时间”标记为成本，在某些决策中它可能是最大价值
-- 不要在缺乏组织具体情境时套用清单，盲区的重要性因组织而异
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在做重大战略投资决策时，用企业级盲区清单确保没有遗漏隐性成本
-- 従你的策略讨论变成"列盲区清单”时，用 March 的“策略是形成中的”视角重新聚焦
-- 従你在评估“管理层参与成本”时，用 Orwell 的“语言政治”视角检查是否在偏好性地将高层时间标记为仅仅是成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

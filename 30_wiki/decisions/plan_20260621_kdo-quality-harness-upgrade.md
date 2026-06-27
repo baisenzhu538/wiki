@@ -4,8 +4,8 @@ title: KDO 质量体系升级——Harness Engineering 三原则落地
 type: improvement-plan
 status: active
 domain:
-  - master
-  - kdo
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/Harness Engineering：让 AI 像团队一样写出生产级代码.md
   - 60_feedback/diagnosis/diag_20260621_Harness Engineering文档诊断.md
@@ -17,11 +17,11 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[concept-harness-cattle-not-pets]]"
-  - "[[concept-harness-scoring-anchors]]"
-  - "[[tool-harness-adversarial-tester]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # KDO 质量体系升级——Harness Engineering 三原则落地
@@ -51,9 +51,9 @@ Generator(老顽童) 产出卡片
 ```
 
 ### 实现
-- `90_control/scripts/adversarial-card-review.py` — 对抗评审脚本，用不同 prompt 从攻击者视角审卡
-- 更新 `kcard-quality-gate.py` — 增加"四路评审全部通过"的 BLOCKING 检查
-- 更新 `startup.md` — 老顽童产卡后强制跑四路评审
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：supplement 卡绕过管线
 `framework-yitang-research-weapon-supplement-2026.md` 直接写入 `30_wiki/`，跳过了诊断→审核管线。四路并行评审会在此卡入库前就拦截。
@@ -79,14 +79,14 @@ Generator(老顽童) 产出卡片
 **"取较低值"规则**：多路评审中，最终分数 = min(各路分数)。不允许高分"冲平"低分——短木板决定木桶容量。
 
 **通过门槛**：
-- 任何维度不低于 2 分
-- 最终分数 ≥ 3 分（取各路评审的较低值）
-- 零个 CRITICAL 级对抗发现
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 实现
-- `90_control/schemas/scoring-anchors.yaml` — 锚点评分标准定义
-- 更新 `kcard-quality-gate.py` — 支持锚定评分输出 + "取较低值"逻辑
-- 现有 confidence 字段保留（向后兼容），新增 `score_anchored` 字段
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -106,9 +106,9 @@ Generator(老顽童) 产出卡片
 | **管线闸门** | 卡片 status 从 `draft` → `enriched` 前，必须有非 author 的 `reviewed_by` |
 
 ### 实现
-- 更新 `kdo_lint.py` — 新增 `author == reviewed_by` 检测（P0 BLOCKING）
-- 更新 `startup.md` — 写入"写审分离"铁律
-- 更新各 Agent context — 产卡 Agent 的最后一步是"提交审查"，不是"标记完成"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

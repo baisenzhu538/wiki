@@ -7,27 +7,27 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 1821
 language: zh-CN
 query_triggers:
-- 调研认知
-- 创业调研方法
-- 调研黑客
-- 调研武器库
-- OSCAR框架
-- 行业调研
-- 用户访谈技巧
-- 专家访谈方法
-- 竞争情报搜集
-- 上市报告分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-entrepreneur-fundraising]]'
-  - '[[yt-entrepreneur-pragmatic-startup]]'
-  - '[[yt-entrepreneur-channel-exploration]]'
-  - '[[yt-entrepreneur-industrial-production]]'
-  - '[[yt-entrepreneur-growth-flywheel]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -44,12 +44,12 @@ yitang:
   course_type: method
   level: core
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户用AI做了一堆调研，但结论不可靠
+- src_unknown
   framework_lens: AI工具强但调研认知弱
   follow_up_question: 这些结论中，哪些经过了至少两个独立来源的交叉验证？
-- signal: 用户只收集信息，不形成洞察
+- src_unknown
   framework_lens: 调研≠信息收集
   follow_up_question: 你收集的信息中，有多少转化为了可指导决策的洞察？
 updated_at: '2026-06-16'
@@ -73,9 +73,9 @@ author: 老顽童
 
 ### 关键概念
 
-- 本课程属于一堂「起盘阶段」模块，与同模块其他课程形成系统化的知识结构
-- 一堂课程强调「科学创业」方法论——用假设驱动、实验验证、数据决策替代经验主义和拍脑袋
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -94,7 +94,7 @@ author: 老顽童
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-entrepreneur-map]]
+- src_unknown
 
 ## Constraints & Boundaries
 

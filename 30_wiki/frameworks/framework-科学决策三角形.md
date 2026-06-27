@@ -10,23 +10,23 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
-  - '[[concept-稀缺机会窗口]]'
-  - '[[tool-ROI决策评估画布]]'
-  - '[[yt-decision-height-toolkit]]'
-  - '[[tool-科学决策关键训练清单]]'
-  - '[[framework-单元模型-外部对抗地图]]'
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-decision-y-model]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 科学决策三角形
@@ -81,8 +81,8 @@ related:
 
 ## 与已有框架的关系
 
-- **[[yt-decision-y-model]]**：Y模型提供成本/收益/时间/空间四个维度的分析框架，决策三角形是Y模型的「执行层」——告诉你具体怎么算。
-- **[[tool-ROI决策评估画布]]**：画布是决策三角形的填空工具——宽度填收益/成本，高度填长期/公司/机会/时间，深度决定每项填多精确。
+- src_unknown
+- src_unknown
 
 ## Critique
 

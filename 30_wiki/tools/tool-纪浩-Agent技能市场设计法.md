@@ -4,8 +4,8 @@ title: 技能：Agent技能市场设计法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
@@ -13,38 +13,38 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 tools_required:
-- Web平台或内部系统
-- Skill封装规范
+- src_unknown
+- src_unknown
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 设计成人用的应用商店，Agent无法自动消费
+- src_unknown
   lens: 人Agent混淆
   follow_up: 平台必须提供给Agent的API接口，不是给人的UI。Agent能自动搜索、下载、安装、上报
-- signal: 分类是为了人好看，Agent在大量Skill中盲目搜索
+- src_unknown
   lens: 分类错配
   follow_up: 分类基于任务类型和能力范围，不是品牌或场景。目的是路由不是导航
-- signal: 人填写Skill信息，结果不规范不完整
+- src_unknown
   lens: 信息人工化
   follow_up: 让人用自然语言告诉AI需求，AI自动生成标准化的Skill描述和元信息
-- signal: 没有反馈闭环，维护者不知道Skill真实使用情况
+- src_unknown
   lens: 反馈缺失
   follow_up: Agent使用后自动上报效果数据，维护者通过反馈判断质量，决定更新或下架
-- signal: 团队只有1-2个Agent和3-5个Skill，不是市场是共享文件夹
+- src_unknown
   lens: 市场幻觉
   follow_up: 真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹
 ---
@@ -93,9 +93,9 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- Web服务或内部系统（提供API接口）
-- Skill封装规范（定义Skill的结构、元数据、版本控制）
-- Agent自动化框架（支持自动下载、安装、上报）
+- src_unknown
+- src_unknown（定义Skill的结构、元数据、版本控制）
+- src_unknown
 
 ## 判断标准
 
@@ -108,10 +108,10 @@ diagnostic_signals:
 
 ## 常见失败模式
 
-- **设计成人用的"应用商店"**——结果是Agent无法自动消费，人还得手动管理 → **检查标准：平台是否提供给Agent的API接口**
-- **分类是为了人好看**——结果是Agent在大量Skill中盲目搜索，命中率低 → **检查标准：分类是否基于任务类型和能力范围，而不是品牌或场景**
-- **人填写Skill信息**——结果是信息不规范、不完整，Agent无法理解 → **检查标准：Skill描述是否由AI根据人的自然语言输入自动生成**
-- **没有反馈闭环**——结果是维护者不知道Skill的真实使用情况，无法持续优化 → **检查标准：Agent使用后是否自动上报效果数据**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -121,9 +121,9 @@ diagnostic_signals:
 
 ### 内部局限
 
-- **需要一定的技术基础设施。**Skills市场不是一个文档夹或表格能解决的，需要API、数据库、自动化框架。小团队可能觉得成本过高
-- **Agent的能力边界不确定。**"让Agent自己下载安装"假设了Agent有足够的能力。如果Agent连自己的工具都管不好，这个设计就是建空楼阁
-- **安全和审计问题。**Agent自动下载和安装意味着自动执行代码，如果Skill来源不可靠，风险很大
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -159,10 +159,10 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— Skills市场是纪浩五层体系的L5，是规模复用的基础设施。前四层都是为了让L5有东西可以封装和复用
-- [[case-纪浩-from-zip-to-five-layers]] —— 纪浩团队的Skills市场是从微信传zip的痛点中长出来的，是一个典型的Agent-facing设计
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] —— Skill本身是用Do-first PDCA迭代出来的，市场只是让这个迭代成果能被复用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
+- src_unknown

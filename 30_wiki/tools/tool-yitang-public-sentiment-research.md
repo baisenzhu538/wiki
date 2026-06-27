@@ -13,29 +13,29 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 舆情
-- 口碑
-- 评论分析
-- 差评分析
-- 好评分析
-- 用户反馈
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[yt-panproduct-demand-motivation-resistance]]'
-  - '[[tool-yitang-social-media-monitoring]]'
-  - '[[tool-yitang-review-analysis]]'
-  - '[[tool-yitang-supply-chain-research]]'
-  - '[[yt-management-conversion-hacking]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[tool-yitang-consumer-goods-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 舆情/口碑批量收集：好评决定内核，差评决定机会
@@ -49,8 +49,8 @@ related:
 "好评决定了内核，差评决定了机会。当你看到成批量的好评出现时，这就是产品的内核。当你看到成批量的差评指向同一个问题时，这就是你的切入机会。"
 
 **口碑收集 vs 直接访谈**：
-- 直接访谈：一对一，深度但慢，样本量小
-- 口碑收集：批量抓取，可以有统计意义，速度快
+- src_unknown
+- src_unknown收集：批量抓取，可以有统计意义，速度快
 
 ---
 
@@ -74,9 +74,9 @@ related:
 3. 按问题类型分类（产品质量/服务/价格/物流/...）
 
 **AI辅助方式（大规模）**：
-- 用DeepSeek/飞书等工具批量抓取商品评论或社交媒体内容
-- 让AI做关键词提取和情感分类
-- 输出：高频差评词云、问题分布比例、竞品好评关键词
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 实战案例：一堂有同学用DeepSeek+飞书，批量抓取目标品类全网评论，用AI做"好评vs差评"关键词分析，找到了一个新选品方向，完成了几倍的增长。
 
@@ -114,8 +114,8 @@ related:
 
 ## 来源
 
-- 框架来源：一堂调研武器库培训课程，三端调研中的用户端方法论，`一堂-调研武器库培训-口述.txt`
-- AI批量抓取案例：学员实战案例（DeepSeek+飞书选品），`一堂-调研武器库培训-口述.txt`
+- src_unknown
+- src_unknown
 
 ---
 

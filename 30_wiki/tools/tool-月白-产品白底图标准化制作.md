@@ -4,32 +4,32 @@ title: 技能：产品白底图标准化制作
 type: tool
 status: draft
 domain:
-- design- design
+- src_unknown
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_unknown
 wiki_refs: null
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- confidence-draft
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC产品白底图制作]]'
-- '[[tool-月白-口喷作图工作流]]'
-- '[[tool-月白-80分效率设计策略]]'
-- '[[tool-月白-AIGC设计作业复盘法]]'
-- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：产品白底图标准化制作
 
@@ -46,26 +46,26 @@ related:
 
 ## 适用场景
 
-- 电商公司有产品需要设计时
-- 建立设计素材体系时
-- 团队协作需要统一素材标准时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 人像类设计项目
-- 纯抽象概念设计
-- 已有完整3D模型可直接渲染时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AI抠图/背景移除工具
-- 产品摄影设备
-- 图像处理软件
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -73,12 +73,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 月白，文创案例
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

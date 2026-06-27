@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-signup-statistics]]'
-  - '[[dk-yitang-cross-case-pattern-failure-premium]]'
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-shareholder-analysis]]'
-  - '[[tool-yitang-court-record-search]]'
-  - "[[tool-yitang-weapon-public-official-info]]"
-  - "[[tool-yitang-social-media-monitoring]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 新闻媒体监控
@@ -29,10 +29,10 @@ related:
 > 36氪/创业邦/投中网/虎嗅——创投媒体的报道是竞对公关策略的窗口。
 
 **监控维度**：
-- **报道频率变化**：突然密集报道=可能在融资/推新品/造势
-- **报道角度变化**：从"产品驱动"切换到"规模驱动"=战略重心转移
-- **负面报道**：被什么媒体、什么角度质疑？
-- **友商/合作伙伴的讨论**：行业圈子里怎么评价
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：媒体报道=竞对想让世界看到的样子。反过来读——他们强调的=他们的叙事，他们回应的=他们的焦虑。
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-canvas
-  - yt-product-kernel-validation
-  - yt-product-kernel-key-conversion
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'产品很好'，但说不出具体指标"
+  - src_unknown
     framework_lens: 产品内核指标——缺乏数据验证体系
     follow_up_question: "你的产品内核对应的关键指标是什么？当前数值是多少？"
-  - signal: "用户关注 vanity metrics（如总用户数），忽视核心指标"
+  - src_unknown
     framework_lens: 产品内核指标——虚荣指标≠核心指标
     follow_up_question: "总用户数增长，但关键转化率下降，说明什么？"
-  - signal: "用户有指标，但指标和产品内核不对应"
+  - src_unknown
     framework_lens: 产品内核指标——指标必须服务内核验证
     follow_up_question: "这个指标的变化，能说明内核假设是否成立吗？"
-  - signal: "用户指标太多，无法聚焦"
+  - src_unknown
     framework_lens: 产品内核指标——指标过多导致注意力分散
     follow_up_question: "如果只能看3个指标，你会选哪3个？为什么？"
-  - signal: "用户指标没有基准和目标，无法判断好坏"
+  - src_unknown
     framework_lens: 产品内核指标——需要基准和目标
     follow_up_question: "这个指标的基准值是多少？目标值是多少？差距原因是什么？"
 
@@ -91,18 +91,18 @@ diagnostic_signals:
 
 每个指标需要：
 
-- **基准值**：当前值是多少？
-- **目标值**：改进后的目标值是多少？
-- **行业标杆**：同行优秀值是多少？
-- **差距分析**：差距原因是什么？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 指标的聚焦原则
 
 不是看所有指标，而是聚焦关键指标：
 
-- **阶段1（验证期）**：聚焦关键转化率、激活率
-- **阶段2（增长期）**：聚焦CAC、付费转化率
-- **阶段3（成熟期）**：聚焦复购率、NPS、流失率
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -126,21 +126,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 同时定义验证指标
-- 当产品上线时 → 建立指标监测机制
-- 当指标异常时 → 分析原因，采取行动
-- 当迭代产品时 → 基于指标数据决策
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-validation`：产品内核验证三维度
-- `yt-product-kernel-key-conversion`：关键转化率
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核十大典型指标（Truman，2026-05-10）
-- 一堂产品内核系列课
-- 一堂五步法产品内核指标
+- src_unknown
+- src_unknown
+- src_unknown

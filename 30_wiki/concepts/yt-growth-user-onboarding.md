@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-activation-rate
-  - yt-growth-retention-metrics
-  - yt-growth-engagement-loop
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'用户注册后就走了，没有激活'"
+  - src_unknown
     framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
     follow_up_question: "你的onboarding流程是什么？用户注册后看到什么？能否在3分钟内体验到价值？"
-  - signal: "用户说'我们的onboarding太长，用户不耐烦'"
+  - src_unknown
     framework_lens: 用户onboarding——onboarding需要简洁，突出核心价值
     follow_up_question: "你的onboarding有几步？能不能合并或跳过？核心价值是否前置？"
-  - signal: "用户说'用户不知道怎么用我们的产品'"
+  - src_unknown
     framework_lens: 用户onboarding——onboarding需要引导用户到核心功能
     follow_up_question: "你的产品核心功能是什么？onboarding是否引导用户到核心功能？"
-  - signal: "用户说'我们做了引导，但用户跳过'"
+  - src_unknown
     framework_lens: 用户onboarding——引导需要设计，不能强制，要让用户愿意完成
     follow_up_question: "你的引导是否可跳过？用户为什么跳过？引导内容是否有趣/有价值？"
-  - signal: "用户说'用户onboarding完成了，但很快就不用了'"
+  - src_unknown
     framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
     follow_up_question: "onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？"
 
@@ -136,21 +136,21 @@ onboarding的核心目标：
 
 ## 行动触发器
 
-- 当注册多但激活少时 → 优化onboarding
-- 当onboarding太长时 → 缩短
-- 当用户跳过引导时 → 设计有趣的引导
-- 当onboarding后流失时 → 设计持续价值
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-activation-rate`：激活率
-- `yt-growth-retention-metrics`：留存指标
-- `yt-growth-engagement-loop`：参与循环
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 用户onboarding研究
-- 产品体验设计实践
+- src_unknown
+- src_unknown
+- src_unknown

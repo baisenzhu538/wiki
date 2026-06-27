@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 created_at: 2026-05-05
 domain:
-  - research- yitang
+  - src_unknown
 yitang:
   map: entrepreneur
   module: 调研方法论
@@ -23,18 +23,18 @@ reviewed_by: 黄药师
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
-  - '[[concept-问题驱动式深度思考笔记]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 会根据信息价值匹配调研投入力度
+- src_unknown
   framework_lens: 投入与价值匹配
   follow_up_question: 这条信息值多少钱？你愿意花多少成本获取？
-- signal: 会组合使用产品体验、用户访谈、公开数据、专家、财报等多种手段
+- src_unknown
   framework_lens: 情报获取需要组合拳
   follow_up_question: 你已经穷尽了多少个情报节点？
-- signal: 对非常规手段会评估法律和道德边界
+- src_unknown
   framework_lens: 调研有合规红线
   follow_up_question: 这个手段如果公开，是否会损害信任或触犯规则？
 updated_at: '2026-06-16'
@@ -57,20 +57,20 @@ trust_level: high
 ### 失败模式
 
 1. **浅尝辄止，还没穷尽常规手段就说找不到信息**
-   - **原因**：投入不足
-   - **修复**：对照情报地图检查每个节点是否已尝试
+   - src_unknown
+   - src_unknown
 
 2. **过度依赖非常规手段，损害品牌信任**
-   - **原因**：伦理失控
-   - **修复**：建立合规检查清单，非常规手段需多人审批
+   - src_unknown
+   - src_unknown
 
 3. **只收集信息不验证，来源可信度未知**
-   - **原因**：情报质量缺失
-   - **修复**：关键信息必须通过至少两个独立来源验证
+   - src_unknown
+   - src_unknown
 
 4. **调研投入远超信息价值**
-   - **原因**：成本失衡
-   - **修复**：调研前估算信息对决策的价值上限
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -78,28 +78,28 @@ trust_level: high
 
 ## Source Refs
 
-- 10_raw/sources/src_20260506_bb9048a6-第一个举手.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 调研能力分三个阶段：有基础体感（60分）、掌握体系化工作方法（70分）、精通获取信息的技巧（80分），需逐级提升。
-- 调研最致命的误区是闭门造车、盲目自信，必须主动向外寻找情报，避免以自我为中心。
-- 完整的商业调查框架可归纳为“三端+内部+外部”七个节点：产品端、用户端、合作方、公司内部人脉、公开信息、外部专家、第三方数据库，共对应18个核心执行策略。
-- 产品本身是信息最密集的节点，直接深度体验、逆向拆解或蹲点统计是必做的基础动作，所有答案都藏在业务现场。
-- 当常规手段失效时，合法地运用社会工程学思路（如扮演客户、供应商等身份）往往能低成本获取关键信息，演技与信任是核心。
-- 上市公司的财报与招股书是行业内质量最高、免费的“教材”，详细呈现商业模式、成本结构、增长驱动因素等核心认知。
-- 招聘信息是侦察竞品动态的高效途径：通过分析岗位方向、数量变化可推断其技术路线、业务转型或融资进展。
-- 调研的投入力度必须与信息价值匹配：若信息价值百万，就应投入十万级别的精力与成本，穷尽手段而不是浅尝辄止。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 三阶段评分模型（60/70/80分）依赖主观判断，缺少可操作的量化指标，如何在实践中准确评估团队当前的调研能力层级？
-- 课程强调“三端+内部+外部”为通用框架，但To B和To C、实物产品与服务产品在信息节点上差异巨大，框架的适应性边界和典型变异形式未被说明。
-- 社会工程学手段（如伪装身份获取信息）的合法与道德边界仅以“不违法”一笔带过，在缺乏具体法律指引的情况下，从业者应如何建立可操作的合规红线？
-- 提倡“穷尽手段”，但未提供调研成本与决策价值的权衡框架，什么情况下应当停止继续投入，以避免过度调研？
-- 财报和招股书被推崇为核心信源，但未系统讨论其滞后性、选择性披露及财务造假风险，仅凭公开财务文件如何建立有效的交叉验证机制？
-- 大量案例来自学员作业并已脱敏，课程结论高度依赖轶事证据，是否存在幸存者偏差，以及这些案例的可复制性和边界条件是否有被充分检验？
-- 通过招聘信息推断竞品动态，但该方法依赖岗位信息的准确性，未分析竞品“虚假招聘”或战略伪装带来的误判风险及其规避方法。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
@@ -148,9 +148,9 @@ Geertz 的"深描"（thick description）方法论要求研究者区分：眨眼
 
 ## 相关页面
 
-- yitang-course-map|一堂课程大地图
-- 一堂|一堂实体页
-- [[yt-system-course-map-lecture]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与其他卡片的关系
 
@@ -158,8 +158,8 @@ Geertz 的"深描"（thick description）方法论要求研究者区分：眨眼
 
 ### Synthesis 对标
 
-- 一堂调研武器库13招 — 13 招分类体系（精炼版，yitang 域）
-- [[business-research-skill-oscar-13-weapon-system]] — OSCAR+13武器商业调研 Skill（yitang 域）
-- 一堂调研行动营-ai辅助系统式调研方法论 — AI 协同调研范式（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：18 招是武器库中最完整的"采集类"武器组——但 Feynman 和 Geertz 分别指出了它的两种致命误用：把武器当护身符（"我做了 18 招所以我的结论是对的"），和把采集当理解（"我在现场所以我看懂了"）。武器库的安全法则第一条：武器的全面性不等于判断的正确性
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：每一招调研策略都是一段微型讲香脚本——它告诉你怎么从"我不知道"到"我看到了"。但 Geertz 的警告在讲香中直译是：你能讲出的"香"的质量——取决于你带了多厚的阐释语境走进那个现场。同一个现场，老手闻到的香和新手闻到的香——是两种完全不同的气味
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

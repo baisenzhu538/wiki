@@ -19,40 +19,40 @@ source_refs:
 - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 status: enriched
 domain:
-- yitang
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
 prerequisites:
-- yt-decision-y-model
-- yt-decision-width-method
+- src_unknown
+- src_unknown
 component_of:
-- yt-decision-y-model
+- src_unknown
 related:
-- '[[ocr-一堂-科学决策-深度-l3定量公式]]'
-- '[[yt-five-step-level-blindspots]]'
-- '[[ocr-一堂-科学决策-深度-l2部分定量]]'
-- '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
-- '[[ocr-一堂-科学决策-深度-l4严格财务公式]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-width-method]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-height-toolkit]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-decision-abcd-model]]'
-- '[[case-truman-poker-deck-roi]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- ROI深度
-- 停车场模型
-- 单元模型
-- 转化率漏斗
-- 三点预测
-- 决策层级
-- L1定性
-- L2定量
-- L3公式
-- L4财务ROI
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 trust_level: medium
 yitang:
   map: entrepreneur
@@ -61,18 +61,18 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 决策者说'我最近做了一个深度分析，数据套了十几行公式，但最后不知道该怎么选'
+- src_unknown
   framework_lens: 深度幻觉——量化的深度不等于决策的质量
   follow_up_question: 你的数据全部算清楚后，哪些变量对最终结果的影响最大？如果去掉精度最低的那两个变量，你的结论会变吗？
-- signal: 创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周
+- src_unknown
   framework_lens: 决策延迟——L2已经足够支撑行动，继续算L3是行动拖延
   follow_up_question: 你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了
-- signal: 团队说'我们做了深度定量分析，结论非常确定'，但前提假设完全没提
+- src_unknown
   framework_lens: 深度幻觉检查——数字给了你虚假的确定感，但所有定量结论的可靠性取决于前提假设
   follow_up_question: 你的分析里哪些数值是拍脑袋的？如果这些数值偏差 20%，结论翻不翻？
-- signal: 创始人要求'所有投资决策都必须拆到单元模型、算到 L4 才准过会'
+- src_unknown
   framework_lens: 深度过度泛化——L4 只适用于重大投资/融资/生死级战略，小额/高频/可撤回决策停在 L1/L2 更经济
   follow_up_question: 这个决策如果错了，最快多久能撤回？试错成本低于多少？如果一周内能撤回且成本 <1 万，停在 L1/L2 就够了
 updated_at: '2026-06-16'
@@ -164,9 +164,9 @@ L3的核心是“定量”——将关键假设用数字表达，但不强求精
 
 **变量语义**（源于图像色彩编码）：
 
-- **A, B, C, D**（红色）：投入成本的各组成部分，如固定成本、变动成本、人力成本、运营成本等。
-- **X**（红色=定钱）：关键转化率或单位数量，是连接投入与产出的“钱”维度变量。
-- **Y**（绿色=定量）：总产出或总收益，是“量”的维度——不一定是财务数字，但必须是可计数的。
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -272,9 +272,9 @@ L3是多数复杂决策的"分水岭"。操作步骤：
 
 **深度阶梯的价值不在于\"爬得越高越好\"，而在于\"知道什么时候该停在当前层\"。** 以下情况下停在 L2（不爬 L3）是合理选择：
 
-- 决策的容错率较高（错了也能快速回头）
-- 关键变量无法获得可靠数据（拍脑袋定的 L3 不如坦诚的 L2 定性）
-- 决策时效性高于精确度（窗口期比数字重要）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 常见失败模式
 
@@ -298,9 +298,9 @@ L3是多数复杂决策的"分水岭"。操作步骤：
 
 ### 选择法则
 
-- 在做任何 L3 定量之前，先问：**\"L2 不明确、L3 会翻盘的变量是哪些？\"**——如果答案是没有或很少，停在 L2
-- L3 的核心价值不是做事更精确，而是**暴露\"你以为精确但实际不精确\"的变量**
-- 每次 L3 计算后，标注该数字的\"可信度\"（高/中/低）——让读者能看到数字背后的不确定性
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可落地工具：深度阶梯停车检查表
 

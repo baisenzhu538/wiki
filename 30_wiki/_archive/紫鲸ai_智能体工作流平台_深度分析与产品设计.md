@@ -2,7 +2,7 @@
 id: 紫鲸ai_智能体工作流平台_深度分析与产品设计
 created_at: 2026-04-30
 domain:
-- ai-saas
+- src_unknown
 source_refs:
 - src_20260501_4eee4e95
 status: superseded
@@ -11,7 +11,7 @@ title: 紫鲸AI_智能体工作流平台_深度分析与产品设计
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.75
@@ -27,7 +27,7 @@ trust_level: medium-low
 
 ## Source Refs
 
-- 10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md`
+- src_unknown
 ## Critique
 
 #### Nassim Taleb — 过度结构化与黑天鹅风险

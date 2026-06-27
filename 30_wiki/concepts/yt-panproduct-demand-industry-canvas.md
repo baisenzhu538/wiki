@@ -4,33 +4,33 @@
 
 id: yt-panproduct-demand-industry-canvas
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1281
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：行业分析画布
-- 用户卡片
-- 用户研究
-- 用户需求
-- 行业分析画布
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown·用户卡片：行业分析画布
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
-  - '[[yt-panproduct-demand-project-background]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布
@@ -44,16 +44,16 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 六步分析（产业链→规模→增速→集中度→替代→进入时机）都有数据或证据支撑
+- src_unknown
   framework_lens: 行业分析需要可验证的事实基础
   follow_up_question: 这六步中哪一步的证据最弱？如果它错了，结论会怎样变化？
-- signal: 结论不只是'赛道好不好'，而是明确'值不值得我们现在进入、以什么方式进入'
+- src_unknown
   framework_lens: 行业分析服务于进入决策
   follow_up_question: 根据画布结论，你是否应该进入、观望还是放弃？为什么？
-- signal: 分析中考虑了间接替代品和新进入者，而不仅仅是现有竞品
+- src_unknown
   framework_lens: 赛道边界大于直接竞品集合
   follow_up_question: 用户如果不选你，除了直接竞品还会怎么解决这个需求？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **行业规模数据很好看，就得出‘值得做’的结论**
-   - **原因**：把行业吸引力等同于企业机会
-   - **修复**：增加‘我们在该行业的可获胜位置’分析：价值链哪一环有议价权？
+   - src_unknown
+   - src_unknown
 
 2. **只分析产业链结构，忽视价值链权力分布**
-   - **原因**：静态看待行业
-   - **修复**：标注每个环节的关键玩家和利润池，找出真正的价值捕获点
+   - src_unknown
+   - src_unknown
 
 3. **过度依赖二手报告，没有一手验证**
-   - **原因**：数据惰性
-   - **修复**：至少补充3个一手信息源：专家访谈、客户访谈、供应链访谈
+   - src_unknown
+   - src_unknown
 
 4. **画布做完后束之高阁，没有和进入策略挂钩**
-   - **原因**：分析决策脱节
-   - **修复**：画布最后必须输出‘进入方式/时机/资源需求’三要素
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -124,9 +124,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Peter Thiel的"竞争是失败者的游戏" + Rita McGrath的"竞争优势已死"
 

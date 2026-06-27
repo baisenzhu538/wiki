@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Google advanced search operators
-- web: OSINT search techniques
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-doris-industry-report-search-tips]]'
-  - '[[tool-osint-spiderfoot]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-yitang-industry-report-search]]'
-  - "[[tool-yitang-weapon-media-search]]"
-  - "[[tool-doris-industry-report-search-tips]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Google Dorking：高级搜索语法
@@ -74,9 +74,9 @@ results = search("site:target.com filetype:pdf", num_results=20)
 
 ## 适用边界
 
-- **适用**：所有有网站的公司、零成本快速摸底
-- **不适用**：搜索被robots.txt屏蔽的内容
-- **成本**：完全免费
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

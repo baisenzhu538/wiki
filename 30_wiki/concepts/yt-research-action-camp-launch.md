@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
 created_at: 2026-05-05
 domain:
-- research
+- src_unknown
 yitang:
   map: entrepreneur
   module: "调研方法论"
@@ -23,8 +23,8 @@ reviewed_by: "黄药师"
 review_date: 2026-05-06
 estimated_tokens: 3400
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
   - {'signal': '调研目标是一个具体决策或判断，而不是‘了解一下’', 'framework_lens': '调研 = 解答题', 'follow_up_question': '这次调研要回答的具体问题是什么？'}
   - {'signal': '使用OSL五步法（目标→范围→清单→获取→归一整合）系统推进', 'framework_lens': '调研有操作流程', 'follow_up_question': '你当前在OSL的哪一步？下一步的产出物是什么？'}
@@ -34,10 +34,10 @@ author: "老顽童"
 confidence: 0.85
 trust_level: high
 related:
-  - '[[yt-personal-pan-product-tools]]'
-  - '[[ocr-一堂-地图-创业地图]]'
-  - '[[yt-personal-thinking-models]]'
-  - '[[yt-personal-pan-product-exploration]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -55,20 +55,20 @@ related:
 ### 失败模式
 
 1. **调研目标模糊，收集一堆信息但无法决策**
-   - **原因**：目标缺失
-   - **修复**：把调研目标写成‘我要判断X，需要验证的假设是Y’
+   - src_unknown
+   - src_unknown
 
 2. **范围无限扩大，陷入信息过载**
-   - **原因**：范围失控
-   - **修复**：用内核-边界模型区分必须研究、可妥协、可舍弃的内容
+   - src_unknown
+   - src_unknown
 
 3. **把AI输出当最终结论，缺少人工判断**
-   - **原因**：AI autopilot
-   - **修复**：每个结论必须标注证据来源和人的置信度
+   - src_unknown
+   - src_unknown
 
 4. **调研完没有行动计划**
-   - **原因**：行动脱节
-   - **修复**：调研结束时必须输出‘决策/下一步验证/放弃’
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -76,27 +76,27 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260506_e4634e13-说话人1-00-00.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 教育交付范式主张从“以课为中心”转向“以行动为中心”：课程内容退为辅助，动手实践和用真实问题驱动调研成为核心学习目标，以追求数倍以上的效率提升。
-- 一个完整的系统式调研工作流包括OSL五步法：明确目标（O）、缩小范围（S）、列清单（C）、获取情报（A）、归一整合，每一步推演扎实能避免调研跑偏或得出无效结论。
-- 高价值调研应聚焦于解答题而非泛泛了解信息，调研目标是形成某个判断或支撑某种决策，例如判断新品是否值得跟进，而不仅仅是“看一下”同行情况。
-- 界定调研范围时，可使用“内核–边界”思维模型：区分调研的决定性内核因素、可妥协部分和边界外应果断舍弃的信息，避免在海量信息中迷失。
-- 竞品分析需要区分直接竞品、间接竞品与可借鉴产品：直接竞品（同需求同模式）比拼竞争力，间接竞品（同需求不同模式）比拼模式差异，可借鉴产品（不同需求相似模式）用于学习方法。
-- 设计类调研的实践原则：将宏观设计任务拆解成多个微观的具体子任务，再分别寻找最佳实践进行借鉴，通常比寻找唯一的、完美的完整方案更可行。
-- 调研中人与AI的协作关系应采用“人控方向盘”模式：人提供目标、审美判断和纠偏，AI负责基于方法论框架进行信息搜集、推理和初稿生成，而非全自动化地放任自流。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- “提升百分之百到100%，提升一倍、提升十倍”这一目标的具体衡量标准是什么？如果只是主观感受，如何验证学习效率或解决问题能力的实际提升？
-- 演讲提到“以行动为主，以课为辅”的新范式转换，但并未说明如何确保学生在缺乏足够知识基础时仍能有效行动，这一教学转向的支撑条件或过渡机制是什么？
-- AI调研工具被声称“显著比别人好”，但只用了少数内部案例展示，其效果评价是否基于任何控制实验或大规模对比？若无，听众如何判断其真实优势？
-- 强调“人控方向盘”的协作模式，但未说明普通用户需要具备什么样的调研方法论或审美判断水平才能有效纠偏AI，是否存在一个隐性门槛？
-- 提出的OSL五步法、18张卡牌等方法论，其有效性是否有实证数据支持？除了经验断言，是否有学员成果的量化对比（如作业前后决策质量的改善）？
-- 整个第零期实验以“默认失败”来降低预期，但并未定义成功的具体可度量指标（如作业完成率、后续行为改变等），这如何避免事后解释的主观性？
-- 课程设计假设“调研可以成为每个人高频使用的基础能力”，但未讨论调研行为可能带来的信息过载、决策延迟或执行瘫痪等负面效果，这些风险如何处理？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
@@ -145,10 +145,10 @@ Dewey 的学习循环是：冲动→观察→知识→判断→行动→（意�
 
 ## 相关页面
 
-- yitang-course-map|一堂课程大地图
-- 一堂|一堂实体页
-- 一堂调研行动营-ai辅助系统式调研方法论
-- 一堂调研武器库13招
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与其他卡片的关系
 
@@ -156,8 +156,8 @@ Dewey 的学习循环是：冲动→观察→知识→判断→行动→（意�
 
 ### Synthesis 对标
 
-- 一堂-调研行动营启动_原文润色 — 同源原文润色版（yitang 域）
-- 一堂调研武器库13招 — 调研武器库（工具层，yitang 域）
-- [[business-research-skill-oscar-13-weapon-system]] — OSCAR 商业调研 Skill（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：OSL 五步法是武器库中"流程类"武器的代表——它的优点是把复杂任务变得可操作，缺点是把可操作误解为已完成。Schön 和 Dewey 的一致判决：流程是给你壮胆的——不是替你判断的。最高级的武器使用者在使用任何流程时都在问同一个问题："这个流程现在在帮我还是在蒙我？"
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：行动营的范式叙事——"从以课为中心到以行动为中心"——本身是一段香。这段香的力量在于它让听众感觉"我在做真事而非听课"——但 Dewey 的警告在讲香中的翻译是：如果"做真事"只停留在"做作业"的层面——你的香在骗人。"做中学"的香只有在"做的后果真实存在"时才成立
+- src_unknown
+- src_unknown — 调研武器库（工具层，yitang 域）
+- src_unknown
+- src_unknown
+- src_unknown

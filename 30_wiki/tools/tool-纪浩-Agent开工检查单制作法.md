@@ -4,8 +4,8 @@ title: 技能：Agent开工检查单制作法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
@@ -17,30 +17,30 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
-- '[[tool-纪浩-日志驱动排查法]]'
-- '[[tool-纪浩-任务交付物标准化]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: Agent执行任务时频繁出错，执行失控
+- src_unknown
   lens: 执行失控
   follow_up: 先和AI把任务做一遍，记录问题和决策点。把坑提前暴露，生成检查单
-- signal: 每次启动相似任务都要重新交代注意事项，效率低下
+- src_unknown
   lens: 重复交代
   follow_up: 把历史经验沉淀为检查单，开工前按单执行。隐性经验显性化
-- signal: 人工审核检查单时遗漏关键风险点
+- src_unknown
   lens: 审核遗漏
   follow_up: 检查单必须包含：输入验证、边界条件、异常处理、输出格式。逐项确认
-- signal: 检查单过于冗长，Agent执行时跳过或忽略
+- src_unknown
   lens: 检查单臃肿
   follow_up: 检查单控制在10项以内，按优先级排序。关键项必须执行，次要项可选
-- signal: 没有历史经验可参考，无法制作检查单
+- src_unknown
   lens: 经验空白
   follow_up: 先用Do-first法跑一遍任务，记录问题。没有经验就创造经验，不能跳过第一步
 ---# 技能：Agent开工检查单制作法
 
-- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- src_unknown
 
 ## 原始表述
 
@@ -89,14 +89,14 @@ Agent开工检查单制作法是纪浩在AI协作方法论分享中提出的具�
 
 ## 关联技能
 
-- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
-- [[tool-纪浩-AI工作空间与导诊台设计法]] — 检查单是工作空间经验库的一部分
-- [[tool-纪浩-Do-first-PDCA渐进迭代法]] — 先跑一遍是Do-first的核心步骤
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI协作方法论
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

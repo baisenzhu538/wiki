@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型
@@ -19,32 +19,32 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 related:
-  - modeling-capability-system
-  - modeling-three-stages
-  - modeling-level-map
-  - case-modeling-abstraction-yitang-models
+  - src_unknown-capability-system
+  - src_unknown-three-stages
+  - src_unknown-level-map
+  - src_unknown
 tags:
-  - '#method/modeling'
-  - '#content-format/concept-card'
-  - '#content-format/framework'
-  - '#content-format/checklist'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
+  - src_unknown
     framework_lens: 模型武器库
     follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
-  - signal: 用户说"这个模型太简单/太复杂"
+  - src_unknown
     framework_lens: 难度分层
     follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
-  - signal: 用户问"该用什么模型来表达这个观点/流程/关系？"
+  - src_unknown
     framework_lens: 模型选型
     follow_up_question: 先判断问题难度，再从武器库对应层级挑选 1 个主模型。
-  - signal: 用户已有信息但输出结构混乱，或"不知道该画什么图"
+  - src_unknown
     framework_lens: 结构化映射
     follow_up_question: 信息之间是并列、流程、对比、因果还是层级关系？
-  - signal: 用户的方法论被反馈"没有洞察/太散/太深"
+  - src_unknown
     framework_lens: 难度校准
     follow_up_question: 当前模型处于哪一层？是否需要升维到深度模型或降维到基础模型？
-  - signal: 用户想用 AI 直接生成复杂模型但缺乏案例支撑
+  - src_unknown
     framework_lens: 数据先行
     follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
 
@@ -76,23 +76,23 @@ diagnostic_signals:
 
 原图为三栏矩阵式信息图，标题为「常见模型武器库：从简单到深入 / 已提炼、整理，可按问题难度调用」。
 
-- **左栏：基础模型（简单）**
-  - 合集：案例包
-  - 列表：清单、小抄
-  - 执行：模板、SOP
-  - 实操：画布、武器库
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **中栏：进阶模型（更难）**
-  - 逻辑：雷达图、N 要素、逻辑链、漏斗图、公式
-  - 分类：二分法、象限图、横纵表
-  - 分级：SABC 分级、段位图、演化图
-  - 实操：画布、武器库
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **右栏：深度模型（最难）**
-  - 洞察：三角图、冰山图、圈层图
-  - 创新：三环图、曲线图、火箭图
-  - 底层：本质、本质 N 要素
-  - 实操：画布、武器库
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 底部补充了多种图形示意：花瓣图、字母图、卡牌等。整体强调**模型难度与问题难度匹配**。
 
@@ -100,12 +100,12 @@ diagnostic_signals:
 
 ## Claims
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md:7-49`。
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md:18-28`。
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md:19-27`。
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md:20-29`。
-- **C5 [conf=0.8]**: 模型选型的常见错误是难度错配：用清单解决复杂决策，或用本质公式解决执行问题。——推断：基于武器库分层逻辑。
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,9 +202,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 模型分类存在重叠，例如「画布」同时出现在基础、进阶、深度模型中。
-- 问题难度分层较粗，实际工作中很多问题介于两层之间。
-- 武器库未给出每个模型的具体使用步骤，初学者可能不知道怎么用。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Edward Tufte — "图表种类不等于分析深度"
 
@@ -212,8 +212,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果用深度模型解决简单问题，会怎样？过度复杂化，执行成本远高于收益。
-- 如果用基础模型解决最难问题，会怎样？结构支撑不足，容易遗漏关键维度。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -221,9 +221,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[modeling-capability-system]]：武器库所在的整体能力体系
-- [[modeling-three-stages]]：武器库主要服务于抽象建模阶段
-- [[modeling-level-map]]：L4 段位需要熟练使用武器库
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -239,24 +239,24 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 问题已经用文字一句话描述清楚。
-- [ ] 已判断问题难度：简单 / 更难 / 最难。
-- [ ] 已识别问题类型：分类、排序、对比、因果、创新、洞察、执行等。
-- [ ] 从对应层级选出 1 个主模型。
-- [ ] 确认不会过度复杂化（杀鸡用牛刀）或过度简化（小刀砍大树）。
-- [ ] 如需要，组合 1-2 个辅助模型形成完整交付物。
-- [ ] 用 3-5 个真实案例验证模型结构是否成立。
-- [ ] 用撞击实验/反例测试模型边界。
-- [ ] 输出包含模型图 + 使用说明 + 边界说明。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[modeling-capability-system]]：武器库所在的整体建模能力体系。
-- [[modeling-three-stages]]：武器库主要服务于抽象建模阶段。
-- [[modeling-level-map]]：L4 段位需要熟练使用武器库。
-- [[case-modeling-abstraction-yitang-models]]：一堂建模案例，可供参照。
+- src_unknown
+- src_unknown。
+- src_unknown。
+- src_unknown
 
 ---
 
@@ -264,12 +264,12 @@ diagnostic_signals:
 
 ### 原始素材
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png` — 模型武器库原图
+- src_unknown
 
 ### 归档 source
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:50-67`
+- src_unknown
+- src_unknown
 
 ---
 

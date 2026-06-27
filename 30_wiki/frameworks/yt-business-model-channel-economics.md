@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-unit-economics
-  - yt-business-model-cac-ltv
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户依赖单一渠道，获客成本高"
+  - src_unknown
     framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
     follow_up_question: "你的获客渠道有几个？每个渠道的CAC分别是多少？"
-  - signal: "用户说'我们的CAC在下降'，但不知道原因"
+  - src_unknown
     framework_lens: 渠道经济学——CAC变化需要定位具体渠道
     follow_up_question: "CAC下降是因为某个渠道优化，还是整体渠道结构变化？"
-  - signal: "用户新渠道测试失败，放弃所有新渠道"
+  - src_unknown
     framework_lens: 渠道经济学——新渠道需要测试和优化
     follow_up_question: "新渠道测试了多久？优化了哪些变量？"
-  - signal: "用户自然获客占比低，付费获客占比高"
+  - src_unknown
     framework_lens: 渠道经济学——自然获客是健康指标
     follow_up_question: "你的自然获客占比是多少？如何提升自然获客？"
-  - signal: "用户渠道之间互相 cannibalization"
+  - src_unknown
     framework_lens: 渠道经济学——渠道之间可能互相蚕食
     follow_up_question: "你的渠道之间是否互相竞争？如何协调渠道策略？"
 
@@ -136,21 +136,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当获客成本高时 → 分析渠道组合
-- 当依赖单一渠道时 → 多元化渠道
-- 当新渠道测试时 → 充分测试，优化变量
-- 当自然获客低时 → 提升自然获客
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-business-model-cac-ltv`：CAC与LTV计算
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 获客渠道研究
-- SaaS获客策略
+- src_unknown
+- src_unknown
+- src_unknown

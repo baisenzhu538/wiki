@@ -5,18 +5,18 @@
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
-  - content-production- yitang
+  - src_unknown
 diagnostic_signals:
-- signal: 是否用一句话精确描述问题（现状与期望 gap）
+- src_unknown
   framework_lens: 问题定义 / 诊断起点
   follow_up_question: 问题描述是否混入了预设原因或解决方案？
-- signal: 是否列出 ≥3 个可能原因并包含被排除项及排除证据
+- src_unknown
   framework_lens: 思维链透明 / 可学习性
   follow_up_question: 被否定的死胡同是否被隐藏，导致诊断不可复盘？
-- signal: 每个判断和方案是否标注置信度与关键假设
+- src_unknown
   framework_lens: 证据分级 / 假设管理
   follow_up_question: 假设被证伪时是否有返回重新诊断的机制？
-- signal: 在时效敏感场景下，是否避免过度追求完整性延误行动
+- src_unknown
   framework_lens: 行动阈值 / 成本权衡
   follow_up_question: 问题解决线是否变成'为写诊断而工作'的文档表演？
 updated_at: '2026-06-16'
@@ -30,11 +30,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - '[[七件事集团]]'
-  - '[[yt-skill-storyline-key-elements]]'
-  - '[[yt-skill-storyline-contrast-analysis]]'
-  - '[[source-code-delivery-model]]'
-  - '[[yt-skill-storyline-timeline]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
@@ -51,18 +51,18 @@ related:
 5. **验证标准**：定义"什么结果能证明这个方案是对的"
 
 **关键原则**：
-- 不隐藏死胡同：你走过但发现是死胡同的路，比正确路径更有教学价值
-- 标注置信度：每个判断标注"确定/大概率/猜测"
-- 暴露假设：所有方案都建立在某些假设上，假设必须被显式列出
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出形态**：
 ```
-- 问题：[精确描述]
-- 诊断A：可能原因X → 排除原因：[证据] → 置信度：Y%
-- 诊断B：可能原因Z → 验证结果：[证据] → 置信度：Y%
-- 方案：[最优解]
-- 假设：[方案成立的前提条件]
-- 验证：[如何证明方案有效]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ## Question
@@ -95,23 +95,23 @@ Kahneman的《噪声》已经证明，人类专家在复杂问题上的判断充
 
 ## Constraints & Boundaries
 
-- **适用**：需要深度分析、多因素权衡的决策场景（产品诊断、业务复盘、技术选型、战略分析）
-- **不适用**：高度标准化的决策（有明确SOP的流程）、需要快速响应的危机场景
-- **警惕**：不要把"我考虑了所有可能"当成"我找到了正确答案"。考虑得全面不等于判断得准确
-- **边界**：问题解决线最多处理5-7个平行假设。超过这个数量，认知负荷会压垮分析质量
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Cases
 
 **正例：Truman的产品增长诊断**
 
 ```
-- 问题：Q2用户增长率从15%降至3%
-- 诊断A：竞品推出了替代功能 → 排除：竞品功能上线时间是Q1末，但增长率下降发生在Q2中 → 置信度：20%
-- 诊断B：获客渠道失效 → 验证：Q2获客成本上升40%，转化率不变 → 置信度：70%
-- 诊断C：产品价值主张模糊 → 验证：新用户7日留存率从45%降至28% → 置信度：60%
-- 方案：优先解决B（获客），同时启动C的调研（价值主张）
-- 假设：获客成本上升是短期波动，不是结构性变化
-- 验证：如果Q3获客成本回落但增长仍低于8%，则假设不成立，需重新诊断C
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 这个诊断的价值不在于"答案"，而在于**假设的可验证性**——如果Q3数据不符合预期，诊断者知道该往哪个方向调整。

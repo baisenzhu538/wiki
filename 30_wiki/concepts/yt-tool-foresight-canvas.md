@@ -7,7 +7,7 @@ id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
 domain:
-  - yitang- yitang
+  - src_unknown
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -22,33 +22,33 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-- 黄药师
+- src_unknown
 - laowantong
 query_triggers:
-- 预判画布
-- 选项池模板
-- 预判工作台
-- 加法减法模板
-- 预判工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[case-truman-yitang-foresight]]'
-  - '[[yt-business-model-cac-ltv]]'
-  - '[[process-modeling]]'
-  - '[[yt-foresight-probability-engineering]]'
-  - '[[yt-foresight-business-spectrum]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
-- '[[yt-five-step-method]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 用户做了加法列出20个选项，但减法阶段一个都舍不得删
+- src_unknown
   framework_lens: 加法容易减法难——充分做加法的目的是为专业减法提供素材
   follow_up_question: 如果只能选3个选项继续，你选哪3个？选择标准是什么？
-- signal: 预判画布填完，但用户还是选择了最初直觉想要的选项
+- src_unknown
   framework_lens: 预判工具被用来做合理化——画布分析只是为已有偏好找理由
   follow_up_question: 如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策
 updated_at: '2026-06-16'
@@ -116,9 +116,9 @@ trust_level: medium-high
 ### Step 4：排序——选出Plan A/B/C
 
 从无硬伤（✅）的选项中，按信心排序：
-- **Plan A**（最优先执行）：_____
-- **Plan B**（A不通立刻切）：_____
-- **Plan C**（最后备选）：_____
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5：关键假设提取
 
@@ -131,14 +131,14 @@ trust_level: medium-high
 **定中局**：保3争5（单体→体系增长），5年，在西安做。
 
 **加法选项池**（部分）：
-- 城市选择：一线/二线/三四线/学校周边/商务区
-- 价格带：中低价/中价/高价
-- 品类：专注咖啡/咖啡+奶茶/咖啡+简餐/咖啡+烘焙
-- 选址：街边店/社区店/学校店/mall店/便利店/办公店
-- 面积：20平小店/20-100平中店/100-300平大店
-- 店员：专业咖啡师/一般咖啡师/普通店员
-- 扩张：自营/放加盟/加盟品牌
-- 环境：网红晒点/普通调性/私密空间/社交空间
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **减法过程**（咖啡案例的实际推演）：
 1. 先排除明显不靠谱的：学校店（咖啡需求弱）、社交空间（这个城市没这个文化）、网红店（没钱做推广）、便利店（没资源）
@@ -149,17 +149,17 @@ trust_level: medium-high
 
 ## Validation
 
-- **加法自检**：选项总数≥20？横跨了至少3个维度？
-- **减法自检**：每个被排除的选项都标注了排除原因（属于哪类硬伤）？
-- **Plan B自检**：B和C是否真的有独立可行性，不是"A的弱化版"？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## diagnostic_signals
 
-- signal: "用户说'我做了完整的预判画布，但团队还是走错了方向'"
+- src_unknown
   framework_lens: "预判画布是思维脚手架，产出的是选项和逻辑，不是行动指令。画布填完不等于决策做完——缺少从'预判'到'行动'的转化机制是本工具的固有盲点。"
   follow_up_question: "你的预判产出最终转化成了哪些具体的行动决策？有没有哪个选项你判断对了但最终没有去执行？"
 
-- signal: "用户说'我预判了行业趋势，但产品方向还是没调整过来'"
+- src_unknown
   framework_lens: "预判了但没行动——创始人在认知层面完成了趋势判断，但在行动层面被惯性、团队阻力或沉没成本拖住，无法将预判转化为产品方向调整。这是预判工具的经典失效模式。"
   follow_up_question: "当时是什么阻止了你把预判变成行动？是团队不同意、资源不够、还是你内心其实不愿意放弃原来的方向？"
 
@@ -181,11 +181,11 @@ trust_level: medium-high
 
 ## Synthesis
 
-- [[yt-foresight-15-char-mantra]] — 画布是十五字法诀的操作化
-- [[yt-foresight-addition-subtraction]] — 加法减法的详细方法论
-- [[yt-foresight-ten-fatal-flaws]] — 减法环节的核心检查清单
-- [[case-coffee-shop-foresight]] — 咖啡馆案例是这张画布的应用示范
-- [[yt-five-step-method]] — 预判画布产出Plan A后，用五步法画布做执行拆解
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 

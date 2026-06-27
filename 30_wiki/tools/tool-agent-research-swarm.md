@@ -13,16 +13,16 @@ trust_level: medium
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: LangGraph Swarm pattern
-- concepts: kimi-深度调研集群方法论-deep-research-swarm
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[tool-agent-research-pipeline]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[tool-demand-agent-multi-hypothesis]]'
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[concepts/kimi-深度调研集群方法论-deep-research-swarm]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Swarm模式
@@ -73,9 +73,9 @@ result = swarm.run("发现XX赛道的投资机会")
 
 ## 适用边界
 
-- **适用**：多源并行搜索、探索性调研、需要速度的场景
-- **不适用**：需要严格审计追踪的合规场景
-- **参考**：Kimi Deep Research Swarm已有类似实现
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

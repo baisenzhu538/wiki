@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计者的自我修养"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_8995f40a
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计者的自我修养"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂刻意练习十年成长指数]]'
-  - '[[ocr-泛产品设计者的三大自我修养]]'
-  - '[[ocr-泛产品设计的应用场景示意图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计者的自我修养
@@ -34,33 +34,33 @@ png` ❤ 泛产品设计者的自我修养 的创业课 永远以"用户价值"�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_8995f40a-ocr-泛产品设计者的自我修养.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 用户价值应作为产品设计的永恒核心导向，而非阶段性目标或权衡后的妥协。
-- 最佳实践是泛产品设计者持续追求的基准线，而非可接受的最低标准。
-- 无限进步构成迭代的底层驱动逻辑，强调没有终点的持续优化而非版本式更新。
-- 三条原则形成"价值锚定—标准追求—动态进化"的闭环修养框架。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 三条原则之间的优先级冲突如何解决？例如当"最佳实践"的实现成本损害"用户价值"时，以何者为先？
-- "用户价值"的定义权归属谁？设计者、用户、还是其他利益相关方？是否存在不同用户群体价值冲突的情况？
-- "最佳实践"是否具有领域特异性？跨行业/跨文化情境下是否存在不可迁移的隐含假设？
-- "无限进步"是否隐含资源无限的前提？在有限预算、时间或人力约束下，该原则如何操作化？
-- 三条原则形成闭环的具体反馈机制是什么？从"动态进化"回到"价值锚定"的触发条件与评估标准为何？
-- "泛产品"的边界如何界定？该框架对实体产品、服务设计、系统架构等不同形态是否同等适用？
-- 自动提取的OCR文本中"的创业课"语义断裂，原图此处是否存在被误识的关键信息（如"这是创业者的必修课"）？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -74,20 +74,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

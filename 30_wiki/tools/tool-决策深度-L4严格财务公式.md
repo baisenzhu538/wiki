@@ -13,15 +13,15 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4严格财务公式_vlm_desc.md
 related:
-  - '[[dk-你的业务是一次抽样实验]]'
-  - '[[tool-科学提问刻意练习]]'
-  - '[[tool-科学决策关键训练清单]]'
-  - '[[concept-稀缺机会窗口]]'
-  - '[[dk-决策经验值]]'
-  - "[[tool-决策深度-L3定量公式]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[framework-科学决策三角形]]"
-  - "[[yt-tool-unit-model-benchmark]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 决策深度L4：严格财务公式
@@ -41,10 +41,10 @@ L4是决策深度的最深层——**每一项数字都可追溯到原始数据�
 
 ## 何时必须L4
 
-- 涉及公司生死存亡的决策
-- 投资金额超过年营收10%
-- 不可逆决策（签长约、卖掉核心资产）
-- 需要董事会/投资人批准的决策
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 心法
 

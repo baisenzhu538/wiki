@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.94
 trust_level: high
 domain:
-  - strategy
-  - operations
+  - src_unknown
+  - src_unknown
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_ocr_text.md
@@ -16,10 +16,10 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[case-strategy-snack-industry-chain]]"
-  - "[[tool-strategy-activity-scope]]"
-  - "[[tool-strategy-logistics-cost-planning]]"
-  - "[[tool-strategy-value-capture]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 产业链机会与行动计划分析工具

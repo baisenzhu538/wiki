@@ -10,27 +10,27 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212431_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212431_vlm_desc.md
 - 00_inbox/精益创业/一堂DOC-20260622212440_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212440_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-stealth-service]]'
-  - '[[tool-lean-minimum-version]]'
-  - '[[tool-lean-cut-features]]'
-  - '[[tool-lean-presell]]'
-  - "[[framework-lean-false-model]]"
-  - "[[tool-lean-minimum-version]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-lean-electric-scooter-mvp]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 只测试最小数量
@@ -43,16 +43,16 @@ related:
 
 ## Purpose
 
-- 与“只发布最小版本”互补：最小版本解决“验证单元是什么”，本工具解决“验证规模多大”。
-- 防止团队在 F/A/L/S/E 早期阶段就按正式业务的用户量、库存量、门店数去铺规模。
-- 把每一次实验当成可证伪的“小剂量注射”，而不是直接全量进入市场。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作步骤
 
 ### 第一步：识别本次实验要验证的关键假设
 
-- 明确：如果这次实验失败，项目会因此转向、转型还是终止？
-- 只保留与这一假设直接相关的样本需求，其余全部最小化。
+- src_unknown
+- src_unknown
 
 ### 第二步：在五个维度上压缩测试规模
 
@@ -66,20 +66,20 @@ related:
 
 ### 第三步：设定“最小数量”的判定标准
 
-- 不是“越少越好”，而是“少到刚好能回答关键假设”。
-- 定性验证：找到 6-10 个能代表目标用户的真实个体即可 [conf=0.65, source=一堂课程经验判断]。
-- 定量验证：样本需达到可观察行为差异的最小统计量，常见做法是 30-100 个真实转化事件 [conf=0.65, source=一堂课程经验判断]。
-- 若实验结果需要区分不同子群体，样本量需按子群倍增。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：执行并记录真实行为数据
 
-- 重点记录：完成率、转化率、复购/回访、负面反馈、退订/退款。
-- 避免用“大家反馈还不错”替代行为指标。
+- src_unknown
+- src_unknown
 
 ### 第五步：根据信号决定放大、调整或停止
 
-- 信号清晰正向：进入下一轮稍大样本的验证或正式开发。
-- 信号模糊或负向：先检查是“数量不够”还是“假设本身不成立”，不要简单加量。
+- src_unknown
+- src_unknown
 
 ## 成本 / 周期 / 样本量
 
@@ -97,23 +97,23 @@ related:
 
 ### 最适合
 
-- 消费品、餐饮、零售、本地生活、教育课程等可以通过小批量、单点、单 SKU 跑通的业务。
-- 早期需求不确定性高、供应链和履约可以被拆成小单元的场景。
-- 团队愿意接受“数据不够漂亮但足够决策”的验证文化。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 需要调整
 
-- **强监管行业**（医疗、金融、教培、博彩）：即使样本量很小，也可能触发合规审查；需在实验设计前咨询法务/合规 [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：只服务 6-10 人可能因样本过少而损害品牌信任，需在“最小数量”和“品牌体面”之间折中 [conf=0.80, source=任务指令 L8 边界案例]。
-- **长周期硬件/医疗器械**：无法通过“一家店、一个 SKU、100 人”完成验证，需改用里程碑测试和灰度样机 [conf=0.85, source=case-lean-medical-device-milestone 思路]。
-- **B2B 长决策链**：单个客户内部涉及多角色决策，样本量压缩空间有限，需配合深度访谈和预售验证 [conf=0.75, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## When NOT to Use
 
-- 当“缩小数量”会导致样本严重失真、无法代表目标用户时（例如只找熟人、只找极端好评用户）。
-- 当实验需要覆盖多角色、多场景、多地区才能得出结论时，强行最小化会得出错误信号。
-- 当关键假设的验证需要一定统计显著性，而最小数量不足以支撑决策时。
-- 当“小批量”被团队用来掩盖对市场的逃避，永远停留在“测试”而不敢放大。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -127,10 +127,10 @@ related:
 
 ## Critique
 
-- 本工具本质上是对 **Eric Ries**“最小可行产品”和“小批量实验”思想的操作化落地，与 **Steve Blank** 客户开发方法论中“先找少量早期客户验证假设”的取向一致 [conf=0.90, source=Eric Ries《精益创业》+ Steve Blank《四步创业法》]，一堂的贡献在于把“最小数量”具体化为用户、采购、门店、SKU、用户规模五个可操作维度 [conf=0.85, source=一堂DOC-20260622212431_ocr_text.md]。
-- **外部攻击点 1（样本代表性）**：过度压缩样本量会导致信号失真，把“听不到反对声”误当成“假设成立”。
-- **外部攻击点 2（组织解释）**：在组织内部，“只测试最小数量”容易被误解为“不敢投入”或“小打小闹”，需要配合清晰的通过/不通过标准才能推进。
-- 建议始终与 [[framework-lean-false-model]]、[[framework-lean-abcd-model]]、[[tool-lean-minimum-version]] 配合使用，先判断阶段和假设优先级，再决定最小数量。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 案例映射
 
@@ -138,15 +138,15 @@ related:
 
 在 [[case-lean-electric-scooter-mvp]] 中，D 版用一张海报/落地页测意向，C 版只买 20 台普通滑板车在地铁口摆摊验证，2 周、约 2 万元完成核心假设验证 [conf=0.70, source=transcript_低成本验证实操1_剥离假设篇.md]。
 
-- 对应本工具：在“用户规模”和“采购数量”两个维度上同时最小化。
-- 关键启示：只测试最小数量的前提是假设拆得 sharp；C/D 版的成功不在于“少”，而在于“少到刚好验证最高风险假设”。
+- src_unknown
+- src_unknown
 
 ### 反例：过早扩张的线下业务
 
 在 [[framework-lean-six-wastes]] 覆盖的“过早扩张”案例中，部分创业者在单店模型未跑通前就开多家店、铺多个 SKU，最终发现核心假设不成立时，库存、租金、人员成本已经难以收回 [conf=0.70, source=讲师案例]。
 
-- 对应本工具失败模式：没有先用“一家店、一个 SKU、最小采购量”验证，就直接放大规模。
-- 关键启示：最小数量是“放大前的刹车片”，而不是“永远的小规模”。
+- src_unknown
+- src_unknown
 
 ---
 

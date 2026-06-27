@@ -15,13 +15,13 @@ domain: [yitang, research, ai-collaboration]
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - '[[concept-research-responsibility-boundary]]'
-  - '[[concept-yitang-ideal-research-goal]]'
-  - '[[tool-yitang-court-record-search]]'
-  - '[[tool-yitang-supplier-interview]]'
-  - '[[tool-yitang-ai-research-workflow]]'
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[concept-yitang-ai-research-human-loop]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # AI调研十大假设

@@ -6,10 +6,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- yitang
-- note-taking
-- modeling
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman / 纪浩 / 老朱
 source_context: 一堂清单体笔记训练、高阶建模培训、AI协作方法论
 source_refs:
@@ -17,33 +17,33 @@ source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 related:
-  - '[[dk-note-maximum-common-divisor]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[dk-note-rookie-disaster-veteran-heaven]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-note-surplus-brainpower]]'
-  - '[[modeling-level-map]]'
-  - '[[sk-ai-ai-workspace-setup]]'
-  - '[[dk-modeling-question-scaffold-not-answer]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 bridges_to:
-- yt-note-five-levels-training
-- modeling-level-map
-- sk-ai-ai-workspace-setup
+- src_unknown
+- src_unknown-level-map
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-- signal: 团队刚学清单体笔记，就要求成员用清单体写AI prompt并交叉验证
+- src_unknown
   framework_lens: 基本功未内化
   follow_up_question: 成员能否在不看模板的情况下独立完成一次标准清单体记录？错误率是多少？
-- signal: 新人还没跑通一次完整MVP，就开始用五步法做战略预判
+- src_unknown
   framework_lens: 段位错配
   follow_up_question: 如果去掉这个高阶框架，他还能不能用大白话把问题讲清楚？
-- signal: AI工具上线后，成员生成内容变快了，但判断质量没有提升
+- src_unknown
   framework_lens: 外包了思考
   follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？
 ---# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
@@ -60,21 +60,21 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 团队培训后急于上马高阶工具，但成员连基础记录/分类/判断都还吃力。
-- 个人学习时跳过大量练习，直接套用高级框架，结果框架填得满满当当，问题还是没想清楚。
-- AI工具引入后，产出速度提升但决策质量没有提升，甚至下降。
-- 组织推"最佳实践"时，新人老员工一起用同一套模板，效果两极分化。
-- 评估某个高阶方法论是否适合当前团队/个人时使用。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **先做"去掉工具"测试**：如果去掉这个高阶工具，你还能不能用大白话把问题讲清楚、把任务做完？如果不能，先补基本功。
 2. **建立段位映射表**：把工具/框架按所需基本功分层。例如：
-   - L1：能跟上、不遗漏
-   - L2：能分类、能加粗关键词
-   - L3：能分层、能一句话总结
-   - L4：能建模、能交叉验证
-   - L5：能现场解决问题
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
    使用高阶工具前，确认自己已稳定达到该工具要求的最低段位。
 3. **预留"剩余脑力"预算**：每次使用高阶工具时，估算自己还有多少认知资源。如果80%以上都被基础操作占用，说明火候未到。
 4. **先慢后快，刻意重复**：高阶工具第一阶段要刻意放慢，反复做同类型任务直到低阶动作自动化。不要追求"第一次就用上全部功能"。
@@ -82,10 +82,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **适用于**：任何需要"基本功 + 高阶工具"协同的领域（笔记、建模、决策、AI协作、销售、产品、投资）。
-- **不适用于**：纯机械重复、不需要判断的任务——这类任务可以直接上工具/自动化，无需先练基本功。
-- **警惕"基本功完美主义"**：基本功不是练到100分才能上高阶工具，而是练到"自动化"即可。判断标准：做基础动作时不需要刻意回忆步骤。
-- **组织推行时要注意段位差异**：同一张清单，老人用是加速器，新人用可能是拐杖甚至枷锁。需要分层培训。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -99,15 +99,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **解释了高阶工具失效的根因**：大多数工具培训的失败不是工具不好，而是忽略了"基本功内化"这个前置条件。
-- **跨域通用**：无论是清单体笔记、建模框架、精益假设验证还是AI协作，都受同一规律支配。
-- **节省组织试错成本**：避免在团队基本功不足时强推复杂工具，减少"形式合规、实质失败"的内耗。
-- **给AI时代的能力建设定锚**：AI越强，"释放出来的脑力用来做什么"越关键；这个暗知识指出了正确方向。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-note-five-levels-training]] — 五阶训练法就是基本功到高阶操作的段位图。它说明了为什么 L1 没练好就不能做 L4。
-- [[dk-note-surplus-brainpower]] — "剩余脑力"是能否上高阶操作的硬约束。没有剩余脑力，所有高阶技巧都是纸上谈兵。
-- [[modeling-level-map]] — 建模段位图把"基本功未内化"具体化为：L1-L2 的数据、概念、关系没有澄清就跳到 L4-L5 的预测和决策。
-- [[sk-ai-ai-workspace-setup]] — AI 工作空间的正确用法是"AI 处理低阶、人类处理高阶"；反过来就是本卡描述的失败模式。
-- [[dk-modeling-question-scaffold-not-answer]] — 基本功到位后，模型才能从"答案"回归为"提问的脚手架"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

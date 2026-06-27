@@ -5,8 +5,8 @@ title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 �
 type: case
 status: enriched
 domain:
-- prompt-engineering
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享 + 真实项目 /focus 功能的产品设计提示词
 source_refs:
@@ -15,50 +15,50 @@ source_refs:
 - 10_raw/sources/src_20260619_d9794671_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_图片01.png
 - 10_raw/sources/src_20260619_df980155_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_图片02.png
 tags:
-- '#perspective/compliance'
-- '#perspective/professional'
-- '#confidence/source-cited'
-- '#confidence/verified-by-case'
-- '#domain/prompt-engineering'
-- '#domain/yitang'
-- '#scene/agent-infrastructure'
-- '#scene/ai-collaboration/pdca-execution'
-- '#scene/ai-collaboration/problem-validation'
-- '#scene/ai-collaboration/prompt-engineering'
-- '#scene/ai-collaboration/workspace-design'
-- '#scene/hardware-debugging/prototyping'
-- '#scene/knowledge-management/tagging'
-- '#scene/learning-methodology'
-- '#scene/note-taking'
-- '#scene/product-design/design-freeze'
-- '#scene/product-design/focus-workbench'
-- '#scene/skill-engineering/manifest-design'
-- '#content-format/case-study'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[dk-ji-hao-pdca-starts-from-do]]'
-  - '[[case-ji-hao-ui-design-constraint-evolution]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: AI 在实现阶段反复问"这个做不做""这个要不要算进去"
+- src_unknown
   framework_lens: S1-S5 设计冻结缺少"不是什么"
   follow_up_question: 你能否列出 3 条明确"不做"的决策？每条是否都有理由？
-- signal: 同一个输入表单既要"收集信息"又要"验证假设"
+- src_unknown
   framework_lens: Explore / Experiment 未拆分
   follow_up_question: 这个任务是剪枝假设（Experiment）还是扩大边界（Explore）？二者思维模式不同，应否拆成两个 Capture Mode？
-- signal: 实现两周后需求还在变， freeze 稿被不断推翻
+- src_unknown
   framework_lens: S1-S5 开放问题未封闭
   follow_up_question: S1-S5 是否已签字？剩余问题是否已明确标为"进入 S6/S7 处理"而不是"现在再讨论"？
-- signal: 遇到需要改 schema 或 DB migration 的需求时直接动手
+- src_unknown
   framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入 schema/data contract gate？
 ---
@@ -97,10 +97,10 @@ diagnostic_signals:
 
 冻结稿的每条决策都在回答"做什么"的同时回答"**不做什么**"：
 
-- `/focus` 是 **Live Execution Workbench**，不是通用项目管理页、不是聚焦记录展示页。
-- `Explore` 和 `Experiment` **故意拆开**——"思维模式、行为模式和目标不同"。
-- Flow Lanes **默认折叠**，是执行辅助，不是完整看板。
-- 上下文编辑的边界是"整理任务上下文和背景知识"，**不是重构任务本身**。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：S6-S7 实现交接（632 行提示词）
 
@@ -108,12 +108,12 @@ diagnostic_signals:
 
 产出物：
 
-- **29 条封闭决策**（Closed Decisions），每条有编号和理由。
-- **终版 HTML 原型路径**：`docs/prototypes/focus-s7-static.html`，作为视觉/交互基准。
-- **TypeScript 接口定义到字段级别**：`FocusExecutionProjection`、`CaptureMode`、`FlowBoardLane`、`MaterialAccordionGroup` 等。
-- **组件清单到名字级别**：`CurrentProblemSelector`、`CurrentProgressPanel`、`CaptureDock`、`FlowBoard`、`MaterialAccordion`、`FocusContextDrawer`、`RecentImportantInfo`、`StateTransitionModal` 等 11 个组件。
-- **7 个 Journey Test Script**，每个有步骤 + 通过条件：进入现场并推进多个并行项、快速收集到 Inbox/Problem、阻塞转化、Explore/Experiment 支撑 Plan、会议记录与关联主体、Context Drawer 整理上下文、状态转变总结确认。
-- **日志 schema 到字段级别**：`.data/focus-execution-trace.ndjson`，9 个最低追踪项（`at`、`timeNodeId`、`event`、`counts`、`captureMode`、`flowLane`、`materialGroup`、`queryMs`、`noiseFeedback`）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键硬门禁：Migration Stop Point
 
@@ -134,9 +134,9 @@ S6-S7 交接稿里有一条显式规则：
 
 两份提示词本身就是项目的交付物。它们让：
 
-- **纪浩自己**：S1-S5 冻结后不用每次对话重讲上下文；提示词 = 持久化的决策文档。
-- **AI（Claude/Codex）**：收到的是结构化规格而不是模糊描述。
-- **接手的人**：如果代码作者换了，S6-S7 手稿 + 终版 HTML 就是完整的交接文档。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
@@ -190,8 +190,8 @@ S6-S7 交接稿里有一条显式规则：
 ...
 
 ## 1. Final HTML / Prototype
-- 路径：{docs/prototypes/xxx.html}
-- 范围：{做什么 / 不做什么}
+- src_unknown
+- src_unknown
 
 ## 2. Component Handoff
 | 组件名 | 职责 | 复用/新建 |
@@ -203,13 +203,13 @@ interface XxxProjection { ... }
 ```
 
 ## 4. Journey Test Scripts
-- Script A: {目标} / {步骤} / {通过条件}
-- Script B: ...
+- src_unknown
+- src_unknown
 
 ## 5. Logging & Index
-- 日志落点：{文件路径}
-- 追踪字段：{列表}
-- Migration Stop Point：{触发条件与处理流程}
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 6. Validation Commands
 ```bash
@@ -223,11 +223,11 @@ npm run build
 
 当实现中出现以下任一情况时，必须停下：
 
-- [ ] 需要新增 indexed/generated fields
-- [ ] 需要新增专表
-- [ ] 需要新增 FTS（全文搜索）
-- [ ] 需要 DB migration
-- [ ] 需要修改稳定 `.kb` 或 apply `.kbp`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 停下后执行：
 
@@ -246,14 +246,14 @@ npm run build
 4. 我有没有为 schema/DB migration 设置硬门禁？
 5. 如果明天换一个人/换一个 AI 接手，他能否只读 S6-S7 交接稿就继续实现？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-纪浩-focus-prompt-design`。
+- src_unknown
 
 ## 关联卡牌
 
-- **[[case-ji-hao-skills-market]]** — 同一演讲者的另一个真实案例：一堂内部 Skills 分发平台，从"微信传 zip"到"Agent 自助"。与本案例共同展示纪浩五层方法论在不同工程问题上的落地。
-- **[[case-纪浩-from-zip-to-five-layers]]** — 纪浩从微信传 zip 的混乱到五层协作体系的完整演化。本案例是 L2 Agent Workspace 与 L3 Do-first PDCA 在产品设计场景的具体应用。
-- **[[dk-ji-hao-ai-cant-design-structure]]** — 本案例的底层暗知识："AI 不会自己搞结构设计，必须人先定义结构"。S1-S5 冻结稿就是人帮 AI 定义的产品结构。
-- **[[dk-ji-hao-pdca-starts-from-do]]** — S1-S5 冻结前的 HTML 原型来自 Do-first 迭代：先做出一版，再加 Check/Plan/Act，而不是先写完整计划再动手。
-- **[[case-ji-hao-ui-design-constraint-evolution]]** — 约束文档从临时规则沉淀为 L3 工作手册的演化案例。与本案例的"29 条封闭决策"形成"规则如何被持久化"的对照。
-- **[[case-truman-ai-partner]]** — Truman 的 AI Partner 设计哲学。纪浩的 /focus 提示词是同一套"给 Agent 结构化环境"思想在产品功能设计上的工程实现。
-- **[[concept-ji-hao-ai-collaboration-methodology]]** — 纪浩 AI 协作方法论总纲。本案例是其中 L2 Agent Workspace、L3 Do-first PDCA 与 L5 Skills Market 思想的共同产物。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

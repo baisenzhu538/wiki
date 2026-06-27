@@ -5,27 +5,27 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: pitfalls.md P-9
 source_refs: []
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- '[[dk-p8-toolkit-forget]]'
-- '[[dk-p15-unverified]]'
-- '[[master-first-principles]]'
-- '[[master-ai-info-literacy]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-enriched
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- Glob 返回空但用户坚称文件存在
-- 用 PowerShell/Get-ChildItem 能找到 Glob 找不到的文件
+- src_unknown
+- src_unknown
 ---# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 
 ## 原始表述 / 核心洞察
@@ -44,48 +44,48 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你需要确认某个文件夹下是否存在特定类型的文件
-- 你使用 Glob 工具扫描文件系统，返回空结果
-- 你需要基于文件存在性做决策（如"是否阻塞""是否跳过"）
-- 你怀疑某个工具可能漏匹配（特别是涉及中文路径、子目录、特殊字符时）
-- 用户反驳你的"文件不存在"结论，需要快速二次验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **不要用一个工具的 negative result 作为最终结论**：
-   - Glob 返回空 ≠ 文件不存在
-   - `ls` 看不到 ≠ 文件不存在
-   - 任何工具的"未找到"都需要二次验证
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **交叉验证流程**：
-   - 第一步：PowerShell `Get-ChildItem -Path <dir> -Recurse`（最可靠的全量扫描）
-   - 第二步：`find <dir> -type f`（WSL/Unix 环境）
-   - 第三步：如果前两步都为空，再宣布"文件缺失"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **Glob 的已知限制**：
-   - 中文文件名可能漏匹配
-   - 深层子目录可能截断
-   - 特殊字符（空格、括号、连字符）可能转义失败
-   - 符号链接可能不被追踪
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **宣布"文件缺失"前的 checklist**：
-   - [ ] 已用至少两种独立工具扫描
-   - [ ] 已检查父目录是否存在
-   - [ ] 已确认文件扩展名/模式正确
-   - [ ] 已询问用户确认（如果可能）
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 不要 Glob 返回空就立即宣布"文件不存在"
-   - 不要把"我没找到"等同于"它不存在"
-   - 不要在未核实的情况下将任务标记为"阻塞"
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有涉及文件系统扫描的场景
-- 不适用于明确知道文件不存在的情况（如首次创建目录）
-- **与 P-8 的区别**：P-8 是"忘了有工具"，P-9 是"工具有缺陷但盲目信任"。两者可能同时发生
-- 在远程文件系统（如 SMB、NFS、云存储）上，Glob 的限制可能更多
-- 如果文件权限不足，即使存在也可能扫描不到——这与 Glob 缺陷不同
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -97,21 +97,21 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是**工具可信度**的实战教训：每个工具都有边界条件，"返回空"不等于"事实为空"
-- 极具破坏力：一次"文件不存在"的误判直接导致任务文件错误标注、用户不满（"连你都失忆了"）
-- 揭示了"negative result"的普遍风险：不仅是 Glob，任何工具的"未找到""未匹配""未触发"都需要警惕
-- 可直接转化为操作流程：凡基于文件存在性做决策，必须先做原生递归扫描
-- **AI 训练语料中不会有这条**：没有任何官方文档会写"Glob 对中文文件名可能漏匹配，先用 PowerShell 验证"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p8-toolkit-forget]] — P-8 和 P-9 是同一事件的两种失败：P-8 是"忘了用可用工具"，P-9 是"用了 Glob 但盲目信任其 negative result"。如果当时先用 PowerShell 验证，就不会误判
-- [[dk-p15-unverified]] — P-15 是"声称完成但实际未做"，P-9 是"声称不存在但实际存在"——两者都是"未经独立验证就下结论"
-- [[master-first-principles]] — "单一工具 negative result 不能作为事实"属于第一性原理层面的操作纪律
-- [[master-ai-info-literacy]] — 对工具边界条件的敏感度是 AI 信息素养的核心组成部分
-- `.agent/pitfalls.md` → P-9（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 审查记录
 
-- 老顽童无疑问（2026-06-03），提请欧阳锋审查。
-- 欧阳锋复核通过，状态更新为 `enriched`（2026-06-19）。
+- src_unknown
+- src_unknown

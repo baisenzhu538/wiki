@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计落地篇"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_e4b635ac
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 泛产品设计落地篇"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[yt-personal-product-design]]'
-  - '[[ocr-泛产品设计者的自我修养]]'
-  - '[[ocr-泛产品设计落地工具篇指南]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计落地篇
@@ -35,7 +35,7 @@ png` 从看得见到磨得透  丹具象 打座  于道 问 理 中 RO分析 1  
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md`
+- src_unknown
 
 ## Visual Analysis
 
@@ -43,13 +43,13 @@ png` 从看得见到磨得透  丹具象 打座  于道 问 理 中 RO分析 1  
 
 ## Reusable Knowledge
 
-- 泛产品设计方法论包含从"看得见"到"磨得透"的递进层次，强调从具象感知到深度打磨的完整过程。
-- 设计对象按复杂度分层：简单独立作品（起名字、写一封信）、复杂协作型产品（社交软件、AI Agent）、高难度创新产品（AI春晚、创新标准咨询）。
-- 填充色块区被标识为这类设计中最具挑战性的部分，暗示存在视觉化框架中的关键难点区域。
-- 产品类型横跨实体与数字、商业与公益、个人与组织：婚礼设计、AR剧本游、葬礼体验活动、ToB内训等。
-- "磨"作为核心动作反复出现（磨设计、磨方案、磨创新），体现迭代精进的设计文化。
-- AI工具已嵌入设计实践：用AI做宣传片、搓学习Agent、AI商业教练，标志人机协作设计范式的形成。
-- 体验设计是贯穿主线：MBA体验设计、徒步体验设计、购物体验创新，强调以体验为中心而非功能为中心。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -67,26 +67,26 @@ png` 从看得见到磨得透  丹具象 打座  于道 问 理 中 RO分析 1  
 
 ## Open Questions
 
-- 原文中"从看得见到磨得透"的具体递进阶段是什么？OCR显示"丹具象 打座 于道 问 理 中"等碎片化文字，其完整逻辑结构因识别错误而无法还原，需要原图确认。
-- "RO分析"中的"RO"具体指代何种分析框架？是ROI、ROE还是领域特定术语？缺乏上下文导致无法判断。
-- "填充色块区"在原图中的具体位置、范围及对应的设计挑战类型是什么？OCR仅保留文字提示而丢失关键视觉信息。
-- "搓一个学习Agent""搓一个AI商业教练"中的"搓"是OCR误识还是原文使用的行业俚语？若为后者，其精确定义与操作内涵需要澄清。
-- 复杂度分层标准不明确：简单/复杂/高难度的判定依据是协作人数、技术门槛、创新程度还是时间周期？原文未给出可操作的分界标准。
-- "磨设计""磨方案""磨创新"三者的对象差异与方法论区别是什么？"磨"作为核心动作缺乏结构化定义，难以转化为可复用的流程。
-- 跨领域案例（婚礼、葬礼、AI春晚、ToB内训）的共性设计原则是否已被提取？或仅为案例枚举而无统一方法论？原文结构因OCR损坏无法判断。
-- "设计城市共学"后接"创新标准咨询"是否存在层级关系或并列关系？换行与缩进等排版信息丢失导致语义关系模糊。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲，OCR卡中的同心圆框架是该总纲的视觉化落地，"磨设计/磨方案/磨创新"三圈对应总纲中从L1独立作品到L5高难度创新的复杂度分层
-- [[yt-personal-pan-product-tools]] — 泛产品设计工具篇（出牌教学法与30张卡牌），OCR中外层"磨创新"案例（如设计AI春晚、搓学习Agent）直接对应工具篇中"高难度有创新性的产品"工具组合
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 将同心圆框架迁移至个人知识管理体系设计——内圈=基础笔记方法（清单体/康奈尔），中圈=复杂项目知识管理（跨文档/跨工具协作），外圈=创新知识产品（课程/书籍/Agent）
-- 将"填充色块区"概念迁移至团队能力评估——识别团队中哪些能力模块是"最有挑战的部分"（色块区），优先投入资源打磨
+- src_unknown
+- src_unknown
 
 
 ### 不要用的场景

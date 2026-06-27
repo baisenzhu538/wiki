@@ -10,26 +10,26 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 一堂课程讲义/讲师案例
 source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 related:
-  - '[[tool-lean-leverage-traffic]]'
-  - '[[tool-lean-presell]]'
-  - '[[dk-yitang-business-model-risk-over-product-risk]]'
-  - '[[case-lean-2b-gray-test]]'
-  - '[[case-lean-premature-expansion]]'
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[framework-lean-four-principles]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 元气森林试错工具箱
@@ -89,9 +89,9 @@ related:
 
 由此规避了六宗罪中的三类典型浪费：
 
-- **闭门造车**：内部测试后立刻引入外部用户，避免团队长期脱离真实市场 [conf=0.80, source=framework-lean-six-wastes]。
-- **过早细化**：在正式大规模生产、全国统一包装前，先用小范围测试筛选方向 [conf=0.80, source=framework-lean-six-wastes]。
-- **过早扩张**：线下/线上试卖都限定在可控区域或有限流量，单点未跑通前不加杠杆 [conf=0.80, source=framework-lean-six-wastes]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -112,8 +112,8 @@ related:
 
 不适用或需谨慎场景：
 
-- **强监管行业**（药品、婴幼儿食品、医疗器械）：测试活动可能受广告法、食药监规定约束，不能简单照搬“试喝/试卖” [conf=0.85, source=任务指令 L3 政策/合规边界]。
-- **品牌敏感型高客单价产品**：粗糙的早期测试可能损伤品牌信任，需在测试质感上折中 [conf=0.80, source=任务指令 L8 边界案例]。
+- src_unknown
+- src_unknown
 
 ## 教训与预警信号
 
@@ -124,9 +124,9 @@ related:
 
 ## 相关卡/互链
 
-- 低成本验证框架：[[framework-lean-false-model]]
-- 六类典型浪费：[[framework-lean-six-wastes]]
-- 低成本验证四大原则：[[framework-lean-four-principles]]
-- 精益验证概念：[[yt-entrepreneur-lean-validation]]
-- MVP 落地工具：[[tool-泛产品落地-低成本测试MVP]]
-- 产品内核验证：[[concept-一堂-kernel-validation]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

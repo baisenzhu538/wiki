@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -36,9 +36,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于需要修改内容元素本身（如替换物体、改变风格）的场景
-- 仅针对画面排版/构图问题
-- 其他平台（Midjourney/SD等）的尺寸影响机制可能不同
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -46,4 +46,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb23-ai-pre-screen-three-minutes]] — AI出图前置筛选：三分钟十套方案定风格
+- src_unknown

@@ -4,15 +4,15 @@ id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
 domain:
-  - marketing
-  - yitang
-  - entrepreneurship
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 problem_domains:
-  - 获客
-  - 线上营销
-  - 自动化销售
-  - 企业服务
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 industry: 企业服务（FA/资本对接）
 scale: 平台级
 source_person: Truman
@@ -22,34 +22,34 @@ source_refs:
 - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
 - src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
 wiki_refs:
-  - "[[yt-scale-economy-weapon-library]]"
-  - "[[yt-customer-acquisition-toolkit]]"
-  - "[[case-truman-yitang-foresight]]"
-  - "[[tool-ai-evidence-check]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 definition_of_done:
-  - 问题描述清晰
-  - 方案可理解
-  - 可迁移点明确
-  - 诊断信号和失败模式可执行
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - "#case"
-  - "#topic/customer-acquisition"
-  - "#domain/yitang"
-  - "#domain/marketing"
-  - "#method/online-research"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related_skills:
-  - "skill-ai-evidence-check"
+  - src_unknown
 related_concepts:
-  - "yt-scale-economy-weapon-library"
-  - "yt-customer-acquisition-toolkit"
+  - src_unknown
+  - src_unknown
 related_cases:
-  - "case-truman-yitang-foresight"
+  - src_unknown
 related:
-  - "yt-scale-economy-weapon-library"
-  - "yt-customer-acquisition-toolkit"
-  - "case-truman-yitang-foresight"
-  - "skill-ai-evidence-check"
-  - "yt-panproduct-execution-roi-analysis"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: "2026-06-06"
 updated_at: "2026-06-16"
 author: 老顽童
@@ -57,16 +57,16 @@ reviewed_by: 王语嫣
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: 销售团队严重依赖个人关系网络，新线索数量随人员变动大幅波动
+  - src_unknown
     framework_lens: 获客渠道未规模化——关系网络无法被系统化复用
     follow_up_question: 能否把关系网络中的线索来源抽象为可复制的公开信息源？哪些信息源能持续产出新线索？
-  - signal: 团队每天花超过2小时手动搜索潜在客户，但人均有效线索不足5条
+  - src_unknown
     framework_lens: 获客流程未工业化——搜索动作停留在手工作坊
     follow_up_question: 哪些搜索动作可以脚本化、工具化或交给AI？判断一个线索是否值得跟进的标准是否清晰？
-  - signal: 同一客户被不同销售重复跟进，或线索分配靠口头约定
+  - src_unknown
     framework_lens: 缺少统一线索池和分配规则
     follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
-  - signal: 线索转化率极低，销售抱怨"垃圾线索太多"
+  - src_unknown
     framework_lens: 抓取规则缺少质量分门槛
     follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
 ---# 案例：以太利用全网调研能力快速获客
@@ -81,9 +81,9 @@ diagnostic_signals:
 
 2017年前后，以太作为一家资本对接平台，主营业务是帮助早期创业项目连接投资人。FA行业的传统获客方式高度依赖：
 
-- 合伙人的个人关系网络
-- 投资人和创业者的转介绍
-- 线下活动、路演和展会
+- src_unknown
+- src_unknown
+- src_unknown
 
 这种方式的问题是：**覆盖面和速度受限于人的时间和关系半径**。当平台进入平台期甚至衰退期时（这也是Truman后来在以太内部创业做一堂的背景），老线索池逐渐枯竭，必须找到更高效、可规模化的获客方式。
 
@@ -94,17 +94,17 @@ diagnostic_signals:
 以太的解法是把"调研能力"本身变成获客杠杆，把获客从"关系驱动"改成"信息驱动"：
 
 1. **建立全网项目扫描机制**
-   - 系统性地监控新上线/新注册的创业项目信号
-   - 信息源包括：工商注册、招聘动态、媒体报道、融资公告、产品发布、社交媒体等公开渠道
+   - src_unknown
+   - src_unknown
 
 2. **自动筛选与分级**
-   - 按行业、阶段、融资需求、地域、团队背景等维度过滤
-   - 只把符合平台定位的项目进入跟进池
+   - src_unknown
+   - src_unknown
 
 3. **批量化、自动化跟进**
-   - 标准化首次触达话术和节奏
-   - 用工具批量触达，减少人工介入
-   - 对高意向线索再转人工深度跟进
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 本质：用"调研能力"做杠杆，把获客从手工作坊变成工业流水线。调研一次搭建能力，后续边际成本越来越低——这就是规模经济在获客环节的应用。
 
@@ -112,9 +112,9 @@ diagnostic_signals:
 
 原文未给出具体数字，但逻辑清晰：
 
-- **降低获客边际成本**：同一套扫描和筛选系统可以覆盖更多项目，新增项目的边际调研成本趋近于零
-- **提高项目覆盖率**：不再依赖个人关系网络，能触达更广泛的新上项目
-- **缩短跟进响应时间**：自动化跟进让销售能在项目出现的早期就介入
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 注：具体转化率、成本下降比例等数字未在原始素材中披露，本卡定位为"逻辑案例"而非"数据验证案例"。
 
@@ -163,23 +163,23 @@ diagnostic_signals:
 
 ## 关键标签
 
-- 问题域：获客、线上营销、自动化销售、企业服务
-- 行业：企业服务（FA/资本对接）
-- 方法：全网扫描、自动筛选、批量跟进、规模经济
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 框架：[[yt-scale-economy-weapon-library]] — 规模经济武器库，解释调研能力复用为何是规模经济
-- 工具：[[yt-customer-acquisition-toolkit]] — 获客工具合集，覆盖线上获客渠道分类
-- 案例：[[case-truman-yitang-foresight]] — Truman在以太内部创业的背景
-- 技能：[[tool-ai-evidence-check]] — AI时代做全网调研需要证据核查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂课程，规模经济章节（原始source无法精确追溯，标记为 src_unknown）
-- 一堂-To B业务探索分享（src_20260614_6b2c4f5b）——补充以太/资本对接背景
-- 一堂-增长-线上获客小抄（src_20260611_3e450477）——补充线上获客渠道分类
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 反馈
+- src_unknown

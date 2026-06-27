@@ -3,18 +3,18 @@ id: tool-通过请吃饭获取行业内部资料
 title: 技能：通过请吃饭获取行业内部资料
 type: tool
 domain:
-- learning-methodology- business-strategy
+- src_unknown
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
 - src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 餐饮预算<1000元
+- src_unknown
 created_at: '2026-06-09T15:07:28+00:00'
 updated_at: '2026-06-16'
 author: unknown
@@ -22,11 +22,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-用旗舰店替代纯招商投入]]'
-- '[[tool-快招品牌总部模拟调研]]'
-- '[[tool-敏捷发布快速迭代搭建体系]]'
-- '[[tool-城市合伙人模式复制能力]]'
-- '[[tool-创始人二当家分工协作模式]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：通过请吃饭获取行业内部资料
 
@@ -40,24 +40,24 @@ related:
 4. 提取模板和案例
 
 ## 适用场景
-- ✅ 需要快速获取行业内部沉淀资料时
-- ✅ 预算有限无法购买正式咨询服务时
-- ❌ 涉及商业机密或竞业限制场景
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 利用销售人员的非正式信息交换渠道，以低成本社交方式获取高价值内部资料
 
 ## 工具/环境
-- 餐饮预算<1000元
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 案例讲述者，src_20260609_4ea1fba2，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

@@ -4,9 +4,9 @@ title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
 status: enriched
 domain:
-  - yitang
-  - healthcare
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
 source_refs:
@@ -21,10 +21,10 @@ review_date: "2026-06-20"
 confidence: 0.85
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-entrepreneur-unit-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # ToC 连锁口腔诊所：成交率 30% 背后的“危机感知"公式
@@ -92,24 +92,24 @@ GMV = 初诊成交 GMV + 升级方案 GMV + 长周期复购 GMV
 ## 关键动作
 
 1. **重构初诊流程，把“危机感知”作为核心环节**：
-   - 影像结果做对比展示（健康 vs 当前 vs 恶化后）。
-   - 用量化数据说话：牙周袋深度、牙槽骨吸收率。
-   - 推演不处理的 3 年/5 年后果。
-   - 明确告知“最佳治疗窗口”和费用递增规律。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 2. **围绕危机感知埋数据节点**：
-   - 影像读片完成率
-   - 对比展示执行率
-   - 客户“意识到问题”的确认率
-   - 紧迫感建立后的方案接受率
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **从“卖单次治疗”转向“卖长期健康管理”**：一旦客户建立危机感知，需求就从“补一颗牙”升级为“我的牙齿还有哪些问题”，全口治疗、家庭套餐的接受度会大幅提升。
 
 ---
 
 ## 教训
 
-- **流量和价格是表象，危机感知是转化抓手**。
-- 对于“渐进式问题”行业，客户教育不是“推销”，而是帮助客户“看见并感知”问题。
-- 初诊流程必须从“检查→报价→成交”升级为“检查→危机感知→方案→成交”。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -145,15 +145,15 @@ GMV = 初诊成交 GMV + 升级方案 GMV + 长周期复购 GMV
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：乘法漏斗与加法要素的组合
-- [[yt-business-formula-ten-paradigms]]：连续动作型 #9 的应用
-- [[yt-business-formula-parameter-iceberg]]：从 L1 客户数到 L4 危机感知度
-- [[yt-business-formula-l6-essence-formulas]]：危机感知公式可作为 L6 本质洞察
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、核心矛盾、危机感知公式结构（直接来自培训逐字稿）
-- **中置信度**：具体数据节点（影像读片完成率等）来自讲师建议
-- **待复核**：医疗行业合规表达需结合实际场景调整
+- src_unknown
+- src_unknown
+- src_unknown

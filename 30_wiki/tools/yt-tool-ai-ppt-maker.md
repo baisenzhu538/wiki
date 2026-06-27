@@ -1,6 +1,6 @@
 ---
 domain:
-  - design
+  - src_unknown
 
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
@@ -16,37 +16,37 @@ confidence: 0.78
 prerequisites: null
 component_of: null
 related:
-  - yt-pitch-storytelling
-  - yt-pitch-quantification
-  - yt-tool-meeting-designer
-  - yt-tool-strategy-workshop
-  - yt-management-scientific-meetings
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-  - AI PPT
-  - 对话式PPT
-  - PPT生成
-  - 快速出PPT
-  - PPT风格统一
-  - AI排版
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - '#perspective/compliance'
-  - '#chunk-type/boundary'
-  - '#scene/ai-collaboration/prompt-engineering'
-  - '#scene/business-analysis'
-  - '#method/learning-method'
-  - '#domain/ai-saas'
-  - '#method/communication-method'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 trust_level: medium
 created_at: '2026-05-29'
 updated_at: '2026-06-20'
 estimated_tokens: 2600
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - signal: 用本工具3小时出了一套漂亮PPT，但投资人反馈"模板感太强、看不到思考深度"
+  - src_unknown
     framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
     follow_up_question: 这份PPT的核心论点是否有独立的数据源和逻辑链支撑？如果没有，是否应该先用[[yt-pitch-quantification]]和[[yt-pitch-storytelling]]梳理清楚再生成视觉？
-  - signal: 团队用本工具统一了风格，但每次内容修改后都要重新生成全部页面
+  - src_unknown
     framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
     follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
@@ -92,16 +92,16 @@ author: 老顽童
 
 ## 行动 Checklist
 
-- [ ] 已用一句话明确PPT的目标受众、使用场景和核心信息
-- [ ] 已生成并保存一套可复制的"风格提示词"
-- [ ] 已打开第二个专属AI窗口并确认AI复述风格一致
-- [ ] 内容已冻结或变更频率可控（建议修改<3轮）
-- [ ] 已逐页生成所有页面并在当前窗口完成修改
-- [ ] 已将生成的页面图片导入PPT软件组装成套
-- [ ] 已完成风格一致性检查（配色、字体、布局节奏）
-- [ ] 已完成信息层级清晰性检查（主标题/副标题/正文/注释区分明确）
-- [ ] 关键数据/图表已人工核查来源与准确性
-- [ ] 已导出为PPTX/PDF并在目标演示设备上预览确认
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 真实使用案例
 

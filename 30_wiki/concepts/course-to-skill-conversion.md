@@ -3,49 +3,49 @@ id: course-to-skill-conversion
 title: "课程到Skill转化：将知识变成AI可执行的能力模块"
 type: tool
 domain:
-  - management
-  - product
-  - business-strategy
-  - ai-saas
-  - yitang
-  - decision-making
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_90b44191-没有人呀现在
 component_of:
-  - ai-learning-closed-loop
+  - src_unknown
 related:
-  - "[[ai-learning-closed-loop]]"
-  - "[[prd-as-ai-instruction]]"
-  - "[[structured-ai-workspace]]"
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[yt-entrepreneur-lean-validation]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - 怎么把课程变成skill
-  - AI skill怎么开发
-  - 课程作业怎么升级成工具
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "学完课程想在工作中复用但每次都要翻笔记"
+  - src_unknown
     lens: "方法未固化"
     follow_up: "写出课程三个核心步骤 + 两个适用边界，30分钟内完成"
-  - signal: "团队对同一业务的分析结果不一致"
+  - src_unknown
     lens: "标准只在某个人脑子里"
     follow_up: "把分析流程写成检查清单，让两人分别执行，结果一致率从<50%提升到>80%"
-  - signal: "AI生成的分析报告每次结果都不一样"
+  - src_unknown
     lens: "缺少固定判断流程"
     follow_up: "构建输入检查清单，强制验证必填字段，连续3次输出结构一致"
-  - signal: "Skill用了十次都对，第十一次错得离谱"
+  - src_unknown
     lens: "经验主义陷阱"
     follow_up: "检查问题类型是否偏移，超出Skill设计范围时强制拒绝而非编造"
 ---# 课程→Skill转化：将知识变成AI可执行的能力模块
@@ -76,14 +76,14 @@ diagnostic_signals:
 
 ### Step 2: 抽取方法主线
 将课程抽象为**可执行的判断流程**，而不是"知识点清单"。例如：
-- 错误："课程讲了调研方法"→ Skill只是一堆提示词
-- 正确："调研流程 = 问题澄清 → 假设地图 → 证据链补强 → 决策报告"→ Skill包含每个节点的输入、判断和输出格式
+- src_unknown
+- src_unknown
 
 ### Step 3: 设计诊断协议
 Skill的核心价值不是"生成"，而是**场景拆解 + 风险识别 + 拒绝能力**。
-- 设计"输入检查清单"：用户提供的信息是否足以做出有效分析？
-- 设计"边界警告"：当输入不足时，Skill应该拒绝而非编造答案
-- 设计"适用范围"：明确标注这个Skill只适合什么类型的问题
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4: 证据校准
 用真实案例测试Skill：
@@ -94,9 +94,9 @@ Skill的核心价值不是"生成"，而是**场景拆解 + 风险识别 + 拒�
 
 ### Step 5: 工程化封装
 将Skill包装为**可重复调用的模块**：
-- 定义输入/输出格式
-- 写入PRD文档（见 [[prd-as-ai-instruction]]）
-- 存入知识库，配合标签体系管理
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -126,9 +126,9 @@ Skill的核心价值不是"生成"，而是**场景拆解 + 风险识别 + 拒�
 ## Critique
 
 ### 内部局限
-- Skill转化的质量严重依赖原始课程的质量。如果课程本身是"东拼西凑"，Skill只会让庞杂知识系统化地出错。
-- 诊断协议的设计需要设计者具备较高的业务判断力。如果设计者自己都不知道"什么时候该拒绝"，Skill会变成"勇气的编造者"。
-- 测试环节需要真实业务案例，但很多人在学习阶段缺少这些案例。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 

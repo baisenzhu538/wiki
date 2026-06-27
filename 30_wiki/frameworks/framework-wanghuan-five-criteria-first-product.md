@@ -12,46 +12,46 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_9beb9572_wanghuan_选场景五条标准_示意图.md"
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- src_unknown
+- src_unknown
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 diagnostic_signals:
-- signal: 团队讨论 AI 产品时，常说“别人可能需要”
+- src_unknown
   lens: 伪需求 / 非真实痛点
   follow_up: 用“我自己每周都头疼吗”重验，要求提出者提供自己的使用场景
-- signal: 选中的场景一年只做一两次
+- src_unknown
   lens: 低频陷阱
   follow_up: 把大任务拆细，找其中每周都在发生的子任务
-- signal: 30 秒路演讲不清产品解决什么问题
+- src_unknown
   lens: 场景过于模糊或过大
   follow_up: 用“我做了一个__，它帮__在__场景下，把__变成__”句式强制压缩
-- signal: 产品上线后只有作者自己用
+- src_unknown
   lens: 下周测试失败
   follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related:
-  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[concept-wanghuan-flywheel-first-loop]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[concept-wanghuan-flywheel-first-loop]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[case-wanghuan-education-sales-capability-extraction]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 选场景
-- MVP
-- 产品化
-- 需求验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -72,24 +72,24 @@ tags:
 ## 核心要点 / 关键事实
 
 1. **01 · 真实痛点 / Real Pain**
-   - 标准：你自己每周都在头疼的事。
-   - 关键区分：“别人可能需要”是想象，“我每周都在头疼”是真实。
+   - src_unknown
+   - src_unknown
 2. **02 · 高频复用 / High Frequency**
-   - 标准：每周至少用 3 次。
-   - 高频是产品的生命线。大任务低频，可以拆细：“年度预算”一年一次，但“预算数据整理”可能每周都在做。
+   - src_unknown
+   - src_unknown
 3. **03 · 30 秒说清 / 30s Pitch**
-   - 标准：能让陌生人一句话听懂。
-   - 路演句式：“我做了一个__，它帮__在__场景下，把__变成__。”
+   - src_unknown
+   - src_unknown
 4. **04 · 下周还会用 / Next Week Test**
-   - 标准：做完了下周还会打开吗？
-   - 这是最重要的一条。做出来放着落灰的东西不叫产品，叫作业。
+   - src_unknown
+   - src_unknown
 5. **05 · 你最熟的领域 / Your Domain**
-   - 标准：行业知识 = 差异化优势。
-   - 你是自己最好的目标用户。AI 有通用知识，但没有你在这个行业里十年积累的判断力。
+   - src_unknown
+   - src_unknown
 6. **最终校验三问**
-   - 第一，这件事我每周都在做吗？
-   - 第二，如果有人帮我做了，我会发自内心地开心吗？
-   - 第三，今天三个小时内，能做出一个最小版本吗？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -165,24 +165,24 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 列出过去一周花的时间最多、但产出价值最低的 3 件事。
-- [ ] 对每件事回答：我每周都做吗？有人帮我做我会开心吗？3 小时能出最小版本吗？
-- [ ] 用 30 秒路演句式描述最终选定的场景，讲给陌生人听并确认对方听懂。
-- [ ] 为选定场景设计 3–7 个结构化输入字段，确保换一个主题字段仍然可用。
-- [ ] 今天做出最小可用版本，并设定下周同一时间复盘是否还在使用。
-- [ ] 如果自己不是目标用户，找到至少一位真实用户并观察他使用。
-- [ ] 把行业知识写成至少 3 条约束或默认值，注入到产品中。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[case-wanghuan-yiyu-qingji-medical-notes]]：医语轻记是五条标准的典型案例——真实痛点、高频、领域熟、第二天就验证。
-- [[framework-wanghuan-task-product-system]]：五条标准用于任务→产品跃迁的选题阶段。
-- [[concept-wanghuan-flywheel-first-loop]]：选对第一圈起点，飞轮才能转起来。
-- [[tool-wanghuan-ai-business-profile]]：行业知识和暗规则是“你最熟领域”的具体载体。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：选定场景后，用 BTICOE 把需求结构化。
-- [[case-wanghuan-education-sales-capability-extraction]]：五条标准也适用于 B2B 服务能力萃取类产品的选题判断。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -204,10 +204,10 @@ tags:
 **回应**：3 小时约束的是“最小可用版本”，不是成品。它强迫你砍掉非核心功能，只验证最痛的点。医语轻记第一天也只是“能跑的原型”，界面连设计稿都没出。合规、安全、体验是后续迭代项，不是 0 到 1 的门槛。
 
 **不要用**
-- 不要把它用于已经成熟的产品的扩展决策。
-- 不要把它当成“只能做个人效率工具”的限制，它同样适用于团队和企业场景。
-- 不要因为有“别人可能需要”而放弃“自己确实疼”的选题。
-- 不要在 30 秒说不清楚的情况下，就投入大量时间开发。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

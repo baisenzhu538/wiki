@@ -4,35 +4,35 @@
 
 id: yt-panproduct-execution-liberate-thinking
 component_of:
-- yt-model-pan-product-execution-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1179
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：解放思想
-- 落地卡片
-- 落地执行
-- 解放思想
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown·落地卡片：解放思想
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-泛产品落地-努力仿真]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-风险管理]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
-  - '[[yt-model-liberate-thinking-layers]]'
-  - '[[tool-泛产品落地-灵感闪现]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想
@@ -46,15 +46,15 @@ yitang:
   course_type: card
   level: advanced
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 会显式列出当前方案依赖的隐含假设，并挑战其中至少一条
+- src_unknown
   framework_lens: 解放思想从质疑假设开始
   follow_up_question: 如果这个假设是错的，问题会变成什么样？
-- signal: 能引用更底层规律或跨领域原理来解释新解法
+- src_unknown
   framework_lens: 深层规律支撑突破性创新
   follow_up_question: 你的新解法依赖了哪个跨学科或第一性原理？
-- signal: 新想法在打破约束的同时，会评估可行性和落地路径
+- src_unknown
   framework_lens: 解放思想不是无视约束
   follow_up_question: 如果明天要验证这个想法，你最便宜的第一步是什么？
 updated_at: '2026-06-16'
@@ -80,20 +80,20 @@ status: superseded
 ### 失败模式
 
 1. **把‘解放思想’当成没有约束的头脑风暴**
-   - **原因**：误解创新方法
-   - **修复**：明确列出不可突破的硬约束，创新只在软约束区域进行
+   - src_unknown
+   - src_unknown
 
 2. **为了新奇而新奇，方案难以落地**
-   - **原因**：脱离可行性
-   - **修复**：每个新想法必须配套‘最小验证路径’和‘最大风险点’
+   - src_unknown
+   - src_unknown
 
 3. **只挑战表层做法，没有深入到更底层规律**
-   - **原因**：解放深度不足
-   - **修复**：追问三次‘为什么必须这样做’，直到触达底层约束
+   - src_unknown
+   - src_unknown
 
 4. **团队成员用‘解放思想’否定所有现有方案，无法收敛**
-   - **原因**：缺少收敛机制
-   - **修复**：解放思想阶段后必须有评估维度，按用户价值、可行性、差异化排序
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -123,9 +123,9 @@ status: superseded
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：David Epstein的"广度" + Karl Popper的"所有知识都是猜想"
 

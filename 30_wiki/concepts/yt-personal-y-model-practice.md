@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,14 +10,14 @@ created_at: 2026-05-11
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "Y模型四最"
-  - "Y模型实操"
-  - "Y模型实操：科学成事的底层操作系统"
-  - "Y模型的实操工作流"
-  - "Y模型的核心结构"
-  - "为什么Y模型难学"
-  - "核心动词"
-  - "科学成事的底层操作系统"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260614_842be4c9-一堂-Y模型实操探索营
@@ -32,7 +32,7 @@ yitang:
   module: "个人修炼"
   course_type: explore_camp
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '遇到具体问题时会用Y模型作为元框架，牵出已有知识并生成可验证方案', 'framework_lens': 'Y模型是底层操作系统', 'follow_up_question': '你最近一次用Y模型解决的具体问题是什么？'}
   - {'signal': '能区分Y模型用于‘事前推演’和‘事后解释’，更重视事前推演', 'framework_lens': 'Y模型的价值在预测', 'follow_up_question': '这个Y模型是在行动前画的，还是成功后补的？'}
@@ -41,11 +41,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - '[[yt-personal-y-model-exploration-2]]'
-  - '[[yt-model-y-organization]]'
-  - '[[一堂]]'
-  - '[[tool-泛产品落地-解放思想]]'
-  - '[[yt-personal-thinking-models]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# Y模型实操：科学成事的底层操作系统
 
@@ -63,20 +63,20 @@ related:
 ### 失败模式
 
 1. **用Y模型解释已经发生的事，自圆其说**
-   - **原因**：事后解释偏差
-   - **修复**：每次使用Y模型必须包含‘接下来会发生什么’的可验证预测
+   - src_unknown
+   - src_unknown
 
 2. **Y模型画得很漂亮，但没有落地行动**
-   - **原因**：过度抽象
-   - **修复**：从Y模型导出至少3个具体下一步行动
+   - src_unknown
+   - src_unknown
 
 3. **强行把不适合的问题塞进Y模型**
-   - **原因**：模型滥用
-   - **修复**：先判断问题是否适合用Y模型，不适合时换具体工具
+   - src_unknown
+   - src_unknown
 
 4. **Y模型只停留在个人顿悟，无法向他人解释**
-   - **原因**：缺乏外化
-   - **修复**：把Y模型表达成他人能理解的图或步骤
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -109,11 +109,11 @@ Y模型是一堂所有课程中"四最"课题——最难、最抽象、最值�
 
 ### 核心动词：牵
 
-- 你脑子里有很多知识、很多方法论、很多工具
-- 面对一个具体难题时，每个方法都"有道理"但不知道用哪个
-- Y模型的用法：**把它们都忘掉**，从最基本的Y模型出发
-- 像一个线头，一步步把你前半生的能力都牵出来
-- "从那一次之后，我整个人能力就强一大截——从小说的炼气期直接拔到金丹期"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 为什么Y模型难学
 
@@ -145,9 +145,9 @@ Y模型是一堂所有课程中"四最"课题——最难、最抽象、最值�
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-liberate-thinking-layers]]
-- [[yt-model-y-organization]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

@@ -5,21 +5,21 @@ title: 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 用户（决策者）
-- 黄药师（Builder）
+- src_unknown
+- src_unknown
 related:
-  - '[[graph-rag]]'
-  - '[[labeling-final-consolidation]]'
-  - '[[case-chen-qiufan-ai-writing]]'
-  - '[[labeling-research-alignment]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[kdo-15-dimension-label-spec]]'
-  - '[[labeling-research-alignment]]'
-  - '[[data-labeling-best-practices-report]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -98,9 +98,9 @@ Embedding 预筛 → LLM 精炼 → 规则验证
 
 **差异点**：增加 LLM 置信度评分作为路由决策的依据。黄药师方案中所有候选一刀切进规则引擎。实际上：
 
-- confidence > 0.85 → 直接入库，不经过人工
-- confidence 0.70-0.85 → 进入抽检池（配合已有 20% 抽检率）
-- confidence < 0.70 → 必须人工确认
+- src_unknown
+- src_unknown
+- src_unknown
 
 这样 20% 抽检的精力集中在最不确定的样本上，而不是均匀散在所有候选上。
 
@@ -181,14 +181,14 @@ kdo lint --stale-tags
 当前状态：方案已定，可以 pilot
   ↓
 Pilot 20 张卡：
-  - 黄药师：跑通 auto_label 管线
-  - 欧阳锋：手工标 10-20 条 gold standard
-  - 验证：每批标注准确率 > 85% 即通过
+  - src_unknown
+  - src_unknown
+  - src_unknown
   ↓
 根据 pilot 结果调整：
-  - 哪个维度的值池漏了？加上
-  - 哪个维度的标注准确率低？改规则
-  - 110 标签值是否需要合并/删除？
+  - src_unknown
+  - src_unknown
+  - src_unknown
   ↓
 全量上线
 ```
@@ -215,9 +215,9 @@ Pilot 20 张卡：
 *欧阳锋 · 2026-05-31*
 
 **参考来源**
-- [Amazon Multi-Turn RAG with LLM Labeling (KDD 2025)](https://kdd2025llm4ecommerce.github.io/assets/accepted/2_Building_Multi_Turn_RAG_for_.pdf)
-- [NVIDIA Enterprise RAG Blueprint (2025-2026)](https://developer.nvidia.com/blog/build-ai-ready-knowledge-systems-using-5-essential-multimodal-rag-capabilities/)
-- [ATLAN Data Preparation for LLM Knowledge Bases (2026)](https://atlan.com/know/knowledge-base-data-preparation-llm/)
-- [Enterprise Knowledge: LLM Auto-tagging Guide (2026)](https://enterprise-knowledge.com/how-to-leverage-llms-for-auto-tagging-content-enrichment/)
-- [BISE Semi-Automatic Taxonomy Creation with LLMs (2026)](https://link.springer.com/article/10.1007/s12599-025-00982-y)
-- [百度开发者 NLP 打标体系 (2025)](https://developer.baidu.com/article/detail.html?id=3798899)
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

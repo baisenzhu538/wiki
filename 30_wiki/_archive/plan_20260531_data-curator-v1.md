@@ -5,10 +5,10 @@ type: improvement-plan
 status: superseded
 superseded_by: plan_20260531_data-curator-v1.1
 domain:
-- master
+- src_unknown
 tags:
-- '#domain/knowledge-management'
-- '#method/evaluation-method'
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260606_050f35d5
 created_at: 2026-05-31
@@ -32,11 +32,11 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ## Summary
 
-- **影响范围**：384 张概念卡（30_wiki/concepts/）
-- **数据现状**：Gen A (154 张 YAML 丰富版) + Gen B (230 张 JSON 极简版)
-- **核心缺口**：domain 192 缺失、tags 186 缺失、source_refs 14 缺失（P0）
-- **skill 位置**：`40_outputs/capabilities/skills/data-curator/`
-- **审批状态**：2026-05-31 方案已批准，pilot 待执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -68,11 +68,11 @@ Phase 5: Validate（只读）  → 通过率矩阵 → 目标 ≥ 95%
 **状态**：✅ 已完成（2026-05-31，384 张卡）
 
 **关键发现**：
-- 15 张卡有 error，384 张卡有 warning
-- top 缺失：trust_level(292), contradicts(230), domain(192), tags(186)
-- status 分布：enriched(342), draft(18), reviewed(14)
-- 1 张卡花引号编码损坏（`��enriched��`）
-- contradicts 字段全库零使用（死字段）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Phase 2: Clean
 
@@ -151,10 +151,10 @@ Phase 5: Validate（只读）  → 通过率矩阵 → 目标 ≥ 95%
 
 ## 迭代设计
 
-- **v1.0**（当前）：方案定义 + 脚本实现 + pilot dry-run
-- **v1.1**（待定）：pilot 3 张卡 write + lint 验证
-- **v1.2**（待定）：batch 5 推进 + 数据管理文档集成
-- **v2.0**（待定）：384 张卡全量完成 + schema 更新 + state.json 扩展
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Pilot 测试结果（2026-05-31）
 
@@ -166,5 +166,5 @@ Phase 5: Validate（只读）  → 通过率矩阵 → 目标 ≥ 95%
 
 ## 待输入
 
-- [ ] 用户提供的更多数据管理文档 → 触发方案迭代（v1.1+）
-- [ ] 每次迭代更新本文件的 `version` 和 `updated_at`
+- src_unknown
+- src_unknown

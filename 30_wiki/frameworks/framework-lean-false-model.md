@@ -10,9 +10,9 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 - 00_inbox/精益创业/精益创业-false模型-策略图_vlm_desc.md
@@ -23,17 +23,17 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
-  - '[[framework-lean-six-wastes]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[framework-lean-tenx-formula]]'
-  - '[[yt-lean-daily-probability-decision]]'
-  - '[[framework-lean-four-principles]]'
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[framework-strategy-lean-validation]]"
-  - "[[framework-five-step-lean-interface]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 一堂 FALSE/FLESAI 低成本验证模型
@@ -68,16 +68,16 @@ FALSE 模型是一堂基于精益创业思想归纳的低成本验证框架，�
 ```
 
 **阶段一：开始提供服务（F/A）**
-- 还没做产品，先用"假装"和"人工"验证需求。
-- 核心问题：用户有没有兴趣？愿不愿意为这个概念付费？
+- src_unknown
+- src_unknown
 
 **阶段二：开始做研发/生产（L/S）**
-- 开始提供产品，但用现成资源和人工替代降低投入。
-- 核心问题：产品价值交付链路是否成立？
+- src_unknown
+- src_unknown
 
 **阶段三：开始重投入（E/All-in）**
-- 验证充分后，才进入正式开发和规模化扩张。
-- 核心问题：已经证明的模型能否放大？
+- src_unknown
+- src_unknown
 
 ## 落地武器库
 
@@ -135,19 +135,19 @@ FALSE 模型是一堂基于精益创业思想归纳的低成本验证框架，�
 
 ### 修炼：低成本操盘原则
 
-- **尽早发布**：不要等到完美才发布。
-- **小步快跑**：每次验证只解决一个关键假设。
-- **克制设计**：砍掉非必要功能和装饰。
-- **拥抱变化**：验证结果可能推翻原计划。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 警惕：6 大致命浪费
 
-- 问题找错
-- 方案做错
-- 过早细化
-- 过早扩张
-- 闭门造车
-- 盲目坚持
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与经典理论的关系
 
@@ -162,15 +162,15 @@ FALSE 模型是一堂基于精益创业思想归纳的低成本验证框架，�
 ## 适用边界
 
 **适合**：
-- 互联网/消费品/SaaS/服务类产品早期验证
-- 需求不确定性高、迭代成本可以很低的产品
-- 团队愿意接受"默认失败"文化
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适合**：
-- 强监管行业（医疗、金融、教育、博彩）的"假产品"操作可能触碰广告法或监管红线
-- 长周期硬件（如医疗器械、导盲机器狗）无法快速迭代
-- 品牌敏感型产品，粗糙 MVP 可能永久损伤信任
-- B2B 长决策链场景，假页面价值有限
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -185,13 +185,13 @@ FALSE 模型是一堂基于精益创业思想归纳的低成本验证框架，�
 ## 案例映射
 
 **正例**：Dropbox 用 3 分钟视频 MVP 验证需求 [conf=0.90, source=公开经典案例]
-- F 阶段：没有产品，只有视频 Demo
-- 结果：7.5 万人等待，几十万人访问
-- 启示：在重投入前，先用最低成本验证需求
+- src_unknown
+- src_unknown
+- src_unknown
 
 **反例**：共享彩票机 [conf=0.70, source=讲师案例]
-- 问题：未充分评估合规风险就进入 L/E 阶段
-- 教训：强监管行业不能照搬 FALSE 模型左侧手段
+- src_unknown
+- src_unknown
 
 ---
 

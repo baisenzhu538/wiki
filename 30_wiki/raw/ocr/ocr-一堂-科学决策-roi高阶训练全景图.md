@@ -3,11 +3,11 @@
 title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
 type: concept
 domain:
-  - management
-  - needs-review
-  - ai-saas
-  - yitang
-  - decision-making
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_60edc284
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-发现决策]]'
-  - '[[yt-decision-full-process]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -42,11 +42,11 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- *`
+- src_unknown
 
 堂尺口I高阶训练·全景地图  堂
 YitangAdvancedROICompetencyTraining·PanoramicMap
@@ -57,17 +57,17 @@ YitangAdvancedROICompetencyTraining·PanoramicMap
 几次ROI决策 做出判断了 能想得清楚 解和认可决策 决策能力很难大幅提升
 其实海量決策需要分析 其实写下来会完全不同 其实需要多轮打磨提升 其实共识是极其难的 其实好的复盘能无限进步
 发现决策 决策类型 L1
-- 大家嘴里聊一聊就 列出清单：按成本/收益冷静罗列 明确最终的结论："是不是要做"
-- "谁 结果复盘：最终ROI和预判是否一致
+- src_unknown
+- src_unknown
 ①个人职业发展：是否跳槽/辞职/创业 很快得出结论 推演故事：用一件货/一个流程/一 来做"
 
 ## Open Questions
 
-- "初步有一版" ↙往上拉：如何增加更多收益和价值？
-- ✅往下降：如何降低更多成本和风险？
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

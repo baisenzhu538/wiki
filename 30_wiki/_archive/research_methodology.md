@@ -2,7 +2,7 @@
 id: research_methodology
 created_at: 2026-05-03
 domain:
-- ai-saas
+- src_unknown
 status: superseded
 superseded_by: []
 title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
@@ -29,8 +29,8 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ## Source Refs
 
-- 10_raw/sources/src_20260503_5dc58ec8-research_methodology.md`
-- 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
+- src_unknown
+- src_unknown
 
 ## Reusable Knowledge
 
@@ -58,9 +58,9 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
  逐条质疑
 
 **对结论2-5：**
-- 前提假设：≥10个维度和≥10个子Agent的资源消耗（API费用、时间、上下文窗口）是可接受的。对于普通用户，单次调研成本可能过高。
-- 边界与反例：多Agent并行需要强大的编排能力，Agent间的上下文传递损耗、重复搜索、以及"幻觉一致性"（多个Agent基于相似错误来源得出相同错误结论）未被充分讨论。
-- 可靠性评估：**中高**。方法论设计严谨，但执行成本和对编排基础设施的要求被低估。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -74,25 +74,25 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — 同一方法论的另一版本。建议未来合并或标记主版本。
-- 一堂调研行动营-ai辅助系统式调研方法论 — 一堂方法论是"人类主导的AI辅助调研"（10天行动营），Kimi方法论是"AI主导的多Agent自动化调研"。二者在"人机分工比例"上形成光谱两端。
-- [[kdo-protocol]] — KDO 的 Enrich 阶段可借鉴 Kimi 的维度分解和交叉验证机制，提升知识卡片的质量和可靠性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可迁移场景：**
-- **自动化竞品调研**：将 Route D（文件增强研究）应用于 inbox 文件的自动分析，与 KDO Ingest 流程集成。
-- **投资尽调/行业研究**：≥10维度并行分析可迁移至任何需要快速建立行业认知的场景。
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 本版本与 `src_20260502_7d7c1b7c` 的具体差异是什么？哪个是更新版本？
-- 多Agent编排的底层基础设施（任务调度、结果聚合、冲突解决）是否有开源实现？
-- 单次 Route B 调研的 API 成本估算（≥200次搜索 × 各搜索的token消耗）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 
-- Code: Kimi 深度调研集群的简化版实现（3-Agent 版本，降低资源消耗）
-- Capability: 调研质量评估框架（基于四级置信度体系）
-- Content: 《从人工调研到AI集群：深度调研方法论进化史》
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

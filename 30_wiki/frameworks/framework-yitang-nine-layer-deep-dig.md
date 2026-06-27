@@ -13,32 +13,32 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
-- business-analysis
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: advanced
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- 九层深挖
-- 深挖
-- 深度分析
-- 商业分析框架
-- 逐层分析
-- 迭代深挖
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
 - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[framework-lean-expert-roadmap]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - "[[framework-yitang-iterative-recursive-digging]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[dk-yitang-research-scale-vs-depth]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 九层深挖法：商业分析的自我纠错式迭代框架
@@ -113,10 +113,10 @@ ACH之父Richards Heuer的原则是"被最少证据反驳的假设是最稳健�
 从真实失败案例中提取共因和预警信号。**这是九层中最有价值的一层。**
 
 药柜案例中提取的失败模式：
-- 点位选择失误（高人流≠高购买，社区药店旁边=白做）
-- 补货频率低估（过期损失>利润）
-- O2O即时配送的替代效应被低估
-- 招商加盟的"躺赚"骗局
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L5：隐性成本与替代方案
 
@@ -156,8 +156,8 @@ ACH之父Richards Heuer的原则是"被最少证据反驳的假设是最稳健�
 
 ## 与迭代递归深挖法的关系
 
-- `framework-yitang-iterative-recursive-digging`：通用递归深挖法，强调三反馈飞轮和自我反照，适合系统性诊断
-- `framework-yitang-nine-layer-deep-dig`：商业/行业分析专用深挖流程，强调从业务公式到决策框架的九层补齐
+- src_unknown
+- src_unknown
 
 **组合使用**：先用九层深挖法把商业问题挖透，再用迭代递归深挖法反照自身分析系统有没有盲区。
 
@@ -215,10 +215,10 @@ ACH之父Richards Heuer的原则是"被最少证据反驳的假设是最稳健�
 
 ## 来源与验证
 
-- 10_raw/sources/src_20260620_deep-research-skill/SKILL.md`
-- **实战验证案例**：药柜案例——从单点财务模型逐步补全到完整决策框架，过程中发现并规避了至少5个致命风险
-- **外部交叉验证**：与CIA情报分析界的Analysis of Competing Hypotheses (ACH)方法论的8个步骤存在深层同构——两者都强调"逐层逼近、用反例排除、最终形成可证伪的临时结论"
-- **内部区分**：一堂的九层宝塔（`src_20260614_78622699-战略培训-九层宝塔模型.md`）是战略诊断框架，我们的九层深挖法是商业分析执行框架——前者回答"问题在哪层"，后者回答"怎么逐层挖透"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与王欢OODA闭环的深度比对
 
@@ -236,9 +236,9 @@ ACH之父Richards Heuer的原则是"被最少证据反驳的假设是最稳健�
 | **外部同构** | ACH（竞争性假设分析） | ACH（同一方法论的不同应用侧重） |
 
 **互补关系**：OODA回答"怎么在不确定中快速行动"，九层深挖回答"怎么在行动前系统排查风险"。在实际运用中——
-- **用九层深挖法做战前侦察**：进入一个新业务前，逐层排查，确保没有致命盲区
-- **用OODA做战中调整**：业务跑起来后，用快速循环不断逼近最优解
-- **两者衔接**：九层深挖的L9（决策框架）定义了OODA的起始条件——"在什么条件下启动快速循环，什么条件下必须停下来重新深挖"
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 王欢的OODA卡（`framework-wanghuan-ooda-loop`）中也有一个关键判断："OODA不是让你更快地盲动，而是让你在看不清时用最小代价获取更多事实"。这个判断的补集就是九层深挖——"当看不清的代价太大时，先不盲动，先深挖到看清楚为止。"
 

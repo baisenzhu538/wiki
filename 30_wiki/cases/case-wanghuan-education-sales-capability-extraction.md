@@ -11,52 +11,52 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- 10_raw/sources/src_20260619_fd84eda0_wanghuan_PACED框架_图_01.md"
-- 10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 diagnostic_signals:
-- signal: 新销售背熟话术仍丢单，培养周期长达 3–6 个月
+- src_unknown
   lens: 隐性决策知识未被萃取
   follow_up: 用 PECED 反向工程销冠录音，区分“说了什么”与“为何此时说”
-- signal: 销冠离职带走大量经验，组织没有可复用的策略资产
+- src_unknown
   lens: 知识随人走
   follow_up: 把策略（何时做何判断）与话术（具体表达）写入双轨存储
-- signal: AI 对练评分高但真实成交率没改善
+- src_unknown
   lens: 评分维度缺少策略判断
   follow_up: 在评分顶层加入“策略判断”维度，权重高于话术流利度
-- signal: 门店销售流失率超过 90%，培训投入持续浪费
+- src_unknown
   lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[case-wanghuan-education-sales-paced]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[concept-wanghuan-tacit-knowledge-examples]]'
-  - '[[framework-wanghuan-task-product-system]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 案例
-- 教育销售
-- PECED
-- 销冠
-- 隐性经验
-- 双角色AI
-- 能力萃取
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢案例：教育机构销冠能力萃取系统
@@ -104,21 +104,21 @@ tags:
    | **D** | Decision timing（决策时机） | 到决策点了吗？临考前、开学前、观望期？时机不对硬促成是鲁莽。 |
 
 2. **双轨存储：策略与话术分离**
-   - **策略（骨架）**：定义“面对什么信号 → 做什么判断 → 选什么打法”，跨场景复用。
-   - **话术（血肉）**：为每个具体动作提供表达支撑，因场景而变。
-   - 两者不混存、不混用，避免“改一句话误伤一条策略”。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **双角色 AI 对练**
-   - **家长 AI**：扮演真实家长，会犹豫、刁难、说“我再考虑考虑”。不知道销冠策略。
-   - **教练 AI**：只在对话结束后做策略级复盘评分，能看到全部信息。
-   - 知识隔离保证对练真实性与评价专业性。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **评分体系从“话术质量”转向“策略判断”**
-   - 旧评分只看动作：话术专业吗？异议接住了吗？节奏对吗？
-   - 新评分顶层加入“策略判断”，权重最高——战略错了，动作再漂亮也输。
+   - src_unknown
+   - src_unknown
 
 5. **可迁移的“萃取 + 对练 + 验证”范式**
-   - 替换行业知识后，可迁移到保险、医美、汽车、企业软件等“老手隐性经验难以传给新人”的领域。
+   - src_unknown
 
 ---
 
@@ -162,24 +162,24 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 收集 3 段以上真实成交/丢单录音，确认可脱敏使用。
-- [ ] 与 1–2 位销冠逐句复盘，用 PECED 标注每个关键节点的信号、判断、动作。
-- [ ] 把“策略”（何时对何人做何判断）与“话术”（具体表达）写入两个独立存储。
-- [ ] 设计双角色对练：家长 AI 只扮演客户，教练 AI 只在结束后做策略级评分。
-- [ ] 重新定义评分：策略判断权重 ≥50%，话术与异议处理作为次要高阶指标。
-- [ ] 让新人完成 10 次以上对练，对比“关键节点选择正确率”前后变化。
-- [ ] 每月迭代一次 PECED 策略库，把新场景判断沉淀为可复用规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[case-wanghuan-education-sales-paced]]：聚焦 PACED 决策链在教育销售中的具体落地，与本卡系统视角互补。
-- [[dk-wanghuan-paced-sales-decision]]：销冠决策链萃取的暗知识抽象。
-- [[framework-wanghuan-actor-director-mode]]：本系统是“导演思维”在销售培训场景的工程化实现。
-- [[tool-wanghuan-ai-dual-role-coach]]：双角色 AI 对练工具的操作细节与配置清单。
-- [[concept-wanghuan-tacit-knowledge-examples]]：把“新人常错、老人默认”的行业暗规则写入 AI 业务档案。
-- [[framework-wanghuan-task-product-system]]：把单次培训从任务升级为可复用系统。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -196,9 +196,9 @@ tags:
 **回应**：对练的目标不是背规则，而是通过高密度模拟让新人在系统 1 层面形成类似的模式感。PECED 用于复盘和评分，而不是让客户面前的新人逐条核对。
 
 **不要用**
-- 当销冠无法配合复盘、或规则无法在具体录音中得到验证时，不要硬拆。
-- 当培训把判断变成背诵规则而非模拟经验时，不要用 PECED。
-- 当无法复现真实活动场景（工具、信息、时间线、竞争态势）时，不要用 PECED 做培训设计。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

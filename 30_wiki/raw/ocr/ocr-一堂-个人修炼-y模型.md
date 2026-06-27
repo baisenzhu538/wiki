@@ -3,7 +3,7 @@
 id: "ocr-一堂-个人修炼-y模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_3f5c76c0
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 一堂-个人修炼-Y模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂y模型-科学成事道理]]'
-  - '[[yt-model-y-organization]]'
-  - '[[yt-personal-y-model-practice]]'
-  - '[[ocr-泛产品设计-落地卡片-解放思想]]'
-  - '[[ocr-一堂-个人修炼-解放思想]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-个人修炼-Y模型
@@ -34,36 +34,36 @@ jpg` Y型创业： 堂科学型组织 YModelforStartups:YitangScientificOrganiza
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- Y模型（Y Model for Startups）是一堂科学型组织提出的创业理论框架，核心包含"理论—验证"双循环结构
-- 个人修炼Y模型强调认知升级的四层递进：实事求是→解放思想→知行合一→解决真正问题
-- "实事求是"与"解放思想"并列为认知基础，要求既尊重客观现实又突破思维定式
-- "知行合一"是连接认知与实践的关键转化环节，非终点而是过程
-- 最终目标是"解决真正问题"，以问题实效而非理论完美作为检验标准
-- 一堂产品原则：坚持只做必修课，聚焦高杠杆的核心认知投入
-- 学习价值主张：系统化密集学习（3天）可替代长期弯路摸索（3年），强调结构化知识的时间复利
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文"堂科学型组织"是否为"一堂科学型组织"的OCR漏字，还是另有含义？
-- "4"在OCR中单独成行，其具体指代什么——四层递进、某个编号、还是视觉结构中的层级标记？
-- "实事求是"与"解放思想"的并列关系在原文中是否通过排版体现（如并列/递进），OCR丢失的结构信息可能如何改变理解？
-- "知行合一"被标注为"过程而非终点"，但原文OCR仅呈现四字，这一解读是否来自外部知识而非文本本身？
-- "解决真正问题"作为最终目标，与"一堂·坚持只做必修课"的产品原则之间，原文是否存在明确的逻辑连接或仅为并置？
-- "扫码辛苦学3天，不扫弯路走3年"的对比修辞中，"辛苦"与"弯路"的价值判断是否有原文支撑，还是属于营销话术的过度解读？
-- OCR备注提示"视觉结构信息未体现"，Y模型的"Y"形结构在原文中如何视觉化呈现——双分支、层级递进、还是其他拓扑关系？
-- "理论—验证"双循环与"认知四层递进"在原文中是否明确关联，还是两个独立模块被知识提取强行整合？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
 ### 内部局限
 
-- **"解决真正问题"的循环论证：Y模型将"解决真正问题"作为最终目标，但未提供判断"什么是真正问题"的标准。如果"真正问题"本身就是主观判断，那么这个目标可能变成"我认为真正的问题"。
-- **"知行合一"的过程假设：模型假设"知行合一"是可以达成的状态，但未说明如何处理知行之间的张力——当"知"和"行"冲突时（如知道健康重要但行为上无法坚持），框架没有提供处理方案。
-- **"只做必修课"的矛盾：一方面声称要"解放思想"，另一方面又"坚持只做必修课"——这是否暗含"有一个正确的课程体系"的假设？如果思想需要解放，为什么必修课的范围不需要解放？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Bertrand Russell 在《西方哲学史》中证明：每一个时代的"解放"�
 
 ### 不要用的场景
 
-- **缺少反馈环境的个人学习：Y模型要求"解决真正问题"，但如果没有外部反馈（如实际用户、市场数据），"真正"可能只是自我感觉。
-- **高度主观的领域（如艺术、哲学）："解决真正问题"的假设在这些领域更难验证，因为"真正"的标准本身就是争议的。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-y-model]] — 业务版Y模型，个人修炼版是其在个人成长领域的应用
-- yt-decision-scientific-learning-ipo — 科学学习IPO模型提供了Y模型中"知行合一"的具体方法论
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 个人学习计划评估：用Y模型检查自己的学习是否在"理论—验证—认知—行动"间形成闭环
-- 职业转型决策：用"解放思想"挑战行业惯性假设，用"实事求是"验证行业现状
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

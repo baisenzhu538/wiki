@@ -5,37 +5,37 @@ title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
 type: dk
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[dk-ji-hao-ai-cant-design-structure]]'
-  - '[[dk-ban-fei-mao-silky-answer-warning]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
-- confidence-enriched
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 工作空间一建就想到先搭导诊台
+- src_unknown
   lens: 复杂度假设
   follow_up: 当前任务类型是否超过3种？是否存在多步骤跳转？
-- signal: 简单任务也要先经过导诊台才能落到执行区
+- src_unknown
   lens: 流程摩擦
   follow_up: 去掉导诊台后，任务是否仍能被准确分类和定位？
-- signal: 一个任务需要十几个步骤在不同库之间跳转
+- src_unknown
   lens: 路由能力上限
   follow_up: 是否需要自动化路由或工作流引擎替代人工导诊台？
 ---
@@ -51,8 +51,8 @@ diagnostic_signals:
 
 **判断阈值**：
 
-- 任务类型 ≤ 3 种，且任务路径单一 → 直接分类，跳过导诊台
-- 任务类型 > 3 种，或一个任务需要多个独立步骤跳转 → 必须引入导诊台作为路由器
+- src_unknown
+- src_unknown
 
 导诊台的价值不是“让空间看起来更专业”，而是**降低复杂系统中的搜索与跳转成本**。当复杂度超过阈值时，路由收益才会覆盖其维护成本。
 
@@ -78,14 +78,14 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 列出当前所有任务类型，判断是否超过 3 种
-- [ ] 画出典型任务的完整路径，检查是否存在多步骤跳转
-- [ ] 若复杂度未达阈值：直接建 3-5 个文件夹分类，不引入导诊台
-- [ ] 若复杂度已达阈值：设计导诊台，并同步编写路由规则与工作手册
-- [ ] 设定 review 周期（如每月/每季度）检查导诊台是否仍然匹配实际任务
-- [ ] 当任务类型或跳转步骤持续增长时，评估是否需要自动化路由
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是五层体系中“何时需要导诊台”的判断基准
-- [[tool-纪浩-AI工作空间与导诊台设计法]] —— 导诊台的具体搭建方法，包含路由规则的设计和维护
+- src_unknown
+- src_unknown

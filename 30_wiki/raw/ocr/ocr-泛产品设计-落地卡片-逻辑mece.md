@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计-落地卡片-逻辑mece"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_8d990f3c
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计-落地卡片-逻辑MECE"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-  - '[[ocr-泛产品设计-落地卡片-风险管理]]'
-  - '[[ocr-泛产品设计-落地卡片-内核和边界]]'
-  - '[[ocr-泛产品设计-落地卡片-业务建模]]'
-  - '[[ocr-泛产品设计-落地卡片-里程碑拆解]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计-落地卡片-逻辑MECE
@@ -36,34 +36,34 @@ png` 8 泛产品设计·落地卡片 逻辑MECE 做个有逻辑的人 面对长�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_8d990f3c-ocr-泛产品设计-落地卡片-逻辑mece.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 面对长期重要的工作，应避免碎片化思考，追求逻辑性、完备性和推理能力。
-- 拆解事物分为四个层级：碎片的散点 → TopN优先级 → 不重不漏MECE → 有推理的逻辑链MECE。
-- MECE（Mutually Exclusive, Collectively Exhaustive）是核心原则，要求分类"不重不漏"。
-- 最高层级"逻辑链MECE"强调不仅有结构，还需具备推理链条。
-- 适用场景：所有复杂、重要、需要协作的工作。
-- 养成"重要事情不MECE就闹心"的习惯，作为持续进步的驱动力。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 四个层级之间的递进关系是什么？是否存在跳跃或循环的可能？
-- "逻辑链MECE"中的"推理"具体指演绎推理、归纳推理还是溯因推理？验证标准是什么？
-- "不重不漏"在动态变化的工作场景中如何维持？是否承认MECE的临时性和可修订性？
-- "重要事情不MECE就闹心"作为习惯驱动力，是否经过验证？是否存在过度结构化导致行动瘫痪的风险？
-- 适用场景中的"复杂/重要/需要协作"三个维度是否满足MECE？三者重叠时优先级如何判断？
-- 从"碎片的散点"到"TopN优先级"的筛选标准未明确，是否存在隐含的价值预设？
-- 原图视觉结构中的层级关系（如"堂"字单独出现）是否承载额外信息？OCR丢失的结构是否影响理解？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **工具与执行的差距：本卡片提供了"落地方法"，但未提供"如何确保团队按照方法执行"的机制。工具本身不能保证执行力。
-- **线性假设：落地卡片通常假设项目按线性顺序推进，但实际项目往往是迭代、循环、非线性的。
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -77,20 +77,20 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 不要用的场景
 
-- **高度不确定性的探索性项目：在目标不清晰、需求变化快的项目中，固定的落地流程可能成为束缚。
-- **创业早期的快速试错：创业公司需要快速迭代和灵活调整，过度结构化的落地卡片可能拖慢速度。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- yt-decision-project-management — 项目管理的理论基础
-- yt-decision-product-launch — 产品发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 项目管理：用落地卡片规范项目执行流程
-- 团队培训：将落地方法作为团队标准化工具
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

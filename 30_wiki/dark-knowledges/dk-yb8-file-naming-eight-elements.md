@@ -6,33 +6,33 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb31-style-first-controlnet]]'
-  - '[[那今天不会]]'
-  - '[[dk-yb23-ai-pre-screen-three-minutes]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 团队引入了AI生图工具，但每次找历史素材都要翻半天文件夹，AI的优势被文件混乱抵消
+- src_unknown
   framework_lens: 输入侧负债——AI增效的前提是文件可检索、可调用，混乱的输入产生混乱的输出
   follow_up_question: 找一个3个月前的项目素材，需要多长时间？超过30秒说明文件体系需要重建。
-- signal: 不同设计师命名文件的方式完全不同，同一个项目的素材散落各处无法拼合
+- src_unknown
   framework_lens: 标准缺失——没有统一的八要素命名，AI的批处理能力无法发挥
   follow_up_question: 你的团队有统一的文件命名规范吗？随机抽查3个设计师最近的文件名，一致性多高？
 ---# AI增效前置：文件命名八要素体系
@@ -73,10 +73,10 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 团队是否有统一的文件命名规范文档？
-- [ ] 八要素是否全部覆盖？（项目/渠道/用途/尺寸/版本/输出端/对接端/时间）
-- [ ] 历史素材是否已按规范批量重命名？
-- [ ] 新的导出/保存流程是否自动化了命名格式？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -84,5 +84,5 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-yb5-style-asset-archive]] — AI绘图降本的前提：风格资产工程化归档
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
+- src_unknown
+- src_unknown

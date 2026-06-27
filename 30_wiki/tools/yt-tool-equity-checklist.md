@@ -8,37 +8,37 @@ source_refs:
 - 10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md
 status: enriched
 domain:
-  - yitang- yitang
+  - src_unknown
 language: zh-CN
 version: 1
 difficulty: advanced
 confidence: 0.75
 prerequisites:
-- yt-management-business-formula
+- src_unknown
 component_of:
-- yt-management-toolkit-overview
+- src_unknown
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[yt-tool-project-health-radar]]'
-  - '[[yt-pitch-storytelling]]'
-  - '[[case-yitang-radar-chart-selection]]'
-  - '[[dk-modeling-radar-model-not-result]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-management-goal-management]]'
-  - '[[yt-tool-strategy-workshop]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 contradicts: null
 query_triggers:
-- 股权设计
-- 股权分配
-- 创业股权
-- 股东协议
-- 股权激励
-- 联合创始人
-- 股权退出机制
-- vesting 机制
-- 股权回购
-- 投资前股权检查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 trust_level: medium
 yitang:
@@ -84,9 +84,9 @@ author: 老顽童
 
 **目的**：确保所有关键方在同一个情绪基准上进行对话——不是“谈判”，而是“设计”。
 
-- [ ] 避免在“有压力的时刻”讨论股权（如融资前一周、有人提出离职时）
-- [ ] 每个参与者先独立填写“我的贡献清单”（不是自我感觉，是具体事件和数据）
-- [ ] 明确此次讨论的决策权：全体一致通过？2/3 多数决？还是“如果无法一致，谁有最终决定权？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 1：分配原则检查（2 小时）
 
@@ -111,8 +111,8 @@ author: 老顽童
 1. **Vesting 周期是否合理**：创业公司建议 4 年 vesting + 1 年 cliff（即第一年离职零股权）。不是“对人不信任”，是“对未来不确定”的保护。
 2. **加速 vesting 条件是否明确**：如果超额完成 KPI，能否提前解锁？条件是什么？（防止“你说我说”）
 3. **离职后的股权处理是否清晰**：
-   - “好聚好散”情况：已解锁部分保留，未解锁部分公司回购，回购价格怎么定
-   - “不欢而散”情况：是否有“股权冷冻”机制（如触发竞业禁止条款、便宣日有限责任条款）
+   - src_unknown
+   - src_unknown
 4. **死亡/失能情况是否有预案**：创始人意外时，股权如何处置？不是迷信——这是保护公司继续运营的结构性安排。
 
 **“汞门”判断**：如果离职后的股权处理没有书面约定——先不要签字。“我们都是兄弟，不会那么糟糕”是最危险的假设。
@@ -147,10 +147,10 @@ author: 老顽童
 
 **目的**：把“口头共识”变成“法律文件”。
 
-- [ ] 所有关键条款写入股东协议（Shareholders Agreement）
-- [ ] 每个人签字前有 48 小时独立审阅期（提供给每个人的律师）
-- [ ] 将“当前版本”存档到公司共享盘，标注日期和版本号
-- [ ] 设定“每年审查一次”的日历提醒
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

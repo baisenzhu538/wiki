@@ -3,21 +3,21 @@ id: tool-用topdown方式整理内化笔记
 title: 技能：用Topdown方式整理内化笔记
 type: tool
 domain:
-- learning-methodology- product
-- management
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
 source_refs:
 - src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 升级后的记录设备
-- 文档工具
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:40:41+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-提升笔记练习频次的方法]]'
-- '[[tool-自我反馈修正笔记姿势]]'
-- '[[tool-获取他人反馈优化笔记]]'
-- '[[tool-现场建模式萃取笔记]]'
-- '[[tool-用清单体记备忘笔记]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：用Topdown方式整理内化笔记
 
@@ -44,25 +44,25 @@ related:
 5. 持续提升逻辑性
 
 ## 适用场景
-- ✅ 专题笔记整理
-- ✅ 学习后的知识内化
-- ❌ 现场即时记录
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 Topdown结构符合认知规律，故事线增强记忆，循环整理促进知识内化
 
 ## 工具/环境
-- 升级后的记录设备
-- 文档工具
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂，src_20260609_6809033f，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

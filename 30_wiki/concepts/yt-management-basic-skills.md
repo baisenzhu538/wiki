@@ -5,26 +5,26 @@
 title: 基本功认知
 type: concept
 domain:
-  - management- ai-saas
-  - management
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 管理者只学套路不学基本功
+- src_unknown
   framework_lens: 速成论
   follow_up_question: 你最近三个月刻意练习过哪项管理基本功？如果没有，学的是碎片招式
-- signal: 管理者把天赋当借口，不训练
+- src_unknown
   framework_lens: 天赋论
   follow_up_question: 你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌
-- signal: 引入的管理工具（OKR/STAR/授权量表等）执行走样或不了了之
+- src_unknown
   framework_lens: 管理工具落地四问缺失
   follow_up_question: 这个工具匹配当前组织阶段吗？谁对最终结果负全责？指标能拆到可验证行为数据吗？有检查点和迭代锁吗？
-- signal: 团队学完管理课程后，管理行为三个月无变化
+- src_unknown
   framework_lens: 学习未转化为闭环动作
   follow_up_question: 过去三个月，你用了多少次STAR/授权量表/目标设定？有没有一个"用工具→收数据→调行为"的具体循环？
-- signal: 管理者在关键场景仍依赖直觉，同样错误反复出现
+- src_unknown
   framework_lens: 经验论/隐性模式固化
   follow_up_question: 你最近一次在绩效面谈、授权或冲突处理中的做法，和三个月前有什么不同？如果答不上来，说明经验没有被结构化反思
 updated_at: '2026-06-17'
@@ -38,14 +38,14 @@ source_refs:
   - 10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md
 source_context: 原始 source 无法追溯，已清空 source_refs；后续补充真实来源后可在 10_raw/sources/ 下引用相对路径
 related:
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-management-company-culture]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[yt-personal-time-management]]'
-  - '[[yt-management-business-formula]]'
-  - "yt-management-founder-role"
-  - "yt-management-scientific-meetings"
-  - "yt-management-business-formula"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # 基本功认知
@@ -96,9 +96,9 @@ related:
 
 课程首先批判三种常见管理误区：
 
-- **天赋论**："有些人天生会管人" —— 事实是管理行为可以拆解、训练、测量
-- **经验论**："管多了自然就会" —— 未经反思的经验可能强化错误模式
-- **速成论**："学几个套路就能管好" —— 管理需要系统训练而非碎片招式
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三阶段递进模型
 
@@ -155,10 +155,10 @@ related:
 **背景**：10人团队，产品方向仍在验证，CEO看到大厂用OKR，决定全员推行。
 
 **四问诊断**：
-- 阶段匹配：❌ 团队处于0→1探索期，方向可能每周调整，固定季度OKR会锁死探索。
-- 决策权：✅ CEO对产品方向负最终责任。
-- 数据可验证：❌ 关键指标尚未稳定，KR拆不准。
-- 闭环：❌ 没有每周复盘机制。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **修复**：不取消目标管理，但把"季度OKR"替换为"双周假设验证目标"——每两周确定1-2个需要验证的关键假设，用可观察行为指标衡量（如"本周完成10个用户访谈，其中≥3人明确表达付费意愿"）。CEO每周五用30分钟做"假设复盘会"。3个月后，当方向稳定、指标可量化，再切换到季度OKR。
 
@@ -178,18 +178,18 @@ related:
 
 ### 核心管理工具
 
-- **能力-意愿矩阵**：横轴能力（低/高），纵轴意愿（低/高），四象限对应不同管理策略——教练（低能力高意愿）/ 支持（高能力低意愿）/ 授权（高能力高意愿）/ 指导（低能力低意愿）
-- **STAR 反馈模型**：Situation → Task → Action → Result，基于行为事实而非人格评价的反馈框架
-- **授权五级量表**：从"等我指示再做"到"你自己决定，事后同步即可"的渐进自主权
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 行动 Checklist
 
-- [ ] 用"管理工具落地四问"评估当前团队正在使用的 1-2 项管理工具，记录哪一问最弱。
-- [ ] 从 7 项基本功中选出当前最痛的 1 项，设计一个"2 周内可完成 3 次"的最小练习。
-- [ ] 为选定的基本功找到一位观察伙伴（同事/上级/教练），约定在练习后给一次反馈。
-- [ ] 在接下来 30 天内，记录至少 3 次"用工具→收数据→调行为"的具体循环。
-- [ ] 每月做一次 Argyris 式双环检测：有没有哪件事我原本会用"管理技巧"处理，最后选择了"真诚对话"？
-- [ ] 如果团队学完课程后行为无变化，暂停引入新工具，先修复"阶段匹配"和"闭环机制"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -200,9 +200,9 @@ related:
 **Henry Mintzberg**（麦吉尔大学管理学教授，*Managers Not MBAs* 和 *The Nature of Managerial Work* 作者）通过数十年的管理者行为实证研究，对"管理可被分解为标准化技能清单"这一前提提出了根本性挑战。
 
 Mintzberg 在 *The Nature of Managerial Work*（1973）中通过对 5 位 CEO 的逐分钟行为追踪发现，管理者的实际工作特征与"系统应用技能"的假设完全相反：
-- **碎片化（Fragmentation）**：管理者平均每项活动持续不到 9 分钟，一半活动在 5 分钟内完成。管理者不是在"按顺序执行基本功"，而是在持续应对打断和切换。
-- **口头化（Orality）**：管理者 78% 的时间花在口头沟通上（电话、面谈、会议），而非书面分析和计划。"管理 = 沟通"而非"管理 = 执行技能清单"。
-- **反应性（Reactivity）**：管理者更像被环境驱动而非驱动环境。他们的大部分行动是对外部事件的反应，而非对内部计划的执行。
+- src_unknown
+- src_unknown
+- src_unknown
 
 Mintzberg 后来的 *Managers Not MBAs*（2004）进一步论证：管理教育（包括"基本功培训"）的最大谬误是**把管理当作科学来教，而管理本质上是实践（practice）**——像医学和法学一样，管理能力无法通过课堂习得，只能通过沉浸式实践+反思习得。课堂可以教"STAR 反馈模型"，但"在什么节奏下给什么程度的反馈、在什么情绪状态下说哪句话"——这些构成管理效能 80% 的隐性技能——永远不会出现在任何模板上。
 
@@ -212,8 +212,8 @@ Mintzberg 后来的 *Managers Not MBAs*（2004）进一步论证：管理教育�
 
 **Chris Argyris**（哈佛商学院和组织行为学教授，*Organizational Learning* 和 *Overcoming Organizational Defenses* 作者，与 Donald Schön 共同提出"单环/双环学习"理论）区分了两种组织学习：
 
-- **单环学习（Single-Loop Learning）**：在现有目标和规则内纠正错误——"我的授权方式不对→学习正确的授权技巧→改进行为"。这是管理基本功课程的核心逻辑。
-- **双环学习（Double-Loop Learning）**：质疑目标和规则本身——"为什么我需要授权？是不是我根本不该做这个管理者？是不是组织架构让授权变得不可能？"
+- src_unknown
+- src_unknown
 
 Argyris 发现，**聪明的、有经验的管理者恰恰是最擅长防御性推理（defensive reasoning）的人**——他们用精湛的理由解释为什么现状不可改变，为什么矛盾不是他们的问题。教他们"STAR 反馈模型"是单环学习——他们学会了模型，但继续在真正需要反馈的时刻（向下属传达坏消息、向老板提出反对意见）使用防御性推理来避免不适。
 
@@ -256,16 +256,16 @@ Argyris 发现，**聪明的、有经验的管理者恰恰是最擅长防御性�
 
 ### 关联卡片
 
-- [[yt-management-leadership-levels]] — 管理者五段位：基本功是段位晋升的基础层，段位越高对基本功的深度要求越高
-- [[yt-management-founder-role]] — 一号位：管理基本功在创始人身上的最高表现，就是分清"必须亲自盯"与"应该授权"
-- [[yt-management-scientific-hiring]] — 科学招聘：招聘是管理基本功中"选人"环节的深化
-- [[yt-management-onboarding]] — 新人落地：从"招到人"到"人融入"的衔接
-- [[yt-management-scientific-meetings]] — 科学开会：开会是管理者最高频的基本功应用场景
-- [[yt-management-goal-management]] — 目标管理：目标设定是管理基本功的第一项
-- [[yt-management-business-formula]] — 业务公式：管理基本功中的"数据可验证"要求，就是把目标/指标拆到 L3/L4 行为数据
-- [[yt-personal-ipo-learning]] — 科学学习（IPO 模型）：管理基本功训练本质上是一次 IPO 式刻意练习
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：管理基本功第三阶段"武器库篇"是武器库概念的完美实例——管理的 7 项基本功就是管理者随身携带的 7 件武器
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：管理的口语本质（Mintzberg：78% 时间在口头沟通）意味着管理基本功的最终考场不是管理工具，而是管理的"讲香"——你怎么把目标讲得让人想干、怎么把反馈讲得让人听进去
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -290,22 +290,22 @@ Argyris 发现，**聪明的、有经验的管理者恰恰是最擅长防御性�
 
 ### 跨学科锚点
 
-- 管理基本功框架与 Google Project Oxygen 的 10 项管理者行为指标、哈佛商学院 Linda Hill 的"管理三部曲"（管理自我→管理团队→管理业务）属同源实践。
-- 能力-意愿矩阵源自 Hersey-Blanchard 的情境领导理论，一堂将其简化为四象限工具。
-- STAR 反馈模型是结构化面试和行为反馈的通用标准，广泛应用于各大公司绩效体系。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 单卡收尾检查
 
-- [x] status: enriched
-- [x] reviewed_by: 欧阳锋（≠ author 老顽童）
-- [x] updated_at: 2026-06-17
-- [x] diagnostic_signals: 5 条（≥3）
-- [x] 用一句话讲清楚：已补充
-- [x] 核心要点：已补充 5 条
-- [x] 边界 + 失败模式 table：6 条适用边界 + 5 条失败模式（≥4+4）
-- [x] 行动 Checklist：已补充 6 项
-- [x] 相关卡/互链：≥2 internal links 已存在
-- [x] source_refs: []（原始来源不可追溯，清空待补充）
-- [x] confidence: 0.88（<2 sources）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

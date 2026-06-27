@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -21,35 +21,35 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - '[[tool-funnel-formula-modeling]]'
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[process-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[case-truman-livestream-sop-iteration]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/checklist'
-- '#method/execution-method'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户说"每次做这件事都漏步骤/踩同样的坑"
+- src_unknown
   framework_lens: 清单/小抄建模
   follow_up_question: 这个任务是否重复发生 3 次以上？漏掉的动作能否写成一个可检查的检查点？
-- signal: 用户说"团队新人总是做不对/老带新效率低"
+- src_unknown
   framework_lens: 执行清单 + 督导锁
   follow_up_question: 你是否把老员工的经验拆成了新人可独立执行的检查清单，并加了检查机制？
-- signal: 用户说"策略很多，但决策时不知道该用哪一条"
+- src_unknown
   framework_lens: 小抄/策略地图
   follow_up_question: 这些策略能否按场景分类，压缩成一页可快速查阅的决策小抄？
-- signal: 用户说"写了清单但没人用/成了形式主义"
+- src_unknown
   framework_lens: 执行锁 + 迭代机制
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
-- signal: 用户把清单写成了目标或价值观
+- src_unknown
   framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
 ---
@@ -86,11 +86,11 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 清单/小抄适用于高频重复、步骤明确、容易遗漏的动作。——依据：`src_20260614_8269ccdb#319-333`。
-- **C2 [conf=0.85]**: 清单要发挥作用，必须有"及时复盘"和"稳定使用"两个机制，否则容易变成废纸。——依据：`src_20260614_8269ccdb#716-758`、`src_20260614_8269ccdb#1070-1110`。
-- **C3 [conf=0.85]**: 清单必须有逻辑：换行就分点、超过七八个就分层、遇到决策就分级、遇到建模就 MECE。——依据：`src_20260614_8269ccdb#907-934`。
-- **C4 [conf=0.8]**: 小抄的价值在于"完备性"——把所有策略放在一面，让人像吃自助餐一样挑选。——依据：`src_20260614_8269ccdb#2353-2358`。
-- **C5 [conf=0.75]**: 清单和小抄的区别：清单用于执行时逐项检查，小抄用于决策时快速浏览选项。——推断：基于 Truman 对两者的描述。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -105,9 +105,9 @@ diagnostic_signals:
 ### 步骤 1：识别重复出错或重复成功的场景
 
 问自己：
-- 这个任务做过多少次？
-- 是否每次都遇到类似的遗漏或惊喜？
-- 出错成本高不高？
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果答案都是 yes，就值得建清单。
 
@@ -118,10 +118,10 @@ diagnostic_signals:
 ### 步骤 3：给清单注入逻辑
 
 Truman 的"逻辑洁癖"在清单中体现为：
-- **换行就分点**：一行一个信息点
-- **超过 7 个就分层**：用二级标题或分组
-- **遇到决策就分级**：标出 P0/P1/P2 或 SABC
-- **遇到建模就 MECE**：检查是否不重不漏
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 4：区分"清单"和"小抄"
 
@@ -133,16 +133,16 @@ Truman 的"逻辑洁癖"在清单中体现为：
 ### 步骤 5：加锁保证执行
 
 单有清单不够。参见 [[dk-modeling-sop-execution-locks]]：
-- 版本 1：清单 + 自觉执行（50–70%）
-- 版本 2：+ 督导检查（70–90%）
-- 版本 3：+ 品控（近 100%）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤 6：持续迭代
 
 每次执行后问自己：
-- 哪条没用上？删除。
-- 哪个意外没覆盖？增加。
-- 哪条顺序不对？调整。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -183,16 +183,16 @@ Truman 的"逻辑洁癖"在清单中体现为：
 
 ## 行动 Checklist
 
-- [ ] 目标场景是否重复发生 3 次以上？
-- [ ] 是否已列出所有关键动作/检查点？
-- [ ] 每条检查点是否具体可执行（而非空话/目标）？
-- [ ] 条目超过 7 个时是否已分层/分组？
-- [ ] 遇到决策点时是否已标出 P0/P1/P2 或 SABC？
-- [ ] 清单是否已区分"必须做"和"尽量做"？
-- [ ] 是否已为关键步骤配置督导/品控锁？
-- [ ] 是否设定了每 3–5 次执行后复盘的触发器？
-- [ ] 是否明确标注了清单的适用边界和不适用场景？
-- [ ] 是否区分了"执行清单"和"决策小抄"的使用场景？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -200,9 +200,9 @@ Truman 的"逻辑洁癖"在清单中体现为：
 
 ### 内部局限性
 
-- 清单容易变成"免责工具"：我打了勾，所以出了问题不怪我
-- 清单不能保证质量，只能保证不遗漏
-- 过度依赖清单会降低人的情境判断能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Atul Gawande — "清单不是 cookbook"
 
@@ -210,19 +210,19 @@ Truman 的"逻辑洁癖"在清单中体现为：
 
 ### 反事实测试
 
-- 如果清单没有督导，执行率会降到多少？Truman 的观察是 50–70%。
-- 如果清单条目超过 20 条会怎样？人会选择性忽略，关键项反而被淹没。
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡/互链
 
-- [[process-modeling]] —— 清单/SOP 的完整流程建模方法
-- [[modeling-weapon-library]] —— 清单/小抄在基础模型中的定位
-- [[modeling-three-stages]] —— 流程建模是建模三段论的第一阶段
-- [[dk-modeling-sop-execution-locks]] —— 如何保证清单被执行
-- [[dk-modeling-timely-review-session-window]] —— 清单必须在 session 窗口内迭代
-- [[case-truman-livestream-sop-iteration]] —— 直播 SOP 清单迭代案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -238,9 +238,9 @@ Truman 的"逻辑洁癖"在清单中体现为：
 
 ## Sources
 
-- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:319-333、716-758、907-934`
-- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -37,9 +37,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于纯抽象/无人物海报
-- "图标"指功能性信息图标而非装饰性图形
-- "质感"指拍摄/生成源头的真实感，非后期纹理叠加
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -47,4 +47,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb20-ai-eye-high-principle]] — AIGC眼高原则：审美先于技术
+- src_unknown

@@ -6,18 +6,18 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
-  - 30_wiki/cases/case-demand-*.md
+  - src_unknown
 created_at: "2026-06-21"
 updated_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-demand-iceberg-l4-job-map]]"
-  - "（tool-demand-agent-l3-multi-hypothesis，待补）"
-  - "[[framework-multi-agent-research-architecture]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent 做 L4：案例库自动检索匹配

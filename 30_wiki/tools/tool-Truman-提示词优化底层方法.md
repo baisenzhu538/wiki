@@ -3,8 +3,8 @@ id: tool-Truman-提示词优化底层方法
 title: 技能：提示词优化底层方法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI工具选型决策]]'
-- '[[tool-Truman-开源模型与商业模型融合方案]]'
-- '[[tool-Truman-多Agent通信协作方案]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：提示词优化底层方法
 
@@ -38,26 +38,26 @@ related:
 
 ## 适用场景
 
-- 提示词效果不佳
-- 需要系统提升提示词能力
-- 简单模板无法满足复杂需求
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 已有成熟提示词且效果良好
-- 使用现成工具/工作流无需直接接触提示词
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 提示词必修课
-- AI辅助写提示词工具
-- 插件工具
-- 上下文管理技术
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -65,12 +65,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

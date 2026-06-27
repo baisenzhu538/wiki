@@ -3,8 +3,8 @@ id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-AI能力分层学习路径]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-马易-隐性知识萃取与模型化]]'
-- '[[tool-Truman-Feature特性层训练法]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：Skill全生命周期管理
 
@@ -40,28 +40,28 @@ Skill全生命周期管理是Truman在AI工具应用AMA中提出的实操方法�
 
 ## 适用场景
 
-- 从0到1构建新Skill
-- 现有Skill效果不佳需优化
-- 需要沉淀可复用的AI能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 一次性任务无需复用
-- 无明确场景仅为练习
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 双三角模型
-- Y模型
-- Prompt管理
-- 数据包
-- 知识库
-- 各类AI工具
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -69,12 +69,12 @@ Skill是Feature的具象化，系统化的打磨流程能确保质量；持续�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI工具应用AMA
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

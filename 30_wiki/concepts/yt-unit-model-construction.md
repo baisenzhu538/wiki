@@ -6,33 +6,33 @@ confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - yitang- entrepreneur
-  - master
+  - src_unknown
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-selection
+- src_unknown
+- src_unknown
 query_triggers:
-- 拆推评算
-- 练推借查
-- 单元模型构建
-- ABCD模型
-- 成本收入项清单
-- 单元模型公式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-unit-model-build]]'
-  - '[[ocr-一堂-科学决策-关键假设abcd模型]]'
-  - '[[yt-unit-model-concept]]'
-  - '[[yt-tool-unit-model-construction]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[yt-unit-model-selection]]'
-  - '[[yt-unit-model-benchmark]]'
-  - '[[yt-unit-model-dynamic]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-decision-y-model]]'
-  - '[[master-first-principles]]'
-  - '[[master-systems-thinking]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
@@ -47,31 +47,31 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 是否用拆推评算/ABCD 模型完整列出收入项和成本项
+- src_unknown
   framework_lens: 结构完整 / 穷举
   follow_up_question: 是否遗漏隐性成本（运营、管理、风险）？
-- signal: 每个数字是否有来源、样本量和置信度标注
+- src_unknown
   framework_lens: 数据溯源 / 可信度
   follow_up_question: "'假设'类数字占比是否 ≤30%？"
-- signal: 是否对模型做压力测试/悲观情景验证
+- src_unknown
   framework_lens: 风险管理 / 不确定性
   follow_up_question: 是否只用乐观数据做预测？
-- signal: 单元分类（A/B/C/D）是否与业务阶段匹配
+- src_unknown
   framework_lens: 业务分类 / 阶段适配
   follow_up_question: 是否把 C/D 类复杂业务当成 A/B 类简单业务建模？
-- signal: 是否区分固定成本、变动成本与间接成本并正确归类
+- src_unknown
   framework_lens: 成本结构 / 会计基础
   follow_up_question: 是否存在把固定成本按单分摊或把变动成本忽略的情况？
-- signal: 公式是否可反推目标并支持敏感性分析
+- src_unknown
   framework_lens: 公式可逆 / 决策可用
   follow_up_question: 给定目标利润，能否快速反推出需要的订单/用户/门店数？
-- signal: 是否按 ABCD 分类匹配建模深度，避免过度精确
+- src_unknown
   framework_lens: 阶段适配 / 精度匹配
   follow_up_question: C/D 类业务是否被强制做成 A 类精细模型？
-- signal: 是否建立模型复盘的更新机制
+- src_unknown
   framework_lens: 动态迭代 / 反馈闭环
   follow_up_question: 业务环境变化后是否重新做 ABCD 分类和压力测试？
 updated_at: '2026-06-17'
@@ -89,12 +89,12 @@ reviewed_by: 欧阳锋
 
 ## 核心要点
 
-- **先选单元，再建模型**：没有明确单元边界时，不要用本工具（先用 [[yt-unit-model-selection]]）。
-- **拆推评算四步闭环**：拆（穷举收入/成本项）→ 推（建立可反推公式）→ 评（标注来源/样本量/置信度）→ 算（正向/反向/压力验证）。
-- **ABCD 决定精度**：A 类复制型可充分建模，B 类类比型需调研访谈，C 类迁移型要科学类比与假设标注，D 类探索型只能做方向性判断。
-- **数据质量决定可信度**：每个数字必须有来源；假设类数字占比应控制在 ≤30%，并明确假设前提。
-- **模型必须可证伪**：通过悲观/压力测试主动寻找模型失效条件，而不是只验证乐观情景。
-- **单元模型是动态工具**：业务环境变化后需重新做 ABCD 分类、更新数据、重新压力测试。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Summary
 
@@ -112,9 +112,9 @@ reviewed_by: 欧阳锋
 4. **业务数据已经积累了一段时间，但没有形成可复用的单元模型公式**
 
 **如果以下情况，不用本工具：**
-- 单元模型尚未选定（先用[[yt-unit-model-selection]]）
-- 业务完全没有数据积累，还处于假设验证阶段（先用 Y 模型做假设检验）
-- 你只需要一个粗略的估算，不需要精确到具体成本项
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 核心观点：拆推评算四步法
 
@@ -130,9 +130,9 @@ reviewed_by: 欧阳锋
 | **隐性成本** | 决策成本、试错成本、组织成本 | 人员流动带来的知识流失成本 |
 
 **实操检查：**
-- [ ] 收入项是否覆盖了"用户全生命周期"？（首次购买→复购→转介绍）
-- [ ] 成本项是否覆盖了"全链路"？（获客→转化→交付→售后）
-- [ ] 是否有"固定成本"被错误地当成了"变动成本"？（如租金按单分摊 vs 按时间分摊）
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 第二步：推——推导公式关系
 
@@ -147,9 +147,9 @@ reviewed_by: 欧阳锋
 ```
 
 **关键原则：**
-- **每个变量都要有业务含义**：公式中的每个符号都对应一个可操作的变量
-- **公式要能"反推"**：给定目标利润，能反推出需要多少订单/用户/门店
-- **公式要能"敏感性分析"**：能一眼看出哪个变量对利润影响最大
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 第三步：评——评估数据质量
 
@@ -162,9 +162,9 @@ reviewed_by: 欧阳锋
 
 #### 第四步：算——计算验证
 
-- **正向验证**：用公式计算出的利润，与实际财务报表对比，误差是否在 ±10% 以内？
-- **反向验证**：用公式反推"盈亏平衡点"，与实际业务经验是否一致？
-- **压力测试**：如果某个变量恶化 20%，公式是否还能成立？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ABCD 模型分类：根据确定性选择建模深度
 
@@ -193,9 +193,9 @@ Blank 强调出去和用户聊天才是需求验证的唯一方法。单元模�
 
 Popper 在《科学发现的逻辑》中提出的"证伪主义"对单元模型构建法发起了根本性质疑：
 
-- **单元模型的"验证"是确认偏误的温床**："拆推评算"的第四步"算"强调"正向验证"和"反向验证"，但 Popper 会指出，验证只能证明"模型在某些条件下成立"，不能证明"模型是正确的"。真正的检验应该是"主动寻找模型失效的条件"——你设计了什么样的实验来证明单元模型是错误的？
-- **ABCD 分类可能制造虚假的安全感**：A 类模型被赋予"最高确定性"的标签，但 Popper 会认为，任何模型都是"暂时未被证伪的假设"。把 A 类模型当成"确定的真理"来指导大规模投入，一旦市场环境变化，损失是巨大的。
-- **"数据质量评估"忽略了"理论负载"问题**：Popper 指出，所有观察都是"理论负载的"（theory-laden）——你以为的"客观数据"实际上已经被你的业务假设过滤过了。"评"这一步评估的是数据的"准确性"，但没有评估"数据背后的理论框架是否成立"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务环境快速变化、历史数据失去参考价值时，"拆推评算"构建的模型会从"决策工具"退化为"自我欺骗的工具"。此时应该主动寻找"证伪证据"，而非继续"验证"。
 
@@ -205,17 +205,17 @@ Popper 在《科学发现的逻辑》中提出的"证伪主义"对单元模型�
 
 Gigerenzer 的"生态理性"理论对"拆推评算"的"努力找出所有成本收入项"提出了挑战：
 
-- **"找出所有项"可能是过度拟合的开始**：Gigerenzer 的研究表明，当模型的变量超过 3-5 个时，预测准确率往往会下降——因为额外的变量引入了噪声。"努力找出所有成本收入项"可能导致一个包含 20 个变量的复杂模型，但这个模型在样本外数据上的表现可能不如"收入-成本=利润"的简单模型。
-- **"敏感性分析"假设变量独立性**：拆推评算的公式假设各变量之间是独立的，但 Gigerenzer 指出，真实世界中变量高度相关（如获客成本和转化率往往负相关）。在相关变量上做敏感性分析，会高估某些变量的影响力。
-- **ABCD 分类中的"A 类=最高确定性"是认知陷阱**：Gigerenzer 会指出，"确定性"本身是一种认知偏差——人们往往高估已验证模式的持续性。A 类模型在"稳定环境"中有效，但在"变化环境"中，A 类模型的僵化可能比 D 类模型的模糊更危险。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务环境高波动、数据稀缺、时间压力大时，"拆推评算"的复杂建模流程可能不如"快速试错+快速迭代"的简单启发式有效。
 
 ### 内部局限
 
-- **"拆推评算"对非财务背景的操盘手门槛较高**：需要同时理解业务流程和财务公式，L2-L3 的操盘手可能卡在"推"这一步。
-- **ABCD 分类缺少"如何升级"的路径**：一个 C 类业务如何逐步积累数据变成 B 类？框架没有提供具体路径。
-- **忽略了对"模型使用者"的考量**：同样的模型，给投资人看和给团队看，需要的精度和表达方式完全不同。工具没有区分"受众"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -279,20 +279,20 @@ Gigerenzer 的"生态理性"理论对"拆推评算"的"努力找出所有成本�
 
 ## 行动 Checklist
 
-- [ ] 明确单元边界与业务阶段（先用 [[yt-unit-model-selection]]）
-- [ ] 列出 ≥5 项收入项与 ≥8 项成本项，区分直接/间接/隐性成本
-- [ ] 写出单元利润公式，确保每个变量有业务含义且可反推
-- [ ] 为每个数字标注来源、时间范围、样本量、置信度；标记假设并控制占比 ≤30%
-- [ ] 做正向验证（与实际报表误差 ≤10%）、反向验证（盈亏平衡）、压力测试（关键变量恶化 20-30%）
-- [ ] 按 ABCD 分类确定建模精度，不为 C/D 类业务做 A 类精确模型
-- [ ] 建立季度/月度复盘机制，业务环境变化时重新分类并更新压力测试
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[yt-unit-model-selection]] — 先选单元，再建模型
-- [[yt-unit-model-benchmark]] — 模型建好后，用基准值验证数字合理性
-- [[yt-decision-y-model]] — Y 模型验证假设，本工具量化假设
-- [[master-first-principles]] — 用第一性原理检查公式中的关键假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

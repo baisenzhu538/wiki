@@ -1,6 +1,6 @@
 ---
 domain:
-  - modeling
+  - src_unknown
 
 
 
@@ -10,12 +10,12 @@ created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - "与解放思想层级的关系"
-  - "五层冰山"
-  - "五层穿透的实践要点"
-  - "从主观感受到能力建设的五层穿透"
-  - "深度复盘冰山图"
-  - "深度复盘冰山图：从主观感受到能力建设的五层穿透"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: "黄药师"
 source_refs:
 - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
@@ -30,7 +30,7 @@ yitang:
   module: "个人修炼"
   course_type: framework
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '复盘会大家情绪很激动，但只停在"我觉得不好"', 'framework_lens': '复盘停在主观感受层——没有进入客观事实和原因分析', 'follow_up_question': '我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽'}
   - {'signal': '复盘挖到了底层模型，但没有转化成能力建设计划', 'framework_lens': '复盘没有闭环——发现规律但不建设能力', 'follow_up_question': '这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？'}
@@ -38,11 +38,11 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - '[[yt-note-five-levels-training]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[yt-five-step-level-blindspots]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 深度复盘冰山图：从主观感受到能力建设的五层穿透
 
@@ -66,9 +66,9 @@ related:
 
 ### 五层穿透的实践要点
 
-- **L1→L2 最难启动**：大多数人复盘停在感受，因为找事实比发感慨痛苦
-- **L3→L4 最见功力**：找到原因不难，把原因提炼成可迁移的模型极难
-- **L4→L5 最有价值**：一次复盘的最大产出不是一个结论，而是一个新的组织能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与解放思想层级的关系
 
@@ -107,7 +107,7 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-liberate-thinking-layers]]
+- src_unknown
 
 ## Constraints & Boundaries
 

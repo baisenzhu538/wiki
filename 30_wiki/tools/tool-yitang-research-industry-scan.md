@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 行业扫描
-- 行业研究
-- 行业分析
-- 快速了解行业
-- 行业认知
-- 行业概况
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-yitang-research-best-practice]]'
-  - '[[framework-doris-industry-report-4step]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-validate-assumption]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-company-disassembly]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[framework-doris-industry-report-4step]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-research-ai-hallucination]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 行业扫描：快速建立行业全貌认知
@@ -82,9 +82,9 @@ Step 6: 输出行业认知
 | **时间范围** | 什么时候？ | "2020-2024" |
 
 ### 行业边界检查
-- 是否太宽？如"教育行业"太宽，应聚焦"K12在线辅导"
-- 是否太窄？如"小学三年级数学辅导"太窄
-- 是否可比较？如"在线教育"和"线下教育"是不同行业
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -138,21 +138,21 @@ Step 6: 输出行业认知
 ## 产业链图谱
 
 ### 上游
-- [参与者1] — 提供[什么]
-- [参与者2] — 提供[什么]
+- src_unknown
+- src_unknown
 
 ### 中游
-- [参与者1] — 提供[什么产品/服务]
-- [参与者2] — 提供[什么产品/服务]
+- src_unknown
+- src_unknown
 
 ### 下游
-- [参与者1] — 触达[什么用户]
-- [参与者2] — 触达[什么用户]
+- src_unknown
+- src_unknown
 
 ### 利润分布
-- 上游：[X]%
-- 中游：[Y]%
-- 下游：[Z]%
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键控制点
 1. [控制点1]
@@ -197,10 +197,10 @@ Step 6: 输出行业认知
 | **商业模式趋势** | 商业模式如何创新？ | 订阅制、平台化 |
 
 ### 变化识别方法
-- 对比过去3年和现在的数据
-- 关注行业新闻和事件
-- 访谈行业专家
-- 分析头部公司战略变化
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -215,25 +215,25 @@ Step 6: 输出行业认知
 [边界定义]
 
 ### 市场规模
-- 当前规模：[X]亿
-- 增速：[Y]%
-- 预测：[Z]亿（202X年）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 产业链结构
 [图谱摘要]
 
 ### 关键玩家
-- 领导者：[公司A] — [份额]%
-- 挑战者：[公司B] — [增速]%
-- 利基者：[公司C] — [细分市场]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 趋势和变化
 1. [趋势1] — 影响：[影响]
 2. [趋势2] — 影响：[影响]
 
 ### 机会和威胁
-- 机会：[机会1]、[机会2]
-- 威胁：[威胁1]、[威胁2]
+- src_unknown
+- src_unknown
 
 ### 结论
 [是否值得进入/投资/合作]
@@ -302,25 +302,25 @@ Step 6: 输出行业认知
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-company-disassembly]] — 公司拆解工具
-- [[tool-yitang-research-competitor-tracking]] — 竞对跟踪工具
-- [[yt-research-industry-canvas]] — 行业分析画布
-- [[framework-doris-industry-report-4step]] — 行业报告四步法
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 行业扫描模块
-- 交叉：Doris行业报告调研四步法
-- 注意：行业扫描是快速建立认知，不是深度调研，1-2天完成即可
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

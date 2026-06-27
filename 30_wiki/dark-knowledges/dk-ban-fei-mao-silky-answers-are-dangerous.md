@@ -5,7 +5,7 @@ title: '暗知：AI给的回答越丝滑，问题越大——"完全不等于可
 type: dk
 status: enriched
 domain:
-- ai-collaboration
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
@@ -13,37 +13,37 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-  - '[[case-ban-fei-mao-from-assignment-to-tool]]'
-  - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
-  - '[[tool-半肥猫-ai-research-validation]]'
-  - '[[case-ban-fei-mao-from-assignment-to-tool]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[tool-半肥猫-ai-research-validation]]'
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 丝滑回答陷阱已完整描述
-- 常见走偏模式已列出
-- 识别方法已提供
-- 案例已验证
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: AI首轮回答逻辑闭环、语言优美、充满自信，但没有数据或来源支撑
+- src_unknown
   lens: 生成合理文本 ≠ 事实可靠
   follow_up: '请用具体数据支撑这个结论；若无数据，请明确说"这是推理，缺乏证据"。'
-- signal: 回答使用"所有""都会""必然"等绝对化表述
+- src_unknown
   lens: 模型对不确定性毫无自觉
   follow_up: '请用条件性表述替代绝对表述，并标注已知限制。'
-- signal: 回答讨论"当前趋势"或"最新数据"但未标注时间范围
+- src_unknown
   lens: 训练数据存在截止日期
   follow_up: '请标注数据时间范围；若训练数据早于该时间，请明确告知。'
 ---
@@ -96,17 +96,17 @@ AI语言模型的核心能力是"生成合理、连贯、有说服力的文本"�
 
 ## 行动 Checklist
 
-- [ ] 下一次使用AI时，先检查首轮回答是否包含上述四种走偏模式中的任何一种。
-- [ ] 对"丝滑"回答，强制要求至少一条具体证据或数据来源。
-- [ ] 对涉及"最新""当前"的陈述，要求标注数据时间范围。
-- [ ] 对绝对化表述，要求改为条件性表述并列出例外。
-- [ ] 将常用纠偏指令沉淀到 [[tool-半肥猫-ai-research-validation]] 的模板库中。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡 / 互链
 
-- [[tool-半肥猫-ai-research-validation]]：工具-认知配套——告诉你"怎么纠偏"（六步闭环+纠偏模板库）。
-- [[case-ban-fei-mao-from-assignment-to-tool]]：实践验证——展示这个陷阱的真实后果。
-- [[dk-ban-fei-mao-real-business-is-the-engine]]：引用关系——"丝滑回答"的危险在于缺少真实业务验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

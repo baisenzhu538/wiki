@@ -13,16 +13,16 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Alternative data sources accessible to individuals
-- web: Google Trends, Reddit, Glassdoor, App Store APIs
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-media-verification-overview]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-alt-data-overview]]'
-  - "[[tool-alt-data-overview]]"
-  - "[[tool-yitang-database-index]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 免费替代数据
@@ -71,9 +71,9 @@ yt-dlp --write-auto-sub --sub-lang en --skip-download "VIDEO_URL"
 
 ## 适用边界
 
-- **适用**：小团队/个人创业者的日常调研需求
-- **不适用**：需要高精度数据的投资决策（免费数据的误差不可忽略）
-- **成本**：全部免费
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

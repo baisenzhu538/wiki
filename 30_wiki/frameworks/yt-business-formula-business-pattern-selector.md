@@ -7,18 +7,18 @@ title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - master
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- '#method/evaluation-method'
-- '#method/decision-framework'
-- '#content-format/framework'
-- '#domain/yitang'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -27,30 +27,30 @@ review_date: '2026-06-16'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-- signal: 团队一开口就是 GMV=流量×转化×客单价×复购，但不先判断业务是单次成交还是持续复购
+- src_unknown
   framework_lens: 公式范式错配——把通用电商公式套到非电商业务上
   follow_up_question: 如果客户买完这次后一年内不会回来，公式里的“复购”项还有意义吗？当前业务的老客户贡献占比是多少？
-- signal: 持续复购型业务的团队把资源全堆在拉新和首单成交，续费率/复购率持续走低
+- src_unknown
   framework_lens: 单次成交思维入侵持续复购业务
   follow_up_question: 你的收入中老客户贡献占比多少？如果低于50%，你可能在用“卖出去”的逻辑做“留得住”的生意
-- signal: 同一业务里既有单次成交段又有持续复购段，但只建了一个总 GMV 公式
+- src_unknown
   framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
-  - '[[yt-business-formula-ten-paradigms]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[case-toc-content-platform-correlation-trap]]'
-  - '[[yt-management-business-formula]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[yt-business-formula-ten-paradigms]]'
-  - '[[yt-business-formula-abc-model]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-unit-model-overview]]'
-  - '[[yt-entrepreneur-business-growth]]'
-  - '[[case-toc-ecommerce-formula-misjudgment]]'
-  - '[[case-private-domain-ecommerce-formula]]'
-  - '[[case-saas-renewal-formula]]'
-  - '[[case-dental-clinic-formula]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 
@@ -164,8 +164,8 @@ related:
 假设一家企业培训 SaaS 年 GMV 2000 万，续费率 50%，竞品 80%。
 
 **错误做法（单次成交思维）**：
-- 续费期加大电话触达、多送课程
-- 预期提升：续费率从 50% → 55%（效果有限，因为客户根本没用起来）
+- src_unknown
+- src_unknown
 
 **正确做法（持续复购思维）**：
 1. 拆分收入结构：`续费收入 = 活跃客户续费(70%) + 沉睡客户唤醒(20%) + 流失客户挽回(10%)`
@@ -179,6 +179,6 @@ related:
 
 ## 置信度说明
 
-- **高置信度**：单次成交型 vs 持续复购型的分类逻辑、对应公式范式（直接来自培训逐字稿与笔记）
-- **中置信度**：具体行业归属（基于案例的合理归纳，实际业务可能混合两种类型）
-- **待复核**：创新型业务、平台型业务的归类边界
+- src_unknown
+- src_unknown
+- src_unknown

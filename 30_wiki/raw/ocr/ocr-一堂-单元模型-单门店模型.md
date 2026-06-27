@@ -3,10 +3,10 @@
 title: "OCR: 一堂-单元模型-单门店模型"
 type: concept
 domain:
-  - kdo
-  - needs-review
-  - healthcare
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_f2aa0632
@@ -18,11 +18,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-单sku模型]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
-  - '[[ocr-一堂-单元模型-多模型情况]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -35,22 +35,22 @@ related:
 
 原图: `一堂-单元模型-单门店模型.
 
-*` - 堂十大单元模型之八：单门店模型 句话解释 按每个门店为物理空间，来计算单元模型 单足球场模型，单幼儿园模型，单学校模型， 常见变种 单医院模型，单办公楼模型，单商场模型 典型类型 服装店，奶茶店，餐饮店，便利店 建议要用 打算开连锁门店的，建议都要算 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+*` - 堂十大单元模型之八：单门店模型 句话解释 按每个门店为物理空间，来计算单元模型 单足球场模型，单幼儿园模型，单学校模型， 常见变种 单医院模型，单办公楼模型，单商场模型 典型类型 服装店，奶茶店，餐饮店，便利店 建议要用 打算开连锁门店的，建议都要算 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - src_unknown
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_f2aa0632-ocr-一堂-单元模型-单门店模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

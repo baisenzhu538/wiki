@@ -3,7 +3,7 @@
 id: "ocr-泛产品设计落地工具篇指南"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - src_unknown
 source_refs:
   - src_20260522_8bdb2970
 status: draft
@@ -11,17 +11,17 @@ title: "OCR: 泛产品设计落地工具篇指南"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂产品内核-十大典型指标]]'
-  - '[[ocr-泛产品设计落地篇]]'
-  - '[[ocr-一堂泛产品设计-多出牌多练习]]'
-  - '[[ocr-一堂五步法-产品内核画布]]'
-  - '[[ocr-泛产品设计的应用场景示意图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 泛产品设计落地工具篇指南
@@ -36,36 +36,36 @@ A8  自 🌈 😂 🌈    47a 8 9ara 10 11 12 努力仿真 顶层文档 管理�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 产品设计工具箱遵循"从看得见到磨得透"的执行路径，涵盖具象、打磨、青出于蓝三个阶段。
-- 工具矩阵按产品复杂度分层：独立小作品、复杂协作产品、高难度创新产品，填充色块区为最具挑战的部分。
-- 核心工具包含内核和边界、清单体笔记、十指讲评、善用佳软、原型Demo、设计原则六大基础模块。
-- 进阶执行工具涵盖努力仿真、顶层文档、管理三段论、定量分析、ROI分析、里程碑拆解六个环节。
-- 高阶创新工具包括风险管理、复盘迭代、假设拆解、灵感闪现、攻坚会、十倍速验证、解放思想七项方法。
-- 方法论强调"磨"的反复迭代：磨设计、磨方案、磨创新，适用于游戏、AI产品、体验设计、组织活动等多场景。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 原文中"从看得见到磨得透"的具体转化机制是什么？三个阶段（具象、打磨、青出于蓝）之间的递进标准和验收节点如何界定？
-- 工具矩阵的分层标准（独立小作品/复杂协作产品/高难度创新产品）缺乏量化指标，"填充色块区"的具体判定依据是什么？
-- "磨设计、磨方案、磨创新"的迭代循环中，如何判断"磨透"的终止条件，是否存在过度打磨的风险识别机制？
-- 19项工具之间的组合使用逻辑未明确：是线性递进、按需选配，还是存在强制性的前置依赖关系？
-- "一堂·坚持只做必修课"与工具箱的普适性声明之间存在张力——该方法论是否经过非培训场景（如企业内部自主应用）的有效性验证？
-- OCR质量严重受损导致多处关键信息缺失（如"1aa-2 3 4 5a 6"编号体系、"🌈 😂 🌈"符号含义、"47a 8 9ara"等乱码），这些视觉编码是否承载结构化信息需人工还原？
-- "管理三段论"的具体内容未在OCR中识别，其与经典管理理论（如PDCA、OODA）的关系是继承还是创新？
-- "十倍速验证"与"努力仿真"在资源投入和验证深度上是否存在冲突，有无优先级决策框架？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## Critique
 
 ### 内部局限
 
-- **宣传性与知识性的张力：本卡片内容可能来自课程宣传物料，"扫码辛苦学3天，不扫弯路走3年"等营销话术可能影响客观性。
-- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
-- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -79,20 +79,20 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 不要用的场景
 
-- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
-- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### 与本库其他概念的关联
 
-- [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- yt-decision-product-launch — 产品落地发布的方法论补充
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 产品设计者自我评估：用本框架快速定位自己的能力短板
-- 团队能力建设：将泛产品设计方法论作为团队培训的入门模块
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

@@ -4,35 +4,35 @@
 
 id: yt-tool-best-practice-learning
 component_of:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 confidence: 0.88
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-  - yitang- yitang
+  - src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-model-pan-product-aesthetic-toolkit
+- src_unknown
 query_triggers:
-- 最佳实践
-- 如何学习最佳实践
-- 建模
-- 案例池子
-- 如何快速入门新领域
-- 如何超越竞品
-- 体感培养
-- 如何提升审美
-- 设计感培养
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-prompt-iterative-prompting]]'
-  - '[[yt-model-pan-product-execution-toolkit]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[yt-tool-mental-model-refinement]]'
-  - '[[yt-model-pan-product-aesthetic-toolkit]]'
-  - '[[yt-personal-pan-product-aesthetics]]'
-  - '[[yt-tool-mental-model-refinement]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -42,20 +42,20 @@ title: 最佳实践学习四步法：从收集到超越
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 是否建立了明确的'水准'和评估维度（雷达图/分层权重模型）
+- src_unknown
   framework_lens: 建池 / 建模
   follow_up_question: 收集案例时是否只'看过'而没有建池和拆解？
-- signal: 每个模型建立后 30 天内是否在 ≥2 个真实项目中测试
+- src_unknown
   framework_lens: 实战反馈环 / 刻意练习
   follow_up_question: 模型是否停留在复制层面而没有经过真实场景验证？
-- signal: 收集案例是否主动包含跨领域/反常识来源以避免同质化
+- src_unknown
   framework_lens: 创新 / 盲区突破
   follow_up_question: 最佳实践水是否让产品越来越像行业平均水平？
-- signal: 设计决策是否先问'用户需要什么'再问'最佳实践怎么做'
+- src_unknown
   framework_lens: 用户中心 / 参考≠目标
   follow_up_question: 是否把'不比竞品差'当成设计目标？
 updated_at: '2026-06-16'
@@ -83,48 +83,48 @@ trust_level: medium-high
 
 ### claim:02 [conf=0.90][src: 泛产品设计审美口述版] 三种建模方法（从粗到精）
 
-- **方法A：N 个要素列表**（入门级）
-  - 把一个领域的好案例拆成 5-8 个关键要素，每个要素用一句话描述
-  - 例：好的登陆页 = 简单的表单 + 清晰的 CTA + 社会认同元素 + 安全感提示 + 手机适配
-  - **局限**：要素之间权重相同，无法区分"核心要素"和"加分项"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **方法B：雷达图**（**最推荐**）
-  - 选择 4-6 个关键维度，每个维度 1-5 分打分
-  - 把所有案例放到同一张雷达图上对比，视觉化地看到差距
-  - 例：评估产品设计 = 用户体验流畅度 + 视觉层次 + 信息架构 + 品牌一致性 + 性能优化
-  - **优势**：能同时看到"哪里强哪里弱"和"整体形状"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **方法C：分层权重模型**（高级）
-  - 先定义"合格线"——每个维度的最低可接受标准
-  - 再定义"加分项"——哪些维度对最终结果影响最大（加重）
-  - 例：投资评估 = 团队（权重 30%）+ 市场（30%）+ 产品（20%）+ 财务（20%），每个维度有合格线
-  - **优势**：能做出"拒绝/通过"的明确判断，不是"感觉还行“
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### claim:03 [conf=0.85][src: 泛产品设计审美口述版] 收集的三个常见失败模式
 
-- **失败模式A：只收集"自己觉得好的"——视野狰狽**
-  - 问题：只收集自己领域的案例，忽视跨领域的最佳实践
-  - 例：做 SaaS 产品的人只看 SaaS 案例，但游戏化设计、电商转化、内容运营中的好方法可能更适合他
-  - **解法**：每次收集时强制自己问"这个方法能用在我的 XX 场景吗？”——即使是跨行业的
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **失败模式B：收集了但从不回头看**——**存储危机**
-  - 问题：Truman 提到"知识管理不知道存哪，或者存了就丢了"
-  - 例：收藏夹里有 500 个案例，但做设计时从来想不起来
-  - **解法**：每个案例必须附带"进入标签"——用"场景+问题"而非"日期"来组织，例如"登录页-降低注册塑性“
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **失败模式C：只收集"最终产出“——缺少过程**
-  - 问题：只收集"这个APP长什么样“，但从不收集"他们怎么想到这个方案的“
-  - 例：看到一个好的登陆页，只截图了最终设计，但没收集“他们做了几轮 A/B 测试"“"用户反馈是什么"““最初的设计是怎么被否掉的"”
-  - **解法**：每个案例收集时必须记录"过程线索"——设计师的思路、关键决策点、弃用的方案
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### claim:04 [conf=0.82][src: 泛产品设计审美口述版] “超越”不是拼命，是“选择性超越”
 
-- Truman 的原话："有些事儿卡 60 分不重要，差不多 60 分就行。有的事是我们追求拉满，做到极限，甚至要超越最佳实践。"
-- **核心洞见**：不是每件事都要超越。要先识别出"战略要地"——那些对竞争优势最关键的环节
-- **超越的三种方式**：
-  - 方式一：**融合**——把 A 领域的最佳实践搭配到 B 领域（如把游戏化的成就系统用到 SaaS 用户激励上）
-  - 方式二：**打突破**——找到最佳实践的"隐含前提"并否定它（如"所有登录页都要简单"→"我们的登录页故意做得复杂以传达专业感"）
-  - 方式三：**系统性优化**——在某个维度上做到极致（如把"页面加载速度"从行业平均 2 秒做到 0.5 秒）
+- src_unknown
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 
@@ -167,46 +167,46 @@ trust_level: medium-high
 
 ### 成功案例：一堂大航海项目的最佳实践收集
 
-- **背景**：一堂准备做一个大型的产品实战项目（大航海），需要确定项目的设计语言和用户体验流程
-- **收集阶段**：团队扫描了"所有能找到的黑客马拉松、AI 类实战项目、各种大航海类项目“
-- **建水阶段**：把同类型项目的设计做法拉到一起，建立了一个"大航海设计语言水“——水平最高的 15 个项目放在一起对比
-- **拆解建模阶段**：建立了"大航海设计评估雷达图"——从"游戏化程度““学习目标清晰度““社区激励机制““项目节奏感“等 5 个维度评估
-- **超越阶段**：在“游戏化程度”维度上做出了“反常识”设计——大部分实战项目都是"严肃的学习任务“，一堂加入了"成就系统 + 排行榜 + 小组 PK“，让学习变成游戏
-- **结果**：项目完课率达到 **60%+（行业平均 30-40%）**，NPS 达到 **80%+**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 失败/边界案例：“最佳实践水”导致的设计灵活性丧失
 
-- **场景**：某产品经理在做一个新功能时，先收集了 20 个竞品的相关功能，建了一个“竞品功能对比表”
-- **问题**：他的设计决策变成了“让我们的表格功能不比竞品A差”，而不是“用户真正需要的是什么”
-- **结果**：产品上线后用户使用率低，因为“竞品都有的功能”不是“用户想要的功能”
-- **教训**：**最佳实践水是“设计参考”，不是“设计目标”**。先问"用户需要什么“，再问"最佳实践怎么做的“
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反常识案例：“超越”的方式一——跨领域融合
 
-- **现象**：某教育产品在用户激励上遇到瓶颈，学习完成率低
-- **收集**：产品经理在收集案例时不限于“教育产品”，还收集了游戏产品的成就系统（如 Steam 的奖杯系统、游戏里程式的任务设计）
-- **融合**：将“游戏化任务系统”融合到教育产品中——学习任务变成“成就“，完成任务解锁徽章，徽章可以展示在个人主页
-- **结果**：学习完成率提升 **35%**，用户自发分享率提升 **60%**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
 ### Wikilinks
 
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具包是本卡的父框架，提供了“审美”作为产品设计维度的评估方法
-- [[yt-personal-pan-product-aesthetics]] — 审美篇口述提供了本卡的原始素材，但本卡将口述中分散的“收集—建水—拆解—超越”提炼为系统化的四步法
-- [[yt-tool-mental-model-refinement]] — 思维模型提炼六步法中的“推对标”和“工业化压缩”与本卡的“拆解建模”是同一套逻辑——都是将零散的最佳实践提炼为可复用的模型
-- [[yt-tool-fab-persuasion]] — FAB 核心说服中的“销售话术”和“说服老板”场景需要最佳实践学习的“建水”支撑——你需要先收集一批优秀的销售话术案例，才能建立自己的说服模板
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Contradictions
 
-- vs [[yt-model-pan-product-aesthetic-toolkit]]：审美工具包是“审美”维度的评估方法，本卡是“最佳实践学习”的操作流程。不矛盾——审美工具包告诉你“什么是好的”，本卡告诉你“怎么学习好的”
-- vs [[yt-tool-mental-model-refinement]]：思维模型提炼是“从自己的实战中提炼”，本卡是“从别人的最佳实践中学习”。两者是“内生 vs 外生”的补充——最好的学习是先通过本卡快速达到行业平均水平，再通过思维模型提炼从自己的实战中反复超越
+- src_unknown
+- src_unknown
 
 ## Feedback
 
 ### 摩擦记录
 
-- **口述稿结构分散**：“收集—建水—拆解—超越”的四步法在口述中不是按顺序出现的，而是分散在多个章节中。特别是“超越”的部分在口述中只有两句话（“有的事追求拉满，甚至要超越最佳实践”），需要大量补充实战经验
-- **案例丰富度不足**：口述中的案例主要集中在“大航海项目”，但缺少其他行业的案例。本卡的案例中“跨领域融合”案例是基于一般性知识补充的，缺亏一堂原始素材的支撑
-- **建模方法的层级关系**：口述中提到了“N 个要素”“雷达图”，但没有提到“分层权重模型”。这是基于一堂其他课程（如投资评估课）的知识补充的，需要在 Synthesis 中注明来源
-- **实战验证环缺失**：本卡 claim:02 中补充了“实战验证环”（模型建立后 30 天内测试），但这个环节在口述中完全未提及——是对 Ericsson 批评的回应，但也是本卡的一个"空投“点
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

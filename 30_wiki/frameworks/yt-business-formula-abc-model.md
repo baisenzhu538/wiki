@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-business-formula-abc-model
 title: 业务公式 ABC 模型（Ambition-Basis-Connection）
@@ -19,14 +19,14 @@ review_date: '2026-06-20'
 confidence: 0.85
 trust_level: high
 related:
-  - yt-management-business-formula
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-business-formula-six-level-logic
-  - yt-business-formula-business-pattern-selector
-  - yt-business-formula-qualitative-metrics-library
-  - yt-unit-model-three-tools
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式 ABC 模型（Ambition-Basis-Connection）
 
@@ -119,17 +119,17 @@ related:
 
 ### + 关系 = 叠加关系
 
-- **业务含义**：各参数独立贡献，有一个就够了，多了更好。
-- **管理启示**：不要平均用力，找到一个足够强的维度重点投入。
-- **反例**：把满意度写成 `满意度 = 环境 × 教练 × 前台`，会要求每个维度都完美，导致资源分散。
-- **正确写法**：`满意度 = 环境满意度 + 教练满意度 + 前台服务满意度`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### × 关系 = 漏斗关系
 
-- **业务含义**：任一参数归零，结果就归零。
-- **管理启示**：必须逐个提升，找到当前最短的短板。
-- **反例**：把续卡率写成 `续卡率 = 满意度 + 到店习惯 + 价格接受度`，会忽略某个致命短板。
-- **正确写法**：`续卡率 = 满意度 × 到店习惯 × 价格接受度`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 拆解顺序：先切分（+），再拆转化（×）
 
@@ -142,10 +142,10 @@ A 渠道 GMV = 曝光量 × 点击率 × 转化率 × 客单价
 
 ### 相关 ≠ 因果
 
-- **相关关系**：两个变量同向变化，只能监控趋势。
-- **因果关系**：A 变化会导致 B 变化，可作为抓手。
-- **反例**：看到“投放量增加 → 营收增加”就继续加投放，可能 ROI 崩盘。
-- **正例**：区分“流量数量”与“流量质量”，找到真正影响转化率的因果变量。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 满意度不是续卡率的直接原因
 
@@ -161,16 +161,16 @@ A 渠道 GMV = 曝光量 × 点击率 × 转化率 × 客单价
 
 ## 验证与参考
 
-- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图.png`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md`
-- 关联 itingnao 录音：`src_20260614_6d9f7671`（一堂业务公式拆解培训）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：ABC 三要素框架、四种逻辑关系、两个公式取向（直接来自培训笔记和模型图）
-- **中置信度**：应用步骤中的「5 个变量」「3-5 个指标」等量化建议（来自讲师案例，未逐段核对逐字稿）
-- **待复核**：具体行业基准数字需结合最新行业报告更新
+- src_unknown
+- src_unknown
+- src_unknown

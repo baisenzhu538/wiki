@@ -13,12 +13,12 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: LangGraph Supervisor pattern (LangChain)
+- src_unknown
 related:
-  - '[[tool-agent-crawl4ai]]'
-  - '[[tool-agent-research-swarm]]'
-  - '[[framework-multi-agent-research-architecture]]'
-  - "[[framework-multi-agent-research-architecture]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Supervisor模式
@@ -31,16 +31,16 @@ related:
 Human: "调研竞对A的定价策略"
   ↓
 Supervisor: 拆解
-  - Worker1: 抓取A的官网定价页 + Wayback Machine历史价格
-  - Worker2: 搜索A的客户评价中的价格反馈
-  - Worker3: 社保/招聘数据分析A的团队规模和成本
+  - src_unknown
+  - src_unknown
+  - src_unknown
   ↓
 Worker1/2/3 并行执行 → 返回结果
   ↓
 Supervisor: 质量检查
-  - 三个Worker的结果一致吗？
-  - 有没有明显缺失的维度？
-  - 需要补充搜索吗？
+  - src_unknown
+  - src_unknown
+  - src_unknown
   ↓
 Supervisor: 合成最终报告
 ```
@@ -79,8 +79,8 @@ result = supervisor.run("调研竞对A的定价策略")
 
 ## 适用边界
 
-- **适用**：合规分析、报告生成、需要审计追踪的任务
-- **不适用**：高并发探索、低延迟要求
+- src_unknown
+- src_unknown
 
 ---
 

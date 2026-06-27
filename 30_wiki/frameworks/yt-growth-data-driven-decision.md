@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-a-b-testing
-  - yt-growth-cohort-analysis
-  - yt-growth-funnel-optimization
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们靠感觉做决策'"
+  - src_unknown
     framework_lens: 数据驱动增长决策——感觉不可靠，需要数据验证
     follow_up_question: "你的关键决策有数据支撑吗？数据是否准确、及时、可衡量？"
-  - signal: "用户说'我们数据很多，但不知道怎么看'"
+  - src_unknown
     framework_lens: 数据驱动增长决策——数据多≠洞察多，需要建立分析框架
     follow_up_question: "你的核心指标是什么？是否建立了指标体系和分析框架？"
-  - signal: "用户说'数据告诉我们应该这样做，但老板不同意'"
+  - src_unknown
     framework_lens: 数据驱动增长决策——数据需要与业务判断结合，不是替代
     follow_up_question: "数据结论是否清晰？是否与业务目标对齐？如何说服决策者？"
-  - signal: "用户说'我们分析了数据，但行动没效果'"
+  - src_unknown
     framework_lens: 数据驱动增长决策——分析到行动有 gap，需要实验验证
     follow_up_question: "你的分析是否形成了可验证的假设？是否设计了实验验证？"
-  - signal: "用户说'数据团队和业务团队脱节'"
+  - src_unknown
     framework_lens: 数据驱动增长决策——数据团队需要嵌入业务，不是独立
     follow_up_question: "数据团队是否了解业务目标？是否参与了业务决策？"
 
@@ -134,21 +134,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当做决策时 → 先问数据支撑
-- 当数据矛盾时 → 深入分析原因
-- 当实验失败时 → 分析学习
-- 当数据滞后时 → 结合判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-a-b-testing`：A/B测试
-- `yt-growth-cohort-analysis`：同期群分析
-- `yt-growth-funnel-optimization`：漏斗优化
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 数据驱动增长研究
-- 增长黑客实践
+- src_unknown
+- src_unknown
+- src_unknown

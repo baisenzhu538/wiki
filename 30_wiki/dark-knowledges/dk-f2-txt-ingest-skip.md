@@ -6,27 +6,27 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-002
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-002
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - '[[存储策略]]'
-  - '[[dk-f6-cjk-skeleton-corruption]]'
-  - '[[dk-f3-state-json-race-condition]]'
-  - '[[dk-p16-validate-reads-state-json]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
-  - '[[dk-f1-regex-on-cjk]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
@@ -57,11 +57,11 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 
 ## 使用场景
 
-- 你有 `.txt` 格式的口述稿或素材要导入 KDO，运行 `kdo ingest` 后看到无输出但以为成功了
-- 你写自动化脚本批量处理 `00_inbox/` 中的原始素材，脚本跑完但没有生成新的源文件
-- 你检查 `state.json` 确认 ingest 状态，发现 `ingested_inbox_files` 列表没有增加
-- 你在设计 KDO 的 ingest 管线，需要确认支持哪些输入格式
-- 你负责维护团队共享的 `00_inbox/`，需要防止成员误把非 .md 文件丢入
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -107,16 +107,16 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 **背景**：2026-05-03，Builder 将 12 份口述稿素材放入 `00_inbox/`，其中 8 份为 `.md`，4 份为 `.txt`。运行 `kdo ingest` 后，终端显示成功退出，日志无报错。
 
 **发生了什么**：
-- `kdo ingest` 只扫描 `.md` 文件，4 份 `.txt` 被静默跳过。
-- Builder 未检查 `state.json` 与 `10_raw/sources/`，误以为 12 份素材已全部入库。
-- 两天后需要引用其中一份 `.txt` 口述稿时，发现 `10_raw/sources/` 中不存在对应源文件，且原始 `.txt` 已被整理脚本删除。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **结果**：4 份口述稿永久丢失，相关 wiki 页面被迫标注为 `source_missing`。
 
 **可迁移教训**：
-- 监控指标：`00_inbox/` 中的非 `.md` 文件数、ingest 前后 `state.json` 的 `ingested_inbox_files` 差值、`10_raw/sources/` 新增文件数。
-- 修复动作：在 ingest 脚本中加入前置检查，发现非 `.md` 文件时立即报错或自动转换。
-- 事后核对：每次 ingest 后运行 `git diff .kdo/state.json` 或保存 state 快照，确保输入输出一一对应。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Ingest 前检查清单
 
@@ -132,20 +132,20 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 
 ## 为什么值钱
 
-- 这是 KDO CLI 特有的行为：`kdo ingest` 的扩展名白名单只包含 `.md`，非 `.md` 被设计为"静默跳过"而非报错
-- **"返回成功但什么都不做"是最危险的失败模式**：exit code 为 0，日志里没有 error，你唯一发现的方式是事后检查 `state.json` 或源文件目录
-- 暴露了 CLI 工具中"静默跳过"这一反模式：对不支持的输入格式，应该选择报错（fail fast）还是静默跳过？KDO 选择了后者，代价是用户需要靠经验才能发现
-- 任何 AI 训练语料中都不会有"kdo ingest 跳过 .txt 但返回成功"这条知识——这是具体工具实现层面的暗知识
-- 一旦在自动化流水线中漏过，原始素材可能被后续清理脚本删除，造成**不可逆的数据丢失**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-c3-txt-ingest-skip]] — corrections 层面的具体事故记录：2026-05-03 Builder 报告 .txt 被 ingest 静默跳过。F-KDO-002 是这个具体事故的模式化抽象
-- [[dk-c1-cjk-regex-silent-fail]] — 同一模式：KDO CLI 工具的"静默失败"。C-1 是 enrich 对中文返回 0，F-KDO-002 是 ingest 对 .txt 跳过——两者都是"exit code 为 0 + 无实质输出"
-- [[dk-f1-regex-on-cjk]] — 同一来源：`90_control/failure-modes.md` 中 F-KDO-001 与 F-KDO-002 都是 KDO 对非标准输入的静默处理缺陷
-- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。F-KDO-002 是"ingest 工具扩展名白名单盲区"的具体案例
-- `90_control/failure-modes.md` → F-KDO-002（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #3（不准用 `kdo ingest` 处理 .txt 文件）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-05-31）
 

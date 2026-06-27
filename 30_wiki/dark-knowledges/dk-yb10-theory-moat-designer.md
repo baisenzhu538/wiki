@@ -6,34 +6,34 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- design
-- business-strategy
+- src_unknown
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 10_raw/sources/src_20260604_design-ai-basics-01.md
+- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - '[[dk-yb6-midjourney-chinese-text-fix]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
-  - '[[dk-yb20-ai-eye-high-principle]]'
-  - '[[dk-yb5-style-asset-archive]]'
-  - '[[dk-yb13-zero-shot-style-transfer]]'
-  - '[[dk-yb22-visual-presentation-scene-match]]'
-  - '[[dk-yb1-aigc-mvp-before-ps]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 diagnostic_signals:
-- signal: 设计师学了大量AI提示词技巧但产出质量仍不稳定——会"用"AI但不会"判"AI
+- src_unknown
   framework_lens: 执行冗余、判断缺失——AI抹平了执行差距，放大了"为什么这样排/配/选"的理论决策差距
   follow_up_question: 你能不借助AI，用版式/配色/字体理论解释为什么某张图"好看"吗？如果不能，AI出的图你也判断不了好坏。
-- signal: 团队培训预算全投在AI工具培训上，经典设计理论培训被砍掉
+- src_unknown
   framework_lens: 投资错位——在AI抹平执行差距的时代，理论判断力反而升值
   follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？
 ---# AI时代设计师的理论护城河
@@ -73,9 +73,9 @@ AI工具普及后感到焦虑、试图通过堆砌提示词替代设计能力的
 
 ## 行动 Checklist
 
-- [ ] 上次重读设计理论书籍是什么时候？（版式/配色/字体三本核心教材）
-- [ ] 最近一次用AI出图后，是否用理论框架自评过产出质量？
-- [ ] 团队培训预算中，AI工具和设计理论的比例是否合理？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -83,5 +83,5 @@ AI工具普及后感到焦虑、试图通过堆砌提示词替代设计能力的
 
 ## 与其他知识的关联
 
-- dk-yb13-taste-inward-aesthetic-outward — 审美向外，品味向内：AI出图质量的本质
-- dk-yb22-ai-eye-high-principle — AIGC眼高原则：审美先于技术
+- src_unknown
+- src_unknown

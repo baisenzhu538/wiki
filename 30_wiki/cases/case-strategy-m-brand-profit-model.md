@@ -13,12 +13,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 related:
-  - '[[tool-yitang-wechat-group-infiltration]]'
-  - '[[tool-yitang-social-engineering-research]]'
-  - '[[dk-yitang-cross-case-pattern-identity-escalation]]'
-  - '[[tool-strategy-profit-model-comparison]]'
-  - "[[tool-strategy-value-capture]]"
-  - "[[framework-strategy-business-design]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式
 
@@ -34,5 +34,5 @@ related:
 **M品牌选择**：代理加盟模式——品牌商仅保留品类规划和定价权，货品所有权、现金流、店铺经营权全部下放给加盟商
 
 **核心洞察**：
-- 代理加盟的"轻"是有代价的：品牌商经营成本最低、扩张最快，但对终端体验几乎没有管控
-- 选择模式不是选"最轻"，而是选"与战略控制点匹配"：如果你靠品牌溢价和体验取胜，直营/强类直营更适合；如果你靠渠道密度和供应链效率取胜，代理加盟可以放大规模
+- src_unknown
+- src_unknown

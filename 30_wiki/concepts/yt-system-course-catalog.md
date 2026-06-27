@@ -7,18 +7,18 @@ source_refs:
 - src_20260614_8f80cb0f
 status: enriched
 domain:
-- yitang
+- src_unknown
 yitang:
   map: system
   module: "课程体系"
   course_type: reference
   level: foundational
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md"
+  - src_unknown
 created_at: 2026-05-07
 estimated_tokens: 3200
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '学习者是否能在 1 分钟内根据当前问题定位到 1 门可直接应用的课', 'framework_lens': '需求-供给匹配 / 索引效率', 'follow_up_question': "目录是按'我们有什么课'还是'你正在面对什么问题'组织？"}
   - {'signal': "每门课后是否有'三天内应用'或等效行为转化机制", 'framework_lens': '学习迁移 / 行为改变', 'follow_up_question': '完成率是否被误当成能力转移率？'}
@@ -239,9 +239,9 @@ trust_level: medium
 
 ## 选课说明
 
-- **快捷选课口令**：在一堂直播间中发送口令即可选课
-- **课表更新**：本课表更新于2025年08月，每月关注最新课表
-- **完整课表**：在"一堂选课中心"服务号中输入【课表】获取
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -300,12 +300,12 @@ trust_level: medium
 
 ### 关联卡片
 
-- [[yt-system-course-map-lecture]] — 一堂课程地图精华串讲（yitang 域）
-- [[yt-model-ipo-complete-checklist]] — IPO 完整清单（课程→IPO 要素映射，yitang 域）
-- [[yt-case-mandatory-cases]] — 案例学习框架（yitang 域）
-- [[一堂]] — 平台总页（yitang 域）
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：课程目录是武器库的"武器说明书索引"——它告诉你有哪些武器、在哪能找到。但 Perkins 的警告在此处变得锋利：读完索引不会让你变成战士——你需要在战场上同时拔出 ≥3 把武器才知道它们的真正重量。Illich 补刀：一本太厚的说明书——会让人忘记武器是用来用的、不是用来读的
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：50+ 门课的目录本身是一段香——它在对学习者说："你看，通往能力的路已经被完整地画好了。" 这段香的诱惑力是它最大的危险：Perkins 会说这条路你没法走完全程——你需要跳出去打完整场比赛；Illich 会说这条路并不比你自己踩出来的路更好——只是看起来更安全
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 

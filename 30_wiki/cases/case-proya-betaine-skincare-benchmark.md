@@ -15,13 +15,13 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - '[[case-demand-equestrian-three-tasks]]'
-  - '[[case-demand-pharma-bigdata]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[tool-yitang-financial-report-intelligence]]'
-  - "[[tool-yitang-financial-report-intelligence]]"
-  - "[[tool-yitang-comparable-company-selection]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解
@@ -29,11 +29,11 @@ related:
 **调研对象**：贝泰妮（薇诺娜品牌母公司），国产敏感肌护肤品龙头。
 
 **从招股书中提取的关键数据**：
-- 需求：35%中国女性是敏感肌人群，复购率接近30%
-- 市场：护肤品市场2441亿，年均增速10.1%
-- 收入结构：87%来自护肤品
-- 渠道：线上自营占主导（77%），客单价线上<500元
-- 壁垒：研发费用率全行业最高，皮肤学级化妆品定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **方法论**：徐鱼用一堂五步法（需求→解决方案→商业模式→增长→壁垒）系统拆解了贝泰妮招股书的业务章节。
 

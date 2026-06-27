@@ -6,32 +6,32 @@ confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - yitang- entrepreneur
-  - master
-  - ai
+  - src_unknown
+  - src_unknown
+  - src_unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-construction
+- src_unknown
+- src_unknown
 query_triggers:
-- AI 单元模型
-- TCP-R 双导师
-- 出口式咨询
-- 教学教练
-- 咨询教练
-- AI 商业分析
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[yt-unit-model-dynamic]]'
-  - '[[master-systems-thinking]]'
-  - '[[yt-unit-model-construction]]'
-  - '[[yt-decision-ai-partner]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -49,16 +49,16 @@ yitang:
 author: 老顽童
 reviewed_by: 欧阳锋
 diagnostic_signals:
-- signal: AI 生成的拆推评算初稿是否在 2 小时内获得人工校验
+- src_unknown
   framework_lens: 人机协作 / 质量控制
   follow_up_question: 是否直接把 AI 输出当作最终结论？
-- signal: 是否用 AI 进行盲区扫描并识别 ≥2 个之前未意识到的错误
+- src_unknown
   framework_lens: 盲区检测 / 双导师
   follow_up_question: AI 辅助是否只加速了错误模型的生成？
-- signal: 单元模型分歧是否被追溯到根因假设（数据/前提/利益）
+- src_unknown
   framework_lens: 假设透明 / 对齐
   follow_up_question: 团队是否只争论数字而不暴露底层假设？
-- signal: AI 生成的咨询/教学输出是否标注置信度和人工复核点
+- src_unknown
   framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-18'
@@ -85,9 +85,9 @@ AI+单元模型不是让 AI 替代人的商业判断，而是让 AI 成为"TCP-R
 
 **如果以下情况，不用本工具：**
 
-- 你对单元模型的基本概念还不清楚（先用 [[yt-unit-model-overview]]）。
-- 你期望 AI 直接给出"正确决策"（AI 不能替代商业判断）。
-- 你的业务数据高度敏感，无法输入任何外部系统。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. TCP-R 双导师框架
 
@@ -109,9 +109,9 @@ TCP-R 框架
 
 **关键原则**：
 
-- T 和 C 是"双导师"，不是"单导师"——T 负责"教你对什么"，C 负责"帮你做到"。
-- P 是"工具"，不是"答案"——AI 帮你算，但你自己判断。
-- R 是"出口"——所有分析最终要能对外交付、被他人理解、形成共识。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. AI 在单元模型中的四阶应用
 
@@ -146,9 +146,9 @@ Pearl 强调相关性不等于因果性。AI 辅助单元模型分析偏向于�
 
 Morozov 在《To Save Everything, Click Here》中的批判对 AI+单元模型的启示：
 
-- **AI 可能在解决"错误的问题"**：把复杂的商业问题简化为可计算的问题。创业者可能误以为"只要单元模型算对了，业务就能成功"，但商业失败往往不是"算错了"，而是"算错了问题"。
-- **"出口式咨询"可能沦为"算法正当化"**：AI 生成的精美报告可能让"拍脑袋决策"看起来像是"数据驱动决策"。
-- **双导师框架可能掩盖权力结构**："AI 教练"看似中立，但训练数据、算法逻辑、输出格式都带有特定价值观。盲目信任可能是在服从"算法权威"而非"商业理性"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当业务问题的核心是"人"（团队信任、合伙人冲突、创始人心力）而非"数"时，AI+单元模型不仅无效，还可能通过"数字化的虚假确定性"延误真正需要解决的问题。
 
@@ -158,18 +158,18 @@ Morozov 在《To Save Everything, Click Here》中的批判对 AI+单元模型�
 
 Postman 在《Amusing Ourselves to Death》中提出的"媒介即隐喻"理论，对 AI+单元模型的批判：
 
-- **AI 可能重塑创业者的思维方式**：AI 媒介可能将"商业分析"简化为"输入-输出"的快餐式交互。创业者习惯了"问 AI 要答案"，可能丧失"自己思考"的能力——这正是单元模型最核心的价值（培养商业直觉）。
-- **"出口式咨询"的报告格式可能限制思考深度**：AI 生成的"标准报告模板"可能让创业者的分析"标准化"而非"深度化"，导致分析趋同、创新丧失。
-- **"双导师"模式可能制造"虚假陪伴感"**：AI 教练 24 小时在线，但它不是真人——没有利益冲突、没有情感投入、没有真实经验。过度依赖可能忽视寻找真人导师/顾问的重要性。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **失效场景**：当创业者将 AI 教练等同于真人教练、将 AI 报告等同于深度分析、将"算得清"等同于"想得清"时，AI+单元模型从"工具"退化为"认知拐杖"。
 
 ### 6. 内部局限
 
-- **AI 的"幻觉"问题**：大语言模型可能生成看似合理但完全错误的数据或逻辑。在单元模型中，一个错误的"行业基准值"可能导致完全错误的方向。
-- **"双导师"框架的权责不清**：T 和 C 的边界模糊，实际使用中可能出现"T 做了 C 的事"或"C 做了 T 的事"，导致用户体验混乱。
-- **出口式咨询的"模板依赖"**：如果所有创业者都用同一套 AI 模板生成报告，投资人看到的将是"千人一面"的分析，反而降低了区分度。
-- **数据隐私和知识产权风险**：将业务数据输入 AI 系统可能带来泄露风险，特别是涉及核心商业机密的单元模型数据。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 边界
 
@@ -203,12 +203,12 @@ Postman 在《Amusing Ourselves to Death》中提出的"媒介即隐喻"理论�
 
 ## 行动 Checklist
 
-- [ ] **时间紧迫时**：在一周内需要完成单元模型分析 → 用 AI 做"第一轮拆推评算" → 2 小时内获得"可用但不完美"的初稿，再花 1 天人工校验和迭代。
-- [ ] **盲区扫描时**：不确定模型是否有盲区 → 让 AI 基于"15 个常见错误清单"逐项检查 → 找出至少 2 个之前未意识到的盲区，并产出"修正行动计划"。
-- [ ] **对外展示时**：需要向投资人展示单元模型 → 用 AI 做"出口式咨询报告" → 报告能让非财务背景的合伙人在 5 分钟内理解核心逻辑。
-- [ ] **团队分歧时**：团队对单元模型有分歧 → 让 AI 分别生成"甲方立场"和"乙方立场"的模型 → 找到分歧的"根因假设"（数据不同？前提不同？利益不同？）。
-- [ ] **质量控制时**：AI 生成初稿后 → 标注置信度和人工复核点 → 明确"哪些数字/结论需要二次验证"。
-- [ ] **能力保护时**：使用 AI 前 → 要求人工先独立拆推评算 → 再用 AI 辅助，避免建模能力退化。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 

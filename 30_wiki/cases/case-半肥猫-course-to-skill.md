@@ -5,63 +5,63 @@ title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课
 type: case
 status: enriched
 domain:
-- skill-engineering
-- yitang
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 - 10_raw/sources/src_20260617_629e996c-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 tags:
-- '#perspective/professional'
-- '#confidence/source-cited'
-- '#confidence/verified-by-case'
-- '#confidence/verified-by-test'
-- '#domain/skill-engineering'
-- '#domain/yitang'
-- '#scene/agent-infrastructure/skill-registry'
-- '#scene/ai-collaboration/problem-validation'
-- '#scene/business-analysis/conversion-rate'
-- '#scene/knowledge-management/case-library'
-- '#scene/knowledge-management/tagging'
-- '#scene/learning-methodology'
-- '#scene/note-taking'
-- '#scene/skill-engineering/course-to-skill'
-- '#scene/skill-engineering/eval-testing'
-- '#scene/skill-engineering/manifest-design'
-- '#scene/skill-engineering/publish-deploy'
-- '#content-format/case-study'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-17'
 related:
-  - '[[case-ban-fei-mao-skill-ab-test]]'
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[dk-ban-fei-mao-skill-rejection-value]]'
-  - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-  - '[[case-ban-fei-mao-conversion-hacker-skill]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[case-纪浩-focus-prompt-design]]'
-  - '[[case-纪浩-from-zip-to-five-layers]]'
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[yt-business-analysis-cognitive-biases]]'
-  - '[[yt-five-step-level-blindspots]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 半肥猫
 reviewed_by: 老顽童
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- signal: 用通用 AI 问"怎么提高转化率"，得到流畅方案但没有评分标准和风险分级
+- src_unknown
   framework_lens: 缺少诊断协议与边界约束
   follow_up_question: 你的 Skill 有没有明确的评分规则、适用边界和风险分级？没有的话输出就是"裸 AI"。
-- signal: 课程听完了、笔记做了很多，但每次遇到真实问题还是从头开始
+- src_unknown
   framework_lens: 知识未工程化为可调用 Skill
   follow_up_question: 这门课的核心方法能不能写成"输入→处理→输出→校验"四段式协议？
-- signal: 做了一个 AI 工具，输出很流畅但不敢在真实决策中使用
+- src_unknown
   framework_lens: 证据链未校准
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
-- signal: 团队里每个人都在用 AI，但好的 prompt 无法复用、版本混乱
+- src_unknown
   framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
 ---
@@ -256,12 +256,12 @@ diagnostic_signals:
 
 ## 单卡收尾检查
 
-- [x] `status` 已从 `draft` 改为 `enriched`
-- [x] `reviewed_by` 已更新为 `老顽童`
-- [x] `updated_at` 已更新为 `2026-06-17`
-- [x] `diagnostic_signals` ≥ 3（实际 4 条）
-- [x] 适用边界 ≥ 4（实际 5 条）
-- [x] 常见失败模式 ≥ 4（实际 5 条），每条含真实症状 + 可执行修复
-- [x] 新增至少 1 个模板/checklist（课程转 Skill 预检清单）
-- [x] 新增至少 2 条互链（实际新增 5 条：[[case-纪浩-from-zip-to-five-layers]]、[[kdo-ec-industrialization-migration-proposal]]、[[modeling-capability-for-kdo]]、[[yt-business-analysis-cognitive-biases]]、[[yt-five-step-level-blindspots]]）
-- [x] 正文包含 Background / What Happened / 结果 / 可迁移 / 诊断信号 / Constraints & Boundaries / 常见失败模式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

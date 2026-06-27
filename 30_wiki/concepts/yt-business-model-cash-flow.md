@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-unit-economics
-  - yt-business-model-cac-ltv
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户利润高，但现金流紧张"
+  - src_unknown
     framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
     follow_up_question: "你的现金周期多长？应收账款、库存、应付账款各占多少？"
-  - signal: "用户说'我们增长很快，但总是缺钱'"
+  - src_unknown
     framework_lens: 现金流管理——增长消耗现金，需要管理现金缺口
     follow_up_question: "你的增长需要多少现金投入？现金缺口多大？融资计划是什么？"
-  - signal: "用户应收账款周期长，资金被占用"
+  - src_unknown
     framework_lens: 现金流管理——应收账款影响现金流
     follow_up_question: "你的应收账款周期多长？如何缩短？"
-  - signal: "用户库存积压，资金沉淀"
+  - src_unknown
     framework_lens: 现金流管理——库存占用现金
     follow_up_question: "你的库存周转率是多少？如何优化库存？"
-  - signal: "用户说'我们先烧钱，以后再盈利'"
+  - src_unknown
     framework_lens: 现金流管理——烧钱需要计划，不是无限
     follow_up_question: "你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？"
 
@@ -132,21 +132,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当评估商业模式时 → 分析现金流
-- 当利润高但现金紧张时 → 优化现金周期
-- 当快速增长时 → 管理现金缺口
-- 当融资时 → 展示现金流健康度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-unit-economics`：单元经济学
-- `yt-business-model-cac-ltv`：CAC与LTV计算
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 现金流管理研究
-- 财务管理基础
+- src_unknown
+- src_unknown
+- src_unknown

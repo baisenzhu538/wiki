@@ -4,41 +4,41 @@ title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留�
 type: tool
 status: enriched
 domain:
-- learning-methodology- yitang
-- note-taking
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-- '[[ocr-一堂-单元模型-tcpr底层网络协议]]'
-- '[[tool-note-layer-constraint]]'
-- '[[tool-note-keyword-bolding]]'
-- '[[yt-note-checklist-concept]]'
-- '[[tool-note-layer-constraint]]'
-- '[[tool-note-keyword-bolding]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
-- '#perspective/compliance'
-- '#perspective/professional'
-- '#scene/ai-collaboration'
-- '#method/learning-method'
-- '#content-format/checklist'
-- '#scene/product-design/design-freeze'
-- '#scene/skill-engineering'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 trust_level: medium
 updated_at: '2026-06-18'
 diagnostic_signals:
-- 笔记行数超过500字仍未使用一行一点压缩
-- 单行超过20字或脱离上下文后无法理解
-- 行动项缺少主语、关键词或关键动作
-- 会议记录被反馈“看不懂”“像小作文”
-- AI对清单体输入的理解准确率明显下降
-- 复盘时无法在10秒内还原当时的核心判断
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 
@@ -83,28 +83,28 @@ diagnostic_signals:
 
 ## 边界
 
-- **只用于清单体/结构化笔记**，不用于叙事、文学、法律原文。
-- **精简后必须保留决策上下文**：砍掉解释不代表砍掉前提，否则行动项失去依据。
-- **“一行”是语义单元，不是物理换行**：同一条信息若超出20字，应拆成父子层级，而非硬砍。
-- **AI辅助限于冗余扫描**：最终语义判断仍需人工完成，避免误砍关键限定词。
-- **训练期允许妥协**：新学习者可以先放宽到“每行20字”，稳定后再压到15字以内。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Protocol
 
 ### 步骤1：识别“信息承载者”与“噪音”
 
 **信息承载者**（必须保留）：
-- **主体词**：谁/什么在做这件事（用户流失率、产品定位、团队文化）
-- **关键词**：决定这句话含义的核心概念（同比、环比、A/B测试、MVP）
-- **关键动作**：需要执行的具体行为（验证、迭代、复盘、对齐、下沉）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **噪音**（必须砍掉）：
-- **语气词**：啊、呢、吧、嘛、哦
-- **插入语**：括号里的补充说明、破折号后的解释
-- **修饰语**：非常、很、特别、一定程度上、基本上
-- **连接词**：所以、因此、但是（在清单体中，层级关系通过缩进表示，不需要文字连接词）
-- **重复信息**：前面已经说过的内容
-- **常识性表述**：众所周知、不言而喻
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **Truman原话**：“主体词、关键词和关键动作都得保留，语气词、插入语、解读细节、修饰语如果非必要的话全拿掉都用不着。”
 
@@ -117,9 +117,9 @@ diagnostic_signals:
 ```
 
 **判断标准**：
-- 精简后的每行不超过20个字（理想12-15字）
-- 每行必须能被**单独理解**（不需要看上下文）
-- 每行必须包含**至少一个可执行信息**
+- src_unknown
+- src_unknown
+- src_unknown
 
 **示例对比**：
 
@@ -188,13 +188,13 @@ diagnostic_signals:
 每个人有自己的口语习惯。记录自己**最常砍掉的词**，建立自己的“冗余黑名单”：
 
 **常见高频冗余词**：
-- 我觉得、我认为、我感觉
-- 可能、大概、也许、应该
-- 非常、很、特别、一定程度上
-- 就是、那个、这个
-- 然后、接着、之后
-- 基本上、总体上、一般来说
-- 众所周知、不言而喻、显而易见
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **操作**：连续记录3次自己的精简过程，找出**重复出现的被砍词汇**。把这些词写入自己的“冗余黑名单”，下次记录时**自动跳过**。
 
@@ -213,16 +213,16 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 打开待精简的清单体笔记，先做一次“字数扫描”：超过500字即触发精简。
-- [ ] 逐行检查：是否有主体词、关键词、关键动作？缺少则补全或删除。
-- [ ] 标红六类噪音：语气词、插入语、修饰语、连接词、重复信息、常识性表述，统一砍掉。
-- [ ] 控制每行字数：先保证≤20字，熟练后追求12-15字。
-- [ ] 降级补充信息：数据来源、负责人、DDL、优先级、相关文档用括号/`@`/符号/链接标注。
-- [ ] 做“3秒测试”：让同事看精简后的笔记，3秒内复述核心信息。
-- [ ] 用AI做冗余度扫描，再人工做语义判断，避免误砍。
-- [ ] 记录自己本轮最常砍的词，更新个人“高频冗余词库”。
-- [ ] 计算“原始字数 ÷ 精简字数”，若<2则继续压缩；若理解准确率<80%则回退检查。
-- [ ] 保存精简版本，与原始版本用版本号或折叠块区分，便于事后复盘。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Example
 
@@ -241,13 +241,13 @@ diagnostic_signals:
 ```
 
 **问题诊断**：
-- 行1：“我们团队”“做了一个”是冗余，“有上升”不如“↑15%”精确
-- 行2：“然后我们就分析了一下”“觉得”“可能”全是冗余
-- 行3：“因为”“所以”在清单体中不需要（层级关系用缩进表示）
-- 行4：“所以”“建议”“重新”“一下”是冗余
-- 行5：“具体来说”“可以”“来解决”是冗余
-- 行6：“然后”“还需要看一下”“是怎么做的”是冗余
-- 行7：“我觉得”“可能”“会比较好”是主观判断，不是事实
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### ✅ 正例：精简后的笔记
 
@@ -264,26 +264,26 @@ diagnostic_signals:
 ```
 
 **关键改进**：
-- 7行→4行，信息密度提升75%
-- 砍掉18处冗余成分
-- 补充信息降级到括号，不打断主阅读流
-- 行动项带负责人和DDL，可直接执行
-- 风险项用🔴标记，决策层3秒定位
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例：Truman自己的精简训练
 
 Truman在口述中提到自己的进化路径：
 
-- **2012年**（刚毕业）：“我那时候笔记写得特别详细，基本上讲者说什么我记什么，一节课能记20页”
-- **2014年**：“开始强迫自己每节课只记1页A4纸，逼着自己做选择——什么重要什么不重要”
-- **2016年**：“基本上能做到一行一点了，而且每行不超过15个字”
-- **2018年至今**：“现在听任何内容，我耳朵和笔是同步的——讲者说完一句话，我脑子里已经完成了精简，手上写的就是精简后的版本”
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 他的训练方法是：**“给自己设置硬性约束，然后逼迫大脑适应”**。比如：
-- 第一周：限制每页不超过20行
-- 第二周：限制每行不超过20字
-- 第三周：限制每行不超过15字
-- 第四周：要求每行必须包含一个关键动作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **关键洞察**：“一行一点”不是写作技巧，而是**认知筛选能力**的外化。当你能在一行内表达清楚，说明你已经在脑子里完成了“什么是重要的”这个判断。
 
@@ -299,11 +299,11 @@ Truman在口述中提到自己的进化路径：
 
 ## 相关卡/互链
 
-- [[tool-note-layer-constraint]]：用分层约束解决“信息该放在哪一层”，与一行一点共同控制笔记结构。
-- [[tool-note-keyword-bolding]]：在压缩后的单元中用加粗标出视觉重心，形成“压缩+标记”双层体系。
-- [[yt-note-checklist-concept]]：一堂清单体笔记的基础概念，理解其“可执行信息单元”的定位。
-- [[dk-note-surplus-brainpower]]：解释一行一点背后的高阶认知操作——实时加工而非简单记录。
-- [[dk-note-maximum-common-divisor]]：说明AI友好型笔记的核心在于减少token噪声、提高信息密度。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -3,23 +3,23 @@ id: tool-代入场景推演要素法
 title: 技能：代入场景推演要素法
 type: tool
 domain:
-- learning-methodology
-- decision-making
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
 - src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 流程图
-- 角色扮演
-- 沙盘推演
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:09:00+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-对标借鉴他人决策维度]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-将未中标成本纳入循环计算真实投标成本]]'
-- '[[tool-复盘推演练习]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：代入场景推演要素法
 
@@ -45,26 +45,26 @@ related:
 4. 记录每个环节触发的关键要素
 
 ## 适用场景
-- ✅ 抽象决策难以落地时
-- ✅ 要素清单过于理论化、缺乏实操感时
-- ❌ 高度标准化、重复性决策
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 场景化激活具身认知，将抽象决策转化为具体情境中的触点，减少'纸上谈兵'式遗漏
 
 ## 工具/环境
-- 流程图
-- 角色扮演
-- 沙盘推演
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程，src_20260609_44a9e79a，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

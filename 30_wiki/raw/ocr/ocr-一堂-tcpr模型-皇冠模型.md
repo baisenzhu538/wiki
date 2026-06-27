@@ -3,13 +3,13 @@
 title: "OCR: 一堂-TCPR模型-皇冠模型"
 type: concept
 domain:
-  - management
-  - product
-  - needs-review
-  - finance-legal
-  - design
-  - yitang
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_818119f0
@@ -21,11 +21,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
-  - '[[ocr-一堂-单元模型-找全成本实操难点]]'
-  - '[[ocr-萃取总结]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -41,27 +41,27 @@ R研究   T教学 C咨询 P实践 R研究 TEACH CONSULT PRACTICE RESEARCH 科学
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- TCP-R皇冠模型是一个整合教学(T)、咨询(C)、实践(P)、研究(R)四大能力模块的共识框架，旨在统揽万人规模的知识工作者体系。
-- 四大模块各自对应核心方法论：教学侧强调科学表达、IPO知识树、十指讲香、十层解读；咨询侧聚焦学会提问、深度思考、教练式引导、出口式咨询；实践侧围绕刻意练习、低成本验证、Y模型实操、躬身入局解题；研究侧注重内核边界、辨证讨论、爆炸式研究、千人广场建模。
-- 每个模块设计三级实践路径：基础行动（如团队分享、1V1辅导、假设驱动做事、提炼方法论）、进阶角色（训战教练、2B咨询专家、最佳实践案例、课题主理人）、高阶认证（Mini工作坊教练、MBA助教、私董会案主、参与教研GAP）。
-- 模型强调"抓住机会"的即时转化原则——教、辅导、做、研究均需嵌入真实工作场景而非脱离实践。
-- 关键底层能力包括写逐字稿、知识管理、复盘推演、一页纸输出等可复用的知识生产工具。
-- 组织层面倡导"搭建假设型组织"，将假设驱动与业务流程、知识库建设结合，形成系统化的研究基础设施。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
-- 该模型声称能"统揽上万人的共识"，但未说明万人规模的异质性如何被处理——不同行业、职级、认知水平的学习者是否适用同一套TCP-R框架？
-- "皇冠模型"的视觉隐喻暗示层级结构，但OCR文本中T/C/P/R呈并列关系，核心与边缘的判定标准及模块间的权重分配机制未明确
-- "关键假设Ω"作为教学模块的核心方法论，其符号使用与"假设驱动做事""搭建假设型组织"中的"假设"是否为同一概念体系，存在术语一致性质疑
-- 三级实践路径（基础行动/进阶角色/高阶认证）的晋升标准模糊——"抓住机会"的即时转化原则如何量化评估，避免沦为机会主义筛选
-- "爆炸式研究"与"千人广场建模"作为研究侧高阶方法，其操作定义与质量控制机制缺失，大规模协作下的认知偏差累积问题未讨论
-- 模型同时包含"低成本验证"（实践侧）与"极限挑战带教"（教学侧），两种方法论在资源投入强度上存在张力，未说明适用情境的边界条件
-- "假设型组织"作为组织层面目标，与现有科层制/敏捷型组织的兼容性未分析，变革路径与阻力应对策略留白
-- OCR文本中"十指讲香"疑似"十指讲清"的误识，若确为原词则该术语的学术渊源与操作化定义需考证；若为误识则整个教学模块的方法论可靠性存疑
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Output Opportunities
 

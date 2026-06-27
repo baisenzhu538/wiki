@@ -1,6 +1,6 @@
 ---
 domain:
-  - product
+  - src_unknown
 
 id: yt-product-kernel-shampoo-case
 title: 洗发水案例：产品内核实战——从"去屑"到"专业形象"
@@ -19,25 +19,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-product-kernel-definition
-  - yt-product-kernel-six-levels
-  - yt-product-kernel-canvas
-  - yt-product-kernel-ten-metrics
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户把产品功能当内核，如'我们有AI功能'"
+  - src_unknown
     framework_lens: 洗发水案例——内核是价值，不是功能
     follow_up_question: "AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？"
-  - signal: "用户说'我们的产品比竞品功能多'"
+  - src_unknown
     framework_lens: 洗发水案例——功能多≠内核强
     follow_up_question: "竞品功能少，但用户为什么选择竞品？内核差异是什么？"
-  - signal: "用户无法区分内核和边缘功能"
+  - src_unknown
     framework_lens: 洗发水案例——内核必须能剥离边缘功能
     follow_up_question: "如果去掉包装设计和品牌，只保留去屑功能，用户还会选择吗？"
-  - signal: "用户的产品内核太宽，试图满足所有用户"
+  - src_unknown
     framework_lens: 洗发水案例——内核需要聚焦特定用户
     follow_up_question: "你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？"
-  - signal: "用户说'我们的内核是去屑'，但用户实际买的是品牌形象"
+  - src_unknown
     framework_lens: 洗发水案例——内核可能不是你以为的功能
     follow_up_question: "用户选择你们，是因为去屑效果好，还是因为品牌形象？"
 
@@ -57,12 +57,12 @@ diagnostic_signals:
 ### 第一步：定义内核
 
 错误定义：
-- ❌ "我们的内核是去屑功能"
-- ❌ "我们的内核是AI推荐配方"
+- src_unknown
+- src_unknown
 
 正确定义：
-- ✅ "我们的内核是'有效去屑+专业形象'"
-- ✅ "用户选择我们，不仅因为去屑效果好，还因为品牌形象专业"
+- src_unknown
+- src_unknown
 
 ### 第二步：内核 vs 功能
 
@@ -108,9 +108,9 @@ diagnostic_signals:
 ### 2. 内核的剥离测试
 
 测试方法：
-- 去掉"专业形象"，只保留"去屑功能" → 用户不愿意付溢价
-- 去掉"去屑功能"，只保留"专业形象" → 用户不信任
-- 两者都有 → 用户愿意付溢价，且信任
+- src_unknown
+- src_unknown
+- src_unknown
 
 结论：内核是"有效去屑+专业形象"的组合，不是单一功能。
 
@@ -153,21 +153,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当定义内核时 → 区分功能层和价值层
-- 当验证内核时 → 测试"去掉形象层，用户还愿意付溢价吗？"
-- 当迭代内核时 → 从功能层→效果层→形象层→专家层
-- 当跨品类创新时 → 抽象内核逻辑，迁移到新领域
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-product-kernel-definition`：产品内核定义
-- `yt-product-kernel-six-levels`：产品内核六个段位
-- `yt-product-kernel-canvas`：产品内核画布
-- `yt-product-kernel-ten-metrics`：产品内核十大典型指标
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂产品内核洗发水案例（Truman，2026-06-10）
-- 一堂产品内核系列课
-- 一堂案例大爆炸：消费品内核案例
+- src_unknown
+- src_unknown
+- src_unknown

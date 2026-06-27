@@ -13,16 +13,16 @@ domain: [yitang, decision-science]
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md
 related:
-  - '[[tool-最佳实践池子]]'
-  - '[[concept-美好作品想象]]'
-  - '[[concept-最佳实践建模]]'
-  - '[[tool-审美工具箱]]'
-  - '[[concept-稀缺机会窗口]]'
-  - "[[tool-科学提问刻意练习]]"
-  - "[[concept-单元模型-学练用]]"
-  - "[[framework-TCPR底层网络协议]]"
-  - "[[concept-思考深度分级]]"
-  - "[[ai-collaboration-domain-digest]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 科学学习IPO完整清单
@@ -45,9 +45,9 @@ related:
 
 ## 检查清单
 
-- [ ] I: 选定了 1 个明确的学习目标（不是"多学点"）
-- [ ] P: 用了至少 1 种内化方法（费曼/笔记/提问）
-- [ ] O: 产出了至少 1 个可验证的输出物（文章/教学/项目）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

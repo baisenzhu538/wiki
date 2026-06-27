@@ -10,14 +10,14 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.mdrelated:
-  - '[[case-strategy-shell-oil]]'
-  - '[[case-strategy-wuxi-suntech]]'
-  - '[[case-strategy-revival-13-bestore]]'
-  - '[[case-strategy-edward-jones]]'
-  - '[[case-strategy-cool-boiled-water]]'
-  - "[[tool-strategy-nine-problems]]"
-  - "[[framework-strategy-six-stages]]"
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）
 **转型**：弃益生菌（合生元垄断）→ 身高方向 → 命名"一米八八"

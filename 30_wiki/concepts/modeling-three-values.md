@@ -7,7 +7,7 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-  - modelingcreated_at: "2026-06-14"
+  - src_unknown
 updated_at: "2026-06-17"
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -15,30 +15,30 @@ review_date: "2026-06-14"
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
-  - "[[master-knowledge-compound]]"
-  - "[[tool-一堂-hypothesis-validation-three-axe]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-  - "#method/modeling"
-  - "#chunk-type/definition"
-  - "#value"
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_context: 单一source为完整长文档，内容充分支撑high trust。P1收尾时从high降为medium，待补充第二来源或充分验证后再升回high
 diagnostic_signals:
-  - signal: "同一任务今天做得好，明天做得差"
+  - src_unknown
     lens: "确定性缺失"
     follow_up: "检查是否有流程建模/SOP/清单，确保每次稳定产出"
-  - signal: "讨论半天不知道重点在哪"
+  - src_unknown
     lens: "框架性缺失"
     follow_up: "引入抽象建模/框架，让复杂问题有章法，抓住主动权"
-  - signal: "只会做A渠道，换渠道就不会"
+  - src_unknown
     lens: "迁移性缺失"
     follow_up: "做本质建模，提炼跨领域规律，一次提炼多处复用"
-  - signal: "信息量一大就迷失"
+  - src_unknown
     lens: "框架性不足"
     follow_up: "用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键"
-  - signal: "每个项目都要从零学起"
+  - src_unknown
     lens: "经验未沉淀"
     follow_up: "检查是否有本质建模输出，经验是否被提炼为可迁移模式"
 
@@ -55,14 +55,14 @@ diagnostic_signals:
 **定义**：面对具体工作时，每次都能稳定产出，而不是依赖状态、运气或临场发挥。
 
 **例子**：
-- 直播前热身 SOP 让主播状态稳定
-- PRD 清单让新人也能写出合格文档
-- 决策雷达图让团队对“什么是好”有共同语言
+- src_unknown
+- src_unknown
+- src_unknown
 
 **没有确定性的表现**：
-- 同一任务今天做得好，明天做得差
-- 换人做结果差异巨大
-- 每次都要重新想一遍
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -71,14 +71,14 @@ diagnostic_signals:
 **定义**：做事时有思考框架，不会被细节牵着走，能抓住主动权。
 
 **例子**：
-- 用一堂五步法分析创业机会
-- 用战略本质的四个要素设计战略会
-- 用冰山图逐层下挖问题根因
+- src_unknown
+- src_unknown
+- src_unknown
 
 **没有框架性的表现**：
-- 讨论半天不知道重点在哪
-- 被问题推着走，救火式工作
-- 信息量一大就迷失
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -87,14 +87,14 @@ diagnostic_signals:
 **定义**：把在一个领域提炼出的规律，应用到另一个看似不相关的场景。
 
 **例子**：
-- 动力阻力触点模型从转化率迁移到用户运营、产品设计
-- 雷达图从选题评估迁移到讲师评选、视频投放评估
-- 迭代递归深挖法从 AI Skill 迁移到任何模型创作
+- src_unknown
+- src_unknown
+- src_unknown
 
 **没有迁移性的表现**：
-- 只会做销售 A 渠道，换渠道就不会
-- 每个项目都要从零学起
-- 经验无法沉淀成能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -107,15 +107,15 @@ diagnostic_signals:
 ```
 
 越往后，价值越高，难度也越大：
-- 确定性解决“每次都能做对”
-- 框架性解决“复杂问题有章法”
-- 迁移性解决“一次提炼，多处复用”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:3332-3356`
+- src_unknown
 
 ## Constraints & Boundaries
 

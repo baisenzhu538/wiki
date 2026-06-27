@@ -1,6 +1,6 @@
 ---
 domain:
-  - yitang
+  - src_unknown
 
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）
@@ -19,13 +19,13 @@ review_date: '2026-06-20'
 confidence: 0.85
 trust_level: high
 related:
-  - yt-management-business-formula
-  - yt-business-formula-abc-model
-  - yt-business-formula-six-level-logic
-  - yt-business-formula-business-pattern-selector
-  - yt-business-formula-qualitative-metrics-library
-  - yt-entrepreneur-unit-model
-  - yt-model-deep-review-iceberg
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 业务公式参数冰山（L1-L6）
 
@@ -64,19 +64,19 @@ related:
 
 ### L1. 基础参数（粗数据）
 
-- **粗流量**：总访问、总曝光
-- **粗线索**：总留资、总咨询
-- **粗订单**：总订单数
-- **粗收入**：总 GMV、总营收
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：知道业务大概规模。  
 **局限**：无法指导动作。看到流量低，不知道是该优化渠道还是优化落地页。
 
 ### L2. 财务参数（算得清）
 
-- **单元模型**：单客模型、单店模型、单渠道模型
-- **关键指标**：CAC、LTV、毛利率、回本周期
-- **财务模型**：收入、成本、利润、现金流
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：判断业务是否健康。  
 **局限**：只能回答「赚不赚钱」，不能回答「怎么改变」。
@@ -100,10 +100,10 @@ related:
 
 把分层后的指标继续拆到转化链路：
 
-- **拆首单**：访问 → 详情页 → 加购 → 结算 → 支付
-- **拆 LTV**：首单 → 复购 → 增购 → 推荐
-- **拆动作**：点击广告 → 进入落地页 → 填写表单 → 接听电话 → 到店
-- **拆筛选**：线索 → MQL → SQL → 商机 → 成交
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：找到漏斗中的具体断点。  
 **关键动作**：优化断点，而不是平均用力。
@@ -112,9 +112,9 @@ related:
 
 当现有参数无法解释业务变化时，需要探索新参数：
 
-- **探索动作**：用户做了什么之前没关注过的行为？
-- **探索数值**：哪个数值区间是临界拐点？
-- **探索组合**：哪些参数组合能预测未来结果？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：发现新的增长杠杆。  
 **风险**：容易陷入数据挖掘陷阱，需要假设驱动。
@@ -123,9 +123,9 @@ related:
 
 最深层的参数，通常与业务本质相关：
 
-- **销售本质**：用户为什么现在买？为什么跟你买？
-- **留存本质**：用户为什么留下？什么场景下必然想起你？
-- **复购本质**：用户为什么再次购买？什么信任被建立？
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：决定长期竞争壁垒。  
 **局限**：难以量化，需要定性研究和长期观察。
@@ -189,14 +189,14 @@ related:
 
 ## 验证与参考
 
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-冰山模型图.png`
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-冰山模型图-ocr.md`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：L1-L6 的分层名称、每层的参数示例、两个拆解方向（直接来自模型图和笔记）
-- **中置信度**：各层能力要求（初阶/进阶/高阶）的解读
-- **待复核**：L5/L6 的具体定义在不同讲师版本中可能有差异
+- src_unknown
+- src_unknown
+- src_unknown

@@ -13,29 +13,29 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 用户访谈
-- 用户调研
-- 用户需求
-- 访谈技巧
-- JTBD
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-  - '[[tool-yitang-research-deep-attribution]]'
-  - '[[tool-yitang-weapon-anonymous-identity]]'
-  - '[[dk-strategy-07-strategy-vs-dividend]]'
-  - '[[tool-月白-里程碑思维拆解设计流程]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-field-research]]"
-  - "[[yt-research-user-jtbd]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 用户访谈五步执行法：画像·场景·信任·提问·判断
@@ -128,15 +128,15 @@ related:
 
 ## Constraints & Boundaries
 
-- **适用**：产品/服务有明确的终端用户，CEO愿意亲自参与
-- **不适用**：纯技术基础设施、B2B中难以接触终端用户的情况
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 框架来源：一堂用户调研实操课（Truman主讲），`一堂-用户调研实操课-口述_ocr.md` + 笔记
-- 核心理念补充：一堂五步法需求模块
+- src_unknown
+- src_unknown
 
 ---
 

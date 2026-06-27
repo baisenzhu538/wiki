@@ -7,27 +7,27 @@ confidence: 0.7
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - entrepreneurship- yitang
+  - src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-- 需求分析
-- JTBD
-- 拆推评算
-- 六层冰山模型
-- 用户需求挖掘
-- 任务地图
-- 四种力量模型
-- 微观体感
-- 伪需求识别
-- 需求剥离法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-prompt-jtbd-scenario-coach]]'
-  - '[[tool-demand-four-forces]]'
-  - '[[framework-demand-iceberg]]'
-  - '[[tool-prompt-iceberg-demand-analysis]]'
-  - '[[case-demand-ai-fitness-four-forces]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
@@ -44,13 +44,13 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 用户只问用户要什么，不分析任务场景
+- src_unknown
   framework_lens: JTBD方法误用
   follow_up_question: 用户在什么场景下要解决这个问题？他们现在用什么替代方案？
-- signal: 用户把少数用户反馈当普遍需求
+- src_unknown
   framework_lens: 样本偏差
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
@@ -80,9 +80,9 @@ author: 老顽童
 
 源自克里斯坦森颠覆性创新理论（《创新者的解答》）。核心命题：
 
-- **需求不是产品本身，而是用户在特定环境下想要达成的进步。**
-- 用户不是为了购买产品而购买产品，他们只是"雇佣"产品来完成自己的任务（Job）。
-- 解决方案充满随机性（随技术/市场变化），但用户的任务往往是十年稳定的。因此要对解决方案保持冷感，对用户任务保持热感。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **需求三要素模型**：用户（实体/角色）→ 场景（触发器/特定时空心态）→ 问题（现实与预期的差/Gap）。不同用户、不同场景、不同问题，排列组合出不同的需求。
 
@@ -114,9 +114,9 @@ author: 老顽童
 
 #### L3 细节：一句话任务描述
 
-- 公式：**动词 + 对象 + 情境**。
-- 三要素检验：① 不带解决方案 ② 相对稳定（十年不变） ③ 能联想到 2-3 个具体方案。
-- 示例："在老人承担日常照护职责、父母追求科学养育时，化解隔代育儿的观念冲突。"
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### L4 细节：重要性-满意度象限
 
@@ -135,11 +135,11 @@ author: 老顽童
 
 ### 核心概念
 
-- **伪需求**："乍一听很牛，其实没解决啥问题"
-- **需求膨胀**："乍一听市场很大，算一算根本撑不住业务空间"
-- **硬伤**：看上去都挺好，一分析每个环节都有无法绕过的致命缺陷
-- **临时凑合方案**：用户在用很粗糙的方式忍受痛苦，这也是你的竞争对手
-- **需求剥离**：能把"需求"从"产品"中独立分析的能力，是需求分析的基本功
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 辅助
 

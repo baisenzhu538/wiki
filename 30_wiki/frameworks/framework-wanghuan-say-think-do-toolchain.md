@@ -6,10 +6,10 @@ title: 王欢说→想→做工具链框架
 type: framework
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- human-ai-collaboration
-  - ai-collaboration
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
@@ -19,40 +19,40 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- 10_raw/sources/src_20260619_8957ae3c_wanghuan_AI工具链四级台阶_示意图.md"
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '团队把 AI 当“更快的打字员/写手”使用'
+- src_unknown
   lens: 角色定位
   follow_up: '追问“谁负责定义目标与验收标准？”若只有执行没有定义，说明仍在演员模式'
-- signal: 同一任务每次都要从零写提示词
+- src_unknown
   lens: 资产沉淀
   follow_up: 检查是否已将输入结构、约束、样例固化成可复用模板或 AI 业务档案
-- signal: 执行层反复修改仍无法收敛
+- src_unknown
   lens: 分层诊断
   follow_up: '回到“想”层重新拆解需求，必要时回到“说”层补全背景与约束'
-- signal: 非技术成员几小时就能做出可用原型
+- src_unknown
   lens: 工具链成熟度
   follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
 related:
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[framework-wanghuan-ai-five-level-ladder]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-three-tier-dev-architecture]]'
-  - '[[human-ai-collaboration-double-triangle]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 工具链
-- 说想做
-- 人机协作
-- 输入推理执行
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -73,28 +73,28 @@ tags:
 ## 核心要点
 
 1. **三层分工明确**：
-   - **说（输入层）**：解决“如何把模糊想法变成 AI 可理解的输入”。典型工具：豆包输入法、语音转文字、Table 等结构化输入工具。
-   - **想（思考层）**：解决“如何让 AI 做深度推理”。典型工具：豆包深度思考、Claude、o1 等推理模型。
-   - **做（执行层）**：解决“如何让 AI 产出可交付的作品/产品”。典型工具：TREE、Cursor、Trae 等可视化 AI 编程工具。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **导演思维是底层逻辑**：
-   - 演员模式：人亲自做，AI 只是更顺手的道具，效率提升 30%-60%。
-   - 导演模式：人负责定义目标、设定标准、验收结果，AI 负责执行，效率可提升近 3 倍甚至更高。
+   - src_unknown
+   - src_unknown
 
 3. **工具链的打通方式**：
-   - 用豆包输入法把嘴里的话变成整理好的文字；
-   - 把文字喂给豆包深度思考，生成结构化的需求/方案/提示词；
-   - 再把提示词交给 Trae/Cursor 生成可运行的网页或工具。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **工具选择原则**：
-   - 零配置、免费、国内直连，先跑通“意图→执行→验收→迭代”循环。
-   - 进阶路径：Trae IDE → Trae SOLO → Claude Code。
-   - 用到熟比换到新重要一百倍；工具是容器，思维能力是液体。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **关键心法**：
-   - 模糊进，模糊出：输入质量决定输出质量。
-   - 标准是乘数：最终质量 = 你的标准 × AI 的执行力 × 迭代次数。
-   - 把单次任务沉淀为可复用资产，才能产生复利。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ---
 
@@ -125,23 +125,23 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 用语音或豆包输入法把脑子里模糊的想法说出来，转成一段整理好的文字。
-- [ ] 在“想”层用 BITCOE 写清楚背景、任务、指令、约束、输出格式和示例。
-- [ ] 让 AI 先给出方案、结构或产品级提示词，人先验收再进入执行工具。
-- [ ] 用 Trae/Cursor 生成最小可用原型，先运行起来，再找问题、给反馈。
-- [ ] 把输入结构、约束条件、验收标准固化为可复用模板或 AI 业务档案。
-- [ ] 每周至少使用并迭代一次，让工具链从单次任务变成持续复利的资产。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[framework-wanghuan-actor-director-mode]]：说→想→做的底层角色模型，区分演员与导演两种协作模式。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：让“说”这一层更精准的结构化输入框架。
-- [[framework-wanghuan-ai-five-level-ladder]]：从问答层到系统层，判断自己当前站在哪一级。
-- [[framework-wanghuan-task-product-system]]：把单次任务升级为可复用产品的核心判断标准。
-- [[framework-wanghuan-three-tier-dev-architecture]]：软件开发场景下“拆解→生成→审查”的系统化落地。
-- [[human-ai-collaboration-double-triangle]]：人机协作的宏观结构，理解人与 AI 如何互补。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,17 +149,17 @@ tags:
 
 **外部攻击者 1：资深软件工程师** — “直接写代码更可控，为什么要依赖这些低代码/对话式工具？Trae 生成的代码质量不稳定，工程规范也跟不上。”
 
-- **回应**：说→想→做工具链降低的是“从想法到第一个可运行原型”的门槛，而不是取代工程规范。对于正式产品，仍需代码审查、测试、CI/CD 和质量守门。Trae 是入口，Claude Code 是进阶；工具链解决的是快速验证，验证通过后再按工程标准重构。
+- src_unknown
 
 **外部攻击者 2：提示词工程/效率工具发烧友** — “提示词工程就够了，何必分三层？直接用一个最强模型端到端不是更简单吗？”
 
-- **回应**：单次对话的提示词工程天花板很低，每次开新对话都从零开始。分层后，输入结构、推理过程和执行产物可以分别沉淀为可复用资产。最强的单一模型不一定适合所有阶段：执行工具需要交互和预览，思考模型需要深度推理，输入工具需要语音/结构化转换。分层是产品化和资产沉淀的前提。
+- src_unknown
 
 **不要用**：
 
-- 不要把这条工具链用于金融交易、医疗诊断、安全关键系统等高后果场景，除非有严格的人工复核与合规流程。
-- 不要在没有验收标准的情况下把 AI 输出直接交付给他人。
-- 不要在工具还没跑通时盲目追逐最新、最强的模型；先用熟一组工具，再考虑迁移。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

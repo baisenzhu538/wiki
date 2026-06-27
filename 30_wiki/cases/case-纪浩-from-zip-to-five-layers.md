@@ -5,8 +5,8 @@ title: 纪浩：从微信传 zip 到五层协作体系
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
@@ -14,38 +14,38 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[case-ai-assisted-review]]'
-  - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-  - '[[case-ji-hao-skills-market]]'
-  - '[[concept-ji-hao-ai-collaboration-methodology]]'
-  - '[[tool-纪浩-真需求四要素验证法]]'
-  - '[[tool-纪浩-日志驱动排查法]]'
-  - '[[case-纪浩-focus-prompt-design]]'
-  - '[[case-半肥猫-course-to-skill]]'
-  - '[[dk-ji-hao-pdca-starts-from-do]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-17'
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- signal: 团队内部分发 AI Skill/模板靠微信传文件，版本号五花八门，每次更新都要逐个通知
+- src_unknown
   framework_lens: L5 Skills Market 缺失
   follow_up_question: 过去一周因此产生过几次返工或版本不一致？能否列出所有在传的 Skill 和最新版本号？
-- signal: 同一个 AI 任务，每次启动都要重新交代上下文，输出质量时好时坏
+- src_unknown
   framework_lens: L2 Agent Workspace 结构不完整
   follow_up_question: 当前 Workspace 是否有系统自述、领域知识、Agent 服务文档（导诊台+工作手册+工具集+经验模式库）、任务管理、日志五大模块？
-- signal: 想做 AI 产品/工具，但说不清解决前后的具体状态变化和受益人
+- src_unknown
   framework_lens: L1 四要素验证未通过
   follow_up_question: 用"从__变成__"一句话描述 Before-After，并指认一个愿意使用的真实人名
-- signal: 团队把 PDCA 当成"先写完整计划再执行"，计划写了但执行不下去
+- src_unknown
   framework_lens: L3 Do-first PDCA 顺序错误
   follow_up_question: 能否在 30 分钟内先产出一个最小可验证输出，再根据问题补 Check 和 Plan？
 ---
@@ -119,10 +119,10 @@ L5 Skills Market（规模复用的基础设施）
 
 ## 结果
 
-- **内部使用效率提升**：Skill 的下载、安装、更新从"人找人"变成 Agent 自服务，维护者不再被微信追问版本
-- **反馈质量改善**：使用问题附带上下文自动上报，排查时间从"口头描述→反复追问"缩短到"看日志即可定位"
-- **方法可复用**：五层体系从 Skills 市场场景抽象出来，后续被复用到 `/focus` 产品设计、个人时间管理工具等场景
-- **关键认知升级**：纪浩从"让AI帮我写代码"进化到"设计AI的工作环境和复用基础设施"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移场景
 
@@ -180,8 +180,8 @@ L5 Skills Market（规模复用的基础设施）
 
 ## Synthesis
 
-- **纪浩体系总纲**：[[concept-ji-hao-ai-collaboration-methodology]] — 五层方法论的完整概念展开
-- **同作者案例**：[[case-纪浩-focus-prompt-design]] — `/focus` 功能中四要素验证与导诊台的具体应用
-- **Skill 工程对照**：[[case-半肥猫-course-to-skill]] — 课程转 Skill 的八步工程化流程，与 Skills Market 形成复用基础设施的互补视角
-- **暗知识**：[[dk-ji-hao-pdca-starts-from-do]] — "PDCA 从 Do 开始不是从 Plan 开始"
-- **技能落地**：[[tool-纪浩-真需求四要素验证法]]、[[tool-纪浩-日志驱动排查法]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

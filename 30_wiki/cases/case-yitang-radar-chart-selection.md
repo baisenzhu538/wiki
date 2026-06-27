@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- modeling
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（抽象建模/雷达图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,36 +22,36 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
-  - '[[case-yitang-education-supply-chain]]'
-  - '[[case-personal-map-modeling]]'
-  - '[[dk-modeling-radar-model-not-result]]'
-  - '[[case-child-drawing-rhyme]]'
-  - '[[case-essence-entrepreneurship]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[dk-modeling-expert-consensus-five-percent]]'
-  - '[[modeling-three-stages]]'
-  - '[[case-yitang-model-asset-inventory]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/case-study'
-- '#content-format/radar-chart'
-- '#method/decision-framework'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: CEO/负责人被频繁要求"你定一下谁入选"，但他根本不认识大部分候选人
+- src_unknown
   lens: 决策超载 + 隐性标准
   follow_up: 召集有判断力的人开模型共建会，先定义 4-6 个评选维度和打分规则，再看任何候选人
-- signal: 评选会陷入个人印象、关系远近或部门政治争论
+- src_unknown
   lens: 标准未对象化
   follow_up: 强制把所有讨论转换为"该候选人在 X 维度得 Y 分"格式，禁止不带维度引用的感性发言
-- signal: 同类错误重复出现（如选中的选题上线后失败、投放视频跑不动）
+- src_unknown
   lens: 雷达图维度不完备
   follow_up: 每次失败后 48h 内复盘：如果当时多一个什么维度就能拦住？把该维度加入雷达图并更新版本
-- signal: 高管说"我直觉这个人不错"并试图直接拍板
+- src_unknown
   lens: 隐性权威覆盖
   follow_up: 要求高管把直觉翻译成一个维度/分数，或只能行使否决权，不能直接通过
-- signal: 不同评委给同一候选人的打分差异极大，或几个维度总是同高同低
+- src_unknown
   lens: 维度重叠/缺乏校准
   follow_up: 用 2-3 个样本做校准会，重写维度定义和锚定分数，检查 MECE
 ---# 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
@@ -64,10 +64,10 @@ diagnostic_signals:
 
 ## Background
 
-- **场景**：一堂内部大量评选工作——讲师遴选、Y30 入围、案例入围、短视频投放、选题立项、专家推荐等
-- **问题**：早期靠 Truman 拍板，人数多了之后完全拍不动；即使他想拍，也不认识候选人、没看过全部材料
-- **目标**：建立科学、可复用、可迭代的评选机制，把"领导决定"变成"模型决定"
-- **来源**：`src_20260614_8269ccdb#1280-1395`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -82,47 +82,47 @@ diagnostic_signals:
 Truman 给团队立了一条规矩：**"带着模型来跟我聊，我只聊模型不聊结果。"**
 
 他的核心立场：
-- 他不能保证结果公平，只能保证模型科学、执行到位；
-- 他保留**一票否决权**（拦住重大风险），但**没有一票通过权**；
-- 选出谁就是谁，模型说了算。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 3：召集有判断力的人共建雷达图
 
 把公司有判断力的人拉到一起，定义每个评选事项的 4-6 个关键维度，通常 5-6 个角。每个角代表一个关键假设/评估维度。例如：
-- **选题雷达图**：需求强度、壁垒、市场规模、团队能力、价值观匹配
-- **讲师遴选雷达图**：专业度、表达力、案例质量、学员口碑、价值观匹配
-- **短视频投放雷达图**：宽而不泛、目标用户匹配、可复用性、成本效率、价值观安全
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：约定决策规则
 
 提前约定怎么用雷达图产出决策，避免"看图后仍然拍脑袋"：
-- 综合得分高者入选？
-- 任一维度低于阈值（如 6 分）直接淘汰？
-- 某些维度权重更高或具有一票否决？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 5：根据错误不断打补丁
 
 雷达图不是一次定稿，而是在真实失败中不断补充维度：
-- 投放视频投不好 → 加一个角「宽而不泛」
-- 落地之夜讲完业务就不做了 → 加一个角「业务能做好多年」
-- 最佳实践出问题 → 加一个角「价值观一致」
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 结果
 
-- 一堂内部维护了三四十个各个环节的雷达图，覆盖选题、案例课、找老师、短视频投放等场景；
-- 评选讨论从"谁关系硬"变成"哪个维度得分低"，决策透明度提高；
-- 重大错误明显减少，团队对"什么是好"有了共同语言；
-- 这套机制成为一堂后续把模型资产归集到二三十个范式的基础输入之一（见 [[case-yitang-model-asset-inventory]]）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关键证据
 
-- **证据 1 [conf=0.9]**：Truman 说早期靠他拍板，后来要求团队"带着模型过来跟我聊，我只聊模型不聊结果"。——来源：`src_20260614_8269ccdb#1304-1308`。
-- **证据 2 [conf=0.85]**：投放视频总结出"宽而不泛"四个字，让一堂投放活了下来。——来源：`src_20260614_8269ccdb#1362-1378`。
-- **证据 3 [conf=0.8]**：一堂内部维护了至少二三十个雷达图，变成团队工作公式。——来源：`src_20260614_8269ccdb#1391-1396`。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -171,57 +171,57 @@ Truman 给团队立了一条规矩：**"带着模型来跟我聊，我只聊模�
 
 ### 第一步：明确评选目标（30 分钟）
 
-- [ ] 这次评选要解决什么问题？
-- [ ] 评选范围是什么？（候选人/选题/方案的数量与类型）
-- [ ] 评选结果将如何使用？（入围、录用、立项、投放）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：确定评委与角色（30 分钟）
 
-- [ ] 列出 3-7 名有判断力且利益冲突可控的评委
-- [ ] 明确最高决策者的权力边界：否决权 √ | 通过权 ×
-- [ ] 指定一名"模型 owner"，负责维护雷达图版本
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三步：定义 4-6 个维度（1-2 小时）
 
 每个维度必须：
-- [ ] 可定义：一句话能说清楚含义
-- [ ] 可观察：能从事实/数据中判断高低
-- [ ] 独立：与其他维度不高度重合（MECE 检查）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：制定锚定分数与决策规则（1 小时）
 
-- [ ] 每个维度给出 1-10 分的具体标准（如"专业度 8 分 = 5 年以上一线实战经验 + 有 before/after 案例"）
-- [ ] 约定综合得分计算方式：等权 or 加权
-- [ ] 约定否决规则：任一维度低于多少分直接淘汰？哪些维度具有一票否决权？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第五步：校准打分（1 小时）
 
-- [ ] 选 2-3 个样本候选人/选题做试打分
-- [ ] 对比评委差异，重写模糊的维度定义
-- [ ] 确认大家对锚定分数理解一致后再正式评选
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第六步：建立补丁机制（持续）
 
-- [ ] 每次评选后记录：哪些决策被质疑？哪些结果与预测不符？
-- [ ] 出现失败后 48h 内复盘：是否缺少某个维度？
-- [ ] 更新雷达图版本号，记录补丁原因和生效时间
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联
 
-- 工具：[[tool-radar-chart-modeling]] —— 雷达图建模法的通用协议
-- 框架：[[modeling-three-stages]] —— 雷达图评选属于抽象建模阶段的人-环协作
-- 框架：[[framework-logic-cleanliness-five-levels]] —— 雷达图维度应至少达到 MECE（L4）
-- 暗知识：[[dk-modeling-expert-consensus-five-percent]] —— 评选维度质量由少数专家共识把关
-- 案例：[[case-yitang-model-asset-inventory]] —— 一堂如何把三四十个雷达图归集为组织资产
-- 案例：[[case-modeling-abstraction-yitang-models]] —— 一堂内部模型武器库中的"任务评价雷达图"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## Sources
 
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:1280-1395`
+- src_unknown
 
 ---
 

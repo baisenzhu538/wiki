@@ -6,44 +6,44 @@ title: 技能：问题验证三维度法
 type: "tool"
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+  - src_unknown
+  - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
   - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- '[[sk-ai-question-problem-checklist]]'
-- '[[ai-collaboration-mindset-shift]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#method/prompt-engineering'
-- '#domain/ai-saas'
-- '#method/workflow'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- 表格工具（Excel / 画布等）
-- 数据管理工具（Notion / Airtable 等）
+- src_unknown
+- src_unknown
 prerequisite_skills: []
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-ai-problem-validation]]'
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[sk-ai-question-problem-checklist]]'
-  - '[[ai-collaboration-mindset-shift]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - 标题为「三维度法」，但正文使用四要素框架，存在命名与结构不一致
-  - 失败模式与边界仅基于单一路源笔记，未经过多场景实证
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -66,24 +66,24 @@ diagnostic_signals:
 
 ## 边界
 
-- **适用场景**
-  - 要给 AI 派一个新任务，但不确定这个任务是否值得投入
-  - AI 执行完成后，业务结果没有变化
-  - 团队开会讨论 AI 落地方向时需要客观标准
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
-- **不适用场景**
-  - 已经有明确验收标准、只需执行的纯工具任务
-  - 探索性、发散性创意任务（如头脑风暴、风格探索）
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## 行动 Checklist
 
-- [ ] 拿到任务描述后，先填入四要素表格
-- [ ] 检查「前后对比」是否有可量化的 before/after
-- [ ] 检查「真实锚点」是否有具体场景、频率、触发条件
-- [ ] 检查「受益对象」是否具体到人或岗位
-- [ ] 检查「可解性」是否具备数据、模板、方法或因果链
-- [ ] 任意一栏填不出来 → 回退到问题定义，不进入 AI 执行
-- [ ] 四栏填满 → 将表格作为上下文一并提交给 AI，并附加验收标准
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式
 
@@ -97,14 +97,14 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- [[sk-ai-question-problem-checklist]]：问题-疑问区分检查清单，可与本卡组合使用
-- [[ai-collaboration-mindset-shift]]：AI 协作心态转变，帮助理解为何要先验问题
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- 纪浩，AI俱乐部-AI协作方法论分享，2026-06
+- src_unknown
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

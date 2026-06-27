@@ -6,31 +6,31 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: system
 source_context: failure-modes.md F-KDO-010
 source_refs:
-- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-010
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - '[[kdo-ec-industrialization-migration-proposal]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[proposal-ai-domain-mastery-pipeline]]'
-  - '[[dk-kdo-leaky-pipe-pressure]]'
-  - '[[dk-c3-txt-ingest-skip]]'
-  - '[[master-first-principles]]'
-  - '[[master-ai-info-literacy]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- "kdo lint 检查 frontmatter 的 source_refs 字段为空数组或指向不存在的文件"
-- "从卡片正文无法反推到 10_raw/sources/ 或 90_control/failure-modes.md 中的具体源文件"
+- src_unknown
+- src_unknown
 ---# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 
 ## 原始表述/核心洞察
@@ -57,10 +57,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 你完成一张概念卡后准备标记 `status: enriched`，需要确认 `source_refs` 是否已填写
-- 你运行 `kdo lint` 看到 source_refs 为空的 P0 错误，需要修复
-- 你审查别人提交的卡片，发现无法从卡片追溯到原始源材料
-- 你在 ingest 阶段设置源文件元数据时，需要确保 source_refs 被正确传递
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -72,11 +72,11 @@ diagnostic_signals:
 
 ## 适用边界
 
-- 适用于所有标记为 `enriched` 或 `reviewed` 的知识卡片
-- 不适用于草稿状态（`status: draft`）的卡片——草稿可以暂时没有 source_refs，但提交审查前必须补全
-- 如果卡片内容来自多个源文件，`source_refs` 应列出所有相关源的 ID
-- 如果源文件已被删除或归档，`source_refs` 仍应保留原始 ID，并附加注释说明文件状态
-- 对于纯原创 content（如老顽童写的文章），`source_refs` 可以指向创作过程中的素材或灵感来源，而不是留空
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -90,15 +90,15 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **溯源是 KDO 知识可信度的根基**：如果卡片无法追溯到原始材料，读者无法验证内容是否被准确提炼，也无法发现源材料中的错误或更新
-- 溯源断裂和表层翻译式提炼（F-KDO-007）互为因果：没有 source_refs → Builder 无法回溯源材料 → 只能用目录/公共知识填充 → 卡片质量下降
-- 这是知识管理系统的通用原则在 KDO 中的具体实现：任何重要声明必须可追溯到源文件
-- 任何 AI 训练语料中都不会有“KDO 的 source_refs 为空会导致溯源断裂”这条知识
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-f7-surface-translation]] — 互为因果：溯源断裂 → 无法用源材料验证 → 只能用目录填充 → 表层翻译式提炼。修复 F-KDO-010 是预防 F-KDO-007 的关键手段
-- [[master-first-principles]] — 第一性原理：知识的可靠性建立在其可追溯性上。source_refs 是“这条知识从哪来”的第一性答案
-- [[master-ai-info-literacy]] — AI 信息素养：学会要求每条知识给出 source_refs，是识别 AI 幻觉与低质量提炼的基本功
-- `90_control/failure-modes.md` → F-KDO-010（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #10（不准标记 enriched 如果 source_refs 为空）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

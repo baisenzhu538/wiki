@@ -7,15 +7,15 @@ confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
+  - src_unknown
 estimated_tokens: 1800
 language: zh-CN
 query_triggers:
-  - "玩具柜案例"
-  - "商业模式案例"
-  - "一堂案例"
-  - "线下玩具柜"
-  - "单元模型案例"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -34,14 +34,14 @@ yitang:
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 author: "老顽童"
 related:
-  - '[[case-toy-cabinet-barrier]]'
-  - '[[case-zhihu-vs-degetao-network-effect]]'
-  - '[[yt-growth-cycle-model]]'
-  - '[[yt-barrier-analysis-cheat-sheet]]'
-  - '[[yt-scale-economy-weapon-library]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # 案例：线下玩具柜商业模式
 
@@ -57,21 +57,21 @@ related:
 
 1. **单元模型选择**：不是"公司总账"，而是"单个玩具柜"——复制哪个就算哪个。
 2. **收入结构**：
-   - 单次游戏收费
-   - 会员卡收费
-   - 商品销售（玩具零售）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **成本结构**：
-   - 固定成本：柜机折旧、场地租金、人员工资
-   - 变动成本：玩具损耗、补货、电费
-   - 待区分：固定vs变动决定了规模经济方向
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **关键假设**：
-   - 规模经济假设：多放几个柜机，固定成本是否被摊薄？
-   - 复购假设：孩子是否愿意反复来玩？
-   - 收入假设：每个柜机每天能产生多少收入？
+   - src_unknown
+   - src_unknown
+   - src_unknown
 5. **壁垒分析**：
-   - 品牌壁垒：低（用户不会因为品牌选择柜机）
-   - 规模效应：弱（固定成本与收入比例不理想）
-   - 转化成本：弱（换一家玩具柜成本很低）
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ### 可复制的方法论
 

@@ -13,15 +13,15 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research, ai-collaboration]
 source_refs:
-- web: Firecrawl official docs (firecrawl.dev)
-- web: Web scraping APIs for AI agents (Grokipedia)
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-media-verification-overview]]'
-  - '[[tool-dns-intelligence]]'
-  - '[[tool-agent-native-overview]]'
-  - '[[tool-osint-wayback]]'
-  - '[[tool-google-dorking]]'
-  - "[[tool-agent-native-overview]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Firecrawl
@@ -68,9 +68,9 @@ curl -X POST https://api.firecrawl.dev/v1/scrape \
 
 ## 适用边界
 
-- **适用**：Agent需要"阅读网页"内容、批量采集竞对页面
-- **不适用**：需要登录的页面、法律禁止爬取的网站
-- **成本**：免费层500 credits/月，付费 $19/月起
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

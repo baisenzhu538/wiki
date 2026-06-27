@@ -3,8 +3,8 @@ id: tool-马易-隐性知识萃取与模型化
 title: 技能：隐性知识萃取与模型化
 type: tool
 domain:
-- ai-collaboration
-- yitang- ai-saas
+- src_unknown
+- src_unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-AI项目需求拆解筛选]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：隐性知识萃取与模型化
 
@@ -38,25 +38,25 @@ related:
 
 ## 适用场景
 
-- 专家经验丰富但难以规模化复制
-- 需要提升团队整体决策质量
-- 构建AI中台或智能体的核心方法论
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 业务本身缺乏成熟经验沉淀
-- 追求技术架构而非业务内核
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 思维导图
-- 流程图工具
-- 模型框架（Y模型/双三角/SERVING等）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ AIGC时代最稀缺的是业务建模能力，将隐性经验显性化为模型�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 马易，AI落地场景识别
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

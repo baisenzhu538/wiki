@@ -3,8 +3,8 @@ id: tool-Truman-AI时代IPO模型重构
 title: 技能：AI时代IPO模型重构
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+- src_unknown
+- src_unknown
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
-- '[[tool-Truman-低质量动作识别与拒绝]]'
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
-- '[[tool-Truman-AI输出审慎判断与交付确认]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：AI时代IPO模型重构
 
@@ -37,24 +37,24 @@ AI时代IPO模型重构是Truman在AI时代判断力中提出的实操方法。
 
 ## 适用场景
 
-- 使用AI辅助完成复杂任务时
-- 需要保证AI产出质量可控时
-- 团队协作中引入AI工具时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 简单重复性工作无需判断时
-- 完全自动化流程已验证可靠时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- AI大模型（GPT/Claude/豆包等）
-- 问题工程化框架（症状/目标/环境/做法）
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -62,12 +62,12 @@ AI替代了Process环节的高效处理能力，但输入质量和输出判断�
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- Truman，AI时代判断力
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

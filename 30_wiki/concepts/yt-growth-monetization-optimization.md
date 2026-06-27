@@ -1,6 +1,6 @@
 ---
 domain:
-  - growth
+  - src_unknown
 
 id: yt-growth-monetization-optimization
 title: 变现优化：从免费到付费
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-growth-strategy-overview
-  - yt-growth-product-led-growth
-  - yt-business-model-pricing-psychology
-  - yt-business-model-revenue-types
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'用户很多，但付费很少'"
+  - src_unknown
     framework_lens: 变现优化——付费少需要分析付费转化漏斗
     follow_up_question: "你的付费转化率是多少？用户为什么不付费？是价格、价值感知、还是 friction？"
-  - signal: "用户说'我们主要靠广告变现，但收入不稳定'"
+  - src_unknown
     framework_lens: 变现优化——广告变现不稳定，需要多元化变现方式
     follow_up_question: "你的变现方式有哪些？是否考虑了订阅、增值服务、交易佣金等？"
-  - signal: "用户说'我们提价后，用户流失了'"
+  - src_unknown
     framework_lens: 变现优化——提价需要评估价格弹性，不是简单涨价
     follow_up_question: "你的提价幅度是多少？用户的价格弹性如何？是否有价值支撑？"
-  - signal: "用户说'我们的免费用户太多，付费用户太少'"
+  - src_unknown
     framework_lens: 变现优化——免费到付费需要设计转化机制
     follow_up_question: "你的免费和付费功能边界在哪里？免费用户是否有足够的动力升级？"
-  - signal: "用户说'我们不知道定价多少合适'"
+  - src_unknown
     framework_lens: 变现优化——定价需要基于价值感知和竞争分析
     follow_up_question: "你的定价是基于成本、竞争、还是价值？用户感知价值是多少？"
 
@@ -138,21 +138,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当用户多但付费少时 → 优化付费转化
-- 当收入不稳定时 → 多元化变现
-- 当提价流失时 → 评估价格弹性
-- 当免费用户多时 → 设计转化机制
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-growth-strategy-overview`：增长策略总纲
-- `yt-growth-product-led-growth`：产品驱动增长
-- `yt-business-model-pricing-psychology`：定价心理学
-- `yt-business-model-revenue-types`：收入模式
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂增长策略课
-- 变现优化研究
-- 定价策略研究
+- src_unknown
+- src_unknown
+- src_unknown

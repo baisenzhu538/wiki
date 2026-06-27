@@ -6,32 +6,32 @@ confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - research- yitang
+  - src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-- yt-research-osl-framework
-- yt-research-intelligence-map
+- src_unknown
+- src_unknown
 query_triggers:
-- 竞品分析
-- 竞品拆解
-- 对标分析
-- 竞争格局
-- 竞争象限
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-research-hypothesis-test]]'
-  - '[[tool-泛产品落地-内核和边界]]'
-  - '[[tool-复盘推演法]]'
-  - '[[tool-辩证讨论法]]'
-  - '[[tool-分享输出检验法]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-decision-width-method]]'
-  - '[[yt-research-weaponry-course]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -48,15 +48,15 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能区分直接竞品、间接竞品和可借鉴产品三类
+- src_unknown
   framework_lens: 竞品不只是同赛道
   follow_up_question: 用户如果不选你，还会怎么解决这个需求？
-- signal: 分析时会识别竞品的内核（不可复制）与边界（可攻破）
+- src_unknown
   framework_lens: 内核-边界模型看懂竞品
   follow_up_question: 竞品的哪一部分是你最难复制的？哪一部分是它的软肋？
-- signal: 竞品分析会输出对自己产品的战略启示
+- src_unknown
   framework_lens: 竞品分析服务于自身决策
   follow_up_question: 基于竞品分析，你要调整自己的定位、功能还是商业模式？
 updated_at: '2026-06-18'
@@ -154,9 +154,9 @@ author: 老顽童
 
 竞品拆解工具包的三条边界声明揭示了工具的内在张力：
 
-- **"分析者偏见"的不可避免**：三层分类和内核-边界模型都依赖分析者的主观判断。同一家竞品，A视为"内核"的能力，B可能视为"边界"的限制。分析结果大量渗透了分析者自身的业务偏好。
-- **竞争象限的"维度陷阱"——你选的轴决定了你的结论**：二维定位的纵横轴选择是任意的（价格×体验、专业度×服务重等），不同的轴组合会导致完全不同的"机会区"判断。工具本身不能告诉你"该选哪两个维度"。
-- **集中度偏误**：三层分类鼓励你去找"直接竞品"，但在高度集中的市场中（如社交媒体、电商平台），前2-3名可能占据了80%的市场份额。此时"直接竞品"分析的价值有限，因为你的竞争对象是"巨头们"，而非"差异化定位"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -164,19 +164,19 @@ author: 老顽童
 
 **Michael Porter**（竞争战略之父）对"三层竞品分类"提出根本性质疑：
 
-- **竞品分析过度聚焦"直接对手"忽视了结构性威胁**：Porter认为，决定行业利润率的不是现有竞品之间的竞争，而是五种力量的综合作用：现有竞争者、潜在进入者、替代品、供应商议价能力、买家议价能力。三层分类只关注了"现有竞争者"，完全忽略了其他4种力量——而这4种力量往往比现有竞品更具破坏性。
-- **"可借鉴竞品"是竞争优势的失误来源**：Porter警告，企业最大的竞争危险不是"没看到竞品"，而是"拱手让出了自己的竞争优势"——你的行为被竞品复制、你的定位被竞品模仿。"可借鉴竞品"强调学习对手，但Porter认为真正的竞争优势来自于"难以复制的差异化"。
-- **竞争象限的静态假设**：Porter的五力模型强调行业结构是动态变化的。今天的空白区可能是明天的"血海"；今天的“直接竞品"可能是明天的“间接竞品"。静态的二维定位可能导致战略创伤。
-- **替代方案**：Porter建议在三层分类后，增加一个"五力扫描"环节：对每个直接竞品，问"如果它的五种力量发生变化，它的优势还在吗？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Clayton Christensen 的"颠覆式创新"：批判
 
 **Clayton Christensen**（《创新者的困境》作者）对"内核-边界"模型提出根本性质疑：
 
-- **"内核"是一个历史构建物，而非未来预测器**：Christensen证明，企业的"内核能力"往往是在特定历史条件下形成的——今天的"内核"明天可能变成"核心刚性"（Core Rigidity）。你用"内核-边界"分析竞品，得出的结论是"它的内核是X，所以它很强"——但Christensen警告，当技术轨迹发生转折时，正是"内核"越强的企业越容易被颠覆。
-- **低端颠覆无法被"三层分类"捕捉**：Christensen的研究表明，大多数颠覆来自于"低端市场"或"新市场"——这些市场一开始根本不被现有企业视为"竞品"。三层分类要求你先找出"直接竞品"，但低端颠覆在起步阶段根本不是任何人的竞品——它在直接竞品的"视野盲区"中成长。
-- **"可借鉴竞品"是颠覆者的特征，而非现有者的**：Christensen认为，真正的创新者从来不是"分析竞品"的人，而是"被竞品分析"的人。如果你天天研究竞品、复制竞品，你永远只能做竞品的跟随者，而不是创新者。
-- **替代方案**：Christensen建议，在竞品拆解中增加一个"颠覆性质疑"环节："如果有一家公司从底端市场做起，只满足最差的需求，然后逐渐向上迁移，它会怎么打败我们现有的竞争格局？"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 
@@ -209,9 +209,9 @@ author: 老顽童
 # 竞品拆解一页纸 —— [产品名]
 
 ## 1. 三层分类
-- 直接竞品：[A]、[B]、[C]
-- 间接竞品：[D]（解决同一问题但方式不同）
-- 可借鉴：[E]（跨行业流程/机制）
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 2. 关键竞品内核-边界
 | 竞品 | 内核（不可复制） | 边界（可攻破） | 对我们的启示 |
@@ -220,14 +220,14 @@ author: 老顽童
 | B | 渠道覆盖 | 产品老化 | 用新功能攻击其老化产品 |
 
 ## 3. 竞争象限
-- 纵轴：价格（高→低）
-- 横轴：服务重度（重→轻）
-- 空白区：[低价格 × 轻服务] 存在真实需求证据 ___
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 4. 决策结论
-- 差异化：____
-- 跟随：____
-- 避开：____
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ## Action Triggers

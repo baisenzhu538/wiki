@@ -6,29 +6,29 @@ confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - personal-growth- personal-methods
+  - src_unknown
 language: zh-CN
 query_triggers:
-- AI思维卡
-- 认知升级系统
-- 深度阅读方法
-- 如何把书读成认知补丁
-- 结构化读书笔记
-- ICAP分层
-- 知识内化方法
-- 从读到用的方法
-- 读书怎么变成行动
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-model-cognitive-upgrade-framework]]'
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-panproduct-aesthetic-collection]]'
-  - '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
-  - '[[tool-泛产品落地-善用佳软]]'
-  - '[[yt-model-agent-architecture]]'
-  - '[[yt-personal-knowledge-extraction]]'
-  - '[[yt-personal-deep-review]]'
-  - '[[yt-personal-checklist-notes]]'
-  - '[[yt-model-deep-review-iceberg]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -39,15 +39,15 @@ trust_level: medium
 type: tool
 version: 1
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 每张卡只聚焦一个可迁移的'认知补丁'，而不是一本书的摘要
+- src_unknown
   framework_lens: 认知补丁 = 改变判断或行动的单一模型
   follow_up_question: 去掉这张卡，你在什么具体决策上会做出不同选择？
-- signal: 卡中包含明确的适用边界和至少一个可执行的行动建议
+- src_unknown
   framework_lens: 补丁必须能安装到具体场景
   follow_up_question: 这个认知在什么情境下会失效？
-- signal: 新卡会与旧卡建立双向链接，形成可复用的认知网络
+- src_unknown
   framework_lens: 孤立的补丁价值有限
   follow_up_question: 这张卡与已有哪张卡冲突或互补？
 updated_at: '2026-06-16'
@@ -70,20 +70,20 @@ author: 老顽童
 ### 失败模式
 
 1. **卡片变成书摘合集，没有自己的判断**
-   - **原因**：把记录当理解
-   - **修复**：每张卡必须包含‘我的判断’和‘我会怎么用’两部分
+   - src_unknown
+   - src_unknown
 
 2. **只写认知，不写边界，导致滥用**
-   - **原因**：边界缺失
-   - **修复**：强制回答：‘这个认知在什么情况下不适用？’
+   - src_unknown
+   - src_unknown
 
 3. **卡片孤立，没有与已有知识链接**
-   - **原因**：网络未建立
-   - **修复**：写卡时至少链接一张相关旧卡，并说明关系
+   - src_unknown
+   - src_unknown
 
 4. **写完不再回看，补丁没有真正安装**
-   - **原因**：缺少复用闭环
-   - **修复**：设定‘30天复用测试’：遇到相关决策时能否想起这张卡？
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -133,10 +133,10 @@ CTA要求三选一、5分钟内能启动。FOLLOWUP设三周后复诊——如�
 
 ### 适用场景
 
-- 读了一本"感觉很重要但不知道从哪用起"的书
-- 读完书说不出"我具体学到了什么"
-- 需要把阅读输出转化为团队可用的方法论
-- 建立个人知识体系的"认知补丁版本日志"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 
@@ -175,11 +175,11 @@ AI 思维卡的问题在于：它是"先有模板，再填内容"。而 Ahrens �
 
 ### 关联卡片
 
-- [[yt-model-agent-architecture]] — 智能体架构：AI思维卡的理论基础——它本质上是Learning Agent的更新日志。PEAS定义阅读目标，五层架构诊断"我此刻在哪个认知层级处理这本书"
-- [[yt-personal-knowledge-extraction]] — 知识萃取：将阅读内容转化为可复用知识单元的上游工序
-- [[yt-personal-deep-review]] — 深度复盘：AI思维卡的三周复诊机制本质上是针对"这张卡"的深度复盘
-- [[yt-personal-checklist-notes]] — 清单体笔记：互补的轻量级笔记方法——清单体适合执行层，AI思维卡适合架构层
-- [[yt-model-deep-review-iceberg]] — 深度复盘冰山图：从主观感受到能力建设的五层穿透，与AI思维卡的ICAP泵升路径互补
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与其他笔记方法的对比
 

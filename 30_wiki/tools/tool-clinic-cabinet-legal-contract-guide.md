@@ -6,8 +6,8 @@ title: 诊所+智能药柜合作的法律关系与合同要点
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,11 +19,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - '[[concept-smart-medicine-cabinet-international-models]]'
-  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
-  - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[互联网医院项目]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ------
 
 ## Purpose
@@ -51,9 +51,9 @@ related:
 
 ## When NOT to Use
 
-- 本工具**不能替代法律、财务、药学或政策专业意见**；重大决策前请咨询专业人士。
-- 当证据来源单一、利益冲突明显时，不要仅依赖本工具做出投资或合作决定。
-- 本工具基于 2026 年 6 月前的公开/内部信息，政策变化后需重新验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -61,9 +61,9 @@ related:
 
 ### 局限性
 
-- 本工具基于有限案例和内部录音提炼，无法覆盖所有地区的政策细节。
-- 医药行业监管变化快，部分结论可能随政策调整而失效。
-- 工具不能替代专业律师、会计师、药师或药监/医保部门的正式意见。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -73,9 +73,9 @@ related:
 
 ### 使用建议
 
-- 把 checklist 结果写成书面风险清单，而不是口头结论。
-- 对标注为“待验证”的项目，必须限定验证责任人和截止日期。
-- 重大合作/投资决策前，引入外部专业顾问交叉复核。
+- src_unknown
+- src_unknown
+- src_unknown
 
 # 诊所+智能药柜合作的法律关系与合同要点
 
@@ -114,67 +114,67 @@ related:
 ### 2. 关键法律红线
 
 #### 红线 1：不得出租、出借《医疗机构执业许可证》
-- **依据**：《医疗机构管理条例》第二十三条。
-- **风险**：若第三方以诊所名义销售药品、开具处方、进行医保结算，但诊所不参与实际管理，可能被认定为出租出借许可证。
-- **规避**：诊所必须对药品采购、储存、销售、处方、医保结算等核心环节保持实际控制。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 红线 2：不得承包科室
-- **依据**：《医疗机构管理条例》第四十五条；《基本医疗卫生与健康促进法》。
-- **风险**：若药柜业务被第三方独立运营、独立核算、独立分成，可能被认定为变相承包药房/科室。
-- **规避**：药柜应作为诊所内部药房的延伸，由诊所统一管理。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 红线 3：药品质量责任不可转移
-- **依据**：《药品管理法》第五十五条、第五十六条。
-- **原则**：药品上市许可持有人、药品经营企业、医疗机构分别承担相应质量责任。**诊所作为使用/销售终端，不能通过合同完全转移质量责任**。
+- src_unknown
+- src_unknown
 
 #### 红线 4：医保合规责任不可转移
-- **依据**：《医疗保障基金使用监督管理条例》。
-- **原则**：医保定点机构对其发生的医保基金使用行为负责。若药柜发生欺诈骗保、串换药品等行为，医保定点资格可能被取消。
+- src_unknown
+- src_unknown
 
 ### 3. 合同核心条款清单
 
 #### 3.1 合作范围与法律关系
-- [ ] 明确法律关系性质（租赁/购销/委托/合作经营/加盟）。
-- [ ] 明确药柜设置地点、数量、设备型号、所有权归属。
-- [ ] 明确合作期限、续约条件、提前终止条件。
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.2 药品管理
-- [ ] 药品采购主体：由谁采购？发票由谁开具？
-- [ ] 药品所有权：库存药品归谁所有？
-- [ ] 药品质量管理：GSP 体系由谁建立和维护？
-- [ ] 药品追溯码：谁负责采集和上传？
-- [ ] 近效期/过期药品：由谁处理？损失由谁承担？
-- [ ] 药品损耗：正常损耗率如何约定？超出部分如何处理？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.3 处方与药事服务
-- [ ] 处方由谁开具？是否必须由本机构注册医师面诊后开具？
-- [ ] 执业药师/药师如何配置？现场还是远程？
-- [ ] 处方审核、用药指导由谁负责？
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.4 医保与结算
-- [ ] 医保结算主体是谁？
-- [ ] 是否使用诊所的医保定点资格？
-- [ ] 医保违规责任如何划分？
-- [ ] 收入如何分成？结算周期？对账方式？
-- [ ] 第三方支付/平台手续费由谁承担？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.5 财务与税务
-- [ ] 药品销售收入如何确认？由谁开票？
-- [ ] 利润分成如何计算？是否按销售额还是净利润？
-- [ ] 增值税、企业所得税、个人所得税分别由谁承担？
-- [ ] 若采用合作经营，是否需设立共管账户？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.6 责任与违约
-- [ ] 药品质量事故责任如何划分？
-- [ ] 医疗纠纷/患者投诉责任如何划分？
-- [ ] 医保飞行检查/行政处罚责任如何划分？
-- [ ] 数据安全与患者隐私保护责任如何划分？
-- [ ] 违约金、保证金、提前退出机制如何约定？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 3.7 合规承诺
-- [ ] 双方承诺遵守《药品管理法》《医疗机构管理条例》《医疗保障基金使用监督管理条例》等。
-- [ ] 第三方承诺不从事处方药违规销售、医保欺诈等行为。
-- [ ] 诊所承诺不出租出借许可证、不承包科室。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 利润分成的税务处理要点
 

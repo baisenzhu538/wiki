@@ -1,6 +1,6 @@
 ---
 domain:
-  - demand-analysis
+  - src_unknown
 
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-hierarchy-model
-  - yt-demand-fake-demand-detection
-  - yt-demand-scenario-reconstruction
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'AI很火，我们做一个AI知识库'"
+  - src_unknown
     framework_lens: AI知识库案例——技术驱动≠需求驱动
     follow_up_question: "用户现在怎么管理知识？AI知识库比现有方案好在哪里？"
-  - signal: "产品功能很炫（AI搜索、智能问答），但用户不用"
+  - src_unknown
     framework_lens: AI知识库案例——功能炫技，未验证真需求
     follow_up_question: "用户现在找信息的最大痛点是什么？是找不到，还是找到了但看不懂？"
-  - signal: "用户说'所有企业都需要知识库'"
+  - src_unknown
     framework_lens: AI知识库案例——需求太泛，未分层
     follow_up_question: "哪类企业的知识管理痛点最痛？是初创公司还是大型集团？"
-  - signal: "产品上线后，用户上传了文档但从不查询"
+  - src_unknown
     framework_lens: AI知识库案例——使用场景未验证
     follow_up_question: "用户在什么场景下需要查询知识库？这个场景多久发生一次？"
-  - signal: "用户说'AI能自动生成答案'，但答案准确率很低"
+  - src_unknown
     framework_lens: AI知识库案例——技术能力≠用户价值
     follow_up_question: "用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？"
 
@@ -56,13 +56,13 @@ diagnostic_signals:
 ### 第一步：拆——用户真正的问题是什么？
 
 错误拆解：
-- ❌ "企业需要知识管理"
-- ❌ "AI能让知识管理更智能"
+- src_unknown
+- src_unknown
 
 正确拆解（需要验证）：
-- ✅ "特定人群：大型企业（500人+）的中层管理者，需要快速找到历史决策依据"
-- ✅ "特定场景：新项目立项时，需要参考类似项目的历史经验和失败教训"
-- ✅ "核心问题：现在找历史信息耗时太长（平均2小时），且经常找不到"
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：推——用户现在怎么解决的？
 
@@ -117,10 +117,10 @@ diagnostic_signals:
 
 ### 3. 需求分析后的产品决策
 
-- **核心功能**：快速找到历史信息（解决时间成本问题）
-- **差异化功能**：关联推荐、决策依据追溯（超出传统搜索的价值）
-- **必须验证**：答案准确率、用户查询频率、续费率
-- **目标用户**：大型企业（500人+）的项目管理者、中层决策者
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 失败模式（如果需求分析做错了）
 
@@ -142,21 +142,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当你说"AI很火，做一个"时 → 回到"用户的问题是什么？"
-- 当你说"AI能自动生成"时 → 问"用户需要自动生成的吗？准确率要求多少？"
-- 当你说"所有企业都需要"时 → 找到最痛的100家企业验证
-- 当你设计AI功能时 → 每个功能标注对应的用户任务和验证指标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-demand-qualitative-analysis`：需求定性分析框架（拆推评算）
-- `yt-demand-hierarchy-model`：需求层次模型
-- `yt-demand-fake-demand-detection`：伪需求识别的7个信号
-- `yt-demand-scenario-reconstruction`：用户场景重构法
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂五步法需求分析口述稿（Truman，2026-06-10）
-- 一堂AI企业知识库产品路线图案例
-- 一堂案例大爆炸：AI产品需求分析陷阱
+- src_unknown
+- src_unknown
+- src_unknown

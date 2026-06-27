@@ -13,17 +13,17 @@ trust_level: high
 language: zh-CN
 domain: [yitang, five-step-method, ai-collaboration]
 source_refs:
-- web: thrv 2025 segmentation methods
-- web: Reddit/Glassdoor public data analysis
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-demand-agent-case-match]]'
-  - '[[tool-alt-data-overview]]'
-  - '[[tool-demand-agent-auto-verify]]'
-  - '[[tool-demand-agent-signal-substitute]]'
-  - "[[tool-demand-iceberg-l1-user]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-demand-blindspot-checklist]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # Agent L1-L2信号聚合
@@ -33,15 +33,15 @@ related:
 ## 方法
 
 **Agent自动采集信号源**：
-- Reddit/知乎：该品类被提及的高频场景和用户抱怨
-- App Store/电商评论：竞品的差评集中在什么场景
-- Google Trends：品类搜索趋势和地域分布
-- 竞对招聘JD：竞对在招什么岗位→他们在押注什么用户群
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与对应冰山卡的关系
 
-- L1（用户标签）：Agent用"多角色映射"替代"我猜用户是谁"
-- L2（场景问题）：Agent用"Job Story格式"自动生成场景假设
+- src_unknown
+- src_unknown
 
 ## Agent执行指令
 
@@ -67,8 +67,8 @@ signals = agent.search_across([
 
 ## 适用边界
 
-- **适用**：L1/L2的初步用户画像和场景假设生成
-- **不适用**：最终决策——Agent提供信号，人做判断
+- src_unknown
+- src_unknown
 
 ---
 

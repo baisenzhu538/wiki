@@ -3,9 +3,9 @@
 title: "OCR: 一堂-单元模型-扭蛋机案例"
 type: concept
 domain:
-  - needs-review
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_31712e1d
@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-示例]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-单sku模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -40,23 +40,23 @@ related:
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- ②点位之间差距(好点位长什 程SOP化
+- src_unknown
 么样） ③标准化点位选择标准降低BD成 一年回本要多久
-- 直接不进场
+- src_unknown
 BD、损耗全算进去）
 判断标准 最乐观都不能在合理周期回 全年下来扣完所有成本还能赚 单台ROI有没有在持续提升
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

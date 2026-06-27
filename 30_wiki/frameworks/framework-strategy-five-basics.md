@@ -12,17 +12,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+- src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/冉鹏战略课录屏_ocr.md
+- src_unknown
 related:
-  - '[[tool-strategy-four-moves]]'
-  - '[[tool-strategy-gap-analysis]]'
-  - '[[tool-strategy-three-horizons]]'
-  - '[[dk-strategy-01-not-goal-setting]]'
-  - '[[framework-strategy-basics-04-system]]'
-  - '[[framework-strategy-brm]]'
-  - '[[framework-strategy-six-stages]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 战略五基本功（5C）
@@ -66,8 +66,8 @@ def assess_5c(company):
 
 ## 适用边界
 
-- **适用**：战略能力诊断和建设
-- **不适用**：单次战略决策（用BRM即可）
+- src_unknown
+- src_unknown
 
 ---
 

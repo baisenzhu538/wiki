@@ -5,20 +5,20 @@ title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - education
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#domain/education'
-  - '#content-format/case'
-  - '#topic/market-sizing'
-  - '#topic/customer-segmentation'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 董程滨（一堂学员）
@@ -27,22 +27,22 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: 市场规模估算出现“全国过万所中学 × 千万级家长 × 10% 渗透率 ≈ 100 亿”。
+  - src_unknown
     framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
     follow_up_question: 这 100 亿中，有多少来自学校真实预算？可触达的头部学校有多少家？单校专项成本与成本占有率分别是多少？
-  - signal: 早期同时组建 toB（高中学校）和 toC（家长/学生）两条战线，团队迅速扩张到 50-60 人。
+  - src_unknown
     framework_lens: 客户切分与商业模式 / [[yt-tob-customer-sabc]]
     follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
-  - signal: 校方采购理由高度依赖“上级部门建设名头 + 学校决策层打造特色示范校”。
+  - src_unknown
     framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
     follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
 ---
@@ -54,9 +54,9 @@ diagnostic_signals:
 
 2019-2020 年，正值新高考改革（6 选 3、赋分制）推行。某创业公司判断：
 
-- 志愿填报将出现新刚需；
-- 高中学习阶段需要日常估分、选科指导的数据软件；
-- 生涯规划服务将成为家长刚需。
+- src_unknown
+- src_unknown
+- src_unknown
 
 公司据此组建 50-60 人的技术-市场-运营-教研团队，计划 toB + toC 两头开花。
 
@@ -76,35 +76,35 @@ diagnostic_signals:
 
 ### 需求验证
 
-- 新高考改革确实带来需求变化。
-- 但需求不等于付费：生涯规划属于“软性、非学科”服务，不在副校长政绩指标和主要任务内。
-- 对文补提分机构（toC 渠道之一）来说，该服务“鸡肋”，无法做销售植入。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 客户切分验证
 
-- **头部客户（一级达标校）**：有钱、有意向打造特色示范校，但项目周期长（1.5 年）、定制需求多。
-- **腰部客户（县中）**：有预算但有限，需要培训服务，采购规模小。
-- **腿部客户**：大量高中没钱、没预算、没想法，不可能成为客户。
-- 结论：这个业务“没有腿部一说”，可服务客户数量被高估。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 天花板验证
 
-- 以单省为例：头部单校 60 万 × 5 所学校 = 300 万。
-- 当时仅做 2 个省，年营收 300-600 万。
-- 利润仅约 3%，无法覆盖 50-60 人团队成本。
-- 远低于 100 亿的天花板想象。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 商业模式验证
 
-- 学校信息化项目多采用“产品型 + 服务型”组合。
-- 但实际执行中：决策链长、定制多、需满足领导偏好、要兼顾老师需求。
-- 产品没有完美解决方案，只能在预算内做平衡。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 增长与壁垒验证
 
-- toB/toC 双线作战导致资源分散。
-- 没有形成可持续获客模型和护城河。
-- 2021 年下半年项目欠薪、清场，最终失败。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -143,9 +143,9 @@ diagnostic_signals:
 | **团队成本覆盖能力** | — | 50-60 人团队 × 人均成本 | 技术、市场、运营、教研全建制 | 无法覆盖，最终欠薪清场 |
 
 **诊断要点**：
-- 原始 100 亿没有区分“有预算的头部学校”“有少量预算的县中”“无预算的腿部学校”。
-- 复盘算法显示：真正可服务的客户不是“万所中学”，而是“极少数愿意打造特色示范校的一类达标校”。
-- 当利润只有 3% 时，即便每年做到 600 万营收，利润也仅 18 万左右，远不足以养活 50-60 人团队。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -174,9 +174,9 @@ diagnostic_signals:
 | **小计** | **≈ 35 人** | **≈ 35 人** | **10 人** | 合计约 60 人（含共享） |
 
 **关键结论**：
-- 双线作战不是“1+1=2”，而是“1+1≈1.5 倍组织复杂度 + 2 倍现金流消耗”。
-- 任意一端如果 6-12 个月内无法验证单销售模型，另一端也会被拖垮。
-- 修复动作：在现金流允许的时间内，先选择一端跑通最小盈利单元，再决定是否扩张第二曲线。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -207,6 +207,6 @@ diagnostic_signals:
 
 ## 九、待核实数据
 
-- 实际团队人数、薪资成本和总支出。
-- 各省份实际签约学校数量和合同金额。
-- 亿欧报告中提到的公司具体信息。
+- src_unknown
+- src_unknown
+- src_unknown

@@ -5,9 +5,9 @@ title: '王欢案例：教育机构用 PACED 还原销冠决策链'
 type: case
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 王语嫣
@@ -17,40 +17,40 @@ trust_level: medium
 source_person: 王欢
 source_context: '王欢 AI 实战分享（2026-06-18 授课）'
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[case-wanghuan-education-sales-capability-extraction]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[dk-wanghuan-paced-sales-decision]]'
-  - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-  - '[[framework-wanghuan-task-product-system]]'
-  - '[[framework-wanghuan-bitcoe-prompt-framework]]'
-  - '[[concept-wanghuan-adversarial-generation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 案例
-- 教育销售
-- PACED
-- 销冠
-- 隐性经验
-- 人机协作
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: '新人背熟了销冠话术，实战丢单率依然高'
+- src_unknown
   lens: '隐性决策知识未被提取'
   follow_up: '用 PACED 反向工程关键选择点，区分“说了什么”与“为何在此时说”'
-- signal: 'AI 话术评分高但真实成交率低'
+- src_unknown
   lens: '评分维度缺少策略判断'
   follow_up: '在评分顶层加入策略判断维度，权重高于话术与异议处理'
-- signal: '话术库越堆越多，维护成本爆炸且互相冲突'
+- src_unknown
   lens: '策略与话术混在同一存储层'
   follow_up: '建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离'
-- signal: '团队用 AI 后销售效率无明显提升'
+- src_unknown
   lens: '把 AI 当演员工具而非导演系统'
   follow_up: '检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器'
 ---
@@ -155,25 +155,25 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- [ ] 选取 3 段以上真实成交/丢单录音，确认可脱敏使用。
-- [ ] 与 1–2 位销冠逐句复盘，用 PACED 标注每个关键节点的信号、判断、动作。
-- [ ] 把“策略”（何时对何人做何判断）与“话术”（具体表达）写入两个独立存储。
-- [ ] 设计双角色对练：家长 AI 只扮演客户，教练 AI 只在结束后做策略级评分。
-- [ ] 重新定义评分：策略判断权重 ≥50%，话术与异议处理作为次要高阶指标。
-- [ ] 让新人完成 10 次以上对练，对比“关键节点选择正确率”前后变化。
-- [ ] 每月迭代一次 PACED 策略库，把新场景判断沉淀为可复用规则。
-- [ ] 让业务负责人明确最终验收标准，而非把 AI 输出直接交给一线。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[dk-wanghuan-paced-sales-decision]]：PACED 销冠决策链的暗知识抽象。
-- [[framework-wanghuan-actor-director-mode]]：本案例是“导演思维”在销售场景的具体落地。
-- [[case-wanghuan-shenyang-software-3x-efficiency]]：同一套“系统重构而非工具升级”逻辑在软件开发中的验证。
-- [[framework-wanghuan-task-product-system]]：把单次话术训练从任务升级为可复用系统。
-- [[framework-wanghuan-bitcoe-prompt-framework]]：用 BTICOE 把模糊意图结构化，是 PACED 萃取前的输入清洗工具。
-- [[concept-wanghuan-adversarial-generation]]：双角色对练本质是“生成者—评审者”分离的对抗式生成。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

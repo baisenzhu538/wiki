@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
-- design
+- src_unknown
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,8 +14,8 @@ created_at: 2026-06-04
 updated_at: '2026-06-16'
 related: null
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.7
@@ -40,9 +40,9 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用需要严格版权合规的场景（直接复制可能涉及提示词原创者权益）
-- 不适用于提示词本身依赖特定模型版本或插件的情况
-- 若业务需求与案例差异过大，全量替换比局部修改更高效
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么值钱
 
@@ -50,4 +50,4 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb1-aigc-mvp-before-ps]] — 设计师AIGC工作流：先跑MVP再开PS
+- src_unknown

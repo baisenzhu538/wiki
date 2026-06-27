@@ -13,39 +13,39 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- OSCAR调研
-- 调研五步法
-- 调研框架
-- 调研模型
-- 系统式调研
-- 调研方法论
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
-  - '[[framework-yitang-high-level-execution]]'
-  - '[[framework-yitang-four-research-types]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[concept-yitang-research-scope]]'
-  - '[[framework-yitang-high-level-plan]]'
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[framework-yitang-four-research-types]]"
-  - "[[framework-yitang-research-radar]]"
-  - "[[concept-yitang-research-objective]]"
-  - "[[concept-yitang-research-scope]]"
-  - "（tool-yitang-research-checklist，待补）"
-  - "（tool-yitang-research-acquisition，待补）"
-  - "（tool-yitang-research-reasoning，待补）"
-  - "[[yt-research-osl-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法
@@ -79,14 +79,14 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 核心原则：调研是解答题，不是了解题
 
 **错误目标**：
-- "了解一下这个行业" → 没有决策指向
-- "看看竞品在做什么" → 没有行动标准
-- "收集一些用户反馈" → 没有验证标准
+- src_unknown
+- src_unknown
+- src_unknown
 
 **正确目标**：
-- "判断是否进入XX行业，需要验证哪3个假设" → 可验证
-- "找出竞品A的核心优势，判断我们是否能在6个月内追上" → 有时限
-- "验证用户是否愿意为XX功能付费，定价区间是多少" → 可执行
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 四种调研目标类型
 
@@ -104,16 +104,16 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 三原则：专注·专业·剥离
 
 **专注原则**：一次只解决一个核心问题
-- 错误："同时调研行业、竞品、用户、供应链"
-- 正确："先调研行业是否值得进入，再调研具体怎么做"
+- src_unknown
+- src_unknown
 
 **专业原则**：调研深度要匹配决策重要性
-- 错误："投资1000万的项目，只看了3篇行业报告"
-- 正确："投资1000万的项目，至少访谈10个专家、分析5个竞品、验证100个用户"
+- src_unknown
+- src_unknown
 
 **剥离原则**：剥离与核心问题无关的信息
-- 错误："调研竞品时，连竞品的办公室装修都研究"
-- 正确："只调研与核心决策相关的信息，其他一律剥离"
+- src_unknown
+- src_unknown
 
 ### 四个调研层面
 
@@ -131,19 +131,19 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 三步骤：认识竞争·寻找最优·逐步挖掘
 
 **认识竞争**：
-- 画出竞争象限（横轴：价格，纵轴：价值）
-- 标注自己和竞品的位置
-- 识别空白区和红海区
+- src_unknown
+- src_unknown
+- src_unknown
 
 **寻找最优**：
-- 二维定位：找到差异化的坐标
-- 按图索骥：根据定位寻找对标案例
-- 最佳实践：学习行业内做得最好的
+- src_unknown
+- src_unknown
+- src_unknown
 
 **逐步挖掘**：
-- 从公开信息开始
-- 逐步深入到半公开信息
-- 最后用挖掘式获取水下信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -190,24 +190,24 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 
 ```
 Step 1: 明确决策问题（O）
-   - 用"选择题/解答题/设计题/竞争题"分类
-   - 确定可验证的通过/不通过标准
+   - src_unknown
+   - src_unknown
    ↓
 Step 2: 选择调研层面（S）
-   - 宏观/中观/微观/单点
-   - 写"剥离清单"，明确不调研什么
+   - src_unknown
+   - src_unknown
    ↓
 Step 3: 设计执行清单（C）
-   - 竞争象限 → 二维定位 → 按图索骥
-   - 定制清单，不用通用模板
+   - src_unknown
+   - src_unknown
    ↓
 Step 4: 执行情报获取（A）
-   - 公开 → 半公开 → 专家 → 逆向 → 社会工程
-   - 记录来源和可信度
+   - src_unknown
+   - src_unknown
    ↓
 Step 5: 验证与归因（R）
-   - 事实优先 → 定量建模 → 交叉验证 → 深度归因
-   - 明确结论，标注置信度
+   - src_unknown
+   - src_unknown
 ```
 
 ---
@@ -261,22 +261,22 @@ Step 5: 验证与归因（R）
 
 ## 关联卡片
 
-- [[framework-yitang-high-level-plan]] — OSC高水平计划（O+S+C）
-- [[framework-yitang-high-level-execution]] — AR高水平执行（A+R）
-- [[framework-yitang-four-research-types]] — 四类调研模型
-- [[framework-yitang-research-radar]] — 调研能力诊断
-- [[concept-yitang-research-objective]] — 锁定目标方法论
-- [[concept-yitang-research-scope]] — 缩小范围三原则
-- [[yt-research-osl-framework]] — 旧版OSCAR五步法
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-系统式调研-口述（Truman，2020）
-- 验证：系统调研（高水平计划/执行）VLM描述（0.95置信度）
-- 交叉：business-research-skill OSCAR模型定义
-- 注意：OSCAR是旧版OSCAR五步法（yt-research-osl-framework）的升级版，整合了高水平计划（OSC）和高水平执行（AR）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

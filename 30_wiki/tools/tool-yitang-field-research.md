@@ -13,33 +13,33 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 实地调研
-- 蹲店
-- 数人头
-- 门店调研
-- 线下调研
-- 现场调查
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/调研手段卡1（门店）_ocr_text.md
 related:
-  - '[[tool-yitang-store-franchise-research]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-organization-research]]'
-  - '[[yt-management-business-formula]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-store-franchise-research]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[case-yitang-luckin-field-research]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧
@@ -53,8 +53,8 @@ related:
 "真正赚过大钱、赔过大钱的那些老兵，特别愿意花很多很多的时间去市场上拿信息。小招小花招层出不穷——蹲店啦、数人头啦、假装合作方啦、找求职者啦——他们总能拿到一些很意外的核心情报。"
 
 **新手 vs 老兵的核心差距**：
-- 新手：还在讨论和分析问题，大量时间花在"想"上
-- 老兵：一两通电话、一两个搜索工具，直接拿到同行现成的答案，大量时间花在"拿"上
+- src_unknown
+- src_unknown
 
 实地调研的本质：**用体力换信息质量**。它不聪明、不高科技，但它是所有调研手段中最难被造假的信息获取方式。
 
@@ -73,12 +73,12 @@ related:
 | **深蹲** | 系统覆盖多个门店（至少选3类：旗舰店/普通店/偏远店），在同一时段交叉对比 | 1-2周 | 标准化vs非标准化运营的区别、不同区位门店的真实表现差异 |
 
 **蹲店三要三不要**：
-- ✅ 要选非样板店：品牌方带你去看的店=精心包装过的
-- ✅ 要覆盖完整周期：工作日+周末，早中晚三个时段
-- ✅ 要多店交叉验证：至少3家不同区位的店
-- ❌ 不要只看中午高峰：中午人多不代表全天好
-- ❌ 不要在店内一直坐着不动：会被店员注意
-- ❌ 不要只看客流不看转化：进店人数≠购买人数
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二板斧：谈话（访谈法）
 
@@ -92,10 +92,10 @@ related:
 | 竞品员工 | 内部管理问题、产品真实缺陷、公司战略方向 | ⭐⭐⭐⭐ | 招聘网站/Boss直聘约聊 |
 
 **谈话的核心技巧**：
-- **先给后取**：先分享一个自己的"经历"或"困惑"，对方才愿意分享
-- **问具体不问抽象**：不要问"你觉得怎么样"，要问"上周二下午大概来了多少客人"
-- **交谈而非审问**：像朋友聊天，不要拿着本子记录
-- **多听少说**：让对方说80%，你只负责引导方向
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三板斧：数人头（量化法）
 
@@ -109,10 +109,10 @@ related:
 | **消费结构** | 统计点了什么产品、多少人、什么组合 | 爆品率、搭配率、单人vs多人消费比 |
 
 **数人头的进阶技巧**：
-- **分时段抽样**：不需要24小时盯着，但至少覆盖早中晚+工作日+周末的每个关键时段
-- **多日统计取均值**：单日数据波动大，至少3天以上的数据才能做趋势判断
-- **与公开数据交叉验证**：把数人头的结论和美团/大众点评的数据做比对，差异越大越说明有问题
-- **录音/录像辅助**：在合规前提下，录像比人工计数更准确，且可以反复回看
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -201,11 +201,11 @@ related:
 
 ## 来源与验证
 
-- 瑞幸案例数据来源：浑水/雪湖做空报告（89页公开报告）+ 一堂一位参与调研执行的同学（不便透露姓名）补充的过程数据，来自 `一堂-系统式调研-口述.txt`
-- 蹲店方法论：一堂调研武器库培训课程（Truman），老兵vs新手的行为差异观察
-- 三板斧框架：`一堂-调研武器库培训-口述.txt` + `一堂-高阶情报调研课-口述.txt`
-- 门店调研手段卡补充：`调研手段卡1（门店）_ocr_text.md`（洪七公 PaddleOCR）
-- 注意：瑞幸案例的具体数字（92/1400/38/981/25000）来自 Truman 口述引用浑水报告，标注"口述引用公开报告，数字可交叉验证"
+- src_unknown
+- src_unknown方法论：一堂调研武器库培训课程（Truman），老兵vs新手的行为差异观察
+- src_unknown
+- src_unknown手段卡补充：`调研手段卡1（门店）_ocr_text.md`（洪七公 PaddleOCR）
+- src_unknown
 
 ---
 

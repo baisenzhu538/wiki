@@ -6,8 +6,8 @@ title: 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金�
 type: case
 status: enriched
 problem_domains:
-- 组织激励
-- 模型质量管理
+- src_unknown
+- src_unknown
 industry: 在线教育
 scale: 公司
 source_person: Truman
@@ -16,19 +16,19 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
-- 问题描述清晰
-- 方案可理解
-- 可迁移点明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#content-format/case-study'
-- '#problem/org-incentives'
+- src_unknown
+- src_unknown
 related_skills:
-- '[[yt-unit-model-build]]'
+- src_unknown
 related_concepts:
-- '[[dk-modeling-model-arsenal-paradigms]]'
+- src_unknown
 related_cases:
-- '[[case-yitang-weekly-modeling-engine]]'
-- '[[case-yitang-model-asset-inventory]]'
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -36,15 +36,15 @@ reviewed_by: 王语嫣
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
-- 组织激励
-- 模型质量管理
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[dk-yb21-ecommerce-pricing-independent-model]]'
-  - '[[tool-strategy-market-opportunity-matrix]]'
-  - '[[dk-yb7-design-demand-80-10-10]]'
-  - '[[yt-management-scientific-decision]]'
-  - '[[dk-yb25-solution-driven-visual-design]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述
@@ -55,9 +55,9 @@ related:
 
 一堂教研团队在过去几年沉淀了大量模型，但内部长期把模型当成“图”或“课程讲义”，而非可复用的知识资产。结果是：
 
-- 同一类模型反复重做，打磨投入不足；
-- 质量标准不统一，“好不好”往往取决于个人审美；
-- 核心模型（如 Y 模型）的价值被严重低估，团队对“好模型应该长什么样”缺乏共同语言。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## What Happened
 
@@ -81,17 +81,17 @@ Truman 在一次内部教研会上引入“模型资产定价”机制，把抽�
 
 ## 结果
 
-- 形成内部共识：一个经过充分打磨的模型值 **10 万人民币乃至 10 万美金**；
-- Y 模型这类核心模型被评估为“学会并指导实践，至少值 10 万美金”；
-- 团队从“做个图”转向“做值钱资产”，质量标准被显著拉高；
-- 内部讨论模型打磨时有了共同语言：价格成为质量预期的锚点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
-- 给知识资产贴价格标签，是驱动团队追求高质量建模的有效管理手段；
-- 它把“审美追求”转化为可讨论、可比较的 ROI 决策；
-- 适用于任何需要长期打磨高价值方法论的团队（教研、咨询、产品策略、算法策略）；
-- 必须与复盘、资产盘点、激励机制挂钩，否则定价会沦为口号。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -140,16 +140,16 @@ Truman 在一次内部教研会上引入“模型资产定价”机制，把抽�
 
 ## 关键标签
 
-- 问题域：组织激励、模型质量管理
-- 行业：在线教育
-- 方法：资产定价、价值锚点、飞轮激励
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 概念：[[dk-modeling-model-arsenal-paradigms]]
-- 技能：[[yt-unit-model-build]]
-- 案例：[[case-yitang-weekly-modeling-engine]]、[[case-yitang-model-asset-inventory]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_8269ccdb#3374-3398`
+- src_unknown

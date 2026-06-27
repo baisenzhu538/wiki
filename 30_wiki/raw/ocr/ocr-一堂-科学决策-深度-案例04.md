@@ -3,7 +3,7 @@
 id: "ocr-一堂-科学决策-深度-案例04"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - src_unknown
 source_refs:
   - src_20260522_b4a26e00
 status: draft
@@ -11,18 +11,18 @@ title: "OCR: 一堂-科学决策-深度-案例04"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - src_unknown
+  - src_unknown
 author: "老顽童"
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-科学决策-稀缺资源清单]]'
-  - '[[ocr-一堂-科学决策-稀缺机会窗口]]'
-  - '[[ocr-一堂-科学决策-深度-案例06]]'
-  - '[[ocr-一堂-科学决策-深度-案例02]]'
-  - '[[ocr-一堂-科学决策-深度-案例05]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # OCR: 一堂-科学决策-深度-案例04
@@ -41,30 +41,30 @@ png` 公司要不要管员工中午饭 具体项 能否定量 补充解释 关�
 
 ## Source Refs
 
-- 10_raw/sources/src_20260522_b4a26e00-ocr-一堂-科学决策-深度-案例04.md`
+- src_unknown
 
 
 
 ## Reusable Knowledge
 
-- 公司提供免费午餐的年成本约为20-30万元，但可节省员工外出就餐时间成本约52万元/年，净收益为正。
-- 时间成本计算基准：员工平均月薪1.5万元，折合每小时约100元；外出就餐额外耗时1小时。
-- 定量分析的前提假设：40人公司中50%员工中午会外出就餐。
-- "提升员工幸福度"和"提升招聘成功率"属于定性收益，难以量化衡量，决策时需承认不确定性。
-- 科学决策的核心方法：将关键成本与关键收益尽可能量化对比，对无法量化的因素明确标注并辅助判断。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Open Questions
 
-- 时间成本计算是否应区分有效工作时间和非有效工作时间？外出就餐节省的1小时是否必然转化为等值产出？
-- 50%外出就餐比例假设是否有调研依据，还是主观估计？该比例在不同季节、天气、员工结构下如何变化？
-- 每小时100元的人力成本换算是否准确？月薪1.5万含社保公积金及福利，实际小时成本是否应更高，且是否应使用边际成本而非平均成本？
-- 20-30万午餐费用区间跨度达50%，具体取值依据是什么？是否包含场地、设备、管理人员的隐性成本？
-- 52万收益计算是否假设所有节省时间都用于工作？是否存在员工提前下班或效率未提升的情况，如何验证实际转化率？
-- "员工幸福度"和"招聘成功率"虽难量化，但能否通过离职率变化、招聘周期缩短、薪酬议价空间等代理指标间接估算？
-- 该分析框架是否考虑了机会成本——若将20-30万用于加薪或培训，收益是否可能更高？
-- 40人规模公司的结论是否具有可扩展性？人数变化时固定成本分摊和管理复杂度如何影响决策边界？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
@@ -82,30 +82,30 @@ Pye 论证真正的审美判断是不可编码的。案例中外出就餐被处�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-depth-ladder]] - 深度梯子，案例04是其在团队福利决策场景下的应用
-- [[yt-decision-canvas]] - 同域决策画布，案例中的时间成本换算是其在福利场景下的展开
-- [[master-decision-hygiene]] - 通用决策卫生
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 可迁移场景
 
-- 团队福利投资决策：用案例中的时间换算做出更全面的评估
-- 办公环境投资决策：在提供更好的办公条件与成本之间用时间价值分析
+- src_unknown
+- src_unknown
 
 
 
 ### 不要用的场景
 
-- 不要将案例中的平均时间价值当作普适常数，不同岗位的时间价值差异很大
-- 不要用时间成本框架来评价团队建设活动，团队建设的价值远超时间成本
-- 不要将额外耗时简单地视为时间浪费，它也可能是团队交流的价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 
 ## Action Triggers
 
-- 従你在评估团队福利投资时，用案例中的时间换算做出量化评估
-- 従你发现自己在用平均数字来为团队决策时，用 Norman 的认知负荷视角检查
-- 従你在用时间成本来否决团队建设活动时，用 Pye 的不可编码视角重新审视是否忽略了无法量化的价值
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 

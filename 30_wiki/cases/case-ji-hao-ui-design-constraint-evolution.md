@@ -5,8 +5,8 @@ title: 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代
 type: case
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,32 +15,32 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-  - '[[tool-纪浩-problem-validation-four-checks]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[concept-纪浩-ai-collaboration-five-layer]]'
-  - '[[tool-纪浩-Problem与Question区分法]]'
-  - '[[dk-ji-hao-constraint-beats-talent]]'
-  - '[[dk-ji-hao-constraint-beats-talent]]'
-  - '[[dk-ji-hao-novice-mindset-advantage]]'
-  - '[[tool-纪浩-problem-validation-four-checks]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[dk-ji-hao-constraint-beats-talent]]'
-- '[[dk-ji-hao-novice-mindset-advantage]]'
-- '[[tool-纪浩-problem-validation-four-checks]]'
+- src_unknown
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 原始正文使用"原始表述/问题/方案/关键证据"等非案例标准章节，已映射为案例卡片规范结构
-- source_refs原指向00_inbox路径，现按规范清空并补充一句话摘要与互链
+- src_unknown
+- src_unknown
 definition_of_done:
-- 案例有明确的原始表述、问题、方案和反馈路径
-- 案例有可迁移条件和失败模式
-- 案例区分度≥2类型（成功/失败/边界/反常识）
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-published
-- confidence-source-cited
+- src_unknown
+- src_unknown
 ---
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代
 
@@ -69,21 +69,21 @@ pipeline:
    不再让AI直接修改代码，而是先让AI分析现有页面的问题，建立"北极星目标 > 场景心智 > 现有代码"的排序权威。
 
 5. **建立六阶段门控流程**
-   - P1：理解用户、任务、现有系统
-   - P2：定义真实问题、目标、成功标准
-   - P3：建立用户旅程和信息架构
-   - P4：生成方案并做多路径比较
-   - P5：做用户旅程校验脚本
-   - P6：组件化设计指导编码
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 6. **最终固定协作模式**
    流程稳定后，交互变成固定模式："参考设计规范，先做P1到P4，我看完文档告诉你哪些不行，你调整后再继续P5-P6。"
 
 ## 结果
 
-- **Before**：后端工程师 + 模糊指令"求你把样式好好搞一下" → 红配绿、间距不一、信息密度低。
-- **After**：后端工程师 + 1100行约束文档（AI自写） → 纯裸写前端，质量吊打自己此前花了极高成本（注意力、时间、token）做出来的页面。
-- **核心差异**：约束文档由AI在约束框架内自我生成，证明AI在规范驱动下能够自我规范，而不依赖用户具备该领域的专业能力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 复盘与洞察
 
@@ -105,29 +105,29 @@ pipeline:
 ## 可迁移模式
 
 **适用条件：**
-- 需要用AI完成超出自己专业能力范围的任务（如后端工程师做UI、产品经理写代码）。
-- AI首轮输出质量不达标，需要多轮迭代。
-- 任务涉及多个阶段或多个组件，存在"新信息带偏"或"旧代码带偏"风险。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用条件：**
-- 任务极其简单（如单行CSS修改），单点纠偏即可解决。
-- 有成熟的模板或框架可直接复用，不需要重新设计规范。
-- 时间压力极大，无法承受多轮迭代。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **可检验性：**
 检查你最近一次AI协作的迭代次数。如果同一问题超过5轮对话还没收敛——你需要约束文档而非更多对话。
 
 ## 失败模式/教训
 
-- **单点纠偏陷阱（Point-fix Trap）**：发现问题后逐点修复，但缺乏系统性规范，导致AI在修复A时破坏B，最终陷入50条对话的死循环。
-- **信息权重失衡（Information Weight Imbalance）**：AI被最新信息或旧代码带偏，用户给出的抽象目标信息权重不足以压制旧实现或新调研方案。
-- **混合交付陷阱（Mixed-delivery Trap）**：让AI一次性交付全部组件和页面，缺乏阶段性验证，导致前期错误被放大到后期。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 相关卡/互链
 
-- [[dk-ji-hao-constraint-beats-talent]]
-- [[dk-ji-hao-novice-mindset-advantage]]
-- [[tool-纪浩-problem-validation-four-checks]]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -4,51 +4,51 @@ title: 技能：真需求四要素验证法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[tool-ai-problem-question-check]]'
+- src_unknown
+- src_unknown
 related:
-- '[[tool-ai-problem-question-check]]'
-- '[[ai-landing-scene-selection]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[dk-ai-judgment-human-responsibility]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次验证4个要素全部回答
-- 至少1个要素触发"需要补充信息"的警觉
-- 能判断"这个需求是否值得投入资源"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
+- src_unknown
 prerequisite_skills:
-- skill-ai-problem-question-check
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: 欧阳锋
 author: 纪浩
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 缺少因果链或能力支撑，可解性被高估
+- src_unknown
   lens: 可解性高估
   follow_up: 强制写出从X到Y的具体步骤。不能写'应该可以'，必须有具体因果链
-- signal: 用'类似情况'替代'具体情况'，真实锚点太模糊
+- src_unknown
   lens: 锚点虚化
   follow_up: 要求某月某日、某地点、某事件。真实锚点必须具体，不能是'类似的情况'
-- signal: 受益对象写'公司'或'团队'，不具体
+- src_unknown
   lens: 受益虚化
   follow_up: 要求'谁在什么时间获得什么具体好处'。受益对象必须明确，不能写'公司/团队'
-- signal: 四要素全通过了但项目失败，忽略了时间成本和资源约束
+- src_unknown
   lens: 资源盲区
   follow_up: 追加资源约束检查。四要素通过不代表资源足够，必须评估时间、人力、资金
-- signal: 过度验证导致paralysis，验证完不敢做了
+- src_unknown
   lens: 验证瘫痪
   follow_up: 设定验证时间上限（15分钟）。四要素是快速筛选工具，不是完美主义陷阱
 ---# 技能：真需求四要素验证法
@@ -79,10 +79,10 @@ diagnostic_signals:
 
 ### 关键规则
 
-- **四要素缺一不可**：任何一个要素回答不上来，这个需求就是伪需求
-- **可解性最容易高估**：必须写出具体因果链，不能写"应该可以"
-- **真实锚点必须具体**：不能写"类似的情况"，必须写"某月某日我在_____遇到的_____"
-- **受益对象必须明确**：不能写"公司/团队"，必须写"谁、在什么时间、获得什么具体好处"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -124,26 +124,26 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- **工具**：无（纯思维工具）
-- **备用方案**：把四要素写成表格，每次验证时逐项填写
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联技能
 
-- [[tool-ai-problem-question-check]] — 先区分problem/question，再对problem做四要素验证
-- skill-ai-landing-scene-selection — 验证通过的需求，用场景选择法落地
-- dk-ai-four-elements-solvability-overestimate — 可解性最容易被高估的暗知识
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 纪浩，AI俱乐部-AI协作方法论-口述，2026-06-06
-- 00_inbox/纪浩-AI协作方法论-口述.md`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

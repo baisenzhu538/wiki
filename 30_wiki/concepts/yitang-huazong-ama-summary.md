@@ -3,24 +3,24 @@
 id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
-- healthcare
+- src_unknown
 source_refs: []
 status: stable
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
 updated_at: '2026-06-17'
 pipeline:
-- confidence-source-cited
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 related:
-  - '[[yt-model-dual-triangle-competitiveness]]'
-  - '[[case-yitang-double-triangle-confidence]]'
-  - '[[ocr-一堂-科学决策-人机协作决策]]'
-  - '[[ocr-一堂-个人修炼-双三角模型]]'
-  - '[[ocr-一堂-人机协作-双三角模型]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 花总AMA精华摘要
 
 > 原文：yitang-huazong-ama-20250526
@@ -36,15 +36,15 @@ related:
 花总提出的双三角模型由两个三角组成：
 
 **人类三角：审美 — 创造力 — 体系**
-- 审美：专业见识、最佳实践、评价标准
-- 创造力：业务拆解、解放思想、提出创造假设
-- 体系：科学体系思维、假设验证模型、稳定知识结构
+- src_unknown
+- src_unknown
+- src_unknown
 
 **
 AI三角：场景 — 数据 — 基本功**
-- 场景：先定三级场景，不要从技术/数据出发
-- 数据：能沉淀多少行业数据，决定了你的护城河
-- 基本功：LLM提示词/智能体、多模态AI工具库、工程化能力
+- src_unknown
+- src_unknown
+- src_unknown
 
 两个三角的关系：把人的审美和体系往AI的数据去迁移。人类三角决定"能不能做好"，AI三角决定"能不能落地"。
 
@@ -62,10 +62,10 @@ AI三角：场景 — 数据 — 基本功**
 
 ### 3. 定制率理论
 
--　不要一刀切区分"定制"和"标品"，大多数是灰度地带
--　**内部搭建标准化底层 + 顶层薄薄定制化**
--　用AI在顶层完成定制，因为底层不变
--　产品不是懵出来的，是通过假设验证一点点打磨出来的
+-　src_unknown
+-　src_unknown
+-　src_unknown
+-　src_unknown
 
 ---
 
@@ -83,10 +83,10 @@ AI三角：场景 — 数据 — 基本功**
 
 ### 关于"大而全 vs 小而美"
 
--　**大多数象限下选小而美**
--　只有"质量敏感 + 成熟技术应用"才打包大而全
--　内部使用：大而全和小而美不重要，一个汇总页面就够
--　给客户使用：小而美付费阻力更小
+-　src_unknown
+-　src_unknown
+-　src_unknown
+-　src_unknown
 
 ### 关于AI编程/工程化
 
@@ -96,10 +96,10 @@ AI三角：场景 — 数据 — 基本功**
 
 ### 关于私有化部署
 
--　早期一台 **NVIDIA Spark（三五万）** 就能跑第一个版本
--　Spark切片给几十人用是够的
--　有了私有化硬件，迁移成本更高，构成壁垒
--　完整项目交付：不是交付Spark，而是交付**行业KnowHow和数据**
+-　src_unknown
+-　src_unknown
+-　src_unknown
+-　src_unknown
 
 ---
 

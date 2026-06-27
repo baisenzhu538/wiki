@@ -3,46 +3,46 @@ id: ai-learning-closed-loop
 title: "AI学习闭环：从听懂到能力的转化路径"
 type: concept
 domain:
-  - product
-  - ai-saas
-  - yitang
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
-  - "[[course-to-skill-conversion]]"
-  - "[[voice-input-doubao]]"
-  - "[[prd-as-ai-instruction]]"
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[ai-landing-scene-selection]]"
-  - "[[dk-modeling-ai-without-judgment]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - AI时代如何学习
-  - 课程怎么转化为能力
-  - 学了忘怎么办
-  - AI生成内容可靠吗
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "学完课程后不知道如何应用"
+  - src_unknown
     lens: "场景缺失"
     follow_up: "用1句话写出本课程最适合当前哪个业务场景，72小时内完成第一次小规模实践"
-  - signal: "看到AI输出觉得很顺很完整"
+  - src_unknown
     lens: "流畅性陷阱"
     follow_up: "强制问三句：证据在哪里？信源是谁？是事实还是推理？"
-  - signal: "知识库越来越乱找不到东西"
+  - src_unknown
     lens: "原子化缺失"
     follow_up: "创建Inbox文件夹，定下每周五下午半小时整理的时间块"
-  - signal: "学了等于没学，听完课就忘"
+  - src_unknown
     lens: "闭环断裂"
     follow_up: "检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步"
 ---# AI学习闭环：从"听懂"到"能力"的转化路径
@@ -100,9 +100,9 @@ AI生成的内容越流畅、越"完整"，越可能是基于推理而非事实�
 ## Critique
 
 ### 内部局限
-- 本框架强调"老板心态"驱动学习，但未提供具体的"心态转换"方法——如何让一个深度打工者在没有实际经济压力的情况下发出"老板心态"？
-- "完整不等于可靠"的判断标准依然主观：用户需要具备"识别流畅性陷阱"的能力，这个能力本身就需要长期训练。
-- 时间戳策略对部分模型有效（如GPT-4系列），但对具有实时搜索功能的模型（如Perplexity、Kimi搜索版）可能冒泻或多余。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -137,4 +137,4 @@ Weizenbaum在《Computer Power and Human Reason》中指出，当我们让机器
 | 知识库越来越乱，找不到东西 | 创建Inbox文件夹，定下"每周五下午半小时整理"的时间块 | 2周内完成第一轮原子化+标签打标 |
 
 ## contradicts
-- [[contingency-decision-making]]: "完整不等于可靠"强调对AI输出的怀疑，但"承认不知道"强调对人类认知的怀疑——二者共同指向：怀疑是智能的前提，但怀疑的对象和方式不同
+- src_unknown

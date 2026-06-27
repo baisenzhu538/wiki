@@ -8,8 +8,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂产品内核迭代课（2026年）
 source_refs:
@@ -17,19 +17,19 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - '[[yt-product-kernel-six-levels]]'
-  - '[[framework-lean-expert-roadmap]]'
-  - '[[modeling-level-map]]'
-  - '[[concept-一堂-kernel-validation]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[concept-一堂-kernel-validation]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[concept-一堂-kernel-validation]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 老顽童
 confidence: 0.7
 trust_level: medium
@@ -126,10 +126,10 @@ Truman 把产品内核的认知能力分为六个段位，每个段位对应不�
 
 ## 边界与反例
 
-- **不应该在验证前就开始迭代**：如果内核还没经过验证（L4阶段之前），过早迭代只是"在错误的方向上加速"。
-- **不应该为了迭代而迭代**：内核调整必须有数据支撑或市场变化的明确信号，不能是"我觉得该变了"。
-- **过度迭代会消耗团队信任**：如果内核变化太频繁，团队会丧失方向感。Truman 的建议是"季度级回顾"，而非"周级调整"。
-- **某些行业内核相对 stable**：如基础工具软件、基础设施类产品的内核变化频率远低于消费类产品。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

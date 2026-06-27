@@ -4,50 +4,50 @@ title: 技能：Problem vs Question 区分法
 type: tool
 status: enriched
 domain:
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
+- src_unknown
+- src_unknown
 related:
-- '[[tool-ai-four-elements-validation]]'
-- '[[ai-landing-scene-selection]]'
-- '[[tool-纪浩-真需求四要素验证法]]'
-- '[[dk-ai-judgment-human-responsibility]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 每次提问前能3秒内分类
-- 分类准确率>80%（自我评估）
-- 能说出"这道题是problem还是question"
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 无（纯思维工具）
+- src_unknown
 prerequisite_skills: null
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 tags: []
 pipeline:
-- None
+- src_unknown
 reviewed_by: 欧阳锋
 author: 纪浩
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 所有问题都是question，没有真实业务场景
+- src_unknown
   lens: 纯学习心态
   follow_up: 先找一个微型项目，用项目驱动提问。没有problem的question是token浪费
-- signal: 太纠结分类，反而不敢问，陷入paralysis
+- src_unknown
   lens: 分类焦虑
   follow_up: 设定question预算（最多3个），允许有限的好奇心。分类是为了行动不是为了完美
-- signal: 把研究问题当成question，忽视研究本身需要产出
+- src_unknown
   lens: 研究错配
   follow_up: 判断标准是是否有交付物而非是否有趣。研究问题也是problem，需要before/after
-- signal: 完全拒绝question，忽视question是problem的前置任务
+- src_unknown
   lens: 前置缺失
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
-- signal: 分类后没有后续行动，problem也停留在认知层面
+- src_unknown
   lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
 ---# 技能：Problem vs Question 区分法
@@ -67,9 +67,9 @@ diagnostic_signals:
 
 ### Step 1：提问前强制分类（3秒）
 每次向AI输入问题前，先问自己：
-- 这个问题解决后，**我的行为会改变吗**？
-  - 会 → 这是 **problem**
-  - 不会 → 这是 **question**
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### Step 2：对 problem 追问四要素
 如果是 problem，继续追问：
@@ -80,9 +80,9 @@ diagnostic_signals:
 
 ### Step 3：对 question 做"好奇心预算"
 如果是 question，问自己：
-- 了解这个问题的答案，**对哪个具体problem有帮助**？
-- 如果没有直接帮助，是否值得花token？
-- 设定"好奇心预算"：最多3个question，然后必须回到problem。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### Step 4：记录分类（可选）
 在笔记中记录当天的分类统计：
@@ -104,9 +104,9 @@ diagnostic_signals:
 | 验收标准 | 满足好奇心 | 有 before/after 可验证 |
 
 **一句话判断**：这个问题能不能写出具体的 before/after？
-- 能 → 是 problem，继续提问
-- 不能 → 是 question，问自己"我真的需要现在知道答案吗？"
-- 如果是 question 但很想知道 → 放到"阅读清单"，不占用 AI 工作时间
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -148,26 +148,26 @@ diagnostic_signals:
 
 ## 工具/环境
 
-- **工具**：无（纯思维工具）
-- **备用方案**：如果无法自我判断，让AI反问"解决这个问题后，你的行为会改变吗？"
+- src_unknown
+- src_unknown
 
 ---
 
 ## 关联技能
 
-- [[tool-ai-four-elements-validation]] — 确认是problem后，用四要素验证是否值得解决
-- skill-ai-landing-scene-selection — 选具体场景落地
-- [[dk-ai-judgment-human-responsibility]] — 人类负责最终判断，AI只提供信息
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源
 
-- 纪浩，AI俱乐部-AI协作方法论-口述，2026-06-06
-- 00_inbox/纪浩-AI协作方法论-口述.md`
+- src_unknown
+- src_unknown
 
 ---
 
 ## Feedback Path
 
-- `60_feedback/comments/` — 使用此技能后有任何反馈，提交到这里
+- src_unknown

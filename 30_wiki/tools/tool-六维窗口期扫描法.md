@@ -3,27 +3,27 @@ id: tool-六维窗口期扫描法
 title: 技能：六维窗口期扫描法
 type: tool
 domain:
-- learning-methodology- management
-- product
-- business-strategy
-- ai-saas
-- yitang
-- supply-chain
-- decision-making
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
 - src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 竞品监控工具
-- 政策数据库
-- 营销日历
-- 流量趋势平台
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T15:09:00+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -31,11 +31,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[tool-辩证讨论深化]]'
-- '[[tool-对标借鉴他人决策维度]]'
-- '[[tool-ai辅助学习]]'
-- '[[tool-将未中标成本纳入循环计算真实投标成本]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：六维窗口期扫描法
 
@@ -51,27 +51,27 @@ related:
 6. 综合判断时间敏感性并调整决策优先级
 
 ## 适用场景
-- ✅ 战略级决策、进入新市场时
-- ✅ 营销投放、产品发布等时间敏感决策
-- ❌ 长期能力建设、日常运营优化
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 系统性对抗'默认有些机会错过就不再有了'的认知偏差，将模糊的时间直觉转化为可检查的多维清单
 
 ## 工具/环境
-- 竞品监控工具
-- 政策数据库
-- 营销日历
-- 流量趋势平台
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- 一堂课程，src_20260609_44a9e79a，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

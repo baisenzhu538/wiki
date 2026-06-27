@@ -8,8 +8,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- product
-- yitang
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂关键假设课（2026年）
 source_refs:
@@ -17,21 +17,21 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - '[[yt-five-step-method]]'
-  - '[[case-proya-betaine-skincare-benchmark]]'
-  - '[[yt-model-five-step-canvas]]'
-  - '[[ocr-一堂五步法画布]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[yt-foresight-15-char-mantra]]'
-  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-product-kernel]]'
+- src_unknown
+- src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
+- src_unknown
+- src_unknown
 author: 黄药师
 confidence: 0.7
 trust_level: medium
@@ -123,10 +123,10 @@ Truman 用《孙子兵法》总结差异："胜兵先胜尔后求战，败兵先
 
 ## 边界与反例
 
-- **不是所有业务都需要完整的259分析**：副业试水、个人side project可以用更轻量的方式验证假设。259更适合"认真想做成一件事"的场景——当你准备投入实质性资源时。
-- **假设验证不能替代执行力**：Y型创业者也可能掉入"永远在验证、永远不行动"的陷阱。验证的目的是降低不确定性到可接受的程度，而不是消除所有不确定性。
-- **某些关键假设无法被低成本验证**：如政策风险、技术突破等——这些假设需要不同的策略（等待、观望、Plan B），而非强行验证。
-- **过于聚焦关键假设可能忽视"组合效应"**：某些业务的竞争力来自多个要素的组合，单独验证每一个可能得出"都不成立"的结论，但组合起来却成立。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 公司拆解
-- 竞品分析
-- 竞争对手分析
-- 公司分析
-- 企业研究
-- 拆解公司
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[tool-strategy-competition-traps]]'
-  - '[[tool-yitang-research-best-practice]]'
-  - '[[yt-business-model-asset-light]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[tool-yitang-research-competitor-tracking]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-industry-scan]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-survivor-bias-in-research]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 公司拆解：深度分析竞争对手的六维框架
@@ -82,9 +82,9 @@ related:
 | **定位** | 在市场中的位置？ | "高端一对一辅导" |
 
 ### 战略分析工具
-- **SWOT分析**：优势、劣势、机会、威胁
-- **波特五力**：竞争格局分析
-- **价值链分析**：价值创造环节
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -101,10 +101,10 @@ related:
 | **规模** | 多少人？ | 1000人，研发占60% |
 
 ### 信息来源
-- 招聘网站：职位、数量、要求
-- LinkedIn：员工背景、流动
-- 新闻：组织架构调整
-- 财报：员工数量、薪酬
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -121,9 +121,9 @@ related:
 | **差异化** | 和竞品有什么不同？ | 个性化学习路径 |
 
 ### 产品分析工具
-- **功能对比表**：与竞品功能逐项对比
-- **用户体验地图**：用户使用流程
-- **定价分析**：价格带、促销策略
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -140,9 +140,9 @@ related:
 | **效率** | 运营效率如何？ | 人效、坪效 |
 
 ### 运营分析工具
-- **漏斗分析**：获客→转化→留存→付费
-- **LTV/CAC**：用户生命周期价值/获客成本
-- **NPS**：用户净推荐值
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -159,9 +159,9 @@ related:
 | **投入** | 研发投入？ | 研发占收入30% |
 
 ### 技术分析工具
-- **专利分析**：专利数量、质量、布局
-- **技术博客**：技术团队分享
-- **开源贡献**：GitHub活跃度
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -178,9 +178,9 @@ related:
 | **融资** | 融资情况？ | B轮，1亿，估值10亿 |
 
 ### 财务分析工具
-- **财务比率**：毛利率、净利率、ROE
-- **增长分析**：收入增速、用户增速
-- **估值分析**：P/E、P/S、EV/EBITDA
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -190,41 +190,41 @@ related:
 ## 公司拆解报告
 
 ### 公司基本信息
-- 名称：[公司名]
-- 成立时间：[时间]
-- 融资阶段：[阶段]
-- 员工规模：[人数]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 战略层
-- 使命：[使命]
-- 愿景：[愿景]
-- 目标：[目标]
-- 路径：[路径]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 组织层
-- 架构：[架构]
-- 关键人才：[人才]
-- 文化：[文化]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 产品层
-- 核心功能：[功能]
-- 差异化：[差异化]
-- 定价：[定价]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 运营层
-- 获客渠道：[渠道]
-- 转化率：[转化率]
-- 留存率：[留存率]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 技术层
-- 核心技术：[技术]
-- 专利数量：[数量]
-- 研发投入：[投入]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 财务层
-- 收入：[收入]
-- 毛利率：[毛利率]
-- 融资情况：[融资]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 优势
 1. [优势1]
@@ -306,24 +306,24 @@ related:
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-industry-scan]] — 行业扫描工具
-- [[tool-yitang-research-competitor-tracking]] — 竞对跟踪工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 公司拆解模块
-- 交叉：竞争情报理论
-- 注意：公司拆解是深度分析，需要2-3天，不是快速扫描
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

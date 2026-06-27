@@ -6,40 +6,40 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- business-strategy
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
 - 10_raw/sources/src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
 - 10_raw/sources/src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
 tags:
-- '#domain/yitang'
-- '#chunk-type/critique'
-- '#method/decision-framework'
-- '#topic/foresight'
-- '#topic/strategy'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - '[[case-coffee-shop-foresight]]'
-  - '[[dk-level-blindspot-external-feedback]]'
-  - '[[case-escort-service-tiered-growth]]'
-  - '[[case-ai-time-management-tiered-growth]]'
-  - '[[dk-signal-cluster-illusion]]'
-  - '[[yt-foresight-business-spectrum]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[case-coffee-shop-foresight]]'
-  - '[[case-escort-service-tiered-growth]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 光谱图被当成"终局目标清单"而非"当前定位工具"
+- src_unknown
   framework_lens: 跳级幻觉
   follow_up_question: 在讨论第7级之前，团队能否先明确说出当前处于第几级、下一个质变点是什么？
-- signal: 创业者把"层级低"等同于"失败"
+- src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
 ---
@@ -53,10 +53,10 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 团队第一次看终局光谱图，讨论立刻变成"我们要不要上市 / 融资 / 规模化"。
-- 创业者用光谱图给当前业务"打分"，产生"我们才到第2级，太 low 了"的焦虑。
-- 做战略规划时，同时规划超过两个质变点以上的跳跃。
-- 投资人或合伙人用"终局大小"质疑当前路径，团队被带偏节奏。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -77,10 +77,10 @@ diagnostic_signals:
 
 ## 适用边界
 
-- **不适用于平台转移式机会**：AI 原生应用、新交互范式等可能改变行业底层规则的机会，光谱图的阶梯式跳跃逻辑可能完全失效。
-- **不适用于资源极度充裕的连续创业者**：资本可以购买时间窗口，跳级可能是策略性选择。
-- **需要配套"质变点进度跟踪"机制**：单独使用光谱图容易陷入跳级幻觉，需要配套具体的质变点检查清单和时间节点。
-- **光谱图是"终局预判"工具而非"现状评价"工具**：当前层级高低不等于能力高低，可能是刻意选择的路径。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -93,13 +93,13 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 公开创业课讲"终局思维"，却很少把"不要跳级"讲得如此决断。
-- 这是避免光谱图从"导航仪"变成"好高骛远催化剂"的关键纠偏。
-- 在增量式创业中（占绝大多数），跳级幻觉是真实的毒药，守住当前层级才能活得更久。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-foresight-business-spectrum]] — 这张暗知卡是光谱图的必要补充。光谱图告诉你"可以做多大"，这张暗知卡告诉你"不该跳着做"。
-- [[yt-entrepreneur-five-step-method]] — 五步法中的"充分做加法"是抗击跳级幻觉的工具：先看清所有选项，再一步步减法，而不是直接"我要做最大的"。
-- [[case-coffee-shop-foresight]] — 咖啡馆案例是"保3争5"的正确示范，案主没有因为"上市很酷"而选择保5争7。
-- [[case-escort-service-tiered-growth]] — 陪诊案例是"保2争4"的正确示范，案主明确自己的风险偏好，是抗击跳级幻觉的起点。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

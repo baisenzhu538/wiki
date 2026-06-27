@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-switching-costs
 title: 转换成本：让用户离不开
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-barrier-network-effects-deep
-  - yt-barrier-data-assets
-  - yt-barrier-ecosystem-lock-in
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们的用户很容易流失到竞品'"
+  - src_unknown
     framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
     follow_up_question: "你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？"
-  - signal: "用户说'用户说我们的产品好用，但还是会试试竞品'"
+  - src_unknown
     framework_lens: 转换成本——产品好用≠转换成本高，需要设计锁定机制
     follow_up_question: "用户在你的产品上投入了什么？时间、数据、关系、金钱？"
-  - signal: "用户说'我们的企业客户续约率低'"
+  - src_unknown
     framework_lens: 转换成本——B2B转换成本需要系统、流程、培训投入
     follow_up_question: "你的企业客户是否深度集成了你的产品？切换成本有多高？"
-  - signal: "用户说'我们的用户数据可以导出，所以流失了'"
+  - src_unknown
     framework_lens: 转换成本——数据可导出降低了转换成本
     follow_up_question: "你的数据格式是否开放？数据迁移是否容易？"
-  - signal: "用户说'我们的用户习惯了我们的产品，但竞品更好用'"
+  - src_unknown
     framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
     follow_up_question: "竞品的好用程度是否足以克服用户的习惯成本？"
 
@@ -134,21 +134,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当用户流失时 → 评估转换成本
-- 当设计产品时 → 设计转换成本
-- 当竞品出现时 → 强化转换成本
-- 当用户抱怨锁定时 → 平衡体验 |
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-barrier-network-effects-deep`：网络效应深度
-- `yt-barrier-data-assets`：数据资产
-- `yt-barrier-ecosystem-lock-in`：生态锁定
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 转换成本研究
-- 用户锁定研究
+- src_unknown
+- src_unknown
+- src_unknown

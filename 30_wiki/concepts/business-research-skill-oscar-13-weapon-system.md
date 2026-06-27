@@ -4,7 +4,7 @@
 id: business-research-skill-oscar-13-weapon-system
 created_at: 2026-05-04
 domain:
-- yitang
+- src_unknown
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
@@ -17,11 +17,11 @@ updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.7
 related:
-  - '[[yt-tool-meeting-designer]]'
-  - '[[truman-perspective-skill]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[sk-ai-purpose-bias-check]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 
 > huanwang.org 出品，v2.1.0。将 一堂 OSCAR + 13 武器方法论完整编译为 Claude Code Skill 的生产级实现。
@@ -80,19 +80,19 @@ related:
 ## Critique
 
 ### 前提假设
-- 假设用户能在 Step 0 清晰表述决策问题和假设。【可靠性：中】实际用户常处于"知道自己不知道"的阶段，Step 0 本身就是方法论中最难的一步
-- 假设 AI Agent 能在 Step 11 自主执行 Pre-Mortem 并生成高质量反向假设。【可靠性：中】LLM 的内在确认偏误（系统倾向于同意用户而非挑战）与 Step 8 的反向搜索机制存在根本张力
-- 假设 15 项质量门中的正则匹配规则覆盖所有情况。【可靠性：中高】机械检查可捕获明显违规，但无法评估推理质量
-- 假设用户有执行线下武器（产品体验/面试/专家访谈）的意愿和能力。【可靠性：低】对大多数非专业调研者，线下武器的高门槛可能导致"13选5"变成"13选AI能做的5"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 边界与反例
-- **最适合**：有明确商业决策节点的调研（投融资、市场进入、竞品对标）
-- **不适合**：纯探索性调研、学术文献综述、技术原理深度研究（应委托给 deep-research）
-- **成本警告**：深度尽调模式（5 Agent 并行 + 250+ 次搜索）的 API 费用可能达数十至上百元
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 关键矛盾
-- **"机械检查" vs "判断质量"**：15 项质量门偏向形式完整性而非实质推理质量。一篇"武器决策表 13 行完整但理由都是凑字数"的报告可以通过机械检查
-- **"AI 负责加速 vs 人负责判断"** 的张力贯穿全程：方法论反复强调人做判断，但 16 步流程本身的复杂度可能让用户放弃判断而全盘接受 AI 输出
+- src_unknown
+- src_unknown
 
 ### 可靠性
 **整体：中高。** 方法论设计严密，质量门体系是同类 Skill 中最完整的。主要风险在执行层——用户跳过质量门的意愿、AI 的确认偏误、线下武器的执行率。
@@ -101,19 +101,19 @@ related:
 
 ## Synthesis
 
-- 一堂调研武器库13招 — 本 Skill 是 13 招的 **Claude Code 工程化实现**。13 招定义了"做什么"，本 Skill 定义了"怎么做+怎么验证"
-- 一堂调研行动营-ai辅助系统式调研方法论 — OSCAR 五步法在两个体系中共源。本 Skill 的 Step 0-2 对应行动营的 O-S-C，Step 3-5 对应 A，Step 6-12 对应 R
-- [[kimi-深度调研集群方法论-deep-research-swarm]] — Step 4 的委托机制直接与 deep-research 互操作。两者共享"多Agent并行+交叉验证"的认知前提
-- [[kdo-protocol]] — 本 Skill 的质量门体系（7 BLOCKING + 15 项机械检查）可作为 KDO validate 阶段的参考
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 互补与冲突
-- **互补**：一堂的行动营教"调研思维"，本 Skill 提供"调研机器"——思维+机器的组合形成完整能力
-- **冲突**：一堂强调"行动中学习"（边做边学），本 Skill 强调"先设计再执行"（Step 0-2 不可跳过）。二者的"规划 vs 涌现"张力与 KDO Protocol 中的同一矛盾形成三级对应
+- src_unknown
+- src_unknown
 
 ### 可迁移到 KDO 的改进
-- 质量门 15 项清单模式 → KDO 的 `kdo validate` 命令设计
-- 置信度加权公式 → KDO concept card 的 `trust_level` 计算
-- Step 4 委托机制 → KDO Research 子任务分派协议
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 不要用的场景
 
@@ -143,14 +143,14 @@ related:
 
 ## Open Questions
 
-- Step 13 的 15 项机械检查中，正则匹配规则对中文报告的适配程度？
-- Step 4 委托 deep-research 的 JSON 契约在实际使用中的通过率？
-- Evaluator Agent (Step 15) 的 CLASSic 五维评分与人类评审的相关性如何？
-- 线下武器执行率低（多数用户只使用 AI 可直接执行的 5-6 个武器）是否是方法论的结构性短板？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ## Output Opportunities
 
-- Code: 封装 `kdo research` 命令，对接本 Skill 的 Step 0-15 流程
-- Capability: KDO Research Agent — 自动选择 business-research vs deep-research 路由
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

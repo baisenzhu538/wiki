@@ -11,28 +11,28 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[dk-ai-prediction-expiry-date]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[dk-ai-scarcest-resource-is-self]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-ai-neutrality-bias]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[dk-ai-scarcest-resource-is-self]]"
-  - "[[dk-ai-prediction-expiry-date]]"
-  - "[[case-ai-job-displacement-wef]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 社会进步不是自动的
@@ -176,10 +176,10 @@ related:
 
 在评估引入一项 AI 技术时，不要只问"它能不能做"，还要问 [conf=0.70, source=王欢原创]：
 
-- 谁可能因这项技术受损？有没有申诉和补偿渠道？
-- 监管框架是否已经到位？如果没有，我们愿意主动自律吗？
-- 失败案例的代价由谁承担？是使用者、平台，还是社会最弱势群体？
-- 有没有机制定期复盘：技术能力提升了，社会承接能力是否也提升了？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与已有工具的联动
 
@@ -269,12 +269,12 @@ related:
 
 ## 行动 Checklist
 
-- [ ] 选一条最近让你焦虑的 AI 新闻，用三步法写成两百字：概率？具体的人？我能做什么？
-- [ ] 给工作做一次"安全区体检"，标出雷区、护城河、转型机会。
-- [ ] 在团队评估引入 AI 技术时，强制回答：谁可能受损？代价由谁承担？有没有申诉渠道？
-- [ ] 读一本 AI 预测书时，画出"技术线"与"社会线"的兑现对比表。
-- [ ] 为常用的一款 AI 产品或服务，检查它是否有明确的人类复核与申诉机制。
-- [ ] 一个月后复盘：我修了哪段"堤坝"？哪些"涨潮"是我控制不了的？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -296,9 +296,9 @@ related:
 > **回应**：王欢的"修堤坝"不是要求个人解决全球制度问题，而是把焦虑收敛到可控域：学一个 AI 难以替代的技能、推动团队做算法审计、参与公共讨论、为受影响者发声。这些动作虽小，但比"对着大海喊别涨潮"更接近正途。
 
 **不要用**：
-- 不要把本概念当作"反技术"的口号。
-- 不要用"社会不会自动进步"为个人或组织的不作为开脱。
-- 不要让讨论停留在抽象批判，而不落到具体的人和制度。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

@@ -7,16 +7,16 @@ title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - risk-warning
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
 - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
 tags:
-- '#industry/healthcare'
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -25,23 +25,23 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-regional-policy-map]]'
-  - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[smart-medicine-cabinet-clinic-risk-observation]]'
-  - '[[smart-medicine-cabinet-distribution]]'
-  - '[[smart-medicine-cabinet-financial-model]]'
-  - '[[smart-medicine-cabinet-national-policy-redlines]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-- 修正未来药房骗局
-- 智能药柜招商骗局
-- 药柜加盟骗局
-- 自助售药机投资陷阱
-- 药柜高收益承诺
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 
 ---# 智能药柜/智慧药房招商骗局识别清单
@@ -54,11 +54,11 @@ difficulty: intermediate
 
 智能药柜/智慧药房招商骗局的典型特征：
 
-- **高收益承诺**：宣称"躺赚""月入过万""半年回本"，但无真实运营数据支撑。
-- **品牌背书滥用**：借用知名药企/互联网平台名义招商，实际运营主体与品牌方关系不清。
-- **合同陷阱**：加盟费/设备费一次性收取，后续无实质服务；合同条款模糊，退款无门。
-- **虚假点位**：承诺医院、社区等优质点位，实际投放位置偏远或无人流。
-- **无实际运营**：收取费用后不提供设备、不补货、不维护，投资者收益"每月仅几元"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **核心原则**：任何承诺"低风险高回报"的药柜加盟/投资项目，都应先按本卡逐项排查。
 
@@ -130,27 +130,27 @@ difficulty: intermediate
 ### 3. 合作前必查清单
 
 #### 企业资质
-- [ ] 营业执照、药品经营许可证（或依托药店的许可证）。
-- [ ] 企业信用报告（企查查/天眼查）：注册资本、实缴资本、股东结构、历史变更。
-- [ ] 司法风险：是否被列为被执行人、限制高消费、股权冻结、诉讼记录。
-- [ ] 行政处罚：是否有药监局、市场监管局处罚记录。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 项目真实性
-- [ ] 已运营点位清单及地址。
-- [ ] 至少实地走访 2–3 个已运营点位。
-- [ ] 访谈 2–3 位现有加盟商/投资者，了解真实收益和运营支持。
-- [ ] 设备实际交付情况、补货频率、故障处理响应时间。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 合同与财务
-- [ ] 费用明细表：加盟费、设备费、系统费、维护费、分成比例。
-- [ ] 退款条款：什么条件下可退、退款周期、违约金计算。
-- [ ] 收入结算方式：日结/月结、对账方式、提现门槛。
-- [ ] 违约责任：双方违约情形及赔偿标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 合规性
-- [ ] 可销售药品种类是否符合当地政策（通常仅乙类 OTC）。
-- [ ] 是否具备执业药师远程审方/药学服务。
-- [ ] 是否具备药品追溯码、温湿度监控等合规功能。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 推销方四类话术模式识别（来自诊所访谈交叉验证）
 
@@ -178,12 +178,12 @@ difficulty: intermediate
 1. **保留证据**：合同、付款记录、聊天记录、宣传资料、设备交付记录。
 2. **协商退款**：书面致函要求解除合同并退款。
 3. **投诉举报**：
-   - 黑猫投诉、12315 消费者投诉平台；
-   - 当地市场监督管理局（虚假宣传、合同欺诈）；
-   - 当地药品监督管理局（无资质经营药品）。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 4. **司法途径**：
-   - 民事诉讼：要求解除合同、返还费用、赔偿损失；
-   - 刑事报案：若涉嫌合同诈骗，向公安机关报案。
+   - src_unknown
+   - src_unknown
 5. **集体维权**：联合其他受害者，降低单人体力成本，提高关注度。
 
 ---
@@ -211,25 +211,25 @@ Thaler 的批判有三点：
 
 ### 与已有知识的联系
 
-- **认知偏差视角**：招商骗局识别本质是对确认偏误（"知名品牌背书"）、故事偏误（"躺赚故事"）、锚定效应（"高收益承诺"）的防御。参考 `master-cognitive-bias-checklist`。
-- **决策卫生视角**：本清单要求在投资前逐项排查企业资质、项目真实性、合同财务、合规性，是"先证据后结论"的决策卫生实践。参考 `master-decision-hygiene`。
-- **反脆弱视角**：避免一次性大额加盟费、要求实地走访已运营点位，是为了让投资决策在信息不对称环境下更具韧性。参考 `master-antifragile-checklist`。
-- **失败模式视角**：修正未来药房案例可与 `smart-medicine-cabinet-failure-patterns` 联动，作为"品牌背书滥用 + 虚假点位 + 合同陷阱"的典型失败模式。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 使用建议
 
-- 在考虑任何药柜加盟/投资前，先完成本清单 8 大信号排查。
-- 特别警惕"知名品牌背书+高收益承诺+一次性大额收费"的组合。
-- 宁可错过一个项目，也不要踩进一个骗局。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
-- 失败案例分析：`src_20260613_3b5c7fdb`
-- 补充深挖（迭代 6）：`src_20260613_26c69f98`
-- 补充深挖（迭代 7）：`src_20260613_6ed8df4b`
-- 诊所访谈纠偏报告：`src_20260613_5f96c5bb`
-- 运营数据与失败案例：`src_20260613_59270720`
-- 医疗短视频合规：`src_20260613_ccf533f9`
-- 黑猫投诉平台、企查查/天眼查、中国裁判文书网
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

@@ -6,34 +6,34 @@ confidence: 0.82
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - research- yitang
+  - src_unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-- yt-research-osl-framework
-- yt-research-intelligence-map
+- src_unknown
+- src_unknown
 query_triggers:
-- 行业分析
-- 行业调研
-- 要不要进这个行业
-- 行业选择
-- 行业画布
-- 行业扫描
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-decision-review]]'
-  - '[[tool-yitang-securities-research]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-note-fact-pattern-insight]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-foresight-business-spectrum]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs:
 - 10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md
 - 10_raw/sources/src_20260508_f7f9670e-一堂-创业必修-调研行动营.md
@@ -51,15 +51,15 @@ yitang:
   course_type: tool
   level: intermediate
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 能用规模/增速/集中度/政策/技术五个维度快速描述一个行业
+- src_unknown
   framework_lens: 五维扫描建立行业基线
   follow_up_question: 这五个维度中，哪个对你进入决策影响最大？
-- signal: 能在二维竞争象限中定位关键玩家和机会空白区
+- src_unknown
   framework_lens: 定位决定机会空间
   follow_up_question: 你选择的定位在象限中是否已经被占据？
-- signal: 行业分析结论直接回答'要不要进、怎么进'
+- src_unknown
   framework_lens: 行业分析服务于进入决策
   follow_up_question: 根据画布结论，你是进入、观望还是放弃？
 updated_at: '2026-06-18'
@@ -78,11 +78,11 @@ review_date: '2026-06-18'
 
 ## When to Use
 
-- 考虑进入一个新行业，但不确定"值不值得、有没有空间"。
-- 投资人/合伙人质疑"这个行业到底能不能做"。
-- 已经在行业内，需要快速向团队说明行业格局与机会空白区。
-- 发现某个"空白象限"，需要判断它是真实机会还是伪需求。
-- 行业政策/技术发生突变，需要重新评估进入决策。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 > **不适用**：行业数据极度匮乏、已在行业内深耕多年且信息远超公开数据、或决策 stakes 极高（如All-in全部身家）——这些情况应转用深度 OSL 调研或关系网络调研。
 
@@ -141,9 +141,9 @@ review_date: '2026-06-18'
 
 行业分析画布的边界声明揭示了工具的张力：
 
-- **"快速"与"准确"的权衡**：画布为了"10分钟"牺牲了深度。它可以告诉你"这个行业看起来不错"，但不能告诉你"进入这个行业后具体会碰到什么问题"。
-- **过度依赖公开信息**：五维扫描主要依赖公开报告和数据，但行业的真正关键信息（如真实利润率、核心壁垒、地下竞争规则）通常不在公开信息中。
-- **静态快照 vs 动态演化**：画布产出的是一个时间点的快照，但行业是动态演化的。今天的高增速可能明天就饱和，今天的空白区可能明天就被占据。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -151,27 +151,27 @@ review_date: '2026-06-18'
 
 **Nassim Taleb**（《黑天鹅》《反脆弱》作者）对行业扫描的"历史依赖"提出根本性质疑：
 
-- **行业扫描基于历史数据，无法预测从未发生过的结构性断裂**：Taleb证明，几乎所有重大行业变革（如iPhone颠覆诺基亚、新冠疫情颠覆旅游业）都是"不可预测的"——它们在历史数据中没有任何先兆。五维扫描看的是"过去发生了什么"，但决定你成败的是"未来会发生什么"。Taleb警告：当你用画布"确认"一个行业"安全"时，你可能正站在一个即将崩塌的行业上。
-- **"平均数"的幻觉**：Taleb指出，行业报告中的"平均增速""平均利润率"是危险的指标——因为行业内的分布往往是"极端偏态"的。头部玩家可能赚取了120%的利润，而长尾玩家在亏损。平均数让你误以为"这个行业能赚钱"，但你进入后可能发现自己在亏损的长尾里。
-- **"已知的未知"vs"未知的未知"**：画布帮你识别"已知的未知"（如政策风险、技术替代），但Taleb认为真正的风险是"未知的未知"——你连它的存在都不知道。画布无法帮你识别这些。
-- **替代方案**：Taleb建议采用"杠铃策略"——不试图"预测"行业，而是设计"无论行业怎么变都能生存"的策略。与其花10分钟做行业扫描，不如花10分钟问自己"如果这个行业明天消失，我的能力还能用在哪"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### Karl Popper 的"归纳陷阱"：批判
 
 **Karl Popper**（科学哲学家、证伪主义创始人）对行业"规律"的归纳提出质疑：
 
-- **行业"规律"是归纳陷阱**：Popper证明，任何基于有限观察得出的"规律"都是不可证明的——你只能证明它是错的，不能证明它是对的。五维扫描告诉你"这个行业过去5年增速20%"，但Popper会问："这能证明未来也会增速20%吗？"不能。过去的规律不保证未来。
-- **"确认偏见"的危险**：Popper指出，人倾向于寻找"支持自己假设"的证据。当你用画布"扫描"一个行业时，你可能 unconsciously 只关注支持你"想进入"的证据，而忽略反证。画布的结构化框架反而可能强化这种偏见——因为它让你觉得自己"已经全面考虑过了"。
-- **行业画布给人虚假安全感**：Popper认为，科学决策的关键不是"收集支持证据"，而是"主动寻找反证"。但画布的设计是"收集信息→形成判断"，而非"提出假设→尝试证伪"。这可能导致"确认偏见"。
-- **替代方案**：Popper建议在每个维度上增加"证伪问题"——不是问"这个行业的增速是多少"，而是问"什么样的证据会让我相信这个行业不值得进入"。主动寻找反证，而非收集支持。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## diagnostic_signals
 
-- signal: "用户说'我做了行业画布扫描，但还是不知道该不该进这个行业'"
+- src_unknown
   framework_lens: "画布太泛——行业画布的范围界定得太宽太泛，覆盖了太多维度和数据，但没有聚焦到具体决策点上。用户填完了画布感觉'什么都知道了'又'什么都不知道'——信息密度高但决策密度低。"
   follow_up_question: "在用画布之前，你最想回答的那个核心问题是什么？画布填完后，这个问题有答案了吗？"
 
-- signal: "用户说'我的行业画布覆盖了5个维度，但每个维度都很浅'"
+- src_unknown
   framework_lens: "广度代替了深度——画布的五个维度设计鼓励广泛扫描而不是深度挖掘。当用户在估个维度上花同样时间，最终每个维度的结论都停留在'大概'层面，没有一个维度能支撑决策。"
   follow_up_question: "在这五个维度中，哪一个维度对你的决策最关键？如果只让你深入做其中1-2个，你会选哪几个？"
 
@@ -206,12 +206,12 @@ review_date: '2026-06-18'
 5. 技术：自动化萃茶、智能 POS、会员数字化已普及；AI 选品/供应链预测开始渗透。
 
 **二维定位示例**
-- 选择纵轴：价格（高→低）；横轴：门店覆盖密度（高→低）。
-- 关键玩家大致位置：
-  - 蜜雪冰城：低价 + 高密度
-  - 喜茶/奈雪：高价 + 中高密度（一二线城市）
-  - 区域单店：高价/低价 + 低密度
-- 观察到的空白区：**中低价格 + 高社群粘性/主题化**（如健康轻乳茶、地方文化 IP）在三四线城市密度不足。
+- src_unknown
+- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- src_unknown
 
 **进入决策检查清单结果**
 | 问题 | 结论 |
@@ -241,15 +241,15 @@ review_date: '2026-06-18'
 
 ## 二维定位
 纵轴：____  横轴：____
-- 玩家1（____, ____）
-- 玩家2（____, ____）
-- 玩家3（____, ____）
+- src_unknown
+- src_unknown
+- src_unknown
 空白象限：____
 
 ## 决策三要素
-- 进入方式：____
-- 时机：____
-- 差异化定位：____
+- src_unknown
+- src_unknown
+- src_unknown
 ```
 
 ## Synthesis
@@ -275,14 +275,14 @@ review_date: '2026-06-18'
 
 ## Related
 
-- [[yt-research-osl-framework]]：行业画布在 OSL 调研中用于"列清单"和"获取情报"阶段。
-- [[yt-research-intelligence-map]]：提供五维扫描的 13+ 信息渠道。
-- [[yt-research-competitor-toolkit]]：补充竞争象限中关键玩家的拆解方法。
-- [[yt-research-user-jtbd]]：验证空白象限是否对应真实用户需求。
-- [[yt-research-hypothesis-test]]：把画布结论转化为可证伪假设和最小实验。
-- [[yt-research-expert-interview]]：2 小时获取行业共识，补全公开数据盲区。
-- [[yt-panproduct-demand-industry-canvas]]：从需求侧出发的行业画布变体，可与本工具对照使用。
-- [[yt-entrepreneur-key-hypotheses]]：把画布结论落地为创业关键假设。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Action Triggers
 

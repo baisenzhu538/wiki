@@ -1,6 +1,6 @@
 ---
 domain:
-  - barrier
+  - src_unknown
 
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-20"
 related:
-  - yt-barrier-strategy-overview
-  - yt-business-model-network-effects
-  - yt-barrier-switching-costs
-  - yt-barrier-ecosystem-lock-in
-  - yt-five-step-method
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们有网络效应，但用户还是流失'"
+  - src_unknown
     framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
     follow_up_question: "你的网络效应是同边、跨边、数据还是生态？强度如何？用户迁移成本多高？"
-  - signal: "用户说'我们的平台用户多，但供应商少'"
+  - src_unknown
     framework_lens: 网络效应深度——跨边网络效应需要两边都足够多
     follow_up_question: "你的平台两边是否都达到了临界规模？哪边是瓶颈？"
-  - signal: "用户说'我们的数据很多，但产品没有因此更好'"
+  - src_unknown
     framework_lens: 网络效应深度——数据网络效应需要数据能提升产品价值
     follow_up_question: "你的数据是否用于优化产品？数据越多，产品是否越好？"
-  - signal: "用户说'我们的生态很丰富，但用户只用核心功能'"
+  - src_unknown
     framework_lens: 网络效应深度——生态网络效应需要用户真正使用生态
     follow_up_question: "你的生态中，用户使用了多少？生态的参与度如何？"
-  - signal: "用户说'网络效应是护城河，但我们不知道怎么强化'"
+  - src_unknown
     framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
     follow_up_question: "你的网络效应在哪个维度？如何提升用户迁移成本？"
 
@@ -133,21 +133,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当设计平台时 → 设计网络效应
-- 当用户流失时 → 评估网络效应强度
-- 当数据积累时 → 数据网络效应
-- 当建设生态时 → 生态网络效应
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-barrier-strategy-overview`：壁垒策略总纲
-- `yt-business-model-network-effects`：网络效应
-- `yt-barrier-switching-costs`：转换成本
-- `yt-barrier-ecosystem-lock-in`：生态锁定
-- `yt-five-step-method`：五步法总纲
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂壁垒策略课
-- 网络效应研究
-- 平台经济学
+- src_unknown
+- src_unknown
+- src_unknown

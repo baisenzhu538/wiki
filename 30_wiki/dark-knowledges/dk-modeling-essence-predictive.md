@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- master
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
@@ -19,39 +19,39 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-  - signal: 团队说出一个本质，但能推出的唯一动作是"重视它"
+  - src_unknown
     framework_lens: 解释性本质 vs 预测性本质
     follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-  - signal: 本质只解释过去所有成功案例，遇到反例就被说成"例外"
+  - src_unknown
     framework_lens: 可证伪性与预测力
     follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-  - signal: 决策会上大家在"顿悟感"中通过方案，没人能写清因果链
+  - src_unknown
     framework_lens: 决策可推导性
     follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-  - signal: AI 总结的本质听起来深刻，但落地时每个动作都要重新讨论
+  - src_unknown
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[case-essence-humanity-trap]]'
-  - '[[truman-perspective-skill]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[modeling-capability-for-kdo]]'
-  - '[[modeling-three-stages]]'
-  - '[[modeling-capability-system]]'
-  - '[[dk-modeling-counterexample-driven]]'
-  - '[[dk-modeling-explanatory-vs-predictive-essence]]'
-  - '[[case-modeling-essence-levels]]'
-  - '[[case-modeling-essence-schools]]'
-  - '[[case-essence-education-strategy]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[yt-five-step-method]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#source-type/diverse'
-- '#domain/yitang'
-- '#method/essence-modeling'
-- '#method/decision-quality'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
@@ -69,10 +69,10 @@ author: 老顽童
 
 ## 使用场景
 
-- 你或团队正在讨论某个课题的“本质是什么”，听到“人性”“利他”“长期主义”这类大词。
-- 你读到一篇爆款文章说“某某的第一性原理”，但读完不知道该怎么用。
-- 你想给自己的业务提炼一个本质定义，用于指导战略、产品或运营决策。
-- 你在评估别人给你的模型/方法论是否真的有效，而不是“听着很对”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -81,9 +81,9 @@ author: 老顽童
 
 2. **用“三步推导测试”判断本质是否有效**
    拿到一个本质定义后，强制问：
-   - **通用解**：它能不能作为这一类问题所有解法的出发点？
-   - **自行推演**：我能不能从它推导出具体的行动方案、流程、原则？
-   - **关键要素**：它是否包含识别和定义这一类问题的核心维度？
+   - src_unknown
+   - src_unknown
+   - src_unknown
    如果三个都通过，才是一个值钱的预测性本质。
 
 3. **举三个真实决策来验证**
@@ -112,19 +112,19 @@ author: 老顽童
 ### 案例 1：三位专家都说“本质是人性”
 
 Truman 曾连续咨询三位专家：
-- 问股权专家：“股权的本质是什么？” 答：“人性。”
-- 问管理专家：“管理的本质是什么？” 答：“管人性。”
-- 问激励专家：“激励的本质是什么？” 他猜：“是不是人性？” 对方惊讶：“你怎么知道？”
+- src_unknown
+- src_unknown
+- src_unknown
 
 Truman 的拷问是：就算招聘的本质是人性，明天我要判断一个人招不入职、股权分多少，你能不能用人性这两个字一步一步把方案推出来？结果没有人能推。这说明“人性”是一个解释性极强的词——所有过去的坑都能用它解释，但无法指导下一步决策。
 
 ### 案例 2：创业是小概率游戏
 
 “创业是小概率游戏”这句话是 Truman 反复提到的预测性本质。因为它可以一步步推导出具体行动：
-- 既然是小概率，就要提前识别**关键假设**；
-- 既然是小概率，就要用**MVP**快速验证，而不是 All-in；
-- 既然是小概率，就要**多留几条命**，控制单次试错成本；
-- 既然是小概率，就要主动**控制概率**，而不是赌运气。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 这条本质不是总结历史，而是直接指导下一次创业计划。
 
@@ -133,9 +133,9 @@ Truman 的拷问是：就算招聘的本质是人性，明天我要判断一个�
 Truman 和子敬现场总结出的融资公式：融资的本质是帮投资人赚钱，等于“做多大 × 概率多大”。
 
 这个本质可以直接推导所有融资行动：
-- 商业计划书的叙事要回答“你能做多大”；
-- 路演要回答“这件事发生的概率多大”；
-- 跟投资人讲故事、做财务预测，都是围绕这两个变量展开。
+- src_unknown
+- src_unknown
+- src_unknown
 
 它不是“融资的本质是信任”这种解释性说法，而是一个可以展开成所有具体动作的操作性公式。
 
@@ -144,9 +144,9 @@ Truman 和子敬现场总结出的融资公式：融资的本质是帮投资人�
 一堂研究团队提炼战略本质时，不是先找一个漂亮词，而是看了大量战争决策、成败案例、毛选，最后压缩成：“站在全局 + 影响成败 + 艰难选择”。
 
 这三个要素同时具备预测力：
-- **关键要素**：一个问题如果不涉及全局、成败、取舍，就不是战略问题；
-- **通用解**：所有战略分析都可以从这三个维度展开；
-- **自行推演**：可以直接导出 checklist——是否全局？是否影响成败？是否艰难选择？是否在做取舍？
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 案例 5：精益的本质
 
@@ -166,10 +166,10 @@ Truman 指出，逐字稿不是“对外交付的稿子”，而是**现场说�
 
 ## 适用边界
 
-- **预测性本质适用于结构化、可重复决策场景**。创业、销售、战略、教育设计等。
-- **解释性本质在文化传播、激励、品牌叙事中仍有价值**。但它不能替代决策工具，也不能作为决策 checklist。
-- **并非所有问题都能提炼出有效本质**。Truman 自己也承认：AI 的本质、品牌的本质，他到现在也没有完全说服自己。
-- **本质只是树根，不能直接当斧头用**。需要往上推两层，变成原则、流程、工具，才能落地。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -182,20 +182,20 @@ Truman 指出，逐字稿不是“对外交付的稿子”，而是**现场说�
 
 ## 为什么值钱
 
-- 市场上充斥着“一句话看透本质”的鸡汤，它们只能让你感觉“被点亮”，却不能帮你做下一个决定。真正值钱的本质能帮你省下大量试错成本。
-- “创业是小概率游戏”这一句话，可以推导出关键假设、MVP、多留几条命、控制概率等一系列具体行动。这是预测性本质的威力。
-- 这条区分标准能帮你识别：哪些课程/顾问/方法论是真的有体系，哪些只是在用宏大概念包装个人经验。
-- 在 AI 时代尤其重要：AI 特别擅长生成“解释性本质”，因为它可以从大量文本中总结出听起来很对的话。但预测性本质需要人的判断力和事实基础。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[modeling-three-stages]] —— 本质建模是 85 分阶段；本暗知识说明什么样的“本质”才配得上 85 分。
-- [[modeling-capability-system]] —— 一堂建模能力的最终目标：形成稳定、可迁移、可指导决策的体系。
-- [[dk-modeling-counterexample-driven]] —— 用反例驱动验证本质：一个反例就能说明你的“本质”边界不对。
-- [[dk-modeling-explanatory-vs-predictive-essence]] —— 同一主题的姊妹篇，聚焦可预测性与可证伪性。
-- [[case-modeling-essence-levels]] —— 本质分层案例，说明什么样的本质配得上不同分数段。
-- [[case-modeling-essence-schools]] —— 不同流派对“本质”的理解差异。
-- [[case-essence-education-strategy]] —— 预测性本质在具体业务案例中的应用。
-- [[tool-essence-nfactor-modeling]] —— 本质建模方法，帮助从事实中提炼可预测的本质。
-- [[yt-five-step-method]] —— 一堂五步法，常与本质建模配合用于业务拆解。
-- `src_20260614_8269ccdb#3112-3258` —— Truman 口述原文：解释性本质 vs 预测性本质。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

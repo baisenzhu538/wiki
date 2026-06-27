@@ -6,17 +6,17 @@ title: 一堂张磊版精益测试的本质：用少量试错成本降低系统�
 type: concept
 status: draft
 domain:
-  - lean-startup- yitang
-  - entrepreneurship
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#content-format/concept'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊
@@ -25,27 +25,27 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-lean-ai-accelerated-validation]]'
-  - '[[yt-lean-false-model-ai]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-  - '[[tool-一堂-hypothesis-validation-three-axe]]'
-  - '[[concept-一堂-key-assumptions]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-source-cited
-- enriched
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 创业者说"我想先把产品做完整，再拿去验证"
+- src_unknown
   framework_lens: 精益本质检查：是否把试错成本集中在了当前最高风险的关键假设上？
   follow_up_question: 你当前最重要的关键假设是什么？能否用访谈、竞品调研或 AI 模拟等更低成本手段先排除/证实它？
-- signal: 团队过早讨论获客、渠道、投放
+- src_unknown
   framework_lens: 阶段检查：需求侧与产品侧的假设是否已经验证？
   follow_up_question: 在讨论增长之前，你是否已经证明目标用户真的有痛点、且你的最小解法被用户接受？
-- signal: 认为"AI 来了，可以直接做成品，不需要拆假设"
+- src_unknown
   framework_lens: 精益 AI 检查：AI 降低的是执行成本，不是战略拆解成本
   follow_up_question: AI 可以帮你生成测试素材，但你要测的假设清单是否清晰？哪些假设风险最高？
 
@@ -97,9 +97,9 @@ diagnostic_signals:
 
 张磊在回答《科学成长》项目提问时强调：脱离了产品形态，样本量问题没法回答。书、App、课程、线下训练营的验证指标和样本要求完全不同。
 
-- **专家访谈 / 定性调研**：颗粒度细，用于早期排除错误选项，聚焦细分用户、细分场景、细分问题。
-- **问卷 / 定量调研**：在选项较少、已有定性判断后使用，用于统计验证。
-- **指标要落在核心转化率/复购率上**：产品内核验证必须回到关键指标，而不是泛泛地看"用户反馈"。
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 关键认知：验证手段围绕产品形态展开，阶段决定了验证手段。
 
@@ -107,10 +107,10 @@ diagnostic_signals:
 
 AI 时代下，精益测试的 FALSE 模型（直接测试、人工服务、借用工具、人工替代、最小版本）依然有效。AI 的作用是：
 
-- **直接测试**：AI 生成海报、文案、课程大纲、销售页，并可模拟不同用户画像快速测试。
-- **人工服务**：CEO + AI 工具可完成过去 3–5 人的工作量。
-- **借用工具**：AI 几分钟生成 Demo、修改现有产品做测试。
-- **最小版本**：AI 辅助写代码、做设计，开发周期大幅缩短。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **但 AI 不能替代假设拆解。** 如果跳过"把海量假设拆清楚"这一步，AI 只是让你更快地跑在错误方向上。
 
@@ -122,10 +122,10 @@ AI 时代下，精益测试的 FALSE 模型（直接测试、人工服务、借�
 
 1. **前置假设优先，风险高的优先**：越在需求侧、产品侧的假设风险越高；增长环节假设后置。
 2. **代入五步法分类**：
-   - 需求侧：用户价格敏感性、细分人群需求。
-   - 产品侧：解决方案可行性、核心卖点。
-   - 商业模式：具体定价、单元模型。
-   - 增长环节：内容获客、渠道获客、促销策略。
+   - src_unknown
+   - src_unknown
+   - src_unknown
+   - src_unknown
 3. **进入放大阶段的标志**：单模型成立 + 跑通一条增长渠道。指标要放在具体单元上（如单 SKU 回本周期、首单 ROI）。
 4. **个人轻资产项目**：优先对标国外竞品，复用已有验证路径；多用调研，少用直接测试。
 
@@ -133,6 +133,6 @@ AI 时代下，精益测试的 FALSE 模型（直接测试、人工服务、借�
 
 ## 置信度说明
 
-- **confidence: 0.88**：概念定义在 AMA 精华稿、口述稿、笔记中高度一致，且与一堂既有方法论（五步法、关键假设、FALSE 模型）相互印证。
-- **trust_level: high**：来源数量 ≥ 2，且核心主张在多个来源中重复出现。
-- **局限**：素材为 AMA 口述与笔记整理，外部可验证性有限；具体案例的细节（如独立站数据）未提供，引用时建议标注为"张磊 AMA 口述/笔记"。
+- src_unknown
+- src_unknown
+- src_unknown

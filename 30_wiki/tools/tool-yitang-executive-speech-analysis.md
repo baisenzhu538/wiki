@@ -15,12 +15,12 @@ domain: [yitang, research]
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - '[[tool-yitang-signup-statistics]]'
-  - '[[tool-yitang-bidding-analysis]]'
-  - '[[tool-yitang-shareholder-analysis]]'
-  - '[[tool-yitang-anonymous-roundtable]]'
-  - '[[tool-yitang-court-record-search]]'
-  - "[[tool-yitang-weapon-public-official-info]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 高管公开发言分析
@@ -28,11 +28,11 @@ related:
 > CEO/高管的公开演讲和采访——他们说的和没说的，都在暴露公司的战略方向和焦虑。
 
 **分析维度**：
-- **重复出现的关键词**：今年反复提"AI"=在押注AI方向
-- **语焉不详的话题**："我们也在探索中"=还没想清楚
-- **今年提到但去年没提的**：新方向
-- **去年提了但今年没提的**：被放弃的方向
-- **被问到但回避的问题**：公司当前最大的不确定性
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **价值**：高管的公开表态比PR稿真实——因为即兴发言难以完全控制。
 

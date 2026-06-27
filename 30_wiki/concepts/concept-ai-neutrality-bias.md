@@ -10,27 +10,27 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[framework-ai2041-critical-reading-os]]'
-  - '[[tool-ai-cross-reading-method]]'
-  - '[[concept-ai-chair-determines-view]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 中立的暴政
@@ -133,8 +133,8 @@ Kate Crawford 在《Atlas of AI》中的核心判断是："别再谈 AI 伦理�
 ### 与"椅子决定视角"的关系
 
 "中立的暴政"和"椅子决定视角"是同一枚硬币的两面：
-- **中立的暴政**：识别作者如何用"中立"修辞隐藏立场；
-- **椅子决定视角**：主动调查作者的利益位置、技术立场和时代局限。
+- src_unknown
+- src_unknown
 
 前者是**防御**（识破伪装），后者是**进攻**（主动追问）。两者合起来，构成王欢批判性阅读 OS 的立场审计模块 [conf=0.70, source=王欢原创]。
 
@@ -146,11 +146,11 @@ Kate Crawford 在《Atlas of AI》中的核心判断是："别再谈 AI 伦理�
 
 遇到以下信号时，启动警觉：
 
-- [ ] 作者反复使用"技术本质中立""问题在人""工具无善恶"等表述。
-- [ ] 所有成功案例归因于技术本身，所有失败案例归因于使用者或数据。
-- [ ] 解决方案的默认方向是"更多技术""更多数据""更多算力"。
-- [ ] 对所有权、监管、分配、权力集中等问题一笔带过或回避。
-- [ ] 作者声称"我只是客观描述未来"，但其未来图景与其商业利益高度一致。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 三步拆穿法
 
@@ -188,18 +188,18 @@ Kate Crawford 在《Atlas of AI》中的核心判断是："别再谈 AI 伦理�
 
 Virginia L. Conn 在《洛杉矶书评》（Los Angeles Review of Books）发表评论《The Tyranny of Neutrality in "AI 2041"》，直接针对李开复"技术本质中立"的论断 [conf=0.90, source=Conn 2021, Los Angeles Review of Books]。她的核心论证与王欢的提炼高度一致：
 
-- AI 不能与其社会文化和技术嵌入分离；
-- 当预测结果复制了训练数据中的人类偏见时，算法会再现系统性的、可重复的错误；
-- 李和陈把这些问题归因于"人类偏见"，却没有讨论偏见本身就是技术不可分割的一部分；
-- 该书"可以被理解为一种试图验证以谷歌为代表的数据剥削技术持续扩张合理性的尝试" [conf=0.85, source=王欢逐字稿/Conn 2021 原文]；
-- 李开复作为 Sinovation Ventures CEO 和前 Google China 总裁，从推广 AI 作为工具中获利丰厚 [conf=0.90, source=Conn 2021, Los Angeles Review of Books]。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 反例：把 Crawford 的批判当作唯一真理
 
 王欢提醒，Crawford 的批判框架也有其"椅子"和局限：
-- 她长期在微软研究院任职，其批判具有"体制内批判"的位置特征 [conf=0.85, source=Crawford 公开履历]；
-- 她几乎不开药方，"别造了"和"集体拒绝"对普通决策者可操作性低 [conf=0.70, source=王欢原创]；
-- "一切皆提取"的框架如果不加边界，会滑向概念泛化 [conf=0.70, source=王欢原创]。
+- src_unknown
+- src_unknown
+- src_unknown
 
 **教训**：识破别人的"中立暴政"之后，不能自动把自己的批判当作无椅子的新中立。
 

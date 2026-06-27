@@ -11,9 +11,9 @@ source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -22,28 +22,28 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.89
 related:
-  - '[[tool-iceberg-triangle-modeling]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[tool-essence-nfactor-modeling]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-binary-quadrant-modeling]]'
-  - '[[modeling-weapon-library]]'
-  - '[[modeling-three-stages]]'
-  - '[[tool-radar-chart-modeling]]'
-  - '[[yt-tool-business-formula-metrics-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/evaluation-method'
-- '#content-format/formula'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 只关注总转化率，忽略阶段间最大跌落点
+- src_unknown
   framework_lens: 漏斗图建模
   follow_up_question: 哪一步的阶段间转化率最低、绝对流失人数最多？
-- signal: 公式变量过多，失去行动指导意义
+- src_unknown
   framework_lens: 公式建模
   follow_up_question: 能否把变量精简到3-5个，并识别出可干预的杠杆变量？
-- signal: 没有数据支撑就套用公式或画漏斗图
+- src_unknown
   framework_lens: 数据驱动建模
   follow_up_question: 每个阶段/变量是否有对应的埋点、数据来源和验证计划？
 ---
@@ -77,11 +77,11 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: 漏斗图适用于有明确阶段、可统计转化率的过程分析。——依据：`src_20260614_73352fa5` 武器库“逻辑链、N要素、漏斗图、公式”。
-- **C2 [conf=0.85]**: 公式的价值在于把复杂结果拆成少数可干预的关键变量。——依据：`src_20260614_8269ccdb#2180-2195`。
-- **C3 [conf=0.85]**: 漏斗图最重要的不是总转化率，而是阶段间最大跌落点。——推断：基于漏斗图通用用法和 Truman 对“主要矛盾”的强调。
-- **C4 [conf=0.8]**: 公式中的变量通常是乘积关系，因为业务结果往往由多个因素共同放大或限制。——推断：基于 GMV = 流量 × 转化率 × 客单价等常见公式。
-- **C5 [conf=0.75]**: 漏斗图和公式都需要数据支撑，没有数据时只能做定性示意。——推断：基于量化工具特性。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -98,7 +98,7 @@ diagnostic_signals:
 #### 步骤 1：定义完整流程
 
 列出用户/业务经历的完整阶段。例如：
-- 曝光 → 点击 → 留资 → 试听 → 付费 → 复购
+- src_unknown
 
 #### 步骤 2：收集各阶段数据
 
@@ -107,8 +107,8 @@ diagnostic_signals:
 #### 步骤 3：计算阶段间转化率
 
 重点关注：
-- 哪一步转化率最低？
-- 哪一步绝对流失人数最多？
+- src_unknown
+- src_unknown
 
 #### 步骤 4：定位最大损耗点
 
@@ -130,9 +130,9 @@ diagnostic_signals:
 
 #### 步骤 3：确定变量关系
 
-- 乘积关系：GMV = 流量 × 转化率 × 客单价
-- 加法关系：总成本 = 固定成本 + 变动成本
-- 混合关系：利润 = 收入 - 成本
+- src_unknown
+- src_unknown
+- src_unknown
 
 #### 步骤 4：识别杠杆变量
 
@@ -183,9 +183,9 @@ diagnostic_signals:
 
 ### 内部局限性
 
-- 漏斗图容易让人只关注转化率，忽略每个阶段的质量
-- 公式容易把复杂因果关系简化成算术关系
-- 数据不足时，量化模型会制造虚假精确感
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Daniel Kahneman — "数字会制造虚假的精确感"
 
@@ -193,8 +193,8 @@ diagnostic_signals:
 
 ### 反事实测试
 
-- 如果漏斗图去掉某一层，结论会变吗？如果会，说明这一层是真实关键阶段。
-- 如果公式中某个变量设为 0，结果是否合理？如果不合理，说明变量关系定义错误。
+- src_unknown
+- src_unknown
 
 ---
 
@@ -202,11 +202,11 @@ diagnostic_signals:
 
 ### 相关卡/互链
 
-- [[modeling-weapon-library]] —— 漏斗图/公式在进阶模型中的定位
-- [[modeling-three-stages]] —— 抽象建模阶段的量化工具
-- [[tool-radar-chart-modeling]] —— 多维度评估用雷达图
-- [[yt-tool-business-formula-metrics-checklist]] —— 公式拆解后的数据埋点与验证清单
-- [[dk-modeling-essence-predictive]] —— 公式必须能预测，否则只是描述
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -260,10 +260,10 @@ diagnostic_signals:
 
 ### 关联参考
 
-- [[case-private-domain-ecommerce-formula]]：完整案例背景与公式升级结构
-- [[yt-business-formula-abc-model]]：先切分（+）再拆转化（×）的建模范式
-- [[yt-tool-business-formula-metrics-checklist]]：公式拆解后的埋点与验证清单
-- [[modeling-three-stages]]：抽象建模阶段的工具选择
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -281,31 +281,31 @@ diagnostic_signals:
 
 ### 开始建模前
 
-- [ ] 已明确要分析的业务目标（如 GMV、付费转化、用户增长）
-- [ ] 已确认有可靠数据或已制定数据收集计划
-- [ ] 已列出完整流程阶段或候选关键变量
-- [ ] 已检查变量/阶段是否可被团队干预
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 漏斗图检查
 
-- [ ] 阶段数控制在 4–7 个
-- [ ] 每个阶段有明确的进入和离开口径
-- [ ] 标注了阶段间转化率和绝对流失数
-- [ ] 识别出最大跌落点并给出假设
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 公式检查
 
-- [ ] 目标指标在等式左侧，只保留 3–5 个关键变量
-- [ ] 变量关系（乘/加/混合）有业务依据
-- [ ] 每个变量都有对应的数据来源或埋点
-- [ ] 已识别至少一个杠杆变量并设定量化改进目标
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 落地与复盘
 
-- [ ] 干预方案与最大损耗点/杠杆变量直接挂钩
-- [ ] 设定了对照组或前后对比的验证方式
-- [ ] 约定了复盘周期（建议 2–4 周）
-- [ ] 复盘后根据数据更新漏斗图或公式
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -327,9 +327,9 @@ diagnostic_signals:
 
 ## Sources
 
-- 10_raw/assets/modeling-capability/Truman-高阶建模-抽象建模-常见模型武器库-图-01.png`
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2180-2195`
-- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58-66`
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

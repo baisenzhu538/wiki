@@ -3,22 +3,22 @@ id: tool-提示词结构化迭代
 title: 技能：提示词结构化迭代
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- management
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 提示词版本管理工具
-- A/B测试记录
+- src_unknown
+- src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[tool-多轮确认防偏差]]'
-- '[[tool-主动摘要压缩上下文]]'
-- '[[tool-反向提示获取优化建议]]'
-- '[[tool-渐进式披露上下文]]'
-- '[[tool-反向教学深化理解]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：提示词结构化迭代
 
@@ -44,26 +44,26 @@ related:
 4. 再次测试，继续迭代
 
 ## 适用场景
-- ✅ 提示词效果不达预期时
-- ✅ 需要稳定复现的高质量输出
-- ✅ 团队协作需要统一输出标准
+- src_unknown
+- src_unknown
+- src_unknown
 
 
 ## 为什么有效
 结构化元素覆盖提示词的关键维度，系统化迭代避免盲目修改，逐步逼近最优提示
 
 ## 工具/环境
-- 提示词版本管理工具
-- A/B测试记录
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
-- （待补充）
+- src_unknown
 
 ## 关联技能
-- （待补充）
+- src_unknown
 
 ## 来源
-- Truman，src_20260609_03491271，2026-06-09
+- src_unknown
 
 ## Feedback Path
-- 60_feedback/comments/ — 反馈
+- src_unknown

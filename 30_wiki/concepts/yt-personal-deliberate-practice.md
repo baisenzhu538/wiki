@@ -1,6 +1,6 @@
 ---
 domain:
-  - personal-growth
+  - src_unknown
 
 
 
@@ -10,16 +10,16 @@ created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - "刻意练习"
-  - "科学成长"
-  - "一万小时定律"
-  - "天真的练习"
-  - "即时反馈"
-  - "舒适区拉伸"
-  - "心理表征"
-  - "案例拆解练习"
-  - "能力培养方法"
-  - "如何有效练习"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -38,7 +38,7 @@ yitang:
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+  - src_unknown
 diagnostic_signals:
   - {'signal': '每次练习都有明确、可衡量的子目标', 'framework_lens': '刻意 = 目标导向', 'follow_up_question': '今天的练习结束后，你希望自己能做到什么昨天做不到的事？'}
   - {'signal': '练习后能立即获得反馈，并能根据反馈调整', 'framework_lens': '反馈闭环是进步的核心', 'follow_up_question': '你如何知道自己这次做对了还是做错了？'}
@@ -46,11 +46,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - '[[yt-personal-knowledge-management]]'
-  - '[[yt-personal-verbatim-script]]'
-  - '[[yt-personal-inspiration-flash]]'
-  - '[[yt-personal-ipo-learning]]'
-  - '[[yt-personal-scientific-expression]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---# 科学成长（刻意练习）
 
@@ -68,20 +68,20 @@ related:
 ### 失败模式
 
 1. **只是重复做，没有针对性改进**
-   - **原因**：天真的练习
-   - **修复**：每次练习前设定一个具体改进点，练习后评估该点
+   - src_unknown
+   - src_unknown
 
 2. **反馈延迟太久，错误习惯已经固化**
-   - **原因**：反馈不及时
-   - **修复**：尽量在练习过程中或结束后立即获得反馈
+   - src_unknown
+   - src_unknown
 
 3. **一直待在舒适区，练习没有挑战**
-   - **原因**：难度不匹配
-   - **修复**：当正确率>90%时提升难度，<60%时降低难度
+   - src_unknown
+   - src_unknown
 
 4. **只练已经会的，回避弱项**
-   - **原因**：回避不适
-   - **修复**：把练习时间按 60% 拉伸区 + 40% 巩固区分配
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -109,9 +109,9 @@ related:
 **2. 极致的专注（Focused Attention）**：练习时大脑处于"非舒适区"，需要全神贯注。一堂建议单次练习 25-90 分钟（因人而异），超过这个时间注意力衰减，练习效果归零。金句："宁可高质量练 30 分钟，不要低质量练 3 小时。"
 
 **3. 即时的反馈（Immediate Feedback）**：反馈是刻意练习的核心——没有反馈的练习等于蒙眼射箭。三种反馈来源：
-- **外部反馈**：导师/教练/同行的即时纠偏（最优）
-- **结果反馈**：练习后的可测量结果（如"用户访谈转化率从 10% 提升到 25%"）
-- **自我反馈**：录视频/录音/写复盘，让未来的自己给过去的自己提意见
+- src_unknown
+- src_unknown
+- src_unknown
 
 **4. 持续出舒适区（Stretch Zone）**：刻意练习的练习内容应在"会做但不熟练"到"勉强能做"之间的拉伸区。太简单（舒适区）不成长，太难（恐慌区）放弃——需要持续调整练习难度保持在拉伸区。
 
@@ -130,9 +130,9 @@ related:
 ### 刻意练习与 IPO 模型的关系
 
 刻意练习本质上是对 **IPO 的 Processing 环节做刻意加速**：
-- P（处理）的质量 = 联系练习的数量和质量
-- 刻意练习将"建立联系"从被动等待（等灵感）变为主动训练（每天做 5-10 次举一反三）
-- Truman 在 IPO 课中的核心方法论——"举一反三做 100 次有体感，做 500 次成肌肉"——就是刻意练习在"建立联系"上的应用
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Critique
 

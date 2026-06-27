@@ -6,8 +6,8 @@ title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到
 type: case
 status: enriched
 problem_domains:
-- 知识管理
-- 建模沉淀
+- src_unknown
+- src_unknown
 industry: 在线教育
 scale: 公司
 source_person: Truman
@@ -15,23 +15,23 @@ source_context: 一堂建模能力培训，2026-06-12
 source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs:
-- '[[dk-modeling-model-arsenal-paradigms]]'
-- '[[modeling-weapon-library]]'
+- src_unknown
+- src_unknown
 definition_of_done:
-- 问题描述清晰
-- 方案可理解
-- 可迁移点明确
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#content-format/case-study'
-- '#problem/knowledge-management'
+- src_unknown
+- src_unknown
 related_skills:
-- '[[modeling-weapon-library]]'
+- src_unknown
 related_concepts:
-- '[[dk-modeling-model-arsenal-paradigms]]'
+- src_unknown
 related_cases:
-- '[[case-yitang-weekly-modeling-engine]]'
-- '[[case-yitang-model-valuation-flywheel]]'
-- '[[case-modeling-abstraction-yitang-models]]'
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -40,35 +40,35 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: medium
 domain:
-- yitang
-- 知识管理
-- 建模沉淀
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 团队内部已有大量“方法论”“模型”“清单”，但没人说得清总数、分类和复用情况
+- src_unknown
   lens: 模型资产黑箱
   follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入 20-30 个范式
-- signal: 新人或外部合作方反复问“这类问题我们有没有现成模型”
+- src_unknown
   lens: 模型可发现性差
   follow_up: 建立武器库索引，每个范式标注适用问题、典型案例、边界条件和使用 checklist
-- signal: 每次做新课/新产品都从零开始画新模型，旧模型很少被复用
+- src_unknown
   lens: 重复发明轮子
   follow_up: 在立项评审环节强制要求“先查武器库，说明现有范式为何不适用”才能申请新模型
-- signal: 团队热衷于创造新名词、新框架，但底层逻辑与旧模型高度相似
+- src_unknown
   lens: 伪创新
   follow_up: 新模型上线前做一次“范式匹配审查”，要求证明它无法被已有 20-30 个范式表达
 related:
-  - '[[dk-modeling-ai-compound-leverage]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-modeling-model-arsenal-paradigms]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[case-modeling-abstraction-yitang-models]]'
-  - '[[modeling-weapon-library]]'
-  - '[[dk-modeling-model-arsenal-paradigms]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
-  - '[[modeling-three-stages]]'
-  - '[[case-yitang-model-valuation-flywheel]]'
-  - '[[case-yitang-radar-chart-selection]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---# 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 
 ## 原始表述
@@ -92,18 +92,18 @@ Truman 团队让 AI 对一堂全部交付内容做 ASR/OCR 扫描与全面盘点
 
 ## 结果
 
-- 累计沉淀模型资产 **三四百个**，高质量资产至少 **200 个**；
-- 识别出 **57 个案例、107 小时内容、16 个雷达图、19 个逻辑链、21 条线索、29 个本质、14 套塔台、14 个双三角模型、10 个创新三角、44 个武器库、13 张画布**；
-- 发现真正原创的创新模型只有 **10–20 个**，**95% 的模型**都可以落入这些范式中；
-- 为后续“武器库思维”和范式匹配提供了数据基础。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 可迁移
 
-- 知识型组织要定期做“资产盘点”，先把散落的方法论扫描、分类、范式化，才能降低复用成本；
-- AI 适合做人肉难以完成的统计归集，但范式框架和分类标准仍需人定；
-- 不要急于“创新”，先确认自己不是在用新名字重复旧范式；
-- 把盘点结果接入“立项/建模评审”，强制先查武器库再决定是否新建模型；
-- 资产盘点应与模型定价/价值评估联动，避免“盘点完还是没人重视”。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -142,29 +142,29 @@ Truman 团队让 AI 对一堂全部交付内容做 ASR/OCR 扫描与全面盘点
 
 ### 第一步：划定扫描范围（1-2 天）
 
-- [ ] 列出所有可能存放模型的系统/目录：知识库、课程平台、文档库、设计稿、音视频讲义
-- [ ] 明确时间范围：过去 1 年/3 年/全部历史
-- [ ] 确定资产形态：文本、PPT、图片、视频、音频
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二步：AI 全面扫描（3-7 天）
 
-- [ ] 对文本/PDF 做全文抽取
-- [ ] 对图片/幻灯片做 OCR
-- [ ] 对音视频做 ASR 转写
-- [ ] 输出“原始资产清单”，每条标注来源文件与位置
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第三步：形态分类（3-5 天）
 
-- [ ] 按模型形态打标签：清单/SOP、N 步法、雷达图、漏斗、象限、冰山图、三角图、段位图、画布、武器库、案例包
-- [ ] 对同一资产出现多种形态的情况，人工判定主形态
-- [ ] 输出“形态分类统计表”
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第四步：范式归集（5-7 天）
 
-- [ ] 人工先定 20-30 个基础范式框架
-- [ ] 让 AI 把资产匹配到范式，输出每类资产数量和占比
-- [ ] 人工抽检 10% 资产，修正分类错误
-- [ ] 识别真正原创的创新模型（通常不超过 5%）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第五步：建立武器库索引（3-5 天）
 
@@ -180,34 +180,34 @@ Truman 团队让 AI 对一堂全部交付内容做 ASR/OCR 扫描与全面盘点
 
 ### 第六步：接入流程与迭代（持续）
 
-- [ ] 把“先查武器库”写入建模/课程立项评审模板
-- [ ] 指定资产库负责人：每月小更新、每半年大盘点
-- [ ] 收集三类反馈：找不到、不会用、用了没效果
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Checklist：模型资产盘点验收单
 
-- [ ] 已扫描全部目标知识库/课程资料
-- [ ] 已按模型形态完成分类
-- [ ] 已识别 20-30 个基础范式
-- [ ] 已统计每类资产数量和占比
-- [ ] 已人工抽检并修正分类错误
-- [ ] 已建立武器库索引（含适用问题/边界/案例）
-- [ ] 已把武器库检查接入立项/建模评审
-- [ ] 已确定更新责任人（每月小更新/每半年大盘点）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关键标签
 
-- 问题域：知识管理、建模沉淀
-- 行业：在线教育
-- 方法：资产盘点、范式归集、AI 辅助
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联
 
-- 技能：[[modeling-weapon-library]]
-- 概念：[[dk-modeling-model-arsenal-paradigms]]
-- 框架：[[modeling-three-stages]]
-- 案例：[[case-yitang-weekly-modeling-engine]]、[[case-yitang-model-valuation-flywheel]]、[[case-modeling-abstraction-yitang-models]]
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源
 
-- Truman，一堂建模能力培训，2026-06-12，`src_20260614_8269ccdb#2282-2316`
+- src_unknown

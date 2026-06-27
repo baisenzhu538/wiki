@@ -3,45 +3,45 @@ id: ai-collaboration-mindset-shift
 title: "AI协作思维转变：从新手到管理者"
 type: concept
 domain:
-  - ai-saas
-  - management
-  - decision-making
-  - yitang
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: enriched
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of: null
 related:
-  - "[[structured-ai-workspace]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[ai-landing-scene-selection]]"
-  - "[[course-to-skill-conversion]]"
-  - "[[dk-modeling-ai-without-judgment]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 query_triggers:
-  - 怎么和AI协作
-  - AI输出质量怎么判断
-  - 用AI越用越爛
-  - 新手怎么用AI
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: "2026-06-15"
 updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - signal: "觉得AI输出很好但说不出好在哪"
+  - src_unknown
     lens: "新手 vs 管理者"
     follow_up: "强制列出3个可能的改进点，检验判断力"
-  - signal: "大量token浪费在好奇问题上"
+  - src_unknown
     lens: "question vs problem"
     follow_up: "每次提问前先分类：这是problem还是question？"
-  - signal: "AI输出质量时好时坏，无法稳定验收"
+  - src_unknown
     lens: "缺少验收标准"
     follow_up: "定义before/after、真实锚点、受益对象、可解性四要素"
-  - signal: "每天用AI但能力没有提升"
+  - src_unknown
     lens: "执行者循环"
     follow_up: "检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴"
 ---# AI协作思维转变：从"新手"到"管理者"
@@ -71,8 +71,8 @@ AI协作中大多数人的核心问题不是"不会用工具"，而是"不知道
 **暗知识**：纪浩未明说但暗示了——**四要素中"可解性"是最容易被过度估计的**。很多人认为自己的问题"可解"，但实际上缺少"因果链"或"能力支撑"。
 
 ### claim:03 [conf=0.75] 双三角模型：人让AI变强 + AI让人变强
-- **人让AI变强**：人做manager，给AI清晰目标、约束条件、反馈机制
-- **AI让人变强**：AI做教练，设计A+1难度的问题，催促走出舒适区
+- src_unknown
+- src_unknown
 
 **暗知识**：纪浩强调"每天用3-4小时AI，剩下时间做有参与感的事"。这意味着**他默认了一个时间配额上限**，但未解释为什么是3-4小时而不是1小时或5小时。暗知识：这个数字可能是他个人经验的"幸存值"，而非普适标准。
 
@@ -103,9 +103,9 @@ AI协作中大多数人的核心问题不是"不会用工具"，而是"不知道
 ## Critique
 
 ### 内部局限
-- "question ≠ problem"的区分在实践中很难——很多问题同时是question和problem。
-- 双三角模型假设AI可以做"教练"，但当前AI在"教学设计"方面的能力仍然有限。
-- "每天3-4小时"是个人经验，未经验证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击
 
@@ -139,4 +139,4 @@ Tversky在研究中发现，人类的思维不是静态的，而是嵌入在行�
 | 大量token浪费在疑问上 | 每次提问前先问："这是problem还是question？" | 问题分类次数>80%正确 |
 
 ## contradicts
-- [[ai-learning-closed-loop]]: 纪浩强调"每天3-4小时AI"，半肥猫强调"老板心态"——二者对"时间投入"vs"身份转换"的优先级不同，但未明确哪个先哪个后
+- src_unknown

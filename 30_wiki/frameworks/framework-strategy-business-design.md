@@ -7,7 +7,7 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-- strategy
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
@@ -17,17 +17,17 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-business-design-template]]'
-  - '[[case-strategy-snack-business-design]]'
-  - '[[framework-strategy-brm]]'
-  - '[[framework-strategy-blm]]'
-  - '[[tool-strategy-map]]'
-  - '[[framework-strategy-brm]]'
-  - '[[framework-strategy-blm]]'
-  - '[[framework-strategy-five-basics]]'
-  - '[[framework-strategy-pyramid]]'
-  - '[[framework-strategy-three-horizons]]'
-  - '[[framework-five-step-lean-interface]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 业务设计六要素×三步骤

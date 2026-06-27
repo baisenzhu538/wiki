@@ -6,18 +6,18 @@ title: To B 增长模式取舍：直销 vs 渠道
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_refs: []
 tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
-- '#domain/b2b'
-- '#content-format/framework'
-- '#topic/growth-strategy'
-- '#topic/channel-strategy'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -26,19 +26,19 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-  - '[[yt-business-model-margin-structure]]'
-  - '[[yt-tob-cash-flow]]'
-  - '[[yt-tob-sales-unit-model]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-growth-acquisition-channels]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-customer-sabc]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 > 增长环节最常见的坑，是不做任何判断：擅长销售的人什么都想做直销，不擅长销售的人则想全部丢给渠道。核心判断标准是——**单位时间内，针对当前业务目标，哪种方式的规模化效率最高**。（口述稿 ~3218-3482；课堂笔记 §5）
@@ -60,16 +60,16 @@ related:
 
 ### 条件一：单元模型对比
 
-- **渠道**：收入 = 渠道带来的销售额；成本 = 分佣（讲师观察中常见 50% 乃至更高）、合作成本、竞争成本。
-- **直销**：收入 = 自建团队销售额；成本 = 销售人员薪酬、订单成本、销售管理成本均摊。
-- **空间维度**：同一业务在不同区域可能模型完全不同。例如北京 2 个销售一月能成 10 单，南京 2 个销售一月才成 1 单，则北京更适合直销，南京更适合渠道。
-- **动态维度**：渠道模型在规模化后，若毛利改善，可留出更多佣金激励渠道；直销模型需警惕规模不经济——管理成本上升是否远超收入上升。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件二：规模化需求与组织能力
 
-- 当业务需要快速上升时，自建销售很难快速规模化（招聘、培训、管人、文化沉淀都需要时间）。
-- 如果组织能力撑不住，可能错过关键时间窗口，直接「下牌桌」。
-- 好渠道能够复用获客成本，在你自己做不了的市场实现盈利。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 直销 / 渠道决策清单
 
@@ -102,8 +102,8 @@ related:
 
 某国内大厂工业品部门希望成立自有品牌提高利润，决定主攻电商平台，预期收入和增速乐观。团队高举高打，快速组建近十人电商团队，三个月上架约 80 个 SKU 的工业流通品。
 
-- **结果**：电商平台 GMV 贡献极低，主要采购仍来自原有大客户（占比超过 95%）。业务策略被迫回调为继续推 KA，电商团队边缘化，前期商标设计、法务、设计等投入沉没。
-- **启示**：电商渠道人群与工业品采购决策场景不匹配；渠道选择不能只看平台流量大，还要看目标客户的决策路径和采购场景。
+- src_unknown
+- src_unknown
 
 > 注：具体人数、SKU 数、占比等数字来自口述材料，未经独立核实，仅作说明。
 
@@ -111,15 +111,15 @@ related:
 
 某商业显示屏/煤矿环境监控解决方案企业，为寻找客户选择在抖音投放，花费十几万涨粉几万，但没有转化。
 
-- **原因**：该类项目通常由技术安全人员发起需求，再经多级汇报决策。目标用户即便使用抖音，也多是下班放松场景，搜索解决方案的场景不在抖音。
-- **启示**：渠道选择必须匹配目标客户画像、决策路径和使用场景，不能简单追逐流量平台。
+- src_unknown
+- src_unknown
 
 ### 案例三：北京 vs 南京的销售效率差异（空间套利）
 
 某董事会案例讨论直销还是渠道时，发现北京 2 个销售一月能卖 10 单，南京 2 个销售一月才成 1 单。
 
-- **判断**：北京人效高，适合放直销；南京销售成本高，自己派人做不划算，应通过渠道覆盖。
-- **关键逻辑**：当服务对象某类成本（如获客/销售成本）很高时，这本身就是渠道可以盈利的空间；好渠道能复用获客成本，在你做不了的市场赚到钱。
+- src_unknown
+- src_unknown
 
 ## Constraints & Boundaries
 
@@ -143,25 +143,25 @@ related:
 
 ## 讲师观察（非普适定律）
 
-- 口述稿中提到「To B 每年做到两三倍就是极好」「工程类公司直到倒闭才能慢慢赚钱」等表述，属于讲师经验观察，不应作为 universally 适用的定律直接套用。
+- src_unknown
 
 ## diagnostic_signals
 
-- signal: 同一产品在不同区域销售人效差异显著（如某些区域人均产出是其他区域的数倍）
+- src_unknown
   framework_lens: 单元模型对比 + 空间维度
   follow_up_question: 这些低人效区域是否可以通过渠道复用获客成本，实现盈利？
 
-- signal: 为追求规模选择了渠道/代理，但渠道推进意愿弱、动销慢
+- src_unknown
   framework_lens: 动态毛利评估 + 渠道激励
   follow_up_question: 当前毛利结构能否支撑渠道分佣？规模化后毛利是否足以吸引更多渠道资源？
 
-- signal: 在流量平台（抖音、知乎、微博等）投放后，线索多但转化极低
+- src_unknown
   framework_lens: 渠道场景匹配
   follow_up_question: 目标客户的决策发起人和决策场景，是否真的会在这个平台上寻找解决方案？
 
 ## 置信度说明
 
-- 本卡基于单一口述稿（课堂实录）和学员笔记整理，属于单一讲师观点的二次加工。
-- 口述稿在 ~3482 行处截断，本卡未涉及壁垒部分。
-- 案例中的具体数字（团队规模、SKU 数、客户占比、分佣比例等）为课堂叙述，未经验证，仅用于说明判断逻辑。
-- 由于存在上述限制，confidence 设为 0.78，trust_level 为 medium-high。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

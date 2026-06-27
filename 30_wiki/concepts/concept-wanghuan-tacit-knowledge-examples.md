@@ -5,9 +5,9 @@ title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
 status: enriched
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 老顽童
@@ -20,33 +20,33 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 diagnostic_signals:
-- signal: AI 输出的方案"看起来都对"，但老同事一眼就知道哪里会踩雷
+- src_unknown
   lens: tacit-rule-gap
   follow_up: 把"新人常犯的错误"和"高手的隐性判断"写成否定句补进 AI 业务档案
-- signal: 同一行业不同公司做法差异很大，通用 prompt 频繁失效
+- src_unknown
   lens: context-specificity
   follow_up: 在每个暗规则前加上"在我司/本行业，默认..."
-- signal: 团队里只有老人能判断好坏，新人成长慢
+- src_unknown
   lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[tool-wanghuan-ai-dual-role-coach]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-spec-trap]]'
-  - '[[concept-wanghuan-flywheel-first-loop]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- 王欢
-- 行业暗规则
-- tacit-knowledge
-- 招聘
-- 招投标
-- 销售
-- 培训
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 
 # 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
@@ -83,33 +83,33 @@ tags:
 
 > "收到简历 48 小时内没有回复的候选人，即使最后发了 offer，接受率也会低 30%——候选人已经用沉默表达了被忽视。"
 
-- **为什么这是暗规则**：招聘系统不会提醒你"回复时效影响接受率"，但资深 HR 知道沉默本身就是一种信号。
-- **AI 怎么用**：在筛选助手里加一条约束——"对进入初筛的候选人，必须在 48 小时内给出反馈动作（推进/婉拒/待定），并记录原因"。
-- **不要变成**："48 小时内必须发 offer"——规则被曲解后会制造无效压力。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 02 · 销售（B端）
 
 > "客户说‘我要请示一下领导’，90% 的情况是他自己已经不想买了，但不方便直说。这句话是礼貌性拒绝，不是真的需要审批。"
 
-- **为什么这是暗规则**：字面意思是"等审批"，真实意思是"兴趣已降"。新手销售会继续推销，老手会重新探测痛点。
-- **AI 怎么用**：在客户跟进助手里加一条判断逻辑——当客户出现"请示领导"时，自动提示销售切换为"探测真实顾虑"模式。
-- **不要变成**：直接放弃客户——"礼貌性拒绝"仍有挽回空间，关键是切换策略。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 03 · 招投标/商务
 
 > "300 万的项目，你的报价一般默认不会超过 285 万。"
 
-- **为什么这是暗规则**：行业默认要留余地，不会报满。新人按成本算报价，老手按"行业默认折扣"算。
-- **AI 怎么用**：在报价单生成器里加入"按项目总价的 95% 作为默认报价上限，并说明留余地的商业理由"。
-- **不要变成**：所有项目都打 95 折——暗规则是默认值，不是铁律，需要结合竞争态势调整。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 04 · 培训
 
 > "学员在下午两点到三点之间注意力最低。这个时段放案例和互动，不放理论——不管理论多重要，在那个时段讲会全部白费。"
 
-- **为什么这是暗规则**：课程表可以按重要性排课，但人体节律不服从重要性。
-- **AI 怎么用**：在课程设计助手里加一条约束——"下午 14:00-15:00 时段只安排案例、互动、练习，不安排纯理论讲授"。
-- **不要变成**：所有下午都禁止理论——暗规则针对的是低注意力时段，而不是所有下午。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -140,21 +140,21 @@ tags:
 
 ## 行动 Checklist
 
-- [ ] 召集 1-2 位老手，每人写出 3 条"新人最容易错的隐性判断"。
-- [ ] 把每条规则改写成"否定句 + 触发场景 + 后果"。
-- [ ] 在 AI 业务档案的"行业暗规则"字段中至少放入 5 条。
-- [ ] 每次 AI 输出违反暗规则时，把这条规则补进去或改得更具体。
-- [ ] 用暗规则实例库作为新人培训和 AI 上下文的共同输入。
-- [ ] 每季度复盘一次：哪些规则已经失效？哪些需要新增？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 相关卡 / 互链
 
-- [[tool-wanghuan-ai-business-profile]]：5 字段工具中，"行业暗规则"是第 4 个字段，也是王欢标星的重点。
-- [[dk-wanghuan-magic-defeats-magic]]：暗规则可以转化为 AI 验收标准，用 AI 对抗 AI 持续完善。
-- [[dk-wanghuan-spec-trap]]：暗规则要定方向和红线的约束，而不是把每个执行细节都定死。
-- [[concept-wanghuan-flywheel-first-loop]]：暗规则是飞轮三要素之一（AI业务档案、Prompt模板库、行业暗规则）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -171,9 +171,9 @@ tags:
 > **回应**：暗规则的价值恰恰是帮你识别"什么时候不该用默认规则"。好的暗规则会自带边界和例外说明，它提供的是起点，不是终点。
 
 **不要用**：
-- 不要把暗规则用于需要高度创意发散、没有稳定上下文的探索阶段。
-- 不要把个人偏见包装成组织默认规则。
-- 不要写完后不更新——业务变了，暗规则会变成错误的拐杖。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

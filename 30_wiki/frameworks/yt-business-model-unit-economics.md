@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-canvas
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户说'我们用户增长很快'，但不知道CAC"
+  - src_unknown
     framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
     follow_up_question: "你的获客成本（CAC）是多少？用户生命周期价值（LTV）是多少？LTV > CAC吗？"
-  - signal: "用户LTV < CAC，还在烧钱增长"
+  - src_unknown
     framework_lens: 单元经济学——单元模型不成立，增长是烧钱
     follow_up_question: "LTV < CAC时，增长越快亏损越大。你计划什么时候单元模型成立？"
-  - signal: "用户说'我们先做规模，再优化单元模型'"
+  - src_unknown
     framework_lens: 单元经济学——规模不解决单元模型问题
     follow_up_question: "规模能让LTV > CAC吗？如果不能，规模越大亏损越大。"
-  - signal: "用户只看收入，不看LTV和CAC"
+  - src_unknown
     framework_lens: 单元经济学——收入≠健康，单元模型才是健康指标
     follow_up_question: "你的收入中，有多少是可持续的？获客成本是否被摊薄？"
-  - signal: "用户说'我们的单元模型很好'，但计算错误"
+  - src_unknown
     framework_lens: 单元经济学——单元模型计算需要完整
     follow_up_question: "你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？"
 
@@ -73,11 +73,11 @@ CAC（获客成本）
 | **LTV** | 用户生命周期价值 | ARPU × 毛利率 × 用户生命周期 |
 
 LTV计算示例：
-- ARPU = 100元/月
-- 毛利率 = 80%
-- 月流失率 = 5%
-- 用户生命周期 = 1 / 5% = 20个月
-- LTV = 100 × 80% × 20 = 1600元
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 2. CAC的计算
 
@@ -88,9 +88,9 @@ LTV计算示例：
 | **总CAC** | 总获客成本 | 总营销费用 / 总新增用户数 |
 
 CAC计算示例：
-- 月度营销费用 = 10万元
-- 新增用户 = 1000人
-- CAC = 10万 / 1000 = 1000元/人
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 3. 单元模型健康度
 
@@ -131,21 +131,21 @@ CAC计算示例：
 
 ## 行动触发器
 
-- 当评估商业模式时 → 先算单元模型
-- 当考虑增长时 → 检查LTV > CAC
-- 当融资时 → 展示单元模型健康度
-- 当优化产品时 → 同时优化LTV和CAC
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-canvas`：商业模式画布
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- SaaS单元经济学研究
-- 精益创业（Eric Ries）：单元模型验证
+- src_unknown
+- src_unknown
+- src_unknown

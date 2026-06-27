@@ -5,25 +5,25 @@
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
-  - management- yitang
+  - src_unknown
 estimated_tokens: 3300
 query_triggers:
-- 合伙股权分配
-- 创业合伙人股权
-- 股权退出机制
-- 动态股权调整
-- vesting cliff设计
-- 控制权设计
-- 创业合伙协议
-- 股权架构设计
-- 创始团队分股
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-tool-equity-checklist]]'
-  - '[[yt-management-basic-skills]]'
-  - '[[yt-management-scientific-hiring]]'
-  - '[[yt-management-scientific-meetings]]'
-  - '[[yt-model-management-map]]'
-  - '[[yt-tool-equity-checklist]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -40,12 +40,12 @@ yitang:
   level: foundational
   series: false
 pipeline:
-- confidence-verified-by-case
+- src_unknown
 diagnostic_signals:
-- signal: 合伙人平均分配股权
+- src_unknown
   framework_lens: 忽视贡献/风险/时间差异
   follow_up_question: 每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平
-- signal: 没有vesting/cliff机制
+- src_unknown
   framework_lens: 早期退出导致股权纠纷
   follow_up_question: 如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子
 updated_at: '2026-06-16'
@@ -91,9 +91,9 @@ confidence: 0.75
 
 ### 关键概念
 
-- 本课程属于一堂管理地图「管公司」模块，与同模块其他课程形成系统化的知识结构
-- 一堂管理课程强调科学方法在管理场景的应用——用假设驱动、数据决策替代经验管理
-- 课程配有选课口令，在一堂直播间发送即可选课学习
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 与一堂方法论的关系
 
@@ -160,13 +160,13 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 关联卡片
 
-- [[yt-management-company-culture]] — 公司文化：股权分配背后的本质是价值观分配——谁创造了价值、如何衡量贡献，这两个问题的答案定义了组织的真正价值观
-- [[yt-management-scientific-hiring]] — 科学招聘：合伙人选择是最高层级的招聘——招错一个合伙人的代价远超招错 10 个员工
-- [[yt-management-strategy-meeting]] — 战略会：股权结构决定了战略会的决策权力分布——股权比例在纸上是"分红权"，在战略讨论中是"否决权"
-- [[yt-management-founder-role]] — 一号位（创始人角色）：合伙股权设计是一号位不可委托的终极职责之一——股权架构的选择将影响公司 10 年以上的权力结构和文化基因
-- [[yt-management-finance-basics]] — 财务入门：理解股权对应的经济权利（分红权、清算优先权、稀释保护）需要基本财务素养
-- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：股权是组织武器库中最锋利也最危险的双刃剑——分好了是团队绑定器，分错了是核弹发射键。Coase 和 Williamson 的共同指向：最危险的武器使用方式不是"用得不好"，是"在不该用的场景中用了"
-- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：股权谈判的本质不是"算数字"而是"讲故事"——你说服一个人接受 20% 而非 30%，靠的不是公式，是让他相信"你这个 20% 的故事比在任何其他公司拿 50% 的故事更值得经历"。Coase 的元问题在讲香的语境中就是：你们共同相信的那个"我们一起才能讲好的故事"是什么——如果那个故事不存在，股权的分配只是两个独立作者的版权谈判
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 知识体系定位
 
@@ -187,6 +187,6 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 跨学科锚点
 
-- Coase 的企业理论（1937）和 Williamson 的交易成本经济学（1975/1985）共同构成制度经济学的核心框架——两位学者分别于 1991 和 2009 年获诺贝尔经济学奖。他们的核心问题"为什么会有企业"和"什么样的交易应该在企业内部完成"是理解合伙关系的经济学基础。
-- 股权分配中的 vesting/cliff 机制源自硅谷 VC 的标准条款——Y Combinator 的初创学校（Startup School）公开推荐 4 年 vesting + 1 年 cliff 作为创始团队的默认配置。
-- "贡献×风险×时间"框架与 Mike Moyer 的 Slicing Pie 方法论（动态股权分配模型）有相似之处——后者强调股权应根据实际贡献而非预期贡献动态调整。
+- src_unknown
+- src_unknown
+- src_unknown

@@ -6,23 +6,23 @@ title: 数据标注方案最终汇总 — 三方调研 + 独立判断
 type: decision
 status: draft
 domain:
-- master
+- src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
-- 用户（决策者）
-- 欧阳锋（Architect）
+- src_unknown
+- src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-  - '[[huangyaoshi-tagging-and-scope-proposal]]'
-  - '[[kdo-15-dimension-label-spec]]'
-  - '[[ouyangfeng-labeling-research-review]]'
-  - '[[labeling-research-alignment]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[data-labeling-best-practices-report]]'
-  - '[[kdo-15-dimension-label-spec]]'
-  - '[[labeling-research-alignment]]'
-  - '[[ouyangfeng-labeling-research-review]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）

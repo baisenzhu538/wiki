@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,37 +16,37 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[case-modeling-essence-levels]]'
-  - '[[yt-five-step-level-blindspots]]'
-  - '[[yt-note-five-levels-training]]'
-  - '[[framework-logic-cleanliness-five-levels]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[dk-modeling-ai-without-judgment]]'
-  - '[[dk-modeling-checklist-formatting-rules]]'
-  - '[[modeling-capability-system]]'
-  - '[[yt-unit-model-ladder]]'
-  - '[[case-truman-ai-skill-engineering-guide]]'
-  - '[[process-modeling]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#chunk-type/synthesis'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/logical-rigor'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 diagnostic_signals:
-- signal: 汇报/交付物里出现 10 条以上无序清单，无优先级、无结构、无推理关系
+- src_unknown
   framework_lens: 逻辑洁癖——看到 L1/L2 低水平逻辑必须生理不适
   follow_up_question: 能否把它压到 L3（分优先级）或 L4（MECE）？如果重要，能不能推到 L5（逻辑链）？
-- signal: 团队评审时只能评价"挺全的""挺好看的"，说不出模型内部的推理关系和先后依赖
+- src_unknown
   framework_lens: 模型停在 L2/L3，缺少 L4/L5 的完备性和逻辑链
   follow_up_question: 请团队指出哪些条目缺了、哪些条目之间有因果关系；如果说不出来，退回重构。
-- signal: AI 生成的模型看起来有结构，但一用就漏条件、漏异常分支
+- src_unknown
   framework_lens: AI 能生成 L2/L3，但 L4/L5 需要人的逻辑洁癖把关
   follow_up_question: 用"MECE 检查 + 反例攻击"各过一遍，找出 AI 遗漏的 3 个以上场景。
-- signal: 自己做的模型"看着还行"，交出去后总觉得"哪里不对"，改不动又放不下
+- src_unknown
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。
 ---# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
@@ -67,11 +67,11 @@ Truman 把“逻辑洁癖”定义为他能持续产出高质量模型的根因�
 
 ## 使用场景
 
-- 你或团队长期停在“列一大堆要点”的水平，做不出有推理关系的模型。
-- 你总觉得自己的方法论“看着还行”，但用起来丢三落四。
-- 你想判断一个人/团队是否具备高水平建模潜力。
-- 你在带新人，想传递一种可训练的逻辑审美。
-- 你用 AI 生成模型后，需要一道人工的质量闸门。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 诊断信号
 
@@ -112,9 +112,9 @@ Truman 把“逻辑洁癖”定义为他能持续产出高质量模型的根因�
 | **L5 逻辑链** | 不只有分类，还有推理关系和先后顺序 | 谁是因谁是果？谁先谁后？打乱顺序是否还成立？ | 战略框架、核心课程、关键决策模型 |
 
 **使用规则**：
-- 高频复用、影响重大决策的模型，至少 L4；核心资产要奔 L5。
-- 一次性、临时性的分析，L3 即可，不必硬拉 L5。
-- 从 L3 到 L4 是“合格线跨越”，通常能让模型可用性提升 2-3 倍；从 L4 到 L5 是“本质提炼”，决定模型能否指导复杂决策。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
@@ -144,11 +144,11 @@ Truman 把“逻辑洁癖”定义为他能持续产出高质量模型的根因�
 
 Truman 为了封装一堂内部高质量的 AI Skill，发现市面上（包括官方）的 Skill 创作指南都不够好，于是自己动手做了一份“高阶 Skill 工程指南”。整个过程只花了 3 小时，但中间经历了 **10-15 轮“喷”式迭代**——Truman 反复挑毛病：
 
-- 架构不完整 → 补全四层架构
-- 模块有遗漏 → 用 MECE 重新梳理
-- 逻辑不严谨 → 补上推理关系和边界条件
-- 没有逻辑链 → 把说明排成有优先级的十条 To Do 和十条 Not To Do
-- 优先级没排 → 明确 P0/P1/P2 资源库
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 最终产出的指南不仅自己能指导 AI 生成 Skill，还能作为审计标准去检查其他 Skill。后续用它封装多个单元模型 Skill 时，AI 能对照指南自查，发现触发条件没写完整、示例模板丢失等 P0 级问题。
 
@@ -158,16 +158,16 @@ Truman 为了封装一堂内部高质量的 AI Skill，发现市面上（包括�
 
 ## 为什么值钱
 
-- 公开课程只会说“要有逻辑”，不会告诉你“对低水平逻辑不爽”才是持续产出好模型的根因。
-- 这是 Truman 对自己手艺的底层自省，不是可从书本学到的概念。
-- 在 AI 时代尤其重要：AI 能生成看起来有结构的模型，但**判断模型是否达到 L4/L5、能否经得住反例攻击，需要人的逻辑洁癖**。
-- 它把“逻辑”从一种抽象能力，变成了一套可训练、可审计、可传承的组织标准。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-ai-without-judgment]] —— 逻辑洁癖是用 AI 建模时人不失业的底牌。
-- [[dk-modeling-checklist-formatting-rules]] —— 逻辑洁癖在清单体写作中的具体落地。
-- [[modeling-capability-system]] —— 一堂建模能力体系中对 L1-L6 段位的定义。
-- [[yt-unit-model-ladder]] —— 单元模型六段进阶，与逻辑洁癖的 L1-L5 段位感形成互补：一个讲“模型做到什么水平”，一个讲“人对低水平逻辑的 intolerance”。
-- [[case-truman-ai-skill-engineering-guide]] —— 逻辑洁癖驱动 10-15 轮迭代，产出高阶 AI Skill 工程指南的完整案例。
-- `src_20260614_8269ccdb#806-914` —— Truman 口述原文：逻辑洁癖与 L1-L5 段位。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

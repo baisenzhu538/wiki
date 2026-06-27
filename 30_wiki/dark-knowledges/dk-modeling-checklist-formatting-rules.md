@@ -7,8 +7,8 @@ type: dark-knowledge
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- yitang
-- ai-saas
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,37 +16,37 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - '[[case-truman-sales-report-structure]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
-  - '[[case-livestream-sop-modeling]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[dk-modeling-logical-cleanliness-root]]'
-  - '[[dk-modeling-sop-execution-locks]]'
-  - '[[process-modeling]]'
-  - '[[modeling-three-stages]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[case-truman-prd-checklist-evolution]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 tags:
-- '#content-format/sop'
-- '#domain/yitang'
-- '#method/modeling'
-- '#method/sop'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 diagnostic_signals:
-- signal: 你写的清单/SOP被同事说"太长、看不懂、找不到重点"
+- src_unknown
   framework_lens: 清单体格式四规则至少一条失效
   follow_up_question: 逐条审计：是否一行一点？超过7条是否分层？决策点是否分级？建模目标是否完备？
-- signal: 会议纪要或复盘文档写成"一大坨"，会后没人按结论执行
+- src_unknown
   framework_lens: 信息揉在一起，行动项与责任人未分行
   follow_up_question: 按"换行即分点+决策必分级"重写，把结论、行动项、负责人、截止时间分行列出
-- signal: AI生成的清单看起来结构完整，但用起来总漏东西
+- src_unknown
   framework_lens: AI容易生成"有形式无分级/无完备性"的伪清单
   follow_up_question: 人工检查是否有优先级分级、是否MECE、是否每个条目对应一个可执行动作
-- signal: 团队对同一清单的理解不一致，执行时变形
+- src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识
 ---# 清单体写不好，模型就建不好：换行、分层、优先级、完备
@@ -61,19 +61,19 @@ Truman 把清单体写作拆成四条硬规则：换行即分点、超过七八�
 
 更深层：这四条规则对应建模段位 L1→L5 的跃迁——
 
-- **换行即分点**：把 L1 散点变成 L2 可扫读清单；
-- **超过七八个就分层**：把 L2 平铺清单升级到 L3 结构化模型；
-- **遇到决策就分级**：在 L3 中注入优先级，让模型能指导取舍；
-- **建模要完备**：把 L3 推向 L4（MECE）甚至 L5（逻辑链）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 AI 时代这条规则反而更值钱：AI 能生成"看起来像清单"的输出，但**不会自动判断它是否满足这四条规则**。人必须做最后的格式审计和逻辑完备性判断。
 
 ## 使用场景
 
-- 你写的 SOP/清单被团队吐槽"太长、看不懂、找不到重点"。
-- 会议纪要、复盘文档写成"一大坨"或无序列表。
-- 你想把经验沉淀成可复用的 checklist。
-- 你在用 AI 生成清单，需要判断它是否够"有逻辑"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -101,11 +101,11 @@ AI 时代这条规则反而更值钱：AI 能生成"看起来像清单"的输出
 
 **✅ After（一行一点）**
 
-- 周会后 2 小时内输出会议纪要
-- 把会议结论拆成具体行动项
-- 每个行动项指定唯一负责人
-- 每个行动项设定截止时间
-- 周五前集中跟进一次进度
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对比 2：超过七八个就分层
 
@@ -127,75 +127,75 @@ AI 时代这条规则反而更值钱：AI 能生成"看起来像清单"的输出
 **✅ After（分层：内容准备 / 技术测试 / 运营预热 / 临场检查）**
 
 **一、内容准备**
-- 确认直播主题与主讲人
-- 准备开场 PPT
-- 准备案例 PPT
-- 准备结尾转化页
-- 准备互动问题
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **二、技术测试**
-- 测试推流
-- 测试麦克风
-- 测试灯光
+- src_unknown
+- src_unknown
+- src_unknown
 
 **三、运营预热**
-- 准备福利资料
-- 发布预告海报
+- src_unknown
+- src_unknown
 
 **四、临场检查**
-- 直播前 30 分钟再次检查
+- src_unknown
 
 ### 对比 3：遇到决策就分级
 
 **❌ Before（无优先级）**
 
 本周待办：
-- 修复登录页 bug
-- 优化详情页加载速度
-- 更新品牌宣传视频
-- 准备投资人数据包
-- 整理客服 FAQ
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **✅ After（P0/P1/P2 分级）**
 
 本周待办：
-- **P0** 修复登录页 bug（不做影响核心转化）
-- **P0** 准备投资人数据包（周三必须发出）
-- **P1** 优化详情页加载速度（影响体验但可下周）
-- **P1** 整理客服 FAQ（降低支持人力）
-- **P2** 更新品牌宣传视频（本月内完成即可）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 对比 4：建模要完备
 
 **❌ Before（清单有了，但缺边界和逻辑链）**
 
 客户分层：
-- 大客户
-- 中客户
-- 小客户
+- src_unknown
+- src_unknown
+- src_unknown
 
 **✅ After（MECE + 分级标准 + 对应动作）**
 
 客户分层（按年合同金额）：
-- **S 级**：≥100 万 / 年 → 配备专属 CS，季度战略会
-- **A 级**：30–100 万 / 年 → 配备高级 CS，月度复盘
-- **B 级**：5–30 万 / 年 → 标准服务流程，双月触达
-- **C 级**：<5 万 / 年 → 自助 + 社群运营
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 清单体四规则自检清单
 
 发布或分享一份清单/SOP 前，逐项检查：
 
-- [ ] **1. 换行即分点**：每一行是否只包含一个动作、一个判断或一个信息点？
-- [ ] **2. 超过 7 条必分层**：同级条目是否控制在 7±2 条？超过 7 条是否找到二级分类？
-- [ ] **3. 决策必分级**：凡是涉及取舍、资源分配、优先级的点，是否标注了 P0/P1/P2 或 S/A/B/C？
-- [ ] **4. 分级标准可见**：优先级定义是否写在清单内或附录中，避免不同人理解不同？
-- [ ] **5. 建模要完备**：如果用于后续建模，是否做到 MECE？如果用于工作流，是否体现逻辑链？
-- [ ] **6. 每点可执行**：每个条目是否对应一个具体动作，而不是抽象愿望？
-- [ ] **7. 边界明确**：清单的适用范围、不适用场景是否写明？
-- [ ] **8. 有样例或反例**：对易错格式是否给出正确/错误示例？
-- [ ] **9. 有 owner 和版本**：清单由谁维护？最新版本号是什么？
-- [ ] **10. 有迭代锁**：最近一次根据执行反馈更新清单是什么时候？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
@@ -221,16 +221,16 @@ AI 时代这条规则反而更值钱：AI 能生成"看起来像清单"的输出
 
 ## 为什么值钱
 
-- 市面上讲清单的书很多，但极少把"换行、分层、优先级、完备"四条硬规则同时讲清楚。
-- 这是从一堂几千条模型沉淀中形成的微观格式纪律，是内部工作标准。
-- AI 能生成清单，但无法自动判断它是否满足这四条规则——仍需人的审美和逻辑洁癖。
-- 在组织层面，它是"个人能力"变成"组织能力"的最小接口：一份格式合格的清单，才能让督导、品控、AI 调用都可靠。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-modeling-logical-cleanliness-root]] —— 清单体规则是逻辑洁癖的具体落地。
-- [[dk-modeling-sop-execution-locks]] —— 清单写好后如何保证执行。
-- [[process-modeling]] —— 流程建模工具卡。
-- [[yt-note-checklist-concept]] —— 一堂笔记法中"分点、分层、独立"的清单体原理。
-- [[case-truman-prd-checklist-evolution]] —— Truman 的 PRD 清单从 V0 到 V5 演进，是四规则在真实错误中迭代落地的案例。
-- `src_20260614_8269ccdb#924-952` —— Truman 口述原文：清单体四条规则。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown

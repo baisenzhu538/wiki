@@ -4,28 +4,28 @@ title: 技能：复盘推演法
 type: tool
 status: enriched
 domain:
-- learning-methodology
+- src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-三层目标对齐法]]'
-- '[[tool-立即实践转化法]]'
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- '[[tool-从案例中学习正反案例法]]'
-- '[[tool-三层目标对齐法]]'
-- '[[tool-立即实践转化法]]'
-- '[[tool-分享输出检验法]]'
-- '[[tool-费曼简单提炼法]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+- src_unknown
+- src_unknown
+- src_unknown
 tools_required:
-- 复盘模板
-- 推演沙盘/场景
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
 author: 老顽童
@@ -33,19 +33,19 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- signal: 复盘只是描述做了什么，没有追问为什么做对了做错了
+- src_unknown
   lens: 复而不盘
   follow_up: 复盘的价值在盘不在复，必须找到'因为X所以Y'的可复制因果逻辑
-- signal: 失败归结为不够努力，成功归结为运气好
+- src_unknown
   lens: 归因太浅
   follow_up: 没有找到可复制的因果链，停留在情绪层面而非认知层面
-- signal: 复盘了但不推演，知道哪里错了但下一步计划模糊
+- src_unknown
   lens: 只复不推
   follow_up: 推演的价值在'下周具体做什么'，必须产出具体行动清单
-- signal: 上次复盘后的行动，这次没有检查效果
+- src_unknown
   lens: 无验证闭环
   follow_up: 没有检查的复盘等于没做，复盘必须形成'复盘→行动→验证→再复盘'的循环
-- signal: 只复盘失败不复盘成功，对成功一笔带过
+- src_unknown
   lens: 成功忽视
   follow_up: 成功的因果链同样需要萃取，成功中的可复制因素往往比失败教训更有价值
 ---
@@ -88,8 +88,8 @@ diagnostic_signals:
 | **复盘频率不当** | 复盘太频繁导致行动时间被压缩，或太稀疏导致经验丢失 | 项目复盘在项目结束后48小时内进行，日常复盘每周一次，不超过30分钟 |
 
 ## 工具/环境
-- 复盘模板
-- 推演沙盘/场景
+- src_unknown
+- src_unknown
 
 ## 判断标准
 
@@ -108,15 +108,15 @@ diagnostic_signals:
 3. 上次复盘后的行动，这次检查了吗？——没有检查的复盘等于没做。
 
 ## 常见失败模式
-- 复而不盘：只是描述"做了什么"，没有追问"为什么做对了/做错了"——复盘的价值在盘不在复
-- 归因太浅：失败归结为"不够努力"，成功归结为"运气好"——没有找到可复制的因果链
-- 只复盘失败不复盘成功：对失败复盘很积极，对成功一笔带过——成功的因果链同样需要萃取
-- 复盘了但不推演：知道哪里错了但下一步计划没有具体到行动——推演的价值在"下周具体做什么"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联技能
 
-- [[tool-从案例中学习正反案例法]] — 自己的复盘+别人的案例=完整学习闭环
-- [[tool-三层目标对齐法]] — 复盘时对照三层目标检查进度，推演时调整下阶段目标
-- [[tool-立即实践转化法]] — 复盘推演的结论，用立即实践来验证
+- src_unknown
+- src_unknown
+- src_unknown
 
 > 出处：一堂·科学学习IPO全景策略图 V2.0 — 输出(Output)层 L3.复盘推演：复盘过去的成败得失，推演下一步具体工作，角色扮演带入角色解决高难问题

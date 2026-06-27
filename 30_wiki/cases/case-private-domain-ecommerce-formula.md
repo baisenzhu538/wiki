@@ -4,9 +4,9 @@ title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升�
 type: case
 status: enriched
 domain:
-  - yitang
-  - e-commerce
-  - business-strategy
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
 source_refs:
@@ -21,10 +21,10 @@ review_date: "2026-06-20"
 confidence: 0.85
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-ten-paradigms
-  - yt-business-formula-parameter-iceberg
-  - yt-entrepreneur-unit-model
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径"
@@ -109,16 +109,16 @@ GMV = 活跃用户贡献 + 普通用户贡献 + 沉默用户贡献
 1. **系统性构建信任要素**：补齐真实用户证言、专业资质、售后承诺、社群氛围、KOC 推荐，并为每个要素设置内容、触点和数据埋点。
 2. **设计清晰的升级路径**：沉默用户用低门槛体验品破零；普通用户用消耗周期提醒和专属优惠券触发复购。
 3. **围绕两个核心矛盾埋数据节点**：
-   - 信任度：曝光率、停留时长、详情页完成率、互动率。
-   - 升级路径：首单转化率、10 天复购率、1 月复购率、普通→活跃升级率、好友推荐率。
+   - src_unknown
+   - src_unknown
 
 ---
 
 ## 教训
 
-- **“拉人+发广告”做的是加法**：人越多越累，边际效果递减。
-- **“信任要素+用户升级路径+数据节点”做的是乘法**：单客价值不断提升。
-- 私域电商的 GMV 公式必须先切分用户类型，再拆转化链路；混在一起会掩盖真正的短板。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -154,14 +154,14 @@ GMV = 活跃用户贡献 + 普通用户贡献 + 沉默用户贡献
 
 ## 关联框架
 
-- [[yt-business-formula-abc-model]]：先切分（+）再拆转化（×）的典范
-- [[yt-business-formula-ten-paradigms]]：连续动作型 #9、类脱离成本型 #5、留存节点型 #10 的组合应用
-- [[yt-business-formula-parameter-iceberg]]：从 L1 粗 GMV 拆到 L4 信任度/复购触发
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 置信度说明
 
-- **高置信度**：案例背景、核心矛盾判断、公式升级结构（直接来自培训逐字稿）
-- **中置信度**：五类信任要素的具体内容、用户分层比例（来自讲师解读）
-- **待复核**：具体品类的人均贡献基准需结合实际业务确认
+- src_unknown
+- src_unknown
+- src_unknown

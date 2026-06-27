@@ -6,59 +6,59 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- personal-growth
-- knowledge-management
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂《知识萃取探索营》，2026
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
 related:
-  - '[[dk-modeling-model-arsenal-paradigms]]'
-  - '[[case-modeling-essence-schools]]'
-  - '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
-  - '[[tool-一堂-product-kernel-canvas]]'
-  - '[[dk-truman-document-is-real-project-is-fake]]'
-  - '[[yt-personal-pan-product-tools]]'
-  - '[[yt-note-checklist-concept]]'
-  - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-  - '[[dk-ji-hao-constraint-beats-talent]]'
-  - '[[ai-learning-closed-loop]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 wiki_refs:
-- '[[yt-personal-pan-product-tools]]'
-- '[[yt-note-checklist-concept]]'
-- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-- '[[dk-ji-hao-constraint-beats-talent]]'
-- '[[ai-learning-closed-loop]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-- '#domain/yitang'
-- '#domain/personal-growth'
-- '#domain/knowledge-management'
-- '#chunk-type/insight'
-- '#source_type/lecture'
-- '#method/knowledge-extraction'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-- 知识萃取三流派
-- 一堂做课方法
-- 为什么知识付费没用
-- 组织知识管理
-- 课程设计流派
-- 知识IP陷阱
-- 经验萃取方法
-- 一头大中间空
-- 学科建模派
-- 单元模型
-- B+C
-- 知识萃取流派
-- 萃取能力
-- 方法论底座
-- 知识产品定位
-- 一堂研究方法
-- 可迁移知识
-- 隐性知识萃取
-- 知识体系构建
-- 从案例到模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 estimated_tokens: 4200
@@ -68,10 +68,10 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: 团队复盘只产出SOP或口号，缺少"一图/段位图/基本功清单"等中间模型
+- src_unknown
   framework_lens: 知识萃取"两头大中间空"——中间层建模缺失
   follow_up_question: 如果新成员入职，除了SOP和价值观，他能否拿到一张图或一个段位标准来判断自己处于什么水平？
-- signal: 选购课程时优先被"案例香""反常识"吸引，学完无法迁移
+- src_unknown
   framework_lens: A流派（知识付费派）商品属性凌驾于可迁移性
   follow_up_question: 这个结论是出自单人单案例，还是从大量案例中抽象出的共性解法？换到我的场景中是否还成立？
 ---
@@ -91,13 +91,13 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 判断一门知识付费课程/一本书/一个IP属于"听着爽"还是"能复用"
-- 设计组织内部知识管理体系，避免复盘完只剩SOP或口号
-- 评估自己的知识萃取能力目前处于A、B还是C流派
-- 决定做知识IP时，到底走"故事型课程"还是"方法论型课程"
-- 为一堂课/一门内部培训定位：是分享启发、沉淀资产，还是打造行业标准
-- 发现团队"学了很多课，但业务没变化"时，诊断知识转化链路
-- 把个人经验封装成产品时，判断该做课程、手册还是行业模型
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
@@ -111,9 +111,9 @@ diagnostic_signals:
 
 ### 2. 检查"两头大中间空"陷阱
 
-- **具体层**：有没有SOP、清单、操作步骤？
-- **抽象层**：有没有价值观、宏大概念、无法证伪的口号？
-- **中间建模层**：有没有**一图**（可视化模型）、**基本功清单**（能力维度）、**段位图**（成长阶梯）？
+- src_unknown
+- src_unknown
+- src_unknown
 
 如果只有上下两层、中间空白，说明萃取还没有形成可迁移的结构。
 
@@ -123,26 +123,26 @@ diagnostic_signals:
 输入 → 处理 → 输出 → 反馈
 ```
 
-- **输入**：信息源是什么？是个人经验、组织案例，还是跨行业大量样本？
-- **处理**：用什么范式？清单、雷达图、二维象限、N步法、段位图？
-- **输出**：成果形式是什么？文档、课程、模板、工具包？
-- **反馈**：如何验证有效？用户付费、执行结果、专家共识、反例测试？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 4. 根据目标选择流派组合
 
-- 要做**知识IP、引流课** → 以A为主，但要补B的可复用性
-- 要**沉淀组织能力** → 以B为主，逐步向C抽象
-- 要**打造行业标准方法论** → 以C为主，需要大量案例+专家共识+反例测试
-- 要**像一堂一样做课** → B+C：既有组织内部的务实有效，又有跨案例的学科建模
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 适用边界
 
-- ✅ **适合**：知识产品设计、组织知识管理、课程质量评估、个人能力升级、企业内训体系搭建
-- ✅ **适合**：需要区分"听着爽"和"能用上"的场景
-- ❌ **不适合**：纯粹依赖个人隐性经验的领域（如艺术感觉、审美直觉、情绪关系），这些知识难以被结构化萃取
-- ❌ **不适合**：把三流派当作非黑即白的标签——某些优质课程可能同时具备A+B+C的特征
-- ⚠️ **注意**："一堂做B+C、国内99%是A"是Truman基于十年教育/研究经验的主观判断，并非统计验证结论
-- ⚠️ **注意**：A流派在商业上非常成功，不能简单否定；选择流派要看目标，而不是道德优越感
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -157,20 +157,20 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- **避开"听个响"陷阱**：市场上大量课程案例精彩、反常识密集，但无法迁移。这张卡给了一个清晰的判断坐标，让你不被"商品属性"迷惑。
-- **识别组织最大盲区**：很多团队复盘十年，只剩零散SOP和空洞口号。指出"中间层建模缺失"后，知识管理才有了可下手的抓手。
-- **解释一堂的方法论底座**：一堂课程质量高，不是 because 讲师更会讲故事，而是 because 它走的是B+C——既有组织级的务实，又有学科级的抽象。
-- **为知识IP定位**：想做课程的人可以先回答：我要服务"消费者"（A）、"实践者"（B）还是"行业标准建设者"（C）？
-- **提供反共识视角**：不是"萃取就是把经验变成模型"，而是"萃取要先选对流派、建好中间层、跑通单元模型"。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[yt-personal-pan-product-tools]] —— 泛产品设计的30张牌就是C流派的产物：从大量产品设计场景中抽象出来的共性工具。本暗知识解释了这套工具背后的方法论底座。
+- src_unknown
 
-- [[yt-note-checklist-concept]] —— 清单体笔记是B流派（经验萃取派）的具体形式：它不追求启发性和反常识，而是追求可复制、可执行、可反馈。
+- src_unknown
 
-- [[dk-truman-iteration-to-aesthetic-ceiling]] —— 迭代到审美上限是C流派对知识产品质量的要求：不仅要"正确"，还要"教科书级的精细"。
+- src_unknown
 
-- [[dk-ji-hao-constraint-beats-talent]] —— 约束设计是知识萃取的核心方法：Truman在三流派分析中实际上是在为知识萃取设置严格的范式约束（什么算A、什么算B、什么算C），这种约束本身就是一种萃取能力。
+- src_unknown
 
-- [[ai-learning-closed-loop]] —— 学习闭环是知识萃取的实操框架：输入→处理→输出→反馈的单元模型。本暗知识展示了当这个模型被正确应用时的威力，以及被错误应用时的陷阱。
+- src_unknown

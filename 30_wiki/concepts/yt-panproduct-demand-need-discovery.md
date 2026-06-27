@@ -4,33 +4,33 @@
 
 id: yt-panproduct-demand-need-discovery
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1167
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：需求挖掘
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求挖掘
-- 需求洞察
+- src_unknown
+- src_unknown·用户卡片：需求挖掘
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-user-segmentation]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[tool-泛产品落地-设计原则]]'
-  - '[[tool-泛产品落地-业务建模]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-demand-scenario-walkthrough]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘
@@ -44,15 +44,15 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
+- src_unknown
 diagnostic_signals:
-- signal: 每个用户需求背后都至少追问一次'为什么'，并记录到第三层动机
+- src_unknown
   framework_lens: 5 Whys / 任务层级理论
   follow_up_question: 用户说的需求如果完全满足，是否能解决他真正想完成的任务？
-- signal: 需求描述中包含具体的用户、场景和期望结果，而不是抽象名词
+- src_unknown
   framework_lens: 需求必须可验证
   follow_up_question: 这个需求能否用一句'谁在什么情况下想达成什么'讲清楚？
-- signal: 挖掘出的需求会通过观察或实验验证，而不是只依赖用户口述
+- src_unknown
   framework_lens: ' stated need ≠ actual need'
   follow_up_question: 用户嘴上说的和实际行为之间有没有不一致？
 updated_at: '2026-06-16'
@@ -81,20 +81,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **直接把用户提出的功能请求当需求，立刻进入方案设计**
-   - **原因**：混淆解决方案与需求
-   - **修复**：对每个功能请求追问：‘用户想通过这个功能完成什么任务？’
+   - src_unknown
+   - src_unknown
 
 2. **用马斯洛需求理论套所有需求，解释过于宏大**
-   - **原因**：理论滥用，失去操作性
-   - **修复**：把马斯洛层级转化为具体行为指标：‘这个需求对应用户愿意付出什么行动？’
+   - src_unknown
+   - src_unknown
 
 3. **只挖掘了一个用户群体的需求，忽略了其他关键群体**
-   - **原因**：样本单一
-   - **修复**：明确至少3类用户画像，并对比他们的需求冲突
+   - src_unknown
+   - src_unknown
 
 4. **需求挖掘做得很深，但没有收敛到可设计的问题陈述**
-   - **原因**：缺乏问题框架
-   - **修复**：用‘[用户] 在 [场景] 下想要 [结果]，但受限于 [障碍]’格式输出最终需求陈述
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -114,8 +114,8 @@ reviewed_by: 欧阳锋
 
 ### 追问工具
 
-- **追问为什么**：连续5个Why，从现象到根因
-- **马斯洛需求理论**：判断需求在哪个层级（生理/安全/归属/尊重/自我实现）
+- src_unknown
+- src_unknown
 
 > 适合场景：所有复杂的产品设计
 > 进步方式：追问为什么 & 马斯洛需求理论
@@ -127,9 +127,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Clayton Christensen的"Jobs to Be Done" + Douglas Van Praet的"无意识需求"
 

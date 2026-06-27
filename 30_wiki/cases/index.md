@@ -4,7 +4,7 @@ title: index
 type: index
 status: draft
 domain:
-- master
+- src_unknown
 author: system
 reviewed_by: pending
 confidence: 0.5
@@ -51,11 +51,11 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 
 每张 case 卡必须包含：
 
-- **场景**：一个具体的、真实发生的情境
-- **四要素验证**：Before-After / 真实锚点 / 受益人 / 可解性
-- **核心设计洞察**：这个案例最值钱的一个判断是什么
-- **可迁移场景**：这个案例的经验可以迁移到哪些场景
-- **反例**：什么时候**不应该**学这个案例
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

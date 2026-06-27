@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- portfolio
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_vlm_desc.md
@@ -17,11 +17,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - '[[tool-strategy-three-horizons]]'
-  - '[[yt-pitch-emotionalization]]'
-  - '[[framework-strategy-ansoff]]'
-  - '[[framework-strategy-business-design]]'
-  - '[[tool-strategy-lifecycle]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 三个地平线：短中长期业务组合管理

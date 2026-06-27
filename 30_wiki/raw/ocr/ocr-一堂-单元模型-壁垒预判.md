@@ -3,11 +3,11 @@
 title: "OCR: 一堂-单元模型-壁垒预判"
 type: concept
 domain:
-  - needs-review
-  - business-strategy
-  - yitang
-  - entrepreneurship
-  - kdo
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: draft
 source_refs:
   - src_20260609_1fa94850
@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - '[[ocr-一堂-单元模型-最简单元模型]]'
-  - '[[ocr-一堂-单元模型-abcd策略模型]]'
-  - '[[ocr-一堂-单元模型-单sku模型]]'
-  - '[[ocr-一堂-单元模型-外部对抗地图]]'
-  - '[[ocr-一堂-单元模型-象限分析法]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 
@@ -36,22 +36,22 @@ related:
 
 原图: `一堂-单元模型-壁垒预判.
 
-*` 一堂壁垒预判分析结果 壁垒 要素 强弱分析 品牌 学创业来一堂 强 专利 无 × 无形资产 法定许可 无 × Know-how 教研方法 弱（暂时） 转化成本 方法论+作业 弱 技术壁垒 无 × 网络效应 无 × 规模效应 课程研发、直播课运营 弱 成本优势 无 × - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+*` 一堂壁垒预判分析结果 壁垒 要素 强弱分析 品牌 学创业来一堂 强 专利 无 × 无形资产 法定许可 无 × Know-how 教研方法 弱（暂时） 转化成本 方法论+作业 弱 技术壁垒 无 × 网络效应 无 × 规模效应 课程研发、直播课运营 弱 成本优势 无 × - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - src_unknown
 
 ## Source Refs
 
-- 10_raw/sources/src_20260609_1fa94850-ocr-一堂-单元模型-壁垒预判.md`
+- src_unknown
 
 ## Reusable Knowledge
 
-- 需要人工校对
-- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+- src_unknown
+- src_unknown
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+- src_unknown
+- src_unknown
+- src_unknown

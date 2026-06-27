@@ -4,9 +4,9 @@ title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主
 type: concept
 status: enriched
 domain:
-  - personal-growth
-  - learning-methodology
-  - master
+  - src_unknown
+  - src_unknown
+  - src_unknown
 source_person: 王语嫣
 source_context: 听脑个人成长主题摘要综合（6 条录音 meetingSummary）
 source_refs:
@@ -17,22 +17,22 @@ source_refs:
   - 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
   - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags:
-  - '#domain/master'
-  - '#method/learning-method'
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 related:
-  - master-systems-thinking
-  - master-cognitive-bias-checklist
-  - master-decision-hygiene
-  - master-antifragile-checklist
-  - master-first-principles
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - ai-collaboration-mindset-shift
+  - src_unknown-systems-thinking
+  - src_unknown-cognitive-bias-checklist
+  - src_unknown-decision-hygiene
+  - src_unknown-antifragile-checklist
+  - src_unknown-first-principles
+  - src_unknown
+  - src_unknown
+  - src_unknown
 confidence: 0.65
 trust_level: medium
 ---
@@ -83,29 +83,29 @@ trust_level: medium
 > 基于录音原文/摘要与外部公开信息（凯文·凯利《必然》、达利欧《原则》、塔勒布《黑天鹅》、复杂系统与行为经济学研究、一人公司政策与案例）交叉核对。详细报告见 `60_feedback/itingnao/six-layer-validation-personal-growth.md`。
 
 ### L1 可证伪性：中等
-- 凯文·凯利 12 趋势、达利欧原则、复杂系统概念可证伪性高。
-- “年入百万美元可通过每日 2777 美元实现”“消除模糊可提升能量”等行动承诺可证伪性中等或偏低。
+- src_unknown
+- src_unknown
 
 ### L2 行为一致性：中等
-- 分享者资历与部分内容匹配，但“超级个体-百万美元架构师”更像短视频文案，未见分享者本人实现百万美元的证据。
-- 多条录音带有课程/社群/个人 IP 推广色彩。
+- src_unknown
+- src_unknown
 
 ### L3 多源验证：中等偏高
-- 《必然》12 趋势、《原则》核心概念、塔勒布“叙事谬误”、复杂系统理论均获多源支持。
-- 一人公司/OPC 趋势获 36氪、21经济网、地方政府政策文件交叉证实。
-- 具体收益公式、消除模糊效果缺少独立实证。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### L4 情绪标记：中等
-- 乐观与激励情绪明显，尤其超级个体主题存在“造富叙事”倾向。
-- 对 AI 替代、组织变革的讨论带有焦虑色彩。
+- src_unknown
+- src_unknown
 
 ### L5 时间稳定性：中等
-- 复杂系统思维、可信度加权、刻意练习等底层认知工具跨周期稳定。
-- 一人公司模式、AI 工具栈、平台算法时效性较强。
+- src_unknown
+- src_unknown
 
 ### L6 利益相关度：中等
-- 一堂、直观AI、内容平台、个人 IP 打造者普遍存在课程销售、社群引流、品牌背书动机。
-- 未发现强烈财务欺诈证据，但需对收益承诺打折。
+- src_unknown
+- src_unknown
 
 ### 综合可信度评级
 
@@ -142,29 +142,29 @@ trust_level: medium
 
 ### 事实层（高置信，可直接引用）
 
-- 5 条录音的存在、ID、时长、原文段数来自 meetingSummary 文件本身。
-- 凯文·凯利《必然》及其 12 种趋势、Taleb/复杂系统/蝴蝶效应/沙堆实验等概念在 7756785 中被提及。
-- “品牌-内容-变现”三支柱、$2777/日、2.5% 转化率、720 精准访客等数字来自 6086372。
-- “消除模糊”三类模糊及其解法来自 2678368。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 条件层（需确认适用范围）
 
-- 6086372 中的商业模型假设（18×$150 或 111×$25 订阅）以“真实转化率 2.5%”为前提，该转化率在原文 line 37 仅作为演讲者断言出现，**未说明来源与计算依据，无原文支持**，已降级为条件性假设。
-- “系统预热期 2-5 年”是 6086372 的断言，**待原文复核**是否为演讲者本人观点还是行业经验值。
-- 4265699 中“国家数据局 2025 年推出 63 个可信数据空间试点”**待原文复核**。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 观察层（基于摘要的归纳，可能带解释）
 
-- 5 条录音共同指向“在不确定性中建立清晰自我定位”这一主题，属于跨录音归纳，非任一录音原文标题。
-- “叙事比逻辑更能驱动行为”在 7756785 中论证最充分，但在 6086372（品牌故事）与 1236213（中国故事传播）中也有回响。
-- “AI 增强而非替代人类”在 4265699 与 6086372 中均有体现，但表述角度不同。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 风险层（需警惕的偏差与夸大）
 
-- **宏大叙事风险**：6086372 中“百万美元一人公司”带有明显营销色彩，数字公式可能被简化为确定性路径；经全文复核，原文未包含针对该商业模型的风险提示或免责声明，**该条推断无原文支持，已删除**。
-- **医疗案例泛化风险**：4265699 提到“医疗 AI 辅助诊断准确率达 98%-99%”（line 253-254），原文为分享者举例，未标注具体研究来源；WebSearch 可找到同类报道，但不能确认为同一研究，**适用条件（特定病种、特定数据集、辅助诊断而非替代医生）需专业复核**。
-- **交叉验证不足**：除“不确定性与冗余”相关洞察外，多数跨录音联系来自摘要归纳，未经过原文逐句核对。
-- **主题标签偏差**：主题被命名为 `personal-growth`，但 7756785 更偏向“复杂系统/历史哲学”，4265699 更偏向“科技趋势”，主题聚合可能受听脑聚类算法影响。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -172,9 +172,9 @@ trust_level: medium
 
 经扫描 5 条录音摘要，**未发现属于药柜主题或医疗业务核心内容的信息**。仅有一处医疗相关引用需要注意：
 
-- **4265699 中医疗 AI 引用**：作为“AI 增强人类而非替代人类”的例证，提到“医疗 AI 辅助诊断准确率达 98%-99%”。
-  - **性质**：科技趋势分享中的举例，非药柜/售药/处方流转内容。
-  - **处理建议**：保留在本卡中作为 AI 增强人类的案例，但标注为“待原文复核来源”；**不建议移入药柜处理队列**。
+- src_unknown
+  - src_unknown
+  - src_unknown
 
 > 结论：本主题录音清单中无需要单独隔离的药柜/医疗业务内容。
 
@@ -183,25 +183,25 @@ trust_level: medium
 ## 七、建议后续行动
 
 1. **拉原文复核（高优先级）**
-   - 复核 6086372 的“2.5% 转化率”（原文未说明来源）、“2-5 年系统预热期”等数字是否来自演讲者本人或行业基准；其中“是否包含风险提示”已确认无原文支持，不再作为复核目标。
-   - 复核 4265699 中“医疗 AI 98%-99% 准确率”及“63 个可信数据空间试点”的具体出处。
-   - 复核 7756785 中“小行星撞击位置”“京都未被投原子弹”等历史案例的准确性。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **补充证据（中优先级）**
-   - 为“叙事比逻辑更能驱动行为”补充跨学科证据（如 Kahneman、Taleb、Heath《粘住》等）。
-   - 为“消除模糊”补充心理学来源（如自我一致性理论、决策疲劳研究）。
+   - src_unknown
+   - src_unknown
 
 3. **结构决策（中优先级）**
-   - 决定本卡最终归属：拆分为多张子卡（复杂系统认知卡、AI 个体商业卡、消除模糊行动卡、终身学习卡），还是保留为一张上位综合卡。
-   - 若拆分，需明确每张子卡与现有 30_wiki 卡片的差异边界。
+   - src_unknown
+   - src_unknown
 
 4. **人工 review（高优先级）**
-   - 由熟悉认知科学/复杂系统的同事复核 7756785 相关提炼。
-   - 由有创业/个体商业经验的同事复核 6086372 相关提炼。
-   - 由教育/商学院背景的同事复核 1236213 与 4265699 相关提炼。
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 5. **暂不移除（低优先级）**
-   - 医疗 AI 引用保留，待复核；无需单独出药柜队列卡片。
+   - src_unknown
 
 ---
 
@@ -213,12 +213,12 @@ trust_level: medium
 
 ## 验证与参考
 
-- 主题摘要：90_control/itingnao-kit/work/theme-personal-growth-summary.md
-- 原始引用（未纳入 source_refs）：`src_7756785_theme-personal-growth-summary`
-- 原始引用（未纳入 source_refs）：`src_6086372_theme-personal-growth-summary`
-- 原始引用（未纳入 source_refs）：`src_4265699_theme-personal-growth-summary`
-- 原始引用（未纳入 source_refs）：`src_2678368_theme-personal-growth-summary`
-- 原始引用（未纳入 source_refs）：`src_1236213_theme-personal-growth-summary`
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -255,10 +255,10 @@ trust_level: medium
 
 ### 置信度更新说明
 
-- 原 frontmatter confidence: 0.75，本次回填后统一调整为 **0.65**，并添加 `trust_level: medium`。
-- 已核对的关键数字（如 $2777/日、2.5%、720、98%-99%、63 个试点）均来自项目方/分享者自述，未经过独立审计或第三方验证。
-- 历史案例、医疗 AI 准确率、政策试点数量等断言仍需与外部权威来源交叉验证。
-- 综合评级维持 🟡 中可信度（0.50-0.75）。
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 第二轮深挖结果（2026-06-14）
 
@@ -285,14 +285,14 @@ trust_level: medium
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- 6086372 ‘百万美元商业模型包含风险提示’——原文未找到针对该模型的风险提示或免责声明。
+- src_unknown
 
 ### 已标注限制条件的条件性结论
-- 6086372 中 2.5% 转化率——原文为演讲者断言，未说明来源与计算依据，仅作为条件性假设保留。
-- 4265699 医疗 AI 98%-99% 准确率——原文为分享者举例，未标注研究来源，适用条件需专业复核。
+- src_unknown
+- src_unknown
 
-- 清理时间：2026-06-14
-- 置信度与信任等级：维持原设置，不因清理而提升。
+- src_unknown
+- src_unknown
 
 ---
 

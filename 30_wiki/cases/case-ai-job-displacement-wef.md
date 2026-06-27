@@ -10,30 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - '[[case-deepfake-market-misuse]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
-  - '[[case-dutch-childcare-scandal]]'
-  - '[[case-ai-companion-emotional]]'
-  - '[[case-chen-qiufan-ai-writing]]'
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[dk-ai-prediction-expiry-date]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # WEF 对 AI 就业影响的预测
@@ -233,12 +233,12 @@ WEF 就业预测的核心结构——“技术替代可编码任务 + 新增岗�
 ## 行动 Checklist
 
 - src_unknown
-- [ ] 对高风险岗位，制定 6–12 个月的再培训路径，而不是等裁员后再补救。
-- [ ] 把“岗位替代”拆分为“任务替代”：哪些任务可以被 AI 接管，哪些任务因此变得更有价值？
-- [ ] 在团队内部建立“人机分工表”，但标注王欢提醒：很多工作是左右交缠的，不能非此即彼。
-- [ ] 评估你的职业安全区：你的工作里，“左列成分”（AI 擅长）与“右列成分”（人擅长）的浓度配比是多少？
 - src_unknown
-- [ ] 如果你是政策或产品决策者，思考“社会投资津贴”思路：能否把部分资源从“救济失业者”转向“投资有意义的工作”？
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -249,7 +249,7 @@ WEF 就业预测的核心结构——“技术替代可编码任务 + 新增岗�
 - src_unknown
 - src_unknown
 - src_unknown
-- 王欢.《AI 2041：预见未来二十年》拆书会逐字稿（第八幕“职业救星”及相关工具讨论）.
+- src_unknown
 
 ---
 

@@ -13,17 +13,17 @@ trust_level: high
 language: zh-CN
 domain: [yitang, research]
 source_refs:
-- web: Competitive Intelligence Alliance CI Operating Model
-- web: BestBootcamps CI Framework Guide 2026
+- src_unknown
+- src_unknown
 related:
-  - '[[tool-ci-implement-phase]]'
-  - '[[tool-key-assumptions-check]]'
-  - '[[dk-c9-batch-trigger-garbage]]'
-  - '[[tool-devils-advocacy]]'
-  - '[[framework-structured-analytic-techniques]]'
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-ci-define-phase]]"
-  - "[[tool-ci-implement-phase]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # CI运营模型：从信息收集到决策改变的闭环
@@ -97,8 +97,8 @@ ci_cycle = {
 
 ## 适用边界
 
-- **适用**：竞对情报需要持续运营的B2B/SaaS公司、有专门CI人员或Agent的团队
-- **不适用**：一次性调研任务（不需要运营模型）
+- src_unknown
+- src_unknown
 
 ---
 

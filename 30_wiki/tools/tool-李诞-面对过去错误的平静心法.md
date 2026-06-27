@@ -3,8 +3,8 @@ id: tool-李诞-面对过去错误的平静心法
 title: 技能：面对过去错误的平静心法
 type: tool
 domain:
-- content-production
-- decision-making
+- src_unknown
+- src_unknown
 status: draft
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-月白-口喷作图工作流]]'
-- '[[tool-李诞-内容创作中的观察训练法]]'
-- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
 # 技能：面对过去错误的平静心法
 
@@ -38,25 +38,25 @@ related:
 
 ## 适用场景
 
-- 深夜回想过去决策，感到后悔时
-- 看到他人'早知如此'的感叹时
-- 认为'如果当时有人告诉我'时
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 不适用场景
 
-- 当前正在做重大决策，需要积极听取建议时
-- 处于需要复盘改进、而非和解过去的阶段时
+- src_unknown
+- src_unknown
 
 ## 工具/环境
 
-- 日记/自我对话
-- 认知行为疗法（CBT）框架
-- 理解'习得性愚蠢'概念
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
-- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
-- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+- src_unknown
+- src_unknown
 
 ## 为什么有效
 
@@ -64,12 +64,12 @@ related:
 
 ## 关联技能
 
-- 待补充
+- src_unknown
 
 ## 来源
 
-- 李诞，创作分享
+- src_unknown
 
 ## Feedback Path
 
-- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
+- src_unknown

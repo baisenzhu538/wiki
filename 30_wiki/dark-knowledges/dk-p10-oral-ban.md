@@ -6,36 +6,36 @@ type: dark-knowledge
 dark_knowledge_type: failure
 status: enriched
 domain:
-- master
+- src_unknown
 source_person: 欧阳锋
 source_context: pitfalls.md P-10，老顽童 Batch 2+3 审查，2026-06-03
 source_refs:
-- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-10
+- src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - '[[dk-skill-market-agent-self-install]]'
-  - '[[ai-native-im-multi-agent]]'
-  - '[[case-truman-ai-partner]]'
-  - '[[dk-f12-builder-context-deadlock]]'
-  - '[[dk-p15-unverified]]'
-  - '[[dk-p15-unverified]]'
-  - '[[dk-f9-generic-critique]]'
-  - '[[master-decision-hygiene]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- 审查者在对话中说"后续不要 X""全面禁止 Y"，但任务文件里找不到对应约束
-- 执行者复述"我记得审查者说过……"，却无法指出任务文件中的具体条款
-- 用户/下游角色问"禁令指什么？"，说明约束没有唯一真相源
-- 跨会话后口头指令被遗忘或被不同参与者解读为不同含义
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 
 ## 原始表述/核心洞察
@@ -52,51 +52,51 @@ diagnostic_signals:
 
 核心洞察：
 
-- Agent 协作没有持续记忆，任务文件是唯一真相源；口头约束在跨会话后等于不存在。
-- "全面封禁 X"这类绝对化禁令难以执行，必须转化为可量化、可验证的软约束。
-- 审查者的记录懒惰和执行者的印象依赖共同导致信息失真，双方都有责任落笔。
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 使用场景
 
-- 你是审查者，在对话中给出了约束性意见（如"不要用 X""必须做 Y"）
-- 你是执行者，收到了口头指令但任务文件里没有记录
-- 你需要区分"观察/建议"和"指令/约束"
-- 你在跨会话协作中，需要确保指令不丢失
-- 你写完工报告或审查反馈时，需要把约束写入可持久化的任务文件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 操作方法
 
 1. **审查者：当场落笔**：
-   - 如果说了"不要用 Kahneman"，立即打开任务文件写入约束
-   - 区分"观察"（"这张卡的攻击者重复了"）和"指令"（"后续每5张卡至少1位新攻击者"）
-   - 指令必须可执行、可验证、有明确范围
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 2. **执行者：没有书面就不算**：
-   - 如果审查者口头说了约束但任务文件没更新，视为"建议"而非"指令"
-   - 主动提醒："这个约束是否需要写入任务文件？"
-   - 不要基于口头指令调整工作方向
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 3. **任务文件 = 唯一真相源**：
-   - 任何未写入任务文件的约束，在换会话后等于不存在
-   - 执行者无法核实口头指令的准确性和完整性
-   - 用户也无法追溯约束的来源和理由
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 4. **软约束的写法**：
-   - 不要写"全面封禁 Kahneman"（绝对化、难执行）
-   - 要写"同一域内，每5张卡至少引入1位新攻击者"（可量化、可验证）
+   - src_unknown
+   - src_unknown
 
 5. **不要做的事**：
-   - 审查者不要在对话中说"后续全面禁止 X"但不写入文件
-   - 执行者不要基于口头印象调整工作
-   - 不要把"我觉得审查者说过"当作行动依据
+   - src_unknown
+   - src_unknown
+   - src_unknown
 
 ## 适用边界
 
-- 适用于所有多角色、多会话协作场景
-- 不适用于即时性、一次性的操作（如"把这行代码改了"）
-- **与 P-15 的区别**：P-15 是"执行者声称完成但实际未做"，P-10 是"审查者口头指令未书面化"。两者是同一枚硬币的两面
-- 在面对面协作中，口头指令可能足够——但 Agent 协作是跨会话的，必须书面化
-- 紧急情况下可以先口头指令，但必须在 5 分钟内补录到任务文件
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 常见失败模式
 
@@ -110,18 +110,18 @@ diagnostic_signals:
 
 ## 为什么值钱
 
-- 这是**跨会话信息传递**的核心规则：Agent 没有记忆，任务文件是唯一的外部存储
-- 极具破坏性：口头禁令导致用户困惑（"禁令指什么？"）、执行者无法核实、审查标准不统一
-- 揭示了"软约束 vs 硬约束"的写法差异：绝对化禁令无法执行，量化规则可以验证
-- **AI 训练语料中不会有这条**：没有任何项目管理教材会写"Agent 协作中口头指令等于不存在"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 与其他知识的关联
 
-- [[dk-p15-unverified]] — P-10 和 P-15 是对称问题：P-10 是"指令未落笔"，P-15 是"完成未验证"。两者共同构成"信息失真"的完整图谱
-- [[dk-f9-generic-critique]] — F-KDO-009 是"审查时的思维懒惰"，P-10 是"审查时的记录懒惰"——两者都是审查质量问题的不同表现
-- [[master-decision-hygiene]] — 决策卫生要求关键约束必须书面化、可复核，P-10 是其在 Agent 协作中的具体落点
-- `90_control/AGENTS.md` — Agent 协作规范
-- `.agent/pitfalls.md` → P-10（原始记录）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 老顽童疑问（2026-06-03）
 

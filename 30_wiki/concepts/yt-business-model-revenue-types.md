@@ -1,6 +1,6 @@
 ---
 domain:
-  - business-model
+  - src_unknown
 
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
@@ -18,25 +18,25 @@ author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
 related:
-  - yt-business-model-definition
-  - yt-business-model-canvas
-  - yt-entrepreneur-unit-model
-  - yt-five-step-method
-  - yt-entrepreneur-business-growth
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-  - signal: "用户只有一种收入来源，风险集中"
+  - src_unknown
     framework_lens: 收入模式——单一收入来源风险高，需要多元化
     follow_up_question: "如果主要收入来源失效，你有备用收入来源吗？"
-  - signal: "用户说'我们主要靠广告收入'"
+  - src_unknown
     framework_lens: 收入模式——广告模式需要巨大流量
     follow_up_question: "你的流量规模是否足以支撑广告收入？广告收入和用户价值的匹配度如何？"
-  - signal: "用户说'我们先免费，以后收费'"
+  - src_unknown
     framework_lens: 收入模式——免费到付费的转化路径需要设计
     follow_up_question: "免费用户转化为付费用户的比例是多少？转化路径设计了吗？"
-  - signal: "用户收入模式与内核不匹配"
+  - src_unknown
     framework_lens: 收入模式——收入模式必须强化内核
     follow_up_question: "你的收入模式是否让用户更认可内核价值？还是削弱了？"
-  - signal: "用户说'我们尝试了很多收入模式，都不成功'"
+  - src_unknown
     framework_lens: 收入模式——需要系统化选择，不是随机尝试
     follow_up_question: "你系统评估过每种收入模式与内核的匹配度吗？"
 
@@ -118,21 +118,21 @@ diagnostic_signals:
 
 ## 行动触发器
 
-- 当设计商业模式时 → 选择匹配内核的收入模式
-- 当收入单一化时 → 设计多元化收入组合
-- 当免费用户多但付费少时 → 优化付费转化路径
-- 当收入波动大时 → 降低单一收入依赖
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 关联卡片
 
-- `yt-business-model-definition`：商业模式定义
-- `yt-business-model-canvas`：商业模式画布
-- `yt-entrepreneur-unit-model`：单元模型
-- `yt-five-step-method`：五步法总纲
-- `yt-entrepreneur-business-growth`：商业增长
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 来源与验证
 
-- 一堂商业模式设计课
-- 精益创业（Eric Ries）：收入模式验证
-- SaaS收入模式研究
+- src_unknown
+- src_unknown
+- src_unknown

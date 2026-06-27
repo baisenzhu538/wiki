@@ -13,37 +13,37 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
+- src_unknown
+- src_unknown
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 最佳实践
-- 行业标杆
-- 对标学习
-- 成功案例
-- 标杆研究
-- 学习最佳实践
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - '[[framework-yitang-iterative-recursive-digging]]'
-  - '[[tool-yitang-research-industry-scan]]'
-  - '[[business-research-skill-oscar-13-weapon-system]]'
-  - '[[system-yitang-research-workflow]]'
-  - '[[tool-yitang-research-follow-map]]'
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[tool-yitang-research-industry-scan]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "（case-yitang-haidilao-service-research，待补）"
-  - "[[dk-yitang-research-starter-vs-veteran]]"
-  - "[[dk-yitang-survivor-bias-in-research]]"
-  - "[[concept-yitang-research-mindset]]"
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 
 # 最佳实践调研：找到行业标杆，复制成功因素
@@ -81,9 +81,9 @@ Step 4: 制定借鉴计划
 | **可持续性** | 存活时间最长 | 长期主义 |
 
 ### 标准选择原则
-- 标准要与你的目标一致
-- 标准要可量化
-- 标准要可获取
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -143,9 +143,9 @@ Step 4: 制定借鉴计划
 3. [因素3] — 证据：[具体数据]
 
 ### 可复制性评估
-- [ ] 可完全复制
-- [ ] 可部分复制
-- [ ] 不可复制 — 原因：[原因]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 复制障碍
 1. [障碍1]
@@ -179,9 +179,9 @@ Step 4: 制定借鉴计划
 [根据我的情况调整]
 
 ### 实施计划
-- 时间：[开始时间] - [结束时间]
-- 负责人：[负责人]
-- 资源：[所需资源]
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 验收标准
 [什么结果算成功]
@@ -192,20 +192,20 @@ Step 4: 制定借鉴计划
 ## 最佳实践调研的陷阱
 
 ### 幸存者偏差
-- 只看到成功案例，忽视失败案例
-- 修复：同时研究失败案例，分析失败原因
+- src_unknown
+- src_unknown
 
 ### 语境差异
-- 标杆的成功依赖于特定环境，不可复制
-- 修复：分析成功因素的上下文，判断可复制性
+- src_unknown
+- src_unknown
 
 ### 过度简化
-- 把复杂成功因素简化为单一因素
-- 修复：系统分析多维度成功因素
+- src_unknown
+- src_unknown
 
 ### 盲目复制
-- 不考虑自身情况，完全复制
-- 修复：根据自身情况调整，不是完全复制
+- src_unknown
+- src_unknown
 
 ---
 
@@ -255,24 +255,24 @@ Step 4: 制定借鉴计划
 
 ## 关联卡片
 
-- [[framework-yitang-oscar-research]] — OSCAR调研五步法
-- [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-competitor-tracking]] — 竞对跟踪工具
-- [[tool-yitang-research-industry-scan]] — 行业扫描工具
-- [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
-- [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 来源与验证
 
-- 来源：一堂-调研武器库培训-口述（Truman，2020）
-- 验证：business-research-skill 最佳实践模块
-- 交叉：标杆管理理论
-- 注意：最佳实践调研不是盲目复制，而是分析成功因素后根据自身情况调整
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

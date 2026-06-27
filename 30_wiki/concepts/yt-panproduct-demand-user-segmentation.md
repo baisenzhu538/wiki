@@ -4,33 +4,33 @@
 
 id: yt-panproduct-demand-user-segmentation
 component_of:
-- yt-model-pan-product-demand-toolkit
+- src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - product- yitang
+  - src_unknown
 estimated_tokens: 1133
 language: zh-CN
 prerequisites:
-- yt-composite-pan-product-methodology
+- src_unknown
 query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：用户分层
-- 用户分层
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
+- src_unknown
+- src_unknown·用户卡片：用户分层
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-  - '[[yt-panproduct-demand-project-background]]'
-  - '[[yt-panproduct-demand-multi-perspective]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-industry-canvas]]'
-  - '[[yt-panproduct-demand-need-discovery]]'
-  - '[[yt-panproduct-demand-user-perspective]]'
-  - '[[yt-panproduct-demand-scenario-walkthrough]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层
@@ -44,16 +44,16 @@ yitang:
   course_type: card
   level: foundational
 pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
+- src_unknown
+- src_unknown
 diagnostic_signals:
-- signal: 分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计
+- src_unknown
   framework_lens: 有效分层必须导向不同设计决策
   follow_up_question: 这两个群体是否需要不同的功能、信息架构或运营策略？
-- signal: 分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级
+- src_unknown
   framework_lens: 分层的价值在于聚焦，而非无限细分
   follow_up_question: 如果只能为一个群体优化，你会选哪个？为什么？
-- signal: 每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像
+- src_unknown
   framework_lens: 分层是假设，需要验证
   follow_up_question: 你最近一次用什么数据验证了某个分层的存在？
 updated_at: '2026-06-16'
@@ -82,20 +82,20 @@ reviewed_by: 欧阳锋
 ### 失败模式
 
 1. **分了很多群体，但每个群体的产品设计几乎一样**
-   - **原因**：分层维度没有影响设计
-   - **修复**：强制要求每个群体至少对应一个独特的设计决策或功能优先级
+   - src_unknown
+   - src_unknown
 
 2. **画像基于刻板印象，如‘90后喜欢炫酷’**
-   - **原因**：用人口统计替代行为洞察
-   - **修复**：用‘用户在什么任务中遇到什么障碍’替换年龄/性别描述
+   - src_unknown
+   - src_unknown
 
 3. **群体划分过细，团队无法聚焦**
-   - **原因**：过度细分导致行动力分散
-   - **修复**：合并差异小的群体，只保留对业务目标影响最大的 3-5 个分层
+   - src_unknown
+   - src_unknown
 
 4. **分层做完后没有优先级，资源平均分配**
-   - **原因**：缺少战略聚焦
-   - **修复**：用‘市场规模×需求强度×可服务性’给分层排序，明确主攻群体
+   - src_unknown
+   - src_unknown
 
 ## Summary
 
@@ -125,9 +125,9 @@ reviewed_by: 欧阳锋
 ## Framework Gallery
 
 ### 关联框架卡
-- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 外部攻击：Clayton Christensen的"按属性分层≠按Job分层" + Geoffrey Moore的"跨越鸿沟式分层"
 

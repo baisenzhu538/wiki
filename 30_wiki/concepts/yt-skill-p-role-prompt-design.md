@@ -6,18 +6,18 @@
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
-  - yitang- yitang
+  - src_unknown
 diagnostic_signals:
-- signal: 用户收到 P 角色输出后，是否在 1 轮内直接可用，无需追问澄清
+- src_unknown
   framework_lens: I/O 协议 / 角色边界
   follow_up_question: 输出是否触发了用户的'这不是我想要的'二次沟通？
-- signal: prompt 是否能自动识别输入内容类型并匹配对应故事线
+- src_unknown
   framework_lens: 模式识别 / 自动分类
   follow_up_question: 当输入混合多种故事线时，分类逻辑是否崩溃或强行归一？
-- signal: 多次使用后，用户是否仍能感知输出价值而非'套路感'
+- src_unknown
   framework_lens: 去模板化 / 用户体验
   follow_up_question: 是否有机制（变异化指令/模式切换）主动降低重复疲劳？
-- signal: 当输入明显属于未完成思索时，P 角色是否触发模式切换提示
+- src_unknown
   framework_lens: 边界控制 / C 角色降级
   follow_up_question: 失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？
 updated_at: '2026-06-16'
@@ -31,11 +31,11 @@ source_refs:
   - src_20260522_38173b48-design-ai-image-generation
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 related:
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[yt-personal-ai-capability]]'
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
@@ -96,15 +96,15 @@ P 角色 Prompt 设计是**将 AI 定位为执行者（Practitioner）而非咨�
 ### 步骤一：确定 P 角色的交付契约（什么做、什么不做）
 
 **做：**
-- 把用户的 raw material 转换为结构化清单体笔记
-- 自动识别内容类型并匹配最优故事线
-- 在输出结束时提供延伸服务选项（逻辑重构、洞察挖掘、报告美化）
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不做：**
-- 不追问用户“你确定吗”“你还有什么补充”
-- 不对用户的思考质量做评价（不说“你这个思路有问题”）
-- 不提供“为什么你该这么做”的理论解释
-- 不强迫用户接受某种特定的结构（只是提供“这是我对你输入的理解”）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 步骤二：设计提示词的核心组成
 
@@ -135,8 +135,8 @@ P 角色 Prompt 设计是**将 AI 定位为执行者（Practitioner）而非咨�
 **组成四：嵌入式边界控制**
 ```
 如果判断用户输入属于以下情况，不要强行交付，而是用一句话提示：
-- “我检测到您的输入似乎是未完成的思索线索，建议您先完整表达您的思考，或者切换到教练模式。”
-- “您的输入包含多个独立主题，建议分开处理。”
+- src_unknown
+- src_unknown
 ```
 
 ### 步骤三：输入-输出的信息密度匹配
@@ -179,12 +179,12 @@ P 角色的核心能力是**信息密度保持**——不是简化用户的输�
 **输入**：用户发送 400+ 字的非结构化复盘感想，包含 6 个散落的认知点：知行合一断档、笔记即思考方式、十层故事线的预判价值、笔记即解题/资产、纪浩分享验证、行动决心。
 
 **输出**：P 角色返回 6 大模块的清单体笔记：
-- 一、正直复盘（4 条分点）
-- 二、深层认知一：笔记即思考方式重塑（4 条分点）
-- 三、深层认知二：十层故事线是预判工具（4 条分点）
-- 四、深层认知三：笔记即解题、笔记即资产（6 条分点，含案例详情）
-- 五、外部视角验证（3 条分点）
-- 六、行动决心（2 条分点）
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **输出结尾**：附带"还可以继续做"的 3 个延伸服务选项（逻辑重构、洞察挖掘、报告美化）。
 
@@ -199,9 +199,9 @@ P 角色的核心能力是**信息密度保持**——不是简化用户的输�
 **背景**：某用户发送一段话：“我觉得清单体笔记很重要，但是我总是记不好，不知道怎么办。”
 
 **问题**：这是典型的“未完成思索”——用户知道问题存在，但没有自己的解答或分析。如果 P 角色按照标准流程直接输出，可能会交付：
-- 一、问题陈述：记不好
-- 二、原因分析：习惯问题
-- 三、行动建议：坚持记
+- src_unknown
+- src_unknown
+- src_unknown
 
 **教训**：这份输出看起来结构完整，但实际上是“模糊的问题被套上了一个漂亮的框架”——用户真正需要的是 C 角色的诊断（“你记不好是指什么？是结构不清、还是记不完？你尝试过什么方法？”）。P 角色的边界控制必须在这种情况下触发，提示用户切换模式。
 
@@ -215,10 +215,10 @@ P 角色的核心能力是**信息密度保持**——不是简化用户的输�
 
 ## Synthesis
 
-- **与 [[yt-note-ai-p-role-not-c-role]] 的关联**：该 skill 卡是前者的**操作级落地**——前者定义了"什么是 P 角色和 C 角色”，本卡提供了"如何把 P 角色写进 prompt 里”的具体方法。两张卡片合并使用，可以完整复制一个高质量的 P 角色清单体笔记 Agent。
+- src_unknown
 
-- **与 [[yt-skill-checklist-as-ai-protocol]] 的关联**：P 角色的输出形式——清单体笔记——恰恰是 AI I/O 协议的输出端。当 P 角色把用户的复盘整理成清单体后，这份笔记可以直接喂给下游的 AI 工具（如用于生成报告、制作 PPT、构建知识图谱），实现了从"人类思考”到"机器可用”的无缝链接。
+- src_unknown
 
-- **与 [[yt-skill-storyline-key-elements]] 的关联**：P 角色的"故事线自动匹配”能力，本质上是对"要素提取”故事线的内化——AI 需要能够从用户的输入中自动识别哪些是时间线、哪些是问题-解决对、哪些是对比分析，然后选择最能突出输入内容特征的故事线。这需要提示词中嵌入各种故事线的识别特征描述。
+- src_unknown
 
-- **与 [[yt-note-l4-internalization]] 的关联**：P 角色的交付过程本质上是一次**“外化”动作**——它帮助用户将脑中已经内化的思维（L4 水平）转换为可传播、可反馈的结构化笔记。没有 P 角色的辅助，用户可能永远停留在"脑子里很清楔”的状态，无法进入 L5 “笔记驱动思考”的正反馃循环。
+- src_unknown
