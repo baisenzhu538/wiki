@@ -429,3 +429,48 @@ related:
 
 *任务下达：王语嫣 | 日期：2026-06-27*
 *生产完成：老顽童（Kimi） | 日期：2026-06-27*
+
+---
+
+## 欧阳锋终审结论
+
+**审查时间**：2026-06-28  
+**审查人**：欧阳锋（KDO 知识工厂架构师 + 审查者）  
+**总体 verdict**：11 张卡全部通过，任务状态更新为 `reviewed`。
+
+### 审查动作
+- 已按顺序 Read 全部 11 张卡片及 4 份核心卡自攻击报告。
+- 已全量运行 `kdo pre-submit -f <文件路径>`，结果 11/11 通过。
+- 已用脚本扫描 frontmatter 必填字段与 `related` wikilink 有效性：无 `src_unknown`、无死链、无缺失字段。
+- 已复核关键数字的来源与置信度标注，对遗漏的经验数字进行了补注。
+
+### 卡片分类
+
+| 卡片 | 类型 | 判定 | 说明 |
+|:---|:---|:---|:---|
+| framework-yitang-deliberate-practice-1plus4 | P0 framework | deep | 六段齐全；自攻击 🟡 问题已修复（Ericsson/Yerkes-Dodson 文献已补、口述数字已标注、新增五要素自检表、AI 衔接已说明）。 |
+| tool-yitang-practice-20hour-starter | P0 tool | deep | 结构完整；「80%」已弱化为 good enough 并加置信度，补充了 20 小时法可能不灵的反例，Kaufman 原书已入 source_refs。 |
+| framework-yitang-three-ring-ability-focus | P0 framework | deep | Critique/失败模式/关联齐全；自攻击指出的「前三年后五年」评分表、Cal Newport 外部来源、职业转型期边界均已补。 |
+| concept-yitang-comfort-stretch-panic-zones | P1 concept | deep | 四区定义、常见误解、失败模式完整；审查中补注了 110%-120%、10%-30% 等经验参数的来源待核。 |
+| tool-yitang-best-practice-as-golden-finger | P1 tool | deep | 操作步骤/典型场景/失败模式完整；审查中补注了「超过 80% 的同行」的置信度与来源。 |
+| tool-yitang-feedback-self-check | P1 tool | deep | 三种机制/操作清单/典型场景完整；审查中补注了 27-28 个版本、10 张段位图、2-3 个同伴、5-7 个维度等口述数字的置信度。 |
+| framework-ai-deliberate-practice-loop | P1 framework（跨域桥接） | deep | 六段齐全；同时回答了「AI 给刻意练习带来什么」和「刻意练习给 AI 协作带来什么」。自攻击 🟡 问题已修复（2024 预印本、成本/隐私约束、固定套路稳定性说明）。 |
+| case-yitang-poker-parameterized-practice | P2 case | deep | 叙事完整，关键数字已按 `[conf=..., source=...]` 标注，迁移价值与失败模式完整。 |
+| case-yitang-sales-routine-deconstruction | P2 case | deep | 数字已标注，常见误解/失败风险/迁移价值完整。 |
+| case-yitang-ai-painting-commercialization | P2 case | deep | 含显式 Critique，数字与不确定性标注完整，迁移清单清晰。 |
+| dk-yitang-deliberate-practice-common-traps | P2 dk | deep | 7 条洞见均附症状/根因/修复；审查中补注了 6-12 个月、2-4 周等经验参数的置信度。 |
+
+### 返工 / 小修说明
+- 本次无 shallow 卡、无 blocked 项。
+- 审查中发现的全部问题均为「未标注来源/置信度的经验数字」，已现场补注为 `[conf=..., source=...]` 或 `[经验参数，来源待核]`，未改变原卡论点。
+- 4 张核心卡自攻击报告中的 🟡 问题已全部修复或合理降级；其余 7 张 P1/P2 卡未单独生成自攻击报告，建议后续批次对 P1/P2 卡也执行 `/kdo-self-attack` 以保持一致性。
+
+### 状态更新
+- 11 张卡片 frontmatter 已更新：`status: reviewed`、`reviewed_by: 欧阳锋`、`review_date: 2026-06-28`。
+- `70_product/tasks/production-queue.md` 任务 #2 状态已更新为 `reviewed`。
+- `70_product/tasks/dashboard.md` 对应任务状态及 Summary 计数已更新（Queued 8→7，Review Done 4→5）。
+- `.agent/context.md` active_task / blockers 已追加本任务完成记录。
+
+### 下次启动注意
+- 刻意练习域 11 张卡已入库，可作为渠道增长域、兰毅泛产品组织化任务的 related 锚点。
+- 建议王语嫣在后续任务单中明确要求：所有 P1/P2 卡也必须跑 `/kdo-self-attack`，避免终审时再补口头数字标注。

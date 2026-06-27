@@ -171,7 +171,24 @@ trust_level: medium
 
 第四批 10 张修复后，lint ERROR 从 **728 降到 668**。
 
-累计：已修复 **45 张**卡（试点 5 + 四批 40），剩余约 **42 张**。
+### 第五批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-foresight-source-material-blindness` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 2 | `dk-demand-feature-stacking` | ✅ 通过 | 重写 6 标准 section |
+| 3 | `dk-demand-misjudgment-rate` | ✅ 通过 | 重写 6 标准 section |
+| 4 | `dk-demand-hidden-need` | ✅ 通过 | 重写 6 标准 section |
+| 5 | `dk-strategy-longzhong-four-failures` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 6 | `dk-strategy-three-must-do-moments` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 7 | `dk-strategy-consulting-jokes` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 8 | `dk-strategy-essence-four-elements` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+| 9 | `dk-strategy-03-advantage-temporary` | ✅ 通过 | 重写 6 标准 section |
+| 10 | `dk-strategy-04-consulting-trap` | ✅ 通过 | 重写 6 标准 section |
+
+第五批 10 张修复后，dark-knowledges missing section ERROR 从 **668 降到 631**（ lint 总数从 668 降到 631，期间顺手修复了 3 个 source_refs 行号范围问题）。
+
+累计：已修复 **55 张**卡（试点 5 + 五批 50），剩余约 **20 张**。
 
 ### 分批策略
 
@@ -209,7 +226,7 @@ trust_level: medium
 
 ### 目标
 
-把 dark-knowledges missing section ERROR 从 **668** 逐步降到 **0**。
+把 dark-knowledges missing section ERROR 从 **631** 逐步降到 **0**。
 
 ## 注意
 

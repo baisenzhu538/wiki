@@ -1,8 +1,9 @@
 ---
-updated: 2026-06-27
+updated: 2026-06-28
 active_branch: main
-active_task: "王语嫣完成兰毅泛产品组织化任务标注并扩展为泛产品设计域升级任务；用户明确不急、按规律执行，Kimi 老顽童临时实例完成刻意练习域后按序领取；Hermes 老顽童负责历史批量工单；跟踪生产队列"
+active_task: "王语嫣完成兰毅泛产品组织化任务标注并扩展为泛产品设计域升级任务；用户明确不急、按规律执行，Kimi 老顽童临时实例完成刻意练习域后按序领取；Hermes 老顽童负责历史批量工单；欧阳锋已完成刻意练习域 11 张卡终审并全部通过；继续按 production-queue 审核下一个 pending_review 任务"
 blockers:
+  - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"

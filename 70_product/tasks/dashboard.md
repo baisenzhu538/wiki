@@ -34,7 +34,7 @@ updated: 2026-06-27
 | huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
 | proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
 | laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | queued | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md |
-| task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | queued | 老顽童（Kimi） | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
+| task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | queued | 老顽童（Kimi） | P1 | task_20260627_laowantong-channel-growth-cards.md |
 | task_20260627-lanyi-panproduct-organization | 兰毅泛产品组织化 + 泛产品设计域升级（按规律执行，完成刻意练习域后按序领取） | queued | 老顽童（Kimi） | P0-P1 | task_20260627_laowantong-lanyi-panproduct-organization.md |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
@@ -58,8 +58,8 @@ updated: 2026-06-27
 - **Total**: 36
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 8（详见 `production-queue.md`）
+- **Queued**: 7（详见 `production-queue.md`）
 - **Pending**: 2
-- **Review Done**: 4 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework)
+- **Review Done**: 5 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。
