@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-27T12:36:07+00:00_
+_Last updated: 2026-06-27T12:39:13+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
