@@ -8,7 +8,7 @@ blockers:
   - "✅ P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)已全部审查通过；欧阳锋最终审查发现 ROI案例01 仍为27行薄卡，已九层深挖重写；其余13张结构达标，status 已更新为 reviewed；报告见 audit_20260626_ouyangfeng-p0b-final-review.md"
   - "✅ case-科学决策-深度案例01：已由老顽童九层深挖重写，欧阳锋最终审查通过，status 更新为 reviewed"
   - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
-  - "🆕 角色再调整(2026-06-27)：王语嫣升级为 Content Consultant + Direction Gatekeeper + Dashboard Maintainer，负责 production-queue.md / dashboard.md / kb-evolution-direction.md 维护、P1/P2 最终验收、内容方向把关；欧阳锋全面负责 P0 审查与抽查；王语嫣不再做 routine 成品抽查"
+  - "🆕 角色再调整(2026-06-27)：王语嫣升级为 Content Consultant + Direction Gatekeeper + Dashboard Maintainer + Task Annotator，负责内容咨询、任务标注、方向把关、production-queue.md / dashboard.md / kb-evolution-direction.md 维护；欧阳锋全面负责所有卡片审查终审与抽查；王语嫣不再做卡片审查/验收"
   - "✅ 九层深挖+六层交叉验证→Skill双桥接(Claude Code+Hermes)；laowantong-context加质量闸门(100行底线/素材消费率/六段齐全/失败模式具体)"
   - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
   - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
@@ -57,7 +57,7 @@ next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave
 |------|---------|------|
 | 欧阳锋（Architect） | Kimi Code CLI | 审查/深挖重写/协调/拍板 |
 | 黄药师（Builder） | Claude Code（Windows 终端） | KDO CLI 开发/基建/lint |
-| 王语嫣（Content Consultant + Direction Gatekeeper + Dashboard Maintainer） | Kimi Code CLI | 内容咨询/方向把关/队列看板维护/P1P2验收 |
+| 王语嫣（Content Consultant + Direction Gatekeeper + Dashboard Maintainer + Task Annotator） | Kimi Code CLI | 内容咨询/方向把关/队列看板维护/任务标注 |
 | 老顽童（Producer） | **Hermes CLI（Kimi API）** | 卡片/文章量产 |
 | 洪七公（Multimodal） | Hermes agent → 飞书 | 视觉/设计/prompt |
 | 段王爷（Publisher） | Hermes agent → 飞书 | 发布/反馈/版本 |

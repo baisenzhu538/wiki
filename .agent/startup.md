@@ -113,7 +113,7 @@
 | 架构师 | 欧阳锋 | Kimi Code CLI | 月度抽检模式；按需终审 P0 级 framework 卡 | ✅ |
 | 构建者 | 黄药师 | Claude Code（Windows 终端） | KDO 基建 / kdo index --rebuild / kdo lint / 决策域+需求分析域+五步法子域 domain digest 待建 | 🟡 |
 | 生产者 | 老顽童 | Hermes CLI（Kimi API） | 生产刻意练习域 12 张卡 + 渠道增长域 24-25 张卡（含 2 张跨域桥接卡） | 🟡 生产中 |
-| 顾问+方向把关+看板维护 | 王语嫣 | Kimi Code CLI | 内容咨询 / 方向把关 / 队列看板维护 / P1P2验收 / 跨域桥接设计 | 🟢 活跃 |
+| 顾问+方向把关+看板维护+任务标注 | 王语嫣 | Kimi Code CLI | 内容咨询 / 方向把关 / 队列看板维护 / 任务标注 / 跨域桥接设计 | 🟢 活跃 |
 | 多模态 | 洪七公 | Hermes agent → 飞书 | 待命 | ⏸️ |
 | 发布者 | 段王爷 | Hermes agent → 飞书 | 待命 | ⏸️ |
 

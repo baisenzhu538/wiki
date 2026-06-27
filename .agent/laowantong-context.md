@@ -58,7 +58,7 @@ updated: 2026-06-27
 - 类型专属结构检查（tool/framework 必须有操作步骤 / When NOT to Use / 失败模式；case 必须有关键数字 + 证据表）
 - **DK section 标题规范**（`type: dk` 卡必须含 `## 原始表述` / `## 使用场景` / `## 操作方法` / `## 适用边界` / `## 为什么值钱` / `## 与其他知识的关联`，标题别名自动纠正）
 
-> **未跑 pre-submit 就提交 → 欧阳锋/王语嫣直接退回，不审内容。**
+> **未跑 pre-submit 就提交 → 欧阳锋直接退回，不审内容。**
 
 ## ⚠️ 当前待办：统一生产队列
 
@@ -87,7 +87,7 @@ updated: 2026-06-27
    - P0：5 张（2 framework + 2 tool + 1 concept）
    - P1：9 张（2 concept + 2 tool + 5 case）
    - P2：8 张（1 concept + 4 case + 3 dk）
-   - 说明：AI 2041 是独立新域，不依赖跨域审计脚本；按 P0→P1→P2 顺序执行，每完成 2-3 张通知王语嫣验收
+   - 说明：AI 2041 是独立新域，不依赖跨域审计脚本；按 P0→P1→P2 顺序执行，每完成 2-3 张通知欧阳锋审查
 
 ### 与 AI 2041 并行（5 分钟修复）
 
@@ -140,7 +140,7 @@ updated: 2026-06-27
 7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
 8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`），方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
 9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
-10. **🆕 pre-submit 强制门禁（2026-06-27 欧阳锋裁定）：任何文件提交前必须跑 `kdo pre-submit -f <文件>` 并贴输出，未附者王语嫣直接退回。**
+10. **🆕 pre-submit 强制门禁（2026-06-27 欧阳锋裁定）：任何文件提交前必须跑 `kdo pre-submit -f <文件>` 并贴输出，未附者欧阳锋直接退回。**
 
 ## 🆕 调研 Skill 路由（接到新域/新素材时用）
 
