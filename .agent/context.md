@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-27
 active_branch: main
-active_task: "王语嫣角色边界最终确认 + 临时生产分流：保留咨询服务与任务标注，审查终审归欧阳锋；Kimi 老顽童临时实例负责新标注任务（刻意练习/渠道增长/兰毅泛产品），Hermes 老顽童负责历史批量工单；跟踪生产队列"
+active_task: "王语嫣完成兰毅泛产品组织化任务标注并扩展为泛产品设计域升级任务；Kimi 老顽童临时实例完成刻意练习域后优先领取；Hermes 老顽童负责历史批量工单；跟踪生产队列"
 blockers:
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
