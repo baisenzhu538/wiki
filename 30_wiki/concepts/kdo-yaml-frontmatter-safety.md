@@ -23,8 +23,8 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 source_refs:
-- source_unknown
-source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
+- src_unknown
+source_context: 原始source无法追溯，已标记为src_unknown，待后续补充
 diagnostic_signals:
   - signal: "手写YAML解析器导致数据丢失"
     lens: "解析器错误"

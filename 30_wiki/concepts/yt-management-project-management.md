@@ -27,8 +27,8 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+- src_unknown
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[ocr-一堂-管理必修-课程清单]]'
   - '[[yt-tool-project-health-radar]]'

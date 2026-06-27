@@ -16,7 +16,7 @@ author: unknown
 confidence: 0.7
 source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[tinyfish-agentic-web-infrastructure]]'
   - '[[plan_20260621_crawl4ai-firecrawl-evaluation]]'

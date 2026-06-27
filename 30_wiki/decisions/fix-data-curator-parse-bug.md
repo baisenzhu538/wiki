@@ -20,9 +20,9 @@ related:
   - '[[gold-standard-manual-labels]]'
   - '[[kdo-15-dimension-label-spec]]'
 author: unknown
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium

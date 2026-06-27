@@ -12,9 +12,9 @@ target_roles:
 - 黄药师（Builder）
 reviewer: 欧阳锋
 author: 黄药师
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_unknown
 related:
   - '[[gold-standard-manual-labels]]'
   - '[[dk-f14-accuracy-measurement-mismatch]]'

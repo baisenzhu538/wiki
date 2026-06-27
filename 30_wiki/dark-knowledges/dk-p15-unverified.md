@@ -11,8 +11,8 @@ confidence: 0.75
 trust_level: medium
 title: dk p15 unverified
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+- src_unknown
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
   - '[[ai-short-drama-script-planning-three-axes]]'

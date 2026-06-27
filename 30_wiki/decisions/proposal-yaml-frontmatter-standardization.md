@@ -6,7 +6,7 @@ domain:
 - kdo
 status: draft
 source_refs:
-- source_unknown
+- src_unknown
 created_at: 2026-06-06
 updated_at: '2026-06-16'
 id: proposal-yaml-frontmatter-standardization
@@ -14,7 +14,7 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[dk-tool-chain-naming-is-infrastructure]]'
   - '[[dk-f13-handwritten-yaml-parser]]'

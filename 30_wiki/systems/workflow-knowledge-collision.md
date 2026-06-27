@@ -9,7 +9,7 @@ domain:
 status: active
 created_at: '2026-06-14'
 author: 周伯通
-source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs: []
 query_triggers:
 - 写作

@@ -2,9 +2,9 @@
 
 title: kdo watch 定时巡检层技术说明
 author: 审查者欧阳锋
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_unknown
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed

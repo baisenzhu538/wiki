@@ -20,7 +20,7 @@ superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标�
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[agent-ecosystem-design]]'
   - '[[sprint-6-cli-gap-proposal]]'

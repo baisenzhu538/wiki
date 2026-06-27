@@ -24,9 +24,9 @@ related:
 description: 'Gold Standard 样本集。欧阳锋手工标注 15 条 chunk（涵盖 5 张卡片、4 个 domain、8 种 chunk_type）。
   用于 v1.5 标注管线的准确率基准测量。每批自动标注后对比本文件，准确率 < 85% 时管线暂停。 '
 author: unknown
-source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

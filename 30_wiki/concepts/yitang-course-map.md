@@ -15,7 +15,7 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 source_refs: []
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[tool-yitang-research-follow-map]]'
   - '[[tool-yitang-research-cross-validation]]'

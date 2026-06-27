@@ -21,7 +21,7 @@ related:
   - '[[plan_20260531_data-curator-v1.3]]'
   - '[[data-curator-role-division]]'
 author: unknown
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
   - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 reviewed_by: pending

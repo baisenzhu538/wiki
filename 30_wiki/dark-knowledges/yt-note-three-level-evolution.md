@@ -14,7 +14,7 @@ reviewed_by: pending
 source_person: Truman
 source_context: 一堂笔记训练体系——认知三级跃迁
 source_refs:
-  - source_unknown
+  - src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:

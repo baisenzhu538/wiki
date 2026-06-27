@@ -11,8 +11,8 @@ created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+- src_unknown
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
 - '[[tool-水水-用感性维度构建溢价]]'

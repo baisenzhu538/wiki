@@ -15,8 +15,8 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+- src_unknown
+source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
   - '[[paddleocr-skill]]'
   - '[[plan_20260621_skill-iteration-standard]]'

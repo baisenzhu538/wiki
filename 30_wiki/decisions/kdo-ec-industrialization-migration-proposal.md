@@ -6,7 +6,7 @@ domain:
 status: enriched
 id: kdo-ec-industrialization-migration-proposal
 author: 黄药师
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
 - src_20260503_dadc7838-EC工业化规范手册
 - src_20260503_feab72b2-ec工业化规范手册-v2.8.0

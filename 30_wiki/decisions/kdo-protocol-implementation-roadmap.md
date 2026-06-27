@@ -14,7 +14,7 @@ trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'
 author: unknown
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
   - src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
   - src_20260501_9962715b-互联网医院模式深度调研报告

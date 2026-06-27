@@ -9,7 +9,7 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-- 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md - 00_inbox/半肥猫-AI学习落地-口述.md
+- 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
 - AIGC大模型
 - 文档编辑工具

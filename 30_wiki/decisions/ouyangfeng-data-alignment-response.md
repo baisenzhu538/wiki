@@ -24,9 +24,9 @@ related:
   - '[[three-party-data-alignment]]'
   - '[[plan_20260531_data-curator-v1.3]]'
 author: unknown
-source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
