@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：Kimi 老顽童继续负责兰毅泛产品组织化；WorkBuddy 老顽童继续 wave3 + 第八批 dk 清零（10 张卡）；黄药师负责渠道增长域遗留清理；Hermes 老顽童待命；欧阳锋当前无 pending_review 任务"
+active_task: "综合安排（2026-06-28）：Kimi 老顽童负责兰毅泛产品组织化；WorkBuddy 老顽童负责 wave3 + 第八批 dk 清零；Hermes 老顽童已领取 wave4（依赖 wave3+第八批，先读素材做准备）；黄药师负责渠道增长域遗留清理；队列锁已上线，多实例可安全并行更新 production-queue.md"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -10,8 +10,9 @@ blockers:
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "✅ 欧阳锋完成渠道增长域 25 张卡终审（2026-06-28）：25/25 通过，`kdo pre-submit` 抽查 6/6 通过；P0 framework、跨域桥接公式、案例数字标注、工具可执行性均达标；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已知遗留：13 张 case 卡缺 lint 标准 section（全局 case section 债务）、1 张 dk 卡在 `30_wiki/dk/` 目录需移到 `dark-knowledges/`、1 张 concept 卡在 `frameworks/` 目录需移到 `concepts/`，已记录不阻塞 wave1"
   - "🆕 王语嫣已写渠道增长域遗留问题清理任务单（2026-06-28）：`60_feedback/tasks/task_20260628_wangyuyan-cleanup-channel-growth-residuals.md`，含 13 张 case section 标准化 + dk/concept 目录对齐；已入 `production-queue.md` 队列第 10 项，状态 queued，P2 优先级；已分配给黄药师执行"
-  - "🆕 人员调整更新（2026-06-28）：Kimi 老顽童临时实例不关闭，继续负责兰毅泛产品组织化任务；Hermes 老顽童待命中；WorkBuddy 老顽童继续 wave3 并在完成后接第八批 dk 清零；黄药师负责渠道增长域遗留清理"
+  - "🆕 人员调整更新（2026-06-28）：Kimi 老顽童临时实例不关闭，继续负责兰毅泛产品组织化任务；Hermes 老顽童已领取 wave4（P2 清理），依赖 wave3+第八批完成，先读素材做准备；WorkBuddy 老顽童继续 wave3 并在完成后接第八批 dk 清零；黄药师负责渠道增长域遗留清理"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡（3 张缺 1 section + 7 张 6 section 全缺），WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零；已入 `production-queue.md` 队列第 7 项"
+  - "🆕 队列锁已上线（2026-06-28）：黄药师实现 `90_control/scripts/queue_lock.py`，锁目录 `90_control/.queue-locks/`，超时 300s 自动过期，已登记到 `.agent/toolkit.md` 第〇条；多老顽童实例可安全并行更新 `production-queue.md` / `dashboard.md` / `.agent/context.md`；`.agent/laowantong-context.md` 已加入加锁/释放口令"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"

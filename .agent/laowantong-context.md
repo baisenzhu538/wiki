@@ -16,6 +16,15 @@ updated: 2026-06-27
 2. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
 3. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
 4. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
+5. **🆕 更新队列前必须加锁**：多个老顽童实例并行时，修改 `production-queue.md` / `dashboard.md` / `.agent/context.md` 前，先执行：
+   ```bash
+   python 90_control/scripts/queue_lock.py acquire production-queue
+   ```
+   改完后再释放：
+   ```bash
+   python 90_control/scripts/queue_lock.py release production-queue
+   ```
+   锁超时 300s 自动过期。详情见 `.agent/toolkit.md` 第〇条。
 
 > 💡 **失忆恢复口令**：用户对你说「老顽童，切到 wiki 目录，读 startup 和队列，领第一件 queued」时，按此执行。
 
