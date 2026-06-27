@@ -1,4 +1,4 @@
-:---
+---
 id: task_20260627_laowantong-deliberate-practice-cards
 type: production_task
 created_at: 2026-06-27
