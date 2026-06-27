@@ -50,7 +50,7 @@ updated: 2026-06-27
 
 1. **跑门禁**：`kdo pre-submit -f <文件路径>`
 2. **贴输出**：将 pre-submit 完整输出粘贴到提交消息中
-3. **等验关**：王语嫣复核时先验 pre-submit 输出，未附者直接退回
+3. **等验关**：提交后所有卡片由欧阳锋审查终审；pre-submit 输出未附者由欧阳锋直接退回
 
 **pre-submit 四道机械检查：**
 - YAML frontmatter 语法合法性（拦截 domain 污染、引号断裂、列表粘连）

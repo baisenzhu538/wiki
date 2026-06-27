@@ -137,6 +137,23 @@ trust_level: medium
 
 第二批 10 张修复后，lint ERROR 从 **824 降到 788**。
 
+### 第三批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-wanghuan-creativity-in-description-and-taste` | ✅ 通过 | 重写 6 标准 section |
+| 2 | `dk-wanghuan-standard-by-iteration` | ✅ 通过 | 重写 6 标准 section |
+| 3 | `dk-wanghuan-ai-lifts-personal-ceiling` | ✅ 通过 | 重写 6 标准 section |
+| 4 | `dk-wanghuan-output-equals-standard-times-iteration` | ✅ 通过 | 重写 6 标准 section |
+| 5 | `dk-ban-fei-mao-skill-rejection-value` | ✅ 通过 | 重写 6 标准 section |
+| 6 | `dk-ban-fei-mao-silky-answers-are-dangerous` | ✅ 通过 | 重写 6 标准 section |
+| 7 | `dk-ji-hao-problem-vs-question` | ✅ 通过 | 重写 6 标准 section |
+| 8 | `dk-ji-hao-novice-mindset-advantage` | ✅ 通过 | 重写 6 标准 section |
+| 9 | `dk-yi-tang-wishful-thinking-kills-startups` | ✅ 通过 | 重写 6 标准 section |
+| 10 | `dk-ban-fei-mao-silky-answer-warning` | ✅ 通过 | 重写 6 标准 section + 修复 frontmatter 闭合 |
+
+第三批 10 张修复后，lint ERROR 从 **788 降到 728**。
+
 ### 分批策略
 
 - 每批 **10 张**卡
@@ -173,7 +190,7 @@ trust_level: medium
 
 ### 目标
 
-把 dark-knowledges missing section ERROR 从 **862** 逐步降到 **0**。
+把 dark-knowledges missing section ERROR 从 **728** 逐步降到 **0**。
 
 ## 注意
 

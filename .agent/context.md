@@ -1,14 +1,14 @@
 ---
 updated: 2026-06-27
 active_branch: main
-active_task: "王语嫣完成刻意练习域+渠道增长域九层深挖/六层交叉验证/跨域桥接补深挖；新增3张高价值跨域桥接卡；任务单已更新待老顽童生产"
+active_task: "王语嫣角色边界最终确认：Content Consultant + Direction Gatekeeper + Dashboard Maintainer + Task Annotator；保留咨询服务与任务标注，所有卡片审查终审归欧阳锋；自攻击框架卡待欧阳锋审核；跟踪生产队列"
 blockers:
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
   - "✅ P0-A 单元模型域已封版：全16张卡yaml.safe_load通过、0 broken link、0 domain typo；王语嫣复核通过；欧阳锋最终审查dk-单元模型-对抗小抄通过，status更新为reviewed；报告见 audit_20260627_ouyangfeng-p0a-final-review.md"
   - "✅ P0-B 科学决策域：前17张核心卡已验收通过，剩余14张(2 dk+11 case+1 enrich)已全部审查通过；欧阳锋最终审查发现 ROI案例01 仍为27行薄卡，已九层深挖重写；其余13张结构达标，status 已更新为 reviewed；报告见 audit_20260626_ouyangfeng-p0b-final-review.md"
   - "✅ case-科学决策-深度案例01：已由老顽童九层深挖重写，欧阳锋最终审查通过，status 更新为 reviewed"
   - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
-  - "✅ 角色重组：欧阳锋从Obsidian Claude迁至Kimi Code CLI(审查为主+深挖重写为辅)；王语嫣收拢为入口把关+咨询+成品验收(砍跨域)；Hermes老顽童独挑生产大梁(API切至Kimi)"
+  - "🆕 角色再调整(2026-06-27)：王语嫣升级为 Content Consultant + Direction Gatekeeper + Dashboard Maintainer，负责 production-queue.md / dashboard.md / kb-evolution-direction.md 维护、P1/P2 最终验收、内容方向把关；欧阳锋全面负责 P0 审查与抽查；王语嫣不再做 routine 成品抽查"
   - "✅ 九层深挖+六层交叉验证→Skill双桥接(Claude Code+Hermes)；laowantong-context加质量闸门(100行底线/素材消费率/六段齐全/失败模式具体)"
   - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
   - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
@@ -57,7 +57,7 @@ next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave
 |------|---------|------|
 | 欧阳锋（Architect） | Kimi Code CLI | 审查/深挖重写/协调/拍板 |
 | 黄药师（Builder） | Claude Code（Windows 终端） | KDO CLI 开发/基建/lint |
-| 王语嫣（Consultant） | Kimi Code CLI | 入口把关/诊断咨询/成品验收 |
+| 王语嫣（Content Consultant + Direction Gatekeeper + Dashboard Maintainer） | Kimi Code CLI | 内容咨询/方向把关/队列看板维护/P1P2验收 |
 | 老顽童（Producer） | **Hermes CLI（Kimi API）** | 卡片/文章量产 |
 | 洪七公（Multimodal） | Hermes agent → 飞书 | 视觉/设计/prompt |
 | 段王爷（Publisher） | Hermes agent → 飞书 | 发布/反馈/版本 |
@@ -82,7 +82,7 @@ next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave
 ### 各角色当前任务
 - **黄药师**：KF-020+021全修 + S4-1 aliases + kdo_lint(2344→85) + 决策域研究(2卡A级)
 - **老顽童**：战略域 PPT 补强 3/3 验收通过；待命接新任务
-- **王语嫣**：完成刻意练习域+渠道增长域九层深挖/六层交叉验证/跨域桥接补深挖，已更新任务单与诊断报告，当前等待老顽童生产
+- **王语嫣**：完成角色边界调整；负责内容咨询、任务标注、方向把关；维护 production-queue.md / dashboard.md / kb-evolution-direction.md；完成自攻击方法论框架卡并已入队待欧阳锋审核；跟踪 wave1 / 刻意练习域 / 渠道增长域生产进度
 - **欧阳锋**：月度抽检模式
 - **洪七公**：待命
 - **段王爷**：待命
