@@ -15,8 +15,8 @@ confidence: 0.85
 prerequisites:
   - yt-model-prompt-engineering
 source_refs:
-  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
+  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
   - "上下文工程"
   - "背景信息"

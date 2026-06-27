@@ -36,7 +36,7 @@ md` > 条目数：10 你是一位资深文案专家，可以依据我提供的�
 
 ## Source Refs
 
-- `src_20260522_5819659f` -> `10_raw/sources/src_20260522_5819659f-writing-content.md`
+- 10_raw/sources/src_20260522_5819659f-writing-content.md`
 
 ## Reusable Knowledge
 

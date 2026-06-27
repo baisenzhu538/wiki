@@ -33,7 +33,7 @@ related:
 
 ## Source Refs
 
-- `src_20260428_29929c1f` -> `10_raw/sources/src_20260428_29929c1f-紫鲸ai智能体工作流平台.md`
+- 10_raw/sources/src_20260428_29929c1f-紫鲸ai智能体工作流平台.md`
 
 ## Reusable Knowledge
 

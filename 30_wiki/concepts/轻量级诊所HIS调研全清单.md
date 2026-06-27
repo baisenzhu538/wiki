@@ -36,7 +36,7 @@ related:
 
 ## Source Refs
 
-- `src_20260503_5c91e867` -> `10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md`
+- 10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md`
 
 ## Reusable Knowledge
 

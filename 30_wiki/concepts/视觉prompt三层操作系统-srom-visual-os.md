@@ -37,7 +37,7 @@ related:
 
 ## Source Refs
 
-- `src_20260522_1ede9202` -> `10_raw/sources/src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os.md`
+- 10_raw/sources/src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os.md`
 
 ## Reusable Knowledge
 

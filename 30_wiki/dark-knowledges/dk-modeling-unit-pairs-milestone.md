@@ -108,4 +108,4 @@ updated_at: '2026-06-17'
 - [[tool-sop-template-modeling]] —— SOP/清单建模工具。
 - [[modeling-three-stages]] —— 流程建模阶段的方法论。
 - [[dk-modeling-course-rnd-ripe-fruit]] —— 研究型课程用成对单元模型替代精确课表，按成熟度摘果。
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#2650-2688` —— Truman 口述原文：单元模型与里程碑拼装。
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md#2650-2688` —— Truman 口述原文：单元模型与里程碑拼装。

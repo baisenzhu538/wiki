@@ -12,7 +12,7 @@ version: 1
 confidence: 0.88
 source_refs:
   - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
-  - 00_inbox/调研专题/一堂-用户调研实操课-口述.txt
+  - 00_inbox/调研专题/一堂-用户调研实操课-口述.docx
   - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
   - '[[yitang-research-domain-digest]]'

@@ -35,7 +35,7 @@ related:
 
 ## Source Refs
 
-- `src_20260503_f4891888` -> `10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md`
+- 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md`
 
 ## Reusable Knowledge
 

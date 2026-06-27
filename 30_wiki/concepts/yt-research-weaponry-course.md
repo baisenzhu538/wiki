@@ -78,7 +78,7 @@ trust_level: high
 
 ## Source Refs
 
-- `src_20260506_bb9048a6` -> `10_raw/sources/src_20260506_bb9048a6-第一个举手.md`
+- 10_raw/sources/src_20260506_bb9048a6-第一个举手.md`
 
 ## Reusable Knowledge
 

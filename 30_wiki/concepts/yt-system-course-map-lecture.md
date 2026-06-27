@@ -46,7 +46,7 @@ Trumen 2025 年开学第一课，系统讲解一堂全部 200+ 门课程的宏�
 
 ## Source Refs
 
-- `src_20260506_13e7bbca` -> `10_raw/sources/src_20260506_13e7bbca-值班主.md`
+- 10_raw/sources/src_20260506_13e7bbca-值班主.md`
 
 ## Reusable Knowledge
 

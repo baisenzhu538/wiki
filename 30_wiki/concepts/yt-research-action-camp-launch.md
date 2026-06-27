@@ -76,7 +76,7 @@ related:
 
 ## Source Refs
 
-- `src_20260506_e4634e13` -> `10_raw/sources/src_20260506_e4634e13-说话人1-00-00.md`
+- 10_raw/sources/src_20260506_e4634e13-说话人1-00-00.md`
 
 ## Reusable Knowledge
 

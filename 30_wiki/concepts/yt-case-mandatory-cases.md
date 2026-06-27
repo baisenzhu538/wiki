@@ -43,7 +43,7 @@ related:
 
 ## Source Refs
 
-- `src_20260506_9b4788a6` -> `10_raw/sources/src_20260506_9b4788a6-声音和画面正常吗.md`
+- 10_raw/sources/src_20260506_9b4788a6-声音和画面正常吗.md`
 
 ## Reusable Knowledge
 

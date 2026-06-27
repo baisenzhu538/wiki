@@ -34,7 +34,7 @@ related:
 
 ## Source Refs
 
-- `src_20260428_db49a647` -> `10_raw/sources/src_20260428_db49a647-鑫港湾his系统分阶段整改报告.md`
+- 10_raw/sources/src_20260428_db49a647-鑫港湾his系统分阶段整改报告.md`
 
 ## Reusable Knowledge
 

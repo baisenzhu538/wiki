@@ -40,7 +40,7 @@ related:
 
 ## Source Refs
 
-- `src_20260427_970eb338` -> `10_raw/sources/src_20260427_970eb338-街顺app全面调研报告.md`
+- 10_raw/sources/src_20260427_970eb338-街顺app全面调研报告.md`
 
 ## Reusable Knowledge
 

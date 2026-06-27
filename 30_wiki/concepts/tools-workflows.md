@@ -37,7 +37,7 @@ volcengine.
 
 ## Source Refs
 
-- `src_20260522_9d322e81` -> `10_raw/sources/src_20260522_9d322e81-tools-workflows.md`
+- 10_raw/sources/src_20260522_9d322e81-tools-workflows.md`
 
 ## Reusable Knowledge
 
