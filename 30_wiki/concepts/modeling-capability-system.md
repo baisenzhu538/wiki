@@ -112,10 +112,10 @@ diagnostic_signals:
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 从 L3 到 L5 通常以「年」为单位，如何设计可量化的阶段跃迁判据（而非依赖主观判断）？
+- AI 辅助建模时，如何界定"人类审美判断"的具体检查点（避免变成"AI 出框架、人盖橡皮图章"）？
+- 模型武器库的淘汰机制：低使用率模型的退出标准是什么（调用率阈值、命中率阈值）？
+- 本质提炼跨领域迁移时，如何验证迁移有效性（避免把 A 领域的本质套到 B 领域失效）？
 
 ---
 
@@ -123,19 +123,17 @@ diagnostic_signals:
 
 ### 可直接转化的交付物
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 建模课题分级自检清单（7 题，判断课题进入哪一阶段——见下方"落地工具"）
+- 模型武器库三层分类表（基础/进阶/深度，按问题难度调用）
+- 本质提炼三步推导测试卡（通用解/自推演/关键要素/3 个具体动作）
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[modeling-three-stages]]（建模三段论——本卡是体系总览，三段论是核心框架）
+- [[modeling-level-map]]（建模能力段位图——L1-L6 爬山地图，本卡三阶段对应 L3-L5）
+- [[modeling-weapon-library]]（模型武器库——抽象建模阶段的选型工具）
+- [[process-modeling]]（流程建模——本卡第一阶段的具体方法）
+- [[framework-kdo-self-attack]]（自攻击方法论——AI 建模的挑错/撞击环节）
 
 ---
 
@@ -171,18 +169,14 @@ diagnostic_signals:
 
 ### 原始素材
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md`（Truman 建模能力培训笔记，案例速览行号见上表）
+- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`（培训口述逐字稿）
+- `10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md`（流程建模方法论文档）
 
 ### 归档 source
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `00_inbox/` 下对应素材已归档至 `10_raw/sources/`（详见上方三项）
+- 段位图/武器库图见 `src_20260614_bb892297` / `src_20260614_73352fa5`
 
 ---
 
