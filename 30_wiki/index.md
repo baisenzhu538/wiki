@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-27T12:33:22+00:00_
+_Last updated: 2026-06-27T12:36:07+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -912,7 +912,7 @@ _Last updated: 2026-06-27T12:33:22+00:00_
 - [[five-step-domain-digest|five-step-domain-digest]] — source no source
 - [[human-ai-collaboration-double-triangle|域摘要：人机协作范式——双三角模型域]] — source `src_unknown`
 - [[lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
-- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
+- [[strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
 - [[yitang-domain-digest|域摘要：一堂知识体系总目]] — source no source
 - [[yitang-research-domain-digest|域摘要：调研方法论（90+张卡）]] — source `60_feedback/diagnosis/diag_20260620_调研专题素材验收.md`
 - [[Kimi-月之暗面|Kimi-月之暗面]] — source no source
@@ -961,12 +961,12 @@ _Last updated: 2026-06-27T12:33:22+00:00_
 - [[framework-strategy-basics-04-system|体系（Creation System）：丰田供应链生态+苹果iOS生态]] — source `src_unknown`
 - [[framework-strategy-basics-04-system|体系（Creation System）：生态体系——丰田供应链+苹果iOS]] — source `src_unknown`
 - [[framework-strategy-blm|IBM BLM 业务领导力模型 + 华为五看三定]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md`
-- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
+- [[framework-strategy-brm|冉鹏版 BRM 框架（源于 IBM BLM 方法论）]] — source `00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
 - [[framework-strategy-business-design|业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
 - [[framework-strategy-five-basics|冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革]] — source `src_unknown`
 - [[framework-strategy-five-forces|波特五力分析框架]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md`
 - [[framework-strategy-kai-innovation-directions|凯纳创新方向分类框架]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md`
-- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/精益创业/transcript_低成本验证认知篇.md`
+- [[framework-strategy-lean-validation|战略假设的精益验证流程]] — source `00_inbox/精益创业/transcript_低成本验证认知篇.md`
 - [[framework-strategy-mckinsey-7s|麦肯锡 7S 模型：组织诊断与变革管理]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md`
 - [[framework-strategy-pyramid|企业战略金字塔：公司、业务与职能协同]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md`
 - [[framework-strategy-six-stages|冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同]] — source `src_unknown`

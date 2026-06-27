@@ -14,7 +14,7 @@ language: zh-CN
 domain:
 - src_unknown
 source_refs:
-- 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 - src_unknown
   - src_unknown
   - src_unknown

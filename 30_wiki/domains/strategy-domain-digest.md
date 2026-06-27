@@ -9,7 +9,7 @@ domain:
   - src_unknown
 source_context: 冉鹏「引擎点火 · 战略破局」课程——30年战略咨询经验浓缩
 source_refs:
-  - 00_inbox/战略专题/冉鹏战略课录屏_ocr.md_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+  - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 created_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
