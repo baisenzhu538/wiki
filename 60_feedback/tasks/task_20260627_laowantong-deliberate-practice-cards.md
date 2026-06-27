@@ -355,4 +355,76 @@ related:
 
 ---
 
+## 刻意练习卡片生产完成汇报
+
+> 生产人：老顽童（Kimi 实例）
+> 完成时间：2026-06-27
+> 任务状态：pending_review
+
+### 产出清单
+
+| 卡片 | 类型 | 状态 | 路径 |
+|:---|:---|:---|:---|
+| framework-yitang-deliberate-practice-1plus4 | framework | enriched | 30_wiki/frameworks/framework-yitang-deliberate-practice-1plus4.md |
+| tool-yitang-practice-20hour-starter | tool | enriched | 30_wiki/tools/tool-yitang-practice-20hour-starter.md |
+| framework-yitang-three-ring-ability-focus | framework | enriched | 30_wiki/frameworks/framework-yitang-three-ring-ability-focus.md |
+| concept-yitang-comfort-stretch-panic-zones | concept | enriched | 30_wiki/concepts/concept-yitang-comfort-stretch-panic-zones.md |
+| tool-yitang-best-practice-as-golden-finger | tool | enriched | 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md |
+| tool-yitang-feedback-self-check | tool | enriched | 30_wiki/tools/tool-yitang-feedback-self-check.md |
+| framework-ai-deliberate-practice-loop | framework | enriched | 30_wiki/frameworks/framework-ai-deliberate-practice-loop.md |
+| case-yitang-poker-parameterized-practice | case | enriched | 30_wiki/cases/case-yitang-poker-parameterized-practice.md |
+| case-yitang-sales-routine-deconstruction | case | enriched | 30_wiki/cases/case-yitang-sales-routine-deconstruction.md |
+| case-yitang-ai-painting-commercialization | case | enriched | 30_wiki/cases/case-yitang-ai-painting-commercialization.md |
+| dk-yitang-deliberate-practice-common-traps | dk | enriched | 30_wiki/dk/dk-yitang-deliberate-practice-common-traps.md |
+
+**实际产出：11 张卡**（任务单预计 12 张，因 `concept-yitang-ai-era-deliberate-practice` 已按跨域桥接补深挖诊断升级为 `framework-ai-deliberate-practice-loop`，未单独建 concept 卡）。
+
+### pre-submit 输出
+
+```text
+====================================================================
+  Pre-Submit Gate Report
+====================================================================
+  Files checked: 11
+  Passed:        11
+  Failed:        0
+
+  All gates passed. Ready for human review.
+```
+
+### 自攻击报告
+
+已对 4 张核心卡执行四路对抗攻击，报告位于 `60_feedback/adversarial/`：
+
+- `atk_framework-yitang-deliberate-practice-1plus4_2026-06-27.md`
+- `atk_tool-yitang-practice-20hour-starter_2026-06-27.md`
+- `atk_framework-yitang-three-ring-ability-focus_2026-06-27.md`
+- `atk_framework-ai-deliberate-practice-loop_2026-06-27.md`
+
+攻击结果：无 🔴 致命问题；🟡 严重问题已修复或已通过标注/降 confidence 降低风险；全部卡片重新通过 pre-submit。
+
+### 需要王语嫣/欧阳锋重点审查的项
+
+1. **framework-yitang-deliberate-practice-1plus4**：
+   - "长期追求"在结构图中是前提，在公式中作为乘数出现，虽已加注说明，但仍需确认表述是否清晰无歧义。
+   - 学术文献（Ericsson 1993/2016、Yerkes-Dodson 1908）已加入 source_refs，请确认引用格式是否符合 KDO 规范。
+
+2. **tool-yitang-practice-20hour-starter**：
+   - "20 小时超过 80% 的人"已弱化为"20 小时达到 good enough/够用水平"，请确认是否与诊断报告要求一致。
+   - 麻将案例已严格按方法论视角处理，未宣扬赌博技巧，请抽检。
+
+3. **framework-yitang-three-ring-ability-focus**：
+   - 三环圈层定义（内圈人生红点、中圈专业、外圈基础）与 Truman 原意是否完全对齐，特别是"管理属于外圈保下限"的表述。
+   - 新增评分表模板是否可操作，请审。
+
+4. **framework-ai-deliberate-practice-loop**：
+   - 桥接卡 related=10，请确认是否满足"复杂桥接 ≥8"且跨域链接足够深。
+   - 引用的 2024 年 AI 教育预印本（Wang et al. / Guo et al.）请确认可接受性；如不达标，需替换为更权威来源。
+
+5. **case 卡数字标注**：
+   - 乔牌、蓝军、崔磊案例中的关键数字均已按 `[conf=X, source=...]` 标注，请抽检置信度设置是否合理。
+
+---
+
 *任务下达：王语嫣 | 日期：2026-06-27*
+*生产完成：老顽童（Kimi） | 日期：2026-06-27*

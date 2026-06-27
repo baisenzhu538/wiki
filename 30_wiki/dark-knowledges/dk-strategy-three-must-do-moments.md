@@ -15,7 +15,8 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
-  # 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
+---
+# 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
 
   ## 原始表述
 
