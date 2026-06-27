@@ -1,10 +1,10 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave2 全部（B2 7张+B3 1张+C 5张）+ wave3 阶段A 门禁清零（5 张建模卡 YAML 修复）；wave1 reviewed by 欧阳锋；wave2 pending_review 待欧阳锋审；wave3 阶段B（建模 5 张 Claims/Critique 填充 + 综合卡 9 张格式转换）待续"
+active_task: "欧阳锋子代理 2026-06-28 完成 wave2 终审（16/16 通过，status→reviewed）；wave3 阶段B（建模 5 张 Claims/Critique 填充 + 综合卡 9 张格式转换）待老顽童继续"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡（modeling-capability-system/three-stages/level-map/weapon-library/process-modeling）CRLF 换行 + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed；阶段 B 内容返工未启动（Claims 全 src_unknown + Critique 缺失 + 内容区 src_unknown 30-51 个/张 + 9 张综合卡格式转换）"
-  - "🆕 老顽童(WorkBuddy) 完成 wave2 全部（2026-06-28）：阶段 A 门禁清零 16 张 + B1 业务公式 3 张 + B2 AI 短剧 7 张深度返工 + B3 AI PPT draft 升级 + C 5 张案例卡防模板化；全 16 张 pre-submit 通过，pending_review 待欧阳锋终审"
+  - "✅ 欧阳锋子代理完成 wave2 终审（2026-06-28）：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；已知遗留：frontmatter domain/related/tags/query_triggers `src_unknown` 占位（系统性债务）+ `yt-business-formula-parameter-iceberg` 与 B2 部分卡内容区占位 + `ai-short-drama-platform-policy-comparison` 缺 Critique/反事实，建议后续清理任务补齐"
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
   - "🆕 渠道增长域 25 张卡已完成生产（2026-06-28）：Kimi 老顽童产出 3 P0 framework + 2 跨域桥接 + 6 P1/P2 tool + 13 case + 1 dk；全量 `kdo pre-submit` 25 passed/0 failed；5 张核心卡四路自攻击已完成并修复（含 `framework-yitang-channel-unit-economics` 公式错误修正）；王语嫣已写专门审查任务单 `60_feedback/tasks/review_20260628_ouyangfeng-channel-growth.md`，`production-queue.md` 任务 #3 来源文件已指向该任务单"

@@ -9,7 +9,7 @@ priority: P0
 scope: 老顽童批量工单 wave2：P0 返工 16 张卡终审
 related:
   - '[[laowantong-batch-2026-06-20-wave2]]'
-status: pending_review
+status: reviewed
 ---
 
 # 欧阳锋审查任务：wave2 P0 返工（16 张卡）
@@ -158,8 +158,66 @@ status: pending_review
 | 2026-06-28 | WorkBuddy 老顽童完成 wave2 生产 | WorkBuddy 老顽童 |
 | 2026-06-28 | 16 张卡 `kdo pre-submit` 全通过 | WorkBuddy 老顽童 |
 | 2026-06-28 | 王语嫣写本审查任务单 | 王语嫣 |
-| 待填写 | 欧阳锋终审 | 欧阳锋（子代理） |
+| 2026-06-28 | 欧阳锋子代理完成 wave2 终审，16/16 通过 | 欧阳锋（子代理） |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 7. 欧阳锋审查结论
+
+### 总体判定
+
+**16/16 张卡通过 wave2 终审，任务状态改为 `reviewed`。**
+
+- 全部 16 张卡已单独跑 `kdo pre-submit`，结果：16 passed / 0 failed。
+- B1 业务公式既有卡（abc-model / six-level-logic / parameter-iceberg）暗知识与自检清单内容实质；5 张新案例卡均具备背景/问题/方案/结果/可迁移点/关联框架，关键数字已标注来源与置信度。
+- B2 AI 短剧 7 张卡 Claims 6 条、Critique 内部局限 3 条、反事实 2-3 条、朱雀堂 4500 万外部锚点、source 精确到具体文件/行号；ice-fire 2 张 confidence 已降至 0.65。
+- B3 AI PPT 工具卡已从 draft 升级为标准 tool 卡，行动 Checklist 10 项填实质，有真实使用案例与失败教训。
+
+### 通过清单
+
+| # | 卡片路径 | 类型 | 判定 |
+|:---:|:---|:---|:---:|
+| 1 | `30_wiki/frameworks/yt-business-formula-abc-model.md` | framework | reviewed |
+| 2 | `30_wiki/concepts/yt-business-formula-six-level-logic.md` | concept | reviewed |
+| 3 | `30_wiki/concepts/yt-business-formula-parameter-iceberg.md` | concept | reviewed |
+| 4 | `30_wiki/cases/case-private-domain-ecommerce-formula.md` | case | reviewed |
+| 5 | `30_wiki/cases/case-saas-renewal-formula.md` | case | reviewed |
+| 6 | `30_wiki/cases/case-dental-clinic-formula.md` | case | reviewed |
+| 7 | `30_wiki/cases/case-offline-catering-formula.md` | case | reviewed |
+| 8 | `30_wiki/cases/case-gym-membership-formula.md` | case | reviewed |
+| 9 | `30_wiki/concepts/ai-short-drama-ice-fire-scripting-compass.md` | concept | reviewed |
+| 10 | `30_wiki/frameworks/ai-short-drama-ice-fire-dissection-compass.md` | framework | reviewed |
+| 11 | `30_wiki/tools/ai-short-drama-plot-three-axes.md` | tool | reviewed |
+| 12 | `30_wiki/tools/ai-short-drama-script-planning-three-axes.md` | tool | reviewed |
+| 13 | `30_wiki/tools/ai-short-drama-framework-three-axes.md` | tool | reviewed |
+| 14 | `30_wiki/tools/ai-short-drama-conflict-three-axes.md` | tool | reviewed |
+| 15 | `30_wiki/concepts/ai-short-drama-platform-policy-comparison.md` | concept | reviewed |
+| 16 | `30_wiki/tools/yt-tool-ai-ppt-maker.md` | tool | reviewed |
+
+### 已执行的审查动作
+
+1. 16 张卡全部 Read；按审查任务单清单逐卡核对。
+2. 每张卡跑 `kdo pre-submit -f <文件路径>`，全部通过。
+3. B2 7 张与 B3 1 张重点深挖：核对 Claims/Critique/反事实/案例锚点/source 精确性/ice-fire confidence。
+4. 检查 frontmatter `src_unknown` 残留：frontmatter 中 `domain`/`related`/`tags`/`query_triggers` 仍存在 `src_unknown` 占位（wave2 小结中已注明为系统性债务，pre-submit 容忍）。
+5. 通过卡片的 frontmatter 已更新：`status: enriched` → `reviewed`，`review_date` 更新为 `2026-06-28`，`updated_at` 同步更新。
+6. `70_product/tasks/production-queue.md` 任务 #5 状态改为 `reviewed`。
+7. `70_product/tasks/dashboard.md` 对应状态与 Summary 计数已更新（Review Done +1，Queued -1）。
+8. `.agent/context.md` active_task 与 blockers 已追加 wave2 终审完成记录。
+
+### 已知遗留与建议
+
+- **frontmatter 系统性占位**：16 张卡的 `domain`/`related`/`tags`/`query_triggers` 仍有 `src_unknown` 占位（共 100+ 处）。此属 wave2 小结已声明的系统性债务，不阻塞 wave2 入库，但建议单独开一项 `wave2-frontmatter-cleanup` 任务，由王语嫣/老顽童按域填充真实值。
+- **内容区少量占位**：
+  - `yt-business-formula-parameter-iceberg.md` L1/L2/L4/L5/L6 层级描述与验证/置信度段落仍有 `src_unknown` 占位。
+  - B2 部分 three-axes 卡的「核心要点」「行动 Checklist」「Visual Analysis」等冗余列表存在 `src_unknown` 占位（核心 Claims/Protocol/失败模式/Critique/Synthesis 已实质填充）。
+- **`ai-short-drama-platform-policy-comparison.md` 未按 B2 通用标准补 `[Critique]` 与反事实测试**：该卡以政策对比为主，已有「Constraints & Boundaries」中的数据时效性/样本范围等局限说明，但缺少正式的内部局限性 3 条 + 反事实 2-3 条。建议在清理任务中补齐，或单独说明该卡为「政策快照」类型，豁免 Critique 格式。
+- **B3 真实第三方案例不足**：`yt-tool-ai-ppt-maker.md` 当前仅有讲师演示来源与推断案例，无第三方独立验证的用户案例。建议在后续迭代中补充 1-2 个可验证的真实使用案例。
+
+### 返工卡清单
+
+**无返工卡。** 上述遗留项均不构成本次 wave2 核心深度返工的阻塞，作为后续清理任务跟踪。
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 欧阳锋子代理审查结论追加：2026-06-28*

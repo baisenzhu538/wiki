@@ -54,16 +54,11 @@ def backup(output_dir: Path = None):
     print(f"备份完成: {out}")
     print(f"  {count} 文件, {sz_mb:.1f} MB")
 
-    # 清理旧备份（保留最近 7 天，从 14 天缩短以减少流量）
-    for old in sorted(NUTSTORE.glob("kdo-vault-*.zip")):
-        try:
-            date_str = old.stem.replace("kdo-vault-", "")
-            d = datetime.strptime(date_str, "%Y%m%d-%H%M%S")
-            if d < datetime.now() - timedelta(days=7):
-                old.unlink()
-                print(f"  清理旧备份: {old.name}")
-        except ValueError:
-            pass
+    # 只保留最新 1 个备份（git + 坚果云已是三保险）
+    all_backups = sorted(NUTSTORE.glob("kdo-vault-*.zip"))
+    for old in all_backups[:-1]:
+        old.unlink()
+        print(f"  清理旧备份: {old.name}")
 
 # ── 恢复 ──
 
