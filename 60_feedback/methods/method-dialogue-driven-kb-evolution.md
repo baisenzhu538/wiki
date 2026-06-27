@@ -13,6 +13,7 @@ related:
   - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
   - '[[task_20260627_laowantong-deliberate-practice-cards]]'
   - '[[task_20260627_laowantong-channel-growth-cards]]'
+  - '[[method-systematic-dialogue-kb-evolution-hybrid]]'
 ---
 
 # 对话驱动知识库进化模型（Dialogue-Driven KB Evolution）

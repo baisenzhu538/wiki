@@ -17,7 +17,8 @@ blockers:
   - "🆕 王语嫣补做跨域桥接深挖：渠道增长×单元模型、渠道增长×精益创业、刻意练习×AI协作；产出 diag_20260627_wangyuyan-cross-domain-bridge-supplement.md"
   - "🆕 任务单已追加3张跨域桥接卡：framework-yitang-channel-unit-economics、concept-yitang-channel-lean-validation-bridge、framework-ai-deliberate-practice-loop；待老顽童生产"
   - "🆕 王语嫣与用户共同提炼方法论模型：method-dialogue-driven-kb-evolution（对话驱动知识库进化五环模型），已写入 60_feedback/methods/"
-next_session_hint: "下一步：① 老顽童按更新后任务单生产刻意练习域12张卡+渠道增长域16-17张卡（含3张跨域桥接卡）；② 王语嫣按九层深挖+跨域桥接标准验收；③ 黄药师继续kdo index/lint基建；④ 欧阳锋按需终审P0级framework卡；⑤ 后续对话可按 method-dialogue-driven-kb-evolution 五环模型迭代。"
+  - "🆕 王语嫣与用户共同提炼第二方法论模型：method-systematic-dialogue-kb-evolution-hybrid（冷热混合进化模型），明确系统扫描负责发现机会、对话负责创造高价值桥接"
+next_session_hint: "下一步：① 老顽童按更新后任务单生产刻意练习域12张卡+渠道增长域16-17张卡（含3张跨域桥接卡）；② 王语嫣按九层深挖+跨域桥接标准验收；③ 黄药师继续kdo index/lint基建；④ 欧阳锋按需终审P0级framework卡；⑤ 王语嫣设计并试运行 kb-evolution-signals 周报机制；⑥ 后续对话可按 method-dialogue-driven-kb-evolution + method-systematic-dialogue-kb-evolution-hybrid 双模型迭代。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
