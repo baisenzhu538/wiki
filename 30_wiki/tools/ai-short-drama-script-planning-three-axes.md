@@ -30,23 +30,17 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- 
-framework_lens: 第一板斧·剧本基地
+- framework_lens: 第一板斧·剧本基地
   follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？
-- 
-framework_lens: 第二板斧·内容走向
+- framework_lens: 第二板斧·内容走向
   follow_up_question: 你是否提前锁定了 10-15 个关键剧情节点？
-- 
-framework_lens: 第三板斧·剧情终局
+- framework_lens: 第三板斧·剧情终局
   follow_up_question: 你在写第一集时是否已明确结局的情绪落点和价值主张？
-- 
-framework_lens: 第二板斧·内容走向
+- framework_lens: 第二板斧·内容走向
   follow_up_question: 你是否为每个节点标注了情绪功能（铺垫/冲突/反转/卡点/情绪峰值）并为节点串起了情绪曲线？
-- 
-framework_lens: 第三板斧·剧情终局
+- framework_lens: 第三板斧·剧情终局
   follow_up_question: 你在设计走向时是否用终局倒推检查过每个关键节点都指向这个结局？
-- 
-framework_lens: 第一板斧·剧本基地
+- framework_lens: 第一板斧·剧本基地
   follow_up_question: 你的剧本基地里是否写清楚了目标平台、受众画像、节奏与钩子密度要求？
 
 ---

@@ -30,26 +30,19 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- 
-framework_lens: 第一板斧·外在阵营立分明
+- framework_lens: 第一板斧·外在阵营立分明
   follow_up_question: 反派的阵营立场是否有清晰的利益、价值观或身份逻辑？
-- 
-framework_lens: 第二板斧·内在人际见真情
+- framework_lens: 第二板斧·内在人际见真情
   follow_up_question: 主角与关键配角之间是否有共同记忆、利益交换或情感债务？
-- 
-framework_lens: 第三板斧·自我宿命寻答案
+- framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角最终的选择是否回应了他/她内心深处的恐惧或渴望？
-- 
-framework_lens: 第三板斧·自我宿命寻答案
+- framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角在决战前是否做出了一个让其身份发生不可逆改变的选择？
-- 
-framework_lens: 第二板斧·内在人际见真情
+- framework_lens: 第二板斧·内在人际见真情
   follow_up_question: 是否为关键人物关系设计了情感债务和至少一处关系反转？
-- 
-framework_lens: 三层冲突配比失衡
+- framework_lens: 三层冲突配比失衡
   follow_up_question: 三层冲突的戏份配比是否匹配题材定位（逆袭/甜宠/成长）？
-- 
-framework_lens: 第三板斧·自我宿命寻答案
+- framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角的成长是否通过具体行动或牺牲体现，而非独白/旁白？
 
 ---

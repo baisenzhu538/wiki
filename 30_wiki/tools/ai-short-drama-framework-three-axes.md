@@ -31,20 +31,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- 
-framework_lens: 第一板斧·深渊入局闯难关
+- framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？
-- 
-framework_lens: 第二板斧·迷雾博弈克万难
+- framework_lens: 第二板斧·迷雾博弈克万难
   follow_up_question: 迷雾阶段是否设置了至少 3 次递进式障碍，每次都比上一次更难？
-- 
-framework_lens: 第三板斧·决战收官展不凡
+- framework_lens: 第三板斧·决战收官展不凡
   follow_up_question: 决战是否同时回应了开头的欲望、中段的障碍，并给出情绪落点？
-- 
-framework_lens: 三斧结构完整性检查
+- framework_lens: 三斧结构完整性检查
   follow_up_question: 每一集能否标注它属于"深渊/迷雾/决战"中的哪一阶段？阶段之间是否有清晰的转折钩子？
-- 
-framework_lens: 第一板斧·深渊入局闯难关
+- framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 第一集前 30 秒是否让观众看到主角的欲望、日常被打破，以及不得不行动的理由？
 
 ---
