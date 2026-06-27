@@ -44,6 +44,8 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 5. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 
 > 💡 **失忆恢复口令**：用户对你说「欧阳锋，切到 wiki 目录，读 startup 和队列，审第一件 pending_review」时，按此执行。
+>
+> **注意：wave 系列批量工单有专门审查任务单**。队列中 `laowantong-batch-2026-06-20-wave*` 类的 pending_review 项，来源文件列的是 `review_YYYYMMDD_ouyangfeng-waveN.md`，不要读 `laowantong-batch-2026-06-20.md` 全文。按审查任务单的清单逐卡审即可。
 
 ## 深挖重写 SOP
 

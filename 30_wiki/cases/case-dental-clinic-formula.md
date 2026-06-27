@@ -145,15 +145,15 @@ GMV = 初诊成交 GMV + 升级方案 GMV + 长周期复购 GMV
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-business-formula-abc-model]]（ABC 模型——A=初诊成交 GMV、B=危机感知度、C=乘法漏斗）
+- [[yt-business-formula-six-level-logic]]（六层逻辑——从 L1 成交率拆到 L4 危机感知行为指标）
+- [[yt-business-formula-parameter-iceberg]]（参数冰山——危机感知是 L5 本质层，需拆为 4 个行为子参数）
+- [[yt-business-formula-abc-model]] 暗知识（相关 vs 因果——满意度与成交率相关，危机感知才是直接因）
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 案例数字（月接诊 2000 人/成交率 30%）来自孔阳培训口述，未独立核实，置信度 medium
+- 危机感知四要素（发现/呈现/预演/紧迫）来自培训方法论，置信度 medium
+- 费用递增数字（补 300/根管 3000/种植 1.5 万）为口腔行业常见区间，非具体诊所报价，置信度 medium

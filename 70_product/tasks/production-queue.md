@@ -30,7 +30,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 队列序号 | 任务 ID | 任务名称 | 状态 | 领取人 | 预计卡数 | 阻塞/依赖 | 来源文件 | 备注 |
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
-| 1 | `laowantong-batch-2026-06-20-wave1` | 老顽童批量工单第 1 波：门禁快速清理 | pending_review | 老顽童(WorkBuddy) | 18 | 无 | `laowantong-batch-2026-06-20.md` | Hermes 2026-06-27 晚完成 1.1+1.2（7 张王欢 dk：source_refs/trust_level/dark_knowledge_type）；WorkBuddy 老顽童 2026-06-28 收尾 1.3+1.4+结构修复（7 张 yt 卡 diagnostic_signals YAML 粘连修复 + 3 张 dk 卡 6 段标准重组 + market-size-pitfalls confidence 对齐 0.78/medium）；全 18 张 `kdo pre-submit` 通过（18 passed/0 failed），待欧阳锋终审 |
+| 1 | `laowantong-batch-2026-06-20-wave1` | 老顽童批量工单第 1 波：门禁快速清理 | pending_review | 老顽童(WorkBuddy) | 18 | 无 | `review_20260628_ouyangfeng-wave1.md` | 18 张卡已生产并通过 `kdo pre-submit`；欧阳锋审前必读 `60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，不要直接读 `laowantong-batch-2026-06-20.md` 全文 |
 | 2 | `task_20260627_laowantong-deliberate-practice-cards` | 元能力-刻意练习域卡片化（含 AI 协作桥接卡） | reviewed | - | 11 | 无（可与 wave1 并行） | `60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md` | 欧阳锋终审通过，11 张卡 status 更新为 reviewed，frontmatter 已补 review_date |
 | 3 | `task_20260627_laowantong-channel-growth-cards` | 渠道增长域卡片化（含 2 张跨域桥接卡） | claimed-kimi | - | 24-25 | 无（可与 wave1 并行） | `60_feedback/tasks/task_20260627_laowantong-channel-growth-cards.md` | Kimi 负责；含单元模型+精益创业桥接；案例审计后追加 8 张 case 卡 |
 | 4 | `task_20260627_laowantong-lanyi-panproduct-organization` | 兰毅泛产品组织化 + 泛产品设计域升级 | queued | - | 10-12 | 无 | `task_20260627_laowantong-lanyi-panproduct-organization.md` | P0-P1；Kimi 负责；按规律执行，完成刻意练习域后按序领取，不插队 |

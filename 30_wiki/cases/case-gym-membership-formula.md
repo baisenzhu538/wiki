@@ -154,15 +154,15 @@ related:
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-business-formula-abc-model]]（ABC 模型——A=续卡收入、B=满意度+到店习惯+价格接受度、C=乘法漏斗）
+- [[yt-business-formula-six-level-logic]]（六层逻辑——从 L1 续卡率拆到 L4 到店习惯行为指标）
+- [[yt-business-formula-parameter-iceberg]]（参数冰山——到店习惯是 L5 本质层，需拆为固定时段/streak/社群行为指标）
+- [[yt-business-formula-abc-model]] 暗知识（相关 vs 因果——满意度与续卡率相关，到店习惯才是直接因；加法 vs 乘法——满意度内部是加法）
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 案例数字（续卡率 35%→50%）来自孔阳培训口述，未独立核实，置信度 medium
+- 因果链（满意度→到店频率→到店习惯→续卡率）来自培训方法论，置信度 medium-high
+- 21 天打卡/固定时段预约等为健身行业通用实践，置信度 medium

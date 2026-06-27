@@ -115,9 +115,9 @@ GMV = 堂食 GMV + 外卖 GMV + 会员复购 GMV
 
 ## 教训
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **平均用力做促销是会员复购盲区的根源**：优惠券广撒网但不绑定场景，复购率看似提升但都是"占便宜型"复购，停券即流失；场景绑定（工作日午餐/家庭聚餐）才是稳定复购的因。
+- **总复购率掩盖人群差异**：只看总复购率会误判——会员复购可能很高，非会员很低；需先切分会员/非会员、场景/非场景，才能定位真实瓶颈。
+- **差评不回复 = 主动流失客户**：差评后 7 天内是挽回窗口期，不回复的客户二次到店率趋近于 0；差评回复 + 补救券是复购的隐性抓手。
 
 ---
 
@@ -153,15 +153,15 @@ GMV = 堂食 GMV + 外卖 GMV + 会员复购 GMV
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-business-formula-abc-model]]（ABC 模型——A=同店 GMV、B=会员复购+场景绑定、C=加法切分+乘法漏斗）
+- [[yt-business-formula-six-level-logic]]（六层逻辑——从 L1 GMV 拆到 L4 场景触发频次/差评后复访率）
+- [[yt-business-formula-parameter-iceberg]]（参数冰山——场景绑定是 L5 本质层，需拆为具体场景的行为指标）
+- [[yt-business-formula-abc-model]] 暗知识（加法 vs 乘法——会员复购是加法切分，转化漏斗是乘法）
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 案例数字（50 家门店/月 GMV 2000 万/客单价 25 元/同店 +30% 目标）来自孔阳培训口述，未独立核实，置信度 medium
+- 场景绑定框架（工作日午餐/家庭聚餐）来自餐饮行业通用实践，置信度 medium-high
+- 差评 7 天挽回窗口期为行业经验，已在多个餐饮案例复用，置信度 medium-high

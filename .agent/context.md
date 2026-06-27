@@ -28,7 +28,8 @@ blockers:
   - "🆕 统一生产队列已创建：70_product/tasks/production-queue.md；老顽童按队列顺序领取，欧阳锋按队列顺序审核；当前队列前3项：wave1 门禁清理 / 刻意练习域 / 渠道增长域"
   - "🆕 失忆恢复口令文件已创建：.agent/amnesia-recovery-one-liners.md；用户可用一句话让任何 Agent 快速进入状态，无需搜索数据库"
   - "🆕 用户明确长期原则（2026-06-28）：追求知识库深度、扩宽边界、无限追求健壮和发展、提高 Agent 咨询能力边界；若用户急功近利，Agent 应阻止并给正确建议。已写入 .agent/kb-evolution-direction.md 和 20_memory/operating-principles.md"
-next_session_hint: "下一步：① 老顽童从 production-queue.md 领取 wave1 门禁清理任务；② 完成后依次领取刻意练习域、渠道增长域、兰毅泛产品组织化任务；③ 欧阳锋按队列顺序审核 pending_review 任务；④ 黄药师继续kdo index/lint基建；⑤ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑥ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+  - "🆕 wave1 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，18 张卡清单+审查标准+判定规则；`production-queue.md` 第 1 项来源文件已指向该任务单；`ouyangfeng-context.md` 已提醒欧阳锋 wave 类任务读专门审查任务单，不要读 `laowantong-batch-2026-06-20.md` 全文"
+next_session_hint: "下一步：① 欧阳锋按 `review_20260628_ouyangfeng-wave1.md` 审 wave1 18 张卡；② 老顽童继续 waves 2-5 / 渠道增长域生产；③ 黄药师继续kdo index/lint基建；④ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

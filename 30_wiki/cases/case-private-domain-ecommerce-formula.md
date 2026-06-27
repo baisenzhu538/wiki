@@ -154,14 +154,14 @@ GMV = 活跃用户贡献 + 普通用户贡献 + 沉默用户贡献
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-business-formula-abc-model]]（ABC 模型——本案例用 A=GMV、B=各类用户贡献、C=加法关系拆解）
+- [[yt-business-formula-six-level-logic]]（六层逻辑——从 L1 的 GMV 拆到 L4 的信任度行为指标）
+- [[yt-business-formula-parameter-iceberg]]（参数冰山——信任度是 L5 本质层参数，需拆为 3-5 个行为指标）
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 案例数字（10W 人/月 GMV 100 万/人均 10 元）来自孔阳培训口述，未独立核实，置信度 medium
+- 用户分层比例（20%/50%/30%）为教学示例，非真实运营数据
+- 五类信任背书框架来自培训方法论，已在其他私域案例复用，置信度 medium-high
