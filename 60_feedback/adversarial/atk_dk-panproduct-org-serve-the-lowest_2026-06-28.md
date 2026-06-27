@@ -4,7 +4,7 @@ type: adversarial_report
 card_id: dk-panproduct-org-serve-the-lowest
 attack_date: 2026-06-28
 attacker: KDO Self-Attack Agent (GAN 四路)
-status: open
+status: fixed
 ---
 
 # 自攻击报告：dk-panproduct-org-serve-the-lowest
@@ -97,4 +97,84 @@ status: open
 
 ## 修复记录
 
-- 待修复
+**修复时间**：2026-06-28  
+**修复者**：老顽童  
+**修复后状态**：fixed  
+**kdo pre-submit**：✅ 通过（1 file, 1 passed, 0 failed）
+
+### 已修复问题
+
+#### 🟡 严重问题
+
+1. **核心口号泛化风险（Attacker A-1）**
+   - 在「一句话」中明确限定适用场景为「低强制协作组织」，并说明移植到科层制、军队、医院、强合规金融等领域需重新限定边界。
+   - 明确「最高服务最低」≠「放弃权威」。
+
+2. **Claim 2 因果推断过度简化（Attacker A-2）**
+   - 将「组织设计定理」改为「兰毅在低强制协作组织中观察到的经验规律」。
+   - 补充危机状态、军队指挥、医院急诊、强合规流程等集权必要场景作为限定。
+
+3. **source_refs 全部来自兰毅本人、核心主张处于 L5 单源口述层级（Attacker B-1）**
+   - frontmatter 中 `confidence` 从 0.85 降至 0.70，`trust_level` 从 medium-high 降至 medium。
+   - 新增 `source_level_note` 说明本卡核心主张与数字全部来自兰毅单源口述，未经过独立验证。
+   - 在「一句话」「原始表述」「Claim 1/2」中显式标注证据层级限制。
+
+4. **Claim 3 关键数字未在正文中出现（Attacker B-2）**
+   - 补充兰毅口述的关键数字：2 年、160+ 场/月、2000+ 场累计、170+ NPC、71% 留存、90% NPC 留存、300% 迭代增长率。
+   - 所有数字统一标注 `来源：兰毅一堂分享口述，数字待独立核实`，并将 Claim 3 置信度降至 0.60。
+   - 补充时间戳：数据约截至 2024 年。
+   - 提示可与 `[[case-panproduct-lanyi-shidonghui-npc]]` 互链验证。
+
+5. **When NOT to Use 遗漏问责/绩效/淘汰视角（Attacker C-1）**
+   - 在「适用边界→不适合场景」中新增「需要明确问责、绩效淘汰或安全追责的场景」。
+   - 在 Failure Modes 中新增「失败模式 6：以『服务』回避问责、绩效与淘汰」。
+   - 在 Action Triggers 中增加「制衡指标」列，引入产出/质量/财务指标。
+
+6. **未覆盖搭便车/道德风险视角（Attacker C-2）**
+   - 在 Failure Modes 中新增「失败模式 7：搭便车 / 道德风险」。
+   - 在 Action Triggers 中新增「出现搭便车迹象」触发场景及贡献可视化指标。
+
+7. **关键数字与案例未标注时间戳（Attacker D-1）**
+   - 在 Claim 3 和「适用边界」中统一标注案例数据时间约截至 2024 年，并提示超过 2 年的数字需谨慎迁移。
+
+8. **2024-2026 年新变量未纳入（Attacker D-2）**
+   - 在 Critique 中新增「质疑 5：2024-2026 年组织新变量论者」，讨论远程/混合办公、Linear/Notion AI/Claude Team/Slack AI Agent、AI agent 作为组织成员的影响。
+   - 更新「与其他知识的关联」中 `[[framework-ai-accelerated-strategy-cycle]]` 的说明。
+
+#### 🟢 轻微问题
+
+1. **「控制者」与「服务者」二元对立（Attacker A-3）**
+   - 在「洞见 2」表格上方说明该分类为**理想型对比**，而非互斥分类。
+   - 补充 transformational leadership、path-goal theory 视角，说明控制与服务可共存。
+
+2. **「互相成就」作为增长飞轮燃料缺少机制说明（Attacker A-4）**
+   - 在「洞见 4」中补充一个最小反馈回路图（A 的需求被 B 满足 → A 沉淀资产 → 降低 onboarding 成本 → 规模扩大 → B 也成长）。
+   - 明确该回路目前为待测试假设，转速和临界点缺乏独立验证。
+
+3. **缺乏失败案例与反例（Attacker B-3）**
+   - 在 Failure Modes 中新增 3 条概念性反例（回避问责、搭便车、决策瘫痪）。
+   - 在 Critique 中新增「质疑 6：反例 / 失败案例缺失」，显式说明当前素材中缺乏独立核实的公开失败案例，并建议在后续迭代中补充。
+
+4. **conf=0.95 未解释置信度依据（Attacker B-4）**
+   - 在「原始表述」后新增说明：`[conf=0.95]` 表示文本转写可靠度较高，观点本身的可迁移性置信度需另行评估。
+
+5. **与 related 卡片潜在冲突未标注（Attacker C-3）**
+   - 更新「与其他知识的关联」表，明确 `[[framework-lean-abcd-model]]` 在组织承载力不足时应让位于更硬的结构重组或人员淘汰。
+   - 明确 `[[framework-yitang-growth-flywheel]]` 的飞轮回路、指标和临界点仍需独立验证。
+   - 新增 `[[case-panproduct-lanyi-shidonghui-npc]]` 互链验证提示。
+
+6. **缺少对「最低」定义的说明（Attacker C-4）**
+   - 在「一句话」和「适用边界」中分别给出「最低」的操作定义：默认指组织层级/话语权最低、且具备基本参与能力的成员，而非能力最低或心理安全感最低者。
+
+7. **组织产品化成本边界缺失（本次修复重点）**
+   - 在「使用场景」中新增「组织产品化的隐性成本」段落，提醒小团队早期需承担需求洞察、角色设计、流程沉淀、反馈机制迭代等隐性成本。
+
+8. **经济/雇佣关系视角缺失（本次修复重点）**
+   - 在 Critique 中新增「质疑 4：经济 / 雇佣关系论者」，讨论薪酬、绩效、职业发展、劳动契约等正式组织变量与服务型领导的关系。
+
+### 未修复 / 留待后续迭代的问题
+
+1. **独立验证的公开失败案例**：当前素材中未找到可引用的、经过独立来源核实的组织因过度服务化/放权导致失控的公开案例。已在 Critique 和 Failure Modes 中概念性覆盖，但具体案例待补充。
+2. **2024-2026 年 servant leadership / shared leadership 新元分析/实证研究**：兰毅素材未涉及，且当前修复窗口未进行额外文献检索，仅在 Critique 中标注为缺口。
+3. **case-panproduct-lanyi-shidonghui-npc 的互链验证**：本卡已提示可互链，但该 case 卡是否包含独立审计数据需后续确认。
+4. **回放链接有效性**：源文件顶部的 `https://air.yitang.top/live/TNw74M_8XX` 未在卡片中引用，符合当前 source_refs 仅指向本地文件的规范；链接有效性检查未执行。

@@ -144,9 +144,63 @@ status: queued
 |:---|:---|:---|
 | 2026-06-28 | 欧阳锋渠道增长域终审发现遗留问题 | 欧阳锋 |
 | 2026-06-28 | 王语嫣写本清理任务单 | 王语嫣 |
-| 2026-06-28 | 黄药师完成 P2+P3：dk 卡移至 dark-knowledges/，concept 卡移至 concepts/，全库 wikilink 已更新，lint 616 无新增 | 黄药师 |
-| 待填写 | 老顽童完成 P1：13 张 case section 标准化 | 老顽童 |
+| 2026-06-28 | 黄药师完成 P2+P3：dk 卡移至 dark-knowledges/，concept 卡移至 concepts/，全库 wikilink 已更新，lint 无新增目录/链接类 ERROR | 黄药师 |
+| 2026-06-28 | 黄药师部分完成 P1：13 张 case 卡中 3 张已对齐 lint 标准 section（amazon/novel-app/topcity） | 黄药师 |
+| 待填写 | 老顽童/黄药师继续完成剩余 P1：10 张 case section 标准化 + dk-yitang-channel-exploration-traps section 结构调整 | 老顽童/黄药师 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 5. 欧阳锋审查结论
+
+**Verdict：未通过，需返工**
+
+### 已验收通过 ✅
+
+1. **目录移动完成**
+   - `dk-yitang-channel-exploration-traps.md` 已从 `30_wiki/dk/` 移至 `30_wiki/dark-knowledges/`
+   - `concept-yitang-channel-lean-validation-bridge.md` 已从 `30_wiki/frameworks/` 移至 `30_wiki/concepts/`
+   - 旧路径文件已删除
+2. **Wikilink 无断裂**
+   - 全库使用 `[[id]]` 格式引用，路径移动不影响链接解析
+   - 未发现指向旧路径的死链
+3. **未引入新增 lint ERROR**
+   - 目录移动本身未产生新的 broken-link/domain 类错误
+
+### 未完成，需继续修复 ❌
+
+1. **10/13 张 case 卡仍缺 lint 标准 section**
+   - 仍有问题：course-industrialization / solid-redbull / maiyi-cloud-computer / redburger-selection / lianjia-site-selection / yitu-lead / xujian-invoice-saas / yitang-shortvideo / shuzu-channel-scan-test / yitang-self-growth
+   - 已通过：amazon-growth-flywheel / novel-app-flywheel / topcity-growth-flywheel
+   - 典型缺失：`## 关键证据`、`## 可迁移场景`、`## 教训`
+   - 部分卡用 `## 失败模式警示` / `## 适用边界与复制建议` 等标题，需统一为 `## 失败模式`
+
+2. **1/1 张 dk 卡 section 结构未对齐**
+   - `dk-yitang-channel-exploration-traps.md` 仍缺顶层 `## 使用场景`
+   - 当前 `使用场景` 嵌套在 `## 操作方法` 下，需提升为顶层 section
+   - 建议按 dk 标准六段重排：原始表述 → 使用场景 → 操作方法 → 适用边界 → 为什么值钱 → 与其他知识的关联
+
+### 返工清单
+
+| # | 文件 | 问题 | 修复动作 |
+|---|------|------|----------|
+| 1 | `case-yitang-yitang-course-industrialization.md` | 缺关键证据/可迁移场景/教训；失败模式标题为 `失败模式警示` | 补三个 section 或重命名现有内容；标题改为 `## 失败模式` |
+| 2 | `case-yitang-solid-redbull-channel.md` | 缺关键证据/可迁移场景/教训/失败模式 | 重命名/拆分现有段落 |
+| 3 | `case-yitang-maiyi-cloud-computer-channel.md` | 同上 | 同上 |
+| 4 | `case-yitang-redburger-selection-industrialization.md` | 同上 | 同上 |
+| 5 | `case-yitang-lianjia-site-selection-industrialization.md` | 同上 | 同上 |
+| 6 | `case-yitang-yitu-lead-industrialization.md` | 同上 | 同上 |
+| 7 | `case-yitang-xujian-invoice-saas-channel.md` | 缺关键证据/可迁移场景/教训 | 同上 |
+| 8 | `case-yitang-yitang-shortvideo-industrialization.md` | 缺关键证据/可迁移场景/教训/失败模式 | 同上 |
+| 9 | `case-yitang-shuzu-channel-scan-test.md` | 同上 | 同上 |
+| 10 | `case-yitang-yitang-self-growth-channel.md` | 同上 | 同上 |
+| 11 | `dk-yitang-channel-exploration-traps.md` | `使用场景` 非顶层 | 提升为顶层 section，按标准六段重排 |
+
+### 验收标准
+
+- 11 个文件 `kdo pre-submit -f` 全部通过
+- 全库 `kdo lint` 中上述文件不再报 missing section ERROR
+- 不降低卡片原有内容质量
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 审查：欧阳锋*

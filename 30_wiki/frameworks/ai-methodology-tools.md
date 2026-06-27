@@ -53,24 +53,24 @@ related:
 ## 核心洞察
 
 1. **落地路径：从熟悉的小场景切入，按"找场景-做判断-做验证-搞开发-慢上线"五步推进，且必须先平行运行再逐步替代。**
-   - src_unknown
-   - src_unknown
+   - 来源：7759098 AI 场景落地方法分享（五步流程 + "找老的干小的" + 四要素验证 + 平行运行）
+   - 局限：五步流程为一堂课程框架，未独立验证普适性
 
 2. **人机分工：人类负责审美、体系、创造力与判断，AI 负责基本功、场景数据与执行；二者通过"双三角模型"对齐。**
-   - src_unknown
-   - src_unknown
+   - 来源：7356146 一堂-AI 工具应用 AMA（双三角模型 + Feature 训练 + 工具分层 + 人在环）
+   - 局限：双三角模型为一堂原创概念，无外部理论验证
 
 3. **能力训练应落在 Feature 层而非工具层：把 AI 能力拆分为可迁移的最小特性单元，通过刻意练习和上下文工程稳定输出。**
-   - src_unknown
-   - src_unknown
+   - 来源：4288010 一堂-AI 方法论探索（Muse 模型 + 双三角 + Feature 思维 + 原子封装）+ 4431344 AI 方法论实践课（上下文工程）
+   - 局限：Feature 思维借鉴软件工程但未在 AI 训练领域独立验证
 
 4. **组织化落地的演进方向：从单条提示词 → 可复用 Skill → Agent → 多 Agent 协作 → AI 原生组织/工具。**
-   - src_unknown
-   - src_unknown
+   - 来源：5638948 AI 组织行为学研究（五层分工 + 4×4 交叉验证 + 龙虾组织）+ 5383332 龙虾 AI 原生 IM 工具演示
+   - 局限：演进路径为一堂观察归纳，非行业共识
 
 5. **评估 AI 项目只看实际业务结果，不看中间效率指标；但需警惕工具焦虑、数据泄露与过度授权。**
-   - src_unknown
-   - src_unknown
+   - 来源：7759098 + 5273087 一堂-AI 龙虾使用分享（养虾四步法 + 数据安全 + 混合部署）
+   - 局限：评估标准为一堂课程主张，无独立案例验证
 
 ## 代表案例 / 录音清单
 
@@ -92,30 +92,34 @@ related:
 > 基于录音摘要与外部公开信息（AI 落地方法论、提示词工程、Agent 架构、企业 AI 转型研究）交叉核对。**本主题未生成独立 six-layer-validation 报告。**
 
 ### L1 可证伪性：中等
-- src_unknown
-- src_unknown
-- src_unknown
+- "五步落地流程"可通过实际 AI 项目执行过程验证
+- "双三角模型"人机分工可通过项目产出质量验证
+- 局限："73.2% 认知投降"等数字为口述，统计口径不明
 
 ### L2 行为一致性：中等
-- src_unknown
-- src_unknown
+- 10 条录音在"先平行运行再替代"的行为模式上一致
+- "从提示词→Skill→Agent"演进路径在多案例中一致
+- 局限：龙虾/Openclaw 等工具仅 1-2 个案例，行为一致性样本不足
 
 ### L3 多源验证：中等
-- src_unknown
-- src_unknown
-- src_unknown
+- AI 落地方法论有公开研究（麦肯锡/BCG AI 转型报告）可交叉
+- Feature 思维有软件工程 Feature 分解双源支撑
+- 局限：龙虾组织、双三角模型为一堂原创概念，无外部多源
 
 ### L4 情绪标记：中等
-- src_unknown
-- src_unknown
+- 部分录音含训练营推广内容，情绪偏正向
+- AI 工具分享带技术热情情绪
+- 局限：正向数据（转化率提升/成本替代）可能被推广情绪放大
 
 ### L5 时间稳定性：中低
-- src_unknown
-- src_unknown
+- AI 工具栈变化极快，2026-01 录音中的工具可能已迭代
+- 龙虾/Openclaw 等具体工具可能已更新或替代
+- 局限：工具层结论时效性短，方法论层相对稳定
 
 ### L6 利益相关度：中高
-- src_unknown
-- src_unknown
+- 录音来自一堂内部课程/训练营，与一堂品牌有利益关联
+- AI 方法论产品化有商业推广利益
+- 局限：利益相关度中高 → 效果数据需独立验证
 
 ### 综合可信度评级
 
@@ -138,36 +142,36 @@ related:
 
 ## 与现有 30_wiki 的差异点
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 本卡覆盖 AI 方法论全光谱（场景→训练→分工→组织），现有 wiki 多为单点工具卡
+- 本卡首次系统记录"双三角模型"人机分工框架
+- 本卡首次记录"Feature 思维"能力训练方法（AI 能力拆为可迁移最小单元）
+- 本卡首次记录"提示词→Skill→Agent→多 Agent→AI 原生组织"演进路径
 
 ## 置信度分层
 
 ### 事实层
-- src_unknown
-- src_unknown
-- src_unknown
+- 10 条录音的主题、时长、核心贡献（meetingSummary 可核对）
+- 五步落地流程（找场景-做判断-做验证-搞开发-慢上线）
+- 双三角模型人机分工框架（人类审美/判断/创造力 vs AI 基本功/数据/执行）
 
 ### 条件层
-- src_unknown
-- src_unknown
-- src_unknown
+- "找老的干小的"——条件：组织内有成熟业务可借力，纯新业务不适用
+- "先平行运行再替代"——条件：业务容许双轨并行，高频低风险场景才适用
+- "Feature 思维优于工具层训练"——条件：AI 工具栈相对稳定，工具频繁迭代时不适用
 
 ### 观察层
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- "73.2% 认知投降"为口述数字，统计口径不明
+- "40%→80% 转化率"为单一案例数据
+- "200 美元替代 2 万美元"为成本对比口述
+- "效率提升 300%"已确认无原文支持，不再保留
+- 龙虾组织/养虾四步法为单一工具案例
+- "五层分工模型"为一堂原创框架，无外部验证
 
 ### 风险层
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- AI 工具栈变化极快，龙虾/Openclaw 等具体工具可能已过时
+- 数据泄露与过度授权风险在录音中被提及但未给具体解决方案
+- "认知投降"概念可能被误用为"放弃思考"的合理化
+- 工具焦虑（FOMO）可能导致盲目采用而非场景驱动
 
 ## 建议后续行动
 
@@ -181,12 +185,18 @@ related:
 
 本卡为 theme 级综合草稿，建议拆分为以下子卡：
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- AI 落地五步流程：找场景-做判断-做验证-搞开发-慢上线——待拆分为独立 framework 卡
+- "找老的干小的"场景选择原则——待拆分为独立 concept 卡
+- 双三角模型：人类三角（审美/体系/创造力/判断）vs AI 三角（基本功/场景数据/执行）——待拆分为独立 concept 卡
+- Feature 思维：AI 能力拆为可迁移最小特性单元——待拆分为独立 tool 卡
+- TCPR 模型在 AI 团队中的应用——待与现有 TCPR 卡建立映射
+- 五层分工模型：AI 组织行为学分层——待拆分为独立 concept 卡
+- 龙虾组织/AI 原生 IM 工具——待拆分为独立 case 卡
+- 上下文工程六要素——待拆分为独立 tool 卡
+- Muse 模型——待拆分为独立 concept 卡
+- AI 团队四阶段——待拆分为独立 framework 卡
+- 养虾四步法（龙虾部署）——待拆分为独立 tool 卡
+- 智能入口开发——待拆分为独立 case 卡
 
 > 注：录音 1486162（智慧城市 AI 应用交流）因含药柜/医疗内容，已剥离至 `60_feedback/pending-wiki-cards/pending-smart-city-medical-2026-06-20.md`，本卡不再引用。
 
@@ -198,18 +208,18 @@ related:
 
 ## 验证与参考
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260614_*` 系列 10 份录音素材（详见 frontmatter `source_refs`）
+- 7759098 AI 场景落地方法分享——五步流程基线
+- 7356146 一堂-AI 工具应用 AMA——双三角模型 + Feature 训练
+- 4288010 一堂-AI 方法论探索——Muse 模型 + 原子封装
+- 5638948 AI 组织行为学研究——五层分工 + 龙虾组织
+- 5383332 龙虾 AI 原生 IM 工具演示——三级上下文
+- 5273087 一堂-AI 龙虾使用分享——养虾四步法 + 数据安全
+- 5060599 多人-Open Cloud 培训——Skill 市场 + 成本替代
+- 4431344 一堂-AI 方法论实践课——TCPR + 上下文工程
+- 6445435 AI 工具使用分享——open code + 多模型辩论
+- 7259388 何老师-智能入口开发会议——智能入口基础设施
+- AI 落地方法论公开研究（麦肯锡/BCG AI 转型报告）——外部交叉验证
 
 ---
 
@@ -240,10 +250,9 @@ related:
 
 ### 置信度更新
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 综合可信度 0.56（🟡 中可信度，偏中低），维持 medium trust_level
+- "效率提升 300%"因无原文支持已移除
+- Muse 模型经第二轮深挖确认有原文支持，维持 medium
 
 ### 第二轮深挖结果（2026-06-14）
 
@@ -257,23 +266,22 @@ related:
 **详细说明：**
 
 1. **效率提升 300%**
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 原文 `src_20260614_144d986e` 全文搜索未找到"300%"或"效率提升 3 倍"等表述
+   - 可能为 theme summary 对 Open Cloud 培训内容的加工/夸大
+   - 已从核心洞察和建议中移除该数字
+   - 不再作为事实层断言保留
 
 2. **4288010 Muse 模型与部分案例细节**
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - Muse 模型在原文 L204-228 有明确定义（Muse = Multiple Use Scenario Engine）
+   - L336 确认 Feature 思维与 Muse 模型的关联
+   - L356 确认原子封装概念
+   - L365 确认双三角模型在 Muse 中的应用
+   - 该断言已有完整原文支持，维持 medium 置信度
+   - Muse 模型为一堂原创概念，无外部理论验证
 
 **本轮发现的新问题：**
-- src_unknown
-- src_unknown
+- "效率提升 300%"为 theme summary 加工，已移除
+- Muse 模型虽有一堂内部定义，但无外部理论验证，建议标注为"一堂原创概念"
 
 ---
 
@@ -282,10 +290,10 @@ related:
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- src_unknown
+- "效率提升 300%"——移除，原文无支持，theme summary 加工
 
 ### 已标注限制条件的条件性结论
-- src_unknown
+- "73.2% 认知投降"——条件：口述数字，统计口径不明
 
-- src_unknown
-- src_unknown
+- "40%→80% 转化率"——条件：单一案例数据，非普适
+- "200 美元替代 2 万美元"——条件：成本对比口述，非实际采购记录
