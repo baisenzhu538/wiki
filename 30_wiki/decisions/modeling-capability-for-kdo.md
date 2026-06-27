@@ -299,7 +299,7 @@ kdo 应走**学科建模派**路线：追求可验证、可证伪、可迁移的
 - `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述`
 - `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记`
 - `src_20260614_623cfbfd-高阶建模-流程建模`
-- `Desktop/wiki/00_inbox/ideas/Truman的个人成长五步法.md`
+- 00_inbox/ideas/Truman的个人成长五步法.md`
 - kdo/wiki 建设实践（药柜主题整理过程）
 
 ### 可信度评估
