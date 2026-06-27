@@ -75,7 +75,7 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 | 深挖重写 | `40_outputs/capabilities/skills/shared/nine-layer-deep-dig/SKILL.md` |
 | 信息可信度验证 | `40_outputs/capabilities/skills/shared/six-layer-cross-validation/SKILL.md` |
 | 交叉验证框架 | `40_outputs/capabilities/skills/shared/research-cross-validation/SKILL.md` |
-| 审查结论自攻击 | `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md` |
+| 审查结论自攻击 | `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md` + `30_wiki/frameworks/framework-kdo-self-attack.md` |
 | 原素材（VLM/OCR/逐字稿） | 从卡片 `source_refs` 字段找到路径，然后 Read |
 
 ## 完成任务后

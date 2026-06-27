@@ -25,8 +25,6 @@ related:
   - '[[framework-yitang-six-layer-cross-validation]]'
   - '[[framework-yitang-nine-layer-deep-dig]]'
   - '[[tool-demand-blindspot-checklist]]'
-  - '[[ai-collaboration-gan]]'
-  - '[[research-sats]]'
 ---
 
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点

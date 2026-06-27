@@ -42,7 +42,7 @@ updated: 2026-06-26
 1. **全量素材目录**：列出素材文件夹里每一份文件的覆盖范围。确认没有遗漏层。
 2. **叙事段落扫描**：扫描 ≥200 字连续叙事段落，完整度 ≥4 → `case` 候选；含操作心法/失败模式/判断口诀 → `dk` 候选。
 3. **路由查表 + WebSearch**：核心框架业界有没有成熟对应物？查下方路由表，Read 对应 Skill。
-4. **自攻击诊断逻辑**：调用 `Read 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，四路攻击后交付。
+4. **自攻击诊断逻辑**：调用 `Read 30_wiki/frameworks/framework-kdo-self-attack.md` 和 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，四路攻击后交付。
 
 ## 方法论语境（按需 Read）
 
@@ -96,7 +96,7 @@ updated: 2026-06-26
 2. **只写 `60_feedback/`**：诊断→`diagnosis/`，错误→`corrections/`
 3. **先追问再诊断**：用户第一次描述的问题通常不是真问题
 4. **不确定时诚实说不知道**：比乱匹配框架强
-5. **诊断结论交付前跑自攻击**
+5. **诊断结论交付前跑自攻击**：方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`，执行脚本见 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`
 
 ## 会话结束
 

@@ -7,7 +7,7 @@
 - [ ] **Step 1: 素材就位** — 00_inbox/ 下有完整素材（口述稿/PPT/图片/笔记）
 - [ ] **Step 2: 入口审计** — 王语嫣完成九层深挖 + 六层交叉验证。产出诊断报告 + 任务清单
 - [ ] **Step 3: 可信度分级** — 每张卡标注 🟢🟡🔴，声明来源和验证状态
-- [ ] **Step 4: 生产** — 老顽童按任务清单生产，每批完成后自攻击
+- [ ] **Step 4: 生产** — 老顽童按任务清单生产，每批完成后跑自攻击（方法见 `30_wiki/frameworks/framework-kdo-self-attack.md`）
 - [ ] **Step 5: 成品验收** — 王语嫣抽 20% 深审。通过后标记 `reviewed_by: 王语嫣`
 - [ ] **Step 6: 域 digest** — 黄药师建域入口卡（`30_wiki/domains/<domain>-domain-digest.md`）
 - [ ] **Step 7: 注册 index** — 在 `30_wiki/index.md` 商业判断力/AI 商业能力 对应位置加行
