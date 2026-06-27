@@ -2506,12 +2506,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-exhaust-means]]
 - [[tools/tool-yitang-research-single-point-sniper]]
 
-## [[concept-yt-entrepreneur-key-hypotheses]]
-- [[cases/case-lean-zhanglei-hypothesis-validation]]
-
-## [[concept-yt-entrepreneur-lean-validation]]
-- [[cases/case-lean-zhanglei-hypothesis-validation]]
-
 ## [[concept-一堂-hypothesis-driven-business-methodology]]
 - [[_archive/concept-一堂-business-prediction]]
 - [[cases/case-milktea-five-step]]
@@ -2829,7 +2823,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-multi-agent-research-architecture]]
 - [[tools/tool-agent-research-swarm]]
 
-## [[concepts/bad/link.md|test]]
+## [[concepts/bad/link|test]]
 - [[_test_backslash]]
 
 ## [[contingency-decision-making]]
@@ -14938,6 +14932,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-lean-weak-solution]]
 - [[cases/case-lean-wrong-demand]]
 - [[cases/case-lean-zhanglei-failure-counterfactual]]
+- [[cases/case-lean-zhanglei-hypothesis-validation]]
 - [[cases/case-lean-zhanglei-pivot-decision]]
 - [[cases/case-yitang-tob-artificial-bone]]
 - [[cases/case-yitang-tob-career-planning]]
@@ -15070,6 +15065,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-lean-weak-solution]]
 - [[cases/case-lean-wrong-demand]]
 - [[cases/case-lean-zhanglei-failure-counterfactual]]
+- [[cases/case-lean-zhanglei-hypothesis-validation]]
 - [[cases/case-lean-zhanglei-pivot-decision]]
 - [[cases/case-smart-medicine-cabinet-business-model-validation]]
 - [[cases/case-smart-medicine-cabinet-failure-patterns-library]]

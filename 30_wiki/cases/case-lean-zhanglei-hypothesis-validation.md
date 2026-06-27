@@ -29,8 +29,8 @@ related:
   - "[[framework-lean-systematic-test-curve]]"
   - "[[framework-lean-six-wastes]]"
   - "[[framework-lean-product-kernel]]"
-  - "[[concept-yt-entrepreneur-lean-validation]]"
-  - "[[concept-yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
 ---
 
