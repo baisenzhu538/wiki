@@ -61,4 +61,4 @@ status: fixed
 - [已修复] 卡片结构完整性：保留一句话定义、核心概念/结构、操作映射、When NOT to Use、失败模式、Critique、related；未破坏原有结构。
 - [未修复/已标注] 平台案例示例停留在抖音、小红书、广点通、百度：本卡为概念/桥接卡，案例平台仅作示例；新流量入口（视频号电商、AI 搜索等）可在后续案例卡或工具卡中补充，未在概念卡中展开，避免喧宾夺主。
 - [未修复/已标注] 核心跨域主张仍主要依赖单一诊断报告：已按要求补入 `source_refs` 并降低部分数字的 confidence/标注待核实；多源交叉验证受素材限制，后续可随外部文献/案例卡补入后升级。
-- [pre-submit] `kdo pre-submit --files 30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 通过（1 file, 1 passed, 0 failed）。
+- [pre-submit] `kdo pre-submit --files concept-yitang-channel-lean-validation-bridge` 通过（1 file, 1 passed, 0 failed）。

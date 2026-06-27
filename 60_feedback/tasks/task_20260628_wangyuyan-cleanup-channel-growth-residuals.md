@@ -75,14 +75,14 @@ status: queued
 ### 问题 2：1 张 dk 卡目录未对齐 taxonomy
 
 **影响范围**：
-- `30_wiki/dk/dk-yitang-channel-exploration-traps.md`
+- `dk-yitang-channel-exploration-traps`
 
 **问题描述**：
 - 文件位于 `30_wiki/dk/`，但 KDO taxonomy 要求 dk 卡统一在 `30_wiki/dark-knowledges/`
 - 卡片 `## 使用场景` 不是顶层 section（应在 `## 使用场景` 前加 `## 原始表述` 等标准结构）
 
 **清理动作**：
-1. 将文件从 `30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移动到 `30_wiki/dark-knowledges/dk-yitang-channel-exploration-traps.md`
+1. 将文件从 `dk-yitang-channel-exploration-traps` 移动到 `30_wiki/dark-knowledges/dk-yitang-channel-exploration-traps.md`
 2. 更新所有引用该卡的 `related` 链接（包括渠道增长域其他卡和跨域桥接卡）
 3. 调整 section 结构：补充 `## 原始表述` / `## 使用场景` / `## 操作方法` / `## 适用边界` / `## 为什么值钱` / `## 与其他知识的关联`
 4. 跑 `kdo pre-submit -f <文件>` 和 `kdo lint`
@@ -97,13 +97,13 @@ status: queued
 ### 问题 3：1 张 concept 卡目录未对齐 type
 
 **影响范围**：
-- `30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md`
+- `concept-yitang-channel-lean-validation-bridge`
 
 **问题描述**：
 - 文件位于 `30_wiki/frameworks/`，但 type 是 `concept`，应位于 `30_wiki/concepts/`
 
 **清理动作**：
-1. 将文件从 `30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移动到 `30_wiki/concepts/concept-yitang-channel-lean-validation-bridge.md`
+1. 将文件从 `concept-yitang-channel-lean-validation-bridge` 移动到 `30_wiki/concepts/concept-yitang-channel-lean-validation-bridge.md`
 2. 更新所有引用该卡的 `related` 链接
 3. 跑 `kdo pre-submit -f <文件>` 和 `kdo lint`
 
