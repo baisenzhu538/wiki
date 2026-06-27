@@ -30,17 +30,16 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 全本策划五维框架
+  - framework_lens: 全本策划五维框架
     follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
-  - src_unknown
-    framework_lens: 人与AI的分工边界
+  - framework_lens: 人与AI的分工边界
     follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
-  - src_unknown
-    framework_lens: 剧本基地→内容走向→剧情终局的闭环
+  - framework_lens: 剧本基地→内容走向→剧情终局的闭环
     follow_up_question: 内容走向的15个关键节点是否提前锁定？
 
----# 冰火写本罗盘：AI短剧剧本策划全流程体系
+---
+
+# 冰火写本罗盘：AI短剧剧本策划全流程体系
 
 > **Burn line**: 不是让AI瞎写，是用专业剧本思维驾驭AI这个"超级执笔"。
 

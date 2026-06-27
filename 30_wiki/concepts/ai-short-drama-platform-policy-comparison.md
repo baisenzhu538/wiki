@@ -29,17 +29,16 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 平台-题材-分成匹配矩阵
+  - framework_lens: 平台-题材-分成匹配矩阵
     follow_up_question: 你的题材、目标受众、期望回款周期分别是什么？
-  - src_unknown
-    framework_lens: 平台用户偏好差异
+  - framework_lens: 平台用户偏好差异
     follow_up_question: 你是否针对不同平台调整了开头钩子密度和题材侧重点？
-  - src_unknown
-    framework_lens: 新人友好度与分成门槛
+  - framework_lens: 新人友好度与分成门槛
     follow_up_question: 你是否有成熟制作资源，还是个人或小团队从 0 开始？
 
----# 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
+---
+
+# 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 
 > **Burn line**: 剧本是产品，平台是渠道，搞不清渠道规则，爆款也变库存。
 

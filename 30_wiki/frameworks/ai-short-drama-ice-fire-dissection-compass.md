@@ -31,20 +31,18 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 结构化拆本五维模型
+  - framework_lens: 结构化拆本五维模型
     follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
-  - src_unknown
-    framework_lens: 投喂前先拆本
+  - framework_lens: 投喂前先拆本
     follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
-  - src_unknown
-    framework_lens: 五维自检清单
+  - framework_lens: 五维自检清单
     follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
-  - src_unknown
-    framework_lens: 拆本→写本的转译闭环
+  - framework_lens: 拆本→写本的转译闭环
     follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
 
----# 冰火拆本罗盘：短剧剧本逆向拆解五维模型
+---
+
+# 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 
 > **Burn line**: 看懂爆款不是复述剧情，是拆出它为什么让人上头。
 

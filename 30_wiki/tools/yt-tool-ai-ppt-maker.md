@@ -43,15 +43,15 @@ updated_at: '2026-06-20'
 estimated_tokens: 2600
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
+  - framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
     follow_up_question: 这份PPT的核心论点是否有独立的数据源和逻辑链支撑？如果没有，是否应该先用[[yt-pitch-quantification]]和[[yt-pitch-storytelling]]梳理清楚再生成视觉？
-  - src_unknown
-    framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
+  - framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
     follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
 
----# AI对话式PPT生成器：把排版变成说话
+---
+
+# AI对话式PPT生成器：把排版变成说话
 
 > 来源：从「AI设计-文创案例设计课」萃取的对话式PPT生成方法。把PPT从需要排版技艺的软件操作，变成一项可以用语言描述的通用能力。
 
