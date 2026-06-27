@@ -1,3 +1,16 @@
+---
+id: concept-card-index-latest
+title: "Concept Card Index — Latest"
+type: index
+domain: [kdo]
+status: draft
+created_at: 2026-06-22
+updated_at: 2026-06-27
+source_refs:
+  - src_unknown
+tags: [index]
+---
+
 # Concept Card Index — 2026-06-22 18:10 UTC
 
 | ID | Title | Type | Domain |

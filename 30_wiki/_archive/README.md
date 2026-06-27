@@ -1,3 +1,16 @@
+---
+id: archive-readme
+title: "卡片归档说明"
+type: index
+domain: [kdo]
+status: enriched
+created_at: 2026-06-01
+updated_at: 2026-06-27
+source_refs:
+  - src_unknown
+tags: [archive, index]
+---
+
 # Card Archive
 
 Deprecated and superseded cards moved here so they don't pollute quality gate metrics.
