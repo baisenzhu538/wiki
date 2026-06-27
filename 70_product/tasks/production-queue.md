@@ -31,13 +31,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
 | 1 | `laowantong-batch-2026-06-20-wave1` | 老顽童批量工单第 1 波：门禁快速清理 | queued | - | 11 | 无 | `laowantong-batch-2026-06-20.md` | 快速清理，让质量门禁归零 |
 | 2 | `task_20260627_laowantong-deliberate-practice-cards` | 元能力-刻意练习域卡片化（含 AI 协作桥接卡） | queued | - | 12 | 依赖 wave1 完成 | `task_20260627_laowantong-deliberate-practice-cards.md` | 含 1 张跨域桥接 framework |
-| 3 | `task_20260627_laowantong-channel-growth-cards` | 渠道增长域卡片化（含 2 张跨域桥接卡） | queued | - | 23-24 | 依赖 wave1 完成 | `task_20260627_laowantong-channel-growth-cards.md` | 含单元模型+精益创业桥接；案例审计后追加 7 张 case 卡 |
+| 3 | `task_20260627_laowantong-channel-growth-cards` | 渠道增长域卡片化（含 2 张跨域桥接卡） | queued | - | 24-25 | 依赖 wave1 完成 | `task_20260627_laowantong-channel-growth-cards.md` | 含单元模型+精益创业桥接；案例审计后追加 8 张 case 卡 |
 | 4 | `laowantong-batch-2026-06-20-wave2` | 老顽童批量工单第 2 波：P0 返工 | queued | - | 13 | 依赖 wave1 完成 | `laowantong-batch-2026-06-20.md` | 业务公式域返工 |
 | 5 | `laowantong-batch-2026-06-20-wave3` | 老顽童批量工单第 3 波：P1 深度补全 | queued | - | ~15 | 依赖 wave2 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
 | 6 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：P2 清理 | queued | - | ~12 | 依赖 wave3 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
 | 7 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：新域建设 | queued | - | ~11 | 依赖 wave4 完成 | `laowantong-batch-2026-06-20.md` | 具体卡数见源文件 |
 
-> **当前总待生产卡数**：约 97-98 张（含历史批量工单 62 张 + 新任务 35-36 张）。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 
 ---

@@ -35,7 +35,7 @@ related:
 | `concept-yitang-channel-lean-validation-bridge` | 渠道增长 | 精益创业 | concept | 明确「渠道 0→1 测试 = 精益验证的特例」，区分 channel-MVP 与 channel-industrialization | P1（渠道任务单追加） |
 | `framework-ai-deliberate-practice-loop` | 刻意练习 | AI 协作 | framework | 把 1+4 模型系统映射到 AI 可提供的四类功能：场景生成、即时反馈、自适应难度、最佳实践池 | P1（刻意练习任务单追加/升级） |
 
-> **影响**：原渠道增长任务单 14-15 张 → **23-24 张**（经案例完整性审计，追加 7 张完整案例卡）；原刻意练习任务单 11 张 → **12 张**（同时把原 `concept-yitang-ai-era-deliberate-practice` 升级为 framework，内容更系统）。
+> **影响**：原渠道增长任务单 14-15 张 → **24-25 张**（经案例完整性审计，追加 8 张完整案例卡）；原刻意练习任务单 11 张 → **12 张**（同时把原 `concept-yitang-ai-era-deliberate-practice` 升级为 framework，内容更系统）。
 
 ---
 

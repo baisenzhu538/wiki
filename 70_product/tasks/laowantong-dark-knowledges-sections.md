@@ -120,6 +120,23 @@ trust_level: medium
 
 第一批 10 张 + 试点 5 张共 15 张已修复，lint ERROR 从 **862 降到 824**。
 
+### 第二批结果
+
+| # | 卡片 | 状态 | 备注 |
+|---:|:---|:---|:---|
+| 1 | `dk-wanghuan-tacit-decision-extraction-cross-domain` | ✅ 通过 | 重写 6 标准 section |
+| 2 | `yt-note-p-c-role-boundary-realworld` | ✅ 通过 | 重写 6 标准 section |
+| 3 | `yt-note-ai-p-role-not-c-role` | ✅ 通过 | 重写 6 标准 section |
+| 4 | `dk-wanghuan-paced-sales-decision` | ✅ 通过 | 重写 6 标准 section |
+| 5 | `yt-note-three-level-evolution` | ✅ 通过 | 重写 6 标准 section |
+| 6 | `dk-wanghuan-spec-trap` | ✅ 通过 | 重写 6 标准 section |
+| 7 | `dk-wanghuan-agent-platform-director-mode` | ✅ 通过 | 重写 6 标准 section |
+| 8 | `dk-wanghuan-magic-defeats-magic` | ✅ 通过 | 重写 6 标准 section |
+| 9 | `dk-mckinsey-hypothesis-driven-pitfalls` | ✅ 通过 | 重写 6 标准 section |
+| 10 | `yt-demand-fake-demand-detection` | ✅ 通过 | 补原始表述、操作方法、为什么值钱、关联 |
+
+第二批 10 张修复后，lint ERROR 从 **824 降到 788**。
+
 ### 分批策略
 
 - 每批 **10 张**卡
@@ -141,9 +158,9 @@ trust_level: medium
 
 ### 质量标准（与试点一致）
 
-1. **6 个标准 section 标题必须正确**：原始表述 / 使用场景 / 操作方法 / 适用边界 / 为什么值钱 / 关联
+1. **6 个标准 section 标题必须正确**：`## 原始表述` / `## 使用场景` / `## 操作方法` / `## 适用边界` / `## 为什么值钱` / `## 与其他知识的关联`
 2. **每卡总字数 ≥ 300 字**
-3. **关联 section 写真实存在的 wikilink**
+3. **"与其他知识的关联" section 写真实存在的 wikilink**
 4. **可以保留原有有价值 section**（如"常见失败模式""外部攻击"），但 6 个标准 section 必须存在
 5. ** frontmatter 不要改**（id/title/type/domain/source_refs/related 保持原样，除非修复闭合错误）
 6. **每张卡单独跑 `kdo pre-submit -f`**，不通过不准提交

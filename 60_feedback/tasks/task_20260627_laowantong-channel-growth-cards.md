@@ -29,7 +29,7 @@ related:
 | 优先级 | P1 |
 | 质量负责人 | 王语嫣（CLI） |
 | 生产方 | Hermes 老顽童 |
-| 预计产出 | 23-24 张卡（含 2 张跨域桥接卡） |
+| 预计产出 | 24-25 张卡（含 2 张跨域桥接卡） |
 
 ---
 
@@ -91,6 +91,7 @@ related:
 - 五步法：定目标 → 建节点 → 做加法 → 做减法 → 迭代优化
 - 节点类型：门槛节点、检查节点、评审节点、动手节点
 - 一堂做课案例：10 个环节，通过率 50%→95%，NPS 80+
+- 一堂口播短视频工业化案例：ABCD 模型，2-3 小时拍 20 条
 - 汉堡选品工业化案例：陈先敏/熊猫现烤汉堡，建立选品池 → 初筛 → 测试 → 上架/淘汰
 - 链家选址工业化案例：楼盘字典 → 二十五宫格 → 重点区域 → 精准点位
 - 益涂线索工业化案例：10万+线索 → 4000+初筛 → 500电话 → 100见面 → 20精选
@@ -213,7 +214,7 @@ related:
 
 ---
 
-### P1：典型案例（5 张）
+### P1：典型案例（13 张）
 
 #### 2.9 `case-yitang-amazon-growth-flywheel`
 
@@ -385,7 +386,25 @@ related:
 - 关键决策：第一波找 IT 化程度高、已有用户信任、本身就在做发票的渠道合作
 - related ≥ 5
 
-#### 2.19 `case-yitang-shuzu-channel-scan-test`
+#### 2.19 `case-yitang-yitang-shortvideo-industrialization`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | case |
+| title | 案例：一堂如何用 ABCD 模型实现口播短视频工业化 |
+| domain | yitang, growth, content-operations |
+| confidence | 0.78 |
+| trust_level | medium |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt` |
+
+**内容要求**：
+- 背景：Truman 个人拍口播短视频，无编导、无团队，目标是提升一堂美誉度与知名度
+- ABCD 模型：A 选题池/灵感搜集 → B 雷达图 ABC 优先级排序 → C 剪辑 → D 复盘 → 反哺 A
+- 关键数字：一个晚上建立 100-200 个标签的选题池；2-3 小时拍 20 条口播
+- 工作流：加法建选题池 → 减法用五维雷达图排优先级 → 固定拍摄位置/形式 → 批量拍摄 → 剪辑 → 运营 → 复盘
+- related ≥ 5
+
+#### 2.20 `case-yitang-shuzu-channel-scan-test`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -403,7 +422,7 @@ related:
 - 失败渠道原因：对商家没有把控力、利润太低、不会演示产品、同意的量比较小、稳定性差
 - related ≥ 5
 
-#### 2.20 `case-yitang-yitang-self-growth-channel`
+#### 2.21 `case-yitang-yitang-self-growth-channel`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -425,7 +444,7 @@ related:
 
 ### P2：索引与暗知识（2 张）
 
-#### 2.21 `tool-yitang-industry-channel-arsenal-index`
+#### 2.22 `tool-yitang-industry-channel-arsenal-index`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -443,7 +462,7 @@ related:
 - 给出使用说明：如何结合自身业务迁移
 - related ≥ 5
 
-#### 2.22 `dk-yitang-channel-exploration-traps`
+#### 2.23 `dk-yitang-channel-exploration-traps`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -465,7 +484,7 @@ related:
 
 > 追加依据：`diag_20260627_wangyuyan-cross-domain-bridge-supplement`
 
-#### 2.23 `framework-yitang-channel-unit-economics`
+#### 2.24 `framework-yitang-channel-unit-economics`
 
 | 字段 | 要求 |
 |:---|:---|
@@ -489,7 +508,7 @@ related:
 - Critique：归因模型局限（last-touch 偏差）、渠道间相互 cannibalization、短期回收与长期品牌投入的冲突；
 - related ≥ 7：`framework-yitang-channel-exploration-4step`, `yt-unit-model-concept`, `yt-unit-model-overview`, `tool-区分获客渠道计算单元roi`, `framework-yitang-growth-flywheel`, `tool-yitang-channel-scoring-matrix`, `case-yitang-maiyi-cloud-computer-channel`。
 
-#### 2.24 `concept-yitang-channel-lean-validation-bridge`
+#### 2.25 `concept-yitang-channel-lean-validation-bridge`
 
 | 字段 | 要求 |
 |:---|:---|

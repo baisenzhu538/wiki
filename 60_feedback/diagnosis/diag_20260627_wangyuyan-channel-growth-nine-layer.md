@@ -199,6 +199,7 @@ related:
 - **小说 app 飞轮**：流量 → 下载 → 用户 → 创作者 → 内容 → SEO 流量
 - **Top City 飞轮**：高质量社区内容 → C端用户 → B端商户 → 收入 → 算法推荐 → 更优内容
 - **一堂做课工业化**：10 环节流程使 NPS 稳定在 80+
+- **一堂口播短视频工业化**：ABCD 模型，2-3 小时拍 20 条
 - **汉堡选品工业化**：建立选品池 → 初筛 → 测试 → 上架/淘汰
 - **链家选址工业化**：楼盘字典 → 二十五宫格 → 重点区域 → 精准点位
 - **益涂线索工业化**：10万+ 线索 → 4000+ 初筛 → 500 电话 → 100 见面 → 20 精选
@@ -236,7 +237,7 @@ related:
 | `tool-yitang-referral-channel-optimization` | tool | 客户介绍动力/触点/阻力分析 3 张 |
 | `tool-yitang-channel-industrialization-node-design` | tool | 工业化生产节点类型 + 一堂做课流程 |
 
-### 9.3 P1 案例（11-12 张）
+### 9.3 P1 案例（13 张）
 
 | 卡片 ID | 类型 | 内容来源 |
 |:---|:---:|:---|
@@ -244,6 +245,7 @@ related:
 | `case-yitang-novel-app-flywheel` | case | 小说 app 飞轮案例 |
 | `case-yitang-topcity-growth-flywheel` | case | Top City 增长飞轮图 |
 | `case-yitang-yitang-course-industrialization` | case | 一堂做课工业化 |
+| `case-yitang-yitang-shortvideo-industrialization` | case | 一堂口播短视频工业化 |
 | `case-yitang-redburger-selection-industrialization` | case | 熊猫现烤汉堡选品工业化 |
 | `case-yitang-lianjia-site-selection-industrialization` | case | 链家选址工业化 |
 | `case-yitang-yitu-lead-industrialization` | case | 益涂销售线索工业化 |
@@ -260,7 +262,7 @@ related:
 | `tool-yitang-industry-channel-arsenal-index` | tool | 24 张案例武器库 |
 | `dk-yitang-channel-exploration-traps` | dk | 反案例 + 常见坑 |
 
-### 9.5 总产出：约 21-22 张卡
+### 9.5 总产出：约 22-23 张卡
 
 ---
 
@@ -284,7 +286,7 @@ related:
 
 ### 总产出更新
 
-原 14-15 张 → **23-24 张**（追加 7 张完整案例卡 + 2 张跨域桥接卡）。
+原 14-15 张 → **24-25 张**（追加 8 张完整案例卡 + 2 张跨域桥接卡）。
 
 ---
 
