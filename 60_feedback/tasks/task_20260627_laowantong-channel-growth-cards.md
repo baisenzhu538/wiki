@@ -423,9 +423,10 @@ related:
 2. **source_refs 必须真实存在**：指向 `00_inbox/一堂五步法之增长/` 下的具体文件。
 3. **confidence 严格按诊断要求**：不要全部写 0.85。
 4. **related ≥ 5**，至少 1 个跨域链接（如 strategy、lean-startup、unit-model、ai-collaboration）。
-5. **必须跑 `kdo pre-submit`**，粘贴输出到汇报中。
-6. **24 张案例武器库不要全卡化**：只建 1 张索引工具卡。
-7. **避免与现有卡重复**：现有 `tool-区分获客渠道计算单元roi.md`、`tool-马易-公寓获客自跑通原则.md` 可 related，不要覆盖。
+5. **跨域桥接卡**（2.16 / 2.17）要求 `related ≥ 7`，且必须同时链回两个域的核心卡。
+6. **必须跑 `kdo pre-submit`**，粘贴输出到汇报中。
+7. **24 张案例武器库不要全卡化**：只建 1 张索引工具卡。
+8. **避免与现有卡重复**：现有 `tool-区分获客渠道计算单元roi.md`、`tool-马易-公寓获客自跑通原则.md` 可 related，不要覆盖；`framework-yitang-channel-unit-economics` 是框架升级，非重复。
 
 ---
 

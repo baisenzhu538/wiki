@@ -26,7 +26,7 @@ related:
 | 优先级 | P1 |
 | 质量负责人 | 王语嫣（CLI） |
 | 生产方 | Hermes 老顽童 |
-| 预计产出 | 11 张卡（3 framework + 2 concept + 3 tool + 3 case/dk） |
+| 预计产出 | 12 张卡（4 framework + 1 concept + 3 tool + 3 case/dk + 1 AI 桥接 framework） |
 
 ---
 
@@ -161,23 +161,38 @@ related:
 - When NOT to Use：完全无参照标准的领域、需要安全反馈的高敏感场景
 - related ≥ 5
 
-#### 2.7 `concept-yitang-ai-era-deliberate-practice`
+#### 2.7 `framework-ai-deliberate-practice-loop`（跨域桥接卡）
 
 | 字段 | 要求 |
 |:---|:---|
-| type | concept |
-| title | AI 时代的刻意练习：从低阶执行到高阶判断 |
+| type | framework |
+| title | AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴 |
 | domain | yitang, personal-growth, ai-collaboration |
-| confidence | 0.70 |
+| confidence | 0.78 |
 | trust_level | medium |
-| source_refs | `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt` |
+| source_refs | `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`, Ethan Mollick《The Machines of Mastery》 |
 
 **内容要求**：
-- 一句话：AI 替代低阶执行，人更要练问题定义、框架拆解、现场建模、作品打磨
-- AI 时代新练习点：口喷提示词、AI 调研、问题定义、框架拆解、作品对照最佳实践
-- 盈盈观点：AI 不是让人不练，是让会练的人更强
-- When NOT to Use：完全可自动化的低阶任务
-- related ≥ 5：必须跨域链接 `ai-collaboration-domain-digest`
+- 一句话：AI 不是替你练，而是提供无限量、可调整难度、即时反馈的练习环境，让人把精力集中在「高阶判断」。
+- 闭环图：
+  ```
+  设定目标 → AI 生成场景/任务 → 学习者输出 → AI 反馈/评分 → AI 调整难度 → 下一轮
+  ```
+- 1+4 模型映射表：
+
+| 1+4 要素 | AI 提供的功能 | 示例 |
+|:---|:---|:---|
+| 长期追求 | AI 帮助拆解目标、生成路径 | 「我想半年内成为商业分析师」→ 拆阶段 |
+| 固定套路 | 最佳实践池、worked examples、SOP | 提供优秀提案、谈判脚本 |
+| 非舒适区 | 动态难度调节、情境升级 | 谈判对手变强硬、增加利益相关方 |
+| 即时反馈 | 逐句点评、错误定位、改进建议 | 代码 review、演讲逐字稿分析 |
+| 大量重复 | 无限模拟、低成本重复 | 模拟客户异议 20 次 |
+
+- 四类 AI 练习场景：谈判/沟通、写作/表达、编程/调试、决策/建模；
+- When NOT to Use：完全可自动化的低阶任务、需要真实人际信任建立的能力、AI 幻觉高风险领域；
+- 失败模式：把 AI 当答案库、只看不练、过度依赖导致元认知退化、不验证 AI 反馈质量；
+- Critique：AI 反馈可能包含幻觉、情境不可重复、缺乏真实情绪张力；
+- related ≥ 8：`framework-yitang-deliberate-practice-1plus4`, `concept-yitang-comfort-stretch-panic-zones`, `tool-yitang-feedback-self-check`, `case-yitang-ai-painting-commercialization`, `ai-collaboration-domain-digest`, `concept-candy-ai-as-collaborator`, `tool-agent-research-swarm`, `framework-multi-agent-research-architecture`。
 
 ---
 
@@ -289,8 +304,10 @@ related:
 2. **source_refs 必须真实存在**：指向 `00_inbox/元能力-刻意练习/` 下的具体文件。
 3. **confidence 严格按诊断要求**：不要全部写 0.85。
 4. **related ≥ 5**，至少 1 个跨域链接。
-5. **必须跑 `kdo pre-submit`**，粘贴输出到汇报中。
-6. **不要使用旧版四要素模型覆盖新版 1+4 模型**：旧卡可以 related，但不要合并内容。
+5. **跨域桥接卡**（2.7 `framework-ai-deliberate-practice-loop`）要求 `related ≥ 8`，必须同时链回刻意练习核心卡与 AI 协作域核心卡。
+6. **必须跑 `kdo pre-submit`**，粘贴输出到汇报中。
+7. **不要使用旧版四要素模型覆盖新版 1+4 模型**：旧卡可以 related，但不要合并内容。
+8. **AI 协作桥接卡不是概念随笔**：必须有闭环图、1+4 映射表、场景清单、失败模式、Critique。
 
 ---
 
