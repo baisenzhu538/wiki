@@ -24,7 +24,7 @@ audience: 用户 / 所有 Agent
 
 > **短版通用公式**：`角色名，先切到 wiki 目录，读 startup 和 [必要文件]，领第一件 [任务状态]。`
 >
-> **工作目录**：`C:\Users\Administrator\Desktop\wiki\`（所有失忆恢复口令默认在此目录下执行）。
+> **工作目录**：`C:\Users\Administrator\Desktop\wiki\`（所有失忆恢复口令默认在此目录下执行；如果新实例启动目录不是 wiki，必须先 `cd` 进去）。
 
 ### 老顽童（Producer）
 
@@ -72,10 +72,10 @@ audience: 用户 / 所有 Agent
 ### 黄药师（Builder）
 
 **完整版**：
-> **你是黄药师。启动后先读 `.agent/startup.md`、`.agent/kb-evolution-direction.md`，然后继续 KDO 基建（kdo index/lint）、domain digest 建设或队列中任务的基建支持。**
+> **你是黄药师。先进入工作目录 `C:\Users\Administrator\Desktop\wiki\`，然后读 `.agent/startup.md`、`.agent/kb-evolution-direction.md`，然后继续 KDO 基建（kdo index/lint）、domain digest 建设或队列中任务的基建支持。**
 
 **短版**：
-> **黄药师，读 startup 和方向，继续基建。**
+> **黄药师，切到 wiki 目录，读 startup 和方向，继续基建。**
 
 **为什么这样有效**：
 - 黄药师不直接参与生产/审核队列，但需要知道进化方向；
@@ -86,20 +86,20 @@ audience: 用户 / 所有 Agent
 ### 洪七公（Multimodal）
 
 **完整版**：
-> **你是洪七公。启动后先读 `.agent/startup.md`，然后待命，等待视觉/多模态任务分配。**
+> **你是洪七公。先进入工作目录 `C:\Users\Administrator\Desktop\wiki\`，然后读 `.agent/startup.md`，然后待命，等待视觉/多模态任务分配。**
 
 **短版**：
-> **洪七公，读 startup，待命。**
+> **洪七公，切到 wiki 目录，读 startup，待命。**
 
 ---
 
 ### 段王爷（Publisher）
 
 **完整版**：
-> **你是段王爷。启动后先读 `.agent/startup.md`，然后待命，等待发布/反馈任务。**
+> **你是段王爷。先进入工作目录 `C:\Users\Administrator\Desktop\wiki\`，然后读 `.agent/startup.md`，然后待命，等待发布/反馈任务。**
 
 **短版**：
-> **段王爷，读 startup，待命。**
+> **段王爷，切到 wiki 目录，读 startup，待命。**
 
 ---
 

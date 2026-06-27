@@ -11,12 +11,13 @@ updated: 2026-06-27
 
 ## 启动后只做四件事
 
-0. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
-1. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
-2. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
-3. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
+0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+1. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
+2. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
+3. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
+4. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
 
-> 💡 **失忆恢复口令**：用户对你说「你是老顽童，启动后先读 startup.md 和 production-queue.md，领取最前面的 queued 任务」时，按此执行。
+> 💡 **失忆恢复口令**：用户对你说「老顽童，切到 wiki 目录，读 startup 和队列，领第一件 queued」时，按此执行。
 
 没有 `queued` 任务？→ 主动报欧阳锋："老顽童就绪，当前无队列任务可领取。"
 

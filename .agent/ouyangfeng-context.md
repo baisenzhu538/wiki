@@ -36,13 +36,14 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 
 ## 启动步骤
 
+0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
 1. Read `startup.md`（工厂全局）
 2. Read `context.md`（共享状态）
 3. Read `70_product/tasks/production-queue.md` → **统一生产队列，按顺序审核 `pending_review` 任务**
 4. Read `70_product/tasks/dashboard.md` → 历史任务全景（备用）
 5. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 
-> 💡 **失忆恢复口令**：用户对你说「你是欧阳锋，启动后先读 startup.md 和 production-queue.md，按顺序审核 pending_review 任务」时，按此执行。
+> 💡 **失忆恢复口令**：用户对你说「欧阳锋，切到 wiki 目录，读 startup 和队列，审第一件 pending_review」时，按此执行。
 
 ## 深挖重写 SOP
 

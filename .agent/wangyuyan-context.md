@@ -26,6 +26,7 @@ updated: 2026-06-27
 
 ## 启动步骤
 
+0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
 1. Read `startup.md`（工厂全局）
 2. Read `.agent/kb-evolution-direction.md`（当前进化方向）
 3. Read `70_product/tasks/production-queue.md`（生产队列状态）
@@ -34,9 +35,7 @@ updated: 2026-06-27
 6. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
 7. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
 
-> 💡 **失忆恢复口令**：用户对你说「你是王语嫣，启动后先读 startup.md、kb-evolution-direction.md、production-queue.md 和 dashboard.md」时，按此执行。
-> 
-> **短版**：**王语嫣，读 startup、方向、队列和看板，继续把关。**
+> 💡 **失忆恢复口令**：用户对你说「王语嫣，切到 wiki 目录，读 startup、方向、队列和看板，继续把关」时，按此执行。
 
 ---
 

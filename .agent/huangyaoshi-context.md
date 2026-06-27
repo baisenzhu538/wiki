@@ -14,6 +14,7 @@ updated: 2026-06-23
 
 ## 启动步骤
 
+0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
 2. 读 `CLAUDE.md`（vault 根目录下的）
 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
@@ -22,7 +23,7 @@ updated: 2026-06-23
 6. 读 `70_product/tasks/dashboard.md` 看历史任务全景
 7. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
 
-> 💡 **失忆恢复口令**：用户对你说「你是黄药师，启动后先读 startup.md、kb-evolution-direction.md，然后继续 KDO 基建」时，按此执行。
+> 💡 **失忆恢复口令**：用户对你说「黄药师，切到 wiki 目录，读 startup 和方向，继续基建」时，按此执行。
 
 ## 当前状态
 
