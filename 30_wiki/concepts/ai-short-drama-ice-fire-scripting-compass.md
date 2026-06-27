@@ -67,12 +67,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: AI 短剧剧本创作的核心公式是：**专业方法论 + 精准指令 + 人工把控 = 商业爆款剧本**。AI 不是替代编剧思维，而是加速执行。——依据：10_raw/sources/src_20260613_687c4ec0-transcript.md:349-379`。
-- **C2 [conf=0.85]**: 短剧剧本的本质是"商业留人"而非文艺表达，所有设计都服务于情绪价值和观看留存。——依据：10_raw/sources/src_20260613_687c4ec0-transcript.md:419-441`、10_raw/sources/src_20260613_687c4ec0-transcript.md:1639`。
-- **C3 [conf=0.9]**: 冰火写本罗盘将剧本策划拆分为五大维度：全本策划、框架大纲、剧情元素、矛盾冲突、卡点设计，覆盖从选题到完稿的全链路。——依据：10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14`（原图表格）+ 10_raw/sources/src_20260613_687c4ec0-transcript.md`。
-- **C4 [conf=0.85]**: 每个维度继续拆分为"三板斧"，形成可复用的提示词模板和检查清单。——依据：10_raw/sources/src_20260613_12d63c1c-notes.md:9-21`（方法论总览）+ 各图片 source。
-- **C5 [conf=0.8]**: 该方法论已通过商业化验证：代俊隆团队用 AI 生成 30+ 剧本，签约 2 部，单本创作时间从半个月压缩到 10 分钟初稿。——依据：10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613`。
-- **C6 [conf=0.75]**: 短剧市场处于爆发期：2025 年国内短剧+漫剧总产值约 1000 亿，全年上新 12.8 万部，95% 以上使用 AI 辅助。——依据：10_raw/sources/src_20260613_687c4ec0-transcript.md:217-227`、10_raw/sources/src_20260613_687c4ec0-transcript.md:497`。
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md:349-379`。
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md:1639`。
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md`。
+- 10_raw/sources/src_20260613_12d63c1c-notes.md:9-21`（方法论总览）+ 各图片 source。
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613`。
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md:497`。
 
 ---
 

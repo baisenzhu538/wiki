@@ -1153,11 +1153,11 @@ Chronological record of knowledge operations.
   - yt-decision-canvas.md: ROI canvas 3-column structure (3 dimensions + 2 hidden variables + final conclusion)
   - yt-decision-depth-ladder.md: L3 quantitative formula visual expression (A+B+C+D inputs, X conversion, Y output)
 - 2026-05-21T18:15:26+00:00 - Deep-parsed 5 source images from 00_inbox/科学决策/ using vision_analyze for table/formula/dense-text recognition
-  - 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
-  - 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
-  - 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
-  - 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
-  - 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-深度-L3定量公式_vlm_desc.md
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
+  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L3定量公式_vlm_desc.md
 
 
 - 10_raw/sources/AI设计-AI设计基础01_cleaned.md

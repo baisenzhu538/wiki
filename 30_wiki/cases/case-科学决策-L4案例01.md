@@ -28,7 +28,7 @@ updated_at: 2026-06-26
 
 ## 案例来源
 
-- 00_inbox/_vlm_reprocess/_done_科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md`
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md`
 - **OCR 文本**：`30_wiki/raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md`
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md`
 - **叙事完整度评分**：4/5（VLM 提供标题与关键数字；OCR 提供推算逻辑与攻击者视角；缺少教学口述细节）
