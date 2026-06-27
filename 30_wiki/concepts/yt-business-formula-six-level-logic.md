@@ -5,17 +5,17 @@ domain:
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 type: concept
-status: enriched
+status: reviewed
 source_context: 一堂 2026-06-13 业务公式拆解培训，六层逻辑关系框架
 source_refs:
   - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
   - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
   - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:

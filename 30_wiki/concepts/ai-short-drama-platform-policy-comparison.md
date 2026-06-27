@@ -5,17 +5,17 @@ domain:
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 type: concept
-status: enriched
+status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，平台政策对比表
 source_refs:
   - 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md
   - 10_raw/sources/src_20260613_687c4ec0-transcript.md
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:

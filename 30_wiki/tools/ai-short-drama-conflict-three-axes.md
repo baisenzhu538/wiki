@@ -8,16 +8,16 @@ source_refs:
   - 10_raw/sources/src_20260613_37933c99-conflict-three-axes.md
   - 10_raw/sources/src_20260613_687c4ec0-transcript.md
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
-status: enriched
+status: reviewed
 domain:
   - src_unknown
   - src_unknown
   - src_unknown
 created_at: '2026-06-13'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:

@@ -2,7 +2,7 @@
 id: case-saas-renewal-formula
 title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"
 type: case
-status: enriched
+status: reviewed
 domain:
   - src_unknown
   - src_unknown
@@ -14,10 +14,10 @@ source_refs:
   - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
   - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: "2026-06-15"
-updated_at: "2026-06-20"
+updated_at: "2026-06-28"
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-20"
+review_date: "2026-06-28"
 confidence: 0.85
 trust_level: high
 related:

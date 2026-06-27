@@ -5,17 +5,17 @@ domain:
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
-status: enriched
+status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，拆本罗盘方法论
 source_refs:
   - 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md
   - 10_raw/sources/src_20260613_687c4ec0-transcript.md
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 created_at: '2026-06-13'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
