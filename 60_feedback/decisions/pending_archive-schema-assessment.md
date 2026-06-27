@@ -68,3 +68,10 @@ lint 看到 `pending_archive:` 前缀 → 跳过存在性检查。人类/Agent �
 | 人类可读 | ✅ 保留原始路径线索 |
 
 **总评：可以支持。** 批准后 5 分钟改完。
+
+## 实施记录
+
+- 2026-06-27：已实现。`_lint_source_refs_exist`（workspace.py:897）加 `pending_archive:` 前缀跳过逻辑。
+- lint ERROR: 884 → 862（pending_archive 条目不触发错误）
+- 状态：**implemented**
+

@@ -103,7 +103,7 @@ diagnostic_signals:
 
 ## 关联
 
+- [[yt-five-step-method]]——一堂五步法核心概念
 - [[yt-ai-startup-20-risky-hypotheses]]——20条高风险假设清单，需求侧检查工具
-- [[skill-一堂-five-step-validation]]——五步法验证框架，系统化验证需求
 - [[case-lean-zhanglei-pivot-decision]]——张磊 pivot 决策案例，技术能力≠市场需求的真实案例
-- [[concept-product-market-fit]]——产品市场匹配核心概念
+- [[concept-ai-native-organization-five-steps]]——AI原生组织五步法

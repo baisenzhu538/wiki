@@ -52,7 +52,7 @@ source_refs:
 
 ## 关联
 
-- [[skill-一堂-strategy-formulation]]——战略制定方法论
-- [[concept-strategy-execution-gap]]——战略执行断层概念
-- [[case-strategy-execution-failure]]——战略执行失败案例
-- [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区，战略与需求的混淆
+- [[yt-five-step-method]]——一堂五步法核心概念
+- [[framework-five-step-lean-interface]]——五步法与精益创业接口框架
+- [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区
+- [[dk-demand-pitfall-indonesia-insurance]]——印尼寿险场景错配案例

@@ -18,6 +18,8 @@ related:
   - src_unknown
   - src_unknown
   - src_unknown
+---
+
 ## 原始表述
 
 > "中国模式复制到印尼→需求不成立。"——一堂五步法需求分析课程中，讲师分享的一个真实踩坑案例。
@@ -60,7 +62,7 @@ related:
 
 ## 关联
 
-- [[skill-一堂-five-step-validation]]——五步法验证框架，系统化验证需求
-- [[concept-usp-model]]——USP 模型（用户×场景×问题）核心概念
-- [[case-demand-pitfall-indonesia-insurance]]——印尼寿险踩坑完整案例
+- [[yt-five-step-method]]——一堂五步法核心概念
+- [[yt-five-step-cross-step-1]]——五步法第一步：需求分析
+- [[dk-ai-entrepreneur-technical-blindspot]]——AI创业者技术盲区
 - [[dk-strategy-02-three-paradoxes]]——战略三悖论，战略与执行的断层
