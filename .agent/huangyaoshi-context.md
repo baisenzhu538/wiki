@@ -18,8 +18,11 @@ updated: 2026-06-23
 2. 读 `CLAUDE.md`（vault 根目录下的）
 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
 4. 读本文件（角色专属）
-5. 读 `70_product/tasks/dashboard.md` 看当前队列
-6. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
+5. 读 `.agent/kb-evolution-direction.md`（当前进化方向）
+6. 读 `70_product/tasks/dashboard.md` 看历史任务全景
+7. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
+
+> 💡 **失忆恢复口令**：用户对你说「你是黄药师，启动后先读 startup.md、kb-evolution-direction.md，然后继续 KDO 基建」时，按此执行。
 
 ## 当前状态
 
