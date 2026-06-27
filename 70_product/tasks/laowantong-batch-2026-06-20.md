@@ -438,24 +438,21 @@
 
 ---
 
-## 第 3 波进展（2026-06-28，3.1 建模 5 张完成，3.2 综合卡待续）
+## 第 3 波进展（2026-06-28，3.1 建模 5 张 + 3.2 第 1 张完成）
 
-- 阶段 A（门禁清零）：5 张建模卡 pre-submit 全绿（CRLF + diagnostic_signals 断行 + ---# 粘连修复）
-- 阶段 B 3.1（建模 5 张内容返工）：✅ 完成
-  - 每张 Claims 填 6 条（从 Purpose/Protocol/失败模式反推，每条可被 Critique 攻击）
-  - capability-system：Reusable Knowledge 4 项 + Open Questions 4 条 + 可交付物 3 项 + 关联卡片 5 张 + Sources 填具体文件名
-  - three-stages：Visual Analysis 段位图描述 3 层 + Reusable Knowledge 决策树 3 分支 + Open Questions 4 条 + 关联卡片 4 张 + Sources 填
-  - level-map：Visual Analysis 段位图 6 段+跃迁周期 + Protocol 步骤 2-3 填实质 + 行动 Checklist 6 项 + 关联卡片 3 张 + Sources 填
-  - weapon-library：Visual Analysis 三层模型 12 项 + Critique 内部局限性 3 条 + 反事实测试 2 条 + 行动 Checklist 9 项 + 关联卡片 4 张 + Sources 填
-  - process-modeling：Claims 6 条 + 识别建模点判据 3 项 + 清单检查点 2 项 + 迭代触发器 2 项 + 9 问检查清单 + Critique 内部局限性 3 条 + 反事实 2 条 + 单卡收尾检查 9 项 + 关联卡片 5 张 + Sources 填
-  - 全 5 张内容区 src_unknown 清零（capability-system 36→0, three-stages 30→0, level-map 37→0, weapon-library 45→0, process-modeling 51→0）
-  - pre-submit 5 passed/0 failed
-- 阶段 B 3.2（综合卡 9 张格式转换）：未启动
-  - 9 张卡规模 283-353 行/张，src_unknown 47-97 个/张
-  - 任务单要求"拆分为 concept 卡或建立子卡映射"——需逐张读、判断拆分边界、重写或建立映射
-  - 4 张需剥离药柜/医疗内容（finance-legal-business-operations/product-business-strategy/ai-methodology-tools/yitang-methodology-system）
-- 阶段 B 3.3（口述数据标注）+ 3.4（药柜分离）：依赖 3.2
-- 状态：wave3 `claimed-workbuddy`，3.1 完成，3.2/3.3/3.4 待续
+- 阶段 A（门禁清零）：5 张建模卡 pre-submit 全绿 ✅
+- 阶段 B 3.1（建模 5 张内容返工）：✅ 完成（Claims/Critique/Visual/Reusable/OpenQuestions/Sources 全填，内容区 src_unknown 全清零，pre-submit 5 passed/0 failed）
+- 阶段 B 3.2 第 1 张（ai-hackathon-pitches）：✅ 完成
+  - 读 11 份录音 meetingSummary 素材（主题汇总 919 行）
+  - 核心洞察 5 条填实质（方法论默认操作系统/AI 落地两层结构/亮数据亮 demo/组织个人双轮/商业化初显但规模化未验证）
+  - 六层交叉验证 L1-L6 填实质（可证伪性/行为一致性/多源验证/情绪标记/时间稳定性/利益相关度）
+  - 与现有 30_wiki 差异点 4 条 + 置信度分层（事实/条件/观察/风险）+ 药柜标注 + 验证参考 13 项 + 说明 + 置信度更新 + 断言清理
+  - 内容区 src_unknown 97→0（总 14 个为 frontmatter domain/related/tags 占位）
+  - pre-submit PASS
+  - 决策：保留为"主题综合索引卡"，不拆分——6 个子主题已在"子主题映射表"建立待拆分映射，本卡作为索引不替代子卡
+- 阶段 B 3.2 剩余 8 张：⏳ 待续
+- 阶段 B 3.3（口述标注）+ 3.4（药柜分离）：依赖 3.2
+- 状态：wave3 `claimed-workbuddy`，3.1 + 3.2 第 1 张完成，3.2 剩 8 张待续
 
 ---
 

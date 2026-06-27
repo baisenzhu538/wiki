@@ -215,19 +215,19 @@ related:
 
 ## 验证与参考
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md`（11 条录音 meetingSummary 主题汇总，919 行）
+- `10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md`（武智院 ECD 知识库 + 小镇实验）
+- `10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md`（2298 战队组织落地四阶段）
+- `10_raw/sources/src_20260614_852f9158-唐三超-奶糖项目汇报.md`（奶糖 MCP 平台）
+- `10_raw/sources/src_20260614_67a2b760-科创号1301-AI应用落地汇报.md`（科创号专利智能体）
+- `10_raw/sources/src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md`（稳住战队价值投资）
+- `10_raw/sources/src_20260614_32622548-无限进步战队-AI内容营销路演.md`（无限进步内容营销）
+- `10_raw/sources/src_20260614_cc542987-个人-AI航海成果汇报.md`（个人成长路径）
+- `10_raw/sources/src_20260614_507e4b9a-AI博客项目-经验分享.md`（AI 博客多模态生成）
+- `10_raw/sources/src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md`（房浩洋剧本杀）
+- `10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md`（瑶光阁非遗珠宝）
+- `10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md`（AI 旋风组硬件 Agent）
+- 一堂方法论公开资料（五步法/MVP/关键假设/产品内核）——用于交叉验证"方法论作为默认操作系统"
 
 ---
 
@@ -271,11 +271,10 @@ related:
 | 稳住战队百度秒搭、价值投资大师 | `src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md` | 19, 48, 58-61 | ✅ 已核对 |
 
 **说明**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 11 条录音 meetingSummary 已全部核对，关键断言均有 source 行号（见上方"已核对原文的关键断言"表）
+- 所有项目方自述数字（订单/满意度/效率提升等）维持"未独立验证"标注
+- 综合可信度评级 0.54（🟡 中可信度），主要因同源样本 + 利益相关 + 时间衰减
+- 本卡作为"主题综合索引卡"定位，不替代子案例卡；6 个待拆分子主题见下方"子主题映射表"
 
 **新发现的问题**：
 1. 无限进步战队断言中的"外模型（steps 多维五步）"存在跨 source 混同：steps 多维五步属于 AI 博客项目，不应作为无限进步战队的来源。
@@ -284,9 +283,9 @@ related:
 
 ### 置信度更新
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 综合可信度 0.54（🟡 中可信度），维持 medium trust_level
+- 事实层（项目主题/团队/技术栈）置信度 high；条件层（洞察框架）置信度 medium；商业化数据置信度 low（项目方自述未审计）
+- 时间稳定性下修：2026-01 路演距今 5 个月，AI 技术栈变化快，部分工具选型可能已过时
 
 ---
 
@@ -295,13 +294,13 @@ related:
 本次清理由王语嫣（Kimi Code CLI）执行，针对第二轮深挖中发现的**无原文支持断言**和**需专业复核/条件性结论断言**进行处理。
 
 ### 已移除/降级的无原文支持断言
-- src_unknown
+- 无限进步战队"外模型（steps 多维五步）"——已拆分，"外模型"标注为摘要加工，"steps 多维五步"归属 AI 博客项目
 
 ### 已标注限制条件的条件性结论
-- src_unknown限进步战队‘外模型（steps 多维五步）’——原文为‘人脑做成AI的外挂’，‘外模型’与‘steps 多维五步’分属不同 source，存在术语混同，已拆分标注。
+- 无限进步战队'外模型（steps 多维五步）'——原文为'人脑做成AI的外挂'，'外模型'与'steps 多维五步'分属不同 source，存在术语混同，已拆分标注。
 
-- src_unknown
-- src_unknown
+- 商业化数据（12 万订单/73% 满意度/3 单成交等）——均标注"项目方自述，未独立验证"
+- "方法论是默认操作系统"——条件性结论：仅当项目方自觉调用而非事后套话时成立，该条件无法从录音完全验证
 
 ---
 
