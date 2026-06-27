@@ -26,7 +26,7 @@ related:
 | 优先级 | P1 |
 | 质量负责人 | 王语嫣（CLI） |
 | 生产方 | Hermes 老顽童 |
-| 预计产出 | 14-15 张卡 |
+| 预计产出 | 16-17 张卡（含 2 张跨域桥接卡） |
 
 ---
 
@@ -326,6 +326,60 @@ related:
 - 每个陷阱：症状 → 根因 → 修复动作
 - 来源：反案例图 + 口述中的失败模式
 - related ≥ 5
+
+---
+
+### P1：跨域桥接卡（2 张）
+
+> 追加依据：`diag_20260627_wangyuyan-cross-domain-bridge-supplement`
+
+#### 2.16 `framework-yitang-channel-unit-economics`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | framework |
+| title | 渠道单元经济模型：把每个获客渠道当作独立经济单元核算 |
+| domain | yitang, growth, unit-model |
+| confidence | 0.82 |
+| trust_level | medium-high |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`, `yt-unit-model-concept` |
+
+**内容要求**：
+- 一句话：每个可持续渠道都应有自己的 CAC、转化率、LTV、回收周期；混合计算会让烂渠道躲在好渠道后面。
+- 核心公式：
+  - 单渠道单元利润 = 渠道流量 × 转化率 × 客单价 × 复购率 − 渠道获客成本
+  - 渠道回收周期 = 渠道 CAC ÷（单客户月贡献毛利 × 毛利率）
+  - 渠道 LTV/CAC = 渠道客户 LTV ÷ 渠道 CAC
+- 五维度渠道特性（大小、集中度、成本、快慢、持续性）与单元经济的关系；
+- 渠道投资组合：快回收/现金流型、可扩展型、实验型；
+- When NOT to Use：产品价值未验证、渠道数据不足 3 个月、客户无法归因；
+- 失败模式：混合 CAC、只看 CAC 不看回收周期、忽视渠道生命周期衰减；
+- Critique：归因模型局限（last-touch 偏差）、渠道间相互 cannibalization、短期回收与长期品牌投入的冲突；
+- related ≥ 7：`framework-yitang-channel-exploration-4step`, `yt-unit-model-concept`, `yt-unit-model-overview`, `tool-区分获客渠道计算单元roi`, `framework-yitang-growth-flywheel`, `tool-yitang-channel-scoring-matrix`, `case-yitang-maiyi-cloud-computer-channel`。
+
+#### 2.17 `concept-yitang-channel-lean-validation-bridge`
+
+| 字段 | 要求 |
+|:---|:---|
+| type | concept |
+| title | 渠道精益验证：把渠道 0→1 测试当作一种 MVP |
+| domain | yitang, growth, lean-startup |
+| confidence | 0.80 |
+| trust_level | medium-high |
+| source_refs | `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`, `lean-startup-domain-digest` |
+
+**内容要求**：
+- 一句话：渠道探索四步法的前三步，本质上是把「渠道获客假设」当作 MVP 来低成本验证。
+- 渠道 MVP 的 4 种形态：
+  1. **Smoke Test Landing Page**：假着陆页 + 真广告，测 CTR/注册/预购；
+  2. **Concierge Channel**：创始人/销售手动跑通首批客户，验证渠道可达性；
+  3. **Borrowed Traffic**：借朋友圈/友商/交易平台流量快速测试；
+  4. **Micro-Spend Ads**：小额付费（如 ¥2000-5000）验证某个渠道的基本转化。
+- 与产品 MVP 的区别：产品 MVP 验证「价值假设」，渠道 MVP 验证「可达假设」；
+- 与工业化的边界：0→1 用精益验证，1→N 用工业化生产；
+- When NOT to Use：产品价值未验证、目标客群不清晰、预算不足以获得统计显著样本；
+- 失败模式：把渠道工业化流程套在 0→1 测试上、过早放大未验证渠道、用 brand campaign 替代验证实验；
+- related ≥ 7：`framework-yitang-channel-exploration-4step`, `framework-lean-false-model`, `framework-lean-abcd-model`, `tool-lean-fake-marketing`, `tool-lean-presell`, `tool-lean-leverage-traffic`, `framework-yitang-channel-industrialization`。
 
 ---
 

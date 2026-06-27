@@ -52,9 +52,14 @@ trust_level: medium
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
-- src_unknown
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 多人协作的硬件项目 |
+| ✅ 适合 | 需要外发打样或量产的硬件项目 |
+| ✅ 适合 | 有频繁改版需求的硬件产品 |
+| ❌ 不适合 | 纯软件项目——已有 Git 等成熟版本控制 |
+| ❌ 不适合 | 个人快速原型验证——版本管理 overhead 过高 |
+| ⚠️ 注意 | 硬件大文件（PCB/Gerber）不适合 Git，需配合其他工具 |
 
 ## 为什么值钱
 
@@ -62,6 +67,14 @@ trust_level: medium
 
 这里的暗知识不是"要有版本控制"这个结论（谁都知道），而是**具体的执行纪律**：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **文件名必须含版本号+日期**：`BOM_HX-SMJ-03-A_V2.1_2025-12-03.csv`，不是`BOM_最终版.csv`
+- **README.md 版本对照表**：项目根目录维护一张"当前正确版本"清单，新接手的人第一眼就能看到
+- **改版同步检查清单**：改了原理图 → 检查 BOM → 检查固件 pin define → 检查 Gerber，不能漏任何一环
+
+## 关联
+
+- [[dk-ef-001-sn74lvc2g07-open-drain]]——开漏输出陷阱，广冷红外板调试系列
+- [[dk-ef-003-hand-soldering-bom-divergence]]——手工焊接BOM偏差，生产调试陷阱
+- [[dk-ef-004-missing-diagnostic-firmware]]——诊断固件缺失，盲调问题
+- [[case-guang-leng-dian-zi-hx-smj]]——广冷电子红外板调试完整案例
+- [[yt-five-step-method]]——一堂五步法，系统化问题定位框架
