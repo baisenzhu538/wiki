@@ -126,7 +126,10 @@ def step2_migrate_files():
 
 
 def main():
-    step = sys.argv[1] if len(sys.argv) > 1 else "all"
+    step = "all"
+    for a in sys.argv[1:]:
+        if a in ("step1", "step2"):
+            step = a
     mode = "DRY RUN" if DRY_RUN else "APPLY"
 
     if step in ("step1", "all"):
