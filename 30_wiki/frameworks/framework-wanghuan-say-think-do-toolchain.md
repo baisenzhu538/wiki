@@ -19,9 +19,9 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-- "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
-- "10_raw/sources/src_20260619_8957ae3c_wanghuan_AI工具链四级台阶_示意图.md"
+- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
+- 10_raw/sources/src_20260619_8957ae3c_wanghuan_AI工具链四级台阶_示意图.md"
 diagnostic_signals:
 - signal: '团队把 AI 当“更快的打字员/写手”使用'
   lens: 角色定位

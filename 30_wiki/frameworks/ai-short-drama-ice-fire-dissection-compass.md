@@ -204,8 +204,8 @@ diagnostic_signals:
 
 | 锚点 | 来源 | 用途 |
 |---|---|---|
-| **《我在80年代当后妈》投喂样本** | `src_20260613_687c4ec0-transcript.md` 口述 | 讲师用该剧作为 AI 拆解/投喂对象，说明拆本罗盘可直接用于真实爆款 |
-| **30+ 剧本、签约 2 部** | `src_20260613_687c4ec0-transcript.md:605-613` | 拆本→写本→投稿的闭环验证数据 |
+| **《我在80年代当后妈》投喂样本** | 10_raw/sources/src_20260613_687c4ec0-transcript.md` 口述 | 讲师用该剧作为 AI 拆解/投喂对象，说明拆本罗盘可直接用于真实爆款 |
+| **30+ 剧本、签约 2 部** | 10_raw/sources/src_20260613_687c4ec0-transcript.md:605-613` | 拆本→写本→投稿的闭环验证数据 |
 
 > ⚠️ 案例说明：拆本罗盘对《我在80年代当后妈》的具体拆解结论未在素材中完整呈现，用户若用于同题材创作，需自行补充完整五维拆本。
 
@@ -215,16 +215,16 @@ diagnostic_signals:
 
 ### 原始素材
 
-- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.png` — 原始信息图
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.png` — 原始信息图
 - `00_inbox/AI短剧创作/代俊隆-AI短剧-冰火拆本罗盘-图片-01.json` — OCR 结构化 JSON
-- `00_inbox/AI短剧创作/代俊隆-AI短剧-冰火拆本罗盘-图片-01.md` — OCR 识别文本
+- 10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.md` — OCR 识别文本
 
 ### 归档 source
 
 - `src_20260613_c17fcdb2-ai-short-drama-ice-fire-dissection-compass.md:11-14` — 归档后的原图摘要
 
-- `src_20260613_c17fcdb2-ice-fire-dissection-compass.md:11-14` — 冰火拆本罗盘原图表格
-- `src_20260613_687c4ec0-transcript.md:737` — 口述中提到"拆本"与"三板斧"
-- `src_20260613_12d63c1c-notes.md:9-21` — 方法论总览中的拆本罗盘定位
+- 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md:11-14` — 冰火拆本罗盘原图表格
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md:737` — 口述中提到"拆本"与"三板斧"
+- 10_raw/sources/src_20260613_12d63c1c-notes.md:9-21` — 方法论总览中的拆本罗盘定位
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及 7 张方法论图片*

@@ -13,10 +13,10 @@ domain:
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-口述.txt"
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
-- "00_inbox/王欢AI实践心法/_ocr_output/README.md"
+- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"
+- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-口述.txt"
+- 00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
+- 10_raw/literature/README.md"
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 王语嫣

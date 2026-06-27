@@ -29,8 +29,8 @@ related:
   - '[[yt-unit-model-construction]]'
   - '[[yt-unit-model-benchmark]]'
 source_refs:
-- "10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
-- "10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md"
+- 10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
+- 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md"
 captured_at: '2026-06-19'
 tags:
 - 鑫港湾

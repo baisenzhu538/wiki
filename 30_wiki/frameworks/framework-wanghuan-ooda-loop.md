@@ -19,9 +19,9 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- '10_raw/sources/src_20260619_93d38033_wanghuan_OODA循环_示意图.md'
-- '10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
-- '10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
+- 10_raw/sources/src_20260619_93d38033_wanghuan_OODA循环_示意图.md'
+- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
 related:
   - '[[human-ai-collaboration-double-triangle]]'
   - '[[framework-wanghuan-three-tier-dev-architecture]]'

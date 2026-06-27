@@ -134,4 +134,4 @@ OSINT Skill 中的 "与一堂武器库的桥接" 表格将新工具与已有的 
 
 - **黄药师**：7 个 research-* Skill 通过审查，可继续维护。Y 模型决策域的 Skill 化列为下一优先级
 - **老顽童/王语嫣**：各自产出的域在 Wave 计划末尾评估是否满足 Skill 化触发条件。满足则通知黄药师
-- **全员**：新 Skill 放在 `.claude/skills/<name>/SKILL.md`，不要放在 vault 内的 `40_outputs/capabilities/skills/`（后者是给人类读的文档，前者是 Agent 可调用的 Skill）
+- 10_raw/sources/src_20260620_deep-research-skill/SKILL.md`，不要放在 vault 内的 `40_outputs/capabilities/skills/`（后者是给人类读的文档，前者是 Agent 可调用的 Skill）
