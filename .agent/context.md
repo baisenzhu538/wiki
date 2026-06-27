@@ -1,9 +1,10 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "人员调整（2026-06-28）：Kimi 老顽童临时实例关闭，兰毅泛产品组织化任务转由 Hermes 老顽童负责；黄药师负责渠道增长域遗留清理任务；WorkBuddy 老顽童继续 wave3；欧阳锋当前无 pending_review 任务"
+active_task: "老顽童(WorkBuddy) 2026-06-28 完成 wave3 阶段 A 门禁清零 + 阶段 B 3.1 建模 5 张内容返工（Claims/Critique/Visual/Reusable/OpenQuestions/Sources 全填，pre-submit 5 passed/0 failed，内容区 src_unknown 全清零）；wave3 3.2 综合卡 9 张格式转换待续（重活）；wave1 reviewed；wave2 reviewed by 欧阳锋"
 blockers:
-  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡（modeling-capability-system/three-stages/level-map/weapon-library/process-modeling）CRLF 换行 + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed；阶段 B 内容返工未启动（Claims 全 src_unknown + Critique 缺失 + 内容区 src_unknown 30-51 个/张 + 9 张综合卡格式转换）"
+  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
+  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
   - "✅ 欧阳锋子代理完成 wave2 终审（2026-06-28）：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；已知遗留：frontmatter domain/related/tags/query_triggers `src_unknown` 占位（系统性债务）+ `yt-business-formula-parameter-iceberg` 与 B2 部分卡内容区占位 + `ai-short-drama-platform-policy-comparison` 缺 Critique/反事实，建议后续清理任务补齐"
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
