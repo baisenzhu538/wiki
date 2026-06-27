@@ -8,7 +8,7 @@ trust_level: high
 domain:
   - yitang
 source_refs:
-  - https://www.coze.cn/s/434bq-dCV6c/（一堂Agent输出的智慧药柜报告）
+  - src_unknown
   - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
   - 30_wiki/frameworks/framework-demand-opportunity-spectrum.md
 created_at: "2026-06-21"

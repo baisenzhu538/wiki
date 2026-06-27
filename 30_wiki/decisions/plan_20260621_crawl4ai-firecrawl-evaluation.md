@@ -7,10 +7,10 @@ domain:
   - master
   - kdo
 source_refs:
-  - https://blog.apify.com/crawl4ai-vs-firecrawl/
-  - https://www.capsolver.com/blog/AI/crawl4ai-vs-firecrawl
-  - https://github.com/unclecode/crawl4ai
-  - https://dev.to/beton/firecrawl-pricing-teardown-2026-2eh8
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋

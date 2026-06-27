@@ -8,11 +8,11 @@ trust_level: high
 domain:
   - yitang
 source_refs:
-  - https://github.com/h4ckf0r0day/awesome-ai-web-scraping
-  - https://www.clay.com/blog/web-scraper-best-tools
-  - https://blog.apify.com/firecrawl-vs-apify/
-  - https://www.ropesgray.com/en/insights/alerts/2026/05/web-scraping-in-the-age-of-ai-guidance-for-data-owners-and-scrapers
-  - https://cnil.fr/en/legal-basis-legitimate-interest-focus-sheet-measures-implement-case-data-collection-web-scraping
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 created_at: "2026-06-21"
 updated_at: "2026-06-21"
