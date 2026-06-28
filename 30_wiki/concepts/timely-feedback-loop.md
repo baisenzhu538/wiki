@@ -6,7 +6,7 @@ type: framework
 domain:
 - ai-collaboration
 - skill-building
-status: enriched
+status: reviewed
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
