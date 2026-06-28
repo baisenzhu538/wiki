@@ -210,3 +210,7 @@ Postman 在《Amusing Ourselves to Death》中提出的"媒介即隐喻"理论�
 | 进阶框架 | [[yt-unit-model-ladder]] | AI 可以将 L3-L4 的分析时间从"周"压缩到"天"，但 L5-L6 的判断仍需人做 |
 | 跨域关联 | [[yt-decision-ai-partner]] | AI 在决策中的角色定位——辅助而非替代 |
 | 跨域关联 | [[master-systems-thinking]] | 系统思维帮助识别 AI 输出中的因果结构是否成立 |
+
+## 质疑
+
+> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？

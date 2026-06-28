@@ -162,3 +162,7 @@ diagnostic_signals:
 ## Feedback Path
 
 - src_unknown
+
+## 目的
+
+> 待补充：这个工具解决什么问题？适用于什么场景？

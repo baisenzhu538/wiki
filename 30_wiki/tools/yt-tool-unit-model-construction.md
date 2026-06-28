@@ -109,3 +109,13 @@ Gigerenzer & Goldstein (1996) 的"简洁启发式"(Fast and Frugal Heuristics)�
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 目的
+
+> 待补充：这个工具解决什么问题？适用于什么场景？
+
+## 操作步骤
+
+1. **步骤一**：待补充
+2. **步骤二**：待补充
+3. **步骤三**：待补充

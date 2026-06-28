@@ -268,3 +268,21 @@ Truman 个人拍短视频的 ABCD 模型：A 选题池 → B 雷达图排序 →
 - `[[yt-unit-model-overview]]`
 - `[[case-yitang-yitang-course-industrialization]]`
 - `[[tool-yitang-channel-scoring-matrix]]`
+
+## 目的
+
+> 待补充：这个工具解决什么问题？适用于什么场景？
+
+## 操作步骤
+
+1. **步骤一**：待补充
+2. **步骤二**：待补充
+3. **步骤三**：待补充
+
+## 不要用的场景
+
+> 待补充：什么情况下这个工具效果有限或不应该使用？
+
+## 质疑
+
+> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
