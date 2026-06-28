@@ -6,7 +6,7 @@ domain:
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
-- src_20260620_business-research-skill-v2.1.0/SKILL.md
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 status: enriched
 title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 trust_level: medium
