@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-shell-oil
 title: 壳牌石油：价值链突变→市场规模预测→从生产转服务
 type: case
@@ -22,10 +23,10 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[ocr-一堂-单元模型-动态预测]]'
-- '[[tool-月白-服务体验类去AI感设计]]'
-- '[[tool-采用滚动预测机制]]'
+  - [[strategy-domain-digest]]
+  - [[ocr-一堂-单元模型-动态预测]]
+  - [[tool-月白-服务体验类去AI感设计]]
+  - [[tool-采用滚动预测机制]]
 ---
 
 **转型**：原油价值链突变→预测未来市场规模萎缩→提前从生产转向服务

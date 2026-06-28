@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-xiaobear
 title: 小熊电器：跳出行业范式——定位年轻单身男性
 type: case
@@ -22,9 +23,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
+  - [[pending_unknown]]
 ---
 
 **反常识**：家电品牌定位年轻单身男性——"最穷最没消费欲的人群"

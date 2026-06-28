@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-expert-roadmap
 title: 精益高手十年修炼地图
 type: framework
@@ -15,11 +16,11 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
-- '[[lean-startup-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[lean-startup-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 精益高手十年修炼地图

@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
@@ -17,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[aima-ai思维卡-外部链接归档]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[aima-ai思维卡-外部链接归档]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -42,6 +43,7 @@ diagnostic_signals:
   follow_up_question: 这张卡与已有哪张卡冲突或互补？
 updated_at: '2026-06-28'
 author: 老顽童
+
 ---
 
 # AI思维卡：从「读书」到「安装认知补丁」

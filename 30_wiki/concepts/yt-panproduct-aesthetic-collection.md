@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-aesthetic-collection
 component_of:
 - src_unknown
@@ -22,11 +23,11 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践收集
 - src_unknown
 related:
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-model-pan-product-36-strategies]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-aesthetic-toolkit]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[一堂]]
+  - [[yt-model-aesthetic-progression]]
+  - [[pending_unknown]]
 reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集
@@ -52,6 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 最佳实践收集：积极搜集最佳案例

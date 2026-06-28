@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -18,11 +19,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Crawl4AI

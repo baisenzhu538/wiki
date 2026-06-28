@@ -1,4 +1,5 @@
 ---
+
 id: voice-input-doubao
 type: tool
 title: voice input doubao
@@ -13,14 +14,15 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[dk-yb32-doubao-size-composition]]'
-- '[[tool-ai-voice-input-doubao]]'
-- '[[case-yitang-voice-robot-companion-design]]'
-- '[[case-yitang-xujian-invoice-saas-channel]]'
-- '[[tool-ai-oral-spray-input]]'
-- '[[sk-ai-voice-input-doubao]]'
-- '[[yt-note-extensive-research-input]]'
+  - [[yitang-domain-digest]]
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[dk-yb32-doubao-size-composition]]
+  - [[tool-ai-oral-spray-input]]
+  - [[case-yitang-voice-robot-companion-design]]
+  - [[yt-note-extensive-research-input]]
+  - [[tool-ai-voice-input-doubao]]
+  - [[case-yitang-xujian-invoice-saas-channel]]
+  - [[sk-ai-voice-input-doubao]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -39,6 +41,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 豆包输入法：语音输入的最低成本实践

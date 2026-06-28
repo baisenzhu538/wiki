@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
@@ -13,11 +14,14 @@ version: 1
 difficulty: intermediate
 confidence: 0.9
 related:
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-model-ipo-learning-strategy]]'
-- '[[yt-panproduct-demand-motivation-resistance]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-personal-pitch-toolkit]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[yt-panproduct-demand-motivation-resistance]]
+  - [[yt-prompt-iterative-prompting]]
+  - [[yt-prompt-anti-flattery]]
+  - [[yt-prompt-brainstorming]]
+  - [[yt-prompt-writing-workflow]]
+  - [[yt-concept-ai-guard-brain]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -42,6 +46,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 # 人机协作操作系统：提示词工程总框架

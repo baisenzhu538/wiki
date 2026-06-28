@@ -1,4 +1,5 @@
 ---
+
 id: concept-harness-cattle-not-pets
 title: 牲口而非宠物：每次迭代用全新Generator实例
 type: concept
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 牲口而非宠物

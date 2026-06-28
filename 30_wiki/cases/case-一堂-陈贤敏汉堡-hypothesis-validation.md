@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -16,12 +17,19 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
-- '[[ocr-一堂-科学决策-关键假设abcd模型]]'
+  - [[tool-从案例中学习]]
+  - [[tool-马易-关键假设识别与验证]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
+  - [[ocr-一堂-科学决策-关键假设abcd模型]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -50,6 +58,7 @@ diagnostic_signals:
   follow_up_question: 这个业务如果失败，最可能是因为哪2-3个前提不成立？每个前提有没有对应的最小验证实验？
 - framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
+
 ---
 
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设

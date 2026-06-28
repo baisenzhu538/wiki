@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-media-search
 title: 武器库策略12：媒体/社区搜索——从业者观点和专业讨论
 type: tool
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 武器库策略12：媒体/社区搜索

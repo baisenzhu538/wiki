@@ -1,4 +1,5 @@
 ---
+
 id: dk-f6-cjk-skeleton-corruption
 title: F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 type: dk
@@ -13,14 +14,21 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- '[[dk-f1-regex-on-cjk]]'
-- '[[framework-kdo-self-attack]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[kdo-priority-checklist]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[kdo_product_design_agent_final]]'
-- '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[kdo-protocol]]
+  - [[modeling-to-kdo-toolchain]]
+  - [[kdo-batch-produce-req014]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[kdo-watch-health-check-layer]]
+  - [[dk-f1-regex-on-cjk]]
+  - [[framework-kdo-self-attack]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[kdo-priority-checklist]]
+  - [[kdo_product_design_agent_final]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -37,6 +45,7 @@ diagnostic_signals:
   framework_lens: KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug
   follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006# F-KDO-006：骨架页面
     CJK 内容损毁→ingest 后中文摘要变成随机碎片
+
 ---
 
 ## 原始表述

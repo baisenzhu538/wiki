@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -16,11 +17,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[一堂]]'
-- '[[yt-model-y-organization]]'
-- '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[一堂]]
+  - [[yt-model-y-organization]]
+  - [[yt-system-course-catalog]]
+  - [[yt-model-personal-map]]
+  - [[yt-model-management-map]]
+  - [[yt-model-entrepreneur-map]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
@@ -42,6 +44,7 @@ diagnostic_signals:
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 # 一堂无限进步大地图·十年收藏版

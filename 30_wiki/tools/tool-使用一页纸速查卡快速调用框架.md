@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-five-step-method]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-five-step-method]]
+  - [[master-cognitive-bias-checklist]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。

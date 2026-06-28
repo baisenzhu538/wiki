@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-product-ten-metrics]]'
-- '[[case-shampoo-product-kernel]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-five-step-method]]
+  - [[yt-product-ten-metrics]]
+  - [[case-shampoo-product-kernel]]
+  - [[case-treadmill-demand-analysis]]
+  - [[pending_unknown]]
 ---
 
 # 产品内核修炼段位图

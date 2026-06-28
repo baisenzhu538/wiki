@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
@@ -17,11 +18,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -36,6 +37,7 @@ definition_of_done:
 - src_unknown
 - src_unknown
 trust_level: medium
+
 ---
 
 # 技能：AI输出证据核查三问法

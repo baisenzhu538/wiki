@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 title: 技能：判断课程是否值得做成Skill
 type: tool
@@ -16,13 +17,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-- '[[dk-ban-fei-mao-skill-rejection-value]]'
-- '[[case-ban-fei-mao-conversion-hacker-skill]]'
-- '[[tool-半肥猫-课程Skill化的八步工作流]]'
-- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[tool-半肥猫-课程Skill化的八步工作流]]
+  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
+  - [[dk-ban-fei-mao-skill-rejection-value]]
+  - [[case-ban-fei-mao-conversion-hacker-skill]]
+  - [[concept-半肥猫-ai-learning-toolification-methodology]]
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
@@ -36,6 +37,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
+
 ---
 
 # 技能：判断课程是否值得做成Skill

@@ -1,4 +1,5 @@
 ---
+
 id: framework-demand-opportunity-spectrum
 title: 商业机会预判·终局光谱图
 type: framework
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-商业终局光谱图-图-01_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-单元模型-壁垒预判]]'
-- '[[ocr-一堂-单元模型-壁垒预判]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[ocr-预判模型]]'
+  - [[yitang-domain-digest]]
+  - [[ocr-一堂-单元模型-壁垒预判]]
+  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
+  - [[tool-单元模型-壁垒预判]]
+  - [[ocr-预判模型]]
 ---
 
 # 商业机会预判·终局光谱图

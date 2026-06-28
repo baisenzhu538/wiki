@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-panproduct-demand-project-background]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-panproduct-demand-project-background]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 - [[yt-panproduct-demand-project-background]]

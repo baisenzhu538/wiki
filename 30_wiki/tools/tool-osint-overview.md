@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-overview
 title: OSINT工具总览：情报界的调研武器库
 type: tool
@@ -17,11 +18,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # OSINT工具总览

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dk
@@ -12,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[yt-foresight-ab-steady-state]]'
-- '[[dk-f3-state-json-race-condition]]'
-- '[[dk-ji-hao-newbie-can-validate]]'
-- '[[tool-yitang-research-validate-assumption]]'
-- '[[dk-state-residue-is-the-silent-killer]]'
-- '[[proposal-yaml-frontmatter-standardization]]'
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[yt-foresight-ab-steady-state]]
+  - [[dk-state-residue-is-the-silent-killer]]
+  - [[dk-f3-state-json-race-condition]]
+  - [[proposal-yaml-frontmatter-standardization]]
+  - [[dk-ji-hao-newbie-can-validate]]
+  - [[tool-yitang-research-validate-assumption]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter

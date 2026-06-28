@@ -1,4 +1,5 @@
 ---
+
 id: tool-决策深度-L4严格财务公式
 title: 决策深度L4：严格财务公式
 type: tool
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4严格财务公式_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 决策深度L4：严格财务公式

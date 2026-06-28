@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-cross-validation
 title: 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 type: dk
@@ -27,15 +28,16 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 ## 原始表述/核心洞察

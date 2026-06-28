@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
@@ -17,14 +18,21 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
-- '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
-- '[[tool-月白-设计文件八要素命名法]]'
-- '[[tool-月白-设计项目MVP拆解法]]'
-- '[[ocr-泛产品设计-落地卡片-roi分析]]'
-- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
+  - [[ocr-泛产品设计-用户卡片-场景推演]]
+  - [[tool-半肥猫-课程Skill化的八步工作流]]
+  - [[tool-ai-skill-engineering-method]]
+  - [[tool-月白-AI设计底层逻辑：从设计到作图到改图]]
+  - [[ocr-泛产品设计-落地卡片-攻坚会]]
+  - [[tool-月白-口述作图法（口喷设计）]]
+  - [[tool-Truman-Skill全生命周期管理]]
+  - [[tool-月白-设计能力蒸馏封装法]]
+  - [[tool-马易-AI搜索公网数据增强（合规边界）]]
+  - [[tool-月白-设计文件八要素命名法]]
+  - [[tool-月白-设计项目MVP拆解法]]
+  - [[ocr-泛产品设计-落地卡片-roi分析]]
+  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[tool-泛产品设计-需求工具箱指南]]
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -43,6 +51,7 @@ diagnostic_signals:
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
 - lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
+
 ---
 
 # 技能：设计 Skill 的评分规则与风险边界

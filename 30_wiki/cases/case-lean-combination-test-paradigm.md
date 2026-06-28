@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-combination-test-paradigm
 title: 组合测试范式实操案例
 type: case
@@ -23,9 +24,9 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 related:
-- '[[lean-startup-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[lean-startup-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 ---
 
 # 组合测试范式实操案例

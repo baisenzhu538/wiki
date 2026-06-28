@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dk
@@ -17,14 +18,14 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-sop-template-modeling]]'
-- '[[yt-decision-y-model-philosophical-roots]]'
-- '[[case-modeling-process-sop-evolution]]'
-- '[[case-livestream-sop-modeling]]'
-- '[[case-truman-livestream-sop-iteration]]'
-- '[[case-zhangyang-anchor-sop-three-locks]]'
-- '[[case-modeling-process-sop-examples]]'
+  - [[yitang-domain-digest]]
+  - [[case-zhangyang-anchor-sop-three-locks]]
+  - [[case-livestream-sop-modeling]]
+  - [[tool-sop-template-modeling]]
+  - [[case-truman-livestream-sop-iteration]]
+  - [[case-modeling-process-sop-evolution]]
+  - [[yt-decision-y-model-philosophical-roots]]
+  - [[case-modeling-process-sop-examples]]
 tags:
 - src_unknown
 - src_unknown
@@ -47,6 +48,7 @@ diagnostic_signals:
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP
     加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+
 ---
 
 ## 原始表述

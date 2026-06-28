@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-news-monitoring
 title: 新闻媒体监控：从报道频率和角度追踪竞对
 type: tool
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 新闻媒体监控

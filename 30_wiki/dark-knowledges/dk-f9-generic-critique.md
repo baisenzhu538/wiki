@@ -1,4 +1,5 @@
 ---
+
 id: dk-f9-generic-critique
 title: F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 type: dk
@@ -13,14 +14,20 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- '[[framework-kdo-self-attack]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[kdo-priority-checklist]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[kdo_product_design_agent_final]]'
-- '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[kdo-protocol]]
+  - [[modeling-to-kdo-toolchain]]
+  - [[kdo-batch-produce-req014]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[kdo-watch-health-check-layer]]
+  - [[framework-kdo-self-attack]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[kdo-priority-checklist]]
+  - [[kdo_product_design_agent_final]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +39,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
+
 ---
 
 ## 原始表述/核心洞察

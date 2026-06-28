@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-ai-research-prompt-craft
 title: AI调研效果取决于问题拆解和人工判断——不是提示词技巧
 type: dk
@@ -18,12 +19,13 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # AI调研效果取决于问题拆解和人工判断

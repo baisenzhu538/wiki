@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
@@ -23,11 +24,11 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-- '[[yt-tob-customer-sabc]]'
-- '[[yt-tob-demand-metrics]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-tob-customer-sabc]]
+  - [[yt-tob-demand-metrics]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 缺少单销售模型视角，无法判断“招一个销售是否划算”。
   follow_up_question: 我能否算出：一名销售入职后第 3/6/12 个月，分别需要创造多少毛利才能覆盖他的全周期成本？
@@ -37,6 +38,7 @@ diagnostic_signals:
   follow_up_question: 哪些销售动作可以远程完成？哪些必须本地？远程销售团队能降低多少单销售成本？
 - framework_lens: 渠道模型需要以跑通的单销售模型为底层假设，否则渠道商无法复制成功。
   follow_up_question: 我能否向渠道商展示：在当地招一名销售、按标准打法跑 12 个月，保守/乐观情形下分别能赚多少钱？
+
 ---
 
 # To B 单销售模型：时间闭环 + 空间闭环

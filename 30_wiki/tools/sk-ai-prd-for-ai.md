@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
@@ -28,12 +29,12 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
-- '[[tool-月白-AI改图指令精细化]]'
-- '[[tool-ai-prd-for-ai]]'
-- '[[prd-as-ai-instruction]]'
+  - [[tool-ai-prd-for-ai]]
+  - [[prd-as-ai-instruction]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[case-truman-prd-checklist-evolution]]
+  - [[tool-月白-AI改图指令精细化]]
+  - [[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -44,6 +45,7 @@ diagnostic_signals:
   follow_up_question: 请提供半肥猫分享中关于PRD作为AI可执行指令的具体原文，或补充另一份来源以支撑该主张？
 - framework_lens: authorship-attribution
   follow_up_question: 是否需要将source_person更正为纪浩，或找到半肥猫对应分享的原始记录？
+
 ---
 
 # 技能：把PRD写成AI能执行的指令

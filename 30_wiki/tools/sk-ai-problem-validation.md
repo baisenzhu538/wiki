@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
@@ -28,11 +29,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -40,6 +41,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
+
 ---
 
 # 技能：问题验证三维度法

@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[yt-customer-acquisition-toolkit]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-five-step-method]]
+  - [[yt-unit-model-three-tools]]
+  - [[yt-customer-acquisition-toolkit]]
+  - [[yt-barrier-analysis-cheat-sheet]]
+  - [[pending_unknown]]
 ---
 
 # 增长周期模型

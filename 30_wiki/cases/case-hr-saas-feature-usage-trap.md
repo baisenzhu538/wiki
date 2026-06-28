@@ -1,4 +1,5 @@
 ---
+
 id: case-hr-saas-feature-usage-trap
 title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 type: case
@@ -31,12 +32,12 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[case-yitang-xujian-invoice-saas-channel]]'
-- '[[private-domain-saas-sales-funnel]]'
-- '[[tool-水水-识别数据折磨陷阱]]'
-- '[[case-saas-renewal-formula]]'
-- '[[tool-水水-识别自证预言陷阱]]'
+  - [[yitang-domain-digest]]
+  - [[private-domain-saas-sales-funnel]]
+  - [[case-yitang-xujian-invoice-saas-channel]]
+  - [[tool-水水-识别自证预言陷阱]]
+  - [[case-saas-renewal-formula]]
+  - [[tool-水水-识别数据折磨陷阱]]
 ---
 
 # HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱

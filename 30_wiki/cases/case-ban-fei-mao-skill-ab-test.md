@@ -1,4 +1,5 @@
 ---
+
 id: case-ban-fei-mao-skill-ab-test
 title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比
 type: case
@@ -17,9 +18,9 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -33,6 +34,7 @@ pipeline:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：Skill A/B 测试

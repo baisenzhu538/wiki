@@ -1,4 +1,5 @@
 ---
+
 id: tool-alt-data-free
 title: 免费替代数据：小团队的Hedge Fund武器
 type: tool
@@ -17,11 +18,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 免费替代数据

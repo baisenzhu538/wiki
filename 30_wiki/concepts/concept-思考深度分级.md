@@ -1,4 +1,5 @@
 ---
+
 id: concept-思考深度分级
 title: 思考深度分级：从表象到本质的认知阶梯
 type: concept
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 思考深度分级

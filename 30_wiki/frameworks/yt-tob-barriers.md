@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
@@ -24,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-- '[[case-yitang-tob-artificial-bone]]'
-- '[[case-yitang-tob-smart-park]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-yitang-tob-artificial-bone]]
+  - [[case-yitang-tob-smart-park]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 壁垒类型选择
   follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？
@@ -36,6 +37,7 @@ diagnostic_signals:
   follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
 - framework_lens: 规模不经济对抗
   follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
+
 ---
 
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》

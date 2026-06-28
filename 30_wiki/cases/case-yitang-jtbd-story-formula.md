@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-jtbd-story-formula
 title: 案例：JTBD故事公式——从用户故事中提取需求
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：JTBD故事公式——从故事中提取真实需求

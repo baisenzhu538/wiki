@@ -1,4 +1,5 @@
 ---
+
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -35,11 +36,11 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-- '[[yt-foresight-business-spectrum]]'
-- '[[yt-ai-trend-12-signals]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-foresight-business-spectrum]]
+  - [[yt-ai-trend-12-signals]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 三维排列组合找机会

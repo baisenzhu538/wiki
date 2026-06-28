@@ -1,4 +1,5 @@
 ---
+
 id: dk-signal-cluster-illusion
 title: 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
 type: dk
@@ -17,11 +18,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -36,6 +37,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 时效性衰减
   follow_up_question: 这个信号的有效期还有多久？哪些关键变量可能在3个月内推翻它？
+
 ---
 
 # 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕

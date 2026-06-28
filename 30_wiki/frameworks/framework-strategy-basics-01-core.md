@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-basics-01-core
 title: 定式（Core Foundation）：BRM框架为核心，战略肌肉记忆
 type: framework
@@ -12,14 +13,16 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-demand-iceberg-l3-core-job]]'
-- '[[tool-strategy-core-competence-matrix]]'
-- '[[yt-model-product-core-metrics]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-tob-core-characteristics]]'
-- '[[yt-tool-product-core-canvas]]'
-- '[[yt-tool-hiring-scorecard]]'
+  - [[strategy-domain-digest]]
+  - [[yt-tob-core-characteristics]]
+  - [[yt-panproduct-execution-core-and-boundary]]
+  - [[framework-strategy-brm]]
+  - [[yt-model-product-core-metrics]]
+  - [[yt-entrepreneur-product-core]]
+  - [[yt-tool-hiring-scorecard]]
+  - [[tool-strategy-core-competence-matrix]]
+  - [[tool-demand-iceberg-l3-core-job]]
+  - [[yt-tool-product-core-canvas]]
 ---
 
 **核心**：BRM（差距→规划→执行）不是一次性的项目，是需要形成肌肉记忆的日常习惯

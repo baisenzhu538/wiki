@@ -1,4 +1,5 @@
 ---
+
 id: dk-c1-cjk-regex-silent-fail
 title: C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
 type: dk
@@ -13,11 +14,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-- '[[dk-f6-cjk-skeleton-corruption]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-f6-cjk-skeleton-corruption]]
+  - [[yt-model-pan-product-climbing-map]]
+  - [[tool-clinic-medical-shortvideo-compliance]]
+  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+  - [[sprint-2-gate-enrich-evidence]]
+  - [[dk-p11-regex-cutoff]]
+  - [[sprint-6-cli-gap-proposal]]
+  - [[case-dental-clinic-formula]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,6 +43,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 脚本复制了 extractors.py 的 \b / 英文 keyword / 长度阈值逻辑，继承了同样的 CJK 盲区
   follow_up_question: 审查脚本 regex，将 \b 替换为 CJK-aware 分词或改用 LLM/NLP 库；参考 F-KDO-001 防御模式
+
 ---
 
 ## 原始表述

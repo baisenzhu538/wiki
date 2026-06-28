@@ -1,4 +1,5 @@
 ---
+
 id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
@@ -27,18 +28,26 @@ diagnostic_signals:
 - framework_lens: SOP 检查机制独立化
   follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
 related:
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[tool-sop-template-modeling]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
+  - [[tool-从案例中学习]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[dk-modeling-sop-execution-locks]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[tool-sop-template-modeling]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%

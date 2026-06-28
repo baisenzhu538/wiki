@@ -1,4 +1,5 @@
 ---
+
 id: dk-research-identity-craft-for-closed-information
 title: 为获取封闭情报设计合法身份
 type: dk
@@ -12,12 +13,12 @@ domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-- '[[case-yitang-competitor-pricing-intelligence]]'
-- '[[case-yitang-elderly-home-roleplay]]'
-- '[[case-yitang-fake-interview-intelligence]]'
-- '[[case-yitang-supplier-security-guard]]'
-- '[[case-zhanglan-amusement-park-undercover]]'
-- '[[yitang-research-domain-digest]]'
+  - [[case-yitang-competitor-pricing-intelligence]]
+  - [[case-yitang-elderly-home-roleplay]]
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-supplier-security-guard]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[yitang-research-domain-digest]]
 ---
 
 # 为获取封闭情报设计合法身份

@@ -1,4 +1,5 @@
 ---
+
 id: tool-三层目标对齐法
 title: 技能：三层目标对齐法
 type: tool
@@ -14,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up: 红点是方向不是KPI，提供意义感但不规定具体路径。当下行动只需要对齐到年度挑战即可
 - lens: 目标过时
   follow_up: 每月/每季度检查一次对齐情况，超过3个月没更新可能已经完全不匹配了
+
 ---
 
 # 技能：三层目标对齐法

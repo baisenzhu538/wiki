@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-cross-reading-method
 title: 交叉阅读法
 type: tool
@@ -17,13 +18,14 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[framework-ai-deconstruction-methodology]]'
-- '[[tool-ai-critical-reading-three-layers]]'
-- '[[tool-tech-probability-80-filter]]'
-- '[[concept-ai-amara-law-business-judgment]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[tool-tech-probability-80-filter]]
+  - [[concept-ai-amara-law-business-judgment]]
 ---
 
 # 交叉阅读法

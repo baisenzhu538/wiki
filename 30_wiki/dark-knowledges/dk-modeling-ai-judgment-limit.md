@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-judgment-limit
 title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 type: dk
@@ -21,11 +22,11 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.89
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -36,6 +37,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 ## 原始表述 / 核心洞察

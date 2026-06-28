@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-product-kernel
 title: 产品内核：用户愿意选择你的最小解决方案
 type: concept
@@ -16,13 +17,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- '[[case-shampoo-product-kernel]]'
-- '[[concept-一堂-kernel-validation]]'
-- '[[concept-一堂-kernel-iteration]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yitang-domain-digest]]'
+  - [[concept-一堂-hypothesis-driven-business-methodology]]
+  - [[yt-product-kernel-cultivation]]
+  - [[case-shampoo-product-kernel]]
+  - [[concept-一堂-key-assumptions]]
+  - [[concept-一堂-kernel-validation]]
+  - [[concept-一堂-kernel-iteration]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -32,6 +33,7 @@ pipeline:
 author: 老顽童
 confidence: 0.85
 trust_level: high# 产品内核：用户愿意选择你的最小解决方案
+
 ---
 
 > **产品内核的本质是一套“用户决策逻辑解构工具”——它帮你从用户视角出发，找到那些"去掉后用户就不会选择你"的最小要素组合。**

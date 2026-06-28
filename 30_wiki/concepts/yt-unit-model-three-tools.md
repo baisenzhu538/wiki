@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-growth-cycle-model]]'
-- '[[case-toy-cabinet-business-model]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-five-step-method]]
+  - [[yt-growth-cycle-model]]
+  - [[case-toy-cabinet-business-model]]
+  - [[case-treadmill-demand-analysis]]
+  - [[pending_unknown]]
 ---
 
 # 单元模型三工具：斧子尺子梯子

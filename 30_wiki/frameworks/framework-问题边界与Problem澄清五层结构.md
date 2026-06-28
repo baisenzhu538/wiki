@@ -1,4 +1,5 @@
 ---
+
 id: framework-问题边界与Problem澄清五层结构
 title: 问题边界与Problem澄清五层结构
 type: framework
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 问题边界与Problem澄清五层结构

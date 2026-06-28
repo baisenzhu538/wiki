@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-01-not-goal-setting
 title: 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是
 type: dk
@@ -12,12 +13,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[dk-strategy-essence-four-elements]]'
-- '[[dk-strategy-08-not-local-optimum]]'
-- '[[dk-strategy-three-must-do-moments]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[strategy-domain-digest]]'
+  - [[dk-strategy-essence-four-elements]]
+  - [[dk-strategy-08-not-local-optimum]]
+  - [[dk-strategy-three-must-do-moments]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[strategy-domain-digest]]
 ---
 
 # 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是

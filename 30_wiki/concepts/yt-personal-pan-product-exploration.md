@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-exploration
 component_of:
 - src_unknown
@@ -17,11 +18,11 @@ query_triggers:
 - src_unknown探索营
 - src_unknown探索营：案例启发与认知重构
 related:
-- '[[yt-personal-pan-product-concepts]]'
-- '[[yt-model-pan-product-36-strategies]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-personal-pan-product-concepts]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[一堂]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_fab64a96-个人修炼-泛产品设计探索营
@@ -46,6 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

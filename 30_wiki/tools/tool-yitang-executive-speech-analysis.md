@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-executive-speech-analysis
 title: 高管公开发言分析：从CEO讲话中提取战略信号
 type: tool
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 高管公开发言分析

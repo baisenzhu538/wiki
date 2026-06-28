@@ -1,4 +1,5 @@
 ---
+
 id: tool-科学提问刻意练习
 title: 科学提问刻意练习：提问即思考
 type: tool
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 科学提问刻意练习

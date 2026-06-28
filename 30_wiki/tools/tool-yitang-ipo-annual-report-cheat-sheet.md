@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ipo-annual-report-cheat-sheet
 title: 上市公司报告价值Cheat Sheet：创业各阶段该读什么
 type: tool
@@ -26,11 +27,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么

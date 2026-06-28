@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-kernel-three-questions]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[concept-一堂-product-kernel]]
+  - [[tool-一堂-kernel-three-questions]]
+  - [[tool-一堂-hypothesis-validation-three-axe]]
+  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+  - [[pending_unknown]]
 ---
 
 # 技能：聊问查测盘五步验证法

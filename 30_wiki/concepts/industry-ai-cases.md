@@ -1,4 +1,5 @@
 ---
+
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
@@ -24,13 +25,14 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- '[[tool-月白-实物包装产业链实践]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-月白-实物包装产业链实践]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 confidence: 0.65
 trust_level: medium
+
 ---
 
 # 产业 AI 落地案例集（非药柜）

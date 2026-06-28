@@ -1,4 +1,5 @@
 ---
+
 id: tool-scenario-selector-modeling
 title: 场景→工具选择器：根据需求快速匹配合适的建模工具
 type: tool
@@ -19,11 +20,14 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.9
 related:
-- '[[tool-radar-chart-modeling]]'
-- '[[tool-binary-quadrant-modeling]]'
-- '[[tool-funnel-formula-modeling]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-radar-chart-modeling]]
+  - [[tool-binary-quadrant-modeling]]
+  - [[tool-funnel-formula-modeling]]
+  - [[tool-sabc-tier-modeling]]
+  - [[tool-canvas-weapon-library-modeling]]
+  - [[tool-checklist-cheatsheet-modeling]]
+  - [[modeling-level-map]]
+  - [[tool-iceberg-triangle-modeling]]
 tags:
 - src_unknown
 - src_unknown
@@ -42,6 +46,7 @@ diagnostic_signals:
   follow_up_question: 大家是否先对问题类型和前提条件（数据、共识、可干预性、ROI）达成了一致？
 - framework_lens: 场景→工具选择器
   follow_up_question: 你是因为这个工具顺手，还是因为它真的适合当前问题？
+
 ---
 
 # 场景→工具选择器：根据需求快速匹配合适的建模工具

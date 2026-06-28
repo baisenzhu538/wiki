@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-scalability
@@ -17,14 +18,18 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-- '[[tool-月白-AI质价比评估方法]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
-- '[[tool-项目方案评估三角形]]'
+  - [[ocr-一堂-科学决策-roi决策评估画布]]
+  - [[tool-ROI决策评估画布]]
+  - [[tool-项目方案评估三角形]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[tool-月白-线下门店设计复杂度评估]]
+  - [[tool-纪浩-评估AI从零写UI的可行性]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-马易-AIGC项目ROI评估]]
+  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
+  - [[tool-月白-AI质价比评估方法]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例04]]
 diagnostic_signals:
 - framework_lens: 商业模式可规模化——单元模型成立≠可规模化
   follow_up_question: 你的获客渠道是否可规模化？每个渠道的获客上限是多少？
@@ -36,6 +41,7 @@ diagnostic_signals:
   follow_up_question: 如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？
 - framework_lens: 商业模式可规模化——规模不解决根本问题
   follow_up_question: 规模化的瓶颈是什么？规模能突破瓶颈吗？
+
 ---
 
 # 商业模式可规模化评估：从1到100万

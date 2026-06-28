@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-lekai-film
 title: 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活
 type: case
@@ -22,9 +23,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **困境**：数码相机毁灭胶卷行业→柯达倒闭

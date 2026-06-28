@@ -1,4 +1,5 @@
 ---
+
 id: case-neworiental-prospectus-marketing
 title: 案例：新东方招股书——营销渠道全览
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：新东方招股书中的营销渠道

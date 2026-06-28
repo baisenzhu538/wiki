@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-newbie-can-validate
 title: 暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光
 type: dk
@@ -14,13 +15,13 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 related:
-- '[[dk-ji-hao-problem-vs-question]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[yt-demand-fake-demand-detection]]'
-- '[[yt-five-step-method]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[dk-ji-hao-problem-vs-question]]
+  - [[yt-demand-fake-demand-detection]]
+  - [[dk-yi-tang-wishful-thinking-kills-startups]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[yt-five-step-method]]
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -33,6 +34,7 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 新手验证工具箱
   follow_up_question: 这个判断能否在 48 小时内通过一次用户访谈或一个最小实验得到证据？
+
 ---
 
 # 暗知识：新手也可以用四要素验证

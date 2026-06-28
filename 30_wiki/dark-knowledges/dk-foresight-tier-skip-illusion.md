@@ -1,4 +1,5 @@
 ---
+
 id: dk-foresight-tier-skip-illusion
 title: 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快
 type: dk
@@ -21,11 +22,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -37,6 +38,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
+
 ---
 
 # 暗知：终局光谱图的"跳级幻觉"

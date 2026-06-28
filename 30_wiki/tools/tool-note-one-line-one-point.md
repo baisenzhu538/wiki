@@ -1,4 +1,5 @@
 ---
+
 id: tool-note-one-line-one-point
 title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 type: tool
@@ -11,11 +12,11 @@ version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-- '[[tool-note-keyword-bolding]]'
-- '[[dk-note-surplus-brainpower]]'
-- '[[dk-note-maximum-common-divisor]]'
-- '[[tool-note-layer-constraint]]'
-- '[[pending_unknown]]'
+  - [[tool-note-layer-constraint]]
+  - [[tool-note-keyword-bolding]]
+  - [[dk-note-surplus-brainpower]]
+  - [[dk-note-maximum-common-divisor]]
+  - [[pending_unknown]]
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
@@ -38,6 +39,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作

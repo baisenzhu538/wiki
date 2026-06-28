@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-magic-defeats-magic
 title: 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 type: dk
@@ -30,13 +31,13 @@ diagnostic_signals:
   lens: implicit-standard-drift
   follow_up: 用多模型/多角色对同一标准打分，取交集作为团队共享标准
 related:
-- '[[dk-wanghuan-spec-trap]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[dk-wanghuan-agent-platform-director-mode]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yt-five-step-method]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[dk-wanghuan-spec-trap]]
+  - [[dk-wanghuan-paced-sales-decision]]
+  - [[dk-wanghuan-agent-platform-director-mode]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
 tags:
 - src_unknown
 - src_unknown
@@ -44,6 +45,7 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
+
 ---
 
 # 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-validation
@@ -17,14 +18,18 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-纪浩-里程碑验证法]]'
-- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
-- '[[tool-马易-AI落地前置条件验证]]'
-- '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
-- '[[tool-泛产品落地-十倍速验证]]'
-- '[[ocr-一堂产品内核-十大典型指标]]'
-- '[[tool-马易-需求创造验证法]]'
+  - [[tool-马易-关键假设识别与验证]]
+  - [[tool-马易-需求创造验证法]]
+  - [[tool-纪浩-真需求四要素验证法]]
+  - [[tool-李诞-销售闭环验证：从0到1的重新定义]]
+  - [[tool-纪浩-里程碑验证法]]
+  - [[tool-思维验证交叉检验]]
+  - [[tool-月白-线下实体门店设计真实体感验证]]
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[tool-马易-平台模式验证法]]
+  - [[tool-马易-AI落地前置条件验证]]
+  - [[ocr-泛产品设计-落地卡片-十倍速验证]]
+  - [[tool-泛产品落地-十倍速验证]]
 diagnostic_signals:
 - framework_lens: 产品内核验证——假设未验证
   follow_up_question: 你的内核假设验证过吗？用什么方法？关键转化率是多少？
@@ -36,6 +41,7 @@ diagnostic_signals:
   follow_up_question: 验证了多少个用户？是否覆盖了目标用户画像？
 - framework_lens: 产品内核验证——验证结果不被尊重
   follow_up_question: 如果验证结果不支持内核假设，你会调整方向吗？
+
 ---
 
 # 产品内核验证：三维度验证法

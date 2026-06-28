@@ -1,4 +1,5 @@
 ---
+
 id: tool-辩证讨论法
 title: 技能：辩证讨论法
 type: tool
@@ -14,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[tool-辩证讨论深化]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[tool-辩证讨论深化]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -44,6 +45,7 @@ diagnostic_signals:
   follow_up: 理论边界讨论比案例讨论更有价值。必须问'这个理论在什么条件下失效'
 - lens: 无产出讨论
   follow_up: 讨论必须有结论、分歧记录、下一步动作。没有产出的讨论只是社交
+
 ---
 
 # 技能：辩证讨论法

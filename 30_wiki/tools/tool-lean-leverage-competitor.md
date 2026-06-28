@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-competitor
 title: 借同行产品：用竞品认知验证假设
 type: tool
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 借同行产品：用竞品认知验证假设

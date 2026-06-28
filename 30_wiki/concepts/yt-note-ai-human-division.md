@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
@@ -9,11 +10,14 @@ version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-five-levels-training]]'
-- '[[yt-note-live-field-skill]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-note-checklist-concept]]
+  - [[yt-note-five-levels-training]]
+  - [[yt-note-live-field-skill]]
+  - [[yt-concept-ai-guard-brain]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[yt-decision-ai-partner]]
+  - [[yt-concept-context-engineering]]
+  - [[yt-personal-ai-capability]]
 prerequisites:
 - src_unknown
 source_refs:
@@ -46,6 +50,7 @@ updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

@@ -1,4 +1,5 @@
 ---
+
 id: concept-X型Y型决策习惯
 title: X型 vs Y型：两种决策习惯对比
 type: concept
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # X型 vs Y型决策习惯

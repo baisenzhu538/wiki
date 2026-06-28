@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-spiderfoot
 title: SpiderFoot：一键自动化OSINT扫描
 type: tool
@@ -17,11 +18,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # SpiderFoot：自动化OSINT扫描

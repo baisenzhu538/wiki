@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
@@ -18,14 +19,22 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[ocr-一堂-单元模型-单用户模型]]'
-- '[[concept-最简单元模型]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
-- '[[ocr-一堂-人机协作-双三角模型]]'
-- '[[tool-模型组合调用]]'
-- '[[ocr-一堂-单元模型-对抗小抄01]]'
-- '[[ocr-一堂-单元模型-段位专家]]'
-- '[[tool-demand-agent-signal-substitute]]'
+  - [[yt-tool-peas-agent-analysis]]
+  - [[ocr-一堂y模型steps策略集]]
+  - [[tool-agent-research-pipeline]]
+  - [[case-ai-agent-milestone-design]]
+  - [[tool-月白-AI模型选择策略]]
+  - [[tool-agent-crawl4ai]]
+  - [[dk-单元模型-找单元模型实操难点]]
+  - [[ocr-一堂y模型-科学成事道理]]
+  - [[ocr-一堂-单元模型-单用户模型]]
+  - [[concept-最简单元模型]]
+  - [[ocr-一堂-单元模型-对抗小抄02]]
+  - [[ocr-一堂-人机协作-双三角模型]]
+  - [[tool-模型组合调用]]
+  - [[ocr-一堂-单元模型-对抗小抄01]]
+  - [[ocr-一堂-单元模型-段位专家]]
+  - [[tool-demand-agent-signal-substitute]]
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -44,6 +53,7 @@ diagnostic_signals:
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
 updated_at: '2026-06-28'
 author: 老顽童
+
 ---
 
 # 智能体架构：PEAS与五层Agent模型

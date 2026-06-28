@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-project-health-radar
 title: 项目健康度雷达
 type: tool
@@ -15,11 +16,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- '[[yt-management-project-management]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-management-project-management]]
+  - [[yt-management-toolkit-overview]]
+  - [[yt-tool-meeting-designer]]
+  - [[yt-tool-knowledge-extraction]]
+  - [[yt-decision-canvas]]
+  - [[yt-management-goal-management]]
+  - [[master-decision-hygiene]]
+  - [[master-knowledge-compound]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -45,6 +49,7 @@ updated_at: '2026-06-16'
 estimated_tokens: 3500
 reviewed_by: null
 author: 老顽童
+
 ---
 
 # 项目健康度雷达

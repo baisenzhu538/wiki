@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-strategy-workshop
 title: 战略研讨会引导手册
 type: tool
@@ -14,11 +15,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-- '[[yt-management-strategy-meeting]]'
-- '[[yt-management-scientific-decision]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-management-strategy-meeting]]
+  - [[yt-management-scientific-decision]]
+  - [[yt-management-goal-management]]
+  - [[yt-tool-okr-cycle]]
+  - [[yt-management-scientific-meetings]]
+  - [[yt-management-founder-role]]
+  - [[yt-management-company-culture]]
+  - [[yt-decision-y-model]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -44,6 +48,7 @@ updated_at: '2026-06-16'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 author: 老顽童
+
 ---
 
 # 战略研讨会引导手册

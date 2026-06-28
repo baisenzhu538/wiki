@@ -1,4 +1,5 @@
 ---
+
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
 domain: ai-saas
@@ -16,14 +17,14 @@ pipeline:
 author: unknown
 confidence: 0.8
 related:
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[dk-lz-ai-native-organization]]'
-- '[[concept-wanghuan-ai-native-definition]]'
-- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
-- '[[ai-native-im-multi-agent]]'
-- '[[tool-agent-native-overview]]'
-- '[[concept-ai-native-organization-five-steps]]'
-- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+  - [[concept-wanghuan-ai-native-definition]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[tool-agent-native-overview]]
+  - [[anthropic-官方发布创始人手册打造-ai-原生初创公司]]
+  - [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
+  - [[concept-ai-native-organization-five-steps]]
+  - [[ai-native-im-multi-agent]]
+  - [[dk-lz-ai-native-organization]]
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论

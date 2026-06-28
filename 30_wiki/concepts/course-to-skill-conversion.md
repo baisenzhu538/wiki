@@ -1,4 +1,5 @@
 ---
+
 id: course-to-skill-conversion
 title: 课程到Skill转化：将知识变成AI可执行的能力模块
 type: tool
@@ -15,11 +16,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- '[[ai-learning-closed-loop]]'
-- '[[prd-as-ai-instruction]]'
-- '[[voice-input-doubao]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-learning-closed-loop]]
+  - [[prd-as-ai-instruction]]
+  - [[voice-input-doubao]]
+  - [[ai-landing-scene-selection]]
+  - [[pending_unknown]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -44,6 +45,7 @@ diagnostic_signals:
   follow_up: 构建输入检查清单，强制验证必填字段，连续3次输出结构一致
 - lens: 经验主义陷阱
   follow_up: 检查问题类型是否偏移，超出Skill设计范围时强制拒绝而非编造
+
 ---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块

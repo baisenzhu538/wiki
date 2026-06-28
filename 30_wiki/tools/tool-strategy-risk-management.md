@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 aliases:
@@ -23,14 +24,17 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
-- '[[ocr-泛产品设计-审美工具箱指南]]'
-- '[[concept-maister-trusted-advisor]]'
-- '[[dk-note-maximum-common-divisor]]'
-- '[[ai-short-drama-platform-policy-comparison]]'
-- '[[tool-月白-设计师AI工具习惯切换]]'
+  - [[strategy-domain-digest]]
+  - [[tool-月白-设计师AI工具习惯切换]]
+  - [[ai-short-drama-platform-policy-comparison]]
+  - [[tool-泛产品设计-需求工具箱指南]]
+  - [[tool-Truman-AI工具选型决策]]
+  - [[ocr-泛产品设计-需求工具箱指南]]
+  - [[dk-note-maximum-common-divisor]]
+  - [[tool-泛产品落地-风险管理]]
+  - [[tool-清单小抄工具箱法]]
+  - [[ocr-泛产品设计-审美工具箱指南]]
+  - [[concept-maister-trusted-advisor]]
 ---
 
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵

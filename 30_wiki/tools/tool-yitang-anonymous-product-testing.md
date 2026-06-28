@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-anonymous-product-testing
 title: 匿名产品体验：以真实用户身份盲测竞品
 type: tool
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 匿名产品体验

@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-aesthetic-modeling
 component_of:
 - src_unknown
@@ -22,11 +23,12 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践建模
 - src_unknown
 related:
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-panproduct-aesthetic-pool]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-aesthetic-toolkit]]
+  - [[yt-panproduct-aesthetic-pool]]
+  - [[一堂]]
+  - [[yt-panproduct-aesthetic-imagination]]
+  - [[yt-model-prediction-model]]
+  - [[yt-model-aesthetic-progression]]
 reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模
@@ -52,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 最佳实践建模：用评价维度打磨产品

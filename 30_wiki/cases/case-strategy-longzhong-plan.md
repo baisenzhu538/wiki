@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-longzhong-plan
 title: 隆中对：中国最著名的战略规划——成功与失败四因
 type: case
@@ -23,10 +24,10 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
-- '[[case-婚礼规划]]'
-- '[[ocr-婚礼规划]]'
+  - [[strategy-domain-digest]]
+  - [[ocr-婚礼规划]]
+  - [[case-婚礼规划]]
+  - [[tool-月白-AIGC人群画像驱动详情页规划]]
 ---
 
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）

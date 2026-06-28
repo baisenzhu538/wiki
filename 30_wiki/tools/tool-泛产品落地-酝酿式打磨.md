@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-酝酿式打磨
 title: 落地卡片：酝酿式打磨
 type: tool
@@ -15,11 +16,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-酝酿式打磨_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 落地卡片：酝酿式打磨

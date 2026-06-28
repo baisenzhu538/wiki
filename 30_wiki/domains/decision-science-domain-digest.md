@@ -1,4 +1,5 @@
 ---
+
 id: decision-science-domain-digest
 title: 域摘要：decision-science（科学决策）
 type: index
@@ -12,12 +13,20 @@ source_refs:
 tags:
 - src_unknown
 related:
-- '[[tool-decision-outside-view]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[framework-lean-pivot-decision]]'
-- '[[ocr-一堂-科学决策-稀缺资源清单]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
+  - [[yt-decision-review]]
+  - [[ocr-一堂-科学决策-roi决策评估画布]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-科学决策-宽度-团队]]
+  - [[yt-decision-full-process]]
+  - [[master-decision-hygiene]]
+  - [[case-xian-franchise-location-decision]]
+  - [[yt-growth-data-driven-decision]]
+  - [[tool-decision-outside-view]]
+  - [[case-科学决策-ROI案例03]]
+  - [[framework-lean-pivot-decision]]
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]
 ---
 
 # decision-science 域摘要

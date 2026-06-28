@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -16,12 +17,12 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[ocr-一堂-科学决策-决策三角形]]'
-- '[[tool-提升笔记练习频次的方法]]'
-- '[[tool-项目方案评估三角形]]'
-- '[[framework-科学决策三角形]]'
-- '[[ocr-一堂-科学决策-项目方案评估三角形]]'
+  - [[yitang-domain-digest]]
+  - [[tool-项目方案评估三角形]]
+  - [[ocr-一堂-科学决策-决策三角形]]
+  - [[tool-提升笔记练习频次的方法]]
+  - [[ocr-一堂-科学决策-项目方案评估三角形]]
+  - [[framework-科学决策三角形]]
 ---
 
 # 需求评估三角形

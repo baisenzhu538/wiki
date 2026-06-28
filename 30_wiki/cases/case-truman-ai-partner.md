@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -33,9 +34,9 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-- '[[yt-personal-checklist-notes]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[pending_unknown]]'
+  - [[yt-personal-checklist-notes]]
+  - [[case-ji-hao-skills-market]]
+  - [[pending_unknown]]
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8
@@ -47,6 +48,7 @@ diagnostic_signals:
   follow_up_question: 你的方法论能否被拆成可校验的清单规则？学生练习后能否自动得到结构化反馈？
 - framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
+
 ---
 
 # 案例：Truman AI Partner（阿蕊老师）

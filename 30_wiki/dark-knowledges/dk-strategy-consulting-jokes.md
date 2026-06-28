@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-consulting-jokes
 title: 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 type: dk
@@ -22,12 +23,12 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[dk-strategy-longzhong-four-failures]]'
-- '[[dk-strategy-three-must-do-moments]]'
-- '[[dk-strategy-essence-four-elements]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[strategy-domain-digest]]'
+  - [[dk-strategy-longzhong-four-failures]]
+  - [[dk-strategy-three-must-do-moments]]
+  - [[dk-strategy-essence-four-elements]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[strategy-domain-digest]]
 ---
 
 # 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环

@@ -1,10 +1,14 @@
 ---
+
 related:
-- '[[framework-yitang-deliberate-practice-1plus4]]'
-- '[[framework-yitang-three-ring-ability-focus]]'
-- '[[concept-yitang-comfort-stretch-panic-zones]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[framework-yitang-deliberate-practice-1plus4]]
+  - [[framework-yitang-three-ring-ability-focus]]
+  - [[concept-yitang-comfort-stretch-panic-zones]]
+  - [[tool-yitang-feedback-self-check]]
+  - [[tool-yitang-best-practice-as-golden-finger]]
+  - [[case-yitang-poker-parameterized-practice]]
+  - [[yt-note-deliberate-practice-four-elements]]
+  - [[framework-ai-deliberate-practice-loop]]
 ---
 
 # 20 小时刻意练习入门法：快速达到够用水平

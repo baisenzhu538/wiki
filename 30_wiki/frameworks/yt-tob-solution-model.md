@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
@@ -24,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: medium
 related:
-- '[[yt-tob-unit-model]]'
-- '[[yt-tob-customer-tiering]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-tob-unit-model]]
+  - [[yt-tob-customer-tiering]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 解决方案类型矩阵
   follow_up_question: 当前业务的需求端（客户要的是否是相对一致的标准需求）与履约端（交付动作是否可重复标准化）是否同时成立？
@@ -36,6 +37,7 @@ diagnostic_signals:
   follow_up_question: 客户使用期间我方是否每天都在发生履约成本？收入确认应该一次性确认还是按周期分摊？
 - framework_lens: 采购方式矩阵
   follow_up_question: 客户采购属于入围型、一次性采购还是周期性采购？每种形态对应的销售投入、利润设计和现金流结构是什么？
+
 ---
 
 # To B 解决方案类型矩阵

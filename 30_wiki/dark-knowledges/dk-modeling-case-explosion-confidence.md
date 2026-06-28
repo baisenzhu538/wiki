@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
 type: dk
@@ -25,15 +26,16 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 ## 原始表述/核心洞察

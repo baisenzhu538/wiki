@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-deliberate-practice-1plus4
 type: framework
 title: 刻意练习 1+4 模型：科学成长的操作系统
@@ -22,11 +23,11 @@ source_refs:
 - pending_archive:Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus
   to Rapidity of Habit-Formation," 1908
 related:
-- '[[framework-ai-deliberate-practice-loop]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[framework-ai-deliberate-practice-loop]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 刻意练习 1+4 模型：科学成长的操作系统

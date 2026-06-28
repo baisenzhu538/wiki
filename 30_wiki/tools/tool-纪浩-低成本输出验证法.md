@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-低成本输出验证法
 title: 技能：低成本输出验证法
 type: tool
@@ -17,11 +18,11 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - lens: 迭代成本高
   follow_up: 选择低成本输出出口（自媒体/图文/短视频），先小范围验证。降低单次失败成本
@@ -33,6 +34,7 @@ diagnostic_signals:
   follow_up: 必须先低成本验证。自媒体文章→图文→短视频→线下分享，逐步升级
 - lens: 验证不迭代
   follow_up: 收集反馈后必须迭代。低成本验证的价值在迭代，不在一次性输出
+
 ---
 
 # 技能：低成本输出验证法

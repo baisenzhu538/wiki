@@ -1,4 +1,5 @@
 ---
+
 title: 新人落地
 type: concept
 domain:
@@ -26,11 +27,11 @@ source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-- '[[一堂方法论体系总图]]'
-- '[[yitang-course-map]]'
-- '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[一堂方法论体系总图]]
+  - [[yitang-course-map]]
+  - [[yt-system-course-catalog]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 新人落地

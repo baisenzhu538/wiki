@@ -1,4 +1,5 @@
 ---
+
 id: five-step-domain-digest
 title: 域摘要：一堂五步法（80+张卡）
 type: index
@@ -18,17 +19,18 @@ author: 黄药师
 reviewed_by: 黄药师
 review_date: '2026-06-19'
 related:
-- '[[lean-startup-domain-digest]]'
-- '[[ocr-一堂五步法画布]]'
-- '[[ocr-泛产品设计-用户卡片-一堂五步法]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[ocr-一堂五步法-产品内核画布]]'
+  - [[lean-startup-domain-digest]]
+  - [[framework-一堂五步法-泛产品设计]]
+  - [[ocr-一堂五步法画布]]
+  - [[ocr-泛产品设计-用户卡片-一堂五步法]]
+  - [[ocr-一堂五步法-产品内核画布]]
 diagnostic_signals:
 - framework_lens: 五步法总纲
   follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
 - framework_lens: 落地实操工具
   follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
 updated_at: '2026-06-28'
+
 ---
 
 # 域摘要：一堂五步法

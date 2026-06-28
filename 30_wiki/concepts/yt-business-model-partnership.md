@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-partnership
@@ -17,14 +18,19 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[tool-推行分层标准化策略]]'
-- '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
-- '[[tool-月白-多语种专业名词提示词策略]]'
-- '[[存储策略]]'
-- '[[ocr-一堂y模型steps策略集]]'
-- '[[tool-建立策略-要素映射表设计对抗策略]]'
-- '[[tool-李诞-个人IP的重新定义与输出策略]]'
-- '[[ocr-一堂-个人修炼-科学学习ipo-全景策略]]'
+  - [[ocr-一堂y模型steps策略集]]
+  - [[tool-月白-AI模型选择策略]]
+  - [[tool-Truman-人在环渐进自动化策略]]
+  - [[存储策略]]
+  - [[ocr-一堂-单元模型-abcd策略模型]]
+  - [[tool-建立策略-要素映射表设计对抗策略]]
+  - [[tool-月白-80分效率设计策略]]
+  - [[tool-Y模型STEPS策略集]]
+  - [[tool-推行分层标准化策略]]
+  - [[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]
+  - [[tool-月白-多语种专业名词提示词策略]]
+  - [[tool-李诞-个人IP的重新定义与输出策略]]
+  - [[ocr-一堂-个人修炼-科学学习ipo-全景策略]]
 diagnostic_signals:
 - framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
   follow_up_question: 你的生态中，合作伙伴是谁？他们为什么愿意加入？
@@ -36,6 +42,7 @@ diagnostic_signals:
   follow_up_question: 你的合作伙伴贡献了什么？分润比例是否匹配贡献？
 - framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
   follow_up_question: 你的核心合作伙伴有几个？是否形成了紧密协同？
+
 ---
 
 # 合作伙伴策略：生态与联盟

@@ -1,4 +1,5 @@
 ---
+
 id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
@@ -47,9 +48,12 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-growth-cycle-model]]'
-- '[[yt-entrepreneur-five-step-method]]'
+  - [[yt-five-step-method]]
+  - [[yt-growth-cycle-model]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[yt-product-kernel-cultivation]]
+  - [[yt-unit-model-three-tools]]
+  - [[yt-customer-acquisition-toolkit]]
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

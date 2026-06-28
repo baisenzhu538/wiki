@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
@@ -15,9 +16,9 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 related:
-- '[[case-personal-map-modeling]]'
-- '[[dk-modeling-ai-without-judgment]]'
-- '[[pending_unknown]]'
+  - [[case-personal-map-modeling]]
+  - [[dk-modeling-ai-without-judgment]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -35,6 +36,7 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-17'
+
 ---
 
 # Truman 个人地图创作：从模糊想法到四格天花板的七步

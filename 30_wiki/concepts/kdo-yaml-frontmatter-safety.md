@@ -1,4 +1,5 @@
 ---
+
 id: kdo-yaml-frontmatter-safety
 title: KDO YAML Frontmatter 安全操作指南
 type: concept
@@ -11,14 +12,21 @@ target_roles:
 - src_unknown
 - src_unknown
 related:
-- '[[framework-kdo-self-attack]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
-- '[[kdo-priority-checklist]]'
-- '[[ocr-泛产品设计-审美工具箱指南]]'
-- '[[dk-p19-quote-yaml]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[kdo_product_design_agent_final]]'
-- '[[proposal-kdo-flywheel-infrastructure]]'
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[kdo-protocol]]
+  - [[modeling-to-kdo-toolchain]]
+  - [[kdo-batch-produce-req014]]
+  - [[tool-泛产品设计-需求工具箱指南]]
+  - [[HIS系统开发实现方案-架构师指南]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
+  - [[framework-kdo-self-attack]]
+  - [[kdo-priority-checklist]]
+  - [[ocr-泛产品设计-审美工具箱指南]]
+  - [[dk-p19-quote-yaml]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[kdo_product_design_agent_final]]
+  - [[proposal-kdo-flywheel-infrastructure]]
 pipeline:
 - src_unknown
 author: 老顽童
@@ -37,6 +45,7 @@ diagnostic_signals:
   follow_up: '检查#开头的标签是否加引号：- "#master"而非- #master'
 - lens: round-trip失败
   follow_up: 写文件前做round-trip校验：读回来确认嵌套结构无损
+
 ---
 
 # KDO YAML Frontmatter 安全操作指南

@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-live-field-skill
 title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册
 type: tool
@@ -11,11 +12,11 @@ version: 2
 difficulty: advanced
 confidence: 0.9
 related:
-- '[[yt-note-checklist-concept]]'
-- '[[yt-note-five-levels-training]]'
-- '[[yt-note-ai-human-division]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-note-checklist-concept]]
+  - [[yt-note-five-levels-training]]
+  - [[yt-note-ai-human-division]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 prerequisites:
 - src_unknown
 - src_unknown
@@ -53,6 +54,7 @@ estimated_tokens: 4500
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册

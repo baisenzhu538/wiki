@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dk
@@ -14,11 +15,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-- '[[yitang-domain-digest]]'
-- '[[concept-ceo-must-do-user-research]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[concept-ceo-must-do-user-research]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -29,6 +30,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
+
 ---
 
 ## 原始表述

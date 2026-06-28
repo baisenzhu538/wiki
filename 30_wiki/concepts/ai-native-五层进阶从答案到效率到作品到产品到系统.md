@@ -1,4 +1,5 @@
 ---
+
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
@@ -10,11 +11,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-research-osl-framework]]'
-- '[[yt-note-checklist-concept]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-research-osl-framework]]
+  - [[yt-note-checklist-concept]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
@@ -37,6 +38,7 @@ diagnostic_signals:
   follow_up: 评估L2口述依赖度，强制无AI练习比例
 - lens: 标准化缺失
   follow_up: 在L3建立统一的Skill/模板资产，而非放任个体工具选择
+
 ---
 
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-shodan
 title: Shodan：互联网设备搜索引擎——发现竞对的技术栈
 type: tool
@@ -17,11 +18,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Shodan：互联网设备搜索引擎

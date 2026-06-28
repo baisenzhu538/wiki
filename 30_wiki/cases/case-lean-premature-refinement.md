@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-premature-refinement
 title: 过早细化案例集
 type: case
@@ -18,10 +19,10 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md
 related:
-- '[[tool-lean-minimum-version]]'
-- '[[tool-lean-cut-features]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[tool-lean-minimum-version]]
+  - [[tool-lean-cut-features]]
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
 ---
 
 # 过早细化案例集

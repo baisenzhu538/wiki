@@ -1,4 +1,5 @@
 ---
+
 id: concept-AI时代双三角竞争力
 title: AI时代的双三角竞争力：人+AI协作决策
 type: concept
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # AI时代的双三角竞争力

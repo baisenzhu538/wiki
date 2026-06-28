@@ -1,4 +1,5 @@
 ---
+
 id: case-ji-hao-ui-design-constraint-evolution
 title: 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代
 type: case
@@ -14,9 +15,9 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -35,6 +36,7 @@ definition_of_done:
 pipeline:
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代

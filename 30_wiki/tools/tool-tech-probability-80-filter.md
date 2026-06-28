@@ -1,4 +1,5 @@
 ---
+
 id: tool-tech-probability-80-filter
 title: 李开复 80% 概率过滤器
 type: tool
@@ -18,12 +19,13 @@ source_refs:
 - 60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[tool-ai-cross-reading-method]]'
-- '[[framework-ai2041-critical-reading-os]]'
-- '[[concept-ai-amara-law-business-judgment]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - [[tool-ai-cross-reading-method]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[concept-ai-amara-law-business-judgment]]
 ---
 
 # 李开复 80% 概率过滤器

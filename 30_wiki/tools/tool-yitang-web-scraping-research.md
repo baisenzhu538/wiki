@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
@@ -21,11 +22,11 @@ reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
 related:
-- '[[tool-Truman-AI时代IPO模型重构]]'
-- '[[ai时代判断力口述]]'
-- '[[concept-AI时代双三角竞争力]]'
-- '[[ai时代判断力口述-3]]'
-- '[[tool-Truman-AI时代提示词优化法]]'
+  - [[concept-AI时代双三角竞争力]]
+  - [[tool-Truman-AI时代提示词优化法]]
+  - [[ai时代判断力口述]]
+  - [[ai时代判断力口述-3]]
+  - [[tool-Truman-AI时代IPO模型重构]]
 diagnostic_signals:
 - framework_lens: 爬虫工具匹配矩阵
   follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
@@ -36,6 +37,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线

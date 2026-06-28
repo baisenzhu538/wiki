@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-premature-expansion
 title: 过早扩张案例集
 type: case
@@ -18,9 +19,9 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 ---
 
 # 过早扩张案例集

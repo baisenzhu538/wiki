@@ -1,4 +1,5 @@
 ---
+
 id: case-ji-hao-ai-workspace-chaos
 title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
@@ -14,9 +15,9 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -34,6 +35,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：AI工作空间混乱导致"行为退化"而重来

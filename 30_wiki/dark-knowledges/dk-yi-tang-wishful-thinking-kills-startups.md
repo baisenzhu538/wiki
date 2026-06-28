@@ -1,4 +1,5 @@
 ---
+
 id: dk-yi-tang-wishful-thinking-kills-startups
 title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
@@ -13,12 +14,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[dk-ai-judgment-human-responsibility]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yt-demand-fake-demand-detection]]'
-- '[[yt-five-step-method]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-demand-fake-demand-detection]]
+  - [[dk-mckinsey-hypothesis-driven-pitfalls]]
+  - [[dk-ai-judgment-human-responsibility]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -38,6 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 把执行力当成验证
   follow_up_question: 在为这个假设全力以赴之前，我们愿意承受的最大验证成本是多少？有没有更小的实验可以证伪它？
+
 ---
 
 # 暗知："愿望思维"是创业最大的陷阱

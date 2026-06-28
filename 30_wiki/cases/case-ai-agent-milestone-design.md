@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[dk-modeling-unit-pairs-milestone]]'
-- '[[tool-iterative-recursive-deep-dig]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-modeling-unit-pairs-milestone]]
+  - [[tool-iterative-recursive-deep-dig]]
+  - [[framework-course-milestone-model]]
+  - [[tool-ai-skill-engineering-method]]
+  - [[pending_unknown]]
 ---
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。

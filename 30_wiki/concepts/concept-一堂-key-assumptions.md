@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[yt-foresight-15-char-mantra]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[concept-一堂-hypothesis-driven-business-methodology]]
+  - [[concept-一堂-product-kernel]]
+  - [[yt-foresight-15-char-mantra]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-一堂-无人餐厅-hypothesis-failure]]
 ---
 
 > 黄药师骨架 · 老顽童填内容

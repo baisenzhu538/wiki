@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-edward-jones
 title: 爱德华琼斯：每个小镇只招一人——0办公位的券商模式
 type: case
@@ -22,9 +23,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **模式**：每个小镇只招一个经纪人→没有办公位→在家里办公→只做小镇客户

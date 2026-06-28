@@ -1,4 +1,5 @@
 ---
+
 id: tool-半肥猫-ai-research-validation
 title: AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
 type: tool
@@ -13,11 +14,11 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 related:
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,6 +46,7 @@ diagnostic_signals:
   follow_up: 用纠偏模板：请用具体数据支撑，如果没有数据明确说'这是推理缺乏证据'
 - lens: 业务脱节
   follow_up: 检查是否有真实业务问题需要解答，没有真实问题=练习而非调研
+
 ---
 
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环

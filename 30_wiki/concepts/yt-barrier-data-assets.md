@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-data-assets
@@ -17,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
-- '[[tool-水水-识别饥饿效应]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-Truman-个人判断力系统建设（达克效应应对）]]
+  - [[tool-水水-识别饥饿效应]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
   follow_up_question: 你的数据是否用于优化产品？数据越多，产品是否越好？
@@ -33,6 +34,7 @@ diagnostic_signals:
   follow_up_question: 你的数据优势是否转化为产品体验？用户是否感受到数据带来的价值？
 - framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
   follow_up_question: 算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？
+
 ---
 
 # 数据资产：数据网络效应

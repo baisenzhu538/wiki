@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-growth-flywheel
 confidence: 0.8
 created_at: 2026-05-06
@@ -19,11 +20,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-course-map]]'
-- '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-course-map]]
+  - [[yt-system-course-catalog]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[yt-entrepreneur-scientific-method]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[yt-model-entrepreneur-map]]
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -48,6 +50,7 @@ diagnostic_signals:
   follow_up_question: 如果只能推动一个飞轮，你选哪个？为什么？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 
 # 增长飞轮

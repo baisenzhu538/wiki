@@ -1,4 +1,5 @@
 ---
+
 id: tool-最佳实践收集
 title: 最佳实践收集：系统性收集团队/行业的最佳做法
 type: tool
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 最佳实践收集：系统性收集团队/行业的最佳做法

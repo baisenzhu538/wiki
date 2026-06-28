@@ -1,4 +1,5 @@
 ---
+
 id: concept-minto-pyramid-principle
 title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
@@ -26,11 +27,14 @@ diagnostic_signals:
 - framework_lens: 金字塔原理检查：你的叙述是否按金字塔结构组织？如果听众只接收到了底层的碎片信息，就形不成对你的结论的判断
   follow_up_question: 如果你是投资人，看完你的PPT后必须带走一个决策点，你应该让他们带走什么？
 related:
-- '[[tool-一堂-kernel-three-questions]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-一堂-kernel-three-questions]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[case-truman-sales-report-structure]]
+  - [[concept-mckinsey-mece]]
+  - [[concept-mckinsey-issue-tree]]
+  - [[concept-mckinsey-hypothesis-driven]]
+  - [[concept-mckinsey-7s]]
 tags:
 - src_unknown
 - src_unknown
@@ -43,6 +47,7 @@ author: 老顽童
 reviewed_by: laowantong
 confidence: 0.7
 trust_level: low
+
 ---
 
 # 金字塔原理：结论先行的结构化沟通框架

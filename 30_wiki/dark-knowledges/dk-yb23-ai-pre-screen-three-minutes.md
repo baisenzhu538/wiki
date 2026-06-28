@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb23-ai-pre-screen-three-minutes
 title: AI出图前置筛选：三分钟十套方案定风格
 type: dk
@@ -13,14 +14,15 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- '[[tool-月白-表情包风格筛选与确定]]'
-- '[[tool-马易-AI落地场景筛选-四有新人法则]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-月白-产品风格选择：测而非定]]'
-- '[[tool-月白-风格探索试错法]]'
-- '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
-- '[[tool-月白-PPT风格锁定工作流]]'
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+  - [[tool-月白-产品风格选择：测而非定]]
+  - [[tool-月白-风格不变局部调整]]
+  - [[tool-马易-AI答疑运营风格适配]]
+  - [[tool-马易-AI落地场景筛选-四有新人法则]]
+  - [[tool-月白-PPT风格锁定工作流]]
+  - [[tool-月白-风格探索试错法]]
+  - [[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]
+  - [[tool-月白-表情包风格筛选与确定]]
+  - [[tool-月白-AI图片风格逆向提取（抄图法）]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# AI出图前置筛选：三分钟十套方案定风格
+
 ---
 
 ## 原始表述/核心洞察

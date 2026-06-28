@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[case-private-domain-ecommerce-formula]]'
-- '[[case-saas-renewal-formula]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-private-domain-ecommerce-formula]]
+  - [[case-saas-renewal-formula]]
+  - [[case-offline-catering-formula]]
+  - [[case-dental-clinic-formula]]
+  - [[case-gym-membership-formula]]
 ---
 
 # 业务公式定性参数行为化指标库

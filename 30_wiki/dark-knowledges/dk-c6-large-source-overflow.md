@@ -1,4 +1,5 @@
 ---
+
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dk
@@ -13,11 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- '[[dk-modeling-timely-review-session-window]]'
-- '[[kdo-batch-produce-req014]]'
-- '[[dk-p6-session-resume-fail]]'
-- '[[session-20260619-xingangwan-business-formula-reconstruction]]'
-- '[[pending_unknown]]'
+  - [[kdo-batch-produce-req014]]
+  - [[dk-modeling-timely-review-session-window]]
+  - [[session-20260619-xingangwan-business-formula-reconstruction]]
+  - [[dk-p6-session-resume-fail]]
+  - [[pending_unknown]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -37,6 +38,7 @@ diagnostic_signals:
   framework_lens: Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限
   follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
     填充# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
+
 ---
 
 ## 原始表述

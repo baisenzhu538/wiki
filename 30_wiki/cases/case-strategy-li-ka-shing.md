@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-li-ka-shing
 title: 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨
 type: case
@@ -22,9 +23,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **模式**：每次经济下行周期→所有人恐慌抛售→李嘉诚逆势收购→等周期回暖→高价卖出

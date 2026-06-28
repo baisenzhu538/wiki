@@ -1,4 +1,5 @@
 ---
+
 id: case-zhanglei-nursing-home-family
 title: 案例：假扮孙子调研养老院真实状况
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：假扮家属获取养老院真实运营信息

@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-financial-literacy
 title: 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 type: dk
@@ -13,12 +14,12 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-- '[[dk-demand-misjudgment-rate]]'
-- '[[dk-demand-premature-solution]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yt-demand-fake-demand-detection]]'
-- '[[yt-five-step-method]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-demand-fake-demand-detection]]
+  - [[dk-demand-misjudgment-rate]]
+  - [[dk-demand-premature-solution]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[yitang-domain-digest]]
 ---
 
 # 踩坑：少儿财商——刚性误判。用户说重要≠会付费

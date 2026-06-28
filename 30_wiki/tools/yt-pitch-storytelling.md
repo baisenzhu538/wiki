@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-storytelling
 title: 讲香·故事化
 type: tool
@@ -17,11 +18,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- '[[yt-model-personal-pitch-toolkit]]'
-- '[[yt-concept-weapon-arsenal]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-personal-pitch-toolkit]]
+  - [[yt-concept-weapon-arsenal]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -37,6 +38,7 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 # 讲香·故事化

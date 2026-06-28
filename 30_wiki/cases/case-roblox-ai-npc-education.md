@@ -1,4 +1,5 @@
 ---
+
 id: case-roblox-ai-npc-education
 title: Roblox AI NPC 与教育场景
 type: case
@@ -17,9 +18,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[case-panproduct-lanyi-shidonghui-npc]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-panproduct-lanyi-shidonghui-npc]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Roblox AI NPC 与教育场景

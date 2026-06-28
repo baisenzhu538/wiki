@@ -1,4 +1,5 @@
 ---
+
 id: yitang-research-domain-digest
 title: 域摘要：调研方法论（90+张卡）
 type: index
@@ -14,9 +15,9 @@ created_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 域摘要：调研方法论

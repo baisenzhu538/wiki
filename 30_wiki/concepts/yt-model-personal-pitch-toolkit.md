@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - src_unknown
@@ -21,11 +22,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-pitch-scenarization]]'
-- '[[yt-pitch-colloquialization]]'
-- '[[yt-pitch-quantification]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-pitch-scenarization]]
+  - [[yt-pitch-colloquialization]]
+  - [[yt-pitch-quantification]]
+  - [[yt-pitch-storytelling]]
+  - [[yt-pitch-materialization]]
+  - [[yt-pitch-metaphor]]
+  - [[yt-pitch-aphorism]]
+  - [[yt-pitch-emotionalization]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
@@ -43,6 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 # 十指讲香模型（框架）

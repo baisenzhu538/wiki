@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-growth-cycle-model]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[case-toy-cabinet-business-model]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-growth-cycle-model]]
+  - [[yt-unit-model-three-tools]]
+  - [[case-toy-cabinet-business-model]]
+  - [[yt-five-step-method]]
+  - [[pending_unknown]]
 ---
 
 # 获客工具合集

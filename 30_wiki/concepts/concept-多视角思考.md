@@ -1,4 +1,5 @@
 ---
+
 id: concept-多视角思考
 title: 多视角思考：用不同角色审视产品
 type: concept
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 多视角思考：用不同角色审视产品

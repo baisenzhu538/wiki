@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-business-formula-qualitative-metrics-library]]
+  - [[yt-business-formula-business-pattern-selector]]
+  - [[yt-business-formula-abc-model]]
+  - [[dk-yitang-business-formula-plus-times-trap]]
+  - [[pending_unknown]]
 ---
 
 # 业务公式数据埋点设计清单

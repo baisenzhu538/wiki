@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-four-research-types
 title: 四类调研模型：挖掘式·系统式·爆炸式·自动式
 type: framework
@@ -30,11 +31,11 @@ source_refs:
 - 00_inbox/调研专题/调研全景策略图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式

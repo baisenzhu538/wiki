@@ -1,4 +1,5 @@
 ---
+
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dk
@@ -13,14 +14,21 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- '[[yt-entrepreneur-spin-selling]]'
-- '[[dk-yb23-ai-pre-screen-three-minutes]]'
-- '[[yt-entrepreneur-259-milestone]]'
-- '[[tool-lean-presell]]'
-- '[[dk-yitang-cross-case-pattern-failure-premium]]'
-- '[[yt-entrepreneur-fundraising]]'
-- '[[yt-entrepreneur-channel-exploration]]'
-- '[[yt-personal-scientific-expression]]'
+  - [[dk-yb23-ai-pre-screen-three-minutes]]
+  - [[yt-entrepreneur-needs-analysis]]
+  - [[yt-entrepreneur-pragmatic-startup]]
+  - [[dk-modeling-explanatory-vs-predictive-essence]]
+  - [[ocr-screenshot2]]
+  - [[dk-yb22-visual-presentation-scene-match]]
+  - [[yt-entrepreneur-product-core]]
+  - [[yt-entrepreneur-opportunity-selection]]
+  - [[yt-entrepreneur-spin-selling]]
+  - [[yt-entrepreneur-259-milestone]]
+  - [[tool-lean-presell]]
+  - [[dk-yitang-cross-case-pattern-failure-premium]]
+  - [[yt-entrepreneur-fundraising]]
+  - [[yt-entrepreneur-channel-exploration]]
+  - [[yt-personal-scientific-expression]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -40,6 +48,7 @@ diagnostic_signals:
   framework_lens: 自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外
   follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding#
     P-20：pre-screen bigram 匹配对中文文本完全失效
+
 ---
 
 ## 原始表述

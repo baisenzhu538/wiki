@@ -1,4 +1,5 @@
 ---
+
 id: tool-项目方案评估三角形
 title: 项目方案评估三角形：收益×成本×风险三维对比
 type: tool
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-项目方案评估三角形_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 项目方案评估三角形

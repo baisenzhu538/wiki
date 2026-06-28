@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-stage-leverage-mismatch
 title: 战略阶段与杠杆错配
 type: dk
@@ -12,13 +13,15 @@ domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-- '[[case-strategy-failure-02-supermarket]]'
-- '[[case-lean-premature-expansion]]'
-- '[[case-strategy-shell-oil]]'
-- '[[case-strategy-wuxi-suntech]]'
-- '[[framework-strategy-six-stages]]'
-- '[[framework-strategy-brm]]'
-- '[[strategy-domain-digest]]'
+  - [[case-strategy-failure-02-supermarket]]
+  - [[case-lean-premature-expansion]]
+  - [[case-strategy-shell-oil]]
+  - [[case-strategy-wuxi-suntech]]
+  - [[framework-strategy-six-stages]]
+  - [[framework-strategy-brm]]
+  - [[case-strategy-practice-12-zero-loss]]
+  - [[case-strategy-revival-13-bestore]]
+  - [[strategy-domain-digest]]
 ---
 
 # 战略阶段与杠杆错配

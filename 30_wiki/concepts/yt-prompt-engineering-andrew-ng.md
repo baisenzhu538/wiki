@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
@@ -19,9 +20,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-model-prompt-engineering]]'
-- '[[dk-modeling-ai-judgment-limit]]'
-- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+  - [[yt-model-prompt-engineering]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[yt-model-personal-pitch-toolkit]]
+  - [[yt-panproduct-demand-motivation-resistance]]
 reviewed_by: 黄药师
 source_of:
 - src_unknown
@@ -44,6 +48,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 # 吴恩达提示词课程·一堂拆书精华

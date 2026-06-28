@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-essence-predictive
 title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
 type: dk
@@ -30,11 +31,11 @@ diagnostic_signals:
   framework_lens: 生成式模型的解释力幻觉
   follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -43,6 +44,7 @@ tags:
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
+
 ---
 
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策

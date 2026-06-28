@@ -1,4 +1,5 @@
 ---
+
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
@@ -21,14 +22,18 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- '[[xingangwan-pharma-business-model-calc]]'
-- '[[xingangwan-pharma-business-formulas]]'
-- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
-- '[[dk-lz-ai-native-organization]]'
-- '[[case-cross-xingangwan-pharma]]'
-- '[[yt-model-y-organization]]'
-- '[[tool-yitang-ai-assisted-organize]]'
-- '[[framework-pan-product-organization]]'
+  - [[dk-strategy-organization-strategy-mismatch]]
+  - [[xingangwan-pharma-business-model-formulas]]
+  - [[tool-yitang-ai-assisted-organize]]
+  - [[concept-ai-native-organization-five-steps]]
+  - [[case-cross-xingangwan-pharma]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[session-20260619-xingangwan-business-formula-reconstruction]]
+  - [[yt-model-y-organization]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[xingangwan-pharma-business-formulas]]
+  - [[dk-lz-ai-native-organization]]
+  - [[framework-pan-product-organization]]
 tags:
 - src_unknown
 - src_unknown
@@ -44,6 +49,7 @@ diagnostic_signals:
   follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
 - lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
+
 ---
 
 # 王欢GAN三角色架构：生成器/判别器/合成器

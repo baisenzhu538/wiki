@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-motivation-resistance
 component_of:
 - src_unknown
@@ -21,11 +22,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-model-pan-product-36-strategies]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-demand-toolkit]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[一堂]]
+  - [[yt-model-conversion-optimization]]
+  - [[yt-panproduct-demand-peak-end-rule]]
+  - [[yt-panproduct-demand-surprise-formula]]
+  - [[case-truman-motivation-map-12-versions]]
 reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力
@@ -51,6 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 动力阻力：理解转化率的本质

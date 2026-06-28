@@ -1,4 +1,5 @@
 ---
+
 id: tool-google-dorking
 title: Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息
 type: tool
@@ -17,11 +18,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Google Dorking：高级搜索语法

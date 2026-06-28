@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-unit-model
 confidence: 0.8
 created_at: 2026-05-06
@@ -19,11 +20,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-course-map]]'
-- '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-course-map]]
+  - [[yt-system-course-catalog]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[yt-entrepreneur-scientific-method]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[yt-model-entrepreneur-map]]
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋
@@ -49,6 +51,7 @@ diagnostic_signals:
 - framework_lens: 缺少杠杆敏感度分析
   follow_up_question: 如果对LTV、CAC、留存率分别做±10%的灵敏度测试，哪个变量变动会让模型从成立变为不成立？
 author: 老顽童
+
 ---
 
 # 单元模型

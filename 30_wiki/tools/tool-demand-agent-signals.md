@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signals
 title: Agent L1-L2信号聚合：替代"凭经验猜用户"
 type: tool
@@ -18,11 +19,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Agent L1-L2信号聚合

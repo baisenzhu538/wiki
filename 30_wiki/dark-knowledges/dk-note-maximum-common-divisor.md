@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-maximum-common-divisor
 title: 清单体是人与AI的'最大公约数'：结构降级即认知升级
 type: dk
@@ -14,11 +15,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,6 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# 清单体是人与AI的"最大公约数"：结构降级即认知升级
+
 ---
 
 ## 原始表述 / 核心洞察

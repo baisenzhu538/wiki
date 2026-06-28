@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-product-kernel
 title: 产品内核：不要过早细化未经思考的内核
 type: framework
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_vlm_desc.md
 related:
-- '[[concept-一堂-kernel-validation]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[concept-一堂-kernel-validation]]
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 产品内核：不要过早细化未经思考的内核

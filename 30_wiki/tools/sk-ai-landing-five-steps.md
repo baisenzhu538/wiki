@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: tool
@@ -16,11 +17,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- '[[sk-ai-old-small-checklist]]'
-- '[[sk-ai-parallel-validation]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[sk-ai-old-small-checklist]]
+  - [[sk-ai-parallel-validation]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -32,6 +33,7 @@ diagnostic_signals:
   follow_up_question: 你们当前卡在找场景、做判断、做验证、搞开发还是慢上线？
 - framework_lens: 慢上线与平行运行
   follow_up_question: 是否有3个月的平行运行计划和明确的回退方案？
+
 ---
 
 # 技能：AI落地五步执行清单

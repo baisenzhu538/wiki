@@ -1,4 +1,5 @@
 ---
+
 id: concept-mcp-protocol
 title: MCP协议：Agent调用外部工具的统一标准
 type: concept
@@ -18,11 +19,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # MCP协议

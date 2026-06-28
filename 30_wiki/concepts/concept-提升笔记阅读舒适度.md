@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: concept-提升笔记阅读舒适度
@@ -10,11 +11,11 @@ confidence: 0.85
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-- '[[tool-提升笔记练习频次的方法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-提升笔记练习频次的方法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up: 真正决定笔记是否被使用的是'可发现性'和'可提取性'，不是阅读舒适度。确保笔记出现在正确的时间地点
 - lens: 认知依赖
   follow_up: 颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间
+
 ---
 
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦

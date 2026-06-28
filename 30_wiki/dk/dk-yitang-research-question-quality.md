@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-question-quality
 title: 好调研目标 vs 坏调研目标：决策可验证性
 type: dk
@@ -17,12 +18,13 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 好调研目标 vs 坏调研目标

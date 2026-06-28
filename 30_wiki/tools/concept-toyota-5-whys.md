@@ -1,4 +1,5 @@
 ---
+
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
@@ -23,11 +24,12 @@ diagnostic_signals:
 - framework_lens: 5 Whys 检查：'问题是X'是否已经是经过根因分析的结论，还是只是表象描述
   follow_up_question: 你说的'X'是第几次'为什么'之后的结论？如果还没问到第3层，你可能只是在解决表象
 related:
-- '[[tool-一堂-kernel-three-questions]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-一堂-kernel-three-questions]]
+  - [[yt-product-kernel-cultivation]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[concept-mckinsey-issue-tree]]
+  - [[concept-mckinsey-hypothesis-driven]]
+  - [[yt-entrepreneur-lean-validation]]
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -36,6 +38,7 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
+
 ---
 
 # 5 Whys：追问到根本原因

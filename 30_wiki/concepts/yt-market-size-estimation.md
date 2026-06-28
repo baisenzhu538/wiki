@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-market-size-estimation
@@ -21,11 +22,11 @@ source_refs:
 - src_unknown
 status: reviewed
 related:
-- '[[case-treadmill-demand-analysis]]'
-- '[[yt-demand-analysis-hiking-map]]'
-- '[[yt-five-step-method]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yt-demand-analysis-hiking-map]]
+  - [[yt-five-step-method]]
+  - [[case-treadmill-demand-analysis]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 title: 市场规模估算四种方法
 trust_level: medium
 type: tool
@@ -47,6 +48,7 @@ diagnostic_signals:
   follow_up_question: TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆
 updated_at: 2026-06-13
 author: 老顽童# 市场规模估算四种方法
+
 ---
 
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]

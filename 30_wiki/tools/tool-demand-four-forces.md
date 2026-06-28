@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-four-forces
 title: 四种力量建模：用户切换决策的博弈机制
 type: tool
@@ -16,14 +17,14 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-泛产品落地-业务建模]]'
-- '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
-- '[[tool-现场建模式萃取笔记]]'
-- '[[concept-最佳实践建模]]'
-- '[[tool-动手建模法]]'
-- '[[ocr-泛产品设计-落地卡片-业务建模]]'
-- '[[tool-动手建模提炼]]'
+  - [[yitang-domain-digest]]
+  - [[concept-最佳实践建模]]
+  - [[tool-动手建模提炼]]
+  - [[tool-动手建模法]]
+  - [[ocr-泛产品设计-审美卡片-最佳实践建模]]
+  - [[tool-泛产品落地-业务建模]]
+  - [[tool-现场建模式萃取笔记]]
+  - [[ocr-泛产品设计-落地卡片-业务建模]]
 ---
 
 # 四种力量建模

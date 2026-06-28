@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-public-information-research
 title: 官方公开信息渠道：公司自己发布的信息最有价值
 type: tool
@@ -27,11 +28,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 官方公开信息渠道：公司自己发布的信息最有价值

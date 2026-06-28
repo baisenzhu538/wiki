@@ -1,4 +1,5 @@
 ---
+
 id: framework-wanghuan-harness-seven-stages
 title: 王欢：Harness 七阶段 AI 构建流程
 type: framework
@@ -28,17 +29,18 @@ diagnostic_signals:
 - lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
-- '[[concept-harness-scoring-anchors]]'
-- '[[tool-harness-adversarial-tester]]'
-- '[[plan_20260621_kdo-quality-harness-upgrade]]'
-- '[[concept-harness-cattle-not-pets]]'
-- '[[pending_unknown]]'
+  - [[concept-harness-cattle-not-pets]]
+  - [[tool-harness-adversarial-tester]]
+  - [[plan_20260621_kdo-quality-harness-upgrade]]
+  - [[concept-harness-scoring-anchors]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 王欢：Harness 七阶段 AI 构建流程

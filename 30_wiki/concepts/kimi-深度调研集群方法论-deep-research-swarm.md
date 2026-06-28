@@ -1,4 +1,5 @@
 ---
+
 id: kimi-深度调研集群方法论-deep-research-swarm
 created_at: 2026-05-01
 domain: ai-saas
@@ -15,14 +16,22 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- '[[yitang-research-domain-digest]]'
-- '[[ouyangfeng-labeling-research-review]]'
-- '[[tool-yitang-research-continuous-tracking]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[tool-yitang-public-sentiment-research]]'
-- '[[dk-research-triangulation-stop-rule]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[concept-yitang-research-scope]]'
+  - [[tool-yitang-weapon-partner-research]]
+  - [[tool-agent-research-pipeline]]
+  - [[tool-yitang-field-research]]
+  - [[tool-yitang-web-scraping-research]]
+  - [[dk-yitang-research-scale-vs-depth]]
+  - [[framework-yitang-research-radar]]
+  - [[concept-yitang-ai-research-10-assumptions]]
+  - [[case-deepfake-market-misuse]]
+  - [[yitang-research-domain-digest]]
+  - [[ouyangfeng-labeling-research-review]]
+  - [[tool-yitang-research-continuous-tracking]]
+  - [[tool-yitang-research-follow-map]]
+  - [[tool-yitang-public-sentiment-research]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[tool-yitang-research-deep-attribution]]
+  - [[concept-yitang-research-scope]]
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

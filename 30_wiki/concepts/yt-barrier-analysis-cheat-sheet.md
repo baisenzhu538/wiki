@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-scale-economy-weapon-library]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-five-step-method]]
+  - [[yt-scale-economy-weapon-library]]
+  - [[yt-unit-model-three-tools]]
+  - [[case-toy-cabinet-business-model]]
+  - [[pending_unknown]]
 ---
 
 # 壁垒分析完整cheatsheet

@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
@@ -21,11 +22,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-course-map]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-concept-ai-guard-brain]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-course-map]]
+  - [[yt-entrepreneur-product-core]]
+  - [[yt-concept-ai-guard-brain]]
+  - [[yt-concept-context-engineering]]
+  - [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[yt-entrepreneur-unit-model]]
+  - [[yt-tool-meeting-designer]]
 review_date: 2026-06-06
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -55,6 +59,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 
 # 产品内核画布与九大原则

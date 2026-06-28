@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
@@ -20,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-personal-y-model-practice]]'
-- '[[yt-model-y-organization]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-personal-y-model-practice]]
+  - [[yt-model-y-organization]]
+  - [[一堂]]
+  - [[yt-entrepreneur-scientific-method]]
+  - [[yt-model-scientific-questioning-map]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6d771b2a-个人修身-y模型探索营2
@@ -50,6 +51,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # Y模型探索营2：五次质变与科学推演

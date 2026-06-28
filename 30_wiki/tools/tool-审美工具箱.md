@@ -1,4 +1,5 @@
 ---
+
 id: tool-审美工具箱
 title: 审美工具箱：产品审美的诊断和提升工具集合
 type: tool
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 审美工具箱：产品审美的诊断和提升工具集合

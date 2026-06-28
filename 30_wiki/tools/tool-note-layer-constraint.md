@@ -1,4 +1,5 @@
 ---
+
 id: tool-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
@@ -11,11 +12,13 @@ version: 2
 difficulty: beginner
 confidence: 0.88
 related:
-- '[[yt-tool-meeting-designer]]'
-- '[[case-truman-prd-checklist-evolution]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-tool-meeting-designer]]
+  - [[case-truman-prd-checklist-evolution]]
+  - [[yt-management-scientific-meetings]]
+  - [[yt-note-checklist-concept]]
+  - [[tool-note-keyword-bolding]]
+  - [[tool-note-one-line-one-point]]
+  - [[dk-note-surplus-brainpower]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -57,6 +60,7 @@ diagnostic_signals:
   follow_up: 确定唯一归属层级，删除重复或改为引用
 - lens: 机器可读性差
   follow_up: 将4层及以上嵌套压缩到3层以内，并统一列表符号
+
 ---
 
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

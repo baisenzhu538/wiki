@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-beauty-ecommerce-channel
 title: 案例：美妆行业渠道效率发现
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：美妆行业渠道效率发现

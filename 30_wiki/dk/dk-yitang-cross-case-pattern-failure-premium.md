@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-cross-case-pattern-failure-premium
 title: 跨案例模式：失败者溢价——研究失败比研究成功的信息价值高10倍
 type: dk
@@ -17,12 +18,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 跨案例模式：失败者溢价

@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 created_at: 2026-05-24
@@ -20,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-unit-model-construction]]
+  - [[yt-unit-model-dynamic]]
+  - [[yt-unit-model-ladder]]
+  - [[yt-decision-ai-partner]]
+  - [[master-systems-thinking]]
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -51,6 +52,7 @@ diagnostic_signals:
 - framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-28'
+
 ---
 
 # AI+单元模型：TCP-R双导师与出口式咨询实践

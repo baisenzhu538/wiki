@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-ten-metrics
@@ -18,11 +19,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[ocr-一堂产品内核-十大典型指标]]'
-- '[[tool-设定管理杠杆率指标评估效率]]'
-- '[[ocr-一堂五步法-产品内核画布]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[ocr-一堂五步法-产品内核画布]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 产品内核指标——缺乏数据验证体系
   follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？
@@ -34,6 +35,7 @@ diagnostic_signals:
   follow_up_question: 如果只能看3个指标，你会选哪3个？为什么？
 - framework_lens: 产品内核指标——需要基准和目标
   follow_up_question: 这个指标的基准值是多少？目标值是多少？差距原因是什么？
+
 ---
 
 # 产品内核十大典型指标：从假设到验证的数据体系

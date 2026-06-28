@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-a-b-testing
@@ -17,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
-- '[[tool-月白-模型识别与边界测试法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[pending_unknown]]'
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[tool-月白-模型识别与边界测试法]]
+  - [[ocr-泛产品设计-落地卡片-低成本测试mvp]]
+  - [[tool-月白-餐饮海报AB测试法]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: A/B测试——任何改动都需要A/B测试验证，不能凭感觉
   follow_up_question: 你的改动是否设计了A/B测试？对照组和实验组的样本量是否足够？
@@ -33,6 +34,7 @@ diagnostic_signals:
   follow_up_question: 你的样本量是否基于预期提升率和显著性水平计算？
 - framework_lens: A/B测试——一次测试不足以得出结论，需要重复验证
   follow_up_question: 这个结果是否在其他场景重复验证？是否考虑了长期影响？
+
 ---
 
 # A/B测试：增长实验的统计基础

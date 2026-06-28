@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-product-led-growth
@@ -17,14 +18,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[tool-马易-平台模式验证法]]'
-- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-- '[[互联网医院模式深度调研报告]]'
-- '[[tool-现场建模式萃取笔记]]'
-- '[[tool-城市合伙人模式复制能力]]'
-- '[[tool-月白-创作与执行双模式切换]]'
-- '[[tool-创始人二当家分工协作模式]]'
-- '[[tool-月白-A-B双轨反推模式选择]]'
+  - [[tool-月白-A-B双轨反推模式选择]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-月白-创作与执行双模式切换]]
+  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
+  - [[tool-创始人二当家分工协作模式]]
+  - [[tool-马易-平台模式验证法]]
+  - [[tool-现场建模式萃取笔记]]
+  - [[互联网医院模式深度调研报告]]
 diagnostic_signals:
 - framework_lens: 产品驱动增长——PLG模式不需要销售团队，产品本身驱动增长
   follow_up_question: 你的产品是否能让用户自助使用、自助付费？产品体验是否足够好？
@@ -36,6 +37,7 @@ diagnostic_signals:
   follow_up_question: 你的产品哪些部分适合PLG？哪些部分需要SLG？如何组合？
 - framework_lens: 产品驱动增长——PLG前期慢，但规模化后效率高
   follow_up_question: 你的PLG飞轮是否形成了？病毒系数K是多少？
+
 ---
 
 # 产品驱动增长：PLG模式

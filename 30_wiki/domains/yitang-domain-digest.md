@@ -1,4 +1,5 @@
 ---
+
 id: yitang-domain-digest
 title: 域摘要：一堂知识体系总目
 type: index
@@ -11,10 +12,10 @@ created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-- '[[yitang-research-domain-digest]]'
-- '[[strategy-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[five-step-domain-digest]]'
+  - [[yitang-research-domain-digest]]
+  - [[strategy-domain-digest]]
+  - [[five-step-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
 ---
 
 # 域摘要：一堂知识体系

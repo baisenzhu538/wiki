@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-blm
 title: IBM BLM 业务领导力模型 + 华为五看三定
 type: framework
@@ -15,11 +16,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # IBM BLM 业务领导力模型 + 华为五看三定

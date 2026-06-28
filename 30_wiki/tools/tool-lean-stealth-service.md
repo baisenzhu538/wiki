@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-stealth-service
 title: 偷偷服务：用人工模拟产品后端
 type: tool
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 一堂 FALSE 模型 A 阶段（人工服务）
   follow_up_question: 能否用真人后台先跑一轮服务，前端只做一个简单的输入/展示界面？
@@ -29,6 +30,7 @@ diagnostic_signals:
 - framework_lens: 产品内核验证
   follow_up_question: 能否用专家人工交付一轮，验证客户是否愿意为「服务结果」而非「系统功能」付费？
 updated_at: '2026-06-28'
+
 ---
 
 # 偷偷服务：用人工模拟产品后端

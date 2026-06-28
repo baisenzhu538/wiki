@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-cac-ltv
@@ -17,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- '[[dk-p3-auth-cache]]'
-- '[[tool-devils-advocacy]]'
-- '[[dk-p2-tmux-cache]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-p3-auth-cache]]
+  - [[dk-p2-tmux-cache]]
+  - [[tool-devils-advocacy]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
   follow_up_question: 你的CAC是否包含了所有营销费用？包括人力、内容、活动等？
@@ -33,6 +34,7 @@ diagnostic_signals:
   follow_up_question: 你的不同获客渠道，CAC和LTV分别是多少？哪个渠道最健康？
 - framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
   follow_up_question: 没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。
+
 ---
 
 # CAC与LTV的实战计算

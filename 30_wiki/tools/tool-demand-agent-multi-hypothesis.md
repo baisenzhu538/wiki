@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-multi-hypothesis
 title: Agent L3多假设并行：5个核心任务同时推演
 type: tool
@@ -17,11 +18,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Agent L3多假设并行

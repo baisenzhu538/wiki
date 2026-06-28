@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-survivor-bias-in-research
 title: 调研中的幸存者偏差
 type: dk
@@ -16,12 +17,13 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 调研中的幸存者偏差

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dk
@@ -15,11 +16,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[tool-月白-左手Cubox右手里程碑学习法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-月白-左手Cubox右手里程碑学习法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 pipeline:
 - src_unknown
 author: 月白
@@ -33,6 +34,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 孤岛采购——各部门独立选型导致协作断裂
   follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？# Cubox及AI协作工具的团队部署失败模式
+
 ---
 
 ## 原始表述

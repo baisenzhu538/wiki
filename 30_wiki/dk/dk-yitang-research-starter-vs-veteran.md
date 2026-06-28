@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-starter-vs-veteran
 title: 新手重分析，老兵80%时间拿情报
 type: dk
@@ -16,12 +17,13 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 新手重分析，老兵80%时间拿情报

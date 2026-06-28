@@ -1,4 +1,5 @@
 ---
+
 id: case-shampoo-product-kernel
 title: 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
 type: case
@@ -16,12 +17,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[case-treadmill-demand-analysis]]'
-- '[[case-zhihu-vs-degetao-network-effect]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[yitang-domain-digest]]'
+  - [[concept-一堂-product-kernel]]
+  - [[yt-product-kernel-cultivation]]
+  - [[case-treadmill-demand-analysis]]
+  - [[concept-一堂-key-assumptions]]
+  - [[case-zhihu-vs-degetao-network-effect]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -32,6 +33,7 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
+
 ---
 
 > 黄药师骨架 · 老顽童填内容

@@ -1,4 +1,5 @@
 ---
+
 title: 一堂案例必修课
 type: concept
 status: reviewed
@@ -28,11 +29,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 一堂案例必修课

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
@@ -12,11 +13,14 @@ domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-- '[[tool-yitang-user-interview-5steps]]'
-- '[[yt-research-user-jtbd]]'
-- '[[framework-demand-iceberg]]'
-- '[[tool-yitang-behavioral-observation]]'
-- '[[yitang-domain-digest]]'
+  - [[tool-yitang-user-interview-5steps]]
+  - [[yt-research-user-jtbd]]
+  - [[framework-demand-iceberg]]
+  - [[tool-yitang-behavioral-observation]]
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-yitang-doorstep-nail-service-context]]
 ---
 
 # 调研中行为证据重于口头证据

@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-four-principles
 title: 精益创业低成本验证四大原则
 type: framework
@@ -19,14 +20,14 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
-- '[[framework-lean-false-model]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[concept-一堂-kernel-validation]]'
-- '[[framework-lean-six-wastes]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[framework-lean-false-model]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[framework-lean-six-wastes]]
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
 ---
 
 # 精益创业低成本验证四大原则

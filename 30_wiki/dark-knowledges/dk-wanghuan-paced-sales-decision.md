@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-paced-sales-decision
 title: 暗知识：复制销冠不是复制话术——是还原决策链
 type: dk
@@ -45,13 +46,13 @@ diagnostic_signals:
   lens: 策略与话术混在同一存储层
   follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 related:
-- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-- '[[dk-wanghuan-agent-platform-director-mode]]'
-- '[[dk-wanghuan-spec-trap]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yt-five-step-method]]'
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
+  - [[dk-wanghuan-tacit-decision-extraction-cross-domain]]
+  - [[dk-wanghuan-agent-platform-director-mode]]
+  - [[dk-wanghuan-spec-trap]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
 ---
 
 # 暗知识：复制销冠不是复制话术——是还原决策链

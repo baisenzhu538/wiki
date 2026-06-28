@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 type: dk
@@ -22,17 +23,23 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-月白-设计项目MVP拆解法]]'
-- '[[tool-月白-AIGC反向拆解法]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[tool-月白-AI设计里程碑拆解法]]'
-- '[[tool-月白-AI需求拆解咨询法]]'
-- '[[ocr-一堂-案例拆解-课程清单]]'
-- '[[tool-泛产品落地-里程碑拆解]]'
+  - [[yitang-domain-digest]]
+  - [[tool-马易-AI任务拆解提升控制度]]
+  - [[tool-马易-数字员工FD拆解落地]]
+  - [[ocr-泛产品设计-落地卡片-里程碑拆解]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[tool-马易-工作流拆解找场景]]
+  - [[tool-月白-基于需求拆解找设计参考]]
+  - [[tool-月白-AI设计里程碑拆解法]]
+  - [[tool-月白-设计项目MVP拆解法]]
+  - [[tool-月白-AIGC反向拆解法]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[tool-月白-AI需求拆解咨询法]]
+  - [[tool-泛产品落地-里程碑拆解]]
 tags: []
 author: 欧阳锋
 confidence: 0.85
+
 ---
 
 ## 原始表述

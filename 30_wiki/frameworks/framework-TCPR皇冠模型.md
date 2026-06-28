@@ -1,4 +1,5 @@
 ---
+
 id: framework-TCPR皇冠模型
 title: TCP-R皇冠模型：教学·咨询·实践·研究的统一框架
 type: framework
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # TCP-R皇冠模型

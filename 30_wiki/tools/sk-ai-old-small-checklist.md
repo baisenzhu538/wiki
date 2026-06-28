@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
@@ -27,14 +28,19 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[轻量级诊所HIS调研全清单]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[ocr-一堂-科学决策-稀缺资源清单]]'
-- '[[ocr-一堂-科学决策-关键训练清单重要]]'
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-- '[[tool-制作行业化要素检查清单]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-制作行业化要素检查清单]]
+  - [[tool-月白-供应商信息对齐清单法]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[tool-稀缺资源清单]]
+  - [[tool-清单式笔记法]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[tool-清单小抄工具箱法]]
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-关键训练清单重要]]
+  - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -43,6 +49,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 技能："找老的干小的"场景评估清单

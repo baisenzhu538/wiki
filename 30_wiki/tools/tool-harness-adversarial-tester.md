@@ -1,4 +1,5 @@
 ---
+
 id: tool-harness-adversarial-tester
 title: 对抗测试员：成功标准是"找到bug"
 type: tool
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 对抗测试员

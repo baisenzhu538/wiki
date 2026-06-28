@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-social-progress-not-automatic
 title: 社会进步不是自动的
 type: dk
@@ -18,11 +19,14 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[framework-ai2041-critical-reading-os]]'
-- '[[concept-ai-chair-determines-view]]'
-- '[[concept-ai-neutrality-bias]]'
-- '[[tool-ai2041-source-verification-checklist]]'
-- '[[case-ai-job-displacement-wef]]'
+  - [[framework-ai2041-critical-reading-os]]
+  - [[concept-ai-chair-determines-view]]
+  - [[concept-ai-neutrality-bias]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-ai-job-displacement-wef]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[dk-ai-prediction-expiry-date]]
 ---
 
 # 社会进步不是自动的

@@ -1,4 +1,5 @@
 ---
+
 id: writing-content
 created_at: 2026-05-21
 domain: ai-saas
@@ -15,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- '[[yt-prompt-writing-workflow]]'
-- '[[case-toc-content-platform-correlation-trap]]'
-- '[[case-chen-qiufan-ai-writing]]'
-- '[[yt-lean-b2b-b2c-hardware-content-testing]]'
-- '[[tool-yitang-content-ip-research]]'
+  - [[case-toc-content-platform-correlation-trap]]
+  - [[tool-yitang-content-ip-research]]
+  - [[yt-lean-b2b-b2c-hardware-content-testing]]
+  - [[yt-prompt-writing-workflow]]
+  - [[case-chen-qiufan-ai-writing]]
 ---
 
 # Writing Content

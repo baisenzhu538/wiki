@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-cost-value-match
 title: 调研投入必须与信息价值匹配
 type: dk
@@ -16,12 +17,13 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 调研投入必须与信息价值匹配

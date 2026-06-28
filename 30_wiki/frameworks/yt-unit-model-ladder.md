@@ -1,4 +1,5 @@
 ---
+
 title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
@@ -17,11 +18,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[dk-modeling-logical-cleanliness-root]]'
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 - [[dk-modeling-logical-cleanliness-root]]

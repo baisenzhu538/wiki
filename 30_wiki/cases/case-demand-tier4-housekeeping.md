@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-tier4-housekeeping
 title: 案例：四线家政创业——天花板误判
 type: case
@@ -16,13 +17,20 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-地图-创业地图_conv]]'
+  - [[yitang-domain-digest]]
+  - [[tool-从案例中学习]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[ocr-一堂-地图-创业地图_conv]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：四线家政创业

@@ -1,4 +1,5 @@
 ---
+
 id: prd-as-ai-instruction
 title: PRD文档作为AI可执行指令
 type: tool
@@ -13,11 +14,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- '[[course-to-skill-conversion]]'
-- '[[voice-input-doubao]]'
-- '[[structured-ai-workspace]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[course-to-skill-conversion]]
+  - [[voice-input-doubao]]
+  - [[structured-ai-workspace]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -40,6 +41,7 @@ diagnostic_signals:
   follow_up: 把预期流程写成PRD加载给AI，连续3次结果一致
 - lens: 边界不清
   follow_up: 检查PRD是否包含边界条件：什么时候停止、什么时候转交人类
+
 ---
 
 # PRD文档作为AI可执行指令

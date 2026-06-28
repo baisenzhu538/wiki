@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-tenx-formula
 title: 十倍速公式：避免系统性失败
 type: framework
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 十倍速公式：避免系统性失败

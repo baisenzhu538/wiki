@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-need-discovery
 component_of:
 - src_unknown
@@ -21,11 +22,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-model-pan-product-36-strategies]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-demand-toolkit]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[一堂]]
+  - [[yt-panproduct-demand-scenario-walkthrough]]
+  - [[yt-panproduct-demand-user-perspective]]
+  - [[yt-personal-y-model-practice]]
 reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘
@@ -50,6 +52,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 需求挖掘：理解背后的深层原因

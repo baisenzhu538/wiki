@@ -1,4 +1,5 @@
 ---
+
 id: feishu-docx-pagination-extraction
 title: 飞书 Docx API 分页安全提取 + 流式处理模式
 type: skill
@@ -20,15 +21,24 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: '2026-06-23'
 related:
-- '[[tool-马易-平台模式验证法]]'
-- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
-- '[[互联网医院模式深度调研报告]]'
-- '[[tool-现场建模式萃取笔记]]'
+  - [[tool-yitang-web-scraping-research]]
+  - [[tool-月白-A-B双轨反推模式选择]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[concept-feishu-api-pagination-trap]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[tool-月白-创作与执行双模式切换]]
+  - [[tool-月白-图片逆向提示词提取]]
+  - [[tool-马易-平台模式验证法]]
+  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
+  - [[互联网医院模式深度调研报告]]
+  - [[tool-现场建模式萃取笔记]]
 diagnostic_signals:
 - framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
   follow_up_question: 你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？
 - framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
   follow_up_question: 你的提取是等全部加载完再处理，还是一页一页流式处理？
+
 ---
 
 # 飞书 Docx API 分页安全提取 + 流式处理模式

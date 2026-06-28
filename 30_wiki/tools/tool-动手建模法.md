@@ -1,4 +1,5 @@
 ---
+
 id: tool-动手建模法
 title: 技能：动手建模法
 type: tool
@@ -14,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[tool-动手建模提炼]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-动手建模提炼]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up: 好的模型别人照着步骤能执行并得到相近结果，太抽象或太复杂都是坏模型
 - lens: 维度不客观
   follow_up: 分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
+
 ---
 
 # 技能：动手建模法

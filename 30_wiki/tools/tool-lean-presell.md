@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-presell
 title: 做预售：用真实订单验证付费意愿
 type: tool
@@ -20,11 +21,11 @@ source_refs:
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 做预售：用真实订单验证付费意愿

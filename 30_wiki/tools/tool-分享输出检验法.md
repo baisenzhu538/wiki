@@ -1,4 +1,5 @@
 ---
+
 id: tool-分享输出检验法
 title: 技能：分享输出检验法
 type: tool
@@ -14,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -44,6 +45,7 @@ diagnostic_signals:
   follow_up: 分享后必须有意识地收集质疑：'有没有哪个点你觉得不对？'，质疑才是学习的机会
 - lens: 无反馈回收
   follow_up: 分享的价值在改变他人的行为或判断，不是数字。必须回收反馈并迭代
+
 ---
 
 # 技能：分享输出检验法

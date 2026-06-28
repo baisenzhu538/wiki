@@ -1,4 +1,5 @@
 ---
+
 id: case-gudong-tea-shop-foresight
 title: 古董奶茶店：五层筛选的加法减法实战
 type: case
@@ -36,9 +37,9 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

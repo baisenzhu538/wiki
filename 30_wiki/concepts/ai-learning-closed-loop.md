@@ -1,4 +1,5 @@
 ---
+
 id: ai-learning-closed-loop
 title: AI学习闭环：从听懂到能力的转化路径
 type: concept
@@ -12,11 +13,11 @@ source_refs:
 - src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[course-to-skill-conversion]]'
-- '[[ai-landing-scene-selection]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-mindset-shift]]
+  - [[course-to-skill-conversion]]
+  - [[ai-landing-scene-selection]]
+  - [[structured-ai-workspace]]
+  - [[pending_unknown]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -40,6 +41,7 @@ diagnostic_signals:
   follow_up: 创建Inbox文件夹，定下每周五下午半小时整理的时间块
 - lens: 闭环断裂
   follow_up: 检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步
+
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

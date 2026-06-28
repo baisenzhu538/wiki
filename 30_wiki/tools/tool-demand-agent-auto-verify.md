@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-auto-verify
 title: Agent L6自动预验证：RAT的竞品数据+趋势快速验证
 type: tool
@@ -17,11 +18,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Agent L6自动预验证

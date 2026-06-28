@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-six-stages
 title: 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同
 type: framework
@@ -14,11 +15,11 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-Truman-Skill全生命周期管理]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[tool-Truman-Skill全生命周期管理]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 六阶段企业生命周期

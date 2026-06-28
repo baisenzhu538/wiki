@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
@@ -17,11 +18,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-benchmark]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-unit-model-ladder]]
+  - [[yt-unit-model-construction]]
+  - [[yt-unit-model-benchmark]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[yt-unit-model-build]]
+  - [[yt-decision-y-model]]
+  - [[yt-unit-model-three-tools]]
 source_refs: []
 status: enriched
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
@@ -48,6 +51,7 @@ diagnostic_signals:
   follow_up_question: 你的订单按毛利率分成高/中/低三档，各占多少比例？高利润订单和低利润订单的用户画像有什么不同？
 author: 老顽童
 reviewed_by: 欧阳锋
+
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

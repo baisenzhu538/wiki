@@ -1,4 +1,5 @@
 ---
+
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
@@ -27,15 +28,19 @@ diagnostic_signals:
 - framework_lens: 趁热复盘 + 24 小时补丁机制
   follow_up_question: 最近一次直播意外后，多久更新了 SOP？触发条件是什么？
 related:
-- '[[case-truman-livestream-sop-iteration]]'
-- '[[case-zhangyang-anchor-sop-three-locks]]'
-- '[[tool-sop-template-modeling]]'
+  - [[case-truman-livestream-sop-iteration]]
+  - [[case-zhangyang-anchor-sop-three-locks]]
+  - [[tool-sop-template-modeling]]
+  - [[tool-checklist-cheatsheet-modeling]]
+  - [[process-modeling]]
+  - [[dk-modeling-sop-execution-locks]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：直播前热身 SOP 建模

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-doorstep-pet-feeding-trust
 title: 案例：上门宠物喂养——用调研解决信任障碍
 type: case
@@ -17,10 +18,11 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：上门宠物喂养——调研如何消除信任顾虑

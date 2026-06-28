@@ -1,4 +1,5 @@
 ---
+
 id: case-escort-service-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -33,11 +34,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- '[[case-coffee-shop-foresight]]'
-- '[[case-ai-time-management-tiered-growth]]'
-- '[[yt-foresight-business-spectrum]]'
-- '[[yt-entrepreneur-opportunity-selection]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-foresight-business-spectrum]]
+  - [[yt-entrepreneur-opportunity-selection]]
+  - [[case-coffee-shop-foresight]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[yitang-domain-digest]]
 ---
 
 # 案例：陪诊业务七级演进

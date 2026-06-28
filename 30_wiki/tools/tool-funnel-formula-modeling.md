@@ -1,4 +1,5 @@
 ---
+
 id: tool-funnel-formula-modeling
 title: 漏斗图/公式建模法：量化流程与关键变量
 type: tool
@@ -20,11 +21,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.89
 related:
-- '[[case-private-domain-ecommerce-formula]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-private-domain-ecommerce-formula]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -37,6 +38,7 @@ diagnostic_signals:
   follow_up_question: 能否把变量精简到3-5个，并识别出可干预的杠杆变量？
 - framework_lens: 数据驱动建模
   follow_up_question: 每个阶段/变量是否有对应的埋点、数据来源和验证计划？
+
 ---
 
 # 漏斗图/公式建模法：量化流程与关键变量

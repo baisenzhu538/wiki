@@ -1,4 +1,5 @@
 ---
+
 id: concept-harness-scoring-anchors
 title: 评分锚定：1-5分制+语义锚点+取较低值
 type: concept
@@ -16,11 +17,11 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 评分锚定

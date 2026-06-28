@@ -1,4 +1,5 @@
 ---
+
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -32,10 +33,10 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- '[[case-escort-service-tiered-growth]]'
-- '[[yt-foresight-business-spectrum]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-foresight-business-spectrum]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[case-escort-service-tiered-growth]]
+  - [[yitang-domain-digest]]
 ---
 
 # 案例：咖啡馆创业预判

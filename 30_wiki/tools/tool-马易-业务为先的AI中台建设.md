@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[ai-landing-scene-selection]]'
-- '[[tool-马易-数据存储架构选择]]'
-- '[[yt-entrepreneur-pragmatic-startup]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-landing-scene-selection]]
+  - [[tool-马易-数据存储架构选择]]
+  - [[yt-entrepreneur-pragmatic-startup]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。

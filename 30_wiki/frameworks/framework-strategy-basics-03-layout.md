@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-basics-03-layout
 title: 布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事
 type: framework
@@ -14,11 +15,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **五件事**：

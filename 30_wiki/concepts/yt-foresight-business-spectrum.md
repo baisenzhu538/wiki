@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -18,11 +19,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-entrepreneur-opportunity-selection]]'
-- '[[yitang-course-map]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-entrepreneur-opportunity-selection]]
+  - [[yitang-course-map]]
+  - [[yt-model-entrepreneur-map]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[case-escort-service-tiered-growth]]
+  - [[case-coffee-shop-foresight]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[yt-foresight-model-taxonomy]]
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown
@@ -59,6 +63,7 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
+
 ---
 
 # 终局光谱图

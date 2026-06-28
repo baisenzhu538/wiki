@@ -1,4 +1,5 @@
 ---
+
 id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
@@ -24,11 +25,11 @@ source_refs:
 - pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide
   automatic feedback," arXiv:2411.07407, 2024
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴

@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-expert-consensus-five-percent
 title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 type: dk
@@ -21,16 +22,17 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- '[[yitang-domain-digest]]'
-- '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
-- '[[tool-泛产品落地-灵感闪现]]'
-- '[[framework-高水平共识曲线]]'
-- '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
-- '[[tool-月白-灵感画布建立法]]'
+  - [[yitang-domain-digest]]
+  - [[tool-泛产品落地-灵感闪现]]
+  - [[ocr-一堂-科学决策-高水平共识曲线重要]]
+  - [[ocr-泛产品设计-落地卡片-灵感闪现]]
+  - [[framework-高水平共识曲线]]
+  - [[tool-月白-灵感画布建立法]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 ## 原始表述 / 核心洞察

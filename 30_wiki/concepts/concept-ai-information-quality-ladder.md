@@ -1,4 +1,5 @@
 ---
+
 id: concept-ai-information-quality-ladder
 title: 信息质量阶梯
 type: concept
@@ -17,11 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[tool-ai2041-source-verification-checklist]]'
-- '[[concept-ai-chair-determines-view]]'
-- '[[tool-ai-critical-reading-three-layers]]'
-- '[[framework-ai2041-critical-reading-os]]'
-- '[[framework-ai-deconstruction-methodology]]'
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[concept-ai-chair-determines-view]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
 ---
 
 # 信息质量阶梯

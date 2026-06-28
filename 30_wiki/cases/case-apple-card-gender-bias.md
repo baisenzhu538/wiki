@@ -1,4 +1,5 @@
 ---
+
 id: case-apple-card-gender-bias
 title: Apple Card 信用额度性别争议
 type: case
@@ -17,12 +18,12 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[concept-card-index-latest]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[yt-personal-ai-thinking-card]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[business-formula-to-kdo-card-quality]]'
-- '[[agent-native-card-design]]'
+  - [[yt-personal-ai-thinking-card]]
+  - [[yt-tool-hiring-scorecard]]
+  - [[business-formula-to-kdo-card-quality]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[concept-card-index-latest]]
+  - [[agent-native-card-design]]
 ---
 
 # Apple Card 信用额度性别争议

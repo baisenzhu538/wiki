@@ -1,4 +1,5 @@
 ---
+
 id: tool-四层联系建立法
 title: 技能：四层联系建立法
 type: tool
@@ -14,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[tool-月白-灵感画布建立法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[tool-月白-灵感画布建立法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -43,6 +44,7 @@ diagnostic_signals:
   follow_up: 定期清理联系图谱，删除'有趣但不重要'的噪声联系，保留有预测力的联系
 - lens: 联系不可输出
   follow_up: 联系必须能写成一段话讲给不懂的人听，说不出来等于没真正理解
+
 ---
 
 # 技能：四层联系建立法

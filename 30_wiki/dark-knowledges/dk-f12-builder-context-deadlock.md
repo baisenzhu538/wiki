@@ -1,4 +1,5 @@
 ---
+
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dk
@@ -13,14 +14,21 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- '[[framework-kdo-self-attack]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[kdo-priority-checklist]]'
-- '[[tool-demand-agent-signal-substitute]]'
-- '[[tool-Truman-多Agent通信协作方案]]'
-- '[[yt-tool-peas-agent-analysis]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[kdo_product_design_agent_final]]'
+  - [[yt-tool-peas-agent-analysis]]
+  - [[tool-agent-research-pipeline]]
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[kdo-protocol]]
+  - [[case-ai-agent-milestone-design]]
+  - [[tool-agent-crawl4ai]]
+  - [[agent-external-brain-design]]
+  - [[dk-demand-pitfall-travel-agent]]
+  - [[framework-kdo-self-attack]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[kdo-priority-checklist]]
+  - [[tool-demand-agent-signal-substitute]]
+  - [[tool-Truman-多Agent通信协作方案]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[kdo_product_design_agent_final]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -45,6 +53,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
+
 ---
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-database-index
 title: 第三方数据库与行业报告来源索引
 type: tool
@@ -27,11 +28,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 第三方数据库与行业报告来源索引

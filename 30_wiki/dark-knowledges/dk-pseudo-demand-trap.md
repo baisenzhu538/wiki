@@ -1,4 +1,5 @@
 ---
+
 id: dk-pseudo-demand-trap
 title: 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 type: dk
@@ -18,11 +19,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -30,6 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
+
 ---
 
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地

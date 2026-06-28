@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-facts-first
 title: 事实优先：调研的基本纪律
 type: concept
@@ -17,11 +18,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 事实优先

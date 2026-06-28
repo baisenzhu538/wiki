@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l5-forces
 title: L5隐藏洞察：四种力量+三种任务+微观体感
 type: tool
@@ -17,11 +18,11 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # L5隐藏洞察

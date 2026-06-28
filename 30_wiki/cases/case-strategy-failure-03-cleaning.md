@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-03-cleaning
 title: 案例：清洁用品L——定位错误。盲目高端丢低端市场
 type: case
@@ -22,12 +23,18 @@ source_refs:
 - src_unknown
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
+  - [[strategy-domain-digest]]
+  - [[tool-从案例中学习]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
 ---
 
 **表面问题**：销售额持续下滑

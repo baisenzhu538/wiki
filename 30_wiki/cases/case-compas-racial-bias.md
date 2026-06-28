@@ -1,4 +1,5 @@
 ---
+
 id: case-compas-racial-bias
 title: COMPAS 再犯算法种族偏见
 type: case
@@ -17,9 +18,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-- '[[ai-short-drama-ice-fire-dissection-compass]]'
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[pending_unknown]]'
+  - [[ai-short-drama-ice-fire-dissection-compass]]
+  - [[ai-short-drama-ice-fire-scripting-compass]]
+  - [[pending_unknown]]
 ---
 
 # COMPAS 再犯算法种族偏见

@@ -1,4 +1,5 @@
 ---
+
 id: case-essence-education-strategy
 title: 案例：教育本质与战略本质的提炼
 type: case
@@ -19,14 +20,15 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- '[[yitang-domain-digest]]'
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 案例：教育本质与战略本质的提炼

@@ -1,4 +1,5 @@
 ---
+
 id: framework-strategy-kai-innovation-directions
 title: 凯纳创新方向分类框架
 type: framework
@@ -16,12 +17,12 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-mece体系框架法]]'
-- '[[tool-月白-PPT内容框架AIGC生成法]]'
-- '[[tool-月白-AI设计-质价比-决策框架]]'
-- '[[tool-体系框架构建]]'
-- '[[tool-使用一页纸速查卡快速调用框架]]'
+  - [[strategy-domain-digest]]
+  - [[tool-mece体系框架法]]
+  - [[tool-使用一页纸速查卡快速调用框架]]
+  - [[tool-月白-PPT内容框架AIGC生成法]]
+  - [[tool-体系框架构建]]
+  - [[tool-月白-AI设计-质价比-决策框架]]
 ---
 
 # 凯纳创新方向分类框架

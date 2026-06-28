@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - src_unknown
@@ -19,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-composite-pan-product-methodology]]'
-- '[[yt-model-pan-product-36-strategies]]'
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-composite-pan-product-methodology]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[yt-model-pan-product-aesthetic-toolkit]]
+  - [[yt-model-pan-product-execution-toolkit]]
+  - [[yt-entrepreneur-five-step-method]]
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -42,6 +43,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+
 ---
 
 ## Constraints & Boundaries

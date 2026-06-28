@@ -1,4 +1,5 @@
 ---
+
 id: concept-最佳实践建模
 title: 最佳实践建模：把别人的成功拆成可复制的模型
 type: concept
@@ -14,11 +15,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 最佳实践建模：把别人的成功拆成可复制的模型

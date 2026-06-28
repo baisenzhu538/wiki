@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yitang-strategy-canvas
@@ -47,11 +48,12 @@ diagnostic_signals:
   follow_up_question: 你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？
 author: 老顽童
 related:
-- '[[yt-entrepreneur-opportunity-selection]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-entrepreneur-opportunity-selection]]
+  - [[concept-一堂-product-kernel]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[yt-decision-canvas]]
+  - [[yt-decision-height-toolkit]]
+  - [[case-modeling-essence-levels]]
 ---
 
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线

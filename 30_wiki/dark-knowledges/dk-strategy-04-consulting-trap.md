@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-04-consulting-trap
 title: 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环
 type: dk
@@ -12,12 +13,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[dk-strategy-consulting-jokes]]'
-- '[[dk-strategy-longzhong-four-failures]]'
-- '[[dk-strategy-three-must-do-moments]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[strategy-domain-digest]]'
+  - [[dk-strategy-consulting-jokes]]
+  - [[dk-strategy-longzhong-four-failures]]
+  - [[dk-strategy-three-must-do-moments]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[strategy-domain-digest]]
 ---
 
 # 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环

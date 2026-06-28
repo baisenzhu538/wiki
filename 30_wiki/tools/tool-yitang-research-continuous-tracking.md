@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-continuous-tracking
 title: 持续跟踪：建立动态信息监控机制
 type: tool
@@ -27,11 +28,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 持续跟踪：建立动态信息监控机制

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dk
@@ -13,13 +14,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- '[[sprint-6-cli-gap-proposal]]'
-- '[[yt-model-pan-product-climbing-map]]'
-- '[[smart-medicine-cabinet-clinic-risk-observation]]'
-- '[[tool-clinic-cabinet-legal-contract-guide]]'
-- '[[case-dental-clinic-formula]]'
-- '[[tool-clinic-medical-shortvideo-compliance]]'
-- '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
+  - [[yt-model-pan-product-climbing-map]]
+  - [[tool-clinic-medical-shortvideo-compliance]]
+  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+  - [[sprint-6-cli-gap-proposal]]
+  - [[case-dental-clinic-formula]]
+  - [[tool-clinic-cabinet-legal-contract-guide]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,6 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
+
 ---
 
 ## 原始表述/核心洞察

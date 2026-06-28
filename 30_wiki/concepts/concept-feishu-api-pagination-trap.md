@@ -1,4 +1,5 @@
 ---
+
 id: concept-feishu-api-pagination-trap
 title: 飞书API分页陷阱——静默截断比报错更危险
 type: concept
@@ -19,15 +20,16 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
-- '[[tool-yitang-web-scraping-research]]'
-- '[[dk-yitang-model-asset-capitalization]]'
-- '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
+  - [[yitang-domain-digest]]
+  - [[tool-yitang-web-scraping-research]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
+  - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
 diagnostic_signals:
 - framework_lens: API分页遗漏——fetch_children没有has_more循环
   follow_up_question: 你的提取脚本在调用/blocks API后，检查了resp['data']['has_more']吗？
 updated_at: '2026-06-28'
+
 ---
 
 # 飞书API分页陷阱

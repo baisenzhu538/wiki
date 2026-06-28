@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-sanjieke-benchmark-failure
 title: 案例：对标三节课做C端，半年后发现对方已转型B端
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：对标三节课做C端

@@ -1,4 +1,5 @@
 ---
+
 id: dk-f5-stale-feedback-ref
 title: F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 type: dk
@@ -13,14 +14,21 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- '[[framework-kdo-self-attack]]'
-- '[[kdo-yaml-frontmatter-safety]]'
-- '[[kdo-priority-checklist]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[kdo_product_design_agent_final]]'
-- '[[proposal-kdo-flywheel-infrastructure]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[dk-level-blindspot-external-feedback]]'
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[kdo-protocol]]
+  - [[tool-yitang-feedback-self-check]]
+  - [[modeling-to-kdo-toolchain]]
+  - [[kdo-batch-produce-req014]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[framework-kdo-self-attack]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[kdo-priority-checklist]]
+  - [[kdo_product_design_agent_final]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+  - [[dk-level-blindspot-external-feedback]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,6 +39,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
+
 ---
 
 ## 原始表述/核心洞察

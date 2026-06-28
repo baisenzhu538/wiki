@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - src_unknown
@@ -22,11 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-model-pan-product-aesthetic-toolkit]]'
-- '[[yt-panproduct-aesthetic-modeling]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-aesthetic-toolkit]]
+  - [[yt-panproduct-aesthetic-modeling]]
+  - [[一堂]]
+  - [[yt-model-product-excellence]]
+  - [[yt-model-aesthetic-progression]]
 reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象
@@ -51,6 +52,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 美好作品想象：缺对标就自己想象

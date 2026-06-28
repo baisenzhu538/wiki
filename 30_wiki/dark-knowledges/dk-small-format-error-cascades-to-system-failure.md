@@ -1,4 +1,5 @@
 ---
+
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
@@ -13,11 +14,11 @@ source_context: 第26节master系统暗知识精修中反复出现的模式：YA
 source_refs:
 - src_unknown
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -38,6 +39,7 @@ diagnostic_signals:
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
 updated_at: 2026-06-28
+
 ---
 
 ## 原始表述 / 核心洞察

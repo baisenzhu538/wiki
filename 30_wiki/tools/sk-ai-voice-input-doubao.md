@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
@@ -29,11 +30,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -44,6 +45,7 @@ diagnostic_signals:
   follow_up_question: 能否提供半肥猫/季浩分享中关于“口喷式语音输入”具体步骤的原文，或补充一份实测记录？
 - framework_lens: evidence-gap
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
+
 ---
 
 # 技能：口喷式语音输入法

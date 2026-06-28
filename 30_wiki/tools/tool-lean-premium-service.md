@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-premium-service
 title: 超值服务：用 VIP 服务验证标准服务
 type: tool
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
-- '[[case-lean-electric-scooter-mvp]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-lean-electric-scooter-mvp]]
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 超值服务：用 VIP 服务验证标准服务

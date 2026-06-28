@@ -1,4 +1,5 @@
 ---
+
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
@@ -25,9 +26,11 @@ diagnostic_signals:
 - framework_lens: 失败模式从事故生长
   follow_up_question: 每条失败模式是否有对应的真实案例、症状描述和可执行修复？
 related:
-- '[[EC工业化规范手册]]'
-- '[[dk-f7-surface-translation]]'
-- '[[case-半肥猫-course-to-skill]]'
+  - [[EC工业化规范手册]]
+  - [[dk-f7-surface-translation]]
+  - [[case-半肥猫-course-to-skill]]
+  - [[modeling-capability-for-kdo]]
+  - [[modeling-to-kdo-toolchain]]
 ---
 
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）

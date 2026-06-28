@@ -1,4 +1,5 @@
 ---
+
 id: dk-truman-document-is-real-project-is-fake
 title: 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 type: dk
@@ -12,11 +13,11 @@ source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理�
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -26,6 +27,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
+
 ---
 
 ## 原始表述 / 核心洞察

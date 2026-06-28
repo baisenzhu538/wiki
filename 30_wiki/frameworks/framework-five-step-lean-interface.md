@@ -1,4 +1,5 @@
 ---
+
 id: framework-five-step-lean-interface
 title: 五步法与精益验证的接口
 type: framework
@@ -19,11 +20,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-- '[[framework-lean-false-model]]'
-- '[[yitang-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[framework-lean-false-model]]
+  - [[yitang-domain-digest]]
+  - [[lean-startup-domain-digest]]
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
 ---
 
 # 五步法与精益验证的接口

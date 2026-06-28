@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-without-judgment
 title: AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
 type: dk
@@ -19,11 +20,11 @@ updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -33,6 +34,7 @@ tags:
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
+
 ---
 
 ## 原始表述

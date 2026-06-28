@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-ranpeng-milk-powder
 title: 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断
 type: case
@@ -23,9 +24,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）

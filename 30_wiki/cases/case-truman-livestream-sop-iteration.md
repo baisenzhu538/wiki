@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
@@ -16,12 +17,13 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-- '[[tool-sop-template-modeling]]'
-- '[[yt-decision-y-model-philosophical-roots]]'
-- '[[case-modeling-process-sop-evolution]]'
-- '[[case-livestream-sop-modeling]]'
-- '[[dk-modeling-sop-execution-locks]]'
-- '[[case-zhangyang-anchor-sop-three-locks]]'
+  - [[dk-modeling-sop-execution-locks]]
+  - [[case-zhangyang-anchor-sop-three-locks]]
+  - [[case-livestream-sop-modeling]]
+  - [[tool-sop-template-modeling]]
+  - [[case-modeling-process-sop-evolution]]
+  - [[yt-decision-y-model-philosophical-roots]]
+  - [[case-modeling-process-sop-examples]]
 tags:
 - src_unknown
 - src_unknown
@@ -34,6 +36,7 @@ diagnostic_signals:
 - framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
 updated_at: '2026-06-16'
+
 ---
 
 # Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法

@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
@@ -17,14 +18,21 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
-- '[[dk-strategy-stage-leverage-mismatch]]'
-- '[[yt-model-liberate-thinking-layers]]'
-- '[[case-strategy-failure-04-appliance]]'
-- '[[framework-strategy-pyramid]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[case-strategy-retailer-activity-scope]]'
+  - [[yitang-domain-digest]]
+  - [[tool-strategy-ksf]]
+  - [[case-strategy-practice-11-third-place]]
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[case-strategy-failure-06-phone-n]]
+  - [[case-strategy-m-brand-profit-model]]
+  - [[case-strategy-practice-12-zero-loss]]
+  - [[sk-ai-narrative-test]]
+  - [[concept-smart-medicine-cabinet-platform-cooperation-validation]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[yt-model-liberate-thinking-layers]]
+  - [[case-strategy-failure-04-appliance]]
+  - [[framework-strategy-pyramid]]
+  - [[framework-yitang-channel-exploration-4step]]
+  - [[case-strategy-retailer-activity-scope]]
 ---
 
 # L6需求假设

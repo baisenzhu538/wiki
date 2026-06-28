@@ -1,4 +1,5 @@
 ---
+
 id: yt-barrier-identification-skill
 confidence: 0.85
 created_at: 2026-06-11
@@ -17,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- '[[yt-barrier-analysis-cheat-sheet]]'
-- '[[yt-five-step-method]]'
-- '[[yt-unit-model-three-tools]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-barrier-analysis-cheat-sheet]]
+  - [[yt-five-step-method]]
+  - [[yt-unit-model-three-tools]]
+  - [[case-toy-cabinet-barrier]]
+  - [[case-zhihu-vs-degetao-network-effect]]
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
@@ -50,6 +51,7 @@ diagnostic_signals:
   follow_up_question: 如果你的市场份额明天被对手用补贴抢走30%，用户会跟着补贴走还是留在你这里？他们留下的真实成本是什么？
 updated_at: '2026-06-16'
 author: 老顽童
+
 ---
 
 # 壁垒识别与构建技能：从真假壁垒到护城河建设

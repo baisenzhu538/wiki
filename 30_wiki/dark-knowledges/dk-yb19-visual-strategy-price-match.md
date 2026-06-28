@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb19-visual-strategy-price-match
 title: 餐饮图片视觉策略与价格定位的匹配法则
 type: dk
@@ -16,17 +17,18 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-马易-AI落地场景筛选-四有新人法则]]'
-- '[[tool-月白-价格带视觉策略匹配]]'
-- '[[tool-月白-普通人AI设计80分法则]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[tool-月白-普通人AI设计80分法则]]
+  - [[tool-月白-价格带视觉策略匹配]]
+  - [[tool-马易-AI落地场景筛选-四有新人法则]]
+  - [[pending_unknown]]
 pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
 - src_unknown
 - src_unknown# 餐饮图片视觉策略与价格定位的匹配法则
+
 ---
 
 ## 原始表述/核心洞察

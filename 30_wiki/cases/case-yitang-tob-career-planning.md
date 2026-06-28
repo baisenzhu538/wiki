@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-career-planning
 title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
@@ -28,9 +29,9 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-- '[[yt-tob-revenue-is-customer-cost]]'
-- '[[yt-tob-product-kernel]]'
-- '[[yt-tob-customer-sabc]]'
+  - [[yt-tob-revenue-is-customer-cost]]
+  - [[yt-tob-product-kernel]]
+  - [[yt-tob-customer-sabc]]
 diagnostic_signals:
 - framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
   follow_up_question: 这 100 亿中，有多少来自学校真实预算？可触达的头部学校有多少家？单校专项成本与成本占有率分别是多少？
@@ -38,6 +39,7 @@ diagnostic_signals:
   follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
 - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
   follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
+
 ---
 
 > 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。

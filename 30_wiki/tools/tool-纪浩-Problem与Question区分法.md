@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-Problem与Question区分法
 title: 技能：Problem与Question区分法（纪浩版）
 type: tool
@@ -17,14 +18,19 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[yt-model-scientific-questioning-map]]'
-- '[[yt-model-questioning-practice-canvas]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[dk-ji-hao-problem-vs-question]]'
-- '[[dk-yitang-research-question-quality]]'
-- '[[tool-一堂-kernel-three-questions]]'
-- '[[sk-ai-problem-validation]]'
+  - [[yt-note-problem-solving-capability]]
+  - [[tool-纪浩-problem-validation-four-checks]]
+  - [[tool-ai-problem-question-check]]
+  - [[yt-model-scientific-questioning-map]]
+  - [[yt-model-questioning-practice-canvas]]
+  - [[tool-strategy-nine-problems]]
+  - [[framework-问题边界与Problem澄清五层结构]]
+  - [[dk-yitang-research-question-quality]]
+  - [[case-ji-hao-skill-market-problem-validation]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[dk-ji-hao-problem-vs-question]]
+  - [[tool-一堂-kernel-three-questions]]
+  - [[sk-ai-problem-validation]]
 diagnostic_signals:
 - lens: token浪费
   follow_up: 每次向AI提问前3秒判断：这个问题解决后我的行为会改变吗？会=problem，不会=question
@@ -36,6 +42,7 @@ diagnostic_signals:
   follow_up: 用before/after检验：能不能写出具体的before/after？写不出就是question，不要伪装
 - lens: 验证宽松
   follow_up: 四层验证必须严格：before/after可观察、锚点具体到时间地点、受益人可命名、可解性有因果链
+
 ---
 
 # 技能：Problem与Question区分法

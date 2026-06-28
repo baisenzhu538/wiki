@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-checklist-as-ai-protocol
 title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
@@ -12,14 +13,20 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-- '[[ocr-一堂-ai学习-提问工程化]]'
-- '[[proposal-prompt-injection-infrastructure]]'
-- '[[tool-prompt-jtbd-scenario-coach]]'
-- '[[yt-prompt-brainstorming]]'
-- '[[framework-TCPR底层网络协议]]'
-- '[[tool-马易-成为首位F工程师]]'
-- '[[yt-prompt-engineering-andrew-ng]]'
-- '[[yt-skill-p-role-prompt-design]]'
+  - [[yt-prompt-engineering-andrew-ng]]
+  - [[case-纪浩-focus-prompt-design]]
+  - [[meta-prompt-eng]]
+  - [[tool-prompt-iceberg-demand-analysis]]
+  - [[视觉prompt三层操作系统-srom-visual-os]]
+  - [[ocr-一堂-ai学习-提问工程化]]
+  - [[yt-model-prompt-engineering]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[proposal-prompt-injection-infrastructure]]
+  - [[tool-prompt-jtbd-scenario-coach]]
+  - [[yt-prompt-brainstorming]]
+  - [[framework-TCPR底层网络协议]]
+  - [[tool-马易-成为首位F工程师]]
+  - [[yt-skill-p-role-prompt-design]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,6 +48,7 @@ diagnostic_signals:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+
 ---
 
 # 清单体作为AI的I/O协议——用笔记替代prompt工程

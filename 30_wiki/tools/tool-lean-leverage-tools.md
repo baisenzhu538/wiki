@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-tools
 title: 借搭建工具：用现成系统跑业务流
 type: tool
@@ -16,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
-- '[[case-lean-electric-scooter-mvp]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[case-lean-electric-scooter-mvp]]
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 借搭建工具：用现成系统跑业务流

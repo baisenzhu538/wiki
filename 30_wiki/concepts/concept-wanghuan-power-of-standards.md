@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-power-of-standards
 title: 王欢：标准的力量——质量乘数
 type: concept
@@ -28,11 +29,11 @@ diagnostic_signals:
 - lens: 约束缺失
   follow_up: 在 BTICOE 的 C（约束）中补充至少 3 条“不能碰”的红线
 related:
-- '[[dk-wanghuan-magic-defeats-magic]]'
-- '[[dk-wanghuan-spec-trap]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[dk-wanghuan-spec-trap]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -40,6 +41,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 # 王欢：标准的力量——质量乘数

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-field-research
 title: 实地调研/蹲店：蹲店·谈话·数人头三板斧
 type: tool
@@ -30,11 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/调研手段卡1（门店）_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧

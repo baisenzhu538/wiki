@@ -1,4 +1,5 @@
 ---
+
 id: tool-checklist-cheatsheet-modeling
 title: 清单/小抄建模法：把经验变成可执行的检查点
 type: tool
@@ -19,14 +20,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-- '[[dk-modeling-sop-execution-locks]]'
-- '[[轻量级诊所HIS调研全清单]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[ocr-一堂-科学决策-稀缺资源清单]]'
-- '[[ocr-一堂-科学决策-关键训练清单重要]]'
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-- '[[tool-制作行业化要素检查清单]]'
+  - [[dk-modeling-sop-execution-locks]]
+  - [[tool-制作行业化要素检查清单]]
+  - [[tool-月白-供应商信息对齐清单法]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[tool-稀缺资源清单]]
+  - [[tool-清单式笔记法]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[tool-清单小抄工具箱法]]
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-关键训练清单重要]]
+  - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
 tags:
 - src_unknown
 - src_unknown
@@ -43,6 +49,7 @@ diagnostic_signals:
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
 - framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
+
 ---
 
 # 清单/小抄建模法：把经验变成可执行的检查点

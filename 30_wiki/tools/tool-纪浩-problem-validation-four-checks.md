@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-problem-validation-four-checks
 title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: tool
@@ -13,14 +14,17 @@ source_refs:
 created_at: '2026-06-09'
 updated_at: '2026-06-28'
 related:
-- '[[case-ji-hao-skill-market-problem-validation]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[dk-ji-hao-problem-vs-question]]'
-- '[[sk-ai-problem-validation]]'
-- '[[tool-strategy-nine-problems]]'
-- '[[tool-ai-problem-question-check]]'
-- '[[tool-纪浩-Problem与Question区分法]]'
-- '[[tool-ai-problem-validation]]'
+  - [[yt-note-problem-solving-capability]]
+  - [[tool-ai-problem-question-check]]
+  - [[tool-纪浩-Problem与Question区分法]]
+  - [[tool-strategy-nine-problems]]
+  - [[framework-问题边界与Problem澄清五层结构]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[sk-ai-problem-validation]]
+  - [[yt-skill-storyline-problem-solving]]
+  - [[case-ji-hao-skill-market-problem-validation]]
+  - [[dk-ji-hao-problem-vs-question]]
+  - [[tool-ai-problem-validation]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -51,6 +55,7 @@ diagnostic_signals:
   follow_up: 每达到一个里程碑回顾四问，Problem定义随信息增加而演化
 - lens: 强制性任务
   follow_up: 四问对强制需求可能走过场，改问：如果可以选择不做，这个需求还值得做吗？
+
 ---
 
 # 技能：四问验证法

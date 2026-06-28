@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-snack-export-opportunity
 title: 国产零食出口220国：新区域机会的诱惑与风险预估
 type: case
@@ -14,9 +15,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 **案例**：国产零食已借助跨境电商与海外渠道网络进入 220 个国家和地区，美、英、澳、德为最受欢迎市场。数据来自亿邦动力。

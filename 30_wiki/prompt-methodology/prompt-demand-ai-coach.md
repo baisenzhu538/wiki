@@ -1,4 +1,5 @@
 ---
+
 id: prompt-demand-ai-coach
 title: AI需求分析教练：冰山六层全流程推演提示词
 type: prompt-methodology
@@ -17,8 +18,8 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-寻找学习教练法]]'
+  - [[yitang-domain-digest]]
+  - [[tool-寻找学习教练法]]
 ---
 
 # AI需求分析教练提示词

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p17-accuracy-gap
 title: P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度
 type: dk
@@ -13,14 +14,17 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- '[[ouyangfeng-labeling-research-review]]'
-- '[[data-labeling-best-practices-report]]'
-- '[[ocr-项目背景问题思考的8个维度]]'
-- '[[dk-ai-social-progress-not-automatic]]'
-- '[[kdo-15-dimension-label-spec]]'
-- '[[dk-c7-auto-backup-conflict]]'
-- '[[labeling-final-consolidation]]'
-- '[[label-accuracy-standard-alignment]]'
+  - [[labeling-final-consolidation]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[data-labeling-best-practices-report]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[tool-demand-agent-auto-verify]]
+  - [[labeling-research-alignment]]
+  - [[ocr-项目背景问题思考的8个维度]]
+  - [[gold-standard-manual-labels]]
+  - [[ouyangfeng-labeling-research-review]]
+  - [[dk-c7-auto-backup-conflict]]
+  - [[label-accuracy-standard-alignment]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +36,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
+
 ---
 
 ## 原始表述/核心洞察

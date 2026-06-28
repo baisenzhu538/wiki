@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[yt-lean-beauty-store-conversion]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-lean-beauty-store-conversion]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 - [[yt-lean-beauty-store-conversion]]

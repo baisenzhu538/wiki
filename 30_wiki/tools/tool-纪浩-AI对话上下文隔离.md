@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-纪浩-AI工作空间与导诊台设计法]]
+  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+  - [[ai-collaboration-mindset-shift]]
+  - [[case-ji-hao-skill-market-problem-validation]]
+  - [[pending_unknown]]
 ---
 
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-revival-14-gucci
 title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代
 type: case
@@ -11,12 +12,18 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
+  - [[strategy-domain-digest]]
+  - [[tool-从案例中学习]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
 ---
 
 **背景**：CEO Bizzarri 2015年就任，收入€39亿

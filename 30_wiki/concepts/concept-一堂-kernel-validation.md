@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
@@ -14,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- '[[concept-一堂-kernel-iteration]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[yitang-domain-digest]]'
+  - [[concept-一堂-key-assumptions]]
+  - [[concept-一堂-kernel-iteration]]
+  - [[concept-一堂-product-kernel]]
+  - [[case-一堂-无人餐厅-hypothesis-failure]]
+  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+  - [[concept-一堂-hypothesis-driven-business-methodology]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -30,6 +31,7 @@ pipeline:
 author: 老顽童
 confidence: 0.7
 trust_level: medium# 产品内核验证：三维度评估 + 六策略验证
+
 ---
 
 > **产品内核验证的本质：在投入实质性资源之前，用最小成本确认你的内核假设是否正确。**

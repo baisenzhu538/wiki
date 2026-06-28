@@ -1,4 +1,5 @@
 ---
+
 id: case-treadmill-demand-analysis
 title: 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 type: case
@@ -16,11 +17,11 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-- '[[case-shampoo-product-kernel]]'
-- '[[case-unit-model-gashapon]]'
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-product-kernel-cultivation]]'
-- '[[yitang-domain-digest]]'
+  - [[yt-foresight-15-char-mantra]]
+  - [[case-shampoo-product-kernel]]
+  - [[yt-product-kernel-cultivation]]
+  - [[case-unit-model-gashapon]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 pipeline:
@@ -30,6 +31,7 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
+
 ---
 
 > 黄药师骨架 · 老顽童填内容

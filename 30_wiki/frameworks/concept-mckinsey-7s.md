@@ -1,4 +1,5 @@
 ---
+
 id: concept-mckinsey-7s
 title: 7-S Framework：组织诊断的七维模型
 type: framework
@@ -28,11 +29,14 @@ diagnostic_signals:
 - framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
   follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
 related:
-- '[[yt-model-entrepreneur-map]]'
-- '[[yt-management-toolkit-overview]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-entrepreneur-map]]
+  - [[yt-management-toolkit-overview]]
+  - [[yt-tool-hiring-scorecard]]
+  - [[yt-tool-okr-cycle]]
+  - [[case-yitang-weekly-modeling-engine]]
+  - [[concept-mckinsey-mece]]
+  - [[concept-mckinsey-issue-tree]]
+  - [[concept-mckinsey-hypothesis-driven]]
 tags:
 - src_unknown
 - src_unknown
@@ -45,6 +49,7 @@ author: 老顽童
 reviewed_by: laowantong
 confidence: 0.8
 trust_level: medium
+
 ---
 
 # 7-S Framework：组织诊断的七维模型

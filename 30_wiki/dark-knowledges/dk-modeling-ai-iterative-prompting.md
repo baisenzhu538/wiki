@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
@@ -26,15 +27,16 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 
 ## 原始表述 / 核心洞察

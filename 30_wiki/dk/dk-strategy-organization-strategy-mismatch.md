@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
@@ -12,12 +13,12 @@ domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-- '[[case-strategy-failure-05-it]]'
-- '[[case-strategy-failure-06-phone-n]]'
-- '[[case-strategy-failure-07-phone-l]]'
-- '[[case-strategy-failure-08-video]]'
-- '[[case-strategy-failure-09-boeing]]'
-- '[[strategy-domain-digest]]'
+  - [[case-strategy-failure-05-it]]
+  - [[case-strategy-failure-06-phone-n]]
+  - [[case-strategy-failure-07-phone-l]]
+  - [[case-strategy-failure-08-video]]
+  - [[case-strategy-failure-09-boeing]]
+  - [[strategy-domain-digest]]
 ---
 
 # 组织能力与战略方向不匹配

@@ -1,4 +1,5 @@
 ---
+
 id: EC工业化规范手册
 created_at: 2026-05-03
 domain: healthcare
@@ -15,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- '[[ec工业化规范手册-v2.8.0]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ec工业化规范手册-v2.8.0]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # EC工业化规范手册

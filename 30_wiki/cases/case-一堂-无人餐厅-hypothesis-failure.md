@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-无人餐厅-hypothesis-failure
 title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
@@ -16,9 +17,9 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-- '[[concept-一堂-key-assumptions]]'
-- '[[yt-lean-assumption-verification-3means]]'
-- '[[yitang-domain-digest]]'
+  - [[concept-一堂-key-assumptions]]
+  - [[yt-lean-assumption-verification-3means]]
+  - [[yitang-domain-digest]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -37,6 +38,7 @@ author: 老顽童
 reviewed_by: 黄药师
 confidence: 0.75
 trust_level: medium
+
 ---
 
 ## 原始表述

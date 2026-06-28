@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
@@ -11,12 +12,20 @@ source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
 - src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
-- '[[tool-Truman-AI能力分层学习路径]]'
-- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[sk-ai-prd-for-ai]]'
-- '[[tool-Truman-判断力产品化与系统赋能]]'
-- '[[case-truman-poker-deck-roi]]'
-- '[[tool-Truman-AI辅助思考伙伴养成]]'
+  - [[tool-Truman-提示词优化底层方法]]
+  - [[tool-Truman-Skill全生命周期管理]]
+  - [[yt-model-truman-career-routes]]
+  - [[tool-ai-prd-for-ai]]
+  - [[prd-as-ai-instruction]]
+  - [[tool-Truman-人在环渐进自动化策略]]
+  - [[ocr-truman的选择两条职业成长路线]]
+  - [[tool-Truman-双三角模型应用]]
+  - [[tool-Truman-AI能力分层学习路径]]
+  - [[tool-Truman-信息输入持续补全（防AI错误累积）]]
+  - [[sk-ai-prd-for-ai]]
+  - [[tool-Truman-判断力产品化与系统赋能]]
+  - [[case-truman-poker-deck-roi]]
+  - [[tool-Truman-AI辅助思考伙伴养成]]
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -32,6 +41,7 @@ diagnostic_signals:
   follow_up_question: 最近5次评审/反馈中有多少条没有被清单收录？未收录的原因是什么？
 - framework_lens: 清单结构失效——缺少触发场景或执行顺序
   follow_up_question: 清单是否按"输入-处理-输出"或评审阶段组织？每个检查项是否有明确的"何时检查"触发条件？
+
 ---
 
 # Truman的PRD清单进化

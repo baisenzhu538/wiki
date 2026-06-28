@@ -1,4 +1,5 @@
 ---
+
 id: case-zhanglei-furniture-overseas-market-selection
 title: 案例：张磊——洗衣液蹲超市+假扮促销员
 type: case
@@ -16,10 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：洗衣液市场调研——蹲超市+假扮促销员

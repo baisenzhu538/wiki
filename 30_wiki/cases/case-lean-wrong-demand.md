@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-wrong-demand
 title: 需求找错案例集
 type: case
@@ -22,9 +23,9 @@ source_refs:
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
 ---
 
 # 需求找错案例集

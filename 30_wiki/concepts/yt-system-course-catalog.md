@@ -1,4 +1,5 @@
 ---
+
 id: yt-system-course-catalog
 title: 一堂全课程目录索引
 type: concept
@@ -35,11 +36,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- '[[yt-system-course-map-lecture]]'
-- '[[一堂]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[一堂]]
+  - [[yt-system-course-map-lecture]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 一堂全课程目录索引

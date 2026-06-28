@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
@@ -17,11 +18,11 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Agent L5信号提取

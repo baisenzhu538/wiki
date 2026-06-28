@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dk
@@ -14,14 +15,19 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-- '[[yitang-domain-digest]]'
-- '[[ocr-一堂-单元模型-单用户模型]]'
-- '[[concept-最简单元模型]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
-- '[[ocr-一堂-人机协作-双三角模型]]'
-- '[[tool-模型组合调用]]'
-- '[[ocr-一堂-单元模型-对抗小抄01]]'
-- '[[ocr-一堂-单元模型-段位专家]]'
+  - [[yitang-domain-digest]]
+  - [[ocr-一堂y模型steps策略集]]
+  - [[tool-月白-AI模型选择策略]]
+  - [[dk-单元模型-找单元模型实操难点]]
+  - [[ocr-一堂y模型-科学成事道理]]
+  - [[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]
+  - [[ocr-一堂-单元模型-段位专家]]
+  - [[ocr-一堂-单元模型-单用户模型]]
+  - [[concept-最简单元模型]]
+  - [[ocr-一堂-单元模型-对抗小抄02]]
+  - [[ocr-一堂-人机协作-双三角模型]]
+  - [[tool-模型组合调用]]
+  - [[ocr-一堂-单元模型-对抗小抄01]]
 tags:
 - src_unknown
 - src_unknown
@@ -31,6 +37,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
+
 ---
 
 ## diagnostic_signals

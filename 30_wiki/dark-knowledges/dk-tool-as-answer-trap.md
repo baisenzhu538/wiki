@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-as-answer-trap
 title: 把工具/框架当成答案，而不是提问的脚手架
 type: dk
@@ -16,11 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 related:
-- '[[dk-tool-as-phased-validator]]'
-- '[[yitang-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[dk-tool-as-phased-validator]]
+  - [[yitang-domain-digest]]
+  - [[lean-startup-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 答案压迫提问
   follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？# 把工具/框架当成答案，而不是提问的脚手架
+
 ---
 
 ## 原始表述 / 核心洞察

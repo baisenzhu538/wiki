@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-retailer-activity-scope
 title: 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐
 type: case
@@ -12,11 +13,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-三层目标对齐法]]'
-- '[[tool-Truman-语义对齐沟通法]]'
-- '[[tool-人生红点战略对齐]]'
-- '[[tool-月白-供应商信息对齐清单法]]'
+  - [[strategy-domain-digest]]
+  - [[tool-月白-供应商信息对齐清单法]]
+  - [[tool-人生红点战略对齐]]
+  - [[tool-Truman-语义对齐沟通法]]
+  - [[tool-三层目标对齐法]]
 ---
 
 **对比矩阵**：

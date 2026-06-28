@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-livestream-roles
 title: 流程建模案例：直播开播团队分工与检查清单
 type: case
@@ -26,12 +27,19 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: high
 related:
-- '[[tool-纪浩-案例池构建法]]'
-- '[[case-科学决策-ROI案例03]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
-- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
+  - [[tool-从案例中学习]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[case-科学决策-深度案例06]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[case-科学决策-深度案例02]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[case-科学决策-ROI案例03]]
+  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
+  - [[ocr-一堂-科学决策-深度-l4-案例01]]
 diagnostic_signals:
 - framework_lens: 流程建模中的角色分工
   follow_up_question: 这个环节的 owner 是谁？他有没有明确的交付物和检查标准？
@@ -41,6 +49,7 @@ diagnostic_signals:
   follow_up_question: 这些看似非技术的环节有没有被分配到具体角色并设置触发时间？
 - framework_lens: RACI / 专人专事
   follow_up_question: 这个任务的 R（执行）和 A（负责）是否为同一个人？检查权是否也归他？
+
 ---
 
 # 流程建模案例：直播开播团队分工与检查清单

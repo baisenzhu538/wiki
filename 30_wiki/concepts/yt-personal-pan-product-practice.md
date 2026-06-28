@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-practice
 component_of:
 - src_unknown
@@ -17,11 +18,11 @@ query_triggers:
 - src_unknown实操篇：需求分析与用户洞察
 - src_unknown
 related:
-- '[[yt-model-pan-product-demand-toolkit]]'
-- '[[yt-personal-pan-product-concepts]]'
-- '[[一堂]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yt-model-pan-product-demand-toolkit]]
+  - [[yt-personal-pan-product-concepts]]
+  - [[一堂]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6241b565-个人修身-泛产品设计实操
@@ -47,6 +48,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

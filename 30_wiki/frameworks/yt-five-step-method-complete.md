@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-five-step-method-complete
@@ -17,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[tool-单元模型-壁垒预判]]'
-- '[[ocr-一堂-单元模型-壁垒预判]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ocr-一堂-单元模型-壁垒预判]]
+  - [[tool-单元模型-壁垒预判]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
   follow_up_question: 你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？
@@ -33,6 +34,7 @@ diagnostic_signals:
   follow_up_question: 壁垒建设后，是否回到第一步寻找新的需求？五步法是一个循环。
 - framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
   follow_up_question: 你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。
+
 ---
 
 # 五步法完整地图：从需求到壁垒

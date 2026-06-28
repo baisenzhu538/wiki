@@ -1,4 +1,5 @@
 ---
+
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -36,12 +37,19 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
-- '[[tool-月白-设计文件八要素命名法]]'
-- '[[tool-月白-设计项目MVP拆解法]]'
-- '[[tool-纪浩-案例池构建法]]'
-- '[[ocr-泛产品设计-落地卡片-roi分析]]'
-- '[[case-科学决策-ROI案例03]]'
+  - [[ocr-泛产品设计-用户卡片-场景推演]]
+  - [[tool-月白-AI设计底层逻辑：从设计到作图到改图]]
+  - [[ocr-泛产品设计-落地卡片-攻坚会]]
+  - [[tool-月白-口述作图法（口喷设计）]]
+  - [[tool-月白-设计能力蒸馏封装法]]
+  - [[tool-月白-AIGC设计作业复盘法]]
+  - [[tool-月白-AI设计反馈萃取法]]
+  - [[ocr-泛产品设计落地篇]]
+  - [[tool-月白-设计文件八要素命名法]]
+  - [[tool-月白-设计项目MVP拆解法]]
+  - [[tool-纪浩-案例池构建法]]
+  - [[ocr-泛产品设计-落地卡片-roi分析]]
+  - [[case-科学决策-ROI案例03]]
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
@@ -57,6 +65,7 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入
     schema/data contract gate？
+
 ---
 
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接

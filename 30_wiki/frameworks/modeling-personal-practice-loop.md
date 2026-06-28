@@ -1,4 +1,5 @@
 ---
+
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
@@ -17,14 +18,18 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- '[[ocr-一堂-个人修炼-解放思想]]'
-- '[[tool-提问刻意练习画布]]'
-- '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
-- '[[dk-ji-hao-pdca-starts-from-do]]'
-- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
-- '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
-- '[[yt-model-ipo-complete-checklist]]'
-- '[[ocr-一堂刻意练习十年成长指数]]'
+  - [[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]
+  - [[dk-ji-hao-pdca-starts-from-do]]
+  - [[ocr-一堂-个人修炼-双三角模型]]
+  - [[ocr-一堂刻意练习十年成长指数]]
+  - [[ocr-一堂-个人修炼-科学提问刻意练习]]
+  - [[tool-李诞-销售闭环验证：从0到1的重新定义]]
+  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
+  - [[ocr-一堂-个人修炼-提问刻意练习画布]]
+  - [[ocr-一堂-个人修炼-解放思想]]
+  - [[tool-提问刻意练习画布]]
+  - [[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]
+  - [[yt-model-ipo-complete-checklist]]
 tags:
 - src_unknown
 - src_unknown
@@ -34,6 +39,7 @@ source_context: 单一来源为一堂建模能力培训课程口述稿，内容�
 diagnostic_signals:
 - src_unknown
 - src_unknown
+
 ---
 
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA

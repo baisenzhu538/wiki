@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
@@ -12,11 +13,15 @@ domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-- '[[framework-lean-false-model]]'
-- '[[case-gym-membership-formula]]'
-- '[[case-saas-renewal-formula]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[strategy-domain-digest]]'
+  - [[case-gym-membership-formula]]
+  - [[case-saas-renewal-formula]]
+  - [[framework-lean-false-model]]
+  - [[yt-business-formula-abc-model]]
+  - [[yt-business-formula-parameter-iceberg]]
+  - [[framework-strategy-brm]]
+  - [[case-dental-clinic-formula]]
+  - [[case-private-domain-ecommerce-formula]]
+  - [[strategy-domain-digest]]
 ---
 
 # 相关指标 vs 因果抓手

@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[concept-一堂-key-assumptions]]'
-- '[[tool-一堂-five-step-validation]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[concept-一堂-key-assumptions]]
+  - [[tool-一堂-five-step-validation]]
+  - [[case-一堂-无人餐厅-hypothesis-failure]]
+  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+  - [[pending_unknown]]
 ---
 
 # 技能：假设验证三板斧

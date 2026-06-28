@@ -1,4 +1,5 @@
 ---
+
 id: case-科学决策-L4案例01
 title: 案例：1万个投放线索的严格财务公式分析（乐观口径）
 type: case
@@ -15,10 +16,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L4-案例01_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-l4-案例01.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
 updated_at: 2026-06-28
+
 ---
 
 # 案例：1 万个投放线索的严格财务公式分析（乐观口径）

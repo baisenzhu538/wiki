@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-counterexample-driven
 title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 type: dk
@@ -19,11 +20,11 @@ updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -32,6 +33,7 @@ tags:
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
+
 ---
 
 ## 原始表述

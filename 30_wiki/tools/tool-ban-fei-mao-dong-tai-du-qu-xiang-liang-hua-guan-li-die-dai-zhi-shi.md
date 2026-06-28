@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 title: 技能：动态读取 + 向量化管理迭代知识
 type: tool
@@ -18,17 +19,18 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
+
 ---
 
 # 技能：动态读取 + 向量化管理迭代知识

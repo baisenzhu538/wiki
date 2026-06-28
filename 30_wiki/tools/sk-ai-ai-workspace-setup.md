@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
@@ -29,11 +30,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-- '[[tool-马易-销售智能体体系搭建路径]]'
-- '[[tool-提示词结构化迭代]]'
-- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
-- '[[tool-敏捷发布快速迭代搭建体系]]'
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-纪浩-Agent技能市场设计法]]
+  - [[tool-马易-销售智能体体系搭建路径]]
+  - [[tool-纪浩-AI工作空间与导诊台设计法]]
+  - [[tool-提示词结构化迭代]]
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -46,6 +47,7 @@ diagnostic_signals:
   follow_up_question: 是否已有一份独立的系统自述 + 领域知识库，能在新任务开始时直接加载给 AI？
 - framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
+
 ---
 
 # 技能：结构化AI工作空间搭建

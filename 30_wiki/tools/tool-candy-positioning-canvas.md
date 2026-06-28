@@ -1,4 +1,5 @@
 ---
+
 id: tool-candy-positioning-canvas
 title: Candy差异化定位画布：回答"这篇东西凭什么存在"
 type: tool
@@ -16,12 +17,12 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-candy-oral-polish]]'
-- '[[framework-candy-transcript-workflow]]'
-- '[[tool-马易-知识库-回答技巧双建设]]'
-- '[[concept-candy-ai-as-collaborator]]'
-- '[[case-candy-problem-os-vpn]]'
+  - [[yitang-domain-digest]]
+  - [[framework-candy-transcript-workflow]]
+  - [[tool-马易-知识库-回答技巧双建设]]
+  - [[concept-candy-ai-as-collaborator]]
+  - [[case-candy-problem-os-vpn]]
+  - [[tool-candy-oral-polish]]
 ---
 
 # 差异化定位画布

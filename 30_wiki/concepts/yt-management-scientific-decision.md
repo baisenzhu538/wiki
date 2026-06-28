@@ -1,4 +1,5 @@
 ---
+
 title: Y模型/科学决策
 type: concept
 domain:
@@ -25,11 +26,11 @@ source_refs:
 - src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
 related:
-- '[[一堂方法论体系总图]]'
-- '[[yitang-course-map]]'
-- '[[yt-system-course-catalog]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[一堂方法论体系总图]]
+  - [[yitang-course-map]]
+  - [[yt-system-course-catalog]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # Y模型/科学决策

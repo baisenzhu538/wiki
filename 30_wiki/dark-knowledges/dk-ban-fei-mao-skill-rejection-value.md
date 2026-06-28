@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-skill-rejection-value
 title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dk
@@ -15,13 +16,13 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
-- '[[dk-wanghuan-spec-trap]]'
-- '[[dk-wanghuan-agent-platform-director-mode]]'
-- '[[dk-ai-judgment-human-responsibility]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yt-five-step-method]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
+  - [[dk-wanghuan-spec-trap]]
+  - [[dk-wanghuan-agent-platform-director-mode]]
+  - [[dk-ai-judgment-human-responsibility]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -42,6 +43,7 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
+
 ---
 
 - src_unknown

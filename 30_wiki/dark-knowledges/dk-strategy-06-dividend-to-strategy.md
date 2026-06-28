@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-06-dividend-to-strategy
 title: 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利
 type: dk
@@ -12,12 +13,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-- '[[dk-strategy-03-advantage-temporary]]'
-- '[[dk-strategy-three-must-do-moments]]'
-- '[[dk-strategy-essence-four-elements]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[strategy-domain-digest]]'
+  - [[dk-strategy-03-advantage-temporary]]
+  - [[dk-strategy-three-must-do-moments]]
+  - [[dk-strategy-essence-four-elements]]
+  - [[yt-five-step-method]]
+  - [[dk-tool-as-phased-validator]]
+  - [[strategy-domain-digest]]
 ---
 
 # 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利

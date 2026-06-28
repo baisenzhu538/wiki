@@ -1,4 +1,5 @@
 ---
+
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dk
@@ -13,14 +14,19 @@ source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同�
 source_refs:
 - src_unknown
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[轻量级诊所HIS调研全清单]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[ocr-一堂-科学决策-稀缺资源清单]]'
-- '[[ocr-一堂-科学决策-关键训练清单重要]]'
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
-- '[[tool-制作行业化要素检查清单]]'
+  - [[ai-collaboration-domain-digest]]
+  - [[tool-制作行业化要素检查清单]]
+  - [[tool-月白-供应商信息对齐清单法]]
+  - [[ocr-一堂-案例拆解-课程清单]]
+  - [[tool-稀缺资源清单]]
+  - [[tool-清单式笔记法]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[tool-清单小抄工具箱法]]
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-关键训练清单重要]]
+  - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -41,6 +47,7 @@ diagnostic_signals:
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
 updated_at: 2026-06-28
+
 ---
 
 ## 原始表述 / 核心洞察

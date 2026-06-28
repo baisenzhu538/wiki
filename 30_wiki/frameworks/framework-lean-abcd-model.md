@@ -1,4 +1,5 @@
 ---
+
 id: framework-lean-abcd-model
 title: 关键假设 ABCD 模型
 type: framework
@@ -17,11 +18,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_vlm_desc.md
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 related:
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 关键假设 ABCD 模型

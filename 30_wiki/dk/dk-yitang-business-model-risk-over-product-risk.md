@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-model-risk-over-product-risk
 title: 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 type: dk
@@ -12,12 +13,12 @@ domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-- '[[case-lean-electric-scooter-mvp]]'
-- '[[case-lean-premature-expansion]]'
-- '[[case-lean-wrong-demand]]'
-- '[[case-lean-zhanglei-pivot-decision]]'
-- '[[case-smart-medicine-cabinet-business-model-validation]]'
-- '[[yitang-domain-digest]]'
+  - [[case-lean-electric-scooter-mvp]]
+  - [[case-lean-premature-expansion]]
+  - [[case-smart-medicine-cabinet-business-model-validation]]
+  - [[case-lean-wrong-demand]]
+  - [[case-lean-zhanglei-pivot-decision]]
+  - [[yitang-domain-digest]]
 ---
 
 # 商业模式风险高于产品风险：别在模式没跑通前做完美产品

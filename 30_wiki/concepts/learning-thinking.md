@@ -1,4 +1,5 @@
 ---
+
 id: learning-thinking
 created_at: 2026-05-21
 domain:
@@ -16,14 +17,16 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- '[[yt-model-liberate-thinking-layers]]'
-- '[[master-systems-thinking]]'
-- '[[yt-panproduct-execution-liberate-thinking]]'
-- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
-- '[[yt-tool-best-practice-learning]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-personal-thinking-models]]'
-- '[[yt-personal-ai-thinking-card]]'
+  - [[yt-model-liberate-thinking-layers]]
+  - [[yt-tool-best-practice-learning]]
+  - [[yt-personal-ai-thinking-card]]
+  - [[yt-personal-thinking-models]]
+  - [[ai-learning-closed-loop]]
+  - [[master-systems-thinking]]
+  - [[yt-personal-ipo-learning]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[yt-panproduct-execution-liberate-thinking]]
+  - [[dk-yi-tang-wishful-thinking-kills-startups]]
 ---
 
 # Learning Thinking

@@ -1,10 +1,11 @@
 ---
+
 related:
-- '[[tool-一堂-spectrum-positioning]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[tool-一堂-spectrum-positioning]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 技能：商业预判15字诀

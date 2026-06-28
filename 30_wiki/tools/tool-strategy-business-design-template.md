@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-business-design-template
 title: 业务单元业务设计模板
 type: tool
@@ -16,11 +17,11 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-按图索骥改良外部模板]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+  - [[strategy-domain-digest]]
+  - [[tool-按图索骥改良外部模板]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # 业务单元业务设计模板
