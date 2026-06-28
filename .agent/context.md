@@ -8,7 +8,7 @@ blockers:
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
   - "✅ B3 孤岛卡片补链 reviewed（2026-06-28）：1042 张处理、孤岛卡片清零；2014 YAML引号修复 + 163 bare id加括号 + 119 句子删除 + 33张孤岛补真实wikilink + pending_unknown.md移到system/；lint 140 ERROR全为历史遗留无新增；pre-submit抽检5/5 PASS；55张仍全pending为已知限制"
   - "✅ Wave 6 诊断通过（2026-06-28）：欧阳锋终审确认决策科学域 14 reviewed + 需求分析域 10-20 reviewed，盲区识别合理；#21 决策科学域系统化、#22 需求分析域深化可入队生产；决策科学 index 改为升级现有 `decision-science-domain-digest` 而非新建"
-  - "🆕 人员调整（2026-06-28）：WorkBuddy 老顽童积分用完，后续 Wave 6 生产任务由 Hermes 老顽童承接；#21/#22 状态均更新为 claimed-hermes"
+  - "✅ Wave 6 生产完成（2026-06-28）：#21 Wave 6-A 决策科学域系统化 reviewed（升级 digest + 4 张新卡），#22 Wave 6-B 需求分析域深化 reviewed（5 张新卡）；10 张新卡无新增 lint ERROR；历史遗留 140 ERROR 为 8 空 source_refs + 132 case section 缺失"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
