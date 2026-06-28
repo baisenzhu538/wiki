@@ -87,9 +87,7 @@ diagnostic_signals:
 5. **手动更新 status**：三步编译完成后，手动将 frontmatter 的 `status` 改为 `enriched`，并验证 `kdo self-check` 通过
 6. **审计自定义 extractor**：如果复制了 `extractors.py` 的 regex 逻辑，替换 `\b` 为 CJK-aware 边界或改用分词器
 
-## Constraints & Boundaries
-
-### 适用边界
+## 适用边界
 
 | 边界 | 说明 |
 |:-----|:------|

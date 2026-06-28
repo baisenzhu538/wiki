@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：欧阳锋完成 wave3 14 张卡终审并解锁 wave4 + 第八批 dk 清零；wave4 由 Hermes 老顽童负责；第八批 dk 清零由 WorkBuddy 老顽童负责 pending_review；队列锁已上线"
+active_task: "综合安排（2026-06-28）：欧阳锋完成 wave3 + 渠道增长域 case section 标准化终审；wave4 由 Hermes 老顽童负责；第八批 dk 清零由 WorkBuddy 老顽童负责 pending_review；Kimi 老顽童临时实例任务全部完成，可关闭；队列锁已上线"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -11,12 +11,12 @@ blockers:
   - "✅ 欧阳锋完成渠道增长域 25 张卡终审（2026-06-28）：25/25 通过；已知遗留清理已全部完成：13 张 case 卡 section 标准化 + 1 张 dk 目录/section 调整 + 1 张 concept 目录移动，2026-06-28 全部验收通过，11/11 文件 lint 0 ERROR"
   - "✅ 欧阳锋完成兰毅泛产品组织化 12 张卡终审（2026-06-28）：12/12 通过，`kdo pre-submit` 全量通过，4 张 P0 卡自攻击报告 status: fixed；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；审查中修复 3 张 case 卡 section 标题（关键证据/可迁移场景/教训/失败模式）、5 个文件目录移动（dk→dark-knowledges/，concept→concepts/，3 个 framework 从 concepts/→frameworks/）；全库 lint ERROR 从 618 降至 557"
   - "🆕 王语嫣已写渠道增长域遗留问题清理任务单（2026-06-28）：`60_feedback/tasks/task_20260628_wangyuyan-cleanup-channel-growth-residuals.md`，含 13 张 case section 标准化 + dk/concept 目录对齐；已入 `production-queue.md` 队列第 10 项，状态 queued，P2 优先级；已分配给黄药师执行"
-  - "🆕 人员调整更新（2026-06-28）：Kimi 老顽童临时实例不关闭，已完成兰毅泛产品组织化任务 + 渠道增长域 10 张 case + 1 张 dk section 标准化；Hermes 老顽童已领取 wave4（P2 清理）；WorkBuddy 老顽童 wave3 已完成并 pending_review，继续第八批 dk 清零；黄药师已完成渠道增长域遗留清理"
+  - "🆕 人员调整更新（2026-06-28）：Kimi 老顽童临时实例已完成全部任务（兰毅泛产品组织化 12 张卡 + 渠道增长域 25 张卡 + 刻意练习域 11 张卡 + 跨域桥接卡 + 10 张 case + 1 张 dk section 标准化），可关闭；Hermes 老顽童已领取 wave4（P2 清理）；WorkBuddy 老顽童负责第八批 dk 清零 pending_review；黄药师已完成渠道增长域遗留清理"
   - "✅ 欧阳锋完成 wave3 终审（2026-06-28）：14/14 张卡通过，`kdo pre-submit` 14/14 通过，`kdo lint` 无新增 ERROR；审查中清理 14 张卡 frontmatter 中 domain/related/tags 的 src_unknown 占位，并移动 3 个 framework 卡从 concepts/ 到 frameworks/；全库 lint ERROR 降至 533；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已解锁 wave4 正式生产和第八批 dk 清零终审"
   - "🆕 第八批 dk 清零待欧阳锋终审（2026-06-28）：WorkBuddy 老顽童完成 10 张 dk 卡 section 补齐，pre-submit 10/10 通过，dark-knowledges 目录 lint ERROR 归零，状态 pending_review"
-  - "✅ Kimi 老顽童完成渠道增长域 case section 标准化（2026-06-28）：10 张剩余 case 卡 + 1 张 dk 卡 section 已对齐 lint 新标准；`kdo pre-submit` 8/8 通过；任务状态改为 pending_review，待欧阳锋抽检；任务单 assignee 已修正为 Kimi 老顽童"
+  - "✅ 欧阳锋完成渠道增长域 case section 标准化终审（2026-06-28）：11/11 文件通过，`kdo lint` 0 ERROR；1 处标题序号问题已现场修复；任务单 assignee 已修正为 Kimi 老顽童（实际完成）"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡（3 张缺 1 section + 7 张 6 section 全缺），WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零；已入 `production-queue.md` 队列第 7 项"
-  - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已拆分为独立任务 `task_20260628_laowantong-case-section-standardization`，由 Hermes 老顽童负责"
+  - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已由 Kimi 老顽童完成并通过欧阳锋终审"
   - "🆕 队列锁已上线（2026-06-28）：黄药师实现 `90_control/scripts/queue_lock.py`，锁目录 `90_control/.queue-locks/`，超时 300s 自动过期，已登记到 `.agent/toolkit.md` 第〇条；多老顽童实例可安全并行更新 `production-queue.md` / `dashboard.md` / `.agent/context.md`；`.agent/laowantong-context.md` 已加入加锁/释放口令"
   - "✅ 欧阳锋完成 `framework-kdo-self-attack` 终审：正文 174 行、结构完整、失败模式具体、related 全部有效、`kdo pre-submit` 通过；status 更新为 reviewed，reviewed_by: 欧阳锋"
   - "✅ 洪七公：00_inbox/一堂五步法之增长 59张高密度知识图已完成OCR(PaddleOCR v5)+VLM(MiniMax-M3)处理；59/59成功，平均置信度0.94，19张双层JSON已修复；产出见目录下 *_paddle_ocr.txt、*_vlm_desc.md、README-VLM描述汇总.md、README-素材处理总汇总.md"
