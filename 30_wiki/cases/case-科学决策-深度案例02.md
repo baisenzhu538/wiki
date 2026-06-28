@@ -3,7 +3,8 @@
 id: case-科学决策-深度案例02
 title: 案例：上班开车还是打车的量化决策
 type: case
-status: reviewed
+status:
+created_at: 2026-06-28 reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

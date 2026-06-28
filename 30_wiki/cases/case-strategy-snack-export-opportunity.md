@@ -3,7 +3,9 @@
 id: case-strategy-snack-export-opportunity
 title: 国产零食出口220国：新区域机会的诱惑与风险预估
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 confidence: 0.88
 trust_level: high

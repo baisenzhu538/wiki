@@ -8,23 +8,26 @@ title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
-- risk-warning
+- healthcare
+healthcare
+- pharmaceutical
+retail
+- policy
+compliance
+- risk
+warning
 source_refs:
-  - pending_archive:src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
-  - pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-  - pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-  - pending_archive:src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-  - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
-- src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-- src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-- src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+  - pending_archive:src_20260613_7cfd7b89
+corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
+  - pending_archive:src_20260613_59270720
+corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+  - pending_archive:src_20260613_ccf533f9
+corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+  - pending_archive:src_20260613_f3aecb2d
+corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+  - pending_archive:src_20260613_9a2b289e
+corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 tags:
-- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -33,25 +36,33 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
-- [[smart-medicine-cabinet-o2o-cost-structure]]
-- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[tool-smart-medicine-cabinet-site-selection-guide]]
-- [[tool-clinic-cabinet-legal-contract-guide]]
-- [[master-cognitive-bias-checklist]]
-- [[master-decision-hygiene]]
-- [[smart-medicine-cabinet-distribution]]
-- [[smart-medicine-cabinet-financial-model]]
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-o2o-cost-structure]]
-- [[smart-medicine-cabinet-regional-policy-map]]
+- [[smart
+medicine-cabinet-o2o-cost-structure]]
+- [[concept
+smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[case
+smart-medicine-cabinet-failure-patterns-library]]
+- [[tool
+smart-medicine-cabinet-site-selection-guide]]
+- [[tool
+clinic-cabinet-legal-contract-guide]]
+- [[master
+cognitive-bias-checklist]]
+- [[master
+decision-hygiene]]
+- [[smart
+medicine-cabinet-distribution]]
+- [[smart
+medicine-cabinet-financial-model]]
+- [[smart
+medicine-cabinet-fraud-detection]]
+- [[smart
+medicine-cabinet-national-policy-redlines]]
+- [[smart
+medicine-cabinet-o2o-cost-structure]]
+- [[smart
+medicine-cabinet-regional-policy-map]]
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
@@ -75,9 +86,6 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 6. 24 小时营业 + O2O 骑手配送，为诊所引流。
 
 **交叉验证后结论**：
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -104,10 +112,6 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**：患者在大医院确诊后拍照保存处方，到诊所扫码上传，诊所医生根据处方开方。
 
 **交叉验证结论**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 **修正表述**：患者可持外院处方到诊所咨询，但诊所医师必须独立面诊、评估病情，在执业范围内重新开具处方。
 
@@ -116,11 +120,6 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**：医保基础用药 8 元/盒 vs 原研药 80 元/盒，患者刷医保个人账户，自付 72 元差额。
 
 **交叉验证结论**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 **修正表述**：超出医保支付标准的部分能否使用个人账户，取决于当地政策；上海已明确不得刷个账；在广东/广州未经确认前，不能作为收入假设。
 
@@ -129,9 +128,6 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 **推销方模式**："只能卖内科药，不能卖其他科的药"（简化表述）。
 
 **交叉验证结论**：
-- src_unknown
-- src_unknown
-- src_unknown
 
 **修正表述**：药柜 SKU 必须严格匹配诊所执业范围，不能通过药柜绕过执业科目限制。
 
@@ -168,17 +164,9 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### 与已有知识的联系
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 使用建议
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -186,22 +174,12 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### Before（推销方描绘的模式）
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### After（交叉验证后的结论）
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 真实锚点
 
-- src_unknown
-- src_unknown
 
 ---
 
@@ -218,9 +196,6 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ### 什么时候应该学这个案例
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 核心 takeaway
 
@@ -244,15 +219,3 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ## 验证与参考
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown

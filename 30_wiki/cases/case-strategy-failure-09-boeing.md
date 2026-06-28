@@ -3,7 +3,8 @@
 id: case-strategy-failure-09-boeing
 title: 案例：飞机制造公司——机制背离。激励偏财务致安全事故
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.92

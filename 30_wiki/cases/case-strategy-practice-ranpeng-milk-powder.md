@@ -3,7 +3,8 @@
 id: case-strategy-practice-ranpeng-milk-powder
 title: 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.88
 trust_level: high

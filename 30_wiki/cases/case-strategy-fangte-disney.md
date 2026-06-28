@@ -3,7 +3,8 @@
 id: case-strategy-fangte-disney
 title: 方特vs迪士尼：集团战略的范围经济——有IP也打不过
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

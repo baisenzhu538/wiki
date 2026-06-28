@@ -3,7 +3,9 @@
 id: case-lean-shoe-mvp-evolution
 title: 鞋类产品 MVP 演进
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8

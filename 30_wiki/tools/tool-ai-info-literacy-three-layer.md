@@ -9,7 +9,8 @@ domain:
 - src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
-source_refs: []
+source_refs:
+  - pending_archive:source material not yet ingested
 wiki_refs:
 - src_unknown
 - src_unknown

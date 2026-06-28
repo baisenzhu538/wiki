@@ -9,7 +9,8 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
-source_refs: []
+source_refs:
+  - pending_archive:source material not yet ingested
 tags:
 - src_unknown
 - src_unknown

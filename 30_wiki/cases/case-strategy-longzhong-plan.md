@@ -3,7 +3,8 @@
 id: case-strategy-longzhong-plan
 title: 隆中对：中国最著名的战略规划——成功与失败四因
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.9
 trust_level: high

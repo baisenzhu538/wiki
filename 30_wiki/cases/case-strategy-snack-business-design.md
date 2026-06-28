@@ -3,7 +3,9 @@
 id: case-strategy-snack-business-design
 title: 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 王语嫣 → 老顽童
 confidence: 0.92
 trust_level: high

@@ -3,7 +3,8 @@
 id: case-strategy-shell-oil
 title: 壳牌石油：价值链突变→市场规模预测→从生产转服务
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

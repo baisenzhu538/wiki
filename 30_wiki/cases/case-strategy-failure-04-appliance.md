@@ -3,7 +3,8 @@
 id: case-strategy-failure-04-appliance
 title: 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

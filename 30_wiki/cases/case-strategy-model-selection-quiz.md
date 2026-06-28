@@ -3,7 +3,9 @@
 id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 王语嫣 → 老顽童
 confidence: 0.88
 trust_level: high

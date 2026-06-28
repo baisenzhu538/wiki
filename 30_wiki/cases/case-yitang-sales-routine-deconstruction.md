@@ -2,7 +2,8 @@
 id: case-yitang-sales-routine-deconstruction
 type: case
 title: 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
-status: reviewed
+status:
+created_at: 2026-06-28 reviewed
 domain:
   - yitang
   - personal-growth

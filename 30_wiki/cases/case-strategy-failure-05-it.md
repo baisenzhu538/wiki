@@ -3,7 +3,8 @@
 id: case-strategy-failure-05-it
 title: 案例：IT公司H——共识不足。高层反复横跳致市值下降
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

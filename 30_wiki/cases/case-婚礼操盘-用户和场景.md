@@ -3,7 +3,8 @@
 id: case-婚礼操盘-用户和场景
 title: 案例：婚礼操盘——用户和场景分析
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7

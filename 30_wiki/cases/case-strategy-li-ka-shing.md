@@ -3,7 +3,8 @@
 id: case-strategy-li-ka-shing
 title: 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

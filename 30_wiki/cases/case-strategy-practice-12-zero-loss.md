@@ -3,7 +3,8 @@
 id: case-strategy-practice-12-zero-loss
 title: 案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

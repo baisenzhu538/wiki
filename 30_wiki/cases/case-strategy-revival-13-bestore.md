@@ -3,7 +3,9 @@
 id: case-strategy-revival-13-bestore
 title: 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

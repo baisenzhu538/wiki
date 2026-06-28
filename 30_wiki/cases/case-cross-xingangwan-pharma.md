@@ -3,7 +3,9 @@
 id: case-cross-xingangwan-pharma
 title: 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

@@ -8,21 +8,18 @@ type: case
 status: enriched
 domain:
 - yitang
-- e-commerce
-- business-strategy
+- e
+commerce
+- business
+strategy
 source_refs:
-  - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-  - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - pending_archive:src_20260613_6b939d2b
+yitang-business-formula-decomposition-transcript
+  - pending_archive:src_20260613_a8bcfd38
+yitang-business-formula-decomposition-oral
+  - pending_archive:src_20260613_6edbf0af
+yitang-business-formula-decomposition-notes
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -33,16 +30,26 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
-- [[dk-yitang-business-formula-plus-times-trap]]
-- [[case-offline-catering-formula]]
-- [[case-toc-content-platform-correlation-trap]]
-- [[yt-management-business-formula]]
-- [[case-private-domain-ecommerce-formula]]
-- [[yt-management-business-formula]]
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-six-level-logic]]
-- [[yt-entrepreneur-unit-model]]
+- [[dk
+yitang-business-formula-plus-times-trap]]
+- [[case
+offline-catering-formula]]
+- [[case
+toc-content-platform-correlation-trap]]
+- [[yt
+management-business-formula]]
+- [[case
+private-domain-ecommerce-formula]]
+- [[yt
+management-business-formula]]
+- [[yt
+business-formula-abc-model]]
+- [[yt
+business-formula-parameter-iceberg]]
+- [[yt
+business-formula-six-level-logic]]
+- [[yt
+entrepreneur-unit-model]]
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 
@@ -73,8 +80,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 他认为：
-- src_unknown
-- src_unknown
 
 这个拆解的问题：
 1. **只列变量，没有定量**：转化率、复购率只是概念，没有和行业基准对比。
@@ -109,9 +114,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 **关键动作**：
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 第二步：提升复购率（从 5% → 15%）
 
@@ -127,9 +129,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ```
 
 **关键动作**：
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -142,9 +141,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 ### 2. 放量前必须验证单位模型
 
 小规模跑通 ≠ 大规模可复制。必须验证：
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 3. 核心矛盾可能不在你最关注的变量上
 
@@ -165,9 +161,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -175,22 +168,12 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ### Before（错误拆解）
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### After（正确拆解）
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 真实锚点
 
-- src_unknown
-- src_unknown
 
 ---
 
@@ -207,9 +190,6 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ### 什么时候应该学这个案例
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 核心 takeaway
 
@@ -232,14 +212,8 @@ GMV = 线索 × 转化 × 客单价 × 复购
 
 ## 验证与参考
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown

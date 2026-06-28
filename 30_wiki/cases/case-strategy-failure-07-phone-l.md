@@ -3,7 +3,8 @@
 id: case-strategy-failure-07-phone-l
 title: 案例：国产手机L——能力缺失。无软件生态致收购失败
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

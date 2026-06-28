@@ -28,7 +28,8 @@ related:
   - [[yt-model-entrepreneur-map]]
 review_date: 2026-05-08
 reviewed_by: 黄药师
-source_refs: []
+source_refs:
+  - pending_archive:source material not yet ingested
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium

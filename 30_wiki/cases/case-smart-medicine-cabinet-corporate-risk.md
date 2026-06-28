@@ -7,10 +7,11 @@ type: case
 status: enriched
 domain:
 - healthcare
-- business-strategy
+- business
+strategy
 source_refs:
-  - pending_archive:src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
-- src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
+  - pending_archive:src_20260613_fc2124d8
+itingnao-deep-dive-corporate-risk
 created_at: 2026-06-15
 updated_at: 2026-06-17
 author: 王语嫣
@@ -19,11 +20,16 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[case-smart-medicine-cabinet-business-model-validation]]
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[yt-tob-customer-tiering]]
-- [[yt-tob-cash-flow]]
-- [[yt-management-founder-role]]
+- [[case
+smart-medicine-cabinet-business-model-validation]]
+- [[case
+smart-medicine-cabinet-failure-patterns-library]]
+- [[yt
+tob-customer-tiering]]
+- [[yt
+tob-cash-flow]]
+- [[yt
+management-founder-role]]
 source_person: 王语嫣
 source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证# 知识卡草稿：智能药柜推广项目 · 公司/股权/资金风险
 ---
@@ -49,24 +55,12 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 ## 二、关键命题速查
 
 ### 资金与现金流
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 股权与架构
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 合作与信任
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 法律与合规
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -99,9 +93,6 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ## 五、可持续性判断
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 **综合判断**：项目处于"资金绷紧 + 信任受损 + 扩张冒进"的高风险状态，需先止血（资金）、再整骨（股权/合同）、最后谈扩张。
 
@@ -121,9 +112,6 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ## 关键证据
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ---
 
@@ -140,9 +128,6 @@ source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交
 
 ### 什么时候应该学这个案例
 
-- src_unknown
-- src_unknown
-- src_unknown
 
 ### 核心 takeaway
 

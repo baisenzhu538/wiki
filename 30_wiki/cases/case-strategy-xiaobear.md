@@ -3,7 +3,8 @@
 id: case-strategy-xiaobear
 title: 小熊电器：跳出行业范式——定位年轻单身男性
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

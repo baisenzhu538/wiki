@@ -3,7 +3,8 @@
 id: case-strategy-practice-11-third-place
 title: 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

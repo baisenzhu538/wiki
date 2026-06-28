@@ -3,7 +3,9 @@
 id: case-strategy-walmart-vs-costco-pyramid
 title: 沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high

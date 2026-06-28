@@ -3,7 +3,9 @@
 id: case-cross-yuanqi-forest
 title: 元气森林：战略定位与精益试错的跨域闭环
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

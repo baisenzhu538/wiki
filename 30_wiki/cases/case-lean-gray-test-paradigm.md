@@ -3,7 +3,9 @@
 id: case-lean-gray-test-paradigm
 title: 灰度测试范式实操案例
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

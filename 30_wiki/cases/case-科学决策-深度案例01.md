@@ -3,7 +3,8 @@
 id: case-科学决策-深度案例01
 title: 案例：全员涨薪20%的ROI决策
 type: case
-status: reviewed
+status:
+created_at: 2026-06-28 reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

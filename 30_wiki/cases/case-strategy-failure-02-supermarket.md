@@ -3,7 +3,8 @@
 id: case-strategy-failure-02-supermarket
 title: 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

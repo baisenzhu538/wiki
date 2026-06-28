@@ -3,7 +3,8 @@
 id: case-strategy-lekai-film
 title: 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.88
 trust_level: high

@@ -3,7 +3,8 @@
 id: case-strategy-failure-01-cosmetics
 title: 案例：长尾品类化妆品——方向错误。天花板低+营销浪费
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

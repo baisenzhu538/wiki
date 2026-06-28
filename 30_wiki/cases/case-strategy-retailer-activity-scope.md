@@ -3,7 +3,9 @@
 id: case-strategy-retailer-activity-scope
 title: 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 王语嫣 → 老顽童
 confidence: 0.92
 trust_level: high

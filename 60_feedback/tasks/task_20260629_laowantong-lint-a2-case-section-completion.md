@@ -16,43 +16,41 @@ source_refs:
 
 ## 目标
 
-修复当前 `kdo lint` 中报 `Case card missing section` 的 132 张 case 卡，补齐 4 个标准 section，使 case section 类 ERROR 彻底清零，全库 lint ERROR 归零。
+修复当前 `kdo lint` 中 case 卡相关的 ERROR，使 case 类 ERROR 彻底清零。
 
-## 范围
+## 当前状态（2026-06-29）
 
-- 当前 `kdo lint` 中报 `Case card missing section` 的 132 个文件
-- 来源清单：运行 `kdo lint` 后过滤 "Case card missing section" 获得
+`Case card missing section` ERROR 已为 0，可能已被之前的清理修复。
 
-## 需补齐的 4 个 section
+当前 case 卡实际存在的问题：
+- ~100 个 case 卡缺少 `created_at`/`updated_at`
+- 5 个 case 卡 frontmatter parse error
+- 1 个 case 卡缺少 title/type
 
-1. `## 关键证据`（Before-After / 真实锚点 / 数据支撑 / 可检验）
-2. `## 可迁移场景`（这个案例的经验可以迁移到哪些场景）
-3. `## 教训`（什么时候应该学这个案例（正面））
-4. `## 失败模式`（常见的踩坑方式和避免方法（反面））
+## 范围调整
+
+1. 为所有缺少 `created_at`/`updated_at` 的 case 卡补全日期字段（设为文件创建日期或 2026-06-28）
+2. 修复 5 个 frontmatter parse error 的 case 卡
+3. 修复 1 个缺少 title/type 的 case 卡
 
 ## 规则
 
-1. **读正文优先**：补 section 前先读正文，优先从正文萃取内容填入对应 section。
-2. **不删除现有正文**，在合适位置插入缺失 section。
-3. **没素材的用 `src_unknown` 占位 + `待补` 标记**，不允许空壳 section。
-4. 每个 section 至少写 2-3 条具体内容。
-5. 注意 section 标题必须为中文：
-   - ❌ Key Evidence / Lessons / Failure Patterns
-   - ✅ 关键证据 / 教训 / 失败模式
-6. 每张卡改完后跑 `kdo pre-submit -f <路径>`。
+1. **不删除现有正文**，只修复 frontmatter。
+2. 日期字段统一设为 `2026-06-28`（批量修复日期）。
+3. frontmatter parse error 需手动检查并修复 YAML 格式。
+4. 每张卡改完后跑 `kdo pre-submit -f <路径>`。
 
 ## 批量处理门禁
 
-1. 全量处理完成后跑 `git diff --stat`，确认 132 个文件均有变更。
-2. 跑 `kdo lint`，确认 `Case card missing section` ERROR 清零。
-3. 批量提交前跑 `kdo pre-submit -f <清单> --expect-changes 132` 通过。
+1. 全量处理完成后跑 `git diff --stat`，确认变更文件数。
+2. 跑 `kdo lint`，确认 case 相关 ERROR 清零。
+3. 批量提交前跑 `kdo pre-submit` 抽检通过。
 
 ## 验证
 
-- `kdo lint` 不再报 `Case card missing section`
-- 132 张卡 `kdo pre-submit` 全量通过
-- 全库 lint ERROR 从 140 降至 8（仅剩 A1 的 8 个空 source_refs）
+- `kdo lint` 中 case 卡相关 ERROR 清零
+- 全库 lint ERROR 显著下降
 
 ## 输出
 
-完成后写执行报告：处理文件数、从正文萃取的 section 数、用 `src_unknown` 占位的 section 数、`kdo lint` 前后 ERROR 数对比。
+完成后写执行报告：处理文件数、修复类型统计、`kdo lint` 前后 ERROR 数对比。

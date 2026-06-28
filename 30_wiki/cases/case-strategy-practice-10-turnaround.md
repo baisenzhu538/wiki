@@ -3,7 +3,8 @@
 id: case-strategy-practice-10-turnaround
 title: 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿
 type: case
-status: enriched
+status:
+created_at: 2026-06-28 enriched
 author: 老顽童
 confidence: 0.85
 trust_level: high

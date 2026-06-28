@@ -3,7 +3,9 @@
 id: case-unit-model-gashapon
 title: 扭蛋机案例：玩具店规模化扩张三阶段决策
 type: case
-status: enriched
+status:
+created_at:
+updated_at: 2026-06-28 2026-06-28 enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78
