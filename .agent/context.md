@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：欧阳锋审查 wave4（4.2 Master 域 7 张已修复，4.1 调研方法论域 8 张生产中）；Hermes 继续生产 4.1；wave5 预分配给 WorkBuddy 等待；黄药师完成 P0（M-确认+KF-021+Task Q），开始 P-1 query 分层；队列锁已上线"
+active_task: "综合安排（2026-06-28）：欧阳锋 O-1 工作模式调整提案已确认（待拆分为 production-queue 任务）；欧阳锋审查 wave4（4.2 Master 域 7 张已 reviewed，4.1 调研方法论域 8 张生产中）；Hermes 继续生产 4.1；wave5 预分配给 WorkBuddy；黄药师完成 P0，开始 P-1 query 分层；队列锁已上线"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -15,6 +15,7 @@ blockers:
   - "✅ 欧阳锋完成 wave3 终审（2026-06-28）：14/14 张卡通过，`kdo pre-submit` 14/14 通过，`kdo lint` 无新增 ERROR；审查中清理 14 张卡 frontmatter 中 domain/related/tags 的 src_unknown 占位，并移动 3 个 framework 卡从 concepts/ 到 frameworks/；全库 lint ERROR 降至 533；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；已解锁 wave4 正式生产和第八批 dk 清零终审"
   - "✅ 欧阳锋完成第八批 dk 清零终审（2026-06-28）：10/10 张 dk 卡通过，`kdo pre-submit` 10/10 通过；`dark-knowledges/` 目录 lint ERROR 从 14 降至 0；审查中修复 4 张卡格式问题；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；全库 lint ERROR 降至 519；wave4 已完全解锁"
   - "✅ 欧阳锋完成渠道增长域 case section 标准化终审（2026-06-28）：11/11 文件通过，`kdo lint` 0 ERROR；1 处标题序号问题已现场修复；任务单 assignee 已修正为 Kimi 老顽童（实际完成）"
+  - "✅ 欧阳锋确认 O-1 工作模式调整提案（2026-06-28）：审查角色有条件同意（低风险维持通过/退回，高风险/新域用风险标记+对比视图）；卡片三层化同意（先接口层后上下文层）；找老的干小的同意（P0 机械检查优先，P2 判断后置）；先投放再精修原则同意从 wave5 试点 `deploy_status: live`；O-1 状态改为'已确认，待实施'，待王语嫣/黄药师拆分为 production-queue 任务"
   - "🆕 Hermes 老顽童进入 wave4 正式生产（2026-06-28）：wave3 + 第八批 dk 清零均 reviewed，wave4 依赖解除；Hermes 从'读素材做准备'转为'正式生产'"
   - "🆕 wave5 预分配给 WorkBuddy 老顽童（2026-06-28）：wave5 当前 queued，等 wave4 完成后由 WorkBuddy 启动生产；Hermes 专心完成 wave4"
   - "🟡 wave4 部分完成（2026-06-28）：4.2 Master 域 7 张卡已由 Hermes 老顽童规范化完成并通过欧阳锋终审（7/7 pre-submit + lint 通过；审查中修复 20 个缺失 source_refs 为 pending_archive 占位）；4.1 调研方法论域 8 张卡待 Hermes 老顽童生产；wave4 整体仍 pending_review"
