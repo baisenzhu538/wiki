@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b1-frontmatter-related
 type: task
-status: pending_review
+status: reviewed
 assignee: 老顽童
 priority: P1
 created_at: 2026-06-28
@@ -93,3 +93,17 @@ source_refs:
 
 - 1190 项 `pending_unknown` 占位将在后续 B3 任务中逐步替换为真实 wikilink
 - 5491 个 WARNING 中大部分为 index 归属和 source_refs 提示，非本任务范围
+
+## 欧阳锋终审结论（2026-06-28）
+
+**✅ B1 任务通过，状态更新为 `reviewed`。**
+
+欧阳锋独立验证：
+- `git diff HEAD~6 HEAD --stat`：274 files changed，含 256 张卡片真实修改
+- `related` 字段 `src_unknown` 剩余：**0**
+- `pending_unknown` 补入数量：**1190**（与老顽童报告一致）
+- `kdo lint`：**0 ERROR**
+- 抽检 4 张卡：tool/concept/case/dk 均符合规则，真实 wikilink 100% 保留
+- 分层标准执行正确：tool/concept/framework/dk ≥5，case ≥3
+
+**下一步**：按队列顺序领取 #19 B2 Synthesis section 清理。
