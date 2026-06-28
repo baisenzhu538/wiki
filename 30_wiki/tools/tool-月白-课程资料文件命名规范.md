@@ -3,8 +3,7 @@ id: tool-月白-课程资料文件命名规范
 title: 技能：课程资料文件命名规范
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：课程资料文件命名规范
+  - [[tool-月白-左手Cubox右手里程碑学习法]]
+  - [[tool-月白-设计师AI资产四类型沉淀]]
+  - [[tool-月白-AIGC反向拆解法]]
+  - [[tool-月白-AI对话式海报修改（免PS）]]
+  - [[tool-月白-AI课程内容深度梳理法]]
+---# 技能：课程资料文件命名规范
 
 ## 原始表述
 

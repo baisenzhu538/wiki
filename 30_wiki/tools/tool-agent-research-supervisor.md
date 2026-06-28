@@ -11,16 +11,18 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-crawl4ai]]
+  - [[tool-agent-research-swarm]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[framework-multi-agent-research-architecture]]
 ---
-
 # Supervisor模式
 
 > 一个Supervisor Agent接收调研任务→分解成子任务→分配给不同Worker Agent→收集结果→做最终合成和质量控制。适合需要可靠性保障的调研场景。

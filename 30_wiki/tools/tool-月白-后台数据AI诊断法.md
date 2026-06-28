@@ -3,8 +3,7 @@ id: tool-月白-后台数据AI诊断法
 title: 技能：后台数据AI诊断法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：后台数据AI诊断法
+  - [[tool-月白-AI平台算法咨询法]]
+  - [[tool-月白-AI生成棉花娃娃形象]]
+  - [[tool-月白-AI生成IP表情包]]
+  - [[tool-月白-口喷式设计工作流]]
+  - [[tool-月白-基于白底图做动作延展]]
+---# 技能：后台数据AI诊断法
 
 ## 原始表述
 

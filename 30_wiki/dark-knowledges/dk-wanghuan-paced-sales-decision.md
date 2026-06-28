@@ -4,9 +4,9 @@ title: 暗知识：复制销冠不是复制话术——是还原决策链
 type: dk
 dark_knowledge_type: insight
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - ai-collaboration
+  - human-ai-collaboration
 status: reviewed
 confidence: 0.88
 author: 王语嫣
@@ -45,13 +45,12 @@ diagnostic_signals:
   lens: 策略与话术混在同一存储层
   follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[case-wanghuan-education-sales-paced]]
+  - [[framework-wanghuan-actor-director-mode]]
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[framework-wanghuan-three-tier-dev-architecture]]
+  - [[tool-wanghuan-ai-dual-role-coach]]
 ---
-
 # 暗知识：复制销冠不是复制话术——是还原决策链
 
 ## 用一句话讲清楚

@@ -3,8 +3,7 @@ id: tool-月白-AI设计里程碑拆解法
 title: 技能：AI设计里程碑拆解法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI设计里程碑拆解法
+  - [[tool-月白-里程碑思维-找对标优先于做设计]]
+  - [[tool-月白-里程碑思维拆解设计流程]]
+  - [[tool-月白-产品白底图标准化制作]]
+  - [[tool-月白-精准提示词撰写法]]
+  - [[tool-月白-AI去字-稿定设计加字工作流]]
+---# 技能：AI设计里程碑拆解法
 
 ## 原始表述
 

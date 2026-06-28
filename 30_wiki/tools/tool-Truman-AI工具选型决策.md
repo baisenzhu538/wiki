@@ -3,8 +3,8 @@ id: tool-Truman-AI工具选型决策
 title: 技能：AI工具选型决策
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI工具选型决策
+  - [[tool-月白-口喷式设计工作流]]
+  - [[tool-Truman-提示词优化底层方法]]
+  - [[tool-Truman-开源模型与商业模型融合方案]]
+  - [[tool-Truman-AI场景探索STAR模型]]
+  - [[tool-Truman-数学题与语文题区分法]]
+---# 技能：AI工具选型决策
 
 ## 原始表述
 

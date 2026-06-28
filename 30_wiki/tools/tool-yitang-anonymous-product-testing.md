@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-bp-analysis]]
+  - [[tool-yitang-weapon-full-product-experience]]
+  - [[tool-yitang-online-product-experience]]
 ---
-
 # 匿名产品体验
 
 > 不暴露调研者身份，以真实用户身份完整体验竞品——消除"内部视角"偏差。

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-devils-advocacy]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[tool-candy-oral-polish]]
+  - [[tool-indicators-signposts]]
+  - [[framework-ci-operating-model]]
+  - [[dk-yitang-research-question-quality]]
 ---
-
 # CI Define阶段：KITs和KIQs
 
 > 大多数调研失败不是因为收集不够，而是因为没搞清楚"收集什么"和"为什么收集"。KITs和KIQs是CI界解决这个问题的标准方法。

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-financial-literacy]]
+  - [[case-demand-rural-5g]]
+  - [[case-demand-tier4-housekeeping]]
+  - [[case-demand-travel-agent]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-restaurant-hiring]]
+  - [[tool-demand-assessment-triangle]]
 ---
-
 # 案例：麦家小馆人才选拔
 
 **初始判断**：餐饮连锁扩张需要大量店长，"人才选拔工具"需求频次高、刚性高。

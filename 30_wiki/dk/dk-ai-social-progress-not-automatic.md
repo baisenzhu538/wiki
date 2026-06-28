@@ -11,30 +11,29 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-chair-determines-view]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-cross-reading-method]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[concept-ai-chair-determines-view]]
+  - [[concept-ai-neutrality-bias]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[case-ai-job-displacement-wef]]
 ---
-
 # 社会进步不是自动的
 
 > **Burn line**：技术会自己加速，但制度不会自己变好——焦虑技术跑太快，是对着大海喊"你别涨潮"，不如去修自己的堤坝。

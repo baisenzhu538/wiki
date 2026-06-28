@@ -3,8 +3,7 @@ id: tool-月白-AI人物特征精准描述法
 title: 技能：AI人物特征精准描述法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI人物特征精准描述法
+  - [[tool-月白-口喷式AIGC设计法]]
+  - [[tool-月白-AI对话情绪管理法]]
+  - [[tool-月白-AI生图与图生图决策法]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[tool-月白-文创材质调研与精益选择]]
+---# 技能：AI人物特征精准描述法
 
 ## 原始表述
 

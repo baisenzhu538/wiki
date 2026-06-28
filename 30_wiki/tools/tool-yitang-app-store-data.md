@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-pc-web-data]]
+  - [[tool-yitang-stock-data]]
+  - [[tool-yitang-xiaohongshu-data]]
+  - [[tool-yitang-app-store-review]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-third-party-database]]
 ---
-
 # APP数据查询
 
 > 七麦数据/点点数据/App Annie——查看竞对App的排名、下载量、收入估算。

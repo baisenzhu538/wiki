@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-liutao-electric-bike-localization]]
+  - [[case-zhanglei-furniture-overseas-market-selection]]
+  - [[case-yitang-doorstep-nail-service-context]]
+  - [[case-yitang-ski-project-user-as-expert]]
+  - [[framework-yitang-expert-interview-10steps]]
+  - [[concept-ceo-must-do-user-research]]
 ---
-
 # 案例：重金做用户访谈但方向全错
 
 **背景**：创业者在MVP阶段花了不少钱做正式的用户访谈和焦点小组，拿到一堆"用户反馈"。

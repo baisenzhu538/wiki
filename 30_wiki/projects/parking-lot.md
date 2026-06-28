@@ -4,21 +4,21 @@ title: 停车场清单
 type: index
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - healthcare
+  - compliance
+  - product-management
 id: parking-lot
 created_at: '2026-06-13'
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[session-20260619-xingangwan-business-formula-reconstruction]]
+  - [[互联网医院项目]]
+  - [[鑫港湾HIS项目]]
+  - [[诊所O2O项目]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[shanxi-field-research-checklist-20260701]]
+  - [[xingangwan-pharma-business-formulas]]
+  - [[xingangwan-pharma-business-model-calc]]
 tags:
 - src_unknown
 - src_unknown
@@ -35,8 +35,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
----
-# 停车场清单
+---# 停车场清单
 
 > 已识别但尚未排期执行的任务集合。此处不承诺完成时间，仅用于防止任务遗漏，并在规划新迭代时作为输入。
 

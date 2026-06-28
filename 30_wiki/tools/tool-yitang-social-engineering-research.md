@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
@@ -30,17 +30,16 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-funnel-formula-modeling]]
+  - [[case-strategy-m-brand-profit-model]]
+  - [[dk-yitang-cross-case-pattern-identity-escalation]]
+  - [[tool-yitang-wechat-group-infiltration]]
+  - [[tool-strategy-profit-model-comparison]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-field-research]]
+  - [[tool-yitang-job-intelligence-research]]
+  - [[concept-research-responsibility-boundary]]
 ---
-
 # 社会工程学调研：身份设计与信息获取的合法边界
 
 > **一句话**：有些信息，你以真实身份永远问不出来。给自己设定一个上下游的合作角色，对方自然就愿意分享——这不是"骗"，是用信息获取的成本换取商业决策的安全边际。

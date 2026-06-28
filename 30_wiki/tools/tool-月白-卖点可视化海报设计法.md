@@ -3,8 +3,7 @@ id: tool-月白-卖点可视化海报设计法
 title: 技能：卖点可视化海报设计法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：卖点可视化海报设计法
+  - [[tool-月白-多窗口并行工作法]]
+  - [[tool-月白-控制产品画面尺寸比例]]
+  - [[tool-月白-餐饮海报AB测试法]]
+  - [[tool-月白-AI去字-稿定设计加字工作流]]
+  - [[tool-月白-AIGC橱窗陈列设计流程]]
+---# 技能：卖点可视化海报设计法
 
 ## 原始表述
 

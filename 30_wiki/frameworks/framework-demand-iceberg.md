@@ -11,25 +11,26 @@ created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[prompt-demand-ai-coach]]
+  - [[yt-entrepreneur-needs-analysis]]
+  - [[case-demand-silver-parenting]]
+  - [[tool-prompt-jtbd-scenario-coach]]
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[tool-demand-iceberg-l1-user]]
+  - [[tool-demand-iceberg-l2-scenario]]
+  - [[tool-demand-iceberg-l3-core-job]]
+  - [[tool-demand-iceberg-l4-job-map]]
+  - [[tool-demand-iceberg-l5-forces]]
+  - [[tool-demand-iceberg-l6-hypothesis]]
+  - [[framework-demand-lean-bridge]]
 ---
-
 # 需求洞察冰山模型
 
 > "在彻底理解问题空间之前跳进解决方案空间，是创业的大忌。" 冰山模型六层递进：拆（L1用户标签+L2场景问题）→ 推（L3核心任务+L4任务地图+L5隐藏洞察+L6需求假设）→ 评。与其说它是分析框架，不如说它是"防止你自嗨"的纪律工具。

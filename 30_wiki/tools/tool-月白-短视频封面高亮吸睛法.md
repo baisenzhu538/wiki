@@ -3,8 +3,7 @@ id: tool-月白-短视频封面高亮吸睛法
 title: 技能：短视频封面高亮吸睛法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：短视频封面高亮吸睛法
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[tool-月白-最佳实践素材收集法]]
+  - [[tool-月白-新手设计师基本功训练法]]
+  - [[tool-月白-设计参考图精准定位法]]
+  - [[tool-月白-正向反馈强化AI生成]]
+---# 技能：短视频封面高亮吸睛法
 
 ## 原始表述
 

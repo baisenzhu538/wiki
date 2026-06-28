@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: basic
 estimated_tokens: 1500
 version: 1
@@ -27,15 +27,14 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-yitang-facts-first]]
+  - [[dk-yitang-research-scale-vs-depth]]
+  - [[tool-yitang-supply-chain-research]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-public-information-research]]
+  - [[tool-yitang-financial-report-intelligence]]
+  - [[tool-yitang-comparable-company-selection]]
 ---
-
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么
 
 > **一句话**：徐鱼的Cheat Sheet——创业早期(0到1)、复制扩张、持续经营三个阶段，分别应该从上市公司报告中重点读什么。

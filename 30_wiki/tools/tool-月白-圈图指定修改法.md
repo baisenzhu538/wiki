@@ -3,8 +3,7 @@ id: tool-月白-圈图指定修改法
 title: 技能：圈图指定修改法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：圈图指定修改法
+  - [[tool-月白-AI生成IP表情包]]
+  - [[tool-月白-基于基础形象做动作延展（1到10）]]
+  - [[tool-月白-电商白底图生成与高清重绘]]
+  - [[tool-月白-AIGC生成人物证件照]]
+  - [[tool-月白-电商白底图生成与高清处理]]
+---# 技能：圈图指定修改法
 
 ## 原始表述
 

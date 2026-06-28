@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-strategy-five-see-three-set]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-third-party-database]]
+  - [[tool-yitang-financial-report-intelligence]]
 ---
-
 # 证券研报
 
 > 券商分析师的行业/公司深度研究报告——专业机构花几百万研究出来的成果，免费或低成本获取。

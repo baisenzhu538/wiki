@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-crawl4ai]]
+  - [[tool-osint-sherlock]]
+  - [[high-density-composite-compilation-strategy]]
+  - [[tool-metadata-extraction]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-osint-overview]]
+  - [[tool-yitang-people-network-database]]
 ---
-
 # Maltego：实体关系图谱
 
 > 输入一个域名、人名、公司名或邮箱，Maltego自动搜索并绘制关联网络——谁控股谁、谁认识谁、谁和谁有共同利益。

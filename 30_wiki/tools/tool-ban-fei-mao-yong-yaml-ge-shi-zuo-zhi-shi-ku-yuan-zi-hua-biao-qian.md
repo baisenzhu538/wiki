@@ -4,8 +4,8 @@ title: 技能：用 YAML 格式做知识库原子化标签
 type: tool
 status: enriched
 domain:
-- src_unknown
-- yitang- src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
@@ -16,14 +16,14 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[dk-p19-quote-yaml]]
+  - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]
+  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
+  - [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]
+  - [[dk-f13-handwritten-yaml-parser]]
+  - [[concept-半肥猫-ai-learning-toolification-methodology]]
+  - [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]
+  - [[dk-ban-fei-mao-atomic-no-standard]]
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
@@ -36,8 +36,7 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
----
-# 技能：用 YAML 格式做知识库原子化标签
+---# 技能：用 YAML 格式做知识库原子化标签
 
 ## 用一句话讲清楚
 

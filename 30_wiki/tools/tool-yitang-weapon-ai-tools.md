@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-pc-web-data]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-bp-analysis]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[tool-yitang-weapon-user-direct-interview]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-ai-research-workflow]]
 ---
-
 # 武器库策略10：AI工具
 
 > 用AI技术加速调研——搜索、整理、分析、写作、监控。

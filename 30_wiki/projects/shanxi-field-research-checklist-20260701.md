@@ -6,10 +6,10 @@ title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - research- healthcare
+  - compliance
+  - business-strategy
+  - field-research
 created_at: '2026-06-18'
 updated_at: '2026-06-18'
 author: unknown
@@ -17,13 +17,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[xingangwan-pharma-business-formulas]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[xingangwan-pharma-business-model-formulas]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[parking-lot]]
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-18'
@@ -39,7 +39,6 @@ diagnostic_signals:
 - src_unknown
 
 ---
-
 # 山西 7 月 1 日智慧药柜项目调研清单
 
 ## 用一句话讲清楚

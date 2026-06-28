@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-research-desperate-effort]]
+  - [[concept-research-responsibility-boundary]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[yt-research-osl-framework]]
 ---
-
 # 理想调研目标三原则
 
 > 不是所有问题都值得调研。一个好的调研目标必须同时满足三个原则。

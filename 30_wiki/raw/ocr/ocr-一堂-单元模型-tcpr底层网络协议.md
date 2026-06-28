@@ -3,11 +3,11 @@
 title: "OCR: 一堂-单元模型-TCPR底层网络协议"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -19,13 +19,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-找基准值实操难点]]
+  - [[ai单元模型口述蒋老师]]
+  - [[ocr-一堂-单元模型-找全成本实操难点]]
+  - [[ocr-一堂-单元模型-abcd策略模型]]
+  - [[ocr-一堂-单元模型-找单元模型实操难点]]
 ---
-
 
 # OCR: 一堂-单元模型-TCPR底层网络协议
 

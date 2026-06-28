@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
@@ -29,23 +29,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-doris-industry-report-4step]]
+  - [[tool-yitang-research-industry-scan]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[system-yitang-research-workflow]]
+  - [[tool-yitang-research-single-point-sniper]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - （tool-yitang-research-hypothesis-test，待补）
+  - [[yt-research-hypothesis-test]]
+  - [[concept-yitang-research-objective]]
+  - [[case-yitang-sanjieke-benchmark-failure]]
+  - （case-yitang-haidilao-service-research，待补）
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 调研先行验证假设：在行动前杀死错误想法
 
 > **一句话**：创业最大的浪费不是失败，而是花了大量资源验证一个本可以用一周调研就否定的想法。调研先行验证假设，是在行动前用最低成本杀死错误想法。

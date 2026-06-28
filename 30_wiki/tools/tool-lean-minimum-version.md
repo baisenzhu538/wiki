@@ -10,28 +10,27 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-stealth-service]]
+  - [[tool-lean-cut-features]]
+  - [[tool-lean-presell]]
+  - [[tool-lean-minimum-test-volume]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-four-principles]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 只发布最小版本
 
 > 用“最简单的交付形式”替代完整产品，在最短周期内把用户真实反馈拉回团队，避免把“做完整”误当成“做对”。

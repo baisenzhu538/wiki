@@ -3,8 +3,7 @@ id: tool-月白-产品反光修复术
 title: 技能：产品反光修复术
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：产品反光修复术
+  - [[tool-月白-多窗口并行工作法]]
+  - [[tool-月白-AI图片风格逆向提取（抄图法）]]
+  - [[tool-月白-餐饮海报AB测试法]]
+  - [[tool-月白-AI图片去文字处理]]
+  - [[tool-月白-眼高手低训练法]]
+---# 技能：产品反光修复术
 
 ## 原始表述
 

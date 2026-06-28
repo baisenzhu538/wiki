@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - modeling
+  - strategy
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）
 created_at: '2026-06-14'
@@ -21,21 +21,20 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-personal-map-modeling]]
+  - [[case-yitang-radar-chart-selection]]
+  - [[case-essence-humanity-trap]]
+  - [[case-child-drawing-rhyme]]
+  - [[case-essence-entrepreneurship]]
+  - [[tool-essence-nfactor-modeling]]
+  - [[dk-modeling-explanatory-vs-predictive-essence]]
+  - [[dk-modeling-essence-predictive]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：教育本质与战略本质的提炼
+---# 案例：教育本质与战略本质的提炼
 
 ## 用一句话讲清楚
 

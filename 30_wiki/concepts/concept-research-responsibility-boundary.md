@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-research-desperate-effort]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[concept-ceo-must-do-user-research]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 调研责任边界
 
 > "你自己算清楚——一个情报带来的价值跟你一部分所谓的妥协之间的平衡。对自己做的事负责任。" ——Truman

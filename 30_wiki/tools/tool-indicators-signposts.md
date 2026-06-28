@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-devils-advocacy]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[system-yitang-research-workflow]]
+  - [[tool-candy-oral-polish]]
+  - [[framework-structured-analytic-techniques]]
+  - [[tool-yitang-ai-monitoring-alert]]
 ---
-
 # Indicators & Signposts
 
 > 不要等事情发生了才反应过来。对每个关键假设设置"重新评估"的触发信号——什么信号出现时你必须重新思考？

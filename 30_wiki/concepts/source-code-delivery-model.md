@@ -5,9 +5,9 @@ title: "源码交付模式"
 type: concept
 status: stable
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - SaaS
+  - 商业模式
+  - 软件交付
 confidence: 0.85
 trust_level: high
 diagnostic_signals:
@@ -24,13 +24,12 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 源码交付模式
+  - [[smart-medicine-cabinet-distribution]]
+  - [[yt-growth-scaling-pitfalls]]
+  - [[private-domain-saas-sales-funnel]]
+  - [[七件事集团]]
+  - [[yt-skill-storyline-problem-solving]]
+---# 源码交付模式
 
 > 软件厂商将产品源代码一次性交付给客户，客户获得代码所有权后可自行二次开发、私有化部署与长期运维。与 SaaS 订阅模式相比，它在所有权与控制力上更强，但也可能削弱厂商的长期订阅经济基础。
 

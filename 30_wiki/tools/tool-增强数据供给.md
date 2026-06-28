@@ -3,9 +3,9 @@ id: tool-增强数据供给
 title: 技能：增强数据供给
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- design
+  - yitang
+  - decision-making
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -27,13 +27,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：增强数据供给
+  - [[tool-反向提示获取优化建议]]
+  - [[tool-多轮确认防偏差]]
+  - [[tool-主动摘要压缩上下文]]
+  - [[tool-提示词结构化迭代]]
+  - [[tool-渐进式披露上下文]]
+---# 技能：增强数据供给
 
 ## 原始表述
 > 1.给案例集 2.专家资料 3.用多模态 4.联网搜索 5.接入API 6.使用RAG

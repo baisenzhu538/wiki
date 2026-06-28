@@ -2,8 +2,7 @@
 
 id: ocr-一堂提炼过的因果模型
 created_at: 2026-05-21
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 10_raw/sources/src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md
 status: draft
@@ -16,13 +15,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# OCR: 一堂提炼过的因果模型
+  - [[ocr-泛产品设计-落地卡片-复盘迭代]]
+  - [[case-proya-betaine-skincare-benchmark]]
+  - [[concept-一堂-key-assumptions]]
+  - [[ocr-一堂五步法画布]]
+  - [[ocr-一堂深度复盘冰山图]]
+---# OCR: 一堂提炼过的因果模型
 
 ## Summary
 

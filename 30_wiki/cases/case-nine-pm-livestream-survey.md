@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - modeling
+  - user-research
 diagnostic_signals:
 - src_unknown
 - src_unknown
@@ -27,20 +27,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-essence-nfactor-modeling]]
+  - [[case-child-drawing-rhyme]]
+  - [[case-yitang-weekly-modeling-engine]]
+  - [[case-essence-entrepreneurship]]
+  - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
+  - [[concept-thousand-people-square]]
+  - [[case-yitang-radar-chart-selection]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
+---# 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 
 > **Burn line**: 不是 Truman 想熬到 21:00，而是三次调研后，老用户多数人选了 21:00。
 

@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: basic
 estimated_tokens: 1500
 version: 1
@@ -26,15 +26,14 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-public-sentiment-research]]
+  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
+  - [[tool-yitang-supply-chain-research]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-financial-report-intelligence]]
+  - [[tool-yitang-financial-report-intelligence]]
+  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
 ---
-
 # 对标公司选择三步法：加法·减法·三原则
 
 > **一句话**：先做加法广撒网（20-30家公司），再做减法聚焦（5-10家重点研究）。选择三原则：时间越近越好、业务越近越好、市场越近越好。

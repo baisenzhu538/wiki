@@ -7,8 +7,8 @@ title: 技能：目的论偏差快速识别法
 type: "tool"
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -28,18 +28,17 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-水水-接受发散性世界观]]
+  - [[tool-ai-purpose-bias-check]]
+  - [[tool-ai-system-redundancy]]
+  - [[tool-水水-识别自证预言陷阱]]
+  - [[tool-水水-识别超级传播者风险]]
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 
----
-# 技能：目的论偏差快速识别法
+---# 技能：目的论偏差快速识别法
 
 ## 原始表述
 

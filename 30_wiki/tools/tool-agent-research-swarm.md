@@ -11,20 +11,22 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-skill-market-agent-self-install]]
+  - [[tool-agent-research-pipeline]]
+  - [[ai-native-im-multi-agent]]
+  - [[case-truman-ai-partner]]
+  - [[tool-demand-agent-multi-hypothesis]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
 ---
-
 # Swarm模式
 
 > ⚠️ **2026年中快速演化领域，最佳实践可能半年后过时。** Swarm模式：多个Agent自发分工探索→互相验证发现→自动合成。Token效率比Supervisor高40%，适合需要速度的探索性调研。

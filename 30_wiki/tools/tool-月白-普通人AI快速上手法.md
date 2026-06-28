@@ -3,8 +3,7 @@ id: tool-月白-普通人AI快速上手法
 title: 技能：普通人AI快速上手法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：普通人AI快速上手法
+  - [[tool-月白-课程问题预埋法]]
+  - [[tool-月白-三步作业反馈法]]
+  - [[tool-月白-电商白底图生成与场景图匹配]]
+  - [[tool-月白-用一堂方法论找最佳实践并拉满执行]]
+  - [[tool-月白-灵感画布建立法]]
+---# 技能：普通人AI快速上手法
 
 ## 原始表述
 

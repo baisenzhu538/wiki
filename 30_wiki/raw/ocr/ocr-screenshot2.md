@@ -2,8 +2,7 @@
 
 id: ocr-screenshot2
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_961e1d68-ocr-screenshot2.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-微信图片_20260507004811_41_32]]
+  - [[ocr-ocr_screenshot2]]
+  - [[ocr-微信图片_20260507004804_39_32]]
+  - [[ocr-一堂进步大地图_compressed]]
+  - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
 ---
-
 # OCR: screenshot2
 
 ## Summary

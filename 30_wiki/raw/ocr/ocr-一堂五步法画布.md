@@ -2,8 +2,7 @@
 
 id: "ocr-一堂五步法画布"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_2a547df5-ocr-一堂五步法画布.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-proya-betaine-skincare-benchmark]]
+  - [[concept-一堂-key-assumptions]]
+  - [[framework-一堂五步法-泛产品设计]]
+  - [[yt-five-step-method]]
+  - [[yt-model-five-step-canvas]]
 ---
-
 # OCR: 一堂五步法画布
 
 ## Summary

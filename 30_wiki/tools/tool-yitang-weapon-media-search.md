@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-doris-industry-report-search-tips]]
+  - [[tool-yitang-people-network-database]]
+  - [[tool-yitang-weapon-insider-intelligence]]
+  - [[tool-yitang-forum-data]]
+  - [[tool-yitang-industry-report-search]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-database-index]]
 ---
-
 # 武器库策略12：媒体/社区搜索
 
 > 在专业社区和财经媒体中挖掘从业者的真实观点和行业讨论。

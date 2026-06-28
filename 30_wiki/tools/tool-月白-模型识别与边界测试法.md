@@ -3,8 +3,7 @@ id: tool-月白-模型识别与边界测试法
 title: 技能：模型识别与边界测试法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：模型识别与边界测试法
+  - [[tool-月白-分层自洽海报生成法]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[tool-月白-AI设计严苛批评法]]
+  - [[tool-月白-AI设计三段式里程碑流程]]
+  - [[tool-月白-精准提示词消除模型幻觉]]
+---# 技能：模型识别与边界测试法
 
 ## 原始表述
 

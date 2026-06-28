@@ -4,8 +4,8 @@ title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景�
 type: case
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
+  - yitang
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
 source_refs:
@@ -20,12 +20,11 @@ review_date: "2026-06-28"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 
 > 一堂业务公式拆解培训案例：50 家门店、月 GMV 2000 万、客单价 25 元的连锁快餐品牌，目标是同店增长 30%。团队讨论清一色是“投抖音本地推、优化菜单、发优惠券”，真正的增长潜力却藏在会员复购和场景绑定里。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -3,10 +3,10 @@ id: tool-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- product
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
@@ -26,13 +26,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：区分获客渠道计算单元ROI
+  - [[tool-辩证讨论深化]]
+  - [[tool-对标借鉴他人决策维度]]
+  - [[tool-ai辅助学习]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-费曼学习法三句话提炼]]
+---# 技能：区分获客渠道计算单元ROI
 
 ## 原始表述
 > 分开算，ROI一般就是用在买量这个循环上...私域获客800人，￥0...买量获客200人，￥100...所以获客成本按￥20算

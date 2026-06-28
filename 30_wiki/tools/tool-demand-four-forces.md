@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-demand-switching-cost]]
+  - [[yt-entrepreneur-needs-analysis]]
+  - [[case-demand-ai-fitness-four-forces]]
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-agent-signal-substitute]]
+  - [[tool-demand-iceberg-l5-forces]]
+  - [[framework-demand-iceberg]]
 ---
-
 # 四种力量建模
 
 > 用户不换产品不是因为你的产品不够好，是因为(推力+拉力)还没超过(焦虑+习惯)。四种力量是JTBD中判断"用户会不会切换"的核心框架。

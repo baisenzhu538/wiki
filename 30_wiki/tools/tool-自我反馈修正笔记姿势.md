@@ -3,8 +3,8 @@ id: tool-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - content-production- management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -24,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：自我反馈修正笔记姿势
+  - [[tool-提升笔记练习频次的方法]]
+  - [[tool-现场建模式萃取笔记]]
+  - [[tool-获取他人反馈优化笔记]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-用topdown方式整理内化笔记]]
+---# 技能：自我反馈修正笔记姿势
 
 ## 原始表述
 > 自我反馈：不断反思，笔记是不是最好水平 事实反馈：分析反思笔记被阅读/使用/点赞情况 版本对比：对笔记的多个版本进行对比和反思 最佳实践池子：建一个优秀笔记池对照分析差距

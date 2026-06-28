@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[tool-demand-four-forces]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[tool-demand-four-forces]]
 ---
-
 # 案例：AI健身四力分析
 
 **场景**：AI健身App如何让用户从"不去健身房"切换到"在家用AI健身"？

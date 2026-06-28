@@ -3,8 +3,7 @@ id: tool-月白-AIGC文字大小精确控制
 title: 技能：AIGC文字大小精确控制
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AIGC文字大小精确控制
+  - [[tool-月白-AI图片风格逆向提取（抄图法）]]
+  - [[tool-月白-新手设计师基本功训练法]]
+  - [[tool-月白-AI自动生成多语种专业名词提示词]]
+  - [[tool-月白-AI图生图尺寸快速转换]]
+  - [[tool-月白-AI工艺图人工复核法]]
+---# 技能：AIGC文字大小精确控制
 
 ## 原始表述
 

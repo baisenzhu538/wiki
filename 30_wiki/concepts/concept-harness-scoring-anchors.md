@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, ai-collaboration]
+domain:
+  - yitang
+  - ai-collaboration
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-马易-判断标准快速产出法]]
+  - [[tool-yitang-supplier-interview]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[framework-yitang-research-quality-gate]]
+  - [[framework-wanghuan-harness-seven-stages]]
 ---
-
 # 评分锚定
 
 > LLM评估者天然偏向中位数——用1-10分制时集中打7-8分，无法区分质量。Harness的三个解法：1-5分制 + 语义锚点 + 取较低值。

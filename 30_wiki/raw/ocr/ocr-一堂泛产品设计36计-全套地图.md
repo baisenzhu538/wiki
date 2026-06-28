@@ -2,8 +2,7 @@
 
 id: "ocr-一堂泛产品设计36计-全套地图"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-泛产品设计者的自我修养]]
+  - [[ocr-一堂泛产品设计-十年修炼爬山地图]]
+  - [[ocr-泛产品设计落地工具篇指南]]
+  - [[ocr-泛产品设计者的三大自我修养]]
 ---
-
 # OCR: 一堂泛产品设计36计-全套地图
 
 ## Summary

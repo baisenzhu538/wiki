@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, content-production]
+domain:
+  - yitang
+  - content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-ci-define-phase]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-indicators-signposts]]
+  - [[tool-devils-advocacy]]
+  - [[framework-candy-transcript-workflow]]
 ---
-
 # 口语化润色七条原则
 
 > Step 8——结构稳定后才润色。润色不是重写，是让文字"读出声来也不别扭"。

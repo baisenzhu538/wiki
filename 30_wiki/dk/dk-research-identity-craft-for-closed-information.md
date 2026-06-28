@@ -9,34 +9,32 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-research-decision-first-mapping]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-research-decision-first-mapping]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[tool-yitang-field-research]]
+  - [[tool-yitang-job-intelligence-research]]
+  - [[dk-yitang-research-cross-validation-cost]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[case-yitang-competitor-pricing-intelligence]]
+  - [[case-yitang-elderly-home-roleplay]]
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-supplier-security-guard]]
+  - [[case-zhanglan-amusement-park-undercover]]
 ---
-
 # 为获取封闭情报设计合法身份
 
 > **一句话定义**：当关键信息被锁在公开渠道之外时，通过设计一个合法、可信且能自然进入目标信息流的沉浸式身份，来获取真实决策情报。

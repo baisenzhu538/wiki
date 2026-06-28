@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-c9-batch-trigger-garbage]]
+  - [[tool-ci-define-phase]]
+  - [[framework-ci-operating-model]]
+  - [[tool-yitang-ai-assisted-analysis]]
+  - [[tool-indicators-signposts]]
+  - [[framework-ci-operating-model]]
+  - [[tool-yitang-research-continuous-tracking]]
 ---
-
 # CI Implement阶段：最后一公里
 
 > CI最有价值的洞察往往躺在共享文件夹里没人看。Implement阶段解决"怎么让洞察被用起来"。

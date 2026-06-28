@@ -3,8 +3,8 @@ id: tool-执行对标研究三步法
 title: 技能：执行对标研究三步法
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - entrepreneurship- product
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -27,13 +27,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：执行对标研究三步法
+  - [[tool-使用概念辨析卡区分易混淆概念]]
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-遵循规模前倾原则设计组织架构]]
+  - [[tool-使用优先级快筛卡锁定核心矛盾]]
+  - [[tool-设计对抗效果追踪看板]]
+---# 技能：执行对标研究三步法
 
 ## 原始表述
 > 建立「对标研究三步法」：①找公开信息（财报/招股书/行研报告）→②找行业专家（投资人/从业者）→③找间接对标（跨行业相似模式），并给出每步的具体问题清单

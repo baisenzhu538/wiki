@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-科学提问刻意练习"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_f70d7a7d-ocr-一堂-个人修炼-科学提问刻意练习.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-model-scientific-questioning-map]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-个人修炼-提问刻意练习画布]]
+  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
+  - [[ocr-一堂-个人修炼-解放思想]]
 ---
-
 # OCR: 一堂-个人修炼-科学提问刻意练习
 
 ## Summary

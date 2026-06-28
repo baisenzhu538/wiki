@@ -3,8 +3,7 @@ id: tool-月白-精准提示词消除模型幻觉
 title: 技能：精准提示词消除模型幻觉
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：精准提示词消除模型幻觉
+  - [[tool-月白-AI生图与图生图决策法]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[tool-月白-分层自洽海报生成法]]
+  - [[tool-月白-多语言提示词精准法]]
+  - [[tool-月白-AI设计严苛批评法]]
+---# 技能：精准提示词消除模型幻觉
 
 ## 原始表述
 

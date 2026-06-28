@@ -9,26 +9,28 @@ reviewed_by: 待审
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain: [strategy, yitang, product]
+domain:
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲师（自身业务复盘）
 source_context: 一堂精益创业·低成本验证课程讲义
 source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-weak-solution]]
+  - [[case-lean-premature-refinement]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[case-lean-premature-expansion]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
 ---
-
 # 一堂 2B 内训灰度测试
 
 ## 核心洞察

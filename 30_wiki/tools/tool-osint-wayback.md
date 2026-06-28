@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-firecrawl]]
+  - [[tool-dns-intelligence]]
+  - [[tool-agent-native-overview]]
+  - [[tool-osint-overview]]
+  - [[tool-osint-shodan]]
+  - [[tool-osint-overview]]
+  - [[tool-yitang-weapon-public-official-info]]
 ---
-
 # Wayback Machine：网站时光机
 
 > 看竞对官网的每一个历史版本——什么时候改了定位？什么时候删了产品？什么时候换了团队介绍？这些都是公开的战略信号。

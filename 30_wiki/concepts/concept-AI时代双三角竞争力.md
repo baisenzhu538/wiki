@@ -9,22 +9,23 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-科学决策三角形]]
+  - [[ocr-一堂-个人修炼-双三角模型]]
+  - [[yt-decision-ai-partner]]
+  - [[concept-稀缺机会窗口]]
+  - [[dk-决策经验值]]
+  - [[framework-科学决策三角形]]
+  - [[framework-TCPR底层网络协议]]
+  - [[concept-单元模型-学练用]]
+  - [[人机协作决策-双三角模型]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # AI时代的双三角竞争力
 
 ## 一句话定义

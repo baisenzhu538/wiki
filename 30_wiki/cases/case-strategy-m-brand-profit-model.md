@@ -8,19 +8,18 @@ author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-**背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式
+  - [[tool-yitang-wechat-group-infiltration]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[dk-yitang-cross-case-pattern-identity-escalation]]
+  - [[tool-strategy-profit-model-comparison]]
+  - [[tool-strategy-value-capture]]
+  - [[framework-strategy-business-design]]
+---**背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式
 
 **四种模式核心差异**：
 

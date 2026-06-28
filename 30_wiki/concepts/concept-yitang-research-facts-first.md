@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -28,20 +28,19 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-18-strategy-tool-mapping]]
+  - [[tool-yitang-research-quantitative-modeling]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-follow-map]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-quantitative-modeling]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[dk-yitang-expert-interview-5-traps]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 事实优先：区分事实与观点的认知纪律
 
 > **一句话**：事实是"可验证的陈述"，观点是"主观的判断"。调研失效的很大原因，是把观点当事实。事实优先是调研的认知纪律。

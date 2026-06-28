@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - lean-startup
+  - yitang
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑
 source_refs:
@@ -19,21 +19,20 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-ai-accelerated-strategy-cycle]]
+  - [[tool-lean-ai-accelerated-validation]]
+  - [[case-lean-zhanglei-pivot-decision]]
+  - [[case-lean-zhanglei-failure-counterfactual]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-lean-six-wastes]]
+  - [[framework-lean-product-kernel]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
 ---
-
 # 张磊 AMA：假设验证实操案例
 
 > 核心结论：张磊在 AMA 中以自身内衣洗衣液项目为例，演示了如何用 FALSE 模型左侧工具（对标调研 + 3D 打印假包装 + 场景测试）把“要不要做这个产品”的 A 象限商业成败假设，拆解成可低成本证伪的 B 象限关键决策，而不是直接跳进生产和全量投入。

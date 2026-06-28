@@ -2,8 +2,7 @@
 
 id: ocr-泛产品设计-审美工具箱指南
 created_at: 2026-05-21
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md
 status: draft
@@ -18,13 +17,12 @@ review_date: 2026-06-15
 confidence: 0.35
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-一堂五步法-产品内核画布]]
+  - [[ocr-审美提升的层级]]
+  - [[ocr-顶级产品追求的方向-乔布斯]]
+---# OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）
 
 > ⚠️ **校审结论**：OCR 识别存在较多错误（如“豆屏”“江信合场景”等），原图视觉层级和工具箱结构未能完整提取。当前内容仅为“最佳实践四阶段”等碎片化洞察，不建议直接作为工具使用。建议结合原图人工校对或等待 skill-月白 系列审美相关卡片作为替代来源。
 

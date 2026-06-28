@@ -4,8 +4,8 @@ title: 域索引入口卡 —— 大规模域建制的基础设施方案
 type: improvement-plan
 status: approved
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 source_refs:
   - 90_control/templates/domain-index-template.md
   - 30_wiki/domains/five-step-domain-digest.md
@@ -16,11 +16,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[five-step-domain-digest]]
+  - [[check-source-refs.py]]
+  - [[track-production-progress.py]]
 ---
-
 # 域索引入口卡 —— 大规模域建制的基础设施方案
 
 > 提交：黄药师 → 审查：欧阳锋 · 2026-06-21

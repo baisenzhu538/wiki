@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - ai
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
@@ -18,14 +18,14 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yb32-doubao-size-composition]]
+  - [[yt-foresight-ab-steady-state]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[yt-ai-trend-12-signals]]
+  - [[dk-foresight-tier-skip-illusion]]
+  - [[yt-ai-trend-12-signals]]
+  - [[yt-three-dimension-opportunity-matrix]]
+  - [[yt-foresight-probability-engineering]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -40,8 +40,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 时效性衰减
   follow_up_question: 这个信号的有效期还有多久？哪些关键变量可能在3个月内推翻它？
----
-# 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
+---# 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
 
 ## 原始表述 / 核心洞察
 

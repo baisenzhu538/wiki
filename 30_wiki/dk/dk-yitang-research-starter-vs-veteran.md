@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 新手重分析，老兵80%时间拿情报
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-research-cross-validation-cost]]
+  - [[dk-yitang-research-goal-before-efficiency]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[concept-yitang-research-mindset]]
+---# 新手重分析，老兵80%时间拿情报
 
 > 新手花80%时间分析问题、讨论策略；老兵花80%时间在市场上拿信息。新手还在想"用户痛点是什么"的时候，老兵已经靠一两通电话拿到了同行现成的答案。
 

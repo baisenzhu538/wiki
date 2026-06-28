@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-表达力火箭模型-执行武器库"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_e60a7ec8-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md
 status: draft
@@ -18,10 +17,9 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-个人修炼-表达力火箭模型]]
+  - [[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]
 ---
-
 # OCR: 一堂-个人修炼-表达力火箭模型-执行武器库
 
 ## Summary

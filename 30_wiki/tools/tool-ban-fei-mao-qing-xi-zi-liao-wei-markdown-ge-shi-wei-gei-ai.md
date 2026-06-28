@@ -10,14 +10,14 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[concept-半肥猫-ai-learning-toolification-methodology]]
+  - [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]
+  - [[dk-ban-fei-mao-atomic-no-standard]]
+  - [[tool-半肥猫-课程Skill化的八步工作流]]
+  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 tools_required:
@@ -30,7 +30,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
-
 # 技能：清洗资料为 Markdown 格式喂给 AI
 
 ## 用一句话讲清楚

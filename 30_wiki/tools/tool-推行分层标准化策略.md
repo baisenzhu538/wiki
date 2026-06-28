@@ -3,8 +3,8 @@ id: tool-推行分层标准化策略
 title: 技能：推行分层标准化策略
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - entrepreneurship- product
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -24,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：推行分层标准化策略
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-建立策略-要素映射表设计对抗策略]]
+  - [[tool-遵循规模前倾原则设计组织架构]]
+  - [[tool-使用优先级快筛卡锁定核心矛盾]]
+  - [[tool-设计对抗效果追踪看板]]
+---# 技能：推行分层标准化策略
 
 ## 原始表述
 > 推行「分层标准化」策略：核心服务标准模块化（如SOP系统）+边缘环节保留个性化空间（如定制方案），用「80%标准+20%灵活」的混合模型

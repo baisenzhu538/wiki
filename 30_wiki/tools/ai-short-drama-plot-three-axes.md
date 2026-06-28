@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - ai-saas- yitang
+  - ai-collaboration
+  - product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -21,8 +21,8 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-  - src_unknown
-  - src_unknown
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-conflict-three-axes
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ diagnostic_signals:
 - framework_lens: 第二板斧·高能吸睛 → 第一板斧·极致对立
   follow_up_question: 前10秒的钩子是否与核心对立绑定，能否在中点、反转、结局中不断放大？
 
----
-# 剧情三板斧：短剧剧本的情节张力设计工具
+---# 剧情三板斧：短剧剧本的情节张力设计工具
 
 > **Burn line**: 有锋芒、聚目光、升高度——三斧子砍出爆款味。
 

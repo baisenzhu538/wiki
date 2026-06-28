@@ -3,8 +3,7 @@
 
 id: tinyfish-agentic-web-infrastructure
 created_at: 2026-05-06
-domain:
-- src_unknown
+domain: master
 review_date: 2026-05-06
 reviewed_by: 黄药师
 status: draft
@@ -18,13 +17,12 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# TinyFish — Agentic Web 基础设施建设层 Skill
+  - [[paddleocr-skill]]
+  - [[plan_20260621_skill-iteration-standard]]
+  - [[dk-skill-market-agent-self-install]]
+  - [[tool-yitang-web-scraping-research]]
+  - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
+---# TinyFish — Agentic Web 基础设施建设层 Skill
 
 > $47M Series A (led by ICONIQ)，为 AI Agent 提供 Search/Fetch/Browser/Agent 一体化 Web 操作基础设施。
 

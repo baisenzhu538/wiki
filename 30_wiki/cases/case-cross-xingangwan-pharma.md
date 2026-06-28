@@ -12,10 +12,10 @@ language: zh-CN
 source_person: 项目相关方（录音）/ 王语嫣（整理）
 source_context: 跨域融合计划（策略 A）P1 案例卡；素材来自鑫港湾智慧药柜项目多份内部录音与 30_wiki 已有案例/概念卡交叉验证
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - lean-startup
+  - healthcare
+  - decision-making
 source_refs:
 - 30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md
 - 30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md
@@ -25,21 +25,20 @@ source_refs:
 - 30_wiki/entities/鑫港湾.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-leverage-traffic]]
+  - [[framework-strategy-lean-validation]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[case-lean-genki-forest-toolkit]]
+  - [[case-cross-yuanqi-forest]]
+  - [[framework-strategy-lean-validation]]
+  - [[framework-five-step-lean-interface]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-false-model]]
+  - [[framework-strategy-brm]]
+  - [[yt-decision-y-model]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
+  - [[case-smart-medicine-cabinet-business-model-validation]]
 ---
-
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
 
 > 一句话洞察：鑫港湾智慧药柜项目同时经历了“战略方向分裂”与“合规/商业假设重叠失效”，可用 [[framework-strategy-brm]] 把战略选择拆成可证伪命题，再用 [[framework-lean-false-model]] 与 [[framework-lean-abcd-model]] 做低成本验证，最后用 [[yt-decision-y-model]] 判断该 pivot、persevere 还是 kill。

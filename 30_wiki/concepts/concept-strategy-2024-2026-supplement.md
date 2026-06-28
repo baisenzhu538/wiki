@@ -11,19 +11,18 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-research-desperate-effort]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[framework-strategy-brm]]
+  - [[concept-strategy-framework-landscape]]
 ---
-
 # 2024-2026战略新变量
 
 > 冉鹏课程核心框架不过时，但2024-2026年出现了三个他未系统覆盖的战略新变量。

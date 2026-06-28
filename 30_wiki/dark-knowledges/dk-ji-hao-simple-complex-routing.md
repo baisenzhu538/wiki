@@ -5,20 +5,20 @@ title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
 type: dk
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-ji-hao-novice-mindset-advantage]]
+  - [[dk-ji-hao-ai-cant-design-structure]]
+  - [[dk-ban-fei-mao-silky-answer-warning]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[concept-ji-hao-ai-collaboration-methodology]]
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
@@ -38,8 +38,7 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 路由能力上限
   follow_up: 是否需要自动化路由或工作流引擎替代人工导诊台？
----
-# 暗知识：简单系统跳过导诊台，复杂系统必须路由
+---# 暗知识：简单系统跳过导诊台，复杂系统必须路由
 
 ## 原始表述
 

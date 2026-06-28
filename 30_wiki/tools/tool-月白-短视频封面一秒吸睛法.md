@@ -3,8 +3,7 @@ id: tool-月白-短视频封面一秒吸睛法
 title: 技能：短视频封面一秒吸睛法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：短视频封面一秒吸睛法
+  - [[tool-月白-AI平台算法咨询法]]
+  - [[tool-月白-AI生成IP表情包]]
+  - [[tool-月白-口喷式设计工作流]]
+  - [[tool-月白-风格探索试错法]]
+  - [[tool-月白-AIGC生成人物证件照]]
+---# 技能：短视频封面一秒吸睛法
 
 ## 原始表述
 

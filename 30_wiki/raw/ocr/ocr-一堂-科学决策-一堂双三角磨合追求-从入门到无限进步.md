@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[人机协作决策-双三角模型]]
+  - [[ocr-一堂-科学决策-稀缺机会窗口]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]
+  - [[ocr-一堂-科学决策-决策三角形]]
 ---
-
 # OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步
 
 

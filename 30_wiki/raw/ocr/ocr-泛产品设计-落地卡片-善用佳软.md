@@ -2,8 +2,7 @@
 
 id: "ocr-泛产品设计-落地卡片-善用佳软"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-泛产品设计-落地卡片-灵感闪现]]
+  - [[ocr-泛产品设计-落地卡片-风险管理]]
+  - [[ocr-泛产品设计-落地卡片-设计原则]]
+  - [[ocr-泛产品设计-落地卡片-业务建模]]
+  - [[ocr-泛产品设计-落地卡片-里程碑拆解]]
 ---
-
 # OCR: 泛产品设计-落地卡片-善用佳软
 
 ## Summary

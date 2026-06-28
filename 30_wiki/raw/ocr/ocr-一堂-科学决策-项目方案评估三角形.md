@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-项目方案评估三角形"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-稀缺机会窗口]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例04]]
+  - [[ocr-一堂-科学决策-决策三角形]]
 ---
-
 # OCR: 一堂-科学决策-项目方案评估三角形
 
 ## Summary

@@ -3,8 +3,7 @@
 title: 提案：AI 快速精通领域知识管线 — KDO 飞轮应用于学科速通
 type: improvement-plan
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
@@ -13,15 +12,15 @@ target_roles:
 - src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-f2-txt-ingest-skip]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[dk-f10-broken-source-refs]]
+  - [[dk-c3-txt-ingest-skip]]
+  - [[kdo-flywheel]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+  - [[three-party-data-alignment]]
 risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline
@@ -33,8 +32,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 提案：AI 快速精通领域知识管线
+---# 提案：AI 快速精通领域知识管线
 
 > **触发**：2026-06-02 飞轮迭代后，用户问"这个方法是否可以迁移到训练 AI 快速掌握一门学科？加上自动搜索是否可以加速？"
 >

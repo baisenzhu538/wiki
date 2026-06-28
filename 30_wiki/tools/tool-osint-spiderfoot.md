@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-crawl4ai]]
+  - [[tool-dns-intelligence]]
+  - [[tool-osint-wayback]]
+  - [[tool-osint-overview]]
+  - [[tool-google-dorking]]
+  - [[tool-osint-overview]]
 ---
-
 # SpiderFoot：自动化OSINT扫描
 
 > 开源、免费、一键式。输入目标（域名/IP/邮箱/姓名），SpiderFoot自动跑200+数据源扫描——情报界的"全自动侦察兵"。

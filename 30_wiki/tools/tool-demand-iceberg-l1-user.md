@@ -11,15 +11,16 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-- src_unknown
-- src_unknown
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l2-scenario]]
 ---
-
 # L1粗拆用户标签
 
 > 不能只看"职场人"这种大标签。要深入到身心状态、特别时刻和空间环境。三维拆解缩小切口。

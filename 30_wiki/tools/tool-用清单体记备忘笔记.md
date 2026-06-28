@@ -3,9 +3,9 @@ id: tool-用清单体记备忘笔记
 title: 技能：用清单体记备忘笔记
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- management
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -25,13 +25,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：用清单体记备忘笔记
+  - [[tool-提升笔记练习频次的方法]]
+  - [[tool-自我反馈修正笔记姿势]]
+  - [[tool-获取他人反馈优化笔记]]
+  - [[tool-现场建模式萃取笔记]]
+  - [[tool-用topdown方式整理内化笔记]]
+---# 技能：用清单体记备忘笔记
 
 ## 原始表述
 > 要点1：记录工具 要点2：文档工具 要点3：避免大段 要点4：只记备忘 要点5：逻辑分点

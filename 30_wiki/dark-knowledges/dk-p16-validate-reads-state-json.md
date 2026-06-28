@@ -5,8 +5,7 @@ title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dk
 dark_knowledge_type: failure
 status: enriched
-domain:
-- src_unknown
+domain: master
 source_person: system
 source_context: pitfalls.md P-16
 source_refs:
@@ -14,15 +13,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-f2-txt-ingest-skip]]
+  - [[dk-f5-stale-feedback-ref]]
+  - [[dk-infrastructure-guardrails-over-checklist]]
+  - [[dk-f3-state-json-race-condition]]
+  - [[dk-c3-txt-ingest-skip]]
+  - [[master-first-principles]]
+  - [[master-systems-thinking]]
+  - [[dk-c3-txt-ingest-skip]]
+  - [[dk-p15-unverified]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,8 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# P-16：validate 优先读取 state.json 而非文件 frontmatter
+---# P-16：validate 优先读取 state.json 而非文件 frontmatter
 
 ## 原始表述 / 核心洞察
 

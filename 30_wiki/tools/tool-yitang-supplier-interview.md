@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-weapon-partner-research]]
+  - [[tool-yitang-supply-chain-research]]
 ---
-
 # 供应商访谈
 
 > 找到竞对的供应商，以"潜在客户"身份获取竞对的真实数据。

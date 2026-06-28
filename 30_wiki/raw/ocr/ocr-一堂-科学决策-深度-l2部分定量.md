@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-深度-l2部分定量"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-深度-决策经验值]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
+  - [[yt-decision-depth-ladder]]
+  - [[ocr-一堂-科学决策-深度-l1优先级定性]]
+  - [[ocr-一堂-科学决策-深度-l4严格财务公式]]
 ---
-
 # OCR: 一堂-科学决策-深度-L2部分定量
 
 

@@ -2,8 +2,7 @@
 
 id: "ocr-truman的选择两条职业成长路线"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[yt-skill-storyline-contrast-analysis]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[yt-model-truman-career-routes]]
+  - [[ocr-一堂-单元模型-象限分析法]]
 ---
-
 # OCR: truman的选择：两条职业成长路线
 
 ## Summary

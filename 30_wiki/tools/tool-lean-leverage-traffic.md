@@ -10,26 +10,25 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-presell]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[case-lean-genki-forest-toolkit]]
+  - [[tool-lean-fake-product]]
+  - [[tool-lean-human-replace-rnd]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 借流量工具：用现有流量测试
 
 > 在自建获客渠道之前，先借用已经聚集目标人群的流量池，用最低成本验证「用户是否对这个概念感兴趣、愿意行动」。

@@ -11,16 +11,17 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l4-job-map]]
+  - [[tool-demand-iceberg-l6-hypothesis]]
+  - [[tool-demand-four-forces]]
 ---
-
 # L5隐藏洞察
 
 > L4告诉你在哪切入，L5告诉你用户会不会真的切换过来。人改变习惯不是因为"更好的功能"，是因为推力+拉力 > 焦虑+习惯。

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-doris-beauty-ecommerce-channel]]
+  - [[case-yitang-hardware-factory-photo]]
+  - [[case-doris-outbound-travel-community]]
+  - [[framework-doris-industry-report-4step]]
 ---
-
 # 案例：预判音乐流媒体趋势
 
 **背景**：2014年，Doris的团队要判断音乐行业的下一个方向。

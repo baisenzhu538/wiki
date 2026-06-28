@@ -3,8 +3,7 @@
 
 id: kimi-深度调研集群方法论-deep-research-swarm
 created_at: 2026-05-01
-domain:
-- src_unknown
+domain: ai-saas
 source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Kimi 深度调研集群方法论 (Deep-Research-Swarm)
+  - [[Kimi-月之暗面]]
+  - [[case-truman-ai-partner]]
+  - [[proposal-ai-domain-mastery-pipeline]]
+  - [[tool-agent-research-swarm]]
+  - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
+---# Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 
 > **核心理念**：多智能体认知三角测量（Epistemic Triangulation）——在不同研究维度上发散，检测重叠与矛盾，深度验证，再收敛为经过验证的综合结论。集群并行服务于认知鲁棒性，而非仅仅追求速度。
 

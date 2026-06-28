@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-crawl4ai]]
+  - [[tool-osint-spiderfoot]]
+  - [[tool-agent-native-overview]]
+  - [[framework-yitang-research-weapon-supplement-2026]]
+  - [[tool-osint-wayback]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[framework-yitang-research-weapon-supplement-2026]]
 ---
-
 # OSINT工具总览
 
 > OSINT（Open Source Intelligence）是情报界积累了几十年的开源情报方法论和工具链。一堂武器库以人工执行为主，OSINT补充了自动化扫描、实体关联、网络发现等能力。

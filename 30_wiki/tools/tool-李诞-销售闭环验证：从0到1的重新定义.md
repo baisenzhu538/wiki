@@ -2,8 +2,7 @@
 id: tool-李诞-销售闭环验证：从0到1的重新定义
 title: 技能：销售闭环验证：从0到1的重新定义
 type: tool
-domain:
-- src_unknown
+domain: content-production- marketing
 status: draft
 author: unknown
 reviewed_by: pending
@@ -15,13 +14,12 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：销售闭环验证：从0到1的重新定义
+  - [[tool-李诞-判断工作价值的交易成本视角]]
+  - [[tool-李诞-个人IP的重新定义与输出策略]]
+  - [[tool-李诞-内容创作中的观察训练法]]
+  - [[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]
+  - [[tool-李诞-面对过去错误的平静心法]]
+---# 技能：销售闭环验证：从0到1的重新定义
 
 ## 原始表述
 

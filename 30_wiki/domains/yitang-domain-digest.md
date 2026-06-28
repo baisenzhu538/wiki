@@ -5,19 +5,17 @@ type: index
 status: enriched
 confidence: 0.90
 trust_level: high
-domain:
-  - src_unknown
+domain: yitang
 source_context: 一堂创业/商业课程体系——五步法、调研、决策、需求、增长、壁垒、产品、内容生产
 created_at: "2026-06-23"
 author: 黄药师
 reviewed_by: pending
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[five-step-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[strategy-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 域摘要：一堂知识体系
 
 > 一堂——科学创业方法论。207 张卡片，覆盖从需求分析到壁垒构建的完整创业闭环。

@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-harness-adversarial-tester]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[tool-candy-oral-polish]]
+  - [[tool-indicators-signposts]]
+  - [[framework-structured-analytic-techniques]]
+  - （concept-半肥猫-ai-research-validation，待补）
+  - [[tool-harness-adversarial-tester]]
 ---
-
 # Devil's Advocacy
 
 > 与"交叉验证"的区别：交叉验证=多源核实事实是否正确；魔鬼代言人=即使事实正确，你的逻辑推理有没有漏洞？

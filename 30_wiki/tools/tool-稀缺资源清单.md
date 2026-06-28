@@ -10,22 +10,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-最佳实践池子]]
+  - [[framework-高水平共识曲线]]
+  - [[concept-最佳实践建模]]
+  - [[tool-审美工具箱]]
+  - [[concept-稀缺机会窗口]]
+  - [[framework-科学决策三角形]]
+  - [[concept-稀缺机会窗口]]
+  - [[tool-ROI决策评估画布]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 稀缺资源清单
 
 ## 一句话定义

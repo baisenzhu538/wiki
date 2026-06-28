@@ -2,8 +2,7 @@
 id: tool-水水-警惕错误归因
 title: 技能：警惕错误归因
 type: tool
-domain:
-- src_unknown
+domain: personal-growth
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -15,13 +14,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：警惕错误归因
+  - [[tool-水水-用感性维度构建溢价]]
+  - [[tool-水水-利用叙事驱动决策]]
+  - [[tool-水水-识别关键偶然因素]]
+  - [[tool-水水-识别自证预言陷阱]]
+  - [[tool-水水-识别超级传播者风险]]
+---# 技能：警惕错误归因
 
 ## 原始表述
 

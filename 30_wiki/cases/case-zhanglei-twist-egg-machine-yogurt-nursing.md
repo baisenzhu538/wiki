@@ -11,21 +11,22 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-doris-grab-industry-cognition]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[case-zhanglei-furniture-overseas-market-selection]]
+  - [[case-zhanglei-nursing-home-family]]
+  - [[framework-yitang-high-level-execution]]
+  - [[case-zhanglei-furniture-overseas-market-selection]]
+  - [[case-zhanglei-nursing-home-family]]
 ---
-
 # 案例：张磊——调研先行的连续创业者
 
 **人物**：张磊（化名），多次消费品/服务业创业者。Truman评价："你们看他之前做的扭蛋机、酸奶、养老院，都是最从调研开始，调研做得非常扎实。"

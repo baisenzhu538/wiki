@@ -3,8 +3,8 @@
 title: 'OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02'
 type: concept
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 status: draft
 source_refs:
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
@@ -17,13 +17,12 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02
+  - [[structured-ai-workspace]]
+  - [[ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper]]
+  - [[case-jh-yitang-vs-sqlhelper]]
+  - [[case-ji-hao-ai-workspace-chaos]]
+  - [[concept-纪浩-ai-collaboration-five-layer]]
+---# OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02
 
 ## Summary
 

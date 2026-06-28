@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-doris-catering-chain-benchmark]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[tool-yitang-financial-report-intelligence]]
 ---
-
 # 案例：新东方招股书中的营销渠道
 
 **问题**：如果你做线上教育，应该用什么方式获客？

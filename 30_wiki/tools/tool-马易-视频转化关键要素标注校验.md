@@ -3,8 +3,8 @@ id: tool-马易-视频转化关键要素标注校验
 title: 技能：视频转化关键要素标注校验
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：视频转化关键要素标注校验
+  - [[tool-马易-成为首位F工程师]]
+  - [[tool-马易-低置信度样本黄金漏斗处理]]
+  - [[tool-马易-平台模式验证法]]
+  - [[tool-马易-AIGC项目ROI评估]]
+  - [[tool-马易-公寓获客自跑通原则]]
+---# 技能：视频转化关键要素标注校验
 
 ## 原始表述
 

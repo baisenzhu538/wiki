@@ -9,22 +9,23 @@ reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-讲香十指模型-超级武器库]]
+  - [[framework-TCPR底层网络协议]]
+  - [[ocr-一堂-单元模型-tcpr底层网络协议]]
+  - [[concept-单元模型-学练用]]
+  - [[ocr-一堂-tcpr模型-皇冠模型]]
+  - [[framework-TCPR底层网络协议]]
+  - [[concept-单元模型-学练用]]
+  - [[framework-个人成长五步法]]
+  - [[tool-讲香十指模型-超级武器库]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # TCP-R皇冠模型
 
 ## 一句话定义

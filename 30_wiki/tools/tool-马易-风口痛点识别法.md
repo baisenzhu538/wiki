@@ -3,8 +3,8 @@ id: tool-马易-风口痛点识别法
 title: 技能：风口痛点识别法
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：风口痛点识别法
+  - [[tool-马易-成为首位F工程师]]
+  - [[tool-马易-平台模式验证法]]
+  - [[tool-马易-公寓获客自跑通原则]]
+  - [[tool-马易-减少输入噪音法]]
+  - [[tool-马易-RPA数据整合法]]
+---# 技能：风口痛点识别法
 
 ## 原始表述
 

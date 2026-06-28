@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - human-ai-collaboration
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -20,15 +20,15 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown-double-triangle
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[dk-wanghuan-creativity-in-description-and-taste]]
+  - human-ai-collaboration-double-triangle
+  - dk-wanghuan-standard-by-iteration
+  - framework-wanghuan-actor-director-mode
+  - framework-wanghuan-ooda-loop
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高
@@ -53,8 +53,7 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----
-# 王欢暗知识：输出质量 = 标准 × 迭代
+---# 王欢暗知识：输出质量 = 标准 × 迭代
 
 > **Burn line**: 不要追求一次写对。输出的追踪指标 = 你的标准 × 迭代次数。
 

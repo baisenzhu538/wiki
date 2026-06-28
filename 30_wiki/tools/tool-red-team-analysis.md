@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-harness-adversarial-tester]]
+  - [[tool-candy-oral-polish]]
+  - [[framework-structured-analytic-techniques]]
+  - [[tool-devils-advocacy]]
+  - [[framework-structured-analytic-techniques]]
+  - [[tool-yitang-research-competitor-tracking]]
+  - [[tool-harness-adversarial-tester]]
 ---
-
 # Red Team Analysis
 
 > 与第3掌（竞对跟踪）的互补：跟踪=观察竞对做了什么，Red Team=模拟竞对会做什么。

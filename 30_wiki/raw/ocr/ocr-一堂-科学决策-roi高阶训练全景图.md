@@ -3,11 +3,11 @@
 title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - needs-review
+  - ai-saas
+  - yitang
+  - decision-making
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md
@@ -19,13 +19,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-发现决策]]
+  - [[yt-decision-full-process]]
+  - [[ocr-一堂-科学决策-稀缺机会窗口]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
 ---
-
 
 
 

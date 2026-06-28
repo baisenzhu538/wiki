@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+  - strategy
+  - platform
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_ocr_text.md
@@ -16,11 +16,10 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-value-capture]]
+  - [[tool-strategy-customer-selection]]
 ---
-
 # 平台商业模式地图
 
 > 用可视化地图拆解平台型企业的核心结构：利益相关方、互动交易关系、价值主张与核心资源、网络效应与盈利模式。

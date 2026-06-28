@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-candy-problem-os-vpn]]
+  - [[tool-yitang-store-franchise-research]]
+  - [[tool-yitang-field-research]]
 ---
-
 # 案例：西安加盟选址——避免"想当然"式调研
 
 **案例来源**：Truman在行动营中的练习场景——"我想在西安加盟一个全国连锁奶茶品牌，它在一线城市做得很好，但西安刚开了几家。怎么判断能不能赚钱？"

@@ -12,8 +12,8 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: basic
 estimated_tokens: 2000
 version: 1
@@ -27,12 +27,11 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-public-information-research]]
+  - [[tool-yitang-financial-report-intelligence]]
+  - [[tool-doris-industry-report-search-tips]]
 ---
-
 # 第三方数据库与行业报告来源索引
 
 > **一句话**：Truman做了一个"超级大抄"——100+具体渠道。这里按品类梳理，让你在调研时知道去哪找，不轻易认怂。

@@ -11,22 +11,23 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-weapon-insider-intelligence]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[tool-yitang-consumer-goods-research]]
+  - [[tool-yitang-tech-project-research]]
 ---
-
 # 武器库策略13：产品逆向/拆解
 
 > 买回竞品实物，拆解分析——技术实现、成本结构、工艺水平，全部可见。

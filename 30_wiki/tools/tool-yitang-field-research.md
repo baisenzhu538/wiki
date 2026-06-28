@@ -13,8 +13,8 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -31,17 +31,16 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/调研手段卡1（门店）_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-store-franchise-research]]
+  - [[tool-yitang-consulting-business-research]]
+  - [[tool-yitang-organization-research]]
+  - [[yt-management-business-formula]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-store-franchise-research]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[yt-research-osl-framework]]
+  - [[case-yitang-luckin-field-research]]
 ---
-
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧
 
 > **一句话**：实地调研朴实无华——蹲店、谈话、数人头。只要把这三板斧做好了，就能砍掉90%的认知盲区。瑞幸做空报告动用了92个全职+1400个兼职，靠的就是这三件事。

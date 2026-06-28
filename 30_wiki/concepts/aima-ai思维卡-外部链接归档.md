@@ -3,8 +3,7 @@
 
 id: "aima-ai思维卡-外部链接归档"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
 - src_20260522_a8e05d98-aima-ai思维卡-外部链接归档
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# AIMA AI思维卡 — 外部链接归档
+  - [[ocr-truman的个人成长五步法]]
+  - [[ocr-一堂y模型-科学成事道理]]
+  - [[ocr-ocr_screenshot2]]
+  - [[ocr-一堂-地图-创业地图_conv]]
+  - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
+---# AIMA AI思维卡 — 外部链接归档
 
 ## Summary
 

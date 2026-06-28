@@ -3,8 +3,7 @@ id: tool-月白-RGB转CMYK色彩校准法
 title: 技能：RGB转CMYK色彩校准法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：RGB转CMYK色彩校准法
+  - [[tool-月白-包材工艺参数核对法]]
+  - [[tool-月白-Token效价比决策公式]]
+  - [[tool-月白-印刷DPI标准设置]]
+  - [[tool-月白-RGB转CMYK印刷预检]]
+  - [[tool-月白-PS图层规范管理]]
+---# 技能：RGB转CMYK色彩校准法
 
 ## 原始表述
 

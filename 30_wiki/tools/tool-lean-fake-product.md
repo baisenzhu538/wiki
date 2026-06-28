@@ -10,28 +10,27 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212131_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212131_vlm_desc.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-human-replace-system]]
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-cut-features]]
+  - [[tool-lean-presell]]
+  - [[tool-lean-leverage-competitor]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 假产品：用前端仿真验证需求
 
 > 在不做真实交付的前提下，用仿真产品前端（页面、海报、包装、按钮、菜单等）测试用户是否愿意为某个概念行动。

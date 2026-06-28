@@ -7,13 +7,12 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 related:
-- src_unknown
----
-**四象限**：
+  - [[framework-strategy-five-basics]]
+---**四象限**：
 - src_unknown
 - src_unknown
 - src_unknown

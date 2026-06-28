@@ -11,21 +11,22 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-firecrawl]]
+  - [[tool-agent-native-overview]]
+  - [[tool-osint-wayback]]
+  - [[tool-metadata-extraction]]
+  - [[tool-reverse-image-search]]
+  - [[tool-reverse-image-search]]
+  - [[tool-metadata-extraction]]
+  - [[framework-yitang-six-layer-cross-validation]]
 ---
-
 # 媒体验证技术总览
 
 > 竞对声称"我们的产品在XX市场大获成功"、照片里"热火朝天的生产线"、视频里"人山人海的门店"——这些是真的还是演的？媒体验证技术用客观证据说话。

@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-industry-expert]]
 ---
-
 # 专家网络付费平台
 
 > 凯盛/GLG/在行等专家网络平台——花钱买时间，1小时内拿到行业老兵10年的认知。

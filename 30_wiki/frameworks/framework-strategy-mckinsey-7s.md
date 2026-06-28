@@ -7,9 +7,9 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - organization
+  - change_management
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_vlm_desc.md
@@ -19,17 +19,16 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-ansoff]]
+  - [[concept-mckinsey-7s]]
+  - [[tool-strategy-core-competence-matrix]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[tool-strategy-value-proposition]]
+  - [[case-strategy-model-selection-quiz]]
+  - [[framework-strategy-blm]]
+  - [[framework-strategy-pyramid]]
+  - [[tool-strategy-risk-management]]
 ---
-
 # 麦肯锡 7S 模型：组织诊断与变革管理
 
 > 麦肯锡 7S 模型用于全面扫描组织的软硬要素，判断战略与组织能力的匹配度，尤其适合变革管理、数字化转型、并购整合等场景。

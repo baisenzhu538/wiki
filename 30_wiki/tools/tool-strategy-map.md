@@ -5,8 +5,7 @@ type: tool
 status: enriched
 confidence: 0.88
 trust_level: high
-domain:
-  - src_unknown
+domain: strategy
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md
 created_at: "2026-06-22"
@@ -14,11 +13,10 @@ updated_at: "2026-06-22"
 author: 黄药师（从 PPT _142 提取）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-business-design]]
+  - [[framework-strategy-brm]]
+  - [[framework-strategy-six-stages]]
 ---
-
 # 战略地图
 
 > PPT _142。冉鹏方法论中用于公司/各 BU/业务单元的标准化战略蓝图。不是"目标拆解"——是"每个业务单元的战略一致性检查"。

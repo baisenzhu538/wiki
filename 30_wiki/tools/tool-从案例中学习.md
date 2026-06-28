@@ -2,8 +2,7 @@
 id: tool-从案例中学习
 title: 技能：从案例中学习
 type: tool
-domain:
-- src_unknown
+domain: learning-methodology- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -24,13 +23,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：从案例中学习
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-ai辅助学习]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-费曼学习法三句话提炼]]
+---# 技能：从案例中学习
 
 ## 原始表述
 > L1.从案例中学 √失败案例：学习踩坑教训 √最佳实践：培养顶级见识 真实案例 具体事实 搞砸案例 曼佳实践落地案例

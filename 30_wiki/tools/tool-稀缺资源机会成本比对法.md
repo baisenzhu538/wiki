@@ -3,9 +3,9 @@ id: tool-稀缺资源机会成本比对法
 title: 技能：稀缺资源机会成本比对法
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - management
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
@@ -26,13 +26,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：稀缺资源机会成本比对法
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-对标借鉴他人决策维度]]
+  - [[tool-ai辅助学习]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-1视角升级思考法]]
+---# 技能：稀缺资源机会成本比对法
 
 ## 原始表述
 > 这些稀缺资源，还能做哪些其他的事情？眼下这个事情，是目前ROI最高的选项吗？

@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, content-production]
+domain:
+  - yitang
+  - content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-candy-transcript-workflow]]
+  - [[dk-yitang-research-goal-before-efficiency]]
+  - [[framework-demand-usp-model]]
+  - [[dk-ji-hao-problem-vs-question]]
+  - [[tool-candy-oral-polish]]
+  - [[framework-candy-transcript-workflow]]
 ---
-
 # 差异化定位画布
 
 > Candy的Step 2核心工具——在动笔之前回答：这篇内容凭什么存在？

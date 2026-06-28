@@ -2,8 +2,7 @@
 id: tool-按图索骥改良外部模板
 title: 技能：按图索骥改良外部模板
 type: tool
-domain:
-- src_unknown
+domain: learning-methodology- product
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -23,13 +22,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：按图索骥改良外部模板
+  - [[tool-用旗舰店替代纯招商投入]]
+  - [[tool-快招品牌总部模拟调研]]
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-通过请吃饭获取行业内部资料]]
+---# 技能：按图索骥改良外部模板
 
 ## 原始表述
 > 参考借鉴他人模板 ↓ 结合业务经验改良成我司适用的装备 ↓ 投入测试，放到几个门店和招商客户中应用起来 ↓ 收集反馈，调整优化 ← 确定建模，形成公司的标准装备

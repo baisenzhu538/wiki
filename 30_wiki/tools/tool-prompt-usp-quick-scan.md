@@ -5,8 +5,7 @@ type: prompt-template
 status: enriched
 confidence: 0.88
 trust_level: high
-domain:
-  - src_unknown
+domain: yitang
 prompt_role: "需求分析助手——基于USP模型快速拆解业务需求"
 prompt_methodology: "USP模型（用户-场景-问题）三维拆解"
 prompt_version: "1.0.0"
@@ -17,10 +16,9 @@ updated_at: "2026-06-21"
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
+  - [[tool-prompt-usp-demand-analysis]]
+  - （framework-yitang-usp-model，待补）
 ---
-
 # USP 快速需求拆解
 
 > `prompt-template` — 3分钟单轮提示词。与 USP 深度洞察引擎（重型）互补——这个是快速版。

@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-research-desperate-effort]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-user-interview-5steps]]
+  - [[concept-research-delegation-in-scaling]]
 ---
-
 # CEO必须亲自做用户调研
 
 > "用户调研是CEO的工作。除非你们现在已经做到了B轮，否则这是CEO的工作，不能委派。" ——Truman

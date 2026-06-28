@@ -7,8 +7,7 @@ type: tool
 source_refs:
 - 10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md
 status: enriched
-domain:
-  - src_unknown
+domain: yitang- yitang
 language: zh-CN
 version: 1
 difficulty: advanced
@@ -18,15 +17,15 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-tool-meeting-designer]]
+  - [[yt-tool-project-health-radar]]
+  - [[yt-pitch-storytelling]]
+  - [[case-yitang-radar-chart-selection]]
+  - [[dk-modeling-radar-model-not-result]]
+  - [[yt-management-business-formula]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-management-goal-management]]
+  - [[yt-tool-strategy-workshop]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -53,8 +52,7 @@ estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
 
----
-# 股权设计检查清单
+---# 股权设计检查清单
 
 > 从 [[yt-management-business-formula]] 和 [[yt-entrepreneur-lean-validation]] 萃取的公司治理工具。不是“分股比例怎么切”的财务计算，而是一套在“绑定”前检查关系健康度的“婚前协议”——**80% 的创业团队分裂不是因为业务失败，而是因为股权没说清楚**。
 

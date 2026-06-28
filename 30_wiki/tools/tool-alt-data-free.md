@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-media-verification-overview]]
+  - [[tool-dns-intelligence]]
+  - [[tool-osint-wayback]]
+  - [[tool-agent-native-overview]]
+  - [[tool-alt-data-overview]]
+  - [[tool-alt-data-overview]]
+  - [[tool-yitang-database-index]]
 ---
-
 # 免费替代数据
 
 > ⚠️ 注意：免费API和网站可能随时变化或关闭。本卡信息截至2026-06，使用前验证。

@@ -5,8 +5,8 @@ title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -18,14 +18,14 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
+  - [[dk-ban-fei-mao-skill-rejection-value]]
+  - [[case-半肥猫-course-to-skill]]
+  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
+  - [[case-ban-fei-mao-conversion-hacker-skill]]
+  - [[concept-半肥猫-ai-learning-toolification-methodology]]
+  - [[case-ban-fei-mao-conversion-hacker-skill]]
+  - [[dk-ban-fei-mao-skill-rejection-value]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -39,8 +39,7 @@ pipeline:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：Skill A/B 测试
+---# 案例：Skill A/B 测试
 
 ## 一句话摘要
 

@@ -3,8 +3,7 @@ id: tool-月白-设计基本功回归法
 title: 技能：设计基本功回归法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：设计基本功回归法
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[tool-月白-卖点可视化海报设计法]]
+  - [[tool-月白-光影灰度控制能力构建]]
+  - [[tool-月白-精准提示词撰写法]]
+  - [[tool-月白-AI去字-稿定设计加字工作流]]
+---# 技能：设计基本功回归法
 
 ## 原始表述
 

@@ -13,8 +13,8 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -29,17 +29,16 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-doris-industry-report-search-tips]]
+  - [[ocr-一堂-个人修炼-提问刻意练习画布]]
+  - [[framework-lean-expert-roadmap]]
+  - [[tool-按分阶练习路径渐进掌握方法]]
+  - [[proposal-prompt-injection-infrastructure]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[tool-yitang-organization-research]]
+  - [[yt-research-competitor-toolkit]]
 ---
-
 # 招聘渠道情报：五层递进挖掘竞对内部信息
 
 > **一句话**：招聘是情报调研最合法合规的通道。从读JD到假装面试到猎头勾搭高管——越往下越深，信息质量越高。对方为了讨好新工作，除了特别敏感的信息，很愿意和盘托出。

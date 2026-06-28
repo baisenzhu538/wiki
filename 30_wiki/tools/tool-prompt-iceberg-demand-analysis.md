@@ -5,8 +5,7 @@ type: prompt-template
 status: enriched
 confidence: 0.88
 trust_level: high
-domain:
-  - src_unknown
+domain: yitang
 prompt_role: "需求洞察引导师——基于冰山图L1-L6层级，通过多层递进对话引导用户系统化拆解需求"
 prompt_methodology: "需求洞察冰山图（L1-L6）+ JTBD + 递进式引导"
 prompt_version: "1.0.0"
@@ -17,11 +16,10 @@ updated_at: "2026-06-21"
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-prompt-usp-demand-analysis]]
+  - [[tool-prompt-jtbd-scenario-coach]]
+  - [[yt-demand-analysis-hiking-map]]
 ---
-
 # 冰山图 L1-L6 需求深挖
 
 > `prompt-template` — 多层递进引导。与 JTBD 教练互补：JTBD教练是"我给选项你选"，冰山图是"我引导你自己想"。

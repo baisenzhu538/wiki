@@ -10,32 +10,31 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[case-dutch-childcare-scandal]]
+  - [[case-ai-companion-emotional]]
+  - [[case-cambridge-novelists-survey]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
+  - [[case-cambridge-novelists-survey]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # 陈楸帆对 AI 写作的态度转向
 
 > **Burn line**：一位从 2017 年就亲自训练 AI 模型、把 AI 当「写作主人」的科幻作家，在 2025 年 DeepSeek 之后公开转向审慎——这个反转不是情绪，而是「亲自试过错」的人对技术保质期的修正。

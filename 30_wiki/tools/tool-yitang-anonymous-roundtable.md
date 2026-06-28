@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-bp-analysis]]
+  - [[tool-yitang-weapon-anonymous-identity]]
+  - [[tool-yitang-conference-networking]]
 ---
-
 # 匿名座谈
 
 > 以第三方/匿名身份组织行业小范围讨论，降低参与者的防备心理。

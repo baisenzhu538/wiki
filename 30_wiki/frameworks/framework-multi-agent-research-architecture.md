@@ -11,25 +11,27 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-four-moves]]
+  - [[tool-agent-research-supervisor]]
+  - [[concept-strategy-framework-landscape]]
+  - [[tool-agent-research-swarm]]
+  - [[tool-agent-native-overview]]
+  - [[tool-agent-research-supervisor]]
+  - [[tool-agent-research-swarm]]
+  - [[tool-agent-research-pipeline]]
+  - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[concept-harness-cattle-not-pets]]
+  - [[framework-ai-accelerated-strategy-cycle]]
 ---
-
 # 多智能体调研架构
 
 > 一个Agent做调研有上限。多个Agent分工协作——不同Agent执行武器库的不同策略，自动交叉验证，并行加速。LangChain benchmark：Swarm比Supervisor少40% token，但Supervisor更可靠。

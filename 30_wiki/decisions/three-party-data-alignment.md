@@ -4,8 +4,7 @@ id: three-party-data-alignment
 title: 三方认知对齐：KDO 数据管线 6+1 框架
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 tags:
 - src_unknown
 - src_unknown
@@ -23,13 +22,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 三方认知对齐：KDO 数据管线 6+1 框架
+  - [[dk-modeling-ai-compound-leverage]]
+  - [[plan_20260531_data-curator-v1.3]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[data-curator-role-division]]
+  - [[ouyangfeng-data-alignment-response]]
+---# 三方认知对齐：KDO 数据管线 6+1 框架
 
 ## 为什么需要这份文档
 

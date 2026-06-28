@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-bp-analysis]]
+  - [[tool-yitang-weapon-insider-intelligence]]
+  - [[case-yitang-elderly-home-roleplay]]
 ---
-
 # 微信群潜伏
 
 > 加入竞对的用户群/加盟商群/家属群，获取不公开的一手信息。

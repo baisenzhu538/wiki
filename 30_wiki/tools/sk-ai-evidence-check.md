@@ -6,8 +6,8 @@ title: 技能：AI输出证据核查三问法
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -19,13 +19,13 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai-problem-validation]]
+  - [[tool-ai-prd-for-ai]]
+  - [[tool-ai-evidence-check]]
+  - [[sk-ai-old-small-checklist]]
+  - [[sk-ai-prd-for-ai]]
+  - [[sk-ai-question-problem-checklist]]
+  - [[sk-ai-parallel-validation]]
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ definition_of_done:
 - src_unknown
 trust_level: medium
 
----
-# 技能：AI输出证据核查三问法
+---# 技能：AI输出证据核查三问法
 
 ## 用一句话讲清楚
 

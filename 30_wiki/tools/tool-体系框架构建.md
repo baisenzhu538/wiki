@@ -3,10 +3,10 @@ id: tool-体系框架构建
 title: 技能：体系框架构建
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- product
+  - management
+  - design
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -27,13 +27,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：体系框架构建
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-ai辅助学习]]
+  - [[tool-费曼学习法三句话提炼]]
+  - [[tool-专家访谈学习]]
+---# 技能：体系框架构建
 
 ## 原始表述
 > L2.体系框架 √雷达图：完整评价维度 稳定体系 √建框架：建MECE体系 N步法：完整逻辑链条

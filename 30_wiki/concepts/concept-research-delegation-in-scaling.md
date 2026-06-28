@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-yitang-facts-first]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[tool-yitang-supplier-interview]]
+  - [[concept-ceo-must-do-user-research]]
+  - [[concept-research-responsibility-boundary]]
 ---
-
 # 规模化中的调研委派
 
 > 当公司大了，CEO不可能亲自访谈每一个用户。但"不亲自做"不等于"不参与"。

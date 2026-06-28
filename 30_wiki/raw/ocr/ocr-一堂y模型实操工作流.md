@@ -2,8 +2,7 @@
 
 id: "ocr-一堂y模型实操工作流"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-ai学习-提问进化路线图]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-科学决策-项目方案评估三角形]]
+  - [[ocr-一堂-单元模型-象限分析法]]
+  - [[ocr-一堂-单元模型-壁垒预判]]
 ---
-
 # OCR: 一堂Y模型实操工作流
 
 ## Summary

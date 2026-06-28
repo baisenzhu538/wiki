@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - business-strategy
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -22,15 +22,15 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-coffee-shop-foresight]]
+  - [[dk-level-blindspot-external-feedback]]
+  - [[case-escort-service-tiered-growth]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[dk-signal-cluster-illusion]]
+  - [[yt-foresight-business-spectrum]]
+  - [[yt-entrepreneur-five-step-method]]
+  - [[case-coffee-shop-foresight]]
+  - [[case-escort-service-tiered-growth]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -42,8 +42,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
----
-# 暗知：终局光谱图的"跳级幻觉"
+---# 暗知：终局光谱图的"跳级幻觉"
 
 ## 原始表述 / 核心洞察
 

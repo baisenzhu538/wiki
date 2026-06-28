@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-firecrawl]]
+  - [[tool-osint-spiderfoot]]
+  - [[tool-agent-native-overview]]
+  - [[tool-osint-wayback]]
+  - [[tool-google-dorking]]
+  - [[tool-osint-overview]]
+  - [[tool-osint-shodan]]
 ---
-
 # DNS情报
 
 > 竞对的域名、DNS记录、SSL证书——这些"基础设施"层面的信息不会说谎。新域名=新项目，新SSL证书=新产品。

@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 调研投入必须与信息价值匹配
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-research-goal-before-efficiency]]
+  - [[dk-demand-hidden-need]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[concept-yitang-ideal-research-goal]]
+---# 调研投入必须与信息价值匹配
 
 > 为省5000块钱的调研费做了个500万的错误决策。反过来，花50万调研一个可能只值10万的机会——也是蠢。
 

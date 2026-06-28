@@ -4,8 +4,8 @@ title: Crawl4AI vs Firecrawl 选型评估——KDO 检索架构 Phase 2 爬虫�
 type: decision
 status: proposed
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 source_refs:
   - src_unknown
   - src_unknown
@@ -17,11 +17,10 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[system-yitang-research-workflow]]
+  - [[framework-yitang-research-quality-gate]]
+  - [[tool-yitang-web-scraping-research]]
 ---
-
 # Crawl4AI vs Firecrawl 选型评估
 
 > 狗粮测试：用调研域武器库跑完整调研工作流。黄药师 · 2026-06-21。

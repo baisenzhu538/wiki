@@ -3,8 +3,7 @@ id: tool-月白-文创材质调研与精益选择
 title: 技能：文创材质调研与精益选择
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：文创材质调研与精益选择
+  - [[tool-月白-AI设计反馈萃取法]]
+  - [[tool-月白-AI对话情绪管理法]]
+  - [[tool-月白-AI自动生成多语种专业名词提示词]]
+  - [[tool-月白-Token效价比决策法]]
+  - [[tool-月白-AI课程内容深度梳理法]]
+---# 技能：文创材质调研与精益选择
 
 ## 原始表述
 

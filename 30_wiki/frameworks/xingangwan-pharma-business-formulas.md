@@ -6,11 +6,11 @@ title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠�
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - healthcare- healthcare
+  - pharmaceutical-retail
+  - business-strategy
+  - product
+  - unit-economics
 created_at: '2026-06-19'
 updated_at: '2026-06-18'
 author: unknown
@@ -18,16 +18,16 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[shanxi-field-research-checklist-20260701]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[xingangwan-pharma-business-model-formulas]]
+  - [[case-offline-catering-formula]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[shanxi-field-research-checklist-20260701]]
+  - [[tool-funnel-formula-modeling]]
+  - [[yt-unit-model-construction]]
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:
@@ -45,7 +45,6 @@ tags:
 - src_unknown
 
 ---
-
 # 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 
 > **Burn line**: 业务公式回答的是“客户怎么一步一步变成利润”，而不是“利润等于多少”。

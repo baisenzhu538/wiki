@@ -5,8 +5,7 @@ type: tool
 status: enriched
 confidence: 0.90
 trust_level: high
-domain:
-  - src_unknown
+domain: strategy
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
   - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
@@ -15,11 +14,10 @@ updated_at: "2026-06-21"
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-value-capture]]
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-activity-scope]]
 ---
-
 # 盈利模式对比框架
 
 > 冉鹏 PPT _117——四种盈利模式的全维度对比。业务设计六要素第 3 要素"价值获取"的操作工具。

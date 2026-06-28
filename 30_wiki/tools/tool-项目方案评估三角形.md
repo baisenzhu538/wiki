@@ -10,22 +10,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-项目方案评估三角形_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-稀缺机会窗口]]
+  - [[tool-决策深度-L2部分定量]]
+  - [[yt-decision-review]]
+  - [[tool-Y模型实操工作流]]
+  - [[dk-你的业务是一次抽样实验]]
+  - [[framework-科学决策三角形]]
+  - [[tool-ROI决策评估画布]]
+  - [[tool-完整财务公式决策]]
+  - [[framework-lean-abcd-model]]
 ---
-
 # 项目方案评估三角形
 
 ## 一句话定义

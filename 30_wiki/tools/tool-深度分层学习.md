@@ -3,9 +3,9 @@ id: tool-深度分层学习
 title: 技能：深度分层学习
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- product
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -25,13 +25,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：深度分层学习
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-ai辅助学习]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-费曼学习法三句话提炼]]
+---# 技能：深度分层学习
 
 ## 原始表述
 > √深度：信息差<体系理解<深度洞察<专业实操

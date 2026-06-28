@@ -12,27 +12,26 @@ language: zh-CN
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA 精华（2026-06-14），Q27 判断力训练产品验证陷阱答疑
 domain:
-- src_unknown
-- src_unknown
+  - lean-startup
+  - yitang
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-lean-zhanglei-hypothesis-validation]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-zhanglei-pivot-decision]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[framework-lean-pivot-decision]]
 ---
-
 # 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
 
 ## 核心洞察

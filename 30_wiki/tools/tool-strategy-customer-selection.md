@@ -6,8 +6,7 @@ type: tool
 status: enriched
 confidence: 0.9
 trust_level: high
-domain:
-- src_unknown
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_101_vlm_desc.md
@@ -16,23 +15,22 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-ansoff]]
+  - [[tool-strategy-core-competence-matrix]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[tool-strategy-category-role-matrix]]
+  - [[tool-strategy-value-proposition]]
+  - [[case-strategy-retailer-activity-scope]]
+  - [[case-strategy-snack-business-design]]
+  - [[framework-strategy-blm]]
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-blue-ocean-canvas]]
+  - [[tool-strategy-business-design-template]]
+  - [[tool-strategy-category-role-matrix]]
+  - [[tool-strategy-market-opportunity-matrix]]
+  - [[tool-strategy-platform-business-map]]
+  - [[tool-strategy-value-proposition]]
 ---
-
 # 客户选择：六步循环迭代法
 
 > 业务设计六要素第 1 要素。核心问题：**我们到底为谁创造价值？谁是我们最重要的客户？**

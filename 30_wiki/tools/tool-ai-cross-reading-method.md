@@ -10,31 +10,30 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-information-quality-ladder]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[concept-ai-chair-determines-view]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
 ---
-
 # 交叉阅读法
 
 > **Burn line**：不要只读一本书，而是把 2-3 本立场相反的书放进同一个“辩论场”，让它们在脑子里对撞，原书的盲区才会显形。

@@ -9,21 +9,22 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-最佳实践池子]]
+  - [[concept-两种典型思考习惯]]
+  - [[tool-审美工具箱]]
+  - [[concept-稀缺机会窗口]]
+  - [[dk-决策经验值]]
+  - [[framework-科学决策三角形]]
+  - [[concept-两种典型思考习惯]]
+  - [[concept-发现决策]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # X型 vs Y型决策习惯
 
 ## 一句话定义

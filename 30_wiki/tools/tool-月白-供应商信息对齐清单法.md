@@ -3,8 +3,7 @@ id: tool-月白-供应商信息对齐清单法
 title: 技能：供应商信息对齐清单法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：供应商信息对齐清单法
+  - [[tool-月白-AIGC人群画像驱动详情页规划]]
+  - [[tool-月白-80分效率设计策略]]
+  - [[tool-月白-商业项目AI模型选型决策]]
+  - [[tool-月白-产品替换式场景合成法]]
+  - [[tool-月白-实物包装落地训练法]]
+---# 技能：供应商信息对齐清单法
 
 ## 原始表述
 

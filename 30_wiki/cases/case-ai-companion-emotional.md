@@ -10,31 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[case-chen-qiufan-ai-writing]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # AI 情感陪伴的市场与伦理
 
 > **Burn line**：当 AI 伴侣比父母更耐心、更懂你、24 小时在线不会发脾气时，孩子面对的不仅是“学习效率”问题，而是“在被塑造之前，人格是否还属于自己”的前意识伦理问题。

@@ -11,22 +11,23 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 交叉验证是成本也是护城河
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - [[dk-yitang-research-question-quality]]
+  - [[dk-yitang-ai-research-prompt-craft]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[tool-doris-industry-report-source-evaluation]]
+  - [[dk-yitang-research-scale-vs-depth]]
+  - [[framework-yitang-six-layer-cross-validation]]
+---# 交叉验证是成本也是护城河
 
 > 大多数人看到一份报告上写着"市场规模500亿"就引用了。而你做了一件事：溯源→找第二来源→检查统计口径→时间序列验证。你做这件事多花了2小时——但你的决策质量从此和大多数人不在一个量级。
 

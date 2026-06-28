@@ -9,22 +9,23 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-个人_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-企业_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-团队_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-高水平共识曲线]]
+  - [[framework-问题边界与Problem澄清五层结构]]
+  - [[concept-稀缺机会窗口]]
+  - [[concept-思考深度分级]]
+  - [[concept-X型Y型决策习惯]]
+  - [[framework-科学决策三角形]]
+  - [[concept-稀缺机会窗口]]
+  - [[framework-高水平共识曲线]]
 ---
-
 # 科学决策宽度：个人·企业·团队
 
 ## 一句话定义

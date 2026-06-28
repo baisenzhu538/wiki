@@ -3,8 +3,7 @@ id: tool-月白-里程碑思维拆解设计流程
 title: 技能：里程碑思维拆解设计流程
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：里程碑思维拆解设计流程
+  - [[tool-月白-AIGC产品白底图制作]]
+  - [[tool-月白-封面情绪转化法]]
+  - [[tool-月白-AI设计里程碑拆解法]]
+  - [[tool-月白-里程碑思维-找对标优先于做设计]]
+  - [[tool-月白-AI生成图片排版控制-尺寸优先法]]
+---# 技能：里程碑思维拆解设计流程
 
 ## 原始表述
 

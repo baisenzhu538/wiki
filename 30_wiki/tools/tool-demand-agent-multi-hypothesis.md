@@ -11,19 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method, ai-collaboration]
+domain:
+  - yitang
+  - five-step-method
+  - ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-demand-agent-case-match]]
+  - [[framework-demand-lean-bridge]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-agent-research-swarm]]
+  - [[five-step-domain-digest]]
+  - [[tool-demand-iceberg-l3-core-job]]
+  - [[tool-agent-research-swarm]]
 ---
-
 # Agent L3多假设并行
 
 > L3的传统做法是"选一个核心任务深挖"。Agent可以生成5个不同视角的核心任务假设，用Swarm模式并行推演，交叉对比后选出最精准的。

@@ -10,23 +10,22 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[modeling-level-map]]
+  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
+  - [[ocr-一堂-单元模型-修炼地图]]
+  - [[yt-decision-full-process]]
+  - [[framework-lean-expert-roadmap]]
+  - [[framework-科学决策三角形]]
+  - [[tool-决策深度-L1优先级定性]]
+  - [[tool-决策深度-L4严格财务公式]]
+  - [[yt-unit-model-overview]]
+  - [[yt-tool-unit-model-benchmark]]
 ---
-
 # 完整财务公式决策：L1-L6认知分级
 
 ## 一句话定义

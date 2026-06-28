@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 调研深度决定决策质量
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[tool-yitang-weapon-partner-research]]
+  - [[dk-yitang-research-question-quality]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - [[framework-yitang-six-layer-cross-validation]]
+---# 调研深度决定决策质量
 
 > 浅调研给你"感觉"，中调研给你"数据"，深调研给你"可决策的证据"。
 

@@ -5,21 +5,21 @@ title: 暗知识：日志增长最快但最容易被忽视
 type: dk
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ban-fei-mao-real-business-is-the-engine]]
+  - [[dk-ji-hao-simple-complex-routing]]
+  - [[dk-ji-hao-pdca-starts-from-do]]
+  - [[dk-ji-hao-constraint-beats-talent]]
+  - [[dk-ji-hao-newbie-can-validate]]
+  - [[concept-ji-hao-ai-collaboration-methodology]]
+  - [[tool-纪浩-日志驱动排查法]]
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 pipeline:
@@ -39,8 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 日志失控
   follow_up_question: 我是否定期审查日志结构、清理噪声，并建立命名/归档规范？
----
-# 暗知识：日志增长最快但最容易被忽视
+---# 暗知识：日志增长最快但最容易被忽视
 
 ## 原始表述
 

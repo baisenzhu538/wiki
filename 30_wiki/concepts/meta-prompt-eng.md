@@ -3,8 +3,7 @@
 
 id: meta-prompt-eng
 created_at: 2026-05-21
-domain:
-- src_unknown
+domain: ai-saas
 source_refs:
   - src_20260522_a89ab860-meta-prompt-eng
 status: draft
@@ -19,13 +18,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Meta Prompt Eng
+  - [[design-ai-image-generation]]
+  - [[business-analysis]]
+  - [[learning-thinking]]
+  - [[writing-content]]
+  - [[product-ux]]
+---# Meta Prompt Eng
 
 ## Summary
 

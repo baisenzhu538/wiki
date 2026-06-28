@@ -3,10 +3,10 @@
 title: "OCR: 一堂-科学决策-高水平共识曲线（重要）"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - product
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md
@@ -18,13 +18,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-高阶体系探索营-三种咨询可能性]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-单元模型-基准值]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-单元模型-单sku模型]]
 ---
-
 
 
 

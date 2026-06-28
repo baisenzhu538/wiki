@@ -4,20 +4,19 @@ id: fix-dark-knowledge-extractor-llm
 title: 萃取器升级：regex → LLM-based 暗知识提取
 type: improvement-plan
 status: pending
-domain:
-- src_unknown
+domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
 - src_unknown
 reviewer: 欧阳锋（Architect）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-c1-cjk-regex-silent-fail]]
+  - [[dk-f1-regex-on-cjk]]
+  - [[fix-data-curator-parse-bug]]
+  - [[ouyangfeng-labeling-research-review]]
+  - [[data-labeling-best-practices-report]]
+  - [[plan_20260531_data-curator-v1.3]]
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,8 +24,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
----
-# 萃取器升级：regex → LLM-based 暗知识提取
+---# 萃取器升级：regex → LLM-based 暗知识提取
 
 > **问题**：`extract_dark_knowledge.py` 纯 regex 方案提取的 118 条候选质量不可接受。
 >   - title 全部为空

@@ -3,8 +3,7 @@
 title: 标注准确率标准对齐 — 开发指标 vs 生产门禁
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 target_roles:
@@ -16,20 +15,19 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[gold-standard-manual-labels]]
+  - [[dk-f14-accuracy-measurement-mismatch]]
+  - [[proposal-prompt-injection-infrastructure]]
+  - [[dk-p17-accuracy-gap]]
+  - [[labeling-research-alignment]]
+  - [[gold-standard-manual-labels]]
+  - [[labeling-final-consolidation]]
+  - [[kdo-15-dimension-label-spec]]
 id: label-accuracy-standard-alignment
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 标注准确率标准对齐
+---# 标注准确率标准对齐
 
 > **背景**：黄药师报 88.3%（4 维），欧阳锋实测 79.3%（9 维）。双方口径不一致。
 > **目的**：统一标准，避免 P-17 重演。

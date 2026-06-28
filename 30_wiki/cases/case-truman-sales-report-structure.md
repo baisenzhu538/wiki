@@ -37,15 +37,16 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
-domain: *id001
+domain:
+  - 工作汇报
+  - 复盘结构化
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[dk-modeling-checklist-formatting-rules]]
+  - [[case-modeling-essence-levels]]
+  - [[framework-logic-cleanliness-five-levels]]
+  - [[tool-ai-skill-engineering-method]]
+---# 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 
 ## 原始表述
 

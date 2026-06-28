@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 破案式深挖的信念
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-research-goal-before-efficiency]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-yitang-ai-research-prompt-craft]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[dk-yitang-research-desperate-effort]]
+---# 破案式深挖的信念
 
 > "只要给我一个线头，我就能把整件毛衣拆开。"
 

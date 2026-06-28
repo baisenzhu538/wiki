@@ -8,8 +8,8 @@ superseded_by:
 - src_unknown
 - src_unknown
 domain:
-- src_unknown
-- src_unknown
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂商业预判课（2026年）
 source_refs:
@@ -17,8 +17,8 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
+  - [[concept-一堂-product-kernel]]
+  - [[concept-一堂-key-assumptions]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -29,8 +29,7 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----
-# 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+---# 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 
 > ⚠️ **本卡已废弃。** 本卡为旧格式的早期版本（draft），已被以下新卡替代：
 > - [[yt-foresight-business-spectrum]]（终局光谱图）—— 同域的升级版框架卡

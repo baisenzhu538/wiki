@@ -3,8 +3,7 @@ id: tool-月白-AIGC设计作业复盘法
 title: 技能：AIGC设计作业复盘法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AIGC设计作业复盘法
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[tool-月白-小红书双重搜索法]]
+  - [[tool-月白-新手设计师基本功训练法]]
+  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
+  - [[tool-月白-文创材质成本调研与精益选择]]
+---# 技能：AIGC设计作业复盘法
 
 ## 原始表述
 

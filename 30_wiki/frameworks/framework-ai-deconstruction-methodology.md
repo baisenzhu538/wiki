@@ -10,24 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-information-quality-ladder]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-chair-determines-view]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 tags:
 - src_unknown
 - src_unknown
@@ -35,7 +35,6 @@ tags:
 - src_unknown
 - src_unknown
 ---
-
 # 王欢三层拆书法
 
 > **Burn line**: 拆书的真正价值不是复述作者说了什么，而是看见书没说的东西——并在那些盲区之上长出自己的判断。

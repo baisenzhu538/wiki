@@ -2,8 +2,7 @@
 
 title: 高密度素材编译策略（修订）
 type: decision
-domain:
-- src_unknown
+domain: kdo
 status: revised
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
@@ -18,9 +17,8 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 related:
-  - src_unknown
----
-# 高密度素材编译策略 v2.0
+  - [[tool-osint-maltego]]
+---# 高密度素材编译策略 v2.0
 
 > 欧阳锋制定。v1.0 提出的"复合编译"方案已被废弃——该方案按人类线性阅读优化，不适用于 agent 的 RAG 检索模式。v2.0 改用细粒度知识卡 + 导航层架构。
 

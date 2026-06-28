@@ -10,23 +10,22 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键训练清单（重要））_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-科学决策三角形]]
+  - [[tool-泛产品落地-业务建模]]
+  - [[tool-泛产品落地-逻辑MECE]]
+  - [[tool-泛产品落地-酝酿式打磨]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[framework-科学决策三角形]]
+  - [[tool-ROI决策评估画布]]
+  - [[tool-决策深度-L1优先级定性]]
+  - [[concept-稀缺机会窗口]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 科学决策ROI·关键训练清单
 
 ## 一句话定义

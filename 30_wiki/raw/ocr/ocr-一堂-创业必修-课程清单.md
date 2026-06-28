@@ -3,11 +3,11 @@
 title: "OCR: 一堂-创业必修-课程清单"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
+  - entrepreneurship
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md
@@ -19,10 +19,9 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-管理必修-课程清单]]
+  - [[ocr-一堂-个人修炼-课程清单]]
 ---
-
 
 # OCR: 一堂-创业必修-课程清单
 

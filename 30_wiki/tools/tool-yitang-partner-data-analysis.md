@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-weapon-partner-research]]
+  - [[tool-yitang-supplier-interview]]
 ---
-
 # 合作方案数据
 
 > 以合作名义拿到竞对的渠道政策、分成比例、促销方案——这些是公开渠道永远不会出现的数字。

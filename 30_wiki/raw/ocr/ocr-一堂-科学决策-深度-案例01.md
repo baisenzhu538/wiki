@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-深度-案例01"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
+  - [[ocr-一堂-科学决策-宽度-团队]]
+  - [[ocr-一堂-科学决策-深度-案例05]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
+  - [[ocr-一堂-科学决策-深度-案例03]]
 ---
-
 # OCR: 一堂-科学决策-深度-案例01
 
 ## Summary

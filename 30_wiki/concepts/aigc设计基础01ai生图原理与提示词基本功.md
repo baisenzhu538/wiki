@@ -4,8 +4,8 @@
 id: aigc设计基础01ai生图原理与提示词基本功
 created_at: 2026-05-28
 domain:
-- src_unknown
-- src_unknown
+  - ai-saas
+  - design
 source_refs:
   - src_20260528_2ba8539f-aigc设计基础01ai生图原理与提示词基本功
 status: draft
@@ -20,13 +20,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# AIGC设计基础01：AI生图原理与提示词基本功
+  - [[tool-月白-分层自洽海报生成法]]
+  - [[tool-月白-AI设计严苛批评法]]
+  - [[tool-月白-AIGC模型选型决策法]]
+  - [[tool-月白-AI模型选择策略]]
+  - [[tool-月白-精准提示词消除模型幻觉]]
+---# AIGC设计基础01：AI生图原理与提示词基本功
 
 > 月白（一堂AI俱乐部线上Live · 2026年）分享。从AI生图技术演进到提示词基本功，面向零基础设计师和生产者的入门课。
 

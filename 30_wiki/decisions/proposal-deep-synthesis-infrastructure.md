@@ -3,8 +3,7 @@
 title: 基础设施升级提案：深度合成产线 — 解决文章'不够深刻'的工厂级根因
 type: improvement-plan
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 target_roles:
@@ -15,19 +14,18 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[kdo-flywheel]]
+  - [[dk-f11-encyclopedia-style]]
+  - [[dk-f7-surface-translation]]
+  - [[three-party-data-alignment]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+  - [[labeling-final-consolidation]]
+  - [[plan_20260531_data-curator-v1.3]]
 id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 基础设施升级提案：深度合成产线
+---# 基础设施升级提案：深度合成产线
 
 > **触发**：用户说老顽童的 AI 数据文章"不够深刻"。表面看是单篇文章质量问题，实际是工厂流水线的结构性盲区。
 > **提案人**：黄药师

@@ -3,9 +3,9 @@ id: tool-分层标注重点信息
 title: 技能：分层标注重点信息
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -25,13 +25,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：分层标注重点信息
+  - [[tool-多轮确认防偏差]]
+  - [[tool-主动摘要压缩上下文]]
+  - [[tool-反向提示获取优化建议]]
+  - [[tool-渐进式披露上下文]]
+  - [[tool-提示词结构化迭代]]
+---# 技能：分层标注重点信息
 
 ## 原始表述
 > 4.分展标注 5.重点标注

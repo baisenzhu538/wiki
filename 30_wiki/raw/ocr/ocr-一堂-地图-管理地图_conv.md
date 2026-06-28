@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-地图-管理地图_conv"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-微信图片_20260507004758_35_32]]
+  - [[ocr-微信图片_20260507004811_41_32]]
+  - [[ocr-微信图片_20260507004804_39_32]]
+  - [[ocr-一堂-地图-创业地图_conv]]
+  - [[ocr-一堂进步大地图_compressed]]
 ---
-
 # OCR: 一堂-地图-管理地图_conv
 
 ## Summary

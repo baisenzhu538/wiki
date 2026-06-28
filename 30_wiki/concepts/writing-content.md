@@ -3,8 +3,7 @@
 
 id: writing-content
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
 - src_20260522_5819659f-writing-content
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Writing Content
+  - [[business-analysis]]
+  - [[learning-thinking]]
+  - [[老朱的水感-2026年5月]]
+  - [[meta-prompt-eng]]
+  - [[product-ux]]
+---# Writing Content
 
 ## Summary
 

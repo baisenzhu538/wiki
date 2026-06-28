@@ -13,9 +13,9 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - research
+  - ai-collaboration
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -31,17 +31,16 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-five-step-level-blindspots]]
+  - [[concept-yitang-ai-research-10-assumptions]]
+  - [[yt-note-five-levels-training]]
+  - [[yt-personal-ai-capability]]
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[concept-yitang-ai-research-10-assumptions]]
+  - [[concept-yitang-ai-research-human-loop]]
+  - [[concept-research-responsibility-boundary]]
 ---
-
 # AI辅助调研工作流：七工具四层深度+十大假设
 
 > **一句话**：AI做深度案例调研的上限非常高——但前提是人必须清楚地知道调研什么、什么是好的调研。AI不是替代你的判断，是放大你的判断。

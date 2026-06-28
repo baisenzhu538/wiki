@@ -2,8 +2,7 @@
 
 id: "ocr-一堂进步大地图"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-地图-个人地图]]
+  - [[ocr-一堂-地图-创业地图]]
+  - [[yt-model-progress-map]]
+  - [[ocr-一堂-地图-管理地图]]
+  - [[ocr-一堂个人地图高潜力成长者修炼全景图]]
 ---
-
 # OCR: 一堂进步大地图
 
 ## Summary

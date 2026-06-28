@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - ai
 source_person: 一堂
 source_context: AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
 source_refs:
@@ -22,11 +22,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-three-dimension-opportunity-matrix]]
+  - [[dk-pseudo-demand-trap]]
+  - [[yt-three-dimension-opportunity-matrix]]
+  - [[yt-ai-startup-20-risky-hypotheses]]
+  - [[case-ai-time-management-tiered-growth]]
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -39,8 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: "新能力\"维度权重过高，\"新行业/新模式\"需求验证被系统性跳过"
   follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
----
-# 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"
+---# 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"
 
 ## 原始表述
 

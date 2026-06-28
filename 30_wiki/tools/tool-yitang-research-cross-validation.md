@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -28,21 +28,20 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-research-normalize-summary]]
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-research-quantitative-modeling]]
+  - [[concept-yitang-research-facts-first]]
+  - [[tool-yitang-research-follow-map]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - （tool-yitang-research-facts-first，待补）
+  - [[tool-yitang-research-quantitative-modeling]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[dk-yitang-research-source-freshness]]
+  - [[dk-yitang-expert-interview-5-traps]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 交叉验证：多源印证的信息可信度提升
 
 > **一句话**：单一来源的信息不可信。交叉验证强迫你用至少2个独立来源验证关键信息，确保结论可靠。

@@ -3,8 +3,7 @@ id: tool-月白-AI去文字-稿定设计快速出图法
 title: 技能：AI去文字+稿定设计快速出图法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI去文字+稿定设计快速出图法
+  - [[tool-月白-AI一句话改图尺寸]]
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[tool-月白-AIGC人群画像驱动详情页规划]]
+  - [[tool-月白-AI对话式海报修改（免PS）]]
+  - [[tool-月白-商业项目AI模型选型决策]]
+---# 技能：AI去文字+稿定设计快速出图法
 
 ## 原始表述
 

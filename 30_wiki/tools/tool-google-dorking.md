@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-doris-industry-report-search-tips]]
+  - [[tool-osint-spiderfoot]]
+  - [[tool-dns-intelligence]]
+  - [[tool-osint-wayback]]
+  - [[tool-yitang-industry-report-search]]
+  - [[tool-yitang-weapon-media-search]]
+  - [[tool-doris-industry-report-search-tips]]
 ---
-
 # Google Dorking：高级搜索语法
 
 > 零成本、零门槛、最高ROI。Google的高级搜索操作符能挖出普通搜索永远找不到的信息——竞对的内部文档、暴露的配置文件、忘记设权限的敏感页面。

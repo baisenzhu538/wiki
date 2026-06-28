@@ -10,25 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-chair-determines-view]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # 阿马拉定律与商业判断校准
 
 > 一句话：阿马拉定律指出，人类倾向于高估技术的短期效应、低估其长期影响力；把它引入商业判断，就是要在 AI 投资与产品决策中区分" headlines 驱动的恐慌"与"结构性的长期位移"。

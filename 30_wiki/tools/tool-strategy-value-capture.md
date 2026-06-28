@@ -10,8 +10,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- src_unknown
-- src_unknown
+  - strategy
+  - business_model
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_vlm_desc.md
@@ -22,23 +22,22 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-ansoff]]
+  - [[tool-strategy-business-design-template]]
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-category-role-matrix]]
+  - [[tool-strategy-value-proposition]]
+  - [[case-strategy-m-brand-profit-model]]
+  - [[case-strategy-snack-export-opportunity]]
+  - [[case-strategy-snack-industry-chain]]
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-activity-scope]]
+  - [[tool-strategy-business-design-template]]
+  - [[tool-strategy-industry-chain-analysis]]
+  - （tool-strategy-logistics-cost-planning，待补）
+  - [[tool-strategy-platform-business-map]]
+  - [[tool-strategy-value-proposition]]
 ---
-
 # 价值获取设计工具：8 问盈利模型
 
 > 业务设计六要素第 3 要素。核心问题：**我们如何从提供的价值中获利？盈利模式是什么？**

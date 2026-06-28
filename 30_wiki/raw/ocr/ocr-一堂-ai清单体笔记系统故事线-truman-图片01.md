@@ -3,8 +3,8 @@
 title: 'OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01'
 type: concept
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - ai-collaboration
 status: draft
 source_refs:
 - 10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md
@@ -17,13 +17,12 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01
+  - [[ocr-一堂-ai学习-提问进化路线图]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-单元模型-象限分析法]]
+  - [[yt-note-three-level-evolution]]
+---# OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01
 
 ## Summary
 

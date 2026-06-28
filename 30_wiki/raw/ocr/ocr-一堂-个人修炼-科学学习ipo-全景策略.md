@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-科学学习ipo-全景策略"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-个人修炼-科学学习ipo完整清单]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
+  - [[yt-personal-ipo-learning]]
+  - [[dk-truman-knowledge-extraction-three-schools]]
 ---
-
 # OCR: 一堂-个人修炼-科学学习IPO-全景策略
 
 ## Summary

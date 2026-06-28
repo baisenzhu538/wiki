@@ -10,26 +10,25 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212341_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212341_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-human-replace-system]]
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-stealth-service]]
+  - [[tool-lean-cut-features]]
+  - [[tool-lean-presell]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[framework-lean-six-wastes]]
 ---
-
 # 人工替代高阶研发
 
 > 在验证「高阶研发是否值得做」之前，先用人工执行原本由算法/系统/硬件承担的任务，把不可退的技术投入降级为可证伪的服务实验。

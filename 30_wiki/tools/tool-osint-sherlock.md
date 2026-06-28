@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-crawl4ai]]
+  - [[tool-osint-spiderfoot]]
+  - [[tool-osint-maltego]]
+  - [[tool-osint-overview]]
+  - [[tool-osint-overview]]
+  - [[tool-yitang-people-network-database]]
 ---
-
 # Sherlock：用户名跨平台追踪
 
 > 输入一个用户名，Sherlock自动检查300+社交平台——瞬间找到一个人在全网的数字足迹。

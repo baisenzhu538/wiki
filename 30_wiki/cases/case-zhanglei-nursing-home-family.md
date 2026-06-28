@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-zhanglei-twist-egg-machine-yogurt-nursing]]
+  - [[case-doris-grab-industry-cognition]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-zhanglei-furniture-overseas-market-selection]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[case-yitang-elderly-home-roleplay]]
 ---
-
 # 案例：假扮家属获取养老院真实运营信息
 
 **人物**：张磊（化名），以调研手段"接地气"著称。

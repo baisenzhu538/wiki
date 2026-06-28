@@ -10,28 +10,27 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-information-quality-ladder]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-cross-reading-method]]
+  - [[concept-ai-chair-determines-view]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[tool-tech-probability-80-filter]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # AI 预测来源验证检查单
 
 > **Burn line**：面对任何 AI 预测，先别问“它对不对”，先问“谁在说、坐在哪把椅子上、证据落在信息质量阶梯的哪一层”。

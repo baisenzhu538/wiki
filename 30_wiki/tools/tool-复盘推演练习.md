@@ -3,9 +3,9 @@ id: tool-复盘推演练习
 title: 技能：复盘推演练习
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- kdo
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -26,13 +26,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：复盘推演练习
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-代入场景推演要素法]]
+  - [[tool-ai辅助学习]]
+  - [[tool-费曼学习法三句话提炼]]
+---# 技能：复盘推演练习
 
 ## 原始表述
 > L3.复盘推演 √复盘过去：复盘过去的成败得失 √推演未来：推演下一步具体工作 √角色扮演：带入角色解决高难问题

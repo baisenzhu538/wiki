@@ -4,8 +4,8 @@ title: KDO 质量体系升级——Harness Engineering 三原则落地
 type: improvement-plan
 status: active
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 source_refs:
   - 00_inbox/Harness Engineering：让 AI 像团队一样写出生产级代码.md
   - 60_feedback/diagnosis/diag_20260621_Harness Engineering文档诊断.md
@@ -17,13 +17,12 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-yitang-research-quality-gate]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[concept-harness-cattle-not-pets]]
+  - [[concept-harness-scoring-anchors]]
+  - [[tool-harness-adversarial-tester]]
 ---
-
 # KDO 质量体系升级——Harness Engineering 三原则落地
 
 > 来源：王欢 Harness Engineering 文章 + 王语嫣诊断 + 黄药师独立判断

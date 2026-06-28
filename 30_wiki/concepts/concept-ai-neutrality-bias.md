@@ -10,29 +10,28 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[concept-ai-information-quality-ladder]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-cross-reading-method]]
+  - [[concept-ai-chair-determines-view]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[concept-ai-chair-determines-view]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-gan-three-roles]]
 ---
-
 # 中立的暴政
 
 > 一句话："技术本质上是中立的"这句看似理性的话，实际上把责任转嫁给使用者、遮蔽权力结构、并把维持现状包装成默认选项——最精明的立场，就是假装没有立场。

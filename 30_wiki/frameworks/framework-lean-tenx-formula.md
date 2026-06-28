@@ -10,24 +10,23 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-lean-six-wastes]]
+  - [[tool-lean-stealth-service]]
+  - [[ocr-泛产品设计-落地卡片-十倍速验证]]
+  - [[tool-泛产品落地-十倍速验证]]
+  - [[tool-lean-fake-product]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[concept-一堂-kernel-validation]]
 ---
-
 # 十倍速公式：避免系统性失败
 
 > 用"常识→情报→实验→全量投入"的递进阶梯，把认知学习的成本压到最低，把重投入的确定性提到最高，从而避免一次性押上全部资源的系统性失败。

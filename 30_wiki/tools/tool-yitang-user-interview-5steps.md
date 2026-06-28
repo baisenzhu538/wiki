@@ -13,8 +13,8 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -28,16 +28,15 @@ source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-research-deep-attribution]]
+  - [[tool-yitang-weapon-anonymous-identity]]
+  - [[dk-strategy-07-strategy-vs-dividend]]
+  - [[tool-月白-里程碑思维拆解设计流程]]
+  - [[tool-yitang-weapon-user-direct-interview]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-field-research]]
+  - [[yt-research-user-jtbd]]
 ---
-
 # 用户访谈五步执行法：画像·场景·信任·提问·判断
 
 > **一句话**：80%的创业失败源于对用户需求理解不足。用户访谈五步法——先想清楚找谁聊（画像）、在哪聊（场景）、凭什么跟你聊（信任）、怎么问出真话（提问）、怎么判断真伪（判断）。

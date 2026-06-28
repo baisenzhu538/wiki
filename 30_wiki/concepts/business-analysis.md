@@ -3,8 +3,7 @@
 
 id: business-analysis
 created_at: 2026-05-21
-domain:
-- src_unknown
+domain: ai-saas
 source_refs:
   - src_20260522_9d98d526-business-analysis
 status: draft
@@ -19,13 +18,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Business Analysis
+  - [[ocr-一堂-单元模型-找基准值实操难点]]
+  - [[learning-thinking]]
+  - [[meta-prompt-eng]]
+  - [[writing-content]]
+  - [[product-ux]]
+---# Business Analysis
 
 ## Summary
 

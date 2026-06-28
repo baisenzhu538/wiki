@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-yitang-track-selection-research]]
+  - [[case-yitang-doorstep-nail-service-context]]
+  - [[case-yitang-ai-time-management-coach]]
+  - [[case-yitang-mvp-reward-interview-waste]]
+  - [[framework-yitang-expert-interview-10steps]]
+  - [[tool-yitang-user-interview-5steps]]
 ---
-
 # 案例：滑雪项目——把重度用户当专家
 
 **背景**：创业者想做滑雪相关产品，需要深度理解滑雪爱好者的真实需求和行为模式。

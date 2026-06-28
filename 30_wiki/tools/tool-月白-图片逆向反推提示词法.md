@@ -3,8 +3,7 @@ id: tool-月白-图片逆向反推提示词法
 title: 技能：图片逆向反推提示词法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：图片逆向反推提示词法
+  - [[tool-月白-课程问题预埋法]]
+  - [[tool-月白-背景消除与分辨率修复]]
+  - [[tool-月白-AI需求拆解咨询法]]
+  - [[tool-月白-提示词优化：信息流海报文字修复]]
+  - [[tool-月白-三步作业反馈法]]
+---# 技能：图片逆向反推提示词法
 
 ## 原始表述
 

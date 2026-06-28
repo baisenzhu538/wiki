@@ -11,21 +11,23 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method, ai-collaboration]
+domain:
+  - yitang
+  - five-step-method
+  - ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-18-strategy-tool-mapping]]
+  - [[tool-demand-agent-case-match]]
+  - [[tool-alt-data-overview]]
+  - [[tool-demand-agent-auto-verify]]
+  - [[tool-demand-agent-signal-substitute]]
+  - [[tool-demand-iceberg-l1-user]]
+  - [[tool-demand-iceberg-l2-scenario]]
+  - [[tool-demand-blindspot-checklist]]
 ---
-
 # Agent L1-L2信号聚合
 
 > L1+L2的传统做法是"凭经验猜用户画像和场景"。Agent可以替代这一步——自动聚合Reddit/评论/搜索趋势/竞品数据，用信号代替直觉。

@@ -4,8 +4,7 @@ id: anthropic-官方发布创始人手册打造-ai-原生初创公司
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: foundational
-domain:
-- src_unknown
+domain: entrepreneur
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -15,15 +14,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[master-ai-info-literacy]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[yt-management-toolkit-overview]]
+  - [[yt-model-dual-triangle-competitiveness]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[yt-tool-meeting-designer]]
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
@@ -37,8 +36,7 @@ pipeline:
 - src_unknown
 author: unknown
 trust_level: medium
----
-# AI 原生创业四阶段模型（Anthropic 创始人手册）
+---# AI 原生创业四阶段模型（Anthropic 创始人手册）
 
 > 来源：Anthropic《创始人手册：打造 AI 原生初创公司》（2026.5.17）。Anthropic 官方发布。
 

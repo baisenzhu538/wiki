@@ -10,27 +10,26 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-stealth-service]]
+  - [[tool-lean-leverage-competitor]]
+  - [[tool-lean-fake-product]]
+  - [[tool-lean-human-replace-rnd]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[framework-lean-abcd-model]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 假营销：用故事验证兴趣
 
 > 在产品还没做出来之前，先用一个「可信的故事」去接触目标用户，观察他们是否产生兴趣、愿意进一步了解，甚至主动留下联系方式。

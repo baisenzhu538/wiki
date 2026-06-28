@@ -2,8 +2,7 @@
 
 id: "ocr-泛产品设计-落地卡片-内核和边界"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-泛产品设计-落地卡片-灵感闪现]]
+  - [[ocr-泛产品设计-落地卡片-风险管理]]
+  - [[ocr-泛产品设计-落地卡片-攻坚会]]
+  - [[ocr-泛产品设计-落地卡片-业务建模]]
+  - [[ocr-泛产品设计-落地卡片-逻辑mece]]
 ---
-
 # OCR: 泛产品设计-落地卡片-内核和边界
 
 ## Summary

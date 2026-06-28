@@ -2,8 +2,7 @@
 
 title: YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引
 type: improvement-plan
-domain:
-- src_unknown
+domain: kdo
 status: draft
 source_refs:
 - src_unknown
@@ -16,13 +15,12 @@ confidence: 0.7
 trust_level: low
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# YAML 标注对 KDO 知识库的启发
+  - [[dk-tool-chain-naming-is-infrastructure]]
+  - [[dk-f13-handwritten-yaml-parser]]
+  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
+  - [[data-curator-role-division]]
+  - [[dk-p19-quote-yaml]]
+---# YAML 标注对 KDO 知识库的启发
 
 > 半肥猫在 AI 学习落地分享中强调：写笔记一定要做 YAML 标注。
 > 

@@ -6,8 +6,8 @@ title: 技能："找老的干小的"场景评估清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
@@ -29,13 +29,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[sk-ai-system-redundancy]]
+  - [[tool-ai-prd-for-ai]]
+  - [[tool-ai-old-small-checklist]]
+  - [[tool-ai-ai-workspace-setup]]
+  - [[tool-ai-parallel-validation]]
+  - [[sk-ai-landing-five-steps]]
+  - [[ai-landing-scene-selection]]
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -45,8 +45,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----
-# 技能："找老的干小的"场景评估清单
+---# 技能："找老的干小的"场景评估清单
 
 ## 用一句话讲清楚
 

@@ -3,13 +3,13 @@ id: tool-ai辅助学习
 title: 技能：AI辅助学习
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang- product
+  - ai-saas
+  - design
+  - yitang
+  - entrepreneurship
+  - decision-making
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -30,13 +30,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI辅助学习
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-费曼学习法三句话提炼]]
+  - [[tool-自我反馈检验]]
+---# 技能：AI辅助学习
 
 ## 原始表述
 > √用AI：使用人工智能工具

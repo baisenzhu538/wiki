@@ -8,8 +8,7 @@ source_refs:
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed
-domain:
-- src_unknown
+domain: kdo
 implementor: 黄药师 (Builder)
 dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）
 id: kdo-watch-health-check-layer
@@ -19,13 +18,12 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# kdo watch 定时巡检层技术说明
+  - [[存储策略]]
+  - [[dk-c5-todo-false-positive]]
+  - [[sprint-2-gate-enrich-evidence]]
+  - [[graph-rag-retrieval-layer]]
+  - [[proposal-kdo-flywheel-infrastructure]]
+---# kdo watch 定时巡检层技术说明
 
 > kdo watch 已解决了"新素材进来自动走流水线"的问题。
 > 本文件定义缺失的那一半——已有知识库的健康状态持续监控。

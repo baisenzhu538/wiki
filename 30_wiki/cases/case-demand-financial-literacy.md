@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-rural-5g]]
+  - [[case-demand-tier4-housekeeping]]
+  - [[dk-demand-pitfall-financial-literacy]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-financial-literacy]]
+  - [[tool-demand-assessment-triangle]]
 ---
-
 # 案例：少儿财商教育
 
 **初始判断**：家长重视孩子财商教育，"刚性"很高。课程设计得很用心。

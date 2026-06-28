@@ -10,24 +10,22 @@ review_date: "2026-06-27"
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 00_inbox/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单商圈模型.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-单元模型-象限分析法]]
+  - [[tool-单元模型-壁垒预判]]
+  - [[concept-最简单元模型]]
+  - [[tool-单元模型-单城市]]
+  - [[framework-单元模型-外部对抗地图]]
+  - [[yitang-domain-digest]]
+  - [[yt-unit-model-overview]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-lean-abcd-model]]
 ---
-
 # 单元模型：单商圈模型
 
 ## Purpose

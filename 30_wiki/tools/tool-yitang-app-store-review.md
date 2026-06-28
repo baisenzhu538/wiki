@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-weapon-product-reputation]]
+  - [[tool-yitang-review-analysis]]
 ---
-
 # 应用商店评论分析
 
 > App Store/应用商店的评论是功能请求和竞品对比的免费数据库。

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-yitang-elderly-home-roleplay]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-doris-2014-music-streaming-prediction]]
+  - [[case-yitang-hardware-factory-photo]]
+  - [[tool-yitang-field-research]]
+  - [[framework-yitang-high-level-execution]]
 ---
-
 # 案例：瑞幸做空——实地调研的教科书
 
 **背景**：2020年浑水/雪湖发布瑞幸咖啡做空报告，89页。

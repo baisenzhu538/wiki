@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-partner-data-analysis]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-industry-expert]]
+  - [[tool-yitang-weapon-product-reverse]]
+  - [[tool-yitang-consumer-goods-research]]
+  - [[tool-yitang-tech-project-research]]
 ---
-
 # 硬件产品拆解调研
 
 > 买回竞品实物，拆到零件级，分析BOM成本和工艺水平。

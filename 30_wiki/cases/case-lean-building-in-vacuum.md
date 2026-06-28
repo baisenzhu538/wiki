@@ -9,26 +9,28 @@ reviewed_by: 待审
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain: [strategy, yitang, product]
+domain:
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲师（教学案例）
 source_context: 一堂精益创业·低成本验证课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-perfectionism-traps]]
+  - [[case-lean-weak-solution]]
+  - [[case-lean-wrong-demand]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
 ---
-
 # 闭门造车案例集
 
 ## 核心洞察

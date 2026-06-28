@@ -10,28 +10,27 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲义/讲师案例
 source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-presell]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-premature-expansion]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[framework-lean-four-principles]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
 ---
-
 # 元气森林试错工具箱
 
 ## 核心洞察

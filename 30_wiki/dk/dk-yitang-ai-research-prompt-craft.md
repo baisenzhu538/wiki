@@ -11,21 +11,23 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# AI调研效果取决于问题拆解和人工判断
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-yitang-digging-belief]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[tool-yitang-ai-research-workflow]]
+  - [[concept-yitang-ai-research-human-loop]]
+  - [[dk-yitang-research-ai-hallucination]]
+---# AI调研效果取决于问题拆解和人工判断
 
 > "人越强，AI越强。你啥也不会，AI也使不上劲儿。" ——Truman，行动营课上反复强调
 

@@ -11,20 +11,22 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, content-production, ai-collaboration]
+domain:
+  - yitang
+  - content-production
+  - ai-collaboration
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[concept-harness-cattle-not-pets]]
+  - [[tool-yitang-weapon-former-employee-network]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[concept-harness-cattle-not-pets]]
+  - [[framework-candy-transcript-workflow]]
 ---
-
 # AI是协作者而非代写工具
 
 > 方向感必须是人的。AI可以跑很快，但不知道往哪跑。

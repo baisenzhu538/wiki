@@ -2,8 +2,7 @@
 
 id: paddleocr-skill
 created_at: 2026-05-07
-domain:
-- src_unknown
+domain: master
 review_date: 2026-05-07
 reviewed_by: pending
 status: draft
@@ -17,13 +16,12 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
+  - [[ocr-微信图片_20260507004811_41_32]]
+  - [[ocr-微信图片_20260507004801_37_32]]
+  - [[tinyfish-agentic-web-infrastructure]]
+  - [[ocr-微信图片_20260507004758_35_32]]
+  - [[ocr-微信图片_20260507004806_40_32]]
+---# PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 
 > 百度 PaddlePaddle 出品，GitHub 74K+ stars，PP-OCRv5 中文准确率 ~97.8%。**本地部署方案已投产**：Node.js + ONNX Runtime，零网络依赖。
 

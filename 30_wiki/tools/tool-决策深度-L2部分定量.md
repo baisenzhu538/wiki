@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L2部分定量_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-稀缺机会窗口]]
+  - [[tool-决策深度-L1优先级定性]]
+  - [[tool-项目方案评估三角形]]
+  - [[dk-你的业务是一次抽样实验]]
+  - [[dk-决策经验值]]
+  - [[tool-决策深度-L1优先级定性]]
+  - [[tool-决策深度-L3定量公式]]
+  - [[framework-科学决策三角形]]
 ---
-
 # 决策深度L2：部分定量
 
 ## 一句话定义

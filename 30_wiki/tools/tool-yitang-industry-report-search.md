@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-doris-industry-report-search-tips]]
+  - [[tool-yitang-weapon-media-search]]
+  - [[tool-dns-intelligence]]
+  - [[tool-google-dorking]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-doris-industry-report-search-tips]]
+  - [[tool-yitang-database-index]]
 ---
-
 # 行业报告搜索技巧
 
 > 各机构公开发布的行业研究报告——免费但需要知道怎么搜。

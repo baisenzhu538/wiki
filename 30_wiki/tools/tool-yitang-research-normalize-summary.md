@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
@@ -28,19 +28,18 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-research-two-dimensional-positioning]]
+  - [[tool-yitang-research-quantitative-modeling]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-single-point-sniper]]
+  - [[tool-yitang-research-follow-map]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-deep-attribution]]
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 归一总结：整合信息形成统一结论
 
 > **一句话**：调研的价值不在信息多少，而在结论是否 actionable。归一总结强迫你整合所有信息，形成明确、可执行、有置信度的结论。

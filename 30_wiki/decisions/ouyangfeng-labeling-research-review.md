@@ -4,22 +4,21 @@ id: ouyangfeng-labeling-research-review
 title: 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[graph-rag]]
+  - [[labeling-final-consolidation]]
+  - [[case-chen-qiufan-ai-writing]]
+  - [[labeling-research-alignment]]
+  - [[data-labeling-best-practices-report]]
+  - [[kdo-15-dimension-label-spec]]
+  - [[labeling-research-alignment]]
+  - [[data-labeling-best-practices-report]]
 author: unknown
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -27,8 +26,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
+---# 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 
 > 调研范围：2025-2026 年 AI-powered 数据标注、RAG 元数据治理、LLM 自动标签的行业实践
 > 关键来源：NVIDIA Enterprise RAG Blueprint、Amazon Multi-Turn RAG (KDD 2025)、ATLAN Data Prep for LLM (2026)、Enterprise Knowledge Auto-tagging Guide、BISE Semi-Automatic Taxonomy (2026)、百度开发者 NLP 打标体系

@@ -3,8 +3,7 @@
 
 id: 街顺app全面调研报告
 created_at: 2026-04-26
-domain:
-- src_unknown
+domain: healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
@@ -20,13 +19,12 @@ pipeline:
 author: unknown
 confidence: 0.85
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 街顺APP全面调研报告
+  - [[HIS系统开发实现方案-架构师指南]]
+  - [[鑫港湾his系统分阶段整改报告]]
+  - [[保达云诊所深度调研报告]]
+  - [[HIS系统深度调研]]
+  - [[紫鲸ai智能体工作流平台]]
+---# 街顺APP全面调研报告
 
 ## Summary
 

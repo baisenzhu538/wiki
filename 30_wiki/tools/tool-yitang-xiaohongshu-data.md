@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-pc-web-data]]
+  - [[tool-yitang-stock-data]]
+  - [[tool-yitang-amazon-bestseller]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-weapon-third-party-database]]
+  - [[tool-yitang-public-sentiment-research]]
 ---
-
 # 小红书数据
 
 > 小红书——消费决策的核心平台。种草笔记数量=品牌热度，差评笔记=产品缺陷。

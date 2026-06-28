@@ -8,21 +8,19 @@ author: 王语嫣 → 老顽童
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain:
-- src_unknown
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-**对比矩阵**：
+  - [[tool-strategy-activity-scope]]
+  - [[case-strategy-snack-business-design]]
+  - [[dk-yb22-visual-presentation-scene-match]]
+  - [[tool-strategy-activity-scope]]
+  - [[tool-strategy-category-role-matrix]]
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-value-proposition]]
+---**对比矩阵**：
 
 | 维度 | 零售商A | 零售商B | 零售商C |
 |--|--|--|--|

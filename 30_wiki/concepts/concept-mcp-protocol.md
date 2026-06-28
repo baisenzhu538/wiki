@@ -11,20 +11,22 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-agent-firecrawl]]
+  - [[紫鲸AI]]
+  - [[tool-agent-native-overview]]
+  - [[framework-yitang-research-weapon-supplement-2026]]
+  - [[tool-yitang-web-scraping-research]]
+  - [[tool-agent-native-overview]]
+  - [[tool-yitang-ai-research-workflow]]
 ---
-
 # MCP协议
 
 > **⚠️ 供应商锁定风险：MCP由Anthropic主导，可能有生态偏向。** Model Context Protocol——让AI Agent说一句话就调用一个外部工具，无需人工配置。

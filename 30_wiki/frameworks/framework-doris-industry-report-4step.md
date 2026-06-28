@@ -14,8 +14,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - src_unknown
-  - src_unknown
+  - research- yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -32,24 +32,23 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-doris-industry-report-search-tips]]
+  - [[framework-yitang-expert-interview-10steps]]
+  - [[tool-yitang-research-industry-scan]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[system-yitang-research-workflow]]
+  - [[framework-yitang-high-level-plan]]
+  - [[framework-yitang-high-level-execution]]
+  - [[yt-research-industry-canvas]]
+  - [[yt-research-intelligence-map]]
+  - [[tool-yitang-database-index]]
+  - [[tool-doris-industry-report-search-tips]]
+  - [[tool-doris-industry-report-source-evaluation]]
+  - [[dk-yitang-research-source-freshness]]
+  - [[dk-yitang-research-ai-hallucination]]
+  - [[case-doris-grab-industry-cognition]]
 
 ---
-
 # 行业报告调研四步法：7天快速建立行业认知
 
 > **一句话**：80%的创业者浪费大量时间和金钱找信息，而这些信息往往能在行业报告中找到。四步法帮你用7天建立完整行业认知，成本不到一次专家访谈的1/10。

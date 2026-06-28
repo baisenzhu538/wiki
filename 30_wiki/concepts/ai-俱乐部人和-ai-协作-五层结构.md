@@ -4,11 +4,11 @@
 title: "AI 俱乐部·人和 AI 协作 — 五层结构"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - ai-saas
+  - design
+  - yitang
+  - decision-making
 status: enriched
 source_refs:
 - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
@@ -20,13 +20,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01]]
+  - [[dk-ji-hao-ai-cant-design-structure]]
+  - [[dk-modeling-ai-compound-leverage]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[master-ai-info-literacy]]
 ---
-
 
 
 # AI 俱乐部·人和 AI 协作 — 五层结构

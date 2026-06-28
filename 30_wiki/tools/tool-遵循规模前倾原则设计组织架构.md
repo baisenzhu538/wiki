@@ -3,10 +3,10 @@ id: tool-遵循规模前倾原则设计组织架构
 title: 技能：遵循规模前倾原则设计组织架构
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - entrepreneurship- product
+  - management
+  - design
+  - business-strategy
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -26,13 +26,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：遵循规模前倾原则设计组织架构
+  - [[tool-使用概念辨析卡区分易混淆概念]]
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-建立策略-要素映射表设计对抗策略]]
+  - [[tool-使用优先级快筛卡锁定核心矛盾]]
+  - [[tool-设计对抗效果追踪看板]]
+---# 技能：遵循规模前倾原则设计组织架构
 
 ## 原始表述
 > 组织设计遵循「规模前倾」原则：提前设计能承载3倍规模的组织架构，避免被迫应急式扩编

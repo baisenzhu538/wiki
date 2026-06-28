@@ -6,8 +6,7 @@ type: framework
 status: enriched
 confidence: 0.95
 trust_level: high
-domain:
-- src_unknown
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_35_ocr_text.md
@@ -17,23 +16,22 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-five-see-three-set]]
+  - [[framework-strategy-brm]]
+  - [[tool-strategy-swot]]
+  - [[tool-strategy-value-proposition]]
+  - [[framework-strategy-business-design]]
+  - [[case-strategy-model-selection-quiz]]
+  - [[framework-strategy-business-design]]
+  - [[framework-strategy-five-forces]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[framework-strategy-mckinsey-7s]]
+  - [[framework-strategy-pyramid]]
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-fishbone]]
+  - [[tool-strategy-swot]]
+  - [[tool-strategy-value-proposition]]
 ---
-
 # IBM BLM 业务领导力模型 + 华为五看三定
 
 > IBM BLM（Business Leadership Model）是连接战略制定与执行的系统框架。华为在此基础上演化为“五看三定”。

@@ -4,11 +4,11 @@
 title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
 status: enriched
 source_refs:
 - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
@@ -20,13 +20,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-truman-ai-partner]]
+  - [[ai-俱乐部人和-ai-协作-五层结构]]
+  - [[case-jh-yitang-vs-sqlhelper]]
+  - [[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]
+  - [[ai-native-im-multi-agent]]
 ---
-
 
 
 # AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）

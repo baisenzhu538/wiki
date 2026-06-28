@@ -7,8 +7,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-- src_unknown
-- src_unknown
+  - strategy
+  - market_positioning
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_ocr_text.md
@@ -17,18 +17,17 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-ansoff]]
+  - [[yitang-strategy-canvas]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[framework-strategy-five-forces]]
+  - [[tool-strategy-value-proposition]]
+  - [[framework-strategy-business-design]]
+  - [[framework-strategy-five-forces]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-value-proposition]]
 ---
-
 # 蓝海战略画布（价值曲线工具）
 
 > 通过可视化价值曲线，把客户重视的多个竞争要素同时展示出来，从而发现"同时追求差异化与低成本"的蓝海空间。

@@ -3,11 +3,11 @@
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - product
+  - needs-review
+  - ai-saas
+  - yitang
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md
@@ -19,13 +19,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-外部对抗地图]]
+  - [[yt-model-dual-triangle-competitiveness]]
+  - [[ocr-一堂-科学决策-人机协作决策]]
+  - [[ocr-一堂-个人修炼-双三角模型]]
+  - [[ocr-一堂-单元模型-abcd策略模型]]
 ---
-
 
 
 

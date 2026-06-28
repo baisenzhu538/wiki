@@ -6,8 +6,7 @@ id: case-zhihu-vs-degetao-network-effect
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-  - src_unknown
+domain: yitang
 estimated_tokens: 2200
 language: zh-CN
 query_triggers:
@@ -39,13 +38,12 @@ pipeline:
   - src_unknown
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 案例：知乎vs得到——网络效应壁垒的对比分析
+  - [[tool-yitang-forum-data]]
+  - [[case-toy-cabinet-barrier]]
+  - [[case-toy-cabinet-business-model]]
+  - [[yt-barrier-analysis-cheat-sheet]]
+  - [[yt-scale-economy-weapon-library]]
+---# 案例：知乎vs得到——网络效应壁垒的对比分析
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[yt-five-step-method]]
 

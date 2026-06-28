@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+  - strategy
+  - retail
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_ocr_text.md
@@ -16,11 +16,10 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-value-proposition]]
+  - [[case-strategy-retailer-activity-scope]]
 ---
-
 # 零售品类角色矩阵
 
 > 按品类对门店/企业的战略贡献度进行分类，明确不同品类的价位段、产品结构、沟通重点和推广方式，避免"什么都卖、什么都没定位"。

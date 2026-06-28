@@ -12,20 +12,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-demand-lean-bridge]]
+  - [[framework-demand-iceberg]]
+  - [[tool-prompt-jtbd-scenario-coach]]
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l5-forces]]
+  - [[tool-demand-assessment-triangle]]
+  - [[framework-demand-lean-bridge]]
+  - [[framework-lean-false-model]]
 ---
-
 # L6需求假设
 
 > L1-L5是深挖问题空间，L6是提出可验证的赌注。目标不是设计功能——是找到那个值得投入的假设，以及"什么情况下这个假设是错的"。

@@ -9,32 +9,30 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-research-identity-craft-for-closed-information]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[dk-yitang-behavior-over-asking]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-research-decision-first-mapping]]
+  - [[dk-yitang-behavior-over-asking]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[dk-research-identity-craft-for-closed-information]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-research-decision-first-mapping]]
+  - [[yitang-domain-digest]]
+  - [[modeling-weapon-library]]
+  - [[tool-radar-chart-modeling]]
+  - [[framework-course-milestone-model]]
+  - [[case-yitang-weekly-modeling-engine]]
+  - [[case-yitang-model-valuation-flywheel]]
+  - [[case-yitang-model-asset-inventory]]
+  - [[case-yitang-radar-chart-selection]]
+  - [[case-yitang-double-triangle-confidence]]
 ---
-
 # 组织级模型资产的盘点、定价与迭代
 
 ## 原始表述

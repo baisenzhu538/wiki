@@ -11,21 +11,23 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-research-delegation-in-scaling]]
+  - [[dk-yitang-research-cross-validation-cost]]
+  - [[concept-research-responsibility-boundary]]
+  - [[concept-yitang-ideal-research-goal]]
+  - [[dk-yitang-research-question-quality]]
+  - [[tool-yitang-ai-research-workflow]]
+  - [[concept-yitang-ai-research-10-assumptions]]
+  - [[concept-yitang-research-aesthetic]]
 ---
-
 # AI调研中人机协作的判断节点
 
 > 一堂行动营的核心实验：人类提供审美和判断力，AI提供执行效率。但人必须在5个关键节点介入。

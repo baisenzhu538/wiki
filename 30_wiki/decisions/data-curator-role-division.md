@@ -4,8 +4,7 @@ id: data-curator-role-division
 title: Data Curator Skill — 五角色分工方案
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 tags:
 - src_unknown
 - src_unknown
@@ -19,15 +18,15 @@ target_roles:
 - src_unknown
 supersedes: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[huangyaoshi-tagging-and-scope-proposal]]
+  - [[three-party-data-alignment]]
+  - [[proposal-yaml-frontmatter-standardization]]
+  - [[dk-p7-ocr-skip]]
+  - [[ouyangfeng-data-alignment-response]]
+  - [[three-party-data-alignment]]
+  - [[plan_20260531_data-curator-v1.3]]
+  - [[huangyaoshi-data-alignment-response]]
+  - [[ouyangfeng-data-alignment-response]]
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -35,8 +34,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# Data Curator Skill — 五角色分工方案
+---# Data Curator Skill — 五角色分工方案
 
 ## 分工逻辑
 

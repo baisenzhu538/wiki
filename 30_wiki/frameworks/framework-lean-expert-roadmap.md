@@ -10,28 +10,27 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - lean-startup
+  - yitang
 source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[modeling-level-map]]
+  - [[yt-business-formula-l6-essence-formulas]]
+  - [[yt-business-formula-parameter-iceberg]]
+  - [[yt-business-formula-six-level-logic]]
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-product-kernel]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[case-lean-electric-scooter-mvp]]
+  - [[case-lean-combination-test-paradigm]]
 ---
-
 # 精益高手十年修炼地图
 
 > 把「精益创业」从一句口号拆成可修行的六段功夫：从「习惯憋大招」到「能大量迁移」，每段都有明确的标志、坑和训练路径。

@@ -6,12 +6,12 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - human-ai-collaboration
+  - ai-collaboration
+  - yitang
+  - sales
+  - b2b
+  - consulting
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -35,19 +35,19 @@ diagnostic_signals:
   lens: 个人隐性经验未转化为组织资产
   follow_up: 把专家的“判断链”而非“输出文本”萃取为可模拟、可评分的规则库
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-wanghuan-education-sales-paced]]
+  - [[dk-wanghuan-paced-sales-decision]]
+  - [[framework-strategy-pyramid]]
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[tool-wanghuan-ai-dual-role-coach]]
+  - [[case-wanghuan-education-sales-paced]]
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[dk-wanghuan-paced-sales-decision]]
+  - [[framework-wanghuan-actor-director-mode]]
+  - [[yt-demand-b2b-vs-b2c]]
+  - [[yt-tob-customer-sabc]]
+  - [[private-domain-saas-sales-funnel]]
+  - [[concept-wanghuan-tacit-knowledge-examples]]
 tags:
 - src_unknown
 - src_unknown
@@ -56,8 +56,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
+---# 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 
 > **Burn line**：话术是决策链最末端的产物；真正可迁移的不是教育销售的 PACED 表格，而是"把专家隐性判断显性化"的萃取方法。
 

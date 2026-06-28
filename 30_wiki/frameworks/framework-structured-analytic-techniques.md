@@ -11,22 +11,23 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-key-assumptions-check]]
+  - [[tool-harness-adversarial-tester]]
+  - [[framework-ci-operating-model]]
+  - [[tool-red-team-analysis]]
+  - [[tool-devils-advocacy]]
+  - [[framework-yitang-nine-layer-deep-dig]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-key-assumptions-check]]
+  - [[tool-devils-advocacy]]
 ---
-
 # SATs结构化分析技术
 
 > CIA情报分析员使用结构化分析技术（SATs）对抗认知偏差，系统化地产出更可靠的判断。八类技术中，一堂武器库覆盖了3类，缺失5类。

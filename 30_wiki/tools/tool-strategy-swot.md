@@ -6,8 +6,7 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-- src_unknown
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_vlm_desc.md
@@ -16,17 +15,16 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-core-competence-matrix]]
+  - [[tool-strategy-ksf]]
+  - [[dk-strategy-three-must-do-moments]]
+  - [[framework-strategy-blm]]
+  - [[tool-strategy-12-word-test]]
+  - [[case-strategy-model-selection-quiz]]
+  - [[framework-strategy-blm]]
+  - [[framework-strategy-five-forces]]
+  - [[tool-strategy-ksf]]
 ---
-
 # SWOT 分析工具：从四象限到行动策略
 
 > SWOT 是最基础的战略分析工具，将内部优势（S）、劣势（W）与外部机会（O）、威胁（T）交叉，形成四种行动策略。

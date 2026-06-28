@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-项目背景分析]]
+  - [[concept-峰终定律]]
+  - [[tool-用户视角]]
+  - [[framework-一堂五步法-泛产品设计]]
+  - [[tool-用户分层]]
+  - [[framework-科学决策三角形]]
+  - [[concept-发现决策]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 多视角思考：用不同角色审视产品
 
 ## 一句话定义

@@ -11,19 +11,18 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[strategy-domain-digest]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[tool-strategy-four-moves]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[framework-strategy-brm]]
+  - [[framework-strategy-brm]]
+  - [[framework-strategy-six-stages]]
 ---
-
 # 战略框架全景图
 
 > 冉鹏框架是"中国实战提炼的完整战略体系"，但不是"战略领域的全部"。Agent用这张卡知道：冉鹏覆盖了什么、没覆盖什么、缺的部分去哪找。

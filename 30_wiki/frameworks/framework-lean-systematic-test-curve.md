@@ -10,9 +10,9 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
@@ -23,20 +23,19 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-zhanglei-failure-counterfactual]]
+  - [[case-lean-shampoo-selling-points]]
+  - [[case-lean-gray-test-paradigm]]
+  - [[case-lean-combination-test-paradigm]]
+  - [[case-lean-crayfish-combo-test]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-gray-test-paradigm]]
+  - [[case-lean-combination-test-paradigm]]
+  - [[framework-ai-accelerated-strategy-cycle]]
 ---
-
 # 系统测试曲线与三大测试范式
 
 > 用"X 型幻想曲线 vs Y 型螺旋上升曲线"建立真实业务进展的心智模型，再按灰度/组合/里程碑三种范式组织多轮 MVP，避免一次性重投入、错误选项固化和全盘推翻式浪费。

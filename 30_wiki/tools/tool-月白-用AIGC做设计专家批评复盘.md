@@ -3,8 +3,7 @@ id: tool-月白-用AIGC做设计专家批评复盘
 title: 技能：用AIGC做设计专家批评复盘
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：用AIGC做设计专家批评复盘
+  - [[tool-月白-AI平台算法咨询法]]
+  - [[tool-月白-AI提示词精准约束法]]
+  - [[tool-月白-口喷式设计工作流]]
+  - [[tool-月白-PPT内容框架AIGC生成法]]
+  - [[tool-月白-PPT风格锁定工作流]]
+---# 技能：用AIGC做设计专家批评复盘
 
 ## 原始表述
 

@@ -12,9 +12,9 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - lean-startup
+  - five-step-method
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 30_wiki/frameworks/framework-demand-iceberg.md
@@ -25,26 +25,25 @@ source_refs:
 - 30_wiki/tools/tool-demand-iceberg-l5-forces.md
 - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-lean-validation]]
+  - [[framework-lean-pivot-decision]]
+  - [[case-cross-yuanqi-forest]]
+  - [[framework-five-step-lean-interface]]
+  - [[five-step-domain-digest]]
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l1-user]]
+  - [[tool-demand-iceberg-l2-scenario]]
+  - [[tool-demand-iceberg-l3-core-job]]
+  - [[tool-demand-iceberg-l4-job-map]]
+  - [[tool-demand-iceberg-l5-forces]]
+  - [[tool-demand-iceberg-l6-hypothesis]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-abcd-model]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[framework-strategy-lean-validation]]
+  - [[five-step-domain-digest]]
+  - [[lean-startup-domain-digest]]
 ---
-
 # 需求判断与精益验证的衔接
 
 > 把需求分析冰山（L1–L6）中识别出的需求假设，用 FALSE 模型和 ABCD 模型进行低成本验证。

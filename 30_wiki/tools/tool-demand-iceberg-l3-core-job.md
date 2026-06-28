@@ -11,15 +11,16 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l2-scenario]]
+  - [[tool-demand-iceberg-l4-job-map]]
 ---
-
 # L3圈定核心任务
 
 > 如果L1/L2是"谁在什么情况下有什么问题"，L3就是"他们真正要完成什么"。关键：方案中立——不能用特定产品/技术的语言描述任务。

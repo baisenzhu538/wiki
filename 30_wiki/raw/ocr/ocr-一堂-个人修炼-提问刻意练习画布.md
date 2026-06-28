@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-提问刻意练习画布"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-model-scientific-questioning-map]]
+  - [[ocr-一堂-个人修炼-科学提问刻意练习]]
+  - [[yt-model-questioning-practice-canvas]]
+  - [[tool-yitang-job-intelligence-research]]
+  - [[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]
 ---
-
 # OCR: 一堂-个人修炼-提问刻意练习画布
 
 ## Summary

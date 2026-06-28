@@ -3,8 +3,7 @@ id: tool-月白-口喷式AIGC设计法
 title: 技能：口喷式AIGC设计法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：口喷式AIGC设计法
+  - [[tool-月白-AI生图与图生图决策法]]
+  - [[tool-月白-卖点可视化海报设计法]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[tool-月白-AI设计三段式里程碑流程]]
+  - [[tool-月白-AI去字-稿定设计加字工作流]]
+---# 技能：口喷式AIGC设计法
 
 ## 原始表述
 

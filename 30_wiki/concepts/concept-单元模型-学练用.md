@@ -10,25 +10,24 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-学练用.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[truman-ai-partner-design-analysis]]
+  - [[master-ai-info-literacy]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[ocr-一堂-单元模型-学练用]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[yt-unit-model-ladder]]
+  - [[concept-最简单元模型]]
+  - [[framework-TCPR底层网络协议]]
+  - [[yt-unit-model-overview]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 学练用：知识内化的三阶模型
 
 ## 一句话定义

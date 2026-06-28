@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-doris-catering-chain-benchmark]]
+  - [[case-yitang-travel-receipt-analysis]]
+  - [[case-doris-outbound-travel-community]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[tool-yitang-user-interview-5steps]]
+  - [[dk-yitang-research-question-quality]]
 ---
-
 # 案例：老年大学——用假设链验证赛道
 
 **案例来源**：Truman在行动营中的教学案例——"假如你想做老年大学，怎么调研？"

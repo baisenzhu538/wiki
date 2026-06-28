@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-social-media-interview]]
+  - [[tool-yitang-social-media-monitoring]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-business-registration-check]]
+  - [[tool-yitang-government-data-search]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-database-index]]
 ---
-
 # 武器库策略11：第三方数据库
 
 > 公开可访问的数据库——整理成清单，随用随查。

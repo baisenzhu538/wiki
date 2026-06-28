@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L1优先级定性_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-稀缺机会窗口]]
+  - [[tool-决策深度-L2部分定量]]
+  - [[dk-demand-pitfall-financial-literacy]]
+  - [[case-demand-financial-literacy]]
+  - [[dk-决策经验值]]
+  - [[framework-科学决策三角形]]
+  - [[tool-完整财务公式决策]]
+  - [[tool-决策深度-L2部分定量]]
 ---
-
 # 决策深度L1：优先级定性
 
 ## 一句话定义

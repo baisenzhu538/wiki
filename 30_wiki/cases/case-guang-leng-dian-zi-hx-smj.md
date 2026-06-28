@@ -5,8 +5,8 @@ title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到�
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - electronics
+  - hardware-debugging
 source_person: 黄药师
 source_context: 广冷电子 HX-SMJ 闸机红外光栅项目——四板卡（主控+红外A+红外B+继电器）全套资料整理与交叉验证
 source_refs:
@@ -26,21 +26,20 @@ review_date: 2026-06-19
 confidence: 0.89
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ef-003-hand-soldering-bom-divergence]]
+  - [[case-modeling-essence-levels]]
+  - [[yt-model-deep-review-iceberg]]
+  - [[dk-ef-002-bom-version-async]]
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[dk-ef-001-sn74lvc2g07-open-drain]]
+  - [[dk-ef-002-bom-version-async]]
+  - [[dk-ef-003-hand-soldering-bom-divergence]]
+  - [[dk-ef-004-missing-diagnostic-firmware]]
 diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
+---# 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 
 ## 一句话摘要
 

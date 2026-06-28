@@ -6,8 +6,8 @@ title: 技能：提问题转化三问清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -31,13 +31,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai-problem-question-check]]
+  - [[sk-ai-problem-validation]]
+  - [[ai-collaboration-mindset-shift]]
+  - [[dk-modeling-expert-consensus-five-percent]]
+  - [[tool-纪浩-Problem与Question区分法]]
+  - [[sk-ai-problem-validation]]
+  - [[ai-collaboration-mindset-shift]]
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.90
@@ -47,7 +47,6 @@ diagnostic_signals:
 - src_unknown
 
 ---
-
 # 技能：提问题转化三问清单
 
 ## 用一句话讲清楚

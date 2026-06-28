@@ -3,11 +3,11 @@
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - needs-review
+  - decision-making
+  - finance-legal
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md
@@ -19,13 +19,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-高阶体系探索营-三种咨询可能性]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-单元模型-基准值]]
+  - [[ocr-一堂-科学决策-决策三角形]]
+  - [[ocr-一堂-单元模型-单sku模型]]
 ---
-
 
 
 

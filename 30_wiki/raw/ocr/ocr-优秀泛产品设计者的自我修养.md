@@ -2,8 +2,7 @@
 
 id: "ocr-优秀泛产品设计者的自我修养"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
   - 10_raw/sources/src_20260522_91948770-ocr-优秀泛产品设计者的自我修养.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-泛产品设计-落地卡片-酝酿式打磨]]
+  - [[ocr-泛产品设计者的三大自我修养]]
+  - [[tool-泛产品落地-酝酿式打磨]]
 ---
-
 # OCR: 优秀泛产品设计者的自我修养
 
 ## Summary

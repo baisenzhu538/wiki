@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 没有目标就不要谈效率
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-yitang-research-cost-value-match]]
+  - [[dk-demand-premature-solution]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[framework-doris-industry-report-4step]]
+---# 没有目标就不要谈效率
 
 > Doris的核心原则："没有目标，就不要谈效率。"
 

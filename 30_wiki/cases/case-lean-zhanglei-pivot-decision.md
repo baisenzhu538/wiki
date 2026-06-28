@@ -10,8 +10,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - lean-startup
+  - yitang
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
 source_refs:
@@ -21,21 +21,20 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-ai-accelerated-validation]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-lean-zhanglei-failure-counterfactual]]
+  - [[case-lean-zhanglei-hypothesis-validation]]
+  - [[case-lean-adult-education]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[case-lean-zhanglei-hypothesis-validation]]
+  - [[case-lean-zhanglei-failure-counterfactual]]
 ---
-
 # 张磊 AMA：创业者 pivot 决策案例
 
 > 核心结论：pivot/坚持/退出不是一次「拍脑袋」决策，而是一组按五步法拆出来的 A 类商业成败假设；张磊在 AMA Q6、Q9 中反复演示：先算单元模型和自由现金流两笔账，再用 ABCD 模型区分「低谷 vs 模式失效」，最后用 FALSE 模型左侧的低成本手段逐个证伪，才能避免沉没成本绑架。

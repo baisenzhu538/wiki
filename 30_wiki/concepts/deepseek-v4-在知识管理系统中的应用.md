@@ -3,8 +3,7 @@
 
 id: "deepseek-v4-在知识管理系统中的应用"
 created_at: 2026-05-05
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
 - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# DeepSeek V4 在知识管理系统中的应用
+  - [[yt-panproduct-aesthetic-collection]]
+  - [[yt-system-course-map-lecture]]
+  - [[yt-panproduct-demand-project-background]]
+  - [[yt-panproduct-aesthetic-pool]]
+  - [[诊所o2o外卖平台业务深度调研报告]]
+---# DeepSeek V4 在知识管理系统中的应用
 
 ## Summary
 

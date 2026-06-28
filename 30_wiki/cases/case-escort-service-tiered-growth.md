@@ -5,8 +5,7 @@ id: case-escort-service-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-  - src_unknown
+domain: yitang
 estimated_tokens: 1800
 language: zh-CN
 query_triggers:
@@ -38,13 +37,12 @@ pipeline:
   - src_unknown
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 案例：陪诊业务七级演进
+  - [[case-coffee-shop-foresight]]
+  - [[dk-foresight-tier-skip-illusion]]
+  - [[yt-foresight-ab-steady-state]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[yt-foresight-business-spectrum]]
+---# 案例：陪诊业务七级演进
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

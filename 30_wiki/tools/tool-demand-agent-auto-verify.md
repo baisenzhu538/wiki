@@ -11,18 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method, ai-collaboration]
+domain:
+  - yitang
+  - five-step-method
+  - ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-demand-agent-signals]]
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-18-strategy-tool-mapping]]
+  - [[tool-demand-agent-case-match]]
+  - [[tool-demand-agent-signal-substitute]]
+  - [[tool-demand-iceberg-l6-hypothesis]]
 ---
-
 # Agent L6自动预验证
 
 > L6产出的RAT（最危险假设）在投入真实验证之前，Agent可以先做一轮"预验证"——自动搜索竞品数据/评论趋势，快速判断哪些RAT可能已经错了。

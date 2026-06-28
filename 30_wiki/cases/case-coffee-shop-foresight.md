@@ -5,8 +5,7 @@ id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-  - src_unknown
+domain: yitang
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
@@ -37,13 +36,12 @@ pipeline:
   - src_unknown
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 案例：咖啡馆创业预判
+  - [[dk-foresight-tier-skip-illusion]]
+  - [[yt-five-step-method-complete]]
+  - [[case-escort-service-tiered-growth]]
+  - [[yt-foresight-deliverables-four-levels]]
+  - [[case-ai-time-management-tiered-growth]]
+---# 案例：咖啡馆创业预判
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-five-step-method]]
 

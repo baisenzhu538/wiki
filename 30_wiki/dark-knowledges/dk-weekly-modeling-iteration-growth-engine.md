@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - yitang
+  - modeling
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -16,10 +16,10 @@ source_refs:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（组织级建模价值）
 related:
-  - src_unknown
-  - src_unknown-scientific-milestones
-  - src_unknown
-  - src_unknown
+  - framework-course-milestone-model
+  - modeling-scientific-milestones
+  - concept-thousand-people-square
+  - case-child-drawing-rhyme
 diagnostic_signals:
   - signal: src_unknown
     framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
@@ -39,8 +39,7 @@ tags:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
+---# 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
 > **Burn line**: 收入增长、利润增长、流量增长都能用钱买；但周对周的建模能力增长，是花钱买不到的。
 

@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-channel-agent-interview]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-partner-data-analysis]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[framework-yitang-expert-interview-10steps]]
 ---
-
 # 武器库策略9：行业专家访谈
 
 > 找到对的人聊——行业专家见多识广，一句话可能顶你自己调研一周。

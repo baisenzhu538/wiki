@@ -4,8 +4,8 @@
 id: learning-thinking
 created_at: 2026-05-21
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - personal-growth
 source_refs:
 - src_20260522_0af1f6dd-learning-thinking
 status: enriched
@@ -18,13 +18,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Learning Thinking
+  - [[视觉prompt三层操作系统-srom-visual-os]]
+  - [[business-analysis]]
+  - [[meta-prompt-eng]]
+  - [[writing-content]]
+  - [[product-ux]]
+---# Learning Thinking
 
 ## Summary
 

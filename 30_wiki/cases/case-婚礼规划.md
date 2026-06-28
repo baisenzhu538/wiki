@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.70
 trust_level: low
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-科学决策-L4案例01]]
+  - [[case-科学决策-深度案例02]]
+  - [[case-科学决策-深度案例03]]
+  - [[case-科学决策-深度案例01]]
+  - [[case-科学决策-深度案例04]]
+  - [[case-婚礼操盘-用户和场景]]
+  - [[framework-科学决策三角形]]
+  - [[tool-Y模型实操工作流]]
 ---
-
 # 案例：婚礼规划
 
 ## 案例来源

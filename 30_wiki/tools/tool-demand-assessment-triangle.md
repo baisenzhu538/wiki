@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-financial-literacy]]
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-rural-5g]]
+  - [[dk-demand-pitfall-tier4-housekeeping]]
+  - [[dk-demand-misjudgment-rate]]
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l6-hypothesis]]
 ---
-
 # 需求评估三角形
 
 > L6产出机会卡片后，用评估三角形做Go/No-Go判断。三个维度相乘：普遍性×频次×刚性=需求强度。

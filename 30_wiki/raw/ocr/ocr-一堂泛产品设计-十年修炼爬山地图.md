@@ -2,8 +2,7 @@
 
 id: "ocr-一堂泛产品设计-十年修炼爬山地图"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_db09e70d-ocr-一堂泛产品设计-十年修炼爬山地图.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-一堂泛产品设计36计-全套地图]]
+  - [[ocr-泛产品设计者的三大自我修养]]
+  - [[ocr-泛产品设计的应用场景示意图]]
 ---
-
 # OCR: 一堂泛产品设计-十年修炼爬山地图
 
 ## Summary

@@ -4,8 +4,8 @@ title: 知识卡片 → Claude Code Skill 迭代标准与全库扫描方案
 type: improvement-plan
 status: approved
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 source_refs:
   - .claude/skills/research/SKILL.md
   - .claude/skills/research-osint/SKILL.md
@@ -19,11 +19,10 @@ author: 欧阳锋
 reviewed_by: 欧阳锋
 confidence: 0.90
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[yitang-research-domain-digest]]
 ---
-
 # 知识卡片 → Claude Code Skill 迭代标准
 
 > 审查对象：黄药师迭代的 7 个 research-* Skill

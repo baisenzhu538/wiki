@@ -5,9 +5,9 @@ title: "私域 SaaS 销售四步法"
 type: framework
 status: stable
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - SaaS
+  - 私域电商
+  - 销售流程
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
@@ -23,13 +23,12 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 私域 SaaS 销售四步法
+  - [[yt-growth-scaling-pitfalls]]
+  - [[source-code-delivery-model]]
+  - [[tool-yitang-pc-web-data]]
+  - [[七件事集团]]
+  - [[yt-personal-scientific-expression]]
+---# 私域 SaaS 销售四步法
 
 > 从七件事集团招商录音中提取的标准销售流程，可复用于分析同类私域/SaaS 公司的销售漏斗设计：先顶层设计，再模式设计，然后系统搭建，最后招商落地。
 

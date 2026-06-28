@@ -12,32 +12,31 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - lean-startup
+  - decision
+  - yitang
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-ai-accelerated-strategy-cycle]]
+  - [[framework-strategy-lean-validation]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[case-cross-yuanqi-forest]]
+  - [[framework-five-step-lean-interface]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[yt-decision-y-model]]
+  - [[yt-tool-y-model-ruler]]
+  - [[framework-strategy-brm]]
+  - [[framework-strategy-six-stages]]
+  - [[strategy-domain-digest]]
+  - [[lean-startup-domain-digest]]
 ---
-
 # 精益验证结果如何触发战略/产品 pivot
 
 > 当精益实验结果不理想时，用决策框架判断是 pivot（转型）、persevere（坚持）还是 kill（终止）。

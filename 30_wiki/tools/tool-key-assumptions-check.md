@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ci-define-phase]]
+  - [[framework-structured-analytic-techniques]]
+  - [[tool-candy-oral-polish]]
+  - [[tool-indicators-signposts]]
+  - [[tool-devils-advocacy]]
+  - [[framework-structured-analytic-techniques]]
+  - [[tool-yitang-research-validate-assumption]]
+  - [[framework-yitang-nine-layer-deep-dig]]
 ---
-
 # Key Assumptions Check
 
 > 与第1掌（调研先行验证假设）的升级关系：第1掌强调"做事前先验证假设"，KAC提供一个结构化的四步法来系统执行。

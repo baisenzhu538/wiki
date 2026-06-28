@@ -9,34 +9,32 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[dk-research-decision-first-mapping]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-yitang-business-model-risk-over-product-risk]]
+  - [[dk-research-decision-first-mapping]]
+  - [[dk-yitang-model-asset-capitalization]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-user-interview-5steps]]
+  - [[tool-yitang-behavioral-observation]]
+  - [[yt-research-user-jtbd]]
+  - [[framework-demand-iceberg]]
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-yitang-doorstep-nail-service-context]]
+  - [[case-yitang-jtbd-story-formula]]
+  - [[case-yitang-consumer-offline-channel-decision]]
+  - [[case-yitang-ski-project-user-as-expert]]
 ---
-
 # 调研中行为证据重于口头证据
 
 > **Burn line**：用户嘴里说的多是「愿望」，真实行为里才藏着「需求」。

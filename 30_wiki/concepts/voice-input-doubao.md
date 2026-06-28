@@ -5,23 +5,23 @@ id: voice-input-doubao
 type: tool
 title: voice input doubao
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - ai-collaboration- product
+  - ai-saas
+  - decision-making
+  - yitang
 status: enriched
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[sk-ai-voice-input-doubao]]
+  - [[course-to-skill-conversion]]
+  - [[dk-ban-fei-mao-silky-answers-are-dangerous]]
+  - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]
+  - [[sk-ai-prd-for-ai]]
+  - [[course-to-skill-conversion]]
+  - [[prd-as-ai-instruction]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----
-# 豆包输入法：语音输入的最低成本实践
+---# 豆包输入法：语音输入的最低成本实践
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述，第424-426行)
 

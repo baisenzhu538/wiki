@@ -2,8 +2,7 @@
 
 id: ocr-screenshot1
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
   - 10_raw/sources/src_20260522_64727b82-ocr-screenshot1.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-truman的个人成长五步法]]
+  - [[ocr-ocr_screenshot2]]
+  - [[ocr-一堂-地图-创业地图_conv]]
+  - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
+  - [[aima-ai思维卡-外部链接归档]]
 ---
-
 # OCR: screenshot1
 
 ## Summary

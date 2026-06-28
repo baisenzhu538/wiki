@@ -11,8 +11,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研行动营-口述.txt
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
 created_at: 2026-05-05
-domain:
-- src_unknown
+domain: research
 yitang:
   map: entrepreneur
   module: "调研方法论"
@@ -34,13 +33,12 @@ author: "老顽童"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-personal-pan-product-tools]]
+  - [[ocr-一堂-地图-创业地图]]
+  - [[yt-personal-thinking-models]]
+  - [[yt-personal-pan-product-exploration]]
 
 ---
-
 # 一堂调研行动营 · 启动课（LLM 精炼）
 
 ## Constraints & Boundaries

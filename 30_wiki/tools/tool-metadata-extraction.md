@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-media-verification-overview]]
+  - [[tool-reverse-image-search]]
+  - [[tool-osint-maltego]]
+  - [[tool-osint-overview]]
+  - [[tool-reverse-image-search]]
 ---
-
 # 元数据提取
 
 > 竞对发的每一张图片、每一份PDF、每一个Office文件——里面都可能嵌着作者、时间、GPS坐标、软件版本。元数据是"不注意就会泄露"的信息层。

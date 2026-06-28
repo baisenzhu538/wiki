@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-讲香基本功"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-model-personal-pitch-toolkit]]
+  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - [[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]
+  - [[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]
+  - [[ocr-一堂-科学决策-决策三角形]]
 ---
-
 # OCR: 一堂-个人修炼-讲香基本功
 
 ## Summary

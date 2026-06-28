@@ -10,26 +10,25 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-human-replace-system]]
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-stealth-service]]
+  - [[tool-lean-fake-product]]
+  - [[tool-lean-leverage-resources]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 借同行产品：用竞品认知验证假设
 
 > 同行产品已经在市场上跑出来的认知，对我也有效——用竞品的销售、转化与用户反馈，替代自研产品去验证关键假设。

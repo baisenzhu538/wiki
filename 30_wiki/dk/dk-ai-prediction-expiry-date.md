@@ -11,32 +11,31 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-ai-chair-determines-view]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-cross-reading-method]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[dk-ai-scarcest-resource-is-self]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-tech-probability-80-filter]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[concept-ai-chair-determines-view]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-ai-job-displacement-wef]]
+  - [[case-deepfake-market-misuse]]
+  - [[case-ai-companion-emotional]]
+  - [[case-roblox-ai-npc-education]]
 ---
-
 # AI 预言的保质期
 
 > **Burn line**：结论会过期，方法不会——读任何关于未来的书，先给它的判断贴一个保质期标签。

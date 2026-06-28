@@ -5,27 +5,27 @@ title: 对话记录：鑫港湾业务公式与商业模型计算拆分重构（2
 type: report
 status: draft
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - healthcare
+  - pharmaceutical-retail
+  - business-strategy
+  - product
+  - unit-economics
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: Kimi Code CLI
 confidence: 0.84
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-cross-xingangwan-pharma]]
+  - [[contradictions]]
+  - [[鑫港湾]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[parking-lot]]
+  - [[xingangwan-pharma-business-formulas]]
+  - [[xingangwan-pharma-business-model-calc]]
+  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+  - [[tool-funnel-formula-modeling]]
+  - [[yt-unit-model-construction]]
 source_refs:
 - src_unknown
 - src_unknown
@@ -40,7 +40,6 @@ tags:
 - src_unknown
 - src_unknown
 ---
-
 # 对话记录：鑫港湾业务公式与商业模型计算拆分重构
 
 > **日期**：2026-06-19  

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-hardware-factory-photo]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-yitang-supplier-security-guard]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[tool-yitang-social-engineering-research]]
 ---
-
 # 案例：假装订货套取竞品真实价格
 
 **做法**：以采购方身份联系竞品，报出合理的年度采购量，索取报价单和合作条件。

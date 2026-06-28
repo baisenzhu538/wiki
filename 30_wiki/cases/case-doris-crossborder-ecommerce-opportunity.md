@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.80
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-doris-catering-chain-benchmark]]
+  - [[case-yitang-travel-receipt-analysis]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-doris-outbound-travel-community]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[framework-doris-industry-report-4step]]
 ---
-
 # 案例：跨境电商机会识别
 
 **问题**：想在跨境电商领域找机会，但品类太多、市场太多，不知道从哪切入。

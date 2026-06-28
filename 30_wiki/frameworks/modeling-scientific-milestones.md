@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - modeling- yitang
+  - modeling
+  - research
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -19,15 +19,15 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-course-milestone-model]]
+  - [[tool-essence-nfactor-modeling]]
+  - [[case-course-milestone-model]]
+  - [[dk-modeling-expert-consensus-five-percent]]
+  - [[case-essence-entrepreneurship]]
+  - [[modeling-three-stages]]
+  - [[dk-modeling-counterexample-driven]]
+  - [[dk-modeling-expert-consensus-five-percent]]
+  - [[tool-ai-skill-engineering-method]]
 tags:
 - src_unknown
 - src_unknown
@@ -39,7 +39,6 @@ diagnostic_signals:
 - src_unknown
 
 ---
-
 # 科学建模七步里程碑：从边界到封装的方法论生产流程
 
 > **Burn line**: 方法论级别的建模不是灵感爆发，而是一套有里程碑、可迭代、可验证的生产流程。

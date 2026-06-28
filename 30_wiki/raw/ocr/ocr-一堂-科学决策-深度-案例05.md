@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-深度-案例05"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_7344d957-ocr-一堂-科学决策-深度-案例05.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-稀缺机会窗口]]
+  - [[ocr-一堂-科学决策-深度-案例04]]
+  - [[ocr-一堂-科学决策-深度-案例02]]
+  - [[ocr-一堂-科学决策-深度-l4严格财务公式]]
 ---
-
 # OCR: 一堂-科学决策-深度-案例05
 
 

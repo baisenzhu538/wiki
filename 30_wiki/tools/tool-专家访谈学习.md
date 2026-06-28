@@ -2,8 +2,7 @@
 id: tool-专家访谈学习
 title: 技能：专家访谈学习
 type: tool
-domain:
-- src_unknown
+domain: research- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：专家访谈学习
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-辩证讨论深化]]
+  - [[tool-对标借鉴他人决策维度]]
+  - [[tool-ai辅助学习]]
+  - [[tool-费曼学习法三句话提炼]]
+---# 技能：专家访谈学习
 
 ## 原始表述
 > L2.从高手中学 √寻找教练：找一个顾问/教练 √专家访谈：进行1v1访谈学习

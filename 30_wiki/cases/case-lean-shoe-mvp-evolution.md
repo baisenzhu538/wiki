@@ -9,7 +9,10 @@ reviewed_by: 待审
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [strategy, yitang, product]
+domain:
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证实操课程
 source_refs:
@@ -18,18 +21,17 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-weak-solution]]
+  - [[case-lean-wrong-demand]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-premature-expansion]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[case-lean-electric-scooter-mvp]]
+  - [[tool-lean-fake-product]]
+  - [[tool-lean-minimum-version]]
 ---
-
 # 鞋类产品 MVP 演进
 
 ## 核心洞察

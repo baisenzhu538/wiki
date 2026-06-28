@@ -3,8 +3,7 @@ id: tool-月白-AI图生图尺寸快速转换
 title: 技能：AI图生图尺寸快速转换
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI图生图尺寸快速转换
+  - [[tool-月白-AI图片风格逆向提取（抄图法）]]
+  - [[tool-月白-最佳实践素材收集法]]
+  - [[tool-月白-AIGC文字大小精确控制]]
+  - [[tool-月白-新手设计师基本功训练法]]
+  - [[tool-月白-AI自动生成多语种专业名词提示词]]
+---# 技能：AI图生图尺寸快速转换
 
 ## 原始表述
 

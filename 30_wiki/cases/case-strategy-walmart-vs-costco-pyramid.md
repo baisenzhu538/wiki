@@ -8,19 +8,18 @@ author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-**对比**：沃尔玛（W集团）天天平价 vs 好市多/家乐福（C集团）高低价，战略主题同为"性价比第一"
+  - [[case-strategy-revival-13-bestore]]
+  - [[dk-strategy-longzhong-four-failures]]
+  - [[case-strategy-practice-ranpeng-crossborder]]
+  - [[case-strategy-fangte-disney]]
+  - [[framework-strategy-pyramid]]
+  - [[framework-strategy-pyramid]]
+---**对比**：沃尔玛（W集团）天天平价 vs 好市多/家乐福（C集团）高低价，战略主题同为"性价比第一"
 **核心洞察**：同样的目标，不同的路，就会带来不同的行动、不同的能力要求、不同的核心岗位、不同的关键绩效指标
 
 **W集团（天天平价）**：

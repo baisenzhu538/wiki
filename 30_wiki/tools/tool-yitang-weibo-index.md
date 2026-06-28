@@ -10,13 +10,14 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- src_unknown
+  - [[tool-yitang-weapon-third-party-database]]
 ---
-
 # 微博指数
 
 > 微博热搜/微博指数——公共事件和品牌舆情的热度温度计。

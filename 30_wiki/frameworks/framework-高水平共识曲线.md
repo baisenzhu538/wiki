@@ -10,22 +10,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高水平共识曲线（重要）_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-稀缺资源清单]]
+  - [[tool-最佳实践池子]]
+  - [[tool-审美工具箱]]
+  - [[concept-稀缺机会窗口]]
+  - [[dk-决策经验值]]
+  - [[framework-科学决策三角形]]
+  - [[concept-X型Y型决策习惯]]
+  - [[concept-两种典型思考习惯]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 高水平共识曲线
 
 ## 一句话定义

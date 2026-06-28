@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-科学决策-关键训练清单重要"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-科学决策-深度-决策经验值]]
+  - [[ocr-一堂-科学决策-稀缺资源清单]]
+  - [[ocr-一堂-科学决策-稀缺机会窗口]]
+  - [[ocr-一堂-科学决策-深度-案例05]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
 ---
-
 # OCR: 一堂-科学决策-关键训练清单（重要））
 
 

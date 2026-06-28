@@ -11,21 +11,22 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ci-implement-phase]]
+  - [[tool-key-assumptions-check]]
+  - [[dk-c9-batch-trigger-garbage]]
+  - [[tool-devils-advocacy]]
+  - [[framework-structured-analytic-techniques]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-ci-define-phase]]
+  - [[tool-ci-implement-phase]]
 ---
-
 # CI运营模型：从信息收集到决策改变的闭环
 
 > "If the output does not change a decision, you did not do CI. You gathered trivia." — CI行业铁律。一堂武器库解决了"怎么收集"，CI模型补充了"收集之后怎么办"。

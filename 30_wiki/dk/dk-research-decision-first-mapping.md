@@ -9,32 +9,30 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-research-identity-craft-for-closed-information]]
+  - [[dk-yitang-behavior-over-asking]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-yitang-behavior-over-asking]]
+  - [[dk-strategy-correlation-vs-causation-leverage]]
+  - [[dk-research-identity-craft-for-closed-information]]
+  - [[dk-research-triangulation-stop-rule]]
+  - [[dk-strategy-stage-leverage-mismatch]]
+  - [[yitang-research-domain-digest]]
+  - [[concept-一堂-hypothesis-driven-business-methodology]]
+  - [[yt-lean-assumption-verification-3means]]
+  - [[framework-yitang-high-level-execution]]
+  - [[case-yitang-mvp-reward-interview-waste]]
+  - [[case-一堂-无人餐厅-hypothesis-failure]]
+  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+  - [[case-yitang-senior-university-product-design]]
+  - [[case-xian-franchise-location-decision]]
 ---
-
 # 研究活动如何服务决策
 
 > 一句话：在花钱做研究之前，先把「研究动作 → 要回答的决策 → 前置假设 → 通过/不通过标准 → 下一步动作」对齐，否则研究越精致，决策浪费越大 [conf=0.80, source=王语嫣 synthesis_research.md]。

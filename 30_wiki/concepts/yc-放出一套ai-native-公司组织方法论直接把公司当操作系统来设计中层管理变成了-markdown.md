@@ -3,8 +3,7 @@
 
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
-domain:
-- src_unknown
+domain: ai-saas
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
@@ -19,13 +18,12 @@ pipeline:
 author: unknown
 confidence: 0.8
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# YC 放出一套「AI-NATIVE 公司」组织方法论
+  - [[concept-ai-native-organization-five-steps]]
+  - [[YC-Y-Combinator]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[tool-纪浩-AI对话上下文隔离]]
+  - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
+---# YC 放出一套「AI-NATIVE 公司」组织方法论
 
 > **来源：** YC Startup School，主讲 Diana Hu（YC 合伙人）
 > **归档日期：** 2026-04-30

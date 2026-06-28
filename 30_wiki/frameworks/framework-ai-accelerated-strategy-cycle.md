@@ -10,10 +10,10 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - lean-startup
+  - ai-collaboration
+  - yitang
 source_refs:
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
@@ -22,22 +22,21 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[tool-lean-ai-accelerated-validation]]
+  - [[yt-lean-false-model-ai]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-lean-false-model]]
+  - [[framework-strategy-brm]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[yt-decision-y-model]]
+  - [[strategy-domain-digest]]
+  - [[lean-startup-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # AI 加速的战略-验证闭环
 
 > 用 AI 同时压缩战略分析（市场/竞争/用户）和精益验证（假设生成/实验执行/数据分析）的周期，让“人定方向 → AI 加速验证 → 人做决策”的闭环转得更快，但不改变决策责任归属。

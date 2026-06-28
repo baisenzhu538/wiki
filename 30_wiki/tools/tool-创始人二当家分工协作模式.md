@@ -2,8 +2,7 @@
 id: tool-创始人二当家分工协作模式
 title: 技能：创始人+二当家分工协作模式
 type: tool
-domain:
-- src_unknown
+domain: entrepreneurship- management
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -22,13 +21,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：创始人+二当家分工协作模式
+  - [[tool-用旗舰店替代纯招商投入]]
+  - [[tool-快招品牌总部模拟调研]]
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-通过请吃饭获取行业内部资料]]
+---# 技能：创始人+二当家分工协作模式
 
 ## 原始表述
 > 创始人负责加盟商对接、接待、答疑、促成签约。公司内部的业务管理和跟进工作交由二当家负责。

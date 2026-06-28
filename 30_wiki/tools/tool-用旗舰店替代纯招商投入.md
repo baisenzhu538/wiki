@@ -3,9 +3,9 @@ id: tool-用旗舰店替代纯招商投入
 title: 技能：用旗舰店替代纯招商投入
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - entrepreneurship- product
+  - design
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -25,13 +25,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：用旗舰店替代纯招商投入
+  - [[tool-快招品牌总部模拟调研]]
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-创始人二当家分工协作模式]]
+  - [[tool-通过请吃饭获取行业内部资料]]
+---# 技能：用旗舰店替代纯招商投入
 
 ## 原始表述
 > 25~30万正好是我们需要打造品牌旗舰店的预算。旗舰店是公司战略级的关键任务：品牌形象展示窗口；占领核心区位；加盟商的体验基地...跑通高规格店的单店模型

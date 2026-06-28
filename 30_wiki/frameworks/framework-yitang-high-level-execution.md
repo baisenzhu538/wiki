@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -31,23 +31,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-yitang-oscar-research]]
+  - [[tool-yitang-research-industry-scan]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[system-yitang-research-workflow]]
+  - [[tool-yitang-research-validate-assumption]]
+  - [[framework-yitang-high-level-plan]]
+  - [[framework-yitang-four-research-types]]
+  - [[framework-yitang-research-radar]]
+  - [[yt-research-osl-framework]]
+  - [[yt-research-intelligence-map]]
+  - （tool-yitang-research-acquisition，待补）
+  - （tool-yitang-research-reasoning，待补）
+  - [[concept-yitang-research-facts-first]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-quantitative-modeling]]
 ---
-
 # 高水平执行 AR：获取情报·正确归因
 
 > **一句话**：调研的价值不在信息多少，而在信息质量。AR框架强迫你区分"获取"和"归因"：先穷尽手段拿到高质量情报，再用批判性思维验证情报可信度。

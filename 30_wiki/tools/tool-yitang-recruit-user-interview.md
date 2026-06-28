@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-weapon-user-direct-interview]]
+  - [[tool-yitang-user-interview-5steps]]
 ---
-
 # 招募用户访谈
 
 > 公开招募目标用户参与访谈——用激励换取深度信息。

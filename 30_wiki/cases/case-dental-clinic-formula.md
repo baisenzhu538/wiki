@@ -4,9 +4,9 @@ title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - yitang
+  - healthcare
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
 source_refs:
@@ -21,12 +21,11 @@ review_date: "2026-06-28"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-
 # ToC 连锁口腔诊所：成交率 30% 背后的“危机感知"公式
 
 > 一堂业务公式拆解培训案例：月接诊 2000 人、GMV 400 万/月的连锁口腔诊所，成交率仅 30%。创始人想靠“拉流量+打折”增长 50%，但真正的瓶颈是客户没有“危机感知”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -2,8 +2,7 @@
 
 id: "ocr-泛产品设计-用户卡片-惊喜公式"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-泛产品设计-用户卡片-多视角思考]]
+  - [[ocr-泛产品设计-用户卡片-用户分层]]
+  - [[ocr-泛产品设计-用户卡片-需求挖掘]]
+  - [[ocr-泛产品设计-用户卡片-动力阻力]]
+  - [[ocr-泛产品设计-用户卡片-行业分析画布]]
 ---
-
 # OCR: 泛产品设计-用户卡片-惊喜公式
 
 ## Summary

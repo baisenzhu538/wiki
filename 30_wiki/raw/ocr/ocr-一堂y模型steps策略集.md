@@ -2,8 +2,7 @@
 
 id: "ocr-一堂y模型steps策略集"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-model-y-organization]]
+  - [[yt-management-strategy-meeting]]
+  - [[ocr-婚礼操盘-用户和场景]]
+  - [[yt-unit-model-benchmark]]
+  - [[ocr-婚礼规划]]
 ---
-
 # OCR: 一堂Y模型steps策略集
 
 ## Summary

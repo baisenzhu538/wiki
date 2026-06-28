@@ -9,7 +9,10 @@ reviewed_by: 欧阳锋
 confidence: 0.80
 trust_level: medium
 language: zh-CN
-domain: [strategy, yitang, product]
+domain:
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲师与学员自述（教学案例）
 source_context: 一堂精益创业·低成本验证课程讲义
 source_refs:
@@ -20,21 +23,20 @@ source_refs:
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-perfectionism-traps]]
+  - [[case-lean-weak-solution]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[tool-lean-fake-product]]
+  - [[tool-lean-fake-marketing]]
 ---
-
 # 需求找错案例集
 
 ## 核心洞察

@@ -11,19 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-skill-market-agent-self-install]]
+  - [[ai-native-im-multi-agent]]
+  - [[case-truman-ai-partner]]
+  - [[business-research-skill-oscar-13-weapon-system]]
+  - [[tool-agent-research-swarm]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[framework-yitang-oscar-research]]
 ---
-
 # Pipeline模式
 
 > OSCAR五步法的Agent原生实现：O(搜索)→S(筛选)→C(提取)→A(分析)→R(报告)，每步一个Agent，串行流水线。步骤依赖明确的调研任务最适合Pipeline。

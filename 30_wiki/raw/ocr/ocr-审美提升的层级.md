@@ -2,8 +2,7 @@
 
 id: "ocr-审美提升的层级"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-泛产品设计-审美工具箱指南]]
+  - [[ocr-泛产品设计者的自我修养]]
+  - [[ocr-顶级产品追求的方向-乔布斯]]
 ---
-
 # OCR: 审美提升的层级
 
 ## Summary

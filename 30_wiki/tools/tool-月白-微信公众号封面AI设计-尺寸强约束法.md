@@ -3,8 +3,7 @@ id: tool-月白-微信公众号封面AI设计-尺寸强约束法
 title: 技能：微信公众号封面AI设计-尺寸强约束法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：微信公众号封面AI设计-尺寸强约束法
+  - [[tool-月白-AIGC产品白底图制作]]
+  - [[tool-月白-设计参考图精准定位法]]
+  - [[tool-月白-封面情绪转化法]]
+  - [[tool-月白-Token效价比决策法]]
+  - [[tool-月白-AI生成图片排版控制-尺寸优先法]]
+---# 技能：微信公众号封面AI设计-尺寸强约束法
 
 ## 原始表述
 

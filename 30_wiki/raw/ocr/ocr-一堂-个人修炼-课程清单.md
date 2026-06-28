@@ -2,8 +2,7 @@
 
 id: "ocr-一堂-个人修炼-课程清单"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-地图-个人地图]]
+  - [[yt-model-personal-map]]
+  - [[ocr-一堂-创业必修-课程清单]]
+  - [[ocr-一堂-管理必修-课程清单]]
+  - [[ocr-一堂个人地图高潜力成长者修炼全景图]]
 ---
-
 # OCR: 一堂-个人修炼-课程清单
 
 ## Summary

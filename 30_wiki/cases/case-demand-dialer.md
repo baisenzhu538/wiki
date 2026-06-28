@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-rural-5g]]
+  - [[case-demand-tier4-housekeeping]]
+  - [[case-demand-travel-agent]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-dialer]]
+  - [[framework-demand-iceberg]]
 ---
-
 # 案例：小胖猴拨号器
 
 **初始判断**：企业销售需要大量拨打电话，"一键拨号器"能提升效率，需求明确。

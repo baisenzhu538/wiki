@@ -9,26 +9,24 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
-- src_unknown
+domain: yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-TCPR底层网络协议.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-单元模型-单商圈]]
+  - [[tool-单元模型-壁垒预判]]
+  - [[concept-最简单元模型]]
+  - [[framework-单元模型-外部对抗地图]]
+  - [[framework-TCPR皇冠模型]]
+  - [[yitang-domain-digest]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[case-yitang-weekly-modeling-engine]]
 ---
-
 # TCP-R 模型：商业管理世界的底层网络协议
 
 ## 一句话定义

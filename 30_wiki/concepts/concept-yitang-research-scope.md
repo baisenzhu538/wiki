@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -29,23 +29,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-research-two-dimensional-positioning]]
+  - [[tool-yitang-research-exhaust-means]]
+  - [[tool-yitang-research-single-point-sniper]]
+  - [[tool-yitang-research-follow-map]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-high-level-plan]]
+  - [[concept-yitang-research-objective]]
+  - （tool-yitang-research-checklist，待补）
+  - [[yt-research-osl-framework]]
+  - [[case-yitang-sanjieke-benchmark-failure]]
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - （dk-yitang-research-cost-match，待补）
+  - [[concept-yitang-research-mindset]]
+  - [[tool-yitang-research-competitive-quadrant]]
 ---
-
 # 调研范围缩小：专注·专业·剥离三原则
 
 > **一句话**：调研范围失控是调研失效的第二大根因。"什么都想看"导致什么都看不透。专注一个核心问题、专业深度匹配决策重要性、剥离无关信息，是调研范围控制的三大铁律。

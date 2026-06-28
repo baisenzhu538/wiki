@@ -6,21 +6,21 @@ title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - learning-methodology- yitang
+  - note-taking
 language: zh-CN
 version: 2
 difficulty: advanced
 confidence: 0.9
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-note-expert-interview-modeling]]
+  - [[tool-知识树存储记忆法]]
+  - [[yt-note-five-levels-training]]
+  - [[dk-note-surplus-brainpower]]
+  - [[tool-yitang-weapon-full-product-experience]]
+  - [[yt-note-checklist-concept]]
+  - [[yt-note-ai-human-division]]
+  - [[yt-note-five-levels-training]]
 prerequisites:
 - src_unknown
 - src_unknown
@@ -59,8 +59,7 @@ author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
 
----
-# 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
+---# 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心洞察：**现场笔记不是“记了多少”，而是“记完后能驱动多少行动”**。完成度是现场笔记的唯一度量标准。暗知识：**“如厕大法”——在信息过载的现场，主动放空大脑，才能看到真正的结构**。
 

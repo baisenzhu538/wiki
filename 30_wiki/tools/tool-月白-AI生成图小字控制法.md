@@ -3,8 +3,7 @@ id: tool-月白-AI生成图小字控制法
 title: 技能：AI生成图小字控制法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI生成图小字控制法
+  - [[tool-月白-工厂对接信息清单制作]]
+  - [[tool-月白-小红书双重搜索法]]
+  - [[tool-月白-新手设计师基本功训练法]]
+  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
+  - [[tool-月白-文创材质成本调研与精益选择]]
+---# 技能：AI生成图小字控制法
 
 ## 原始表述
 

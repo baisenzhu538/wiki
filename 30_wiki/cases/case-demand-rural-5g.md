@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-financial-literacy]]
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-tier4-housekeeping]]
+  - [[case-demand-travel-agent]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-rural-5g]]
+  - [[tool-demand-assessment-triangle]]
 ---
-
 # 案例：偏远县域5G覆盖
 
 **初始判断**：5G是国家战略，偏远县域覆盖是巨大市场，普遍性极高。

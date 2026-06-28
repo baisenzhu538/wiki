@@ -5,8 +5,7 @@ type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - src_unknown
   - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
@@ -16,13 +15,12 @@ updated_at: "2026-06-21"
 author: 黄药师（从 Coze 报告结构提取 + KDO 框架映射）
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-demand-iceberg-l6-hypothesis]]
+  - [[framework-demand-opportunity-spectrum]]
+  - [[yt-market-size-estimation]]
+  - （five-step-barrier，待补）
+  - （demand-analysis-synthetic，待补）
 ---
-
 # 需求分析报告模板
 
 > 端到端报告结构。Agent 跑完需求分析后，按此模板输出——不只是"分析结论"，是可投递给用户的完整报告。

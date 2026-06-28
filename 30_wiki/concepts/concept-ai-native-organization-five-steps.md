@@ -7,8 +7,8 @@ confidence: 0.88
 created_at: 2026-06-09
 difficulty: intermediate
 domain:
-- src_unknown
-- src_unknown
+  - ai-native
+  - management
 estimated_tokens: 4500
 language: zh-CN
 prerequisites: []
@@ -28,15 +28,15 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-modeling-ai-compound-leverage]]
+  - [[tool-纪浩-AI对话上下文隔离]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[ai时代判断力口述]]
+  - [[ai时代判断力口述-3]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+  - [[anthropic-官方发布创始人手册打造-ai-原生初创公司]]
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
@@ -49,8 +49,7 @@ author: unknown
 trust_level: medium
 title: concept ai native organization five steps
 updated_at: '2026-06-17'
----
-# AI原生组织五步搭建法：从罗马军团到自进化有机体
+---# AI原生组织五步搭建法：从罗马军团到自进化有机体
 
 > 来源：10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md（YC AI 组织方法论）
 

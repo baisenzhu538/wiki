@@ -9,22 +9,23 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-最佳实践池子]]
+  - [[concept-最佳实践建模]]
+  - [[tool-审美工具箱]]
+  - [[concept-稀缺机会窗口]]
+  - [[dk-决策经验值]]
+  - [[tool-提问刻意练习画布]]
+  - [[concept-X型Y型决策习惯]]
+  - [[concept-发现决策]]
+  - [[framework-科学决策三角形]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 科学提问刻意练习
 
 ## 一句话定义

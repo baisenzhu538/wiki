@@ -3,8 +3,7 @@
 
 plan_id: plan_20260501_47264869
 type: improvement-plan
-domain:
-- src_unknown
+domain: kdo
 status: draft
 created_at: '2026-04-30T17:58:15+00:00'
 feedback_count: 19
@@ -20,13 +19,12 @@ trust_level: low
 title: plan 20260501 47264869 improvement plan
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Improvement Plan plan_20260501_47264869
+  - [[plan_20260501_8ecb74e3-improvement-plan]]
+  - [[plan_20260501_85a84b92-improvement-plan]]
+  - [[plan_20260501_97170532-improvement-plan]]
+  - [[plan_20260501_05858800-improvement-plan]]
+  - [[plan_20260501_8001399c-improvement-plan]]
+---# Improvement Plan plan_20260501_47264869
 
 ## Summary
 

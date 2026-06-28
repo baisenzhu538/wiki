@@ -11,21 +11,22 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, content-production]
+domain:
+  - yitang
+  - content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-candy-positioning-canvas]]
+  - [[dk-strategy-07-strategy-vs-dividend]]
+  - [[framework-demand-usp-model]]
+  - [[dk-ji-hao-problem-vs-question]]
+  - [[case-candy-problem-os-vpn]]
+  - [[concept-candy-ai-as-collaborator]]
+  - [[tool-candy-positioning-canvas]]
+  - [[tool-candy-oral-polish]]
+  - [[case-candy-problem-os-vpn]]
 ---
-
 # Candy逐字稿九步法
 
 > 不急着写、差异化优先、骨架>文采、案例逼出观点、配图是结构、AI是协作者。

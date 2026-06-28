@@ -6,8 +6,8 @@ title: 技能：系统冗余度快速检查清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+  - ai-collaboration
+  - yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -30,13 +30,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai-narrative-test]]
+  - [[tool-ai-prd-for-ai]]
+  - [[tool-ai-purpose-bias-check]]
+  - [[sk-ai-old-small-checklist]]
+  - [[tool-ai-system-redundancy]]
+  - [[sk-ai-purpose-bias-check]]
+  - [[tool-checklist-cheatsheet-modeling]]
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -45,8 +45,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----
-# 技能：系统冗余度快速检查清单
+---# 技能：系统冗余度快速检查清单
 
 ## 用一句话讲清楚
 

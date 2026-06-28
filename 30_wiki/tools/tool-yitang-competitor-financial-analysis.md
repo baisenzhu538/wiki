@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-weapon-public-official-info]]
+  - [[tool-yitang-business-registration-check]]
 ---
-
 # 竞对财税分析
 
 > 通过公开的财务/税务/社保信息反推竞对的真实规模和经营状况。

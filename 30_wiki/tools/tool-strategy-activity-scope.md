@@ -10,8 +10,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-- src_unknown
-- src_unknown
+  - strategy
+  - operations
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_vlm_desc.md
@@ -22,20 +22,19 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-ansoff]]
+  - [[case-strategy-retailer-activity-scope]]
+  - [[tool-strategy-industry-chain-analysis]]
+  - [[tool-strategy-risk-management]]
+  - [[tool-strategy-value-proposition]]
+  - [[case-strategy-retailer-activity-scope]]
+  - [[case-strategy-snack-business-design]]
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-business-design-template]]
+  - [[tool-strategy-control-points]]
+  - [[tool-strategy-industry-chain-analysis]]
+  - [[tool-strategy-value-capture]]
 ---
-
 # 活动范围设计工具：What × How × Where 三问
 
 > 业务设计六要素第 4 要素。核心问题：**我们在价值链上做哪些事、不做哪些事？经营边界和角色是什么？**

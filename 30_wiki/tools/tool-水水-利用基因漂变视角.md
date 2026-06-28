@@ -3,8 +3,8 @@ id: tool-水水-利用基因漂变视角
 title: 技能：利用基因漂变视角
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - personal-growth
+  - design
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：利用基因漂变视角
+  - [[tool-水水-接受发散性世界观]]
+  - [[tool-水水-用感性维度构建溢价]]
+  - [[tool-水水-区分风险与不确定性]]
+  - [[tool-水水-利用叙事驱动决策]]
+  - [[tool-水水-构建自利叙事]]
+---# 技能：利用基因漂变视角
 
 ## 原始表述
 

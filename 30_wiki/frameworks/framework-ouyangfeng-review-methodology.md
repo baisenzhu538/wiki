@@ -6,8 +6,8 @@ status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 author: 欧阳锋
 created_at: "2026-06-21"
 source_refs:
@@ -19,12 +19,11 @@ source_refs:
   - .agent/pitfalls.md
   - .agent/daily-review/错误模式库.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-yitang-research-quality-gate]]
+  - [[framework-yitang-six-layer-cross-validation]]
+  - [[system-yitang-research-workflow]]
+  - [[framework-yitang-research-weapon-system]]
 ---
-
 # 欧阳锋审查方法论
 
 > 基于软件工程架构评审最佳实践 + KDO 3 轮实地审查教训。三阶段走完，确保不遗漏、不偏见、不压数。

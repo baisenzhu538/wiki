@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -30,17 +30,16 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡7（B、G端）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-content-ip-research]]
+  - [[tool-yitang-tech-project-research]]
+  - [[tool-yitang-overseas-research]]
+  - [[tool-yitang-consulting-business-research]]
+  - [[tool-yitang-organization-research]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[tool-yitang-consulting-business-research]]
+  - [[yt-research-competitor-toolkit]]
 ---
-
 # To B/To G调研手段：浅中深三层10大评估法
 
 > **一句话**：To B/To G 生意的核心不是产品好不好，而是你搞不搞得清楚四件事——准入条件是什么、隐形需求在哪、政策窗口什么时候开、决策链上谁说了算。

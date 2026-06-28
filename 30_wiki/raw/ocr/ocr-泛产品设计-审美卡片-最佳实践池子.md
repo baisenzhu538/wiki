@@ -2,8 +2,7 @@
 
 id: "ocr-泛产品设计-审美卡片-最佳实践池子"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: master
 source_refs:
   - 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-泛产品设计-审美工具箱指南]]
+  - [[ocr-泛产品设计-审美卡片-美好作品想象]]
+  - [[ocr-泛产品设计-审美卡片-最佳实践收集]]
+  - [[ocr-泛产品设计-审美卡片-最佳实践建模]]
+  - [[ocr-泛产品设计者的三大自我修养]]
 ---
-
 # OCR: 泛产品设计-审美卡片-最佳实践池子
 
 ## Summary

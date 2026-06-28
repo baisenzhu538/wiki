@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-social-media-monitoring]]
+  - [[tool-yitang-weapon-user-direct-interview]]
+  - [[tool-yitang-recruit-user-interview]]
 ---
-
 # 社交媒体采访
 
 > 在用户日常活跃的社交媒体平台（小红书/抖音/微博）上找到并私聊目标用户，做轻量级访谈。

@@ -5,8 +5,8 @@ title: 检索架构升级 —— 从向量匹配到域路由 + 混合检索 + �
 type: improvement-plan
 status: active
 domain:
-  - src_unknown
-  - src_unknown
+  - master
+  - kdo
 source_refs:
   - 30_wiki/decisions/plan_20260621_domain-index-infrastructure.md
   - 60_feedback/diagnosis/diag_20260620_调研专题素材验收.md
@@ -16,13 +16,12 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[plan_20260621_domain-index-infrastructure]]
+  - [[framework-yitang-research-quality-gate]]
+  - [[tool-yitang-18-strategy-tool-mapping]]
+  - [[yitang-research-domain-digest]]
+  - [[system-yitang-research-workflow]]
 ---
-
 # 检索架构升级方案
 
 > 提交：黄药师 → 审查：欧阳锋 · 2026-06-21

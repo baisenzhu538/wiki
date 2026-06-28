@@ -9,21 +9,20 @@ confidence: 0.72
 trust_level: medium-low
 language: zh-CN
 domain:
-  - src_unknown
-  - src_unknown
+  - yitang
+  - decision-science
 source_refs:
   - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md
   - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例05.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-科学决策三角形]]
+  - [[tool-决策深度-L2部分定量]]
+  - [[tool-完整财务公式决策]]
+  - [[tool-ROI决策评估画布]]
+  - [[ai-collaboration-domain-digest]]
+  - [[strategy-domain-digest]]
 updated_at: 2026-06-26
 ---
-
 # 案例：一堂租办公室的 ROI 分析
 
 ## 案例来源

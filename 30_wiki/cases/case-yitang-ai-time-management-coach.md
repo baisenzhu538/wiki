@@ -11,19 +11,21 @@ created_at: 2026-06-21
 confidence: 0.80
 trust_level: high
 language: zh-CN
-domain: [yitang, research, ai-collaboration]
+domain:
+  - yitang
+  - research
+  - ai-collaboration
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-doris-catering-chain-benchmark]]
+  - [[case-yitang-doorstep-nail-service-context]]
+  - [[case-yitang-homestay-reception-design]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[tool-yitang-ai-research-workflow]]
+  - [[dk-yitang-ai-research-prompt-craft]]
 ---
-
 # 案例：AI辅助调研——产品验证
 
 **背景**：一堂调研行动营案例。创业者想做AI时间管理教练产品，需要快速验证市场需求和竞品格局。

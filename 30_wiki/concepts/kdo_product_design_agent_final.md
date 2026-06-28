@@ -3,8 +3,7 @@
 
 id: kdo_product_design_agent_final
 created_at: 2026-05-03
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
+  - [[紫鲸ai智能体工作流平台]]
+  - [[保达云诊所深度调研报告]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[HIS系统深度调研]]
+  - [[kdo-protocol]]
+---# Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
 
 ## Summary
 

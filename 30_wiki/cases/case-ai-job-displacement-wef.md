@@ -10,32 +10,31 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-deepfake-market-misuse]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-dutch-childcare-scandal]]
+  - [[case-ai-companion-emotional]]
+  - [[case-chen-qiufan-ai-writing]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # WEF 对 AI 就业影响的预测
 
 > **Burn line**：世界经济论坛 2020 年预言：到 2025 年，AI 与自动化将替代 8500 万个岗位，同时创造 9700 万个新岗位，净增 1200 万。这个“宏观净正面”的数字背后，真正的问题是——被替代的 8500 万人与被创造的 9700 万个岗位，是不是同一群人？

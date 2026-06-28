@@ -7,8 +7,7 @@ type: tool
 source_refs:
 - 10_raw/sources/src_20260619_7bc5c6f6_30_wiki_concepts_yt_management_team_knowledge.md
 status: enriched
-domain:
-  - src_unknown
+domain: yitang- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -18,15 +17,15 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-tool-meeting-designer]]
+  - [[yt-tool-project-health-radar]]
+  - [[yt-pitch-storytelling]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[yt-tool-equity-checklist]]
+  - [[yt-management-team-knowledge]]
+  - [[yt-tool-okr-cycle]]
+  - [[yt-management-goal-management]]
+  - [[yt-management-scientific-meetings]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -53,8 +52,7 @@ estimated_tokens: 3200
 reviewed_by: null
 author: 老顽童
 
----
-# 新人 90 天融入加速器
+---# 新人 90 天融入加速器
 
 > 从 [[yt-management-team-knowledge]] 萃取的团队管理工具。不是"发员工手册+安排导师"的形式主义，而是一套有节奏、有反馈、有退出标准的"社会化工程"——让新人在 90 天内从"外部人"变成"有贡献的内部人"，同时保留他们带来的外部视角。
 

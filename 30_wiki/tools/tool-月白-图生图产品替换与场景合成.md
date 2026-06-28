@@ -3,8 +3,7 @@ id: tool-月白-图生图产品替换与场景合成
 title: 技能：图生图产品替换与场景合成
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：图生图产品替换与场景合成
+  - [[tool-月白-AI生图与图生图决策法]]
+  - [[tool-月白-小红书双重搜索法]]
+  - [[tool-月白-设计参考图精准定位法]]
+  - [[tool-月白-AI自动生成多语种专业名词提示词]]
+  - [[tool-月白-实物包装落地训练法]]
+---# 技能：图生图产品替换与场景合成
 
 ## 原始表述
 

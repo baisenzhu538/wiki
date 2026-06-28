@@ -10,26 +10,25 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-leverage-traffic]]
+  - [[tool-lean-stealth-service]]
+  - [[tool-lean-leverage-competitor]]
+  - [[tool-lean-leverage-tools]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[framework-lean-false-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 借现成资源：降低重投入验证
 
 > 在需要自建销售团队、工厂、门店或供应链之前，先借用外部已运转的资源完成真实交付，把固定资产和团队招聘成本从验证阶段剔除。

@@ -3,8 +3,7 @@
 title: 提案：提示词自动注入体系 — 从手动Read到运行时自动加载
 type: improvement-plan
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
@@ -12,12 +11,12 @@ target_roles:
 - src_unknown
 reviewer: 待定
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-job-intelligence-research]]
+  - [[agent-ecosystem-design]]
+  - [[meta-prompt-eng]]
+  - [[design-ai-image-generation]]
+  - [[ai-short-drama-framework-three-axes]]
+  - [[plan_20260531_data-curator-v1.3]]
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
@@ -27,8 +26,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 提案：提示词自动注入体系
+---# 提案：提示词自动注入体系
 
 > **触发**：2026-06-02 欧阳锋写了递归深挖法 prompt 和 Judge 三问 prompt，用户问"这些提示词如何自动注入执行计划的大模型中"。
 >

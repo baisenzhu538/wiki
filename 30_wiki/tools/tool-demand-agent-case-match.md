@@ -11,18 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method, ai-collaboration]
+domain:
+  - yitang
+  - five-step-method
+  - ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[agent-external-brain-design]]
+  - [[tool-demand-agent-multi-hypothesis]]
+  - [[tool-demand-agent-auto-verify]]
+  - [[tool-demand-agent-signal-substitute]]
+  - [[five-step-domain-digest]]
+  - [[tool-demand-iceberg-l4-job-map]]
 ---
-
 # Agent L4案例匹配
 
 > 开始一张空白的8步地图很难。Agent可以检索案例库中相似任务的8步地图作为起点——不必从零发明。

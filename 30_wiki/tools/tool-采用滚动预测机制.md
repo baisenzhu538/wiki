@@ -3,11 +3,11 @@ id: tool-采用滚动预测机制
 title: 技能：采用滚动预测机制
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - entrepreneurship- management
+  - product
+  - business-strategy
+  - design
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -27,13 +27,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：采用滚动预测机制
+  - [[tool-使用概念辨析卡区分易混淆概念]]
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-遵循规模前倾原则设计组织架构]]
+  - [[tool-使用优先级快筛卡锁定核心矛盾]]
+  - [[tool-设计对抗效果追踪看板]]
+---# 技能：采用滚动预测机制
 
 ## 原始表述
 > 采用「滚动预测」机制：每次复盘时预判未来12-18个月的变化，保持前瞻性而非事后补救

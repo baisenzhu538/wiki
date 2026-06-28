@@ -4,9 +4,9 @@ title: 技能：团队决策外部视角法
 type: tool
 status: draft
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - decision-making
+  - 团队
+  - 噪声减少
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
@@ -30,13 +30,12 @@ author: unknown
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：团队决策外部视角法
+  - [[tool-decision-delay-intuition]]
+  - [[pilot-atomic-chunk-comparison]]
+  - [[master-decision-hygiene]]
+  - [[tool-first-principles-assumption-classify]]
+  - [[tool-cognitive-bias-12-check]]
+---# 技能：团队决策外部视角法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）
 > **核心**：团队对同一问题做判断时，先找历史基率，再独立评估，最后聚合——减少判断噪声。

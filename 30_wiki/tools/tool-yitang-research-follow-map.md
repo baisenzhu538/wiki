@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -29,23 +29,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-18-strategy-tool-mapping]]
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-research-two-dimensional-positioning]]
+  - [[tool-yitang-research-cross-validation]]
+  - [[tool-yitang-research-single-point-sniper]]
+  - [[framework-yitang-oscar-research]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-yitang-research-competitive-quadrant]]
+  - [[tool-yitang-research-two-dimensional-positioning]]
+  - [[tool-yitang-research-best-practice]]
+  - [[case-yitang-sanjieke-benchmark-failure]]
+  - （case-yitang-haidilao-service-research，待补）
+  - [[dk-yitang-research-starter-vs-veteran]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[concept-yitang-research-mindset]]
 ---
-
 # 按图索骥：根据定位寻找对标案例
 
 > **一句话**：按图索骥不是"随便找个案例学习"，而是"根据我的定位，找到最匹配的对标案例，分析其成功路径，判断哪些可以借鉴"。

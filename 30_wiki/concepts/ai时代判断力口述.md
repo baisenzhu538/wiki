@@ -3,8 +3,7 @@
 
 id: "ai时代判断力口述"
 created_at: 2026-05-25
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
 - src_20260525_6748cc27-ai时代判断力口述
 status: enriched
@@ -19,13 +18,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# AI时代判断力口述
+  - [[老朱的水感-2026年5月]]
+  - [[ocr-一堂-单元模型-找全成本实操难点]]
+  - [[2026-05-17-深夜感想]]
+  - [[writing-content]]
+  - [[在设计小伙伴的反馈还挺好的]]
+---# AI时代判断力口述
 
 ## Summary
 

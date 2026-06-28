@@ -2,8 +2,7 @@
 
 id: "ocr-婚礼规划"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: master
 source_refs:
   - 10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-个人修炼-课程清单]]
+  - [[ocr-一堂-科学决策-项目方案评估三角形]]
+  - [[ocr-婚礼操盘-用户和场景]]
+  - [[ocr-一堂y模型steps策略集]]
+  - [[ocr-一堂转化率-10大容易浪费的触点]]
 ---
-
 # OCR: 婚礼规划
 
 ## Summary

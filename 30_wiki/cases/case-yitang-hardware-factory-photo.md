@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-competitor-pricing-intelligence]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[case-yitang-supplier-security-guard]]
+  - [[tool-yitang-supply-chain-research]]
+  - [[dk-yitang-digging-belief]]
 ---
-
 # 案例：从朋友圈照片找到代工厂
 
 **背景**：创业者做硬件产品，需要找车架代工厂开模。发现知乎上有一个人在做类似产品，比自己早。加微信聊了，但对方不可能直接告诉他是哪个工厂——这是商业机密。

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: demand-analysis
 id: yt-demand-early-validation
 title: 需求早期验证：低成本测试法
 type: framework
@@ -16,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - yt-demand-qualitative-analysis
+  - yt-demand-fake-demand-detection
+  - yt-demand-hierarchy-model
+  - yt-five-step-method
+  - yt-entrepreneur-lean-validation
 diagnostic_signals:
 - framework_lens: 需求早期验证——未验证就投入开发
   follow_up_question: 在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？
@@ -32,8 +31,7 @@ diagnostic_signals:
   follow_up_question: 用户说'想要'后，有没有让他们实际使用或付费？
 - framework_lens: 需求早期验证——样本偏差
   follow_up_question: 你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？
----
-# 需求早期验证：低成本测试法
+---# 需求早期验证：低成本测试法
 
 > 一堂五步法：在投入大量资源前，用低成本方法验证需求是否真实存在。
 

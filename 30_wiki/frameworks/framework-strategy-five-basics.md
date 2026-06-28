@@ -11,20 +11,18 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
-- src_unknown
+domain: strategy
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-four-moves]]
+  - [[tool-strategy-gap-analysis]]
+  - [[tool-strategy-three-horizons]]
+  - [[dk-strategy-01-not-goal-setting]]
+  - [[framework-strategy-basics-04-system]]
+  - [[framework-strategy-brm]]
+  - [[framework-strategy-six-stages]]
 ---
-
 # 战略五基本功（5C）
 
 > 战略不只是"定目标"——五基本功覆盖了从框架到执行的完整能力链。大多数公司只练了其中1-2个。

@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/优秀案例分析合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-doris-catering-chain-benchmark]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[tool-demand-assessment-triangle]]
+  - [[framework-demand-usp-model]]
 ---
-
 # 案例：大数据私有化创新药
 
 **作者**：王旎

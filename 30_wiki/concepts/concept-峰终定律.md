@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-项目背景分析]]
+  - [[tool-用户视角]]
+  - [[framework-一堂五步法-泛产品设计]]
+  - [[concept-多视角思考]]
+  - [[tool-用户分层]]
+  - [[framework-科学决策三角形]]
+  - [[concept-发现决策]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 峰终定律：用户体验的二八定律
 
 ## 一句话定义

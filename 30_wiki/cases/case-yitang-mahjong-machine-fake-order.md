@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-yitang-elderly-home-roleplay]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-yitang-competitor-pricing-intelligence]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[tool-yitang-social-engineering-research]]
 ---
-
 # 案例：假装订货套取麻将机竞品数据
 
 **做法**：创业者想了解麻将机行业竞品的真实价格和出货量。直接问不可能拿到——那就假装一个连锁棋牌室的采购方，报一个有吸引力的年采购量。

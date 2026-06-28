@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.90
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+  - lean-startup
+  - yitang
 source_context: 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
 source_refs:
   - 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
@@ -17,12 +17,11 @@ created_at: "2026-06-23"
 author: 黄药师
 reviewed_by: pending
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[five-step-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[strategy-domain-digest]]
+  - [[yitang-research-domain-digest]]
 ---
-
 # 域摘要：精益创业方法论
 
 > 精益创业——用最小成本验证最大假设。核心问题：怎么在资源极有限的条件下，科学地找到产品-市场匹配？

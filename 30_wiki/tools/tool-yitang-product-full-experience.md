@@ -13,8 +13,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -28,19 +28,18 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yitang-research-domain-digest]]
+  - [[tool-yitang-research-competitive-quadrant]]
+  - [[tool-yitang-research-two-dimensional-positioning]]
+  - [[tool-yitang-research-single-point-sniper]]
+  - [[tool-yitang-research-follow-map]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-online-product-experience]]
+  - （tool-yitang-offline-product-experience，待补）
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[yt-research-competitor-toolkit]]
+  - （case-yitang-haidilao-service-research，待补）
 ---
-
 # 完整体验产品：从用户视角理解产品全貌
 
 > **一句话**：不要只看产品功能列表，要真正以用户身份完整体验产品，从注册到使用到售后，理解产品的全貌和细节。

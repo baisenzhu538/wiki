@@ -3,8 +3,7 @@ id: tool-月白-包材工艺参数核对法
 title: 技能：包材工艺参数核对法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：包材工艺参数核对法
+  - [[tool-月白-口喷作图工作流]]
+  - [[tool-月白-AI生成图小字控制法]]
+  - [[tool-月白-AI自动生成多语种专业名词提示词]]
+  - [[tool-月白-商业项目AI模型选型决策]]
+  - [[tool-月白-AI工艺图人工复核法]]
+---# 技能：包材工艺参数核对法
 
 ## 原始表述
 

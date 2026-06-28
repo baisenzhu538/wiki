@@ -4,21 +4,20 @@ id: huangyaoshi-extractor-upgrade-report
 title: 黄药师：暗知识萃取器 B+→A 升级报告
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 target_roles:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[huangyaoshi-tagging-and-scope-proposal]]
+  - [[dk-yb1-aigc-mvp-before-ps]]
+  - [[dk-yb27-pseudo-layer-evasion]]
+  - [[smart-device-foodservice-automation]]
+  - [[beverage-foodservice-channel]]
+  - [[data-curator-role-division]]
+  - [[plan_20260531_data-curator-v1.3]]
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
@@ -26,8 +25,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 暗知识萃取器 B+→A 升级报告
+---# 暗知识萃取器 B+→A 升级报告
 
 ## B+ 版本的问题（自我诊断）
 

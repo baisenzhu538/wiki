@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[framework-demand-usp-model]]
 ---
-
 # 案例：老年智能设备
 
 **场景**：做一款给老年人用的智能设备。

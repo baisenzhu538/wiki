@@ -5,8 +5,7 @@ id: kdo-15-dimension-label-spec
 title: KDO 标签体系：15 维度完整定义 v1.0
 type: decision
 status: draft
-domain:
-- src_unknown
+domain: master
 tags:
 - src_unknown
 - src_unknown
@@ -17,14 +16,14 @@ target_roles:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[huangyaoshi-tagging-and-scope-proposal]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[labeling-final-consolidation]]
+  - [[dk-modeling-ai-iterative-prompting]]
+  - [[labeling-research-alignment]]
+  - [[data-labeling-best-practices-report]]
+  - [[huangyaoshi-tagging-and-scope-proposal]]
+  - [[plan_20260531_data-curator-v1.3]]
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260606_6dad71f1）
@@ -33,8 +32,7 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# KDO 标签体系：15 维度完整定义 v1.0
+---# KDO 标签体系：15 维度完整定义 v1.0
 
 ## 设计原则
 

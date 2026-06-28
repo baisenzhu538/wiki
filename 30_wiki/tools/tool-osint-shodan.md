@@ -11,20 +11,21 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-osint-spiderfoot]]
+  - [[tool-agent-native-overview]]
+  - [[tool-dns-intelligence]]
+  - [[tool-osint-wayback]]
+  - [[tool-google-dorking]]
+  - [[tool-osint-overview]]
+  - [[tool-yitang-tech-project-research]]
 ---
-
 # Shodan：互联网设备搜索引擎
 
 > Shodan不是搜网页，是搜互联网上所有联网设备——服务器、摄像头、数据库、工控系统。输入竞对域名，看他们暴露了什么技术基础设施。

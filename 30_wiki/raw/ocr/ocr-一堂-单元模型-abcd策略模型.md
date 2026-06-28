@@ -3,8 +3,8 @@
 title: "OCR: 一堂-单元模型-ABCD策略模型"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
@@ -16,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-扭蛋机案例]]
+  - [[ocr-一堂-单元模型-示例]]
+  - [[ocr-一堂-单元模型-单sku模型]]
+  - [[ocr-一堂-单元模型-外部对抗地图]]
+  - [[ocr-一堂-单元模型-规模经济对抗武器库]]
 ---
-
 
 
 

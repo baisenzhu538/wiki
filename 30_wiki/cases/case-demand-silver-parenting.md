@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-银发育儿-02_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-demand-pharma-bigdata]]
+  - [[case-yitang-mahjong-machine-fake-order]]
+  - [[case-demand-travel-agent]]
+  - [[dk-modeling-logical-cleanliness-root]]
+  - [[framework-demand-iceberg]]
 ---
-
 # 案例：银发育儿
 
 **场景**：老年人帮子女带孩子——三代人的需求交织。

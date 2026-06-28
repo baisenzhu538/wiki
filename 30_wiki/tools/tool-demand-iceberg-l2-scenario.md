@@ -11,15 +11,16 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[framework-demand-iceberg]]
+  - [[tool-demand-iceberg-l1-user]]
+  - [[tool-demand-iceberg-l3-core-job]]
 ---
-
 # L2粗拆场景问题
 
 > L1确定了"谁"，L2回答"在什么情况下遇到什么问题"。场景是连接用户和需求的桥梁。

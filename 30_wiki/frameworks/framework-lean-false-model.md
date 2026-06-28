@@ -10,9 +10,9 @@ confidence: 0.90
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 - 00_inbox/精益创业/精益创业-false模型-策略图_vlm_desc.md
@@ -23,19 +23,18 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[framework-lean-six-wastes]]
+  - [[yt-lean-false-model-ai]]
+  - [[framework-lean-tenx-formula]]
+  - [[yt-lean-daily-probability-decision]]
+  - [[framework-lean-four-principles]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[concept-一堂-kernel-validation]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-lean-abcd-model]]
+  - [[framework-strategy-lean-validation]]
+  - [[framework-five-step-lean-interface]]
 ---
-
 # 一堂 FALSE/FLESAI 低成本验证模型
 
 > 用一条成本光谱，把"不做产品直接验证"到"全量投入"之间的所有中间策略串起来，帮助创业者在确定性不足时选择最省钱的验证路径。

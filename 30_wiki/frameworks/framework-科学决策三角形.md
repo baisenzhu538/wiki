@@ -10,25 +10,24 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-稀缺机会窗口]]
+  - [[tool-ROI决策评估画布]]
+  - [[yt-decision-height-toolkit]]
+  - [[tool-科学决策关键训练清单]]
+  - [[framework-单元模型-外部对抗地图]]
+  - [[tool-ROI决策评估画布]]
+  - [[tool-完整财务公式决策]]
+  - [[tool-决策深度-L1优先级定性]]
+  - [[framework-lean-abcd-model]]
+  - [[yt-decision-y-model]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 科学决策三角形
 
 ## 一句话定义

@@ -3,8 +3,8 @@ id: tool-提升笔记练习频次的方法
 title: 技能：提升笔记练习频次的方法
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - learning-methodology- design
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -24,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：提升笔记练习频次的方法
+  - [[tool-自我反馈修正笔记姿势]]
+  - [[tool-获取他人反馈优化笔记]]
+  - [[tool-现场建模式萃取笔记]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-用topdown方式整理内化笔记]]
+---# 技能：提升笔记练习频次的方法
 
 ## 原始表述
 > 日常练习：做计划保证次数，比如固定日期/场景 专项练习：设计专项小练习，比如练视觉美化 主动练习：各种机会主动记笔记，比如开会/访谈 叠加练习：用暗时间进行练习，比如听课记笔记 迁移练习：抽象底层模型反复练习，比如练MECE

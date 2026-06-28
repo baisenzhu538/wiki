@@ -2,8 +2,7 @@
 
 id: "ocr-项目背景问题思考的8个维度"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-decision-consensus-iceberg]]
+  - [[ocr-一堂-科学决策-深度-案例05]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例03]]
+  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
+  - [[ocr-一堂-科学决策-宽度-企业]]
 ---
-
 # OCR: 项目背景问题思考的8个维度
 
 ## Summary

@@ -10,29 +10,28 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 dark_knowledge_type: heuristic
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-ai-prediction-expiry-date]]
+  - [[concept-ai-chair-determines-view]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[tool-ai-cross-reading-method]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[concept-ai-chair-determines-view]]
+  - [[concept-ai-neutrality-bias]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[tool-ai2041-source-verification-checklist]]
 ---
-
 # 最稀缺的是自我
 
 > **Burn line**：当算法能替你写文案、做分析、写代码、挑电影、选伴侣甚至定义幸福时，"你是谁"的判断力——喜欢什么、相信什么、追求什么——反而成了 AI 时代最稀缺的资源。

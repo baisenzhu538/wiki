@@ -3,8 +3,8 @@ id: tool-快招品牌总部模拟调研
 title: 技能：快招品牌总部模拟调研
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - entrepreneurship- product
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -24,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：快招品牌总部模拟调研
+  - [[tool-用旗舰店替代纯招商投入]]
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-创始人二当家分工协作模式]]
+  - [[tool-通过请吃饭获取行业内部资料]]
+---# 技能：快招品牌总部模拟调研
 
 ## 原始表述
 > 计划去4~5家快招品牌的总部，模拟调研走一遍他们的加盟流程，做招商的对比分析，预计费用1200*5=6000元。

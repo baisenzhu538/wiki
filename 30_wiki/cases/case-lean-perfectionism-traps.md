@@ -12,32 +12,31 @@ source_person: 一堂课程讲师与学员（教学案例）
 source_context: 一堂精益创业·低成本验证课程·完美心态踩坑 + 心态关图示
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - strategy
+  - yitang
+  - product
 source_refs:
 - 00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-weak-solution]]
+  - [[case-lean-wrong-demand]]
+  - [[case-lean-premature-refinement]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[framework-lean-four-principles]]
+  - [[framework-lean-abcd-model]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[tool-lean-ai-accelerated-validation]]
+  - [[case-demand-indonesia-insurance]]
 ---
-
 # 完美心态踩坑案例集
 
 ## 核心洞察

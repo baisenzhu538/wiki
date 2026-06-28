@@ -10,28 +10,27 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-lean-genki-forest-toolkit]]
+  - [[case-dutch-childcare-scandal]]
+  - [[tool-ai-cross-reading-method]]
+  - [[dk-ai-social-progress-not-automatic]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
+  - [[framework-wanghuan-ooda-loop]]
 ---
-
 # COMPAS 再犯算法种族偏见
 
 > **Burn line**：一份被包装成“科学中立”的再犯风险评分，把美国刑事司法历史中的种族差异重新编码为数字，让黑人被告在“没犯罪却被判高风险”和“犯罪却被判低风险”两个错误方向上遭受不对称伤害。

@@ -8,18 +8,17 @@ author: 老顽童
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-**背景**：CEO Bizzarri 2015年就任，收入€39亿
+  - [[case-strategy-edward-jones]]
+  - [[dk-strategy-06-dividend-to-strategy]]
+  - [[dk-modeling-radar-model-not-result]]
+  - [[case-doris-2014-music-streaming-prediction]]
+  - [[case-strategy-cool-boiled-water]]
+  - [[framework-strategy-brm]]
+---**背景**：CEO Bizzarri 2015年就任，收入€39亿
 **动作**：砍低价折扣渠道→收回授权转直营→换创意总监→聚焦千禧一代
 **结果**：4年收入翻倍至€83亿。千禧一代贡献超50%销售额
 **外部验证**：✅ 全部数据公开可查

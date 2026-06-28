@@ -6,8 +6,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+  - strategy
+  - entrepreneurship
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_vlm_desc.md
@@ -16,10 +16,9 @@ updated_at: "2026-06-22"
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
+  - [[framework-strategy-three-horizons]]
+  - [[framework-strategy-ansoff]]
 ---
-
 # 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 
 > 企业不同阶段的核心任务、陷阱、战略重点和决策方式完全不同。用生命周期视角做战略，才能避免“用成熟企业的方法做初创”或“用初创的方法做转型”。

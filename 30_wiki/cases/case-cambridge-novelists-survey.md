@@ -10,31 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-ai-companion-emotional]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[case-chen-qiufan-ai-writing]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
 ---
-
 # 剑桥小说家对 AI 创作态度调查
 
 > **Burn line**：一项覆盖 258 位英国已出版小说家的调查显示，97% 的受访者对“AI 写整本小说”持极度负面态度——但这不是简单的反技术情绪，而是创作界对“谁是作者、谁拥有训练数据、谁来承担经济后果”的集体边界声明。

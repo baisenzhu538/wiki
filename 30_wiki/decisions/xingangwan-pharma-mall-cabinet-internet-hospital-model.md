@@ -7,10 +7,10 @@ type: decision
 status: proposed
 decision_date: '2026-06-18'
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - healthcare- healthcare
+  - pharmaceutical-retail
+  - compliance
+  - business-strategy
 source_refs:
 - src_unknown
 - src_unknown
@@ -27,23 +27,23 @@ reviewed_by: pending
 confidence: 0.84
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[xingangwan-pharma-business-formulas]]
+  - [[shanxi-field-research-checklist-20260701]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[互联网医院项目]]
+  - [[鑫港湾HIS项目]]
+  - [[诊所O2O项目]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-regional-policy-map]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[smart-medicine-cabinet-o2o-cost-structure]]
+  - [[互联网医院模式深度调研报告]]
+  - [[诊所o2o外卖平台业务深度调研报告]]
+  - [[shanxi-field-research-checklist-20260701]]
+  - [[xingangwan-pharma-business-formulas]]
+  - [[xingangwan-pharma-business-model-calc]]
 tags:
 - src_unknown
 - src_unknown
@@ -56,7 +56,6 @@ tags:
 - src_unknown
 
 ---
-
 # 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 
 > **决策目标**：在山西首发场景下，为鑫港湾设计一条"小程序医药商城 + 实体药店 + 智慧药柜 + 互联网医院/HIS + 诊所场地合作"的可行合规路径与可持续商业模式。

@@ -10,13 +10,14 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- src_unknown
+  - [[tool-yitang-weapon-third-party-database]]
 ---
-
 # 微信指数查询
 
 > 微信指数/微小宝/新榜——追踪公众号和视频号的内容热度。

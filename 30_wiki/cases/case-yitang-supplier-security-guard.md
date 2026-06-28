@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-competitor-pricing-intelligence]]
+  - [[case-zhanglan-amusement-park-undercover]]
+  - [[case-yitang-hardware-factory-photo]]
+  - [[case-liutao-douyin-team-leader-9m]]
+  - [[tool-yitang-supply-chain-research]]
+  - [[tool-yitang-field-research]]
 ---
-
 # 案例：通过保安打听到工厂收购价
 
 **背景**：创业者做萝卜干生意，想自己掌控供应链。考虑收购一个小工厂但不知道花多少钱。

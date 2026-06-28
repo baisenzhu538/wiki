@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - entrepreneurship
+  - modeling
 source_person: Truman 的早期领导
 source_context: 一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分支撑 high trust；因仅有一个来源，trust_level 保持 medium，待第二来源验证后可升 high）
 created_at: '2026-06-14'
@@ -27,21 +27,20 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-personal-map-modeling]]
+  - [[case-yitang-radar-chart-selection]]
+  - [[case-essence-humanity-trap]]
+  - [[case-child-drawing-rhyme]]
+  - [[case-essence-education-strategy]]
+  - [[tool-essence-nfactor-modeling]]
+  - [[dk-modeling-explanatory-vs-predictive-essence]]
+  - [[concept-一堂-key-assumptions]]
+  - [[yt-five-step-method]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：创业本质 = 小概率游戏
+---# 案例：创业本质 = 小概率游戏
 
 > **Burn line**: 当你把创业理解成“小概率游戏”，所有关键假设、MVP、留后路的动作都会自然推导出来。
 

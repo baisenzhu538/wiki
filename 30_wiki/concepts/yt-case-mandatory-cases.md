@@ -10,8 +10,7 @@ source_refs:
 - src_20260507_857c7ed4-声音和画面正常吗
 id: yt-case-mandatory-cases
 created_at: 2026-05-05
-domain:
-- src_unknown
+domain: yitang
 yitang:
   map: entrepreneur
   module: "案例学习"
@@ -28,14 +27,13 @@ author: "老顽童"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[HIS系统开发实现方案-架构师指南]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[sprint-2-门禁举证验收]]
+  - [[开源HIS系统代码深度分析报告]]
+  - [[EC工业化规范手册]]
 
----
-# 一堂案例必修课
+---# 一堂案例必修课
 
 ## Summary
 

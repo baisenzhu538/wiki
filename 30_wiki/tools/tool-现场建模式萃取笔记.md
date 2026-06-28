@@ -3,9 +3,9 @@ id: tool-现场建模式萃取笔记
 title: 技能：现场建模式萃取笔记
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- product
+  - management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -24,13 +24,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：现场建模式萃取笔记
+  - [[tool-提升笔记练习频次的方法]]
+  - [[tool-获取他人反馈优化笔记]]
+  - [[tool-反向记录整理思路]]
+  - [[tool-用清单体记备忘笔记]]
+  - [[tool-用topdown方式整理内化笔记]]
+---# 技能：现场建模式萃取笔记
 
 ## 原始表述
 > 要点1：现场提问 要点2：现场建模 要点3：现场追问 要点4：现场反讲 要点5：一次到位

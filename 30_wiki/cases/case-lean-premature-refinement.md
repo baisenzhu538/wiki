@@ -9,30 +9,32 @@ reviewed_by: 待审
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [strategy, yitang, product]
+domain:
+  - strategy
+  - yitang
+  - product
 source_person: 一堂课程讲师（匿名学员案例汇总）
 source_context: 一堂精益创业·低成本验证课程·过早细化专题
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-lean-weak-solution]]
+  - [[case-lean-adult-education]]
+  - [[case-lean-2b-gray-test]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[case-lean-premature-expansion]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-six-wastes]]
+  - [[framework-lean-product-kernel]]
+  - [[yt-entrepreneur-lean-validation]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[concept-一堂-kernel-validation]]
+  - [[tool-lean-minimum-version]]
+  - [[tool-lean-cut-features]]
+  - [[case-lean-electric-scooter-mvp]]
 ---
-
 # 过早细化案例集
 
 ## 核心洞察

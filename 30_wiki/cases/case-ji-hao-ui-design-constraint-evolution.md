@@ -5,8 +5,8 @@ title: 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,14 +15,14 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-纪浩-problem-validation-four-checks]]
+  - [[dk-ji-hao-novice-mindset-advantage]]
+  - [[concept-纪浩-ai-collaboration-five-layer]]
+  - [[tool-纪浩-Problem与Question区分法]]
+  - [[dk-ji-hao-constraint-beats-talent]]
+  - [[dk-ji-hao-constraint-beats-talent]]
+  - [[dk-ji-hao-novice-mindset-advantage]]
+  - [[tool-纪浩-problem-validation-four-checks]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ definition_of_done:
 pipeline:
 - src_unknown
 - src_unknown
----
-# 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代
+---# 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代
 
 ## 一句话摘要
 

@@ -3,8 +3,7 @@
 
 id: design-ai-image-generation
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 source_refs:
@@ -20,13 +19,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Design / Ai Image Generation
+  - [[product-ux]]
+  - [[business-analysis]]
+  - [[ocr-screenshot1]]
+  - [[ocr-微信图片_20260507004804_39_32]]
+  - [[ocr-一堂-地图-创业地图_conv]]
+---# Design / Ai Image Generation
 
 ## Summary
 

@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺机会窗口_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-稀缺资源清单]]
+  - [[tool-最佳实践池子]]
+  - [[tool-科学提问刻意练习]]
+  - [[tool-审美工具箱]]
+  - [[dk-决策经验值]]
+  - [[tool-稀缺资源清单]]
+  - [[concept-发现决策]]
+  - [[framework-科学决策三角形]]
 ---
-
 # 稀缺机会窗口
 
 ## 一句话定义

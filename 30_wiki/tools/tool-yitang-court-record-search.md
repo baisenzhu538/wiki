@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-public-official-info]]
 ---
-
 # 裁判文书检索
 
 > 裁判文书网——被严重低估的商业情报源。法律纠纷中暴露的信息远超新闻稿。

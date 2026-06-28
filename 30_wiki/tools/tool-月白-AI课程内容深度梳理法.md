@@ -3,8 +3,7 @@ id: tool-月白-AI课程内容深度梳理法
 title: 技能：AI课程内容深度梳理法
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -26,13 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI课程内容深度梳理法
+  - [[tool-月白-AI设计反馈萃取法]]
+  - [[tool-月白-AI对话情绪管理法]]
+  - [[tool-月白-左手Cubox右手里程碑学习法]]
+  - [[tool-月白-课程资料文件命名规范]]
+  - [[tool-月白-文创材质调研与精益选择]]
+---# 技能：AI课程内容深度梳理法
 
 ## 原始表述
 

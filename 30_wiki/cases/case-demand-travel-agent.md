@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-rural-5g]]
+  - [[case-demand-tier4-housekeeping]]
+  - [[case-demand-dialer]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-travel-agent]]
+  - [[framework-demand-iceberg]]
 ---
-
 # 案例：旅行攻略Agent
 
 **初始判断**：用户需要"AI生成旅行攻略"，功能需求明确。

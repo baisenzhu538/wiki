@@ -8,25 +8,24 @@ author: 王语嫣 → 老顽童
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_104_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-**案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
+  - [[tool-strategy-business-design-template]]
+  - [[case-strategy-retailer-activity-scope]]
+  - [[tool-strategy-map]]
+  - [[tool-strategy-business-summary]]
+  - [[framework-strategy-business-design]]
+  - [[framework-strategy-business-design]]
+  - [[tool-strategy-customer-selection]]
+  - [[tool-strategy-value-proposition]]
+  - [[tool-strategy-activity-scope]]
+  - [[case-strategy-snack-export-opportunity]]
+---**案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 
 **业务设计六要素诊断 → 设计 → 挑战**：
 

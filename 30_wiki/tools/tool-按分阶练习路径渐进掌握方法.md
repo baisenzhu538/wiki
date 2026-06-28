@@ -2,8 +2,7 @@
 id: tool-按分阶练习路径渐进掌握方法
 title: 技能：按分阶练习路径渐进掌握方法
 type: tool
-domain:
-- src_unknown
+domain: learning-methodology- design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -23,13 +22,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：按分阶练习路径渐进掌握方法
+  - [[tool-使用概念辨析卡区分易混淆概念]]
+  - [[tool-设定管理杠杆率指标评估效率]]
+  - [[tool-遵循规模前倾原则设计组织架构]]
+  - [[tool-使用优先级快筛卡锁定核心矛盾]]
+  - [[tool-设计对抗效果追踪看板]]
+---# 技能：按分阶练习路径渐进掌握方法
 
 ## 原始表述
 > 设计「分阶练习」路径：LevelA-只做加法（列要素）→LevelB-加法+减法（排序）→LevelC-完整三步，每阶完成后再进阶

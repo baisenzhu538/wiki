@@ -2,8 +2,7 @@
 
 id: "ocr-预判模型"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: ai-saas
 source_refs:
   - 10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md
 status: draft
@@ -18,12 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[yt-panproduct-aesthetic-modeling]]
+  - [[yt-model-prediction-model]]
+  - [[yt-foresight-model-taxonomy]]
 ---
-
 # OCR: 预判模型
 
 ## Summary

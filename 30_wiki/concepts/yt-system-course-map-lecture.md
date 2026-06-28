@@ -10,8 +10,7 @@ source_refs:
 - src_20260507_3f2ac357-值班主
 id: yt-system-course-map-lecture
 created_at: 2026-05-05
-domain:
-- src_unknown
+domain: yitang
 yitang:
   module: "课程体系总览"
   course_type: method
@@ -31,14 +30,13 @@ author: "老顽童"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-panproduct-aesthetic-collection]]
+  - [[yt-panproduct-demand-industry-canvas]]
+  - [[tool-泛产品落地-善用佳软]]
+  - [[yt-panproduct-aesthetic-pool]]
+  - [[yt-panproduct-demand-project-background]]
 
----
-# 一堂课程地图精华串讲
+---# 一堂课程地图精华串讲
 
 ## Summary
 

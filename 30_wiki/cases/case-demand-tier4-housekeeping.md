@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-restaurant-hiring]]
+  - [[case-demand-rural-5g]]
+  - [[case-demand-dialer]]
+  - [[case-demand-travel-agent]]
+  - [[case-demand-indonesia-insurance]]
+  - [[dk-demand-pitfall-tier4-housekeeping]]
+  - [[framework-demand-opportunity-spectrum]]
 ---
-
 # 案例：四线家政创业
 
 **初始判断**：四线城市家政需求旺盛，供给不足，市场空白。

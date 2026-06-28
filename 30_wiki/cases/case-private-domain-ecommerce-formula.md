@@ -4,9 +4,9 @@ title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升�
 type: case
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - yitang
+  - e-commerce
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
 source_refs:
@@ -21,12 +21,11 @@ review_date: "2026-06-28"
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-
 # 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径"
 
 > 一堂业务公式拆解培训案例：一个 10 万人的私域社群月 GMV 仅 100 万，创始人通过“拉人+发广告+做活动”试图翻倍，但真正的瓶颈是人均贡献低、用户不信任、缺少升级路径。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

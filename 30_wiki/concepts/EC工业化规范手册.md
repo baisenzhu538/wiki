@@ -3,8 +3,7 @@
 
 id: "EC工业化规范手册"
 created_at: 2026-05-03
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
 - src_20260503_dadc7838-EC工业化规范手册
 status: enriched
@@ -18,13 +17,12 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# EC工业化规范手册
+  - [[HIS系统开发实现方案-架构师指南]]
+  - [[保达云诊所深度调研报告]]
+  - [[轻量级诊所HIS调研全清单]]
+  - [[HIS系统深度调研]]
+  - [[紫鲸ai智能体工作流平台]]
+---# EC工业化规范手册
 
 ## Summary
 

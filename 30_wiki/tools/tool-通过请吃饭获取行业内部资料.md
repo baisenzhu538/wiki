@@ -2,8 +2,7 @@
 id: tool-通过请吃饭获取行业内部资料
 title: 技能：通过请吃饭获取行业内部资料
 type: tool
-domain:
-- src_unknown
+domain: learning-methodology- business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -22,13 +21,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：通过请吃饭获取行业内部资料
+  - [[tool-用旗舰店替代纯招商投入]]
+  - [[tool-快招品牌总部模拟调研]]
+  - [[tool-敏捷发布快速迭代搭建体系]]
+  - [[tool-城市合伙人模式复制能力]]
+  - [[tool-创始人二当家分工协作模式]]
+---# 技能：通过请吃饭获取行业内部资料
 
 ## 原始表述
 > 请合作公司的销售吃了个饭，销售给了我们一个资料U盘，其中有很多高价值内容，是之前项目沉淀出来的工具装备模板、成功案例等。

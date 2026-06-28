@@ -3,10 +3,10 @@ id: tool-1视角升级思考法
 title: 技能：+1视角升级思考法
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - learning-methodology- management
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
@@ -27,13 +27,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：+1视角升级思考法
+  - [[tool-稀缺资源机会成本比对法]]
+  - [[tool-区分获客渠道计算单元roi]]
+  - [[tool-对标借鉴他人决策维度]]
+  - [[tool-ai辅助学习]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+---# 技能：+1视角升级思考法
 
 ## 原始表述
 > 如果+1视角思考，这个事情该怎么评估？

@@ -2,8 +2,7 @@
 
 id: "ocr-萃取总结"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: yitang
 source_refs:
   - 10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md
 status: draft
@@ -18,13 +17,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂产品内核-十大典型指标]]
+  - [[ocr-一堂泛产品设计-多出牌多练习]]
+  - [[ocr-泛产品设计者的自我修养]]
+  - [[ocr-一堂泛产品设计-十年修炼爬山地图]]
+  - [[ocr-顶级产品追求的方向-乔布斯]]
 ---
-
 # OCR: 萃取总结
 
 ## Summary

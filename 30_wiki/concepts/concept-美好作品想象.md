@@ -9,20 +9,21 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain: [yitang, decision-science]
+domain:
+  - yitang
+  - decision-science
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-最佳实践池子]]
+  - [[tool-最佳实践收集]]
+  - [[concept-最佳实践建模]]
+  - [[tool-审美工具箱]]
+  - [[concept-稀缺机会窗口]]
+  - [[framework-科学决策三角形]]
+  - [[concept-发现决策]]
+  - [[ai-collaboration-domain-digest]]
 ---
-
 # 美好作品想象：先看到终局再倒推路径
 
 ## 一句话定义

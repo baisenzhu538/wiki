@@ -3,8 +3,8 @@ id: tool-专家访谈十步法
 title: 技能：专家访谈十步法
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - research- design
+  - yitang
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
@@ -23,13 +23,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：专家访谈十步法
+  - [[tool-知识库团队管理]]
+  - [[tool-项目复盘基本功]]
+  - [[tool-清单式笔记法]]
+  - [[tool-逐字稿练习演讲]]
+  - [[tool-费曼学习法实践讲香课题]]
+---# 技能：专家访谈十步法
 
 ## 原始表述
 > 《调研专项：高质量的专家访谈》一堂课教你用10步高效通过专家拿业务认知；《调研黑客3：打造调研武器库》一堂课教你用10步高效通过专家拿业务认知

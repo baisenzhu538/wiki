@@ -2,8 +2,7 @@
 
 id: "ocr-一堂转化率-10大容易浪费的触点"
 created_at: 2026-05-21
-domain:
-  - src_unknown
+domain: healthcare
 source_refs:
   - 10_raw/sources/src_20260522_037af20f-ocr-一堂转化率-10大容易浪费的触点.md
 status: draft
@@ -17,13 +16,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-婚礼规划]]
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-婚礼操盘-用户和场景]]
+  - [[ocr-一堂-单元模型-单sku模型]]
+  - [[ocr-一堂-单元模型-壁垒预判]]
 ---
-
 # OCR: 一堂转化率-10大容易浪费的触点
 
 ## Summary

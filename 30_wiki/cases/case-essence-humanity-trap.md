@@ -8,9 +8,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - yitang
+  - modeling
+  - essence
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）（单一 source 为完整长文档，内容充分支撑 high trust；因仅有一个来源，trust_level 保持 medium，待第二来源验证后可升 high）
 created_at: '2026-06-14'
@@ -27,20 +27,19 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-modeling-explanatory-vs-predictive-essence]]
+  - [[case-child-drawing-rhyme]]
+  - [[dk-modeling-essence-predictive]]
+  - [[case-essence-education-strategy]]
+  - [[case-essence-entrepreneurship]]
+  - [[case-essence-entrepreneurship]]
+  - [[case-essence-education-strategy]]
+  - [[dk-modeling-essence-predictive]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱
+---# 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱
 
 > **Burn line**: 如果一个本质什么都能解释，但什么具体决策都推导不出来，它就是高级鸡汤。
 

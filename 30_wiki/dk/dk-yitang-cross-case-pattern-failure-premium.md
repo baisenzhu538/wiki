@@ -11,21 +11,22 @@ created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 跨案例模式：失败者溢价
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[tool-yitang-news-monitoring]]
+  - [[tool-yitang-business-registration-check]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[case-yitang-fake-interview-intelligence]]
+  - [[case-yitang-supplier-security-guard]]
+---# 跨案例模式：失败者溢价
 
 > 关店调研比开店调研重要十倍。访谈赔了钱的店=深层调研，访谈赚了钱的店=中层调研。这不是夸张——跨10+案例统计后，这是调研信息质量的铁律。
 

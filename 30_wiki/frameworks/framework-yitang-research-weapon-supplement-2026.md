@@ -11,24 +11,25 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-alt-data-free]]
+  - [[tool-agent-native-overview]]
+  - [[tool-osint-overview]]
+  - [[tool-yitang-web-scraping-research]]
+  - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-ai-research-workflow]]
+  - [[tool-yitang-database-index]]
+  - [[framework-yitang-nine-layer-deep-dig]]
 ---
-
 # 调研武器库补充：2025-2026年新武器
 
 > 一堂武器库以人工执行为主。2025-2026年涌现了大量Agent原生工具、OSINT自动化框架、替代数据源——这些都是我们原本不知道的武器。本卡做系统性补充。

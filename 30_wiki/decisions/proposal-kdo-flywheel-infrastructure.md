@@ -3,8 +3,7 @@
 title: 飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机制
 type: improvement-plan
 status: draft
-domain:
-- src_unknown
+domain: master
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 target_roles:
@@ -15,18 +14,17 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[kdo-flywheel]]
+  - [[sprint-6-cli-gap-proposal]]
+  - [[dk-f5-stale-feedback-ref]]
+  - [[sprint-2-gate-enrich-evidence]]
+  - [[proposal-deep-synthesis-infrastructure]]
+  - [[proposal-deep-synthesis-infrastructure]]
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 飞轮基础设施提案
+---# 飞轮基础设施提案
 
 > **触发**：今晚六个循环的知识挖掘飞轮，全部是意外触发的——没有流程支撑。如果飞轮依赖"用户刚好说了一句不够深刻"，它就不会稳定转。
 > **提案**：把飞轮从人的习惯固化为系统的机制。

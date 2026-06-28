@@ -3,8 +3,7 @@ id: tool-月白-AI设计三段式里程碑流程
 title: 技能：AI设计三段式里程碑流程
 type: tool
 status: draft
-domain:
-- src_unknown
+domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -25,13 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：AI设计三段式里程碑流程
+  - [[tool-月白-AIGC餐饮海报优化一抽流]]
+  - [[tool-月白-竞品图精益替换法]]
+  - [[tool-月白-关键要素提取改图法]]
+  - [[tool-月白-眼高手低训练法]]
+  - [[tool-月白-线下门店设计复杂度评估]]
+---# 技能：AI设计三段式里程碑流程
 
 ## 原始表述
 

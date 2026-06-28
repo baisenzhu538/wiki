@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: basic
 estimated_tokens: 2500
 version: 1
@@ -28,17 +28,16 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-weapon-public-official-info]]
+  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
+  - [[tool-yitang-supply-chain-research]]
+  - [[yt-research-intelligence-map]]
+  - [[tool-执行对标研究三步法]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-financial-report-intelligence]]
+  - [[tool-yitang-database-index]]
+  - [[yt-research-intelligence-map]]
 ---
-
 # 官方公开信息渠道：公司自己发布的信息最有价值
 
 > **一句话**：公司公开信息（官网、BP、招股书、CEO演讲、社交媒体账号）是"内部人发布的信息"——它们比外部第三方信息可信得多，而且完全免费。但一个关键陷阱：公司发布的当然都是正面信息，你需要学会从中读出"他们没说什么"。

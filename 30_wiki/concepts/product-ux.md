@@ -3,8 +3,7 @@
 
 id: product-ux
 created_at: 2026-05-21
-domain:
-- src_unknown
+domain: ai-saas
 source_refs:
   - src_20260522_404f58a2-product-ux
 status: draft
@@ -19,13 +18,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# Product Ux
+  - [[design-ai-image-generation]]
+  - [[business-analysis]]
+  - [[learning-thinking]]
+  - [[meta-prompt-eng]]
+  - [[writing-content]]
+---# Product Ux
 
 ## Summary
 

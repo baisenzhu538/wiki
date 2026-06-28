@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.80
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-yitang-travel-receipt-analysis]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-doris-outbound-travel-community]]
+  - [[case-doris-catering-chain-benchmark]]
+  - [[framework-doris-industry-report-4step]]
+  - [[tool-yitang-overseas-research]]
 ---
-
 # 案例：美容仪出海市场判断
 
 **问题**：想做美容仪器出海，需要判断目标市场的规模、增速和进入门槛。

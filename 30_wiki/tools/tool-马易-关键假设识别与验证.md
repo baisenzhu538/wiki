@@ -3,8 +3,8 @@ id: tool-马易-关键假设识别与验证
 title: 技能：关键假设识别与验证
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - ai-collaboration
+  - yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：关键假设识别与验证
+  - [[tool-马易-深度沉浸需求挖掘]]
+  - [[tool-马易-平台模式验证法]]
+  - [[tool-马易-数字员工FD拆解落地]]
+  - [[tool-马易-隐私安全分层解决]]
+  - [[tool-马易-最小场景优先落地法]]
+---# 技能：关键假设识别与验证
 
 ## 原始表述
 

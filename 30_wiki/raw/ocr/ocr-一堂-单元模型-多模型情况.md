@@ -3,12 +3,12 @@
 title: "OCR: 一堂-单元模型-多模型情况"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_a3880f88-ocr-一堂-单元模型-多模型情况.md
@@ -20,13 +20,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-单元模型-最简单元模型]]
+  - [[ocr-一堂-单元模型-abcd策略模型]]
+  - [[ocr-一堂-单元模型-单sku模型]]
+  - [[ocr-一堂-单元模型-外部对抗地图]]
+  - [[ocr-一堂-单元模型-象限分析法]]
 ---
-
 
 
 

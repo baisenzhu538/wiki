@@ -9,8 +9,8 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - strategy
+  - operations
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_vlm_desc.md
@@ -18,17 +18,16 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-strategy-core-competence-matrix]]
+  - [[framework-strategy-kai-innovation-directions]]
+  - [[tool-strategy-industry-chain-analysis]]
+  - [[tool-strategy-market-opportunity-matrix]]
+  - [[framework-strategy-pyramid]]
+  - [[case-strategy-snack-export-opportunity]]
+  - [[tool-strategy-industry-chain-analysis]]
+  - [[tool-strategy-value-capture]]
+  - [[framework-strategy-business-design]]
 ---
-
 # 物流费用三年节约计划：从单吨运费到全链成本
 
 > 物流成本不是"运费"一个数字，而是由运量、单吨运费、运费总额、运费率、仓储费用共同构成的系统。三年计划模板的价值，在于强迫你把"降本"从口号拆成可追踪的结构。

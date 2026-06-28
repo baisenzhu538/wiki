@@ -10,9 +10,9 @@ source_refs:
   - 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - ai-saas- yitang
+  - ai-collaboration
+  - product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -21,10 +21,10 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-conflict-three-axes
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +42,7 @@ diagnostic_signals:
 - framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 第一集前 30 秒是否让观众看到主角的欲望、日常被打破，以及不得不行动的理由？
 
----
-# 框架三板斧：短剧英雄之旅结构工具
+---# 框架三板斧：短剧英雄之旅结构工具
 
 > **Burn line**: 英雄不是一上来就无敌，而是被深渊逼出光芒。
 

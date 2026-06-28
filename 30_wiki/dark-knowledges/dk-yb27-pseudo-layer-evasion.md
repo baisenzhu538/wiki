@@ -5,8 +5,7 @@ title: 伪图层叠加规避平台图像识别
 type: dk
 dark_knowledge_type: tool_usage
 status: enriched
-domain:
-- src_unknown
+domain: design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[dk-yb30-ecommerce-channel-version]]
+  - [[dk-yb31-style-first-controlnet]]
+  - [[dk-yb23-ai-pre-screen-three-minutes]]
+  - [[dk-yb29-prompt-migrate-copy-first]]
+  - [[dk-yb5-style-asset-archive]]
+  - [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+  - [[dk-yb1-aigc-mvp-before-ps]]
+  - [[dk-yb13-zero-shot-style-transfer]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 伪图层叠加规避平台图像识别
+---# 伪图层叠加规避平台图像识别
 
 ## 原始表述/核心洞察
 

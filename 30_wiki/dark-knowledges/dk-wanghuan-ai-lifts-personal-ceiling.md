@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - human-ai-collaboration
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -20,14 +20,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown-double-triangle
-- src_unknown
-- src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-modeling-ai-compound-leverage]]
+  - [[master-ai-info-literacy]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - human-ai-collaboration-double-triangle
+  - framework-wanghuan-actor-director-mode
+  - framework-wanghuan-ai-five-level-ladder
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维
@@ -51,8 +51,7 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----
-# 王欢暗知识：AI 拉升个人上限
+---# 王欢暗知识：AI 拉升个人上限
 
 > **Burn line**: AI 这一轮给我们最大的感受是，它可以拉升个人的上限——你完全可以做出以前根本做不出来的东西，只要你有导演思维。
 

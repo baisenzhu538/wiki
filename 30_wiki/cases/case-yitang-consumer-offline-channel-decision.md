@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-yitang-pet-fostering-user-research]]
+  - [[case-liutao-electric-bike-localization]]
+  - [[case-yitang-doorstep-nail-service-context]]
+  - [[case-yitang-ski-project-user-as-expert]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[tool-yitang-user-interview-5steps]]
+  - [[tool-yitang-consumer-goods-research]]
 ---
-
 # 案例：消费品线下渠道决策
 
 **问题**：消费品创业者面临关键决策——要不要做线下渠道？进商超还是进便利店？

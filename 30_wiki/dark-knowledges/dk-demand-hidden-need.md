@@ -11,18 +11,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+  - yitang
+  - five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 隐性需求伪装：用户说的≠用户要的
+  - [[dk-yitang-expert-interview-5-traps]]
+  - [[dk-yitang-research-desperate-effort]]
+  - [[dk-yitang-survivor-bias-in-research]]
+  - [[dk-demand-feature-stacking]]
+  - [[dk-yitang-public-info-is-enough]]
+  - [[tool-demand-iceberg-l5-forces]]
+---# 隐性需求伪装：用户说的≠用户要的
 
 ## 原始表述
 

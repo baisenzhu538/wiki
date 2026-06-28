@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.80
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-demand-equestrian-three-tasks]]
+  - [[case-yitang-travel-receipt-analysis]]
+  - [[case-popmart-prospectus-pricing]]
+  - [[case-doris-outbound-travel-community]]
+  - [[case-yitang-beauty-device-overseas-sales]]
+  - [[framework-doris-industry-report-4step]]
+  - [[tool-yitang-financial-report-intelligence]]
 ---
-
 # 案例：餐饮连锁对标调研
 
 **问题**：想做餐饮连锁，需要了解同赛道玩家的成本结构、单店模型和扩张节奏。

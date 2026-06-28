@@ -3,12 +3,12 @@
 title: "OCR: 一堂-AI学习-提问工程化"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - product
+  - needs-review
+  - ai-saas
+  - design
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md
@@ -20,13 +20,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-truman的个人成长五步法]]
+  - [[ocr-一堂y模型-科学成事道理]]
+  - [[ocr-一堂-地图-管理地图_conv]]
+  - [[ocr-一堂-科学决策-深度-l3定量公式]]
+  - [[ocr-一堂-地图-创业地图_conv]]
 ---
-
 
 
 

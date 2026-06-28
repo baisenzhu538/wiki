@@ -3,8 +3,8 @@ id: tool-水水-识别饥饿效应
 title: 技能：识别饥饿效应
 type: tool
 domain:
-- src_unknown
-- src_unknown
+  - personal-growth
+  - decision-making
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,13 +16,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
-# 技能：识别饥饿效应
+  - [[tool-水水-用感性维度构建溢价]]
+  - [[tool-水水-利用基因漂变视角]]
+  - [[tool-水水-识别关键偶然因素]]
+  - [[tool-水水-识别自证预言陷阱]]
+  - [[tool-水水-识别超级传播者风险]]
+---# 技能：识别饥饿效应
 
 ## 原始表述
 

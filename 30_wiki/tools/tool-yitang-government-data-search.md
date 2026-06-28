@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-security-guard-intel]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-weapon-third-party-database]]
+  - [[tool-yitang-supplier-interview]]
+  - [[tool-yitang-weapon-third-party-database]]
+  - [[tool-yitang-database-index]]
 ---
-
 # 国家数据查询
 
 > 国家统计局/工信部/央行/各地统计局——最权威、最不被质疑的数据来源。

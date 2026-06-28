@@ -6,8 +6,7 @@ id: case-toy-cabinet-barrier
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-  - src_unknown
+domain: yitang
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
@@ -38,13 +37,12 @@ pipeline:
   - src_unknown
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
-# 案例：线下玩具柜的壁垒困局与突围路径
+  - [[yt-barrier-identification-skill]]
+  - [[case-toy-cabinet-business-model]]
+  - [[case-zhihu-vs-degetao-network-effect]]
+  - [[yt-barrier-analysis-cheat-sheet]]
+  - [[yt-scale-economy-weapon-library]]
+---# 案例：线下玩具柜的壁垒困局与突围路径
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[case-toy-cabinet-business-model]] | [[yt-unit-model-three-tools]]
 

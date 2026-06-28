@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-pc-web-data]]
+  - [[tool-yitang-xiaohongshu-data]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-amazon-bestseller]]
+  - [[tool-yitang-court-record-search]]
+  - [[tool-yitang-weapon-third-party-database]]
+  - [[tool-yitang-financial-report-intelligence]]
 ---
-
 # 股票/上市公司数据
 
 > 同花顺/东方财富/雪球——上市公司的股价、估值、财务数据和投资者讨论。

@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - human-ai-collaboration
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -32,16 +32,16 @@ diagnostic_signals:
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[tool-wanghuan-ai-dual-role-coach]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[tool-wanghuan-ai-business-profile]]
+  - [[framework-wanghuan-actor-director-mode]]
+  - [[case-wanghuan-education-sales-paced]]
 tags:
 - src_unknown
 - src_unknown
@@ -49,8 +49,7 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----
-# 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
+---# 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 
 > **Burn line**：导演的工作不是写满每一步，而是说清方向、划好红线、验收结果。
 

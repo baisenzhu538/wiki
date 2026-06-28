@@ -9,9 +9,9 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - modeling- yitang
+  - personal-growth
+  - modeling
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -20,15 +20,15 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[yt-personal-knowledge-management]]
+  - [[yt-personal-deep-review]]
+  - [[yt-model-ipo-learning-strategy]]
+  - [[yt-personal-ipo-learning]]
+  - [[case-zhangyang-anchor-sop-three-locks]]
+  - [[modeling-level-map]]
+  - [[modeling-three-values]]
+  - [[modeling-scientific-milestones]]
+  - [[tool-iterative-recursive-deep-dig]]
 tags:
 - src_unknown
 - src_unknown
@@ -40,7 +40,6 @@ diagnostic_signals:
 - src_unknown
 
 ---
-
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 
 > **Burn line**: 建模是手艺活，好坏跟你聪不聪明关系不大，跟你见过多少模型、练过多少轮关系很大。

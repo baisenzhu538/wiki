@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
@@ -28,17 +28,16 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-public-sentiment-research]]
+  - [[tool-yitang-hardware-product-disassembly]]
+  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
+  - [[tool-yitang-comparable-company-selection]]
+  - [[tool-yitang-weapon-former-employee-network]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[tool-yitang-consumer-goods-research]]
 ---
-
 # 供应链/合作方情报：从合作方口中拿到竞对的水下数据
 
 > **一句话**：竞对可以对你保密，但不会对供应商保密。供应商手里掌握着竞对的真实产量、成本结构和技术参数——找到对的供应商，聊到对的深度，就能拿到竞对自己都不会告诉你的数据。

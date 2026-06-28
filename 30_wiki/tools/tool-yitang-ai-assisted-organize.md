@@ -11,19 +11,20 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, research]
+domain:
+  - yitang
+  - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-bidding-analysis]]
+  - [[tool-yitang-signup-statistics]]
+  - [[tool-yitang-shareholder-analysis]]
+  - [[tool-yitang-anonymous-roundtable]]
+  - [[tool-yitang-bp-analysis]]
+  - [[tool-yitang-weapon-ai-tools]]
+  - [[tool-yitang-ai-research-workflow]]
 ---
-
 # AI辅助整理
 
 > 用AI把访谈录音、会议纪要、口述稿快速结构化——提取关键信息、归类、生成摘要。

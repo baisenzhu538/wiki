@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - human-ai-collaboration
+  - ai-collaboration
+  - yitang
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 author: 老顽童
@@ -31,17 +31,17 @@ diagnostic_signals:
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[human-ai-collaboration-double-triangle]]
+  - [[framework-wanghuan-three-tier-dev-architecture]]
+  - [[framework-wanghuan-actor-director-mode]]
+  - [[concept-wanghuan-adversarial-generation]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[framework-wanghuan-actor-director-mode]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[dk-wanghuan-spec-trap]]
+  - [[dk-wanghuan-magic-defeats-magic]]
+  - [[framework-wanghuan-ai-five-level-ladder]]
+  - [[tool-wanghuan-ai-business-profile]]
 tags:
 - src_unknown
 - src_unknown
@@ -50,8 +50,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
-# 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
+---# 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 
 > **Burn line**：Agent 平台把人从执行者解放出来，不是让你消失，而是让你退到导演位——定目标、划红线、验结果。
 

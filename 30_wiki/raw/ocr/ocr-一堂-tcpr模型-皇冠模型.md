@@ -3,13 +3,13 @@
 title: "OCR: 一堂-TCPR模型-皇冠模型"
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - management
+  - product
+  - needs-review
+  - finance-legal
+  - design
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md
@@ -21,13 +21,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[ocr-一堂-高阶体系探索营-三种咨询可能性]]
+  - [[ocr-一堂-单元模型-找全成本实操难点]]
+  - [[ocr-萃取总结]]
+  - [[ocr-一堂-单元模型-abcd策略模型]]
+  - [[ocr-一堂-单元模型-外部对抗地图]]
 ---
-
 
 # OCR: 一堂-TCPR模型-皇冠模型
 

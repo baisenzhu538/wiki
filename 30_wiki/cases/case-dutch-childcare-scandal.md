@@ -10,31 +10,30 @@ confidence: 0.80
 trust_level: medium
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+  - ai_collaboration
+  - critical_thinking
+  - business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-lean-stealth-service]]
+  - [[tool-ai2041-source-verification-checklist]]
+  - [[case-lean-genki-forest-toolkit]]
+  - [[case-ai-companion-emotional]]
+  - [[dk-ai-prediction-expiry-date]]
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-wanghuan-ooda-loop]]
+  - [[framework-wanghuan-gan-three-roles]]
+  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - [[framework-ai2041-critical-reading-os]]
+  - [[framework-ai-deconstruction-methodology]]
+  - [[tool-ai-critical-reading-three-layers]]
+  - [[concept-ai-amara-law-business-judgment]]
+  - [[tool-tech-probability-80-filter]]
 ---
-
 # 荷兰育儿补贴算法丑闻
 
 > 核心结论：当公共部门把“反欺诈”目标函数设得极窄，并用算法批量执行时，即使没有歧视意图，也会产生系统性歧视效果，最终波及数万个家庭与政府合法性 [conf=0.70, source=王欢原创]。

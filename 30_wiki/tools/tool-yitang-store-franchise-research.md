@@ -13,8 +13,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
+  - yitang
+  - research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -30,18 +30,17 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡1（门店）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[tool-yitang-content-ip-research]]
+  - [[tool-yitang-tech-project-research]]
+  - [[tool-yitang-overseas-research]]
+  - [[tool-yitang-consulting-business-research]]
+  - [[tool-yitang-organization-research]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-yitang-field-research]]
+  - [[tool-yitang-reverse-data-analysis]]
+  - [[tool-yitang-social-engineering-research]]
+  - [[yt-research-competitor-toolkit]]
 ---
-
 # 门店加盟调研手段：浅中深三层10大评估法
 
 > **一句话**：评估一个门店加盟靠不靠谱，看三层——浅层看公开数据排除硬伤，中层蹲店体验交叉验证，深层访谈失败者获取真相。
