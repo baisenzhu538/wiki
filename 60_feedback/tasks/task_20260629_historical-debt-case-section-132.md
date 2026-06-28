@@ -1,7 +1,7 @@
 ---
 id: task_20260629_historical-debt-case-section-132
 type: task
-status: paused
+status: parked
 assignee: 待定
 priority: P2
 created_at: 2026-06-29
@@ -9,6 +9,7 @@ updated_at: 2026-06-29
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md
+- 30_wiki/projects/parking-lot.md
 ---
 
 # 历史债务：132 个 Case card missing section 修复
@@ -48,4 +49,4 @@ A2 任务（`task_20260629_laowantong-lint-a2-case-section-completion.md`）在 
 
 ---
 
-> 本任务为**历史债务记录**，当前状态 `paused`，不进入活跃生产队列。用户可随时决定启动。
+> 本任务为**历史债务记录**，当前状态 `parked`，已转入停车场清单 `30_wiki/projects/parking-lot.md`（PL-013），不进入活跃生产队列。用户可随时决定启动。
