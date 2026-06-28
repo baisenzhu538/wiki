@@ -2107,3 +2107,8 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[frameworks/framework-decision-cognitive-bias-map|商业决策常见认知偏差地图]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[dark-knowledges/dk-decision-when-to-defer|何时应该推迟决策]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[cases/case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[domains/domain-demand-analysis-index|需求分析域索引]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[cases/case-demand-b2b-enterprise-erp|ToB 企业 ERP 需求分析案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[cases/case-demand-b2c-consumer-insight|ToC 消费洞察驱动需求案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[frameworks/framework-demand-validation-pipeline|需求验证流水线]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[dark-knowledges/dk-demand-signal-vs-noise|需求信号与噪音的区分]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`

@@ -6,7 +6,7 @@ type: index
 domain:
 - demand-analysis
 - yitang
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -80,7 +80,7 @@ related:
 ### 需求挖掘
 - [[tool-需求挖掘|需求挖掘]] — 从用户身上挖出真实需求
 - [[yt-demand-insight-extraction|从用户访谈中提取真实需求]] — 访谈技巧与偏见规避
-- [[yt-research-user-jtbd|用户 JTBD 调研方法]] —  reviewed
+- [[yt-research-user-jtbd|用户 JTBD 调研方法]]
 
 ### 需求评估
 - [[tool-demand-assessment-triangle|需求评估三角形]] — 普遍性×频次×刚性
