@@ -35,7 +35,8 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学创业之路
----> 黄药师骨架 · 老顽童填内容
+---
+> 黄药师骨架 · 老顽童填内容
 
 ## 案例背景
 
@@ -198,3 +199,15 @@ trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学�
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

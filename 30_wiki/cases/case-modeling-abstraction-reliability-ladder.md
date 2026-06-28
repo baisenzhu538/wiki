@@ -32,7 +32,8 @@ related:
 - [[modeling-level-map]]
 - [[case-modeling-abstraction-yitang-models]]
 - [[dk-modeling-counterexample-driven]]
----# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
+---
+# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
 
@@ -115,3 +116,15 @@ related:
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

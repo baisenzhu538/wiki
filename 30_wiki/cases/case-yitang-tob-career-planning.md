@@ -43,7 +43,8 @@ diagnostic_signals:
     follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
   - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
     follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
----> 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。
+---
+> 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。
 
 ---
 
@@ -214,3 +215,15 @@ diagnostic_signals:
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

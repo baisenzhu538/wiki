@@ -43,7 +43,8 @@ related:
 - [[case-xiaolong-ecommerce-foresight]]
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
----# 古董奶茶店：五层筛选的加法减法实战
+---
+# 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景
 
@@ -124,6 +125,10 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
 
 ## 失败模式
 

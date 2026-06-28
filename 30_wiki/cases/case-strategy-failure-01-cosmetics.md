@@ -20,7 +20,8 @@ source_refs:
   - src_unknown
   - src_unknown
 updated_at: 2026-06-28
----**表面问题**：营销投入巨大但ROI持续下降
+---
+**表面问题**：营销投入巨大但ROI持续下降
 **战略根因**：方向错误——选了一个天花板极低的细分品类。营销再厉害也改不了市场大小
 **问题类型**：九问题 #1 方向错误
 **教训**：先算天花板再投入。小池塘里划不出大船
@@ -31,3 +32,15 @@ updated_at: 2026-06-28
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

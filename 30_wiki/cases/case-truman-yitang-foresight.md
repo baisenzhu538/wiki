@@ -46,8 +46,9 @@ pipeline:
 - src_unknown
 author: 老顽童
 trust_level: medium-high
-updated_at: 2026-06-28# Truman一堂：市场扫描→六方向→Plan ABC试错
----## 背景
+updated_at: 2026-06-28
+---
+## 背景
 
 2017年底，Truman在以太平台内部，平台进入平台期甚至衰退期。他从零开始组建了一个3人攻坚小组做内部创业。
 
@@ -147,6 +148,10 @@ updated_at: 2026-06-28# Truman一堂：市场扫描→六方向→Plan ABC试错
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
 
 ## 失败模式
 

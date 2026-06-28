@@ -39,7 +39,8 @@ related:
 - [[dk-yitang-business-formula-plus-times-trap]]
 - [[yt-business-formula-parameter-iceberg]]
 - [[yt-business-formula-qualitative-metrics-library]]
----# ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
+---
+# ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个月 GMV 800 万、付费用户 3 万的内容付费平台，团队把“流量和转化率正相关”当成因果，加大投放后 ROI 崩盘。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 
@@ -142,3 +143,15 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

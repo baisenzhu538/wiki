@@ -150,6 +150,14 @@ S6-S7 交接稿里有一条显式规则：
 | 实现两周后需求还在变，freeze 稿被不断推翻 | S1-S5 开放问题未封闭 | S1-S5 是否已签字？剩余问题是否已明确标为"进入 S6/S7 处理"而不是"现在再讨论"？ |
 | 遇到需要改 schema 或 DB migration 的需求时直接动手 | Migration Stop Point 硬门禁缺失 | 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入 schema/data contract gate？ |
 
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
 ## 失败模式
 
 | 失败模式 | 真实症状 | 可执行修复 |

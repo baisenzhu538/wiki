@@ -44,7 +44,8 @@ related:
 - [[dk-yb7-design-demand-80-10-10]]
 - [[yt-management-scientific-decision]]
 - [[dk-yb25-solution-driven-visual-design]]
----# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
+---
+# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述
 
@@ -160,3 +161,15 @@ Truman 在一次内部教研会上引入“模型资产定价”机制，把抽�
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

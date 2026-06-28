@@ -44,7 +44,8 @@ related:
 - [[case-gudong-tea-shop-foresight]]
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
----# 小龙电商：四层剥离——从服装到正装裤
+---
+# 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景
 
@@ -117,6 +118,10 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
 
 ## 失败模式
 

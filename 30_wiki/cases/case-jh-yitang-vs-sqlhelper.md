@@ -50,7 +50,8 @@ diagnostic_signals:
     follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
   - lens: 领域知识层缺失或不足
     follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
----# 案例：一堂数据库 vs SQLHelper
+---
+# 案例：一堂数据库 vs SQLHelper
 
 > **原始表述**：
 > "一堂业务复杂度高，需要完整的导诊台路由：开发任务、debug任务、运维任务、运营SOP任务、新需求讨论、面向前端的文档撰写……SQL-Helper 是封闭任务，目标单一——把用户问题翻译成合适的 SQL，**不需要导诊台**。"
@@ -267,3 +268,15 @@ diagnostic_signals:
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

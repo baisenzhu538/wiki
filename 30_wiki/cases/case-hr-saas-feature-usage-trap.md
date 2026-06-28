@@ -40,7 +40,8 @@ related:
 - [[dk-yitang-business-formula-plus-times-trap]]
 - [[yt-business-formula-parameter-iceberg]]
 - [[case-saas-renewal-formula]]
----# HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
+---
+# HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个年 GMV 3000 万、续费率 60% 的 HR SaaS，团队把“功能使用率提高，续费率就提高”当成因果，堆功能、加人，续费率却没上去。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 
@@ -151,3 +152,15 @@ related:
 |:---|:---|:---|
 | src_unknown | src_unknown | src_unknown |
 | src_unknown | src_unknown | src_unknown |
+
+## 可迁移场景
+
+- src_unknown（待补充：这个案例的经验可以迁移到哪些场景）
+
+## 教训
+
+- src_unknown（待补充：什么时候应该学这个案例（正面））
+
+## 失败模式
+
+- src_unknown（待补充：常见的踩坑方式和避免方法（反面））

@@ -1,5 +1,4 @@
 ---
-
 id: case-candy-problem-os-vpn
 title: 案例：VPN场景——一个低质量提问如何消耗双方关系
 type: case

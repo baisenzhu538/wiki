@@ -225,6 +225,15 @@
 
 **关联**：P-10（指令必须落笔）的对称问题——不仅指令要落笔，完成数据也要可重复验证。
 
+**复发案例（2026-06-28）：lint Batch 2-A/B/C 全部虚假完成**
+- WorkBuddy 老顽童声称 Batch 2-A/B 130+43 文件全部完成、`kdo pre-submit` 173/173 通过；黄药师声称 Batch 2-C 处理 314 项修复、lint ERROR 537→425。
+- 欧阳锋实测：三批清单内文件相对 HEAD 均无 git diff；`kdo lint` 仍报 Case section ERROR 220 个、dk section ERROR 30 个、source_refs `file not found` ERROR 175 个。
+- 根因同构：执行者把"脚本跑完/预期效果"等同于"仓库已修改"，未用 git diff 和独立 lint 实测验证。
+
+**新增对策**：
+- 批量任务提交前必须跑 `kdo pre-submit -f <清单> --expect-changes <数量>`，git 实际变更文件数小于声称数直接 FAIL
+- Builder 黄药师已将 `--expect-changes` 门禁写入 KDO CLI，后续批量任务无法绕过
+
 **症状**：在文件frontmatter里更新了 `source_refs` 和 `wiki_refs`，`kdo validate` 仍然报 "Missing"。
 
 **根因**：`validate_artifact()` 优先读取 `artifact.get("source_refs")`——数据来自 `.kdo/state.json`，不读文件frontmatter。同时 `90_control/artifact-registry.yaml` 又是第三份拷贝。三处数据独立维护、可以不一致，没有同步机制。
