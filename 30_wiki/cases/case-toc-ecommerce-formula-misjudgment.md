@@ -8,18 +8,11 @@ type: case
 status: enriched
 domain:
 - yitang
-- e
-commerce
-- business
-strategy
+- e-commerce
+- business-strategy
 source_refs:
-  - pending_archive:src_20260613_6b939d2b
-yitang-business-formula-decomposition-transcript
-  - pending_archive:src_20260613_a8bcfd38
-yitang-business-formula-decomposition-oral
-  - pending_archive:src_20260613_6edbf0af
-yitang-business-formula-decomposition-notes
-tags:
+  - pending_archive:src_20260613_6b939d2byitang-business-formula-decomposition-transcript  - pending_archive:src_20260613_a8bcfd38yitang-business-formula-decomposition-oral
+  - pending_archive:src_20260613_6edbf0afyitang-business-formula-decomposition-notestags:
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -30,26 +23,16 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
-- [[dk
-yitang-business-formula-plus-times-trap]]
-- [[case
-offline-catering-formula]]
-- [[case
-toc-content-platform-correlation-trap]]
-- [[yt
-management-business-formula]]
-- [[case
-private-domain-ecommerce-formula]]
-- [[yt
-management-business-formula]]
-- [[yt
-business-formula-abc-model]]
-- [[yt
-business-formula-parameter-iceberg]]
-- [[yt
-business-formula-six-level-logic]]
-- [[yt
-entrepreneur-unit-model]]
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[case-offline-catering-formula]]
+- [[case-toc-content-platform-correlation-trap]]
+- [[yt-management-business-formula]]
+- [[case-private-domain-ecommerce-formula]]
+- [[yt-management-business-formula]]
+- [[yt-business-formula-abc-model]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-entrepreneur-unit-model]]
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 
