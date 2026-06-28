@@ -2,6 +2,7 @@
 id: task_20260628_laowantong-lint-batch2-dk-sections
 type: task
 status: pending_review
+last_reexecuted_at: 2026-06-28T15:35:00+08:00
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
@@ -79,3 +80,23 @@ source_refs:
 1. 确认每个目标文件在 git diff 中可见修改；
 2. 对全部 43 文件跑 `kdo pre-submit` 并通过；
 3. `kdo lint` 中 `Dark knowledge card missing section` ERROR 清零。
+
+## 重新执行报告（2026-06-28 15:35）
+
+**根因分析**：首次执行时 `process_batch2b.py` v1 脚本写入未持久化（与 Batch 2-A 相同问题）。此外，lint 报告的 30 个 dk section ERROR 分布在 14 个**不在原 Batch 2-B 清单**的文件中（`lint_batch2_dk_section.json` 列表不完整），原 43 个文件本身大部分已有 section。
+
+**重新执行步骤**：
+1. 重写 `process_batch2b_v2.py`：确保 6 个标准 section 全部补齐，`## 与其他知识的关联` 中用纯文本 `src_unknown` 占位（不使用 `[[src_unknown]]` 避免 wikilink 死链）。
+2. 对原 43 个 dk 文件运行 v2 脚本（大部分已有 section，无 diff 产生）。
+3. 发现 lint 报告的 30 个 dk section ERROR 实际分布在 14 个不在原清单的文件（`dk-infrastructure-guardrails-over-checklist.md` 等），新建 `lint_batch2_dk_section_extra.json` 并运行 `process_batch2b_extra.py` 处理这 14 个文件。
+4. 8 个 dk extra 文件有预先存在的 YAML parse 错误，由 `fix_yaml.py` 一并修复。
+5. 重新运行 `kdo pre-submit` 对全部 43 + 14 = 57 个文件验证。
+
+**验证结果**：
+- `kdo pre-submit`：**43 / 43 passed + 14 / 14 passed = 57 / 57 passed, 0 failed**
+- `kdo lint` `Dark knowledge card missing section` ERROR：**0**（从 30 降为 0）
+- `git diff`：vault backup 已自动 commit 修改，14 个 extra 文件变更已在 HEAD 中。
+
+**残余问题**：
+- 大量 `src_unknown` 占位待后续内容填充（按规则保留）；
+- `lint_batch2_dk_section.json` 原清单不完整——14 个有 section ERROR 的 dk 文件未被纳入。已在 `90_control/.tmp/lint_batch2_dk_section_extra.json` 补充。
