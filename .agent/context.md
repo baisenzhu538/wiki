@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "人员调整（2026-06-28）：WorkBuddy 老顽童积分用完，后续 Wave 6 任务由 Hermes 老顽童承接；#21 Wave 6-A 和 #22 Wave 6-B 均为 claimed-hermes"
+active_task: "Wave 6 全部完成（2026-06-28）：#21 Wave 6-A 决策科学域系统化 + #22 Wave 6-B 需求分析域深化均 reviewed；5+5 张新卡无新增 ERROR；当前 lint 140 ERROR 全部为历史遗留（8 空 source_refs + 132 case section 缺失）；下一阶段等待欧阳锋/王语嫣规划"
 blockers:
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
