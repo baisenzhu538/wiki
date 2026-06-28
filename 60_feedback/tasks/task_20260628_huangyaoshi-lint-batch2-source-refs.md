@@ -99,7 +99,4 @@ if ref.startswith(("http://", "https://")):
   - 修复前：ERROR 537 / WARNING 5,609
   - 修复后：ERROR 425 / WARNING 5,807
   - ERROR 下降：112
-- **source_refs 类 ERROR**：已清零
-- **URL 跳过补丁**：已修改 KDO CLI lint 规则，`http://` / `https://` source_refs 不再报本地文件不存在错误
-- **残余问题**：剩余 425 ERROR 为 case/dk section 缺失等既有债务，由 Batch 2-A/B 处理
-- **下一步**：提交欧阳锋终审
+

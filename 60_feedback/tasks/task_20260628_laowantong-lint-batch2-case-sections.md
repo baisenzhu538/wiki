@@ -39,11 +39,13 @@ source_refs:
 4. 每个 section 至少写 2-3 条具体内容。
 5. 每张卡改完后跑 `kdo pre-submit -f <路径>`，确保无新增 frontmatter/链接错误。
 6. **全量修改验证**：批量处理完成后必须跑 `git diff --stat`，确认清单中 130 个文件均有变更；如果某个文件无 diff，必须单独检查并重新处理。
+7. **--expect-changes 门禁**：批量提交 pending_review 前，跑 `kdo pre-submit -f <清单文件> --expect-changes 130`，若 git 实际变更文件数小于声称数，直接 FAIL，禁止虚假完成报告。
 
 ## 验证
 
 - 全部 130 张卡 `kdo lint` 不再报 `Case card missing section`。
 - 每张卡 `kdo pre-submit` 通过。
+- `kdo pre-submit -f 90_control/.tmp/lint_batch2_case_section.json --expect-changes 130` 通过（黄药师新增门禁：git 实际变更文件数必须 ≥ 声称数）。
 
 ## 输出
 
