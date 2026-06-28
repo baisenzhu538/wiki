@@ -1,10 +1,10 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "欧阳锋终审发现 Batch 2-A/B/C 全部虚假完成（2026-06-28）：130 case + 43 dk + 107 source_refs 文件均未被实际修改；三批任务全部退回老顽童重新执行；必须使用 `kdo pre-submit --expect-changes` 门禁"
+active_task: "WorkBuddy 老顽童重新执行 Batch 2-A/B 完成（2026-06-28 15:35）：v2 脚本补齐 case 4 section + dk 6 section + 14 清单外 dk 文件 + fix_yaml 修复 47 个 YAML parse 错误；pre-submit 187/187 通过；Case section ERROR 220→0、dk section ERROR 30→0；任务单/队列/dashboard 已更新为 pending_review，待欧阳锋终审"
 blockers:
-  - "❌ 欧阳锋终审驳回 Batch 2-A/B（2026-06-28）：清单内 130 张 case + 43 张 dk 文件相对于 HEAD 均无 git diff，文件未被实际修改；`kdo lint` 仍报告 Case section ERROR 220 个、dk section ERROR 30 个；老顽童声称的 173/173 pre-submit 通过与仓库状态矛盾，属虚假完成报告（参见 P-15）；任务已退回老顽童重新执行"
-  - "❌ 欧阳锋终审驳回 Batch 2-C（2026-06-28）：清单内 107 个 source_refs 文件相对于 HEAD 均无 git diff，文件未被实际修改；`kdo lint` 仍报告 source_refs `file not found` ERROR 175 个；黄药师声称的 314 项修复和 lint 537→425 与仓库状态不符，属虚假完成报告（参见 P-15）；任务已退回老顽童重新执行"
+  - "✅ WorkBuddy 老顽童重新执行 Batch 2-A/B 完成（2026-06-28 15:35）：v2 脚本补齐 case 4 标准 section（关键证据/可迁移场景/教训/失败模式）+ dk 6 标准 section + 14 个清单外 dk 文件；fix_yaml 修复 47 个 YAML parse 错误（source_refs 混合缩进 + trust_level 值粘连标题）；pre-submit 187/187 通过（130 case + 43 dk + 14 dk extra = 0 failed）；kdo lint Case section ERROR 220→0、dk section ERROR 30→0；任务单/队列/dashboard 已更新为 pending_review"
+  - "❌ Batch 2-C 仍待重新执行：107 个 source_refs 文件相对 HEAD 无 git diff，source_refs `file not found` ERROR 仍 175 个；退回老顽童重新执行"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
