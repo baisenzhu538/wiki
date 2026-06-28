@@ -2112,3 +2112,10 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[cases/case-demand-b2c-consumer-insight|ToC 消费洞察驱动需求案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[frameworks/framework-demand-validation-pipeline|需求验证流水线]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[dark-knowledges/dk-demand-signal-vs-noise|需求信号与噪音的区分]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[concepts/fixed-routine-design|固定套路设计]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/comfort-zone-expansion|舒适区扩展]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/timely-feedback-loop|及时反馈闭环]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/deliberate-repetition|刻意重复]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/ai-virtual-coach-prompt|AI 虚拟教练提示词模板]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/practice-card-decomposition|练习卡片拆解]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/ai-tool-learning-workbook|AI 工具学习工作手册]] — source `40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md`
