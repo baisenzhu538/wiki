@@ -43,6 +43,8 @@ skill
 | **C 角色** | Counsel / 咨询者 | 在诊断后给出具体方法、工具、计划 | **精准给方案**，只给最对症的 |
 
 > **当前版本覆盖 T 角色 + C 角色完整流程。** T 角色负责诊断和理解，C 角色负责生成系统训练方案和延展工具。
+>
+> **配套 Workbook**: `WORKBOOK.md` —— 可直接打印/在线使用的练习手册，包含 24 小时计划、Checklist、1.0 套路清单。
 
 ## Inputs
 
@@ -65,6 +67,7 @@ skill
 | `kdo query` | 查询知识库中的相关概念/框架 | No |
 | Read `30_wiki/concepts/yai-tcp-teacher-role.md` | 读取 T 角色方法论 | No |
 | Read `30_wiki/concepts/yai-counsel-role.md` | 读取 C 角色方法论 | No |
+| Read `WORKBOOK.md` | 读取配套练习手册 | No |
 | Write diagnosis note | 在 `60_feedback/diagnosis/` 记录诊断 | No |
 | Write training system doc | 生成训练系统文档/Checklist/24小时计划 | Yes — 当需要输出正式方案资产时 |
 
