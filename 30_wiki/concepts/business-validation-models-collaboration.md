@@ -29,8 +29,8 @@ review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-- src_unknown-collaboration-mindset-shift
-- src_unknown-landing-scene-selection
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 ---
 # 非药柜主题综合知识卡
 

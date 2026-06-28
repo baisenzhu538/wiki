@@ -19,9 +19,9 @@ review_date: '2026-06-20'
 trust_level: medium
 confidence: 0.78
 related:
-- src_unknown-capability-system
+- '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
-- src_unknown-level-map
+- '[[modeling-level-map]]'
 tags: []
 diagnostic_signals:
 - framework_lens: 模型武器库

@@ -22,11 +22,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
 related:
-- src_unknown-systems-thinking
-- src_unknown-cognitive-bias-checklist
-- src_unknown-decision-hygiene
-- src_unknown-antifragile-checklist
-- src_unknown-first-principles
+- '[[master-systems-thinking]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-first-principles]]'
 confidence: 0.65
 trust_level: medium
 ---
