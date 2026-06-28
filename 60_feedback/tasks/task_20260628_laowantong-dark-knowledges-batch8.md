@@ -9,7 +9,7 @@ priority: P0
 scope: dark-knowledges 目录第八批清零：补齐 10 张问题 dk 卡的标准 section
 related:
   - '[[laowantong-batch-2026-06-20-wave3]]'
-status: queued
+status: reviewed
 ---
 
 # 老顽童生产任务：dark-knowledges 第八批清零（10 张 dk 卡）
@@ -137,9 +137,26 @@ WorkBuddy 老顽童修复 10 张卡
 |:---|:---|:---|
 | 2026-06-28 | 欧阳锋 wave3 第七批审查发现 10 张 dk 卡未清零 | 欧阳锋 |
 | 2026-06-28 | 王语嫣写第八批清零任务单 | 王语嫣 |
-| 待填写 | WorkBuddy 老顽童修复完成 | WorkBuddy 老顽童 |
-| 待填写 | 欧阳锋抽检 | 欧阳锋 |
+| 2026-06-28 | WorkBuddy 老顽童完成 10 张 dk 卡 section 补齐 | WorkBuddy 老顽童 |
+| 2026-06-28 | 欧阳锋终审通过；审查中修复 4 张卡格式问题：`dk-f1/dk-f2` 的 `Constraints & Boundaries` 子 section 提升为顶层 `适用边界`；`dk-strategy-longzhong-four-failures` 和 `dk-strategy-three-must-do-moments` 的 section 前空格缩进去除、`失败模式 / 常见走偏` 改为标准 `失败模式`、source_refs 嵌套格式修复 | 欧阳锋 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 8. 欧阳锋终审结论
+
+**Verdict：通过**
+
+- 10 张 dk 卡 `kdo pre-submit`：10 passed / 0 failed
+- `kdo lint`：`dark-knowledges/` 目录 ERROR 从 14 个降至 **0 个**
+- 全库 lint ERROR 从 533 降至 **519**
+- 10 张卡全部对齐 dk 标准六段 section：`原始表述` / `使用场景` / `操作方法` / `适用边界` / `为什么值钱` / `与其他知识的关联`
+- 审查中修复 4 张卡格式问题（见上）
+- 10 张卡 status 更新为 `reviewed`，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`
+
+### 已解锁
+
+- wave4（Hermes 老顽童）已完全解锁，可开始正式生产
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 终审：欧阳锋*

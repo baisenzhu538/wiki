@@ -2,7 +2,7 @@
 id: dk-strategy-longzhong-four-failures
 title: 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high
@@ -13,6 +13,9 @@ source_refs:
 - 'pending_archive:'
 related:
 - '[[dk-strategy-three-must-do-moments]]'
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+updated_at: '2026-06-28'
 ---
 # 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
 

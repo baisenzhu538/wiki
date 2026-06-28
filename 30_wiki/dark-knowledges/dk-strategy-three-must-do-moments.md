@@ -2,7 +2,7 @@
 id: dk-strategy-three-must-do-moments
 title: 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high
@@ -13,6 +13,9 @@ source_refs:
 - 'pending_archive:'
 related:
 - '[[dk-strategy-longzhong-four-failures]]'
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+updated_at: '2026-06-28'
 ---
 # 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
 

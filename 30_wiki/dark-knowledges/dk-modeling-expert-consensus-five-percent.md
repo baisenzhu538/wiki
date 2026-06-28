@@ -1,35 +1,34 @@
 ---
-
-
 id: dk-modeling-expert-consensus-five-percent
 title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 type: dk
 dark_knowledge_type: principle
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 source_person: Truman
-source_context: 一堂高阶建模能力培训（方法论科学建模过程），单一 source 为完整长文档，内容充分支撑 high trust；待补充第二来源或充分验证后可升回 high
+source_context: 一堂高阶建模能力培训（方法论科学建模过程），单一 source 为完整长文档，内容充分支撑 high trust；待补充第二来源或充分验证后可升回
+  high
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-18'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown

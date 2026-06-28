@@ -1,13 +1,11 @@
 ---
-
-
 id: dk-modeling-ai-cross-validation
 title: 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 type: dk
 dark_knowledge_type: pattern
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
@@ -16,10 +14,10 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
   （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-18'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
@@ -29,15 +27,15 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown

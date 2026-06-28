@@ -1,10 +1,9 @@
 ---
-
 id: dk-f1-regex-on-cjk
 title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: system
@@ -12,18 +11,18 @@ source_context: failure-modes.md F-KDO-001
 source_refs:
 - src_unknown
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,13 +34,15 @@ trust_level: low
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: regex 的 `\\b` 词边界对 CJK 字符不生效，enrich 提取器在中文内容上空匹配，系统把“无结果”当“无工作”
-  follow_up_question: 立即抽检 3-5 个未 enrich 页面的语言；若含中文字符，改用 LLM 路径或 Agent 三步编译，不要再重试 enrich
+  follow_up_question: 立即抽检 3-5 个未 enrich 页面的语言；若含中文字符，改用 LLM 路径或 Agent 三步编译，不要再重试
+    enrich
 - signal: src_unknown
   framework_lens: 同一根因在 ingest/enrich 两阶段的表现：`\\b` 随机切分 CJK 文本，导致摘要截断或关键词为空
   follow_up_question: 不要尝试修复自动骨架，直接对中文页面执行三步 CJK 编译（浓缩→质疑→对标），并人工校验可读性
 - signal: src_unknown
   framework_lens: 缺陷会通过“复制代码”传播到任何继承 `\\b` 或英文关键词假设的正则逻辑
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
+review_date: '2026-06-28'
 ---
 
 

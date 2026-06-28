@@ -1,10 +1,9 @@
 ---
-
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: system
@@ -12,17 +11,17 @@ source_context: failure-modes.md F-KDO-002
 source_refs:
 - src_unknown
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,6 +30,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
+review_date: '2026-06-28'
 ---
 
 

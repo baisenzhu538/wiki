@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 type: dk
@@ -16,25 +14,25 @@ source_refs:
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 created_at: 2026-06-15
-updated_at: '2026-06-16'
-reviewed_by: 老顽童
-review_date: 2026-06-16
+updated_at: '2026-06-28'
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags: []
 author: 欧阳锋
 confidence: 0.85
