@@ -38,6 +38,7 @@ source_refs:
 3. **没素材的用 `src_unknown` 占位 + `待补` 标记**，不允许空壳 section。
 4. 每个 section 至少写 2-3 条具体内容。
 5. 每张卡改完后跑 `kdo pre-submit -f <路径>`，确保无新增 frontmatter/链接错误。
+6. **全量修改验证**：批量处理完成后必须跑 `git diff --stat`，确认清单中 130 个文件均有变更；如果某个文件无 diff，必须单独检查并重新处理。
 
 ## 验证
 

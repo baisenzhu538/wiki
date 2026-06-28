@@ -41,6 +41,7 @@ source_refs:
 4. 缺失原话的，用 `src_unknown` 占位并标注 `待补充来源原话`。
 5. `与其他知识的关联` 至少放 1 个 concept wikilink + 1 个 dk wikilink；没有的用 `src_unknown` 占位。
 6. 每张卡改完后跑 `kdo pre-submit -f <路径>`。
+7. **全量修改验证**：批量处理完成后必须跑 `git diff --stat`，确认清单中 43 个文件均有变更；如果某个文件无 diff，必须单独检查并重新处理。
 
 ## 验证
 
