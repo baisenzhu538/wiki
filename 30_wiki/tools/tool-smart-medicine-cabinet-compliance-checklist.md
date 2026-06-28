@@ -9,6 +9,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance
 - src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
 updated_at: 2026-06-15
@@ -24,7 +25,6 @@ related:
 - [[concept-smart-medicine-cabinet-platform-cooperation-validation]]
 - [[tool-clinic-cabinet-legal-contract-guide]]
 ---
-
 ## Purpose
 
 本工具解决以下问题：

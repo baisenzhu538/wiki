@@ -20,33 +20,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 source_refs:
-  - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
-status: enriched
-title: "楚门的选择：两条职业成长路线 X vs Y"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: framework
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户想走Y路线但不愿做大量刻意练习', 'framework_lens': 'Y路线需要高难度学习', 'follow_up_question': '你准备好进行大量跨领域迁移练习了吗？如果没有，Y路线走不通'}
-  - {'signal': '用户只羡慕Y路线迁移性，不看自己基础', 'framework_lens': '基础不匹配', 'follow_up_question': '你现在的产品设计能力和学习习惯，更适合X还是Y？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[yt-panproduct-demand-multi-perspective]]
-- [[yt-skill-storyline-contrast-analysis]]
-- [[yt-panproduct-demand-user-perspective]]
-- [[yt-panproduct-demand-user-segmentation]]
-- [[ocr-truman的选择两条职业成长路线]]
----
-# 楚门的选择：两条职业成长路线 X vs Y
+  - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
+---# 楚门的选择：两条职业成长路线 X vs Y
 
 > 来源：Truman（许楚）的《楚门的选择：两条职业成长路线》。[[一堂]] | [[yt-model-truman-five-step-growth]] | [[yt-model-pan-product-36-strategies]]
 

@@ -14,6 +14,10 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-28'
 source_refs:
+  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
+  - pending_archive:yt-unit-model-concept
+  - pending_archive:yt-unit-model-overview
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
 - yt-unit-model-concept
@@ -32,7 +36,6 @@ related:
 - '[[concept-yitang-channel-lean-validation-bridge]]'
 review_date: '2026-06-28'
 ---
-
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 
 ## 一句话

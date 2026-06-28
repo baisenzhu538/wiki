@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -17,8 +18,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
+---# 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
 
 ## 原始表述
 

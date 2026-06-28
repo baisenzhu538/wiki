@@ -20,33 +20,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
 - src_20260522_074c72ae-ocr-truman的个人成长五步法
 source_refs:
-  - src_20260522_074c72ae-ocr-truman的个人成长五步法
-status: enriched
-title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: framework
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户只列能力资源，但没找到人生红点', 'framework_lens': '方向缺失', 'follow_up_question': '你的人生红点是什么？如果答不出，五步法第一步就错了'}
-  - {'signal': '用户倒推能力但不练习', 'framework_lens': '知行脱节', 'follow_up_question': '你为了红点，最近三个月刻意练习了哪些能力？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[tool-泛产品落地-管理三段论]]
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-personal-map]]
-- [[ocr-泛产品设计-落地卡片-管理三段论]]
-- [[tool-三层目标对齐法]]
----
-# Truman的个人成长五步法：用一页纸解释全部人生规划
+  - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
+---# Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]
 

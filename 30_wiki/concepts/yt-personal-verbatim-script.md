@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
-  - src_20260614_720e62a1-theme-personal-growth-summary
-status: enriched
-title: "逐字稿"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "逐字稿"
-  course_id: 408
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '关键表达会先写逐字稿，把每个字都推敲清楚', 'framework_lens': '逐字稿是思维检测工具', 'follow_up_question': '这段逐字稿中有没有哪句话你其实还没想清楚？'}
-  - {'signal': '逐字稿使用口语化表达，而不是书面语照念', 'framework_lens': '演讲是口头语言', 'follow_up_question': '你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？'}
-  - {'signal': '重要演讲会经过多次演练，直到可以不依赖稿件', 'framework_lens': '逐字稿是练习工具，不是拐杖', 'follow_up_question': '你能否在只带关键词提示的情况下完成这次演讲？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-knowledge-management]]
-- [[yt-personal-deliberate-practice]]
-- [[yt-personal-time-management]]
-- [[yt-personal-inspiration-flash]]
-- [[yt-personal-scientific-expression]]
----
-# 逐字稿
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+---# 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

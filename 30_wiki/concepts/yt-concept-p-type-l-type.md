@@ -25,36 +25,11 @@ query_triggers:
   - src_unknown
 review_date: 2026-06-06
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "P型与L型创业者"
-trust_level: medium
-type: concept
-version: 1
-yitang:
-  map: entrepreneur
-  module: "商业预判"
-  course_id: yt-concept-p-type-l-type
-  course_type: concept
-  level: foundational
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': 'P型创业者一直在动手，但十年后项目失败', 'framework_lens': '热情不能替代预判', 'follow_up_question': '你在动手之前，有没有用2个月时间做过行业预判和关键假设验证？如果没有，你在用热情赌运气'}
-  - {'signal': 'L型创业者分析过度，永远不起步', 'framework_lens': '分析瘫痪——逻辑驱动也需要行动', 'follow_up_question': '你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-product-core]]
-- [[yt-tool-product-core-canvas]]
-- [[yt-entrepreneur-key-hypotheses]]
-- [[yt-entrepreneur-industry-forecast]]
-- [[yt-prompt-engineering-andrew-ng]]
----
-# P型与L型创业者
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# P型与L型创业者
 
 > 来源：一堂商业预判课 | 阶段：预判阶段。一堂创业者类型学的核心概念，通过对比热情驱动（Passion）与逻辑驱动（Logic）两种创业者的认知模式、行为特征和失败路径，帮助创业者识别自身类型并实现认知跃迁。这是一堂老学员特别喜欢的模型之一。[[yitang-course-map]]
 

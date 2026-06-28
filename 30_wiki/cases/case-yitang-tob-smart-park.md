@@ -9,6 +9,7 @@ domain:
   - src_unknown
   - src_unknown
 source_refs:
+  - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - src_unknown
@@ -42,8 +43,7 @@ diagnostic_signals:
     follow_up_question: 如何把项目经验沉淀为可复用的产品化能力，并转化为行业白皮书或运营数据资产？
   - framework_lens: 现金流结构
     follow_up_question: 能否将付款节奏从"首付+尾款"改为"首付+年度服务费"，使收入曲线年金化？
----
-> 来源：一堂 ToB 五步法优秀作业合集，学员黄成有自述。案例中的项目细节为学员自述，需独立核实关键数据。
+---> 来源：一堂 ToB 五步法优秀作业合集，学员黄成有自述。案例中的项目细节为学员自述，需独立核实关键数据。
 
 ---
 

@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
-  - src_20260614_720e62a1-theme-personal-growth-summary
-status: enriched
-title: "时间管理"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "时间管理"
-  course_id: 401
-  course_type: method
-  level: foundational
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '时间分配以长期目标为锚点，而不是以任务紧急度为锚点', 'framework_lens': '时间管理 = 优先级管理', 'follow_up_question': '你今天做的事中，哪一件与3年目标直接相关？'}
-  - {'signal': '能识别自己的高能量窗口，并把重要任务放在这些时段', 'framework_lens': '能量管理 > 时间长度管理', 'follow_up_question': '你一天中哪个时段效率最高？这个时段在做什么？'}
-  - {'signal': '每周会回顾时间使用情况，并调整下周计划', 'framework_lens': '时间管理需要反馈闭环', 'follow_up_question': '上周实际时间分配与计划差异最大的地方是什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-knowledge-management]]
-- [[yt-personal-verbatim-script]]
-- [[yt-personal-ipo-learning]]
-- [[yt-personal-deep-review]]
-- [[yt-personal-checklist-notes]]
----
-# 时间管理
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+---# 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

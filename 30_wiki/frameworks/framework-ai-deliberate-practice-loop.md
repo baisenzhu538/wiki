@@ -17,24 +17,11 @@ updated_at: 2026-06-27
 source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
-  - Ethan Mollick《The Machines of Mastery》(2023), oneusefulthing.org
-  - Mollick & Mollick (2023) AI learning roles framework
-  - K. D. Wang et al., "Scaffold or crutch? examining college students' use and views of generative AI tools for STEM education," arXiv:2412.02653, 2024
-  - S. Guo et al., "Using generative AI and multi-agents to provide automatic feedback," arXiv:2411.07407, 2024
-source_person: 盈盈 / Ethan Mollick
-related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[tool-yitang-feedback-self-check]]'
-  - '[[case-yitang-ai-painting-commercialization]]'
-  - '[[ai-collaboration-domain-digest]]'
-  - '[[concept-candy-ai-as-collaborator]]'
-  - '[[tool-agent-research-swarm]]'
-  - '[[framework-multi-agent-research-architecture]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
+  - pending_archive:Ethan Mollick《The Machines of Mastery》(2023), oneusefulthing.org
+  - pending_archive:Mollick & Mollick (2023) AI learning roles framework
+  - pending_archive:K. D. Wang et al., "Scaffold or crutch? examining college students' use and views of generative AI tools for STEM education," arXiv:2412.02653, 2024
+  - pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide automatic feedback," arXiv:2411.07407, 2024
 ---
-
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 
 ## 一句话

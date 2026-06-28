@@ -5,7 +5,8 @@ id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
 - healthcare
-source_refs: []
+source_refs:
+  - src_unknown []
 status: stable
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
@@ -22,8 +23,7 @@ related:
 - [[ocr-一堂-科学决策-人机协作决策]]
 - [[ocr-一堂-个人修炼-双三角模型]]
 - [[ocr-一堂-人机协作-双三角模型]]
----
-# 花总AMA精华摘要
+---# 花总AMA精华摘要
 
 > 原文：yitang-huazong-ama-20250526
 > 来源：一堂商业突破大航海 AMA 直播

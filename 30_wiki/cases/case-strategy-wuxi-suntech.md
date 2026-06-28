@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**轨迹**：全球光伏第一→行业进入绝望之谷→资金链断裂→外资低价收购
+---**轨迹**：全球光伏第一→行业进入绝望之谷→资金链断裂→外资低价收购
 **核心洞察**：新兴产业的"绝望之谷"会淘汰掉绝大多数领先者。不是因为技术不行，是因为现金流撑不过低谷。六阶段的吃撑期转型——你需要比对手多一口气
 
 ## 关键证据

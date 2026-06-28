@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -19,8 +20,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
+---**冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行
 **核心洞察**：连续亏损≠无药可救。正确的诊断+聚焦的执行=奇迹
 

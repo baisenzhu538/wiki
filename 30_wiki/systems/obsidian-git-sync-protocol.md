@@ -17,10 +17,8 @@ review_date: '2026-05-03'
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
-  - src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
-confidence: 0.6
----
-# Obsidian Git Multi-Device Sync Protocol
+  - pending_archive:src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
+---# Obsidian Git Multi-Device Sync Protocol
 
 ## Core Points
 

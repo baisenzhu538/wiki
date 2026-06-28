@@ -21,34 +21,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 source_refs:
-  - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
-status: enriched
-title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: framework
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户只谈乔布斯品味，但不看最佳实践', 'framework_lens': '空谈品味', 'follow_up_question': '你最近一个月看过多少个不同领域的最佳实践案例？如果<10个，你在空谈'}
-  - {'signal': '用户认为品味是天赋，不训练', 'framework_lens': '天赋论', 'follow_up_question': '你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[tool-泛产品落地-设计原则]]
-- [[yt-panproduct-aesthetic-collection]]
-- [[一堂]]
-- [[yt-panproduct-aesthetic-imagination]]
-- [[yt-model-pan-product-aesthetic-toolkit]]
----
-# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+  - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
+---# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
 > 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
 

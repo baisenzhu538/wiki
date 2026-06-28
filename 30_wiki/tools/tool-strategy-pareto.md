@@ -13,6 +13,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -21,7 +22,6 @@ source_refs:
   - src_unknown
   - src_unknown
 ---
-
 # 帕雷托图
 
 > 运动用品公司案例：80%的产品贡献5%的销售额，但占70%的库存。帕雷托图让你看清：你在为谁搬砖？

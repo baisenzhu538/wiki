@@ -9,7 +9,8 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-9
-source_refs: []
+source_refs:
+  - src_unknown []
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -27,8 +28,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
----
-## 原始表述 / 核心洞察
+---## 原始表述 / 核心洞察
 
 > **症状**：用户说设计域文件在 `00_inbox/design/`，执行 `Glob "00_inbox/*design*/**/*"` + `Glob "00_inbox/**/*.txt"` 均返回空。结论"文件不存在"。用户指出文件就在那里后，改用 PowerShell `Get-ChildItem -Recurse` 立即找到：`design\AI设计-AI设计基础01.txt` (72KB) 和 `AI设计-AI设计师实操培训01.txt` (122KB)。误判导致任务文件被错误标注为"阻塞"后又回滚，浪费时间+信誉。
 >

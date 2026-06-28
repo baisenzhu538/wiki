@@ -13,16 +13,9 @@ trust_level: high
 language: zh-CN
 domain: [feishu, content-extraction, publishing, architecture]
 source_refs:
-  - src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
+  - pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
   - src_unknown
-related:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - framework_lens: 流式提取——不一次全量加载，逐页处理
-    follow_up_question: "你的提取是一次性全部加载再处理，还是逐页流式处理？"
 ---
-
 # 流式提取模式
 
 > **一句话：把浏览器的"虚拟滚动"概念映射到 API 提取——逐页拉取、逐页处理、逐批写入，不一次全量加载。**

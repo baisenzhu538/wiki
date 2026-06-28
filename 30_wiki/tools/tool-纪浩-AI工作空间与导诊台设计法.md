@@ -10,6 +10,10 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
+  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+  - 10_raw/sources/src_20260619_71c86250_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_结构化.md
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+  - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
 - 10_raw/sources/src_20260619_71c86250_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_结构化.md
 - 00_inbox/纪浩-AI协作方法论-口述.md
@@ -45,8 +49,7 @@ diagnostic_signals:
   follow_up: 遵守渐进式披露原则，每次对话只绕一个任务展开，按'导诊台→工作手册→经验库→领域知识'递进
 - lens: 结构膨胀
   follow_up: 定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简
----
-# 技能：AI工作空间与导诊台设计法
+---# 技能：AI工作空间与导诊台设计法
 
 ## 原始表述
 

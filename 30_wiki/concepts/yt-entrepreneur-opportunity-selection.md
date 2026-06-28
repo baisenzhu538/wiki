@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "机会选择"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "机会选择"
-  course_id: yt-entrepreneur-opportunity-selection
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户凭感觉选机会，不做系统评估', 'framework_lens': '缺乏评估框架', 'follow_up_question': '你用什么标准在比较这些机会？如果没有明确标准，选择是情绪化的'}
-  - {'signal': '用户只看市场大小，不看自己和时机', 'framework_lens': '评估维度单一', 'follow_up_question': '这个市场大，但你的能力匹配吗？现在进入时机对吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-barriers]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-business-growth]]
----
-# 机会选择
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 机会选择
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

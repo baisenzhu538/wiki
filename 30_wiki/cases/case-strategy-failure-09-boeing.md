@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
   - src_unknown
 updated_at: 2026-06-28
----
-**表面问题**：737 MAX安全事故
+---**表面问题**：737 MAX安全事故
 **战略根因**：机制背离——内部激励机制优先财务指标而非安全。MCAS单传感器设计被批评为成本妥协
 **外部验证**：✅ NTSB/Harvard/Stanford调查一致指向"成本进度压力>安全"
 **问题类型**：九问题 #9 机制背离

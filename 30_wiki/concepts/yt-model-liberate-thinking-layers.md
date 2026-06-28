@@ -19,34 +19,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-  - src_20260613_96e45c45-qishijian-business-model
-status: enriched
-title: "解放思想五层模型"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "底层方法论"
-  course_type: model
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '创业者总说"我要颠覆行业"，但连L1最佳实践都没学过', 'framework_lens': 'L0盲目创新——没有经验积累的创新是空想', 'follow_up_question': '你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础'}
-  - {'signal': '用户沉迷于学学科经典，但解决不了具体业务问题', 'framework_lens': '过度抽象——L5经典需要经过L3-L4才能落地', 'follow_up_question': '你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-model-deep-review-iceberg]]
-- [[yt-entrepreneur-research-camp]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[case-modeling-essence-levels]]
----
-# 解放思想五层模型
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+---# 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
 

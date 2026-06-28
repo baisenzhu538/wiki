@@ -17,6 +17,9 @@ updated_at: '2026-06-17'
 confidence: 0.90
 trust_level: high
 source_refs:
+  - pending_archive:src_20260614_606a631d-张磊-精益方法论培训
+  - pending_archive:src_20260614_6d9f7671-业务公式拆解培训
+  - pending_archive:src_20260616_b1e25c49-zhanglei-lean-testing-ama
 - src_20260614_606a631d-张磊-精益方法论培训
 - src_20260614_6d9f7671-业务公式拆解培训
 - src_20260616_b1e25c49-zhanglei-lean-testing-ama
@@ -44,8 +47,7 @@ diagnostic_signals:
   follow_up_question: 当前是要"排除错误选项"还是要"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
 - framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
   follow_up_question: 这个定性参数能否拆成 3-5 个具体行为指标？每个指标变差时，对应哪个业务动作？
----
-# 一堂·从定性到定量：先证伪、后测量
+---# 一堂·从定性到定量：先证伪、后测量
 
 > 在需求很难直接证实时，最好的方式是排除掉那些不好的选项，留下好的细分用户、细分场景、细分问题；后续再放到产品迭代模型中，用量化的方式进一步验证需求有没有找准。——张磊《精益测试关键问题》AMA Q1
 

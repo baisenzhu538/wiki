@@ -24,37 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 source_refs:
-  - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
-status: enriched
-title: "泛产品设计"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "泛产品设计"
-  course_id: yt-personal-product-design
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '能把任何工作重新定义为‘为用户解决问题’的设计任务', 'framework_lens': '泛产品 = 问题+用户+场景', 'follow_up_question': '这件事的用户是谁？他真正想解决什么问题？'}
-  - {'signal': '设计前先明确用户、场景、任务，再进入解决方案', 'framework_lens': '问题定义先于方案', 'follow_up_question': '在画第一个方案之前，你是否已经写清了用户-场景-任务？'}
-  - {'signal': '方案会通过反馈迭代，而不是一次定稿', 'framework_lens': '设计是循环', 'follow_up_question': '这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-knowledge-management]]
-- [[ocr-泛产品设计落地篇]]
-- [[yt-personal-verbatim-script]]
-- [[yt-personal-inspiration-flash]]
-- [[yt-personal-pan-product-aesthetics]]
----
-# 泛产品设计
+  - pending_archive:src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
+---# 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

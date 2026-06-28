@@ -9,6 +9,9 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
+  - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
+  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
@@ -47,8 +50,7 @@ diagnostic_signals:
   follow_up: 优化性测试必须访谈3-5个真实用户，收集事实而非结论
 - lens: 验证停止
   follow_up: 三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整
----
-# 技能：内核要素三问验证法
+---# 技能：内核要素三问验证法
 
 ## Summary
 

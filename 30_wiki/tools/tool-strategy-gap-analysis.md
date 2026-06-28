@@ -15,6 +15,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -22,8 +23,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 差距分析
+---# 差距分析
 
 > BRM的起点。先搞清楚"差在哪"再谈"怎么追"。两个差距：业绩差距（自己和目标比）+机会差距（自己和对手比）。分析顺序：先看业务指标，再看组织问题。
 

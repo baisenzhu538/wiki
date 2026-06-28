@@ -9,6 +9,9 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
+  - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
@@ -45,8 +48,7 @@ diagnostic_signals:
   follow_up: 重复问'没有它用户还会选吗'，不会选的才是决定性
 - lens: 成本敏感缺失
   follow_up: 默认不做高成本低信息项，除非有强劣数据支持
----
-# 技能：产品内核加减法
+---# 技能：产品内核加减法
 
 ## Summary
 

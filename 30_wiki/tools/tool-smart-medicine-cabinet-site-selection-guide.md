@@ -9,6 +9,10 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+  - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+  - pending_archive:src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes
+  - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 - src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes
@@ -27,7 +31,6 @@ related:
 - [[smart-medicine-cabinet-national-policy-redlines]]
 - [[smart-medicine-cabinet-o2o-cost-structure]]
 ---
-
 ## Purpose
 
 本工具解决以下问题：

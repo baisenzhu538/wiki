@@ -15,6 +15,8 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 - src_unknown
   - src_unknown
@@ -28,8 +30,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
+---# 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 
 > ⚠️ 注意：国际通行的"BRM"= Business Relationship Management（IT与业务关系管理），是另一个领域。冉鹏的 BRM 源于他在 IBM 担任咨询总监时所学的 BLM (Business Leadership Model)，经过30年中国实战改编。华为"五看三定"就是 BLM 的中国版本。
 

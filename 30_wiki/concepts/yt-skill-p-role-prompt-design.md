@@ -25,17 +25,8 @@ confidence: 0.75
 trust_level: medium
 type: "concept"
 source_refs:
-  - src_20260522_38173b48-design-ai-image-generation
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
-related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----
-# P 角色 Prompt 设计——执行者型 AI 的交付规范
+  - pending_archive:src_20260522_38173b48-design-ai-image-generation
+---# P 角色 Prompt 设计——执行者型 AI 的交付规范
 
 ## Condense
 

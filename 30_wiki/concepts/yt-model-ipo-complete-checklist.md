@@ -21,33 +21,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 source_refs:
-  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
-status: enriched
-title: "IPO 科学学习完整清单"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "科学学习"
-  course_type: reference
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户对着清单选课，但学完后能力没提升', 'framework_lens': '清单当导航但没执行——选课不等于学习', 'follow_up_question': '你选课后完成了多少作业/练习/输出？如果<50%，清单只是选课工具'}
-  - {'signal': '用户只选输入类课程，不选输出和反馈类课程', 'framework_lens': '偏科学习——IPO闭环需要各环节均衡', 'follow_up_question': '你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[ocr-一堂-个人修炼-科学学习ipo完整清单]]
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-entrepreneur-research-camp]]
-- [[yt-personal-ipo-learning]]
-- [[ocr-一堂-个人修炼-科学学习ipo-全景策略]]
----
-# IPO 科学学习完整清单 (Complete List)
+  - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+---# IPO 科学学习完整清单 (Complete List)
 
 > 来源：一堂《科学学习 IPO·完整清单》。[[一堂]] | [[yt-model-ipo-learning-strategy]] | [[yt-personal-ipo-learning]]
 

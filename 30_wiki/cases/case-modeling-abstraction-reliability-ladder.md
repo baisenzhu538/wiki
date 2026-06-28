@@ -8,6 +8,8 @@ domain:
 - master
 - modeling
 source_refs:
+  - pending_archive:src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
+  - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags: []
@@ -30,8 +32,7 @@ related:
 - [[modeling-level-map]]
 - [[case-modeling-abstraction-yitang-models]]
 - [[dk-modeling-counterexample-driven]]
----
-# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
+---# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
 

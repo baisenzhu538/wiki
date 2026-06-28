@@ -14,6 +14,9 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-28'
 source_refs:
+  - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
+  - pending_archive:lean-startup-domain-digest
+  - pending_archive:diag_20260627_wangyuyan-cross-domain-bridge-supplement
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - lean-startup-domain-digest
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
@@ -31,7 +34,6 @@ related:
 - '[[lean-startup-domain-digest]]'
 review_date: '2026-06-28'
 ---
-
 # 渠道精益验证：把渠道 0→1 测试当作一种 MVP
 
 ## 一句话定义

@@ -21,33 +21,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260510_349a66fd-读书会-spin销售法
 - src_20260510_349a66fd-读书会-spin销售法
 source_refs:
-  - src_20260510_349a66fd-读书会-spin销售法
-status: enriched
-title: "SPIN销售法：顾问式销售的奠基之作"
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "创业必修"
-  course_type: book_club
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户学了SPIN但还在逼单', 'framework_lens': '顾问式销售没有内化', 'follow_up_question': '你最近一次销售对话中，问了几个启发式问题？如果没有，你还是在传统销售'}
-  - {'signal': '用户在不合适的场景用SPIN', 'framework_lens': '方法错配', 'follow_up_question': '你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-personal-y-model-exploration-2]]
-- [[yt-personal-y-model-practice]]
-- [[yt-entrepreneur-industrial-production]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# SPIN销售法：顾问式销售的奠基之作
+  - pending_archive:src_20260510_349a66fd-读书会-spin销售法
+---# SPIN销售法：顾问式销售的奠基之作
 
 > 来源：一堂读书会·SPIN销售法口述（2小时解读，Truman主讲）。[[yt-entrepreneur-scientific-method]] | [[一堂]]
 

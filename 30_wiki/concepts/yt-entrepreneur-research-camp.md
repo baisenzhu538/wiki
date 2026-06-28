@@ -20,34 +20,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
 - src_20260510_2ba8671c-创业-调研行动营口述01
 source_refs:
-  - src_20260510_2ba8671c-创业-调研行动营口述01
-status: enriched
-title: "调研行动营：从调研认知到AI调研武器库"
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "创业必修"
-  course_type: action_camp
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户上完行动营但调研能力没提升', 'framework_lens': '课程没有转化为练习', 'follow_up_question': '你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升'}
-  - {'signal': '用户只学AI工具，不提升调研认知', 'framework_lens': '三轮学习失衡', 'follow_up_question': '你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium
-related:
-- [[yt-personal-y-model-practice]]
-- [[yt-model-deep-review-iceberg]]
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-liberate-thinking-layers]]
-- [[yt-personal-thinking-models]]
----
-# 调研行动营：从调研认知到AI调研武器库
+  - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
+---# 调研行动营：从调研认知到AI调研武器库
 
 > 来源：一堂调研行动营第0期口述（Truman）。[[yt-entrepreneur-research-cognition]] | [[yt-model-ipo-learning-strategy]] | [[一堂]]
 

@@ -16,6 +16,7 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 source_refs:
+  - pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
@@ -24,8 +25,7 @@ related:
 - [[tool-yitang-web-scraping-research]]
 - [[tool-agent-crawl4ai]]
 - [[tool-agent-native-overview]]
----
-# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
+---# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。
 

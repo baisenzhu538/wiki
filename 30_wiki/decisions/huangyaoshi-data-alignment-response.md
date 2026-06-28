@@ -29,12 +29,12 @@ related:
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
-source_refs: []
+source_refs:
+  - src_unknown []
 reviewed_by: pending
 confidence: 0.6
 trust_level: low# 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
----
-> 阅读前提：已读欧阳锋的 `ouyangfeng-data-alignment-response.md`。
+---> 阅读前提：已读欧阳锋的 `ouyangfeng-data-alignment-response.md`。
 > 本文档分三部分：对齐确认、补充意见细化、分歧阐述。
 
 

@@ -10,6 +10,7 @@ domain:
 source_person: 纪浩
 source_context: AI协作方法论
 source_refs:
+  - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 wiki_refs:
 - src_unknown
@@ -36,8 +37,7 @@ pipeline:
 - src_unknown
 author: 纪浩
 trust_level: medium-high# 技能：AI 对话上下文隔离
----
-> 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
+---> 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
 
 - src_unknown
 

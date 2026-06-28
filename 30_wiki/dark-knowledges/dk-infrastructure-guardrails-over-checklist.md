@@ -11,7 +11,8 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
-source_refs: []
+source_refs:
+  - src_unknown []
 related:
 - [[dk-small-format-error-cascades-to-system-failure]]
 - [[dk-f3-state-json-race-condition]]
@@ -42,8 +43,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
----
-## 原始表述 / 核心洞察
+---## 原始表述 / 核心洞察
 
 第 26 节在清理 master 系统暗知识时，连续出现同一个模式：
 

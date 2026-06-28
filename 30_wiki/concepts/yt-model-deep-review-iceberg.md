@@ -19,33 +19,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
-  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
-status: enriched
-title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: framework
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '复盘会大家情绪很激动，但只停在"我觉得不好"', 'framework_lens': '复盘停在主观感受层——没有进入客观事实和原因分析', 'follow_up_question': '我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽'}
-  - {'signal': '复盘挖到了底层模型，但没有转化成能力建设计划', 'framework_lens': '复盘没有闭环——发现规律但不建设能力', 'follow_up_question': '这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[yt-note-five-levels-training]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[case-modeling-essence-levels]]
-- [[framework-logic-cleanliness-five-levels]]
-- [[yt-five-step-level-blindspots]]
----
-# 深度复盘冰山图：从主观感受到能力建设的五层穿透
+  - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+---# 深度复盘冰山图：从主观感受到能力建设的五层穿透
 
 > 来源：一堂知识地图《深度复盘冰山图》。[[yt-personal-deep-review]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

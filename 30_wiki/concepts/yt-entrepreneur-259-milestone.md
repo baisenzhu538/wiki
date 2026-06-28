@@ -25,43 +25,15 @@ query_triggers:
 review_date: 2026-06-15
 reviewed_by: pending
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-  - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
-  - src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
-  - src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
-  - src_20260611_96419f58-一堂-一堂五步法-单元模型-尺子和梯子的调优_paddle_ocr
-  - src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
-  - src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
-  - src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
-status: draft
-title: 259里程碑
-trust_level: high
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: 259里程碑
-  course_id: 259
-  course_type: method
-  level: foundational
-pipeline:
-- src_unknown
-diagnostic_signals:
-- framework_lens: 里程碑没有验证标准——259的核心是假设验证
-  follow_up_question: 你的9个里程碑中，每个对应什么验证实验？什么结果算通过？
-- framework_lens: 割裂使用——259是一个整体系统
-  follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
-updated_at: '2026-06-16'
-author: 老顽童
-related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----
-# 259里程碑
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - pending_archive:src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
+  - pending_archive:src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
+  - pending_archive:src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
+  - pending_archive:src_20260611_96419f58-一堂-一堂五步法-单元模型-尺子和梯子的调优_paddle_ocr
+  - pending_archive:src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
+  - pending_archive:src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
+  - pending_archive:src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
+---# 259里程碑
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

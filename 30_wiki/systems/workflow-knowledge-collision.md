@@ -11,7 +11,8 @@ status: active
 created_at: '2026-06-14'
 author: 周伯通
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-source_refs: []
+source_refs:
+  - src_unknown []
 query_triggers:
 - src_unknown
 - src_unknown
@@ -35,8 +36,7 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: medium
 updated_at: '2026-06-16'# 知识碰撞工作流：产出前先碰撞知识库
----
-> 核心原则：在产出之前，先拿当前问题去碰撞知识库里的已有框架。不只是查定义——是测试框架在问题上的适用性，找出"对得上""对不上""缺什么"三个区域。
+---> 核心原则：在产出之前，先拿当前问题去碰撞知识库里的已有框架。不只是查定义——是测试框架在问题上的适用性，找出"对得上""对不上""缺什么"三个区域。
 
 
 

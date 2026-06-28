@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**模式**：每次经济下行周期→所有人恐慌抛售→李嘉诚逆势收购→等周期回暖→高价卖出
+---**模式**：每次经济下行周期→所有人恐慌抛售→李嘉诚逆势收购→等周期回暖→高价卖出
 **核心洞察**：分筋错骨手的前提是"你有能力撑过下行周期"。如果自己的现金流都撑不住，逆向投资=自杀
 
 ## 关键证据

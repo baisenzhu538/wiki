@@ -16,20 +16,10 @@ updated_at: 2026-06-27
 source_refs:
   - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
   - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
-  - K. Anders Ericsson & Robert Pool, Peak: Secrets from the New Science of Expertise, HarperOne, 2016
-  - K. Anders Ericsson et al., "The Role of Deliberate Practice in the Acquisition of Expert Performance," Psychological Review, 1993
-  - Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus to Rapidity of Habit-Formation," 1908
-source_person: Truman
-related:
-  - '[[yt-model-deliberate-practice-growth]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
-  - '[[framework-yitang-nine-layer-deep-dig]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[tool-yitang-feedback-self-check]]'
+  - src_unknown
+  - pending_archive:K. Anders Ericsson et al., "The Role of Deliberate Practice in the Acquisition of Expert Performance," Psychological Review, 1993
+  - pending_archive:Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus to Rapidity of Habit-Formation," 1908
 ---
-
 # 刻意练习 1+4 模型：科学成长的操作系统
 
 ## 一句话

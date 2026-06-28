@@ -23,35 +23,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "融资认知"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "融资认知"
-  course_id: yt-entrepreneur-fundraising
-  course_type: method
-  level: advanced
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户认为融资越多越成功', 'framework_lens': '融资是放大器不是成功指标', 'follow_up_question': '如果不融资，你的商业模式能独立跑通吗？如果不能，融资只是续命'}
-  - {'signal': '用户没有PMF就着急融资', 'framework_lens': '时机错配——融资加速验证过的东西', 'follow_up_question': '你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-growth-flywheel]]
-- [[yt-entrepreneur-industrial-production]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# 融资认知
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 融资认知
 
 > 来源：一堂课程体系 | 阶段：增长阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -24,35 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "工业化生产"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "工业化生产"
-  course_id: yt-entrepreneur-industrial-production
-  course_type: method
-  level: advanced
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户还没验证需求就搞SOP', 'framework_lens': '过早标准化——在错误的事情上提高效率', 'follow_up_question': '这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误'}
-  - {'signal': '用户把一切都标准化，扼杀创新', 'framework_lens': '过度工业化', 'follow_up_question': '哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-research-cognition]]
-- [[yt-entrepreneur-growth-flywheel]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# 工业化生产
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 工业化生产
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

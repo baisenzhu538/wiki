@@ -20,33 +20,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
-  - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
-status: enriched
-title: "MUSE 人工智能全景图"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "AI 思维模型"
-  course_type: model
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户看了AI全景图后更焦虑，觉得自己什么都要学', 'framework_lens': '全景图焦虑——四层都有价值，但当前阶段只需要聚焦一层', 'follow_up_question': '你当前的工作主要在哪一层？如果还在使用层，不要同时学创业层和奇迹层'}
-  - {'signal': '用户只关注奇迹层，不愿从使用层开始', 'framework_lens': '跳级学习——MUSE四层需要循序渐进', 'follow_up_question': '你日常工作中AI工具的使用效率如何？如果还没提升，奇迹层与你无关'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-modeling-ai-judgment-limit]]
-- [[master-ai-info-literacy]]
-- [[yt-personal-ai-capability]]
----
-# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
+  - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
+---# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
 > 来源：一堂《人工智能全景图·MUSE 模型》V3.0（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]
 

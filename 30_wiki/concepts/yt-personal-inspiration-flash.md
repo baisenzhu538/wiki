@@ -24,37 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 source_refs:
-  - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
-status: enriched
-title: "灵感闪现（认知篇）"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "灵感闪现（认知篇）"
-  course_id: 518
-  course_type: method
-  level: advanced
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '主动、持续地浸泡在多样化信息中，而不是等待灵感', 'framework_lens': '灵感需要信息营养', 'follow_up_question': '过去一周你主动接触了哪些跨领域信息？'}
-  - {'signal': '有固定机制捕获灵感（笔记、语音、画草图），不让它溜走', 'framework_lens': '灵感易逝', 'follow_up_question': '最近一次灵感出现后，你多久内完成了记录？'}
-  - {'signal': '灵感会被主动与当前要解决的问题连接，而不是收藏起来', 'framework_lens': '灵感的价值在于解决问题', 'follow_up_question': '这个灵感能解决你当前哪个具体问题？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-knowledge-management]]
-- [[yt-personal-deliberate-practice]]
-- [[yt-personal-verbatim-script]]
-- [[yt-personal-product-design]]
-- [[yt-personal-scientific-expression]]
----
-# 灵感闪现（认知篇）
+  - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+---# 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

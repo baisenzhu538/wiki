@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "实事求是"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "实事求是"
-  course_id: yt-entrepreneur-truth-seeking
-  course_type: method
-  level: foundational
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户说要求真，但只找支持自己的数据', 'framework_lens': '自我欺骗', 'follow_up_question': '你最近一次主动搜索反面证据是什么时候？如果超过一周，求真只是口号'}
-  - {'signal': '用户为了反对而反对，没有建设性', 'framework_lens': '红队滥用', 'follow_up_question': '你的反对是为了更接近真相，还是为了赢？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-industrial-production]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
----
-# 实事求是
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 实事求是
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

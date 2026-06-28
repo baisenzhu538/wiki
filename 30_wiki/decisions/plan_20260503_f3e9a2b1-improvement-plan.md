@@ -16,7 +16,8 @@ assessment_ref: 60_feedback/assessments/claude-20260503-kdo仓库遍历与健康
 id: plan_20260503_f3e9a2b1-improvement-plan
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
-source_refs: []
+source_refs:
+  - src_unknown []
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
@@ -27,8 +28,7 @@ related:
 - [[kdo-ec-industrialization-migration-proposal]]
 - [[kdo-batch-produce-req014]]
 - [[dk-c2-dual-status-machine]]
----
-- [[dk-kdo-leaky-pipe-pressure]]
+---- [[dk-kdo-leaky-pipe-pressure]]
 
 # Improvement Plan plan_20260503_f3e9a2b1
 

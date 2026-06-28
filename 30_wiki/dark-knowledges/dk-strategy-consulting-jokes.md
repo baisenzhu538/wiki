@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -17,8 +18,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
+---# 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 
 ## 原始表述
 

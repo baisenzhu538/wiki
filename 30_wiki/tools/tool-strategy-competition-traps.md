@@ -12,14 +12,14 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
----
-## 两大陷阱
+---## 两大陷阱
 
 | 陷阱 | 症状 | 案例 |
 |:

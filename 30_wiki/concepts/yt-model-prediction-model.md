@@ -21,34 +21,11 @@ superseded_by:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_e71d89ff-ocr-预判模型
 - src_20260522_e71d89ff-ocr-预判模型
 source_refs:
-  - src_20260522_e71d89ff-ocr-预判模型
-status: enriched
-title: "预判模型：从最糙版到复杂版的三种预判范式"
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: "创业必修"
-  course_type: framework
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户用旧版预判模型做重要决策', 'framework_lens': '已被替代', 'follow_up_question': '你知道 [[yt-foresight-model-taxonomy]] 已经替代了本卡吗？重要决策应参考新版'}
-  - {'signal': '用户只用最糙版处理复杂决策', 'framework_lens': '工具不足', 'follow_up_question': '这个决策失败的代价是什么？如果高，N要素不够'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[ocr-预判模型]]
-- [[yt-panproduct-aesthetic-modeling]]
-- [[yt-foresight-model-taxonomy]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
----
-# 预判模型：从最糙版到复杂版的三种预判范式
+  - pending_archive:src_20260522_e71d89ff-ocr-预判模型
+---# 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
 >

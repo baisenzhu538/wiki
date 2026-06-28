@@ -28,37 +28,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 source_refs:
-  - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
-status: enriched
-title: "清单体笔记（一堂笔记法）"
-trust_level: medium
-type: tool
-version: 2
-yitang:
-  map: personal
-  module: "清单体笔记"
-  course_id: 407
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '每条笔记都以清单形式呈现，项与项之间相对独立、可逐条执行', 'framework_lens': '清单体 = 可操作的认知结构', 'follow_up_question': '这条笔记能否被拆成互不依赖的小任务？'}
-  - {'signal': '清单项有明确层级，能一眼看出结构和重点', 'framework_lens': '分层降低认知负荷', 'follow_up_question': '如果只看前3个最高层级标题，能否把握核心？'}
-  - {'signal': '笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储', 'framework_lens': '笔记服务于决策和行动', 'follow_up_question': '这篇笔记不写，你的哪个行动会受影响？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-note-five-levels-training]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[yt-personal-time-management]]
-- [[yt-personal-verbatim-script]]
-- [[yt-personal-inspiration-flash]]
----
-# 清单体笔记（一堂笔记法）
+  - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
+---# 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

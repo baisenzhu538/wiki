@@ -19,33 +19,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
 - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
-  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
-status: enriched
-title: "产品内核十大典型指标：从获客到推荐的度量框架"
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: "创业必修"
-  course_type: framework
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户盯十大指标但不看业务阶段', 'framework_lens': '指标与阶段错配', 'follow_up_question': '你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了'}
-  - {'signal': '用户把所有指标都当核心指标', 'framework_lens': '没有聚焦', 'follow_up_question': '这十个指标中，你这个季度只看一个，你选哪个？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[ocr-一堂产品内核-十大典型指标]]
-- [[一堂]]
-- [[yt-product-kernel-cultivation]]
-- [[yt-tob-demand-scenarios]]
-- [[yt-product-ten-metrics]]
----
-# 产品内核十大典型指标：从获客到推荐的度量框架
+  - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
+---# 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
 

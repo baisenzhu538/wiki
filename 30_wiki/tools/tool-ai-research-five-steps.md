@@ -12,6 +12,7 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地-口述，2026-06-06
 source_refs:
+  - pending_archive:src_20260606_90b44191-没有人呀现在
 - src_20260606_90b44191-没有人呀现在
 wiki_refs:
 - src_unknown
@@ -34,8 +35,7 @@ reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7
 trust_level: low
----
-# 技能：AI调研五步法
+---# 技能：AI调研五步法
 
 > **来源**：半肥猫（AI俱乐部-AI学习落地-口述）
 > **核心**：高质量AI调研不是"问AI一个问题"，而是"先定目标→做约束→做假设→提供证据→纠偏"的五步闭环。

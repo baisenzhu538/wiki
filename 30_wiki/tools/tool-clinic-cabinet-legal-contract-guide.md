@@ -9,6 +9,8 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+  - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
@@ -25,7 +27,6 @@ related:
 - [[smart-medicine-cabinet-clinic-risk-observation]]
 - [[互联网医院项目]]
 ---
-
 ## Purpose
 
 本工具解决以下问题：

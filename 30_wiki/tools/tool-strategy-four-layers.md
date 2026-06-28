@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-## 四层定义
+---## 四层定义
 
 | 层 | 核心问题 | 案例 |
 |:---|:---|:---|

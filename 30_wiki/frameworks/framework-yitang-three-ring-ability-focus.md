@@ -16,19 +16,8 @@ updated_at: 2026-06-27
 source_refs:
   - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
   - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
-  - Cal Newport, So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love, Business Plus, 2012
-source_person: Truman
-related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[yt-model-deliberate-practice-growth]]'
-  - '[[yt-note-deliberate-practice-four-elements]]'
-  - '[[framework-yitang-nine-layer-deep-dig]]'
-  - '[[dk-yitang-deliberate-practice-common-traps]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
+  - src_unknown
 ---
-
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点
 
 ## 一句话

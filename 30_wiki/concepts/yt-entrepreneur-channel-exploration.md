@@ -24,35 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "渠道探索"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "渠道探索"
-  course_id: yt-entrepreneur-channel-exploration
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户只选一个渠道All in，不测试其他', 'framework_lens': '渠道单一风险', 'follow_up_question': '如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？'}
-  - {'signal': '用户渠道很多，但不知道哪个有效', 'framework_lens': '没有渠道验证机制', 'follow_up_question': '每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-research-cognition]]
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-growth-flywheel]]
-- [[yt-entrepreneur-industrial-production]]
-- [[yt-entrepreneur-fundraising]]
----
-# 渠道探索
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 渠道探索
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

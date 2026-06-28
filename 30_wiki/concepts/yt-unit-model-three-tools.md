@@ -23,6 +23,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+  - pending_archive:src_20260610_be139711-一堂-一堂五步法-单元模型-口述
+  - pending_archive:src_20260610_7bcdf9ce-一堂-一堂五步法-单元模型-斧子尺子和梯子
 - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
 - src_20260610_7bcdf9ce-一堂-一堂五步法-单元模型-斧子尺子和梯子
 status: reviewed
@@ -51,8 +53,7 @@ related:
 - [[yt-product-kernel-cultivation]]
 - [[yt-customer-acquisition-toolkit]]
 - [[ocr-一堂-单元模型-斧子尺子梯子]]
----
-# 单元模型三工具：斧子尺子梯子
+---# 单元模型三工具：斧子尺子梯子
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-growth-cycle-model]] | [[case-toy-cabinet-business-model]]
 

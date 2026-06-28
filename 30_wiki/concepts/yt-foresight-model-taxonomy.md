@@ -20,34 +20,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-  - src_20260613_96e45c45-qishijian-business-model
-status: enriched
-title: "预判模型分类"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "机会预判"
-  course_id: yt-foresight-model-taxonomy
-  course_type: tool
-  level: core
-diagnostic_signals:
-  - {'signal': '能根据信息完备度和决策 stakes 快速判断该用 N要素 / 雷达图 / Checklist', 'framework_lens': '模型复杂度要与决策成本匹配', 'follow_up_question': '如果给这个决策限定10分钟，你会降到哪个层级？'}
-  - {'signal': '使用每种模型时都配套具体案例，而不是空跑维度', 'framework_lens': '预判模型需要锚定在真实商业案例上', 'follow_up_question': '你最近一次用 Checklist 做尽调时，案例库中是否有≥3个可比案例？'}
-  - {'signal': '团队对‘什么时候该升级模型复杂度’有共同约定', 'framework_lens': '工具分层需要决策规则，否则因人而异', 'follow_up_question': '如果两个人分别用 N要素 和 Checklist 评估同一机会，你们会如何裁决？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[ocr-预判模型]]
-- [[yt-model-prediction-model]]
-- [[yt-panproduct-aesthetic-modeling]]
-- [[case-escort-service-tiered-growth]]
-- [[yt-personal-checklist-notes]]
----
-# 预判模型分类
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+---# 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

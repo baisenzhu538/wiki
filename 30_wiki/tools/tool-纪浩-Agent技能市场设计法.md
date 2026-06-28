@@ -10,6 +10,9 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
+  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+  - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
 - 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
@@ -43,8 +46,7 @@ diagnostic_signals:
   follow_up: Agent使用后自动上报效果数据，维护者通过反馈判断质量，决定更新或下架
 - lens: 市场幻觉
   follow_up: 真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹
----
-# 技能：Agent技能市场设计法
+---# 技能：Agent技能市场设计法
 
 ## 原始表述
 

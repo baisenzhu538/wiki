@@ -10,6 +10,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_945a21d7-itingnao-deep-dive-platforms
 - src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
 updated_at: 2026-06-15
@@ -22,8 +23,7 @@ related:
 - [[smart-medicine-cabinet-financial-model]]
 - [[tool-smart-medicine-cabinet-compliance-checklist]]
 - [[smart-medicine-cabinet-o2o-cost-structure]]
----
-# 智能药柜平台合作命题交叉验证
+---# 智能药柜平台合作命题交叉验证
 
 ## 一、已记录的关键数字（原样保留）
 

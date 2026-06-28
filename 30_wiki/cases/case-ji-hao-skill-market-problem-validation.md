@@ -9,6 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
+  - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 created_at: 2026-06-09
 updated_at: 2026-06-28
@@ -40,8 +41,7 @@ pipeline:
 author: 纪浩
 confidence: 0.7
 trust_level: low# 案例：一堂Skill市场从伪需求到真实需求的四问验证
----
-## 原始表述
+---## 原始表述
 
 > "在没有Skill市场之前，我们分享一个Skill是通过微信传zip的方式——找zip文件夹、打包、微信发出去。用户遇到问题时只能模糊口述反馈，我们无法定位。更新之后用户可能还在用旧版。"
 >

@@ -9,6 +9,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
 updated_at: 2026-06-15
@@ -18,8 +19,7 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related: []# 知识卡草稿：智能药柜/数字药房项目诊断
----
-> 卡片编号：kc_itingnao_digital-pharmacy  
+---> 卡片编号：kc_itingnao_digital-pharmacy  
 > 对应诊断报告：`60_feedback/itingnao-deep-dive-digital-pharmacy.md`  
 > 素材来源：6362082、7151864、7683984、8032774、7898987 五份精简版录音  
 > 输出要求：仅写入 `60_feedback/`，不污染 `30_wiki/`

@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**事迹**：冉鹏亲自下场做美区 TikTok 店卖 T 恤。"我是一单都没卖出去啊"
+---**事迹**：冉鹏亲自下场做美区 TikTok 店卖 T 恤。"我是一单都没卖出去啊"
 **教训**：超出自身资源和能力的边界→战略的动态适配有边界。顶尖战略顾问≠万能创业者
 **引用**：叶茂中——"因为我不行，所以我来做咨询"
 **核心洞察**：BRM的"连续动作/动态适配"有前提——你得在能力圈内。出了圈，再动态也没用

@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -17,8 +18,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-**四阶段**：
+---**四阶段**：
 1. **适者生存期**：大量玩家涌入，只有最适合的活下来
 2. **绝望之谷**：活下来的也快撑不住了——资金/技术/市场三重挤压
 3. **物种爆发期**：熬过谷底的开始快速增长，品类格局确立

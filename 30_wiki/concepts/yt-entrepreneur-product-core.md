@@ -26,35 +26,11 @@ query_triggers:
   - src_unknown
 review_date: 2026-06-06
 source_refs:
+  - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
 - src_20260614_0e6fd2e7-theme-product-business-summary
 source_refs:
-  - src_20260614_0e6fd2e7-theme-product-business-summary
-status: enriched
-title: "产品内核定义、迭代与验证方法论"
-trust_level: medium
-type: tool
-version: 2
-yitang:
-  map: entrepreneur
-  module: "产品内核"
-  course_id: yt-entrepreneur-product-core
-  course_type: method
-  level: foundational
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户把产品内核越做越大，失去最小解决方案', 'framework_lens': '过早细化/内核膨胀', 'follow_up_question': '如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了'}
-  - {'signal': '用户有产品功能但没验证关键转化率', 'framework_lens': '内核验证缺失', 'follow_up_question': '你的产品内核对应的关键转化率指标是什么？现在数字是多少？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-tool-product-core-canvas]]
-- [[yt-entrepreneur-key-hypotheses]]
-- [[yt-entrepreneur-industry-forecast]]
-- [[yt-concept-p-type-l-type]]
-- [[yt-prompt-engineering-andrew-ng]]
----
-# 产品内核定义、迭代与验证方法论
+  - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
+---# 产品内核定义、迭代与验证方法论
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。产品内核是用户愿意选择你的**最小解决方案**，是商业模式中承上启下的关键环节。通过"定义→验证→迭代"闭环，解决关键转化率问题，支撑业务长期健康发展。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

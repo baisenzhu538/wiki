@@ -22,35 +22,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
 - src_20260614_1be3d76f-一堂-思维模型案例分享
 source_refs:
-  - src_20260614_1be3d76f-一堂-思维模型案例分享
-status: enriched
-title: "思维模型：从碎片经验到稳定模型"
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: explore_camp
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '能从自己的经验中提炼出可复用的判断框架', 'framework_lens': '模型来自实践', 'follow_up_question': '这个模型是你从多少个自己的案例中总结出来的？'}
-  - {'signal': '模型会用新案例不断修正，而不是一成不变', 'framework_lens': '模型是活的', 'follow_up_question': '最近有没有一个案例让你的模型边界发生了变化？'}
-  - {'signal': '模型能向他人清晰解释，并让他人也能使用', 'framework_lens': '可传播才有价值', 'follow_up_question': '别人用这个模型做判断时，是否需要你补充很多背景？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium
-related:
-- [[yt-personal-y-model-exploration-2]]
-- [[一堂]]
-- [[yt-personal-y-model-practice]]
-- [[yt-entrepreneur-research-camp]]
-- [[yt-personal-knowledge-extraction]]
----
-# 思维模型：从碎片经验到稳定模型
+  - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
+---# 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

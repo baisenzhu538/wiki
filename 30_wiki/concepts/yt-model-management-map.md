@@ -21,29 +21,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-  - src_20260613_96e45c45-qishijian-business-model
-status: enriched
-title: "管理修炼地图"
-type: framework
-updated_at: 2026-06-16
-version: 1
-yitang:
-  map: management
-  module: "方法论总纲"
-  course_type: model
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '新晋管理者学完管理地图，但带团队时还是用个人贡献者的习惯', 'framework_lens': '知行脱节——管理地图提供了路径，但肌肉记忆没有转换', 'follow_up_question': '过去一周你有多少时间花在"管自己"上，多少时间花在"管他人/项目/业务"上？如果前者>50%，说明还没切换角色'}
-  - {'signal': '管理者把L5管公司内容套用到10人团队', 'framework_lens': '阶段错配——管理地图的段位与组织规模不匹配', 'follow_up_question': '你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同'}
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[yt-management-business-formula]]
----
-# 一堂管理地图：高潜力管理者修炼全景图
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+---# 一堂管理地图：高潜力管理者修炼全景图
 
 > 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#管理必修
 

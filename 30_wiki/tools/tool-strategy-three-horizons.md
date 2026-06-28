@@ -15,6 +15,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -24,8 +25,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 三个地平线
+---# 三个地平线
 
 > 所有公司都在同时做三件事：养活今天、投资明天、赌后天。问题是多数公司只做了第一件。
 

@@ -20,35 +20,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+  - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 source_refs:
-  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
-status: enriched
-title: "AI趋势12大变化模型"
-trust_level: medium
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: "机会预判"
-  course_id: yt-ai-trend-12-signals
-  course_type: framework
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户用12信号找创业机会，但每个信号都觉得自己能抓住', 'framework_lens': '信号≠机会——趋势需要结合自身能力和窗口期', 'follow_up_question': '这12个信号中，哪些与你的核心能力和资源禀赋匹配？如果没有，你看到的只是热闹'}
-  - {'signal': '用户只关注需求层变化，忽视解决方案和基础设施层', 'framework_lens': '层级误判——趋势机会往往来自下层突破', 'follow_up_question': '你关注的需求变化，背后依赖的模型能力、算力成本、数据基础设施是否已经成熟？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[case-escort-service-tiered-growth]]
-- [[yt-foresight-ab-steady-state]]
-- [[case-ai-time-management-tiered-growth]]
-- [[yt-ai-startup-20-risky-hypotheses]]
-- [[dk-signal-cluster-illusion]]
----
-# AI趋势12大变化模型
+  - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+---# AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]
 

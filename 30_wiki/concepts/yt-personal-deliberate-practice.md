@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
-  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-status: enriched
-title: "科学成长（刻意练习）"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "科学成长（刻意练习）"
-  course_id: 406
-  course_type: method
-  level: foundational
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '每次练习都有明确、可衡量的子目标', 'framework_lens': '刻意 = 目标导向', 'follow_up_question': '今天的练习结束后，你希望自己能做到什么昨天做不到的事？'}
-  - {'signal': '练习后能立即获得反馈，并能根据反馈调整', 'framework_lens': '反馈闭环是进步的核心', 'follow_up_question': '你如何知道自己这次做对了还是做错了？'}
-  - {'signal': '练习内容处于舒适区边缘，既有挑战又可完成', 'framework_lens': '拉伸区最利于成长', 'follow_up_question': '这次练习有多难？如果轻松完成，是否该增加难度？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-knowledge-management]]
-- [[yt-personal-verbatim-script]]
-- [[yt-personal-inspiration-flash]]
-- [[yt-personal-ipo-learning]]
-- [[yt-personal-scientific-expression]]
----
-# 科学成长（刻意练习）
+  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+---# 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

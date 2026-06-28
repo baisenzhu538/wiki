@@ -9,6 +9,8 @@ domain:
   - src_unknown
   - src_unknown
 source_refs:
+  - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+  - pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
@@ -41,8 +43,7 @@ diagnostic_signals:
     follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
   - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
     follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
----
-> 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。
+---> 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。
 
 ---
 

@@ -5,6 +5,8 @@ type: case
 domain:
 - yitang
 source_refs:
+  - pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
+  - pending_archive:src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 status: enriched
@@ -42,8 +44,7 @@ related:
 - [[case-gudong-tea-shop-foresight]]
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
----
-# 小龙电商：四层剥离——从服装到正装裤
+---# 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景
 

@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**冉鹏实操**：新开店零亏损→大店年均盈利300万→2015年后无亏损店
+---**冉鹏实操**：新开店零亏损→大店年均盈利300万→2015年后无亏损店
 **方法**：吃饱期的标准化复制——每开一家新店必须严格按模型执行，不达标不开
 **核心洞察**：吃饱期的关键是"复制模型"而非"创新模型"
 

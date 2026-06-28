@@ -24,35 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "务实创业"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "务实创业"
-  course_id: yt-entrepreneur-pragmatic-startup
-  course_type: method
-  level: advanced
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户追风口而不看自身能力', 'framework_lens': '不务实', 'follow_up_question': '这个风口和你的核心能力有什么关系？如果没有，你只是旁观者'}
-  - {'signal': '用户过度保守，什么都不敢试', 'framework_lens': '务实≠不行动', 'follow_up_question': '你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-growth-flywheel]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# 务实创业
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 务实创业
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

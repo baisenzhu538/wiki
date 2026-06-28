@@ -10,6 +10,8 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
+  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+  - 00_inbox/纪浩-AI协作方法论-口述.md
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: "2026-06-09"
@@ -48,8 +50,7 @@ diagnostic_signals:
     follow_up: "用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突"
   - lens: "L3未沉淀"
     follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
----
-# 概念：纪浩AI协作五层工作空间法
+---# 概念：纪浩AI协作五层工作空间法
 
 ## 定义
 

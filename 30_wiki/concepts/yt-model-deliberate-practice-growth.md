@@ -19,33 +19,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 source_refs:
-  - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
-status: enriched
-title: "刻意练习十年成长指数：为什么有人一年顶十年"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: framework
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户每天都在练习，但十年没有明显进步', 'framework_lens': '低端重复——练习不在能力边界，只是熟练度重复', 'follow_up_question': '你最近三个月的练习内容，有多少是"已经会了的"？如果>70%，你在低端重复'}
-  - {'signal': '用户只学新套路，从不在非舒适区练习', 'framework_lens': '套路囤积——固定套路需要配合非舒适区才能转化为成长', 'follow_up_question': '你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[ocr-一堂刻意练习十年成长指数]]
-- [[ocr-一堂-ai清单体笔记训练段位图-truman-图片02]]
-- [[ocr-一堂提炼过的因果模型]]
-- [[yt-note-deliberate-practice-four-elements]]
-- [[yt-personal-checklist-notes]]
----
-# 刻意练习十年成长指数：为什么有人一年顶十年
+  - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
+---# 刻意练习十年成长指数：为什么有人一年顶十年
 
 > 来源：一堂知识地图《刻意练习·十年成长指数》。[[yt-personal-deliberate-practice]] | [[yt-model-pan-product-climbing-map]] | [[一堂]]
 

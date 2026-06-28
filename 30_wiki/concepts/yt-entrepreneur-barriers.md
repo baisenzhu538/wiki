@@ -24,35 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-status: enriched
-title: "项目壁垒"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "项目壁垒"
-  course_id: yt-entrepreneur-barriers
-  course_type: method
-  level: advanced
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户说"我规模大后有壁垒"，但现在什么都没有', 'framework_lens': '事后壁垒幻想——壁垒需要提前设计', 'follow_up_question': '在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想'}
-  - {'signal': '用户把单一优势当护城河', 'framework_lens': '壁垒维度单一', 'follow_up_question': '如果竞争对手明天复制了你的这个优势，你还有什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-concentration-analysis]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-opportunity-selection]]
-- [[yt-entrepreneur-business-growth]]
----
-# 项目壁垒
+  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+---# 项目壁垒
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

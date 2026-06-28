@@ -23,35 +23,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
 - src_20260614_faa8021d-Y模型探索营-第二节课
 source_refs:
-  - src_20260614_faa8021d-Y模型探索营-第二节课
-status: enriched
-title: "Y模型/科学方法"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "Y模型/科学方法"
-  course_id: yt-entrepreneur-scientific-method
-  course_type: method
-  level: foundational
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户说"这是科学方法"，但假设不可证伪', 'framework_lens': '伪科学——没有证伪条件', 'follow_up_question': '什么证据会让你放弃这个假设？如果答不上来，这不是科学方法'}
-  - {'signal': '用户只做验证自己假设的实验', 'framework_lens': '证实偏差', 'follow_up_question': '你最近设计的实验中，有几个是为了证伪而不是证实？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-opportunity-selection]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# Y模型/科学方法
+  - pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
+---# Y模型/科学方法
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

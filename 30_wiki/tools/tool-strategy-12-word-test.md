@@ -11,6 +11,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,7 +19,6 @@ source_refs:
   - src_unknown
   - src_unknown
 ---
-
 **8个常见伪战略词**：份额/收入/ROI/预算/对标/SWOT/OKR/数字化——这些是"指标"和"工具"，不是战略
 **4个真战略词**：细分市场/竞争优势/资源配置/范围经济——缺任何一个都不是完整的战略
 **测试**：把公司的"战略文件"里的8个伪战略词全部删掉，剩下的内容<50%→你没有战略，只有目标

@@ -14,6 +14,7 @@ domain:
 - product
 - entrepreneur
 source_refs:
+  - pending_archive:src_20260614_909802bd-智能设备-外卖对接方案讨论
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
 - [[ai-native-im-multi-agent]]
@@ -31,8 +32,7 @@ reviewed_by: 老顽童
 review_date: 2026-06-14
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
----
-# 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
+---# 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 
 > 来源：听脑录音 6009986 + 公开信源六层交叉验证  
 > 置信度：整体 0.95，所有核心陈述均通过六层验证

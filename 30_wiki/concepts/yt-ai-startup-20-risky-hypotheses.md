@@ -20,35 +20,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+  - pending_archive:src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 source_refs:
-  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
-status: enriched
-title: "AI创业20个高风险假设清单"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "机会预判"
-  course_id: yt-ai-startup-20-risky-hypotheses
-  course_type: tool
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '创业者拿着清单逐项检查，但所有20条都标绿', 'framework_lens': '清单成了安慰剂——高风险假设需要被验证而不是被否认', 'follow_up_question': '这20条中，哪3条如果错了会让公司直接死掉？你为它们设计了什么验证实验？'}
-  - {'signal': '团队只关注需求类假设，不验证商业模式和壁垒', 'framework_lens': '五维失衡——清单是系统性的，不能只挑熟悉的看', 'follow_up_question': '你的商业模式假设和壁垒假设分别列了几条？如果少于需求类的一半，分析是失衡的'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[dk-pseudo-demand-trap]]
-- [[case-ai-time-management-tiered-growth]]
-- [[tool-月白-风格不变局部调整]]
-- [[yt-entrepreneur-business-growth]]
-- [[yt-entrepreneur-opportunity-selection]]
----
-# AI创业20个高风险假设清单
+  - pending_archive:src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
+---# AI创业20个高风险假设清单
 
 > 来源：一堂2025《重新理解人工智能》| 烧掉数亿元、几百个AI项目的关键假设总结 | [[yt-ai-trend-12-signals]] | [[yt-entrepreneur-key-hypotheses]]
 

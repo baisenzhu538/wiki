@@ -20,33 +20,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-  - src_20260613_96e45c45-qishijian-business-model
-status: enriched
-title: "Y 型创业模型"
-type: framework
-version: 1
-yitang:
-  map: system
-  module: "方法论总纲"
-  course_type: model
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户只重视实事求是，不敢解放思想', 'framework_lens': '一臂缺失', 'follow_up_question': '你最近一次质疑行业惯例并提出新假设是什么时候？'}
-  - {'signal': '用户只解放思想，不尊重事实', 'framework_lens': '另一臂缺失', 'follow_up_question': '你的新想法有没有经过事实验证？如果没有，只是空想'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[yt-entrepreneur-liberate-thinking]]
-- [[yt-personal-y-model-practice]]
-- [[yt-model-progress-map]]
-- [[ocr-一堂-个人修炼-y模型]]
-- [[yt-entrepreneur-truth-seeking]]
----
-# Y 型创业模型 (Y Model for Startups)
+  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+---# Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
 

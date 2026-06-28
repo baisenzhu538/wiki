@@ -15,6 +15,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -22,8 +23,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 九个常见战略问题
+---# 九个常见战略问题
 
 > 企业出问题，表面上是"业绩不好"，根因往往在这九个问题的某一个。鱼骨图帮你拆解，九问题帮你定位类型。
 

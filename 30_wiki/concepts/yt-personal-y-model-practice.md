@@ -21,34 +21,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
 - src_20260614_842be4c9-一堂-Y模型实操探索营
 source_refs:
-  - src_20260614_842be4c9-一堂-Y模型实操探索营
-status: enriched
-title: "Y模型实操：科学成事的底层操作系统"
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "个人修炼"
-  course_type: explore_camp
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '遇到具体问题时会用Y模型作为元框架，牵出已有知识并生成可验证方案', 'framework_lens': 'Y模型是底层操作系统', 'follow_up_question': '你最近一次用Y模型解决的具体问题是什么？'}
-  - {'signal': '能区分Y模型用于‘事前推演’和‘事后解释’，更重视事前推演', 'framework_lens': 'Y模型的价值在预测', 'follow_up_question': '这个Y模型是在行动前画的，还是成功后补的？'}
-  - {'signal': '能把Y模型应用到至少两个不同领域，并发现通用结构', 'framework_lens': 'Y模型跨域迁移', 'follow_up_question': '这个Y模型在另一个领域中如何表达？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium
-related:
-- [[yt-personal-y-model-exploration-2]]
-- [[yt-model-y-organization]]
-- [[一堂]]
-- [[tool-泛产品落地-解放思想]]
-- [[yt-personal-thinking-models]]
----
-# Y模型实操：科学成事的底层操作系统
+  - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
+---# Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]
 

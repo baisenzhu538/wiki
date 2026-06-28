@@ -19,32 +19,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+  - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 source_refs:
-  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
-status: enriched
-title: "规模经济分析武器库"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "壁垒"
-  course_id: yt-scale-economy-weapon-library
-  course_type: tool
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '能画出业务的费用结构金字塔，区分固定/变动/半变动成本', 'framework_lens': '成本结构是规模经济的基础', 'follow_up_question': '随规模扩大，哪类成本会被摊薄？'}
-  - {'signal': '能识别业务中随规模变好、变差、不变的环节', 'framework_lens': '规模效应是环节级现象', 'follow_up_question': '你的业务链条上，哪个环节规模效应最强？'}
-  - {'signal': '会与同行业或相似行业对比，判断自身规模效应位置', 'framework_lens': '规模效应需要参照', 'follow_up_question': '与行业龙头相比，你的单位成本曲线差距在哪里？'}
-updated_at: 2026-06-16
-author: "老顽童"
-related:
-- case-ether-online-acquisition
----
-# 规模经济分析武器库
+  - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+---# 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

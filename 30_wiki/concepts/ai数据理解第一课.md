@@ -5,6 +5,7 @@
 title: AI数据理解第一课
 type: concept
 source_refs:
+  - pending_archive:src_20260601_ba8ea2f0-ai数据理解第一课
 - src_20260601_ba8ea2f0-ai数据理解第一课
 status: enriched
 domain:
@@ -31,8 +32,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium# AI数据理解第一课
----
-> **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。
+---> **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。
 
 
 

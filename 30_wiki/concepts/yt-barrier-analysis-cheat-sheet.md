@@ -27,6 +27,10 @@ related:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
+  - pending_archive:src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
+  - pending_archive:src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
+  - pending_archive:src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
+  - pending_archive:src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
 - src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
 - src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
 - src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
@@ -49,8 +53,7 @@ diagnostic_signals:
   - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}
 updated_at: 2026-06-16
 author: "老顽童"
----
-# 壁垒分析完整cheatsheet
+---# 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]
 

@@ -15,6 +15,9 @@ scale: 团队 / 公司
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
 source_refs:
+  - pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
+  - pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
+  - pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
 - src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
 - src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
@@ -47,8 +50,7 @@ diagnostic_signals:
     follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
   - lens: 领域知识层缺失或不足
     follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
----
-# 案例：一堂数据库 vs SQLHelper
+---# 案例：一堂数据库 vs SQLHelper
 
 > **原始表述**：
 > "一堂业务复杂度高，需要完整的导诊台路由：开发任务、debug任务、运维任务、运营SOP任务、新需求讨论、面向前端的文档撰写……SQL-Helper 是封闭任务，目标单一——把用户问题翻译成合适的 SQL，**不需要导诊台**。"

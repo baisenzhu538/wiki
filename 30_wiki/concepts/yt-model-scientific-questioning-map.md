@@ -19,33 +19,11 @@ query_triggers:
   - src_unknown
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
-  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-status: enriched
-title: "科学提问刻意练习地图"
-type: framework
-version: 1
-yitang:
-  map: personal
-  module: "提问能力"
-  course_type: model
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户不知道自己在提问能力的哪个段位', 'framework_lens': '无段位诊断', 'follow_up_question': '按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识'}
-  - {'signal': '用户只在舒适区提问，不挑战更难场景', 'framework_lens': '不进入非舒适区', 'follow_up_question': '你最近一次处理Level 3难度的提问场景是什么时候？'}
-updated_at: 2026-06-13
-author: "老顽童"
-trust_level: medium-high
-related:
-- [[ocr-一堂-个人修炼-提问刻意练习画布]]
-- [[ocr-一堂-个人修炼-科学提问刻意练习]]
-- [[yt-entrepreneur-research-camp]]
-- [[yt-model-ipo-learning-strategy]]
-- [[yt-model-questioning-practice-canvas]]
----
-# 科学提问刻意练习地图
+  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+---# 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]
 

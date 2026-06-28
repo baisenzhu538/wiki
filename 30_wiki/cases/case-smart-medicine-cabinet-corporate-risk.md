@@ -9,6 +9,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
 - src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
 created_at: 2026-06-15
 updated_at: 2026-06-17
@@ -25,8 +26,7 @@ related:
 - [[yt-management-founder-role]]
 source_person: 王语嫣
 source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证# 知识卡草稿：智能药柜推广项目 · 公司/股权/资金风险
----
-**卡片编号**：kc_itingnao_corporate-risk  
+---**卡片编号**：kc_itingnao_corporate-risk  
 **主题**：公司资金、股权架构、合作模式、法律合规风险  
 **来源**：6 条听脑录音原文 + 纪要（1422729 / 4376859 / 4873420 / 4785075 / 4880681 / 8020205）  
 **置信度**：高-中（基于录音自述与纪要）；部分为单方计划/估算，需进一步核验  

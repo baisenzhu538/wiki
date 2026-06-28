@@ -2,8 +2,7 @@
 id: dogfood-dk-indent
 type: dk
 domain: [test]
----
-## 原始表述
+---## 原始表述
 内容
 
   ## 使用场景

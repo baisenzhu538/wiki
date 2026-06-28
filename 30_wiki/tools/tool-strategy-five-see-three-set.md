@@ -15,6 +15,7 @@ language: zh-CN
 domain:
 - strategy
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -22,8 +23,7 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
-# 华为五看三定
+---# 华为五看三定
 
 > 五看三定是BRM框架中"战略规划"环节的实战工具。源自IBM BLM，被华为深度适配后成为中国企业最常用的战略规划方法之一。
 

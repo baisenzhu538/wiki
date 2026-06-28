@@ -23,33 +23,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
-  - src_20260614_720e62a1-theme-personal-growth-summary
-status: enriched
-title: "业务增长"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "业务增长"
-  course_id: yt-entrepreneur-business-growth
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户验证完模式后立刻大规模投放', 'framework_lens': '跳过增长单元模型验证', 'follow_up_question': '你的增长单元模型（获客成本、转化率、客单价、LTV）已经稳定了吗？如果没有，规模化是烧钱'}
-  - {'signal': '用户把增长等同于砸钱买量', 'framework_lens': '增长理解狭隘', 'follow_up_question': '除了买量，你的增长飞轮、裂变机制、渠道矩阵在哪里？'}
-related:
-- [[yt-business-formula-business-pattern-selector]]
-- [[yt-entrepreneur-five-step-method]]
-- [[yt-model-entrepreneur-map]]
-updated_at: 2026-06-16
-author: "老顽童"
----
-# 业务增长
+  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+---# 业务增长
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

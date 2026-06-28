@@ -9,6 +9,9 @@ domain:
 source_person: Truman
 source_context: 一堂关键假设课
 source_refs:
+  - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
+  - 00_inbox/一堂-关键假设课-truman-口述.txt
+  - 00_inbox/一堂-关键假设课-truman-笔记.txt
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
 - 00_inbox/一堂-关键假设课-truman-口述.txt
   - 00_inbox/一堂-关键假设课-truman-笔记.txt
@@ -49,8 +52,7 @@ diagnostic_signals:
   follow_up: 前置假设被否定=业务需终止或重大调整，立即复盘
 - lens: 价值/增长假设混淆
   follow_up: 先验证价值假设，再验证增长假设，顺序不可颠倒
----
-# 技能：假设验证三板斧
+---# 技能：假设验证三板斧
 
 ## Summary
 

@@ -11,6 +11,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+  - pending_archive:src_20260613_90085bca-itingnao-deep-dive-supply-chain
 - src_20260613_90085bca-itingnao-deep-dive-supply-chain
 created_at: 2026-06-15
 updated_at: 2026-06-15
@@ -24,8 +25,7 @@ related:
 - [[case-toc-ecommerce-formula-misjudgment]]
 - [[dk-ef-003-hand-soldering-bom-divergence]]
 - [[yt-lean-assumption-prioritization]]
----
-- [[yt-lean-beauty-store-conversion]]
+---- [[yt-lean-beauty-store-conversion]]
 
 # 智能药柜供应链/技术交叉验证（知识卡草稿）
 

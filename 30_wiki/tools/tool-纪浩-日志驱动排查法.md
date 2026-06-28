@@ -10,6 +10,9 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
+  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+  - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
 - 00_inbox/纪浩-AI协作方法论-口述.md
   - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
@@ -43,8 +46,7 @@ diagnostic_signals:
   follow_up: 无论成败都必须生成日志。没有日志的执行等于没有发生过
 - lens: 信息孤岛
   follow_up: 日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录
----
-# 技能：日志驱动排查法
+---# 技能：日志驱动排查法
 
 ## 原始表述
 

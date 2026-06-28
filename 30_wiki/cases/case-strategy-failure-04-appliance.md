@@ -10,6 +10,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
   - src_unknown
 updated_at: 2026-06-28
----
-**表面问题**：空调之外的新品类全部失败
+---**表面问题**：空调之外的新品类全部失败
 **战略根因**：路径错误——靠渠道优势推新品，但缺乏核心研发能力。渠道能卖空调，不代表能卖其他家电
 **问题类型**：九问题 #4 路径错误
 **教训**：复制成功路径之前先问：这个路径依赖的能力是可迁移的吗？

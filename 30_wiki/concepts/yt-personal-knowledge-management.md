@@ -24,37 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 source_refs:
-  - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
-status: enriched
-title: "知识管理"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: personal
-  module: "知识管理"
-  course_id: 405
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '笔记系统有明确的捕获→组织→激活三阶段流程', 'framework_lens': '知识管理是流程，不是存储', 'follow_up_question': '你最近一次‘激活’旧知识是什么时候？'}
-  - {'signal': '笔记是原子化的，每张卡有一个独立主题，并与其他卡双向链接', 'framework_lens': '网络结构优于树状结构', 'follow_up_question': '这张卡能否独立理解？它与哪些卡互相关联？'}
-  - {'signal': '会定期进行检索练习或知识复用，而不是只收集', 'framework_lens': '知识的价值在于调取', 'follow_up_question': '过去30天，你主动调取过多少张旧卡？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-personal-time-management]]
-- [[yt-personal-inspiration-flash]]
-- [[yt-personal-ipo-learning]]
-- [[yt-personal-deep-review]]
-- [[yt-personal-scientific-expression]]
----
-# 知识管理
+  - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+---# 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

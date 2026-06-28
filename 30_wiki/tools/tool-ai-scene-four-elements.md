@@ -12,6 +12,7 @@ domain:
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
+  - pending_archive:src_20260606_ef4877d0-所以90的核心问题
 - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
 - src_unknown
@@ -34,8 +35,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
----
-# 技能：AI落地场景四要素评估法
+---# 技能：AI落地场景四要素评估法
 
 > **来源**：马易（AI俱乐部-AI落地场景识别-口述）
 > **核心**：评估一个场景是否适合AI落地，看四个要素：有容错、有方法、有数据、有判断。缺一不可。

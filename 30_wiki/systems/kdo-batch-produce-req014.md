@@ -6,7 +6,8 @@ title: REQ-014 批量 Produce 12 篇 Enriched 页面技术说明
 author: 黄药师 (Builder)
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
-source_refs: []
+source_refs:
+  - src_unknown []
 role: Knowledge Builder
 created_at: '2026-05-04'
 status: proposed
@@ -26,8 +27,7 @@ related:
 - [[plan_20260501_05858800-improvement-plan]]
 - [[plan_20260501_97170532-improvement-plan]]
 - [[plan_20260503_f3e9a2b1-improvement-plan]]
----
-# REQ-014 批量 Produce 12 篇 Enriched 页面
+---# REQ-014 批量 Produce 12 篇 Enriched 页面
 
 > 将 12 篇已 enrich 但尚未 produce 的 wiki 页面，每篇生成一个交付级产出物（article），写入 `40_outputs/content/articles/`，更新 state.json，记录到 delivery-registry。
 

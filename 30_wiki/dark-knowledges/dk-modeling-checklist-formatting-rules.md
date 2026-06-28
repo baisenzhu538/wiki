@@ -11,6 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
+  - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
@@ -48,8 +49,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
----
-## 原始表述
+---## 原始表述
 
 > 我能接受的是但凡你遇到了换行，但凡换行就有分解……超过七八个就分层……优先级，遇到决策就分级……建模要完备。
 

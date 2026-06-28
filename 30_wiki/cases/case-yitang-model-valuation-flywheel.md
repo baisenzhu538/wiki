@@ -11,6 +11,7 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
+  - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
@@ -43,8 +44,7 @@ related:
 - [[dk-yb7-design-demand-80-10-10]]
 - [[yt-management-scientific-decision]]
 - [[dk-yb25-solution-driven-visual-design]]
----
-# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
+---# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述
 

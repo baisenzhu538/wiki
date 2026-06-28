@@ -9,6 +9,7 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
+  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
 - src_unknown
   - src_unknown
   - src_unknown
@@ -18,8 +19,7 @@ source_refs:
   - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
----
-**切入**：农夫山泉/怡宝/康师傅三分天下→凉白开从"高考生"这个被所有人忽略的场景切入
+---**切入**：农夫山泉/怡宝/康师傅三分天下→凉白开从"高考生"这个被所有人忽略的场景切入
 **结果**：2年30亿
 **核心洞察**：细分垄断不是"选一个小市场"，是"选一个大市场里所有人都忽略的入口"
 

@@ -24,36 +24,11 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+  - pending_archive:src_20260522_9d98d526-business-analysis
 - src_20260522_9d98d526-business-analysis
 source_refs:
-  - src_20260522_9d98d526-business-analysis
-status: enriched
-title: "集中度分析"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "集中度分析"
-  course_id: yt-entrepreneur-concentration-analysis
-  course_type: method
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户用集中度判断行业好坏，但忽视自己定位', 'framework_lens': '行业属性≠企业策略', 'follow_up_question': '你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策'}
-  - {'signal': '用户认为高集中度行业就不能进', 'framework_lens': '过度简化', 'follow_up_question': '高集中度行业里有没有被忽视的细分市场或差异化角度？'}
-updated_at: 2026-06-13
-author: "老顽童"
-related:
-- [[yt-entrepreneur-barriers]]
-- [[yt-entrepreneur-growth-flywheel]]
-- [[yt-entrepreneur-fundraising]]
-- [[yt-entrepreneur-pragmatic-startup]]
-- [[yt-entrepreneur-opportunity-selection]]
----
-# 集中度分析
+  - pending_archive:src_20260522_9d98d526-business-analysis
+---# 集中度分析
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

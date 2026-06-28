@@ -9,6 +9,7 @@ domain:
   - src_unknown
   - src_unknown
 source_refs:
+  - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - src_unknown
@@ -42,8 +43,7 @@ diagnostic_signals:
     follow_up_question: 科室主任、设备科、分管院长、招标办、财务各自的决策标准和关键动作是什么？
   - framework_lens: 关键假设检验与复盘
     follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
----
-> 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。
+---> 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。
 
 ---
 

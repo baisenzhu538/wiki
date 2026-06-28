@@ -10,6 +10,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
+  - pending_archive:src_20260428_db49a647-鑫港湾his系统分阶段整改报告
 - src_20260428_db49a647-鑫港湾his系统分阶段整改报告
 status: enriched
 title: 鑫港湾HIS系统分阶段整改报告
@@ -27,8 +28,7 @@ related:
 - [[街顺app全面调研报告]]
 - [[保达云诊所深度调研报告]]
 - [[HIS系统深度调研]]
----
-- [[紫鲸ai智能体工作流平台]]
+---- [[紫鲸ai智能体工作流平台]]
 
 # 鑫港湾HIS系统分阶段整改报告
 

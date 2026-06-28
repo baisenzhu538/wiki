@@ -11,6 +11,7 @@ tags:
 - src_unknown
 - src_unknown
 source_refs:
+  - pending_archive:src_20260531_ai-data-understanding
 - src_20260531_ai-data-understanding
 created_at: 2026-05-31
 updated_at: '2026-06-16'
@@ -22,8 +23,7 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----
-# Data Curator Skill 实施方案 v1.1
+---# Data Curator Skill 实施方案 v1.1
 
 ## 版本变更记录
 

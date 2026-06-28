@@ -9,6 +9,9 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
+  - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
+  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
@@ -48,8 +51,7 @@ diagnostic_signals:
   follow_up: 每次测试后必须做结构化复盘，记录假设验证状态，盘的频率决定迭代速度
 - lens: 假负当真负
   follow_up: 区分产品价值验证和营销效果验证，是两件事
----
-# 技能：聊问查测盘五步验证法
+---# 技能：聊问查测盘五步验证法
 
 ## Summary
 
