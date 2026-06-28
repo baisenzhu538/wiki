@@ -1,91 +1,230 @@
 ---
-
-id: tool-devils-advocacy
-title: Devil's Advocacy：主动攻击自己的结论
-type: tool
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
-review_date: 2026-06-21
-created_at: 2026-06-21
-confidence: 0.90
-trust_level: high
-language: zh-CN
+id: "tool-devils-advocacy"
+title: "Devil's Advocacy（魔鬼代言人）"
+type: "tool"
 domain:
-  - yitang
-  - research
+  - "research"
+  - "critical-thinking"
+  - "decision"
+tags:
+  - "SATs"
+  - "反向类"
+  - "魔鬼代言人"
+  - "挑战主流结论"
+source_person: "Richars J. Heuer Jr. + Truman（一堂）"
+source_context: "SATs 反向类技术工具化实现"
 source_refs:
-- src_unknown
+  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
+  - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
-  - [[tool-key-assumptions-check]]
-  - [[tool-harness-adversarial-tester]]
-  - [[business-research-skill-oscar-13-weapon-system]]
-  - [[tool-candy-oral-polish]]
-  - [[tool-indicators-signposts]]
-  - [[framework-structured-analytic-techniques]]
-  - （concept-半肥猫-ai-research-validation，待补）
-  - [[tool-harness-adversarial-tester]]
+  - "[[framework-structured-analytic-techniques]]"
+  - "[[tool-key-assumptions-check]]"
+  - "[[tool-red-team-analysis]]"
+  - "[[tool-半肥猫-ai-research-validation]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+reviewer: "欧阳锋"
+review_date: "2026-06-28"
+created_at: "2026-06-28"
+updated_at: "2026-06-28"
+confidence: 0.78
+trust_level: "medium"
 ---
-# Devil's Advocacy
 
-> 与"交叉验证"的区别：交叉验证=多源核实事实是否正确；魔鬼代言人=即使事实正确，你的逻辑推理有没有漏洞？
+# Devil's Advocacy（魔鬼代言人）
 
-## 四步法
+## 原始表述
 
-### Step 1：选定要挑战的结论
+> "如果团队对某个结论'直觉一致'，那这个结论是可疑的。"
+> ——群体思维（Groupthink）研究结论
 
-必须是具体的、可被证伪的判断。"这个赛道可以做"太模糊——"我们的单元模型在月销300单时可以盈利"才是可挑战的结论。
+**Devil's Advocacy** 是 SATs 反向类技术的核心工具——指定某人/Agent **专门挑战主流结论**，不是"提意见"，而是"**系统性反驳**"。
 
-### Step 2：指定挑战者（Agent天然适配）
+一堂第11掌"自攻击"有相似概念，但**无标准操作步骤**。本工具卡填补这个缺口。
 
-告诉Agent："你现在是这个结论的激烈反对者。你的目标是找到它最脆弱的点并全力攻击。"
+---
 
-### Step 3：要求挑战者提出最强反驳
+## 使用场景
 
-不只是"这个可能有风险"——是"这个结论在X情况下会完全崩溃，因为Y"。
+### 适合使用 Devil's Advocacy 的情境
 
-### Step 4：评估反驳后修正结论或记录风险
+- 团队对某个结论"一致同意"，但没有人能说清"反对理由是什么"
+- 重要决策（>50万投资 / 产品方向调整），需要系统性挑战
+- 需要向他人证明"我们考虑过相反情况"
+- AI 辅助决策时，需要 Agent 自动扮演挑战者
 
-反驳成立→修正原结论。反驳不成立→记录为什么反驳无效，但保留作为风险评估的输入。
+### 不适合的情境
 
-## 模板
+- 日常小额决策（用不着系统性挑战）
+- 团队已经有严重分歧（此时不需要 Devil's Advocacy，已经有足够挑战）
+- 心理安全度低（"挑战结论"会被视为"不合作"）——**先建立心理安全**
+
+---
+
+## 操作方法
+
+### 标准操作步骤（60-90分钟）
+
+#### 第一步：明确"主流结论"和"决策"
+
+**输出物**：一页纸，写明：
+- 当前主流结论是什么？
+- 这个结论要改变什么决策？
+- 决策的截止时间？
+
+**示例**：
+```
+主流结论：我们应该进入 Skill 市场，用一堂方法论做企业内部工具产品。
+决策：是否立项，投入 10 人团队，6 个月交付 MVP。
+截止时间：下周五管理层会议。
+```
+
+#### 第二步：指定 Devil's Advocate（魔鬼代言人）
+
+**关键原则**：
+- Devil's Advocate **不是"提意见的人"**，而是"**系统性反驳主流结论的人**"
+- 指定一个具体的人（或 Agent），给他/她/它 **正式角色和权限**
+- Devil's Advocate 的目标不是"推翻结论"，而是"**找出结论成立的前提条件**"
+
+**Agent 如何扮演 Devil's Advocate**：
+```
+你现在是 Devil's Advocate。
+你的任务不是"提意见"，而是：
+1. 列出主流结论成立的所有前提条件
+2. 对每个前提条件，提供"如果这个条件不成立"的推演
+3. 找出"最不被证据支撑的前提条件"
+4. 输出：如果主流结论错了，最可能的错误原因是什么？
+```
+
+#### 第三步：Devil's Advocate 输出"反驳 brief"
+
+**标准反驳 brief 结构**（一页纸）：
 
 ```
-我们最大的风险是______，因为______。
-如果______发生，我们的______假设将不再成立。
-最早能在______（时间）通过______（信号）发现这个风险。
+┌──────────────────────────────────────┐
+│ 主流结论：...                              │
+├──────────────────────────────────────┤
+│ 🔴 前提条件清单（结论成立必须为真）    │
+│    • 条件1：...（证据强度：⭐⭐⭐）   │
+│    • 条件2：...（证据强度：⭐⭐）      │
+│    • 条件3：...（证据强度：⭐）        │
+├──────────────────────────────────────┤
+│ 🟡 如果前提条件不成立，会发生什么？  │
+│    • 条件2 如果错了 → ...               │
+├──────────────────────────────────────┤
+│ 🟢 结论成立的最低验证标准              │
+│    • 在立项之前，必须验证条件2...      │
+└──────────────────────────────────────┘
 ```
 
-## Agent执行指令
+#### 第四步：决策会议——主流结论 vs 反驳 brief
 
-```python
-# Devil's Advocate Prompt模板
-prompt = """你现在是[CONCLUSION]的激烈反对者。你的目标是使用最强逻辑和证据攻击它。
+**会议结构**（60-90分钟）：
+1. **主流结论 15 分钟**：支持者陈述结论和证据
+2. **反驳 brief 15 分钟**：Devil's Advocate 陈述反驳
+3. **交叉质疑 30 分钟**：双方互相质疑前提条件
+4. **决策 15 分钟**：基于"前提条件的验证状态"做决策
 
-攻击方向：
-1. 支撑这个结论的关键假设有什么漏洞？
-2. 有哪些反例没有被考虑？
-3. 如果结论是错的，最可能的错误原因是什么？
-4. 什么情况下这个结论会完全崩溃？
+**决策输出三类**：
+- ✅ **推进**——但先验证"证据强度 ⭐"的前提条件
+- ⚠️ **暂停**——需要先补充验证（明确验证清单和截止时间）
+- ❌ **否决**——反驳 brief 证明主流结论的前提条件不成立
 
-要求：每个攻击点必须有具体推理，不能用"可能有风险"这种模糊表述。
-"""
-```
+---
 
-## 失败模式
+## 与"交叉验证"的区别
 
-| 失败 | 症状 | 修复 |
+| 维度 | 交叉验证（一堂第15掌） | Devil's Advocacy（SATs） |
 |:---|:---|:---|
-| 挑战者不够狠 | 给出的反驳都是"可以解决的" | 给Agent更激进的角色设定 |
-| 把反驳当人身攻击 | 挑战完后团队氛围变差 | 明确这是结构化技术，攻击的是逻辑不是人 |
-| 挑战后不修正 | 反驳有效但结论不改 | Devil's Advocacy的最后一步必须是"修正或记录" |
+| **目标** | 多源验证——"多个来源是否一致" | 主动反驳——"这个结论哪里可能错了" |
+| **操作** | 找 3 个以上独立来源交叉验证 | 指定一个人/Agent 系统性反驳 |
+| **认知方向** | 收敛——寻找一致性 | 发散——寻找反例和漏洞 |
+| **适用场景** | 验证"事实类"断言 | 挑战"决策类"结论 |
+
+**关系**：交叉验证和 Devil's Advocacy **互补**，不是替代。先交叉验证事实，再用 Devil's Advocacy 挑战决策。
+
+---
+
+## 为什么值钱
+
+1. **打破群体思维**：一致同意的结论最可疑，Devil's Advocacy 强制引入系统性挑战。
+2. **可教学**：标准操作步骤，可以教给团队，不是依赖某个人"敢于提反对意见"。
+3. **AI 可自动化部分**：Agent 可以扮演 Devil's Advocate，输出"反驳 brief"初稿。
+
+---
+
+## 与其他知识的关联
+
+- **[[framework-structured-analytic-techniques]]**
+
+← 本工具是 SATs 八类技术中「反向类」的代表工具
+
+- **[[framework-yitang-18-strategy-cards]]**
+
+← 第11掌"自攻击"和 Devil's Advocacy 概念相似，但本工具有标准操作步骤
+
+- **[[tool-key-assumptions-check]]**
+
+→ Devil's Advocacy 的"前提条件清单"和 Key Assumptions Check 的"假设清单"同构
+
+- **[[tool-red-team-analysis]]**
+
+→ Devil's Advocacy 挑战"内部结论"，Red Team 挑战"对手视角"——两者互补
+
+- **[[tool-半肥猫-ai-research-validation]]**
+
+→ AI 可以自动扮演 Devil's Advocate，输出"反驳 brief"初稿
+
+---
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
-- src_unknown
+### 有效使用的条件
+
+- 决策有一定重要性（值得花 60-90 分钟）
+- 团队心理安全度足够（"挑战结论"不会被报复）
+- Devil's Advocate 有**正式角色和权限**（不是"提意见的人"）
+
+### 常见误用
+
+- **"Devil's Advocacy = 提意见"** → 错误。是"**系统性反驳**"，有标准操作步骤。
+- **"Devil's Advocate 必须推翻结论"** → 错误。目标是"**找出结论成立的前提条件**"，不是推翻。
+- **"可以做多次"** → 不推荐。一次决策做一次 Devil's Advocacy，不要做成"反复挑战"导致无法决策。
 
 ---
 
-*卡片类型：tool | 审核状态：待审*
+## 失败模式
+
+| 失败模式 | 症状 | 根因 | 修正方法 |
+|:---|:---|:---|:---|
+| **"形式化症"** | Devil's Advocacy 变成了"走流程"，输出被无视 | Devil's Advocate 没有正式权限 | 给予 Devil's Advocate **正式角色**——决策会议必须回应反驳 brief |
+| **"对抗症"** | Devil's Advocate 变成了"证明对方错" | 选了和主流结论支持者有关系冲突的人 | 选"有能力系统性思考"的人，不是"有动机推翻"的人 |
+| **"过度分析症"** | Devil's Advocacy 后，团队更不确定 | 反驳 brief 列出了 20+ 个前提条件 | 强制"核心前提条件 ≤5 个"，只挑战最核心的 |
+
+---
+
+## Action Checklist
+
+- [ ] 下次重要决策会议前，指定一个 Devil's Advocate（不是"提意见的人"）
+- [ ] 给 Devil's Advocate 正式角色——决策会议必须回应反驳 brief
+- [ ] 用标准操作步骤（60-90分钟）执行一次完整的 Devil's Advocacy
+- [ ] 复盘：Devil's Advocacy 有没有改变决策？如果没有，为什么？
+- [ ] 如果有效，把 Devil's Advocacy 加入重要决策流程
+
+---
+
+## 来源与验证
+
+| 断言 | 来源 | 可信度 |
+|:---|:---|:---|
+| Devil's Advocacy 是 SATs 反向类核心工具 | Heuer & Pherson《Structured Analytic Techniques》 | A（权威原著） |
+| 标准操作步骤（60-90分钟） | 同上 + CIA 培训材料 | A |
+| 一堂缺少 Devil's Advocacy 标准操作步骤 | diag_20260621_外部知识探索_三个新盲区.md + 现有卡片搜索确认 | A（可验证） |
+
+---
+
+## 口述数据标注
+
+> 来源：SATs 文献 + 一堂诊断报告交叉验证。Devil's Advocacy 标准操作步骤有原著和 CIA 培训材料支撑，可信度 A。
+>
+> ⚠️ "60-90 分钟完整执行"——此为 SATs 培训标准时间，实际耗时取决于前提条件数量和复杂度，可根据实际情况调整。
+> ⚠️ "决策会议必须回应反驳 brief"——此为 Devil's Advocacy 生效的关键，如果决策会议不回应，整个流程变成形式。

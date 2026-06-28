@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：欧阳锋完成 wave4 终审（15/15 reviewed）；wave5 已解锁，WorkBuddy 可开始生产；黄药师继续 P-6 research skill 适配；队列锁已上线"
+active_task: "综合安排（2026-06-28）：欧阳锋完成 wave4 终审（15/15 reviewed）；wave5 pending_review 待欧阳锋终审；Hermes 领取 lint 基线清理 Batch 1（659 个 frontmatter 机械错误）；黄药师继续 P-6 research skill 适配；队列锁已上线"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -16,9 +16,10 @@ blockers:
   - "✅ 欧阳锋完成第八批 dk 清零终审（2026-06-28）：10/10 张 dk 卡通过，`kdo pre-submit` 10/10 通过；`dark-knowledges/` 目录 lint ERROR 从 14 降至 0；审查中修复 4 张卡格式问题；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；全库 lint ERROR 降至 519；wave4 已完全解锁"
   - "✅ 欧阳锋完成渠道增长域 case section 标准化终审（2026-06-28）：11/11 文件通过，`kdo lint` 0 ERROR；1 处标题序号问题已现场修复；任务单 assignee 已修正为 Kimi 老顽童（实际完成）"
   - "✅ 欧阳锋确认 O-1 工作模式调整提案（2026-06-28）：审查角色有条件同意（低风险维持通过/退回，高风险/新域用风险标记+对比视图）；卡片三层化同意（先接口层后上下文层）；找老的干小的同意（P0 机械检查优先，P2 判断后置）；先投放再精修原则同意从 wave5 试点 `deploy_status: live`；O-1 已内化至 `.agent/ouyangfeng-context.md`，成为欧阳锋后续审查的默认工作模式"
-  - "🆕 Hermes 老顽童进入 wave4 正式生产（2026-06-28）：wave3 + 第八批 dk 清零均 reviewed，wave4 依赖解除；Hermes 从'读素材做准备'转为'正式生产'"
-  - "🆕 wave5 预分配给 WorkBuddy 老顽童（2026-06-28）：wave5 当前 queued，等 wave4 完成后由 WorkBuddy 启动生产；Hermes 专心完成 wave4"
+
+  - "🆕 wave5 预分配给 WorkBuddy 老顽童（2026-06-28）：wave5 当前 pending_review，WorkBuddy 已完成 12/12 卡生产，`kdo pre-submit` 全部通过；欧阳锋审查任务单已创建，待终审"
   - "✅ 欧阳锋完成 wave4 终审（2026-06-28）：15/15 张卡通过，`kdo pre-submit` 15/15 通过，`kdo lint` 目标卡无新增 ERROR；4.1 调研方法论域 8 张新卡 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；4.2 Master 域 7 张卡 domain 修正为 master，正文 src_unknown 占位清理；`production-queue.md` 任务 #8、`dashboard.md`、`60_feedback/tasks/review_20260628_ouyangfeng-wave4.md` 状态同步更新为 reviewed；wave5 已解锁"
+  - "🆕 Hermes 老顽童领取 lint 基线清理 Batch 1（2026-06-28）：从 697 个 lint ERROR 中挑出 659 个可机械修复的 frontmatter 错误，已入 `production-queue.md` 队列第 10 项；任务单 `60_feedback/tasks/task_20260628_hermes-lint-baseline-cleanup-batch1.md`；预期将全库 lint ERROR 降至约 128；不处理 128 个需内容判断的 unsafe 文件"
   - "🆕 角色停车场机制上线（2026-06-28）：黄药师的'停车场清单'工作方式推广到全角色；已创建 `parking-lot-huangyaoshi.md` 和 `parking-lot-ouyangfeng.md`；`dashboard.md` 增加'角色停车场'汇总区块；P-1/P-6 已移入当前任务清单"
   - "✅ 黄药师完成 P0 任务（2026-06-28）：M-确认检测器稳定运行；KF-021 完成 188 个 source_refs hash 前缀→完整文件名（0 歧义，lint 522→519）；Task Q 出链门禁上线（Synthesis <2 links WARN + 跨域检测 WARN）"
   - "✅ 黄药师完成 P-1 query 分层排序（2026-06-28）：`kdo query` 实现 Core→Extended→Reference 三层排序；Core 为 domains/frameworks/systems 目录卡，Extended 为 tools/concepts/cases/dk，Reference 为 raw/_archive/trust_low；Graph RAG 和 BM25 两条路径及 `--save` 输出均生效"

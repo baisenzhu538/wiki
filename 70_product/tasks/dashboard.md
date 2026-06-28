@@ -60,14 +60,14 @@ updated: 2026-06-27
 
 ## Summary
 
-- **Total**: 36
+- **Total**: 37
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 6（详见 `production-queue.md`）
+- **Queued**: 7（详见 `production-queue.md`）
 - **Pending**: 1
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
-> 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。
+> 老顽童当前待生产任务约 98-99 张卡 + 659 个 lint frontmatter 机械错误：历史批量工单 62 张 + 新域任务 36-37 张 + lint 基线清理 659 文件。统一队列见 `production-queue.md`。
 
 ---
 
@@ -81,7 +81,7 @@ updated: 2026-06-27
 | 黄药师 | `parking-lot-huangyaoshi.md` | 4 | 0 | 1 | 3 | 2026-06-28 |
 | 欧阳锋 | `parking-lot-ouyangfeng.md` | 1 | 0 | 1 | 0 | 2026-06-28 | O-1 已确认，待升级实施 |
 | 王语嫣 | — | 0 | 0 | 0 | 0 | — |
-| 老顽童 | — | 0 | 0 | 0 | 0 | — |
+| 老顽童 | `task_20260628_hermes-lint-baseline-cleanup-batch1.md` | 1 | 0 | 1 | 0 | 2026-06-28 | lint 基线清理 Batch 1：659 个 frontmatter 机械错误待 Hermes 处理 |
 | 洪七公 | — | 0 | 0 | 0 | 0 | — |
 | 段王爷 | — | 0 | 0 | 0 | 0 | — |
 
