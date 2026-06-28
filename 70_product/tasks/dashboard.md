@@ -62,12 +62,12 @@ updated: 2026-06-27
 
 - **Total**: 37
 - **Done**: 23
-- **In Progress**: 1（Hermes lint 基线清理 Batch 1）
+- **In Progress**: 0
 - **Queued**: 6（详见 `production-queue.md`）
-- **Pending**: 1
+- **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
-> 老顽童当前待生产任务约 98-99 张卡 + lint 基线清理 Batch 1 已完成机械修复：历史批量工单 62 张 + 新域任务 36-37 张；lint ERROR 从 697 降至 690（frontmatter parse 类 ERROR 已清零），剩余 690 个为内容/section/source_refs 类错误，需后续任务处理。
+> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零，`kdo lint` 剩余 890 个内容/section/source_refs/URL 类错误，待王语嫣拆分为后续任务。
 
 ---
 
