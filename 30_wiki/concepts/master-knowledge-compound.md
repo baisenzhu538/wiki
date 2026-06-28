@@ -16,20 +16,19 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.92
-trust_level: high
+confidence: 0.78
+trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - '[[master-ai-info-literacy]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-antifragile-checklist]]'
 
----# 知识复利：IPO+萃取+管理的上位整合
+---
+
+# 知识复利：IPO+萃取+管理的上位整合
 
 > **核心定位**：当发现"学了但用不上"或"知识碎片化无法整合"时，检查你的知识是否在产生复利。**不是"学得多"，是"学得能互相放大"**。**使用顺序**：位于#3第一性原理和#4系统思考之后——先理解本质和连接，再建立复利循环。
 

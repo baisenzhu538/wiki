@@ -67,3 +67,21 @@ updated: 2026-06-27
 - **Review Done**: 12 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。
+
+---
+
+## 角色停车场
+
+> 各角色在主线任务中产生的不阻塞当前主线的洞察、改进点、待讨论方案。
+> 机制说明：每月清理一次，P1/P2 超过 30 天未动强制 review，长期不做的标记 `已拒绝`。
+
+| 角色 | 停车场文件 | 总数 | P0 | P1 | P2 | 最近更新 |
+|:---|:---|---:|---:|---:|---:|:---|
+| 黄药师 | `parking-lot-huangyaoshi.md` | 6 | 0 | 3 | 3 | 2026-06-28 |
+| 欧阳锋 | `parking-lot-ouyangfeng.md` | 1 | 0 | 1 | 0 | 2026-06-28 |
+| 王语嫣 | — | 0 | 0 | 0 | 0 | — |
+| 老顽童 | — | 0 | 0 | 0 | 0 | — |
+| 洪七公 | — | 0 | 0 | 0 | 0 | — |
+| 段王爷 | — | 0 | 0 | 0 | 0 | — |
+
+> 新停车场任务由各角色自行维护。王语嫣每月组织一次 5 分钟停车场 review，决定是否升级进入 `production-queue.md`。
