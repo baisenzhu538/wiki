@@ -6,7 +6,7 @@ type: dk
 domain:
 - decision-science
 - yitang
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -23,6 +23,8 @@ related:
   - [[dk-决策经验值]]
   - [[concept-稀缺机会窗口]]
   - [[case-科学决策-深度案例03]]
+  - [[framework-lean-false-model]]
+  - [[concept-AI时代双三角竞争力]]
 ---
 
 # 何时应该推迟决策
