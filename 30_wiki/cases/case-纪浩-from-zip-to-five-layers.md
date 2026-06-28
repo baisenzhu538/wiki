@@ -1,6 +1,4 @@
 ---
-
-
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
@@ -27,7 +25,7 @@ related:
   - src_unknown
   - src_unknown
 created_at: 2026-06-08
-updated_at: '2026-06-17'
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -182,3 +180,10 @@ L5 Skills Market（规模复用的基础设施）
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

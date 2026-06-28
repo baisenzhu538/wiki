@@ -1,6 +1,4 @@
 ---
-
-
 id: case-ji-hao-skills-market
 title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
 type: case
@@ -28,7 +26,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-07
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 related:
   - src_unknown
   - src_unknown
@@ -114,13 +112,17 @@ diagnostic_signals:
    纪浩模式：Agent 识别任务 → 查分类层 → 命中 skill → 自动加载
    ```
 
-## 可迁移模式
+## 可迁移场景
 
 1. **KDO 的 Skill 分发**：`kdo encapsulate` 编译后的 skill 包，加一个 agent-facing 的分类层和 registry，Agent 按任务类型自动匹配和加载。
 2. **组织内部工具平台**：当一个团队内部有超过 5 个 AI tool/skill 时，天然需要这样的分发机制。
 3. **任何"把人的能力封装为可复用单元"的场景**：不只是 AI skill——SOP 文档、检查清单、最佳实践模板都可以走这个模式。
 
-## 失败模式/教训
+## 教训
+
+- src_unknown（待补充：从本案例学到的核心教训）
+
+## 失败模式
 
 **什么时候不应该学这个案例**（或会导致失败）：
 
@@ -141,3 +143,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

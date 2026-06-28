@@ -1,6 +1,4 @@
 ---
-
-
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -36,7 +34,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-07
-updated_at: '2026-06-17'
+updated_at: 2026-06-28
 related:
   - src_unknown
   - src_unknown
@@ -59,7 +57,6 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入 schema/data contract gate？
 ---
-
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 
 > 纪浩用自己讲的五层方法论，建造了一个 AI 辅助的现场工作台（`/focus`）。这两份提示词是方法论在真实产品上的落地实例——不是"怎么用 AI"的方法论，是"怎么用结构化 prompt 做产品设计"的工程方法。
@@ -254,3 +251,10 @@ npm run build
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

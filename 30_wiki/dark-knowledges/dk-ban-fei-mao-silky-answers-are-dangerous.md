@@ -1,5 +1,4 @@
 ---
-
 id: dk-ban-fei-mao-silky-answers-are-dangerous
 title: '暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱'
 type: dk
@@ -10,7 +9,7 @@ source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 related:
   - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
   - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]
@@ -45,7 +44,8 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 训练数据存在截止日期
   follow_up: '请标注数据时间范围；若训练数据早于该时间，请明确告知。'
----# 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
+---
+# 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
 
 ## 原始表述
 

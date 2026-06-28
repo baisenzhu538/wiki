@@ -21,7 +21,7 @@ related:
   - [[concept-稀缺机会窗口]]
   - [[ai-collaboration-domain-digest]]
   - [[strategy-domain-digest]]
-updated_at: 2026-06-26
+updated_at: 2026-06-28
 ---
 # 案例：是否参加纽约时装周（2018）
 
@@ -127,3 +127,10 @@ updated_at: 2026-06-26
 ---
 
 *2026-06-26 欧阳锋九层深挖重写：基于 VLM 描述、OCR 文本与一堂框架推理补充完整案例结构。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

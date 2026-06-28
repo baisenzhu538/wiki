@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-research-best-practice-first
 title: 做重要设计前先摸行业最佳实践：认知套利
 type: dk
@@ -25,7 +24,9 @@ related:
   - [[dk-yitang-public-info-is-enough]]
   - [[dk-yitang-public-info-is-enough]]
   - [[tool-yitang-financial-report-intelligence]]
----# 做重要设计前先摸行业最佳实践
+updated_at: 2026-06-28
+---
+# 做重要设计前先摸行业最佳实践
 
 > "大多数情况下，你面对的问题，别人已经解决过了。而且解决了5年、10年、20年。你不需要重新发明——你只需要找到那个已经解决了问题的人，理解他们是怎么解决的。" ——Truman
 
@@ -50,3 +51,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

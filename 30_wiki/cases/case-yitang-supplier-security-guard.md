@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-supplier-security-guard
 title: 案例：通过保安打听到工厂收购价
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-liutao-douyin-team-leader-9m]]
   - [[tool-yitang-supply-chain-research]]
   - [[tool-yitang-field-research]]
+updated_at: 2026-06-28
 ---
 # 案例：通过保安打听到工厂收购价
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

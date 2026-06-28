@@ -1,5 +1,4 @@
 ---
-
 id: case-proya-betaine-skincare-benchmark
 title: 案例：贝泰妮招股书——敏感肌市场的完整画像
 type: case
@@ -24,6 +23,7 @@ related:
   - [[tool-yitang-financial-report-intelligence]]
   - [[tool-yitang-financial-report-intelligence]]
   - [[tool-yitang-comparable-company-selection]]
+updated_at: 2026-06-28
 ---
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解
 
@@ -43,3 +43,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

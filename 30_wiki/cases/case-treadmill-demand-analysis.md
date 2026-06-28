@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-treadmill-demand-analysis
 title: 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 type: case
@@ -16,7 +12,7 @@ source_refs:
 - src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图
 - src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
 - [[yt-demand-treadmill-case]]
 - [[yt-five-step-implementation]]
@@ -184,3 +180,10 @@ trust_level: high# 跑步机需求分析：在家健身场景的需求拆解与�
 | 商业模式设计阶段 | 考虑租赁/订阅模式而非一次性售卖 | 计算用户实际使用周期与支付方式的匹配度 |
 
 > 核心心法：用户买的不是产品，是产品背后解决的问题。如果替代方案在解决这个问题上做得更好，你的产品再好也没用。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

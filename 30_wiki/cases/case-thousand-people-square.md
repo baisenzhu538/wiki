@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
@@ -16,7 +13,7 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（千人广场模型案例）。口述稿为完整长文档，内容充分支撑案例还原；笔记为同一课程的学员整理，可作为旁证。事件来源单一，保持 medium trust。
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

@@ -1,5 +1,4 @@
 ---
-
 id: case-xian-franchise-location-decision
 title: 案例：西安加盟选址——系统调研vs拍脑袋
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-candy-problem-os-vpn]]
   - [[tool-yitang-store-franchise-research]]
   - [[tool-yitang-field-research]]
+updated_at: 2026-06-28
 ---
 # 案例：西安加盟选址——避免"想当然"式调研
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-jtbd-story-formula
 title: 案例：JTBD故事公式——从用户故事中提取需求
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-yitang-user-interview-5steps]]
   - [[yt-research-user-jtbd]]
+updated_at: 2026-06-28
 ---
 # 案例：JTBD故事公式——从故事中提取真实需求
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

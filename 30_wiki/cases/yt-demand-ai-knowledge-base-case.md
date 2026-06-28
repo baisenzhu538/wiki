@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -14,7 +13,7 @@ source_refs:
   - src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
-updated_at: "2026-06-19"
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"
@@ -35,7 +34,6 @@ diagnostic_signals:
     follow_up_question: "用户在什么场景下需要查询知识库？这个场景多久发生一次？"
   - framework_lens: AI知识库案例——技术能力≠用户价值
     follow_up_question: "用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？"
-
 ---
 # AI企业知识库案例：从"技术炫技"到"需求验证"
 
@@ -156,3 +154,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

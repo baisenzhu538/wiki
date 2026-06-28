@@ -1,5 +1,4 @@
 ---
-
 id: dk-tool-as-phased-validator
 title: 把 AI/工具当成分阶段校验器，而不是一次性生成器
 type: dk
@@ -55,14 +54,15 @@ query_triggers:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
-updated_at: '2026-06-18'
+updated_at: 2026-06-28
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----## 原始表述
+---
+## 原始表述
 
 > **核心洞察**：AI 和工具的真正价值不是“一次给出正确答案”，而是把原来集中在一个大脑里的判断拆成多个可校验的阶段。一旦把工具输出当成终点，就会在不同的域重复同一种失败：把杠杆当成判断力。
 
@@ -99,6 +99,9 @@ tags:
 4. **记录失败模式**：把每个阶段的典型失败写成 checklist，下次自动触发。
 5. **闭环迭代**：每一轮校验结果回流到工具输入，形成“生成→校验→修正→再生成”的循环。
 
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
 ## 适用边界
 
 | 边界 | 说明 |

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-shampoo-product-kernel
 title: 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
 type: case
@@ -16,7 +12,7 @@ source_refs:
 - src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
 - src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
 - [[case-lean-shampoo-selling-points]]
 - [[yt-product-kernel-definition]]
@@ -163,3 +159,10 @@ trust_level: high# 洗发水产品内核：从卖点混淆到内核清晰的产�
 | 产品多版本设计 | 每个版本只打一个点，不要所有版本都说同样的话 | 不同版本有明确不同的核心卖点和目标用户 |
 
 > 核心心法：产品内核不是你有多少卖点，而是你有没有一个卖点足够尖、足够深、足够让用户记住。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

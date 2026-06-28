@@ -1,6 +1,4 @@
 ---
-
-
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
@@ -20,7 +18,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 diagnostic_signals:
 - lens: 高价值痛点场景
   follow_up: 观察目标用户真实工作流程，统计被消耗的时间占比
@@ -48,7 +46,6 @@ tags:
 - src_unknown
 - src_unknown
 ---
-
 # 王欢案例：医语轻记用语音录入缩短病历时间
 
 > **Burn line**: 一个连设计稿都没有的原型，因为长在真实痛点上，第一天就活下来了。
@@ -104,7 +101,7 @@ tags:
 
 ---
 
-## 可迁移模式
+## 可迁移场景
 
 1. **真实痛点 > 功能齐全**
    - src_unknown
@@ -198,3 +195,10 @@ tags:
 ---
 
 *基于王欢 2026-06-18 AI 实战分享整理，经欧阳锋审核。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

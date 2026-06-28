@@ -21,7 +21,7 @@ related:
   - [[concept-稀缺机会窗口]]
   - [[ai-collaboration-domain-digest]]
   - [[strategy-domain-digest]]
-updated_at: 2026-06-26
+updated_at: 2026-06-28
 ---
 # 案例：员工共学项目的 ROI 决策
 
@@ -114,3 +114,10 @@ updated_at: 2026-06-26
 ---
 
 *2026-06-26 重写：基于 VLM 描述、OCR 文本与一堂框架推理补充 9 层案例结构。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

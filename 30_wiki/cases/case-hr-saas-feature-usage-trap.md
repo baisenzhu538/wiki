@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-hr-saas-feature-usage-trap
 title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 type: case
@@ -22,7 +19,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
@@ -145,3 +142,10 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

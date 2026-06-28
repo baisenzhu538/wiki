@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
@@ -20,7 +17,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: 2026-06-28
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
@@ -45,9 +42,7 @@ diagnostic_signals:
   follow_up_question: 在没租仓库、没做小程序之前，能否先用3-5个种子妈妈人工跑一轮分销，验证她们是否真愿意帮人买花？
 - framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
   follow_up_question: 除了佣金，团长持续开团还需要哪些支撑（素材、社群互动、损耗兜底）？哪些可通过低成本的定性访谈先排除？
-
 ---
-
 > 当一个用户同时是消费者和分销者时，最大的风险不是产品不好，而是你把两种角色当成同一种用户在验证。—— 张磊 AMA Q5（`src_20260616_b1e25c49`）
 
 ## 案例背景
@@ -125,3 +120,10 @@ diagnostic_signals:
 ## 置信度说明
 
 本卡片基于张磊 AMA Q5 的回答整理，并辅以口述稿与学员笔记进行交叉核对。来源属于课堂问答与笔记，未经过外部公开数据或第三方验证，因此置信度标为 0.75，状态为 draft。核心结论——"双重角色拆分"与"意愿→留存→成本三阶段"——在 AMA 原文中有较明确支持；具体指标阈值（如 3-5 人、10-20 人）为示例性建议，需根据实际业务调整。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

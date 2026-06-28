@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -49,7 +49,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
+---
+# 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 
 > **Burn line**：导演的工作不是写满每一步，而是说清方向、划好红线、验收结果。
 

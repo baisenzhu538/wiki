@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-switching-cost
 title: 新体验-旧体验-切换成本=产品价值
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[tool-demand-four-forces]]
   - [[case-demand-ai-fitness-four-forces]]
   - [[tool-demand-four-forces]]
----# 新体验-旧体验-切换成本=产品价值
+updated_at: 2026-06-28
+---
+# 新体验-旧体验-切换成本=产品价值
 
 ## 原始表述
 

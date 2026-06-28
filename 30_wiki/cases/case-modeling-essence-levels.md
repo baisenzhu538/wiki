@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-essence-levels
 title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
@@ -19,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 老顽童
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
@@ -147,3 +144,10 @@ Truman 在口述中强调：一堂核心方法几乎要交付到 L4-L5，偶尔�
 ---
 
 *老顽童 · 2026-06-16 · 基于一堂建模能力培训课程（Truman 口述）*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

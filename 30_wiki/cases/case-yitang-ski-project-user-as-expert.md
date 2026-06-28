@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-ski-project-user-as-expert
 title: 案例：滑雪项目——把用户当专家访谈
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-mvp-reward-interview-waste]]
   - [[framework-yitang-expert-interview-10steps]]
   - [[tool-yitang-user-interview-5steps]]
+updated_at: 2026-06-28
 ---
 # 案例：滑雪项目——把重度用户当专家
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

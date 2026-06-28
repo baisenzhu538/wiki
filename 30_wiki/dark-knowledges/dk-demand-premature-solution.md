@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-premature-solution
 title: 过早进入解决方案空间——冰山模型的根本价值
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[dk-yitang-survivor-bias-in-research]]
   - [[dk-yitang-public-info-is-enough]]
   - [[framework-demand-iceberg]]
----# 过早进入解决方案空间——冰山模型的根本价值
+updated_at: 2026-06-28
+---
+# 过早进入解决方案空间——冰山模型的根本价值
 
 ## 原始表述
 

@@ -11,8 +11,16 @@ language: zh-CN
 domain: [strategy]
 source_refs:
 - src_unknown
+updated_at: 2026-06-28
 ---
 **表面问题**：产品迭代速度远慢于对手
 **战略根因**：组织僵化——大公司病。组织架构不适配快速变化的市场，流程成为创新的障碍
 **问题类型**：九问题 #6 组织僵化
 **教训**：市场变化速度>组织响应速度=必然落后。组织设计决定了战略执行的上限
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

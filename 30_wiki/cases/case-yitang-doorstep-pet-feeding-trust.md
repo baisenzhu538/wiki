@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-doorstep-pet-feeding-trust
 title: 案例：上门宠物喂养——用调研解决信任障碍
 type: case
@@ -25,6 +24,7 @@ related:
   - [[case-yitang-homestay-reception-design]]
   - [[tool-yitang-user-interview-5steps]]
   - [[case-yitang-pet-fostering-user-research]]
+updated_at: 2026-06-28
 ---
 # 案例：上门宠物喂养——调研如何消除信任顾虑
 
@@ -41,3 +41,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

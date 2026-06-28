@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -15,7 +14,7 @@ source_refs:
   - src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
   - src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
 created_at: "2026-06-19"
-updated_at: "2026-06-19"
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"
@@ -36,7 +35,6 @@ diagnostic_signals:
     follow_up_question: "你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？"
   - framework_lens: 洗发水案例——内核可能不是你以为的功能
     follow_up_question: "用户选择你们，是因为去屑效果好，还是因为品牌形象？"
-
 ---
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 
@@ -167,3 +165,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

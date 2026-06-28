@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-mahjong-machine-fake-order
 title: 案例：假装订货套取麻将机竞品数据
 type: case
@@ -24,6 +23,7 @@ related:
   - [[tool-yitang-security-guard-intel]]
   - [[tool-yitang-reverse-data-analysis]]
   - [[tool-yitang-social-engineering-research]]
+updated_at: 2026-06-28
 ---
 # 案例：假装订货套取麻将机竞品数据
 
@@ -38,3 +38,10 @@ OCR待确认细节。口述线索。
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

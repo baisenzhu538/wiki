@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-ai-research-prompt-craft
 title: AI调研效果取决于问题拆解和人工判断——不是提示词技巧
 type: dk
@@ -27,7 +26,9 @@ related:
   - [[tool-yitang-ai-research-workflow]]
   - [[concept-yitang-ai-research-human-loop]]
   - [[dk-yitang-research-ai-hallucination]]
----# AI调研效果取决于问题拆解和人工判断
+updated_at: 2026-06-28
+---
+# AI调研效果取决于问题拆解和人工判断
 
 > "人越强，AI越强。你啥也不会，AI也使不上劲儿。" ——Truman，行动营课上反复强调
 
@@ -54,3 +55,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

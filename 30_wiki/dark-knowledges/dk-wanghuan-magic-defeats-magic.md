@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -46,7 +46,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
+---
+# 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 
 > **Burn line**：没有标准时，别急着让 AI 给答案，先让 AI 帮你把标准长出来。
 

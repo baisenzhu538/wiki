@@ -29,6 +29,7 @@ related:
   - [[tool-单元模型-壁垒预判]]
   - [[framework-单元模型-外部对抗地图]]
 review_date: "2026-06-27"
+updated_at: 2026-06-28
 ---
 # 单元模型对抗小抄
 
@@ -137,6 +138,9 @@ review_date: "2026-06-27"
 - src_unknown
 - src_unknown
 
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
 ## 与其他知识的关联
 
 - src_unknown

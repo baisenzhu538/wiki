@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-senior-university-product-design
 title: 案例：老年大学——用假设链逐层验证赛道可行性
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-yitang-user-interview-5steps]]
   - [[dk-yitang-research-question-quality]]
+updated_at: 2026-06-28
 ---
 # 案例：老年大学——用假设链验证赛道
 
@@ -41,3 +41,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -16,7 +12,7 @@ source_refs:
 - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 - src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-08
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
   - src_unknown
   - src_unknown
@@ -211,3 +207,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-beauty-device-overseas-sales
 title: 案例：美容仪出海——用行业报告判断海外市场
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-doris-catering-chain-benchmark]]
   - [[framework-doris-industry-report-4step]]
   - [[tool-yitang-overseas-research]]
+updated_at: 2026-06-28
 ---
 # 案例：美容仪出海市场判断
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,6 +1,4 @@
 ---
-
-
 id: case-半肥猫-course-to-skill
 title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
 type: case
@@ -33,7 +31,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-08
-updated_at: '2026-06-17'
+updated_at: 2026-06-28
 related:
   - src_unknown
   - src_unknown
@@ -62,7 +60,6 @@ diagnostic_signals:
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
 ---
-
 # 案例：半肥猫的课程转 Skill 八步法
 
 > 半肥猫用一堂《转化率黑客五组合落地》课程作为原材料，经过八步工程化流程，做出了一个可验证的转化率方案推演 Skill。A/B 测试：用 Skill 得 36 分，不用 Skill 得 8 分——差值 28 分。这不是"AI 更强了"——是"工程化流程产出了更可靠的 AI 工具"。
@@ -262,3 +259,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

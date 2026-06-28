@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -52,7 +52,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：创造力重新分配到问题描述与验收审美
+---
+# 王欢暗知识：创造力重新分配到问题描述与验收审美
 
 > **Burn line**: 未来人的创造力，不再主要放在执行上，而是放在“把问题描述清楚”和“判断结果好不好”上。
 

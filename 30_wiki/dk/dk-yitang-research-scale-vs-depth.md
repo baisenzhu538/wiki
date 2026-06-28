@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-research-scale-vs-depth
 title: 调研深度决定决策质量：信息精度的边际价值
 type: dk
@@ -25,7 +24,9 @@ related:
   - [[dk-yitang-public-info-is-enough]]
   - [[dk-yitang-research-starter-vs-veteran]]
   - [[framework-yitang-six-layer-cross-validation]]
----# 调研深度决定决策质量
+updated_at: 2026-06-28
+---
+# 调研深度决定决策质量
 
 > 浅调研给你"感觉"，中调研给你"数据"，深调研给你"可决策的证据"。
 
@@ -54,3 +55,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

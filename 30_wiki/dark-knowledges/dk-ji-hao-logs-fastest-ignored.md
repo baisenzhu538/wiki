@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-logs-fastest-ignored
 title: 暗知识：日志增长最快但最容易被忽视
 type: dk
@@ -21,7 +20,7 @@ related:
   - [[concept-ji-hao-ai-collaboration-methodology]]
   - [[tool-纪浩-日志驱动排查法]]
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,7 +38,8 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 日志失控
   follow_up_question: 我是否定期审查日志结构、清理噪声，并建立命名/归档规范？
----# 暗知识：日志增长最快但最容易被忽视
+---
+# 暗知识：日志增长最快但最容易被忽视
 
 ## 原始表述
 

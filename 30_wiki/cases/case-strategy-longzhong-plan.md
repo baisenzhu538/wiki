@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-longzhong-plan
 title: 隆中对：中国最著名的战略规划——成功与失败四因
 type: case
@@ -18,6 +17,8 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
+reviewed_by: 欧阳锋
+updated_at: 2026-06-28
 ---
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）
 **失败四因**：
@@ -26,3 +27,10 @@ source_refs:
 3. 执行环节出错（关羽失荆州/夷陵之战）
 4. 宏观环境误判（武都大地震→陈仓古道断绝）
 **核心洞察**：最完美的战略规划也可能被四个因素摧毁——BRM的"执行"环节从来不是自动完成的
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

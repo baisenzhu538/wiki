@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -53,7 +53,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：标准不清时，用AI对抗AI生成标准
+---
+# 王欢暗知识：标准不清时，用AI对抗AI生成标准
 
 > **Burn line**: 当你不知道“好”的标准是什么，不要空想，先让 AI 出一版，再用另一个 AI 按最高标准挑毛病，反复迭代，标准自然浮现。
 

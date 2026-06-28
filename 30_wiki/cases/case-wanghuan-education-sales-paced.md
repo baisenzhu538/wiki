@@ -1,6 +1,4 @@
 ---
-
-
 id: case-wanghuan-education-sales-paced
 title: '王欢案例：教育机构用 PACED 还原销冠决策链'
 type: case
@@ -10,7 +8,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -51,7 +49,6 @@ diagnostic_signals:
 - lens: '把 AI 当演员工具而非导演系统'
   follow_up: '检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器'
 ---
-
 # 王欢案例：教育机构用 PACED 还原销冠决策链
 
 > **Burn line**: 正确的话术在错误的时机说出，仍然是错的；销冠的价值不在台词，而在判断。
@@ -114,7 +111,7 @@ diagnostic_signals:
 
 ---
 
-## 可迁移模式
+## 可迁移场景
 
 | 模式 | 说明 | 可迁移场景 |
 |:---|:---|:---|
@@ -196,3 +193,10 @@ PACED 教育销售案例是王欢“导演思维”在知识密集型服务场�
 ---
 
 *基于王欢 2026-06-18 AI 实战分享整理。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

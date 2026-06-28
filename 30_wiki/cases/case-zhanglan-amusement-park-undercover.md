@@ -1,5 +1,4 @@
 ---
-
 id: case-zhanglan-amusement-park-undercover
 title: 案例：张兰假扮游乐园店长卧底15天
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-liutao-douyin-team-leader-9m]]
   - [[tool-yitang-social-engineering-research]]
   - [[tool-yitang-field-research]]
+updated_at: 2026-06-28
 ---
 # 案例：假扮游乐园店长卧底15天
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

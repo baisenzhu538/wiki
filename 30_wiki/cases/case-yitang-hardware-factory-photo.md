@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-hardware-factory-photo
 title: 案例：从朋友圈照片找到代工厂
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-supplier-security-guard]]
   - [[tool-yitang-supply-chain-research]]
   - [[dk-yitang-digging-belief]]
+updated_at: 2026-06-28
 ---
 # 案例：从朋友圈照片找到代工厂
 
@@ -42,3 +42,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-question-scaffold-not-answer
 title: 模型是提问的脚手架，不是答案
 type: dk
@@ -54,13 +53,14 @@ query_triggers:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
-updated_at: '2026-06-18'
+updated_at: 2026-06-28
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----## 原始表述
+---
+## 原始表述
 
 > **核心洞察**：模型的价值不在于它给出了什么答案，而在于它能把模糊的业务问题拆成一组可验证、可讨论、可迭代的小问题。一旦把模型当答案，团队就会停止追问，把“算出来”当成“做对了”。
 
@@ -95,6 +95,9 @@ tags:
 2. **把输出翻译成问题清单**：模型输出的每个维度/数值/结构，都转化为一个可讨论的问题。
 3. **用真实数据回答这些问题**：问题清单中的问题必须有明确的回答标准和数据来源，不能停留在头脑风暴。
 
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
 ## 适用边界
 
 | 边界 | 说明 |

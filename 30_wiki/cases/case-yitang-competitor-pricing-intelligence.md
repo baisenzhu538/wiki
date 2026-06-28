@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-competitor-pricing-intelligence
 title: 案例：假装订货套取竞品真实价格
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-supplier-security-guard]]
   - [[tool-yitang-reverse-data-analysis]]
   - [[tool-yitang-social-engineering-research]]
+updated_at: 2026-06-28
 ---
 # 案例：假装订货套取竞品真实价格
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

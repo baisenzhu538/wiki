@@ -1,6 +1,4 @@
 ---
-
-
 id: case-yitang-tob-career-planning
 title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
@@ -21,7 +19,7 @@ tags:
   - src_unknown
   - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 董程滨（一堂学员）
 reviewed_by: 老顽童
 review_date: '2026-06-16'
@@ -208,3 +206,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

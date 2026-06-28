@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-expert-interview-5-traps
 title: 专家访谈五大陷阱
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[dk-demand-feature-stacking]]
   - [[dk-yitang-public-info-is-enough]]
   - [[framework-yitang-expert-interview-10steps]]
----# 专家访谈五大陷阱
+updated_at: 2026-06-28
+---
+# 专家访谈五大陷阱
 
 1. **专家偏见**：专家在自己的领域有强烈观点，会不自觉贬低其他方向
 2. **幸存者偏差**：你访谈的"成功专家"的观点天然过滤掉了失败者的经验
@@ -36,3 +37,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

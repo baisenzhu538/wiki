@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-misjudgment-rate
 title: 30-50%创业失败源于需求误判
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[tool-demand-assessment-triangle]]
   - [[case-demand-rural-5g]]
   - [[tool-demand-assessment-triangle]]
----# 30-50%创业失败源于需求误判
+updated_at: 2026-06-28
+---
+# 30-50%创业失败源于需求误判
 
 ## 原始表述
 

@@ -12,7 +12,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: 2026-06-28
 source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -25,7 +25,6 @@ related:
   - '[[case-yitang-ai-painting-commercialization]]'
   - '[[framework-ai-deliberate-practice-loop]]'
 ---
-
 # 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
 
 ## 一句话
@@ -191,3 +190,10 @@ related:
 - 当你发现「打得顺手」但胜率不再提升时 → 主动引入 1-2 个新维度，把练习推回拉伸区。
 - 当你无法判断是运气还是实力时 → 找到可量化的反馈指标，用数据替代自我感觉。
 - 当你想加快成长但时间有限时 → 在质量不下降的前提下，用并发/批量方式提升有效重复次数。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

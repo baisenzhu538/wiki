@@ -21,7 +21,7 @@ related:
   - [[tool-完整财务公式决策]]
   - [[ai-collaboration-domain-digest]]
   - [[strategy-domain-digest]]
-updated_at: 2026-06-26
+updated_at: 2026-06-28
 ---
 # 暗知识：决策经验值
 
@@ -86,3 +86,27 @@ updated_at: 2026-06-26
 ---
 
 *基于 VLM 描述生产，2026-06-26 补充失败模式、Critique 与行动 checklist。*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

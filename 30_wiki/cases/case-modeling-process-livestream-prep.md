@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
@@ -19,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-开播准备-图-01
@@ -137,3 +134,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

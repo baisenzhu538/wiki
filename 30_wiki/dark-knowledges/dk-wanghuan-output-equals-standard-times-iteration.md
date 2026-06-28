@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -53,7 +53,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：输出质量 = 标准 × 迭代
+---
+# 王欢暗知识：输出质量 = 标准 × 迭代
 
 > **Burn line**: 不要追求一次写对。输出的追踪指标 = 你的标准 × 迭代次数。
 

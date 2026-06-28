@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-一堂-无人餐厅-hypothesis-failure
 title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
@@ -16,7 +12,7 @@ source_refs:
 - src_20260506_9b4788a6-声音和画面正常吗
 - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 created_at: 2026-06-08
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
 - [[case-truman-poker-deck-roi]]
 - [[yt-entrepreneur-259-milestone]]
@@ -159,3 +155,10 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 5. 如果合作方明天退出，我的业务还能独立跑通吗？
 
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

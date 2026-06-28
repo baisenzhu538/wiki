@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-abstraction-reliability-ladder
 title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 type: case
@@ -15,7 +12,7 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags: []
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-抽象建模-案例-图-02
@@ -110,3 +107,10 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

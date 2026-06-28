@@ -1,5 +1,4 @@
 ---
-
 id: dk-ban-fei-mao-real-business-is-the-engine
 title: 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 type: dk
@@ -20,7 +19,7 @@ related:
   - [['case-ban-fei-mao-from-assignment-to-tool']]
   - [['concept-半肥猫-ai-learning-toolification-methodology']]
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,7 +38,6 @@ diagnostic_signals:
   lens: 边界条件错配
   follow_up_question: 我练习时的任务边界、判断标准和真实业务是否一致？
 ---
-
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 
 ## 原始表述

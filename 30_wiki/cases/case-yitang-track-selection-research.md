@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-track-selection-research
 title: 案例：一堂赛道选择——用调研方法论选创业方向
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-homestay-reception-design]]
   - [[framework-yitang-oscar-research]]
   - [[yt-research-osl-framework]]
+updated_at: 2026-06-28
 ---
 # 案例：一堂赛道选择——自己用调研方法论选方向
 
@@ -43,3 +43,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

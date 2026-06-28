@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
@@ -22,7 +19,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: 2026-06-28
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
@@ -58,9 +55,7 @@ diagnostic_signals:
   follow_up_question: 包装吸引的是哪类用户？他在什么具体场景下会因为包装而购买？这个卖点能否在货架上3秒内被理解？
 - framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
-
 ---
-
 # 日化沐浴露MVP：不生产产品验证行业机会
 
 > "你不是在验证这个产品本身，而是在验证它背后的核心假设——验证它背后的用户群体，验证它背后的核心卖点，甚至是核心卖点的某一项选项。" —— 张磊，AMA Q4（来源：src_20260616_b1e25c49）
@@ -167,3 +162,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

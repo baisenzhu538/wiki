@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-ai-time-management-coach
 title: 案例：AI辅助调研——时间管理教练产品验证
 type: case
@@ -25,6 +24,7 @@ related:
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-yitang-ai-research-workflow]]
   - [[dk-yitang-ai-research-prompt-craft]]
+updated_at: 2026-06-28
 ---
 # 案例：AI辅助调研——产品验证
 
@@ -39,3 +39,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

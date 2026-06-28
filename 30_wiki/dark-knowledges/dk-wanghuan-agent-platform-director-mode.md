@@ -1,5 +1,4 @@
 ---
-
 id: dk-wanghuan-agent-platform-director-mode
 title: 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 type: dk
@@ -10,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-20'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78
@@ -50,7 +49,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----# 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
+---
+# 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 
 > **Burn line**：Agent 平台把人从执行者解放出来，不是让你消失，而是让你退到导演位——定目标、划红线、验结果。
 

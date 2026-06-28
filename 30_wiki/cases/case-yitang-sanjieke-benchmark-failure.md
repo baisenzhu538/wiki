@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-sanjieke-benchmark-failure
 title: 案例：对标三节课做C端，半年后发现对方已转型B端
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-supplier-security-guard]]
   - [[framework-yitang-expert-interview-10steps]]
   - [[dk-yitang-expert-interview-5-traps]]
+updated_at: 2026-06-28
 ---
 # 案例：对标三节课做C端
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

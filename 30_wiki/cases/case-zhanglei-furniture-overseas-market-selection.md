@@ -1,5 +1,4 @@
 ---
-
 id: case-zhanglei-furniture-overseas-market-selection
 title: 案例：张磊——洗衣液蹲超市+假扮促销员
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-doorstep-nail-service-context]]
   - [[tool-yitang-field-research]]
   - [[tool-yitang-social-engineering-research]]
+updated_at: 2026-06-28
 ---
 # 案例：洗衣液市场调研——蹲超市+假扮促销员
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

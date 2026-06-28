@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-jh-yitang-vs-sqlhelper
 title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔
 type: case
@@ -40,7 +37,7 @@ reviewed_by: 老顽童
 confidence: 0.75
 trust_level: medium
 created_at: '2026-06-09'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 diagnostic_signals:
   - lens: 一堂 vs SQLHelper 的产品策略分岔
     follow_up: 把目标用户、任务复杂度、领域知识广度、增长速度四维度填入选型矩阵，看落在"复杂系统"还是"封闭任务"象限
@@ -261,3 +258,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

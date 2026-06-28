@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-toc-content-platform-correlation-trap
 title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 type: case
@@ -21,7 +18,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
@@ -136,3 +133,10 @@ GMV = 新用户 GMV + 复购用户 GMV + 转介绍 GMV
 - src_unknown
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

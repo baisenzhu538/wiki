@@ -12,7 +12,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: 2026-06-28
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -27,7 +27,6 @@ related:
 - '[[yt-model-deliberate-practice-growth]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 ---
-
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑
 
 ## 为什么值钱
@@ -52,6 +51,9 @@ Truman 在口述中用 Leo 的案例说明：一个人三年里只有前半年�
 6. **非舒适区过大**：练习要进入「暂时不会的那部分」，但恐慌区会让人直接放弃。
 7. **带人无章法**：Truman 招人时看五个要素是否齐全；缺三个要素以上「基本上就没办法了」。
 
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
 ## 操作方法
 
 ### 使用场景

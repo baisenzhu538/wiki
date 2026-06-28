@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
@@ -16,7 +13,7 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（一堂公司本质定位） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-15'

@@ -1,6 +1,4 @@
 ---
-
-
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
@@ -22,7 +20,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-20'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 diagnostic_signals:
 - lens: 隐性决策知识未被萃取
   follow_up: 用 PECED 反向工程销冠录音，区分“说了什么”与“为何此时说”
@@ -55,7 +53,6 @@ tags:
 - src_unknown
 - src_unknown
 ---
-
 # 王欢案例：教育机构销冠能力萃取系统
 
 > **Burn line**: 话术是决策链最末端的产物，只萃取话术会得到“一堆在错误时机说出的正确的话”。
@@ -208,3 +205,10 @@ tags:
 ---
 
 *基于王欢 2026-06-18 AI 实战分享整理，经欧阳锋审核。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

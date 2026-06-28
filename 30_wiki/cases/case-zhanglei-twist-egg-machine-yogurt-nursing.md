@@ -1,5 +1,4 @@
 ---
-
 id: case-zhanglei-twist-egg-machine-yogurt-nursing
 title: 案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业
 type: case
@@ -26,6 +25,7 @@ related:
   - [[framework-yitang-high-level-execution]]
   - [[case-zhanglei-furniture-overseas-market-selection]]
   - [[case-zhanglei-nursing-home-family]]
+updated_at: 2026-06-28
 ---
 # 案例：张磊——调研先行的连续创业者
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

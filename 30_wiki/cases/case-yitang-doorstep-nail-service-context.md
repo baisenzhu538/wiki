@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-doorstep-nail-service-context
 title: 案例：上门美甲——在用户真实场景中访谈
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-doris-catering-chain-benchmark]]
   - [[tool-yitang-user-interview-5steps]]
   - [[dk-yitang-research-scale-vs-depth]]
+updated_at: 2026-06-28
 ---
 # 案例：上门美甲——在真实场景中访谈
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

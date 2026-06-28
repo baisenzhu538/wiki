@@ -9,7 +9,7 @@ domain:
   - ai-collaboration
   - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -51,7 +51,8 @@ tags:
 - src_unknown
 - src_unknown
 review_date: '2026-06-28'
----# 王欢暗知识：AI 拉升个人上限
+---
+# 王欢暗知识：AI 拉升个人上限
 
 > **Burn line**: AI 这一轮给我们最大的感受是，它可以拉升个人的上限——你完全可以做出以前根本做不出来的东西，只要你有导演思维。
 

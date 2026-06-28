@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
@@ -48,7 +44,7 @@ pipeline:
 - src_unknown
 author: 老顽童
 trust_level: medium-high
-updated_at: '2026-06-16'# Truman一堂：市场扫描→六方向→Plan ABC试错
+updated_at: 2026-06-28# Truman一堂：市场扫描→六方向→Plan ABC试错
 ---
 ## 背景
 
@@ -155,3 +151,10 @@ updated_at: '2026-06-16'# Truman一堂：市场扫描→六方向→Plan ABC试�
 
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

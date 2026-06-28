@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-shell-oil
 title: 壳牌石油：价值链突变→市场规模预测→从生产转服务
 type: case
@@ -17,6 +16,15 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
+reviewed_by: 欧阳锋
+updated_at: 2026-06-28
 ---
 **转型**：原油价值链突变→预测未来市场规模萎缩→提前从生产转向服务
 **核心洞察**：不是"等到不行了再转"——壳牌在原油还在赚钱时就启动了转型。吃撑期转型的第一原则：在旧引擎还能跑的时候就开始找新引擎
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

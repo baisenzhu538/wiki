@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-pet-fostering-user-research
 title: 案例：宠物寄养——观察现有替代方案
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-yitang-ski-project-user-as-expert]]
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-yitang-user-interview-5steps]]
+updated_at: 2026-06-28
 ---
 # 案例：宠物寄养——观察替代方案
 
@@ -37,3 +37,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

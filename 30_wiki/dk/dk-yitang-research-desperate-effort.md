@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-research-desperate-effort
 title: 调研决心比技巧重要
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[dk-yitang-survivor-bias-in-research]]
   - [[dk-yitang-public-info-is-enough]]
   - [[dk-yitang-research-starter-vs-veteran]]
----# 调研决心比技巧重要
+updated_at: 2026-06-28
+---
+# 调研决心比技巧重要
 
 > "投资人为了验证数据，可以每天啃三个包子从早蹲到晚。投资人能蹲，我们还有啥面子挂不住的？"
 
@@ -32,3 +33,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

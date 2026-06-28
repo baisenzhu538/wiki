@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-yitang-model-valuation-flywheel
 title: 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮
 type: case
@@ -31,7 +28,7 @@ related_cases:
 - src_unknown
 - src_unknown
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 王语嫣
 confidence: 0.8
@@ -156,3 +153,10 @@ Truman 在一次内部教研会上引入“模型资产定价”机制，把抽�
 ## 来源
 
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

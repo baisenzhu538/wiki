@@ -1,5 +1,4 @@
 ---
-
 id: case-liutao-douyin-team-leader-9m
 title: 案例：刘涛——从信息碎片拼出抖音团长赛道真相
 type: case
@@ -25,6 +24,7 @@ related:
   - [[framework-yitang-high-level-execution]]
   - [[dk-yitang-digging-belief]]
   - [[tool-yitang-job-intelligence-research]]
+updated_at: 2026-06-28
 ---
 # 案例：从信息碎片拼出赛道真相
 
@@ -41,3 +41,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

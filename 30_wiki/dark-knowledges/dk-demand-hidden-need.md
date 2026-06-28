@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-hidden-need
 title: 隐性需求伪装：用户说的≠用户要的
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[dk-demand-feature-stacking]]
   - [[dk-yitang-public-info-is-enough]]
   - [[tool-demand-iceberg-l5-forces]]
----# 隐性需求伪装：用户说的≠用户要的
+updated_at: 2026-06-28
+---
+# 隐性需求伪装：用户说的≠用户要的
 
 ## 原始表述
 

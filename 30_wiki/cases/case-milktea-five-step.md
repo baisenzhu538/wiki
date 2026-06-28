@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -16,7 +12,7 @@ source_refs:
 - src_20260508_03a07f45-一堂-案例拆解-串讲口述
 - src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
 - [[tool-泛产品落地-假设拆解]]
 - [[case-shampoo-product-kernel]]
@@ -194,3 +190,10 @@ trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学�
 | 竞争对手进入 | 问"我的壁垒是什么？竞争对手抽不走的是什么？" | 明确自己的不可复制优势 |
 
 > 核心心法：开店不难，让店赚钱才难。让店赚钱不难，让多家店都赚钱才是真本事。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

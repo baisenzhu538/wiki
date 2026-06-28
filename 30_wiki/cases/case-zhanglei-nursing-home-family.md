@@ -1,5 +1,4 @@
 ---
-
 id: case-zhanglei-nursing-home-family
 title: 案例：假扮孙子调研养老院真实状况
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-zhanglei-furniture-overseas-market-selection]]
   - [[tool-yitang-social-engineering-research]]
   - [[case-yitang-elderly-home-roleplay]]
+updated_at: 2026-06-28
 ---
 # 案例：假扮家属获取养老院真实运营信息
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

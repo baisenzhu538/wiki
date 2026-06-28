@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-mvp-reward-interview-waste
 title: 案例：MVP阶段花钱做用户访谈的浪费
 type: case
@@ -25,6 +24,7 @@ related:
   - [[case-yitang-ski-project-user-as-expert]]
   - [[framework-yitang-expert-interview-10steps]]
   - [[concept-ceo-must-do-user-research]]
+updated_at: 2026-06-28
 ---
 # 案例：重金做用户访谈但方向全错
 
@@ -39,3 +39,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

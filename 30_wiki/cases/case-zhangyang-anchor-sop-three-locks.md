@@ -1,6 +1,4 @@
 ---
-
-
 id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
@@ -14,7 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例）。单一来源，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至 high。
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

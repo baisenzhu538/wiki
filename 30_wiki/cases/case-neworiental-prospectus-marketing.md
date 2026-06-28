@@ -1,5 +1,4 @@
 ---
-
 id: case-neworiental-prospectus-marketing
 title: 案例：新东方招股书——营销渠道全览
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-popmart-prospectus-pricing]]
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-yitang-financial-report-intelligence]]
+updated_at: 2026-06-28
 ---
 # 案例：新东方招股书中的营销渠道
 
@@ -37,3 +37,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

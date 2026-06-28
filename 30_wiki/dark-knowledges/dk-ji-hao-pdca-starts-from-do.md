@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-pdca-starts-from-do
 title: 暗知识：PDCA从Do开始不是从Plan开始
 type: dk
@@ -20,7 +19,7 @@ related:
   - [[tool-纪浩-Agent开工检查单制作法]]
   - [['concept-ji-hao-ai-collaboration-methodology']]
 created_at: 2026-06-08
-updated_at: 2026-06-19
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,7 +35,8 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 计划有效性
   follow_up_question: '计划里的关键假设是否已经在真实场景中做过最小验证？'
----# 暗知识：PDCA从Do开始不是从Plan开始
+---
+# 暗知识：PDCA从Do开始不是从Plan开始
 
 ## 原始表述
 

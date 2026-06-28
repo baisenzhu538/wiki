@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-research-question-quality
 title: 好调研目标 vs 坏调研目标：决策可验证性
 type: dk
@@ -25,7 +24,9 @@ related:
   - [[dk-yitang-public-info-is-enough]]
   - [[dk-yitang-research-goal-before-efficiency]]
   - [[concept-yitang-ideal-research-goal]]
----# 好调研目标 vs 坏调研目标
+updated_at: 2026-06-28
+---
+# 好调研目标 vs 坏调研目标
 
 > 差的调研目标是"我想了解XX"。好的调研目标是一个可以被验证或证伪的陈述。
 
@@ -59,3 +60,27 @@ Doris和Truman在不同课程里都强调了同一个问题：大多数人启动
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

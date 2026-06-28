@@ -13,7 +13,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: 2026-06-28
 source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -28,7 +28,6 @@ related:
   - '[[case-yitang-sales-routine-deconstruction]]'
   - '[[ai-collaboration-domain-digest]]'
 ---
-
 # 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 
 ## Burn Line
@@ -197,3 +196,10 @@ related:
 - 当你觉得自己的 AI 输出"时好时坏、不稳定"时 → 建立提示词/参数模板库，把随机输出变成可控流程。
 - 当你不敢把 AI 输出用于真实工作时 → 从最小真实场景开始，比如一份内部报告配图、一次朋友圈发布。
 - 当你发现以前好用的提示词突然失效时 → 每周留出固定时间做模型和套路的迭代测试。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

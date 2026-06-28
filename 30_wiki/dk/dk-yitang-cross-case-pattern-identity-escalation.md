@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-cross-case-pattern-identity-escalation
 title: 跨案例模式：多重身份交叉验证——同一问题用3个以上身份从不同角度验证
 type: dk
@@ -27,7 +26,9 @@ related:
   - [[case-liutao-douyin-team-leader-9m]]
   - [[case-yitang-elderly-home-roleplay]]
   - [[case-zhanglei-nursing-home-family]]
----# 跨案例模式：多重身份交叉验证
+updated_at: 2026-06-28
+---
+# 跨案例模式：多重身份交叉验证
 
 > 横跨10+案例的最强模式——同一目标问题，用3个以上不同身份从不同角度获取信息，然后交叉比对。
 
@@ -56,3 +57,27 @@ related:
 ---
 
 *卡片类型：dark_knowledge | 审核状态：待审*
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
+
+## 使用场景
+
+- src_unknown（待补充：什么情况下用这个暗知识）
+
+## 操作方法
+
+1. src_unknown（待补充具体步骤）
+
+## 适用边界
+
+- src_unknown（待补充：什么时候不适用）
+
+## 为什么值钱
+
+- src_unknown（待补充：公开语料中为什么找不到）
+
+## 与其他知识的关联
+
+- [[src_unknown]]（待补充：至少 1 张概念卡 + 1 张暗知识卡）

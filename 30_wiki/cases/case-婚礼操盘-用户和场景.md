@@ -1,5 +1,4 @@
 ---
-
 id: case-婚礼操盘-用户和场景
 title: 案例：婚礼操盘——用户和场景分析
 type: case
@@ -24,6 +23,7 @@ related:
   - [[tool-ROI决策评估画布]]
   - [[case-婚礼规划]]
   - [[concept-稀缺机会窗口]]
+updated_at: 2026-06-28
 ---
 # 案例：婚礼操盘——用户和场景
 
@@ -44,3 +44,10 @@ related:
 ---
 
 *基于 VLM 描述生产。叙事较薄，后续需 enrich。*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

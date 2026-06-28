@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-feature-stacking
 title: 功能堆叠陷阱：加功能≠满足需求
 type: dk
@@ -23,7 +22,9 @@ related:
   - [[dk-demand-hidden-need]]
   - [[dk-yitang-public-info-is-enough]]
   - [[framework-demand-iceberg]]
----# 功能堆叠陷阱：加功能≠满足需求
+updated_at: 2026-06-28
+---
+# 功能堆叠陷阱：加功能≠满足需求
 
 ## 原始表述
 

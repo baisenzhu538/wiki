@@ -1,5 +1,4 @@
 ---
-
 id: dk-wanghuan-tacit-decision-extraction-cross-domain
 title: 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 type: dk
@@ -13,7 +12,7 @@ domain:
   - b2b
   - consulting
 created_at: '2026-06-20'
-updated_at: '2026-06-20'
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: pending
 confidence: 0.78
@@ -56,7 +55,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----# 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
+---
+# 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 
 > **Burn line**：话术是决策链最末端的产物；真正可迁移的不是教育销售的 PACED 表格，而是"把专家隐性判断显性化"的萃取方法。
 

@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-ai-cant-design-structure
 title: 暗知识：AI不会自己搞结构设计
 type: dk
@@ -20,7 +19,7 @@ related:
   - [[dk-wanghuan-magic-defeats-magic]]
   - [[concept-ji-hao-ai-collaboration-methodology]]
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,7 +37,8 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 协作结构未对齐
   follow_up_question: 是否在开始协作前约定好了统一的结构/字段/输出规范？
----# 暗知识：AI不会自己搞结构设计
+---
+# 暗知识：AI不会自己搞结构设计
 
 ## 原始表述
 

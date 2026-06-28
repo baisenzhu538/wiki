@@ -27,8 +27,8 @@ related:
   - '[[dk-yitang-deliberate-practice-common-traps]]'
   - '[[case-yitang-poker-parameterized-practice]]'
   - '[[case-yitang-ai-painting-commercialization]]'
+updated_at: 2026-06-28
 ---
-
 # 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
 
 ## 一句话
@@ -166,3 +166,10 @@ related:
 - 与 `tool-yitang-feedback-self-check` 的关系：蓝军的真实通话反馈是「无导师反馈」的一种强形式——市场直接给结果。
 - 与 `framework-ai-deliberate-practice-loop` 的关系：在 AI 时代，销冠话术、客户异议、谈判场景都可以用 AI 模拟生成，但核心逻辑仍是「套路 + 非舒适区 + 反馈 + 重复」。
 - 与 `case-yitang-poker-parameterized-practice` 的对比：乔牌用参数化模型训练扑克，蓝军用话术模型训练销售，两者都是把隐性经验显性化后高密度练习。
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

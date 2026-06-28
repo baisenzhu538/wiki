@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-simple-complex-routing
 title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
 type: dk
@@ -20,7 +19,7 @@ related:
   - [[dk-wanghuan-magic-defeats-magic]]
   - [[concept-ji-hao-ai-collaboration-methodology]]
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,7 +37,8 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 路由能力上限
   follow_up: 是否需要自动化路由或工作流引擎替代人工导诊台？
----# 暗知识：简单系统跳过导诊台，复杂系统必须路由
+---
+# 暗知识：简单系统跳过导诊台，复杂系统必须路由
 
 ## 原始表述
 
