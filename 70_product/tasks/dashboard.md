@@ -3,7 +3,7 @@
 # Task Dashboard
 
 Generated: 2026-06-26T21:00:00+00:00
-updated: 2026-06-27
+updated: 2026-06-28
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
@@ -42,6 +42,11 @@ updated: 2026-06-27
 | task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理（已完成） | done | 黄药师 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 已拆分 |
 | task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | P1 | task_20260628_laowantong-case-section-standardization.md | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | master-7-cards-layer-and-boundary | Master 域 7 张卡规范化 | reviewed | 欧阳锋 | P1 | master-7-cards-layer-and-boundary.md | Hermes 老顽童完成规范化；欧阳锋终审通过：7/7 卡 `kdo pre-submit` + `kdo lint` 通过；审查中修复 20 个缺失 source_refs 为 pending_archive 占位 |
+| task_20260628_hermes-lint-baseline-cleanup-batch1 | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | pending_review | Hermes 老顽童 | P1 | task_20260628_hermes-lint-baseline-cleanup-batch1.md | Hermes 已完成：修复 784 文件 frontmatter 机械错误，frontmatter parse 类 ERROR 清零；`kdo lint` 剩余 890 个内容/section/source_refs/URL 类错误 |
+| task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | queued | 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | 130 文件，补 `## 背景/事件链/我的判断/结果验证` 骨架 |
+| task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | queued | 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | 43 文件，补 `## 问题/洞察/行动` 骨架 |
+| task_20260628_huangyaoshi-lint-batch2-source-refs | lint Batch 2-C：source_refs 真实存在性清理 | queued | 黄药师 | P1 | task_20260628_huangyaoshi-lint-batch2-source-refs.md | 107 文件，处理合并写法、外部 URL、不存在文件、空 source_refs |
+| task_20260628_wangyuyan-wave6-blindspot-diagnosis | Wave 6 新盲区探索诊断 | queued | 王语嫣 | P2 | task_20260628_wangyuyan-wave6-blindspot-diagnosis.md | 基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
@@ -67,7 +72,7 @@ updated: 2026-06-27
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
-> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零，`kdo lint` 剩余 890 个内容/section/source_refs/URL 类错误，待王语嫣拆分为后续任务。
+> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零，`kdo lint` 剩余 890 个内容/section/source_refs/URL 类错误；Batch 2 已拆分为 A/B/C 三个子任务（共 280 文件）分别由老顽童/黄药师处理，目标降至 100 以下。
 
 ---
 
@@ -81,7 +86,8 @@ updated: 2026-06-27
 | 黄药师 | `parking-lot-huangyaoshi.md` | 4 | 0 | 1 | 3 | 2026-06-28 |
 | 欧阳锋 | `parking-lot-ouyangfeng.md` | 1 | 0 | 1 | 0 | 2026-06-28 | O-1 已确认，待升级实施 |
 | 王语嫣 | — | 0 | 0 | 0 | 0 | — |
-| 老顽童 | `task_20260628_hermes-lint-baseline-cleanup-batch1.md` | 1 | 0 | 1 | 0 | 2026-06-28 | lint 基线清理 Batch 1：659 个 frontmatter 机械错误待 Hermes 处理 |
+| 老顽童 | `task_20260628_hermes-lint-baseline-cleanup-batch1.md` | 1 | 0 | 1 | 0 | 2026-06-28 | lint 基线清理 Batch 1：659 个 frontmatter 机械错误 Hermes 已处理，待欧阳锋抽检 |
+| 王语嫣 | `task_20260628_wangyuyan-wave6-blindspot-diagnosis.md` | 1 | 0 | 1 | 0 | 2026-06-28 | Wave 6 新盲区诊断：基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
 | 洪七公 | — | 0 | 0 | 0 | 0 | — |
 | 段王爷 | — | 0 | 0 | 0 | 0 | — |
 
