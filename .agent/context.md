@@ -17,7 +17,7 @@ blockers:
   - "✅ 欧阳锋完成渠道增长域 case section 标准化终审（2026-06-28）：11/11 文件通过，`kdo lint` 0 ERROR；1 处标题序号问题已现场修复；任务单 assignee 已修正为 Kimi 老顽童（实际完成）"
   - "🆕 Hermes 老顽童进入 wave4 正式生产（2026-06-28）：wave3 + 第八批 dk 清零均 reviewed，wave4 依赖解除；Hermes 从'读素材做准备'转为'正式生产'"
   - "🆕 wave5 预分配给 WorkBuddy 老顽童（2026-06-28）：wave5 当前 queued，等 wave4 完成后由 WorkBuddy 启动生产；Hermes 专心完成 wave4"
-  - "🆕 角色停车场机制上线（2026-06-28）：黄药师的'停车场清单'工作方式推广到全角色；已创建 `parking-lot-huangyaoshi.md`（6 项）和 `parking-lot-ouyangfeng.md`（1 项）；`dashboard.md` 增加'角色停车场'汇总区块；统一格式、状态、升级路径和清理规则；王语嫣负责组织每月 review"
+  - "🆕 角色停车场机制上线（2026-06-28）：黄药师的'停车场清单'工作方式推广到全角色；已创建 `parking-lot-huangyaoshi.md`（4 项待讨论/等依赖 + 2 项已升级）和 `parking-lot-ouyangfeng.md`（1 项）；`dashboard.md` 增加'角色停车场'汇总区块；统一格式、状态、升级路径和清理规则；已形成明确任务清单的 P-1/P-6 已移出停车场，进入 `huangyaoshi-next-tasks.md` 当前任务清单"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡（3 张缺 1 section + 7 张 6 section 全缺），WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零；已入 `production-queue.md` 队列第 7 项"
   - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已由 Kimi 老顽童完成并通过欧阳锋终审"
   - "🆕 队列锁已上线（2026-06-28）：黄药师实现 `90_control/scripts/queue_lock.py`，锁目录 `90_control/.queue-locks/`，超时 300s 自动过期，已登记到 `.agent/toolkit.md` 第〇条；多老顽童实例可安全并行更新 `production-queue.md` / `dashboard.md` / `.agent/context.md`；`.agent/laowantong-context.md` 已加入加锁/释放口令"
