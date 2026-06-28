@@ -17,6 +17,9 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 **来源**：© 2021 Yashili International（雅士利国际），冉鹏引用为细分市场分析案例

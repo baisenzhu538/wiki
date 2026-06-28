@@ -20,6 +20,8 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # AI时代的双三角竞争力

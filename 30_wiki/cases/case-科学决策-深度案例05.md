@@ -3,8 +3,8 @@
 id: case-科学决策-深度案例05
 title: 案例：一堂租办公室的ROI分析
 type: case
-status:
-created_at: 2026-06-28 reviewed
+status: reviewed
+created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.72
@@ -20,8 +20,8 @@ related:
   - [[yitang-domain-digest]]
   - [[decision-science-domain-digest]]
   - [[pending_unknown]]
-updated_at: 2026-06-28
-
+updated_at: '2026-06-29'
+review_date: '2026-06-29'
 ---
 
 # 案例：一堂租办公室的 ROI 分析

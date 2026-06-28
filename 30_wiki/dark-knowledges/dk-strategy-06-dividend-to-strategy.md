@@ -19,6 +19,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[strategy-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利

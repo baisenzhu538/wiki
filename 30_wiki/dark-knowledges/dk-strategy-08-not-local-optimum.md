@@ -19,6 +19,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[strategy-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 战略≠局部优化。战略是构建完整生态系统，不是单点提效

@@ -20,6 +20,7 @@ related:
   - [[ocr-一堂-个人修炼-全景图muse模型]]
   - [[ocr-一堂-科学决策-roi高阶训练全景图]]
   - [[pending_unknown]]
+updated_at: '2026-06-29'
 ---
 
 # 战略框架全景图

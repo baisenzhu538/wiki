@@ -19,6 +19,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[strategy-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境

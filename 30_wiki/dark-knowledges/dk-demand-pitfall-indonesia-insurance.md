@@ -19,6 +19,9 @@ related:
   - [[dk-ai-entrepreneur-technical-blindspot]]
   - [[dk-strategy-02-three-paradoxes]]
   - [[yitang-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 ## 原始表述

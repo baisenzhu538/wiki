@@ -20,6 +20,8 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 峰终定律：用户体验的二八定律

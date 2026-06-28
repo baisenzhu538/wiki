@@ -20,6 +20,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[yitang-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在

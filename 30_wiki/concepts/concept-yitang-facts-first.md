@@ -5,7 +5,7 @@ title: 事实优先：调研的基本纪律
 type: concept
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
 confidence: 0.88
@@ -23,6 +23,7 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+updated_at: '2026-06-29'
 ---
 
 # 事实优先

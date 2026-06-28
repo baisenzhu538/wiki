@@ -1,0 +1,17 @@
+30_wiki/cases/case-科学决策-深度案例05.md
+30_wiki/cases/case-科学决策-深度案例06.md
+30_wiki/concepts/concept-ceo-must-do-user-research.md
+30_wiki/concepts/concept-harness-cattle-not-pets.md
+30_wiki/concepts/concept-harness-scoring-anchors.md
+30_wiki/concepts/concept-mcp-protocol.md
+30_wiki/concepts/concept-research-delegation-in-scaling.md
+30_wiki/concepts/concept-research-responsibility-boundary.md
+30_wiki/concepts/concept-strategy-framework-landscape.md
+30_wiki/concepts/concept-yitang-facts-first.md
+30_wiki/concepts/concept-yitang-ideal-research-goal.md
+30_wiki/concepts/concept-yitang-research-aesthetic.md
+30_wiki/concepts/concept-yitang-research-mindset.md
+30_wiki/dark-knowledges/dk-demand-pitfall-restaurant-hiring.md
+30_wiki/dark-knowledges/dk-demand-pitfall-rural-5g.md
+30_wiki/dark-knowledges/dk-demand-pitfall-tier4-housekeeping.md
+30_wiki/dark-knowledges/dk-demand-pitfall-travel-agent.md

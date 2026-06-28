@@ -20,6 +20,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[yitang-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6

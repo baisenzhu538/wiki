@@ -20,6 +20,9 @@ related:
   - [[yt-five-step-method]]
   - [[dk-tool-as-phased-validator]]
   - [[yitang-domain-digest]]
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感

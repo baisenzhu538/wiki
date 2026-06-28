@@ -20,6 +20,8 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 多视角思考：用不同角色审视产品

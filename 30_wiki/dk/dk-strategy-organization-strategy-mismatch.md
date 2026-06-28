@@ -19,6 +19,8 @@ related:
   - [[case-strategy-failure-08-video]]
   - [[case-strategy-failure-09-boeing]]
   - [[strategy-domain-digest]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 组织能力与战略方向不匹配

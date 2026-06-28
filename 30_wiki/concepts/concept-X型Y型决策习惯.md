@@ -20,6 +20,8 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # X型 vs Y型决策习惯
