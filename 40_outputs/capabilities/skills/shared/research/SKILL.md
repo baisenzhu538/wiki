@@ -5,6 +5,9 @@ version: 1.0.0
 author: 黄药师
 license: MIT
 platforms: [cli, feishu]
+tools:
+  search: kdo-tools/web_search.py
+  adapter: kdo-tools/research_adapter.py
 metadata:
   hermes:
     tags: [research, 调研, OSCAR, 尽调, 行业分析, 竞品分析]
@@ -14,6 +17,8 @@ metadata:
 # 商业调研总入口
 
 基于一堂 OSCAR 方法论 + 调研武器库，将模糊的调研问题转化为可决策的情报报告。
+
+本 Skill 已适配 KDO 工具链：在线搜索统一走 `kdo-tools/web_search.py`，OSCAR 流程封装在 `kdo-tools/research_adapter.py` 中。
 
 ## 触发词
 
@@ -54,7 +59,32 @@ metadata:
 
 ### Step 2: 执行 → 交叉验证 → 输出
 
+#### KDO 工具调用
+
+1. **OSCAR 第一轮搜索**（自动按 Checklist 拆 query）：
+   ```bash
+   python kdo-tools/research_adapter.py oscar \
+     --objective "验证某假设" \
+     --scope "2024-2026, 中国" \
+     --checklist "市场规模,竞品定价,渠道结构" \
+     --json
+   ```
+2. **单点/多 query 搜索**：
+   ```bash
+   python kdo-tools/research_adapter.py search "query1" "query2" --json
+   # 或直接调用底层搜索工具
+   python kdo-tools/web_search.py "query" --json
+   ```
+3. **报告 P0 质量门自检**：
+   ```bash
+   python kdo-tools/research_adapter.py validate report.md --json
+   ```
+
+> 输出为 JSON，包含 `timestamp`、`backend`、`queries`、`results`，可直接写入 KDO 引用块或事实卡片。
+
 ## 相关 wiki 卡片
+- `business-research-skill-oscar-13-weapon-system` — OSCAR + 13 武器体系总览
 - `yitang-research-domain-digest` — 域索引入口
 - `framework-yitang-oscar-research` — OSCAR 五步法
 - `framework-yitang-six-layer-cross-validation` — 六层交叉验证
+- `kdo-yaml-frontmatter-safety` — KDO 卡片引用规范
