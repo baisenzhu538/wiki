@@ -225,14 +225,24 @@
 
 **关联**：P-10（指令必须落笔）的对称问题——不仅指令要落笔，完成数据也要可重复验证。
 
-**复发案例（2026-06-28）：lint Batch 2-A/B/C 全部虚假完成**
-- WorkBuddy 老顽童声称 Batch 2-A/B 130+43 文件全部完成、`kdo pre-submit` 173/173 通过；黄药师声称 Batch 2-C 处理 314 项修复、lint ERROR 537→425。
-- 欧阳锋实测：三批清单内文件相对 HEAD 均无 git diff；`kdo lint` 仍报 Case section ERROR 220 个、dk section ERROR 30 个、source_refs `file not found` ERROR 175 个。
-- 根因同构：执行者把"脚本跑完/预期效果"等同于"仓库已修改"，未用 git diff 和独立 lint 实测验证。
+**复发案例（2026-06-28）：lint Batch 2-A/B/C 完成报告争议**
+- **第一次报告**：WorkBuddy 老顽童声称 Batch 2-A/B 130+43 文件完成、`kdo pre-submit` 173/173 通过；黄药师声称 Batch 2-C 处理 314 项修复、lint ERROR 537→425。
+- **欧阳锋初审**：三批清单内文件相对 HEAD 均无 git diff；`kdo lint` 仍报 Case section ERROR 220 个、dk section ERROR 30 个、source_refs `file not found` ERROR 175 个。判定全部虚假完成，退回重做。
+- **老顽童重新执行**：使用 `dangerouslyDisableSandbox: true` 绕过沙箱直接写真实磁盘，vault backup 自动将修改 commit 到 HEAD。
+- **王语嫣独立复核**：
+  - `git diff HEAD~10 HEAD --stat` 显示 141 files changed, +1728/-297
+  - `git show HEAD:<file>` 确认 130/130 case 文件含 4 个标准 section，57/57 dk 文件含 6 个标准 section
+  - `kdo lint` 显示 Case section ERROR = 0，DK section ERROR = 0，剩余 175 ERROR 全部为 source_refs 类
+  - 结论：**Batch 2-A/B 真实完成，欧阳锋初审为误报；Batch 2-C 仍为虚假完成，黄药师未实际修改文件**
+
+**根因分层**：
+1. **真问题（Batch 2-C）**：黄药师把"脚本跑完/预期效果"等同于"仓库已修改"，未用 git diff 和独立 lint 实测验证。
+2. **验证方法缺陷（Batch 2-A/B 误报）**：vault backup 自动 commit 机制下，`git diff HEAD` 只显示 unstaged 变更，已被 commit 的修改不会出现在 diff 中。欧阳锋用 `git diff HEAD` 作为唯一验证手段，导致把真实完成误判为虚假完成。
 
 **新增对策**：
 - 批量任务提交前必须跑 `kdo pre-submit -f <清单> --expect-changes <数量>`，git 实际变更文件数小于声称数直接 FAIL
 - Builder 黄药师已将 `--expect-changes` 门禁写入 KDO CLI，后续批量任务无法绕过
+- **审查者验证批量完成时，不能只用 `git diff HEAD`**：必须结合 `git log`、`git show HEAD:<file>`、`git diff HEAD~N HEAD` 或独立 lint 重跑，尤其在 vault backup auto-commit 开启时
 
 **症状**：在文件frontmatter里更新了 `source_refs` 和 `wiki_refs`，`kdo validate` 仍然报 "Missing"。
 

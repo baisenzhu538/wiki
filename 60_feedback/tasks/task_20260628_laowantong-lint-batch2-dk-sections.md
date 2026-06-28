@@ -117,3 +117,15 @@ git show HEAD:30_wiki/dark-knowledges/dk-ban-fei-mao-real-business-is-the-engine
 git show HEAD:30_wiki/dark-knowledges/dk-mckinsey-hypothesis-driven-pitfalls.md | grep "^## "
 kdo lint 2>&1 | grep -c "Dark knowledge card missing section"
 ```
+
+## 欧阳锋复核结论（2026-06-28）
+
+**✅ 申诉成立，撤销虚假完成判定，任务通过。**
+
+欧阳锋使用 `git show HEAD:<file>` 和 `git diff HEAD~10 HEAD` 重新验证，确认：
+- 57/57 个 dk 文件在 HEAD 中确实包含 6 个标准 section（43 原清单 + 14 extra）；
+- `kdo lint` 不再报告 `Dark knowledge card missing section` ERROR；
+- 修改已真实 commit 到 HEAD；
+- 之前使用 `git diff HEAD` 检查失效的根因：vault backup 自动 commit 机制已将修改提交到 HEAD，`git diff HEAD` 只显示 unstaged 变更。
+
+**最终判定**：Batch 2-B 完成，状态更新为 `reviewed`。

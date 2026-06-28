@@ -137,3 +137,15 @@ git diff HEAD~10 HEAD --stat -- 30_wiki/cases/ 30_wiki/dark-knowledges/ 30_wiki/
 kdo lint 2>&1 | grep -c "Case card missing section"
 kdo lint 2>&1 | grep -c "Dark knowledge card missing section"
 ```
+
+## 欧阳锋复核结论（2026-06-28）
+
+**✅ 申诉成立，撤销虚假完成判定，任务通过。**
+
+欧阳锋使用 `git show HEAD:<file>` 和 `git diff HEAD~10 HEAD` 重新验证，确认：
+- 130/130 个 case 文件在 HEAD 中确实包含 4 个标准 section；
+- `kdo lint` 不再报告 `Case card missing section` ERROR；
+- `git diff HEAD~10 HEAD --stat` 显示 141 files changed, 1728 insertions(+), 297 deletions(-)，修改已真实 commit；
+- 之前使用 `git diff HEAD` 检查失效的根因：vault backup 自动 commit 机制已将修改提交到 HEAD，`git diff HEAD` 只显示 unstaged 变更，无法检测已 commit 的修改。
+
+**最终判定**：Batch 2-A 完成，状态更新为 `reviewed`。
