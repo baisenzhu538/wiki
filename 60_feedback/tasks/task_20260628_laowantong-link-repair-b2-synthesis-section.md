@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b2-synthesis-section
 type: task
-status: in_progress
+status: completed
 assignee: 老顽童
 priority: P1
 created_at: 2026-06-28
@@ -45,6 +45,12 @@ source_refs:
 - `kdo lint` 中 Synthesis section 相关死链/占位 ERROR 清零 ✅（0 ERROR）
 - 抽检 20 张卡，确认 Synthesis src_unknown 已替换为 `待补充链接` 纯文本或真实 wikilink ✅（19/20 + 1 YAML 修复后全通过）
 - `kdo pre-submit` 6/6 PASS ✅（含 3 张特殊卡 + 3 张纯占位型卡）
+- **B2 审查退回补充清理（2026-06-28）**：
+  - 欧阳锋独立扫描发现 66 个非 archive 卡片的 Synthesis section 仍有 src_unknown 未清理
+  - 原因：Section 标题变体（`## Synthesis / 关联`、`## 关联概念` 等）未被精确匹配；段落内纯文本 `src_unknown ...` 未替换
+  - 补充清理：17 个文件修改，120 处替换，目标 section 内 src_unknown 全部清零 ✅
+  - 修复 2 个 frontmatter parse error（`yt-foresight-model-taxonomy.md`、`yt-personal-product-design.md`）
+  - 验证：B2 文件无新增 lint ERROR（剩余 6 个为历史遗留 missing title/type/updated_at）
 
 ## 执行报告
 
