@@ -1,11 +1,10 @@
 ---
-
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- src_20260614_623cfbfd-高阶建模-流程建模
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
 domain:
 - src_unknown
@@ -28,19 +27,18 @@ diagnostic_signals:
 - framework_lens: 趁热复盘 + 24 小时补丁机制
   follow_up_question: 最近一次直播意外后，多久更新了 SOP？触发条件是什么？
 related:
-  - [[case-truman-livestream-sop-iteration]]
-  - [[case-zhangyang-anchor-sop-three-locks]]
-  - [[tool-sop-template-modeling]]
-  - [[tool-checklist-cheatsheet-modeling]]
-  - [[process-modeling]]
-  - [[dk-modeling-sop-execution-locks]]
+- - - case-truman-livestream-sop-iteration
+- - - case-zhangyang-anchor-sop-three-locks
+- - - tool-sop-template-modeling
+- - - tool-checklist-cheatsheet-modeling
+- - - process-modeling
+- - - dk-modeling-sop-execution-locks
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
 
 # 案例：直播前热身 SOP 建模

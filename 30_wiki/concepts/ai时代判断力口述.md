@@ -1,10 +1,9 @@
 ---
-
 id: ai时代判断力口述
 created_at: 2026-05-25
 domain: healthcare
 source_refs:
-- src_20260525_6748cc27-ai时代判断力口述
+- 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md
 status: enriched
 title: AI时代判断力口述
 type: concept
@@ -17,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[ai时代判断力口述-3]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - ai时代判断力口述-3
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # AI时代判断力口述

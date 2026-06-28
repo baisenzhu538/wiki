@@ -24,13 +24,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-tool-best-practice-learning]]
-  - [[yt-tool-fab-persuasion]]
-  - [[yt-tool-foresight-canvas]]
+- - - yt-tool-best-practice-learning
+- - - yt-tool-fab-persuasion
+- - - yt-tool-foresight-canvas
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260613_96e45c45-qishijian-business-model
+- 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
 title: Y模型尺子刻度法：从模糊经验到可复用评估模型
 type: tool

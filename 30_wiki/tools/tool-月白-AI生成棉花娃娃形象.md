@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-基于白底图做动作延展]]
-  - [[tool-月白-表情包风格筛选与确定]]
-  - [[tool-月白-基于基础形象做动作延展（1到10）]]
-  - [[tool-月白-风格探索试错法]]
-  - [[tool-月白-AIGC生成人物证件照]]
+- - - tool-月白-基于白底图做动作延展
+- - - tool-月白-表情包风格筛选与确定
+- - - tool-月白-基于基础形象做动作延展（1到10）
+- - - tool-月白-风格探索试错法
+- - - tool-月白-AIGC生成人物证件照
 ---
 # 技能：AI生成棉花娃娃形象
 

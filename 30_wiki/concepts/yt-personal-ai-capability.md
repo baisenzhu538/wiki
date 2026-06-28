@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,17 +19,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂方法论体系总图]]
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[yt-personal-ipo-learning]]
-  - [[yt-personal-knowledge-extraction]]
-  - [[yt-entrepreneur-needs-analysis]]
-  - [[yt-personal-product-design]]
+- - - 一堂方法论体系总图
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - yt-personal-ipo-learning
+- - - yt-personal-knowledge-extraction
+- - - yt-entrepreneur-needs-analysis
+- - - yt-personal-product-design
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_ea308189-一堂-教学能力修炼分享
+- 10_raw/sources/src_20260614_ea308189-一堂-教学能力修炼分享.md
 status: enriched
 title: AI 能力（双模型）
 trust_level: medium
@@ -54,7 +53,6 @@ diagnostic_signals:
   follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # AI 能力（双模型）

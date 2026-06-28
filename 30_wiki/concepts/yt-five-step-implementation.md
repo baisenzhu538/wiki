@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -17,18 +16,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-five-step-method]]
-  - [[yt-demand-analysis-hiking-map]]
-  - [[yt-product-kernel-cultivation]]
-  - [[yt-unit-model-concept]]
-  - [[yt-growth-cycle-model]]
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[yt-five-step-common-pitfalls]]
+- - - yt-five-step-method
+- - - yt-demand-analysis-hiking-map
+- - - yt-product-kernel-cultivation
+- - - yt-unit-model-concept
+- - - yt-growth-cycle-model
+- - - yt-barrier-analysis-cheat-sheet
+- - - yt-five-step-common-pitfalls
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
-- src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
-- src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
+- 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
+- 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
 status: reviewed
 title: 五步法落地实操：从故事版到分工版
 trust_level: medium
@@ -49,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 五步法落地实操：从故事版到分工版

@@ -1,13 +1,12 @@
 ---
-
 id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
 domain:
 - src_unknown
 source_refs:
-- src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-- src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
+- 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+- 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
 status: enriched
 confidence: 0.9
 difficulty: beginner
@@ -39,22 +38,22 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - [[plan_20260501_ca61cdd7-improvement-plan]]
-  - [[plan_20260501_e1e150b9-improvement-plan]]
-  - [[plan_20260501_8ecb74e3-improvement-plan]]
-  - [[plan_20260501_05858800-improvement-plan]]
-  - [[dk-modeling-explanatory-vs-predictive-essence]]
-  - [[tool-sabc-tier-modeling]]
-  - [[plan_20260531_data-curator-v1.3]]
-  - [[plan_20260501_85a84b92-improvement-plan]]
-  - [[plan_20260531_data-curator-v1]]
-  - [[yt-business-formula-abc-model]]
-  - [[plan_20260501_8001399c-improvement-plan]]
-  - [[plan_20260531_data-curator-v1.1]]
-  - [[ocr-一堂-科学决策-关键假设abcd模型]]
-  - [[yt-tob-customer-sabc]]
-  - [[plan_20260621_skill-iteration-standard]]
-  - [[plan_20260621_kdo-quality-harness-upgrade]]
+- - - plan_20260501_ca61cdd7-improvement-plan
+- - - plan_20260501_e1e150b9-improvement-plan
+- - - plan_20260501_8ecb74e3-improvement-plan
+- - - plan_20260501_05858800-improvement-plan
+- - - dk-modeling-explanatory-vs-predictive-essence
+- - - tool-sabc-tier-modeling
+- - - plan_20260531_data-curator-v1.3
+- - - plan_20260501_85a84b92-improvement-plan
+- - - plan_20260531_data-curator-v1
+- - - yt-business-formula-abc-model
+- - - plan_20260501_8001399c-improvement-plan
+- - - plan_20260531_data-curator-v1.1
+- - - ocr-一堂-科学决策-关键假设abcd模型
+- - - yt-tob-customer-sabc
+- - - plan_20260621_skill-iteration-standard
+- - - plan_20260621_kdo-quality-harness-upgrade
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

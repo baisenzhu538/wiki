@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 source_refs:
-- src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
+- 10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AI生成IP表情包]]
-  - [[tool-月白-基于白底图做动作延展]]
-  - [[tool-月白-表情包风格筛选与确定]]
-  - [[tool-月白-风格探索试错法]]
-  - [[tool-月白-AIGC生成人物证件照]]
+- - - tool-月白-AI生成IP表情包
+- - - tool-月白-基于白底图做动作延展
+- - - tool-月白-表情包风格筛选与确定
+- - - tool-月白-风格探索试错法
+- - - tool-月白-AIGC生成人物证件照
 ---
 # 技能：基于基础形象做动作延展（1到10）
 

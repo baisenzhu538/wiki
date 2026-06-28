@@ -1,5 +1,4 @@
 ---
-
 id: yt-unit-model-build
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -17,17 +16,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-unit-model-concept]]
-  - [[yt-unit-model-ladder]]
-  - [[yt-unit-model-selection]]
-  - [[yt-market-size-estimation]]
-  - [[case-unit-model-gashapon]]
-  - [[yt-growth-cycle-model]]
+- - - yt-unit-model-concept
+- - - yt-unit-model-ladder
+- - - yt-unit-model-selection
+- - - yt-market-size-estimation
+- - - case-unit-model-gashapon
+- - - yt-growth-cycle-model
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
-- src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
-- src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
+- 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
+- 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
 status: enriched
 title: 单元模型搭建五步法
 trust_level: medium
@@ -50,7 +49,6 @@ diagnostic_signals:
 - framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
-
 ---
 
 # 单元模型搭建五步法

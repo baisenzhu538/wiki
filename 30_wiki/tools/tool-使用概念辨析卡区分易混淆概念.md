@@ -3,13 +3,13 @@ id: tool-使用概念辨析卡区分易混淆概念
 title: 技能：使用概念辨析卡区分易混淆概念
 type: tool
 domain:
-  - learning-methodology- design
-  - business-strategy
+- learning-methodology- design
+- business-strategy
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
-- src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
+- 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -23,11 +23,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-设定管理杠杆率指标评估效率]]
-  - [[tool-建立策略-要素映射表设计对抗策略]]
-  - [[tool-遵循规模前倾原则设计组织架构]]
-  - [[tool-使用优先级快筛卡锁定核心矛盾]]
-  - [[tool-设计对抗效果追踪看板]]
+- - - tool-设定管理杠杆率指标评估效率
+- - - tool-建立策略-要素映射表设计对抗策略
+- - - tool-遵循规模前倾原则设计组织架构
+- - - tool-使用优先级快筛卡锁定核心矛盾
+- - - tool-设计对抗效果追踪看板
 ---
 # 技能：使用概念辨析卡区分易混淆概念
 

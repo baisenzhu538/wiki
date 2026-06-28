@@ -1,12 +1,10 @@
 ---
-
-
 id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
 - healthcare
 source_refs:
-  - src_unknown []
+- 'pending_archive: src_unknown'
 status: stable
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
@@ -18,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 related:
-- [[yt-model-dual-triangle-competitiveness]]
-- [[case-yitang-double-triangle-confidence]]
-- [[ocr-一堂-科学决策-人机协作决策]]
-- [[ocr-一堂-个人修炼-双三角模型]]
-- [[ocr-一堂-人机协作-双三角模型]]
+- - - yt-model-dual-triangle-competitiveness
+- - - case-yitang-double-triangle-confidence
+- - - ocr-一堂-科学决策-人机协作决策
+- - - ocr-一堂-个人修炼-双三角模型
+- - - ocr-一堂-人机协作-双三角模型
 ---
 # 花总AMA精华摘要
 

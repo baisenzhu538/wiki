@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-weekly-modeling-engine
 title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
@@ -12,7 +11,7 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 wiki_refs: []
 definition_of_done:
 - src_unknown
@@ -49,9 +48,9 @@ diagnostic_signals:
 - framework_lens: 研究型交付 vs 标准化交付
   follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
 related:
-  - [[yt-lean-daily-chemical-mvp]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[case-yitang-model-valuation-flywheel]]
+- - - yt-lean-daily-chemical-mvp
+- - - yt-entrepreneur-lean-validation
+- - - case-yitang-model-valuation-flywheel
 ---
 
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎

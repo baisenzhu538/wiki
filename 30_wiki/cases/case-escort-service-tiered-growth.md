@@ -1,5 +1,4 @@
 ---
-
 id: case-escort-service-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -17,7 +16,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
-- src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+- 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 status: enriched
 title: 案例：陪诊业务七级演进
 trust_level: medium
@@ -34,11 +33,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-  - [[yt-foresight-business-spectrum]]
-  - [[yt-entrepreneur-opportunity-selection]]
-  - [[case-coffee-shop-foresight]]
-  - [[case-ai-time-management-tiered-growth]]
-  - [[yitang-domain-digest]]
+- - - yt-foresight-business-spectrum
+- - - yt-entrepreneur-opportunity-selection
+- - - case-coffee-shop-foresight
+- - - case-ai-time-management-tiered-growth
+- - - yitang-domain-digest
 ---
 
 # 案例：陪诊业务七级演进

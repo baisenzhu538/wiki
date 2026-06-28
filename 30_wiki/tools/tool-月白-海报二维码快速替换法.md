@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-课程问题预埋法]]
-  - [[tool-月白-提示词长度控制法]]
-  - [[tool-月白-AI需求拆解咨询法]]
-  - [[tool-月白-用一堂方法论找最佳实践并拉满执行]]
-  - [[tool-月白-三步作业反馈法]]
+- - - tool-月白-课程问题预埋法
+- - - tool-月白-提示词长度控制法
+- - - tool-月白-AI需求拆解咨询法
+- - - tool-月白-用一堂方法论找最佳实践并拉满执行
+- - - tool-月白-三步作业反馈法
 ---
 # 技能：海报二维码快速替换法
 

@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-full-process
 component_of:
 - src_unknown
@@ -24,16 +23,16 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-decision-width-method]]
-  - [[yt-decision-depth-ladder]]
-  - [[yt-decision-canvas]]
-  - [[yt-decision-height-toolkit]]
-  - [[yt-decision-consensus-iceberg]]
-  - [[yt-decision-review]]
-  - [[yt-decision-habit-shift]]
-  - [[yt-decision-y-model]]
+- - - yt-decision-width-method
+- - - yt-decision-depth-ladder
+- - - yt-decision-canvas
+- - - yt-decision-height-toolkit
+- - - yt-decision-consensus-iceberg
+- - - yt-decision-review
+- - - yt-decision-habit-shift
+- - - yt-decision-y-model
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
 title: 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 trust_level: medium
@@ -82,7 +81,6 @@ diagnostic_signals:
 - framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
   follow_up_question: 最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地
 author: 老顽童
-
 ---
 
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

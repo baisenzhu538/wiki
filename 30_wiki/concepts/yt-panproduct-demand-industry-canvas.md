@@ -1,5 +1,4 @@
 ---
-
 id: yt-panproduct-demand-industry-canvas
 component_of:
 - src_unknown
@@ -22,15 +21,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-36-strategies]]
-  - [[一堂]]
-  - [[framework-一堂五步法-泛产品设计]]
-  - [[yt-panproduct-demand-project-background]]
-  - [[yt-entrepreneur-research-camp]]
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-36-strategies
+- - - 一堂
+- - - framework-一堂五步法-泛产品设计
+- - - yt-panproduct-demand-project-background
+- - - yt-entrepreneur-research-camp
 reviewed_by: 欧阳锋
 source_refs:
-- src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布
+- 10_raw/sources/src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md
 status: enriched
 title: yt-panproduct-demand-industry-canvas
 type: concept
@@ -53,7 +52,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 行业分析画布：分析行业赛道的变化和机会

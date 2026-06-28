@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-mental-model-refinement
 component_of:
 - src_unknown
@@ -23,15 +22,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-动手建模提炼]]
-  - [[tool-月白-社群直播海报利益点提炼法]]
-  - [[ocr-一堂提炼过的因果模型]]
-  - [[tool-费曼简单提炼法]]
-  - [[tool-费曼学习法三句话提炼]]
+- - - tool-动手建模提炼
+- - - tool-月白-社群直播海报利益点提炼法
+- - - ocr-一堂提炼过的因果模型
+- - - tool-费曼简单提炼法
+- - - tool-费曼学习法三句话提炼
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260613_96e45c45-qishijian-business-model
+- 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
 title: 思维模型提炼：从体感经验到可复用武器库
 type: tool
@@ -51,7 +50,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 ## Summary

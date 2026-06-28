@@ -23,12 +23,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [["ocr-泛产品设计-落地卡片-善用佳软"]]
-  - [["ocr-泛产品设计-落地卡片-roi分析"]]
-  - [["ocr-泛产品设计-落地卡片-业务建模"]]
+- - - ocr-泛产品设计-落地卡片-善用佳软
+- - - ocr-泛产品设计-落地卡片-roi分析
+- - - ocr-泛产品设计-落地卡片-业务建模
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软
+- 10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md
 status: superseded
 title: 泛产品设计·落地卡片：善用佳软
 type: tool

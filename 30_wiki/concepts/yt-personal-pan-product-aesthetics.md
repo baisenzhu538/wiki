@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-pan-product-aesthetics
 component_of:
 - src_unknown
@@ -18,14 +17,14 @@ query_triggers:
 - src_unknown审美篇
 - src_unknown审美篇：最佳实践与审美建模
 related:
-  - [[yt-model-pan-product-aesthetic-toolkit]]
-  - [[yt-personal-pan-product-concepts]]
-  - [[一堂]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - yt-model-pan-product-aesthetic-toolkit
+- - - yt-personal-pan-product-concepts
+- - - 一堂
+- - - pending_unknown
+- - - pending_unknown
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_d7218337-泛产品设计审美卡片
+- 10_raw/sources/src_20260510_d7218337-泛产品设计审美卡片.md
 status: enriched
 title: 泛产品设计审美篇：最佳实践与审美建模
 type: concept
@@ -49,7 +48,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

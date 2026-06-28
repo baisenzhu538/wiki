@@ -1,5 +1,4 @@
 ---
-
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -9,8 +8,8 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 tags:
 - src_unknown
 - src_unknown
@@ -34,19 +33,19 @@ diagnostic_signals:
 - framework_lens: SOP 颗粒度与场景化
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
-  - [[tool-从案例中学习]]
-  - [[ocr-一堂-案例拆解-课程清单]]
-  - [[ocr-一堂-科学决策-深度-案例02]]
-  - [[case-科学决策-深度案例06]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
-  - [[dk-modeling-sop-execution-locks]]
-  - [[case-科学决策-深度案例02]]
-  - [[case-zhangyang-anchor-sop-three-locks]]
-  - [[tool-纪浩-案例池构建法]]
-  - [[case-科学决策-ROI案例03]]
-  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
-  - [[tool-sop-template-modeling]]
-  - [[ocr-一堂-科学决策-深度-案例04]]
+- - - tool-从案例中学习
+- - - ocr-一堂-案例拆解-课程清单
+- - - ocr-一堂-科学决策-深度-案例02
+- - - case-科学决策-深度案例06
+- - - ocr-一堂-科学决策-roi决策评估画布-案例02
+- - - dk-modeling-sop-execution-locks
+- - - case-科学决策-深度案例02
+- - - case-zhangyang-anchor-sop-three-locks
+- - - tool-纪浩-案例池构建法
+- - - case-科学决策-ROI案例03
+- - - tool-马易-业务问题AI化拆解-餐饮设计案例法
+- - - tool-sop-template-modeling
+- - - ocr-一堂-科学决策-深度-案例04
 ---
 
 # 流程建模案例：10 个学员企业的 SOP 实践样本

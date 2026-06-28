@@ -8,7 +8,7 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260613_96e45c45-qishijian-business-model
+- 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 tags:
 - src_unknown
 - src_unknown
@@ -20,8 +20,8 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
-  - [[yt-tob-sales-unit-model]]
-  - [[master-cognitive-bias-checklist]]
+- - - yt-tob-sales-unit-model
+- - - master-cognitive-bias-checklist
 diagnostic_signals:
 - framework_lens: 可证伪 / 独立验证
   follow_up_question: 标记后是否停留在感觉层面？

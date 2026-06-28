@@ -1,14 +1,13 @@
 ---
-
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain:
 - src_unknown
 source_refs:
-- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
-- src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记
-- src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
+- 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
+- 10_raw/sources/src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记.md
+- 10_raw/sources/src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒.md
 status: enriched
 confidence: 0.85
 difficulty: intermediate
@@ -47,11 +46,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-29'
 related:
-  - [[yt-five-step-method]]
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[yt-entrepreneur-barriers]]
-  - [[case-five-step-growth-first-lever]]
-  - [[yt-scale-economy-weapon-library]]
+- - - yt-five-step-method
+- - - yt-barrier-analysis-cheat-sheet
+- - - yt-entrepreneur-barriers
+- - - case-five-step-growth-first-lever
+- - - yt-scale-economy-weapon-library
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

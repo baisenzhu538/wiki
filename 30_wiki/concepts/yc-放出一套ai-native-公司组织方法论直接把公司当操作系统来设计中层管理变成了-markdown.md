@@ -1,12 +1,11 @@
 ---
-
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
 domain: ai-saas
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
-- src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+- 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 status: enriched
 title: YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN
 trust_level: medium
@@ -17,14 +16,14 @@ pipeline:
 author: unknown
 confidence: 0.8
 related:
-  - [[concept-wanghuan-ai-native-definition]]
-  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-  - [[tool-agent-native-overview]]
-  - [[anthropic-官方发布创始人手册打造-ai-原生初创公司]]
-  - [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
-  - [[concept-ai-native-organization-five-steps]]
-  - [[ai-native-im-multi-agent]]
-  - [[dk-lz-ai-native-organization]]
+- - - concept-wanghuan-ai-native-definition
+- - - tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
+- - - tool-agent-native-overview
+- - - anthropic-官方发布创始人手册打造-ai-原生初创公司
+- - - ai-native-五层进阶从答案到效率到作品到产品到系统
+- - - concept-ai-native-organization-five-steps
+- - - ai-native-im-multi-agent
+- - - dk-lz-ai-native-organization
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论

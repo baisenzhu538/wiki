@@ -5,8 +5,8 @@ type: concept
 domain:
 - src_unknown
 source_refs:
-- src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-- src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
+- 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+- 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -40,10 +40,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - [[yt-foresight-15-char-mantra]]
-  - [[yt-foresight-ab-steady-state]]
-  - [[yt-foresight-addition-subtraction]]
-
+- - - yt-foresight-15-char-mantra
+- - - yt-foresight-ab-steady-state
+- - - yt-foresight-addition-subtraction
 ---
 
 # 概率工程：把小概率变成大概率的方法论

@@ -3,14 +3,14 @@ id: tool-对标借鉴他人决策维度
 title: 技能：对标借鉴他人决策维度
 type: tool
 domain:
-  - product
-  - decision-making
-  - yitang
+- product
+- decision-making
+- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
-- src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要
+- 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-区分获客渠道计算单元roi]]
-  - [[tool-辩证讨论深化]]
-  - [[tool-ai辅助学习]]
-  - [[tool-将未中标成本纳入循环计算真实投标成本]]
-  - [[tool-专家访谈学习]]
+- - - tool-区分获客渠道计算单元roi
+- - - tool-辩证讨论深化
+- - - tool-ai辅助学习
+- - - tool-将未中标成本纳入循环计算真实投标成本
+- - - tool-专家访谈学习
 ---
 # 技能：对标借鉴他人决策维度
 

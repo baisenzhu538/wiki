@@ -1,5 +1,4 @@
 ---
-
 id: case-ai-time-management-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -18,7 +17,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
-- src_20260430_59a3d224-街顺app全面调研报告
+- 10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md
 status: enriched
 title: 案例：AI时间管理App七级演进
 trust_level: medium
@@ -35,11 +34,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-  - [[yt-foresight-business-spectrum]]
-  - [[yt-ai-trend-12-signals]]
-  - [[case-escort-service-tiered-growth]]
-  - [[case-coffee-shop-foresight]]
-  - [[yitang-domain-digest]]
+- - - yt-foresight-business-spectrum
+- - - yt-ai-trend-12-signals
+- - - case-escort-service-tiered-growth
+- - - case-coffee-shop-foresight
+- - - yitang-domain-digest
 ---
 
 # 案例：AI时间管理App七级演进

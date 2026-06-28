@@ -1,10 +1,9 @@
 ---
-
 id: modeling-three-values
 title: 建模的三重价值：确定性、框架性、迁移性
 type: concept
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
 - src_unknown
@@ -15,11 +14,11 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-  - [[tool-水水-区分风险与不确定性]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - tool-水水-区分风险与不确定性
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -36,7 +35,6 @@ diagnostic_signals:
   follow_up: 用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键
 - lens: 经验未沉淀
   follow_up: 检查是否有本质建模输出，经验是否被提炼为可迁移模式
-
 ---
 
 # 建模的三重价值：确定性、框架性、迁移性

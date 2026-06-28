@@ -3,8 +3,8 @@ id: tool-马易-业务问题AI化拆解-餐饮设计案例法
 title: 技能：业务问题AI化拆解-餐饮设计案例法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- ai-saas
+- ai-collaboration
+- yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -12,15 +12,15 @@ created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
-- src_20260510_4bb17355-天花板
+- 10_raw/sources/src_20260510_4bb17355-天花板.md
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-马易-成为首位F工程师]]
-  - [[tool-马易-AI能力团队复制]]
-  - [[tool-马易-平台模式验证法]]
-  - [[tool-马易-数字员工FD拆解落地]]
-  - [[tool-马易-最小场景优先落地法]]
+- - - tool-马易-成为首位F工程师
+- - - tool-马易-AI能力团队复制
+- - - tool-马易-平台模式验证法
+- - - tool-马易-数字员工FD拆解落地
+- - - tool-马易-最小场景优先落地法
 ---
 # 技能：业务问题AI化拆解-餐饮设计案例法
 

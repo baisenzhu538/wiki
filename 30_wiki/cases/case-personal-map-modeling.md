@@ -1,10 +1,9 @@
 ---
-
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
 - src_unknown
@@ -21,14 +20,14 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
-  - [[case-truman-personal-growth-map-creation]]
-  - [[tool-从案例中学习]]
-  - [[ocr-一堂个人地图高潜力成长者修炼全景图]]
-  - [[ocr-一堂-案例拆解-课程清单]]
-  - [[ocr-一堂-科学决策-深度-案例02]]
-  - [[case-科学决策-深度案例06]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
-  - [[case-科学决策-深度案例02]]
+- - - case-truman-personal-growth-map-creation
+- - - tool-从案例中学习
+- - - ocr-一堂个人地图高潜力成长者修炼全景图
+- - - ocr-一堂-案例拆解-课程清单
+- - - ocr-一堂-科学决策-深度-案例02
+- - - case-科学决策-深度案例06
+- - - ocr-一堂-科学决策-roi决策评估画布-案例02
+- - - case-科学决策-深度案例02
 tags:
 - src_unknown
 - src_unknown
@@ -43,7 +42,6 @@ diagnostic_signals:
   follow_up_question: AI 出了几个版本？你手工写了几个版本？两者差距是否集中在"为什么这类课程必须放在一起"？
 - framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
-
 ---
 
 # 案例：一堂个人地图的完整建模过程

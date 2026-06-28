@@ -3,15 +3,15 @@ id: tool-清单小抄制作
 title: 技能：清单小抄制作
 type: tool
 domain:
-  - learning-methodology- management
-  - kdo
-  - yitang
-  - business-strategy
+- learning-methodology- management
+- kdo
+- yitang
+- business-strategy
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-- src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
+- 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-区分获客渠道计算单元roi]]
-  - [[tool-辩证讨论深化]]
-  - [[tool-ai辅助学习]]
-  - [[tool-将未中标成本纳入循环计算真实投标成本]]
-  - [[tool-费曼学习法三句话提炼]]
+- - - tool-区分获客渠道计算单元roi
+- - - tool-辩证讨论深化
+- - - tool-ai辅助学习
+- - - tool-将未中标成本纳入循环计算真实投标成本
+- - - tool-费曼学习法三句话提炼
 ---
 # 技能：清单小抄制作
 

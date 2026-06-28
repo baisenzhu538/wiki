@@ -1,10 +1,9 @@
 ---
-
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 confidence: 0.7
 domain:
@@ -16,20 +15,20 @@ reviewed_by: 老顽童
 review_date: '2026-06-16'
 trust_level: medium
 related:
-  - [[case-strategy-practice-11-third-place]]
-  - [[case-private-domain-ecommerce-formula]]
-  - [[case-strategy-failure-06-phone-n]]
-  - [[case-strategy-m-brand-profit-model]]
-  - [[tool-Truman-提示词优化底层方法]]
-  - [[case-five-step-growth-first-lever]]
-  - [[yt-product-kernel-shampoo-case]]
-  - [[case-demand-pharma-bigdata]]
-  - [[dk-modeling-case-explosion-confidence]]
-  - [[tool-Truman-AI能力分层学习路径]]
-  - [[case-doris-outbound-travel-community]]
-  - [[case-strategy-failure-04-appliance]]
-  - [[case-hr-saas-feature-usage-trap]]
-  - [[case-strategy-retailer-activity-scope]]
+- - - case-strategy-practice-11-third-place
+- - - case-private-domain-ecommerce-formula
+- - - case-strategy-failure-06-phone-n
+- - - case-strategy-m-brand-profit-model
+- - - tool-Truman-提示词优化底层方法
+- - - case-five-step-growth-first-lever
+- - - yt-product-kernel-shampoo-case
+- - - case-demand-pharma-bigdata
+- - - dk-modeling-case-explosion-confidence
+- - - tool-Truman-AI能力分层学习路径
+- - - case-doris-outbound-travel-community
+- - - case-strategy-failure-04-appliance
+- - - case-hr-saas-feature-usage-trap
+- - - case-strategy-retailer-activity-scope
 tags:
 - src_unknown
 - src_unknown
@@ -45,7 +44,6 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-29'
-
 ---
 
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能

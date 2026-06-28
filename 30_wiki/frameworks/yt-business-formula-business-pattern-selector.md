@@ -1,5 +1,4 @@
 ---
-
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
@@ -9,9 +8,9 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 tags:
 - src_unknown
 - src_unknown
@@ -32,11 +31,11 @@ diagnostic_signals:
 - framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
-  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - ocr-一堂-科学决策-商业模式-完整财务公式决策
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 业务公式商业模式选型框架：单次成交型 vs 持续复购型

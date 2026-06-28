@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-pan-product-concepts
 component_of:
 - src_unknown
@@ -18,15 +17,15 @@ query_triggers:
 - src_unknown认知篇：重新理解泛化产品能力
 - src_unknown
 related:
-  - [[yt-model-pan-product-36-strategies]]
-  - [[yt-personal-product-design]]
-  - [[一堂]]
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-aesthetic-toolkit]]
-  - [[yt-model-pan-product-execution-toolkit]]
+- - - yt-model-pan-product-36-strategies
+- - - yt-personal-product-design
+- - - 一堂
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-aesthetic-toolkit
+- - - yt-model-pan-product-execution-toolkit
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1-theme-personal-growth-summary
+- 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 status: enriched
 title: 泛产品设计认知篇：重新理解泛化产品能力
 type: concept
@@ -49,7 +48,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 泛产品设计认知篇：重新理解泛化产品能力

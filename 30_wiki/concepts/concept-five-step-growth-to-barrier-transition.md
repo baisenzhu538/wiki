@@ -1,13 +1,12 @@
 ---
-
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
 domain:
 - src_unknown
 source_refs:
-- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
-- src_20260610_8865798f-一堂-一堂五步法-增长-口述
+- 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
+- 10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md
 status: enriched
 confidence: 0.85
 difficulty: intermediate
@@ -47,11 +46,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - [[yt-five-step-method]]
-  - [[case-five-step-growth-first-lever]]
-  - [[case-five-step-fake-vs-real-barriers]]
-  - [[yt-growth-cycle-model]]
-  - [[yt-entrepreneur-barriers]]
+- - - yt-five-step-method
+- - - case-five-step-growth-first-lever
+- - - case-five-step-fake-vs-real-barriers
+- - - yt-growth-cycle-model
+- - - yt-entrepreneur-barriers
 ---
 
 # 五步法衔接：什么时候从增长切换到壁垒建设

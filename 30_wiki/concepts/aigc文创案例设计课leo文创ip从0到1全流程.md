@@ -1,13 +1,11 @@
 ---
-
-
 id: aigc文创案例设计课leo文创ip从0到1全流程
 created_at: 2026-05-28
 domain:
-  - ai-saas
-  - design
+- ai-saas
+- design
 source_refs:
-  - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
+- 10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md
 status: draft
 title: AIGC文创案例设计课：Leo文创IP从0到1全流程
 type: concept
@@ -21,10 +19,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
-  - [[tool-月白-设计文件八要素命名法]]
-  - [[tool-月白-跨境电商产品图替换法]]
-  - [[tool-月白-设计项目MVP拆解法]]
+- - - aigc设计师实操培训01口喷设计范式与电商ai设计全流程
+- - - tool-月白-设计文件八要素命名法
+- - - tool-月白-跨境电商产品图替换法
+- - - tool-月白-设计项目MVP拆解法
 ---
 # AIGC文创案例设计课：Leo文创IP从0到1全流程
 

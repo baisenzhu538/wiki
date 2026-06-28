@@ -1,5 +1,4 @@
 ---
-
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
@@ -18,14 +17,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yt-personal-scientific-expression]]
-  - [[yt-composite-pan-product-methodology]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - yt-model-personal-pitch-toolkit
+- - - yt-personal-scientific-expression
+- - - yt-composite-pan-product-methodology
+- - - pending_unknown
+- - - pending_unknown
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
+- 10_raw/sources/src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md
 status: enriched
 title: 超级武器库（元概念）
 type: concept
@@ -41,7 +40,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 # 超级武器库（元概念）

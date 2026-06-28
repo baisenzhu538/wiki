@@ -1,10 +1,9 @@
 ---
-
 id: deepseek-v4-在知识管理系统中的应用
 created_at: 2026-05-05
 domain: healthcare
 source_refs:
-- src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+- 10_raw/sources/src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用.md
 status: enriched
 title: DeepSeek V4 在知识管理系统中的应用
 type: concept
@@ -16,11 +15,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[ocr-泛产品设计的应用场景示意图]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - ocr-泛产品设计的应用场景示意图
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # DeepSeek V4 在知识管理系统中的应用

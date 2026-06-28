@@ -1,10 +1,9 @@
 ---
-
 id: concept-thousand-people-square
 title: 千人广场模型：一堂做课背后的统计建模理念
 type: concept
 source_refs:
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
 - src_unknown
@@ -18,20 +17,20 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.75
 related:
-  - [[ocr-一堂y模型steps策略集]]
-  - [[tool-月白-AI模型选择策略]]
-  - [[dk-单元模型-找单元模型实操难点]]
-  - [[ocr-一堂y模型-科学成事道理]]
-  - [[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]
-  - [[ocr-一堂-单元模型-段位专家]]
-  - [[ocr-一堂-单元模型-单用户模型]]
-  - [[ocr-一堂-个人修炼-双三角模型]]
-  - [[concept-最简单元模型]]
-  - [[ocr-一堂-单元模型-对抗小抄02]]
-  - [[ocr-一堂-人机协作-双三角模型]]
-  - [[tool-模型组合调用]]
-  - [[ocr-一堂-单元模型-对抗小抄01]]
-  - [[tool-单元模型-壁垒预判]]
+- - - ocr-一堂y模型steps策略集
+- - - tool-月白-AI模型选择策略
+- - - dk-单元模型-找单元模型实操难点
+- - - ocr-一堂y模型-科学成事道理
+- - - ocr-一堂-个人修炼-讲香十指模型-超级武器库
+- - - ocr-一堂-单元模型-段位专家
+- - - ocr-一堂-单元模型-单用户模型
+- - - ocr-一堂-个人修炼-双三角模型
+- - - concept-最简单元模型
+- - - ocr-一堂-单元模型-对抗小抄02
+- - - ocr-一堂-人机协作-双三角模型
+- - - tool-模型组合调用
+- - - ocr-一堂-单元模型-对抗小抄01
+- - - tool-单元模型-壁垒预判
 tags:
 - src_unknown
 - src_unknown
@@ -47,7 +46,6 @@ diagnostic_signals:
   follow_up: 明确画出问题边界：服务谁？不服务谁？
 - lens: 统计建模
   follow_up: 找5%已走过的人，提炼共性而非个案
-
 ---
 
 # 千人广场模型：一堂做课背后的统计建模理念

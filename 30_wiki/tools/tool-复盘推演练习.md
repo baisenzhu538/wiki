@@ -3,14 +3,14 @@ id: tool-复盘推演练习
 title: 技能：复盘推演练习
 type: tool
 domain:
-  - learning-methodology- kdo
-  - decision-making
-  - yitang
+- learning-methodology- kdo
+- decision-making
+- yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-- src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
+- 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -26,11 +26,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-区分获客渠道计算单元roi]]
-  - [[tool-辩证讨论深化]]
-  - [[tool-代入场景推演要素法]]
-  - [[tool-ai辅助学习]]
-  - [[tool-费曼学习法三句话提炼]]
+- - - tool-区分获客渠道计算单元roi
+- - - tool-辩证讨论深化
+- - - tool-代入场景推演要素法
+- - - tool-ai辅助学习
+- - - tool-费曼学习法三句话提炼
 ---
 # 技能：复盘推演练习
 

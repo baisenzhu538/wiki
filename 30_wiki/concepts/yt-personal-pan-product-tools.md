@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-pan-product-tools
 component_of:
 - src_unknown
@@ -18,14 +17,14 @@ query_triggers:
 - src_unknown工具篇
 - src_unknown工具篇：出牌教学法与30张卡牌
 related:
-  - [[yt-model-pan-product-36-strategies]]
-  - [[yt-personal-pan-product-concepts]]
-  - [[一堂]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - yt-model-pan-product-36-strategies
+- - - yt-personal-pan-product-concepts
+- - - 一堂
+- - - pending_unknown
+- - - pending_unknown
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_e6643d52-个人修炼-泛产品设计工具篇
+- 10_raw/sources/src_20260510_e6643d52-个人修炼-泛产品设计工具篇.md
 status: enriched
 title: 泛产品设计工具篇：出牌教学法与30张卡牌
 type: concept
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

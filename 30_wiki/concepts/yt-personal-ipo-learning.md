@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
@@ -19,17 +18,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂方法论体系总图]]
-  - [[yitang-course-map]]
-  - [[yt-system-course-map-lecture]]
-  - [[yt-personal-deep-review]]
-  - [[yt-personal-knowledge-management]]
-  - [[yt-entrepreneur-scientific-method]]
-  - [[yt-entrepreneur-liberate-thinking]]
+- - - 一堂方法论体系总图
+- - - yitang-course-map
+- - - yt-system-course-map-lecture
+- - - yt-personal-deep-review
+- - - yt-personal-knowledge-management
+- - - yt-entrepreneur-scientific-method
+- - - yt-entrepreneur-liberate-thinking
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+- 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: enriched
 title: IPO 科学学习
 type: tool
@@ -53,7 +52,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 # IPO 科学学习

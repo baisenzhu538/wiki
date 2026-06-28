@@ -1,5 +1,4 @@
 ---
-
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
@@ -16,15 +15,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
 title: 合伙股权
 trust_level: medium
@@ -46,7 +45,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.75
-
 ---
 
 # 合伙股权

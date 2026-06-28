@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-method
 confidence: 0.9
 created_at: 2026-06-10
@@ -16,17 +15,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-demand-analysis-hiking-map]]
-  - [[yt-product-kernel-cultivation]]
-  - [[yt-unit-model-three-tools]]
-  - [[yt-growth-cycle-model]]
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[yt-foresight-business-spectrum]]
+- - - yt-demand-analysis-hiking-map
+- - - yt-product-kernel-cultivation
+- - - yt-unit-model-three-tools
+- - - yt-growth-cycle-model
+- - - yt-barrier-analysis-cheat-sheet
+- - - yt-foresight-business-spectrum
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
-- src_20260610_e2867174-一堂-一堂五步法-序言-口述
-- src_20260610_ad79435b-一堂-一堂五步法-序言-笔记
+- 10_raw/sources/src_20260610_e2867174-一堂-一堂五步法-序言-口述.md
+- 10_raw/sources/src_20260610_ad79435b-一堂-一堂五步法-序言-笔记.md
 status: reviewed
 title: 一堂五步法总纲
 trust_level: medium
@@ -51,7 +50,6 @@ diagnostic_signals:
   follow_up_question: 如果用最近3个月的业务结果反推，你哪一步的实际验证得分最高？哪一步最低？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 一堂五步法总纲

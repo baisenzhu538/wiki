@@ -1,11 +1,9 @@
 ---
-
-
 id: business-analysis
 created_at: 2026-05-21
 domain: ai-saas
 source_refs:
-  - src_20260522_9d98d526-business-analysis
+- 10_raw/sources/src_20260522_9d98d526-business-analysis.md
 status: draft
 title: Business Analysis
 type: concept
@@ -18,11 +16,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[ocr-一堂-单元模型-找基准值实操难点]]
-  - [[learning-thinking]]
-  - [[meta-prompt-eng]]
-  - [[writing-content]]
-  - [[product-ux]]
+- - - ocr-一堂-单元模型-找基准值实操难点
+- - - learning-thinking
+- - - meta-prompt-eng
+- - - writing-content
+- - - product-ux
 ---
 # Business Analysis
 

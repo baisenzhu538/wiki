@@ -21,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [["ocr-泛产品设计-用户卡片-一堂五步法"]]
-  - [["ocr-泛产品设计-用户卡片-动力阻力"]]
-  - [["ocr-泛产品设计-用户卡片-场景推演"]]
+- - - ocr-泛产品设计-用户卡片-一堂五步法
+- - - ocr-泛产品设计-用户卡片-动力阻力
+- - - ocr-泛产品设计-用户卡片-场景推演
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法
-- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- 10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md
+- 10_raw/sources/src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md
+- 10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md
 status: superseded
 title: 泛产品设计·用户卡片：一堂五步法
 type: tool

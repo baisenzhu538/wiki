@@ -1,7 +1,4 @@
 ---
-
-
-
 title: KDO Protocol — AI-Agent Operating Contract
 type: system
 status: draft
@@ -11,14 +8,14 @@ id: kdo-protocol
 created_at: '2026-05-02'
 updated_at: '2026-06-16'
 related:
-- [[case-半肥猫-course-to-skill]]
-- [[dk-modeling-ai-without-judgment]]
-- [[kdo_product_design_agent_final]]
-- [[kdo-priority-checklist]]
-- [[case-ban-fei-mao-conversion-hacker-skill]]
-- [[kdo-protocol]]
-- [[index]]
-- [[business-research-skill-oscar-13-weapon-system]]
+- - - case-半肥猫-course-to-skill
+- - - dk-modeling-ai-without-judgment
+- - - kdo_product_design_agent_final
+- - - kdo-priority-checklist
+- - - case-ban-fei-mao-conversion-hacker-skill
+- - - kdo-protocol
+- - - index
+- - - business-research-skill-oscar-13-weapon-system
 tags: []
 trust_level: medium
 reviewed_by: Claude
@@ -28,7 +25,7 @@ domain:
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-  - src_unknown []
+- 'pending_archive: src_unknown'
 confidence: 0.6# KDO Protocol — AI-Agent Operating Contract
 ---
 ## Core Points

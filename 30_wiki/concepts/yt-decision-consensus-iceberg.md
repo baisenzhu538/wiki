@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-consensus-iceberg
 component_of:
 - src_unknown
@@ -26,7 +25,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
 title: 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
 trust_level: medium
@@ -60,16 +59,15 @@ diagnostic_signals:
 - framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
   follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
 related:
-  - [[yt-decision-depth-ladder]]
-  - [[yt-decision-width-method]]
-  - [[yt-decision-habit-shift]]
-  - [[yt-decision-y-model]]
-  - [[yt-decision-canvas]]
-  - [[yt-decision-review]]
-  - [[yt-decision-height-toolkit]]
-  - [[yt-management-scientific-decision]]
+- - - yt-decision-depth-ladder
+- - - yt-decision-width-method
+- - - yt-decision-habit-shift
+- - - yt-decision-y-model
+- - - yt-decision-canvas
+- - - yt-decision-review
+- - - yt-decision-height-toolkit
+- - - yt-management-scientific-decision
 author: 老顽童
-
 ---
 
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

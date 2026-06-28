@@ -3,8 +3,8 @@ id: tool-纪浩-里程碑验证法
 title: 技能：里程碑验证法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- ai-saas
+- ai-collaboration
+- yitang- ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -12,15 +12,15 @@ created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 source_refs:
-- src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
+- 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
 related:
-  - [[tool-纪浩-新手心态启动法]]
-  - [[tool-纪浩-项目启动五问法]]
-  - [[tool-纪浩-线上问题应急值守]]
-  - [[tool-纪浩-问题导向备课法]]
-  - [[tool-纪浩-识别AI不可维护代码]]
+- - - tool-纪浩-新手心态启动法
+- - - tool-纪浩-项目启动五问法
+- - - tool-纪浩-线上问题应急值守
+- - - tool-纪浩-问题导向备课法
+- - - tool-纪浩-识别AI不可维护代码
 ---
 # 技能：里程碑验证法
 

@@ -1,5 +1,4 @@
 ---
-
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
@@ -20,17 +19,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂方法论体系总图]]
-  - [[yitang-course-map]]
-  - [[yt-system-course-map-lecture]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-entrepreneur-unit-model]]
-  - [[yt-entrepreneur-lean-validation]]
+- - - 一堂方法论体系总图
+- - - yitang-course-map
+- - - yt-system-course-map-lecture
+- - - yt-entrepreneur-five-step-method
+- - - yt-entrepreneur-key-hypotheses
+- - - yt-entrepreneur-unit-model
+- - - yt-entrepreneur-lean-validation
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
+- 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 status: enriched
 title: 需求分析
 trust_level: medium
@@ -52,7 +51,6 @@ diagnostic_signals:
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 需求分析

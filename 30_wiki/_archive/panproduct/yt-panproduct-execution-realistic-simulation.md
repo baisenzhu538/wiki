@@ -23,12 +23,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [["ocr-泛产品设计-落地卡片-努力仿真"]]
-  - [["ocr-泛产品设计-落地卡片-roi分析"]]
-  - [["ocr-泛产品设计-落地卡片-业务建模"]]
+- - - ocr-泛产品设计-落地卡片-努力仿真
+- - - ocr-泛产品设计-落地卡片-roi分析
+- - - ocr-泛产品设计-落地卡片-业务建模
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真
+- 10_raw/sources/src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真.md
 status: superseded
 title: 泛产品设计·落地卡片：努力仿真
 type: tool

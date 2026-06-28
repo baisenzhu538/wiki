@@ -1,5 +1,4 @@
 ---
-
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -10,10 +9,10 @@ domain:
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
-- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
-- src_20260510_cfbce5d1-Truman的个人成长五步法
-- src_20260510_27fe5f0e-truman的选择：两条职业成长路线
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
+- 10_raw/sources/src_20260510_cfbce5d1-Truman的个人成长五步法.md
+- 10_raw/sources/src_20260510_27fe5f0e-truman的选择：两条职业成长路线.md
 tags:
 - src_unknown
 - src_unknown
@@ -34,9 +33,9 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 related:
-  - [[yt-personal-checklist-notes]]
-  - [[case-ji-hao-skills-market]]
-  - [[pending_unknown]]
+- - - yt-personal-checklist-notes
+- - - case-ji-hao-skills-market
+- - - pending_unknown
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8
@@ -48,7 +47,6 @@ diagnostic_signals:
   follow_up_question: 你的方法论能否被拆成可校验的清单规则？学生练习后能否自动得到结构化反馈？
 - framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
-
 ---
 
 # 案例：Truman AI Partner（阿蕊老师）

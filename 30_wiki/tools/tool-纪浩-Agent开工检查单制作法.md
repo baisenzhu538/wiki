@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-Agent开工检查单制作法
 title: 技能：Agent开工检查单制作法
 type: tool
@@ -10,7 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
-- src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
+- 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 author: 纪浩
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -18,20 +17,20 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-  - [[yt-tool-peas-agent-analysis]]
-  - [[tool-agent-research-pipeline]]
-  - [[case-ai-agent-milestone-design]]
-  - [[tool-agent-crawl4ai]]
-  - [[agent-external-brain-design]]
-  - [[dk-demand-pitfall-travel-agent]]
-  - [[dk-skill-market-agent-self-install]]
-  - [[agent-ecosystem-design]]
-  - [[tool-demand-agent-signal-substitute]]
-  - [[tool-Truman-多Agent通信协作方案]]
-  - [[kdo_product_design_agent_final]]
-  - [[tool-agent-firecrawl]]
-  - [[tinyfish-agentic-web-infrastructure]]
-  - [[tool-纪浩-Agent技能市场设计法]]
+- - - yt-tool-peas-agent-analysis
+- - - tool-agent-research-pipeline
+- - - case-ai-agent-milestone-design
+- - - tool-agent-crawl4ai
+- - - agent-external-brain-design
+- - - dk-demand-pitfall-travel-agent
+- - - dk-skill-market-agent-self-install
+- - - agent-ecosystem-design
+- - - tool-demand-agent-signal-substitute
+- - - tool-Truman-多Agent通信协作方案
+- - - kdo_product_design_agent_final
+- - - tool-agent-firecrawl
+- - - tinyfish-agentic-web-infrastructure
+- - - tool-纪浩-Agent技能市场设计法
 diagnostic_signals:
 - lens: 执行失控
   follow_up: 先和AI把任务做一遍，记录问题和决策点。把坑提前暴露，生成检查单
@@ -43,7 +42,6 @@ diagnostic_signals:
   follow_up: 检查单控制在10项以内，按优先级排序。关键项必须执行，次要项可选
 - lens: 经验空白
   follow_up: 先用Do-first法跑一遍任务，记录问题。没有经验就创造经验，不能跳过第一步
-
 ---
 
 # 技能：Agent开工检查单制作法

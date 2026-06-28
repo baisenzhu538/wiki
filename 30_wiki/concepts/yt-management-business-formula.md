@@ -1,12 +1,11 @@
 ---
-
 title: 业务公式
 type: concept
 source_refs:
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-- src_20260614_6d9f7671-业务公式拆解培训
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+- 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
 status: enriched
 domain:
 - src_unknown
@@ -24,17 +23,16 @@ diagnostic_signals:
 - framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
 related:
-  - [[一堂方法论体系总图]]
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - 一堂方法论体系总图
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - pending_unknown
+- - - pending_unknown
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
-
 ---
 
 # 业务公式

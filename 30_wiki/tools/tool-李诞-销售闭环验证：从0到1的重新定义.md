@@ -10,15 +10,15 @@ created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 source_refs:
-- src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
+- 10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 updated_at: '2026-06-16'
 related:
-  - [[tool-李诞-判断工作价值的交易成本视角]]
-  - [[tool-李诞-个人IP的重新定义与输出策略]]
-  - [[tool-李诞-内容创作中的观察训练法]]
-  - [[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]
-  - [[tool-李诞-面对过去错误的平静心法]]
+- - - tool-李诞-判断工作价值的交易成本视角
+- - - tool-李诞-个人IP的重新定义与输出策略
+- - - tool-李诞-内容创作中的观察训练法
+- - - tool-李诞-阅读重读机制：与书籍的-因缘-相遇
+- - - tool-李诞-面对过去错误的平静心法
 ---
 # 技能：销售闭环验证：从0到1的重新定义
 

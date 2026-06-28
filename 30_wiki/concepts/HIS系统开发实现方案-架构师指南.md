@@ -1,10 +1,9 @@
 ---
-
 id: HIS系统开发实现方案-架构师指南
 created_at: 2026-05-03
 domain: healthcare
 source_refs:
-- src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南
+- 10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md
 status: enriched
 title: HIS系统开发实现方案-架构师指南
 type: concept
@@ -16,13 +15,13 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[鑫港湾his系统分阶段整改报告]]
-  - [[case-xian-franchise-location-decision]]
-  - [[tool-yitang-store-franchise-research]]
-  - [[开源HIS系统代码深度分析报告]]
-  - [[HIS系统深度调研]]
-  - [[鑫港湾HIS项目]]
-  - [[轻量级诊所HIS调研全清单]]
+- - - 鑫港湾his系统分阶段整改报告
+- - - case-xian-franchise-location-decision
+- - - tool-yitang-store-franchise-research
+- - - 开源HIS系统代码深度分析报告
+- - - HIS系统深度调研
+- - - 鑫港湾HIS项目
+- - - 轻量级诊所HIS调研全清单
 ---
 
 # HIS系统开发实现方案-架构师指南

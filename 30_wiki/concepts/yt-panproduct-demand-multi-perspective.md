@@ -1,5 +1,4 @@
 ---
-
 id: yt-panproduct-demand-multi-perspective
 component_of:
 - src_unknown
@@ -22,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-36-strategies]]
-  - [[一堂]]
-  - [[yt-panproduct-demand-project-background]]
-  - [[yt-panproduct-demand-user-segmentation]]
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-36-strategies
+- - - 一堂
+- - - yt-panproduct-demand-project-background
+- - - yt-panproduct-demand-user-segmentation
 reviewed_by: 欧阳锋
 source_refs:
-- src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考
+- 10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md
 status: enriched
 title: yt-panproduct-demand-multi-perspective
 type: concept
@@ -51,7 +50,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 多视角思考：综合内部/外部/角色考量

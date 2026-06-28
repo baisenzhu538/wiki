@@ -1,5 +1,4 @@
 ---
-
 id: concept-一堂-hypothesis-driven-business-methodology
 title: 一堂假设驱动型创业分析方法论
 type: concept
@@ -11,18 +10,18 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课/商业预判课/产品内核课程笔记
 source_refs:
-- src_20260606_22c4a291-一堂-关键假设课-truman-笔记
-- src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记
-- src_20260606_7610584b-一堂-产品内核验证课-truman-笔记
-- src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记
+- 10_raw/sources/src_20260606_22c4a291-一堂-关键假设课-truman-笔记.md
+- 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+- 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
+- 10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-  - [[concept-一堂-key-assumptions]]
-  - [[concept-一堂-product-kernel]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
-  - [[yt-foresight-15-char-mantra]]
-  - [[concept-一堂-kernel-validation]]
+- - - concept-一堂-key-assumptions
+- - - concept-一堂-product-kernel
+- - - case-一堂-无人餐厅-hypothesis-failure
+- - - yt-foresight-15-char-mantra
+- - - concept-一堂-kernel-validation
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -48,7 +47,6 @@ diagnostic_signals:
 author: 老顽童
 confidence: 0.85
 trust_level: high
-
 ---
 
 # 一堂假设驱动型创业分析方法论

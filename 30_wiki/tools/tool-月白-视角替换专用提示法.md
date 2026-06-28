@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-多窗口并行工作法]]
-  - [[tool-月白-PPT风格锁定工作流]]
-  - [[tool-月白-PPT内容框架AIGC生成法]]
-  - [[tool-月白-眼高手低训练法]]
-  - [[tool-月白-AIGC橱窗陈列设计流程]]
+- - - tool-月白-多窗口并行工作法
+- - - tool-月白-PPT风格锁定工作流
+- - - tool-月白-PPT内容框架AIGC生成法
+- - - tool-月白-眼高手低训练法
+- - - tool-月白-AIGC橱窗陈列设计流程
 ---
 # 技能：视角替换专用提示法
 

@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -17,14 +16,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂]]
-  - [[yt-model-progress-map]]
-  - [[yt-model-y-organization]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[pending_unknown]]
+- - - 一堂
+- - - yt-model-progress-map
+- - - yt-model-y-organization
+- - - yt-model-ipo-learning-strategy
+- - - pending_unknown
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1-theme-personal-growth-summary
+- 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 status: enriched
 title: 个人修炼地图
 type: framework
@@ -44,7 +43,6 @@ diagnostic_signals:
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 # 一堂个人地图：高潜力成长者修炼全景图

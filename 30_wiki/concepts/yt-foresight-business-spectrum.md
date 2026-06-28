@@ -1,5 +1,4 @@
 ---
-
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -19,19 +18,19 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-entrepreneur-opportunity-selection]]
-  - [[yitang-course-map]]
-  - [[yt-model-entrepreneur-map]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[case-escort-service-tiered-growth]]
-  - [[case-coffee-shop-foresight]]
-  - [[case-ai-time-management-tiered-growth]]
-  - [[yt-foresight-model-taxonomy]]
+- - - yt-entrepreneur-opportunity-selection
+- - - yitang-course-map
+- - - yt-model-entrepreneur-map
+- - - yt-entrepreneur-five-step-method
+- - - case-escort-service-tiered-growth
+- - - case-coffee-shop-foresight
+- - - case-ai-time-management-tiered-growth
+- - - yt-foresight-model-taxonomy
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown
 source_refs:
-- src_20260614_40afd886-theme-finance-legal-business-summary
+- 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 status: enriched
 diagnostic_signals:
 - framework_lens: 用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题
@@ -63,7 +62,6 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
-
 ---
 
 # 终局光谱图

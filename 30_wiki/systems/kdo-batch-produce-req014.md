@@ -1,13 +1,10 @@
 ---
-
-
-
 title: REQ-014 批量 Produce 12 篇 Enriched 页面技术说明
 author: 黄药师 (Builder)
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-  - src_unknown []
+- 'pending_archive: src_unknown'
 role: Knowledge Builder
 created_at: '2026-05-04'
 status: proposed
@@ -22,11 +19,11 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- [[plan_20260501_8ecb74e3-improvement-plan]]
-- [[plan_20260501_47264869-improvement-plan]]
-- [[plan_20260501_05858800-improvement-plan]]
-- [[plan_20260501_97170532-improvement-plan]]
-- [[plan_20260503_f3e9a2b1-improvement-plan]]
+- - - plan_20260501_8ecb74e3-improvement-plan
+- - - plan_20260501_47264869-improvement-plan
+- - - plan_20260501_05858800-improvement-plan
+- - - plan_20260501_97170532-improvement-plan
+- - - plan_20260503_f3e9a2b1-improvement-plan
 ---
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

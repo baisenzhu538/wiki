@@ -1,5 +1,4 @@
 ---
-
 id: ai-collaboration-mindset-shift
 title: AI协作思维转变：从新手到管理者
 type: concept
@@ -10,14 +9,14 @@ domain:
 - src_unknown
 status: enriched
 source_refs:
-- src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
 related:
-  - [[structured-ai-workspace]]
-  - [[ai-learning-closed-loop]]
-  - [[ai-landing-scene-selection]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - structured-ai-workspace
+- - - ai-learning-closed-loop
+- - - ai-landing-scene-selection
+- - - pending_unknown
+- - - pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,7 +40,6 @@ diagnostic_signals:
   follow_up: 定义before/after、真实锚点、受益对象、可解性四要素
 - lens: 执行者循环
   follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
-
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

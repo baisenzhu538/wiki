@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,18 +19,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂方法论体系总图]]
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[yt-personal-ipo-learning]]
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yt-personal-verbatim-script]]
-  - [[yt-personal-deliberate-practice]]
-  - [[yt-personal-inspiration-flash]]
+- - - 一堂方法论体系总图
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - yt-personal-ipo-learning
+- - - yt-model-personal-pitch-toolkit
+- - - yt-personal-verbatim-script
+- - - yt-personal-deliberate-practice
+- - - yt-personal-inspiration-flash
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库
+- 10_raw/sources/src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md
 status: enriched
 title: 科学表达（火箭模型）
 trust_level: medium
@@ -56,7 +55,6 @@ diagnostic_signals:
   follow_up_question: 你为这次表达做了几次完整演练？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 科学表达（火箭模型）

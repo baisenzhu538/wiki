@@ -1,5 +1,4 @@
 ---
-
 id: yt-personal-pan-product-02
 component_of:
 - src_unknown
@@ -18,14 +17,14 @@ query_triggers:
 - src_unknown落地篇
 - src_unknown落地篇：无限进步与持续打磨
 related:
-  - [[yt-model-pan-product-execution-toolkit]]
-  - [[yt-personal-pan-product-concepts]]
-  - [[一堂]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - yt-model-pan-product-execution-toolkit
+- - - yt-personal-pan-product-concepts
+- - - 一堂
+- - - pending_unknown
+- - - pending_unknown
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_e4b635ac-ocr-泛产品设计落地篇
+- 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md
 status: enriched
 title: 泛产品设计落地篇：无限进步与持续打磨
 type: concept
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

@@ -1,10 +1,9 @@
 ---
-
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain: master
 source_refs:
-- src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
+- 10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md
 status: enriched
 title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
 type: concept
@@ -16,16 +15,16 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[concept-wanghuan-tacit-knowledge-examples]]
-  - [[yt-management-team-knowledge]]
-  - [[tool-泛产品设计-需求工具箱指南]]
-  - [[fix-dark-knowledge-extractor-llm]]
-  - [[master-knowledge-compound]]
-  - [[HIS系统开发实现方案-架构师指南]]
-  - [[ocr-泛产品设计-需求工具箱指南]]
-  - [[yt-personal-knowledge-extraction]]
-  - [[yt-tool-knowledge-extraction]]
-  - [[ocr-泛产品设计-审美工具箱指南]]
+- - - concept-wanghuan-tacit-knowledge-examples
+- - - yt-management-team-knowledge
+- - - tool-泛产品设计-需求工具箱指南
+- - - fix-dark-knowledge-extractor-llm
+- - - master-knowledge-compound
+- - - HIS系统开发实现方案-架构师指南
+- - - ocr-泛产品设计-需求工具箱指南
+- - - yt-personal-knowledge-extraction
+- - - yt-tool-knowledge-extraction
+- - - ocr-泛产品设计-审美工具箱指南
 ---
 
 # Knowledge Delivery OS 快速体验指南

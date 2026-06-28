@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
@@ -18,16 +17,16 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂]]
-  - [[yt-personal-ipo-learning]]
-  - [[yt-personal-deep-review]]
-  - [[yt-model-ipo-complete-checklist]]
-  - [[yt-personal-deliberate-practice]]
-  - [[yt-personal-checklist-notes]]
-  - [[yt-personal-knowledge-management]]
+- - - 一堂
+- - - yt-personal-ipo-learning
+- - - yt-personal-deep-review
+- - - yt-model-ipo-complete-checklist
+- - - yt-personal-deliberate-practice
+- - - yt-personal-checklist-notes
+- - - yt-personal-knowledge-management
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+- 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: enriched
 title: IPO 科学学习全景策略
 type: framework
@@ -48,7 +47,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

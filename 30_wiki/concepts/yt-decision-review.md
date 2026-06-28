@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-review
 component_of:
 - src_unknown
@@ -23,13 +22,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-decision-y-model]]
-  - [[yt-decision-consensus-iceberg]]
-  - [[yt-decision-canvas]]
-  - [[yt-decision-habit-shift]]
-  - [[yt-management-scientific-decision]]
+- - - yt-decision-y-model
+- - - yt-decision-consensus-iceberg
+- - - yt-decision-canvas
+- - - yt-decision-habit-shift
+- - - yt-management-scientific-decision
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
 title: 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
 trust_level: medium
@@ -57,7 +56,6 @@ diagnostic_signals:
 - framework_lens: 迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点
   follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
 author: 老顽童
-
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

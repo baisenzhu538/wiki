@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-口喷式AIGC设计法]]
-  - [[tool-月白-AI生图与图生图决策法]]
-  - [[tool-月白-AIGC餐饮海报优化一抽流]]
-  - [[tool-月白-关键要素提取改图法]]
-  - [[tool-月白-AI设计三段式里程碑流程]]
+- - - tool-月白-口喷式AIGC设计法
+- - - tool-月白-AI生图与图生图决策法
+- - - tool-月白-AIGC餐饮海报优化一抽流
+- - - tool-月白-关键要素提取改图法
+- - - tool-月白-AI设计三段式里程碑流程
 ---
 # 技能：一抽流改图法（自然语言精准许愿法）
 

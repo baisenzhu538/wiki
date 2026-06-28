@@ -1,5 +1,4 @@
 ---
-
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
@@ -12,19 +11,19 @@ version: 1
 difficulty: beginner
 confidence: 0.75
 related:
-  - [[yt-note-five-levels-training]]
-  - [[yt-note-ai-human-division]]
-  - [[yt-note-live-field-skill]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-concept-ai-guard-brain]]
-  - [[yt-composite-pan-product-methodology]]
-  - [[yt-skill-checklist-as-ai-protocol]]
-  - [[yt-note-fact-pattern-insight]]
+- - - yt-note-five-levels-training
+- - - yt-note-ai-human-division
+- - - yt-note-live-field-skill
+- - - yt-model-ipo-learning-strategy
+- - - yt-concept-ai-guard-brain
+- - - yt-composite-pan-product-methodology
+- - - yt-skill-checklist-as-ai-protocol
+- - - yt-note-fact-pattern-insight
 prerequisites:
 - src_unknown
 source_refs:
-- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 query_triggers:
 - src_unknown
 - src_unknown
@@ -52,7 +51,6 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

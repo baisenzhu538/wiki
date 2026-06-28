@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AI生图与图生图决策法]]
-  - [[tool-月白-AI生成IP表情包]]
-  - [[tool-月白-分层自洽海报生成法]]
-  - [[tool-月白-AIGC生成人物证件照]]
-  - [[tool-月白-精准提示词消除模型幻觉]]
+- - - tool-月白-AI生图与图生图决策法
+- - - tool-月白-AI生成IP表情包
+- - - tool-月白-分层自洽海报生成法
+- - - tool-月白-AIGC生成人物证件照
+- - - tool-月白-精准提示词消除模型幻觉
 ---
 # 技能：AI设计严苛批评法
 

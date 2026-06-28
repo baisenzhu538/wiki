@@ -3,14 +3,14 @@ id: tool-城市合伙人模式复制能力
 title: 技能：城市合伙人模式复制能力
 type: tool
 domain:
-  - entrepreneurship- management
-  - design
-  - business-strategy
+- entrepreneurship- management
+- design
+- business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
-- src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03
+- 10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-用旗舰店替代纯招商投入]]
-  - [[tool-快招品牌总部模拟调研]]
-  - [[tool-敏捷发布快速迭代搭建体系]]
-  - [[tool-创始人二当家分工协作模式]]
-  - [[tool-通过请吃饭获取行业内部资料]]
+- - - tool-用旗舰店替代纯招商投入
+- - - tool-快招品牌总部模拟调研
+- - - tool-敏捷发布快速迭代搭建体系
+- - - tool-创始人二当家分工协作模式
+- - - tool-通过请吃饭获取行业内部资料
 ---
 # 技能：城市合伙人模式复制能力
 

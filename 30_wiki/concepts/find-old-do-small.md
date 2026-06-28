@@ -1,5 +1,4 @@
 ---
-
 id: find-old-do-small
 title: 找老的干小的：AI落地场景评估框架
 type: tool
@@ -11,15 +10,15 @@ domain:
 - src_unknown
 status: enriched
 source_refs:
-- src_20260606_ef4877d0-所以90的核心问题
+- 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of:
 - src_unknown
 related:
-  - [[ai-landing-scene-selection]]
-  - [[course-to-skill-conversion]]
-  - [[ai-learning-closed-loop]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - ai-landing-scene-selection
+- - - course-to-skill-conversion
+- - - ai-learning-closed-loop
+- - - pending_unknown
+- - - pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -42,7 +41,6 @@ diagnostic_signals:
   follow_up: 用四要素检查各自方案，形成客观的打分排序
 - lens: 场景错配
   follow_up: 重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景
-
 ---
 
 # "找老的干小的"场景评估框架

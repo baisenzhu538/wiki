@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
@@ -16,14 +15,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[一堂]]
-  - [[一堂方法论体系总图]]
-  - [[yt-model-muse-ai-framework]]
-  - [[yt-personal-ai-capability]]
-  - [[yt-personal-ipo-learning]]
+- - - 一堂
+- - - 一堂方法论体系总图
+- - - yt-model-muse-ai-framework
+- - - yt-personal-ai-capability
+- - - yt-personal-ipo-learning
 reviewed_by: 黄药师
 source_refs:
-- src_20260613_96e45c45-qishijian-business-model
+- 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
 title: 双三角竞争力模型
 type: framework
@@ -43,7 +42,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

@@ -1,5 +1,4 @@
 ---
-
 id: yt-barrier-identification-skill
 confidence: 0.85
 created_at: 2026-06-11
@@ -18,17 +17,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[yt-five-step-method]]
-  - [[yt-unit-model-three-tools]]
-  - [[case-toy-cabinet-barrier]]
-  - [[case-zhihu-vs-degetao-network-effect]]
+- - - yt-barrier-analysis-cheat-sheet
+- - - yt-five-step-method
+- - - yt-unit-model-three-tools
+- - - case-toy-cabinet-barrier
+- - - case-zhihu-vs-degetao-network-effect
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
-- src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述
-- src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr
-- src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+- 10_raw/sources/src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述.md
+- 10_raw/sources/src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.md
+- 10_raw/sources/src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr.md
 status: enriched
 title: 壁垒识别与构建技能：从真假壁垒到护城河建设
 trust_level: medium
@@ -51,7 +50,6 @@ diagnostic_signals:
   follow_up_question: 如果你的市场份额明天被对手用补贴抢走30%，用户会跟着补贴走还是留在你这里？他们留下的真实成本是什么？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 壁垒识别与构建技能：从真假壁垒到护城河建设

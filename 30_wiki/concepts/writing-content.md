@@ -1,10 +1,9 @@
 ---
-
 id: writing-content
 created_at: 2026-05-21
 domain: ai-saas
 source_refs:
-- src_20260522_5819659f-writing-content
+- 10_raw/sources/src_20260522_5819659f-writing-content.md
 status: enriched
 title: Writing Content
 type: concept
@@ -16,11 +15,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[case-toc-content-platform-correlation-trap]]
-  - [[tool-yitang-content-ip-research]]
-  - [[yt-lean-b2b-b2c-hardware-content-testing]]
-  - [[yt-prompt-writing-workflow]]
-  - [[case-chen-qiufan-ai-writing]]
+- - - case-toc-content-platform-correlation-trap
+- - - tool-yitang-content-ip-research
+- - - yt-lean-b2b-b2c-hardware-content-testing
+- - - yt-prompt-writing-workflow
+- - - case-chen-qiufan-ai-writing
 ---
 
 # Writing Content

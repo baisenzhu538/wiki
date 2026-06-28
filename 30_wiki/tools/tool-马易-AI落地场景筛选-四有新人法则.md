@@ -3,8 +3,8 @@ id: tool-马易-AI落地场景筛选-四有新人法则
 title: 技能：AI落地场景筛选-四有新人法则
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- ai-saas
+- ai-collaboration
+- yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -12,15 +12,15 @@ created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
-- src_20260510_4bb17355-天花板
+- 10_raw/sources/src_20260510_4bb17355-天花板.md
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-马易-低置信度样本黄金漏斗处理]]
-  - [[tool-马易-公寓获客自跑通原则]]
-  - [[tool-马易-数字员工FD拆解落地]]
-  - [[tool-马易-AI答疑运营风格适配]]
-  - [[tool-马易-减少输入噪音法]]
+- - - tool-马易-低置信度样本黄金漏斗处理
+- - - tool-马易-公寓获客自跑通原则
+- - - tool-马易-数字员工FD拆解落地
+- - - tool-马易-AI答疑运营风格适配
+- - - tool-马易-减少输入噪音法
 ---
 # 技能：AI落地场景筛选-四有新人法则
 

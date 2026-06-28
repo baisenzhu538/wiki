@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-problem-question-check
 title: 技能：Problem vs Question 区分法
 type: tool
@@ -10,24 +9,24 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
-- src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-note-problem-solving-capability]]
-  - [[tool-纪浩-problem-validation-four-checks]]
-  - [[yt-model-scientific-questioning-map]]
-  - [[yt-model-questioning-practice-canvas]]
-  - [[tool-纪浩-Problem与Question区分法]]
-  - [[tool-strategy-nine-problems]]
-  - [[framework-问题边界与Problem澄清五层结构]]
-  - [[dk-yitang-research-question-quality]]
-  - [[case-ji-hao-skill-market-problem-validation]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[tool-一堂-kernel-three-questions]]
-  - [[sk-ai-problem-validation]]
+- - - yt-note-problem-solving-capability
+- - - tool-纪浩-problem-validation-four-checks
+- - - yt-model-scientific-questioning-map
+- - - yt-model-questioning-practice-canvas
+- - - tool-纪浩-Problem与Question区分法
+- - - tool-strategy-nine-problems
+- - - framework-问题边界与Problem澄清五层结构
+- - - dk-yitang-research-question-quality
+- - - case-ji-hao-skill-market-problem-validation
+- - - tool-纪浩-Agent技能市场设计法
+- - - dk-ji-hao-problem-vs-question
+- - - tool-一堂-kernel-three-questions
+- - - sk-ai-problem-validation
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -55,7 +54,6 @@ diagnostic_signals:
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
 - lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
-
 ---
 
 # 技能：Problem vs Question 区分法

@@ -5,11 +5,11 @@ type: tool
 domain:
 - src_unknown
 source_refs:
-- src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-- src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
-- src_20260610_0132647f-一堂-机会预判-咖啡案例01
-- src_20260610_daaec0bd-一堂-机会预判-咖啡案例02
-- src_20260610_53f78579-一堂-机会预判-咖啡店案例-五步法预判
+- 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+- 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
+- 10_raw/sources/src_20260610_0132647f-一堂-机会预判-咖啡案例01.md
+- 10_raw/sources/src_20260610_daaec0bd-一堂-机会预判-咖啡案例02.md
+- 10_raw/sources/src_20260610_53f78579-一堂-机会预判-咖啡店案例-五步法预判.md
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -27,9 +27,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-tool-best-practice-learning]]
-  - [[yt-tool-fab-persuasion]]
-  - [[yt-tool-knowledge-extraction]]
+- - - yt-tool-best-practice-learning
+- - - yt-tool-fab-persuasion
+- - - yt-tool-knowledge-extraction
 wiki_refs:
 - src_unknown
 - src_unknown

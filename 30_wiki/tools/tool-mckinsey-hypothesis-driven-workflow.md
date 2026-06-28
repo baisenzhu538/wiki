@@ -1,11 +1,10 @@
 ---
-
 id: tool-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
 source_refs:
 - src_unknown
-- src_unknown - src_unknown
+- 'pending_archive: src_unknown'
 status: enriched
 domain:
 - src_unknown
@@ -23,14 +22,14 @@ diagnostic_signals:
 - framework_lens: 假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准
   follow_up_question: 如果这5个假设中只有1个是对的，哪个假设被证伪后会对你的决策产生最大影响？优先验证那个
 related:
-  - [[tool-一堂-hypothesis-validation-three-axe]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[concept-mckinsey-hypothesis-driven]]
-  - [[concept-mckinsey-issue-tree]]
-  - [[concept-mckinsey-mece]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[yt-entrepreneur-lean-validation]]
+- - - tool-一堂-hypothesis-validation-three-axe
+- - - yt-entrepreneur-key-hypotheses
+- - - yt-entrepreneur-five-step-method
+- - - concept-mckinsey-hypothesis-driven
+- - - concept-mckinsey-issue-tree
+- - - concept-mckinsey-mece
+- - - case-一堂-陈贤敏汉堡-hypothesis-validation
+- - - yt-entrepreneur-lean-validation
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -39,7 +38,6 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
-
 ---
 
 # 技能：假设驱动工作流

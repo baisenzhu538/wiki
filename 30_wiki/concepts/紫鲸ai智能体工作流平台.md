@@ -1,10 +1,9 @@
 ---
-
 id: 紫鲸ai智能体工作流平台
 created_at: 2026-04-28
 domain: ai-saas
 source_refs:
-- src_20260428_29929c1f-紫鲸ai智能体工作流平台
+- 10_raw/sources/src_20260428_29929c1f-紫鲸ai智能体工作流平台.md
 status: enriched
 title: 紫鲸AI智能体工作流平台
 type: concept
@@ -17,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[紫鲸AI]]
-  - [[紫鲸ai_智能体工作流平台_深度分析与产品设计]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - 紫鲸AI
+- - - 紫鲸ai_智能体工作流平台_深度分析与产品设计
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 紫鲸AI智能体工作流平台

@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-基于白底图做动作延展]]
-  - [[tool-月白-表情包风格筛选与确定]]
-  - [[tool-月白-风格探索试错法]]
-  - [[tool-月白-电商白底图生成与高清重绘]]
-  - [[tool-月白-电商白底图生成与高清处理]]
+- - - tool-月白-基于白底图做动作延展
+- - - tool-月白-表情包风格筛选与确定
+- - - tool-月白-风格探索试错法
+- - - tool-月白-电商白底图生成与高清重绘
+- - - tool-月白-电商白底图生成与高清处理
 ---
 # 技能：AI生图与图生图决策法
 

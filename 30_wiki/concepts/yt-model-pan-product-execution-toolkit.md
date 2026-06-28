@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-pan-product-execution-toolkit
 component_of:
 - src_unknown
@@ -23,16 +22,16 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-composite-pan-product-methodology]]
-  - [[yt-model-pan-product-36-strategies]]
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-aesthetic-toolkit]]
-  - [[yt-model-y-organization]]
-  - [[yt-entrepreneur-lean-validation]]
+- - - yt-composite-pan-product-methodology
+- - - yt-model-pan-product-36-strategies
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-aesthetic-toolkit
+- - - yt-model-y-organization
+- - - yt-entrepreneur-lean-validation
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂
+- 10_raw/sources/src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂.md
 status: enriched
 title: 泛产品设计·落地工具箱（19张卡牌）
 type: framework
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 ## Constraints & Boundaries

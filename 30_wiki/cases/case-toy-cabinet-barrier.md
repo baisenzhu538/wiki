@@ -1,5 +1,4 @@
 ---
-
 id: case-toy-cabinet-barrier
 confidence: 0.85
 created_at: 2026-06-11
@@ -17,8 +16,8 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
-- src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
-- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
+- 10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md
+- 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 status: reviewed
 title: 案例：线下玩具柜的壁垒困局与突围路径
 trust_level: medium
@@ -35,12 +34,12 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[yt-barrier-identification-skill]]
-  - [[case-toy-cabinet-business-model]]
-  - [[yt-unit-model-three-tools]]
-  - [[yt-five-step-method]]
-  - [[yitang-domain-digest]]
+- - - yt-barrier-analysis-cheat-sheet
+- - - yt-barrier-identification-skill
+- - - case-toy-cabinet-business-model
+- - - yt-unit-model-three-tools
+- - - yt-five-step-method
+- - - yitang-domain-digest
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

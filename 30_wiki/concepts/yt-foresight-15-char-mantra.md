@@ -5,8 +5,8 @@ type: concept
 domain:
 - src_unknown
 source_refs:
-- src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01
-- src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02
+- 10_raw/sources/src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
+- 10_raw/sources/src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
 status: enriched
 confidence: 0.9
 difficulty: beginner
@@ -43,10 +43,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - [[yt-foresight-ab-steady-state]]
-  - [[yt-foresight-addition-subtraction]]
-  - [[yt-foresight-business-spectrum]]
-
+- - - yt-foresight-ab-steady-state
+- - - yt-foresight-addition-subtraction
+- - - yt-foresight-business-spectrum
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

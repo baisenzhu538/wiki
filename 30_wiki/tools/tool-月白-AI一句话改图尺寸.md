@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AIGC反向拆解法]]
-  - [[tool-月白-AI对话式海报修改（免PS）]]
-  - [[tool-月白-AIGC设计作业复盘法]]
-  - [[tool-月白-商业项目AI模型选型决策]]
-  - [[tool-月白-AI工艺图人工复核法]]
+- - - tool-月白-AIGC反向拆解法
+- - - tool-月白-AI对话式海报修改（免PS）
+- - - tool-月白-AIGC设计作业复盘法
+- - - tool-月白-商业项目AI模型选型决策
+- - - tool-月白-AI工艺图人工复核法
 ---
 # 技能：AI一句话改图尺寸
 

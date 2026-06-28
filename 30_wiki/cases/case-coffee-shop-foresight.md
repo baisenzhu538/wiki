@@ -1,5 +1,4 @@
 ---
-
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -16,7 +15,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
-- src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+- 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 status: enriched
 title: 案例：咖啡馆创业预判
 trust_level: medium
@@ -33,10 +32,10 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-  - [[yt-foresight-business-spectrum]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[case-escort-service-tiered-growth]]
-  - [[yitang-domain-digest]]
+- - - yt-foresight-business-spectrum
+- - - yt-entrepreneur-five-step-method
+- - - case-escort-service-tiered-growth
+- - - yitang-domain-digest
 ---
 
 # 案例：咖啡馆创业预判

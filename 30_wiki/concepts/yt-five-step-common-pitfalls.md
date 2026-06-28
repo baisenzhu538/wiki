@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -19,17 +18,17 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
-- src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
-- src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
+- 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
+- 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
 status: reviewed
 related:
-  - [[yt-five-step-method]]
-  - [[yt-five-step-implementation]]
-  - [[yt-demand-analysis-hiking-map]]
-  - [[yt-product-kernel-cultivation]]
-  - [[yt-unit-model-concept]]
-  - [[yt-growth-cycle-model]]
-  - [[yt-barrier-analysis-cheat-sheet]]
+- - - yt-five-step-method
+- - - yt-five-step-implementation
+- - - yt-demand-analysis-hiking-map
+- - - yt-product-kernel-cultivation
+- - - yt-unit-model-concept
+- - - yt-growth-cycle-model
+- - - yt-barrier-analysis-cheat-sheet
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk
@@ -49,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 暗知识：五步法常见误区与认知陷阱

@@ -1,12 +1,11 @@
 ---
-
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
 source_refs:
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 status: enriched
 confidence: 0.8
 domain:
@@ -18,22 +17,22 @@ reviewed_by: 老顽童
 review_date: '2026-06-17'
 trust_level: high
 related:
-  - [[kdo-input-channel-strategy-2026-06-16]]
-  - [[kdo-protocol]]
-  - [[tool-sabc-tier-modeling]]
-  - [[modeling-to-kdo-toolchain]]
-  - [[kdo-batch-produce-req014]]
-  - [[kdo-15-dimension-label-spec]]
-  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
-  - [[ocr-一堂-单元模型-abcd策略模型]]
-  - [[framework-kdo-self-attack]]
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[yt-business-formula-abc-model]]
-  - [[kdo-priority-checklist]]
-  - [[ocr-一堂-科学决策-关键假设abcd模型]]
-  - [[yt-tob-customer-sabc]]
-  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-  - [[kdo_product_design_agent_final]]
+- - - kdo-input-channel-strategy-2026-06-16
+- - - kdo-protocol
+- - - tool-sabc-tier-modeling
+- - - modeling-to-kdo-toolchain
+- - - kdo-batch-produce-req014
+- - - kdo-15-dimension-label-spec
+- - - obsidian-kdo-内容产出工作流-产品设计大纲
+- - - ocr-一堂-单元模型-abcd策略模型
+- - - framework-kdo-self-attack
+- - - kdo-yaml-frontmatter-safety
+- - - yt-business-formula-abc-model
+- - - kdo-priority-checklist
+- - - ocr-一堂-科学决策-关键假设abcd模型
+- - - yt-tob-customer-sabc
+- - - tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
+- - - kdo_product_design_agent_final
 tags:
 - src_unknown
 - src_unknown
@@ -46,7 +45,6 @@ diagnostic_signals:
 - framework_lens: 放量健康度诊断
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
-
 ---
 
 # 业务公式 ABC → KDO 卡片质量

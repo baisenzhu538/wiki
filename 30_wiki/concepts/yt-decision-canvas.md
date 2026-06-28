@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-canvas
 component_of:
 - src_unknown
@@ -23,15 +22,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-decision-y-model]]
-  - [[yt-decision-width-method]]
-  - [[yt-decision-depth-ladder]]
-  - [[yt-decision-ai-partner]]
-  - [[yt-entrepreneur-key-hypotheses]]
+- - - yt-decision-y-model
+- - - yt-decision-width-method
+- - - yt-decision-depth-ladder
+- - - yt-decision-ai-partner
+- - - yt-entrepreneur-key-hypotheses
 reviewed_by: 周伯通
 source_refs:
-- src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
+- 10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md
 status: enriched
 title: Y模型决策画布（一页纸工具）
 trust_level: medium
@@ -85,7 +84,6 @@ diagnostic_signals:
 - framework_lens: 定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经"算过"
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
-
 ---
 
 # Y模型决策画布（一页纸工具）

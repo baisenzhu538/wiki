@@ -1,10 +1,9 @@
 ---
-
 id: tools-workflows
 created_at: 2026-05-21
 domain: healthcare
 source_refs:
-- src_20260522_9d322e81-tools-workflows
+- 10_raw/sources/src_20260522_9d322e81-tools-workflows.md
 status: enriched
 title: Tools Workflows
 type: concept
@@ -17,12 +16,12 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[yt-panproduct-execution-good-tools]]
-  - [[tool-yitang-weapon-ai-tools]]
-  - [[yt-unit-model-three-tools]]
-  - [[yt-personal-pan-product-tools]]
-  - [[tool-lean-leverage-tools]]
-  - [[ai-methodology-tools]]
+- - - yt-panproduct-execution-good-tools
+- - - tool-yitang-weapon-ai-tools
+- - - yt-unit-model-three-tools
+- - - yt-personal-pan-product-tools
+- - - tool-lean-leverage-tools
+- - - ai-methodology-tools
 ---
 
 # Tools Workflows

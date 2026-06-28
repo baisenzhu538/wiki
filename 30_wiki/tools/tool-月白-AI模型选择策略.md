@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48-design-ai-image-generation
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-关键要素提取改图法]]
-  - [[tool-月白-多语言提示词精准法]]
-  - [[tool-月白-PPT全AI生成工作流]]
-  - [[tool-月白-精准提示词消除模型幻觉]]
-  - [[tool-月白-AI设计严苛批评法]]
+- - - tool-月白-关键要素提取改图法
+- - - tool-月白-多语言提示词精准法
+- - - tool-月白-PPT全AI生成工作流
+- - - tool-月白-精准提示词消除模型幻觉
+- - - tool-月白-AI设计严苛批评法
 ---
 # 技能：AI模型选择策略
 

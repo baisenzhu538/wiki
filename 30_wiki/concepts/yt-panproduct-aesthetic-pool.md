@@ -1,5 +1,4 @@
 ---
-
 id: yt-panproduct-aesthetic-pool
 component_of:
 - src_unknown
@@ -23,14 +22,14 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践池子
 - src_unknown
 related:
-  - [[yt-model-pan-product-aesthetic-toolkit]]
-  - [[yt-panproduct-aesthetic-collection]]
-  - [[一堂]]
-  - [[yt-panproduct-aesthetic-modeling]]
-  - [[yt-model-aesthetic-progression]]
+- - - yt-model-pan-product-aesthetic-toolkit
+- - - yt-panproduct-aesthetic-collection
+- - - 一堂
+- - - yt-panproduct-aesthetic-modeling
+- - - yt-model-aesthetic-progression
 reviewed_by: 欧阳锋
 source_refs:
-- src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子
+- 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
 status: enriched
 title: yt-panproduct-aesthetic-pool
 type: concept
@@ -52,7 +51,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 最佳实践池子：用一堆最佳实践打磨产品

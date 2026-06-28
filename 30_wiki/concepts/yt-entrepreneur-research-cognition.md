@@ -1,5 +1,4 @@
 ---
-
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,16 +19,16 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-entrepreneur-scientific-method]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-model-entrepreneur-map]]
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - yt-entrepreneur-five-step-method
+- - - yt-entrepreneur-scientific-method
+- - - yt-entrepreneur-key-hypotheses
+- - - yt-model-entrepreneur-map
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+- 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 status: enriched
 title: 调研认知
 trust_level: medium
@@ -50,7 +49,6 @@ diagnostic_signals:
   follow_up_question: 你收集的信息中，有多少转化为了可指导决策的洞察？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 调研认知

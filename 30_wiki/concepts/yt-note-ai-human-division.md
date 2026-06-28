@@ -1,5 +1,4 @@
 ---
-
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
@@ -10,21 +9,21 @@ version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-  - [[yt-note-checklist-concept]]
-  - [[yt-note-five-levels-training]]
-  - [[yt-note-live-field-skill]]
-  - [[yt-concept-ai-guard-brain]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-decision-ai-partner]]
-  - [[yt-concept-context-engineering]]
-  - [[yt-personal-ai-capability]]
+- - - yt-note-checklist-concept
+- - - yt-note-five-levels-training
+- - - yt-note-live-field-skill
+- - - yt-concept-ai-guard-brain
+- - - yt-model-ipo-learning-strategy
+- - - yt-decision-ai-partner
+- - - yt-concept-context-engineering
+- - - yt-personal-ai-capability
 prerequisites:
 - src_unknown
 source_refs:
-- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
-- src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
-- src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
+- 10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md
+- 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md
 query_triggers:
 - src_unknown
 - src_unknown
@@ -50,7 +49,6 @@ updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

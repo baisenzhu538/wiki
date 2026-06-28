@@ -7,12 +7,12 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-- src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
-- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- 10_raw/sources/src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive.md
+- 10_raw/sources/src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive.md
+- 10_raw/sources/src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md
+- 10_raw/sources/src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md
+- 10_raw/sources/src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison.md
+- 10_raw/sources/src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis.md
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 王语嫣
@@ -21,8 +21,8 @@ review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
 related:
-  - [[case-smart-medicine-cabinet-business-model-validation]]
-  - [[case-smart-medicine-cabinet-corporate-risk]]
+- - - case-smart-medicine-cabinet-business-model-validation
+- - - case-smart-medicine-cabinet-corporate-risk
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:

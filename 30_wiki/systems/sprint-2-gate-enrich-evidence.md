@@ -1,6 +1,4 @@
 ---
-
-
 title: Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 type: system
 domain: kdo
@@ -9,18 +7,18 @@ id: sprint-2-gate-enrich-evidence
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260510_9e98a292）
 source_refs:
-  - src_20260510_9e98a292-sprint-2-门禁举证验收
+- 10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - [[sprint-6-cli-gap-proposal]]
-  - [[sprint-2-门禁举证验收]]
-  - [[kdo-ec-industrialization-migration-proposal]]
-  - [[plan_20260503_f3e9a2b1-improvement-plan]]
-  - [[dk-f1-regex-on-cjk]]
+- - - sprint-6-cli-gap-proposal
+- - - sprint-2-门禁举证验收
+- - - kdo-ec-industrialization-migration-proposal
+- - - plan_20260503_f3e9a2b1-improvement-plan
+- - - dk-f1-regex-on-cjk
 ---
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 

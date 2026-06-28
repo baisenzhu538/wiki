@@ -1,5 +1,4 @@
 ---
-
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,16 +19,16 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-entrepreneur-scientific-method]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-model-entrepreneur-map]]
+- - - yitang-course-map
+- - - yt-system-course-catalog
+- - - yt-entrepreneur-five-step-method
+- - - yt-entrepreneur-scientific-method
+- - - yt-entrepreneur-key-hypotheses
+- - - yt-model-entrepreneur-map
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想
+- 10_raw/sources/src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想.md
 status: enriched
 title: 解放思想
 trust_level: medium
@@ -50,7 +49,6 @@ diagnostic_signals:
   follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
 
 # 解放思想

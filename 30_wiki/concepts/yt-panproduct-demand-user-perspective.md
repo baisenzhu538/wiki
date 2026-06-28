@@ -1,5 +1,4 @@
 ---
-
 id: yt-panproduct-demand-user-perspective
 component_of:
 - src_unknown
@@ -22,15 +21,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-36-strategies]]
-  - [[一堂]]
-  - [[yt-panproduct-demand-user-segmentation]]
-  - [[yt-panproduct-demand-scenario-walkthrough]]
-  - [[yt-model-aesthetic-progression]]
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-36-strategies
+- - - 一堂
+- - - yt-panproduct-demand-user-segmentation
+- - - yt-panproduct-demand-scenario-walkthrough
+- - - yt-model-aesthetic-progression
 reviewed_by: 欧阳锋
 source_refs:
-- src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角
+- 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md
 status: enriched
 title: yt-panproduct-demand-user-perspective
 type: concept
@@ -52,7 +51,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
 
 # 用户视角：一秒转化用户视角

@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-fab-persuasion
 component_of:
 - src_unknown
@@ -22,15 +21,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-月白-封面情绪转化法]]
-  - [[tool-Truman-AI时代提示词优化法]]
-  - [[tool-立即实践转化法]]
-  - [[tool-月白-眼高手低转化法]]
-  - [[pending_unknown]]
+- - - tool-月白-封面情绪转化法
+- - - tool-Truman-AI时代提示词优化法
+- - - tool-立即实践转化法
+- - - tool-月白-眼高手低转化法
+- - - pending_unknown
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
 title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool
@@ -51,7 +50,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 ## Summary

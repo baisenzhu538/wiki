@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-pan-product-36-strategies
 component_of:
 - src_unknown
@@ -20,17 +19,17 @@ query_triggers:
 - src_unknown
 - src_unknown怎么用
 related:
-  - [[yt-composite-pan-product-methodology]]
-  - [[yt-model-pan-product-demand-toolkit]]
-  - [[yt-model-pan-product-aesthetic-toolkit]]
-  - [[yt-model-pan-product-execution-toolkit]]
-  - [[yt-model-pan-product-three-virtues]]
-  - [[yt-model-pan-product-climbing-map]]
-  - [[yt-model-ipo-learning-strategy]]
+- - - yt-composite-pan-product-methodology
+- - - yt-model-pan-product-demand-toolkit
+- - - yt-model-pan-product-aesthetic-toolkit
+- - - yt-model-pan-product-execution-toolkit
+- - - yt-model-pan-product-three-virtues
+- - - yt-model-pan-product-climbing-map
+- - - yt-model-ipo-learning-strategy
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图
+- 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 status: enriched
 title: 泛产品设计36计·全套官方工具箱
 type: framework
@@ -46,7 +45,6 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
 
 ## Constraints & Boundaries

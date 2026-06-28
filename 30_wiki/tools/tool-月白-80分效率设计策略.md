@@ -7,7 +7,7 @@ domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-- src_20260510_4bb17355-天花板
+- 10_raw/sources/src_20260510_4bb17355-天花板.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-工厂对接信息清单制作]]
-  - [[tool-月白-小红书双重搜索法]]
-  - [[tool-月白-新手设计师基本功训练法]]
-  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
-  - [[tool-月白-文创材质成本调研与精益选择]]
+- - - tool-月白-工厂对接信息清单制作
+- - - tool-月白-小红书双重搜索法
+- - - tool-月白-新手设计师基本功训练法
+- - - tool-月白-文创产品AI设计到生产的卡点预判
+- - - tool-月白-文创材质成本调研与精益选择
 ---
 # 技能：80分效率设计策略
 

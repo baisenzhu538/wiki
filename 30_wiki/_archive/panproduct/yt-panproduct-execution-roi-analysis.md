@@ -23,12 +23,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [["ocr-泛产品设计-落地卡片-roi分析"]]
-  - [["ocr-泛产品设计-落地卡片-业务建模"]]
-  - [["ocr-泛产品设计-落地卡片-低成本测试mvp"]]
+- - - ocr-泛产品设计-落地卡片-roi分析
+- - - ocr-泛产品设计-落地卡片-业务建模
+- - - ocr-泛产品设计-落地卡片-低成本测试mvp
 reviewed_by: 王语嫣
 source_refs:
-- src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
+- 10_raw/sources/src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析.md
 status: superseded
 title: 泛产品设计·落地卡片：ROI分析
 type: tool

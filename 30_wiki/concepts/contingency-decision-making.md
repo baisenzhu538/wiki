@@ -1,5 +1,4 @@
 ---
-
 id: contingency-decision-making
 title: 偶然性与决策：承认'我不知道'比虚假确定性更明智
 type: concept
@@ -10,14 +9,14 @@ domain:
 - src_unknown
 status: enriched
 source_refs:
-- src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
+- 10_raw/sources/src_20260606_cde17edd-大的事件它可能是必然的它是被计划的.md
 component_of: null
 related:
-  - [[ai-collaboration-mindset-shift]]
-  - [[ai-landing-scene-selection]]
-  - [[find-old-do-small]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - ai-collaboration-mindset-shift
+- - - ai-landing-scene-selection
+- - - find-old-do-small
+- - - pending_unknown
+- - - pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -43,7 +42,6 @@ diagnostic_signals:
   follow_up: 区分风险（概率已知）vs不确定性（机制未知），后者不可预测只能准备
 - lens: 政治资本缺失
   follow_up: 检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全
-
 ---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智

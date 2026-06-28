@@ -1,5 +1,4 @@
 ---
-
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
@@ -19,8 +18,8 @@ source_person: Truman
 source_context: 一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟进
 source_refs:
 - src_unknown
-- src_20260614_6b2c4f5b-一堂-To-B业务探索分享
-- src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
+- 10_raw/sources/src_20260614_6b2c4f5b-一堂-To-B业务探索分享.md
+- 10_raw/sources/src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr.md
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,19 +44,19 @@ related_concepts:
 related_cases:
 - src_unknown
 related:
-  - [[tool-从案例中学习]]
-  - [[ocr-一堂-案例拆解-课程清单]]
-  - [[ocr-一堂-科学决策-深度-案例02]]
-  - [[case-科学决策-深度案例06]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
-  - [[case-科学决策-深度案例02]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例01]]
-  - [[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]
-  - [[tool-纪浩-案例池构建法]]
-  - [[case-科学决策-ROI案例03]]
-  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
-  - [[ocr-一堂-科学决策-深度-案例04]]
-  - [[ocr-一堂-科学决策-深度-l4-案例01]]
+- - - tool-从案例中学习
+- - - ocr-一堂-案例拆解-课程清单
+- - - ocr-一堂-科学决策-深度-案例02
+- - - case-科学决策-深度案例06
+- - - ocr-一堂-科学决策-roi决策评估画布-案例02
+- - - case-科学决策-深度案例02
+- - - ocr-一堂-科学决策-roi决策评估画布-案例01
+- - - ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02
+- - - tool-纪浩-案例池构建法
+- - - case-科学决策-ROI案例03
+- - - tool-马易-业务问题AI化拆解-餐饮设计案例法
+- - - ocr-一堂-科学决策-深度-案例04
+- - - ocr-一堂-科学决策-深度-l4-案例01
 created_at: '2026-06-06'
 updated_at: '2026-06-29'
 author: 老顽童
@@ -73,7 +72,6 @@ diagnostic_signals:
   follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
 - framework_lens: 抓取规则缺少质量分门槛
   follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
-
 ---
 
 # 案例：以太利用全网调研能力快速获客
