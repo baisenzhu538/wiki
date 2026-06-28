@@ -18,9 +18,8 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-decision-y-model]]
+  - [[yt-research-intelligence-map]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

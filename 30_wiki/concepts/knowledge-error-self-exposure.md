@@ -6,11 +6,8 @@ status: draft
 domain:
 - src_unknown
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[kdo-flywheel]]
+  - [[master-ai-info-literacy]]
 query_triggers:
 - src_unknown
 - src_unknown

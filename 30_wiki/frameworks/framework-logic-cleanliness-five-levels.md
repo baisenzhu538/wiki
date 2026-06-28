@@ -18,11 +18,8 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[modeling-capability-system]]
+  - [[concept-mckinsey-mece]]
 tags:
 - src_unknown
 - src_unknown

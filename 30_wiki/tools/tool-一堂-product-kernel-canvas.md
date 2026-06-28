@@ -19,11 +19,8 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-product-kernel-cultivation]]
+  - [[concept-一堂-kernel-validation]]
 wiki_refs:
 - src_unknown
 - src_unknown

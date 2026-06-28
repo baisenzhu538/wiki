@@ -10,11 +10,8 @@ confidence: 0.75
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[master-knowledge-compound]]
+  - [[yt-skill-storyline-problem-solving]]
 query_triggers:
 - src_unknown
 - src_unknown
