@@ -11,7 +11,7 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
 source_refs:
-  - src_unknown []
+  - src_unknown
 related:
 - [[dk-small-format-error-cascades-to-system-failure]]
 - [[dk-p18-yaml-parser]]

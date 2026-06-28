@@ -11,7 +11,7 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
 source_refs:
-  - src_unknown []
+  - src_unknown
 related:
 - [[dk-tool-chain-naming-is-infrastructure]]
 - [[dk-infrastructure-guardrails-over-checklist]]

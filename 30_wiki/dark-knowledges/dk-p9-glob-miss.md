@@ -9,7 +9,7 @@ domain:
 source_person: system
 source_context: pitfalls.md P-9
 source_refs:
-  - src_unknown []
+  - src_unknown
 created_at: 2026-06-03
 updated_at: 2026-06-28
 related:

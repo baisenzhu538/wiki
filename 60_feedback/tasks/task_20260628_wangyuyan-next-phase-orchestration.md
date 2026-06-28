@@ -1,7 +1,7 @@
 ---
 id: task_20260628_wangyuyan-next-phase-orchestration
 type: task
-status: queued
+status: confirmed
 assignee: 王语嫣
 priority: P1
 created_at: 2026-06-28
@@ -80,21 +80,28 @@ Batch 2-C 完成后，全库 lint ERROR 将接近 0，机械性质量闸门基�
 
 ---
 
-## 需要王语嫣决策
+## 王语嫣决策（2026-06-28）
 
 1. **是否启动 B 线？**  
-   - 选项 A：等 Batch 2-C 完全结束后启动（保守）
-   - 选项 B：Batch 2-C 收尾阶段即启动 B1/B2 准备（推荐，可并行）
+   - ✅ **选项 B**：Batch 2-C 收尾阶段即启动 B1/B2 准备（清单生成、脚本准备），但实际写入等 Batch 2-C reviewed 后启动，避免扰动审查基线。
 
 2. **B 线优先级是否高于 Wave 6？**  
-   - 建议 Wave 6 保持 #16，补链作为 #17 入队；两者并行
+   - Wave 6 保持 **#16**，补链 B1/B2/B3 作为 **#18/#19/#20** 入队；两者并行，不互相阻塞。
 
 3. **补链质量标准？**  
-   - 是否允许 link-suggest 自动写入，还是仅生成推荐清单由人工审核？
-   - `related` 最低数量要求是否维持 ≥ 8？是否按卡片类型区分？
+   - **B1 frontmatter related 占位清理**：允许自动写入，但需人工抽检 20 张；`src_unknown` 替换为真实 wikilink 或 `pending_unknown`，不编造。
+   - **B2 Synthesis section 死链/占位清理**：必须人工审核，不允许自动写入。
+   - **B3 孤岛卡片 link-suggest**：半自动，`kdo link-suggest` 生成推荐 + 老顽童人工审核后写入。
+   - **`related` 最低数量分层标准**：不按 ≥8 一刀切
+     - concept / framework / dk / tool：≥5
+     - case：≥3
+     - draft / 快速卡：≥1 或允许 pending
 
 4. **是否把"补链"拆分为独立任务单并入队？**  
-   - 建议拆分为 `task_20260628_laowantong-link-repair-b1`、`b2`、`b3` 三个子任务
+   - ✅ 已拆分为三个子任务并入队：
+     - `task_20260628_laowantong-link-repair-b1-frontmatter-related`
+     - `task_20260628_laowantong-link-repair-b2-synthesis-section`
+     - `task_20260628_laowantong-link-repair-b3-island-cards`
 
 ---
 

@@ -11,7 +11,7 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第27节master系统暗知识精修：P-1/P-2/P-3/P-6/P-14/F-3 共同暴露的状态残留问题
 source_refs:
-  - src_unknown []
+  - src_unknown
 related:
 - [[dk-p2-tmux-cache]]
 - [[dk-p6-session-resume-fail]]

@@ -11,7 +11,7 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs:
-  - src_unknown []
+  - src_unknown
 related:
 - [[dk-small-format-error-cascades-to-system-failure]]
 - [[dk-f3-state-json-race-condition]]

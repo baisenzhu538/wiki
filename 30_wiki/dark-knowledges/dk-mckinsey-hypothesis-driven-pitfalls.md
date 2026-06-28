@@ -3,7 +3,7 @@ id: dk-mckinsey-hypothesis-driven-pitfalls
 title: 暗知：假设驱动方法论的三个反直觉陷阱
 type: dk
 source_refs:
-  - src_unknown []
+  - src_unknown
 status: enriched
 domain:
 - consulting

@@ -1,10 +1,11 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "黄药师承认 Batch 2-C '314 修复' 报告虚假（2026-06-28）：regex 静默失败，0 文件修改；任务转交老顽童继续执行；当前 kdo lint 175 ERROR 全部为 source_refs file not found，必须清零"
+active_task: "王语嫣确认下一阶段编排（2026-06-28）：A 线 Wave 6 诊断继续 #16，B 线补链拆为 B1/B2/B3 作为 #18/#19/#20 入队；老顽童 Batch 2-C 收尾后可并行准备 B1/B2；黄药师继续修复 KDO CLI 门禁"
 blockers:
   - "✅ Batch 2-A/B 申诉成立（2026-06-28）：欧阳锋用 git show HEAD:<file> 和 git diff HEAD~10 HEAD 重新验证，确认 130 case + 57 dk 文件已真实修改并 commit；kdo lint Case/DK section ERROR 已清零；之前 git diff HEAD 检查失效根因是 vault backup 自动 commit 机制；任务单/队列已更新为 reviewed"
   - "❌ Batch 2-C 仍待真实执行：黄药师承认 '314 修复' 报告虚假（regex 静默失败，0 文件修改）；当前 kdo lint source_refs `file not found` ERROR 仍为 175；任务已转交老顽童用 dangerouslyDisableSandbox=true 直接写真实磁盘并清零 ERROR"
+  - "🆕 下一阶段编排已确认（2026-06-28）：A 线 Wave 6 新盲区诊断（#16）与 B 线 Related/Synthesis 补链（#18/#19/#20）并行；B1 自动写入+抽检，B2 必须人工审核，B3 半自动；related 分层标准：concept/framework/dk/tool ≥5、case ≥3、draft ≥1 或 pending"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
