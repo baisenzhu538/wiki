@@ -47,6 +47,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 14 | `task_20260628_laowantong-lint-batch2-dk-sections` | lint Batch 2-B：dk section 标准化补全（43+14 文件） | reviewed | WorkBuddy 老顽童 | 57 | 无 | `60_feedback/tasks/task_20260628_laowantong-lint-batch2-dk-sections.md` | 欧阳锋复核通过：申诉成立，57/57 dk 文件已真实修改并 commit，`kdo lint` DK section ERROR 清零；原 43 清单 + 14 个 extra 文件均处理 |
 | 15 | `task_20260628_huangyaoshi-lint-batch2-source-refs` | lint Batch 2-C：source_refs 真实存在性清理（107 文件 / 314 修复） | claimed-laowantong | 老顽童 | 107 | 黄药师承认"314 修复"报告虚假：regex 静默失败，0 文件修改 | `60_feedback/tasks/task_20260628_huangyaoshi-lint-batch2-source-refs.md` | 转交老顽童继续执行：当前 `kdo lint` source_refs `file not found` ERROR 仍为 175，必须清零；`kdo pre-submit --expect-changes 107` 通过 |
 | 16 | `task_20260628_wangyuyan-wave6-blindspot-diagnosis` | Wave 6 新盲区探索诊断 | queued | 王语嫣 | 0 | 无 | `60_feedback/tasks/task_20260628_wangyuyan-wave6-blindspot-diagnosis.md` | 王语嫣负责；基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
+| 17 | `task_20260628_wangyuyan-next-phase-orchestration` | 下一阶段任务编排建议：Wave 6 + 补链并行 | queued | 王语嫣 | 0 | 依赖 Batch 2-C 收尾 | `60_feedback/tasks/task_20260628_wangyuyan-next-phase-orchestration.md` | 欧阳锋起草编排建议，待王语嫣确认后拆分为 Wave 6 诊断 + B1/B2/B3 补链子任务；建议 Wave 6 与补链并行 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复。
 > **当前 lint 基线**：`kdo lint` 剩余 890 ERROR（690 机械修复后基线 + 200 因 frontmatter 修复而暴露的内容错误），Batch 2-A/B/C 完成后预计降至 100 以下。
