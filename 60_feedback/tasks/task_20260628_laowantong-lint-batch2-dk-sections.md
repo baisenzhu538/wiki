@@ -37,9 +37,10 @@ source_refs:
 
 1. **优先从正文中萃取内容填入对应 section**，不要凭空编造。
 2. 正文已有信息但无 section 的，把信息归类后移入 section，保留原文要点。
-3. 缺失原话的，用 `src_unknown` 占位并标注 `待补充来源原话`。
-4. `与其他知识的关联` 至少放 1 个 concept wikilink + 1 个 dk wikilink；没有的用 `src_unknown` 占位。
-5. 每张卡改完后跑 `kdo pre-submit -f <路径>`。
+3. **没素材的用 `src_unknown` 占位 + `待补` 标记**，不允许空壳 section。
+4. 缺失原话的，用 `src_unknown` 占位并标注 `待补充来源原话`。
+5. `与其他知识的关联` 至少放 1 个 concept wikilink + 1 个 dk wikilink；没有的用 `src_unknown` 占位。
+6. 每张卡改完后跑 `kdo pre-submit -f <路径>`。
 
 ## 验证
 

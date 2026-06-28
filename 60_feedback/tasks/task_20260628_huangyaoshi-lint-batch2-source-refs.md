@@ -32,6 +32,19 @@ source_refs:
    - 例：`src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md` 等大量引用
 4. **concept 空 source_refs**：2 张 concept 卡 `source_refs` 为空列表。
 
+## 前置快速补丁：让 lint 跳过 URL source_refs
+
+在动手清卡片之前，黄药师先改 KDO CLI 的 lint 规则，把 `http://` / `https://` 开头的 source_refs 跳过本地文件存在性检查。
+
+修改位置：`kdo/workspace.py` 中 `_lint_source_refs_existence`（或等效函数），在检查前加：
+
+```python
+if ref.startswith(("http://", "https://")):
+    continue
+```
+
+收益：立即减少约 16 个 ERROR，零内容风险。补丁完成后跑 `kdo lint` 验证 URL 类 ERROR 归零。
+
 ## 规则
 
 1. **合并写法**：拆分为独立 YAML 列表项。

@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "WorkBuddy 老顽童已领取并执行 lint Batch 2-A/B（2026-06-28）：Batch 2-A 130 张 case section 标准化补全 + Batch 2-B 43 张 dk section 标准化补全；黄药师负责 Batch 2-C source_refs；王语嫣负责 Wave 6 诊断；Hermes 老顽童 Batch1 完成后待命"
+active_task: "王语嫣确认欧阳锋建议并更新任务单（2026-06-28）：Batch 2-C 增加 URL lint 规则补丁前置任务；Batch 2-A/B 补充执行规则；WorkBuddy 老顽童已领取 A/B，黄药师待领取 C；三人并行推进"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -27,6 +27,7 @@ blockers:
   - "🆕 黄药师开始 P-6 research skill 适配（2026-06-28）：将 WebSearch/WebFetch/Agent 工具调用层翻译为 kdo-tools，让 Hermes Agent 也能使用；黄药师当前最后一项 P1 任务"
   - "🆕 lint Batch 2 子任务拆分并入队（2026-06-28）：A case section（130 文件）、B dk section（43 文件）由 WorkBuddy 老顽童负责，C source_refs（约 107 文件 / 176 错误）由黄药师负责；890 ERROR 中 690 为 Batch1 修复后基线、200 为 frontmatter 修复后暴露的内容级错误；Hermes 老顽童 Batch1 完成后待命"
   - "🆕 125 个原 `colon_in_scalar_other` 文件已确认无 YAML 解析错误，按当前错误类型归入 Batch 2-A/B/C，不单独建 YAML 解析任务"
+  - "🆕 Batch 2-C 增加前置快速补丁（2026-06-28）：黄药师先改 KDO CLI lint 规则跳过 URL source_refs，预计减少 16 个 ERROR；补丁完成后再处理合并写法/不存在文件/空 source_refs"
   - "🆕 Wave 6 新盲区诊断任务已入队（2026-06-28）：王语嫣负责基于周报和对话记录识别 1-2 个新盲区并拆任务入队"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡，WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零"
   - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已由 Kimi 老顽童完成并通过欧阳锋终审"

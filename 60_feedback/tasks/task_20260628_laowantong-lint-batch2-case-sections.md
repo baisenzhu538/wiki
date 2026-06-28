@@ -33,10 +33,11 @@ source_refs:
 
 ## 规则
 
-1. **只补 section 标题和基本骨架**，内容由素材支撑；没有素材的用 `src_unknown` 占位 + 待补标记。
+1. **读正文优先**：补 section 前先读正文，优先从正文萃取内容填入对应 section。
 2. **不删除现有正文**，在合适位置插入缺失 section。
-3. 每个 section 至少写 2-3 条具体内容，不写空壳。
-4. 每张卡改完后跑 `kdo pre-submit -f <路径>`，确保无新增 frontmatter/链接错误。
+3. **没素材的用 `src_unknown` 占位 + `待补` 标记**，不允许空壳 section。
+4. 每个 section 至少写 2-3 条具体内容。
+5. 每张卡改完后跑 `kdo pre-submit -f <路径>`，确保无新增 frontmatter/链接错误。
 
 ## 验证
 
