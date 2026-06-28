@@ -198,7 +198,7 @@
 
 ---
 
-### P-1：查询结果 Core 优先排序（P1）
+### 🔄 P-1：查询结果 Core 优先排序（P1，进行中）
 
 > 来源：用户 2026-06-20，已迁移至 `parking-lot-huangyaoshi.md`。
 > 背景：`kdo query` 命中按 Core→Extended→Reference 分层，Agent 先扫骨架再下钻。当前 digest 已建 4/11 域，可在此基础上实现。
@@ -206,10 +206,11 @@
 **操作**：实现 query 结果分层排序。
 **工作量**：0.5 天。
 **依赖**：digest 已建 4/11 域（条件成熟）。
+**状态**：🔄 进行中（黄药师已完成 P0，接下来执行此 P1）。
 
 ---
 
-### P-6：business-research skill KDO 适配（P1）
+### P-6：business-research skill KDO 适配（P1，排队）
 
 > 来源：用户 2026-06-20，已迁移至 `parking-lot-huangyaoshi.md`。
 > 背景：工具调用层翻译（WebSearch/WebFetch/Agent → kdo-tools/web_search.py），让 Hermes Agent（王语嫣/老顽童等）也能用。
@@ -217,6 +218,7 @@
 **操作**：完成技能调用层到 KDO 工具的翻译适配。
 **工作量**：1-2 小时。
 **依赖**：无。
+**状态**：⏳ 排队（等 P-1 完成后启动）。
 
 ---
 

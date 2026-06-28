@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "综合安排（2026-06-28）：欧阳锋完成 wave4 的 4.2 Master 域 7 张卡终审；Hermes 老顽童继续生产 4.1 调研方法论域 8 张卡；wave5 预分配给 WorkBuddy；黄药师停车场机制已上线；队列锁已上线"
+active_task: "综合安排（2026-06-28）：欧阳锋审查 wave4（4.2 Master 域 7 张已修复，4.1 调研方法论域 8 张生产中）；Hermes 继续生产 4.1；wave5 预分配给 WorkBuddy 等待；黄药师完成 P0（M-确认+KF-021+Task Q），开始 P-1 query 分层；队列锁已上线"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
