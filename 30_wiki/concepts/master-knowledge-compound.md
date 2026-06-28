@@ -35,16 +35,16 @@ related:
 ## 一、为什么需要这张卡
 
 vault 里有三张讲"知识管理"的卡：
-- src_unknown
-- src_unknown
-- src_unknown
+- `yt-personal-ipo-learning`：输入→加工→输出的学习循环
+- `yt-personal-knowledge-extraction`：从经验中萃取可复用模式
+- `yt-personal-knowledge-management`：让知识可检索、可连接
 
 但三张卡之间是什么关系？谁先谁后？如何形成复利？没有人说。
 
 这张卡是**master 与 yitang 的桥**——把 yitang 域的三张工具卡上升为认知基础设施，回答：
-- src_unknown
-- src_unknown
-- src_unknown
+- IPO、萃取、管理三者的关系是什么？
+- 哪个是发动机，哪个是催化剂，哪个是基础设施？
+- 如何让三者形成自我强化的复利飞轮？
 
 ### 与现有卡的关系
 

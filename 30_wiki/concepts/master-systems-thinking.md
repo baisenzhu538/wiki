@@ -36,9 +36,9 @@ related:
 
 vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth-flywheel` 讲增长飞轮，`yt-personal-ipo-learning` 讲螺旋上升，`yt-personal-knowledge-extraction` 讲知识复利循环……但没有一个地方解释：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 这些"回路"有没有通用结构？
+- 什么时候是增强，什么时候是调节？
+- 延迟会让系统发生什么行为变化？
 
 这张卡把散落在 30+ 张卡中的"系统语言"统一为可操作的概念框架。
 
