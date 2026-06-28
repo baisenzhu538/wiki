@@ -45,7 +45,7 @@ wiki_refs:
 - src_unknown
 author: 老顽童
 trust_level: medium-high
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
   - [[yt-five-step-method]]
   - [[yt-barrier-analysis-cheat-sheet]]
@@ -141,6 +141,38 @@ Truman 的警告："你如果回答不了'为什么是你'这个题，你就应�
 |---|---|---|
 | 项目还处于验证需求阶段（第一步还没走完）就开始担心壁垒 | 早期项目的核心风险是"用户是否需要你"，不是"别人会不会抄你"。在 PMF 之前讨论壁垒是本末倒置 | 先用最小成本验证需求，壁垒是第五步——前面四步走通之前不需要讨论 |
 | 你的竞争优势就是"做得比别人好"而非结构性的 | "做得更好"不是壁垒，是竞争的基本要求。如果你的唯一优势是比竞品多几个功能，那不是壁垒，是暂时领先 | 回到产品内核和商业模式——找到结构性优势而非比较性优势 |
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

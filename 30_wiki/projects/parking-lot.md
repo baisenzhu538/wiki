@@ -67,7 +67,7 @@ diagnostic_signals:
 | PL-010 | 执行山西 7 月 1 日现场调研 | 用户告知 7 月 1 日赴山西调研（2026-06-18） | 《山西调研纪要》、合规路径确认、合作诊所/药店意向、品种与医保数据 | 鑫港湾HIS项目、诊所O2O项目、互联网医院项目 | 高 | 待执行 | 已产出调研清单与访谈提纲，见 `30_wiki/projects/shanxi-field-research-checklist-20260701.md` |
 | PL-011 | 基于实际数据修正商业模型 | 用户要求深入商业模式计算与业务公式（2026-06-18） | 填入真实数据后的单柜/单店/区域/平台财务测算 | 鑫港湾HIS项目、诊所O2O项目 | 高 | 待执行 | 已拆分为业务公式 `30_wiki/frameworks/xingangwan-pharma-business-formulas.md` 和商业模型计算 `30_wiki/frameworks/xingangwan-pharma-business-model-calc.md`，配套 CSV 模板 `30_wiki/projects/xingangwan-business-model-calc-template.csv` |
 | PL-012 | 补齐 KF-021 剩余 33 张 source 缺失 | 2026-06-19 用户安排 | 33 张卡片补齐 source_refs，通过质量门禁 | KDO 知识工厂 | P1 | 待排期 | 由王语嫣牵头，老顽童协助补充证据链，黄药师协助 source 注册表基础设施 |
-| PL-013 | 修复 132 个 Case card missing section 历史遗留 | A2 任务（`task_20260629_laowantong-lint-a2-case-section-completion.md`）frontmatter 修复后实测发现 | 33 个 case 文件补全标准 section，`kdo lint` Case section ERROR 清零 | KDO 知识工厂 | 低 | 停车场 | 不影响新卡生产；用户决定启动后再从停车场移入生产队列 |
+| PL-013 | 修复 132 个 Case card missing section 历史遗留 | A2 任务（`task_20260629_laowantong-lint-a2-case-section-completion.md`）frontmatter 修复后实测发现 | 43 个 case 文件补全标准 section，`kdo lint` Case section ERROR 清零 | KDO 知识工厂 | 低 | 已移出执行 | 2026-06-29 用户批准立即执行，已由老顽童(Kimi)认领并入生产队列 #24-debt |
 
 ## 已完成任务
 

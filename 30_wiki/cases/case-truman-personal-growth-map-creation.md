@@ -35,7 +35,7 @@ diagnostic_signals:
   follow_up_question: 找 3 个团队成员独立把课程塞进框架，塞法一致率是否 ≥80%？不一致的地方正是分类标准模糊的征兆。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-updated_at: '2026-06-17'
+updated_at: '2026-06-29'
 
 ---
 
@@ -201,6 +201,22 @@ Truman 对 AI 出模型的评价：
 - 待补充链接
 - 待补充链接
 - 待补充链接
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 

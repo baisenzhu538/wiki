@@ -30,7 +30,7 @@ author: 老顽童
 reviewed_by: 王语嫣
 confidence: 0.75
 trust_level: medium
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 diagnostic_signals:
 - framework_lens: 用户价值优先于视觉表现
   follow_up_question: 如果删掉所有颜色、图标和装饰，用户还能理解这张图的核心逻辑吗？
@@ -199,6 +199,22 @@ Truman承担了这个设计任务。起点不是"怎么画一张好看的图"，
 | 版本留档 | 每版记录了改动了什么 | 教研团队保留每个切片版本 |
 
 ---
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Synthesis
 

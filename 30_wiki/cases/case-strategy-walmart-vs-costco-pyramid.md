@@ -5,7 +5,9 @@ title: 沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金�
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high
@@ -36,3 +38,35 @@ related:
 - src_unknown
 
 **教训**：战略主题一样，但业务战略选择不同，会 cascading 到职能战略、核心岗位、KPI 体系完全不同。抄对手不能抄表层口号，要抄整套金字塔。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

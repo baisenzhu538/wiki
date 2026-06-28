@@ -44,7 +44,7 @@ diagnostic_signals:
   follow_up_question: 你是否有一个"做过就忘不掉"的skill文件，能在每次同类任务开始时自动加载审美标准和禁止项？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 
 ---
 
@@ -226,6 +226,22 @@ AI 扫描完所有纠偏记录后，自动：
 - src_unknown
 
 ---
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 

@@ -16,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-图-02
@@ -158,6 +158,30 @@ Truman 在口述中强调，这些案例的共性不是"行业相同"，而是**
 
 ## 来源
 
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
 - src_unknown
 - src_unknown
 

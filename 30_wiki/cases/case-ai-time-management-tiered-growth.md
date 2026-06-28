@@ -23,7 +23,7 @@ status: enriched
 title: 案例：AI时间管理App七级演进
 trust_level: medium
 type: case
-updated_at: 2026-06-10
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -93,6 +93,38 @@ related:
 1. **AI时代的"新能力"变化重新定义了时间管理的可能性**：从传统的"方法教授"进化到"智能化时间管理助手"，是技术变化带来的新机会。
 2. **"保4争6"是高风险偏好的决策**：案主愿意做App、愿意融资、愿意做公司——这是偏向长期规模的偏好，与陪诊案例的"保2争4"形成明显对比。
 3. **从小规模到细分头部的跃迁需要"资本化"能力**：案主必须提前准备融资能力和快速扩张的组织能力，否则保4只是"小而美"而不是"数一数二"。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

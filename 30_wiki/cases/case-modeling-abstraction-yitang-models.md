@@ -24,7 +24,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 王语嫣
 review_date: '2026-06-15'
@@ -112,9 +112,9 @@ Truman 带领团队对一堂内部模型资产做了一次抽象归纳，把模�
 - src_unknown
 - src_unknown
 
-## 可迁移
+## 可迁移场景
 
-### 可迁移场景 / 适用边界
+### 适用边界
 
 | 场景 | 说明 |
 |:-----|:------|
@@ -198,4 +198,20 @@ Truman 带领团队对一堂内部模型资产做了一次抽象归纳，把模�
 
 ## 来源
 
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
 - src_unknown

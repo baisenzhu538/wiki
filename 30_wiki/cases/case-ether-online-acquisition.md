@@ -59,7 +59,7 @@ related:
   - [[ocr-一堂-科学决策-深度-案例04]]
   - [[ocr-一堂-科学决策-深度-l4-案例01]]
 created_at: '2026-06-06'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 王语嫣
 confidence: 0.75
@@ -189,4 +189,20 @@ diagnostic_signals:
 
 ## Feedback Path
 
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
 - src_unknown

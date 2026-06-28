@@ -31,7 +31,7 @@ related_concepts:
 related_cases:
 - src_unknown
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -159,3 +159,27 @@ Truman 把同一份销售失利汇报从 L1 改到 L5，不是堆内容，而是
 ## 来源
 
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

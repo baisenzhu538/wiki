@@ -5,7 +5,9 @@ title: 话梅果干产业链分析：从种植到零售的利润分布与竞争�
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 author: 王语嫣 → 老顽童
 confidence: 0.92
 trust_level: high
@@ -39,3 +41,35 @@ related:
 2. 部分优质原料和产品配方是核心竞争优势，行业产品创新力度不大，基本往天然、健康、无添加方向发展。
 
 **核心洞察**：零售端毛利率最高（45%），但进入壁垒低、竞争激烈；生产加工端毛利率中等但竞争激烈。真正的护城河在上游优质原料控制和差异化配方。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

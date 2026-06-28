@@ -21,7 +21,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-16'
 confidence: 0.75
 trust_level: medium
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 diagnostic_signals:
 - framework_lens: ROI 宽度不足——只看见钱，没看见人被占用的时间
   follow_up_question: 这个项目的隐性成本有哪些？如果按人日折算，教研/运营/项目管理各占多少？
@@ -193,4 +193,20 @@ Truman 采纳了同学 2 的结论，没有制作扑克牌，而是选择制作*
 
 ## 来源
 
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
 - src_unknown

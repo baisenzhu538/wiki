@@ -19,7 +19,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-09
-updated_at: '2026-06-19'
+updated_at: '2026-06-29'
 author: 黄药师
 reviewed_by: 欧阳锋
 review_date: 2026-06-19
@@ -115,6 +115,30 @@ HX-SMJ 是闸机红外光栅控制系统，包含四块板卡：主控板（MCU+
 - src_unknown
 - src_unknown
 - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
 - src_unknown
 - src_unknown
 - src_unknown

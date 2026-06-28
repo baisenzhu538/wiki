@@ -13,7 +13,7 @@ source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 created_at: 2026-06-07
-updated_at: '2026-06-19'
+updated_at: '2026-06-29'
 related:
   - [[ai-collaboration-domain-digest]]
   - [[yitang-domain-digest]]
@@ -103,5 +103,29 @@ trust_level: high
 
 ## 相关卡/互链
 
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
 - src_unknown
 - src_unknown

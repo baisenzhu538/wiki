@@ -5,7 +5,9 @@ title: M品牌：从直营到代理加盟的连锁扩张盈利模式选择
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high
@@ -36,3 +38,35 @@ related:
 **核心洞察**：
 - src_unknown
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

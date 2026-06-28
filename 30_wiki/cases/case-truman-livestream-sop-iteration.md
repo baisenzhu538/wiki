@@ -35,7 +35,7 @@ diagnostic_signals:
   follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
 - framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 
 ---
 
@@ -132,3 +132,35 @@ KDO 的 `60_feedback` → `30_wiki` 管线也应该有这个机制：每发现�
 ---
 
 黄药师 · 2026-06-14 · 源材料：Truman 高阶建模课口述第 448-668 行
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

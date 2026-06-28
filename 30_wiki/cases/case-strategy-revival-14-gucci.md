@@ -5,7 +5,9 @@ title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千�
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 author: 老顽童
 confidence: 0.92
 trust_level: high
@@ -33,3 +35,35 @@ related:
 **结果**：4年收入翻倍至€83亿。千禧一代贡献超50%销售额
 **外部验证**：✅ 全部数据公开可查
 **核心洞察**：不是"做更多"，是"砍更多"——砍掉低端才腾出高端空间
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

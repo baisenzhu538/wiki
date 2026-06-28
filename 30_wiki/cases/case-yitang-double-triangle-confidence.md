@@ -44,7 +44,7 @@ related:
   - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
   - [[ocr-一堂-科学决策-深度-案例04]]
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -113,7 +113,7 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 - src_unknown
 - src_unknown
 
-## 可迁移
+## 可迁移场景
 
 - src_unknown
 - src_unknown
@@ -129,7 +129,7 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 
 ## Constraints & Boundaries
 
-### 可迁移场景 / 适用边界
+### 适用边界
 
 | 场景 | 说明 |
 |:-----|:------|
@@ -177,3 +177,27 @@ Truman 强调，双三角不能直接用六个词干活，必须往前推两层�
 
 - src_unknown
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

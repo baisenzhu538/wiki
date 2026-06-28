@@ -5,7 +5,9 @@ title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 author: 王语嫣 → 老顽童
 confidence: 0.88
 trust_level: high
@@ -56,3 +58,35 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

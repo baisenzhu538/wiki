@@ -16,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-本质建模-案例-02
@@ -123,6 +123,22 @@ diagnostic_signals:
 
 - src_unknown
 - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
 - src_unknown
 - src_unknown
 - src_unknown

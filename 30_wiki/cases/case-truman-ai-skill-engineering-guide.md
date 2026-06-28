@@ -13,7 +13,7 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 建模协作案例）
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
@@ -231,6 +231,14 @@ Truman 在春节期间花 3 个小时，完成了一份高阶 Skill 工程指南
 | **审美门槛不足就强上** | 看不出 AI 输出哪里不好，迭代 2-3 轮就放弃 | 先用小模型/简单 Skill 练审美；或引入有逻辑洁癖的人做"人形审计" |
 
 ---
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 

@@ -12,7 +12,7 @@ source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 created_at: 2026-06-07
-updated_at: '2026-06-19'
+updated_at: '2026-06-29'
 reviewed_by: 欧阳锋
 author: 半肥猫
 confidence: 0.88
@@ -158,6 +158,30 @@ pipeline:
 - src_unknown
 
 ## 相关卡/互链
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
 
 - src_unknown
 - src_unknown

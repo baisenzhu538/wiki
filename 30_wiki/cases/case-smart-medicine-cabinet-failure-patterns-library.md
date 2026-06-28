@@ -14,7 +14,7 @@ source_refs:
 - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
-updated_at: 2026-06-16
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: 2026-06-16
@@ -243,6 +243,22 @@ diagnostic_signals:
 - src_unknown
 
 ---
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 

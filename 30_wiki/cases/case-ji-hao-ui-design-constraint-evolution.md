@@ -13,7 +13,7 @@ source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_15ca3bb2-ai俱乐部-人和ai协作-纪浩-参考案例-结构化.md
 created_at: 2026-06-09
-updated_at: 2026-06-19
+updated_at: '2026-06-29'
 related:
   - [[ai-collaboration-domain-digest]]
   - [[yitang-domain-digest]]
@@ -129,3 +129,27 @@ pipeline:
 ---
 
 **反馈路径：** 使用本案例后有反馈，提交至 `60_feedback/cases/case-ji-hao-ui-design-constraint-evolution`。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown

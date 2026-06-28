@@ -46,7 +46,7 @@ wiki_refs:
 - src_unknown
 author: 老顽童
 trust_level: medium-high
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
   - [[yt-five-step-method]]
   - [[yt-growth-cycle-model]]
@@ -148,6 +148,38 @@ Truman 的判断：**"如果你的产品内核里没有'传播'基因，那你�
 **Eric Ries**（《精益创业》作者）会指出：本文强调"增长必须从产品内核中长出来"，但 Ries 的"Build-Measure-Learn"循环恰恰主张**在增长方式上也应该快速实验而非从内核推导**。你可能在产品内核中自以为看到了"传播基因"，但实际用户分享的原因可能完全不同——只有实验能告诉你真相。"从内核推导增长方式"是演绎逻辑，"从实验中找到增长方式"是归纳逻辑。前者更优雅，后者更可靠。
 
 **Sean Ellis**（"Growth Hacker"概念提出者）会补充一个更尖锐的批评：**最好的增长手段往往是产品团队自己都没想到的**。Dropbox 的增长来自一个简单的"邀请好友送空间"机制——这不是产品内核推导出来的，是 A/B 测试撞出来的。过度强调"增长从内核长出来"会让你忽视那些"和内核无关但效果极好"的增长手段。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

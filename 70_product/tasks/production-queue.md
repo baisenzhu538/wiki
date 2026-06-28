@@ -56,7 +56,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1：空 source_refs 清理 | reviewed | 黄药师 | 8 | 无 | `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 欧阳锋终审通过：8/8 文件 source_refs 补为 pending_archive；`kdo lint` empty source_refs ERROR 清零；pre-submit 8/8 PASS |
 :
 | 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | done | 老顽童(Hermes) | 83 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | frontmatter 修复目标已完成（日期字段/parse error/title/type）；欧阳锋终审通过；132 个 `Case card missing section` 历史遗留已拆分为独立债务任务 #24-debt |
-| 24-debt | `task_20260629_historical-debt-case-section-132` | 历史债务：132 个 Case card missing section 修复 | paused | 待定 | 33 | 无 | `60_feedback/tasks/task_20260629_historical-debt-case-section-132.md` | A2 衍生的历史遗留债务；不进入活跃生产队列；用户决定是否启动 |
+| 24-debt | `task_20260629_historical-debt-case-section-132` | 历史债务：132 个 Case card missing section 修复 | claimed-kimi | 老顽童(Kimi) | 43 | 无 | `60_feedback/tasks/task_20260629_historical-debt-case-section-132.md` | 用户批准立即执行；Kimi 已认领；实测 43 文件 132 ERROR，批量补全 section 中 |
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡。

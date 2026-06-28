@@ -14,7 +14,7 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
-updated_at: '2026-06-17'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-14'
@@ -233,6 +233,14 @@ Truman 发挥最大价值：**一直没认怂**，不断说“不行，明天接
 - src_unknown
 
 ---
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 

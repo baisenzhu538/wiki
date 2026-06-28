@@ -27,7 +27,7 @@ related:
   - [[case-truman-poker-deck-roi]]
   - [[tool-Truman-AI辅助思考伙伴养成]]
 created_at: '2026-06-09'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -221,3 +221,27 @@ Truman的执行非常严格：
 ## 来源
 
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

@@ -21,7 +21,7 @@ status: enriched
 title: 案例：咖啡馆创业预判
 trust_level: medium
 type: case
-updated_at: 2026-06-10
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -125,6 +125,38 @@ related:
 1. **充分做加法3.0的价值在于"选项可视化"**：创业者很容易陷入"我只想开一家咖啡店"的单一思维，选项池工具帮助看到所有可能性。
 2. **打勾 ≠ 确定，打叉 ≠ 否决**：充分做加法的目的是"全面考虑"，而非"全部选择"。最终只选择1-2个组合深入验证。
 3. **五步法预判A是轻量版，适合初级预判**：如果案主想做更深度分析，可以升级到五步法预判B（充分做加法3.0全量选项 + 竞争对手分析）。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

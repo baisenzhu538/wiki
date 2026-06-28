@@ -22,7 +22,7 @@ status: enriched
 title: 案例：陪诊业务七级演进
 trust_level: medium
 type: case
-updated_at: 2026-06-10
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -83,6 +83,38 @@ related:
 1. **同一赛道的不同终局是完全不同的生意**：陪诊的"副业"和"上市"之间，商业模式、组织形态、能力要求的差异巨大，不能用同一套逻辑规划。
 2. **"保A争B"的核心是诚实**：案主的风险偏好和资源约束决定了保2争4是最优解，而不是"保2争7"的好高骚远。
 3. **质变点是必然门槛**：从个体到小规模的质变点是"开始复制"，需要SOP、线上获客、团队分工——这些能力是案主需要专门建设的。
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

@@ -24,7 +24,7 @@ status: reviewed
 title: 案例：知乎vs得到——网络效应壁垒的对比分析
 trust_level: medium
 type: case
-updated_at: 2026-06-11
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -137,6 +137,38 @@ Truman给出了判断网络效应强度的四个维度，用这个框架对比�
 2. **头部大V多就等于壁垒**：如果用户只跟着大V走，平台只是渠道
 3. **忽视迁移成本的方向性**：创作者迁移成本高 ≠ 用户迁移成本高
 4. **用知乎案例为自己辩护**：自己的业务如果没有多边网络效应，不能拿知乎当挡箭牌
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

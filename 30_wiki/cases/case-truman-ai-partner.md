@@ -32,7 +32,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
   - [[yt-personal-checklist-notes]]
   - [[case-ji-hao-skills-market]]
@@ -172,3 +172,27 @@ KDO 已经能走通 Truman 的单 Agent 路径（note-coach）。纪浩的平台
 - src_unknown
 - src_unknown
 - src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |

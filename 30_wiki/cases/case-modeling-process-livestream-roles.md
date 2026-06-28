@@ -18,7 +18,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-开播准备-图-02
@@ -163,6 +163,14 @@ Truman 直播团队把开播准备从"主播一个人记"升级为"行政、PM�
 - src_unknown
 
 ---
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## Sources
 

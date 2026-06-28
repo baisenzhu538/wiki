@@ -22,7 +22,7 @@ status: reviewed
 title: 案例：线下玩具柜商业模式
 trust_level: medium
 type: case
-updated_at: 2026-06-10
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -115,6 +115,38 @@ DHH 在 Basecamp 推动的利润第一理念认为，大多数规模化追求都
 1. **盲目跟风做线下**：看到案例成功就跟风做线下，不考虑自己的资源和能力
 2. **忽视后续运营成本**：只看到前期投入，忽视订货、维护、人工等持续成本
 3. **忽视地理差异**：不同城市、不同场景的消费习惯差异很大
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

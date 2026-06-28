@@ -23,7 +23,7 @@ status: reviewed
 title: 案例：线下玩具柜的壁垒困局与突围路径
 trust_level: medium
 type: case
-updated_at: 2026-06-11
+updated_at: '2026-06-29'
 version: 1
 yitang:
   map: entrepreneur
@@ -118,6 +118,38 @@ Dixon 提出很多成功平台的起点都是单点工具，然后逐步叠加�
 2. **把先发优势当壁垒**：先放柜机不等于有护城河
 3. **低估替代威胁**：手机游戏、短视频等替代品会不断侵蚀玩具柜市场
 4. **转型时机错误**：在单元模型尚未稳定时就投入品牌建设，两头都做不好
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 教训
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Synthesis
 

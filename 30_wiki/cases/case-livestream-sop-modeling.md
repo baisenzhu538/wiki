@@ -14,7 +14,7 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模部分）
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 黄药师
 review_date: '2026-06-16'
@@ -219,6 +219,22 @@ Truman 没有直接写 SOP，而是先问：直播状态由哪些因素决定？
 - src_unknown
 
 ---
+
+---
+
+## 可迁移场景
+
+| 场景 | 如何套用 | 关键组件/关联卡片 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
+
+---
+
+## 失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|---|---|---|
+| src_unknown | src_unknown | src_unknown |
 
 ## Sources
 

@@ -16,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-图-01
@@ -197,6 +197,22 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 关键证据
+
+- src_unknown
+- src_unknown
+- src_unknown
+
+---
+
+## 教训
+
 - src_unknown
 - src_unknown
 - src_unknown
