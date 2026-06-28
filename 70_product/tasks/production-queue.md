@@ -43,8 +43,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 11 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过；欧阳锋审查结论：deep 通过 |
 | 11 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理（P2+P3 已完成，P1 已拆分） | done | 黄药师 | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 剩余 10 张 case + 1 张 dk section 调整已拆分为独立任务 #12 |
 | 12 | `task_20260628_laowantong-case-section-standardization` | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | 11 | 无 | `task_20260628_laowantong-case-section-standardization.md` | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
+| 13 | `task_20260628_laowantong-lint-batch2-case-sections` | lint Batch 2-A：case section 标准化补全（130 文件） | queued | - | 130 | 无 | `60_feedback/tasks/task_20260628_laowantong-lint-batch2-case-sections.md` | 老顽童领取；需按 kdo lint 错误清单补 `## 背景/事件链/我的判断/结果验证` 骨架 |
+| 14 | `task_20260628_laowantong-lint-batch2-dk-sections` | lint Batch 2-B：dk section 标准化补全（43 文件） | queued | - | 43 | 无 | `60_feedback/tasks/task_20260628_laowantong-lint-batch2-dk-sections.md` | 老顽童领取；需按 kdo lint 错误清单补 `## 问题/洞察/行动` 骨架 |
+| 15 | `task_20260628_huangyaoshi-lint-batch2-source-refs` | lint Batch 2-C：source_refs 真实存在性清理（107 文件） | queued | 黄药师 | 107 | 无 | `60_feedback/tasks/task_20260628_huangyaoshi-lint-batch2-source-refs.md` | 黄药师负责；处理合并写法、外部 URL、不存在文件、空 source_refs |
+| 16 | `task_20260628_wangyuyan-wave6-blindspot-diagnosis` | Wave 6 新盲区探索诊断 | queued | 王语嫣 | 0 | 无 | `60_feedback/tasks/task_20260628_wangyuyan-wave6-blindspot-diagnosis.md` | 王语嫣负责；基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复。
+> **当前 lint 基线**：`kdo lint` 剩余 890 ERROR，Batch 2-A/B/C 完成后预计降至 100 以下。
 > **新增 lint 基线清理任务**：659 个 frontmatter 机械错误待修复，预期将全库 lint ERROR 从 697 降至约 128。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 >
