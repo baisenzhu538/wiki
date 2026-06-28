@@ -22,11 +22,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[yt-concept-peas-insight]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -50,8 +53,8 @@ diagnostic_signals:
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
 updated_at: '2026-06-28'
 author: 老顽童
-
 ---
+
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
 
 > 来源：Russell & Norvig《Artificial Intelligence: A Modern Approach》第 4 版第 2 章。本卡将 PEAS 四元组 + 5 层 Agent 架构打包为一张可独立使用的自我诊断工具卡。

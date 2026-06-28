@@ -1,5 +1,4 @@
 ---
-
 id: concept-strategy-framework-landscape
 title: 战略框架全景图：冉鹏覆盖了什么、没覆盖什么
 type: concept
@@ -15,14 +14,13 @@ domain: strategy
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - [[strategy-domain-digest]]
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[tool-strategy-four-moves]]
-  - [[framework-multi-agent-research-architecture]]
-  - [[framework-strategy-brm]]
-  - [[framework-strategy-brm]]
-  - [[framework-strategy-six-stages]]
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+- '[[ocr-一堂-个人修炼-全景图muse模型]]'
+- '[[pending_unknown]]'
 ---
+
 # 战略框架全景图
 
 > 冉鹏框架是"中国实战提炼的完整战略体系"，但不是"战略领域的全部"。Agent用这张卡知道：冉鹏覆盖了什么、没覆盖什么、缺的部分去哪找。

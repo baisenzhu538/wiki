@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-cross-validation
 title: 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 type: dk
@@ -28,20 +27,17 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[dk-modeling-ai-iterative-prompting]]
-- [[dk-modeling-ai-self-retrospection]]
-- [[modeling-capability-for-kdo]]
-- [[case-truman-ai-skill-engineering-guide]]
-- [[tool-ai-skill-engineering-method]]
-- [[dk-modeling-counterexample-driven]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述/核心洞察
 
 > "当时我又找了两个业内的所谓的比较好的水准的报告……从实用性、宽度和专业性打分……官方云巨米的也就是 B+ 水平，然后花总这个大概是 A 级，我这是 S 级……然后他毕竟还有优点，这个时候我要让他吸收，你把这两个的优点你也给我吸收进去。" —— Truman，`src_20260614_8269ccdb#2518-2538`

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1426
 language: zh-CN
 prerequisites:
@@ -26,20 +22,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: 黄药师
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象
 status: enriched
-title: 泛产品设计·审美卡片：美好作品想象
-type: tool
+title: yt-panproduct-aesthetic-imagination
+type: concept
 version: 1
 yitang:
   map: personal
@@ -58,14 +51,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
-title: yt-panproduct-aesthetic-imagination
-type: concept
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
 ---
+
 # 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]

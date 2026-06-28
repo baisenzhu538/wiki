@@ -19,19 +19,11 @@ updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 related:
-- [[case-modeling-abstraction-reliability-ladder]]
-- [[case-course-milestone-model]]
-- [[dk-modeling-expert-consensus-five-percent]]
-- [[case-thousand-people-square]]
-- [[concept-thousand-people-square]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-three-stages]]
-- [[modeling-capability-system]]
-- [[modeling-level-map]]
-- [[dk-modeling-expert-consensus-five-percent]]
-- [[case-modeling-essence-schools]]
-- [[dk-modeling-ai-without-judgment]]
-- [[yt-five-step-method]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -41,6 +33,7 @@ reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
 ---
+
 ## 原始表述
 
 > 科学是靠反例驱动的。你建了一个模，你只要找一个反例，这个模型就得修正——要么修正理论，要么修正边界。一堂做课的理念是：我们假设广场上有一千个同学，95% 是未经训练的新手，5% 是训练过的高手。我们总结这 5% 的共性，做成课程方法论去服务 95%。只要广场上有任何一个可见的反例，就是我们的错——要么把这个人放到广场外面（修正边界），要么修正模型。所以我们出了一版模型之后，内部会启动“撞击实验”：所有人以推翻这个模型为目标去找硬伤、找反例、找边界模糊。先推翻，实在推翻不动，才能去讲它、宣传它。

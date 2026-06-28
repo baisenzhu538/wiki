@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-product-reverse
 title: 武器库策略13：产品逆向/拆解——从竞品实物反推技术和成本
 type: tool
@@ -8,26 +7,23 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-weapon-insider-intelligence]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-reverse-data-analysis]]
-  - [[tool-yitang-consumer-goods-research]]
-  - [[tool-yitang-tech-project-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略13：产品逆向/拆解
 
 > 买回竞品实物，拆解分析——技术实现、成本结构、工艺水平，全部可见。

@@ -1,17 +1,14 @@
 ---
-
-
-
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - modeling- yitang
-  - personal-growth
-  - modeling
+- modeling- yitang
+- personal-growth
+- modeling
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -20,15 +17,14 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[yt-personal-knowledge-management]]
-  - [[yt-personal-deep-review]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-personal-ipo-learning]]
-  - [[case-zhangyang-anchor-sop-three-locks]]
-  - [[modeling-level-map]]
-  - [[modeling-three-values]]
-  - [[modeling-scientific-milestones]]
-  - [[tool-iterative-recursive-deep-dig]]
+- '[[ocr-一堂-个人修炼-解放思想]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
+- '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
+- '[[yt-model-ipo-complete-checklist]]'
+- '[[ocr-一堂刻意练习十年成长指数]]'
 tags:
 - src_unknown
 - src_unknown
@@ -38,8 +34,8 @@ source_context: 单一来源为一堂建模能力培训课程口述稿，内容�
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
+
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 
 > **Burn line**: 建模是手艺活，好坏跟你聪不聪明关系不大，跟你见过多少模型、练过多少轮关系很大。

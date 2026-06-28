@@ -1,5 +1,4 @@
 ---
-
 id: framework-demand-usp-model
 title: USP需求洞察模型：Demand = User × Situation × Problem
 type: framework
@@ -8,24 +7,25 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求洞察USP模型-图-01_ocr_text.md
 related:
-  - [[tool-candy-positioning-canvas]]
-  - [[case-demand-equestrian-three-tasks]]
-  - [[tool-prompt-usp-demand-analysis]]
-  - [[case-demand-indonesia-insurance]]
-  - [[tool-yitang-supplier-interview]]
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l1-user]]
-  - [[tool-demand-iceberg-l2-scenario]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-demand-iceberg-l3-core-job]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[yt-demand-insight-extraction]]'
+- '[[concept-最简单元模型]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
 ---
+
 # USP需求洞察模型
 
 > Demand = User × Situation × Problem。需求不来自"用户是谁"，来自"用户在特定场景下遇到了什么阻碍"。

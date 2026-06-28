@@ -29,13 +29,13 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 一号位
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

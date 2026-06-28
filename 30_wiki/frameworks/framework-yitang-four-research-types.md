@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-four-research-types
 title: 四类调研模型：挖掘式·系统式·爆炸式·自动式
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -31,21 +30,13 @@ source_refs:
 - 00_inbox/调研专题/调研全景策略图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-high-level-plan]]
-  - [[framework-yitang-research-radar]]
-  - [[framework-yitang-high-level-execution]]
-  - [[framework-yitang-research-radar]]
-  - [[framework-yitang-high-level-plan]]
-  - [[framework-yitang-high-level-execution]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[yt-research-osl-framework]]
-  - [[yt-research-mindset]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-research-desperate-effort]]
-  - [[concept-yitang-research-mindset]]
-  - [[tool-yitang-reverse-data-analysis]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
 
 > **一句话**：商业调研不是"做不做"的问题，而是"用哪种调研类型、做到什么深度"的匹配问题。四种调研类型分别对应四种商业决策场景，选错类型是调研失效的首要原因。

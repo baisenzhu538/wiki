@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dk
@@ -15,15 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p6-session-resume-fail]]
-- [[dk-p1-model-switch-env]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-c6-large-source-overflow]]
-- [[dk-modeling-timely-review-session-window]]
-- [[master-systems-thinking]]
-- [[master-first-principles]]
-- [[dk-p1-model-switch-env]]
-- [[dk-p5-cc-connect-config]]
+- '[[dk-modeling-timely-review-session-window]]'
+- '[[dk-p6-session-resume-fail]]'
+- '[[session-20260619-xingangwan-business-formula-reconstruction]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +29,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-2：tmux session 缓存旧配置
 ---
+
 ## 原始表述 / 核心洞察
 
 > **症状**：改了 `.bashrc` 后 `claude` 行为没变。

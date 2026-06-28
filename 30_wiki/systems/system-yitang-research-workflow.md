@@ -1,5 +1,4 @@
 ---
-
 id: system-yitang-research-workflow
 title: 调研工作流：从问题到报告的端到端执行路径
 type: system
@@ -7,27 +6,26 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - src_unknown
+- src_unknown
 source_refs:
-  - 30_wiki/frameworks/framework-yitang-oscar-research.md
-  - 30_wiki/frameworks/framework-yitang-high-level-plan.md
-  - 30_wiki/frameworks/framework-yitang-high-level-execution.md
-  - 30_wiki/domains/yitang-research-domain-digest.md
-  - 40_outputs/capabilities/skills/shared/research/SKILL.md
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 30_wiki/frameworks/framework-yitang-oscar-research.md
+- 30_wiki/frameworks/framework-yitang-high-level-plan.md
+- 30_wiki/frameworks/framework-yitang-high-level-execution.md
+- 30_wiki/domains/yitang-research-domain-digest.md
+- 40_outputs/capabilities/skills/shared/research/SKILL.md
+created_at: '2026-06-21'
+updated_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- '[[tool-按分阶练习路径渐进掌握方法]]'
 diagnostic_signals:
-  - framework_lens: 端到端工作流——7步从问题到报告
-    follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
+- framework_lens: 端到端工作流——7步从问题到报告
+  follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
 ---
+
 
 # 调研工作流：从问题到报告的端到端执行路径
 

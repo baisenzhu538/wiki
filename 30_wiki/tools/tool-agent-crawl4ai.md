@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -12,21 +11,20 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-osint-spiderfoot]]
-  - [[tool-agent-native-overview]]
-  - [[tool-osint-overview]]
-  - [[tool-osint-maltego]]
-  - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
-  - [[tool-agent-native-overview]]
-  - [[tool-agent-firecrawl]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Crawl4AI
 
 > 开源、免费、本地部署。用自然语言描述你想提取什么——不需要写CSS选择器或XPath。网页改版不影集爬虫。

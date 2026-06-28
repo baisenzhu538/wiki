@@ -11,19 +11,20 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - [[case-doris-catering-chain-benchmark]]
-  - [[case-demand-pharma-bigdata]]
-  - [[case-yitang-mahjong-machine-fake-order]]
-  - [[case-popmart-prospectus-pricing]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[tool-demand-iceberg-l5-forces]]
+- '[[yitang-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：马术三层任务
 
 **场景**：为什么家长愿意为孩子学马术付高价？

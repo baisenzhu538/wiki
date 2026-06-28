@@ -1,5 +1,4 @@
 ---
-
 id: tool-Y模型STEPS策略集
 title: Y模型STEPS策略集：五步策略框架
 type: tool
@@ -10,21 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-Y模型_vlm_desc.md
 related:
-  - [[tool-项目方案评估三角形]]
-  - [[framework-科学决策三角形]]
-  - [[case-truman-yitang-foresight]]
-  - [[concept-思考深度分级]]
-  - [[concept-稀缺机会窗口]]
-  - [[yt-decision-y-model]]
-  - [[framework-科学决策三角形]]
-  - [[tool-Y模型实操工作流]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Y模型STEPS策略集
 
 ## 一句话定义

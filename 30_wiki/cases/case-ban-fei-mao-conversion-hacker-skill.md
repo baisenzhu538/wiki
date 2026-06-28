@@ -1,12 +1,11 @@
 ---
-
 id: case-ban-fei-mao-conversion-hacker-skill
 title: 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程
 type: case
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -15,13 +14,9 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - [[case-ban-fei-mao-skill-ab-test]]
-  - [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
-  - [[dk-ban-fei-mao-skill-rejection-value]]
-  - [[case-半肥猫-course-to-skill]]
-  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
-  - [[case-ban-fei-mao-skill-ab-test]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +27,7 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 ---
+
 # 案例：一堂转化率黑客课→Skill
 
 ## 一句话摘要

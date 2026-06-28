@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-demand-scenario-walkthrough
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1151
 language: zh-CN
 prerequisites:
@@ -25,20 +21,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: 黄药师
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演
 status: enriched
-title: 泛产品设计·用户卡片：场景推演
-type: tool
+title: yt-panproduct-demand-scenario-walkthrough
+type: concept
 version: 1
 yitang:
   map: personal
@@ -57,14 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
-title: yt-panproduct-demand-scenario-walkthrough
-type: concept
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
 ---
+
 # 场景推演：细颗粒度推演
 
 > 需求工具箱第 3 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

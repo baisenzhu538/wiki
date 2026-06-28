@@ -11,20 +11,17 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[case-liutao-electric-bike-localization]]
-  - [[case-yitang-consumer-offline-channel-decision]]
-  - [[case-yitang-ski-project-user-as-expert]]
-  - [[case-doris-catering-chain-benchmark]]
-  - [[tool-yitang-user-interview-5steps]]
-  - [[dk-yitang-research-scale-vs-depth]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：上门美甲——在真实场景中访谈
 
 **问题**：创业者想做上门美甲服务，但不确定用户到底在什么场景下需要、最在意什么。

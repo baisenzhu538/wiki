@@ -1,13 +1,11 @@
 ---
-
-
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+- ai-collaboration
+- yitang- ai-collaboration
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
@@ -29,13 +27,14 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - [[sk-ai-system-redundancy]]
-  - [[tool-ai-prd-for-ai]]
-  - [[tool-ai-old-small-checklist]]
-  - [[tool-ai-ai-workspace-setup]]
-  - [[tool-ai-parallel-validation]]
-  - [[sk-ai-landing-five-steps]]
-  - [[ai-landing-scene-selection]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[ocr-一堂-科学决策-关键训练清单重要]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[tool-制作行业化要素检查清单]]'
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -44,8 +43,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 技能："找老的干小的"场景评估清单
 
 ## 用一句话讲清楚

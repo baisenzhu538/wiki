@@ -6,22 +6,24 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: "2026-06-21"
+updated_at: '2026-06-21'
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l4-job-map]]
-  - [[tool-demand-iceberg-l6-hypothesis]]
-  - [[tool-demand-four-forces]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # L5隐藏洞察
 
 > L4告诉你在哪切入，L5告诉你用户会不会真的切换过来。人改变习惯不是因为"更好的功能"，是因为推力+拉力 > 焦虑+习惯。

@@ -1,38 +1,25 @@
 ---
-
 id: dk-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-yitang-model-asset-capitalization]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-yitang-model-asset-capitalization]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[yitang-research-domain-digest]]
-  - [[framework-yitang-six-layer-cross-validation]]
-  - [[tool-yitang-research-cross-validation]]
-  - [[dk-yitang-research-cross-validation-cost]]
-  - [[case-yitang-travel-receipt-analysis]]
-  - [[case-yitang-luckin-field-research]]
-  - [[case-liutao-douyin-team-leader-9m]]
-  - [[case-yitang-hardware-factory-photo]]
-  - [[case-yitang-pet-fostering-user-research]]
+- '[[case-yitang-travel-receipt-analysis]]'
+- '[[case-yitang-luckin-field-research]]'
+- '[[case-liutao-douyin-team-leader-9m]]'
+- '[[case-yitang-hardware-factory-photo]]'
+- '[[case-yitang-pet-fostering-user-research]]'
+- '[[yitang-research-domain-digest]]'
 ---
+
 # 多源交叉验证的停止规则
 
 > **一句话定义**：在调研中，当新增一个验证源带来的置信度提升已经低于其时间/金钱/机会成本时，就应该停止继续验证，把资源转回决策本身。

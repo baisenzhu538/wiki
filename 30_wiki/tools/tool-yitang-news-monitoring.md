@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-news-monitoring
 title: 新闻媒体监控：从报道频率和角度追踪竞对
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[dk-yitang-cross-case-pattern-failure-premium]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-social-media-monitoring]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 新闻媒体监控
 
 > 36氪/创业邦/投中网/虎嗅——创投媒体的报道是竞对公关策略的窗口。

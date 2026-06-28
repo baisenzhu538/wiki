@@ -1,5 +1,4 @@
 ---
-
 id: dk-p13-token-burn
 title: P-13：长会话 = token黑洞 — 一晚上烧掉80元
 type: dk
@@ -14,13 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[sprint-6-cli-gap-proposal]]
-- [[agent-external-brain-design]]
-- [[framework-wanghuan-harness-seven-stages]]
-- [[dk-p8-toolkit-forget]]
-- [[dk-f12-builder-context-deadlock]]
-- [[master-systems-thinking]]
-- [[master-decision-hygiene]]
+- '[[tool-月白-Token智甲比控制法]]'
+- '[[tool-月白-Token效价比决策法]]'
+- '[[tool-月白-烧Token快速积累体感]]'
+- '[[tool-月白-Token效价比决策公式]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-13：长会话 = token黑洞 — 一晚上烧掉80元
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：黄药师从晚上开始跑 Dogfood → Sprint 2 → Sprint 3 → Sprint 4，一个会话跑到上下文爆掉再续第二个会话。共 ~100轮+，DeepSeek 账单 ~80元。单晚消耗超过过去10天总和。

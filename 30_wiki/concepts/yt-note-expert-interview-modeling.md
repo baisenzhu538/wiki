@@ -13,11 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-专家访谈学习]]'
+- '[[tool-专家访谈十步法]]'
+- '[[tool-清单式笔记法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -44,8 +44,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
+
 # 专家访谈式笔记：边聊边建模的高阶认知工作流
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman将其定义为"目前教研里面最核心的一个工作"——找一个专家/讲师/案主，**一边访谈一边记笔记，一边挖掘、一边互动，一边纠偏，还要挑战**——最终现场整理出比对方更清晰的模型，甚至直接把访谈笔记翻译为课程大纲。

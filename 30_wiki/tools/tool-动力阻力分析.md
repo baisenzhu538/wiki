@@ -1,5 +1,4 @@
 ---
-
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
@@ -10,20 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[tool-项目背景分析]]
-  - [[tool-用户视角]]
-  - [[concept-惊喜公式]]
-  - [[tool-用户分层]]
-  - [[tool-行业分析画布]]
-  - [[framework-科学决策三角形]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 动力阻力分析：用户行为的推拉模型
 
 ## 一句话定义

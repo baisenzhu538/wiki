@@ -1,16 +1,14 @@
 ---
-
-
 id: case-nine-pm-livestream-survey
 title: 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 type: case
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - yitang
-  - modeling
-  - user-research
+- yitang
+- modeling
+- user-research
 diagnostic_signals:
 - src_unknown
 - src_unknown
@@ -27,19 +25,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[tool-essence-nfactor-modeling]]
-  - [[case-child-drawing-rhyme]]
-  - [[case-yitang-weekly-modeling-engine]]
-  - [[case-essence-entrepreneurship]]
-  - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
-  - [[concept-thousand-people-square]]
-  - [[case-yitang-radar-chart-selection]]
+- '[[yitang-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 ---
+
 # 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 
 > **Burn line**: 不是 Truman 想熬到 21:00，而是三次调研后，老用户多数人选了 21:00。

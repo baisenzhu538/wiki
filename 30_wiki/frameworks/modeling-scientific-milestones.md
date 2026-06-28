@@ -1,16 +1,14 @@
 ---
-
-
 id: modeling-scientific-milestones
 title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - modeling- yitang
-  - modeling
-  - research
+- modeling- yitang
+- modeling
+- research
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -19,15 +17,13 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[framework-course-milestone-model]]
-  - [[tool-essence-nfactor-modeling]]
-  - [[case-course-milestone-model]]
-  - [[dk-modeling-expert-consensus-five-percent]]
-  - [[case-essence-entrepreneurship]]
-  - [[modeling-three-stages]]
-  - [[dk-modeling-counterexample-driven]]
-  - [[dk-modeling-expert-consensus-five-percent]]
-  - [[tool-ai-skill-engineering-method]]
+- '[[yitang-research-domain-digest]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
 - src_unknown
 - src_unknown
@@ -37,8 +33,8 @@ source_context: 单一 source 为完整长文档，内容充分支撑 medium-hig
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
+
 # 科学建模七步里程碑：从边界到封装的方法论生产流程
 
 > **Burn line**: 方法论级别的建模不是灵感爆发，而是一套有里程碑、可迭代、可验证的生产流程。

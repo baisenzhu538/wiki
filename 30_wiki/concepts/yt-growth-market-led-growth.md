@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-马易-平台模式验证法]]'
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[tool-现场建模式萃取笔记]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[tool-月白-创作与执行双模式切换]]'
+- '[[tool-创始人二当家分工协作模式]]'
+- '[[tool-月白-A-B双轨反推模式选择]]'
 diagnostic_signals:
 - framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
   follow_up_question: 你的市场活动有哪些？品牌定位是什么？目标受众是谁？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你的线索评分标准是什么？市场活动和销售反馈是否闭环？
 - framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
   follow_up_question: 展会和活动的ROI是多少？是否有后续跟进流程？
-
 ---
+
 # 市场驱动增长：MLG模式
 
 > 一堂五步法：市场驱动增长不是做广告，而是系统化的品牌建设和需求生成。市场为销售提供弹药。

@@ -1,5 +1,4 @@
 ---
-
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dk
@@ -14,15 +13,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-28'
 related:
-- [[存储策略]]
-- [[dk-f6-cjk-skeleton-corruption]]
-- [[dk-f3-state-json-race-condition]]
-- [[dk-p16-validate-reads-state-json]]
-- [[dk-c3-txt-ingest-skip]]
-- [[dk-c3-txt-ingest-skip]]
-- [[dk-c1-cjk-regex-silent-fail]]
-- [[dk-f1-regex-on-cjk]]
-- [[master-ai-info-literacy]]
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,6 +28,7 @@ confidence: 0.7
 trust_level: low
 review_date: '2026-06-28'
 ---
+
 ## 原始表述
 
 > **触发命令**：`kdo ingest`

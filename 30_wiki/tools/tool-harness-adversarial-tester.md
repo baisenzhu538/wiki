@@ -1,5 +1,4 @@
 ---
-
 id: tool-harness-adversarial-tester
 title: 对抗测试员：成功标准是"找到bug"
 type: tool
@@ -12,20 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - [[tool-devils-advocacy]]
-  - [[case-strategy-xiaobear]]
-  - [[tool-candy-oral-polish]]
-  - [[framework-structured-analytic-techniques]]
-  - [[tool-red-team-analysis]]
-  - [[tool-red-team-analysis]]
-  - [[tool-devils-advocacy]]
-  - [[framework-wanghuan-gan-three-roles]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 对抗测试员
 
 > 与Red Team和Devil's Advocacy的三层区分：Red Team = 模拟竞对战略决策（战略层），Devil's Advocacy = 攻击逻辑漏洞（逻辑层），Adversarial Tester = 攻击具体产出物（执行层）。

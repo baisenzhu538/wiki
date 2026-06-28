@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-entrepreneur-growth-flywheel
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1812
 language: zh-CN
 query_triggers:
@@ -23,12 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -53,8 +48,8 @@ diagnostic_signals:
   follow_up_question: 如果只能推动一个飞轮，你选哪个？为什么？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
+
 # 增长飞轮
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

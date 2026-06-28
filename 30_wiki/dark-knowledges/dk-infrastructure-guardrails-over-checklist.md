@@ -11,18 +11,16 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs:
-  - src_unknown
+- src_unknown
 related:
-- [[dk-small-format-error-cascades-to-system-failure]]
-- [[dk-f3-state-json-race-condition]]
-- [[dk-p16-validate-reads-state-json]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[dk-tool-as-answer-trap]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[dk-c11-hongqigong-skip-review]]
-- [[dk-p16-validate-reads-state-json]]
-- [[dk-p8-toolkit-forget]]
-- [[dk-tool-as-phased-validator]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[ocr-一堂-科学决策-关键训练清单重要]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[tool-制作行业化要素检查清单]]'
 bridges_to:
 - src_unknown
 - src_unknown
@@ -44,6 +42,7 @@ diagnostic_signals:
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
 updated_at: 2026-06-28
 ---
+
 ## 原始表述 / 核心洞察
 
 第 26 节在清理 master 系统暗知识时，连续出现同一个模式：

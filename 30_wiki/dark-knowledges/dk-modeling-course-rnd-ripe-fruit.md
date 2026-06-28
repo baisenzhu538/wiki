@@ -15,16 +15,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- [[case-modeling-abstraction-reliability-ladder]]
-- [[dk-modeling-timely-review-session-window]]
-- [[dk-modeling-unit-pairs-milestone]]
-- [[framework-logic-cleanliness-five-levels]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[dk-modeling-counterexample-driven]]
-- [[framework-course-milestone-model]]
-- [[case-yitang-weekly-modeling-engine]]
-- [[dk-modeling-unit-pairs-milestone]]
-- [[dk-modeling-timely-review-session-window]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -35,6 +30,7 @@ reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: 2026-06-28
 ---
+
 ## 原始表述
 
 > 我们真的给不出来你们课表，我们甚至都不知道下个月的这个星期去讲什么……因为研究本身就代表我们不知道研究到什么程度……成熟了我们就摘那个果实，不成熟就养着它。

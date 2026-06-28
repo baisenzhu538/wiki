@@ -20,11 +20,14 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-泛产品落地-业务建模]]'
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-泛产品落地-解放思想]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
+- '[[tool-泛产品落地-ROI分析]]'
 diagnostic_signals:
 - lens: 任务层→产品层的跃迁信号
   follow_up: 立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用
@@ -40,8 +43,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢任务→产品→系统演进框架
 
 > **Burn line**: 一次性任务是消耗，可复用产品是资产，可编排系统是护城河。

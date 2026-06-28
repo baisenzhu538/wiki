@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-fundamentals-before-advanced-ops
 title: 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 type: dk
@@ -18,16 +16,11 @@ source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 related:
-- [[dk-note-maximum-common-divisor]]
-- [[yt-note-five-levels-training]]
-- [[dk-note-surplus-brainpower]]
-- [[dk-note-rookie-disaster-veteran-heaven]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[yt-note-five-levels-training]]
-- [[dk-note-surplus-brainpower]]
-- [[modeling-level-map]]
-- [[sk-ai-ai-workspace-setup]]
-- [[dk-modeling-question-scaffold-not-answer]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 bridges_to:
 - src_unknown
 - src_unknown-level-map
@@ -48,6 +41,7 @@ diagnostic_signals:
   framework_lens: 外包了思考
   follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 ---
+
 ## 原始表述 / 核心洞察
 
 > "所有的高段位都是来自于低段位的剩余脑力。不是靠所谓AI一做，你就一做就行了。" —— Truman

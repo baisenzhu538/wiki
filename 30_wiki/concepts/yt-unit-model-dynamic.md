@@ -20,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-ladder]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: enriched
@@ -63,8 +63,8 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-
 ---
+
 # 动态单元模型：规模变量、拐点预判与规模经济对抗
 
 > 来源：一堂《单元模型实操系列课》第四课——动态预测篇。当单元模型在单点验证成功后，如何预判规模化过程中的变化？本工具提供"规模变量/业务变量/环境变量"三维分析框架、拐点识别方法和规模经济对抗策略，帮助操盘手从"算清现在"走向"预判未来"。

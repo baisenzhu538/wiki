@@ -1,5 +1,4 @@
 ---
-
 id: case-lean-gray-test-paradigm
 title: 灰度测试范式实操案例
 type: case
@@ -10,8 +9,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_person: 张磊/一堂讲师
 source_context: 一堂低成本验证·系统测试曲线课程案例
 source_refs:
@@ -20,18 +19,11 @@ source_refs:
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
 related:
-  - [[framework-lean-systematic-test-curve]]
-  - [[case-lean-zhanglei-failure-counterfactual]]
-  - [[case-lean-shampoo-selling-points]]
-  - [[case-lean-combination-test-paradigm]]
-  - [[case-lean-crayfish-combo-test]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 灰度测试范式实操案例
 
 > 用"二手投币机 + 临时场地"到"自主研发二维码设备"的三级放量，展示如何把一次性重投入拆成可回退的灰度节点，在认知提升的同时逐步加码。

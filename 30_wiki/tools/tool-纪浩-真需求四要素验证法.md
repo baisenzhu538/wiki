@@ -15,11 +15,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 pipeline:
@@ -40,8 +40,8 @@ diagnostic_signals:
   follow_up: 因果链中每一环都需要具体的能力或资源支撑，'运气'或'希望'不算可解
 - lens: 验证逃避
   follow_up: 新手的验证工具是假设、调研、访谈、问AI、做实验。不做验证就动手是赌博
-
 ---
+
 # 技能：真需求四要素验证法
 
 ## 原始表述

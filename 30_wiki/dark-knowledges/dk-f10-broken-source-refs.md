@@ -1,5 +1,4 @@
 ---
-
 id: dk-f10-broken-source-refs
 title: F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 type: dk
@@ -14,13 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[kdo-ec-industrialization-migration-proposal]]
-- [[proposal-yaml-frontmatter-standardization]]
-- [[proposal-ai-domain-mastery-pipeline]]
-- [[dk-kdo-leaky-pipe-pressure]]
-- [[dk-c3-txt-ingest-skip]]
-- [[master-first-principles]]
-- [[master-ai-info-literacy]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[tool-doris-industry-report-source-evaluation]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 ---
+
 ## 原始表述/核心洞察
 
 ### 原始表述

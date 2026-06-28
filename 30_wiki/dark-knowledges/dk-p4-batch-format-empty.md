@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-p4-batch-format-empty
 title: P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 type: dk
@@ -15,15 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-- [[dk-f11-encyclopedia-style]]
-- [[dk-f8-phony-wikilink]]
-- [[kdo_product_design_agent_final]]
-- [[dk-f9-generic-critique]]
-- [[ouyangfeng-data-alignment-response]]
-- [[master-knowledge-compound]]
-- [[kdo-flywheel]]
-- [[master-ai-info-literacy]]
-- [[dk-c8-format-complete-mind-empty]]
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
+- '[[ocr-泛产品设计-落地卡片-努力仿真]]'
+- '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
+- '[[ocr-泛产品设计-用户卡片-动力阻力]]'
+- '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
+- '[[ocr-泛产品设计-落地卡片-十倍速验证]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,6 +36,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：抽检 `motivation-resistance` 和 `peak-end-rule` 两张卡——格式符合 agent-native 标准，但 Claims 无具体反例、Constraints 模板化。

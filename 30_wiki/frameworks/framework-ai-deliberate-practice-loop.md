@@ -4,9 +4,9 @@ type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
-  - ai-collaboration
+- yitang
+- personal-growth
+- ai-collaboration
 confidence: 0.78
 trust_level: medium
 author: 老顽童
@@ -15,13 +15,22 @@ review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
-  - pending_archive:Ethan Mollick《The Machines of Mastery》(2023), oneusefulthing.org
-  - pending_archive:Mollick & Mollick (2023) AI learning roles framework
-  - pending_archive:K. D. Wang et al., "Scaffold or crutch? examining college students' use and views of generative AI tools for STEM education," arXiv:2412.02653, 2024
-  - pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide automatic feedback," arXiv:2411.07407, 2024
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
+- pending_archive:Ethan Mollick《The Machines of Mastery》(2023), oneusefulthing.org
+- pending_archive:Mollick & Mollick (2023) AI learning roles framework
+- pending_archive:K. D. Wang et al., "Scaffold or crutch? examining college students'
+  use and views of generative AI tools for STEM education," arXiv:2412.02653, 2024
+- pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide
+  automatic feedback," arXiv:2411.07407, 2024
+related:
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 
 ## 一句话

@@ -1,30 +1,24 @@
 ---
-
 id: dk-truman-knowledge-extraction-three-schools
 title: 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"
 type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-  - yitang
-  - personal-growth
-  - knowledge-management
+- yitang
+- personal-growth
+- knowledge-management
 source_person: Truman
 source_context: 一堂《知识萃取探索营》，2026
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
 related:
-  - [[dk-modeling-model-arsenal-paradigms]]
-  - [[case-modeling-essence-schools]]
-  - [[ocr-一堂-个人修炼-科学学习ipo-全景策略]]
-  - [[tool-一堂-product-kernel-canvas]]
-  - [[dk-truman-document-is-real-project-is-fake]]
-  - [[yt-personal-pan-product-tools]]
-  - [[yt-note-checklist-concept]]
-  - [[dk-truman-iteration-to-aesthetic-ceiling]]
-  - [[dk-ji-hao-constraint-beats-talent]]
-  - [[ai-learning-closed-loop]]
+- '[[yitang-domain-digest]]'
+- '[[tool-马易-隐性知识萃取与模型化]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -75,6 +69,7 @@ diagnostic_signals:
   framework_lens: A流派（知识付费派）商品属性凌驾于可迁移性
   follow_up_question: 这个结论是出自单人单案例，还是从大量案例中抽象出的共性解法？换到我的场景中是否还成立？
 ---
+
 # 知识萃取三流派：99%的知识付费只是A，一堂做B+C
 
 ## 原始表述 / 核心洞察

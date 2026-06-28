@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: model-quality-four-levels
 title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
 type: framework
@@ -11,23 +7,22 @@ source_refs:
 status: enriched
 confidence: 0.7
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[concept-最简单元模型]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +37,8 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-16'
-
 ---
+
 # 模型可信度四层标准 + 千人广场模型
 
 > **Burn line**: 科学是靠反例驱动的。我们建模型——看到一个反例，就认为自己模型不合格。

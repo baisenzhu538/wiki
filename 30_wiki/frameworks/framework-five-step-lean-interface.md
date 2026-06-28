@@ -1,5 +1,4 @@
 ---
-
 id: framework-five-step-lean-interface
 title: 五步法与精益验证的接口
 type: framework
@@ -12,29 +11,21 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - lean-startup
-  - strategy
+- yitang
+- lean-startup
+- strategy
 source_refs:
 - 00_inbox/精益创业/transcript_低成本验证认知篇.md
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - [[framework-ai-accelerated-strategy-cycle]]
-  - [[framework-strategy-lean-validation]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[framework-lean-pivot-decision]]
-  - [[framework-demand-lean-bridge]]
-  - [[yt-five-step-method]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[framework-lean-false-model]]
-  - [[concept-一堂-kernel-validation]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[framework-strategy-business-design]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[five-step-domain-digest]]
-  - [[lean-startup-domain-digest]]
+- '[[framework-lean-false-model]]'
+- '[[yitang-domain-digest]]'
+- '[[lean-startup-domain-digest]]'
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 五步法与精益验证的接口
 
 > 把一堂五步法（需求→产品内核→商业模式→增长→壁垒）的每一步，映射到对应的精益验证工具和通过标准。

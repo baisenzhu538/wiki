@@ -16,12 +16,11 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-- [[yt-demand-treadmill-case]]
-- [[yt-five-step-implementation]]
-- [[case-milktea-five-step]]
-- [[case-shampoo-product-kernel]]
-- [[case-demand-silver-parenting]]
-- [[yt-foresight-15-char-mantra]]
+- '[[case-shampoo-product-kernel]]'
+- '[[case-unit-model-gashapon]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 pipeline:
@@ -32,6 +31,7 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 ---
+
 > 黄药师骨架 · 老顽童填内容
 
 ## 案例背景

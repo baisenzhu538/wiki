@@ -1,5 +1,4 @@
 ---
-
 id: tool-alt-data-free
 title: 免费替代数据：小团队的Hedge Fund武器
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-media-verification-overview]]
-  - [[tool-dns-intelligence]]
-  - [[tool-osint-wayback]]
-  - [[tool-agent-native-overview]]
-  - [[tool-alt-data-overview]]
-  - [[tool-alt-data-overview]]
-  - [[tool-yitang-database-index]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 免费替代数据
 
 > ⚠️ 注意：免费API和网站可能随时变化或关闭。本卡信息截至2026-06，使用前验证。

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dk
@@ -13,19 +10,15 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.88
 trust_level: medium
 related:
-- [[case-strategy-revival-14-gucci]]
-- [[ocr-一堂-科学决策-宽度-企业]]
-- [[yt-management-scientific-meetings]]
-- [[case-yitang-radar-chart-selection]]
-- [[tool-yitang-executive-speech-analysis]]
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-expert-consensus-five-percent]]
-- [[tool-radar-chart-modeling]]
-- [[dk-modeling-sop-execution-locks]]
+- '[[yitang-domain-digest]]'
+- '[[concept-ceo-must-do-user-research]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -35,8 +28,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
-updated_at: '2026-06-18'# 复杂评选别让 CEO 拍结果，只让 CEO 审模型
+updated_at: '2026-06-18'
 ---
+
 ## 原始表述
 
 > 你们要习惯性建模，你们带着模型过来跟我聊，我只聊模型不聊结果……我有一票否，但我没有一票通过权……我负责的是模型足够健康，且执行是 OK 的。

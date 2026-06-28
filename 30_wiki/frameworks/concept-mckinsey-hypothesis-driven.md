@@ -1,15 +1,12 @@
 ---
-
-
-
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
 source_refs: []
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 bridges_to:
 - relation: provides_foundation_for
   description: Hypothesis-Driven 是'关键假设'概念的底层工作流
@@ -25,16 +22,11 @@ diagnostic_signals:
 - framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags: []
 version: 1
 created_at: 2026-06-11
@@ -43,8 +35,8 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
-
 ---
+
 # Hypothesis-Driven Approach：假设驱动工作法
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Friga, P. N. (2003). *The McKinsey Mind*

@@ -13,11 +13,14 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[case-半肥猫-course-to-skill]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-月白-课程问题预埋法]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,8 +48,8 @@ diagnostic_signals:
   follow_up: 执行步骤8：设计版本号+反馈模板+回归测试周期，维护成本计入总投入
 - lens: 版权风险
   follow_up: 步骤1前必须确认授权，未经授权的课程转Skill涉及版权风险
-
 ---
+
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 
 ## 原始表述

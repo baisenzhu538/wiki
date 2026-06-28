@@ -1,31 +1,21 @@
 ---
-
-
-
-
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.75
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-note-five-levels-training]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-live-field-skill]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 prerequisites:
 - src_unknown
 source_refs:
@@ -58,8 +48,8 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
+
 # 一堂笔记法：清单体笔记的核心概念与原理
 
 > 来源：一堂《AI时代清单体笔记》完整课程。Truman十年刻意练习的沉淀——清单体不是"简陋"，而是"极简"；不是备忘手段，而是认知加工方法。

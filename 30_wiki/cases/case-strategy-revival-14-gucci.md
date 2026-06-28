@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-revival-14-gucci
 title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代
 type: case
@@ -12,13 +11,14 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-  - [[case-strategy-edward-jones]]
-  - [[dk-strategy-06-dividend-to-strategy]]
-  - [[dk-modeling-radar-model-not-result]]
-  - [[case-doris-2014-music-streaming-prediction]]
-  - [[case-strategy-cool-boiled-water]]
-  - [[framework-strategy-brm]]
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **背景**：CEO Bizzarri 2015年就任，收入€39亿
 **动作**：砍低价折扣渠道→收回授权转直营→换创意总监→聚焦千禧一代
 **结果**：4年收入翻倍至€83亿。千禧一代贡献超50%销售额

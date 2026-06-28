@@ -12,11 +12,11 @@ confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[concept-问题驱动式深度思考笔记]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -40,8 +40,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
+
 # 事实→规律→见解：深度思考笔记的三段论结构
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的内部标准三段论：**事实是什么？规律是什么？见解是什么？** "你只要罗列足够多的真实的事实，很多规律它自然而然就呈现了。前提是你的笔记能到这个程度。"

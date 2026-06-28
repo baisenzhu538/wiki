@@ -1,5 +1,4 @@
 ---
-
 id: concept-mcp-protocol
 title: MCP协议：Agent调用外部工具的统一标准
 type: concept
@@ -12,21 +11,20 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-firecrawl]]
-  - [[紫鲸AI]]
-  - [[tool-agent-native-overview]]
-  - [[framework-yitang-research-weapon-supplement-2026]]
-  - [[tool-yitang-web-scraping-research]]
-  - [[tool-agent-native-overview]]
-  - [[tool-yitang-ai-research-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # MCP协议
 
 > **⚠️ 供应商锁定风险：MCP由Anthropic主导，可能有生态偏向。** Model Context Protocol——让AI Agent说一句话就调用一个外部工具，无需人工配置。

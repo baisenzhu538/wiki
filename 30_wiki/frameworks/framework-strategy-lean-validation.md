@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-lean-validation
 title: 战略假设的精益验证流程
 type: framework
@@ -12,26 +11,20 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - lean-startup
-  - yitang
+- strategy
+- lean-startup
+- yitang
 source_refs:
 - 00_inbox/精益创业/transcript_低成本验证认知篇.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - [[framework-lean-pivot-decision]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[framework-demand-lean-bridge]]
-  - [[case-cross-yuanqi-forest]]
-  - [[framework-five-step-lean-interface]]
-  - [[framework-strategy-brm]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-decision-y-model]]
-  - [[strategy-domain-digest]]
-  - [[lean-startup-domain-digest]]
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-abcd-model]]'
+- '[[strategy-domain-digest]]'
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 战略假设的精益验证流程
 
 > 把战略选择翻译成一个可验证的假设清单，并用精益工具按优先级和成本排序验证。

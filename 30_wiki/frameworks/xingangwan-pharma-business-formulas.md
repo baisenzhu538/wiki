@@ -1,16 +1,14 @@
 ---
-
-
 id: xingangwan-pharma-business-formulas
 title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 type: framework
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - business-strategy
-  - product
-  - unit-economics
+- healthcare- healthcare
+- pharmaceutical-retail
+- business-strategy
+- product
+- unit-economics
 created_at: '2026-06-19'
 updated_at: '2026-06-18'
 author: unknown
@@ -18,16 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - [[shanxi-field-research-checklist-20260701]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[xingangwan-pharma-business-model-formulas]]
-  - [[case-offline-catering-formula]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[shanxi-field-research-checklist-20260701]]
-  - [[tool-funnel-formula-modeling]]
-  - [[yt-unit-model-construction]]
+- '[[xingangwan-pharma-business-model-calc]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:
@@ -43,8 +36,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 
 > **Burn line**: 业务公式回答的是“客户怎么一步一步变成利润”，而不是“利润等于多少”。

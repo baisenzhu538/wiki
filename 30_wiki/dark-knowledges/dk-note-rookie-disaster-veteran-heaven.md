@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-note-rookie-disaster-veteran-heaven
 title: “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 type: dk
@@ -21,15 +19,11 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
-- [[dk-note-maximum-common-divisor]]
-- [[dk-fundamentals-before-advanced-ops]]
-- [[yt-skill-checklist-as-ai-protocol]]
-- [[dk-note-surplus-brainpower]]
-- [[dk-truman-flag-note-taking]]
-- [[yt-note-five-levels-training]]
-- [[dk-note-surplus-brainpower]]
-- [[dk-note-maximum-common-divisor]]
-- [[yt-note-ai-human-division]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -47,6 +41,7 @@ diagnostic_signals:
   framework_lens: 审美未内化——AI提供了形式，但没提供判断
   follow_up_question: 这份笔记里如果只能保留3个要点，你会怎么选？为什么？# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 ---
+
 ## 原始表述/核心洞察
 
 > "现在是那些新人的灾难，是那些老人的天堂。"

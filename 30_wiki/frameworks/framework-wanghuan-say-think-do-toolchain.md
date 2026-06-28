@@ -30,19 +30,19 @@ diagnostic_signals:
 - lens: 工具链成熟度
   follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-mece体系框架法]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-AI设计-质价比-决策框架]]'
+- '[[tool-体系框架构建]]'
+- '[[tool-使用一页纸速查卡快速调用框架]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢说→想→做工具链框架
 
 > **Burn line**: AI 协作的工具链可以分成三层：说（输入）、想（推理）、做（执行）。

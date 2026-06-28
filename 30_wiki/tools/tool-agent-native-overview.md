@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-native-overview
 title: Agent原生调研工具总览：2025-2026新范式
 type: tool
@@ -12,22 +11,21 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-firecrawl]]
-  - [[tool-agent-crawl4ai]]
-  - [[tool-dns-intelligence]]
-  - [[tool-osint-wayback]]
-  - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
-  - [[tool-osint-overview]]
-  - [[tool-yitang-ai-research-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Agent原生调研工具总览
 
 > **⚠️ 2025-2026新范式，工具变化快。本卡信息截至2026-06。** 传统调研工具以"人手动操作"为假设。2025年后涌现了大量专为AI Agent设计的工具——输入自然语言，输出结构化数据。

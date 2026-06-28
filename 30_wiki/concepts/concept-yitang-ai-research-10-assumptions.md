@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-ai-research-10-assumptions
 title: AI调研十大假设：人机协作的底层原则
 type: concept
@@ -8,24 +7,23 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - [[concept-research-responsibility-boundary]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-ai-research-workflow]]
-  - [[tool-yitang-ai-research-workflow]]
-  - [[concept-yitang-ai-research-human-loop]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # AI调研十大假设
 
 > 一堂"情报调研十大假设"框架——人机协作做调研不能靠感觉，需要一套底层假设来校准每一次AI协作。

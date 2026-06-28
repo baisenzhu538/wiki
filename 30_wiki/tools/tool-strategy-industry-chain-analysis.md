@@ -6,21 +6,26 @@ status: enriched
 confidence: 0.94
 trust_level: high
 domain:
-  - strategy
-  - operations
+- strategy
+- operations
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[case-strategy-snack-industry-chain]]
-  - [[tool-strategy-activity-scope]]
-  - [[tool-strategy-logistics-cost-planning]]
-  - [[tool-strategy-value-capture]]
+- '[[strategy-domain-digest]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[ocr-泛产品设计-审美工具箱指南]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[ocr-泛产品设计落地工具篇指南]]'
+- '[[tool-月白-资深设计师AI工具切换法]]'
+- '[[ocr-泛产品设计-需求工具箱指南]]'
 ---
+
 # 产业链机会与行动计划分析工具
 
 > 从上游到下游逐环节扫描产业链，识别每个环节的商业机会、可执行行动计划与责任部门，支撑企业在价值链上的角色选择。

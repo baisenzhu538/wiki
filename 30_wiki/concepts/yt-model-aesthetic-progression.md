@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2330
 language: zh-CN
 query_triggers:
@@ -19,15 +15,11 @@ query_triggers:
 - src_unknown：从看不见到大胆想象的进化路径
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-product-excellence]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_7d2a79f8-ocr-审美提升的层级
@@ -49,8 +41,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 审美提升的层级：从看不见到大胆想象的进化路径
 
 > 来源：一堂知识地图《审美提升的层级》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-product-excellence]] | [[一堂]]

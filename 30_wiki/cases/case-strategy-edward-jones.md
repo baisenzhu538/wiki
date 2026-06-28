@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,12 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 **模式**：每个小镇只招一个经纪人→没有办公位→在家里办公→只做小镇客户
 **结果**：全美最大的券商之一，比高盛的网点还多
 **核心洞察**：分筋错骨手——所有人都觉得"券商=大城市写字楼"，爱德华琼斯说"券商=小镇居民的信任关系"

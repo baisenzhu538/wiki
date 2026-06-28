@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-tool-mental-model-refinement
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -26,17 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-月白-社群直播海报利益点提炼法]]'
+- '[[tool-费曼简单提炼法]]'
+- '[[ocr-一堂提炼过的因果模型]]'
+- '[[tool-费曼学习法三句话提炼]]'
+- '[[tool-动手建模提炼]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -60,8 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 ## Summary
 
 > **一句话**：90% 的管理者不是缺经验，是缺「把经验压成模型」的刻意练习——模型提炼能力才是团队一号位的真正护城河。

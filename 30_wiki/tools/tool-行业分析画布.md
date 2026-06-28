@@ -1,5 +1,4 @@
 ---
-
 id: tool-行业分析画布
 title: 行业分析画布：系统性理解行业结构
 type: tool
@@ -10,20 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[tool-项目背景分析]]
-  - [[tool-用户视角]]
-  - [[tool-动力阻力分析]]
-  - [[tool-用户分层]]
-  - [[tool-需求挖掘]]
-  - [[framework-科学决策三角形]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 行业分析画布：系统性理解行业结构
 
 ## 一句话定义

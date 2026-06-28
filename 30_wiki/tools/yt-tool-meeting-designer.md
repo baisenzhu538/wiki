@@ -15,11 +15,11 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-decision-y-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -50,8 +50,8 @@ diagnostic_signals:
 - framework_lens: 设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制
   follow_up_question: 团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删
 author: 老顽童
-
 ---
+
 # 会议设计师：一页纸会议蓝图
 
 > 来源：从 [[yt-management-scientific-meetings]] 概念卡萃取的工具内核。一张纸、五分钟，让每次会议都有存在的理由。

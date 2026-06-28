@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-behavioral-observation
 title: 行为观察法：不提问，只看用户怎么做
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-user-direct-interview]]
-  - [[tool-yitang-field-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 行为观察法
 
 > 用户说的和做的不一样。观察行为比听表态更真实。

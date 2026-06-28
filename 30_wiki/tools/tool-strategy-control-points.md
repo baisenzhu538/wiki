@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-control-points
 title: 战略控制点设计工具：价值定位模型
 aliases:
@@ -11,8 +10,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - competitive_advantage
+- strategy
+- competitive_advantage
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_vlm_desc.md
@@ -21,16 +20,16 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[framework-strategy-ansoff]]
-  - [[tool-strategy-core-competence-matrix]]
-  - [[framework-strategy-kai-innovation-directions]]
-  - [[framework-strategy-five-forces]]
-  - [[tool-strategy-value-proposition]]
-  - [[framework-strategy-business-design]]
-  - [[tool-strategy-activity-scope]]
-  - [[tool-strategy-risk-management]]
-  - [[tool-strategy-value-proposition]]
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
 ---
+
 # 战略控制点设计工具：价值定位模型
 
 > 业务设计六要素第 5 要素。核心问题：**我们如何建立并守住持续竞争优势？护城河在哪里？**

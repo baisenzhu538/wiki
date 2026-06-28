@@ -7,25 +7,24 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[dk-yitang-ai-research-prompt-craft]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[tool-yitang-financial-report-intelligence]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 做重要设计前先摸行业最佳实践
 
 > "大多数情况下，你面对的问题，别人已经解决过了。而且解决了5年、10年、20年。你不需要重新发明——你只需要找到那个已经解决了问题的人，理解他们是怎么解决的。" ——Truman

@@ -11,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[dk-yitang-research-starter-vs-veteran]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 调研决心比技巧重要
 
 > "投资人为了验证数据，可以每天啃三个包子从早蹲到晚。投资人能蹲，我们还有啥面子挂不住的？"

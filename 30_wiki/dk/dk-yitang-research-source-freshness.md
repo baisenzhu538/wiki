@@ -11,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[tool-doris-industry-report-source-evaluation]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 信源时效性
 
 > 不是所有信息都"不过期"。不同领域的信息衰减速度完全不同。

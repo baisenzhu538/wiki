@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-critical-reading-three-layers
 title: 三层拆书批判法
 type: tool
@@ -10,26 +9,20 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - reading_methodology
+- ai_collaboration
+- critical_thinking
+- reading_methodology
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 related:
-  - [[concept-ai-information-quality-ladder]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[tool-ai-cross-reading-method]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[concept-ai-chair-determines-view]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[tool-wanghuan-ai-business-profile]]
-  - [[concept-candy-ai-as-collaborator]]
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 三层拆书批判法
 
 > **Burn line**：拆书不是复述内容，而是在作者的盲区上长出你自己可行动的认知。

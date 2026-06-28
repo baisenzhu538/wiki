@@ -7,23 +7,23 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[dk-yitang-expert-interview-5-traps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 调研中的幸存者偏差
 
 > 网上能搜到的都是"活下来的"。关掉的店、亏钱的人、失败的项目——这些信息很少出现在公开渠道里，但它们恰恰是你最需要的。

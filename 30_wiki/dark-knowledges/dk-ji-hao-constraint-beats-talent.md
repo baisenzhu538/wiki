@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-28
 related:
-  - [[dk-ji-hao-logs-fastest-ignored]]
-  - [[dk-ji-hao-simple-complex-routing]]
-  - [[tool-纪浩-AI工具脚本化约束]]
-  - [[tool-纪浩-处理AI生成代码运行异常]]
-  - [[tool-纪浩-Agent开工检查单制作法]]
-  - [[case-ji-hao-ui-design-constraint-evolution]]
-  - [[concept-纪浩-ai-collaboration-five-layer]]
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -35,11 +35,12 @@ trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
   lens: 提示词/约束资产化
-  follow_up: '是否已经把"好"的标准写成可检查的约束条目，而非停留在口头评价？'
+  follow_up: 是否已经把"好"的标准写成可检查的约束条目，而非停留在口头评价？
 - signal: src_unknown
   lens: 标准化/可复用中间产物
-  follow_up: '是否已经存在一份共享约束文档，并被当作迭代的基线？'
+  follow_up: 是否已经存在一份共享约束文档，并被当作迭代的基线？
 ---
+
 # 暗知识：约束的力量
 
 ## 原始表述

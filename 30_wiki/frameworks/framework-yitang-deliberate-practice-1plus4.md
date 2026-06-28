@@ -4,8 +4,8 @@ type: framework
 title: 刻意练习 1+4 模型：科学成长的操作系统
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 confidence: 0.85
 trust_level: medium-high
 author: 老顽童
@@ -14,12 +14,21 @@ review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
-  - src_unknown
-  - pending_archive:K. Anders Ericsson et al., "The Role of Deliberate Practice in the Acquisition of Expert Performance," Psychological Review, 1993
-  - pending_archive:Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus to Rapidity of Habit-Formation," 1908
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- src_unknown
+- pending_archive:K. Anders Ericsson et al., "The Role of Deliberate Practice in the
+  Acquisition of Expert Performance," Psychological Review, 1993
+- pending_archive:Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus
+  to Rapidity of Habit-Formation," 1908
+related:
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 刻意练习 1+4 模型：科学成长的操作系统
 
 ## 一句话

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
 type: dk
@@ -26,14 +25,17 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-- [[modeling-capability-for-kdo]]
-- [[modeling-three-stages]]
-- [[dk-modeling-expert-consensus-five-percent]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述/核心洞察
 
 > "你们有发现一堂初阶营的第一个下午的训练任务是案例大爆炸。你们不好奇吗？就是我们怎么胆子那么大？敢让大家把你们过去经历过的商业失败全贴到方格子里……因为万一出现了一些奇奇怪怪的错误不在我国法律范围内，就很尴尬……因为我们对于销冠广场有足够强的信心。" —— Truman，`src_20260614_8269ccdb#2112-2126`

@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-马易-AIGC项目ROI评估]]'
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[tool-月白-AI质价比评估方法]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+- '[[tool-项目方案评估三角形]]'
 diagnostic_signals:
 - framework_lens: 商业模式可规模化——单元模型成立≠可规模化
   follow_up_question: 你的获客渠道是否可规模化？每个渠道的获客上限是多少？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？
 - framework_lens: 商业模式可规模化——规模不解决根本问题
   follow_up_question: 规模化的瓶颈是什么？规模能突破瓶颈吗？
-
 ---
+
 # 商业模式可规模化评估：从1到100万
 
 > 一堂五步法：单元模型成立只是开始，商业模式还需要可规模化。评估规模化潜力，避免"做不大"的陷阱。

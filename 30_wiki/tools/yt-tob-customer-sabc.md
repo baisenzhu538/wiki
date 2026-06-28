@@ -1,16 +1,13 @@
 ---
-
-
-
 id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs: []
 tags:
 - src_unknown
@@ -26,20 +23,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-sabc-tier-modeling]]'
+- '[[tool-Truman-数学题与语文题区分法]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
+- '[[ocr-一堂-单元模型-单客户模型]]'
+- '[[tool-月白-普通人AI设计80分法则]]'
 diagnostic_signals:
 - framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
   follow_up_question: 如果明天必须砍掉一半客户资源，哪类客户对今年业务目标的贡献度最大？为什么？
@@ -49,8 +37,8 @@ diagnostic_signals:
   follow_up_question: 我当前阶段到底是先要利润活下来，还是先要规模拿数据？哪类客户能同时满足这两个目标？
 - framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
   follow_up_question: 如果明年目标从"新增 100 家客户"变成"毛利转正"，我的 S 类客户会变成哪一类？哪些旧 S 类需要降级或剥离？
-
 ---
+
 # To B 客户 SABC 自定义切分法
 
 > 头部/腰部/腿部只是极简经验模型，真正有效的客户分层必须基于**你自己的业务目标**和**客户所在行业的集中度**来自建 SABC。——徐剑《To B 五步法》

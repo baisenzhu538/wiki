@@ -1,16 +1,12 @@
 ---
-
-
-
-
 title: 公司文化
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 pipeline:
 - src_unknown
@@ -34,18 +30,13 @@ source_refs:
 - src_20260522_38173b48-design-ai-image-generation
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

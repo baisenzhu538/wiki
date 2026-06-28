@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
-  - [[case-yitang-competitor-pricing-intelligence]]
-  - [[case-zhanglan-amusement-park-undercover]]
-  - [[case-yitang-hardware-factory-photo]]
-  - [[case-popmart-prospectus-pricing]]
-  - [[case-yitang-supplier-security-guard]]
-  - [[framework-yitang-expert-interview-10steps]]
-  - [[dk-yitang-expert-interview-5-traps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：对标三节课做C端
 
 **问题**：一堂早期想做成人职业教育，对标了当时C端做得最好的三节课。找了他们运营、产品、课程三条线的负责人吃了三轮饭局，打听了内部模型、投放数据、发展情况。

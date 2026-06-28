@@ -1,52 +1,54 @@
 ---
-
 domain:
 - yitang
-
-
 id: yt-prompt-brainstorming
-title: "AI头脑风暴工作流"
+title: AI头脑风暴工作流
 type: tool
 source_refs:
-- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- src_unknown
+- src_unknown
 status: enriched
 version: 1
 difficulty: intermediate
 confidence: 0.85
 prerequisites:
-  - src_unknown
+- src_unknown
 component_of:
-  - src_unknown
-source_refs:
-  - src_unknown
-  - src_unknown
+- src_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-05-13
 estimated_tokens: 2000
 pipeline:
-  - src_unknown
+- src_unknown
 diagnostic_signals:
-  - {'signal': '头脑风暴前会明确写出自己独特的资源、约束和目标', 'framework_lens': 'AI头脑风暴的价值来自独特输入', 'follow_up_question': '这次 brainstorm 中，有哪些输入是只有你能提供的？'}
-  - {'signal': '一次会话会生成≥5个不同方向的选项，再进入筛选', 'framework_lens': '发散先于收敛', 'follow_up_question': 'AI给出的第一个方案是不是你最可能的默认答案？'}
-  - {'signal': '最终选择由人做出，并对选中方案进行深化', 'framework_lens': '人是决策者', 'follow_up_question': '你最后选择的方案与AI最初建议相比，改动有多大？'}
+- signal: 头脑风暴前会明确写出自己独特的资源、约束和目标
+  framework_lens: AI头脑风暴的价值来自独特输入
+  follow_up_question: 这次 brainstorm 中，有哪些输入是只有你能提供的？
+- signal: 一次会话会生成≥5个不同方向的选项，再进入筛选
+  framework_lens: 发散先于收敛
+  follow_up_question: AI给出的第一个方案是不是你最可能的默认答案？
+- signal: 最终选择由人做出，并对选中方案进行深化
+  framework_lens: 人是决策者
+  follow_up_question: 你最后选择的方案与AI最初建议相比，改动有多大？
 updated_at: 2026-06-13
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-- [[yt-prompt-anti-flattery]]
-- [[yt-note-ai-human-division]]
-- [[yt-prompt-iterative-prompting]]
-- [[yt-prompt-writing-workflow]]
-- [[yt-model-prompt-engineering]]
+- '[[yt-prompt-iterative-prompting]]'
+- '[[yt-prompt-anti-flattery]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # AI 头脑风暴工作流
 
 > [[yt-model-prompt-engineering]] 的子工具。写作是 AI 最高频场景（24.5%），但头脑风暴（仅 3.9%）才是 AI 最强的用法。AI 应该用来拔高你的上限，而不是抬高你的下限。

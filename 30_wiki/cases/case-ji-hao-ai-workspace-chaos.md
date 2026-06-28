@@ -1,12 +1,11 @@
 ---
-
 id: case-ji-hao-ai-workspace-chaos
 title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,14 +14,9 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:
-  - [[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]
-  - [[tool-纪浩-AI工作空间与导诊台设计法]]
-  - [[concept-纪浩-ai-collaboration-five-layer]]
-  - [[structured-ai-workspace]]
-  - [[sk-ai-ai-workspace-setup]]
-  - [[concept-纪浩-ai-collaboration-five-layer]]
-  - [[dk-ji-hao-novice-mindset-advantage]]
-  - [[case-jh-yitang-vs-sqlhelper]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -41,6 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 # 案例：AI工作空间混乱导致"行为退化"而重来
 
 ## 一句话摘要

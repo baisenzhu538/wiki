@@ -1,5 +1,4 @@
 ---
-
 id: tool-Y模型实操工作流
 title: Y模型实操工作流：从分析到决策的完整路径
 type: tool
@@ -10,22 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-Y模型_vlm_desc.md
 related:
-  - [[tool-项目方案评估三角形]]
-  - [[concept-稀缺机会窗口]]
-  - [[concept-思考深度分级]]
-  - [[tool-决策深度-L3定量公式]]
-  - [[framework-问题边界与Problem澄清五层结构]]
-  - [[yt-decision-y-model]]
-  - [[tool-Y模型STEPS策略集]]
-  - [[framework-科学决策三角形]]
-  - [[tool-ROI决策评估画布]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Y模型实操工作流
 
 ## 一句话定义

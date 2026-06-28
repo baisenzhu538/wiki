@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
   follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 内核验证成功，但单元模型是否成立？LTV > CAC吗？
 - framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
   follow_up_question: 市场不认可的是定价、付费方式，还是价值感知？
-
 ---
+
 # 从内核到商业模式：承上启下
 
 > 一堂五步法：产品内核是价值，商业模式是变现。内核验证成功≠商业模式成功，需要承上启下的设计。

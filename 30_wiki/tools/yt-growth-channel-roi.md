@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[case-truman-poker-deck-roi]]'
+- '[[tool-泛产品落地-ROI分析]]'
+- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+- '[[tool-马易-AIGC项目ROI评估]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[dk-decision-value-overrides-roi]]'
 diagnostic_signals:
 - framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
   follow_up_question: 你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你的渠道集中度是多少？是否有计划拓展新渠道？
 - framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
   follow_up_question: 成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？
-
 ---
+
 # 渠道ROI评估与优化
 
 > 一堂五步法：渠道ROI不是CAC越低越好，而是LTV/CAC越高越好。渠道优化 = 增量预算给ROI高的渠道。

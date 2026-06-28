@@ -1,6 +1,4 @@
 ---
-
-
 id: 街顺app全面调研报告
 created_at: 2026-04-26
 domain: healthcare
@@ -19,12 +17,16 @@ pipeline:
 author: unknown
 confidence: 0.85
 related:
-  - [[HIS系统开发实现方案-架构师指南]]
-  - [[鑫港湾his系统分阶段整改报告]]
-  - [[保达云诊所深度调研报告]]
-  - [[HIS系统深度调研]]
-  - [[紫鲸ai智能体工作流平台]]
+- '[[case-strategy-failure-04-appliance]]'
+- '[[tool-yitang-app-store-data]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[tool-yitang-app-store-review]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[诊所o2o外卖平台业务深度调研报告]]'
 ---
+
 # 街顺APP全面调研报告
 
 ## Summary

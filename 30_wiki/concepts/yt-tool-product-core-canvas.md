@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3800
 language: zh-CN
 prerequisites:
@@ -25,15 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yitang-course-map]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[yt-concept-ai-guard-brain]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-06-06
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -63,8 +55,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
-
 ---
+
 # 产品内核画布与九大原则
 
 > 来源：一堂课程体系中产品内核系列实操课 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md`（洪七公 OCR 整合） | 阶段：起盘阶段。产品内核画布的实践操作工具，将抽象的产品内核定义转化为可执行的分析流程，通过九大原则约束分析质量，通过色彩分类实现可视化决策。这是将"用户愿意选择你的最小解决方案"从概念落地为操作的桥梁工具。[[yitang-course-map]]

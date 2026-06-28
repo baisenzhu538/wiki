@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-fishbone
 title: 鱼骨图根因分析工具
 type: tool
@@ -7,8 +6,8 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - strategy
-  - problem_solving
+- strategy
+- problem_solving
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
@@ -18,14 +17,13 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[tool-strategy-lifecycle]]
-  - [[framework-strategy-ansoff]]
-  - [[tool-strategy-core-competence-matrix]]
-  - [[framework-strategy-kai-innovation-directions]]
-  - [[tool-strategy-value-proposition]]
-  - [[case-strategy-model-selection-quiz]]
-  - [[framework-strategy-blm]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 鱼骨图根因分析工具
 
 > 用于结构化拆解业绩差距或问题的根因，从现象逐层深入到可行动的底层要素。

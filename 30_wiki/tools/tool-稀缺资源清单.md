@@ -1,5 +1,4 @@
 ---
-
 id: tool-稀缺资源清单
 title: 稀缺资源清单：识别和配置决策中的关键约束
 type: tool
@@ -10,21 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md
 related:
-  - [[tool-最佳实践池子]]
-  - [[framework-高水平共识曲线]]
-  - [[concept-最佳实践建模]]
-  - [[tool-审美工具箱]]
-  - [[concept-稀缺机会窗口]]
-  - [[framework-科学决策三角形]]
-  - [[concept-稀缺机会窗口]]
-  - [[tool-ROI决策评估画布]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 稀缺资源清单
 
 ## 一句话定义

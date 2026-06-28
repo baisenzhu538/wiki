@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-height-toolkit
 component_of:
 - src_unknown
@@ -24,15 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-width-method]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要
 status: enriched
@@ -82,6 +77,7 @@ diagnostic_signals:
   follow_up_question: 员工能做加一思考所需的关键信息，目前能获取多少？如果<50%，工具只能退回到'个人/项目视角'使用
 author: 老顽童
 ---
+
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线
 
 ## Summary

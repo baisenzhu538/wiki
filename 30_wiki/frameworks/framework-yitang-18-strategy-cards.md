@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-18-strategy-cards
 title: 降龙十八掌：18张调研策略卡全景图
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
@@ -30,21 +29,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[yt-management-company-culture]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[framework-yitang-research-weapon-supplement-2026]]
-  - [[framework-yitang-four-research-types]]
-  - [[yt-research-intelligence-map]]
-  - [[yt-research-competitor-toolkit]]
-  - [[yt-research-mindset]]
-  - [[tool-yitang-research-validate-assumption]]
-  - [[tool-yitang-research-competitor-tracking]]
-  - [[tool-yitang-research-industry-scan]]
-  - [[tool-yitang-research-company-disassembly]]
-  - [[tool-key-assumptions-check]]
-  - [[tool-devils-advocacy]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 降龙十八掌：18张调研策略卡全景图
 
 > **一句话**：降龙十八掌不是18个独立招式，而是18个策略节点，覆盖从假设验证到深度归因的完整调研链条。每一掌都有明确的触发条件、执行标准和验收标准。

@@ -16,9 +16,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-关键假设abcd模型]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -47,8 +50,8 @@ diagnostic_signals:
   follow_up_question: 这个业务如果失败，最可能是因为哪2-3个前提不成立？每个前提有没有对应的最小验证实验？
 - framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
-
 ---
+
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设
 
 > "他没有直接开三家店，而是先做实验验证关键假设，这就是假设思维的价值。" —— 一堂关键假设课

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
@@ -27,16 +26,17 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- [[modeling-capability-for-kdo]]
-- [[case-truman-ai-skill-engineering-guide]]
-- [[tool-ai-skill-engineering-method]]
-- [[dk-modeling-ai-self-retrospection]]
-- [[dk-modeling-ai-without-judgment]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述 / 核心洞察
 
 > "我就一路喷他，连着喷了大概十几轮，让他 MECE，让他排序，让他参考案例……这个不 MECE，你 MECE；你自己检查一下；没顺序，内在规律吗？你给我写三个逻辑链……就不断喷他，然后不断跟他说不够好。AI 不会离职，AI 不会离职，AI 离职不了。" —— Truman，`src_20260614_8269ccdb#2466-2494`

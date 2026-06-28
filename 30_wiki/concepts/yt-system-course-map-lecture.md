@@ -1,8 +1,5 @@
 ---
-
-
-
-title: "一堂课程地图精华串讲"
+title: 一堂课程地图精华串讲
 type: concept
 status: reviewed
 source_refs:
@@ -12,31 +9,39 @@ id: yt-system-course-map-lecture
 created_at: 2026-05-05
 domain: yitang
 yitang:
-  module: "课程体系总览"
+  module: 课程体系总览
   course_type: method
   level: foundational
-  series: True
-reviewed_by: "黄药师"
+  series: true
+reviewed_by: 黄药师
 review_date: 2026-05-06
 pipeline:
-  - src_unknown
+- src_unknown
 diagnostic_signals:
-  - {'signal': "使用地图前是否先用'全盘游戏'定位真实能力缺口", 'framework_lens': '整合体验 / Perkins 全局游戏', 'follow_up_question': "是否因为地图太完整而陷入'等我学完再开始'的拖延？"}
-  - {'signal': '每次使用前是否检查框架是否仍然成立、是否有新反例', 'framework_lens': '时效性 / 反脆弱', 'follow_up_question': '方法论是否被当成绝对真理执行？'}
-  - {'signal': '分析后是否仍能指出至少 1 个框架外的重要因素', 'framework_lens': '边界意识 / Taleb 残留风险', 'follow_up_question': "是否产生'每个维度都对但整体不对'的错觉？"}
-  - {'signal': "学习路径是否按'具体项目问题→选 1 个最相关模块→应用'推进", 'framework_lens': '最小可用 / 刻意练习', 'follow_up_question': '是否一次性尝试应用整个十层框架导致信息过载？'}
+- signal: 使用地图前是否先用'全盘游戏'定位真实能力缺口
+  framework_lens: 整合体验 / Perkins 全局游戏
+  follow_up_question: 是否因为地图太完整而陷入'等我学完再开始'的拖延？
+- signal: 每次使用前是否检查框架是否仍然成立、是否有新反例
+  framework_lens: 时效性 / 反脆弱
+  follow_up_question: 方法论是否被当成绝对真理执行？
+- signal: 分析后是否仍能指出至少 1 个框架外的重要因素
+  framework_lens: 边界意识 / Taleb 残留风险
+  follow_up_question: 是否产生'每个维度都对但整体不对'的错觉？
+- signal: 学习路径是否按'具体项目问题→选 1 个最相关模块→应用'推进
+  framework_lens: 最小可用 / 刻意练习
+  follow_up_question: 是否一次性尝试应用整个十层框架导致信息过载？
 updated_at: 2026-06-13
-author: "老顽童"
+author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-  - [[yt-panproduct-aesthetic-collection]]
-  - [[yt-panproduct-demand-industry-canvas]]
-  - [[tool-泛产品落地-善用佳软]]
-  - [[yt-panproduct-aesthetic-pool]]
-  - [[yt-panproduct-demand-project-background]]
-
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 一堂课程地图精华串讲
 
 ## Summary

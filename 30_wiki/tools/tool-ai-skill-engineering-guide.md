@@ -1,7 +1,4 @@
 ---
-
-
-
 id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
@@ -28,18 +25,14 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
 diagnostic_signals:
 - framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
@@ -48,6 +41,7 @@ diagnostic_signals:
 - framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把"好 skill"的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---
+
 # 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 
 > 来源：一堂建模能力培训（Truman）口述稿 | 背景：为封装高质量 AI skill，Truman 用约 3 小时、10-15 轮迭代，产出一套包含 7 个复杂度范式、四层架构、10 条 To Do/Not To Do、P0/P1/P2 分级的工程指南，并用友商报告交叉验证达到 S 级水准。

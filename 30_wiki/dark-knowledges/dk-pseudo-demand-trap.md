@@ -1,13 +1,12 @@
 ---
-
 id: dk-pseudo-demand-trap
 title: 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 type: dk
 dark_knowledge_type: validation-blindspot
 status: enriched
 domain:
-  - yitang
-  - business-strategy
+- yitang
+- business-strategy
 source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
@@ -19,14 +18,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - [[dk-yi-tang-wishful-thinking-kills-startups]]
-  - [[yt-foresight-ten-fatal-flaws]]
-  - [[yt-ai-trend-12-signals]]
-  - [[dk-signal-cluster-illusion]]
-  - [[dk-ai-entrepreneur-technical-blindspot]]
-  - [[yt-ai-startup-20-risky-hypotheses]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-entrepreneur-needs-analysis]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -35,6 +31,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 
 ## 原始表述 / 核心洞察

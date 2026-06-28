@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-ai-partner
 component_of:
 - src_unknown
@@ -23,16 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-canvas]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
@@ -67,6 +61,7 @@ diagnostic_signals:
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
 ---
+
 # AI决策Partner对话法
 
 > 来源：一堂2026年AI决策行动营。与[[yt-decision-y-model]]配套的AI协作工具，将AI从"一次性出结论的工具"重新定位为"多轮对话中的协作伙伴"，通过结构化交互流程辅助人类完成高质量决策分析。

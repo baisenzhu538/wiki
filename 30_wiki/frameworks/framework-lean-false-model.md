@@ -1,18 +1,17 @@
 ---
-
 id: framework-lean-false-model
 title: 一堂 FALSE/FLESAI 低成本验证模型
 type: framework
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 - 00_inbox/精益创业/精益创业-false模型-策略图_vlm_desc.md
@@ -23,18 +22,13 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
-  - [[framework-lean-six-wastes]]
-  - [[yt-lean-false-model-ai]]
-  - [[framework-lean-tenx-formula]]
-  - [[yt-lean-daily-probability-decision]]
-  - [[framework-lean-four-principles]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[concept-一堂-kernel-validation]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-strategy-lean-validation]]
-  - [[framework-five-step-lean-interface]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 一堂 FALSE/FLESAI 低成本验证模型
 
 > 用一条成本光谱，把"不做产品直接验证"到"全量投入"之间的所有中间策略串起来，帮助创业者在确定性不足时选择最省钱的验证路径。

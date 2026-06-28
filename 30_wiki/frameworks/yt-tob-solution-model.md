@@ -1,16 +1,13 @@
 ---
-
-
-
 id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs: []
 tags:
 - src_unknown
@@ -27,20 +24,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-tob-unit-model]]'
+- '[[yt-tob-customer-tiering]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 解决方案类型矩阵
   follow_up_question: 当前业务的需求端（客户要的是否是相对一致的标准需求）与履约端（交付动作是否可重复标准化）是否同时成立？
@@ -48,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 客户使用期间我方是否每天都在发生履约成本？收入确认应该一次性确认还是按周期分摊？
 - framework_lens: 采购方式矩阵
   follow_up_question: 客户采购属于入围型、一次性采购还是周期性采购？每种形态对应的销售投入、利润设计和现金流结构是什么？
-
 ---
+
 # To B 解决方案类型矩阵
 
 > "To B 业务不存在唯一的标准答案，关键是把业务按多个维度拆清楚：交付形式上是标品还是定制、履约周期上是一次性完成还是需要持续服务、采购方式上是入围型/一次性/周期性。这三个维度交叉组合，才能判断你真正的商业模式和单元模型。" ——徐剑《To B 五步法》口述稿（约 1906–2278 行）；课堂笔记 §3 将其归纳为"模式选择：根据标准化程度和履约方式选择产品型、服务型或项目型"。

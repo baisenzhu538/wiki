@@ -1,52 +1,54 @@
 ---
-
 domain:
 - yitang
-
-
 id: yt-prompt-iterative-prompting
-title: "迭代式提示词工作流（5步法）"
+title: 迭代式提示词工作流（5步法）
 type: tool
 source_refs:
-- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- src_unknown
+- src_unknown
 status: enriched
 version: 1
 difficulty: intermediate
 confidence: 0.9
 prerequisites:
-  - src_unknown
+- src_unknown
 component_of:
-  - src_unknown
-source_refs:
-  - src_unknown
-  - src_unknown
+- src_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-05-13
 estimated_tokens: 2000
 pipeline:
-  - src_unknown
+- src_unknown
 diagnostic_signals:
-  - {'signal': '第一轮提示会提供充足背景，而不是等AI问', 'framework_lens': '上下文是迭代的基础', 'follow_up_question': '你的第一轮提示是否包含了目标、约束、已有尝试？'}
-  - {'signal': '会先生成多个选项，再根据反馈收敛', 'framework_lens': '发散-收敛是迭代节奏', 'follow_up_question': '这一轮你给了AI什么反馈来引导它改进？'}
-  - {'signal': '每轮迭代都有明确改进方向，而不是随机尝试', 'framework_lens': '迭代需要目标', 'follow_up_question': '你清楚下一轮希望AI在哪个维度改进吗？'}
+- signal: 第一轮提示会提供充足背景，而不是等AI问
+  framework_lens: 上下文是迭代的基础
+  follow_up_question: 你的第一轮提示是否包含了目标、约束、已有尝试？
+- signal: 会先生成多个选项，再根据反馈收敛
+  framework_lens: 发散-收敛是迭代节奏
+  follow_up_question: 这一轮你给了AI什么反馈来引导它改进？
+- signal: 每轮迭代都有明确改进方向，而不是随机尝试
+  framework_lens: 迭代需要目标
+  follow_up_question: 你清楚下一轮希望AI在哪个维度改进吗？
 updated_at: 2026-06-13
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-- [[yt-prompt-anti-flattery]]
-- [[yt-prompt-brainstorming]]
-- [[yt-model-prompt-engineering]]
-- [[yt-prompt-writing-workflow]]
-- [[yt-prompt-engineering-andrew-ng]]
+- '[[yt-prompt-anti-flattery]]'
+- '[[yt-prompt-brainstorming]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 迭代式提示词工作流（5步法）
 
 > [[yt-model-prompt-engineering]] 的子工具。迭代是提示词工程的第一性原理——好的提示词在对话中自然涌现。

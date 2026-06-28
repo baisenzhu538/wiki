@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-human-replace-system
 title: 人工替代复杂系统
 type: tool
@@ -10,25 +9,20 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-stealth-service]]
-  - [[tool-lean-cut-features]]
-  - [[tool-lean-presell]]
-  - [[tool-lean-fake-product]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[tool-lean-stealth-service]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 人工替代复杂系统
 
 > 在核心业务假设尚未被证实时，用人工流程临时顶替调度、订单、会员、客服等复杂系统，以验证「用户真的需要这些系统功能」以及「系统背后的业务逻辑是否成立」，而不是直接投入研发。

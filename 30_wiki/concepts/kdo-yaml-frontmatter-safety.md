@@ -1,24 +1,26 @@
 ---
-
 id: kdo-yaml-frontmatter-safety
-title: "KDO YAML Frontmatter 安全操作指南"
+title: KDO YAML Frontmatter 安全操作指南
 type: concept
 status: enriched
 domain:
-  - src_unknown
-created_at: "2026-05-31"
-updated_at: "2026-06-17"
+- src_unknown
+created_at: '2026-05-31'
+updated_at: '2026-06-17'
 target_roles:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[framework-kdo-self-attack]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[kdo-priority-checklist]]'
+- '[[ocr-泛产品设计-审美工具箱指南]]'
+- '[[dk-p19-quote-yaml]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
 pipeline:
-  - src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -27,15 +29,16 @@ source_refs:
 - src_unknown
 source_context: 原始source无法追溯，已标记为src_unknown，待后续补充
 diagnostic_signals:
-  - lens: "解析器错误"
-    follow_up: "检查是否用yaml.safe_load()而非逐行解析，做round-trip校验"
-  - lens: "嵌套结构损坏"
-    follow_up: "检查是否用yaml.dump()写嵌套结构，不要用json.dumps(str(value))"
-  - lens: "注释误解析"
-    follow_up: "检查#开头的标签是否加引号：- \"#master\"而非- #master"
-  - lens: "round-trip失败"
-    follow_up: "写文件前做round-trip校验：读回来确认嵌套结构无损"
+- lens: 解析器错误
+  follow_up: 检查是否用yaml.safe_load()而非逐行解析，做round-trip校验
+- lens: 嵌套结构损坏
+  follow_up: 检查是否用yaml.dump()写嵌套结构，不要用json.dumps(str(value))
+- lens: 注释误解析
+  follow_up: '检查#开头的标签是否加引号：- "#master"而非- #master'
+- lens: round-trip失败
+  follow_up: 写文件前做round-trip校验：读回来确认嵌套结构无损
 ---
+
 # KDO YAML Frontmatter 安全操作指南
 
 > **背景**：2026-05-31 Data Curator Phase 2 Clean 因手写 YAML 解析器导致 `visual_analysis` 4 图→5 字符串、`related` 4 链接→`level: intermediate` 的数据丢失。教训：**不要手写 YAML 解析器，用标准库**。

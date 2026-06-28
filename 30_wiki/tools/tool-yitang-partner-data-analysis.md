@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-partner-data-analysis
 title: 合作方案数据：从合作方拿到的真实数字
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-hardware-product-disassembly]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-partner-research]]
-  - [[tool-yitang-supplier-interview]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 合作方案数据
 
 > 以合作名义拿到竞对的渠道政策、分成比例、促销方案——这些是公开渠道永远不会出现的数字。

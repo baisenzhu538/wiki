@@ -23,11 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-management-team-knowledge]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-decision-review]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
@@ -57,8 +57,8 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: unknown
 reviewed_by: laowantong
-
 ---
+
 # 团队知识萃取器
 
 > 来源：一堂《团队知识管理》课程工具化升级。本工具聚焦"萃取"这一核心动作——把散落在个人头脑中的经验转化为团队可复用的知识资产。与完整的知识管理体系不同，萃取器只回答三个问题：什么值得萃？怎么萃？萃得有没有用？

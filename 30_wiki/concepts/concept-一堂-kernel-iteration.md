@@ -1,5 +1,4 @@
 ---
-
 id: concept-一堂-kernel-iteration
 title: 产品内核迭代：从静态到动态的五方向演化
 type: concept
@@ -15,13 +14,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- [[yt-product-kernel-six-levels]]
-- [[framework-lean-expert-roadmap]]
-- [[modeling-level-map]]
-- [[concept-一堂-kernel-validation]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[concept-一堂-product-kernel]]
-- [[concept-一堂-kernel-validation]]
+- '[[concept-一堂-kernel-validation]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[case-unit-model-gashapon]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -32,6 +31,7 @@ author: 老顽童
 confidence: 0.7
 trust_level: medium# 产品内核迭代：从静态到动态的五方向演化
 ---
+
 > **产品内核迭代的本质：产品内核不是一次性定死的，而是需要随需求变化、竞争加剧、规模扩张持续动态调整的生存机制。**
 >
 > Truman 在课上说："静态内核=等死，动态迭代=生存。需求会变化、用户会下沉、竞争会加剧、规模会扩大，静态内核无法适应这些变化。"

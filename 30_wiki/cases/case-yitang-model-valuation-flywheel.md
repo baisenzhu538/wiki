@@ -39,12 +39,14 @@ domain:
 - 组织激励
 - 模型质量管理
 related:
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[tool-strategy-market-opportunity-matrix]]
-- [[dk-yb7-design-demand-80-10-10]]
-- [[yt-management-scientific-decision]]
-- [[dk-yb25-solution-driven-visual-design]]
+- '[[yitang-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述

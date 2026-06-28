@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-pitch-colloquialization
 component_of:
 - src_unknown
@@ -10,8 +6,8 @@ confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -23,13 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-personal-scientific-expression]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -50,8 +44,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 讲香·口语化
 
 > 十指模型左手第二指——向下具象。「说人话」的基本功，把书面化的晦涩文字转化为像跟朋友聊天一样自然的口语。

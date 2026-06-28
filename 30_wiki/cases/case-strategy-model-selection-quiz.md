@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
@@ -14,18 +13,14 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_204_vlm_desc.md
 related:
-  - [[case-strategy-failure-08-video]]
-  - [[case-strategy-failure-03-cleaning]]
-  - [[case-strategy-failure-02-supermarket]]
-  - [[case-strategy-failure-05-it]]
-  - [[case-strategy-failure-04-appliance]]
-  - [[framework-strategy-pyramid]]
-  - [[framework-strategy-five-forces]]
-  - [[framework-strategy-blm]]
-  - [[framework-strategy-mckinsey-7s]]
-  - [[tool-strategy-fishbone]]
-  - [[tool-strategy-swot]]
+- '[[strategy-domain-digest]]'
+- '[[tool-复盘推演练习]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[tool-提升笔记练习频次的方法]]'
+- '[[ocr-一堂刻意练习十年成长指数]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
 ---
+
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 
 **模型选择的心智模式**（PPT _204）：

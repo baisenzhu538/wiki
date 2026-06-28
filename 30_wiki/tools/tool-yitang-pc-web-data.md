@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-pc-web-data
 title: PC/Web端数据：传统互联网的数据来源
 type: tool
@@ -12,18 +11,18 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-stock-data]]
-  - [[tool-yitang-xiaohongshu-data]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-amazon-bestseller]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-third-party-database]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # PC/Web端数据
 
 > SimilarWeb/Alexa/百度统计——网站流量、来源、用户行为。

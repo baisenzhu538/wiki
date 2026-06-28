@@ -11,11 +11,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.89
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-live-field-skill]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 prerequisites:
 - src_unknown
 - src_unknown
@@ -59,8 +59,8 @@ diagnostic_signals:
   follow_up_question: 这篇笔记中至少有30%是你自己的判断、关联或反常识问题吗？
 - framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
-
 ---
+
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 
 > 来源：一堂《AI时代清单体笔记》课程。本卡是清单体笔记的"练功场"——不是"怎么写"，而是"怎么练到能写"。核心暗知识：**剩余脑力是高阶笔记的唯一印币**——不是记得更多，而是有能力在记的同时想得更深。

@@ -1,5 +1,4 @@
 ---
-
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
@@ -15,18 +14,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- [[concept-一堂-kernel-iteration]]
-- [[tool-一堂-five-step-validation]]
-- [[tool-对标借鉴他人决策维度]]
-- [[concept-一堂-key-assumptions]]
-- [[concept-一堂-product-kernel]]
-- [[concept-一堂-product-kernel]]
-- [[concept-一堂-kernel-iteration]]
-- [[concept-一堂-key-assumptions]]
-- [[framework-lean-product-kernel]]
-- [[framework-lean-six-wastes]]
-- [[tool-lean-product-kernel-metrics]]
-- [[case-lean-premature-refinement]]
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -37,6 +31,7 @@ author: 老顽童
 confidence: 0.7
 trust_level: medium# 产品内核验证：三维度评估 + 六策略验证
 ---
+
 > **产品内核验证的本质：在投入实质性资源之前，用最小成本确认你的内核假设是否正确。**
 >
 > Truman 在课上强调："产品内核是假设，不是定论——需要验证而非信仰。很多人花几百万打磨产品，最后发现用户不买账。问题不是产品不好，而是他们没有在最早期就验证那个最重要的假设。"

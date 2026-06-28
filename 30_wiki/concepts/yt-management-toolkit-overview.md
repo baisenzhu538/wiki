@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-management-toolkit-overview
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.85
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -35,22 +31,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-personal-map]]'
+- '[[yt-tool-project-health-radar]]'
+- '[[yt-tool-knowledge-extraction]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -73,8 +58,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
-
 ---
+
 # 管理工具箱总览
 
 > 来源：一堂管理地图工具化升级。管理域原有 16 张 concept 卡讲"应该做什么"，本框架及配套 8 张 tool 卡回答"怎么做"——从"知道"到"做到"的最后一公里。

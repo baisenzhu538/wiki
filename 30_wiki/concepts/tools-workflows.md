@@ -1,29 +1,29 @@
 ---
-
-
 id: tools-workflows
 created_at: 2026-05-21
 domain: healthcare
 source_refs:
 - src_20260522_9d322e81-tools-workflows
 status: enriched
-title: "Tools Workflows"
+title: Tools Workflows
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[ocr-一堂-地图-管理地图_conv]]
-  - [[ocr-微信图片_20260507004746_32_32]]
-  - [[ocr-微信图片_20260507004801_37_32]]
-  - [[ocr-screenshot1]]
-  - [[ocr-ocr_screenshot2]]
+- '[[yt-unit-model-three-tools]]'
+- '[[tool-lean-leverage-tools]]'
+- '[[ai-methodology-tools]]'
+- '[[yt-panproduct-execution-good-tools]]'
+- '[[tool-yitang-weapon-ai-tools]]'
+- '[[yt-personal-pan-product-tools]]'
 ---
+
 # Tools Workflows
 
 ## Summary

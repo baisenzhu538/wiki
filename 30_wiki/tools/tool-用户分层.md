@@ -1,5 +1,4 @@
 ---
-
 id: tool-用户分层
 title: 用户分层：按价值和行为细分用户群
 type: tool
@@ -10,20 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[tool-项目背景分析]]
-  - [[tool-用户视角]]
-  - [[tool-动力阻力分析]]
-  - [[tool-行业分析画布]]
-  - [[tool-需求挖掘]]
-  - [[framework-科学决策三角形]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 用户分层：按价值和行为细分用户群
 
 ## 一句话定义

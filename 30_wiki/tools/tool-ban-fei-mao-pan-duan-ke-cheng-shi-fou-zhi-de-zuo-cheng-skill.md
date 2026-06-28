@@ -4,9 +4,9 @@ title: 技能：判断课程是否值得做成Skill
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang- ai-collaboration
+- yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
@@ -16,13 +16,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[dk-ban-fei-mao-silky-answers-are-dangerous]]
-  - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
-  - [[ocr-一堂-科学决策-深度-案例03]]
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
-  - [[dk-ban-fei-mao-skill-rejection-value]]
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
@@ -37,6 +37,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 # 技能：判断课程是否值得做成Skill
 
 ## 用一句话讲清楚

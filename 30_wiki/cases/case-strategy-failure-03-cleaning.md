@@ -8,9 +8,11 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,15 @@ source_refs:
 - src_unknown
 - src_unknown
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **表面问题**：销售额持续下滑
 **战略根因**：定位错误——为了利润做高端，结果低端市场被竞品蚕食，高端又没有品牌支撑
 **问题类型**：九问题 #3 定位错误

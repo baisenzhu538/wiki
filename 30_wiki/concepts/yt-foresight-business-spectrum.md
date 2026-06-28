@@ -1,15 +1,11 @@
 ---
-
-
-
-
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -22,53 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-entrepreneur-opportunity-selection]]'
+- '[[yitang-course-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown
@@ -105,8 +59,8 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
-
 ---
+
 # 终局光谱图
 
 > 来源：一堂课程体系 | 阶段：预判阶段 | [[yt-entrepreneur-opportunity-selection]] | [[yitang-course-map]]

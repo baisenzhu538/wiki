@@ -8,9 +8,11 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,15 @@ source_refs:
 - src_unknown
 - src_unknown
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **表面问题**：增长停滞，利润也下降
 **战略根因**：目标错误——在高速增长期设了"追求盈利"的目标。正确的目标应该是"抢占市场份额"
 **问题类型**：九问题 #2 目标错误

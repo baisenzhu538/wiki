@@ -20,9 +20,12 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 tags:
 - src_unknown
 - src_unknown
@@ -38,8 +41,8 @@ diagnostic_signals:
   follow_up_question: 你的复盘是在工作完成后 24 小时内完成，还是等到下次再做类似工作时才想起？
 - framework_lens: 人必须负责审美判断和建模
   follow_up_question: 你拿到 AI 的复盘结果后，是否会基于自己的判断力做二次总结和边界修正？
-
 ---
+
 # 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 
 > **Burn line**: AI 不仅能帮人复盘，还能自己复盘自己，把一次经验变成下一次的基础。

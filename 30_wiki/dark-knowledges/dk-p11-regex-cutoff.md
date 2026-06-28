@@ -1,5 +1,4 @@
 ---
-
 id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dk
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-- [[dk-c1-cjk-regex-silent-fail]]
-- [[dk-f1-regex-on-cjk]]
-- [[dk-small-format-error-cascades-to-system-failure]]
-- [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-- [[dk-p18-yaml-parser]]
-- [[master-first-principles]]
-- [[kdo-yaml-frontmatter-safety]]
-- [[dk-f1-regex-on-cjk]]
+- '[[dk-f1-regex-on-cjk]]'
+- '[[tool-strategy-12-word-test]]'
+- '[[case-lean-zhanglei-failure-counterfactual]]'
+- '[[ai-short-drama-ice-fire-dissection-compass]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[case-toc-content-platform-correlation-trap]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-lean-b2b-b2c-hardware-content-testing]]'
 diagnostic_signals:
 - src_unknown
 - src_unknown
@@ -31,8 +30,10 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
+trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word
+  count 失效
 ---
+
 ## 原始表述
 
 > **症状**：一篇1800字完整文章，`kdo validate` 报 "Draft section is empty (0 words)"。加了内容后仍只统计到46 words。

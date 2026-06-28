@@ -5,25 +5,21 @@ type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.70
+confidence: 0.7
 trust_level: low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[case-科学决策-L4案例01]]
-  - [[case-科学决策-深度案例02]]
-  - [[case-科学决策-深度案例03]]
-  - [[case-科学决策-深度案例01]]
-  - [[case-科学决策-深度案例04]]
-  - [[case-婚礼操盘-用户和场景]]
-  - [[framework-科学决策三角形]]
-  - [[tool-Y模型实操工作流]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：婚礼规划
 
 ## 案例来源

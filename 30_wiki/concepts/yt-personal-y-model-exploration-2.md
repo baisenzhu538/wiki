@@ -1,15 +1,11 @@
 ---
-
-
-
-
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1885
 language: zh-CN
 prerequisites: null
@@ -24,12 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-personal-y-model-practice]]'
+- '[[yt-model-y-organization]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_6d771b2a-个人修身-y模型探索营2
@@ -55,8 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
+
 # Y模型探索营2：五次质变与科学推演
 
 > 来源：一堂Y模型探索营第二课口述（Truman）。[[yt-personal-y-model-practice]] | [[yt-model-y-organization]] | [[一堂]]

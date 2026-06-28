@@ -1,13 +1,12 @@
 ---
-
 id: dk-level-blindspot-external-feedback
-title: "暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法"
+title: 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法
 type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-  - yitang
-  - entrepreneur
+- yitang
+- entrepreneur
 source_person: Truman
 source_context: 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -15,16 +14,11 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - [[dk-modeling-course-rnd-ripe-fruit]]
-  - [[dk-five-step-framework-legitimizes-bias]]
-  - [[yt-five-step-level-blindspots]]
-  - [[yt-five-step-common-pitfalls]]
-  - [[yt-five-step-implementation]]
-  - [[yt-five-step-level-blindspots]]
-  - [[yt-model-truman-five-step-growth]]
-  - [[modeling-level-map]]
-  - [[yt-five-step-method]]
-  - [[yt-five-step-implementation]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -49,6 +43,7 @@ diagnostic_signals:
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
 ---
+
 # 暗知识：「7-8 分幻觉」是结构性盲区
 
 > 低段位者高估自己是因为没见过高段位的具体打法。校准必须引入外部高质量反馈。

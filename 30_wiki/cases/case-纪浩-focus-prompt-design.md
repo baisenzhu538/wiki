@@ -36,9 +36,12 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[case-科学决策-ROI案例03]]'
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
@@ -54,8 +57,8 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入
     schema/data contract gate？
-
 ---
+
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 
 > 纪浩用自己讲的五层方法论，建造了一个 AI 辅助的现场工作台（`/focus`）。这两份提示词是方法论在真实产品上的落地实例——不是"怎么用 AI"的方法论，是"怎么用结构化 prompt 做产品设计"的工程方法。

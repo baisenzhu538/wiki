@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - [[case-yitang-hardware-factory-photo]]
-  - [[case-yitang-competitor-pricing-intelligence]]
-  - [[case-zhanglan-amusement-park-undercover]]
-  - [[case-yitang-mahjong-machine-fake-order]]
-  - [[case-yitang-supplier-security-guard]]
-  - [[tool-yitang-job-intelligence-research]]
-  - [[tool-yitang-social-engineering-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：假扮面试发现行业红利退潮
 
 **背景**：一个创业者在评估"抖音团长"（直播带货团长）这个赛道。前期调研都显示机会不错——品牌方说好、头部公司说好、赚钱的同行也说好。

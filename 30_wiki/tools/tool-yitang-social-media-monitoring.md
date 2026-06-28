@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-social-media-monitoring
 title: 社交媒体监控：持续追踪竞对的公开动态
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-xiaohongshu-data]]
-  - [[tool-yitang-social-media-interview]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-月白-普通人AI快速上手法]]
-  - [[tool-yitang-weapon-media-search]]
-  - [[tool-yitang-public-sentiment-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 社交媒体监控
 
 > 竞对的微博/公众号/抖音/小红书——持续追踪公开动态，捕捉战略信号。

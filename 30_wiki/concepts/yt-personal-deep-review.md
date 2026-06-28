@@ -1,15 +1,11 @@
 ---
-
-
-
-
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3000
 language: zh-CN
 prerequisites: null
@@ -25,19 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
@@ -67,8 +55,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]

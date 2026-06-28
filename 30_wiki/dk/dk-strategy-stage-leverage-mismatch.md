@@ -1,33 +1,26 @@
 ---
-
 id: dk-strategy-stage-leverage-mismatch
 title: 战略阶段与杠杆错配
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - [[dk-strategy-organization-strategy-mismatch]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[dk-yitang-behavior-over-asking]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[strategy-domain-digest]]
-  - [[framework-strategy-six-stages]]
-  - [[framework-strategy-brm]]
-  - [[case-strategy-failure-02-supermarket]]
-  - [[case-lean-premature-expansion]]
-  - [[case-strategy-practice-12-zero-loss]]
-  - [[case-strategy-shell-oil]]
-  - [[case-strategy-wuxi-suntech]]
-  - [[case-strategy-revival-13-bestore]]
+- '[[case-strategy-failure-02-supermarket]]'
+- '[[case-lean-premature-expansion]]'
+- '[[case-strategy-shell-oil]]'
+- '[[case-strategy-wuxi-suntech]]'
+- '[[framework-strategy-six-stages]]'
+- '[[framework-strategy-brm]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 战略阶段与杠杆错配
 
 > 同一批战略动作在“跑马圈地期”可能是正确选择，到了“吃饱期”或“转型期”就会致命；战略失败往往不是方向错误，而是阶段与杠杆错配 [conf=0.80, source=王语嫣 synthesis_strategy.md]。

@@ -6,20 +6,24 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - strategy
-  - innovation
+- strategy
+- innovation
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[framework-strategy-blm]]
-  - [[tool-strategy-blue-ocean-canvas]]
-  - [[framework-strategy-ansoff]]
+- '[[strategy-domain-digest]]'
+- '[[tool-mece体系框架法]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-AI设计-质价比-决策框架]]'
+- '[[tool-体系框架构建]]'
+- '[[tool-使用一页纸速查卡快速调用框架]]'
 ---
+
 # 凯纳创新方向分类框架
 
 > 企业创新不是一句口号，而是发生在三个不同层面的系统性工程。凯纳咨询将该框架用于帮助企业识别创新切入点：产品/服务与市场创新、业务模式创新、运营创新。

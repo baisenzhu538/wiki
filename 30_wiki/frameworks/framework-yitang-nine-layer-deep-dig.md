@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-nine-layer-deep-dig
 title: 九层深挖法：商业分析的自我纠错式迭代框架
 type: framework
@@ -13,9 +12,9 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - business-analysis
+- yitang
+- research
+- business-analysis
 difficulty: advanced
 estimated_tokens: 4000
 version: 1
@@ -30,16 +29,13 @@ source_refs:
 - 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
 - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
-  - [[yt-five-step-level-blindspots]]
-  - [[framework-lean-expert-roadmap]]
-  - [[yt-model-deep-review-iceberg]]
-  - [[yt-business-formula-parameter-iceberg]]
-  - [[dk-modeling-logical-cleanliness-root]]
-  - [[framework-yitang-iterative-recursive-digging]]
-  - [[framework-yitang-six-layer-cross-validation]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[dk-yitang-research-scale-vs-depth]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 九层深挖法：商业分析的自我纠错式迭代框架
 
 > **实战验证**：药柜案例分析中，通过九层迭代从单点财务模型逐步补全到政策边界、失败模式、隐性成本、招商骗局、诊所协同风险，最终形成可用决策框架。

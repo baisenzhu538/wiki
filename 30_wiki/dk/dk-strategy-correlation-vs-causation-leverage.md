@@ -1,39 +1,24 @@
 ---
-
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - [[dk-strategy-organization-strategy-mismatch]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[dk-yitang-behavior-over-asking]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-strategy-organization-strategy-mismatch]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[case-lean-genki-forest-toolkit]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[strategy-domain-digest]]
-  - [[framework-strategy-brm]]
-  - [[yt-business-formula-abc-model]]
-  - [[framework-lean-false-model]]
-  - [[yt-business-formula-parameter-iceberg]]
-  - [[case-gym-membership-formula]]
-  - [[case-saas-renewal-formula]]
-  - [[case-dental-clinic-formula]]
-  - [[case-private-domain-ecommerce-formula]]
-  - [[case-offline-catering-formula]]
+- '[[framework-lean-false-model]]'
+- '[[case-gym-membership-formula]]'
+- '[[case-saas-renewal-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 相关指标 vs 因果抓手
 
 > 团队常在业务公式里把"容易观测的指标"当成"增长抓手"，结果越用力优化表面指标，浪费越大；真正的杠杆藏在从相关到因果的因果链里 [conf=0.80, source=王语嫣 synthesis_strategy.md]。

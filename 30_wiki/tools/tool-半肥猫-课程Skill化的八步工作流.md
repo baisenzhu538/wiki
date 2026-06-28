@@ -17,11 +17,11 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:
@@ -43,8 +43,8 @@ diagnostic_signals:
   follow_up: 维护占生命周期80%，把维护成本计入总投入，定期迭代
 - lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
-
 ---
+
 # 技能：课程Skill化的八步工作流
 
 ## Summary

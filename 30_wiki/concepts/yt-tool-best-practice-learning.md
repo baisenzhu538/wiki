@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-tool-best-practice-learning
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.88
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -26,14 +22,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-最佳实践收集]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-Truman-知识库最佳实践构建]]'
+- '[[tool-月白-官方提示词最佳实践迁移]]'
+- '[[ocr-泛产品设计-审美卡片-最佳实践收集]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -58,8 +54,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 ## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。

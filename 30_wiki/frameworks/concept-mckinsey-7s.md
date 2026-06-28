@@ -1,64 +1,52 @@
 ---
-
-
-
 id: concept-mckinsey-7s
 title: 7-S Framework：组织诊断的七维模型
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_refs:
-  - src_unknown
+- src_unknown
 bridges_to:
-  - relation: provides_foundation_for
-    description: 7-S 提供了组织诊断的完整维度框架
-    context: 一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口
-  - relation: complements
-    description: 管理工具箱中的 tool 卡可以与 7-S 各维度对应
-    context: 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统
-  - relation: uses
-    description: 7-S 是 MECE 原则在组织诊断中的具体应用
-    context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
+- relation: provides_foundation_for
+  description: 7-S 提供了组织诊断的完整维度框架
+  context: 一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口
+- relation: complements
+  description: 管理工具箱中的 tool 卡可以与 7-S 各维度对应
+  context: 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统
+- relation: uses
+  description: 7-S 是 MECE 原则在组织诊断中的具体应用
+  context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
 diagnostic_signals:
-  - framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
-    follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？
-  - framework_lens: 7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素
-    follow_up_question: 你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？
-  - framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
-    follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
-  - framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
-    follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
+- framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
+  follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？
+- framework_lens: 7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素
+  follow_up_question: 你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？
+- framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
+  follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
+- framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
+  follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: laowantong
 confidence: 0.8
 trust_level: medium
-
 ---
+
 # 7-S Framework：组织诊断的七维模型
 
 > 来源：Peters & Waterman (1982). *In Search of Excellence*; Waterman, Peters & Phillips (1980). "Structure is not organization"

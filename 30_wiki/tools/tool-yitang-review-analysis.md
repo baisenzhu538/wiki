@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-review-analysis
 title: 差评分析：系统化提取竞品缺陷
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[yt-panproduct-demand-motivation-resistance]]
-  - [[tool-yitang-public-sentiment-research]]
-  - [[tool-yitang-court-record-search]]
-  - [[yt-management-conversion-hacking]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-weapon-product-reputation]]
-  - [[tool-yitang-public-sentiment-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 差评分析
 
 > 差评比好评值钱10倍。系统化地从差评中提取竞品缺陷 = 你的产品机会。

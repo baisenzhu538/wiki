@@ -11,19 +11,20 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[case-demand-financial-literacy]]
-  - [[dk-demand-hidden-need]]
-  - [[tool-demand-assessment-triangle]]
-  - [[case-demand-rural-5g]]
-  - [[tool-demand-assessment-triangle]]
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 updated_at: 2026-06-28
 ---
+
 # 30-50%创业失败源于需求误判
 
 ## 原始表述

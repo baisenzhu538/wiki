@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-review
 component_of:
 - src_unknown
@@ -23,17 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-canvas]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -64,6 +57,7 @@ diagnostic_signals:
   follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
 author: 老顽童
 ---
+
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
 
 > 来源：一堂《科学决策·ROI决策实践》复盘篇。大多数人做决策是"一锤子买卖"——做完就完了，成了庆幸、败了自责。本工具将复盘拆分为四层，解决"同样的错误一犯再犯"的困境。核心认知：决策的预测本质上是假设，只有真正发生后的复盘才能将假设变成认知资产。

@@ -1,13 +1,11 @@
 ---
-
-
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+- ai-collaboration
+- yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -30,13 +28,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[tool-ai-narrative-test]]
-  - [[tool-ai-prd-for-ai]]
-  - [[tool-ai-purpose-bias-check]]
-  - [[sk-ai-old-small-checklist]]
-  - [[tool-ai-system-redundancy]]
-  - [[sk-ai-purpose-bias-check]]
-  - [[tool-checklist-cheatsheet-modeling]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-水水-保持系统冗余]]'
+- '[[pending_unknown]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -44,8 +40,8 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
+
 # 技能：系统冗余度快速检查清单
 
 ## 用一句话讲清楚

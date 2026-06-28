@@ -1,45 +1,47 @@
 ---
-
 id: concept-thousand-people-square
-title: "千人广场模型：一堂做课背后的统计建模理念"
+title: 千人广场模型：一堂做课背后的统计建模理念
 type: concept
 source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-created_at: "2026-06-14"
-updated_at: "2026-06-17"
+- src_unknown
+- src_unknown
+- src_unknown
+created_at: '2026-06-14'
+updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-17"
+review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.75
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[tool-单元模型-壁垒预判]]'
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 单一source为完整长文档，内容充分支撑medium trust；待补充第二来源或充分验证后可升high
 diagnostic_signals:
-  - lens: "广场优先"
-    follow_up: "检查目标受众占比：是服务95%多数人还是5%少数人？"
-  - lens: "反例管理"
-    follow_up: "判断反例是否在广场边界内：在内→修正模型，在外→修正边界"
-  - lens: "边界缺失"
-    follow_up: "明确画出问题边界：服务谁？不服务谁？"
-  - lens: "统计建模"
-    follow_up: "找5%已走过的人，提炼共性而非个案"
+- lens: 广场优先
+  follow_up: 检查目标受众占比：是服务95%多数人还是5%少数人？
+- lens: 反例管理
+  follow_up: 判断反例是否在广场边界内：在内→修正模型，在外→修正边界
+- lens: 边界缺失
+  follow_up: 明确画出问题边界：服务谁？不服务谁？
+- lens: 统计建模
+  follow_up: 找5%已走过的人，提炼共性而非个案
 ---
+
 # 千人广场模型：一堂做课背后的统计建模理念
 
 > **Burn line**: 一堂不是为三五个人做课，而是对广场上的所有人负责——广场上任何一个可见反例，都是模型的错。

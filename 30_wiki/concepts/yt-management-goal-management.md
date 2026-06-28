@@ -22,11 +22,11 @@ diagnostic_signals:
 - framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: '2026-06-28'
 id: yt-management-goal-management
 author: 老顽童
@@ -37,8 +37,8 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
-
 ---
+
 # 目标管理
 
 > 来源：一堂管理必修课「管业务」模块，含认知篇+OKR工具篇。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,5 +1,4 @@
 ---
-
 id: tool-泛产品落地-努力仿真
 title: 落地卡片：努力仿真
 type: tool
@@ -11,17 +10,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-努力仿真_vlm_desc.md
 related:
-  - [[tool-泛产品落地-解放思想]]
-  - [[tool-泛产品落地-酝酿式打磨]]
-  - [[tool-泛产品落地-业务建模]]
-  - [[tool-泛产品落地-逻辑MECE]]
-  - [[tool-泛产品落地-低成本测试MVP]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 落地卡片：努力仿真
 
 落地卡片：努力仿真是泛产品设计落地工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

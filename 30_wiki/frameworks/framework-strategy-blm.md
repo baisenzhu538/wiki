@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-blm
 title: IBM BLM 业务领导力模型 + 华为五看三定
 type: framework
@@ -16,22 +15,13 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[tool-strategy-five-see-three-set]]
-  - [[framework-strategy-brm]]
-  - [[tool-strategy-swot]]
-  - [[tool-strategy-value-proposition]]
-  - [[framework-strategy-business-design]]
-  - [[case-strategy-model-selection-quiz]]
-  - [[framework-strategy-business-design]]
-  - [[framework-strategy-five-forces]]
-  - [[framework-strategy-kai-innovation-directions]]
-  - [[framework-strategy-mckinsey-7s]]
-  - [[framework-strategy-pyramid]]
-  - [[tool-strategy-customer-selection]]
-  - [[tool-strategy-fishbone]]
-  - [[tool-strategy-swot]]
-  - [[tool-strategy-value-proposition]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # IBM BLM 业务领导力模型 + 华为五看三定
 
 > IBM BLM（Business Leadership Model）是连接战略制定与执行的系统框架。华为在此基础上演化为“五看三定”。

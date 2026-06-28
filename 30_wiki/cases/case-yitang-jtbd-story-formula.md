@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - [[case-doris-catering-chain-benchmark]]
-  - [[case-yitang-travel-receipt-analysis]]
-  - [[case-doris-outbound-travel-community]]
-  - [[case-yitang-ski-project-user-as-expert]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[tool-yitang-user-interview-5steps]]
-  - [[yt-research-user-jtbd]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：JTBD故事公式——从故事中提取真实需求
 
 **方法**：用JTBD（Jobs To Be Done）故事公式做用户访谈——不是问"你有什么需求"，而是引导用户讲一个完整的"雇佣产品"的故事：

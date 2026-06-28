@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-business-registration-check
 title: 工商查询：社保人数+股权穿透+关联公司
 type: tool
@@ -8,22 +7,22 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[dk-yitang-cross-case-pattern-failure-premium]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-third-party-database]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-weapon-public-official-info]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 工商查询
 
 > 天眼查/企查查/爱企查——免费的情报数据库。

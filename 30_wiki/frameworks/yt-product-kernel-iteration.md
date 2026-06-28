@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-提示词结构化迭代]]'
+- '[[tool-泛产品落地-复盘迭代]]'
+- '[[tool-月白-新媒体热点物料快速迭代法]]'
+- '[[ocr-泛产品设计-落地卡片-复盘迭代]]'
+- '[[ocr-一堂产品内核-十大典型指标]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[ocr-顶级产品追求的方向-乔布斯]]'
 diagnostic_signals:
 - framework_lens: 产品内核迭代——内核需要随市场变化而迭代
   follow_up_question: 你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种迭代方向？
 - framework_lens: 产品内核迭代——迭代方向需要团队共识
   follow_up_question: 你们团队对迭代方向有共识吗？是基于数据还是主观判断？
-
 ---
+
 # 产品内核迭代：五种迭代方向
 
 > 一堂五步法：产品内核不是静态的，需要随市场变化而迭代。迭代有五种方向，不是随机尝试。

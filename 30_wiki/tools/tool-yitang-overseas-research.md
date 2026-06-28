@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-overseas-research
 title: 出海调研手段：浅中深三层10大评估法
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -30,16 +29,13 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡5（出海）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-consumer-goods-research]]
-  - [[tool-yitang-tech-project-research]]
-  - [[tool-yitang-consulting-business-research]]
-  - [[tool-yitang-organization-research]]
-  - [[tool-yitang-b2b-gov-research]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-store-franchise-research]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[yt-research-industry-canvas]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 出海调研手段：浅中深三层10大评估法
 
 > **一句话**：把国内项目复制到国外，最大的风险不是"市场不好"，而是"你不知道你不知道什么"。海关税率、认证标准、文化习惯、资金回国——每一个信息盲区都可能致命。

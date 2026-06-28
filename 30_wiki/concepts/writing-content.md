@@ -1,28 +1,27 @@
 ---
-
-
 id: writing-content
 created_at: 2026-05-21
 domain: ai-saas
 source_refs:
 - src_20260522_5819659f-writing-content
 status: enriched
-title: "Writing Content"
+title: Writing Content
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - src_unknown
+- src_unknown
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[business-analysis]]
-  - [[learning-thinking]]
-  - [[老朱的水感-2026年5月]]
-  - [[meta-prompt-eng]]
-  - [[product-ux]]
+- '[[yt-prompt-writing-workflow]]'
+- '[[case-toc-content-platform-correlation-trap]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[yt-lean-b2b-b2c-hardware-content-testing]]'
+- '[[tool-yitang-content-ip-research]]'
 ---
+
 # Writing Content
 
 ## Summary

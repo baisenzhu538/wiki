@@ -30,19 +30,19 @@ diagnostic_signals:
 - lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢AI业务档案5字段工具
 
 > **Burn line**: 每次新对话，第一步先把你的业务档案粘进去。

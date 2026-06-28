@@ -19,11 +19,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂深度复盘冰山图]]'
+- '[[tool-动手建模法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -37,8 +37,8 @@ diagnostic_signals:
   follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
 - framework_lens: iceberg-level-confusion
   follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
-
 ---
+
 # 冰山图/三角图建模法：从表象深挖结构与本质
 
 ## 用一句话讲清楚

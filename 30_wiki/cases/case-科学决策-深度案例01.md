@@ -9,23 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
-  - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例01.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
+- 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例01.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-ROI决策评估画布]]
-  - [[tool-完整财务公式决策]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
-  - [[tool-决策深度-L1优先级定性]]
-  - [[tool-决策深度-L2部分定量]]
-  - [[concept-X型Y型决策习惯]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：全员涨薪 20% 的 ROI 决策
 
 ## 案例来源

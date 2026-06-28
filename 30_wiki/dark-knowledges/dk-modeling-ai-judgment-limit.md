@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-judgment-limit
 title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 type: dk
@@ -22,15 +21,11 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.89
 related:
-- [[dk-modeling-ai-compound-leverage]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-wanghuan-magic-defeats-magic]]
-- [[modeling-capability-for-kdo]]
-- [[dk-modeling-ai-without-judgment]]
-- [[case-truman-ai-skill-engineering-guide]]
-- [[tool-essence-nfactor-modeling]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -42,6 +37,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述 / 核心洞察
 
 > "AI 最容易看上去能提炼本质，但是也最不可信……我自己曾经试过跟 AI 对话，我曾经试过能不能跟 AI 两个人一起交叉着聊，把 AI 的本质聊出来，结果就是不行，AI 可以给我很多的信息和补充，但是它自己没有任何的判断力……目前 AI 距离能干活，在核心这个工作上，反正我的经验是远远不行，AI 太容易受你一点点影响。" —— Truman，`src_20260614_8269ccdb#3300-3308`

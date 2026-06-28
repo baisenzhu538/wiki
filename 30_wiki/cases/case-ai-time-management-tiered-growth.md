@@ -1,49 +1,46 @@
 ---
-
-
 id: case-ai-time-management-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - yitang
-  - ai
+- yitang
+- ai
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: 洪七公
 source_refs:
 - src_20260430_59a3d224-街顺app全面调研报告
-source_refs:
-  - src_20260430_59a3d224-街顺app全面调研报告
 status: enriched
-title: "案例：AI时间管理App七级演进"
+title: 案例：AI时间管理App七级演进
 trust_level: medium
 type: case
 updated_at: 2026-06-10
 version: 1
 yitang:
   map: entrepreneur
-  module: "机会预判"
+  module: 机会预判
   course_type: case
   level: core
 pipeline:
-  - src_unknown
-  - src_unknown
-author: "老顽童"
+- src_unknown
+- src_unknown
+author: 老顽童
 related:
-  - [[case-coffee-shop-foresight]]
-  - [[yt-three-dimension-opportunity-matrix]]
-  - [[case-escort-service-tiered-growth]]
-  - [[yt-foresight-ab-steady-state]]
-  - [[dk-foresight-tier-skip-illusion]]
+- '[[case-escort-service-tiered-growth]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-ai-trend-12-signals]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 案例：AI时间管理App七级演进
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]

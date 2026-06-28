@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2531
 language: zh-CN
 query_triggers:
@@ -19,14 +15,11 @@ query_triggers:
 - src_unknown（三栏结构）
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
@@ -48,8 +41,8 @@ diagnostic_signals:
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 
 > 来源：一堂知识地图《五步法画布》+《产品内核画布》。[[yt-entrepreneur-five-step-method]] | [[yt-entrepreneur-product-core]] | [[一堂]]

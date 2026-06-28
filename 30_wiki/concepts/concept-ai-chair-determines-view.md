@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-chair-determines-view
 title: 椅子决定视角
 type: concept
@@ -10,28 +9,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[dk-ai-prediction-expiry-date]]
-  - [[concept-ai-information-quality-ladder]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[tool-ai-cross-reading-method]]
-  - [[dk-ai-scarcest-resource-is-self]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[concept-ai-neutrality-bias]]
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[pending_unknown]]'
 ---
+
 # 椅子决定视角
 
 > **Burn line**：读任何关于 AI 的预测之前，先问作者坐在哪把椅子上——因为椅子决定他看得见什么、看不见什么，以及为什么他不想让你看见某些东西。

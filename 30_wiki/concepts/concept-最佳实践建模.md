@@ -1,5 +1,4 @@
 ---
-
 id: concept-最佳实践建模
 title: 最佳实践建模：把别人的成功拆成可复制的模型
 type: concept
@@ -10,20 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[concept-稀缺机会窗口]]
-  - [[concept-美好作品想象]]
-  - [[tool-最佳实践收集]]
-  - [[tool-审美工具箱]]
-  - [[tool-最佳实践池子]]
-  - [[framework-科学决策三角形]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 最佳实践建模：把别人的成功拆成可复制的模型
 
 ## 一句话定义

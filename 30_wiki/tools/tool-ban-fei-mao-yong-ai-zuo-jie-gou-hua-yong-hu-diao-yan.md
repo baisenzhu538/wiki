@@ -16,11 +16,11 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -37,8 +37,8 @@ diagnostic_signals:
   follow_up: 要求 AI 将每个问题标注为"事实"或"假设"，并检查假设是否有数据支撑
 - lens: 约束缺失
   follow_up: 在提示词中写明目标、范围、用户画像、业务场景后再让 AI 生成框架
-
 ---
+
 # 技能：用 AI 做结构化用户调研
 
 ## 用一句话讲清楚

@@ -21,11 +21,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-task-product-system]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +41,8 @@ diagnostic_signals:
   follow_up: 能否把决策拆成一个可验证的小实验，用下一轮观察来降低不确定性？
 - lens: 行动不闭环
   follow_up: 每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？
-
 ---
+
 # 王欢OODA闭环：人机协作的决策迭代框架
 
 > **Burn line**: 你不需要确定，你只需要比上一圈快。

@@ -6,21 +6,24 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: "2026-06-21"
+updated_at: '2026-06-21'
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l2-scenario]]
-  - [[tool-demand-iceberg-l4-job-map]]
+- '[[yitang-domain-digest]]'
+- '[[tool-任务拆解为工作流]]'
+- '[[tool-马易-AI任务拆解提升控制度]]'
+- '[[tool-纪浩-任务交付物标准化]]'
+- '[[pending_unknown]]'
 ---
+
 # L3圈定核心任务
 
 > 如果L1/L2是"谁在什么情况下有什么问题"，L3就是"他们真正要完成什么"。关键：方案中立——不能用特定产品/技术的语言描述任务。

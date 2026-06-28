@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-patent-analysis
 title: 专利分析：从知识产权反推技术路线
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-tech-project-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 专利分析
 
 > 竞对的专利布局 = 未来2-3年的产品方向。专利是公开的，但很多人不看。

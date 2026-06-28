@@ -1,34 +1,28 @@
 ---
-
 id: tool-lean-premium-service
 title: 超值服务：用 VIP 服务验证标准服务
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
-  - [[tool-lean-human-replace-system]]
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-cut-features]]
-  - [[tool-lean-presell]]
-  - [[tool-lean-human-replace-rnd]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 超值服务：用 VIP 服务验证标准服务
 
 > 在产品化和系统化之前，先用「CEO 跑腿、人工定制、深度陪跑」等高接触 VIP 服务交付价值，验证「标准服务是否值得被产品化」。

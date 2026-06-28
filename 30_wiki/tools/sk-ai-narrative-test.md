@@ -28,11 +28,11 @@ updated_at: '2026-06-28'
 tools_required: []
 prerequisite_skills: null
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -43,8 +43,8 @@ diagnostic_signals:
   follow_up_question: 你的方案里有没有一个具体的人、一个明确的冲突、一个出人意料的转折？
 - framework_lens: 叙事力五要素检查
   follow_up_question: 用户能否在3秒内说出"这个角色和我有什么关系、不做会失去什么"？
-
 ---
+
 # 技能：你的方案有叙事力吗？快速测试
 
 ## 用一句话讲清楚

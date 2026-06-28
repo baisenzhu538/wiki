@@ -1,6 +1,4 @@
 ---
-
-
 id: yt-tool-project-health-radar
 title: 项目健康度雷达
 type: tool
@@ -17,16 +15,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-tool-meeting-designer]]
-  - [[yt-pitch-storytelling]]
-  - [[yt-tool-onboarding-90day]]
-  - [[yt-tool-equity-checklist]]
-  - [[system-yitang-research-workflow]]
-  - [[yt-tool-okr-cycle]]
-  - [[yt-management-goal-management]]
-  - [[yt-management-scientific-meetings]]
-  - [[yt-management-project-management]]
-  - [[tool-泛产品落地-风险管理]]
+- '[[yt-management-project-management]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -52,8 +45,8 @@ updated_at: '2026-06-16'
 estimated_tokens: 3500
 reviewed_by: null
 author: 老顽童
-
 ---
+
 # 项目健康度雷达
 
 > 从 [[yt-management-project-management]] 五步闭环萃取的诊断工具。不是"项目报告会"的流水账，而是用 6 个维度、3 色信号、1 个约束追问，在 15 分钟内判断一个项目是"真的在轨道上"还是"只是在轨道上跑错了方向"。

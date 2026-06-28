@@ -1,12 +1,11 @@
 ---
-
 id: concept-最简单元模型
 title: 最简化的单元模型
 type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-27"
+review_date: '2026-06-27'
 confidence: 0.78
 trust_level: medium
 language: zh-CN
@@ -16,16 +15,16 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-最简单元模型.md
 related:
-  - [[tool-单元模型-象限分析法]]
-  - [[tool-单元模型-单商圈]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[tool-单元模型-单城市]]
-  - [[framework-单元模型-外部对抗地图]]
-  - [[yitang-domain-digest]]
-  - [[yt-unit-model-overview]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-lean-abcd-model]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[ai单元模型口述蒋老师]]'
+- '[[ocr-一堂-单元模型-单商圈模型]]'
 ---
+
 # 最简化的单元模型
 
 ## 一句话定义

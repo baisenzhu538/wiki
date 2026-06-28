@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -36,17 +33,14 @@ diagnostic_signals:
 - framework_lens: SOP 颗粒度与场景化
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[tool-sop-template-modeling]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）

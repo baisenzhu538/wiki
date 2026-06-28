@@ -21,22 +21,16 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
-- [[case-personal-map-modeling]]
-- [[case-modeling-essence-schools]]
-- [[case-yitang-radar-chart-selection]]
-- [[case-child-drawing-rhyme]]
-- [[case-essence-entrepreneurship]]
-- [[case-course-milestone-model]]
-- [[dk-weekly-modeling-iteration-growth-engine]]
-- [[concept-thousand-people-square]]
-- [[yt-model-liberate-thinking-layers]]
-- [[dk-modeling-course-rnd-ripe-fruit]]
+- '[[dk-modeling-course-rnd-ripe-fruit]]'
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[yitang-domain-digest]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
 ---
+
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。
 
 这是 Truman 在课程末尾对一堂公司本质的定位。这个定位解释了一堂为什么无法提前半年出课表、为什么会偶尔"开天窗"。

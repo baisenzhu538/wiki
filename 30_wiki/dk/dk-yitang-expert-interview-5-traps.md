@@ -11,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-demand-feature-stacking]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[framework-yitang-expert-interview-10steps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 专家访谈五大陷阱
 
 1. **专家偏见**：专家在自己的领域有强烈观点，会不自觉贬低其他方向

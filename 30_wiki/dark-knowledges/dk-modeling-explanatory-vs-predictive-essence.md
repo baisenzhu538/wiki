@@ -1,13 +1,10 @@
 ---
-
-
-
 id: dk-modeling-explanatory-vs-predictive-essence
 title: 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 type: dk
 dark_knowledge_type: principle
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
 - yitang
@@ -22,33 +19,29 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 解释性本质 vs 预测性本质
-    follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-  - signal: src_unknown
-    framework_lens: 可证伪性与预测力
-    follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-  - signal: src_unknown
-    framework_lens: 决策可推导性
-    follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-  - signal: src_unknown
-    framework_lens: 生成式模型的解释力幻觉
-    follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
+- signal: src_unknown
+  framework_lens: 解释性本质 vs 预测性本质
+  follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
+- signal: src_unknown
+  framework_lens: 可证伪性与预测力
+  follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
+- signal: src_unknown
+  framework_lens: 决策可推导性
+  follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
+- signal: src_unknown
+  framework_lens: 生成式模型的解释力幻觉
+  follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[case-essence-humanity-trap]]
-- [[dk-modeling-essence-predictive]]
-- [[dk-modeling-ai-cross-validation]]
-- [[modeling-capability-for-kdo]]
-- [[tool-essence-nfactor-modeling]]
-- [[dk-modeling-essence-predictive]]
-- [[case-essence-education-strategy]]
-- [[case-modeling-essence-levels]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 ---
+
 # 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 
 ## 原始表述 / 核心洞察

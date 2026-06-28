@@ -1,8 +1,6 @@
 ---
-
-
 id: dk-ji-hao-newbie-can-validate
-title: '暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光'
+title: 暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光
 type: dk
 dark_knowledge_type: insight
 status: enriched
@@ -10,18 +8,19 @@ domain:
 - ai-collaboration
 - yitang
 source_person: 纪浩
-source_context: 'AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明'
+source_context: AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 related:
-- [[dk-ji-hao-simple-complex-routing]]
-- [[dk-ji-hao-novice-mindset-advantage]]
-- [[dk-ji-hao-ai-cant-design-structure]]
-- [[dk-ban-fei-mao-real-business-is-the-engine]]
-- [[dk-ban-fei-mao-silky-answer-warning]]
-- [[concept-ji-hao-ai-collaboration-methodology]]
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -35,6 +34,7 @@ diagnostic_signals:
   lens: 新手验证工具箱
   follow_up_question: 这个判断能否在 48 小时内通过一次用户访谈或一个最小实验得到证据？
 ---
+
 # 暗知识：新手也可以用四要素验证
 
 ## 原始表述

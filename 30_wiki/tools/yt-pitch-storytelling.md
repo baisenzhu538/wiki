@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-pitch-storytelling
 title: 讲香·故事化
 type: tool
@@ -20,13 +17,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- [[yt-pitch-metaphor]]
-- [[yt-tool-meeting-designer]]
-- [[yt-tool-project-health-radar]]
-- [[yt-pitch-quantification]]
-- [[system-yitang-research-workflow]]
-- [[yt-concept-weapon-arsenal]]
-- [[yt-model-personal-pitch-toolkit]]
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -43,6 +38,7 @@ reviewed_by: null
 author: 老顽童
 trust_level: medium-high
 ---
+
 # 讲香·故事化
 
 > 十指模型左手第四指——向下具象。一讲故事用户耳朵就支棱起来——故事是比道理好用十倍的论证武器。

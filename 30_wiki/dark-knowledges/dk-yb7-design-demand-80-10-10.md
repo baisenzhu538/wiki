@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
 type: dk
@@ -17,14 +15,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb30-ecommerce-channel-version]]
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[dk-yb10-theory-moat-designer]]
-- [[dk-yb25-solution-driven-visual-design]]
-- [[dk-yb6-midjourney-chinese-text-fix]]
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[dk-yb25-solution-driven-visual-design]]
-- [[dk-yb1-aigc-mvp-before-ps]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -39,6 +34,7 @@ diagnostic_signals:
   framework_lens: 人力资源错配——高端人才被低端需求消耗
   follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？# 中国设计需求的80-10-10分层法则
 ---
+
 ## 原始表述
 
 > 本质上中国80%的设计需求都是常规的运营需求。海报、节日朋友圈素材，这些完全可以模板化风格用ROI去调或者由AI生成初稿之后，剩下的10%需要强创意的部分，才需要专业设计师深入用PS或者AIGC介入。

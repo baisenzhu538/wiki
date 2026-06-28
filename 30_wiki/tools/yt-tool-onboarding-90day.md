@@ -1,6 +1,4 @@
 ---
-
-
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
 type: tool
@@ -17,15 +15,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-tool-meeting-designer]]
-  - [[yt-tool-project-health-radar]]
-  - [[yt-pitch-storytelling]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[yt-tool-equity-checklist]]
-  - [[yt-management-team-knowledge]]
-  - [[yt-tool-okr-cycle]]
-  - [[yt-management-goal-management]]
-  - [[yt-management-scientific-meetings]]
+- '[[yt-management-team-knowledge]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -51,8 +45,8 @@ updated_at: '2026-06-16'
 estimated_tokens: 3200
 reviewed_by: null
 author: 老顽童
-
 ---
+
 # 新人 90 天融入加速器
 
 > 从 [[yt-management-team-knowledge]] 萃取的团队管理工具。不是"发员工手册+安排导师"的形式主义，而是一套有节奏、有反馈、有退出标准的"社会化工程"——让新人在 90 天内从"外部人"变成"有贡献的内部人"，同时保留他们带来的外部视角。

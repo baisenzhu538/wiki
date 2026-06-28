@@ -1,8 +1,6 @@
 ---
-
-
 id: dk-lz-ai-native-organization
-title: 'AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足'
+title: AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足
 type: dk
 dark_knowledge_type: insight
 status: enriched
@@ -13,16 +11,11 @@ source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 related:
-- [[tool-纪浩-任务交付物标准化]]
-- [[tool-纪浩-Agent开工检查单制作法]]
-- [[tool-纪浩-AI工具脚本化约束]]
-- [[tool-纪浩-处理AI生成代码运行异常]]
-- [[tool-纪浩-AI使用边界管理法]]
-- [[concept-纪浩-ai-collaboration-five-layer]]
-- [[dk-ji-hao-ai-cant-design-structure]]
-- [[ai-collaboration-mindset-shift]]
-- [[dk-lz-code-is-disposable]]
-- [[dk-my-ai-landing-three-barriers]]
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老朱
@@ -38,6 +31,7 @@ diagnostic_signals:
   framework_lens: 罗马军团结构幻觉——忽视中层存在的真实原因是人脑带宽不足
   follow_up_question: 谁来确保CEO的意图能被1000人准确执行？是人脑层级还是AI中枢？# AI原生组织：罗马军团正在被自进化有机体取代
 ---
+
 ## 原始表述
 
 > 老朱在口述中提出了一个极其激进的判断：**今天的公司和2000年前没有本质区别，都是罗马军团——CEO在顶上，命令一层层往下传。中层管理的全部价值是解决信息传递问题，因为人脑带宽不够。AI的带宽比人脑大一万倍，一个能读完所有公司信息的AI不需要中间层去做传话筒。**

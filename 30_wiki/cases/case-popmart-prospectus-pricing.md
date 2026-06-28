@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-doris-catering-chain-benchmark]]
-  - [[case-demand-pharma-bigdata]]
-  - [[case-yitang-mahjong-machine-fake-order]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[tool-yitang-financial-report-intelligence]]
-  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：泡泡玛特招股书中的定价基准
 
 **问题**：徐鱼在课上举的例子——如果你做消费品（动漫周边），如何判断你的定价策略和毛利是否合理？

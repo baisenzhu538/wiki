@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
@@ -13,25 +9,22 @@ source_refs:
 status: enriched
 confidence: 0.8
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-14'
 author: 黄药师
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[tool-泛产品落地-业务建模]]'
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-泛产品落地-解放思想]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
 tags:
 - src_unknown
 - src_unknown
@@ -47,8 +40,8 @@ diagnostic_signals:
 - framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
-
 ---
+
 # 建模三段论 → KDO 工具链映射
 
 > **Burn line**: 建模不是抽象概念——每个阶段都有对应的 KDO 命令和检查项。

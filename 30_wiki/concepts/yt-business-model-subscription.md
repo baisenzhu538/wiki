@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
   follow_up_question: 你的收入是否可预测？订阅制能否提升收入稳定性？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的订阅价格是否和提供的价值匹配？用户感知价值如何？
 - framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
   follow_up_question: 你的产品是否适合订阅制？订阅价值是否持续？
-
 ---
+
 # 订阅制商业模式：从一次性到持续收入
 
 > 一堂五步法：订阅制是最健康的商业模式之一，提供可预测、可持续的收入。但订阅制需要从产品设计之初考虑。

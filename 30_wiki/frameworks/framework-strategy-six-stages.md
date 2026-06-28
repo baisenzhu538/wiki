@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-six-stages
 title: 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同
 type: framework
@@ -15,17 +14,13 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-  - [[tool-strategy-four-moves]]
-  - [[dk-strategy-03-advantage-temporary]]
-  - [[case-strategy-practice-ranpeng-milk-powder]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[framework-strategy-basics-04-system]]
-  - [[framework-strategy-brm]]
-  - [[framework-strategy-five-basics]]
-  - [[yt-decision-y-model]]
-  - [[framework-ouyangfeng-review-methodology]]
-  - [[framework-lean-pivot-decision]]
+- '[[strategy-domain-digest]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 六阶段企业生命周期
 
 > 不同阶段的核心命题完全不同：初创期需要"快速试错"，吃饱期需要"优化复制"，吃好期需要"构建壁垒"。用同一套战略工具应对所有阶段=战略自杀。

@@ -1,58 +1,53 @@
 ---
-
-
-
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
 status: enriched
 domain:
-  - src_unknown
+- src_unknown
 version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-five-levels-training]]'
+- '[[yt-note-live-field-skill]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 prerequisites:
-  - src_unknown
+- src_unknown
 source_refs:
 - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
 - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
 - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 - src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: 2026-06-07
 estimated_tokens: 4200
 pipeline:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 人不思考 / 能力退化
-    follow_up_question: 你最近一次完全不用AI、独立整理并建模一个概念是什么时候？能否用一句话说出它对你的业务意味着什么？
-  - framework_lens: 效率低 / L1-L2 资源错配
-    follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？把这些省下的时间投向了哪一层能力？
-  - framework_lens: 内化混淆 / 边界不清
-    follow_up_question: 关掉AI后，你能否用30秒向同事讲清这篇笔记的核心观点和1个反常点？
+- framework_lens: 人不思考 / 能力退化
+  follow_up_question: 你最近一次完全不用AI、独立整理并建模一个概念是什么时候？能否用一句话说出它对你的业务意味着什么？
+- framework_lens: 效率低 / L1-L2 资源错配
+  follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？把这些省下的时间投向了哪一层能力？
+- framework_lens: 内化混淆 / 边界不清
+  follow_up_question: 关掉AI后，你能否用30秒向同事讲清这篇笔记的核心观点和1个反常点？
 updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
+
 # AI时代笔记分工边界：人在哪里，AI在哪里
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：AI时代不是不用练笔记，而是要练更高级的笔记。清单体是人类认知与AI处理之间的"最大公约数"——但前提是，人必须先走到L3以上。

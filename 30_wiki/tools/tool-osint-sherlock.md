@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-sherlock
 title: Sherlock：用户名跨平台追踪——找到一个人的所有社交账号
 type: tool
@@ -12,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-crawl4ai]]
-  - [[tool-osint-spiderfoot]]
-  - [[tool-osint-maltego]]
-  - [[tool-osint-overview]]
-  - [[tool-osint-overview]]
-  - [[tool-yitang-people-network-database]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Sherlock：用户名跨平台追踪
 
 > 输入一个用户名，Sherlock自动检查300+社交平台——瞬间找到一个人在全网的数字足迹。

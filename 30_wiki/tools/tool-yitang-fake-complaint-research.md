@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-fake-complaint-research
 title: 假装客户投诉：以投诉之名获取内部信息
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-anonymous-identity]]
-  - [[tool-yitang-social-engineering-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 假装客户投诉
 
 > 以愤怒的客户身份拨打竞对的客服热线——测试其服务水平的同时获取内部流程信息。

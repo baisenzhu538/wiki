@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-presell
 title: 做预售：用真实订单验证付费意愿
 type: tool
@@ -10,9 +9,9 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212157_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212157_vlm_desc.md
@@ -21,18 +20,13 @@ source_refs:
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-cut-features]]
-  - [[tool-lean-minimum-version]]
-  - [[tool-lean-fake-product]]
-  - [[tool-lean-minimum-test-volume]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 做预售：用真实订单验证付费意愿
 
 > 在产品或服务尚未就绪时，先通过提前销售收取真实订单或预付款，把"用户是否愿意付费"从口头兴趣转化为可量化的交易信号 [conf=0.85, source=一堂DOC-20260622212157_ocr_text.md]。

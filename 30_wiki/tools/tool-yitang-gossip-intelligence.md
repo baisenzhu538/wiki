@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-gossip-intelligence
 title: 三人八卦：饭局/聚会中的非正式情报
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-insider-intelligence]]
-  - [[tool-yitang-conference-networking]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 三人八卦：非正式情报
 
 > 同行饭局上的闲聊八卦往往藏着最有价值的情报——"听说XX公司最近…"

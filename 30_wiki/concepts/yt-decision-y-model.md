@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-y-model
 confidence: 0.85
 created_at: 2026-05-17
@@ -21,19 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-unit-model-build]]'
+- '[[yt-decision-canvas]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
@@ -88,6 +79,7 @@ diagnostic_signals:
   follow_up_question: 当前画布的高度区是否写明了'3年后回看会后悔吗'和'放弃的最佳替代方案是什么'？如果没有，补齐后再继续
 author: 老顽童
 ---
+
 # Y模型科学决策框架（广义ROI）
 
 

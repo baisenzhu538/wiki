@@ -11,20 +11,17 @@ confidence: 0.82
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[case-yitang-consumer-offline-channel-decision]]
-  - [[case-yitang-doorstep-nail-service-context]]
-  - [[case-yitang-ski-project-user-as-expert]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[framework-yitang-high-level-execution]]
-  - [[tool-yitang-overseas-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：电动车出海本地化调研
 
 **问题**：电动车品牌想做海外市场，但对目标国家的法规、用户习惯、充电基础设施完全不了解。

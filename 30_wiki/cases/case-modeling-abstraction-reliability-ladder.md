@@ -23,16 +23,14 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-- [[yt-five-step-level-blindspots]]
-- [[case-modeling-essence-levels]]
-- [[framework-logic-cleanliness-five-levels]]
-- [[model-quality-four-levels]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[modeling-three-stages]]
-- [[modeling-level-map]]
-- [[case-modeling-abstraction-yitang-models]]
-- [[dk-modeling-counterexample-driven]]
+- '[[yitang-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）

@@ -13,9 +13,12 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-纪浩-里程碑验证法]]'
+- '[[tool-纪浩-AI对话上下文隔离]]'
+- '[[tool-纪浩-AI使用边界管理法]]'
+- '[[tool-纪浩-项目启动五问法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 pipeline:
@@ -35,8 +38,8 @@ diagnostic_signals:
   follow_up_question: 用"从__变成__"一句话描述 Before-After，并指认一个愿意使用的真实人名
 - framework_lens: L3 Do-first PDCA 顺序错误
   follow_up_question: 能否在 30 分钟内先产出一个最小可验证输出，再根据问题补 Check 和 Plan？
-
 ---
+
 # 纪浩：从微信传 zip 到五层协作体系
 
 > 纪浩是一堂的后端工程师。从2026年1月到4月，他每天高强度使用AI协作，经历了从"新手盲目"到"有体系地驾驭AI"的完整过程。这个案例记录了他在这四个月中遇到的核心问题、解决方案的演化，以及最终形成的五层协作体系。

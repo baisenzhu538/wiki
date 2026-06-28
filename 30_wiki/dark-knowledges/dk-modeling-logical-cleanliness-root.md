@@ -15,17 +15,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- [[case-modeling-essence-levels]]
-- [[yt-five-step-level-blindspots]]
-- [[yt-note-five-levels-training]]
-- [[framework-logic-cleanliness-five-levels]]
-- [[yt-model-deep-review-iceberg]]
-- [[dk-modeling-ai-without-judgment]]
-- [[dk-modeling-checklist-formatting-rules]]
-- [[modeling-capability-system]]
-- [[yt-unit-model-ladder]]
-- [[case-truman-ai-skill-engineering-guide]]
-- [[process-modeling]]
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -49,6 +43,7 @@ diagnostic_signals:
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 ---
+
 ## 原始表述
 
 > 我发现我有一个优点，我之所以建模能力能出来，是因为我在很多年前培养了一个习惯，叫做逻辑洁癖。就是我在重要的工作环节上，就是真正想总结、想建模，想抽一个什么东西的时候，我对于低水平的逻辑极其的不爽，非常不爽，看不过去，这叫逻辑洁癖。

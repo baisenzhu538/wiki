@@ -21,9 +21,12 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-一堂-spectrum-positioning]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-ai学习-提问工程化]]'
+- '[[case-科学决策-ROI案例03]]'
 tags:
 - src_unknown
 - src_unknown
@@ -40,8 +43,8 @@ diagnostic_signals:
   follow_up: 能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？
 - lens: 模型自信
   follow_up: 先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。
-
 ---
+
 # 案例：一堂「千人广场模型」——用统计建模心态做课
 
 > **Burn line**: 一堂做课不是为三五个人服务，而是对一个广场上 1000 人负责——广场上任何一个可见反例，都是模型的错。

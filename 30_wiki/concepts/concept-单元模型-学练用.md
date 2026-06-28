@@ -1,33 +1,28 @@
 ---
-
 id: concept-单元模型-学练用
 title: 学练用：知识内化的三阶模型
 type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-学练用.md
 related:
-  - [[truman-ai-partner-design-analysis]]
-  - [[master-ai-info-literacy]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[ocr-一堂-单元模型-学练用]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[yt-unit-model-ladder]]
-  - [[concept-最简单元模型]]
-  - [[framework-TCPR底层网络协议]]
-  - [[yt-unit-model-overview]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 学练用：知识内化的三阶模型
 
 ## 一句话定义

@@ -1,34 +1,28 @@
 ---
-
 id: tool-lean-leverage-tools
 title: 借搭建工具：用现成系统跑业务流
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-stealth-service]]
-  - [[tool-lean-presell]]
-  - [[tool-lean-leverage-competitor]]
-  - [[tool-lean-leverage-resources]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 借搭建工具：用现成系统跑业务流
 
 > 在启动自研或重投入之前，先用微信、表单、在线文档、无代码平台、AI 等现成工具把业务流串起来，验证用户是否愿意按预期路径完成核心动作。

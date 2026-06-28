@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b3-island-cards
 type: task
-status: queued
+status: claimed-laowantong
 assignee: 老顽童
 priority: P2
 created_at: 2026-06-28

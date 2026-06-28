@@ -1,17 +1,16 @@
 ---
-
 id: case-lean-crayfish-combo-test
 title: 案例：堕落小龙虾组合测试
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_person: 一堂课程讲师（教学案例）
 source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
 source_refs:
@@ -20,18 +19,11 @@ source_refs:
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 related:
-  - [[case-lean-genki-forest-toolkit]]
-  - [[case-lean-shampoo-selling-points]]
-  - [[case-lean-gray-test-paradigm]]
-  - [[case-lean-combination-test-paradigm]]
-  - [[case-lean-2b-gray-test]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[case-lean-combination-test-paradigm]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-entrepreneur-lean-validation]]
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 案例：堕落小龙虾组合测试
 
 > 当一门液氮速冻技术可以应用于多个食品品类时，用「多品类价值热力图」做组合测试，能把「选错品类」的方向性风险前置到一次低成本的口感盲测与商业价值评估中。

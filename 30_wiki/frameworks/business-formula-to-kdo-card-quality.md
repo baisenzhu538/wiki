@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
@@ -13,27 +9,22 @@ source_refs:
 status: enriched
 confidence: 0.8
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-15'
 author: 黄药师
 reviewed_by: 老顽童
 review_date: '2026-06-17'
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[kdo-priority-checklist]]'
+- '[[ocr-一堂-科学决策-关键假设abcd模型]]'
+- '[[yt-tob-customer-sabc]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
 tags:
 - src_unknown
 - src_unknown
@@ -46,8 +37,8 @@ diagnostic_signals:
 - framework_lens: 放量健康度诊断
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
-
 ---
+
 # 业务公式 ABC → KDO 卡片质量
 
 > **Burn line**: GMV = 线索×转化×客单价×复购 拆太粗 = 亏损。卡片质量 = id+title+type 凑齐 = 看着完整但用不了。

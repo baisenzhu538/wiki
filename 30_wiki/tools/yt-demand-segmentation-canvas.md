@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[ocr-泛产品设计-审美工具箱指南]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[ocr-一堂五步法画布]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
 diagnostic_signals:
 - framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
   follow_up_question: 用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 这个功能主要服务哪一层用户？这一层的优先级是什么？
 - framework_lens: 需求分层画布——广度≠深度
   follow_up_question: 竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？
-
 ---
+
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 
 > 一堂五步法：用户分层不是分类，而是识别需求差异，找到最值得先服务的群体。

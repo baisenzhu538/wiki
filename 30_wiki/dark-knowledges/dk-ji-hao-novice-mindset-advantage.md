@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ji-hao-novice-mindset-advantage
 title: 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口
 type: dk
@@ -16,13 +14,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-ji-hao-ai-cant-design-structure]]
-- [[dk-ban-fei-mao-silky-answer-warning]]
-- [[case-ji-hao-ui-design-constraint-evolution]]
-- [[case-ji-hao-ai-workspace-chaos]]
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,7 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
   lens: 高预期陷阱 / 新手保护期流失
-  follow_up_question: '我是否把"第一版"的目标设定为发现问题，而不是产出终稿？'
+  follow_up_question: 我是否把"第一版"的目标设定为发现问题，而不是产出终稿？
 - signal: src_unknown
   lens: 新手心态红利
   follow_up_question: 我是否还在用旧经验路径约束 AI，而不是让它先给出不受约束的方案？
@@ -41,6 +39,7 @@ diagnostic_signals:
   lens: 保护期阈值
   follow_up_question: 我是否已经把任务拆到足够小，并允许每天只比昨天好一点？
 ---
+
 # 暗知识：新手心态的五个保护期
 
 ## 原始表述

@@ -17,16 +17,19 @@ updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[plan_20260621_skill-iteration-standard]]'
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
-
 ---
+
 # 降龙十八掌→工具映射表
 
 > 十八掌是"做什么"，这张卡是"用什么做"。每掌给出对应的 wiki 卡片 + Claude Code Skill + 应急方案。

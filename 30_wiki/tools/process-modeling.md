@@ -22,7 +22,13 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
-related: []
+related:
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
+- '[[modeling-weapon-library]]'
+- '[[framework-kdo-self-attack]]'
+- '[[yitang-domain-digest]]'
 tags: []
 diagnostic_signals:
 - framework_lens: 流程建模
@@ -34,6 +40,7 @@ diagnostic_signals:
 - framework_lens: 分解 × 锁 × 边界 × 迭代
   follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
 ---
+
 # 流程建模：用 SOP 与清单把经验变成稳定产出
 
 > **Burn line**: 流程建模不是写文档，是把现场经验焊进组织的肌肉记忆。

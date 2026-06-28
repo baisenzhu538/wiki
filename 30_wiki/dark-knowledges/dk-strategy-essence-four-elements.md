@@ -4,12 +4,14 @@ title: 战略内核四要素：细分市场+竞争优势+资源配置+范围经�
 type: dk
 status: enriched
 author: 老顽童
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,15 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[dk-strategy-longzhong-four-failures]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[dk-strategy-consulting-jokes]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
 
 ## 原始表述

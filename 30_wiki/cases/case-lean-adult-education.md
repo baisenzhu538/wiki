@@ -1,35 +1,27 @@
 ---
-
 id: case-lean-adult-education
 title: 成人技能教育精益验证
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_vlm_desc.md
 related:
-  - [[case-lean-weak-solution]]
-  - [[case-lean-wrong-demand]]
-  - [[case-lean-premature-refinement]]
-  - [[case-lean-2b-gray-test]]
-  - [[case-lean-shoe-mvp-evolution]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[case-lean-combination-test-paradigm]]
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 成人技能教育精益验证
 
 ## 核心洞察

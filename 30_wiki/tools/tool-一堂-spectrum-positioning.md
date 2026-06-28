@@ -1,50 +1,12 @@
 ---
-
-id: tool-一堂-spectrum-positioning
-title: 技能：光谱模型定位法
-type: tool
-status: enriched
-domain:
-- src_unknown
-source_person: Truman
-source_context: 一堂商业预判课
-source_refs:
-  - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-  - pending_archive:src_unknown - src_unknown
-- 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-- src_unknown
-  - src_unknown
-tools_required:
-- src_unknown
-prerequisite_skills:
-- src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-wiki_refs:
-- src_unknown
-created_at: '2026-06-10'
-updated_at: '2026-06-17'
-pipeline:
-- src_unknown
-- src_unknown
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-diagnostic_signals:
-- lens: 小目标大做
-  follow_up: 副业阶段的预判应该是'能不能做'，而非'怎么做大'。预判深度必须与阶段匹配
-- lens: 大目标小做
-  follow_up: 上市阶段需要资本运作、法务合规、全国市场分析，不是单店营销策略。预判深度不足
-- lens: 能力错配
-  follow_up: 每次过渡前先检查组织能力是否配备。光谱模型不是进度条，是能力门槛
-- lens: 沉没成本
-  follow_up: 每个阶段必须设定退出标准。光谱模型不是进度条，是能力门槛
-- lens: 过渡过快
-  follow_up: 阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张
+- '[[tool-一堂-business-prediction-15-char]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 技能：光谱模型定位法
 
 ## Summary

@@ -1,27 +1,21 @@
 ---
-
-
-
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 source_refs: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -43,8 +37,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
-
 ---
+
 # Issue Tree：问题树拆解
 
 ## 核心定义

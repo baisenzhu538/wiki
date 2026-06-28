@@ -14,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-月白-社群直播海报利益点提炼法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -43,8 +43,8 @@ diagnostic_signals:
   follow_up: 一本书只能覆盖一章。提炼单元应该是'一个核心观点'，不是整本书
 - lens: 盲区未暴露
   follow_up: 提炼的价值是发现你不懂什么。写完后发现'这句话对吗？好像不太确定'才是好提炼
-
 ---
+
 # 技能：费曼简单提炼法
 
 ## 原始表述

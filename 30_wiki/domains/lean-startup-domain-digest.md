@@ -3,25 +3,27 @@ id: lean-startup-domain-digest
 title: 域摘要：精益创业方法论
 type: index
 status: enriched
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_context: 一堂精益创业课程——FALSE 模型 + 六宗罪 + ABCD + 三范式，覆盖从假设验证到规模化增长
 source_refs:
-  - 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
-  - 60_feedback/audit/lean-startup-nine-layer-annotation.md
-  - 60_feedback/audit/lean-startup-six-layer-validation.md
-created_at: "2026-06-23"
+- 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
+- 60_feedback/audit/lean-startup-nine-layer-annotation.md
+- 60_feedback/audit/lean-startup-six-layer-validation.md
+created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-  - [[five-step-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[strategy-domain-digest]]
-  - [[yitang-research-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[一堂方法论体系总图]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 ---
+
 # 域摘要：精益创业方法论
 
 > 精益创业——用最小成本验证最大假设。核心问题：怎么在资源极有限的条件下，科学地找到产品-市场匹配？

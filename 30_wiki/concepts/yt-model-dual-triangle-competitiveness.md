@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1915
 language: zh-CN
 query_triggers:
@@ -19,14 +15,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂]]'
+- '[[一堂方法论体系总图]]'
+- '[[yt-model-muse-ai-framework]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -49,8 +42,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 双三角竞争力模型 (Yitang Dual Triangle Model)
 
 > 来源：一堂《AI 时代的竞争力·双三角模型》（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]

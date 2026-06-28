@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-financial-report-intelligence
 title: 财报/招股书情报：用上市公司公开报告做创业预判
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
@@ -30,16 +29,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-笔记.txt
 related:
-  - [[tool-yitang-comparable-company-selection]]
-  - [[case-proya-betaine-skincare-benchmark]]
-  - [[yt-model-five-step-canvas]]
-  - [[concept-一堂-key-assumptions]]
-  - [[ocr-一堂五步法画布]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-comparable-company-selection]]
-  - [[tool-yitang-ipo-annual-report-cheat-sheet]]
-  - [[yt-research-intelligence-map]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 财报/招股书情报：用上市公司公开报告做创业预判
 
 > **一句话**：投资人之所以是赛道专家，是因为他们大量阅读上市公司的招股书和年报。作为创业者，你不需要成为财务专家，你只需要学会从招股书中快速提取对你创业预判有用的业务信息——毛利率benchmark、营销方式、成本结构、行业天花板，全都在里面。

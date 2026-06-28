@@ -30,11 +30,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[ocr-泛产品设计-审美工具箱指南]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[ocr-泛产品设计落地工具篇指南]]'
+- '[[tool-月白-资深设计师AI工具切换法]]'
+- '[[ocr-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -68,8 +71,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
-
 ---
+
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 
 ## Summary

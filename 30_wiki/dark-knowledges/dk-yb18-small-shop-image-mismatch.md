@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb18-small-shop-image-mismatch
 title: 小店图片错配陷阱：精致摄影反而吓跑客户
 type: dk
@@ -16,14 +15,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb26-chinese-food-photography-props]]
-- [[dk-yb30-ecommerce-channel-version]]
-- [[dk-yb17-product-lifestyle-photography]]
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
-- [[dk-yb19-visual-strategy-price-match]]
-- [[yt-foresight-ten-fatal-flaws]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-单客户模型]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 小店图片错配陷阱：精致摄影反而吓跑客户
 ---
+
 ## 原始表述
 
 > 你是一个小店，结果你用人家大酒店找专门食品摄影拍的图，那回头图出现一个问题，你的那个海报出出去了，那个客户一看，哇，这图这么精致，他店是不是很贵呀？

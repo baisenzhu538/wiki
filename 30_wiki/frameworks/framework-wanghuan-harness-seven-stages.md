@@ -28,19 +28,19 @@ diagnostic_signals:
 - lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[concept-harness-scoring-anchors]]'
+- '[[tool-harness-adversarial-tester]]'
+- '[[plan_20260621_kdo-quality-harness-upgrade]]'
+- '[[concept-harness-cattle-not-pets]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢：Harness 七阶段 AI 构建流程
 
 > **Burn line**: 把生成者和验收者分开，是 Harness 从"损坏的玩具"变"可玩的游戏"的关键。

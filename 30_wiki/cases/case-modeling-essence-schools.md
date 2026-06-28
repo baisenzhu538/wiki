@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-essence-schools
 title: 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 type: case
@@ -27,16 +24,12 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 diagnostic_signals:
 - lens: 三派混用
   follow_up: 先统一目标——我们想做知识付费、组织萃取还是学科建模？
@@ -47,6 +40,7 @@ diagnostic_signals:
 - lens: 学科建模标准侵入经验萃取场景
   follow_up: 把抽象层级降到组织内可执行，补充上下文和触发条件
 ---
+
 # 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 
 > 来源：Truman-高阶建模-本质建模-案例-02 | 一堂建模能力培训（Truman）

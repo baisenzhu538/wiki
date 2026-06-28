@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-abcd-model
 title: 关键假设 ABCD 模型
 type: framework
@@ -10,27 +9,21 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_vlm_desc.md
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 related:
-  - [[case-lean-radish-channel-selection]]
-  - [[framework-lean-six-wastes]]
-  - [[case-lean-premature-refinement]]
-  - [[case-lean-medical-device-milestone]]
-  - [[case-lean-premature-expansion]]
-  - [[framework-lean-false-model]]
-  - [[concept-一堂-key-assumptions]]
-  - [[concept-一堂-kernel-validation]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[framework-strategy-lean-validation]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 关键假设 ABCD 模型
 
 ## 一句话定义

@@ -1,5 +1,4 @@
 ---
-
 id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dk
@@ -14,16 +13,12 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-- [[kdo-yaml-frontmatter-safety]]
-- [[fix-data-curator-parse-bug]]
-- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-- [[dk-p19-quote-yaml]]
-- [[dk-f13-handwritten-yaml-parser]]
-- [[dk-c2-dual-status-machine]]
-- [[kdo-yaml-frontmatter-safety]]
-- [[master-first-principles]]
-- [[dk-f13-handwritten-yaml-parser]]
-- [[dk-p11-regex-cutoff]]
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-p19-quote-yaml]]'
+- '[[fix-data-curator-parse-bug]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -41,6 +36,7 @@ diagnostic_signals:
   framework_lens: 格式复杂度低估
   follow_up_question: 这个格式是否有官方/成熟库？为什么没用？# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 ---
+
 ## 原始表述 / 核心洞察
 
 > **症状**：Data Curator Clean 跗完后，`yt-decision-y-model.md` 的 `visual_analysis` 字段从 4 张图的完整结构化描述变成 5 条扁平字符串，3 张图 15 条分析丢失。`yt-model-aesthetic-progression.md` 的 `related` 字段从 4 个链接变成 `level: intermediate`。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-trend-data
 title: 趋势数据查询：行业走向的定量判断
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-pc-web-data]]
-  - [[tool-yitang-stock-data]]
-  - [[tool-yitang-xiaohongshu-data]]
-  - [[tool-yitang-douyin-data]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-weapon-third-party-database]]
-  - [[tool-yitang-database-index]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 趋势数据查询
 
 > 行业指数/趋势报告——用"有没有增长"替代"我觉得好不好"。

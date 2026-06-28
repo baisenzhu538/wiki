@@ -1,5 +1,4 @@
 ---
-
 id: case-lean-combination-test-paradigm
 title: 组合测试范式实操案例
 type: case
@@ -10,8 +9,8 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_person: 一堂课程讲师（含张磊洗发水项目复盘）
 source_context: 一堂精益创业·低成本验证·系统测试曲线课程讲义
 source_refs:
@@ -24,19 +23,11 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 related:
-  - [[framework-lean-systematic-test-curve]]
-  - [[case-lean-genki-forest-toolkit]]
-  - [[case-lean-shampoo-selling-points]]
-  - [[case-lean-gray-test-paradigm]]
-  - [[case-lean-crayfish-combo-test]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-lean-six-wastes]]
-  - [[framework-lean-product-kernel]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 组合测试范式实操案例
 
 > 核心启示：当产品卖点、品类或商业模式存在大量并列选项时，与其凭直觉押注单一方向，不如用「多维度列举 → 小范围投票/访谈 → 关键组合试销 → 迭代文案」的组合测试，把错误选项的浪费前置到极低成本阶段。

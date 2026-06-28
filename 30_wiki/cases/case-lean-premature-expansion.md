@@ -1,38 +1,28 @@
 ---
-
 id: case-lean-premature-expansion
 title: 过早扩张案例集
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_person: 一堂课程讲师/学员（教学案例）
 source_context: 一堂精益创业·低成本验证课程「过早扩张」专题
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md
 related:
-  - [[case-lean-weak-solution]]
-  - [[case-lean-premature-refinement]]
-  - [[case-lean-adult-education]]
-  - [[case-lean-2b-gray-test]]
-  - [[case-lean-shoe-mvp-evolution]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-six-wastes]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-tenx-formula]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 过早扩张案例集
 
 ## 核心洞察

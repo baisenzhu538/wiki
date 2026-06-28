@@ -1,5 +1,4 @@
 ---
-
 id: concept-惊喜公式
 title: 惊喜公式：超越预期的用户体验设计
 type: concept
@@ -10,20 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[tool-项目背景分析]]
-  - [[concept-峰终定律]]
-  - [[tool-用户视角]]
-  - [[tool-动力阻力分析]]
-  - [[tool-用户分层]]
-  - [[framework-科学决策三角形]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 惊喜公式：超越预期的用户体验设计
 
 ## 一句话定义

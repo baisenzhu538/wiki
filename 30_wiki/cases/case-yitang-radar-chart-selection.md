@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
@@ -23,17 +20,12 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
 tags:
 - src_unknown
 - src_unknown
@@ -51,6 +43,7 @@ diagnostic_signals:
 - lens: 维度重叠/缺乏校准
   follow_up: 用 2-3 个样本做校准会，重写维度定义和锚定分数，检查 MECE
 ---
+
 # 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 
 > **Burn line**: 当评选对象多到 CEO 拍不了板时，最好的解法是画一个雷达图，让模型替人做决策。

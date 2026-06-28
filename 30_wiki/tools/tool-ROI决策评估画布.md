@@ -1,32 +1,27 @@
 ---
-
 id: tool-ROI决策评估画布
 title: ROI决策评估画布：三维度投资回报评估模板
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 related:
-  - [[concept-稀缺机会窗口]]
-  - [[tool-单元模型-单商圈]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[tool-单元模型-单城市]]
-  - [[framework-单元模型-外部对抗地图]]
-  - [[framework-科学决策三角形]]
-  - [[tool-完整财务公式决策]]
-  - [[yt-unit-model-overview]]
-  - [[framework-lean-abcd-model]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # ROI决策评估画布
 
 ## 一句话定义

@@ -1,18 +1,17 @@
 ---
-
 id: case-cross-yuanqi-forest
 title: 元气森林：战略定位与精益试错的跨域闭环
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - lean-startup
-  - yitang
+- strategy
+- lean-startup
+- yitang
 source_person: 一堂课程讲义/讲师案例
 source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略选择逻辑
 source_refs:
@@ -20,21 +19,13 @@ source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 - src_unknown
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[framework-lean-pivot-decision]]
-  - [[dk-yitang-business-model-risk-over-product-risk]]
-  - [[case-lean-genki-forest-toolkit]]
-  - [[lean-startup-domain-digest]]
-  - [[framework-strategy-lean-validation]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-tenx-formula]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-decision-y-model]]
-  - [[framework-strategy-brm]]
-  - [[strategy-domain-digest]]
-  - [[lean-startup-domain-digest]]
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-strategy-lean-validation]]'
+- '[[framework-strategy-brm]]'
+- '[[yt-decision-y-model]]'
 ---
+
 # 元气森林：战略定位与精益试错的跨域闭环
 
 ## 一句话洞察

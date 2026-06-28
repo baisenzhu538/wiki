@@ -1,47 +1,47 @@
 ---
-
 id: ai-collaboration-mindset-shift
-title: "AI协作思维转变：从新手到管理者"
+title: AI协作思维转变：从新手到管理者
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[structured-ai-workspace]]'
+- '[[ai-learning-closed-loop]]'
+- '[[ai-landing-scene-selection]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
-created_at: "2026-06-15"
-updated_at: "2026-06-17"
+created_at: '2026-06-15'
+updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - lens: "新手 vs 管理者"
-    follow_up: "强制列出3个可能的改进点，检验判断力"
-  - lens: "question vs problem"
-    follow_up: "每次提问前先分类：这是problem还是question？"
-  - lens: "缺少验收标准"
-    follow_up: "定义before/after、真实锚点、受益对象、可解性四要素"
-  - lens: "执行者循环"
-    follow_up: "检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴"
+- lens: 新手 vs 管理者
+  follow_up: 强制列出3个可能的改进点，检验判断力
+- lens: question vs problem
+  follow_up: 每次提问前先分类：这是problem还是question？
+- lens: 缺少验收标准
+  follow_up: 定义before/after、真实锚点、受益对象、可解性四要素
+- lens: 执行者循环
+  follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
 ---
+
 # AI协作思维转变：从"新手"到"管理者"
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)

@@ -7,10 +7,21 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[strategy-domain-digest]]'
+- '[[yt-barrier-ecosystem-lock-in]]'
+- '[[yitang-methodology-system]]'
+- '[[yt-tob-demand-scenarios]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- '[[master-systems-thinking]]'
+- '[[personal-growth-complex-systems]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
 ---
+
 **三种变革方式**（对应不同阶段）：
 - src_unknown
 - src_unknown

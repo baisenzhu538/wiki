@@ -1,9 +1,4 @@
 ---
-
-
-
-
-
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -14,7 +9,7 @@ confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1000
 language: zh-CN
 review_date: 2026-06-10
@@ -40,13 +35,13 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-ai-trend-12-signals]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]

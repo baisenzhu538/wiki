@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-personal-pan-product-02
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
@@ -21,17 +17,11 @@ query_triggers:
 - src_unknown落地篇
 - src_unknown落地篇：无限进步与持续打磨
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-personal-pan-product-concepts]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_e4b635ac-ocr-泛产品设计落地篇
@@ -56,8 +46,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
+
 # 泛产品设计落地篇：无限进步与持续打磨
 
 > 来源：一堂泛产品设计系列最后一课·落地篇口述（Truman）。[[yt-model-pan-product-execution-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

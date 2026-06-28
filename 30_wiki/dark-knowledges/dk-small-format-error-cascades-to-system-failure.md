@@ -11,18 +11,13 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
 source_refs:
-  - src_unknown
+- src_unknown
 related:
-- [[dk-tool-chain-naming-is-infrastructure]]
-- [[dk-infrastructure-guardrails-over-checklist]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[dk-p11-regex-cutoff]]
-- [[dk-f13-handwritten-yaml-parser]]
-- [[dk-p11-regex-cutoff]]
-- [[dk-p18-yaml-parser]]
-- [[dk-p19-quote-yaml]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[dk-f10-broken-source-refs]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 bridges_to:
 - src_unknown
 - src_unknown
@@ -44,6 +39,7 @@ diagnostic_signals:
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
 updated_at: 2026-06-28
 ---
+
 ## 原始表述 / 核心洞察
 
 在第 26 节清理 master 系统暗知识时，同一类问题反复出现：

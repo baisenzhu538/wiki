@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
 type: dk
@@ -16,14 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb29-prompt-migrate-copy-first]]
-- [[dk-yb31-style-first-controlnet]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb23-ai-pre-screen-three-minutes]]
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb8-file-naming-eight-elements]]
-- [[dk-yb7-design-demand-80-10-10]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -36,8 +31,10 @@ diagnostic_signals:
   follow_up_question: 在引入AI之前，你的历史风格规范文档、PS工程文件、配色/笔触/构图规则是否已整理？如果没有，AI降本是一句空话。
 - signal: src_unknown
   framework_lens: 资产复用缺失——不逆向工程历史项目就无法建立可复用的结构体系
-  follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。# AI绘图降本的前提：风格资产工程化归档
+  follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。#
+    AI绘图降本的前提：风格资产工程化归档
 ---
+
 ## 原始表述
 
 > 前提是你的风格规范整理甚至PS工程文件都要整理好，要完整，你才有可能反推出后续可复用的结构体系。

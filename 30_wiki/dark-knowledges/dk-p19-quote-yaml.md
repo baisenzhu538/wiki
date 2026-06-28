@@ -1,5 +1,4 @@
 ---
-
 id: dk-p19-quote-yaml
 title: P-19：花引号被YAML误解析为字符串定界符
 type: dk
@@ -14,14 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[kdo-yaml-frontmatter-safety]]
-- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-- [[dk-p18-yaml-parser]]
-- [[proposal-yaml-frontmatter-standardization]]
-- [[dk-f13-handwritten-yaml-parser]]
-- [[dk-p18-yaml-parser]]
-- [[kdo-yaml-frontmatter-safety]]
-- [[master-first-principles]]
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[dk-p18-yaml-parser]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -43,6 +39,7 @@ tags:
 - src_unknown
 - src_unknown# P-19：花引号被YAML误解析为字符串定界符
 ---
+
 ## 原始表述 / 核心洞察
 
 > **症状**：`"四套操作系统"=可切换的决策runtime` 中，直引号 `"` 被 yaml.safe_load 解释为 YAML 字符串定界符，后面的 `=可切换...` 成为非法 tail，导致 YAML parse error。

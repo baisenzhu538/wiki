@@ -1,5 +1,4 @@
 ---
-
 id: dk-p7-ocr-skip
 title: P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 type: dk
@@ -14,13 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[ocr-婚礼操盘-用户和场景]]
-- [[data-curator-role-division]]
-- [[dk-p8-toolkit-forget]]
-- [[ocr-一堂-单元模型-abcd策略模型]]
-- [[ocr-screenshot2]]
-- [[master-decision-hygiene]]
-- [[master-ai-info-literacy]]
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[ocr-一堂-ai学习-提问工程化]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[ocr-微信图片_20260507004802_38_32]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：科学决策文件夹有 35 张关键框架图（共识四层冰山、ROI 全景图、X 型 Y 型对比等），老顽童声称"没有图片需要 OCR"。欧阳锋未核实即采信。后发现 35 张图全部未 OCR，图中含有口述稿未系统展开的结构信息。

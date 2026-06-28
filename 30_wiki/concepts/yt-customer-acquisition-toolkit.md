@@ -1,58 +1,12 @@
 ---
-
-domain:
-- yitang
-
-
-
-id: yt-customer-acquisition-toolkit
-confidence: 0.9
-created_at: 2026-06-10
-difficulty: intermediate
-language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-review_date: 2026-06-10
-reviewed_by: "老顷童（精修）"
-source_refs:
-  - pending_archive:src_20260610_7590c468-一堂-一堂五步法-增长-推荐获客小抄
-  - pending_archive:src_20260610_c2430786-一堂-一堂五步法-增长-线上获客小抄
-  - pending_archive:src_20260610_5e5bd997-一堂-一堂五步法-增长-线下获客小抄
-  - pending_archive:src_20260610_b69011cf-一堂-一堂五步法-增长-获客转化小抄
-  - pending_archive:src_20260610_0a18623a-一堂-一堂五步法-增长-科学销售五步法
-- src_20260610_7590c468-一堂-一堂五步法-增长-推荐获客小抄
-- src_20260610_c2430786-一堂-一堂五步法-增长-线上获客小抄
-- src_20260610_5e5bd997-一堂-一堂五步法-增长-线下获客小抄
-- src_20260610_b69011cf-一堂-一堂五步法-增长-获客转化小抄
-- src_20260610_0a18623a-一堂-一堂五步法-增长-科学销售五步法
-status: reviewed
-title: "获客工具合集"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "增长"
-  course_id: yt-customer-acquisition-toolkit
-  course_type: tool
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '团队试了所有渠道，但每个渠道都不深', 'framework_lens': '渠道泛化——没有聚焦', 'follow_up_question': '你们现在最能跑通的1-2个渠道是什么？如果说不清楚，说明没有聚焦'}
-  - {'signal': '用户只复制别人的渠道打法，不考虑自己产品阶段', 'framework_lens': '阶段错配', 'follow_up_question': '这个打法对应的产品阶段和你现在一致吗？别人的裂变可能基于已有用户，你还没有'}
-updated_at: 2026-06-16
-author: "老顽童"
 related:
-- case-ether-online-acquisition
+- '[[yt-growth-cycle-model]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[case-toy-cabinet-business-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]

@@ -7,10 +7,19 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境
 
 ## 原始表述

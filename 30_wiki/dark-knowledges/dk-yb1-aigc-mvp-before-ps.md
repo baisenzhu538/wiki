@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yb1-aigc-mvp-before-ps
 title: 设计师AIGC工作流：先跑MVP再开PS
 type: dk
@@ -16,14 +14,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb31-style-first-controlnet]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb6-midjourney-chinese-text-fix]]
-- [[dk-yb23-ai-pre-screen-three-minutes]]
-- [[dk-yb5-style-asset-archive]]
-- [[dk-yb5-style-asset-archive]]
-- [[dk-yb8-file-naming-eight-elements]]
-- [[dk-yb7-design-demand-80-10-10]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
+- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-月白-PPT全AI生成工作流]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[case-yitang-mvp-reward-interview-waste]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -38,6 +36,7 @@ diagnostic_signals:
   framework_lens: 改稿成本错位——方向级问题应该在MVP阶段解决，而非在执行层反复修改
   follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。# 设计师AIGC工作流：先跑MVP再开PS
 ---
+
 ## 原始表述
 
 > 打开ps就开始做，不能这样打开ps就开始做。你MVP先建起来先跑，他跟审美没有关系，你做这些都不需要审美，你找图不需要审美，你先找找到了，然后捞风格提示词，风格提示词捞完了之后再让AIGC跑，先确认方向再开始动作。

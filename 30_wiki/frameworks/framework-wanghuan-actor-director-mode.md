@@ -21,11 +21,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +42,8 @@ diagnostic_signals:
   follow_up: 能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？
 - lens: 身份切换阻力
   follow_up: 是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？
-
 ---
+
 # 王欢人机协作框架：从演员到导演
 
 > **Burn line**: AI 协作的效率差距，不在工具，而在身份——你是亲自上台的演员，还是定义标准和验收的导演。

@@ -7,10 +7,18 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[framework-five-step-lean-interface]]'
+- '[[yt-five-step-method]]'
+- '[[dk-ai-entrepreneur-technical-blindspot]]'
+- '[[dk-demand-pitfall-indonesia-insurance]]'
+- '[[strategy-domain-digest]]'
 ---
+
 
 ## 原始表述
 

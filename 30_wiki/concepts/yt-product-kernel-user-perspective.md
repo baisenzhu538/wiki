@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-用户卡片-用户视角]]'
+- '[[tool-用户视角]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
   follow_up_question: 用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你能用用户的话（不是技术术语）描述产品价值吗？
 - framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
   follow_up_question: 你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？
-
 ---
+
 # 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 
 > 一堂五步法：产品内核必须从用户视角定义，不是从产品视角或技术视角。

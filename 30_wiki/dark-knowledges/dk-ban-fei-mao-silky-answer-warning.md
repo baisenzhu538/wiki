@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
 type: dk
@@ -15,13 +13,13 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-ji-hao-ai-cant-design-structure]]
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[concept-ji-hao-ai-collaboration-methodology]]
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -30,14 +28,15 @@ trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 丝滑 ≠ 准确——格式美感可能掩盖证据缺失或编造
-  follow_up_question: '请把回答拆成"基于证据的部分"和"推理/生成的部分"，并列出每个关键结论的前提条件。'
+  follow_up_question: 请把回答拆成"基于证据的部分"和"推理/生成的部分"，并列出每个关键结论的前提条件。
 - signal: src_unknown
-  framework_lens: '编造风险——AI 可能混合真实信息生成"听起来像真的"内容'
+  framework_lens: 编造风险——AI 可能混合真实信息生成"听起来像真的"内容
   follow_up_question: 请给出这个数据/案例的具体时间、地点、人物、原始来源，并说明它对我这个具体场景的适用边界。
 - signal: src_unknown
-  framework_lens: '认知偏差——人倾向于把"结构完整"误认为"正确"'
+  framework_lens: 认知偏差——人倾向于把"结构完整"误认为"正确"
   follow_up_question: 在采纳前，先用三轮检查法验证一遍：这是推理还是证据？有没有更好的数据？有没有贴近业务场景的可验证信息？
 ---
+
 # 暗知识：AI 回答越丝滑，问题越大
 
 ## 原始表述

@@ -1,39 +1,30 @@
 ---
-
 id: case-apple-card-gender-bias
 title: Apple Card 信用额度性别争议
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[case-dutch-childcare-scandal]]
-  - [[dk-ai-prediction-expiry-date]]
-  - [[case-chen-qiufan-ai-writing]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[tool-tech-probability-80-filter]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
+- '[[concept-card-index-latest]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[yt-personal-ai-thinking-card]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[business-formula-to-kdo-card-quality]]'
+- '[[agent-native-card-design]]'
 ---
+
 # Apple Card 信用额度性别争议
 
 > **Burn line**：一张标榜“简洁、公平、无 Fees”的苹果信用卡，在 2019 年因夫妻共同申请却出现 20 倍额度差而被推上风口浪尖——监管最终认定未违反公平借贷法，却暴露了算法黑箱、客户申诉无门与公众信任之间的深层裂缝。

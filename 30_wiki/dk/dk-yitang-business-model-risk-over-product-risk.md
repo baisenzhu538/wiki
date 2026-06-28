@@ -1,36 +1,25 @@
 ---
-
 id: dk-yitang-business-model-risk-over-product-risk
 title: 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - [[case-lean-genki-forest-toolkit]]
-  - [[tool-lean-presell]]
-  - [[case-cross-yuanqi-forest]]
-  - [[tool-lean-leverage-traffic]]
-  - [[case-lean-premature-expansion]]
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-presell]]
-  - [[case-lean-genki-forest-toolkit]]
-  - [[case-cross-yuanqi-forest]]
-  - [[case-lean-premature-expansion]]
-  - [[yitang-domain-digest]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-false-model]]
-  - [[yt-business-model-definition]]
-  - [[case-lean-electric-scooter-mvp]]
-  - [[case-lean-premature-expansion]]
-  - [[case-smart-medicine-cabinet-business-model-validation]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[case-lean-premature-expansion]]'
+- '[[case-lean-wrong-demand]]'
+- '[[case-lean-zhanglei-pivot-decision]]'
+- '[[case-smart-medicine-cabinet-business-model-validation]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 
 > **一句话定义**：在产品早期，"用户是否愿意以可承受成本持续付费"这一商业模式风险，往往比"产品功能是否完备、体验是否优秀"的产品风险更致命，团队却常把后者当成主要敌人 [conf=0.80, source=王语嫣 synthesis_yitang.md]。

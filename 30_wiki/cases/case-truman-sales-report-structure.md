@@ -1,11 +1,9 @@
 ---
-
-
 id: case-truman-sales-report-structure
 title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 type: case
 status: enriched
-problem_domains: &id001
+problem_domains:
 - src_unknown
 - src_unknown
 industry: 通用
@@ -38,15 +36,17 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 domain:
-  - 工作汇报
-  - 复盘结构化
+- 工作汇报
+- 复盘结构化
 related:
-  - [[dk-modeling-logical-cleanliness-root]]
-  - [[dk-modeling-checklist-formatting-rules]]
-  - [[case-modeling-essence-levels]]
-  - [[framework-logic-cleanliness-five-levels]]
-  - [[tool-ai-skill-engineering-method]]
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
 ---
+
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 
 ## 原始表述

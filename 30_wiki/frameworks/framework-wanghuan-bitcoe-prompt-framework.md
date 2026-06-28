@@ -21,11 +21,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-wanghuan-ai-business-profile]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +42,8 @@ diagnostic_signals:
   follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
 - lens: 上下文工程缺失
   follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
-
 ---
+
 # 王欢BITCOE提示词框架
 
 > **Burn line**: BITCOE 不是公式，是消灭模糊的思维习惯。

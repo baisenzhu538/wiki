@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dk
@@ -13,19 +10,18 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
 related:
-- [[dk-modeling-course-rnd-ripe-fruit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[dk-modeling-question-scaffold-not-answer]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[dk-modeling-timely-review-session-window]]
-- [[dk-modeling-sop-execution-locks]]
-- [[tool-sop-template-modeling]]
-- [[modeling-three-stages]]
-- [[dk-modeling-course-rnd-ripe-fruit]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
 tags:
 - src_unknown
 - src_unknown
@@ -34,8 +30,9 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-17'# 里程碑不是任务清单，是“成对单元模型”拼出来的
+updated_at: '2026-06-17'
 ---
+
 ## diagnostic_signals
 
 - src_unknown

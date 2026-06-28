@@ -1,5 +1,4 @@
 ---
-
 id: tool-科学学习IPO完整清单
 title: 科学学习IPO完整清单：Input-Process-Output学习系统
 type: tool
@@ -10,22 +9,18 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md
 related:
-  - [[tool-最佳实践池子]]
-  - [[concept-美好作品想象]]
-  - [[concept-最佳实践建模]]
-  - [[tool-审美工具箱]]
-  - [[concept-稀缺机会窗口]]
-  - [[tool-科学提问刻意练习]]
-  - [[concept-单元模型-学练用]]
-  - [[framework-TCPR底层网络协议]]
-  - [[concept-思考深度分级]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 科学学习IPO完整清单
 
 ## 一句话定义

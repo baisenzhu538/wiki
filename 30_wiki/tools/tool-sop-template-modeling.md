@@ -27,19 +27,21 @@ diagnostic_signals:
 - framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[yt-decision-y-model-philosophical-roots]]'
+- '[[case-modeling-process-sop-evolution]]'
+- '[[case-livestream-sop-modeling]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
+- '[[case-modeling-process-sop-examples]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # SOP/模板建模法：把关键动作固化成标准工作流
 
 > **Burn line**: SOP 不是“写出来给别人看”，而是“写到别人能无脑执行”。

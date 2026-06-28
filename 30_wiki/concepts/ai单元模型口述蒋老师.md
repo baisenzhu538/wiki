@@ -1,43 +1,12 @@
 ---
-
-
-
-id: ai单元模型口述蒋老师
-confidence: 0.85
-created_at: 2026-05-25
-difficulty: intermediate
-domain:
-- healthcare
-event: 一堂AI落地行动营第三期（最后一期内测），2026-05
-language: zh-CN
 related:
-- [[yt-tool-unit-model-ai-assisted]]
-- [[ocr-一堂-单元模型-斧子尺子梯子]]
-- [[ocr-一堂-单元模型-tcpr底层网络协议]]
-- [[ocr-一堂-单元模型-扭蛋机案例]]
-- [[yt-unit-model-three-tools]]
-- [[yt-unit-model-overview]]
-- [[yt-unit-model-construction]]
-- [[yt-unit-model-ladder]]
-- [[yt-unit-model-dynamic]]
-- [[yt-model-dual-triangle-competitiveness]]
-- [[yt-decision-y-model]]
-- [[ai时代判断力口述-3]]
-source_refs:
-  - pending_archive:src_20260525_92ea6173-ai单元模型口述蒋老师
-- src_20260525_92ea6173-ai单元模型口述蒋老师
-speaker: 蒋老师（磊哥），一堂合伙人、教练
-status: enriched
-title: AI+单元模型口述（蒋老师/磊哥）
-type: concept
-updated_at: '2026-06-16'
-pipeline:
-- src_unknown
-- src_unknown
-author: unknown
-reviewed_by: 欧阳锋
-trust_level: medium-high# AI+单元模型口述（蒋老师/磊哥）
+- '[[yt-unit-model-overview]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-ladder]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 > **一句话定位**：单元模型是商业可行性的最后一道防线——AI的角色不是替人算账，而是陪人拆解。人必须守住判断权。
 
 

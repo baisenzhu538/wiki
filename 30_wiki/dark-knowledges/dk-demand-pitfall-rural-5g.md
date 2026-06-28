@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-demand-pitfall-rural-5g
 title: 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 type: dk
@@ -9,17 +7,20 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-- [[dk-demand-pitfall-indonesia-insurance]]
-- [[dk-demand-pitfall-dialer]]
-- [[dk-demand-pitfall-travel-agent]]
-- [[dk-strategy-05-positioning-trap]]
-- [[dk-demand-pitfall-financial-literacy]]
-- [[case-demand-rural-5g]]
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 
 ## 原始表述

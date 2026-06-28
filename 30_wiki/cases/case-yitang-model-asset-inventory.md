@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -46,7 +43,8 @@ domain:
 - src_unknown
 diagnostic_signals:
 - lens: 模型资产黑箱
-  follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入 20-30 个范式
+  follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入
+    20-30 个范式
 - lens: 模型可发现性差
   follow_up: 建立武器库索引，每个范式标注适用问题、典型案例、边界条件和使用 checklist
 - lens: 重复发明轮子
@@ -54,19 +52,14 @@ diagnostic_signals:
 - lens: 伪创新
   follow_up: 新模型上线前做一次“范式匹配审查”，要求证明它无法被已有 20-30 个范式表达
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[case-yitang-model-valuation-flywheel]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 
 ## 原始表述

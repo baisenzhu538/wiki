@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-insider-intelligence
 title: 武器库策略5：内部人情报——员工/离职员工的信息价值
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-people-network-database]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-job-intelligence-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略5：内部人情报
 
 > 公司内部的人——在职的、离职的、知道内情的——是最有价值的信息源。

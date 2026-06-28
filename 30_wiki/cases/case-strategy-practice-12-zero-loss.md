@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,15 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **冉鹏实操**：新开店零亏损→大店年均盈利300万→2015年后无亏损店
 **方法**：吃饱期的标准化复制——每开一家新店必须严格按模型执行，不达标不开
 **核心洞察**：吃饱期的关键是"复制模型"而非"创新模型"

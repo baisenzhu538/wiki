@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dk
@@ -15,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[tool-马易-AI落地场景筛选-四有新人法则]]
-- [[label-accuracy-standard-alignment]]
-- [[dk-p17-accuracy-gap]]
-- [[labeling-research-alignment]]
-- [[dk-p15-unverified]]
-- [[master-decision-hygiene]]
-- [[master-ai-info-literacy]]
-- [[master-systems-thinking]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-014：准确率声明的测量口径不一致
 ---
+
 ## 原始表述/核心洞察
 
 > **原始表述**：在 KDO 项目 failure-modes 中记录为 F-KDO-014——声称某个工具、流程或 AI Agent 的"准确率"时，没有明确测量方法。

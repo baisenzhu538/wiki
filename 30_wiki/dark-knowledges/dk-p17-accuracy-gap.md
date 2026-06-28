@@ -1,8 +1,6 @@
 ---
-
-
 id: dk-p17-accuracy-gap
-title: 'P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度'
+title: P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度
 type: dk
 dark_knowledge_type: failure
 status: enriched
@@ -15,16 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[gold-standard-manual-labels]]
-- [[dk-f14-accuracy-measurement-mismatch]]
-- [[label-accuracy-standard-alignment]]
-- [[dk-p15-unverified]]
-- [[labeling-research-alignment]]
-- [[dk-p15-unverified]]
-- [[dk-f14-accuracy-measurement-mismatch]]
-- [[master-decision-hygiene]]
-- [[master-ai-info-literacy]]
-- [[gold-standard-manual-labels]]
+- '[[ouyangfeng-labeling-research-review]]'
+- '[[data-labeling-best-practices-report]]'
+- '[[ocr-项目背景问题思考的8个维度]]'
+- '[[dk-ai-social-progress-not-automatic]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[dk-c7-auto-backup-conflict]]'
+- '[[labeling-final-consolidation]]'
+- '[[label-accuracy-standard-alignment]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -37,6 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：黄药师说"提示词调优后准确率做到了85%"。欧阳锋用 Gold Standard（15条手工标注 chunk）独立验证，实测34.8%（47/135）。差距巨大。黄药师的"85%"只算了管线实际在标的 4 个维度（chunk_type/method_family/audience/perspective），忽略了另外 5 个维度（platform/confidence/prerequisite_knowledge/expiry/usage_depth）全线 `<missing>`。

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-expert-consensus-five-percent
 title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 type: dk
@@ -22,19 +21,18 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- [[framework-course-milestone-model]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[case-thousand-people-square]]
-- [[sk-ai-question-problem-checklist]]
-- [[concept-thousand-people-square]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-three-stages]]
-- [[dk-modeling-counterexample-driven]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-泛产品设计-落地卡片-灵感闪现]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[framework-高水平共识曲线]]'
+- '[[ocr-一堂-科学决策-高水平共识曲线重要]]'
+- '[[tool-月白-灵感画布建立法]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述 / 核心洞察
 
 > "因为这 5% 的人本质上决定了一堂课的最大公约数，一堂课不是我做出来的，是 5% 的专家共识出来的，而且 5% 的专家就是足够实事求是的，实事求是，实事求是非常重要。" —— Truman，`src_20260614_8269ccdb#2162`

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-foresight-source-material-blindness
 title: 暗知识：素材命名不一致导致完整口述稿被遗漏
 type: dk
@@ -36,11 +33,15 @@ author: 欧阳锋
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-- [[dk-f10-broken-source-refs]]
-- [[dk-f2-txt-ingest-skip]]
-- [[tool-yitang-public-sentiment-research]]
-- [[dk-c3-txt-ingest-skip]]
+- '[[tool-yitang-supply-chain-research]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 ---
+
 - [[tool-yitang-supply-chain-research]]
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

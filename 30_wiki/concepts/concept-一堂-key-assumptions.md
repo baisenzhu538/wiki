@@ -1,43 +1,12 @@
 ---
-
-
-
-
-id: concept-一堂-key-assumptions
-title: 关键假设思维：259工具与假设驱动的创业方法
-type: concept
-status: reviewed
-reviewed_by: 周伯通
-domain:
-- product
-- yitang
-source_person: Truman
-source_context: 一堂关键假设课（2026年）
-source_refs:
-  - pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
-- src_20260606_9dd317aa-一堂-关键假设课-truman-口述
-created_at: 2026-06-09
-updated_at: '2026-06-16'
 related:
-- [[yt-five-step-method]]
-- [[case-proya-betaine-skincare-benchmark]]
-- [[yt-model-five-step-canvas]]
-- [[ocr-一堂五步法画布]]
-- [[concept-一堂-hypothesis-driven-business-methodology]]
-- [[concept-一堂-hypothesis-driven-business-methodology]]
-- [[concept-一堂-product-kernel]]
-- [[yt-foresight-15-char-mantra]]
-- [[case-一堂-无人餐厅-hypothesis-failure]]
-wiki_refs:
-- src_unknown
-- src_unknown
-pipeline:
-- src_unknown
-- src_unknown
-author: 黄药师
-confidence: 0.7
-trust_level: medium# 关键假设思维：259工具与假设驱动的创业方法
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 > 黄药师骨架 · 老顽童填内容
 
 ## 定义

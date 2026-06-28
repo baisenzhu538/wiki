@@ -1,43 +1,12 @@
 ---
-
-id: tool-纪浩-AI对话上下文隔离
-title: 技能：AI 对话上下文隔离
-type: tool
-status: enriched
-domain:
-- ai-collaboration
-- yitang- ai-collaboration
-source_person: 纪浩
-source_context: AI协作方法论
-source_refs:
-  - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
-- src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
-wiki_refs:
-- src_unknown
-- src_unknown
-definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
-tools_required:
-- src_unknown
-- src_unknown
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-wanghuan-magic-defeats-magic]]
-- [[ai-collaboration-mindset-shift]]
-created_at: 2026-06-07
-updated_at: '2026-06-16'
-reviewed_by: 黄药师
-confidence: 0.8
-pipeline:
-- src_unknown
-author: 纪浩
-trust_level: medium-high# 技能：AI 对话上下文隔离
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
 
 - src_unknown

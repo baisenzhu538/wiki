@@ -1,5 +1,4 @@
 ---
-
 id: tool-reverse-image-search
 title: 反向图片搜索：追踪图片来源和真实性
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-media-verification-overview]]
-  - [[tool-alt-data-free]]
-  - [[tool-agent-native-overview]]
-  - [[tool-osint-wayback]]
-  - [[tool-alt-data-overview]]
-  - [[tool-osint-overview]]
-  - [[tool-media-verification-overview]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 反向图片搜索
 
 > 竞对官网上的"团队合影"真是他们团队？他们展示的"客户案例"图是从网上扒的？反向图片搜索追踪每一张图的真实来源。

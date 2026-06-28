@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-industry-scan
 title: 行业扫描：快速建立行业全貌认知
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
@@ -29,22 +28,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[tool-yitang-research-best-practice]]
-  - [[framework-doris-industry-report-4step]]
-  - [[business-research-skill-oscar-13-weapon-system]]
-  - [[system-yitang-research-workflow]]
-  - [[tool-yitang-research-validate-assumption]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-company-disassembly]]
-  - [[tool-yitang-research-competitor-tracking]]
-  - [[yt-research-industry-canvas]]
-  - [[framework-doris-industry-report-4step]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-research-ai-hallucination]]
-  - [[concept-yitang-research-mindset]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 行业扫描：快速建立行业全貌认知
 
 > **一句话**：进入新行业前，用1-2天完成行业扫描，建立行业全貌认知。不是深度调研，而是快速画出行业地图，识别机会和威胁。

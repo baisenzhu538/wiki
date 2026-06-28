@@ -19,19 +19,11 @@ updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-modeling-ai-iterative-prompting]]
-- [[case-ai-assisted-review]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-capability-system]]
-- [[modeling-three-stages]]
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-iterative-prompting]]
-- [[case-truman-ai-skill-engineering-guide]]
-- [[case-truman-personal-growth-map-creation]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -42,6 +34,7 @@ reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
 ---
+
 ## 原始表述
 
 > 过早用 AI 帮你建模，会导致你很难学会。因为 AI 怎么建看着都还不错，但是你自己其实判断不了它建得好不好，而且大概率就不行。我春节做高阶 Skill 设计指南时，全程是 AI 干活，但我一直盯着它挑毛病：为什么没有顺序？为什么不 MECE？为什么没有逻辑链？我一路喷了十几轮，直到我喷不动为止。最后又用两个友商的报告去撞它，吸收优点。很多人用 AI 建模的问题在于：他们没有逻辑洁癖，看不出 AI 生成的模型哪里不好，于是拿一个“看着还行”的东西就开始用。这是最危险的。

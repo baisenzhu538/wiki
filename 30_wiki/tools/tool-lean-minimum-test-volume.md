@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-minimum-test-volume
 title: 只测试最小数量
 type: tool
@@ -10,28 +9,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212431_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212431_vlm_desc.md
 - 00_inbox/精益创业/一堂DOC-20260622212440_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212440_vlm_desc.md
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-stealth-service]]
-  - [[tool-lean-minimum-version]]
-  - [[tool-lean-cut-features]]
-  - [[tool-lean-presell]]
-  - [[framework-lean-false-model]]
-  - [[tool-lean-minimum-version]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[framework-lean-six-wastes]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 只测试最小数量
 
 > 把“验证范围”压缩到单次实验真正需要的最小规模，用更少的用户、更少的库存、更少的门店、更少的 SKU 验证同一个关键假设。

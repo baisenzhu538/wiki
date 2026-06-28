@@ -36,12 +36,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 related:
-- [[tool-按分阶练习路径渐进掌握方法]]
-- [[ocr-泛产品设计-落地卡片-假设拆解]]
-- [[case-xiaolong-ecommerce-foresight]]
-- [[case-truman-yitang-foresight]]
-- [[yt-foresight-addition-subtraction]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景

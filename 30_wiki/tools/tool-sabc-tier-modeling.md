@@ -20,11 +20,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[case-yitang-weekly-modeling-engine]]'
+- '[[modeling-three-values]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -38,8 +38,8 @@ diagnostic_signals:
   follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
 - framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
   follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
-
 ---
+
 # SABC分级/段位图建模法：给事物排优先级与成长路径
 
 ## 用一句话讲清楚

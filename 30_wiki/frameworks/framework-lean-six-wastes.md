@@ -9,24 +9,25 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
-  - 00_inbox/精益创业/一堂-精益创业-浪费六宗罪-01_ocr_text.md
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
-  - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
+- 00_inbox/精益创业/一堂-精益创业-浪费六宗罪-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
+- 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 related:
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[concept-一堂-kernel-validation]]
-  - [[tool-泛产品落地-低成本测试MVP]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 创业六宗罪 / 六大浪费
 
 ## 一句话定义

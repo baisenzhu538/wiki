@@ -8,11 +8,20 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **表面问题**：转型内容平台后用户流失
 **战略根因**：资源短缺——版权库太弱。与头部平台的内容储备差距无法靠运营弥补
 **问题类型**：九问题 #8 资源短缺

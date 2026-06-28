@@ -22,24 +22,19 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: high
 related:
-- [[case-offline-catering-formula]]
-- [[case-dental-clinic-formula]]
-- [[case-toc-content-platform-correlation-trap]]
-- [[yt-management-business-formula]]
-- [[case-private-domain-ecommerce-formula]]
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-six-level-logic]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-business-pattern-selector]]
-- [[yt-business-formula-qualitative-metrics-library]]
-- [[case-toc-ecommerce-formula-misjudgment]]
-- [[case-gym-membership-formula]]
-- [[case-toc-content-platform-correlation-trap]]
-- [[case-hr-saas-feature-usage-trap]]
+- '[[yitang-domain-digest]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-AI需求拆解咨询法]]'
+- '[[ocr-一堂-案例拆解-课程清单]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
 tags: []
 author: 欧阳锋
 confidence: 0.85
 ---
+
 ## 原始表述
 
 > “拆解参数关系的正确顺序：先切分（+），再拆转化（×）。”

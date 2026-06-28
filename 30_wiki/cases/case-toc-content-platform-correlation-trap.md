@@ -30,16 +30,14 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-- [[dk-yitang-business-formula-plus-times-trap]]
-- [[case-offline-catering-formula]]
-- [[case-dental-clinic-formula]]
-- [[yt-management-business-formula]]
-- [[case-private-domain-ecommerce-formula]]
-- [[yt-business-formula-abc-model]]
-- [[dk-yitang-business-formula-plus-times-trap]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-qualitative-metrics-library]]
+- '[[yitang-domain-digest]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
+- '[[tool-yitang-stock-data]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[obsidian-git-sync-protocol]]'
 ---
+
 # ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个月 GMV 800 万、付费用户 3 万的内容付费平台，团队把“流量和转化率正相关”当成因果，加大投放后 ROI 崩盘。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

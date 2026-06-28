@@ -11,21 +11,17 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - [[case-doris-grab-industry-cognition]]
-  - [[case-yitang-competitor-pricing-intelligence]]
-  - [[case-zhanglan-amusement-park-undercover]]
-  - [[case-yitang-hardware-factory-photo]]
-  - [[case-yitang-supplier-security-guard]]
-  - [[framework-yitang-high-level-execution]]
-  - [[dk-yitang-digging-belief]]
-  - [[tool-yitang-job-intelligence-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：从信息碎片拼出赛道真相
 
 **人物**：刘涛（化名），被Truman形容为"聪明人各有各的聪明法"。

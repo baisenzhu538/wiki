@@ -1,5 +1,4 @@
 ---
-
 id: tool-doris-industry-report-search-tips
 title: 行业报告搜索七技：三级搜索能力+渠道清单
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: basic
 estimated_tokens: 2000
 version: 1
@@ -27,15 +26,13 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - [[tool-yitang-job-intelligence-research]]
-  - [[tool-yitang-weapon-media-search]]
-  - [[framework-doris-industry-report-4step]]
-  - [[tool-google-dorking]]
-  - [[tool-yitang-industry-report-search]]
-  - [[framework-doris-industry-report-4step]]
-  - [[tool-doris-industry-report-source-evaluation]]
-  - [[tool-yitang-database-index]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 行业报告搜索七技：三级搜索能力+渠道清单
 
 > **一句话**：Doris的方法——7天内通过行业报告建立完整行业认知。关键是三级搜索能力：关键词搜索→增加限制词→按图索骥。

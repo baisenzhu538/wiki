@@ -1,30 +1,32 @@
 ---
-
-
-id: "视觉prompt三层操作系统-srom-visual-os"
+id: 视觉prompt三层操作系统-srom-visual-os
 created_at: 2026-05-21
 domain:
-  - ai-saas
-  - design
+- ai-saas
+- design
 source_refs:
 - src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os
 status: enriched
-title: "视觉Prompt三层操作系统 (SROM Visual OS)"
+title: 视觉Prompt三层操作系统 (SROM Visual OS)
 type: concept
 updated_at: 2026-06-12
 pipeline:
-  - src_unknown
-author: "月白"
-reviewed_by: "欧阳锋"
+- src_unknown
+author: 月白
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[business-analysis]]
-  - [[ocr-一堂-单元模型-找基准值实操难点]]
-  - [[learning-thinking]]
-  - [[dk-yb11-visual-book-reverse]]
-  - [[product-ux]]
+- '[[proposal-prompt-injection-infrastructure]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-prompt-jtbd-scenario-coach]]'
+- '[[yt-prompt-brainstorming]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[meta-prompt-eng]]'
 ---
+
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 
 ## Summary

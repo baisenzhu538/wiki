@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-four-elements-validation
 title: 技能：真需求四要素验证法
 type: tool
@@ -15,10 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-真需求四要素验证法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -48,6 +48,7 @@ diagnostic_signals:
 - lens: 验证瘫痪
   follow_up: 设定验证时间上限（15分钟）。四要素是快速筛选工具，不是完美主义陷阱
 ---
+
 # 技能：真需求四要素验证法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

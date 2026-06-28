@@ -19,9 +19,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -39,8 +39,8 @@ diagnostic_signals:
   follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 - lens: 把 AI 当演员工具而非导演系统
   follow_up: 检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器
-
 ---
+
 # 王欢案例：教育机构用 PACED 还原销冠决策链
 
 > **Burn line**: 正确的话术在错误的时机说出，仍然是错的；销冠的价值不在台词，而在判断。

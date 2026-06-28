@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-  - human-ai-collaboration
-  - ai-collaboration
-  - yitang
+- human-ai-collaboration
+- ai-collaboration
+- yitang
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -30,15 +30,13 @@ diagnostic_signals:
   lens: implicit-standard-drift
   follow_up: 用多模型/多角色对同一标准打分，取交集作为团队共享标准
 related:
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[dk-modeling-ai-compound-leverage]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[tool-wanghuan-ai-dual-role-coach]]
-  - [[concept-wanghuan-tacit-knowledge-examples]]
-  - [[tool-wanghuan-ai-business-profile]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-gan-three-roles]]
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 tags:
 - src_unknown
 - src_unknown
@@ -47,6 +45,7 @@ tags:
 - src_unknown
 review_date: '2026-06-28'
 ---
+
 # 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 
 > **Burn line**：没有标准时，别急着让 AI 给答案，先让 AI 帮你把标准长出来。

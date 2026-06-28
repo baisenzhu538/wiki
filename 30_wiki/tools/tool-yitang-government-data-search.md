@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-government-data-search
 title: 国家数据查询：最权威的宏观数据来源
 type: tool
@@ -8,23 +7,22 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-hardware-product-disassembly]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-third-party-database]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-weapon-third-party-database]]
-  - [[tool-yitang-database-index]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 国家数据查询
 
 > 国家统计局/工信部/央行/各地统计局——最权威、最不被质疑的数据来源。

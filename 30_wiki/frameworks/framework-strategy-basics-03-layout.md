@@ -7,12 +7,20 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+related:
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 **五件事**：
 - src_unknown
 - src_unknown

@@ -15,11 +15,11 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-management-goal-management]]'
+- '[[yt-tool-strategy-workshop]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -50,8 +50,8 @@ diagnostic_signals:
 - framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破
   follow_up_question: 完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？
 author: 老顽童
-
 ---
+
 # OKR 制定与复盘罗盘
 
 > 来源：从 [[yt-management-goal-management]] 概念卡萃取的工具内核。一套季度 OKR 全周期操作工具——从目标对齐到关键结果量化到周度脉搏到季度复盘，防止 OKR 沦为 KPI 换皮。

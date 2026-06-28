@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 type: dk
@@ -13,19 +10,15 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-wanghuan-magic-defeats-magic]]
-- [[dk-modeling-ai-without-judgment]]
-- [[dk-modeling-ai-self-retrospection]]
-- [[modeling-three-values]]
-- [[case-truman-ai-skill-engineering-guide]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -50,6 +43,7 @@ diagnostic_signals:
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 ---
+
 ## 原始表述
 
 > 建模能力是很有可能是 AI 在商业决策领域给你们加杠杆加的最多的……AI 可以帮你们整理一个笔记、做个决策、做调研，这些的复利性很差……因为建模是经验的资产化，它构建模型未来是要大量被调用的，它的价值特别高。

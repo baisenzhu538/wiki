@@ -22,11 +22,11 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[concept-wanghuan-adversarial-generation]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - lens: 系统瓶颈 vs. 工具瓶颈
   follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
@@ -43,8 +43,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 
 > **Burn line**: 程序员不是写代码的人，是让 AI 把代码写好的人。

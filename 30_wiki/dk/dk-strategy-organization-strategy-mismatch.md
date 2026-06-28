@@ -1,38 +1,25 @@
 ---
-
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[dk-research-triangulation-stop-rule]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-research-triangulation-stop-rule]]
-  - [[dk-research-decision-first-mapping]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[strategy-domain-digest]]
-  - [[framework-strategy-brm]]
-  - [[framework-strategy-mckinsey-7s]]
-  - [[tool-strategy-nine-problems]]
-  - [[case-strategy-failure-05-it]]
-  - [[case-strategy-failure-06-phone-n]]
-  - [[case-strategy-failure-07-phone-l]]
-  - [[case-strategy-failure-08-video]]
-  - [[case-strategy-failure-09-boeing]]
+- '[[case-strategy-failure-05-it]]'
+- '[[case-strategy-failure-06-phone-n]]'
+- '[[case-strategy-failure-07-phone-l]]'
+- '[[case-strategy-failure-08-video]]'
+- '[[case-strategy-failure-09-boeing]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 组织能力与战略方向不匹配
 
 > 一句话定义：战略方向本身正确，但组织在共识、结构、能力、资源或激励机制上无法承载该方向，导致执行变形甚至战略目标落空。[conf=0.80, source=王语嫣 synthesis_strategy.md]

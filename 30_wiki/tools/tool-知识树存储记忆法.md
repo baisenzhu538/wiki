@@ -14,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -43,8 +43,8 @@ diagnostic_signals:
   follow_up: 树的高度取决于根的深度。不看笔记就说不清楚核心，说明那不是你的知识树
 - lens: 结构混乱
   follow_up: 任意一个枝干，10秒内能找到它的根（属于哪个主干）。结构混乱的知识树无法有效提取
-
 ---
+
 # 技能：知识树存储记忆法
 
 ## 原始表述

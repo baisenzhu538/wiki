@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -8,23 +7,23 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
 related:
-  - [[case-demand-financial-literacy]]
-  - [[case-demand-restaurant-hiring]]
-  - [[case-demand-rural-5g]]
-  - [[dk-demand-pitfall-tier4-housekeeping]]
-  - [[dk-demand-misjudgment-rate]]
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l6-hypothesis]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-科学决策-决策三角形]]'
+- '[[tool-提升笔记练习频次的方法]]'
+- '[[tool-项目方案评估三角形]]'
+- '[[framework-科学决策三角形]]'
+- '[[ocr-一堂-科学决策-项目方案评估三角形]]'
 ---
+
 # 需求评估三角形
 
 > L6产出机会卡片后，用评估三角形做Go/No-Go判断。三个维度相乘：普遍性×频次×刚性=需求强度。

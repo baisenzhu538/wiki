@@ -1,15 +1,11 @@
 ---
-
-
-
-
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -26,17 +22,11 @@ source_refs:
 - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
 - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-five-step-method]]'
+- '[[yt-market-size-estimation]]'
+- '[[yt-unit-model-build]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具
@@ -61,8 +51,8 @@ diagnostic_signals:
 - framework_lens: 阶段顺序 / 反脆弱
   follow_up_question: 是否在单元模型未跑通前就开始扩张？
 author: 老顽童
-
 ---
+
 # 单元模型：商业模式评估的核心工具
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[yt-unit-model-build]] | [[case-unit-model-gashapon]]

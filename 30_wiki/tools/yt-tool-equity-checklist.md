@@ -1,6 +1,4 @@
 ---
-
-
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
@@ -17,15 +15,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-tool-meeting-designer]]
-  - [[yt-tool-project-health-radar]]
-  - [[yt-pitch-storytelling]]
-  - [[case-yitang-radar-chart-selection]]
-  - [[dk-modeling-radar-model-not-result]]
-  - [[yt-management-business-formula]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-management-goal-management]]
-  - [[yt-tool-strategy-workshop]]
+- '[[yt-management-business-formula]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-management-partnership-equity]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -51,8 +45,8 @@ updated_at: '2026-06-16'
 estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
-
 ---
+
 # 股权设计检查清单
 
 > 从 [[yt-management-business-formula]] 和 [[yt-entrepreneur-lean-validation]] 萃取的公司治理工具。不是“分股比例怎么切”的财务计算，而是一套在“绑定”前检查关系健康度的“婚前协议”——**80% 的创业团队分裂不是因为业务失败，而是因为股权没说清楚**。

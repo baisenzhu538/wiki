@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-security-guard-intel
 title: 保安/门卫情报：非正式但有效的信息源
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-app-store-review]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-insider-intelligence]]
-  - [[case-yitang-supplier-security-guard]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 保安/门卫情报
 
 > 保安24小时在厂里，而且往往是老板亲戚。他是被严重低估的情报源。

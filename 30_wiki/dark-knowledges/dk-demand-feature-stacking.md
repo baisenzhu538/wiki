@@ -11,19 +11,20 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - [[dk-yitang-expert-interview-5-traps]]
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[framework-demand-iceberg]]
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-switching-cost]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 updated_at: 2026-06-28
 ---
+
 # 功能堆叠陷阱：加功能≠满足需求
 
 ## 原始表述

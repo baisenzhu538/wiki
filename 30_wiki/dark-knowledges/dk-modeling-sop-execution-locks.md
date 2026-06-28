@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dk
@@ -13,23 +10,21 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模案例），2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 related:
-- [[case-modeling-process-sop-evolution]]
-- [[case-truman-livestream-sop-iteration]]
-- [[tool-sop-template-modeling]]
-- [[case-modeling-process-sop-examples]]
-- [[case-zhangyang-anchor-sop-three-locks]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-three-stages]]
-- [[process-modeling]]
-- [[case-zhangyang-anchor-sop-three-locks]]
-- [[case-modeling-process-livestream-prep]]
+- '[[yitang-domain-digest]]'
+- '[[tool-sop-template-modeling]]'
+- '[[yt-decision-y-model-philosophical-roots]]'
+- '[[case-modeling-process-sop-evolution]]'
+- '[[case-livestream-sop-modeling]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
+- '[[case-modeling-process-sop-examples]]'
 tags:
 - src_unknown
 - src_unknown
@@ -50,8 +45,10 @@ diagnostic_signals:
   follow_up_question: 除了责备执行者，我们能不能补一个监控 SOP，让检查成为流程本身？
 - signal: src_unknown
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
-  follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+  follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP
+    加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 ---
+
 ## 原始表述
 
 > 张扬做主播培训时，如果版本 1 只给主播写 SOP，靠主播自己自觉拿着单子执行，最多也就执行了 50% 到 70%。版本 2 加了一个督导的角色，专门有一个人督促主播在旁边记，这儿做了、这儿没做，相当于一堆主播加了几个督导，督导用来督促主播，瞬间执行就能到 70% 到 90%。版本 3 再加一个总品控督导，几乎就能做到百分之百。加了两层锁之后，SOP 已经很难再失手——主播不靠谱、督导不靠谱、品控不靠谱，三个人同时不靠谱，最后才能漏掉。

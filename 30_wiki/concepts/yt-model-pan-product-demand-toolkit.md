@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
@@ -23,15 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
@@ -50,8 +42,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 ## Constraints & Boundaries
 
 ### 适用边界

@@ -22,9 +22,12 @@ source_refs:
 - pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
 - pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 tags:
 - src_unknown
 - src_unknown
@@ -47,8 +50,8 @@ diagnostic_signals:
   follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
 - lens: 领域知识层缺失或不足
   follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
-
 ---
+
 # 案例：一堂数据库 vs SQLHelper
 
 > **原始表述**：

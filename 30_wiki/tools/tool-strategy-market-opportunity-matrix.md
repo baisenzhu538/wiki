@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-market-opportunity-matrix
 title: 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
 type: tool
@@ -16,18 +15,13 @@ created_at: '2026-06-22'
 updated_at: '2026-06-22'
 reviewed_by: 欧阳锋
 related:
-  - [[framework-strategy-ansoff]]
-  - [[tool-strategy-core-competence-matrix]]
-  - [[tool-strategy-logistics-cost-planning]]
-  - [[framework-strategy-kai-innovation-directions]]
-  - [[tool-strategy-value-proposition]]
-  - [[tool-strategy-customer-selection]]
-  - [[tool-strategy-value-proposition]]
-  - [[tool-strategy-activity-scope]]
-  - [[tool-strategy-blue-ocean-canvas]]
-  - [[framework-strategy-business-design]]
-  - [[framework-strategy-five-forces]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
 
 > 市场机会不是"市场大不大"这么简单。这个矩阵强迫你同时回答：需求真实吗？竞争格局允许吗？你的能力匹配吗？机会成本高吗？窗口期够吗？进去后用什么"绝招"赢？

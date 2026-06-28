@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -22,10 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown：动力三曲线 × 十大浪费触点
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-management-conversion-hacking]]'
+- '[[yt-entrepreneur-growth-flywheel]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂
@@ -48,8 +45,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 转化率优化：动力三曲线 × 十大浪费触点
 
 > 来源：一堂知识地图《最佳转化率·动力三曲线》+《10大最易浪费触点》。[[yt-management-conversion-hacking]] | [[yt-entrepreneur-growth-flywheel]] | [[一堂]]

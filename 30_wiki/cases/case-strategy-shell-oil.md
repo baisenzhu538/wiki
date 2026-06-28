@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,13 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂-单元模型-动态预测]]'
+- '[[tool-月白-服务体验类去AI感设计]]'
+- '[[tool-采用滚动预测机制]]'
 ---
+
 **转型**：原油价值链突变→预测未来市场规模萎缩→提前从生产转向服务
 **核心洞察**：不是"等到不行了再转"——壳牌在原油还在赚钱时就启动了转型。吃撑期转型的第一原则：在旧引擎还能跑的时候就开始找新引擎
 

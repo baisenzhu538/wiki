@@ -11,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[tool-yitang-public-information-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 多数情报可通过公开信息深挖获得
 
 > 你以为需要"内线"才能拿到的信息，80%其实在公开渠道里——只是你没有深挖。

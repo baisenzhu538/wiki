@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
   follow_up_question: 你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的规模经济是局部的还是全局的？如何扩展到更大市场？
 - framework_lens: 规模经济——成本优势需要转化为用户价值
   follow_up_question: 你的成本优势是否转化为价格优势或质量优势？用户是否感知？
-
 ---
+
 # 规模经济：成本优势
 
 > 一堂五步法：规模经济是成本壁垒。规模越大，单位成本越低，价格越有竞争力。

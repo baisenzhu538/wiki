@@ -1,5 +1,4 @@
 ---
-
 id: dk-f1-regex-on-cjk
 title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 type: dk
@@ -14,16 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-28'
 related:
-- [[kdo-ec-industrialization-migration-proposal]]
-- [[dk-c1-cjk-regex-silent-fail]]
-- [[sprint-2-gate-enrich-evidence]]
-- [[dk-f6-cjk-skeleton-corruption]]
-- [[dk-c4-selfcheck-superseded]]
-- [[dk-c1-cjk-regex-silent-fail]]
-- [[dk-f2-txt-ingest-skip]]
-- [[dk-f6-cjk-skeleton-corruption]]
-- [[dk-p11-regex-cutoff]]
-- [[master-ai-info-literacy]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[dk-f6-cjk-skeleton-corruption]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -45,6 +42,7 @@ diagnostic_signals:
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
 review_date: '2026-06-28'
 ---
+
 ## 原始表述
 
 > **触发命令**：`kdo enrich --all`

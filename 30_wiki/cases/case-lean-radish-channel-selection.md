@@ -1,35 +1,27 @@
 ---
-
 id: case-lean-radish-channel-selection
 title: 萝卜干渠道选择预判复盘
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - lean-startup
-  - yitang
+- lean-startup
+- yitang
 source_person: 一堂课程讲师/学员（教学复盘案例）
 source_context: 一堂精益创业·低成本验证与渠道规划课程素材
 source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
 related:
-  - [[case-lean-genki-forest-toolkit]]
-  - [[framework-lean-abcd-model]]
-  - [[case-lean-medical-device-milestone]]
-  - [[tool-lean-leverage-tools]]
-  - [[case-lean-premature-expansion]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-six-wastes]]
-  - [[case-lean-combination-test-paradigm]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 萝卜干渠道选择预判复盘
 
 ## 核心洞察

@@ -11,19 +11,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - [[case-yitang-doorstep-pet-feeding-trust]]
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[case-yitang-ai-time-management-coach]]
-  - [[case-yitang-homestay-reception-design]]
-  - [[tool-yitang-user-interview-5steps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：陪伴式语音机器人设计
 
 **案例来源**：行动营学员案例——"想做陪伴式语音机器人，怎么设计声音、小程序界面、互动流程？"

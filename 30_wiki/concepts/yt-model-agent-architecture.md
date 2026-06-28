@@ -18,11 +18,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[tool-demand-agent-signal-substitute]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -41,8 +44,8 @@ diagnostic_signals:
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
 updated_at: '2026-06-28'
 author: 老顽童
-
 ---
+
 # 智能体架构：PEAS与五层Agent模型
 
 > 来源：Russell & Norvig《Artificial Intelligence: A Modern Approach》第4版，经AI思维卡深度加工。

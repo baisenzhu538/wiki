@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-four-forces
 title: 四种力量建模：用户切换决策的博弈机制
 type: tool
@@ -8,23 +7,25 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
-  - [[dk-demand-switching-cost]]
-  - [[yt-entrepreneur-needs-analysis]]
-  - [[case-demand-ai-fitness-four-forces]]
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-agent-signal-substitute]]
-  - [[tool-demand-iceberg-l5-forces]]
-  - [[framework-demand-iceberg]]
+- '[[yitang-domain-digest]]'
+- '[[tool-泛产品落地-业务建模]]'
+- '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
+- '[[tool-现场建模式萃取笔记]]'
+- '[[concept-最佳实践建模]]'
+- '[[tool-动手建模法]]'
+- '[[ocr-泛产品设计-落地卡片-业务建模]]'
+- '[[tool-动手建模提炼]]'
 ---
+
 # 四种力量建模
 
 > 用户不换产品不是因为你的产品不够好，是因为(推力+拉力)还没超过(焦虑+习惯)。四种力量是JTBD中判断"用户会不会切换"的核心框架。

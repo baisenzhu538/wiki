@@ -4,20 +4,21 @@ title: 暗知识：AI不会自己搞结构设计
 type: dk
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 related:
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[dk-ban-fei-mao-silky-answer-warning]]
-  - [[dk-wanghuan-magic-defeats-magic]]
-  - [[concept-ji-hao-ai-collaboration-methodology]]
+- '[[dk-ji-hao-simple-complex-routing]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline:
@@ -38,6 +39,7 @@ diagnostic_signals:
   lens: 协作结构未对齐
   follow_up_question: 是否在开始协作前约定好了统一的结构/字段/输出规范？
 ---
+
 # 暗知识：AI不会自己搞结构设计
 
 ## 原始表述

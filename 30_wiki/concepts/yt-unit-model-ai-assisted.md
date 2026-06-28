@@ -20,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -51,8 +51,8 @@ diagnostic_signals:
 - framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-28'
-
 ---
+
 # AI+单元模型：TCP-R双导师与出口式咨询实践
 
 > 来源：一堂《AI+单元模型》专题课。当单元模型的底层方法论建立后，AI 可以如何加速分析、降低门槛、提升质量？本工具提供"TCP-R 双导师"框架和"出口式咨询"实践方法，帮助操盘者用 AI 辅助完成从 L3 到 L6 的单元模型分析。

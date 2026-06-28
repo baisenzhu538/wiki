@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-wayback
 title: Wayback Machine：网站时光机——看竞对的每一个历史版本
 type: tool
@@ -8,24 +7,23 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-firecrawl]]
-  - [[tool-dns-intelligence]]
-  - [[tool-agent-native-overview]]
-  - [[tool-osint-overview]]
-  - [[tool-osint-shodan]]
-  - [[tool-osint-overview]]
-  - [[tool-yitang-weapon-public-official-info]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Wayback Machine：网站时光机
 
 > 看竞对官网的每一个历史版本——什么时候改了定位？什么时候删了产品？什么时候换了团队介绍？这些都是公开的战略信号。

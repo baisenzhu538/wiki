@@ -1,57 +1,12 @@
 ---
-
-domain:
-- growth
-
-
-
-
-id: yt-growth-cycle-model
-confidence: 0.9
-created_at: 2026-06-10
-difficulty: intermediate
-language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-review_date: 2026-06-10
-reviewed_by: "老顷童（精修）"
-source_refs:
-  - pending_archive:src_20260610_8865798f-一堂-一堂五步法-增长-口述
-  - pending_archive:src_20260610_f89d0513-一堂-一堂五步法-增长-增长周期模型
-- src_20260610_8865798f-一堂-一堂五步法-增长-口述
-- src_20260610_f89d0513-一堂-一堂五步法-增长-增长周期模型
-status: reviewed
-title: "增长周期模型"
-trust_level: medium
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: "五步法"
-  course_id: yt-growth-cycle-model
-  course_type: framework
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户在获客增长期就做系统增长的事', 'framework_lens': '周期错配', 'follow_up_question': '你现在最重要的是找到可复制渠道，还是优化转化模型？'}
-  - {'signal': '用户不知道当前处于哪个增长周期', 'framework_lens': '没有周期判断', 'follow_up_question': '你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？'}
-updated_at: 2026-06-13
-author: "老顽童"
 related:
-- [[yt-five-step-implementation]]
-- [[case-toy-cabinet-barrier]]
-- [[case-toy-cabinet-business-model]]
-- [[yt-product-ten-metrics]]
-- [[yt-scale-economy-weapon-library]]
+- '[[yt-five-step-method]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-customer-acquisition-toolkit]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 增长周期模型
 
 > 来源：一堂五步法·增长篇 | [[yt-five-step-method]] | [[yt-unit-model-three-tools]] | [[yt-customer-acquisition-toolkit]]

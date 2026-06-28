@@ -1,5 +1,4 @@
 ---
-
 id: dk-单元模型-找基准值实操难点
 title: 找基准值实操难点
 type: dk
@@ -15,18 +14,16 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找基准值实操难点.md
 related:
-  - [[dk-单元模型-找全成本实操难点]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[dk-单元模型-找单元模型实操难点]]
-  - [[dk-单元模型-规模对抗实操难点]]
-  - [[case-unit-model-gashapon]]
-  - [[yitang-domain-digest]]
-  - [[yt-unit-model-overview]]
-  - [[ai-collaboration-domain-digest]]
-  - [[concept-最简单元模型]]
-  - [[dk-单元模型-找全成本实操难点]]
-  - [[dk-单元模型-找单元模型实操难点]]
+- '[[yitang-domain-digest]]'
+- '[[dk-单元模型-找全成本实操难点]]'
+- '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂-单元模型-找全成本实操难点]]'
+- '[[ocr-一堂-单元模型-规模对抗实操难点]]'
+- '[[ocr-一堂-单元模型-找基准值实操难点]]'
+- '[[dk-单元模型-规模对抗实操难点]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
 ---
+
 # 找基准值实操难点
 
 ## 原始表述

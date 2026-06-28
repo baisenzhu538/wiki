@@ -11,23 +11,20 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[case-strategy-m-brand-profit-model]]
-  - [[tool-yitang-wechat-group-infiltration]]
-  - [[case-zhanglei-nursing-home-family]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[case-liutao-douyin-team-leader-9m]]
-  - [[case-yitang-elderly-home-roleplay]]
-  - [[case-zhanglei-nursing-home-family]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 跨案例模式：多重身份交叉验证
 
 > 横跨10+案例的最强模式——同一目标问题，用3个以上不同身份从不同角度获取信息，然后交叉比对。

@@ -1,30 +1,30 @@
 ---
-
-
 id: design-ai-image-generation
 created_at: 2026-05-21
 domain: yitang
 source_refs:
 - src_20260522_38173b48-design-ai-image-generation
-source_refs:
-  - src_20260522_38173b48-design-ai-image-generation
 status: enriched
-title: "Design / Ai Image Generation"
+title: Design / Ai Image Generation
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - src_unknown
-author: "老顽童"
-reviewed_by: "欧阳锋"
+- src_unknown
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[product-ux]]
-  - [[business-analysis]]
-  - [[ocr-screenshot1]]
-  - [[ocr-微信图片_20260507004804_39_32]]
-  - [[ocr-一堂-地图-创业地图_conv]]
+- '[[yitang-domain-digest]]'
+- '[[yt-panproduct-execution-design-principles]]'
+- '[[case-ji-hao-ui-design-constraint-evolution]]'
+- '[[case-yitang-senior-university-product-design]]'
+- '[[framework-strategy-business-design]]'
+- '[[dk-yb12-ai-image-analysis-replace-training]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[kdo_product_design_agent_final]]'
 ---
+
 # Design / Ai Image Generation
 
 ## Summary

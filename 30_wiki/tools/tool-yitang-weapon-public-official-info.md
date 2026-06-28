@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-public-official-info
 title: 武器库策略8：官方公开信息——公司的十大公开信息源
 type: tool
@@ -8,24 +7,23 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-stock-data]]
-  - [[tool-yitang-competitor-financial-analysis]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-public-information-research]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-public-information-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略8：官方公开信息
 
 > 公司自己发布的信息——虽然是"官方版本"，但免费且能反推水下信息。

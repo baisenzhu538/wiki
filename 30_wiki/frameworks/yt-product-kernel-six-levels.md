@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂产品内核-十大典型指标]]'
+- '[[ocr-一堂五步法-产品内核画布]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 产品内核段位——L1缺价值意识
   follow_up_question: 你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。
@@ -36,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你能把当前产品的内核逻辑应用到其他领域吗？
 - framework_lens: 产品内核段位——团队段位断层
   follow_up_question: 你们团队对内核的认知在哪个段位？是否一致？
-
 ---
+
 # 产品内核六个段位：从缺价值意识到全面迁移
 
 > 一堂五步法：产品内核有段位，从"不重视价值"到"能跨领域迁移"。

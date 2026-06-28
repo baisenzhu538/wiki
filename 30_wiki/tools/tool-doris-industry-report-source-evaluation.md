@@ -1,5 +1,4 @@
 ---
-
 id: tool-doris-industry-report-source-evaluation
 title: 行业报告可信度评估：多信数据，少信观点
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 2000
 version: 1
@@ -27,15 +26,13 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - [[tool-doris-industry-report-search-tips]]
-  - [[concept-yitang-research-facts-first]]
-  - [[dk-yitang-research-source-freshness]]
-  - [[tool-yitang-supply-chain-research]]
-  - [[tool-yitang-research-cross-validation]]
-  - [[framework-doris-industry-report-4step]]
-  - [[tool-doris-industry-report-search-tips]]
-  - [[concept-yitang-ai-research-10-assumptions]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 行业报告可信度评估：多信数据，少信观点
 
 > **一句话**：Doris来自顶级咨询公司的经验——多信数据，少信解读，警惕观点。数据的可信度 > 解读的可信度 ≫ 观点的可信度。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-水水-管理决策权重偏差
 title: 技能：管理决策权重偏差
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-decision-y-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -47,6 +46,7 @@ diagnostic_signals:
 - lens: 不可通约量化
   follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
 ---
+
 # 技能：管理决策权重偏差
 
 > 水水在拆书会中提出的决策改进方法。解决"明明列出了所有决策因素，但权重分配完全是自我服务"这个普遍但少有人正视的问题。

@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2009
 language: zh-CN
 query_triggers:
@@ -22,52 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂]]'
+- '[[yt-model-progress-map]]'
+- '[[yt-model-management-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 王语嫣
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
@@ -94,8 +49,8 @@ diagnostic_signals:
   follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 一堂创业地图：高潜力创业者修炼全景图
 
 > 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#创业必修

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-aesthetic-collection
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1309
 language: zh-CN
 prerequisites:
@@ -26,18 +22,17 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践收集
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: 黄药师
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集
 status: enriched
-title: 泛产品设计·审美卡片：最佳实践收集
-type: tool
+title: yt-panproduct-aesthetic-collection
+type: concept
 version: 1
 yitang:
   map: personal
@@ -57,14 +52,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
-title: yt-panproduct-aesthetic-collection
-type: concept
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
 ---
+
 # 最佳实践收集：积极搜集最佳案例
 
 > 审美工具箱第 1 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

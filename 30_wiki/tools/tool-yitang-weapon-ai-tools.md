@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-ai-tools
 title: 武器库策略10：AI工具——七种AI辅助调研方式
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-pc-web-data]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-bp-analysis]]
-  - [[dk-yitang-research-ai-hallucination]]
-  - [[tool-yitang-weapon-user-direct-interview]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-ai-research-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略10：AI工具
 
 > 用AI技术加速调研——搜索、整理、分析、写作、监控。

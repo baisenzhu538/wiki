@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dk
@@ -13,26 +10,23 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related:
-- [[dk-modeling-ai-compound-leverage]]
-- [[dk-truman-knowledge-extraction-three-schools]]
-- [[case-yitang-model-asset-inventory]]
-- [[case-modeling-abstraction-yitang-models]]
-- [[dk-modeling-business-visual-logic-match]]
-- [[dk-modeling-business-visual-logic-match]]
-- [[modeling-weapon-library]]
-- [[modeling-level-map]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +35,9 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-18'# 99% 的模型跑不出二三十个范式：先装武器库再创新
+updated_at: '2026-06-18'
 ---
+
 ## 原始表述/核心洞察
 
 > 未来我们可能会给你个武器库……大概也就这么二三十个模型……如果你们不做创新模型，你几乎 99% 最后建的模型，它都是在这些图里你选就行了。

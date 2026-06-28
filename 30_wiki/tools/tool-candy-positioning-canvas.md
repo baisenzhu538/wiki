@@ -1,5 +1,4 @@
 ---
-
 id: tool-candy-positioning-canvas
 title: Candy差异化定位画布：回答"这篇东西凭什么存在"
 type: tool
@@ -12,18 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - content-production
+- yitang
+- content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - [[framework-candy-transcript-workflow]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[framework-demand-usp-model]]
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[tool-candy-oral-polish]]
-  - [[framework-candy-transcript-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[tool-candy-oral-polish]]'
+- '[[framework-candy-transcript-workflow]]'
+- '[[tool-马易-知识库-回答技巧双建设]]'
+- '[[concept-candy-ai-as-collaborator]]'
+- '[[case-candy-problem-os-vpn]]'
 ---
+
 # 差异化定位画布
 
 > Candy的Step 2核心工具——在动笔之前回答：这篇内容凭什么存在？

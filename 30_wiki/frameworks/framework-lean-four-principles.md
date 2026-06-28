@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-four-principles
 title: 精益创业低成本验证四大原则
 type: framework
@@ -12,25 +11,24 @@ language: zh-CN
 created_at: 2026-06-23
 updated_at: 2026-06-23
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
-  - [[framework-lean-six-wastes]]
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-cut-features]]
-  - [[tool-lean-leverage-competitor]]
-  - [[tool-lean-fake-product]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
+- '[[framework-lean-false-model]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[framework-lean-six-wastes]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 精益创业低成本验证四大原则
 
 > 用四条相互锁定的行为原则，把"默认失败"的文化翻译成日常决策：不要等到完美才发布，每次只验证一个关键假设，用克制对抗完美主义，用数据替代执念。

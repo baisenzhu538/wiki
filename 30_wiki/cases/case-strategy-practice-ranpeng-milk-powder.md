@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -20,7 +22,12 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）
 **转型**：弃益生菌（合生元垄断）→ 身高方向 → 命名"一米八八"
 **结果**：私域起盘→几年后做到20亿，细分市场老大

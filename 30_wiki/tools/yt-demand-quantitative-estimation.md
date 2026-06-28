@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[一堂方法论体系总图]]'
+- '[[tool-提升笔记练习频次的方法]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-AI质价比评估方法]]'
+- '[[tool-按分阶练习路径渐进掌握方法]]'
+- '[[tool-马易-工作流优先于AIGC的决策方法]]'
+- '[[tool-Truman-提示词优化底层方法]]'
 diagnostic_signals:
 - framework_lens: 估算方法不明——可能是拍脑袋或引用第三方报告未验证
   follow_up_question: 这个数字是用哪种方法算的？自上而下还是自下而上？能展示计算过程吗？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 竞品的用户群体和你的目标用户完全一致吗？你们的市场份额假设依据是什么？
 - framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
   follow_up_question: 为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？
-
 ---
+
 # 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 
 > 一堂五步法：市场规模估算不是"拍数字"，而是有方法、有逻辑、有交叉验证的结构化过程。

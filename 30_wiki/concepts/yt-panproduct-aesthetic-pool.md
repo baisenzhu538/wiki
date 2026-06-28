@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-aesthetic-pool
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1310
 language: zh-CN
 prerequisites:
@@ -26,20 +22,17 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践池子
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: 黄药师
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-panproduct-aesthetic-collection]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子
 status: enriched
-title: 泛产品设计·审美卡片：最佳实践池子
-type: tool
+title: yt-panproduct-aesthetic-pool
+type: concept
 version: 1
 yitang:
   map: personal
@@ -58,14 +51,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
-title: yt-panproduct-aesthetic-pool
-type: concept
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
 ---
+
 # 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]

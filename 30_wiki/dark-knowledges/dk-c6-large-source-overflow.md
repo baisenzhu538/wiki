@@ -1,5 +1,4 @@
 ---
-
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dk
@@ -14,13 +13,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-p6-session-resume-fail]]
-- [[dk-f12-builder-context-deadlock]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-modeling-timely-review-session-window]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[master-first-principles]]
+- '[[dk-modeling-timely-review-session-window]]'
+- '[[kdo-batch-produce-req014]]'
+- '[[dk-p6-session-resume-fail]]'
+- '[[session-20260619-xingangwan-business-formula-reconstruction]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -41,6 +38,7 @@ diagnostic_signals:
   follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
     填充# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 ---
+
 ## 原始表述
 
 > 一堂原文 207KB（~10 万字+），三步编译法用掉大部分 session 容量。概念卡完成后 `kdo produce` 只生成了骨架，artifact 没有空间填充。

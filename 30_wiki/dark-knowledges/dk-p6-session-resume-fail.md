@@ -1,5 +1,4 @@
 ---
-
 id: dk-p6-session-resume-fail
 title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session
   ID
@@ -15,15 +14,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-p1-model-switch-env]]
-- [[dk-c6-large-source-overflow]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-p5-cc-connect-config]]
-- [[master-systems-thinking]]
-- [[master-first-principles]]
-- [[dk-p5-cc-connect-config]]
-- [[dk-p2-tmux-cache]]
+- '[[framework-strategy-pyramid]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-lean-four-principles]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[framework-doris-industry-report-4step]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-modeling-timely-review-session-window]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +32,10 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
+- src_unknown# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude
+  Code session ID
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：cc-connect 的 `work_dir` 和 `env.conf` 都已修正（→ wiki vault + DeepSeek），飞书发消息后 bot 返回空。日志显示 `is_resume=true`，紧接着 `exit status 1: No conversation found with session ID: cb687591...`。

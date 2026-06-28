@@ -1,51 +1,12 @@
 ---
-
-id: tool-一堂-business-prediction-15-char
-title: 技能：商业预判15字诀
-type: tool
-status: enriched
-domain:
-- src_unknown
-source_person: Truman
-source_context: 一堂商业预判课
-source_refs:
-  - 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-  - pending_archive:src_unknown - src_unknown
-- 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
-- src_unknown
-  - src_unknown
-tools_required:
-- src_unknown
-- src_unknown
-prerequisite_skills:
-- src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-wiki_refs:
-- src_unknown
-created_at: '2026-06-10'
-updated_at: '2026-06-17'
-pipeline:
-- src_unknown
-- src_unknown
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-diagnostic_signals:
-- lens: 目标模糊
-  follow_up: 必须先写保A争B，否则不做加法。没有中局定义，加减法都会失去坐标
-- lens: 加法不足
-  follow_up: 强制要求每个维度至少10个选项。加法的目标不是找正确答案，是确保没有遗漏高概率选项
-- lens: 困难硬伤混淆
-  follow_up: 硬伤的标准是即使投入最优资源也无法解决。困难可以克服，硬伤不能
-- lens: 团队硬伤忽视
-  follow_up: 团队硬伤必须诚实面对，不能靠学习能力掩盖。核心能力不匹配是致命缺陷
-- lens: Plan B缺失
-  follow_up: Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分
+- '[[tool-一堂-spectrum-positioning]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 技能：商业预判15字诀
 
 ## Summary

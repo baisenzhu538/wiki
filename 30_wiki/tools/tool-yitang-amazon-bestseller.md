@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-amazon-bestseller
 title: 亚马逊榜单：海外市场的品类趋势
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-pc-web-data]]
-  - [[tool-yitang-stock-data]]
-  - [[tool-yitang-xiaohongshu-data]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-third-party-database]]
-  - [[tool-yitang-overseas-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 亚马逊榜单
 
 > Amazon Best Sellers——海外市场品类趋势的免费窗口。

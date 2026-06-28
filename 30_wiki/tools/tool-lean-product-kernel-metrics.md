@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-product-kernel-metrics
 title: 产品内核十大典型指标
 type: tool
@@ -10,25 +9,20 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
 related:
-  - [[yt-product-ten-metrics]]
-  - [[yt-model-product-core-metrics]]
-  - [[tool-lean-leverage-competitor]]
-  - [[ocr-一堂产品内核-十大典型指标]]
-  - [[yt-product-kernel-cultivation]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 产品内核十大典型指标
 
 > 把「获客—服务—复购」全链路的关键健康度浓缩为十个可观测指标，在产品内核尚未放大前，用最小数据量判断它是否真的在推动用户持续选择你。

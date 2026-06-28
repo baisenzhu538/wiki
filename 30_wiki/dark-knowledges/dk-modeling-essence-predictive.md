@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-essence-predictive
 title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
 type: dk
@@ -13,41 +10,31 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_d0539c25-Truman-高阶建模-本质建模-三个目标-01.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_d0539c25-Truman-高阶建模-本质建模-三个目标-01.md
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 解释性本质 vs 预测性本质
-    follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-  - signal: src_unknown
-    framework_lens: 可证伪性与预测力
-    follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-  - signal: src_unknown
-    framework_lens: 决策可推导性
-    follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-  - signal: src_unknown
-    framework_lens: 生成式模型的解释力幻觉
-    follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
+- signal: src_unknown
+  framework_lens: 解释性本质 vs 预测性本质
+  follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
+- signal: src_unknown
+  framework_lens: 可证伪性与预测力
+  follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
+- signal: src_unknown
+  framework_lens: 决策可推导性
+  follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
+- signal: src_unknown
+  framework_lens: 生成式模型的解释力幻觉
+  follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-explanatory-vs-predictive-essence]]
-- [[case-essence-humanity-trap]]
-- [[truman-perspective-skill]]
-- [[case-essence-education-strategy]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-three-stages]]
-- [[modeling-capability-system]]
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-explanatory-vs-predictive-essence]]
-- [[case-modeling-essence-levels]]
-- [[case-modeling-essence-schools]]
-- [[case-essence-education-strategy]]
-- [[tool-essence-nfactor-modeling]]
-- [[yt-five-step-method]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -57,6 +44,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
 ---
+
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 
 ## 原始表述

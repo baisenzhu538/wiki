@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-online-product-experience
 title: 线上产品完整体验：从注册到售后的全流程
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-pc-web-data]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-weapon-full-product-experience]]
-  - [[tool-yitang-weapon-full-product-experience]]
-  - [[tool-yitang-consumer-goods-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 线上产品完整体验
 
 > 以真实用户身份走完竞品从注册到售后的全流程。

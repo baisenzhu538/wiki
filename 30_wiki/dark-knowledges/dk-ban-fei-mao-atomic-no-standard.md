@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dk
@@ -15,14 +13,13 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-- [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
-- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-- [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
-- [[dk-ban-fei-mao-skill-rejection-value]]
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,6 +35,7 @@ diagnostic_signals:
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
 ---
+
 # 暗知识：原子化没有固定标准
 
 ## 原始表述

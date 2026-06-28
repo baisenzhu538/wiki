@@ -1,9 +1,6 @@
 ---
-
-
-
 id: dk-ban-fei-mao-skill-rejection-value
-title: '暗知识：Skill 的最大价值不是生成，是拒绝'
+title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dk
 dark_knowledge_type: insight
 status: enriched
@@ -18,14 +15,13 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
-- [[case-ban-fei-mao-skill-ab-test]]
-- [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
-- [[case-半肥猫-course-to-skill]]
-- [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-- [[case-ban-fei-mao-conversion-hacker-skill]]
-- [[concept-半肥猫-ai-learning-toolification-methodology]]
-- [[case-ban-fei-mao-skill-ab-test]]
-- [[concept-ji-hao-ai-collaboration-methodology]]
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -33,20 +29,21 @@ trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
   lens: 边界感缺失——模型被训练成满足用户，而不是在不确定时拒绝
-  follow_up_question: '你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？'
+  follow_up_question: 你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？
 - signal: src_unknown
-  lens: '低容错场景中的"错误行动"比"不行动"更危险'
-  follow_up_question: '如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？'
+  lens: 低容错场景中的"错误行动"比"不行动"更危险
+  follow_up_question: 如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？
 - signal: src_unknown
-  lens: '生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"'
+  lens: 生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"
   follow_up_question: 过去一周，你的团队有多少次主动终止或回退了一个 AI 任务，因为判断它不适合做？
 - signal: src_unknown
-  lens: '过度顺从——把用户满意度凌驾于结果正确性之上'
-  follow_up_question: '你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？'
+  lens: 过度顺从——把用户满意度凌驾于结果正确性之上
+  follow_up_question: 你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？
 pipeline:
 - src_unknown
 - src_unknown
 ---
+
 - src_unknown
 
 # 暗知识：Skill 的最大价值不是生成，是拒绝

@@ -19,11 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -58,8 +58,8 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-
 ---
+
 # 单元模型基准值：科学类比、三点预测与基准值共建
 
 > 来源：一堂《单元模型实操系列课》第三至四课——基准值篇。当单元模型建好后，如何判断模型中的数字是否合理？本工具提供"科学类比"方法、"三点预测"技巧和"基准值共建"流程，帮助操盘手让单元模型从"假设集合"走向"可验证的决策基础"。

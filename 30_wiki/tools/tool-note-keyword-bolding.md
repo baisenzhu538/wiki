@@ -4,20 +4,18 @@ title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - note-taking
+- learning-methodology- yitang
+- note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-  - [[tool-note-layer-constraint]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ocr-一堂-单元模型-tcpr底层网络协议]]
-  - [[tool-note-one-line-one-point]]
-  - [[tool-note-layer-constraint]]
-  - [[tool-note-one-line-one-point]]
-  - [[dk-note-surplus-brainpower]]
+- '[[tool-note-one-line-one-point]]'
+- '[[dk-note-surplus-brainpower]]'
+- '[[tool-note-layer-constraint]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
@@ -41,6 +39,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则
 
 ## 用一句话讲清楚

@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
@@ -12,20 +11,20 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-media-verification-overview]]
-  - [[tool-dns-intelligence]]
-  - [[tool-agent-native-overview]]
-  - [[tool-osint-wayback]]
-  - [[tool-google-dorking]]
-  - [[tool-agent-native-overview]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Firecrawl
 
 > 输入一个URL，输出干净Markdown。专为LLM/RAG设计——Agent不需要"看网页"，直接拿到结构化内容。

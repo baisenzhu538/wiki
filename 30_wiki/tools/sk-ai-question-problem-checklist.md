@@ -1,13 +1,11 @@
 ---
-
-
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+- ai-collaboration
+- yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -31,22 +29,20 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - [[tool-ai-problem-question-check]]
-  - [[sk-ai-problem-validation]]
-  - [[ai-collaboration-mindset-shift]]
-  - [[dk-modeling-expert-consensus-five-percent]]
-  - [[tool-纪浩-Problem与Question区分法]]
-  - [[sk-ai-problem-validation]]
-  - [[ai-collaboration-mindset-shift]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 author: 纪浩
 reviewed_by: 欧阳锋
-confidence: 0.90
+confidence: 0.9
 trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
+
 # 技能：提问题转化三问清单
 
 ## 用一句话讲清楚

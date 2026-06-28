@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-spiderfoot
 title: SpiderFoot：一键自动化OSINT扫描
 type: tool
@@ -8,23 +7,23 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-crawl4ai]]
-  - [[tool-dns-intelligence]]
-  - [[tool-osint-wayback]]
-  - [[tool-osint-overview]]
-  - [[tool-google-dorking]]
-  - [[tool-osint-overview]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # SpiderFoot：自动化OSINT扫描
 
 > 开源、免费、一键式。输入目标（域名/IP/邮箱/姓名），SpiderFoot自动跑200+数据源扫描——情报界的"全自动侦察兵"。

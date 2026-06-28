@@ -43,13 +43,13 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-
+- '[[yt-five-step-method]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 暗知识：五步法中的主要认知偏差
 
 > 来源：一堂五步法·序言篇及落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[yt-demand-analysis-hiking-map]] | [[master-cognitive-bias-checklist]] | [[case-five-step-fake-vs-real-barriers]]

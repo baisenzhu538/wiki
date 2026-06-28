@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-radar
 title: 调研雷达图：四象限能力诊断与六种缺失识别
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
@@ -30,18 +29,13 @@ source_refs:
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[framework-yitang-four-research-types]]
-  - [[framework-yitang-four-research-types]]
-  - [[framework-yitang-high-level-plan]]
-  - [[framework-yitang-high-level-execution]]
-  - [[yt-research-osl-framework]]
-  - [[yt-research-mindset]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-research-desperate-effort]]
-  - [[concept-yitang-research-mindset]]
-  - [[tool-yitang-reverse-data-analysis]]
-  - [[tool-yitang-field-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 调研雷达图：四象限能力诊断与六种缺失识别
 
 > **一句话**：调研失效往往不是"不会做"，而是"不知道自己哪里不会做"。四象限雷达图帮你定位能力缺口，六种缺失类型帮你识别具体症状。

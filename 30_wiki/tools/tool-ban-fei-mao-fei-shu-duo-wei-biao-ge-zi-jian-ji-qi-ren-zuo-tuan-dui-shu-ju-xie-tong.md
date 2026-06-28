@@ -16,11 +16,11 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -34,8 +34,8 @@ diagnostic_signals:
   follow_up: 如果停用飞书多维表格，当前协同流程是否还能跑通？
 - lens: 风险控制
   follow_up: 是否有试点用户、预期行为清单和一键停用/回滚方案？
-
 ---
+
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 
 ## 用一句话讲清楚

@@ -1,5 +1,4 @@
 ---
-
 id: framework-单元模型-外部对抗地图
 title: 外部对抗地图
 type: framework
@@ -15,18 +14,16 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-外部对抗地图.md
 related:
-  - [[tool-单元模型-象限分析法]]
-  - [[tool-单元模型-单商圈]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[concept-最简单元模型]]
-  - [[tool-单元模型-单城市]]
-  - [[yitang-domain-digest]]
-  - [[yt-unit-model-overview]]
-  - [[ai-collaboration-domain-digest]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[framework-strategy-brm]]
-  - [[concept-ai-amara-law-business-judgment]]
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+- '[[ocr-一堂-地图-创业地图_conv]]'
+- '[[ocr-一堂进步大地图]]'
+- '[[ocr-一堂-地图-管理地图_conv]]'
+- '[[ocr-一堂-地图-创业地图]]'
+- '[[ocr-一堂-地图-个人地图]]'
+- '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
 ---
+
 # 外部对抗地图
 
 ## 一句话定义

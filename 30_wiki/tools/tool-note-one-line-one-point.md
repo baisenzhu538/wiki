@@ -4,19 +4,18 @@ title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留�
 type: tool
 status: enriched
 domain:
-  - learning-methodology- yitang
-  - note-taking
+- learning-methodology- yitang
+- note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-  - [[ocr-一堂-单元模型-tcpr底层网络协议]]
-  - [[tool-note-layer-constraint]]
-  - [[tool-note-keyword-bolding]]
-  - [[yt-note-checklist-concept]]
-  - [[tool-note-layer-constraint]]
-  - [[tool-note-keyword-bolding]]
+- '[[tool-note-keyword-bolding]]'
+- '[[dk-note-surplus-brainpower]]'
+- '[[dk-note-maximum-common-divisor]]'
+- '[[tool-note-layer-constraint]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
@@ -40,6 +39,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 ---
+
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 
 ## 用一句话讲清楚

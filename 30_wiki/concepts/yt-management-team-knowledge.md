@@ -1,16 +1,12 @@
 ---
-
-
-
-
 title: 团队知识管理
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 pipeline:
 - src_unknown
@@ -30,13 +26,13 @@ source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 团队知识管理
 
 > 来源：一堂管理必修课「管团队」模块，《知识库：团队知识管理必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

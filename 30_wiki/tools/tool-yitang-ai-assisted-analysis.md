@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-assisted-analysis
 title: AI辅助分析：用AI做数据分析和模式识别
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-ai-tools]]
-  - [[tool-yitang-ai-research-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # AI辅助分析
 
 > 把大量数据/文本输入AI，让它做模式识别、异常检测、趋势分析。

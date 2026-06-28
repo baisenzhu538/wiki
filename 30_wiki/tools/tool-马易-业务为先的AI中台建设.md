@@ -1,45 +1,12 @@
 ---
-
-id: tool-马易-业务为先的AI中台建设
-title: 技能：业务为先的AI中台建设
-type: tool
-status: enriched
-domain:
-- ai-collaboration
-- yitang- ai-implementation
-source_person: 马易
-source_context: AI落地场景识别 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-wiki_refs:
-- src_unknown
-- src_unknown
-definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
-tools_required:
-- src_unknown
-- src_unknown
-- src_unknown
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[tool-纪浩-AI对话上下文隔离]]
-- [[master-ai-info-literacy]]
-- [[yt-model-prompt-engineering]]
-- [[tool-马易-数据存储架构选择]]
-- [[yt-entrepreneur-pragmatic-startup]]
-created_at: 2026-06-07
-updated_at: '2026-06-16'
-reviewed_by: 黄药师
-confidence: 0.85
-pipeline:
-- src_unknown
-author: unknown
-trust_level: medium-high
-source_refs:
-  - pending_archive:src_20260510_4bb17355-天花板# 技能：业务为先的AI中台建设
-- src_20260510_4bb17355-天花板# 技能：业务为先的AI中台建设
+- '[[ai-landing-scene-selection]]'
+- '[[tool-马易-数据存储架构选择]]'
+- '[[yt-entrepreneur-pragmatic-startup]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。
 
 ## Claims

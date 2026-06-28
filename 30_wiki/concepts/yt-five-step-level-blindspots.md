@@ -44,13 +44,13 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-
+- '[[yt-five-step-method]]'
+- '[[yt-unit-model-concept]]'
+- '[[yt-five-step-implementation]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 暗知识：五步法的段位盲区与自评陷阱
 
 > 来源：一堂五步法·序言篇、单元模型篇、落地实操篇 | [[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]] | [[yt-business-analysis-cognitive-biases]] | [[yt-five-step-common-pitfalls]] | [[yt-research-mindset]]

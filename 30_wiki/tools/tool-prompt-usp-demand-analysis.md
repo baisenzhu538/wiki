@@ -18,12 +18,13 @@ updated_at: '2026-06-28'
 author: 黄药师（从 inbox 提示词提取 + 结构化）
 reviewed_by: 欧阳锋
 related:
-- pending_unknown
+- '[[framework-demand-usp-model]]'
+- '[[tool-prompt-usp-quick-scan]]'
 iteration_history:
 - date: '2026-06-21'
   changes: 从 inbox 需求分析提示词.txt 提取，结构化入库
-
 ---
+
 # USP 深度洞察引擎
 
 > `prompt-template` — 可复用、可迭代。不只复制，学会设计原理。

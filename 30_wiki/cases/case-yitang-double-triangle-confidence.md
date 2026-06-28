@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-yitang-double-triangle-confidence
 title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
@@ -32,14 +29,12 @@ related_concepts:
 - src_unknown
 related_cases: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -58,6 +53,7 @@ diagnostic_signals:
 - lens: 体系/里程碑成为最大卡点，而非基本功或数据
   follow_up: 用双三角做前置筹备，把“六词空壳”往下推两层变成具体检查项和动作
 ---
+
 # 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 
 ## 原始表述

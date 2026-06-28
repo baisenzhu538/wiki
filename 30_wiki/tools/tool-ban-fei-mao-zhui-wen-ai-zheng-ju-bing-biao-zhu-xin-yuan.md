@@ -15,11 +15,11 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-三阶追问法穷尽决策要素]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -37,8 +37,8 @@ diagnostic_signals:
   follow_up: 这个信源能否通过搜索引擎、数据库或报告原文独立核实？
 - lens: 风险分级
   follow_up: 这个场景的错误代价是什么？是否已经验证信源并标注不确定性？
-
 ---
+
 # 技能：追问 AI 证据并标注信源
 
 ## 用一句话讲清楚

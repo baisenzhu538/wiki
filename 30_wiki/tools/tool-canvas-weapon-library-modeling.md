@@ -32,19 +32,22 @@ diagnostic_signals:
 - framework_lens: 武器库迭代
   follow_up_question: 是否定期淘汰失效工具、合并重复工具、补充新场景？
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[ocr-一堂五步法画布]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 画布/武器库建模法：把工具箱变成可快速调用的系统
 
 > **Burn line**: 武器库不是工具的堆砌，而是“遇到什么情况，拿哪把刀”的快速匹配系统。

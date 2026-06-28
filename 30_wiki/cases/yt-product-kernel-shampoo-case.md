@@ -18,9 +18,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂产品内核-十大典型指标]]'
+- '[[ocr-一堂五步法-产品内核画布]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 洗发水案例——内核是价值，不是功能
   follow_up_question: AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？
@@ -32,8 +32,8 @@ diagnostic_signals:
   follow_up_question: 你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？
 - framework_lens: 洗发水案例——内核可能不是你以为的功能
   follow_up_question: 用户选择你们，是因为去屑效果好，还是因为品牌形象？
-
 ---
+
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 
 > 一堂五步法：产品内核案例——高端洗发水，内核不是"去屑功能"，而是"有效去屑+专业形象"。

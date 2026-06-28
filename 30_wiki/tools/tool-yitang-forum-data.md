@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-forum-data
 title: 论坛/社区数据：知乎豆瓣贴吧的深度讨论
 type: tool
@@ -12,18 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-pc-web-data]]
-  - [[tool-yitang-stock-data]]
-  - [[tool-yitang-xiaohongshu-data]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-recruit-user-interview]]
-  - [[tool-yitang-weapon-media-search]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 论坛/社区数据
 
 > 知乎/豆瓣/贴吧/维基百科——用户深度讨论和行业见解的聚集地。

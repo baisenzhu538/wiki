@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dk
@@ -17,19 +15,16 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb19-visual-strategy-price-match]]
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb6-midjourney-chinese-text-fix]]
-- [[dk-yb5-style-asset-archive]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb7-design-demand-80-10-10]]
-- [[dk-yb18-small-shop-image-mismatch]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-月白-左手Cubox右手里程碑学习法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
@@ -39,6 +34,7 @@ diagnostic_signals:
   framework_lens: 孤岛采购——各部门独立选型导致协作断裂
   follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？# Cubox及AI协作工具的团队部署失败模式
 ---
+
 ## 原始表述
 
 > 我见过很多的老板买Cubox工具，配置给自己的设计师团队，买回来用了两天就放弃。我还见过很多团队想用AI协作，根本用不起来。企划部在用企划部的AI，商务部在用商务部的AI，完全不把它串在一起，大家各用各的。

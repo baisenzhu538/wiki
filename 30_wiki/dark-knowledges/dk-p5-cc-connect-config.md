@@ -1,5 +1,4 @@
 ---
-
 id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dk
@@ -14,16 +13,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-p6-session-resume-fail]]
-- [[dk-p3-auth-cache]]
-- [[dk-p1-model-switch-env]]
-- [[kdo-input-channel-strategy-2026-06-16]]
-- [[master-systems-thinking]]
-- [[master-first-principles]]
-- [[dk-p1-model-switch-env]]
-- [[dk-p2-tmux-cache]]
-- [[dk-p6-session-resume-fail]]
+- '[[sprint-6-cli-gap-proposal]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
+- '[[case-dental-clinic-formula]]'
+- '[[tool-clinic-medical-shortvideo-compliance]]'
+- '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：从 Kimi 切回 DeepSeek 后，WSL 终端的 `claude` 命令正常工作，但飞书黄药师报 `HTTP 401` 且无法访问 wiki/KDO。

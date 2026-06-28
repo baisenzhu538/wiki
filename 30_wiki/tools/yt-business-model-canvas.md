@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-提问刻意练习画布]]'
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[ocr-一堂五步法画布]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例03]]'
 diagnostic_signals:
 - framework_lens: 商业模式画布——结构化梳理商业模式
   follow_up_question: 你能用商业模式画布的9个要素描述你的商业模式吗？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？
 - framework_lens: 商业模式画布——画布简化复杂商业模式
   follow_up_question: 用画布的9个要素，每个要素写一句话，能描述清楚吗？
-
 ---
+
 # 商业模式画布：一堂版
 
 > 一堂五步法：商业模式画布是梳理商业模式的工具，9个要素缺一不可，帮助发现矛盾和对齐团队。

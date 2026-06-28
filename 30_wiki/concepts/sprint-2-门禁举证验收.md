@@ -1,28 +1,27 @@
 ---
-
-
-id: "sprint-2-门禁举证验收"
+id: sprint-2-门禁举证验收
 created_at: 2026-05-09
 domain: master
 source_refs:
 - src_20260510_9e98a292-sprint-2-门禁举证验收
 status: enriched
-title: "Sprint 2 门禁举证验收"
+title: Sprint 2 门禁举证验收
 type: concept
 updated_at: 2026-05-09
 pipeline:
-  - src_unknown
+- src_unknown
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[yt-case-mandatory-cases]]
-  - [[sprint-2-gate-enrich-evidence]]
-  - [[kdo-ec-industrialization-migration-proposal]]
-  - [[dk-c4-selfcheck-superseded]]
-  - [[轻量级诊所HIS调研全清单]]
+- '[[sprint-6-cli-gap-proposal]]'
+- '[[sprint-2-gate-enrich-evidence]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Sprint 2 门禁举证验收
 
 ## Summary

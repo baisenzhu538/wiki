@@ -4,13 +4,22 @@ title: 战略≠定目标。"三年100亿"不是战略，从现状到100亿的�
 type: dk
 status: enriched
 author: 老顽童
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[dk-strategy-essence-four-elements]]'
+- '[[dk-strategy-08-not-local-optimum]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是
 
 ## 原始表述

@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - [[case-doris-catering-chain-benchmark]]
-  - [[case-yitang-travel-receipt-analysis]]
-  - [[case-zhanglan-amusement-park-undercover]]
-  - [[case-doris-outbound-travel-community]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[framework-doris-industry-report-4step]]
-  - [[tool-doris-industry-report-search-tips]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：7天建立行业认知
 
 **人物**：Doris，Grab（东南亚最大独角兽）产品经理，多次从零进入全新行业。

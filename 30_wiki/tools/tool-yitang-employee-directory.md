@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-employee-directory
 title: 员工公开名录：从通讯录取组织架构
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-people-network-database]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-organization-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 员工公开名录分析
 
 > 通过钉钉/飞书/企业微信的公开组织架构、打卡信息、通讯录取反推公司组织。

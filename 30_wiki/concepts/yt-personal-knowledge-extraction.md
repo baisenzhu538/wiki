@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -23,13 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂]]'
+- '[[yt-model-personal-map]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
@@ -54,8 +48,8 @@ diagnostic_signals:
   follow_up_question: 这个模型与你已有的哪个认知冲突或互补？
 author: 老顽童
 trust_level: medium
-
 ---
+
 # 一堂知识萃取探索营：从碎片经验到确定模型
 
 > 来源：一堂《知识萃取探索营》案例篇（Truman口述，约2小时）。[[一堂]] | [[yt-model-personal-map]] | [[yt-model-ipo-learning-strategy]]

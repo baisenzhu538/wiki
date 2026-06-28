@@ -6,19 +6,23 @@ status: enriched
 confidence: 0.85
 trust_level: high
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_context: 王欢 AI 实践方法论——从"用好 AI"到"建 AI 系统"
 source_refs:
-  - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
-created_at: "2026-06-23"
+- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
+created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-  - [[five-step-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[concept-harness-scoring-anchors]]'
+- '[[tool-ai-skill-engineering-method]]'
 ---
+
 # 域摘要：AI 协作方法论
 
 > 王欢 AI 实践方法论——从演员到导演，从任务到系统。

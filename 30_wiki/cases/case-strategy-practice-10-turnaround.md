@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -20,7 +22,15 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[strategy-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 **冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行
 **核心洞察**：连续亏损≠无药可救。正确的诊断+聚焦的执行=奇迹

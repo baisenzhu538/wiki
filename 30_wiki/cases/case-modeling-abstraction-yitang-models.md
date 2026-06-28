@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-modeling-abstraction-yitang-models
 title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 type: case
@@ -33,16 +30,12 @@ review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 diagnostic_signals:
 - lens: 模型孤岛——组织内模型资产重复建设，缺少抽象归纳与共享机制
   follow_up: 先盘点各业务线已有模型，按形态（清单/SOP/雷达图/三角图/画布）归集，再判断哪些可以跨团队复用
@@ -51,6 +44,7 @@ diagnostic_signals:
 - lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
   follow_up: 要求每次使用模型后输出"3条具体判断"和"1个下一步动作"，否则视为无效使用
 ---
+
 # 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-01 | 一堂建模能力培训（Truman），`src_20260614_87b29a61`、`src_20260614_8269ccdb`

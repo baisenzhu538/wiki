@@ -1,31 +1,26 @@
 ---
-
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-提问刻意练习画布_vlm_desc.md
 related:
-  - [[dk-modeling-logical-cleanliness-root]]
-  - [[ocr-一堂-个人修炼-提问刻意练习画布]]
-  - [[yt-model-questioning-practice-canvas]]
-  - [[yt-model-scientific-questioning-map]]
-  - [[tool-完整财务公式决策]]
-  - [[framework-TCPR底层网络协议]]
-  - [[tool-科学提问刻意练习]]
-  - [[concept-思考深度分级]]
-  - [[concept-X型Y型决策习惯]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 提问刻意练习画布
 
 ## 一句话定义

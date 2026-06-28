@@ -7,9 +7,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
@@ -19,7 +21,15 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+related:
+- '[[dk-strategy-longzhong-four-failures]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 
 ## 原始表述

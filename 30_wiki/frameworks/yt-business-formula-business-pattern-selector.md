@@ -1,16 +1,12 @@
 ---
-
-
-
-
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -35,22 +31,13 @@ diagnostic_signals:
 - framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 
 > 一堂业务公式拆解培训中的“前置选型器”：不要一上来就拆 `GMV = 流量 × 转化 × 客单价 × 复购`，而应先判断业务是**单次成交型**还是**持续复购型**，再选择对应的公式范式。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-ai-self-retrospection
 title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 type: dk
@@ -13,20 +10,19 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例），2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[case-truman-ai-skill-self-packaging]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[master-ai-info-literacy]]
-- [[tool-ai-skill-engineering-guide]]
-- [[modeling-capability-for-kdo]]
-- [[modeling-capability-system]]
-- [[dk-modeling-ai-without-judgment]]
-- [[case-truman-ai-skill-self-packaging]]
+- '[[yitang-domain-digest]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[ocr-一堂-科学决策-关键训练清单重要]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[tool-制作行业化要素检查清单]]'
 tags:
 - src_unknown
 - src_unknown
@@ -46,6 +42,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 ---
+
 ## 原始表述 / 核心洞察
 
 > 我最近建议所有一堂的同学要尝试养成一个习惯：让 AI 学会自己复盘自己。不是 AI 帮助人复盘，而是它帮助自己复盘。你做了一个工作，做得很漂亮，过去人要总结这个经验是非常难的，ROI 很低。现在你要习惯性地让 AI 当场立刻就总结一个自查清单，把这一次的经验自动化地变成下一次的基础。这个工作其实还挺重要的。比如我当时跟好几个平台去做课程插图和 PPT，过程中不断纠偏：这个图颜色不对、这个图流程不对、这个图缺了个什么东西。交完活之后，我让一个 agent 扫描所有对话窗口，把所有反馈合并同类项，封装了一个叫 Design Taste 的技能。下一次再做的时候，它会基于这个再去做，明显聪明很多。AI 自己干活，AI 自己复盘，AI 下次自己吸收，这个循环会越来越快。

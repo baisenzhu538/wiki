@@ -1,5 +1,4 @@
 ---
-
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dk
@@ -14,15 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[ai-native-im-multi-agent]]
-- [[case-truman-ai-partner]]
-- [[dk-p13-token-burn]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-c6-large-source-overflow]]
-- [[dk-c6-large-source-overflow]]
-- [[master-first-principles]]
-- [[kdo-flywheel]]
-- [[master-systems-thinking]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[tool-demand-agent-signal-substitute]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -48,6 +46,7 @@ tags:
 - src_unknown
 - src_unknown# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 ---
+
 ## 原始表述
 
 > **触发场景**：用户一次性给黄药师派发 ≥3 个独立任务，或任务涉及读取 ≥5 个规范/源文件

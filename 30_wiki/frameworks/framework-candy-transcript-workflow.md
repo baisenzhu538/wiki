@@ -1,5 +1,4 @@
 ---
-
 id: framework-candy-transcript-workflow
 title: Candy逐字稿九步法：从素材到可交付内容的生产流程
 type: framework
@@ -8,25 +7,25 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - content-production
+- yitang
+- content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - [[tool-candy-positioning-canvas]]
-  - [[dk-strategy-07-strategy-vs-dividend]]
-  - [[framework-demand-usp-model]]
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[case-candy-problem-os-vpn]]
-  - [[concept-candy-ai-as-collaborator]]
-  - [[tool-candy-positioning-canvas]]
-  - [[tool-candy-oral-polish]]
-  - [[case-candy-problem-os-vpn]]
+- '[[yitang-domain-digest]]'
+- '[[tool-专家访谈十步法]]'
+- '[[ocr-truman的个人成长五步法]]'
+- '[[tool-执行对标研究三步法]]'
+- '[[ocr-一堂五步法画布]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+- '[[tool-candy-oral-polish]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 ---
+
 # Candy逐字稿九步法
 
 > 不急着写、差异化优先、骨架>文采、案例逼出观点、配图是结构、AI是协作者。

@@ -1,5 +1,4 @@
 ---
-
 id: concept-strategy-2024-2026-supplement
 title: 2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区
 type: concept
@@ -15,14 +14,16 @@ domain: strategy
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[concept-research-responsibility-boundary]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[framework-strategy-brm]]
-  - [[concept-strategy-framework-landscape]]
+- '[[strategy-domain-digest]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[tool-水水-管理决策权重偏差]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
+- '[[ocr-一堂-科学决策-宽度-个人]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 2024-2026战略新变量
 
 > 冉鹏课程核心框架不过时，但2024-2026年出现了三个他未系统覆盖的战略新变量。

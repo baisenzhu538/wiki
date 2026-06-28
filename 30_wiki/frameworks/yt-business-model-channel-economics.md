@@ -17,11 +17,12 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-月白-提示词优化：信息流海报文字修复]]'
+- '[[tool-月白-AIGC餐饮海报优化一抽流]]'
+- '[[tool-反向提示获取优化建议]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-AI时代提示词优化法]]'
+- '[[tool-获取他人反馈优化笔记]]'
 diagnostic_signals:
 - framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
   follow_up_question: 你的获客渠道有几个？每个渠道的CAC分别是多少？
@@ -33,8 +34,8 @@ diagnostic_signals:
   follow_up_question: 你的自然获客占比是多少？如何提升自然获客？
 - framework_lens: 渠道经济学——渠道之间可能互相蚕食
   follow_up_question: 你的渠道之间是否互相竞争？如何协调渠道策略？
-
 ---
+
 # 渠道经济学：获客成本优化
 
 > 一堂五步法：获客渠道不是越多越好，而是需要优化组合。理解每个渠道的CAC、LTV、可规模化，才能优化获客成本。

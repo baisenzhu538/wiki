@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-一堂产品内核-十大典型指标]]'
+- '[[ocr-一堂五步法-产品内核画布]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 产品内核加减法——只加不减，内核被稀释
   follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 竞品的这个功能，用户使用频率高吗？你的用户有同样的需求吗？
 - framework_lens: 产品内核加减法——资源分散，核心受损
   follow_up_question: 新增功能的开发资源，是否占用了核心功能的优化资源？
-
 ---
+
 # 产品内核的加减法：什么该加，什么该减
 
 > 一堂五步法：产品内核需要持续做加减法——加的是强化内核的功能，减的是稀释内核的功能。

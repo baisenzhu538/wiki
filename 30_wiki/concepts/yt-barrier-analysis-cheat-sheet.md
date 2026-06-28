@@ -1,59 +1,12 @@
 ---
-
-domain:
-- barrier
-
-
-
-id: yt-barrier-analysis-cheat-sheet
-confidence: 0.9
-created_at: 2026-06-10
-difficulty: intermediate
-language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
 related:
-- [[yt-barrier-identification-skill]]
-- [[yt-five-step-method]]
-review_date: 2026-06-10
-reviewed_by: "老顷童（精修）"
-source_refs:
-  - pending_archive:src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
-  - pending_archive:src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
-  - pending_archive:src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
-  - pending_archive:src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
-- src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
-- src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
-- src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
-- src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
-status: reviewed
-title: "壁垒分析完整cheatsheet"
-trust_level: medium
-type: tool
-version: 1
-yitang:
-  map: entrepreneur
-  module: "壁垒"
-  course_id: yt-barrier-analysis-cheat-sheet
-  course_type: tool
-  level: core
-pipeline:
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '用户照着cheatsheet选了网络效应，但业务根本没有网络效应土壤', 'framework_lens': '生搬硬套——壁垒类型需要匹配业务模型', 'follow_up_question': '你的业务天然具备网络效应所需的节点密度和互动频次吗？如果没有，选网络效应就是自欺欺人'}
-  - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}
-updated_at: 2026-06-16
-author: "老顽童"
+- '[[yt-five-step-method]]'
+- '[[yt-scale-economy-weapon-library]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]

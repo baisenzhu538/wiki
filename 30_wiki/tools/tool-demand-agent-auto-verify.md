@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-auto-verify
 title: Agent L6自动预验证：RAT的竞品数据+趋势快速验证
 type: tool
@@ -12,19 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
-  - ai-collaboration
+- yitang
+- five-step-method
+- ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - [[tool-demand-agent-signals]]
-  - [[yitang-research-domain-digest]]
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[tool-demand-agent-case-match]]
-  - [[tool-demand-agent-signal-substitute]]
-  - [[tool-demand-iceberg-l6-hypothesis]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Agent L6自动预验证
 
 > L6产出的RAT（最危险假设）在投入真实验证之前，Agent可以先做一轮"预验证"——自动搜索竞品数据/评论趋势，快速判断哪些RAT可能已经错了。

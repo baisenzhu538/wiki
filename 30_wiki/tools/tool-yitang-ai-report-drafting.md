@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-report-drafting
 title: AI草写报告：用AI生成调研初稿
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-behavioral-observation]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-supplier-interview]]
-  - [[dk-yitang-research-ai-hallucination]]
-  - [[tool-yitang-weapon-ai-tools]]
-  - [[tool-yitang-ai-research-workflow]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # AI草写报告
 
 > 用AI生成调研报告的初稿框架——人定结构，AI填内容，人做最终判断。

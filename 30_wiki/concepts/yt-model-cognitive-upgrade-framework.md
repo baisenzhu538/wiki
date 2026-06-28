@@ -18,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-personal-checklist-notes]]'
+- '[[framework-kdo-self-attack]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -42,8 +42,8 @@ diagnostic_signals:
 - framework_lens: 框架过度使用——十步框架是深度阅读工具，不是所有书的标配
   follow_up_question: 这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤
 author: 老顽童
-
 ---
+
 # 认知升级十步框架：从「读书」到「安装认知补丁」
 
 > 来源：「认知升级系统 v3.2」的底层方法论，经 AI 思维卡（《人工智能：一种现代方法》深度阅读产出）逆向萃取。

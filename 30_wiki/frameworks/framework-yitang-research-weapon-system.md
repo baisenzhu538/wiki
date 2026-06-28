@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-weapon-system
 title: 调研超级武器库：三层八模块十四节点
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
@@ -31,30 +30,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[tool-yitang-weapon-media-search]]
-  - [[tool-yitang-tech-project-research]]
-  - [[tool-yitang-research-exhaust-means]]
-  - [[tool-yitang-consulting-business-research]]
-  - [[tool-yitang-organization-research]]
-  - [[framework-yitang-four-research-types]]
-  - [[framework-yitang-high-level-plan]]
-  - [[framework-yitang-high-level-execution]]
-  - [[yt-research-intelligence-map]]
-  - [[yt-research-competitor-toolkit]]
-  - [[tool-yitang-reverse-data-analysis]]
-  - [[tool-yitang-field-research]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[tool-yitang-job-intelligence-research]]
-  - [[tool-yitang-ai-research-workflow]]
-  - [[tool-osint-overview]]
-  - [[tool-agent-native-overview]]
-  - [[tool-alt-data-overview]]
-  - [[tool-google-dorking]]
-  - [[tool-media-verification-overview]]
-  - [[framework-ci-operating-model]]
-  - [[framework-structured-analytic-techniques]]
-  - [[framework-multi-agent-research-architecture]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 调研超级武器库：三层八模块十四节点
 
 > **一句话**：调研不是"有没有做"，而是"有没有穷尽手段"。三层八模块十四节点，从公开到内部，从线上到线下，从人工到AI，构建完整的调研武器谱系。

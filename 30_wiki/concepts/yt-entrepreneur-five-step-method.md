@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
@@ -23,18 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[case-milktea-five-step]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 王语嫣
 source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
@@ -72,8 +61,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
-
 ---
+
 # 一堂五步法
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]

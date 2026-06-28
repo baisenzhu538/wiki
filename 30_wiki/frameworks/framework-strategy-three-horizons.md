@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-three-horizons
 title: 三个地平线：短中长期业务组合管理
 type: framework
@@ -7,8 +6,8 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - portfolio
+- strategy
+- portfolio
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_vlm_desc.md
@@ -17,12 +16,16 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[tool-strategy-three-horizons]]
-  - [[yt-pitch-emotionalization]]
-  - [[framework-strategy-ansoff]]
-  - [[framework-strategy-business-design]]
-  - [[tool-strategy-lifecycle]]
+- '[[strategy-domain-digest]]'
+- '[[tool-水水-管理决策权重偏差]]'
+- '[[tool-纪浩-AI使用边界管理法]]'
+- '[[ocr-一堂-地图-管理地图_conv]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[tool-泛产品落地-管理三段论]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[ocr-一堂-管理必修-课程清单]]'
 ---
+
 # 三个地平线：短中长期业务组合管理
 
 > 三个地平线（Three Horizons）框架帮助企业同时管理当下现金流、中期增长和长期创新。

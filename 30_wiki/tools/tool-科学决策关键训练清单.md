@@ -1,31 +1,26 @@
 ---
-
 id: tool-科学决策关键训练清单
 title: 科学决策ROI·关键训练清单
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键训练清单（重要））_vlm_desc.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-泛产品落地-业务建模]]
-  - [[tool-泛产品落地-逻辑MECE]]
-  - [[tool-泛产品落地-酝酿式打磨]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[framework-科学决策三角形]]
-  - [[tool-ROI决策评估画布]]
-  - [[tool-决策深度-L1优先级定性]]
-  - [[concept-稀缺机会窗口]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 科学决策ROI·关键训练清单
 
 ## 一句话定义

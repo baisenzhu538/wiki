@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-user-direct-interview
 title: 武器库策略1：直接访谈用户——四种接触方式
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-weapon-field-reconnaissance]]
-  - [[tool-yitang-weapon-partner-research]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-user-interview-5steps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略1：直接访谈用户
 
 > 最直接的用户调研——找到用户、接触用户、跟用户聊。

@@ -1,5 +1,4 @@
 ---
-
 id: dk-p1-model-switch-env
 title: P-1：切模型改环境变量无效——Claude Code 走全局设置
 type: dk
@@ -14,13 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-p6-session-resume-fail]]
-- [[dk-p14-zombie]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-p5-cc-connect-config]]
-- [[master-systems-thinking]]
-- [[master-first-principles]]
+- '[[dk-lz-code-is-disposable]]'
+- '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
+- '[[source-code-delivery-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-1：切模型改环境变量无效——Claude Code 走全局设置
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：在 WSL `.bashrc` / `.profile` 里 `export ANTHROPIC_*` 设为 Kimi，但 `claude.exe` 始终读不到，一直连 DeepSeek。改 Windows 注册表 + `wsl --shutdown` 也无效。

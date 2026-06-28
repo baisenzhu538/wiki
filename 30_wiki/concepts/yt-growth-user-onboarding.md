@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
 diagnostic_signals:
 - framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
   follow_up_question: 你的onboarding流程是什么？用户注册后看到什么？能否在3分钟内体验到价值？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你的引导是否可跳过？用户为什么跳过？引导内容是否有趣/有价值？
 - framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
   follow_up_question: onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？
-
 ---
+
 # 用户 onboarding：第一印象设计
 
 > 一堂五步法：onboarding不是教程，而是让用户快速体验到价值的旅程。第一印象决定留存。

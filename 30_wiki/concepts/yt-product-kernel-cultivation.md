@@ -1,62 +1,12 @@
 ---
-
-domain:
-- product
-
-
-
-
-id: yt-product-kernel-cultivation
-confidence: 0.9
-created_at: 2026-06-10
-difficulty: intermediate
-language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-review_date: 2026-06-10
-reviewed_by: "老顷童（精修）"
-source_refs:
-  - pending_archive:src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述
-  - pending_archive:src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图
-  - pending_archive:src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标
-  - pending_archive:src_20260522_45e97d9c-src_ocr_一堂产品内核_十大典型指标
-- src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述
-- src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图
-- src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标
-- src_20260522_45e97d9c-src_ocr_一堂产品内核_十大典型指标
-status: reviewed
-title: "产品内核修炼段位图"
-trust_level: medium
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: "五步法"
-  course_id: yt-product-kernel-cultivation
-  course_type: framework
-  level: core
-pipeline:
-  - src_unknown
-  - src_unknown
-diagnostic_signals:
-  - {'signal': '能清晰定义产品内核：用户愿意选择你的最小解决方案', 'framework_lens': '内核 = 最小可成交价值', 'follow_up_question': '如果只留下一个核心功能，用户还会选你吗？'}
-  - {'signal': '能判断自己处于六级进阶的哪个层级，并知道下一层要修炼什么', 'framework_lens': '内核有段位', 'follow_up_question': '你当前在哪个层级？下一个层级最明显的差距是什么？'}
-  - {'signal': '产品内核会指导功能取舍，而不是功能越多越好', 'framework_lens': '内核是取舍标准', 'follow_up_question': '最近有没有一个功能因为不符合内核而被砍掉？'}
-updated_at: 2026-06-13
-author: "老顽童"
 related:
-- [[yt-unit-model-three-tools]]
-- [[yt-scale-economy-weapon-library]]
-- [[yt-product-ten-metrics]]
-- [[yt-demand-analysis-hiking-map]]
-- [[yt-model-product-core-metrics]]
+- '[[yt-five-step-method]]'
+- '[[yt-product-ten-metrics]]'
+- '[[case-shampoo-product-kernel]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 产品内核修炼段位图
 
 > 来源：一堂五步法·解决方案篇 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md`（洪七公 OCR 整合） | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]

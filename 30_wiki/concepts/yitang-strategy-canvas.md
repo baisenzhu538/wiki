@@ -47,13 +47,13 @@ diagnostic_signals:
   follow_up_question: 你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？
 author: 老顽童
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-
+- '[[yt-entrepreneur-opportunity-selection]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线
 
 > 来源：蓝海战略核心工具，与一堂「做替代者而非进入者」「避免同质化竞争」的战略观高度契合。常与[[yt-entrepreneur-opportunity-selection]]、[[concept-一堂-product-kernel]]配合使用。

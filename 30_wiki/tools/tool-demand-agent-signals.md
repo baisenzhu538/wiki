@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-signals
 title: Agent L1-L2信号聚合：替代"凭经验猜用户"
 type: tool
@@ -12,22 +11,20 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
-  - ai-collaboration
+- yitang
+- five-step-method
+- ai-collaboration
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[tool-demand-agent-case-match]]
-  - [[tool-alt-data-overview]]
-  - [[tool-demand-agent-auto-verify]]
-  - [[tool-demand-agent-signal-substitute]]
-  - [[tool-demand-iceberg-l1-user]]
-  - [[tool-demand-iceberg-l2-scenario]]
-  - [[tool-demand-blindspot-checklist]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Agent L1-L2信号聚合
 
 > L1+L2的传统做法是"凭经验猜用户画像和场景"。Agent可以替代这一步——自动聚合Reddit/评论/搜索趋势/竞品数据，用信号代替直觉。

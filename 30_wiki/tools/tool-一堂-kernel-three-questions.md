@@ -1,56 +1,12 @@
 ---
-
-id: tool-一堂-kernel-three-questions
-title: 技能：内核要素三问验证法
-type: tool
-status: enriched
-domain:
-- src_unknown
-source_person: Truman
-source_context: 一堂产品内核验证课
-source_refs:
-  - 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
-  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
-- 10_raw/sources/src_20260619_65f7d168_00_inbox_一堂_产品内核验证课_Truman_口述.txt
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
-tools_required:
-- src_unknown
-- src_unknown
-prerequisite_skills:
-- src_unknown
-- src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-wiki_refs:
-- src_unknown
-- src_unknown
-created_at: '2026-06-10'
-updated_at: '2026-06-17'
-pipeline:
-- src_unknown
-- src_unknown
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-diagnostic_signals:
-- lens: 优化性当决定性
-  follow_up: 执行决定性测试：去掉后转化率会大降吗？要求数据或用户原话支撑
-- lens: 完备性缺失
-  follow_up: 画用户决策因果链，检查从'看到产品'到'付费/留存'是否有断点
-- lens: 过早细化
-  follow_up: 标注验证状态，存疑项默认'做而不信'，先验证再细化
-- lens: 内部观点代替用户事实
-  follow_up: 优化性测试必须访谈3-5个真实用户，收集事实而非结论
-- lens: 验证停止
-  follow_up: 三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整
+- '[[concept-一堂-product-kernel]]'
+- '[[tool-一堂-product-kernel-add-subtract]]'
+- '[[tool-一堂-five-step-validation]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 技能：内核要素三问验证法
 
 ## Summary

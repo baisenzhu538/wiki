@@ -1,17 +1,15 @@
 ---
-
-
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+- ai-collaboration
+- yitang- ai-collaboration
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
-  - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -30,22 +28,20 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[tool-ai-problem-validation]]
-  - [[dk-modeling-ai-compound-leverage]]
-  - [[master-ai-info-literacy]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[sk-ai-question-problem-checklist]]
-  - [[ai-collaboration-mindset-shift]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-  - src_unknown
-
+- src_unknown
+- src_unknown
 ---
+
 # 技能：问题验证三维度法
 
 ## 用一句话讲清楚

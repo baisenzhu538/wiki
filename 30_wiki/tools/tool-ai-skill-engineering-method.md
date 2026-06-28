@@ -20,11 +20,14 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[plan_20260621_skill-iteration-standard]]'
 tags:
 - src_unknown
 - src_unknown
@@ -39,8 +42,8 @@ diagnostic_signals:
   follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
 - framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
-
 ---
+
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 
 > 来源：一堂建模能力培训（Truman）口述稿 | 背景：Truman 分享如何通过“找最佳实践 → 翻译解读 → 合并建模 → 迭代挑错 → 交叉验证 → 落地审计”六步，把个人审美和逻辑洁癖固化成一份可复用、可审计的 AI Skill 工程指南。

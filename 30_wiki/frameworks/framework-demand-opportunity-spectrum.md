@@ -1,5 +1,4 @@
 ---
-
 id: framework-demand-opportunity-spectrum
 title: 商业机会预判·终局光谱图
 type: framework
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-商业终局光谱图-图-01_ocr_text.md
 related:
-  - [[yt-foresight-business-spectrum]]
-  - [[case-escort-service-tiered-growth]]
-  - [[case-ai-time-management-tiered-growth]]
-  - [[tool-yitang-supplier-interview]]
-  - [[tool-yitang-expert-network-platform]]
-  - [[tool-demand-assessment-triangle]]
-  - [[framework-demand-iceberg]]
+- '[[yitang-domain-digest]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[ocr-一堂-单元模型-壁垒预判]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[ocr-预判模型]]'
 ---
+
 # 商业机会预判·终局光谱图
 
 > 不是所有机会都值得做成上市公司的。光谱图帮你定位：这个机会最多能做到多大？

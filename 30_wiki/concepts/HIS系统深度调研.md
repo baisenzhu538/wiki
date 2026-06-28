@@ -1,7 +1,5 @@
 ---
-
-
-id: "HIS系统深度调研"
+id: HIS系统深度调研
 created_at: 2026-05-03
 domain: healthcare
 review_date: 2026-05-03
@@ -9,22 +7,26 @@ reviewed_by: Claude
 source_refs:
 - src_20260503_968e0210-HIS系统深度调研
 status: reviewed
-title: "HIS系统深度调研"
+title: HIS系统深度调研
 trust_level: medium
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: unknown
 confidence: 0.85
 related:
-  - [[紫鲸ai智能体工作流平台]]
-  - [[HIS系统开发实现方案-架构师指南]]
-  - [[街顺app全面调研报告]]
-  - [[保达云诊所深度调研报告]]
-  - [[鑫港湾his系统分阶段整改报告]]
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[鑫港湾HIS项目]]'
+- '[[街顺app全面调研报告]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[tool-yitang-store-franchise-research]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[tool-月白-文创材质调研与精益选择]]'
 ---
+
 # HIS系统深度调研
 
 ## Summary

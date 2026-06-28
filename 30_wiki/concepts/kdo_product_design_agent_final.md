@@ -1,28 +1,30 @@
 ---
-
-
 id: kdo_product_design_agent_final
 created_at: 2026-05-03
 domain: ai-saas
 source_refs:
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 status: enriched
-title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)"
+title: Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - src_unknown
+- src_unknown
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[紫鲸ai智能体工作流平台]]
-  - [[保达云诊所深度调研报告]]
-  - [[轻量级诊所HIS调研全清单]]
-  - [[HIS系统深度调研]]
-  - [[kdo-protocol]]
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-月白-PPT全AI生成工作流]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[kdo-priority-checklist]]'
+- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
 ---
+
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
 
 ## Summary

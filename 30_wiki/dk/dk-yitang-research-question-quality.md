@@ -7,25 +7,24 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-research-cross-validation-cost]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[concept-yitang-ai-research-human-loop]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[concept-yitang-ideal-research-goal]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 好调研目标 vs 坏调研目标
 
 > 差的调研目标是"我想了解XX"。好的调研目标是一个可以被验证或证伪的陈述。

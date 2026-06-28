@@ -1,13 +1,12 @@
 ---
-
 id: dk-five-step-framework-legitimizes-bias
-title: "暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析"
+title: 暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析
 type: dk
 dark_knowledge_type: anti-pattern
 status: enriched
 domain:
-  - yitang
-  - entrepreneur
+- yitang
+- entrepreneur
 source_person: Truman
 source_context: 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -16,16 +15,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - [[yt-five-step-level-blindspots]]
-  - [[yt-five-step-common-pitfalls]]
-  - [[dk-level-blindspot-external-feedback]]
-  - [[yt-business-analysis-cognitive-biases]]
-  - [[five-step-domain-digest]]
-  - [[yt-five-step-method]]
-  - [[yt-five-step-common-pitfalls]]
-  - [[yt-five-step-level-blindspots]]
-  - [[yt-business-analysis-cognitive-biases]]
-  - [[tool-cognitive-bias-12-check]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -50,6 +44,7 @@ diagnostic_signals:
   framework_lens: 学习信号缺失——真正的科学方法会不断推翻旧假设，稳定的结论往往是方法论停滞的信号
   follow_up_question: 上一次你团队用五步法得出和预期相反的结论是什么时候？如果从不发生，方法论可能已经沦为仪式。
 ---
+
 # 暗知识：框架不会自动降噪，反而可能「合法化」偏见
 
 > 用了五步法不代表科学分析——可能只是把直觉结论套进五个框重新排版。

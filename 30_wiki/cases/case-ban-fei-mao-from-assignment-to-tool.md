@@ -13,9 +13,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 你当前有没有一个真实的、正在进行的业务问题？如果没有，练习结论的可迁移性会打多少折扣？
 - framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
-
 ---
+
 # 案例：半肥猫把一堂课程作业变成可复用调研工具
 
 > 半肥猫将一堂《AIGC调研方法》课程作业用自己的真实业务重做，通过给AI提供结构化上下文、连续四轮纠偏把AI从"推理"逼到"证据"，最终把单次作业沉淀为一套可复用的"从模糊问题到证据决策型报告"调研工具。

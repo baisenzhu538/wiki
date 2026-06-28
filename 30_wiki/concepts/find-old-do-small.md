@@ -1,48 +1,48 @@
 ---
-
 id: find-old-do-small
-title: "找老的干小的：AI落地场景评估框架"
+title: 找老的干小的：AI落地场景评估框架
 type: tool
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 source_refs:
 - src_20260606_ef4877d0-所以90的核心问题
 component_of:
-  - src_unknown
+- src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[ai-landing-scene-selection]]'
+- '[[course-to-skill-conversion]]'
+- '[[ai-learning-closed-loop]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
-created_at: "2026-06-15"
-updated_at: "2026-06-17"
+created_at: '2026-06-15'
+updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - lens: "场景评估"
-    follow_up: "用检查清单对3个场景打分，1小时内完成评估"
-  - lens: "回溯检查"
-    follow_up: "检查是否跳过了老或小的检查，找到1个被忽略的关键检查项"
-  - lens: "客观排序"
-    follow_up: "用四要素检查各自方案，形成客观的打分排序"
-  - lens: "场景错配"
-    follow_up: "重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景"
+- lens: 场景评估
+  follow_up: 用检查清单对3个场景打分，1小时内完成评估
+- lens: 回溯检查
+  follow_up: 检查是否跳过了老或小的检查，找到1个被忽略的关键检查项
+- lens: 客观排序
+  follow_up: 用四要素检查各自方案，形成客观的打分排序
+- lens: 场景错配
+  follow_up: 重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景
 ---
+
 # "找老的干小的"场景评估框架
 
 > Source: src_20260606_ef4877d0 (马易-AI落地场景识别-口述)

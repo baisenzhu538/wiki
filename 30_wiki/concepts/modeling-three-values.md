@@ -1,44 +1,42 @@
 ---
-
-
 id: modeling-three-values
-title: "建模的三重价值：确定性、框架性、迁移性"
+title: 建模的三重价值：确定性、框架性、迁移性
 type: concept
 source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-  - src_unknown
-updated_at: "2026-06-17"
+- src_unknown
+updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-14"
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_context: 单一source为完整长文档，内容充分支撑high trust。P1收尾时从high降为medium，待补充第二来源或充分验证后再升回high
 diagnostic_signals:
-  - lens: "确定性缺失"
-    follow_up: "检查是否有流程建模/SOP/清单，确保每次稳定产出"
-  - lens: "框架性缺失"
-    follow_up: "引入抽象建模/框架，让复杂问题有章法，抓住主动权"
-  - lens: "迁移性缺失"
-    follow_up: "做本质建模，提炼跨领域规律，一次提炼多处复用"
-  - lens: "框架性不足"
-    follow_up: "用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键"
-  - lens: "经验未沉淀"
-    follow_up: "检查是否有本质建模输出，经验是否被提炼为可迁移模式"
-
+- lens: 确定性缺失
+  follow_up: 检查是否有流程建模/SOP/清单，确保每次稳定产出
+- lens: 框架性缺失
+  follow_up: 引入抽象建模/框架，让复杂问题有章法，抓住主动权
+- lens: 迁移性缺失
+  follow_up: 做本质建模，提炼跨领域规律，一次提炼多处复用
+- lens: 框架性不足
+  follow_up: 用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键
+- lens: 经验未沉淀
+  follow_up: 检查是否有本质建模输出，经验是否被提炼为可迁移模式
 ---
+
 # 建模的三重价值：确定性、框架性、迁移性
 
 > **Burn line**: 所有模型最终都是为了解决三个问题：让输出更确定、让思考有框架、让经验可迁移。

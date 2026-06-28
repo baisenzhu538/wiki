@@ -9,20 +9,19 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验_vlm_desc.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验_vlm_desc.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-完整财务公式决策]]
-  - [[dk-决策经验值]]
-  - [[framework-lean-abcd-model]]
-  - [[tool-ROI决策评估画布]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 暗知识：你的业务是一次抽样实验
 
 ## 反直觉洞察

@@ -24,9 +24,12 @@ review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -55,8 +58,8 @@ diagnostic_signals:
   follow_up: 如果推荐导致滑档/退档，产品能否给出可执行的补救方案和责任边界？
 - lens: 信息不对称 + 信任缺口
   follow_up: 能否用第三方数据溯源、专家背书或人工复核把"不可验证"变成"可验证"？
-
 ---
+
 # 案例：AI高考志愿填报产品因内核错位而失敗
 
 > 老顽童整理 · 一堂产品内核实操课案例

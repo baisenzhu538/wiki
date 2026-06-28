@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-l4-internalization]]'
+- '[[yt-model-prediction-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -43,8 +43,8 @@ diagnostic_signals:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
-
 ---
+
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 
 ## 用一句话讲清楚

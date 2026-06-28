@@ -1,5 +1,4 @@
 ---
-
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dk
@@ -14,13 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-yb32-doubao-size-composition]]
-- [[ouyangfeng-labeling-research-review]]
-- [[data-labeling-best-practices-report]]
-- [[dk-p7-ocr-skip]]
-- [[dk-c1-cjk-regex-silent-fail]]
-- [[master-ai-info-literacy]]
-- [[master-first-principles]]
+- '[[yt-entrepreneur-spin-selling]]'
+- '[[dk-yb23-ai-pre-screen-three-minutes]]'
+- '[[yt-entrepreneur-259-milestone]]'
+- '[[tool-lean-presell]]'
+- '[[dk-yitang-cross-case-pattern-failure-premium]]'
+- '[[yt-entrepreneur-fundraising]]'
+- '[[yt-entrepreneur-channel-exploration]]'
+- '[[yt-personal-scientific-expression]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,8 +38,10 @@ diagnostic_signals:
   follow_up_question: 分别用中英两种语料的 chunk 做匹配实验；若只有英文命中，确认需要双语词典或语言无关的匹配策略
 - signal: src_unknown
   framework_lens: 自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外
-  follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding# P-20：pre-screen bigram 匹配对中文文本完全失效
+  follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding#
+    P-20：pre-screen bigram 匹配对中文文本完全失效
 ---
+
 ## 原始表述
 
 > **症状**：tag-registry v1.1 的 `includes`/`excludes` 字段全是英文描述（如 "falsifiable knowledge claim, testable assertion"），但 KDO 的 chunk 90% 是中文。bigram 匹配跨语言完全失效，pre-screen 返回 0 candidates。

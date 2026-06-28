@@ -11,19 +11,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - [[case-yitang-doorstep-pet-feeding-trust]]
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[case-yitang-voice-robot-companion-design]]
-  - [[case-yitang-ai-time-management-coach]]
-  - [[tool-yitang-user-interview-5steps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：民宿接待方案设计
 
 **案例来源**：行动营学员案例——"我想做民宿接待方案，如何通过调研来提升设计质量？"

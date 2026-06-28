@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 type: dk
@@ -15,12 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-p16-validate-reads-state-json]]
-- [[dk-p1-model-switch-env]]
-- [[dk-p5-cc-connect-config]]
-- [[master-systems-thinking]]
-- [[master-first-principles]]
+- '[[yt-skill-storyline-key-elements]]'
+- '[[dk-p16-validate-reads-state-json]]'
+- '[[dk-f3-state-json-race-condition]]'
+- '[[yt-product-kernel-key-conversion]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[tool-yitang-web-scraping-research]]'
+- '[[concept-feishu-api-pagination-trap]]'
+- '[[dk-yitang-model-asset-capitalization]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,6 +36,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：更新 `~/.hermes/profiles/*/.env` 中的 `KIMI_API_KEY` 后重启服务，仍然 HTTP 401，日志显示用的还是旧 Key。用户和欧阳锋多轮尝试换新 Key 无效——"系统顽固用旧的覆盖新的"。

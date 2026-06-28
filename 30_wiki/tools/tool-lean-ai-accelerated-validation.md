@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-ai-accelerated-validation
 title: AI 加速 FALSE 模型验证
 type: tool
@@ -10,27 +9,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md
 related:
-  - [[framework-ai-accelerated-strategy-cycle]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[yt-lean-false-model-ai]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # AI 加速 FALSE 模型验证
 
 > 用 AI 把 FALSE 模型 F/A/L/S/E 各阶段的验证素材生成、用户模拟、原型搭建和数据分析成本压到更低，但前提仍是先拆出最高风险假设，否则 AI 只是加速犯错。

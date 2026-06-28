@@ -16,11 +16,11 @@ review_date: '2026-06-19'
 confidence: 0.89
 trust_level: medium
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - src_unknown
 - src_unknown
@@ -39,8 +39,8 @@ diagnostic_signals:
   follow_up_question: 已落地的诊所/药柜实际日均订单、医保药与原研药销售占比、真实租金与审方费是多少？是否与本框架参考区间一致？
 - framework_lens: 医保支付与政策合规
   follow_up_question: 山西各地市门诊统筹起付线、报销比例、乙类先行自付比例及审方平台收费标准是否已逐一确认？政策变化对盈亏平衡日订单的影响边界是多少？
-
 ---
+
 # 鑫港湾医药零售商业模型计算框架
 
 > **用途**：为「小程序医药商城 + 实体药店 + 智慧药柜 + 诊所场地合作 + 互联网医院/HIS」模式提供一套可复用的**财务计算框架**。

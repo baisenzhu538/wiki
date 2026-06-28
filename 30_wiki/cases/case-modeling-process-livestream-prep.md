@@ -27,9 +27,12 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
 diagnostic_signals:
 - framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）
@@ -39,8 +42,8 @@ diagnostic_signals:
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
 - framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
-
 ---
+
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 
 > 来源：Truman-高阶建模-流程建模-开播准备-图-01 | 一堂建模能力培训（Truman）

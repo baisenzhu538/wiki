@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-supplier-interview
 title: 供应商访谈：从供应链端获取竞对数据
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-hardware-product-disassembly]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-partner-research]]
-  - [[tool-yitang-supply-chain-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 供应商访谈
 
 > 找到竞对的供应商，以"潜在客户"身份获取竞对的真实数据。

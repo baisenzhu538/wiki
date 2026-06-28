@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb19-visual-strategy-price-match
 title: 餐饮图片视觉策略与价格定位的匹配法则
 type: dk
@@ -17,14 +16,11 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
-- [[dk-yb30-ecommerce-channel-version]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb9-cubox-deployment-failure]]
-- [[dk-yb22-visual-presentation-scene-match]]
-- [[dk-yb18-small-shop-image-mismatch]]
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[yt-model-conversion-optimization]]
+- '[[yitang-domain-digest]]'
+- '[[tool-马易-AI落地场景筛选-四有新人法则]]'
+- '[[tool-月白-价格带视觉策略匹配]]'
+- '[[tool-月白-普通人AI设计80分法则]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,6 +28,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 餐饮图片视觉策略与价格定位的匹配法则
 ---
+
 ## 原始表述/核心洞察
 
 > 不同的价格在做设计的时候，视觉策略选择会不同。左边这张图看着亮，看着感觉像是被设计师精修了很多次之后，看着超级有食欲。这种图很像是我是有连锁餐饮门店的餐饮总部做出来的图。

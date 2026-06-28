@@ -17,11 +17,14 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[case-yitang-mvp-reward-interview-waste]]'
 diagnostic_signals:
 - framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
   follow_up_question: 你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？
@@ -33,8 +36,8 @@ diagnostic_signals:
   follow_up_question: 非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？
 - framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
   follow_up_question: MVP和最终产品的区别是什么？MVP验证什么假设？
-
 ---
+
 # 内核MVP设计：最小可验证产品
 
 > 一堂五步法：MVP（Minimum Viable Product）不是"最小产品"，而是"最小可验证产品"——用最小成本验证核心假设。

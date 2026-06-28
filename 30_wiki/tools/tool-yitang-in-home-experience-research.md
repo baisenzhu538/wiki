@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-in-home-experience-research
 title: 上门体验调研：去用户家里看真实使用场景
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-full-product-experience]]
-  - [[tool-yitang-field-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 上门体验调研
 
 > 去用户家里/使用现场，看产品在真实环境中的表现。

@@ -1,15 +1,13 @@
 ---
-
-
 id: yt-tob-growth-channel
 title: To B 增长模式取舍：直销 vs 渠道
 type: framework
 status: enriched
 domain:
-  - yitang- yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+- yitang- yitang
+- entrepreneurship
+- b2b
+- business-strategy
 source_refs: []
 tags:
 - src_unknown
@@ -26,21 +24,13 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-  - [[yt-business-model-margin-structure]]
-  - [[yt-tob-cash-flow]]
-  - [[yt-tob-sales-unit-model]]
-  - [[yt-tob-unit-model]]
-  - [[yt-growth-acquisition-channels]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-unit-model-three-tools]]
-  - [[yt-business-formula-business-pattern-selector]]
-  - [[yt-lean-growth-stage-gate]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-management-business-formula]]
-  - [[yt-tob-unit-model]]
-  - [[yt-tob-customer-sabc]]
-
+- '[[yt-tob-unit-model]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 > 增长环节最常见的坑，是不做任何判断：擅长销售的人什么都想做直销，不擅长销售的人则想全部丢给渠道。核心判断标准是——**单位时间内，针对当前业务目标，哪种方式的规模化效率最高**。（口述稿 ~3218-3482；课堂笔记 §5）
 
 ## 决策框架

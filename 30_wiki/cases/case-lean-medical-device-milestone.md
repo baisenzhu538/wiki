@@ -1,5 +1,4 @@
 ---
-
 id: case-lean-medical-device-milestone
 title: 医疗器械项目里程碑测试
 type: case
@@ -10,9 +9,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_vlm_desc.md
@@ -25,20 +24,11 @@ source_refs:
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程·医疗器械案例
 related:
-  - [[case-lean-weak-solution]]
-  - [[case-lean-premature-refinement]]
-  - [[case-lean-adult-education]]
-  - [[case-lean-shoe-mvp-evolution]]
-  - [[case-lean-premature-expansion]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 医疗器械项目里程碑测试
 
 ## 核心洞察

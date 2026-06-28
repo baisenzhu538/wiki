@@ -7,10 +7,19 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[dk-strategy-essence-four-elements]]'
+- '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训
 
 ## 原始表述

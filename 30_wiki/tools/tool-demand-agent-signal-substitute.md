@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
@@ -12,19 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
-  - ai-collaboration
+- yitang
+- five-step-method
+- ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - [[tool-demand-agent-signals]]
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[tool-demand-agent-case-match]]
-  - [[tool-demand-four-forces]]
-  - [[tool-demand-agent-auto-verify]]
-  - [[tool-demand-iceberg-l5-forces]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Agent L5信号提取
 
 > L5的"微观体感推演"需要人的共情能力——Agent做不到。但Agent可以替代另一个维度：从非结构化数据中提取四种力量和三种任务的信号模式。

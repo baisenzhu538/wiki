@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-demand-pitfall-travel-agent
 title: 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 type: dk
@@ -9,17 +7,20 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-- [[dk-demand-pitfall-indonesia-insurance]]
-- [[dk-demand-pitfall-dialer]]
-- [[dk-demand-pitfall-financial-literacy]]
-- [[dk-strategy-05-positioning-trap]]
-- [[dk-demand-pitfall-rural-5g]]
-- [[case-demand-travel-agent]]
+- '[[dk-demand-hidden-need]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 
 ## 原始表述

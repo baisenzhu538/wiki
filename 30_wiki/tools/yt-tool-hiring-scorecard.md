@@ -15,11 +15,11 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-management-scientific-hiring]]'
+- '[[yt-decision-width-method]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -51,8 +51,8 @@ diagnostic_signals:
 - framework_lens: 打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉
   follow_up_question: 过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具
 author: 老顽童
-
 ---
+
 # 结构化面试打分卡
 
 > 来源：从 [[yt-management-scientific-hiring]] 概念卡萃取的工具内核。一套可独立使用的招聘流程工具——从岗位画像到打分卡到群体决策，降低"招顺眼""招面试高手"的系统性偏差。

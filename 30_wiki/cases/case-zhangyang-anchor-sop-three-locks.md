@@ -27,17 +27,20 @@ diagnostic_signals:
 - framework_lens: SOP 检查机制独立化
   follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[tool-sop-template-modeling]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 
 > **Burn line**: SOP 写出来不等于被执行，给 SOP 加两层“锁”，才能把执行率从 50–70% 提到接近 100%。

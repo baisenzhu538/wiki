@@ -1,16 +1,11 @@
 ---
-
-
-
-
-
 id: yt-unit-model-build
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites: '[[yt-unit-model-concept]]'
@@ -21,16 +16,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-unit-model-concept]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
@@ -39,7 +29,7 @@ source_refs:
 status: enriched
 title: 单元模型搭建五步法
 trust_level: medium
-type: "tool"
+type: tool
 updated_at: '2026-06-16'
 version: 2
 yitang:
@@ -58,8 +48,8 @@ diagnostic_signals:
 - framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
-
 ---
+
 # 单元模型搭建五步法
 
 > 来源：一堂五步法·单元模型篇 | [[yt-unit-model-concept]] | [[yt-unit-model-ladder]] | [[yt-unit-model-selection]] | [[yt-market-size-estimation]] | [[case-unit-model-gashapon]]

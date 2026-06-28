@@ -1,5 +1,4 @@
 ---
-
 id: tool-media-verification-overview
 title: 媒体验证技术总览：判断"对方说的是不是真的"
 type: tool
@@ -12,21 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-firecrawl]]
-  - [[tool-agent-native-overview]]
-  - [[tool-osint-wayback]]
-  - [[tool-metadata-extraction]]
-  - [[tool-reverse-image-search]]
-  - [[tool-reverse-image-search]]
-  - [[tool-metadata-extraction]]
-  - [[framework-yitang-six-layer-cross-validation]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 媒体验证技术总览
 
 > 竞对声称"我们的产品在XX市场大获成功"、照片里"热火朝天的生产线"、视频里"人山人海的门店"——这些是真的还是演的？媒体验证技术用客观证据说话。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-full-product-experience
 title: 武器库策略3：完整体验产品——从购买到使用的全链路
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-online-product-experience]]
-  - [[tool-yitang-weapon-insider-intelligence]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-consumer-goods-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 武器库策略3：完整体验产品
 
 > 产品本身就是信息最密集的节点。完整走一遍用户的使用链路。

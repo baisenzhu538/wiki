@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -22,21 +19,12 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 tags:
 - src_unknown
 - src_unknown
@@ -52,6 +40,7 @@ diagnostic_signals:
 - framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
 ---
+
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 
 > **Burn line**: 不是让 AI 随便写个 Skill，而是用工程指南把 AI 的输出质量锁死在你的审美上限。

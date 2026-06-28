@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-info-literacy-three-layer
 title: 技能：AI输出三层防护检查法
 type: tool
@@ -14,10 +13,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -48,6 +48,7 @@ diagnostic_signals:
 - lens: 追溯缺失
   follow_up: 必须追到原始来源，防止综合后的信息丢失来源。第三层不可跳过
 ---
+
 # 技能：AI输出三层防护检查法
 
 > **来源**：基于 master-ai-info-literacy 框架提炼

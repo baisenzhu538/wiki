@@ -12,19 +12,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - content-production
+- yitang
+- content-production
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-demand-pharma-bigdata]]
-  - [[case-yitang-mahjong-machine-fake-order]]
-  - [[case-xian-franchise-location-decision]]
-  - [[case-popmart-prospectus-pricing]]
-  - [[framework-candy-transcript-workflow]]
-  - [[concept-candy-ai-as-collaborator]]
+- '[[yitang-domain-digest]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-场景推演]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
 ---
+
 # 案例：VPN场景
 
 > Candy在Problem OS逐字稿中使用的核心案例——展示一个低质量提问如何一步步消耗双方。

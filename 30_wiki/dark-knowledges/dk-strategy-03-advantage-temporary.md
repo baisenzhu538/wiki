@@ -4,13 +4,22 @@ title: 竞争优势难持久。30年前500强90%已消失——竞争优势≠�
 type: dk
 status: enriched
 author: 老顽童
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
 - src_unknown
+related:
+- '[[dk-strategy-longzhong-four-failures]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 ---
+
 # 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久
 
 ## 原始表述

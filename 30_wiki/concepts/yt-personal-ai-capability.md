@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -23,12 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
@@ -56,8 +51,8 @@ diagnostic_signals:
   follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
 updated_at: '2026-06-16'
 author: 老顽童
-
 ---
+
 # AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

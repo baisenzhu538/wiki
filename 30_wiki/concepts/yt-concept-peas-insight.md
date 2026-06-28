@@ -18,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[tool-月白-后台数据AI诊断法]]'
+- '[[tool-月白-小红书封面趋势判断法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html
@@ -40,8 +40,8 @@ diagnostic_signals:
   follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
 updated_at: '2026-06-28'
 author: 老顽童
-
 ---
+
 # PEAS核心洞察：决策系统的四槽诊断法
 
 > **一句话**：90% 的目标失败不是因为不够努力，是因为只填了 P（目标数字），漏了 E/A/S。

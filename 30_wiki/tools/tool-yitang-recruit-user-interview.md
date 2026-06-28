@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-recruit-user-interview
 title: 招募用户访谈：公开招募+激励设计
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-user-direct-interview]]
-  - [[tool-yitang-user-interview-5steps]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 招募用户访谈
 
 > 公开招募目标用户参与访谈——用激励换取深度信息。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-bidding-analysis
 title: 招投标分析：从政府采购反推客户和订单
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-b2b-gov-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 招投标分析
 
 > 政府采购网/招投标平台是B2G/B2B情报的金矿——中标公告里写着竞对的客户、订单金额、技术方案。

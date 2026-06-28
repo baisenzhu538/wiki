@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-customer-selection
 title: 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环
 type: tool
@@ -15,22 +14,16 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - [[framework-strategy-ansoff]]
-  - [[tool-strategy-core-competence-matrix]]
-  - [[framework-strategy-kai-innovation-directions]]
-  - [[tool-strategy-category-role-matrix]]
-  - [[tool-strategy-value-proposition]]
-  - [[case-strategy-retailer-activity-scope]]
-  - [[case-strategy-snack-business-design]]
-  - [[framework-strategy-blm]]
-  - [[framework-strategy-business-design]]
-  - [[tool-strategy-blue-ocean-canvas]]
-  - [[tool-strategy-business-design-template]]
-  - [[tool-strategy-category-role-matrix]]
-  - [[tool-strategy-market-opportunity-matrix]]
-  - [[tool-strategy-platform-business-map]]
-  - [[tool-strategy-value-proposition]]
+- '[[strategy-domain-digest]]'
+- '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
+- '[[tool-场景推演]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
+- '[[tool-马易-最小场景优先落地法]]'
+- '[[tool-月白-产品替换式场景合成法]]'
+- '[[tool-马易-数据存储架构选择]]'
+- '[[tool-月白-后台数据AI诊断法]]'
 ---
+
 # 客户选择：六步循环迭代法
 
 > 业务设计六要素第 1 要素。核心问题：**我们到底为谁创造价值？谁是我们最重要的客户？**

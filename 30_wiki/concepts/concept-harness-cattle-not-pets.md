@@ -1,5 +1,4 @@
 ---
-
 id: concept-harness-cattle-not-pets
 title: 牲口而非宠物：每次迭代用全新Generator实例
 type: concept
@@ -12,21 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - [[concept-research-responsibility-boundary]]
-  - [[tool-yitang-behavioral-observation]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[concept-candy-ai-as-collaborator]]
-  - [[tool-yitang-supplier-interview]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-multi-agent-research-architecture]]
-  - [[concept-candy-ai-as-collaborator]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 牲口而非宠物
 
 > 传统模式：一个Agent实例持续运行，不断修改自己的代码——久而久之，Agent会对自己的代码产生"情感依附"，舍不得删、不敢大改。牲口模式：每轮迭代起全新Generator实例，从checkpoint重建状态，无历史包袱。

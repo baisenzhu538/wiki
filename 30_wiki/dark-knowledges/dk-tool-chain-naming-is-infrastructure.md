@@ -11,18 +11,13 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
 source_refs:
-  - src_unknown
+- src_unknown
 related:
-- [[dk-small-format-error-cascades-to-system-failure]]
-- [[dk-p18-yaml-parser]]
-- [[dk-p19-quote-yaml]]
-- [[proposal-yaml-frontmatter-standardization]]
-- [[dk-f13-handwritten-yaml-parser]]
-- [[dk-f10-broken-source-refs]]
-- [[dk-f8-phony-wikilink]]
-- [[dk-p11-regex-cutoff]]
-- [[dk-p19-quote-yaml]]
-- [[dk-f13-handwritten-yaml-parser]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 bridges_to:
 - src_unknown
 - src_unknown
@@ -45,6 +40,7 @@ diagnostic_signals:
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？# 命名不规范会让整条工具链"失明"
 updated_at: 2026-06-28
 ---
+
 ## 原始表述 / 核心洞察
 
 在第 26、27 节精修中，同一类问题反复出现：

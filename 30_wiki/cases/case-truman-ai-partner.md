@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -37,15 +33,9 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-personal-checklist-notes]]'
+- '[[case-ji-hao-skills-market]]'
+- '[[pending_unknown]]'
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8
@@ -58,6 +48,7 @@ diagnostic_signals:
 - framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
 ---
+
 # 案例：Truman AI Partner（阿蕊老师）
 
 > Truman 用十年时间积累 1500+ 篇清单体模型笔记，将其编译为领域知识库，封装成一个 P 角色的 AI agent（内部代号"阿蕊老师"），在一堂内部使用并计划单独售卖。

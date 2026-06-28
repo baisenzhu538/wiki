@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-demand-pitfall-dialer
 title: 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 type: dk
@@ -9,17 +7,20 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [yitang, five-step-method]
+domain:
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-- [[dk-demand-pitfall-indonesia-insurance]]
-- [[dk-demand-pitfall-travel-agent]]
-- [[dk-strategy-05-positioning-trap]]
-- [[dk-demand-pitfall-financial-literacy]]
-- [[dk-demand-pitfall-rural-5g]]
-- [[case-demand-dialer]]
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[dk-demand-hidden-need]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 
 ## 原始表述

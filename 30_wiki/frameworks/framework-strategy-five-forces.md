@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-five-forces
 title: 波特五力分析框架
 type: framework
@@ -7,8 +6,8 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - strategy
-  - market_analysis
+- strategy
+- market_analysis
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_vlm_desc.md
@@ -17,19 +16,13 @@ updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[framework-strategy-ansoff]]
-  - [[tool-strategy-core-competence-matrix]]
-  - [[tool-strategy-industry-chain-analysis]]
-  - [[tool-strategy-blue-ocean-canvas]]
-  - [[tool-strategy-value-proposition]]
-  - [[case-strategy-model-selection-quiz]]
-  - [[case-strategy-snack-industry-chain]]
-  - [[framework-strategy-blm]]
-  - [[tool-strategy-blue-ocean-canvas]]
-  - [[tool-strategy-ksf]]
-  - [[tool-strategy-market-opportunity-matrix]]
-  - [[tool-strategy-swot]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 波特五力分析框架
 
 > 迈克尔·波特（Michael E. Porter）提出的行业竞争分析框架，用于评估行业吸引力和盈利潜力。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-bp-analysis
 title: 商业计划书分析：从竞对BP中提取商业模式
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-security-guard-intel]]
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-financial-report-intelligence]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 商业计划书分析
 
 > 竞对的BP/路演PPT——浓缩版的商业模式说明书。如果竞对融过资，BP大概率在投资人圈子里流传。

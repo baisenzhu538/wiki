@@ -1,19 +1,17 @@
 ---
-
-
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 problem_domains:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 industry: 企业服务（FA/资本对接）
 scale: 平台级
 source_person: Truman
@@ -23,50 +21,52 @@ source_refs:
 - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
 - src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
 wiki_refs:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 related_skills:
-  - src_unknown
+- src_unknown
 related_concepts:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 related_cases:
-  - src_unknown
+- src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-created_at: "2026-06-06"
-updated_at: "2026-06-16"
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
+created_at: '2026-06-06'
+updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 王语嫣
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - framework_lens: 获客渠道未规模化——关系网络无法被系统化复用
-    follow_up_question: 能否把关系网络中的线索来源抽象为可复制的公开信息源？哪些信息源能持续产出新线索？
-  - framework_lens: 获客流程未工业化——搜索动作停留在手工作坊
-    follow_up_question: 哪些搜索动作可以脚本化、工具化或交给AI？判断一个线索是否值得跟进的标准是否清晰？
-  - framework_lens: 缺少统一线索池和分配规则
-    follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
-  - framework_lens: 抓取规则缺少质量分门槛
-    follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
+- framework_lens: 获客渠道未规模化——关系网络无法被系统化复用
+  follow_up_question: 能否把关系网络中的线索来源抽象为可复制的公开信息源？哪些信息源能持续产出新线索？
+- framework_lens: 获客流程未工业化——搜索动作停留在手工作坊
+  follow_up_question: 哪些搜索动作可以脚本化、工具化或交给AI？判断一个线索是否值得跟进的标准是否清晰？
+- framework_lens: 缺少统一线索池和分配规则
+  follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
+- framework_lens: 抓取规则缺少质量分门槛
+  follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
 ---
+
 # 案例：以太利用全网调研能力快速获客
 
 ## 原始表述

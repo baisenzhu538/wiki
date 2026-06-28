@@ -1,5 +1,4 @@
 ---
-
 id: concept-research-delegation-in-scaling
 title: 规模化中的调研委派：从"自己做"到"建机制"
 type: concept
@@ -12,20 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - [[concept-yitang-facts-first]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[concept-research-responsibility-boundary]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[tool-yitang-supplier-interview]]
-  - [[concept-ceo-must-do-user-research]]
-  - [[concept-research-responsibility-boundary]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 规模化中的调研委派
 
 > 当公司大了，CEO不可能亲自访谈每一个用户。但"不亲自做"不等于"不参与"。

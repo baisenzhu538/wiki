@@ -1,14 +1,10 @@
 ---
-
-
-
-
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -22,12 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
@@ -55,8 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # IPO 科学学习
 
 > 来源：Truman (许楚) 周五直播课，course_id 402，IPO 科学学习实操篇（下）。[[一堂方法论体系总图]] | [[yitang-course-map]]

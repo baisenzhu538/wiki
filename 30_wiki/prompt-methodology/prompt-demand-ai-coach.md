@@ -1,5 +1,4 @@
 ---
-
 id: prompt-demand-ai-coach
 title: AI需求分析教练：冰山六层全流程推演提示词
 type: prompt-methodology
@@ -12,26 +11,16 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
-  - prompt-engineering
+- yitang
+- five-step-method
+- prompt-engineering
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - [[framework-lean-expert-roadmap]]
-  - [[business-research-skill-oscar-13-weapon-system]]
-  - [[system-yitang-research-workflow]]
-  - [[framework-demand-iceberg]]
-  - [[tool-prompt-jtbd-scenario-coach]]
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l1-user]]
-  - [[tool-demand-iceberg-l2-scenario]]
-  - [[tool-demand-iceberg-l3-core-job]]
-  - [[tool-demand-iceberg-l4-job-map]]
-  - [[tool-demand-iceberg-l5-forces]]
-  - [[tool-demand-iceberg-l6-hypothesis]]
-  - [[framework-demand-usp-model]]
+- '[[yitang-domain-digest]]'
+- '[[tool-寻找学习教练法]]'
 ---
+
 # AI需求分析教练提示词
 
 > 这个提示词让AI成为JTBD需求分析教练，引导用户完成L1-L6全流程冰山推演。

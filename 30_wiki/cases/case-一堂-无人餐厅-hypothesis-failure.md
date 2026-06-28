@@ -16,16 +16,9 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-- [[case-truman-poker-deck-roi]]
-- [[yt-entrepreneur-259-milestone]]
-- [[truman-perspective-skill]]
-- [[concept-一堂-key-assumptions]]
-- [[concept-一堂-hypothesis-driven-business-methodology]]
-- [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-- [[concept-一堂-hypothesis-driven-business-methodology]]
-- [[dk-yi-tang-wishful-thinking-kills-startups]]
-- [[concept-一堂-key-assumptions]]
-- [[yt-lean-assumption-verification-3means]]
+- '[[concept-一堂-key-assumptions]]'
+- '[[yt-lean-assumption-verification-3means]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,6 +38,7 @@ reviewed_by: 黄药师
 confidence: 0.75
 trust_level: medium
 ---
+
 ## 原始表述
 
 > "机器人不能只是营销噱头，必须有独特经营价值，否则比传统餐厅人还多。"

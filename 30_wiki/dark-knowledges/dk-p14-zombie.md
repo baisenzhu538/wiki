@@ -1,5 +1,4 @@
 ---
-
 id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dk
@@ -14,15 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-c7-auto-backup-conflict]]
-- [[dk-p1-model-switch-env]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[obsidian-git-sync-protocol]]
-- [[master-systems-thinking]]
-- [[master-decision-hygiene]]
-- [[dk-p13-token-burn]]
-- [[dk-p6-session-resume-fail]]
+- '[[obsidian-git-sync-protocol]]'
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+- '[[dk-c7-auto-backup-conflict]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,6 +29,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 ---
+
 ## 原始表述/核心洞察
 
 > **症状**：PID 17916 `claude` 从 5月19日跑到今天（5天），CPU 仅 502 秒但可能烧了大量 API 费用。另外 PID 15540（hermes）从 5月16日跑了 8 天。80元账单不全是黄药师消耗。

@@ -1,5 +1,4 @@
 ---
-
 id: concept-streaming-extraction-pattern
 title: 流式提取模式——浏览器虚拟滚动到API分页的映射
 type: concept
@@ -8,14 +7,28 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 created_at: 2026-06-23
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [feishu, content-extraction, publishing, architecture]
+domain:
+- feishu
+- content-extraction
+- publishing
+- architecture
 source_refs:
-  - pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
-  - src_unknown
+- pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
+- src_unknown
+related:
+- '[[tool-马易-平台模式验证法]]'
+- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[tool-现场建模式萃取笔记]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[tool-月白-创作与执行双模式切换]]'
+- '[[tool-yitang-web-scraping-research]]'
+- '[[concept-feishu-api-pagination-trap]]'
 ---
+
 # 流式提取模式
 
 > **一句话：把浏览器的"虚拟滚动"概念映射到 API 提取——逐页拉取、逐页处理、逐批写入，不一次全量加载。**

@@ -1,5 +1,4 @@
 ---
-
 id: dk-f9-generic-critique
 title: F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 type: dk
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- [[dk-f11-encyclopedia-style]]
-- [[dk-f7-surface-translation]]
-- [[dk-f12-builder-context-deadlock]]
-- [[dk-f8-phony-wikilink]]
-- [[dk-p4-batch-format-empty]]
-- [[master-cognitive-bias-checklist]]
-- [[master-first-principles]]
-- [[dk-c8-format-complete-mind-empty]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,6 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 ---
+
 ## 原始表述/核心洞察
 
 > **触发场景**：Builder 执行三步编译法的 Critique 阶段

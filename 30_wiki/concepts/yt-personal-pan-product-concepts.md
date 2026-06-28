@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-personal-pan-product-concepts
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3300
 language: zh-CN
 query_triggers:
@@ -21,16 +17,11 @@ query_triggers:
 - src_unknown认知篇：重新理解泛化产品能力
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-personal-product-design]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
@@ -56,8 +47,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
 ---
+
 # 泛产品设计认知篇：重新理解泛化产品能力
 
 > 来源：一堂《全员必修：泛产品设计认知篇》口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-product-design]] | [[一堂]]

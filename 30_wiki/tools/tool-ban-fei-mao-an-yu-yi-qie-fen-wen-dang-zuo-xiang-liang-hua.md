@@ -17,11 +17,11 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -39,8 +39,8 @@ diagnostic_signals:
   follow_up: 放弃固定字数切分，改为按语义主题切分，并抽样验证答案是否依赖完整上下文
 - lens: 缺乏检索质量监控
   follow_up: 建立定期检索测试集，覆盖边界问题与负例，监控召回率与答案可用性
-
 ---
+
 # 技能：按语义切分文档做向量化
 
 ## 用一句话讲清楚

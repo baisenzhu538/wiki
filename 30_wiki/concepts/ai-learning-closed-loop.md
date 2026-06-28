@@ -1,48 +1,47 @@
 ---
-
 id: ai-learning-closed-loop
-title: "AI学习闭环：从听懂到能力的转化路径"
+title: AI学习闭环：从听懂到能力的转化路径
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 source_refs:
 - src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[ai-collaboration-mindset-shift]]'
+- '[[course-to-skill-conversion]]'
+- '[[ai-landing-scene-selection]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
-created_at: "2026-06-15"
-updated_at: "2026-06-17"
+created_at: '2026-06-15'
+updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - lens: "场景缺失"
-    follow_up: "用1句话写出本课程最适合当前哪个业务场景，72小时内完成第一次小规模实践"
-  - lens: "流畅性陷阱"
-    follow_up: "强制问三句：证据在哪里？信源是谁？是事实还是推理？"
-  - lens: "原子化缺失"
-    follow_up: "创建Inbox文件夹，定下每周五下午半小时整理的时间块"
-  - lens: "闭环断裂"
-    follow_up: "检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步"
+- lens: 场景缺失
+  follow_up: 用1句话写出本课程最适合当前哪个业务场景，72小时内完成第一次小规模实践
+- lens: 流畅性陷阱
+  follow_up: 强制问三句：证据在哪里？信源是谁？是事实还是推理？
+- lens: 原子化缺失
+  follow_up: 创建Inbox文件夹，定下每周五下午半小时整理的时间块
+- lens: 闭环断裂
+  follow_up: 检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步
 ---
+
 # AI学习闭环：从"听懂"到"能力"的转化路径
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述)

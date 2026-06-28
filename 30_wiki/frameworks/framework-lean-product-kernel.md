@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-product-kernel
 title: 产品内核：不要过早细化未经思考的内核
 type: framework
@@ -10,25 +9,20 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_vlm_desc.md
 related:
-  - [[tool-lean-premium-service]]
-  - [[tool-lean-cut-features]]
-  - [[yt-product-kernel-mvp-design]]
-  - [[yt-product-kernel-definition]]
-  - [[tool-lean-leverage-resources]]
-  - [[concept-一堂-kernel-validation]]
-  - [[framework-lean-false-model]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[concept-一堂-kernel-validation]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 产品内核：不要过早细化未经思考的内核
 
 > 在产品开发进入细化与重投入之前，先用三个问题审视：你以为的内核，真的经得住推敲吗？

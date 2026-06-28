@@ -17,11 +17,12 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[sk-ai-prd-for-ai]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[tool-ai-prd-for-ai]]'
+- '[[prd-as-ai-instruction]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -38,8 +39,8 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
-
 ---
+
 # 技能：将学习成果沉淀为 PRD 文档
 
 ## 用一句话讲清楚

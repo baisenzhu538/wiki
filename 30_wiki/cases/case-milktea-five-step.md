@@ -16,15 +16,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-- [[tool-泛产品落地-假设拆解]]
-- [[case-shampoo-product-kernel]]
-- [[case-treadmill-demand-analysis]]
-- [[yt-product-kernel-cultivation]]
-- [[dk-mckinsey-hypothesis-driven-pitfalls]]
-- [[concept-一堂-hypothesis-driven-business-methodology]]
-- [[concept-一堂-key-assumptions]]
-- [[yt-model-entrepreneur-map]]
-- [[yt-entrepreneur-five-step-method]]
+- '[[case-treadmill-demand-analysis]]'
+- '[[case-shampoo-product-kernel]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -36,6 +33,7 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 ---
+
 > 黄药师骨架 · 老顽童填内容
 
 ## 案例背景

@@ -16,11 +16,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,8 +39,8 @@ diagnostic_signals:
   follow_up_question: 你过去三个月沉淀了多少个可复用的 SOP、Skill 或检查清单？最近一次调用自己沉淀的工具是什么时候？
 - framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
-
 ---
+
 # 半肥猫 AI 学习落地方法论
 
 > 半肥猫是一堂的学员，也是连续创业者。他在 AI 俱乐部的分享中，用两小时讲述了自己如何把"听课→做作业"的传统学习模式，改造成"听课→跑真实业务→沉淀工具/SOP/Skill"的落地系统。他的方法论和纪浩的 AI 协作方法论是互补关系：纪浩讲"怎么让 AI 做好执行"，半肥猫讲"怎么让学习真正变成能力"。

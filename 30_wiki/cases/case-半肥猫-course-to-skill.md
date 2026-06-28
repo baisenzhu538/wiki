@@ -33,9 +33,9 @@ tags:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 author: 半肥猫
 reviewed_by: 老顽童
 confidence: 0.7
@@ -49,8 +49,8 @@ diagnostic_signals:
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
-
 ---
+
 # 案例：半肥猫的课程转 Skill 八步法
 
 > 半肥猫用一堂《转化率黑客五组合落地》课程作为原材料，经过八步工程化流程，做出了一个可验证的转化率方案推演 Skill。A/B 测试：用 Skill 得 36 分，不用 Skill 得 8 分——差值 28 分。这不是"AI 更强了"——是"工程化流程产出了更可靠的 AI 工具"。

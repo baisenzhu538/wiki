@@ -6,21 +6,25 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: "2026-06-21"
+updated_at: '2026-06-21'
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-  - [[framework-demand-iceberg]]
-  - [[tool-demand-iceberg-l2-scenario]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # L1粗拆用户标签
 
 > 不能只看"职场人"这种大标签。要深入到身心状态、特别时刻和空间环境。三维拆解缩小切口。

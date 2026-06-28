@@ -21,11 +21,14 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[xingangwan-pharma-business-model-calc]]'
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[dk-lz-ai-native-organization]]'
+- '[[case-cross-xingangwan-pharma]]'
+- '[[yt-model-y-organization]]'
+- '[[tool-yitang-ai-assisted-organize]]'
+- '[[framework-pan-product-organization]]'
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +44,8 @@ diagnostic_signals:
   follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
 - lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
-
 ---
+
 # 王欢GAN三角色架构：生成器/判别器/合成器
 
 > **Burn line**: 灵感来自 GAN——生成器和判别器对抗进化，但这里的判别器来自不同公司、不同模型，盲区不重合。

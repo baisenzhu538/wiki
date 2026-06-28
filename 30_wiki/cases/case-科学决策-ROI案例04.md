@@ -9,20 +9,18 @@ confidence: 0.68
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
-  - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
+- 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-ROI决策评估画布]]
-  - [[tool-决策深度-L1优先级定性]]
-  - [[concept-稀缺机会窗口]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：员工共学项目的 ROI 决策
 
 ## 案例来源

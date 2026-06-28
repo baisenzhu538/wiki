@@ -17,11 +17,14 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -40,8 +43,8 @@ diagnostic_signals:
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
 - lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
-
 ---
+
 # 技能：设计 Skill 的评分规则与风险边界
 
 ## 用一句话讲清楚

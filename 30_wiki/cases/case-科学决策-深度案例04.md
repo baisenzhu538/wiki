@@ -9,20 +9,18 @@ confidence: 0.72
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md
-  - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例04.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md
+- 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例04.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-决策深度-L2部分定量]]
-  - [[tool-ROI决策评估画布]]
-  - [[concept-X型Y型决策习惯]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：公司要不要管员工中午饭
 
 ## 案例来源

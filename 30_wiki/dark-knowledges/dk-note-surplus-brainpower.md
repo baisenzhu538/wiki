@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-note-surplus-brainpower
 title: “剩余脑力”：高阶笔记的唯一货币与分水岭
 type: dk
@@ -17,15 +15,11 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 related:
-- [[dk-note-maximum-common-divisor]]
-- [[dk-fundamentals-before-advanced-ops]]
-- [[yt-note-live-field-skill]]
-- [[dk-note-rookie-disaster-veteran-heaven]]
-- [[dk-truman-flag-note-taking]]
-- [[yt-note-five-levels-training]]
-- [[dk-note-maximum-common-divisor]]
-- [[dk-note-rookie-disaster-veteran-heaven]]
-- [[yt-note-live-field-skill]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -39,6 +33,7 @@ diagnostic_signals:
   framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
   follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
 ---
+
 # “剩余脑力”：高阶笔记的唯一货币与分水岭
 
 ## 原始表述

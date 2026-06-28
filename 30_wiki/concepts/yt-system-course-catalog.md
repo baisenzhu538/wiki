@@ -1,36 +1,47 @@
 ---
-
-
 id: yt-system-course-catalog
-title: "一堂全课程目录索引"
+title: 一堂全课程目录索引
 type: concept
 source_refs:
-- src_20260614_8f80cb0f
+- src_unknown
 status: enriched
 domain:
 - yitang
 yitang:
   map: system
-  module: "课程体系"
+  module: 课程体系
   course_type: reference
   level: foundational
-source_refs:
-  - src_unknown
 created_at: 2026-05-07
 estimated_tokens: 3200
 pipeline:
-  - src_unknown
+- src_unknown
 diagnostic_signals:
-  - {'signal': '学习者是否能在 1 分钟内根据当前问题定位到 1 门可直接应用的课', 'framework_lens': '需求-供给匹配 / 索引效率', 'follow_up_question': "目录是按'我们有什么课'还是'你正在面对什么问题'组织？"}
-  - {'signal': "每门课后是否有'三天内应用'或等效行为转化机制", 'framework_lens': '学习迁移 / 行为改变', 'follow_up_question': '完成率是否被误当成能力转移率？'}
-  - {'signal': '学习者是否用课程来确认已知而非作为行动前提', 'framework_lens': '赋能 vs 依赖 / Illich 批判', 'follow_up_question': '上完课后，学习者自己做事的信心是变强还是变弱？'}
-  - {'signal': "团队/组织是否避免用'上课覆盖率'替代'行为改变率'", 'framework_lens': '组织绩效 / Perkins 元素症', 'follow_up_question': '课程采购后，实际工作方式发生了什么改变？'}
+- signal: 学习者是否能在 1 分钟内根据当前问题定位到 1 门可直接应用的课
+  framework_lens: 需求-供给匹配 / 索引效率
+  follow_up_question: 目录是按'我们有什么课'还是'你正在面对什么问题'组织？
+- signal: 每门课后是否有'三天内应用'或等效行为转化机制
+  framework_lens: 学习迁移 / 行为改变
+  follow_up_question: 完成率是否被误当成能力转移率？
+- signal: 学习者是否用课程来确认已知而非作为行动前提
+  framework_lens: 赋能 vs 依赖 / Illich 批判
+  follow_up_question: 上完课后，学习者自己做事的信心是变强还是变弱？
+- signal: 团队/组织是否避免用'上课覆盖率'替代'行为改变率'
+  framework_lens: 组织绩效 / Perkins 元素症
+  follow_up_question: 课程采购后，实际工作方式发生了什么改变？
 updated_at: 2026-06-13
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+related:
+- '[[yt-system-course-map-lecture]]'
+- '[[一堂]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 一堂全课程目录索引
 
 > 来源：一堂四张课程清单 OCR 提取。[[一堂]] | [[yt-system-course-map-lecture]]

@@ -1,12 +1,11 @@
 ---
-
 id: dk-yi-tang-wishful-thinking-kills-startups
 title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
 status: enriched
 domain:
-  - yitang
-  - business-strategy
+- yitang
+- business-strategy
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
 source_refs:
@@ -14,14 +13,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - [[tool-泛产品落地-假设拆解]]
-  - [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]
-  - [[dk-demand-misjudgment-rate]]
-  - [[case-milktea-five-step]]
-  - [[dk-mckinsey-hypothesis-driven-pitfalls]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
-  - [[yt-tool-product-core-canvas]]
+- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -42,6 +39,7 @@ diagnostic_signals:
   framework_lens: 把执行力当成验证
   follow_up_question: 在为这个假设全力以赴之前，我们愿意承受的最大验证成本是多少？有没有更小的实验可以证伪它？
 ---
+
 # 暗知："愿望思维"是创业最大的陷阱
 
 ## 原始表述

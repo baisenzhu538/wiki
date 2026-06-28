@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-demand-project-background
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1417
 language: zh-CN
 prerequisites:
@@ -25,20 +21,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: 黄药师
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+reviewed_by: 欧阳锋
 source_refs:
 - src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析
 status: enriched
-title: 泛产品设计·用户卡片：项目背景分析
-type: tool
+title: yt-panproduct-demand-project-background
+type: concept
 version: 1
 yitang:
   map: personal
@@ -57,14 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
-title: yt-panproduct-demand-project-background
-type: concept
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
 ---
+
 # 项目背景分析：综合用户/场景/商业考量
 
 > 需求工具箱第 5 张卡片（★建议第一张出牌）。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

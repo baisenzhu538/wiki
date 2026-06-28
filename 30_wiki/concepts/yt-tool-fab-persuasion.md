@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-tool-fab-persuasion
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.85
 created_at: 2026-06-06
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -25,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-立即实践转化法]]'
+- '[[tool-月白-眼高手低转化法]]'
+- '[[tool-Truman-AI时代提示词优化法]]'
+- '[[tool-月白-封面情绪转化法]]'
+- '[[pending_unknown]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
@@ -54,8 +50,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 ## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。

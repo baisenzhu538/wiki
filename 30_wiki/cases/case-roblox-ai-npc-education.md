@@ -1,41 +1,27 @@
 ---
-
 id: case-roblox-ai-npc-education
 title: Roblox AI NPC 与教育场景
 type: case
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[case-ai-companion-emotional]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[dk-ai-scarcest-resource-is-self]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[tool-tech-probability-80-filter]]
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[concept-ai-chair-determines-view]]
-  - [[concept-ai-neutrality-bias]]
-  - [[case-chen-qiufan-ai-writing]]
-  - [[case-cambridge-novelists-survey]]
-  - [[case-ai-companion-emotional]]
-  - [[dk-ai-scarcest-resource-is-self]]
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Roblox AI NPC 与教育场景
 
 > **Burn line**：当游戏平台把生成式 AI NPC 放进数以亿计未成年人的虚拟课堂时，真正的问题不是「它能不能教」，而是「它在教孩子成为什么样的人」。

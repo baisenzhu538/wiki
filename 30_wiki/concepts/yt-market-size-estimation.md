@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 id: yt-market-size-estimation
@@ -22,15 +21,11 @@ source_refs:
 - src_unknown
 status: reviewed
 related:
-- [[yt-demand-analysis-hiking-map]]
-- [[yt-five-step-common-pitfalls]]
-- [[yt-demand-quantitative-estimation]]
-- [[yt-demand-market-size-pitfalls]]
-- [[tool-demand-report-template]]
-- [[framework-demand-iceberg]]
-- [[tool-demand-assessment-triangle]]
-- [[framework-demand-opportunity-spectrum]]
-- [[framework-strategy-brm]]
+- '[[case-treadmill-demand-analysis]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 title: 市场规模估算四种方法
 trust_level: medium
 type: tool
@@ -53,6 +48,7 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童# 市场规模估算四种方法
 ---
+
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]
 
 ## Summary

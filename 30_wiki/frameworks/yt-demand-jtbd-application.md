@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-prompt-jtbd-scenario-coach]]'
+- '[[yt-research-user-jtbd]]'
+- '[[case-yitang-jtbd-story-formula]]'
+- '[[case-demand-milkshake-jtbd]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
   follow_up_question: 用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 流失用户现在用什么方案完成原来的任务？这个方案比你的好在哪里？
 - framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
   follow_up_question: 这个功能能帮助用户完成什么他们现在完成不了的任务？
-
 ---
+
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 
 > JTBD（Jobs-to-be-Done）：用户不是买产品，而是"雇佣"产品完成某个任务。

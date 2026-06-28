@@ -1,32 +1,12 @@
 ---
-
-
-
-
-id: 诊所o2o外卖平台业务深度调研报告
-created_at: 2026-04-30
-domain:
-- healthcare
-status: enriched
-title: 诊所O2O外卖平台业务深度调研报告
-type: concept
-updated_at: '2026-06-16'
-pipeline:
-- src_unknown
-author: unknown
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium-low
-source_refs:
-  - pending_archive:src_20260501_dfa19257-诊所o2o外卖平台业务深度调研报告
-- src_20260501_dfa19257-诊所o2o外卖平台业务深度调研报告
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260501_dfa19257）
 related:
-- [[互联网医院模式深度调研报告]]
-- [[yt-system-course-map-lecture]]
-- [[yt-panproduct-demand-user-segmentation]]
-- [[yt-panproduct-aesthetic-pool]]
+- '[[yt-panproduct-demand-project-background]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 - [[yt-panproduct-demand-project-background]]
 
 # 诊所O2O外卖平台业务深度调研报告

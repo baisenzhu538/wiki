@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-people-network-database
 title: 人脉库检索：系统化搜索目标公司的员工
 type: tool
@@ -12,18 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-weapon-insider-intelligence]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-employee-directory]]
-  - [[tool-yitang-weapon-former-employee-network]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 人脉库检索
 
 > 利用脉脉/LinkedIn/微信人脉库，系统化搜索目标公司的人——在职的、离职的、认识目标公司的人的。

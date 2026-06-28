@@ -3,21 +3,24 @@ id: tool-strategy-profit-model-comparison
 title: 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策
 type: tool
 status: enriched
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain: strategy
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
-  - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
+- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+created_at: '2026-06-21'
+updated_at: '2026-06-21'
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
-  - [[tool-strategy-value-capture]]
-  - [[framework-strategy-business-design]]
-  - [[tool-strategy-activity-scope]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 盈利模式对比框架
 
 > 冉鹏 PPT _117——四种盈利模式的全维度对比。业务设计六要素第 3 要素"价值获取"的操作工具。

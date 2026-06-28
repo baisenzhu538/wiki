@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-snack-industry-chain
 title: 话梅果干产业链分析：从种植到零售的利润分布与竞争格局
 type: case
@@ -13,14 +12,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_ocr_text.md
 related:
-  - [[case-strategy-wuxi-suntech]]
-  - [[case-strategy-revival-13-bestore]]
-  - [[case-strategy-lekai-film]]
-  - [[tool-strategy-industry-chain-analysis]]
-  - [[framework-strategy-five-forces]]
-  - [[tool-strategy-value-capture]]
-  - [[case-strategy-snack-export-opportunity]]
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 **案例**：话梅果干品类从上游种植/养殖到下游零售的完整产业链利润与竞争分析
 
 **产业链利润分布**：

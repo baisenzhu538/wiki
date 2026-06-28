@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-pitch-aphorism
 component_of:
 - src_unknown
@@ -10,8 +6,8 @@ confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
@@ -24,12 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
@@ -50,8 +45,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
-
 ---
+
 # 讲香·金句化
 
 > 十指模型右手第二指——向上抽象。把核心观点压缩成一句话，让用户想记下来、想发朋友圈——金句让人暂时放下理性判断，直接被打动。

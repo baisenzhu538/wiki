@@ -1,54 +1,12 @@
 ---
-
-id: tool-一堂-product-kernel-add-subtract
-title: 技能：产品内核加减法
-type: tool
-status: enriched
-domain:
-- src_unknown
-source_person: Truman
-source_context: 一堂产品内核实操课
-source_refs:
-  - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
-- 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
-tools_required:
-- src_unknown
-- src_unknown
-prerequisite_skills:
-- src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-wiki_refs:
-- src_unknown
-- src_unknown
-created_at: '2026-06-10'
-updated_at: '2026-06-17'
-pipeline:
-- src_unknown
-- src_unknown
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-diagnostic_signals:
-- lens: 舍不得减
-  follow_up: 强迫按'去掉后用户还会选吗'重新排序，内核必须减到3-5条
-- lens: 内部视角替代用户视角
-  follow_up: 每条要素必须能说出'用户选择我们的具体原因'，用用户原话支撑
-- lens: 过早做减法
-  follow_up: 加法阶段不评判只做收集，减法阶段才做判断
-- lens: 优化性当决定性
-  follow_up: 重复问'没有它用户还会选吗'，不会选的才是决定性
-- lens: 成本敏感缺失
-  follow_up: 默认不做高成本低信息项，除非有强劣数据支持
+- '[[concept-一堂-product-kernel]]'
+- '[[tool-一堂-product-kernel-canvas]]'
+- '[[tool-一堂-kernel-three-questions]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 技能：产品内核加减法
 
 ## Summary

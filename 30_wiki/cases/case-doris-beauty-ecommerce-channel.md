@@ -11,20 +11,17 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-demand-pharma-bigdata]]
-  - [[case-doris-2014-music-streaming-prediction]]
-  - [[case-yitang-mahjong-machine-fake-order]]
-  - [[case-doris-outbound-travel-community]]
-  - [[framework-doris-industry-report-4step]]
-  - [[tool-doris-industry-report-search-tips]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：美妆行业渠道效率发现
 
 **调研**：通过贝恩与阿里妈妈联合发布的行业报告，分析了美妆行业各渠道的转化效率。

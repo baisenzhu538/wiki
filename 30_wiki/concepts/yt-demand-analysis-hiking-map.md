@@ -1,64 +1,12 @@
 ---
-
-domain:
-- demand-analysis
-id: yt-demand-analysis-hiking-map
-confidence: 0.9
-created_at: 2026-06-10
-difficulty: beginner
-language: zh-CN
-query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-review_date: 2026-06-10
-reviewed_by: 老顷童（精修）
-source_refs:
-  - src_unknown
-  - pending_archive:src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图
-  - src_unknown
-- src_unknown
-- src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图
-- src_unknown
-status: reviewed
-title: 需求分析爬山地图
-trust_level: medium
-type: framework
-version: 1
-yitang:
-  map: entrepreneur
-  module: 五步法
-  course_id: yt-demand-analysis-hiking-map
-  course_type: framework
-  level: core
-pipeline:
-- src_unknown
-- src_unknown
-diagnostic_signals:
-- signal: 用户做了市场规模估算，但没拆清楚真实用户是谁
-  framework_lens: 把估算当需求分析——需求分析先定性后定量
-  follow_up_question: 你的市场规模数字背后，具体是哪些用户在什么场景下付费？
-- signal: 用户只谈初心概念，不推演使用场景
-  framework_lens: 停留在L1——需求分析需要爬山进阶
-  follow_up_question: 你能描述目标用户典型的一天中，会在什么具体场景使用你的产品吗？
-updated_at: 2026-06-13
-author: 老顽童
 related:
-- [[yt-market-size-estimation]]
-- [[yt-five-step-implementation]]
-- [[yt-unit-model-three-tools]]
-- [[yt-product-kernel-cultivation]]
-- [[five-step-domain-digest]]
-- [[framework-demand-iceberg]]
-- [[tool-demand-iceberg-l1-user]]
-- [[tool-demand-iceberg-l2-scenario]]
-- [[tool-demand-assessment-triangle]]
+- '[[yt-five-step-method]]'
+- '[[yt-market-size-estimation]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 需求分析爬山地图
 
 > 来源：一堂五步法·需求篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[case-treadmill-demand-analysis]]

@@ -4,8 +4,8 @@ type: framework
 title: 三环能力聚焦法：从 30 个能力中锁定 3 个重点
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 confidence: 0.82
 trust_level: medium-high
 author: 老顽童
@@ -14,10 +14,18 @@ review_date: 2026-06-28
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
-  - src_unknown
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- src_unknown
+related:
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点
 
 ## 一句话

@@ -7,24 +7,21 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - [[case-demand-equestrian-three-tasks]]
-  - [[case-demand-pharma-bigdata]]
-  - [[concept-一堂-key-assumptions]]
-  - [[ocr-一堂五步法画布]]
-  - [[tool-yitang-financial-report-intelligence]]
-  - [[tool-yitang-financial-report-intelligence]]
-  - [[tool-yitang-comparable-company-selection]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解
 
 **调研对象**：贝泰妮（薇诺娜品牌母公司），国产敏感肌护肤品龙头。

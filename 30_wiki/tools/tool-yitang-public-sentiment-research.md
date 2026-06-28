@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-public-sentiment-research
 title: 舆情/口碑批量收集：好评决定内核，差评决定机会
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
@@ -28,15 +27,13 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[yt-panproduct-demand-motivation-resistance]]
-  - [[tool-yitang-social-media-monitoring]]
-  - [[tool-yitang-review-analysis]]
-  - [[tool-yitang-supply-chain-research]]
-  - [[yt-management-conversion-hacking]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-yitang-ai-research-workflow]]
-  - [[tool-yitang-consumer-goods-research]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 舆情/口碑批量收集：好评决定内核，差评决定机会
 
 > **一句话**：好评决定了产品的内核（用户为什么买单），差评决定了你的机会（竞品哪里没做好）。批量收集口碑，可以在不直接接触用户的情况下拿到有统计意义的数据。

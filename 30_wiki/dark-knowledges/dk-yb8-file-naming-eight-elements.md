@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
 type: dk
@@ -15,14 +13,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb31-style-first-controlnet]]
-- [[那今天不会]]
-- [[dk-yb23-ai-pre-screen-three-minutes]]
-- [[dk-yb5-style-asset-archive]]
-- [[dk-yb5-style-asset-archive]]
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb7-design-demand-80-10-10]]
+- '[[tool-月白-文件命名与图层命名规范]]'
+- '[[tool-月白-文件命名与平台适配规范]]'
+- '[[tool-月白-文件命名与存档规范（口述暗示）]]'
+- '[[tool-月白-课程资料文件命名规范]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -37,6 +32,7 @@ diagnostic_signals:
   framework_lens: 标准缺失——没有统一的八要素命名，AI的批处理能力无法发挥
   follow_up_question: 你的团队有统一的文件命名规范吗？随机抽查3个设计师最近的文件名，一致性多高？# AI增效前置：文件命名八要素体系
 ---
+
 ## 原始表述
 
 > AI降本增效的起点不是打开AI，而是整理文件体系，文件体系命名的八个要素：项目、渠道、用途、尺寸、版本、输出端、对接端和时间。

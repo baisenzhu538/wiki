@@ -1,16 +1,14 @@
 ---
-
-
 id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_refs:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 bridges_to:
 - relation: provides_foundation_for
   description: Trusted Advisor 是王语嬏'可信顾问'角色定位的理论支撑
@@ -29,13 +27,11 @@ diagnostic_signals:
 - framework_lens: Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次
   follow_up_question: 在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-research-expert-interview]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -48,8 +44,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
-
 ---
+
 # Trusted Advisor：可信顾问信任模型
 
 > 来源：Maister, Green & Galford (2000). *The Trusted Advisor*

@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-information-quality-ladder
 title: 信息质量阶梯
 type: concept
@@ -10,28 +9,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[dk-ai-prediction-expiry-date]]
-  - [[concept-ai-chair-determines-view]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[tool-ai-cross-reading-method]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[concept-ai-chair-determines-view]]
-  - [[concept-ai-neutrality-bias]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
+- '[[tool-ai2041-source-verification-checklist]]'
+- '[[concept-ai-chair-determines-view]]'
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[framework-ai-deconstruction-methodology]]'
 ---
+
 # 信息质量阶梯
 
 > **Burn line**：AI 时代不缺信息，缺的是对信息质量的判断力——知道哪一层来源值得你花时间深啃，哪一层来源只能当作线索触发器。

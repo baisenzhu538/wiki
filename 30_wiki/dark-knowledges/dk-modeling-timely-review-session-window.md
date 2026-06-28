@@ -1,7 +1,4 @@
 ---
-
-
-
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dk
@@ -13,21 +10,16 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模原则），2026-06-12
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-- [[dk-modeling-sop-execution-locks]]
-- [[case-modeling-process-sop-evolution]]
-- [[tool-sop-template-modeling]]
-- [[case-modeling-process-sop-examples]]
-- [[case-zhangyang-anchor-sop-three-locks]]
-- [[modeling-capability-for-kdo]]
-- [[process-modeling]]
-- [[modeling-three-stages]]
-- [[dk-modeling-sop-execution-locks]]
-- [[dk-modeling-course-rnd-ripe-fruit]]
+- '[[dk-note-maximum-common-divisor]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -43,6 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 ---
+
 ## 原始表述/核心洞察
 
 > 流程建模第一个重点叫及时复盘。这些信息和经验往往都在业务现场里，如果我们及时复盘，这些经验就很容易抽离出来；如果过了 N 个小时、N 周，大概率就做不到了。我以前做一堂，养成了三个习惯：第一，及时复盘会，每周做完课，第一时间 Review 认知和开会；第二，及时做反思，遇到一些错误和问题，解决了第一时间总结打补丁；第三，现场做回顾，在课程线下交付现场，就抽时间做复盘和 Review，效率最高。我给孩子写控笔口诀，如果那两天我刚好一直在观察他，随手就写了，质量非常高；你等我两三周之后，在公司的办公室或者在出租车上写，我大概就写不出来了。

@@ -19,11 +19,14 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[ocr-一堂-科学决策-关键训练清单重要]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]'
+- '[[tool-制作行业化要素检查清单]]'
 tags:
 - src_unknown
 - src_unknown
@@ -40,8 +43,8 @@ diagnostic_signals:
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
 - framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
-
 ---
+
 # 清单/小抄建模法：把经验变成可执行的检查点
 
 > **Burn line**: 清单不是"提醒自己做过了什么"，而是"提醒自己还没做什么"。

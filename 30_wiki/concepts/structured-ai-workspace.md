@@ -1,48 +1,48 @@
 ---
-
 id: structured-ai-workspace
-title: "结构化AI工作空间搭建"
+title: 结构化AI工作空间搭建
 type: tool
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 source_refs:
 - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of:
-  - src_unknown
+- src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[ai-collaboration-mindset-shift]]'
+- '[[prd-as-ai-instruction]]'
+- '[[ai-learning-closed-loop]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
-created_at: "2026-06-15"
-updated_at: "2026-06-17"
+created_at: '2026-06-15'
+updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - lens: "结构缺失"
-    follow_up: "创建五大模块：系统自述、领域知识、Agent服务文档、任务管理、日志"
-  - lens: "上下文丢失"
-    follow_up: "检查是否有系统自述和领域知识模块，确保AI能快速了解项目背景"
-  - lens: "SOP缺失"
-    follow_up: "写一份SOP文档存入Agent服务文档，下次执行时不再需要解释"
-  - lens: "日志缺失"
-    follow_up: "建立日志模板，要求AI每次执行后记录，任务状态可追溯"
-  - lens: "过度工程"
-    follow_up: "简化模块，只保留核心，维护成本必须小于节省的时间"
+- lens: 结构缺失
+  follow_up: 创建五大模块：系统自述、领域知识、Agent服务文档、任务管理、日志
+- lens: 上下文丢失
+  follow_up: 检查是否有系统自述和领域知识模块，确保AI能快速了解项目背景
+- lens: SOP缺失
+  follow_up: 写一份SOP文档存入Agent服务文档，下次执行时不再需要解释
+- lens: 日志缺失
+  follow_up: 建立日志模板，要求AI每次执行后记录，任务状态可追溯
+- lens: 过度工程
+  follow_up: 简化模块，只保留核心，维护成本必须小于节省的时间
 ---
+
 # 结构化AI工作空间搭建
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)

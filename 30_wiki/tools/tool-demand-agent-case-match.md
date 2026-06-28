@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-case-match
 title: Agent L4案例匹配：以历史摩擦点为起点填充8步地图
 type: tool
@@ -12,19 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
-  - ai-collaboration
+- yitang
+- five-step-method
+- ai-collaboration
 source_refs:
 - src_unknown
 related:
-  - [[agent-external-brain-design]]
-  - [[tool-demand-agent-multi-hypothesis]]
-  - [[tool-demand-agent-auto-verify]]
-  - [[tool-demand-agent-signal-substitute]]
-  - [[five-step-domain-digest]]
-  - [[tool-demand-iceberg-l4-job-map]]
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # Agent L4案例匹配
 
 > 开始一张空白的8步地图很难。Agent可以检索案例库中相似任务的8步地图作为起点——不必从零发明。

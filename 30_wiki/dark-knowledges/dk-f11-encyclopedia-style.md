@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dk
@@ -15,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[tool-strategy-lifecycle]]
-- [[dk-f7-surface-translation]]
-- [[proposal-deep-synthesis-infrastructure]]
-- [[dk-f9-generic-critique]]
-- [[dk-p4-batch-format-empty]]
-- [[master-first-principles]]
-- [[dk-c8-format-complete-mind-empty]]
-- [[kdo-flywheel]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[tool-月白-AI人物特征精准描述法]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,6 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 ---
+
 ## 原始表述
 
 > **触发场景**：Builder 创建知识卡片时

@@ -1,5 +1,4 @@
 ---
-
 id: tool-alt-data-overview
 title: 替代数据总览：Hedge Fund级别的调研武器
 type: tool
@@ -12,20 +11,19 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-agent-crawl4ai]]
-  - [[tool-demand-agent-signals]]
-  - [[tool-alt-data-free]]
-  - [[tool-osint-overview]]
-  - [[tool-reverse-image-search]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-alt-data-free]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 替代数据总览
 
 > 对冲基金每年花28亿美元购买替代数据。这些数据源远超传统调研——卫星图像、信用卡交易、App使用数据、海关提单——但它们也分"免费可用"和"年费百万"。

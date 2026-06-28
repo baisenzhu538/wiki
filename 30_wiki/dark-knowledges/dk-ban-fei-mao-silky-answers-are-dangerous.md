@@ -1,6 +1,6 @@
 ---
 id: dk-ban-fei-mao-silky-answers-are-dangerous
-title: '暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱'
+title: 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
 type: dk
 status: enriched
 domain: ai-collaboration
@@ -11,13 +11,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-  - [[tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong]]
-  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[dk-ban-fei-mao-real-business-is-the-engine]]
-  - [[tool-半肥猫-ai-research-validation]]
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -37,14 +36,15 @@ trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
   lens: 生成合理文本 ≠ 事实可靠
-  follow_up: '请用具体数据支撑这个结论；若无数据，请明确说"这是推理，缺乏证据"。'
+  follow_up: 请用具体数据支撑这个结论；若无数据，请明确说"这是推理，缺乏证据"。
 - signal: src_unknown
   lens: 模型对不确定性毫无自觉
-  follow_up: '请用条件性表述替代绝对表述，并标注已知限制。'
+  follow_up: 请用条件性表述替代绝对表述，并标注已知限制。
 - signal: src_unknown
   lens: 训练数据存在截止日期
-  follow_up: '请标注数据时间范围；若训练数据早于该时间，请明确告知。'
+  follow_up: 请标注数据时间范围；若训练数据早于该时间，请明确告知。
 ---
+
 # 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
 
 ## 原始表述

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-anonymous-product-testing
 title: 匿名产品体验：以真实用户身份盲测竞品
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-bp-analysis]]
-  - [[tool-yitang-weapon-full-product-experience]]
-  - [[tool-yitang-online-product-experience]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 匿名产品体验
 
 > 不暴露调研者身份，以真实用户身份完整体验竞品——消除"内部视角"偏差。

@@ -15,11 +15,11 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-真需求四要素验证法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,8 +35,8 @@ author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
-
 ---
+
 # 纪浩 AI 协作方法论
 
 > 纪浩是一堂的后端工程师。他在 AI 俱乐部的第三次分享中，用两小时讲述了自己过去四个月高强度 AI 协作的完整方法论——不是几个孤立技巧，而是一个从"判断该不该做"到"规模复用"的完整闭环。他的方法论和 Truman 的 AI Partner 设计哲学是同一套模式在不同场景下的应用：Truman 讲"为什么"，纪浩讲"怎么做"。

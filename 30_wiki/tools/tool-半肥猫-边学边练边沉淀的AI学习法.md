@@ -18,11 +18,11 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:
@@ -44,8 +44,8 @@ diagnostic_signals:
   follow_up: 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习
 - lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
-
 ---
+
 # 技能：边学边练边沉淀的 AI 学习法
 
 ## Summary

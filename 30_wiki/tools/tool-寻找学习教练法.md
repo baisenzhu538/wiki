@@ -14,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -44,8 +44,8 @@ diagnostic_signals:
   follow_up: 区分买鱼和学钓鱼，教练给的是能力不是答案，需要耐心迭代
 - lens: 依赖陷阱
   follow_up: 教练是反馈镜不是拐杖，目标是培养独立判断力而非永久依赖
-
 ---
+
 # 技能：寻找学习教练法
 
 ## 原始表述

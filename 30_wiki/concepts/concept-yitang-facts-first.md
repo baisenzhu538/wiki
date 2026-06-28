@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-facts-first
 title: 事实优先：调研的基本纪律
 type: concept
@@ -12,21 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[concept-research-delegation-in-scaling]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[concept-research-responsibility-boundary]]
-  - [[concept-yitang-ideal-research-goal]]
-  - [[tool-yitang-supplier-interview]]
-  - [[concept-yitang-research-mindset]]
-  - [[dk-yitang-research-scale-vs-depth]]
-  - [[framework-yitang-research-weapon-system]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 事实优先
 
 > 降龙十八掌第13掌。调研的第一纪律：事实优先于观点，数据优先于解读，一手优先于二手。

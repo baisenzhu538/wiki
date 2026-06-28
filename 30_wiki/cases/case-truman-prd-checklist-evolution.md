@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
@@ -14,20 +11,12 @@ source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
 - src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[sk-ai-prd-for-ai]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[case-truman-poker-deck-roi]]'
+- '[[tool-Truman-AI辅助思考伙伴养成]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -37,13 +26,14 @@ trust_level: medium
 diagnostic_signals:
 - framework_lens: 反馈随机化——问题没有被沉淀为检查项
   follow_up_question: 你是否有"评审错题本"？每次被打回的问题是否在24小时内变成清单新条目？
-- framework_lens: "\"不再二错\"机制失效"
+- framework_lens: '"不再二错"机制失效'
   follow_up_question: 写新方案时是否强制用清单自检2-3次？清单是否覆盖了最近3次被打回的问题？
 - framework_lens: 模型僵化——清单没有持续吸收新反馈
   follow_up_question: 最近5次评审/反馈中有多少条没有被清单收录？未收录的原因是什么？
 - framework_lens: 清单结构失效——缺少触发场景或执行顺序
   follow_up_question: 清单是否按"输入-处理-输出"或评审阶段组织？每个检查项是否有明确的"何时检查"触发条件？
 ---
+
 # Truman的PRD清单进化
 
 > Truman在知识萃取探索营中回溯了他早期在去哪儿做产品经理时的关键突破——从一个新人PM被领导反复打回，到用一个简单的检查清单实现"不再二错"，半年内赶上三四年经验PM的水平。这是"面向过去建模型，面向未来解决问题"的典范案例。

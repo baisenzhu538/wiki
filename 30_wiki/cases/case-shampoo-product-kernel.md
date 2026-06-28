@@ -16,13 +16,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-- [[case-lean-shampoo-selling-points]]
-- [[yt-product-kernel-definition]]
-- [[case-milktea-five-step]]
-- [[case-treadmill-demand-analysis]]
-- [[yt-product-kernel-cultivation]]
-- [[concept-一堂-product-kernel]]
-- [[yt-product-kernel-cultivation]]
+- '[[concept-一堂-product-kernel]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[case-zhihu-vs-degetao-network-effect]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -34,6 +33,7 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 ---
+
 > 黄药师骨架 · 老顽童填内容
 
 ## 案例背景

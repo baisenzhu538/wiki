@@ -11,19 +11,17 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - [[case-doris-catering-chain-benchmark]]
-  - [[case-doris-beauty-ecommerce-channel]]
-  - [[case-yitang-travel-receipt-analysis]]
-  - [[case-doris-2014-music-streaming-prediction]]
-  - [[case-yitang-beauty-device-overseas-sales]]
-  - [[framework-doris-industry-report-4step]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：出境游产业链拆解
 
 **调研**：Doris团队需要快速理解出境游行业的产业链结构和市场格局。

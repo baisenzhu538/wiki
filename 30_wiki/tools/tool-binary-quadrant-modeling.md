@@ -19,11 +19,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.91
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-动手建模法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -37,8 +37,8 @@ diagnostic_signals:
   follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
 - framework_lens: binary-quadrant-modeling
   follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
-
 ---
+
 # 二分法/象限图建模法：用正交维度做分类与取舍
 
 > **Burn line**: 当你能把一群人分成两类，并让两类人各自得到不同的处理策略时，你就已经做了一个有用的模型。

@@ -1,38 +1,27 @@
 ---
-
 id: dk-research-decision-first-mapping
 title: 研究活动如何服务决策
 type: dk
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-yitang-behavior-over-asking]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[dk-research-triangulation-stop-rule]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-yitang-behavior-over-asking]]
-  - [[dk-strategy-correlation-vs-causation-leverage]]
-  - [[dk-research-identity-craft-for-closed-information]]
-  - [[dk-research-triangulation-stop-rule]]
-  - [[dk-strategy-stage-leverage-mismatch]]
-  - [[yitang-research-domain-digest]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[yt-lean-assumption-verification-3means]]
-  - [[framework-yitang-high-level-execution]]
-  - [[case-yitang-mvp-reward-interview-waste]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[case-yitang-senior-university-product-design]]
-  - [[case-xian-franchise-location-decision]]
+- '[[yitang-research-domain-digest]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[tool-水水-管理决策权重偏差]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
+- '[[ocr-一堂-科学决策-宽度-个人]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
 ---
+
 # 研究活动如何服务决策
 
 > 一句话：在花钱做研究之前，先把「研究动作 → 要回答的决策 → 前置假设 → 通过/不通过标准 → 下一步动作」对齐，否则研究越精致，决策浪费越大 [conf=0.80, source=王语嫣 synthesis_research.md]。

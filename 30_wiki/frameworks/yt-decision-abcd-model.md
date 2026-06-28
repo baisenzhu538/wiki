@@ -3,8 +3,8 @@ type: framework
 id: yt-decision-abcd-model
 status: reviewed
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
@@ -13,18 +13,16 @@ confidence: 0.75
 trust_level: medium-low
 title: 关键假设 ABCD 模型
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
-  - 30_wiki/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
+- 30_wiki/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md
 related:
-  - [[yt-decision-y-model]]
-  - [[yt-decision-width-method]]
-  - [[yt-decision-height-toolkit]]
-  - [[yt-decision-depth-ladder]]
-  - [[yt-decision-consensus-iceberg]]
-  - [[yt-decision-full-process]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
 ---
+
 # 一堂·关键假设ABCD模型
 
 

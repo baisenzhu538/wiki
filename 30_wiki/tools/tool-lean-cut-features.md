@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-cut-features
 title: 太复杂就砍功能
 type: tool
@@ -10,27 +9,20 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - strategy
-  - yitang
-  - product
+- strategy
+- yitang
+- product
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md
 related:
-  - [[tool-lean-leverage-traffic]]
-  - [[tool-lean-presell]]
-  - [[tool-lean-minimum-version]]
-  - [[tool-lean-fake-product]]
-  - [[tool-lean-minimum-test-volume]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-four-principles]]
-  - [[framework-lean-six-wastes]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-lean-electric-scooter-mvp]]
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[framework-lean-six-wastes]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 ---
+
 # 太复杂就砍功能
 
 > 用“砍掉非必要模块”替代“把第一版做完整”，让最小版本只承载最高风险假设的验证，而不是承载团队对“完美产品”的所有想象。

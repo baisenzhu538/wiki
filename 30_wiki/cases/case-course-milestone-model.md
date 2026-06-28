@@ -23,9 +23,12 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 tags:
 - src_unknown
 - src_unknown
@@ -40,8 +43,8 @@ diagnostic_signals:
   follow_up_question: 我们是否设置了以“推翻模型”为目标的内部交叉评审和专家评审环节？
 - framework_lens: 认知沉没成本
   follow_up_question: 在模型通过撞击实验之前，是否已明确禁止对外宣讲？
-
 ---
+
 # 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 
 > **Burn line**: 如果八年前 Truman 能穿越到现在，他会把这套课程建模的六句话带走。

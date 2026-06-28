@@ -1,7 +1,6 @@
 ---
-
 id: decision-science-domain-digest
-title: "域摘要：decision-science（科学决策）"
+title: 域摘要：decision-science（科学决策）
 type: index
 domain:
 - decision-science
@@ -9,10 +8,18 @@ status: enriched
 created_at: 2026-06-26
 updated_at: 2026-06-27
 source_refs:
-  - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+- 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 tags:
-  - src_unknown
+- src_unknown
+related:
+- '[[tool-decision-outside-view]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[ocr-一堂-科学决策-稀缺资源清单]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
 ---
+
 # decision-science 域摘要
 
 ## 1. 一句话

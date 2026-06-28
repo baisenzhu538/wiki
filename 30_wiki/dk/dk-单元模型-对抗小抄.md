@@ -17,20 +17,18 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
 related:
-  - [[tool-sop-template-modeling]]
-  - [[case-modeling-process-sop-evolution]]
-  - [[ocr-一堂-单元模型-对抗小抄]]
-  - [[ocr-一堂-单元模型-对抗小抄02]]
-  - [[case-modeling-process-sop-examples]]
-  - [[yitang-domain-digest]]
-  - [[yt-unit-model-overview]]
-  - [[ai-collaboration-domain-digest]]
-  - [[dk-单元模型-规模对抗实操难点]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[framework-单元模型-外部对抗地图]]
-review_date: "2026-06-27"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[ai单元模型口述蒋老师]]'
+review_date: '2026-06-27'
 updated_at: 2026-06-28
 ---
+
 # 单元模型对抗小抄
 
 ## 反直觉洞察

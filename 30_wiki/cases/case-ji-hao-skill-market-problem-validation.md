@@ -15,16 +15,9 @@ created_at: 2026-06-09
 updated_at: 2026-06-28
 reviewed_by: 老顽童
 related:
-- [[tool-纪浩-problem-validation-four-checks]]
-- [[dk-ji-hao-problem-vs-question]]
-- [[case-ai-assisted-review]]
-- [[case-truman-prd-checklist-evolution]]
-- [[tool-纪浩-真需求四要素验证法]]
-- [[dk-ji-hao-problem-vs-question]]
-- [[tool-纪浩-problem-validation-four-checks]]
-- [[concept-纪浩-ai-collaboration-five-layer]]
-- [[yt-entrepreneur-lean-validation]]
-- [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -42,6 +35,7 @@ author: 纪浩
 confidence: 0.7
 trust_level: low
 ---
+
 ## 原始表述
 
 > "在没有Skill市场之前，我们分享一个Skill是通过微信传zip的方式——找zip文件夹、打包、微信发出去。用户遇到问题时只能模糊口述反馈，我们无法定位。更新之后用户可能还在用旧版。"

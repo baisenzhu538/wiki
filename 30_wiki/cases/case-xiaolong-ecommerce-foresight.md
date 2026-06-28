@@ -37,12 +37,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 related:
-- [[tool-按分阶练习路径渐进掌握方法]]
-- [[ocr-泛产品设计-落地卡片-假设拆解]]
-- [[case-gudong-tea-shop-foresight]]
-- [[case-truman-yitang-foresight]]
-- [[yt-foresight-addition-subtraction]]
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景

@@ -1,11 +1,8 @@
 ---
-
-
-
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
-  - src_unknown
+- src_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -13,17 +10,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- '[[yt-research-osl-framework]]'
+- '[[yt-note-checklist-concept]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
@@ -36,18 +27,18 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- lens: "工具瘾检测"
-  follow_up: "检查是否停留在L1/L2，需要推进到L3作品层"
-- lens: "产品边界判断"
-  follow_up: "对照L4产品8条验收清单，找出缺失项"
-- lens: "系统失控信号"
-  follow_up: "检查L5工程底座的校验和监控环节是否到位"
-- lens: "认知外包过度"
-  follow_up: "评估L2口述依赖度，强制无AI练习比例"
-- lens: "标准化缺失"
-  follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
-
+- lens: 工具瘾检测
+  follow_up: 检查是否停留在L1/L2，需要推进到L3作品层
+- lens: 产品边界判断
+  follow_up: 对照L4产品8条验收清单，找出缺失项
+- lens: 系统失控信号
+  follow_up: 检查L5工程底座的校验和监控环节是否到位
+- lens: 认知外包过度
+  follow_up: 评估L2口述依赖度，强制无AI练习比例
+- lens: 标准化缺失
+  follow_up: 在L3建立统一的Skill/模板资产，而非放任个体工具选择
 ---
+
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 
 > **核心定位**：一个普通人从”把AI当搜索框”到”搭建个人AI操作系统”的五层进阶框架。层级不是按工具难度排序，而是按**复利密度和责任边界**排序——越往上，AI替你创造的长期资产越多，你必须承担的验证、安全、维护责任也越大。

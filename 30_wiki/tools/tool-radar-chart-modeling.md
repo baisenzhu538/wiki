@@ -19,11 +19,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.9
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- '[[tool-动手建模法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
@@ -37,8 +37,8 @@ diagnostic_signals:
   follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
 - framework_lens: 抽象建模 / 边界判断
   follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
-
 ---
+
 # 雷达图建模法：多维度评估与筛选
 
 > **Burn line**: 当你需要从多个选项中做选择，但不想靠拍脑袋时，先用雷达图把维度拆清楚。

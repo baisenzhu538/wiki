@@ -1,5 +1,4 @@
 ---
-
 id: framework-ai2041-critical-reading-os
 title: AI 2041 批判性认知操作系统
 type: framework
@@ -10,25 +9,21 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[dk-ai-prediction-expiry-date]]
-  - [[concept-ai-information-quality-ladder]]
-  - [[tool-ai-cross-reading-method]]
-  - [[dk-ai-scarcest-resource-is-self]]
-  - [[concept-ai-chair-determines-view]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[tool-ai2041-source-verification-checklist]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-gan-three-roles]]'
 ---
+
 # AI 2041 批判性认知操作系统
 
 > **Burn line**：面对任何关于 AI 的预测，不要先问“它会实现吗”，要问“它实现之后，具体哪个人在哪个岔路口还能做什么选择”。

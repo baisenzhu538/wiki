@@ -1,5 +1,4 @@
 ---
-
 id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dk
@@ -14,13 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- [[dk-f2-txt-ingest-skip]]
-- [[dk-f5-stale-feedback-ref]]
-- [[dk-f4-wrong-workdir]]
-- [[dk-p16-validate-reads-state-json]]
-- [[dk-c3-txt-ingest-skip]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[master-systems-thinking]]
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[plan_20260501_8001399c-improvement-plan]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,6 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 ---
+
 ## 原始表述
 
 > **触发命令**：`kdo improve --apply`

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-pitch-quantification
 title: 讲香·数字化
 type: tool
@@ -20,13 +17,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- [[yt-pitch-metaphor]]
-- [[yt-tool-meeting-designer]]
-- [[yt-pitch-storytelling]]
-- [[yt-tool-project-health-radar]]
-- [[business-research-skill-oscar-13-weapon-system]]
-- [[yt-concept-weapon-arsenal]]
-- [[yt-model-personal-pitch-toolkit]]
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,6 +36,7 @@ reviewed_by: null
 author: 老顽童
 trust_level: medium-high
 ---
+
 # 讲香·数字化
 
 > 十指模型左手第三指——向下具象。客观的数字让用户默认「这就是事实」，在用户犹豫反复时一锤定音。

@@ -11,20 +11,17 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[case-yitang-doorstep-nail-service-context]]
-  - [[case-yitang-ai-time-management-coach]]
-  - [[case-yitang-ski-project-user-as-expert]]
-  - [[case-yitang-homestay-reception-design]]
-  - [[framework-yitang-oscar-research]]
-  - [[yt-research-osl-framework]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：一堂赛道选择——自己用调研方法论选方向
 
 **背景**：一堂在决定做"创业教育/方法论"这个赛道之前，系统性地用OSL五步法做了赛道调研。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-competitor-financial-analysis
 title: 竞对财税分析：从社保/纳税/财报反推真实规模
 type: tool
@@ -12,19 +11,18 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - [[tool-yitang-signup-statistics]]
-  - [[tool-yitang-bidding-analysis]]
-  - [[tool-yitang-shareholder-analysis]]
-  - [[tool-yitang-anonymous-roundtable]]
-  - [[tool-yitang-court-record-search]]
-  - [[tool-yitang-weapon-public-official-info]]
-  - [[tool-yitang-business-registration-check]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 竞对财税分析
 
 > 通过公开的财务/税务/社保信息反推竞对的真实规模和经营状况。

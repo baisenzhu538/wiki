@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-exhaust-means
 title: 穷尽手段：底线之上，努力拉满
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
@@ -29,22 +28,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[yitang-research-domain-digest]]
-  - [[concept-yitang-research-scope]]
-  - [[tool-yitang-research-single-point-sniper]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-intelligence-map-in-hand]]
-  - [[yt-research-intelligence-map]]
-  - [[tool-yitang-reverse-data-analysis]]
-  - [[tool-yitang-field-research]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[concept-yitang-research-mindset]]
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 穷尽手段：底线之上，努力拉满
 
 > **一句话**：穷尽手段不是"不择手段"，而是"在合法合规的底线之上，穷尽所有可用手段，拿到最高质量情报"。

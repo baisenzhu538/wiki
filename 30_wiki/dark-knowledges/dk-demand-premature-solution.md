@@ -7,23 +7,24 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - five-step-method
+- yitang
+- five-step-method
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-  - [[dk-yitang-research-desperate-effort]]
-  - [[dk-yitang-research-goal-before-efficiency]]
-  - [[dk-demand-hidden-need]]
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[dk-yitang-public-info-is-enough]]
-  - [[framework-demand-iceberg]]
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
 updated_at: 2026-06-28
 ---
+
 # 过早进入解决方案空间——冰山模型的根本价值
 
 ## 原始表述

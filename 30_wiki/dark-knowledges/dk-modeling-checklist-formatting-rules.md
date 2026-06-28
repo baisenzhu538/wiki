@@ -15,17 +15,14 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- [[case-truman-sales-report-structure]]
-- [[tool-ai-skill-engineering-method]]
-- [[tool-checklist-cheatsheet-modeling]]
-- [[case-livestream-sop-modeling]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[dk-modeling-logical-cleanliness-root]]
-- [[dk-modeling-sop-execution-locks]]
-- [[process-modeling]]
-- [[modeling-three-stages]]
-- [[yt-note-checklist-concept]]
-- [[case-truman-prd-checklist-evolution]]
+- '[[yitang-domain-digest]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-推行分层标准化策略]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[tool-马易-隐私安全分层解决]]'
+- '[[tool-分层标注重点信息]]'
+- '[[tool-月白-AIGC海报信息优先级排序法]]'
+- '[[tool-深度分层学习]]'
 tags:
 - src_unknown
 - src_unknown
@@ -49,6 +46,7 @@ diagnostic_signals:
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
 ---
+
 ## 原始表述
 
 > 我能接受的是但凡你遇到了换行，但凡换行就有分解……超过七八个就分层……优先级，遇到决策就分级……建模要完备。

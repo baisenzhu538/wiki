@@ -1,58 +1,12 @@
 ---
-
-id: tool-一堂-hypothesis-validation-three-axe
-title: 技能：假设验证三板斧
-type: tool
-status: enriched
-domain:
-- src_unknown
-source_person: Truman
-source_context: 一堂关键假设课
-source_refs:
-  - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
-  - 00_inbox/一堂-关键假设课-truman-口述.txt
-  - 00_inbox/一堂-关键假设课-truman-笔记.txt
-- 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
-- 00_inbox/一堂-关键假设课-truman-口述.txt
-  - 00_inbox/一堂-关键假设课-truman-笔记.txt
-tools_required:
-- src_unknown
-- src_unknown
-prerequisite_skills:
-- src_unknown
-- src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-wiki_refs:
-- src_unknown
-- src_unknown
-created_at: '2026-06-10'
-updated_at: '2026-06-17'
-pipeline:
-- src_unknown
-- src_unknown
-author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.75
-trust_level: medium
-diagnostic_signals:
-- lens: 加法缺失
-  follow_up: 用259工具逐层拆解业务全要素，确保没有漏网
-- lens: 减法排序错误
-  follow_up: 检查排序标准是否按前置性+风险而非个人关心度
-- lens: 验证成本失控
-  follow_up: 验证成本必须≤失败损失的1/10，用问卷/访谈/假产品替代完整产品
-- lens: 否定信号被忽略
-  follow_up: 前置假设被否定=业务需终止或重大调整，立即复盘
-- lens: 价值/增长假设混淆
-  follow_up: 先验证价值假设，再验证增长假设，顺序不可颠倒
+- '[[concept-一堂-key-assumptions]]'
+- '[[tool-一堂-five-step-validation]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 技能：假设验证三板斧
 
 ## Summary

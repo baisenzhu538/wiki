@@ -1,5 +1,4 @@
 ---
-
 id: concept-思考深度分级
 title: 思考深度分级：从表象到本质的认知阶梯
 type: concept
@@ -10,22 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
 - src_unknown
 related:
-  - [[concept-稀缺机会窗口]]
-  - [[tool-单元模型-单商圈]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[framework-问题边界与Problem澄清五层结构]]
-  - [[framework-单元模型-外部对抗地图]]
-  - [[framework-科学决策三角形]]
-  - [[tool-决策深度-L1优先级定性]]
-  - [[concept-X型Y型决策习惯]]
-  - [[concept-发现决策]]
-  - [[ai-collaboration-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 ---
+
 # 思考深度分级
 
 ## 一句话定义

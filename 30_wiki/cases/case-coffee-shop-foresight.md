@@ -1,6 +1,4 @@
 ---
-
-
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -9,39 +7,37 @@ domain: yitang
 estimated_tokens: 2000
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: 洪七公
 source_refs:
 - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
-source_refs:
-  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 status: enriched
-title: "案例：咖啡馆创业预判"
+title: 案例：咖啡馆创业预判
 trust_level: medium
 type: case
 updated_at: 2026-06-10
 version: 1
 yitang:
   map: entrepreneur
-  module: "机会预判"
+  module: 机会预判
   course_type: case
   level: core
 pipeline:
-  - src_unknown
-  - src_unknown
-author: "老顽童"
+- src_unknown
+- src_unknown
+author: 老顽童
 related:
-  - [[dk-foresight-tier-skip-illusion]]
-  - [[yt-five-step-method-complete]]
-  - [[case-escort-service-tiered-growth]]
-  - [[yt-foresight-deliverables-four-levels]]
-  - [[case-ai-time-management-tiered-growth]]
+- '[[case-escort-service-tiered-growth]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yitang-domain-digest]]'
 ---
+
 # 案例：咖啡馆创业预判
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-five-step-method]]

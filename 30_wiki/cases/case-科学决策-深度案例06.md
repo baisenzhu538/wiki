@@ -5,24 +5,22 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.70
+confidence: 0.7
 trust_level: medium-low
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
-  - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
+- 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md
 related:
-  - [[framework-科学决策三角形]]
-  - [[tool-决策深度-L2部分定量]]
-  - [[tool-决策深度-L3定量公式]]
-  - [[tool-ROI决策评估画布]]
-  - [[ai-collaboration-domain-digest]]
-  - [[strategy-domain-digest]]
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
 updated_at: 2026-06-28
 ---
+
 # 案例：电话外呼的 ROI 分析
 
 ## 案例来源

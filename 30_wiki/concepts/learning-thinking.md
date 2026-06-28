@@ -1,29 +1,31 @@
 ---
-
-
 id: learning-thinking
 created_at: 2026-05-21
 domain:
-  - master
-  - personal-growth
+- master
+- personal-growth
 source_refs:
 - src_20260522_0af1f6dd-learning-thinking
 status: enriched
-title: "Learning Thinking"
+title: Learning Thinking
 type: concept
 updated_at: 2026-05-22
-pipeline:
+pipeline: null
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[视觉prompt三层操作系统-srom-visual-os]]
-  - [[business-analysis]]
-  - [[meta-prompt-eng]]
-  - [[writing-content]]
-  - [[product-ux]]
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[master-systems-thinking]]'
+- '[[yt-panproduct-execution-liberate-thinking]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[yt-tool-best-practice-learning]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-thinking-models]]'
+- '[[yt-personal-ai-thinking-card]]'
 ---
+
 # Learning Thinking
 
 ## Summary
