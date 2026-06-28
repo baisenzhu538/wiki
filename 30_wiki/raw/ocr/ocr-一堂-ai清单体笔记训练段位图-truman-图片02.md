@@ -7,7 +7,7 @@ domain:
 - src_unknown
 status: draft
 source_refs:
-- src_20260609_6809033f
+- 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md
 created_at: '2026-06-09T14:03:49+00:00'
 updated_at: '2026-06-16'
 id: ocr-一堂-ai清单体笔记训练段位图-truman-图片02
@@ -15,7 +15,7 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_6809033f）
+source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md）
 related:
   - src_unknown
   - src_unknown

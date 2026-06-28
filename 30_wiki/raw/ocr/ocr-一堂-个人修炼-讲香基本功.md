@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_98db1d35
+  - 10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md
 status: draft
 title: "OCR: 一堂-个人修炼-讲香基本功"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e985ecdb
+  - 10_raw/sources/src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md
 status: draft
 title: "OCR: 泛产品设计的应用场景示意图"
 type: concept

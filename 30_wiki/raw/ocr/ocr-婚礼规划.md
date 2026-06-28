@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_b29a6b98
+  - 10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md
 status: draft
 title: "OCR: 婚礼规划"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e139c9e9
+  - 10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md
 status: draft
 title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
 type: concept

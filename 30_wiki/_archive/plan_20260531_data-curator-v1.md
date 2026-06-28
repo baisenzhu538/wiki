@@ -10,7 +10,7 @@ tags:
 - src_unknown
 - src_unknown
 source_refs:
-- src_20260606_050f35d5
+- 10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 version: 1
@@ -20,7 +20,7 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260606_050f35d5）
+source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md）
 ---
 # Data Curator Skill 实施方案 v1.0
 

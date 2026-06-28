@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_7d2a79f8
+  - 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md
 status: draft
 title: "OCR: 审美提升的层级"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_6a8b5755
+  - 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
 status: draft
 title: "OCR: 泛产品设计-审美卡片-最佳实践池子"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_4f3415a1
+  - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 status: draft
 title: "OCR: 一堂-科学决策-深度-决策经验值"
 type: concept

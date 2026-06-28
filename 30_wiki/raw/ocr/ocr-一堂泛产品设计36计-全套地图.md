@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_7e8d10c4
+  - 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 status: draft
 title: "OCR: 一堂泛产品设计36计-全套地图"
 type: concept

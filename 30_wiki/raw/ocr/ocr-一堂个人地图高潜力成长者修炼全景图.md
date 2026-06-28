@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_9cb1d9d6
+  - 10_raw/sources/src_20260522_9cb1d9d6-ocr-一堂个人地图高潜力成长者修炼全景图.md
 status: draft
 title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
 type: concept

@@ -10,7 +10,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_4244803c
+  - 10_raw/sources/src_20260609_4244803c-ocr-一堂-单元模型-单履约模型.md
 created_at: "2026-06-09T14:04:56+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-单履约模型"

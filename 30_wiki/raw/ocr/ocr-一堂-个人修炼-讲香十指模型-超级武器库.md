@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_ad373a9b
+  - 10_raw/sources/src_20260522_ad373a9b-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md
 status: draft
 title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
 type: concept

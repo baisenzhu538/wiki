@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e31b26dd
+  - 10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md
 status: draft
 title: "OCR: 一堂-科学决策-项目方案评估三角形"
 type: concept

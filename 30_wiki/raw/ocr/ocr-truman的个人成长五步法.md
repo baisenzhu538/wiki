@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_074c72ae
+  - 10_raw/sources/src_20260522_074c72ae-ocr-truman的个人成长五步法.md
 status: draft
 title: "OCR: Truman的个人成长五步法"
 type: concept

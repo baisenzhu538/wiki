@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_53341e5a
+  - 10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md
 status: draft
 title: "OCR: 一堂Y模型实操工作流"
 type: concept

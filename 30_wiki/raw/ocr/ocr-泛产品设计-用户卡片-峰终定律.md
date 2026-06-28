@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_041b5a94
+  - 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md
 status: draft
 title: "OCR: 泛产品设计-用户卡片-峰终定律"
 type: concept

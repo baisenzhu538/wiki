@@ -10,7 +10,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_a8ead237
+  - 10_raw/sources/src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md
 created_at: "2026-06-09T14:04:55+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-创业必修-课程清单"

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_8d5cc8b0
+  - 10_raw/sources/src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-管理三段论"
 type: concept

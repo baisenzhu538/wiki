@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_22cb5729
+  - 10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md
 status: draft
 title: "OCR: 一堂-科学决策-深度-L1优先级定性"
 type: concept

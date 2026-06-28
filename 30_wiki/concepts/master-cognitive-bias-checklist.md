@@ -1,16 +1,15 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单
 type: tool
 status: enriched
 source_context: 一堂科学决策课程——认知偏差识别与决策训练清单
 source_refs:
-  - src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
-  - src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
-  - src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+- pending_archive:src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
+- pending_archive:src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
+- pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
@@ -19,13 +18,12 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-systems-thinking]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-knowledge-compound]]'
-
+- '[[master-ai-info-literacy]]'
+- '[[master-decision-hygiene]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
 ---
 
 # 认知偏差快速诊断清单

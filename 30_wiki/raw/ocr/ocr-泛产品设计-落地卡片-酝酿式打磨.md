@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_2bcc3531
+  - 10_raw/sources/src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-酝酿式打磨"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_b4ebba42
+  - 10_raw/sources/src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md
 status: draft
 title: "OCR: 一堂-科学决策-宽度-企业"
 type: concept

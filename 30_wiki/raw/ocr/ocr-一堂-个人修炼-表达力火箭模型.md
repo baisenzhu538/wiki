@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_f6f8f8eb
+  - 10_raw/sources/src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md
 status: draft
 title: "OCR: 一堂-个人修炼-表达力火箭模型"
 type: concept

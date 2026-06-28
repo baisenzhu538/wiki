@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_622b8a41
+  - 10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md
 status: draft
 title: "OCR: 泛产品设计-用户卡片-惊喜公式"
 type: concept

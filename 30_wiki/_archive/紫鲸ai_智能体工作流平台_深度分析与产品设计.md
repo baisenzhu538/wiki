@@ -4,7 +4,7 @@ created_at: 2026-04-30
 domain:
 - src_unknown
 source_refs:
-- src_20260501_4eee4e95
+- 10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md
 status: superseded
 superseded_by: []
 title: 紫鲸AI_智能体工作流平台_深度分析与产品设计

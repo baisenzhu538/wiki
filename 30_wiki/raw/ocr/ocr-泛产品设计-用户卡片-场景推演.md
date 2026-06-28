@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_3bc67cbd
+  - 10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md
 status: draft
 title: "OCR: 泛产品设计-用户卡片-场景推演"
 type: concept

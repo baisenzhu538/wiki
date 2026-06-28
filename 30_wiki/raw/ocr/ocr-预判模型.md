@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e71d89ff
+  - 10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md
 status: draft
 title: "OCR: 预判模型"
 type: concept

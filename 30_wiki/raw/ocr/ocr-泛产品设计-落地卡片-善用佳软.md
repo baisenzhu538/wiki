@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_7ddf8bf2
+  - 10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-善用佳软"
 type: concept

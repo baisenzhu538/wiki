@@ -4,7 +4,7 @@ created_at: 2026-05-01
 domain:
 - src_unknown
 source_refs:
-- src_20260501_58b6edef
+- 10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md
 status: superseded
 superseded_by: []
 title: Obsidian + KDO 内容产出工作流 — 产品设计大纲

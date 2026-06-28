@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_961e1d68
+  - 10_raw/sources/src_20260522_961e1d68-ocr-screenshot2.md
 status: draft
 title: "OCR: screenshot2"
 type: concept

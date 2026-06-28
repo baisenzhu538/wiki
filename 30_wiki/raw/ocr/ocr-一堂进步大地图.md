@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_d75f0a0d
+  - 10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md
 status: draft
 title: "OCR: 一堂进步大地图"
 type: concept

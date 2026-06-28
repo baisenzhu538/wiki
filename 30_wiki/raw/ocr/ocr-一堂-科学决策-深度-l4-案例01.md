@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_5323822f
+  - 10_raw/sources/src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md
 status: draft
 title: "OCR: 一堂-科学决策-深度-L4-案例01"
 type: concept

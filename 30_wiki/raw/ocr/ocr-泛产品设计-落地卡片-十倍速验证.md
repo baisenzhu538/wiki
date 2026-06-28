@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_5bd37e0d
+  - 10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-十倍速验证"
 type: concept

@@ -1,16 +1,15 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: master-decision-hygiene
 title: 决策卫生五步法
 type: framework
 status: enriched
 source_context: 一堂科学决策课程——决策卫生五步法框架
 source_refs:
-  - src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
-  - src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
-  - src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+- pending_archive:src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
+- pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+- pending_archive:src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
@@ -19,13 +18,12 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-first-principles]]'
-  - '[[master-systems-thinking]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-knowledge-compound]]'
-
+- '[[master-ai-info-literacy]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
 ---
 
 # 决策卫生五步法

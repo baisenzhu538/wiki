@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_8bdb2970
+  - 10_raw/sources/src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md
 status: draft
 title: "OCR: 泛产品设计落地工具篇指南"
 type: concept

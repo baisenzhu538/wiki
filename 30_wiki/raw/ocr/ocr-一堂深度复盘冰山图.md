@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_c92a36ba
+  - 10_raw/sources/src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md
 status: draft
 title: "OCR: 一堂深度复盘冰山图"
 type: concept

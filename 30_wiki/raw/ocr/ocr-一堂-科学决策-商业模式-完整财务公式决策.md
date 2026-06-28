@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_c59acefd
+  - 10_raw/sources/src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md
 status: draft
 title: "OCR: 一堂-科学决策-商业模式-完整财务公式决策"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_dc5c80df
+  - 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
 status: draft
 title: "OCR: 一堂五步法-产品内核画布"
 type: concept

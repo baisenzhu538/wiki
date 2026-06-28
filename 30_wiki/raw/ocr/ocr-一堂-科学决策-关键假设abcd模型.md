@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_3261e6bd
+  - 10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
 status: draft
 title: "OCR: 一堂-科学决策-关键假设ABCD模型"
 type: concept

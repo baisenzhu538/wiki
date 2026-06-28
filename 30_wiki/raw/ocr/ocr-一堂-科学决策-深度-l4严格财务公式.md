@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
 - src_unknown
 source_refs:
-- src_20260522_26271f58
+- 10_raw/sources/src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md
 status: draft
 title: 'OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）'
 type: concept

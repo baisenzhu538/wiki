@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_2954d80a
+  - 10_raw/sources/src_20260522_2954d80a-ocr-一堂-地图-创业地图_conv.md
 status: draft
 title: "OCR: 一堂-地图-创业地图_conv"
 type: concept

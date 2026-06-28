@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_af67f9b0
+  - 10_raw/sources/src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md
 status: draft
 title: "OCR: 一堂-地图-管理地图"
 type: concept

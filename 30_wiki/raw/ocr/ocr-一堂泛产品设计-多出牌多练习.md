@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_4754d8fd
+  - 10_raw/sources/src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md
 status: draft
 title: "OCR: 一堂泛产品设计-多出牌多练习"
 type: concept

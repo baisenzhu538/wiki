@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_9cbdf4fd
+  - 10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md
 status: draft
 title: "OCR: truman的选择：两条职业成长路线"
 type: concept

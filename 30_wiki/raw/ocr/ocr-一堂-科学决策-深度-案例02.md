@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e60022cc
+  - 10_raw/sources/src_20260522_e60022cc-ocr-一堂-科学决策-深度-案例02.md
 status: draft
 title: "OCR: 一堂-科学决策-深度-案例02"
 type: concept

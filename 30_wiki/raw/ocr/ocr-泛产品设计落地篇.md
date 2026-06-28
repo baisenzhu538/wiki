@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_e4b635ac
+  - 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md
 status: draft
 title: "OCR: 泛产品设计落地篇"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_6199c6b7
+  - 10_raw/sources/src_20260522_6199c6b7-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: draft
 title: "OCR: 一堂-个人修炼-科学学习IPO模型"
 type: concept

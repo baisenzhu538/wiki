@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_4af61500
+  - 10_raw/sources/src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md
 status: draft
 title: "OCR: 项目背景问题思考的8个维度"
 type: concept

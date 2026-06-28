@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_c78c1f2e
+  - 10_raw/sources/src_20260522_c78c1f2e-ocr-一堂-科学决策-roi决策评估画布.md
 status: draft
 title: "OCR: 一堂-科学决策-ROI决策评估画布"
 type: concept

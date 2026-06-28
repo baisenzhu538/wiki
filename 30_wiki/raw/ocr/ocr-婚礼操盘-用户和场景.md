@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_94ee2a08
+  - 10_raw/sources/src_20260522_94ee2a08-ocr-婚礼操盘-用户和场景.md
 status: draft
 title: "OCR: 婚礼操盘-用户和场景"
 type: concept

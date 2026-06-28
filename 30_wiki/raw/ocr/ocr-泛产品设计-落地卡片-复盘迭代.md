@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_3b5c417d
+  - 10_raw/sources/src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-复盘迭代"
 type: concept

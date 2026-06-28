@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_d067a6ba
+  - 10_raw/sources/src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md
 status: draft
 title: "OCR: 一堂-科学决策-稀缺资源清单"
 type: concept

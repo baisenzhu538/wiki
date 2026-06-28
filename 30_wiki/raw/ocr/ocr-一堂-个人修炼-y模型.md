@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_3f5c76c0
+  - 10_raw/sources/src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md
 status: draft
 title: "OCR: 一堂-个人修炼-Y模型"
 type: concept

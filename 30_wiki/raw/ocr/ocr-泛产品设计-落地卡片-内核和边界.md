@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_f3072399
+  - 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
 status: draft
 title: "OCR: 泛产品设计-落地卡片-内核和边界"
 type: concept

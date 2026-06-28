@@ -11,7 +11,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_62f76551
+  - 10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:26:18+00:00"
 id: "ocr-一堂-ai学习-提问工程化"

@@ -8,7 +8,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_b32e7bb8
+  - 10_raw/sources/src_20260609_b32e7bb8-ocr-一堂-高阶体系探索营-三种咨询可能性.md
 created_at: "2026-06-09T14:05:52+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-高阶体系探索营-三种咨询可能性"

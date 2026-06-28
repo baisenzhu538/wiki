@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_32462c98
+  - 10_raw/sources/src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md
 status: draft
 title: "OCR: 一堂Y模型-科学成事道理"
 type: concept

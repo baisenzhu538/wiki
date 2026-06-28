@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_6697adcb
+  - 10_raw/sources/src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象.md
 status: draft
 title: "OCR: 泛产品设计-审美卡片-美好作品想象"
 type: concept

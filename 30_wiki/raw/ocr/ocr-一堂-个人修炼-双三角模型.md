@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_1b95114b
+  - 10_raw/sources/src_20260522_1b95114b-ocr-一堂-个人修炼-双三角模型.md
 status: draft
 title: "OCR: 一堂-个人修炼-双三角模型"
 type: concept

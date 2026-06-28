@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_91948770
+  - 10_raw/sources/src_20260522_91948770-ocr-优秀泛产品设计者的自我修养.md
 status: draft
 title: "OCR: 优秀泛产品设计者的自我修养"
 type: concept

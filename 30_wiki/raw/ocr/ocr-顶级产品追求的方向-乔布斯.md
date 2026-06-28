@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_ea933690
+  - 10_raw/sources/src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯.md
 status: draft
 title: "OCR: 顶级产品追求的方向-乔布斯"
 type: concept

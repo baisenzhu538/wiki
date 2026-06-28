@@ -9,7 +9,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_e54e85be
+  - 10_raw/sources/src_20260609_e54e85be-ocr-一堂-单元模型-斧子尺子梯子.md
 created_at: "2026-06-09T14:05:28+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-斧子尺子梯子"

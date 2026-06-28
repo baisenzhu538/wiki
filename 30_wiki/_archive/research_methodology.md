@@ -13,8 +13,8 @@ reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- src_20260502_7d7c1b7c
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260502_7d7c1b7c）
+- 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
+source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md）
 ---
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 
@@ -25,7 +25,7 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 > **四条自适应路由**: Route A（广域搜索）、Route B（聚焦搜索）、Route C（纯文件研究）、Route D（文件增强研究）
 > **规模**: ≥10个子Agent并行，每Agent ≥20次独立搜索，总搜索预算≥200次（Route B）
 
-> **注意**: 本文件内容来自 `src_20260503_5dc58ec8`。相关概念参见 [[kimi-深度调研集群方法论-deep-research-swarm]]（`src_20260502_7d7c1b7c`），二者内容高度相似，可能为同一方法论的不同版本或整理稿。
+> **注意**: 本文件内容来自 `src_20260503_5dc58ec8`。相关概念参见 [[kimi-深度调研集群方法论-deep-research-swarm]]（`10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`），二者内容高度相似，可能为同一方法论的不同版本或整理稿。
 
 ## Source Refs
 

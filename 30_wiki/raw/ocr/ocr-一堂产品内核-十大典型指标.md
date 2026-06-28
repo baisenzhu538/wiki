@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_32e4318a
+  - 10_raw/sources/src_20260522_32e4318a-ocr-一堂产品内核-十大典型指标.md
 status: draft
 title: "OCR: 一堂产品内核-十大典型指标"
 type: concept

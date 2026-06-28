@@ -10,7 +10,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_60edc284
+  - 10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md
 created_at: "2026-06-09T14:05:51+00:00"
 updated_at: "2026-06-09T15:52:58+00:00"
 id: "ocr-一堂-科学决策-roi高阶训练全景图"

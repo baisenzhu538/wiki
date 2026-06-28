@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_f6cf4e83
+  - 10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md
 status: draft
 title: "OCR: 泛产品设计-用户卡片-多视角思考"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
 - src_unknown
 source_refs:
-- src_20260522_77b6cdaf
+- 10_raw/sources/src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md
 status: draft
 title: 'OCR: 一堂提炼过的因果模型'
 type: concept

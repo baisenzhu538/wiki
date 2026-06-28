@@ -8,7 +8,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_6f5c7abd
+  - 10_raw/sources/src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md
 created_at: "2026-06-09T14:05:27+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-对抗小抄02"

@@ -8,7 +8,7 @@ domain:
   - src_unknown
 status: draft
 source_refs:
-  - src_20260609_99032bf9
+  - 10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md
 created_at: "2026-06-09T14:05:28+00:00"
 updated_at: "2026-06-09T15:52:58+00:00"
 id: "ocr-一堂-单元模型-示例"

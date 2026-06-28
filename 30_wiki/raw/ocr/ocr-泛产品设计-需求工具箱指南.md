@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
 - src_unknown
 source_refs:
-- src_20260522_726a6a3b
+- 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
 status: draft
 title: 'OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）'
 type: concept

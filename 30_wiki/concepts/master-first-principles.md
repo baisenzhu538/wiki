@@ -1,16 +1,15 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: master-first-principles
 title: 第一性原理
 type: tool
 status: enriched
 source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
 source_refs:
-  - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
-  - src_20260614_239c9f4e-一堂-知识萃取探索营.md
-  - src_20260522_0af1f6dd-learning-thinking.md
+- pending_archive:src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
+- pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
+- pending_archive:src_20260522_0af1f6dd-learning-thinking.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
@@ -19,13 +18,12 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-systems-thinking]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-knowledge-compound]]'
-
+- '[[master-ai-info-literacy]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
 ---
 
 # 第一性原理拆解器

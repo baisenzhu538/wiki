@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_3693c090
+  - 10_raw/sources/src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md
 status: draft
 title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
 type: concept

@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_7fb2b9c1
+  - 10_raw/sources/src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md
 status: draft
 title: "OCR: 一堂-科学决策-稀缺机会窗口"
 type: concept

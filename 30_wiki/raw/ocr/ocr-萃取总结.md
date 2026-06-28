@@ -5,7 +5,7 @@ created_at: 2026-05-21
 domain:
   - src_unknown
 source_refs:
-  - src_20260522_4310e409
+  - 10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md
 status: draft
 title: "OCR: 萃取总结"
 type: concept

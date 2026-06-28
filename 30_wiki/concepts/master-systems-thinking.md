@@ -1,16 +1,15 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点
 type: concept
 status: enriched
 source_context: 一堂科学决策课程——系统思考、反馈循环与杠杆点
 source_refs:
-  - src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
-  - src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
-  - src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
+- pending_archive:src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
+- pending_archive:src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
+- pending_archive:src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
@@ -19,13 +18,12 @@ review_date: '2026-06-20'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[master-ai-info-literacy]]'
-  - '[[master-cognitive-bias-checklist]]'
-  - '[[master-decision-hygiene]]'
-  - '[[master-first-principles]]'
-  - '[[master-antifragile-checklist]]'
-  - '[[master-knowledge-compound]]'
-
+- '[[master-ai-info-literacy]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-first-principles]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
 ---
 
 # 系统思考：反馈循环与杠杆点
