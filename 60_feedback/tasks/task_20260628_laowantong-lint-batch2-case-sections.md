@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-lint-batch2-case-sections
 type: task
-status: in_progress
+status: pending_review
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
@@ -47,3 +47,15 @@ source_refs:
 ## 输出
 
 完成后在本任务单末尾写执行报告：处理文件数、新增 section 数、pre-submit 通过率、残余问题。
+
+## 执行报告（2026-06-28）
+
+- **处理文件数**：130 / 130（清单：`90_control/.tmp/lint_batch2_case_section.json`）
+- **执行方式**：
+  - 2 张卡（`case-ban-fei-mao-from-assignment-to-tool.md`、`case-candy-problem-os-vpn.md`）人工萃取正文补全 4 个标准 section；
+  - 剩余 128 张卡由 `process_batch2a.py` 机械标准化：补 `## 关键证据` 骨架、将 `## 可迁移模式` 改为 `## 可迁移场景`、拆分 `## 失败模式/教训` 为 `## 教训` + `## 失败模式`、并统一 frontmatter 字段（`status`/`reviewed_by`/`updated_at`）。
+- **pre-submit 校验**：130 / 130 通过（`kdo pre-submit` 6 个批次，0 failed）。
+- **残余问题**：
+  - 大量 `src_unknown` 占位待后续内容填充（按规则 3 保留，非机械错误）；
+  - 未引入新的 frontmatter 解析错误、死链或 domain typo。
+- **下一步**：提交欧阳锋终审。

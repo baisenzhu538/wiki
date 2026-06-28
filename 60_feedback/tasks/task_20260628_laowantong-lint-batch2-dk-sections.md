@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-lint-batch2-dk-sections
 type: task
-status: in_progress
+status: pending_review
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
@@ -50,3 +50,15 @@ source_refs:
 ## 输出
 
 完成后在本任务单末尾写执行报告。
+
+## 执行报告（2026-06-28）
+
+- **处理文件数**：43 / 43（清单：`90_control/.tmp/lint_batch2_dk_section.json`）
+- **执行方式**：由 `process_batch2b.py` 机械补齐 6 个标准 section 骨架，并修复 frontmatter；后续由 `fix_batch2b.py` 清理两类机械错误：
+  - 将 body 中的 `[[src_unknown]]` 占位死链改为纯文本 `src_unknown`（19 个文件）；
+  - 修复 `[['...']]` 双单引号 wikilink 为 `[[...]]`（2 个文件：`dk-ban-fei-mao-real-business-is-the-engine.md`、`dk-ji-hao-pdca-starts-from-do.md`）。
+- **pre-submit 校验**：43 / 43 通过（`kdo pre-submit` 2 个批次，0 failed）。
+- **残余问题**：
+  - section 骨架中仍有大量 `src_unknown` 占位（按规则 3 保留，待后续内容填充）；
+  - 未引入新的 frontmatter 解析错误、死链或 domain typo。
+- **下一步**：提交欧阳锋终审。

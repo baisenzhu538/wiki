@@ -1,8 +1,9 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "王语嫣确认欧阳锋建议并更新任务单（2026-06-28）：Batch 2-C 增加 URL lint 规则补丁前置任务；Batch 2-A/B 补充执行规则；WorkBuddy 老顽童已领取 A/B，黄药师待领取 C；三人并行推进"
+active_task: "WorkBuddy 老顽童完成 Batch 2-A/B 生产并提交欧阳锋终审（2026-06-28）：130 case + 43 dk 文件 kdo pre-submit 全通过；黄药师继续 Batch 2-C source_refs 清理；王语嫣跟踪 pending_review 队列"
 blockers:
+  - "✅ WorkBuddy 老顽童完成 Batch 2-A/B（2026-06-28）：130 张 case 卡 + 43 张 dk 卡 section 标准化全部完成，`kdo pre-submit` 173/173 通过；任务单已更新为 pending_review，production-queue.md #13/#14 已同步；19 处 `[[src_unknown]]` 死链、2 处 `[['...']]` 格式错误已修复；待欧阳锋按 pending_review 顺序终审"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
   - "✅ 欧阳锋子代理完成 wave2 终审（2026-06-28）：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；已知遗留：frontmatter domain/related/tags/query_triggers `src_unknown` 占位（系统性债务）+ `yt-business-formula-parameter-iceberg` 与 B2 部分卡内容区占位 + `ai-short-drama-platform-policy-comparison` 缺 Critique/反事实，建议后续清理任务补齐"
