@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-barrier-brand-equity]]
+  - [[yt-barrier-culture-moat]]
+  - [[yt-barrier-data-assets]]
 diagnostic_signals:
 - framework_lens: 监管壁垒——牌照是壁垒，但需要持续维护和合规
   follow_up_question: 你的牌照是否有有效期？续期条件是什么？合规成本多少？

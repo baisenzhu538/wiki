@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-barrier-brand-equity]]
+  - [[yt-barrier-culture-moat]]
+  - [[yt-barrier-data-assets]]
 diagnostic_signals:
 - framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
   follow_up_question: 你的技术领先周期多长？研发投入占收入多少？专利布局如何？

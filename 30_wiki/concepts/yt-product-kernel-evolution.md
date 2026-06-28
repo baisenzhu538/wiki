@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-product-kernel-shampoo-case]]
+  - [[yt-product-kernel-add-subtract]]
+  - [[yt-product-kernel-aesthetic]]
 diagnostic_signals:
 - framework_lens: 内核演化——内核需要随市场演化
   follow_up_question: 你的内核从V1到现在变化过吗？如果市场变化，内核是否需要调整？

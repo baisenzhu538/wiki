@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-barrier-brand-equity]]
+  - [[yt-barrier-culture-moat]]
+  - [[yt-barrier-data-assets]]
 diagnostic_signals:
 - framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
   follow_up_question: 你的增长是否基于壁垒？壁垒能否保护增长成果？

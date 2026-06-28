@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-product-kernel-shampoo-case]]
+  - [[yt-product-kernel-add-subtract]]
+  - [[yt-product-kernel-aesthetic]]
 diagnostic_signals:
 - framework_lens: 内核与边界——边界不清，资源分散
   follow_up_question: 你的产品边界是什么？什么坚决不做？

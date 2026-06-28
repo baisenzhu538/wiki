@@ -25,9 +25,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[yt-lean-daily-chemical-mvp]]
+  - [[yt-lean-flower-mom-group-leader]]
+  - [[yt-lean-daily-probability-decision]]
 diagnostic_signals:
 - framework_lens: 产品内核假设 / 关键转化链路
   follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？

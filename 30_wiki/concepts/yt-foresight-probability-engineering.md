@@ -40,11 +40,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-foresight-15-char-mantra]]
+  - [[yt-foresight-ab-steady-state]]
+  - [[yt-foresight-addition-subtraction]]
 
 ---
 

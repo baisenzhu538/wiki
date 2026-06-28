@@ -23,11 +23,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[yt-lean-beauty-store-conversion]]
+  - [[yt-lean-daily-chemical-mvp]]
+  - [[yt-lean-flower-mom-group-leader]]
 pipeline:
 - src_unknown
 - src_unknown

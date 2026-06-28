@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-growth-acquisition-channels]]
+  - [[yt-growth-activation-rate]]
+  - [[yt-growth-market-led-growth]]
 diagnostic_signals:
 - framework_lens: 增长黑客——低成本快速实验，不需要大预算
   follow_up_question: 你能用A/B测试验证假设吗？最小化实验成本，快速迭代。

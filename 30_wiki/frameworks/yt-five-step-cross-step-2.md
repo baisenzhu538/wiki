@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-five-step-common-pitfalls]]
+  - [[yt-five-step-implementation]]
+  - [[yt-five-step-level-blindspots]]
 diagnostic_signals:
 - framework_lens: 跨步二——规模化需要单元模型支撑，否则增长越快亏损越大
   follow_up_question: 你的单元模型在规模化后是否成立？LTV/CAC是否恶化？

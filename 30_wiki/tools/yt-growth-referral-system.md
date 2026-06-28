@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-growth-acquisition-channels]]
+  - [[yt-growth-activation-rate]]
+  - [[yt-growth-growth-hacking]]
 diagnostic_signals:
 - framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
   follow_up_question: 你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？

@@ -24,11 +24,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-tool-best-practice-learning]]
+  - [[yt-tool-fab-persuasion]]
+  - [[yt-tool-foresight-canvas]]
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

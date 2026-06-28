@@ -21,9 +21,8 @@ review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[case-smart-medicine-cabinet-business-model-validation]]
+  - [[case-smart-medicine-cabinet-corporate-risk]]
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:

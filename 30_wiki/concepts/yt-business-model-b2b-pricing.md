@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-business-analysis-cognitive-biases]]
+  - [[yt-business-formula-l6-essence-formulas]]
+  - [[yt-business-formula-parameter-iceberg]]
 diagnostic_signals:
 - framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
   follow_up_question: 你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？

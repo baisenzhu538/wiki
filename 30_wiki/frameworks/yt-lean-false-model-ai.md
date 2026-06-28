@@ -30,11 +30,9 @@ diagnostic_signals:
 - framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[yt-lean-beauty-store-conversion]]
+  - [[yt-lean-daily-chemical-mvp]]
+  - [[yt-lean-flower-mom-group-leader]]
 
 ---
 

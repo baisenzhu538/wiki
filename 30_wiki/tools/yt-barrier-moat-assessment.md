@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-barrier-brand-equity]]
+  - [[yt-barrier-culture-moat]]
+  - [[yt-barrier-data-assets]]
 diagnostic_signals:
 - framework_lens: 护城河评估工具——需要系统评估护城河强度
   follow_up_question: 你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？

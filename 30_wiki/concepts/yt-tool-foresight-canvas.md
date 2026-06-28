@@ -27,11 +27,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-tool-best-practice-learning]]
+  - [[yt-tool-fab-persuasion]]
+  - [[yt-tool-knowledge-extraction]]
 wiki_refs:
 - src_unknown
 - src_unknown

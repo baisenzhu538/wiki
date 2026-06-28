@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-business-analysis-cognitive-biases]]
+  - [[yt-business-formula-l6-essence-formulas]]
+  - [[yt-business-formula-parameter-iceberg]]
 diagnostic_signals:
 - framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
   follow_up_question: 你的毛利率中，直接成本、服务成本、渠道成本各占多少？

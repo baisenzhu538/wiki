@@ -18,9 +18,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-demand-ai-knowledge-base-case]]
+  - [[yt-demand-b2b-vs-b2c]]
+  - [[yt-demand-hierarchy-model]]
 diagnostic_signals:
 - framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
   follow_up_question: 你的目标用户是'想健身的人'，还是'有特定健身场景的人'？

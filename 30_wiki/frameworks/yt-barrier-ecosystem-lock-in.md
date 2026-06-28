@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-barrier-brand-equity]]
+  - [[yt-barrier-culture-moat]]
+  - [[yt-barrier-data-assets]]
 diagnostic_signals:
 - framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
   follow_up_question: 你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？

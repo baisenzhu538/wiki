@@ -17,7 +17,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
+  - [[yt-demand-ai-knowledge-base-case]]
+  - [[yt-demand-treadmill-case]]
+  - [[yt-demand-b2b-vs-b2c]]
 diagnostic_signals:
 - framework_lens: 访谈技巧——缺乏结构化访谈框架
   follow_up_question: 你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？

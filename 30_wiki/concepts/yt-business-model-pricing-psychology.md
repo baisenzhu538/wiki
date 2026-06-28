@@ -17,11 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[yt-business-analysis-cognitive-biases]]
+  - [[yt-business-formula-l6-essence-formulas]]
+  - [[yt-business-formula-parameter-iceberg]]
 diagnostic_signals:
 - framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
   follow_up_question: 你的定价是否覆盖了成本？用户是否觉得这个价格值？
