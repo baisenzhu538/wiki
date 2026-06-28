@@ -25,6 +25,7 @@ related:
   - [[case-科学决策-深度案例03]]
   - [[framework-lean-false-model]]
   - [[concept-AI时代双三角竞争力]]
+  - [[master-decision-hygiene]]
 ---
 
 # 何时应该推迟决策

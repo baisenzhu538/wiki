@@ -28,6 +28,7 @@ related:
   - [[framework-decision-cognitive-bias-map]]
   - [[framework-lean-false-model]]
   - [[concept-AI时代双三角竞争力]]
+  - [[master-decision-hygiene]]
 ---
 
 # 决策质量六问检查表
