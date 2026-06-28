@@ -1,9 +1,12 @@
+---
+updated: 2026-06-29
+---
+
 > ⚠️ **2026-06-27 重要更新**：老顽童生产任务已统一进入 `70_product/tasks/production-queue.md`，按队列顺序领取和审核。本 dashboard 仍保留历史任务全景，但**当前待生产/待审核任务请以 production-queue.md 为准**。
 
 # Task Dashboard
 
 Generated: 2026-06-26T21:00:00+00:00
-updated: 2026-06-28
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
