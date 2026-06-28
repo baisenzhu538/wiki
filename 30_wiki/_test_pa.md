@@ -1,4 +1,5 @@
----
+---status: enriched
+
 id: test-pa
 type: concept
 domain: [test]

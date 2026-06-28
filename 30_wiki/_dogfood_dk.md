@@ -1,4 +1,5 @@
----
+---status: enriched
+
 id: dogfood-dk-indent
 type: dk
 domain: [test]

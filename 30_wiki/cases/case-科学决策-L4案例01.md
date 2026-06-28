@@ -3,10 +3,11 @@
 id: case-科学决策-L4案例01
 title: 案例：1万个投放线索的严格财务公式分析（乐观口径）
 type: case
-status:
-created_at: 2026-06-28 reviewed
+status: reviewed
+created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 confidence: 0.72
 trust_level: medium-low
 language: zh-CN
@@ -20,7 +21,7 @@ related:
   - [[yitang-domain-digest]]
   - [[decision-science-domain-digest]]
   - [[pending_unknown]]
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 
 ---
 

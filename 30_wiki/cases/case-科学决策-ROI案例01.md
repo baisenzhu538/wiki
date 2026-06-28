@@ -3,10 +3,11 @@
 id: case-科学决策-ROI案例01
 title: 案例：是否参加纽约时装周（2018）
 type: case
-status:
-created_at: 2026-06-28 reviewed
+status: reviewed
+created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: medium-low
 language: zh-CN
@@ -20,7 +21,7 @@ related:
   - [[yitang-domain-digest]]
   - [[decision-science-domain-digest]]
   - [[pending_unknown]]
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 
 ---
 

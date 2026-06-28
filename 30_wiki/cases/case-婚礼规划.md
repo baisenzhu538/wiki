@@ -3,10 +3,11 @@
 id: case-婚礼规划
 title: 案例：婚礼规划——完整决策流程
 type: case
-status:
-created_at: 2026-06-28 enriched
+status: enriched
+created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 language: zh-CN
@@ -19,7 +20,7 @@ related:
   - [[yitang-domain-digest]]
   - [[decision-science-domain-digest]]
   - [[pending_unknown]]
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 
 ---
 

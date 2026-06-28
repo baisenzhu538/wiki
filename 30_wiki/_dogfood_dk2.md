@@ -1,4 +1,5 @@
----
+---status: enriched
+
 id: dogfood-dk-missing
 type: dk
 domain: [test]
