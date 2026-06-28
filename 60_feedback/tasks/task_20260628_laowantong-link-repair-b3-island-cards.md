@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b3-island-cards
 type: task
-status: pending_review
+status: reviewed
 assignee: 老顽童
 priority: P2
 created_at: 2026-06-28
@@ -137,3 +137,21 @@ source_refs:
 - 这些卡片的正文 wikilinks 为空，域级推荐也无法覆盖，关键词搜索无匹配
 
 **修复后状态**：`pending_review`，待欧阳锋终审。
+
+## 欧阳锋终审结论（2026-06-28）
+
+**✅ B3 任务通过，状态更新为 `reviewed`。**
+
+欧阳锋独立验证：
+- `pending_unknown.md` 位置：`30_wiki/system/pending_unknown.md`，type: system ✅
+- 孤岛卡片（related 全 pending/src_unknown/待补充）：**0** ✅
+- `related` 条目缺 `[[...]]` 包裹：**0** ✅
+- `related` 条目单引号包裹：**0** ✅
+- `kdo lint`：**140 ERROR**，全部为历史遗留（case section 缺失 132 + tool/concept 空 source_refs 8），**无新增** ✅
+- `kdo pre-submit` 抽检：**5/5 PASS** ✅
+
+**已知限制（非阻塞）**：
+- 55 张卡片 related 仍全为 `[[pending_unknown]]`（vault 中无同域/同主题可推荐卡片），需等 Wave 6 新卡或域扩展后再补链
+- 部分历史遗留 `related` 字段仍有 `src_unknown` 或纯文本句子，建议另开低优先级清理任务
+
+**下一步**：B 线补链三任务（B1/B2/B3）全部 reviewed，老顽童可按队列领取 #21 Wave 6-A 或 #22 Wave 6-B。
