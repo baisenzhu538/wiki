@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-lint-batch2-case-sections
 type: task
-status: queued
+status: in_progress
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28

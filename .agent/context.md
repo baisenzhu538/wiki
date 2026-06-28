@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "王语嫣完成 lint Batch 2 拆分与人员调整（2026-06-28）：WorkBuddy 老顽童负责 Batch 2-A/B，黄药师负责 Batch 2-C，王语嫣负责 Wave 6 诊断；Hermes 老顽童 Batch1 完成后待命；等待 WorkBuddy/黄药师/王语嫣领取执行"
+active_task: "WorkBuddy 老顽童已领取并执行 lint Batch 2-A/B（2026-06-28）：Batch 2-A 130 张 case section 标准化补全 + Batch 2-B 43 张 dk section 标准化补全；黄药师负责 Batch 2-C source_refs；王语嫣负责 Wave 6 诊断；Hermes 老顽童 Batch1 完成后待命"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
