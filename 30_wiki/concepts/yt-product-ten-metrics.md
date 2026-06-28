@@ -43,11 +43,8 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[tool-lean-product-kernel-metrics]]
+  - [[yt-product-kernel-ten-metrics]]
 
 ---
 

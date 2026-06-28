@@ -21,15 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [["ocr-泛产品设计-用户卡片-一堂五步法"]]
+  - [["ocr-泛产品设计-用户卡片-动力阻力"]]
+  - [["ocr-泛产品设计-用户卡片-场景推演"]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法

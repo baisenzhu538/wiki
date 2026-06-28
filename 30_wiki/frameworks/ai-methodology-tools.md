@@ -28,12 +28,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
-related: []
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+related:
+  - [[case-ai-assisted-review]]
+  - [[case-truman-ai-skill-self-packaging]]
+  - [["ai-俱乐部人和-ai-协作-五层结构"]]
 
 ---
 

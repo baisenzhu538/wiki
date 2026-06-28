@@ -23,14 +23,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [["ocr-泛产品设计-落地卡片-业务建模"]]
+  - [["ocr-泛产品设计-落地卡片-roi分析"]]
+  - [["ocr-泛产品设计-落地卡片-低成本测试mvp"]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模

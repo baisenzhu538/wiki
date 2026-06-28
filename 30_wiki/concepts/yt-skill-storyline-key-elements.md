@@ -23,11 +23,9 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+  - [[yt-skill-storyline-contrast-analysis]]
+  - [[yt-skill-storyline-problem-solving]]
+  - [[yt-skill-storyline-target-tradeoff]]
 
 ---
 

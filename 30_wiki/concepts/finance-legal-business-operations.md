@@ -23,12 +23,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
-related: []
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+related:
+  - [[ai-hackathon-pitches]]
+  - [[business-validation-models-collaboration]]
+  - [[industry-ai-cases]]
 
 ---
 
