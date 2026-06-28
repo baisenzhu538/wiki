@@ -1,8 +1,6 @@
 ---
-
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-decision-y-model-philosophical-roots
 title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
 type: framework
@@ -10,28 +8,28 @@ status: enriched
 confidence: 0.82
 trust_level: medium-high
 academic_refs:
-  - src_unknown
-  - src_unknown
-created_at: "2026-06-17"
-updated_at: "2026-06-17"
+- src_unknown
+- src_unknown
+created_at: '2026-06-17'
+updated_at: '2026-06-17'
 author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
-review_date: "2026-06-17"
+review_date: '2026-06-17'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
-  - framework_lens: 知行合一的断裂点——你在哪一步停了？
-    follow_up_question: 你是"知"不够（宽度/深度没学透）还是"行"不够（画了画布但没有用于真实决策）？王阳明说"知而不行，只是未知"。
-  - framework_lens: 价值观权重——心学的"致良知"
-    follow_up_question: 这个最优解违反了你的什么信念？王阳明说"致良知"，不是算出来的最优解，是内心不撒谎的答案。
-  - framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
-    follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
-
+- framework_lens: 知行合一的断裂点——你在哪一步停了？
+  follow_up_question: 你是"知"不够（宽度/深度没学透）还是"行"不够（画了画布但没有用于真实决策）？王阳明说"知而不行，只是未知"。
+- framework_lens: 价值观权重——心学的"致良知"
+  follow_up_question: 这个最优解违反了你的什么信念？王阳明说"致良知"，不是算出来的最优解，是内心不撒谎的答案。
+- framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
+  follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
 ---
+
 # Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论
 
 > **Burn line**: Y 模型不是决策工具——是一堂用 2000+ 企业案例实证出来的"知行合一"操作化框架。

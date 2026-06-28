@@ -30,13 +30,15 @@ diagnostic_signals:
 - framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
+
+
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 
 > 精益的本质不是“不花钱、不花时间”，而是**用少量的试错成本，大幅降低系统性的风险**。AI并没有改变精益的本质，而是把一堂精益小抄中的 FALSE 模型每个节点的验证成本降到了原来的1/10甚至更低。  

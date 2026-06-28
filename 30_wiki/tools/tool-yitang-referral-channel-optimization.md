@@ -23,15 +23,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-客户介绍增长渠道-常见触点分析.png
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-客户介绍增长渠道-常见阻力分析.png
 related:
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[tool-yitang-channel-scoring-matrix]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[yt-unit-model-concept]]'
-- '[[framework-lean-abcd-model]]'
-- '[[case-yitang-yitang-self-growth-channel]]'
+- [[framework-yitang-channel-exploration-4step]]
+- [[tool-yitang-channel-scoring-matrix]]
+- [[framework-yitang-channel-industrialization]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[yt-unit-model-concept]]
+- [[framework-lean-abcd-model]]
+- [[case-yitang-yitang-self-growth-channel]]
 review_date: '2026-06-28'
 ---
+
 
 # 老带新渠道优化工具：动力 × 触点 × 阻力
 

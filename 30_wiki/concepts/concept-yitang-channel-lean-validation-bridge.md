@@ -22,18 +22,19 @@ source_refs:
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman
 related:
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[framework-lean-false-model]]'
-- '[[framework-lean-abcd-model]]'
-- '[[tool-lean-fake-marketing]]'
-- '[[tool-lean-presell]]'
-- '[[tool-lean-leverage-traffic]]'
-- '[[lean-startup-domain-digest]]'
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-channel-industrialization]]
+- [[framework-yitang-channel-unit-economics]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[framework-lean-false-model]]
+- [[framework-lean-abcd-model]]
+- [[tool-lean-fake-marketing]]
+- [[tool-lean-presell]]
+- [[tool-lean-leverage-traffic]]
+- [[lean-startup-domain-digest]]
 review_date: '2026-06-28'
 ---
+
 # 渠道精益验证：把渠道 0→1 测试当作一种 MVP
 
 ## 一句话定义

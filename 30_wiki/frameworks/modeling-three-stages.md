@@ -20,9 +20,9 @@ trust_level: medium
 confidence: 0.78
 tags: []
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-level-map]]'
-- '[[modeling-weapon-library]]'
+- [[modeling-capability-system]]
+- [[modeling-level-map]]
+- [[modeling-weapon-library]]
 diagnostic_signals:
 - framework_lens: 流程类建模
   follow_up_question: 这个任务重复发生吗？失败成本高吗？
@@ -35,6 +35,7 @@ diagnostic_signals:
 - framework_lens: 边界工程 + 决定成熟
   follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
 ---
+
 
 
 # 建模三段论：流程建模、抽象建模、本质提炼

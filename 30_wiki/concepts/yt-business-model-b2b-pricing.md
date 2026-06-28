@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
   follow_up_question: 你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的B2B销售周期多长？定价是否考虑了销售成本？
 - framework_lens: B2B定价策略——B2B定价需要系统化方法
   follow_up_question: 你的B2B定价是基于客户价值、竞品、还是成本？
-
 ---
+
 # B2B定价策略：从SMB到Enterprise
 
 > 一堂五步法：B2B定价不是单一价格，而是分层定价体系。从SMB到Enterprise，定价策略完全不同。

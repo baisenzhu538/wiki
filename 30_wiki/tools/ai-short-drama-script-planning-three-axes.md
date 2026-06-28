@@ -1,18 +1,16 @@
 ---
-
-
 id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md
-  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
-  - 10_raw/sources/src_20260613_12d63c1c-notes.md
+- 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md
+- 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+- ai-saas- yitang
+- ai-collaboration
+- product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -21,10 +19,9 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-framework-three-axes
-  - ai-short-drama-conflict-three-axes
+- [[ai-short-drama-plot-three-axes]]
+- [[ai-short-drama-framework-three-axes]]
+- [[ai-short-drama-conflict-three-axes]]
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +39,9 @@ diagnostic_signals:
   follow_up_question: 你在设计走向时是否用终局倒推检查过每个关键节点都指向这个结局？
 - framework_lens: 第一板斧·剧本基地
   follow_up_question: 你的剧本基地里是否写清楚了目标平台、受众画像、节奏与钩子密度要求？
-
 ---
+
+
 # 剧本策划三板斧：短剧从0到1的框架搭建工具
 
 > **Burn line**: 基地不稳，AI 再强也写不出好剧本。

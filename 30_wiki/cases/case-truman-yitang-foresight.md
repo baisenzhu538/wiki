@@ -37,8 +37,8 @@ related:
 - [[yt-foresight-probability-engineering]]
 - [[tool-一堂-business-prediction-15-char]]
 - [[yt-foresight-deliverables-four-levels]]
-- case-ether-online-acquisition
-- yt-management-founder-role
+- [[case-ether-online-acquisition]]
+- [[yt-management-founder-role]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -46,6 +46,7 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 ---
+
 ## 背景
 
 2017年底，Truman在以太平台内部，平台进入平台期甚至衰退期。他从零开始组建了一个3人攻坚小组做内部创业。

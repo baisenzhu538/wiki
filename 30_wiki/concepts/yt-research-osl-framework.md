@@ -18,16 +18,18 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-mindset]]'
-  - '[[yt-five-step-method]]'
+  - [[yt-research-intelligence-map]]
+  - [[yt-research-competitor-toolkit]]
+  - [[yt-research-expert-interview]]
+  - [[yt-research-user-jtbd]]
+  - [[yt-research-industry-canvas]]
+  - [[yt-research-hypothesis-test]]
+  - [[yt-research-mindset]]
+  - [[yt-five-step-method]]
+
 
 ---
+
 
 # OSCAR 商业调研框架
 

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
   follow_up_question: 你的定价是否覆盖了成本？用户是否觉得这个价格值？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？
 - framework_lens: 定价心理学——定价需要数据支撑
   follow_up_question: 你做过定价测试吗？用户愿意为不同价格付费的比例是多少？
-
 ---
+
 # 定价心理学：让用户觉得值
 
 > 一堂五步法：定价不是成本+利润，而是让用户觉得"值"。定价心理学帮助设计让用户愿意付费的价格。

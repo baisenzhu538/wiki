@@ -18,13 +18,15 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- '[[master-ai-info-literacy]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-first-principles]]'
-- '[[master-systems-thinking]]'
-- '[[master-antifragile-checklist]]'
-- '[[master-knowledge-compound]]'
+- [[master-ai-info-literacy]]
+- [[master-cognitive-bias-checklist]]
+- [[master-first-principles]]
+- [[master-systems-thinking]]
+- [[master-antifragile-checklist]]
+- [[master-knowledge-compound]]
+
 ---
+
 
 # 决策卫生五步法
 

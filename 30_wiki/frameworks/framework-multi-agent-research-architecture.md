@@ -20,11 +20,11 @@ source_refs:
   - "https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/"
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
 related:
-  - "[[tool-agent-research-supervisor]]"
-  - "[[tool-agent-research-swarm]]"
-  - "[[tool-agent-research-pipeline]]"
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-  - "[[framework-yitang-oscar-research]]"
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[framework-yitang-oscar-research]]
+  - [[ai-native-im-multi-agent]]
+  - [[yt-panproduct-demand-multi-perspective]]
+  - [[dk-yb14-multi-image-commonality]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

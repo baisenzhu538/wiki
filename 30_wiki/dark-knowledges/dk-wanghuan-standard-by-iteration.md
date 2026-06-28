@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-  - human-ai-collaboration
-  - ai-collaboration
-  - yitang
+- human-ai-collaboration
+- ai-collaboration
+- yitang
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -20,15 +20,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[master-ai-info-literacy]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-magic-defeats-magic]]
-  - [[tool-wanghuan-ai-dual-role-coach]]
-  - human-ai-collaboration-double-triangle
-  - framework-wanghuan-actor-director-mode
-  - concept-wanghuan-adversarial-generation
-  - framework-wanghuan-bitcoe-prompt-framework
+- [[dk-modeling-ai-judgment-limit]]
+- [[master-ai-info-literacy]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-magic-defeats-magic]]
+- [[tool-wanghuan-ai-dual-role-coach]]
+- [[human-ai-collaboration-double-triangle]]
+- [[framework-wanghuan-actor-director-mode]]
+- [[concept-wanghuan-adversarial-generation]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的
@@ -54,6 +53,7 @@ tags:
 - src_unknown
 review_date: '2026-06-28'
 ---
+
 # 王欢暗知识：标准不清时，用AI对抗AI生成标准
 
 > **Burn line**: 当你不知道“好”的标准是什么，不要空想，先让 AI 出一版，再用另一个 AI 按最高标准挑毛病，反复迭代，标准自然浮现。

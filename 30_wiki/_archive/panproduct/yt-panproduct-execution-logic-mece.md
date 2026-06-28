@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-execution-logic-mece
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1183
 language: zh-CN
 prerequisites:
@@ -27,18 +23,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
-status: enriched
+status: superseded
 title: 泛产品设计·落地卡片：逻辑MECE
 type: tool
 version: 1
@@ -59,11 +55,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
 superseded_by: tool-泛产品落地-逻辑MECE
-status: superseded
 ---
+
+
 # 逻辑MECE：做个有逻辑的人
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

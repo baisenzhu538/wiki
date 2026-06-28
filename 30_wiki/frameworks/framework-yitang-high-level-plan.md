@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-high-level-plan
 title: 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -31,22 +30,23 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[framework-yitang-oscar-research]]
-  - [[tool-yitang-research-industry-scan]]
-  - [[concept-yitang-research-scope]]
-  - [[system-yitang-research-workflow]]
-  - [[tool-yitang-research-validate-assumption]]
-  - [[framework-yitang-high-level-execution]]
-  - [[framework-yitang-four-research-types]]
-  - [[framework-yitang-research-radar]]
-  - [[yt-research-osl-framework]]
-  - [[yt-research-intelligence-map]]
-  - （tool-yitang-research-checklist，待补）
-  - [[concept-yitang-research-scope]]
-  - [[concept-yitang-research-objective]]
-  - [[tool-yitang-research-competitive-quadrant]]
-  - [[tool-yitang-research-two-dimensional-positioning]]
+- [[framework-yitang-oscar-research]]
+- [[tool-yitang-research-industry-scan]]
+- [[concept-yitang-research-scope]]
+- [[system-yitang-research-workflow]]
+- [[tool-yitang-research-validate-assumption]]
+- [[framework-yitang-high-level-execution]]
+- [[framework-yitang-four-research-types]]
+- [[framework-yitang-research-radar]]
+- [[yt-research-osl-framework]]
+- [[yt-research-intelligence-map]]
+- [[concept-yitang-research-scope]]
+- [[concept-yitang-research-objective]]
+- [[tool-yitang-research-competitive-quadrant]]
+- [[tool-yitang-research-two-dimensional-positioning]]
+
 ---
+
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 
 > **一句话**：调研失效的70%根因在前三步：目标不清、范围失控、清单缺失。OSC框架强迫你在动手前回答三个问题：要做什么决定？聚焦什么范围？按什么清单执行？

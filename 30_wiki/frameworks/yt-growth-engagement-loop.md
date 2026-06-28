@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 参与循环——用户需要持续回来的理由，需要设计参与循环
   follow_up_question: 你的产品是否形成了用户习惯？用户什么场景下会回来？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的推送内容是什么？用户是否觉得有价值？推送频率是否合适？
 - framework_lens: 参与循环——参与度需要设计循环机制
   follow_up_question: 你的产品是否有触发机制、奖励机制、社交机制让用户持续参与？
-
 ---
+
 # 参与循环：让用户持续回来
 
 > 一堂五步法：参与循环是留存的核心。用户回来的理由 = 触发 + 行动 + 奖励 + 投入。

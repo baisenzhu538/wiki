@@ -24,11 +24,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨
   follow_up_question: 客户现在为解决这个问题每年花多少钱？这笔钱在他总成本中占多少？不花会怎样？
@@ -36,8 +36,9 @@ diagnostic_signals:
   follow_up_question: 你的收入到底来自客户哪一项专项成本？可触达的目标客户有多少家？
 - framework_lens: 成本占有率并非越高越好；高占比意味着进入客户核心成本区，需要更强信任与切换能力
   follow_up_question: 客户省下的钱里，我们真能切走多少？客户信任度、合规风险和切换成本是否允许？
-
 ---
+
+
 # To B 收入本质 = 客户成本
 
 > **"我们做 to b 的，你要知道你的收入是什么？你的收入就是你服务对象的成本。"** 这句话虽然很简单，但特别本质——你从客户身上赚的钱，就是他为经营、为管理花的成本。因此做 To B 要时时刻刻提醒自己：关注客户的成本结构。

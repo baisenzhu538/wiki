@@ -26,11 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
   follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？
@@ -38,8 +38,9 @@ diagnostic_signals:
   follow_up_question: 决策者真正愿意付费的最小解决方案是什么？使用者价值能否被TA感知或量化？
 - framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
   follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
-
 ---
+
+
 > **"面向使用者夯实价值，面向决策者研究付费。"**  
 > ——徐剑，To B 五步法口述稿（约 2414 行）；课堂笔记 §3 将其概括为 To B 解决方案设计的核心原则。
 

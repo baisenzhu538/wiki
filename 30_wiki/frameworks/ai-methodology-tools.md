@@ -29,7 +29,14 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related: []
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+
 ---
+
 # AI 方法论与工具栈：主题综合知识卡
 
 > 本卡基于 `90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md` 中的 10 条录音 meetingSummary 摘要提炼而成（已剔除 1 条药柜/医疗相关录音）。**未逐段核对原文**，关键结论已按置信度分层，不确定处标注「待原文复核」。

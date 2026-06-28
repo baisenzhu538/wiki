@@ -1,6 +1,4 @@
 ---
-
-
 id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
@@ -31,15 +29,11 @@ tags:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[case-ai-assisted-review]]
+  - [[case-ban-fei-mao-conversion-hacker-skill]]
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，核心转化率与最小样本量分别是什么？
@@ -48,6 +42,7 @@ diagnostic_signals:
 - framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
   follow_up_question: 这个定性参数能否拆成 3-5 个具体行为指标？每个指标变差时，对应哪个业务动作？
 ---
+
 # 一堂·从定性到定量：先证伪、后测量
 
 > 在需求很难直接证实时，最好的方式是排除掉那些不好的选项，留下好的细分用户、细分场景、细分问题；后续再放到产品迭代模型中，用量化的方式进一步验证需求有没有找准。——张磊《精益测试关键问题》AMA Q1

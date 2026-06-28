@@ -22,15 +22,16 @@ source_person: 兰毅
 source_level_note: 本卡核心主张与案例数字全部来自兰毅个人一堂分享（单源口述/L5），未经过独立第三方验证或学术文献交叉。已按规范对兰毅口述数字标注「待独立核实」，并将
   confidence/trust_level 下调以反映证据层级限制。
 related:
-- '[[framework-pan-product-organization]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-model-pan-product-three-virtues]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-yitang-growth-flywheel]]'
+- [[framework-pan-product-organization]]
+- [[framework-一堂五步法-泛产品设计]]
+- [[yt-model-pan-product-three-virtues]]
+- [[yt-composite-pan-product-methodology]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
+- [[framework-yitang-growth-flywheel]]
 review_date: '2026-06-28'
 ---
+
 
 # 组织领导心法：最高服务最低
 

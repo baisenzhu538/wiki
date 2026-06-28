@@ -25,13 +25,15 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
+
+
 # 项目管理
 
 > 来源：一堂管理必修课「管项目」模块，共5节系列课（提认知/定方案/拆计划/管执行/做复盘）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

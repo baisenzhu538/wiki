@@ -17,11 +17,9 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[tool-key-assumptions-check]]"
-  - "[[tool-red-team-analysis]]"
-  - "[[tool-半肥猫-ai-research-validation]]"
-  - "[[framework-yitang-18-strategy-cards]]"
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-半肥猫-ai-research-validation]]
+  - [[pending_unknown]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

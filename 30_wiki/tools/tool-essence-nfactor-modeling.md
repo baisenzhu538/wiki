@@ -19,11 +19,11 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.88
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-essence-education-strategy]]
+  - [[case-essence-entrepreneurship]]
+  - [[case-essence-humanity-trap]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +41,8 @@ diagnostic_signals:
   follow_up_question: 从这句话到落地动作，中间需要跳跃几步？关键要素是否完整？
 - framework_lens: 必要性检验
   follow_up_question: 真的只有这么多个要素吗？去掉任意一个，模型还成立吗？
-
 ---
+
 # 本质/N要素建模法：提炼不可再约的核心变量
 
 > **Burn line**: 本质不是“最抽象的词”，而是“去掉它，整个事情就不成立的那个东西”。

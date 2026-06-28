@@ -19,19 +19,20 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑.png
 source_person: Truman
 related:
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[tool-yitang-channel-scoring-matrix]]'
-- '[[tool-yitang-channel-scan-cheat-sheet]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
-- '[[case-yitang-yitang-self-growth-channel]]'
-- '[[case-yitang-shuzu-channel-scan-test]]'
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-channel-industrialization]]
+- [[framework-yitang-growth-flywheel]]
+- [[tool-yitang-channel-scoring-matrix]]
+- [[tool-yitang-channel-scan-cheat-sheet]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[framework-yitang-channel-unit-economics]]
+- [[framework-lean-abcd-model]]
+- [[framework-yitang-nine-layer-deep-dig]]
+- [[case-yitang-yitang-self-growth-channel]]
+- [[case-yitang-shuzu-channel-scan-test]]
 review_date: '2026-06-28'
 ---
+
 
 # 渠道探索常见陷阱：18 万字共建作业里的血泪教训
 

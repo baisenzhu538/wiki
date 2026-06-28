@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
   follow_up_question: 你的核心人才为什么走？薪酬、发展、文化？人才密度是否足够高？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 扩张后的人才密度是否下降？招聘标准是否降低？
 - framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
   follow_up_question: 除了文化，薪酬、发展、挑战是否足够吸引人才？
-
 ---
+
 # 人才密度：组织壁垒
 
 > 一堂五步法：人才密度是组织壁垒。人才密度 = 人才质量 × 人才浓度 × 人才稳定性。

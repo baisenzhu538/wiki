@@ -17,16 +17,17 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 source_person: Truman
 related:
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[case-yitang-redburger-selection-industrialization]]'
-- '[[case-yitang-yitu-lead-industrialization]]'
-- '[[case-yitang-yitang-course-industrialization]]'
-- '[[tool-yitang-channel-industrialization-node-design]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[framework-yitang-growth-flywheel]]'
+- [[framework-yitang-channel-industrialization]]
+- [[framework-yitang-channel-exploration-4step]]
+- [[case-yitang-redburger-selection-industrialization]]
+- [[case-yitang-yitu-lead-industrialization]]
+- [[case-yitang-yitang-course-industrialization]]
+- [[tool-yitang-channel-industrialization-node-design]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[framework-yitang-growth-flywheel]]
 review_date: '2026-06-28'
 ---
+
 
 # 案例：链家如何用 IBM 咨询实现选址工业化
 

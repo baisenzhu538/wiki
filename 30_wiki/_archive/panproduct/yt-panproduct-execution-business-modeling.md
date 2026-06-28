@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-execution-business-modeling
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1065
 language: zh-CN
 prerequisites:
@@ -27,18 +23,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
-status: enriched
+status: superseded
 title: 泛产品设计·落地卡片：业务建模
 type: tool
 version: 1
@@ -59,11 +55,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
 superseded_by: tool-泛产品落地-业务建模
-status: superseded
 ---
+
+
 # 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

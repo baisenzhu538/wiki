@@ -1,15 +1,12 @@
 ---
-
-
-
 id: sales-pitch-bias-patterns
 title: 销售话术偏误识别模式库
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 tags:
@@ -23,9 +20,11 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 可证伪 / 独立验证
   follow_up_question: 标记后是否停留在感觉层面？
@@ -37,8 +36,8 @@ review_grade: A
 review_note: 🟢放行。方法论资产，可复用于任何供应商评估。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-
 ---
+
 # 销售话术偏误识别模式库
 
 > 从一次真实招商录音中提取的7种销售话术偏误。可用于交叉验证任何供应商的销售陈述。

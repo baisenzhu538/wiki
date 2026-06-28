@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
   follow_up_question: 你的漏斗每个环节的转化率是多少？哪个环节流失最多？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你优化的是哪个环节？其他环节是否恶化？
 - framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
   follow_up_question: 你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？
-
 ---
+
 # 漏斗优化：从认知到付费
 
 > 一堂五步法：漏斗不是静态的，而是动态优化的。每个环节的流失都是机会。

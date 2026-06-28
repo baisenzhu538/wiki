@@ -22,14 +22,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- '[[master-systems-thinking]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
-- '[[master-antifragile-checklist]]'
-- '[[master-first-principles]]'
+- [[master-systems-thinking]]
+- [[master-cognitive-bias-checklist]]
+- [[master-decision-hygiene]]
+- [[master-antifragile-checklist]]
+- [[master-first-principles]]
 confidence: 0.65
 trust_level: medium
 ---
+
 # 个人成长主题综合知识卡
 
 > **状态**：草稿，待原文复核与人工 enrichment

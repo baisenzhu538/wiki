@@ -26,11 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 角色分离 / 决策者与使用者分离
   follow_up_question: 谁是最终付费决策者？他的考核指标、成本结构和决策链上还有哪些影响者？
@@ -38,8 +38,9 @@ diagnostic_signals:
   follow_up_question: 该资源是否对应客户真实预算和投放场景？能否量化给客户带来的收益？
 - framework_lens: 周期较长 / 回款与财务确认周期
   follow_up_question: 成交、交付、回款、财务确认各周期分别是多少？自由现金流何时转正？
-
 ---
+
+
 > To B 业务面向的是组织，必然会存在多角色共同参与决策和使用；客户决策基于实际价值，情绪价值作用有限；成交、交付、回款、财务确认周期均较长，必须重视现金流管理。——徐剑《To B 业务五步法》口述稿（oral ~216–557）及课堂笔记 §1
 
 ## 核心摘要

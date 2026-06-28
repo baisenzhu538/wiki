@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
   follow_up_question: 你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的品牌是否有商标保护？品牌差异化是否足够？
 - framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
   follow_up_question: 你的品牌信任度如何？用户是否愿意为品牌付溢价？
-
 ---
+
 # 品牌资产：认知与信任
 
 > 一堂五步法：品牌是长期的壁垒。品牌资产 = 认知度 × 信任度 × 联想度。

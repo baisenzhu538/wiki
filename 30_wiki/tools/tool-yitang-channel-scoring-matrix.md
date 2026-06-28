@@ -20,16 +20,17 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
 source_person: Truman
 related:
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[case-yitang-maiyi-cloud-computer-channel]]'
-- '[[case-yitang-shuzu-channel-scan-test]]'
-- '[[tool-yitang-channel-scan-cheat-sheet]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-yitang-growth-flywheel]]'
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-channel-unit-economics]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[case-yitang-maiyi-cloud-computer-channel]]
+- [[case-yitang-shuzu-channel-scan-test]]
+- [[tool-yitang-channel-scan-cheat-sheet]]
+- [[framework-lean-abcd-model]]
+- [[framework-yitang-growth-flywheel]]
 review_date: '2026-06-28'
 ---
+
 
 # 渠道预判评分矩阵：科学排序候选渠道
 

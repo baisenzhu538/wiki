@@ -19,12 +19,10 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-key-assumptions-check]]"
-  - "[[tool-devils-advocacy]]"
-  - "[[tool-red-team-analysis]]"
-  - "[[tool-indicators-signposts]]"
+  - [[framework-yitang-nine-layer-deep-dig]]
+  - [[yt-management-toolkit-overview]]
+  - [[tool-agent-native-overview]]
+  - [[tool-alt-data-overview]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

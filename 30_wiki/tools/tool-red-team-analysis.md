@@ -18,10 +18,11 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
-  - "[[framework-structured-analytic-techniques]]"
-  - "[[tool-devils-advocacy]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-agent-research-swarm]]"
+  - [[framework-yitang-18-strategy-cards]]
+  - [[case-ai-time-management-tiered-growth]]
+  - [[case-doris-2014-music-streaming-prediction]]
+  - [[case-escort-service-tiered-growth]]
+  - [[case-liutao-douyin-team-leader-9m]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

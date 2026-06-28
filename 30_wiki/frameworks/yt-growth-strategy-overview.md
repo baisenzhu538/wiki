@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
   follow_up_question: 你的增长策略是什么？获客、留存、变现的优化方向分别是什么？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的增长瓶颈在哪个环节？获客、激活、留存、变现、推荐？
 - framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
   follow_up_question: 你的留存率是多少？用户流失的原因是什么？
-
 ---
+
 # 增长策略总纲：从商业模式到增长飞轮
 
 > 一堂五步法：增长不是单一动作，而是系统优化。增长飞轮 = 获客 × 激活 × 留存 × 变现 × 推荐。

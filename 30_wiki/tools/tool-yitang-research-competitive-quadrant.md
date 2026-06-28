@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-competitive-quadrant
 title: 竞争象限：用二维矩阵可视化竞争格局
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -29,22 +28,23 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[yitang-research-domain-digest]]
-  - [[tool-yitang-research-two-dimensional-positioning]]
-  - [[tool-yitang-research-single-point-sniper]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-two-dimensional-positioning]]
-  - [[tool-yitang-research-follow-map]]
-  - [[yt-research-competitor-toolkit]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - （case-yitang-haidilao-service-research，待补）
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-research-ai-hallucination]]
-  - [[concept-yitang-research-mindset]]
+- [[tool-yitang-18-strategy-tool-mapping]]
+- [[yitang-research-domain-digest]]
+- [[tool-yitang-research-two-dimensional-positioning]]
+- [[tool-yitang-research-single-point-sniper]]
+- [[tool-yitang-research-follow-map]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-18-strategy-cards]]
+- [[tool-yitang-research-two-dimensional-positioning]]
+- [[tool-yitang-research-follow-map]]
+- [[yt-research-competitor-toolkit]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[dk-yitang-research-ai-hallucination]]
+- [[concept-yitang-research-mindset]]
+
 ---
+
 # 竞争象限：用二维矩阵可视化竞争格局
 
 > **一句话**：竞争象限不是"画图"，而是"思考"。选择两个关键维度，标注自己和竞品的位置，识别空白区和红海区，找到差异化定位。

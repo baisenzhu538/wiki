@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-execution-realistic-simulation
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1175
 language: zh-CN
 prerequisites:
@@ -27,18 +23,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真
-status: enriched
+status: superseded
 title: 泛产品设计·落地卡片：努力仿真
 type: tool
 version: 1
@@ -60,11 +56,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
 superseded_by: tool-泛产品落地-努力仿真
-status: superseded
 ---
+
+
 # 努力仿真：在真实场景做真东西
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

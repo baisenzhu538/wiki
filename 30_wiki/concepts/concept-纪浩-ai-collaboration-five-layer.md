@@ -1,5 +1,4 @@
 ---
-
 id: concept-纪浩-ai-collaboration-five-layer
 title: "概念：纪浩AI协作五层工作空间法"
 type: concept
@@ -17,11 +16,12 @@ source_refs:
 created_at: "2026-06-09"
 updated_at: "2026-06-17"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[concept-wanghuan-adversarial-generation]]
+  - [[yt-concept-weapon-arsenal]]
+  - [[yt-note-checklist-concept]]
+  - [[case-ji-hao-ui-design-constraint-evolution]]
+  - [[case-纪浩-focus-prompt-design]]
+  - [[case-纪浩-from-zip-to-five-layers]]
 wiki_refs:
   - src_unknown
   - src_unknown
@@ -51,6 +51,7 @@ diagnostic_signals:
   - lens: "L3未沉淀"
     follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
 ---
+
 # 概念：纪浩AI协作五层工作空间法
 
 ## 定义

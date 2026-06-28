@@ -17,11 +17,11 @@ source_refs:
   - "https://www.competitiveintelligencealliance.io/competitive-intelligence-framework/"
   - "https://blog.bestbootcamps.com/competitive-intelligence-framework/"
 related:
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[tool-ci-define-phase]]"
-  - "[[tool-ci-implement-phase]]"
-  - "[[framework-yitang-oscar-research]]"
+  - [[framework-yitang-research-weapon-system]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[case-course-milestone-model]]
+  - [[case-livestream-sop-modeling]]
+  - [[case-modeling-abstraction-reliability-ladder]]
 status: reviewed
 reviewed_by: "欧阳锋"
 review_date: "2026-06-28"

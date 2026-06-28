@@ -6,11 +6,11 @@ status: draft
 domain:
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -39,8 +39,9 @@ diagnostic_signals:
   follow_up: 矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊
 - lens: 全量重跑陷阱
   follow_up: 增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖
-
 ---
+
+
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 
 > **核心定位**：知识库的谬误不会自己消失——它们只会积累。问题不是"要不要全域检测"，而是"能不能在不触发全量重跑的前提下，让每一条错误自己暴露出来"。

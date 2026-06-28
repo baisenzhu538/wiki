@@ -18,11 +18,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-course-milestone-model]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -36,8 +36,8 @@ diagnostic_signals:
   follow_up: 回到 M2 重新写一句话边界定义，超过边界的信息不进入
 - lens: 撞击实验不足
   follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"
-
 ---
+
 # 课程里程碑模型：一堂做课的七步生产流程
 
 > **用一句话讲清楚**：一堂做一门课不是灵感驱动，而是有明确里程碑的生产流程。

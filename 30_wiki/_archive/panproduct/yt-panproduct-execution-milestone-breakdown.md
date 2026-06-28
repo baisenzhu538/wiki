@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-execution-milestone-breakdown
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1070
 language: zh-CN
 prerequisites:
@@ -27,20 +23,20 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
-status: enriched
+status: superseded
 title: 泛产品设计·落地卡片：里程碑拆解
 type: tool
 version: 1
@@ -63,11 +59,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
 superseded_by: tool-泛产品落地-里程碑拆解
-status: superseded
 ---
+
+
 # 里程碑拆解：主动设定交付中间节点
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 定性分析缺失——跳过拆推评，直接算
   follow_up_question: 你的市场规模数字背后，具体是哪些用户在什么场景下付费？先定性，再定量。
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你们用的市场规模估算方法是哪一种？自上而下还是自下而上？两种方法交叉验证过吗？
 - framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
   follow_up_question: 你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？
-
 ---
+
 # 需求定性分析框架：拆推评算四步法
 
 > 一堂五步法需求分析的核心工具：先定性（拆推评），再定量（算）。顺序不能颠倒。

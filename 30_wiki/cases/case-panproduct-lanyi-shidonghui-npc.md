@@ -21,15 +21,16 @@ source_refs:
 source_person: 兰毅 / 一堂
 confidence_note: 核心案例数据与主张均来自兰毅单一口述/一堂内部素材（L5 单源），尚未经独立第三方核实；已按修复原则下调置信度并显式标注待核实项。
 related:
-- '[[framework-pan-product-organization]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[case-yitang-topcity-growth-flywheel]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
+- [[framework-pan-product-organization]]
+- [[framework-一堂五步法-泛产品设计]]
+- [[yt-composite-pan-product-methodology]]
+- [[case-yitang-topcity-growth-flywheel]]
+- [[framework-yitang-growth-flywheel]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
 review_date: '2026-06-28'
 ---
+
 
 # 兰毅：世董会与 NPC 的组织产品化实践
 

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
   follow_up_question: 你的毛利率中，直接成本、服务成本、渠道成本各占多少？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的毛利率和行业平均比如何？差距在哪里？
 - framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
   follow_up_question: 毛利率高但净利润低，运营费用、营销费用占收入多少？
-
 ---
+
 # 毛利率结构分析：钱从哪来，到哪去
 
 > 一堂五步法：毛利率不是单一数字，需要拆解结构。知道钱从哪来、到哪去，才能优化。

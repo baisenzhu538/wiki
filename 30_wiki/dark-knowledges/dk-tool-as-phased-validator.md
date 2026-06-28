@@ -5,10 +5,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-  - modeling
+- yitang
+- ai-collaboration
+- product
+- modeling
 language: zh-CN
 version: 1
 confidence: 0.89
@@ -16,16 +16,16 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-  - [[dk-modeling-ai-compound-leverage]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[dk-modeling-question-scaffold-not-answer]]
-  - [[dk-modeling-ai-iterative-prompting]]
-  - [[dk-modeling-ai-self-retrospection]]
-  - yt-lean-false-model-ai
-  - yt-tob-barriers
-  - ai-short-drama-conflict-three-axes
-  - dk-modeling-ai-judgment-limit
-  - skill-note-one-line-one-point
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-question-scaffold-not-answer]]
+- [[dk-modeling-ai-iterative-prompting]]
+- [[dk-modeling-ai-self-retrospection]]
+- [[yt-lean-false-model-ai]]
+- [[yt-tob-barriers]]
+- [[ai-short-drama-conflict-three-axes]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[skill-note-one-line-one-point]]
 bridges_to:
 - target: src_unknown
   relation: applies_when
@@ -62,6 +62,7 @@ tags:
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述
 
 > **核心洞察**：AI 和工具的真正价值不是“一次给出正确答案”，而是把原来集中在一个大脑里的判断拆成多个可校验的阶段。一旦把工具输出当成终点，就会在不同的域重复同一种失败：把杠杆当成判断力。

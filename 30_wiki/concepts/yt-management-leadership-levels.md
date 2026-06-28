@@ -25,13 +25,15 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
+
+
 # 管理段位
 
 > 来源：一堂管理必修课「管团队」模块，《晋升之旅：管理者成长五段位》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

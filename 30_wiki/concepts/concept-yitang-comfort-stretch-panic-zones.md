@@ -18,14 +18,16 @@ source_refs:
   - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
-  - '[[tool-yitang-feedback-self-check]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
-  - '[[yt-model-deliberate-practice-growth]]'
-  - '[[modeling-personal-practice-loop]]'
+  - [[framework-yitang-deliberate-practice-1plus4]]
+  - [[tool-yitang-practice-20hour-starter]]
+  - [[framework-yitang-three-ring-ability-focus]]
+  - [[tool-yitang-feedback-self-check]]
+  - [[framework-ai-deliberate-practice-loop]]
+  - [[yt-model-deliberate-practice-growth]]
+  - [[modeling-personal-practice-loop]]
+
 ---
+
 
 # 练习区域分层：舒适区、拉伸区、困难区、恐慌区
 

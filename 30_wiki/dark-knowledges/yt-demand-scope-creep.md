@@ -1,5 +1,4 @@
 ---
-
 domain:
 - demand-analysis
 id: yt-demand-scope-creep
@@ -18,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- yt-demand-hierarchy-model
-- yt-demand-fake-demand-detection
-- yt-demand-early-validation
-- yt-five-step-method
-- yt-entrepreneur-key-hypotheses
+- [[yt-demand-hierarchy-model]]
+- [[yt-demand-fake-demand-detection]]
+- [[yt-demand-early-validation]]
+- [[yt-five-step-method]]
+- [[yt-entrepreneur-key-hypotheses]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求蔓延——MVP不够M，在伪需求上堆叠功能
@@ -40,6 +39,8 @@ diagnostic_signals:
   framework_lens: 需求蔓延——只加不减，产品臃肿
   follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？
 ---
+
+
 # 需求蔓延：从MVP到全功能的陷阱
 
 ## 原始表述

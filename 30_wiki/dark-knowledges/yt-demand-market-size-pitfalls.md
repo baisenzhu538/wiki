@@ -1,5 +1,4 @@
 ---
-
 domain:
 - demand-analysis
 id: yt-demand-market-size-pitfalls
@@ -19,10 +18,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- yt-demand-quantitative-estimation
-- yt-demand-qualitative-analysis
-- yt-demand-fake-demand-detection
-- yt-five-step-method
+- [[yt-demand-quantitative-estimation]]
+- [[yt-demand-qualitative-analysis]]
+- [[yt-demand-fake-demand-detection]]
+- [[yt-five-step-method]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 1%陷阱——没有论证为什么能拿到1%
@@ -40,6 +39,8 @@ diagnostic_signals:
   framework_lens: 静态假设——市场是会变化的
   follow_up_question: 这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？
 ---
+
+
 # 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 
 ## 原始表述

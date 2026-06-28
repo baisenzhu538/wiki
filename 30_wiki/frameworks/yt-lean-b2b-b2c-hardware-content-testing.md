@@ -23,11 +23,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配
   follow_up_question: 你的业务更偏向价值理性长决策（ToB）、感性冲动快转化（ToC）、高回退成本重投入（硬件），还是内核优先的创意产品（内容）？
@@ -37,8 +37,9 @@ diagnostic_signals:
   follow_up_question: 能不能不做硬件？能不能不做独立App？能不能不动开发借用现有工具？
 - framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
-
 ---
+
+
 # ToB/ToC/硬件/内容产品的测试差异
 
 > **Burn line**: 产品形态不同，风险结构就不同；风险结构不同，测试手段就必须分层。

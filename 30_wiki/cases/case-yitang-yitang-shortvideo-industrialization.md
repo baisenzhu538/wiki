@@ -18,17 +18,18 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂-工业化生产_vlm_desc.md
 source_person: Truman
 related:
-- '[[framework-yitang-channel-industrialization]]'
-- '[[case-yitang-yitang-course-industrialization]]'
-- '[[tool-yitang-channel-industrialization-node-design]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[concept-yitang-channel-lean-validation-bridge]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[tool-区分获客渠道计算单元roi]]'
+- [[framework-yitang-channel-industrialization]]
+- [[case-yitang-yitang-course-industrialization]]
+- [[tool-yitang-channel-industrialization-node-design]]
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-growth-flywheel]]
+- [[concept-yitang-channel-lean-validation-bridge]]
+- [[framework-yitang-channel-unit-economics]]
+- [[tool-区分获客渠道计算单元roi]]
 status: reviewed
 review_date: '2026-06-28'
 ---
+
 
 # 案例：一堂如何用 ABCD 模型实现口播短视频工业化
 

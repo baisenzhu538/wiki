@@ -18,11 +18,11 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -35,8 +35,8 @@ diagnostic_signals:
   follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
 - framework_lens: 逻辑洁癖五段位
   follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
-
 ---
+
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 
 > **Burn line**: 建模不是把东西堆在一起，而是让内容从散点 → 清单 → 优先级 → MECE → 逻辑链逐段升级。

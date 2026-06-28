@@ -22,14 +22,16 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 related:
-- '[[framework-pan-product-organization]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[case-panproduct-lanyi-shidonghui-npc]]'
-- '[[case-panproduct-lanyi-intern-flywheel]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
+- [[framework-pan-product-organization]]
+- [[yt-composite-pan-product-methodology]]
+- [[framework-一堂五步法-泛产品设计]]
+- [[case-panproduct-lanyi-shidonghui-npc]]
+- [[case-panproduct-lanyi-intern-flywheel]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
+
 ---
+
 
 # 案例：兰毅——大航海战队如何被设计成组织产品
 

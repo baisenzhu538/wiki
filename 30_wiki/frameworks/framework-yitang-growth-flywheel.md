@@ -21,16 +21,17 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
 source_person: Truman
 related:
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[case-yitang-amazon-growth-flywheel]]'
-- '[[case-yitang-novel-app-flywheel]]'
-- '[[case-yitang-topcity-growth-flywheel]]'
-- '[[tool-yitang-growth-flywheel-design]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-channel-industrialization]]
+- [[case-yitang-amazon-growth-flywheel]]
+- [[case-yitang-novel-app-flywheel]]
+- [[case-yitang-topcity-growth-flywheel]]
+- [[tool-yitang-growth-flywheel-design]]
+- [[framework-yitang-nine-layer-deep-dig]]
+- [[framework-yitang-six-layer-cross-validation]]
 review_date: '2026-06-28'
 ---
+
 
 # 增长飞轮：把单点增长变成自我强化的增强回路
 

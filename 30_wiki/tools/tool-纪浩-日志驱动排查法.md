@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-日志驱动排查法
 title: 技能：日志驱动排查法
 type: tool
@@ -21,11 +20,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-AI工作空间与导诊台设计法
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[case-lean-adult-education]]
+  - [[case-truman-ai-skill-self-packaging]]
+  - [[yt-barrier-identification-skill]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
@@ -47,6 +46,7 @@ diagnostic_signals:
 - lens: 信息孤岛
   follow_up: 日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录
 ---
+
 # 技能：日志驱动排查法
 
 ## 原始表述

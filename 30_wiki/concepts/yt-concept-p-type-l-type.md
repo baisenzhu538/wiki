@@ -6,8 +6,15 @@ domain:
 
 
 id: yt-concept-p-type-l-type
+title: P型与L型创业者
+type: concept
+status: enriched
 confidence: 0.8
+trust_level: medium
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-06
+updated_at: '2026-06-28'
 difficulty: beginner
 language: zh-CN
 prerequisites:
@@ -24,9 +31,12 @@ query_triggers:
   - src_unknown
   - src_unknown
 review_date: 2026-06-06
-source_refs:
-  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+related:
+  - [[yitang-course-map]]
+  - [[yt-entrepreneur-industry-forecast]]
+  - [[yt-entrepreneur-key-hypotheses]]
+  - [[tool-一堂-business-prediction-15-char]]
+  - [[pending_unknown]]
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 ---

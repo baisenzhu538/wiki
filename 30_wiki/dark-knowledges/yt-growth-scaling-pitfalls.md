@@ -1,5 +1,4 @@
 ---
-
 domain:
 - growth
 id: yt-growth-scaling-pitfalls
@@ -19,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- yt-growth-strategy-overview
-- yt-business-model-scalability
-- yt-growth-data-driven-decision
-- yt-growth-funnel-optimization
-- yt-five-step-method
+- [[yt-growth-strategy-overview]]
+- [[yt-business-model-scalability]]
+- [[yt-growth-data-driven-decision]]
+- [[yt-growth-funnel-optimization]]
+- [[yt-five-step-method]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 增长规模化陷阱——增长快≠健康，需要单元模型支撑
@@ -41,6 +40,8 @@ diagnostic_signals:
   framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
   follow_up_question: 别人的增长策略的前提条件是什么？你的条件是否匹配？
 ---
+
+
 # 增长规模化陷阱
 
 ## 原始表述

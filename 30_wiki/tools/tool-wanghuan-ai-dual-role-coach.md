@@ -26,19 +26,19 @@ diagnostic_signals:
 - lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[case-wanghuan-education-sales-paced]]
+  - [[case-wanghuan-shenyang-software-3x-efficiency]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢：AI 双角色教练对练工具
 
 > **Burn line**: 话术是决策链最末端的产物，只复制话术会得到"一堆在错误时机说出的正确的话"。

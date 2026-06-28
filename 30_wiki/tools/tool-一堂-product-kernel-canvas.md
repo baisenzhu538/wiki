@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-product-kernel-canvas
 title: 一堂产品内核画布应用技能
 type: tool
@@ -20,11 +19,11 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -52,6 +51,7 @@ diagnostic_signals:
 - lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
 ---
+
 # 一堂产品内核画布应用技能
 
 ## 原始表述

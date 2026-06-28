@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-unit-model
 title: 单元模型：找到业务最小单元的经济密码
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
@@ -29,22 +28,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[yt-business-model-unit-economics]]
-  - [[yt-entrepreneur-unit-model]]
-  - [[case-five-step-growth-first-lever]]
-  - [[yt-business-model-definition]]
-  - [[yt-growth-channel-roi]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-company-disassembly]]
-  - [[tool-yitang-research-industry-scan]]
-  - [[yt-research-competitor-toolkit]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - （case-yitang-haidilao-service-research，待补）
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - （dk-yitang-research-cost-match，待补）
-  - [[concept-yitang-research-mindset]]
+- [[yt-business-model-unit-economics]]
+- [[yt-entrepreneur-unit-model]]
+- [[case-five-step-growth-first-lever]]
+- [[yt-business-model-definition]]
+- [[yt-growth-channel-roi]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-18-strategy-cards]]
+- [[tool-yitang-research-company-disassembly]]
+- [[tool-yitang-research-industry-scan]]
+- [[yt-research-competitor-toolkit]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[concept-yitang-research-mindset]]
+
 ---
+
 # 单元模型：找到业务最小单元的经济密码
 
 > **一句话**：单元模型是业务的最小经济单元，如单店、单用户、单订单。分析单元模型的收入和成本，判断业务是否可持续，是商业模式验证的核心工具。

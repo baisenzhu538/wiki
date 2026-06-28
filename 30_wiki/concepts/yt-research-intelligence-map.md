@@ -18,15 +18,17 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-hypothesis-test]]'
-  - '[[yt-research-mindset]]'
+  - [[yt-research-osl-framework]]
+  - [[yt-research-competitor-toolkit]]
+  - [[yt-research-expert-interview]]
+  - [[yt-research-user-jtbd]]
+  - [[yt-research-industry-canvas]]
+  - [[yt-research-hypothesis-test]]
+  - [[yt-research-mindset]]
+
 
 ---
+
 
 # 商业调研 13 武器体系
 

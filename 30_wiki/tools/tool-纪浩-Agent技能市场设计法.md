@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-Agent技能市场设计法
 title: 技能：Agent技能市场设计法
 type: tool
@@ -21,11 +20,12 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[case-lean-adult-education]]
+  - [[case-truman-ai-skill-self-packaging]]
+  - [[yt-barrier-identification-skill]]
+  - [[case-demand-travel-agent]]
+  - [[case-ji-hao-skills-market]]
+  - [[case-truman-ai-partner]]
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
@@ -47,6 +47,7 @@ diagnostic_signals:
 - lens: 市场幻觉
   follow_up: 真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹
 ---
+
 # 技能：Agent技能市场设计法
 
 ## 原始表述

@@ -43,13 +43,15 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
+
+
 # 产品内核十大典型指标
 
 > 来源：一堂五步法·解决方案篇 | 洪七公 OCR 整合 | [[yt-product-kernel-cultivation]] | [[yt-customer-acquisition-toolkit]] | [[yt-unit-model-three-tools]]

@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-expert-interview-10steps
 title: 专家访谈黄金十步法：从盲区梳理到专家匹配
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
@@ -31,22 +30,23 @@ source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[yt-tool-meeting-designer]]
-  - [[framework-doris-industry-report-4step]]
-  - [[business-research-skill-oscar-13-weapon-system]]
-  - [[system-yitang-research-workflow]]
-  - [[sk-ai-purpose-bias-check]]
-  - [[framework-yitang-high-level-plan]]
-  - [[framework-yitang-high-level-execution]]
-  - [[yt-research-expert-interview]]
-  - [[yt-research-intelligence-map]]
-  - [[yt-research-mindset]]
-  - [[dk-yitang-expert-interview-5-traps]]
-  - [[concept-yitang-research-mindset]]
-  - [[tool-yitang-expert-network-platform]]
-  - （tool-yitang-linkedin-expert，待补）
-  - [[case-yitang-sanjieke-benchmark-failure]]
+- [[yt-tool-meeting-designer]]
+- [[framework-doris-industry-report-4step]]
+- [[business-research-skill-oscar-13-weapon-system]]
+- [[system-yitang-research-workflow]]
+- [[sk-ai-purpose-bias-check]]
+- [[framework-yitang-high-level-plan]]
+- [[framework-yitang-high-level-execution]]
+- [[yt-research-expert-interview]]
+- [[yt-research-intelligence-map]]
+- [[yt-research-mindset]]
+- [[dk-yitang-expert-interview-5-traps]]
+- [[concept-yitang-research-mindset]]
+- [[tool-yitang-expert-network-platform]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+
 ---
+
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 
 > **一句话**：专家访谈不是"找个人聊聊"，而是花小钱办大事的系统工程。十步法从盲区梳理到专家匹配，确保每一次访谈都能拿到高价值认知。

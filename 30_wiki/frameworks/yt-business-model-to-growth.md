@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[yt-growth-strategy-overview]]
+  - [[yt-growth-to-barrier]]
+  - [[yt-product-kernel-to-business-model]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
   follow_up_question: 你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的增长是否优化了单元模型？LTV/CAC是否提升？
 - framework_lens: 从商业模式到增长——增长策略必须服务商业模式
   follow_up_question: 你的增长策略是否强化了商业模式？还是削弱了？
-
 ---
+
 # 从商业模式到增长：承上启下
 
 > 一堂五步法：商业模式是增长的基础，增长是商业模式的放大。两者需要协同，不是割裂。

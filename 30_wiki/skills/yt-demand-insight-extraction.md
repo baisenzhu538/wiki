@@ -17,7 +17,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-- pending_unknown
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 访谈技巧——缺乏结构化访谈框架
   follow_up_question: 你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？
@@ -29,8 +29,8 @@ diagnostic_signals:
   follow_up_question: 用户说'想要'后，有没有观察他们的实际行为？
 - framework_lens: 访谈技巧——样本不足，结论不可靠
   follow_up_question: 至少访谈了多少个用户？是否覆盖了不同用户层？
-
 ---
+
 # 从用户访谈中提取真实需求：访谈技巧与偏见规避
 
 > 一堂五步法：用户访谈不是"聊天"，而是结构化的需求挖掘过程。

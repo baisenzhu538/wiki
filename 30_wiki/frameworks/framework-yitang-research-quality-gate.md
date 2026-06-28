@@ -17,18 +17,18 @@ updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 六维门禁——逐项自检
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
 - framework_lens: 对照六维找缺口
   follow_up_question: 驳回理由对应六维中的哪一维？
-
 ---
+
 # 调研质量自检框架：六维门禁
 
 > 调研做完 ≠ 调研做完了。六维门禁是提交前的最后一道自检——每个维度答不上来就不能交。

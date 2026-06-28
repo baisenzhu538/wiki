@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-iterative-recursive-digging
 title: 迭代递归深挖法：从表层到内核的认知穿透
 type: framework
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
@@ -29,22 +28,23 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[tool-yitang-research-deep-attribution]]
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[yitang-research-domain-digest]]
-  - [[system-yitang-research-workflow]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[framework-yitang-nine-layer-deep-dig]]
-  - [[tool-yitang-research-deep-attribution]]
-  - [[tool-yitang-research-cross-validation]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - （dk-yitang-research-determination，待补）
-  - [[dk-yitang-survivor-bias-in-research]]
-  - [[concept-yitang-research-mindset]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
+- [[tool-yitang-research-deep-attribution]]
+- [[tool-yitang-18-strategy-tool-mapping]]
+- [[yitang-research-domain-digest]]
+- [[system-yitang-research-workflow]]
+- [[tool-yitang-research-follow-map]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-18-strategy-cards]]
+- [[framework-yitang-nine-layer-deep-dig]]
+- [[tool-yitang-research-deep-attribution]]
+- [[tool-yitang-research-cross-validation]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[dk-yitang-survivor-bias-in-research]]
+- [[concept-yitang-research-mindset]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+
 ---
+
 # 迭代递归深挖法：从表层到内核的认知穿透
 
 > **一句话**：真正的调研不是"看一遍"，而是"看一遍→发现疑问→再深挖→再发现→再深挖"的递归过程。迭代递归深挖法强迫你不满足于表层信息，持续追问直到找到内核。

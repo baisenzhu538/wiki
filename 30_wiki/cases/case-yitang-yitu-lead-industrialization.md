@@ -19,15 +19,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型_vlm_desc.md
 source_person: Truman
 related:
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[case-yitang-lianjia-site-selection-industrialization]]'
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[case-yitang-maiyi-cloud-computer-channel]]'
-- '[[dk-yitang-channel-exploration-traps]]'
+- [[framework-yitang-channel-industrialization]]
+- [[framework-yitang-channel-exploration-4step]]
+- [[case-yitang-lianjia-site-selection-industrialization]]
+- [[tool-区分获客渠道计算单元roi]]
+- [[framework-yitang-channel-unit-economics]]
+- [[case-yitang-maiyi-cloud-computer-channel]]
+- [[dk-yitang-channel-exploration-traps]]
 review_date: '2026-06-28'
 ---
+
 
 # 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 

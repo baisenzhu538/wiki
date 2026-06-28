@@ -1,5 +1,4 @@
 ---
-
 id: dk-decision-value-overrides-roi
 title: Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用
 type: dk
@@ -16,24 +15,26 @@ source_context: 2026-06-16 决策域深度对齐讨论
 source_refs:
 - src_unknown
 - src_unknown
-created_at: "2026-06-17"
+created_at: '2026-06-17'
 author: 黄药师
 reviewed_by: 黄药师
-review_date: "2026-06-17"
+review_date: '2026-06-17'
 related:
-- yt-decision-y-model
-- yt-decision-canvas
-- master-decision-hygiene
+- [[yt-decision-y-model]]
+- [[yt-decision-canvas]]
+- [[master-decision-hygiene]]
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 价值观权重检测
-    follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
+- signal: src_unknown
+  framework_lens: 价值观权重检测
+  follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
 ---
+
+
 # Y 模型失效场景：当价值观权重超过经济理性时
 
 ## 原始表述

@@ -18,14 +18,16 @@ source_refs:
   - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-  - '[[framework-yitang-deliberate-practice-1plus4]]'
-  - '[[tool-yitang-practice-20hour-starter]]'
-  - '[[tool-yitang-feedback-self-check]]'
-  - '[[framework-yitang-three-ring-ability-focus]]'
-  - '[[concept-yitang-comfort-stretch-panic-zones]]'
-  - '[[case-yitang-ai-painting-commercialization]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
+  - [[framework-yitang-deliberate-practice-1plus4]]
+  - [[tool-yitang-practice-20hour-starter]]
+  - [[tool-yitang-feedback-self-check]]
+  - [[framework-yitang-three-ring-ability-focus]]
+  - [[concept-yitang-comfort-stretch-panic-zones]]
+  - [[case-yitang-ai-painting-commercialization]]
+  - [[framework-ai-deliberate-practice-loop]]
+
 ---
+
 
 # 最佳实践临摹法：早期快速提升的「金手指」
 

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 收入模式——单一收入来源风险高，需要多元化
   follow_up_question: 如果主要收入来源失效，你有备用收入来源吗？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的收入模式是否让用户更认可内核价值？还是削弱了？
 - framework_lens: 收入模式——需要系统化选择，不是随机尝试
   follow_up_question: 你系统评估过每种收入模式与内核的匹配度吗？
-
 ---
+
 # 收入模式：6种典型变现方式
 
 > 一堂五步法：收入模式是商业模式的核心，需要与内核匹配，不是随机选择。

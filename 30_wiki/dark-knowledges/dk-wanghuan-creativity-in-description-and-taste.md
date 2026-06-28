@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-  - human-ai-collaboration
-  - ai-collaboration
-  - yitang
+- human-ai-collaboration
+- ai-collaboration
+- yitang
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -20,14 +20,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[master-ai-info-literacy]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[dk-wanghuan-magic-defeats-magic]]
-  - human-ai-collaboration-double-triangle
-  - framework-wanghuan-actor-director-mode
-  - tool-wanghuan-ai-business-profile
+- [[dk-modeling-ai-judgment-limit]]
+- [[master-ai-info-literacy]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[dk-wanghuan-magic-defeats-magic]]
+- [[human-ai-collaboration-double-triangle]]
+- [[framework-wanghuan-actor-director-mode]]
+- [[tool-wanghuan-ai-business-profile]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 创造力重新分配——问题描述是核心创造力
@@ -53,6 +53,7 @@ tags:
 - src_unknown
 review_date: '2026-06-28'
 ---
+
 # 王欢暗知识：创造力重新分配到问题描述与验收审美
 
 > **Burn line**: 未来人的创造力，不再主要放在执行上，而是放在“把问题描述清楚”和“判断结果好不好”上。

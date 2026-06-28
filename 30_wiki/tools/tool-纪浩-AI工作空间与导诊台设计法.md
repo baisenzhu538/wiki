@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-AI工作空间与导诊台设计法
 title: 技能：AI工作空间与导诊台设计法
 type: tool
@@ -24,11 +23,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - [[case-lean-adult-education]]
+  - [[case-truman-ai-skill-self-packaging]]
+  - [[yt-barrier-identification-skill]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:
@@ -50,6 +49,7 @@ diagnostic_signals:
 - lens: 结构膨胀
   follow_up: 定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简
 ---
+
 # 技能：AI工作空间与导诊台设计法
 
 ## 原始表述

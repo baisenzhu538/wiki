@@ -20,9 +20,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[case-wanghuan-education-sales-paced]]
+  - [[case-wanghuan-yiyu-qingji-medical-notes]]
 tags:
 - src_unknown
 - src_unknown
@@ -41,8 +41,8 @@ diagnostic_signals:
   follow_up: 建立三层架构：拆解→生成→审查，每层有明确输入、工具与验收标准
 - lens: 把系统问题误判为工具问题
   follow_up: 验证同一批工具在重新设计流程后能否接近 3 倍提升，再决定是否追加工具投入
-
 ---
+
 # 王欢案例：沈阳软件公司三层架构实现3倍效率
 
 > **Burn line**: 从 30% 到 3 倍，差的不是工具，是系统重新设计。

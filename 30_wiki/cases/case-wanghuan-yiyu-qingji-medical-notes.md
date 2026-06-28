@@ -29,17 +29,17 @@ diagnostic_signals:
 - lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[case-wanghuan-education-sales-paced]]
+  - [[case-wanghuan-shenyang-software-3x-efficiency]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢案例：医语轻记用语音录入缩短病历时间
 
 > **Burn line**: 一个连设计稿都没有的原型，因为长在真实痛点上，第一天就活下来了。

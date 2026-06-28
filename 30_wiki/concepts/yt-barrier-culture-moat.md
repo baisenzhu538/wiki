@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 文化护城河——文化需要显性化，才能传承和复制
   follow_up_question: 你的文化是什么？能否用3个词描述？文化是否体现在日常行为中？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的文化是否体现在招聘、考核、决策中？还是只是口号？
 - framework_lens: 文化护城河——文化需要平衡稳定和变革
   follow_up_question: 你的文化是否鼓励试错？是否容忍失败？
-
 ---
+
 # 文化护城河：难以复制
 
 > 一堂五步法：文化是最难复制的壁垒。文化不是口号，是行为模式。

@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-  - yitang
-  - modeling
-  - business-strategy
+- yitang
+- modeling
+- business-strategy
 language: zh-CN
 version: 1
 confidence: 0.89
@@ -15,16 +15,15 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-  - [[dk-modeling-explanatory-vs-predictive-essence]]
-  - [[dk-tool-as-answer-trap]]
-  - [[tool-scenario-selector-modeling]]
-  - [[dk-modeling-case-explosion-confidence]]
-  - [[dk-tool-as-phased-validator]]
-  - dk-modeling-radar-model-not-result
-  - dk-modeling-explanatory-vs-predictive-essence
-  - yt-lean-assumption-prioritization
-  - dk-modeling-ai-iterative-prompting
-  - modeling-three-stages
+- [[dk-modeling-explanatory-vs-predictive-essence]]
+- [[dk-tool-as-answer-trap]]
+- [[tool-scenario-selector-modeling]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[dk-tool-as-phased-validator]]
+- [[dk-modeling-radar-model-not-result]]
+- [[yt-lean-assumption-prioritization]]
+- [[dk-modeling-ai-iterative-prompting]]
+- [[modeling-three-stages]]
 bridges_to:
 - target: src_unknown
   relation: provides_foundation_for
@@ -60,6 +59,7 @@ tags:
 - src_unknown
 - src_unknown
 ---
+
 ## 原始表述
 
 > **核心洞察**：模型的价值不在于它给出了什么答案，而在于它能把模糊的业务问题拆成一组可验证、可讨论、可迭代的小问题。一旦把模型当答案，团队就会停止追问，把“算出来”当成“做对了”。

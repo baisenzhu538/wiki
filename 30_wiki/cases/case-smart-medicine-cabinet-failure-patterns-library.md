@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-smart-medicine-cabinet-failure-patterns-library
 title: 智能药柜失败模式案例库
 type: case
@@ -24,16 +21,9 @@ review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:
@@ -48,6 +38,7 @@ diagnostic_signals:
 - framework_lens: 商业模式结构性失败
   follow_up_question: 用保守客单价和复购频次做敏感性测算，回本周期是多少？是否预留6-12个月运营资金？
 ---
+
 # 智能药柜失败模式案例库
 
 > **核心定位**：汇总公开渠道可获取的智能药柜/无人药房失败案例，提炼失败模式共因，为投资决策和风险管理提供反面教材。

@@ -18,16 +18,18 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - '[[yt-research-osl-framework]]'
-  - '[[yt-research-intelligence-map]]'
-  - '[[yt-research-competitor-toolkit]]'
-  - '[[yt-research-expert-interview]]'
-  - '[[yt-research-user-jtbd]]'
-  - '[[yt-research-industry-canvas]]'
-  - '[[yt-research-mindset]]'
-  - '[[yt-five-step-method]]'
+  - [[yt-research-osl-framework]]
+  - [[yt-research-intelligence-map]]
+  - [[yt-research-competitor-toolkit]]
+  - [[yt-research-expert-interview]]
+  - [[yt-research-user-jtbd]]
+  - [[yt-research-industry-canvas]]
+  - [[yt-research-mindset]]
+  - [[yt-five-step-method]]
+
 
 ---
+
 
 # 商业假设验证方法
 

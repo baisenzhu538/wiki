@@ -15,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-  - yt-demand-qualitative-analysis
-  - yt-demand-fake-demand-detection
-  - yt-demand-hierarchy-model
-  - yt-five-step-method
-  - yt-entrepreneur-lean-validation
+- [[yt-demand-qualitative-analysis]]
+- [[yt-demand-fake-demand-detection]]
+- [[yt-demand-hierarchy-model]]
+- [[yt-five-step-method]]
+- [[yt-entrepreneur-lean-validation]]
 diagnostic_signals:
 - framework_lens: 需求早期验证——未验证就投入开发
   follow_up_question: 在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？
@@ -32,6 +32,8 @@ diagnostic_signals:
 - framework_lens: 需求早期验证——样本偏差
   follow_up_question: 你的验证对象是你的朋友，还是真正的目标用户？他们是否愿意付费？
 ---
+
+
 # 需求早期验证：低成本测试法
 
 > 一堂五步法：在投入大量资源前，用低成本方法验证需求是否真实存在。

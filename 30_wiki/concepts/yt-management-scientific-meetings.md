@@ -26,13 +26,14 @@ diagnostic_signals:
 - framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 
 ---
+
 # 科学开会
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+实操篇。原始 source 无法追溯，待后续补充到 `10_raw/sources/` 后更新 source_refs。

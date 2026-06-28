@@ -17,10 +17,11 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.langchain.com/blog/benchmarking-multi-agent-architectures"
 related:
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[tool-agent-research-supervisor]]"
-  - "[[tool-agent-research-swarm]]"
-  - "[[framework-yitang-oscar-research]]"
+  - [[framework-yitang-oscar-research]]
+  - [[case-demand-travel-agent]]
+  - [[case-ji-hao-skills-market]]
+  - [[case-truman-ai-partner]]
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

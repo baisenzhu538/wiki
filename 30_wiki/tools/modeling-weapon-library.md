@@ -19,9 +19,9 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-level-map]]'
+- [[modeling-capability-system]]
+- [[modeling-three-stages]]
+- [[modeling-level-map]]
 tags: []
 diagnostic_signals:
 - framework_lens: 模型武器库
@@ -37,6 +37,7 @@ diagnostic_signals:
 - framework_lens: 数据先行
   follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
 ---
+
 
 
 # 常见模型武器库：按问题难度调用模型

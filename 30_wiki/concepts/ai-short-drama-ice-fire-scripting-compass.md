@@ -1,17 +1,15 @@
 ---
-
 domain:
 - ai-saas
-
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，写本罗盘方法论
 source_refs:
-  - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
-  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
-  - 10_raw/sources/src_20260613_12d63c1c-notes.md
+- 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md
+- 10_raw/sources/src_20260613_12d63c1c-notes.md
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -20,24 +18,23 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- ai-short-drama-ice-fire-dissection-compass
-- ai-short-drama-plot-three-axes
-- ai-short-drama-script-planning-three-axes
-- ai-short-drama-framework-three-axes
-- ai-short-drama-conflict-three-axes
-- ai-short-drama-platform-policy-comparison
-- yt-note-ai-human-division
+- [[ai-short-drama-plot-three-axes]]
+- [[ai-short-drama-framework-three-axes]]
+- [[ai-short-drama-conflict-three-axes]]
+- [[yt-note-ai-human-division]]
 tags:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: 全本策划五维框架
-    follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
-  - framework_lens: 人与AI的分工边界
-    follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
-  - framework_lens: 剧本基地→内容走向→剧情终局的闭环
-    follow_up_question: 内容走向的15个关键节点是否提前锁定？
+- framework_lens: 全本策划五维框架
+  follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
+- framework_lens: 人与AI的分工边界
+  follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
+- framework_lens: 剧本基地→内容走向→剧情终局的闭环
+  follow_up_question: 内容走向的15个关键节点是否提前锁定？
 ---
+
+
 # 冰火写本罗盘：AI短剧剧本策划全流程体系
 
 > **Burn line**: 不是让AI瞎写，是用专业剧本思维驾驭AI这个"超级执笔"。

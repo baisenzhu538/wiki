@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-deep-attribution
 title: 深度归因：找到问题根因的5Why法
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
@@ -28,19 +27,20 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[framework-yitang-iterative-recursive-digging]]
-  - [[yitang-research-domain-digest]]
-  - [[tool-yitang-research-two-dimensional-positioning]]
-  - [[tool-yitang-research-single-point-sniper]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-cross-validation]]
-  - [[tool-yitang-research-quantitative-modeling]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - （dk-yitang-research-determination，待补）
-  - [[concept-yitang-research-mindset]]
+- [[framework-yitang-iterative-recursive-digging]]
+- [[yitang-research-domain-digest]]
+- [[tool-yitang-research-two-dimensional-positioning]]
+- [[tool-yitang-research-single-point-sniper]]
+- [[tool-yitang-research-follow-map]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-18-strategy-cards]]
+- [[tool-yitang-research-cross-validation]]
+- [[tool-yitang-research-quantitative-modeling]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[concept-yitang-research-mindset]]
+
 ---
+
 # 深度归因：找到问题根因的5Why法
 
 > **一句话**：表面现象背后有深层原因。5Why法强迫你连续追问"为什么"，直到找到可干预的根因，而不是停留在表面解释。

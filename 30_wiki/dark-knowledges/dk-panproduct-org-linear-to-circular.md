@@ -19,16 +19,17 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 source_person: 兰毅 / 一堂
 related:
-- '[[framework-pan-product-organization]]'
-- '[[case-panproduct-lanyi-shidonghui-npc]]'
-- '[[dk-panproduct-org-serve-the-lowest]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[concept-最佳实践建模]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-yitang-growth-flywheel]]'
+- [[framework-pan-product-organization]]
+- [[case-panproduct-lanyi-shidonghui-npc]]
+- [[dk-panproduct-org-serve-the-lowest]]
+- [[framework-一堂五步法-泛产品设计]]
+- [[concept-最佳实践建模]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
+- [[framework-yitang-growth-flywheel]]
 review_date: '2026-06-28'
 ---
+
 
 # 组织资产：从直线运动到圆周运动
 

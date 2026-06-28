@@ -1,18 +1,16 @@
 ---
-
-
 id: ai-short-drama-conflict-three-axes
 title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260613_37933c99-conflict-three-axes.md
-  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
-  - 10_raw/sources/src_20260613_12d63c1c-notes.md
+- 10_raw/sources/src_20260613_37933c99-conflict-three-axes.md
+- 10_raw/sources/src_20260613_687c4ec0-transcript.md
+- 10_raw/sources/src_20260613_12d63c1c-notes.md
 status: reviewed
 domain:
-  - ai-saas- yitang
-  - ai-collaboration
-  - product
+- ai-saas- yitang
+- ai-collaboration
+- product
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -21,9 +19,8 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-  - ai-short-drama-ice-fire-scripting-compass
-  - ai-short-drama-plot-three-axes
-  - ai-short-drama-framework-three-axes
+- [[ai-short-drama-plot-three-axes]]
+- [[ai-short-drama-framework-three-axes]]
 tags:
 - src_unknown
 - src_unknown
@@ -44,8 +41,9 @@ diagnostic_signals:
   follow_up_question: 三层冲突的戏份配比是否匹配题材定位（逆袭/甜宠/成长）？
 - framework_lens: 第三板斧·自我宿命寻答案
   follow_up_question: 主角的成长是否通过具体行动或牺牲体现，而非独白/旁白？
-
 ---
+
+
 # 矛盾冲突三板斧：短剧冲突分层设计工具
 
 > **Burn line**: 好冲突不是越炸越好，而是让观众在三重张力里同时揪心。

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 激活率——注册用户多但活跃少，说明激活环节断了
   follow_up_question: 你的激活率是多少？用户注册后第一次体验到价值的路径是什么？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的onboarding有几步？能不能在3步内让用户体验到价值？
 - framework_lens: 激活率——激活≠留存，需要设计持续价值
   follow_up_question: 用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？
-
 ---
+
 # 激活率：让用户第一次体验到价值
 
 > 一堂五步法：激活是留存的前提。用户第一次体验到价值的时间越短，留存率越高。

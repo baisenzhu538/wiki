@@ -20,15 +20,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂-工业化生产_vlm_desc.md
 source_person: Truman
 related:
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[case-yitang-yitang-shortvideo-industrialization]]'
-- '[[tool-yitang-channel-industrialization-node-design]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[concept-yitang-channel-lean-validation-bridge]]'
+- [[framework-yitang-channel-industrialization]]
+- [[framework-yitang-growth-flywheel]]
+- [[framework-yitang-channel-exploration-4step]]
+- [[case-yitang-yitang-shortvideo-industrialization]]
+- [[tool-yitang-channel-industrialization-node-design]]
+- [[framework-yitang-channel-unit-economics]]
+- [[concept-yitang-channel-lean-validation-bridge]]
 review_date: '2026-06-28'
 ---
+
 
 # 案例：一堂如何用工业化生产保证每周高质量做课
 

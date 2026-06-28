@@ -24,11 +24,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 指标脱离单元模型
   follow_up_question: 这个总指标背后，单用户/单SKU/单订单模型是否成立？如果总增长来自补贴、异常大单或渠道补贴，放大后会怎么样？
@@ -36,8 +36,9 @@ diagnostic_signals:
   follow_up_question: 当前渠道的试错成本、ROI、天花板、团队能力匹配度是否已评估？有没有小样本的转化数据支撑？
 - framework_lens: 阶段判断错误
   follow_up_question: 需求、产品、商业模式三类前置假设中，还有哪些是红灯？如果前置假设不成立，增长测试是不是在验证错误的问题？
-
 ---
+
+
 # 增长阶段标志：单元模型成立 + 找到增长渠道
 
 > 商业模式跑通的标志是：核心单元成立，且找到了一条增长渠道。指标必须放回具体的单元模型里判断，而不是直接看指标。——张磊，AMA Q3（src_20260616_b1e25c49）

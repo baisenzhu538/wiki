@@ -26,11 +26,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 四象限定位缺失
   follow_up_question: 目标客户当前最紧迫的经营目标是复购、加购、获客还是创新？这个需求落在老客老品、老客新品、新客老品、新客新品哪个象限？
@@ -38,8 +38,9 @@ diagnostic_signals:
   follow_up_question: 老客加购依赖的是信任迁移和增量价值，新客获客依赖的是低成本规模化触达，两者的核心验证指标是否被混为一谈？
 - framework_lens: 经营重心误判
   follow_up_question: 在考虑新产品或新客之前，老客老品的复购率、续约率、单客产值还有多大提升空间？为什么当前象限不是最优解？
-
 ---
+
+
 # To B 需求场景四象限
 
 > To B 的业务需求和客户自身的经营重心相关。我们看自己或客户时，往往有四类场景：老客户加购、新客户新产品创新、老客户老产品复购、新客户老产品获客。先判断落在哪个象限，才能理解客户的目标到底是什么，以及你能帮他做什么。——徐剑，To B 五步法口述稿（src_20260616_0e684368）

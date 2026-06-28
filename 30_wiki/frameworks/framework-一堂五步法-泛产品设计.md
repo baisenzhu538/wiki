@@ -23,12 +23,14 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-- '[[yt-composite-pan-product-methodology]]'
-- '[[yt-model-pan-product-three-virtues]]'
-- '[[framework-pan-product-organization]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
+- [[yt-composite-pan-product-methodology]]
+- [[yt-model-pan-product-three-virtues]]
+- [[framework-pan-product-organization]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
+
 ---
+
 
 # 一堂五步法在泛产品设计中的应用
 

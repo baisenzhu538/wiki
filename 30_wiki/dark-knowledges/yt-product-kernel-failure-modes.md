@@ -1,5 +1,4 @@
 ---
-
 domain:
 - product
 id: yt-product-kernel-failure-modes
@@ -19,11 +18,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- yt-product-kernel-definition
-- yt-product-kernel-premature-optimization
-- yt-product-kernel-do-without-belief
-- yt-demand-fake-demand-detection
-- yt-five-step-method
+- [[yt-product-kernel-definition]]
+- [[yt-product-kernel-do-without-belief]]
+- [[yt-demand-fake-demand-detection]]
+- [[yt-five-step-method]]
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 产品内核失败模式——需求假设错误
@@ -41,6 +39,8 @@ diagnostic_signals:
   framework_lens: 产品内核失败模式——团队对内核无共识
   follow_up_question: 你们团队对内核的定义一致吗？写下来，看是否相同？
 ---
+
+
 # 产品内核失败的5种模式
 
 ## 原始表述

@@ -7,17 +7,18 @@ confidence: 0.88
 trust_level: high
 domain: yitang
 source_refs:
-  - 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
-  - src_unknown
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
+- src_unknown
+created_at: '2026-06-21'
+updated_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - [[tool-demand-iceberg-l4-job-map]]
-  - （tool-demand-agent-l3-multi-hypothesis，待补）
-  - [[framework-multi-agent-research-architecture]]
+- [[tool-demand-iceberg-l4-job-map]]
+- [[framework-multi-agent-research-architecture]]
+
 ---
+
 # Agent 做 L4：案例库自动检索匹配
 
 > 人的 L4 凭经验填 8 步表。Agent 不做从零推演——先检索案例库中相似任务的 8 步地图，用历史摩擦点作为推演起点。

@@ -30,9 +30,11 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
+- [[ai-collaboration-mindset-shift]]
+- [[ai-landing-scene-selection]]
+
 ---
+
 # AI 大航海项目路演：主题综合知识卡
 
 > 本卡基于 `90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md` 中的 11 条录音 meetingSummary 摘要提炼而成。**未逐段核对原文**，关键结论已按置信度分层，不确定处标注「待原文复核」。

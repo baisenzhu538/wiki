@@ -19,9 +19,9 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-weapon-library]]'
+- [[modeling-capability-system]]
+- [[modeling-three-stages]]
+- [[modeling-weapon-library]]
 tags: []
 diagnostic_signals:
 - framework_lens: 六段能力段位图
@@ -35,6 +35,7 @@ diagnostic_signals:
 - framework_lens: 段位跃迁风险
   follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
 ---
+
 
 
 # 建模能力段位图：从 L1 到 L6 的十年爬山地图

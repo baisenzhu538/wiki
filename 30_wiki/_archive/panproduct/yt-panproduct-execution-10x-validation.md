@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-panproduct-execution-10x-validation
 component_of:
 - src_unknown
@@ -10,7 +6,7 @@ confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1189
 language: zh-CN
 prerequisites:
@@ -27,17 +23,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证
-status: enriched
+status: superseded
 title: 泛产品设计·落地卡片：十倍速验证
 type: tool
 version: 1
@@ -58,11 +54,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
-
-
 superseded_by: tool-泛产品落地-十倍速验证
-status: superseded
 ---
+
+
 # 十倍速验证：训练用1块钱学到1000块钱的认知
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

@@ -30,19 +30,19 @@ diagnostic_signals:
 - lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[case-wanghuan-education-sales-capability-extraction]]
+  - [[case-wanghuan-education-sales-paced]]
+  - [[case-wanghuan-shenyang-software-3x-efficiency]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
+
 # 王欢AI能力五层跃迁模型
 
 > **Burn line**: 从“会问 AI 问题”到“能搭建系统级 AI 操作台”，有五层台阶。多数人卡在第二层。

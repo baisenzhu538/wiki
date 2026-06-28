@@ -25,11 +25,11 @@ tags:
 - src_unknown
 - src_unknown
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，验证指标和最小样本量分别是什么？
@@ -37,8 +37,9 @@ diagnostic_signals:
   follow_up_question: 当前阶段你是在"排除错误选项"还是在"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
 - framework_lens: 产品内核验证必须锚定业务公式的核心节点；指标只有放在单元模型的核心转化率上才有统计意义
   follow_up_question: 这个指标如果变好，能否直接推导出单元模型成立？它对应业务公式中的哪一个核心转化率或复购率？
-
 ---
+
+
 # 定性调研与定量调研的边界：证伪优先、阶段匹配
 
 > 精益不是不花钱、不花时间，而是用少量成本大幅降低当前最重要的关键风险。在需求很难直接证实时，最好的方式是排除错误选项，留下好的细分用户、细分场景、细分问题；后续再放到产品迭代模型中，用量化的方式进一步验证需求有没有找准。

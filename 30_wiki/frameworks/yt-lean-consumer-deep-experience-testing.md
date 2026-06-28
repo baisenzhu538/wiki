@@ -17,11 +17,11 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 tags:
 - src_unknown
 - src_unknown
@@ -36,8 +36,9 @@ diagnostic_signals:
   follow_up_question: 这个痛点在用户的真实使用场景里是核心问题、次要问题，还是解决后会带来更多问题？
 - framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
-
 ---
+
+
 # 消费品深层体验测试：表层反馈 vs 深层体验
 
 > **核心论断**：消费品测试最常见的盲区，是相信用户的嘴。"一口好喝"是表层反馈，"喝到半瓶胀气"是深层体验；假产品与假营销只能测兴趣，测不了完整使用体验。

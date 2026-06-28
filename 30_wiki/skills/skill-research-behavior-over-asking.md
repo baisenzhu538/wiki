@@ -20,7 +20,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-25'
 related:
-- pending_unknown
+  - [[dk-yitang-behavior-over-asking]]
 diagnostic_signals:
 - framework_lens: 行为证据优先
   follow_up_question: 你能复述用户最近一次遇到该问题的具体场景和行为吗？
@@ -28,8 +28,8 @@ diagnostic_signals:
   follow_up_question: 用户为这个需求付过费吗？最近一次花了多少？
 - framework_lens: 现场语境缺失
   follow_up_question: 能否让用户展示订单、聊天记录、App 使用界面或相册截图？
-
 ---
+
 # 行为证据重于口头证据
 
 > **Burn line**：用户嘴里说的多是「愿望」，真实行为里才藏着「需求」。

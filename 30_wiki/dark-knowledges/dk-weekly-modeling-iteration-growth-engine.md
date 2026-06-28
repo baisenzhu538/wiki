@@ -5,41 +5,43 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-  - yitang
-  - modeling
+- yitang
+- modeling
 language: zh-CN
 version: 1
 confidence: 0.88
 trust_level: medium
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 source_person: Truman
 source_context: 一堂高阶建模能力培训（组织级建模价值）
 related:
-  - framework-course-milestone-model
-  - modeling-scientific-milestones
-  - concept-thousand-people-square
-  - case-child-drawing-rhyme
+- [[framework-course-milestone-model]]
+- [[modeling-scientific-milestones]]
+- [[concept-thousand-people-square]]
+- [[case-child-drawing-rhyme]]
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
-    follow_up_question: 如果明天预算砍掉一半，还有哪些增长指标不会随之崩塌？
-  - signal: src_unknown
-    framework_lens: 交付即训练视角：外部 deadline 是建模能力的反拖延机制
-    follow_up_question: 如果取消本周交付，我们会失去哪一次建模迭代机会？
-  - signal: src_unknown
-    framework_lens: 能力资产视角：每次交付的副产品应是可复用的模型资产
-    follow_up_question: 这次交付产出的哪个模型可以进入下一轮迭代的起点？
+- signal: src_unknown
+  framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
+  follow_up_question: 如果明天预算砍掉一半，还有哪些增长指标不会随之崩塌？
+- signal: src_unknown
+  framework_lens: 交付即训练视角：外部 deadline 是建模能力的反拖延机制
+  follow_up_question: 如果取消本周交付，我们会失去哪一次建模迭代机会？
+- signal: src_unknown
+  framework_lens: 能力资产视角：每次交付的副产品应是可复用的模型资产
+  follow_up_question: 这次交付产出的哪个模型可以进入下一轮迭代的起点？
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 ---
+
+
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
 > **Burn line**: 收入增长、利润增长、流量增长都能用钱买；但周对周的建模能力增长，是花钱买不到的。

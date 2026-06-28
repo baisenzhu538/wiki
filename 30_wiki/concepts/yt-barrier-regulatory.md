@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 监管壁垒——牌照是壁垒，但需要持续维护和合规
   follow_up_question: 你的牌照是否有有效期？续期条件是什么？合规成本多少？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 灰色地带的风险是什么？是否有合规化的路径？
 - framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
   follow_up_question: 监管限制的具体是什么？是否有合规的创新路径？
-
 ---
+
 # 监管壁垒：牌照与合规
 
 > 一堂五步法：监管壁垒是双刃剑。对新进入者是障碍，对在位者是保护。但需要持续合规，否则牌照变废纸。

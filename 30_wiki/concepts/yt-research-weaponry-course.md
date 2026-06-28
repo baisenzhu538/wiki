@@ -20,11 +20,11 @@ reviewed_by: 黄药师
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -38,8 +38,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 confidence: 0.85
 trust_level: high
-
 ---
+
 # 一堂调研武器库课程
 
 ## Constraints & Boundaries

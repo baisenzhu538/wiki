@@ -21,15 +21,16 @@ source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
 source_person: 兰毅 / 一堂
 related:
-- '[[framework-pan-product-organization]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[yt-model-pan-product-three-virtues]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-yitang-growth-flywheel]]'
+- [[framework-pan-product-organization]]
+- [[yt-composite-pan-product-methodology]]
+- [[framework-一堂五步法-泛产品设计]]
+- [[yt-model-pan-product-three-virtues]]
+- [[framework-lean-abcd-model]]
+- [[framework-ai-accelerated-strategy-cycle]]
+- [[framework-yitang-growth-flywheel]]
 review_date: '2026-06-28'
 ---
+
 
 # 泛产品组织 vs 传统管理：从控制范式到设计范式
 

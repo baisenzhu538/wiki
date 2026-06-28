@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 跨步二——规模化需要单元模型支撑，否则增长越快亏损越大
   follow_up_question: 你的单元模型在规模化后是否成立？LTV/CAC是否恶化？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 规模化后的产品体验指标如何？用户反馈是否变差？
 - framework_lens: 跨步二——从1到10的信号：单元模型成立、产品体验稳定、团队ready
   follow_up_question: 你的单元模型是否成立？产品体验是否稳定？团队是否ready？
-
 ---
+
 # 跨步二：从1到10的规模化
 
 > 一堂五步法：从1到10不是简单放大，而是系统性的规模化。单元模型、组织能力、产品体验，缺一不可。

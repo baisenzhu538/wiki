@@ -3,23 +3,24 @@ id: tool-prompt-jtbd-scenario-coach
 title: JTBD 场景推演教练——六层需求深挖提示词模板
 type: prompt-template
 status: enriched
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain: yitang
-prompt_role: "你是一位精通JTBD与精益创业理论的资深顾问，作为主导者帮我分析、给选项、让我做选择"
-prompt_methodology: "JTBD六层分析 + 任务地图 + 四种力量 + 机会卡片"
-prompt_version: "1.0.0"
+prompt_role: 你是一位精通JTBD与精益创业理论的资深顾问，作为主导者帮我分析、给选项、让我做选择
+prompt_methodology: JTBD六层分析 + 任务地图 + 四种力量 + 机会卡片
+prompt_version: 1.0.0
 source_refs:
-  - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+created_at: '2026-06-21'
+updated_at: '2026-06-21'
 author: 黄药师（从 inbox 提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - （framework-yitang-jtbd-theory，待补）
-  - [[tool-prompt-usp-demand-analysis]]
-  - [[yt-demand-analysis-hiking-map]]
+- [[tool-prompt-usp-demand-analysis]]
+- [[yt-demand-analysis-hiking-map]]
+
 ---
+
 # JTBD 场景推演教练
 
 > `prompt-template` — 六层需求深挖。主动引导，不给开放式问题。

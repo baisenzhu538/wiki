@@ -18,15 +18,17 @@ source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-- '[[framework-yitang-deliberate-practice-1plus4]]'
-- '[[tool-yitang-practice-20hour-starter]]'
-- '[[framework-yitang-three-ring-ability-focus]]'
-- '[[concept-yitang-comfort-stretch-panic-zones]]'
-- '[[tool-yitang-feedback-self-check]]'
-- '[[framework-ai-deliberate-practice-loop]]'
-- '[[yt-model-deliberate-practice-growth]]'
-- '[[yt-note-deliberate-practice-four-elements]]'
+- [[framework-yitang-deliberate-practice-1plus4]]
+- [[tool-yitang-practice-20hour-starter]]
+- [[framework-yitang-three-ring-ability-focus]]
+- [[concept-yitang-comfort-stretch-panic-zones]]
+- [[tool-yitang-feedback-self-check]]
+- [[framework-ai-deliberate-practice-loop]]
+- [[yt-model-deliberate-practice-growth]]
+- [[yt-note-deliberate-practice-four-elements]]
+
 ---
+
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑
 
 ## 为什么值钱

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-single-point-sniper
 title: 单点狙击：聚焦关键问题的深度验证
 type: tool
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
@@ -28,21 +27,21 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[yitang-research-domain-digest]]
-  - [[tool-yitang-research-two-dimensional-positioning]]
-  - [[concept-yitang-research-scope]]
-  - [[tool-yitang-research-cross-validation]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-yitang-research-validate-assumption]]
-  - （tool-yitang-research-hypothesis-test，待补）
-  - [[yt-research-hypothesis-test]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - （dk-yitang-research-determination，待补）
-  - [[concept-yitang-research-mindset]]
+- [[yitang-research-domain-digest]]
+- [[tool-yitang-research-two-dimensional-positioning]]
+- [[concept-yitang-research-scope]]
+- [[tool-yitang-research-cross-validation]]
+- [[tool-yitang-research-follow-map]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-18-strategy-cards]]
+- [[tool-yitang-research-validate-assumption]]
+- [[yt-research-hypothesis-test]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[concept-yitang-research-mindset]]
+
 ---
+
 # 单点狙击：聚焦关键问题的深度验证
 
 > **一句话**：资源有限时，不要面面俱到，而是聚焦最关键的一个问题，用穷尽手段深度验证。单点狙击是调研中的"精准打击"。

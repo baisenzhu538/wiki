@@ -1,6 +1,4 @@
 ---
-
-
 id: concept-smart-medicine-cabinet-digital-pharmacy-diagnosis
 title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
@@ -19,7 +17,16 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related: []# 知识卡草稿：智能药柜/数字药房项目诊断
+  - [["aima-ai思维卡-外部链接归档"]]
+  - [[ai时代判断力口述]]
+  - [[deepseek-v4-在知识管理系统中的应用]]
+  - [[EC工业化规范手册]]
+  - [[HIS系统开发实现方案-架构师指南]]
+  - [[case-smart-medicine-cabinet-business-model-validation]]
+  - [[case-smart-medicine-cabinet-corporate-risk]]
+
 ---
+
 > 卡片编号：kc_itingnao_digital-pharmacy  
 > 对应诊断报告：`60_feedback/itingnao-deep-dive-digital-pharmacy.md`  
 > 素材来源：6362082、7151864、7683984、8032774、7898987 五份精简版录音  

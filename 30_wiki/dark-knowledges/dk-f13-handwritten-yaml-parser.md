@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
-  - '[[dk-p18-yaml-parser]]'
-  - '[[dk-p19-quote-yaml]]'
-  - '[[proposal-yaml-frontmatter-standardization]]'
-  - '[[kdo-yaml-frontmatter-safety]]'
-  - '[[master-first-principles]]'
-  - '[[dk-c1-cjk-regex-silent-fail]]'
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
+  - [[dk-p18-yaml-parser]]
+  - [[dk-p19-quote-yaml]]
+  - [[proposal-yaml-frontmatter-standardization]]
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[master-first-principles]]
+  - [[dk-c1-cjk-regex-silent-fail]]
 pipeline:
   - confidence-draft
   - confidence-source-cited
@@ -42,6 +42,7 @@ diagnostic_signals:
   framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
   follow_up_question: '批量修改前是否输出到临时目录并抽检 3-5 个文件的列表、字典、多行字符串是否完好？'
 ---
+
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 
 ## 原始表述/核心洞察

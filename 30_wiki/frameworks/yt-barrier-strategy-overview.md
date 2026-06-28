@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- pending_unknown
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 diagnostic_signals:
 - framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
   follow_up_question: 你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？
@@ -33,8 +33,8 @@ diagnostic_signals:
   follow_up_question: 你的壁垒是否足够强，让用户愿意付溢价？
 - framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
   follow_up_question: 你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？
-
 ---
+
 # 壁垒策略总纲：从增长到可持续优势
 
 > 一堂五步法：壁垒是第五步，但不是最后一步。壁垒保护增长成果，增长强化壁垒。两者循环。

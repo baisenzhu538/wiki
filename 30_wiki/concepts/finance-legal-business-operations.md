@@ -24,7 +24,14 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related: []
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
+
 ---
+
 # 企业财务-法务-商务运营实务（听脑录音综合草稿）
 
 > **主题定义**：本卡汇总听脑 AI 录音中与公司日常经营直接相关的财务、法务、商务议题——包括 B2B 合同履约与资金争议、税务筹划与进项处理、支付分账与通道费用、政府资质申报等，提取其中可复用的运营判断与风险信号。

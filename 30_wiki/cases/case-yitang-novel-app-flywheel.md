@@ -16,15 +16,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 source_person: Truman
 related:
-- '[[framework-yitang-growth-flywheel]]'
-- '[[case-yitang-amazon-growth-flywheel]]'
-- '[[case-yitang-topcity-growth-flywheel]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[concept-yitang-channel-lean-validation-bridge]]'
-- '[[tool-区分获客渠道计算单元roi]]'
+- [[framework-yitang-growth-flywheel]]
+- [[case-yitang-amazon-growth-flywheel]]
+- [[case-yitang-topcity-growth-flywheel]]
+- [[framework-yitang-channel-exploration-4step]]
+- [[framework-yitang-channel-unit-economics]]
+- [[concept-yitang-channel-lean-validation-bridge]]
+- [[tool-区分获客渠道计算单元roi]]
 review_date: '2026-06-28'
 ---
+
 
 # 案例：小说 app 如何用 SEO 补全增长飞轮
 

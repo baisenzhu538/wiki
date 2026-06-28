@@ -1,17 +1,15 @@
 ---
-
 domain:
 - yitang
-
 id: yt-business-formula-abc-model
 title: 业务公式 ABC 模型（Ambition-Basis-Connection）
 type: framework
 status: reviewed
 source_context: 一堂 2026-06-13 业务公式拆解培训，ABC 模型框架
 source_refs:
-  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
-  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
-  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -20,15 +18,16 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- yt-management-business-formula
-- yt-business-formula-ten-paradigms
-- yt-business-formula-parameter-iceberg
-- yt-business-formula-six-level-logic
-- yt-business-formula-business-pattern-selector
-- yt-business-formula-qualitative-metrics-library
-- yt-unit-model-three-tools
-- yt-five-step-method
+- [[yt-management-business-formula]]
+- [[yt-business-formula-ten-paradigms]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-unit-model-three-tools]]
+- [[yt-five-step-method]]
+
 ---
+
+
 # 业务公式 ABC 模型（Ambition-Basis-Connection）
 
 > 一堂业务公式拆解培训的极简框架：**目标（Ambition）+ 参数（Basis）+ 逻辑关系（Connection）= 业务公式**。  

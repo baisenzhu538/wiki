@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-research-objective
 title: 调研目标锁定：从"了解"到"决策"的认知跃迁
 type: concept
@@ -13,8 +12,8 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
@@ -28,22 +27,22 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[framework-yitang-iterative-recursive-digging]]
-  - [[yitang-research-domain-digest]]
-  - [[tool-yitang-research-exhaust-means]]
-  - [[tool-yitang-research-single-point-sniper]]
-  - [[tool-yitang-research-follow-map]]
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-high-level-plan]]
-  - [[concept-yitang-research-scope]]
-  - （tool-yitang-research-checklist，待补）
-  - [[yt-research-osl-framework]]
-  - [[case-yitang-sanjieke-benchmark-failure]]
-  - （case-yitang-haidilao-service-research，待补）
-  - [[dk-yitang-research-starter-vs-veteran]]
-  - [[dk-yitang-research-ai-hallucination]]
-  - [[concept-yitang-research-mindset]]
+- [[framework-yitang-iterative-recursive-digging]]
+- [[yitang-research-domain-digest]]
+- [[tool-yitang-research-exhaust-means]]
+- [[tool-yitang-research-single-point-sniper]]
+- [[tool-yitang-research-follow-map]]
+- [[framework-yitang-oscar-research]]
+- [[framework-yitang-high-level-plan]]
+- [[concept-yitang-research-scope]]
+- [[yt-research-osl-framework]]
+- [[case-yitang-sanjieke-benchmark-failure]]
+- [[dk-yitang-research-starter-vs-veteran]]
+- [[dk-yitang-research-ai-hallucination]]
+- [[concept-yitang-research-mindset]]
+
 ---
+
 # 调研目标锁定：从"了解"到"决策"的认知跃迁
 
 > **一句话**：调研失效的70%根因是目标不清。"了解一下这个行业"不是目标，"判断是否进入XX行业，验证哪3个假设"才是目标。目标锁定是调研从"成本"变为"投资"的关键一跃。
