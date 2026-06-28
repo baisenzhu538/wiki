@@ -20,6 +20,7 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+updated_at: '2026-06-29'
 ---
 
 # 科学决策ROI·关键训练清单

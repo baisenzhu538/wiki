@@ -5,7 +5,7 @@ title: 裁判文书检索：从法律纠纷中挖掘商业情报
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
 confidence: 0.88
@@ -22,6 +22,7 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+updated_at: '2026-06-29'
 ---
 
 # 裁判文书检索

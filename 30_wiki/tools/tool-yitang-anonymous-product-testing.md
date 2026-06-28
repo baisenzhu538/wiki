@@ -5,7 +5,7 @@ title: 匿名产品体验：以真实用户身份盲测竞品
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
 confidence: 0.85
@@ -22,6 +22,7 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+updated_at: '2026-06-29'
 ---
 
 # 匿名产品体验

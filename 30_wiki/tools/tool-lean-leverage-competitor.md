@@ -5,7 +5,7 @@ title: 借同行产品：用竞品认知验证假设
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -22,6 +22,8 @@ related:
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 借同行产品：用竞品认知验证假设

@@ -5,7 +5,7 @@ title: 太复杂就砍功能
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -22,6 +22,8 @@ related:
   - [[strategy-domain-digest]]
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 太复杂就砍功能

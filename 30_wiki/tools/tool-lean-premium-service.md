@@ -22,6 +22,8 @@ related:
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 超值服务：用 VIP 服务验证标准服务

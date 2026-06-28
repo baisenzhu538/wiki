@@ -22,6 +22,8 @@ related:
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 借流量工具：用现有流量测试

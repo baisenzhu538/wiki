@@ -5,7 +5,7 @@ title: 产品内核十大典型指标
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -22,6 +22,8 @@ related:
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 产品内核十大典型指标
