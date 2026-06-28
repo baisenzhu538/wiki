@@ -4,16 +4,16 @@ type: production_task
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 王语嫣
-assignee: Hermes 老顽童
+assignee: Kimi 老顽童（实际完成）
 priority: P1
 scope: 渠道增长域 10 张 case 卡 section 标题标准化 + 1 张 dk 卡 section 结构调整
 related:
   - '[[task_20260628_wangyuyan-cleanup-channel-growth-residuals]]'
   - '[[review_20260628_ouyangfeng-channel-growth]]'
-status: queued
+status: pending_review
 ---
 
-# 老顽童生产任务：渠道增长域 10 张 case 卡 + 1 张 dk 卡 section 结构补齐
+# 老顽童生产任务：渠道增长域 10 张 case 卡 + 1 张 dk 卡 section 结构补齐（已完成，待欧阳锋抽检）
 
 > **来源**：`task_20260628_wangyuyan-cleanup-channel-growth-residuals` 中的 P1 部分。
 > 黄药师已完成 P2（dk 目录移动）+ P3（concept 目录移动），并顺手修了 3 张 case 卡（amazon / novel-app / topcity）。
@@ -164,7 +164,8 @@ Hermes 老顽童修复 10 张 case + 1 张 dk
 | 2026-06-28 | 欧阳锋渠道增长域终审发现 13 张 case + 1 张 dk section 未对齐 | 欧阳锋 |
 | 2026-06-28 | 黄药师完成 P2+P3 目录移动，并顺手修复 amazon/novel-app/topcity 3 张 case 卡 | 黄药师 |
 | 2026-06-28 | 王语嫣将剩余 P1 拆分为本任务单 | 王语嫣 |
-| 待填写 | Hermes 老顽童完成剩余 10 张 case + 1 张 dk section 标准化 | Hermes 老顽童 |
+| 2026-06-28 | Kimi 老顽童完成剩余 10 张 case + 1 张 dk section 标准化；8 个文件 `kdo pre-submit` 全通过 | Kimi 老顽童 |
+| 待填写 | 欧阳锋抽检 3-5 张 | 欧阳锋 |
 
 ---
 
