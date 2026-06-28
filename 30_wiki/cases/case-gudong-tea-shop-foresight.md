@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-gudong-tea-shop-foresight
 title: 古董奶茶店：五层筛选的加法减法实战
 type: case
@@ -37,7 +34,7 @@ pipeline:
 - src_unknown
 author: 老顽童
 trust_level: medium-high
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 related:
 - [[tool-按分阶练习路径渐进掌握方法]]
 - [[ocr-泛产品设计-落地卡片-假设拆解]]
@@ -45,7 +42,6 @@ related:
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
 ---
-
 # 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景
@@ -132,3 +128,10 @@ related:
 
 - src_unknown
 - src_unknown
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

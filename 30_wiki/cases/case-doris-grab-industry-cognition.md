@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-grab-industry-cognition
 title: 案例：Doris 7天从零建立行业认知
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[framework-doris-industry-report-4step]]
   - [[tool-doris-industry-report-search-tips]]
+updated_at: 2026-06-28
 ---
 # 案例：7天建立行业认知
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

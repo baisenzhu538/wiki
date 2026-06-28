@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-restaurant-hiring
 title: 案例：麦家小馆人才选拔——频次高估
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-demand-indonesia-insurance]]
   - [[dk-demand-pitfall-restaurant-hiring]]
   - [[tool-demand-assessment-triangle]]
+updated_at: 2026-06-28
 ---
 # 案例：麦家小馆人才选拔
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

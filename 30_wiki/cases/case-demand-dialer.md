@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-dialer
 title: 案例：小胖猴拨号器——需求到方案的跳跃
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-demand-indonesia-insurance]]
   - [[dk-demand-pitfall-dialer]]
   - [[framework-demand-iceberg]]
+updated_at: 2026-06-28
 ---
 # 案例：小胖猴拨号器
 
@@ -36,3 +36,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

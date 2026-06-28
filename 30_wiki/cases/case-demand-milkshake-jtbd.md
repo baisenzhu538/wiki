@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-milkshake-jtbd
 title: 案例：奶昔JTBD——经典的任务洞察
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-yitang-mahjong-machine-fake-order]]
   - [[case-popmart-prospectus-pricing]]
   - [[tool-demand-iceberg-l3-core-job]]
+updated_at: 2026-06-28
 ---
 # 案例：奶昔JTBD
 
@@ -35,3 +35,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-silver-parenting
 title: 案例：银发育儿——冰山模型的完整应用
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-demand-travel-agent]]
   - [[dk-modeling-logical-cleanliness-root]]
   - [[framework-demand-iceberg]]
+updated_at: 2026-06-28
 ---
 # 案例：银发育儿
 
@@ -35,3 +35,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

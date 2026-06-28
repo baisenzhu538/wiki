@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-2014-music-streaming-prediction
 title: 案例：2014年预判音乐流媒体趋势
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-hardware-factory-photo]]
   - [[case-doris-outbound-travel-community]]
   - [[framework-doris-industry-report-4step]]
+updated_at: 2026-06-28
 ---
 # 案例：预判音乐流媒体趋势
 
@@ -40,3 +40,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

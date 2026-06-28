@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-tier4-housekeeping
 title: 案例：四线家政创业——天花板误判
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-demand-indonesia-insurance]]
   - [[dk-demand-pitfall-tier4-housekeeping]]
   - [[framework-demand-opportunity-spectrum]]
+updated_at: 2026-06-28
 ---
 # 案例：四线家政创业
 
@@ -36,3 +36,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

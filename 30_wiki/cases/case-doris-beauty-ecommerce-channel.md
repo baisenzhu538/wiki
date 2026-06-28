@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-beauty-ecommerce-channel
 title: 案例：美妆行业渠道效率发现
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-doris-outbound-travel-community]]
   - [[framework-doris-industry-report-4step]]
   - [[tool-doris-industry-report-search-tips]]
+updated_at: 2026-06-28
 ---
 # 案例：美妆行业渠道效率发现
 
@@ -36,3 +36,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

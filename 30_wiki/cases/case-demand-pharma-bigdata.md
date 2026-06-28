@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-pharma-bigdata
 title: 案例：大数据私有化在创新药领域的切入——评估三角形实战
 type: case
@@ -24,6 +23,7 @@ related:
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-demand-assessment-triangle]]
   - [[framework-demand-usp-model]]
+updated_at: 2026-06-28
 ---
 # 案例：大数据私有化创新药
 
@@ -43,3 +43,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

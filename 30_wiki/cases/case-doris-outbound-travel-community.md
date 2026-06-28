@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-outbound-travel-community
 title: 案例：出境游产业链拆解
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-doris-2014-music-streaming-prediction]]
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[framework-doris-industry-report-4step]]
+updated_at: 2026-06-28
 ---
 # 案例：出境游产业链拆解
 
@@ -35,3 +35,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-ai-fitness-four-forces
 title: 案例：AI健身四力——四种力量的博弈分析
 type: case
@@ -23,6 +22,7 @@ related:
   - [[tool-demand-four-forces]]
   - [[case-popmart-prospectus-pricing]]
   - [[tool-demand-four-forces]]
+updated_at: 2026-06-28
 ---
 # 案例：AI健身四力分析
 
@@ -39,3 +39,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |

@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-equestrian-three-tasks
 title: 案例：马术三层任务——功能/情感/社交的完美展演
 type: case
@@ -23,6 +22,7 @@ related:
   - [[case-popmart-prospectus-pricing]]
   - [[case-yitang-beauty-device-overseas-sales]]
   - [[tool-demand-iceberg-l5-forces]]
+updated_at: 2026-06-28
 ---
 # 案例：马术三层任务
 
@@ -38,3 +38,10 @@ related:
 ---
 
 *卡片类型：case | 审核状态：待审*
+
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| src_unknown | src_unknown | src_unknown |
+| src_unknown | src_unknown | src_unknown |
