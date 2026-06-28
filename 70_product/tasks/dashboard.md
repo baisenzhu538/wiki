@@ -43,8 +43,8 @@ updated: 2026-06-28
 | task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | P1 | task_20260628_laowantong-case-section-standardization.md | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | master-7-cards-layer-and-boundary | Master 域 7 张卡规范化 | reviewed | 欧阳锋 | P1 | master-7-cards-layer-and-boundary.md | Hermes 老顽童完成规范化；欧阳锋终审通过：7/7 卡 `kdo pre-submit` + `kdo lint` 通过；审查中修复 20 个缺失 source_refs 为 pending_archive 占位 |
 | task_20260628_hermes-lint-baseline-cleanup-batch1 | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | pending_review | Hermes 老顽童 | P1 | task_20260628_hermes-lint-baseline-cleanup-batch1.md | Hermes 已完成：修复 784 文件 frontmatter 机械错误，frontmatter parse 类 ERROR 清零；`kdo lint` 从 690→890 是因为 frontmatter 修好后原被压制的卡片暴露更多 section/source_refs 错误；890 个内容级错误由 Batch 2-A/B/C 承接；Hermes 老顽童待命 |
-| task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | queued | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | 130 文件，补 `## 关键证据/可迁移场景/教训/失败模式`；含 Batch1 复查追加的 9 张 case 卡 |
-| task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | queued | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | 43 文件，补 dk 标准 6 section；含 Batch1 复查追加的部分 dk 卡 |
+| task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | pending_review | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | WorkBuddy 老顽童已完成：130/130 文件 `kdo pre-submit` 通过；2 张人工萃取 + 128 张机械标准化；待欧阳锋终审 |
+| task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | pending_review | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | WorkBuddy 老顽童已完成：43/43 文件 `kdo pre-submit` 通过；机械补齐 6 section + 修复 `[[src_unknown]]` 死链 19 处、`[[\'...\']]` 格式错误 2 处；待欧阳锋终审 |
 | task_20260628_huangyaoshi-lint-batch2-source-refs | lint Batch 2-C：source_refs 真实存在性清理 | queued | 黄药师 | P1 | task_20260628_huangyaoshi-lint-batch2-source-refs.md | 约 107 文件 / 176 错误；前置快速补丁：修改 lint 规则跳过 URL source_refs（-16 ERROR）；再处理合并写法、不存在文件、空 source_refs；含 Batch1 复查追加文件中的约 176 个 source_refs 错误 |
 | task_20260628_wangyuyan-wave6-blindspot-diagnosis | Wave 6 新盲区探索诊断 | queued | 王语嫣 | P2 | task_20260628_wangyuyan-wave6-blindspot-diagnosis.md | 基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
@@ -72,7 +72,7 @@ updated: 2026-06-28
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
-> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；`kdo lint` 890 ERROR 中，690 为修复后基线、200 为 frontmatter 修复后暴露的内容级错误。Batch 2 已拆分为 A/B/C 由 WorkBuddy 老顽童/黄药师承接；Hermes 老顽童待命。
+> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；Batch 2-A/B 已由 WorkBuddy 老顽童完成并提交欧阳锋终审（173/173 pre-submit 通过）；Batch 2-C 由黄药师继续推进；Wave 6 诊断由王语嫣推进。
 
 ---
 
