@@ -17,7 +17,7 @@ related:
   - [[tool-纪浩-Do-first-PDCA渐进迭代法]]
   - [[tool-纪浩-处理AI生成代码运行异常]]
   - [[tool-纪浩-Agent开工检查单制作法]]
-  - [['concept-ji-hao-ai-collaboration-methodology']]
+  - [[concept-ji-hao-ai-collaboration-methodology]]
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline:

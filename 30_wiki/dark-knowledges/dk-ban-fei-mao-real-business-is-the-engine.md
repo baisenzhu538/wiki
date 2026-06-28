@@ -16,8 +16,8 @@ related:
   - [[dk-ji-hao-ai-cant-design-structure]]
   - [[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]
   - [[dk-ban-fei-mao-silky-answer-warning]]
-  - [['case-ban-fei-mao-from-assignment-to-tool']]
-  - [['concept-半肥猫-ai-learning-toolification-methodology']]
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - [[concept-半肥猫-ai-learning-toolification-methodology]]
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline:
