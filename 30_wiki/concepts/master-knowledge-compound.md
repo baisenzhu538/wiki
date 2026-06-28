@@ -4,17 +4,17 @@ domain:
 id: master-knowledge-compound
 title: 知识复利：IPO+萃取+原子化复用
 type: concept
-status: enriched
+status: reviewed
 source_context: 一堂知识萃取探索营——知识复利与IPO萃取框架
 source_refs:
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - pending_archive:src_20260522_0af1f6dd-learning-thinking.md
 - pending_archive:src_20260510_14db4c2b-萃取总结.md
 created_at: '2026-05-18'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:

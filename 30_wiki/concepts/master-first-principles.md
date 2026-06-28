@@ -4,17 +4,17 @@ domain:
 id: master-first-principles
 title: 第一性原理
 type: tool
-status: enriched
+status: reviewed
 source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
 source_refs:
 - pending_archive:src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - pending_archive:src_20260522_0af1f6dd-learning-thinking.md
 created_at: 2026-05-18
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:

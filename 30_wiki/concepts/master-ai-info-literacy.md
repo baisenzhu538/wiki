@@ -4,17 +4,17 @@ domain:
 id: master-ai-info-literacy
 title: AI时代信息素养框架
 type: framework
-status: enriched
+status: reviewed
 source_context: 一堂科学决策课程——AI时代信息素养三层防护框架
 source_refs:
 - pending_archive:src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md
 - pending_archive:src_20260524_836ad51c-学会提问在信息洪流中锻造批判性思维的利刃.md
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
 created_at: 2026-05-18
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
