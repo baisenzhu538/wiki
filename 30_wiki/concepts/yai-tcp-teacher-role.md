@@ -14,6 +14,8 @@ related:
   - "[[刻意练习方法论]]"
   - "[[咨询对话框架]]"
   - "[[ai-consultation-mindset-shift]]"
+  - "[[deliberate-practice-four-elements]]"
+  - "[[yai-counsel-role]]"
 aliases:
   - "YAI TCPR"
   - "YAI 教师角色"

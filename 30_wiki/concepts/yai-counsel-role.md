@@ -14,6 +14,12 @@ related:
   - "[[yai-tcp-teacher-role]]"
   - "[[刻意练习方法论]]"
   - "[[ai-learning-closed-loop]]"
+  - "[[deliberate-practice-four-elements]]"
+  - "[[ai-tool-learning-curve]]"
+  - "[[four-questions-feedback]]"
+  - "[[completion-criteria-design]]"
+  - "[[challenge-point-design]]"
+  - "[[productization-judgment]]"
 aliases:
   - "YAI Counsel 角色"
   - "YAI C角色"
