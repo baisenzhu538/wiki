@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "王语嫣规划下一阶段（2026-06-29）：创建 A1/A2 任务单并入队；A1 由黄药师清理 8 个空 source_refs，A2 由 Hermes 老顽童补齐 132 张 case section；目标全库 lint ERROR 归零；Wave 6 已完成，B1/B2/B3 已完成"
+active_task: "A1/A2 lint 清理已审查：A1 空 source_refs 清零（reviewed），A2 case section 补全基线判断错误、132 section 缺失需另开任务；#25 AI 工具学习方法论扩展卡 queued 待老顽童领取"
 blockers:
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
@@ -9,7 +9,9 @@ blockers:
   - "✅ B3 孤岛卡片补链 reviewed（2026-06-28）：1042 张处理、孤岛卡片清零；2014 YAML引号修复 + 163 bare id加括号 + 119 句子删除 + 33张孤岛补真实wikilink + pending_unknown.md移到system/；lint 140 ERROR全为历史遗留无新增；pre-submit抽检5/5 PASS；55张仍全pending为已知限制"
   - "✅ Wave 6 诊断通过（2026-06-28）：欧阳锋终审确认决策科学域 14 reviewed + 需求分析域 10-20 reviewed，盲区识别合理；#21 决策科学域系统化、#22 需求分析域深化可入队生产；决策科学 index 改为升级现有 `decision-science-domain-digest` 而非新建"
   - "✅ Wave 6 生产完成（2026-06-28）：#21 Wave 6-A 决策科学域系统化 reviewed（升级 digest + 4 张新卡），#22 Wave 6-B 需求分析域深化 reviewed（5 张新卡）；10 张新卡无新增 lint ERROR；历史遗留 140 ERROR 为 8 空 source_refs + 132 case section 缺失"
-  - "🆕 A1/A2 任务单已入队（2026-06-29）：#23 A1 空 source_refs 清理（黄药师，8 文件），#24 A2 case section 缺失补全（Hermes 老顽童，132 文件）；两任务并行，目标全库 lint ERROR 归零"
+  - "✅ A1 空 source_refs 清理 reviewed（2026-06-29）：黄药师完成 8 文件修复，全部补为 pending_archive；`kdo lint` empty source_refs ERROR 清零；pre-submit 8/8 PASS"
+  - "🟡 A2 case section 缺失补全 reviewed（2026-06-29）：Hermes 老顽童完成 frontmatter 修复，但欧阳锋实测仍有 132 个 `Case card missing section` ERROR（33 文件），任务单基线判断错误；需另开任务处理 132 section 缺失"
+  - "🆕 #25 AI 工具学习方法论扩展卡已入队（2026-06-29）：用户要求把 YAI T/C 角色资料拆成原子概念卡；欧阳锋已创建 6 张核心卡，剩余 7 张扩展卡由老顽童补充"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -64,7 +66,7 @@ blockers:
   - "🆕 失忆恢复口令文件已创建：.agent/amnesia-recovery-one-liners.md；用户可用一句话让任何 Agent 快速进入状态，无需搜索数据库"
   - "🆕 用户明确长期原则（2026-06-28）：追求知识库深度、扩宽边界、无限追求健壮和发展、提高 Agent 咨询能力边界；若用户急功近利，Agent 应阻止并给正确建议。已写入 .agent/kb-evolution-direction.md 和 20_memory/operating-principles.md"
   - "🆕 wave1 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，18 张卡清单+审查标准+判定规则；`production-queue.md` 第 1 项来源文件已指向该任务单；`ouyangfeng-context.md` 已提醒欧阳锋 wave 类任务读专门审查任务单，不要读 `laowantong-batch-2026-06-20.md` 全文"
-next_session_hint: "下一步：① 欧阳锋按 `review_20260628_ouyangfeng-wave1.md` 审 wave1 18 张卡；② 老顽童继续 waves 2-5 / 渠道增长域生产；③ 黄药师继续kdo index/lint基建；④ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童领取 #25 扩展 AI 工具学习方法论概念卡任务；② 需另开任务处理 A2 遗留的 132 case section 缺失；③ 用户输入时间管理内容后，按同样流程拆卡并入队；④ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
