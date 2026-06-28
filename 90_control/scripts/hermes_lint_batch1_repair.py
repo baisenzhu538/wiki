@@ -58,18 +58,30 @@ def fix_no_closing_separator(text: str, path: str) -> str | None:
     fm, sep, body = split_frontmatter(text)
     if fm is None or sep:
         return None
-    # Find first body marker: # heading, blank then content, etc.
-    # Simple heuristic: insert --- before the first line that starts with #
+    # Find first body marker: # heading, or a line with # glued to frontmatter text.
     lines = text.splitlines()
     insert_idx = None
+    split_offset = 0
+    split_new_line = None
     for i, line in enumerate(lines):
         if i == 0 and line.strip() == "---":
             continue
         if line.startswith("#"):
             insert_idx = i
             break
+        # Body heading glued to frontmatter line (e.g. "key: value# Title").
+        m = re.search(r"(?<=.)(#\s+)", line)
+        if m:
+            insert_idx = i
+            split_offset = m.start()
+            split_new_line = line[m.end():].lstrip()
+            break
     if insert_idx is None:
         return None
+    if split_offset:
+        lines[insert_idx] = lines[insert_idx][:split_offset].rstrip()
+        lines.insert(insert_idx + 1, "# " + split_new_line)
+        insert_idx += 1
     new_lines = lines[:insert_idx] + ["---", ""] + lines[insert_idx:]
     return "\n".join(new_lines)
 
