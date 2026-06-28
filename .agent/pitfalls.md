@@ -425,14 +425,18 @@
 **根因**：
 1. 批量脚本的 `insert_after_author` 逻辑在 author 行后插入了空行
 2. 脚本不区分"空值需要补"和"已有值不能改"——直接覆盖了非空的 source_context
-3. 没有 dry-run 模式，没有 git diff 确认就提交
+3. 正则不限制作用域：`_fix_source_refs_final.py` 使用 `re.sub(r'^(\s*-\s+)(.+)$', ...)` 匹配了 frontmatter 中**所有** YAML 列表行（domain、related、tags、pipeline 等），不限于 source_refs
+4. 没有 dry-run 模式，没有 git diff 确认就提交
 
 **对策**：
 - 任何批量写操作前必须：① `--dry-run` 预览变更清单；② 对非空值只追加不覆盖；③ 写完后 `yaml.safe_load` 验证 frontmatter 可解析
 - 批量修改后必须 `git diff --stat` 确认变更范围在预期内
+- **正则必须限定作用域**：只匹配目标字段段落，或显式提取目标字段后替换，禁止用全局行匹配处理 frontmatter
 - 门禁脚本已加 `--dry-run` 模式
 
 **此次由王语嫣独立发现并修复**——Agent交叉审计再次验证有效。
+
+**2026-06-28 再次复现**：黄药师 `_fix_source_refs_final.py` 用 `^(\s*-\s+)(.+)$` 清理 source_refs，结果 domain/related/tags/pipeline/diagnostic_signals 等所有列表行被批量替换为 `src_unknown`，影响 327+ 文件。欧阳锋以 6/27 前基线 `9d8dfa27` 恢复后，全库 domain/related src_unknown 清零。
 
 ---
 

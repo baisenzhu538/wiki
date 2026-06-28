@@ -181,15 +181,9 @@ related:
 ```markdown
 ## 执行报告
 
-- 处理文件数：659
-- 修复类型分布：colon_in_scalar_list_item=336, body_leak_into_frontmatter=260, expected_colon=38, no_closing_separator=24, indent_or_list_error=1
-- 跑 `kdo lint` 后全库 ERROR：XXX（应 ≈128）
-- 残余未处理：128 个 unsafe 文件（见 hermes_lint_unsafe_batch.json）
-- 备注：...
-```
-
-## 关联文件
-
-- `90_control/.tmp/hermes_lint_safe_batch.json` — 本次要处理的 659 个文件及错误类型
-- `90_control/.tmp/hermes_lint_unsafe_batch.json` — 本次不处理的 128 个文件及原因
-- `60_feedback/auto/health-check-2026-06-27.md` — 原始健康巡检报告
+- 处理文件数：784（含首轮 659 + 复查追加 125）
+- 修复类型分布：colon_in_scalar_list_item 为主，body_leak_into_frontmatter、expected_colon、no_closing_separator、indent_or_list_error 少量
+- 修复方式：使用 `90_control/scripts/hermes_lint_batch1_repair.py` 机械修复 + 人工复查追加的 125 个同类错误
+- 跑 `kdo lint` 后全库 ERROR：890（frontmatter parse 类 ERROR 已清零；剩余均为内容/section/source_refs/URL 类错误）
+- 残余未处理：原 unsafe batch 中 0 个机械错误；其余 890 个 ERROR 为内容补全/section 标准/source_refs 真实存在性，需后续任务处理
+- 备注：修复过程中未改动正文，仅调整 frontmatter；`src_unknown` 占位保留未补内容
