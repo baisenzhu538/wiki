@@ -24,7 +24,8 @@ related:
   - [[ocr-screenshot1]]
   - [[ocr-微信图片_20260507004804_39_32]]
   - [[ocr-一堂-地图-创业地图_conv]]
----# Design / Ai Image Generation
+---
+# Design / Ai Image Generation
 
 ## Summary
 

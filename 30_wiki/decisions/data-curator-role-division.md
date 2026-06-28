@@ -34,7 +34,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# Data Curator Skill — 五角色分工方案
+---
+# Data Curator Skill — 五角色分工方案
 
 ## 分工逻辑
 

@@ -32,7 +32,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low# 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断
----> 汇总人：黄药师
+---
+> 汇总人：黄药师
 > 审查人：用户（决策者）、欧阳锋（Architect）
 > 前置阅读：本文件是三份调研 + 一份独立判断的最终合并。阅读本文件即可，不需要回溯其余四份。
 

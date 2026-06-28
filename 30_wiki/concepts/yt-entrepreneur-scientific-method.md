@@ -27,7 +27,8 @@ source_refs:
 - src_20260614_faa8021d-Y模型探索营-第二节课
 source_refs:
   - pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
----# Y模型/科学方法
+---
+# Y模型/科学方法
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

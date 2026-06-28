@@ -57,7 +57,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# AI 能力（双模型）
+---
+# AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

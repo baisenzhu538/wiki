@@ -51,7 +51,8 @@ diagnostic_signals:
   follow_up: 建立红色要素审查机制，每次迭代检查是否有红色复活
 - lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
----# 一堂产品内核画布应用技能
+---
+# 一堂产品内核画布应用技能
 
 ## 原始表述
 
@@ -181,21 +182,18 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 跨学科锚点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 - src_unknown

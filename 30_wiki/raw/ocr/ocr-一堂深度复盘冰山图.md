@@ -83,14 +83,12 @@ Karl Weick 在《组织文化与意义构建》中提出：复盘的本质不是
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "五层复盘冰山图：从OCR误序到认知校准——一堂方法论的结构化勘误与深度解析" — 结合OCR原文与提取知识的顺序矛盾，逐层验证五层递进结构的正确逻辑，产出可复用的知识提取校验框架>

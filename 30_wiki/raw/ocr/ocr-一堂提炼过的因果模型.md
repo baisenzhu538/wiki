@@ -20,7 +20,8 @@ related:
   - [[concept-一堂-key-assumptions]]
   - [[ocr-一堂五步法画布]]
   - [[ocr-一堂深度复盘冰山图]]
----# OCR: 一堂提炼过的因果模型
+---
+# OCR: 一堂提炼过的因果模型
 
 ## Summary
 
@@ -81,14 +82,12 @@ Nassim Taleb 在《反脆脆》中证明：复杂系统中的因果关系是非�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "一堂因果模型体系解构报告" — 对OCR提取的18个因果模型进行形式化分析，逐一验证因→果的逻辑完备性、维度正交性、操作边界与权重缺失，输出结构化批判框架供方法论课程迭代参考>

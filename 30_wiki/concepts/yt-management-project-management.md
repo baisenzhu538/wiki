@@ -166,15 +166,14 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 科学项目管理在一堂管理知识树中的位置：
@@ -195,8 +194,8 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

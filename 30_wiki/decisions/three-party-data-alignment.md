@@ -27,7 +27,8 @@ related:
   - [[dk-modeling-ai-judgment-limit]]
   - [[data-curator-role-division]]
   - [[ouyangfeng-data-alignment-response]]
----# 三方认知对齐：KDO 数据管线 6+1 框架
+---
+# 三方认知对齐：KDO 数据管线 6+1 框架
 
 ## 为什么需要这份文档
 

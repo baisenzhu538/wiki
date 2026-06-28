@@ -62,7 +62,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-十倍速验证
 status: superseded
----# 十倍速验证：训练用1块钱学到1000块钱的认知
+---
+# 十倍速验证：训练用1块钱学到1000块钱的认知
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

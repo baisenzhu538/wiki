@@ -24,7 +24,8 @@ source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
----# 预判模型分类
+---
+# 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

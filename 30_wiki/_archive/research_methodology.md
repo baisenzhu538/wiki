@@ -76,14 +76,12 @@ source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/s
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Open Questions
 
 - src_unknown

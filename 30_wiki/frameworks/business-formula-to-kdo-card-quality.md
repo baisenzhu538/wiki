@@ -47,7 +47,8 @@ diagnostic_signals:
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
 
----# 业务公式 ABC → KDO 卡片质量
+---
+# 业务公式 ABC → KDO 卡片质量
 
 > **Burn line**: GMV = 线索×转化×客单价×复购 拆太粗 = 亏损。卡片质量 = id+title+type 凑齐 = 看着完整但用不了。
 

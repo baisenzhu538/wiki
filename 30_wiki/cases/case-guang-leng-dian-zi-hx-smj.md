@@ -39,7 +39,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----# 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
+---
+# 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 
 ## 一句话摘要
 

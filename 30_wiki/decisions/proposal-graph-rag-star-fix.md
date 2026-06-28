@@ -23,7 +23,8 @@ related:
   - [[sprint-2-gate-enrich-evidence]]
   - [[graph-rag-retrieval-layer]]
   - [[graph-rag]]
----# Graph RAG 放射状图谱修复提案
+---
+# Graph RAG 放射状图谱修复提案
 
 ## 问题
 

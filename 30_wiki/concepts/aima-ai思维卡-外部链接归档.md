@@ -22,7 +22,8 @@ related:
   - [[ocr-ocr_screenshot2]]
   - [[ocr-一堂-地图-创业地图_conv]]
   - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
----# AIMA AI思维卡 — 外部链接归档
+---
+# AIMA AI思维卡 — 外部链接归档
 
 ## Summary
 

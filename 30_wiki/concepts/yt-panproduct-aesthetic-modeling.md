@@ -67,7 +67,8 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
----# 最佳实践建模：用评价维度打磨产品
+---
+# 最佳实践建模：用评价维度打磨产品
 
 > 审美工具箱第 3 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-pool]] | [[一堂]]
 

@@ -29,7 +29,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 欧阳锋对齐回应：6+1 框架理解 + 补充意见
+---
+# 欧阳锋对齐回应：6+1 框架理解 + 补充意见
 
 > 阅读前提：已读黄药师的 `three-party-data-alignment.md`（三方对齐文档）和 `plan_20260531_data-curator-v1.3.md`（完整方案）。
 > 本文档是我读完后的独立判断——先各写各的，再讨论差异。

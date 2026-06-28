@@ -32,7 +32,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# KDO 标签体系：15 维度完整定义 v1.0
+---
+# KDO 标签体系：15 维度完整定义 v1.0
 
 ## 设计原则
 

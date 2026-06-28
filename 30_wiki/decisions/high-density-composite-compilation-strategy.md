@@ -18,7 +18,8 @@ trust_level: medium
 updated_at: '2026-06-16'
 related:
   - [[tool-osint-maltego]]
----# 高密度素材编译策略 v2.0
+---
+# 高密度素材编译策略 v2.0
 
 > 欧阳锋制定。v1.0 提出的"复合编译"方案已被废弃——该方案按人类线性阅读优化，不适用于 agent 的 RAG 检索模式。v2.0 改用细粒度知识卡 + 导航层架构。
 
@@ -146,9 +147,8 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 ### 阶段三：验证
 
 每张 Hub Page 产出后：
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## 执行规范（更新）
 
 1. **细粒度优先**：每张知识地图一张卡，不合并。Hub Page 只做导航不做内容搬运

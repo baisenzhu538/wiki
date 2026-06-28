@@ -81,14 +81,12 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: 深度复盘五层模型操作手册——针对泛产品设计的结构化复盘模板与跃迁检查清单，整合OCR提取的冰山图方法论与一堂课程框架

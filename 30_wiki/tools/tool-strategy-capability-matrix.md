@@ -12,7 +12,8 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 related:
   - [[framework-strategy-five-basics]]
----**四象限**：
+---
+**四象限**：
 - src_unknown
 - src_unknown
 - src_unknown

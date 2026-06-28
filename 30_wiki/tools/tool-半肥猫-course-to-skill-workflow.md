@@ -228,20 +228,17 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 跨学科锚点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Action Framework
 
 **启用条件**：你有一门结构化的课程/方法论，有明确的使用场景，且获得了授权。

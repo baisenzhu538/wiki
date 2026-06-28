@@ -26,7 +26,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 标签方案 + 暗知识全量范围
+---
+# 标签方案 + 暗知识全量范围
 
 ## 一、标签架构
 

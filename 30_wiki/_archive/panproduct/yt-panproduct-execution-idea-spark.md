@@ -63,7 +63,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-灵感闪现
 status: superseded
----# 灵感闪现：如何激发大量idea
+---
+# 灵感闪现：如何激发大量idea
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

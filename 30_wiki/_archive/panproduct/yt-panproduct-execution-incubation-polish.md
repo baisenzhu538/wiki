@@ -64,7 +64,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-酝酿式打磨
 status: superseded
----# 酝酿式打磨：科学式的灵感管理
+---
+# 酝酿式打磨：科学式的灵感管理
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

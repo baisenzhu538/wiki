@@ -40,7 +40,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----# 案例：创业本质 = 小概率游戏
+---
+# 案例：创业本质 = 小概率游戏
 
 > **Burn line**: 当你把创业理解成“小概率游戏”，所有关键假设、MVP、留后路的动作都会自然推导出来。
 

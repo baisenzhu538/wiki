@@ -64,7 +64,8 @@ trust_level: medium
 
 superseded_by: framework-一堂五步法-泛产品设计
 status: superseded
----# 一堂五步法：善于分析商业成败假设
+---
+# 一堂五步法：善于分析商业成败假设
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[一堂]]
 

@@ -141,12 +141,11 @@ updated_at: 2026-06-28
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## 教训
 
 - src_unknown（待补充：什么时候应该学这个案例（正面））

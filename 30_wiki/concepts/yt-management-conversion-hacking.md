@@ -37,7 +37,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 转化率黑客
+---
+# 转化率黑客
 
 > 来源：一堂管理必修课「管业务」模块，共5节系列课（认知篇/动力实操/阻力实操/触点实操/组合落地）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -184,14 +185,13 @@ Sutherland 的核心案例：英国电信运营商在宽带广告中强调"18 �
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 转化率黑客在一堂管理知识树中的位置：
@@ -215,6 +215,6 @@ Sutherland 的核心案例：英国电信运营商在宽带广告中强调"18 �
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

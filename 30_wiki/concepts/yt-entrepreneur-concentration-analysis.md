@@ -28,7 +28,8 @@ source_refs:
 - src_20260522_9d98d526-business-analysis
 source_refs:
   - pending_archive:src_20260522_9d98d526-business-analysis
----# 集中度分析
+---
+# 集中度分析
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -20,5 +20,6 @@ related:
   - [[yt-business-model-partnership]]
   - [[tool-strategy-map]]
   - [[framework-strategy-business-design]]
----**输出**：七要素填完后的业务设计概要 + 多业务单元的设计对比 + 关键任务卡片
+---
+**输出**：七要素填完后的业务设计概要 + 多业务单元的设计对比 + 关键任务卡片
 **模板结构**：一句话业务定义→客户→价值主张→盈利模式→活动边界→控制点→风险→下一步行动

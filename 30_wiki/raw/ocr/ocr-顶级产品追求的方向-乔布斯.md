@@ -80,14 +80,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "从乔布斯'品味'到一堂'人生红点'：顶级产品人的认知修炼路径" — 将乔布斯关于品味、接触人类最好事物的论述与一堂个人修炼地图（IPO科学学习、刻意练习、人生红点）交叉分析，探讨产品审美判断力是否可通过系统性方法论培养>

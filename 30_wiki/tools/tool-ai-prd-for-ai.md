@@ -21,7 +21,8 @@ related:
   - [[tool-ai-system-redundancy]]
   - [[tool-ai-voice-input-doubao]]
   - [[tool-ai-old-small-checklist]]
----# 技能：把PRD写成AI能执行的指令
+---
+# 技能：把PRD写成AI能执行的指令
 
 ## 原始表述
 

@@ -54,7 +54,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
----# 泛产品设计实操篇：需求分析与用户洞察
+---
+# 泛产品设计实操篇：需求分析与用户洞察
 
 > 来源：一堂泛产品设计实操第一课·需求篇口述（Truman）。[[yt-model-pan-product-demand-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 
@@ -178,14 +179,13 @@ JTBD 方法论在全球产品管理领域的接受度极高，但其成功案例
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 泛产品设计实操篇是个人域泛产品设计方法论簇中的"需求层"课程。
 
-- [[pending_unknown]]
+- 待补充链接

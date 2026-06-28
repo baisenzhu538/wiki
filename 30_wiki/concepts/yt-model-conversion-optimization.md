@@ -49,7 +49,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----# 转化率优化：动力三曲线 × 十大浪费触点
+---
+# 转化率优化：动力三曲线 × 十大浪费触点
 
 > 来源：一堂知识地图《最佳转化率·动力三曲线》+《10大最易浪费触点》。[[yt-management-conversion-hacking]] | [[yt-entrepreneur-growth-flywheel]] | [[一堂]]
 

@@ -83,14 +83,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "审美层级模型与一堂个人修炼地图的跨域映射" — 将OCR提取的六层审美进阶框架（基础→天花板）与一堂"顶天立地模型"（时间管理下限/人生红点上限）进行结构对齐，识别"从实事求是到解放思想"与IPO科学学习、刻意练习、复盘等方法论的接口，输出领域迁移可行性评估>

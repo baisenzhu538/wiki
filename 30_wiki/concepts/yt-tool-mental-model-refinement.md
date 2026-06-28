@@ -61,7 +61,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----## Summary
+---
+## Summary
 
 > **一句话**：90% 的管理者不是缺经验，是缺「把经验压成模型」的刻意练习——模型提炼能力才是团队一号位的真正护城河。
 
@@ -188,18 +189,16 @@ trust_level: medium-high
 
 ### Wikilinks
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### Contradictions
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Feedback
 
 ### 摩擦记录

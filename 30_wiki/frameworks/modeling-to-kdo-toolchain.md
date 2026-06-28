@@ -48,7 +48,8 @@ diagnostic_signals:
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
 
----# 建模三段论 → KDO 工具链映射
+---
+# 建模三段论 → KDO 工具链映射
 
 > **Burn line**: 建模不是抽象概念——每个阶段都有对应的 KDO 命令和检查项。
 

@@ -23,7 +23,8 @@ source_refs:
 - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
----# 深度复盘冰山图：从主观感受到能力建设的五层穿透
+---
+# 深度复盘冰山图：从主观感受到能力建设的五层穿透
 
 > 来源：一堂知识地图《深度复盘冰山图》。[[yt-personal-deep-review]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

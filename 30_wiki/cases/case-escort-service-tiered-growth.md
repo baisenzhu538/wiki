@@ -42,7 +42,8 @@ related:
   - [[yt-foresight-ab-steady-state]]
   - [[case-ai-time-management-tiered-growth]]
   - [[yt-foresight-business-spectrum]]
----# 案例：陪诊业务七级演进
+---
+# 案例：陪诊业务七级演进
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

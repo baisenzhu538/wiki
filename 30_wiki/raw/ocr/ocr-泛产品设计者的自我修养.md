@@ -79,14 +79,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "泛产品设计者修养框架的批判性应用指南" — 结合一堂方法论体系，将"用户价值—最佳实践—无限进步"三条原则与四张地图（个人/管理/创业/无限修炼）交叉映射，提供优先级冲突决策树与领域适配检查清单>

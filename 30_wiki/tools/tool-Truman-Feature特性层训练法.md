@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-提示词优化底层方法]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：Feature特性层训练法
+---
+# 技能：Feature特性层训练法
 
 ## 原始表述
 

@@ -64,7 +64,8 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
----# 行业分析画布：分析行业赛道的变化和机会
+---
+# 行业分析画布：分析行业赛道的变化和机会
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

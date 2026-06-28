@@ -83,14 +83,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "一堂刻意练习指数深度解读——从OCR碎片到可执行成长系统" — 结合一堂方法论体系总图中的"科学成长（刻意练习）"课程（406），将OCR提取的五大要素与"1+4要素模型"交叉验证，澄清"固定套路"与"低端重复"的边界，并回答Open Questions中的视觉结构疑问>

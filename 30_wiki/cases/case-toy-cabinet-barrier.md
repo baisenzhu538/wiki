@@ -42,7 +42,8 @@ related:
   - [[case-zhihu-vs-degetao-network-effect]]
   - [[yt-barrier-analysis-cheat-sheet]]
   - [[yt-scale-economy-weapon-library]]
----# 案例：线下玩具柜的壁垒困局与突围路径
+---
+# 案例：线下玩具柜的壁垒困局与突围路径
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[case-toy-cabinet-business-model]] | [[yt-unit-model-three-tools]]
 

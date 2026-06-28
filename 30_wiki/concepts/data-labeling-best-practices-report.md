@@ -25,7 +25,8 @@ related:
   - [[labeling-research-alignment]]
   - [[ouyangfeng-labeling-research-review]]
   - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
----# 数据标注最佳实践调研报告
+---
+# 数据标注最佳实践调研报告
 
 > 调研目的：为 KDO 的标签体系设计提供行业基准。回答四个问题——标签应该怎么设计？AI 自动标注怎么做？质量怎么控？KDO 当前方案跟行业最佳实践有多大差距？
 

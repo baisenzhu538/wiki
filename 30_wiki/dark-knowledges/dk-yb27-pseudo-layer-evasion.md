@@ -33,7 +33,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----# 伪图层叠加规避平台图像识别
+---
+# 伪图层叠加规避平台图像识别
 
 ## 原始表述/核心洞察
 

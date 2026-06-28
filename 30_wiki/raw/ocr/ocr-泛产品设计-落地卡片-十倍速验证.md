@@ -83,14 +83,12 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "十倍速验证决策手册——从假设到全量投入的四阶段退出标准与反脆弱机制">

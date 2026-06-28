@@ -59,7 +59,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----## Summary
+---
+## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。
 
@@ -189,16 +190,14 @@ trust_level: medium-high
 
 ### Wikilinks
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### Contradictions
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Feedback
 
 ### 摩擦记录

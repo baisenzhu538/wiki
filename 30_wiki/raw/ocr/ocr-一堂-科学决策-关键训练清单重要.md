@@ -80,25 +80,18 @@ Meehl 在《临床与统计预测》中证实，简单的统计规则在预测�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
-
-
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
-
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Action Triggers
 
 - src_unknown

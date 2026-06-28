@@ -27,7 +27,8 @@ source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
----# 融资认知
+---
+# 融资认知
 
 > 来源：一堂课程体系 | 阶段：增长阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

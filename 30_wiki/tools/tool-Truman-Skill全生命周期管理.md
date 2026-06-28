@@ -21,7 +21,8 @@ related:
   - [[tool-马易-隐性知识萃取与模型化]]
   - [[tool-Truman-Feature特性层训练法]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：Skill全生命周期管理
+---
+# 技能：Skill全生命周期管理
 
 ## 原始表述
 

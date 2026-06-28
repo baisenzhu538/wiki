@@ -154,10 +154,9 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 - src_unknown

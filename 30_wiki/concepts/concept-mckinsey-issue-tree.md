@@ -44,7 +44,8 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 
----# Issue Tree：问题树拆解
+---
+# Issue Tree：问题树拆解
 
 ## 核心定义
 

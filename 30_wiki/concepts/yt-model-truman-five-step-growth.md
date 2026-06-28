@@ -24,7 +24,8 @@ source_refs:
 - src_20260522_074c72ae-ocr-truman的个人成长五步法
 source_refs:
   - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
----# Truman的个人成长五步法：用一页纸解释全部人生规划
+---
+# Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]
 

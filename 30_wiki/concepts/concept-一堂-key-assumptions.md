@@ -37,7 +37,8 @@ pipeline:
 author: 黄药师
 confidence: 0.7
 trust_level: medium# 关键假设思维：259工具与假设驱动的创业方法
----> 黄药师骨架 · 老顽童填内容
+---
+> 黄药师骨架 · 老顽童填内容
 
 ## 定义
 

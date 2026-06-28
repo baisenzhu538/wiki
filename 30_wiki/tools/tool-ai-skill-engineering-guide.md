@@ -47,7 +47,8 @@ diagnostic_signals:
   follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
 - framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把"好 skill"的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
----# 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
+---
+# 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 
 > 来源：一堂建模能力培训（Truman）口述稿 | 背景：为封装高质量 AI skill，Truman 用约 3 小时、10-15 轮迭代，产出一套包含 7 个复杂度范式、四层架构、10 条 To Do/Not To Do、P0/P1/P2 分级的工程指南，并用友商报告交叉验证达到 S 级水准。
 
@@ -187,13 +188,12 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 
 ### 与本库其他卡片的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ---
 
 ## Action Triggers

@@ -22,7 +22,8 @@ related:
   - [[dk-f4-wrong-workdir]]
   - [[dk-f3-state-json-race-condition]]
   - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
----# Knowledge Delivery OS 快速体验指南
+---
+# Knowledge Delivery OS 快速体验指南
 
 > **定位**：KDO 是一个本地优先的产品，用于将知识转化为可交付资产。不是笔记应用——是基于仓库的工作空间 + CLI，将输入编译为可重用知识，生成三类产出：内容、代码、能力。
 
@@ -62,17 +63,14 @@ related:
 ## Synthesis
 
 ### 关联概念
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 互补与冲突
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
-- [[pending_unknown]]
-
+- 待补充链接
 ---
 
 ### 不要用的场景

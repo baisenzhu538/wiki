@@ -34,7 +34,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----# 案例：教育本质与战略本质的提炼
+---
+# 案例：教育本质与战略本质的提炼
 
 ## 用一句话讲清楚
 

@@ -23,7 +23,8 @@ related:
   - [[sprint-2-gate-enrich-evidence]]
   - [[graph-rag-retrieval-layer]]
   - [[proposal-kdo-flywheel-infrastructure]]
----# kdo watch 定时巡检层技术说明
+---
+# kdo watch 定时巡检层技术说明
 
 > kdo watch 已解决了"新素材进来自动走流水线"的问题。
 > 本文件定义缺失的那一半——已有知识库的健康状态持续监控。

@@ -27,7 +27,8 @@ source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
----# 业务增长
+---
+# 业务增长
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

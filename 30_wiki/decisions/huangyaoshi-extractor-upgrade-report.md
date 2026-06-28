@@ -25,7 +25,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 暗知识萃取器 B+→A 升级报告
+---
+# 暗知识萃取器 B+→A 升级报告
 
 ## B+ 版本的问题（自我诊断）
 

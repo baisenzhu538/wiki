@@ -64,7 +64,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-努力仿真
 status: superseded
----# 努力仿真：在真实场景做真东西
+---
+# 努力仿真：在真实场景做真东西
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

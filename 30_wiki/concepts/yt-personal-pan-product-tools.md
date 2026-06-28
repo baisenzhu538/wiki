@@ -56,7 +56,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
----# 泛产品设计工具篇：出牌教学法与30张卡牌
+---
+# 泛产品设计工具篇：出牌教学法与30张卡牌
 
 > 来源：一堂泛产品设计框架篇口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 
@@ -180,14 +181,13 @@ Schön 的核心概念**"行动中反思"（reflection-in-action）**——从�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 泛产品设计工具篇是个人域泛产品设计方法论簇中的"工具层"课程。
 
-- [[pending_unknown]]
+- 待补充链接

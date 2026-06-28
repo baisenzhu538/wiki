@@ -35,7 +35,8 @@ related:
   - src_unknown
   - src_unknown
 
----# Y模型/科学决策
+---
+# Y模型/科学决策
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（审美篇/宽度篇/深度篇/高度篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -179,15 +180,14 @@ Y模型的四维度分析需要相对冷静的决策环境——有时间做选�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 科学决策（Y模型）在一堂管理知识树中的位置：
@@ -210,6 +210,6 @@ Y模型的四维度分析需要相对冷静的决策环境——有时间做选�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

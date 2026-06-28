@@ -23,7 +23,8 @@ source_refs:
 - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 source_refs:
   - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
----# 提问刻意练习提升画布 (By YITANG)
+---
+# 提问刻意练习提升画布 (By YITANG)
 
 > 来源：一堂《提问刻意练习提升画布》。[[一堂]] | [[yt-model-scientific-questioning-map]] | [[yt-personal-deliberate-practice]]
 

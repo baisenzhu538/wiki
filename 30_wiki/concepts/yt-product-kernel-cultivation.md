@@ -56,7 +56,8 @@ related:
 - [[yt-product-ten-metrics]]
 - [[yt-demand-analysis-hiking-map]]
 - [[yt-model-product-core-metrics]]
----# 产品内核修炼段位图
+---
+# 产品内核修炼段位图
 
 > 来源：一堂五步法·解决方案篇 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md`（洪七公 OCR 整合） | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]
 

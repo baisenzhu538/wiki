@@ -28,7 +28,8 @@ related:
   - [[tool-yitang-pc-web-data]]
   - [[七件事集团]]
   - [[yt-personal-scientific-expression]]
----# 私域 SaaS 销售四步法
+---
+# 私域 SaaS 销售四步法
 
 > 从七件事集团招商录音中提取的标准销售流程，可复用于分析同类私域/SaaS 公司的销售漏斗设计：先顶层设计，再模式设计，然后系统搭建，最后招商落地。
 

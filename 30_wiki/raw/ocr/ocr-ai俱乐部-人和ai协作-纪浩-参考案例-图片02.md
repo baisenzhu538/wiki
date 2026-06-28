@@ -22,7 +22,8 @@ related:
   - [[case-jh-yitang-vs-sqlhelper]]
   - [[case-ji-hao-ai-workspace-chaos]]
   - [[concept-纪浩-ai-collaboration-five-layer]]
----# OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02
+---
+# OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02
 
 ## Summary
 

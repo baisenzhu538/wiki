@@ -28,7 +28,8 @@ source_refs:
 - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 source_refs:
   - pending_archive:src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
----# 泛产品设计
+---
+# 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

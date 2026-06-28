@@ -22,7 +22,8 @@ related:
   - [[dk-skill-market-agent-self-install]]
   - [[tool-yitang-web-scraping-research]]
   - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
----# TinyFish — Agentic Web 基础设施建设层 Skill
+---
+# TinyFish — Agentic Web 基础设施建设层 Skill
 
 > $47M Series A (led by ICONIQ)，为 AI Agent 提供 Search/Fetch/Browser/Agent 一体化 Web 操作基础设施。
 
@@ -124,11 +125,10 @@ tinyfish browser session create --url "https://example.com"
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### Skill 类型体系（至此形成三个品类）
 
 | 类型 | Skill | 特征 | 安装方式 |
@@ -139,10 +139,9 @@ tinyfish browser session create --url "https://example.com"
 
 ### 可迁移到 KDO 的改进
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

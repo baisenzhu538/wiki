@@ -28,7 +28,8 @@ source_refs:
 - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
----# 科学成长（刻意练习）
+---
+# 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

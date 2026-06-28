@@ -74,7 +74,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-低成本测试MVP
 status: superseded
----# 低成本测试MVP：用实验思维10倍速验证假设
+---
+# 低成本测试MVP：用实验思维10倍速验证假设
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

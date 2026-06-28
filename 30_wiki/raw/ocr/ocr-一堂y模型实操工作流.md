@@ -83,14 +83,12 @@ Henry Mintzberg 在《战略进程的具体结构》中对比了"计划战略"�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "Y模型五步工作流实战手册" — 将一堂Y模型与KDO知识管理结合，针对OCR提取的创业方法论结构化落地，包含边界限定工具、1+N维度目标拆解模板、3-5模块认知聚焦检查表、四阶迭代进化路径图、组织配套四要素配置指南>

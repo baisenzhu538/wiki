@@ -22,7 +22,8 @@ related:
   - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
   - [[ocr-一堂-单元模型-象限分析法]]
   - [[yt-note-three-level-evolution]]
----# OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01
+---
+# OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01
 
 ## Summary
 

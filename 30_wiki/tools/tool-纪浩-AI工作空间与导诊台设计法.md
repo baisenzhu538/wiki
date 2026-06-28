@@ -49,7 +49,8 @@ diagnostic_signals:
   follow_up: 遵守渐进式披露原则，每次对话只绕一个任务展开，按'导诊台→工作手册→经验库→领域知识'递进
 - lens: 结构膨胀
   follow_up: 定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简
----# 技能：AI工作空间与导诊台设计法
+---
+# 技能：AI工作空间与导诊台设计法
 
 ## 原始表述
 
@@ -164,10 +165,9 @@ AI是模式匹配系统，不会自己创造结构。当上下文环境稳定、
 
 ### 关联说明
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 - src_unknown

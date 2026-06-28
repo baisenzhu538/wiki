@@ -31,7 +31,8 @@ author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
----# 案例：一堂转化率黑客课→Skill
+---
+# 案例：一堂转化率黑客课→Skill
 
 ## 一句话摘要
 

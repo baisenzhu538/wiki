@@ -21,7 +21,8 @@ related:
   - [[tool-ai-voice-input-doubao]]
   - [[tool-ai-prd-for-ai]]
   - [[sk-ai-evidence-check]]
----# 技能：AI输出证据核查三问法
+---
+# 技能：AI输出证据核查三问法
 
 ## 原始表述
 

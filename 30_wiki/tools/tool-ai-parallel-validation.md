@@ -21,7 +21,8 @@ related:
   - [[tool-ai-evidence-check]]
   - [[tool-ai-ai-workspace-setup]]
   - [[tool-ai-old-small-checklist]]
----# 技能：平行运行验证法
+---
+# 技能：平行运行验证法
 
 ## 原始表述
 

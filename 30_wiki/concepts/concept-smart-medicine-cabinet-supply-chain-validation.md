@@ -25,7 +25,8 @@ related:
 - [[case-toc-ecommerce-formula-misjudgment]]
 - [[dk-ef-003-hand-soldering-bom-divergence]]
 - [[yt-lean-assumption-prioritization]]
----- [[yt-lean-beauty-store-conversion]]
+---
+- [[yt-lean-beauty-store-conversion]]
 
 # 智能药柜供应链/技术交叉验证（知识卡草稿）
 

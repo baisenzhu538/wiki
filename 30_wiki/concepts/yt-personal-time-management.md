@@ -28,7 +28,8 @@ source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
----# 时间管理
+---
+# 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

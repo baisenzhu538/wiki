@@ -84,14 +84,12 @@ Herbert Simon 会质疑：**截图中的碎片化信息是否足以支撑系统�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "KimiCodeAPI Multi-Protocol Integration Guide" — a configuration reference bridging OpenAI-compatible and Anthropic-compatible endpoints for ClaudeCode, Trae, and similar tools, covering BaseURL vs full endpoint selection, universal model ID usage, and API key lifecycle management>

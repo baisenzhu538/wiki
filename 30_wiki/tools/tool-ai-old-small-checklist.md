@@ -21,7 +21,8 @@ related:
   - [[tool-ai-system-redundancy]]
   - [[sk-ai-old-small-checklist]]
   - [[tool-ai-prd-for-ai]]
----# 技能：“找老的干小的”场景评估清单
+---
+# 技能：“找老的干小的”场景评估清单
 
 ## 原始表述
 

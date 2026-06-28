@@ -22,7 +22,8 @@ related:
   - [[保达云诊所深度调研报告]]
   - [[EC工业化规范手册]]
   - [[HIS系统深度调研]]
----# 开源HIS系统代码深度分析报告
+---
+# 开源HIS系统代码深度分析报告
 
 ## Summary
 
@@ -77,13 +78,11 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-
+- 待补充链接
 ## Open Questions
 
 - src_unknown

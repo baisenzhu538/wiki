@@ -36,7 +36,8 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
----# 技能：用 YAML 格式做知识库原子化标签
+---
+# 技能：用 YAML 格式做知识库原子化标签
 
 ## 用一句话讲清楚
 

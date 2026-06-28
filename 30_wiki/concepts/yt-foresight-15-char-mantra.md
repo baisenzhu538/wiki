@@ -54,7 +54,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 十五字黄金法诀：机会预判的核心框架
+---
+# 十五字黄金法诀：机会预判的核心框架
 
 ## Core Claims
 
@@ -110,20 +111,18 @@ related:
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 冲突与互补
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接

@@ -51,7 +51,8 @@ related:
 - [[case-toy-cabinet-business-model]]
 - [[yt-product-ten-metrics]]
 - [[yt-scale-economy-weapon-library]]
----# 增长周期模型
+---
+# 增长周期模型
 
 > 来源：一堂五步法·增长篇 | [[yt-five-step-method]] | [[yt-unit-model-three-tools]] | [[yt-customer-acquisition-toolkit]]
 

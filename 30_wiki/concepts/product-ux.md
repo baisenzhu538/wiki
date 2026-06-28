@@ -23,7 +23,8 @@ related:
   - [[learning-thinking]]
   - [[meta-prompt-eng]]
   - [[writing-content]]
----# Product Ux
+---
+# Product Ux
 
 ## Summary
 

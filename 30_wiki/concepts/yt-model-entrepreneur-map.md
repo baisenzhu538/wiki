@@ -95,7 +95,8 @@ diagnostic_signals:
 author: 老顽童
 trust_level: medium-high
 
----# 一堂创业地图：高潜力创业者修炼全景图
+---
+# 一堂创业地图：高潜力创业者修炼全景图
 
 > 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#创业必修
 

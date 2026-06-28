@@ -34,7 +34,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----# P-16：validate 优先读取 state.json 而非文件 frontmatter
+---
+# P-16：validate 优先读取 state.json 而非文件 frontmatter
 
 ## 原始表述 / 核心洞察
 

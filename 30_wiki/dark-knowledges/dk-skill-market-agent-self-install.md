@@ -47,7 +47,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
----> 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。
+---
+> 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。
 
 ## 原始表述
 

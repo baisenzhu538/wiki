@@ -43,7 +43,8 @@ related:
   - [[case-toy-cabinet-business-model]]
   - [[yt-barrier-analysis-cheat-sheet]]
   - [[yt-scale-economy-weapon-library]]
----# 案例：知乎vs得到——网络效应壁垒的对比分析
+---
+# 案例：知乎vs得到——网络效应壁垒的对比分析
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[yt-five-step-method]]
 

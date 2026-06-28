@@ -24,7 +24,8 @@ source_refs:
 - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 source_refs:
   - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
----# AI趋势12大变化模型
+---
+# AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]
 

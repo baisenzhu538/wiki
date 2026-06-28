@@ -84,14 +84,12 @@ Richard Rumelt 在《好战略坏战略》中指出：大多数"坏战略"的共
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "Y模型STEPS策略集操作手册" — 将OCR提取的原始策略框架转化为可执行的认知建模指南，整合Scope/Target/Element/Predict/Support五模块的审美标准、避坑清单与行动检查表，适配个人学习者和团队两种场景>

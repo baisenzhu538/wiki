@@ -177,22 +177,14 @@ Truman访谈萝卜干案例时，一边访谈一边记录，现场把碎片化�
 
 ## Synthesis
 
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 后果 |

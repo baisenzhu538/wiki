@@ -36,7 +36,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 团队知识管理
+---
+# 团队知识管理
 
 > 来源：一堂管理必修课「管团队」模块，《知识库：团队知识管理必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -173,15 +174,14 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 团队知识管理在一堂管理知识树中的位置：
@@ -202,7 +202,7 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

@@ -53,7 +53,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
----# 泛产品设计探索营：案例启发与认知重构
+---
+# 泛产品设计探索营：案例启发与认知重构
 
 > 来源：一堂泛产品设计探索营（千人集体学习，Truman口述）。[[yt-personal-pan-product-concepts]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 
@@ -170,13 +171,12 @@ Lave & Wenger 的核心洞见对探索营的致命一击：探索营是一个"�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 泛产品设计探索营是个人域泛产品设计方法论簇中的"认知唤醒"入口。
 
-- [[pending_unknown]]
+- 待补充链接

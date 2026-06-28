@@ -42,7 +42,8 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
----# 技能：假设驱动工作流
+---
+# 技能：假设驱动工作流
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Friga, P. N. (2003). *The McKinsey Mind*
 > 核心：把"假设驱动方法"转化为可复制的7步操作流程——从问题定义到假设迭代，每一步都有明确的动作和判断标准。

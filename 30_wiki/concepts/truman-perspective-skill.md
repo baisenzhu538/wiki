@@ -29,7 +29,8 @@ related:
 - [[case-truman-ai-skill-engineering-guide]]
 - [[business-research-skill-oscar-13-weapon-system]]
 - [[dk-skill-market-agent-self-install]]
----# Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
+---
+# Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 
 > 基于 6 维度深度调研（著作/对话/表达DNA/他者视角/决策记录/时间线），将 许楚（Truman）的思维框架编译为 Claude Code 可调用的角色扮演 Skill。
 
@@ -139,21 +140,18 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 互补与冲突
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移到 KDO 的改进
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

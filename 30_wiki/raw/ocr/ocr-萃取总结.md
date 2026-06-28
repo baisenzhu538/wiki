@@ -83,15 +83,13 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "从OCR萃取到MECE知识建模：一堂方法论与KDO系统的融合实践" — 将一堂"饱和式研究/建模"方法论与KDO知识管理流程结合，解决OCR文本的结构化重构问题，包含动态分类调整策略与收敛判定标准>

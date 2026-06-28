@@ -81,14 +81,12 @@ Thomas Kuhn 在《科学革命的结构》中证明：科学进步不是线性�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "一堂Y模型深度解析：从OCR碎片到结构化知识的方法论实践" — 结合PaddleOCR ONNX pipeline的提取结果与一堂方法论体系总图，系统还原Y模型的双分支结构（理论-事实/认知-行动），并建立与四张地图中"无限修炼"层的映射关系>

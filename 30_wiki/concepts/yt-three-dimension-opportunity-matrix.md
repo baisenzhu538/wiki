@@ -46,7 +46,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 三维排列组合找机会
+---
+# 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]
 

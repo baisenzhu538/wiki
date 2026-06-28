@@ -56,7 +56,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----# IPO 科学学习
+---
+# IPO 科学学习
 
 > 来源：Truman (许楚) 周五直播课，course_id 402，IPO 科学学习实操篇（下）。[[一堂方法论体系总图]] | [[yitang-course-map]]
 

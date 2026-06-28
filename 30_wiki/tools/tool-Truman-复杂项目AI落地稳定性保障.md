@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-多Agent通信协作方案]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-人在环渐进自动化策略]]
----# 技能：复杂项目AI落地稳定性保障
+---
+# 技能：复杂项目AI落地稳定性保障
 
 ## 原始表述
 

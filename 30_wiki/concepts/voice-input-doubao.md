@@ -41,7 +41,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----# 豆包输入法：语音输入的最低成本实践
+---
+# 豆包输入法：语音输入的最低成本实践
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述，第424-426行)
 

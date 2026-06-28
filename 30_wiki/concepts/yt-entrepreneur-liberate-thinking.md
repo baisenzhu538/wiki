@@ -54,7 +54,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 解放思想
+---
+# 解放思想
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

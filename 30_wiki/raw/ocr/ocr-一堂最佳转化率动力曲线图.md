@@ -81,14 +81,12 @@ Robert Cialdini 本人可能会质疑：他在《影响力》中提出的六大�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "一堂转化率动力模型的批判性拆解与验证框架" — 分析性文章，将OCR提取的"三曲线模型"与西奥迪尼影响力原则、FAB法则进行概念溯源，建立可证伪的评估维度表，回应Open Questions中关于"概念拼贴vs实证验证"的核心质疑>

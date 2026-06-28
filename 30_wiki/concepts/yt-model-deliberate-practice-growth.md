@@ -23,7 +23,8 @@ source_refs:
 - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 source_refs:
   - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
----# 刻意练习十年成长指数：为什么有人一年顶十年
+---
+# 刻意练习十年成长指数：为什么有人一年顶十年
 
 > 来源：一堂知识地图《刻意练习·十年成长指数》。[[yt-personal-deliberate-practice]] | [[yt-model-pan-product-climbing-map]] | [[一堂]]
 

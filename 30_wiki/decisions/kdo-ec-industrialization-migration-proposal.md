@@ -30,7 +30,8 @@ related:
   - src_unknown
   - src_unknown
   - src_unknown
----# EC工业化规范 → KDO管线迁移方案（征求意见稿）
+---
+# EC工业化规范 → KDO管线迁移方案（征求意见稿）
 
 > 黄药师起草，请欧阳锋审查，最终由老朱拍板。
 

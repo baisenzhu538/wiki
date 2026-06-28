@@ -81,14 +81,12 @@ Seth Godin 在《Linchpin》中主张：真正的艺术家不做"选择题"，�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "一堂X/Y路线批判性评估框架" — 针对商业培训方法论的结构化审视模板，整合OCR提取的Truman职业路线模型与Open Questions中的七项质疑，形成可复用的课程营销内容去偏见检查清单>

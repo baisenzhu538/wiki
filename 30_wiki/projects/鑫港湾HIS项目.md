@@ -31,7 +31,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium# 鑫港湾HIS项目
----> 基于 .NET 8 + Vue 3 的医疗信息管理系统——从代码审查到上线交付的全流程工程化。
+---
+> 基于 .NET 8 + Vue 3 的医疗信息管理系统——从代码审查到上线交付的全流程工程化。
 
 ## 项目概述
 

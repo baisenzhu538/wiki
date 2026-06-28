@@ -21,7 +21,8 @@ related:
   - [[tool-ai-narrative-test]]
   - [[tool-ai-prd-for-ai]]
   - [[sk-ai-purpose-bias-check]]
----# 技能：系统冗余度快速检查清单
+---
+# 技能：系统冗余度快速检查清单
 
 ## 原始表述
 

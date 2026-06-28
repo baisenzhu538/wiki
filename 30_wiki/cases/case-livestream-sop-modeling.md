@@ -47,7 +47,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----# 案例：直播前热身 SOP 建模
+---
+# 案例：直播前热身 SOP 建模
 
 > **Burn line**: 直播状态不是运气，而是一套可以被 SOP 化的热身动作。
 

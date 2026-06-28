@@ -33,7 +33,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 科学招聘
+---
+# 科学招聘
 
 > 来源：一堂管理必修课「管团队」模块，含科学招聘四部曲+结构化面试+产品经理招聘专项。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -171,14 +172,13 @@ Bohnet 在实验中证明，即使是高度结构化的面试，当评估对象�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 科学招聘在一堂管理知识树中的位置：
@@ -202,6 +202,6 @@ Bohnet 在实验中证明，即使是高度结构化的面试，当评估对象�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-Feature特性层训练法]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：双三角模型应用
+---
+# 技能：双三角模型应用
 
 ## 原始表述
 

@@ -81,14 +81,12 @@ Herbert Simon 在《管理行为》中证明：人类的决策受到有限理性
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "OCR 质量分级与知识提取校验指南——从'一堂·优秀泛产品设计者'误识案例看视觉结构重建方法论">

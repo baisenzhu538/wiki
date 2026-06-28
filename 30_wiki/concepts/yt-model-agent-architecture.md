@@ -155,12 +155,11 @@ Gary Klein（认知心理学家，Macrocognition学派创始人，著有《Sourc
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 与已有框架的互补
 
 | 既有方法 | PEAS/Agent架构的补充 |

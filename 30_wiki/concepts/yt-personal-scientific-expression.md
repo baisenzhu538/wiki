@@ -59,7 +59,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 科学表达（火箭模型）
+---
+# 科学表达（火箭模型）
 
 > 来源：一堂个人必修课"练能力"模块——科学表达必修课+公开演讲练习。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

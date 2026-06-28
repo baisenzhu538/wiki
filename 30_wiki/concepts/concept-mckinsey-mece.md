@@ -47,7 +47,8 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 
----# MECE 原则：相互独立、完全穷尽
+---
+# MECE 原则：相互独立、完全穷尽
 
 ## 核心定义
 

@@ -65,7 +65,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-风险管理
 status: superseded
----# 风险管理：把风险从意外变成确定性
+---
+# 风险管理：把风险从意外变成确定性
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

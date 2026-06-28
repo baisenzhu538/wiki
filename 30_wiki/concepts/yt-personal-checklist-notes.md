@@ -32,7 +32,8 @@ source_refs:
 - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 source_refs:
   - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
----# 清单体笔记（一堂笔记法）
+---
+# 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

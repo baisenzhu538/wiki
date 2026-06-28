@@ -65,7 +65,8 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
----# 美好作品想象：缺对标就自己想象
+---
+# 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]
 

@@ -62,7 +62,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 一堂五步法总纲
+---
+# 一堂五步法总纲
 
 > 来源：一堂全员必修课程 | Truman口述 | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-three-tools]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]
 

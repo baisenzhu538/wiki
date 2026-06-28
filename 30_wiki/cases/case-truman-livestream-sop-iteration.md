@@ -41,7 +41,8 @@ diagnostic_signals:
 - framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
 updated_at: '2026-06-16'
----# Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
+---
+# Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 
 > **这不是方法论——这是方法论在现场长出来的过程。**
 

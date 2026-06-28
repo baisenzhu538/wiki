@@ -25,7 +25,8 @@ source_refs:
 - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 source_refs:
   - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
----# IPO 科学学习完整清单 (Complete List)
+---
+# IPO 科学学习完整清单 (Complete List)
 
 > 来源：一堂《科学学习 IPO·完整清单》。[[一堂]] | [[yt-model-ipo-learning-strategy]] | [[yt-personal-ipo-learning]]
 

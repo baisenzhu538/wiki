@@ -46,7 +46,8 @@ diagnostic_signals:
   follow_up: Agent使用后自动上报效果数据，维护者通过反馈判断质量，决定更新或下架
 - lens: 市场幻觉
   follow_up: 真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹
----# 技能：Agent技能市场设计法
+---
+# 技能：Agent技能市场设计法
 
 ## 原始表述
 
@@ -157,10 +158,9 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 - src_unknown

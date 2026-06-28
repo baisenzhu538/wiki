@@ -106,7 +106,8 @@ pipeline:
 - src_unknown
 author: 老顽童
 
----# 终局光谱图
+---
+# 终局光谱图
 
 > 来源：一堂课程体系 | 阶段：预判阶段 | [[yt-entrepreneur-opportunity-selection]] | [[yitang-course-map]]
 

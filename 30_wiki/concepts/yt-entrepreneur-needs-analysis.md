@@ -55,7 +55,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 需求分析
+---
+# 需求分析
 
 > 来源：一堂创业五步法第一步实操课（拆推评算之推演篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-map-lecture]]
 

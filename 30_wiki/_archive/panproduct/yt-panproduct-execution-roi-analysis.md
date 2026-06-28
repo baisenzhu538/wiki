@@ -72,7 +72,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-ROI分析
 status: superseded
----# ROI分析：擅做投产比分析
+---
+# ROI分析：擅做投产比分析
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

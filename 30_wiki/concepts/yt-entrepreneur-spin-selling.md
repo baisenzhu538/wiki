@@ -25,7 +25,8 @@ source_refs:
 - src_20260510_349a66fd-读书会-spin销售法
 source_refs:
   - pending_archive:src_20260510_349a66fd-读书会-spin销售法
----# SPIN销售法：顾问式销售的奠基之作
+---
+# SPIN销售法：顾问式销售的奠基之作
 
 > 来源：一堂读书会·SPIN销售法口述（2小时解读，Truman主讲）。[[yt-entrepreneur-scientific-method]] | [[一堂]]
 

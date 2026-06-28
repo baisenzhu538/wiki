@@ -56,7 +56,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
----# 泛产品设计审美篇：永远以最佳实践为追求
+---
+# 泛产品设计审美篇：永远以最佳实践为追求
 
 > 来源：一堂泛产品设计实操第二课·审美篇口述（Truman）。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 
@@ -175,13 +176,12 @@ trust_level: medium
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 泛产品设计审美篇是个人域泛产品设计方法论簇中的"品味层"课程。
 
-- [[pending_unknown]]
+- 待补充链接

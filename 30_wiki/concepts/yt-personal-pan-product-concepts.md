@@ -57,7 +57,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
 
----# 泛产品设计认知篇：重新理解泛化产品能力
+---
+# 泛产品设计认知篇：重新理解泛化产品能力
 
 > 来源：一堂《全员必修：泛产品设计认知篇》口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-product-design]] | [[一堂]]
 
@@ -176,12 +177,11 @@ Epstein 的洞见对 Truman 泛产品设计课的双重意义：**泛不是更�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 泛产品设计认知篇是 Truman 个人修炼体系中的"认知唤醒"入口，位于个人域的泛产品设计方法论簇。
 
-- [[pending_unknown]]
+- 待补充链接

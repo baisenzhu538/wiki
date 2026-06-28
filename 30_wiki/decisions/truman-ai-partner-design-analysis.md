@@ -28,7 +28,8 @@ confidence: 0.6
 trust_level: low
 title: truman ai partner design analysis
 updated_at: '2026-06-16'# Truman AI Partner（阿蕊老师）设计反推
----## 摘要
+---
+## 摘要
 
 基于 Truman 口述稿、清单体笔记课程内容、老顽童的卡片产出、洪七公的 OCR 结果，逆向推导了 Truman 的 AI Partner agent 设计。核心发现：Truman 设计的不是"最强的 AI"，而是"最能让人成长的 AI"。三个硬约束（P 角色、L1-L2 边界、清单体 I/O）构成了设计的骨架。
 

@@ -80,14 +80,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "泛产品设计刻意练习手册——从一堂'多出牌'方法论到个人修炼系统" — 将OCR提取的"多出牌多练习"框架与一堂个人修炼地图（刻意练习、IPO科学学习、清单体笔记）交叉整合，输出可执行的36张卡牌使用指南，覆盖职业/生活/学习全场景的出牌策略与反馈机制设计>

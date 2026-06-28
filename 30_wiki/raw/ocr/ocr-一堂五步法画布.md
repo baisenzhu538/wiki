@@ -79,14 +79,12 @@ Rita McGrath 在《临时优势的竞争》中提出：在当今快速变化的�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "一堂五步法画布实战手册" — 结构化教程，将OCR提取的框架与一堂方法论体系总图中的四张地图对齐，提供从假设验证到壁垒构建的完整工作流，含画布填写示例与常见逻辑陷阱（如"假设-需求"循环风险）的规避策略>

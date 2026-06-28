@@ -87,15 +87,13 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "一堂泛产品设计L1-L6层级框架的批判性解构与能力评估量表" — 针对OCR提取的"十年修炼爬山地图"进行系统性审视，结合Related Document 2中"个人修炼地图"的顶天立地模型与刻意练习方法论，构建可操作的层级自评checklist，同时回应Open Questions中关于线性递进结构、工具箱完成标准、刻意练习概念迁移等核心质疑>

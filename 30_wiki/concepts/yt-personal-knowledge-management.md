@@ -28,7 +28,8 @@ source_refs:
 - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 source_refs:
   - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
----# 知识管理
+---
+# 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

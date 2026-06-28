@@ -34,7 +34,8 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
----# 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
+---
+# 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 
 ## 原始表述 / 核心洞察
 

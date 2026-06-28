@@ -36,7 +36,8 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
----# 技能：AI落地五步执行流程
+---
+# 技能：AI落地五步执行流程
 
 > **来源**：马易（AI俱乐部-AI落地场景识别-口述）
 > **核心**：AI落地不是"技术上线"，而是"业务验证"。五步流程：找场景→做判断→做验证→搞开发→慢上线。每一步都不能跳过。

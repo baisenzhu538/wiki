@@ -25,7 +25,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
----# Data Curator Phase 2 Clean — parse_frontmatter 修复方案
+---
+# Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 
 > **报告人**：欧阳锋  
 > **执行人**：黄药师  

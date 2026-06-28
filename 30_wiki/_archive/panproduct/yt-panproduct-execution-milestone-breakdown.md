@@ -67,7 +67,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-里程碑拆解
 status: superseded
----# 里程碑拆解：主动设定交付中间节点
+---
+# 里程碑拆解：主动设定交付中间节点
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

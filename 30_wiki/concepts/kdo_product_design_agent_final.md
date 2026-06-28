@@ -22,7 +22,8 @@ related:
   - [[轻量级诊所HIS调研全清单]]
   - [[HIS系统深度调研]]
   - [[kdo-protocol]]
----# Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
+---
+# Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
 
 ## Summary
 
@@ -88,13 +89,11 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-
+- 待补充链接
 ## Open Questions
 
 - src_unknown

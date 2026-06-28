@@ -28,7 +28,8 @@ source_refs:
 - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 source_refs:
   - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
----# 灵感闪现（认知篇）
+---
+# 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

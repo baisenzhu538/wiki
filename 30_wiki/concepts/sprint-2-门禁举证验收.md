@@ -22,7 +22,8 @@ related:
   - [[kdo-ec-industrialization-migration-proposal]]
   - [[dk-c4-selfcheck-superseded]]
   - [[轻量级诊所HIS调研全清单]]
----# Sprint 2 门禁举证验收
+---
+# Sprint 2 门禁举证验收
 
 ## Summary
 

@@ -33,7 +33,8 @@ related:
   - [[开源HIS系统代码深度分析报告]]
   - [[EC工业化规范手册]]
 
----# 一堂案例必修课
+---
+# 一堂案例必修课
 
 ## Summary
 
@@ -109,10 +110,9 @@ Capability: playbook
 | **"过度归因到个人"** | 成功是因为CEO厉害 | 分析系统因素和可复制的条件 |
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

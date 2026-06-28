@@ -180,20 +180,13 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 
 ## Synthesis
 
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 后果 |

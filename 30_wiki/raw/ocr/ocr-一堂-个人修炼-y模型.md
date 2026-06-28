@@ -82,14 +82,12 @@ Bertrand Russell 在《西方哲学史》中证明：每一个时代的"解放"�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <tutorial: "Y模型个人修炼实践手册"——将四层认知递进转化为可自检的每日反思模板，配套"理论-验证"双循环的实验日志格式>

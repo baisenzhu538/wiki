@@ -27,7 +27,8 @@ id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6
 trust_level: low# Sprint 6 CLI 缺口修复提案
----> **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。
+---
+> **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。
 > **目标**：用最小的工程代价覆盖最高频的摩擦点。
 
 

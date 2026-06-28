@@ -20,7 +20,8 @@ related:
   - [[plan_20260501_85a84b92-improvement-plan]]
   - [[plan_20260501_ca61cdd7-improvement-plan]]
   - [[plan_20260501_8001399c-improvement-plan]]
----# Contradictions
+---
+# Contradictions
 
 Use this file to preserve unresolved conflicts instead of smoothing them over.
 

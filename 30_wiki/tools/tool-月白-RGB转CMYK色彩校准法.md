@@ -29,7 +29,8 @@ related:
   - [[tool-月白-印刷DPI标准设置]]
   - [[tool-月白-RGB转CMYK印刷预检]]
   - [[tool-月白-PS图层规范管理]]
----# 技能：RGB转CMYK色彩校准法
+---
+# 技能：RGB转CMYK色彩校准法
 
 ## 原始表述
 

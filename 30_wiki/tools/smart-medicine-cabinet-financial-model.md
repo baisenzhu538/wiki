@@ -51,7 +51,8 @@ query_triggers:
 - src_unknown
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
----# 智能药柜单点财务模型与回本测算表
+---
+# 智能药柜单点财务模型与回本测算表
 
 > **核心定位**：药柜推广的经济可行性取决于**点位质量 > 购买频次 > 客单价 > 毛利率 > 设备成本**。本卡提供单点财务模型框架和区间估算，所有回本周期数据均为估算，需结合实际点位验证。
 

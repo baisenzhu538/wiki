@@ -23,7 +23,8 @@ source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
----# 解放思想五层模型
+---
+# 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
 

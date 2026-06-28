@@ -50,7 +50,8 @@ diagnostic_signals:
 author: 老顽童
 trust_level: medium-high
 
----# 一堂无限进步大地图·十年收藏版
+---
+# 一堂无限进步大地图·十年收藏版
 
 > 来源：一堂《无限进步大地图》十年收藏版。[[一堂]] | [[yt-model-y-organization]] | [[yt-system-course-catalog]]
 

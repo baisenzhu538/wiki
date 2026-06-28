@@ -170,18 +170,17 @@ Porter 的核心论证：
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 - src_unknown：战略会是组织决策系统中最重量级的武器——开好了方向明确、士气提振；开坏了消耗时间、制造虚假共识、帮全员巩固错误的假设。Rumelt + Porter 的共同指向：武器的威力不由"开会技巧"决定，由"战略思考质量"决定。战略会是一把重型狙击枪——但多数团队拿着它当霰弹枪用，打出去的是一堆方向碎片而非一发击穿瓶颈的子弹
-- [[pending_unknown]]
-
+- 待补充链接
 ### 知识体系定位
 
 战略会在一堂管理知识树中的位置：
@@ -201,9 +200,8 @@ Porter 的核心论证：
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

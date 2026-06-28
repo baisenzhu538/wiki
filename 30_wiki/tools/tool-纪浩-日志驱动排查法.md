@@ -46,7 +46,8 @@ diagnostic_signals:
   follow_up: 无论成败都必须生成日志。没有日志的执行等于没有发生过
 - lens: 信息孤岛
   follow_up: 日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录
----# 技能：日志驱动排查法
+---
+# 技能：日志驱动排查法
 
 ## 原始表述
 
@@ -159,10 +160,9 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 - src_unknown

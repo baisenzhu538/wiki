@@ -82,14 +82,12 @@ Herbert Simon 会质疑：**截图中的碎片化信息是否足以支撑系统�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "OCR Quality Assurance Protocol for Knowledge Base Screenshots" — a tutorial bridging PaddleOCR ONNX pipeline limitations with KDO ingestion requirements, covering ligature correction, visual structure reconstruction, and metadata cross-validation workflows>

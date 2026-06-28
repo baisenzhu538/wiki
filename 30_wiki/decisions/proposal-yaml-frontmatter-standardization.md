@@ -20,7 +20,8 @@ related:
   - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
   - [[data-curator-role-division]]
   - [[dk-p19-quote-yaml]]
----# YAML 标注对 KDO 知识库的启发
+---
+# YAML 标注对 KDO 知识库的启发
 
 > 半肥猫在 AI 学习落地分享中强调：写笔记一定要做 YAML 标注。
 > 

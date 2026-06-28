@@ -65,7 +65,8 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
----# 最佳实践池子：用一堆最佳实践打磨产品
+---
+# 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]
 

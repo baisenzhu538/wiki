@@ -55,7 +55,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----## Constraints & Boundaries
+---
+## Constraints & Boundaries
 
 ### 适用边界
 

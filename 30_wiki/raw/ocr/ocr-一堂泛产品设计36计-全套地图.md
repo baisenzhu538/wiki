@@ -86,15 +86,13 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "一堂泛产品设计36计卡牌化实战指南" — 将36计方法论体系转化为可交互的数字卡牌工作流，覆盖需求/审美/落地三大工具箱的跨层级应用（A/B/C级产品），并整合"十倍速验证"原则与KDO知识管理系统的项目复盘闭环>

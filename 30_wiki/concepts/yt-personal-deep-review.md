@@ -68,7 +68,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----# 深度复盘
+---
+# 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]
 
@@ -215,15 +216,14 @@ trust_level: medium-high
 
 ### 双向链接
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

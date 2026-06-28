@@ -54,7 +54,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 调研认知
+---
+# 调研认知
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

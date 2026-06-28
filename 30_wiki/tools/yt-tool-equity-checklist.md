@@ -52,7 +52,8 @@ estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
 
----# 股权设计检查清单
+---
+# 股权设计检查清单
 
 > 从 [[yt-management-business-formula]] 和 [[yt-entrepreneur-lean-validation]] 萃取的公司治理工具。不是“分股比例怎么切”的财务计算，而是一套在“绑定”前检查关系健康度的“婚前协议”——**80% 的创业团队分裂不是因为业务失败，而是因为股权没说清楚**。
 

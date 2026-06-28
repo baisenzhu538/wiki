@@ -31,7 +31,8 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
   - src_unknown
----# 新人落地
+---
+# 新人落地
 
 > 来源：一堂管理必修课「管团队」模块，《新人落地：新人Landing必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -164,14 +165,13 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 新人落地在一堂管理知识树中的位置：
@@ -192,8 +192,8 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

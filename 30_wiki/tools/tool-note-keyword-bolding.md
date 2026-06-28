@@ -40,7 +40,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
----# 关键词加粗三重结构：视觉重心即认知重心的标记法则
+---
+# 关键词加粗三重结构：视觉重心即认知重心的标记法则
 
 ## 用一句话讲清楚
 

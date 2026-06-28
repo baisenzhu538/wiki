@@ -80,14 +80,12 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "最佳实践池子"设计方法论操作手册——从黑盒思维到可量化迭代框架>

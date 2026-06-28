@@ -24,7 +24,8 @@ related:
   - [[learning-thinking]]
   - [[dk-yb11-visual-book-reverse]]
   - [[product-ux]]
----# 视觉Prompt三层操作系统 (SROM Visual OS)
+---
+# 视觉Prompt三层操作系统 (SROM Visual OS)
 
 ## Summary
 

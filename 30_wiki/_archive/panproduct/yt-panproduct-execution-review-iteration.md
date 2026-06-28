@@ -63,7 +63,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-复盘迭代
 status: superseded
----# 复盘迭代：善于向自己的经验学习
+---
+# 复盘迭代：善于向自己的经验学习
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

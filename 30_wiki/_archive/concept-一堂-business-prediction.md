@@ -29,7 +29,8 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----# 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+---
+# 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 
 > ⚠️ **本卡已废弃。** 本卡为旧格式的早期版本（draft），已被以下新卡替代：
 > - [[yt-foresight-business-spectrum]]（终局光谱图）—— 同域的升级版框架卡
@@ -156,12 +157,8 @@ Truman 把预判过程浓缩为三句话：
 
 ## Synthesis
 
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-开源模型与商业模型融合方案]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：多Agent通信协作方案
+---
+# 技能：多Agent通信协作方案
 
 ## 原始表述
 

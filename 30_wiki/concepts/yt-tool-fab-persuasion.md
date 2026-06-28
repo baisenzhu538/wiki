@@ -55,7 +55,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----## Summary
+---
+## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。
 
@@ -164,16 +165,14 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 
 ### Wikilinks
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### Contradictions
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Feedback
 
 ### 摩擦记录

@@ -26,7 +26,8 @@ trust_level: medium
 type: "concept"
 source_refs:
   - pending_archive:src_20260522_38173b48-design-ai-image-generation
----# P 角色 Prompt 设计——执行者型 AI 的交付规范
+---
+# P 角色 Prompt 设计——执行者型 AI 的交付规范
 
 ## Condense
 
@@ -203,10 +204,7 @@ P 角色的核心能力是**信息密度保持**——不是简化用户的输�
 
 ## Synthesis
 
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

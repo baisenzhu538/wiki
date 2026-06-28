@@ -23,7 +23,8 @@ related:
   - [[meta-prompt-eng]]
   - [[writing-content]]
   - [[product-ux]]
----# Learning Thinking
+---
+# Learning Thinking
 
 ## Summary
 

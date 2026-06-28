@@ -45,7 +45,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 公司文化
+---
+# 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -236,19 +237,18 @@ Schein 的核心洞见：**真正驱动组织行为的是第三层——深层�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 公司文化在一堂管理知识树中的位置：
@@ -268,6 +268,6 @@ Schein 的核心洞见：**真正驱动组织行为的是第三层——深层�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

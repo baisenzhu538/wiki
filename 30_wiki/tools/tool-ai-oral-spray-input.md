@@ -21,7 +21,8 @@ related:
   - [[dk-modeling-ai-compound-leverage]]
   - [[dk-modeling-ai-judgment-limit]]
   - [[tool-纪浩-AI对话上下文隔离]]
----# 技能：用口喷输入法生成高质量 AI 提示词
+---
+# 技能：用口喷输入法生成高质量 AI 提示词
 
 ## 原始表述
 

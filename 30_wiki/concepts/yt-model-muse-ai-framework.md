@@ -24,7 +24,8 @@ source_refs:
 - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
   - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
----# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
+---
+# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
 > 来源：一堂《人工智能全景图·MUSE 模型》V3.0（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]
 

@@ -19,7 +19,8 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----## 两大陷阱
+---
+## 两大陷阱
 
 | 陷阱 | 症状 | 案例 |
 |:

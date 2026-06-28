@@ -23,7 +23,8 @@ related:
   - [[dk-modeling-ai-judgment-limit]]
   - [[tool-纪浩-AI对话上下文隔离]]
   - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
----# YC 放出一套「AI-NATIVE 公司」组织方法论
+---
+# YC 放出一套「AI-NATIVE 公司」组织方法论
 
 > **来源：** YC Startup School，主讲 Diana Hu（YC 合伙人）
 > **归档日期：** 2026-04-30
@@ -70,18 +71,15 @@ related:
 ## Synthesis
 
 ### 关联概念
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 互补还是冲突
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移到 KDO 的下一步
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ---
 
 ### 不要用的场景

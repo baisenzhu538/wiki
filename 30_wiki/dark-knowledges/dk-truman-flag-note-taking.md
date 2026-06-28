@@ -60,7 +60,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 指标表演化——flag从"倒逼思考"退化为"完成指标"
   follow_up_question: 这些"个人观点"如果删掉，是否会影响后续复用？三个月后你还会看吗？
----# 立flag记笔法：用量化目标倒逼笔记中的真实思考量
+---
+# 立flag记笔法：用量化目标倒逼笔记中的真实思考量
 
 ## 原始表述/核心洞察
 

@@ -52,7 +52,8 @@ diagnostic_signals:
 - framework_lens: 人在环中建模五步法
   follow_up_question: AI 输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
 
----# KDO 内容路线决策：建模能力在知识库建设中的应用
+---
+# KDO 内容路线决策：建模能力在知识库建设中的应用
 
 > **Burn line**: KDO/wiki 的建设不是整理资料，而是建立一条从原始素材到结构化知识的建模流水线。
 

@@ -24,7 +24,8 @@ related:
   - [[plan_20260501_85a84b92-improvement-plan]]
   - [[plan_20260501_05858800-improvement-plan]]
   - [[plan_20260501_8001399c-improvement-plan]]
----# Improvement Plan plan_20260501_ca61cdd7
+---
+# Improvement Plan plan_20260501_ca61cdd7
 
 ## Summary
 

@@ -29,7 +29,8 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
----# Data Curator Skill 实施方案 v1.3
+---
+# Data Curator Skill 实施方案 v1.3
 
 ## v1.3 修正记录（2026-05-31，用户审查反馈）
 

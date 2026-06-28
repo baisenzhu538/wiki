@@ -35,7 +35,8 @@ diagnostic_signals:
     follow_up: "检查#开头的标签是否加引号：- \"#master\"而非- #master"
   - lens: "round-trip失败"
     follow_up: "写文件前做round-trip校验：读回来确认嵌套结构无损"
----# KDO YAML Frontmatter 安全操作指南
+---
+# KDO YAML Frontmatter 安全操作指南
 
 > **背景**：2026-05-31 Data Curator Phase 2 Clean 因手写 YAML 解析器导致 `visual_analysis` 4 图→5 字符串、`related` 4 链接→`level: intermediate` 的数据丢失。教训：**不要手写 YAML 解析器，用标准库**。
 

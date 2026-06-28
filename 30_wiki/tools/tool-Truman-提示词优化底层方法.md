@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-多Agent通信协作方案]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：提示词优化底层方法
+---
+# 技能：提示词优化底层方法
 
 ## 原始表述
 

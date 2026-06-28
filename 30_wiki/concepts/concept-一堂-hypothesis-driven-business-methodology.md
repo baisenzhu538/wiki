@@ -55,7 +55,8 @@ diagnostic_signals:
 author: 老顽童
 confidence: 0.85
 trust_level: high
----# 一堂假设驱动型创业分析方法论
+---
+# 一堂假设驱动型创业分析方法论
 
 ## 核心定义
 

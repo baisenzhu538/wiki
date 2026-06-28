@@ -25,7 +25,8 @@ related:
   - [[tool-strategy-value-proposition]]
   - [[tool-strategy-activity-scope]]
   - [[case-strategy-snack-export-opportunity]]
----**案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
+---
+**案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 
 **业务设计六要素诊断 → 设计 → 挑战**：
 

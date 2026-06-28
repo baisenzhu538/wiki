@@ -51,7 +51,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 概率工程：把小概率变成大概率的方法论
+---
+# 概率工程：把小概率变成大概率的方法论
 
 ## Core Claims
 
@@ -103,7 +104,7 @@ related:
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

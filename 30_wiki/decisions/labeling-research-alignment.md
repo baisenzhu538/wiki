@@ -31,7 +31,8 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'# 两份标注调研的对齐：黄药师 × 老顽童
----## 路线差异
+---
+## 路线差异
 
 | 维度 | 黄药师报告 | 老顽童报告 |
 |

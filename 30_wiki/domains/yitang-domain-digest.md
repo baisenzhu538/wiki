@@ -15,7 +15,8 @@ related:
   - [[yitang-research-domain-digest]]
   - [[strategy-domain-digest]]
   - [[ai-collaboration-domain-digest]]
----# 域摘要：一堂知识体系
+---
+# 域摘要：一堂知识体系
 
 > 一堂——科学创业方法论。207 张卡片，覆盖从需求分析到壁垒构建的完整创业闭环。
 

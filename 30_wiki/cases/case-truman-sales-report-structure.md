@@ -46,7 +46,8 @@ related:
   - [[case-modeling-essence-levels]]
   - [[framework-logic-cleanliness-five-levels]]
   - [[tool-ai-skill-engineering-method]]
----# 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
+---
+# 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 
 ## 原始表述
 

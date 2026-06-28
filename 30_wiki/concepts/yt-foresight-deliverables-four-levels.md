@@ -49,7 +49,8 @@ related:
   - src_unknown
   - src_unknown
 
----# 预判交付物四层级：从模糊想法到Plan ABC
+---
+# 预判交付物四层级：从模糊想法到Plan ABC
 
 ## Core Claims
 
@@ -101,7 +102,7 @@ related:
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

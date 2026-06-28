@@ -62,7 +62,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-解放思想
 status: superseded
----# 解放思想：敢于提出新解法/挑战新问题
+---
+# 解放思想：敢于提出新解法/挑战新问题
 
 > 落地工具箱第 19 张卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

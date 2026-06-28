@@ -25,7 +25,8 @@ source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
----# 一堂管理地图：高潜力管理者修炼全景图
+---
+# 一堂管理地图：高潜力管理者修炼全景图
 
 > 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#管理必修
 

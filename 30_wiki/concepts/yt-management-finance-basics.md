@@ -40,7 +40,8 @@ source_refs:
 - src_20260614_40afd886-theme-finance-legal-business-summary
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260614_40afd886）
 
----# 财务入门
+---
+# 财务入门
 
 > 来源：一堂管理必修课「管公司」模块，《经营基础：财务入门必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -202,16 +203,15 @@ Jensen 的代理框架指出，当管理者（创始人）和股东（投资人�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 财务入门在一堂管理知识树中的位置：
@@ -231,7 +231,7 @@ Jensen 的代理框架指出，当管理者（创始人）和股东（投资人�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

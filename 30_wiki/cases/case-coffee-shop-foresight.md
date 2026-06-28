@@ -41,7 +41,8 @@ related:
   - [[case-escort-service-tiered-growth]]
   - [[yt-foresight-deliverables-four-levels]]
   - [[case-ai-time-management-tiered-growth]]
----# 案例：咖啡馆创业预判
+---
+# 案例：咖啡馆创业预判
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-five-step-method]]
 

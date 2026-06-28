@@ -49,7 +49,8 @@ author: unknown
 trust_level: medium
 title: concept ai native organization five steps
 updated_at: '2026-06-17'
----# AI原生组织五步搭建法：从罗马军团到自进化有机体
+---
+# AI原生组织五步搭建法：从罗马军团到自进化有机体
 
 > 来源：10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md（YC AI 组织方法论）
 

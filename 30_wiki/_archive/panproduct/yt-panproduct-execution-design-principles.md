@@ -64,7 +64,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-设计原则
 status: superseded
----# 设计原则：掌握基本的UI/UE审美原则
+---
+# 设计原则：掌握基本的UI/UE审美原则
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

@@ -84,14 +84,12 @@ Herbert Simon 会质疑：**婚礼规划中的"最优解"可能不存在，因�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "仪式化事件的个性化改造框架" — 以婚礼流程为案例，提炼"标准化骨架+情感化替换"的可复用方法论，应用于产品发布会、毕业典礼、企业年会等仪式场景>

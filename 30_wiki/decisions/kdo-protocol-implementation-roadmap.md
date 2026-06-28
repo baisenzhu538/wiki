@@ -22,7 +22,8 @@ source_refs:
   - pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
   - pending_archive:src_20260613_12d63c1c-notes
   - pending_archive:src_20260613_687c4ec0-transcript
----# KDO Protocol Implementation Roadmap
+---
+# KDO Protocol Implementation Roadmap
 
 ## Executive Summary
 

@@ -23,7 +23,8 @@ source_refs:
 - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 source_refs:
   - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
----# 规模经济分析武器库
+---
+# 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

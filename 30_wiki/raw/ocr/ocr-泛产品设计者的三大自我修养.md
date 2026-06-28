@@ -81,14 +81,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "一堂泛产品设计方法论批判性解构" — 针对原文三大工具箱框架，结合"一堂方法论体系总图"中个人修炼地图的顶天立地模型，系统回答Open Questions中的8个核心质疑，输出带辩证结构的评估报告，明确3天课程与10年修炼之间的转化机制设计>

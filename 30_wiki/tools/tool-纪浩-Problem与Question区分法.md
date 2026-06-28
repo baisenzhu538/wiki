@@ -34,7 +34,8 @@ diagnostic_signals:
   follow_up: 用before/after检验：能不能写出具体的before/after？写不出就是question，不要伪装
 - lens: 验证宽松
   follow_up: 四层验证必须严格：before/after可观察、锚点具体到时间地点、受益人可命名、可解性有因果链
----# 技能：Problem与Question区分法
+---
+# 技能：Problem与Question区分法
 
 - src_unknown
 

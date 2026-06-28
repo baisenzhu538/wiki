@@ -25,7 +25,8 @@ related:
 - [[tool-yitang-web-scraping-research]]
 - [[tool-agent-crawl4ai]]
 - [[tool-agent-native-overview]]
----# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
+---
+# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。
 
@@ -165,10 +166,9 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

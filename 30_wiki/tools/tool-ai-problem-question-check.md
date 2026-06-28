@@ -46,7 +46,8 @@ diagnostic_signals:
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
 - lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
----# 技能：Problem vs Question 区分法
+---
+# 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）
 > **核心**：每次向AI提问前，先用3秒判断这是"需要行动改变的问题"还是"满足好奇心的疑问"。

@@ -23,7 +23,8 @@ related:
   - [[保达云诊所深度调研报告]]
   - [[EC工业化规范手册]]
   - [[HIS系统深度调研]]
----# 紫鲸AI智能体工作流平台
+---
+# 紫鲸AI智能体工作流平台
 
 ## Summary
 
@@ -95,20 +96,17 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **与已有概念的矛盾/互补：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Open Questions
 
 1. **BrandKG的实际构建成本和维护复杂度**：中型企业是否有足够人力持续维护品牌知识图谱？图谱更新频率与品牌迭代节奏如何匹配？

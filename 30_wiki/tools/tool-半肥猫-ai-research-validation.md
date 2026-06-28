@@ -189,20 +189,17 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 跨学科锚点
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Action Framework
 
 **启用条件**：你正在用AI做业务调研，且有一个真实的业务问题需要解答。

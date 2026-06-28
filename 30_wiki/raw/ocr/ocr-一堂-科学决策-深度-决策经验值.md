@@ -79,25 +79,18 @@ Tetlock 论证专家在短期预测上表现不错，但在长期结构性变化
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
-
-
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
-
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Action Triggers
 
 - src_unknown

@@ -174,16 +174,11 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 
 ## Synthesis
 
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 后果 |

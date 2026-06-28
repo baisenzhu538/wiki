@@ -43,7 +43,8 @@ related:
   - [[case-escort-service-tiered-growth]]
   - [[yt-foresight-ab-steady-state]]
   - [[dk-foresight-tier-skip-illusion]]
----# 案例：AI时间管理App七级演进
+---
+# 案例：AI时间管理App七级演进
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]
 

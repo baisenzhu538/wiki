@@ -168,12 +168,11 @@ L5 Skills Market（规模复用的基础设施）
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## 关键证据
 
 | 证据点 | 来源 | 可检验性 |

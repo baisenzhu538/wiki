@@ -40,7 +40,8 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
----# 案例：AI工作空间混乱导致"行为退化"而重来
+---
+# 案例：AI工作空间混乱导致"行为退化"而重来
 
 ## 一句话摘要
 

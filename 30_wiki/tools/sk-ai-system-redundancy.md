@@ -45,7 +45,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
----# 技能：系统冗余度快速检查清单
+---
+# 技能：系统冗余度快速检查清单
 
 ## 用一句话讲清楚
 

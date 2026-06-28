@@ -24,7 +24,8 @@ source_refs:
 - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
----# Y 型创业模型 (Y Model for Startups)
+---
+# Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
 

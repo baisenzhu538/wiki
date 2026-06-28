@@ -24,7 +24,8 @@ source_refs:
 - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 source_refs:
   - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
----# 楚门的选择：两条职业成长路线 X vs Y
+---
+# 楚门的选择：两条职业成长路线 X vs Y
 
 > 来源：Truman（许楚）的《楚门的选择：两条职业成长路线》。[[一堂]] | [[yt-model-truman-five-step-growth]] | [[yt-model-pan-product-36-strategies]]
 

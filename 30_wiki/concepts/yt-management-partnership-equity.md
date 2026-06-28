@@ -51,7 +51,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 confidence: 0.75
 
----# 合伙股权
+---
+# 合伙股权
 
 > 来源：一堂课程体系 | 阶段：管公司。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -159,14 +160,13 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 合伙股权在一堂管理知识树中的位置：
@@ -186,6 +186,6 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

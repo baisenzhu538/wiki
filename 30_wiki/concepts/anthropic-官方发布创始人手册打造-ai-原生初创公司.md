@@ -36,7 +36,8 @@ pipeline:
 - src_unknown
 author: unknown
 trust_level: medium
----# AI 原生创业四阶段模型（Anthropic 创始人手册）
+---
+# AI 原生创业四阶段模型（Anthropic 创始人手册）
 
 > 来源：Anthropic《创始人手册：打造 AI 原生初创公司》（2026.5.17）。Anthropic 官方发布。
 

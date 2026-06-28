@@ -63,7 +63,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-内核和边界
 status: superseded
----# 内核和边界：剥离中心思想和边界
+---
+# 内核和边界：剥离中心思想和边界
 
 > 落地工具箱第 1 张卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

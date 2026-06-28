@@ -53,7 +53,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----# IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
+---
+# IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
 
 > 来源：一堂《科学学习 IPO·全景策略图》第二版。[[一堂]] | [[yt-personal-ipo-learning]] | [[yt-personal-deep-review]]
 

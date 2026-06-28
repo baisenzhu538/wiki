@@ -68,19 +68,16 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 ## Synthesis
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **与已有概念的矛盾/互补：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

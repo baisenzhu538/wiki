@@ -63,7 +63,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-业务建模
 status: superseded
----# 业务建模：学习拆解业务公式
+---
+# 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

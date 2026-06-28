@@ -23,7 +23,8 @@ related:
   - [[meta-prompt-eng]]
   - [[writing-content]]
   - [[product-ux]]
----# Business Analysis
+---
+# Business Analysis
 
 ## Summary
 

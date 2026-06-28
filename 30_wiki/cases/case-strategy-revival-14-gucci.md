@@ -18,7 +18,8 @@ related:
   - [[case-doris-2014-music-streaming-prediction]]
   - [[case-strategy-cool-boiled-water]]
   - [[framework-strategy-brm]]
----**背景**：CEO Bizzarri 2015年就任，收入€39亿
+---
+**背景**：CEO Bizzarri 2015年就任，收入€39亿
 **动作**：砍低价折扣渠道→收回授权转直营→换创意总监→聚焦千禧一代
 **结果**：4年收入翻倍至€83亿。千禧一代贡献超50%销售额
 **外部验证**：✅ 全部数据公开可查

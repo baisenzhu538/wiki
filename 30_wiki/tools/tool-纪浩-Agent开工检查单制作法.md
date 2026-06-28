@@ -34,7 +34,8 @@ diagnostic_signals:
   follow_up: 检查单控制在10项以内，按优先级排序。关键项必须执行，次要项可选
 - lens: 经验空白
   follow_up: 先用Do-first法跑一遍任务，记录问题。没有经验就创造经验，不能跳过第一步
----# 技能：Agent开工检查单制作法
+---
+# 技能：Agent开工检查单制作法
 
 - src_unknown
 

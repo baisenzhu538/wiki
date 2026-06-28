@@ -29,7 +29,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# Gold Standard — 欧阳锋手工标注 15 条 chunk
+---
+# Gold Standard — 欧阳锋手工标注 15 条 chunk
 
 > **用途**：`auto_label_chunk()` 自动标注准确率的基准。每次自动标注后，对比本文件中的人工标注计算准确率。
 > **目标**：准确率 ≥ 85%。

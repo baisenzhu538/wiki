@@ -25,7 +25,8 @@ id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 基础设施升级提案：深度合成产线
+---
+# 基础设施升级提案：深度合成产线
 
 > **触发**：用户说老顽童的 AI 数据文章"不够深刻"。表面看是单篇文章质量问题，实际是工厂流水线的结构性盲区。
 > **提案人**：黄药师

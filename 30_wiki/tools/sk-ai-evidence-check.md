@@ -41,7 +41,8 @@ definition_of_done:
 - src_unknown
 trust_level: medium
 
----# 技能：AI输出证据核查三问法
+---
+# 技能：AI输出证据核查三问法
 
 ## 用一句话讲清楚
 

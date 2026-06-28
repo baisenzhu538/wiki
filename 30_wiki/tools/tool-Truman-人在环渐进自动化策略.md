@@ -21,7 +21,8 @@ related:
   - [[tool-Truman-Feature特性层训练法]]
   - [[tool-Truman-AI场景探索STAR模型]]
   - [[tool-Truman-数学题与语文题区分法]]
----# 技能：人在环渐进自动化策略
+---
+# 技能：人在环渐进自动化策略
 
 ## 原始表述
 

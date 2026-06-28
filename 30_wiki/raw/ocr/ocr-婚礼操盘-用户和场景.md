@@ -79,14 +79,12 @@ Herbert Simon 会质疑：**婚礼规划中的"最优解"可能不存在，因�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <analysis: "婚礼操盘用户分层模型批判性评估" — 运用一堂方法论中的"段位"框架（管理修炼地图）和IPO科学学习模型，对OCR提取的婚礼宾客优先级排序进行假设验证分析，输出结构化决策检查清单，覆盖隐性分层识别、地域文化变量、新人自主权平衡等开放问题>

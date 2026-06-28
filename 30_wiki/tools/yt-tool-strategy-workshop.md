@@ -55,7 +55,8 @@ estimated_tokens: 3300
 reviewed_by: 周伯通
 author: 老顽童
 
----# 战略研讨会引导手册
+---
+# 战略研讨会引导手册
 
 > 来源：从 [[yt-management-strategy-meeting]] 概念卡萃取的工具内核。一套完整的战略研讨会开会指南——从会前准备到会中引导到会后产出，防止战略会沦为汇报大会或老板一言堂。
 

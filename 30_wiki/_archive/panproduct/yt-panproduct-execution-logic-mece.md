@@ -63,7 +63,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-逻辑MECE
 status: superseded
----# 逻辑MECE：做个有逻辑的人
+---
+# 逻辑MECE：做个有逻辑的人
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

@@ -32,7 +32,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 提案：AI 快速精通领域知识管线
+---
+# 提案：AI 快速精通领域知识管线
 
 > **触发**：2026-06-02 飞轮迭代后，用户问"这个方法是否可以迁移到训练 AI 快速掌握一门学科？加上自动搜索是否可以加速？"
 >

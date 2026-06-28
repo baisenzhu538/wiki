@@ -49,7 +49,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 
----# 业务公式
+---
+# 业务公式
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（导入篇/建立公式/参数探索/逻辑关系）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 
@@ -304,22 +305,21 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 业务公式在一堂管理知识树中的位置：
@@ -342,6 +342,6 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 
 ### 跨学科锚点
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
+- 待补充链接

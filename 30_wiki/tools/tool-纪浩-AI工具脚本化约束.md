@@ -34,7 +34,8 @@ diagnostic_signals:
   follow_up: 要求AI优先调用工具获取数据，再基于数据做分析。不要让AI直接'知道'数据
 - lens: 脚本耦合
   follow_up: 脚本模块化设计，每个脚本只做一件事。做好版本控制，变更前测试兼容性
----# 技能：AI工具脚本化约束
+---
+# 技能：AI工具脚本化约束
 
 - src_unknown
 

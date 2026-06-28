@@ -75,14 +75,12 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "OCR Failure Recovery Protocol for Compressed Infographics" — a decision tree guide for handling zero-text OCR results on visual knowledge artifacts (mind maps, methodology maps, progress dashboards), covering source provenance tracing, alternative extraction strategies, and manual reconstruction workflows for the Yitang knowledge system>

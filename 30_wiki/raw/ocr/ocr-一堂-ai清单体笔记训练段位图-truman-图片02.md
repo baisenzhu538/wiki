@@ -22,7 +22,8 @@ related:
   - [[ocr-一堂-单元模型-abcd策略模型]]
   - [[ocr-一堂-单元模型-外部对抗地图]]
   - [[yt-note-deliberate-practice-four-elements]]
----# OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02
+---
+# OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02
 
 ## Summary
 

@@ -28,7 +28,8 @@ source_refs:
 - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
----# 渠道探索
+---
+# 渠道探索
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

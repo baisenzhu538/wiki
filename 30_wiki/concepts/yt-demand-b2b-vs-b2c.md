@@ -32,7 +32,8 @@ diagnostic_signals:
   follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？
 - framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
   follow_up_question: ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？
----# ToB vs ToC需求分析差异：决策链、频率与验证方法
+---
+# ToB vs ToC需求分析差异：决策链、频率与验证方法
 
 > 一堂五步法：ToB和ToC的需求分析，底层逻辑相同，但方法论差异巨大。
 

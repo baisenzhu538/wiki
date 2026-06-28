@@ -89,14 +89,12 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: 产品项目背景分析手册——基于"八维落差"框架的决策指南（整合OCR原始素材校验流程与优先级排序方法论）

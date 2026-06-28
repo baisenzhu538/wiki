@@ -84,14 +84,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "泛产品设计工具箱实战手册——从OCR乱码到结构化知识资产的19项工具解码指南" — 基于PaddleOCR ONNX pipeline的OCR质量缺陷案例，系统还原一堂方法论中"具象-打磨-青出于蓝"三阶段与19项工具的组合逻辑，填补视觉编码（编号体系、色块标记、符号系统）的信息缺口，建立可验证的验收节点与过度打磨风险识别框架>

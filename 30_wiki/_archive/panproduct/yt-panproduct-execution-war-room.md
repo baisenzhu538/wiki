@@ -67,7 +67,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-攻坚会
 status: superseded
----# 攻坚会：重点课题all-in攻坚
+---
+# 攻坚会：重点课题all-in攻坚
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

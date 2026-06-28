@@ -42,7 +42,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
----# 暗知：终局光谱图的"跳级幻觉"
+---
+# 暗知：终局光谱图的"跳级幻觉"
 
 ## 原始表述 / 核心洞察
 

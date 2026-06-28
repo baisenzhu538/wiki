@@ -25,7 +25,8 @@ related:
   - [[tool-decision-outside-view]]
   - [[master-decision-hygiene]]
   - [[gold-standard-manual-labels]]
----# Pilot：master-decision-hygiene 真原子切分对比
+---
+# Pilot：master-decision-hygiene 真原子切分对比
 
 ## 素材：Section "三、核心模型：五步法"（原文 ~2200 字）
 

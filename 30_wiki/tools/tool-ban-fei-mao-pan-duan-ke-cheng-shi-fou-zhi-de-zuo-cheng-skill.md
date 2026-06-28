@@ -36,7 +36,8 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
----# 技能：判断课程是否值得做成Skill
+---
+# 技能：判断课程是否值得做成Skill
 
 ## 用一句话讲清楚
 

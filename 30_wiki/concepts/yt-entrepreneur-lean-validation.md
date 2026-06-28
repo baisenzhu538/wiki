@@ -76,7 +76,8 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 
----# 低成本验证/MVP
+---
+# 低成本验证/MVP
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

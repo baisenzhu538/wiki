@@ -64,7 +64,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-管理三段论
 status: superseded
----# 管理三段论：业务管理有章可循
+---
+# 管理三段论：业务管理有章可循
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

@@ -73,7 +73,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
 
----# 一堂五步法
+---
+# 一堂五步法
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

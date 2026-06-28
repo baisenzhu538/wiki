@@ -23,7 +23,8 @@ source_refs:
 - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
   - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
----# 产品内核十大典型指标：从获客到推荐的度量框架
+---
+# 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
 

@@ -25,7 +25,8 @@ related:
 - [[graph-rag]]
 - [[yt-model-pan-product-36-strategies]]
 - [[yt-model-pan-product-aesthetic-toolkit]]
----# Agent 原生知识卡设计规范 v2
+---
+# Agent 原生知识卡设计规范 v2
 
 ## 定位
 

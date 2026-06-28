@@ -58,7 +58,8 @@ reviewed_by: laowantong
 confidence: 0.8
 trust_level: medium
 
----# 7-S Framework：组织诊断的七维模型
+---
+# 7-S Framework：组织诊断的七维模型
 
 > 来源：Peters & Waterman (1982). *In Search of Excellence*; Waterman, Peters & Phillips (1980). "Structure is not organization"
 > 核心：组织效能不取决于单一要素，而取决于 7 个要素（3 硬 + 3 软 + 1 核心）是否相互匹配。

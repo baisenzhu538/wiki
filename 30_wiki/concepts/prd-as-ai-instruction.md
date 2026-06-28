@@ -41,7 +41,8 @@ diagnostic_signals:
     follow_up: "把预期流程写成PRD加载给AI，连续3次结果一致"
   - lens: "边界不清"
     follow_up: "检查PRD是否包含边界条件：什么时候停止、什么时候转交人类"
----# PRD文档作为AI可执行指令
+---
+# PRD文档作为AI可执行指令
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述，第430-448行)
 

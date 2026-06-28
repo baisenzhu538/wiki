@@ -24,7 +24,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
----# 萃取器升级：regex → LLM-based 暗知识提取
+---
+# 萃取器升级：regex → LLM-based 暗知识提取
 
 > **问题**：`extract_dark_knowledge.py` 纯 regex 方案提取的 118 条候选质量不可接受。
 >   - title 全部为空

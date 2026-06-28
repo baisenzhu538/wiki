@@ -29,7 +29,8 @@ source_refs:
 - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 source_refs:
   - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
----# 商业预判15字诀
+---
+# 商业预判15字诀
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。主动定中局→充分做加法→专业做减法，将创业成功率从10%提升至30%以上。[[yitang-course-map]] | [[yt-system-course-catalog]]
 >

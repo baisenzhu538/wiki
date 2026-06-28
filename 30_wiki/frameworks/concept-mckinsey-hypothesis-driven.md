@@ -44,7 +44,8 @@ author: 老顽童
 confidence: 0.85
 trust_level: medium-high
 
----# Hypothesis-Driven Approach：假设驱动工作法
+---
+# Hypothesis-Driven Approach：假设驱动工作法
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Friga, P. N. (2003). *The McKinsey Mind*
 > 核心：面对复杂问题，先形成初始假设（而非收集全部数据），再围绕假设设计验证路径，用数据证实或证伪假设，快速迭代。

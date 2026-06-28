@@ -23,7 +23,8 @@ related:
   - [[ocr-泛产品设计-用户卡片-峰终定律]]
   - [[ocr-顶级产品追求的方向-乔布斯]]
   - [[ocr-泛产品设计的应用场景示意图]]
----# OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）
+---
+# OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）
 
 > ⚠️ **校审结论**：OCR 对 13 张需求卡片的编号与层级结构识别混乱，部分核心概念（“最小解”“触点”“峰终定律公式”）定义不清。当前仅保留“三级能力体系 + 动力阻力模型 + 惊喜公式”等碎片化洞察，不建议直接作为工具使用。建议结合原图人工校对或迁移为独立的 yt-panproduct-demand-toolkit 概念卡。
 
@@ -89,14 +90,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article/tutorial/report/analysis or empty>

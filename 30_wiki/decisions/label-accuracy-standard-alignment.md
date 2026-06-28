@@ -27,7 +27,8 @@ id: label-accuracy-standard-alignment
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 标注准确率标准对齐
+---
+# 标注准确率标准对齐
 
 > **背景**：黄药师报 88.3%（4 维），欧阳锋实测 79.3%（9 维）。双方口径不一致。
 > **目的**：统一标准，避免 P-17 重演。

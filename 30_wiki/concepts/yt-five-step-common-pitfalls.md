@@ -57,7 +57,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 
----# 暗知识：五步法常见误区与认知陷阱
+---
+# 暗知识：五步法常见误区与认知陷阱
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-implementation]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]]
 

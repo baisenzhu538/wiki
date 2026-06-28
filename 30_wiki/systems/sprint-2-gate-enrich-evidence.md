@@ -21,7 +21,8 @@ related:
   - [[kdo-ec-industrialization-migration-proposal]]
   - [[plan_20260503_f3e9a2b1-improvement-plan]]
   - [[dk-f1-regex-on-cjk]]
----# Sprint 2 门禁系统 + Enrich 举证 — 设计规格
+---
+# Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 
 > 黄药师起草，提交欧阳锋审查。对应迁移方案 Sprint 2。
 

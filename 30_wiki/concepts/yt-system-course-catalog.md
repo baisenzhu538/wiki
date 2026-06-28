@@ -300,13 +300,12 @@ trust_level: medium
 
 ### 关联卡片
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 知识体系定位
 
 本索引是从 4 张课程清单 OCR 提取的全量课程目录，作为查课工具——按地图/阶段/模块快速定位课程名称和选课口令。与 IPO 完整清单互补：IPO 清单按学习要素组织，本索引按课程体系组织。

@@ -28,7 +28,8 @@ related:
 - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
 - [[smart-medicine-cabinet-national-policy-redlines]]
 - [[smart-medicine-cabinet-o2o-cost-structure]]
----# 消费者购药行为与智能药柜接受度
+---
+# 消费者购药行为与智能药柜接受度
 
 > **核心定位**：从需求侧梳理消费者夜间/应急用药需求、购药渠道偏好、对智能药柜的信任障碍与支付意愿，为智能药柜的产品设计、选址和定价提供输入。
 

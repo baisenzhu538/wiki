@@ -65,7 +65,8 @@ trust_level: medium
 
 superseded_by: tool-泛产品落地-假设拆解
 status: superseded
----# 假设拆解：拆解出影响产品成败的关键假设
+---
+# 假设拆解：拆解出影响产品成败的关键假设
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

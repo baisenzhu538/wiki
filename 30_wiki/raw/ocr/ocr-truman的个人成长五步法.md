@@ -84,14 +84,12 @@ Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "Truman's Five-Step Personal Growth Framework — Decoded & Contextualized: A Comparative Analysis with 一堂's '顶天立地' Methodology" — reconciling OCR-corrupted capability taxonomy with validated 一堂 curriculum structure, resolving '高效IPO' semantic ambiguity through cross-reference with course 402's Input-Process-Output model, and mapping the 'free innovator' dual classification against 一堂's four-map progression>

@@ -149,11 +149,10 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Feedback Path
 
 应用本案例后，用以下问题复盘：

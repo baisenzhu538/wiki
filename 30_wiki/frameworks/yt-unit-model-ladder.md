@@ -31,7 +31,8 @@ related:
 - [[case-unit-model-gashapon]]
 - [[yt-management-scientific-decision]]
 - [[yt-decision-review]]
----- [[dk-modeling-logical-cleanliness-root]]
+---
+- [[dk-modeling-logical-cleanliness-root]]
 
 ## Reusable Knowledge
 
@@ -105,18 +106,16 @@ Snowden的Cynefin框架将问题分为五个域：清晰(Clear)、繁杂(Complic
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Open Questions
 
 - src_unknown

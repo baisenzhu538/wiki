@@ -64,7 +64,8 @@ type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
----# 最佳实践收集：积极搜集最佳案例
+---
+# 最佳实践收集：积极搜集最佳案例
 
 > 审美工具箱第 1 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

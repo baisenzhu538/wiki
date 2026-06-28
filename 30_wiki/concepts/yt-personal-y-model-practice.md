@@ -25,7 +25,8 @@ source_refs:
 - src_20260614_842be4c9-一堂-Y模型实操探索营
 source_refs:
   - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
----# Y模型实操：科学成事的底层操作系统
+---
+# Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]
 

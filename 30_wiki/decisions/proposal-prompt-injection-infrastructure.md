@@ -26,7 +26,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 提案：提示词自动注入体系
+---
+# 提案：提示词自动注入体系
 
 > **触发**：2026-06-02 欧阳锋写了递归深挖法 prompt 和 Judge 三问 prompt，用户问"这些提示词如何自动注入执行计划的大模型中"。
 >

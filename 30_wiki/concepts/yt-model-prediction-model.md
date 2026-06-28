@@ -25,7 +25,8 @@ source_refs:
 - src_20260522_e71d89ff-ocr-预判模型
 source_refs:
   - pending_archive:src_20260522_e71d89ff-ocr-预判模型
----# 预判模型：从最糙版到复杂版的三种预判范式
+---
+# 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
 >

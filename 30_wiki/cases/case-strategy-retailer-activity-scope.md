@@ -20,7 +20,8 @@ related:
   - [[tool-strategy-category-role-matrix]]
   - [[tool-strategy-customer-selection]]
   - [[tool-strategy-value-proposition]]
----**对比矩阵**：
+---
+**对比矩阵**：
 
 | 维度 | 零售商A | 零售商B | 零售商C |
 |--|--|--|--|

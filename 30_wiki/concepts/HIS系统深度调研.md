@@ -24,7 +24,8 @@ related:
   - [[街顺app全面调研报告]]
   - [[保达云诊所深度调研报告]]
   - [[鑫港湾his系统分阶段整改报告]]
----# HIS系统深度调研
+---
+# HIS系统深度调研
 
 ## Summary
 
@@ -99,21 +100,18 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **与已有概念的矛盾/互补：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Open Questions
 
 1. 陕西亚创"1600家客户/70%复购率"的数据来源是什么？是否为厂商自报？第三方审计数据是否存在？

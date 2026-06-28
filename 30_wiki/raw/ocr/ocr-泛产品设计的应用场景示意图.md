@@ -82,14 +82,12 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "泛产品设计跨域迁移评估框架" — 针对一堂方法论中"地图级产品能力"的批判性分析文章，系统梳理装修设计/婚礼设计/SaaS等13个垂直领域的产品岗位成熟度差异，建立"领域产品化指数"评估模型，回应Open questions中关于范畴扩张理论依据与岗位需求真伪的质疑>

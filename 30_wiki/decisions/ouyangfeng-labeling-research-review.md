@@ -26,7 +26,8 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
+---
+# 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 
 > 调研范围：2025-2026 年 AI-powered 数据标注、RAG 元数据治理、LLM 自动标签的行业实践
 > 关键来源：NVIDIA Enterprise RAG Blueprint、Amazon Multi-Turn RAG (KDD 2025)、ATLAN Data Prep for LLM (2026)、Enterprise Knowledge Auto-tagging Guide、BISE Semi-Automatic Taxonomy (2026)、百度开发者 NLP 打标体系

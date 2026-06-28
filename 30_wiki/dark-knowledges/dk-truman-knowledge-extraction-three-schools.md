@@ -74,7 +74,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: A流派（知识付费派）商品属性凌驾于可迁移性
   follow_up_question: 这个结论是出自单人单案例，还是从大量案例中抽象出的共性解法？换到我的场景中是否还成立？
----# 知识萃取三流派：99%的知识付费只是A，一堂做B+C
+---
+# 知识萃取三流派：99%的知识付费只是A，一堂做B+C
 
 ## 原始表述 / 核心洞察
 

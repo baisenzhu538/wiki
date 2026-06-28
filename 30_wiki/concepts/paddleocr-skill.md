@@ -21,7 +21,8 @@ related:
   - [[tinyfish-agentic-web-infrastructure]]
   - [[ocr-微信图片_20260507004758_35_32]]
   - [[ocr-微信图片_20260507004806_40_32]]
----# PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
+---
+# PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 
 > 百度 PaddlePaddle 出品，GitHub 74K+ stars，PP-OCRv5 中文准确率 ~97.8%。**本地部署方案已投产**：Node.js + ONNX Runtime，零网络依赖。
 
@@ -112,11 +113,10 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 补充：WSL 侧 Python PaddleOCR
 
 生产部署是 Windows Node.js ONNX 方案。WSL 侧另装了 `paddleocr 3.5.0`（Python），可用于更复杂的文档解析（PPStructureV3），但日常使用以 Node.js 方案为主。

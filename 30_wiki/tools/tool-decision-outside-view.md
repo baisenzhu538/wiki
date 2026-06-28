@@ -35,7 +35,8 @@ related:
   - [[master-decision-hygiene]]
   - [[tool-first-principles-assumption-classify]]
   - [[tool-cognitive-bias-12-check]]
----# 技能：团队决策外部视角法
+---
+# 技能：团队决策外部视角法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）
 > **核心**：团队对同一问题做判断时，先找历史基率，再独立评估，最后聚合——减少判断噪声。

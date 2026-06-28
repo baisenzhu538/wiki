@@ -21,7 +21,8 @@ related:
   - [[tool-ai-oral-spray-input]]
   - [[tool-ai-prd-for-ai]]
   - [[tool-ai-evidence-check]]
----# 技能：口喷式语音输入法
+---
+# 技能：口喷式语音输入法
 
 ## 原始表述
 

@@ -45,7 +45,8 @@ diagnostic_signals:
   follow_up: 团队硬伤必须诚实面对，不能靠学习能力掩盖。核心能力不匹配是致命缺陷
 - lens: Plan B缺失
   follow_up: Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分
----# 技能：商业预判15字诀
+---
+# 技能：商业预判15字诀
 
 ## Summary
 

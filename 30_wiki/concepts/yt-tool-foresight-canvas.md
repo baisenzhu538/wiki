@@ -54,7 +54,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----# 预判画布：从加法到减法的标准化工作台
+---
+# 预判画布：从加法到减法的标准化工作台
 
 ## 用途
 
@@ -180,12 +181,11 @@ trust_level: medium-high
 
 ## Synthesis
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |

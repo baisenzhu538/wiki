@@ -46,7 +46,8 @@ related:
   - src_unknown
   - src_unknown
   - src_unknown
----# 流程建模案例：10 个学员企业的 SOP 实践样本
+---
+# 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）
 

@@ -61,7 +61,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 
----## Summary
+---
+## Summary
 
 > **一句话**：“我觉得这个人不错”不是评估，是猜测。真正的评估是：**用一套“尺子”量化每个维度，用“刻度”确定打分标准，用“基准”找到参照系，用“权重”告诉你哪些维度值得花更多时间”。
 
@@ -185,16 +186,14 @@ Y 模型尺子刻度法是一堂在投资、招聘、选品等高风险决策场
 
 ### Wikilinks
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### Contradictions
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Feedback
 
 ### 摩擦记录

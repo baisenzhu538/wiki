@@ -24,7 +24,8 @@ id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----# 飞轮基础设施提案
+---
+# 飞轮基础设施提案
 
 > **触发**：今晚六个循环的知识挖掘飞轮，全部是意外触发的——没有流程支撑。如果飞轮依赖"用户刚好说了一句不够深刻"，它就不会稳定转。
 > **提案**：把飞轮从人的习惯固化为系统的机制。

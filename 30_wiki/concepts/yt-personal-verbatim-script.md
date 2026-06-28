@@ -28,7 +28,8 @@ source_refs:
 - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
----# 逐字稿
+---
+# 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

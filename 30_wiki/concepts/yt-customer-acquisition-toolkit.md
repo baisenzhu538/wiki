@@ -52,7 +52,8 @@ updated_at: 2026-06-16
 author: "老顽童"
 related:
 - case-ether-online-acquisition
----# 获客工具合集
+---
+# 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

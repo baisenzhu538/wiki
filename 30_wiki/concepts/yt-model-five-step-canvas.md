@@ -49,7 +49,8 @@ diagnostic_signals:
 author: 老顽童
 trust_level: medium-high
 
----# 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+---
+# 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 
 > 来源：一堂知识地图《五步法画布》+《产品内核画布》。[[yt-entrepreneur-five-step-method]] | [[yt-entrepreneur-product-core]] | [[一堂]]
 

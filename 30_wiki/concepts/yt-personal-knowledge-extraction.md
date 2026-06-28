@@ -55,7 +55,8 @@ diagnostic_signals:
 author: 老顽童
 trust_level: medium
 
----# 一堂知识萃取探索营：从碎片经验到确定模型
+---
+# 一堂知识萃取探索营：从碎片经验到确定模型
 
 > 来源：一堂《知识萃取探索营》案例篇（Truman口述，约2小时）。[[一堂]] | [[yt-model-personal-map]] | [[yt-model-ipo-learning-strategy]]
 

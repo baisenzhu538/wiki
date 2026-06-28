@@ -26,7 +26,8 @@ source_refs:
 - src_20260614_1be3d76f-一堂-思维模型案例分享
 source_refs:
   - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
----# 思维模型：从碎片经验到稳定模型
+---
+# 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

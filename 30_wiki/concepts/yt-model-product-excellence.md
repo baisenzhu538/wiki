@@ -25,7 +25,8 @@ source_refs:
 - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 source_refs:
   - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
----# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+---
+# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
 > 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
 

@@ -26,7 +26,8 @@ related:
 - [[yt-system-course-map-lecture]]
 - [[yt-panproduct-demand-user-segmentation]]
 - [[yt-panproduct-aesthetic-pool]]
----- [[yt-panproduct-demand-project-background]]
+---
+- [[yt-panproduct-demand-project-background]]
 
 # 诊所O2O外卖平台业务深度调研报告
 
@@ -90,19 +91,16 @@ related:
 ## Synthesis
 
 **与现有概念的关联：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **与已有概念的矛盾/互补：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 **可迁移场景：**
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ## Open Questions
 
 1. **互联网首诊放开的时间表和路径**：2026年是否会在部分省份试点？放开后诊所的"线上问诊+药品快递"模式是否合法化？

@@ -47,7 +47,8 @@ diagnostic_signals:
 - lens: "标准化缺失"
   follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
 
----# AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
+---
+# AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 
 > **核心定位**：一个普通人从”把AI当搜索框”到”搭建个人AI操作系统”的五层进阶框架。层级不是按工具难度排序，而是按**复利密度和责任边界**排序——越往上，AI替你创造的长期资产越多，你必须承担的验证、安全、维护责任也越大。
 
@@ -101,19 +102,18 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 ## Synthesis
 
 **与现有知识库的关联**：
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 **可迁移场景**：
-- [[pending_unknown]]
-- [[pending_unknown]]
+- 待补充链接
+- 待补充链接
 - src_unknown 成熟度评估：将五层转化为自评量表，每层设晋级标准（L1: 能识别幻觉，L2: 口述/重构/Wiki常态运转，L3: 有被外部验证的作品，L4: 有真实反复使用的用户，L5: 端到端系统不需要你亲自操作即可完成业务动作）
 
-- [[pending_unknown]]
+- 待补充链接
 ## Output Opportunities
 
 - src_unknown

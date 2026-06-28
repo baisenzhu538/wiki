@@ -82,15 +82,13 @@ Cyert 与 March 在《企业的行为理论》中指出：组织决策的核心�
 
 ### 与本库其他概念的关联
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
+- 待补充链接
 ### 可迁移场景
 
-- [[pending_unknown]]
-- [[pending_unknown]]
-
+- 待补充链接
+- 待补充链接
 ## Output Opportunities
 
 Content: <article: "项目背景诊断的8维度落差分析法" — 将一堂方法论体系中的"管理修炼"与"创业修炼"地图与OCR提取的8维度框架结合，形成可复用的项目启动前诊断指南，包含每个维度的落差度量标准、优先级判定矩阵及根因分析方法论>
