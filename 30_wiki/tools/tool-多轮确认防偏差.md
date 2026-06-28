@@ -42,16 +42,16 @@ related:
 5. 关键节点再次确认
 
 ## 适用场景
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 
 ## 为什么有效
 早期发现目标偏离，避免在错误方向上投入过多计算和修正成本
 
 ## 工具/环境
-- src_unknown
+- 待补充链接
 
 ## 常见失败模式
 - 待补充链接
@@ -63,4 +63,4 @@ related:
 - 待补充链接
 
 ## Feedback Path
-- src_unknown
+- 待补充链接

@@ -49,11 +49,11 @@ updated_at: '2026-06-17'
 
 ## Background
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -63,9 +63,9 @@ updated_at: '2026-06-17'
 
 "我当时在高铁上，把一堂所有可能的课先拉出来了。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **原则**：第一步不是判断，是 dump。先拉全再筛选。
 
@@ -73,9 +73,9 @@ updated_at: '2026-06-17'
 
 "陆宇说时间管理和人生方面是两端...新锐又说了他理解的联系...每个人都说了自己的联系。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### Step 3：竞品调研
 
@@ -131,11 +131,11 @@ Truman 对 AI 出模型的评价：
 
 ## 结果
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

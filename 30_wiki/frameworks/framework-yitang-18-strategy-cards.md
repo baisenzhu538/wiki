@@ -86,19 +86,19 @@ related:
 **核心**：在行动前，用调研验证关键假设，而不是边做边试。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -107,19 +107,19 @@ related:
 **核心**：找到行业内做得最好的，学习其成功因素。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -128,19 +128,19 @@ related:
 **核心**：持续跟踪竞争对手的动态，及时响应。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -151,20 +151,20 @@ related:
 **核心**：快速了解行业全貌，识别机会和威胁。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -173,20 +173,20 @@ related:
 **核心**：深度拆解一个公司，理解其战略、组织、产品、财务。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -195,19 +195,19 @@ related:
 **核心**：找到业务的最小单元，分析其经济模型。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -218,19 +218,19 @@ related:
 **核心**：聚焦一个关键问题，深度验证。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -239,19 +239,19 @@ related:
 **核心**：用二维矩阵可视化竞争格局。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -260,19 +260,19 @@ related:
 **核心**：找到差异化的坐标，避免同质化竞争。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -281,19 +281,19 @@ related:
 **核心**：根据定位，寻找对标案例和学习对象。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -304,19 +304,19 @@ related:
 **核心**：建立全局观，知道信息在哪里。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -325,19 +325,19 @@ related:
 **核心**：穷尽所有合法手段，拿到最高质量情报。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -348,19 +348,19 @@ related:
 **核心**：区分事实和观点，用事实说话。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -369,19 +369,19 @@ related:
 **核心**：用数字说话，建立可验证的模型。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -390,19 +390,19 @@ related:
 **核心**：多源印证，确保信息可信。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -411,19 +411,19 @@ related:
 **核心**：找到根因，而不是表面现象。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -434,19 +434,19 @@ related:
 **核心**：整合所有信息，形成统一结论。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -455,19 +455,19 @@ related:
 **核心**：调研不是一次性的，需要持续跟踪。
 
 **触发条件**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **执行标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **验收标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -485,20 +485,20 @@ related:
 ### 按场景组合
 
 **场景1：市场进入决策**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **场景2：产品定位决策**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

@@ -106,9 +106,9 @@ trust_level: medium
 
 ### 核心教育理念
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 一堂产品设计差异化的来源
 

@@ -55,21 +55,21 @@ related:
 
 ### 核心悖论：没有上下文不行，多了也不行
 
-- src_unknown
+- 待补充链接
 
-- src_unknown
+- 待补充链接
 
 ### 上下文质量的三条规则
 
-- src_unknown
+- 待补充链接
 
-- src_unknown
+- 待补充链接
 
-- src_unknown
+- 待补充链接
 
 ### 上下文与提示词的边界
 
-- src_unknown
+- 待补充链接
 
 ## Critique
 
@@ -91,9 +91,9 @@ related:
 
 **Claude Shannon**（信息论之父，贝尔实验室数学家）与 **Warren Weaver**在其经典论文 *The Mathematical Theory of Communication*（1949）中提出了通信的三个层级问题：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 上下文工程聚焦在 **Level B**——"我有没有把我的意思准确传达给 AI"。但 Shannon 的信息论提出了一个更根本的问题：**噪音（noise）和冗余（redundancy）的关系**。在人类语言中，你认为是"噪音"的信息（如"我们公司去年换过两任 CEO"）可能恰恰是影响决策效率的关键冗余——它不直接回答"该不该做 X"，但它改变了 AI 对"这个组织的执行能力"的判断。
 

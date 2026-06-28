@@ -48,20 +48,20 @@ related:
 4. 验证AI输出并整合入知识体系
 
 ## 适用场景
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 为什么有效
 AI提供即时个性化反馈，降低搜索和整理信息的认知负荷，加速理解循环
 
 ## 工具/环境
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 常见失败模式
 - 待补充链接
@@ -73,4 +73,4 @@ AI提供即时个性化反馈，降低搜索和整理信息的认知负荷，加
 - 待补充链接
 
 ## Feedback Path
-- src_unknown
+- 待补充链接

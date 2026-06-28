@@ -118,9 +118,9 @@ trust_level: medium
 
 ### 打磨的心理建设
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 

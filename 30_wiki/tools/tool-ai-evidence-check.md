@@ -46,13 +46,13 @@ related:
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 工具/环境
 
-- src_unknown
+- 待补充链接
 
 ## 常见失败模式
 
@@ -73,4 +73,4 @@ AI的骗局不在于"说错话"——而在于"说的好像很对"。这个三�
 
 ## Feedback Path
 
-- src_unknown
+- 待补充链接

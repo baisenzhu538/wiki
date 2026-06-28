@@ -43,24 +43,24 @@ source_refs:
 
 #### L1: N要素（最糙版）
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **使用要点**：追求"少即是多"——用最少的变量抓住核心矛盾。风险在于过度简化导致遗漏关键维度。
 
 #### L2: 雷达图（常用版）
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **使用要点**：维度选择比打分更重要。5-7个维度应满足MECE（ mutually exclusive, collectively exhaustive）原则。常见错误：维度之间高度相关（如"团队能力"和"执行力"），导致评估失真。
 
 #### L3: Checklist（复杂版）
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 **使用要点**：Checklist的价值不在于"检查"，而在于"防止遗漏"。最佳实践是每条Checklist条目都附带"如果此项不通过，会发生什么"的反面案例。
 
@@ -73,9 +73,9 @@ Gawande的研究表明，Checklist的有效性不取决于条目的多少，而�
 ### 建议
 
 预判模型的选择应遵循**"够用即可"原则**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 切忌在信息匮乏时用L3（过度工程化），或在信息充分时仍用L1（遗漏关键风险）。
 

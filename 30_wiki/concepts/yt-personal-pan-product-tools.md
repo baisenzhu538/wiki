@@ -116,9 +116,9 @@ trust_level: medium
 
 ### 关键教学决策
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 
@@ -138,8 +138,8 @@ Suchman 的核心洞见对"30 张卡牌"方法论的根本性挑战：卡牌是"
 
 **Donald Schön**（麻省理工学院教授，*The Reflective Practitioner* 和 *Educating the Reflective Practitioner* 作者）对一切"将专业能力编码为知识体系"的努力做出了一个优雅的区分：**"干爽高地"上的问题（the high ground）vs "沼泽低地"中的问题（the swampy lowlands）。**
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 Schön 的核心概念**"行动中反思"（reflection-in-action）**——从业者在行动的同时也在思考自己的行动、并根据新出现的意外调整行动——是 30 张牌方法论无法覆盖的核心能力。卡牌教的是"行动前的知识"，Schön 关心的是"行动中的智能"。前者可以事先准备，后者只能在沼泽中练出来。
 

@@ -1,12 +1,13 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "Wave 6 诊断已通过（2026-06-28）：欧阳锋终审确认决策科学域系统化 + 需求分析域深化两个盲区；#21 升级现有 decision-science-domain-digest + 4 张新建卡，#22 新建 5 张需求分析卡；老顽童当前执行 #19 B2 Synthesis section 死链清理"
+active_task: "补链 B 线修复中（2026-06-28）：B2 66 文件 Synthesis src_unknown 遗漏 + B3 68 孤岛 + 1367 缺括号 related 条目需修复；老顽童优先完成 B2，再修复 B3；Wave 6 #21/#22 暂缓入队"
 blockers:
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ Wave 6 诊断通过（2026-06-28）：欧阳锋终审确认决策科学域 14 reviewed + 需求分析域 10-20 reviewed，盲区识别合理；#21 决策科学域系统化、#22 需求分析域深化可入队生产；决策科学 index 改为升级现有 `decision-science-domain-digest` 而非新建"
-  - "🆕 老顽童按顺序领取 #19 B2 Synthesis section 死链清理（2026-06-28）：必须人工逐张审核；Synthesis 出链 ≥2；批量提交前 `--expect-changes` 门禁"
+  - "❌ B2 Synthesis section 清理被驳回（2026-06-28）：235 张已处理，但 66 个非 archive 卡片 Synthesis section 仍有 src_unknown（标题变体/段落占位遗漏）；清单 `90_control/.tmp/b2_synthesis_src_unknown_remaining.json`；状态 in_progress"
+  - "❌ B3 孤岛卡片补链被驳回（2026-06-28）：1042 张处理、86.7% 孤岛减少达标，但发现 68 张仍全 pending 孤岛 + 1367 个 related 条目缺 `[[...]]` + 122 个单引号包裹 + 若干纯文本句子；pending_unknown.md 需移到 system/；清单 `90_control/.tmp/b3_issues_summary.txt`；状态 in_progress"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"

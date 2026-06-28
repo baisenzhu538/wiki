@@ -47,7 +47,7 @@ diagnostic_signals:
 
 # 技能：Problem与Question区分法
 
-- src_unknown
+- 待补充链接
 
 ## 原始表述
 
@@ -107,4 +107,4 @@ AI时代AI能执行工具改变现实世界，区分Problem与Question避免将t
 
 ## Feedback Path
 
-- src_unknown
+- 待补充链接
