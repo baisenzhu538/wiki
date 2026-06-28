@@ -32,7 +32,7 @@ updated: 2026-06-27
 | fix-validate-v15-domain-filter | 修复 kdo validate --v15 的 --domain 过滤失效 | done | 黄药师 | P1 | fix-validate-v15-domain-filter.md |
 | validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
 | huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | reviewed | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md | 欧阳锋确认：建议 2 做 P0、建议 4 做 P1、建议 1 暂缓 P2、建议 3 本阶段不做 P3；黄药师执行建议 2 和 4 |
-| proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
+| proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 已移入停车场 | 欧阳锋 | P1 | parking-lot-ouyangfeng.md | 工作模式调整提案已移入欧阳锋停车场，待用户逐条拍板 |
 | laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress (wave2 reviewed, wave3 reviewed, 第八批 reviewed, wave4 in_progress, wave5 queued for WorkBuddy) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；wave3 14/14 欧阳锋终审通过；第八批 10/10 dk 卡欧阳锋终审通过，dark-knowledges 目录 lint ERROR 归零；wave4 由 Hermes 生产中；wave5 预分配给 WorkBuddy，等 wave4 完成后启动 |
 | review_20260628_ouyangfeng-wave1 | 欧阳锋审核：wave1 门禁快速清理 18 张卡 | reviewed | 欧阳锋 | P0 | review_20260628_ouyangfeng-wave1.md | 欧阳锋终审通过：18/18 卡 status 更新为 reviewed |
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |

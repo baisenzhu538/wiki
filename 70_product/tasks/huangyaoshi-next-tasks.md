@@ -19,7 +19,25 @@
 
 ---
 
-### Task E：诊断基础设施 v1（新增，优先级 🔴）
+### ✅ Task PL（新）：建立角色停车场机制（已完成，2026-06-28）
+
+> 背景：黄药师长期采用"停车场清单"工作方式——主线任务进行中，把不阻塞主线的洞察记录成清单，等空下来再讨论。用户决定将这种方式迭代进所有角色的工作方式，并在看板上让大家一目了然。
+
+**已完成动作**：
+1. 创建 `70_product/tasks/parking-lot-huangyaoshi.md`，迁移黄药师 P 系列 6 项任务
+2. 创建 `70/product/tasks/parking-lot-ouyangfeng.md`，放入欧阳锋工作模式调整提案
+3. 更新 `70_product/tasks/dashboard.md`，增加"角色停车场"汇总区块
+4. 更新 `.agent/context.md`，记录停车场机制上线
+
+**后续规则**：
+- 各角色自行维护停车场文件
+- 每月由王语嫣组织一次 5 分钟停车场 review
+- P1/P2 超过 30 天未动强制 review
+- 长期不做的任务标记 `已拒绝`
+
+---
+
+### Task E：诊断基础设施 v1（已完成，2026-06-11）
 
 > 背景：用户决定 KDO 要从"知识仓库"进化到"诊断伙伴"。需要基础设施支持对话式诊断——用卡片看具体商业问题，而非只检索卡片内容。
 
@@ -130,12 +148,93 @@
 
 ---
 
+### Task KF-021：705 张 source_refs hash 前缀补全为完整文件名（P0）
+
+> 来源：`huangyaoshi-next-tasks.md` 历史遗留。
+> 背景：KF-020 修复后，source_refs 离开了 `00_inbox/`，但只写了 hash 前缀（如 `src_20260610_91556342`），未写完整文件名。全库约 705 张卡存在此问题，导致 source 引用不精确、人不可读。
+
+**操作**：
+1. 扫描 `30_wiki/` 下所有 `source_refs` 以 `src_YYYYMMDD_hash` 格式且不含 `-` 的卡片
+2. 在 `10_raw/sources/` 中定位对应完整文件
+3. 将 frontmatter 中的 hash 前缀替换为完整文件名
+4. 如果同一 hash 前缀对应多个文件，需要人工判断
+
+**严禁**：
+- ❌ 不要只改引用而不确认文件存在
+- ❌ 不要批量改后不自检
+
+**验收标准**：
+- [ ] source_refs 中无纯 hash 前缀
+- [ ] 所有替换后的路径指向真实存在的文件
+- [ ] 质量门禁 P0=0、YAML errors=0
+- [ ] `kdo lint` 不新增 ERROR
+
+---
+
+### Task Q：出链门禁 — 新卡健康检查加强（P1）
+
+> 来源：王语嫣对标报告。新卡缺少最少出链数要求，孤岛知识是产能隐形杀手。
+
+**操作**：在自迭代检测器 A 中增加：
+
+| 检查项 | 失败条件 | 等级 |
+|:-------|:---------|:----:|
+| 出链数 ≥ 2 | Synthesis wikilink < 2 | WARN |
+| 有跨域链接 | 所有链接都在同一 domain | WARN |
+
+纯索引页面除外。工作量约 0.5 小时。
+
+---
+
+### P-1：查询结果 Core 优先排序（P1）
+
+> 来源：用户 2026-06-20，已迁移至 `parking-lot-huangyaoshi.md`。
+> 背景：`kdo query` 命中按 Core→Extended→Reference 分层，Agent 先扫骨架再下钻。当前 digest 已建 4/11 域，可在此基础上实现。
+
+**操作**：实现 query 结果分层排序。
+**工作量**：0.5 天。
+**依赖**：digest 已建 4/11 域（条件成熟）。
+
+---
+
+### P-6：business-research skill KDO 适配（P1）
+
+> 来源：用户 2026-06-20，已迁移至 `parking-lot-huangyaoshi.md`。
+> 背景：工具调用层翻译（WebSearch/WebFetch/Agent → kdo-tools/web_search.py），让 Hermes Agent（王语嫣/老顽童等）也能用。
+
+**操作**：完成技能调用层到 KDO 工具的翻译适配。
+**工作量**：1-2 小时。
+**依赖**：无。
+
+---
+
 ## 总体原则
 
 - **先单后全**：先在 1 张卡（终局光谱图）上手动填 diagnostic_signals 做验证，再批量铺开
 - **不破坏现有功能**：diagnostic_signals 和 diagnostic_relations 都是可选字段，缺省时所有现有行为不变
 - **bridges_to 只用于跨域桥接**：一堂体系内部的关系用已有的 `related`/`component_of` 字段，bridges_to 专门用于连接不同知识体系（如一堂体系↔经典商业框架）
 - **读纠正记录**：`60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md` 理解 P-7 教训
+
+---
+
+## ✅ 历史已完成
+
+### Task E 已完成（2026-06-11）
+
+黄药师确认 E1-E3+E5 全部完成，E4 暂缓。
+
+| 子任务 | 状态 | commit / 证据 |
+|:--|:--:|:-----|
+| E1 目录注册 | ✅ | `templates.py` — `60_feedback/diagnosis` 已注册 |
+| E2 diagnostic_signals | ✅ | `quality.py` `_check_diagnostic_signals()`，v15 validate WARN |
+| E2 bridges_to | ✅ | `graph.py` `fm_relation_fields` 新增 `"bridges_to": "bridges to"` |
+| E3 diagnostic_relations | ✅ | Graph RAG "diagnostic trigger" 边类型，dict 格式支持 |
+| E3 bridges_to | ✅ | 同上，复用已有 dict 处理逻辑 |
+| E3 index 过滤 | ✅ | `_collect_wiki_pages` 过滤 index/log/contradictions/links + type=index/catalog/meta |
+| E5 literature 目录 | ✅ | `templates.py` — `10_raw/literature` 已注册；`90_control/schemas/source-refs-standard.md` 已写；`10_raw/literature/README.md` 已建 |
+| E4 kdo diagnose | ⏸️ | 等老顽童在 ≥5 张卡上填 diagnostic_signals 后启动 |
+| KDO CLI | ✅ | pytest 526/528 pass；commit `72a7d60` |
+| 终局光谱图试金石 | ✅ | 3 diagnostic_signals + 3 diagnostic_relations 已填 |
 
 ---
 
@@ -1821,16 +1920,10 @@ errors: 84
 
 ---
 
-## 🅿️ 停车场（待排期，不阻塞当前任务）
+## 🅿️ 停车场
 
-> 来源：用户判断 / 王语嫣审计 / 欧阳锋审查 / 黄药师自发现。
-> 欧阳锋排期后移入上方任务清单。
-
-| # | 任务 | 来源 | 优先级 | 工作量 | 状态 |
-|:--:|:--|:--|:--:|:--:|:--:|
-| P-1 | **查询结果 Core 优先排序**：`kdo query` 命中按 Core→Extended→Reference 分层，Agent 先扫骨架再下钻。当前 digest 已建 4/11 域，可在此基础上实现 | 用户 2026-06-20 | P1 | 0.5d | 待排期 |
-| P-2 | **domain 自动加权**：Agent 已知当前工作域，`kdo query` 自动加权同域结果。依赖 domain 污染清零（欧阳锋进行中） | 用户 2026-06-20 | P1 | 1d | 待排期 |
-| P-3 | **卡片语义去重**：全库 2100+ 卡，需近重复检测→合并建议 | 用户 2026-06-20 | P2 | 2-3d | 待排期 |
-| P-4 | **过期检测**：`freshness: stale` 卡降权+标注"可能过时" | 用户 2026-06-20 | P2 | 1d | 待排期 |
-| P-5 | **多库架构设计**：四库拓扑（商业+人 / 电子+软件 / 结构工程 / 平面设计+推广）。调度中枢王语嫣（跨库 dashboard/production-queue）+ 欧阳锋质量终审 + 子库精简配置 + 启动序列 + Agent 分拆。2026-06-27 角色调整已反映 | 用户 2026-06-20 / 更新 2026-06-28 | P2 | 待定 | 待讨论 |
-| P-6 | **business-research skill KDO 适配**：工具调用层翻译（WebSearch/WebFetch/Agent → kdo-tools/web_search.py），让 Hermes Agent（王语嫣/老顽童等）也能用 | 用户 2026-06-20 | P1 | 1-2h | 待排期 |
+> **已迁移**：黄药师的停车场清单已独立为 `70_product/tasks/parking-lot-huangyaoshi.md`。
+> 机制说明：主线任务进行中，把不阻塞当前主线的洞察、改进点、待讨论方案记录在停车场。等空下来再和大家讨论/排期。
+> 升级路径：`待讨论` → `待排期` → 进入 `70_product/tasks/production-queue.md`。
+> 当前黄药师停车场 6 项任务详见：`[[parking-lot-huangyaoshi]]`。
+> `dashboard.md` 已增加"角色停车场"汇总区块，可一目了然查看各角色停车场状态。
