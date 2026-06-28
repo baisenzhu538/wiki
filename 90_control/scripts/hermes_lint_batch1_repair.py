@@ -80,24 +80,35 @@ def fix_body_leak(text: str, path: str) -> str | None:
     if fm is None or not sep:
         return None
     lines = fm.splitlines()
-    # Find the first line that looks like body content inside frontmatter.
+
+    # Case A: Body marker starts its own line inside frontmatter.
     cut_idx = None
     for i, line in enumerate(lines):
         stripped = line.lstrip()
-        if stripped.startswith("#") or stripped.startswith(">") or stripped.startswith("|"):
+        if (
+            stripped.startswith("#")
+            or stripped.startswith(">")
+            or stripped.startswith("|")
+            or re.match(r"\*\*[^*]+\*\*\s*[：:]", stripped)
+        ):
             cut_idx = i
             break
+
+    # Case B: Body marker is glued to the last frontmatter line (no newline before # or >).
+    if cut_idx is None and lines:
+        last = lines[-1]
+        # Find first body marker inside the last line.
+        m = re.search(r"(?=\s|^)(#\s+|>\s+)", last)
+        if m:
+            cut_idx = len(lines) - 1
+            prefix = last[: m.start()].rstrip()
+            suffix = last[m.start():].lstrip()
+            lines[-1] = prefix
+            lines.append(suffix)
+
     if cut_idx is None:
-        # Possibly the closing separator is missing and body is glued to last line.
-        if lines and not lines[-1].endswith("\n"):
-            # Try splitting at last line if it contains body marker.
-            last = lines[-1]
-            m = re.search(r"(#\s+|>\s+)", last)
-            if m:
-                cut_idx = len(lines) - 1
-                lines[-1] = last[: m.start()].rstrip()
-        if cut_idx is None:
-            return None
+        return None
+
     clean_fm = "\n".join(lines[:cut_idx]).rstrip()
     leaked = "\n".join(lines[cut_idx:]).lstrip()
     new_body = leaked + "\n" + body if body else leaked
