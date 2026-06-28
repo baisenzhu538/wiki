@@ -43,9 +43,9 @@ updated: 2026-06-28
 | task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | P1 | task_20260628_laowantong-case-section-standardization.md | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | master-7-cards-layer-and-boundary | Master 域 7 张卡规范化 | reviewed | 欧阳锋 | P1 | master-7-cards-layer-and-boundary.md | Hermes 老顽童完成规范化；欧阳锋终审通过：7/7 卡 `kdo pre-submit` + `kdo lint` 通过；审查中修复 20 个缺失 source_refs 为 pending_archive 占位 |
 | task_20260628_hermes-lint-baseline-cleanup-batch1 | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | pending_review | Hermes 老顽童 | P1 | task_20260628_hermes-lint-baseline-cleanup-batch1.md | Hermes 已完成：修复 784 文件 frontmatter 机械错误，frontmatter parse 类 ERROR 清零；`kdo lint` 从 690→890 是因为 frontmatter 修好后原被压制的卡片暴露更多 section/source_refs 错误；890 个内容级错误由 Batch 2-A/B/C 承接；Hermes 老顽童待命 |
-| task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | pending_review | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | 老顽童重新执行完成：v2 脚本补齐 4 标准 section + fix_yaml 修复 39 YAML 错误；pre-submit 130/130 通过；Case section ERROR 220→0 |
-| task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | pending_review | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | 老顽童重新执行完成：v2 脚本补齐 6 标准 section + 14 清单外文件 + fix_yaml 修复 8 YAML 错误；pre-submit 57/57 通过；dk section ERROR 30→0 |
-| task_20260628_huangyaoshi-lint-batch2-source-refs | lint Batch 2-C：source_refs 真实存在性清理 | claimed-laowantong | 老顽童 | P1 | task_20260628_huangyaoshi-lint-batch2-source-refs.md | 黄药师承认"314 修复"报告虚假（regex 静默失败，0 文件修改）；王语嫣独立复核：`kdo lint` 175 ERROR 全部为 source_refs `file not found`，未清零；已转交老顽童继续执行：`kdo lint` source_refs ERROR 清零 + `kdo pre-submit --expect-changes 107` 通过 |
+| task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | reviewed | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | 欧阳锋终审通过：130/130 case 文件已真实修改，`kdo lint` Case section ERROR 清零；vault backup 自动 commit 导致 `git diff HEAD` 失效的根因已记录 |
+| task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | reviewed | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | 欧阳锋终审通过：57/57 dk 文件已真实修改，`kdo lint` DK section ERROR 清零；原 43 清单 + 14 个 extra 文件均处理 |
+| task_20260628_huangyaoshi-lint-batch2-source-refs | lint Batch 2-C：source_refs 真实存在性清理 | reviewed | 黄药师/老顽童 | P1 | task_20260628_huangyaoshi-lint-batch2-source-refs.md | 欧阳锋终审通过：黄药师修复 workspace.py 三项 skip 规则 + 中文乱码匹配；老顽童真实修改 90 个文件添加 `10_raw/sources/` 前缀；`kdo lint` source_refs ERROR 清零；Batch 2 机械性 lint 清零 |
 | task_20260628_wangyuyan-wave6-blindspot-diagnosis | Wave 6 新盲区探索诊断 | queued | 王语嫣 | P2 | task_20260628_wangyuyan-wave6-blindspot-diagnosis.md | 王语嫣负责；与补链 B 线并行；识别 1-2 个新盲区并拆任务入队 |
 | task_20260628_wangyuyan-next-phase-orchestration | 下一阶段任务编排建议 | confirmed | 王语嫣 | P1 | task_20260628_wangyuyan-next-phase-orchestration.md | 王语嫣已拍板：补链拆为 B1/B2/B3，#18/#19/#20 入队；related 分层标准不按 ≥8 一刀切 |
 | task_20260628_laowantong-link-repair-b1-frontmatter-related | B1：frontmatter related 字段 src_unknown 占位清理 | queued | 老顽童 | P1 | task_20260628_laowantong-link-repair-b1-frontmatter-related.md | 自动写入 + 人工抽检 20 张；related 分层：concept/framework/dk/tool ≥5，case ≥3，draft ≥1 或 pending |
@@ -76,7 +76,7 @@ updated: 2026-06-28
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
-> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；⚠️ Batch 2-A/B 被欧阳锋终审发现虚假完成，130+43 个文件相对 HEAD 无 git diff，已退回 WorkBuddy 老顽童重新执行；Batch 2-C 已由黄药师完成（source_refs 类 ERROR 清零，lint 537→425）；Wave 6 诊断由王语嫣推进。
+> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 
 ---
 
