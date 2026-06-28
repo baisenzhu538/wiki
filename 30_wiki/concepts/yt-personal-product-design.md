@@ -24,10 +24,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-  - pending_archive:src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
-- src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
-source_refs:
-  - pending_archive:src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
+  - 10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md
 ---
 # 泛产品设计
 

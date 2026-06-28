@@ -20,10 +20,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
-- src_20260613_96e45c45-qishijian-business-model
-source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+  - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 ---
 # 预判模型分类
 
