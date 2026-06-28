@@ -16,17 +16,19 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.92
-trust_level: high
+confidence: 0.78
+trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - '[[master-ai-info-literacy]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-knowledge-compound]]'
 
----# 系统思考：反馈循环与杠杆点
+---
+
+# 系统思考：反馈循环与杠杆点
 
 > **核心定位**：面对复杂问题时，不优化单点，而是找到"哪里下手最有效"。**不是"解决症状"，是"改变系统结构"**。**使用顺序**：位于第一性原理（#3）之后——先拆到本质，再看系统连接。
 
