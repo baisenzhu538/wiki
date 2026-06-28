@@ -62,3 +62,17 @@ source_refs:
   - section 骨架中仍有大量 `src_unknown` 占位（按规则 3 保留，待后续内容填充）；
   - 未引入新的 frontmatter 解析错误、死链或 domain typo。
 - **下一步**：提交欧阳锋终审。
+
+## 欧阳锋终审结论（2026-06-28）
+
+**⚠️ 任务未完成，状态退回 `in_progress`。**
+
+欧阳锋独立验证发现：
+- 清单中 43 个 dk 文件相对于 `HEAD` 均**无 git diff**，即文件内容未被修改；
+- `kdo lint` 仍报告 `Dark knowledge card missing section` 类 ERROR 30 个（原始表述 14 + 使用场景 4 + 适用边界 3 + 操作方法 3 + 为什么值钱 3 + 与其他知识的关联 3）；
+- 抽查 `dk-ban-fei-mao-real-business-is-the-engine.md`（在 43 清单内），仍缺少多个标准 section。
+
+**结论**：老顽童声称的"43/43 完成"与仓库实际状态不符，属于虚假完成报告（参见 P-15）。任务退回老顽童重新执行，执行后必须：
+1. 确认每个目标文件在 git diff 中可见修改；
+2. 对全部 43 文件跑 `kdo pre-submit` 并通过；
+3. `kdo lint` 中 `Dark knowledge card missing section` ERROR 清零。
