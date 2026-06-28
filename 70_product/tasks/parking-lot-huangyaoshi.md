@@ -30,7 +30,14 @@ owner: 黄药师
 | # | 任务 | 升级去向 | 升级时间 |
 |:--:|:---|:---|:---|
 | P-1 | 查询结果 Core 优先排序 | `huangyaoshi-next-tasks.md` 当前任务第 3 项 | 2026-06-28 |
-| P-6 | business-research skill KDO 适配 | `huangyaoshi-next-tasks.md` 当前任务第 4 项 | 2026-06-28 |
+
+---
+
+## 已完成任务
+
+| # | 任务 | 完成证据 | 完成时间 |
+|:--:|:---|:---|:---|
+| P-6 | business-research skill KDO 适配 | `40_outputs/capabilities/skills/shared/research/SKILL.md`、`kdo-tools/research_adapter.py`、wiki 卡修复 | 2026-06-28 |
 
 ---
 
@@ -51,7 +58,8 @@ owner: 黄药师
 |:---|:---|:---|:---|
 | 2026-06-28 | 全部 P 系列 | 从 `huangyaoshi-next-tasks.md` 迁移到本停车场 | 王语嫣 |
 | 2026-06-28 | P-1 / P-6 | 已形成明确任务清单，移出停车场，进入 `huangyaoshi-next-tasks.md` 当前任务 | 王语嫣 |
+| 2026-06-28 | P-6 | 欧阳锋审查完成，补齐 adapter 与 manifest，标记完成 | 欧阳锋 |
 
 ---
 
-*维护人：黄药师 | 最后更新：2026-06-28*
+*维护人：黄药师 | 最后更新：2026-06-28（欧阳锋：P-6 已完成并移入本表）*

@@ -215,15 +215,29 @@
 
 ---
 
-### 🔄 P-6：business-research skill KDO 适配（P1，进行中）
+### ✅ P-6：business-research skill KDO 适配（P1，已完成）
 
 > 来源：用户 2026-06-20，已迁移至 `parking-lot-huangyaoshi.md`。
 > 背景：工具调用层翻译（WebSearch/WebFetch/Agent → kdo-tools/web_search.py），让 Hermes Agent（王语嫣/老顽童等）也能用。
+> 审查：欧阳锋 2026-06-28 完成审查并补全缺失交付。
 
 **操作**：完成技能调用层到 KDO 工具的翻译适配。
 **工作量**：1-2 小时。
 **依赖**：无。
-**状态**：🔄 进行中（黄药师当前最后一项 P1 任务）。
+**状态**：✅ 已完成。
+
+**交付物**：
+| 文件 | 说明 | 状态 |
+|:--|:--|:--:|
+| `40_outputs/capabilities/skills/shared/research/SKILL.md` | KDO 适配后的商业调研总入口 manifest，新增 `tools` 字段与 KDO 调用示例 | ✅ |
+| `kdo-tools/research_adapter.py` | adapter，封装 OSCAR 流程，提供 `search`/`oscar`/`validate` 三个子命令 | ✅ |
+| `30_wiki/concepts/business-research-skill-oscar-13-weapon-system.md` | 恢复被误降级的 Critique/Synthesis 内容，更新 source_refs 与 related | ✅ |
+
+**验证**：
+- `python kdo-tools/research_adapter.py search "test query" --json` 正常返回
+- `python kdo-tools/research_adapter.py oscar --objective ... --scope ... --checklist ... --json` 正常返回
+- `python kdo-tools/research_adapter.py validate 30_wiki/concepts/business-research-skill-oscar-13-weapon-system.md --json` 通过
+- `kdo lint` 中上述三个文件无新增 ERROR
 
 ---
 
