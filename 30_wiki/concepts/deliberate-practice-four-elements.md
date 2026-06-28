@@ -17,12 +17,15 @@ related:
   - "[[comfort-zone-expansion]]"
   - "[[timely-feedback-loop]]"
   - "[[deliberate-repetition]]"
+  - "[[ai-virtual-coach-prompt]]"
+  - "[[practice-card-decomposition]]"
+  - "[[ai-tool-learning-workbook]]"
 aliases:
   - "刻意练习四要素"
   - "四要素诊断"
 author: 老顽童
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: "2026-06-29"
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋

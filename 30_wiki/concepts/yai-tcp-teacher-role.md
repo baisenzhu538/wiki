@@ -16,13 +16,18 @@ related:
   - "[[ai-consultation-mindset-shift]]"
   - "[[deliberate-practice-four-elements]]"
   - "[[yai-counsel-role]]"
+  - "[[fixed-routine-design]]"
+  - "[[comfort-zone-expansion]]"
+  - "[[timely-feedback-loop]]"
+  - "[[deliberate-repetition]]"
+  - "[[ai-tool-learning-workbook]]"
 aliases:
   - "YAI TCPR"
   - "YAI 教师角色"
   - "T角色咨询法"
 author: 老顽童
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: "2026-06-29"
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
