@@ -79,8 +79,8 @@ AI 能力可以分成五层：问答层、工作流层、作品层、产品/应�
 
 与演员/导演模型的关系：
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 > 想要突破第二层，必须完成从演员到导演的切换。
 
@@ -112,24 +112,24 @@ AI 能力可以分成五层：问答层、工作流层、作品层、产品/应�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

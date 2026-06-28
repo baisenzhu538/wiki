@@ -67,9 +67,9 @@ related:
 ### 决策重新理解
 
 常见误区：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **一堂的决策定义**：决策 = 在有限信息下从多个选项中做出选择，并承担其后果。
 
@@ -94,16 +94,16 @@ related:
 
 ### 深度：提高评估精度
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 高度：拉长时间框架
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 决策陷阱清单
 

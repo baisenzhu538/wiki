@@ -67,17 +67,17 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 ## 核心要点
 
 1. **两个关键词：默认纳入 + 沉淀资产**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 2. **AI Native vs. 高级用户**
-   - src_unknown
-   - src_unknown：把 AI 嵌进流程，把经验固化为系统，效率提升可以是 3 倍甚至 10 倍。
+   - 待补充链接
+   - 待补充链接
 3. **本质是身份切换**
-   - src_unknown
+   - 待补充链接
 4. **复利来自高频**
-   - src_unknown
+   - 待补充链接
 5. **标准是隐藏的乘数**
-   - src_unknown
+   - 待补充链接
 
 ---
 
@@ -108,23 +108,23 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -146,9 +146,9 @@ AI Native 不是掌握很多 AI 工具，而是**遇到问题时默认把 AI 纳
 **回应**：AI Native 可以从个人高频痛点开始。自己先用起来，形成可演示、可复用的资产，再影响团队。王欢的课程设计就是为了让普通人在三小时内完成第一次身份切换。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

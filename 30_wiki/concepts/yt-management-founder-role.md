@@ -63,9 +63,9 @@ related:
 
 创始人最常见的死法不是战略判断错误，而是**角色错位**：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 角色边界一旦模糊，公司就从"靠体系运转"退化为"靠创始人续航"。一号位框架的价值在于：帮创始人区分"必须亲自盯的事"和"应该授权的事"，避免"忙得不可开交却离本质越来越远"。
 
@@ -81,10 +81,10 @@ related:
 ### 一号位的本质重新理解
 
 常见误区：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **一号位的定义**：一号位不是最高权力者，而是**最终责任承担者**——当所有决策链条走到尽头，"最后拍这一下板"的人。
 
@@ -163,9 +163,9 @@ related:
 | 8 | 我能列出下周要授权的 3 件具体事项及接手人 | ☐ | ☐ | ☐ |
 
 **修复动作模板**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 
@@ -214,15 +214,15 @@ related:
 
 ## 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesis
 

@@ -89,9 +89,9 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 3. **真实跑道** 通常落在两者之间；若差距 > 3 个月，说明回款不确定或支出控制弱
 
 **决策阈值**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **输出物**：一张 A4 纸，写下余额、月烧、跑道、Top 3 现金消耗项、Top 3 可追回款，贴在创始人桌面。
 
@@ -104,9 +104,9 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 ### 创始人为什么需要懂财务
 
 常见误区：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 三张报表的核心逻辑
 
@@ -139,10 +139,10 @@ source_context: （原 legacy，已从 title/context/filename 推断为 src_2026
 
 ### 财务管理的节奏建议
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 

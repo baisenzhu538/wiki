@@ -91,11 +91,11 @@ AI原生组织不是给现有公司结构加装AI工具，而是把AI作为公�
 
 ## 边界
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 失败模式
 
@@ -111,16 +111,16 @@ AI原生组织不是给现有公司结构加装AI工具，而是把AI作为公�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Question
 
@@ -140,26 +140,26 @@ Mintzberg在《组织结构的架构》中证明，中层管理的核心价值�
 
 ### Constraints
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesize
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Feedback Path
 
-- src_unknown
+- 待补充链接

@@ -63,9 +63,9 @@ Neil Postman (1985) 在*Amusing Ourselves to Death* 中提出，技术不仅改�
 
 ### 不要用的场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesis
 
@@ -95,7 +95,7 @@ Neil Postman (1985) 在*Amusing Ourselves to Death* 中提出，技术不仅改�
 
 ## Action Triggers
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

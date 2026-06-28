@@ -93,9 +93,9 @@ source_context: （原始 source 无法追溯，source_refs 已清空，待后�
 ### 目标管理重新理解
 
 常见误区：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **一堂的目标定义**：目标 = 方向共识 + 可量化的结果定义 + 定期复盘机制。
 
@@ -109,9 +109,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 | Key Result（关键结果） | 量化的成功标准 | 可测量、有挑战性（通常完成70%即为优秀）、有时限 | "努力做好"（不可测量） |
 
 **OKR 与 KPI 的区别**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### OKR 设定原则
 
@@ -124,15 +124,15 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 ### KR 的"好 vs 坏"判断标准
 
 好的 KR 满足 SMART 原则：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 示例对比：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### OKR 实施的常见陷阱
 
@@ -144,9 +144,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 ## 如何使用：季度 OKR 设定与复盘 SOP
 
 ### 进入标准
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 四步闭环
 1. **设定**：用业务公式/关键假设推导 O → 每个 O 写 3-5 个 SMART KR
@@ -175,9 +175,9 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 
 **W. Edwards Deming**（统计学家、质量管理之父，帮助日本战后工业复兴的核心人物）在其名著 *Out of the Crisis* 中直接将"目标管理"（Management by Objectives）列为管理的"七大致命疾病"之一。Deming 的论证：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 Deming 并非反对目标——他反对的是"只给数字不给方法"的目标管理。他的替代方案是"领导力替代目标管理"：管理者亲自下现场，理解过程的变异，帮助下属移除障碍，而不是坐在办公室看 KPI 仪表盘。OKR 试图通过"目标（定性）+ KR（定量）"的分离来解决这个问题，但 Deming 会指出：只要最后考核的还是 KR 数字，OKR 和 KPI 就没有本质区别。
 
@@ -187,9 +187,9 @@ Deming 并非反对目标——他反对的是"只给数字不给方法"的目�
 
 **Jerry Z. Muller**（美国天主教大学历史学教授，*The Tyranny of Metrics* 作者）系统性地整理了一个世纪以来"指标考核"在各行各业造成的灾难性后果。Muller 归纳了指标专政的几大失败模式：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 Muller 的核心洞见：**很多最重要的东西是根本无法被测量的**——员工的忠诚、品牌的吸引力、创新的萌芽——而在一个用指标管理一切的组织中，这些不可测量的东西会系统性贬值，最终消亡。
 
@@ -226,16 +226,16 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesis
 
@@ -249,7 +249,7 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 - 待补充链接
 - 待补充链接
 - 待补充链接
-- src_unknown：OKR 工具是管理者武器库中最精良也是最容易被滥用的武器——用得好是执行加速器，用不好是组织毒药。Deming+Muller 的警示就是这把武器的安全使用说明书
+- 待补充链接
 - 待补充链接
 ### 知识体系定位
 

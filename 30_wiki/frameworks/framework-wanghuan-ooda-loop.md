@@ -76,8 +76,8 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 在王欢的人机协作视角下，AI 和人各有擅长：
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 但这不意味着人可以把定向和决策完全甩给 AI。当 AI 同时扮演"生成者"和"评估者"时，容易出现盲区；因此导演模式下的人必须保留**定向判断权**和**最终验收权**。
 
@@ -94,10 +94,10 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 王欢用"一次成功是案例，三次是方法，十次是系统"来描述 OODA 的复利：
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -131,23 +131,23 @@ OODA 是一个四步决策闭环：**观察（Observe）→ 定向（Orient）�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

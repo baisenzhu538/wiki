@@ -97,36 +97,36 @@ tags:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## Critique
 
-- src_unknown  
+- 待补充链接
   **回应**：该架构并非取消程序员，而是把程序员的精力从逐行编码转移到需求拆解、约束定义和最终验收。AI 不懂的行业暗规则，恰好需要人的判断力来填补，人的经验反而更稀缺。
 
-- src_unknown  
+- 待补充链接
   **回应**：三层架构适用于需求可结构化、可定义验收标准的场景；在高度不确定的探索期，应先用最小原型验证假设，而不是硬套完整三层流程。
 
-- src_unknown
+- 待补充链接
 
 ---
 

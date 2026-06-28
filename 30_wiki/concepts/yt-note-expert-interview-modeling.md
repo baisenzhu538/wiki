@@ -108,9 +108,9 @@ Truman强调："当你记笔记记熟了之后，你开始有一点点剩余脑�
 
 ### claim:04 [conf=0.85] 解决"不尊重"困境的三个操作：先不投屏、双人访谈、提前说好
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### claim:05 [conf=0.78] 专家访谈式笔记的终极目标是"反向输出"——给对方一个比他自己的表达更厉害的框架
 
@@ -126,10 +126,10 @@ Truman的巅峰状态是：访谈结束时，他能够反向给对方讲"你看�
 
 ### Constraints（内部局限）
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 外部攻击（≥2位，不同范式）
 
@@ -206,13 +206,13 @@ Truman访谈萝卜干案例时，一边访谈一边记录，现场把碎片化�
 
 ## 单卡收尾检查
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

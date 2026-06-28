@@ -56,22 +56,22 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 ## 核心要点
 
 1. **两个 AI 角色**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 2. **知识隔离**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 3. **双轨存储：策略与话术分开**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 4. **评分顶层加"策略判断"维度**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 5. **可迁移行业**
-   - src_unknown
+   - 待补充链接
 
 ---
 
@@ -102,22 +102,22 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -139,10 +139,10 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 **回应**：单一 AI 同时扮演两个角色会破坏隔离原则。如果家长 AI 知道正确答案，对练就失去真实性；如果教练 AI 看不到全部，评价就失去专业性。角色分离不是技术能力不足，而是为了保证训练效果。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

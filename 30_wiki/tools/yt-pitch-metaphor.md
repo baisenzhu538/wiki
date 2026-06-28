@@ -105,8 +105,8 @@ trust_level: medium-high
 > 如果让你用你自己的话跟别人解释我们这个东西是什么，你会怎么说？
 
 **判定标准**：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ---
 

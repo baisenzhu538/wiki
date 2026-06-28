@@ -106,26 +106,26 @@ AI 协作的价值跃迁，本质是工作形态的跃迁：**从一次性任务
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -147,9 +147,9 @@ AI 协作的价值跃迁，本质是工作形态的跃迁：**从一次性任务
 **回应**：产品化可以且应该从个人高频痛点开始。自己先用起来，形成可演示、可复用的资产，再向上影响团队。王欢的课程设计就是为了让普通人在三小时内做出“下周还会用”的第一个产品。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

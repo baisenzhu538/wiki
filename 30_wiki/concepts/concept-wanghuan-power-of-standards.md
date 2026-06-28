@@ -61,15 +61,15 @@ tags:
 ## 核心要点 / 关键事实
 
 1. **标准是乘数，不是加数**
-   - src_unknown
+   - 待补充链接
 2. **导演的工作是定义标准，不是操作工具**
-   - src_unknown
+   - 待补充链接
 3. **行业知识变成标准库**
-   - src_unknown
+   - 待补充链接
 4. **标准要包含“不要做什么”**
-   - src_unknown
+   - 待补充链接
 5. **标准需要被显式迭代**
-   - src_unknown
+   - 待补充链接
 
 ---
 
@@ -118,18 +118,18 @@ tags:
 
 当你遇到以下情况，说明标准力量正在失效或缺失：
 
-- src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
 
 ---
 
@@ -161,25 +161,25 @@ tags:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -196,11 +196,11 @@ tags:
 **回应**：这正是为什么要保留 AI 尝试非常规方案的空间——标准定义的是底线和方向，不是唯一答案。导演的工作不是 micromanage 每个像素，而是设定约束后验收。`[[dk-wanghuan-spec-trap]]` 专门警告：过度拆解会锁死 AI 上限。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

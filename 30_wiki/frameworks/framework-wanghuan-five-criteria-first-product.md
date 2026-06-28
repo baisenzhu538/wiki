@@ -61,24 +61,24 @@ tags:
 ## 核心要点 / 关键事实
 
 1. **01 · 真实痛点 / Real Pain**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 2. **02 · 高频复用 / High Frequency**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 3. **03 · 30 秒说清 / 30s Pitch**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 4. **04 · 下周还会用 / Next Week Test**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 5. **05 · 你最熟的领域 / Your Domain**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 6. **最终校验三问**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 
 ---
 
@@ -154,24 +154,24 @@ tags:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -193,10 +193,10 @@ tags:
 **回应**：3 小时约束的是“最小可用版本”，不是成品。它强迫你砍掉非核心功能，只验证最痛的点。医语轻记第一天也只是“能跑的原型”，界面连设计稿都没出。合规、安全、体验是后续迭代项，不是 0 到 1 的门槛。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

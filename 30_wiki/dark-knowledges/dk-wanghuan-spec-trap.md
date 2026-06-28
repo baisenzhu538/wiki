@@ -128,22 +128,22 @@ review_date: '2026-06-28'
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -160,9 +160,9 @@ review_date: '2026-06-28'
 > **回应**：如果你说不清楚"符合"的标准，写再细也没用，因为 AI 无法推断你的隐性偏好。更好的做法是把审美/习惯转译成可检查的约束（例如"不能出现紫色渐变"、"必须使用无衬线字体"），然后让 AI 在约束内探索。你会发现 AI 给出的方案往往有你没想到的解法。
 
 **不要用**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

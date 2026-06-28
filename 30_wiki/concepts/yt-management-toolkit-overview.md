@@ -165,9 +165,9 @@ Mintzberg 的批判有三层：
 **Jeffrey Pfeffer**（Stanford GSB，"Leadership BS"作者）对领导力培训产业的经验批评构成了第二道攻击。Pfeffer 在《Leadership BS》(2015) 中系统记录了管理工具/培训项目的失败模式：它们设计精良、体验良好、参与者满意度高——但几乎不产生实际行为改变。
 
 Pfeffer 的数据：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 Pfeffer 的核心洞见：**管理工具的"科学感"本身就是一种安慰剂**。当你拿着 T2 的打分卡面试候选人时，你感受到的"我在科学评估"的确定性——与候选人实际绩效的预测准确度之间——没有可靠的相关性。工具卡让你感觉更好，但感觉更好不等于做得更好。
 
@@ -175,9 +175,9 @@ Pfeffer 的核心洞见：**管理工具的"科学感"本身就是一种安慰�
 
 ### 内部局限
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesis
 

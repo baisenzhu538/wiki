@@ -43,19 +43,19 @@ related:
 4. **关键要素提取**：哪些维度是决定性差异的来源
 
 **关键原则**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **输出形态**：
 ```
-- src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
-  - src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+- 待补充链接
+  - 待补充链接
+- 待补充链接
 ```
 
 ## Question
@@ -88,24 +88,24 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 
 ## Constraints & Boundaries
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Cases
 
 **正例：Truman的"X路线vs Y路线"对比**
 
 ```
-- src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+  - 待补充链接
+  - 待补充链接
+  - 待补充链接
+- 待补充链接
 ```
 
 这个对比的精妙之处不在于"列出了区别"，而在于**用同一套维度暴露了两种路线的底层逻辑差异**——X是"广度优先"，Y是"深度优先"。读者可以在看完对比后独立判断"哪条路线适合我"。
@@ -114,12 +114,12 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 
 某SaaS产品的竞品分析：
 ```
-- src_unknown
-- src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- 待补充链接
+- 待补充链接
+  - 待补充链接
+  - 待补充链接
+  - 待补充链接
+  - 待补充链接
 ```
 
 问题：维度选择完全偏向自己。"价格"和"功能数量"是自己的优势，"用户数"和"融资额"是竞品的优势，但报告只强调前两者的"胜利"。这不是对比分析，这是**选择性呈现**。
@@ -127,8 +127,8 @@ dk-note-human-creativity-ai-data 的核心分工在这里得到体现：AI擅长
 **边界案例：不可比性的发现**
 
 某团队尝试用同一套KPI对比"内容团队"和"技术团队"：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 初看"内容团队效率更高"。但深入后发现："产出量"对两个团队的定义完全不同——内容团队的"产出"是"发布一篇文章"，技术团队的"产出"是"上线一个经过测试的功能"。这个对比揭示了**"维度本身需要被重新定义"**，而不是"哪个团队更好"。
 

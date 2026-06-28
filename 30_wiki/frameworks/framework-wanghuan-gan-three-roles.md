@@ -102,22 +102,22 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -127,16 +127,16 @@ diagnostic_signals:
 
 **攻击者 1：成本敏感型工程师**
 "一个简单功能也要调四五个模型，时间和 API 成本直接翻几倍。大多数团队连一个模型都没用好，搞这么复杂只会让项目更慢。"
-- src_unknown
+- 待补充链接
 
 **攻击者 2：创作型写作者 / 设计师**
 " multiple critics 会抹掉个人风格，把作品磨平成安全但平庸的'AI 味'产物。真正的创意往往来自打破评审标准。"
-- src_unknown
+- 待补充链接
 
 **不要用**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

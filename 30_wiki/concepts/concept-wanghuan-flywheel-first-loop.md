@@ -58,18 +58,18 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 ## 核心要点
 
 1. **飞轮的三层资产**
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 2. **第 1 圈最难，第 3 圈模式浮现，第 10 圈你有系统**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 3. **飞轮的本质是积累，不是重复**
-   - src_unknown
+   - 待补充链接
 4. **飞轮怕停不怕慢**
-   - src_unknown
+   - 待补充链接
 5. **OODA 让飞轮转起来**
-   - src_unknown
+   - 待补充链接
 
 ---
 
@@ -100,23 +100,23 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -138,10 +138,10 @@ AI 飞轮第一圈，是把一个高频任务做成可复用产品，让每一�
 **回应**：飞轮的第一圈只需要一个"下周还会用"的最小产品。业务档案可以从 5 句话开始，模板可以从一个开始，暗规则可以从一条开始。边用边写，比一次性写完美更重要。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

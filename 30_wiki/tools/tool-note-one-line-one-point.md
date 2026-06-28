@@ -85,28 +85,28 @@ diagnostic_signals:
 
 ## 边界
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Protocol
 
 ### 步骤1：识别“信息承载者”与“噪音”
 
 **信息承载者**（必须保留）：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **噪音**（必须砍掉）：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **Truman原话**：“主体词、关键词和关键动作都得保留，语气词、插入语、解读细节、修饰语如果非必要的话全拿掉都用不着。”
 
@@ -119,9 +119,9 @@ diagnostic_signals:
 ```
 
 **判断标准**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **示例对比**：
 
@@ -190,13 +190,13 @@ diagnostic_signals:
 每个人有自己的口语习惯。记录自己**最常砍掉的词**，建立自己的“冗余黑名单”：
 
 **常见高频冗余词**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **操作**：连续记录3次自己的精简过程，找出**重复出现的被砍词汇**。把这些词写入自己的“冗余黑名单”，下次记录时**自动跳过**。
 
@@ -215,16 +215,16 @@ diagnostic_signals:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Example
 
@@ -243,13 +243,13 @@ diagnostic_signals:
 ```
 
 **问题诊断**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### ✅ 正例：精简后的笔记
 
@@ -266,26 +266,26 @@ diagnostic_signals:
 ```
 
 **关键改进**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 案例：Truman自己的精简训练
 
 Truman在口述中提到自己的进化路径：
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 他的训练方法是：**“给自己设置硬性约束，然后逼迫大脑适应”**。比如：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **关键洞察**：“一行一点”不是写作技巧，而是**认知筛选能力**的外化。当你能在一行内表达清楚，说明你已经在脑子里完成了“什么是重要的”这个判断。
 
@@ -301,11 +301,11 @@ Truman在口述中提到自己的进化路径：
 
 ## 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

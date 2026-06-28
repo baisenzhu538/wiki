@@ -61,19 +61,19 @@ related:
 
 ## Key Evidence
 
-- src_unknown
+- 待补充链接
 
-- src_unknown
+- 待补充链接
 
-- src_unknown
+- 待补充链接
 
 ## Constraints & Boundaries
 
 ### 内部局限
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 外部攻击
 
@@ -83,9 +83,9 @@ related:
 
 ### 不要用的场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Action Triggers
 

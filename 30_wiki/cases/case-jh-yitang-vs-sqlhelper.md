@@ -73,8 +73,8 @@ diagnostic_signals:
 
 一堂内部需要数据工具支撑课程运营、学员管理、直播、马拉松、MBA 等复杂业务；同时市场上存在面向广大开发者的通用数据库管理工具（SQLHelper）。两者都解决"人与数据库打交道"的问题，但走向了完全不同的产品形态：
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 这个案例回答的核心问题不是"哪个更好"，而是：**为什么同样的需求域，会分叉成两种完全不同的产品策略？**
 
@@ -108,8 +108,8 @@ diagnostic_signals:
 
 两个产品真正的分水岭不是"数据库能力"，而是**任务复杂度与领域知识广度**：
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 > **核心洞察**：产品策略的选择，取决于你要服务的系统有多复杂，而不是你要处理的数据有多复杂。
 
@@ -149,13 +149,13 @@ diagnostic_signals:
 
 ## 结果
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 两个产品各自成功，但成功的方式不同：
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -212,41 +212,41 @@ diagnostic_signals:
 ## 产品策略选型检查单
 
 ### 1. 目标用户
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 2. 任务复杂度
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 3. 领域知识
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 4. 增长速度
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 5. 关键假设
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 6. 取舍判断
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 7. 验证计划
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ### 8. 结构先行
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 ```
 
 **使用建议**：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ---
 

@@ -77,33 +77,33 @@ tags:
 
 > "收到简历 48 小时内没有回复的候选人，即使最后发了 offer，接受率也会低 30%——候选人已经用沉默表达了被忽视。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 02 · 销售（B端）
 
 > "客户说‘我要请示一下领导’，90% 的情况是他自己已经不想买了，但不方便直说。这句话是礼貌性拒绝，不是真的需要审批。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 03 · 招投标/商务
 
 > "300 万的项目，你的报价一般默认不会超过 285 万。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 04 · 培训
 
 > "学员在下午两点到三点之间注意力最低。这个时段放案例和互动，不放理论——不管理论多重要，在那个时段讲会全部白费。"
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -134,21 +134,21 @@ tags:
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -165,9 +165,9 @@ tags:
 > **回应**：暗规则的价值恰恰是帮你识别"什么时候不该用默认规则"。好的暗规则会自带边界和例外说明，它提供的是起点，不是终点。
 
 **不要用**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

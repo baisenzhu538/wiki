@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b3-island-cards
 type: task
-status: pending_review
+status: in_progress
 assignee: 老顽童
 priority: P2
 created_at: 2026-06-28
@@ -82,4 +82,29 @@ source_refs:
 ### 限制说明
 - 160 张卡片无推荐（正文无 wikilinks + 域级推荐无法覆盖 + 关键词搜索无匹配）
 - 部分卡片的推荐链接偏同 type 而非同域（如 yt-decision-depth-ladder.md），后续可优化推荐算法
-- 欧阳锋抽查 10 张
+
+## 欧阳锋终审结论（2026-06-28）
+
+**⚠️ B3 任务部分完成，退回修复。**
+
+欧阳锋独立扫描发现以下问题：
+
+| 问题 | 数量 | 说明 |
+|:---|---:|:---|
+| 仍全为 pending/src_unknown 的孤岛卡片 | 68 | 未达成"每张卡至少 1 个真实 wikilink"目标 |
+| `related` 条目缺少 `[[...]]` 包裹 | 1367 | 如 `case-ether-online-acquisition`，无法形成有效 wikilink |
+| `related` 条目被单引号包裹 | 122 | 如 `'[[framework-pan-product-organization]]'`，格式错误 |
+| `related` 条目为纯文本句子 | 若干 | 如 "续卡率与'满意度'正相关..."，这是正文内容误放入 related |
+| `pending_unknown.md` 位置 | 1 | 占位符卡放在 `30_wiki/concepts/` 不合适，应移到 `30_wiki/system/` 或 `30_wiki/_meta/` |
+
+**问题根因**：B3 脚本从正文提取 wikilinks 时只取了 ID，没统一加 `[[...]]`；对无推荐卡片没做降级处理；未清洗历史遗留的脏 related 数据。
+
+**修复标准**：
+1. 68 张孤岛卡片至少补 1 个真实 wikilink（或保留 pending_unknown 但需说明原因）
+2. 所有真实卡片 ID 必须用 `[[id]]` 包裹
+3. 移除纯文本句子型 related 条目（移到正文合适 section 或删除）
+4. 修复单引号包裹格式
+5. `pending_unknown.md` 移到 `30_wiki/system/pending_unknown.md` 并更新全库引用
+6. 修复后 `kdo lint` 无新增 ERROR，pre-submit 抽检通过
+
+**状态**：从 `pending_review` 改回 `in_progress`。

@@ -104,9 +104,9 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 
 王欢在课上对比了"丢了一个大客户，帮我分析原因"的三个版本：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 这验证了 BITCOE 的核心价值：**不是让 AI 更聪明，而是逼你自己把模糊消灭干净**。
 
@@ -144,24 +144,24 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -183,10 +183,10 @@ BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长�
 > **回应**：这正是 BITCOE 需要配合 [[framework-wanghuan-ooda-loop]] 迭代的原因。第一次写不完美是正常的，关键是用输出反推缺失的约束，把隐性的"不要"显性化。
 
 **不要用**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

@@ -130,12 +130,12 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 
 ### 最小启动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 失败症状自检
 

@@ -89,9 +89,9 @@ related:
 
 ### 常见卡段位陷阱
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 
@@ -101,9 +101,9 @@ related:
 
 **Robert Kegan**（哈佛大学教育学院教授，*In Over Our Heads* 和 *Immunity to Change* 作者）通过数十年的成人发展研究，提出了一个比"五段位阶梯"更深层的发展模型：**心智复杂度三阶段**。
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是学会了新技能，而是重建了你与世界的关系**。它不是"增加能力"，而是"改变你是谁"。
 
@@ -115,9 +115,9 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 **Barbara Kellerman**（哈佛大学肯尼迪政府学院领导力研究中心创始执行主任，*The End of Leadership* 和 *Leadership: The Great Wager* 作者）对"领导力产业"（Leadership Industry）进行了毁灭性批判。Kellerman 的核心论点：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 对五段位模型的直接攻击：你把它当作一个诊断和成长框架——但它在产业上更像一个市场营销工具。它让管理者觉得"我知道自己在哪、知道该往哪走"，从而产生进步感——但 Kellerman 会质问：这个进步感是否对应实际的领导效能提升？如果是，为什么领导力培训产业从 1980 年代的 $10B 膨胀到今天的 $370B，而员工敬业度、员工对管理者的信任、管理者实际表现却没有可测量的改善？
 

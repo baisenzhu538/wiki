@@ -87,9 +87,9 @@ updated_at: '2026-06-28'
 
 ### 内部局限
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 外部攻击
 
@@ -97,8 +97,8 @@ updated_at: '2026-06-28'
 
 ### 不要用的场景
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ## 失败模式
 
@@ -111,14 +111,14 @@ updated_at: '2026-06-28'
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接

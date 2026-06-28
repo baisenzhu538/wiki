@@ -68,9 +68,9 @@ related:
 ### 新人落地的重新理解
 
 常见误区：
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 **一堂的落地定义**：新人 Landing = 文化融入 × 关系建立 × 业务上手 × 早期正反馈，四者缺一不可。
 
@@ -115,8 +115,8 @@ related:
 
 **John Van Maanen**（MIT 斯隆管理学院教授）和 **Edgar Schein**（组织文化研究之父）在 1979 年的经典论文 *Toward a Theory of Organizational Socialization* 中提出了一个区分，对一切"新人落地框架"构成了根本性挑战：**制度化社会化（Institutionalized Socialization）vs 个体化社会化（Individualized Socialization）**。
 
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 Van Maanen & Schein 的核心洞见：**结构化 onboarding 做得越好，越容易滑向制度化社会化——而制度化社会化的代价是"新人视角的死亡"。** 你设计了一个完美的 90 天流程：Day 1 做什么、Week 1 学什么、Month 1 交付什么——新人按部就班走完，三个月后变成了"一个合格的我们"。但与此同时，新人刚入职时那种"外来的、新鲜的、能看出皇帝没穿衣服"的能力——被这个完美的流程彻底消灭了。新人不再问"为什么我们这样做"——因为他/她已经学会了"我们就是这样做"。
 

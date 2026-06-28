@@ -60,30 +60,30 @@ Harness 把一次复杂 AI 构建分解为**初始化、规划、技术栈选型
 ## 核心要点
 
 1. **Phase 0 · 初始化 & 预检**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 2. **Phase 1 · Planner：产品规划（Opus 模型）**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 3. **Phase 1.5 · TechStackSelector：技术栈选型（Opus 模型）**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 4. **Phase 2-5 · Sprint 对抗循环**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 5. **Phase 5.5 · Polish Sprint：审美精修**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 6. **Phase 6 · Ship Pipeline：最终交付**
-   - src_unknown
+   - 待补充链接
      1. AestheticReviewer（Opus）整体审美评分 ≥ 4.0 才过；
      2. 文档生成器写 README + CHANGELOG + KNOWN_LIMITATIONS 并提交；
      3. FreshCloneTester 从零克隆、按 README 操作，确认真的能跑；
      4. AuditTrail 生成从 spec 到 ship 的完整旅程记录。
 7. **关键设计：生成者与验收者分离**
-   - src_unknown
-   - src_unknown：6 小时 / 200 美元，16 个功能都能用，包括 AI 精灵图生成器、AI 关卡设计器，可以实际玩。
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
+   - 待补充链接
 
 ---
 
@@ -114,24 +114,24 @@ Harness 把一次复杂 AI 构建分解为**初始化、规划、技术栈选型
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
 ## 相关卡 / 互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 
@@ -234,10 +234,10 @@ Aesthetic Reviewer 最终审美验收
 **回应**：模型越强，对标准的依赖越高。Harness 的价值不在于弥补模型能力不足，而在于**把人的判断、行业标准和验收机制结构化**。即使模型能一次写对代码，它仍然需要人告诉它"对"的定义是什么。
 
 **不要用**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ---
 

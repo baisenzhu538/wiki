@@ -79,8 +79,8 @@ author: 老顽童
 ### 核心框架
 
 横向递进式光谱，左侧纵向双维度为纲：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 #### 预期层：7级终局区间
 
@@ -183,9 +183,9 @@ Paul Graham（Y Combinator）的"How to Get Startup Ideas"对所有机会评估�
 
 ## Framework Gallery
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Synthesis
 
