@@ -2,7 +2,7 @@
 id: product-business-strategy
 title: 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
 type: concept
-status: enriched
+status: reviewed
 domain:
 - product
 - business
@@ -15,12 +15,12 @@ source_refs:
 - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.65
 trust_level: medium
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 related: []
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发

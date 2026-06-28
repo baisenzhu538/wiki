@@ -2,7 +2,7 @@
 id: supply-chain-beverage
 title: 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡
 type: concept
-status: enriched
+status: reviewed
 domain:
 - supply-chain
 - beverage
@@ -15,10 +15,10 @@ source_refs:
 - 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 related: []
 confidence: 0.65
 trust_level: medium

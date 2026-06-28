@@ -33,12 +33,12 @@ updated: 2026-06-27
 | validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
 | huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
 | proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
-| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress (wave2 reviewed, wave3 pending_review, 第八批 in progress, wave4 claimed, wave5 queued) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；wave3 已完成待欧阳锋终审（审查任务单 review_20260628_ouyangfeng-wave3.md）；第八批 dk 清零由 WorkBuddy 负责；wave4 由 Hermes 负责；wave5 由 Hermes 负责 |
+| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress (wave2 reviewed, wave3 reviewed, 第八批 pending_review, wave4 claimed, wave5 queued) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；wave3 14/14 欧阳锋终审通过；第八批 dk 清零由 WorkBuddy 负责，待欧阳锋抽检；wave4 由 Hermes 负责；wave5 由 Hermes 负责 |
 | review_20260628_ouyangfeng-wave1 | 欧阳锋审核：wave1 门禁快速清理 18 张卡 | reviewed | 欧阳锋 | P0 | review_20260628_ouyangfeng-wave1.md | 欧阳锋终审通过：18/18 卡 status 更新为 reviewed |
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 欧阳锋终审通过：25/25 卡 status 更新为 reviewed；遗留 case section / dk 目录 / concept 目录债务已记录 |
 | task_20260627-lanyi-panproduct-organization | 兰毅泛产品组织化 + 泛产品设计域升级 | reviewed | 欧阳锋 | P0-P1 | task_20260627_laowantong-lanyi-panproduct-organization.md | 欧阳锋终审通过：12/12 张卡 status 更新为 reviewed；审查中修复 3 张 case section + 5 个目录移动 |
-| task_20260628_laowantong-dark-knowledges-batch8 | dark-knowledges 第八批清零：补齐 10 张问题 dk 卡 | queued | 老顽童（WorkBuddy） | P0 | task_20260628_laowantong-dark-knowledges-batch8.md | WorkBuddy 老顽童 wave3 收尾；补齐 10 张 dk 卡缺失 section |
+| task_20260628_laowantong-dark-knowledges-batch8 | dark-knowledges 第八批清零：补齐 10 张问题 dk 卡 | pending_review | 老顽童（WorkBuddy） | P0 | task_20260628_laowantong-dark-knowledges-batch8.md | WorkBuddy 老顽童完成：10 张 dk 卡 pre-submit 全通过；dark-knowledges 目录 lint ERROR 归零；待欧阳锋抽检 |
 | task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理（已完成） | done | 黄药师 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 已拆分 |
 | task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | P1 | task_20260628_laowantong-case-section-standardization.md | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | review_20260627_ouyangfeng-self-attack-framework | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | P1 | 30_wiki/frameworks/framework-kdo-self-attack.md |
@@ -64,6 +64,6 @@ updated: 2026-06-27
 - **In Progress**: 0
 - **Queued**: 6（详见 `production-queue.md`）
 - **Pending**: 1
-- **Review Done**: 9 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization)
+- **Review Done**: 10 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。

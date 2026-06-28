@@ -2,7 +2,7 @@
 id: ai-hackathon-pitches
 title: AI 大航海项目路演：主题综合索引卡
 type: concept
-status: enriched
+status: reviewed
 domain:
 - ai
 - ' entrepreneurship'
@@ -23,10 +23,10 @@ source_refs:
 - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:

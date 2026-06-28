@@ -2,7 +2,7 @@
 id: yitang-methodology-system
 title: 一堂方法论体系：从科学做事到无限进步
 type: concept
-status: enriched
+status: reviewed
 domain:
 - yitang
 - methodology
@@ -29,10 +29,10 @@ source_refs:
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related: []

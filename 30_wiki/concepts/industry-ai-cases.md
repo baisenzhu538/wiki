@@ -2,7 +2,7 @@
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
-status: enriched
+status: reviewed
 domain:
 - ai
 - industry
@@ -19,10 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260614_eed6d83c-AI四格漫画创作交流.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 related: []
 confidence: 0.65
 trust_level: medium

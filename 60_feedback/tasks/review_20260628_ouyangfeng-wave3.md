@@ -10,7 +10,7 @@ scope: 老顽童批量工单 wave3：P1 深度补全 14 张卡终审
 related:
   - '[[laowantong-batch-2026-06-20-wave3]]'
   - '[[task_20260628_laowantong-dark-knowledges-batch8]]'
-status: pending_review
+status: reviewed
 ---
 
 # 欧阳锋审查任务：wave3 P1 深度补全（14 张卡）
@@ -144,8 +144,63 @@ status: pending_review
 |:---|:---|:---|
 | 2026-06-28 | WorkBuddy 老顽童完成 wave3 全波次生产 | WorkBuddy 老顽童 |
 | 2026-06-28 | 王语嫣写本审查任务单 | 王语嫣 |
-| 待填写 | 欧阳锋终审 | 欧阳锋 |
+| 2026-06-28 | 欧阳锋终审通过；审查中清理 14 张卡 frontmatter 中 domain/related/tags 的 src_unknown 占位 | 欧阳锋 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28*
+## 7. 欧阳锋终审结论
+
+**Verdict：通过**
+
+### 审查动作
+
+- 全量 14 张卡 `kdo pre-submit`：14 passed / 0 failed
+- `kdo lint`：14 张卡无新增 ERROR；全库 lint ERROR 从 618 降至 **533**
+- 抽查建模域 3 张卡 + 综合卡 3 张卡：内容深度达标，结构完整
+- 检查 frontmatter：14 张卡 domain/related/tags/src_unknown 全部清理
+- 检查 related 死链：20 个 related 链接全部指向真实存在的卡片
+
+### 审查结果
+
+| 检查项 | 结果 |
+|:---|:---|
+| 14 张卡 `kdo pre-submit` 全通过 | ✅ 通过 |
+| 建模域 5 张卡有具体案例/Critique | ✅ 通过 |
+| 综合卡 9 张格式转换完成 | ✅ 通过 |
+| 口述数据已降级 confidence 并标注 | ✅ 通过 |
+| 4 张药柜/医疗内容已剥离到 `90_control/itingnao-kit/medical-queue/` | ✅ 通过 |
+| frontmatter 无 src_unknown 占位 | ✅ 通过（审查中已清理） |
+| related 链接无断裂 | ✅ 通过 |
+| 卡片目录/type 对齐 taxonomy | ✅ 通过 |
+
+### 审查中修复的问题
+
+1. **14 张卡 frontmatter 中存在 src_unknown 占位**
+   - domain 字段：全部替换为合理的 domain 值（modeling / ai / business / finance / industry / personal-growth / product / supply-chain / yitang / methodology）
+   - related 字段：将 `src_unknown-capability-system`、`src_unknown-three-stages` 等占位替换为真实 `[[id]]` 链接；6 张卡的相关链接已补齐
+   - tags 字段：删除所有 `src_unknown` 占位
+
+2. **3 张旧升级卡目录未随 type 调整**
+   - `yt-composite-pan-product-methodology`：`concepts/` → `frameworks/`
+   - `yt-model-pan-product-three-virtues`：`concepts/` → `frameworks/`
+   - `yt-model-pan-product-climbing-map`：`concepts/` → `frameworks/`
+
+### 已执行动作
+
+1. 14 张卡片 frontmatter 更新：
+   - `status: enriched` → `reviewed`
+   - `reviewed_by:` → `欧阳锋`
+   - `review_date:` → `2026-06-28`
+   - `updated_at:` → `2026-06-28`
+2. `70_product/tasks/production-queue.md` wave3 状态改为 `reviewed`
+3. `70_product/tasks/dashboard.md` wave3 状态改为 `reviewed`，Summary Review Done +1
+4. `.agent/context.md` 追加 wave3 终审完成记录
+
+### 解锁下游任务
+
+- wave4（Hermes 老顽童）已解锁，可开始生产
+- 第八批 dk 清零（WorkBuddy 老顽童）已解锁，可继续执行
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | 终审：欧阳锋*

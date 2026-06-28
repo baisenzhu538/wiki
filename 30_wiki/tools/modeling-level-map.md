@@ -5,17 +5,17 @@ domain:
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
-status: enriched
+status: reviewed
 source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
 source_refs:
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:

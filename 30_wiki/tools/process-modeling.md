@@ -2,7 +2,7 @@
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
-status: enriched
+status: reviewed
 domain:
 - modeling
 - yitang
@@ -16,10 +16,10 @@ source_refs:
 - 10_raw/sources/src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related: []

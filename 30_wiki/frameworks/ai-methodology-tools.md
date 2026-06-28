@@ -2,7 +2,7 @@
 id: ai-methodology-tools
 title: AI 方法论与工具栈：主题综合知识卡
 type: framework
-status: enriched
+status: reviewed
 domain:
 - ai
 - methodology
@@ -22,10 +22,10 @@ source_refs:
 - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related: []

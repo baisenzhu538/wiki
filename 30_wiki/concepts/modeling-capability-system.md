@@ -5,17 +5,17 @@ domain:
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
-status: enriched
+status: reviewed
 source_context: 一堂 2026-06-12 建模能力培训课程
 source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 tags: []

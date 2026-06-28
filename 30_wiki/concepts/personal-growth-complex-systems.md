@@ -2,7 +2,7 @@
 id: personal-growth-complex-systems
 title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡
 type: concept
-status: enriched
+status: reviewed
 domain:
 - personal-growth
 - complex-systems
@@ -17,10 +17,10 @@ source_refs:
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags: []
 created_at: '2026-06-14'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-20'
+review_date: '2026-06-28'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-cognitive-bias-checklist]]'
