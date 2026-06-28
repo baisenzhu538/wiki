@@ -2,7 +2,7 @@
 id: task_20260629_laowantong-expand-ai-learning-concept-cards
 title: 扩展 AI 工具学习方法论原子概念卡
 type: task
-status: queued
+status: reviewed
 source_refs:
   - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
   - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
@@ -111,12 +111,12 @@ updated_at: "2026-06-29"
 
 ## 交付标准
 
-- [ ] 7 张新卡片全部创建完成
-- [ ] 所有卡片 frontmatter 符合 concept.yaml
-- [ ] 所有卡片正文结构完整，无 `src_unknown` 占位
-- [ ] 卡片之间链接关系建立
-- [ ] `kdo lint` 无新增 ERROR
-- [ ] `kdo pre-submit` 通过
+- [x] 7 张新卡片全部创建完成
+- [x] 所有卡片 frontmatter 符合 concept.yaml
+- [x] 所有卡片正文结构完整，无 `src_unknown` 占位
+- [x] 卡片之间链接关系建立
+- [x] `kdo lint` 无新增 ERROR
+- [ ] `kdo pre-submit` 通过（任务本身产出无 ERROR；全量失败由历史遗留 case/dk 问题导致）
 
 ## 预计产出
 
@@ -127,3 +127,17 @@ updated_at: "2026-06-29"
 
 - 本任务可与 A1/A2 lint 清理任务并行，因为操作的是不同文件
 - 完成后由欧阳锋终审
+
+## 审查记录（欧阳锋）
+
+- **审查时间**：2026-06-29
+- **发现问题**：
+  1. `ai-virtual-coach-prompt.md`、`practice-card-decomposition.md`、`ai-tool-learning-workbook.md` 3 张 tool 卡正文缺少标准 section（Purpose / Protocol/Procedure / When NOT to Use / Critique），lint 报 WARNING。
+  2. `yai-counsel-role.md`、`yai-tcp-teacher-role.md`、`ai-tool-learning-curve.md` 未按任务要求在 `related` 中加入新卡片链接。
+- **已修复**：
+  1. 重构 3 张 tool 卡，补全 Purpose / Protocol/Procedure / When NOT to Use / Critique。
+  2. 更新 `deliberate-practice-four-elements.md`、`yai-counsel-role.md`、`yai-tcp-teacher-role.md`、`ai-tool-learning-curve.md` 的 `related` 字段，建立新旧卡片双向链接，并同步更新 `updated_at`。
+- **验证结果**：
+  - `kdo lint --diff`：0 new error；与本次修改文件相关的 WARNING 未新增。
+  - `kdo pre-submit`：全量仍因历史遗留 case/dk 问题 FAIL，但本次 7 张新卡及 4 张更新的旧卡均未出现在错误列表中。
+- **结论**：任务产出通过审查，状态置为 `reviewed`。
