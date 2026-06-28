@@ -59,9 +59,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 24-debt | `task_20260629_historical-debt-case-section-132` | 历史债务：132 个 Case card missing section 修复 | reviewed | 老顽童(Hermes) | 43 | 无 | `60_feedback/tasks/task_20260629_historical-debt-case-section-132.md` | 欧阳锋终审通过：43 文件 132 section 已补全；8 个战略 case 补全 reviewed_by/review_date；`kdo lint` 无 Case card missing section；pre-submit 本次产出无 ERROR |
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 全库 frontmatter 合规修复（循环处理直到归零） | reviewed | 老顽童(Hermes) | ~88 文件 + 22 目录 | 无 | `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 欧阳锋终审通过：frontmatter 类、目录结构类 ERROR 全部清零；`kdo pre-submit` 448/0 PASS；`kdo lint` 0 ERROR / 7507 WARNING；剩余 WARNING 为内容质量类，需单独任务处理 |
+| 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 机械类 WARNING 直接降噪 | pending_review | 老顽童(Hermes) | ~2700 WARNING | 无 | `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | Kimi 老顽童完成：调 lint 阈值 + 修复 435 文件 source_refs + 补录 1637 页面到 index + 给 751 个 tool 卡补 section 骨架；`kdo lint` 从 7507 降到 3286 WARNING；待欧阳锋终审 |
+| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Hermes) | ~3286 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 按 domain 分 14 批处理剩余内容债（copy-paste + L2 深度 + body 过短等）；每批独立 `kdo lint --domain <name>` |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡。
-> **当前 lint 基线**：`kdo lint` 全量 ERROR 已清零（含 frontmatter、目录结构、case section、source_refs 等）；剩余 7507 WARNING 为内容质量类（copy-paste、标题-列表不匹配等），不属于机械修复范围。
+> **当前 lint 基线**：`kdo lint` 全量 ERROR 已清零（含 frontmatter、目录结构、case section、source_refs 等）；机械类 WARNING 经 #27 处理后降至 3286；剩余为内容债（copy-paste、L2 深度、body 过短等），由 #28 按 domain 分批处理。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
 > **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
