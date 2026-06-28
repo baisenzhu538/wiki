@@ -1,8 +1,8 @@
 ---
 id: task_20260628_huangyaoshi-lint-batch2-source-refs
 type: task
-status: reviewed
-assignee: 黄药师
+status: pending_review
+assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
 updated_at: 2026-06-28

@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "Batch 2-A/B/C 全部 reviewed（2026-06-28）：机械性 lint ERROR 清零；正式进入补链阶段；王语嫣启动 Wave 6 诊断，老顽童领取 B1/B2/B3 补链任务"
+active_task: "老顽童已领取 B1 frontmatter related 占位清理（2026-06-28）：自动写入 + 人工抽检；王语嫣同步启动 Wave 6 诊断；Batch 2-A/B/C 全部 reviewed，机械性 lint ERROR 清零"
 blockers:
   - "✅ Batch 2-A/B reviewed（2026-06-28）：A 130 case + B 57 dk 文件已真实修改并 commit，`kdo lint` Case/DK section ERROR 已清零"
   - "⏳ Batch 2-C 数据层清理完成待终审（2026-06-28）：老顽童真实修改 90 个文件，为 175 个 source_refs 添加 `10_raw/sources/` 前缀；`kdo lint` source_refs ERROR 清零；`kdo pre-submit` 90/90 通过；`--expect-changes` 因 vault backup 自动 commit 无法用于本批；待欧阳锋终审"

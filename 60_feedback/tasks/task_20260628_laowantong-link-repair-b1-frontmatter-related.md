@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b1-frontmatter-related
 type: task
-status: queued
+status: claimed-laowantong
 assignee: 老顽童
 priority: P1
 created_at: 2026-06-28
