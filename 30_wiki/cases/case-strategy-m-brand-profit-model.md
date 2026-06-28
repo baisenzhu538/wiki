@@ -3,9 +3,9 @@
 id: case-strategy-m-brand-profit-model
 title: M品牌：从直营到代理加盟的连锁扩张盈利模式选择
 type: case
-status:
-created_at:
-updated_at: 2026-06-28 2026-06-28 enriched
+status: enriched
+created_at: 2026-06-28
+updated_at: 2026-06-28
 author: 王语嫣 → 老顽童
 confidence: 0.93
 trust_level: high

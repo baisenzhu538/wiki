@@ -3,9 +3,9 @@
 id: case-cambridge-novelists-survey
 title: 剑桥小说家对 AI 创作态度调查
 type: case
-status:
-created_at:
-updated_at: 2026-06-28 2026-06-28 enriched
+status: enriched
+created_at: 2026-06-28
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.80

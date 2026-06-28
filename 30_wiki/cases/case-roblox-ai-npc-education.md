@@ -3,9 +3,9 @@
 id: case-roblox-ai-npc-education
 title: Roblox AI NPC 与教育场景
 type: case
-status:
-created_at:
-updated_at: 2026-06-28 2026-06-28 enriched
+status: enriched
+created_at: 2026-06-28
+updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
