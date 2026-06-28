@@ -5,8 +5,8 @@ type: case
 domain:
 - yitang
 source_refs:
-  - pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-  - pending_archive:src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
+- pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
+- pending_archive:src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 status: enriched
@@ -16,9 +16,7 @@ estimated_tokens: 2800
 language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
-reviewed_by:
-- src_unknown
-- laowantong
+reviewed_by: src_unknown
 source_person: Truman（一堂创始人）
 source_context: Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
 query_triggers:

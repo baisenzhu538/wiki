@@ -9,8 +9,8 @@ domain:
 source_person: Truman
 source_context: 一堂五步法-产品内核课程案例
 source_refs:
-  - pending_archive:src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
-  - pending_archive:src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
+- pending_archive:src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
+- pending_archive:src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
 - src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
 - src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
 created_at: 2026-06-11
@@ -32,7 +32,7 @@ pipeline:
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: high# 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
+trust_level: high
 ---
 > 黄药师骨架 · 老顽童填内容
 

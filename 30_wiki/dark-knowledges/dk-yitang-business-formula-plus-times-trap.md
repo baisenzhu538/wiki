@@ -10,9 +10,9 @@ domain:
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
 source_refs:
-  - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+- pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+- pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral

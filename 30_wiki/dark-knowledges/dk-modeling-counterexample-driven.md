@@ -10,8 +10,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 source_refs:
-  - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-  - pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 created_at: '2026-06-14'
@@ -39,7 +39,7 @@ tags:
 - src_unknown
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
-author: 老顽童# 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+author: 老顽童
 ---
 ## 原始表述
 

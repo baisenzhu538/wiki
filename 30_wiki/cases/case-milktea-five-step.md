@@ -9,8 +9,8 @@ domain:
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
-  - pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
-  - pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
+- pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
+- pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 - src_20260508_03a07f45-一堂-案例拆解-串讲口述
 - src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 created_at: 2026-06-11
@@ -34,7 +34,7 @@ pipeline:
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学创业之路
+trust_level: high
 ---
 > 黄药师骨架 · 老顽童填内容
 

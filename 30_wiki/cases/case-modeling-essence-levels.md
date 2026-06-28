@@ -8,8 +8,8 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-  - pending_archive:src_20260614_3c3359d8-Truman-高阶建模-本质建模-案例-01
-  - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- pending_archive:src_20260614_3c3359d8-Truman-高阶建模-本质建模-案例-01
+- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - src_20260614_3c3359d8-Truman-高阶建模-本质建模-案例-01
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:

@@ -9,7 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
+- pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 created_at: 2026-06-09
 updated_at: 2026-06-28
@@ -40,7 +40,7 @@ pipeline:
 - src_unknown
 author: 纪浩
 confidence: 0.7
-trust_level: low# 案例：一堂Skill市场从伪需求到真实需求的四问验证
+trust_level: low
 ---
 ## 原始表述
 
