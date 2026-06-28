@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "补链 B 线全部 reviewed（2026-06-28）：B1/B2/B3 完成；老顽童可按队列领取 #21 Wave 6-A 决策科学域系统化 或 #22 Wave 6-B 需求分析域深化"
+active_task: "补链 B 线全部 reviewed（2026-06-28）：B1/B2/B3 完成；#21 Wave 6-A 已被 Hermes 老顽童领取，#22 Wave 6-B 待老顽童按顺序领取"
 blockers:
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"

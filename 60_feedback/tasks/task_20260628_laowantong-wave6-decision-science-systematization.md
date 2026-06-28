@@ -1,8 +1,8 @@
 ---
 id: task_20260628_laowantong-wave6-decision-science-systematization
 type: task
-status: queued
-assignee: 老顽童
+status: claimed-hermes
+assignee: 老顽童(Hermes)
 priority: P1
 created_at: 2026-06-28
 updated_at: 2026-06-28
