@@ -143,8 +143,8 @@ Pfeffer 更会质疑"精益独角兽"这个概念本身："只有 10 个人的�
 
 ### 与现有概念的冲突
 
-- src_unknown
-- src_unknown
+- [[framework-lean-false-model]]：精益创业的"低成本验证"路径与 Anthropic 的"AI 加速一切"叙事冲突——当开发成本降至零，验证成本反而可能上升（虚假 PMF 信号更易产生）
+- [[dk-modeling-ai-judgment-limit]]：AI 判断力的天然上限直接质疑"创始人变指挥家"的前提——如果 AI 的判断力本身不可靠，指挥家的指挥棒就是幻觉
 
 ---
 

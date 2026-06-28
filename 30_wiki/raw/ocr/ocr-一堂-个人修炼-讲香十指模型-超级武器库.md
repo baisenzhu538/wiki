@@ -85,13 +85,13 @@ Edward Tufte 在《视觉显示量化信息》中证明：信息过载会降低�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Output Opportunities
 

@@ -82,13 +82,13 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Output Opportunities
 

@@ -173,14 +173,14 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -202,7 +202,7 @@ Snowden 的核心洞见：**在复杂域中，"最佳实践"是一个危险的�
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]

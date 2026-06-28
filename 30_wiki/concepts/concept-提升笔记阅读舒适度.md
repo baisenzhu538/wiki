@@ -170,15 +170,15 @@ Truman给团队示范的访谈笔记：所有亮点标黄，所有课程延展�
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
 ## Action Triggers
 

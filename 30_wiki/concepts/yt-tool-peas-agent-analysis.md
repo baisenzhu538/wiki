@@ -156,10 +156,10 @@ PEAS 默认性能度量可以被明确写出。但人生最难的问题恰恰是
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

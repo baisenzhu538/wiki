@@ -101,18 +101,19 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 ## Synthesis
 
 **与现有知识库的关联**：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 **可迁移场景**：
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 - src_unknown 成熟度评估：将五层转化为自评量表，每层设晋级标准（L1: 能识别幻觉，L2: 口述/重构/Wiki常态运转，L3: 有被外部验证的作品，L4: 有真实反复使用的用户，L5: 端到端系统不需要你亲自操作即可完成业务动作）
 
+- [[pending_unknown]]
 ## Output Opportunities
 
 - src_unknown

@@ -75,13 +75,13 @@ png` 预判模型 N要素 最糙版 一般范式：2-3个基本的要素 常见�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 
 ### 不要用的场景

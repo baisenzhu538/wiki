@@ -166,14 +166,14 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -195,8 +195,8 @@ Goldratt 的替代方案——**关键链项目管理（Critical Chain）**—�
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]

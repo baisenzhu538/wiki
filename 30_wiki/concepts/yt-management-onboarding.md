@@ -164,13 +164,13 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -192,8 +192,8 @@ Edmondson 的核心洞见对 Landing 框架的直接挑战：你的 onboarding �
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]

@@ -80,13 +80,13 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Output Opportunities
 

@@ -84,13 +84,13 @@ Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Output Opportunities
 

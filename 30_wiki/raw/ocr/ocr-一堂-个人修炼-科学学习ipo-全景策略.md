@@ -80,13 +80,13 @@ jpg` 一堂科学学习P口·全景策略图第二版 堂 YitangScientificLearni
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 
 ### 不要用的场景

@@ -146,8 +146,8 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 ### 阶段三：验证
 
 每张 Hub Page 产出后：
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## 执行规范（更新）
 

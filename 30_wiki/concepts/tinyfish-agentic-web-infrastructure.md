@@ -124,10 +124,10 @@ tinyfish browser session create --url "https://example.com"
 
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### Skill 类型体系（至此形成三个品类）
 
@@ -139,9 +139,9 @@ tinyfish browser session create --url "https://example.com"
 
 ### 可迁移到 KDO 的改进
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

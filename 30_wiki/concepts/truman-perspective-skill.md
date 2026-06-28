@@ -139,20 +139,20 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 互补与冲突
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移到 KDO 的改进
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

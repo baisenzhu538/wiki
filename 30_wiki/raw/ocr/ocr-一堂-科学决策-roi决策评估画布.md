@@ -77,22 +77,22 @@ Page 的“多样性预测定理”证实，多元视角的集合可以提升预
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 
 
 ### 不要用的场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 
 

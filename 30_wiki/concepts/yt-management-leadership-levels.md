@@ -156,14 +156,14 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -185,6 +185,6 @@ Kegan 的核心洞见：**从一个心智阶段跨越到下一个阶段，不是
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]

@@ -67,19 +67,19 @@ Christensen 在《颠耆思考》中指出，颠覆性创新往往发生在"比�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Action Triggers
 

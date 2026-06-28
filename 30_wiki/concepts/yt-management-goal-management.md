@@ -239,16 +239,16 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 
 ### 相关卡/互链
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 - src_unknown：OKR 工具是管理者武器库中最精良也是最容易被滥用的武器——用得好是执行加速器，用不好是组织毒药。Deming+Muller 的警示就是这把武器的安全使用说明书
-- src_unknown
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -270,6 +270,8 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+
+- [[pending_unknown]]

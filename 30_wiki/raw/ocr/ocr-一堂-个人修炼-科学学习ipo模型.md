@@ -71,11 +71,11 @@ jpg` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - �
 
 ### 与本库其他概念的关联
 
-- src_unknown
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
+- [[pending_unknown]]
 
 ## Output Opportunities
 

@@ -71,17 +71,17 @@ Neil Postman (1985) 在*Amusing Ourselves to Death* 中提出，技术不仅改�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Open Questions
 

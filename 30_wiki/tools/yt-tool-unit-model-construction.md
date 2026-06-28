@@ -79,17 +79,17 @@ Gigerenzer & Goldstein (1996) 的"简洁启发式"(Fast and Frugal Heuristics)�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Open Questions
 

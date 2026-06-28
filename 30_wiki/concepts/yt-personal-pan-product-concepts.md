@@ -176,10 +176,12 @@ Epstein 的洞见对 Truman 泛产品设计课的双重意义：**泛不是更�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
 泛产品设计认知篇是 Truman 个人修炼体系中的"认知唤醒"入口，位于个人域的泛产品设计方法论簇。
+
+- [[pending_unknown]]

@@ -79,8 +79,8 @@ Aristotle 在《修辞学》中提出了修辞的三要素：信息（ethos）�
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Action Triggers
 

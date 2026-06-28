@@ -159,13 +159,13 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
@@ -186,6 +186,6 @@ Williamson 的"要挟问题"（Hold-up Problem）预测：如果你知道对方�
 
 ### 跨学科锚点
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]

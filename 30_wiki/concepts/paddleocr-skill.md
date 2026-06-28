@@ -112,10 +112,10 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 补充：WSL 侧 Python PaddleOCR
 

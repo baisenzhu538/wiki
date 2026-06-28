@@ -156,12 +156,12 @@ Truman 把预判过程浓缩为三句话：
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]

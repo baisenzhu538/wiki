@@ -109,9 +109,9 @@ Capability: playbook
 | **"过度归因到个人"** | 成功是因为CEO厉害 | 分析系统因素和可复制的条件 |
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

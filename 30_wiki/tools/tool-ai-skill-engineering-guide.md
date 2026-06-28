@@ -187,12 +187,12 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 
 ### 与本库其他卡片的关联
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
 

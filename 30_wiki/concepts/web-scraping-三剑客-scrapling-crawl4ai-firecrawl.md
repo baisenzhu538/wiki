@@ -165,9 +165,9 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

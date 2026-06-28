@@ -164,9 +164,9 @@ AI是模式匹配系统，不会自己创造结构。当上下文环境稳定、
 
 ### 关联说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ## Feedback Path
 

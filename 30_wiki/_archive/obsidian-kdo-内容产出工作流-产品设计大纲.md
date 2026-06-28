@@ -68,18 +68,18 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 ## Synthesis
 
 **与现有概念的关联：**
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 **与已有概念的矛盾/互补：**
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 **可迁移场景：**
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 不要用的场景
 

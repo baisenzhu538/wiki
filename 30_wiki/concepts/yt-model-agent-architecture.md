@@ -155,11 +155,11 @@ Gary Klein（认知心理学家，Macrocognition学派创始人，著有《Sourc
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 与已有框架的互补
 

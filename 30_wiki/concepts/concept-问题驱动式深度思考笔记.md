@@ -161,15 +161,15 @@ Truman在分析一个视频号爆款案例时，没有从"这个视频有哪些�
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
 ## Action Triggers
 

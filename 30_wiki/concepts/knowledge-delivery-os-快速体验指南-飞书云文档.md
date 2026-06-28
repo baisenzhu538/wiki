@@ -62,16 +62,16 @@ related:
 ## Synthesis
 
 ### 关联概念
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 互补与冲突
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
-- src_unknown
+- [[pending_unknown]]
 
 ---
 

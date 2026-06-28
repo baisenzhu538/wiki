@@ -178,12 +178,14 @@ JTBD 方法论在全球产品管理领域的接受度极高，但其成功案例
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
 泛产品设计实操篇是个人域泛产品设计方法论簇中的"需求层"课程。
+
+- [[pending_unknown]]

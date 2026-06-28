@@ -268,11 +268,11 @@ Daniel Willingham（《为什么学生不喜欢上学》）的核心论点：认
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-personal-checklist-notes]]：清单体笔记是十步框架的轻量替代——当书不值得深度加工时，30秒抓关键点即可
+- [[framework-kdo-self-attack]]：十步框架 EVIDENCE 模块的外部攻击收集与 KDO 自攻击方法论共通——都是主动寻找反驳证据
+- [[yt-model-ipo-learning-strategy]]：IPO 学习模型（输入→处理→输出）与十步框架的 IDENTITY→MODEL→ACTION 是同一学习闭环的不同粒度表达
+- [[dk-modeling-explanatory-vs-predictive-essence]]：十步框架 EVIDENCE 审计要求区分"解释性证据"与"预测性证据"——前者只能事后归因，后者才能指导未来决策
+- [[framework-lean-false-model]]：精益创业的"低成本验证"与十步框架的 CTA（最小行动）共享底层逻辑——先验证再投入
 
 ### 不要用的场景
 

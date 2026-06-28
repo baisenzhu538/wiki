@@ -77,12 +77,12 @@ related:
 ### 关联概念 跨领域对标
 
 **与现有概念的关联：**
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 **可迁移场景：**
-- src_unknown
+- [[pending_unknown]]
 
 ## Open Questions
 

@@ -78,13 +78,13 @@ png` 从看得见到磨得透  丹具象 打座  于道 问 理 中 RO分析 1  
 
 ### 与本库其他概念的关联
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 可迁移场景
 
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 
 ### 不要用的场景

@@ -198,10 +198,10 @@ Truman承担了这个设计任务。起点不是"怎么画一张好看的图"，
 
 ## Synthesis
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ---
 

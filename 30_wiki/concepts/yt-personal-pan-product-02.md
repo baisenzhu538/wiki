@@ -180,13 +180,15 @@ trust_level: medium
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
 泛产品设计落地篇是个人域泛产品设计方法论簇中的"执行层"课程——将认知篇的觉醒、框架篇的工具、需求篇的分析、审美篇的标准转化为持续的打磨行动。
+
+- [[pending_unknown]]

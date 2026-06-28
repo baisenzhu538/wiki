@@ -174,15 +174,15 @@ Truman访谈私域运营专家2小时，边记边问边建模。访谈结束时�
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
 ### 不要用的场景
 

@@ -180,19 +180,19 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
 ### 不要用的场景
 

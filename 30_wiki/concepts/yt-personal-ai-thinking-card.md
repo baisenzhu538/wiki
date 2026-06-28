@@ -165,11 +165,11 @@ AI 思维卡的问题在于：它是"先有模板，再填内容"。而 Ahrens �
 
 ### 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 与其他笔记方法的对比
 

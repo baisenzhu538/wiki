@@ -203,10 +203,10 @@ P 角色的核心能力是**信息密度保持**——不是简化用户的输�
 
 ## Synthesis
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]
 
-- src_unknown
+- [[pending_unknown]]

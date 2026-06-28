@@ -180,12 +180,14 @@ Schön 的核心概念**"行动中反思"（reflection-in-action）**——从�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
 泛产品设计工具篇是个人域泛产品设计方法论簇中的"工具层"课程。
+
+- [[pending_unknown]]

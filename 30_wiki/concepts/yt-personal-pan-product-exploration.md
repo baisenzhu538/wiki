@@ -170,11 +170,13 @@ Lave & Wenger 的核心洞见对探索营的致命一击：探索营是一个"�
 ### 关联卡片
 
 - src_unknown（yitang 域）
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
+- [[pending_unknown]]
 
 ### 知识体系定位
 
 泛产品设计探索营是个人域泛产品设计方法论簇中的"认知唤醒"入口。
+
+- [[pending_unknown]]
