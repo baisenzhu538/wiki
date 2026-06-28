@@ -119,8 +119,8 @@ related:
 
 ## 相关卡片
 
-- [[相关卡片 1]]
-- [[相关卡片 2]]
+- [[deliberate-practice-four-elements]]
+- [[ai-tool-learning-curve]]
 ```
 
 ---
@@ -215,7 +215,7 @@ related:
 | 目标域 | 桥接点 | 使用场景 |
 |:-------|:-------|:---------|
 | 产品管理 | [[productization-judgment|产品化判断]] | 把产品功能拆分为可测试的小卡片 |
-| 团队协作 | [[consultant-mode-yai-style|YAI 咨询模式]] | 团队共享练习卡片，互相监督 |
+| 团队协作 | [[yai-counsel-role|YAI 咨询模式]] | 团队共享练习卡片，互相监督 |
 | 教育设计 | [[yai-tcp-teacher-role|YAI 教师角色]] | 设计课程的练习卡片 |
 
 ---

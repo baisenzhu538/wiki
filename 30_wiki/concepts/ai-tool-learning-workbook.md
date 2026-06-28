@@ -19,7 +19,6 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
 - [[ai-tool-learning-curve]]
-- [[consultant-mode-yai-style]]
 - [[yai-counsel-role]]
 - [[fixed-routine-design]]
 - [[practice-card-decomposition]]
@@ -165,7 +164,7 @@ AI 工具学习工作手册
 ### 关联概念
 
 - [[ai-tool-learning-curve|AI 工具循序渐进学习曲线]] — 工作手册对应 L1-L6 的完整路径
-- [[consultant-mode-yai-style|YAI 咨询模式]] — 工作手册是 YAI 咨询模式的落地工具
+- [[yai-counsel-role|YAI 咨询模式]] — 工作手册是 YAI 咨询模式的落地工具
 - [[fixed-routine-design|固定套路设计]] — 工作手册中的练习卡片是固定套路的载体
 - [[practice-card-decomposition|练习卡片拆解]] — 工作手册使用练习卡片作为学习单元
 
@@ -174,7 +173,7 @@ AI 工具学习工作手册
 | 目标域 | 桥接点 | 使用场景 |
 |:-------|:-------|:---------|
 | 产品管理 | [[productization-judgment|产品化判断]] | 判断工作手册是否值得产品化 |
-| 团队协作 | [[consultant-mode-yai-style|YAI 咨询模式]] | 团队共享工作手册，统一学习路径 |
+| 团队协作 | [[yai-counsel-role|YAI 咨询模式]] | 团队共享工作手册，统一学习路径 |
 | 教育设计 | [[yai-tcp-teacher-role|YAI 教师角色]] | 用工作手册设计课程大纲 |
 
 ---

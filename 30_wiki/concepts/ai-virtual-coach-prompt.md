@@ -213,7 +213,7 @@ AI 虚拟教练提示词模板是一个结构化提示词，让 AI 扮演「专�
 | 目标域 | 桥接点 | 使用场景 |
 |:-------|:-------|:---------|
 | 产品管理 | [[productization-judgment|产品化判断]] | 用 AI 评估产品方案的质量 |
-| 团队协作 | [[consultant-mode-yai-style|YAI 咨询模式]] | 团队共享 AI 教练提示词模板 |
+| 团队协作 | [[yai-counsel-role|YAI 咨询模式]] | 团队共享 AI 教练提示词模板 |
 | 教育设计 | [[yai-tcp-teacher-role|YAI 教师角色]] | 设计 AI 辅助教学方案 |
 
 ---
