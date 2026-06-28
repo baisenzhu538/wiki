@@ -53,11 +53,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 20 | `task_20260628_laowantong-link-repair-b3-island-cards` | B3：孤岛卡片 `kdo link-suggest` 批量推荐 | reviewed | 老顽童(WorkBuddy) | 1042 | 无 | `60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md` | 欧阳锋终审通过：2014 YAML引号修复 + 163 bare id包裹 + 119句子删除 + 33张孤岛补真实wikilink + pending_unknown.md移到system/；孤岛卡片清零；lint 140 ERROR全为历史遗留无新增；pre-submit 抽检5/5 PASS；55张仍全pending为已知限制 |
 | 21 | `task_20260628_laowantong-wave6-decision-science-systematization` | Wave 6-A：决策科学域系统化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-decision-science-systematization.md` | 欧阳锋终审通过：5/5 卡片结构完整，lint 148 ERROR 全为历史遗留无新增；删除 framework-decision-quality-checklist 中重复 related；决策科学域 reviewed 从 14→18 |
 | 22 | `task_20260628_laowantong-wave6-demand-analysis-deepening` | Wave 6-B：需求分析域深化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-demand-analysis-deepening.md` | 欧阳锋终审通过：5/5 卡片结构完整，case section 英文标题改为中文；lint 140 ERROR 全为历史遗留无新增，且修复 8 个历史 case section 错误；5 张卡全部加入 index.md；pre-submit 5/5 PASS |
+| 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1：空 source_refs 清理 | queued | 黄药师 | 8 | 无 | `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 黄药师负责；修复 8 个 concept/tool 空 source_refs；找不到真实源文件的用 pending_archive 占位；使 source_refs 类 ERROR 清零 |
+| 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | queued | 老顽童(Hermes) | 132 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | Hermes 老顽童负责；补齐 132 张 case 卡的 4 个标准 section；没素材用 src_unknown + 待补占位；批量提交 `--expect-changes 132` |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡。
-> **当前 lint 基线**：`kdo lint` 剩余 890 ERROR（690 机械修复后基线 + 200 因 frontmatter 修复而暴露的内容错误），Batch 2-A/B/C 完成后预计降至 100 以下。
-> **人员状态**：Hermes 老顽童 Batch1 完成后待命；WorkBuddy 老顽童已领取 Batch 2-A/B；黄药师负责 Batch 2-C；王语嫣负责 Wave 6 诊断。
-> **执行顺序建议**：黄药师先投 0.5 天完成 Batch 2-C 的 URL lint 规则补丁（-16 ERROR），再与 WorkBuddy 的 A/B 并行推进；若 WorkBuddy 为单实例，建议先 A 后 B。欧阳锋按 pending_review 顺序终审。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + A1/A2 140 文件 lint 清零。
+> **当前 lint 基线**：`kdo lint` 剩余 140 ERROR（8 空 source_refs + 132 case section 缺失），A1/A2 完成后预计降至 0。
+> **人员状态**：黄药师负责 A1；Hermes 老顽童负责 A2；Wave 6 已完成；B1/B2/B3 已完成；欧阳锋按 pending_review 顺序终审。
+> **执行顺序建议**：A1 与 A2 可并行；A1 处理 8 个空 source_refs，A2 处理 132 个 case section 缺失；两者完成后全库 lint ERROR 归零。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 >
 > **🆘 临时分流（2026-06-27）**：Hermes 老顽童历史任务重，启动 Kimi 老顽童临时协助生产 2026-06-27 新标注任务。历史批量工单 waves 1-5 仍由 Hermes 负责；刻意练习域、渠道增长域、兰毅泛产品组织内容及跨域桥接卡由 Kimi 负责。欧阳锋/黄药师无感知——他们只按 pending_review 顺序审卡。
