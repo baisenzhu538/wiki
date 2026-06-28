@@ -16,17 +16,19 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.92
-trust_level: high
+confidence: 0.78
+trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - '[[master-ai-info-literacy]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-systems-thinking]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-knowledge-compound]]'
 
----# 第一性原理拆解器
+---
+
+# 第一性原理拆解器
 
 > **核心定位**：当你觉得"这个行业只能这么做"时，**不从"别人怎么做"出发，而是从最基本的物理事实、数学约束、经济规律重新推导**。不是"换一个角度想"，是"把别人的角度全部归零，从第一行开始重新写代码"。**使用顺序**：位于反脆弱检查（#5）之后、认知偏差自检（#1）之前——先生成选项，再检查选项。
 
