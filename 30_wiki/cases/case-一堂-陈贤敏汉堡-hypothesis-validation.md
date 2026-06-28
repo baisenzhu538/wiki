@@ -14,21 +14,11 @@ source_refs:
 - pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 - pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-08
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -57,6 +47,7 @@ diagnostic_signals:
   follow_up_question: 这个业务如果失败，最可能是因为哪2-3个前提不成立？每个前提有没有对应的最小验证实验？
 - framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
+
 ---
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设
 

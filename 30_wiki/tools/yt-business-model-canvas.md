@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——商业模式画布
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 商业模式画布——结构化梳理商业模式
-    follow_up_question: "你能用商业模式画布的9个要素描述你的商业模式吗？"
-  - framework_lens: 商业模式画布——画布帮助发现矛盾
-    follow_up_question: "你的价值主张和客户群体匹配吗？收费方式和渠道匹配吗？"
-  - framework_lens: 商业模式画布——画布对齐团队认知
-    follow_up_question: "你们团队一起填过商业模式画布吗？每个人填的结果一致吗？"
-  - framework_lens: 商业模式画布——9个要素缺一不可
-    follow_up_question: "你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？"
-  - framework_lens: 商业模式画布——画布简化复杂商业模式
-    follow_up_question: "用画布的9个要素，每个要素写一句话，能描述清楚吗？"
+- framework_lens: 商业模式画布——结构化梳理商业模式
+  follow_up_question: 你能用商业模式画布的9个要素描述你的商业模式吗？
+- framework_lens: 商业模式画布——画布帮助发现矛盾
+  follow_up_question: 你的价值主张和客户群体匹配吗？收费方式和渠道匹配吗？
+- framework_lens: 商业模式画布——画布对齐团队认知
+  follow_up_question: 你们团队一起填过商业模式画布吗？每个人填的结果一致吗？
+- framework_lens: 商业模式画布——9个要素缺一不可
+  follow_up_question: 你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？
+- framework_lens: 商业模式画布——画布简化复杂商业模式
+  follow_up_question: 用画布的9个要素，每个要素写一句话，能描述清楚吗？
 
 ---
 # 商业模式画布：一堂版

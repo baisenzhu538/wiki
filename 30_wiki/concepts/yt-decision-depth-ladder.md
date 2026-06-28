@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
@@ -31,18 +30,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -72,10 +64,11 @@ diagnostic_signals:
   follow_up_question: 你的分析里哪些数值是拍脑袋的？如果这些数值偏差 20%，结论翻不翻？
 - framework_lens: 深度过度泛化——L4 只适用于重大投资/融资/生死级战略，小额/高频/可撤回决策停在 L1/L2 更经济
   follow_up_question: 这个决策如果错了，最快多久能撤回？试错成本低于多少？如果一周内能撤回且成本 <1 万，停在 L1/L2 就够了
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
+
 ---
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
@@ -13,7 +9,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 created_at: 2026-05-05
 domain:
-  - src_unknown
+- src_unknown
 yitang:
   map: entrepreneur
   module: 调研方法论
@@ -24,8 +20,11 @@ reviewed_by: 黄药师
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -35,7 +34,7 @@ diagnostic_signals:
   follow_up_question: 你已经穷尽了多少个情报节点？
 - framework_lens: 调研有合规红线
   follow_up_question: 这个手段如果公开，是否会损害信任或触犯规则？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 confidence: 0.85
 trust_level: high

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡
 type: concept
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——免费增值
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 免费增值模式——需要设计付费转化路径
-    follow_up_question: "你的免费用户中，付费转化率是多少？转化路径设计了吗？"
-  - framework_lens: 免费增值模式——免费功能需要克制
-    follow_up_question: "你的免费功能是否足够让用户感知价值，但又不足以满足全部需求？"
-  - framework_lens: 免费增值模式——免费获客需要明确的变现路径
-    follow_up_question: "你的免费获客后，变现路径是什么？付费转化策略设计了吗？"
-  - framework_lens: 免费增值模式——付费功能需要明确价值
-    follow_up_question: "你的付费功能是否解决了用户的痛点？用户是否愿意为这些功能付费？"
-  - framework_lens: 免费增值模式——免费用户也有成本
-    follow_up_question: "你的免费用户成本是多少？是否被付费用户覆盖？"
+- framework_lens: 免费增值模式——需要设计付费转化路径
+  follow_up_question: 你的免费用户中，付费转化率是多少？转化路径设计了吗？
+- framework_lens: 免费增值模式——免费功能需要克制
+  follow_up_question: 你的免费功能是否足够让用户感知价值，但又不足以满足全部需求？
+- framework_lens: 免费增值模式——免费获客需要明确的变现路径
+  follow_up_question: 你的免费获客后，变现路径是什么？付费转化策略设计了吗？
+- framework_lens: 免费增值模式——付费功能需要明确价值
+  follow_up_question: 你的付费功能是否解决了用户的痛点？用户是否愿意为这些功能付费？
+- framework_lens: 免费增值模式——免费用户也有成本
+  follow_up_question: 你的免费用户成本是多少？是否被付费用户覆盖？
 
 ---
 # 免费增值模式：获客与变现的平衡

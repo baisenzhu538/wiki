@@ -1,18 +1,15 @@
 ---
-
-
-
 id: framework-wanghuan-say-think-do-toolchain
 title: 王欢说→想→做工具链框架
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -25,25 +22,19 @@ source_refs:
 - src_unknown
 diagnostic_signals:
 - lens: 角色定位
-  follow_up: '追问“谁负责定义目标与验收标准？”若只有执行没有定义，说明仍在演员模式'
+  follow_up: 追问“谁负责定义目标与验收标准？”若只有执行没有定义，说明仍在演员模式
 - lens: 资产沉淀
   follow_up: 检查是否已将输入结构、约束、样例固化成可复用模板或 AI 业务档案
 - lens: 分层诊断
-  follow_up: '回到“想”层重新拆解需求，必要时回到“说”层补全背景与约束'
+  follow_up: 回到“想”层重新拆解需求，必要时回到“说”层补全背景与约束
 - lens: 工具链成熟度
   follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -52,7 +43,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢说→想→做工具链框架
 
 > **Burn line**: AI 协作的工具链可以分成三层：说（输入）、想（推理）、做（执行）。

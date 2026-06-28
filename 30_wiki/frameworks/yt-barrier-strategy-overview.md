@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——壁垒策略总纲
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
-    follow_up_question: "你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？"
-  - framework_lens: 壁垒策略总纲——单一技术壁垒不够，需要多层次壁垒
-    follow_up_question: "除了技术，你还有什么壁垒？网络效应、品牌、数据、生态？"
-  - framework_lens: 壁垒策略总纲——壁垒可以帮助突破增长天花板
-    follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - framework_lens: 壁垒策略总纲——壁垒保护定价权，避免价格战
-    follow_up_question: "你的壁垒是否足够强，让用户愿意付溢价？"
-  - framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
-    follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
+- framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
+  follow_up_question: 你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？
+- framework_lens: 壁垒策略总纲——单一技术壁垒不够，需要多层次壁垒
+  follow_up_question: 除了技术，你还有什么壁垒？网络效应、品牌、数据、生态？
+- framework_lens: 壁垒策略总纲——壁垒可以帮助突破增长天花板
+  follow_up_question: 你的壁垒能否帮你拓展新市场、新用户、新场景？
+- framework_lens: 壁垒策略总纲——壁垒保护定价权，避免价格战
+  follow_up_question: 你的壁垒是否足够强，让用户愿意付溢价？
+- framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
+  follow_up_question: 你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？
 
 ---
 # 壁垒策略总纲：从增长到可持续优势

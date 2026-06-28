@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
 type: skill
@@ -10,30 +9,26 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——用户访谈方法
 source_refs:
-  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-  - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+- 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 访谈技巧——缺乏结构化访谈框架
-    follow_up_question: "你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？"
-  - framework_lens: 访谈技巧——引导性问题导致社会期望偏差
-    follow_up_question: "你的访谈问题是'你想要什么'，还是'你现在怎么解决的'？"
-  - framework_lens: 访谈技巧——缺乏统一的记录和分析方法
-    follow_up_question: "访谈记录是结构化的吗？能填进统一的分析模板吗？"
-  - framework_lens: 访谈技巧——口头需求≠行为需求
-    follow_up_question: "用户说'想要'后，有没有观察他们的实际行为？"
-  - framework_lens: 访谈技巧——样本不足，结论不可靠
-    follow_up_question: "至少访谈了多少个用户？是否覆盖了不同用户层？"
+- framework_lens: 访谈技巧——缺乏结构化访谈框架
+  follow_up_question: 你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？
+- framework_lens: 访谈技巧——引导性问题导致社会期望偏差
+  follow_up_question: 你的访谈问题是'你想要什么'，还是'你现在怎么解决的'？
+- framework_lens: 访谈技巧——缺乏统一的记录和分析方法
+  follow_up_question: 访谈记录是结构化的吗？能填进统一的分析模板吗？
+- framework_lens: 访谈技巧——口头需求≠行为需求
+  follow_up_question: 用户说'想要'后，有没有观察他们的实际行为？
+- framework_lens: 访谈技巧——样本不足，结论不可靠
+  follow_up_question: 至少访谈了多少个用户？是否覆盖了不同用户层？
 
 ---
 # 从用户访谈中提取真实需求：访谈技巧与偏见规避

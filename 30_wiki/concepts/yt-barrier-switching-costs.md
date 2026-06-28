@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-switching-costs
 title: 转换成本：让用户离不开
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——转换成本
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
-    follow_up_question: "你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？"
-  - framework_lens: 转换成本——产品好用≠转换成本高，需要设计锁定机制
-    follow_up_question: "用户在你的产品上投入了什么？时间、数据、关系、金钱？"
-  - framework_lens: 转换成本——B2B转换成本需要系统、流程、培训投入
-    follow_up_question: "你的企业客户是否深度集成了你的产品？切换成本有多高？"
-  - framework_lens: 转换成本——数据可导出降低了转换成本
-    follow_up_question: "你的数据格式是否开放？数据迁移是否容易？"
-  - framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
-    follow_up_question: "竞品的好用程度是否足以克服用户的习惯成本？"
+- framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
+  follow_up_question: 你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？
+- framework_lens: 转换成本——产品好用≠转换成本高，需要设计锁定机制
+  follow_up_question: 用户在你的产品上投入了什么？时间、数据、关系、金钱？
+- framework_lens: 转换成本——B2B转换成本需要系统、流程、培训投入
+  follow_up_question: 你的企业客户是否深度集成了你的产品？切换成本有多高？
+- framework_lens: 转换成本——数据可导出降低了转换成本
+  follow_up_question: 你的数据格式是否开放？数据迁移是否容易？
+- framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
+  follow_up_question: 竞品的好用程度是否足以克服用户的习惯成本？
 
 ---
 # 转换成本：让用户离不开

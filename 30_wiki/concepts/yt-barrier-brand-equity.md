@@ -1,8 +1,6 @@
 ---
-
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
 type: concept
@@ -11,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——品牌资产
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
-    follow_up_question: "你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？"
-  - framework_lens: 品牌资产——产品好≠品牌强，需要品牌记忆点
-    follow_up_question: "你的品牌记忆点是什么？品牌符号、口号、颜色是否一致？"
-  - framework_lens: 品牌资产——品牌需要持续更新，不能老化
-    follow_up_question: "你的品牌是否跟上了时代？年轻用户如何认知你的品牌？"
-  - framework_lens: 品牌资产——品牌被抄袭说明品牌有价值，需要法律保护
-    follow_up_question: "你的品牌是否有商标保护？品牌差异化是否足够？"
-  - framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
-    follow_up_question: "你的品牌信任度如何？用户是否愿意为品牌付溢价？"
+- framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
+  follow_up_question: 你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？
+- framework_lens: 品牌资产——产品好≠品牌强，需要品牌记忆点
+  follow_up_question: 你的品牌记忆点是什么？品牌符号、口号、颜色是否一致？
+- framework_lens: 品牌资产——品牌需要持续更新，不能老化
+  follow_up_question: 你的品牌是否跟上了时代？年轻用户如何认知你的品牌？
+- framework_lens: 品牌资产——品牌被抄袭说明品牌有价值，需要法律保护
+  follow_up_question: 你的品牌是否有商标保护？品牌差异化是否足够？
+- framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
+  follow_up_question: 你的品牌信任度如何？用户是否愿意为品牌付溢价？
 
 ---
 # 品牌资产：认知与信任

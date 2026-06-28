@@ -1,5 +1,4 @@
 ---
-
 id: five-step-domain-digest
 title: 域摘要：一堂五步法（80+张卡）
 type: index
@@ -7,30 +6,27 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
 source_context: 一堂五步法培训口述与笔记
 source_refs:
-  - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
-  - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
-created_at: "2026-06-19"
+- 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
+- 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
+created_at: '2026-06-19'
 author: 黄药师
 reviewed_by: 黄药师
-review_date: "2026-06-19"
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 五步法总纲
-    follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
-  - framework_lens: 落地实操工具
-    follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
----
+- framework_lens: 五步法总纲
+  follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
+- framework_lens: 落地实操工具
+  follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
+updated_at: '2026-06-28'
 
+---
 # 域摘要：一堂五步法
 
 > 66 张卡 · 方法论底座 · 几乎所有业务域的入口框架

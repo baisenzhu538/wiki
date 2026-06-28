@@ -4,9 +4,9 @@ title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
 source_refs:
@@ -19,26 +19,16 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -55,6 +45,7 @@ diagnostic_signals:
   follow_up_question: 包装吸引的是哪类用户？他在什么具体场景下会因为包装而购买？这个卖点能否在货架上3秒内被理解？
 - framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
+
 ---
 # 日化沐浴露MVP：不生产产品验证行业机会
 

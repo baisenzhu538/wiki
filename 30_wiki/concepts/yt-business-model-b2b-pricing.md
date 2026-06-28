@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-b2b-pricing
 title: B2B定价策略：从SMB到Enterprise
 type: concept
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——B2B定价
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
-    follow_up_question: "你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？"
-  - framework_lens: B2B定价策略——Enterprise客户需要定制定价
-    follow_up_question: "你的Enterprise客户是否要求定制？定制服务的定价是否覆盖成本？"
-  - framework_lens: B2B定价策略——定价需要匹配客户价值感知
-    follow_up_question: "你的SMB和Enterprise定价是否匹配各自的价值感知？"
-  - framework_lens: B2B定价策略——B2B定价需要考虑销售周期
-    follow_up_question: "你的B2B销售周期多长？定价是否考虑了销售成本？"
-  - framework_lens: B2B定价策略——B2B定价需要系统化方法
-    follow_up_question: "你的B2B定价是基于客户价值、竞品、还是成本？"
+- framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
+  follow_up_question: 你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？
+- framework_lens: B2B定价策略——Enterprise客户需要定制定价
+  follow_up_question: 你的Enterprise客户是否要求定制？定制服务的定价是否覆盖成本？
+- framework_lens: B2B定价策略——定价需要匹配客户价值感知
+  follow_up_question: 你的SMB和Enterprise定价是否匹配各自的价值感知？
+- framework_lens: B2B定价策略——B2B定价需要考虑销售周期
+  follow_up_question: 你的B2B销售周期多长？定价是否考虑了销售成本？
+- framework_lens: B2B定价策略——B2B定价需要系统化方法
+  follow_up_question: 你的B2B定价是基于客户价值、竞品、还是成本？
 
 ---
 # B2B定价策略：从SMB到Enterprise

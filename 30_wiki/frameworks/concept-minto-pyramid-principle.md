@@ -1,14 +1,11 @@
 ---
-
-
-
 id: concept-minto-pyramid-principle
 title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 bridges_to:
@@ -29,20 +26,11 @@ diagnostic_signals:
 - framework_lens: 金字塔原理检查：你的叙述是否按金字塔结构组织？如果听众只接收到了底层的碎片信息，就形不成对你的结论的判断
   follow_up_question: 如果你是投资人，看完你的PPT后必须带走一个决策点，你应该让他们带走什么？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -50,7 +38,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-12'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: laowantong
 confidence: 0.7

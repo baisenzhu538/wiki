@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo
 title: 技能：用 Skill 做对比测试验证效果
 type: tool
@@ -16,16 +15,13 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: '2026-06-07'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -42,6 +38,7 @@ diagnostic_signals:
   follow_up_question: 是否已经设计反向/越界测试集，验证 Skill 在边界和高风险场景下的拒绝能力？
 - framework_lens: 共识缺失
   follow_up_question: 能否把评价标准事先和 AI/团队约定，用结构化评分替代主观争论？
+
 ---
 # 技能：用 Skill 做对比测试验证效果
 

@@ -1,18 +1,15 @@
 ---
-
-
-
 id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -33,17 +30,11 @@ diagnostic_signals:
 - lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -52,7 +43,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢AI能力五层跃迁模型
 
 > **Burn line**: 从“会问 AI 问题”到“能搭建系统级 AI 操作台”，有五层台阶。多数人卡在第二层。

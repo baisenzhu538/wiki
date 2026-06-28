@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-monetization-optimization
 title: 变现优化：从免费到付费
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——变现优化
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 变现优化——付费少需要分析付费转化漏斗
-    follow_up_question: "你的付费转化率是多少？用户为什么不付费？是价格、价值感知、还是 friction？"
-  - framework_lens: 变现优化——广告变现不稳定，需要多元化变现方式
-    follow_up_question: "你的变现方式有哪些？是否考虑了订阅、增值服务、交易佣金等？"
-  - framework_lens: 变现优化——提价需要评估价格弹性，不是简单涨价
-    follow_up_question: "你的提价幅度是多少？用户的价格弹性如何？是否有价值支撑？"
-  - framework_lens: 变现优化——免费到付费需要设计转化机制
-    follow_up_question: "你的免费和付费功能边界在哪里？免费用户是否有足够的动力升级？"
-  - framework_lens: 变现优化——定价需要基于价值感知和竞争分析
-    follow_up_question: "你的定价是基于成本、竞争、还是价值？用户感知价值是多少？"
+- framework_lens: 变现优化——付费少需要分析付费转化漏斗
+  follow_up_question: 你的付费转化率是多少？用户为什么不付费？是价格、价值感知、还是 friction？
+- framework_lens: 变现优化——广告变现不稳定，需要多元化变现方式
+  follow_up_question: 你的变现方式有哪些？是否考虑了订阅、增值服务、交易佣金等？
+- framework_lens: 变现优化——提价需要评估价格弹性，不是简单涨价
+  follow_up_question: 你的提价幅度是多少？用户的价格弹性如何？是否有价值支撑？
+- framework_lens: 变现优化——免费到付费需要设计转化机制
+  follow_up_question: 你的免费和付费功能边界在哪里？免费用户是否有足够的动力升级？
+- framework_lens: 变现优化——定价需要基于价值感知和竞争分析
+  follow_up_question: 你的定价是基于成本、竞争、还是价值？用户感知价值是多少？
 
 ---
 # 变现优化：从免费到付费

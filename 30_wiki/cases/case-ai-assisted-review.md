@@ -1,12 +1,9 @@
 ---
-
-
-
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
 source_refs:
-  - src_unknown
+- src_unknown
 status: enriched
 domain:
 - src_unknown
@@ -16,21 +13,16 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 辅助复盘案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -46,6 +38,7 @@ diagnostic_signals:
   follow_up_question: 你的复盘是在工作完成后 24 小时内完成，还是等到下次再做类似工作时才想起？
 - framework_lens: 人必须负责审美判断和建模
   follow_up_question: 你拿到 AI 的复盘结果后，是否会基于自己的判断力做二次总结和边界修正？
+
 ---
 # 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 

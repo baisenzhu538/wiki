@@ -1,5 +1,4 @@
 ---
-
 id: tool-立即实践转化法
 title: 技能：立即实践转化法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 刻意练习要求长期大量高水平练习，不是一次。单次实践只能验证理解，不能形成技能
 - lens: 脑内实践
   follow_up: 实践必须产出可展示的结果（文档/产品/代码片段），脑内实践是自我欺骗
+
 ---
 # 技能：立即实践转化法
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——定价心理学
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
-    follow_up_question: "你的定价是否覆盖了成本？用户是否觉得这个价格值？"
-  - framework_lens: 定价心理学——低价竞争不可持续
-    follow_up_question: "你的定价是基于成本+利润，还是基于竞品？如果竞品降价，你怎么办？"
-  - framework_lens: 定价心理学——定价需要价值支撑
-    follow_up_question: "用户是否感知到你的价值？定价是否和价值匹配？"
-  - framework_lens: 定价心理学——版本设计需要锚定效应
-    follow_up_question: "你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？"
-  - framework_lens: 定价心理学——定价需要数据支撑
-    follow_up_question: "你做过定价测试吗？用户愿意为不同价格付费的比例是多少？"
+- framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
+  follow_up_question: 你的定价是否覆盖了成本？用户是否觉得这个价格值？
+- framework_lens: 定价心理学——低价竞争不可持续
+  follow_up_question: 你的定价是基于成本+利润，还是基于竞品？如果竞品降价，你怎么办？
+- framework_lens: 定价心理学——定价需要价值支撑
+  follow_up_question: 用户是否感知到你的价值？定价是否和价值匹配？
+- framework_lens: 定价心理学——版本设计需要锚定效应
+  follow_up_question: 你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？
+- framework_lens: 定价心理学——定价需要数据支撑
+  follow_up_question: 你做过定价测试吗？用户愿意为不同价格付费的比例是多少？
 
 ---
 # 定价心理学：让用户觉得值

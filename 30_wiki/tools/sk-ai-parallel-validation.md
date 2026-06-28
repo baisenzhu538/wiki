@@ -1,14 +1,11 @@
 ---
-
-
-
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
@@ -18,15 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -36,7 +29,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 tools_required:
 - src_unknown
 prerequisite_skills: null
@@ -54,7 +47,6 @@ diagnostic_signals:
   follow_up: 已表格化为症状-根因-修复三段式
 
 ---
-
 # 技能：平行运行验证法
 
 ## 用一句话讲清楚

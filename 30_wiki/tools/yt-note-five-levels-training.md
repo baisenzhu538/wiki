@@ -1,30 +1,21 @@
 ---
-
-
-
 id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.89
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 prerequisites:
 - src_unknown
 - src_unknown
@@ -50,7 +41,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-07'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 estimated_tokens: 4200
 author: unknown
 reviewed_by: 欧阳锋

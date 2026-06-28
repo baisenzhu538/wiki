@@ -1,18 +1,15 @@
 ---
-
-
-
 id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -24,19 +21,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -45,17 +34,16 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- lens: '演员模式锁定'
-  follow_up: '当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？'
-- lens: '导演标准缺失'
-  follow_up: '是否把“好结果”的标准写成了可检查的验收清单？约束和红线条是否显式化？'
-- lens: '导演模式的知识萃取价值'
-  follow_up: '能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？'
-- lens: '身份切换阻力'
-  follow_up: '是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？'
+- lens: 演员模式锁定
+  follow_up: 当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？
+- lens: 导演标准缺失
+  follow_up: 是否把“好结果”的标准写成了可检查的验收清单？约束和红线条是否显式化？
+- lens: 导演模式的知识萃取价值
+  follow_up: 能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？
+- lens: 身份切换阻力
+  follow_up: 是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？
 
 ---
-
 # 王欢人机协作框架：从演员到导演
 
 > **Burn line**: AI 协作的效率差距，不在工具，而在身份——你是亲自上台的演员，还是定义标准和验收的导演。

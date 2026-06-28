@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -19,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-17'
@@ -33,19 +30,11 @@ diagnostic_signals:
 - framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用

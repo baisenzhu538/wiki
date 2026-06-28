@@ -1,14 +1,11 @@
 ---
-
-
-
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
@@ -26,19 +23,16 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

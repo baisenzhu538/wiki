@@ -1,13 +1,10 @@
 ---
-
-
-
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -21,13 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -44,7 +39,7 @@ diagnostic_signals:
   follow_up_question: 你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent
 - framework_lens: 过度工程化——智能体层级应与任务复杂度匹配
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 
 ---

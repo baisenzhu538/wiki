@@ -1,35 +1,29 @@
 ---
-
-
-
 id: tool-binary-quadrant-modeling
 title: 二分法/象限图建模法：用正交维度做分类与取舍
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.91
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -43,6 +37,7 @@ diagnostic_signals:
   follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
 - framework_lens: binary-quadrant-modeling
   follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
+
 ---
 # 二分法/象限图建模法：用正交维度做分类与取舍
 

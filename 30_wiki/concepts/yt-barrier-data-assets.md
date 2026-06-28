@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-data-assets
 title: 数据资产：数据网络效应
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——数据资产
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
-    follow_up_question: "你的数据是否用于优化产品？数据越多，产品是否越好？"
-  - framework_lens: 数据资产——数据需要保护，防止被竞品获取
-    follow_up_question: "你的数据是否有保护措施？数据获取成本是否足够高？"
-  - framework_lens: 数据资产——数据质量比数量重要，需要数据治理
-    follow_up_question: "你的数据质量如何？是否有数据清洗和治理机制？"
-  - framework_lens: 数据资产——数据优势需要转化为用户可感知的价值
-    follow_up_question: "你的数据优势是否转化为产品体验？用户是否感受到数据带来的价值？"
-  - framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
-    follow_up_question: "算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？"
+- framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
+  follow_up_question: 你的数据是否用于优化产品？数据越多，产品是否越好？
+- framework_lens: 数据资产——数据需要保护，防止被竞品获取
+  follow_up_question: 你的数据是否有保护措施？数据获取成本是否足够高？
+- framework_lens: 数据资产——数据质量比数量重要，需要数据治理
+  follow_up_question: 你的数据质量如何？是否有数据清洗和治理机制？
+- framework_lens: 数据资产——数据优势需要转化为用户可感知的价值
+  follow_up_question: 你的数据优势是否转化为产品体验？用户是否感受到数据带来的价值？
+- framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
+  follow_up_question: 算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？
 
 ---
 # 数据资产：数据网络效应

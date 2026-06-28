@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——平台战略
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 平台战略——双边平台需要单边启动策略
-    follow_up_question: "你的平台是先启动哪一边？单边启动策略是什么？"
-  - framework_lens: 平台战略——双边平台需要平衡两边用户
-    follow_up_question: "你的平台两边用户比例是多少？是否平衡？如何调节？"
-  - framework_lens: 平台战略——需要锁定两边用户
-    follow_up_question: "你的平台如何锁定两边用户？迁移成本高吗？"
-  - framework_lens: 平台战略——平台变现需要设计机制
-    follow_up_question: "你的平台变现机制是什么？哪边付费？为什么愿意付？"
-  - framework_lens: 平台战略——平台需要活跃度，不只是用户数量
-    follow_up_question: "你的平台用户活跃度如何？如何提升匹配效率？"
+- framework_lens: 平台战略——双边平台需要单边启动策略
+  follow_up_question: 你的平台是先启动哪一边？单边启动策略是什么？
+- framework_lens: 平台战略——双边平台需要平衡两边用户
+  follow_up_question: 你的平台两边用户比例是多少？是否平衡？如何调节？
+- framework_lens: 平台战略——需要锁定两边用户
+  follow_up_question: 你的平台如何锁定两边用户？迁移成本高吗？
+- framework_lens: 平台战略——平台变现需要设计机制
+  follow_up_question: 你的平台变现机制是什么？哪边付费？为什么愿意付？
+- framework_lens: 平台战略——平台需要活跃度，不只是用户数量
+  follow_up_question: 你的平台用户活跃度如何？如何提升匹配效率？
 
 ---
 # 平台战略：从单边到双边

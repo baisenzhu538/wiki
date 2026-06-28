@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
 source_refs:
@@ -19,23 +16,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -48,7 +40,6 @@ diagnostic_signals:
   follow_up_question: AI 可以帮你生成测试素材，但你要测的假设清单是否清晰？哪些假设风险最高？
 
 ---
-
 # 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 
 > "精益其实是用少量的时间和试错成本，大幅度降低系统性风险。我们不是不花钱，不是不花时间，而是用少量的这部分成本来大幅度降低当前这个关键的风险。"  

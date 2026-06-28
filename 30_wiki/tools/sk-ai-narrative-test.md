@@ -1,14 +1,11 @@
 ---
-
-
-
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -27,18 +24,15 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 tools_required: []
 prerequisite_skills: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

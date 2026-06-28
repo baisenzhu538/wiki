@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——单元经济学
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
-    follow_up_question: "你的获客成本（CAC）是多少？用户生命周期价值（LTV）是多少？LTV > CAC吗？"
-  - framework_lens: 单元经济学——单元模型不成立，增长是烧钱
-    follow_up_question: "LTV < CAC时，增长越快亏损越大。你计划什么时候单元模型成立？"
-  - framework_lens: 单元经济学——规模不解决单元模型问题
-    follow_up_question: "规模能让LTV > CAC吗？如果不能，规模越大亏损越大。"
-  - framework_lens: 单元经济学——收入≠健康，单元模型才是健康指标
-    follow_up_question: "你的收入中，有多少是可持续的？获客成本是否被摊薄？"
-  - framework_lens: 单元经济学——单元模型计算需要完整
-    follow_up_question: "你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？"
+- framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
+  follow_up_question: 你的获客成本（CAC）是多少？用户生命周期价值（LTV）是多少？LTV > CAC吗？
+- framework_lens: 单元经济学——单元模型不成立，增长是烧钱
+  follow_up_question: LTV < CAC时，增长越快亏损越大。你计划什么时候单元模型成立？
+- framework_lens: 单元经济学——规模不解决单元模型问题
+  follow_up_question: 规模能让LTV > CAC吗？如果不能，规模越大亏损越大。
+- framework_lens: 单元经济学——收入≠健康，单元模型才是健康指标
+  follow_up_question: 你的收入中，有多少是可持续的？获客成本是否被摊薄？
+- framework_lens: 单元经济学——单元模型计算需要完整
+  follow_up_question: 你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？
 
 ---
 # 单元经济学：LTV > CAC

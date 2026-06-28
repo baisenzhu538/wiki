@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-talent-density
 title: 人才密度：组织壁垒
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——人才密度
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
-    follow_up_question: "你的核心人才为什么走？薪酬、发展、文化？人才密度是否足够高？"
-  - framework_lens: 人才密度——招聘难说明雇主品牌或人才吸引力不足
-    follow_up_question: "你的雇主品牌如何？人才是否知道你的公司？薪酬竞争力如何？"
-  - framework_lens: 人才密度——人效低可能是人才密度不够或管理问题
-    follow_up_question: "你的人均产出是多少？人才密度是否足够？管理是否高效？"
-  - framework_lens: 人才密度——团队扩张稀释了人才密度
-    follow_up_question: "扩张后的人才密度是否下降？招聘标准是否降低？"
-  - framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
-    follow_up_question: "除了文化，薪酬、发展、挑战是否足够吸引人才？"
+- framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
+  follow_up_question: 你的核心人才为什么走？薪酬、发展、文化？人才密度是否足够高？
+- framework_lens: 人才密度——招聘难说明雇主品牌或人才吸引力不足
+  follow_up_question: 你的雇主品牌如何？人才是否知道你的公司？薪酬竞争力如何？
+- framework_lens: 人才密度——人效低可能是人才密度不够或管理问题
+  follow_up_question: 你的人均产出是多少？人才密度是否足够？管理是否高效？
+- framework_lens: 人才密度——团队扩张稀释了人才密度
+  follow_up_question: 扩张后的人才密度是否下降？招聘标准是否降低？
+- framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
+  follow_up_question: 除了文化，薪酬、发展、挑战是否足够吸引人才？
 
 ---
 # 人才密度：组织壁垒

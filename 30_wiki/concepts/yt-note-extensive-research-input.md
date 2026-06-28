@@ -1,32 +1,22 @@
 ---
-
-
-
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -46,7 +36,7 @@ diagnostic_signals:
   follow_up_question: 你听完课后输出的认知结构，比讲者原内容丰富了多少？
 - framework_lens: 输出结构不足
   follow_up_question: 你能否为当前主题找到至少2个非讲师来源的视角，并写一段50字的个人结论？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium

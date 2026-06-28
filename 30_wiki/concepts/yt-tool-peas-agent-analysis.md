@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-tool-peas-agent-analysis
 component_of:
 - src_unknown
@@ -9,7 +6,7 @@ confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 prerequisites:
 - src_unknown
@@ -25,14 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -54,7 +48,7 @@ diagnostic_signals:
   follow_up_question: 是否把'家庭时间'与'职业成就'强行加权？
 - framework_lens: 危机响应 / 不确定性
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 
 ---

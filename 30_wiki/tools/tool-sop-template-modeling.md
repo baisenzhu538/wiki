@@ -1,20 +1,17 @@
 ---
-
-
-
 id: tool-sop-template-modeling
 title: SOP/模板建模法：把关键动作固化成标准工作流
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
@@ -30,22 +27,18 @@ diagnostic_signals:
 - framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 # SOP/模板建模法：把关键动作固化成标准工作流
 

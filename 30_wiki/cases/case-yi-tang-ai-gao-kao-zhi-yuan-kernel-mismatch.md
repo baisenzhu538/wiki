@@ -1,6 +1,6 @@
 ---
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
-title: '案例：AI高考志愿填报产品因内核错位而失敗'
+title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
 status: enriched
 domain:
@@ -17,24 +17,16 @@ source_refs:
 - 10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md
 - 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
 created_at: '2026-06-08'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -63,6 +55,7 @@ diagnostic_signals:
   follow_up: 如果推荐导致滑档/退档，产品能否给出可执行的补救方案和责任边界？
 - lens: 信息不对称 + 信任缺口
   follow_up: 能否用第三方数据溯源、专家背书或人工复核把"不可验证"变成"可验证"？
+
 ---
 # 案例：AI高考志愿填报产品因内核错位而失敗
 

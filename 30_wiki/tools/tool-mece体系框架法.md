@@ -1,5 +1,4 @@
 ---
-
 id: tool-mece体系框架法
 title: 技能：MECE体系框架法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 定期Review框架有效性，业务变化时同步更新分类维度
 - lens: 过度分析
   follow_up: 快速变化市场中，先行动再迭代，MECE框架可边用边完善
+
 ---
 # 技能：MECE体系框架法
 

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-tool-hiring-scorecard
 title: 结构化面试打分卡
 type: tool
@@ -9,7 +6,7 @@ source_refs:
 - 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
 status: enriched
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -18,17 +15,11 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 contradicts: null
 query_triggers:
 - src_unknown
@@ -51,7 +42,7 @@ yitang:
   course_type: tool
   level: core
 created_at: 2026-05-19
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 estimated_tokens: 3400
 reviewed_by: 周伯通
 diagnostic_signals:

@@ -11,16 +11,11 @@ source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -38,6 +33,7 @@ diagnostic_signals:
   follow_up_question: 你当前有没有一个真实的、正在进行的业务问题？如果没有，练习结论的可迁移性会打多少折扣？
 - framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
+
 ---
 # 案例：半肥猫把一堂课程作业变成可复用调研工具
 

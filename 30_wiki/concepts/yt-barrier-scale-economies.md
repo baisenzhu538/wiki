@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-scale-economies
 title: 规模经济：成本优势
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——规模经济
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
-    follow_up_question: "你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？"
-  - framework_lens: 规模经济——规模不经济，需要诊断原因
-    follow_up_question: "成本上升是因为管理复杂度、供应链、还是质量控制？"
-  - framework_lens: 规模经济——规模优势需要持续扩大，不是一劳永逸
-    follow_up_question: "你的规模优势是什么？竞品的规模增长多快？"
-  - framework_lens: 规模经济——规模经济有地域和品类边界
-    follow_up_question: "你的规模经济是局部的还是全局的？如何扩展到更大市场？"
-  - framework_lens: 规模经济——成本优势需要转化为用户价值
-    follow_up_question: "你的成本优势是否转化为价格优势或质量优势？用户是否感知？"
+- framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
+  follow_up_question: 你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？
+- framework_lens: 规模经济——规模不经济，需要诊断原因
+  follow_up_question: 成本上升是因为管理复杂度、供应链、还是质量控制？
+- framework_lens: 规模经济——规模优势需要持续扩大，不是一劳永逸
+  follow_up_question: 你的规模优势是什么？竞品的规模增长多快？
+- framework_lens: 规模经济——规模经济有地域和品类边界
+  follow_up_question: 你的规模经济是局部的还是全局的？如何扩展到更大市场？
+- framework_lens: 规模经济——成本优势需要转化为用户价值
+  follow_up_question: 你的成本优势是否转化为价格优势或质量优势？用户是否感知？
 
 ---
 # 规模经济：成本优势

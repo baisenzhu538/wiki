@@ -1,37 +1,29 @@
 ---
-
-
-
 id: tool-radar-chart-modeling
 title: 雷达图建模法：多维度评估与筛选
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.9
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -39,12 +31,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-  - framework_lens: 建模 / 维度设计
-    follow_up_question: 当前雷达图的维度是否经过团队共识，还是隐含了某个人的偏好或遗漏了关键反例维度？
-  - framework_lens: 决策框架 / 评分标准
-    follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
-  - framework_lens: 抽象建模 / 边界判断
-    follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
+- framework_lens: 建模 / 维度设计
+  follow_up_question: 当前雷达图的维度是否经过团队共识，还是隐含了某个人的偏好或遗漏了关键反例维度？
+- framework_lens: 决策框架 / 评分标准
+  follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
+- framework_lens: 抽象建模 / 边界判断
+  follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
+
 ---
 # 雷达图建模法：多维度评估与筛选
 

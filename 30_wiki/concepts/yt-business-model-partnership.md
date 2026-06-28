@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-partnership
 title: 合作伙伴策略：生态与联盟
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——合作伙伴策略
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
-    follow_up_question: "你的生态中，合作伙伴是谁？他们为什么愿意加入？"
-  - framework_lens: 合作伙伴策略——合作伙伴关系需要设计协同机制
-    follow_up_question: "你的合作伙伴之间如何协同？利益分配机制是什么？"
-  - framework_lens: 合作伙伴策略——合作伙伴关系需要平衡依赖
-    follow_up_question: "你对合作伙伴的依赖程度如何？是否有备选方案？"
-  - framework_lens: 合作伙伴策略——合作伙伴贡献和回报需要匹配
-    follow_up_question: "你的合作伙伴贡献了什么？分润比例是否匹配贡献？"
-  - framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
-    follow_up_question: "你的核心合作伙伴有几个？是否形成了紧密协同？"
+- framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
+  follow_up_question: 你的生态中，合作伙伴是谁？他们为什么愿意加入？
+- framework_lens: 合作伙伴策略——合作伙伴关系需要设计协同机制
+  follow_up_question: 你的合作伙伴之间如何协同？利益分配机制是什么？
+- framework_lens: 合作伙伴策略——合作伙伴关系需要平衡依赖
+  follow_up_question: 你对合作伙伴的依赖程度如何？是否有备选方案？
+- framework_lens: 合作伙伴策略——合作伙伴贡献和回报需要匹配
+  follow_up_question: 你的合作伙伴贡献了什么？分润比例是否匹配贡献？
+- framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
+  follow_up_question: 你的核心合作伙伴有几个？是否形成了紧密协同？
 
 ---
 # 合作伙伴策略：生态与联盟

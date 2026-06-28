@@ -1,14 +1,10 @@
 ---
-
-
-
-
 title: 目标管理
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 pipeline:
 - src_unknown
@@ -26,14 +22,12 @@ diagnostic_signals:
 - framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-updated_at: '2026-06-17'
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+updated_at: '2026-06-28'
 id: yt-management-goal-management
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -41,7 +35,7 @@ created_at: 2026-06-15
 confidence: 0.88
 trust_level: medium-high
 source_refs:
-  - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
+- 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
 
 ---

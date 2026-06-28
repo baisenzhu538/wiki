@@ -1,7 +1,4 @@
 ---
-
-
-
 id: framework-wanghuan-five-criteria-first-product
 title: 王欢：选第一个产品场景的五条标准
 type: framework
@@ -16,12 +13,12 @@ source_refs:
 - src_unknown
 - src_unknown
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 伪需求 / 非真实痛点
   follow_up: 用“我自己每周都头疼吗”重验，要求提出者提供自己的使用场景
@@ -32,17 +29,11 @@ diagnostic_signals:
 - lens: 下周测试失败
   follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -51,7 +42,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢：选第一个产品场景的五条标准
 
 > **Burn line**: 最好的选题，往往是你一看菜单就说“上面没有我要的，但我知道我要做什么”。

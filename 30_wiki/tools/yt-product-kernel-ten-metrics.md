@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
@@ -10,31 +9,31 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——十大典型指标
 source_refs:
-  - 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
-  - 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
-  - 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
+- 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
+- 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核指标——缺乏数据验证体系
-    follow_up_question: "你的产品内核对应的关键指标是什么？当前数值是多少？"
-  - framework_lens: 产品内核指标——虚荣指标≠核心指标
-    follow_up_question: "总用户数增长，但关键转化率下降，说明什么？"
-  - framework_lens: 产品内核指标——指标必须服务内核验证
-    follow_up_question: "这个指标的变化，能说明内核假设是否成立吗？"
-  - framework_lens: 产品内核指标——指标过多导致注意力分散
-    follow_up_question: "如果只能看3个指标，你会选哪3个？为什么？"
-  - framework_lens: 产品内核指标——需要基准和目标
-    follow_up_question: "这个指标的基准值是多少？目标值是多少？差距原因是什么？"
+- framework_lens: 产品内核指标——缺乏数据验证体系
+  follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？
+- framework_lens: 产品内核指标——虚荣指标≠核心指标
+  follow_up_question: 总用户数增长，但关键转化率下降，说明什么？
+- framework_lens: 产品内核指标——指标必须服务内核验证
+  follow_up_question: 这个指标的变化，能说明内核假设是否成立吗？
+- framework_lens: 产品内核指标——指标过多导致注意力分散
+  follow_up_question: 如果只能看3个指标，你会选哪3个？为什么？
+- framework_lens: 产品内核指标——需要基准和目标
+  follow_up_question: 这个指标的基准值是多少？目标值是多少？差距原因是什么？
 
 ---
 # 产品内核十大典型指标：从假设到验证的数据体系

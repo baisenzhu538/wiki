@@ -3,47 +3,44 @@ id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 source_person: Truman
-source_context: 一堂高阶建模能力培训（千人广场模型案例）。口述稿为完整长文档，内容充分支撑案例还原；笔记为同一课程的学员整理，可作为旁证。事件来源单一，保持 medium trust。
+source_context: 一堂高阶建模能力培训（千人广场模型案例）。口述稿为完整长文档，内容充分支撑案例还原；笔记为同一课程的学员整理，可作为旁证。事件来源单一，保持
+  medium trust。
 created_at: '2026-06-14'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- lens: "广场优先"
-  follow_up: "回到广场看比例：这人是 95% 的 before 还是 5% 的 after？是否属于边界内？"
-- lens: "反例管理"
-  follow_up: "判定反例归属：在广场边界内→修正模型；在边界外→修正边界。"
-- lens: "边界缺失"
-  follow_up: "写出 3 条'服务谁'和 3 条'不服务谁'，画不出即未定义边界。"
-- lens: "统计建模"
-  follow_up: "能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？"
-- lens: "模型自信"
-  follow_up: "先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。"
+- lens: 广场优先
+  follow_up: 回到广场看比例：这人是 95% 的 before 还是 5% 的 after？是否属于边界内？
+- lens: 反例管理
+  follow_up: 判定反例归属：在广场边界内→修正模型；在边界外→修正边界。
+- lens: 边界缺失
+  follow_up: 写出 3 条'服务谁'和 3 条'不服务谁'，画不出即未定义边界。
+- lens: 统计建模
+  follow_up: 能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？
+- lens: 模型自信
+  follow_up: 先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。
+
 ---
 # 案例：一堂「千人广场模型」——用统计建模心态做课
 

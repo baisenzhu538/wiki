@@ -1,5 +1,4 @@
 ---
-
 id: tool-寻找学习教练法
 title: 技能：寻找学习教练法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 区分买鱼和学钓鱼，教练给的是能力不是答案，需要耐心迭代
 - lens: 依赖陷阱
   follow_up: 教练是反馈镜不是拐杖，目标是培养独立判断力而非永久依赖
+
 ---
 # 技能：寻找学习教练法
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-分享输出检验法
 title: 技能：分享输出检验法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 分享后必须有意识地收集质疑：'有没有哪个点你觉得不对？'，质疑才是学习的机会
 - lens: 无反馈回收
   follow_up: 分享的价值在改变他人的行为或判断，不是数字。必须回收反馈并迭代
+
 ---
 # 技能：分享输出检验法
 

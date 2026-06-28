@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——可持续增长
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
-    follow_up_question: "你的增长是否基于壁垒？壁垒能否保护增长成果？"
-  - framework_lens: 可持续增长——增长天花板需要壁垒突破
-    follow_up_question: "你的壁垒能否帮你突破天花板？新市场、新产品、新场景？"
-  - framework_lens: 可持续增长——补贴增长不可持续，需要壁垒驱动
-    follow_up_question: "停止补贴后，用户是否因为壁垒而留下？"
-  - framework_lens: 可持续增长——可持续增长 = 增长 + 壁垒 + 迭代
-    follow_up_question: "你的增长飞轮是否健康？壁垒是否在同步建设？"
-  - framework_lens: 可持续增长——增长被复制说明壁垒不足
-    follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
+- framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
+  follow_up_question: 你的增长是否基于壁垒？壁垒能否保护增长成果？
+- framework_lens: 可持续增长——增长天花板需要壁垒突破
+  follow_up_question: 你的壁垒能否帮你突破天花板？新市场、新产品、新场景？
+- framework_lens: 可持续增长——补贴增长不可持续，需要壁垒驱动
+  follow_up_question: 停止补贴后，用户是否因为壁垒而留下？
+- framework_lens: 可持续增长——可持续增长 = 增长 + 壁垒 + 迭代
+  follow_up_question: 你的增长飞轮是否健康？壁垒是否在同步建设？
+- framework_lens: 可持续增长——增长被复制说明壁垒不足
+  follow_up_question: 你的壁垒是什么？为什么竞品复制不了？
 
 ---
 # 可持续增长：壁垒驱动

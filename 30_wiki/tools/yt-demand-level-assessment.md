@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
 type: tool
@@ -10,31 +9,31 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——段位图与进阶路径
 source_refs:
-  - 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
-  - 10_raw/sources/src_20260611_78d65c7a-一堂-一堂五步法-需求-段位示例-01_paddle_ocr.md
-  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
+- 10_raw/sources/src_20260611_78d65c7a-一堂-一堂五步法-需求-段位示例-01_paddle_ocr.md
+- 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 段位自评——缺乏能力评估框架
-    follow_up_question: "你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？"
-  - framework_lens: 段位评估——可能停留在L3，未验证到L4
-    follow_up_question: "你的访谈结论能直接指导产品决策吗？有没有因为访谈而砍掉或新增功能？"
-  - framework_lens: 段位评估——停留在分析，未到预判
-    follow_up_question: "你能预测未来6个月你的目标用户的需求会发生什么变化吗？"
-  - framework_lens: 段位评估——自我认知偏差，可能停留在L1-L2
-    follow_up_question: "你能描述一个典型用户的一天中，会在什么具体时刻使用你的产品吗？"
-  - framework_lens: 段位评估——团队能力断层
-    follow_up_question: "你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？"
+- framework_lens: 段位自评——缺乏能力评估框架
+  follow_up_question: 你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？
+- framework_lens: 段位评估——可能停留在L3，未验证到L4
+  follow_up_question: 你的访谈结论能直接指导产品决策吗？有没有因为访谈而砍掉或新增功能？
+- framework_lens: 段位评估——停留在分析，未到预判
+  follow_up_question: 你能预测未来6个月你的目标用户的需求会发生什么变化吗？
+- framework_lens: 段位评估——自我认知偏差，可能停留在L1-L2
+  follow_up_question: 你能描述一个典型用户的一天中，会在什么具体时刻使用你的产品吗？
+- framework_lens: 段位评估——团队能力断层
+  follow_up_question: 你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？
 
 ---
 # 需求分析段位自评表：从L1到L6的进阶路径

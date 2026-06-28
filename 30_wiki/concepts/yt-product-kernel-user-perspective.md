@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-user-perspective
 title: 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——用户视角
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
-    follow_up_question: "用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。"
-  - framework_lens: 用户视角 vs 产品视角——资源投入在错误的地方
-    follow_up_question: "这个功能在用户的使用频率中排第几？如果不在前3，为什么优先优化？"
-  - framework_lens: 用户视角 vs 产品视角——技术视角≠用户视角
-    follow_up_question: "用户选择你们，是因为技术先进，还是因为解决了他们的问题？"
-  - framework_lens: 用户视角 vs 产品视角——用用户语言描述价值
-    follow_up_question: "你能用用户的话（不是技术术语）描述产品价值吗？"
-  - framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
-    follow_up_question: "你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？"
+- framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
+  follow_up_question: 用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。
+- framework_lens: 用户视角 vs 产品视角——资源投入在错误的地方
+  follow_up_question: 这个功能在用户的使用频率中排第几？如果不在前3，为什么优先优化？
+- framework_lens: 用户视角 vs 产品视角——技术视角≠用户视角
+  follow_up_question: 用户选择你们，是因为技术先进，还是因为解决了他们的问题？
+- framework_lens: 用户视角 vs 产品视角——用用户语言描述价值
+  follow_up_question: 你能用用户的话（不是技术术语）描述产品价值吗？
+- framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
+  follow_up_question: 你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？
 
 ---
 # 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"

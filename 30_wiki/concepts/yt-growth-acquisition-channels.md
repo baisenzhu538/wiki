@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-acquisition-channels
 title: 获客渠道：流量获取的6大类型
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——获客渠道
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 获客渠道——流量不够需要分析渠道结构
-    follow_up_question: "你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？"
-  - framework_lens: 获客渠道——过度依赖付费广告，需要多元化
-    follow_up_question: "付费广告占比多少？有没有自然流量、口碑、内容等免费渠道？"
-  - framework_lens: 获客渠道——渠道选择需要匹配产品和用户
-    follow_up_question: "你的目标用户在哪里？渠道选择是否匹配用户行为？"
-  - framework_lens: 获客渠道——流量大≠质量好，需要看转化
-    follow_up_question: "这个渠道的用户是否匹配你的目标用户？转化漏斗哪里断了？"
-  - framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
-    follow_up_question: "这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？"
+- framework_lens: 获客渠道——流量不够需要分析渠道结构
+  follow_up_question: 你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？
+- framework_lens: 获客渠道——过度依赖付费广告，需要多元化
+  follow_up_question: 付费广告占比多少？有没有自然流量、口碑、内容等免费渠道？
+- framework_lens: 获客渠道——渠道选择需要匹配产品和用户
+  follow_up_question: 你的目标用户在哪里？渠道选择是否匹配用户行为？
+- framework_lens: 获客渠道——流量大≠质量好，需要看转化
+  follow_up_question: 这个渠道的用户是否匹配你的目标用户？转化漏斗哪里断了？
+- framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
+  follow_up_question: 这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？
 
 ---
 # 获客渠道：流量获取的6大类型

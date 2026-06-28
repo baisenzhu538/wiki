@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——病毒传播
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 病毒传播——自增长需要设计病毒机制，不是自然发生
-    follow_up_question: "你的产品有病毒传播机制吗？用户为什么愿意分享？分享的动力是什么？"
-  - framework_lens: 病毒传播——分享功能≠病毒传播，需要设计传播动机
-    follow_up_question: "用户分享后能得到什么？分享的内容是否能让分享者显得更好？"
-  - framework_lens: 病毒传播——病毒系数K>1是理想状态，但需要验证
-    follow_up_question: "你的病毒系数是怎么计算的？是否考虑了时间衰减？"
-  - framework_lens: 病毒传播——裂变是病毒传播的一种，不是全部
-    follow_up_question: "你的病毒传播是产品内生的（如微信红包）还是外部激励的（如裂变海报）？"
-  - framework_lens: 病毒传播——病毒传播有隐性成本，不是真的0成本
-    follow_up_question: "病毒传播的产品开发成本、运营成本、用户激励成本是多少？"
+- framework_lens: 病毒传播——自增长需要设计病毒机制，不是自然发生
+  follow_up_question: 你的产品有病毒传播机制吗？用户为什么愿意分享？分享的动力是什么？
+- framework_lens: 病毒传播——分享功能≠病毒传播，需要设计传播动机
+  follow_up_question: 用户分享后能得到什么？分享的内容是否能让分享者显得更好？
+- framework_lens: 病毒传播——病毒系数K>1是理想状态，但需要验证
+  follow_up_question: 你的病毒系数是怎么计算的？是否考虑了时间衰减？
+- framework_lens: 病毒传播——裂变是病毒传播的一种，不是全部
+  follow_up_question: 你的病毒传播是产品内生的（如微信红包）还是外部激励的（如裂变海报）？
+- framework_lens: 病毒传播——病毒传播有隐性成本，不是真的0成本
+  follow_up_question: 病毒传播的产品开发成本、运营成本、用户激励成本是多少？
 
 ---
 # 病毒传播：自增长机制设计

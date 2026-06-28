@@ -1,5 +1,4 @@
 ---
-
 id: tool-费曼简单提炼法
 title: 技能：费曼简单提炼法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -28,7 +27,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -44,6 +43,7 @@ diagnostic_signals:
   follow_up: 一本书只能覆盖一章。提炼单元应该是'一个核心观点'，不是整本书
 - lens: 盲区未暴露
   follow_up: 提炼的价值是发现你不懂什么。写完后发现'这句话对吗？好像不太确定'才是好提炼
+
 ---
 # 技能：费曼简单提炼法
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-competitive-moat
 title: 商业模式护城河：持续竞争优势
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——护城河
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
-    follow_up_question: "你的技术优势能被竞品复制吗？复制周期多长？"
-  - framework_lens: 商业模式护城河——品牌需要时间和投入建立
-    follow_up_question: "你的品牌认知度如何？品牌投入占收入多少？"
-  - framework_lens: 商业模式护城河——规模优势需要规模经济
-    follow_up_question: "你的规模是否带来了成本优势？单位成本是否下降？"
-  - framework_lens: 商业模式护城河——网络效应需要高迁移成本
-    follow_up_question: "你的用户迁移成本有多高？用户离开的损失是什么？"
-  - framework_lens: 商业模式护城河——护城河需要可量化评估
-    follow_up_question: "你的护城河强度如何量化？竞品突破的难度有多大？"
+- framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
+  follow_up_question: 你的技术优势能被竞品复制吗？复制周期多长？
+- framework_lens: 商业模式护城河——品牌需要时间和投入建立
+  follow_up_question: 你的品牌认知度如何？品牌投入占收入多少？
+- framework_lens: 商业模式护城河——规模优势需要规模经济
+  follow_up_question: 你的规模是否带来了成本优势？单位成本是否下降？
+- framework_lens: 商业模式护城河——网络效应需要高迁移成本
+  follow_up_question: 你的用户迁移成本有多高？用户离开的损失是什么？
+- framework_lens: 商业模式护城河——护城河需要可量化评估
+  follow_up_question: 你的护城河强度如何量化？竞品突破的难度有多大？
 
 ---
 # 商业模式护城河：持续竞争优势

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——收入模式
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 收入模式——单一收入来源风险高，需要多元化
-    follow_up_question: "如果主要收入来源失效，你有备用收入来源吗？"
-  - framework_lens: 收入模式——广告模式需要巨大流量
-    follow_up_question: "你的流量规模是否足以支撑广告收入？广告收入和用户价值的匹配度如何？"
-  - framework_lens: 收入模式——免费到付费的转化路径需要设计
-    follow_up_question: "免费用户转化为付费用户的比例是多少？转化路径设计了吗？"
-  - framework_lens: 收入模式——收入模式必须强化内核
-    follow_up_question: "你的收入模式是否让用户更认可内核价值？还是削弱了？"
-  - framework_lens: 收入模式——需要系统化选择，不是随机尝试
-    follow_up_question: "你系统评估过每种收入模式与内核的匹配度吗？"
+- framework_lens: 收入模式——单一收入来源风险高，需要多元化
+  follow_up_question: 如果主要收入来源失效，你有备用收入来源吗？
+- framework_lens: 收入模式——广告模式需要巨大流量
+  follow_up_question: 你的流量规模是否足以支撑广告收入？广告收入和用户价值的匹配度如何？
+- framework_lens: 收入模式——免费到付费的转化路径需要设计
+  follow_up_question: 免费用户转化为付费用户的比例是多少？转化路径设计了吗？
+- framework_lens: 收入模式——收入模式必须强化内核
+  follow_up_question: 你的收入模式是否让用户更认可内核价值？还是削弱了？
+- framework_lens: 收入模式——需要系统化选择，不是随机尝试
+  follow_up_question: 你系统评估过每种收入模式与内核的匹配度吗？
 
 ---
 # 收入模式：6种典型变现方式

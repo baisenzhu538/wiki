@@ -13,19 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: 2026-06-08
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -43,6 +35,7 @@ diagnostic_signals:
   follow_up_question: 用"从__变成__"一句话描述 Before-After，并指认一个愿意使用的真实人名
 - framework_lens: L3 Do-first PDCA 顺序错误
   follow_up_question: 能否在 30 分钟内先产出一个最小可验证输出，再根据问题补 Check 和 Plan？
+
 ---
 # 纪浩：从微信传 zip 到五层协作体系
 

@@ -1,11 +1,9 @@
 ---
-
-
 id: skill-research-behavior-over-asking
 title: 行为证据重于口头证据
 type: skill
 status: enriched
-confidence: 0.80
+confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
@@ -16,31 +14,22 @@ source_context: yitang 域 152 张 case 卡跨案例合成，洞察 1
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 - 30_wiki/dk/dk-yitang-behavior-over-asking.md
-created_at: "2026-06-25"
-updated_at: "2026-06-25"
+created_at: '2026-06-25'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
-review_date: "2026-06-25"
+review_date: '2026-06-25'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 行为证据优先
-    follow_up_question: "你能复述用户最近一次遇到该问题的具体场景和行为吗？"
-  - framework_lens: 愿望 vs 行为
-    follow_up_question: "用户为这个需求付过费吗？最近一次花了多少？"
-  - framework_lens: 现场语境缺失
-    follow_up_question: "能否让用户展示订单、聊天记录、App 使用界面或相册截图？"
----
+- framework_lens: 行为证据优先
+  follow_up_question: 你能复述用户最近一次遇到该问题的具体场景和行为吗？
+- framework_lens: 愿望 vs 行为
+  follow_up_question: 用户为这个需求付过费吗？最近一次花了多少？
+- framework_lens: 现场语境缺失
+  follow_up_question: 能否让用户展示订单、聊天记录、App 使用界面或相册截图？
 
+---
 # 行为证据重于口头证据
 
 > **Burn line**：用户嘴里说的多是「愿望」，真实行为里才藏着「需求」。

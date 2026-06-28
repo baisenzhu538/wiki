@@ -1,5 +1,4 @@
 ---
-
 id: tool-动手建模法
 title: 技能：动手建模法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -28,7 +27,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -44,6 +43,7 @@ diagnostic_signals:
   follow_up: 好的模型别人照着步骤能执行并得到相近结果，太抽象或太复杂都是坏模型
 - lens: 维度不客观
   follow_up: 分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
+
 ---
 # 技能：动手建模法
 

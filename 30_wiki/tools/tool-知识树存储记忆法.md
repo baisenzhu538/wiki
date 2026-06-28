@@ -1,5 +1,4 @@
 ---
-
 id: tool-知识树存储记忆法
 title: 技能：知识树存储记忆法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -28,7 +27,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -44,6 +43,7 @@ diagnostic_signals:
   follow_up: 树的高度取决于根的深度。不看笔记就说不清楚核心，说明那不是你的知识树
 - lens: 结构混乱
   follow_up: 任意一个枝干，10秒内能找到它的根（属于哪个主干）。结构混乱的知识树无法有效提取
+
 ---
 # 技能：知识树存储记忆法
 

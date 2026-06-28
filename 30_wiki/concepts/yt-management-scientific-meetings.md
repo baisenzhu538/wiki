@@ -1,23 +1,20 @@
 ---
-
-
-
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 confidence: 0.88
 trust_level: medium
 source_refs:
-  - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
+- 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，已标记为待补充，待后续补充到 10_raw/sources/ 后更新 source_refs）
 diagnostic_signals:
 - framework_lens: 惯性开会
@@ -29,24 +26,13 @@ diagnostic_signals:
 - framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
-
 # 科学开会
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+实操篇。原始 source 无法追溯，待后续补充到 `10_raw/sources/` 后更新 source_refs。

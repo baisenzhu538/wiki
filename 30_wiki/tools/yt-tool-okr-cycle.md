@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-tool-okr-cycle
 title: OKR 制定与复盘罗盘
 type: tool
@@ -9,7 +6,7 @@ source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: enriched
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -18,17 +15,11 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 contradicts: null
 query_triggers:
 - src_unknown
@@ -50,7 +41,7 @@ yitang:
   course_type: tool
   level: core
 created_at: 2026-05-19
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 diagnostic_signals:

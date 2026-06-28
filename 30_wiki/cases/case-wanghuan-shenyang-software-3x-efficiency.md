@@ -1,6 +1,6 @@
 ---
 id: case-wanghuan-shenyang-software-3x-efficiency
-title: '王欢案例：沈阳软件公司三层架构实现3倍效率'
+title: 王欢案例：沈阳软件公司三层架构实现3倍效率
 type: case
 status: enriched
 domain:
@@ -8,7 +8,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -20,19 +20,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -43,14 +33,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- lens: '工具升级但系统未重新设计，仍停留在“演员模式”'
-  follow_up: '检查流程是否仍是“需求→编辑器→人工修改”，是否把 AI 仅当加速工具'
-- lens: '角色定义未升级，身份感与新的职责冲突'
-  follow_up: '把程序员重新定义为“让 AI 把代码写好的人”，强调其行业判断变成稀缺资产'
-- lens: '缺少独立的需求拆解层与质量守门层'
-  follow_up: '建立三层架构：拆解→生成→审查，每层有明确输入、工具与验收标准'
-- lens: '把系统问题误判为工具问题'
-  follow_up: '验证同一批工具在重新设计流程后能否接近 3 倍提升，再决定是否追加工具投入'
+- lens: 工具升级但系统未重新设计，仍停留在“演员模式”
+  follow_up: 检查流程是否仍是“需求→编辑器→人工修改”，是否把 AI 仅当加速工具
+- lens: 角色定义未升级，身份感与新的职责冲突
+  follow_up: 把程序员重新定义为“让 AI 把代码写好的人”，强调其行业判断变成稀缺资产
+- lens: 缺少独立的需求拆解层与质量守门层
+  follow_up: 建立三层架构：拆解→生成→审查，每层有明确输入、工具与验收标准
+- lens: 把系统问题误判为工具问题
+  follow_up: 验证同一批工具在重新设计流程后能否接近 3 倍提升，再决定是否追加工具投入
+
 ---
 # 王欢案例：沈阳软件公司三层架构实现3倍效率
 

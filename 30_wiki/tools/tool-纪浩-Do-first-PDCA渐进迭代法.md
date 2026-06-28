@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-Do-first-PDCA渐进迭代法
 title: 技能：Do-first PDCA渐进迭代法
 type: tool
@@ -16,13 +15,13 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: '2026-06-08'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -41,6 +40,7 @@ diagnostic_signals:
   follow_up: 规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill
 - lens: 方向错误
   follow_up: 四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证
+
 ---
 # 技能：Do-first PDCA渐进迭代法
 

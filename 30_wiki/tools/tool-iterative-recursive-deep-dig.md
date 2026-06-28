@@ -1,34 +1,27 @@
 ---
-
-
-
 id: tool-iterative-recursive-deep-dig
 title: 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -42,8 +35,8 @@ diagnostic_signals:
   follow_up_question: 能否按完整性、MECE、逻辑性、顺序性、清晰性、可验证性逐项挑错，每轮都指出具体缺陷？
 - framework_lens: 停止条件——喷无可喷、撞无可撞、改无可改
   follow_up_question: 停止标准是“我当前能力上限找不到问题”，还是“客观上已无硬伤”？是否已记录边界和假设？
----
 
+---
 # 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 
 ## 用一句话讲清楚

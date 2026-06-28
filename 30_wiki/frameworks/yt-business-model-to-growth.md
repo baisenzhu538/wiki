@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
 type: framework
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——从商业模式到增长
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
-    follow_up_question: "你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？"
-  - framework_lens: 从商业模式到增长——验证和增长可以并行
-    follow_up_question: "验证商业模式的同时，是否可以小规模测试增长策略？"
-  - framework_lens: 从商业模式到增长——增长需要健康的商业模式支撑
-    follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - framework_lens: 从商业模式到增长——增长不是烧钱，而是优化单元模型
-    follow_up_question: "你的增长是否优化了单元模型？LTV/CAC是否提升？"
-  - framework_lens: 从商业模式到增长——增长策略必须服务商业模式
-    follow_up_question: "你的增长策略是否强化了商业模式？还是削弱了？"
+- framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
+  follow_up_question: 你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？
+- framework_lens: 从商业模式到增长——验证和增长可以并行
+  follow_up_question: 验证商业模式的同时，是否可以小规模测试增长策略？
+- framework_lens: 从商业模式到增长——增长需要健康的商业模式支撑
+  follow_up_question: 你的增长是否基于健康的单元模型？增长越快，亏损越大吗？
+- framework_lens: 从商业模式到增长——增长不是烧钱，而是优化单元模型
+  follow_up_question: 你的增长是否优化了单元模型？LTV/CAC是否提升？
+- framework_lens: 从商业模式到增长——增长策略必须服务商业模式
+  follow_up_question: 你的增长策略是否强化了商业模式？还是削弱了？
 
 ---
 # 从商业模式到增长：承上启下

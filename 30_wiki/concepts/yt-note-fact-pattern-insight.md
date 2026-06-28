@@ -1,31 +1,22 @@
 ---
-
-
-
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -45,7 +36,7 @@ diagnostic_signals:
   follow_up_question: 这些事实中有没有反例？如果存在反例，规律是否需要加上边界条件？
 - framework_lens: 见解必须产生行动或判断差异
   follow_up_question: 如果这个见解是错误的，你会在什么观察出现后放弃它？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium

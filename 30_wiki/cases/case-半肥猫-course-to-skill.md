@@ -31,21 +31,11 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-08
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 author: 半肥猫
 reviewed_by: 老顽童
 confidence: 0.7
@@ -59,6 +49,7 @@ diagnostic_signals:
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
+
 ---
 # 案例：半肥猫的课程转 Skill 八步法
 

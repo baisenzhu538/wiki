@@ -1,6 +1,4 @@
 ---
-
-
 id: mineru-pdf-parsing-setup
 title: MinerU (magic-pdf) PDF 解析工具安装与使用
 type: tool
@@ -8,28 +6,30 @@ status: enriched
 confidence: 0.75
 trust_level: medium
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - src_unknown
-created_at: "2026-06-17"
-updated_at: "2026-06-17"
+created_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
-review_date: "2026-06-17"
+review_date: '2026-06-17'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 diagnostic_signals:
-  - framework_lens: MinerU 安装检查
-    follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。
+- framework_lens: MinerU 安装检查
+  follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。
+
 ---
 # MinerU (magic-pdf) PDF 解析工具
 

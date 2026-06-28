@@ -4,12 +4,12 @@ title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策�
 type: case
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 problem_domains:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 industry: 企业服务 / AI 协作工具
 scale: 团队 / 公司
 source_person: 纪浩
@@ -22,34 +22,32 @@ source_refs:
 - pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
 - pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
 trust_level: medium
 created_at: '2026-06-09'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 diagnostic_signals:
-  - lens: 一堂 vs SQLHelper 的产品策略分岔
-    follow_up: 把目标用户、任务复杂度、领域知识广度、增长速度四维度填入选型矩阵，看落在"复杂系统"还是"封闭任务"象限
-  - lens: 专业化路线的边界漂移
-    follow_up: 重新枚举内部工作流中"非通用"的硬约束，评估为通用化付出的代价是否值得
-  - lens: 复杂系统必须引入导诊台路由
-    follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
-  - lens: 领域知识层缺失或不足
-    follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
+- lens: 一堂 vs SQLHelper 的产品策略分岔
+  follow_up: 把目标用户、任务复杂度、领域知识广度、增长速度四维度填入选型矩阵，看落在"复杂系统"还是"封闭任务"象限
+- lens: 专业化路线的边界漂移
+  follow_up: 重新枚举内部工作流中"非通用"的硬约束，评估为通用化付出的代价是否值得
+- lens: 复杂系统必须引入导诊台路由
+  follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
+- lens: 领域知识层缺失或不足
+  follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
+
 ---
 # 案例：一堂数据库 vs SQLHelper
 

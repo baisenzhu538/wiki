@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——留存指标
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
-    follow_up_question: "你的留存率是多少？次日留存、7日留存、30日留存分别是多少？"
-  - framework_lens: 留存指标——留存≠活跃，需要区分留存类型
-    follow_up_question: "你的留存是活跃留存还是沉默留存？用户最后一次使用是什么时候？"
-  - framework_lens: 留存指标——流失原因需要数据分析和用户访谈
-    follow_up_question: "流失用户在流失前做了什么？有没有共同行为模式？"
-  - framework_lens: 留存指标——留存曲线平说明产品没有形成习惯
-    follow_up_question: "你的产品是否形成了用户习惯？用户什么场景下会回来？"
-  - framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
-    follow_up_question: "停止补贴后，用户还会回来吗？产品本身的价值是否足够？"
+- framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
+  follow_up_question: 你的留存率是多少？次日留存、7日留存、30日留存分别是多少？
+- framework_lens: 留存指标——留存≠活跃，需要区分留存类型
+  follow_up_question: 你的留存是活跃留存还是沉默留存？用户最后一次使用是什么时候？
+- framework_lens: 留存指标——流失原因需要数据分析和用户访谈
+  follow_up_question: 流失用户在流失前做了什么？有没有共同行为模式？
+- framework_lens: 留存指标——留存曲线平说明产品没有形成习惯
+  follow_up_question: 你的产品是否形成了用户习惯？用户什么场景下会回来？
+- framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
+  follow_up_question: 停止补贴后，用户还会回来吗？产品本身的价值是否足够？
 
 ---
 # 留存指标：从流失到忠诚

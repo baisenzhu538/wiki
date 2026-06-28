@@ -1,11 +1,9 @@
 ---
-
-
 id: skill-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: skill
 status: enriched
-confidence: 0.80
+confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
@@ -16,31 +14,22 @@ source_context: research 域 40 张 case 卡跨案例合成，洞察 2
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 - 30_wiki/dk/dk-research-triangulation-stop-rule.md
-created_at: "2026-06-25"
-updated_at: "2026-06-25"
+created_at: '2026-06-25'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
-review_date: "2026-06-25"
+review_date: '2026-06-25'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 边际收益规则
-    follow_up_question: "新增一个来源预计能改变当前结论的概率是否 >30%？"
-  - framework_lens: 置信度阈值规则
-    follow_up_question: "当前综合置信度是否已达到预设阈值？阈值是多少？"
-  - framework_lens: 决策延迟成本规则
-    follow_up_question: "继续验证的延迟成本是否已超过决策错误的预期损失？"
----
+- framework_lens: 边际收益规则
+  follow_up_question: 新增一个来源预计能改变当前结论的概率是否 >30%？
+- framework_lens: 置信度阈值规则
+  follow_up_question: 当前综合置信度是否已达到预设阈值？阈值是多少？
+- framework_lens: 决策延迟成本规则
+  follow_up_question: 继续验证的延迟成本是否已超过决策错误的预期损失？
 
+---
 # 多源交叉验证的停止规则
 
 > **Burn line**：交叉验证不是越多越好，而是一个成本-置信度权衡问题——当新增一个验证源带来的置信度提升已经低于其时间/金钱/机会成本时，就应该停止。

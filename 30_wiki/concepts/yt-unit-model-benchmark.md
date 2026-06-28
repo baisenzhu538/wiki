@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
@@ -22,16 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -63,7 +55,7 @@ diagnostic_signals:
   follow_up_question: 悲观值是否至少比基准情景恶化 30%-50%，且团队已讨论存活方案？
 - framework_lens: 群体决策 / 锚定偏差
   follow_up_question: 讨论前是否让参与者独立写下自己的基准值、来源与推理？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 

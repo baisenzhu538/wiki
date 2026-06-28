@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 title: 技能：按语义切分文档做向量化
 type: tool
@@ -18,19 +17,14 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -45,6 +39,7 @@ diagnostic_signals:
   follow_up: 放弃固定字数切分，改为按语义主题切分，并抽样验证答案是否依赖完整上下文
 - lens: 缺乏检索质量监控
   follow_up: 建立定期检索测试集，覆盖边界问题与负例，监控召回率与答案可用性
+
 ---
 # 技能：按语义切分文档做向量化
 

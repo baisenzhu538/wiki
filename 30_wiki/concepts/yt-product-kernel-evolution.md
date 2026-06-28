@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-evolution
 title: 内核演化：从V1到Vn
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——内核演化
 source_refs:
-  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-  - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+- 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 内核演化——内核需要随市场演化
-    follow_up_question: "你的内核从V1到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - framework_lens: 内核演化——需要稳定期验证
-    follow_up_question: "每个内核版本验证了多久？是否有足够数据支撑迭代？"
-  - framework_lens: 内核演化——需要结构化演化方法
-    follow_up_question: "市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种演化路径？"
-  - framework_lens: 内核演化——需要考虑老用户迁移
-    follow_up_question: "新内核是否兼容老用户需求？老用户如何迁移到新内核？"
-  - framework_lens: 内核演化——演化方向需要团队共识
-    follow_up_question: "你们团队对内核演化方向有共识吗？是基于数据还是主观判断？"
+- framework_lens: 内核演化——内核需要随市场演化
+  follow_up_question: 你的内核从V1到现在变化过吗？如果市场变化，内核是否需要调整？
+- framework_lens: 内核演化——需要稳定期验证
+  follow_up_question: 每个内核版本验证了多久？是否有足够数据支撑迭代？
+- framework_lens: 内核演化——需要结构化演化方法
+  follow_up_question: 市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种演化路径？
+- framework_lens: 内核演化——需要考虑老用户迁移
+  follow_up_question: 新内核是否兼容老用户需求？老用户如何迁移到新内核？
+- framework_lens: 内核演化——演化方向需要团队共识
+  follow_up_question: 你们团队对内核演化方向有共识吗？是基于数据还是主观判断？
 
 ---
 # 内核演化：从V1到Vn

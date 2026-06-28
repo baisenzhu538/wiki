@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南
 source_refs:
-  - 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
-  - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
+- 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 动机阻力分析——有动机但有阻力
-    follow_up_question: "用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？"
-  - framework_lens: 动机阻力分析——使用阻力大于使用动机
-    follow_up_question: "用户试用后，是什么让他们不再回来？是体验不好，还是需求不够痛？"
-  - framework_lens: 动机阻力分析——推荐动机有，但推荐阻力大
-    follow_up_question: "用户为什么愿意推荐？推荐的具体场景是什么？什么阻碍了他们实际推荐？"
-  - framework_lens: 动机阻力分析——需求频率被高估
-    follow_up_question: "用户预期多久用一次？实际多久用一次？差异原因是什么？"
-  - framework_lens: 动机阻力分析——动机不够强，被其他事情优先
-    follow_up_question: "用户现在的优先级排序是什么？你的产品排在第几位？"
+- framework_lens: 动机阻力分析——有动机但有阻力
+  follow_up_question: 用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？
+- framework_lens: 动机阻力分析——使用阻力大于使用动机
+  follow_up_question: 用户试用后，是什么让他们不再回来？是体验不好，还是需求不够痛？
+- framework_lens: 动机阻力分析——推荐动机有，但推荐阻力大
+  follow_up_question: 用户为什么愿意推荐？推荐的具体场景是什么？什么阻碍了他们实际推荐？
+- framework_lens: 动机阻力分析——需求频率被高估
+  follow_up_question: 用户预期多久用一次？实际多久用一次？差异原因是什么？
+- framework_lens: 动机阻力分析——动机不够强，被其他事情优先
+  follow_up_question: 用户现在的优先级排序是什么？你的产品排在第几位？
 
 ---
 # 需求动机与阻力分析：为什么用户"需要"但"不用"

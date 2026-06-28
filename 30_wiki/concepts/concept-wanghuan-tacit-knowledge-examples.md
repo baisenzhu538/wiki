@@ -1,6 +1,4 @@
 ---
-
-
 id: concept-wanghuan-tacit-knowledge-examples
 title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
@@ -10,7 +8,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -28,15 +26,11 @@ diagnostic_signals:
 - lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -45,8 +39,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
+---
 # 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 
 > **Burn line**：AI 能查到行业常识，但查不到你行业里"不说但默认"的规则。这些规则才是高手的分水岭。

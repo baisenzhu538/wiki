@@ -1,6 +1,4 @@
 ---
-
-
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-06-26
 type: framework
@@ -12,9 +10,9 @@ domain:
 id: yt-unit-model-overview
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-27"
+review_date: '2026-06-27'
 created_at: 2026-06-15
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
@@ -29,27 +27,13 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单sku模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
-updated_at: '2026-06-26'
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？
@@ -59,7 +43,6 @@ diagnostic_signals:
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
 
 ---
-
 ## Reusable Knowledge
 
 ### 核心定义

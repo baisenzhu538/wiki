@@ -1,18 +1,15 @@
 ---
-
-
-
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -24,19 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -54,7 +43,6 @@ diagnostic_signals:
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
 
 ---
-
 # 王欢GAN三角色架构：生成器/判别器/合成器
 
 > **Burn line**: 灵感来自 GAN——生成器和判别器对抗进化，但这里的判别器来自不同公司、不同模型，盲区不重合。

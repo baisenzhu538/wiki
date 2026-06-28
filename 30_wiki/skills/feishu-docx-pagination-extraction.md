@@ -1,5 +1,4 @@
 ---
-
 id: feishu-docx-pagination-extraction
 title: 飞书 Docx API 分页安全提取 + 流式处理模式
 type: skill
@@ -7,30 +6,28 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: 段王爷
 source_context: 拆书会第208期《AI 2041》逐字稿提取——因API分页遗漏导致内容静默截断，用户纠偏后定位+修复+固化
 source_refs:
-  - src_unknown
-  - src_unknown
-created_at: "2026-06-23"
-updated_at: "2026-06-23"
+- src_unknown
+- src_unknown
+created_at: '2026-06-23'
+updated_at: '2026-06-28'
 author: 段王爷（南帝）
-reviewed_by: "欧阳锋"
-review_date: "2026-06-23"
+reviewed_by: 欧阳锋
+review_date: '2026-06-23'
 related:
-  - src_unknown-publishing
-  - src_unknown
-  - src_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
-    follow_up_question: "你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？"
-  - framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
-    follow_up_question: "你的提取是等全部加载完再处理，还是一页一页流式处理？"
----
+- framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
+  follow_up_question: 你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？
+- framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
+  follow_up_question: 你的提取是等全部加载完再处理，还是一页一页流式处理？
 
+---
 # 飞书 Docx API 分页安全提取 + 流式处理模式
 
 > **P0 级别**：不处理分页会导致内容**静默截断**（API 不报错，数据悄悄少一半）。

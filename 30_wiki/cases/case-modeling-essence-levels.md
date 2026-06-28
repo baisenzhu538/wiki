@@ -18,7 +18,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 老顽童
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
@@ -36,16 +36,10 @@ diagnostic_signals:
 - lens: 对 L4 本质与 L5 学科经典的适用边界不清
   follow_up: 明确当前决策是商业管理问题还是基础科学研究问题，再决定是否需要回到学科经典
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+
 ---
 # 本质建模案例：从盲目创新到学科经典的五层思维深度
 

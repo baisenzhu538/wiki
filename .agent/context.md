@@ -1,11 +1,12 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "老顽童已领取 B1 frontmatter related 占位清理（2026-06-28）：自动写入 + 人工抽检；王语嫣同步启动 Wave 6 诊断；Batch 2-A/B/C 全部 reviewed，机械性 lint ERROR 清零"
+active_task: "王语嫣完成 Wave 6 诊断（2026-06-28）：识别决策科学域系统化 + 需求分析域深化两个盲区；产出诊断报告并拆分为 #21/#22 任务单；待欧阳锋审查；老顽童并行执行 B1 frontmatter related 占位清理"
 blockers:
   - "✅ Batch 2-A/B reviewed（2026-06-28）：A 130 case + B 57 dk 文件已真实修改并 commit，`kdo lint` Case/DK section ERROR 已清零"
   - "⏳ Batch 2-C 数据层清理完成待终审（2026-06-28）：老顽童真实修改 90 个文件，为 175 个 source_refs 添加 `10_raw/sources/` 前缀；`kdo lint` source_refs ERROR 清零；`kdo pre-submit` 90/90 通过；`--expect-changes` 因 vault backup 自动 commit 无法用于本批；待欧阳锋终审"
   - "🆕 下一阶段编排已确认（2026-06-28）：A 线 Wave 6 新盲区诊断（#16）与 B 线 Related/Synthesis 补链（#18/#19/#20）并行；B1 自动写入+抽检，B2 必须人工审核，B3 半自动；related 分层标准：concept/framework/dk/tool ≥5、case ≥3、draft ≥1 或 pending"
+  - "🆕 Wave 6 诊断完成（2026-06-28）：王语嫣识别两个新盲区——决策科学域系统化（已有 14 reviewed，缺 index/框架/桥接）和需求分析域深化（已有 10 reviewed，缺 case/index/桥接）；已产出诊断报告并拆分为 #21/#22 任务单"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"

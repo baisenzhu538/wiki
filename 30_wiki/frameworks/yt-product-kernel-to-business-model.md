@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-to-business-model
 title: 从内核到商业模式：承上启下
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——内核与商业模式
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
-    follow_up_question: "用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？"
-  - framework_lens: 从内核到商业模式——免费模式需要验证付费意愿
-    follow_up_question: "免费用户中，有多少比例愿意付费？付费意愿验证过吗？"
-  - framework_lens: 从内核到商业模式——商业模式必须服务内核
-    follow_up_question: "你的商业模式是否强化了内核价值？还是削弱了？"
-  - framework_lens: 从内核到商业模式——内核成功≠商业模式成功
-    follow_up_question: "内核验证成功，但单元模型是否成立？LTV > CAC吗？"
-  - framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
-    follow_up_question: "市场不认可的是定价、付费方式，还是价值感知？"
+- framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
+  follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？
+- framework_lens: 从内核到商业模式——免费模式需要验证付费意愿
+  follow_up_question: 免费用户中，有多少比例愿意付费？付费意愿验证过吗？
+- framework_lens: 从内核到商业模式——商业模式必须服务内核
+  follow_up_question: 你的商业模式是否强化了内核价值？还是削弱了？
+- framework_lens: 从内核到商业模式——内核成功≠商业模式成功
+  follow_up_question: 内核验证成功，但单元模型是否成立？LTV > CAC吗？
+- framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
+  follow_up_question: 市场不认可的是定价、付费方式，还是价值感知？
 
 ---
 # 从内核到商业模式：承上启下

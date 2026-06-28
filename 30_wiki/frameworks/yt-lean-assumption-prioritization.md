@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -19,24 +16,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 前置假设优先 + 五步法阶段判断
   follow_up_question: 这些假设分别落在一堂五步法的哪一步？如果前一步不成立，后一步是否会全盘推翻？
@@ -46,7 +37,6 @@ diagnostic_signals:
   follow_up_question: 在验证增长渠道之前，需求假设和产品内核是否已拿到初步肯定判断？是否有真实付费或复购信号？
 
 ---
-
 # 关键假设排序：前置优先、风险高的优先
 
 > "前置假设优先，风险高的假设优先。越在需求侧、越在产品侧的假设，风险越高；越往后，风险越低。早期要尽早判断前面的假设，前面的验证完了之后再去验证后面的，是一个前后关系。"  

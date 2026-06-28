@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites: []
@@ -44,23 +41,14 @@ diagnostic_signals:
   follow_up_question: 你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰
 - framework_lens: 确认偏误/群体盲区
   follow_up_question: 最近一次有成员用反例推翻过你的核心假设吗？如果没有，你们可能在用框架自证
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 暗知识：五步法的段位盲区与自评陷阱

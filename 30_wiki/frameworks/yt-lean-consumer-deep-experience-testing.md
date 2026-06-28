@@ -1,37 +1,27 @@
 ---
-
-
-
 id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -48,7 +38,6 @@ diagnostic_signals:
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
 
 ---
-
 # 消费品深层体验测试：表层反馈 vs 深层体验
 
 > **核心论断**：消费品测试最常见的盲区，是相信用户的嘴。"一口好喝"是表层反馈，"喝到半瓶胀气"是深层体验；假产品与假营销只能测兴趣，测不了完整使用体验。

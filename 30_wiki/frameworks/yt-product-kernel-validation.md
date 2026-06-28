@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度验证法
 type: framework
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——验证方法
 source_refs:
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-  - 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+- 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核验证——假设未验证
-    follow_up_question: "你的内核假设验证过吗？用什么方法？关键转化率是多少？"
-  - framework_lens: 产品内核验证——需要三维度交叉验证
-    follow_up_question: "你验证了用户是否愿意使用，但验证了他们是否愿意付费吗？是否愿意推荐？"
-  - framework_lens: 产品内核验证——问卷≠行为验证
-    follow_up_question: "用户说'愿意付费'后，有没有让他们实际付费或预付？"
-  - framework_lens: 产品内核验证——样本不足
-    follow_up_question: "验证了多少个用户？是否覆盖了目标用户画像？"
-  - framework_lens: 产品内核验证——验证结果不被尊重
-    follow_up_question: "如果验证结果不支持内核假设，你会调整方向吗？"
+- framework_lens: 产品内核验证——假设未验证
+  follow_up_question: 你的内核假设验证过吗？用什么方法？关键转化率是多少？
+- framework_lens: 产品内核验证——需要三维度交叉验证
+  follow_up_question: 你验证了用户是否愿意使用，但验证了他们是否愿意付费吗？是否愿意推荐？
+- framework_lens: 产品内核验证——问卷≠行为验证
+  follow_up_question: 用户说'愿意付费'后，有没有让他们实际付费或预付？
+- framework_lens: 产品内核验证——样本不足
+  follow_up_question: 验证了多少个用户？是否覆盖了目标用户画像？
+- framework_lens: 产品内核验证——验证结果不被尊重
+  follow_up_question: 如果验证结果不支持内核假设，你会调整方向吗？
 
 ---
 # 产品内核验证：三维度验证法

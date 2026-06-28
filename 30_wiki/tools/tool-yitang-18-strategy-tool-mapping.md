@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
@@ -7,26 +6,27 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - src_unknown
+- src_unknown
 source_refs:
-  - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
-  - 30_wiki/concepts/yt-research-osl-framework.md
-  - 30_wiki/domains/yitang-research-domain-digest.md
-  - 00_inbox/调研专题/一堂-系统式调研-口述.txt
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
+- 30_wiki/concepts/yt-research-osl-framework.md
+- 30_wiki/domains/yitang-research-domain-digest.md
+- 00_inbox/调研专题/一堂-系统式调研-口述.txt
+created_at: '2026-06-21'
+updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 策略→工具映射表
-    follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
----
+- framework_lens: 策略→工具映射表
+  follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
 
+---
 # 降龙十八掌→工具映射表
 
 > 十八掌是"做什么"，这张卡是"用什么做"。每掌给出对应的 wiki 卡片 + Claude Code Skill + 应急方案。

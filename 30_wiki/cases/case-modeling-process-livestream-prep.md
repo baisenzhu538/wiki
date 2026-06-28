@@ -18,7 +18,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: 2026-06-15
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-开播准备-图-01
@@ -27,16 +27,9 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）
@@ -46,6 +39,7 @@ diagnostic_signals:
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
 - framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
+
 ---
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 

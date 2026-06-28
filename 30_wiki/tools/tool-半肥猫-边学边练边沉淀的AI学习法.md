@@ -1,5 +1,4 @@
 ---
-
 id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
@@ -19,15 +18,13 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: '2026-06-07'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -47,6 +44,7 @@ diagnostic_signals:
   follow_up: 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习
 - lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
+
 ---
 # 技能：边学边练边沉淀的 AI 学习法
 

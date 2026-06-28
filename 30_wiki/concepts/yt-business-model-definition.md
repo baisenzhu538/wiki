@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-definition
 title: 商业模式定义：从内核到变现
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——商业模式定义
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 商业模式定义——内核是价值，商业模式是变现路径
-    follow_up_question: "用户愿意为内核价值付多少钱？付费方式是什么？"
-  - framework_lens: 商业模式定义——免费模式需要验证付费意愿
-    follow_up_question: "免费用户中，有多少比例愿意付费？付费意愿验证过吗？"
-  - framework_lens: 商业模式定义——商业模式必须服务内核
-    follow_up_question: "你的商业模式是否强化了内核价值？还是削弱了？"
-  - framework_lens: 商业模式定义——需要选择最匹配内核的模式
-    follow_up_question: "哪个商业模式最能强化内核价值？哪个单元模型最健康？"
-  - framework_lens: 商业模式定义——创新≠可行，需要验证单元模型
-    follow_up_question: "你的单元模型成立吗？LTV > CAC吗？有数据支撑吗？"
+- framework_lens: 商业模式定义——内核是价值，商业模式是变现路径
+  follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？
+- framework_lens: 商业模式定义——免费模式需要验证付费意愿
+  follow_up_question: 免费用户中，有多少比例愿意付费？付费意愿验证过吗？
+- framework_lens: 商业模式定义——商业模式必须服务内核
+  follow_up_question: 你的商业模式是否强化了内核价值？还是削弱了？
+- framework_lens: 商业模式定义——需要选择最匹配内核的模式
+  follow_up_question: 哪个商业模式最能强化内核价值？哪个单元模型最健康？
+- framework_lens: 商业模式定义——创新≠可行，需要验证单元模型
+  follow_up_question: 你的单元模型成立吗？LTV > CAC吗？有数据支撑吗？
 
 ---
 # 商业模式定义：从内核到变现

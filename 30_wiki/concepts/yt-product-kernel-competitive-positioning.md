@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——竞争定位
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
-    follow_up_question: "用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。"
-  - framework_lens: 内核竞争定位——价格不是可持续的差异化
-    follow_up_question: "如果竞品也降价，你们还有什么差异化？"
-  - framework_lens: 内核竞争定位——功能同质化，内核被稀释
-    follow_up_question: "去掉和竞品重叠的功能，你们还剩下什么独特价值？"
-  - framework_lens: 内核竞争定位——目标清晰，但路径不清晰
-    follow_up_question: "行业第一的定位是什么？在哪个维度上第一？"
-  - framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
-    follow_up_question: "你们的定位持续多久了？用户是否形成了稳定认知？"
+- framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
+  follow_up_question: 用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。
+- framework_lens: 内核竞争定位——价格不是可持续的差异化
+  follow_up_question: 如果竞品也降价，你们还有什么差异化？
+- framework_lens: 内核竞争定位——功能同质化，内核被稀释
+  follow_up_question: 去掉和竞品重叠的功能，你们还剩下什么独特价值？
+- framework_lens: 内核竞争定位——目标清晰，但路径不清晰
+  follow_up_question: 行业第一的定位是什么？在哪个维度上第一？
+- framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
+  follow_up_question: 你们的定位持续多久了？用户是否形成了稳定认知？
 
 ---
 # 内核竞争定位：差异化策略

@@ -1,14 +1,11 @@
 ---
-
-
-
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
@@ -25,20 +22,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 tools_required:
 - src_unknown
 - src_unknown
 - src_unknown
 prerequisite_skills: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -51,7 +46,6 @@ diagnostic_signals:
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
 
 ---
-
 # 技能：口喷式语音输入法
 
 ## 用一句话讲清楚

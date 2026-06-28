@@ -1,15 +1,11 @@
 ---
-
-
-
-
 title: 项目管理
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 pipeline:
 - src_unknown
@@ -18,7 +14,7 @@ diagnostic_signals:
   follow_up_question: 你们的项目范围、关键路径、风险看板是否清晰？如果工具只是记录，项目管理没落地
 - framework_lens: 范围蔓延
   follow_up_question: 这个项目最初的交付物是什么？现在增加了多少不在原始范围内的内容？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 id: yt-management-project-management
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -29,9 +25,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 项目管理

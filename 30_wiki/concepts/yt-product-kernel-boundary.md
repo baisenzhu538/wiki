@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——边界
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 内核与边界——边界不清，资源分散
-    follow_up_question: "你的产品边界是什么？什么坚决不做？"
-  - framework_lens: 内核与边界——边界被随意扩展
-    follow_up_question: "这个功能是否服务于内核？去掉它，内核是否还成立？"
-  - framework_lens: 内核与边界——边界被外部压力突破
-    follow_up_question: "这个需求是否在你的产品边界内？如果不在，是扩展边界还是拒绝？"
-  - framework_lens: 内核与边界——团队边界共识缺失
-    follow_up_question: "你们团队对'什么该做，什么不该做'有共识吗？写下来一致吗？"
-  - framework_lens: 内核与边界——边界被'试试看'突破
-    follow_up_question: "'试试看'的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？"
+- framework_lens: 内核与边界——边界不清，资源分散
+  follow_up_question: 你的产品边界是什么？什么坚决不做？
+- framework_lens: 内核与边界——边界被随意扩展
+  follow_up_question: 这个功能是否服务于内核？去掉它，内核是否还成立？
+- framework_lens: 内核与边界——边界被外部压力突破
+  follow_up_question: 这个需求是否在你的产品边界内？如果不在，是扩展边界还是拒绝？
+- framework_lens: 内核与边界——团队边界共识缺失
+  follow_up_question: 你们团队对'什么该做，什么不该做'有共识吗？写下来一致吗？
+- framework_lens: 内核与边界——边界被'试试看'突破
+  follow_up_question: '''试试看''的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？'
 
 ---
 # 内核与边界：什么该做，什么不该做

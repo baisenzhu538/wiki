@@ -1,15 +1,11 @@
 ---
-
-
-
-
 title: 管理段位
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 pipeline:
 - src_unknown
@@ -18,7 +14,7 @@ diagnostic_signals:
   follow_up_question: 你上一阶段让你成功的习惯，有没有成为这一阶段的阻碍？
 - framework_lens: 认知偏差
   follow_up_question: 你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 id: yt-management-leadership-levels
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -29,11 +25,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 管理段位

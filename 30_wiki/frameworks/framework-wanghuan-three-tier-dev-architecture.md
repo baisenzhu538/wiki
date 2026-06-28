@@ -1,19 +1,16 @@
 ---
-
-
-
 id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -25,16 +22,11 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - lens: 系统瓶颈 vs. 工具瓶颈
   follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
@@ -53,7 +45,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 
 > **Burn line**: 程序员不是写代码的人，是让 AI 把代码写好的人。

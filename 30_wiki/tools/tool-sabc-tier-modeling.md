@@ -1,37 +1,30 @@
 ---
-
-
-
 id: tool-sabc-tier-modeling
 title: SABC分级/段位图建模法：给事物排优先级与成长路径
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
-  - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -39,12 +32,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-  - framework_lens: SABC 分级——S 级是“必须亲自盯、不做会出大事”的稀缺档位
-    follow_up_question: 如果强制把 S 级压缩到 3 个以内，哪些事项可以降级为 A/B，降级标准是什么？
-  - framework_lens: SABC 分级——C 级代表“可做可不做，资源紧时直接砍掉”
-    follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
-  - framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
-    follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
+- framework_lens: SABC 分级——S 级是“必须亲自盯、不做会出大事”的稀缺档位
+  follow_up_question: 如果强制把 S 级压缩到 3 个以内，哪些事项可以降级为 A/B，降级标准是什么？
+- framework_lens: SABC 分级——C 级代表“可做可不做，资源紧时直接砍掉”
+  follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
+- framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
+  follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
+
 ---
 # SABC分级/段位图建模法：给事物排优先级与成长路径
 

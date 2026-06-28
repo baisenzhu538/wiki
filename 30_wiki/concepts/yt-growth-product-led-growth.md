@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-product-led-growth
 title: 产品驱动增长：PLG模式
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——产品驱动增长
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品驱动增长——PLG模式不需要销售团队，产品本身驱动增长
-    follow_up_question: "你的产品是否能让用户自助使用、自助付费？产品体验是否足够好？"
-  - framework_lens: 产品驱动增长——PLG适合低客单价、自助使用的产品
-    follow_up_question: "你的产品客单价多少？用户能否自助使用？是否需要销售介入？"
-  - framework_lens: 产品驱动增长——PLG不只是免费试用，而是产品本身驱动获客、激活、留存、变现
-    follow_up_question: "你的产品是否在用户使用时自然传播？用户能否自助体验到价值？"
-  - framework_lens: 产品驱动增长——PLG和SLG不是互斥，可以组合
-    follow_up_question: "你的产品哪些部分适合PLG？哪些部分需要SLG？如何组合？"
-  - framework_lens: 产品驱动增长——PLG前期慢，但规模化后效率高
-    follow_up_question: "你的PLG飞轮是否形成了？病毒系数K是多少？"
+- framework_lens: 产品驱动增长——PLG模式不需要销售团队，产品本身驱动增长
+  follow_up_question: 你的产品是否能让用户自助使用、自助付费？产品体验是否足够好？
+- framework_lens: 产品驱动增长——PLG适合低客单价、自助使用的产品
+  follow_up_question: 你的产品客单价多少？用户能否自助使用？是否需要销售介入？
+- framework_lens: 产品驱动增长——PLG不只是免费试用，而是产品本身驱动获客、激活、留存、变现
+  follow_up_question: 你的产品是否在用户使用时自然传播？用户能否自助体验到价值？
+- framework_lens: 产品驱动增长——PLG和SLG不是互斥，可以组合
+  follow_up_question: 你的产品哪些部分适合PLG？哪些部分需要SLG？如何组合？
+- framework_lens: 产品驱动增长——PLG前期慢，但规模化后效率高
+  follow_up_question: 你的PLG飞轮是否形成了？病毒系数K是多少？
 
 ---
 # 产品驱动增长：PLG模式

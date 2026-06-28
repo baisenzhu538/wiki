@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——渠道经济学
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
-    follow_up_question: "你的获客渠道有几个？每个渠道的CAC分别是多少？"
-  - framework_lens: 渠道经济学——CAC变化需要定位具体渠道
-    follow_up_question: "CAC下降是因为某个渠道优化，还是整体渠道结构变化？"
-  - framework_lens: 渠道经济学——新渠道需要测试和优化
-    follow_up_question: "新渠道测试了多久？优化了哪些变量？"
-  - framework_lens: 渠道经济学——自然获客是健康指标
-    follow_up_question: "你的自然获客占比是多少？如何提升自然获客？"
-  - framework_lens: 渠道经济学——渠道之间可能互相蚕食
-    follow_up_question: "你的渠道之间是否互相竞争？如何协调渠道策略？"
+- framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
+  follow_up_question: 你的获客渠道有几个？每个渠道的CAC分别是多少？
+- framework_lens: 渠道经济学——CAC变化需要定位具体渠道
+  follow_up_question: CAC下降是因为某个渠道优化，还是整体渠道结构变化？
+- framework_lens: 渠道经济学——新渠道需要测试和优化
+  follow_up_question: 新渠道测试了多久？优化了哪些变量？
+- framework_lens: 渠道经济学——自然获客是健康指标
+  follow_up_question: 你的自然获客占比是多少？如何提升自然获客？
+- framework_lens: 渠道经济学——渠道之间可能互相蚕食
+  follow_up_question: 你的渠道之间是否互相竞争？如何协调渠道策略？
 
 ---
 # 渠道经济学：获客成本优化

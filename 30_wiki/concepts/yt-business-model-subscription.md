@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
 type: concept
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——订阅制
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
-    follow_up_question: "你的收入是否可预测？订阅制能否提升收入稳定性？"
-  - framework_lens: 订阅制商业模式——需要设计订阅价值
-    follow_up_question: "用户为什么不愿意订阅？订阅价值是否清晰？"
-  - framework_lens: 订阅制商业模式——留存是订阅制的核心
-    follow_up_question: "你的订阅用户流失率是多少？留存策略是什么？"
-  - framework_lens: 订阅制商业模式——订阅定价需要价值匹配
-    follow_up_question: "你的订阅价格是否和提供的价值匹配？用户感知价值如何？"
-  - framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
-    follow_up_question: "你的产品是否适合订阅制？订阅价值是否持续？"
+- framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
+  follow_up_question: 你的收入是否可预测？订阅制能否提升收入稳定性？
+- framework_lens: 订阅制商业模式——需要设计订阅价值
+  follow_up_question: 用户为什么不愿意订阅？订阅价值是否清晰？
+- framework_lens: 订阅制商业模式——留存是订阅制的核心
+  follow_up_question: 你的订阅用户流失率是多少？留存策略是什么？
+- framework_lens: 订阅制商业模式——订阅定价需要价值匹配
+  follow_up_question: 你的订阅价格是否和提供的价值匹配？用户感知价值如何？
+- framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
+  follow_up_question: 你的产品是否适合订阅制？订阅价值是否持续？
 
 ---
 # 订阅制商业模式：从一次性到持续收入

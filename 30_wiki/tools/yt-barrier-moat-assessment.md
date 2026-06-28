@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-moat-assessment
 title: 护城河评估工具
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——护城河评估
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 护城河评估工具——需要系统评估护城河强度
-    follow_up_question: "你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？"
-  - framework_lens: 护城河评估工具——护城河被突破需要评估原因和修复
-    follow_up_question: "哪个护城河被突破？突破的原因是什么？如何修复或建立新护城河？"
-  - framework_lens: 护城河评估工具——投资需要评估目标公司的护城河
-    follow_up_question: "目标公司的护城河是什么？强度如何？持续时间多长？"
-  - framework_lens: 护城河评估工具——需要优先级排序
-    follow_up_question: "你的护城河按强度和重要性排序是什么？哪个是核心护城河？"
-  - framework_lens: 护城河评估工具——需要定期评估护城河变化
-    follow_up_question: "你的护城河减弱的速度和原因是什么？是否需要紧急修复？"
+- framework_lens: 护城河评估工具——需要系统评估护城河强度
+  follow_up_question: 你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？
+- framework_lens: 护城河评估工具——护城河被突破需要评估原因和修复
+  follow_up_question: 哪个护城河被突破？突破的原因是什么？如何修复或建立新护城河？
+- framework_lens: 护城河评估工具——投资需要评估目标公司的护城河
+  follow_up_question: 目标公司的护城河是什么？强度如何？持续时间多长？
+- framework_lens: 护城河评估工具——需要优先级排序
+  follow_up_question: 你的护城河按强度和重要性排序是什么？哪个是核心护城河？
+- framework_lens: 护城河评估工具——需要定期评估护城河变化
+  follow_up_question: 你的护城河减弱的速度和原因是什么？是否需要紧急修复？
 
 ---
 # 护城河评估工具

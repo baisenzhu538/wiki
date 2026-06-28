@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-product-ten-metrics
 component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: '[[yt-product-kernel-cultivation]]'
@@ -43,14 +40,14 @@ diagnostic_signals:
   follow_up_question: 最近一个周期，哪个指标变化最大？原因是什么？
 - framework_lens: 指标驱动决策
   follow_up_question: 如果复购率下降5%，你的标准应对流程是什么？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 产品内核十大典型指标

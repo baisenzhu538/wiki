@@ -1,6 +1,4 @@
 ---
-
-
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
@@ -16,25 +14,13 @@ source_refs:
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 - 10_raw/sources/src_20260617_205eaa9b-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-07
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 pipeline:
 - src_unknown
 - src_unknown
@@ -53,6 +39,7 @@ diagnostic_signals:
   follow_up_question: 你过去三个月沉淀了多少个可复用的 SOP、Skill 或检查清单？最近一次调用自己沉淀的工具是什么时候？
 - framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
+
 ---
 # 半肥猫 AI 学习落地方法论
 

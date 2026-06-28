@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
 type: concept
@@ -10,31 +9,31 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂产品内核系列课——产品内核定义
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核定义——内核是价值，不是功能列表
-    follow_up_question: "去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。"
-  - framework_lens: 产品内核定义——全面≠有内核，可能意味着没有聚焦
-    follow_up_question: "用户选择你们，最核心的原因是什么？这个原因能支撑用户付费吗？"
-  - framework_lens: 产品内核定义——功能膨胀，内核被稀释
-    follow_up_question: "最近新增的3个功能，每个功能解决了什么核心问题？去掉会影响关键转化率吗？"
-  - framework_lens: 产品内核定义——内核必须能用一句话描述
-    follow_up_question: "你能用一句话（不超过20字）说清楚用户为什么选择你们吗？"
-  - framework_lens: 产品内核定义——内核必须是团队共识
-    follow_up_question: "你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？"
+- framework_lens: 产品内核定义——内核是价值，不是功能列表
+  follow_up_question: 去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。
+- framework_lens: 产品内核定义——全面≠有内核，可能意味着没有聚焦
+  follow_up_question: 用户选择你们，最核心的原因是什么？这个原因能支撑用户付费吗？
+- framework_lens: 产品内核定义——功能膨胀，内核被稀释
+  follow_up_question: 最近新增的3个功能，每个功能解决了什么核心问题？去掉会影响关键转化率吗？
+- framework_lens: 产品内核定义——内核必须能用一句话描述
+  follow_up_question: 你能用一句话（不超过20字）说清楚用户为什么选择你们吗？
+- framework_lens: 产品内核定义——内核必须是团队共识
+  follow_up_question: 你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？
 
 ---
 # 产品内核定义：用户愿意选择你的最小解决方案

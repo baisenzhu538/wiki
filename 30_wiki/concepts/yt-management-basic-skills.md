@@ -1,14 +1,10 @@
 ---
-
-
-
-
 title: 基本功认知
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 pipeline:
 - src_unknown
@@ -23,7 +19,7 @@ diagnostic_signals:
   follow_up_question: 过去三个月，你用了多少次STAR/授权量表/目标设定？有没有一个"用工具→收数据→调行为"的具体循环？
 - framework_lens: 经验论/隐性模式固化
   follow_up_question: 你最近一次在绩效面谈、授权或冲突处理中的做法，和三个月前有什么不同？如果答不上来，说明经验没有被结构化反思
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 id: yt-management-basic-skills
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -31,17 +27,14 @@ created_at: 2026-06-15
 confidence: 0.88
 trust_level: medium-high
 source_refs:
-  - 10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md
+- 10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md
 source_context: 原始 source 无法追溯，已清空 source_refs；后续补充真实来源后可在 10_raw/sources/ 下引用相对路径
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 基本功认知

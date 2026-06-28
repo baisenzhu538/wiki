@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——渠道ROI
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
-    follow_up_question: "你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？"
-  - framework_lens: 渠道ROI评估——CAC低≠ROI高，需要看LTV
-    follow_up_question: "这个渠道用户的LTV是多少？LTV/CAC是否健康？"
-  - framework_lens: 渠道ROI评估——渠道ROI下降可能是市场变化或竞争加剧
-    follow_up_question: "ROI下降是短期波动还是长期趋势？竞品是否也在同一渠道？"
-  - framework_lens: 渠道ROI评估——渠道多元化是风险管理
-    follow_up_question: "你的渠道集中度是多少？是否有计划拓展新渠道？"
-  - framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
-    follow_up_question: "成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？"
+- framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
+  follow_up_question: 你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？
+- framework_lens: 渠道ROI评估——CAC低≠ROI高，需要看LTV
+  follow_up_question: 这个渠道用户的LTV是多少？LTV/CAC是否健康？
+- framework_lens: 渠道ROI评估——渠道ROI下降可能是市场变化或竞争加剧
+  follow_up_question: ROI下降是短期波动还是长期趋势？竞品是否也在同一渠道？
+- framework_lens: 渠道ROI评估——渠道多元化是风险管理
+  follow_up_question: 你的渠道集中度是多少？是否有计划拓展新渠道？
+- framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
+  follow_up_question: 成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？
 
 ---
 # 渠道ROI评估与优化

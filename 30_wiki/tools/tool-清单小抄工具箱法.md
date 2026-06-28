@@ -1,5 +1,4 @@
 ---
-
 id: tool-清单小抄工具箱法
 title: 技能：清单小抄工具箱法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 清单是'检查胎压'，SOP是'必须用左手扭到3.5N·m'，清单提醒关键项不规定具体动作
 - lens: 过度依赖
   follow_up: 清单是辅助不是拐杖，核心能力需内化，清单只用于防遗漏和标准化
+
 ---
 # 技能：清单小抄工具箱法
 

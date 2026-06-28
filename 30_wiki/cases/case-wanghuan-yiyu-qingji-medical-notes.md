@@ -18,7 +18,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 高价值痛点场景
   follow_up: 观察目标用户真实工作流程，统计被消耗的时间占比
@@ -29,22 +29,16 @@ diagnostic_signals:
 - lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 # 王欢案例：医语轻记用语音录入缩短病历时间
 

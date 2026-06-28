@@ -1,5 +1,4 @@
 ---
-
 id: tool-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
@@ -12,14 +11,11 @@ version: 2
 difficulty: beginner
 confidence: 0.88
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,7 +41,7 @@ author: unknown
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 trust_level: medium
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 层级超载
   follow_up: 拆分为2-3层并列分类，删除无意义的中间层级
@@ -61,6 +57,7 @@ diagnostic_signals:
   follow_up: 确定唯一归属层级，删除重复或改为引用
 - lens: 机器可读性差
   follow_up: 将4层及以上嵌套压缩到3层以内，并统一列表符号
+
 ---
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 

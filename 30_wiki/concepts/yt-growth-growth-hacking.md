@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——增长黑客
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 增长黑客——低成本快速实验，不需要大预算
-    follow_up_question: "你能用A/B测试验证假设吗？最小化实验成本，快速迭代。"
-  - framework_lens: 增长黑客——增长黑客的核心是快速实验，找到增长杠杆
-    follow_up_question: "你的增长假设是什么？能否设计一个最小化实验验证？"
-  - framework_lens: 增长黑客——增长黑客需要数据驱动，每个实验都要可衡量
-    follow_up_question: "你的实验有明确的指标吗？是否控制了变量？"
-  - framework_lens: 增长黑客——增长黑客是系统方法，不是找漏洞
-    follow_up_question: "你的增长实验是系统性的吗？还是随机尝试？"
-  - framework_lens: 增长黑客——增长黑客适用于任何需要增长的场景
-    follow_up_question: "你的业务有增长假设吗？能否设计低成本实验验证？"
+- framework_lens: 增长黑客——低成本快速实验，不需要大预算
+  follow_up_question: 你能用A/B测试验证假设吗？最小化实验成本，快速迭代。
+- framework_lens: 增长黑客——增长黑客的核心是快速实验，找到增长杠杆
+  follow_up_question: 你的增长假设是什么？能否设计一个最小化实验验证？
+- framework_lens: 增长黑客——增长黑客需要数据驱动，每个实验都要可衡量
+  follow_up_question: 你的实验有明确的指标吗？是否控制了变量？
+- framework_lens: 增长黑客——增长黑客是系统方法，不是找漏洞
+  follow_up_question: 你的增长实验是系统性的吗？还是随机尝试？
+- framework_lens: 增长黑客——增长黑客适用于任何需要增长的场景
+  follow_up_question: 你的业务有增长假设吗？能否设计低成本实验验证？
 
 ---
 # 增长黑客：低成本快速实验

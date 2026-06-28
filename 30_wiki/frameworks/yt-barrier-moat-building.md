@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——壁垒建设路线图
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
-    follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？"
-  - framework_lens: 壁垒建设路线图——壁垒建设需要时间，但可以加速
-    follow_up_question: "你的壁垒建设瓶颈是什么？资源、时间、还是方法？"
-  - framework_lens: 壁垒建设路线图——壁垒需要用户感知，才能转化为竞争优势
-    follow_up_question: "你的壁垒是否转化为用户价值？用户是否因为壁垒而选择你？"
-  - framework_lens: 壁垒建设路线图——壁垒建设需要聚焦，不能分散
-    follow_up_question: "你的壁垒建设是否聚焦？核心壁垒是什么？投入是否集中？"
-  - framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
-    follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
+- framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
+  follow_up_question: 你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？
+- framework_lens: 壁垒建设路线图——壁垒建设需要时间，但可以加速
+  follow_up_question: 你的壁垒建设瓶颈是什么？资源、时间、还是方法？
+- framework_lens: 壁垒建设路线图——壁垒需要用户感知，才能转化为竞争优势
+  follow_up_question: 你的壁垒是否转化为用户价值？用户是否因为壁垒而选择你？
+- framework_lens: 壁垒建设路线图——壁垒建设需要聚焦，不能分散
+  follow_up_question: 你的壁垒建设是否聚焦？核心壁垒是什么？投入是否集中？
+- framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
+  follow_up_question: 你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？
 
 ---
 # 壁垒建设路线图

@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: []
@@ -43,15 +40,14 @@ diagnostic_signals:
   follow_up_question: 你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化
 - framework_lens: 群体确认偏差+过度自信叠加
   follow_up_question: 这次讨论前是否要求每个人独立写判断？有没有指定"恶魔辩护人"专门挑刺？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 暗知识：五步法中的主要认知偏差

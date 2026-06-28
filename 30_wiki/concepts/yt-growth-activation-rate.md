@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——激活率
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 激活率——注册用户多但活跃少，说明激活环节断了
-    follow_up_question: "你的激活率是多少？用户注册后第一次体验到价值的路径是什么？"
-  - framework_lens: 激活率——用户注册后没有体验到价值，需要优化激活路径
-    follow_up_question: "用户注册后看到的是什么？是否能在3分钟内体验到核心价值？"
-  - framework_lens: 激活率——功能多≠价值清晰，需要引导用户到核心价值
-    follow_up_question: "你的产品最核心的价值是什么？用户第一次使用应该体验到什么？"
-  - framework_lens: 激活率——onboarding太长，用户还没体验到价值就流失了
-    follow_up_question: "你的onboarding有几步？能不能在3步内让用户体验到价值？"
-  - framework_lens: 激活率——激活≠留存，需要设计持续价值
-    follow_up_question: "用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？"
+- framework_lens: 激活率——注册用户多但活跃少，说明激活环节断了
+  follow_up_question: 你的激活率是多少？用户注册后第一次体验到价值的路径是什么？
+- framework_lens: 激活率——用户注册后没有体验到价值，需要优化激活路径
+  follow_up_question: 用户注册后看到的是什么？是否能在3分钟内体验到核心价值？
+- framework_lens: 激活率——功能多≠价值清晰，需要引导用户到核心价值
+  follow_up_question: 你的产品最核心的价值是什么？用户第一次使用应该体验到什么？
+- framework_lens: 激活率——onboarding太长，用户还没体验到价值就流失了
+  follow_up_question: 你的onboarding有几步？能不能在3步内让用户体验到价值？
+- framework_lens: 激活率——激活≠留存，需要设计持续价值
+  follow_up_question: 用户激活后，是否形成了使用习惯？有没有机制让用户持续回来？
 
 ---
 # 激活率：让用户第一次体验到价值

@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
@@ -18,17 +17,14 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -44,6 +40,7 @@ diagnostic_signals:
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
 - lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
+
 ---
 # 技能：设计 Skill 的评分规则与风险边界
 

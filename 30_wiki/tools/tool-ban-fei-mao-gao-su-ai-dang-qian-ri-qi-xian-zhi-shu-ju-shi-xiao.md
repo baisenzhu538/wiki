@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
@@ -17,13 +16,13 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: '2026-06-07'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,6 +38,7 @@ diagnostic_signals:
   follow_up: 同时声明'不得使用训练数据中的过时信息，优先使用最新可得数据'
 - lens: 行业时效标准未定义
   follow_up: 补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）
+
 ---
 # 技能：告诉 AI 当前日期限制数据时效
 

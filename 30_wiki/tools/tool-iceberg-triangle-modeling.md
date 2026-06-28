@@ -1,36 +1,29 @@
 ---
-
-
-
 id: tool-iceberg-triangle-modeling
 title: 冰山图/三角图建模法：从表象深挖结构与本质
 type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+- 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 domain:
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: high
-confidence: 0.90
+confidence: 0.9
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -38,12 +31,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-  - framework_lens: iceberg-visible-vs-hidden
-    follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？
-  - framework_lens: triangle-oversimplification
-    follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
-  - framework_lens: iceberg-level-confusion
-    follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
+- framework_lens: iceberg-visible-vs-hidden
+  follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？
+- framework_lens: triangle-oversimplification
+  follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
+- framework_lens: iceberg-level-confusion
+  follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
+
 ---
 # 冰山图/三角图建模法：从表象深挖结构与本质
 

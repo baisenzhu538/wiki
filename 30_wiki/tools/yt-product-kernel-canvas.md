@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
 type: tool
@@ -10,32 +9,31 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——产品内核画布
 source_refs:
-  - 10_raw/sources/src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
-  - 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
+- 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核画布——结构化工具帮助对齐认知
-    follow_up_question: "你们团队一起填过产品内核画布吗？每个格子的答案一致吗？"
-  - framework_lens: 产品内核画布——功能必须对应画布中的某个格子
-    follow_up_question: "这个功能对应画布中的哪个格子？如果对应不了，可能不是内核功能。"
-  - framework_lens: 产品内核画布——用户视角和团队视角可能不一致
-    follow_up_question: "画布中'用户认为的问题'和'团队认为的问题'一致吗？"
-  - framework_lens: 产品内核画布——迭代方向应基于画布中的验证结果
-    follow_up_question: "你们上次迭代是基于画布的哪个格子发现的问题？"
-  - framework_lens: 产品内核画布——画布输出就是价值描述
-    follow_up_question: "你能用画布中的'一句话价值描述'向客户介绍产品吗？"
+- framework_lens: 产品内核画布——结构化工具帮助对齐认知
+  follow_up_question: 你们团队一起填过产品内核画布吗？每个格子的答案一致吗？
+- framework_lens: 产品内核画布——功能必须对应画布中的某个格子
+  follow_up_question: 这个功能对应画布中的哪个格子？如果对应不了，可能不是内核功能。
+- framework_lens: 产品内核画布——用户视角和团队视角可能不一致
+  follow_up_question: 画布中'用户认为的问题'和'团队认为的问题'一致吗？
+- framework_lens: 产品内核画布——迭代方向应基于画布中的验证结果
+  follow_up_question: 你们上次迭代是基于画布的哪个格子发现的问题？
+- framework_lens: 产品内核画布——画布输出就是价值描述
+  follow_up_question: 你能用画布中的'一句话价值描述'向客户介绍产品吗？
 
 ---
 # 产品内核画布：从问题到解决方案的结构化工具

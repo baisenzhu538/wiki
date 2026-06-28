@@ -3,38 +3,40 @@ id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_person: Truman
-source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例）。单一来源，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至 high。
+source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例）。单一来源，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至
+  high。
 created_at: '2026-06-14'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-  - framework_lens: 给 SOP 加两层执行锁（督导 + 总品控督导）
-    follow_up_question: 你的 SOP 每个关键节点有没有指定专人检查？检查者自己有没有被检查？
-  - framework_lens: 三层锁冗余设计
-    follow_up_question: 执行者、督导、品控三个角色是否由不同人担任？还是同一人既执行又自查？
-  - framework_lens: SOP 检查机制独立化
-    follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
+- framework_lens: 给 SOP 加两层执行锁（督导 + 总品控督导）
+  follow_up_question: 你的 SOP 每个关键节点有没有指定专人检查？检查者自己有没有被检查？
+- framework_lens: 三层锁冗余设计
+  follow_up_question: 执行者、督导、品控三个角色是否由不同人担任？还是同一人既执行又自查？
+- framework_lens: SOP 检查机制独立化
+  follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+
 ---
 # 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 

@@ -1,16 +1,13 @@
 ---
-
-
-
 id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -20,27 +17,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 客户分层（头部/腰部/腿部）
   follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？
@@ -52,7 +40,6 @@ diagnostic_signals:
   follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
 
 ---
-
 > **核心观点**：To B 业务最糙、最基础也最通用的客户划分，是按客户数量级切成三层——头部（千级以下）、腰部（几万到几十万）、腿部（百万级以上）。不同层级的需求复杂度、决策机制、合作重点和付费特征差异显著，选择服务哪一层应先于产品设计。——徐剑《To B 五步法》口述稿（约 867–980 行）及课堂笔记 §2
 
 ## 一、框架概述

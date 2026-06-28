@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-scalability
 title: 商业模式可规模化评估：从1到100万
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——可规模化
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 商业模式可规模化——单元模型成立≠可规模化
-    follow_up_question: "你的获客渠道是否可规模化？每个渠道的获客上限是多少？"
-  - framework_lens: 商业模式可规模化——需要评估规模化瓶颈
-    follow_up_question: "做不大的原因是获客瓶颈、交付瓶颈、还是团队瓶颈？"
-  - framework_lens: 商业模式可规模化——规模化可能改变单元模型
-    follow_up_question: "规模化后，CAC是否上升？LTV是否下降？为什么？"
-  - framework_lens: 商业模式可规模化——渠道多元化是规模化前提
-    follow_up_question: "如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？"
-  - framework_lens: 商业模式可规模化——规模不解决根本问题
-    follow_up_question: "规模化的瓶颈是什么？规模能突破瓶颈吗？"
+- framework_lens: 商业模式可规模化——单元模型成立≠可规模化
+  follow_up_question: 你的获客渠道是否可规模化？每个渠道的获客上限是多少？
+- framework_lens: 商业模式可规模化——需要评估规模化瓶颈
+  follow_up_question: 做不大的原因是获客瓶颈、交付瓶颈、还是团队瓶颈？
+- framework_lens: 商业模式可规模化——规模化可能改变单元模型
+  follow_up_question: 规模化后，CAC是否上升？LTV是否下降？为什么？
+- framework_lens: 商业模式可规模化——渠道多元化是规模化前提
+  follow_up_question: 如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？
+- framework_lens: 商业模式可规模化——规模不解决根本问题
+  follow_up_question: 规模化的瓶颈是什么？规模能突破瓶颈吗？
 
 ---
 # 商业模式可规模化评估：从1到100万

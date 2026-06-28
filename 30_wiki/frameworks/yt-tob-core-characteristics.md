@@ -1,16 +1,13 @@
 ---
-
-
-
 id: yt-tob-core-characteristics
 title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -22,27 +19,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 角色分离 / 决策者与使用者分离
   follow_up_question: 谁是最终付费决策者？他的考核指标、成本结构和决策链上还有哪些影响者？
@@ -52,7 +40,6 @@ diagnostic_signals:
   follow_up_question: 成交、交付、回款、财务确认各周期分别是多少？自由现金流何时转正？
 
 ---
-
 > To B 业务面向的是组织，必然会存在多角色共同参与决策和使用；客户决策基于实际价值，情绪价值作用有限；成交、交付、回款、财务确认周期均较长，必须重视现金流管理。——徐剑《To B 业务五步法》口述稿（oral ~216–557）及课堂笔记 §1
 
 ## 核心摘要

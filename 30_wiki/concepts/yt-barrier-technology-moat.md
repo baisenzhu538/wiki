@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——技术护城河
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
-    follow_up_question: "你的技术领先周期多长？研发投入占收入多少？专利布局如何？"
-  - framework_lens: 技术护城河——专利需要设计得难以绕过
-    follow_up_question: "你的专利是核心专利还是外围专利？竞品绕过难度多大？"
-  - framework_lens: 技术护城河——技术需要产品化，才能形成壁垒
-    follow_up_question: "你的技术是否转化为产品优势？用户是否感知到技术差异？"
-  - framework_lens: 技术护城河——算法公开后，壁垒是数据和工程能力
-    follow_up_question: "算法公开后，你的数据资产和工程能力是否构成壁垒？"
-  - framework_lens: 技术护城河——技术投入需要与商业目标对齐
-    follow_up_question: "你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？"
+- framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
+  follow_up_question: 你的技术领先周期多长？研发投入占收入多少？专利布局如何？
+- framework_lens: 技术护城河——专利需要设计得难以绕过
+  follow_up_question: 你的专利是核心专利还是外围专利？竞品绕过难度多大？
+- framework_lens: 技术护城河——技术需要产品化，才能形成壁垒
+  follow_up_question: 你的技术是否转化为产品优势？用户是否感知到技术差异？
+- framework_lens: 技术护城河——算法公开后，壁垒是数据和工程能力
+  follow_up_question: 算法公开后，你的数据资产和工程能力是否构成壁垒？
+- framework_lens: 技术护城河——技术投入需要与商业目标对齐
+  follow_up_question: 你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？
 
 ---
 # 技术护城河：专利与研发

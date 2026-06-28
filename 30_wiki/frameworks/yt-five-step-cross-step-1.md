@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-five-step-cross-step-1
 title: 跨步一：从0到1的验证
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法——跨步一：从0到1的验证
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
-    follow_up_question: "你的需求验证了吗？内核验证了吗？单元模型成立吗？"
-  - framework_lens: 跨步一——产品没人用说明需求或内核验证失败
-    follow_up_question: "你的需求是真实的吗？内核是否解决了用户问题？"
-  - framework_lens: 跨步一——内核验证需要用户真实使用并反馈
-    follow_up_question: "你的内核是否让用户愿意用？用户使用后是否愿意推荐？"
-  - framework_lens: 跨步一——验证通过后需要敢于规模化
-    follow_up_question: "你的验证是否充分？单元模型是否成立？"
-  - framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
-    follow_up_question: "你的验证周期多长？是否过度打磨产品？"
+- framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
+  follow_up_question: 你的需求验证了吗？内核验证了吗？单元模型成立吗？
+- framework_lens: 跨步一——产品没人用说明需求或内核验证失败
+  follow_up_question: 你的需求是真实的吗？内核是否解决了用户问题？
+- framework_lens: 跨步一——内核验证需要用户真实使用并反馈
+  follow_up_question: 你的内核是否让用户愿意用？用户使用后是否愿意推荐？
+- framework_lens: 跨步一——验证通过后需要敢于规模化
+  follow_up_question: 你的验证是否充分？单元模型是否成立？
+- framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
+  follow_up_question: 你的验证周期多长？是否过度打磨产品？
 
 ---
 # 跨步一：从0到1的验证

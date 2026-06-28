@@ -1,7 +1,4 @@
 ---
-
-
-
 id: yt-tool-knowledge-extraction
 component_of:
 - src_unknown
@@ -9,7 +6,7 @@ confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
@@ -26,20 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 source_refs:
 - 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
@@ -66,7 +54,7 @@ diagnostic_signals:
   follow_up_question: 知识库 50+ 文档中多少比例被实际使用？
 - framework_lens: 激励机制 / 人力因素
   follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: unknown
 reviewed_by: laowantong
 

@@ -1,19 +1,15 @@
 ---
-
-
-
-
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
-  - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -27,20 +23,17 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: []
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -55,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
 
 ---
-
 # 技能：结构化AI工作空间搭建
 
 ## 用一句话讲清楚

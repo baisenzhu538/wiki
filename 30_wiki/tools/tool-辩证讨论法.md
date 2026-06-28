@@ -1,5 +1,4 @@
 ---
-
 id: tool-辩证讨论法
 title: 技能：辩证讨论法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -29,7 +28,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -45,6 +44,7 @@ diagnostic_signals:
   follow_up: 理论边界讨论比案例讨论更有价值。必须问'这个理论在什么条件下失效'
 - lens: 无产出讨论
   follow_up: 讨论必须有结论、分歧记录、下一步动作。没有产出的讨论只是社交
+
 ---
 # 技能：辩证讨论法
 

@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-quality-gate
 title: 调研质量自检框架：六维门禁——判断调研是否"足够好"
 type: framework
@@ -7,29 +6,29 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - src_unknown
+- src_unknown
 source_refs:
-  - 30_wiki/domains/yitang-research-domain-digest.md
-  - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
-  - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-  - 90_control/scripts/kcard-quality-gate.py
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 30_wiki/domains/yitang-research-domain-digest.md
+- 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 90_control/scripts/kcard-quality-gate.py
+created_at: '2026-06-21'
+updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 六维门禁——逐项自检
-    follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
-  - framework_lens: 对照六维找缺口
-    follow_up_question: 驳回理由对应六维中的哪一维？
----
+- framework_lens: 六维门禁——逐项自检
+  follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
+- framework_lens: 对照六维找缺口
+  follow_up_question: 驳回理由对应六维中的哪一维？
 
+---
 # 调研质量自检框架：六维门禁
 
 > 调研做完 ≠ 调研做完了。六维门禁是提交前的最后一道自检——每个维度答不上来就不能交。

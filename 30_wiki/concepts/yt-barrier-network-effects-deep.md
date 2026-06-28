@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂壁垒策略系列课——网络效应深度
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
-    follow_up_question: "你的网络效应是同边、跨边、数据还是生态？强度如何？用户迁移成本多高？"
-  - framework_lens: 网络效应深度——跨边网络效应需要两边都足够多
-    follow_up_question: "你的平台两边是否都达到了临界规模？哪边是瓶颈？"
-  - framework_lens: 网络效应深度——数据网络效应需要数据能提升产品价值
-    follow_up_question: "你的数据是否用于优化产品？数据越多，产品是否越好？"
-  - framework_lens: 网络效应深度——生态网络效应需要用户真正使用生态
-    follow_up_question: "你的生态中，用户使用了多少？生态的参与度如何？"
-  - framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
-    follow_up_question: "你的网络效应在哪个维度？如何提升用户迁移成本？"
+- framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
+  follow_up_question: 你的网络效应是同边、跨边、数据还是生态？强度如何？用户迁移成本多高？
+- framework_lens: 网络效应深度——跨边网络效应需要两边都足够多
+  follow_up_question: 你的平台两边是否都达到了临界规模？哪边是瓶颈？
+- framework_lens: 网络效应深度——数据网络效应需要数据能提升产品价值
+  follow_up_question: 你的数据是否用于优化产品？数据越多，产品是否越好？
+- framework_lens: 网络效应深度——生态网络效应需要用户真正使用生态
+  follow_up_question: 你的生态中，用户使用了多少？生态的参与度如何？
+- framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
+  follow_up_question: 你的网络效应在哪个维度？如何提升用户迁移成本？
 
 ---
 # 网络效应深度：同边、跨边、数据、生态

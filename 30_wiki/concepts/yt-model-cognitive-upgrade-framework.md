@@ -1,13 +1,10 @@
 ---
-
-
-
 id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -21,15 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:
@@ -39,7 +32,7 @@ status: enriched
 title: 认知升级十步框架：从「读书」到「安装认知补丁」
 trust_level: medium
 type: framework
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 version: 1
 pipeline:
 - src_unknown

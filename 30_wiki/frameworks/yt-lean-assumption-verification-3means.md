@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -19,26 +16,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
   follow_up_question: 这个假设能否通过专家访谈或行业对标先排除？什么信息已经被他人验证过？
@@ -48,7 +37,6 @@ diagnostic_signals:
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
 
 ---
-
 > 精益不是不花钱、不花时间，而是用少量的试错成本，大幅降低当前最重要的系统性风险。验证关键假设时，优先使用左侧低成本手段：专家访谈/调研、经验验证，最后再自己做实验。——张磊《精益测试关键问题》AMA Q1
 
 ## 核心框架

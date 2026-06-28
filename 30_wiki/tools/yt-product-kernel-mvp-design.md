@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-mvp-design
 title: 内核MVP设计：最小可验证产品
 type: tool
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——MVP设计
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
-    follow_up_question: "你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？"
-  - framework_lens: 内核MVP设计——MVP不是完整产品，是验证工具
-    follow_up_question: "MVP的目标是验证假设，还是提供完美体验？"
-  - framework_lens: 内核MVP设计——MVP需要可衡量
-    follow_up_question: "你的MVP有明确的验证指标吗？能衡量关键转化率吗？"
-  - framework_lens: 内核MVP设计——资源应聚焦核心
-    follow_up_question: "非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？"
-  - framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
-    follow_up_question: "MVP和最终产品的区别是什么？MVP验证什么假设？"
+- framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
+  follow_up_question: 你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？
+- framework_lens: 内核MVP设计——MVP不是完整产品，是验证工具
+  follow_up_question: MVP的目标是验证假设，还是提供完美体验？
+- framework_lens: 内核MVP设计——MVP需要可衡量
+  follow_up_question: 你的MVP有明确的验证指标吗？能衡量关键转化率吗？
+- framework_lens: 内核MVP设计——资源应聚焦核心
+  follow_up_question: 非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？
+- framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
+  follow_up_question: MVP和最终产品的区别是什么？MVP验证什么假设？
 
 ---
 # 内核MVP设计：最小可验证产品

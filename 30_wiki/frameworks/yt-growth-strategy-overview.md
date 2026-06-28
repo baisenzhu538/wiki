@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——增长策略总纲
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
-    follow_up_question: "你的增长策略是什么？获客、留存、变现的优化方向分别是什么？"
-  - framework_lens: 增长策略总纲——增长不是烧钱，而是优化增长飞轮
-    follow_up_question: "你的增长飞轮是什么？每个环节的效率如何？有没有自增长机制？"
-  - framework_lens: 增长策略总纲——增长和优化需要同步，不是先后顺序
-    follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - framework_lens: 增长策略总纲——增长停滞需要诊断瓶颈环节
-    follow_up_question: "你的增长瓶颈在哪个环节？获客、激活、留存、变现、推荐？"
-  - framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
-    follow_up_question: "你的留存率是多少？用户流失的原因是什么？"
+- framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
+  follow_up_question: 你的增长策略是什么？获客、留存、变现的优化方向分别是什么？
+- framework_lens: 增长策略总纲——增长不是烧钱，而是优化增长飞轮
+  follow_up_question: 你的增长飞轮是什么？每个环节的效率如何？有没有自增长机制？
+- framework_lens: 增长策略总纲——增长和优化需要同步，不是先后顺序
+  follow_up_question: 你的增长是否基于健康的单元模型？增长越快，亏损越大吗？
+- framework_lens: 增长策略总纲——增长停滞需要诊断瓶颈环节
+  follow_up_question: 你的增长瓶颈在哪个环节？获客、激活、留存、变现、推荐？
+- framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
+  follow_up_question: 你的留存率是多少？用户流失的原因是什么？
 
 ---
 # 增长策略总纲：从商业模式到增长飞轮

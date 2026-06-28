@@ -1,13 +1,10 @@
 ---
-
-
-
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -21,16 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html
@@ -46,7 +38,7 @@ diagnostic_signals:
   follow_up_question: 你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的
 - framework_lens: 可能是架构错配，不是努力问题
   follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 
 ---

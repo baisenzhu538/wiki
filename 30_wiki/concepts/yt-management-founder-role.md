@@ -1,13 +1,10 @@
 ---
-
-
-
 title: 一号位
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: enriched
 pipeline:
 - src_unknown
@@ -22,7 +19,7 @@ diagnostic_signals:
   follow_up_question: 过去30天，同一类危机重复出现了几次？每次救火后是否留下了SOP或授权调整？
 - framework_lens: 人才囤积症
   follow_up_question: 本周你花了多少小时在招募和1on1上？如果关键岗位明天空缺，有谁能接？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 id: yt-management-founder-role
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -30,19 +27,13 @@ created_at: 2026-06-15
 confidence: 0.88
 trust_level: medium-high
 source_refs:
-  - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
+- 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 一号位

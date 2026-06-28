@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——销售驱动增长
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
-    follow_up_question: "你的客单价多少？销售周期多长？销售团队的人均产出是多少？"
-  - framework_lens: 销售驱动增长——销售效率需要系统化优化
-    follow_up_question: "你的销售漏斗每个环节的转化率是多少？瓶颈在哪里？"
-  - framework_lens: 销售驱动增长——销售需要产品支撑，产品需要销售反馈
-    follow_up_question: "销售反馈的产品需求是否进入了产品路线图？产品是否支撑销售承诺？"
-  - framework_lens: 销售驱动增长——关系销售不可规模化，需要系统化销售
-    follow_up_question: "你的销售是否可复制？销售流程是否标准化？"
-  - framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
-    follow_up_question: "你的销售CAC是多少？销售效率（人均产出）是多少？"
+- framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
+  follow_up_question: 你的客单价多少？销售周期多长？销售团队的人均产出是多少？
+- framework_lens: 销售驱动增长——销售效率需要系统化优化
+  follow_up_question: 你的销售漏斗每个环节的转化率是多少？瓶颈在哪里？
+- framework_lens: 销售驱动增长——销售需要产品支撑，产品需要销售反馈
+  follow_up_question: 销售反馈的产品需求是否进入了产品路线图？产品是否支撑销售承诺？
+- framework_lens: 销售驱动增长——关系销售不可规模化，需要系统化销售
+  follow_up_question: 你的销售是否可复制？销售流程是否标准化？
+- framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
+  follow_up_question: 你的销售CAC是多少？销售效率（人均产出）是多少？
 
 ---
 # 销售驱动增长：SLG模式

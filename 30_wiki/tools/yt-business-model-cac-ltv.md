@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——CAC与LTV计算
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
-    follow_up_question: "你的CAC是否包含了所有营销费用？包括人力、内容、活动等？"
-  - framework_lens: CAC与LTV计算——LTV需要扣除直接成本
-    follow_up_question: "你的LTV计算是否扣除了服务成本、支持成本等直接成本？"
-  - framework_lens: CAC与LTV计算——LTV/CAC高但回本周期长，现金流压力大
-    follow_up_question: "虽然LTV/CAC=5，但回本周期多长？现金流能支撑吗？"
-  - framework_lens: CAC与LTV计算——需要分渠道计算CAC和LTV
-    follow_up_question: "你的不同获客渠道，CAC和LTV分别是多少？哪个渠道最健康？"
-  - framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
-    follow_up_question: "没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。"
+- framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
+  follow_up_question: 你的CAC是否包含了所有营销费用？包括人力、内容、活动等？
+- framework_lens: CAC与LTV计算——LTV需要扣除直接成本
+  follow_up_question: 你的LTV计算是否扣除了服务成本、支持成本等直接成本？
+- framework_lens: CAC与LTV计算——LTV/CAC高但回本周期长，现金流压力大
+  follow_up_question: 虽然LTV/CAC=5，但回本周期多长？现金流能支撑吗？
+- framework_lens: CAC与LTV计算——需要分渠道计算CAC和LTV
+  follow_up_question: 你的不同获客渠道，CAC和LTV分别是多少？哪个渠道最健康？
+- framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
+  follow_up_question: 没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。
 
 ---
 # CAC与LTV的实战计算

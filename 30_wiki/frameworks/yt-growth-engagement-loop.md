@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-engagement-loop
 title: 参与循环：让用户持续回来
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——参与循环
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 参与循环——用户需要持续回来的理由，需要设计参与循环
-    follow_up_question: "你的产品是否形成了用户习惯？用户什么场景下会回来？"
-  - framework_lens: 参与循环——DAU下降说明参与循环断裂
-    follow_up_question: "DAU下降是因为新用户减少还是老用户流失？参与循环的哪个环节断了？"
-  - framework_lens: 参与循环——用户参与深度不够，需要扩展使用场景
-    follow_up_question: "你的产品核心功能之外，是否有其他功能可以吸引用户？"
-  - framework_lens: 参与循环——推送需要有价值，不是打扰
-    follow_up_question: "你的推送内容是什么？用户是否觉得有价值？推送频率是否合适？"
-  - framework_lens: 参与循环——参与度需要设计循环机制
-    follow_up_question: "你的产品是否有触发机制、奖励机制、社交机制让用户持续参与？"
+- framework_lens: 参与循环——用户需要持续回来的理由，需要设计参与循环
+  follow_up_question: 你的产品是否形成了用户习惯？用户什么场景下会回来？
+- framework_lens: 参与循环——DAU下降说明参与循环断裂
+  follow_up_question: DAU下降是因为新用户减少还是老用户流失？参与循环的哪个环节断了？
+- framework_lens: 参与循环——用户参与深度不够，需要扩展使用场景
+  follow_up_question: 你的产品核心功能之外，是否有其他功能可以吸引用户？
+- framework_lens: 参与循环——推送需要有价值，不是打扰
+  follow_up_question: 你的推送内容是什么？用户是否觉得有价值？推送频率是否合适？
+- framework_lens: 参与循环——参与度需要设计循环机制
+  follow_up_question: 你的产品是否有触发机制、奖励机制、社交机制让用户持续参与？
 
 ---
 # 参与循环：让用户持续回来

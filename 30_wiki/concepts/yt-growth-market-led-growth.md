@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——市场驱动增长
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
-    follow_up_question: "你的市场活动有哪些？品牌定位是什么？目标受众是谁？"
-  - framework_lens: 市场驱动增长——市场和销售需要目标一致，协同作战
-    follow_up_question: "市场和销售的共同目标是什么？线索交接流程是否顺畅？"
-  - framework_lens: 市场驱动增长——内容营销需要匹配用户旅程
-    follow_up_question: "你的内容是否覆盖了用户从认知到决策的每个阶段？"
-  - framework_lens: 市场驱动增长——市场活动需要关注线索质量，不只是数量
-    follow_up_question: "你的线索评分标准是什么？市场活动和销售反馈是否闭环？"
-  - framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
-    follow_up_question: "展会和活动的ROI是多少？是否有后续跟进流程？"
+- framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
+  follow_up_question: 你的市场活动有哪些？品牌定位是什么？目标受众是谁？
+- framework_lens: 市场驱动增长——市场和销售需要目标一致，协同作战
+  follow_up_question: 市场和销售的共同目标是什么？线索交接流程是否顺畅？
+- framework_lens: 市场驱动增长——内容营销需要匹配用户旅程
+  follow_up_question: 你的内容是否覆盖了用户从认知到决策的每个阶段？
+- framework_lens: 市场驱动增长——市场活动需要关注线索质量，不只是数量
+  follow_up_question: 你的线索评分标准是什么？市场活动和销售反馈是否闭环？
+- framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
+  follow_up_question: 展会和活动的ROI是多少？是否有后续跟进流程？
 
 ---
 # 市场驱动增长：MLG模式

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——数据驱动决策
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 数据驱动增长决策——感觉不可靠，需要数据验证
-    follow_up_question: "你的关键决策有数据支撑吗？数据是否准确、及时、可衡量？"
-  - framework_lens: 数据驱动增长决策——数据多≠洞察多，需要建立分析框架
-    follow_up_question: "你的核心指标是什么？是否建立了指标体系和分析框架？"
-  - framework_lens: 数据驱动增长决策——数据需要与业务判断结合，不是替代
-    follow_up_question: "数据结论是否清晰？是否与业务目标对齐？如何说服决策者？"
-  - framework_lens: 数据驱动增长决策——分析到行动有 gap，需要实验验证
-    follow_up_question: "你的分析是否形成了可验证的假设？是否设计了实验验证？"
-  - framework_lens: 数据驱动增长决策——数据团队需要嵌入业务，不是独立
-    follow_up_question: "数据团队是否了解业务目标？是否参与了业务决策？"
+- framework_lens: 数据驱动增长决策——感觉不可靠，需要数据验证
+  follow_up_question: 你的关键决策有数据支撑吗？数据是否准确、及时、可衡量？
+- framework_lens: 数据驱动增长决策——数据多≠洞察多，需要建立分析框架
+  follow_up_question: 你的核心指标是什么？是否建立了指标体系和分析框架？
+- framework_lens: 数据驱动增长决策——数据需要与业务判断结合，不是替代
+  follow_up_question: 数据结论是否清晰？是否与业务目标对齐？如何说服决策者？
+- framework_lens: 数据驱动增长决策——分析到行动有 gap，需要实验验证
+  follow_up_question: 你的分析是否形成了可验证的假设？是否设计了实验验证？
+- framework_lens: 数据驱动增长决策——数据团队需要嵌入业务，不是独立
+  follow_up_question: 数据团队是否了解业务目标？是否参与了业务决策？
 
 ---
 # 数据驱动增长决策

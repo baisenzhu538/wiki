@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——供应链壁垒
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 供应链壁垒——供应链壁垒需要资源独占或长期关系
-    follow_up_question: "你的供应链是否有独占资源？供应商关系是否长期稳定？"
-  - framework_lens: 供应链壁垒——供应商议价能力强，需要多元化或纵向整合
-    follow_up_question: "你的供应商集中度如何？有没有备选供应商？是否考虑纵向整合？"
-  - framework_lens: 供应链壁垒——供应链成本需要规模或关系优化
-    follow_up_question: "你的供应链规模是否足够？供应商关系是否深度？"
-  - framework_lens: 供应链壁垒——供应链韧性是壁垒的一部分
-    follow_up_question: "你的供应链是否有备份？关键物料的库存策略是什么？"
-  - framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
-    follow_up_question: "你的地理位置优势是否可持续？竞品是否也能获得类似位置？"
+- framework_lens: 供应链壁垒——供应链壁垒需要资源独占或长期关系
+  follow_up_question: 你的供应链是否有独占资源？供应商关系是否长期稳定？
+- framework_lens: 供应链壁垒——供应商议价能力强，需要多元化或纵向整合
+  follow_up_question: 你的供应商集中度如何？有没有备选供应商？是否考虑纵向整合？
+- framework_lens: 供应链壁垒——供应链成本需要规模或关系优化
+  follow_up_question: 你的供应链规模是否足够？供应商关系是否深度？
+- framework_lens: 供应链壁垒——供应链韧性是壁垒的一部分
+  follow_up_question: 你的供应链是否有备份？关键物料的库存策略是什么？
+- framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
+  follow_up_question: 你的地理位置优势是否可持续？竞品是否也能获得类似位置？
 
 ---
 # 供应链壁垒：资源独占

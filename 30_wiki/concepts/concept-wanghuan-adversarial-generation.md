@@ -1,6 +1,4 @@
 ---
-
-
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
@@ -10,7 +8,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -21,16 +19,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - lens: 生成与评审视角未分离，模型在用同一套偏见自我确认
   follow_up: 引入第二个不同基座的模型专门扮演评审者，逐条输出问题清单
@@ -45,8 +38,8 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
+---
 # 王欢概念：对抗式生成
 
 > **Burn line**: 让生成者和评审者分离，避免既当裁判又当运动员。

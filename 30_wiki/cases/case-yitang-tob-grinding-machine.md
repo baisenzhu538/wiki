@@ -9,7 +9,7 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-  - src_unknown
+- src_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -18,26 +18,16 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 author: 蔡留照（一堂学员）
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 需求测算与天花板
   follow_up_question: 这些数字是基于真实客户意向还是基于市场好转的乐观预期？
@@ -45,6 +35,7 @@ diagnostic_signals:
   follow_up_question: 中国用户愿意为“高精度”支付溢价的比例有多高？决策链中有哪些人真正在乎精度？
 - framework_lens: 单元模型与隐性成本
   follow_up_question: 如果把关系成本、财务成本、销售不稳定成本计入，单台磨床的真实毛利还是正的吗？
+
 ---
 > 来源：一堂 ToB 五步法优秀作业合集，学员蔡留照自述。案例中的财务数字为学员自述，需独立核实关键数据。
 

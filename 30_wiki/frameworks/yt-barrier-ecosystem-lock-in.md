@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——生态锁定
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
-    follow_up_question: "你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？"
-  - framework_lens: 生态锁定——生态丰富≠生态参与，需要提升生态参与度
-    follow_up_question: "你的生态中，用户使用了多少功能？生态的参与度如何？"
-  - framework_lens: 生态锁定——生态难以复制，但需要时间积累
-    follow_up_question: "你的生态积累了多久？竞品的生态规模和你的差距多大？"
-  - framework_lens: 生态锁定——生态参与者需要持续收益，否则流失
-    follow_up_question: "你的生态参与者的收益模型是什么？收益是否可持续？"
-  - framework_lens: 生态锁定——生态建设需要种子用户和核心应用
-    follow_up_question: "你的种子用户是谁？核心应用是什么？如何启动双边市场？"
+- framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
+  follow_up_question: 你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？
+- framework_lens: 生态锁定——生态丰富≠生态参与，需要提升生态参与度
+  follow_up_question: 你的生态中，用户使用了多少功能？生态的参与度如何？
+- framework_lens: 生态锁定——生态难以复制，但需要时间积累
+  follow_up_question: 你的生态积累了多久？竞品的生态规模和你的差距多大？
+- framework_lens: 生态锁定——生态参与者需要持续收益，否则流失
+  follow_up_question: 你的生态参与者的收益模型是什么？收益是否可持续？
+- framework_lens: 生态锁定——生态建设需要种子用户和核心应用
+  follow_up_question: 你的种子用户是谁？核心应用是什么？如何启动双边市场？
 
 ---
 # 生态锁定：平台壁垒

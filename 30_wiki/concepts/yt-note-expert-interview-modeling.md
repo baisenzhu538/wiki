@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.82
@@ -16,19 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -51,7 +40,7 @@ diagnostic_signals:
   follow_up_question: 你能否用一句话说出这次访谈的主线？能否把对方观点转写成“如果…那么…”的因果结构？
 - framework_lens: 剩余脑力被“伪自动化”占用
   follow_up_question: 当 AI 替你记录时，你省下的认知资源是用在追问/建模，还是用来走神/准备下一句套话？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium

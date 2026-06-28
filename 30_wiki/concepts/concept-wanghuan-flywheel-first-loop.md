@@ -1,6 +1,4 @@
 ---
-
-
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
@@ -19,7 +17,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 缺少飞轮资产沉淀
   follow_up: 建立 AI 业务档案 + Prompt 模板库，把背景信息固化为可注入上下文
@@ -30,24 +28,19 @@ diagnostic_signals:
 - lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----
 
+---
 # 王欢：AI 飞轮第一圈
 
 > **Burn line**: 飞轮不怕慢，怕的是不转。

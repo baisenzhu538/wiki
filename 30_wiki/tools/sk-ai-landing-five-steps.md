@@ -1,33 +1,26 @@
 ---
-
-
-
-
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
-type: "tool"
+type: tool
 source_refs:
-  - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
+- 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-06'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown

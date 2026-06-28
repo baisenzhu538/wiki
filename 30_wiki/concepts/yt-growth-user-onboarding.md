@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——用户onboarding
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
-    follow_up_question: "你的onboarding流程是什么？用户注册后看到什么？能否在3分钟内体验到价值？"
-  - framework_lens: 用户onboarding——onboarding需要简洁，突出核心价值
-    follow_up_question: "你的onboarding有几步？能不能合并或跳过？核心价值是否前置？"
-  - framework_lens: 用户onboarding——onboarding需要引导用户到核心功能
-    follow_up_question: "你的产品核心功能是什么？onboarding是否引导用户到核心功能？"
-  - framework_lens: 用户onboarding——引导需要设计，不能强制，要让用户愿意完成
-    follow_up_question: "你的引导是否可跳过？用户为什么跳过？引导内容是否有趣/有价值？"
-  - framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
-    follow_up_question: "onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？"
+- framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
+  follow_up_question: 你的onboarding流程是什么？用户注册后看到什么？能否在3分钟内体验到价值？
+- framework_lens: 用户onboarding——onboarding需要简洁，突出核心价值
+  follow_up_question: 你的onboarding有几步？能不能合并或跳过？核心价值是否前置？
+- framework_lens: 用户onboarding——onboarding需要引导用户到核心功能
+  follow_up_question: 你的产品核心功能是什么？onboarding是否引导用户到核心功能？
+- framework_lens: 用户onboarding——引导需要设计，不能强制，要让用户愿意完成
+  follow_up_question: 你的引导是否可跳过？用户为什么跳过？引导内容是否有趣/有价值？
+- framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
+  follow_up_question: onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？
 
 ---
 # 用户 onboarding：第一印象设计

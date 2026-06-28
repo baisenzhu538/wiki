@@ -1,5 +1,4 @@
 ---
-
 id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
@@ -18,15 +17,13 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: '2026-06-07'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 pipeline:
 - src_unknown
 - src_unknown
@@ -46,6 +43,7 @@ diagnostic_signals:
   follow_up: 维护占生命周期80%，把维护成本计入总投入，定期迭代
 - lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
+
 ---
 # 技能：课程Skill化的八步工作流
 

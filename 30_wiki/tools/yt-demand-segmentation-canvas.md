@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——用户分层方法
 source_refs:
-  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-  - 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+- 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
-    follow_up_question: "用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？"
-  - framework_lens: 需求分层画布——未分层导致功能分散
-    follow_up_question: "你的核心功能服务哪一层用户？这一层占多大比例？"
-  - framework_lens: 需求分层画布——获取了非核心用户
-    follow_up_question: "流失用户属于哪一层？他们和你的核心用户层差异是什么？"
-  - framework_lens: 需求分层画布——功能应服务于特定层
-    follow_up_question: "这个功能主要服务哪一层用户？这一层的优先级是什么？"
-  - framework_lens: 需求分层画布——广度≠深度
-    follow_up_question: "竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？"
+- framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
+  follow_up_question: 用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？
+- framework_lens: 需求分层画布——未分层导致功能分散
+  follow_up_question: 你的核心功能服务哪一层用户？这一层占多大比例？
+- framework_lens: 需求分层画布——获取了非核心用户
+  follow_up_question: 流失用户属于哪一层？他们和你的核心用户层差异是什么？
+- framework_lens: 需求分层画布——功能应服务于特定层
+  follow_up_question: 这个功能主要服务哪一层用户？这一层的优先级是什么？
+- framework_lens: 需求分层画布——广度≠深度
+  follow_up_question: 竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？
 
 ---
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-a-b-testing
 title: A/B测试：增长实验的统计基础
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——A/B测试
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: A/B测试——任何改动都需要A/B测试验证，不能凭感觉
-    follow_up_question: "你的改动是否设计了A/B测试？对照组和实验组的样本量是否足够？"
-  - framework_lens: A/B测试——A/B测试有局限性，需要考虑外部效度和长期影响
-    follow_up_question: "A/B测试的持续时间是否足够？是否考虑了季节性和用户习惯变化？"
-  - framework_lens: A/B测试——多变量测试需要更复杂的分析，容易混淆
-    follow_up_question: "你是否控制了变量？10个变量同时测试，如何确定哪个变量起作用？"
-  - framework_lens: A/B测试——样本量需要提前计算，确保统计显著
-    follow_up_question: "你的样本量是否基于预期提升率和显著性水平计算？"
-  - framework_lens: A/B测试——一次测试不足以得出结论，需要重复验证
-    follow_up_question: "这个结果是否在其他场景重复验证？是否考虑了长期影响？"
+- framework_lens: A/B测试——任何改动都需要A/B测试验证，不能凭感觉
+  follow_up_question: 你的改动是否设计了A/B测试？对照组和实验组的样本量是否足够？
+- framework_lens: A/B测试——A/B测试有局限性，需要考虑外部效度和长期影响
+  follow_up_question: A/B测试的持续时间是否足够？是否考虑了季节性和用户习惯变化？
+- framework_lens: A/B测试——多变量测试需要更复杂的分析，容易混淆
+  follow_up_question: 你是否控制了变量？10个变量同时测试，如何确定哪个变量起作用？
+- framework_lens: A/B测试——样本量需要提前计算，确保统计显著
+  follow_up_question: 你的样本量是否基于预期提升率和显著性水平计算？
+- framework_lens: A/B测试——一次测试不足以得出结论，需要重复验证
+  follow_up_question: 这个结果是否在其他场景重复验证？是否考虑了长期影响？
 
 ---
 # A/B测试：增长实验的统计基础

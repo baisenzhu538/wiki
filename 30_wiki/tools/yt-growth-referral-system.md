@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——推荐系统
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
-    follow_up_question: "你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？"
-  - framework_lens: 推荐系统——推荐奖励需要设计双边激励
-    follow_up_question: "推荐者和被推荐者的激励是否平衡？激励是否足够有吸引力？"
-  - framework_lens: 推荐系统——推荐用户质量取决于推荐者质量
-    follow_up_question: "你的推荐者是谁？他们推荐的人是否匹配目标用户？"
-  - framework_lens: 推荐系统——推荐系统需要防作弊机制
-    follow_up_question: "你有没有防作弊机制？如何识别虚假推荐？"
-  - framework_lens: 推荐系统——推荐成本需要低于CAC
-    follow_up_question: "你的推荐成本是多少？是否低于其他渠道的CAC？"
+- framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
+  follow_up_question: 你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？
+- framework_lens: 推荐系统——推荐奖励需要设计双边激励
+  follow_up_question: 推荐者和被推荐者的激励是否平衡？激励是否足够有吸引力？
+- framework_lens: 推荐系统——推荐用户质量取决于推荐者质量
+  follow_up_question: 你的推荐者是谁？他们推荐的人是否匹配目标用户？
+- framework_lens: 推荐系统——推荐系统需要防作弊机制
+  follow_up_question: 你有没有防作弊机制？如何识别虚假推荐？
+- framework_lens: 推荐系统——推荐成本需要低于CAC
+  follow_up_question: 你的推荐成本是多少？是否低于其他渠道的CAC？
 
 ---
 # 推荐系统：老带新的设计框架

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
 type: case
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——跑步机案例
 source_refs:
-  - 10_raw/sources/src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
-  - 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
-  - 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
-created_at: "2026-06-19"
-updated_at: 2026-06-28
+- 10_raw/sources/src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
+- 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
+- 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
-    follow_up_question: "你的目标用户是'想健身的人'，还是'有特定健身场景的人'？"
-  - framework_lens: 跑步机案例——市场估算必须从用户场景出发
-    follow_up_question: "你能找到100个愿意明天就付费的用户吗？他们在哪里？"
-  - framework_lens: 跑步机案例——功能必须服务于核心需求
-    follow_up_question: "去掉所有非核心功能，你的产品还能解决用户的核心问题吗？"
-  - framework_lens: 跑步机案例——用户现在就在用某种方式健身
-    follow_up_question: "你的目标用户现在怎么健身？为什么现在的方式不够好？"
-  - framework_lens: 跑步机案例——价格不是唯一决策因素
-    follow_up_question: "用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？"
+- framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
+  follow_up_question: 你的目标用户是'想健身的人'，还是'有特定健身场景的人'？
+- framework_lens: 跑步机案例——市场估算必须从用户场景出发
+  follow_up_question: 你能找到100个愿意明天就付费的用户吗？他们在哪里？
+- framework_lens: 跑步机案例——功能必须服务于核心需求
+  follow_up_question: 去掉所有非核心功能，你的产品还能解决用户的核心问题吗？
+- framework_lens: 跑步机案例——用户现在就在用某种方式健身
+  follow_up_question: 你的目标用户现在怎么健身？为什么现在的方式不够好？
+- framework_lens: 跑步机案例——价格不是唯一决策因素
+  follow_up_question: 用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？
+
 ---
 # 跑步机案例：需求分析全流程实战
 

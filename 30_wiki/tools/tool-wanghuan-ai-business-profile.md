@@ -1,18 +1,15 @@
 ---
-
-
-
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -27,26 +24,17 @@ diagnostic_signals:
 - lens: context-loss
   follow_up: 检查业务档案是否已固化为 system prompt 或对话开头注入
 - lens: standard-drift
-  follow_up: '检查"我的风格偏好"与"我的输出标准"是否写了可验证的负面约束'
+  follow_up: 检查"我的风格偏好"与"我的输出标准"是否写了可验证的负面约束
 - lens: tacit-rule-gap
-  follow_up: '补充"行业暗规则"字段，把"不说但默认"的规矩写成否定句'
+  follow_up: 补充"行业暗规则"字段，把"不说但默认"的规矩写成否定句
 - lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -55,7 +43,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢AI业务档案5字段工具
 
 > **Burn line**: 每次新对话，第一步先把你的业务档案粘进去。

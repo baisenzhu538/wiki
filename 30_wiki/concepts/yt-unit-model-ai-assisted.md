@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -23,16 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
@@ -58,7 +50,7 @@ diagnostic_signals:
   follow_up_question: 团队是否只争论数字而不暴露底层假设？
 - framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 
 ---
 # AI+单元模型：TCP-R双导师与出口式咨询实践

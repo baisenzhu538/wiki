@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——毛利率结构
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
-    follow_up_question: "你的毛利率中，直接成本、服务成本、渠道成本各占多少？"
-  - framework_lens: 毛利率结构分析——毛利率下降需要定位具体原因
-    follow_up_question: "毛利率下降是因为定价下降、成本上升，还是结构变化？"
-  - framework_lens: 毛利率结构分析——需要分产品/服务计算毛利率
-    follow_up_question: "你的不同产品线，毛利率分别是多少？哪个产品贡献最多利润？"
-  - framework_lens: 毛利率结构分析——需要和行业对比
-    follow_up_question: "你的毛利率和行业平均比如何？差距在哪里？"
-  - framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
-    follow_up_question: "毛利率高但净利润低，运营费用、营销费用占收入多少？"
+- framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
+  follow_up_question: 你的毛利率中，直接成本、服务成本、渠道成本各占多少？
+- framework_lens: 毛利率结构分析——毛利率下降需要定位具体原因
+  follow_up_question: 毛利率下降是因为定价下降、成本上升，还是结构变化？
+- framework_lens: 毛利率结构分析——需要分产品/服务计算毛利率
+  follow_up_question: 你的不同产品线，毛利率分别是多少？哪个产品贡献最多利润？
+- framework_lens: 毛利率结构分析——需要和行业对比
+  follow_up_question: 你的毛利率和行业平均比如何？差距在哪里？
+- framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
+  follow_up_question: 毛利率高但净利润低，运营费用、营销费用占收入多少？
 
 ---
 # 毛利率结构分析：钱从哪来，到哪去

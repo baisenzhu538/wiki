@@ -1,7 +1,7 @@
 ---
 id: task_20260628_wangyuyan-wave6-blindspot-diagnosis
 type: task
-status: queued
+status: reviewed
 assignee: 王语嫣
 priority: P2
 created_at: 2026-06-28
@@ -49,6 +49,21 @@ source_refs:
 - 诊断报告：`60_feedback/diags/diag_20260628_wangyuyan-wave6-<主题>.md`
 - 入队建议：在 `production-queue.md` 末尾新增 wave6 任务条目（状态 `queued`）
 - 不直接生产卡片，只负责诊断和任务拆分
+
+## 欧阳锋终审结论（2026-06-28）
+
+**✅ 诊断通过，状态更新为 `reviewed`。**
+
+审查结果：
+- 诊断方法合理（全库扫描 + reviewed 卡片分析 + domain digest 缺口对照 + 冷热混合模型）
+- 关键数据已核实：决策科学域 reviewed 卡片 14 张，需求分析域 reviewed 卡片约 10-20 张（统计口径差异）
+- 盲区 A/B 识别与 `.agent/kb-evolution-direction.md` 中待启动 domain digest 项一致
+- 建议卡片 ID 全部为新 ID，无冲突
+- 优先级排序合理：需求分析域 20/20，决策科学域 18/20，建议同时启动
+
+调整项：
+- 决策科学 `domain-decision-science-index` 建议改为升级现有 `30_wiki/domains/decision-science-domain-digest.md`（已存在，状态 enriched，内容大量 src_unknown 占位）
+- #21/#22 任务单已按此调整
 
 ## 时间窗口
 

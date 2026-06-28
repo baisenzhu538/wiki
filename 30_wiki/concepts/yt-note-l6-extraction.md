@@ -1,13 +1,10 @@
 ---
-
-
-
 id: yt-note-l6-extraction
 title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
 status: enriched
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 version: 2
 confidence: 0.89
@@ -15,22 +12,18 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: 2026-06-10
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 estimated_tokens: 3500
 pipeline:
 - src_unknown

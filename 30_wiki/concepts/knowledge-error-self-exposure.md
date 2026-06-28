@@ -1,44 +1,45 @@
 ---
-
 id: knowledge-error-self-exposure
-title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向"
+title: 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 type: concept
 status: draft
 domain:
-  - src_unknown
+- src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
-created_at: "2026-06-03"
-updated_at: "2026-06-17"
+created_at: '2026-06-03'
+updated_at: '2026-06-28'
 pipeline:
-  - src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 diagnostic_signals:
-  - lens: "积累期错误"
-    follow_up: "每次新输入后触发全库语义扫描，检测矛盾/冲突/互补关系，写入frontmatter标记"
-  - lens: "暴露期延迟"
-    follow_up: "建立关联传播机制：卡片A被标记过时，引用A的B/C/D自动标记潜在问题"
-  - lens: "修复半径失控"
-    follow_up: "修复半径保持靶向：只标记/只修被矛盾检测命中的卡片，不触发全库重跑"
-  - lens: "复发期缺失"
-    follow_up: "矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊"
-  - lens: "全量重跑陷阱"
-    follow_up: "增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖"
+- lens: 积累期错误
+  follow_up: 每次新输入后触发全库语义扫描，检测矛盾/冲突/互补关系，写入frontmatter标记
+- lens: 暴露期延迟
+  follow_up: 建立关联传播机制：卡片A被标记过时，引用A的B/C/D自动标记潜在问题
+- lens: 修复半径失控
+  follow_up: 修复半径保持靶向：只标记/只修被矛盾检测命中的卡片，不触发全库重跑
+- lens: 复发期缺失
+  follow_up: 矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊
+- lens: 全量重跑陷阱
+  follow_up: 增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖
+
 ---
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 

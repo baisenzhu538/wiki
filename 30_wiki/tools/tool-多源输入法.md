@@ -1,5 +1,4 @@
 ---
-
 id: tool-多源输入法
 title: 技能：多源输入法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -30,7 +29,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -46,6 +45,7 @@ diagnostic_signals:
   follow_up: 建立信息质量标准：官方来源>研究机构>专业媒体，自媒体和AIGC内容需验证
 - lens: 时间成本失控
   follow_up: 时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉
+
 ---
 # 技能：多源输入法
 

@@ -1,15 +1,12 @@
 ---
-
-
-
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
 status: draft
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -18,23 +15,18 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
 - framework_lens: 假设驱动日常决策三问 / 敬畏概率
   follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？
@@ -44,7 +36,6 @@ diagnostic_signals:
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
 
 ---
-
 > "三个每天的拷问：你在想这个事情做错了会不会死？这个事情是不是致命的假设？我能不能拿更低的成本来验证这个假设？"  
 > —— 张磊，一堂《精益测试关键问题》AMA Q26（来源：`src_20260616_b1e25c49`、`src_20260616_59f708ea`）
 

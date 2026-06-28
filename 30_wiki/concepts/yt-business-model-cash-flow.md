@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——现金流管理
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
-    follow_up_question: "你的现金周期多长？应收账款、库存、应付账款各占多少？"
-  - framework_lens: 现金流管理——增长消耗现金，需要管理现金缺口
-    follow_up_question: "你的增长需要多少现金投入？现金缺口多大？融资计划是什么？"
-  - framework_lens: 现金流管理——应收账款影响现金流
-    follow_up_question: "你的应收账款周期多长？如何缩短？"
-  - framework_lens: 现金流管理——库存占用现金
-    follow_up_question: "你的库存周转率是多少？如何优化库存？"
-  - framework_lens: 现金流管理——烧钱需要计划，不是无限
-    follow_up_question: "你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？"
+- framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
+  follow_up_question: 你的现金周期多长？应收账款、库存、应付账款各占多少？
+- framework_lens: 现金流管理——增长消耗现金，需要管理现金缺口
+  follow_up_question: 你的增长需要多少现金投入？现金缺口多大？融资计划是什么？
+- framework_lens: 现金流管理——应收账款影响现金流
+  follow_up_question: 你的应收账款周期多长？如何缩短？
+- framework_lens: 现金流管理——库存占用现金
+  follow_up_question: 你的库存周转率是多少？如何优化库存？
+- framework_lens: 现金流管理——烧钱需要计划，不是无限
+  follow_up_question: 你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？
 
 ---
 # 现金流管理：商业模式的血液循环

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——进攻策略
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
-    follow_up_question: "竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？"
-  - framework_lens: 进攻策略——进攻被挡需要评估进攻方式和资源
-    follow_up_question: "你的进攻方式是什么？资源是否足够？是否需要改变策略？"
-  - framework_lens: 进攻策略——进入新市场需要建立壁垒，否则容易被驱逐
-    follow_up_question: "你进入新市场后，是否建立了壁垒？用户、数据、品牌？"
-  - framework_lens: 进攻策略——进攻需要评估ROI，不是盲目进攻
-    follow_up_question: "你的进攻成本是多少？预期回报是多少？是否值得？"
-  - framework_lens: 进攻策略——竞品弱点需要深入分析
-    follow_up_question: "竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？"
+- framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
+  follow_up_question: 竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？
+- framework_lens: 进攻策略——进攻被挡需要评估进攻方式和资源
+  follow_up_question: 你的进攻方式是什么？资源是否足够？是否需要改变策略？
+- framework_lens: 进攻策略——进入新市场需要建立壁垒，否则容易被驱逐
+  follow_up_question: 你进入新市场后，是否建立了壁垒？用户、数据、品牌？
+- framework_lens: 进攻策略——进攻需要评估ROI，不是盲目进攻
+  follow_up_question: 你的进攻成本是多少？预期回报是多少？是否值得？
+- framework_lens: 进攻策略——竞品弱点需要深入分析
+  follow_up_question: 竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？
 
 ---
 # 进攻策略：突破竞品壁垒

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-key-conversion
 title: 关键转化率：产品内核的北极星指标
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂产品内核系列课——关键转化率
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
-    follow_up_question: "从了解产品到选择产品的转化率是多少？这个数值健康吗？"
-  - framework_lens: 关键转化率——产品好≠转化率高，内核可能不清晰
-    follow_up_question: "用户说'好'，但为什么不用？是内核不清晰，还是转化路径有问题？"
-  - framework_lens: 关键转化率——优化方向可能错误
-    follow_up_question: "你优化的功能和转化率有关系吗？还是优化了非关键路径？"
-  - framework_lens: 关键转化率——缺乏北极星指标
-    follow_up_question: "你的产品内核对应的北极星指标是什么？当前数值是多少？"
-  - framework_lens: 关键转化率——指标过多，无法聚焦
-    follow_up_question: "如果只能看一个指标来判断内核健康度，你会选哪个？为什么？"
+- framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
+  follow_up_question: 从了解产品到选择产品的转化率是多少？这个数值健康吗？
+- framework_lens: 关键转化率——产品好≠转化率高，内核可能不清晰
+  follow_up_question: 用户说'好'，但为什么不用？是内核不清晰，还是转化路径有问题？
+- framework_lens: 关键转化率——优化方向可能错误
+  follow_up_question: 你优化的功能和转化率有关系吗？还是优化了非关键路径？
+- framework_lens: 关键转化率——缺乏北极星指标
+  follow_up_question: 你的产品内核对应的北极星指标是什么？当前数值是多少？
+- framework_lens: 关键转化率——指标过多，无法聚焦
+  follow_up_question: 如果只能看一个指标来判断内核健康度，你会选哪个？为什么？
 
 ---
 # 关键转化率：产品内核的北极星指标

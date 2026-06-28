@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五种迭代方向
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——迭代方法
 source_refs:
-  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-  - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+- 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核迭代——内核需要随市场变化而迭代
-    follow_up_question: "你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - framework_lens: 产品内核迭代——迭代需要方向，不是随机尝试
-    follow_up_question: "你的迭代是基于五种方向的哪一种？有数据支撑吗？"
-  - framework_lens: 产品内核迭代——功能迭代≠内核迭代
-    follow_up_question: "这次迭代是调整功能，还是调整内核？内核是否需要变化？"
-  - framework_lens: 产品内核迭代——需要结构化迭代方法
-    follow_up_question: "市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种迭代方向？"
-  - framework_lens: 产品内核迭代——迭代方向需要团队共识
-    follow_up_question: "你们团队对迭代方向有共识吗？是基于数据还是主观判断？"
+- framework_lens: 产品内核迭代——内核需要随市场变化而迭代
+  follow_up_question: 你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？
+- framework_lens: 产品内核迭代——迭代需要方向，不是随机尝试
+  follow_up_question: 你的迭代是基于五种方向的哪一种？有数据支撑吗？
+- framework_lens: 产品内核迭代——功能迭代≠内核迭代
+  follow_up_question: 这次迭代是调整功能，还是调整内核？内核是否需要变化？
+- framework_lens: 产品内核迭代——需要结构化迭代方法
+  follow_up_question: 市场变化具体是什么？用户变化、竞品变化、还是技术变化？对应哪种迭代方向？
+- framework_lens: 产品内核迭代——迭代方向需要团队共识
+  follow_up_question: 你们团队对迭代方向有共识吗？是基于数据还是主观判断？
 
 ---
 # 产品内核迭代：五种迭代方向

@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
@@ -17,16 +16,14 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
@@ -37,6 +34,7 @@ diagnostic_signals:
   follow_up: 如果停用飞书多维表格，当前协同流程是否还能跑通？
 - lens: 风险控制
   follow_up: 是否有试点用户、预期行为清单和一键停用/回滚方案？
+
 ---
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 

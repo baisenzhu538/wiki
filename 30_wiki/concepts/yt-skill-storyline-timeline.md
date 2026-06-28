@@ -1,12 +1,8 @@
 ---
-
-
-
-
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
-  - src_unknown
+- src_unknown
 diagnostic_signals:
 - framework_lens: 事实-推断分离 / 因果暴露
   follow_up_question: 时间线中是否混入'因为...所以...'解释性语言？
@@ -16,22 +12,22 @@ diagnostic_signals:
   follow_up_question: 无来源的推断是否被标注为[推断]而非事实？
 - framework_lens: 学习性 / 反直觉发现
   follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
-type: "tool"
+type: tool
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链

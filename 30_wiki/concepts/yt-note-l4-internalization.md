@@ -1,35 +1,28 @@
 ---
-
-
-
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
 status: enriched
 domain:
-  - src_unknown
+- src_unknown
 language: zh-CN
 version: 1
 confidence: 0.88
 source_refs:
-  - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 created_at: 2026-06-10
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 estimated_tokens: 2800
 pipeline:
 - src_unknown

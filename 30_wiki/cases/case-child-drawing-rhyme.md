@@ -1,9 +1,6 @@
 ---
-
-
-
 id: case-child-drawing-rhyme
-title: '案例：孩子控笔「画画歌」——最小单元的建模实践'
+title: 案例：孩子控笔「画画歌」——最小单元的建模实践
 type: case
 status: enriched
 domain:
@@ -11,32 +8,26 @@ domain:
 - src_unknown
 - src_unknown
 source_refs:
-  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 source_person: Truman
-source_context: 一堂高阶建模能力培训（最小建模案例）。单一来源为完整口述稿，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至 high。
+source_context: 一堂高阶建模能力培训（最小建模案例）。单一来源为完整口述稿，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至
+  high。
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
 diagnostic_signals:
 - framework_lens: 最小建模 / 口诀压缩
   follow_up_question: 能否把最关键的动作压缩成四句以内、对方能背下来的口诀？

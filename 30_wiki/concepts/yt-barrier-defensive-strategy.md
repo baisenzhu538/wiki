@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——防御策略
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 防御策略——需要评估攻击强度和防御资源
-    follow_up_question: "竞品的攻击方式是什么？价格、产品、还是渠道？你的防御资源是什么？"
-  - framework_lens: 防御策略——壁垒被突破需要快速修复或建立新壁垒
-    follow_up_question: "哪个壁垒被突破？突破方式是什么？能否快速修复？"
-  - framework_lens: 防御策略——防御需要主动出击，不是被动防守
-    follow_up_question: "你的防御策略是什么？是价格战、产品升级、还是客户关系？"
-  - framework_lens: 防御策略——防御成本需要与收益平衡
-    follow_up_question: "你的防御成本是多少？是否超过了潜在损失？"
-  - framework_lens: 防御策略——防御和进攻需要平衡
-    follow_up_question: "你的资源是否过度投入防御？进攻机会在哪里？"
+- framework_lens: 防御策略——需要评估攻击强度和防御资源
+  follow_up_question: 竞品的攻击方式是什么？价格、产品、还是渠道？你的防御资源是什么？
+- framework_lens: 防御策略——壁垒被突破需要快速修复或建立新壁垒
+  follow_up_question: 哪个壁垒被突破？突破方式是什么？能否快速修复？
+- framework_lens: 防御策略——防御需要主动出击，不是被动防守
+  follow_up_question: 你的防御策略是什么？是价格战、产品升级、还是客户关系？
+- framework_lens: 防御策略——防御成本需要与收益平衡
+  follow_up_question: 你的防御成本是多少？是否超过了潜在损失？
+- framework_lens: 防御策略——防御和进攻需要平衡
+  follow_up_question: 你的资源是否过度投入防御？进攻机会在哪里？
 
 ---
 # 防御策略：守住壁垒

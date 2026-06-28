@@ -1,16 +1,11 @@
 ---
-
-
-
-
-
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain:
-  - src_unknown
+- src_unknown
 source_refs:
-  - src_unknown
+- src_unknown
 status: draft
 confidence: 0.8
 difficulty: intermediate
@@ -39,15 +34,15 @@ diagnostic_signals:
   follow_up_question: 你的选项池是否让别人看了觉得"原来还有这么多可能性"？
 - framework_lens: 减法太粗糙
   follow_up_question: 你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: 老顽童
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 加法减法实操：从100个选项到3个高概率方向

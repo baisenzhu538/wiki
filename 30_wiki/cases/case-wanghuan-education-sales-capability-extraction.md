@@ -20,7 +20,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-20'
-updated_at: 2026-06-28
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 隐性决策知识未被萃取
   follow_up: 用 PECED 反向工程销冠录音，区分“说了什么”与“为何此时说”
@@ -31,18 +31,9 @@ diagnostic_signals:
 - lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -52,6 +43,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+
 ---
 # 王欢案例：教育机构销冠能力萃取系统
 

@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-demand-peak-end-rule
 title: 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
 type: concept
@@ -10,29 +9,30 @@ confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南
 source_refs:
-  - 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
-  - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
+- 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "欧阳锋"
-review_date: "2026-06-19"
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
-    follow_up_question: "用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？"
-  - framework_lens: 峰终定律——优化了平均体验，但峰值和终点没变
-    follow_up_question: "你的优化是在峰值时刻、终点时刻，还是其他时刻？"
-  - framework_lens: 峰终定律——终点体验不好，影响推荐意愿
-    follow_up_question: "用户使用结束时的体验是什么？是顺畅完成，还是遇到阻碍？"
-  - framework_lens: 峰终定律——该节点可能是负面峰值
-    follow_up_question: "用户流失前的最后一个体验是什么？是负面峰值还是终点体验不好？"
-  - framework_lens: 峰终定律——竞品在峰值或终点体验更好
-    follow_up_question: "竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？"
+- framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
+  follow_up_question: 用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？
+- framework_lens: 峰终定律——优化了平均体验，但峰值和终点没变
+  follow_up_question: 你的优化是在峰值时刻、终点时刻，还是其他时刻？
+- framework_lens: 峰终定律——终点体验不好，影响推荐意愿
+  follow_up_question: 用户使用结束时的体验是什么？是顺畅完成，还是遇到阻碍？
+- framework_lens: 峰终定律——该节点可能是负面峰值
+  follow_up_question: 用户流失前的最后一个体验是什么？是负面峰值还是终点体验不好？
+- framework_lens: 峰终定律——竞品在峰值或终点体验更好
+  follow_up_question: 竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？
 
 ---
 # 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点

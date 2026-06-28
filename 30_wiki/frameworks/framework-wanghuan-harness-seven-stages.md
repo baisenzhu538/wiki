@@ -1,7 +1,4 @@
 ---
-
-
-
 id: framework-wanghuan-harness-seven-stages
 title: 王欢：Harness 七阶段 AI 构建流程
 type: framework
@@ -20,7 +17,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 生成者与验收者角色未分离
   follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
@@ -31,18 +28,11 @@ diagnostic_signals:
 - lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
@@ -51,7 +41,6 @@ tags:
 - src_unknown
 
 ---
-
 # 王欢：Harness 七阶段 AI 构建流程
 
 > **Burn line**: 把生成者和验收者分开，是 Harness 从"损坏的玩具"变"可玩的游戏"的关键。

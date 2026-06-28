@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法——跨步三：从10到100的壁垒
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 跨步三——规模化后需要壁垒保护利润
-    follow_up_question: "你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？"
-  - framework_lens: 跨步三——增长天花板需要壁垒突破
-    follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - framework_lens: 跨步三——增长被复制说明壁垒不足
-    follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
-  - framework_lens: 跨步三——壁垒建设需要基于现有优势
-    follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？"
-  - framework_lens: 跨步三——壁垒和增长同步建设
-    follow_up_question: "你的增长行为是否在积累壁垒？"
+- framework_lens: 跨步三——规模化后需要壁垒保护利润
+  follow_up_question: 你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？
+- framework_lens: 跨步三——增长天花板需要壁垒突破
+  follow_up_question: 你的壁垒能否帮你拓展新市场、新用户、新场景？
+- framework_lens: 跨步三——增长被复制说明壁垒不足
+  follow_up_question: 你的壁垒是什么？为什么竞品复制不了？
+- framework_lens: 跨步三——壁垒建设需要基于现有优势
+  follow_up_question: 你现有的优势是什么？用户、数据、技术、品牌？
+- framework_lens: 跨步三——壁垒和增长同步建设
+  follow_up_question: 你的增长行为是否在积累壁垒？
 
 ---
 # 跨步三：从10到100的壁垒

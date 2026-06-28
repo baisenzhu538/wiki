@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
@@ -7,38 +6,38 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - src_unknown
+- src_unknown
 source_refs:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+created_at: '2026-06-21'
+updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 爬虫工具匹配矩阵
-    follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
-  - framework_lens: 合规决策树
-    follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
+- framework_lens: 爬虫工具匹配矩阵
+  follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
+- framework_lens: 合规决策树
+  follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
+---
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 
 > 调研武器库"逆向数据分析"板块的执行层。对应 OSCAR 的 A（获取情报）阶段。

@@ -1,8 +1,6 @@
 ---
-
-
 id: concept-wanghuan-ai-native-definition
-title: '王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程'
+title: 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程
 type: concept
 status: enriched
 author: 王语嫣
@@ -19,7 +17,7 @@ domain:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 diagnostic_signals:
 - lens: 演员思维固化
   follow_up: 检查工作方式是否改变：人是否仍在亲自执行大部分步骤，AI 是否只是更快的打字机
@@ -30,24 +28,19 @@ diagnostic_signals:
 - lens: 只纳不沉
   follow_up: 建立 Prompt 模板库或 AI 业务档案，把高频输出固化为可复用资产
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
----
 
+---
 # 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程
 
 > **Burn line**: AI Native 的门槛不在工具数量，而在工作方式的默认设置。

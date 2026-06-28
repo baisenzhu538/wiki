@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
 type: tool
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——同期群分析
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
-    follow_up_question: "哪个 cohort 的留存率下降？是新用户还是老用户？哪个渠道的用户？"
-  - framework_lens: 同期群分析——产品改动的影响需要对比 cohort
-    follow_up_question: "改动前后的 cohort 留存曲线有变化吗？哪个 cohort 受影响最大？"
-  - framework_lens: 同期群分析——同期群分析把复杂行为结构化
-    follow_up_question: "你的用户按什么维度分群？注册时间、渠道、版本？"
-  - framework_lens: 同期群分析——同期群分析能揭示趋势和异常
-    follow_up_question: "你的 cohort 留存曲线是什么形状？是改善还是恶化？"
-  - framework_lens: 同期群分析——按渠道分群，对比留存
-    follow_up_question: "不同渠道的用户 cohort 留存曲线对比如何？"
+- framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
+  follow_up_question: 哪个 cohort 的留存率下降？是新用户还是老用户？哪个渠道的用户？
+- framework_lens: 同期群分析——产品改动的影响需要对比 cohort
+  follow_up_question: 改动前后的 cohort 留存曲线有变化吗？哪个 cohort 受影响最大？
+- framework_lens: 同期群分析——同期群分析把复杂行为结构化
+  follow_up_question: 你的用户按什么维度分群？注册时间、渠道、版本？
+- framework_lens: 同期群分析——同期群分析能揭示趋势和异常
+  follow_up_question: 你的 cohort 留存曲线是什么形状？是改善还是恶化？
+- framework_lens: 同期群分析——按渠道分群，对比留存
+  follow_up_question: 不同渠道的用户 cohort 留存曲线对比如何？
 
 ---
 # 同期群分析：用户行为追踪

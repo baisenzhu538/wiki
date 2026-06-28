@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-shampoo-case
 title: 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 type: case
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——洗发水案例
 source_refs:
-  - 10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
-  - 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
-  - 10_raw/sources/src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
-created_at: "2026-06-19"
-updated_at: 2026-06-28
+- 10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
+- 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+- 10_raw/sources/src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 洗发水案例——内核是价值，不是功能
-    follow_up_question: "AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？"
-  - framework_lens: 洗发水案例——功能多≠内核强
-    follow_up_question: "竞品功能少，但用户为什么选择竞品？内核差异是什么？"
-  - framework_lens: 洗发水案例——内核必须能剥离边缘功能
-    follow_up_question: "如果去掉包装设计和品牌，只保留去屑功能，用户还会选择吗？"
-  - framework_lens: 洗发水案例——内核需要聚焦特定用户
-    follow_up_question: "你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？"
-  - framework_lens: 洗发水案例——内核可能不是你以为的功能
-    follow_up_question: "用户选择你们，是因为去屑效果好，还是因为品牌形象？"
+- framework_lens: 洗发水案例——内核是价值，不是功能
+  follow_up_question: AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？
+- framework_lens: 洗发水案例——功能多≠内核强
+  follow_up_question: 竞品功能少，但用户为什么选择竞品？内核差异是什么？
+- framework_lens: 洗发水案例——内核必须能剥离边缘功能
+  follow_up_question: 如果去掉包装设计和品牌，只保留去屑功能，用户还会选择吗？
+- framework_lens: 洗发水案例——内核需要聚焦特定用户
+  follow_up_question: 你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？
+- framework_lens: 洗发水案例——内核可能不是你以为的功能
+  follow_up_question: 用户选择你们，是因为去屑效果好，还是因为品牌形象？
+
 ---
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 

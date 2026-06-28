@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
 type: concept
@@ -10,31 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——加减法
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核加减法——只加不减，内核被稀释
-    follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
-  - framework_lens: 产品内核加减法——'可能'不是保留的理由
-    follow_up_question: "这个功能的使用率是多少？如果低于5%，是否该砍掉？"
-  - framework_lens: 产品内核加减法——砍错了功能
-    follow_up_question: "流失用户是因为砍掉的功能，还是其他原因？"
-  - framework_lens: 产品内核加减法——竞品驱动加减
-    follow_up_question: "竞品的这个功能，用户使用频率高吗？你的用户有同样的需求吗？"
-  - framework_lens: 产品内核加减法——资源分散，核心受损
-    follow_up_question: "新增功能的开发资源，是否占用了核心功能的优化资源？"
+- framework_lens: 产品内核加减法——只加不减，内核被稀释
+  follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？
+- framework_lens: 产品内核加减法——'可能'不是保留的理由
+  follow_up_question: 这个功能的使用率是多少？如果低于5%，是否该砍掉？
+- framework_lens: 产品内核加减法——砍错了功能
+  follow_up_question: 流失用户是因为砍掉的功能，还是其他原因？
+- framework_lens: 产品内核加减法——竞品驱动加减
+  follow_up_question: 竞品的这个功能，用户使用频率高吗？你的用户有同样的需求吗？
+- framework_lens: 产品内核加减法——资源分散，核心受损
+  follow_up_question: 新增功能的开发资源，是否占用了核心功能的优化资源？
 
 ---
 # 产品内核的加减法：什么该加，什么该减

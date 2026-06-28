@@ -1,5 +1,4 @@
 ---
-
 id: tool-从案例中学习正反案例法
 title: 技能：从案例中学习（正反案例法）
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -28,7 +27,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09'
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -44,6 +43,7 @@ diagnostic_signals:
   follow_up: 先看反面案例挑战自己的假设，再找正面案例验证，避免只拿案例佐证已有观点
 - lens: 自我对照缺失
   follow_up: 每次看完案例必须思考'如果我在类似场景，我能做什么？有什么不同？'
+
 ---
 # 技能：从案例中学习（正反案例法）
 

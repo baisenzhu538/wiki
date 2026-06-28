@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 title: 技能：将学习成果沉淀为 PRD 文档
 type: tool
@@ -18,19 +17,14 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
-updated_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
@@ -44,6 +38,7 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
+
 ---
 # 技能：将学习成果沉淀为 PRD 文档
 

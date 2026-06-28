@@ -1,11 +1,8 @@
 ---
-
-
-
 id: yt-note-deliberate-practice-four-elements
 title: 四要素诊断模型——刻意练习的笔记落地框架
 domain:
-  - src_unknown
+- src_unknown
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -13,7 +10,7 @@ diagnostic_signals:
   follow_up_question: 你当前最缺的是套路、非舒适区、反馈还是重复？一次只攻一个
 - framework_lens: 顺序错误
   follow_up_question: 你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,11 +21,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 四要素诊断模型——刻意练习的笔记落地框架

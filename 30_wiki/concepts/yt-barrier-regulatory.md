@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
 type: concept
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略课——监管壁垒
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 监管壁垒——牌照是壁垒，但需要持续维护和合规
-    follow_up_question: "你的牌照是否有有效期？续期条件是什么？合规成本多少？"
-  - framework_lens: 监管壁垒——监管政策变化可能削弱或强化壁垒
-    follow_up_question: "政策变化对你的影响是正面还是负面？如何适应或利用？"
-  - framework_lens: 监管壁垒——合规成本是壁垒的一部分，高合规成本阻挡新进入者
-    follow_up_question: "你的合规成本是否构成了进入壁垒？竞品是否难以承受？"
-  - framework_lens: 监管壁垒——灰色地带不是壁垒，是风险
-    follow_up_question: "灰色地带的风险是什么？是否有合规化的路径？"
-  - framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
-    follow_up_question: "监管限制的具体是什么？是否有合规的创新路径？"
+- framework_lens: 监管壁垒——牌照是壁垒，但需要持续维护和合规
+  follow_up_question: 你的牌照是否有有效期？续期条件是什么？合规成本多少？
+- framework_lens: 监管壁垒——监管政策变化可能削弱或强化壁垒
+  follow_up_question: 政策变化对你的影响是正面还是负面？如何适应或利用？
+- framework_lens: 监管壁垒——合规成本是壁垒的一部分，高合规成本阻挡新进入者
+  follow_up_question: 你的合规成本是否构成了进入壁垒？竞品是否难以承受？
+- framework_lens: 监管壁垒——灰色地带不是壁垒，是风险
+  follow_up_question: 灰色地带的风险是什么？是否有合规化的路径？
+- framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
+  follow_up_question: 监管限制的具体是什么？是否有合规的创新路径？
 
 ---
 # 监管壁垒：牌照与合规

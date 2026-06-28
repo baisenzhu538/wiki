@@ -1,14 +1,11 @@
 ---
-
-
-
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -22,18 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
@@ -54,7 +44,7 @@ diagnostic_signals:
 - framework_lens: 结构完整 / 穷举
   follow_up_question: 是否遗漏隐性成本（运营、管理、风险）？
 - framework_lens: 数据溯源 / 可信度
-  follow_up_question: "'假设'类数字占比是否 ≤30%？"
+  follow_up_question: '''假设''类数字占比是否 ≤30%？'
 - framework_lens: 风险管理 / 不确定性
   follow_up_question: 是否只用乐观数据做预测？
 - framework_lens: 业务分类 / 阶段适配
@@ -67,7 +57,7 @@ diagnostic_signals:
   follow_up_question: C/D 类业务是否被强制做成 A 类精细模型？
 - framework_lens: 动态迭代 / 反馈闭环
   follow_up_question: 业务环境变化后是否重新做 ABCD 分类和压力测试？
-updated_at: '2026-06-17'
+updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 

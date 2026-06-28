@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
 type: framework
@@ -10,30 +9,30 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——漏斗优化
 source_refs:
-  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
-created_at: "2026-06-20"
-updated_at: "2026-06-20"
+- 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+- 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+created_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-20"
+reviewed_by: 待审
+review_date: '2026-06-20'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
-    follow_up_question: "你的漏斗每个环节的转化率是多少？哪个环节流失最多？"
-  - framework_lens: 漏斗优化——付费环节流失需要分析 friction
-    follow_up_question: "付费页面的 friction 是什么？价格、支付方式、信任？"
-  - framework_lens: 漏斗优化——漏斗太长需要简化或分段优化
-    follow_up_question: "漏斗的每个步骤是否必要？能不能合并或跳过？"
-  - framework_lens: 漏斗优化——局部优化不等于整体优化，需要看全局
-    follow_up_question: "你优化的是哪个环节？其他环节是否恶化？"
-  - framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
-    follow_up_question: "你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？"
+- framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
+  follow_up_question: 你的漏斗每个环节的转化率是多少？哪个环节流失最多？
+- framework_lens: 漏斗优化——付费环节流失需要分析 friction
+  follow_up_question: 付费页面的 friction 是什么？价格、支付方式、信任？
+- framework_lens: 漏斗优化——漏斗太长需要简化或分段优化
+  follow_up_question: 漏斗的每个步骤是否必要？能不能合并或跳过？
+- framework_lens: 漏斗优化——局部优化不等于整体优化，需要看全局
+  follow_up_question: 你优化的是哪个环节？其他环节是否恶化？
+- framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
+  follow_up_question: 你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？
 
 ---
 # 漏斗优化：从认知到付费

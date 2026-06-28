@@ -1,15 +1,11 @@
 ---
-
-
-
-
 title: 战略会
 type: concept
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 status: draft
 pipeline:
 - src_unknown
@@ -18,7 +14,7 @@ diagnostic_signals:
   follow_up_question: 这次战略会有多少时间在讨论未来方向，多少时间在汇报过去成绩？
 - framework_lens: 开完就算了
   follow_up_question: 战略会结束后72小时内有没有发出决策纪要和下一步行动？
-updated_at: '2026-06-16'
+updated_at: '2026-06-28'
 id: yt-management-strategy-meeting
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -29,11 +25,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 
 ---
 # 战略会

@@ -1,12 +1,9 @@
 ---
-
-
-
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
-  - src_unknown
+- src_unknown
 status: enriched
 confidence: 0.88
 trust_level: medium-high
@@ -14,17 +11,13 @@ reviewed_by:
 - src_unknown
 author: 老顽童
 source_refs:
-  - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+- 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 query_triggers:
 - src_unknown
 - src_unknown
@@ -44,7 +37,7 @@ diagnostic_signals:
   follow_up_question: 哪条硬伤可以在6周内设计一个低成本实验去证伪？
 language: zh-CN
 created_at: 2026-06-11
-updated_at: 2026-06-18
+updated_at: '2026-06-28'
 
 ---
 # 十大硬伤：商业机会的致死缺陷清单

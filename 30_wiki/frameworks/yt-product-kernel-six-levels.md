@@ -1,7 +1,6 @@
 ---
 domain:
-  - src_unknown
-
+- src_unknown
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
 type: framework
@@ -10,33 +9,33 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——六个段位
 source_refs:
-  - 10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
-  - 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
-  - 10_raw/sources/src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
-created_at: "2026-06-19"
-updated_at: "2026-06-19"
+- 10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
+- 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
+- 10_raw/sources/src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
+created_at: '2026-06-19'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: "待审"
-review_date: "2026-06-19"
+reviewed_by: 待审
+review_date: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- pending_unknown
 diagnostic_signals:
-  - framework_lens: 产品内核段位——L1缺价值意识
-    follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。"
-  - framework_lens: 产品内核段位——L2有价值意识但无最小意识
-    follow_up_question: "如果只能保留20%的功能，你会保留哪些？为什么？"
-  - framework_lens: 产品内核段位——L3有最小意识，但未验证
-    follow_up_question: "你的内核假设验证过吗？关键转化率是多少？"
-  - framework_lens: 产品内核段位——L4能评估测试，但未动态调整
-    follow_up_question: "你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - framework_lens: 产品内核段位——L5能动态调整，但未迁移
-    follow_up_question: "你能把当前产品的内核逻辑应用到其他领域吗？"
-  - framework_lens: 产品内核段位——团队段位断层
-    follow_up_question: "你们团队对内核的认知在哪个段位？是否一致？"
+- framework_lens: 产品内核段位——L1缺价值意识
+  follow_up_question: 你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。
+- framework_lens: 产品内核段位——L2有价值意识但无最小意识
+  follow_up_question: 如果只能保留20%的功能，你会保留哪些？为什么？
+- framework_lens: 产品内核段位——L3有最小意识，但未验证
+  follow_up_question: 你的内核假设验证过吗？关键转化率是多少？
+- framework_lens: 产品内核段位——L4能评估测试，但未动态调整
+  follow_up_question: 你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？
+- framework_lens: 产品内核段位——L5能动态调整，但未迁移
+  follow_up_question: 你能把当前产品的内核逻辑应用到其他领域吗？
+- framework_lens: 产品内核段位——团队段位断层
+  follow_up_question: 你们团队对内核的认知在哪个段位？是否一致？
 
 ---
 # 产品内核六个段位：从缺价值意识到全面迁移
