@@ -31,9 +31,9 @@ updated: 2026-06-27
 | sprint-12-backfill-card-behavioral-requirements | Sprint 12：回溯升级——已有卡片补齐 v1.5 行为转化三要件 | done | 黄药师 | P0 | sprint-12-backfill-card-behavioral-requirements.md |
 | fix-validate-v15-domain-filter | 修复 kdo validate --v15 的 --domain 过滤失效 | done | 黄药师 | P1 | fix-validate-v15-domain-filter.md |
 | validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
-| huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
+| huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | reviewed | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md | 欧阳锋确认：建议 2 做 P0、建议 4 做 P1、建议 1 暂缓 P2、建议 3 本阶段不做 P3；黄药师执行建议 2 和 4 |
 | proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
-| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress (wave2 reviewed, wave3 reviewed, 第八批 reviewed, wave4 claimed, wave5 queued) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；wave3 14/14 欧阳锋终审通过；第八批 10/10 dk 卡欧阳锋终审通过，dark-knowledges 目录 lint ERROR 归零；wave4 由 Hermes 负责；wave5 由 Hermes 负责 |
+| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress (wave2 reviewed, wave3 reviewed, 第八批 reviewed, wave4 in_progress, wave5 queued for WorkBuddy) | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md | wave2 16/16 欧阳锋子代理终审通过；wave3 14/14 欧阳锋终审通过；第八批 10/10 dk 卡欧阳锋终审通过，dark-knowledges 目录 lint ERROR 归零；wave4 由 Hermes 生产中；wave5 预分配给 WorkBuddy，等 wave4 完成后启动 |
 | review_20260628_ouyangfeng-wave1 | 欧阳锋审核：wave1 门禁快速清理 18 张卡 | reviewed | 欧阳锋 | P0 | review_20260628_ouyangfeng-wave1.md | 欧阳锋终审通过：18/18 卡 status 更新为 reviewed |
 | task_20260627-deliberate-practice-cards | 元能力-刻意练习域卡片化（含 AI 协作桥接） | reviewed | 欧阳锋 | P1 | task_20260627_laowantong-deliberate-practice-cards.md |
 | task_20260627-channel-growth-cards | 渠道增长域卡片化（含 2 张跨域桥接卡） | reviewed | 欧阳锋 | P1 | review_20260628_ouyangfeng-channel-growth.md | 欧阳锋终审通过：25/25 卡 status 更新为 reviewed；遗留 case section / dk 目录 / concept 目录债务已记录 |
@@ -64,6 +64,6 @@ updated: 2026-06-27
 - **In Progress**: 0
 - **Queued**: 6（详见 `production-queue.md`）
 - **Pending**: 1
-- **Review Done**: 11 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8)
+- **Review Done**: 12 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review)
 
 > 老顽童当前待生产任务约 98-99 张卡：历史批量工单 62 张 + 新域任务 36-37 张。统一队列见 `production-queue.md`。

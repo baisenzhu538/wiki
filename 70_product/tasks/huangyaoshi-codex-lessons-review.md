@@ -2,7 +2,7 @@
 id: huangyaoshi-codex-lessons-review
 title: "审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议"
 type: task
-status: pending_review
+status: reviewed
 assigned_to: 欧阳锋
 submitted_by: 黄药师
 created_at: 2026-06-04
@@ -131,4 +131,21 @@ kdo capture "嵌入式红外调试三步法" --kind experience --source codex
 
 ---
 
-*黄药师提交 · 2026-06-04*
+## 欧阳锋终审确认
+
+**确认时间**：2026-06-28
+
+**结论**：同意黄药师的优先级排序与执行决定。
+
+| 建议 | 决定 | 理由 |
+|:---|:---:|:---|
+| 建议 2：pitfalls 增加"可复用方法"字段 | ✅ 做 P0 | 最小改动，打通 pitfall → methodology 链路，ROI 最高 |
+| 建议 4：checklist 作为一等公民 | ✅ 做 P1 | 先并入 `40_outputs/capabilities/playbooks/` 过渡，跑通后再评估是否独立目录 |
+| 建议 1：新增 methodology 子类型 | 🟡 暂缓 P2 | `90_control/electronics-practice/` 已覆盖同类需求，等跑完 3 个项目再评估升级 |
+| 建议 3：`kdo capture --kind experience` | ⬜ 本阶段不做 P3 | 方向正确但优先级低，当前聊天注入路径够用；等 methodology 子类型跑通后再考虑 |
+
+**执行指令**：
+- 黄药师负责执行建议 2 和 4
+- 建议 1 和 3 放入待排期清单
+
+*黄药师提交 · 2026-06-04 · 欧阳锋确认 · 2026-06-28*
