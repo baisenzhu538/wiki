@@ -13,8 +13,10 @@ domain:
 - ai-saas
 - entrepreneur
 source_refs:
-  - pending_archive:src_20260614_eca9f5b3酒店行业-AI标签审核案例  - pending_archive:src_20260614_b85c364e贝壳-云管家AI外呼案例
-  - pending_archive:src_20260614_4b3b6427阿豪-自动选品系统案例related:
+- pending_archive:src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+- pending_archive:src_20260614_b85c364e-贝壳-云管家AI外呼案例
+- pending_archive:src_20260614_4b3b6427-阿豪-自动选品系统案例
+related:
 - [[dk-modeling-ai-judgment-limit]]
 - [[dk-modeling-ai-compound-leverage]]
 - [[master-ai-info-literacy]]
@@ -44,15 +46,27 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ### 业务背景
 
+- src_unknown
+- src_unknown
 
 ### 核心矛盾
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 公开信源验证
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -60,19 +74,31 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ### 业务背景
 
+- src_unknown
+- src_unknown
 
 ### 核心挑战
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
+- src_unknown
+- src_unknown
+- src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
+- src_unknown
 
 ### 公开信源验证
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -80,15 +106,28 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ### 业务背景
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### AI 落地策略
 
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 声称成果
 
+- src_unknown
+- src_unknown
 
 ### 可信度标注
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -96,18 +135,29 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ### 1. 场景选择：高频 × 商业价值 × 可控难度
 
+- src_unknown
+- src_unknown
 
 ### 2. 切入策略：从辅助到替代
 
+- src_unknown
+- src_unknown
 
 ### 3. 数据与流程基础
 
+- src_unknown
+- src_unknown
 
 ### 4. 组织协同
 
+- src_unknown
+- src_unknown
+- src_unknown
 
 ### 5. 技术优化
 
+- src_unknown
+- src_unknown
 
 ---
 
@@ -132,6 +182,11 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ## 关键证据
 
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -149,6 +204,10 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 
 ## 教训
 
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
@@ -166,18 +225,33 @@ review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案�
 ## 适用边界
 
 **适用**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 **不适用**
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ---
 
 ## 与现有 30_wiki 的差异
 
+- src_unknown
+- src_unknown
 
 ---
 
 ## 验证与参考
 
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 
 ## 建议后续行动
 
