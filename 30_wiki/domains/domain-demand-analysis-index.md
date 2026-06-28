@@ -137,7 +137,7 @@ related:
 - [[yt-five-step-method|一堂五步法]] — 需求分析是五步法第一环
 - [[yt-product-kernel-cultivation|产品内核]] — 需求分析输出是产品内核的输入
 - [[yt-entrepreneur-lean-validation|精益创业]] — 需求验证与精益假设验证紧密相关
-- [[yt-channel-growth-strategy|渠道增长]] — 需求分析指导渠道选择和增长策略
+- [[framework-yitang-channel-exploration-4step|渠道增长]] — 需求分析指导渠道选择和增长策略
 - [[decision-science-domain-digest|决策科学]] — 需求分析中的决策质量六问
 
 ---

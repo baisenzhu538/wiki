@@ -2103,7 +2103,7 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[yt-tool-unit-model-construction|yt tool unit model construction]] — source `src_unknown`
 - [[yt-tool-unit-model-dynamic|yt tool unit model dynamic]] — source `src_unknown`
 - [[yt-tool-unit-model-selection|yt tool unit model selection]] — source `src_unknown`
-- [[framework-decision-quality-checklist|决策质量六问检查表]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
-- [[framework-decision-cognitive-bias-map|商业决策常见认知偏差地图]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
-- [[dk-decision-when-to-defer|何时应该推迟决策]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
-- [[case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[frameworks/framework-decision-quality-checklist|决策质量六问检查表]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[frameworks/framework-decision-cognitive-bias-map|商业决策常见认知偏差地图]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[dark-knowledges/dk-decision-when-to-defer|何时应该推迟决策]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
+- [[cases/case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
