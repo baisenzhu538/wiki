@@ -9,7 +9,7 @@ priority: P1
 scope: 老顽童批量工单 wave4：新域建设 15 张卡终审
 related:
   - '[[laowantong-batch-2026-06-20-wave4]]'
-status: pending_review
+status: reviewed
 ---
 
 # 欧阳锋审查任务：wave4 新域建设（15 张卡）
@@ -194,4 +194,79 @@ status: pending_review
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-28 | 4.2 终审：欧阳锋*
+## 9. 欧阳锋 4.1 调研方法论域审查结论
+
+**Verdict：4.1 调研方法论域 8 张新卡通过**
+
+### 审查动作
+
+- 全量 8 张卡 `kdo pre-submit`：8 passed / 0 failed
+- 全量 8 张卡 `kdo lint`：0 ERROR（仅 2 张 tool 卡因位于 `concepts/` 目录触发英文 section 名 WARNING，内容为中文等价 section，不影响实质）
+- 检查 frontmatter：id/type/status/author/source_context/source_refs/confidence/trust_level/domain/related 均规范
+- 检查 section：8 张卡均含 原始表述 / 使用场景 / 操作方法 / 适用边界 / 为什么值钱 / 与其他知识的关联 / 关键证据 / 可迁移场景 / 教训 / 失败模式 / Action Triggers / 外部攻击 / Constraints / Critique
+- 检查拆卡质量：OSCAR 框架与 13 武器体系拆分为 8 张互链卡，framework 卡有端到端流程，tool 卡有可执行 checklist/worksheet
+- 检查互链：8 张新卡之间形成完整互链，并与 `yt-five-step-method` 及 Master 域卡片桥接
+
+### 审查中修复
+
+- 8 张卡 `source_refs` 中指向 `src_20260620_business-research-skill-v2.1.0/` 的 18 个不存在的 source 文件，全部替换为 `pending_archive:src_20260620_business-research-skill-v2.1.0` 占位
+- 8 张卡 frontmatter 更新：
+  - `status: enriched` → `reviewed`
+  - `reviewed_by:` → `欧阳锋`
+  - `review_date:` → `2026-06-28`
+  - `updated_at:` → `2026-06-28`
+  - `confidence:` → `0.78`
+  - `trust_level:` → `medium`
+  - `domain:` 追加 `research`
+  - 新增 `source_person: 一堂`
+
+### 4.1 通过卡清单
+
+| 卡 ID | 路径 | 类型 | 状态 |
+|:---|:---|:---|:---:|
+| yt-research-osl-framework | `30_wiki/concepts/yt-research-osl-framework.md` | framework | reviewed |
+| yt-research-intelligence-map | `30_wiki/concepts/yt-research-intelligence-map.md` | tool | reviewed |
+| yt-research-competitor-toolkit | `30_wiki/concepts/yt-research-competitor-toolkit.md` | tool | reviewed |
+| yt-research-expert-interview | `30_wiki/concepts/yt-research-expert-interview.md` | tool | reviewed |
+| yt-research-user-jtbd | `30_wiki/concepts/yt-research-user-jtbd.md` | tool | reviewed |
+| yt-research-industry-canvas | `30_wiki/concepts/yt-research-industry-canvas.md` | framework | reviewed |
+| yt-research-hypothesis-test | `30_wiki/concepts/yt-research-hypothesis-test.md` | tool | reviewed |
+| yt-research-mindset | `30_wiki/concepts/yt-research-mindset.md` | concept | reviewed |
+
+---
+
+## 10. wave4 整体终审结论
+
+**Verdict：15/15 通过，wave4 整体状态改为 `reviewed`**
+
+### 审查动作汇总
+
+- `kdo pre-submit`：15/15 passed（4.1 抽样 4 张 + 全量补抽 4 张；4.2 抽样 3 张 + 全量补抽 4 张）
+- `kdo lint`：wave4 目标卡 0 ERROR
+- 逐张检查 frontmatter 和核心 section：4.1 8 张 + 4.2 7 张均达标
+
+### 4.2 补充修复
+
+- 7 张 Master 卡 `domain: src_unknown` → `master`
+- 补充/清理 7 张卡正文中的 `src_unknown` 占位（包括"与现有卡的关系"、示例、识别信号等），共修复 30+ 处
+
+### 已知残留项（非阻塞）
+
+1. **目录位置与类型不匹配**：4.1 中 2 张 framework、5 张 tool 卡和 4.2 中 5 张 framework/tool 卡实际位于 `30_wiki/concepts/`。按 `AGENTS.md` 老顽童知识卡片默认写入 `concepts/`，此属既定 routing；但任务单原期望按类型分到 `frameworks/` / `tools/` / `concepts/`。当前 wikilink 互链正常，lint 无 ERROR，建议后续由黄药师/老顽童在域整理任务中统一处理，不阻塞 wave4 入库。
+2. **2 张 tool 卡英文 section 名 WARNING**：`yt-research-intelligence-map.md`、`yt-research-user-jtbd.md` 因类型为 tool 但使用中文 `## 使用场景` / `## 操作方法` / `## 适用边界`，触发 linter 对 `## Purpose` / `## Protocol/Procedure` / `## When NOT to Use` 的 WARNING。内容为实质等价，建议后续统一中英 section 别名或调整目录后自然消除。
+3. **4.2 部分卡片仍有 pending_archive source_refs**：source 文件暂缺，已用 `pending_archive:` 占位，与 wave2/wave3 处理方式一致。
+
+### 已执行动作
+
+- 4.1 8 张卡 frontmatter 标记 `status: reviewed`，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`
+- 4.2 7 张卡 `domain` 修正为 `master`，正文 `src_unknown` 占位清理
+- 本任务单状态改为 `reviewed`
+- `70_product/tasks/production-queue.md` 任务 #8 状态同步改为 `reviewed`
+
+### 解锁
+
+- wave4 reviewed，wave5（`laowantong-batch-2026-06-20-wave5`）可正式生产
+
+---
+
+*维护人：王语嫣 | 最后更新：2026-06-28 | wave4 终审：欧阳锋*
