@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "Wave 6 全部完成（2026-06-28）：#21 Wave 6-A 决策科学域系统化 + #22 Wave 6-B 需求分析域深化均 reviewed；5+5 张新卡无新增 ERROR；当前 lint 140 ERROR 全部为历史遗留（8 空 source_refs + 132 case section 缺失）；下一阶段等待欧阳锋/王语嫣规划"
+active_task: "王语嫣规划下一阶段（2026-06-29）：创建 A1/A2 任务单并入队；A1 由黄药师清理 8 个空 source_refs，A2 由 Hermes 老顽童补齐 132 张 case section；目标全库 lint ERROR 归零；Wave 6 已完成，B1/B2/B3 已完成"
 blockers:
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
@@ -9,6 +9,7 @@ blockers:
   - "✅ B3 孤岛卡片补链 reviewed（2026-06-28）：1042 张处理、孤岛卡片清零；2014 YAML引号修复 + 163 bare id加括号 + 119 句子删除 + 33张孤岛补真实wikilink + pending_unknown.md移到system/；lint 140 ERROR全为历史遗留无新增；pre-submit抽检5/5 PASS；55张仍全pending为已知限制"
   - "✅ Wave 6 诊断通过（2026-06-28）：欧阳锋终审确认决策科学域 14 reviewed + 需求分析域 10-20 reviewed，盲区识别合理；#21 决策科学域系统化、#22 需求分析域深化可入队生产；决策科学 index 改为升级现有 `decision-science-domain-digest` 而非新建"
   - "✅ Wave 6 生产完成（2026-06-28）：#21 Wave 6-A 决策科学域系统化 reviewed（升级 digest + 4 张新卡），#22 Wave 6-B 需求分析域深化 reviewed（5 张新卡）；10 张新卡无新增 lint ERROR；历史遗留 140 ERROR 为 8 空 source_refs + 132 case section 缺失"
+  - "🆕 A1/A2 任务单已入队（2026-06-29）：#23 A1 空 source_refs 清理（黄药师，8 文件），#24 A2 case section 缺失补全（Hermes 老顽童，132 文件）；两任务并行，目标全库 lint ERROR 归零"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
