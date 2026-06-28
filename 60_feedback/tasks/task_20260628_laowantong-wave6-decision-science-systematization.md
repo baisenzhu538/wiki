@@ -1,12 +1,14 @@
 ---
 id: task_20260628_laowantong-wave6-decision-science-systematization
 type: task
-status: claimed-hermes
+status: reviewed
 assignee: 老顽童(Hermes)
 priority: P1
 created_at: 2026-06-28
 updated_at: 2026-06-28
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 source_refs:
 - 60_feedback/diags/diag_20260628_wangyuyan-wave6-decision-science-demand-analysis.md
 - .agent/kb-evolution-direction.md
@@ -58,3 +60,16 @@ source_refs:
 
 - 原建议的 `domain-decision-science-index` 与现有 `30_wiki/domains/decision-science-domain-digest.md` 重复，改为升级现有 digest
 - 升级时必须清理内容区 `src_unknown` 占位，补全核心框架/关键概念/与其他域桥接
+
+## 欧阳锋终审结论
+
+- **审查结果**：通过
+- **5 张卡片状态**：`domains/decision-science-domain-digest.md` 由 enriched 升级为 reviewed；4 张新建卡状态为 reviewed
+- **结构检查**：
+  - index 卡覆盖本域 14 张已有 reviewed 卡 + 4 张新建卡，跨域桥接完整
+  - framework 卡均含 `When NOT to Use` + `Constraints & Boundaries` + 失败模式
+  - dk 卡含 6 个标准 section（核心洞察/原始表述/使用场景/操作方法/适用边界/为什么值钱）
+  - case 卡含 4 个标准 section（关键证据/可迁移场景/教训/失败模式），决策科学 × AI 协作双向价值明确
+- **lint 验证**：`kdo lint` 148 ERROR 全部为历史遗留（8 个空 source_refs + 140 个 case section 缺失），5 张新卡片无新增 ERROR/WARNING
+- **修复项**：删除 `frameworks/framework-decision-quality-checklist.md` frontmatter `related` 中重复的 `[[master-decision-hygiene]]`
+- **决策科学域 reviewed 卡片数**：14 → 18
