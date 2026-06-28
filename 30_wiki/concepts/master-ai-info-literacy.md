@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- master
 id: master-ai-info-literacy
 title: AI时代信息素养框架
 type: framework
@@ -38,9 +38,9 @@ AI 生成内容的成本趋于零，但**真实性的成本没有下降**。当 
 
 ### 与现有卡的关系
 
-- src_unknown
-- src_unknown
-- src_unknown
+- `[[master-cognitive-bias-checklist]]`：识别 AI 输出中的框架效应、过度自信和确认偏误
+- `[[master-decision-hygiene]]`：团队使用 AI 信息时减少判断噪声，提升一致性
+- `[[yt-research-intelligence-map]]`：传统信息收集方法，与 AI 信息素养形成互补
 
 ---
 

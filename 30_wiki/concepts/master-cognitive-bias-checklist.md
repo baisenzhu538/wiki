@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- master
 id: master-cognitive-bias-checklist
 title: 认知偏差快速诊断清单
 type: tool
@@ -40,11 +40,11 @@ vault 里 100+ 张卡每张都有外部攻击者，但攻击者散落在各处�
 
 ### 与现有卡的关系
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `[[master-ai-info-literacy]]`：识别 AI 输出带来的认知偏差
+- `[[master-decision-hygiene]]`：团队决策前减少判断噪声
+- `[[master-first-principles]]`：从源头质疑假设，打破思维定势
+- `[[master-systems-thinking]]`：识别偏差背后的系统结构
+- `[[master-antifragile-checklist]]`：检查决策是否具有结构性韧性
 
 ---
 
@@ -92,8 +92,8 @@ vault 里 100+ 张卡每张都有外部攻击者，但攻击者散落在各处�
 适用场景：团队做关键决策前的评审。
 
 **每个人独立回答 12 个问题，然后交换答案**。重点关注：
-- src_unknown
-- src_unknown
+- 哪些偏差是团队共享盲区（多数人同时犯）
+- 哪些偏差是个体差异（只有少数人犯）
 
 ---
 

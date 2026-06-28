@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- master
 id: master-decision-hygiene
 title: 决策卫生五步法
 type: framework
@@ -159,36 +159,37 @@ related:
 
 ## 四、完整流程示例
 
-**场景**：团队要决定是否投资一个新项目。
+**场景**：团队要决定是否投资 100 万开发一款面向中小企业的 AI 客服 SaaS。
 
 ```
 Step 1 分解判断：
-  - src_unknown
-  - src_unknown  
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 市场规模：中小企业 AI 客服市场 TAM/SAM/SOM
+  - 竞争强度：现有玩家数量、集中度、差异化空间
+  - 团队能力：技术、销售、客户成功是否匹配
+  - 资金需求：100 万是否覆盖 12 个月 runway
+  - 执行风险：产品、获客、留存的关键假设
 
 Step 2 外部视角：
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 同类 AI 客服项目过去 3 年成功率约 15-20%
+  - 行业平均获客成本 5000-8000 元/企业客户
+  - 中小企业 SaaS 年流失率中位数约 25-30%
 
 Step 3 独立评估：
-  - src_unknown
+  - 3 位合伙人分别对 5 个维度打分（1-10），互不知晓对方分数
+  - 禁止在打分前讨论项目前景
 
 Step 4 聚合：
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 市场规模：中位数 7 分（乐观 8，悲观 5）
+  - 竞争强度：中位数 5 分（乐观 6，悲观 4）
+  - 团队能力：中位数 6 分（一致）
+  - 资金需求：中位数 5 分（100 万只够 9 个月）
+  - 执行风险：中位数 4 分（关键假设多）
+  - 综合：建议投资，但需追加 50 万或缩短试错周期
 
 Step 5 延迟直觉：
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 24 小时后重新审视：综合评分是否仍成立？
+  - 一周后复查：外部视角数据是否有新反例？
+  - 最终决定：投资 80 万做 6 个月 MVP 验证，留 20 万冗余
 ```
 
 ---

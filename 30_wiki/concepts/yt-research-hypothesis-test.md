@@ -1,21 +1,22 @@
 ---
 domain:
   - yitang
+  - research
 id: yt-research-hypothesis-test
 title: 商业假设验证方法
 type: tool
-status: enriched
+status: reviewed
 source_context: 一堂商业调研课程——假设验证与实验设计
+source_person: 一堂
 source_refs:
-  - src_20260620_business-research-skill-v2.1.0/SKILL.md
-  - src_20260620_business-research-skill-v2.1.0/STEP-08.md
+  - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'
-updated_at: '2026-06-20'
+updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-20'
-confidence: 0.85
-trust_level: high
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+confidence: 0.78
+trust_level: medium
 related:
   - '[[yt-research-osl-framework]]'
   - '[[yt-research-intelligence-map]]'

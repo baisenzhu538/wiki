@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- master
 id: master-systems-thinking
 title: 系统思考：反馈循环与杠杆点
 type: concept
@@ -76,13 +76,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → B → A（正反馈）
 
 **识别信号**：
-- src_unknown
-- src_unknown
-- src_unknown
+- "越 X 越 Y，越 Y 越 X" 的表述反复出现
+- 曲线呈指数型增长或衰减，而非线性
+- 小的初始差异被持续放大
 
 **vault 中的例子**：
-- src_unknown
-- src_unknown
+- `yt-entrepreneur-growth-flywheel`：用户增长 → 网络效应 → 更多用户
+- `yt-personal-ipo-learning`：输出 → 反馈 → 更高质量输入 → 更好输出
 
 **危险**：增强回路可以正向也可以负向——"越亏损越裁员 → 服务质量下降 → 更多用户流失 → 更多亏损"
 
@@ -91,13 +91,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → B → -A（负反馈）
 
 **识别信号**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 增长到一定阶段后自然放缓
+- "太多了 → 成本上升 → 减少" 的模式
+- 系统长期维持在一个稳定区间
 
 **vault 中的例子**：
-- src_unknown
-- src_unknown
+- 团队扩张 → 管理成本上升 → 扩张放缓
+- 价格上涨 → 需求下降 → 价格回落
 
 **关键洞察**：调节回路不是"坏事"——没有调节回路，系统会爆炸或崩溃。
 
@@ -106,13 +106,13 @@ vault 里到处都是"飞轮""闭环""增强回路"——`yt-entrepreneur-growth
 **结构**：A → [延迟] → B
 
 **识别信号**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 行动和结果之间有明显时间差
+- 短期没效果就急于调整
+- 反馈到来时已经忘了当初做了什么
 
 **vault 中的例子**：
-- src_unknown
-- src_unknown
+- 投入培训 → 3-6 个月后技能提升 → 业绩改善
+- 品牌投放 → 6-12 个月后市场认知改变 → 销售增长
 
 **核心陷阱**：人们在延迟期间会改变策略，导致永远无法知道原始策略是否有效。
 
