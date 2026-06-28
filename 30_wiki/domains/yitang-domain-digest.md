@@ -16,6 +16,8 @@ related:
   - [[strategy-domain-digest]]
   - [[five-step-domain-digest]]
   - [[ai-collaboration-domain-digest]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 域摘要：一堂知识体系

@@ -18,6 +18,8 @@ related:
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+review_date: '2026-06-29'
+updated_at: '2026-06-29'
 ---
 
 # 域摘要：调研方法论

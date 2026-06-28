@@ -20,6 +20,7 @@ source_refs:
 related:
   - [[yitang-domain-digest]]
   - [[tool-寻找学习教练法]]
+updated_at: '2026-06-29'
 ---
 
 # AI需求分析教练提示词
