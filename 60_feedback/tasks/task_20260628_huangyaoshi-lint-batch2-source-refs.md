@@ -16,7 +16,9 @@ source_refs:
 
 ## 目标
 
-修复 107 张卡片中 `source_refs` 指向不存在文件或格式错误的条目，使 `kdo lint` 不再报 `source_refs entry ...: file not found on disk` / `concept card has empty source_refs`。
+修复约 107 张卡片中 `source_refs` 指向不存在文件或格式错误的条目，使 `kdo lint` 不再报 `source_refs entry ...: file not found on disk` / `concept card has empty source_refs`。
+
+> **含 Batch1 复查追加文件**：`hermes_lint_safe_batch_remaining.json` 中原标记为 `colon_in_scalar_other` 的 125 个文件，当前有 90 个文件共 200 个 ERROR，其中约 176 个为 `source_refs` 类错误。这些文件 frontmatter 已修复，source_refs 指向不存在文件的问题一并纳入本任务。
 
 ## 问题分类
 

@@ -2,7 +2,7 @@
 id: task_20260628_laowantong-lint-batch2-dk-sections
 type: task
 status: queued
-assignee: Hermes 老顽童
+assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
 updated_at: 2026-06-28
@@ -30,6 +30,8 @@ source_refs:
 - `## 与其他知识的关联`（链接到其他卡片（至少1张概念卡+1张暗知识卡））
 
 预计影响文件：**约 43 张 dk 卡**，其中 40 张六 section 全缺。
+
+> **含 Batch1 复查追加文件**：这 43 张 dk 卡中，有若干来自 `hermes_lint_safe_batch_remaining.json`（原标记为 `colon_in_scalar_other` 的 125 个文件）。这些文件 frontmatter 已修复，当前暴露 `Dark knowledge card missing section` 错误，一并纳入本任务。
 
 ## 规则
 

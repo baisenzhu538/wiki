@@ -29,6 +29,8 @@ source_refs:
 
 预计影响文件：**约 130 张 case 卡**，其中 91 张四 section 全缺，其余缺 1-3 个 section。
 
+> **含 Batch1 复查追加文件**：这 130 张 case 卡中，有 9 张来自 `hermes_lint_safe_batch_remaining.json`（原标记为 `colon_in_scalar_other` 的 125 个文件）。这些文件 frontmatter 已修复，当前主要暴露 `Case card missing section` 错误，一并纳入本任务。
+
 ## 规则
 
 1. **只补 section 标题和基本骨架**，内容由素材支撑；没有素材的用 `src_unknown` 占位 + 待补标记。
