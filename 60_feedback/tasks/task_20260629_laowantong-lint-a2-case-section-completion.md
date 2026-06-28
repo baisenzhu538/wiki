@@ -1,7 +1,7 @@
 ---
 id: task_20260629_laowantong-lint-a2-case-section-completion
 type: task
-status: queued
+status: pending_review
 assignee: 老顽童(Hermes)
 priority: P1
 created_at: 2026-06-29
