@@ -66,20 +66,20 @@ trust_level: medium
 ### 失败模式
 
 1. **死记硬背卡牌名称，遇到真实问题想不起来用**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **只用自己最熟悉的几张牌，其他牌永远不出**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **为了用牌而用牌，增加不必要的流程**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **把卡牌当标准答案，不结合具体情境调整**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 
@@ -100,9 +100,9 @@ trust_level: medium
 
 ### 30张牌的来源
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ### 三组牌的逻辑
 
@@ -167,13 +167,13 @@ Schön 的核心概念**"行动中反思"（reflection-in-action）**——从�
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+- 待补充链接
 
 ## Synthesis
 
 ### 关联卡片
 
-- src_unknown（yitang 域）
+- 待补充链接
 - 待补充链接
 - 待补充链接
 - 待补充链接

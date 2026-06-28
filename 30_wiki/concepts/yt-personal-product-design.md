@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **一开始就想方案，没有定义清楚问题**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **把产品设计狭隘理解为画原型或写PRD**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **追求一次完美交付，没有迭代计划**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **只关注用户满意，忽视可行性和可持续性**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 

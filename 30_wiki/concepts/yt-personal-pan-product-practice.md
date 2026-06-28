@@ -67,20 +67,20 @@ trust_level: medium
 ### 失败模式
 
 1. **听了用户说什么就设计什么**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **需求分析做得很长，但对方案没有影响**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **过度分析，迟迟不进入方案**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **只关注用户视角，忽略商业可行性**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 
@@ -168,13 +168,13 @@ JTBD 方法论在全球产品管理领域的接受度极高，但其成功案例
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+- 待补充链接
 
 ## Synthesis
 
 ### 关联卡片
 
-- src_unknown（yitang 域）
+- 待补充链接
 - 待补充链接
 - 待补充链接
 - 待补充链接

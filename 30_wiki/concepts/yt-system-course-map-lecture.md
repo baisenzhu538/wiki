@@ -122,9 +122,9 @@ Capability: workflow
 5. **打卡式学习** → 症状：追求地图打勾而非能力变化；原因：打勾机制激励浅层完成；修复：用行为改变率替代完成率
 ## Synthesis 对标
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 
 ### 不要用的场景

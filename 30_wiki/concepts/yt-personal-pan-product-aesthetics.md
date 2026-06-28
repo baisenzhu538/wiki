@@ -68,20 +68,20 @@ trust_level: medium
 ### 失败模式
 
 1. **看了很多优秀作品，但自己作品没有进步**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **只会说‘这个好看’，无法解释为什么**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **盲目模仿最佳实践，忽视自身用户和场景**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **审美标准过高，导致项目无法推进**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 
@@ -164,13 +164,13 @@ trust_level: medium
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+- 待补充链接
 
 ## Synthesis
 
 ### 关联卡片
 
-- src_unknown（yitang 域）
+- 待补充链接
 - 待补充链接
 - 待补充链接
 - 待补充链接

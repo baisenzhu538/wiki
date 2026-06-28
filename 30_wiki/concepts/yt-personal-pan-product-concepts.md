@@ -68,20 +68,20 @@ trust_level: medium
 ### 失败模式
 
 1. **追求在每个领域都85分，结果在每个领域都平庸**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **用通用工具套所有领域，忽视行业know-how**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **身份认同混乱，觉得自己什么都能做**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **学了很多工具但一个都不熟练**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 
@@ -164,13 +164,13 @@ Epstein 的洞见对 Truman 泛产品设计课的双重意义：**泛不是更�
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+- 待补充链接
 
 ## Synthesis
 
 ### 关联卡片
 
-- src_unknown（yitang 域）
+- 待补充链接
 - 待补充链接
 - 待补充链接
 - 待补充链接

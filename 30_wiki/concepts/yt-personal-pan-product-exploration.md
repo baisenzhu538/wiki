@@ -66,20 +66,20 @@ trust_level: medium
 ### 失败模式
 
 1. **把案例当故事听，没有提取任何原则**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **盲目模仿 Truman 的成长路径，忽视自身处境**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **案例很精彩，但学完后没有任何行动**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **因为案例来自他人经验而过度怀疑其适用性**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Summary
 
@@ -113,8 +113,8 @@ trust_level: medium
 ### 一堂产品设计差异化的来源
 
 Truman 分享了一堂产品与同行"完全找不到对标"的原因：
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
 
 ## Critique
 
@@ -160,13 +160,13 @@ Lave & Wenger 的核心洞见对探索营的致命一击：探索营是一个"�
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+- 待补充链接
 
 ## Synthesis
 
 ### 关联卡片
 
-- src_unknown（yitang 域）
+- 待补充链接
 - 待补充链接
 - 待补充链接
 - 待补充链接

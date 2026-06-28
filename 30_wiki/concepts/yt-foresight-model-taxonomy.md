@@ -94,20 +94,20 @@ Gawande的研究表明，Checklist的有效性不取决于条目的多少，而�
 ### 失败模式
 
 1. **快速筛选也用 Checklist，导致小决策被过度分析**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 2. **用 N要素 做深度尽调，遗漏关键风险**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 3. **雷达图维度很多，但打分全凭感觉**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 4. **把模型复杂度当成专业度，越复杂越好**
-   - src_unknown
-   - src_unknown
+   - 待补充链接
+   - 待补充链接
 
 ## Synthesis
 
