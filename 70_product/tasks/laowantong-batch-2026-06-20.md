@@ -456,6 +456,36 @@
 
 ---
 
+## 第 4 波完成小结（2026-06-28）
+
+- 完成卡片：15 张
+  - 4.1 调研方法论域：8 张（yt-research-osl-framework、yt-research-intelligence-map、yt-research-competitor-toolkit、yt-research-expert-interview、yt-research-user-jtbd、yt-research-industry-canvas、yt-research-hypothesis-test、yt-research-mindset）
+  - 4.2 Master 域：7 张（master-ai-info-literacy、master-cognitive-bias-diagnosis、master-decision-hygiene、master-first-principles、master-systems-thinking、master-antifragile-checklist、master-knowledge-compound）
+- 新增卡片：8 张（4.1 全部新建）
+- 处理内容：
+  - 4.1 调研方法论域：
+    - 全部新建，按 SKILL.md 中的 OSCAR + 13 武器体系拆卡
+    - 每张卡包含：原始表述、使用场景、操作方法、适用边界、为什么值钱、与其他知识的关联、关键证据、可迁移场景、教训、失败模式、Action Triggers、外部攻击、Constraints、Critique
+    - 外部攻击 ≥2 位（Kahneman、Taleb、Porter、Popper、Christensen、Hayek 等）
+    - 互链：yt-research-* 域内互链 + Master 域关联
+  - 4.2 Master 域：
+    - frontmatter 修复：author=老顽童，reviewed_by=待审，review_date=2026-06-20
+    - confidence 0.92→0.78，trust_level high→medium
+    - source_refs 从 src_unknown 替换为真实 source
+    - related 从 src_unknown 替换为 Master 域互链（[[master-*]]）
+    - 新增关键证据、可迁移场景、教训、失败模式 4 个标准 section
+    - 外部攻击 src_unknown 替换为真实 wikilink
+- pre-submit 结果：15 张全部 PASS（15 files checked, 15 passed, 0 failed）
+- lint 结果：PASS（无新增 ERROR）
+- 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
+- 阻塞/需用户确认：无
+- 备注：
+  - 4.1 卡 reviewed_by=待审，待欧阳锋审查后改审查人
+  - 4.2 卡 reviewed_by=待审，待欧阳锋审查后改审查人
+  - 4.1 卡 source_refs 指向 src_20260620_business-research-skill-v2.1.0（素材文件），实际生产时基于 SKILL.md 内容
+
+---
+
 *工单创建：2026-06-20*
 *创建者：王语嫣*
 *执行者：老顽童*
