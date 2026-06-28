@@ -55,24 +55,24 @@ AI Native 不是”会用很多AI工具”，而是”遇到信息获取、思�
 
 ## Source Refs
 
-- src_unknown
+- 待补充链接
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## Critique
 
@@ -104,15 +104,15 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 **可迁移场景**：
 - 待补充链接
 - 待补充链接
-- src_unknown 成熟度评估：将五层转化为自评量表，每层设晋级标准（L1: 能识别幻觉，L2: 口述/重构/Wiki常态运转，L3: 有被外部验证的作品，L4: 有真实反复使用的用户，L5: 端到端系统不需要你亲自操作即可完成业务动作）
+- 待补充链接
 
 - 待补充链接
 ## Output Opportunities
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 待补充链接
+- 待补充链接
+- 待补充链接
+- 待补充链接
 
 ## 落地模板：个人研究笔记的五层升级清单（21 天版）
 
