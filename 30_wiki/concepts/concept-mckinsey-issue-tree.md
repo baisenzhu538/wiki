@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
@@ -28,17 +29,13 @@ wiki_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-17'
 diagnostic_signals:
-- src_unknown
-  framework_lens: Issue Tree 逐层拆解
+- framework_lens: Issue Tree 逐层拆解
   follow_up: 如果把这个问题拆成 3-5 个一级子问题，每个子问题都可以独立分析而不重叠，你会怎么分？
-- src_unknown
-  framework_lens: MECE 检查清单
+- framework_lens: MECE 检查清单
   follow_up: 你们的分工是按'工作流程'分的还是按'问题子集'分的？如果重叠了，说明 Issue Tree 的第一层拆解就有问题。
-- src_unknown
-  framework_lens: Issue Tree 叶节验证
+- framework_lens: Issue Tree 叶节验证
   follow_up: 你的 Issue Tree 最底层叶节，有多少个已经被数据验证了？有多少个还是假设？
-- src_unknown
-  framework_lens: Issue Tree 把信息转化为可验证叶节
+- framework_lens: Issue Tree 把信息转化为可验证叶节
   follow_up: 你收集的信息能挂到 Issue Tree 的哪个叶节上？如果不能，说明信息过剩而问题结构不清。
 pipeline:
 - src_unknown

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 防御策略——需要评估攻击强度和防御资源
+  - framework_lens: 防御策略——需要评估攻击强度和防御资源
     follow_up_question: "竞品的攻击方式是什么？价格、产品、还是渠道？你的防御资源是什么？"
-  - src_unknown
-    framework_lens: 防御策略——壁垒被突破需要快速修复或建立新壁垒
+  - framework_lens: 防御策略——壁垒被突破需要快速修复或建立新壁垒
     follow_up_question: "哪个壁垒被突破？突破方式是什么？能否快速修复？"
-  - src_unknown
-    framework_lens: 防御策略——防御需要主动出击，不是被动防守
+  - framework_lens: 防御策略——防御需要主动出击，不是被动防守
     follow_up_question: "你的防御策略是什么？是价格战、产品升级、还是客户关系？"
-  - src_unknown
-    framework_lens: 防御策略——防御成本需要与收益平衡
+  - framework_lens: 防御策略——防御成本需要与收益平衡
     follow_up_question: "你的防御成本是多少？是否超过了潜在损失？"
-  - src_unknown
-    framework_lens: 防御策略——防御和进攻需要平衡
+  - framework_lens: 防御策略——防御和进攻需要平衡
     follow_up_question: "你的资源是否过度投入防御？进攻机会在哪里？"
 
 ---

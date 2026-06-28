@@ -2,22 +2,19 @@
 
 
 
+
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 问题定义 / 诊断起点
+- framework_lens: 问题定义 / 诊断起点
   follow_up_question: 问题描述是否混入了预设原因或解决方案？
-- src_unknown
-  framework_lens: 思维链透明 / 可学习性
+- framework_lens: 思维链透明 / 可学习性
   follow_up_question: 被否定的死胡同是否被隐藏，导致诊断不可复盘？
-- src_unknown
-  framework_lens: 证据分级 / 假设管理
+- framework_lens: 证据分级 / 假设管理
   follow_up_question: 假设被证伪时是否有返回重新诊断的机制？
-- src_unknown
-  framework_lens: 行动阈值 / 成本权衡
+- framework_lens: 行动阈值 / 成本权衡
   follow_up_question: 问题解决线是否变成'为写诊断而工作'的文档表演？
 updated_at: '2026-06-16'
 author: unknown

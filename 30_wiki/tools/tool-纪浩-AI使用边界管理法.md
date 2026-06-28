@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-AI使用边界管理法
 title: 技能：AI使用边界管理法
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 过度依赖
+- lens: 过度依赖
   follow_up: 每天限定AI使用时长（如3-4小时）。把AI当worker时只用于降本增效，保留自己动脑动手的环节
-- src_unknown
-  lens: 认知外包
+- lens: 认知外包
   follow_up: 把AI当教练时让它设计A+1梯度问题。保留自己动脑、动手、有体感的环节
-- src_unknown
-  lens: 能力萎缩
+- lens: 能力萎缩
   follow_up: 定期反思哪些事AI搞不定时自己能搞定。专门留出AI不能碰的区域，不是因为AI做不好，而是因为做了你会退化
-- src_unknown
-  lens: 应急依赖
+- lens: 应急依赖
   follow_up: 紧急任务可以用AI，但事后必须复盘：哪些环节本可以自己完成？下次如何减少应急依赖？
-- src_unknown
-  lens: 手感丧失
+- lens: 手感丧失
   follow_up: 学习的本质是摩擦和必要难度。必须保留手动操作环节，AI辅助但不能替代
 ---# 技能：AI使用边界管理法
 

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
@@ -42,11 +43,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 忽视贡献/风险/时间差异
+- framework_lens: 忽视贡献/风险/时间差异
   follow_up_question: 每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平
-- src_unknown
-  framework_lens: 早期退出导致股权纠纷
+- framework_lens: 早期退出导致股权纠纷
   follow_up_question: 如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子
 updated_at: '2026-06-16'
 author: 老顽童

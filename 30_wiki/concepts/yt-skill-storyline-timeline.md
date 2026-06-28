@@ -2,22 +2,19 @@
 
 
 
+
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 事实-推断分离 / 因果暴露
+- framework_lens: 事实-推断分离 / 因果暴露
   follow_up_question: 时间线中是否混入'因为...所以...'解释性语言？
-- src_unknown
-  framework_lens: 可读性 / 认知负荷
+- framework_lens: 可读性 / 认知负荷
   follow_up_question: 超过 15 个节点后因果链是否变得不可追踪？
-- src_unknown
-  framework_lens: 可审计性 / 证据链
+- framework_lens: 可审计性 / 证据链
   follow_up_question: 无来源的推断是否被标注为[推断]而非事实？
-- src_unknown
-  framework_lens: 学习性 / 反直觉发现
+- framework_lens: 学习性 / 反直觉发现
   follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
 updated_at: '2026-06-16'
 author: unknown

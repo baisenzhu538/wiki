@@ -1,5 +1,6 @@
 ---
 
+
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
@@ -21,17 +22,13 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-  lens: 高价值痛点场景
+- lens: 高价值痛点场景
   follow_up: 观察目标用户真实工作流程，统计被消耗的时间占比
-- src_unknown
-  lens: 伪需求 / 脱离真实场景
+- lens: 伪需求 / 脱离真实场景
   follow_up: 对比真实用户使用频率，检查是否从"用户想象"出发设计
-- src_unknown
-  lens: 产品-市场匹配信号
+- lens: 产品-市场匹配信号
   follow_up: 记录使用次数、节省时间，作为产品活下来的证据
-- src_unknown
-  lens: 领域知识可转化为约束和默认值
+- lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
 related:
   - src_unknown

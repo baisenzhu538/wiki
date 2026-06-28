@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
@@ -42,17 +43,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 意图模糊
+- lens: 意图模糊
   follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
-- src_unknown
-  lens: 约束缺失
+- lens: 约束缺失
   follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
-- src_unknown
-  lens: 示例与格式缺位
+- lens: 示例与格式缺位
   follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
-- src_unknown
-  lens: 上下文工程缺失
+- lens: 上下文工程缺失
   follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 
 ---

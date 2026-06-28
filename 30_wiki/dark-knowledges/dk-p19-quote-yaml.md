@@ -1,4 +1,5 @@
 ---
+
 id: dk-p19-quote-yaml
 title: P-19：花引号被YAML误解析为字符串定界符
 type: dk
@@ -41,7 +42,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown# P-19：花引号被YAML误解析为字符串定界符
-
+---
 ## 原始表述 / 核心洞察
 
 > **症状**：`"四套操作系统"=可切换的决策runtime` 中，直引号 `"` 被 yaml.safe_load 解释为 YAML 字符串定界符，后面的 `=可切换...` 成为非法 tail，导致 YAML parse error。
@@ -100,7 +101,8 @@ tags:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 修复方法 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | **批量替换花引号为直引号** | `key: "value"=tail` 报 YAML parse error | 直引号被 YAML 流式解析器识别为字符串定界符，`=tail` 成为非法尾部 | 用单引号包裹：`key: '"value"=tail'`，或保留花引号 |
 | **手写 frontmatter 修改未做 round-trip 校验** | 写入后 YAML 解析失败，文件结构损坏 | 只关注文本内容，未验证 YAML 语法 | 写前/写后用 `yaml.safe_load()` 做 round-trip 校验 |
 | **把 YAML frontmatter 当作文本做正则替换** | 解析通过但字段类型/层级变化，或偶发 parse error | 未结构化解析，误伤引号边界 | 使用 YAML 库操作，避免字符串替换 |

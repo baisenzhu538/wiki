@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-demand-scenarios
 title: To B 需求场景四象限
 type: framework
@@ -41,14 +42,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 四象限定位缺失
+- framework_lens: 四象限定位缺失
   follow_up_question: 目标客户当前最紧迫的经营目标是复购、加购、获客还是创新？这个需求落在老客老品、老客新品、新客老品、新客新品哪个象限？
-- src_unknown
-  framework_lens: 象限错配
+- framework_lens: 象限错配
   follow_up_question: 老客加购依赖的是信任迁移和增量价值，新客获客依赖的是低成本规模化触达，两者的核心验证指标是否被混为一谈？
-- src_unknown
-  framework_lens: 经营重心误判
+- framework_lens: 经营重心误判
   follow_up_question: 在考虑新产品或新客之前，老客老品的复购率、续约率、单客产值还有多大提升空间？为什么当前象限不是最优解？
 
 ---

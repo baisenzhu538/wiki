@@ -1,6 +1,7 @@
 ---
 
 
+
 id: labeling-research-alignment
 title: 两份标注调研的对齐：黄药师 × 老顽童
 type: analysis
@@ -29,11 +30,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'# 两份标注调研的对齐：黄药师 × 老顽童
-
+---
 ## 路线差异
 
 | 维度 | 黄药师报告 | 老顽童报告 |
-|------|----------|----------|
+|
+---|----------|----------|
 | **路线** | AI 时代实践（HILTS、Embedding+LLM混合、RAG chunk标注） | 经典标注标准（Pascal VOC、COCO、CoNLL-2003、BRAT） |
 | **覆盖领域** | 知识管理 + RAG + AI自动标注 | NLP + CV + 语音/视频 + 多模态（全栈） |
 | **核心结论** | "从下游决策倒推标签维度" | "四层维度架构（语义→空间/时间→属性→质量）" |

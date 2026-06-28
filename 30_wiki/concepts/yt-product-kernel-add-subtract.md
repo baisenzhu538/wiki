@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核加减法——只加不减，内核被稀释
+  - framework_lens: 产品内核加减法——只加不减，内核被稀释
     follow_up_question: "过去6个月，你们砍掉了哪些功能？为什么？"
-  - src_unknown
-    framework_lens: 产品内核加减法——'可能'不是保留的理由
+  - framework_lens: 产品内核加减法——'可能'不是保留的理由
     follow_up_question: "这个功能的使用率是多少？如果低于5%，是否该砍掉？"
-  - src_unknown
-    framework_lens: 产品内核加减法——砍错了功能
+  - framework_lens: 产品内核加减法——砍错了功能
     follow_up_question: "流失用户是因为砍掉的功能，还是其他原因？"
-  - src_unknown
-    framework_lens: 产品内核加减法——竞品驱动加减
+  - framework_lens: 产品内核加减法——竞品驱动加减
     follow_up_question: "竞品的这个功能，用户使用频率高吗？你的用户有同样的需求吗？"
-  - src_unknown
-    framework_lens: 产品内核加减法——资源分散，核心受损
+  - framework_lens: 产品内核加减法——资源分散，核心受损
     follow_up_question: "新增功能的开发资源，是否占用了核心功能的优化资源？"
 
 ---

@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -28,17 +29,13 @@ yitang:
   course_type: tool
   level: core
 diagnostic_signals:
-- src_unknown
-  framework_lens: 发散-收敛 / 效率
+- framework_lens: 发散-收敛 / 效率
   follow_up_question: 全排列是否导致 2-3 周仍无法收敛的选择瘫痪？
-- src_unknown
-  framework_lens: 验证 / 低成本假设
+- framework_lens: 验证 / 低成本假设
   follow_up_question: 理论上可行但执行/监管/竞争不可行的组合是否进入候选池？
-- src_unknown
-  framework_lens: 技术迭代 / 动态机会
+- framework_lens: 技术迭代 / 动态机会
   follow_up_question: 选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？
-- src_unknown
-  framework_lens: 可行性 / 落地诚实
+- framework_lens: 可行性 / 落地诚实
   follow_up_question: 机会筛选是否只停留在需求-能力-模式三档匹配？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
@@ -32,14 +33,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 时效约束缺失
+- lens: 时效约束缺失
   follow_up: 在提示词开头加入当前日期，并追加'只能使用最新可得数据'的显式限制
-- src_unknown
-  lens: 限制表述不完整
+- lens: 限制表述不完整
   follow_up: 同时声明'不得使用训练数据中的过时信息，优先使用最新可得数据'
-- src_unknown
-  lens: 行业时效标准未定义
+- lens: 行业时效标准未定义
   follow_up: 补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）
 ---
 # 技能：告诉 AI 当前日期限制数据时效

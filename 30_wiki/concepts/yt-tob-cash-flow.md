@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
@@ -40,14 +41,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
+- framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
   follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？
-- src_unknown
-  framework_lens: To B 业务周期长、回款慢带来的资金占用风险
+- framework_lens: To B 业务周期长、回款慢带来的资金占用风险
   follow_up_question: 能否通过收款节奏、预付款比例、供应链金融或合同条款缩短现金转换周期？
-- src_unknown
-  framework_lens: 自由现金流健康度 — 增长质量优于增长规模
+- framework_lens: 自由现金流健康度 — 增长质量优于增长规模
   follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
@@ -48,26 +49,19 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 科学类比 / 证据链
+- framework_lens: 科学类比 / 证据链
   follow_up_question: 行业基准是否有来源和适用条件？
-- src_unknown
-  framework_lens: 不确定性 / 区间估计
+- framework_lens: 不确定性 / 区间估计
   follow_up_question: 是否只给一个'最可能数字'而隐藏波动？
-- src_unknown
-  framework_lens: 时效性 / 反僵化
+- framework_lens: 时效性 / 反僵化
   follow_up_question: 去年的基准是否仍被当作今年标准？
-- src_unknown
-  framework_lens: 边界意识 / 类比有效性
+- framework_lens: 边界意识 / 类比有效性
   follow_up_question: 是否把别人的基准直接套用到自己的业务？
-- src_unknown
-  framework_lens: 证据质量 / 三角验证
+- framework_lens: 证据质量 / 三角验证
   follow_up_question: 行业数据、对标企业、自身历史、专家估计中至少两种来源是否一致且条件被标注？
-- src_unknown
-  framework_lens: 压力测试 / 韧性
+- framework_lens: 压力测试 / 韧性
   follow_up_question: 悲观值是否至少比基准情景恶化 30%-50%，且团队已讨论存活方案？
-- src_unknown
-  framework_lens: 群体决策 / 锚定偏差
+- framework_lens: 群体决策 / 锚定偏差
   follow_up_question: 讨论前是否让参与者独立写下自己的基准值、来源与推理？
 updated_at: '2026-06-17'
 author: 老顽童

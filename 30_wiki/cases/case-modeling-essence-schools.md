@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-essence-schools
 title: 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 type: case
@@ -37,17 +38,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 三派混用
+- lens: 三派混用
   follow_up: 先统一目标——我们想做知识付费、组织萃取还是学科建模？
-- src_unknown
-  lens: 用错了流派的验收标准
+- lens: 用错了流派的验收标准
   follow_up: 用三派四维度（萃取范围、目标、手段、角色）重新定位它
-- src_unknown
-  lens: 混淆了知识付费派与学科建模派的角色
+- lens: 混淆了知识付费派与学科建模派的角色
   follow_up: 评估自己是否具备跨领域案例库和反例验证能力
-- src_unknown
-  lens: 学科建模标准侵入经验萃取场景
+- lens: 学科建模标准侵入经验萃取场景
   follow_up: 把抽象层级降到组织内可执行，补充上下文和触发条件
 ---# 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 

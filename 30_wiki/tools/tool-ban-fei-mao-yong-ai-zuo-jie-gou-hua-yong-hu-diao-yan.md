@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan
 title: 技能：用 AI 做结构化用户调研
 type: tool
@@ -34,14 +35,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 替代执行
+- lens: 替代执行
   follow_up: 明确 AI 只能辅助设计框架/整理笔记，访谈执行必须由人类完成
-- src_unknown
-  lens: 事实假设混淆
+- lens: 事实假设混淆
   follow_up: 要求 AI 将每个问题标注为"事实"或"假设"，并检查假设是否有数据支撑
-- src_unknown
-  lens: 约束缺失
+- lens: 约束缺失
   follow_up: 在提示词中写明目标、范围、用户画像、业务场景后再让 AI 生成框架
 ---
 # 技能：用 AI 做结构化用户调研

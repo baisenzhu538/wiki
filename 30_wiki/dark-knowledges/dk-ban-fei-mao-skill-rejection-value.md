@@ -1,5 +1,7 @@
 ---
 
+
+
 id: dk-ban-fei-mao-skill-rejection-value
 title: '暗知识：Skill 的最大价值不是生成，是拒绝'
 type: dk
@@ -44,7 +46,9 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
+---
 - src_unknown
+
 # 暗知识：Skill 的最大价值不是生成，是拒绝
 
 ## 原始表述
@@ -84,7 +88,8 @@ Skill 的最大价值不是让 AI 多生成内容，而是在输入、资源、�
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 需要把课程/方法论封装成 Skill | ✅ 适用 | 拒绝条件是 Skill 设计的第一性要素 |
 | 低容错决策场景（医疗、金融、法律、保险） | ✅ 适用 | 拒绝机制是防止"高效犯错"的底线 |
 | 团队 AI 协作规范设计 | ✅ 适用 | 先定义"不该做"，再讨论"怎么做" |

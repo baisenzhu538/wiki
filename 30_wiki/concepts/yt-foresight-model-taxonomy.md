@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -45,6 +46,7 @@ related:
 - [[yt-panproduct-aesthetic-modeling]]
 - [[case-escort-service-tiered-growth]]
 - [[yt-personal-checklist-notes]]
+---
 # 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
@@ -58,7 +60,8 @@ related:
 ### 三层预判工具
 
 | 层级 | 名称 | 特征 | 适用场景 | 典型案例 |
-|:---:|:---|:---|:---|:---|
+|:
+:|:---|:---|:---|:---|
 | L1 | **N要素（最糙版）** | 2-3个基本要素，极简归纳 | 快速筛选、初期 brainstorm | 爆款文案三要素、共学活动三原则 |
 | L2 | **雷达图（常用版）** | 5-7个清晰完备的维度，可打分 | 中等复杂度决策、团队共识 | 五维雷达图评估、机会评估矩阵 |
 | L3 | **Checklist（复杂版）** | 数十条级别的核查清单，配套案例库 | 深度尽职调查、规模化复制前 | 优秀BP黄金27条、投资尽调清单 |

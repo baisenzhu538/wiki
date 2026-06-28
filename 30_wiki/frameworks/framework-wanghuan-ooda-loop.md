@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
@@ -42,17 +43,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: '观察瘫痪'
+- lens: '观察瘫痪'
   follow_up: '当前卡在哪个 OODA 环节？能否定义最小观察集，先转完一圈再迭代？'
-- src_unknown
-  lens: '定向漂移'
+- lens: '定向漂移'
   follow_up: '是否在行动前先把观察到的事实放入固定上下文？约束和红线条是否显式化？'
-- src_unknown
-  lens: '决策恐惧'
+- lens: '决策恐惧'
   follow_up: '能否把决策拆成一个可验证的小实验，用下一轮观察来降低不确定性？'
-- src_unknown
-  lens: '行动不闭环'
+- lens: '行动不闭环'
   follow_up: '每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？'
 
 ---

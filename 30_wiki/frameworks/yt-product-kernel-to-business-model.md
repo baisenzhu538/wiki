@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
+  - framework_lens: 从内核到商业模式——内核是价值，商业模式是变现
     follow_up_question: "用户愿意为内核价值付多少钱？付费方式是什么？一次性还是订阅？"
-  - src_unknown
-    framework_lens: 从内核到商业模式——免费模式需要验证付费意愿
+  - framework_lens: 从内核到商业模式——免费模式需要验证付费意愿
     follow_up_question: "免费用户中，有多少比例愿意付费？付费意愿验证过吗？"
-  - src_unknown
-    framework_lens: 从内核到商业模式——商业模式必须服务内核
+  - framework_lens: 从内核到商业模式——商业模式必须服务内核
     follow_up_question: "你的商业模式是否强化了内核价值？还是削弱了？"
-  - src_unknown
-    framework_lens: 从内核到商业模式——内核成功≠商业模式成功
+  - framework_lens: 从内核到商业模式——内核成功≠商业模式成功
     follow_up_question: "内核验证成功，但单元模型是否成立？LTV > CAC吗？"
-  - src_unknown
-    framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
+  - framework_lens: 从内核到商业模式——市场认可的是商业模式，不只是内核
     follow_up_question: "市场不认可的是定价、付费方式，还是价值感知？"
 
 ---

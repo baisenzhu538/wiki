@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: concept-问题驱动式深度思考笔记
@@ -34,20 +35,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 输入驱动
+- lens: 输入驱动
   follow_up: 在笔记顶部写下3-5个真正想解决的问题，用问题驱动学习而非被讲师带着走
-- src_unknown
-  lens: 认知产权缺失
+- lens: 认知产权缺失
   follow_up: 检查笔记是否有'因为我的问题X，这个点意味着...'的格式，确保认知原创生产
-- src_unknown
-  lens: 假问题
+- lens: 假问题
   follow_up: 好问题不能在第一课就被回答，需要能在学习过程中不断生长产生子问题
-- src_unknown
-  lens: 阶段错配
+- lens: 阶段错配
   follow_up: 问题驱动是高阶技能非入门技能，基础学习先沉浸掌握再质疑
-- src_unknown
-  lens: 表演性问题
+- lens: 表演性问题
   follow_up: 问题必须是你真正关心的，不是为了'看起来在思考'而造问题
 ---# 问题驱动式深度思考笔记：用真问题取代真记录
 

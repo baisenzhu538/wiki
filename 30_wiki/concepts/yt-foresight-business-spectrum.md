@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -75,27 +76,20 @@ source_refs:
 - src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题
+- framework_lens: 用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题
   follow_up_question: 你做这件事3-5年后，最低能接受做成什么程度（保A）？最理想做到什么程度（争B）？
-- src_unknown
-  framework_lens: 帮用户看到不同模式对应光谱的不同位置，以及每个位置的预判深度要求（L1-L6）
+- framework_lens: 帮用户看到不同模式对应光谱的不同位置，以及每个位置的预判深度要求（L1-L6）
   follow_up_question: 这两个选项在光谱上分别落在哪个位置？你的能力和资源匹配哪个位置的预判要求？
-- src_unknown
-  framework_lens: 光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤
+- framework_lens: 光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤
   follow_up_question: 你的目标在光谱的L4-L7哪一级？这个级别要求的预判深度（商业/团队/行业）你做了吗？
-- src_unknown
-  framework_lens: 光谱图揭示"质变点"是跃迁的必要条件——跳过招人/复制/标准化中的任一环节都会翻车
+- framework_lens: 光谱图揭示"质变点"是跃迁的必要条件——跳过招人/复制/标准化中的任一环节都会翻车
   follow_up_question: 你当前处于光谱哪一级？下一级的质变点（全职→招人→复制→标准化→融资→上市）中，哪一个还没过关就想跳？
 diagnostic_relations:
-- src_unknown
-  relation: applies_when
+- relation: applies_when
   description: 用户想开线下实体店但对规模没有概念时，咖啡店案例展示了如何用光谱定位'保3争5'
-- src_unknown
-  relation: applies_when
+- relation: applies_when
   description: 用户想做服务业创业时，陪诊案例展示了如何从'保2争4'开始光谱定位
-- src_unknown
-  relation: requires_input
+- relation: requires_input
   description: 光谱定位后，需要用十大硬伤清单逐条检查该位置是否有致命硬伤
 title: 终局光谱图
 trust_level: medium

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-aesthetics
 component_of:
 - src_unknown
@@ -45,14 +46,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 审美来自见识广度
+- framework_lens: 审美来自见识广度
   follow_up_question: 你最近研究的一个优秀作品来自哪个完全不相干的领域？
-- src_unknown
-  framework_lens: 审美白盒化
+- framework_lens: 审美白盒化
   follow_up_question: 如果让你教别人判断这个作品的好坏，你会讲哪几个维度？
-- src_unknown
-  framework_lens: 审美必须落地
+- framework_lens: 审美必须落地
   follow_up_question: 你当前作品与最佳实践相比，最大差距在哪个维度？
 updated_at: '2026-06-16'
 author: 老顽童

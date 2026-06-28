@@ -37,7 +37,10 @@ author: unknown
 confidence: 0.7
 source_refs:
 - src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260430_8cc84e5b）# Y Combinator
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260430_8cc84e5b）
+---
+
+# Y Combinator
 
 > 全球最具影响力的创业加速器和种子投资机构。
 

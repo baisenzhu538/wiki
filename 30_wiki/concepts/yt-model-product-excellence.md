@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -46,6 +47,7 @@ related:
 - [[一堂]]
 - [[yt-panproduct-aesthetic-imagination]]
 - [[yt-model-pan-product-aesthetic-toolkit]]
+---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
 > 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
@@ -55,7 +57,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意大量接触最佳实践 | 有输入 |
 | ✅ 能迁移到自己的作品 | 有输出 |
 | ✅ 有长期审美训练 | 有耐心 |

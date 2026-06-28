@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -42,11 +43,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 总图缺乏落地路径——地图太大，没有转化为当下的学习优先级
+- framework_lens: 总图缺乏落地路径——地图太大，没有转化为当下的学习优先级
   follow_up_question: 你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位
-- src_unknown
-  framework_lens: 阶段焦虑——把终局视角当成当前要求
+- framework_lens: 阶段焦虑——把终局视角当成当前要求
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
 trust_level: medium-high

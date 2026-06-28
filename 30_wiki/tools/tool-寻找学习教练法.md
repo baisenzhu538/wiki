@@ -1,4 +1,5 @@
 ---
+
 id: tool-寻找学习教练法
 title: 技能：寻找学习教练法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 熟人教练陷阱
+- lens: 熟人教练陷阱
   follow_up: 教练的价值在客观反馈不在友善鼓励，优先找非熟人或付费教练
-- src_unknown
-  lens: 问题抽象
+- lens: 问题抽象
   follow_up: 好的教练请求必须带具体场景+已尝试结果+困惑点，48小时内可试验
-- src_unknown
-  lens: 频繁换教练
+- lens: 频繁换教练
   follow_up: 深度教练关系需要时间建立信任和上下文，教练价值随了解深度指数增长
-- src_unknown
-  lens: 买鱼心态
+- lens: 买鱼心态
   follow_up: 区分买鱼和学钓鱼，教练给的是能力不是答案，需要耐心迭代
-- src_unknown
-  lens: 依赖陷阱
+- lens: 依赖陷阱
   follow_up: 教练是反馈镜不是拐杖，目标是培养独立判断力而非永久依赖
 ---
 # 技能：寻找学习教练法

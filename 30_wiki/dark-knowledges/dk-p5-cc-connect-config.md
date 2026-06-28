@@ -1,4 +1,5 @@
 ---
+
 id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dk
@@ -34,7 +35,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：从 Kimi 切回 DeepSeek 后，WSL 终端的 `claude` 命令正常工作，但飞书黄药师报 `HTTP 401` 且无法访问 wiki/KDO。
@@ -95,7 +96,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 只改 CLI 链路就宣布完成 | `claude` 命令正常，但飞书 bot 报 401 / 找不到文件夹 | 误以为 `.bashrc` 的修改会同步影响 cc-connect | 同时检查 `env.conf` + `config.toml`，并 `daemon-reload && restart` |
 | work_dir 被旧配置覆盖 | Claude Code 从 `/home/dministrator` 启动，读不到 wiki | 切换模型时 config.toml 被重置或误改 | 将 `work_dir` 改回 wiki 根目录并重启服务 |
 | env.conf 残留旧 provider | `systemctl show` 仍指向 Kimi endpoint 或旧 Key | systemd drop-in 未被覆盖或更新 | 重写 `env.conf` 后执行 `daemon-reload` |

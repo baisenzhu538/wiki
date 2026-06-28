@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-product-kernel-canvas
 title: 一堂产品内核画布应用技能
 type: tool
@@ -36,20 +37,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 内核不清晰
+- lens: 内核不清晰
   follow_up: 执行步骤2做加法+步骤3做减法，找出用户真正选择的3-5条决定性要素
-- src_unknown
-  lens: Green-bloat
+- lens: Green-bloat
   follow_up: 检查绿色要素是否超过5条，用三问验证：去掉它用户会放弃选择吗？
-- src_unknown
-  lens: 指标缺失
+- lens: 指标缺失
   follow_up: 执行步骤4：为每个内核要素配可量化指标，设定通过/失败标准
-- src_unknown
-  lens: Red-resurrection
+- lens: Red-resurrection
   follow_up: 建立红色要素审查机制，每次迭代检查是否有红色复活
-- src_unknown
-  lens: 指标游戏
+- lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
 ---
 # 一堂产品内核画布应用技能

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -45,6 +46,7 @@ related:
 - [[yt-model-prompt-engineering]]
 - [[yt-prompt-writing-workflow]]
 - [[yt-prompt-engineering-andrew-ng]]
+---
 # 迭代式提示词工作流（5步法）
 
 > [[yt-model-prompt-engineering]] 的子工具。迭代是提示词工程的第一性原理——好的提示词在对话中自然涌现。
@@ -52,7 +54,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 复杂任务无法一次性描述清楚 |
 | **适合** | 需要与AI共同探索方案的场景 |
 | **不适合** | 简单事实查询——直接问更高效 |

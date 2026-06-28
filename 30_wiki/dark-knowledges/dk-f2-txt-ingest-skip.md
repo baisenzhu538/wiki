@@ -1,4 +1,5 @@
 ---
+
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dk
@@ -31,8 +32,7 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 review_date: '2026-06-28'
-
-
+---
 ## 原始表述
 
 > **触发命令**：`kdo ingest`
@@ -75,7 +75,8 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 ## 诊断信号
 
 | Signal | Lens | Follow-up |
-|:-------|:-----|:----------|
+|:
+----|:-----|:----------|
 | `kdo ingest` 执行后终端无任何 per-file 输出，只有空白或极简 summary | 可能是所有输入文件都被扩展名白名单过滤掉了 | 立即执行 `find 00_inbox -type f ! -name '*.md'`；若有非 .md，按操作方法转换后重跑 |
 | `state.json` 的 `ingested_inbox_files` 计数在 ingest 前后没有变化 | 新素材未被实际写入知识库 | 比对 `10_raw/sources/` 最新文件时间戳与 `00_inbox/` 输入文件；定位缺失项 |
 | `10_raw/sources/` 中没有与 `00_inbox/` 文件同名（除扩展名外）的新文件 | 该文件被静默跳过 | 检查文件扩展名；确认是否只支持 `.md`；转换后重新 ingest |

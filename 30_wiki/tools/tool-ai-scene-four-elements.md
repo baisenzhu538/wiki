@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: tool
@@ -33,12 +34,13 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+---
 # 技能：AI落地场景四要素评估法
 
 > **来源**：马易（AI俱乐部-AI落地场景识别-口述）
 > **核心**：评估一个场景是否适合AI落地，看四个要素：有容错、有方法、有数据、有判断。缺一不可。
 
----
+
 
 ## 原始表述
 > "一个场景适合AI落地的前提是：有容错、有方法、有数据、有判断。"

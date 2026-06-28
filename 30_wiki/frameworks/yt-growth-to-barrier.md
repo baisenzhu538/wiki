@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割
+  - framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割
     follow_up_question: "你的增长成果是什么？有没有壁垒保护？竞品复制的难度有多大？"
-  - src_unknown
-    framework_lens: 从增长到壁垒——增长天花板需要壁垒突破，不是硬撞
+  - framework_lens: 从增长到壁垒——增长天花板需要壁垒突破，不是硬撞
     follow_up_question: "你的增长天花板是什么？壁垒能否帮你突破天花板？"
-  - src_unknown
-    framework_lens: 从增长到壁垒——增长策略容易被复制，壁垒难以复制
+  - framework_lens: 从增长到壁垒——增长策略容易被复制，壁垒难以复制
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
-  - src_unknown
-    framework_lens: 从增长到壁垒——增长需要壁垒保护利润，否则陷入价格战
+  - framework_lens: 从增长到壁垒——增长需要壁垒保护利润，否则陷入价格战
     follow_up_question: "你的利润被什么侵蚀？有没有壁垒保护定价权？"
-  - src_unknown
-    framework_lens: 从增长到壁垒——增长和壁垒不是先后，而是同步建设
+  - framework_lens: 从增长到壁垒——增长和壁垒不是先后，而是同步建设
     follow_up_question: "你的增长是否在同时建设壁垒？哪些增长行为在积累壁垒？"
 
 ---

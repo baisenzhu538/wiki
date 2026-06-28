@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-smart-medicine-cabinet-failure-patterns-library
 title: 智能药柜失败模式案例库
 type: case
@@ -36,20 +37,15 @@ related:
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 diagnostic_signals:
-- src_unknown
-  framework_lens: 招商加盟骗局模式
+- framework_lens: 招商加盟骗局模式
   follow_up_question: 能否提供3个以上真实加盟商联系方式和近6个月分润流水？能否实地考察2个已运营点位？公司是否有被执行/限高记录？
-- src_unknown
-  framework_lens: SKU受限+政策合规风险
+- framework_lens: SKU受限+政策合规风险
   follow_up_question: 当地药监/医保部门书面确认的可售品类是什么？仅乙类OTC SKU下的收入上限能否覆盖固定成本？
-- src_unknown
-  framework_lens: 点位质量失败+O2O替代
+- framework_lens: 点位质量失败+O2O替代
   follow_up_question: 是否做过7天分时段人流计数？O2O配送时效和价格是否让药柜失去便利性优势？
-- src_unknown
-  framework_lens: 运营缺位
+- framework_lens: 运营缺位
   follow_up_question: 运维SLA书面承诺是什么？随机抽查3台已运营设备，库存/故障/清洁状态如何？
-- src_unknown
-  framework_lens: 商业模式结构性失败
+- framework_lens: 商业模式结构性失败
   follow_up_question: 用保守客单价和复购频次做敏感性测算，回本周期是多少？是否预留6-12个月运营资金？
 ---# 智能药柜失败模式案例库
 

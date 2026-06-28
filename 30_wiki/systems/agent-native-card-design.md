@@ -1,6 +1,7 @@
 ---
 
 
+
 id: agent-native-card-design
 title: Agent 原生知识卡设计规范 v2
 type: system
@@ -23,6 +24,7 @@ related:
 - [[graph-rag]]
 - [[yt-model-pan-product-36-strategies]]
 - [[yt-model-pan-product-aesthetic-toolkit]]
+---
 # Agent 原生知识卡设计规范 v2
 
 ## 定位
@@ -41,7 +43,8 @@ related:
 ## 未来接入点
 
 | 能力 | 当前状态 | 卡片设计预留 |
-|------|---------|------------|
+|
+---|---------|------------|
 | Graph RAG 索引 | 规划中 | frontmatter 图边（prerequisites/component_of/related/contradicts）构成可索引图 |
 | CLI 查询 | 规划中 | frontmatter 所有字段可通过 `kdo query --field=value` 检索 |
 | MCP Server | 规划中 | 卡片作为 MCP resource，frontmatter → resource metadata，body → resource content |

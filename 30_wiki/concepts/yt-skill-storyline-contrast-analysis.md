@@ -2,22 +2,19 @@
 
 
 
+
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 维度中立性 / 反偏见
+- framework_lens: 维度中立性 / 反偏见
   follow_up_question: 维度选择是否让用户偏好的对象天然得分更高？
-- src_unknown
-  framework_lens: 认知增益 / 意外发现
+- framework_lens: 认知增益 / 意外发现
   follow_up_question: 如果结果只是证实了已知结论，分析是否还有继续价值？
-- src_unknown
-  framework_lens: 可比性 / 语义一致性
+- framework_lens: 可比性 / 语义一致性
   follow_up_question: 当对象定义根本不同（如内容 vs 技术产出），是否仍强行比较？
-- src_unknown
-  framework_lens: 可审计性 / 组织政治
+- framework_lens: 可审计性 / 组织政治
   follow_up_question: 对比是否被用作 justify 已有决策的修辞武器？
 updated_at: '2026-06-16'
 author: unknown

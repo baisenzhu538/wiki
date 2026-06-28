@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 
@@ -51,6 +52,7 @@ related:
 - [[yt-product-ten-metrics]]
 - [[yt-demand-analysis-hiking-map]]
 - [[yt-model-product-core-metrics]]
+---
 # 产品内核修炼段位图
 
 > 来源：一堂五步法·解决方案篇 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md`（洪七公 OCR 整合） | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]
@@ -64,7 +66,8 @@ related:
 ### 六级进阶
 
 | 层级 | 修炼能力 | 常见问题 |
-|:---:|:---|:---|
+|:
+:|:---|:---|
 | L1 | 缺价值意识 | 不在乎价值、只谈产品愿景、价值非常模糊 |
 | L2 | 有价值意识 | 不断做加法、追求大而全、缺思考框架 |
 | L3 | 有最小意识 | 做减法但做不到位、最小化程度不够、定位模糊 |

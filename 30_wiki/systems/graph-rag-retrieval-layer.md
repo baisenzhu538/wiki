@@ -1,6 +1,7 @@
 ---
 
 
+
 title: Graph RAG 检索层技术说明
 author: 审查者欧阳锋
 role: 知识架构师 (Knowledge Architect)
@@ -27,13 +28,14 @@ related:
 - [[proposal-graph-rag-star-fix]]
 - [[graph-rag]]
 - [[kdo-watch-health-check-layer]]
+---
 # Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**
 > 黄药师于 2026-05-04 完成 MVP，全链路跑通，零 LLM 调用。
 > 本文件为后续 Agent 调用的接口规范。
 
----
+
 
 ## 零、整体架构（实际）
 

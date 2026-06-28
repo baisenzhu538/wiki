@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-user-perspective
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用户视角是外部证据
+- framework_lens: 用户视角是外部证据
   follow_up_question: 你这个判断如果让用户本人听，他会认同吗？
-- src_unknown
-  framework_lens: 用户视角 ≠ 用户说什么要什么
+- framework_lens: 用户视角 ≠ 用户说什么要什么
   follow_up_question: 用户要求的功能如果做了，会不会损害他的长期目标？
-- src_unknown
-  framework_lens: 用户视角需要制度化
+- framework_lens: 用户视角需要制度化
   follow_up_question: 最近一次方案评审中，有人专门从用户角度提出反对意见吗？
 updated_at: '2026-06-16'
 author: 老顽童

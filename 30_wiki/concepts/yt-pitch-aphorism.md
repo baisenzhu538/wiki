@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-aphorism
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 金句是观点的压缩包
+- framework_lens: 金句是观点的压缩包
   follow_up_question: 如果删掉这个金句，你想表达的核心观点会损失多少？
-- src_unknown
-  framework_lens: 金句是注意力的钉子
+- framework_lens: 金句是注意力的钉子
   follow_up_question: 这段内容里最适合放金句的位置在哪里？
-- src_unknown
-  framework_lens: 金句是可传播的锚点
+- framework_lens: 金句是可传播的锚点
   follow_up_question: 用户只记住这句话，能否代表你的整体立场？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -2,6 +2,7 @@
 
 
 
+
 id: model-quality-four-levels
 title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
 type: framework
@@ -34,11 +35,9 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 四层可信度标准
+- framework_lens: 四层可信度标准
   follow_up_question: 你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？
-- src_unknown
-  framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
+- framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
   follow_up_question: 你用的模型中了哪一条？最致命的是哪条？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）

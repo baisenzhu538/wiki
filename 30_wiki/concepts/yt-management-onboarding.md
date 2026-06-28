@@ -2,6 +2,7 @@
 
 
 
+
 title: 新人落地
 type: concept
 domain:
@@ -14,11 +15,9 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 放养式
+- framework_lens: 放养式
   follow_up_question: 新人入职第一周有没有明确的日程和对接人？如果没有，就是放养
-- src_unknown
-  framework_lens: 填鸭论
+- framework_lens: 填鸭论
   follow_up_question: 新人第一周结束后能记住多少培训内容？如果<30%，信息过载了
 updated_at: '2026-06-16'
 id: yt-management-onboarding

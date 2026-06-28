@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
@@ -44,17 +45,13 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 学习没有真实业务锚点
+- framework_lens: 学习没有真实业务锚点
   follow_up_question: 你最近一个月学的知识，有多少是在解决你真实业务中的具体问题？能否说出最近一次"因为学了某课而改变了某个业务动作"？
-- src_unknown
-  framework_lens: 缺少三轮检查 / 丝滑答案陷阱
+- framework_lens: 缺少三轮检查 / 丝滑答案陷阱
   follow_up_question: 你最近一次质疑 AI 答案的证据链，是从哪个具体事实开始的？如果没有，你凭什么相信它？
-- src_unknown
-  framework_lens: 消耗品没有转化为资产
+- framework_lens: 消耗品没有转化为资产
   follow_up_question: 你过去三个月沉淀了多少个可复用的 SOP、Skill 或检查清单？最近一次调用自己沉淀的工具是什么时候？
-- src_unknown
-  framework_lens: 缺少知识库 / Skill 化基建
+- framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
 ---
 # 半肥猫 AI 学习落地方法论

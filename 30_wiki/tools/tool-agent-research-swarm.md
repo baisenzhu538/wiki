@@ -23,10 +23,11 @@ related:
   - "[[tool-agent-research-supervisor]]"
   - "[[tool-agent-research-pipeline]]"
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-reviewer: "欧阳锋"
+status: reviewed
+reviewed_by: 欧阳锋
 review_date: "2026-06-28"
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"
 ---

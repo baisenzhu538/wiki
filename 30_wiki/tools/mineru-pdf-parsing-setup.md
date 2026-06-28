@@ -1,5 +1,6 @@
 ---
 
+
 id: mineru-pdf-parsing-setup
 title: MinerU (magic-pdf) PDF 解析工具安装与使用
 type: tool
@@ -27,8 +28,7 @@ tags:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: MinerU 安装检查
+  - framework_lens: MinerU 安装检查
     follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。
 ---
 # MinerU (magic-pdf) PDF 解析工具

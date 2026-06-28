@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
@@ -44,14 +45,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 提示词工程的核心是迭代
+- framework_lens: 提示词工程的核心是迭代
   follow_up_question: 你最近一次用几轮对话才把提示词调到可用？
-- src_unknown
-  framework_lens: 人与AI分工明确
+- framework_lens: 人与AI分工明确
   follow_up_question: 在这个任务中，哪些部分必须保留人类最终判断？
-- src_unknown
-  framework_lens: 提示词是工具箱
+- framework_lens: 提示词是工具箱
   follow_up_question: 这个任务更适合用哪个子工具？
 updated_at: '2026-06-16'
 author: 老顽童

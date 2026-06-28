@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -52,6 +53,7 @@ related:
 - [[yt-entrepreneur-industry-forecast]]
 - [[yt-concept-p-type-l-type]]
 - [[yt-prompt-engineering-andrew-ng]]
+---
 # 产品内核定义、迭代与验证方法论
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。产品内核是用户愿意选择你的**最小解决方案**，是商业模式中承上启下的关键环节。通过"定义→验证→迭代"闭环，解决关键转化率问题，支撑业务长期健康发展。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -156,7 +158,8 @@ Ries在《精益创业》中提出的"验证性偏误"（validation bias）挑�
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
-|------|---------|------|
+|
+---|---------|------|
 | 上游框架 | [[yt-entrepreneur-five-step-method]] | 五步法总纲，产品内核是第二步"解决方案"的核心 |
 | 上游工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，产品内核假设是核心假设之一 |
 | 下游工具 | [[yt-tool-product-core-canvas]] | 产品内核画布，实操层面的结构化工具 |

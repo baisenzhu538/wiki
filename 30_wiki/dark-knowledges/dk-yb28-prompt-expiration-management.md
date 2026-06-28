@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# 提示词有效期预期管理
+trust_level: low
+---
+
+# 提示词有效期预期管理
 
 ## 原始表述
 

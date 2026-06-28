@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-iceberg-triangle-modeling
 title: 冰山图/三角图建模法：从表象深挖结构与本质
 type: tool
@@ -37,14 +38,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: iceberg-visible-vs-hidden
+  - framework_lens: iceberg-visible-vs-hidden
     follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？
-  - src_unknown
-    framework_lens: triangle-oversimplification
+  - framework_lens: triangle-oversimplification
     follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
-  - src_unknown
-    framework_lens: iceberg-level-confusion
+  - framework_lens: iceberg-level-confusion
     follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
 ---
 # 冰山图/三角图建模法：从表象深挖结构与本质

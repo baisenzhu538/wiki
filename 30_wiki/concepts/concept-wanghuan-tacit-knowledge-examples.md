@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-wanghuan-tacit-knowledge-examples
 title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
@@ -20,14 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 diagnostic_signals:
-- src_unknown
-  lens: tacit-rule-gap
+- lens: tacit-rule-gap
   follow_up: 把"新人常犯的错误"和"高手的隐性判断"写成否定句补进 AI 业务档案
-- src_unknown
-  lens: context-specificity
+- lens: context-specificity
   follow_up: 在每个暗规则前加上"在我司/本行业，默认..."
-- src_unknown
-  lens: knowledge-trap
+- lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
 related:
   - src_unknown

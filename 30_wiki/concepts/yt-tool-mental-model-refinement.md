@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-mental-model-refinement
 component_of:
 - src_unknown
@@ -48,17 +49,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: PEAS / 模型完整性
+- framework_lens: PEAS / 模型完整性
   follow_up_question: 模型是否只有框架而没有验证标准？
-- src_unknown
-  framework_lens: 可验证性 / 刻意练习
+- framework_lens: 可验证性 / 刻意练习
   follow_up_question: 模型是'总结心得'还是经过预测-结果对比？
-- src_unknown
-  framework_lens: 边界意识 / 迭代
+- framework_lens: 边界意识 / 迭代
   follow_up_question: 模型失效时是否被归因为例外而非更新模型？
-- src_unknown
-  framework_lens: 体感 / 抽象风险
+- framework_lens: 体感 / 抽象风险
   follow_up_question: 没有体感的抽象模型是否导致战略误判？
 updated_at: '2026-06-16'
 author: 老顽童

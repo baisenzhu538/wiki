@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: concept-提升笔记阅读舒适度
@@ -33,20 +34,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 完整度≠舒适度
+- lens: 完整度≠舒适度
   follow_up: 完整度是底线，舒适度才是竞争力。一份完整但难读的笔记，价值远低于有选择地完整但极其易读的笔记
-- src_unknown
-  lens: 分层过度
+- lens: 分层过度
   follow_up: 2-3层为最佳，层少了理解不了，层多了也理解不了。分层是为了降低认知摩擦不是制造认知迷宫
-- src_unknown
-  lens: 视觉编码缺失
+- lens: 视觉编码缺失
   follow_up: 标黄(亮点)、标绿(课程延展)、标红(关键决策)，让内容重心与形式重心统一
-- src_unknown
-  lens: 可发现性缺失
+- lens: 可发现性缺失
   follow_up: 真正决定笔记是否被使用的是'可发现性'和'可提取性'，不是阅读舒适度。确保笔记出现在正确的时间地点
-- src_unknown
-  lens: 认知依赖
+- lens: 认知依赖
   follow_up: 颜色编码不是中立的信息组织，是权力的行使。适度使用，保留读者自主判断空间
 ---# 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 

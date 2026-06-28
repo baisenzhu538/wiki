@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
+  - framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
     follow_up_question: "你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？"
-  - src_unknown
-    framework_lens: 壁垒策略总纲——单一技术壁垒不够，需要多层次壁垒
+  - framework_lens: 壁垒策略总纲——单一技术壁垒不够，需要多层次壁垒
     follow_up_question: "除了技术，你还有什么壁垒？网络效应、品牌、数据、生态？"
-  - src_unknown
-    framework_lens: 壁垒策略总纲——壁垒可以帮助突破增长天花板
+  - framework_lens: 壁垒策略总纲——壁垒可以帮助突破增长天花板
     follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - src_unknown
-    framework_lens: 壁垒策略总纲——壁垒保护定价权，避免价格战
+  - framework_lens: 壁垒策略总纲——壁垒保护定价权，避免价格战
     follow_up_question: "你的壁垒是否足够强，让用户愿意付溢价？"
-  - src_unknown
-    framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
+  - framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
 ---

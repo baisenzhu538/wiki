@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -28,20 +29,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
+  - framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
     follow_up_question: "你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？"
-  - src_unknown
-    framework_lens: 五步法完整地图——需求是用户要什么，内核是你给什么
+  - framework_lens: 五步法完整地图——需求是用户要什么，内核是你给什么
     follow_up_question: "需求是用户的问题，内核是你的解决方案。需求验证了吗？内核验证了吗？"
-  - src_unknown
-    framework_lens: 五步法完整地图——商业模式是变现方式，增长是放大方式
+  - framework_lens: 五步法完整地图——商业模式是变现方式，增长是放大方式
     follow_up_question: "你的商业模式成立了吗？单元模型是否健康？增长策略是否匹配商业模式？"
-  - src_unknown
-    framework_lens: 五步法完整地图——第五步不是最后一步，是循环的开始
+  - framework_lens: 五步法完整地图——第五步不是最后一步，是循环的开始
     follow_up_question: "壁垒建设后，是否回到第一步寻找新的需求？五步法是一个循环。"
-  - src_unknown
-    framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
+  - framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
     follow_up_question: "你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。"
 
 ---

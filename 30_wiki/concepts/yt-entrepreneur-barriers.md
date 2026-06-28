@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -50,6 +51,7 @@ related:
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-opportunity-selection]]
 - [[yt-entrepreneur-business-growth]]
+---
 # 项目壁垒
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -102,7 +104,8 @@ Peter Thiel（"Zero to One"作者，PayPal联合创始人）的垄断论从另�
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 有商业模式 | 知道怎么赚钱 |
 | ✅ 愿意提前设计壁垒 | 不是做大再说 |
 | ✅ 有长期视角 | 愿意投入 |

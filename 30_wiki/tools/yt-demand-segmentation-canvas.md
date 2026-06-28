@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
+  - framework_lens: 需求分层画布——帮助从"所有人"聚焦到"第一批100个"
     follow_up_question: "用画布填一下：需求强度最高、获取最容易、付费意愿最强的用户是谁？"
-  - src_unknown
-    framework_lens: 需求分层画布——未分层导致功能分散
+  - framework_lens: 需求分层画布——未分层导致功能分散
     follow_up_question: "你的核心功能服务哪一层用户？这一层占多大比例？"
-  - src_unknown
-    framework_lens: 需求分层画布——获取了非核心用户
+  - framework_lens: 需求分层画布——获取了非核心用户
     follow_up_question: "流失用户属于哪一层？他们和你的核心用户层差异是什么？"
-  - src_unknown
-    framework_lens: 需求分层画布——功能应服务于特定层
+  - framework_lens: 需求分层画布——功能应服务于特定层
     follow_up_question: "这个功能主要服务哪一层用户？这一层的优先级是什么？"
-  - src_unknown
-    framework_lens: 需求分层画布——广度≠深度
+  - framework_lens: 需求分层画布——广度≠深度
     follow_up_question: "竞品服务哪一层？你们服务哪一层？哪一层的需求更痛？"
 
 ---

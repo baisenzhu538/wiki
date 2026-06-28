@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
@@ -38,11 +39,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 大脑外包——AI是磨刀石不是拐杖
+- framework_lens: 大脑外包——AI是磨刀石不是拐杖
   follow_up_question: 你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化
-- src_unknown
-  framework_lens: 另一极端——拒绝AI的能力放大
+- framework_lens: 另一极端——拒绝AI的能力放大
   follow_up_question: 你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？
 updated_at: '2026-06-16'
 author: 老顽童

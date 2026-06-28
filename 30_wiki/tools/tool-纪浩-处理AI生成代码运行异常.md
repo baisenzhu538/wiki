@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-处理AI生成代码运行异常
 title: 技能：处理AI生成代码运行异常
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 排查无头绪
+- lens: 排查无头绪
   follow_up: 先确认异常现象和复现路径。没有复现路径的问题无法修复
-- src_unknown
-  lens: 重复异常
+- lens: 重复异常
   follow_up: 检查提示词是否表达清晰，避免promote歧义。记录异常和修复方案到经验库
-- src_unknown
-  lens: 提示词歧义
+- lens: 提示词歧义
   follow_up: 人工Review提示词，用具体示例替代抽象描述。让AI复述理解确认
-- src_unknown
-  lens: 环境差异
+- lens: 环境差异
   follow_up: 排查环境差异（依赖版本、系统配置、权限等）。脚本化环境配置，确保一致性
-- src_unknown
-  lens: 经验不沉淀
+- lens: 经验不沉淀
   follow_up: 每次异常修复后记录到日志和经验库。沉淀的异常处理经验是宝贵资产
 ---# 技能：处理AI生成代码运行异常
 

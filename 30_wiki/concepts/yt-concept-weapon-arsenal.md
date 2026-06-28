@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
@@ -39,11 +40,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 武器库没有内化为调用能力——收藏≠掌握
+- framework_lens: 武器库没有内化为调用能力——收藏≠掌握
   follow_up_question: 你最近一次实战中主动调用了武器库中的哪一条？如果超过两周，说明没有建立调用习惯
-- src_unknown
-  framework_lens: 误用——武器库是即查即用，不是教材
+- framework_lens: 误用——武器库是即查即用，不是教材
   follow_up_question: 你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始
 updated_at: '2026-06-16'
 author: 老顽童

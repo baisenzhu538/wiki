@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -51,6 +52,7 @@ related:
 - [[yt-personal-inspiration-flash]]
 - [[yt-personal-ipo-learning]]
 - [[yt-personal-scientific-expression]]
+---
 # 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -58,7 +60,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 技能可以通过重复训练提升，且存在明确标准的领域 |
 | **适合** | 学习者能够获得及时、准确反馈的环境 |
 | **不适合** | 纯创意或需要大量灵感迸发的领域——过度结构化会抑制创新 |

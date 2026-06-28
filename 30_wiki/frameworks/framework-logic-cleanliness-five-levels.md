@@ -2,6 +2,7 @@
 
 
 
+
 id: framework-logic-cleanliness-five-levels
 title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 type: framework
@@ -38,14 +39,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 逻辑洁癖五段位
+- framework_lens: 逻辑洁癖五段位
   follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
-- src_unknown
-  framework_lens: 逻辑洁癖五段位
+- framework_lens: 逻辑洁癖五段位
   follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
-- src_unknown
-  framework_lens: 逻辑洁癖五段位
+- framework_lens: 逻辑洁癖五段位
   follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
 
 ---

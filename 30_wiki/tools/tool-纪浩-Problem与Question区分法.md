@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-Problem与Question区分法
 title: 技能：Problem与Question区分法（纪浩版）
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: token浪费
+- lens: token浪费
   follow_up: 每次向AI提问前3秒判断：这个问题解决后我的行为会改变吗？会=problem，不会=question
-- src_unknown
-  lens: 需求膨胀
+- lens: 需求膨胀
   follow_up: 四层验证不通过则不下场动手。Before-After不清晰、锚点不具体、受益人不明确、可解性不足=暂停
-- src_unknown
-  lens: 伪需求陷阱
+- lens: 伪需求陷阱
   follow_up: 四层验证是前置门禁，不是事后复盘。必须在动手前完成验证，不是做了才发现不对
-- src_unknown
-  lens: 伪装problem
+- lens: 伪装problem
   follow_up: 用before/after检验：能不能写出具体的before/after？写不出就是question，不要伪装
-- src_unknown
-  lens: 验证宽松
+- lens: 验证宽松
   follow_up: 四层验证必须严格：before/after可观察、锚点具体到时间地点、受益人可命名、可解性有因果链
 ---# 技能：Problem与Question区分法
 

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 无对标时的目标态构建
+- framework_lens: 无对标时的目标态构建
   follow_up_question: 这些画面是基于用户需求的，还是基于个人偏好的？
-- src_unknown
-  framework_lens: 创意在约束中才有价值
+- framework_lens: 创意在约束中才有价值
   follow_up_question: 如果预算减半、时间砍半，你想象的最佳体验还能保留哪些核心要素？
-- src_unknown
-  framework_lens: 想象是假设，不是结论
+- framework_lens: 想象是假设，不是结论
   follow_up_question: 你能设计一个最小实验让用户验证这个想象吗？
 updated_at: '2026-06-16'
 author: 老顽童

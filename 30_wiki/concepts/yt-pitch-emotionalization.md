@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-emotionalization
 component_of:
 - src_unknown
@@ -39,14 +40,11 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 情绪是具体工具
+- framework_lens: 情绪是具体工具
   follow_up_question: 这个内容到底想让用户感到什么？
-- src_unknown
-  framework_lens: 情绪需要锚点
+- framework_lens: 情绪需要锚点
   follow_up_question: 用户产生这个情绪后，会更有动力解决什么问题？
-- src_unknown
-  framework_lens: 情绪有伦理剂量
+- framework_lens: 情绪有伦理剂量
   follow_up_question: 如果我是用户，我会觉得被理解还是被利用？
 updated_at: '2026-06-16'
 author: 老顽童

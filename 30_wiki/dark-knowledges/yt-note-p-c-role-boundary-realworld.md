@@ -1,4 +1,6 @@
 ---
+
+
 domain:
 - learning-methodology
 id: yt-note-p-c-role-boundary-realworld
@@ -20,8 +22,8 @@ related:
 - [[dk-wanghuan-magic-defeats-magic]]
 - [[dk-modeling-ai-judgment-limit]]
 - [[tool-wanghuan-ai-dual-role-coach]]
+---
 - [[yt-skill-p-role-prompt-design]]
-
 
 # P/C 角色真实场景边界与切换条件（基于聊天记录案例）
 
@@ -61,7 +63,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 个人使用 AI 进行内容生产或深度诊断 |
 | ✅ 适合 | 已有明确输入完成度判断能力的用户 |
 | ✅ 适合 | 需要区分"思考过程"和"思考结果"的场景 |

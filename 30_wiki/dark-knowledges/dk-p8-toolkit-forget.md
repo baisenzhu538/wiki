@@ -1,4 +1,5 @@
 ---
+
 id: dk-p8-toolkit-forget
 title: P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 type: dk
@@ -34,7 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：新欧阳锋 session 启动后，遇到 OCR/图片处理需求，花大量时间调研方案、测试依赖、试图部署新工具。最后才想起来 vault 旁边 `C:\Users\Administrator\ocr-pipeline\` 已经部署了 PaddleOCR v5，且有 PowerShell 封装脚本。
@@ -97,7 +98,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 启动时不查武器库直接调研 | 新 session 启动后 10 分钟内开始调研已部署工具 | 启动 checklist 缺少 `.agent/toolkit.md` | 启动流程第一步：先读 `toolkit.md` 再决定是否需要新工具 |
 | 工具信息藏在巨型文档里 | 工具清单混在 CLAUDE.md 第 200+ 行，启动时不会被读到 | 未抽出独立的武器库文件 | 新建 `.agent/toolkit.md`，并从启动文档中移除冗余工具信息 |
 | 部署后不更新武器库 | toolkit.md 中没有最新部署工具的条目 | 缺少"部署即记录"的纪律 | 把"更新 toolkit.md"写进每次部署的完成定义（DoD） |

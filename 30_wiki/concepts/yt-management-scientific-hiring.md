@@ -2,6 +2,7 @@
 
 
 
+
 title: 科学招聘
 type: concept
 domain:
@@ -14,11 +15,9 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 非结构化
+- framework_lens: 非结构化
   follow_up_question: 你们的面试每个维度有评分标准吗？如果没有，招聘质量靠运气
-- src_unknown
-  framework_lens: 越快越好论
+- framework_lens: 越快越好论
   follow_up_question: 招错一个人的成本你算过吗？如果算过，不会急着随便招
 updated_at: '2026-06-16'
 id: yt-management-scientific-hiring

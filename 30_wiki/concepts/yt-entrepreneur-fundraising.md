@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -49,6 +50,7 @@ related:
 - [[yt-entrepreneur-industrial-production]]
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # 融资认知
 
 > 来源：一堂课程体系 | 阶段：增长阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -95,7 +97,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 有验证过的商业模式 | 不是纯想法 |
 | ✅ 有增长数据 | 能证明趋势 |
 | ✅ 知道融资用途 | 资金有明确去向 |

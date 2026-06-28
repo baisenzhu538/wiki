@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
+  - framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
     follow_up_question: "竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？"
-  - src_unknown
-    framework_lens: 进攻策略——进攻被挡需要评估进攻方式和资源
+  - framework_lens: 进攻策略——进攻被挡需要评估进攻方式和资源
     follow_up_question: "你的进攻方式是什么？资源是否足够？是否需要改变策略？"
-  - src_unknown
-    framework_lens: 进攻策略——进入新市场需要建立壁垒，否则容易被驱逐
+  - framework_lens: 进攻策略——进入新市场需要建立壁垒，否则容易被驱逐
     follow_up_question: "你进入新市场后，是否建立了壁垒？用户、数据、品牌？"
-  - src_unknown
-    framework_lens: 进攻策略——进攻需要评估ROI，不是盲目进攻
+  - framework_lens: 进攻策略——进攻需要评估ROI，不是盲目进攻
     follow_up_question: "你的进攻成本是多少？预期回报是多少？是否值得？"
-  - src_unknown
-    framework_lens: 进攻策略——竞品弱点需要深入分析
+  - framework_lens: 进攻策略——竞品弱点需要深入分析
     follow_up_question: "竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？"
 
 ---

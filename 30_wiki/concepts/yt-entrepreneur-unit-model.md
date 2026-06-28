@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-unit-model
 confidence: 0.8
 created_at: 2026-05-06
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 模型建立在空气上
+- framework_lens: 模型建立在空气上
   follow_up_question: 你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演
-- src_unknown
-  framework_lens: 模型脱离现实
+- framework_lens: 模型脱离现实
   follow_up_question: 按当前现金流，你还能活几个月？单元模型好但现金流断了也没用
-- src_unknown
-  framework_lens: 缺少杠杆敏感度分析
+- framework_lens: 缺少杠杆敏感度分析
   follow_up_question: 如果对LTV、CAC、留存率分别做±10%的灵敏度测试，哪个变量变动会让模型从成立变为不成立？
 author: 老顽童
 

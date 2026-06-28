@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
@@ -35,11 +36,9 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 迭代第二阶段——给SOP加SOP
+- framework_lens: 迭代第二阶段——给SOP加SOP
   follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
-- src_unknown
-  framework_lens: 迭代第三阶段——微颗粒度补丁
+- framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
 updated_at: '2026-06-16'
 ---# Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法

@@ -1,4 +1,5 @@
 ---
+
 id: dk-f6-cjk-skeleton-corruption
 title: F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 type: dk
@@ -36,7 +37,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug
   follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
-
+---
 ## 原始表述
 
 > **触发命令**：`kdo ingest`
@@ -78,7 +79,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适用 | 所有 CJK（中文、日文、韩文）内容的 ingest 场景 |
 | ❌ 不适用 | 纯英文内容：英文内容的骨架生成是正常的，不需要重写 |
 | 设计约束 | 当前 KDO 没有 CJK-aware 的 extractor，这是设计约束而非临时 bug，短期内不会自动消失 |

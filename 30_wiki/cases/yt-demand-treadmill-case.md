@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
+  - framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
     follow_up_question: "你的目标用户是'想健身的人'，还是'有特定健身场景的人'？"
-  - src_unknown
-    framework_lens: 跑步机案例——市场估算必须从用户场景出发
+  - framework_lens: 跑步机案例——市场估算必须从用户场景出发
     follow_up_question: "你能找到100个愿意明天就付费的用户吗？他们在哪里？"
-  - src_unknown
-    framework_lens: 跑步机案例——功能必须服务于核心需求
+  - framework_lens: 跑步机案例——功能必须服务于核心需求
     follow_up_question: "去掉所有非核心功能，你的产品还能解决用户的核心问题吗？"
-  - src_unknown
-    framework_lens: 跑步机案例——用户现在就在用某种方式健身
+  - framework_lens: 跑步机案例——用户现在就在用某种方式健身
     follow_up_question: "你的目标用户现在怎么健身？为什么现在的方式不够好？"
-  - src_unknown
-    framework_lens: 跑步机案例——价格不是唯一决策因素
+  - framework_lens: 跑步机案例——价格不是唯一决策因素
     follow_up_question: "用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？"
 
 ---

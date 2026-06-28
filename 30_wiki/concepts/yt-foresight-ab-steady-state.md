@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-foresight-ab-steady-state
 title: AB点稳态模型：行业预判的核心框架
 type: concept
@@ -37,11 +38,9 @@ wiki_refs:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 变化≠机会
+- framework_lens: 变化≠机会
   follow_up_question: 这个变化会改变行业价值链的哪个环节？你的切入点在哪里？
-- src_unknown
-  framework_lens: 只完成一半
+- framework_lens: 只完成一半
   follow_up_question: 变化后的行业新格局（稳态B）可能长什么样？
 updated_at: '2026-06-16'
 author: 老顽童

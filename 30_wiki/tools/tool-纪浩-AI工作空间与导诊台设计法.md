@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-AI工作空间与导诊台设计法
 title: 技能：AI工作空间与导诊台设计法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 知识混同
+- lens: 知识混同
   follow_up: 检查领域知识目录和系统自述文件是否分开，领域知识和项目本身无关
-- src_unknown
-  lens: 导诊台失效
+- lens: 导诊台失效
   follow_up: 导诊台只做'任务分类'不做'任务执行'，保持简洁，复杂路由用工作手册处理
-- src_unknown
-  lens: 经验沉睡
+- lens: 经验沉睡
   follow_up: 每次任务开始时把相关经验注入上下文，经验库的价值在'用'不在'存'
-- src_unknown
-  lens: 信息过载
+- lens: 信息过载
   follow_up: 遵守渐进式披露原则，每次对话只绕一个任务展开，按'导诊台→工作手册→经验库→领域知识'递进
-- src_unknown
-  lens: 结构膨胀
+- lens: 结构膨胀
   follow_up: 定期Review工作空间结构，合并重复模块，删除过时经验，保持结构精简
 ---
 # 技能：AI工作空间与导诊台设计法

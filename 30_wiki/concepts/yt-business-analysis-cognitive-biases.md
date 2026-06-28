@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -36,14 +37,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 框架被偏差绑架——五步法不能自动克服认知偏差
+- framework_lens: 框架被偏差绑架——五步法不能自动克服认知偏差
   follow_up_question: 如果这个结论最终被证明是错的，你会看到哪些证据？这些证据你认真找过吗？
-- src_unknown
-  framework_lens: 证实性偏差——分析成了自我证明
+- framework_lens: 证实性偏差——分析成了自我证明
   follow_up_question: 你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化
-- src_unknown
-  framework_lens: 群体确认偏差+过度自信叠加
+- framework_lens: 群体确认偏差+过度自信叠加
   follow_up_question: 这次讨论前是否要求每个人独立写判断？有没有指定"恶魔辩护人"专门挑刺？
 updated_at: '2026-06-17'
 author: 老顽童

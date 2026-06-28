@@ -1,4 +1,5 @@
 ---
+
 id: dk-c5-todo-false-positive
 title: C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 type: dk
@@ -28,7 +29,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
-
+---
 ## 原始表述/核心洞察
 
 > 正文中出现 `TODO` 字符串（如"TODOs"、"TODOable"）被误报为"有 TODO 占位符"。
@@ -67,7 +68,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 子串匹配误报 | 正文中 "TODOs"、"TODOable" 被标红 | 使用 `if "TODO" in line` 粗粒度匹配 | 改为 `"TODO:"` 精确匹配或正则边界 |
 | 边界假设错误 | 认为所有含 TODO 子串的都是占位符 | 未区分"指令占位符"与"普通词汇" | 建立"冒号+上下文"的判定标准 |
 | 修复后漏报真阳性 | 真正的 `TODO:` 占位符不再被捕获 | 过度收紧规则（如要求前后空格） | 用 `TODO:` 精确匹配保留对标准格式的召回 |

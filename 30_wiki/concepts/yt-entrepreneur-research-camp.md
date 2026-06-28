@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -45,6 +46,7 @@ related:
 - [[yt-model-ipo-learning-strategy]]
 - [[yt-model-liberate-thinking-layers]]
 - [[yt-personal-thinking-models]]
+---
 # 调研行动营：从调研认知到AI调研武器库
 
 > 来源：一堂调研行动营第0期口述（Truman）。[[yt-entrepreneur-research-cognition]] | [[yt-model-ipo-learning-strategy]] | [[一堂]]
@@ -58,7 +60,8 @@ related:
 ### 三轮学习设计
 
 | 轮次 | 内容 | 目标 |
-|------|------|------|
+|
+---|------|------|
 | **第一轮** | 调研认知篇 | 打通"什么是调研""为什么要调研" |
 | **第二轮** | AI实操篇 | 用AI工具做调研黑客五步曲 |
 | **第三轮** | 迭代篇（本节课） | 现场点评作业、升级方法论、完成万里长征最后一公里 |

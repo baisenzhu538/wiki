@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 商业模式画布——结构化梳理商业模式
+  - framework_lens: 商业模式画布——结构化梳理商业模式
     follow_up_question: "你能用商业模式画布的9个要素描述你的商业模式吗？"
-  - src_unknown
-    framework_lens: 商业模式画布——画布帮助发现矛盾
+  - framework_lens: 商业模式画布——画布帮助发现矛盾
     follow_up_question: "你的价值主张和客户群体匹配吗？收费方式和渠道匹配吗？"
-  - src_unknown
-    framework_lens: 商业模式画布——画布对齐团队认知
+  - framework_lens: 商业模式画布——画布对齐团队认知
     follow_up_question: "你们团队一起填过商业模式画布吗？每个人填的结果一致吗？"
-  - src_unknown
-    framework_lens: 商业模式画布——9个要素缺一不可
+  - framework_lens: 商业模式画布——9个要素缺一不可
     follow_up_question: "你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？"
-  - src_unknown
-    framework_lens: 商业模式画布——画布简化复杂商业模式
+  - framework_lens: 商业模式画布——画布简化复杂商业模式
     follow_up_question: "用画布的9个要素，每个要素写一句话，能描述清楚吗？"
 
 ---

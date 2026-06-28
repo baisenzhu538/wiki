@@ -1,4 +1,5 @@
 ---
+
 id: tool-cognitive-bias-12-check
 title: 技能：12种认知偏差完整自检
 type: tool
@@ -32,12 +33,13 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+---
 # 技能：12种认知偏差完整自检
 
 > **来源**：基于 master-cognitive-bias-checklist 框架提炼
 > **核心**：做重要决策前，用12个问题的"认知体检"扫描自己的大脑有没有bug。不是消除偏差，是"知道自己可能有偏差"。
 
----
+
 
 ## 原始表述
 > "vault里100+张卡每张都有外部攻击者，但攻击者散落在各处——没有一个地方让用户能'一次性'检查'我现在正在犯哪种偏差'。这张卡把散落的外部攻击者共性提炼为12种最常见偏差+自检问题+快速修复。"

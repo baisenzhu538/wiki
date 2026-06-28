@@ -1,4 +1,6 @@
 ---
+
+
 domain:
 - learning-methodology
 id: yt-note-three-level-evolution
@@ -20,8 +22,8 @@ related:
 - [[yt-management-team-knowledge]]
 - [[yt-note-ai-p-role-not-c-role]]
 - [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
+---
 - [[dk-note-rookie-disaster-veteran-heaven]]
-
 
 # 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 
@@ -32,7 +34,8 @@ related:
 这三级进化不是线性叠加，而是三次认知跃迁：
 
 | 阶段 | 核心动作 | 输入 | 输出 | 对应训练段位 |
-|:---|:---|:---|:---|:---|
+|:
+|:---|:---|:---|:---|
 | **碎片化** | 记录与捕获 | 零散信息、灵感、对话 | 原始素材池 | L1备忘 → L2整理 |
 | **结构化** | 整理与关联 | 原始素材 | 有逻辑框架的笔记 | L3协作 → L4内化 |
 | **体系化** | 建模与萃取 | 结构化笔记 | 可迁移的认知模型 | L5思考 → L6萃取 |

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
@@ -39,14 +40,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 前提不满足
+- framework_lens: 前提不满足
   follow_up_question: 你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？
-- src_unknown
-  framework_lens: 误解
+- framework_lens: 误解
   follow_up_question: 你听完课后输出的认知结构，比讲者原内容丰富了多少？
-- src_unknown
-  framework_lens: 输出结构不足
+- framework_lens: 输出结构不足
   follow_up_question: 你能否为当前主题找到至少2个非讲师来源的视角，并写一段50字的个人结论？
 updated_at: '2026-06-17'
 author: 老顽童

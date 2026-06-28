@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-five-step-validation
 title: 技能：聊问查测盘五步验证法
 type: tool
@@ -37,20 +38,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 聊缺失
+- lens: 聊缺失
   follow_up: 必须先做内部聊，用产品内核画布拉齐团队认知，再进入实验阶段
-- src_unknown
-  lens: 问的质量差
+- lens: 问的质量差
   follow_up: 问题必须指向具体行为和场景：最近一次用XX是什么场景、遇到什么问题、怎么解决的
-- src_unknown
-  lens: 测的成本失控
+- lens: 测的成本失控
   follow_up: 测试版本必须是最小可行，周期不超1-2周，成本不超过团队月薪10%
-- src_unknown
-  lens: 盘缺失
+- lens: 盘缺失
   follow_up: 每次测试后必须做结构化复盘，记录假设验证状态，盘的频率决定迭代速度
-- src_unknown
-  lens: 假负当真负
+- lens: 假负当真负
   follow_up: 区分产品价值验证和营销效果验证，是两件事
 ---
 # 技能：聊问查测盘五步验证法

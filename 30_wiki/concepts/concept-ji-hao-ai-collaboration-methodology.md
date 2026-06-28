@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-ji-hao-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
@@ -36,14 +37,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: L1 四要素验证缺失
+- framework_lens: L1 四要素验证缺失
   follow_up_question: 你能用一句话描述 Before-After 吗？受益人是谁？有没有真实锚点？
-- src_unknown
-  framework_lens: L2 Agent Workspace 不完整
+- framework_lens: L2 Agent Workspace 不完整
   follow_up_question: 你的领域知识、导诊台、工作手册、经验模式库、任务管理、日志是否都齐备？
-- src_unknown
-  framework_lens: L5 Skills Market 未建立
+- framework_lens: L5 Skills Market 未建立
   follow_up_question: 你的 Skill 描述是按 Agent 可自安装的方式写的，还是只给人看的说明？
 author: 纪浩
 reviewed_by: 欧阳锋

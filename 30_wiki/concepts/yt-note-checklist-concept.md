@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
@@ -45,17 +46,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 误解清单体
+- framework_lens: 误解清单体
   follow_up_question: 你的清单体笔记有没有帮助你重新组织理解和产生新洞察？
-- src_unknown
-  framework_lens: 形式主义
+- framework_lens: 形式主义
   follow_up_question: 你收藏了多少模板？最近一周实际用来加工了几个概念？
-- src_unknown
-  framework_lens: 检索失效
+- framework_lens: 检索失效
   follow_up_question: 你最近一次在真实决策中直接引用笔记里的哪一条？用了多久找到？
-- src_unknown
-  framework_lens: 形式消耗
+- framework_lens: 形式消耗
   follow_up_question: 你最近一次记笔记时，排版和写内容的时间比例是多少？
 updated_at: '2026-06-17'
 author: 老顽童

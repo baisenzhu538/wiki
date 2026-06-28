@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-revenue-is-customer-cost
 title: To B 收入本质 = 客户成本
 type: concept
@@ -42,14 +43,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨
+- framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨
   follow_up_question: 客户现在为解决这个问题每年花多少钱？这笔钱在他总成本中占多少？不花会怎样？
-- src_unknown
-  framework_lens: 业务天花板 = 单家专项成本 × 成本占有率 × 目标客户数量；行业规模大部分可能与你的服务无关
+- framework_lens: 业务天花板 = 单家专项成本 × 成本占有率 × 目标客户数量；行业规模大部分可能与你的服务无关
   follow_up_question: 你的收入到底来自客户哪一项专项成本？可触达的目标客户有多少家？
-- src_unknown
-  framework_lens: 成本占有率并非越高越好；高占比意味着进入客户核心成本区，需要更强信任与切换能力
+- framework_lens: 成本占有率并非越高越好；高占比意味着进入客户核心成本区，需要更强信任与切换能力
   follow_up_question: 客户省下的钱里，我们真能切走多少？客户信任度、合规风险和切换成本是否允许？
 
 ---

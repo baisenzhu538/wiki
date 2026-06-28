@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -44,6 +45,7 @@ related:
 - [[yt-panproduct-demand-user-perspective]]
 - [[yt-panproduct-demand-user-segmentation]]
 - [[ocr-truman的选择两条职业成长路线]]
+---
 # 楚门的选择：两条职业成长路线 X vs Y
 
 > 来源：Truman（许楚）的《楚门的选择：两条职业成长路线》。[[一堂]] | [[yt-model-truman-five-step-growth]] | [[yt-model-pan-product-36-strategies]]
@@ -53,7 +55,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意长期投入 | Y路线需要十年 |
 | ✅ 能判断自己当前基础 | 有自知之明 |
 | ✅ 理解两条路线代价 | 不后悔 |

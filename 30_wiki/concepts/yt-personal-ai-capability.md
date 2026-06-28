@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
@@ -47,14 +48,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 人机协同需要认知模型
+- framework_lens: 人机协同需要认知模型
   follow_up_question: 这个任务中，AI 最可能在哪一步出错？你如何发现？
-- src_unknown
-  framework_lens: 任务分解提升可控性
+- framework_lens: 任务分解提升可控性
   follow_up_question: 如果你把任务拆成3步，每一步的验收标准是什么？
-- src_unknown
-  framework_lens: AI 是副驾驶，不是机长
+- framework_lens: AI 是副驾驶，不是机长
   follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
 updated_at: '2026-06-16'
 author: 老顽童

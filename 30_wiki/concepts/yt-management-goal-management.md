@@ -2,6 +2,7 @@
 
 
 
+
 title: 目标管理
 type: concept
 domain:
@@ -12,23 +13,17 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 愿望即目标
+- framework_lens: 愿望即目标
   follow_up_question: 你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福。请把它改写成"到何时、把什么指标从X提升到Y"的形式。
-- src_unknown
-  framework_lens: 假装有目标
+- framework_lens: 假装有目标
   follow_up_question: 你上一次Review目标进展是什么时候？如果超过两周，目标管理已经失效。请立即锁定本周的双周Review时间。
-- src_unknown
-  framework_lens: KR完成 ≠ 目标达成 / 指标游戏
+- framework_lens: KR完成 ≠ 目标达成 / 指标游戏
   follow_up_question: 逐个KR问：这个数字的提升是否真的创造了用户/客户价值，还是只是数字变好看了？找出至少一个"完成但无真实价值"的KR。
-- src_unknown
-  framework_lens: 对齐 ≠ 拆解 / 目标与战略脱节
+- framework_lens: 对齐 ≠ 拆解 / 目标与战略脱节
   follow_up_question: 如果让基层员工自己写OKR，他们会写什么？与当前版本差别有多大？差别大说明没有真正对齐，需要开一次自下而上的OKR对齐会。
-- src_unknown
-  framework_lens: 复盘会开成批斗会/走过场
+- framework_lens: 复盘会开成批斗会/走过场
   follow_up_question: 上次复盘会，团队主动暴露了几个"我们不知道的事"或"我们错了的假设"？如果答案是0，复盘需要改成学习会三问。
-- src_unknown
-  framework_lens: 指标专政 / 目标与激励错位
+- framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
   - src_unknown

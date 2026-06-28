@@ -22,10 +22,11 @@ related:
   - "[[tool-red-team-analysis]]"
   - "[[tool-半肥猫-ai-research-validation]]"
   - "[[framework-yitang-18-strategy-cards]]"
-reviewer: "欧阳锋"
+status: reviewed
+reviewed_by: 欧阳锋
 review_date: "2026-06-28"
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: index
 title: index
 type: index
@@ -14,6 +15,7 @@ source_refs:
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+---
 # 案例库索引
 
 > 案例库是 KDO 知识工厂的"参考样本层"——agent 产出前先查类似案例，产出质量下限由案例标杆决定。
@@ -25,7 +27,8 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 ### Agent 基础设施
 
 | 案例 | 来源 | 一句话 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | [[case-ji-hao-skills-market]] | 纪浩 AI协作方法论 | 一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助下载 |
 | [[case-truman-ai-partner]] | Truman 清单体笔记课程 | Truman 用十年笔记封装 AI Partner——"约束即能力" |
 | [[case-纪浩-focus-prompt-design]] | 纪浩 真实项目 | 结构化 prompt 做产品设计——S1-S5 冻结到 S7 实现交接 |

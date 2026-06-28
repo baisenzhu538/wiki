@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-y-model
 confidence: 0.85
 created_at: 2026-05-17
@@ -44,30 +45,26 @@ type: framework
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
 - src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-- src_unknown
-  dimensions:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -83,14 +80,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 噪声问题——Y模型减少偏差但不减少噪声，框架内同一关键参数的估计值差异巨大
+- framework_lens: 噪声问题——Y模型减少偏差但不减少噪声，框架内同一关键参数的估计值差异巨大
   follow_up_question: 同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题
-- src_unknown
-  framework_lens: 框架覆盖边界——Y模型对不可通约的品味型决策失效
+- framework_lens: 框架覆盖边界——Y模型对不可通约的品味型决策失效
   follow_up_question: 这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者
-- src_unknown
-  framework_lens: 高度视角沦为事后叙事工具——Y模型要求决策时显式记录高度判断，否则无法证伪
+- framework_lens: 高度视角沦为事后叙事工具——Y模型要求决策时显式记录高度判断，否则无法证伪
   follow_up_question: 当前画布的高度区是否写明了'3年后回看会后悔吗'和'放弃的最佳替代方案是什么'？如果没有，补齐后再继续
 author: 老顽童
 ---# Y模型科学决策框架（广义ROI）

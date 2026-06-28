@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 免费增值模式——需要设计付费转化路径
+  - framework_lens: 免费增值模式——需要设计付费转化路径
     follow_up_question: "你的免费用户中，付费转化率是多少？转化路径设计了吗？"
-  - src_unknown
-    framework_lens: 免费增值模式——免费功能需要克制
+  - framework_lens: 免费增值模式——免费功能需要克制
     follow_up_question: "你的免费功能是否足够让用户感知价值，但又不足以满足全部需求？"
-  - src_unknown
-    framework_lens: 免费增值模式——免费获客需要明确的变现路径
+  - framework_lens: 免费增值模式——免费获客需要明确的变现路径
     follow_up_question: "你的免费获客后，变现路径是什么？付费转化策略设计了吗？"
-  - src_unknown
-    framework_lens: 免费增值模式——付费功能需要明确价值
+  - framework_lens: 免费增值模式——付费功能需要明确价值
     follow_up_question: "你的付费功能是否解决了用户的痛点？用户是否愿意为这些功能付费？"
-  - src_unknown
-    framework_lens: 免费增值模式——免费用户也有成本
+  - framework_lens: 免费增值模式——免费用户也有成本
     follow_up_question: "你的免费用户成本是多少？是否被付费用户覆盖？"
 
 ---

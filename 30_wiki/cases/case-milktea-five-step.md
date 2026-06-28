@@ -2,6 +2,7 @@
 
 
 
+
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -36,7 +37,7 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学创业之路
-
+---
 > 黄药师骨架 · 老顽童填内容
 
 ## 案例背景
@@ -152,7 +153,8 @@ trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学�
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
-|------|---------|------|
+|
+---|---------|------|
 | 上位方法论 | [[concept-一堂-hypothesis-driven-business-methodology]] | 本案例是一堂假设驱动方法论在线下门店业态中的完整应用，展示了从需求到壁垒的全流程 |
 | 下游工具 | [[concept-一堂-key-assumptions]] | 本案例的每一步都涉及关键假设验证，关键假设思维是本案例的核心方法论基础 |
 | 关联案例 | [[case-treadmill-demand-analysis]] | 跑步机案例展示了需求分析方法，本案例展示了五步法在线下业态中的完整应用 |

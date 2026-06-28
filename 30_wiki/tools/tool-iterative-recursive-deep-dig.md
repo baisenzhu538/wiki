@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-iterative-recursive-deep-dig
 title: 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 type: tool
@@ -35,14 +36,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 迭代递归深挖法——以推翻为目标的撞击实验
+- framework_lens: 迭代递归深挖法——以推翻为目标的撞击实验
   follow_up_question: 能否找到 2–3 个反例或专家，以“推翻这个模型”为目标做一次评审？
-- src_unknown
-  framework_lens: 喷—撞—改循环
+- framework_lens: 喷—撞—改循环
   follow_up_question: 能否按完整性、MECE、逻辑性、顺序性、清晰性、可验证性逐项挑错，每轮都指出具体缺陷？
-- src_unknown
-  framework_lens: 停止条件——喷无可喷、撞无可撞、改无可改
+- framework_lens: 停止条件——喷无可喷、撞无可撞、改无可改
   follow_up_question: 停止标准是“我当前能力上限找不到问题”，还是“客观上已无硬伤”？是否已记录边界和假设？
 ---
 

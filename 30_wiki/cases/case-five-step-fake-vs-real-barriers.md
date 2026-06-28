@@ -2,6 +2,7 @@
 
 
 
+
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
@@ -32,15 +33,12 @@ tags: []
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的
+- framework_lens: 用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的
   follow_up_question: 如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？
 bridges_to:
-- src_unknown
-  relation: applies_framework
+- relation: applies_framework
   description: 壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用
-- src_unknown
-  relation: extends_step
+- relation: extends_step
   description: 创业者壁垒认知的实操案例补充
 wiki_refs:
 - src_unknown

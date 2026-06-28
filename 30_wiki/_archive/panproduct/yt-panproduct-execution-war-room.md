@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-war-room
 component_of:
 - src_unknown
@@ -51,17 +52,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 聚焦是攻坚会的前提
+- framework_lens: 聚焦是攻坚会的前提
   follow_up_question: 这个问题能否用一句话描述？如果做不到，就不适合开攻坚会
-- src_unknown
-  framework_lens: 攻坚会是高强度协作，不是信息同步
+- framework_lens: 攻坚会是高强度协作，不是信息同步
   follow_up_question: 缺席的这个人是否会导致决策无法落地？
-- src_unknown
-  framework_lens: 攻坚会必须产出结论
+- framework_lens: 攻坚会必须产出结论
   follow_up_question: 如果会议超时仍未达成共识，谁来拍板？
-- src_unknown
-  framework_lens: 攻坚会必须以可执行四要素关闭
+- framework_lens: 攻坚会必须以可执行四要素关闭
   follow_up_question: 如果现在就要散会，这四要素中有几个还是空白？空白项是指定补充负责人，还是会议失败？
 updated_at: '2026-06-16'
 author: 老顽童

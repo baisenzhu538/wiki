@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-indonesia-insurance
 title: 踩坑：印尼寿险——场景错配。Situation变了，需求不存在
 type: dk
@@ -18,8 +19,7 @@ related:
 - [[dk-demand-pitfall-financial-literacy]]
 - [[dk-demand-pitfall-rural-5g]]
 - [[case-demand-indonesia-insurance]]
-
-
+---
 ## 原始表述
 
 > "中国模式复制到印尼→需求不成立。"——一堂五步法需求分析课程中，讲师分享的一个真实踩坑案例。
@@ -45,7 +45,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适合 | 跨市场复制产品/商业模式（出海、全球化） |
 | ✅ 适合 | USP 模型需求验证阶段 |
 | ✅ 适合 | 保险、金融、电商、SaaS 等强本地化行业 |

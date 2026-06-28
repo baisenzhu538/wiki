@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-canvas-weapon-library-modeling
 title: 画布/武器库建模法：把工具箱变成可快速调用的系统
 type: tool
@@ -21,23 +22,17 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.90
 diagnostic_signals:
-- src_unknown
-  framework_lens: 画布建模
+- framework_lens: 画布建模
   follow_up_question: 这个主题能否拆成 6–10 个必须同时考虑的维度？
-- src_unknown
-  framework_lens: 武器库建模
+- framework_lens: 武器库建模
   follow_up_question: 现有工具能否按场景/任务类型快速索引，30 秒内找到候选？
-- src_unknown
-  framework_lens: 武器库 + 场景选择器
+- framework_lens: 武器库 + 场景选择器
   follow_up_question: 工具的适用场景、输入、输出、难度是否都被写清楚了？
-- src_unknown
-  framework_lens: 画布/武器库
+- framework_lens: 画布/武器库
   follow_up_question: 这个主题是否已有标准画布或武器库可以直接复用？
-- src_unknown
-  framework_lens: 画布/武器库 → 行动转化
+- framework_lens: 画布/武器库 → 行动转化
   follow_up_question: 画布/武器库的产出是否链接到了具体决策、SOP 或检查清单？
-- src_unknown
-  framework_lens: 武器库迭代
+- framework_lens: 武器库迭代
   follow_up_question: 是否定期淘汰失效工具、合并重复工具、补充新场景？
 related:
   - src_unknown

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-task-product-system
 title: 王欢任务→产品→系统演进框架
 type: framework
@@ -36,17 +37,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: '任务层→产品层的跃迁信号'
+- lens: '任务层→产品层的跃迁信号'
   follow_up: '立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用'
-- src_unknown
-  lens: '演员思维固化'
+- lens: '演员思维固化'
   follow_up: '用导演视角重画流程：哪些环节由 AI 执行、哪些由人验收、标准是否书面化'
-- src_unknown
-  lens: '伪需求 / 低频痛点'
+- lens: '伪需求 / 低频痛点'
   follow_up: '回到任务层重新验证：这件事我每周都做吗？不做我会开心吗？'
-- src_unknown
-  lens: '系统层缺口'
+- lens: '系统层缺口'
   follow_up: '绘制数据流图，识别自动触发点与人工验收点，设计最小闭环'
 tags:
 - src_unknown

@@ -1,4 +1,5 @@
 ---
+
 id: tool-复盘推演法
 title: 技能：复盘推演法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 复而不盘
+- lens: 复而不盘
   follow_up: 复盘的价值在盘不在复，必须找到'因为X所以Y'的可复制因果逻辑
-- src_unknown
-  lens: 归因太浅
+- lens: 归因太浅
   follow_up: 没有找到可复制的因果链，停留在情绪层面而非认知层面
-- src_unknown
-  lens: 只复不推
+- lens: 只复不推
   follow_up: 推演的价值在'下周具体做什么'，必须产出具体行动清单
-- src_unknown
-  lens: 无验证闭环
+- lens: 无验证闭环
   follow_up: 没有检查的复盘等于没做，复盘必须形成'复盘→行动→验证→再复盘'的循环
-- src_unknown
-  lens: 成功忽视
+- lens: 成功忽视
   follow_up: 成功的因果链同样需要萃取，成功中的可复制因素往往比失败教训更有价值
 ---
 # 技能：复盘推演法

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - src_unknown
@@ -42,11 +43,9 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具选择困难
+- framework_lens: 工具选择困难
   follow_up_question: 你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌
-- src_unknown
-  framework_lens: 基础不牢
+- framework_lens: 基础不牢
   follow_up_question: 你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 title: 技能：将学习成果沉淀为 PRD 文档
 type: tool
@@ -34,14 +35,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 消耗品式学习
+- lens: 消耗品式学习
   follow_up: 在每次学习/对话产生阶段性成果时，让 AI 输出一份 PRD 结构备忘录
-- src_unknown
-  lens: 缺少产品化思维
+- lens: 缺少产品化思维
   follow_up: 用 PRD 五要素（问题、用户、场景、功能、边界）重检文档，删除流水账
-- src_unknown
-  lens: 能力未外化为资产
+- lens: 能力未外化为资产
   follow_up: 把个人 PRD 上传到共享知识库，并指定 1 名维护人和 review 周期
 pipeline:
 - src_unknown

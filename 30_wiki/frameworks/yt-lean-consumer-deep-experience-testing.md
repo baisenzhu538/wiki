@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
@@ -39,14 +40,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 表层反馈（一口测试）≠ 深层体验（完整消费周期）
+- framework_lens: 表层反馈（一口测试）≠ 深层体验（完整消费周期）
   follow_up_question: 测试中是否让用户在真实场景下完成整瓶/整份消费，并观察其停止节点与行为？
-- src_unknown
-  framework_lens: 用户嘴上说的需求≠ 场景中的真实需求
+- framework_lens: 用户嘴上说的需求≠ 场景中的真实需求
   follow_up_question: 这个痛点在用户的真实使用场景里是核心问题、次要问题，还是解决后会带来更多问题？
-- src_unknown
-  framework_lens: 缺少对照组，用户难以觉察自己的深层感受
+- framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
 
 ---

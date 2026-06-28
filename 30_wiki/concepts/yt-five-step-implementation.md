@@ -4,6 +4,7 @@
 
 
 
+
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -47,11 +48,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 落地阶段停滞
+- framework_lens: 落地阶段停滞
   follow_up_question: 你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版
-- src_unknown
-  framework_lens: 跳级
+- framework_lens: 跳级
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
 author: 老顽童

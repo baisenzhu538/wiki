@@ -1,4 +1,6 @@
 ---
+
+
 domain:
 - learning-methodology
 id: yt-note-ai-p-role-not-c-role
@@ -20,8 +22,8 @@ related:
 - [[dk-note-rookie-disaster-veteran-heaven]]
 - [[yt-note-five-levels-training]]
 - [[truman-ai-partner-design-analysis]]
+---
 - [[yt-note-three-level-evolution]]
-
 
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 
@@ -32,7 +34,8 @@ Truman的AI Partner（阿蕊老师）最反常识的设计选择，不是"用什
 **核心区别**：
 
 | 维度 | P角色（实践者/Practitioner） | C角色（顾问/Consultant） |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 做什么 | 直接干活 | 探讨、分析、建议 |
 | 说话风格 | 废话很少，代码语言 | 解释为什么、大段文字 |
 | 交互模式 | 接收→执行→交付 | 对话→分析→推荐 |

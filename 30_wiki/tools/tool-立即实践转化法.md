@@ -1,4 +1,5 @@
 ---
+
 id: tool-立即实践转化法
 title: 技能：立即实践转化法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 实践拖延
+- lens: 实践拖延
   follow_up: 立即实践的'立即'是今天，不是明天。48小时窗口关闭后，学习动量消失
-- src_unknown
-  lens: 实践过小
+- lens: 实践过小
   follow_up: 实践必须挑战舒适区，100%确定能做到的场景说明不够挑战，本质是在重复已知
-- src_unknown
-  lens: 实践无记录
+- lens: 实践无记录
   follow_up: 没有记录的实践等于没有发生。必须写'做了什么、结果如何、下次怎么调整'
-- src_unknown
-  lens: 实践一次就停
+- lens: 实践一次就停
   follow_up: 刻意练习要求长期大量高水平练习，不是一次。单次实践只能验证理解，不能形成技能
-- src_unknown
-  lens: 脑内实践
+- lens: 脑内实践
   follow_up: 实践必须产出可展示的结果（文档/产品/代码片段），脑内实践是自我欺骗
 ---
 # 技能：立即实践转化法

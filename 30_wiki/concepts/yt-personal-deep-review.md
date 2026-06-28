@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
@@ -57,14 +58,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 具体事件是复盘的锚
+- framework_lens: 具体事件是复盘的锚
   follow_up_question: 如果复盘只保留一个关键事件，你会选哪一个？
-- src_unknown
-  framework_lens: 冰山复盘模型
+- framework_lens: 冰山复盘模型
   follow_up_question: 这次事件背后的模式，在另外三个场景中是否也可能出现？
-- src_unknown
-  framework_lens: 复盘的价值在于改变未来行为
+- framework_lens: 复盘的价值在于改变未来行为
   follow_up_question: 上次深度复盘的行动项，现在完成了多少？
 updated_at: '2026-06-16'
 author: 老顽童

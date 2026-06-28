@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-multi-perspective
 component_of:
 - src_unknown
@@ -46,14 +47,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 产品设计是多主体博弈
+- framework_lens: 产品设计是多主体博弈
   follow_up_question: 这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？
-- src_unknown
-  framework_lens: 冲突是设计约束，不是噪声
+- framework_lens: 冲突是设计约束，不是噪声
   follow_up_question: 你最近一次的设计改动，是为了调和哪两个视角的冲突？
-- src_unknown
-  framework_lens: 多视角的价值在于合成
+- framework_lens: 多视角的价值在于合成
   follow_up_question: 如果只满足决策者的诉求，用户的体验会恶化到什么程度？
 updated_at: '2026-06-16'
 author: 老顽童

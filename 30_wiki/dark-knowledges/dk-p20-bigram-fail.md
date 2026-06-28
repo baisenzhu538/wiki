@@ -1,4 +1,5 @@
 ---
+
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dk
@@ -38,7 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外
   follow_up_question: 在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding# P-20：pre-screen bigram 匹配对中文文本完全失效
-
+---
 ## 原始表述
 
 > **症状**：tag-registry v1.1 的 `includes`/`excludes` 字段全是英文描述（如 "falsifiable knowledge claim, testable assertion"），但 KDO 的 chunk 90% 是中文。bigram 匹配跨语言完全失效，pre-screen 返回 0 candidates。
@@ -95,7 +96,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适合 | 规则/词典与目标文本语言不一致的跨语言预筛场景 |
 | ✅ 适合 | 需要解释为什么 pre-screen 对中文返回 0 candidates |
 | ❌ 不适合 | 纯英文语料与英文规则的匹配场景 |

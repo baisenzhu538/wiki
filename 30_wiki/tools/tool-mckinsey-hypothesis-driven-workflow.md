@@ -1,4 +1,5 @@
 ---
+
 id: tool-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
@@ -11,20 +12,16 @@ domain:
 - src_unknown
 - src_unknown
 bridges_to:
-- src_unknown
-  relation: provides_foundation_for
+- relation: provides_foundation_for
   description: 假设驱动工作流是三板斧的通用化底层框架
   context: 一堂三板斧聚焦创业场景的'做加法→做减法→快速验证'，此技能卡提供通用商业分析场景的假设驱动工作流
-- src_unknown
-  relation: applies_to
+- relation: applies_to
   description: 关键假设识别后，用此工作流进行系统化验证
   context: 一堂259工具帮你识别关键假设，此工作流帮你设计验证路径、执行验证实验、迭代修正假设
 diagnostic_signals:
-- src_unknown
-  framework_lens: 假设驱动工作流检查：调研是否围绕具体假设展开
+- framework_lens: 假设驱动工作流检查：调研是否围绕具体假设展开
   follow_up_question: 你最初要验证的假设是什么？调研中的每个问题是否直接服务于证实或证伪某个假设？
-- src_unknown
-  framework_lens: 假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准
+- framework_lens: 假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准
   follow_up_question: 如果这5个假设中只有1个是对的，哪个假设被证伪后会对你的决策产生最大影响？优先验证那个
 related:
 - src_unknown

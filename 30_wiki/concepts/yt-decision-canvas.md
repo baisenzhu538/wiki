@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-canvas
 component_of:
 - src_unknown
@@ -46,36 +47,31 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -90,14 +86,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 画布填了但决策没变——画布成了'填完存档'的文档，不是决策工具
+- framework_lens: 画布填了但决策没变——画布成了'填完存档'的文档，不是决策工具
   follow_up_question: 你上一次填画布的结论是什么？那个结论有没有被后续决策用到？如果没用，画布就是填了白填
-- src_unknown
-  framework_lens: 画布填了但决策没变——画布变成了'拖延决策'的借口
+- framework_lens: 画布填了但决策没变——画布变成了'拖延决策'的借口
   follow_up_question: 画布分析的结论是什么？如果用了这个结论做决策，最坏的结果是什么？如果最坏结果可以接受，为什么不敢拍板？
-- src_unknown
-  framework_lens: 定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经"算过"
+- framework_lens: 定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经"算过"
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
 ---# Y模型决策画布（一页纸工具）

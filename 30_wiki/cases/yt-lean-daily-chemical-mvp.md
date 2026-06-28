@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
@@ -51,14 +52,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 一堂五步法 / 关键假设拆解
+- framework_lens: 一堂五步法 / 关键假设拆解
   follow_up_question: 这个测试要回答的是需求假设、产品内核假设，还是商业模式假设？如果只能验证一个，最该验证哪一个？
-- src_unknown
-  framework_lens: 产品内核四要素 / 用户-场景-问题
+- framework_lens: 产品内核四要素 / 用户-场景-问题
   follow_up_question: 包装吸引的是哪类用户？他在什么具体场景下会因为包装而购买？这个卖点能否在货架上3秒内被理解？
-- src_unknown
-  framework_lens: 时光机理论 / 诚实调研
+- framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
 
 ---

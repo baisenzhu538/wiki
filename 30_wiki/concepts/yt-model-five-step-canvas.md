@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
@@ -41,11 +42,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 画布填成了清单但失去了焦点——六模块平均用力，没有识别出风险最大的假设
+- framework_lens: 画布填成了清单但失去了焦点——六模块平均用力，没有识别出风险最大的假设
   follow_up_question: 如果只能验证一个模块的假设，你选哪个？为什么？
-- src_unknown
-  framework_lens: 两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具
+- framework_lens: 两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
 trust_level: medium-high

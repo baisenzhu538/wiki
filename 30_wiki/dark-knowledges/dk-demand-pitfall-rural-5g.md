@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-rural-5g
 title: 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-strategy-05-positioning-trap]]
 - [[dk-demand-pitfall-financial-literacy]]
 - [[case-demand-rural-5g]]
-
+---
 # 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 
 ## 原始表述
@@ -60,7 +61,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 政策驱动市场评估 | ✅ 适用 | 区分政策推动和用户需求 |
 | 需求评估 | ✅ 适用 | 用市场视角而非政策视角 |
 | 创业机会判断 | ✅ 适用 | 避免"政策推动=市场存在"的误区 |

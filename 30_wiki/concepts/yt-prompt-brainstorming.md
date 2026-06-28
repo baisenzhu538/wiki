@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -45,6 +46,7 @@ related:
 - [[yt-prompt-iterative-prompting]]
 - [[yt-prompt-writing-workflow]]
 - [[yt-model-prompt-engineering]]
+---
 # AI 头脑风暴工作流
 
 > [[yt-model-prompt-engineering]] 的子工具。写作是 AI 最高频场景（24.5%），但头脑风暴（仅 3.9%）才是 AI 最强的用法。AI 应该用来拔高你的上限，而不是抬高你的下限。
@@ -52,7 +54,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 需要突破常规思路、探索新方案的问题 |
 | **适合** | 个人有独特资源或约束，AI可以帮忙组合 |
 | **不适合** | 问题已经有明确最优解——直接执行更高效 |

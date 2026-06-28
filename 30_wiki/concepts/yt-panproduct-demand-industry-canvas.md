@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-industry-canvas
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 行业分析需要可验证的事实基础
+- framework_lens: 行业分析需要可验证的事实基础
   follow_up_question: 这六步中哪一步的证据最弱？如果它错了，结论会怎样变化？
-- src_unknown
-  framework_lens: 行业分析服务于进入决策
+- framework_lens: 行业分析服务于进入决策
   follow_up_question: 根据画布结论，你是否应该进入、观望还是放弃？为什么？
-- src_unknown
-  framework_lens: 赛道边界大于直接竞品集合
+- framework_lens: 赛道边界大于直接竞品集合
   follow_up_question: 用户如果不选你，除了直接竞品还会怎么解决这个需求？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
 type: dk
@@ -43,7 +44,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 外部集成未被告知 `status` 字段的双重语义，按单一枚举解析必然报错
   follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）# C-2：Schema status 字段混用两个状态机→字段值互相污染
-
+---
 ## 原始表述
 
 > `status` 字段出现了 `enriched`（不在 schema 枚举 `draft/reviewed/stable/needs-review` 中），Architect 误判为"Schema 写了但没严格执行"。
@@ -83,7 +84,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | 适用于同时存在内容编译流与审批流程的项目 | 只有两条流水线共用字段名时才会触发此问题 |
 | 适用于所有读取 frontmatter/decision.yaml 的自动化脚本 | 脚本硬编码 `status` 判断时风险最高，必须按文件类型分支 |
 | 当前"加注释"方案是临时补丁，非根治 | 根治需要 schema 升级 + 全量数据迁移，成本较高 |

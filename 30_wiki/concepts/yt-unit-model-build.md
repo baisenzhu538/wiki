@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-unit-model-build
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -50,14 +51,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 参数可信度不足——模型结构越精确，参数误差扭曲越严重
+- framework_lens: 参数可信度不足——模型结构越精确，参数误差扭曲越严重
   follow_up_question: 哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？
-- src_unknown
-  framework_lens: 隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素
+- framework_lens: 隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素
   follow_up_question: 实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？
-- src_unknown
-  framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
+- framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
 

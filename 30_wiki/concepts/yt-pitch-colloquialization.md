@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-colloquialization
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 口语降低心理距离
+- framework_lens: 口语降低心理距离
   follow_up_question: 你把这段内容念给一个陌生人听，他会觉得你在聊天还是在演讲？
-- src_unknown
-  framework_lens: 口语的颗粒度更细
+- framework_lens: 口语的颗粒度更细
   follow_up_question: 这段话里有没有超过20个字还不喘气的句子？
-- src_unknown
-  framework_lens: 说人话 ≠ 说废话
+- framework_lens: 说人话 ≠ 说废话
   follow_up_question: 改成口语后，原意有没有被稀释或歪曲？
 updated_at: '2026-06-16'
 author: 老顽童

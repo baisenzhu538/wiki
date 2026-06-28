@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-aesthetic-pool
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 池子=可反复调用的参照系
+- framework_lens: 池子=可反复调用的参照系
   follow_up_question: 这些案例是否覆盖了不同价位、不同用户群体和不同技术路径？
-- src_unknown
-  framework_lens: 从素材到结构化参照系
+- framework_lens: 从素材到结构化参照系
   follow_up_question: 当你卡在'信息层级'问题时，能否只过滤出相关案例？
-- src_unknown
-  framework_lens: 池子的价值在于持续打磨
+- framework_lens: 池子的价值在于持续打磨
   follow_up_question: 上一次方案评审中，池子里的哪个案例直接促成了设计改动？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
@@ -40,17 +41,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
+- framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
   follow_up_question: 如果明天必须砍掉一半客户资源，哪类客户对今年业务目标的贡献度最大？为什么？
-- src_unknown
-  framework_lens: 忽略了行业集中度与自身业务属性的匹配；100 万家里能触达、能服务、愿付费的可能只有几十家。
+- framework_lens: 忽略了行业集中度与自身业务属性的匹配；100 万家里能触达、能服务、愿付费的可能只有几十家。
   follow_up_question: 这 100 万家客户中，符合我当前产品/服务能力且行业集中度允许我切入的有多少？
-- src_unknown
-  framework_lens: 业务目标（利润 vs 规模）与客户类型的匹配出现错配。
+- framework_lens: 业务目标（利润 vs 规模）与客户类型的匹配出现错配。
   follow_up_question: 我当前阶段到底是先要利润活下来，还是先要规模拿数据？哪类客户能同时满足这两个目标？
-- src_unknown
-  framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
+- framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
   follow_up_question: 如果明年目标从"新增 100 家客户"变成"毛利转正"，我的 S 类客户会变成哪一类？哪些旧 S 类需要降级或剥离？
 
 ---# To B 客户 SABC 自定义切分法

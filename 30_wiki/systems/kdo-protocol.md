@@ -1,6 +1,7 @@
 ---
 
 
+
 title: KDO Protocol — AI-Agent Operating Contract
 type: system
 status: draft
@@ -28,7 +29,7 @@ author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs: []
 confidence: 0.6# KDO Protocol — AI-Agent Operating Contract
-
+---
 ## Core Points
 
 1. **KDO Protocol 是为 AI Agent 设计的仓库操作契约**，目的是让 AI 在操作 Obsidian/KDO 知识库时，不再依赖隐性的文本约定，而是遵循显式的机器可读规则。
@@ -53,7 +54,7 @@ confidence: 0.6# KDO Protocol — AI-Agent Operating Contract
 - src_unknown
 - src_unknown
 
----
+
 
 ## Protocol Structure
 

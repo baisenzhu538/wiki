@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -48,6 +49,7 @@ related:
 - [[yt-prompt-iterative-prompting]]
 - [[yt-prompt-writing-workflow]]
 - [[yt-note-ai-human-division]]
+---
 # 反谄媚机制：让 AI 说真话
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 天生迎合使用者——这是预训练中"对人类友好"指令的产物，不是 bug 是 feature。反谄媚是创业者使用 AI 最关键的自我保护机制。
@@ -55,7 +57,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 创业者评估自己的项目、方案或数据时 |
 | **适合** | 需要避免认知泡泡、主动寻找坏消息的决策 |
 | **不适合** | 需要鼓励、情绪支持或创意发散的场景 |

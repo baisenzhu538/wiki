@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-pan-product-36-strategies
 component_of:
 - src_unknown
@@ -45,11 +46,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具没有内化
+- framework_lens: 工具没有内化
   follow_up_question: 你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏
-- src_unknown
-  framework_lens: 过度使用
+- framework_lens: 过度使用
   follow_up_question: 这个设计问题真的需要用到那么多工具吗？工具服务于问题
 updated_at: '2026-06-16'
 author: 老顽童

@@ -2,6 +2,7 @@
 
 
 
+
 title: 业务公式
 type: concept
 source_refs:
@@ -19,14 +20,11 @@ trust_level: high
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 无法量化
+- framework_lens: 无法量化
   follow_up_question: 你能用公式描述当前业务的核心驱动因素吗？如果不能，讨论都是拍脑袋
-- src_unknown
-  framework_lens: 静态公式
+- framework_lens: 静态公式
   follow_up_question: 你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时
-- src_unknown
-  framework_lens: 公式停在L1/L2科目层
+- framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
 related:
   - src_unknown

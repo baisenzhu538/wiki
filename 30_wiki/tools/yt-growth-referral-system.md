@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
+  - framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
     follow_up_question: "你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？"
-  - src_unknown
-    framework_lens: 推荐系统——推荐奖励需要设计双边激励
+  - framework_lens: 推荐系统——推荐奖励需要设计双边激励
     follow_up_question: "推荐者和被推荐者的激励是否平衡？激励是否足够有吸引力？"
-  - src_unknown
-    framework_lens: 推荐系统——推荐用户质量取决于推荐者质量
+  - framework_lens: 推荐系统——推荐用户质量取决于推荐者质量
     follow_up_question: "你的推荐者是谁？他们推荐的人是否匹配目标用户？"
-  - src_unknown
-    framework_lens: 推荐系统——推荐系统需要防作弊机制
+  - framework_lens: 推荐系统——推荐系统需要防作弊机制
     follow_up_question: "你有没有防作弊机制？如何识别虚假推荐？"
-  - src_unknown
-    framework_lens: 推荐系统——推荐成本需要低于CAC
+  - framework_lens: 推荐系统——推荐成本需要低于CAC
     follow_up_question: "你的推荐成本是多少？是否低于其他渠道的CAC？"
 
 ---

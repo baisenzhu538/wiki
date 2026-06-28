@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -51,17 +52,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 边界定义 / 最小经济单元
+- framework_lens: 边界定义 / 最小经济单元
   follow_up_question: 是否把总体收入/总用户当作单元模型？
-- src_unknown
-  framework_lens: 三维评估 / 商业可行性
+- framework_lens: 三维评估 / 商业可行性
   follow_up_question: 是否只看单点盈利而忽视规模化后的成本结构变化？
-- src_unknown
-  framework_lens: 证据 / 可验证性
+- framework_lens: 证据 / 可验证性
   follow_up_question: 转化率、留存率等数字是拍脑袋还是有数据支撑？
-- src_unknown
-  framework_lens: 阶段顺序 / 反脆弱
+- framework_lens: 阶段顺序 / 反脆弱
   follow_up_question: 是否在单元模型未跑通前就开始扩张？
 author: 老顽童
 

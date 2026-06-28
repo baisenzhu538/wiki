@@ -1,4 +1,5 @@
 ---
+
 id: dk-p6-session-resume-fail
 title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session
   ID
@@ -34,7 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：cc-connect 的 `work_dir` 和 `env.conf` 都已修正（→ wiki vault + DeepSeek），飞书发消息后 bot 返回空。日志显示 `is_resume=true`，紧接着 `exit status 1: No conversation found with session ID: cb687591...`。
@@ -91,7 +92,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 解法/预防措施 |
-|---|---|---|---|
+|
+|---|---|---|
 | 旧 session ID 指向已销毁的 Claude Code 进程 | `is_resume=true` 后 `No conversation found with session ID` | 服务重启杀掉了旧进程，但 session 文件仍保留旧 `agent_session_id` | 重启 cc-connect 前删除 `~/.cc-connect/sessions/<project>_<hash>.json` |
 | work_dir 修改后 resume 旧项目 session | 配置已修正，bot 仍返回空响应 | 旧 session 是在错误 work_dir 下创建的，新 work_dir 下无此 session | 改 work_dir 时同步清空 sessions 目录 |
 | 首次发消息触发静默失败 | 重启后长时间无日志，随后空响应 | WebSocket 处于僵尸状态，直到有新消息才尝试 resume 死 session | 重启后立即发测试消息验证；把 session 清理写进启动脚本 |

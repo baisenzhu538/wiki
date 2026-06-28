@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-b2b-b2c-hardware-content-testing
 title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
@@ -38,17 +39,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配
+- framework_lens: 四类业务的风险结构不同，测试范式必须分层匹配
   follow_up_question: 你的业务更偏向价值理性长决策（ToB）、感性冲动快转化（ToC）、高回退成本重投入（硬件），还是内核优先的创意产品（内容）？
-- src_unknown
-  framework_lens: ToB天然客户少、周期长，必须用里程碑测试把长周期拆成可验证的短节点
+- framework_lens: ToB天然客户少、周期长，必须用里程碑测试把长周期拆成可验证的短节点
   follow_up_question: 当前阶段能否用“是否愿意付费解决问题”或“是否真实感受到问题解决”作为停止条件？
-- src_unknown
-  framework_lens: 硬件应做三层嵌套测试，优先用软件/小程序/已有工具把需求和技术风险前移
+- framework_lens: 硬件应做三层嵌套测试，优先用软件/小程序/已有工具把需求和技术风险前移
   follow_up_question: 能不能不做硬件？能不能不做独立App？能不能不动开发借用现有工具？
-- src_unknown
-  framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
+- framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
 
 ---

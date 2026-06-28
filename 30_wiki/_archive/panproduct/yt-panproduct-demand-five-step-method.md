@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-five-step-method
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: To B商业成败取决于假设质量，而角色分离是需求误判的第一诱因
+- framework_lens: To B商业成败取决于假设质量，而角色分离是需求误判的第一诱因
   follow_up_question: 哪一步的假设如果错了，会让整个项目迅速失败？如果使用者喜欢但决策者不买单，你的画布哪一格会首先变红？
-- src_unknown
-  framework_lens: 价值与增长的验证节奏不同，To B周期更长，错序投入的回款周期会放大损失
+- framework_lens: 价值与增长的验证节奏不同，To B周期更长，错序投入的回款周期会放大损失
   follow_up_question: 如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？当前自由现金流能否支撑这个节奏？
-- src_unknown
-  framework_lens: 画布是动态决策工具，不是一次性填写练习
+- framework_lens: 画布是动态决策工具，不是一次性填写练习
   follow_up_question: 填完画布后，团队是否据此取消或推迟过某个计划？画布最近一次更新是什么时候？
 updated_at: '2026-06-16'
 author: 老顽童

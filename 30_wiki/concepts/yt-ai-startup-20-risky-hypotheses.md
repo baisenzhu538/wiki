@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -46,6 +47,7 @@ related:
 - [[tool-月白-风格不变局部调整]]
 - [[yt-entrepreneur-business-growth]]
 - [[yt-entrepreneur-opportunity-selection]]
+---
 # AI创业20个高风险假设清单
 
 > 来源：一堂2025《重新理解人工智能》| 烧掉数亿元、几百个AI项目的关键假设总结 | [[yt-ai-trend-12-signals]] | [[yt-entrepreneur-key-hypotheses]]
@@ -61,7 +63,8 @@ related:
 #### 一、需求（4类姿势，6条假设）
 
 | 姿势 | # | 高风险假设 |
-|:---|:---:|:---|
+|:
+|:---:|:---|
 | 拆解不够细 | 1 | toC：专业用户数量少，大众用户不信任 |
 | | 2 | toB：大企业自研，中企业不舍得，小企业不需要 |
 | 没推演场景 | 3 | 纯AI概念工具，没有推演过用户使用场景 |

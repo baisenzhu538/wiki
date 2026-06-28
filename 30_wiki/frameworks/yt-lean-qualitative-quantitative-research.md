@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-qualitative-quantitative-research
 title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
@@ -38,14 +39,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同
+- framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，验证指标和最小样本量分别是什么？
-- src_unknown
-  framework_lens: 需求侧验证应先定性排除错误选项，待选项收窄、形态清晰后再进入定量；证伪优先于证实
+- framework_lens: 需求侧验证应先定性排除错误选项，待选项收窄、形态清晰后再进入定量；证伪优先于证实
   follow_up_question: 当前阶段你是在"排除错误选项"还是在"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
-- src_unknown
-  framework_lens: 产品内核验证必须锚定业务公式的核心节点；指标只有放在单元模型的核心转化率上才有统计意义
+- framework_lens: 产品内核验证必须锚定业务公式的核心节点；指标只有放在单元模型的核心转化率上才有统计意义
   follow_up_question: 这个指标如果变好，能否直接推导出单元模型成立？它对应业务公式中的哪一个核心转化率或复购率？
 
 ---

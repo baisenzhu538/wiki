@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -50,6 +51,7 @@ related:
 - [[yt-entrepreneur-growth-flywheel]]
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # 务实创业
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -96,7 +98,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意实事求是 | 面对现实 |
 | ✅ 能客观评估 | 不被情绪左右 |
 | ✅ 有行动勇气 | 愿意验证 |

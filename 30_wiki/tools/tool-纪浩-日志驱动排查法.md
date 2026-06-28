@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-日志驱动排查法
 title: 技能：日志驱动排查法
 type: tool
@@ -32,20 +33,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 被动日志
+- lens: 被动日志
   follow_up: 日志必须有定期审查的日历提醒，每周15-30分钟审查日志模式
-- src_unknown
-  lens: 日志粒度失衡
+- lens: 日志粒度失衡
   follow_up: 日志必须能在3分钟内读懂一次执行的核心信息。建立日志标准，控制粒度
-- src_unknown
-  lens: 任务脱钩
+- lens: 任务脱钩
   follow_up: 每条日志必须有明确的任务ID关联。日志是给人看的，不是给机器看的
-- src_unknown
-  lens: 成败偏置
+- lens: 成败偏置
   follow_up: 无论成败都必须生成日志。没有日志的执行等于没有发生过
-- src_unknown
-  lens: 信息孤岛
+- lens: 信息孤岛
   follow_up: 日志必须在团队可访问的位置。日志是事实沉淀，不是个人备忘录
 ---
 # 技能：日志驱动排查法

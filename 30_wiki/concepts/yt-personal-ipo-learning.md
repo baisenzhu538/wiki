@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
@@ -45,14 +46,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: IPO 是学习的完整循环
+- framework_lens: IPO 是学习的完整循环
   follow_up_question: 你最近的一次学习中，Output 是什么？
-- src_unknown
-  framework_lens: 输出深度反映内化程度
+- framework_lens: 输出深度反映内化程度
   follow_up_question: 你这次学习的输出，是复制原文还是自己的重构？
-- src_unknown
-  framework_lens: 学习是螺旋上升的闭环
+- framework_lens: 学习是螺旋上升的闭环
   follow_up_question: 上一次输出后，你根据反馈调整了哪些学习方法？
 updated_at: '2026-06-16'
 author: 老顽童

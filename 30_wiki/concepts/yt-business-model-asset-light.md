@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 轻资产模式——重资产模式现金流压力大，考虑轻资产
+  - framework_lens: 轻资产模式——重资产模式现金流压力大，考虑轻资产
     follow_up_question: "你的资产投入中，哪些可以外包或合作？轻资产模式是否可行？"
-  - src_unknown
-    framework_lens: 轻资产模式——自建vs外包，需要评估核心能力
+  - framework_lens: 轻资产模式——自建vs外包，需要评估核心能力
     follow_up_question: "自建工厂是你的核心能力吗？外包是否能降低成本和风险？"
-  - src_unknown
-    framework_lens: 轻资产模式——轻资产提升资产周转率
+  - framework_lens: 轻资产模式——轻资产提升资产周转率
     follow_up_question: "你的资产周转率是多少？轻资产模式能否提升？"
-  - src_unknown
-    framework_lens: 轻资产模式——轻资产需要强管理能力
+  - framework_lens: 轻资产模式——轻资产需要强管理能力
     follow_up_question: "轻资产模式的不稳定性来自哪里？管理能力是否匹配？"
-  - src_unknown
-    framework_lens: 轻资产模式——核心竞争力不在资产，应考虑轻资产
+  - framework_lens: 轻资产模式——核心竞争力不在资产，应考虑轻资产
     follow_up_question: "你的核心竞争力是什么？是资产、品牌、技术、还是运营？"
 
 ---

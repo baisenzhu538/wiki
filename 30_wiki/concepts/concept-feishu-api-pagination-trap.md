@@ -1,4 +1,5 @@
 ---
+
 id: concept-feishu-api-pagination-trap
 title: 飞书API分页陷阱——静默截断比报错更危险
 type: concept
@@ -18,8 +19,7 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: API分页遗漏——fetch_children没有has_more循环
+  - framework_lens: API分页遗漏——fetch_children没有has_more循环
     follow_up_question: "你的提取脚本在调用/blocks API后，检查了resp['data']['has_more']吗？"
 ---
 

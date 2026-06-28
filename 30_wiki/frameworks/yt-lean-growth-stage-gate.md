@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-growth-stage-gate
 title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
@@ -41,14 +42,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 指标脱离单元模型
+- framework_lens: 指标脱离单元模型
   follow_up_question: 这个总指标背后，单用户/单SKU/单订单模型是否成立？如果总增长来自补贴、异常大单或渠道补贴，放大后会怎么样？
-- src_unknown
-  framework_lens: 渠道验证缺失
+- framework_lens: 渠道验证缺失
   follow_up_question: 当前渠道的试错成本、ROI、天花板、团队能力匹配度是否已评估？有没有小样本的转化数据支撑？
-- src_unknown
-  framework_lens: 阶段判断错误
+- framework_lens: 阶段判断错误
   follow_up_question: 需求、产品、商业模式三类前置假设中，还有哪些是红灯？如果前置假设不成立，增长测试是不是在验证错误的问题？
 
 ---

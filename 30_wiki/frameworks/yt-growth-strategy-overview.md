@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
+  - framework_lens: 增长策略总纲——商业模式成立≠增长自动发生，需要设计增长策略
     follow_up_question: "你的增长策略是什么？获客、留存、变现的优化方向分别是什么？"
-  - src_unknown
-    framework_lens: 增长策略总纲——增长不是烧钱，而是优化增长飞轮
+  - framework_lens: 增长策略总纲——增长不是烧钱，而是优化增长飞轮
     follow_up_question: "你的增长飞轮是什么？每个环节的效率如何？有没有自增长机制？"
-  - src_unknown
-    framework_lens: 增长策略总纲——增长和优化需要同步，不是先后顺序
+  - framework_lens: 增长策略总纲——增长和优化需要同步，不是先后顺序
     follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - src_unknown
-    framework_lens: 增长策略总纲——增长停滞需要诊断瓶颈环节
+  - framework_lens: 增长策略总纲——增长停滞需要诊断瓶颈环节
     follow_up_question: "你的增长瓶颈在哪个环节？获客、激活、留存、变现、推荐？"
-  - src_unknown
-    framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
+  - framework_lens: 增长策略总纲——增长需要留存支撑，否则是漏斗漏水
     follow_up_question: "你的留存率是多少？用户流失的原因是什么？"
 
 ---

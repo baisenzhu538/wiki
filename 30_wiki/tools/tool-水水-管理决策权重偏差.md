@@ -1,4 +1,5 @@
 ---
+
 id: tool-水水-管理决策权重偏差
 title: 技能：管理决策权重偏差
 type: tool
@@ -35,20 +36,15 @@ pipeline:
 author: 老顽童
 trust_level: medium-high
 diagnostic_signals:
-- src_unknown
-  lens: 权重偏差
+- lens: 权重偏差
   follow_up: 执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准
-- src_unknown
-  lens: 分析替代直觉
+- lens: 分析替代直觉
   follow_up: 分析的价值不在替代直觉而在让直觉被充分检视，只要发现之前没看到的偏见就有价值
-- src_unknown
-  lens: 视角切换失败
+- lens: 视角切换失败
   follow_up: 第三次（十年后）时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权
-- src_unknown
-  lens: 因素遗漏
+- lens: 因素遗漏
   follow_up: 强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素
-- src_unknown
-  lens: 不可通约量化
+- lens: 不可通约量化
   follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
 ---# 技能：管理决策权重偏差
 

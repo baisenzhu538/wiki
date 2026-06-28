@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-scope-creep
@@ -38,6 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求蔓延——只加不减，产品臃肿
   follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？
+---
 # 需求蔓延：从MVP到全功能的陷阱
 
 ## 原始表述
@@ -49,7 +51,8 @@ diagnostic_signals:
 ## 使用场景
 
 | 适用场景 | 说明 |
-|:---|:---|
+|:
+|:---|
 | 新产品 MVP 设计 | 锁定最小功能集，防止开局就臃肿 |
 | 需求优先级排序 | 用减法测试筛掉衍生需求 |
 | 资源有限时的取舍 | 砍掉非核心，集中验证 |

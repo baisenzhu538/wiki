@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-hypothesis-validation-three-axe
 title: 技能：假设验证三板斧
 type: tool
@@ -38,20 +39,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 加法缺失
+- lens: 加法缺失
   follow_up: 用259工具逐层拆解业务全要素，确保没有漏网
-- src_unknown
-  lens: 减法排序错误
+- lens: 减法排序错误
   follow_up: 检查排序标准是否按前置性+风险而非个人关心度
-- src_unknown
-  lens: 验证成本失控
+- lens: 验证成本失控
   follow_up: 验证成本必须≤失败损失的1/10，用问卷/访谈/假产品替代完整产品
-- src_unknown
-  lens: 否定信号被忽略
+- lens: 否定信号被忽略
   follow_up: 前置假设被否定=业务需终止或重大调整，立即复盘
-- src_unknown
-  lens: 价值/增长假设混淆
+- lens: 价值/增长假设混淆
   follow_up: 先验证价值假设，再验证增长假设，顺序不可颠倒
 ---
 # 技能：假设验证三板斧

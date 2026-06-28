@@ -45,6 +45,8 @@ related:
 - [[case-gudong-tea-shop-foresight]]
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
+---
+
 # 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景

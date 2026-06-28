@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-真需求四要素验证法
 title: 技能：真需求四要素验证法
 type: tool
@@ -30,20 +31,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: Before模糊
+- lens: Before模糊
   follow_up: 必须用一句话说清楚解决前是什么样子，说不出来说明连问题现场都没看清
-- src_unknown
-  lens: After不可验证
+- lens: After不可验证
   follow_up: After必须有可量化或可视化的判断标准，模糊的'更好'无法验证效果
-- src_unknown
-  lens: 受益人虚化
+- lens: 受益人虚化
   follow_up: 受益人必须是能命名的具体人，不能是'所有人'或'未来的用户'
-- src_unknown
-  lens: 可解性虚假
+- lens: 可解性虚假
   follow_up: 因果链中每一环都需要具体的能力或资源支撑，'运气'或'希望'不算可解
-- src_unknown
-  lens: 验证逃避
+- lens: 验证逃避
   follow_up: 新手的验证工具是假设、调研、访谈、问AI、做实验。不做验证就动手是赌博
 ---
 # 技能：真需求四要素验证法

@@ -1,4 +1,5 @@
 ---
+
 id: tool-知识树存储记忆法
 title: 技能：知识树存储记忆法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 树种太细
+- lens: 树种太细
   follow_up: 树的价值在主干和枝干，不在叶子。必须提炼3-5个核心概念作为主干，碎片信息挂在枝干下
-- src_unknown
-  lens: 只存不取
+- lens: 只存不取
   follow_up: 存储是为了检索，不是为了好看。过去一周检索过0次的知识树是信息囤积
-- src_unknown
-  lens: 知识树不更新
+- lens: 知识树不更新
   follow_up: 知识树需要修剪和嫁接，定期删除不再相关的内容，有明确的'淘汰'记录
-- src_unknown
-  lens: 树根太浅
+- lens: 树根太浅
   follow_up: 树的高度取决于根的深度。不看笔记就说不清楚核心，说明那不是你的知识树
-- src_unknown
-  lens: 结构混乱
+- lens: 结构混乱
   follow_up: 任意一个枝干，10秒内能找到它的根（属于哪个主干）。结构混乱的知识树无法有效提取
 ---
 # 技能：知识树存储记忆法

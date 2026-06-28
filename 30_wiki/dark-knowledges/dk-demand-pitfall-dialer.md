@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-dialer
 title: 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-demand-pitfall-financial-literacy]]
 - [[dk-demand-pitfall-rural-5g]]
 - [[case-demand-dialer]]
-
+---
 # 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 
 ## 原始表述
@@ -63,7 +64,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 产品设计 | ✅ 适用 | 先定义核心任务（L3），再跳到方案（L6） |
 | 需求分析 | ✅ 适用 | 避免从需求直接跳到方案 |
 | 用户访谈 | ✅ 适用 | 先挖掘核心任务，再讨论方案 |

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 内核与边界——边界不清，资源分散
+  - framework_lens: 内核与边界——边界不清，资源分散
     follow_up_question: "你的产品边界是什么？什么坚决不做？"
-  - src_unknown
-    framework_lens: 内核与边界——边界被随意扩展
+  - framework_lens: 内核与边界——边界被随意扩展
     follow_up_question: "这个功能是否服务于内核？去掉它，内核是否还成立？"
-  - src_unknown
-    framework_lens: 内核与边界——边界被外部压力突破
+  - framework_lens: 内核与边界——边界被外部压力突破
     follow_up_question: "这个需求是否在你的产品边界内？如果不在，是扩展边界还是拒绝？"
-  - src_unknown
-    framework_lens: 内核与边界——团队边界共识缺失
+  - framework_lens: 内核与边界——团队边界共识缺失
     follow_up_question: "你们团队对'什么该做，什么不该做'有共识吗？写下来一致吗？"
-  - src_unknown
-    framework_lens: 内核与边界——边界被'试试看'突破
+  - framework_lens: 内核与边界——边界被'试试看'突破
     follow_up_question: "'试试看'的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？"
 
 ---

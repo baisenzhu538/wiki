@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -51,6 +52,7 @@ related:
 - [[yt-personal-time-management]]
 - [[yt-personal-inspiration-flash]]
 - [[yt-personal-scientific-expression]]
+---
 # 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -58,7 +60,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 重要公开演讲、汇报、课程讲授等关键表达场合 |
 | **适合** | 希望把表达从‘大概想说’提升到精确控制的人 |
 | **不适合** | 日常即兴交流——逐字稿会扼杀自然 |

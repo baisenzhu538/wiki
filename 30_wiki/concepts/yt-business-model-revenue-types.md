@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 收入模式——单一收入来源风险高，需要多元化
+  - framework_lens: 收入模式——单一收入来源风险高，需要多元化
     follow_up_question: "如果主要收入来源失效，你有备用收入来源吗？"
-  - src_unknown
-    framework_lens: 收入模式——广告模式需要巨大流量
+  - framework_lens: 收入模式——广告模式需要巨大流量
     follow_up_question: "你的流量规模是否足以支撑广告收入？广告收入和用户价值的匹配度如何？"
-  - src_unknown
-    framework_lens: 收入模式——免费到付费的转化路径需要设计
+  - framework_lens: 收入模式——免费到付费的转化路径需要设计
     follow_up_question: "免费用户转化为付费用户的比例是多少？转化路径设计了吗？"
-  - src_unknown
-    framework_lens: 收入模式——收入模式必须强化内核
+  - framework_lens: 收入模式——收入模式必须强化内核
     follow_up_question: "你的收入模式是否让用户更认可内核价值？还是削弱了？"
-  - src_unknown
-    framework_lens: 收入模式——需要系统化选择，不是随机尝试
+  - framework_lens: 收入模式——需要系统化选择，不是随机尝试
     follow_up_question: "你系统评估过每种收入模式与内核的匹配度吗？"
 
 ---

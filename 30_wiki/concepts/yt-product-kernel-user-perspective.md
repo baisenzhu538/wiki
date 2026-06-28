@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
+  - framework_lens: 用户视角 vs 产品视角——团队觉得好，用户不觉得
     follow_up_question: "用户实际使用这个功能的比例是多少？如果低，说明'好'是团队视角，不是用户视角。"
-  - src_unknown
-    framework_lens: 用户视角 vs 产品视角——资源投入在错误的地方
+  - framework_lens: 用户视角 vs 产品视角——资源投入在错误的地方
     follow_up_question: "这个功能在用户的使用频率中排第几？如果不在前3，为什么优先优化？"
-  - src_unknown
-    framework_lens: 用户视角 vs 产品视角——技术视角≠用户视角
+  - framework_lens: 用户视角 vs 产品视角——技术视角≠用户视角
     follow_up_question: "用户选择你们，是因为技术先进，还是因为解决了他们的问题？"
-  - src_unknown
-    framework_lens: 用户视角 vs 产品视角——用用户语言描述价值
+  - framework_lens: 用户视角 vs 产品视角——用用户语言描述价值
     follow_up_question: "你能用用户的话（不是技术术语）描述产品价值吗？"
-  - src_unknown
-    framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
+  - framework_lens: 用户视角 vs 产品视角——团队假设替代用户真实需求
     follow_up_question: "你们争论的是'用户需要什么'，还是'我们觉得用户需要什么'？"
 
 ---

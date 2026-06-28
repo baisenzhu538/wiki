@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -42,17 +43,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 缺少工程化标准和自我审计
+- framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 Skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- src_unknown
-  framework_lens: 把 AI 当作执行者而非协作者
+- framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 Skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
-- src_unknown
-  framework_lens: 缺少交叉验证和质量对标
+- framework_lens: 缺少交叉验证和质量对标
   follow_up_question: 你是否找过 1-2 份权威报告/优秀作品，从实用性、宽度、专业性三个维度给你的 Skill 打分？
-- src_unknown
-  framework_lens: 没有把指南转化为可复用资产
+- framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
 ---# 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
@@ -40,17 +41,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 缺少抽象阶梯的顶层收敛——还停留在罗列，没有完成"一横一纵"级的压缩
+- framework_lens: 缺少抽象阶梯的顶层收敛——还停留在罗列，没有完成"一横一纵"级的压缩
   follow_up_question: 你能不能用一个不超过 10 个字的结构（如一横一纵、四格天花板）把全部课题装进去？如果写不出，说明还没找到主干。
-- src_unknown
-  framework_lens: 分类标准未统一，框架的粒度/维度还没被团队共同"气顺"
+- framework_lens: 分类标准未统一，框架的粒度/维度还没被团队共同"气顺"
   follow_up_question: 你们团队是否对"每一条课程属于哪一类、为什么属于这一类"有过 ≥3 轮的对撞？
-- src_unknown
-  framework_lens: 生成式模型擅长表面分类，不擅长业务解释力判断
+- framework_lens: 生成式模型擅长表面分类，不擅长业务解释力判断
   follow_up_question: AI 出了几个版本？你手工写了几个版本？两者差距是否集中在"为什么这类课程必须放在一起"？
-- src_unknown
-  framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
+- framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
 ---# 案例：一堂个人地图的完整建模过程
 

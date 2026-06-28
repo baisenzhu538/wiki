@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-product-ten-metrics
 component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
@@ -36,14 +37,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 指标要与商业模式匹配
+- framework_lens: 指标要与商业模式匹配
   follow_up_question: 你的业务类型决定了哪几个指标最能反映内核健康？
-- src_unknown
-  framework_lens: 指标是趋势语言
+- framework_lens: 指标是趋势语言
   follow_up_question: 最近一个周期，哪个指标变化最大？原因是什么？
-- src_unknown
-  framework_lens: 指标驱动决策
+- framework_lens: 指标驱动决策
   follow_up_question: 如果复购率下降5%，你的标准应对流程是什么？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 id: tool-半肥猫-ai-research-validation
 title: AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
 type: tool
@@ -36,20 +37,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 丝滑陷阱
+- lens: 丝滑陷阱
   follow_up: 执行步骤4走偏检测：识别推理vs证据，用纠偏模板要求标注信源
-- src_unknown
-  lens: 验证缺失
+- lens: 验证缺失
   follow_up: 执行步骤6贴合真实场景：把结论放回业务验证，没有验证=空转
-- src_unknown
-  lens: 纠偏过度
+- lens: 纠偏过度
   follow_up: 检查步骤1目标是否过于宽泛，纠偏需要焦点，目标不清则无法收敛
-- src_unknown
-  lens: 纯推理无证据
+- lens: 纯推理无证据
   follow_up: 用纠偏模板：请用具体数据支撑，如果没有数据明确说'这是推理缺乏证据'
-- src_unknown
-  lens: 业务脱节
+- lens: 业务脱节
   follow_up: 检查是否有真实业务问题需要解答，没有真实问题=练习而非调研
 ---
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环

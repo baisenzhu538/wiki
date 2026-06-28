@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
@@ -46,11 +47,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI工具强但调研认知弱
+- framework_lens: AI工具强但调研认知弱
   follow_up_question: 这些结论中，哪些经过了至少两个独立来源的交叉验证？
-- src_unknown
-  framework_lens: 调研≠信息收集
+- framework_lens: 调研≠信息收集
   follow_up_question: 你收集的信息中，有多少转化为了可指导决策的洞察？
 updated_at: '2026-06-16'
 author: 老顽童

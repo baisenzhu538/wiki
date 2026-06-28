@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
+  - framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
     follow_up_question: "你的网络效应是同边、跨边、数据还是生态？强度如何？用户迁移成本多高？"
-  - src_unknown
-    framework_lens: 网络效应深度——跨边网络效应需要两边都足够多
+  - framework_lens: 网络效应深度——跨边网络效应需要两边都足够多
     follow_up_question: "你的平台两边是否都达到了临界规模？哪边是瓶颈？"
-  - src_unknown
-    framework_lens: 网络效应深度——数据网络效应需要数据能提升产品价值
+  - framework_lens: 网络效应深度——数据网络效应需要数据能提升产品价值
     follow_up_question: "你的数据是否用于优化产品？数据越多，产品是否越好？"
-  - src_unknown
-    framework_lens: 网络效应深度——生态网络效应需要用户真正使用生态
+  - framework_lens: 网络效应深度——生态网络效应需要用户真正使用生态
     follow_up_question: "你的生态中，用户使用了多少？生态的参与度如何？"
-  - src_unknown
-    framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
+  - framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
     follow_up_question: "你的网络效应在哪个维度？如何提升用户迁移成本？"
 
 ---

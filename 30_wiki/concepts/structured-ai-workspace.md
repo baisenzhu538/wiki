@@ -1,4 +1,5 @@
 ---
+
 id: structured-ai-workspace
 title: "结构化AI工作空间搭建"
 type: tool
@@ -31,20 +32,15 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "结构缺失"
+  - lens: "结构缺失"
     follow_up: "创建五大模块：系统自述、领域知识、Agent服务文档、任务管理、日志"
-  - src_unknown
-    lens: "上下文丢失"
+  - lens: "上下文丢失"
     follow_up: "检查是否有系统自述和领域知识模块，确保AI能快速了解项目背景"
-  - src_unknown
-    lens: "SOP缺失"
+  - lens: "SOP缺失"
     follow_up: "写一份SOP文档存入Agent服务文档，下次执行时不再需要解释"
-  - src_unknown
-    lens: "日志缺失"
+  - lens: "日志缺失"
     follow_up: "建立日志模板，要求AI每次执行后记录，任务状态可追溯"
-  - src_unknown
-    lens: "过度工程"
+  - lens: "过度工程"
     follow_up: "简化模块，只保留核心，维护成本必须小于节省的时间"
 ---# 结构化AI工作空间搭建
 

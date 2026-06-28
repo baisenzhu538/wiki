@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-review
 component_of:
 - src_unknown
@@ -42,8 +43,7 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -58,11 +58,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 外部化偏差——复盘变成了自我辩护，没有进入L4能力层
+- framework_lens: 外部化偏差——复盘变成了自我辩护，没有进入L4能力层
   follow_up_question: 如果当时信息确实不足，为什么我们没建立信息收集机制？这个能力缺失对应到谁、什么时候补上？
-- src_unknown
-  framework_lens: 迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点
+- framework_lens: 迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点
   follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
 author: 老顽童
 ---# 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

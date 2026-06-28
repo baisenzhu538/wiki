@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ai-judgment-human-responsibility
 title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 type: dk
@@ -21,8 +22,7 @@ related:
 - [[dk-truman-iteration-to-aesthetic-ceiling]]
 - [[dk-ai-judgment-programmer-paradox]]
 - [[dk-jh-llm-time-blindness]]
-
-
+---
 # 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 
 ## 原始表述
@@ -48,7 +48,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 需要承担后果的决策场景 |
 | ✅ 适合 | AI输出需要人类审核的关键节点 |
 | ✅ 适合 | 高风险、不可逆的业务决策 |

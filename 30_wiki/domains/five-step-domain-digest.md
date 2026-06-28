@@ -1,4 +1,5 @@
 ---
+
 id: five-step-domain-digest
 title: 域摘要：一堂五步法（80+张卡）
 type: index
@@ -24,11 +25,9 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 五步法总纲
+  - framework_lens: 五步法总纲
     follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
-  - src_unknown
-    framework_lens: 落地实操工具
+  - framework_lens: 落地实操工具
     follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
 ---
 

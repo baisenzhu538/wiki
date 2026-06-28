@@ -2,6 +2,7 @@
 
 
 
+
 id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
@@ -35,14 +36,11 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 diagnostic_signals:
-- src_unknown
-  framework_lens: ROI 宽度不足——只看见钱，没看见人被占用的时间
+- framework_lens: ROI 宽度不足——只看见钱，没看见人被占用的时间
   follow_up_question: 这个项目的隐性成本有哪些？如果按人日折算，教研/运营/项目管理各占多少？
-- src_unknown
-  framework_lens: 高度分析缺失——用短期营销视角替代长期品牌资产视角
+- framework_lens: 高度分析缺失——用短期营销视角替代长期品牌资产视角
   follow_up_question: 这个物料三年后还存在吗？每次产品迭代都需要重做，版本混乱的成本有多大？
-- src_unknown
-  framework_lens: 机会成本意识——小钱不等于低代价，关键看人日被占用后放弃了什么
+- framework_lens: 机会成本意识——小钱不等于低代价，关键看人日被占用后放弃了什么
   follow_up_question: 同样的人日投入，如果不做这个，能产出什么？那个替代选项的价值是否更高？
 tags:
 - src_unknown

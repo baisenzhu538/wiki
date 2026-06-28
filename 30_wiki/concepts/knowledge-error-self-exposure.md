@@ -1,4 +1,5 @@
 ---
+
 id: knowledge-error-self-exposure
 title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向"
 type: concept
@@ -28,20 +29,15 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "积累期错误"
+  - lens: "积累期错误"
     follow_up: "每次新输入后触发全库语义扫描，检测矛盾/冲突/互补关系，写入frontmatter标记"
-  - src_unknown
-    lens: "暴露期延迟"
+  - lens: "暴露期延迟"
     follow_up: "建立关联传播机制：卡片A被标记过时，引用A的B/C/D自动标记潜在问题"
-  - src_unknown
-    lens: "修复半径失控"
+  - lens: "修复半径失控"
     follow_up: "修复半径保持靶向：只标记/只修被矛盾检测命中的卡片，不触发全库重跑"
-  - src_unknown
-    lens: "复发期缺失"
+  - lens: "复发期缺失"
     follow_up: "矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊"
-  - src_unknown
-    lens: "全量重跑陷阱"
+  - lens: "全量重跑陷阱"
     follow_up: "增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖"
 ---
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

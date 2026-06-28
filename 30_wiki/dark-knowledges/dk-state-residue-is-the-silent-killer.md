@@ -1,4 +1,5 @@
 ---
+
 id: dk-state-residue-is-the-silent-killer
 title: 状态残留是自动化系统里最隐蔽的 bug
 type: dk
@@ -43,7 +44,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 僵尸/残留累积
   follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？# 状态残留是自动化系统里最隐蔽的 bug
-
+---
 ## 原始表述 / 核心洞察
 
 在第 27 节清理 master 系统暗知识时，同一类问题反复出现：
@@ -96,7 +97,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 修复方法 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | **环境变量残留** | 模型/endpoint 已经切换，但调用还是旧的 | 旧 env 未被覆盖或清理 | 每次执行前打印并校验关键 env |
 | **session 缓存身份** | tmux/screen 恢复后权限/配置不对 | session 文件里保存了旧身份 | 关键 session 不长期存活，重新登录重建 |
 | **token 本地过期** | 偶尔报 401/403，重新登录就好 | 缓存 token 未自动刷新 | 每次请求前校验 token 有效期 |

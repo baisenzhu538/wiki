@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 title: 技能：按语义切分文档做向量化
 type: tool
@@ -38,14 +39,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 切块元数据锚点缺失
+- lens: 切块元数据锚点缺失
   follow_up: 检查每块是否包含文章标题、YAML 标签、来源信息，确保 AI 能判断片段归属
-- src_unknown
-  lens: 切分粒度破坏语义完整性
+- lens: 切分粒度破坏语义完整性
   follow_up: 放弃固定字数切分，改为按语义主题切分，并抽样验证答案是否依赖完整上下文
-- src_unknown
-  lens: 缺乏检索质量监控
+- lens: 缺乏检索质量监控
   follow_up: 建立定期检索测试集，覆盖边界问题与负例，监控召回率与答案可用性
 ---
 # 技能：按语义切分文档做向量化

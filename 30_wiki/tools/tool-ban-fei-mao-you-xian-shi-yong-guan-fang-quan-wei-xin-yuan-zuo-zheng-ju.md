@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju
 title: 技能：优先使用官方权威信源做证据
 type: tool
@@ -36,14 +37,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 官方权威信源优先
+- lens: 官方权威信源优先
   follow_up: 明确要求AI优先使用政府/交易所/研究机构/企业官网等可核验信源，并排除自媒体与营销软文
-- src_unknown
-  lens: 信源纪律
+- lens: 信源纪律
   follow_up: 追问"这个数据/结论的来源是什么？发布机构？发布时间？原文链接？"
-- src_unknown
-  lens: 贴近真实业务场景
+- lens: 贴近真实业务场景
   follow_up: 要求补充中国地区、目标用户规模、行业真实案例等本地化权威数据
 ---
 # 技能：优先使用官方权威信源做证据

@@ -1,4 +1,5 @@
 ---
+
 id: concept-thousand-people-square
 title: "千人广场模型：一堂做课背后的统计建模理念"
 type: concept
@@ -30,17 +31,13 @@ tags:
   - src_unknown
 source_context: 单一source为完整长文档，内容充分支撑medium trust；待补充第二来源或充分验证后可升high
 diagnostic_signals:
-  - src_unknown
-    lens: "广场优先"
+  - lens: "广场优先"
     follow_up: "检查目标受众占比：是服务95%多数人还是5%少数人？"
-  - src_unknown
-    lens: "反例管理"
+  - lens: "反例管理"
     follow_up: "判断反例是否在广场边界内：在内→修正模型，在外→修正边界"
-  - src_unknown
-    lens: "边界缺失"
+  - lens: "边界缺失"
     follow_up: "明确画出问题边界：服务谁？不服务谁？"
-  - src_unknown
-    lens: "统计建模"
+  - lens: "统计建模"
     follow_up: "找5%已走过的人，提炼共性而非个案"
 ---# 千人广场模型：一堂做课背后的统计建模理念
 

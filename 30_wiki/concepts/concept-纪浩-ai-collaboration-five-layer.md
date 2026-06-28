@@ -1,4 +1,5 @@
 ---
+
 id: concept-纪浩-ai-collaboration-five-layer
 title: "概念：纪浩AI协作五层工作空间法"
 type: concept
@@ -37,20 +38,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "结构缺失"
+  - lens: "结构缺失"
     follow_up: "检查五类知识是否混在一起，按L1-L5分层，分开后结构才能自然长出来"
-  - src_unknown
-    lens: "渐进披露缺失"
+  - lens: "渐进披露缺失"
     follow_up: "使用渐进式披露流程：导诊台→工作手册→经验库→领域知识，逐层深入"
-  - src_unknown
-    lens: "L4管理失控"
+  - lens: "L4管理失控"
     follow_up: "L4任务管理需要状态管理和版本控制，快速增长的知识需独立管理"
-  - src_unknown
-    lens: "导诊台缺失"
+  - lens: "导诊台缺失"
     follow_up: "用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突"
-  - src_unknown
-    lens: "L3未沉淀"
+  - lens: "L3未沉淀"
     follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
 ---
 # 概念：纪浩AI协作五层工作空间法

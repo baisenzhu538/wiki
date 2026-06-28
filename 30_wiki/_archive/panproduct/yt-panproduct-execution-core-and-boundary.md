@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-core-and-boundary
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 内核是产品存在的根本价值
+- framework_lens: 内核是产品存在的根本价值
   follow_up_question: 如果去掉这个内核，产品还是同一个产品吗？
-- src_unknown
-  framework_lens: 边界是围绕内核的可协商区域
+- framework_lens: 边界是围绕内核的可协商区域
   follow_up_question: 这个功能如果做了，会强化、稀释还是模糊内核？
-- src_unknown
-  framework_lens: 内核提供决策优先级
+- framework_lens: 内核提供决策优先级
   follow_up_question: 过去一个月里，有哪次排期是依据内核做出的取舍？
 updated_at: '2026-06-16'
 author: 老顽童

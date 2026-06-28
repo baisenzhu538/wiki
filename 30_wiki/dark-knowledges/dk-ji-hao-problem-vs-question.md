@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ji-hao-problem-vs-question
 title: 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem
 type: dk
@@ -42,6 +43,7 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 伪需求加速
   follow_up_question: 有没有真实受益人和从头讲到尾的因果链？如果中间靠 AI 自己发挥，链是否断裂？
+---
 # 暗知识：Problem vs Question
 
 ## 原始表述
@@ -82,7 +84,8 @@ AI 时代的大部分人在用 AI 回答 Question（满足好奇心），而非�
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 评估是否要做某个 AI 工具/Agent | ✅ 适用 | 投入前先确认是 Problem 而非 Question |
 | 判断别人提出的"如果有一个 XX 功能就好了" | ✅ 适用 | 区分是好奇心（Question）还是真实痛点（Problem） |
 | 评估 AI 项目 ROI | ✅ 适用 | Question 的价值上限是"知道了"，Problem 的价值上限是"改变了" |

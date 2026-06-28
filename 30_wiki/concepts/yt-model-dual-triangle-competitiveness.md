@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
@@ -41,11 +42,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI三角强但人类三角弱——工具能力强不等于业务判断力强
+- framework_lens: AI三角强但人类三角弱——工具能力强不等于业务判断力强
   follow_up_question: 你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补
-- src_unknown
-  framework_lens: 人类三角强但AI三角弱——工具效率没有放大业务能力
+- framework_lens: 人类三角强但AI三角弱——工具效率没有放大业务能力
   follow_up_question: 你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补
 updated_at: '2026-06-16'
 author: 老顽童

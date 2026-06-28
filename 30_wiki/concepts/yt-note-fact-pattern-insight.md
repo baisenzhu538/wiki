@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
@@ -38,14 +39,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 认知加工分层：记录→归纳→迁移
+- framework_lens: 认知加工分层：记录→归纳→迁移
   follow_up_question: 如果删掉'见解'章节，读者能否根据你列出的事实和规律自己推导出结论？
-- src_unknown
-  framework_lens: 证据质量先于解释质量
+- framework_lens: 证据质量先于解释质量
   follow_up_question: 这些事实中有没有反例？如果存在反例，规律是否需要加上边界条件？
-- src_unknown
-  framework_lens: 见解必须产生行动或判断差异
+- framework_lens: 见解必须产生行动或判断差异
   follow_up_question: 如果这个见解是错误的，你会在什么观察出现后放弃它？
 updated_at: '2026-06-17'
 author: 老顽童

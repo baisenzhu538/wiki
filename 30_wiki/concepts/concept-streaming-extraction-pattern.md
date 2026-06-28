@@ -1,4 +1,5 @@
 ---
+
 id: concept-streaming-extraction-pattern
 title: 流式提取模式——浏览器虚拟滚动到API分页的映射
 type: concept
@@ -18,8 +19,7 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 流式提取——不一次全量加载，逐页处理
+  - framework_lens: 流式提取——不一次全量加载，逐页处理
     follow_up_question: "你的提取是一次性全部加载再处理，还是逐页流式处理？"
 ---
 

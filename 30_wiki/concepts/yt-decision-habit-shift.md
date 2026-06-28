@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-habit-shift
 component_of:
 - src_unknown
@@ -36,8 +37,7 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -52,11 +52,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 习惯转换失败——Y型不是知识而是肌肉记忆，知道分层标签不等于能在真实决策中自动调用
+- framework_lens: 习惯转换失败——Y型不是知识而是肌肉记忆，知道分层标签不等于能在真实决策中自动调用
   follow_up_question: 过去一周你做了多少个决策？其中有多少个你主动贴了L0-L4标签？如果<50%，说明分层意识还没变成习惯
-- src_unknown
-  framework_lens: 社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题
+- framework_lens: 社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题
   follow_up_question: 在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）
 author: 老顽童
 ---# X型→Y型决策者习惯诊断与转换

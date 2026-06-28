@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-product-kernel
 title: To B 产品内核：面向决策者研究付费，面向使用者夯实价值
 type: framework
@@ -40,14 +41,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
+- framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
   follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？
-- src_unknown
-  framework_lens: 产品内核面向使用者而非决策者设计；价值传导在决策层中断
+- framework_lens: 产品内核面向使用者而非决策者设计；价值传导在决策层中断
   follow_up_question: 决策者真正愿意付费的最小解决方案是什么？使用者价值能否被TA感知或量化？
-- src_unknown
-  framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
+- framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
   follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
 
 ---

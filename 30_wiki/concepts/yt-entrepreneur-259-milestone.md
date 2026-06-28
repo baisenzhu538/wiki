@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
@@ -46,11 +47,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 里程碑没有验证标准——259的核心是假设验证
+- framework_lens: 里程碑没有验证标准——259的核心是假设验证
   follow_up_question: 你的9个里程碑中，每个对应什么验证实验？什么结果算通过？
-- src_unknown
-  framework_lens: 割裂使用——259是一个整体系统
+- framework_lens: 割裂使用——259是一个整体系统
   follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
 updated_at: '2026-06-16'
 author: 老顽童

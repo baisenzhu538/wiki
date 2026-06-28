@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
@@ -47,11 +48,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: JTBD方法误用
+- framework_lens: JTBD方法误用
   follow_up_question: 用户在什么场景下要解决这个问题？他们现在用什么替代方案？
-- src_unknown
-  framework_lens: 样本偏差
+- framework_lens: 样本偏差
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
 author: 老顽童

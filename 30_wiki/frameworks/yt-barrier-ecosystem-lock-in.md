@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
+  - framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
     follow_up_question: "你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？"
-  - src_unknown
-    framework_lens: 生态锁定——生态丰富≠生态参与，需要提升生态参与度
+  - framework_lens: 生态锁定——生态丰富≠生态参与，需要提升生态参与度
     follow_up_question: "你的生态中，用户使用了多少功能？生态的参与度如何？"
-  - src_unknown
-    framework_lens: 生态锁定——生态难以复制，但需要时间积累
+  - framework_lens: 生态锁定——生态难以复制，但需要时间积累
     follow_up_question: "你的生态积累了多久？竞品的生态规模和你的差距多大？"
-  - src_unknown
-    framework_lens: 生态锁定——生态参与者需要持续收益，否则流失
+  - framework_lens: 生态锁定——生态参与者需要持续收益，否则流失
     follow_up_question: "你的生态参与者的收益模型是什么？收益是否可持续？"
-  - src_unknown
-    framework_lens: 生态锁定——生态建设需要种子用户和核心应用
+  - framework_lens: 生态锁定——生态建设需要种子用户和核心应用
     follow_up_question: "你的种子用户是谁？核心应用是什么？如何启动双边市场？"
 
 ---

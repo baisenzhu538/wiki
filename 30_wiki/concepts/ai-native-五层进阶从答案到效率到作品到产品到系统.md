@@ -1,6 +1,7 @@
 ---
 
 
+
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
@@ -35,20 +36,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: "工具瘾检测"
+- lens: "工具瘾检测"
   follow_up: "检查是否停留在L1/L2，需要推进到L3作品层"
-- src_unknown
-  lens: "产品边界判断"
+- lens: "产品边界判断"
   follow_up: "对照L4产品8条验收清单，找出缺失项"
-- src_unknown
-  lens: "系统失控信号"
+- lens: "系统失控信号"
   follow_up: "检查L5工程底座的校验和监控环节是否到位"
-- src_unknown
-  lens: "认知外包过度"
+- lens: "认知外包过度"
   follow_up: "评估L2口述依赖度，强制无AI练习比例"
-- src_unknown
-  lens: "标准化缺失"
+- lens: "标准化缺失"
   follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
 
 ---# AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

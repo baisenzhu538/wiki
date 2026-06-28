@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核指标——缺乏数据验证体系
+  - framework_lens: 产品内核指标——缺乏数据验证体系
     follow_up_question: "你的产品内核对应的关键指标是什么？当前数值是多少？"
-  - src_unknown
-    framework_lens: 产品内核指标——虚荣指标≠核心指标
+  - framework_lens: 产品内核指标——虚荣指标≠核心指标
     follow_up_question: "总用户数增长，但关键转化率下降，说明什么？"
-  - src_unknown
-    framework_lens: 产品内核指标——指标必须服务内核验证
+  - framework_lens: 产品内核指标——指标必须服务内核验证
     follow_up_question: "这个指标的变化，能说明内核假设是否成立吗？"
-  - src_unknown
-    framework_lens: 产品内核指标——指标过多导致注意力分散
+  - framework_lens: 产品内核指标——指标过多导致注意力分散
     follow_up_question: "如果只能看3个指标，你会选哪3个？为什么？"
-  - src_unknown
-    framework_lens: 产品内核指标——需要基准和目标
+  - framework_lens: 产品内核指标——需要基准和目标
     follow_up_question: "这个指标的基准值是多少？目标值是多少？差距原因是什么？"
 
 ---

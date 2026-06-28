@@ -1,4 +1,5 @@
 ---
+
 id: research_methodology
 created_at: 2026-05-03
 domain:
@@ -15,6 +16,7 @@ trust_level: medium-low
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md）
+---
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 
 ## Summary
@@ -66,7 +68,8 @@ source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/s
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |
-|------|-----------|---------|
+|
+---|-----------|---------|
 | 把调研报告当成绝对真理执行 | 调研报告是时间截面，技术/市场/组织在变 | 每次使用前先验证"这个结论现在还成立吗" |
 | 在无专业背景的情况下做出重大决策 | 调研报告是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
 

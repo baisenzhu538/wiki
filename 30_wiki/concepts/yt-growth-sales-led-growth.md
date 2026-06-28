@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
+  - framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
     follow_up_question: "你的客单价多少？销售周期多长？销售团队的人均产出是多少？"
-  - src_unknown
-    framework_lens: 销售驱动增长——销售效率需要系统化优化
+  - framework_lens: 销售驱动增长——销售效率需要系统化优化
     follow_up_question: "你的销售漏斗每个环节的转化率是多少？瓶颈在哪里？"
-  - src_unknown
-    framework_lens: 销售驱动增长——销售需要产品支撑，产品需要销售反馈
+  - framework_lens: 销售驱动增长——销售需要产品支撑，产品需要销售反馈
     follow_up_question: "销售反馈的产品需求是否进入了产品路线图？产品是否支撑销售承诺？"
-  - src_unknown
-    framework_lens: 销售驱动增长——关系销售不可规模化，需要系统化销售
+  - framework_lens: 销售驱动增长——关系销售不可规模化，需要系统化销售
     follow_up_question: "你的销售是否可复制？销售流程是否标准化？"
-  - src_unknown
-    framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
+  - framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
     follow_up_question: "你的销售CAC是多少？销售效率（人均产出）是多少？"
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-06-26
 type: framework
@@ -50,14 +51,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
+- framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？
-- src_unknown
-  framework_lens: 单元口径不统一——不同单元会呈现不同的"商业真相"
+- framework_lens: 单元口径不统一——不同单元会呈现不同的"商业真相"
   follow_up_question: 我们争论的是"哪个单元更本质"还是"哪个单元更容易算"？当前阶段最需要盯紧的是哪个？
-- src_unknown
-  framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
+- framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: tool-first-principles-assumption-classify
 title: 技能：假设分类法（第一性原理）
 type: tool
@@ -31,12 +32,13 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+---
 # 技能：假设分类法（第一性原理）
 
 > **来源**：基于 master-first-principles 框架提炼（Aristotle, Elon Musk）
 > **核心**：当你觉得"这个行业只能这么做"时，把假设拆成四类——物理定律、经济规律、人为约定、历史惯性。只有前两类不可打破。
 
----
+
 
 ## 原始表述
 > "传统航天公司说'火箭每公斤成本2万美元，因为历史就是这样'。马斯克说：'不问火箭怎么造，问把1公斤送到LEO轨道需要多少能量？'→用火箭方程算→材料成本只有火箭标价的2%→98%的成本来自一次性使用+低产量+多层供应商加价→让火箭可以重复使用。"

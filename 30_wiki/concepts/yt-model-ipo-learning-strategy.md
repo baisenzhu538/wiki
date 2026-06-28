@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
@@ -44,11 +45,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: IPO失衡——输入处理输出比例失调，学习变成囤积
+- framework_lens: IPO失衡——输入处理输出比例失调，学习变成囤积
   follow_up_question: 你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡
-- src_unknown
-  framework_lens: 反馈缺失——没有反馈的学习无法迭代
+- framework_lens: 反馈缺失——没有反馈的学习无法迭代
   follow_up_question: 你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习
 updated_at: '2026-06-16'
 author: 老顽童

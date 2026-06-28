@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-skill-market-agent-self-install
 title: "暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述"
 type: dk
@@ -45,7 +46,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
-
+---
 > 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。
 
 ## 原始表述
@@ -83,7 +84,8 @@ diagnostic_signals:
 ## 诊断信号
 
 | 信号 Signal | 透镜 Lens | 跟进 Follow-up |
-|:---|:---|:---|
+|:
+|:---|:---|
 | Skill 写给人看但 Agent 读不懂 | 受众错位——Skill 的消费者是 Agent | 拿一条 Skill 让 Agent 独立执行一次任务，测试能否跑通 |
 | 建 Skill 花 80% 时间写说明，20% 写协议 | 重心倒置——自描述的核心是协议 | 补齐输入约束、输出约束、评分规则、拒绝条件、边界声明 |
 | 一遇到问题就加更多文字描述 | 多描述 ≠ 更好的自描述——Agent 尊重规则 | 把模糊描述转化为显式结构化约束 |

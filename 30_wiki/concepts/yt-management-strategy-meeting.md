@@ -2,6 +2,7 @@
 
 
 
+
 title: 战略会
 type: concept
 domain:
@@ -13,11 +14,9 @@ status: draft
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 汇报大会论
+- framework_lens: 汇报大会论
   follow_up_question: 这次战略会有多少时间在讨论未来方向，多少时间在汇报过去成绩？
-- src_unknown
-  framework_lens: 开完就算了
+- framework_lens: 开完就算了
   follow_up_question: 战略会结束后72小时内有没有发出决策纪要和下一步行动？
 updated_at: '2026-06-16'
 id: yt-management-strategy-meeting

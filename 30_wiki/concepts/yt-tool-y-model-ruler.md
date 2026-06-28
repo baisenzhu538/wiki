@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-y-model-ruler
 component_of:
 - src_unknown
@@ -48,17 +49,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 因果规律 / 维度有效性
+- framework_lens: 因果规律 / 维度有效性
   follow_up_question: 评估维度是否覆盖了结果的真实驱动因素？
-- src_unknown
-  framework_lens: 可操作化 / 去模糊
+- framework_lens: 可操作化 / 去模糊
   follow_up_question: '''不错''''很好''等描述是否被替换为具体阈值？'
-- src_unknown
-  framework_lens: 风险管理 / 非线性
+- framework_lens: 风险管理 / 非线性
   follow_up_question: 总分最高但存在致命缺陷的选项是否仍被选中？
-- src_unknown
-  framework_lens: 系统配置 / 资源匹配
+- framework_lens: 系统配置 / 资源匹配
   follow_up_question: 均衡型与偏科型选项是否被差异化决策？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-tob-smart-park
 title: 案例：智慧园区项目复盘
 type: case
@@ -35,17 +36,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 商业模式 / 单元模型
+  - framework_lens: 商业模式 / 单元模型
     follow_up_question: 除了项目交付费，能否在合同中拆分出年度运营服务费、数据增值费或软件授权续费？
-  - src_unknown
-    framework_lens: 增长 / 渠道
+  - framework_lens: 增长 / 渠道
     follow_up_question: 标杆案例形成后，是否能在 30 天内输出可复制的方案模板、报价清单和交付 SOP？
-  - src_unknown
-    framework_lens: 壁垒
+  - framework_lens: 壁垒
     follow_up_question: 如何把项目经验沉淀为可复用的产品化能力，并转化为行业白皮书或运营数据资产？
-  - src_unknown
-    framework_lens: 现金流结构
+  - framework_lens: 现金流结构
     follow_up_question: 能否将付款节奏从"首付+尾款"改为"首付+年度服务费"，使收入曲线年金化？
 ---
 > 来源：一堂 ToB 五步法优秀作业合集，学员黄成有自述。案例中的项目细节为学员自述，需独立核实关键数据。

@@ -1,4 +1,5 @@
 ---
+
 id: prd-as-ai-instruction
 title: "PRD文档作为AI可执行指令"
 type: tool
@@ -32,17 +33,13 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "流程未固化"
+  - lens: "流程未固化"
     follow_up: "写一份1页纸的PRD，包含目标+约束+步骤，1小时内完成"
-  - src_unknown
-    lens: "标准缺失"
+  - lens: "标准缺失"
     follow_up: "把标准流程写成PRD，让所有人按PRD执行，执行结果一致率>80%"
-  - src_unknown
-    lens: "约束不足"
+  - lens: "约束不足"
     follow_up: "把预期流程写成PRD加载给AI，连续3次结果一致"
-  - src_unknown
-    lens: "边界不清"
+  - lens: "边界不清"
     follow_up: "检查PRD是否包含边界条件：什么时候停止、什么时候转交人类"
 ---# PRD文档作为AI可执行指令
 

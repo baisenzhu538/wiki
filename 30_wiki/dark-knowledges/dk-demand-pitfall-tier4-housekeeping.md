@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-tier4-housekeeping
 title: 踩坑：四线家政——天花板误判。普遍性高≠能做大
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-demand-pitfall-travel-agent]]
 - [[dk-demand-pitfall-financial-literacy]]
 - [[case-demand-tier4-housekeeping]]
-
+---
 # 踩坑：四线家政——天花板误判。普遍性高≠能做大
 
 ## 原始表述
@@ -59,7 +60,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 需求评估 | ✅ 适用 | 刚性维度必须细化到"愿意付多少钱" |
 | 市场进入决策 | ✅ 适用 | 评估天花板高度，避免进入低天花板市场 |
 | 定价策略 | ✅ 适用 | 考虑目标市场的支付意愿上限 |

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-014：准确率声明的测量口径不一致
-
+---
 ## 原始表述/核心洞察
 
 > **原始表述**：在 KDO 项目 failure-modes 中记录为 F-KDO-014——声称某个工具、流程或 AI Agent 的"准确率"时，没有明确测量方法。
@@ -81,7 +82,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 为什么危险 |
-|---|---|---|
+|
+|---|---|
 | 无测量方法的准确率声明 | "准确率 95%"但给不出数据集、公式、Gold Standard | 数字无法复现，决策建立在幻觉上 |
 | 跨版本/跨场景直接比较 | 不同数据集、配置、脚本得出的准确率放在一起比 | 看似在比较性能，实则在比较测量条件 |
 | Gold Standard 缺失 | 准确率来自"感觉"或小规模抽样 | 缺少可比对、可审计的客观基准 |

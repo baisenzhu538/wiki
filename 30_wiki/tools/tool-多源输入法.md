@@ -1,4 +1,5 @@
 ---
+
 id: tool-多源输入法
 title: 技能：多源输入法
 type: tool
@@ -35,20 +36,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 多源同质
+- lens: 多源同质
   follow_up: 检查来源异质性：书（体系）+论文（证据）+课程（实战）+AI（快速连接），至少覆盖2种不同媒介
-- src_unknown
-  lens: 被动输入
+- lens: 被动输入
   follow_up: 主动设计搜索策略和检索词，目标明确，主动搜索比被动推荐重要十倍
-- src_unknown
-  lens: 输入输出脱节
+- lens: 输入输出脱节
   follow_up: 维持输入输出正相关：每输入1小时至少产出1个输出物（笔记/复盘/行动）
-- src_unknown
-  lens: 信息矛盾
+- lens: 信息矛盾
   follow_up: 建立信息质量标准：官方来源>研究机构>专业媒体，自媒体和AIGC内容需验证
-- src_unknown
-  lens: 时间成本失控
+- lens: 时间成本失控
   follow_up: 时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉
 ---
 # 技能：多源输入法

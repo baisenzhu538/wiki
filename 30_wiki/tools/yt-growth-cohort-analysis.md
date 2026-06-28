@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
+  - framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
     follow_up_question: "哪个 cohort 的留存率下降？是新用户还是老用户？哪个渠道的用户？"
-  - src_unknown
-    framework_lens: 同期群分析——产品改动的影响需要对比 cohort
+  - framework_lens: 同期群分析——产品改动的影响需要对比 cohort
     follow_up_question: "改动前后的 cohort 留存曲线有变化吗？哪个 cohort 受影响最大？"
-  - src_unknown
-    framework_lens: 同期群分析——同期群分析把复杂行为结构化
+  - framework_lens: 同期群分析——同期群分析把复杂行为结构化
     follow_up_question: "你的用户按什么维度分群？注册时间、渠道、版本？"
-  - src_unknown
-    framework_lens: 同期群分析——同期群分析能揭示趋势和异常
+  - framework_lens: 同期群分析——同期群分析能揭示趋势和异常
     follow_up_question: "你的 cohort 留存曲线是什么形状？是改善还是恶化？"
-  - src_unknown
-    framework_lens: 同期群分析——按渠道分群，对比留存
+  - framework_lens: 同期群分析——按渠道分群，对比留存
     follow_up_question: "不同渠道的用户 cohort 留存曲线对比如何？"
 
 ---

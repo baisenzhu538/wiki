@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-good-tools
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具服务于任务
+- framework_lens: 工具服务于任务
   follow_up_question: 这个任务用现有工具能不能完成到80分？
-- src_unknown
-  framework_lens: 工具价值需要验证
+- framework_lens: 工具价值需要验证
   follow_up_question: 引入新工具后，哪个环节的速度或质量改善了？
-- src_unknown
-  framework_lens: 工具栈需要保鲜
+- framework_lens: 工具栈需要保鲜
   follow_up_question: 最近半年有没有停用某个工具？为什么？
 updated_at: '2026-06-16'
 author: 老顽童

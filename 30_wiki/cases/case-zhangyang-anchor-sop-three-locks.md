@@ -1,5 +1,6 @@
 ---
 
+
 id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
@@ -20,14 +21,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 给 SOP 加两层执行锁（督导 + 总品控督导）
+  - framework_lens: 给 SOP 加两层执行锁（督导 + 总品控督导）
     follow_up_question: 你的 SOP 每个关键节点有没有指定专人检查？检查者自己有没有被检查？
-  - src_unknown
-    framework_lens: 三层锁冗余设计
+  - framework_lens: 三层锁冗余设计
     follow_up_question: 执行者、督导、品控三个角色是否由不同人担任？还是同一人既执行又自查？
-  - src_unknown
-    framework_lens: SOP 检查机制独立化
+  - framework_lens: SOP 检查机制独立化
     follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
 related:
   - src_unknown

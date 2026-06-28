@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -26,17 +27,13 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 diagnostic_signals:
-- src_unknown
-  framework_lens: 流程建模
+- framework_lens: 流程建模
   follow_up_question: 这个任务是否每周/每月重复发生？失败的直接成本是什么？
-- src_unknown
-  framework_lens: SOP + 检查清单
+- framework_lens: SOP + 检查清单
   follow_up_question: 是否有一份新人不请教老人也能独立执行的步骤文档？
-- src_unknown
-  framework_lens: 给 SOP 加 SOP
+- framework_lens: 给 SOP 加 SOP
   follow_up_question: 是否给 SOP 配套了督导和品控两层锁？
-- src_unknown
-  framework_lens: SOP 颗粒度与场景化
+- framework_lens: SOP 颗粒度与场景化
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
   - src_unknown

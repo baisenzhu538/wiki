@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-spectrum-positioning
 title: 技能：光谱模型定位法
 type: tool
@@ -31,20 +32,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 小目标大做
+- lens: 小目标大做
   follow_up: 副业阶段的预判应该是'能不能做'，而非'怎么做大'。预判深度必须与阶段匹配
-- src_unknown
-  lens: 大目标小做
+- lens: 大目标小做
   follow_up: 上市阶段需要资本运作、法务合规、全国市场分析，不是单店营销策略。预判深度不足
-- src_unknown
-  lens: 能力错配
+- lens: 能力错配
   follow_up: 每次过渡前先检查组织能力是否配备。光谱模型不是进度条，是能力门槛
-- src_unknown
-  lens: 沉没成本
+- lens: 沉没成本
   follow_up: 每个阶段必须设定退出标准。光谱模型不是进度条，是能力门槛
-- src_unknown
-  lens: 过渡过快
+- lens: 过渡过快
   follow_up: 阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张
 ---
 # 技能：光谱模型定位法

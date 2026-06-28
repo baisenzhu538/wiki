@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-abstraction-yitang-models
 title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 type: case
@@ -43,14 +44,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 模型孤岛——组织内模型资产重复建设，缺少抽象归纳与共享机制
+- lens: 模型孤岛——组织内模型资产重复建设，缺少抽象归纳与共享机制
   follow_up: 先盘点各业务线已有模型，按形态（清单/SOP/雷达图/三角图/画布）归集，再判断哪些可以跨团队复用
-- src_unknown
-  lens: 模型可发现性差——模型只存在于老员工脑中或散落文档里，没有武器库索引
+- lens: 模型可发现性差——模型只存在于老员工脑中或散落文档里，没有武器库索引
   follow_up: 建立模型武器库索引，每个模型标注适用问题、边界、使用 checklist 和案例
-- src_unknown
-  lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
+- lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
   follow_up: 要求每次使用模型后输出"3条具体判断"和"1个下一步动作"，否则视为无效使用
 ---# 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 

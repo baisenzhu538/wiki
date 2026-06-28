@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ef-003-hand-soldering-bom-divergence
 title: 手焊板的隐性修改：原型调通了但量产就是不行
 type: dk
@@ -25,7 +26,7 @@ author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
-
+---
 # 手焊板的隐性修改：原型调通了但量产就是不行
 
 ## 原始表述
@@ -54,7 +55,8 @@ trust_level: medium
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 手焊原型转量产的外发打样阶段 |
 | ✅ 适合 | 多工程师协作的硬件项目交接 |
 | ✅ 适合 | 同一 BOM 多批次生产的验证场景 |

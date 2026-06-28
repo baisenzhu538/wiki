@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ji-hao-skills-market
 title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
 type: case
@@ -42,11 +43,9 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 伪需求 vs 真实问题：没有真实锚点的需求会无限放大
+- framework_lens: 伪需求 vs 真实问题：没有真实锚点的需求会无限放大
   follow_up_question: 能否列出最近一周 3 个因 zip 分发而产生实际损失的现场？如果列不出，先用四问法验证再动手。
-- src_unknown
-  framework_lens: Agent-facing 设计：元数据应让人"说清楚"后由 AI 补全，安装由 Agent 自动完成
+- framework_lens: Agent-facing 设计：元数据应让人"说清楚"后由 AI 补全，安装由 Agent 自动完成
   follow_up_question: 哪些字段可以让维护者口述/截图后由 AI 自动转成结构化元数据？安装步骤能否由 Agent 自己完成？
 ---
 # 案例：一堂内部 Skills 分发平台

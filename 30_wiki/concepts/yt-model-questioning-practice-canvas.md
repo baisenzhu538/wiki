@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -43,6 +44,7 @@ related:
 - [[ocr-一堂-个人修炼-提问刻意练习画布]]
 - [[yt-entrepreneur-research-camp]]
 - [[yt-model-ipo-learning-strategy]]
+---
 # 提问刻意练习提升画布 (By YITANG)
 
 > 来源：一堂《提问刻意练习提升画布》。[[一堂]] | [[yt-model-scientific-questioning-map]] | [[yt-personal-deliberate-practice]]
@@ -52,7 +54,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意刻意练习 | 不是只看 |
 | ✅ 有真实提问场景 | 能应用 |
 | ✅ 能接受反馈 | 有人指正 |

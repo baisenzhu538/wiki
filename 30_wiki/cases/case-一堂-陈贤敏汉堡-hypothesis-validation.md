@@ -2,6 +2,7 @@
 
 
 
+
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -52,14 +53,11 @@ reviewed_by: 黄药师
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 假设驱动 vs 愿望驱动
+- framework_lens: 假设驱动 vs 愿望驱动
   follow_up_question: 你计划中的前3家店，是为了验证假设还是为了"抢占风口"？如果第一家店数据不理想，你会停还是继续开？
-- src_unknown
-  framework_lens: 关键假设拆解
+- framework_lens: 关键假设拆解
   follow_up_question: 这个业务如果失败，最可能是因为哪2-3个前提不成立？每个前提有没有对应的最小验证实验？
-- src_unknown
-  framework_lens: 可迁移性检验
+- framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
 ---
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设

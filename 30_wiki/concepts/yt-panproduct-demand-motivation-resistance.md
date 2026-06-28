@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-motivation-resistance
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 转化率 = 动力 − 阻力 + 触点设计
+- framework_lens: 转化率 = 动力 − 阻力 + 触点设计
   follow_up_question: 如果只提升动力而不减少阻力，转化率上限在哪里？
-- src_unknown
-  framework_lens: 转化是旅程中的连续博弈
+- framework_lens: 转化是旅程中的连续博弈
   follow_up_question: 哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？
-- src_unknown
-  framework_lens: 诊断性指标优于结果性指标
+- framework_lens: 诊断性指标优于结果性指标
   follow_up_question: 转化率涨了，但你知道是动力提升还是阻力下降导致的吗？
 updated_at: '2026-06-16'
 author: 老顽童

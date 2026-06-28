@@ -2,6 +2,7 @@
 
 
 
+
 title: 财务入门
 type: concept
 domain:
@@ -14,14 +15,11 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 利润≠现金
+- framework_lens: 利润≠现金
   follow_up_question: 按当前烧钱速度，你的跑道还有几个月？如果<6个月，利润好看也没用
-- src_unknown
-  framework_lens: 外包论
+- framework_lens: 外包论
   follow_up_question: 你最近一次亲自看过三表并理解数字含义是什么时候？
-- src_unknown
-  framework_lens: 毛利率≠现金流/净利
+- framework_lens: 毛利率≠现金流/净利
   follow_up_question: 高毛利产品的现金回笼周期是多久？营销/研发/管理费用是否吃掉毛利？应收账款和库存是否占用现金？
 related:
   - src_unknown

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-truman-iteration-to-aesthetic-ceiling
 title: 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
 type: dk
@@ -21,8 +22,7 @@ related:
 - [[dk-jh-llm-time-blindness]]
 - [[dk-ai-judgment-human-responsibility]]
 - [[dk-ai-judgment-programmer-paradox]]
-
-
+---
 # 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
 
 ## 原始表述
@@ -48,7 +48,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 用户高频接触的核心产品元素 |
 | ✅ 适合 | 品牌差异化关键触点 |
 | ✅ 适合 | 长期产品的持续打磨 |

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-market-size-pitfalls
@@ -38,6 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 静态假设——市场是会变化的
   follow_up_question: 这个市场过去3年的增长率是多少？未来3年预计有多少新进入者？
+---
 # 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 
 ## 原始表述
@@ -49,7 +51,8 @@ diagnostic_signals:
 ## 使用场景
 
 | 适用场景 | 说明 |
-|:---|:---|
+|:
+|:---|
 | 创业融资 BP | 用 SOM 证明短期可行、TAM 证明长期空间 |
 | 新产品立项 | 结构化估算可触达市场，避免乐观偏差 |
 | 投资尽调 | 交叉验证创始人的市场数字 |

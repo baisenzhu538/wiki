@@ -1,5 +1,6 @@
 ---
 
+
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -49,17 +50,13 @@ reviewed_by: 老顽童
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: S1-S5 设计冻结缺少"不是什么"
+- framework_lens: S1-S5 设计冻结缺少"不是什么"
   follow_up_question: 你能否列出 3 条明确"不做"的决策？每条是否都有理由？
-- src_unknown
-  framework_lens: Explore / Experiment 未拆分
+- framework_lens: Explore / Experiment 未拆分
   follow_up_question: 这个任务是剪枝假设（Experiment）还是扩大边界（Explore）？二者思维模式不同，应否拆成两个 Capture Mode？
-- src_unknown
-  framework_lens: S1-S5 开放问题未封闭
+- framework_lens: S1-S5 开放问题未封闭
   follow_up_question: S1-S5 是否已签字？剩余问题是否已明确标为"进入 S6/S7 处理"而不是"现在再讨论"？
-- src_unknown
-  framework_lens: Migration Stop Point 硬门禁缺失
+- framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入 schema/data contract gate？
 ---
 

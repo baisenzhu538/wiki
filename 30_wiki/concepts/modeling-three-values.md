@@ -1,5 +1,6 @@
 ---
 
+
 id: modeling-three-values
 title: "建模的三重价值：确定性、框架性、迁移性"
 type: concept
@@ -26,20 +27,15 @@ tags:
   - src_unknown
 source_context: 单一source为完整长文档，内容充分支撑high trust。P1收尾时从high降为medium，待补充第二来源或充分验证后再升回high
 diagnostic_signals:
-  - src_unknown
-    lens: "确定性缺失"
+  - lens: "确定性缺失"
     follow_up: "检查是否有流程建模/SOP/清单，确保每次稳定产出"
-  - src_unknown
-    lens: "框架性缺失"
+  - lens: "框架性缺失"
     follow_up: "引入抽象建模/框架，让复杂问题有章法，抓住主动权"
-  - src_unknown
-    lens: "迁移性缺失"
+  - lens: "迁移性缺失"
     follow_up: "做本质建模，提炼跨领域规律，一次提炼多处复用"
-  - src_unknown
-    lens: "框架性不足"
+  - lens: "框架性不足"
     follow_up: "用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键"
-  - src_unknown
-    lens: "经验未沉淀"
+  - lens: "经验未沉淀"
     follow_up: "检查是否有本质建模输出，经验是否被提炼为可迁移模式"
 
 ---# 建模的三重价值：确定性、框架性、迁移性

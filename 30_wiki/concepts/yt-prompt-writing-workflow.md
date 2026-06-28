@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -45,6 +46,7 @@ related:
 - [[yt-note-ai-human-division]]
 - [[yt-prompt-iterative-prompting]]
 - [[yt-model-prompt-engineering]]
+---
 # AI 写作工作流：大纲→要点→全文
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 写作最高频（24.5%），但也是最容易出"看起来完整、实际上空洞"的垃圾的地方。正确的流程从大纲开始——大纲有杠杆效应。
@@ -52,7 +54,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 需要产出结构化长文（文章、报告、课程稿） |
 | **适合** | 作者有独特观点和素材，需要提高效率 |
 | **不适合** | 没有观点、素材和思考，期望AI出高质量原创内容 |

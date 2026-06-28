@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-scenario-selector-modeling
 title: 场景→工具选择器：根据需求快速匹配合适的建模工具
 type: tool
@@ -36,23 +37,17 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 场景→工具选择器
+- framework_lens: 场景→工具选择器
   follow_up_question: 你要解决的是筛选、分类、排序、诊断、设计还是执行问题？
-- src_unknown
-  framework_lens: 场景→工具选择器
+- framework_lens: 场景→工具选择器
   follow_up_question: 能否用一句话说明你要解决什么问题，以及有哪些可选对象或约束？
-- src_unknown
-  framework_lens: 场景→工具选择器
+- framework_lens: 场景→工具选择器
   follow_up_question: 你的重点是"评估多个选项"还是"按两个维度分类并配策略"？
-- src_unknown
-  framework_lens: 设计/规划 → 画布/武器库
+- framework_lens: 设计/规划 → 画布/武器库
   follow_up_question: 这个主题的关键维度是否已知？是否需要一个完整扫描框架？
-- src_unknown
-  framework_lens: 场景→工具选择器
+- framework_lens: 场景→工具选择器
   follow_up_question: 大家是否先对问题类型和前提条件（数据、共识、可干预性、ROI）达成了一致？
-- src_unknown
-  framework_lens: 场景→工具选择器
+- framework_lens: 场景→工具选择器
   follow_up_question: 你是因为这个工具顺手，还是因为它真的适合当前问题？
 ---
 # 场景→工具选择器：根据需求快速匹配合适的建模工具

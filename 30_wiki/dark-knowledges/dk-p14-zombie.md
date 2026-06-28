@@ -1,4 +1,5 @@
 ---
+
 id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dk
@@ -32,7 +33,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：PID 17916 `claude` 从 5月19日跑到今天（5天），CPU 仅 502 秒但可能烧了大量 API 费用。另外 PID 15540（hermes）从 5月16日跑了 8 天。80元账单不全是黄药师消耗。
@@ -96,7 +97,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 解法/预防措施 |
-|---|---|---|---|
+|
+|---|---|---|
 | Obsidian vault backup 反复唤醒 Claudian | 账单出现零星 API 调用，但找不到对应的高频会话；Obsidian 窗口只是最小化 | 自动 `git commit` 触发文件变更事件，Claude Code 被插件唤醒处理 diff | 用完即关 Claudian；禁用或降低自动 backup 频率；改为手动 commit |
 | 终端最小化被误认为已关闭 | `Get-Process claude` 显示有残留进程，CPU 占用却很低 | 用户以为最小化/挂 tmux 等于退出，实际上进程仍在后台持有 session | 会话结束显式 `exit`；关闭终端窗口；定期 `ps`/`Get-Process` 检查 |
 | 缺少账单检查习惯 | 累计 80 元账单后才发现异常 | 未设置费用告警，也未养成每批任务后查账单的习惯 | 每完成一批任务检查一次账单；设置单会话/单日费用阈值告警 |

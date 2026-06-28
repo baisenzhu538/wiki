@@ -1,4 +1,5 @@
 ---
+
 id: tool-费曼简单提炼法
 title: 技能：费曼简单提炼法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 提炼变摘要
+- lens: 提炼变摘要
   follow_up: 费曼的核心是'翻译成自己的话'不是'浓缩原文'。用自己的话讲给不懂的人听
-- src_unknown
-  lens: 三句话不检验
+- lens: 三句话不检验
   follow_up: 费曼的完整版是'提炼→讲述→发现盲区→回去重学→再讲'，跳过讲述等于没完成
-- src_unknown
-  lens: 跳过划重点
+- lens: 跳过划重点
   follow_up: 划重点帮你找到'最值得提炼的内容'，跳过这步提炼质量下降，先标记再提炼
-- src_unknown
-  lens: 提炼对象过宽
+- lens: 提炼对象过宽
   follow_up: 一本书只能覆盖一章。提炼单元应该是'一个核心观点'，不是整本书
-- src_unknown
-  lens: 盲区未暴露
+- lens: 盲区未暴露
   follow_up: 提炼的价值是发现你不懂什么。写完后发现'这句话对吗？好像不太确定'才是好提炼
 ---
 # 技能：费曼简单提炼法

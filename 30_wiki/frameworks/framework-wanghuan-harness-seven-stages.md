@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-harness-seven-stages
 title: 王欢：Harness 七阶段 AI 构建流程
 type: framework
@@ -21,17 +22,13 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-  lens: 生成者与验收者角色未分离
+- lens: 生成者与验收者角色未分离
   follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
-- src_unknown
-  lens: 规划与技术栈选型缺失
+- lens: 规划与技术栈选型缺失
   follow_up: 在动手生成前，先用最强推理模型输出 product-spec.md 与 tech-stack.md
-- src_unknown
-  lens: 缺少审美精修阶段
+- lens: 缺少审美精修阶段
   follow_up: 在 Ship 前固定插入一轮 Polish Sprint，切换评分权重到审美维度
-- src_unknown
-  lens: 最终交付门控缺失
+- lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
   - src_unknown

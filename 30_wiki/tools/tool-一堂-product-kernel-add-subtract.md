@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-product-kernel-add-subtract
 title: 技能：产品内核加减法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 舍不得减
+- lens: 舍不得减
   follow_up: 强迫按'去掉后用户还会选吗'重新排序，内核必须减到3-5条
-- src_unknown
-  lens: 内部视角替代用户视角
+- lens: 内部视角替代用户视角
   follow_up: 每条要素必须能说出'用户选择我们的具体原因'，用用户原话支撑
-- src_unknown
-  lens: 过早做减法
+- lens: 过早做减法
   follow_up: 加法阶段不评判只做收集，减法阶段才做判断
-- src_unknown
-  lens: 优化性当决定性
+- lens: 优化性当决定性
   follow_up: 重复问'没有它用户还会选吗'，不会选的才是决定性
-- src_unknown
-  lens: 成本敏感缺失
+- lens: 成本敏感缺失
   follow_up: 默认不做高成本低信息项，除非有强劣数据支持
 ---
 # 技能：产品内核加减法

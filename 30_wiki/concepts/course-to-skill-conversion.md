@@ -1,4 +1,5 @@
 ---
+
 id: course-to-skill-conversion
 title: "课程到Skill转化：将知识变成AI可执行的能力模块"
 type: tool
@@ -36,17 +37,13 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "方法未固化"
+  - lens: "方法未固化"
     follow_up: "写出课程三个核心步骤 + 两个适用边界，30分钟内完成"
-  - src_unknown
-    lens: "标准只在某个人脑子里"
+  - lens: "标准只在某个人脑子里"
     follow_up: "把分析流程写成检查清单，让两人分别执行，结果一致率从<50%提升到>80%"
-  - src_unknown
-    lens: "缺少固定判断流程"
+  - lens: "缺少固定判断流程"
     follow_up: "构建输入检查清单，强制验证必填字段，连续3次输出结构一致"
-  - src_unknown
-    lens: "经验主义陷阱"
+  - lens: "经验主义陷阱"
     follow_up: "检查问题类型是否偏移，超出Skill设计范围时强制拒绝而非编造"
 ---# 课程→Skill转化：将知识变成AI可执行的能力模块
 

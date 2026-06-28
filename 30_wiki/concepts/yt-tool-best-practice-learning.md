@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-best-practice-learning
 component_of:
 - src_unknown
@@ -46,17 +47,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 建池 / 建模
+- framework_lens: 建池 / 建模
   follow_up_question: 收集案例时是否只'看过'而没有建池和拆解？
-- src_unknown
-  framework_lens: 实战反馈环 / 刻意练习
+- framework_lens: 实战反馈环 / 刻意练习
   follow_up_question: 模型是否停留在复制层面而没有经过真实场景验证？
-- src_unknown
-  framework_lens: 创新 / 盲区突破
+- framework_lens: 创新 / 盲区突破
   follow_up_question: 最佳实践水是否让产品越来越像行业平均水平？
-- src_unknown
-  framework_lens: 用户中心 / 参考≠目标
+- framework_lens: 用户中心 / 参考≠目标
   follow_up_question: 是否把'不比竞品差'当成设计目标？
 updated_at: '2026-06-16'
 author: 老顽童

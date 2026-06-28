@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-management-trilogy
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 目标→路径→资源的顺序约束
+- framework_lens: 目标→路径→资源的顺序约束
   follow_up_question: 如果资源减半，你会先调目标还是调路径？
-- src_unknown
-  framework_lens: 资源是约束，不是起点
+- framework_lens: 资源是约束，不是起点
   follow_up_question: 现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？
-- src_unknown
-  framework_lens: 管理三段论需要反馈环
+- framework_lens: 管理三段论需要反馈环
   follow_up_question: 最近是否有新信息让原来的目标不再合理？
 updated_at: '2026-06-16'
 author: 老顽童

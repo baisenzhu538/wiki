@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -54,6 +55,7 @@ related:
 - [[yt-entrepreneur-key-hypotheses]]
 - [[yt-concept-p-type-l-type]]
 - [[yt-prompt-engineering-andrew-ng]]
+---
 # 商业预判15字诀
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。主动定中局→充分做加法→专业做减法，将创业成功率从10%提升至30%以上。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -85,7 +87,8 @@ claim:boundary-05 [conf=0.78] **L型创业者（Logic-driven）**：靠逻辑推
 claim:boundary-06 [conf=0.75] **光谱模型**将创业目标分为7个质变阶段，从副业到生态级平台。每个阶段的预判深度、能力要求、风险特征完全不同。模型核心原则："所有选择没有好坏，只有匹配问题"——赤橙黄绿青蓝紫，不存在哪个颜色更高级。
 
 | 阶段 | 特征 | 预判重点 |
-|------|------|---------|
+|
+---|------|---------|
 | 1 | 副业/兼职 | 机会识别，低投入验证 |
 | 2 | 小生意/个体户 | 商业模式验证，单元模型跑通 |
 | 3 | 小规模公司 | 团队匹配，增长路径 |

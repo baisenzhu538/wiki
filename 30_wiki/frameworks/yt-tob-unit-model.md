@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
@@ -41,11 +42,9 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 业务单元总毛利覆盖所有成本
+- framework_lens: 业务单元总毛利覆盖所有成本
   follow_up_question: 若把总部成本、研发摊销、履约尾款、销售培养成本按订单/客户/销售分摊后，整体业务单元是否仍然盈利？
-- src_unknown
-  framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
+- framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
   follow_up_question: 当前业务应选用单订单、单 SKU、单客户、单销售、单履约中的哪几种模型？规模化后各成本项与回款周期如何变化？
 
 ---

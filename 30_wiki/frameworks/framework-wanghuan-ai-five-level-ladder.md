@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
@@ -23,17 +24,13 @@ source_refs:
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 - 10_raw/sources/src_20260619_7bd154f7_wanghuan_AI能力五层跃迁_示意图.md
 diagnostic_signals:
-- src_unknown
-  lens: 层级诊断
+- lens: 层级诊断
   follow_up: 检查是否已建立可复用 prompt 模板与知识库（工作流层）
-- src_unknown
-  lens: 产品化缺口
+- lens: 产品化缺口
   follow_up: 从作品层跃迁至产品/应用层，需找到第一位真实用户并收集反馈
-- src_unknown
-  lens: 系统化缺口
+- lens: 系统化缺口
   follow_up: 设计统一编排底座，把分散作品串成自动运转的操作台
-- src_unknown
-  lens: 思维瓶颈
+- lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
   - src_unknown

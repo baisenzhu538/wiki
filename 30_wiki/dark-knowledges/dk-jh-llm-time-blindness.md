@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-jh-llm-time-blindness
 title: LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别
 type: dk
@@ -20,8 +21,7 @@ related:
 - [[dk-truman-iteration-to-aesthetic-ceiling]]
 - [[dk-ai-judgment-human-responsibility]]
 - [[dk-ai-judgment-programmer-paradox]]
-
-
+---
 ## 原始表述
 
 > "LLM没有时间概念，它不知道现在是2026年还是2024年，也不知道某个事件是否已经发生。"——纪浩在AI共创社分享中提出的一个被大多数人忽视的隐形风险。
@@ -47,7 +47,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适合 | 时间敏感查询（最新政策、当前数据、实时趋势） |
 | ✅ 适合 | 历史事件确认（某事件是否已发生） |
 | ✅ 适合 | AI产品设计中需要明确信息时效性的场景 |

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -46,6 +47,7 @@ updated_at: 2026-06-16
 author: "老顽童"
 related:
 - case-ether-online-acquisition
+---
 # 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
@@ -59,7 +61,8 @@ related:
 ### 五大获客类型（核心渠道方向）
 
 | 渠道方向 | 具体分类 | 执行举例 | 适用阶段 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | **用户裂变** | 老带新机制（名利权情/CPS/各送代金券/内部推荐） | 推荐有奖、组队PK、分销体系 | 有了初期用户后 |
 | | 分销体系（一级分销/二级分销/有赞分销） | SaaS产品常用 | |
 | | 裂变活动（拼团/众筹/组队PK/助力裂变） | 社交电商常用 | |

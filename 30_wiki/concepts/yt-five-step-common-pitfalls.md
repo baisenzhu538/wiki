@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -49,11 +50,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 静态工具化
+- framework_lens: 静态工具化
   follow_up_question: 你的五步法画布最近一次更新是什么时候？如果超过一个月，它已过时
-- src_unknown
-  framework_lens: 过度自信
+- framework_lens: 过度自信
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
 updated_at: '2026-06-16'
 author: 老顽童

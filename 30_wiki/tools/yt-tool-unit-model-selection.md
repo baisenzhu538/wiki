@@ -1,5 +1,6 @@
 ---
 
+
 domain:
 - yitang- master
 tags: null
@@ -17,7 +18,7 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
-
+---
 ## Reusable Knowledge
 
 ### 核心心法：复制哪个算哪个，哪个最需盯紧哪个
@@ -58,7 +59,8 @@ Gary Klein 的自然决策理论(Recognition-Primed Decision Making)指出，专
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 业务有≥3个可辨识的单元候选 | 选择器的前提是"有选择可做"。如果只有1个明显的单元类型，不需要选择器 |
 | ✅ 已有基础财务/运营数据 | "崩盘概率×信息黑度"的打分需要数据支撑。没有数据，打分是另一种拍脑袋 |
 | ❌ 业务极度早期（PMF前） | 此时"单元"本身还在变化，锁定核心单元=锁定一个移动靶 |

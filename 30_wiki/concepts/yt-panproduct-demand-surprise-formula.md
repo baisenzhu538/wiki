@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-surprise-formula
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 惊喜 = 交付 − 预期
+- framework_lens: 惊喜 = 交付 − 预期
   follow_up_question: 如果没有特别设计，用户原本预期会得到什么？
-- src_unknown
-  framework_lens: 惊喜有两种杠杆
+- framework_lens: 惊喜有两种杠杆
   follow_up_question: 你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？
-- src_unknown
-  framework_lens: ' delight 必须被验证'
+- framework_lens: ' delight 必须被验证'
   follow_up_question: 用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？
 updated_at: '2026-06-16'
 author: 老顽童

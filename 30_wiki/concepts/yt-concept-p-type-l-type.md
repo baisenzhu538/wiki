@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -52,6 +53,7 @@ related:
 - [[yt-entrepreneur-key-hypotheses]]
 - [[yt-entrepreneur-industry-forecast]]
 - [[yt-prompt-engineering-andrew-ng]]
+---
 # P型与L型创业者
 
 > 来源：一堂商业预判课 | 阶段：预判阶段。一堂创业者类型学的核心概念，通过对比热情驱动（Passion）与逻辑驱动（Logic）两种创业者的认知模式、行为特征和失败路径，帮助创业者识别自身类型并实现认知跃迁。这是一堂老学员特别喜欢的模型之一。[[yitang-course-map]]
@@ -116,7 +118,8 @@ Dweck的成长型思维（Growth Mindset）理论对P/L型的固定分类提出�
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
-|------|---------|------|
+|
+---|---------|------|
 | 上游工具 | [[yt-entrepreneur-industry-forecast]] | 商业预判15字诀，从P型到L型的预判能力升级路径 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，L型创业者的核心习惯 |
 | 关联框架 | [[yt-model-cognitive-upgrade-framework]] | 认知升级框架，从P型到L型的认知跃迁路径 |

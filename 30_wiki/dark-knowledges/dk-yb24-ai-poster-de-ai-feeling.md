@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# AI海报去AI感：图标+质感人物双要素
+trust_level: low
+---
+
+# AI海报去AI感：图标+质感人物双要素
 
 ## 原始表述
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
@@ -41,11 +42,9 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: P填了但E/A/S空槽——PEAS四槽缺一不可
+- framework_lens: P填了但E/A/S空槽——PEAS四槽缺一不可
   follow_up_question: 你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的
-- src_unknown
-  framework_lens: 可能是架构错配，不是努力问题
+- framework_lens: 可能是架构错配，不是努力问题
   follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
 updated_at: '2026-06-16'
 author: 老顽童

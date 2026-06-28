@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
@@ -52,17 +53,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 单元口径不统一——不同单元看到不同的商业真相
+- framework_lens: 单元口径不统一——不同单元看到不同的商业真相
   follow_up_question: 你们争论的是"哪个单元更本质"还是"哪个单元更容易算"？前者是业务问题，后者是偷懒
-- src_unknown
-  framework_lens: 单元选择错配——单元不能代表业务核心经济逻辑
+- framework_lens: 单元选择错配——单元不能代表业务核心经济逻辑
   follow_up_question: 这个单元是否能独立运营？是否能反映你最关心的那个商业问题？
-- src_unknown
-  framework_lens: 选错了核算单元——用户数增长≠业务健康，若大量用户不产生交易则核心单元应回到订单或交易额
+- framework_lens: 选错了核算单元——用户数增长≠业务健康，若大量用户不产生交易则核心单元应回到订单或交易额
   follow_up_question: 你的用户里真正产生交易/付费的比例是多少？如果只看付费用户，单元经济模型还成立吗？
-- src_unknown
-  framework_lens: 选错了颗粒度——订单数/客户数平均值掩盖了高利润与亏损单元并存
+- framework_lens: 选错了颗粒度——订单数/客户数平均值掩盖了高利润与亏损单元并存
   follow_up_question: 你的订单按毛利率分成高/中/低三档，各占多少比例？高利润订单和低利润订单的用户画像有什么不同？
 author: 老顽童
 reviewed_by: 欧阳锋

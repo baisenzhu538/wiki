@@ -1,5 +1,6 @@
 ---
 
+
 title: Obsidian Git Multi-Device Sync Protocol
 type: system
 domain:
@@ -18,6 +19,7 @@ source_context: KDO internal record （原 legacy，已从 title/context/filenam
 source_refs:
   - src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
 confidence: 0.6
+---
 # Obsidian Git Multi-Device Sync Protocol
 
 ## Core Points
@@ -42,7 +44,7 @@ confidence: 0.6
 - src_unknown
 - src_unknown
 
----
+
 
 ## Standard Operating Procedure
 

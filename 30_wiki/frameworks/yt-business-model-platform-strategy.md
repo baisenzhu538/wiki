@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 平台战略——双边平台需要单边启动策略
+  - framework_lens: 平台战略——双边平台需要单边启动策略
     follow_up_question: "你的平台是先启动哪一边？单边启动策略是什么？"
-  - src_unknown
-    framework_lens: 平台战略——双边平台需要平衡两边用户
+  - framework_lens: 平台战略——双边平台需要平衡两边用户
     follow_up_question: "你的平台两边用户比例是多少？是否平衡？如何调节？"
-  - src_unknown
-    framework_lens: 平台战略——需要锁定两边用户
+  - framework_lens: 平台战略——需要锁定两边用户
     follow_up_question: "你的平台如何锁定两边用户？迁移成本高吗？"
-  - src_unknown
-    framework_lens: 平台战略——平台变现需要设计机制
+  - framework_lens: 平台战略——平台变现需要设计机制
     follow_up_question: "你的平台变现机制是什么？哪边付费？为什么愿意付？"
-  - src_unknown
-    framework_lens: 平台战略——平台需要活跃度，不只是用户数量
+  - framework_lens: 平台战略——平台需要活跃度，不只是用户数量
     follow_up_question: "你的平台用户活跃度如何？如何提升匹配效率？"
 
 ---

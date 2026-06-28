@@ -1,5 +1,6 @@
 ---
 
+
 title: 鑫港湾HIS项目
 type: improvement-plan
 status: active
@@ -29,7 +30,7 @@ source_refs: []
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium# 鑫港湾HIS项目
-
+---
 > 基于 .NET 8 + Vue 3 的医疗信息管理系统——从代码审查到上线交付的全流程工程化。
 
 ## 项目概述
@@ -46,7 +47,8 @@ trust_level: medium# 鑫港湾HIS项目
 ## 关键概念卡
 
 | 概念卡 | 类型 | 核心贡献 |
-|--------|------|---------|
+|
+-----|------|---------|
 | [[鑫港湾his系统分阶段整改报告]] | 代码审查 | 235问题三阶段分类框架 |
 | [[HIS系统深度调研]] | 行业调研 | HIS市场格局与技术选型 |
 | [[HIS系统开发实现方案-架构师指南]] | 架构文档 | 技术架构与实现路径 |

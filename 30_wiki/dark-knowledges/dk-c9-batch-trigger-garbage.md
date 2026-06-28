@@ -1,4 +1,5 @@
 ---
+
 id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
   framework_lens: 格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger
     直接降低卡片可发现性
   follow_up_question: 抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
-
+---
 ## 原始表述/核心洞察
 
 > Batches 3-4（entrepreneur + personal 卡）的 `query_triggers` 包含大量无意义的 section headers 和 critique 句子：
@@ -80,7 +81,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适用 | 所有需要写 `query_triggers` 的 **KDO 知识卡片** |
 | ❌ 不适用 | 标签/分类的自动生成：标签是结构化分类，不需要模拟用户搜索意图 |
 | 特殊场景 | 结构化数据卡片（配置模板、代码片段）的 trigger 可以是字段名或技术术语 |

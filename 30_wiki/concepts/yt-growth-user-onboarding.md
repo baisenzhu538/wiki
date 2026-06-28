@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
+  - framework_lens: 用户onboarding——onboarding是激活的关键，需要优化第一印象
     follow_up_question: "你的onboarding流程是什么？用户注册后看到什么？能否在3分钟内体验到价值？"
-  - src_unknown
-    framework_lens: 用户onboarding——onboarding需要简洁，突出核心价值
+  - framework_lens: 用户onboarding——onboarding需要简洁，突出核心价值
     follow_up_question: "你的onboarding有几步？能不能合并或跳过？核心价值是否前置？"
-  - src_unknown
-    framework_lens: 用户onboarding——onboarding需要引导用户到核心功能
+  - framework_lens: 用户onboarding——onboarding需要引导用户到核心功能
     follow_up_question: "你的产品核心功能是什么？onboarding是否引导用户到核心功能？"
-  - src_unknown
-    framework_lens: 用户onboarding——引导需要设计，不能强制，要让用户愿意完成
+  - framework_lens: 用户onboarding——引导需要设计，不能强制，要让用户愿意完成
     follow_up_question: "你的引导是否可跳过？用户为什么跳过？引导内容是否有趣/有价值？"
-  - src_unknown
-    framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
+  - framework_lens: 用户onboarding——onboarding只是开始，需要设计持续价值
     follow_up_question: "onboarding后，用户是否有持续回来的理由？是否形成了使用习惯？"
 
 ---

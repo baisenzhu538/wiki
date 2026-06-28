@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
+  - framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
     follow_up_question: "用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。"
-  - src_unknown
-    framework_lens: 内核竞争定位——价格不是可持续的差异化
+  - framework_lens: 内核竞争定位——价格不是可持续的差异化
     follow_up_question: "如果竞品也降价，你们还有什么差异化？"
-  - src_unknown
-    framework_lens: 内核竞争定位——功能同质化，内核被稀释
+  - framework_lens: 内核竞争定位——功能同质化，内核被稀释
     follow_up_question: "去掉和竞品重叠的功能，你们还剩下什么独特价值？"
-  - src_unknown
-    framework_lens: 内核竞争定位——目标清晰，但路径不清晰
+  - framework_lens: 内核竞争定位——目标清晰，但路径不清晰
     follow_up_question: "行业第一的定位是什么？在哪个维度上第一？"
-  - src_unknown
-    framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
+  - framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
     follow_up_question: "你们的定位持续多久了？用户是否形成了稳定认知？"
 
 ---

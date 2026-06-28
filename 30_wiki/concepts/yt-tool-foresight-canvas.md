@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
@@ -45,11 +46,9 @@ wiki_refs:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 加法容易减法难——充分做加法的目的是为专业减法提供素材
+- framework_lens: 加法容易减法难——充分做加法的目的是为专业减法提供素材
   follow_up_question: 如果只能选3个选项继续，你选哪3个？选择标准是什么？
-- src_unknown
-  framework_lens: 预判工具被用来做合理化——画布分析只是为已有偏好找理由
+- framework_lens: 预判工具被用来做合理化——画布分析只是为已有偏好找理由
   follow_up_question: 如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-financial-literacy
 title: 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-demand-pitfall-travel-agent]]
 - [[dk-strategy-05-positioning-trap]]
 - [[case-demand-financial-literacy]]
-
+---
 # 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 
 ## 原始表述
@@ -61,7 +62,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 需求评估 | ✅ 适用 | 刚性判断的唯一标准是付费行为 |
 | 创业机会判断 | ✅ 适用 | 避免"用户说重要=刚性高"的误区 |
 | 产品设计 | ✅ 适用 | 验证用户付费意愿 |

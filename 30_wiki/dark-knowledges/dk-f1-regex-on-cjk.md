@@ -1,4 +1,5 @@
 ---
+
 id: dk-f1-regex-on-cjk
 title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 type: dk
@@ -43,8 +44,7 @@ diagnostic_signals:
   framework_lens: 缺陷会通过“复制代码”传播到任何继承 `\\b` 或英文关键词假设的正则逻辑
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
 review_date: '2026-06-28'
-
-
+---
 ## 原始表述
 
 > **触发命令**：`kdo enrich --all`
@@ -90,7 +90,8 @@ review_date: '2026-06-28'
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适用 | 所有含中文、日文、韩文（CJK）内容的 wiki 页面——regex 的 `\b` 对它们全部失效 |
 | ❌ 不适用 | 纯英文内容：regex 模式对英文有效，可以正常使用 `kdo enrich` |
 | 设计约束 | 当前 KDO 没有 CJK-aware extractor，这是设计约束而非临时 bug，短期内不会自动消失 |

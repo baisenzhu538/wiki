@@ -1,4 +1,5 @@
 ---
+
 id: ai-landing-scene-selection
 title: "AI落地场景识别：从找老的干小的开始"
 type: concept
@@ -32,17 +33,13 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "找老的干小的"
+  - lens: "找老的干小的"
     follow_up: "列出最熟悉的3个业务流程，选规模最小的"
-  - src_unknown
-    lens: "是否跳过平行运行阶段"
+  - lens: "是否跳过平行运行阶段"
     follow_up: "确认已平行运行至少30天，对比人工与AI结果"
-  - src_unknown
-    lens: "四要素检查"
+  - lens: "四要素检查"
     follow_up: "用有容错/有方法/有数据/有判断筛选场景，不讨论技术"
-  - src_unknown
-    lens: "结果导向验证"
+  - lens: "结果导向验证"
     follow_up: "把评估指标从效率改为订单/转化率/收入"
 ---# AI落地场景识别：从"找老的干小的"开始
 

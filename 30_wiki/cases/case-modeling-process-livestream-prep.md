@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
@@ -38,17 +39,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 流程建模 + 个人状态 SOP
+- framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）
-- src_unknown
-  framework_lens: 个人清单 → 团队 SOP + 执行锁
+- framework_lens: 个人清单 → 团队 SOP + 执行锁
   follow_up_question: 这个最佳实践有没有被写成带时间节点、责任人和检查点的 checklist？
-- src_unknown
-  framework_lens: 给 SOP 加 SOP
+- framework_lens: 给 SOP 加 SOP
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
-- src_unknown
-  framework_lens: 及时复盘 + SOP 迭代
+- framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
 ---
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单

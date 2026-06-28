@@ -3,22 +3,19 @@
 
 
 
+
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: I/O 协议 / 角色边界
+- framework_lens: I/O 协议 / 角色边界
   follow_up_question: 输出是否触发了用户的'这不是我想要的'二次沟通？
-- src_unknown
-  framework_lens: 模式识别 / 自动分类
+- framework_lens: 模式识别 / 自动分类
   follow_up_question: 当输入混合多种故事线时，分类逻辑是否崩溃或强行归一？
-- src_unknown
-  framework_lens: 去模板化 / 用户体验
+- framework_lens: 去模板化 / 用户体验
   follow_up_question: 是否有机制（变异化指令/模式切换）主动降低重复疲劳？
-- src_unknown
-  framework_lens: 边界控制 / C 角色降级
+- framework_lens: 边界控制 / C 角色降级
   follow_up_question: 失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？
 updated_at: '2026-06-16'
 author: unknown

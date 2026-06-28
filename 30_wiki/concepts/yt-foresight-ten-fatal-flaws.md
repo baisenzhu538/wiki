@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
@@ -33,17 +34,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 自我盲区
+- framework_lens: 自我盲区
   follow_up_question: 如果让一位客观的同行用这份清单审查你的项目，他最可能指出哪条硬伤？
-- src_unknown
-  framework_lens: 没有结合目标规模
+- framework_lens: 没有结合目标规模
   follow_up_question: 你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？
-- src_unknown
-  framework_lens: 过早放弃
+- framework_lens: 过早放弃
   follow_up_question: 这条硬伤有没有可能通过缩小规模、换场景或补团队来化解？
-- src_unknown
-  framework_lens: 验证缺失
+- framework_lens: 验证缺失
   follow_up_question: 哪条硬伤可以在6周内设计一个低成本实验去证伪？
 language: zh-CN
 created_at: 2026-06-11

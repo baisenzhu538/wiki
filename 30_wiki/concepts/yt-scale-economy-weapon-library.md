@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -42,6 +43,7 @@ updated_at: 2026-06-16
 author: "老顽童"
 related:
 - case-ether-online-acquisition
+---
 # 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
@@ -49,7 +51,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 评估业务是否具备规模经济壁垒 |
 | **适合** | 需要向投资人解释成本结构和扩张逻辑 |
 | **不适合** | 业务规模极小、成本结构不稳定 |

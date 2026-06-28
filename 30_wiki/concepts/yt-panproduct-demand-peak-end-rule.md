@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-peak-end-rule
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 体验记忆由峰值和终点决定
+- framework_lens: 体验记忆由峰值和终点决定
   follow_up_question: 旅程中情绪最高的点和最后的点，哪个更可能被用户记住？
-- src_unknown
-  framework_lens: 惊喜 = 交付 − 预期
+- framework_lens: 惊喜 = 交付 − 预期
   follow_up_question: 如果用户预期已经很高，你还能创造惊喜吗？
-- src_unknown
-  framework_lens: 峰值终值影响推荐和复购
+- framework_lens: 峰值终值影响推荐和复购
   follow_up_question: 用户向别人推荐时，最可能提到的三个瞬间是什么？
 updated_at: '2026-06-16'
 author: 老顽童

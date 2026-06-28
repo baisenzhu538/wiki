@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
@@ -51,17 +52,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用户中心 / 取舍权
+- framework_lens: 用户中心 / 取舍权
   follow_up_question: 绿色/红色判定是否只是创始人意志的可视化？
-- src_unknown
-  framework_lens: 持续发现 / 假设验证
+- framework_lens: 持续发现 / 假设验证
   follow_up_question: 画布反映的是'一个月前的用户'还是现在的用户？
-- src_unknown
-  framework_lens: 内核诚实 / 反直觉
+- framework_lens: 内核诚实 / 反直觉
   follow_up_question: 转化率低时是否怪执行而非画布假设错误？
-- src_unknown
-  framework_lens: 落地闭环 / 五步法
+- framework_lens: 落地闭环 / 五步法
   follow_up_question: 画布讨论后是否停留在可视化而不进入验证？
 updated_at: '2026-06-16'
 author: 老顽童

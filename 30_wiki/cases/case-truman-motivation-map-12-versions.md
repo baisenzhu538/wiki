@@ -2,6 +2,7 @@
 
 
 
+
 id: case-truman-motivation-map-12-versions
 title: 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法
 type: case
@@ -30,17 +31,13 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用户价值优先于视觉表现
+- framework_lens: 用户价值优先于视觉表现
   follow_up_question: 如果删掉所有颜色、图标和装饰，用户还能理解这张图的核心逻辑吗？
-- src_unknown
-  framework_lens: 小抄式设计原则——拿来就用，不是背完再用
+- framework_lens: 小抄式设计原则——拿来就用，不是背完再用
   follow_up_question: 用户不背这个，他第一眼能否直接找到自己要用的信息？
-- src_unknown
-  framework_lens: 迭代到审美上限
+- framework_lens: 迭代到审美上限
   follow_up_question: 这张图是否已经达到了团队审美的极限？还能再改一版吗？
-- src_unknown
-  framework_lens: 对称性服务于逻辑性
+- framework_lens: 对称性服务于逻辑性
   follow_up_question: 问题是视觉重心不对，还是信息结构本身有歧义？两者要分版本解决。
 tags:
 - src_unknown

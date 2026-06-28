@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-mckinsey-mece
 title: "MECE 原则：相互独立、完全穷尽"
 type: concept
@@ -31,17 +32,13 @@ wiki_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-17'
 diagnostic_signals:
-- src_unknown
-  framework_lens: MECE 原则检查清单
+- framework_lens: MECE 原则检查清单
   follow_up: 你当前的分类维度是什么？这些维度之间是否互不重叠、合起来是否覆盖了所有可能？
-- src_unknown
-  framework_lens: MECE 框架对齐
+- framework_lens: MECE 框架对齐
   follow_up: 如果用一个结构化框架强迫大家按同一维度发言，你会选什么维度？
-- src_unknown
-  framework_lens: L3→L4 逻辑链升级
+- framework_lens: L3→L4 逻辑链升级
   follow_up: 你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？
-- src_unknown
-  framework_lens: MECE 维度审计
+- framework_lens: MECE 维度审计
   follow_up: 用 2-3 个样本做校准会，重写维度定义并检查是否相互独立、完全穷尽
 pipeline:
 - src_unknown

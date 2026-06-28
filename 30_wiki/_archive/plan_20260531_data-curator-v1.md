@@ -1,4 +1,5 @@
 ---
+
 id: plan_20260531_data-curator-v1
 title: Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.0
 type: improvement-plan
@@ -21,6 +22,7 @@ reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md）
+---
 # Data Curator Skill 实施方案 v1.0
 
 ## 来源
@@ -37,7 +39,7 @@ source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/s
 - src_unknown
 - src_unknown
 
----
+
 
 ## 五阶段流水线
 

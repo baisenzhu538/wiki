@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 定性分析缺失——跳过拆推评，直接算
+  - framework_lens: 定性分析缺失——跳过拆推评，直接算
     follow_up_question: "你的市场规模数字背后，具体是哪些用户在什么场景下付费？先定性，再定量。"
-  - src_unknown
-    framework_lens: 拆解不到位——没有拆到用户真正的问题
+  - framework_lens: 拆解不到位——没有拆到用户真正的问题
     follow_up_question: "这个功能背后，用户真正要解决的问题是什么？不用这个功能，用户现在怎么解决？"
-  - src_unknown
-    framework_lens: 评估维度缺失——没有评清楚优势
+  - framework_lens: 评估维度缺失——没有评清楚优势
     follow_up_question: "你的方案比用户现在的替代方案好多少？是10%还是10倍？用户愿意为这个'好'付多少溢价？"
-  - src_unknown
-    framework_lens: 估算方法不统一——没有共同的计算逻辑
+  - framework_lens: 估算方法不统一——没有共同的计算逻辑
     follow_up_question: "你们用的市场规模估算方法是哪一种？自上而下还是自下而上？两种方法交叉验证过吗？"
-  - src_unknown
-    framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
+  - framework_lens: 定性分析缺乏结构化——访谈了但没拆推评算
     follow_up_question: "你的访谈记录能填进拆推评算四个格子吗？每个格子都有明确答案吗？"
 
 ---

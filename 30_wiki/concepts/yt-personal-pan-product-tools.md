@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-tools
 component_of:
 - src_unknown
@@ -45,14 +46,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具箱需要结构记忆
+- framework_lens: 工具箱需要结构记忆
   follow_up_question: 随机抽一张牌，你能在3秒内说出它属于哪组牌吗？
-- src_unknown
-  framework_lens: 出牌 = 组合能力
+- framework_lens: 出牌 = 组合能力
   follow_up_question: 这个任务需要哪几张牌配合？它们之间的顺序是什么？
-- src_unknown
-  framework_lens: 工具能力在反馈中进化
+- framework_lens: 工具能力在反馈中进化
   follow_up_question: 上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？
 updated_at: '2026-06-16'
 author: 老顽童

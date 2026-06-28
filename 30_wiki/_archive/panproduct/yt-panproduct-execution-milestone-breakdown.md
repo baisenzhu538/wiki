@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-milestone-breakdown
 component_of:
 - src_unknown
@@ -51,17 +52,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 里程碑是可验证的中间节点
+- framework_lens: 里程碑是可验证的中间节点
   follow_up_question: 到达这个里程碑时，谁能仅凭交付物判断它是否完成？
-- src_unknown
-  framework_lens: 顺序背后是约束
+- framework_lens: 顺序背后是约束
   follow_up_question: 如果前一个里程碑延迟，哪些后续里程碑必须顺延？
-- src_unknown
-  framework_lens: 不确定性需要缓冲
+- framework_lens: 不确定性需要缓冲
   follow_up_question: 这个里程碑的日期是乐观估计还是包含缓冲？
-- src_unknown
-  framework_lens: 可验证性=降低争议和自欺欺人
+- framework_lens: 可验证性=降低争议和自欺欺人
   follow_up_question: 这个里程碑完成后，你能用一句话让投资人或客户相信它真的完成了吗？
 updated_at: '2026-06-16'
 author: 老顽童

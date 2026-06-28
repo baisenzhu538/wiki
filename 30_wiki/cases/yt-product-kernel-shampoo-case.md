@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 洗发水案例——内核是价值，不是功能
+  - framework_lens: 洗发水案例——内核是价值，不是功能
     follow_up_question: "AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？"
-  - src_unknown
-    framework_lens: 洗发水案例——功能多≠内核强
+  - framework_lens: 洗发水案例——功能多≠内核强
     follow_up_question: "竞品功能少，但用户为什么选择竞品？内核差异是什么？"
-  - src_unknown
-    framework_lens: 洗发水案例——内核必须能剥离边缘功能
+  - framework_lens: 洗发水案例——内核必须能剥离边缘功能
     follow_up_question: "如果去掉包装设计和品牌，只保留去屑功能，用户还会选择吗？"
-  - src_unknown
-    framework_lens: 洗发水案例——内核需要聚焦特定用户
+  - framework_lens: 洗发水案例——内核需要聚焦特定用户
     follow_up_question: "你的目标用户是'所有洗头的人'，还是'有去屑需求的特定人群'？"
-  - src_unknown
-    framework_lens: 洗发水案例——内核可能不是你以为的功能
+  - framework_lens: 洗发水案例——内核可能不是你以为的功能
     follow_up_question: "用户选择你们，是因为去屑效果好，还是因为品牌形象？"
 
 ---

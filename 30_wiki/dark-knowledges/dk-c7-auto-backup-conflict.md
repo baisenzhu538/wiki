@@ -1,4 +1,5 @@
 ---
+
 id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 type: dk
@@ -38,7 +39,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效
   follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
-
+---
 ## 原始表述 / 核心洞察
 
 > staged 了文件准备手动按类型拆分为 3 个 commit，auto-backup 抢在前面把所有 37 个文件打成了一个 backup commit。
@@ -67,7 +68,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适用 | 使用 Obsidian Git 插件且需要手动拆分 commit 的场景 |
 | ❌ 不适用 | 单个 commit 就能搞定的简单变更（1-2 个文件且逻辑单一） |
 | 时间窗口 | 风险只在 Obsidian 运行且 vault 已打开时存在；关闭 Obsidian 或 vault 未打开时不会触发 |

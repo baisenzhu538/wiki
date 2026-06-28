@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
@@ -20,17 +21,13 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-  lens: 缺少飞轮资产沉淀
+- lens: 缺少飞轮资产沉淀
   follow_up: 建立 AI 业务档案 + Prompt 模板库，把背景信息固化为可注入上下文
-- src_unknown
-  lens: 飞轮起点选错 / 低频任务
+- lens: 飞轮起点选错 / 低频任务
   follow_up: 用"下周还会用吗"和"每周至少 3 次"重验选题
-- src_unknown
-  lens: 没有 OODA 闭环，未持续迭代
+- lens: 没有 OODA 闭环，未持续迭代
   follow_up: 每周跑一次观察-定向-决策-行动循环，把改进写回档案和模板
-- src_unknown
-  lens: 飞轮资产未共享
+- lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
 related:
   - src_unknown

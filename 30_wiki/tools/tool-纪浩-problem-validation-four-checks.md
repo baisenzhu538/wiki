@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-problem-validation-four-checks
 title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: tool
@@ -38,20 +39,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 伪需求识别
+- lens: 伪需求识别
   follow_up: 执行Step 1：要求用户描述解决前后的具体行为变化，说不清=想象需求
-- src_unknown
-  lens: 需求真实性争议
+- lens: 需求真实性争议
   follow_up: 用四问逐一验证，任何一问答案不满意=伪需求，需重新定义
-- src_unknown
-  lens: 因果链断裂
+- lens: 因果链断裂
   follow_up: 检查Step 4因果链：每个环节是否有具体能力/资源支撑？缺了哪个环节？
-- src_unknown
-  lens: 四问未迭代
+- lens: 四问未迭代
   follow_up: 每达到一个里程碑回顾四问，Problem定义随信息增加而演化
-- src_unknown
-  lens: 强制性任务
+- lens: 强制性任务
   follow_up: 四问对强制需求可能走过场，改问：如果可以选择不做，这个需求还值得做吗？
 ---
 # 技能：四问验证法

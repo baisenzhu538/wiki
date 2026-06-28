@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-essence-levels
 title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
@@ -27,17 +28,13 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 diagnostic_signals:
-- src_unknown
-  lens: 停留在 L0-L1 自我想象或经验层
+- lens: 停留在 L0-L1 自我想象或经验层
   follow_up: 要求举出 3 个不同场景下验证过的对标案例，并追问"专家经验的边界在哪里"
-- src_unknown
-  lens: 可能停在 L2 常识层，只有行业共识没有底层原理
+- lens: 可能停在 L2 常识层，只有行业共识没有底层原理
   follow_up: 让作者用一句话说明"这个方法论解决什么类问题"，并推导出一个具体行动
-- src_unknown
-  lens: 可能是解释性本质（L4 伪本质）而非预测性本质
+- lens: 可能是解释性本质（L4 伪本质）而非预测性本质
   follow_up: 用"三步推导测试"验证：能否作为通用解？能否自行推演？是否包含关键要素？
-- src_unknown
-  lens: 对 L4 本质与 L5 学科经典的适用边界不清
+- lens: 对 L4 本质与 L5 学科经典的适用边界不清
   follow_up: 明确当前决策是商业管理问题还是基础科学研究问题，再决定是否需要回到学科经典
 related:
   - src_unknown

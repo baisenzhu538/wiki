@@ -1,4 +1,5 @@
 ---
+
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
@@ -16,17 +17,13 @@ confidence: 0.6
 trust_level: medium
 updated_at: '2026-06-17'
 diagnostic_signals:
-  - src_unknown
-    framework_lens: L1 结构完整性门禁
+  - framework_lens: L1 结构完整性门禁
     follow_up_question: 你的管线是否有 source_refs 存在性检查？broken links 清单是否已清零？
-  - src_unknown
-    framework_lens: 阶段硬阻断 / 强警告
+  - framework_lens: 阶段硬阻断 / 强警告
     follow_up_question: 当前 enrich 步骤是否有不可跳过的交付物和举证记录？status 变更是否被自动审计？
-  - src_unknown
-    framework_lens: 基础链路优先 / 左腿右腿交替走
+  - framework_lens: 基础链路优先 / 左腿右腿交替走
     follow_up_question: 基础链路（0 broken links、artifact validate 通过）是否已稳定？再讨论高级功能。
-  - src_unknown
-    framework_lens: 失败模式从事故生长
+  - framework_lens: 失败模式从事故生长
     follow_up_question: 每条失败模式是否有对应的真实案例、症状描述和可执行修复？
 related:
   - src_unknown

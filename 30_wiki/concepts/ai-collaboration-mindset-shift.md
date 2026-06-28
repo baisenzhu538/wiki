@@ -1,4 +1,5 @@
 ---
+
 id: ai-collaboration-mindset-shift
 title: "AI协作思维转变：从新手到管理者"
 type: concept
@@ -32,17 +33,13 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "新手 vs 管理者"
+  - lens: "新手 vs 管理者"
     follow_up: "强制列出3个可能的改进点，检验判断力"
-  - src_unknown
-    lens: "question vs problem"
+  - lens: "question vs problem"
     follow_up: "每次提问前先分类：这是problem还是question？"
-  - src_unknown
-    lens: "缺少验收标准"
+  - lens: "缺少验收标准"
     follow_up: "定义before/after、真实锚点、受益对象、可解性四要素"
-  - src_unknown
-    lens: "执行者循环"
+  - lens: "执行者循环"
     follow_up: "检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴"
 ---# AI协作思维转变：从"新手"到"管理者"
 

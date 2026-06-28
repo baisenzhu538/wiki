@@ -1,6 +1,7 @@
 ---
 
 
+
 id: fd-forward-deployment
 title: Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 type: concept
@@ -27,11 +28,11 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14# Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
-
+---
 > 来源：听脑录音 6086504 + 公开信源六层交叉验证  
 > 置信度：核心机制 0.85+，客单价跨度 0.55，绝对化断言需降级
 
----
+
 
 ## 主题定义
 

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -44,6 +45,7 @@ related:
 - [[yt-entrepreneur-research-camp]]
 - [[dk-modeling-logical-cleanliness-root]]
 - [[case-modeling-essence-levels]]
+---
 # 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
@@ -57,7 +59,8 @@ related:
 ### 六层认知模型
 
 | 层级 | 名称 | 做事依据 | 特征 |
-|------|------|---------|------|
+|
+---|------|---------|------|
 | **L0** | 盲目创新 | 自我想象、大胆设想、伟大愿景 | 难度最低——不依赖任何输入 |
 | **L1** | 事实/经验 | 对标案例、最佳实践、专家经验 | 普遍总结，数量巨大 |
 | **L2** | 常识 | 行业常识、专家共识观点 | — |

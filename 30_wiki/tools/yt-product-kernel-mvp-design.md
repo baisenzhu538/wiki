@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
+  - framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
     follow_up_question: "你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？"
-  - src_unknown
-    framework_lens: 内核MVP设计——MVP不是完整产品，是验证工具
+  - framework_lens: 内核MVP设计——MVP不是完整产品，是验证工具
     follow_up_question: "MVP的目标是验证假设，还是提供完美体验？"
-  - src_unknown
-    framework_lens: 内核MVP设计——MVP需要可衡量
+  - framework_lens: 内核MVP设计——MVP需要可衡量
     follow_up_question: "你的MVP有明确的验证指标吗？能衡量关键转化率吗？"
-  - src_unknown
-    framework_lens: 内核MVP设计——资源应聚焦核心
+  - framework_lens: 内核MVP设计——资源应聚焦核心
     follow_up_question: "非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？"
-  - src_unknown
-    framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
+  - framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
     follow_up_question: "MVP和最终产品的区别是什么？MVP验证什么假设？"
 
 ---

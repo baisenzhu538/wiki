@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept
@@ -29,8 +30,7 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
-
-
+---
 # 一堂全课程目录索引
 
 > 来源：一堂四张课程清单 OCR 提取。[[一堂]] | [[yt-system-course-map-lecture]]
@@ -42,7 +42,8 @@ trust_level: medium
 ## 课程总览
 
 | 地图 | 课程数 | 核心主题 |
-|------|--------|---------|
+|
+---|--------|---------|
 | #创业必修 | 50+ | 预判→起盘→增长→底层逻辑 |
 | #管理必修 | 30+ | 管项目→管团队→管业务→管公司 |
 | #个人必修 | 20+ | 提认知→练能力→形成竞争力 |

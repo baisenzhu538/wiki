@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-Agent开工检查单制作法
 title: 技能：Agent开工检查单制作法
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 执行失控
+- lens: 执行失控
   follow_up: 先和AI把任务做一遍，记录问题和决策点。把坑提前暴露，生成检查单
-- src_unknown
-  lens: 重复交代
+- lens: 重复交代
   follow_up: 把历史经验沉淀为检查单，开工前按单执行。隐性经验显性化
-- src_unknown
-  lens: 审核遗漏
+- lens: 审核遗漏
   follow_up: 检查单必须包含：输入验证、边界条件、异常处理、输出格式。逐项确认
-- src_unknown
-  lens: 检查单臃肿
+- lens: 检查单臃肿
   follow_up: 检查单控制在10项以内，按优先级排序。关键项必须执行，次要项可选
-- src_unknown
-  lens: 经验空白
+- lens: 经验空白
   follow_up: 先用Do-first法跑一遍任务，记录问题。没有经验就创造经验，不能跳过第一步
 ---# 技能：Agent开工检查单制作法
 

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
+  - framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
     follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？"
-  - src_unknown
-    framework_lens: 壁垒建设路线图——壁垒建设需要时间，但可以加速
+  - framework_lens: 壁垒建设路线图——壁垒建设需要时间，但可以加速
     follow_up_question: "你的壁垒建设瓶颈是什么？资源、时间、还是方法？"
-  - src_unknown
-    framework_lens: 壁垒建设路线图——壁垒需要用户感知，才能转化为竞争优势
+  - framework_lens: 壁垒建设路线图——壁垒需要用户感知，才能转化为竞争优势
     follow_up_question: "你的壁垒是否转化为用户价值？用户是否因为壁垒而选择你？"
-  - src_unknown
-    framework_lens: 壁垒建设路线图——壁垒建设需要聚焦，不能分散
+  - framework_lens: 壁垒建设路线图——壁垒建设需要聚焦，不能分散
     follow_up_question: "你的壁垒建设是否聚焦？核心壁垒是什么？投入是否集中？"
-  - src_unknown
-    framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
+  - framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
     follow_up_question: "你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？"
 
 ---

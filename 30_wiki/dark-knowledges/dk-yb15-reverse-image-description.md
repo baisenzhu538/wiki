@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# AI逆向反推图片描述法
+trust_level: low
+---
+
+# AI逆向反推图片描述法
 
 ## 原始表述
 

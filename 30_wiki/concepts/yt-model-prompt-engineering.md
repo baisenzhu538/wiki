@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
@@ -39,11 +40,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 停留在技巧层
+- framework_lens: 停留在技巧层
   follow_up_question: 你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层
-- src_unknown
-  framework_lens: 人类判断力缺失
+- framework_lens: 人类判断力缺失
   follow_up_question: 你最近一次对AI输出说了"这个不对，因为..."是什么时候？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 title: KDO Protocol Implementation Roadmap — Detailed Recommendation Report
 type: improvement-plan
 domain:
@@ -22,6 +23,7 @@ source_refs:
   - src_20260613_12d63c1c-notes
   - src_20260613_687c4ec0-transcript
 confidence: 0.6
+---
 # KDO Protocol Implementation Roadmap
 
 ## Executive Summary
@@ -30,7 +32,7 @@ On 2026-05-02 to 2026-05-03, a protocol design session produced the foundational
 
 **Current Status**: Foundation laid. The vault now has a single-entry operating contract (`PROTOCOL.md`), a JSON Schema for concept validation (`schemas/concept.yaml`), and a knowledge-graph entrypoint (`index.md`). However, the system remains "declaration-only" — automated enforcement, cross-schema coverage, and knowledge-gap closure are the next frontiers.
 
----
+
 
 ## Phase 0: Completed Foundation
 

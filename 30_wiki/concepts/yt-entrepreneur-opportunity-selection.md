@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -51,6 +52,7 @@ related:
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-business-growth]]
+---
 # 机会选择
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -95,7 +97,8 @@ related:
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
-|------|---------|------|
+|
+---|---------|------|
 | 关联 | [[yitang-course-map]] | 一堂全课程地图，本课程的知识坐标 |
 | 关联 | [[yt-system-course-catalog]] | 全量课程目录与选课口令 |
 | 关联工具 | [[yt-entrepreneur-five-step-method]] | 一堂五步法总纲 |

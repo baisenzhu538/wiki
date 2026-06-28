@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-Agent技能市场设计法
 title: 技能：Agent技能市场设计法
 type: tool
@@ -32,20 +33,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 人Agent混淆
+- lens: 人Agent混淆
   follow_up: 平台必须提供给Agent的API接口，不是给人的UI。Agent能自动搜索、下载、安装、上报
-- src_unknown
-  lens: 分类错配
+- lens: 分类错配
   follow_up: 分类基于任务类型和能力范围，不是品牌或场景。目的是路由不是导航
-- src_unknown
-  lens: 信息人工化
+- lens: 信息人工化
   follow_up: 让人用自然语言告诉AI需求，AI自动生成标准化的Skill描述和元信息
-- src_unknown
-  lens: 反馈缺失
+- lens: 反馈缺失
   follow_up: Agent使用后自动上报效果数据，维护者通过反馈判断质量，决定更新或下架
-- src_unknown
-  lens: 市场幻觉
+- lens: 市场幻觉
   follow_up: 真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹
 ---
 # 技能：Agent技能市场设计法

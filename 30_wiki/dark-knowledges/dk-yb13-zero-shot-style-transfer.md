@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# 零训练风格迁移：三要素描述法
+trust_level: low
+---
+
+# 零训练风格迁移：三要素描述法
 
 ## 原始表述
 

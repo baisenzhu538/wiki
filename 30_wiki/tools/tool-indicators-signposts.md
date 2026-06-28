@@ -22,10 +22,11 @@ related:
   - "[[tool-key-assumptions-check]]"
   - "[[tool-red-team-analysis]]"
   - "[[tool-ci-implement-phase]]"
-reviewer: "欧阳锋"
+status: reviewed
+reviewed_by: 欧阳锋
 review_date: "2026-06-28"
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"
 ---

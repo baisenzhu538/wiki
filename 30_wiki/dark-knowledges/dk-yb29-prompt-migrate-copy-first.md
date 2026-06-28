@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# AIGC提示词迁移：先照搬再微调的务实策略
+trust_level: low
+---
+
+# AIGC提示词迁移：先照搬再微调的务实策略
 
 ## 原始表述
 

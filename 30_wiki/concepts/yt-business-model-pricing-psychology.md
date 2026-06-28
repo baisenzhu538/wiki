@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
+  - framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
     follow_up_question: "你的定价是否覆盖了成本？用户是否觉得这个价格值？"
-  - src_unknown
-    framework_lens: 定价心理学——低价竞争不可持续
+  - framework_lens: 定价心理学——低价竞争不可持续
     follow_up_question: "你的定价是基于成本+利润，还是基于竞品？如果竞品降价，你怎么办？"
-  - src_unknown
-    framework_lens: 定价心理学——定价需要价值支撑
+  - framework_lens: 定价心理学——定价需要价值支撑
     follow_up_question: "用户是否感知到你的价值？定价是否和价值匹配？"
-  - src_unknown
-    framework_lens: 定价心理学——版本设计需要锚定效应
+  - framework_lens: 定价心理学——版本设计需要锚定效应
     follow_up_question: "你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？"
-  - src_unknown
-    framework_lens: 定价心理学——定价需要数据支撑
+  - framework_lens: 定价心理学——定价需要数据支撑
     follow_up_question: "你做过定价测试吗？用户愿意为不同价格付费的比例是多少？"
 
 ---

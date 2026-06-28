@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
@@ -40,14 +41,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 壁垒类型选择
+- framework_lens: 壁垒类型选择
   follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？
-- src_unknown
-  framework_lens: 壁垒强弱三维度
+- framework_lens: 壁垒强弱三维度
   follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
-- src_unknown
-  framework_lens: 规模不经济对抗
+- framework_lens: 规模不经济对抗
   follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
 
 ---

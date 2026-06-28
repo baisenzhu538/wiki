@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-core-characteristics
 title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
@@ -43,14 +44,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 角色分离 / 决策者与使用者分离
+- framework_lens: 角色分离 / 决策者与使用者分离
   follow_up_question: 谁是最终付费决策者？他的考核指标、成本结构和决策链上还有哪些影响者？
-- src_unknown
-  framework_lens: 务实理性 / 资源不等于商业价值
+- framework_lens: 务实理性 / 资源不等于商业价值
   follow_up_question: 该资源是否对应客户真实预算和投放场景？能否量化给客户带来的收益？
-- src_unknown
-  framework_lens: 周期较长 / 回款与财务确认周期
+- framework_lens: 周期较长 / 回款与财务确认周期
   follow_up_question: 成交、交付、回款、财务确认各周期分别是多少？自由现金流何时转正？
 
 ---

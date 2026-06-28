@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
+  - framework_lens: B2B定价策略——B2B客户分层，需要差异化定价
     follow_up_question: "你的B2B客户中，SMB和Enterprise的需求差异大吗？定价是否分层？"
-  - src_unknown
-    framework_lens: B2B定价策略——Enterprise客户需要定制定价
+  - framework_lens: B2B定价策略——Enterprise客户需要定制定价
     follow_up_question: "你的Enterprise客户是否要求定制？定制服务的定价是否覆盖成本？"
-  - src_unknown
-    framework_lens: B2B定价策略——定价需要匹配客户价值感知
+  - framework_lens: B2B定价策略——定价需要匹配客户价值感知
     follow_up_question: "你的SMB和Enterprise定价是否匹配各自的价值感知？"
-  - src_unknown
-    framework_lens: B2B定价策略——B2B定价需要考虑销售周期
+  - framework_lens: B2B定价策略——B2B定价需要考虑销售周期
     follow_up_question: "你的B2B销售周期多长？定价是否考虑了销售成本？"
-  - src_unknown
-    framework_lens: B2B定价策略——B2B定价需要系统化方法
+  - framework_lens: B2B定价策略——B2B定价需要系统化方法
     follow_up_question: "你的B2B定价是基于客户价值、竞品、还是成本？"
 
 ---

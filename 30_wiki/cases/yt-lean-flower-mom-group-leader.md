@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
@@ -38,14 +39,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
+- framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
   follow_up_question: 我能否把"自购用户"与"分销团长"拆成两张用户画像，分别列出她们的用户/场景/问题？
-- src_unknown
-  framework_lens: 跳过了"意愿"这个前置假设，直接用重资产测试"商业模式"，属于过早固化。
+- framework_lens: 跳过了"意愿"这个前置假设，直接用重资产测试"商业模式"，属于过早固化。
   follow_up_question: 在没租仓库、没做小程序之前，能否先用3-5个种子妈妈人工跑一轮分销，验证她们是否真愿意帮人买花？
-- src_unknown
-  framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
+- framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
   follow_up_question: 除了佣金，团长持续开团还需要哪些支撑（素材、社群互动、损耗兜底）？哪些可通过低成本的定性访谈先排除？
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: feishu-docx-pagination-extraction
 title: 飞书 Docx API 分页安全提取 + 流式处理模式
 type: skill
@@ -24,11 +25,9 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
+  - framework_lens: API分页遗漏——fetch_children()没有检查has_more+page_token
     follow_up_question: "你的提取脚本在调用/blocks/{id}/children后，有没有检查resp['data']['has_more']？"
-  - src_unknown
-    framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
+  - framework_lens: 流式提取模式——逐页拉取→逐页转换→逐批写入，类比浏览器虚拟滚动
     follow_up_question: "你的提取是等全部加载完再处理，还是一页一页流式处理？"
 ---
 

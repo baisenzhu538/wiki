@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-idea-spark
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 灵感可工程化
+- framework_lens: 灵感可工程化
   follow_up_question: 你最近一次系统生成创意是在什么情况下触发的？
-- src_unknown
-  framework_lens: 发散先于收敛
+- framework_lens: 发散先于收敛
   follow_up_question: 在评价任何 idea 之前，你生成了多少个候选方案？
-- src_unknown
-  framework_lens: 创意必须对准问题
+- framework_lens: 创意必须对准问题
   follow_up_question: 这个创意解决了哪个用户的哪个具体问题？
 updated_at: '2026-06-16'
 author: 老顽童

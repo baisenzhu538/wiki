@@ -1,4 +1,5 @@
 ---
+
 id: tool-半肥猫-course-to-skill-workflow
 title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 type: tool
@@ -35,20 +36,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 价值判断缺失
+- lens: 价值判断缺失
   follow_up: 执行步骤1：评估课程是否有明确方法论和使用场景，无则放弃
-- src_unknown
-  lens: 测试不足
+- lens: 测试不足
   follow_up: 检查是否完成步骤7：5正向+5反向+1高风险测试，高风险场景拒绝能力=3分
-- src_unknown
-  lens: 证据校准缺失
+- lens: 证据校准缺失
   follow_up: 执行步骤5：每个主张标注事实/观点/待验证，防止丝滑错误放大
-- src_unknown
-  lens: 维护缺失
+- lens: 维护缺失
   follow_up: 执行步骤8：设计版本号+反馈模板+回归测试周期，维护成本计入总投入
-- src_unknown
-  lens: 版权风险
+- lens: 版权风险
   follow_up: 步骤1前必须确认授权，未经授权的课程转Skill涉及版权风险
 ---
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化

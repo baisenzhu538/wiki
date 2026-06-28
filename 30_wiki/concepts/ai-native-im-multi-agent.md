@@ -2,6 +2,7 @@
 
 
 
+
 id: ai-native-im-multi-agent
 title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
@@ -26,12 +27,13 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
+---
 # AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 
 > 来源：听脑录音 5383332 + 公开信源六层交叉验证  
 > 置信度：核心判断 0.85+，「一人团队替代大型团队」等营销话术需降级
 
----
+
 
 ## 主题定义
 

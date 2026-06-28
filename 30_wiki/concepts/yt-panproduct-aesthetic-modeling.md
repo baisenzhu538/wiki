@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-aesthetic-modeling
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 审美白盒化：从感觉变为可分析
+- framework_lens: 审美白盒化：从感觉变为可分析
   follow_up_question: 如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？
-- src_unknown
-  framework_lens: 模型让比较产生结构
+- framework_lens: 模型让比较产生结构
   follow_up_question: 两个得分相近的案例，在设计取舍上有什么不同？
-- src_unknown
-  framework_lens: 评价模型应具备生成性
+- framework_lens: 评价模型应具备生成性
   follow_up_question: 用模型评估一个你还没做的方案，它暴露的最大风险点是什么？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
@@ -34,11 +35,9 @@ wiki_refs:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 预判没有产出
+- framework_lens: 预判没有产出
   follow_up_question: 你的预判结果能否让另一个人不看你在场讲解就能理解并评判？
-- src_unknown
-  framework_lens: 预判深度不足
+- framework_lens: 预判深度不足
   follow_up_question: 你完成了五步法画布和硬伤排除记录吗？如果没有，你还在L1/L2
 updated_at: '2026-06-16'
 author: 老顽童

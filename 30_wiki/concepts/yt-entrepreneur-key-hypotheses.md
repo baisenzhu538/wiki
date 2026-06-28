@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-key-hypotheses
 confidence: 0.85
 created_at: 2026-05-06
@@ -58,11 +59,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 假设没有优先级
+- framework_lens: 假设没有优先级
   follow_up_question: 如果只能验证一个假设，你选哪个？为什么它对项目生死影响最大？
-- src_unknown
-  framework_lens: 两类假设失衡
+- framework_lens: 两类假设失衡
   follow_up_question: 你的验证计划中，价值假设和增长假设各占多少比例？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
@@ -39,14 +40,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
+- framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
   follow_up_question: 这个假设能否通过专家访谈或行业对标先排除？什么信息已经被他人验证过？
-- src_unknown
-  framework_lens: 验证手段未围绕产品形态与阶段展开
+- framework_lens: 验证手段未围绕产品形态与阶段展开
   follow_up_question: 产品是书、APP、课程还是线下训练营？不同形态的样本量与核心转化率标准是什么？
-- src_unknown
-  framework_lens: 未优先使用低成本的调研与竞品对标
+- framework_lens: 未优先使用低成本的调研与竞品对标
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
 
 ---

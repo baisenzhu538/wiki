@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-knowledge-extraction
 component_of:
 - src_unknown
@@ -57,17 +58,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 域分类 / 反模式
+- framework_lens: 域分类 / 反模式
   follow_up_question: 复杂域知识是否被流程化萃取并标注为最佳实践？
-- src_unknown
-  framework_lens: 时效性 / 边界诚实
+- framework_lens: 时效性 / 边界诚实
   follow_up_question: 团队是否把历史案例当作操作指南直接套用？
-- src_unknown
-  framework_lens: 学习迁移 / 效果验证
+- framework_lens: 学习迁移 / 效果验证
   follow_up_question: 知识库 50+ 文档中多少比例被实际使用？
-- src_unknown
-  framework_lens: 激励机制 / 人力因素
+- framework_lens: 激励机制 / 人力因素
   follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
 updated_at: '2026-06-18'
 author: unknown

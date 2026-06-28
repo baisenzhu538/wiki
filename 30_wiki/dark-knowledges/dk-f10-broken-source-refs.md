@@ -1,4 +1,5 @@
 ---
+
 id: dk-f10-broken-source-refs
 title: F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 type: dk
@@ -30,7 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
-
+---
 ## 原始表述/核心洞察
 
 ### 原始表述
@@ -79,7 +80,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 表现 | 修复方法 |
-|---|---|---|
+|
+|---|---|
 | 完全空源 | `source_refs: []` | 补充原始源文件 ID，至少 1 条 |
 | 源文件不存在 | source_refs 指向的 ID 在仓库中找不到 | 核对源文件名/ID，修正或重新 ingest |
 | 仅指向目录 | source_refs 写的是 `10_raw/sources/` 而非具体文件 | 替换为具体源文件路径或 ID |

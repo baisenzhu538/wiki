@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -52,6 +53,7 @@ related:
 - [[yt-personal-verbatim-script]]
 - [[yt-personal-inspiration-flash]]
 - [[yt-personal-pan-product-aesthetics]]
+---
 # 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -59,7 +61,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 任何需要为他人创造价值的场景——不仅限于数字产品 |
 | **适合** | 希望提升问题定义和解决方案设计能力的职场人 |
 | **不适合** | 完全不需要考虑用户、只看内部规则的任务 |

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ef-002-bom-version-async
 title: BOM 多版本不同步：你手里的文件和产线手里的不是同一份
 type: dk
@@ -25,7 +26,7 @@ author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
-
+---
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份
 
 ## 原始表述
@@ -52,7 +53,8 @@ trust_level: medium
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 多人协作的硬件项目 |
 | ✅ 适合 | 需要外发打样或量产的硬件项目 |
 | ✅ 适合 | 有频繁改版需求的硬件产品 |

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-business-modeling
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 业务模型 = 变量之间的关系
+- framework_lens: 业务模型 = 变量之间的关系
   follow_up_question: 公式中哪个变量变动10%会对结果影响最大？
-- src_unknown
-  framework_lens: 单位经济模型需要双向审视
+- framework_lens: 单位经济模型需要双向审视
   follow_up_question: 如果收入翻倍，哪些成本会以相同或更高速度增长？
-- src_unknown
-  framework_lens: 业务模型是活的假设集合
+- framework_lens: 业务模型是活的假设集合
   follow_up_question: 最近一个月，模型的哪个假设被数据证伪或证实了？
 updated_at: '2026-06-16'
 author: 老顽童

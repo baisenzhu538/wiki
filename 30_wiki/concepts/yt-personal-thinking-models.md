@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -48,6 +49,7 @@ related:
 - [[yt-personal-y-model-practice]]
 - [[yt-entrepreneur-research-camp]]
 - [[yt-personal-knowledge-extraction]]
+---
 # 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
@@ -55,7 +57,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 需要把隐性经验显性化的专家、管理者或创业者 |
 | **适合** | 希望在团队内部复制成功模式的人 |
 | **不适合** | 经验过于单一、样本不足的新手 |

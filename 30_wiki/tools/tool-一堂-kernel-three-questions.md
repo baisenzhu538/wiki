@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-kernel-three-questions
 title: 技能：内核要素三问验证法
 type: tool
@@ -36,20 +37,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 优化性当决定性
+- lens: 优化性当决定性
   follow_up: 执行决定性测试：去掉后转化率会大降吗？要求数据或用户原话支撑
-- src_unknown
-  lens: 完备性缺失
+- lens: 完备性缺失
   follow_up: 画用户决策因果链，检查从'看到产品'到'付费/留存'是否有断点
-- src_unknown
-  lens: 过早细化
+- lens: 过早细化
   follow_up: 标注验证状态，存疑项默认'做而不信'，先验证再细化
-- src_unknown
-  lens: 内部观点代替用户事实
+- lens: 内部观点代替用户事实
   follow_up: 优化性测试必须访谈3-5个真实用户，收集事实而非结论
-- src_unknown
-  lens: 验证停止
+- lens: 验证停止
   follow_up: 三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整
 ---
 # 技能：内核要素三问验证法

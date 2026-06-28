@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 内核假设测试——假设未测试
+  - framework_lens: 内核假设测试——假设未测试
     follow_up_question: "你的内核假设是什么？用什么方法测试？测试结果是什么？"
-  - src_unknown
-    framework_lens: 内核假设测试——测试方法需要足够强
+  - framework_lens: 内核假设测试——测试方法需要足够强
     follow_up_question: "你的测试是口头验证还是行为验证？行为验证的可信度更高。"
-  - src_unknown
-    framework_lens: 内核假设测试——需要多维度测试
+  - framework_lens: 内核假设测试——需要多维度测试
     follow_up_question: "你测试了'用户愿意用'，但测试了'愿意付'和'愿意推荐'吗？"
-  - src_unknown
-    framework_lens: 内核假设测试——测试结果需要指导行动
+  - framework_lens: 内核假设测试——测试结果需要指导行动
     follow_up_question: "如果测试结果不支持假设，你会调整方向吗？"
-  - src_unknown
-    framework_lens: 内核假设测试——测试是降低风险的必要投入
+  - framework_lens: 内核假设测试——测试是降低风险的必要投入
     follow_up_question: "直接做的风险是什么？如果方向错误，损失有多大？"
 
 ---

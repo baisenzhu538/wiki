@@ -1,4 +1,6 @@
 ---
+
+
 title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
@@ -28,7 +30,9 @@ related:
 - [[case-unit-model-gashapon]]
 - [[yt-management-scientific-decision]]
 - [[yt-decision-review]]
+---
 - [[dk-modeling-logical-cleanliness-root]]
+
 ## Reusable Knowledge
 
 ### 六段进阶路径
@@ -48,7 +52,8 @@ related:
 ### 15个常见错误（成本项遗漏清单）
 
 | # | 错误类型 | 典型场景 | 后果 |
-|---:|:---|:---|:---|
+|
+:|:---|:---|:---|
 | 1 | 忽略折旧 | 设备、装修、摄像头假设能用10年 | 实际3-4年就要更换，利润率被大幅压缩 |
 | 2 | 忽略账期 | 资金被占用6个月，未算资金成本 | 现金流断裂，被迫高利贷周转 |
 | 3 | 忽略税 | 只算毛利不算增值税/所得税 | 实际利润比预期低20-30% |

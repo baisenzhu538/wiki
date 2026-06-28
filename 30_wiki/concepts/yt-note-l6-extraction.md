@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-l6-extraction
 title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
@@ -36,20 +37,15 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 剩余脑力足够支撑接收+提取+建模三重任务
+- framework_lens: 剩余脑力足够支撑接收+提取+建模三重任务
   follow_up_question: 你能否在5分钟内把一场1小时的分享压缩成一个可复用的最小模型？
-- src_unknown
-  framework_lens: 知识产品化：上下文解耦
+- framework_lens: 知识产品化：上下文解耦
   follow_up_question: 一个不熟悉背景的人拿着你的模型，能否在类似场景下做出一致判断？
-- src_unknown
-  framework_lens: 资产价值=复用次数×每次收益
+- framework_lens: 资产价值=复用次数×每次收益
   follow_up_question: 这个模型最近一次被调用是什么时候？解决了什么问题？
-- src_unknown
-  framework_lens: 从描述性知识跃迁到生成性模型
+- framework_lens: 从描述性知识跃迁到生成性模型
   follow_up_question: 用这个模型能否在事情发生前做出判断？误差主要来自模型本身还是信息不足？
-- src_unknown
-  framework_lens: 元能力：萃取的萃取
+- framework_lens: 元能力：萃取的萃取
   follow_up_question: 你能否把这次萃取的方法教给另一个人，并让他在不同主题上复现？
 author: unknown
 reviewed_by: 欧阳锋

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: modeling-capability-for-kdo
 title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
@@ -42,17 +43,13 @@ created_at: 2026-06-15
 trust_level: high
 updated_at: '2026-06-17'
 diagnostic_signals:
-- src_unknown
-  framework_lens: 建模流水线分级
+- framework_lens: 建模流水线分级
   follow_up_question: 你的素材是否按 L3/L4/L5 分级？每个阶段是否有对应的门禁和交付物？
-- src_unknown
-  framework_lens: 阶段不可跳级
+- framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的 SOP/清单？执行率达到 90% 以上再进入抽象建模。
-- src_unknown
-  framework_lens: 模型武器库匹配
+- framework_lens: 模型武器库匹配
   follow_up_question: 这个问题是高频重复/跨场景/战略底层判断？对应清单/框架/本质哪种模型？
-- src_unknown
-  framework_lens: 人在环中建模五步法
+- framework_lens: 人在环中建模五步法
   follow_up_question: AI 输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
 
 ---# KDO 内容路线决策：建模能力在知识库建设中的应用

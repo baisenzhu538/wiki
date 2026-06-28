@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,23 +26,17 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核段位——L1缺价值意识
+  - framework_lens: 产品内核段位——L1缺价值意识
     follow_up_question: "你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。"
-  - src_unknown
-    framework_lens: 产品内核段位——L2有价值意识但无最小意识
+  - framework_lens: 产品内核段位——L2有价值意识但无最小意识
     follow_up_question: "如果只能保留20%的功能，你会保留哪些？为什么？"
-  - src_unknown
-    framework_lens: 产品内核段位——L3有最小意识，但未验证
+  - framework_lens: 产品内核段位——L3有最小意识，但未验证
     follow_up_question: "你的内核假设验证过吗？关键转化率是多少？"
-  - src_unknown
-    framework_lens: 产品内核段位——L4能评估测试，但未动态调整
+  - framework_lens: 产品内核段位——L4能评估测试，但未动态调整
     follow_up_question: "你的内核从定义到现在变化过吗？如果市场变化，内核是否需要调整？"
-  - src_unknown
-    framework_lens: 产品内核段位——L5能动态调整，但未迁移
+  - framework_lens: 产品内核段位——L5能动态调整，但未迁移
     follow_up_question: "你能把当前产品的内核逻辑应用到其他领域吗？"
-  - src_unknown
-    framework_lens: 产品内核段位——团队段位断层
+  - framework_lens: 产品内核段位——团队段位断层
     follow_up_question: "你们团队对内核的认知在哪个段位？是否一致？"
 
 ---

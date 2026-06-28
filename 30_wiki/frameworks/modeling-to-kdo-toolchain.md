@@ -2,6 +2,7 @@
 
 
 
+
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
@@ -37,17 +38,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 三段论门禁映射
+- framework_lens: 三段论门禁映射
   follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
-- src_unknown
-  framework_lens: KDO管线五阶段
+- framework_lens: KDO管线五阶段
   follow_up_question: 素材是P0/P1/P2哪个级别？P0走王语嫣门禁，P2老顽童直接消化。
-- src_unknown
-  framework_lens: 人在环中建模五步法
+- framework_lens: 人在环中建模五步法
   follow_up_question: AI输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
-- src_unknown
-  framework_lens: 阶段不可跳级
+- framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
 

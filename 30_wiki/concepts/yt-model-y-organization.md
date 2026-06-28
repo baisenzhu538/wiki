@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -44,6 +45,7 @@ related:
 - [[yt-model-progress-map]]
 - [[ocr-一堂-个人修炼-y模型]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
@@ -53,7 +55,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意理论与实践结合 | 不偏执 |
 | ✅ 能反思认知 | 会提炼模型 |
 | ✅ 愿意知行合一 | 能落地 |

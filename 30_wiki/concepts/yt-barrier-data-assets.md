@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
+  - framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
     follow_up_question: "你的数据是否用于优化产品？数据越多，产品是否越好？"
-  - src_unknown
-    framework_lens: 数据资产——数据需要保护，防止被竞品获取
+  - framework_lens: 数据资产——数据需要保护，防止被竞品获取
     follow_up_question: "你的数据是否有保护措施？数据获取成本是否足够高？"
-  - src_unknown
-    framework_lens: 数据资产——数据质量比数量重要，需要数据治理
+  - framework_lens: 数据资产——数据质量比数量重要，需要数据治理
     follow_up_question: "你的数据质量如何？是否有数据清洗和治理机制？"
-  - src_unknown
-    framework_lens: 数据资产——数据优势需要转化为用户可感知的价值
+  - framework_lens: 数据资产——数据优势需要转化为用户可感知的价值
     follow_up_question: "你的数据优势是否转化为产品体验？用户是否感受到数据带来的价值？"
-  - src_unknown
-    framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
+  - framework_lens: 数据资产——数据壁垒的核心是数据，不是算法
     follow_up_question: "算法被复制后，你的数据是否仍然构成壁垒？数据获取成本是否足够高？"
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-wanghuan-ai-native-definition
 title: '王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程'
 type: concept
@@ -20,17 +21,13 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-  lens: 演员思维固化
+- lens: 演员思维固化
   follow_up: 检查工作方式是否改变：人是否仍在亲自执行大部分步骤，AI 是否只是更快的打字机
-- src_unknown
-  lens: 可沉淀的高频任务
+- lens: 可沉淀的高频任务
   follow_up: 把它从单次任务改成模板或产品，记录输入字段与输出标准
-- src_unknown
-  lens: 默认纳入缺失
+- lens: 默认纳入缺失
   follow_up: 在每次开工前加一个固定问题：这件事的哪一步可以交给 AI 执行或辅助？
-- src_unknown
-  lens: 只纳不沉
+- lens: 只纳不沉
   follow_up: 建立 Prompt 模板库或 AI 业务档案，把高频输出固化为可复用资产
 related:
   - src_unknown

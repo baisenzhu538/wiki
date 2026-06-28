@@ -1,4 +1,5 @@
 ---
+
 id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dk
@@ -31,7 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
-
+---
 ## 原始表述
 
 > **触发命令**：`kdo improve --apply`
@@ -74,7 +75,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 触发条件 | 表面症状 | 后果 |
-|---|---|---|---|
+|
+|---|---|---|
 | 并发覆盖写 | `snapshot_wiki_page()` 与 `cmd_improve()` 各自独立保存 state | improve 成功但 wiki_snapshots 为空 | revision 历史丢失，无法回滚 |
 | 旧 state dict 写回 | 调用方持有旧 state，子函数写入后被覆盖 | state 字段值回退到执行前 | 反馈状态、快照数据不一致 |
 | 多进程同时写 state | 自动化管线中多个 kdo 实例并行 | 无报错但 state.json 损坏或丢失 | 系统状态不可恢复 |

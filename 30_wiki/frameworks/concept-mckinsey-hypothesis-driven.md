@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
@@ -10,23 +11,18 @@ domain:
   - src_unknown
   - src_unknown
 bridges_to:
-- src_unknown
-  relation: provides_foundation_for
+- relation: provides_foundation_for
   description: Hypothesis-Driven 是'关键假设'概念的底层工作流
   context: 一堂有'关键假设'概念和259工具，但缺少假设驱动工作流的系统卡片——从'形成初始假设'到'验证/修正假设'的完整闭环
-- src_unknown
-  relation: complements
+- relation: complements
   description: 麦肯锡版本聚焦商业分析问题诊断，一堂版本聚焦创业假设验证
   context: 两套假设驱动方法论同源但场景不同：麦肯锡在解决'已知问题的最优解'，一堂在验证'未知市场的可行性'
 diagnostic_signals:
-- src_unknown
-  framework_lens: Hypothesis-Driven 检查：是否已形成可验证的初始假设
+- framework_lens: Hypothesis-Driven 检查：是否已形成可验证的初始假设
   follow_up_question: 如果让你用一句话说出'最可能导致这个问题的3个原因'，你会说什么？这就是你的初始假设
-- src_unknown
-  framework_lens: Hypothesis-Driven 检查：数据收集是否围绕特定假设展开
+- framework_lens: Hypothesis-Driven 检查：数据收集是否围绕特定假设展开
   follow_up_question: 在你收集的所有数据中，有多少是为了'验证某个具体假设'而收集的？如果没有，你需要先形成假设再收集数据
-- src_unknown
-  framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
+- framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
   - src_unknown

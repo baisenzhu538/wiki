@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 跨步三——规模化后需要壁垒保护利润
+  - framework_lens: 跨步三——规模化后需要壁垒保护利润
     follow_up_question: "你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？"
-  - src_unknown
-    framework_lens: 跨步三——增长天花板需要壁垒突破
+  - framework_lens: 跨步三——增长天花板需要壁垒突破
     follow_up_question: "你的壁垒能否帮你拓展新市场、新用户、新场景？"
-  - src_unknown
-    framework_lens: 跨步三——增长被复制说明壁垒不足
+  - framework_lens: 跨步三——增长被复制说明壁垒不足
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
-  - src_unknown
-    framework_lens: 跨步三——壁垒建设需要基于现有优势
+  - framework_lens: 跨步三——壁垒建设需要基于现有优势
     follow_up_question: "你现有的优势是什么？用户、数据、技术、品牌？"
-  - src_unknown
-    framework_lens: 跨步三——壁垒和增长同步建设
+  - framework_lens: 跨步三——壁垒和增长同步建设
     follow_up_question: "你的增长行为是否在积累壁垒？"
 
 ---

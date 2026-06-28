@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
@@ -39,11 +40,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 口诀化
+- framework_lens: 口诀化
   follow_up_question: 你的选项池里有多少个经过拆解的选项？如果<10个，加法没做
-- src_unknown
-  framework_lens: 减法不专业
+- framework_lens: 减法不专业
   follow_up_question: 你排除每个选项时，能说出具体的硬伤类型吗？
 updated_at: '2026-06-16'
 author: 老顽童

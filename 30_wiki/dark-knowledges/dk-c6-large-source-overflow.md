@@ -1,4 +1,5 @@
 ---
+
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dk
@@ -39,7 +40,7 @@ diagnostic_signals:
   framework_lens: Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限
   follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
     填充# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
-
+---
 ## 原始表述
 
 > 一堂原文 207KB（~10 万字+），三步编译法用掉大部分 session 容量。概念卡完成后 `kdo produce` 只生成了骨架，artifact 没有空间填充。
@@ -78,7 +79,8 @@ C-6 的本质不是"文件太大"，而是**把两个高消耗阶段硬塞进同
 ## 常见失败模式
 
 | 失败模式 | 真实症状 | 可执行修复 |
-|:-----|:-----|:-----|
+|:
+--|:-----|:-----|
 | 单 session 内编译+produce 超载 | `kdo produce` 只生成标题骨架，正文为空或严重 truncated | 编译完成后开新 session，将结构化编译结果传入再 produce |
 | 未确认 angle 就进入 produce | 新 session 中 produce 方向漂移，填充内容与原始源文件重点不符 | produce 前先明确核心结论、关键证据、卡片 angle，并写入结构化笔记 |
 | 误判"骨架生成 = 完成" | 卡片状态标记为完成，但 draft 无实质内容 | 建立完成标准：draft 必须含案例/数字/关联说明，骨架 alone 不算 |

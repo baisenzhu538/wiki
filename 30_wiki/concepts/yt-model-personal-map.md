@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -43,11 +44,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 地图没有触发改变——个人修炼需要持续系统，不是一次性的认知冲击
+- framework_lens: 地图没有触发改变——个人修炼需要持续系统，不是一次性的认知冲击
   follow_up_question: 过去一周你有没有按照地图上的任何一个模块采取行动？哪怕只是时间管理的一个小调整？
-- src_unknown
-  framework_lens: 跨层跳跃——个人地图的金字塔需要逐层建设
+- framework_lens: 跨层跳跃——个人地图的金字塔需要逐层建设
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
 trust_level: medium-high

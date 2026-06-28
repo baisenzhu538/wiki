@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
@@ -44,17 +45,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: '演员模式锁定'
+- lens: '演员模式锁定'
   follow_up: '当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？'
-- src_unknown
-  lens: '导演标准缺失'
+- lens: '导演标准缺失'
   follow_up: '是否把“好结果”的标准写成了可检查的验收清单？约束和红线条是否显式化？'
-- src_unknown
-  lens: '导演模式的知识萃取价值'
+- lens: '导演模式的知识萃取价值'
   follow_up: '能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？'
-- src_unknown
-  lens: '身份切换阻力'
+- lens: '身份切换阻力'
   follow_up: '是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？'
 
 ---

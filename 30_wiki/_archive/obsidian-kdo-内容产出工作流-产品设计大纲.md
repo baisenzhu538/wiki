@@ -1,4 +1,5 @@
 ---
+
 id: obsidian-kdo-内容产出工作流-产品设计大纲
 created_at: 2026-05-01
 domain:
@@ -16,6 +17,7 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
+---
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲
 
 ## Summary
@@ -82,7 +84,8 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |
-|------|-----------|---------|
+|
+---|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 ## Open Questions
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
@@ -39,17 +40,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 边界管理
+- framework_lens: 边界管理
   follow_up_question: 能否用一句话写清本次建模的问题边界，并明确哪些现象不在研究范围内？
-- src_unknown
-  framework_lens: 事实优先
+- framework_lens: 事实优先
   follow_up_question: 目前已经收集到的正面案例、反面案例、最佳实践、搞砸案例各有多少个？
-- src_unknown
-  framework_lens: 撞击实验
+- framework_lens: 撞击实验
   follow_up_question: 我们是否设置了以“推翻模型”为目标的内部交叉评审和专家评审环节？
-- src_unknown
-  framework_lens: 认知沉没成本
+- framework_lens: 认知沉没成本
   follow_up_question: 在模型通过撞击实验之前，是否已明确禁止对外宣讲？
 ---
 

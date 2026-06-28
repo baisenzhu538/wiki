@@ -1,6 +1,7 @@
 ---
 
 
+
 id: ai单元模型口述蒋老师
 confidence: 0.85
 created_at: 2026-05-25
@@ -35,10 +36,10 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium-high# AI+单元模型口述（蒋老师/磊哥）
-
+---
 > **一句话定位**：单元模型是商业可行性的最后一道防线——AI的角色不是替人算账，而是陪人拆解。人必须守住判断权。
 
----
+
 
 ## 一、浓缩 (Condense) — 七条核心论点
 

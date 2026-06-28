@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
@@ -50,29 +51,21 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 结构完整 / 穷举
+- framework_lens: 结构完整 / 穷举
   follow_up_question: 是否遗漏隐性成本（运营、管理、风险）？
-- src_unknown
-  framework_lens: 数据溯源 / 可信度
+- framework_lens: 数据溯源 / 可信度
   follow_up_question: "'假设'类数字占比是否 ≤30%？"
-- src_unknown
-  framework_lens: 风险管理 / 不确定性
+- framework_lens: 风险管理 / 不确定性
   follow_up_question: 是否只用乐观数据做预测？
-- src_unknown
-  framework_lens: 业务分类 / 阶段适配
+- framework_lens: 业务分类 / 阶段适配
   follow_up_question: 是否把 C/D 类复杂业务当成 A/B 类简单业务建模？
-- src_unknown
-  framework_lens: 成本结构 / 会计基础
+- framework_lens: 成本结构 / 会计基础
   follow_up_question: 是否存在把固定成本按单分摊或把变动成本忽略的情况？
-- src_unknown
-  framework_lens: 公式可逆 / 决策可用
+- framework_lens: 公式可逆 / 决策可用
   follow_up_question: 给定目标利润，能否快速反推出需要的订单/用户/门店数？
-- src_unknown
-  framework_lens: 阶段适配 / 精度匹配
+- framework_lens: 阶段适配 / 精度匹配
   follow_up_question: C/D 类业务是否被强制做成 A 类精细模型？
-- src_unknown
-  framework_lens: 动态迭代 / 反馈闭环
+- framework_lens: 动态迭代 / 反馈闭环
   follow_up_question: 业务环境变化后是否重新做 ABCD 分类和压力测试？
 updated_at: '2026-06-17'
 author: 老顽童

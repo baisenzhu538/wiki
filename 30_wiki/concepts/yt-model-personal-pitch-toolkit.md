@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - src_unknown
@@ -44,11 +45,9 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 价值感没有建立
+- framework_lens: 价值感没有建立
   follow_up_question: 你说的内容是价值点还是价值感？听众能立刻感受到好处吗？
-- src_unknown
-  framework_lens: 十指不均衡
+- framework_lens: 十指不均衡
   follow_up_question: 你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开
 updated_at: '2026-06-16'
 author: 老顽童

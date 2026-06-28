@@ -2,6 +2,7 @@
 
 
 
+
 title: 基本功认知
 type: concept
 domain:
@@ -12,20 +13,15 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 速成论
+- framework_lens: 速成论
   follow_up_question: 你最近三个月刻意练习过哪项管理基本功？如果没有，学的是碎片招式
-- src_unknown
-  framework_lens: 天赋论
+- framework_lens: 天赋论
   follow_up_question: 你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌
-- src_unknown
-  framework_lens: 管理工具落地四问缺失
+- framework_lens: 管理工具落地四问缺失
   follow_up_question: 这个工具匹配当前组织阶段吗？谁对最终结果负全责？指标能拆到可验证行为数据吗？有检查点和迭代锁吗？
-- src_unknown
-  framework_lens: 学习未转化为闭环动作
+- framework_lens: 学习未转化为闭环动作
   follow_up_question: 过去三个月，你用了多少次STAR/授权量表/目标设定？有没有一个"用工具→收数据→调行为"的具体循环？
-- src_unknown
-  framework_lens: 经验论/隐性模式固化
+- framework_lens: 经验论/隐性模式固化
   follow_up_question: 你最近一次在绩效面谈、授权或冲突处理中的做法，和三个月前有什么不同？如果答不上来，说明经验没有被结构化反思
 updated_at: '2026-06-17'
 id: yt-management-basic-skills

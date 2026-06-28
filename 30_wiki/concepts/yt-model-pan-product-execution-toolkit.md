@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-pan-product-execution-toolkit
 component_of:
 - src_unknown
@@ -46,11 +47,9 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具没有形成工作流
+- framework_lens: 工具没有形成工作流
   follow_up_question: 你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环
-- src_unknown
-  framework_lens: 缺乏反馈闭环
+- framework_lens: 缺乏反馈闭环
   follow_up_question: 你打磨的每个版本有没有人看、有人用、有人反馈？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dk
@@ -39,7 +40,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 格式复杂度低估
   follow_up_question: 这个格式是否有官方/成熟库？为什么没用？# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
-
+---
 ## 原始表述 / 核心洞察
 
 > **症状**：Data Curator Clean 跗完后，`yt-decision-y-model.md` 的 `visual_analysis` 字段从 4 张图的完整结构化描述变成 5 条扁平字符串，3 张图 15 条分析丢失。`yt-model-aesthetic-progression.md` 的 `related` 字段从 4 个链接变成 `level: intermediate`。
@@ -101,7 +102,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 修复方法 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | **手写 YAML 解析器拍扁嵌套结构** | `visual_analysis` 列表内 dict 变成扁平字符串；`related` 链接丢失 | 只处理平面键值对和一层嵌套，忽略 YAML 规范复杂性 | 用 `yaml.safe_load()` / `yaml.dump()` 替代手写解析器 |
 | **批量修改不做 round-trip 校验** | 写入后才发觉数据损坏，已无法低成本回滚 | 缺少写前验证机制 | 修改前先解析并重新序列化，与原文件对比 |
 | **用字符串替换处理 YAML frontmatter** | 文件看起来还是 YAML，实际结构已损毁 | 把结构化格式当作文本处理 | 始终使用 YAML 库，避免正则/字符串替换 |

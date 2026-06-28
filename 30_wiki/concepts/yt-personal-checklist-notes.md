@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -56,6 +57,7 @@ related:
 - [[yt-personal-time-management]]
 - [[yt-personal-verbatim-script]]
 - [[yt-personal-inspiration-flash]]
+---
 # 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -63,7 +65,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 需要把复杂信息整理成可执行、可复查的结构化笔记 |
 | **适合** | 学习、复盘、方案设计等需要分点思考的场景 |
 | **不适合** | 需要自由联想的创意发散阶段 |

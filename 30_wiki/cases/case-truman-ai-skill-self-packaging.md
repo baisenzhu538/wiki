@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
@@ -37,14 +38,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI自复盘——让AI总结这次经验变下次基础
+- framework_lens: AI自复盘——让AI总结这次经验变下次基础
   follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？
-- src_unknown
-  framework_lens: 让AI跨工具扫描+合并同类项+封装
+- framework_lens: 让AI跨工具扫描+合并同类项+封装
   follow_up_question: 你用过哪些AI工具？它们的对话/反馈记录是明文存储的吗？如果是，可以直接让另一个AI去读。
-- src_unknown
-  framework_lens: 缺少可复用的审美底盘和硬性坑清单
+- framework_lens: 缺少可复用的审美底盘和硬性坑清单
   follow_up_question: 你是否有一个"做过就忘不掉"的skill文件，能在每次同类任务开始时自动加载审美标准和禁止项？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）

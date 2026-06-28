@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
@@ -44,11 +45,9 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: source-fidelity
+- framework_lens: source-fidelity
   follow_up_question: 能否提供半肥猫/季浩分享中关于“口喷式语音输入”具体步骤的原文，或补充一份实测记录？
-- src_unknown
-  framework_lens: evidence-gap
+- framework_lens: evidence-gap
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
 
 ---

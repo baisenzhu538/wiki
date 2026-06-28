@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
@@ -62,20 +63,15 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 混淆MVP与产品
+- framework_lens: 混淆MVP与产品
   follow_up_question: 你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？
-- src_unknown
-  framework_lens: MVP没有闭环
+- framework_lens: MVP没有闭环
   follow_up_question: 验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义
-- src_unknown
-  framework_lens: 补贴扭曲验证信号
+- framework_lens: 补贴扭曲验证信号
   follow_up_question: 如果去掉首单免费/大额补贴，今天表现出正向行为的用户还会重复同样行为吗？实验通过标准是否包含“自然付费”对照组？
-- src_unknown
-  framework_lens: 混淆兴趣信号与付费/留存信号
+- framework_lens: 混淆兴趣信号与付费/留存信号
   follow_up_question: 你测的是态度还是行为？如果明天开始收费或取消人工服务，愿意用的人里有多少会留下？
-- src_unknown
-  framework_lens: 不确定性 = 学习速度；精益验证四步循环
+- framework_lens: 不确定性 = 学习速度；精益验证四步循环
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
 updated_at: '2026-06-17'
 author: 老顽童

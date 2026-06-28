@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-child-drawing-rhyme
 title: '案例：孩子控笔「画画歌」——最小单元的建模实践'
 type: case
@@ -37,17 +38,13 @@ tags:
 - src_unknown
 
 diagnostic_signals:
-- src_unknown
-  framework_lens: 最小建模 / 口诀压缩
+- framework_lens: 最小建模 / 口诀压缩
   follow_up_question: 能否把最关键的动作压缩成四句以内、对方能背下来的口诀？
-- src_unknown
-  framework_lens: 观察先于设计——从好坏差异中提炼关键动作
+- framework_lens: 观察先于设计——从好坏差异中提炼关键动作
   follow_up_question: 表现好的 3 次和表现差的 3 次，共同差异出现在哪几个动作上？
-- src_unknown
-  framework_lens: 先找最小可验证单元
+- framework_lens: 先找最小可验证单元
   follow_up_question: 如果只允许总结四句话，必须保留哪四句才能解决眼前这一个小问题？
-- src_unknown
-  framework_lens: 建模验证闭环——提醒、观察、迭代
+- framework_lens: 建模验证闭环——提醒、观察、迭代
   follow_up_question: 有没有在真实场景中提醒、观察效果，并根据反馈调整口诀或触发条件？
 
 ---

@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# 解决方案驱动视觉设计，非门店风格导向
+trust_level: low
+---
+
+# 解决方案驱动视觉设计，非门店风格导向
 
 ## 原始表述
 

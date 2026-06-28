@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
+  - framework_lens: 毛利率结构分析——毛利率需要拆解到具体构成
     follow_up_question: "你的毛利率中，直接成本、服务成本、渠道成本各占多少？"
-  - src_unknown
-    framework_lens: 毛利率结构分析——毛利率下降需要定位具体原因
+  - framework_lens: 毛利率结构分析——毛利率下降需要定位具体原因
     follow_up_question: "毛利率下降是因为定价下降、成本上升，还是结构变化？"
-  - src_unknown
-    framework_lens: 毛利率结构分析——需要分产品/服务计算毛利率
+  - framework_lens: 毛利率结构分析——需要分产品/服务计算毛利率
     follow_up_question: "你的不同产品线，毛利率分别是多少？哪个产品贡献最多利润？"
-  - src_unknown
-    framework_lens: 毛利率结构分析——需要和行业对比
+  - framework_lens: 毛利率结构分析——需要和行业对比
     follow_up_question: "你的毛利率和行业平均比如何？差距在哪里？"
-  - src_unknown
-    framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
+  - framework_lens: 毛利率结构分析——毛利率≠净利润，需要看费用结构
     follow_up_question: "毛利率高但净利润低，运营费用、营销费用占收入多少？"
 
 ---

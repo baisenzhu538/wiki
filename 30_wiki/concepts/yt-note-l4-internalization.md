@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
@@ -34,20 +35,15 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 问题驱动 vs 内容驱动
+- framework_lens: 问题驱动 vs 内容驱动
   follow_up_question: 如果这个问题不存在，这篇笔记还有必要写吗？
-- src_unknown
-  framework_lens: 内化=可脱离原文的重新表达
+- framework_lens: 内化=可脱离原文的重新表达
   follow_up_question: 你解释时有没有引用原文的句子？如果有，说明还停留在整理层
-- src_unknown
-  framework_lens: 认知资产的可迁移性
+- framework_lens: 认知资产的可迁移性
   follow_up_question: 过去30天里，你有多少次在解决问题时主动链接到旧笔记？
-- src_unknown
-  framework_lens: 主动建构 vs 被动记录
+- framework_lens: 主动建构 vs 被动记录
   follow_up_question: 这篇笔记里有没有至少一个你自己提出的、原文没有直接给出答案的问题？
-- src_unknown
-  framework_lens: 元认知监控
+- framework_lens: 元认知监控
   follow_up_question: 你能用红笔标出哪些句子是"我确信的事实"，哪些是"我的猜测"吗？
 author: unknown
 reviewed_by: 欧阳锋

@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-任务交付物标准化
 title: 技能：任务交付物标准化
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 交付模糊
+- lens: 交付模糊
   follow_up: 每个任务定义明确的交付物形式（文档/代码/数据/报告）。无交付标准=无完成标准
-- src_unknown
-  lens: 存放混乱
+- lens: 存放混乱
   follow_up: 交付物独立存放，不混入系统文档。建立独立的交付物目录结构
-- src_unknown
-  lens: 验收随意
+- lens: 验收随意
   follow_up: 制定交付标准（验收条件），任务完成后按标准验收。未达标不结束
-- src_unknown
-  lens: 格式混乱
+- lens: 格式混乱
   follow_up: 统一交付物模板和格式规范。复杂任务拆解后，每个子任务交付物格式一致
-- src_unknown
-  lens: 无效输出
+- lens: 无效输出
   follow_up: 任务开始前明确交付物定义。AI输出不是交付物，符合验收标准的输出才是
 ---# 技能：任务交付物标准化
 

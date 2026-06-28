@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -43,6 +44,7 @@ related:
 - [[yt-entrepreneur-research-camp]]
 - [[yt-model-ipo-learning-strategy]]
 - [[yt-model-questioning-practice-canvas]]
+---
 # 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]
@@ -52,7 +54,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意段位诊断 | 有自知之明 |
 | ✅ 能识别当前水平 | 会定位 |
 | ✅ 愿意挑战更难场景 | 进非舒适区 |

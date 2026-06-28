@@ -1,5 +1,6 @@
 ---
 
+
 title: KDO 飞轮 — 建造→使用→反思→实验
 type: concept
 status: stable
@@ -30,10 +31,10 @@ confidence: 0.7
 trust_level: medium
 source_refs: []
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# KDO 飞轮 — 建造→使用→反思→实验
-
+---
 > **核心定位**：KDO 不是静态知识库，是**每一圈产出都在提升下一圈起点的认知飞轮**。飞轮停下来的时候，KDO 就变成了一个普通的 wiki。
 
----
+
 
 ## 一、飞轮的结构
 

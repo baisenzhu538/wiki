@@ -1,4 +1,5 @@
 ---
+
 id: tool-mece体系框架法
 title: 技能：MECE体系框架法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: MECE强迫症
+- lens: MECE强迫症
   follow_up: MECE是工具不是目的，分类前明确要解决的问题，'完全穷尽'是理想状态，'足够全面'即可
-- src_unknown
-  lens: 分类维度假象
+- lens: 分类维度假象
   follow_up: 好的分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
-- src_unknown
-  lens: 只分不合
+- lens: 只分不合
   follow_up: 框架必须经过'填充—验证—迭代'的循环才能产生认知价值，MECE的价值在'用'不在'看'
-- src_unknown
-  lens: 框架过时
+- lens: 框架过时
   follow_up: 定期Review框架有效性，业务变化时同步更新分类维度
-- src_unknown
-  lens: 过度分析
+- lens: 过度分析
   follow_up: 快速变化市场中，先行动再迭代，MECE框架可边用边完善
 ---
 # 技能：MECE体系框架法

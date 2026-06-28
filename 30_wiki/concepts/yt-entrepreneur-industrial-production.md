@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -50,6 +51,7 @@ related:
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # 工业化生产
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -96,7 +98,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 流程已验证 | 知道什么是对的 |
 | ✅ 需要规模化 | 有复制需求 |
 | ✅ 团队能执行 | 有人能落地 |

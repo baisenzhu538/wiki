@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
+  - framework_lens: 人才密度——人才流失说明人才壁垒不够，需要提升人才密度
     follow_up_question: "你的核心人才为什么走？薪酬、发展、文化？人才密度是否足够高？"
-  - src_unknown
-    framework_lens: 人才密度——招聘难说明雇主品牌或人才吸引力不足
+  - framework_lens: 人才密度——招聘难说明雇主品牌或人才吸引力不足
     follow_up_question: "你的雇主品牌如何？人才是否知道你的公司？薪酬竞争力如何？"
-  - src_unknown
-    framework_lens: 人才密度——人效低可能是人才密度不够或管理问题
+  - framework_lens: 人才密度——人效低可能是人才密度不够或管理问题
     follow_up_question: "你的人均产出是多少？人才密度是否足够？管理是否高效？"
-  - src_unknown
-    framework_lens: 人才密度——团队扩张稀释了人才密度
+  - framework_lens: 人才密度——团队扩张稀释了人才密度
     follow_up_question: "扩张后的人才密度是否下降？招聘标准是否降低？"
-  - src_unknown
-    framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
+  - framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
     follow_up_question: "除了文化，薪酬、发展、挑战是否足够吸引人才？"
 
 ---

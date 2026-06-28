@@ -1,4 +1,5 @@
 ---
+
 id: kdo-yaml-frontmatter-safety
 title: "KDO YAML Frontmatter 安全操作指南"
 type: concept
@@ -26,17 +27,13 @@ source_refs:
 - src_unknown
 source_context: 原始source无法追溯，已标记为src_unknown，待后续补充
 diagnostic_signals:
-  - src_unknown
-    lens: "解析器错误"
+  - lens: "解析器错误"
     follow_up: "检查是否用yaml.safe_load()而非逐行解析，做round-trip校验"
-  - src_unknown
-    lens: "嵌套结构损坏"
+  - lens: "嵌套结构损坏"
     follow_up: "检查是否用yaml.dump()写嵌套结构，不要用json.dumps(str(value))"
-  - src_unknown
-    lens: "注释误解析"
+  - lens: "注释误解析"
     follow_up: "检查#开头的标签是否加引号：- \"#master\"而非- #master"
-  - src_unknown
-    lens: "round-trip失败"
+  - lens: "round-trip失败"
     follow_up: "写文件前做round-trip校验：读回来确认嵌套结构无损"
 ---# KDO YAML Frontmatter 安全操作指南
 

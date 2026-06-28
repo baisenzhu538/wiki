@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -23,20 +24,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 估算方法不明——可能是拍脑袋或引用第三方报告未验证
+  - framework_lens: 估算方法不明——可能是拍脑袋或引用第三方报告未验证
     follow_up_question: "这个数字是用哪种方法算的？自上而下还是自下而上？能展示计算过程吗？"
-  - src_unknown
-    framework_lens: 估算可信度低——单一方法容易有系统性偏差
+  - framework_lens: 估算可信度低——单一方法容易有系统性偏差
     follow_up_question: "如果用另一种方法估算，结果差异多大？差异原因是什么？"
-  - src_unknown
-    framework_lens: TAM/SAM/SOM混淆——把天花板当目标
+  - framework_lens: TAM/SAM/SOM混淆——把天花板当目标
     follow_up_question: "你的TAM、SAM、SOM分别是多少？今年实际能触达多少？"
-  - src_unknown
-    framework_lens: 竞品对标陷阱——忽视市场差异和竞争格局
+  - framework_lens: 竞品对标陷阱——忽视市场差异和竞争格局
     follow_up_question: "竞品的用户群体和你的目标用户完全一致吗？你们的市场份额假设依据是什么？"
-  - src_unknown
-    framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
+  - framework_lens: 1%陷阱——没有论证为什么能拿到1%而不是0.01%
     follow_up_question: "为什么是1%？你的获客渠道、转化路径、竞争壁垒能支撑这个假设吗？"
 
 ---

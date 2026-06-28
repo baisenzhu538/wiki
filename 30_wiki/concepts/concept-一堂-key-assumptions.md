@@ -2,6 +2,7 @@
 
 
 
+
 id: concept-一堂-key-assumptions
 title: 关键假设思维：259工具与假设驱动的创业方法
 type: concept
@@ -35,7 +36,7 @@ pipeline:
 author: 黄药师
 confidence: 0.7
 trust_level: medium# 关键假设思维：259工具与假设驱动的创业方法
-
+---
 > 黄药师骨架 · 老顽童填内容
 
 ## 定义
@@ -46,7 +47,7 @@ trust_level: medium# 关键假设思维：259工具与假设驱动的创业方�
 
 Truman 的总结："假设就是你这事如果想成所依赖的前提条件。关键假设是其中最关键的——最前置的、风险最高的那几条。"
 
----
+
 
 ## 核心主张
 

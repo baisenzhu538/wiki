@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -51,6 +52,7 @@ related:
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-opportunity-selection]]
+---
 # 集中度分析
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -97,7 +99,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 做行业预判 | 理解终局格局 |
 | ✅ 能区分不同细分市场 | 不做整体判断 |
 | ✅ 有差异化策略 | 知道怎么生存 |

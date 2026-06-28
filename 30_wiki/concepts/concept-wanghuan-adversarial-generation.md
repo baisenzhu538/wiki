@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
@@ -31,14 +32,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 生成与评审视角未分离，模型在用同一套偏见自我确认
+- lens: 生成与评审视角未分离，模型在用同一套偏见自我确认
   follow_up: 引入第二个不同基座的模型专门扮演评审者，逐条输出问题清单
-- src_unknown
-  lens: AI 评审缺少多模型交叉攻击，未触发 adversarial 搜索
+- lens: AI 评审缺少多模型交叉攻击，未触发 adversarial 搜索
   follow_up: 用至少两个评审模型从逻辑、安全、受众、成本四个维度分别挑刺
-- src_unknown
-  lens: 缺少独立的评估者角色，执行者自己验收自己的产出
+- lens: 缺少独立的评估者角色，执行者自己验收自己的产出
   follow_up: 强制设置评估者 Agent，按验收清单逐条测试并给出阻塞/重要/暂缓分级
 tags:
 - src_unknown

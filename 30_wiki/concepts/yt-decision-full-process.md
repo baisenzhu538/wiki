@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-full-process
 component_of:
 - src_unknown
@@ -53,30 +54,26 @@ type: framework
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
 - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -91,14 +88,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 流程过度工程化——全景流程是训练框架，不是每个决策的强制工序
+- framework_lens: 流程过度工程化——全景流程是训练框架，不是每个决策的强制工序
   follow_up_question: 过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低
-- src_unknown
-  framework_lens: 涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的
+- framework_lens: 涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的
   follow_up_question: 这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？
-- src_unknown
-  framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
+- framework_lens: 写初版阶段被跳过——没有预判快照就无法比较预期与现实，复盘沦为印象流
   follow_up_question: 最近5个已执行决策中，有几个保存了当初的收益/成本清单？如果<3个，说明写初版没有落地
 author: 老顽童
 ---# 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

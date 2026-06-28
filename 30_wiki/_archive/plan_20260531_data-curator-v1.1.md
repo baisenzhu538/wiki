@@ -1,4 +1,5 @@
 ---
+
 id: plan_20260531_data-curator-v1.1
 title: Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.1
 type: improvement-plan
@@ -21,12 +22,14 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
+---
 # Data Curator Skill 实施方案 v1.1
 
 ## 版本变更记录
 
 | 版本 | 日期 | 触发 | 变更要点 |
-|------|------|------|---------|
+|
+---|------|------|---------|
 | v1.0 | 2026-05-31 | 黄药师+用户架构讨论 | 五阶段流水线、4维标签、10类chunk、pilot dry-run |
 | **v1.1** | 2026-05-31 | 一堂 AI数据理解第一课（Truman口述） | **理念层重构**：查字典→食材思维；**5维标签**（+source_type）；**12类chunk**（+process_data/error_data）；**分库架构**；**ROI评估**；**五层成熟度模型** |
 

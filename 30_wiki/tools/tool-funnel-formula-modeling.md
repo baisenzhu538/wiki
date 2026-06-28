@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-funnel-formula-modeling
 title: 漏斗图/公式建模法：量化流程与关键变量
 type: tool
@@ -37,14 +38,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 漏斗图建模
+- framework_lens: 漏斗图建模
   follow_up_question: 哪一步的阶段间转化率最低、绝对流失人数最多？
-- src_unknown
-  framework_lens: 公式建模
+- framework_lens: 公式建模
   follow_up_question: 能否把变量精简到3-5个，并识别出可干预的杠杆变量？
-- src_unknown
-  framework_lens: 数据驱动建模
+- framework_lens: 数据驱动建模
   follow_up_question: 每个阶段/变量是否有对应的埋点、数据来源和验证计划？
 ---
 # 漏斗图/公式建模法：量化流程与关键变量

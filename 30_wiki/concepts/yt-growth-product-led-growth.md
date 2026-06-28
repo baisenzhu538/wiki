@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品驱动增长——PLG模式不需要销售团队，产品本身驱动增长
+  - framework_lens: 产品驱动增长——PLG模式不需要销售团队，产品本身驱动增长
     follow_up_question: "你的产品是否能让用户自助使用、自助付费？产品体验是否足够好？"
-  - src_unknown
-    framework_lens: 产品驱动增长——PLG适合低客单价、自助使用的产品
+  - framework_lens: 产品驱动增长——PLG适合低客单价、自助使用的产品
     follow_up_question: "你的产品客单价多少？用户能否自助使用？是否需要销售介入？"
-  - src_unknown
-    framework_lens: 产品驱动增长——PLG不只是免费试用，而是产品本身驱动获客、激活、留存、变现
+  - framework_lens: 产品驱动增长——PLG不只是免费试用，而是产品本身驱动获客、激活、留存、变现
     follow_up_question: "你的产品是否在用户使用时自然传播？用户能否自助体验到价值？"
-  - src_unknown
-    framework_lens: 产品驱动增长——PLG和SLG不是互斥，可以组合
+  - framework_lens: 产品驱动增长——PLG和SLG不是互斥，可以组合
     follow_up_question: "你的产品哪些部分适合PLG？哪些部分需要SLG？如何组合？"
-  - src_unknown
-    framework_lens: 产品驱动增长——PLG前期慢，但规模化后效率高
+  - framework_lens: 产品驱动增长——PLG前期慢，但规模化后效率高
     follow_up_question: "你的PLG飞轮是否形成了？病毒系数K是多少？"
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-consensus-iceberg
 component_of:
 - src_unknown
@@ -33,8 +34,7 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -51,17 +51,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 虚假共识——表层行动一致，深层信息/逻辑并未对齐
+- framework_lens: 虚假共识——表层行动一致，深层信息/逻辑并未对齐
   follow_up_question: 会上大家同意的'做不做'背后，各自理解的'为什么做'是否一致？让每个人写一句自己的理由，看看是否一样
-- src_unknown
-  framework_lens: 教练式提问的隐性操控——信息选择和问题顺序可以引导团队'自然'得出预设结论
+- framework_lens: 教练式提问的隐性操控——信息选择和问题顺序可以引导团队'自然'得出预设结论
   follow_up_question: 老板提供的信息里，有没有被隐藏的关键反例？如果团队知道那个反例，推导结果会不会变？
-- src_unknown
-  framework_lens: 共识过程没有产生新信息——信息层没有补充事实或反例，只是重复已知立场
+- framework_lens: 共识过程没有产生新信息——信息层没有补充事实或反例，只是重复已知立场
   follow_up_question: 会议中产出了几条'会前没人提过'的新事实、数据或反例？如果为0，说明挖冰没有挖出新信息
-- src_unknown
-  framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
+- framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
   follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
 related:
 - src_unknown

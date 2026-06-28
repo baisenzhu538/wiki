@@ -1,4 +1,5 @@
 ---
+
 id: tool-辩证讨论法
 title: 技能：辩证讨论法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 讨论变辩论
+- lens: 讨论变辩论
   follow_up: 辩证讨论的核心是检验假设，不是赢得争论。先明确'我要检验的假设是什么'
-- src_unknown
-  lens: 认知同温层
+- lens: 认知同温层
   follow_up: 必须引入异见者，讨论的价值在分歧不在附和。没有反对意见的讨论是互相确认
-- src_unknown
-  lens: 讨论完不记录
+- lens: 讨论完不记录
   follow_up: 讨论的产出必须是一页纸：我们达成了什么+分歧在哪+下一步验证什么
-- src_unknown
-  lens: 边界回避
+- lens: 边界回避
   follow_up: 理论边界讨论比案例讨论更有价值。必须问'这个理论在什么条件下失效'
-- src_unknown
-  lens: 无产出讨论
+- lens: 无产出讨论
   follow_up: 讨论必须有结论、分歧记录、下一步动作。没有产出的讨论只是社交
 ---
 # 技能：辩证讨论法

@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-wanghuan-power-of-standards
 title: 王欢：标准的力量——质量乘数
 type: concept
@@ -20,17 +21,13 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 diagnostic_signals:
-- src_unknown
-  lens: 标准差距
+- lens: 标准差距
   follow_up: 列出自己项目里的 5 条可验证质量标准，与优秀案例对比差距
-- src_unknown
-  lens: 标准模糊导致迭代无效
+- lens: 标准模糊导致迭代无效
   follow_up: 把“高质量”拆成可检查的维度（如视觉一致性、动画节奏、信息密度）
-- src_unknown
-  lens: 缺少整体审美标准
+- lens: 缺少整体审美标准
   follow_up: 定义风格指南：配色、节奏、信息密度、可读性优先等
-- src_unknown
-  lens: 约束缺失
+- lens: 约束缺失
   follow_up: 在 BTICOE 的 C（约束）中补充至少 3 条“不能碰”的红线
 related:
   - src_unknown

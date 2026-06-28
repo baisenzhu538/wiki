@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-skill-checklist-as-ai-protocol
 title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
@@ -35,14 +36,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 清单体降低AI理解成本
+- framework_lens: 清单体降低AI理解成本
   follow_up_question: 你的笔记如果直接发给AI，它能否快速识别结构和优先级？
-- src_unknown
-  framework_lens: 结构化输出实现无缝循环
+- framework_lens: 结构化输出实现无缝循环
   follow_up_question: AI的输出是否需要你重新整理才能使用？
-- src_unknown
-  framework_lens: 协议有适用范围
+- framework_lens: 协议有适用范围
   follow_up_question: 这个任务是信息整理还是创意策略？
 author: unknown
 reviewed_by: 欧阳锋

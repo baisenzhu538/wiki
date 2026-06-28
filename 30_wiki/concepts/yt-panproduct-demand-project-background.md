@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-project-background
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 背景分析是项目成功的前提
+- framework_lens: 背景分析是项目成功的前提
   follow_up_question: 如果去掉'战略'或'老板'维度，项目目标会不会出现隐性冲突？
-- src_unknown
-  framework_lens: 分析必须产生决策输入
+- framework_lens: 分析必须产生决策输入
   follow_up_question: 背景分析后，有哪些原定的功能被砍掉或推迟了？
-- src_unknown
-  framework_lens: 背景会随环境变化
+- framework_lens: 背景会随环境变化
   follow_up_question: 过去一个月里，八个维度中有哪些假设被新信息推翻？
 updated_at: '2026-06-16'
 author: 老顽童

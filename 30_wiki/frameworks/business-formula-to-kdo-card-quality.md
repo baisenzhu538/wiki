@@ -2,6 +2,7 @@
 
 
 
+
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
@@ -38,14 +39,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: ABC三要素诊断
+- framework_lens: ABC三要素诊断
   follow_up_question: 你的A（要回答的决策问题）定义清楚了吗？B（核心主张）能量化吗？C（逻辑关系）是因果还是相关？
-- src_unknown
-  framework_lens: L1-L6逻辑层级诊断
+- framework_lens: L1-L6逻辑层级诊断
   follow_up_question: 你的卡在哪一层——模糊(L1)、相关(L2)、因果(L3)、公式(L4)、定量(L5)、还是动态(L6)？
-- src_unknown
-  framework_lens: 放量健康度诊断
+- framework_lens: 放量健康度诊断
   follow_up_question: 被引用次数≥3时，Synthesis出链是否≥5条？每次更新是否触发下游关联卡复查？
 updated_at: '2026-06-17'
 

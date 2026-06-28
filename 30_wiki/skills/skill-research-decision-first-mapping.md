@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-research-decision-first-mapping
 title: 决策优先映射：让研究动作直接服务决策
 type: skill
@@ -32,14 +33,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 决策优先映射
+  - framework_lens: 决策优先映射
     follow_up_question: "你当前的研究动作对应哪个具体决策？如果结果不支持，会停止还是转向？"
-  - src_unknown
-    framework_lens: 研究动作 → 决策对齐
+  - framework_lens: 研究动作 → 决策对齐
     follow_up_question: "这些结果排除了哪个错误选项？对哪个决策增加了多少信心？"
-  - src_unknown
-    framework_lens: 前置假设验证
+  - framework_lens: 前置假设验证
     follow_up_question: "你的决策依赖哪 2-3 个前置假设？每个假设的不通过标准是什么？"
 ---
 

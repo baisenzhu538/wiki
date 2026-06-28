@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
@@ -34,11 +35,9 @@ wiki_refs:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 加法不充分
+- framework_lens: 加法不充分
   follow_up_question: 你的选项池是否让别人看了觉得"原来还有这么多可能性"？
-- src_unknown
-  framework_lens: 减法太粗糙
+- framework_lens: 减法太粗糙
   follow_up_question: 你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项
 updated_at: '2026-06-16'
 author: 老顽童

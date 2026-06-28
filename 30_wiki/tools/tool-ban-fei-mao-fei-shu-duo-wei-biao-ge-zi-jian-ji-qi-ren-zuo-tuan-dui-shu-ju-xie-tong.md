@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
@@ -30,14 +31,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 权限边界
+- lens: 权限边界
   follow_up: 能否用一张表列出机器人可读写字段、可响应命令及对应触发条件？
-- src_unknown
-  lens: 协同统一性
+- lens: 协同统一性
   follow_up: 如果停用飞书多维表格，当前协同流程是否还能跑通？
-- src_unknown
-  lens: 风险控制
+- lens: 风险控制
   follow_up: 是否有试点用户、预期行为清单和一键停用/回滚方案？
 ---
 # 技能：飞书多维表格 + 自建机器人做团队数据协同

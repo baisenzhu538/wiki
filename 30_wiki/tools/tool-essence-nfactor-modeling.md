@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-essence-nfactor-modeling
 title: 本质/N要素建模法：提炼不可再约的核心变量
 type: tool
@@ -39,20 +40,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 本质建模
+- framework_lens: 本质建模
   follow_up_question: 如果去掉你用的这个词，业务的成立条件还成立吗？
-- src_unknown
-  framework_lens: N要素建模
+- framework_lens: N要素建模
   follow_up_question: 这十几个因素里，去掉哪几个后整个系统仍然可以解释？
-- src_unknown
-  framework_lens: 可证伪性
+- framework_lens: 可证伪性
   follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-- src_unknown
-  framework_lens: 解释性本质 vs 预测性本质
+- framework_lens: 解释性本质 vs 预测性本质
   follow_up_question: 从这句话到落地动作，中间需要跳跃几步？关键要素是否完整？
-- src_unknown
-  framework_lens: 必要性检验
+- framework_lens: 必要性检验
   follow_up_question: 真的只有这么多个要素吗？去掉任意一个，模型还成立吗？
 ---
 # 本质/N要素建模法：提炼不可再约的核心变量

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
@@ -46,11 +47,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 解放过度
+- framework_lens: 解放过度
   follow_up_question: 你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？
-- src_unknown
-  framework_lens: 没有解放
+- framework_lens: 没有解放
   follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
 updated_at: '2026-06-16'
 author: 老顽童

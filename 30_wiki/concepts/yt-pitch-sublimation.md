@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-sublimation
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 升华 = 价值层级上移
+- framework_lens: 升华 = 价值层级上移
   follow_up_question: 这个功能对用户的工作/关系/自我认知有什么深层影响？
-- src_unknown
-  framework_lens: 升华必须可落地
+- framework_lens: 升华必须可落地
   follow_up_question: 如果产品不存在，这个升华价值还能成立吗？
-- src_unknown
-  framework_lens: 升华是点睛之笔
+- framework_lens: 升华是点睛之笔
   follow_up_question: 如果这段内容只保留一处升华，应该在哪里？
 updated_at: '2026-06-16'
 author: 老顽童

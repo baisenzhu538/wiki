@@ -2,6 +2,7 @@
 
 
 
+
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
@@ -48,7 +49,7 @@ pipeline:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'# Truman一堂：市场扫描→六方向→Plan ABC试错
-
+---
 ## 背景
 
 2017年底，Truman在以太平台内部，平台进入平台期甚至衰退期。他从零开始组建了一个3人攻坚小组做内部创业。
@@ -112,7 +113,8 @@ updated_at: '2026-06-16'# Truman一堂：市场扫描→六方向→Plan ABC试�
 最终剩下3个方向，都通过了硬伤检查：
 
 | Priority | 方向 | 逻辑 |
-|:--------:|------|------|
+|:
+-----:|------|------|
 | **Plan A** | 模块化咨询（标准化小咨询） | 排在第一，最早启动试错 |
 | Plan B | 创业社群 | 备用，万一A不行 |
 | Plan C | 创新培训 | 备用 |

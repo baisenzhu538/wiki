@@ -1,4 +1,5 @@
 ---
+
 id: dk-f4-wrong-workdir
 title: F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 type: dk
@@ -32,7 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
-
+---
 ## 原始表述/核心洞察
 
 > **触发命令**：`kdo revise --scan`, `kdo improve --apply` 等
@@ -76,7 +77,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 工作目录错误导致 `find_workspace()` 静默降级 | `pwd` 不是 wiki 根目录；命令返回 0 但无文件变化 | CLI 从非 wiki 目录启动，`find_workspace()` 找不到 `.kdo/` 或找到错误目录，工具默认不报错 | 执行前先 `cd` 到 wiki 根目录；脚本中使用 `cd /path/to/wiki \|\| exit 1` |
 | 依赖子目录的隐式上游遍历 | 在 wiki 子目录（如 `30_wiki/`）执行也能“成功” | `find_workspace()` 向上遍历父目录直到发现 `.kdo/` | 始终切换到 wiki 根目录，不依赖隐式定位 |
 | CI/远程脚本未设置工作目录 | cron、ssh 或 CI 中直接调用 kdo | 环境默认目录不是 wiki | 脚本开头强制 `cd` 并校验 `.kdo/` 目录存在 |

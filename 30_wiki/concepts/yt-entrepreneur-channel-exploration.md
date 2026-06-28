@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -50,6 +51,7 @@ related:
 - [[yt-entrepreneur-growth-flywheel]]
 - [[yt-entrepreneur-industrial-production]]
 - [[yt-entrepreneur-fundraising]]
+---
 # 渠道探索
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -96,7 +98,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 早期阶段 | 需要找渠道 |
 | ✅ 预算有限 | 能约束选择 |
 | ✅ 能快速测试 | 可低成本验证 |

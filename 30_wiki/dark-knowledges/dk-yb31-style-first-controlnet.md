@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# AI绘图工作流：先锁风格再开ControlNet
+trust_level: low
+---
+
+# AI绘图工作流：先锁风格再开ControlNet
 
 ## 原始表述
 

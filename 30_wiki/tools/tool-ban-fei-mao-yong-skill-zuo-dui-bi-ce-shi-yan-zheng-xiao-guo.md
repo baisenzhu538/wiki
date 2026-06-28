@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo
 title: 技能：用 Skill 做对比测试验证效果
 type: tool
@@ -35,14 +36,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 效果验证缺口
+- framework_lens: 效果验证缺口
   follow_up_question: 能否设计一组有/无 Skill 的对照测试，用同一套评分标准量化差距？
-- src_unknown
-  framework_lens: 边界盲区
+- framework_lens: 边界盲区
   follow_up_question: 是否已经设计反向/越界测试集，验证 Skill 在边界和高风险场景下的拒绝能力？
-- src_unknown
-  framework_lens: 共识缺失
+- framework_lens: 共识缺失
   follow_up_question: 能否把评价标准事先和 AI/团队约定，用结构化评分替代主观争论？
 ---
 # 技能：用 Skill 做对比测试验证效果

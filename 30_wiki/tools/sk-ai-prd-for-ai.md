@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
@@ -44,11 +45,9 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: source-fidelity
+- framework_lens: source-fidelity
   follow_up_question: 请提供半肥猫分享中关于PRD作为AI可执行指令的具体原文，或补充另一份来源以支撑该主张？
-- src_unknown
-  framework_lens: authorship-attribution
+- framework_lens: authorship-attribution
   follow_up_question: 是否需要将source_person更正为纪浩，或找到半肥猫对应分享的原始记录？
 
 ---

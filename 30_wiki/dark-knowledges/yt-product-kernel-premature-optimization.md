@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 id: yt-product-kernel-premature-optimization
@@ -40,6 +41,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 过早细化——在错误的时间关注错误的事情
   follow_up_question: 核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？
+---
 # 过早细化陷阱：在验证前追求完美
 
 ## 原始表述
@@ -49,7 +51,8 @@ diagnostic_signals:
 过早细化：在核心假设未验证前，投入大量资源完善产品细节。
 
 | 阶段 | 正确做法 | 过早细化的错误做法 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | **概念阶段** | 用户访谈，验证需求 | 直接开始设计产品 |
 | **验证阶段** | MVP测试，验证内核 | 开发完整产品 |
 | **迭代阶段** | 基于数据优化 | 基于假设优化 |

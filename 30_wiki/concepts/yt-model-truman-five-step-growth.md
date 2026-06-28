@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -44,6 +45,7 @@ related:
 - [[yt-model-personal-map]]
 - [[ocr-泛产品设计-落地卡片-管理三段论]]
 - [[tool-三层目标对齐法]]
+---
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]
@@ -53,7 +55,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意做人生规划 | 有规划意愿 |
 | ✅ 能明确红点 | 有方向 |
 | ✅ 愿意刻意练习 | 不空想 |

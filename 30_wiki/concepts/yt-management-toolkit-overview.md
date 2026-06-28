@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-management-toolkit-overview
 component_of:
 - src_unknown
@@ -65,11 +66,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 工具泛化
+- framework_lens: 工具泛化
   follow_up_question: 你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛
-- src_unknown
-  framework_lens: 工具选择困难
+- framework_lens: 工具选择困难
   follow_up_question: 你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具
 updated_at: '2026-06-16'
 author: 老顽童

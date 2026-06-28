@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -46,6 +47,7 @@ related:
 - [[yt-foresight-model-taxonomy]]
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-pragmatic-startup]]
+---
 # 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
@@ -57,7 +59,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 作为历史参考 | 理解范式基础 |
 | ✅ 理解三种范式基础 | 有基础 |
 | ✅ 不用于当前重要决策 | 知道新版存在 |

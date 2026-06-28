@@ -1,4 +1,5 @@
 ---
+
 id: dk-c10-batch-tool-no-dry-run
 title: C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
-
+---
 ## 原始表述/核心洞察
 
 > 黄药师交付了 `kdo scaffold`，老顽童直接跑 `kdo scaffold --batch B --write` 对 71 张卡批量操作。结果：scaffold 的 `_count_external_attacks` 只认 `## Critique` H2 节，不认旧格式 `## Framework Gallery` 下的 `### 外部攻击*`。71 张旧格式卡被判定为 atk_count=0 → 生成空壳 `## Critique` 覆盖。Taleb、Snowden、Kahneman、Hayek、Kohn、Illich 等 ~140 个精心研究的攻击段落全部丢失。但更可怕的是：`kdo validate --v15` 给空壳卡打了 PASS——validator 只查 H4 标题存在不查内容。Pass 54→58 是假象。
@@ -65,7 +66,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 跳过 dry-run 直接批量写入 | 工具改动后立刻跑 `--batch --write` | 误以为"只是加字段/修格式"不会破坏正文 | 新工具或改动后，先在 1 张卡上 `--dry-run` 并核对 diff |
 | 把 validator PASS 当安全证明 | `kdo validate` 绿灯即放行 | validator 只查字段/标题存在，不查语义或内容完整性 | 人工读一遍单卡正文，确认关键段落未被覆盖或清空 |
 | 旧格式兼容未验证 | 新工具只认新 H2，旧格式 H3/H4 内容被忽略 | 解析逻辑未覆盖历史格式或边缘结构 | dry-run 时故意挑 1 张旧格式卡，检查其 diff 是否正常 |

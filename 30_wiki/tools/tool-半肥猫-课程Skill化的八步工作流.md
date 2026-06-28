@@ -1,4 +1,5 @@
 ---
+
 id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
@@ -35,20 +36,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 流程缺失
+- lens: 流程缺失
   follow_up: 先执行第1步质量门判断：是否有科学底层、可验证案例、明确边界
-- src_unknown
-  lens: 测试缺失
+- lens: 测试缺失
   follow_up: 检查是否跳过了第7步A/B测试，测试是必需项不是可选项
-- src_unknown
-  lens: 证据校准缺失
+- lens: 证据校准缺失
   follow_up: 执行第5步批判性审查：不默认老师全对，补充真实案例和权威资料
-- src_unknown
-  lens: 维护缺失
+- lens: 维护缺失
   follow_up: 维护占生命周期80%，把维护成本计入总投入，定期迭代
-- src_unknown
-  lens: 拒绝能力不足
+- lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
 ---
 # 技能：课程Skill化的八步工作流

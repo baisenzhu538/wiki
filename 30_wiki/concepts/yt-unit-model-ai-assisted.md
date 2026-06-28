@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 created_at: 2026-05-24
@@ -49,17 +50,13 @@ yitang:
 author: 老顽童
 reviewed_by: 欧阳锋
 diagnostic_signals:
-- src_unknown
-  framework_lens: 人机协作 / 质量控制
+- framework_lens: 人机协作 / 质量控制
   follow_up_question: 是否直接把 AI 输出当作最终结论？
-- src_unknown
-  framework_lens: 盲区检测 / 双导师
+- framework_lens: 盲区检测 / 双导师
   follow_up_question: AI 辅助是否只加速了错误模型的生成？
-- src_unknown
-  framework_lens: 假设透明 / 对齐
+- framework_lens: 假设透明 / 对齐
   follow_up_question: 团队是否只争论数字而不暴露底层假设？
-- src_unknown
-  framework_lens: 可信度 / 责任边界
+- framework_lens: 可信度 / 责任边界
   follow_up_question: 出口式咨询报告是否被视为无人负责的意见？
 updated_at: '2026-06-18'
 

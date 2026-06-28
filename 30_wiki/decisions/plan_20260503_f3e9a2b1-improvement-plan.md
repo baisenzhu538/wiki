@@ -1,6 +1,8 @@
 ---
 
 
+
+
 plan_id: plan_20260503_f3e9a2b1
 type: improvement-plan
 domain:
@@ -25,14 +27,16 @@ related:
 - [[kdo-ec-industrialization-migration-proposal]]
 - [[kdo-batch-produce-req014]]
 - [[dk-c2-dual-status-machine]]
+---
 - [[dk-kdo-leaky-pipe-pressure]]
+
 # Improvement Plan plan_20260503_f3e9a2b1
 
 ## 来源
 
 本计划由 Claude 全仓库遍历评估（`claude-20260503-kdo仓库遍历与健康度评估.md`）触发，替代此前重复生成的 8 个同类计划。
 
----
+
 
 ## Summary
 

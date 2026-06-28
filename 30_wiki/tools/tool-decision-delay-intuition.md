@@ -1,4 +1,5 @@
 ---
+
 id: tool-decision-delay-intuition
 title: 技能：延迟直觉法
 type: tool
@@ -34,12 +35,13 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+---
 # 技能：延迟直觉法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）
 > **核心**：不要在做完分析后立即拍板——让判断"多飞一会儿"。直觉太快、太自信、太容易被最近的信息污染。
 
----
+
 
 ## 原始表述
 > "你的第一反应不是你的最佳反应，只是你最快的反应。"

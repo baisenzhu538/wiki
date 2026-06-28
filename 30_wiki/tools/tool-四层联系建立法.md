@@ -1,4 +1,5 @@
 ---
+
 id: tool-四层联系建立法
 title: 技能：四层联系建立法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 联系过浅
+- lens: 联系过浅
   follow_up: 联系必须有深层逻辑：'A的认知机制是B的变体'，有因果、有转化关系，不是表面相似
-- src_unknown
-  lens: 联系过泛
+- lens: 联系过泛
   follow_up: 当所有路径都通向罗马时，路径没有信息量。联系必须有具体的信息增益
-- src_unknown
-  lens: 只连不验证
+- lens: 只连不验证
   follow_up: 联系可以设计实验检验：'如果A的解释成立，那么在B的场景下应该观察到X'
-- src_unknown
-  lens: 联系冗余
+- lens: 联系冗余
   follow_up: 定期清理联系图谱，删除'有趣但不重要'的噪声联系，保留有预测力的联系
-- src_unknown
-  lens: 联系不可输出
+- lens: 联系不可输出
   follow_up: 联系必须能写成一段话讲给不懂的人听，说不出来等于没真正理解
 ---
 # 技能：四层联系建立法

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
@@ -45,14 +46,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 生成器能力到达瓶颈，需要引入异构评审视角
+- lens: 生成器能力到达瓶颈，需要引入异构评审视角
   follow_up: 检查是否已配置至少一个来自不同模型族/不同利益相关方的判别器
-- src_unknown
-  lens: 缺少合成器做最终裁决与可执行化
+- lens: 缺少合成器做最终裁决与可执行化
   follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
-- src_unknown
-  lens: 验收环节被AI模板化标准反噬
+- lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
 
 ---

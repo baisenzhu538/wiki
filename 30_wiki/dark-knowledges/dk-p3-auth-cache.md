@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 type: dk
@@ -34,7 +35,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：更新 `~/.hermes/profiles/*/.env` 中的 `KIMI_API_KEY` 后重启服务，仍然 HTTP 401，日志显示用的还是旧 Key。用户和欧阳锋多轮尝试换新 Key 无效——"系统顽固用旧的覆盖新的"。
@@ -88,7 +89,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 改错 .env 文件 | `profiles/<name>/.env` 已更新，但全局 `~/.hermes/.env` 仍是旧 Key | Hermes 只读取全局 .env，profile 下的 .env 不被加载 | 修改 `~/.hermes/.env`，并确认服务重启后读取的是该文件 |
 | auth.json 缓存旧 token | auth.json 中 `credential_pool.kimi-coding[].access_token` 仍是旧值 | Hermes 优先使用缓存的 access_token，而不是重新从 .env 读取 | 删除对应 provider 下的旧 access_token 缓存条目 |
 | 状态标记导致跳过 | `last_status: exhausted` 或 `last_error_code: 401` 仍存在 | Hermes 认为该 Key 已死，直接跳过不再尝试 | 清除 `last_status` 和 `last_error_code` 字段 |

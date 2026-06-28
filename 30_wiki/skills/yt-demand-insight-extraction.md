@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 访谈技巧——缺乏结构化访谈框架
+  - framework_lens: 访谈技巧——缺乏结构化访谈框架
     follow_up_question: "你的访谈有预设的框架吗？每个访谈都覆盖了拆推评算四个维度吗？"
-  - src_unknown
-    framework_lens: 访谈技巧——引导性问题导致社会期望偏差
+  - framework_lens: 访谈技巧——引导性问题导致社会期望偏差
     follow_up_question: "你的访谈问题是'你想要什么'，还是'你现在怎么解决的'？"
-  - src_unknown
-    framework_lens: 访谈技巧——缺乏统一的记录和分析方法
+  - framework_lens: 访谈技巧——缺乏统一的记录和分析方法
     follow_up_question: "访谈记录是结构化的吗？能填进统一的分析模板吗？"
-  - src_unknown
-    framework_lens: 访谈技巧——口头需求≠行为需求
+  - framework_lens: 访谈技巧——口头需求≠行为需求
     follow_up_question: "用户说'想要'后，有没有观察他们的实际行为？"
-  - src_unknown
-    framework_lens: 访谈技巧——样本不足，结论不可靠
+  - framework_lens: 访谈技巧——样本不足，结论不可靠
     follow_up_question: "至少访谈了多少个用户？是否覆盖了不同用户层？"
 
 ---

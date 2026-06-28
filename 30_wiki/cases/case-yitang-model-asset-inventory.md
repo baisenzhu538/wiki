@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -44,17 +45,13 @@ domain:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 模型资产黑箱
+- lens: 模型资产黑箱
   follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入 20-30 个范式
-- src_unknown
-  lens: 模型可发现性差
+- lens: 模型可发现性差
   follow_up: 建立武器库索引，每个范式标注适用问题、典型案例、边界条件和使用 checklist
-- src_unknown
-  lens: 重复发明轮子
+- lens: 重复发明轮子
   follow_up: 在立项评审环节强制要求“先查武器库，说明现有范式为何不适用”才能申请新模型
-- src_unknown
-  lens: 伪创新
+- lens: 伪创新
   follow_up: 新模型上线前做一次“范式匹配审查”，要求证明它无法被已有 20-30 个范式表达
 related:
   - src_unknown

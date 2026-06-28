@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -52,6 +53,7 @@ related:
 - [[yt-personal-ipo-learning]]
 - [[yt-personal-deep-review]]
 - [[yt-personal-scientific-expression]]
+---
 # 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -59,7 +61,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 长期学习、需要跨项目复用知识的个人或团队 |
 | **适合** | 信息输入量大、容易遗忘或找不到资料的场景 |
 | **不适合** | 只追求一次性消费的内容 |

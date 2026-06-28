@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-competitive-displacement
@@ -37,6 +38,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
   follow_up_question: 用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。
+---
 # 需求替代陷阱：竞品不是敌人，替代方案才是
 
 ## 原始表述
@@ -48,7 +50,8 @@ diagnostic_signals:
 ## 使用场景
 
 | 适用场景 | 说明 |
-|:---|:---|
+|:
+|:---|
 | 新产品定位 | 识别真正的竞争边界，避免只对标同类 |
 | 竞品分析 | 把替代方案纳入竞争图谱 |
 | 需求验证 | 用"不解决的后果"检验需求强度 |

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-yitang-weekly-modeling-engine
 title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
@@ -43,14 +44,11 @@ domain:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 组织学习闭环
+- framework_lens: 组织学习闭环
   follow_up_question: 过去10次交付中，有多少次明确改进了某个模型或SOP？
-- src_unknown
-  framework_lens: 复盘与模型迭代
+- framework_lens: 复盘与模型迭代
   follow_up_question: 如果同样场景再来一次，团队现在会采用什么不同的模型或检查清单？
-- src_unknown
-  framework_lens: 研究型交付 vs 标准化交付
+- framework_lens: 研究型交付 vs 标准化交付
   follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
 related:
   - src_unknown

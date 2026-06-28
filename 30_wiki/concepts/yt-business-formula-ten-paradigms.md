@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-business-formula-ten-paradigms
 title: 一堂业务公式十大经典范式
 type: concept
@@ -38,12 +39,13 @@ related:
 - [[yt-business-formula-qualitative-metrics-library]]
 - [[yt-entrepreneur-unit-model]]
 - [[yt-growth-cycle-model]]
+---
 # 一堂业务公式十大经典范式
 
 > 一堂把常见业务增长问题抽象为 10 个公式范式，按「收入提升」「竞争提升」「运营提升」三大目标聚类。  
 > 来源：一堂 2026-06-13 业务公式拆解培训（孔阳），「一堂业务公式·十大经典范式」图。
 
----
+
 
 ## 范式地图
 

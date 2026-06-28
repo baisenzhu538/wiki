@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
@@ -22,8 +23,7 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 策略→工具映射表
+  - framework_lens: 策略→工具映射表
     follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
@@ -36,17 +37,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 七步创作法
+- framework_lens: 七步创作法
   follow_up_question: 你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？
-- src_unknown
-  framework_lens: 5-10个版本手工迭代 → AI辅助但不替代
+- framework_lens: 5-10个版本手工迭代 → AI辅助但不替代
   follow_up_question: 你让AI出了几个版本？你手工写了几个版本？两者差在哪？
-- src_unknown
-  framework_lens: 缺少"逻辑洁癖"的收敛机制——迭代不是数量游戏，需要用人对业务解释力的判断来收敛
+- framework_lens: 缺少"逻辑洁癖"的收敛机制——迭代不是数量游戏，需要用人对业务解释力的判断来收敛
   follow_up_question: 你写的 5-10 版中，每一版是否有明确的"结构假设+失败原因"？失败原因是否集中在分类标准、粒度、维度上？
-- src_unknown
-  framework_lens: 分类标准的"气顺"程度不够——框架的维度还没被真实内容验证
+- framework_lens: 分类标准的"气顺"程度不够——框架的维度还没被真实内容验证
   follow_up_question: 找 3 个团队成员独立把课程塞进框架，塞法一致率是否 ≥80%？不一致的地方正是分类标准模糊的征兆。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）

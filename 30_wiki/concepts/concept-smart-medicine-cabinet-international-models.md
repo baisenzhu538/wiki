@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-smart-medicine-cabinet-international-models
 title: 国际自动取药机/药房模式经验与启示
 type: concept
@@ -24,11 +25,12 @@ related:
 - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
 - [[concept-smart-medicine-cabinet-consumer-acceptance]]
 - [[smart-medicine-cabinet-national-policy-redlines]]
+---
 # 国际自动取药机/药房模式经验与启示
 
 > **核心定位**：梳理日本、美国、欧洲在自动售药机/自动取药机/药房机器人领域的模式、监管和成败，为中国智能药柜政策设计和商业定位提供他山之石。
 
----
+
 
 ## Summary
 

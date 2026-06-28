@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -49,6 +50,7 @@ related:
 - [[yt-entrepreneur-pragmatic-startup]]
 - [[yt-entrepreneur-opportunity-selection]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # Y模型/科学方法
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -95,7 +97,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意提出可证伪假设 | 不是空话 |
 | ✅ 能设计对照实验 | 有实验设计能力 |
 | ✅ 接受失败 | 证伪是学习 |

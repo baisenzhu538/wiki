@@ -19,7 +19,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# 豆包AIGC生图：尺寸是唯一关键排版影响因素
+trust_level: low
+---
+
+# 豆包AIGC生图：尺寸是唯一关键排版影响因素
 
 ## 原始表述
 

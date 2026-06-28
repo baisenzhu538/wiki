@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
+  - framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
     follow_up_question: "你的市场活动有哪些？品牌定位是什么？目标受众是谁？"
-  - src_unknown
-    framework_lens: 市场驱动增长——市场和销售需要目标一致，协同作战
+  - framework_lens: 市场驱动增长——市场和销售需要目标一致，协同作战
     follow_up_question: "市场和销售的共同目标是什么？线索交接流程是否顺畅？"
-  - src_unknown
-    framework_lens: 市场驱动增长——内容营销需要匹配用户旅程
+  - framework_lens: 市场驱动增长——内容营销需要匹配用户旅程
     follow_up_question: "你的内容是否覆盖了用户从认知到决策的每个阶段？"
-  - src_unknown
-    framework_lens: 市场驱动增长——市场活动需要关注线索质量，不只是数量
+  - framework_lens: 市场驱动增长——市场活动需要关注线索质量，不只是数量
     follow_up_question: "你的线索评分标准是什么？市场活动和销售反馈是否闭环？"
-  - src_unknown
-    framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
+  - framework_lens: 市场驱动增长——展会和活动是市场的一部分，需要系统化
     follow_up_question: "展会和活动的ROI是多少？是否有后续跟进流程？"
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 段位自评——缺乏能力评估框架
+  - framework_lens: 段位自评——缺乏能力评估框架
     follow_up_question: "你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？"
-  - src_unknown
-    framework_lens: 段位评估——可能停留在L3，未验证到L4
+  - framework_lens: 段位评估——可能停留在L3，未验证到L4
     follow_up_question: "你的访谈结论能直接指导产品决策吗？有没有因为访谈而砍掉或新增功能？"
-  - src_unknown
-    framework_lens: 段位评估——停留在分析，未到预判
+  - framework_lens: 段位评估——停留在分析，未到预判
     follow_up_question: "你能预测未来6个月你的目标用户的需求会发生什么变化吗？"
-  - src_unknown
-    framework_lens: 段位评估——自我认知偏差，可能停留在L1-L2
+  - framework_lens: 段位评估——自我认知偏差，可能停留在L1-L2
     follow_up_question: "你能描述一个典型用户的一天中，会在什么具体时刻使用你的产品吗？"
-  - src_unknown
-    framework_lens: 段位评估——团队能力断层
+  - framework_lens: 段位评估——团队能力断层
     follow_up_question: "你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？"
 
 ---

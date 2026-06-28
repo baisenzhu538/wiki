@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
@@ -35,14 +36,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 假设驱动日常决策三问 / 敬畏概率
+- framework_lens: 假设驱动日常决策三问 / 敬畏概率
   follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？
-- src_unknown
-  framework_lens: FALSE 模型 / 征服概率
+- framework_lens: FALSE 模型 / 征服概率
   follow_up_question: 这个认知能否用当前 10% 的成本拿到？最便宜的验证手段是什么？
-- src_unknown
-  framework_lens: 关键假设排序 / 分析概率
+- framework_lens: 关键假设排序 / 分析概率
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
 
 ---

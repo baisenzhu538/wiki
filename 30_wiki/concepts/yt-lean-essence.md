@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
@@ -39,14 +40,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 精益本质检查：是否把试错成本集中在了当前最高风险的关键假设上？
+- framework_lens: 精益本质检查：是否把试错成本集中在了当前最高风险的关键假设上？
   follow_up_question: 你当前最重要的关键假设是什么？能否用访谈、竞品调研或 AI 模拟等更低成本手段先排除/证实它？
-- src_unknown
-  framework_lens: 阶段检查：需求侧与产品侧的假设是否已经验证？
+- framework_lens: 阶段检查：需求侧与产品侧的假设是否已经验证？
   follow_up_question: 在讨论增长之前，你是否已经证明目标用户真的有痛点、且你的最小解法被用户接受？
-- src_unknown
-  framework_lens: 精益 AI 检查：AI 降低的是执行成本，不是战略拆解成本
+- framework_lens: 精益 AI 检查：AI 降低的是执行成本，不是战略拆解成本
   follow_up_question: AI 可以帮你生成测试素材，但你要测的假设清单是否清晰？哪些假设风险最高？
 
 ---

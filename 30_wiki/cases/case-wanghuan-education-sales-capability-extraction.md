@@ -1,5 +1,6 @@
 ---
 
+
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
@@ -23,17 +24,13 @@ domain:
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 diagnostic_signals:
-- src_unknown
-  lens: 隐性决策知识未被萃取
+- lens: 隐性决策知识未被萃取
   follow_up: 用 PECED 反向工程销冠录音，区分“说了什么”与“为何此时说”
-- src_unknown
-  lens: 知识随人走
+- lens: 知识随人走
   follow_up: 把策略（何时做何判断）与话术（具体表达）写入双轨存储
-- src_unknown
-  lens: 评分维度缺少策略判断
+- lens: 评分维度缺少策略判断
   follow_up: 在评分顶层加入“策略判断”维度，权重高于话术流利度
-- src_unknown
-  lens: 培训系统与真实决策脱节
+- lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
 related:
   - src_unknown

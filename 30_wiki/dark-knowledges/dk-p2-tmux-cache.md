@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dk
@@ -33,7 +34,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-2：tmux session 缓存旧配置
-
+---
 ## 原始表述 / 核心洞察
 
 > **症状**：改了 `.bashrc` 后 `claude` 行为没变。
@@ -80,7 +81,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型表现 | 根因 | 纠正动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 改完 `.bashrc` 直接 `source ~/.bashrc` | 当前终端变量变了，但 tmux 里的程序仍用旧值 | `source` 只刷新当前 shell，不更新 tmux session 的环境快照 | `tmux kill-session -t <name>` 后重开 |
 | 只重启目标程序，不 kill tmux session | 程序行为如故，环境变量仍旧 | 程序仍跑在旧 session 中，继承旧环境 | 先 kill session，再启动程序 |
 | 找不到正确的 session 名 | `tmux kill-session -t claude` 报错 "session not found" | session 名与预期不一致，或用了不同用户/终端 | `tmux ls` 确认 session 名；必要时用 `tmux kill-server`（谨慎） |

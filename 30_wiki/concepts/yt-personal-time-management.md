@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -51,6 +52,7 @@ related:
 - [[yt-personal-ipo-learning]]
 - [[yt-personal-deep-review]]
 - [[yt-personal-checklist-notes]]
+---
 # 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -58,7 +60,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 任务多、容易陷入忙碌的职场人或创业者 |
 | **适合** | 有长期目标但总觉得没时间投入的人 |
 | **不适合** | 任务单一、时间自主权极低的环境 |

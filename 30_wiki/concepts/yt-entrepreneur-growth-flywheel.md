@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-growth-flywheel
 confidence: 0.8
 created_at: 2026-05-06
@@ -46,11 +47,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 飞轮各环节之间没有真实因果关系
+- framework_lens: 飞轮各环节之间没有真实因果关系
   follow_up_question: 你飞轮的每一个环节，都能用数据证明它推动下一环节吗？
-- src_unknown
-  framework_lens: 没有核心飞轮
+- framework_lens: 没有核心飞轮
   follow_up_question: 如果只能推动一个飞轮，你选哪个？为什么？
 updated_at: '2026-06-16'
 author: 老顽童

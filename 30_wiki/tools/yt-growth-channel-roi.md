@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
+  - framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
     follow_up_question: "你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？"
-  - src_unknown
-    framework_lens: 渠道ROI评估——CAC低≠ROI高，需要看LTV
+  - framework_lens: 渠道ROI评估——CAC低≠ROI高，需要看LTV
     follow_up_question: "这个渠道用户的LTV是多少？LTV/CAC是否健康？"
-  - src_unknown
-    framework_lens: 渠道ROI评估——渠道ROI下降可能是市场变化或竞争加剧
+  - framework_lens: 渠道ROI评估——渠道ROI下降可能是市场变化或竞争加剧
     follow_up_question: "ROI下降是短期波动还是长期趋势？竞品是否也在同一渠道？"
-  - src_unknown
-    framework_lens: 渠道ROI评估——渠道多元化是风险管理
+  - framework_lens: 渠道ROI评估——渠道多元化是风险管理
     follow_up_question: "你的渠道集中度是多少？是否有计划拓展新渠道？"
-  - src_unknown
-    framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
+  - framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
     follow_up_question: "成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？"
 
 ---

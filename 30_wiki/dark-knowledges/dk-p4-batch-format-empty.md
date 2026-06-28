@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-p4-batch-format-empty
 title: P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 type: dk
@@ -37,7 +38,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：抽检 `motivation-resistance` 和 `peak-end-rule` 两张卡——格式符合 agent-native 标准，但 Claims 无具体反例、Constraints 模板化。
@@ -92,7 +93,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | Claims 无具体反例 | 字段非空，但读完后回想不起任何案例 | 批量只搬结构，未做理解加工 | 为每条 Claim 补充 1 个具体场景 + 1 个反例 |
 | Constraints 模板化 | 多张卡片的 Constraint 措辞雷同 | 模板填充，未针对具体知识定制 | 每条 Constraint 必须包含"当...时"+"会导致..." |
 | Critique 万能化 | 批判段落放之四海而皆准 | 未针对本卡的具体假设或边界 | 至少一条 Critique 指向本卡的隐藏假设 |

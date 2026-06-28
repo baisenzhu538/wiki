@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 文化护城河——文化需要显性化，才能传承和复制
+  - framework_lens: 文化护城河——文化需要显性化，才能传承和复制
     follow_up_question: "你的文化是什么？能否用3个词描述？文化是否体现在日常行为中？"
-  - src_unknown
-    framework_lens: 文化护城河——文化稀释是扩张的常见问题
+  - framework_lens: 文化护城河——文化稀释是扩张的常见问题
     follow_up_question: "文化稀释发生在哪个环节？招聘、管理、还是沟通？如何强化？"
-  - src_unknown
-    framework_lens: 文化护城河——文化需要独特性，不能泛泛
+  - framework_lens: 文化护城河——文化需要独特性，不能泛泛
     follow_up_question: "你的文化和竞品的区别是什么？是否足够独特？"
-  - src_unknown
-    framework_lens: 文化护城河——文化需要体现在行为中，不是口号
+  - framework_lens: 文化护城河——文化需要体现在行为中，不是口号
     follow_up_question: "你的文化是否体现在招聘、考核、决策中？还是只是口号？"
-  - src_unknown
-    framework_lens: 文化护城河——文化需要平衡稳定和变革
+  - framework_lens: 文化护城河——文化需要平衡稳定和变革
     follow_up_question: "你的文化是否鼓励试错？是否容忍失败？"
 
 ---

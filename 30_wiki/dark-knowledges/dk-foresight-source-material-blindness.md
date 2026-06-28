@@ -1,5 +1,7 @@
 ---
 
+
+
 id: dk-foresight-source-material-blindness
 title: 暗知识：素材命名不一致导致完整口述稿被遗漏
 type: dk
@@ -38,6 +40,7 @@ related:
 - [[dk-f2-txt-ingest-skip]]
 - [[tool-yitang-public-sentiment-research]]
 - [[dk-c3-txt-ingest-skip]]
+---
 - [[tool-yitang-supply-chain-research]]
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏
@@ -76,7 +79,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 新域素材消化 | ✅ 适用 | 必须先搜内容再搜文件名，避免遗漏核心素材 |
 | 文件名搜索 | ✅ 适用 | 搜索范围必须包括同义词 |
 | 内容搜索 | ✅ 适用 | 文件名是人起的，内容主题才是机器能找到的 |

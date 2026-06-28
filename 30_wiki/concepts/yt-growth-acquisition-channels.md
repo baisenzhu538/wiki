@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 获客渠道——流量不够需要分析渠道结构
+  - framework_lens: 获客渠道——流量不够需要分析渠道结构
     follow_up_question: "你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？"
-  - src_unknown
-    framework_lens: 获客渠道——过度依赖付费广告，需要多元化
+  - framework_lens: 获客渠道——过度依赖付费广告，需要多元化
     follow_up_question: "付费广告占比多少？有没有自然流量、口碑、内容等免费渠道？"
-  - src_unknown
-    framework_lens: 获客渠道——渠道选择需要匹配产品和用户
+  - framework_lens: 获客渠道——渠道选择需要匹配产品和用户
     follow_up_question: "你的目标用户在哪里？渠道选择是否匹配用户行为？"
-  - src_unknown
-    framework_lens: 获客渠道——流量大≠质量好，需要看转化
+  - framework_lens: 获客渠道——流量大≠质量好，需要看转化
     follow_up_question: "这个渠道的用户是否匹配你的目标用户？转化漏斗哪里断了？"
-  - src_unknown
-    framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
+  - framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
     follow_up_question: "这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？"
 
 ---

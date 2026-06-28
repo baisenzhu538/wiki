@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sales-pitch-bias-patterns
 title: 销售话术偏误识别模式库
 type: framework
@@ -26,14 +27,11 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 可证伪 / 独立验证
+- framework_lens: 可证伪 / 独立验证
   follow_up_question: 标记后是否停留在感觉层面？
-- src_unknown
-  framework_lens: 基线校准 / 语境判断
+- framework_lens: 基线校准 / 语境判断
   follow_up_question: 是否把行业通用表述误判为偏误？
-- src_unknown
-  framework_lens: 风险量化 / 决策权重
+- framework_lens: 风险量化 / 决策权重
   follow_up_question: 哪种偏误对当前采购决策影响最大？
 review_grade: A
 review_note: 🟢放行。方法论资产，可复用于任何供应商评估。

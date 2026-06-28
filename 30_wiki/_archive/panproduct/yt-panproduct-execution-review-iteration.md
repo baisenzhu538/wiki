@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-review-iteration
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 复盘深度决定学习质量
+- framework_lens: 复盘深度决定学习质量
   follow_up_question: 这次复盘你提炼出了哪个可迁移的模型或原则？
-- src_unknown
-  framework_lens: 复盘必须产生行动
+- framework_lens: 复盘必须产生行动
   follow_up_question: 上次复盘的行动项有多少在下次复盘前完成了？
-- src_unknown
-  framework_lens: 成功经验同样需要模型化
+- framework_lens: 成功经验同样需要模型化
   follow_up_question: 这次成功中有哪些是偶然因素，哪些可以复制？
 updated_at: '2026-06-16'
 author: 老顽童

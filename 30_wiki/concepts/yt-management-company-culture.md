@@ -2,6 +2,7 @@
 
 
 
+
 title: 公司文化
 type: concept
 domain:
@@ -14,17 +15,13 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 口号论
+- framework_lens: 口号论
   follow_up_question: 你们公司的晋升、奖惩、招聘标准和文化价值观一致吗？如果不一致，文化是口号
-- src_unknown
-  framework_lens: 三层不一致
+- framework_lens: 三层不一致
   follow_up_question: 如果员工按制度做会违反价值观，他会怎么选？如果选制度，文化没落地
-- src_unknown
-  framework_lens: 信号冲突
+- framework_lens: 信号冲突
   follow_up_question: 过去6个月离开的明星员工中，有多少人提到文化冲突？如果≥2人，文化已在驱逐你真正想留的人
-- src_unknown
-  framework_lens: 创始人言行不一
+- framework_lens: 创始人言行不一
   follow_up_question: 上一次有人在全员会议上公开质疑你时，你的第一反应是追问事实还是解释/压下？后者说明墙上的"坦诚"未落地
 updated_at: '2026-06-16'
 id: yt-management-company-culture

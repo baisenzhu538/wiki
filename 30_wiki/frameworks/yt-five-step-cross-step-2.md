@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 跨步二——规模化需要单元模型支撑，否则增长越快亏损越大
+  - framework_lens: 跨步二——规模化需要单元模型支撑，否则增长越快亏损越大
     follow_up_question: "你的单元模型在规模化后是否成立？LTV/CAC是否恶化？"
-  - src_unknown
-    framework_lens: 跨步二——规模化可能稀释用户质量，需要优化渠道
+  - framework_lens: 跨步二——规模化可能稀释用户质量，需要优化渠道
     follow_up_question: "规模化前后的用户LTV对比如何？渠道是否变化？"
-  - src_unknown
-    framework_lens: 跨步二——规模化需要组织能力匹配
+  - framework_lens: 跨步二——规模化需要组织能力匹配
     follow_up_question: "你的团队人效是多少？关键岗位是否有人？管理体系是否跟上？"
-  - src_unknown
-    framework_lens: 跨步二——规模化不能牺牲产品体验
+  - framework_lens: 跨步二——规模化不能牺牲产品体验
     follow_up_question: "规模化后的产品体验指标如何？用户反馈是否变差？"
-  - src_unknown
-    framework_lens: 跨步二——从1到10的信号：单元模型成立、产品体验稳定、团队ready
+  - framework_lens: 跨步二——从1到10的信号：单元模型成立、产品体验稳定、团队ready
     follow_up_question: "你的单元模型是否成立？产品体验是否稳定？团队是否ready？"
 
 ---

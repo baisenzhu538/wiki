@@ -1,4 +1,5 @@
 ---
+
 id: tool-专题笔记脑图整理法
 title: 技能：专题笔记/脑图整理法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 笔记搬家
+- lens: 笔记搬家
   follow_up: 必须用自己的逻辑重新组织内容结构，不是原文目录的搬运。重绘结构是深度加工过程
-- src_unknown
-  lens: 脑图太细
+- lens: 脑图太细
   follow_up: 脑图2-3层就够了，每个节点代表一个独立判断。失去了'专题'的聚焦价值
-- src_unknown
-  lens: 做完不看
+- lens: 做完不看
   follow_up: 脑图的价值在使用而非制作。过去一周打开过0次的笔记不应该存在
-- src_unknown
-  lens: 跨域乱连
+- lens: 跨域乱连
   follow_up: 连线必须有逻辑依据，不是'看起来有关系'。每条连线必须能说出'因为X所以Y'
-- src_unknown
-  lens: 无后续用途
+- lens: 无后续用途
   follow_up: 做笔记时心里必须知道'这个以后会用在X场景'，没有明确用途的笔记是信息囤积
 ---
 # 技能：专题笔记/脑图整理法

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-travel-agent
 title: 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-strategy-05-positioning-trap]]
 - [[dk-demand-pitfall-rural-5g]]
 - [[case-demand-travel-agent]]
-
+---
 # 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 
 ## 原始表述
@@ -63,7 +64,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 产品设计 | ✅ 适用 | 不仅满足功能需求，还要满足情感和社交需求 |
 | 需求分析 | ✅ 适用 | 识别L5情感和社交任务 |
 | 用户访谈 | ✅ 适用 | 挖掘情感和社交层面的需求 |

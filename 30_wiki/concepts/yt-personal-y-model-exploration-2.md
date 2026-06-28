@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
@@ -45,14 +46,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: Y模型是预测引擎
+- framework_lens: Y模型是预测引擎
   follow_up_question: 这个Y模型是在事件发生前画的，还是发生后补的？
-- src_unknown
-  framework_lens: Y模型是认知线头
+- framework_lens: Y模型是认知线头
   follow_up_question: 这个Y模型牵出了你哪些原本分散的认知？
-- src_unknown
-  framework_lens: 预测必须可证伪
+- framework_lens: 预测必须可证伪
   follow_up_question: 如果Y模型预测错了，你会在什么观察出现后承认它错了？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -2,6 +2,7 @@
 
 
 
+
 title: 团队知识管理
 type: concept
 domain:
@@ -14,11 +15,9 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 文档库≠知识库
+- framework_lens: 文档库≠知识库
   follow_up_question: 一个新问题出现时，团队成员能在5分钟内找到相关知识吗？
-- src_unknown
-  framework_lens: 一次性构建
+- framework_lens: 一次性构建
   follow_up_question: 你的知识库最近一次更新是什么时候？如果超过一个月，知识在腐化
 updated_at: '2026-06-16'
 id: yt-management-team-knowledge

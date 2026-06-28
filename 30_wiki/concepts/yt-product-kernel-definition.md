@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核定义——内核是价值，不是功能列表
+  - framework_lens: 产品内核定义——内核是价值，不是功能列表
     follow_up_question: "去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。"
-  - src_unknown
-    framework_lens: 产品内核定义——全面≠有内核，可能意味着没有聚焦
+  - framework_lens: 产品内核定义——全面≠有内核，可能意味着没有聚焦
     follow_up_question: "用户选择你们，最核心的原因是什么？这个原因能支撑用户付费吗？"
-  - src_unknown
-    framework_lens: 产品内核定义——功能膨胀，内核被稀释
+  - framework_lens: 产品内核定义——功能膨胀，内核被稀释
     follow_up_question: "最近新增的3个功能，每个功能解决了什么核心问题？去掉会影响关键转化率吗？"
-  - src_unknown
-    framework_lens: 产品内核定义——内核必须能用一句话描述
+  - framework_lens: 产品内核定义——内核必须能用一句话描述
     follow_up_question: "你能用一句话（不超过20字）说清楚用户为什么选择你们吗？"
-  - src_unknown
-    framework_lens: 产品内核定义——内核必须是团队共识
+  - framework_lens: 产品内核定义——内核必须是团队共识
     follow_up_question: "你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？"
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dk
@@ -33,7 +34,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
-
+---
 ## 原始表述
 
 > **触发场景**：Builder 创建知识卡片时
@@ -77,7 +78,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败信号 | 典型表现 | 后果 |
-|---|---|---|
+|
+|---|---|
 | 标题是「XX 的定义/分类/应用」 | 卡片按定义→分类→特征→应用场景展开 | 结构完整，但缺少批判性加工 |
 | 缺少 `[Critique]` 区块 | 只有 `[Condense]` 或 `[Synthesis]` | 无法识别边界与反例 |
 | 应用场景被当作知识本身 | 罗列使用场景，未提炼迁移条件 | 新情境下无法复用 |

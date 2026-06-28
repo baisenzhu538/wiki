@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -27,20 +28,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
+  - framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
     follow_up_question: "用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？"
-  - src_unknown
-    framework_lens: 功能堆砌——没有围绕JTBD组织产品
+  - framework_lens: 功能堆砌——没有围绕JTBD组织产品
     follow_up_question: "用户雇佣你的产品是为了完成什么具体任务？每个功能是否直接服务于这个任务？"
-  - src_unknown
-    framework_lens: JTBD竞争——竞争不是同类产品，是所有完成同一任务的方案
+  - framework_lens: JTBD竞争——竞争不是同类产品，是所有完成同一任务的方案
     follow_up_question: "用户完成这个任务时，除了你的产品，还考虑过哪些方案？为什么选了竞品？"
-  - src_unknown
-    framework_lens: JTBD流失——用户找到了更好的"雇佣"对象
+  - framework_lens: JTBD流失——用户找到了更好的"雇佣"对象
     follow_up_question: "流失用户现在用什么方案完成原来的任务？这个方案比你的好在哪里？"
-  - src_unknown
-    framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
+  - framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
     follow_up_question: "这个功能能帮助用户完成什么他们现在完成不了的任务？"
 
 ---

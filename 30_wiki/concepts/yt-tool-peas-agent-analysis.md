@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tool-peas-agent-analysis
 component_of:
 - src_unknown
@@ -45,17 +46,13 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 目标清晰度 / 可测量
+- framework_lens: 目标清晰度 / 可测量
   follow_up_question: P 格是否写满'做好''提升'等模糊词？
-- src_unknown
-  framework_lens: 架构匹配 / 复杂度
+- framework_lens: 架构匹配 / 复杂度
   follow_up_question: 是否在复杂动态战中使用 reflex agent？
-- src_unknown
-  framework_lens: 价值多元 / 伦理边界
+- framework_lens: 价值多元 / 伦理边界
   follow_up_question: 是否把'家庭时间'与'职业成就'强行加权？
-- src_unknown
-  framework_lens: 危机响应 / 不确定性
+- framework_lens: 危机响应 / 不确定性
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
 updated_at: '2026-06-16'
 author: 老顽童

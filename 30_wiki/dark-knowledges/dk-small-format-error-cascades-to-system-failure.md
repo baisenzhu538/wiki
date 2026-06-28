@@ -1,4 +1,5 @@
 ---
+
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
@@ -41,7 +42,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
-
+---
 ## 原始表述 / 核心洞察
 
 在第 26 节清理 master 系统暗知识时，同一类问题反复出现：
@@ -83,7 +84,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 修复方法 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | **只查字段存在** | validator PASS，但内容是空壳/模板/错标 | validator 语义缺失 | 增加内容质量断言 |
 | **手写解析器无边界测试** | 中文引号、嵌套结构、特殊字符触发静默错误 | 过度自信地手写 parser | 用成熟库 + 边界样本单元测试 |
 | **命名不规范** | source_id_map 只能识别前半段，链接解析 dangling | 命名超出正则期望 | 新增命名先跑 gate/正则验证 |

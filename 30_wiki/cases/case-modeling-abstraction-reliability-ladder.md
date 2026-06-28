@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-abstraction-reliability-ladder
 title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 type: case
@@ -32,6 +33,7 @@ related:
 - [[modeling-level-map]]
 - [[case-modeling-abstraction-yitang-models]]
 - [[dk-modeling-counterexample-driven]]
+---
 # 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
@@ -61,7 +63,8 @@ related:
 ## 可迁移场景 / 使用边界
 
 | 场景 | 应用方式 |
-|---|---|
+|
+|---|
 | 评估外部课程/方法论/咨询框架 | 先问：证据在第几层？有没有可复现边界？ |
 | 内部模型发布验收 | 执行工具≥L2，部门方法论≥L3，对外核心模型≥L4 |
 | 向投资人/客户说明模型可信度 | 用阶梯标注当前 claims 的证据强度，管理预期 |

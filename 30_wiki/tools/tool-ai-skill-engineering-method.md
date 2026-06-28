@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
@@ -39,14 +40,11 @@ tags:
 - src_unknown
 source_context: 一堂建模能力培训口述稿中 Truman 分享的 AI Skill 工程化封装工作流，经多轮挑错、交叉验证后沉淀为可复用指南
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI Skill 工程化封装——缺少统一质量标准与审计清单
+- framework_lens: AI Skill 工程化封装——缺少统一质量标准与审计清单
   follow_up_question: 你的 Skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- src_unknown
-  framework_lens: 把 AI 当作执行者而非协作者
+- framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
-- src_unknown
-  framework_lens: 缺乏可复用的工程指南和审计基准
+- framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位

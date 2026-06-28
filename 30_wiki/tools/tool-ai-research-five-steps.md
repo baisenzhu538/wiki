@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-research-five-steps
 title: 技能：AI调研五步法
 type: tool
@@ -33,12 +34,13 @@ reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7
 trust_level: low
+---
 # 技能：AI调研五步法
 
 > **来源**：半肥猫（AI俱乐部-AI学习落地-口述）
 > **核心**：高质量AI调研不是"问AI一个问题"，而是"先定目标→做约束→做假设→提供证据→纠偏"的五步闭环。
 
----
+
 
 ## 原始表述
 > "高质量AI调研的流程是：先定目标→做约束→做假设（区分事实与推理）→提供证据资料→纠偏。其中'哪些是事实，哪些是推理'是最关键的过滤网。"

@@ -1,6 +1,7 @@
 ---
 
 
+
 title: 一号位
 type: concept
 domain:
@@ -11,20 +12,15 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 超级员工论
+- framework_lens: 超级员工论
   follow_up_question: 你每周不被打断的思考时间占比多少？如果<10%，你在当超级员工
-- src_unknown
-  framework_lens: 甩手掌柜论
+- framework_lens: 甩手掌柜论
   follow_up_question: 公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了
-- src_unknown
-  framework_lens: 错位论
+- framework_lens: 错位论
   follow_up_question: 过去7天你直接指挥过非直属下属吗？那些事属于你的四项不可委托职责吗？如果不是，48小时内指定负责人并退出群聊
-- src_unknown
-  framework_lens: 首席救火官论
+- framework_lens: 首席救火官论
   follow_up_question: 过去30天，同一类危机重复出现了几次？每次救火后是否留下了SOP或授权调整？
-- src_unknown
-  framework_lens: 人才囤积症
+- framework_lens: 人才囤积症
   follow_up_question: 本周你花了多少小时在招募和1on1上？如果关键岗位明天空缺，有谁能接？
 updated_at: '2026-06-17'
 id: yt-management-founder-role

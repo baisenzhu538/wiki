@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
+  - framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
     follow_up_question: "从了解产品到选择产品的转化率是多少？这个数值健康吗？"
-  - src_unknown
-    framework_lens: 关键转化率——产品好≠转化率高，内核可能不清晰
+  - framework_lens: 关键转化率——产品好≠转化率高，内核可能不清晰
     follow_up_question: "用户说'好'，但为什么不用？是内核不清晰，还是转化路径有问题？"
-  - src_unknown
-    framework_lens: 关键转化率——优化方向可能错误
+  - framework_lens: 关键转化率——优化方向可能错误
     follow_up_question: "你优化的功能和转化率有关系吗？还是优化了非关键路径？"
-  - src_unknown
-    framework_lens: 关键转化率——缺乏北极星指标
+  - framework_lens: 关键转化率——缺乏北极星指标
     follow_up_question: "你的产品内核对应的北极星指标是什么？当前数值是多少？"
-  - src_unknown
-    framework_lens: 关键转化率——指标过多，无法聚焦
+  - framework_lens: 关键转化率——指标过多，无法聚焦
     follow_up_question: "如果只能看一个指标来判断内核健康度，你会选哪个？为什么？"
 
 ---

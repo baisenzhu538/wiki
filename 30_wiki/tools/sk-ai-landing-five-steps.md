@@ -2,6 +2,7 @@
 
 
 
+
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: "tool"
@@ -32,14 +33,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI落地五步执行清单
+- framework_lens: AI落地五步执行清单
   follow_up_question: 你能列出当前业务中最熟悉、最小颗粒度的3个场景吗？
-- src_unknown
-  framework_lens: 五步流程阶段诊断
+- framework_lens: 五步流程阶段诊断
   follow_up_question: 你们当前卡在找场景、做判断、做验证、搞开发还是慢上线？
-- src_unknown
-  framework_lens: 慢上线与平行运行
+- framework_lens: 慢上线与平行运行
   follow_up_question: 是否有3个月的平行运行计划和明确的回退方案？
 
 ---

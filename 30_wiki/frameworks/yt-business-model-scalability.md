@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 商业模式可规模化——单元模型成立≠可规模化
+  - framework_lens: 商业模式可规模化——单元模型成立≠可规模化
     follow_up_question: "你的获客渠道是否可规模化？每个渠道的获客上限是多少？"
-  - src_unknown
-    framework_lens: 商业模式可规模化——需要评估规模化瓶颈
+  - framework_lens: 商业模式可规模化——需要评估规模化瓶颈
     follow_up_question: "做不大的原因是获客瓶颈、交付瓶颈、还是团队瓶颈？"
-  - src_unknown
-    framework_lens: 商业模式可规模化——规模化可能改变单元模型
+  - framework_lens: 商业模式可规模化——规模化可能改变单元模型
     follow_up_question: "规模化后，CAC是否上升？LTV是否下降？为什么？"
-  - src_unknown
-    framework_lens: 商业模式可规模化——渠道多元化是规模化前提
+  - framework_lens: 商业模式可规模化——渠道多元化是规模化前提
     follow_up_question: "如果主要渠道失效，你有备用渠道吗？渠道多元化程度如何？"
-  - src_unknown
-    framework_lens: 商业模式可规模化——规模不解决根本问题
+  - framework_lens: 商业模式可规模化——规模不解决根本问题
     follow_up_question: "规模化的瓶颈是什么？规模能突破瓶颈吗？"
 
 ---

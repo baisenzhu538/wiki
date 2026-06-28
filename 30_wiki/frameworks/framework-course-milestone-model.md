@@ -2,6 +2,7 @@
 
 
 
+
 id: framework-course-milestone-model
 title: 课程里程碑模型：一堂做课的七步生产流程
 type: framework
@@ -37,14 +38,11 @@ tags:
 - src_unknown
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals:
-- src_unknown
-  lens: 里程碑缺失
+- lens: 里程碑缺失
   follow_up: 用 M1-M7 检查当前课程处于哪一步，下一步停止条件是什么
-- src_unknown
-  lens: 边界漂移
+- lens: 边界漂移
   follow_up: 回到 M2 重新写一句话边界定义，超过边界的信息不进入
-- src_unknown
-  lens: 撞击实验不足
+- lens: 撞击实验不足
   follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-design-principles
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 原则是设计的宪法
+- framework_lens: 原则是设计的宪法
   follow_up_question: 这条原则如果改了，用户目标或品牌认知会变化吗？
-- src_unknown
-  framework_lens: 可记忆才能被执行
+- framework_lens: 可记忆才能被执行
   follow_up_question: 团队能不查文档说出全部原则吗？
-- src_unknown
-  framework_lens: 原则的价值在于裁决
+- framework_lens: 原则的价值在于裁决
   follow_up_question: 最近一次设计争议中，是哪条原则打破了平局？
 updated_at: '2026-06-16'
 author: 老顽童

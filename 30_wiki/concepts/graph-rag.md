@@ -1,5 +1,6 @@
 ---
 
+
 id: graph-rag
 aliases:
 - src_unknown
@@ -20,7 +21,7 @@ confidence: 0.75
 source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# Graph RAG — Knowledge-Graph-Powered Retrieval
-
+---
 ## Claims
 
 1. **Graph RAG 是检索范式的升维**：传统 RAG 把知识库切成文本块，靠向量相似度找相关内容；Graph RAG 先把知识解析成**节点（概念）和边（关系）**，检索时沿着关系网络遍历，找到语义相关但文本不一定相似的内容。
@@ -50,7 +51,7 @@ source_context: （原始 source 无法追溯，已标记为 src_unknown，待�
 - src_unknown
 - src_unknown
 
----
+
 
 ## How Graph RAG Works in KDO
 

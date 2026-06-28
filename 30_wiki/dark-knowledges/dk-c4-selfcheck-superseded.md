@@ -1,4 +1,5 @@
 ---
+
 id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 type: dk
@@ -39,7 +40,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因
   follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
-
+---
 ## 原始表述
 
 > `kdo self-check --dry-run` 将 `status: superseded` 的页面报为"未 enrich"。
@@ -81,7 +82,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 真实症状 | 可执行修复 |
-|:-----|:-----|:-----|
+|:
+--|:-----|:-----|
 | skip 集合遗漏 `superseded` | `kdo self-check --dry-run` 将终态页面报为"未 enrich" | 在 `_check_unenriched_wiki` 等函数的 skip 集合中加入 `superseded` |
 | 多个检查函数 skip 集合不一致 | 某些工具跳过 superseded，另一些仍误报或漏检 | 统一 skip 集合；抽取公共终态常量；为所有过滤逻辑补单元测试 |
 | 新增终态 status 未同步 skip 集合 | 新增 `archived`/`deprecated` 后，self-check 误报率突然上升 | 建立"新增 status → 判定终态 → 更新所有 skip 集合"的 checklist |

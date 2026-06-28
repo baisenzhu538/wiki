@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-four-elements-validation
 title: 技能：真需求四要素验证法
 type: tool
@@ -36,20 +37,15 @@ author: 纪浩
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 可解性高估
+- lens: 可解性高估
   follow_up: 强制写出从X到Y的具体步骤。不能写'应该可以'，必须有具体因果链
-- src_unknown
-  lens: 锚点虚化
+- lens: 锚点虚化
   follow_up: 要求某月某日、某地点、某事件。真实锚点必须具体，不能是'类似的情况'
-- src_unknown
-  lens: 受益虚化
+- lens: 受益虚化
   follow_up: 要求'谁在什么时间获得什么具体好处'。受益对象必须明确，不能写'公司/团队'
-- src_unknown
-  lens: 资源盲区
+- lens: 资源盲区
   follow_up: 追加资源约束检查。四要素通过不代表资源足够，必须评估时间、人力、资金
-- src_unknown
-  lens: 验证瘫痪
+- lens: 验证瘫痪
   follow_up: 设定验证时间上限（15分钟）。四要素是快速筛选工具，不是完美主义陷阱
 ---# 技能：真需求四要素验证法
 

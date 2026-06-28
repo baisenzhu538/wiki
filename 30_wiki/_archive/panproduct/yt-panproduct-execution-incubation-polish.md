@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-incubation-polish
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 酝酿利用潜意识加工
+- framework_lens: 酝酿利用潜意识加工
   follow_up_question: 你最近一个方案在搁置一段时间后，再看时发现了什么问题？
-- src_unknown
-  framework_lens: 打磨需要验收标准
+- framework_lens: 打磨需要验收标准
   follow_up_question: 这个版本的改动解决了上一次评审中的哪个具体问题？
-- src_unknown
-  framework_lens: 打磨是手段不是目的
+- framework_lens: 打磨是手段不是目的
   follow_up_question: 如果明天必须上线，你现在做的打磨还重要吗？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - healthcare
 
@@ -32,6 +33,7 @@ related:
 - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
 - [[smart-medicine-cabinet-regional-policy-map]]
 - [[smart-medicine-cabinet-national-policy-redlines]]
+---
 # 智能药柜分销业态洞察
 
 > 从七件事集团招商录音与山西省药品零售政策调研中提炼出的智能药柜/智慧药房分销业态关键事实与瓶颈。绿色内容可复用，黄色内容需进一步验证。
@@ -61,7 +63,8 @@ related:
 ### 全国三档分化格局
 
 | 类型 | 代表地区 | 可售范围 | 关键差异 |
-|:---|:---|:---|:---|
+|:
+|:---|:---|:---|
 | 严格保守型 | 北京、陕西、广西、甘肃、江西 | 仅乙类 OTC | 严守国家药监局 48 号公告 |
 | 适度放开型 | 重庆、西藏 | 乙类 + 甲类 OTC | 允许远程药学服务覆盖甲类 OTC |
 | 积极探索型 | 山西、山东烟台、湖南永州、湖北、上海浦东 | 可售处方药 | 通过"智慧药房"概念区别于"自助售药机" |

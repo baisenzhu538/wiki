@@ -1,4 +1,5 @@
 ---
+
 id: dk-f5-stale-feedback-ref
 title: F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 type: dk
@@ -31,7 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
-
+---
 ## 原始表述/核心洞察
 
 ### 原始表述
@@ -80,7 +81,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 触发条件 | 表面症状 | 修复方法 |
-|---|---|---|---|
+|
+|---|---|---|
 | 手动删文件未清 state | 删除 `60_feedback/` 中的 `.md` 文件但未同步编辑 state.json | `kdo lint` 报 "Feedback path does not exist" | 从 state.json 的 `feedback` 列表移除对应 ID |
 | Obsidian/工具自动清理 | 第三方工具或插件自动删除孤立文件 | lint 忽然出现大量 stale feedback 错误 | 批量运行清理脚本或手动过滤 feedback 列表 |
 | 路径变更当作删除 | feedback 文件被移动或重命名 | lint 报原路径不存在 | 更新 state.json 中的路径为新路径，而非删除引用 |

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ai-judgment-programmer-paradox
 title: 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 type: dk
@@ -21,8 +22,7 @@ related:
 - [[dk-ai-judgment-human-responsibility]]
 - [[dk-jh-llm-time-blindness]]
 - [[dk-yb12-ai-image-analysis-replace-training]]
-
-
+---
 # 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 
 ## 原始表述
@@ -48,7 +48,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 技术团队评估AI工具采用时机 |
 | ✅ 适合 | 技术产品开发者理解用户视角 |
 | ✅ 适合 | 组织制定AI推广策略 |

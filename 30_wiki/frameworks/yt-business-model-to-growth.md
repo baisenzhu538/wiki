@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
+  - framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
     follow_up_question: "你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？"
-  - src_unknown
-    framework_lens: 从商业模式到增长——验证和增长可以并行
+  - framework_lens: 从商业模式到增长——验证和增长可以并行
     follow_up_question: "验证商业模式的同时，是否可以小规模测试增长策略？"
-  - src_unknown
-    framework_lens: 从商业模式到增长——增长需要健康的商业模式支撑
+  - framework_lens: 从商业模式到增长——增长需要健康的商业模式支撑
     follow_up_question: "你的增长是否基于健康的单元模型？增长越快，亏损越大吗？"
-  - src_unknown
-    framework_lens: 从商业模式到增长——增长不是烧钱，而是优化单元模型
+  - framework_lens: 从商业模式到增长——增长不是烧钱，而是优化单元模型
     follow_up_question: "你的增长是否优化了单元模型？LTV/CAC是否提升？"
-  - src_unknown
-    framework_lens: 从商业模式到增长——增长策略必须服务商业模式
+  - framework_lens: 从商业模式到增长——增长策略必须服务商业模式
     follow_up_question: "你的增长策略是否强化了商业模式？还是削弱了？"
 
 ---

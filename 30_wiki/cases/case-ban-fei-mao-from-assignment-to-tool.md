@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
@@ -31,17 +32,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 推理替代证据
+- framework_lens: 推理替代证据
   follow_up_question: 这个结论是基于真实数据、具体案例，还是AI的合理推理？能不能列出3条可验证的事实？
-- src_unknown
-  framework_lens: 单次交付 vs 可复用资产
+- framework_lens: 单次交付 vs 可复用资产
   follow_up_question: 这次作业的产出能否被下一次类似任务直接调用？哪些步骤可以封装成模板或检查清单？
-- src_unknown
-  framework_lens: 真实问题驱动
+- framework_lens: 真实问题驱动
   follow_up_question: 你当前有没有一个真实的、正在进行的业务问题？如果没有，练习结论的可迁移性会打多少折扣？
-- src_unknown
-  framework_lens: 信源与边界校准
+- framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
 ---
 

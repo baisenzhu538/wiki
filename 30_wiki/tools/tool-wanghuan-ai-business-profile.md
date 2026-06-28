@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
@@ -23,17 +24,13 @@ source_refs:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: context-loss
+- lens: context-loss
   follow_up: 检查业务档案是否已固化为 system prompt 或对话开头注入
-- src_unknown
-  lens: standard-drift
+- lens: standard-drift
   follow_up: '检查"我的风格偏好"与"我的输出标准"是否写了可验证的负面约束'
-- src_unknown
-  lens: tacit-rule-gap
+- lens: tacit-rule-gap
   follow_up: '补充"行业暗规则"字段，把"不说但默认"的规矩写成否定句'
-- src_unknown
-  lens: role-ambiguity
+- lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
   - src_unknown

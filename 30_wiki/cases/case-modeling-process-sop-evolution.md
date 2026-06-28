@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
@@ -39,17 +40,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 流程建模 / SOP
+- framework_lens: 流程建模 / SOP
   follow_up_question: 这个任务过去 3 个月重复了几次？单次失败成本是多少？有没有可被固定下来的关键步骤？
-- src_unknown
-  framework_lens: 流程建模 + 加锁机制
+- framework_lens: 流程建模 + 加锁机制
   follow_up_question: 这位高手的关键动作能不能拆成 5-7 步？谁能在前 3 次执行时督导并签字？
-- src_unknown
-  framework_lens: SOP 执行锁
+- framework_lens: SOP 执行锁
   follow_up_question: 这份 SOP 有责任人、督导人和品控人吗？最近一次更新是因为什么意外？
-- src_unknown
-  framework_lens: 流程建模适用边界
+- framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
 ---# 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 

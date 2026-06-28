@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
@@ -28,14 +29,11 @@ related:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 投入与价值匹配
+- framework_lens: 投入与价值匹配
   follow_up_question: 这条信息值多少钱？你愿意花多少成本获取？
-- src_unknown
-  framework_lens: 情报获取需要组合拳
+- framework_lens: 情报获取需要组合拳
   follow_up_question: 你已经穷尽了多少个情报节点？
-- src_unknown
-  framework_lens: 调研有合规红线
+- framework_lens: 调研有合规红线
   follow_up_question: 这个手段如果公开，是否会损害信任或触犯规则？
 updated_at: '2026-06-16'
 author: 老顽童

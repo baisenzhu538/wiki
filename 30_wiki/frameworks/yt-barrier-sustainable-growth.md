@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
+  - framework_lens: 可持续增长——增长需要壁垒支撑，否则不可持续
     follow_up_question: "你的增长是否基于壁垒？壁垒能否保护增长成果？"
-  - src_unknown
-    framework_lens: 可持续增长——增长天花板需要壁垒突破
+  - framework_lens: 可持续增长——增长天花板需要壁垒突破
     follow_up_question: "你的壁垒能否帮你突破天花板？新市场、新产品、新场景？"
-  - src_unknown
-    framework_lens: 可持续增长——补贴增长不可持续，需要壁垒驱动
+  - framework_lens: 可持续增长——补贴增长不可持续，需要壁垒驱动
     follow_up_question: "停止补贴后，用户是否因为壁垒而留下？"
-  - src_unknown
-    framework_lens: 可持续增长——可持续增长 = 增长 + 壁垒 + 迭代
+  - framework_lens: 可持续增长——可持续增长 = 增长 + 壁垒 + 迭代
     follow_up_question: "你的增长飞轮是否健康？壁垒是否在同步建设？"
-  - src_unknown
-    framework_lens: 可持续增长——增长被复制说明壁垒不足
+  - framework_lens: 可持续增长——增长被复制说明壁垒不足
     follow_up_question: "你的壁垒是什么？为什么竞品复制不了？"
 
 ---

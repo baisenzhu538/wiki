@@ -1,5 +1,6 @@
 ---
 
+
 title: 一堂课程大地图
 type: concept
 subtype: hub
@@ -22,6 +23,7 @@ related:
 - [[tool-yitang-18-strategy-tool-mapping]]
 - [[yitang-research-domain-digest]]
 - [[plan_20260621_retrieval-architecture-upgrade]]
+---
 # 一堂课程大地图
 
 > Dataview 驱动的课程列表页。方法论框架和体系解读见 30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图（权威 Hub）。
@@ -95,7 +97,8 @@ SORT yitang.map ASC, yitang.module ASC, file.name ASC
 ### 不要用的场景
 
 | 场景 | 为什么失效 | 替代方案 |
-|------|-----------|---------|
+|
+---|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 | 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
 

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -25,20 +26,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核验证——假设未验证
+  - framework_lens: 产品内核验证——假设未验证
     follow_up_question: "你的内核假设验证过吗？用什么方法？关键转化率是多少？"
-  - src_unknown
-    framework_lens: 产品内核验证——需要三维度交叉验证
+  - framework_lens: 产品内核验证——需要三维度交叉验证
     follow_up_question: "你验证了用户是否愿意使用，但验证了他们是否愿意付费吗？是否愿意推荐？"
-  - src_unknown
-    framework_lens: 产品内核验证——问卷≠行为验证
+  - framework_lens: 产品内核验证——问卷≠行为验证
     follow_up_question: "用户说'愿意付费'后，有没有让他们实际付费或预付？"
-  - src_unknown
-    framework_lens: 产品内核验证——样本不足
+  - framework_lens: 产品内核验证——样本不足
     follow_up_question: "验证了多少个用户？是否覆盖了目标用户画像？"
-  - src_unknown
-    framework_lens: 产品内核验证——验证结果不被尊重
+  - framework_lens: 产品内核验证——验证结果不被尊重
     follow_up_question: "如果验证结果不支持内核假设，你会调整方向吗？"
 
 ---

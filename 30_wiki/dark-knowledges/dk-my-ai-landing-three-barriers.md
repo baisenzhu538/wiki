@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-my-ai-landing-three-barriers
 title: AI落地三大壁垒：从"会用"到"用好"的黑洞
 type: dk
@@ -20,8 +21,7 @@ related:
 - [[dk-jh-llm-time-blindness]]
 - [[dk-ai-judgment-human-responsibility]]
 - [[dk-ai-judgment-programmer-paradox]]
-
-
+---
 # AI落地三大壁垒：从"会用"到"用好"的黑洞
 
 ## 原始表述
@@ -51,7 +51,8 @@ related:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 个人或团队评估AI应用成熟度 |
 | ✅ 适合 | AI工具培训和推广策略制定 |
 | ✅ 适合 | 工作流设计和优化 |

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
+  - framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
     follow_up_question: "你的需求验证了吗？内核验证了吗？单元模型成立吗？"
-  - src_unknown
-    framework_lens: 跨步一——产品没人用说明需求或内核验证失败
+  - framework_lens: 跨步一——产品没人用说明需求或内核验证失败
     follow_up_question: "你的需求是真实的吗？内核是否解决了用户问题？"
-  - src_unknown
-    framework_lens: 跨步一——内核验证需要用户真实使用并反馈
+  - framework_lens: 跨步一——内核验证需要用户真实使用并反馈
     follow_up_question: "你的内核是否让用户愿意用？用户使用后是否愿意推荐？"
-  - src_unknown
-    framework_lens: 跨步一——验证通过后需要敢于规模化
+  - framework_lens: 跨步一——验证通过后需要敢于规模化
     follow_up_question: "你的验证是否充分？单元模型是否成立？"
-  - src_unknown
-    framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
+  - framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
     follow_up_question: "你的验证周期多长？是否过度打磨产品？"
 
 ---

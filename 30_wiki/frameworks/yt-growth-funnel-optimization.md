@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
+  - framework_lens: 漏斗优化——流量多≠转化高，需要分析漏斗每个环节
     follow_up_question: "你的漏斗每个环节的转化率是多少？哪个环节流失最多？"
-  - src_unknown
-    framework_lens: 漏斗优化——付费环节流失需要分析 friction
+  - framework_lens: 漏斗优化——付费环节流失需要分析 friction
     follow_up_question: "付费页面的 friction 是什么？价格、支付方式、信任？"
-  - src_unknown
-    framework_lens: 漏斗优化——漏斗太长需要简化或分段优化
+  - framework_lens: 漏斗优化——漏斗太长需要简化或分段优化
     follow_up_question: "漏斗的每个步骤是否必要？能不能合并或跳过？"
-  - src_unknown
-    framework_lens: 漏斗优化——局部优化不等于整体优化，需要看全局
+  - framework_lens: 漏斗优化——局部优化不等于整体优化，需要看全局
     follow_up_question: "你优化的是哪个环节？其他环节是否恶化？"
-  - src_unknown
-    framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
+  - framework_lens: 漏斗优化——需要建立漏斗监控，定位流失点
     follow_up_question: "你的漏斗监控是否覆盖每个环节？流失点是否有用户反馈？"
 
 ---

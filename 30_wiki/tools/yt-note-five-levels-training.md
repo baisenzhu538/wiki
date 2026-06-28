@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
@@ -55,23 +56,17 @@ author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: L1-L2幻觉
+- framework_lens: L1-L2幻觉
   follow_up_question: 过去7天里，你的笔记是否至少被召回使用过一次？
-- src_unknown
-  framework_lens: 笔记≠练习
+- framework_lens: 笔记≠练习
   follow_up_question: 这篇笔记能否直接转化为一个可执行动作或检查清单？
-- src_unknown
-  framework_lens: 模仿L3
+- framework_lens: 模仿L3
   follow_up_question: 你是否先用清单体独立解决过3个以上真实问题？
-- src_unknown
-  framework_lens: 剩余脑力不足
+- framework_lens: 剩余脑力不足
   follow_up_question: 现场结束后，你的笔记是否需要大量事后整理才能用？
-- src_unknown
-  framework_lens: 立flag不足
+- framework_lens: 立flag不足
   follow_up_question: 这篇笔记中至少有30%是你自己的判断、关联或反常识问题吗？
-- src_unknown
-  framework_lens: 广泛涉猎前提缺失
+- framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
 
 ---

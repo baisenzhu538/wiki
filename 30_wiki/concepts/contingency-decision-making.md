@@ -1,4 +1,5 @@
 ---
+
 id: contingency-decision-making
 title: "偶然性与决策：承认'我不知道'比虚假确定性更明智"
 type: concept
@@ -32,20 +33,15 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "虚假确定性"
+  - lens: "虚假确定性"
     follow_up: "强制问自己：如果这件事完全错了，我最可能忽略了什么？找到至少1个被忽略因素"
-  - src_unknown
-    lens: "冗余缺失"
+  - lens: "冗余缺失"
     follow_up: "在时间表/预算中强制加入20%冗余，冗余被消耗比例<50%"
-  - src_unknown
-    lens: "叙事陷阱"
+  - lens: "叙事陷阱"
     follow_up: "问自己：这个故事的反面版本是什么？能讲出至少1个反面故事"
-  - src_unknown
-    lens: "预测幻觉"
+  - lens: "预测幻觉"
     follow_up: "区分风险（概率已知）vs不确定性（机制未知），后者不可预测只能准备"
-  - src_unknown
-    lens: "政治资本缺失"
+  - lens: "政治资本缺失"
     follow_up: "检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全"
 ---# 偶然性与决策：承认"我不知道"比虚假确定性更明智
 

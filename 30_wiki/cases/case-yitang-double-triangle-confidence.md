@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-yitang-double-triangle-confidence
 title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
@@ -50,14 +51,11 @@ domain:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 缺乏统一完备框架，各自迷信单一工具或 prompt
+- lens: 缺乏统一完备框架，各自迷信单一工具或 prompt
   follow_up: 让业务负责人用双三角模型把任务拆成六维检查清单，定位缺失的是哪一角
-- src_unknown
-  lens: 把工具当答案，而不是把框架当底盘
+- lens: 把工具当答案，而不是把框架当底盘
   follow_up: 在动手前先回答：这个任务的六维要素是否已覆盖？里程碑是什么？
-- src_unknown
-  lens: 体系/里程碑成为最大卡点，而非基本功或数据
+- lens: 体系/里程碑成为最大卡点，而非基本功或数据
   follow_up: 用双三角做前置筹备，把“六词空壳”往下推两层变成具体检查项和动作
 ---# 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 

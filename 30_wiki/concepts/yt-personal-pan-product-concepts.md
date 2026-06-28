@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-concepts
 component_of:
 - src_unknown
@@ -46,14 +47,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 泛化能力 = 跨域映射
+- framework_lens: 泛化能力 = 跨域映射
   follow_up_question: 这个问题与你已经熟悉的哪个领域的问题本质相同？
-- src_unknown
-  framework_lens: 泛产品能力是工具组合能力
+- framework_lens: 泛产品能力是工具组合能力
   follow_up_question: 如果只能出一张牌，你会选哪张？为什么？
-- src_unknown
-  framework_lens: 泛化不是取消专业化
+- framework_lens: 泛化不是取消专业化
   follow_up_question: 这个领域有哪些独特约束会让通用工具失效？
 updated_at: '2026-06-16'
 author: 老顽童

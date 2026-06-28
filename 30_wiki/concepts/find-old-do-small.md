@@ -1,4 +1,5 @@
 ---
+
 id: find-old-do-small
 title: "找老的干小的：AI落地场景评估框架"
 type: tool
@@ -33,17 +34,13 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    lens: "场景评估"
+  - lens: "场景评估"
     follow_up: "用检查清单对3个场景打分，1小时内完成评估"
-  - src_unknown
-    lens: "回溯检查"
+  - lens: "回溯检查"
     follow_up: "检查是否跳过了老或小的检查，找到1个被忽略的关键检查项"
-  - src_unknown
-    lens: "客观排序"
+  - lens: "客观排序"
     follow_up: "用四要素检查各自方案，形成客观的打分排序"
-  - src_unknown
-    lens: "场景错配"
+  - lens: "场景错配"
     follow_up: "重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景"
 ---# "找老的干小的"场景评估框架
 

@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-five-step-method
 confidence: 0.9
 created_at: 2026-06-10
@@ -50,17 +51,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 框架使用不完整
+- framework_lens: 框架使用不完整
   follow_up_question: 你最近一次完整走完了五步法的五个环节是什么时候？
-- src_unknown
-  framework_lens: 僵化套用
+- framework_lens: 僵化套用
   follow_up_question: 你这个行业的特殊性是什么？五步法的哪一步需要特别调整？
-- src_unknown
-  framework_lens: 框架被异化为演讲稿
+- framework_lens: 框架被异化为演讲稿
   follow_up_question: 这五步里，有哪一步的结论是基于外部证据而非团队共识？证据是什么？
-- src_unknown
-  framework_lens: 自评幻觉
+- framework_lens: 自评幻觉
   follow_up_question: 如果用最近3个月的业务结果反推，你哪一步的实际验证得分最高？哪一步最低？
 updated_at: '2026-06-16'
 author: 老顽童

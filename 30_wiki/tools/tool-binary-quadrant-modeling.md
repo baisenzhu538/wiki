@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-binary-quadrant-modeling
 title: 二分法/象限图建模法：用正交维度做分类与取舍
 type: tool
@@ -36,14 +37,11 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: binary-quadrant-modeling
+- framework_lens: binary-quadrant-modeling
   follow_up_question: 这个议题是否真的适合用两个离散维度分类？中间态/边界案例如何处理？
-- src_unknown
-  framework_lens: binary-quadrant-modeling
+- framework_lens: binary-quadrant-modeling
   follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
-- src_unknown
-  framework_lens: binary-quadrant-modeling
+- framework_lens: binary-quadrant-modeling
   follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
 ---
 # 二分法/象限图建模法：用正交维度做分类与取舍

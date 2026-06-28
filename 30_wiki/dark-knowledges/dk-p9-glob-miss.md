@@ -1,4 +1,5 @@
 ---
+
 id: dk-p9-glob-miss
 title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 type: dk
@@ -26,7 +27,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
-
+---
 ## 原始表述 / 核心洞察
 
 > **症状**：用户说设计域文件在 `00_inbox/design/`，执行 `Glob "00_inbox/*design*/**/*"` + `Glob "00_inbox/**/*.txt"` 均返回空。结论"文件不存在"。用户指出文件就在那里后，改用 PowerShell `Get-ChildItem -Recurse` 立即找到：`design\AI设计-AI设计基础01.txt` (72KB) 和 `AI设计-AI设计师实操培训01.txt` (122KB)。误判导致任务文件被错误标注为"阻塞"后又回滚，浪费时间+信誉。
@@ -89,7 +90,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 根因 | 止损动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | **Glob 漏扫子目录** | `Glob "dir/**/*.ext"` 返回空，但文件实际存在 | Glob 对递归深度、中文路径、特殊字符处理有边界 | 改用 `Get-ChildItem -Recurse` 或 `find -type f` 做全量枚举 |
 | **把 negative result 当结论** | 直接宣布"文件不存在"并标记任务阻塞 | 未对单一工具的"未找到"做二次确认 | 至少两种独立工具确认后再下结论；优先使用系统原生递归命令 |
 | **忽略中文/特殊字符路径** | 含中文、空格、括号的文件反复漏匹配 | Glob 转义、编码或分词规则不一致 | 先用无模式过滤的全量列表，再本地过滤；避免过度依赖通配符 |

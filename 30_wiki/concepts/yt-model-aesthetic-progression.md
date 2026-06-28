@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
@@ -41,11 +42,9 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 案例输入不足——审美提升需要大量高质量案例浸泡
+- framework_lens: 案例输入不足——审美提升需要大量高质量案例浸泡
   follow_up_question: 过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄
-- src_unknown
-  framework_lens: 跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁
+- framework_lens: 跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁
   follow_up_question: 你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-mckinsey-hypothesis-driven-pitfalls
 title: 暗知：假设驱动方法论的三个反直觉陷阱
 type: dk
@@ -32,6 +33,7 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.85
 trust_level: medium-high
+---
 # 暗知：假设驱动方法论的三个反直觉陷阱
 
 ## 原始表述
@@ -59,7 +61,8 @@ trust_level: medium-high
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 信息不完全时需要快速缩小搜索空间的决策场景 |
 | ✅ 适合 | 团队愿意接受假设可能被证伪的文化 |
 | ✅ 适合 | 有资源设计最小成本验证实验的场景 |

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
@@ -25,14 +26,11 @@ review_date: '2026-06-17'
 confidence: 0.65
 trust_level: low
 diagnostic_signals:
-- src_unknown
-  framework_lens: FALSE 模型 + 一堂关键假设拆解
+- framework_lens: FALSE 模型 + 一堂关键假设拆解
   follow_up_question: 这个假设如果为假，业务是否会直接失败？能否用 F 或 A 策略在 1 天内证伪？
-- src_unknown
-  framework_lens: 直接测试 vs 人工替代
+- framework_lens: 直接测试 vs 人工替代
   follow_up_question: 模拟测试的通过标准是否与真实付费行为对齐？是否需要升级到真实订单测试？
-- src_unknown
-  framework_lens: 精益本质（少量试错成本降低系统性风险）
+- framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
   - src_unknown

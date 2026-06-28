@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
@@ -40,14 +41,11 @@ pipeline:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 人不思考 / 能力退化
+  - framework_lens: 人不思考 / 能力退化
     follow_up_question: 你最近一次完全不用AI、独立整理并建模一个概念是什么时候？能否用一句话说出它对你的业务意味着什么？
-  - src_unknown
-    framework_lens: 效率低 / L1-L2 资源错配
+  - framework_lens: 效率低 / L1-L2 资源错配
     follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？把这些省下的时间投向了哪一层能力？
-  - src_unknown
-    framework_lens: 内化混淆 / 边界不清
+  - framework_lens: 内化混淆 / 边界不清
     follow_up_question: 关掉AI后，你能否用30秒向同事讲清这篇笔记的核心观点和1个反常点？
 updated_at: 2026-06-17
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dk
@@ -46,7 +47,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
-
+---
 ## 原始表述
 
 > **触发场景**：用户一次性给黄药师派发 ≥3 个独立任务，或任务涉及读取 ≥5 个规范/源文件
@@ -86,7 +87,8 @@ tags:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 适用 | 所有给 Builder Agent（特别是黄药师）分配任务的场景 |
 | ❌ 不适用 | 老顽童（Producer）session：Producer 通常只处理单张卡片或单篇文章，不容易触发上下文过载 |
 | 注意 | 不同 Agent 的上下文消耗特性不同：黄药师需要读取大量规范文件，最容易触发；洪七公处理视觉任务，上下文消耗模式不同 |

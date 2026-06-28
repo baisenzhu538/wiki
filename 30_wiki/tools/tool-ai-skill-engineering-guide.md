@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
@@ -40,14 +41,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 缺少工程化标准和自我审计
+- framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
-- src_unknown
-  framework_lens: 把 AI 当作执行者而非协作者
+- framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
-- src_unknown
-  framework_lens: 缺乏可复用的工程指南和审计基准
+- framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把"好 skill"的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---# 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 

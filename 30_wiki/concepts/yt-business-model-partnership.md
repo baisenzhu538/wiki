@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
+  - framework_lens: 合作伙伴策略——生态需要明确的合作伙伴
     follow_up_question: "你的生态中，合作伙伴是谁？他们为什么愿意加入？"
-  - src_unknown
-    framework_lens: 合作伙伴策略——合作伙伴关系需要设计协同机制
+  - framework_lens: 合作伙伴策略——合作伙伴关系需要设计协同机制
     follow_up_question: "你的合作伙伴之间如何协同？利益分配机制是什么？"
-  - src_unknown
-    framework_lens: 合作伙伴策略——合作伙伴关系需要平衡依赖
+  - framework_lens: 合作伙伴策略——合作伙伴关系需要平衡依赖
     follow_up_question: "你对合作伙伴的依赖程度如何？是否有备选方案？"
-  - src_unknown
-    framework_lens: 合作伙伴策略——合作伙伴贡献和回报需要匹配
+  - framework_lens: 合作伙伴策略——合作伙伴贡献和回报需要匹配
     follow_up_question: "你的合作伙伴贡献了什么？分润比例是否匹配贡献？"
-  - src_unknown
-    framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
+  - framework_lens: 合作伙伴策略——合作伙伴质量比数量重要
     follow_up_question: "你的核心合作伙伴有几个？是否形成了紧密协同？"
 
 ---

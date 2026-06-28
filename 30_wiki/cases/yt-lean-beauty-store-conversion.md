@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-lean-beauty-store-conversion
 title: 美业门店：200→4000转化链路才是关键假设
 type: case
@@ -38,11 +39,9 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 产品内核假设 / 关键转化链路
+- framework_lens: 产品内核假设 / 关键转化链路
   follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？
-- src_unknown
-  framework_lens: 里程碑依赖 / 过早固化
+- framework_lens: 里程碑依赖 / 过早固化
   follow_up_question: 200→4000转化率是否已拿到初步肯定判断？加盟意愿测试是否应放在第三里程碑而非现在就做？
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
@@ -49,14 +50,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 表达是逐级推进
+- framework_lens: 表达是逐级推进
   follow_up_question: 你的表达中，哪一部分负责建立认知？哪一部分推动行动？
-- src_unknown
-  framework_lens: 表达服务于听众
+- framework_lens: 表达服务于听众
   follow_up_question: 如果听众已经认同你，是否可以跳过或缩短某个阶段？
-- src_unknown
-  framework_lens: 精确表达需要刻意练习
+- framework_lens: 精确表达需要刻意练习
   follow_up_question: 你为这次表达做了几次完整演练？
 updated_at: '2026-06-16'
 author: 老顽童

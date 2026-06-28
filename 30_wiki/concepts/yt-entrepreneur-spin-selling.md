@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -45,6 +46,7 @@ related:
 - [[yt-personal-y-model-practice]]
 - [[yt-entrepreneur-industrial-production]]
 - [[yt-entrepreneur-truth-seeking]]
+---
 # SPIN销售法：顾问式销售的奠基之作
 
 > 来源：一堂读书会·SPIN销售法口述（2小时解读，Truman主讲）。[[yt-entrepreneur-scientific-method]] | [[一堂]]
@@ -58,7 +60,8 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 ### 书籍地位
 
 | 维度 | 评价 |
-|------|------|
+|
+---|------|
 | **出版** | 1988年（2026年仍为必读经典） |
 | **地位** | 现代销售奠基之作，B2B大客户销售圣经 |
 | **创新** | 首次将科学实证（AB测试/数据对比）引入销售 |

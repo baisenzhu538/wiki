@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -51,6 +52,7 @@ related:
 - [[yt-entrepreneur-industrial-production]]
 - [[yt-entrepreneur-fundraising]]
 - [[yt-entrepreneur-pragmatic-startup]]
+---
 # 实事求是
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -97,7 +99,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 愿意面对不愉快事实 | 不逃避 |
 | ✅ 能区分事实与愿望 | 客观 |
 | ✅ 有决策需要 | 求真服务于决策 |

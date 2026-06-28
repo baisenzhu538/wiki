@@ -1,5 +1,6 @@
 ---
 
+
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
@@ -57,17 +58,13 @@ reviewed_by: 王语嫣
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 获客渠道未规模化——关系网络无法被系统化复用
+  - framework_lens: 获客渠道未规模化——关系网络无法被系统化复用
     follow_up_question: 能否把关系网络中的线索来源抽象为可复制的公开信息源？哪些信息源能持续产出新线索？
-  - src_unknown
-    framework_lens: 获客流程未工业化——搜索动作停留在手工作坊
+  - framework_lens: 获客流程未工业化——搜索动作停留在手工作坊
     follow_up_question: 哪些搜索动作可以脚本化、工具化或交给AI？判断一个线索是否值得跟进的标准是否清晰？
-  - src_unknown
-    framework_lens: 缺少统一线索池和分配规则
+  - framework_lens: 缺少统一线索池和分配规则
     follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
-  - src_unknown
-    framework_lens: 抓取规则缺少质量分门槛
+  - framework_lens: 抓取规则缺少质量分门槛
     follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
 ---# 案例：以太利用全网调研能力快速获客
 

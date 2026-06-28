@@ -1,4 +1,5 @@
 ---
+
 id: tool-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
@@ -46,26 +47,19 @@ created_at: '2026-06-15'
 trust_level: medium
 updated_at: '2026-06-18'
 diagnostic_signals:
-- src_unknown
-  lens: 层级超载
+- lens: 层级超载
   follow_up: 拆分为2-3层并列分类，删除无意义的中间层级
-- src_unknown
-  lens: 点数超载
+- lens: 点数超载
   follow_up: 先合并同类项，仍超过7则拆分为两个并列大分类
-- src_unknown
-  lens: 过度分层
+- lens: 过度分层
   follow_up: 取消该层级，改为单层列表或与相邻层级合并
-- src_unknown
-  lens: 结构不清
+- lens: 结构不清
   follow_up: 重新检查层级深度和各层点数，压缩到3秒可加载
-- src_unknown
-  lens: 清单不完整
+- lens: 清单不完整
   follow_up: 强制归类，补全所有条目，确保清单闭合
-- src_unknown
-  lens: 层级冗余
+- lens: 层级冗余
   follow_up: 确定唯一归属层级，删除重复或改为引用
-- src_unknown
-  lens: 机器可读性差
+- lens: 机器可读性差
   follow_up: 将4层及以上嵌套压缩到3层以内，并统一列表符号
 ---
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

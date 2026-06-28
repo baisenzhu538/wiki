@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
@@ -41,14 +42,11 @@ version: 1
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 认知补丁 = 改变判断或行动的单一模型
+- framework_lens: 认知补丁 = 改变判断或行动的单一模型
   follow_up_question: 去掉这张卡，你在什么具体决策上会做出不同选择？
-- src_unknown
-  framework_lens: 补丁必须能安装到具体场景
+- framework_lens: 补丁必须能安装到具体场景
   follow_up_question: 这个认知在什么情境下会失效？
-- src_unknown
-  framework_lens: 孤立的补丁价值有限
+- framework_lens: 孤立的补丁价值有限
   follow_up_question: 这张卡与已有哪张卡冲突或互补？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yb4-nano-banana-style-reproduction
 title: Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
 type: dk
@@ -35,7 +36,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 模型选择错位——稳定复现特定风格不是所有模型的强项
   follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
-
+---
 ## 原始表述
 
 > 特别是你要稳定产出某一位艺术家的特定风格，最好的效果其实是nano banana，而不是GPTMajor Two。
@@ -54,7 +55,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | **不适用于通用场景、非艺术风格类图像生成** | 商业产品图、UI截图等场景优先用最新通用模型。 |
 | **结论可能随版本迭代变化** | "不如老模型"的判断有保质期，需持续验证。 |
 | **Nano Banana可能指特定微调模型** | 非官方标准命名，迁移到其他工具时需确认等价模型。 |

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-checklist-cheatsheet-modeling
 title: 清单/小抄建模法：把经验变成可执行的检查点
 type: tool
@@ -37,20 +38,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 清单/小抄建模
+- framework_lens: 清单/小抄建模
   follow_up_question: 这个任务是否重复发生 3 次以上？漏掉的动作能否写成一个可检查的检查点？
-- src_unknown
-  framework_lens: 执行清单 + 督导锁
+- framework_lens: 执行清单 + 督导锁
   follow_up_question: 你是否把老员工的经验拆成了新人可独立执行的检查清单，并加了检查机制？
-- src_unknown
-  framework_lens: 小抄/策略地图
+- framework_lens: 小抄/策略地图
   follow_up_question: 这些策略能否按场景分类，压缩成一页可快速查阅的决策小抄？
-- src_unknown
-  framework_lens: 执行锁 + 迭代机制
+- framework_lens: 执行锁 + 迭代机制
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
-- src_unknown
-  framework_lens: 颗粒度校准
+- framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
 ---
 # 清单/小抄建模法：把经验变成可执行的检查点

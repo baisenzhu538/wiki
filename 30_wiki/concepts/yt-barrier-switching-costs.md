@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
+  - framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
     follow_up_question: "你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？"
-  - src_unknown
-    framework_lens: 转换成本——产品好用≠转换成本高，需要设计锁定机制
+  - framework_lens: 转换成本——产品好用≠转换成本高，需要设计锁定机制
     follow_up_question: "用户在你的产品上投入了什么？时间、数据、关系、金钱？"
-  - src_unknown
-    framework_lens: 转换成本——B2B转换成本需要系统、流程、培训投入
+  - framework_lens: 转换成本——B2B转换成本需要系统、流程、培训投入
     follow_up_question: "你的企业客户是否深度集成了你的产品？切换成本有多高？"
-  - src_unknown
-    framework_lens: 转换成本——数据可导出降低了转换成本
+  - framework_lens: 转换成本——数据可导出降低了转换成本
     follow_up_question: "你的数据格式是否开放？数据迁移是否容易？"
-  - src_unknown
-    framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
+  - framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
     follow_up_question: "竞品的好用程度是否足以克服用户的习惯成本？"
 
 ---

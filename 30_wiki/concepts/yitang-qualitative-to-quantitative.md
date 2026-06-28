@@ -1,5 +1,6 @@
 ---
 
+
 id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
@@ -37,14 +38,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
+- framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，核心转化率与最小样本量分别是什么？
-- src_unknown
-  framework_lens: 选项混沌时应先定性排除错误选项，待方向收窄、形态清晰后再进入定量测量
+- framework_lens: 选项混沌时应先定性排除错误选项，待方向收窄、形态清晰后再进入定量测量
   follow_up_question: 当前是要"排除错误选项"还是要"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
-- src_unknown
-  framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
+- framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
   follow_up_question: 这个定性参数能否拆成 3-5 个具体行为指标？每个指标变差时，对应哪个业务动作？
 ---
 # 一堂·从定性到定量：先证伪、后测量

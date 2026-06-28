@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
+  - framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
     follow_up_question: "你的留存率是多少？次日留存、7日留存、30日留存分别是多少？"
-  - src_unknown
-    framework_lens: 留存指标——留存≠活跃，需要区分留存类型
+  - framework_lens: 留存指标——留存≠活跃，需要区分留存类型
     follow_up_question: "你的留存是活跃留存还是沉默留存？用户最后一次使用是什么时候？"
-  - src_unknown
-    framework_lens: 留存指标——流失原因需要数据分析和用户访谈
+  - framework_lens: 留存指标——流失原因需要数据分析和用户访谈
     follow_up_question: "流失用户在流失前做了什么？有没有共同行为模式？"
-  - src_unknown
-    framework_lens: 留存指标——留存曲线平说明产品没有形成习惯
+  - framework_lens: 留存指标——留存曲线平说明产品没有形成习惯
     follow_up_question: "你的产品是否形成了用户习惯？用户什么场景下会回来？"
-  - src_unknown
-    framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
+  - framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
     follow_up_question: "停止补贴后，用户还会回来吗？产品本身的价值是否足够？"
 
 ---

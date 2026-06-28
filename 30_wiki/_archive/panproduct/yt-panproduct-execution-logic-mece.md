@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-logic-mece
 component_of:
 - src_unknown
@@ -49,14 +50,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: MECE = 互斥 + 穷尽
+- framework_lens: MECE = 互斥 + 穷尽
   follow_up_question: 有没有某个元素可以同时放进两个子项？有没有遗漏的大类？
-- src_unknown
-  framework_lens: 结构化思考的成本收益
+- framework_lens: 结构化思考的成本收益
   follow_up_question: 这个问题值得花费额外时间做 MECE 拆解吗？
-- src_unknown
-  framework_lens: MECE 是协作语言
+- framework_lens: MECE 是协作语言
   follow_up_question: 一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？
 updated_at: '2026-06-16'
 author: 老顽童

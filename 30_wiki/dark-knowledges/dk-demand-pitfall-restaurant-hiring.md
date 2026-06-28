@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-demand-pitfall-restaurant-hiring
 title: 踩坑：麦家小馆——频次高估。需求强烈≠高频
 type: dk
@@ -18,7 +19,7 @@ related:
 - [[dk-strategy-05-positioning-trap]]
 - [[dk-demand-pitfall-rural-5g]]
 - [[case-demand-restaurant-hiring]]
-
+---
 # 踩坑：麦家小馆——频次高估。需求强烈≠高频
 
 ## 原始表述
@@ -59,7 +60,8 @@ related:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 需求评估 | ✅ 适用 | 区分脉冲式需求和持续需求 |
 | 创业机会判断 | ✅ 适用 | 避免"需求强烈=高频"的误区 |
 | 产品设计 | ✅ 适用 | 评估真实使用频次 |

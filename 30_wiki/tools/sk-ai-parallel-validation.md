@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
@@ -45,14 +46,11 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 格式 Draft
+- lens: 格式 Draft
   follow_up: 已重新整理为清晰的五步骤+Checklist
-- src_unknown
-  lens: 来源单一
+- lens: 来源单一
   follow_up: 后续补充至少1个真实业务案例或外部标杆
-- src_unknown
-  lens: 失败模式粗糙
+- lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
 
 ---

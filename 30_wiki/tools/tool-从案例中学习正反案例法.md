@@ -1,4 +1,5 @@
 ---
+
 id: tool-从案例中学习正反案例法
 title: 技能：从案例中学习（正反案例法）
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 案例偏食
+- lens: 案例偏食
   follow_up: 失败案例比成功案例更稀缺，只看成功案例导致对风险边界缺乏感知
-- src_unknown
-  lens: 场景错配
+- lens: 场景错配
   follow_up: 必须标注案例发生的公司规模、阶段、行业、团队特征，不能直接照搬
-- src_unknown
-  lens: 案例收集癖
+- lens: 案例收集癖
   follow_up: 案例的价值在拆解后的可迁移原则，不在数量。每周至少拆解1个案例
-- src_unknown
-  lens: 确认偏误
+- lens: 确认偏误
   follow_up: 先看反面案例挑战自己的假设，再找正面案例验证，避免只拿案例佐证已有观点
-- src_unknown
-  lens: 自我对照缺失
+- lens: 自我对照缺失
   follow_up: 每次看完案例必须思考'如果我在类似场景，我能做什么？有什么不同？'
 ---
 # 技能：从案例中学习（正反案例法）

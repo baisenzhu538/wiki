@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
@@ -40,14 +41,11 @@ author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 问题框架决定笔记价值
+- framework_lens: 问题框架决定笔记价值
   follow_up_question: 这篇笔记不写，你的问题解决过程会受到什么影响？
-- src_unknown
-  framework_lens: 解决问题能力=从信息到行动的转化率
+- framework_lens: 解决问题能力=从信息到行动的转化率
   follow_up_question: 这条笔记产生了一个决策、一个任务还是一次验证实验？
-- src_unknown
-  framework_lens: 笔记是活的迭代系统
+- framework_lens: 笔记是活的迭代系统
   follow_up_question: 这篇笔记在最近一周内是否被修改或引用过？
 
 ---

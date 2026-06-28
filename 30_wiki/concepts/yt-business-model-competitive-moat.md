@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
+  - framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
     follow_up_question: "你的技术优势能被竞品复制吗？复制周期多长？"
-  - src_unknown
-    framework_lens: 商业模式护城河——品牌需要时间和投入建立
+  - framework_lens: 商业模式护城河——品牌需要时间和投入建立
     follow_up_question: "你的品牌认知度如何？品牌投入占收入多少？"
-  - src_unknown
-    framework_lens: 商业模式护城河——规模优势需要规模经济
+  - framework_lens: 商业模式护城河——规模优势需要规模经济
     follow_up_question: "你的规模是否带来了成本优势？单位成本是否下降？"
-  - src_unknown
-    framework_lens: 商业模式护城河——网络效应需要高迁移成本
+  - framework_lens: 商业模式护城河——网络效应需要高迁移成本
     follow_up_question: "你的用户迁移成本有多高？用户离开的损失是什么？"
-  - src_unknown
-    framework_lens: 商业模式护城河——护城河需要可量化评估
+  - framework_lens: 商业模式护城河——护城河需要可量化评估
     follow_up_question: "你的护城河强度如何量化？竞品突破的难度有多大？"
 
 ---

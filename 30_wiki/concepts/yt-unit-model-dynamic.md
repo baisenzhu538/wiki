@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
@@ -45,28 +46,22 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 动态思维 / 规模变量
+- framework_lens: 动态思维 / 规模变量
   follow_up_question: 是否假设成本收入会线性变化？是否画出了关键变量随规模变化的曲线？
   severity: high
-- src_unknown
-  framework_lens: 博弈 / 竞争变量
+- framework_lens: 博弈 / 竞争变量
   follow_up_question: 只算自己的动态模型是否忽略竞争反应？是否模拟了对手关键动作对单元模型的影响？
   severity: high
-- src_unknown
-  framework_lens: 拐点响应 / 模式重构
+- framework_lens: 拐点响应 / 模式重构
   follow_up_question: 看到拐点后是否直接停止增长而非重构模式？是否先评估可通过模式重构突破？
   severity: medium
-- src_unknown
-  framework_lens: 迭代 / 时效性
+- framework_lens: 迭代 / 时效性
   follow_up_question: 动态模型是否建完后就束之高阁？是否设定了月度/季度刷新触发条件？
   severity: medium
-- src_unknown
-  framework_lens: 财务结构 / 现金周期
+- framework_lens: 财务结构 / 现金周期
   follow_up_question: 利润模型可行时，是否同步检查了账期、库存和应付应收变化？
   severity: high
-- src_unknown
-  framework_lens: 指标化 / 预警机制
+- framework_lens: 指标化 / 预警机制
   follow_up_question: 规模变量、业务变量、环境变量是否都有对应的 KPI 和阈值？
   severity: medium
 updated_at: '2026-06-17'

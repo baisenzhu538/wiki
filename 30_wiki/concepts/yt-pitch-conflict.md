@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-conflict
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 冲突是注意力触发器
+- framework_lens: 冲突是注意力触发器
   follow_up_question: 这个冲突如果没有，用户还会关心你的内容吗？
-- src_unknown
-  framework_lens: 冲突是桥梁不是终点
+- framework_lens: 冲突是桥梁不是终点
   follow_up_question: 冲突解决后，用户应该得出什么结论？
-- src_unknown
-  framework_lens: 冲突需要伦理边界
+- framework_lens: 冲突需要伦理边界
   follow_up_question: 这个冲突如果公开给被对比方看，你是否能坦然接受？
 updated_at: '2026-06-16'
 author: 老顽童

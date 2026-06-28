@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
@@ -37,12 +38,12 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
-
+---
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。
 
 这是 Truman 在课程末尾对一堂公司本质的定位。这个定位解释了一堂为什么无法提前半年出课表、为什么会偶尔"开天窗"。
 
----
+
 
 ## Background
 

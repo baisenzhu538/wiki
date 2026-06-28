@@ -1,6 +1,7 @@
 ---
 
 
+
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
@@ -44,11 +45,9 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 diagnostic_signals:
-- src_unknown
-  framework_lens: 叙事力五要素检查
+- framework_lens: 叙事力五要素检查
   follow_up_question: 你的方案里有没有一个具体的人、一个明确的冲突、一个出人意料的转折？
-- src_unknown
-  framework_lens: 叙事力五要素检查
+- framework_lens: 叙事力五要素检查
   follow_up_question: 用户能否在3秒内说出"这个角色和我有什么关系、不做会失去什么"？
 
 ---

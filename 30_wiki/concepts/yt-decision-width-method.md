@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-width-method
 component_of:
 - src_unknown
@@ -39,29 +40,25 @@ trust_level: medium
 type: tool
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -76,17 +73,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 宽度=关键要素不遗漏，而非要素越多越好
+- framework_lens: 宽度=关键要素不遗漏，而非要素越多越好
   follow_up_question: 如果你必须砍掉一半收益项或成本项，决策结论会改变吗？
-- src_unknown
-  framework_lens: 连续叙事能暴露散点思考遗漏的环节
+- framework_lens: 连续叙事能暴露散点思考遗漏的环节
   follow_up_question: 按时间线走一遍后，是否发现了原来单点列表中没看到的成本或风险？
-- src_unknown
-  framework_lens: 系统性扫描 > 自我启发式回忆
+- framework_lens: 系统性扫描 > 自我启发式回忆
   follow_up_question: 这个决策属于个人、团队还是企业层级？你是否使用了对应清单？
-- src_unknown
-  framework_lens: 宽度陷阱检查——宽度分析的价值在于确保关键项不遗漏，而不是用全面性替代决断力
+- framework_lens: 宽度陷阱检查——宽度分析的价值在于确保关键项不遗漏，而不是用全面性替代决断力
   follow_up_question: 你目前卡住是因为"漏了什么关键项"，还是"关键项太多无法取舍"？如果是后者，需要切换至[[yt-decision-depth-ladder]]或[[yt-decision-canvas]]
 updated_at: '2026-06-16'
 author: 老顽童

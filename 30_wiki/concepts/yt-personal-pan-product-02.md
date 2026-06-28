@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-02
 component_of:
 - src_unknown
@@ -46,14 +47,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 无限进步 = 持续打磨
+- framework_lens: 无限进步 = 持续打磨
   follow_up_question: 你这个月的产品/作品比上个月好在哪？
-- src_unknown
-  framework_lens: 打磨需要方向
+- framework_lens: 打磨需要方向
   follow_up_question: 这一轮的改动是基于用户反馈、数据还是自我审美判断？
-- src_unknown
-  framework_lens: 真本事需要时间复利
+- framework_lens: 真本事需要时间复利
   follow_up_question: 如果这件事要做10年，你现在的节奏是否可持续？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-exploration
 component_of:
 - src_unknown
@@ -42,14 +43,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 案例是认知的载体
+- framework_lens: 案例是认知的载体
   follow_up_question: 这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？
-- src_unknown
-  framework_lens: 案例学习需要个人化迁移
+- framework_lens: 案例学习需要个人化迁移
   follow_up_question: 你过去有没有遇到过类似困境？当时怎么处理的？
-- src_unknown
-  framework_lens: 启发必须落地
+- framework_lens: 启发必须落地
   follow_up_question: 这个案例让你接下来要做什么不一样的事？
 updated_at: '2026-06-16'
 author: 老顽童

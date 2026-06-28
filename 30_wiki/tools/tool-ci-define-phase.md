@@ -20,10 +20,11 @@ related:
   - "[[framework-ci-operating-model]]"
   - "[[framework-yitang-18-strategy-cards]]"
   - "[[tool-ci-implement-phase]]"
+status: reviewed
 reviewed_by: "欧阳锋"
 review_date: "2026-06-28"
 created_at: "2026-06-28"
-updated_at: "2026-06-28"
+updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: tool-清单小抄工具箱法
 title: 技能：清单小抄工具箱法
 type: tool
@@ -34,20 +35,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 清单太全
+- lens: 清单太全
   follow_up: 清单的价值在精简不在全，好的清单是'关键提醒'不是'完全指南'，控制在5-9条
-- src_unknown
-  lens: 用完不更新
+- lens: 用完不更新
   follow_up: 清单是活的，每次使用后都应该微调，存储的内容应随着经验积累而进化
-- src_unknown
-  lens: 只建不用
+- lens: 只建不用
   follow_up: 清单的价值在于'执行时的快速调用'，不是'收集时的满足感'，强制使用习惯
-- src_unknown
-  lens: 清单SOP混淆
+- lens: 清单SOP混淆
   follow_up: 清单是'检查胎压'，SOP是'必须用左手扭到3.5N·m'，清单提醒关键项不规定具体动作
-- src_unknown
-  lens: 过度依赖
+- lens: 过度依赖
   follow_up: 清单是辅助不是拐杖，核心能力需内化，清单只用于防遗漏和标准化
 ---
 # 技能：清单小抄工具箱法

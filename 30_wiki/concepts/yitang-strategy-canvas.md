@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -41,14 +42,11 @@ pipeline:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: "竞争视野狭窄——战略画布的第一步是列出所有买方关注的竞争要素，而不是只列现有玩家的卖点"
+  - framework_lens: "竞争视野狭窄——战略画布的第一步是列出所有买方关注的竞争要素，而不是只列现有玩家的卖点"
     follow_up_question: "如果明天出现一个完全不同的解决方案满足同一需求，你的价值曲线上哪些要素会瞬间失效？"
-  - src_unknown
-    framework_lens: "战略曲线平坦化——在要素上全面跟随等于没有差异化，买家记不住你的独特价值"
+  - framework_lens: "战略曲线平坦化——在要素上全面跟随等于没有差异化，买家记不住你的独特价值"
     follow_up_question: "你的曲线和竞品相比，有没有明显的'高得多'和'低得多'的要素？如果没有，买家为什么选你？"
-  - src_unknown
-    framework_lens: "要素选择缺少买方视角——战略画布的横轴必须是目标买家真正在意的价值要素，而不是内部功能清单"
+  - framework_lens: "要素选择缺少买方视角——战略画布的横轴必须是目标买家真正在意的价值要素，而不是内部功能清单"
     follow_up_question: "你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？"
 author: "老顽童"
 related:

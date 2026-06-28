@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-problem-question-check
 title: 技能：Problem vs Question 区分法
 type: tool
@@ -35,20 +36,15 @@ author: 纪浩
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 纯学习心态
+- lens: 纯学习心态
   follow_up: 先找一个微型项目，用项目驱动提问。没有problem的question是token浪费
-- src_unknown
-  lens: 分类焦虑
+- lens: 分类焦虑
   follow_up: 设定question预算（最多3个），允许有限的好奇心。分类是为了行动不是为了完美
-- src_unknown
-  lens: 研究错配
+- lens: 研究错配
   follow_up: 判断标准是是否有交付物而非是否有趣。研究问题也是problem，需要before/after
-- src_unknown
-  lens: 前置缺失
+- lens: 前置缺失
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
-- src_unknown
-  lens: 分类即终点
+- lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
 ---# 技能：Problem vs Question 区分法
 

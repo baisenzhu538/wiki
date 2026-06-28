@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -43,6 +44,7 @@ related:
 - [[case-modeling-essence-levels]]
 - [[framework-logic-cleanliness-five-levels]]
 - [[yt-five-step-level-blindspots]]
+---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 
 > 来源：一堂知识地图《深度复盘冰山图》。[[yt-personal-deep-review]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
@@ -56,7 +58,8 @@ related:
 ### 五层冰山
 
 | 层 | 名称 | 内容 | 关键跃迁 |
-|---|------|------|---------|
+|
+|------|------|---------|
 | **L1** | 主观感受 | "这次做得好/不好""客户好像不满意" | 从忽视到回顾的飞跃 |
 | **L2** | 客观事实 | 数据、行为记录、具体发生了什么 | 从主观到客观的飞跃 |
 | **L3** | 背后原因 | 为什么发生？根因是什么？ | 从现象到原因的飞跃 |

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-analysis-hiking-map
@@ -54,6 +55,7 @@ related:
 - [[tool-demand-iceberg-l1-user]]
 - [[tool-demand-iceberg-l2-scenario]]
 - [[tool-demand-assessment-triangle]]
+---
 # 需求分析爬山地图
 
 > 来源：一堂五步法·需求篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[case-treadmill-demand-analysis]]
@@ -67,7 +69,8 @@ related:
 ### 六级进阶
 
 | 阶段 | 段位 | 核心能力 | 能练什么（三项要点） |
-|:---:|:---:|:---|:---|
+|:
+:|:---:|:---|:---|
 | 入门 | L1 | 模糊理解 | 只谈我有什么；只谈初心概念；想服务所有人 |
 | 入门 | L2 | 主动拆解 | 能细拆解用户；识别出差异性；剥离出非用户 |
 | 进阶 | L3 | 定性可行性 | 推演使用场景；定性三维评估；专业需求取舍 |

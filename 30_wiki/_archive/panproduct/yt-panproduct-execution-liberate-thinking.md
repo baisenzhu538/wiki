@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-liberate-thinking
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 解放思想从质疑假设开始
+- framework_lens: 解放思想从质疑假设开始
   follow_up_question: 如果这个假设是错的，问题会变成什么样？
-- src_unknown
-  framework_lens: 深层规律支撑突破性创新
+- framework_lens: 深层规律支撑突破性创新
   follow_up_question: 你的新解法依赖了哪个跨学科或第一性原理？
-- src_unknown
-  framework_lens: 解放思想不是无视约束
+- framework_lens: 解放思想不是无视约束
   follow_up_question: 如果明天要验证这个想法，你最便宜的第一步是什么？
 updated_at: '2026-06-16'
 author: 老顽童

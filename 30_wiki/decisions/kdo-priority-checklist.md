@@ -1,4 +1,5 @@
 ---
+
 title: KDO Protocol Priority Checklist
 type: improvement-plan
 domain:
@@ -17,6 +18,7 @@ source_refs:
 - src_unknown
 reviewed_by: pending
 confidence: 0.6
+---
 # KDO Protocol Priority Checklist
 
 ## P0 — 本周必须做（Blocking）
@@ -24,7 +26,8 @@ confidence: 0.6
 不做这些，系统不完整，AI 操作有失控风险。
 
 | # | 任务 | 为什么 blocking | 预计时间 |
-|---|------|----------------|----------|
+|
+|------|----------------|----------|
 | 1 | **补全 6 个 Schema**<br>`entity.yaml` `decision.yaml` `improvement.yaml`<br>`artifact-content.yaml` `artifact-code.yaml` `source.yaml` | AI 现在写非 concept 页面时没有校验标准，frontmatter 格式会混乱 | 2h |
 | 2 | **给 `诊所O2O` 补 `source_refs`** | 当前唯一一个 orphan + 无源的页面，拉低整个知识层可信度 | 15min |
 | 3 | **把 `routing-rules.md` 从散文改成决策矩阵** | AI 现在读的是"建议"，不是"路由表"，任务分发仍靠猜 | 1.5h |

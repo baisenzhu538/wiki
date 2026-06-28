@@ -1,6 +1,7 @@
 ---
 
 
+
 id: tool-sop-template-modeling
 title: SOP/模板建模法：把关键动作固化成标准工作流
 type: tool
@@ -20,17 +21,13 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 diagnostic_signals:
-- src_unknown
-  framework_lens: SOP/模板建模
+- framework_lens: SOP/模板建模
   follow_up_question: 这个任务是否有可重复的最佳步骤和可检查的交付标准？
-- src_unknown
-  framework_lens: 动作固化 + 加锁执行
+- framework_lens: 动作固化 + 加锁执行
   follow_up_question: 如果执行者状态不好，哪些动作可以提前标准化到模板里？
-- src_unknown
-  framework_lens: 督导 SOP + 品控 SOP
+- framework_lens: 督导 SOP + 品控 SOP
   follow_up_question: SOP 是否有独立的检查层？督导和品控是否也被标准化？
-- src_unknown
-  framework_lens: SOP + 配套模板
+- framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
 related:
   - src_unknown

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
+  - framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
     follow_up_question: "你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？"
-  - src_unknown
-    framework_lens: 品牌资产——产品好≠品牌强，需要品牌记忆点
+  - framework_lens: 品牌资产——产品好≠品牌强，需要品牌记忆点
     follow_up_question: "你的品牌记忆点是什么？品牌符号、口号、颜色是否一致？"
-  - src_unknown
-    framework_lens: 品牌资产——品牌需要持续更新，不能老化
+  - framework_lens: 品牌资产——品牌需要持续更新，不能老化
     follow_up_question: "你的品牌是否跟上了时代？年轻用户如何认知你的品牌？"
-  - src_unknown
-    framework_lens: 品牌资产——品牌被抄袭说明品牌有价值，需要法律保护
+  - framework_lens: 品牌资产——品牌被抄袭说明品牌有价值，需要法律保护
     follow_up_question: "你的品牌是否有商标保护？品牌差异化是否足够？"
-  - src_unknown
-    framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
+  - framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
     follow_up_question: "你的品牌信任度如何？用户是否愿意为品牌付溢价？"
 
 ---

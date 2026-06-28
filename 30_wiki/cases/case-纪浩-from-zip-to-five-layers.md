@@ -1,5 +1,6 @@
 ---
 
+
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
@@ -36,17 +37,13 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 diagnostic_signals:
-- src_unknown
-  framework_lens: L5 Skills Market 缺失
+- framework_lens: L5 Skills Market 缺失
   follow_up_question: 过去一周因此产生过几次返工或版本不一致？能否列出所有在传的 Skill 和最新版本号？
-- src_unknown
-  framework_lens: L2 Agent Workspace 结构不完整
+- framework_lens: L2 Agent Workspace 结构不完整
   follow_up_question: 当前 Workspace 是否有系统自述、领域知识、Agent 服务文档（导诊台+工作手册+工具集+经验模式库）、任务管理、日志五大模块？
-- src_unknown
-  framework_lens: L1 四要素验证未通过
+- framework_lens: L1 四要素验证未通过
   follow_up_question: 用"从__变成__"一句话描述 Before-After，并指认一个愿意使用的真实人名
-- src_unknown
-  framework_lens: L3 Do-first PDCA 顺序错误
+- framework_lens: L3 Do-first PDCA 顺序错误
   follow_up_question: 能否在 30 分钟内先产出一个最小可验证输出，再根据问题补 Check 和 Plan？
 ---
 # 纪浩：从微信传 zip 到五层协作体系

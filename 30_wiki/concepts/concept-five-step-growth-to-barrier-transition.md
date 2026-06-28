@@ -2,6 +2,7 @@
 
 
 
+
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
@@ -31,15 +32,12 @@ tags: []
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 帮你判断当前的增长是否可持续——如果增长来自'可以随时停止的投入'而非'结构性的用户选择'，那增长越快未来崩塌越快
+- framework_lens: 帮你判断当前的增长是否可持续——如果增长来自'可以随时停止的投入'而非'结构性的用户选择'，那增长越快未来崩塌越快
   follow_up_question: 如果明天你把广告预算砍掉一半，下个月的收入会掉多少？如果答案 >30%，你的增长是买来的不是长出来的
 bridges_to:
-- src_unknown
-  relation: extends_step
+- relation: extends_step
   description: 五步法第四步→第五步之间的衔接判断，填补了两步之间的标准空白
-- src_unknown
-  relation: precedes
+- relation: precedes
   description: 先判断'什么时候建壁垒'（本文），再判断'什么才是真壁垒'（真假壁垒案例）
 wiki_refs:
 - src_unknown

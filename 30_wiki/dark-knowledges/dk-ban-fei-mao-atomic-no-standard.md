@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dk
@@ -36,6 +37,7 @@ diagnostic_signals:
 - signal: src_unknown
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
+---
 # 暗知识：原子化没有固定标准
 
 ## 原始表述
@@ -77,7 +79,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 场景 | 说明 |
-|:---|:---|
+|:
+|:---|
 | KDO 卡片切分评估 | 检查卡片中的 Claims 能否被单独抽取并复用 |
 | Skill 设计中的原子化 | 将约束条件、判断逻辑、案例库分成独立原子，让 AI 灵活组合 |
 | 知识库维护时的原子化 | 信息更新时只更新相关原子，降低维护成本 |

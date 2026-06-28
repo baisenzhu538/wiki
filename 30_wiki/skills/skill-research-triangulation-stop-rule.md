@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: skill
@@ -32,14 +33,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 边际收益规则
+  - framework_lens: 边际收益规则
     follow_up_question: "新增一个来源预计能改变当前结论的概率是否 >30%？"
-  - src_unknown
-    framework_lens: 置信度阈值规则
+  - framework_lens: 置信度阈值规则
     follow_up_question: "当前综合置信度是否已达到预设阈值？阈值是多少？"
-  - src_unknown
-    framework_lens: 决策延迟成本规则
+  - framework_lens: 决策延迟成本规则
     follow_up_question: "继续验证的延迟成本是否已超过决策错误的预期损失？"
 ---
 

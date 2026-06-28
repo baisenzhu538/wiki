@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 
@@ -47,6 +48,7 @@ related:
 - [[yt-model-entrepreneur-map]]
 updated_at: 2026-06-16
 author: "老顽童"
+---
 # 业务增长
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
@@ -93,7 +95,8 @@ author: "老顽童"
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 商业模式已验证 | 有人愿意付费 |
 | ✅ 有单元模型 | 知道单位经济 |
 | ✅ 能跑实验 | 可迭代 |

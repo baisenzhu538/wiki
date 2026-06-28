@@ -1,6 +1,7 @@
 ---
 
 
+
 title: Agent 外挂大脑设计
 type: system
 status: enriched
@@ -22,11 +23,12 @@ related:
 - [[tool-demand-agent-case-match]]
 - [[dk-c6-large-source-overflow]]
 - [[dk-p8-toolkit-forget]]
+---
 # Agent 外挂大脑设计
 
 > **一句话**：在项目根目录下扔三个 Markdown 文件，agent 失忆问题解决 80%。
 
----
+
 
 ## 问题
 

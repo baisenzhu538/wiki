@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
+  - framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
     follow_up_question: "你的获客成本（CAC）是多少？用户生命周期价值（LTV）是多少？LTV > CAC吗？"
-  - src_unknown
-    framework_lens: 单元经济学——单元模型不成立，增长是烧钱
+  - framework_lens: 单元经济学——单元模型不成立，增长是烧钱
     follow_up_question: "LTV < CAC时，增长越快亏损越大。你计划什么时候单元模型成立？"
-  - src_unknown
-    framework_lens: 单元经济学——规模不解决单元模型问题
+  - framework_lens: 单元经济学——规模不解决单元模型问题
     follow_up_question: "规模能让LTV > CAC吗？如果不能，规模越大亏损越大。"
-  - src_unknown
-    framework_lens: 单元经济学——收入≠健康，单元模型才是健康指标
+  - framework_lens: 单元经济学——收入≠健康，单元模型才是健康指标
     follow_up_question: "你的收入中，有多少是可持续的？获客成本是否被摊薄？"
-  - src_unknown
-    framework_lens: 单元经济学——单元模型计算需要完整
+  - framework_lens: 单元经济学——单元模型计算需要完整
     follow_up_question: "你的LTV计算是否包含了所有成本？CAC是否包含了所有获客成本？"
 
 ---

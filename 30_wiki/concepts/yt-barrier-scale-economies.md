@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
+  - framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
     follow_up_question: "你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？"
-  - src_unknown
-    framework_lens: 规模经济——规模不经济，需要诊断原因
+  - framework_lens: 规模经济——规模不经济，需要诊断原因
     follow_up_question: "成本上升是因为管理复杂度、供应链、还是质量控制？"
-  - src_unknown
-    framework_lens: 规模经济——规模优势需要持续扩大，不是一劳永逸
+  - framework_lens: 规模经济——规模优势需要持续扩大，不是一劳永逸
     follow_up_question: "你的规模优势是什么？竞品的规模增长多快？"
-  - src_unknown
-    framework_lens: 规模经济——规模经济有地域和品类边界
+  - framework_lens: 规模经济——规模经济有地域和品类边界
     follow_up_question: "你的规模经济是局部的还是全局的？如何扩展到更大市场？"
-  - src_unknown
-    framework_lens: 规模经济——成本优势需要转化为用户价值
+  - framework_lens: 规模经济——成本优势需要转化为用户价值
     follow_up_question: "你的成本优势是否转化为价格优势或质量优势？用户是否感知？"
 
 ---

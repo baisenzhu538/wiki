@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
@@ -63,17 +64,13 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 深度幻觉——量化的深度不等于决策的质量
+- framework_lens: 深度幻觉——量化的深度不等于决策的质量
   follow_up_question: 你的数据全部算清楚后，哪些变量对最终结果的影响最大？如果去掉精度最低的那两个变量，你的结论会变吗？
-- src_unknown
-  framework_lens: 决策延迟——L2已经足够支撑行动，继续算L3是行动拖延
+- framework_lens: 决策延迟——L2已经足够支撑行动，继续算L3是行动拖延
   follow_up_question: 你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了
-- src_unknown
-  framework_lens: 深度幻觉检查——数字给了你虚假的确定感，但所有定量结论的可靠性取决于前提假设
+- framework_lens: 深度幻觉检查——数字给了你虚假的确定感，但所有定量结论的可靠性取决于前提假设
   follow_up_question: 你的分析里哪些数值是拍脑袋的？如果这些数值偏差 20%，结论翻不翻？
-- src_unknown
-  framework_lens: 深度过度泛化——L4 只适用于重大投资/融资/生死级战略，小额/高频/可撤回决策停在 L1/L2 更经济
+- framework_lens: 深度过度泛化——L4 只适用于重大投资/融资/生死级战略，小额/高频/可撤回决策停在 L1/L2 更经济
   follow_up_question: 这个决策如果错了，最快多久能撤回？试错成本低于多少？如果一周内能撤回且成本 <1 万，停在 L1/L2 就够了
 updated_at: '2026-06-16'
 author: 老顽童

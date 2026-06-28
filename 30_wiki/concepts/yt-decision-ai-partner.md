@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-ai-partner
 component_of:
 - src_unknown
@@ -42,8 +43,7 @@ type: tool
 updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-- src_unknown
-  dimensions:
+- dimensions:
   - src_unknown
   - src_unknown
   - src_unknown
@@ -59,14 +59,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI替代判断失效——结构化输出不等于可信输出
+- framework_lens: AI替代判断失效——结构化输出不等于可信输出
   follow_up_question: AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？
-- src_unknown
-  framework_lens: 全面感幻觉——AI的结构化框架可能只是看起来不错
+- framework_lens: 全面感幻觉——AI的结构化框架可能只是看起来不错
   follow_up_question: AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走
-- src_unknown
-  framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
+- framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
 ---# AI决策Partner对话法

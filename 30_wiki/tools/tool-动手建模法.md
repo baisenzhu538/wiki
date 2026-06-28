@@ -1,4 +1,5 @@
 ---
+
 id: tool-动手建模法
 title: 技能：动手建模法
 type: tool
@@ -33,20 +34,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 建空架子
+- lens: 建空架子
   follow_up: 框架分类下面必须有具体的行为标准、判断依据，不能只有框架没有洞察
-- src_unknown
-  lens: 建完不迭代
+- lens: 建完不迭代
   follow_up: 模型是假设，需要持续验证和修正。超过1个月没用可能已过时
-- src_unknown
-  lens: 建完不用
+- lens: 建完不用
   follow_up: 建模的目的是用不是看，过去一个月至少用这个模型解决过一个真实问题
-- src_unknown
-  lens: 过度建模
+- lens: 过度建模
   follow_up: 好的模型别人照着步骤能执行并得到相近结果，太抽象或太复杂都是坏模型
-- src_unknown
-  lens: 维度不客观
+- lens: 维度不客观
   follow_up: 分类维度应该可操作、可复现、可量化，不同人/不同时间结果一致
 ---
 # 技能：动手建模法

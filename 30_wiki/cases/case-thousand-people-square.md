@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
@@ -36,20 +37,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: "广场优先"
+- lens: "广场优先"
   follow_up: "回到广场看比例：这人是 95% 的 before 还是 5% 的 after？是否属于边界内？"
-- src_unknown
-  lens: "反例管理"
+- lens: "反例管理"
   follow_up: "判定反例归属：在广场边界内→修正模型；在边界外→修正边界。"
-- src_unknown
-  lens: "边界缺失"
+- lens: "边界缺失"
   follow_up: "写出 3 条'服务谁'和 3 条'不服务谁'，画不出即未定义边界。"
-- src_unknown
-  lens: "统计建模"
+- lens: "统计建模"
   follow_up: "能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？"
-- src_unknown
-  lens: "模型自信"
+- lens: "模型自信"
   follow_up: "先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。"
 ---
 # 案例：一堂「千人广场模型」——用统计建模心态做课

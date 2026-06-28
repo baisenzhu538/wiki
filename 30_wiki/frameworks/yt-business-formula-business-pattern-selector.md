@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
@@ -27,14 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-- src_unknown
-  framework_lens: 公式范式错配——把通用电商公式套到非电商业务上
+- framework_lens: 公式范式错配——把通用电商公式套到非电商业务上
   follow_up_question: 如果客户买完这次后一年内不会回来，公式里的“复购”项还有意义吗？当前业务的老客户贡献占比是多少？
-- src_unknown
-  framework_lens: 单次成交思维入侵持续复购业务
+- framework_lens: 单次成交思维入侵持续复购业务
   follow_up_question: 你的收入中老客户贡献占比多少？如果低于50%，你可能在用“卖出去”的逻辑做“留得住”的生意
-- src_unknown
-  framework_lens: 混合业务未分层拆解
+- framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
   - src_unknown

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-modeling-process-livestream-roles
 title: 流程建模案例：直播开播团队分工与检查清单
 type: case
@@ -39,17 +40,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 流程建模中的角色分工
+- framework_lens: 流程建模中的角色分工
   follow_up_question: 这个环节的 owner 是谁？他有没有明确的交付物和检查标准？
-- src_unknown
-  framework_lens: 给 SOP 加 SOP（督导/品控）
+- framework_lens: 给 SOP 加 SOP（督导/品控）
   follow_up_question: 每个关键节点是否指定了专人负责检查？检查者自己有没有 checklist？
-- src_unknown
-  framework_lens: 状态保障型流程建模
+- framework_lens: 状态保障型流程建模
   follow_up_question: 这些看似非技术的环节有没有被分配到具体角色并设置触发时间？
-- src_unknown
-  framework_lens: RACI / 专人专事
+- framework_lens: RACI / 专人专事
   follow_up_question: 这个任务的 R（执行）和 A（负责）是否为同一个人？检查权是否也归他？
 ---# 流程建模案例：直播开播团队分工与检查清单
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
@@ -22,14 +23,11 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.75
 diagnostic_signals:
-- src_unknown
-  framework_lens: 直播前热身 SOP 建模
+- framework_lens: 直播前热身 SOP 建模
   follow_up_question: 状态好的时候开播前 30 分钟做了什么？状态差的时候漏了什么？
-- src_unknown
-  framework_lens: 给 SOP 加 SOP（督导 + 品控）
+- framework_lens: 给 SOP 加 SOP（督导 + 品控）
   follow_up_question: 每个关键节点有没有指定专人负责检查？检查者自己有没有 SOP？
-- src_unknown
-  framework_lens: 趁热复盘 + 24 小时补丁机制
+- framework_lens: 趁热复盘 + 24 小时补丁机制
   follow_up_question: 最近一次直播意外后，多久更新了 SOP？触发条件是什么？
 related:
   - src_unknown

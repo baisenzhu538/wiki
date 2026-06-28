@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-ef-004-missing-diagnostic-firmware
 title: 没有诊断固件就是盲调：你不知道信号卡在哪一级
 type: dk
@@ -23,7 +24,7 @@ author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
-
+---
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级
 
 ## 原始表述
@@ -56,7 +57,8 @@ trust_level: medium
 ## 适用边界
 
 | 边界 | 说明 |
-|:-----|:-----|
+|:
+--|:-----|
 | ✅ 适合 | 多级信号链路的嵌入式硬件调试 |
 | ✅ 适合 | 没有软件日志的纯硬件故障定位 |
 | ✅ 适合 | 新板卡首次上电验证 |

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-materialization
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 素材降低理解成本
+- framework_lens: 素材降低理解成本
   follow_up_question: 这个卖点如果只用文字，用户会不会很难想象？
-- src_unknown
-  framework_lens: 素材是证据
+- framework_lens: 素材是证据
   follow_up_question: 这个素材能否被质疑为造假或摆拍？
-- src_unknown
-  framework_lens: 素材需要用户共鸣
+- framework_lens: 素材需要用户共鸣
   follow_up_question: 目标用户看到这个素材会想到自己的什么经历？
 updated_at: '2026-06-16'
 author: 老顽童

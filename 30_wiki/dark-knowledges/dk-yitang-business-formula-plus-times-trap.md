@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 type: dk
@@ -36,8 +37,7 @@ related:
 tags: []
 author: 欧阳锋
 confidence: 0.85
-
-
+---
 ## 原始表述
 
 > “拆解参数关系的正确顺序：先切分（+），再拆转化（×）。”
@@ -47,7 +47,7 @@ confidence: 0.85
 
 ——孔阳，一堂 2026-06-13 业务公式拆解培训
 
----
+
 ## 使用场景
 
 - src_unknown

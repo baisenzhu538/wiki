@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-tool-fab-persuasion
 component_of:
 - src_unknown
@@ -42,17 +43,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 用户中心 / 转化文案
+- framework_lens: 用户中心 / 转化文案
   follow_up_question: 用户看完第一句后能否立刻回答'这跟我有什么关系？'
-- src_unknown
-  framework_lens: 可验证性 / 信任
+- framework_lens: 可验证性 / 信任
   follow_up_question: '''快 10 倍''''省 50% 时间''等说法是否有数据或场景支撑？'
-- src_unknown
-  framework_lens: 期望管理 / NPS
+- framework_lens: 期望管理 / NPS
   follow_up_question: 用户被说服后体验，是否会发现'说得比做得好'？
-- src_unknown
-  framework_lens: 场景适配 / 说服节奏
+- framework_lens: 场景适配 / 说服节奏
   follow_up_question: 高客单价/低认知场景是否仍在用功能列表开场？
 updated_at: '2026-06-16'
 author: 老顽童

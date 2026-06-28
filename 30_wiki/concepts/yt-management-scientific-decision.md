@@ -2,6 +2,7 @@
 
 
 
+
 title: Y模型/科学决策
 type: concept
 domain:
@@ -13,11 +14,9 @@ status: enriched
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 宽度不够
+- framework_lens: 宽度不够
   follow_up_question: 除了现在在考虑的选项，你还考虑过哪些？如果只有1-2个，决策宽度不足
-- src_unknown
-  framework_lens: 决策窗口关闭
+- framework_lens: 决策窗口关闭
   follow_up_question: 你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过
 updated_at: '2026-06-16'
 id: yt-management-scientific-decision

@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-pan-product-practice
 component_of:
 - src_unknown
@@ -43,14 +44,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 需求分析有固定操作链
+- framework_lens: 需求分析有固定操作链
   follow_up_question: 这个需求的用户任务、场景、真实障碍分别是什么？
-- src_unknown
-  framework_lens: 需求先于方案
+- framework_lens: 需求先于方案
   follow_up_question: 如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？
-- src_unknown
-  framework_lens: 分析必须产生决策输入
+- framework_lens: 分析必须产生决策输入
   follow_up_question: 基于需求分析，你砍掉了哪些原计划的功能？
 updated_at: '2026-06-16'
 author: 老顽童

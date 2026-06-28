@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
+  - framework_lens: CAC与LTV计算——CAC需要包含所有获客成本
     follow_up_question: "你的CAC是否包含了所有营销费用？包括人力、内容、活动等？"
-  - src_unknown
-    framework_lens: CAC与LTV计算——LTV需要扣除直接成本
+  - framework_lens: CAC与LTV计算——LTV需要扣除直接成本
     follow_up_question: "你的LTV计算是否扣除了服务成本、支持成本等直接成本？"
-  - src_unknown
-    framework_lens: CAC与LTV计算——LTV/CAC高但回本周期长，现金流压力大
+  - framework_lens: CAC与LTV计算——LTV/CAC高但回本周期长，现金流压力大
     follow_up_question: "虽然LTV/CAC=5，但回本周期多长？现金流能支撑吗？"
-  - src_unknown
-    framework_lens: CAC与LTV计算——需要分渠道计算CAC和LTV
+  - framework_lens: CAC与LTV计算——需要分渠道计算CAC和LTV
     follow_up_question: "你的不同获客渠道，CAC和LTV分别是多少？哪个渠道最健康？"
-  - src_unknown
-    framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
+  - framework_lens: CAC与LTV计算——单元模型是商业模式的基础，必须计算
     follow_up_question: "没有LTV和CAC，怎么判断商业模式是否健康？建议立即计算。"
 
 ---

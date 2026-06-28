@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-scenario-walkthrough
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 场景化是需求落地的基础
+- framework_lens: 场景化是需求落地的基础
   follow_up_question: 去掉场景后，这个需求还成立吗？
-- src_unknown
-  framework_lens: 真实世界充满噪声
+- framework_lens: 真实世界充满噪声
   follow_up_question: 网络中断、用户分心、时间紧迫时，方案还能用吗？
-- src_unknown
-  framework_lens: 场景是贯穿设计全程的参照
+- framework_lens: 场景是贯穿设计全程的参照
   follow_up_question: 上一次方案评审中，是否有场景推动了设计改动？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -26,20 +27,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 产品内核画布——结构化工具帮助对齐认知
+  - framework_lens: 产品内核画布——结构化工具帮助对齐认知
     follow_up_question: "你们团队一起填过产品内核画布吗？每个格子的答案一致吗？"
-  - src_unknown
-    framework_lens: 产品内核画布——功能必须对应画布中的某个格子
+  - framework_lens: 产品内核画布——功能必须对应画布中的某个格子
     follow_up_question: "这个功能对应画布中的哪个格子？如果对应不了，可能不是内核功能。"
-  - src_unknown
-    framework_lens: 产品内核画布——用户视角和团队视角可能不一致
+  - framework_lens: 产品内核画布——用户视角和团队视角可能不一致
     follow_up_question: "画布中'用户认为的问题'和'团队认为的问题'一致吗？"
-  - src_unknown
-    framework_lens: 产品内核画布——迭代方向应基于画布中的验证结果
+  - framework_lens: 产品内核画布——迭代方向应基于画布中的验证结果
     follow_up_question: "你们上次迭代是基于画布的哪个格子发现的问题？"
-  - src_unknown
-    framework_lens: 产品内核画布——画布输出就是价值描述
+  - framework_lens: 产品内核画布——画布输出就是价值描述
     follow_up_question: "你能用画布中的'一句话价值描述'向客户介绍产品吗？"
 
 ---

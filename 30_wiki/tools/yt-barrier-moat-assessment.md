@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 护城河评估工具——需要系统评估护城河强度
+  - framework_lens: 护城河评估工具——需要系统评估护城河强度
     follow_up_question: "你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？"
-  - src_unknown
-    framework_lens: 护城河评估工具——护城河被突破需要评估原因和修复
+  - framework_lens: 护城河评估工具——护城河被突破需要评估原因和修复
     follow_up_question: "哪个护城河被突破？突破的原因是什么？如何修复或建立新护城河？"
-  - src_unknown
-    framework_lens: 护城河评估工具——投资需要评估目标公司的护城河
+  - framework_lens: 护城河评估工具——投资需要评估目标公司的护城河
     follow_up_question: "目标公司的护城河是什么？强度如何？持续时间多长？"
-  - src_unknown
-    framework_lens: 护城河评估工具——需要优先级排序
+  - framework_lens: 护城河评估工具——需要优先级排序
     follow_up_question: "你的护城河按强度和重要性排序是什么？哪个是核心护城河？"
-  - src_unknown
-    framework_lens: 护城河评估工具——需要定期评估护城河变化
+  - framework_lens: 护城河评估工具——需要定期评估护城河变化
     follow_up_question: "你的护城河减弱的速度和原因是什么？是否需要紧急修复？"
 
 ---

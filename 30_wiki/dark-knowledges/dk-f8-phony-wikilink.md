@@ -1,4 +1,5 @@
 ---
+
 id: dk-f8-phony-wikilink
 title: F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
-
+---
 ## 原始表述/核心洞察
 
 > **触发场景**：Builder 执行三步编译法的 Synthesis 阶段
@@ -81,7 +82,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 为什么 L2 Lint 会漏 | 快速自检 |
-|---|---|---|---|
+|
+|---|---|---|
 | self-link | Synthesis 段出现 “当前卡片名” 式自引用 | 规则只检查数量，不检查目标是否等于自身 | 全文搜索当前卡片 id，确认没有自引用 |
 | 灌水同域关联 | 链接目标与当前卡片同 domain，但仅共享粗粒度标签（如"都是一堂的课"） | 规则不验证关联说明的信息量 | 追问：两张卡互相补充了什么具体结论？ |
 | 跨域硬凑 | 链接目标属于不相关 domain，内容无交叉 | 规则不验证 domain/module 交叉 | 检查目标页与当前卡的核心概念是否有交集 |

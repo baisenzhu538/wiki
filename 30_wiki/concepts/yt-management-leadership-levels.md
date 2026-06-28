@@ -2,6 +2,7 @@
 
 
 
+
 title: 管理段位
 type: concept
 domain:
@@ -13,11 +14,9 @@ status: draft
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 行为惯性
+- framework_lens: 行为惯性
   follow_up_question: 你上一阶段让你成功的习惯，有没有成为这一阶段的阻碍？
-- src_unknown
-  framework_lens: 认知偏差
+- framework_lens: 认知偏差
   follow_up_question: 你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己
 updated_at: '2026-06-16'
 id: yt-management-leadership-levels

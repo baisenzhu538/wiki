@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-realistic-simulation
 component_of:
 - src_unknown
@@ -50,14 +51,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 假环境掩盖真问题
+- framework_lens: 假环境掩盖真问题
   follow_up_question: 你在测试时用的设备/网络/场景与用户真实使用时有何不同？
-- src_unknown
-  framework_lens: 内部视角有偏差
+- framework_lens: 内部视角有偏差
   follow_up_question: 参与测试的人是否代表目标用户？他们的背景差异是什么？
-- src_unknown
-  framework_lens: 仿真的价值在于发现真实摩擦
+- framework_lens: 仿真的价值在于发现真实摩擦
   follow_up_question: 这次仿真最大的意外发现是什么？
 updated_at: '2026-06-16'
 author: 老顽童

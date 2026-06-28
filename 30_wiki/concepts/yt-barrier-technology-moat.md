@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
+  - framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
     follow_up_question: "你的技术领先周期多长？研发投入占收入多少？专利布局如何？"
-  - src_unknown
-    framework_lens: 技术护城河——专利需要设计得难以绕过
+  - framework_lens: 技术护城河——专利需要设计得难以绕过
     follow_up_question: "你的专利是核心专利还是外围专利？竞品绕过难度多大？"
-  - src_unknown
-    framework_lens: 技术护城河——技术需要产品化，才能形成壁垒
+  - framework_lens: 技术护城河——技术需要产品化，才能形成壁垒
     follow_up_question: "你的技术是否转化为产品优势？用户是否感知到技术差异？"
-  - src_unknown
-    framework_lens: 技术护城河——算法公开后，壁垒是数据和工程能力
+  - framework_lens: 技术护城河——算法公开后，壁垒是数据和工程能力
     follow_up_question: "算法公开后，你的数据资产和工程能力是否构成壁垒？"
-  - src_unknown
-    framework_lens: 技术护城河——技术投入需要与商业目标对齐
+  - framework_lens: 技术护城河——技术投入需要与商业目标对齐
     follow_up_question: "你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？"
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 id: case-yitang-tob-artificial-bone
 title: 案例：人工骨医疗器械上市失败复盘
 type: case
@@ -35,17 +36,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 需求验证与商业模式
+  - framework_lens: 需求验证与商业模式
     follow_up_question: 除了产品注册证，医院采购还需要完成哪些招投标、学术推广和渠道建设步骤？
-  - src_unknown
-    framework_lens: 增长节奏与单元模型
+  - framework_lens: 增长节奏与单元模型
     follow_up_question: 新医疗产品进入医院的真实周期和单客户获客成本是多少？
-  - src_unknown
-    framework_lens: ToB 决策链与需求验证
+  - framework_lens: ToB 决策链与需求验证
     follow_up_question: 科室主任、设备科、分管院长、招标办、财务各自的决策标准和关键动作是什么？
-  - src_unknown
-    framework_lens: 关键假设检验与复盘
+  - framework_lens: 关键假设检验与复盘
     follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
 ---
 > 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。

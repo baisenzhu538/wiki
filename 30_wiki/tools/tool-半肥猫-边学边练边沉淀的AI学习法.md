@@ -1,4 +1,5 @@
 ---
+
 id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
@@ -36,20 +37,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 学用脱节
+- lens: 学用脱节
   follow_up: 执行步骤1-2：不问总结而是问对自己最有用的方法，追问之前做得好和不好的地方
-- src_unknown
-  lens: AI幻觉
+- lens: AI幻觉
   follow_up: 执行步骤5：对AI答案做三轮检查——推理→证据→贴近场景数据
-- src_unknown
-  lens: 沉淀缺失
+- lens: 沉淀缺失
   follow_up: 执行步骤6：让AI帮忙沉淀为工具/SOP/PRD/Skill，制造可复用资产
-- src_unknown
-  lens: 场景失真
+- lens: 场景失真
   follow_up: 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习
-- src_unknown
-  lens: 沉淀者水平不足
+- lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
 ---
 # 技能：边学边练边沉淀的 AI 学习法

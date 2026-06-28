@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-roi-analysis
 component_of:
 - src_unknown
@@ -54,20 +55,15 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 真实成本 = 直接成本 + 隐性成本 + 机会成本；小钱不等于低代价
+- framework_lens: 真实成本 = 直接成本 + 隐性成本 + 机会成本；小钱不等于低代价
   follow_up_question: 如果把这些教研/工程/运营人日拿去做别的事情，能产出什么？那个替代价值是否更高？
-- src_unknown
-  framework_lens: 长期复用性决定重投入是否值得；一次性营销 vs 可迭代资产
+- framework_lens: 长期复用性决定重投入是否值得；一次性营销 vs 可迭代资产
   follow_up_question: 未来 3 年这个物料/工具需要重做多少次？每次重做的成本和对品牌的负面影响是什么？
-- src_unknown
-  framework_lens: 执行锁 = 给工具加 SOP、清单、审核点，防止执行衰减
+- framework_lens: 执行锁 = 给工具加 SOP、清单、审核点，防止执行衰减
   follow_up_question: 这个工具/清单投入使用后，是否有"不再二错"机制和定期审计？执行率如何被保证？
-- src_unknown
-  framework_lens: 迭代机制 = 工具/资产能否低成本持续更新
+- framework_lens: 迭代机制 = 工具/资产能否低成本持续更新
   follow_up_question: 这个资产第一次上线后，计划多久迭代一次？每次迭代的成本和工作量是多少？
-- src_unknown
-  framework_lens: 反从众判断；用自身业务约束替代市场噪音
+- framework_lens: 反从众判断；用自身业务约束替代市场噪音
   follow_up_question: 如果同行都没做，我们还会做吗？我们的课程更新节奏、用户使用场景是否真的需要它？
 updated_at: '2026-06-16'
 author: 老顽童

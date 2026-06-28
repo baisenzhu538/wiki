@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -83,17 +84,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 地图成了收藏品——地图的价值在导航，不在占有
+- framework_lens: 地图成了收藏品——地图的价值在导航，不在占有
   follow_up_question: 你最近一次做创业决策时，有没有对照地图定位自己处在哪个阶段？如果没有，地图没有进入工作流
-- src_unknown
-  framework_lens: 跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良
+- framework_lens: 跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良
   follow_up_question: 你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段
-- src_unknown
-  framework_lens: 阶段工具错配——增长阶段的核心指标已从验证成功率切换为单元模型 ROI 与复制成功率
+- framework_lens: 阶段工具错配——增长阶段的核心指标已从验证成功率切换为单元模型 ROI 与复制成功率
   follow_up_question: 你当前阶段的核心指标是什么？如果还停留在"花最少钱验证"，是否需要切换到高压验证或组织复制模式？
-- src_unknown
-  framework_lens: 概率追求缺少度量——地图的核心追求是概率，没有指标就无法验证修炼效果
+- framework_lens: 概率追求缺少度量——地图的核心追求是概率，没有指标就无法验证修炼效果
   follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
 trust_level: medium-high

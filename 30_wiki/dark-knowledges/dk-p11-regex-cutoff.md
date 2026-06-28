@@ -1,4 +1,5 @@
 ---
+
 id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dk
@@ -31,7 +32,7 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
-
+---
 ## 原始表述
 
 > **症状**：一篇1800字完整文章，`kdo validate` 报 "Draft section is empty (0 words)"。加了内容后仍只统计到46 words。
@@ -92,7 +93,8 @@ trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截�
 ## 常见失败模式
 
 | 失败模式 | 症状 | 根因 | 修复/绕过 |
-|---|---|---|---|
+|
+|---|---|---|
 | 内容被误报为空 | `kdo validate` 报 "Draft section is empty (0 words)" | regex `(?=^##|\Z)` 把 `###` 当作 section 结束边界 | 改为 `(?=^##(?!#)\|\Z)` 或 `(?=^##\s\|\Z)` |
 | word count 远小于实际 | 1800 字文章只统计到 46 words | section 提取在第一个 `###` 处截断 | 在 `## Draft` 与第一个 `###` 之间插入引导文字临时绕过 |
 | 强制绕过导致数据失真 | 手动改字数或删标题让验证通过 | 未修复 regex，掩盖真实 bug | 修复 regex 并跑全量回归测试 |

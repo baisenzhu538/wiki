@@ -1,5 +1,6 @@
 ---
 
+
 id: workflow-knowledge-collision
 title: 知识碰撞工作流：产出前先碰撞知识库
 type: system
@@ -34,10 +35,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: medium
 updated_at: '2026-06-16'# 知识碰撞工作流：产出前先碰撞知识库
-
+---
 > 核心原则：在产出之前，先拿当前问题去碰撞知识库里的已有框架。不只是查定义——是测试框架在问题上的适用性，找出"对得上""对不上""缺什么"三个区域。
 
----
+
 
 ## 适用场景
 

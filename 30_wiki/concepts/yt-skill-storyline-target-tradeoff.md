@@ -2,22 +2,19 @@
 
 
 
+
 id: yt-skill-storyline-target-tradeoff
 title: 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 理性决策 / 反合理化
+- framework_lens: 理性决策 / 反合理化
   follow_up_question: 标准是否在评估后被修改以迎合偏好？
-- src_unknown
-  framework_lens: 机会成本 / 决策后后悔
+- framework_lens: 机会成本 / 决策后后悔
   follow_up_question: 用户是否因'看不到代价'而在事后陷入认知失调？
-- src_unknown
-  framework_lens: 认知诚实 / 情绪剥离
+- framework_lens: 认知诚实 / 情绪剥离
   follow_up_question: 是否把价值观不可通约的重大决策强行塞进 1-10 分？
-- src_unknown
-  framework_lens: 杠杆识别 / 聚焦
+- framework_lens: 杠杆识别 / 聚焦
   follow_up_question: 平均分配权重是否回避了真正的优先级判断？
 updated_at: '2026-06-16'
 author: unknown

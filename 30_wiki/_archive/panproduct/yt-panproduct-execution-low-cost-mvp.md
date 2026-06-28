@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-low-cost-mvp
 component_of:
 - src_unknown
@@ -60,14 +61,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: MVP 是学习工具，不是缩小版产品
+- framework_lens: MVP 是学习工具，不是缩小版产品
   follow_up_question: 如果只能验证一个假设，这个 MVP 验证的是哪一个？
-- src_unknown
-  framework_lens: 低成本 = 快速迭代
+- framework_lens: 低成本 = 快速迭代
   follow_up_question: 这个 MVP 能否在2周内上线并收集到真实反馈？
-- src_unknown
-  framework_lens: 实验必须有 kill 条件
+- framework_lens: 实验必须有 kill 条件
   follow_up_question: 多少用户采取什么行为，才算验证成功？
 updated_at: '2026-06-16'
 author: 老顽童

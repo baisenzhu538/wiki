@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
@@ -45,14 +46,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 萃取 = 从具体上升到抽象
+- framework_lens: 萃取 = 从具体上升到抽象
   follow_up_question: 这个模型能解释三个以上不同案例吗？
-- src_unknown
-  framework_lens: 可证伪性保证模型质量
+- framework_lens: 可证伪性保证模型质量
   follow_up_question: 你能找到一个不符合这个模型的案例吗？这说明什么？
-- src_unknown
-  framework_lens: 萃取物需要进入知识网络
+- framework_lens: 萃取物需要进入知识网络
   follow_up_question: 这个模型与你已有的哪个认知冲突或互补？
 author: 老顽童
 trust_level: medium

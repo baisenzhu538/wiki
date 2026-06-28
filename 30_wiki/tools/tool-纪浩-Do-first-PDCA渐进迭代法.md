@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-Do-first-PDCA渐进迭代法
 title: 技能：Do-first PDCA渐进迭代法
 type: tool
@@ -30,20 +31,15 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 完美主义启动
+- lens: 完美主义启动
   follow_up: 第一版必须在30分钟内交付，不求完美。目标不是做好，是做出来
-- src_unknown
-  lens: 检查过载
+- lens: 检查过载
   follow_up: 每次检查迭代只增加2-3个检查点，逐步扩展不要一次性追求完美
-- src_unknown
-  lens: 记录缺失
+- lens: 记录缺失
   follow_up: 每个检查点和纠偏方案必须记录在案，记录是迭代的基础
-- src_unknown
-  lens: 规模化过早
+- lens: 规模化过早
   follow_up: 规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill
-- src_unknown
-  lens: 方向错误
+- lens: 方向错误
   follow_up: 四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证
 ---
 # 技能：Do-first PDCA渐进迭代法

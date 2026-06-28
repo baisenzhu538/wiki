@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
@@ -37,14 +38,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 拒绝能力与风险边界
+- lens: 拒绝能力与风险边界
   follow_up: 检查评分规则与风险边界是否写入 Skill 主体并被自动执行
-- src_unknown
-  lens: 量化评分维度
+- lens: 量化评分维度
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
-- src_unknown
-  lens: 风险分级映射
+- lens: 风险分级映射
   follow_up: 验证高/中/低容错场景是否对应不同的约束强度与评分权重
 ---
 # 技能：设计 Skill 的评分规则与风险边界

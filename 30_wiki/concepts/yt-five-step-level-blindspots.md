@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -37,14 +38,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 邓宁克鲁格效应
+- framework_lens: 邓宁克鲁格效应
   follow_up_question: 你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里
-- src_unknown
-  framework_lens: 目标模糊
+- framework_lens: 目标模糊
   follow_up_question: 你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰
-- src_unknown
-  framework_lens: 确认偏误/群体盲区
+- framework_lens: 确认偏误/群体盲区
   follow_up_question: 最近一次有成员用反例推翻过你的核心假设吗？如果没有，你们可能在用框架自证
 updated_at: '2026-06-17'
 author: 老顽童

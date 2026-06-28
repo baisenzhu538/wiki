@@ -3,6 +3,7 @@
 
 
 
+
 id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
@@ -36,11 +37,9 @@ wiki_refs:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 只用了一个杠杆
+- framework_lens: 只用了一个杠杆
   follow_up_question: 你一年能完成几次完整的试错循环？如果<2次，第二个杠杆没用上
-- src_unknown
-  framework_lens: 预判缺失
+- framework_lens: 预判缺失
   follow_up_question: 你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博
 updated_at: '2026-06-16'
 author: 老顽童

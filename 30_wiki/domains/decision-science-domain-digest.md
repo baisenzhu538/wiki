@@ -1,4 +1,5 @@
 ---
+
 id: decision-science-domain-digest
 title: "域摘要：decision-science（科学决策）"
 type: index
@@ -11,7 +12,7 @@ source_refs:
   - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 tags:
   - src_unknown
-
+---
 # decision-science 域摘要
 
 ## 1. 一句话
@@ -136,7 +137,8 @@ tags:
 ## 9. 跨域桥接
 
 | 目标域 | 桥接卡 | 使用场景 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | yitang | [[yt-decision-abcd-model|关键假设 ABCD 模型]] | 一堂课程内的决策方法论落地 |
 | lean-startup | [[framework-lean-pivot-decision|精益转向决策框架]] | 在假设验证与资源约束下做转向/坚持判断 |
 | business-strategy | [[framework-科学决策三角形|科学决策三角形]] | 战略选择中平衡高度、宽度、深度三维度 |

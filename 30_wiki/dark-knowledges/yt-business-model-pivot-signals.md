@@ -1,4 +1,5 @@
 ---
+
 domain:
 - business-model
 id: yt-business-model-pivot-signals
@@ -39,6 +40,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 商业模式转型信号——团队信心是转型的重要信号
   follow_up_question: 团队为什么失去信心？是对产品、市场、还是商业模式失去信心？
+---
 # 商业模式转型信号：何时该 pivot
 
 ## 原始表述
@@ -48,7 +50,8 @@ diagnostic_signals:
 转型的5个信号：
 
 | 信号 | 说明 | 紧急程度 |
-|:---|:---|:---:|
+|:
+|:---|:---:|
 | **单元模型不成立** | LTV < CAC，长期无法优化 | 高 |
 | **市场变化** | 市场从蓝变红，竞争格局变化 | 高 |
 | **内核验证失败** | 产品内核无法验证 | 高 |

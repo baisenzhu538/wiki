@@ -1,6 +1,7 @@
 ---
 
 
+
 id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
@@ -35,17 +36,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 系统瓶颈 vs. 工具瓶颈
+- lens: 系统瓶颈 vs. 工具瓶颈
   follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
-- src_unknown
-  lens: 角色定义
+- lens: 角色定义
   follow_up: 将角色重新定义为让 AI 把代码写好的人，强调判断力而非执行量
-- src_unknown
-  lens: 输入质量
+- lens: 输入质量
   follow_up: 回到需求拆解层，用 BTICOE 补全原子任务和约束条件
-- src_unknown
-  lens: 验收标准
+- lens: 验收标准
   follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
 tags:
 - src_unknown

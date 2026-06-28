@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-hypothesis-decomposition
 component_of:
 - src_unknown
@@ -51,14 +52,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 关键假设是验证的锚点
+- framework_lens: 关键假设是验证的锚点
   follow_up_question: 如果这5个假设中有一个错了，产品会失败吗？
-- src_unknown
-  framework_lens: 假设必须可证伪
+- framework_lens: 假设必须可证伪
   follow_up_question: 什么样的证据会让你放弃这个假设？
-- src_unknown
-  framework_lens: 贝叶斯迭代
+- framework_lens: 贝叶斯迭代
   follow_up_question: 最近一次的验证结果改变了你的假设排序吗？
 updated_at: '2026-06-16'
 author: 老顽童

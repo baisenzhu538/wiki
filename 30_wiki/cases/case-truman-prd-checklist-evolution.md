@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
@@ -34,17 +35,13 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 反馈随机化——问题没有被沉淀为检查项
+- framework_lens: 反馈随机化——问题没有被沉淀为检查项
   follow_up_question: 你是否有"评审错题本"？每次被打回的问题是否在24小时内变成清单新条目？
-- src_unknown
-  framework_lens: "\"不再二错\"机制失效"
+- framework_lens: "\"不再二错\"机制失效"
   follow_up_question: 写新方案时是否强制用清单自检2-3次？清单是否覆盖了最近3次被打回的问题？
-- src_unknown
-  framework_lens: 模型僵化——清单没有持续吸收新反馈
+- framework_lens: 模型僵化——清单没有持续吸收新反馈
   follow_up_question: 最近5次评审/反馈中有多少条没有被清单收录？未收录的原因是什么？
-- src_unknown
-  framework_lens: 清单结构失效——缺少触发场景或执行顺序
+- framework_lens: 清单结构失效——缺少触发场景或执行顺序
   follow_up_question: 清单是否按"输入-处理-输出"或评审阶段组织？每个检查项是否有明确的"何时检查"触发条件？
 ---# Truman的PRD清单进化
 

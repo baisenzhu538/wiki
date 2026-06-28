@@ -58,16 +58,22 @@ def fix_no_closing_separator(text: str, path: str) -> str | None:
     fm, sep, body = split_frontmatter(text)
     if fm is None or sep:
         return None
-    # Find first body marker: # heading, or a line with # glued to frontmatter text.
+    # Find first body marker: # heading, or **bold list**, or # glued to frontmatter text.
     lines = text.splitlines()
     insert_idx = None
     split_offset = 0
     split_new_line = None
+    split_prefix = "# "
     for i, line in enumerate(lines):
         if i == 0 and line.strip() == "---":
             continue
         if line.startswith("#"):
             insert_idx = i
+            break
+        # Body bold list item at column 0 (e.g. "**8个常见伪战略词**：...").
+        if re.match(r"\*\*[^*]+\*\*\s*[：:]", line):
+            insert_idx = i
+            split_prefix = ""
             break
         # Body heading glued to frontmatter line (e.g. "key: value# Title").
         m = re.search(r"(?<=.)(#\s+)", line)
@@ -80,7 +86,7 @@ def fix_no_closing_separator(text: str, path: str) -> str | None:
         return None
     if split_offset:
         lines[insert_idx] = lines[insert_idx][:split_offset].rstrip()
-        lines.insert(insert_idx + 1, "# " + split_new_line)
+        lines.insert(insert_idx + 1, split_prefix + split_new_line)
         insert_idx += 1
     new_lines = lines[:insert_idx] + ["---", ""] + lines[insert_idx:]
     return "\n".join(new_lines)

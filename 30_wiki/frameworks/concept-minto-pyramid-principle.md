@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-minto-pyramid-principle
 title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
@@ -11,27 +12,21 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 bridges_to:
-- src_unknown
-  relation: provides_foundation_for
+- relation: provides_foundation_for
   description: 金字塔原理是内核三问结构化输出的底层原则
   context: 内核要素三问验证法要求结论先行、分层论证，与金字塔原理的纵向关系完全一致——最高层的结论由下一层的论据支撑
-- src_unknown
-  relation: applies_to
+- relation: applies_to
   description: 五步法各步骤的输出需要用金字塔结构呈现
   context: 五步法做完充分做加法和减法后，需要输出结构化的分析报告。金字塔原理确保输出不是素材堆砌而是有层次的观点
-- src_unknown
-  relation: complements
+- relation: complements
   description: 关键假设验证过程天然形成金字塔结构
   context: 假设驱动工作的输出——核心假设→子假设→验证结果→结论——本身就是一座金字塔
 diagnostic_signals:
-- src_unknown
-  framework_lens: 金字塔原理检查：你的分析结构是否有清晰的纵向关系——最高层结论是什么？下面几层分别支持什么？
+- framework_lens: 金字塔原理检查：你的分析结构是否有清晰的纵向关系——最高层结论是什么？下面几层分别支持什么？
   follow_up_question: 如果可以只用一句话向老板说明你最重要的结论，那句话是什么？
-- src_unknown
-  framework_lens: 金字塔原理检查：是否先写了结论？同一层的观点是否遵循了MECE或因果逻辑？
+- framework_lens: 金字塔原理检查：是否先写了结论？同一层的观点是否遵循了MECE或因果逻辑？
   follow_up_question: 你把所有观点读一遍，标出你认为最重要的那个——读者看了你的文档后，应该记住的唯一一件事是什么？
-- src_unknown
-  framework_lens: 金字塔原理检查：你的叙述是否按金字塔结构组织？如果听众只接收到了底层的碎片信息，就形不成对你的结论的判断
+- framework_lens: 金字塔原理检查：你的叙述是否按金字塔结构组织？如果听众只接收到了底层的碎片信息，就形不成对你的结论的判断
   follow_up_question: 如果你是投资人，看完你的PPT后必须带走一个决策点，你应该让他们带走什么？
 related:
   - src_unknown

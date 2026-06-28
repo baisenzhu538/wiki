@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
@@ -40,14 +41,11 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 成本占有率
+- framework_lens: 成本占有率
   follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？
-- src_unknown
-  framework_lens: 业务天花板
+- framework_lens: 业务天花板
   follow_up_question: 单家目标客户为此付出的专项成本是多少？我能切到的占有率上限是多少？同类客户又有多少家？
-- src_unknown
-  framework_lens: To B 收入本质
+- framework_lens: To B 收入本质
   follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
 
 ---

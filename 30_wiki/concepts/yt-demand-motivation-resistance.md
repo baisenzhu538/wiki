@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 动机阻力分析——有动机但有阻力
+  - framework_lens: 动机阻力分析——有动机但有阻力
     follow_up_question: "用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？"
-  - src_unknown
-    framework_lens: 动机阻力分析——使用阻力大于使用动机
+  - framework_lens: 动机阻力分析——使用阻力大于使用动机
     follow_up_question: "用户试用后，是什么让他们不再回来？是体验不好，还是需求不够痛？"
-  - src_unknown
-    framework_lens: 动机阻力分析——推荐动机有，但推荐阻力大
+  - framework_lens: 动机阻力分析——推荐动机有，但推荐阻力大
     follow_up_question: "用户为什么愿意推荐？推荐的具体场景是什么？什么阻碍了他们实际推荐？"
-  - src_unknown
-    framework_lens: 动机阻力分析——需求频率被高估
+  - framework_lens: 动机阻力分析——需求频率被高估
     follow_up_question: "用户预期多久用一次？实际多久用一次？差异原因是什么？"
-  - src_unknown
-    framework_lens: 动机阻力分析——动机不够强，被其他事情优先
+  - framework_lens: 动机阻力分析——动机不够强，被其他事情优先
     follow_up_question: "用户现在的优先级排序是什么？你的产品排在第几位？"
 
 ---

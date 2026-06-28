@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
 created_at: 2026-05-06
@@ -62,14 +63,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 框架未转化为工作流
+- framework_lens: 框架未转化为工作流
   follow_up_question: 你最近一次做项目时，明确使用了五步法的哪一步工具？
-- src_unknown
-  framework_lens: 僵化使用——五步法需要循环迭代
+- framework_lens: 僵化使用——五步法需要循环迭代
   follow_up_question: 你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代
-- src_unknown
-  framework_lens: 形式覆盖型使用——用文档完成度替代假设检验
+- framework_lens: 形式覆盖型使用——用文档完成度替代假设检验
   follow_up_question: 请拿出上一步最关键假设的"证伪数据"或"反证数据"，而不是只讲计划
 updated_at: '2026-06-16'
 author: 老顽童

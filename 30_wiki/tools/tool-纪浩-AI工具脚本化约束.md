@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-AI工具脚本化约束
 title: 技能：AI工具脚本化约束
 type: tool
@@ -23,20 +24,15 @@ related:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 随机输出
+- lens: 随机输出
   follow_up: 识别重复操作，写成确定性脚本。AI不脚本化则行为随机，脚本化确保操作确定性
-- src_unknown
-  lens: 外部交互失败
+- lens: 外部交互失败
   follow_up: 将外部交互写成脚本，纳入Agent工具集。要求AI优先调用工具而非自主分析
-- src_unknown
-  lens: 重复描述
+- lens: 重复描述
   follow_up: 将验证步骤脚本化，变成可复用工具。一次编写，多次调用
-- src_unknown
-  lens: 分析幻觉
+- lens: 分析幻觉
   follow_up: 要求AI优先调用工具获取数据，再基于数据做分析。不要让AI直接'知道'数据
-- src_unknown
-  lens: 脚本耦合
+- lens: 脚本耦合
   follow_up: 脚本模块化设计，每个脚本只做一件事。做好版本控制，变更前测试兼容性
 ---# 技能：AI工具脚本化约束
 

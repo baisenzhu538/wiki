@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -23,20 +24,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
+  - framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
     follow_up_question: "用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？"
-  - src_unknown
-    framework_lens: 峰终定律——优化了平均体验，但峰值和终点没变
+  - framework_lens: 峰终定律——优化了平均体验，但峰值和终点没变
     follow_up_question: "你的优化是在峰值时刻、终点时刻，还是其他时刻？"
-  - src_unknown
-    framework_lens: 峰终定律——终点体验不好，影响推荐意愿
+  - framework_lens: 峰终定律——终点体验不好，影响推荐意愿
     follow_up_question: "用户使用结束时的体验是什么？是顺畅完成，还是遇到阻碍？"
-  - src_unknown
-    framework_lens: 峰终定律——该节点可能是负面峰值
+  - framework_lens: 峰终定律——该节点可能是负面峰值
     follow_up_question: "用户流失前的最后一个体验是什么？是负面峰值还是终点体验不好？"
-  - src_unknown
-    framework_lens: 峰终定律——竞品在峰值或终点体验更好
+  - framework_lens: 峰终定律——竞品在峰值或终点体验更好
     follow_up_question: "竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？"
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
@@ -27,11 +28,9 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 爬虫工具匹配矩阵
+  - framework_lens: 爬虫工具匹配矩阵
     follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
-  - src_unknown
-    framework_lens: 合规决策树
+  - framework_lens: 合规决策树
     follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
 tags:
   - src_unknown

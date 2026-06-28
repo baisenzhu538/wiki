@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-risk-management
 component_of:
 - src_unknown
@@ -51,14 +52,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 风险需要前置识别
+- framework_lens: 风险需要前置识别
   follow_up_question: 这个项目最大的三个风险是什么？你是什么时候识别出来的？
-- src_unknown
-  framework_lens: 可管理的风险必须可归属
+- framework_lens: 可管理的风险必须可归属
   follow_up_question: 如果某个风险发生，谁会第一个知道？谁负责应对？
-- src_unknown
-  framework_lens: 风险管理要降低不确定性
+- framework_lens: 风险管理要降低不确定性
   follow_up_question: 针对最高影响的风险，你的 Plan B 是什么？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -27,14 +28,13 @@ related:
 - yt-business-formula-qualitative-metrics-library
 - yt-unit-model-three-tools
 - yt-five-step-method
-
-
+---
 # 业务公式 ABC 模型（Ambition-Basis-Connection）
 
 > 一堂业务公式拆解培训的极简框架：**目标（Ambition）+ 参数（Basis）+ 逻辑关系（Connection）= 业务公式**。  
 > 来源：一堂 2026-06-13 业务公式拆解培训（孔阳），素材包括逐字稿、培训笔记与 ABC 模型图。
 
----
+
 
 ## 核心定义
 

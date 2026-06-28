@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
@@ -42,17 +43,13 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 剩余脑力不足
+- framework_lens: 剩余脑力不足
   follow_up_question: 你记录时是否已经自动化，不需要占用全部脑力？如果不是，还到不了建模层
-- src_unknown
-  framework_lens: 关系张力处理不好
+- framework_lens: 关系张力处理不好
   follow_up_question: 你建模时有没有和对方互动、确认、挑战？还是只顾自己写？
-- src_unknown
-  framework_lens: 记录≠加工
+- framework_lens: 记录≠加工
   follow_up_question: 你能否用一句话说出这次访谈的主线？能否把对方观点转写成“如果…那么…”的因果结构？
-- src_unknown
-  framework_lens: 剩余脑力被“伪自动化”占用
+- framework_lens: 剩余脑力被“伪自动化”占用
   follow_up_question: 当 AI 替你记录时，你省下的认知资源是用在追问/建模，还是用来走神/准备下一句套话？
 updated_at: '2026-06-17'
 author: 老顽童

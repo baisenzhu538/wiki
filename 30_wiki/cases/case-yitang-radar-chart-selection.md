@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
@@ -39,20 +40,15 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  lens: 决策超载 + 隐性标准
+- lens: 决策超载 + 隐性标准
   follow_up: 召集有判断力的人开模型共建会，先定义 4-6 个评选维度和打分规则，再看任何候选人
-- src_unknown
-  lens: 标准未对象化
+- lens: 标准未对象化
   follow_up: 强制把所有讨论转换为"该候选人在 X 维度得 Y 分"格式，禁止不带维度引用的感性发言
-- src_unknown
-  lens: 雷达图维度不完备
+- lens: 雷达图维度不完备
   follow_up: 每次失败后 48h 内复盘：如果当时多一个什么维度就能拦住？把该维度加入雷达图并更新版本
-- src_unknown
-  lens: 隐性权威覆盖
+- lens: 隐性权威覆盖
   follow_up: 要求高管把直觉翻译成一个维度/分数，或只能行使否决权，不能直接通过
-- src_unknown
-  lens: 维度重叠/缺乏校准
+- lens: 维度重叠/缺乏校准
   follow_up: 用 2-3 个样本做校准会，重写维度定义和锚定分数，检查 MECE
 ---# 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 

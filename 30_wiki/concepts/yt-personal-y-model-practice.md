@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 
@@ -46,6 +47,7 @@ related:
 - [[一堂]]
 - [[tool-泛产品落地-解放思想]]
 - [[yt-personal-thinking-models]]
+---
 # Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]
@@ -53,7 +55,8 @@ related:
 ## Constraints & Boundaries
 
 | 边界 | 说明 |
-|------|------|
+|
+---|------|
 | **适合** | 需要解决复杂、跨域问题，且有一定经验积累的人 |
 | **适合** | 希望把碎片认知整合成操作系统的高阶学习者 |
 | **不适合** | 问题简单、用具体工具即可解决的场景 |

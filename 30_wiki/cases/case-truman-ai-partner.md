@@ -2,6 +2,7 @@
 
 
 
+
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -50,14 +51,11 @@ reviewed_by: 洪七公
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI Partner 不是替代判断，而是约束下协作
+- framework_lens: AI Partner 不是替代判断，而是约束下协作
   follow_up_question: 你的 Agent 边界清单里，哪些判断必须人类做、AI 只做整理/提示？
-- src_unknown
-  framework_lens: 知识资产化 ≠ 课程售卖，需要封装即时反馈机制
+- framework_lens: 知识资产化 ≠ 课程售卖，需要封装即时反馈机制
   follow_up_question: 你的方法论能否被拆成可校验的清单规则？学生练习后能否自动得到结构化反馈？
-- src_unknown
-  framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
+- framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
 ---# 案例：Truman AI Partner（阿蕊老师）
 

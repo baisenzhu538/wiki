@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
 title: 技能：追问 AI 证据并标注信源
 type: tool
@@ -34,14 +35,11 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 证据 vs 推理
+- lens: 证据 vs 推理
   follow_up: 这是 AI 的推理还是证据？如果是证据，具体来源、时间、样本量、方法是什么？
-- src_unknown
-  lens: 可验证性
+- lens: 可验证性
   follow_up: 这个信源能否通过搜索引擎、数据库或报告原文独立核实？
-- src_unknown
-  lens: 风险分级
+- lens: 风险分级
   follow_up: 这个场景的错误代价是什么？是否已经验证信源并标注不确定性？
 ---
 # 技能：追问 AI 证据并标注信源

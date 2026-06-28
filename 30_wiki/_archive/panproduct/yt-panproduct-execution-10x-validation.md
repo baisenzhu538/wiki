@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-execution-10x-validation
 component_of:
 - src_unknown
@@ -48,14 +49,11 @@ yitang:
 pipeline:
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 验证成本应与认知价值匹配
+- framework_lens: 验证成本应与认知价值匹配
   follow_up_question: 这个假设用专家访谈或市场调查能否证伪？
-- src_unknown
-  framework_lens: 验证是决策工具
+- framework_lens: 验证是决策工具
   follow_up_question: 如果实验结果是否定的，你会放弃、调整还是换一种验证方式？
-- src_unknown
-  framework_lens: 贝叶斯式渐进投入
+- framework_lens: 贝叶斯式渐进投入
   follow_up_question: 在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？
 updated_at: '2026-06-16'
 author: 老顽童

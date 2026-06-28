@@ -1,6 +1,7 @@
 ---
 
 
+
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
@@ -37,17 +38,13 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: AI 辅助对比与合并可显著降低复盘成本
+- framework_lens: AI 辅助对比与合并可显著降低复盘成本
   follow_up_question: 你是否经常需要对比 Before/After 版本，或从大量协作记录中提炼 checklist？
-- src_unknown
-  framework_lens: 缺少把经验封装成可复用 Skill 的习惯
+- framework_lens: 缺少把经验封装成可复用 Skill 的习惯
   follow_up_question: 你做完一个项目后，会不会让 AI 立刻扫描协作记录并封装成自查清单？
-- src_unknown
-  framework_lens: 记忆衰减和信息丢失是隐性成本
+- framework_lens: 记忆衰减和信息丢失是隐性成本
   follow_up_question: 你的复盘是在工作完成后 24 小时内完成，还是等到下次再做类似工作时才想起？
-- src_unknown
-  framework_lens: 人必须负责审美判断和建模
+- framework_lens: 人必须负责审美判断和建模
   follow_up_question: 你拿到 AI 的复盘结果后，是否会基于自己的判断力做二次总结和边界修正？
 ---
 # 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己

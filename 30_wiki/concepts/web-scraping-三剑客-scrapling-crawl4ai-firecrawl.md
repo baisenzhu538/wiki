@@ -1,6 +1,7 @@
 ---
 
 
+
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
@@ -23,11 +24,12 @@ related:
 - [[tool-yitang-web-scraping-research]]
 - [[tool-agent-crawl4ai]]
 - [[tool-agent-native-overview]]
+---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。
 
----
+
 
 ## Claims
 

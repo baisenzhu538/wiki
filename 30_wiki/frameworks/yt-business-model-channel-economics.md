@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
+  - framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
     follow_up_question: "你的获客渠道有几个？每个渠道的CAC分别是多少？"
-  - src_unknown
-    framework_lens: 渠道经济学——CAC变化需要定位具体渠道
+  - framework_lens: 渠道经济学——CAC变化需要定位具体渠道
     follow_up_question: "CAC下降是因为某个渠道优化，还是整体渠道结构变化？"
-  - src_unknown
-    framework_lens: 渠道经济学——新渠道需要测试和优化
+  - framework_lens: 渠道经济学——新渠道需要测试和优化
     follow_up_question: "新渠道测试了多久？优化了哪些变量？"
-  - src_unknown
-    framework_lens: 渠道经济学——自然获客是健康指标
+  - framework_lens: 渠道经济学——自然获客是健康指标
     follow_up_question: "你的自然获客占比是多少？如何提升自然获客？"
-  - src_unknown
-    framework_lens: 渠道经济学——渠道之间可能互相蚕食
+  - framework_lens: 渠道经济学——渠道之间可能互相蚕食
     follow_up_question: "你的渠道之间是否互相竞争？如何协调渠道策略？"
 
 ---

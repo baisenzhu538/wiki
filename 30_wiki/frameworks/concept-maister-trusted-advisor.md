@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
@@ -11,27 +12,21 @@ source_refs:
   - src_unknown
   - src_unknown
 bridges_to:
-- src_unknown
-  relation: provides_foundation_for
+- relation: provides_foundation_for
   description: Trusted Advisor 是王语嬏'可信顾问'角色定位的理论支撑
   context: 王语嬏诊断记录认为 KDO 知识工厂缺少可信顾问理论支撑卡，本卡填补这个缺口
-- src_unknown
-  relation: complements
+- relation: complements
   description: 产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的具体路径
   context: 产品内核诊断中，用户不愿意说出真实痛点，Trusted Advisor 模型能解释为什么
-- src_unknown
-  relation: applies_to
+- relation: applies_to
   description: 五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor
   context: 创始人在团队内部做需求调研，同样需要信任关系，否则得不到真实反馈
 diagnostic_signals:
-- src_unknown
-  framework_lens: Trusted Advisor 检查：信任度还不足以支撑建议输出
+- framework_lens: Trusted Advisor 检查：信任度还不足以支撑建议输出
   follow_up_question: 目前我们还在了解情况的阶段，为什么这个问题对你来说是最紧急的？
-- src_unknown
-  framework_lens: Trusted Advisor 检查：Self-Orientation 可能过高，对方感觉你在推销而非帮忙
+- framework_lens: Trusted Advisor 检查：Self-Orientation 可能过高，对方感觉你在推销而非帮忙
   follow_up_question: 如果我现在完全站在你的立场，你会怎么做？这和我刚才的建议相比，差在哪里？
-- src_unknown
-  framework_lens: Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次
+- framework_lens: Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次
   follow_up_question: 在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？
 related:
 - src_unknown

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p1-model-switch-env
 title: P-1：切模型改环境变量无效——Claude Code 走全局设置
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-1：切模型改环境变量无效——Claude Code 走全局设置
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：在 WSL `.bashrc` / `.profile` 里 `export ANTHROPIC_*` 设为 Kimi，但 `claude.exe` 始终读不到，一直连 DeepSeek。改 Windows 注册表 + `wsl --shutdown` 也无效。
@@ -89,7 +90,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 在环境变量层改模型，期待覆盖全局设置 | WSL `.bashrc` 已 export ANTHROPIC_*，但 `claude.exe` 仍连 DeepSeek；改注册表/`wsl --shutdown` 无效 | Claude Code 全局设置（`~/.claude/settings.json`）优先级高于环境变量 | 直接改对应链路的全局设置文件；CLI 链路检查 `~/.claude/settings.json`，飞书链路检查 systemd `env.conf` |
 | 误以为改一条链路等于改全链路 | CLI 正常但飞书 Agent 401，或反之 | CLI 与 cc-connect 是两条独立配置链路，互不影响 | 分别修改并分别验证：CLI 重开 tmux session，飞书 reload+restart cc-connect |
 | 改完配置不验证实际生效状态 | 日志仍显示旧模型或旧 endpoint | 未重启 session/服务，或缓存未刷新 | CLI：kill 并重建 tmux session；飞书：`systemctl --user show cc-connect | grep Environment` 并查看日志 |

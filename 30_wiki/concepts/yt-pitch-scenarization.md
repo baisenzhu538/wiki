@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-pitch-scenarization
 component_of:
 - src_unknown
@@ -40,14 +41,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 场景是需求的剧场
+- framework_lens: 场景是需求的剧场
   follow_up_question: 用户看到这个场景，会不会想到自己？
-- src_unknown
-  framework_lens: 细节产生代入感
+- framework_lens: 细节产生代入感
   follow_up_question: 这个场景发生在什么时间、地点、人物在做什么？
-- src_unknown
-  framework_lens: 场景是过渡
+- framework_lens: 场景是过渡
   follow_up_question: 场景结束后，用户为什么需要你的产品？
 updated_at: '2026-06-16'
 author: 老顽童

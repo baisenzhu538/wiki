@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-wanghuan-ai-dual-role-coach
 title: 王欢：AI 双角色教练对练工具
 type: tool
@@ -18,17 +19,13 @@ domain: human-ai-collaboration;ai-collaboration;yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-  lens: 隐性经验传递困境
+- lens: 隐性经验传递困境
   follow_up: 萃取老手的决策过程，而不是只复制末端话术
-- src_unknown
-  lens: 只复制末端输出
+- lens: 只复制末端输出
   follow_up: '把对练目标从"话术正确"改为"策略判断正确"'
-- src_unknown
-  lens: 评分维度缺失
+- lens: 评分维度缺失
   follow_up: '在评分顶层增加"策略判断"维度并赋予最高权重'
-- src_unknown
-  lens: 知识未隔离
+- lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
   - src_unknown

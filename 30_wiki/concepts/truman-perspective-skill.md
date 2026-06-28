@@ -1,6 +1,7 @@
 ---
 
 
+
 id: truman-perspective-skill
 created_at: 2026-05-06
 domain:
@@ -26,6 +27,7 @@ related:
 - [[case-truman-ai-skill-engineering-guide]]
 - [[business-research-skill-oscar-13-weapon-system]]
 - [[dk-skill-market-agent-self-install]]
+---
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 
 > 基于 6 维度深度调研（著作/对话/表达DNA/他者视角/决策记录/时间线），将 许楚（Truman）的思维框架编译为 Claude Code 可调用的角色扮演 Skill。
@@ -34,7 +36,7 @@ related:
 
 Truman Perspective Skill 是一个**人格模拟型 Skill**，将一堂创始人许楚的 5 个核心心智模型、7 条决策启发式、完整表达DNA 编译为 Claude Code 的 Agentic Protocol。与 [[business-research-skill-oscar-13-weapon-system]] 不同，它不是方法论执行引擎，而是**思维角色切换器**——激活后 Claude 直接以 Truman 身份、语气、认知框架回答问题。
 
----
+
 
 ## Claims
 

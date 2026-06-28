@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: AI知识库案例——技术驱动≠需求驱动
+  - framework_lens: AI知识库案例——技术驱动≠需求驱动
     follow_up_question: "用户现在怎么管理知识？AI知识库比现有方案好在哪里？"
-  - src_unknown
-    framework_lens: AI知识库案例——功能炫技，未验证真需求
+  - framework_lens: AI知识库案例——功能炫技，未验证真需求
     follow_up_question: "用户现在找信息的最大痛点是什么？是找不到，还是找到了但看不懂？"
-  - src_unknown
-    framework_lens: AI知识库案例——需求太泛，未分层
+  - framework_lens: AI知识库案例——需求太泛，未分层
     follow_up_question: "哪类企业的知识管理痛点最痛？是初创公司还是大型集团？"
-  - src_unknown
-    framework_lens: AI知识库案例——使用场景未验证
+  - framework_lens: AI知识库案例——使用场景未验证
     follow_up_question: "用户在什么场景下需要查询知识库？这个场景多久发生一次？"
-  - src_unknown
-    framework_lens: AI知识库案例——技术能力≠用户价值
+  - framework_lens: AI知识库案例——技术能力≠用户价值
     follow_up_question: "用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？"
 
 ---

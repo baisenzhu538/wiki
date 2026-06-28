@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
 - src_unknown
@@ -45,11 +46,9 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 只看不练
+- framework_lens: 只看不练
   follow_up_question: 你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？
-- src_unknown
-  framework_lens: 缺少案例输入
+- framework_lens: 缺少案例输入
   follow_up_question: 你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳
 updated_at: '2026-06-16'
 author: 老顽童

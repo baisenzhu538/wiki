@@ -20,6 +20,8 @@ related:
 - [[dk-c7-auto-backup-conflict]]
 - [[dk-yb25-solution-driven-visual-design]]
 - [[dk-p17-accuracy-gap]]
+---
+
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 
 ## 原始表述

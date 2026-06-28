@@ -1,4 +1,5 @@
 ---
+
 domain:
   - src_unknown
 
@@ -24,20 +25,15 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 网络效应——平台需要明确的网络效应类型
+  - framework_lens: 网络效应——平台需要明确的网络效应类型
     follow_up_question: "你的平台是哪种类型的网络效应？同边、跨边、还是数据网络效应？"
-  - src_unknown
-    framework_lens: 网络效应——双边平台需要解决鸡生蛋问题
+  - framework_lens: 网络效应——双边平台需要解决鸡生蛋问题
     follow_up_question: "你的平台是先启动哪一边？如何吸引第一边用户？"
-  - src_unknown
-    framework_lens: 网络效应——网络效应≠商业模式，需要变现设计
+  - framework_lens: 网络效应——网络效应≠商业模式，需要变现设计
     follow_up_question: "你的网络效应如何变现？抽成、广告、还是增值服务？"
-  - src_unknown
-    framework_lens: 网络效应——网络效应需要达到临界点
+  - framework_lens: 网络效应——网络效应需要达到临界点
     follow_up_question: "你的平台达到网络效应的临界点了吗？需要多少用户？"
-  - src_unknown
-    framework_lens: 网络效应——网络效应不是护城河，需要持续强化
+  - framework_lens: 网络效应——网络效应不是护城河，需要持续强化
     follow_up_question: "你的网络效应强度如何？用户迁移成本高吗？"
 
 ---

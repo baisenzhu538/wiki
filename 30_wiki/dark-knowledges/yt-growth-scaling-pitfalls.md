@@ -1,4 +1,5 @@
 ---
+
 domain:
 - growth
 id: yt-growth-scaling-pitfalls
@@ -39,6 +40,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 增长规模化陷阱——增长策略需要匹配自身条件，不能复制
   follow_up_question: 别人的增长策略的前提条件是什么？你的条件是否匹配？
+---
 # 增长规模化陷阱
 
 ## 原始表述
@@ -90,7 +92,8 @@ diagnostic_signals:
 ## 适用边界
 
 | 场景 | 是否适用 | 说明 |
-|:---|:---|:---|
+|:
+|:---|:---|
 | 增长策略 | ✅ 适用 | 识别规模化陷阱 |
 | 规模化决策 | ✅ 适用 | 评估 readiness |
 | 风险管理 | ✅ 适用 | 管理增长风险 |

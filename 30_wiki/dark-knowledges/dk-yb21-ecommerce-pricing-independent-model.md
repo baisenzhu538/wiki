@@ -20,7 +20,10 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low# 电商定价：线上价格带需独立建模
+trust_level: low
+---
+
+# 电商定价：线上价格带需独立建模
 
 ## 原始表述
 

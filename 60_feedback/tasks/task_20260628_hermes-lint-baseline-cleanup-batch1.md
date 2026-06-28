@@ -152,12 +152,14 @@ related:
    4. `30_wiki/cases/`（63 个）
    5. `30_wiki/frameworks/`（45 个）
    6. 其他零散目录（`decisions/`, `systems/`, `entities/`, `_archive/`, `projects/`, `domains/`）
-3. **每处理 50-100 个文件**，跑一次 `kdo lint --scope <目录>`（如支持）或 `kdo lint`（超时则用 `--limit` 或目录过滤）验证 ERROR 下降。
+3. **每处理 50-100 个文件**，跑一次 `kdo lint`（超时则用 `timeout 300 kdo lint` 或目录过滤）验证 ERROR 下降。
 4. **每个文件改完后**用 `kdo pre-submit -f <文件路径>` 或 Python `yaml.safe_load()` 验证 frontmatter 可解析。
 5. **完成后**：
    - 把本任务单 `status` 改为 `pending_review`。
    - 在 `production-queue.md` 中把对应条目状态改为 `pending_review`。
    - 释放队列锁。
+
+> **已预置辅助脚本**：`90_control/scripts/hermes_lint_batch1_repair.py` 已按上述规则实现机械修复。Hermes 可先 `python 90_control/scripts/hermes_lint_batch1_repair.py --dry-run --max 50` 抽查，确认无误后 `python 90_control/scripts/hermes_lint_batch1_repair.py --apply` 全量执行，最后用 `--verify` 校验。脚本**只处理 safe batch 中的 659 个文件**，不会碰 unsafe batch。
 
 ## 验证标准
 

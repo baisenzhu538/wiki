@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-info-literacy-three-layer
 title: 技能：AI输出三层防护检查法
 type: tool
@@ -36,20 +37,15 @@ author: 老顽童
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  lens: 自动化偏差
+- lens: 自动化偏差
   follow_up: 强制条件反射：如果这是初级员工写的，你会怎么审查？AI输出不是知识，是待验证的假设
-- src_unknown
-  lens: 流畅性启发
+- lens: 流畅性启发
   follow_up: 让AI用不确定语气重说，看结论是否变化。丝滑不等于正确
-- src_unknown
-  lens: 引用光环
+- lens: 引用光环
   follow_up: 不管多少引用，先检查第一个是否能找到原文。引用可能是幻觉
-- src_unknown
-  lens: 验证过载
+- lens: 验证过载
   follow_up: 分层：高风险结论全检，低风险结论只检第一层。不是每条都需要三层
-- src_unknown
-  lens: 追溯缺失
+- lens: 追溯缺失
   follow_up: 必须追到原始来源，防止综合后的信息丢失来源。第三层不可跳过
 ---# 技能：AI输出三层防护检查法
 

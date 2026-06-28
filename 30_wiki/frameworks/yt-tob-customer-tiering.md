@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
@@ -41,17 +42,13 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 客户分层（头部/腰部/腿部）
+- framework_lens: 客户分层（头部/腰部/腿部）
   follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？
-- src_unknown
-  framework_lens: 客户分层与单元模型匹配
+- framework_lens: 客户分层与单元模型匹配
   follow_up_question: 三类客户的数量级、需求复杂度、付费特征是否与当前的单元模型和现金流结构匹配？
-- src_unknown
-  framework_lens: 分层后的价值传递
+- framework_lens: 分层后的价值传递
   follow_up_question: 头部/腰部/腿部客户各自的核心诉求是风险、效果还是投入产出比？卖点是否对齐？
-- src_unknown
-  framework_lens: 行业集中度与业务目标交叉判断
+- framework_lens: 行业集中度与业务目标交叉判断
   follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
 
 ---

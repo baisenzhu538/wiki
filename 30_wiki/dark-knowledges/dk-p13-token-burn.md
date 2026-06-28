@@ -1,4 +1,5 @@
 ---
+
 id: dk-p13-token-burn
 title: P-13：长会话 = token黑洞 — 一晚上烧掉80元
 type: dk
@@ -33,7 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-13：长会话 = token黑洞 — 一晚上烧掉80元
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：黄药师从晚上开始跑 Dogfood → Sprint 2 → Sprint 3 → Sprint 4，一个会话跑到上下文爆掉再续第二个会话。共 ~100轮+，DeepSeek 账单 ~80元。单晚消耗超过过去10天总和。
@@ -97,7 +98,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
-|---|---|---|---|
+|
+|---|---|---|
 | 一个会话串多个 Sprint | 同一会话中出现 Dogfood → Sprint 2 → Sprint 3 → Sprint 4 | 每轮都重发前面所有 Sprint 的上下文 | 每完成一个 Sprint 立即 `/new`，通过 `.agent/context.md` 接力 |
 | 忽视缓存 TTL | 账单中缓存未命中占费用 80% | 缓存 5 分钟超时后下一轮全量重新计费 | 控制单会话轮数，或在超时前主动结束会话 |
 | 系统提示过大 | 每轮固定 4k+ tokens 来自 CLAUDE.md | 系统提示文件臃肿，塞进大量非必要内容 | 精简 CLAUDE.md，CLI 速查移出到独立文件 |

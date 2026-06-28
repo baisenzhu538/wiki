@@ -1,6 +1,7 @@
 ---
 
 
+
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
@@ -19,17 +20,13 @@ source_refs:
   - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，已标记为待补充，待后续补充到 10_raw/sources/ 后更新 source_refs）
 diagnostic_signals:
-- src_unknown
-  framework_lens: 惯性开会
+- framework_lens: 惯性开会
   follow_up_question: 这个例会最近一次明确产出了什么？如果没有，可以取消
-- src_unknown
-  framework_lens: 结论模糊
+- framework_lens: 结论模糊
   follow_up_question: 散会后每个人都知道自己要做什么吗？如果有人不清楚，会议失败
-- src_unknown
-  framework_lens: 行动项通货膨胀
+- framework_lens: 行动项通货膨胀
   follow_up_question: 这些行动项在写下的那一刻，owner是否真正承诺过？还是只是"礼貌性点头"？给每个行动项加一个承诺级（L1尽量/L2承诺/L3赌约），2周后看各级完成率
-- src_unknown
-  framework_lens: 权力压制下的伪共识
+- framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
   - src_unknown

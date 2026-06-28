@@ -1,6 +1,7 @@
 ---
 
 
+
 id: ai时代判断力口述-3
 confidence: 0.75
 created_at: 2026-05-25
@@ -30,10 +31,10 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium# AI时代判断力口述（国帅）
-
+---
 > **一句话定位**：AI接管Process（加工推理）后，人的核心竞争力从"会做"变成"会判断"——判断力成为AI时代唯一不可外包的能力。
 
----
+
 
 ## 一、浓缩 (Condense) — 五条核心论点
 

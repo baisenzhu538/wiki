@@ -2,6 +2,7 @@
 
 
 
+
 id: yt-panproduct-demand-user-segmentation
 component_of:
 - src_unknown
@@ -47,14 +48,11 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 有效分层必须导向不同设计决策
+- framework_lens: 有效分层必须导向不同设计决策
   follow_up_question: 这两个群体是否需要不同的功能、信息架构或运营策略？
-- src_unknown
-  framework_lens: 分层的价值在于聚焦，而非无限细分
+- framework_lens: 分层的价值在于聚焦，而非无限细分
   follow_up_question: 如果只能为一个群体优化，你会选哪个？为什么？
-- src_unknown
-  framework_lens: 分层是假设，需要验证
+- framework_lens: 分层是假设，需要验证
   follow_up_question: 你最近一次用什么数据验证了某个分层的存在？
 updated_at: '2026-06-16'
 author: 老顽童

@@ -2,22 +2,19 @@
 
 
 
+
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
   - src_unknown
 diagnostic_signals:
-- src_unknown
-  framework_lens: 穷尽性 / 避免先下结论
+- framework_lens: 穷尽性 / 避免先下结论
   follow_up_question: 是否一上手就'找关键'导致只看见熟悉因素？
-- src_unknown
-  framework_lens: 因果验证 / 杠杆识别
+- framework_lens: 因果验证 / 杠杆识别
   follow_up_question: 权重分配是拍脑袋还是有数据或逻辑支撑？
-- src_unknown
-  framework_lens: 帕累托 / 资源重分配
+- framework_lens: 帕累托 / 资源重分配
   follow_up_question: 是否出现'所有因素都关键'导致目标结果定义过宽？
-- src_unknown
-  framework_lens: 复杂系统 / 边界诚实
+- framework_lens: 复杂系统 / 边界诚实
   follow_up_question: 在复杂适应系统中，移除单因素测试是否仍有效？
 updated_at: '2026-06-16'
 author: unknown

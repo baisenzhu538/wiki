@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-p17-accuracy-gap
 title: 'P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度'
 type: dk
@@ -35,7 +36,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
-
+---
 ## 原始表述/核心洞察
 
 > **症状**：黄药师说"提示词调优后准确率做到了85%"。欧阳锋用 Gold Standard（15条手工标注 chunk）独立验证，实测34.8%（47/135）。差距巨大。黄药师的"85%"只算了管线实际在标的 4 个维度（chunk_type/method_family/audience/perspective），忽略了另外 5 个维度（platform/confidence/prerequisite_knowledge/expiry/usage_depth）全线 `<missing>`。
@@ -99,7 +100,8 @@ diagnostic_signals:
 ## 常见失败模式
 
 | 失败模式 | 典型症状 | 为什么危险 |
-|---|---|---|
+|
+|---|---|
 | 只测能标的维度 | 报"85%"但只算了 4/9 个维度，其余维度全部 `<missing>` | 高准确率掩盖了系统真实覆盖能力缺口 |
 | 缺少 Gold Standard 基线 | 调优前后对比没有独立标准答案，只凭自我感觉 | 无法区分"真正进步"和"测量条件变化" |
 | 缺标维度被排除 | 把 `<missing>` 样本排除在分母外 | 分母缩水，准确率被人为抬高 |

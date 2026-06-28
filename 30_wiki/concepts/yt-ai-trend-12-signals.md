@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 
@@ -46,6 +47,7 @@ related:
 - [[case-ai-time-management-tiered-growth]]
 - [[yt-ai-startup-20-risky-hypotheses]]
 - [[dk-signal-cluster-illusion]]
+---
 # AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]
@@ -61,7 +63,8 @@ related:
 #### 1. 需求（浅绿色背景）
 
 | 变化 | 信号 | 具体预判 | 举例 |
-|:---:|:---|:---|:---|
+|:
+:|:---|:---|:---|
 | 变化1 | 用户成熟 | 出现更多认可并善于使用AI的人群 | 年轻用户熟练使用各类AI模型，大众用户开始接受AI |
 | 变化2 | 场景创新 | 涌现更多基于AI的新场景 | 语音生成PPT/游戏副本、通过口语表达直接创建智能体 |
 

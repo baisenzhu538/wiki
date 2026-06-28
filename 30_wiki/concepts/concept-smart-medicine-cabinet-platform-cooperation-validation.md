@@ -1,6 +1,7 @@
 ---
 
 
+
 id: concept-smart-medicine-cabinet-platform-cooperation-validation
 title: 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东）
 type: concept
@@ -21,12 +22,14 @@ related:
 - [[smart-medicine-cabinet-financial-model]]
 - [[tool-smart-medicine-cabinet-compliance-checklist]]
 - [[smart-medicine-cabinet-o2o-cost-structure]]
+---
 # 智能药柜平台合作命题交叉验证
 
 ## 一、已记录的关键数字（原样保留）
 
 | 命题 | 数字 | 来源录音 |
-|------|------|----------|
+|
+---|------|----------|
 | 美团佣金 | **3 元 + 5%**（“3 加 5 个点”） | 4202631 |
 | 饿了么/淘宝闪购佣金 | **4 元 + 5%**（“4 加 5 个点”） | 4202631 |
 | 美团合同押金 + 月费 | **3 万押金 + 6000 元/月** | 2083979 |

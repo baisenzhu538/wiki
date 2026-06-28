@@ -2,6 +2,7 @@
 
 
 
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: "tool"
@@ -46,14 +47,11 @@ review_date: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-  framework_lens: 结构化AI工作空间——五类知识分层
+- framework_lens: 结构化AI工作空间——五类知识分层
   follow_up_question: 你的项目文档、领域知识、任务上下文、约束文档是否混在同一个目录里？能否按 L1-L5 拆开放置？
-- src_unknown
-  framework_lens: 上下文管理缺失
+- framework_lens: 上下文管理缺失
   follow_up_question: 是否已有一份独立的系统自述 + 领域知识库，能在新任务开始时直接加载给 AI？
-- src_unknown
-  framework_lens: 重新投胎陷阱
+- framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
 
 ---

@@ -44,6 +44,8 @@ related:
 - [[case-xiaolong-ecommerce-foresight]]
 - [[case-truman-yitang-foresight]]
 - [[yt-foresight-addition-subtraction]]
+---
+
 # 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景

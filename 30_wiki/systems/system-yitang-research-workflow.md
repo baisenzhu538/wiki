@@ -1,4 +1,5 @@
 ---
+
 id: system-yitang-research-workflow
 title: 调研工作流：从问题到报告的端到端执行路径
 type: system
@@ -24,8 +25,7 @@ related:
   - src_unknown
   - src_unknown
 diagnostic_signals:
-  - src_unknown
-    framework_lens: 端到端工作流——7步从问题到报告
+  - framework_lens: 端到端工作流——7步从问题到报告
     follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 
@@ -43,6 +44,7 @@ related:
 - [[yt-product-kernel-cultivation]]
 - [[yt-tob-demand-scenarios]]
 - [[yt-product-ten-metrics]]
+---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
@@ -52,7 +54,8 @@ related:
 ### 适用边界
 
 | 边界 | 说明 |
-|:-----|:------|
+|:
+--|:------|
 | ✅ 产品有用户旅程 | 有数据流 |
 | ✅ 能追踪数据 | 有数据基础 |
 | ✅ 知道当前阶段重点 | 不平均用力 |
