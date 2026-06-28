@@ -323,7 +323,7 @@ related:
 |:-------|:-------|:---------|
 | 市场研究 | [[yt-research-user-jtbd|用户 JTBD 调研方法]] | 用 JTBD 穿透噪音，找到真实需求 |
 | 产品管理 | [[yt-demand-early-validation|需求早期验证]] | 验证信号的真实性 |
-| 投资决策 | [[yt-foresight-source-material-blindness|新域素材消化]] | 投资前的信号筛选 |
+| 投资决策 | [[yt-foresight-new-domain-digest|新域素材消化]] | 投资/进入新域前的信号筛选 |
 | 决策科学 | [[framework-decision-cognitive-bias-map|认知偏差地图]] | 识别信号收集中的认知偏差 |
 
 ---
