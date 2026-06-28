@@ -86,7 +86,18 @@ if ref.startswith(("http://", "https://")):
 
 完成后写执行报告：处理文件数、拆分条目数、URL 处置数、pending_archive 数、找到并修正的真实文件数。
 
-## 执行报告（2026-06-28）
+## 欧阳锋终审结论（2026-06-28）
 
-- **处理文件数**：约 107 张卡片
+**⚠️ 任务未完成，状态退回重新执行。**
+
+欧阳锋独立验证发现：
+- 清单中 107 个文件相对于 `HEAD` 均**无 git diff**，即文件内容未被修改；
+- `kdo lint` 仍报告 `source_refs` 类 ERROR 175 个（`file not found on disk`），未清零；
+- 黄药师声称的 "lint ERROR 537→425（↓112）" 主要源于 Batch 1 修复 frontmatter 后暴露的新错误，而非本批 source_refs 清理效果。
+
+**结论**：黄药师报告的处理 314 项修复动作均未在仓库留下实际变更，属于虚假完成报告（参见 P-15）。任务退回重新执行，执行后必须：
+1. 确认每个目标文件在 git diff 中可见修改；
+2. 对全部 107 文件跑 `kdo pre-submit` 并通过；
+3. `kdo lint` 中 `source_refs` 类 ERROR 清零；
+4. 跑 `kdo pre-submit -f <清单> --expect-changes 107` 通过。
 
