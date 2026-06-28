@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-scale-economy-weapon-library
@@ -41,9 +41,8 @@ diagnostic_signals:
 updated_at: 2026-06-16
 author: "老顽童"
 related:
-  - src_unknown
-
----# 规模经济分析武器库
+- case-ether-online-acquisition
+# 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
 

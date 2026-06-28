@@ -5,23 +5,23 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- master
+- kdo
+- ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第27节master系统暗知识精修：P-1/P-2/P-3/P-6/P-14/F-3 共同暴露的状态残留问题
 source_refs: []
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-c6-large-source-overflow]]
+- [[dk-modeling-timely-review-session-window]]
+- [[dk-p1-model-switch-env]]
+- [[dk-p2-tmux-cache]]
+- [[dk-p3-auth-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-p14-zombie]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -42,8 +42,7 @@ diagnostic_signals:
   follow_up_question: 消失前是哪一个缓存/session/token/进程在起作用？
 - signal: src_unknown
   framework_lens: 僵尸/残留累积
-  follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？
----# 状态残留是自动化系统里最隐蔽的 bug
+  follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？# 状态残留是自动化系统里最隐蔽的 bug
 
 ## 原始表述 / 核心洞察
 

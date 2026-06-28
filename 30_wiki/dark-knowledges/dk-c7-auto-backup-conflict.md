@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p14-zombie]]
+- [[dk-p15-unverified]]
+- [[obsidian-git-sync-protocol]]
+- [[EC工业化规范手册]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-knowledge-compound]]
+- [[dk-c8-format-complete-mind-empty]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -37,8 +37,7 @@ diagnostic_signals:
   follow_up_question: 下次拆分 commit 时，是否先 stage 一组立即 commit，再处理下一组？
 - signal: src_unknown
   framework_lens: commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效
-  follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？
----# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
+  follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 
 ## 原始表述 / 核心洞察
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-prompt-brainstorming
@@ -40,13 +40,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# AI 头脑风暴工作流
+- [[yt-prompt-anti-flattery]]
+- [[yt-note-ai-human-division]]
+- [[yt-prompt-iterative-prompting]]
+- [[yt-prompt-writing-workflow]]
+- [[yt-model-prompt-engineering]]
+# AI 头脑风暴工作流
 
 > [[yt-model-prompt-engineering]] 的子工具。写作是 AI 最高频场景（24.5%），但头脑风暴（仅 3.9%）才是 AI 最强的用法。AI 应该用来拔高你的上限，而不是抬高你的下限。
 

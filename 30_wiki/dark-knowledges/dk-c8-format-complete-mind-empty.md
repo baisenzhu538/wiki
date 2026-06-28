@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: 欧阳锋
 source_context: Sprint 6 审查发现，2026-05-13
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-strategy-wuxi-suntech]]
+- [[dk-small-format-error-cascades-to-system-failure]]
+- [[dk-infrastructure-guardrails-over-checklist]]
+- [[modeling-to-kdo-toolchain]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# C-8：批处理格式升级产生格式完整但思维空洞的卡片
+- src_unknown# C-8：批处理格式升级产生格式完整但思维空洞的卡片
 
 ## 原始表述/核心洞察
 

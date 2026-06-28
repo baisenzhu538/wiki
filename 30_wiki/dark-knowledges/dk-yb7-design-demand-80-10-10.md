@@ -6,9 +6,9 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- design
+- yitang
+- business-strategy
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -16,14 +16,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb30-ecommerce-channel-version]]
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[dk-yb10-theory-moat-designer]]
+- [[dk-yb25-solution-driven-visual-design]]
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[dk-yb25-solution-driven-visual-design]]
+- [[dk-yb1-aigc-mvp-before-ps]]
 pipeline:
 - src_unknown
 author: 月白
@@ -36,8 +36,7 @@ diagnostic_signals:
   follow_up_question: 过去一个月的设计需求中，有多少比例是节日海报/朋友圈素材/日常运营物料？这些是否已模板化或AI化？
 - signal: src_unknown
   framework_lens: 人力资源错配——高端人才被低端需求消耗
-  follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？
----# 中国设计需求的80-10-10分层法则
+  follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？# 中国设计需求的80-10-10分层法则
 
 ## 原始表述
 

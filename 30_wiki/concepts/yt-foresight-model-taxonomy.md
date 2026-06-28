@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 
@@ -40,13 +40,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 预判模型分类
+- [[ocr-预判模型]]
+- [[yt-model-prediction-model]]
+- [[yt-panproduct-aesthetic-modeling]]
+- [[case-escort-service-tiered-growth]]
+- [[yt-personal-checklist-notes]]
+# 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]
 

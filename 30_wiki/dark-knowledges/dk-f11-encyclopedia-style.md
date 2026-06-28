@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-011
 source_refs:
@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[tool-strategy-lifecycle]]
+- [[dk-f7-surface-translation]]
+- [[proposal-deep-synthesis-infrastructure]]
+- [[dk-f9-generic-critique]]
+- [[dk-p4-batch-format-empty]]
+- [[master-first-principles]]
+- [[dk-c8-format-complete-mind-empty]]
+- [[kdo-flywheel]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
+- src_unknown# F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 
 ## 原始表述
 

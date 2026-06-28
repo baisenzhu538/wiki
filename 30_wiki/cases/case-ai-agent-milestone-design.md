@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- modeling
+- ai
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 辅助建模案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,23 +22,22 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[master-ai-info-literacy]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[case-ai-assisted-review]]
+- [[case-truman-ai-skill-engineering-guide]]
+- [[tool-ai-skill-engineering-method]]
+- [[framework-course-milestone-model]]
+- [[dk-modeling-unit-pairs-milestone]]
+- [[tool-iterative-recursive-deep-dig]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
+- src_unknown# 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。
 

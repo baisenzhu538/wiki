@@ -5,8 +5,8 @@ title: 迭代到审美上限：一张图的隐形成本远超显示器——Trum
 type: dk
 status: draft
 domain:
-- src_unknown
-- src_unknown
+- product-design
+- yitang
 source_refs:
 - 00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md
 created_at: '2026-06-09'
@@ -16,12 +16,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[tool-月白-Token智甲比控制法]]
+- [[dk-my-ai-landing-three-barriers]]
+- [[dk-jh-llm-time-blindness]]
+- [[dk-ai-judgment-human-responsibility]]
+- [[dk-ai-judgment-programmer-paradox]]
+
 
 # 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -49,13 +49,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 商业预判15字诀
+- [[yt-entrepreneur-product-core]]
+- [[yt-tool-product-core-canvas]]
+- [[yt-entrepreneur-key-hypotheses]]
+- [[yt-concept-p-type-l-type]]
+- [[yt-prompt-engineering-andrew-ng]]
+# 商业预判15字诀
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。主动定中局→充分做加法→专业做减法，将创业成功率从10%提升至30%以上。[[yitang-course-map]] | [[yt-system-course-catalog]]
 >

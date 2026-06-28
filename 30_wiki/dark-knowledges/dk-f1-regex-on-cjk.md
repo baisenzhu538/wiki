@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: reviewed
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-001
 source_refs:
@@ -13,16 +13,16 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-28'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[kdo-ec-industrialization-migration-proposal]]
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[sprint-2-gate-enrich-evidence]]
+- [[dk-f6-cjk-skeleton-corruption]]
+- [[dk-c4-selfcheck-superseded]]
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[dk-f2-txt-ingest-skip]]
+- [[dk-f6-cjk-skeleton-corruption]]
+- [[dk-p11-regex-cutoff]]
+- [[master-ai-info-literacy]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -43,7 +43,6 @@ diagnostic_signals:
   framework_lens: 缺陷会通过“复制代码”传播到任何继承 `\\b` 或英文关键词假设的正则逻辑
   follow_up_question: 审计所有基于 regex 的提取器，把 `\\b` 替换为 CJK-aware 模式或改用分词库，并在中文样本上回归测试
 review_date: '2026-06-28'
----
 
 
 ## 原始表述

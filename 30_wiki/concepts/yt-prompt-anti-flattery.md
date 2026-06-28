@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-prompt-anti-flattery
@@ -43,13 +43,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 反谄媚机制：让 AI 说真话
+- [[yt-prompt-brainstorming]]
+- [[yt-model-prompt-engineering]]
+- [[yt-prompt-iterative-prompting]]
+- [[yt-prompt-writing-workflow]]
+- [[yt-note-ai-human-division]]
+# 反谄媚机制：让 AI 说真话
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 天生迎合使用者——这是预训练中"对人类友好"指令的产物，不是 bug 是 feature。反谄媚是创业者使用 AI 最关键的自我保护机制。
 

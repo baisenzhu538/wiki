@@ -5,17 +5,17 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-9
 source_refs: []
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p8-toolkit-forget]]
+- [[dk-p15-unverified]]
+- [[master-first-principles]]
+- [[master-ai-info-literacy]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -25,8 +25,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
+- src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 
 ## 原始表述 / 核心洞察
 

@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -14,17 +14,17 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-modeling-essence-levels]]
+- [[yt-five-step-level-blindspots]]
+- [[yt-note-five-levels-training]]
+- [[framework-logic-cleanliness-five-levels]]
+- [[yt-model-deep-review-iceberg]]
+- [[dk-modeling-ai-without-judgment]]
+- [[dk-modeling-checklist-formatting-rules]]
+- [[modeling-capability-system]]
+- [[yt-unit-model-ladder]]
+- [[case-truman-ai-skill-engineering-guide]]
+- [[process-modeling]]
 tags:
 - src_unknown
 - src_unknown
@@ -46,8 +46,7 @@ diagnostic_signals:
   follow_up_question: 用"MECE 检查 + 反例攻击"各过一遍，找出 AI 遗漏的 3 个以上场景。
 - signal: src_unknown
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
-  follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。
----# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
+  follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 
 ## 原始表述
 

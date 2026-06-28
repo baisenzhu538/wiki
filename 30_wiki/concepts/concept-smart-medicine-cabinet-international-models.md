@@ -6,8 +6,8 @@ title: 国际自动取药机/药房模式经验与启示
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
@@ -19,12 +19,12 @@ review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 国际自动取药机/药房模式经验与启示
+- [[smart-medicine-cabinet-distribution]]
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[concept-smart-medicine-cabinet-consumer-acceptance]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+# 国际自动取药机/药房模式经验与启示
 
 > **核心定位**：梳理日本、美国、欧洲在自动售药机/自动取药机/药房机器人领域的模式、监管和成败，为中国智能药柜政策设计和商业定位提供他山之石。
 

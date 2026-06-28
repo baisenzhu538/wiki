@@ -5,8 +5,8 @@ title: 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 type: dk
 status: draft
 domain:
-- src_unknown
-- src_unknown
+- ai-saas
+- yitang
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -16,12 +16,12 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[dk-my-ai-landing-three-barriers]]
+- [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[dk-ai-judgment-human-responsibility]]
+- [[dk-jh-llm-time-blindness]]
+- [[dk-yb12-ai-image-analysis-replace-training]]
+
 
 # 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 

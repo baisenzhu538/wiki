@@ -7,8 +7,8 @@ title: 跑步机需求分析：在家健身场景的需求拆解与替代方案�
 type: case
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- product
+- yitang
 source_person: Truman
 source_context: 一堂五步法-需求分析课程案例
 source_refs:
@@ -17,12 +17,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[yt-demand-treadmill-case]]
+- [[yt-five-step-implementation]]
+- [[case-milktea-five-step]]
+- [[case-shampoo-product-kernel]]
+- [[case-demand-silver-parenting]]
+- [[yt-foresight-15-char-mantra]]
 wiki_refs:
 - src_unknown
 pipeline:
@@ -31,8 +31,7 @@ pipeline:
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: high
----# 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
+trust_level: high# 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 
 > 黄药师骨架 · 老顽童填内容
 

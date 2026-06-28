@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- demand-analysis
 id: yt-demand-fake-demand-detection
 title: 伪需求识别：7个危险信号
 type: dk
@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yt-demand-hierarchy-model
+- yt-demand-qualitative-analysis
+- yt-demand-jtbd-application
+- yt-demand-market-size-pitfalls
+- yt-five-step-method
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求
@@ -44,7 +44,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号7——满意度≠使用意愿
   follow_up_question: 用户说满意，但为什么不用？是场景不匹配，还是替代方案更好？
----
 # 伪需求识别：7个危险信号
 
 > 一堂五步法：超过30%甚至50%的项目失败，根源是伪需求。识别伪需求比发现真需求更重要。

@@ -6,8 +6,8 @@ title: 智能药柜选址深度指南：场景、指标与验证方法
 type: tool
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -21,12 +21,12 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-------
+- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[concept-smart-medicine-cabinet-consumer-acceptance]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+---
 
 ## Purpose
 

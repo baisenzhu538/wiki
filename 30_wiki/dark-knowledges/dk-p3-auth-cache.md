@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-3
 source_refs:
@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-p16-validate-reads-state-json]]
+- [[dk-p1-model-switch-env]]
+- [[dk-p5-cc-connect-config]]
+- [[master-systems-thinking]]
+- [[master-first-principles]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
+- src_unknown# P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 
 ## 原始表述/核心洞察
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -47,13 +47,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 产品内核定义、迭代与验证方法论
+- [[yt-tool-product-core-canvas]]
+- [[yt-entrepreneur-key-hypotheses]]
+- [[yt-entrepreneur-industry-forecast]]
+- [[yt-concept-p-type-l-type]]
+- [[yt-prompt-engineering-andrew-ng]]
+# 产品内核定义、迭代与验证方法论
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。产品内核是用户愿意选择你的**最小解决方案**，是商业模式中承上启下的关键环节。通过"定义→验证→迭代"闭环，解决关键转化率问题，支撑业务长期健康发展。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

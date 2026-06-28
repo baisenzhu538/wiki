@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-008
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[graph-rag]]
+- [[dk-tool-chain-naming-is-infrastructure]]
+- [[dk-f11-encyclopedia-style]]
+- [[dk-f9-generic-critique]]
+- [[dk-p4-batch-format-empty]]
+- [[dk-c8-format-complete-mind-empty]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
+- src_unknown# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 
 ## 原始表述/核心洞察
 

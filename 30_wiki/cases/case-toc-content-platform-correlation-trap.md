@@ -6,9 +6,9 @@ title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- content
+- business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -29,16 +29,16 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[case-offline-catering-formula]]
+- [[case-dental-clinic-formula]]
+- [[yt-management-business-formula]]
+- [[case-private-domain-ecommerce-formula]]
+- [[yt-business-formula-abc-model]]
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-qualitative-metrics-library]]
+# ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个月 GMV 800 万、付费用户 3 万的内容付费平台，团队把“流量和转化率正相关”当成因果，加大投放后 ROI 崩盘。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

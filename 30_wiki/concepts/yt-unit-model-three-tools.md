@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 
@@ -45,13 +45,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 单元模型三工具：斧子尺子梯子
+- [[yt-five-step-implementation]]
+- [[yt-scale-economy-weapon-library]]
+- [[yt-product-kernel-cultivation]]
+- [[yt-customer-acquisition-toolkit]]
+- [[ocr-一堂-单元模型-斧子尺子梯子]]
+# 单元模型三工具：斧子尺子梯子
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-growth-cycle-model]] | [[case-toy-cabinet-business-model]]
 

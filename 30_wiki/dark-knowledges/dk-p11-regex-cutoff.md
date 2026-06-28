@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-11
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[dk-f1-regex-on-cjk]]
+- [[dk-small-format-error-cascades-to-system-failure]]
+- [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
+- [[dk-p18-yaml-parser]]
+- [[master-first-principles]]
+- [[kdo-yaml-frontmatter-safety]]
+- [[dk-f1-regex-on-cjk]]
 diagnostic_signals:
 - src_unknown
 - src_unknown
@@ -30,8 +30,7 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: medium
----# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
+trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 
 ## 原始表述
 

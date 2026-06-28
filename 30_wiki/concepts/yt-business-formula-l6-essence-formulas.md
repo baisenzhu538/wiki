@@ -7,9 +7,9 @@ title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang- yitang
+- master
+- business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -27,19 +27,18 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 业务公式 L6 魔法参数：跨行业本质公式集锦
+- [[framework-lean-expert-roadmap]]
+- [[modeling-level-map]]
+- [[framework-demand-lean-bridge]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-business-formula-abc-model]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-business-formula-ten-paradigms]]
+- [[yt-business-formula-business-pattern-selector]]
+- [[yt-business-formula-qualitative-metrics-library]]
+# 业务公式 L6 魔法参数：跨行业本质公式集锦
 
 > 业务公式拆解到 L5 之后，如果继续追问“用户为什么买/为什么留/为什么复购”，就会触及 L6 魔法参数。这些公式不是普通 KPI，而是跨行业可迁移的“本质洞察”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

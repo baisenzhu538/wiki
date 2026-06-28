@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例），2026-06-12
 source_refs:
@@ -17,15 +17,15 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[case-truman-ai-skill-self-packaging]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[master-ai-info-literacy]]
+- [[tool-ai-skill-engineering-guide]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-capability-system]]
+- [[dk-modeling-ai-without-judgment]]
+- [[case-truman-ai-skill-self-packaging]]
 tags:
 - src_unknown
 - src_unknown
@@ -43,8 +43,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
+- src_unknown# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 
 ## 原始表述 / 核心洞察
 

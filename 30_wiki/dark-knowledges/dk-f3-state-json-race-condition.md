@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-003
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-f2-txt-ingest-skip]]
+- [[dk-f5-stale-feedback-ref]]
+- [[dk-f4-wrong-workdir]]
+- [[dk-p16-validate-reads-state-json]]
+- [[dk-c3-txt-ingest-skip]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-systems-thinking]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,8 +30,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
+- src_unknown# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 
 ## 原始表述
 

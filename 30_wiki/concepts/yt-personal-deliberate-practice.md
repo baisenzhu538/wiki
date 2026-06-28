@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -46,13 +46,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 科学成长（刻意练习）
+- [[yt-personal-knowledge-management]]
+- [[yt-personal-verbatim-script]]
+- [[yt-personal-inspiration-flash]]
+- [[yt-personal-ipo-learning]]
+- [[yt-personal-scientific-expression]]
+# 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -6,8 +6,8 @@ title: 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,12 +19,12 @@ review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
+- [[concept-smart-medicine-cabinet-international-models]]
+- [[tool-smart-medicine-cabinet-site-selection-guide]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[concept-smart-medicine-cabinet-consumer-acceptance]]
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+# 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 
 > **核心定位**：从阿里健康、京东健康、美团买药、饿了么、叮当健康、平安好医生六家巨头的公开布局出发，解释为什么它们均未进入“诊所+智能药柜”场景，以及这对中小玩家的启示。
 

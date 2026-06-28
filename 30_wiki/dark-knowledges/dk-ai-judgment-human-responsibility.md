@@ -5,8 +5,8 @@ title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点
 type: dk
 status: draft
 domain:
-- src_unknown
-- src_unknown
+- ai-saas
+- yitang
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -16,12 +16,12 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[tool-纪浩-处理AI生成代码运行异常]]
+- [[dk-my-ai-landing-three-barriers]]
+- [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[dk-ai-judgment-programmer-paradox]]
+- [[dk-jh-llm-time-blindness]]
+
 
 # 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 

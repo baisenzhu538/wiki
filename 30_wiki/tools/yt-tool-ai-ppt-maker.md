@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- design
 
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
@@ -16,11 +16,11 @@ confidence: 0.78
 prerequisites: null
 component_of: null
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yt-pitch-storytelling
+- yt-pitch-quantification
+- yt-tool-meeting-designer
+- yt-tool-strategy-workshop
+- yt-management-scientific-meetings
 contradicts: null
 query_triggers:
   - src_unknown
@@ -50,7 +50,6 @@ diagnostic_signals:
     follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
 
----
 
 # AI对话式PPT生成器：把排版变成说话
 

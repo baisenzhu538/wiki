@@ -6,24 +6,24 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- ai-saas
+- business-strategy
 source_person: 老朱
 source_context: YC口述/AI时代组织与代码价值判断
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[structured-ai-workspace]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[dk-lz-ai-native-organization]]
+- [[dk-yb9-cubox-deployment-failure]]
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-lz-ai-native-organization]]
+- [[concept-纪浩-ai-collaboration-five-layer]]
+- [[dk-jh-llm-time-blindness]]
+- [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[dk-my-ai-landing-three-barriers]]
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: unknown
@@ -32,8 +32,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
+- src_unknown# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 
 ## 原始表述 / 核心洞察
 

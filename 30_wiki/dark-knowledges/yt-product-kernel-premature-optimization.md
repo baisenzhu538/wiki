@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- product
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
 type: dk
@@ -18,12 +18,12 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yt-product-kernel-definition
+- yt-product-kernel-validation
+- yt-product-kernel-iteration
+- yt-demand-early-validation
+- yt-five-step-method
+- yt-entrepreneur-key-hypotheses
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 过早细化——在验证前投入大量资源完善产品
@@ -40,7 +40,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 过早细化——在错误的时间关注错误的事情
   follow_up_question: 核心流程是否已验证？如果核心流程不成立，UI细节还有意义吗？
----
 # 过早细化陷阱：在验证前追求完美
 
 ## 原始表述

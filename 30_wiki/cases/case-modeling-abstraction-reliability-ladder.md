@@ -6,9 +6,9 @@ title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"�
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- master
+- modeling
 source_refs:
 - src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -23,16 +23,16 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
+- [[yt-five-step-level-blindspots]]
+- [[case-modeling-essence-levels]]
+- [[framework-logic-cleanliness-five-levels]]
+- [[model-quality-four-levels]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[modeling-three-stages]]
+- [[modeling-level-map]]
+- [[case-modeling-abstraction-yitang-models]]
+- [[dk-modeling-counterexample-driven]]
+# 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
 

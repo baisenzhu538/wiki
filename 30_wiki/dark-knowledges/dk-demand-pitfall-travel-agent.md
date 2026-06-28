@@ -12,13 +12,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[dk-demand-pitfall-indonesia-insurance]]
+- [[dk-demand-pitfall-dialer]]
+- [[dk-demand-pitfall-financial-literacy]]
+- [[dk-strategy-05-positioning-trap]]
+- [[dk-demand-pitfall-rural-5g]]
+- [[case-demand-travel-agent]]
+
 # 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 
 ## 原始表述

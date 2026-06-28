@@ -7,8 +7,8 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
 created_at: '2026-06-14'
@@ -25,14 +25,13 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
+- [[modeling-capability-for-kdo]]
+- [[modeling-three-stages]]
+- [[dk-modeling-expert-consensus-five-percent]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
 
 ## 原始表述/核心洞察

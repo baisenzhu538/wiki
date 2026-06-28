@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-004
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[knowledge-delivery-os-快速体验指南-飞书云文档]]
+- [[dk-f3-state-json-race-condition]]
+- [[modeling-capability-for-kdo]]
+- [[proposal-kdo-flywheel-infrastructure]]
+- [[workflow-knowledge-collision]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,8 +31,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
+- src_unknown# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 
 ## 原始表述/核心洞察
 

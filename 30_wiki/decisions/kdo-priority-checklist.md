@@ -2,7 +2,7 @@
 title: KDO Protocol Priority Checklist
 type: improvement-plan
 domain:
-- src_unknown
+- kdo
 status: draft
 id: kdo-priority-checklist
 created_at: '2026-05-03'
@@ -17,7 +17,6 @@ source_refs:
 - src_unknown
 reviewed_by: pending
 confidence: 0.6
----
 # KDO Protocol Priority Checklist
 
 ## P0 — 本周必须做（Blocking）

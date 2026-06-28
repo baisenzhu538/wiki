@@ -9,24 +9,23 @@ source_refs: []
 status: draft
 type: analysis
 domain:
-- src_unknown
-- src_unknown
+- ai
+- yitang
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[master-ai-info-literacy]]
+- [[dk-modeling-ai-without-judgment]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[yt-note-ai-human-division]]
+- [[yt-note-checklist-concept]]
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 title: truman ai partner design analysis
-updated_at: '2026-06-16'
----# Truman AI Partner（阿蕊老师）设计反推
+updated_at: '2026-06-16'# Truman AI Partner（阿蕊老师）设计反推
 
 ## 摘要
 

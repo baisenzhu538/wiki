@@ -4,10 +4,10 @@ title: 技能：AI落地场景四要素评估法
 type: tool
 status: draft
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- ai-collaboration
+- yitang- AI
+- 落地
+- 评估
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
@@ -33,7 +33,6 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
----
 # 技能：AI落地场景四要素评估法
 
 > **来源**：马易（AI俱乐部-AI落地场景识别-口述）

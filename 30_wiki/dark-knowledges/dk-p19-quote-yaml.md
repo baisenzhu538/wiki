@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-19
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[kdo-yaml-frontmatter-safety]]
+- [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
+- [[dk-p18-yaml-parser]]
+- [[proposal-yaml-frontmatter-standardization]]
+- [[dk-f13-handwritten-yaml-parser]]
+- [[dk-p18-yaml-parser]]
+- [[kdo-yaml-frontmatter-safety]]
+- [[master-first-principles]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -40,8 +40,7 @@ diagnostic_signals:
 tags:
 - src_unknown
 - src_unknown
-- src_unknown
----# P-19：花引号被YAML误解析为字符串定界符
+- src_unknown# P-19：花引号被YAML误解析为字符串定界符
 
 ## 原始表述 / 核心洞察
 

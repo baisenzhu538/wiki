@@ -2,7 +2,7 @@
 id: obsidian-kdo-内容产出工作流-产品设计大纲
 created_at: 2026-05-01
 domain:
-- src_unknown
+- ai-saas
 source_refs:
 - 10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md
 status: superseded
@@ -16,7 +16,6 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲
 
 ## Summary

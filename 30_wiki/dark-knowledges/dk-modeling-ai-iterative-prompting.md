@@ -14,8 +14,8 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-collaboration
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
 created_at: '2026-06-14'
@@ -26,16 +26,15 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[modeling-capability-for-kdo]]
+- [[case-truman-ai-skill-engineering-guide]]
+- [[tool-ai-skill-engineering-method]]
+- [[dk-modeling-ai-self-retrospection]]
+- [[dk-modeling-ai-without-judgment]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
 
 ## 原始表述 / 核心洞察

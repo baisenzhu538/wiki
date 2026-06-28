@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-1
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-p14-zombie]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-p5-cc-connect-config]]
+- [[master-systems-thinking]]
+- [[master-first-principles]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-1：切模型改环境变量无效——Claude Code 走全局设置
+- src_unknown# P-1：切模型改环境变量无效——Claude Code 走全局设置
 
 ## 原始表述/核心洞察
 

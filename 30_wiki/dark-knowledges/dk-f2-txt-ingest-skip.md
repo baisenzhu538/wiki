@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: reviewed
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-002
 source_refs:
@@ -13,15 +13,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-28'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[存储策略]]
+- [[dk-f6-cjk-skeleton-corruption]]
+- [[dk-f3-state-json-race-condition]]
+- [[dk-p16-validate-reads-state-json]]
+- [[dk-c3-txt-ingest-skip]]
+- [[dk-c3-txt-ingest-skip]]
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[dk-f1-regex-on-cjk]]
+- [[master-ai-info-literacy]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,7 +31,6 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 review_date: '2026-06-28'
----
 
 
 ## 原始表述

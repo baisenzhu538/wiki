@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-prompt-writing-workflow
@@ -40,13 +40,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# AI 写作工作流：大纲→要点→全文
+- [[yt-prompt-anti-flattery]]
+- [[yt-prompt-brainstorming]]
+- [[yt-note-ai-human-division]]
+- [[yt-prompt-iterative-prompting]]
+- [[yt-model-prompt-engineering]]
+# AI 写作工作流：大纲→要点→全文
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 写作最高频（24.5%），但也是最容易出"看起来完整、实际上空洞"的垃圾的地方。正确的流程从大纲开始——大纲有杠杆效应。
 

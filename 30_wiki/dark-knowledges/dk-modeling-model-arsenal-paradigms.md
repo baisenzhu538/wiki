@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -24,14 +24,14 @@ diagnostic_signals:
   - src_unknown
   - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-truman-knowledge-extraction-three-schools]]
+- [[case-yitang-model-asset-inventory]]
+- [[case-modeling-abstraction-yitang-models]]
+- [[dk-modeling-business-visual-logic-match]]
+- [[dk-modeling-business-visual-logic-match]]
+- [[modeling-weapon-library]]
+- [[modeling-level-map]]
 tags:
 - src_unknown
 - src_unknown
@@ -40,8 +40,7 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-18'
----# 99% 的模型跑不出二三十个范式：先装武器库再创新
+updated_at: '2026-06-18'# 99% 的模型跑不出二三十个范式：先装武器库再创新
 
 ## 原始表述/核心洞察
 

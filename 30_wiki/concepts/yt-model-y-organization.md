@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -39,13 +39,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# Y 型创业模型 (Y Model for Startups)
+- [[yt-entrepreneur-liberate-thinking]]
+- [[yt-personal-y-model-practice]]
+- [[yt-model-progress-map]]
+- [[ocr-一堂-个人修炼-y模型]]
+- [[yt-entrepreneur-truth-seeking]]
+# Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
 

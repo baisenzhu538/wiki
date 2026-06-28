@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,15 +16,15 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-course-rnd-ripe-fruit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-modeling-question-scaffold-not-answer]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[dk-modeling-timely-review-session-window]]
+- [[dk-modeling-sop-execution-locks]]
+- [[tool-sop-template-modeling]]
+- [[modeling-three-stages]]
+- [[dk-modeling-course-rnd-ripe-fruit]]
 tags:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-17'
----# 里程碑不是任务清单，是“成对单元模型”拼出来的
+updated_at: '2026-06-17'# 里程碑不是任务清单，是“成对单元模型”拼出来的
 
 ## diagnostic_signals
 

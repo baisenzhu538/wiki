@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -44,13 +44,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 融资认知
+- [[yt-entrepreneur-concentration-analysis]]
+- [[yt-entrepreneur-growth-flywheel]]
+- [[yt-entrepreneur-industrial-production]]
+- [[yt-entrepreneur-pragmatic-startup]]
+- [[yt-entrepreneur-truth-seeking]]
+# 融资认知
 
 > 来源：一堂课程体系 | 阶段：增长阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

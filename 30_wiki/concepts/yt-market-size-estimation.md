@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- yitang
 id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
@@ -21,15 +21,15 @@ source_refs:
 - src_unknown
 status: reviewed
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-demand-analysis-hiking-map]]
+- [[yt-five-step-common-pitfalls]]
+- [[yt-demand-quantitative-estimation]]
+- [[yt-demand-market-size-pitfalls]]
+- [[tool-demand-report-template]]
+- [[framework-demand-iceberg]]
+- [[tool-demand-assessment-triangle]]
+- [[framework-demand-opportunity-spectrum]]
+- [[framework-strategy-brm]]
 title: 市场规模估算四种方法
 trust_level: medium
 type: tool
@@ -50,8 +50,7 @@ diagnostic_signals:
   framework_lens: 混淆TAM/SAM/SOM
   follow_up_question: TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆
 updated_at: 2026-06-13
-author: 老顽童
----# 市场规模估算四种方法
+author: 老顽童# 市场规模估算四种方法
 
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]
 

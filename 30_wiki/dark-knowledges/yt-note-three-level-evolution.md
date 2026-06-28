@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- learning-methodology
 id: yt-note-three-level-evolution
 title: 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 type: dk
@@ -16,12 +16,12 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
----
+- [[yt-note-l4-internalization]]
+- [[yt-management-team-knowledge]]
+- [[yt-note-ai-p-role-not-c-role]]
+- [[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]
+- [[dk-note-rookie-disaster-veteran-heaven]]
+
 
 # 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 

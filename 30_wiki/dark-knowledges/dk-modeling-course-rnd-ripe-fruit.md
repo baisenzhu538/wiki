@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -14,16 +14,16 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-modeling-abstraction-reliability-ladder]]
+- [[dk-modeling-timely-review-session-window]]
+- [[dk-modeling-unit-pairs-milestone]]
+- [[framework-logic-cleanliness-five-levels]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[dk-modeling-counterexample-driven]]
+- [[framework-course-milestone-model]]
+- [[case-yitang-weekly-modeling-engine]]
+- [[dk-modeling-unit-pairs-milestone]]
+- [[dk-modeling-timely-review-session-window]]
 tags:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
----# 研究型课程无法提前排课表：只能等菜熟了再摘
+updated_at: '2026-06-16'# 研究型课程无法提前排课表：只能等菜熟了再摘
 
 ## 原始表述
 

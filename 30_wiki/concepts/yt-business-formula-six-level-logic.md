@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系（L1 模糊 → L6 动态）
@@ -19,15 +19,14 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yt-management-business-formula
+- yt-business-formula-abc-model
+- yt-business-formula-parameter-iceberg
+- yt-business-formula-business-pattern-selector
+- yt-business-formula-qualitative-metrics-library
+- yt-decision-depth-ladder
+- yt-model-deep-review-iceberg
 
----
 
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 

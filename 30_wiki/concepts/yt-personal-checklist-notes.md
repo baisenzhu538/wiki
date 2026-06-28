@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -51,13 +51,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 清单体笔记（一堂笔记法）
+- [[yt-note-five-levels-training]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[yt-personal-time-management]]
+- [[yt-personal-verbatim-script]]
+- [[yt-personal-inspiration-flash]]
+# 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

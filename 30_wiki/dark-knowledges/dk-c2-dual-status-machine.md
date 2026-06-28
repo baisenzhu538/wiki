@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -14,15 +14,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[kdo-ec-industrialization-migration-proposal]]
+- [[kdo-protocol-implementation-roadmap]]
+- [[plan_20260503_f3e9a2b1-improvement-plan]]
+- [[dk-f10-broken-source-refs]]
+- [[dk-c4-selfcheck-superseded]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[dk-p18-yaml-parser]]
+- [[kdo-yaml-frontmatter-safety]]
+- [[master-systems-thinking]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -42,8 +42,7 @@ diagnostic_signals:
   follow_up_question: 重新审视系统中是否真的只有一个状态机；若存在两条流水线，必须拆分字段名或在 schema 中显式保留双枚举并注明适用范围
 - signal: src_unknown
   framework_lens: 外部集成未被告知 `status` 字段的双重语义，按单一枚举解析必然报错
-  follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）
----# C-2：Schema status 字段混用两个状态机→字段值互相污染
+  follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）# C-2：Schema status 字段混用两个状态机→字段值互相污染
 
 ## 原始表述
 

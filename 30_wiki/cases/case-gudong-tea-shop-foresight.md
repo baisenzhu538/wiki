@@ -6,7 +6,7 @@ id: case-gudong-tea-shop-foresight
 title: 古董奶茶店：五层筛选的加法减法实战
 type: case
 domain:
-- src_unknown
+- yitang
 source_refs:
 - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -39,12 +39,12 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 古董奶茶店：五层筛选的加法减法实战
+- [[tool-按分阶练习路径渐进掌握方法]]
+- [[ocr-泛产品设计-落地卡片-假设拆解]]
+- [[case-xiaolong-ecommerce-foresight]]
+- [[case-truman-yitang-foresight]]
+- [[yt-foresight-addition-subtraction]]
+# 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景
 

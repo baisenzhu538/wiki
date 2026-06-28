@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- master
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 source_refs:
@@ -17,19 +17,19 @@ updated_at: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-modeling-abstraction-reliability-ladder]]
+- [[case-course-milestone-model]]
+- [[dk-modeling-expert-consensus-five-percent]]
+- [[case-thousand-people-square]]
+- [[concept-thousand-people-square]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-three-stages]]
+- [[modeling-capability-system]]
+- [[modeling-level-map]]
+- [[dk-modeling-expert-consensus-five-percent]]
+- [[case-modeling-essence-schools]]
+- [[dk-modeling-ai-without-judgment]]
+- [[yt-five-step-method]]
 tags:
 - src_unknown
 - src_unknown
@@ -37,8 +37,7 @@ tags:
 - src_unknown
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
-author: 老顽童
----# 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+author: 老顽童# 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 
 ## 原始表述
 

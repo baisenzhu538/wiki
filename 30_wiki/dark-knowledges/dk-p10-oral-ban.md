@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: 欧阳锋
 source_context: pitfalls.md P-10，老顽童 Batch 2+3 审查，2026-06-03
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-skill-market-agent-self-install]]
+- [[ai-native-im-multi-agent]]
+- [[case-truman-ai-partner]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-p15-unverified]]
+- [[dk-p15-unverified]]
+- [[dk-f9-generic-critique]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
+- src_unknown# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 
 ## 原始表述/核心洞察
 

@@ -2,7 +2,7 @@
 
 type: dk
 domain:
-- src_unknown
+- product
 id: dk-p15-unverified
 author: unknown
 reviewed_by: pending
@@ -15,12 +15,12 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
+- [[ai-short-drama-script-planning-three-axes]]
+- [[dk-p10-oral-ban]]
+- [[dk-c7-auto-backup-conflict]]
+- [[dk-yb25-solution-driven-visual-design]]
+- [[dk-p17-accuracy-gap]]
+# P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 
 ## 原始表述
 

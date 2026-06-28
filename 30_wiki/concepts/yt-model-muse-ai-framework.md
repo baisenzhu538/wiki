@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -39,13 +39,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[master-ai-info-literacy]]
+- [[yt-personal-ai-capability]]
+# MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
 > 来源：一堂《人工智能全景图·MUSE 模型》V3.0（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]
 

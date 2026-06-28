@@ -7,9 +7,9 @@ title: 业务公式定性参数行为化指标库
 type: framework
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang- yitang
+- master
+- business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -27,22 +27,21 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 业务公式定性参数行为化指标库
+- [[yt-business-formula-l6-essence-formulas]]
+- [[case-saas-renewal-formula]]
+- [[dk-strategy-correlation-vs-causation-leverage]]
+- [[yt-tool-business-formula-metrics-checklist]]
+- [[yt-business-formula-abc-model]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-business-formula-business-pattern-selector]]
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[case-private-domain-ecommerce-formula]]
+- [[case-saas-renewal-formula]]
+- [[case-dental-clinic-formula]]
+- [[case-offline-catering-formula]]
+- [[case-gym-membership-formula]]
+# 业务公式定性参数行为化指标库
 
 > 业务公式拆到 L3-L4 时，会出现大量定性参数（如信任度、满意度、使用深度）。这些参数如果停留在“我觉得很高”，就只是主观判断。必须把它们拆成**可定量的行为指标**，才能提出可验证的假设。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

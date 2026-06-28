@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-20
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-small-format-error-cascades-to-system-failure]]
+- [[dk-f4-wrong-workdir]]
+- [[dk-infrastructure-guardrails-over-checklist]]
+- [[dk-c8-format-complete-mind-empty]]
+- [[modeling-to-kdo-toolchain]]
+- [[dk-c8-format-complete-mind-empty]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
+- src_unknown# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 
 ## 原始表述/核心洞察
 

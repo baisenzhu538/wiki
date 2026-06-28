@@ -7,9 +7,9 @@ title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- healthcare- healthcare
+- pharmaceutical-retail
+- risk-warning
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -25,17 +25,17 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-regional-policy-map]]
+- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+- [[master-cognitive-bias-checklist]]
+- [[master-decision-hygiene]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-financial-model]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -43,8 +43,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 difficulty: intermediate
-
----# 智能药柜/智慧药房招商骗局识别清单
+# 智能药柜/智慧药房招商骗局识别清单
 
 > **核心定位**：智能药柜/智慧药房招商领域存在典型骗局模式。本卡以"修正未来智慧药房"等案例为镜鉴，提供招商合作前的风险识别 checklist。
 

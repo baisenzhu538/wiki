@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12
 source_refs:
@@ -17,19 +17,19 @@ updated_at: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-modeling-ai-iterative-prompting]]
+- [[case-ai-assisted-review]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-capability-system]]
+- [[modeling-three-stages]]
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-iterative-prompting]]
+- [[case-truman-ai-skill-engineering-guide]]
+- [[case-truman-personal-growth-map-creation]]
 tags:
 - src_unknown
 - src_unknown
@@ -38,8 +38,7 @@ tags:
 - src_unknown
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
-author: 老顽童
----# AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
+author: 老顽童# AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
 
 ## 原始表述
 

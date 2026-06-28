@@ -6,10 +6,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- lean-startup
+- tob
+- modeling
 source_person: 张磊 / Truman / 徐剑
 source_context: 精益方法论培训、关键假设课、ToB五步法、建模训练
 source_refs:
@@ -17,16 +17,16 @@ source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-fundamentals-before-advanced-ops]]
+- [[dk-infrastructure-guardrails-over-checklist]]
+- [[dk-modeling-question-scaffold-not-answer]]
+- [[tool-scenario-selector-modeling]]
+- [[dk-tool-as-phased-validator]]
+- [[yt-lean-assumption-prioritization]]
+- [[yt-tob-product-kernel]]
+- [[tool-checklist-cheatsheet-modeling]]
+- [[dk-tool-as-phased-validator]]
+- [[dk-modeling-radar-model-not-result]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -45,8 +45,7 @@ diagnostic_signals:
   follow_up_question: 过去一周，这个框架有没有帮你提出一个你原本不会提的问题？
 - signal: src_unknown
   framework_lens: 答案压迫提问
-  follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？
----# 把工具/框架当成答案，而不是提问的脚手架
+  follow_up_question: 如果模型预测错误，最可能哪个输入假设不成立？你有没有单独验证过它？# 把工具/框架当成答案，而不是提问的脚手架
 
 ## 原始表述 / 核心洞察
 

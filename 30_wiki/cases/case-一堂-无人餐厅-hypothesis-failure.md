@@ -7,8 +7,8 @@ title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- business-strategy
 source_person: 一堂·Truman
 source_context: 一堂关键假设课，京东天津无人餐厅案例
 source_refs:
@@ -17,16 +17,16 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-truman-poker-deck-roi]]
+- [[yt-entrepreneur-259-milestone]]
+- [[truman-perspective-skill]]
+- [[concept-一堂-key-assumptions]]
+- [[concept-一堂-hypothesis-driven-business-methodology]]
+- [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+- [[concept-一堂-hypothesis-driven-business-methodology]]
+- [[dk-yi-tang-wishful-thinking-kills-startups]]
+- [[concept-一堂-key-assumptions]]
+- [[yt-lean-assumption-verification-3means]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -44,8 +44,7 @@ pipeline:
 author: 老顽童
 reviewed_by: 黄药师
 confidence: 0.75
-trust_level: medium
----# 案例：一堂无人餐厅项目因忽视关键假设而失败
+trust_level: medium# 案例：一堂无人餐厅项目因忽视关键假设而失败
 
 ## 原始表述
 

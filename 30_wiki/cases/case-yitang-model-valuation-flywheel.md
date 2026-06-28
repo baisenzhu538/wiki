@@ -36,16 +36,16 @@ reviewed_by: 王语嫣
 confidence: 0.8
 trust_level: medium
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- 组织激励
+- 模型质量管理
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[tool-strategy-market-opportunity-matrix]]
+- [[dk-yb7-design-demand-80-10-10]]
+- [[yt-management-scientific-decision]]
+- [[dk-yb25-solution-driven-visual-design]]
+# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述
 

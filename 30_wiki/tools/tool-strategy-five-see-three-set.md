@@ -12,7 +12,7 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
+- strategy
 source_refs:
 - src_unknown
   - src_unknown
@@ -21,7 +21,6 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
 
 # 华为五看三定
 

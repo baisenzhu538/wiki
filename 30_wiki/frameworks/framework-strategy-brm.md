@@ -12,7 +12,7 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
+- strategy
 source_refs:
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 - src_unknown
@@ -27,7 +27,6 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 

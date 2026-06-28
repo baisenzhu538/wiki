@@ -8,9 +8,9 @@ source_refs:
 - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- modeling
+- education
 source_person: Truman
 source_context: 一堂高阶建模能力培训（一堂公司本质定位） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -22,22 +22,21 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-personal-map-modeling]]
+- [[case-modeling-essence-schools]]
+- [[case-yitang-radar-chart-selection]]
+- [[case-child-drawing-rhyme]]
+- [[case-essence-entrepreneurship]]
+- [[case-course-milestone-model]]
+- [[dk-weekly-modeling-iteration-growth-engine]]
+- [[concept-thousand-people-square]]
+- [[yt-model-liberate-thinking-layers]]
+- [[dk-modeling-course-rnd-ripe-fruit]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
+- src_unknown# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。
 

@@ -7,9 +7,9 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- education
+- modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（方法论科学建模过程），单一 source 为完整长文档，内容充分支撑 high trust；待补充第二来源或充分验证后可升回
   high
@@ -21,19 +21,18 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[framework-course-milestone-model]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[case-thousand-people-square]]
+- [[sk-ai-question-problem-checklist]]
+- [[concept-thousand-people-square]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-three-stages]]
+- [[dk-modeling-counterexample-driven]]
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
 
 ## 原始表述 / 核心洞察

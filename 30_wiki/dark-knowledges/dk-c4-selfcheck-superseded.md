@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-f1-regex-on-cjk]]
+- [[sprint-2-gate-enrich-evidence]]
+- [[dk-c2-dual-status-machine]]
+- [[plan_20260503_f3e9a2b1-improvement-plan]]
+- [[sprint-2-门禁举证验收]]
+- [[dk-c5-todo-false-positive]]
+- [[dk-c2-dual-status-machine]]
+- [[master-cognitive-bias-checklist]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,8 +38,7 @@ diagnostic_signals:
   follow_up_question: 梳理所有读取 status 做过滤/跳过的函数，统一 skip 集合或抽取公共常量；为新增 status 建立同步 checklist
 - signal: src_unknown
   framework_lens: 新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因
-  follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合
----# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
+  follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 
 ## 原始表述
 

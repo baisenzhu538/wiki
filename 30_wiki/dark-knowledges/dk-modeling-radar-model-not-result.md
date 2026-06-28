@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,15 +16,15 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-strategy-revival-14-gucci]]
+- [[ocr-一堂-科学决策-宽度-企业]]
+- [[yt-management-scientific-meetings]]
+- [[case-yitang-radar-chart-selection]]
+- [[tool-yitang-executive-speech-analysis]]
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-expert-consensus-five-percent]]
+- [[tool-radar-chart-modeling]]
+- [[dk-modeling-sop-execution-locks]]
 tags:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
-updated_at: '2026-06-18'
----# 复杂评选别让 CEO 拍结果，只让 CEO 审模型
+updated_at: '2026-06-18'# 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 
 ## 原始表述
 

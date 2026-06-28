@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -39,13 +39,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 解放思想五层模型
+- [[yt-entrepreneur-liberate-thinking]]
+- [[yt-model-deep-review-iceberg]]
+- [[yt-entrepreneur-research-camp]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[case-modeling-essence-levels]]
+# 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
 

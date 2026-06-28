@@ -5,7 +5,7 @@ title: 暗知识：素材命名不一致导致完整口述稿被遗漏
 type: dk
 dark_knowledge_type: process-failure
 domain:
-- src_unknown
+- yitang
 source_refs:
 - 10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md
 - 10_raw/sources/src_20260619_ad98829e_60_feedback_corrections_corr_20260611_hongqigong_机会预判域_OCR流程盲区.md
@@ -34,12 +34,12 @@ author: 欧阳锋
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[dk-f10-broken-source-refs]]
+- [[dk-f2-txt-ingest-skip]]
+- [[tool-yitang-public-sentiment-research]]
+- [[dk-c3-txt-ingest-skip]]
+- [[tool-yitang-supply-chain-research]]
+
 # 暗知识：素材命名不一致导致完整口述稿被遗漏
 
 ## 原始表述

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-14
 source_refs:
@@ -13,15 +13,15 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-c7-auto-backup-conflict]]
+- [[dk-p1-model-switch-env]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[obsidian-git-sync-protocol]]
+- [[master-systems-thinking]]
+- [[master-decision-hygiene]]
+- [[dk-p13-token-burn]]
+- [[dk-p6-session-resume-fail]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,8 +31,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
+- src_unknown# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 
 ## 原始表述/核心洞察
 

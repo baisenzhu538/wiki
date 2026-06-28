@@ -8,7 +8,7 @@ created_at: '2026-05-04'
 updated_at: '2026-06-16'
 status: stable
 domain:
-- src_unknown
+- kdo
 implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
@@ -22,12 +22,12 @@ confidence: 0.7
 trust_level: medium
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# Graph RAG 检索层技术说明
+- [[agent-ecosystem-design]]
+- [[sprint-6-cli-gap-proposal]]
+- [[proposal-graph-rag-star-fix]]
+- [[graph-rag]]
+- [[kdo-watch-health-check-layer]]
+# Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**
 > 黄药师于 2026-05-04 完成 MVP，全链路跑通，零 LLM 调用。

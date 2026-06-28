@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -40,13 +40,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# IPO 科学学习完整清单 (Complete List)
+- [[ocr-一堂-个人修炼-科学学习ipo完整清单]]
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-entrepreneur-research-camp]]
+- [[yt-personal-ipo-learning]]
+- [[ocr-一堂-个人修炼-科学学习ipo-全景策略]]
+# IPO 科学学习完整清单 (Complete List)
 
 > 来源：一堂《科学学习 IPO·完整清单》。[[一堂]] | [[yt-model-ipo-learning-strategy]] | [[yt-personal-ipo-learning]]
 

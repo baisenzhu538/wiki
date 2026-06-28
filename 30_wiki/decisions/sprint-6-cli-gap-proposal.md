@@ -5,7 +5,7 @@ title: Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 
 type: improvement-plan
 status: draft
 domain:
-- src_unknown
+- master
 created_at: 2026-06-03
 updated_at: '2026-06-16'
 target_roles:
@@ -16,16 +16,15 @@ source_context: KDO infrastructure decision — internal design record （原 le
 source_refs: []
 reviewer: 欧阳锋
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-p13-token-burn]]
+- [[dk-p16-validate-reads-state-json]]
+- [[sprint-2-gate-enrich-evidence]]
+- [[dk-f3-state-json-race-condition]]
+- [[proposal-kdo-flywheel-infrastructure]]
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----# Sprint 6 CLI 缺口修复提案
+trust_level: low# Sprint 6 CLI 缺口修复提案
 
 > **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。
 > **目标**：用最小的工程代价覆盖最高频的摩擦点。

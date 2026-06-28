@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-yb19-visual-strategy-price-match]]
+- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+- [[dk-yb17-product-lifestyle-photography]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb18-small-shop-image-mismatch]]
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ diagnostic_signals:
   follow_up_question: 各平台销售的产品在材质、配件、包装或售后条款上是否存在未标注的差异？
 - signal: src_unknown
   framework_lens: 技术版本命名与渠道版本命名未做隔离，易引发库存、客服与合规混乱
-  follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？
----# 电商渠道专版区分：淘宝≠拼多多
+  follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？# 电商渠道专版区分：淘宝≠拼多多
 
 ## 原始表述 / 核心洞察
 

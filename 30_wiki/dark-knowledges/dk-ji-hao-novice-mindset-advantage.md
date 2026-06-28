@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-ji-hao-ai-cant-design-structure]]
+- [[dk-ban-fei-mao-silky-answer-warning]]
+- [[case-ji-hao-ui-design-constraint-evolution]]
+- [[case-ji-hao-ai-workspace-chaos]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,7 +39,6 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 保护期阈值
   follow_up_question: 我是否已经把任务拆到足够小，并允许每天只比昨天好一点？
----
 # 暗知识：新手心态的五个保护期
 
 ## 原始表述

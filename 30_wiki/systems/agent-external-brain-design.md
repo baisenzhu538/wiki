@@ -5,7 +5,7 @@ title: Agent 外挂大脑设计
 type: system
 status: enriched
 domain:
-- src_unknown
+- master
 id: agent-external-brain-design
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
@@ -17,12 +17,12 @@ confidence: 0.75
 trust_level: medium-low
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# Agent 外挂大脑设计
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-p13-token-burn]]
+- [[tool-demand-agent-case-match]]
+- [[dk-c6-large-source-overflow]]
+- [[dk-p8-toolkit-forget]]
+# Agent 外挂大脑设计
 
 > **一句话**：在项目根目录下扔三个 Markdown 文件，agent 失忆问题解决 80%。
 

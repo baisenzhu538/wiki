@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- master
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
@@ -32,21 +32,21 @@ diagnostic_signals:
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-explanatory-vs-predictive-essence]]
+- [[case-essence-humanity-trap]]
+- [[truman-perspective-skill]]
+- [[case-essence-education-strategy]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-three-stages]]
+- [[modeling-capability-system]]
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-explanatory-vs-predictive-essence]]
+- [[case-modeling-essence-levels]]
+- [[case-modeling-essence-schools]]
+- [[case-essence-education-strategy]]
+- [[tool-essence-nfactor-modeling]]
+- [[yt-five-step-method]]
 tags:
 - src_unknown
 - src_unknown
@@ -55,7 +55,6 @@ tags:
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童
----
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 
 ## 原始表述

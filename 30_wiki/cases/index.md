@@ -4,7 +4,7 @@ title: index
 type: index
 status: draft
 domain:
-- src_unknown
+- master
 author: system
 reviewed_by: pending
 confidence: 0.5
@@ -14,7 +14,6 @@ source_refs:
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
----
 # 案例库索引
 
 > 案例库是 KDO 知识工厂的"参考样本层"——agent 产出前先查类似案例，产出质量下限由案例标杆决定。

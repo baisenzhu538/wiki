@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- barrier
 
 
 
@@ -21,8 +21,8 @@ query_triggers:
   - src_unknown
   - src_unknown
 related:
-  - src_unknown
-  - src_unknown
+- [[yt-barrier-identification-skill]]
+- [[yt-five-step-method]]
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -48,8 +48,7 @@ diagnostic_signals:
   - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}
 updated_at: 2026-06-16
 author: "老顽童"
-
----# 壁垒分析完整cheatsheet
+# 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]
 

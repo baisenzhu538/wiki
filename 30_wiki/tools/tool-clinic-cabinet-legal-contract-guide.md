@@ -6,8 +6,8 @@ title: 诊所+智能药柜合作的法律关系与合同要点
 type: tool
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,12 +19,12 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-------
+- [[concept-smart-medicine-cabinet-international-models]]
+- [[tool-smart-medicine-cabinet-compliance-checklist]]
+- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[互联网医院项目]]
+---
 
 ## Purpose
 

@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- design
+- yitang
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -16,21 +16,20 @@ trust_level: medium
 author: 月白
 reviewed_by: 欧阳锋
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+- [[dk-yb30-ecommerce-channel-version]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb9-cubox-deployment-failure]]
+- [[dk-yb22-visual-presentation-scene-match]]
+- [[dk-yb18-small-shop-image-mismatch]]
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[yt-model-conversion-optimization]]
 pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# 餐饮图片视觉策略与价格定位的匹配法则
+- src_unknown# 餐饮图片视觉策略与价格定位的匹配法则
 
 ## 原始表述/核心洞察
 

@@ -7,7 +7,7 @@ source_refs:
 - src_20260614_8f80cb0f
 status: enriched
 domain:
-- src_unknown
+- yitang
 yitang:
   map: system
   module: "课程体系"
@@ -30,7 +30,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 
----
 
 # 一堂全课程目录索引
 

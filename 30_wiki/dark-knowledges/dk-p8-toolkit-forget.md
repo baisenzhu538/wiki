@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-8
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[agent-external-brain-design]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-c6-large-source-overflow]]
+- [[master-knowledge-compound]]
+- [[kdo-flywheel]]
+- [[master-first-principles]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
+- src_unknown# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 
 ## 原始表述/核心洞察
 

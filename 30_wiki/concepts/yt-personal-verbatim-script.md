@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -46,13 +46,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 逐字稿
+- [[yt-personal-knowledge-management]]
+- [[yt-personal-deliberate-practice]]
+- [[yt-personal-time-management]]
+- [[yt-personal-inspiration-flash]]
+- [[yt-personal-scientific-expression]]
+# 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

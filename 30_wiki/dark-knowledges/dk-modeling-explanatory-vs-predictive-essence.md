@@ -9,8 +9,8 @@ source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（本质建模案例）
 created_at: '2026-06-14'
@@ -34,21 +34,20 @@ diagnostic_signals:
     framework_lens: 生成式模型的解释力幻觉
     follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[case-essence-humanity-trap]]
+- [[dk-modeling-essence-predictive]]
+- [[dk-modeling-ai-cross-validation]]
+- [[modeling-capability-for-kdo]]
+- [[tool-essence-nfactor-modeling]]
+- [[dk-modeling-essence-predictive]]
+- [[case-essence-education-strategy]]
+- [[case-modeling-essence-levels]]
 tags:
 - src_unknown
 - src_unknown
 
----
 # 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 
 ## 原始表述 / 核心洞察

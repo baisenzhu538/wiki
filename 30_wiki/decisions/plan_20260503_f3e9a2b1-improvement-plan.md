@@ -4,7 +4,7 @@
 plan_id: plan_20260503_f3e9a2b1
 type: improvement-plan
 domain:
-- src_unknown
+- kdo
 status: draft
 created_at: '2026-05-03T12:00:00+00:00'
 feedback_count: 1
@@ -21,12 +21,12 @@ trust_level: low
 title: plan 20260503 f3e9a2b1 improvement plan
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# Improvement Plan plan_20260503_f3e9a2b1
+- [[sprint-2-gate-enrich-evidence]]
+- [[kdo-ec-industrialization-migration-proposal]]
+- [[kdo-batch-produce-req014]]
+- [[dk-c2-dual-status-machine]]
+- [[dk-kdo-leaky-pipe-pressure]]
+# Improvement Plan plan_20260503_f3e9a2b1
 
 ## 来源
 

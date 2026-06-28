@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- master
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模原则），2026-06-12
 source_refs:
@@ -17,16 +17,16 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-sop-execution-locks]]
+- [[case-modeling-process-sop-evolution]]
+- [[tool-sop-template-modeling]]
+- [[case-modeling-process-sop-examples]]
+- [[case-zhangyang-anchor-sop-three-locks]]
+- [[modeling-capability-for-kdo]]
+- [[process-modeling]]
+- [[modeling-three-stages]]
+- [[dk-modeling-sop-execution-locks]]
+- [[dk-modeling-course-rnd-ripe-fruit]]
 tags:
 - src_unknown
 - src_unknown
@@ -40,8 +40,7 @@ confidence: 0.9
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
+- src_unknown# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 
 ## 原始表述/核心洞察
 

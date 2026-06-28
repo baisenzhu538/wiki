@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- master
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
 source_refs:
@@ -19,24 +19,23 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: high
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-offline-catering-formula]]
+- [[case-dental-clinic-formula]]
+- [[case-toc-content-platform-correlation-trap]]
+- [[yt-management-business-formula]]
+- [[case-private-domain-ecommerce-formula]]
+- [[yt-business-formula-abc-model]]
+- [[yt-business-formula-six-level-logic]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[yt-business-formula-business-pattern-selector]]
+- [[yt-business-formula-qualitative-metrics-library]]
+- [[case-toc-ecommerce-formula-misjudgment]]
+- [[case-gym-membership-formula]]
+- [[case-toc-content-platform-correlation-trap]]
+- [[case-hr-saas-feature-usage-trap]]
 tags: []
 author: 欧阳锋
 confidence: 0.85
----
 
 
 ## 原始表述

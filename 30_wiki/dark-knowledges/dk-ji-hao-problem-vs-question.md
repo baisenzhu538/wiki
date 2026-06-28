@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: principle
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[framework-candy-transcript-workflow]]
+- [[dk-ji-hao-novice-mindset-advantage]]
+- [[case-ai-assisted-review]]
+- [[dk-ji-hao-ai-cant-design-structure]]
+- [[dk-ban-fei-mao-silky-answer-warning]]
+- [[case-ji-hao-skill-market-problem-validation]]
+- [[tool-纪浩-problem-validation-four-checks]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -42,7 +42,6 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 伪需求加速
   follow_up_question: 有没有真实受益人和从头讲到尾的因果链？如果中间靠 AI 自己发挥，链是否断裂？
----
 # 暗知识：Problem vs Question
 
 ## 原始表述

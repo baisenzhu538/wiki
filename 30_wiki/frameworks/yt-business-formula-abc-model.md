@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 id: yt-business-formula-abc-model
 title: 业务公式 ABC 模型（Ambition-Basis-Connection）
@@ -19,16 +19,15 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yt-management-business-formula
+- yt-business-formula-ten-paradigms
+- yt-business-formula-parameter-iceberg
+- yt-business-formula-six-level-logic
+- yt-business-formula-business-pattern-selector
+- yt-business-formula-qualitative-metrics-library
+- yt-unit-model-three-tools
+- yt-five-step-method
 
----
 
 # 业务公式 ABC 模型（Ambition-Basis-Connection）
 

@@ -8,8 +8,8 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- content-production- personal
+- yitang
 language: zh-CN
 version: 1
 difficulty: advanced
@@ -19,13 +19,13 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[yt-pitch-metaphor]]
+- [[yt-tool-meeting-designer]]
+- [[yt-tool-project-health-radar]]
+- [[yt-pitch-quantification]]
+- [[system-yitang-research-workflow]]
+- [[yt-concept-weapon-arsenal]]
+- [[yt-model-personal-pitch-toolkit]]
 contradicts: null
 query_triggers:
 - src_unknown
@@ -41,8 +41,7 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
-
----# 讲香·故事化
+# 讲香·故事化
 
 > 十指模型左手第四指——向下具象。一讲故事用户耳朵就支棱起来——故事是比道理好用十倍的论证武器。
 

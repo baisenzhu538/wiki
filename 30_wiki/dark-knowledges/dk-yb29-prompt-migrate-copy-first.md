@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: draft
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -19,8 +19,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----# AIGC提示词迁移：先照搬再微调的务实策略
+trust_level: low# AIGC提示词迁移：先照搬再微调的务实策略
 
 ## 原始表述
 

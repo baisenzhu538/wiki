@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: draft
 domain:
-- src_unknown
-- src_unknown
+- design
+- master
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -20,8 +20,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----# AIGC眼高原则：审美先于技术
+trust_level: low# AIGC眼高原则：审美先于技术
 
 ## 原始表述
 

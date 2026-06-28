@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -47,13 +47,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 泛产品设计
+- [[yt-personal-knowledge-management]]
+- [[ocr-泛产品设计落地篇]]
+- [[yt-personal-verbatim-script]]
+- [[yt-personal-inspiration-flash]]
+- [[yt-personal-pan-product-aesthetics]]
+# 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

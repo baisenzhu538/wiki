@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb1-aigc-mvp-before-ps]]
+- [[dk-yb12-ai-image-analysis-replace-training]]
+- [[dk-yb4-nano-banana-style-reproduction]]
+- [[dk-yb9-cubox-deployment-failure]]
+- [[dk-yb5-style-asset-archive]]
+- [[dk-yb4-nano-banana-style-reproduction]]
+- [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
 pipeline:
 - src_unknown
 author: 月白
@@ -33,8 +33,7 @@ diagnostic_signals:
   follow_up_question: 在加任何描述词之前，先只用"用最高分辨率重新生成，修改中文文字错误"跑一次。效果好于堆砌版本吗？
 - signal: src_unknown
   framework_lens: 工具策略错位——问题不在模型而在提示词的精准度和冗余度
-  follow_up_question: 同样的修复目标，在不同模型（MJ/SD/DALL-E）上试过同一句极简提示词吗？
----# Midjourney中文文字修复极简提示词
+  follow_up_question: 同样的修复目标，在不同模型（MJ/SD/DALL-E）上试过同一句极简提示词吗？# Midjourney中文文字修复极简提示词
 
 ## 原始表述
 

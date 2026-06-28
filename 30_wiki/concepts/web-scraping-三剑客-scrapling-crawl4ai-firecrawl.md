@@ -4,7 +4,7 @@
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
-- src_unknown
+- ai-saas
 review_date: 2026-05-04
 reviewed_by: 黄药师
 status: enriched
@@ -18,12 +18,12 @@ source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
+- [[tinyfish-agentic-web-infrastructure]]
+- [[plan_20260621_crawl4ai-firecrawl-evaluation]]
+- [[tool-yitang-web-scraping-research]]
+- [[tool-agent-crawl4ai]]
+- [[tool-agent-native-overview]]
+# Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。
 

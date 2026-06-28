@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-modeling-timely-review-session-window]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-first-principles]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,8 +38,7 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限
   follow_up_question: 强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce
-    填充
----# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
+    填充# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 
 ## 原始表述
 

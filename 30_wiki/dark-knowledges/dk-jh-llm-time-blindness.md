@@ -5,7 +5,7 @@ title: LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形�
 type: dk
 status: draft
 domain:
-- src_unknown
+- ai-saas
 source_refs:
 - src_unknown
 created_at: '2026-06-09'
@@ -15,12 +15,12 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[dk-f7-surface-translation]]
+- [[dk-my-ai-landing-three-barriers]]
+- [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[dk-ai-judgment-human-responsibility]]
+- [[dk-ai-judgment-programmer-paradox]]
+
 
 ## 原始表述
 

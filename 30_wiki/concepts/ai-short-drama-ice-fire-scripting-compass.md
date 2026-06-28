@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- ai-saas
 
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
@@ -19,13 +19,13 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- ai-short-drama-ice-fire-dissection-compass
+- ai-short-drama-plot-three-axes
+- ai-short-drama-script-planning-three-axes
+- ai-short-drama-framework-three-axes
+- ai-short-drama-conflict-three-axes
+- ai-short-drama-platform-policy-comparison
+- yt-note-ai-human-division
 tags:
   - src_unknown
   - src_unknown
@@ -37,7 +37,6 @@ diagnostic_signals:
   - framework_lens: 剧本基地→内容走向→剧情终局的闭环
     follow_up_question: 内容走向的15个关键节点是否提前锁定？
 
----
 
 # 冰火写本罗盘：AI短剧剧本策划全流程体系
 

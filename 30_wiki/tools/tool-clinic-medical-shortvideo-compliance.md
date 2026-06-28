@@ -6,8 +6,8 @@ title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
 - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
@@ -19,12 +19,12 @@ review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-------
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[tool-yitang-content-ip-research]]
+- [[dk-modeling-ai-judgment-limit]]
+---
 
 ## Purpose
 

@@ -7,8 +7,8 @@ title: 洗发水产品内核：从卖点混淆到内核清晰的产品定义案�
 type: case
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- product
+- yitang
 source_person: Truman
 source_context: 一堂五步法-产品内核课程案例
 source_refs:
@@ -17,13 +17,13 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-lean-shampoo-selling-points]]
+- [[yt-product-kernel-definition]]
+- [[case-milktea-five-step]]
+- [[case-treadmill-demand-analysis]]
+- [[yt-product-kernel-cultivation]]
+- [[concept-一堂-product-kernel]]
+- [[yt-product-kernel-cultivation]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ pipeline:
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: high
----# 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
+trust_level: high# 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例
 
 > 黄药师骨架 · 老顽童填内容
 

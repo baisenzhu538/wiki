@@ -2,7 +2,7 @@
 id: research_methodology
 created_at: 2026-05-03
 domain:
-- src_unknown
+- ai-saas
 status: superseded
 superseded_by: []
 title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
@@ -15,7 +15,6 @@ trust_level: medium-low
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md）
----
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 
 ## Summary

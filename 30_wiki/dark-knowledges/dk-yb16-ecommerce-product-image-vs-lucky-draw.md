@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb19-visual-strategy-price-match]]
+- [[dk-yb30-ecommerce-channel-version]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb9-cubox-deployment-failure]]
+- [[dk-yb23-ai-pre-screen-three-minutes]]
+- [[dk-yb26-chinese-food-photography-props]]
+- [[dk-yb18-small-shop-image-mismatch]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+- src_unknown# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 
 ## 原始表述/核心洞察
 

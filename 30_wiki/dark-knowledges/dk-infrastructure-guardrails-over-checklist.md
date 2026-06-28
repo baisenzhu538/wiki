@@ -5,23 +5,23 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- master
+- kdo
+- ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs: []
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-small-format-error-cascades-to-system-failure]]
+- [[dk-f3-state-json-race-condition]]
+- [[dk-p16-validate-reads-state-json]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[dk-tool-as-answer-trap]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[dk-c11-hongqigong-skip-review]]
+- [[dk-p16-validate-reads-state-json]]
+- [[dk-p8-toolkit-forget]]
+- [[dk-tool-as-phased-validator]]
 bridges_to:
 - src_unknown
 - src_unknown
@@ -40,8 +40,7 @@ diagnostic_signals:
   follow_up_question: --write 是否需要显式确认目标范围、影响卡数、备份状态？
 - signal: src_unknown
   framework_lens: 验证器本身无校验
-  follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？
----# 基础设施工具不能只有检查清单，还必须有硬护栏
+  follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
 
 ## 原始表述 / 核心洞察
 

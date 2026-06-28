@@ -7,10 +7,10 @@ title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- healthcare- healthcare
+- pharmaceutical-retail
+- policy-compliance
+- risk-warning
 source_refs:
 - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
@@ -27,19 +27,19 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[tool-smart-medicine-cabinet-site-selection-guide]]
+- [[tool-clinic-cabinet-legal-contract-guide]]
+- [[master-cognitive-bias-checklist]]
+- [[master-decision-hygiene]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-financial-model]]
+- [[smart-medicine-cabinet-fraud-detection]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+- [[smart-medicine-cabinet-regional-policy-map]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -50,8 +50,7 @@ difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
 source_context: 智能药柜五轮迭代调研与诊所访谈
-
----# 诊所 + 智能药柜协同模式：一线观察与风险提示
+# 诊所 + 智能药柜协同模式：一线观察与风险提示
 
 > **核心定位**：本卡基于一份广州增城/新塘小型诊所老板的访谈逐字稿，记录推销方描绘的"诊所 + 智能药柜 + 慢性病用药 + 医保个账"模式。经交叉验证，该模式存在重大合规风险，**只能作为一线观察案例和风险警示，不能作为可推广的成熟商业模式**。
 

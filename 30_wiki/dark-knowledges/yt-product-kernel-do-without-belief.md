@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- product
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
 type: dk
@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yt-product-kernel-definition
+- yt-product-kernel-validation
+- yt-product-kernel-premature-optimization
+- yt-demand-fake-demand-detection
+- yt-five-step-method
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 做而不信——访谈了，但不相信负面结果
@@ -39,7 +39,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 做而不信——自我认知高于数据
   follow_up_question: 如果数据和你对用户的认知不一致，你更相信哪个？
----
 # "做而不信"陷阱：执行了流程，但不相信结果
 
 ## 原始表述

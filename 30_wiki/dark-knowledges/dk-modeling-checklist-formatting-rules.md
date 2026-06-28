@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -14,17 +14,17 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[case-truman-sales-report-structure]]
+- [[tool-ai-skill-engineering-method]]
+- [[tool-checklist-cheatsheet-modeling]]
+- [[case-livestream-sop-modeling]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[dk-modeling-sop-execution-locks]]
+- [[process-modeling]]
+- [[modeling-three-stages]]
+- [[yt-note-checklist-concept]]
+- [[case-truman-prd-checklist-evolution]]
 tags:
 - src_unknown
 - src_unknown
@@ -46,8 +46,7 @@ diagnostic_signals:
   follow_up_question: 人工检查是否有优先级分级、是否MECE、是否每个条目对应一个可执行动作
 - signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
-  follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识
----# 清单体写不好，模型就建不好：换行、分层、优先级、完备
+  follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
 
 ## 原始表述
 

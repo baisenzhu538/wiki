@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-concept-context-engineering
@@ -38,13 +38,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 上下文工程：充分≠越多越好
+- [[yt-prompt-brainstorming]]
+- [[yt-concept-ai-guard-brain]]
+- [[dk-modeling-ai-judgment-limit]]
+- [[yt-model-prompt-engineering]]
+- [[yt-note-ai-human-division]]
+# 上下文工程：充分≠越多越好
 
 > [[yt-model-prompt-engineering]] 的子概念。提示词的刀刃不在技巧在上下文——但上下文的质量由"相关度"而非"数量"决定。
 

@@ -6,23 +6,23 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- personal-growth
 source_person: Truman
 source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[tool-泛产品落地-ROI分析]]
+- [[yt-skill-checklist-as-ai-protocol]]
+- [[case-truman-prd-checklist-evolution]]
+- [[dk-truman-knowledge-extraction-three-schools]]
+- [[dk-truman-flag-note-taking]]
+- [[yt-note-checklist-concept]]
+- [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[dk-truman-knowledge-extraction-three-schools]]
+- [[yt-personal-pan-product-tools]]
+- [[ai-learning-closed-loop]]
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -31,8 +31,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
+- src_unknown# 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 
 ## 原始表述 / 核心洞察
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- healthcare
 
 
 id: smart-medicine-cabinet-distribution
@@ -27,13 +27,12 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 智能药柜分销业态洞察
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[source-code-delivery-model]]
+- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
+- [[smart-medicine-cabinet-regional-policy-map]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+# 智能药柜分销业态洞察
 
 > 从七件事集团招商录音与山西省药品零售政策调研中提炼出的智能药柜/智慧药房分销业态关键事实与瓶颈。绿色内容可复用，黄色内容需进一步验证。
 

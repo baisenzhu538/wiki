@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -38,13 +38,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 产品内核十大典型指标：从获客到推荐的度量框架
+- [[ocr-一堂产品内核-十大典型指标]]
+- [[一堂]]
+- [[yt-product-kernel-cultivation]]
+- [[yt-tob-demand-scenarios]]
+- [[yt-product-ten-metrics]]
+# 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
 

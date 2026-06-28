@@ -7,9 +7,9 @@ status: enriched
 confidence: 0.88
 trust_level: high
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang
+- master
+- decision-making
 source_person: 黄药师、老朱
 source_context: 2026-06-16 决策域深度对齐讨论
 source_refs:
@@ -20,9 +20,9 @@ author: 黄药师
 reviewed_by: 黄药师
 review_date: "2026-06-17"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown-decision-hygiene
+- yt-decision-y-model
+- yt-decision-canvas
+- master-decision-hygiene
 tags:
   - src_unknown
   - src_unknown
@@ -32,7 +32,6 @@ diagnostic_signals:
   - signal: src_unknown
     framework_lens: 价值观权重检测
     follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
----
 # Y 模型失效场景：当价值观权重超过经济理性时
 
 ## 原始表述

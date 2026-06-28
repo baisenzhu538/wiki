@@ -7,9 +7,9 @@ title: 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- healthcare- healthcare
+- pharmaceutical-retail
+- policy-compliance
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -23,17 +23,17 @@ review_date: '2026-06-14'
 confidence: 0.95
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[smart-medicine-cabinet-fraud-detection]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-regional-policy-map]]
+- [[concept-smart-medicine-cabinet-international-models]]
+- [[master-decision-hygiene]]
+- [[master-systems-thinking]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-fraud-detection]]
+- [[smart-medicine-cabinet-regional-policy-map]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 difficulty: intermediate
-
----# 自助售药机国家政策与红线（2024 年第 48 号公告解读）
+# 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 
 > **核心定位**：国家药监局对自助售药机的销售品类有明确红线——**仅可销售乙类非处方药（乙类 OTC），不得销售甲类非处方药和处方药**。这是药柜推广不可逾越的合规天花板。
 

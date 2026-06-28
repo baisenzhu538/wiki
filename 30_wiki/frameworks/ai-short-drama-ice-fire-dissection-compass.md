@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- ai-saas
 
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
@@ -19,13 +19,13 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- ai-short-drama-ice-fire-scripting-compass
+- ai-short-drama-plot-three-axes
+- ai-short-drama-script-planning-three-axes
+- ai-short-drama-framework-three-axes
+- ai-short-drama-conflict-three-axes
+- ai-short-drama-platform-policy-comparison
+- concept-ji-hao-ai-collaboration-methodology
 tags:
   - src_unknown
   - src_unknown
@@ -40,7 +40,6 @@ diagnostic_signals:
   - framework_lens: 拆本→写本的转译闭环
     follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
 
----
 
 # 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 

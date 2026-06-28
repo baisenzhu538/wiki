@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-009
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-f11-encyclopedia-style]]
+- [[dk-f7-surface-translation]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-f8-phony-wikilink]]
+- [[dk-p4-batch-format-empty]]
+- [[master-cognitive-bias-checklist]]
+- [[master-first-principles]]
+- [[dk-c8-format-complete-mind-empty]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -31,8 +31,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
+- src_unknown# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 
 ## 原始表述/核心洞察
 

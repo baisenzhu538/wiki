@@ -6,8 +6,8 @@ title: 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健�
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
@@ -18,10 +18,10 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 智能药柜平台合作命题交叉验证
+- [[smart-medicine-cabinet-financial-model]]
+- [[tool-smart-medicine-cabinet-compliance-checklist]]
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+# 智能药柜平台合作命题交叉验证
 
 ## 一、已记录的关键数字（原样保留）
 

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: tool_usage
 status: draft
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -19,8 +19,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----# AI生图：用多图共性替代语言描述
+trust_level: low# AI生图：用多图共性替代语言描述
 
 ## 原始表述
 

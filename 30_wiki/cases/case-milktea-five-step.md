@@ -7,8 +7,8 @@ title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
+- product
+- yitang
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
@@ -17,15 +17,15 @@ source_refs:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[tool-泛产品落地-假设拆解]]
+- [[case-shampoo-product-kernel]]
+- [[case-treadmill-demand-analysis]]
+- [[yt-product-kernel-cultivation]]
+- [[dk-mckinsey-hypothesis-driven-pitfalls]]
+- [[concept-一堂-hypothesis-driven-business-methodology]]
+- [[concept-一堂-key-assumptions]]
+- [[yt-model-entrepreneur-map]]
+- [[yt-entrepreneur-five-step-method]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -35,8 +35,7 @@ pipeline:
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: high
----# 奶茶店五步法：从九死一生到十年百店的科学创业之路
+trust_level: high# 奶茶店五步法：从九死一生到十年百店的科学创业之路
 
 > 黄药师骨架 · 老顽童填内容
 

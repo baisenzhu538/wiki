@@ -8,8 +8,8 @@ source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
+- content-production- personal
+- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -19,13 +19,13 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[yt-pitch-metaphor]]
+- [[yt-tool-meeting-designer]]
+- [[yt-pitch-storytelling]]
+- [[yt-tool-project-health-radar]]
+- [[business-research-skill-oscar-13-weapon-system]]
+- [[yt-concept-weapon-arsenal]]
+- [[yt-model-personal-pitch-toolkit]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -39,8 +39,7 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
-
----# 讲香·数字化
+# 讲香·数字化
 
 > 十指模型左手第三指——向下具象。客观的数字让用户默认「这就是事实」，在用户犹豫反复时一锤定音。
 

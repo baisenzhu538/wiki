@@ -6,10 +6,10 @@ type: dk
 dark_knowledge_type: cross-domain-pattern
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yitang
+- note-taking
+- modeling
+- ai-collaboration
 source_person: Truman / 纪浩 / 老朱
 source_context: 一堂清单体笔记训练、高阶建模培训、AI协作方法论
 source_refs:
@@ -17,16 +17,16 @@ source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-note-maximum-common-divisor]]
+- [[yt-note-five-levels-training]]
+- [[dk-note-surplus-brainpower]]
+- [[dk-note-rookie-disaster-veteran-heaven]]
+- [[dk-modeling-logical-cleanliness-root]]
+- [[yt-note-five-levels-training]]
+- [[dk-note-surplus-brainpower]]
+- [[modeling-level-map]]
+- [[sk-ai-ai-workspace-setup]]
+- [[dk-modeling-question-scaffold-not-answer]]
 bridges_to:
 - src_unknown
 - src_unknown-level-map
@@ -45,8 +45,7 @@ diagnostic_signals:
   follow_up_question: 如果去掉这个高阶框架，他还能不能用大白话把问题讲清楚？
 - signal: src_unknown
   framework_lens: 外包了思考
-  follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？
----# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
+  follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 
 ## 原始表述 / 核心洞察
 

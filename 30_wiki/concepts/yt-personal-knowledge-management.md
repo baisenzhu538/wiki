@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -47,13 +47,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 知识管理
+- [[yt-personal-time-management]]
+- [[yt-personal-inspiration-flash]]
+- [[yt-personal-ipo-learning]]
+- [[yt-personal-deep-review]]
+- [[yt-personal-scientific-expression]]
+# 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

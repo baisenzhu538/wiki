@@ -5,8 +5,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- src_unknown
-- src_unknown
+- product
+- yitang
 source_person: Truman
 source_context: 一堂产品内核系列（实操课+迭代课+验证课，2026年）
 source_refs:
@@ -16,14 +16,14 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[tool-一堂-product-kernel-add-subtract]]
+- [[yt-product-kernel-definition]]
+- [[concept-一堂-key-assumptions]]
+- [[concept-一堂-kernel-validation]]
+- [[yt-product-kernel-cultivation]]
+- [[concept-一堂-hypothesis-driven-business-methodology]]
+- [[concept-一堂-key-assumptions]]
+- [[yt-foresight-15-char-mantra]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ pipeline:
 - src_unknown
 author: 老顽童
 confidence: 0.85
-trust_level: high
----# 产品内核：用户愿意选择你的最小解决方案
+trust_level: high# 产品内核：用户愿意选择你的最小解决方案
 
 > **产品内核的本质是一套“用户决策逻辑解构工具”——它帮你从用户视角出发，找到那些"去掉后用户就不会选择你"的最小要素组合。**
 >

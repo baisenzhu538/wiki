@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- business-model
 id: yt-business-model-pivot-signals
 title: 商业模式转型信号：何时该 pivot
 type: dk
@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yt-business-model-definition
+- yt-business-model-unit-economics
+- yt-entrepreneur-unit-model
+- yt-five-step-method
+- yt-entrepreneur-business-growth
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 商业模式转型信号——单元模型不成立是转型信号
@@ -39,7 +39,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 商业模式转型信号——团队信心是转型的重要信号
   follow_up_question: 团队为什么失去信心？是对产品、市场、还是商业模式失去信心？
----
 # 商业模式转型信号：何时该 pivot
 
 ## 原始表述

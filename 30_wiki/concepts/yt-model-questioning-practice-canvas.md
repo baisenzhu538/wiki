@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -38,13 +38,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 提问刻意练习提升画布 (By YITANG)
+- [[yt-model-scientific-questioning-map]]
+- [[yt-personal-y-model-exploration-2]]
+- [[ocr-一堂-个人修炼-提问刻意练习画布]]
+- [[yt-entrepreneur-research-camp]]
+- [[yt-model-ipo-learning-strategy]]
+# 提问刻意练习提升画布 (By YITANG)
 
 > 来源：一堂《提问刻意练习提升画布》。[[一堂]] | [[yt-model-scientific-questioning-map]] | [[yt-personal-deliberate-practice]]
 

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 
@@ -41,13 +41,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# AI趋势12大变化模型
+- [[case-escort-service-tiered-growth]]
+- [[yt-foresight-ab-steady-state]]
+- [[case-ai-time-management-tiered-growth]]
+- [[yt-ai-startup-20-risky-hypotheses]]
+- [[dk-signal-cluster-illusion]]
+# AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]
 

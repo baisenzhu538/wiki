@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[tool-月白-一抽流长提示词写作法]]
+- [[dk-yb13-zero-shot-style-transfer]]
+- [[dk-yb17-product-lifestyle-photography]]
+- [[dk-yb14-multi-image-commonality]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb13-zero-shot-style-transfer]]
+- [[dk-yb12-ai-image-analysis-replace-training]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,8 +30,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# 不训练模型锁定风格的逆向视觉书法
+- src_unknown# 不训练模型锁定风格的逆向视觉书法
 
 ## 原始表述/核心洞察
 

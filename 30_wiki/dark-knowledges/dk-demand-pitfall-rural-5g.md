@@ -12,13 +12,13 @@ domain: [yitang, five-step-method]
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----
+- [[dk-demand-pitfall-indonesia-insurance]]
+- [[dk-demand-pitfall-dialer]]
+- [[dk-demand-pitfall-travel-agent]]
+- [[dk-strategy-05-positioning-trap]]
+- [[dk-demand-pitfall-financial-literacy]]
+- [[case-demand-rural-5g]]
+
 # 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 
 ## 原始表述

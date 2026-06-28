@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-5
 source_refs:
@@ -13,16 +13,16 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-p3-auth-cache]]
+- [[dk-p1-model-switch-env]]
+- [[kdo-input-channel-strategy-2026-06-16]]
+- [[master-systems-thinking]]
+- [[master-first-principles]]
+- [[dk-p1-model-switch-env]]
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
+- src_unknown# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 
 ## 原始表述/核心洞察
 

@@ -7,10 +7,10 @@ title: 医药 O2O 成本与毛利结构
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- healthcare- healthcare
+- pharmaceutical-retail
+- o2o
+- financial-model
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -25,15 +25,15 @@ review_date: '2026-06-14'
 confidence: 0.85
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[concept-smart-medicine-cabinet-consumer-acceptance]]
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[七件事集团]]
+- [[tool-smart-medicine-cabinet-site-selection-guide]]
+- [[master-antifragile-checklist]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-financial-model]]
+- [[yt-unit-model-three-tools]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -42,8 +42,7 @@ query_triggers:
 - src_unknown
 difficulty: intermediate
 prerequisites: []
-
----# 医药 O2O 成本与毛利结构
+# 医药 O2O 成本与毛利结构
 
 > **核心定位**：药柜若作为 O2O 前置仓，平台抽成和配送成本会显著压缩毛利。本卡拆解医药即时零售的成本结构，帮助判断"药柜+O2O"模式是否可行。
 

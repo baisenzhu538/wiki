@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: 'AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明'
 source_refs:
@@ -15,12 +15,12 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-ji-hao-simple-complex-routing]]
+- [[dk-ji-hao-novice-mindset-advantage]]
+- [[dk-ji-hao-ai-cant-design-structure]]
+- [[dk-ban-fei-mao-real-business-is-the-engine]]
+- [[dk-ban-fei-mao-silky-answer-warning]]
+- [[concept-ji-hao-ai-collaboration-methodology]]
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -33,7 +33,6 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 新手验证工具箱
   follow_up_question: 这个判断能否在 48 小时内通过一次用户访谈或一个最小实验得到证据？
----
 # 暗知识：新手也可以用四要素验证
 
 ## 原始表述

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
@@ -13,9 +13,9 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
+- [[kdo-watch-health-check-layer]]
+- [[dk-c4-selfcheck-superseded]]
+- [[master-cognitive-bias-checklist]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -27,8 +27,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
+- src_unknown# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 
 ## 原始表述/核心洞察
 

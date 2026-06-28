@@ -6,8 +6,8 @@ title: 智能药柜/医药项目合规快速校验清单
 type: tool
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
@@ -18,12 +18,12 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-------
+- [[tool-smart-medicine-cabinet-site-selection-guide]]
+- [[tool-clinic-medical-shortvideo-compliance]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[concept-smart-medicine-cabinet-platform-cooperation-validation]]
+- [[tool-clinic-cabinet-legal-contract-guide]]
+---
 
 ## Purpose
 

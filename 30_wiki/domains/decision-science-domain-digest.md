@@ -3,7 +3,7 @@ id: decision-science-domain-digest
 title: "域摘要：decision-science（科学决策）"
 type: index
 domain:
-  - src_unknown
+- decision-science
 status: enriched
 created_at: 2026-06-26
 updated_at: 2026-06-27
@@ -11,7 +11,6 @@ source_refs:
   - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 tags:
   - src_unknown
----
 
 # decision-science 域摘要
 

@@ -5,8 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -24,18 +24,18 @@ diagnostic_signals:
   framework_lens: AI 出图人审
   follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[dk-modeling-ai-compound-leverage]]
+- [[master-ai-info-literacy]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[dk-modeling-model-arsenal-paradigms]]
+- [[tool-iceberg-triangle-modeling]]
+- [[tool-binary-quadrant-modeling]]
+- [[case-yitang-radar-chart-selection]]
+- [[dk-yb25-solution-driven-visual-design]]
+- [[dk-yb22-visual-presentation-scene-match]]
+- [[dk-ji-hao-ai-cant-design-structure]]
 tags:
 - src_unknown
 - src_unknown
@@ -45,7 +45,6 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
----
 # 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
 ## 原始表述

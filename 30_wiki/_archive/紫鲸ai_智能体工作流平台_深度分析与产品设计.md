@@ -2,7 +2,7 @@
 id: 紫鲸ai_智能体工作流平台_深度分析与产品设计
 created_at: 2026-04-30
 domain:
-- src_unknown
+- ai-saas
 source_refs:
 - 10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md
 status: superseded
@@ -16,7 +16,6 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----
 > **Status**: superseded by `[[紫鲸ai智能体工作流平台]]`（内容完全覆盖本页面，此页面为 initial ingest 产生的骨架，保留 frontmatter 以维护 source_ref 追溯链）
 
 # 紫鲸AI_智能体工作流平台_深度分析与产品设计

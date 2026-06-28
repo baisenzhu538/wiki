@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 id: yt-model-management-map
@@ -40,9 +40,8 @@ diagnostic_signals:
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-
----# 一堂管理地图：高潜力管理者修炼全景图
+- [[yt-management-business-formula]]
+# 一堂管理地图：高潜力管理者修炼全景图
 
 > 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#管理必修
 

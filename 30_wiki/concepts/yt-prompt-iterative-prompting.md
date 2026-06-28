@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 id: yt-prompt-iterative-prompting
@@ -40,13 +40,12 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 迭代式提示词工作流（5步法）
+- [[yt-prompt-anti-flattery]]
+- [[yt-prompt-brainstorming]]
+- [[yt-model-prompt-engineering]]
+- [[yt-prompt-writing-workflow]]
+- [[yt-prompt-engineering-andrew-ng]]
+# 迭代式提示词工作流（5步法）
 
 > [[yt-model-prompt-engineering]] 的子工具。迭代是提示词工程的第一性原理——好的提示词在对话中自然涌现。
 

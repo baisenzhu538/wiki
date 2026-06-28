@@ -1,6 +1,6 @@
 ---
 domain:
-- src_unknown
+- demand-analysis
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
 type: dk
@@ -17,10 +17,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- yt-demand-jtbd-application
+- yt-demand-hierarchy-model
+- yt-demand-fake-demand-detection
+- yt-five-step-method
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
@@ -37,7 +37,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
   follow_up_question: 用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。
----
 # 需求替代陷阱：竞品不是敌人，替代方案才是
 
 ## 原始表述

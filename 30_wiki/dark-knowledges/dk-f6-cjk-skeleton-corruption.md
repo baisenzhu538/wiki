@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-006
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-f2-txt-ingest-skip]]
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[dk-f1-regex-on-cjk]]
+- [[knowledge-delivery-os-快速体验指南-飞书云文档]]
+- [[dk-c3-txt-ingest-skip]]
+- [[dk-f1-regex-on-cjk]]
+- [[dk-c1-cjk-regex-silent-fail]]
+- [[master-ai-info-literacy]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -35,8 +35,7 @@ diagnostic_signals:
   follow_up_question: 不要尝试修复骨架，直接对中文页面执行 Agent 三步编译（浓缩→质疑→对标）并更新 status=enriched
 - signal: src_unknown
   framework_lens: KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug
-  follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006
----# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
+  follow_up_question: 确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 
 ## 原始表述
 

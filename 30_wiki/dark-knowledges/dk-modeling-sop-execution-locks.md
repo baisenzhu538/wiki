@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- master
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模案例），2026-06-12
 source_refs:
@@ -19,16 +19,16 @@ updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-modeling-process-sop-evolution]]
+- [[case-truman-livestream-sop-iteration]]
+- [[tool-sop-template-modeling]]
+- [[case-modeling-process-sop-examples]]
+- [[case-zhangyang-anchor-sop-three-locks]]
+- [[modeling-capability-for-kdo]]
+- [[modeling-three-stages]]
+- [[process-modeling]]
+- [[case-zhangyang-anchor-sop-three-locks]]
+- [[case-modeling-process-livestream-prep]]
 tags:
 - src_unknown
 - src_unknown
@@ -49,8 +49,7 @@ diagnostic_signals:
   follow_up_question: 除了责备执行者，我们能不能补一个监控 SOP，让检查成为流程本身？
 - signal: src_unknown
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
-  follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？
----# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+  follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 
 ## 原始表述
 

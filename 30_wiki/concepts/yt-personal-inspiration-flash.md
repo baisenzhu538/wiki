@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -47,13 +47,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 灵感闪现（认知篇）
+- [[yt-personal-knowledge-management]]
+- [[yt-personal-deliberate-practice]]
+- [[yt-personal-verbatim-script]]
+- [[yt-personal-product-design]]
+- [[yt-personal-scientific-expression]]
+# 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

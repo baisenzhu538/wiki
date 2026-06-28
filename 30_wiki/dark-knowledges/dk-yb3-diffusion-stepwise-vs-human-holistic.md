@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[tool-月白-AI人物特征精准描述法]]
+- [[dk-yb1-aigc-mvp-before-ps]]
+- [[tool-月白-AI抽卡效率控制法]]
+- [[dk-yb2-llm-muddy-clear-muddy]]
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-yb2-llm-muddy-clear-muddy]]
+- [[dk-yb14-multi-image-commonality]]
+- [[dk-yb29-prompt-migrate-copy-first]]
 pipeline:
 - src_unknown
 author: 月白
@@ -34,8 +34,7 @@ diagnostic_signals:
   follow_up_question: 你的需求是"控制画面内容"还是"控制画面构图"？后者需要ControlNet/区域提示，不是改prompt。
 - signal: src_unknown
   framework_lens: 工具选择错位——问题可能不在提示词质量，而在工具本身的架构局限
-  follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。
----# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思
+  follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。# AI生图"抽卡"本质：逐步拆解 vs 人类整体构思
 
 ## 原始表述
 

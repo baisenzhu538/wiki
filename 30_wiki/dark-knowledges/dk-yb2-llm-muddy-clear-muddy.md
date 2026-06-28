@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
+- [[case-yitang-luckin-field-research]]
+- [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
+- [[master-knowledge-compound]]
 pipeline:
 - src_unknown
 author: 月白
@@ -31,8 +31,7 @@ diagnostic_signals:
   follow_up_question: 你的解释是否让听众能用自己的话复述一遍？如果不能，换一个更贴近日常经验的隐喻。
 - signal: src_unknown
   framework_lens: 推理阶段误解——提示词是"污染清水"而非"精确控制"
-  follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。
----# 大模型训练本质：浑水→清水→浑水的双向转换
+  follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。# 大模型训练本质：浑水→清水→浑水的双向转换
 
 ## 原始表述
 

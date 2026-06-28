@@ -7,9 +7,9 @@ title: 业务公式数据埋点设计清单
 type: tool
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang- yitang
+- master
+- business-strategy
 source_refs:
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
@@ -27,18 +27,17 @@ review_date: '2026-06-16'
 confidence: 0.88
 trust_level: high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 业务公式数据埋点设计清单
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[yt-business-formula-qualitative-metrics-library]]
+- [[case-saas-renewal-formula]]
+- [[case-offline-catering-formula]]
+- [[case-private-domain-ecommerce-formula]]
+- [[yt-business-formula-qualitative-metrics-library]]
+- [[yt-business-formula-abc-model]]
+- [[yt-business-formula-parameter-iceberg]]
+- [[dk-yitang-business-formula-plus-times-trap]]
+- [[yt-business-formula-business-pattern-selector]]
+# 业务公式数据埋点设计清单
 
 > 业务公式拆到 L3-L4 后，每个定性参数都需要 3-5 个可定量的行为指标来佐证。本清单帮助你在提出假设的同时，把数据埋点一起设计好，避免“拆完公式却无从验证”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

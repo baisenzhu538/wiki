@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -40,13 +40,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# SPIN销售法：顾问式销售的奠基之作
+- [[yt-entrepreneur-liberate-thinking]]
+- [[yt-personal-y-model-exploration-2]]
+- [[yt-personal-y-model-practice]]
+- [[yt-entrepreneur-industrial-production]]
+- [[yt-entrepreneur-truth-seeking]]
+# SPIN销售法：顾问式销售的奠基之作
 
 > 来源：一堂读书会·SPIN销售法口述（2小时解读，Truman主讲）。[[yt-entrepreneur-scientific-method]] | [[一堂]]
 

@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-4
 source_refs:
@@ -14,15 +14,15 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-f11-encyclopedia-style]]
+- [[dk-f8-phony-wikilink]]
+- [[kdo_product_design_agent_final]]
+- [[dk-f9-generic-critique]]
+- [[ouyangfeng-data-alignment-response]]
+- [[master-knowledge-compound]]
+- [[kdo-flywheel]]
+- [[master-ai-info-literacy]]
+- [[dk-c8-format-complete-mind-empty]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,8 +36,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
+- src_unknown# P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 
 ## 原始表述/核心洞察
 

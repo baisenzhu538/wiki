@@ -9,25 +9,24 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- ai-saas- ai
+- product
+- ai-collaboration
 source_refs:
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-ji-hao-skills-market]]
+- [[dk-skill-market-agent-self-install]]
+- [[case-truman-ai-partner]]
+- [[dk-f12-builder-context-deadlock]]
+- [[ai-complex-communication]]
+- [[industrial-ai-ops-cases]]
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
-
----# AI 原生 IM：让 Agent 成为一等公民的协作基础设施
+# AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 
 > 来源：听脑录音 5383332 + 公开信源六层交叉验证  
 > 置信度：核心判断 0.85+，「一人团队替代大型团队」等营销话术需降级

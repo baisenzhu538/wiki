@@ -4,7 +4,7 @@ title: 技能：使用一页纸速查卡快速调用框架
 type: tool
 status: enriched
 domain:
-- src_unknown
+- learning-methodology- knowledge-management
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
@@ -21,13 +21,13 @@ tools_required:
 - src_unknown
 - src_unknown
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[yt-pitch-scenarization]]
+- [[yt-note-extensive-research-input]]
+- [[yt-note-checklist-concept]]
+- [[yt-pitch-conflict]]
+- [[yt-prompt-engineering-andrew-ng]]
+- [[master-cognitive-bias-checklist]]
+- [[yt-five-step-method]]
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 黄药师
@@ -35,8 +35,7 @@ confidence: 0.8
 pipeline:
 - src_unknown
 author: unknown
-trust_level: medium
----# 技能：使用一页纸速查卡快速调用框架
+trust_level: medium# 技能：使用一页纸速查卡快速调用框架
 
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。
 

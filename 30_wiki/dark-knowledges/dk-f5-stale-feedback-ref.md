@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-005
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[knowledge-delivery-os-快速体验指南-飞书云文档]]
+- [[dk-f3-state-json-race-condition]]
+- [[dk-p16-validate-reads-state-json]]
+- [[proposal-kdo-flywheel-infrastructure]]
+- [[dk-c3-txt-ingest-skip]]
+- [[dk-c4-selfcheck-superseded]]
+- [[master-systems-thinking]]
+- [[dk-f10-broken-source-refs]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,8 +30,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
+- src_unknown# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 
 ## 原始表述/核心洞察
 

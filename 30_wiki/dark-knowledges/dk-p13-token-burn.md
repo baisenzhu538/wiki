@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-13
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[sprint-6-cli-gap-proposal]]
+- [[agent-external-brain-design]]
+- [[framework-wanghuan-harness-seven-stages]]
+- [[dk-p8-toolkit-forget]]
+- [[dk-f12-builder-context-deadlock]]
+- [[master-systems-thinking]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-13：长会话 = token黑洞 — 一晚上烧掉80元
+- src_unknown# P-13：长会话 = token黑洞 — 一晚上烧掉80元
 
 ## 原始表述/核心洞察
 

@@ -1,7 +1,7 @@
 ---
 
 domain:
-  - src_unknown
+- yitang- master
 tags: null
 related: null
 id: yt-tool-unit-model-ai-assisted
@@ -17,7 +17,6 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 
----
 ## Reusable Knowledge
 
 ### TCP-R 双导师模型

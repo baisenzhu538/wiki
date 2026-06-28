@@ -12,7 +12,7 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
+- strategy
 source_refs:
 - src_unknown
   - src_unknown
@@ -21,7 +21,6 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----
 
 # 九个常见战略问题
 

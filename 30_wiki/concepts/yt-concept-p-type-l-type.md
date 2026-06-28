@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 
@@ -47,13 +47,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# P型与L型创业者
+- [[yt-entrepreneur-product-core]]
+- [[yt-tool-product-core-canvas]]
+- [[yt-entrepreneur-key-hypotheses]]
+- [[yt-entrepreneur-industry-forecast]]
+- [[yt-prompt-engineering-andrew-ng]]
+# P型与L型创业者
 
 > 来源：一堂商业预判课 | 阶段：预判阶段。一堂创业者类型学的核心概念，通过对比热情驱动（Passion）与逻辑驱动（Logic）两种创业者的认知模式、行为特征和失败路径，帮助创业者识别自身类型并实现认知跃迁。这是一堂老学员特别喜欢的模型之一。[[yitang-course-map]]
 

@@ -5,8 +5,8 @@ type: concept
 status: reviewed
 reviewed_by: 周伯通
 domain:
-- src_unknown
-- src_unknown
+- product
+- yitang
 source_person: Truman
 source_context: 一堂产品内核验证课（2026年）
 source_refs:
@@ -14,18 +14,18 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[concept-一堂-kernel-iteration]]
+- [[tool-一堂-five-step-validation]]
+- [[tool-对标借鉴他人决策维度]]
+- [[concept-一堂-key-assumptions]]
+- [[concept-一堂-product-kernel]]
+- [[concept-一堂-product-kernel]]
+- [[concept-一堂-kernel-iteration]]
+- [[concept-一堂-key-assumptions]]
+- [[framework-lean-product-kernel]]
+- [[framework-lean-six-wastes]]
+- [[tool-lean-product-kernel-metrics]]
+- [[case-lean-premature-refinement]]
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ pipeline:
 - src_unknown
 author: 老顽童
 confidence: 0.7
-trust_level: medium
----# 产品内核验证：三维度评估 + 六策略验证
+trust_level: medium# 产品内核验证：三维度评估 + 六策略验证
 
 > **产品内核验证的本质：在投入实质性资源之前，用最小成本确认你的内核假设是否正确。**
 >

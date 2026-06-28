@@ -5,7 +5,7 @@ type: improvement-plan
 status: superseded
 superseded_by: plan_20260531_data-curator-v1.3
 domain:
-- src_unknown
+- master
 tags:
 - src_unknown
 - src_unknown
@@ -21,7 +21,6 @@ author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
----
 # Data Curator Skill 实施方案 v1.1
 
 ## 版本变更记录

@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -41,13 +41,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+- [[tool-泛产品落地-设计原则]]
+- [[yt-panproduct-aesthetic-collection]]
+- [[一堂]]
+- [[yt-panproduct-aesthetic-imagination]]
+- [[yt-model-pan-product-aesthetic-toolkit]]
+# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
 > 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
 

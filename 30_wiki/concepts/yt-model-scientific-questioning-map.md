@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -38,13 +38,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 科学提问刻意练习地图
+- [[ocr-一堂-个人修炼-提问刻意练习画布]]
+- [[ocr-一堂-个人修炼-科学提问刻意练习]]
+- [[yt-entrepreneur-research-camp]]
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-model-questioning-practice-canvas]]
+# 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]
 

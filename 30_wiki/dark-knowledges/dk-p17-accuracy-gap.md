@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-17
 source_refs:
@@ -14,16 +14,16 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[gold-standard-manual-labels]]
+- [[dk-f14-accuracy-measurement-mismatch]]
+- [[label-accuracy-standard-alignment]]
+- [[dk-p15-unverified]]
+- [[labeling-research-alignment]]
+- [[dk-p15-unverified]]
+- [[dk-f14-accuracy-measurement-mismatch]]
+- [[master-decision-hygiene]]
+- [[master-ai-info-literacy]]
+- [[gold-standard-manual-labels]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
+- src_unknown# P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 
 ## 原始表述/核心洞察
 

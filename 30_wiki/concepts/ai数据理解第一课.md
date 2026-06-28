@@ -7,16 +7,16 @@ source_refs:
 - src_20260601_ba8ea2f0-ai数据理解第一课
 status: enriched
 domain:
-- src_unknown
+- yitang
 created_at: 2026-06-01
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[ai时代判断力口述-3]]
+- [[three-party-data-alignment]]
+- [[人机协作决策-双三角模型]]
+- [[数据标注维度最佳实践调研报告]]
+- [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
+- [[yt-unit-model-ai-assisted]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -29,8 +29,7 @@ id: ai数据理解第一课
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
-trust_level: medium
----# AI数据理解第一课
+trust_level: medium# AI数据理解第一课
 
 > **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。
 

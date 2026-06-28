@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- growth
 
 
 
@@ -43,13 +43,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 增长周期模型
+- [[yt-five-step-implementation]]
+- [[case-toy-cabinet-barrier]]
+- [[case-toy-cabinet-business-model]]
+- [[yt-product-ten-metrics]]
+- [[yt-scale-economy-weapon-library]]
+# 增长周期模型
 
 > 来源：一堂五步法·增长篇 | [[yt-five-step-method]] | [[yt-unit-model-three-tools]] | [[yt-customer-acquisition-toolkit]]
 

@@ -6,8 +6,8 @@ title: 智能药柜供应链/技术方案交叉验证
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_90085bca-itingnao-deep-dive-supply-chain
 created_at: 2026-06-15
@@ -18,12 +18,12 @@ review_date: 2026-06-15
 confidence: 0.72
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 智能药柜供应链/技术交叉验证（知识卡草稿）
+- [[yt-lean-daily-probability-decision]]
+- [[case-toc-ecommerce-formula-misjudgment]]
+- [[dk-ef-003-hand-soldering-bom-divergence]]
+- [[yt-lean-assumption-prioritization]]
+- [[yt-lean-beauty-store-conversion]]
+# 智能药柜供应链/技术交叉验证（知识卡草稿）
 
 ## 1. 一句话摘要
 当前项目已从“硬件外包意向”推进到“200 台药柜报价”阶段，但**销售承诺（Windows/医保/6 月上线）明显超前于研发和供应链准备度**；核心风险集中在医保接入复杂度、6 月排期过紧、小批量供应链不稳定、断电状态丢失四个方面。

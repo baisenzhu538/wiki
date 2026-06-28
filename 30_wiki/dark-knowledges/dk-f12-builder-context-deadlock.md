@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-012
 source_refs:
@@ -13,15 +13,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[ai-native-im-multi-agent]]
+- [[case-truman-ai-partner]]
+- [[dk-p13-token-burn]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-c6-large-source-overflow]]
+- [[dk-c6-large-source-overflow]]
+- [[master-first-principles]]
+- [[kdo-flywheel]]
+- [[master-systems-thinking]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -45,8 +45,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
+- src_unknown# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 
 ## 原始表述
 

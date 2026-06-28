@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -40,13 +40,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 调研行动营：从调研认知到AI调研武器库
+- [[yt-personal-y-model-practice]]
+- [[yt-model-deep-review-iceberg]]
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-model-liberate-thinking-layers]]
+- [[yt-personal-thinking-models]]
+# 调研行动营：从调研认知到AI调研武器库
 
 > 来源：一堂调研行动营第0期口述（Truman）。[[yt-entrepreneur-research-cognition]] | [[yt-model-ipo-learning-strategy]] | [[一堂]]
 

@@ -4,10 +4,10 @@
 title: 紫鲸AI
 type: entity
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- ai-saas
+- management
+- kdo
+- business-strategy
 status: reviewed
 entity_type: product
 aliases:
@@ -18,13 +18,13 @@ id: 紫鲸AI
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-skill-market-agent-self-install]]
+- [[ai-native-im-multi-agent]]
+- [[case-truman-ai-partner]]
+- [[concept-mcp-protocol]]
+- [[case-ji-hao-skills-market]]
+- [[紫鲸ai智能体工作流平台]]
+- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 tags: []
 trust_level: medium
 reviewed_by: 黄药师
@@ -33,8 +33,7 @@ author: unknown
 confidence: 0.85
 source_refs:
 - src_20260428_29929c1f-紫鲸ai智能体工作流平台
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260428_29929c1f）
----# 紫鲸AI
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260428_29929c1f）# 紫鲸AI
 
 > 面向中型品牌的AI内容营销操作系统——6个专精Agent编排为"数字员工团队"。
 

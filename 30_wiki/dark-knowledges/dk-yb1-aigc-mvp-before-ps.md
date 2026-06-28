@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- design
+- ai-collaboration
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -15,14 +15,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb31-style-first-controlnet]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-yb23-ai-pre-screen-three-minutes]]
+- [[dk-yb5-style-asset-archive]]
+- [[dk-yb5-style-asset-archive]]
+- [[dk-yb8-file-naming-eight-elements]]
+- [[dk-yb7-design-demand-80-10-10]]
 pipeline:
 - src_unknown
 author: 月白
@@ -35,8 +35,7 @@ diagnostic_signals:
   follow_up_question: 最近3次设计任务中，有几次是先收集参考图跑AI验证方向，再打开传统工具的？比例低于1/3说明工作流未转变。
 - signal: src_unknown
   framework_lens: 改稿成本错位——方向级问题应该在MVP阶段解决，而非在执行层反复修改
-  follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。
----# 设计师AIGC工作流：先跑MVP再开PS
+  follow_up_question: 统计最近改稿的原因分布：方向调整占多少？执行细节占多少？前者的MVP阶段本应拦截。# 设计师AIGC工作流：先跑MVP再开PS
 
 ## 原始表述
 

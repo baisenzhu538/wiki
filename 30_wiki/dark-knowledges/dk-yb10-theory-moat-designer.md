@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- design
+- business-strategy
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
@@ -15,14 +15,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-yb6-midjourney-chinese-text-fix]]
+- [[dk-yb1-aigc-mvp-before-ps]]
+- [[dk-yb7-design-demand-80-10-10]]
+- [[dk-yb20-ai-eye-high-principle]]
+- [[dk-yb5-style-asset-archive]]
+- [[dk-yb13-zero-shot-style-transfer]]
+- [[dk-yb22-visual-presentation-scene-match]]
+- [[dk-yb1-aigc-mvp-before-ps]]
 pipeline:
 - src_unknown
 author: 月白
@@ -35,8 +35,7 @@ diagnostic_signals:
   follow_up_question: 你能不借助AI，用版式/配色/字体理论解释为什么某张图"好看"吗？如果不能，AI出的图你也判断不了好坏。
 - signal: src_unknown
   framework_lens: 投资错位——在AI抹平执行差距的时代，理论判断力反而升值
-  follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？
----# AI时代设计师的理论护城河
+  follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？# AI时代设计师的理论护城河
 
 ## 原始表述
 

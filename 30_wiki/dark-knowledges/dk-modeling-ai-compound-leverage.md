@@ -7,8 +7,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
@@ -16,15 +16,15 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-modeling-ai-judgment-limit]]
+- [[master-ai-info-literacy]]
+- [[dk-wanghuan-ai-lifts-personal-ceiling]]
+- [[dk-wanghuan-standard-by-iteration]]
+- [[dk-wanghuan-magic-defeats-magic]]
+- [[dk-modeling-ai-without-judgment]]
+- [[dk-modeling-ai-self-retrospection]]
+- [[modeling-three-values]]
+- [[case-truman-ai-skill-engineering-guide]]
 tags:
 - src_unknown
 - src_unknown
@@ -47,8 +47,7 @@ diagnostic_signals:
   follow_up_question: 给每个候选模型估算年调用次数和单次价值，用资产化视角比较投入优先级。
 - signal: src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
-  follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。
----# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
+  follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 
 ## 原始表述
 

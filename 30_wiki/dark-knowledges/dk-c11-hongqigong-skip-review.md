@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: 欧阳锋
 source_context: 2026-05-20
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p6-session-resume-fail]]
+- [[dk-f12-builder-context-deadlock]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-c6-large-source-overflow]]
+- [[dk-c10-batch-tool-no-dry-run]]
+- [[master-decision-hygiene]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
+- src_unknown# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 
 ## 原始表述 / 核心洞察
 

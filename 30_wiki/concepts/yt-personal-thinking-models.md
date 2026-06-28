@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- personal-growth
 
 
 
@@ -43,13 +43,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 思维模型：从碎片经验到稳定模型
+- [[yt-personal-y-model-exploration-2]]
+- [[一堂]]
+- [[yt-personal-y-model-practice]]
+- [[yt-entrepreneur-research-camp]]
+- [[yt-personal-knowledge-extraction]]
+# 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
 

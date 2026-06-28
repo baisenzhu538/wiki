@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: failure-modes.md F-KDO-007
 source_refs:
@@ -13,14 +13,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-f11-encyclopedia-style]]
+- [[proposal-deep-synthesis-infrastructure]]
+- [[dk-f9-generic-critique]]
+- [[dk-jh-llm-time-blindness]]
+- [[dk-my-ai-landing-three-barriers]]
+- [[master-first-principles]]
+- [[dk-c8-format-complete-mind-empty]]
+- [[dk-f11-encyclopedia-style]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
+- src_unknown# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 
 ## 原始表述/核心洞察
 

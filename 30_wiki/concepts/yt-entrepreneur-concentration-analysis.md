@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- entrepreneurship
 
 
 
@@ -46,13 +46,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 集中度分析
+- [[yt-entrepreneur-barriers]]
+- [[yt-entrepreneur-growth-flywheel]]
+- [[yt-entrepreneur-fundraising]]
+- [[yt-entrepreneur-pragmatic-startup]]
+- [[yt-entrepreneur-opportunity-selection]]
+# 集中度分析
 
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-7
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[ocr-婚礼操盘-用户和场景]]
+- [[data-curator-role-division]]
+- [[dk-p8-toolkit-forget]]
+- [[ocr-一堂-单元模型-abcd策略模型]]
+- [[ocr-screenshot2]]
+- [[master-decision-hygiene]]
+- [[master-ai-info-literacy]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -32,8 +32,7 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
----# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
+- src_unknown# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 
 ## 原始表述/核心洞察
 

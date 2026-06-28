@@ -5,7 +5,7 @@ type: dk
 dark_knowledge_type: workflow
 status: enriched
 domain:
-- src_unknown
+- design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-yb1-aigc-mvp-before-ps]]
+- [[dk-yb31-style-first-controlnet]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb29-prompt-migrate-copy-first]]
+- [[dk-yb5-style-asset-archive]]
+- [[dk-yb1-aigc-mvp-before-ps]]
+- [[dk-yb31-style-first-controlnet]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -30,8 +30,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# AI出图前置筛选：三分钟十套方案定风格
+- src_unknown# AI出图前置筛选：三分钟十套方案定风格
 
 ## 原始表述/核心洞察
 

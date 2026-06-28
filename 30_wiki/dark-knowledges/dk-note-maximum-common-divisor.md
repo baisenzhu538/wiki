@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- yitang
+- note-taking
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01
 source_refs:
@@ -15,15 +15,15 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-18'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[dk-fundamentals-before-advanced-ops]]
+- [[yt-skill-checklist-as-ai-protocol]]
+- [[dk-note-surplus-brainpower]]
+- [[truman-ai-partner-design-analysis]]
+- [[dk-note-rookie-disaster-veteran-heaven]]
+- [[yt-note-checklist-concept]]
+- [[yt-note-ai-human-division]]
+- [[dk-note-surplus-brainpower]]
+- [[dk-note-rookie-disaster-veteran-heaven]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,8 +34,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# 清单体是人与AI的"最大公约数"：结构降级即认知升级
+- src_unknown# 清单体是人与AI的"最大公约数"：结构降级即认知升级
 
 ## 原始表述 / 核心洞察
 

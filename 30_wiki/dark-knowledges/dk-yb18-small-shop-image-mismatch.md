@@ -5,9 +5,9 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- design
+- yitang
+- business-strategy
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
@@ -15,14 +15,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-yb26-chinese-food-photography-props]]
+- [[dk-yb30-ecommerce-channel-version]]
+- [[dk-yb17-product-lifestyle-photography]]
+- [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[dk-yb27-pseudo-layer-evasion]]
+- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+- [[dk-yb19-visual-strategy-price-match]]
+- [[yt-foresight-ten-fatal-flaws]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals:
 - src_unknown
-- src_unknown
----# 小店图片错配陷阱：精致摄影反而吓跑客户
+- src_unknown# 小店图片错配陷阱：精致摄影反而吓跑客户
 
 ## 原始表述
 

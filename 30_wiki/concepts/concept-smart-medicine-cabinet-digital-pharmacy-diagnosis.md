@@ -5,8 +5,8 @@ title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
 source_refs:
 - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
@@ -16,8 +16,7 @@ reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
-related: []
----# 知识卡草稿：智能药柜/数字药房项目诊断
+related: []# 知识卡草稿：智能药柜/数字药房项目诊断
 
 > 卡片编号：kc_itingnao_digital-pharmacy  
 > 对应诊断报告：`60_feedback/itingnao-deep-dive-digital-pharmacy.md`  

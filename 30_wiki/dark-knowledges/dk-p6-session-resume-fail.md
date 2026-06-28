@@ -6,7 +6,7 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-- src_unknown
+- master
 source_person: system
 source_context: pitfalls.md P-6
 source_refs:
@@ -14,15 +14,15 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[dk-p2-tmux-cache]]
+- [[dk-p1-model-switch-env]]
+- [[dk-c6-large-source-overflow]]
+- [[dk-state-residue-is-the-silent-killer]]
+- [[dk-p5-cc-connect-config]]
+- [[master-systems-thinking]]
+- [[master-first-principles]]
+- [[dk-p5-cc-connect-config]]
+- [[dk-p2-tmux-cache]]
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,8 +33,7 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-- src_unknown
----# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
+- src_unknown# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 
 ## 原始表述/核心洞察
 

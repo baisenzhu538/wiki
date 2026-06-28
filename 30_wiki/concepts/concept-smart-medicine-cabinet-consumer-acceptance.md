@@ -6,9 +6,9 @@ title: 消费者购药行为与智能药柜接受度
 type: concept
 status: enriched
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
+- healthcare
+- business-strategy
+- product
 source_refs:
 - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
@@ -20,12 +20,12 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 消费者购药行为与智能药柜接受度
+- [[concept-smart-medicine-cabinet-international-models]]
+- [[tool-smart-medicine-cabinet-site-selection-guide]]
+- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+- [[smart-medicine-cabinet-o2o-cost-structure]]
+# 消费者购药行为与智能药柜接受度
 
 > **核心定位**：从需求侧梳理消费者夜间/应急用药需求、购药渠道偏好、对智能药柜的信任障碍与支付意愿，为智能药柜的产品设计、选址和定价提供输入。
 

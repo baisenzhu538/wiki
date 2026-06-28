@@ -6,7 +6,7 @@ title: 两份标注调研的对齐：黄药师 × 老顽童
 type: analysis
 status: draft
 domain:
-- src_unknown
+- master
 created_at: 2026-05-31
 target_roles:
 - src_unknown
@@ -14,13 +14,13 @@ target_roles:
 - src_unknown
 - src_unknown
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[gold-standard-manual-labels]]
+- [[labeling-final-consolidation]]
+- [[ouyangfeng-labeling-research-review]]
+- [[label-accuracy-standard-alignment]]
+- [[data-labeling-best-practices-report]]
+- [[data-labeling-best-practices-report]]
+- [[kdo-15-dimension-label-spec]]
 author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
@@ -28,8 +28,7 @@ source_refs: []
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
-updated_at: '2026-06-16'
----# 两份标注调研的对齐：黄药师 × 老顽童
+updated_at: '2026-06-16'# 两份标注调研的对齐：黄药师 × 老顽童
 
 ## 路线差异
 

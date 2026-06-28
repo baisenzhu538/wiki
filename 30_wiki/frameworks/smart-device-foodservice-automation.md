@@ -9,20 +9,20 @@ status: enriched
 confidence: 0.7
 trust_level: medium
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- yitang- business-strategy
+- product
+- entrepreneur
 source_refs:
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[ai-native-im-multi-agent]]
+- [[dk-strategy-06-dividend-to-strategy]]
+- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
+- [[beverage-foodservice-channel]]
+- [[ai-complex-communication]]
+- [[beverage-foodservice-channel]]
+- [[yt-entrepreneur-channel-exploration]]
+- [[source-code-delivery-model]]
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣
@@ -30,8 +30,7 @@ reviewed_by: 老顽童
 review_date: 2026-06-14
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-
----# 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
+# 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 
 > 来源：听脑录音 6009986 + 公开信源六层交叉验证  
 > 置信度：整体 0.95，所有核心陈述均通过六层验证

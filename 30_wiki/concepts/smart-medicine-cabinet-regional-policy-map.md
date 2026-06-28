@@ -7,9 +7,9 @@ title: 各省市自助售药机政策差异地图
 type: concept
 status: enriched
 domain:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- healthcare- healthcare
+- pharmaceutical-retail
+- policy-compliance
 source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
@@ -23,15 +23,15 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[case-smart-medicine-cabinet-failure-patterns-library]]
+- [[smart-medicine-cabinet-fraud-detection]]
+- [[smart-medicine-cabinet-distribution]]
+- [[concept-smart-medicine-cabinet-international-models]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
+- [[master-decision-hygiene]]
+- [[smart-medicine-cabinet-clinic-risk-observation]]
+- [[smart-medicine-cabinet-distribution]]
+- [[smart-medicine-cabinet-national-policy-redlines]]
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,8 +41,7 @@ query_triggers:
 - src_unknown
 difficulty: intermediate
 prerequisites: []
-
----# 各省市自助售药机政策差异地图
+# 各省市自助售药机政策差异地图
 
 > **核心定位**：国家底线是"仅乙类 OTC"，但各省市在设置主体、设置地点、医保支付、远程药柜等方面存在差异。进入具体城市前，必须核实现行有效政策。
 

@@ -4,7 +4,7 @@
 id: 鑫港湾his系统分阶段整改报告
 created_at: 2026-04-28
 domain:
-- src_unknown
+- healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
@@ -21,12 +21,12 @@ confidence: 0.7
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
----# 鑫港湾HIS系统分阶段整改报告
+- [[HIS系统开发实现方案-架构师指南]]
+- [[街顺app全面调研报告]]
+- [[保达云诊所深度调研报告]]
+- [[HIS系统深度调研]]
+- [[紫鲸ai智能体工作流平台]]
+# 鑫港湾HIS系统分阶段整改报告
 
 ## Summary
 

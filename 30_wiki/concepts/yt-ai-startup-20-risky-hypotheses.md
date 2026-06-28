@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- yitang
 
 
 
@@ -41,13 +41,12 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# AI创业20个高风险假设清单
+- [[dk-pseudo-demand-trap]]
+- [[case-ai-time-management-tiered-growth]]
+- [[tool-月白-风格不变局部调整]]
+- [[yt-entrepreneur-business-growth]]
+- [[yt-entrepreneur-opportunity-selection]]
+# AI创业20个高风险假设清单
 
 > 来源：一堂2025《重新理解人工智能》| 烧掉数亿元、几百个AI项目的关键假设总结 | [[yt-ai-trend-12-signals]] | [[yt-entrepreneur-key-hypotheses]]
 

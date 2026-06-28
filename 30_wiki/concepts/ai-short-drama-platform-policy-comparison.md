@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- ai-saas
 
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
@@ -19,10 +19,10 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- ai-short-drama-ice-fire-scripting-compass
+- ai-short-drama-script-planning-three-axes
+- ai-short-drama-ice-fire-dissection-compass
+- ai-short-drama-plot-three-axes
 tags:
   - src_unknown
   - src_unknown
@@ -36,7 +36,6 @@ diagnostic_signals:
   - framework_lens: 新人友好度与分成门槛
     follow_up_question: 你是否有成熟制作资源，还是个人或小团队从 0 开始？
 
----
 
 # 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 

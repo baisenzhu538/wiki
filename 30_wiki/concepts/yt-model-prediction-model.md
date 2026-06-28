@@ -1,6 +1,6 @@
 ---
 domain:
-  - src_unknown
+- modeling
 
 
 
@@ -41,13 +41,12 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-
----# 预判模型：从最糙版到复杂版的三种预判范式
+- [[ocr-预判模型]]
+- [[yt-panproduct-aesthetic-modeling]]
+- [[yt-foresight-model-taxonomy]]
+- [[yt-entrepreneur-fundraising]]
+- [[yt-entrepreneur-pragmatic-startup]]
+# 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
 >

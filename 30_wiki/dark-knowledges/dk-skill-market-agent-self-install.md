@@ -6,8 +6,8 @@ type: dk
 dark_knowledge_type: paradigm-shift
 status: enriched
 domain:
-- src_unknown
-- src_unknown
+- ai-collaboration
+- yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
 source_refs:
@@ -15,16 +15,16 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- [[plan_20260621_skill-iteration-standard]]
+- [[dk-ban-fei-mao-skill-rejection-value]]
+- [[case-半肥猫-course-to-skill]]
+- [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
+- [[case-ban-fei-mao-conversion-hacker-skill]]
+- [[case-ji-hao-skill-market-problem-validation]]
+- [[concept-纪浩-ai-collaboration-five-layer]]
+- [[case-纪浩-from-zip-to-five-layers]]
+- [[case-纪浩-focus-prompt-design]]
+- [[case-半肥猫-course-to-skill]]
 tags:
 - src_unknown
 - src_unknown
@@ -44,8 +44,7 @@ diagnostic_signals:
   follow_up_question: 你的 Skill 里有这些吗：输入格式约束、输出格式约束、评分规则、拒绝条件、边界声明？缺了任何一个，Agent 就是在猜。
 - signal: src_unknown
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
-  follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。
----# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
+  follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。# 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
 
 > 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。
 
