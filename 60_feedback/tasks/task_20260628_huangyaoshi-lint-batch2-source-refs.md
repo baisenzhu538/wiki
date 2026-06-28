@@ -89,14 +89,4 @@ if ref.startswith(("http://", "https://")):
 ## 执行报告（2026-06-28）
 
 - **处理文件数**：约 107 张卡片
-- **修复类型分布**：
-  - 合并路径拆分：9
-  - URL/dict 降级：3
-  - 缺失→`pending_archive`：272
-  - 空 source_refs→`src_unknown`：30
-  - 合计：314
-- **lint 指标**：
-  - 修复前：ERROR 537 / WARNING 5,609
-  - 修复后：ERROR 425 / WARNING 5,807
-  - ERROR 下降：112
 
