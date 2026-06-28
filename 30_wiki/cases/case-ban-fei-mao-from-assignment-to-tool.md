@@ -13,7 +13,7 @@ source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 related:
   - src_unknown
   - src_unknown
