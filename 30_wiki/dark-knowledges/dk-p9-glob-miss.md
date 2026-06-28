@@ -1,5 +1,4 @@
 ---
-
 id: dk-p9-glob-miss
 title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 type: dk
@@ -12,7 +11,7 @@ source_context: pitfalls.md P-9
 source_refs:
   - src_unknown []
 created_at: 2026-06-03
-updated_at: '2026-06-19'
+updated_at: 2026-06-28
 related:
 - [[dk-p8-toolkit-forget]]
 - [[dk-p15-unverified]]
@@ -28,7 +27,8 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
----## 原始表述 / 核心洞察
+---
+## 原始表述 / 核心洞察
 
 > **症状**：用户说设计域文件在 `00_inbox/design/`，执行 `Glob "00_inbox/*design*/**/*"` + `Glob "00_inbox/**/*.txt"` 均返回空。结论"文件不存在"。用户指出文件就在那里后，改用 PowerShell `Get-ChildItem -Recurse` 立即找到：`design\AI设计-AI设计基础01.txt` (72KB) 和 `AI设计-AI设计师实操培训01.txt` (122KB)。误判导致任务文件被错误标注为"阻塞"后又回滚，浪费时间+信誉。
 >
@@ -41,6 +41,10 @@ diagnostic_signals:
 > - 永远不要用一个工具的 negative result 作为最终结论
 > - 宣布"文件缺失"前，至少用两种工具交叉验证
 > - 本次误判已直接导致用户不满（"连你都失忆了"）
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
 
 ## 使用场景
 

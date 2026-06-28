@@ -1,5 +1,4 @@
 ---
-
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
@@ -43,7 +42,9 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
----## 原始表述 / 核心洞察
+updated_at: 2026-06-28
+---
+## 原始表述 / 核心洞察
 
 在第 26 节清理 master 系统暗知识时，同一类问题反复出现：
 
@@ -54,6 +55,10 @@ diagnostic_signals:
 - src_unknown
 
 **核心洞察**：在批量/自动化系统中，小格式错误（regex 边界、YAML 引号、路径命名、字段兼容）不会被"局部消化"，而是会被规模放大为系统性失效。更隐蔽的是，下游 validator 往往只检查"字段存在"不检查"内容正确"，于是系统给出虚假的 PASS，让人误以为一切正常。
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
 
 ## 使用场景
 

@@ -1,5 +1,4 @@
 ---
-
 id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
 type: dk
@@ -44,7 +43,9 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 人眼与机器解析不一致
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？# 命名不规范会让整条工具链"失明"
----## 原始表述 / 核心洞察
+updated_at: 2026-06-28
+---
+## 原始表述 / 核心洞察
 
 在第 26、27 节精修中，同一类问题反复出现：
 
@@ -55,6 +56,10 @@ diagnostic_signals:
 - src_unknown
 
 **核心洞察**：命名不是"怎么好读怎么写"的装饰，而是工具链能够识别、索引、校验、链接的基础设施。一旦命名超出正则、解析器、链接器的能力边界，整条工具链就会"失明"——它看不到完整信息，只能看到前半段、错误段，或者根本看不到。人眼觉得对，机器已经错了。
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
 
 ## 使用场景
 

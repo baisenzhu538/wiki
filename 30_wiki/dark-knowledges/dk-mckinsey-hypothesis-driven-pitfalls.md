@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-mckinsey-hypothesis-driven-pitfalls
 title: 暗知：假设驱动方法论的三个反直觉陷阱
 type: dk
@@ -29,12 +27,13 @@ related:
 tags: []
 version: 1
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 reviewed_by: laowantong
 author: unknown
 confidence: 0.85
 trust_level: medium-high
----# 暗知：假设驱动方法论的三个反直觉陷阱
+---
+# 暗知：假设驱动方法论的三个反直觉陷阱
 
 ## 原始表述
 

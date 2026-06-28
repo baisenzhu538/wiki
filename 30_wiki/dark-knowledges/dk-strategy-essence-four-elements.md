@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-essence-four-elements
 title: 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
 type: dk
@@ -18,7 +17,10 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----# 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
+reviewed_by: 欧阳锋
+updated_at: 2026-06-28
+---
+# 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
 
 ## 原始表述
 

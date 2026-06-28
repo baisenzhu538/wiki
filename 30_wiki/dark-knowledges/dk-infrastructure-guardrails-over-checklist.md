@@ -1,5 +1,4 @@
 ---
-
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dk
@@ -43,7 +42,9 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
----## 原始表述 / 核心洞察
+updated_at: 2026-06-28
+---
+## 原始表述 / 核心洞察
 
 第 26 节在清理 master 系统暗知识时，连续出现同一个模式：
 
@@ -53,6 +54,10 @@ diagnostic_signals:
 - src_unknown
 
 **核心洞察**：当操作的影响范围大、恢复成本高、或执行者容易疲劳/误解时，仅靠检查清单、文档、口头约束是不够的。基础设施工具必须把关键约束变成"硬护栏"——即使执行者想犯错，系统也能在物理上阻止、减速或给出不可绕过的二次确认。
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
 
 ## 使用场景
 

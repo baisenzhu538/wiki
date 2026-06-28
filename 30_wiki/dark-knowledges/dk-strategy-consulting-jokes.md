@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-consulting-jokes
 title: 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 type: dk
@@ -18,7 +17,10 @@ source_refs:
   - src_unknown
   - src_unknown
   - src_unknown
----# 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
+reviewed_by: 欧阳锋
+updated_at: 2026-06-28
+---
+# 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 
 ## 原始表述
 

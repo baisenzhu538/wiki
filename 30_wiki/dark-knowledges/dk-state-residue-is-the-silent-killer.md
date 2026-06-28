@@ -1,5 +1,4 @@
 ---
-
 id: dk-state-residue-is-the-silent-killer
 title: 状态残留是自动化系统里最隐蔽的 bug
 type: dk
@@ -45,7 +44,9 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 僵尸/残留累积
   follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？# 状态残留是自动化系统里最隐蔽的 bug
----## 原始表述 / 核心洞察
+updated_at: 2026-06-28
+---
+## 原始表述 / 核心洞察
 
 在第 27 节清理 master 系统暗知识时，同一类问题反复出现：
 
@@ -57,6 +58,10 @@ diagnostic_signals:
 - src_unknown
 
 **核心洞察**：自动化系统里最隐蔽、最难复现、最耗时的 bug，往往不是逻辑错误，而是"状态残留"——旧的环境变量、缓存、session、token、进程、临时文件没有被清理，导致当前执行的是"别人的上下文"。更危险的是，这些残留通常只在特定组合下触发，换一台机器、重启一次、重新登录一次就消失了，让调试者误以为是"偶发"。
+
+## 原始表述
+
+- src_unknown（待补充来源原话）
 
 ## 使用场景
 

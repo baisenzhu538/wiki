@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
 type: dk
@@ -35,7 +34,7 @@ tags:
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: 2026-06-28
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 清单体格式四规则至少一条失效
@@ -49,7 +48,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
----## 原始表述
+---
+## 原始表述
 
 > 我能接受的是但凡你遇到了换行，但凡换行就有分解……超过七八个就分层……优先级，遇到决策就分级……建模要完备。
 
