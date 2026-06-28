@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,8 +10,8 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——迭代方法
 source_refs:
-  - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
-  - src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
+  - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+  - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

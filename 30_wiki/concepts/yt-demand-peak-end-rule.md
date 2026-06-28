@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,8 +10,8 @@ confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南
 source_refs:
-  - src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
-  - src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
+  - 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
+  - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

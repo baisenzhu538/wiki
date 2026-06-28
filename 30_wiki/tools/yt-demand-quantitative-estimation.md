@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,8 +10,8 @@ confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析口述——"市场规模估算四种方法"
 source_refs:
-  - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+  - 10_raw/sources/src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md
+  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

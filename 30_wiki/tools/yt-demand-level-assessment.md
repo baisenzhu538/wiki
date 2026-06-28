@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——段位图与进阶路径
 source_refs:
-  - src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
-  - src_20260611_78d65c7a-一堂-一堂五步法-需求-段位示例-01_paddle_ocr.md
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+  - 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
+  - 10_raw/sources/src_20260611_78d65c7a-一堂-一堂五步法-需求-段位示例-01_paddle_ocr.md
+  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

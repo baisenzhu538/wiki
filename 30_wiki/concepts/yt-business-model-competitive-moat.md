@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,8 +10,8 @@ confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——护城河
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
+  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+  - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

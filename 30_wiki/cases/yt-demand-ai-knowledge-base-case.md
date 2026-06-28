@@ -10,8 +10,8 @@ confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析——AI企业知识库案例
 source_refs:
-  - src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+  - 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
+  - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
 updated_at: 2026-06-28
 author: 老顽童

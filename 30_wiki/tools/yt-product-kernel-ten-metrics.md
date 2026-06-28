@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——十大典型指标
 source_refs:
-  - src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
-  - src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
-  - src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
+  - 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
+  - 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
+  - 10_raw/sources/src_20260611_94673a56-一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

@@ -10,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——洗发水案例
 source_refs:
-  - src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
-  - src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
-  - src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+  - 10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
+  - 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
+  - 10_raw/sources/src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
 created_at: "2026-06-19"
 updated_at: 2026-06-28
 author: 老顽童

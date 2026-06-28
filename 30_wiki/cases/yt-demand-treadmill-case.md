@@ -10,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——跑步机案例
 source_refs:
-  - src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
-  - src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
-  - src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
+  - 10_raw/sources/src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
+  - 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
+  - 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 created_at: "2026-06-19"
 updated_at: 2026-06-28
 author: 老顽童

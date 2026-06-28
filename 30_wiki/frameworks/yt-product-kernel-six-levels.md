@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——六个段位
 source_refs:
-  - src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
-  - src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
-  - src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
+  - 10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
+  - 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
+  - 10_raw/sources/src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

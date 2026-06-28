@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,9 +10,9 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——产品内核画布
 source_refs:
-  - src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
-  - src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+  - 10_raw/sources/src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
+  - 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
+  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童

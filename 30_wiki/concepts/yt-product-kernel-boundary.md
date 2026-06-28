@@ -1,5 +1,4 @@
 ---
-
 domain:
   - src_unknown
 
@@ -11,8 +10,8 @@ confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——边界
 source_refs:
-  - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-  - src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
+  - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
+  - 10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童
