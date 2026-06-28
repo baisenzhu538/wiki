@@ -1,7 +1,7 @@
 ---
 id: task_20260628_laowantong-link-repair-b3-island-cards
 type: task
-status: in_progress
+status: pending_review
 assignee: 老顽童
 priority: P2
 created_at: 2026-06-28
@@ -108,3 +108,32 @@ source_refs:
 6. 修复后 `kdo lint` 无新增 ERROR，pre-submit 抽检通过
 
 **状态**：从 `pending_review` 改回 `in_progress`。
+
+## B3 修复执行报告（2026-06-28 第二轮）
+
+### 修复内容
+
+| 修复项 | 数量 | 说明 |
+|:---|---:|:---|
+| pending_unknown.md 移动 | 1 | 从 `30_wiki/concepts/` → `30_wiki/system/`，type 改为 `system` |
+| 单引号/YAML双重转义修复 | 1655 + 359 = 2014 | v1+v2 合计：`'[[xxx]]'` 和 `[[''xxx'']]` → `[[xxx]]` |
+| 缺 [[...]] 包裹修复 | 163 | bare id → `[[xxx]]` |
+| 纯文本句子删除 | 69 + 50 = 119 | Chinese sentence/annotation → 移除 |
+| "待补充链接" → `[[pending_unknown]]` | 641 + 34 = 675 | 纯文本占位 → wikilink 占位 |
+| 孤岛卡片补真实 wikilink | 33 张 / 117 条 | 20 有推荐 + 13 其他补入 |
+| 缺 related 字段补入 | 1 | `yt-concept-p-type-l-type` 补 related + 4 真实链接 |
+| YAML 格式修复 | 3 | 重复 source_refs / stray wikilink / missing fields |
+
+### 抽检结果
+
+- 20 张抽检：17 通过 + 3 修复后 PASS
+- kdo lint：140 ERROR（全为历史遗留，无新增）
+- kdo pre-submit：所有修复卡 PASS
+
+### 仍全 pending_unknown 的卡片
+
+- 68 张孤岛中 33 张已补真实 wikilink
+- 剩余 55 张 related 仍全为 `[[pending_unknown]]`（vault 中无同域/同主题卡片可推荐）
+- 这些卡片的正文 wikilinks 为空，域级推荐也无法覆盖，关键词搜索无匹配
+
+**修复后状态**：`pending_review`，待欧阳锋终审。

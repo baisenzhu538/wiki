@@ -43,8 +43,6 @@ related:
   - [[yitang-domain-digest]]
 ---
 
-- [[tool-yitang-supply-chain-research]]
-
 # 暗知识：素材命名不一致导致完整口述稿被遗漏
 
 ## 原始表述
