@@ -1,89 +1,187 @@
 ---
-
-id: tool-ci-define-phase
-title: CI Define阶段：KITs和KIQs——从决策倒推信息需求
-type: tool
-status: enriched
-author: 老顽童
-reviewed_by: 欧阳锋
-review_date: 2026-06-21
-created_at: 2026-06-21
-confidence: 0.88
-trust_level: high
-language: zh-CN
+id: "tool-ci-define-phase"
+title: "CI Define 阶段工具：决策驱动的问题定义"
+type: "tool"
 domain:
-  - yitang
-  - research
+  - "research"
+  - "strategy"
+tags:
+  - "CI"
+  - "Define阶段"
+  - "KITs"
+  - "KIQs"
+  - "决策驱动提问"
+source_person: "Truman（一堂）+ Competitive Intelligence Alliance"
+source_context: "CI Operating Model Define 阶段工具化实现"
 source_refs:
-- src_unknown
+  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
+  - "https://blog.bestbootcamps.com/competitive-intelligence-framework/"
 related:
-  - [[tool-key-assumptions-check]]
-  - [[tool-devils-advocacy]]
-  - [[business-research-skill-oscar-13-weapon-system]]
-  - [[tool-candy-oral-polish]]
-  - [[tool-indicators-signposts]]
-  - [[framework-ci-operating-model]]
-  - [[dk-yitang-research-question-quality]]
+  - "[[framework-ci-operating-model]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[tool-ci-implement-phase]]"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-28"
+created_at: "2026-06-28"
+updated_at: "2026-06-28"
+confidence: 0.78
+trust_level: "medium"
 ---
-# CI Define阶段：KITs和KIQs
 
-> 大多数调研失败不是因为收集不够，而是因为没搞清楚"收集什么"和"为什么收集"。KITs和KIQs是CI界解决这个问题的标准方法。
+# CI Define 阶段工具：决策驱动的问题定义
 
-## 方法
+## 原始表述
 
-### Step 1：定义KITs（Key Intelligence Topics）
+CI 失败的第一原因是**从 Gather（收集）开始，而不是从 Define（定义）开始**。
 
-列出当前最需要情报支持的3-5个决策领域。决策驱动，不是好奇心驱动。
+> "我们得调研一下竞品。"→ 这是"想知道"，不是"需要知道"。
+>
+> "竞品 X 的新定价策略会不会让我们在 Q3 丢单？"→ 这是"需要知道"，因为它直接改变决策。
 
-| KIT示例（好） | 不是KIT（坏） |
+Define 阶段的核心工具：**KITs（Key Intelligence Topics）** 和 **KIQs（Key Intelligence Questions）**——把模糊的"调研竞品"变成可验证的具体问题。
+
+---
+
+## 使用场景
+
+### 适合使用本工具的情境
+
+- 启动任何 CI 项目之前（**必须先过 Define，才能进 Gather**）
+- 销售团队说"我们得了解一下竞品"但说不清为什么
+- 产品路线图讨论中，有人提出"竞品在做 X"但没人知道这改变什么决策
+- 市场团队输出的竞品报告被销售团队忽略（因为报告没有回答销售实际面临的决策问题）
+
+### 不适合的情境
+
+- 已经有了明确的竞品应对方案，只需要补充细节（此时直接进 Gather）
+- 一次性竞品分析，不需要持续 CI 程序（此时用一堂三层八模块即可）
+
+---
+
+## 操作方法
+
+### 第一步：区分"想知道"和"需要知道"
+
+| 类型 | 特征 | 示例 | 处理方式 |
+|:---|:---|:---|:---|
+| **想知道（Nice to Know）** | 好奇心驱动，不改变具体决策 | "竞品 A 的创始人和背景" | 记录到"待追踪清单"，不分配资源 |
+| **需要知道（Need to Know）** | 直接改变一个可验证的决策 | "竞品 A 的新定价是否会让我们在 >50 人企业中丢单？" | 分配资源，进入 KIQ 流程 |
+
+**判断标准**：如果这个问题的答案**不会改变任何人的任何决策**，它就是"想知道"。
+
+### 第二步：把业务目标翻译成 KITs（Key Intelligence Topics）
+
+KIT = 需要情报覆盖的**主题领域**，从业务目标推导出来。
+
+**示例转换**：
+
+| 业务目标 | 推导出的 KITs |
 |:---|:---|
-| "竞对的新定价是否会在Q3影响我们的win rate？" | "了解一下竞对在做什么" |
-| "A公司的新品在哪些客户群获得了traction？" | "A公司的产品怎么样" |
+| 将 X 细分市场 vs 竞品 A 的赢单率提升 10% | ① 竞品 A 在 X 细分市场的定价策略 ② 竞品 A 的销售话术和攻防点 ③ X 细分市场客户选择竞品 A 的核心决策因素 |
+| 识别新兴入局者，在它们出现在 30% 订单前预警 | ① 相邻领域玩家动态 ② VC 投资流向（替代品类）③ 客户"我们正在评估其他方案"的提及率趋势 |
 
-### Step 2：将KITs拆解为KIQs（Key Intelligence Questions）
+### 第三步：把 KITs 翻译成 KIQs（Key Intelligence Questions）
 
-每个KIT拆成3-5个可回答的具体问题。
+KIQ = 对某个 KIT 提出的**具体可验证的问题**，必须满足：
+1. 答案会改变一个具体决策
+2. 有可操作的下一步（不只是"了解情况"）
+3. 可以在 2-4 周内找到答案（不算"长期战略研究"）
 
-> KIT: "竞对的新定价是否会在Q3影响我们的win rate？"
-> → KIQ1: 竞对的新价格比我们低多少？
-> → KIQ2: 哪些客户群对价格最敏感？
-> → KIQ3: 过去竞对调价后，我们的win rate变化规律是什么？
-> → KIQ4: 竞对的定价策略是永久性还是促销性？
+**KIT → KIQ 示例**：
 
-### Step 3：四象限区分"需要知道"vs"想知道"
-
-| | 能直接回答决策 | 不能直接回答决策 |
+| KIT | KIQ（好） | KIQ（不好） |
 |:---|:---|:---|
-| **容易获取** | ✅ 优先做 | ⚠️ 做了但别花太多时间 |
-| **难获取** | 🔑 核心投入 | ❌ 砍掉 |
+| 竞品 A 的定价策略 | 竞品 A 的"基础版+增值模块"定价，是否让我们的"一体化定价"在 <100 人公司中处于劣势？ | 竞品 A 的定价是多少？（只是收集信息） |
+| 客户选择竞品 A 的决策因素 | 在过去 6 个月输给竞品 A 的订单中，客户提到的前 3 个弃选原因是什么？ | 客户为什么选竞品 A？（太宽泛，无法验证） |
 
-## Agent执行指令
+### 第四步：给每个 KIQ 分配信息来源策略
 
-```python
-# KIQ生成模板（Agent根据决策场景自动生成KIQs）
-prompt = """你是一个CI分析师。当前关键决策是：
-[DECISION]
-请生成5-8个KIQs（Key Intelligence Questions），要求：
-1. 每个KIQ是可回答的具体问题（不要用"了解"这类模糊动词）
-2. 每个KIQ标注数据来源难度（easy/medium/hard）
-3. 用四象限区分优先级
-4. 输出格式：| KIQ | 难度 | 优先级 | 数据来源建议 |
-"""
-```
-
-## 失败模式
-
-| 失败 | 症状 | 修复 |
+| KIQ 类型 | 优先信息来源 | 验证方法 |
 |:---|:---|:---|
-| 问题太宽 | "竞对在做什么"——无法回答 | 加限定词：哪个竞对？在哪个市场？什么时间范围？ |
-| 问题太多 | 20个KIQ，资源无法覆盖 | 强制Top 5，其余放入"如果时间允许"清单 |
-| 问题与决策无关 | 收集了很多有趣但与决策无关的信息 | 每个KIQ必须回答"这个答案会改变什么决策" |
+| 竞品定价/产品功能 | 公开定价页、产品文档、G2/Capterra 评价 | 3 个独立来源交叉验证 |
+| 客户弃选原因 | 赢单/输单访谈（一线销售）、CRM 异议标签 | 至少 5 个样本，寻找模式而非个例 |
+| 竞品战略意图 | 招聘信息、新闻稿、财报、行业分析师报告 | 多时间点的趋势比对 |
+
+---
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
+### 有效使用的条件
+
+- 有明确的业务目标（"提升赢单率""降低流失"），而不是"了解竞品"
+- 有能力执行 Gather 阶段（有一手和二手信息来源渠道）
+- 决策层愿意根据 CI 发现调整策略（否则 Define 做得再好也没用）
+
+### 常见误用
+
+- **把 KIQ 写成"了解竞品 X 的 Y"**→ 这是"想知道"，不是"需要知道"
+- **KIT 太多（>7 个）**→ 资源会分散，优先覆盖 Tier 1 竞品相关的 KITs
+- **没有验证标准**→ 每个 KIQ 必须写明"什么答案会改变什么决策"
 
 ---
 
-*卡片类型：tool | 审核状态：待审*
+## 为什么值钱
+
+1. **避免"海量信息零决策改变"**：Define 阶段强制明确"这个信息要改变什么"，是 CI 从成本中心变成收入引擎的起点。
+2. **和一堂武器库无缝对接**：Define 阶段输出 KIQs，直接对应三层八模块的"找什么信息"，Gather 阶段完全复用武器库。
+3. **可衡量**：每个 KIQ 都绑定一个决策，CI 项目的成败可以量化（"这个 KIQ 的答案出来后，我们改变了什么？"）。
+
+---
+
+## 与其他知识的关联
+
+- **[[framework-ci-operating-model]]**
+
+← 本工具是 CI 四阶段循环「Define」阶段的工具化实现
+
+- **[[framework-yitang-18-strategy-cards]]**
+
+← 第 1-3 掌（假设与验证）和 Define 阶段概念同源——都是"先明确要验证什么，再找信息"
+
+- **[[tool-ci-implement-phase]]**
+
+→ Define 输出 KIQs → Gather 收集 → Analyze 分析 → Implement 落地，形成完整闭环
+
+- **[[framework-yitang-research-weapon-system]]**
+
+← Define 阶段的 KIQs 就是"三层八模块"要找的具体信息目标
+
+---
+
+## 失败模式
+
+| 失败模式 | 症状 | 根因 | 修正方法 |
+|:---|:---|:---|:---|
+| **"市研式 Define"** | Define 阶段输出了一份"竞品研究计划"，但和销售实际决策问题无关 | 从"调研"出发，不是从"决策"出发 | 每个 KIQ 必须写明"答案会改变什么决策"，否则删除 |
+| **"KIT 膨胀症"** | KIT 列表越来越长（>10 个），资源完全分散 | 没有强制优先级排序 | 限制 KIT 数量 ≤5 个，只覆盖 Tier 1 竞品 |
+| **"无法验证的 KIQ"** | KIQ 写得像研究方向（"竞品战略分析"），无法在 2-4 周内回答 | 没有转化为可操作的具体问题 | 每个 KIQ 必须写成"是否/多少/哪些"的可验证形式 |
+| **"Define 和 Gather 脱节"** | Define 阶段写了一堆 KIQs，但 Gather 阶段还是按"全面收集"的老方法做 | Define 输出没有被转化为 Gather 的检查清单 | Define 输出 KIQs → 直接转化为 Gather 阶段的"证据收集清单" |
+
+---
+
+## Action Checklist
+
+- [ ] 列出当前最影响业务结果的 1-2 个竞品相关决策
+- [ ] 把每个决策翻译成 1-2 个 KIT（不超过 5 个 KITs 总数）
+- [ ] 把每个 KIT 翻译成 1-3 个 KIQ（必须满足"答案会改变决策"）
+- [ ] 给每个 KIQ 分配信息来源策略（一手 vs 二手，谁负责收集）
+- [ ] 明确"什么答案会触发什么行动"（最关键的 Define 输出——决策触发器）
+- [ ] 和一线销售/产品负责人确认：这些 KIQs 真的是他们面临的决策问题吗？
+
+---
+
+## 来源与验证
+
+| 断言 | 来源 | 可信度 |
+|:---|:---|:---|
+| KITs/KIQs 方法是 CI Define 阶段标准工具 | Competitive Intelligence Alliance 框架指南 | A（专业机构文献） |
+| "想知道"vs"需要知道"的区分是 CI 入门关键 | BestBootcamps CI 框架指南 | A（行业最佳实践） |
+| 一堂武器库缺少 Define 阶段 | diag_20260621_外部知识探索_三个新盲区.md | A（诊断报告，已交叉验证） |
+
+---
+
+## 口述数据标注
+
+> 来源：外部 CI 专业文献 + 一堂诊断报告交叉验证。KIT/KIQ 方法有三堂课程（一堂科学决策、需求分析）部分覆盖，但无系统化工具卡。本卡为首次系统化补全。
+>
+> ⚠️ "KIQ 必须在 2-4 周内可回答"——此为 CI 业界最佳实践建议，具体时间取决于组织信息收集能力，可根据实际情况调整。

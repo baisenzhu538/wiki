@@ -6,40 +6,40 @@ type: dk
 dark_knowledge_type: failure
 status: enriched
 domain:
-  - src_unknown
+  - master
 source_person: system
 source_context: failure-modes.md F-KDO-013
 source_refs:
-  - src_unknown
+  - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+  - '[[dk-p18-yaml-parser]]'
+  - '[[dk-p19-quote-yaml]]'
+  - '[[proposal-yaml-frontmatter-standardization]]'
+  - '[[kdo-yaml-frontmatter-safety]]'
+  - '[[master-first-principles]]'
+  - '[[dk-c1-cjk-regex-silent-fail]]'
 pipeline:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-reviewed
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
-    follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
-  - signal: src_unknown
-    framework_lens: 'YAML 的缩进、引号、列表标记 `-`、多行字符串规则被忽略，结构已损坏但文件看起来仍像合法 YAML'
-    follow_up_question: '立即用 `git diff` 检查变更，对异常文件做 round-trip 校验（读取→dump→比对）确认结构是否一致'
-  - signal: src_unknown
-    framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
-    follow_up_question: ''
+  - signal: "批量修改 frontmatter 的脚本使用字符串替换、正则或 `.split(\\"---\\\")` 拆分，而非 `yaml.safe_load()`"
+  framework_lens: '手写解析器只能处理平铺 `key: value`，遇到嵌套列表、字典、多行字符串会静默损毁结构'
+  follow_up_question: '检查脚本是否使用 PyYAML 等标准库解析并回写；若不是，立即停止并改用 `yaml.safe_load()` + `yaml.dump()`'
+- signal: '批量修改后某些卡片的 `related:` 列表项合并/丢失，或 `domain:` 层级被抹平'
+  framework_lens: 'YAML 的缩进、引号、列表标记 `-`、多行字符串规则被忽略，结构已损坏但文件看起来仍像合法 YAML'
+  follow_up_question: '立即用 `git diff` 检查变更，对异常文件做 round-trip 校验（读取→dump→比对）确认结构是否一致'
+- signal: 'dry-run 输出目录中抽检发现嵌套结构异常'
+  framework_lens: '手写解析器的错误在批量场景下被放大，dry-run 与人工抽检是拦截结构损坏的最后一道防线'
+  follow_up_question: '批量修改前是否输出到临时目录并抽检 3-5 个文件的列表、字典、多行字符串是否完好？'
 ---
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 
