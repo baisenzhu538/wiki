@@ -653,6 +653,22 @@ related:
 5. **时效性**：渠道探索/工业化相关案例多为 2024 年及更早素材，卡片已补充时效性说明，请确认是否充分。
 6. **工具卡可执行性**：`tool-yitang-channel-industrialization-node-design`、`tool-yitang-channel-scoring-matrix`、`tool-yitang-referral-channel-optimization` 含 worksheet/checklist，请抽检是否可直接使用。
 
+#### 终审前补充修复（2026-06-28）
+
+欧阳锋终审前发现 7 张案例卡缺失标准化 section，已补充完成：
+
+| 卡片 | 补全 section | 说明 |
+|:---|:---|:---|
+| case-yitang-yitang-course-industrialization | 可迁移场景 | 补充知识生产、创意交付、个人英雄转型三类场景及最小 5 节点 |
+| case-yitang-redburger-selection-industrialization | 可迁移场景 | 补充高频上新、产品组合复杂、经验驱动转型三类场景及最小 4 节点 |
+| case-yitang-yitang-shortvideo-industrialization | 可迁移场景 + 失败模式 | 补充个人 IP、内容团队、质量下限三类场景；补充 6 条失败模式表格 |
+| case-yitang-maiyi-cloud-computer-channel | 失败模式 | 补充 6 条渠道探索常见失败模式表格 |
+| case-yitang-lianjia-site-selection-industrialization | 失败模式 | 补充 6 条选址工业化失败模式表格 |
+| case-yitang-yitu-lead-industrialization | 失败模式 | 补充 6 条销售线索漏斗失败模式表格 |
+| case-yitang-yitang-self-growth-channel | 失败模式 | 补充 7 条渠道增长曲线失败模式表格 |
+
+7 张卡已通过 `kdo pre-submit` 复核。
+
 ### 4.2 验收流程
 
 1. 王语嫣跑 `kdo pre-submit` 全量复核；
