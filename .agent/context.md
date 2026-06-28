@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "WorkBuddy 老顽童完成 Batch 2-A/B 生产并提交欧阳锋终审（2026-06-28）：130 case + 43 dk 文件 kdo pre-submit 全通过；黄药师继续 Batch 2-C source_refs 清理；王语嫣跟踪 pending_review 队列"
+active_task: "Batch 2-A/B/C 全部生产完成并提交欧阳锋终审（2026-06-28）：A/B 173/173 pre-submit 通过，C source_refs 类 ERROR 清零、lint 537→425；等待欧阳锋终审；王语嫣继续 Wave 6 诊断"
 blockers:
   - "✅ WorkBuddy 老顽童完成 Batch 2-A/B（2026-06-28）：130 张 case 卡 + 43 张 dk 卡 section 标准化全部完成，`kdo pre-submit` 173/173 通过；任务单已更新为 pending_review，production-queue.md #13/#14 已同步；19 处 `[[src_unknown]]` 死链、2 处 `[['...']]` 格式错误已修复；待欧阳锋按 pending_review 顺序终审"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
@@ -22,13 +22,14 @@ blockers:
   - "✅ 欧阳锋完成 wave4 终审（2026-06-28）：15/15 张卡通过，`kdo pre-submit` 15/15 通过，`kdo lint` 目标卡无新增 ERROR；4.1 调研方法论域 8 张新卡 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；4.2 Master 域 7 张卡 domain 修正为 master，正文 src_unknown 占位清理；`production-queue.md` 任务 #8、`dashboard.md`、`60_feedback/tasks/review_20260628_ouyangfeng-wave4.md` 状态同步更新为 reviewed；wave5 已解锁"
   - "✅ WorkBuddy 完成 wave5 生产（2026-06-28）：12/12 张卡（CI 框架 3 + SATs 5 + 多智能体 4）`kdo pre-submit` 全部通过（12 passed/0 failed）；修复 wikilink 错误 4 处（`skill-半肥猫` → `tool-半肥猫`、`concepts/kimi-...` → `kimi-...`）；欧阳锋审查任务单已创建（`review_20260628_ouyangfeng-wave5.md`），状态 pending_review"
   - "✅ Hermes 老顽童完成 lint 基线清理 Batch 1（2026-06-28）：实际修复 784 个文件 frontmatter 机械错误（659 + 复查追加 125），frontmatter parse 类 ERROR 从 697 清零；`kdo lint` 剩余 890 个 ERROR 均为内容/section/source_refs/URL 类，需后续任务处理；`production-queue.md` / `dashboard.md` / 任务单已同步为 pending_review"
+  - "✅ 洪七公修复 Hermes 老顽童 CLI Kimi API Key（2026-06-28）：WSL `~/.hermes/.env` + `~/.hermes/profiles/laowantong/.env` 同步更新新 key；清除 `~/.hermes/auth.json` kimi-coding 缓存；直连 API 验证 HTTP 200；laowantong gateway 因 Feishu app_id 冲突无法与其他 gateway 并存，已停止并禁用 service，老顽童 CLI 模式可用"
   - "🆕 角色停车场机制上线（2026-06-28）：黄药师的'停车场清单'工作方式推广到全角色；已创建 `parking-lot-huangyaoshi.md` 和 `parking-lot-ouyangfeng.md`；`dashboard.md` 增加'角色停车场'汇总区块；P-1/P-6 已移入当前任务清单"
   - "✅ 黄药师完成 P0 任务（2026-06-28）：M-确认检测器稳定运行；KF-021 完成 188 个 source_refs hash 前缀→完整文件名（0 歧义，lint 522→519）；Task Q 出链门禁上线（Synthesis <2 links WARN + 跨域检测 WARN）"
   - "✅ 黄药师完成 P-1 query 分层排序（2026-06-28）：`kdo query` 实现 Core→Extended→Reference 三层排序；Core 为 domains/frameworks/systems 目录卡，Extended 为 tools/concepts/cases/dk，Reference 为 raw/_archive/trust_low；Graph RAG 和 BM25 两条路径及 `--save` 输出均生效"
   - "🆕 黄药师开始 P-6 research skill 适配（2026-06-28）：将 WebSearch/WebFetch/Agent 工具调用层翻译为 kdo-tools，让 Hermes Agent 也能使用；黄药师当前最后一项 P1 任务"
   - "🆕 lint Batch 2 子任务拆分并入队（2026-06-28）：A case section（130 文件）、B dk section（43 文件）由 WorkBuddy 老顽童负责，C source_refs（约 107 文件 / 176 错误）由黄药师负责；890 ERROR 中 690 为 Batch1 修复后基线、200 为 frontmatter 修复后暴露的内容级错误；Hermes 老顽童 Batch1 完成后待命"
   - "🆕 125 个原 `colon_in_scalar_other` 文件已确认无 YAML 解析错误，按当前错误类型归入 Batch 2-A/B/C，不单独建 YAML 解析任务"
-  - "🆕 Batch 2-C 增加前置快速补丁（2026-06-28）：黄药师先改 KDO CLI lint 规则跳过 URL source_refs，预计减少 16 个 ERROR；补丁完成后再处理合并写法/不存在文件/空 source_refs"
+  - "✅ 黄药师完成 Batch 2-C（2026-06-28）：URL 跳过补丁上线，source_refs 类 ERROR 清零；合并路径拆分 9 / URL/dict 降级 3 / pending_archive 272 / 空 source_refs→src_unknown 30，合计 314；lint ERROR 从 537 降至 425（↓112）；任务单已更新执行报告，production-queue.md 状态为 done/pending_review"
   - "🆕 Wave 6 新盲区诊断任务已入队（2026-06-28）：王语嫣负责基于周报和对话记录识别 1-2 个新盲区并拆任务入队"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡，WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零"
   - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已由 Kimi 老顽童完成并通过欧阳锋终审"

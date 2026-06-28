@@ -1,7 +1,7 @@
 ---
 id: task_20260628_huangyaoshi-lint-batch2-source-refs
 type: task
-status: queued
+status: done
 assignee: 黄药师
 priority: P1
 created_at: 2026-06-28
@@ -11,6 +11,25 @@ source_refs:
 - 90_control/.tmp/lint_20260628_1620.log
 - 90_control/.tmp/lint_batch2_source_refs.json
 ---
+
+## 执行报告
+
+| 修复类型 | 数量 |
+|:---|:---|
+| 前置补丁：URL source_refs lint 跳过 | ✅ `workspace.py` +2 行 |
+| 合并路径拆分（` - ` 分隔→独立列表项） | 9 |
+| URL/dict 格式→src_unknown | 3 |
+| 缺失文件→pending_archive | 272 |
+| 空 source_refs→src_unknown | 30 |
+| **合计** | **314** |
+
+| 指标 | 修复前 | 修复后 |
+|:---|:---|:---|
+| lint ERROR | 537 | **425**（↓112） |
+
+- 全部 107+ 文件 kdo lint source_refs 类 ERROR 清零
+- pending_archive 格式保留原始路径线索，待后续补归档
+- 残留 425 ERROR 为 case/dk section 缺失等既有内容债务，不在本任务范围
 
 # lint Batch 2-C：source_refs 真实存在性清理（107 文件）
 
@@ -66,3 +85,21 @@ if ref.startswith(("http://", "https://")):
 ## 输出
 
 完成后写执行报告：处理文件数、拆分条目数、URL 处置数、pending_archive 数、找到并修正的真实文件数。
+
+## 执行报告（2026-06-28）
+
+- **处理文件数**：约 107 张卡片
+- **修复类型分布**：
+  - 合并路径拆分：9
+  - URL/dict 降级：3
+  - 缺失→`pending_archive`：272
+  - 空 source_refs→`src_unknown`：30
+  - 合计：314
+- **lint 指标**：
+  - 修复前：ERROR 537 / WARNING 5,609
+  - 修复后：ERROR 425 / WARNING 5,807
+  - ERROR 下降：112
+- **source_refs 类 ERROR**：已清零
+- **URL 跳过补丁**：已修改 KDO CLI lint 规则，`http://` / `https://` source_refs 不再报本地文件不存在错误
+- **残余问题**：剩余 425 ERROR 为 case/dk section 缺失等既有债务，由 Batch 2-A/B 处理
+- **下一步**：提交欧阳锋终审
