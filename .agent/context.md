@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-28
 active_branch: main
-active_task: "王语嫣拆分 lint Batch 2 并入队（2026-06-28）：case section / dk section / source_refs 三类错误分别交给老顽童/黄药师；Wave 6 诊断任务同步入队；等待 Hermes/黄药师/王语嫣各自领取执行"
+active_task: "王语嫣完成 lint Batch 2 拆分与人员调整（2026-06-28）：WorkBuddy 老顽童负责 Batch 2-A/B，黄药师负责 Batch 2-C，王语嫣负责 Wave 6 诊断；Hermes 老顽童 Batch1 完成后待命；等待 WorkBuddy/黄药师/王语嫣领取执行"
 blockers:
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
@@ -25,7 +25,8 @@ blockers:
   - "✅ 黄药师完成 P0 任务（2026-06-28）：M-确认检测器稳定运行；KF-021 完成 188 个 source_refs hash 前缀→完整文件名（0 歧义，lint 522→519）；Task Q 出链门禁上线（Synthesis <2 links WARN + 跨域检测 WARN）"
   - "✅ 黄药师完成 P-1 query 分层排序（2026-06-28）：`kdo query` 实现 Core→Extended→Reference 三层排序；Core 为 domains/frameworks/systems 目录卡，Extended 为 tools/concepts/cases/dk，Reference 为 raw/_archive/trust_low；Graph RAG 和 BM25 两条路径及 `--save` 输出均生效"
   - "🆕 黄药师开始 P-6 research skill 适配（2026-06-28）：将 WebSearch/WebFetch/Agent 工具调用层翻译为 kdo-tools，让 Hermes Agent 也能使用；黄药师当前最后一项 P1 任务"
-  - "🆕 lint Batch 2 子任务拆分并入队（2026-06-28）：A case section（130 文件，老顽童）、B dk section（43 文件，老顽童）、C source_refs（107 文件，黄药师）；目标将 `kdo lint` 剩余 890 ERROR 降至 100 以下"
+  - "🆕 lint Batch 2 子任务拆分并入队（2026-06-28）：A case section（130 文件）、B dk section（43 文件）由 WorkBuddy 老顽童负责，C source_refs（约 107 文件 / 176 错误）由黄药师负责；890 ERROR 中 690 为 Batch1 修复后基线、200 为 frontmatter 修复后暴露的内容级错误；Hermes 老顽童 Batch1 完成后待命"
+  - "🆕 125 个原 `colon_in_scalar_other` 文件已确认无 YAML 解析错误，按当前错误类型归入 Batch 2-A/B/C，不单独建 YAML 解析任务"
   - "🆕 Wave 6 新盲区诊断任务已入队（2026-06-28）：王语嫣负责基于周报和对话记录识别 1-2 个新盲区并拆任务入队"
   - "🆕 dark-knowledges 第八批清零任务已创建（2026-06-28）：`60_feedback/tasks/task_20260628_laowantong-dark-knowledges-batch8.md`，10 张问题 dk 卡，WorkBuddy 老顽童负责，目标使 `dark-knowledges/` 目录 lint ERROR 归零"
   - "✅ 黄药师完成渠道增长域遗留清理（2026-06-28）：`30_wiki/dk/dk-yitang-channel-exploration-traps.md` 移至 `30_wiki/dark-knowledges/`，`30_wiki/frameworks/concept-yitang-channel-lean-validation-bridge.md` 移至 `30_wiki/concepts/`，全库 related wikilink 已更新，顺手修复 amazon/novel-app/topcity 3 张 case 卡 section；P1 剩余 10 张 case + 1 张 dk section 调整已由 Kimi 老顽童完成并通过欧阳锋终审"
