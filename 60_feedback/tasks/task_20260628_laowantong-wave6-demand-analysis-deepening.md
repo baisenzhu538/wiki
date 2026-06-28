@@ -1,12 +1,14 @@
 ---
 id: task_20260628_laowantong-wave6-demand-analysis-deepening
 type: task
-status: claimed-hermes
+status: reviewed
 assignee: 老顽童(Hermes)
 priority: P1
 created_at: 2026-06-28
 updated_at: 2026-06-28
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-06-28
 source_refs:
 - 60_feedback/diags/diag_20260628_wangyuyan-wave6-decision-science-demand-analysis.md
 - .agent/kb-evolution-direction.md
@@ -59,3 +61,24 @@ source_refs:
 - 当前需求分析域 reviewed 卡片约 20 张（不同统计口径），但缺少 case 卡和独立 index，诊断结论成立
 - 2 张 case 卡建议从一堂/精益创业素材中萃取真实案例，避免凭空编造
 - `framework-demand-validation-pipeline` 应与现有 `yt-demand-analysis-hiking-map` 等框架明确区分
+
+## 欧阳锋终审结论
+
+- **审查结果**：通过
+- **5 张卡片状态**：全部由 enriched 升级为 reviewed
+- **结构检查**：
+  - index 卡覆盖本域核心卡片 + 4 张新建卡，跨域桥接完整（产品内核/精益创业/渠道增长/决策科学/AI 协作）
+  - framework 卡含五步流水线、When NOT to Use、失败模式、跨域桥接
+  - dk 卡含 6 个标准 section（原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联）+ 六维判断框架扩展
+  - 2 张 case 卡含 4 个标准 section（关键证据/可迁移场景/教训/失败模式），ToB/ToC 场景覆盖完整
+- **lint 验证**：
+  - `kdo lint` 140 ERROR 全部为历史遗留（8 个空 source_refs + 132 个 case section 缺失）
+  - 修复 2 张 case 卡英文 section 标题后，case section 缺失 ERROR 从 140 降至 132
+  - #22 5 张新卡片无新增 ERROR/WARNING
+- **修复项**：
+  - 2 张 case 卡 section 标题由英文改为中文标准标题
+  - 5 张卡片 `status: enriched` → `reviewed`
+  - `domain-demand-analysis-index.md` 删除工具列表中多余的 `reviewed` 文本
+  - 5 张卡片全部加入 `30_wiki/index.md`
+- **pre-submit 验证**：5/5 PASS
+- **需求分析域 reviewed 卡片数**：统计口径提升，index 卡覆盖 24 张核心卡片
