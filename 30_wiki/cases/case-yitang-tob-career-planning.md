@@ -11,8 +11,8 @@ domain:
 source_refs:
 - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
-- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
   - src_unknown
   - src_unknown

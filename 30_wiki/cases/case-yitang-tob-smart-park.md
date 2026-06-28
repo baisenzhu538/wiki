@@ -10,7 +10,7 @@ domain:
   - src_unknown
 source_refs:
 - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - src_unknown
   - src_unknown

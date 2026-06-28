@@ -12,8 +12,8 @@ source_context: 一堂建模能力培训（AI 辅助建模案例与警示），2
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 created_at: '2026-06-14'
 updated_at: 2026-06-28
 confidence: 0.8

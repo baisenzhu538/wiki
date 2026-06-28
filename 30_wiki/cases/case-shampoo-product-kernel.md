@@ -11,8 +11,8 @@ source_context: 一堂五步法-产品内核课程案例
 source_refs:
 - pending_archive:src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
 - pending_archive:src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
-- src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
-- src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
+- pending_archive:src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
+- pending_archive:src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:

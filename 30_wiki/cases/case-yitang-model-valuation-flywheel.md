@@ -12,7 +12,7 @@ source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
 - src_unknown

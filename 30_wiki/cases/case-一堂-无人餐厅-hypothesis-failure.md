@@ -11,8 +11,8 @@ source_context: 一堂关键假设课，京东天津无人餐厅案例
 source_refs:
 - pending_archive:src_20260506_9b4788a6-声音和画面正常吗
 - pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
-- src_20260506_9b4788a6-声音和画面正常吗
-- src_20260606_22c4a291-一堂-关键假设课-truman-笔记
+- pending_archive:src_20260506_9b4788a6-声音和画面正常吗
+- pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:

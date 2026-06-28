@@ -11,8 +11,8 @@ source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
 - pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
 - pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
-- src_20260508_03a07f45-一堂-案例拆解-串讲口述
-- src_20260510_1aea3d4b-一堂-案例拆解-课程清单
+- pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
+- pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:

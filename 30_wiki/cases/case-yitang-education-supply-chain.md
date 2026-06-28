@@ -4,7 +4,7 @@ title: 案例：一堂是'教育供应链创新公司'——从真实实践里�
 type: case
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang
