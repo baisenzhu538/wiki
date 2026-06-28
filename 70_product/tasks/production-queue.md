@@ -54,13 +54,15 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 21 | `task_20260628_laowantong-wave6-decision-science-systematization` | Wave 6-A：决策科学域系统化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-decision-science-systematization.md` | 欧阳锋终审通过：5/5 卡片结构完整，lint 148 ERROR 全为历史遗留无新增；删除 framework-decision-quality-checklist 中重复 related；决策科学域 reviewed 从 14→18 |
 | 22 | `task_20260628_laowantong-wave6-demand-analysis-deepening` | Wave 6-B：需求分析域深化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-demand-analysis-deepening.md` | 欧阳锋终审通过：5/5 卡片结构完整，case section 英文标题改为中文；lint 140 ERROR 全为历史遗留无新增，且修复 8 个历史 case section 错误；5 张卡全部加入 index.md；pre-submit 5/5 PASS |
 | 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1：空 source_refs 清理 | reviewed | 黄药师 | 8 | 无 | `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 欧阳锋终审通过：8/8 文件 source_refs 补为 pending_archive；`kdo lint` empty source_refs ERROR 清零；pre-submit 8/8 PASS |
-| 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | reviewed | 老顽童(Hermes) | 83 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | 欧阳锋终审：frontmatter 修复完成（日期字段/parse error/title/type）；但实测 `kdo lint` 仍有 132 个 `Case card missing section` ERROR（33 文件），任务单基线判断错误；132 section 缺失需另开任务处理 |
+:
+| 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | done | 老顽童(Hermes) | 83 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | frontmatter 修复目标已完成（日期字段/parse error/title/type）；欧阳锋终审通过；132 个 `Case card missing section` 历史遗留已拆分为独立债务任务 #24-debt |
+| 24-debt | `task_20260629_historical-debt-case-section-132` | 历史债务：132 个 Case card missing section 修复 | paused | 待定 | 33 | 无 | `60_feedback/tasks/task_20260629_historical-debt-case-section-132.md` | A2 衍生的历史遗留债务；不进入活跃生产队列；用户决定是否启动 |
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡。
-> **当前 lint 基线**：`kdo lint` 剩余 132 ERROR，全部为 `Case card missing section`（33 文件）；A1 空 source_refs 已清零，A2 任务单基线判断错误，需另开任务处理 132 section 缺失。
-> **人员状态**：A1 已完成 reviewed；A2 已审查但发现基线错误，需重新拆分任务；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed。
-> **执行顺序建议**：132 case section 缺失需另开任务单后入队。
+> **当前 lint 基线**：`kdo lint` 剩余 132 ERROR，全部为 `Case card missing section`（33 文件），已标记为历史债务任务 #24-debt，不进入活跃队列；A1 空 source_refs 已清零；A2 frontmatter 修复已完成并 done。
+> **人员状态**：A1 已完成 reviewed；A2 已完成 done；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed。
+> **执行顺序建议**：132 case section 历史债务暂不处理，等用户决策。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 >
 > **🆘 临时分流（2026-06-27）**：Hermes 老顽童历史任务重，启动 Kimi 老顽童临时协助生产 2026-06-27 新标注任务。历史批量工单 waves 1-5 仍由 Hermes 负责；刻意练习域、渠道增长域、兰毅泛产品组织内容及跨域桥接卡由 Kimi 负责。欧阳锋/黄药师无感知——他们只按 pending_review 顺序审卡。
@@ -103,8 +105,8 @@ done
 | 日期 | 变更 | 变更人 |
 |:---|:---|:---|
 | 2026-06-27 | 创建统一生产队列，整合历史批量工单与新域任务 | 王语嫣 |
-| 2026-06-29 | #23 A1 reviewed；#24 A2 基线判断错误需重拆；#25 AI 学习方法论扩展卡入队 | 欧阳锋/王语嫣 |
+| 2026-06-29 | #23 A1 reviewed；#24 A2 done，132 case section 拆为 #24-debt 并 paused；#25 AI 学习方法论扩展卡入队 | 欧阳锋/王语嫣 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-29*
+*维护人：王语嫣 | 最后更新：2026-06-29（A2 结案，历史债务拆分）*
