@@ -55,8 +55,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 22 | `task_20260628_laowantong-wave6-demand-analysis-deepening` | Wave 6-B：需求分析域深化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-demand-analysis-deepening.md` | 欧阳锋终审通过：5/5 卡片结构完整，case section 英文标题改为中文；lint 140 ERROR 全为历史遗留无新增，且修复 8 个历史 case section 错误；5 张卡全部加入 index.md；pre-submit 5/5 PASS |
 | 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1：空 source_refs 清理 | reviewed | 黄药师 | 8 | 无 | `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 欧阳锋终审通过：8/8 文件 source_refs 补为 pending_archive；`kdo lint` empty source_refs ERROR 清零；pre-submit 8/8 PASS |
 | 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | reviewed | 老顽童(Hermes) | 83 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | 欧阳锋终审：frontmatter 修复完成（日期字段/parse error/title/type）；但实测 `kdo lint` 仍有 132 个 `Case card missing section` ERROR（33 文件），任务单基线判断错误；132 section 缺失需另开任务处理 |
+| 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | queued | - | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 用户要求把 YAI T/C 角色资料拆成知识卡片；已由欧阳锋创建 6 张核心卡，剩余 7 张扩展卡由老顽童补充 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + A1/A2 140 文件 lint 清零。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + A1/A2 140 文件 lint 清零 + 7 张 AI 学习方法论扩展卡。
 > **当前 lint 基线**：`kdo lint` 剩余 140 ERROR（8 空 source_refs + 132 case section 缺失），A1/A2 完成后预计降至 0。
 > **人员状态**：黄药师负责 A1；Hermes 老顽童负责 A2；Wave 6 已完成；B1/B2/B3 已完成；欧阳锋按 pending_review 顺序终审。
 > **执行顺序建议**：A1 与 A2 可并行；A1 处理 8 个空 source_refs，A2 处理 132 个 case section 缺失；两者完成后全库 lint ERROR 归零。
