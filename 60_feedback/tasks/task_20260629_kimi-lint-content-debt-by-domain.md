@@ -130,6 +130,15 @@ source_refs:
 
 > 本任务由 #26 frontmatter 合规修复任务拆分而来，承接剩余内容债。
 
+## 欧阳锋中期审查（2026-06-29 第一轮后）
+
+- **实测基线**：`kdo lint --summary` → 0 ERROR / 3255 WARNING（与任务单记录一致） ✅
+- **本轮产出**：31 WARNING 净减；3 张 ai-collaboration 卡补 Critique 外部反对者；8 个 title_count_mismatch 修复；2 个 When NOT to Use copy-paste 重写；32 个 Wiki page 无可见来源清零 ✅
+- **副作用确认**：body 过短从 80 → 651 是删除 706 个空「常见失败模式」section 后的债务转移，不是真正降噪；已记录为 `pitfalls.md` P-37 ✅
+- **工具问题已修复**：`kdo lint --domain <domain>` 原本不存在，欧阳锋已在 `kdo/cli.py` 和 `kdo/commands/system.py` 中实现 `--domain` 与 `--summary`；`pitfalls.md` P-38 已更新为「已修复」✅
+- **pre-submit 全局状态**：`_dogfood_dk.md` 与 `_dogfood_dk2.md` 导致全量 FAIL，属于历史遗留，与本轮修改文件无关；本轮修改文件 pre-submit 不退化 ✅
+- **结论**：本轮方向正确，同意继续。下一轮不要再批量删除空 section（会转移债务到 body 过短），应优先回填内容或重写。
+
 ## 工具说明
 
 - `kdo lint --domain <domain>` 已可用：按 `30_wiki/<domain>/` 路径前缀或 frontmatter `domain` 字段过滤 WARNING。

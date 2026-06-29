@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-29
 active_branch: main
-active_task: "#28 lint 内容债按 domain 分批清理：老顽童(Kimi)已处理 31 个 WARNING（3286→3255），任务 claimed-kimi 进行中；剩余 3255 WARNING 待继续按 domain 分批处理；body 过短从 80 激增至 651 为已知副作用"
+active_task: "#28 lint 内容债按 domain 分批清理：老顽童(Kimi)已处理 31 个 WARNING（3286→3255），任务 claimed-kimi 进行中；剩余 3255 WARNING 待继续按 domain 分批处理；body 过短从 80 激增至 651 为已知副作用；欧阳锋已修复 kdo lint --domain/--summary"
 blockers:
-  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已领取并处理 31 个 WARNING（3286→3255），剩余 3255 WARNING 待继续；body 过短从 80 激增至 651 为清理空 section 的已知副作用"
+  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已领取并处理 31 个 WARNING（3286→3255），剩余 3255 WARNING 待继续；body 过短从 80 激增至 651 为清理空 section 的已知副作用；欧阳锋已修复 kdo lint --domain/--summary，现在可直接按域过滤"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
@@ -69,7 +69,7 @@ blockers:
   - "🆕 王语嫣完成羊奶「卖地图」案例跨域桥接诊断（2026-06-29）：产出 `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`；任务单 `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` 已入 production-queue #29，待老顽童生产 3 张跨域桥接卡（framework + case + tool）"
   - "🆕 Kimi 从 YAI 对话中沉淀咨询技能（2026-06-29）：用户追问是否会遗忘，已将 9 项可迁移咨询技能写入 `20_memory/kimi-consulting-skills-from-yai-20260629.md`；包含诉求翻译、冷热分离、案例抽象、元反馈识别、队列管理、跨域桥接、验证汇报、基线接受、持久化认知"
 
-next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 WARNING，优先处理 body 过短（651）和 copy-paste（584）；② 用户决定是否接受 body 过短激增为已知副作用，或要求回填空 section；③ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 WARNING，优先处理 copy-paste（584）和 L2 Critique/no_external_attacker（846+714），body 过短（651）通过回填具体失败模式/扩展内容解决，不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
