@@ -1,8 +1,8 @@
 ---
 id: task_20260629_wangyuyan-goat-milk-channel-partnership-bridge
 type: task
-status: queued
-assignee: 老顽童(Hermes)
+status: pending_review
+assignee: 老顽童(Hermes分身-Claude)
 priority: P2
 created_at: 2026-06-29
 updated_at: 2026-06-29
@@ -108,3 +108,28 @@ related:
 - `kdo lint` 目标卡无新增 ERROR/WARNING
 - framework 卡 related ≥8，case/tool related ≥5
 - 相邻域卡片（`tool-strategy-profit-model-comparison` 等）视情况补充 related 回链
+
+## 交付记录
+
+### 2026-06-29 老顽童(Hermes分身-Claude) 交付
+
+**产出文件**：
+1. `30_wiki/frameworks/framework-yitang-channel-partnership-map.md` — P0 桥接框架卡（9 related，~350 行正文）
+2. `30_wiki/cases/case-yitang-goat-milk-channel-partnership.md` — P1 案例卡（6 related，~210 行正文）
+3. `30_wiki/tools/tool-yitang-channel-partnership-design.md` — P2 工具卡（7 related，~330 行正文）
+
+**验收自检**：
+- [x] 3 张卡全部创建，类型正确（framework / case / tool）
+- [x] framework related ≥ 8（实际 9），case/tool related ≥ 5（实际 6/7）
+- [x] framework 包含：决策矩阵 + 五要素结构 + 六种失败模式 + 与 profit-model/scoring-matrix 的接口 + 跨域双向价值
+- [x] case 包含：关键证据 + 可迁移场景 + 教训/失败模式 + 相关方法论
+- [x] tool 包含：目的 + 操作步骤（五模块）+ 不要用的场景 + 质疑
+- [x] 所有外部证据标注 conf= + 待独立核实
+- [x] 无 src_unknown 占位
+- [ ] kdo pre-submit（kdo CLI 未在本地安装，需黄药师协助跑门禁）
+- [ ] kdo lint 目标卡（同上）
+
+**已知待补**：
+- 羊奶行业具体财务数字（代理商净利润率、终端零售价、底价区间）需补充行业报告或实地调研数据——素材（课堂口述 + 会议转写）未含具体数字
+- pre-submit 门禁待黄药师协助执行
+- 相邻域卡片（profit-model-comparison 等）的 related 回链建议在欧阳锋审查后由老顽童补充
