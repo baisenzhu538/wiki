@@ -17,14 +17,14 @@ domain:
 - ai-agent
 - mcp
 source_refs:
-- 00_inbox/AI-study/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版 副本.md
+- 00_inbox/AI-study/openmontage/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版 副本.md
 - 40_outputs/capabilities/skills/openmontage-video/SKILL.md
 - https://github.com/noah-1106/openmontage-zh-mcp
 - https://github.com/calesthio/OpenMontage
 related:
-  - [[skill-openmontage-video]]
   - [[hongqigong-profile]]
-  - [[concept-kdo-card-to-video-pipeline]]
+  - [[pending_unknown]]
+  - [[pending_unknown]]
 ---
 
 # OpenMontage 中文 MCP 版：AI 视频工厂
