@@ -16,8 +16,7 @@ reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
-related: []# 知识卡草稿：智能药柜/数字药房项目诊断
-  - [["aima-ai思维卡-外部链接归档"]]
+related:
   - [[ai时代判断力口述]]
   - [[deepseek-v4-在知识管理系统中的应用]]
   - [[EC工业化规范手册]]

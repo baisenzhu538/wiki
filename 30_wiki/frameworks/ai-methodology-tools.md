@@ -31,7 +31,7 @@ trust_level: medium
 related:
   - [[case-ai-assisted-review]]
   - [[case-truman-ai-skill-self-packaging]]
-  - [["ai-俱乐部人和-ai-协作-五层结构"]]
+  - [[ai-俱乐部人和-ai-协作-五层结构]]
 
 ---
 
