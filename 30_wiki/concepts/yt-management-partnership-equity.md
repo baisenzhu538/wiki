@@ -17,9 +17,9 @@ query_triggers:
 related:
 - - - yitang-course-map
 - - - yt-system-course-catalog
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- - - tool-yitang-channel-partnership-design
+- - - framework-yitang-channel-partnership-map
+- - - case-yitang-goat-milk-channel-partnership
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

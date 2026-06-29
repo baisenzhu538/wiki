@@ -28,6 +28,7 @@ related:
 - [[tool-yitang-channel-scan-cheat-sheet]]
 - [[framework-lean-abcd-model]]
 - [[framework-yitang-growth-flywheel]]
+- [[framework-yitang-channel-partnership-map]]
 review_date: '2026-06-28'
 ---
 

@@ -19,9 +19,9 @@ source_refs:
 related:
   - [[yitang-domain-digest]]
   - [[yitang-research-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[tool-yitang-channel-partnership-design]]
+  - [[case-yitang-goat-milk-channel-partnership]]
+  - [[framework-yitang-channel-partnership-map]]
 updated_at: '2026-06-29'
 ---
 

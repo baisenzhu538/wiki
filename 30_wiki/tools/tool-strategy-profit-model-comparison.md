@@ -16,9 +16,9 @@ author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
   - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - [[framework-yitang-channel-partnership-map]]
+  - [[case-yitang-goat-milk-channel-partnership]]
+  - [[tool-yitang-channel-partnership-design]]
   - [[pending_unknown]]
 ---
 

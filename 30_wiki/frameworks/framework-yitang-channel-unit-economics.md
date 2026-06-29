@@ -34,6 +34,7 @@ related:
 - [[case-yitang-maiyi-cloud-computer-channel]]
 - [[framework-yitang-channel-industrialization]]
 - [[concept-yitang-channel-lean-validation-bridge]]
+- [[framework-yitang-channel-partnership-map]]
 review_date: '2026-06-28'
 ---
 

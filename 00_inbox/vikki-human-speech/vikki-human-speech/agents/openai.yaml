@@ -1,0 +1,7 @@
+interface:
+  display_name: "Vikki 讲人话检查"
+  short_description: "检查口播、文章和文案里的AI味与难懂表达，改写为更口语化、更有转化力的版本"
+  default_prompt: "Use $Vikki-human-speech to检查这篇口播稿或公众号文章哪里不像人话，并给出更清楚、更有转化力的修改版。"
+
+policy:
+  allow_implicit_invocation: true
