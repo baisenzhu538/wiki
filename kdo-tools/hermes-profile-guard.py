@@ -24,70 +24,83 @@ from pathlib import Path
 import yaml
 
 
-def find_hermes_root() -> Path:
-    """Locate Hermes root directory."""
+def find_hermes_roots() -> list[Path]:
+    """Locate all Hermes root directories (Windows + WSL)."""
+    roots = []
     home = Path.home()
-    candidates = [
-        home / ".hermes",
-        # WSL path from Windows
-        Path("/mnt/c/Users") / os.environ.get("USER", "Administrator") / ".hermes",
-    ]
-    # Try WSL UNC path
-    wsl_base = Path(os.environ.get("WSL_HERMES", ""))
-    if not wsl_base.exists():
-        wsl_base = Path(f"\\\\wsl$\\Ubuntu-22.04\\home\\{os.environ.get('WSL_USER', 'dministrator')}\\.hermes")
 
-    for c in candidates:
-        if c.exists():
-            return c
-    if wsl_base.exists():
-        return wsl_base
+    # Windows-side .hermes
+    win_hermes = home / ".hermes"
+    if win_hermes.exists():
+        roots.append(win_hermes)
 
-    # Try to detect from WSL
-    try:
-        result = subprocess.run(
-            ["wsl", "-d", "Ubuntu-22.04", "-e", "bash", "-c", "echo $HOME/.hermes"],
-            capture_output=True, text=True, timeout=10
-        )
-        detected = Path(result.stdout.strip())
-        if detected.exists():
-            return detected
-    except Exception:
-        pass
+    # WSL-side .hermes (UNC path)
+    wsl_hermes = Path(r"\\wsl$\Ubuntu-22.04\home\dministrator\.hermes")
+    if wsl_hermes.exists():
+        roots.append(wsl_hermes)
 
-    raise FileNotFoundError("Cannot find Hermes root. Set WSL_HERMES or WSL_USER env vars.")
+    return roots if roots else [win_hermes]  # fallback
 
 
-def list_profiles(hermes_root: Path) -> list[str]:
-    profiles_dir = hermes_root / "profiles"
-    if not profiles_dir.exists():
-        return []
-    return [d.name for d in profiles_dir.iterdir() if d.is_dir() and (d / "config.yaml").exists()]
+def list_all_profiles(roots: list[Path]) -> list[tuple[Path, str]]:
+    """Return [(hermes_root, profile_name), ...] for all profiles across all roots."""
+    result = []
+    for root in roots:
+        profiles_dir = root / "profiles"
+        if not profiles_dir.exists():
+            continue
+        for d in profiles_dir.iterdir():
+            if d.is_dir() and (d / "config.yaml").exists():
+                result.append((root, d.name))
+    return result
 
 
-def snapshot(hermes_root: Path, profile: str | None = None):
+def find_profile(roots: list[Path], profile: str) -> tuple[Path, str] | None:
+    """Find a specific profile across all roots."""
+    for root in roots:
+        cfg = root / "profiles" / profile / "config.yaml"
+        if cfg.exists():
+            return (root, profile)
+    return None
+
+
+def snapshot(roots: list[Path], profile: str | None = None):
     """Create config.yaml.bak for one or all profiles."""
-    profiles = [profile] if profile else list_profiles(hermes_root)
+    if profile:
+        found = find_profile(roots, profile)
+        if not found:
+            print(f"ERROR: Profile '{profile}' not found")
+            return
+        profiles = [(found[0], profile)]
+    else:
+        profiles = list_all_profiles(roots)
+
     results = []
-    for p in profiles:
-        cfg = hermes_root / "profiles" / p / "config.yaml"
-        bak = hermes_root / "profiles" / p / "config.yaml.bak"
+    for root, pname in profiles:
+        cfg = root / "profiles" / pname / "config.yaml"
+        bak = root / "profiles" / pname / "config.yaml.bak"
         if not cfg.exists():
-            results.append((p, "SKIP", "no config.yaml"))
+            results.append((pname, "SKIP", "no config.yaml"))
             continue
         shutil.copy2(cfg, bak)
         ts = datetime.now().isoformat()[:19]
-        results.append((p, "OK", f"{cfg.stat().st_size} bytes @ {ts}"))
+        results.append((pname, "OK", f"{cfg.stat().st_size} bytes @ {ts}"))
 
     print(f"Snapshot: {len([r for r in results if r[1]=='OK'])}/{len(results)} profiles")
     for name, status, detail in results:
         print(f"  [{status}] {name}: {detail}")
 
 
-def rollback(hermes_root: Path, profile: str):
+def rollback(roots: list[Path], profile: str):
     """Restore config.yaml from config.yaml.bak."""
-    cfg = hermes_root / "profiles" / profile / "config.yaml"
-    bak = hermes_root / "profiles" / profile / "config.yaml.bak"
+    found = find_profile(roots, profile)
+    if not found:
+        print(f"ERROR: Profile '{profile}' not found")
+        sys.exit(1)
+
+    root, _ = found
+    cfg = root / "profiles" / profile / "config.yaml"
+    bak = root / "profiles" / profile / "config.yaml.bak"
 
     if not bak.exists():
         print(f"ERROR: No backup found for {profile}")
@@ -96,7 +109,7 @@ def rollback(hermes_root: Path, profile: str):
 
     # Keep a pre-rollback copy just in case
     if cfg.exists():
-        pre_rollback = hermes_root / "profiles" / profile / f"config.yaml.pre_rollback_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        pre_rollback = root / "profiles" / profile / f"config.yaml.pre_rollback_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         shutil.copy2(cfg, pre_rollback)
 
     shutil.copy2(bak, cfg)
@@ -106,8 +119,6 @@ def rollback(hermes_root: Path, profile: str):
     try:
         with open(bak) as f:
             bak_data = yaml.safe_load(f)
-        with open(cfg) as f:
-            cfg_data = yaml.safe_load(f)
         old_provider = bak_data.get("provider", "?")
         old_model = bak_data.get("model", {}).get("default", "?") if isinstance(bak_data.get("model"), dict) else "?"
         print(f"  Restored to: provider={old_provider}, model={old_model}")
@@ -115,15 +126,18 @@ def rollback(hermes_root: Path, profile: str):
         pass
 
 
-def switch(hermes_root: Path, profile: str, provider: str, model: str, dry_run: bool = False):
+def switch(roots: list[Path], profile: str, provider: str, model: str, dry_run: bool = False):
     """Safely switch a profile's provider/model with snapshot before change."""
-    cfg = hermes_root / "profiles" / profile / "config.yaml"
-    if not cfg.exists():
-        print(f"ERROR: Profile '{profile}' not found at {cfg}")
+    found = find_profile(roots, profile)
+    if not found:
+        print(f"ERROR: Profile '{profile}' not found")
         sys.exit(1)
 
+    root, _ = found
+    cfg = root / "profiles" / profile / "config.yaml"
+
     # 1. Snapshot current config
-    snapshot(hermes_root, profile)
+    snapshot(roots, profile)
 
     # 2. Read and modify
     with open(cfg) as f:
@@ -135,7 +149,7 @@ def switch(hermes_root: Path, profile: str, provider: str, model: str, dry_run: 
     if dry_run:
         print(f"DRY-RUN: {profile}: provider {old_provider} -> {provider}, model {old_model} -> {model}")
         print(f"  Config at: {cfg}")
-        print(f"  Backup at: {hermes_root}/profiles/{profile}/config.yaml.bak")
+        print(f"  Backup at: {root}/profiles/{profile}/config.yaml.bak")
         return
 
     # Apply changes
@@ -150,31 +164,41 @@ def switch(hermes_root: Path, profile: str, provider: str, model: str, dry_run: 
 
     print(f"SWITCH: {profile}: provider {old_provider} -> {provider}, model {old_model} -> {model}")
     print(f"  Snapshot saved to config.yaml.bak")
-    print(f"  To rollback: python hermes-profile-guard.py rollback {profile}")
+    print(f"  To rollback: python kdo-tools/hermes-profile-guard.py rollback {profile}")
 
 
-def doctor(hermes_root: Path, profile: str | None = None):
+def doctor(roots: list[Path], profile: str | None = None):
     """Check profile health."""
-    profiles = [profile] if profile else list_profiles(hermes_root)
+    if profile:
+        found = find_profile(roots, profile)
+        profiles = [(found[0], profile)] if found else []
+        if not profiles:
+            print(f"Profile '{profile}' not found")
+            return
+    else:
+        profiles = list_all_profiles(roots)
 
     print("Hermes Profile Doctor")
     print("=" * 50)
+    if not profiles:
+        print("  No profiles found!")
+        return
 
-    for p in profiles:
-        cfg = hermes_root / "profiles" / p / "config.yaml"
-        bak = hermes_root / "profiles" / p / "config.yaml.bak"
+    for root, pname in profiles:
+        cfg = root / "profiles" / pname / "config.yaml"
+        bak = root / "profiles" / pname / "config.yaml.bak"
 
         issues = []
         if not cfg.exists():
             issues.append("MISSING config.yaml")
-            print(f"  {p}: BROKEN - {', '.join(issues)}")
+            print(f"  {pname}: BROKEN - {', '.join(issues)}")
             continue
 
         cfg_size = cfg.stat().st_size
         bak_size = bak.stat().st_size if bak.exists() else 0
 
         if not bak.exists():
-            issues.append("NO SNAPSHOT (config.yaml.bak missing)")
+            issues.append("NO SNAPSHOT")
 
         try:
             with open(cfg) as f:
@@ -182,11 +206,12 @@ def doctor(hermes_root: Path, profile: str | None = None):
         except Exception as e:
             issues.append(f"YAML PARSE ERROR: {e}")
 
-        provider = data.get("provider", "?")
+        provider = data.get("provider", "no provider field")
         model = data.get("model", {}).get("default", "?") if isinstance(data.get("model"), dict) else data.get("model", "?")
+        loc = "WSL" if "wsl" in str(root) else "WIN"
 
         status = "HEALTHY" if not issues else "ISSUES"
-        print(f"  {p}: {status} | provider={provider} model={model} | config={cfg_size}B bak={bak_size}B")
+        print(f"  [{loc}] {pname}: {status} | provider={provider} model={model} | cfg={cfg_size}B bak={bak_size}B")
         for issue in issues:
             print(f"    - {issue}")
 
@@ -212,16 +237,16 @@ def main():
 
     args = parser.parse_args()
 
-    hermes_root = find_hermes_root()
+    roots = find_hermes_roots()
 
     if args.command == "snapshot":
-        snapshot(hermes_root, args.profile)
+        snapshot(roots, args.profile)
     elif args.command == "rollback":
-        rollback(hermes_root, args.profile)
+        rollback(roots, args.profile)
     elif args.command == "switch":
-        switch(hermes_root, args.profile, args.provider, args.model, args.dry_run)
+        switch(roots, args.profile, args.provider, args.model, args.dry_run)
     elif args.command == "doctor":
-        doctor(hermes_root, args.profile)
+        doctor(roots, args.profile)
 
 
 if __name__ == "__main__":
