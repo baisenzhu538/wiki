@@ -10,6 +10,7 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
@@ -75,10 +76,10 @@ related:
 
 ## When NOT to Use
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **团队缺乏行业体感，无法区分信号与噪音**：外部对抗地图要求判断 16 项变化的优先级，如果团队对行业周期、竞争格局、资本环境没有基本认知，地图会变成主观打分游戏。
+- **企业处于极端早期，产品尚未 PMF**：此时最大的外部力量是"有没有人需要你的产品"，用 16 项宏观变化盘点是过度分析，应先聚焦用户验证。
+- **外部环境变化速度超过季度复评节奏**：例如某些新兴市场每 1-2 个月就发生一次渠道或政策剧变，季度复评会让地图迅速失效。
+- **已经有明确且验证过的战略方向**：如果战略已通过数据验证并进入执行期，再频繁做外部对抗盘点会分散执行注意力，只需监测少数关键变量即可。
 
 ## 失败模式
 
